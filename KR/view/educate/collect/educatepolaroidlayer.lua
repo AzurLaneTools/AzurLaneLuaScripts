@@ -24,7 +24,7 @@ end
 slot0.initUnlockAttr = function(slot0)
 	slot0.unlockAttrs = {}
 	slot1 = getProxy(EducateProxy)
-	slot0.endings = slot1:GetFinishEndings()
+	slot0.endings = slot1:GetAllEndings()
 
 	underscore.each(slot0.endings, function (slot0)
 		if pg.child_ending[slot0].polaroid_condition ~= 0 and not table.contains(uv0.unlockAttrs, slot1) then
@@ -34,23 +34,27 @@ slot0.initUnlockAttr = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	slot0:initUnlockAttr()
 	slot0:initGroups()
-
-	slot0.polaroidData = getProxy(EducateProxy):GetPolaroidData()
-	slot1, slot2 = getProxy(EducateProxy):GetPolaroidGroupCnt()
-
-	setText(slot0.curCntTF, slot1)
-	setText(slot0.allCntTF, "/" .. slot2)
+	slot0:initShowList()
 	onButton(slot0, slot0.performTF, function ()
 		setActive(uv0.performTF, false)
 	end, SFX_PANEL)
-	slot0:initShowList()
 
 	slot0.pages = math.ceil(#slot0.groupIds / slot0.onePageCnt)
 
-	slot0:updatePage()
 	EducateTipHelper.ClearNewTip(EducateTipHelper.NEW_POLAROID)
+
+	slot1 = slot0.performTF:Find("bg/lock/unlock_btn/Text")
+
+	slot1:GetComponent("RichText"):AddSprite("gold", slot0._tf:Find("res/gold"):GetComponent(typeof(Image)).sprite)
+	setText(slot1, i18n("child_could_buy"))
+	setText(slot0.windowTF:Find("tip"), i18n("child_buy_polaroid_tip"))
+
+	slot0.basePrice = pg.gameset.child_polaroid_basic_price.key_value
+	slot0.addPrice = pg.gameset.child_polaroid_add_price.key_value
+	slot0.maxPrice = pg.gameset.child_polaroid_max_price.key_value
+
+	slot0:Flush()
 end
 
 slot0.initShowList = function(slot0)
@@ -74,12 +78,12 @@ slot0.initShowList = function(slot0)
 			setActive(slot2:Find("unlock/selected"), uv0.selectedIndex == slot1 + 1)
 			setActive(slot2:Find("unlock/unselected"), uv0.selectedIndex ~= slot1 + 1)
 			onButton(uv0, slot2, function (slot0)
-				if uv0 then
-					uv1.selectedIndex = uv2 + 1
+				uv0.selectedIndex = uv1 + 1
 
-					uv1:updatePerform(uv3)
-					uv1.showList:align(#uv1.showIds)
-				else
+				uv0:updatePerform(uv2, uv3)
+				uv0.showList:align(#uv0.showIds)
+
+				if not uv3 then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("child_polaroid_lock_tip"))
 				end
 			end)
@@ -101,6 +105,32 @@ slot0.IsUnlock = function(slot0, slot1)
 	end
 
 	return false
+end
+
+slot0.SetData = function(slot0)
+	slot1 = getProxy(EducateProxy)
+	slot0.polaroidData = slot1:GetPolaroidData()
+	slot0.gameCnt = slot1:GetGameCnt()
+	slot0.bugCnt = slot1:GetPolaroidBuyCnt()
+
+	slot0:initUnlockAttr()
+end
+
+slot0.Flush = function(slot0)
+	slot0:SetData()
+
+	slot1, slot2 = getProxy(EducateProxy):GetPolaroidGroupCnt()
+
+	setText(slot0.curCntTF, slot1)
+	setText(slot0.allCntTF, "/" .. slot2)
+	slot0:updatePage()
+
+	if isActive(slot0.performTF) then
+		slot3 = slot0.showIds[slot0.selectedIndex]
+
+		slot0:updatePerform(slot3, slot0:IsUnlock(slot3))
+		slot0.showList:align(#slot0.showIds)
+	end
 end
 
 slot0.updatePage = function(slot0)
@@ -153,7 +183,11 @@ slot0.updateItem = function(slot0, slot1, slot2)
 		end, SFX_PANEL)
 	else
 		removeOnButton(slot2)
-		setText(slot2:Find("lock/Text"), slot4.condition)
+		setText(slot2:Find("lock/desc/Text"), slot4.condition)
+		setActive(slot2:Find("lock/unlock_btn"), slot0.gameCnt > 1)
+		onButton(slot0, slot6, function ()
+			uv0:OnClickBuyBtn(uv1)
+		end, SFX_PANEL)
 	end
 end
 
@@ -165,11 +199,32 @@ slot0.showPerformWindow = function(slot0, slot1, slot2)
 	setActive(slot0.performTF, true)
 end
 
-slot0.updatePerform = function(slot0, slot1)
-	slot2 = slot0.config[slot1]
+slot0.updatePerform = function(slot0, slot1, slot2)
+	LoadImageSpriteAsync("educatepolaroid/" .. slot0.config[slot1].pic, slot0.performTF:Find("bg/icon/Image"))
+	setActive(slot0.performTF:Find("bg/icon/lock"), not slot2)
+	setText(slot0.performTF:Find("bg/Text"), slot2 and slot3.title or "")
+	setActive(slot0.performTF:Find("bg/lock"), not slot2)
 
-	LoadImageSpriteAsync("educatepolaroid/" .. slot2.pic, slot0.performTF:Find("bg/mask/Image"))
-	setText(slot0.performTF:Find("bg/Text"), slot2.title)
+	if not slot2 then
+		setText(slot0.performTF:Find("bg/lock/desc/Text"), slot3.condition)
+		setActive(slot0.performTF:Find("bg/lock/unlock_btn"), slot0.gameCnt > 1)
+		onButton(slot0, slot4, function ()
+			uv0:OnClickBuyBtn(uv1)
+		end, SFX_PANEL)
+	end
+end
+
+slot0.OnClickBuyBtn = function(slot0, slot1)
+	slot0:emit(EducateBaseUI.EDUCATE_ON_MSG_TIP, {
+		content = i18n("child_polaroid_buy", math.min(slot0.maxPrice, slot0.basePrice + slot0.bugCnt * slot0.addPrice), slot1.title),
+		onYes = function ()
+			uv0:emit(EducateCollectMediatorTemplate.UNLOCK, {
+				type = EducateBuyCollectCommand.TYPE.POLAROID,
+				id = uv1.id,
+				cost = uv2
+			})
+		end
+	})
 end
 
 slot0.playAnimChange = function(slot0)

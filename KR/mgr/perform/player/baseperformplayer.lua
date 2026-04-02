@@ -24,4 +24,7 @@ slot0.Clear = function(slot0)
 	assert(nil, "Clear方法必须由子类实现")
 end
 
+slot0.Dispose = function(slot0)
+end
+
 return slot0

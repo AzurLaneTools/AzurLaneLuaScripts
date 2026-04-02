@@ -19,6 +19,21 @@ pg.island_task_target = setmetatable({
 		40005,
 		500000011,
 		500000021,
+		510010001,
+		510010011,
+		510010012,
+		510010013,
+		510010014,
+		510020001,
+		510020011,
+		510020012,
+		510020013,
+		510020014,
+		510030001,
+		510030011,
+		510030012,
+		510030013,
+		510030014,
 		50001001,
 		50001002,
 		50001003,
@@ -602,6 +617,165 @@ pg.base.island_task_target = {
 		target_param = {
 			5826
 		}
+	},
+	[510010001] = {
+		tips = "",
+		jump_ui = "",
+		name = "아일랜드 권한 인증 - TB",
+		type = 4,
+		id = 510010001,
+		target_num = 1,
+		target_param = {
+			12
+		}
+	},
+	[510010011] = {
+		tips = "",
+		jump_ui = "",
+		name = "수동으로 임의의 목재 채집",
+		type = 49,
+		id = 510010011,
+		target_num = 3,
+		target_param = {
+			402
+		}
+	},
+	[510010012] = {
+		tips = "10090008",
+		jump_ui = "",
+		name = "동료를 배치하여 오믈렛을 준비하자",
+		type = 7,
+		id = 510010012,
+		target_num = 3,
+		target_param = {
+			901001
+		}
+	},
+	[510010013] = {
+		tips = "10010003",
+		jump_ui = "",
+		name = "동료를 배치하여 우유를 준비하자",
+		type = 7,
+		id = 510010013,
+		target_num = 3,
+		target_param = {
+			101016
+		}
+	},
+	[510010014] = {
+		tips = "10060002",
+		jump_ui = "",
+		name = "가게에서 물자를 벌자",
+		type = 29,
+		id = 510010014,
+		target_num = 500,
+		target_param = {
+			0
+		}
+	},
+	[510020001] = {
+		tips = "",
+		jump_ui = "",
+		name = "아일랜드 권한 인증 - 네비",
+		type = 4,
+		id = 510020001,
+		target_num = 1,
+		target_param = {
+			11
+		}
+	},
+	[510020011] = {
+		tips = "10010040",
+		jump_ui = "",
+		name = "수동으로 임의의 농작물 채집",
+		type = 47,
+		id = 510020011,
+		target_num = 3,
+		target_param = {
+			101
+		}
+	},
+	[510020012] = {
+		tips = "10050003",
+		jump_ui = "",
+		name = "동료를 배치하여 딸기를 준비하자",
+		type = 7,
+		id = 510020012,
+		target_num = 3,
+		target_param = {
+			502002
+		}
+	},
+	[510020013] = {
+		tips = "",
+		jump_ui = "",
+		name = "고양이를 쓰다듬자",
+		type = 1,
+		id = 510020013,
+		target_num = 1,
+		target_param = {
+			6201
+		}
+	},
+	[510020014] = {
+		tips = "",
+		jump_ui = "",
+		name = "「오픈: 공업 아이템」을 연구하자",
+		type = 8,
+		id = 510020014,
+		target_num = 1,
+		target_param = {
+			640001
+		}
+	},
+	[510030001] = {
+		tips = "",
+		jump_ui = "",
+		name = "아일랜드 권한 인증 - 로라",
+		type = 4,
+		id = 510030001,
+		target_num = 1,
+		target_param = {
+			13
+		}
+	},
+	[510030011] = {
+		tips = "10020009",
+		jump_ui = "",
+		name = "아일랜드 의뢰를 처리하자",
+		type = 3,
+		id = 510030011,
+		target_num = 3,
+		target_param = ""
+	},
+	[510030012] = {
+		tips = "10010003",
+		jump_ui = "",
+		name = "동료를 배치하여 목장 동물 돌보기",
+		type = 48,
+		id = 510030012,
+		target_num = 3,
+		target_param = {
+			102
+		}
+	},
+	[510030013] = {
+		tips = "10020085",
+		jump_ui = "",
+		name = "낚시하기",
+		type = 58,
+		id = 510030013,
+		target_num = 1,
+		target_param = ""
+	},
+	[510030014] = {
+		tips = "10060002",
+		jump_ui = "",
+		name = "가게를 운영하자",
+		type = 31,
+		id = 510030014,
+		target_num = 1,
+		target_param = ""
 	},
 	[50001001] = {
 		tips = "",

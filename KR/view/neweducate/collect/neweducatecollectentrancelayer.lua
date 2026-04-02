@@ -21,6 +21,8 @@ slot0.init = function(slot0)
 	slot0.contentTF.offsetMax = Vector2(0, 0)
 	slot0.memoryBtn = slot0.contentTF:Find("memory_btn")
 	slot0.polaroidBtn = slot0.contentTF:Find("polaroid_btn")
+	slot0.polaroidBtn2 = slot0.contentTF:Find("polaroid_btn2")
+	slot0.buffBtn = slot0.contentTF:Find("buff_btn")
 	slot0.endingBtn = slot0.contentTF:Find("ending_btn")
 	slot0.reviewBtn = slot0.contentTF:Find("review_btn")
 	slot0.leftTF = slot0._tf:Find("anim_root/left")
@@ -55,10 +57,6 @@ slot0.didEnter = function(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.polaroidBtn, function ()
 		if uv0.contextData.id == 0 then
-			if isActive(uv0.polaroidBtn:Find("lock")) then
-				return
-			end
-
 			uv0:emit(NewEducateCollectEntranceMediator.GO_SUBLAYER, Context.New({
 				mediator = EducateCollectMediatorTemplate,
 				viewComponent = EducatePolaroidLayer
@@ -73,6 +71,15 @@ slot0.didEnter = function(slot0)
 				}
 			}))
 		end
+	end, SFX_PANEL)
+	onButton(slot0, slot0.polaroidBtn2, function ()
+		uv0:emit(NewEducateCollectEntranceMediator.GO_SUBLAYER, Context.New({
+			mediator = NewEducateCollectMediatorTemplate,
+			viewComponent = NewEducatePolaroidLayer,
+			data = {
+				permanentData = uv0.permanentData
+			}
+		}))
 	end, SFX_PANEL)
 	onButton(slot0, slot0.endingBtn:Find("unlock"), function ()
 		if uv0.contextData.id == 0 then
@@ -109,6 +116,15 @@ slot0.didEnter = function(slot0)
 			})
 		end
 	end, SFX_PANEL)
+	onButton(slot0, slot0.buffBtn, function ()
+		uv0:emit(NewEducateCollectEntranceMediator.GO_SUBLAYER, Context.New({
+			mediator = NewEducateCollectMediatorTemplate,
+			viewComponent = NewEducateBuffLayer,
+			data = {
+				permanentData = uv0.permanentData
+			}
+		}))
+	end, SFX_PANEL)
 	slot0.toggleList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventInit then
 			slot3 = uv0.ids[slot1 + 1]
@@ -143,15 +159,29 @@ slot0.FlushView = function(slot0, slot1)
 
 	setText(slot0.memoryBtn:Find("Text"), #slot0.permanentData:GetUnlockMemoryIds() .. "/" .. #slot0.permanentData:GetAllMemoryIds())
 	setActive(slot0.memoryBtn:Find("new"), false)
-	setActive(slot0.polaroidBtn:Find("lock"), false)
-	setText(slot0.polaroidBtn:Find("Text"), #slot0.permanentData:GetUnlockPolaroidGroups() .. "/" .. #slot0.permanentData:GetAllPolaroidGroups())
+
+	slot4 = slot0.permanentData:IsTarotType()
+	slot5 = #slot0.permanentData:GetUnlockPolaroidGroups()
+	slot6 = #slot0.permanentData:GetAllPolaroidGroups()
+
+	setText(slot0.polaroidBtn:Find("Text"), slot5 .. "/" .. slot6)
+	setText(slot0.polaroidBtn2:Find("Text"), slot5 .. "/" .. slot6)
 	setActive(slot0.polaroidBtn:Find("new"), false)
+	setActive(slot0.polaroidBtn2:Find("new"), false)
+	setActive(slot0.polaroidBtn, not slot4)
+	setActive(slot0.polaroidBtn2, slot4)
+	setActive(slot0.buffBtn, slot4)
+
+	if slot4 then
+		setText(slot0.buffBtn:Find("Text"), slot0.permanentData:GetAllUnlockBuffCnt() .. "/" .. slot0.permanentData:GetAllBuffCnt())
+	end
+
 	setText(slot0.endingBtn:Find("unlock/Text"), #slot0.permanentData:GetActivatedEndings() .. "/" .. #slot0.permanentData:GetAllEndingIds())
 
-	slot8 = NewEducateConst.LOCK_ENDING and slot0.permanentData:GetGameCnt()
+	slot9 = NewEducateConst.LOCK_ENDING and slot0.permanentData:GetGameCnt()
 
-	setActive(slot0.endingBtn:Find("unlock"), not slot8)
-	setActive(slot0.endingBtn:Find("lock"), slot8)
+	setActive(slot0.endingBtn:Find("unlock"), not slot9)
+	setActive(slot0.endingBtn:Find("lock"), slot9)
 end
 
 slot0.FlushTBView = function(slot0)
@@ -165,7 +195,10 @@ slot0.FlushTBView = function(slot0)
 	setText(slot0.polaroidBtn:Find("Text"), slot5 .. "/" .. slot6)
 	setActive(slot0.polaroidBtn:Find("lock"), not EducateHelper.IsSystemUnlock(EducateConst.SYSTEM_POLAROID))
 	setActive(slot0.polaroidBtn:Find("new"), EducateTipHelper.IsShowNewTip(EducateTipHelper.NEW_POLAROID))
-	setText(slot0.endingBtn:Find("unlock/Text"), #slot1:GetFinishEndings() .. "/" .. #pg.child_ending.all)
+	setActive(slot0.polaroidBtn, true)
+	setActive(slot0.polaroidBtn2, false)
+	setActive(slot0.buffBtn, false)
+	setText(slot0.endingBtn:Find("unlock/Text"), #slot1:GetAllEndings() .. "/" .. #pg.child_ending.all)
 
 	slot8 = EducateHelper.IsSystemUnlock(EducateConst.SYSTEM_ENDING) or #slot3 > 0
 

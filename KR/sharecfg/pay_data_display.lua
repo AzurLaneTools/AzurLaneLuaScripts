@@ -134,6 +134,7 @@ pg.pay_data_display = setmetatable({
 		1024,
 		1025,
 		1026,
+		1027,
 		1304,
 		2001,
 		2002,
@@ -11360,7 +11361,7 @@ pg.base.pay_data_display = {
 		id_str = "alkrgift178",
 		extra_gem = 0,
 		id = 9002,
-		airijp_id = "com.bilibili.blhx.zuanshi201",
+		airijp_id = "com.yostarjp.azurlane.diamond197",
 		name_display = "봄날 선택 패키지1(2026)",
 		first_text = "",
 		akashi_pick = 1,
@@ -11468,7 +11469,7 @@ pg.base.pay_data_display = {
 		id_str = "alkrgift179",
 		extra_gem = 0,
 		id = 9003,
-		airijp_id = "com.bilibili.blhx.zuanshi202",
+		airijp_id = "com.yostarjp.azurlane.diamond198",
 		name_display = "봄날 선택 패키지2(2026)",
 		first_text = "",
 		akashi_pick = 1,
@@ -11581,7 +11582,7 @@ pg.base.pay_data_display = {
 		id_str = "alkrgift180",
 		extra_gem = 0,
 		id = 9004,
-		airijp_id = "com.bilibili.blhx.zuanshi203",
+		airijp_id = "com.yostarjp.azurlane.diamond199",
 		name_display = "봄날 선택 패키지3(2026)",
 		first_text = "",
 		akashi_pick = 1,
@@ -11708,7 +11709,7 @@ pg.base.pay_data_display = {
 		id_str = "alkrgift181",
 		extra_gem = 0,
 		id = 9005,
-		airijp_id = "com.bilibili.blhx.zuanshi204",
+		airijp_id = "com.yostarjp.azurlane.diamond200",
 		name_display = "봄날 할인 패키지(2026)",
 		first_text = "랜덤 스킨",
 		akashi_pick = 1,
@@ -11822,7 +11823,7 @@ pg.base.pay_data_display = {
 		id_str = "alkrgift182",
 		extra_gem = 0,
 		id = 9006,
-		airijp_id = "com.bilibili.blhx.zuanshi205",
+		airijp_id = "com.yostarjp.azurlane.diamond201",
 		name_display = "프리미엄 봄날 할인 패키지(2026)",
 		first_text = "랜덤 스킨",
 		akashi_pick = 1,
@@ -15294,6 +15295,91 @@ pg.base.pay_data_display = {
 		},
 		sub_display = {
 			7027,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1027] = {
+		picture = "battlepass_1",
+		name = "특허 투어 패스(26 봄)",
+		type = 0,
+		second_text = "특별 보상 개방",
+		descrip = "구매 시 투어 Pt 1500을 획득하며, 추가로 특허 투어 보상을 개방",
+		subject = "특허 투어 패스(26 봄)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 12000,
+		descrip_extra = "※ 월드 투어 클리어 시 추가 보상을 획득 가능",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 6,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift183",
+		extra_gem = 0,
+		id = 1027,
+		airijp_id = "com.yostarjp.azurlane.seasonpass28",
+		name_display = "특허 투어 패스(26 봄)",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4028,
+				1500
+			},
+			{
+				8,
+				65116,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					4,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					7
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			7028,
 			1500
 		},
 		ignorePlatform = {},

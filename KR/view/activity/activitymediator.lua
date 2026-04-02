@@ -56,6 +56,7 @@ slot0.ON_BOSSRUSH_MAP = "ActivityMediator.ON_BOSSRUSH_MAP"
 slot0.SKIP_ACTIVITY_MAP = "ActivityMediator.SKIP_ACTIVITY_MAP"
 slot0.OPEN_MINI_PROGRAM = "ActivityMediator.OPEN_MINI_PROGRAM"
 slot0.ON_COLLAB_BOSSRUSH_MAP = "ActivityMediator.ON_COLLAB_BOSSRUSH_MAP"
+slot0.OPEN_CULTIVATING_PLANT = "ActivityMediator.OPEN_CULTIVATING_PLANT"
 
 slot0.register = function(slot0)
 	slot0:bind(uv0.GO_MONOPOLY2024, function (slot0, slot1, slot2)
@@ -252,6 +253,12 @@ slot0.register = function(slot0)
 	end)
 	slot0:bind(uv0.OPEN_MINI_PROGRAM, function (slot0)
 		pg.SdkMgr.GetInstance():OpenMiniProgram()
+	end)
+	slot0:bind(uv0.OPEN_CULTIVATING_PLANT, function (slot0)
+		uv0:addSubLayers(Context.New({
+			mediator = CultivatingPlantMediator,
+			viewComponent = CultivatingPlantScene
+		}))
 	end)
 	slot0:bind(uv0.GO_SPECIAL_EXERCISE, function ()
 		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.ACT_BOSS_BATTLE)

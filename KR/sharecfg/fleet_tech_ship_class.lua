@@ -4144,6 +4144,17 @@ pg.fleet_tech_ship_class = {
 			970209
 		}
 	},
+	[970210] = {
+		shiptype = 2,
+		name = "쾰른·META",
+		t_level = 3,
+		id = 970210,
+		t_level_1 = 20,
+		nation = 97,
+		ships = {
+			970210
+		}
+	},
 	[970211] = {
 		shiptype = 2,
 		name = "레겐스부르크·META",
@@ -4909,6 +4920,7 @@ pg.fleet_tech_ship_class = {
 		970207,
 		970208,
 		970209,
+		970210,
 		970211,
 		970301,
 		970302,

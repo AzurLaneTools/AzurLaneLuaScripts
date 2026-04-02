@@ -6,11 +6,6 @@ slot0.TPL_TYPE = {
 	ARROWS = 5,
 	OPTION = 3
 }
-slot0.TEXT_WORLD_TYPE = {
-	RIGHT = 2,
-	ASIDE = 0,
-	LEFT = 1
-}
 
 slot0.Ctor = function(slot0, slot1)
 	pg.DelegateInfo.New(slot0)
@@ -235,17 +230,23 @@ slot0.UpdateOption = function(slot0, slot1, slot2)
 	slot4 = pg.child2_node[slot3]
 
 	setScrollText(slot2:Find("mask/name"), slot0:_GetText(slot4.text))
+
+	slot5 = getProxy(NewEducateProxy):GetCurChar()
+
 	setActive(slot2:Find("bg"), slot4.performance_param ~= "")
 
-	if slot5 ~= "" then
-		LoadImageSpriteAtlasAsync("ui/neweducatenodeui_atlas", "option_bg" .. slot5, slot2:Find("bg"))
+	if slot6 ~= "" then
+		if slot6 == 3 then
+			LoadImageSpriteAtlasAsync("ui/neweducatenodeui_atlas", "option_bg" .. slot6, slot2:Find("bg"))
+		else
+			LoadImageSpriteAsync("neweducateicon/" .. slot5:GetPersonalityTagOptionBg(slot6), slot2:Find("bg"))
+		end
 	end
 
-	slot6 = false
-	slot7 = getProxy(NewEducateProxy):GetCurChar()
+	slot7 = false
 
 	if #slot4.option_condition > 0 then
-		slot6 = not slot7:IsMatchComplex(slot4.option_condition)
+		slot7 = not slot5:IsMatchComplex(slot4.option_condition)
 	end
 
 	setActive(slot2:Find("cost"), #slot4.option_cost > 0)
@@ -263,17 +264,17 @@ slot0.UpdateOption = function(slot0, slot1, slot2)
 		end)
 		slot9:align(#slot8)
 
-		slot6 = slot6 or not slot7:IsMatchs(underscore.map(slot8, function (slot0)
+		slot7 = slot7 or not slot5:IsMatchs(underscore.map(slot8, function (slot0)
 			slot0.operator = ">="
 
 			return slot0
 		end))
 	end
 
-	setImageColor(slot2, Color.NewHex(slot6 and "C8CAD5" or "FFFFFF"))
-	setTextColor(slot2:Find("mask/name"), Color.NewHex(slot6 and "717171" or "393A3C"))
+	setImageColor(slot2, Color.NewHex(slot7 and "C8CAD5" or "FFFFFF"))
+	setTextColor(slot2:Find("mask/name"), Color.NewHex(slot7 and "717171" or "393A3C"))
 
-	if not slot6 then
+	if not slot7 then
 		onButton(slot0, slot2, function ()
 			existCall(uv0.callback(uv1, uv2))
 		end, SFX_PANEL)
@@ -400,7 +401,7 @@ slot0.AddDrops = function(slot0, slot1, slot2, slot3)
 
 	slot5 = {}
 
-	for slot9, slot10 in ipairs(slot2) do
+	for slot10, slot11 in ipairs(NewEducateHelper.MergeDrops(slot2)) do
 		table.insert(slot5, function (slot0)
 			uv2:UpdateDropText(uv1, cloneTplTo(uv0:Find("tpl"), uv0, uv1.type .. "_" .. uv1.id), slot0)
 		end)
@@ -420,31 +421,32 @@ end
 slot0.UpdateDropText = function(slot0, slot1, slot2, slot3)
 	slot0.speed = NewEducateConst.TYPEWRITE_SPEED
 	slot4 = NewEducateHelper.GetDropConfig(slot1)
+	slot5 = getProxy(NewEducateProxy):GetCurChar()
 
 	if NewEducateHelper.IsPersonalDrop(slot1) then
-		setText(slot2:Find("content/value"), (slot1.number > 0 and i18n("child2_personal_tag2") or i18n("child2_personal_tag1")) .. "+" .. math.abs(slot1.number))
+		setText(slot2:Find("content/value"), (slot1.number > 0 and slot5:GetPersonalityTagTip(2) or slot5:GetPersonalityTagTip(1)) .. "+" .. math.abs(slot1.number))
 	elseif slot1.type == NewEducateConst.DROP_TYPE.ATTR or slot1.type == NewEducateConst.DROP_TYPE.RES then
-		setText(slot2:Find("content/value"), i18n(slot1.number > 0 and "child2_site_drop_add" or "child2_site_drop_reduce", slot4.name, getProxy(NewEducateProxy):GetCurChar():GetOwnCnt(slot1) - slot1.number + (slot1.overflow or 0), slot7, math.abs(slot1.number - (slot1.overflow or 0))))
+		setText(slot2:Find("content/value"), i18n(slot1.number > 0 and "child2_site_drop_add" or "child2_site_drop_reduce", slot4.name, slot5:GetOwnCnt(slot1) - slot1.number + (slot1.overflow or 0), slot8, math.abs(slot1.number - (slot1.overflow or 0))))
 	else
 		setText(slot2:Find("content/value"), i18n("child2_site_drop_item", slot4.name))
 	end
 
 	setActive(slot2:Find("content/benefit"), false)
 
-	slot5 = GetComponent(slot2:Find("content/value"), typeof(Typewriter))
+	slot6 = GetComponent(slot2:Find("content/value"), typeof(Typewriter))
 
-	slot5.endFunc = function()
+	slot6.endFunc = function()
 		onDelayTick(function ()
 			existCall(uv0)
 		end, 0.5)
 	end
 
-	slot5:setSpeed(slot0.speed)
+	slot6:setSpeed(slot0.speed)
 
 	if not isActive(slot0._tf) then
 		existCall(slot3)
 	else
-		slot5:Play()
+		slot6:Play()
 
 		if slot0.speed ~= NewEducateConst.TYPEWRITE_SPEED_UP then
 			onButton(slot0, slot0.windowTF, function ()
@@ -467,7 +469,7 @@ slot0.CheckPersonalChange = function(slot0, slot1)
 	if slot2:GetPersonalityTag(slot2:GetPersonality() - slot1) ~= slot2:GetPersonalityTag() then
 		slot6 = cloneTplTo(slot0.tpls[uv0.TPL_TYPE.DROP], slot0.contentTF, "personal_change"):Find("tpl")
 
-		setText(slot6:Find("content/value"), i18n("child2_personal_change") .. ">>" .. (slot1 > 0 and i18n("child2_personal_tag2") or i18n("child2_personal_tag1")))
+		setText(slot6:Find("content/value"), i18n("child2_personal_change") .. ">>" .. (slot1 > 0 and slot2:GetPersonalityTagTip(2) or slot2:GetPersonalityTagTip(1)))
 		setActive(slot6:Find("content/benefit"), false)
 
 		slot8 = GetComponent(slot6:Find("content/value"), typeof(Typewriter))

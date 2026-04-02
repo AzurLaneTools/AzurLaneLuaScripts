@@ -156,6 +156,84 @@ pg.island_skin_template = {
 		icon = "skin_5060101",
 		icon_normal = ""
 	},
+	[99000201] = {
+		ship_group = 990002,
+		name = "어린 시절",
+		jump_page = "",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "순수하고 올곧은 마음. 서툰 발걸음으로 주변을 탐험하며, 눈에 보이는 모든 것을 만져본다.",
+		shop_goods_id = 0,
+		model = 99000201,
+		id = 99000201,
+		icon = "skin_99000201",
+		icon_normal = ""
+	},
+	[99000202] = {
+		ship_group = 990002,
+		name = "서툰 관찰자",
+		jump_page = "",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "깔끔하게 정돈된 원피스 차림. 고요하게 세상을 바라보는 한결같은 눈빛.",
+		shop_goods_id = 0,
+		model = 99000202,
+		id = 99000202,
+		icon = "skin_99000202",
+		icon_normal = ""
+	},
+	[99000101] = {
+		ship_group = 990001,
+		name = "활기찬 등교길",
+		jump_page = "",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "풀장착 완료, 출발! 오늘은 등교길에 어떤 장난을 쳐볼까?",
+		shop_goods_id = 0,
+		model = 99000101,
+		id = 99000101,
+		icon = "skin_99000101",
+		icon_normal = ""
+	},
+	[99000102] = {
+		ship_group = 990001,
+		name = "우등생 코스프레",
+		jump_page = "",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "단정하게 갖춰 입은 교복. 우등생 같은 모습 뒤에 숨길 수 없는 짓궂은 기질.",
+		shop_goods_id = 0,
+		model = 99000102,
+		id = 99000102,
+		icon = "skin_99000102",
+		icon_normal = ""
+	},
+	[99000301] = {
+		ship_group = 990003,
+		name = "순백의 속삭임",
+		jump_page = "",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "티 없는 순백은 마치 차분한 성격이 그대로 형상화된 듯하다.",
+		shop_goods_id = 0,
+		model = 99000301,
+		id = 99000301,
+		icon = "skin_99000301",
+		icon_normal = ""
+	},
+	[99000302] = {
+		ship_group = 990003,
+		name = "정적의 예복",
+		jump_page = "",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "정장 스타일의 점퍼 스커트 예복. 어딘가 수줍어하는 듯한 귀여움.",
+		shop_goods_id = 0,
+		model = 99000302,
+		id = 99000302,
+		icon = "skin_99000302",
+		icon_normal = ""
+	},
 	get_id_list_by_ship_group = {
 		[10110] = {
 			1011001
@@ -192,6 +270,18 @@ pg.island_skin_template = {
 		},
 		[50601] = {
 			5060101
+		},
+		[990002] = {
+			99000201,
+			99000202
+		},
+		[990001] = {
+			99000101,
+			99000102
+		},
+		[990003] = {
+			99000301,
+			99000302
 		}
 	},
 	all = {
@@ -206,6 +296,12 @@ pg.island_skin_template = {
 		3120101,
 		4030301,
 		4990201,
-		5060101
+		5060101,
+		99000201,
+		99000202,
+		99000101,
+		99000102,
+		99000301,
+		99000302
 	}
 }

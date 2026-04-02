@@ -2,7 +2,15 @@ slot0 = class("NewEducateGoods", import("model.vo.BaseVO"))
 slot0.TYPE = {
 	ATTR = 2,
 	RES = 3,
-	BENEFIT = 1
+	UP_ENTRY = 5,
+	BENEFIT = 1,
+	CHOOSE = 4
+}
+slot0.COST_TYPE = {
+	GOLD = 1
+}
+slot0.COST_TYPE_2_RES_TYPE = {
+	[slot0.COST_TYPE.GOLD] = NewEducateChar.RES_TYPE.MONEY
 }
 
 slot0.bindConfigTable = function(slot0)
@@ -35,7 +43,7 @@ slot0.GetCostCondition = function(slot0)
 	return {
 		operator = ">=",
 		type = NewEducateConst.DROP_TYPE.RES,
-		id = slot0:getConfig("resource_type"),
+		id = getProxy(NewEducateProxy):GetCurChar():GetResIdByType(uv0.COST_TYPE_2_RES_TYPE[slot0:getConfig("resource_type")]),
 		number = slot0:getConfig("resource_num")
 	}
 end

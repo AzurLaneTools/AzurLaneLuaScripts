@@ -12542,12 +12542,12 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「지엔우」 상시 건조 추가!"
+	tip = "「고리치아」, 「안드레아 도리아」 상시 건조 추가!"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「하이롱」, 「창펑」 상시 건조 추가!"
+	tip = "「아틸리오 레골로」 상시 건조 추가!"
 }
 
 
@@ -36449,12 +36449,12 @@ _G.pg.base.gametip.child2_site_drop_item = {
 }
 
 
-_G.pg.base.gametip.child2_personal_tag1 = {
-	tip = "얌전"
+_G.pg.base.gametip.child2_personal_id1_tag1 = {
+	tip = "얌전함"
 }
 
 
-_G.pg.base.gametip.child2_personal_tag2 = {
+_G.pg.base.gametip.child2_personal_id1_tag2 = {
 	tip = "제멋대로"
 }
 
@@ -36465,7 +36465,7 @@ _G.pg.base.gametip.child2_personal_change = {
 
 
 _G.pg.base.gametip.child2_ship_upgrade_favor = {
-	tip = "$1(와)과의 이벤트 진척도가 $2(이)가 되었습니다."
+	tip = "$1(와)과의 이벤트 진척도가 $2(이)가 되었습니다"
 }
 
 
@@ -39271,7 +39271,7 @@ _G.pg.base.gametip.grapihcs3d_setting_bloom_optionname1 = {
 _G.pg.base.gametip.SkinDiscountHelp_Carnival = {
 	tip = {
 		{
-			info = "1. 이벤트 기간 동안, <color=#92fc63>정가</color>(할인 쿠폰 미사용)로 「스포츠 타임」, 「극속광열」시리즈의 스킨 또는 스킨 패키지(극속광열) 구매 시 <color=#92fc63>스킨 할인권(극속광열)</color> 1장을 증정합니다.\n2. <color=#92fc63>스킨 할인권(극속광열)</color>을 사용하면 「스포츠 타임」, 「극속광열」시리즈의 스킨 구매 시 300보석을 할인받으실 수 있습니다(복주머니는 대상에서 제외).\n3. 사용하지 않은 <color=#92fc63>스킨 할인권(극속광열)</color>은 이벤트 종료 시점 (2025년 11월 5일 23:59:59)에 소멸합니다."
+			info = "1. 이벤트 기간 중 <color=#92fc63>쿠폰을 사용하지 않고</color> 이벤트 대상 「드레스」 시리즈 스킨을 구매하거나, 스킨 패키지(드레스)를 구매하면, 이벤트 페이지에서 <color=#92fc63>스킨 쿠폰(드레스)</color>을 획득할 수 있습니다.\n 2. <color=#92fc63>스킨 쿠폰(드레스)</color>은 이벤트 대상 의상 스킨을 구매할 시에 다이아×300개가 할인됩니다(특별 패키지 구매 시에는 사용 불가).\n 3. 이벤트 종료 시 [2026년 4월 22일(수) 23:59], 사용하지 않은 <color=#92fc63>스킨 쿠폰(드레스)</color>은 제거됩니다."
 		}
 	}
 }
@@ -44594,11 +44594,6 @@ _G.pg.base.gametip.activity_ninjia_main_sheet4 = {
 }
 
 
-_G.pg.base.gametip.activity_ninjia_main_sheet5 = {
-	tip = "여관 보급지"
-}
-
-
 _G.pg.base.gametip.activity_return_reward_pt = {
 	tip = "동원지령 Pt:"
 }
@@ -46680,6 +46675,21 @@ _G.pg.base.gametip.loveactivity_ui_13 = {
 }
 
 
+_G.pg.base.gametip.child_cg_buy = {
+	tip = "물자를 <icon name=gold w=0.4 h=0.4/>$1 소비하여 회상 $2(을)를 오픈하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.child_polaroid_buy = {
+	tip = "물자를 <icon name=gold w=0.4 h=0.4/>$1 소비하여 회상 $2(을)를 오픈하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.child_could_buy = {
+	tip = "<icon name=gold w=0.4 h=0.4/>으로 오픈"
+}
+
+
 _G.pg.base.gametip.loveactivity_ui_14 = {
 	tip = "$1 행복 공명 훈장"
 }
@@ -46806,6 +46816,31 @@ _G.pg.base.gametip.island_quick_delegation_notenough_onduty = {
 }
 
 
+_G.pg.base.gametip.child_plan_skip_event = {
+	tip = "랜덤 이벤트 연출 스킵"
+}
+
+
+_G.pg.base.gametip.child_buy_memory_tip = {
+	tip = "1주차 클리어 후에 회상 오픈 가능"
+}
+
+
+_G.pg.base.gametip.child_buy_polaroid_tip = {
+	tip = "1주차 클리어 후에 소중한 순간 오픈 가능"
+}
+
+
+_G.pg.base.gametip.child_buy_ending_tip = {
+	tip = "1주차 클리어 후에 물자를 소비하여 엔딩 회상 구매 가능"
+}
+
+
+_G.pg.base.gametip.child_buy_collect_success = {
+	tip = "오픈했습니다!"
+}
+
+
 _G.pg.base.gametip.LiquorFloor_title = {
 	tip = "봄빛 여관 Online"
 }
@@ -46927,6 +46962,527 @@ _G.pg.base.gametip.LiquorFloor_tip = {
 7. 경영 임무를 수행하면 「보화」 이외에도 한정 채팅 아이콘, 한정 가구 등의 보상을 획득할 수 있습니다.]]
 		}
 	}
+}
+
+
+_G.pg.base.gametip.child2_choose_title = {
+	tip = "운명의 점"
+}
+
+
+_G.pg.base.gametip.child2_choose_help = {
+	tip = {
+		{
+			info = [[
+운명의 점:
+ 보유 중인 「타로 카드」와 획득한 「타로 풀이」로 로라에게 다양한 강화 효과를 부여할 수 있습니다. 「타로 풀이」는 「타로 카드」와 조합하여 더욱 강력한 효과를 발휘합니다. 
+ 타로 카드는 동시에 1장만 보유할 수 있으며, 새로운 카드를 획득하면 이전 카드를 버릴 수 있습니다. 카드를 버리지 않으면, 새로운 카드를 획득하지 못하는 대신 금전을 얻을 수 있습니다. 
+ 타로 카드는 1장당 한 번만 다시 뽑을 수 있습니다. 또한 타로 풀이도 횟수를 소비하여 다시 뽑을 수 있습니다. 
+ 타로 카드 효과는 카드를 보유하고 있을 때만 발휘되지만, 해당 카드를 버려도 이미 획득한 풀이는 무효가 되지 않습니다. 
+타로 카드는 여러 풀이를 오픈(획득)할 수 있습니다. 풀이 내용에는 타로 카드명이 포함되며, 해당 카드와 조합하면 더욱 강력한 효과를 발휘합니다. 
+
+  ·타로(강화 효과) 화면에서는 화면 하단에 적용 중인 각종 타로/풀이 강화 효과의 합계 수치를 확인할 수 있습니다. 
+ ·<color=#ff5c5c>최소 강화 합계</color>: 타로 카드와 풀이의 「조건 없이 적용 가능한 효과」의 합계 강화 수치가 표시됩니다. 
+ ·<color=#ff5c5c>최대 강화 합계</color>: 타로 카드와 풀이의 「조건 적용을 무시한, 모든 효과를 적용한 경우」의 합계 강화 수치가 표시됩니다. 
+ <color=#ff5c5c>(효과 자체가 강화되는 경우에는 해당 강화 효과의 초기 효과만 계산됩니다)</color>. 
+]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.child2_show_detail_desc = {
+	tip = "상세 풀이 확인"
+}
+
+
+_G.pg.base.gametip.child2_tarot_empty = {
+	tip = "타로를 보유하고 있지 않습니다"
+}
+
+
+_G.pg.base.gametip.child2_refresh_title = {
+	tip = "남은 다시 뽑기 횟수:"
+}
+
+
+_G.pg.base.gametip.child2_choose_hide = {
+	tip = "비표시"
+}
+
+
+_G.pg.base.gametip.child2_choose_giveup = {
+	tip = "그만두기"
+}
+
+
+_G.pg.base.gametip.child2_tarot_tag_current = {
+	tip = "보유 타로"
+}
+
+
+_G.pg.base.gametip.child2_all_entry_title = {
+	tip = "적용 중인 풀이:"
+}
+
+
+_G.pg.base.gametip.child2_benefit_moeny_effect = {
+	tip = "금전 획득량 증가:"
+}
+
+
+_G.pg.base.gametip.child2_benefit_mood_effect = {
+	tip = "파라미터 성장 증가:"
+}
+
+
+_G.pg.base.gametip.child2_replace_sure_tip = {
+	tip = "새로운 타로로 변경하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.child2_tarot_title = {
+	tip = "만쥬 타로"
+}
+
+
+_G.pg.base.gametip.child2_entry_summary = {
+	tip = "획득 완료 풀이 수:"
+}
+
+
+_G.pg.base.gametip.child2_benefit_result = {
+	tip = "획득량 추가:"
+}
+
+
+_G.pg.base.gametip.child2_mood_benefit = {
+	tip = "획득량 추가:"
+}
+
+
+_G.pg.base.gametip.child2_mood_stage1 = {
+	tip = "현재 기분: 낙담"
+}
+
+
+_G.pg.base.gametip.child2_mood_stage2 = {
+	tip = "현재 기분: 우울"
+}
+
+
+_G.pg.base.gametip.child2_mood_stage3 = {
+	tip = "현재 기분: 보통"
+}
+
+
+_G.pg.base.gametip.child2_mood_stage4 = {
+	tip = "현재 기분: 행복"
+}
+
+
+_G.pg.base.gametip.child2_mood_stage5 = {
+	tip = "현재 기분: 행복"
+}
+
+
+_G.pg.base.gametip.child2_entry_activated = {
+	tip = "적용 중인 효과 수:"
+}
+
+
+_G.pg.base.gametip.child2_collect_tarot_progress = {
+	tip = "수집한 타로:"
+}
+
+
+_G.pg.base.gametip.child2_collect_tarot = {
+	tip = "만쥬 타로"
+}
+
+
+_G.pg.base.gametip.child2_collect_entry = {
+	tip = "풀이"
+}
+
+
+_G.pg.base.gametip.child2_collect_talent = {
+	tip = "어빌리티"
+}
+
+
+_G.pg.base.gametip.child2_rank_toggle_attr = {
+	tip = "일반"
+}
+
+
+_G.pg.base.gametip.child2_rank_toggle_endless = {
+	tip = "엔드리스"
+}
+
+
+_G.pg.base.gametip.child2_rank_not_on = {
+	tip = "랭크 외"
+}
+
+
+_G.pg.base.gametip.child2_rank_refresh_tip = {
+	tip = "순위는 30분마다 업데이트됩니다."
+}
+
+
+_G.pg.base.gametip.child2_rank_header_rank = {
+	tip = "순위"
+}
+
+
+_G.pg.base.gametip.child2_rank_header_info = {
+	tip = "이름"
+}
+
+
+_G.pg.base.gametip.child2_rank_header_attr = {
+	tip = "클리어 시 파라미터"
+}
+
+
+_G.pg.base.gametip.child2_replace_title = {
+	tip = "새로운 타로로 변경하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.child2_replace_tip = {
+	tip = "타로 카드는 동시에 1종류만 보유할 수 있습니다. 새로운 타로를 획득한 경우, 기존 타로는 소실됩니다. \n적용 중인 풀이 효과에는 영향을 주지 않습니다."
+}
+
+
+_G.pg.base.gametip.child2_tarot_tag_replace = {
+	tip = "신규 타로"
+}
+
+
+_G.pg.base.gametip.child2_replace_cancel = {
+	tip = "돌아가기"
+}
+
+
+_G.pg.base.gametip.child2_replace_sure = {
+	tip = "확정"
+}
+
+
+_G.pg.base.gametip.child2_nailing_game_tip = {
+	tip = "타이밍에 맞춰 망치를 휘둘러, 검은 못을 내려치자!"
+}
+
+
+_G.pg.base.gametip.child2_nailing_game_count = {
+	tip = "남은 횟수:"
+}
+
+
+_G.pg.base.gametip.child2_nailing_game_score = {
+	tip = "점수:"
+}
+
+
+_G.pg.base.gametip.child2_benefit_summary = {
+	tip = "획득량 추가:"
+}
+
+
+_G.pg.base.gametip.child2_word_giveup = {
+	tip = "강화 중단"
+}
+
+
+_G.pg.base.gametip.child2_rank_header_wave = {
+	tip = "엔드리스 기록"
+}
+
+
+_G.pg.base.gametip.child2_personal_id2_tag1 = {
+	tip = "내성적"
+}
+
+
+_G.pg.base.gametip.child2_personal_id2_tag2 = {
+	tip = "외향적"
+}
+
+
+_G.pg.base.gametip.child2_go_shop = {
+	tip = "점술관으로"
+}
+
+
+_G.pg.base.gametip.child2_scratch_minigame_help = {
+	tip = {
+		{
+			info = [[
+스크래치를 긁어 보상을 획득하세요! 
+타로 풀이(강화 효과) 및 파라미터 성장 등의 보상 획득 가능! 
+보상은 다음과 같습니다.
+1등상:
+·타로 카드, 타로 풀이(효과), 파라미터 성장(대), 금전, 행동력, 기분 중 1개를 획득할 수 있습니다. 
+
+2등상:
+·타로 풀이(효과), 파라미터 성장(중), 금전, 행동력, 기분 중 1개를 획득할 수 있습니다. 
+
+3등상:
+·파라미터 성장(소), 금전 중 1개를 획득할 수 있습니다. ]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.child2_endless_sure_tip = {
+	tip = "엔드리스 모드에서는 로라와 버추얼 타운에서 계속해서 생활할 수 있습니다. \n엔드리스 모드에서는 판정의 출현 빈도와 난이도가 상승하며, 판정을 통과하지 못하면 게임이 클리어(종료) 처리됩니다. 이때 도달한 턴 수가 랭킹에 집계됩니다."
+}
+
+
+_G.pg.base.gametip.child2_endless_stage = {
+	tip = "엔드리스"
+}
+
+
+_G.pg.base.gametip.child2_cur_wave = {
+	tip = "$1턴째"
+}
+
+
+_G.pg.base.gametip.child2_endless_attrs_value = {
+	tip = "파라미터: $1"
+}
+
+
+_G.pg.base.gametip.child2_endless_boss_value = {
+	tip = "판정 조건: $1"
+}
+
+
+_G.pg.base.gametip.child2_endless_assest_wave = {
+	tip = "엔드리스 - $1턴째"
+}
+
+
+_G.pg.base.gametip.child2_endless_history_wave = {
+	tip = "엔드리스 기록: $1턴"
+}
+
+
+_G.pg.base.gametip.child2_endless_current_wave = {
+	tip = "엔드리스 - $1턴째"
+}
+
+
+_G.pg.base.gametip.child2_endless_reset_tip = {
+	tip = "0"
+}
+
+
+_G.pg.base.gametip.child2_hard = {
+	tip = "하드 모드"
+}
+
+
+_G.pg.base.gametip.child2_hard_enter = {
+	tip = "하드 모드 시작"
+}
+
+
+_G.pg.base.gametip.child2_switch_sure = {
+	tip = "하드 모드에서는 타로 카드와 타로 풀이가 더 많이 출현하고, 판정 목표가 높아집니다. 모드를 전환하시겠습니까? \n<color=#f37a86>현재 모드의 진척 상황이 소실됩니다. 순위로 집계된 데이터는 초기화되지 않습니다. </color>"
+}
+
+
+_G.pg.base.gametip.child2_collect_entry_progress = {
+	tip = "풀이 획득 수"
+}
+
+
+_G.pg.base.gametip.child2_collect_talent_progress = {
+	tip = "어빌리티 획득 수"
+}
+
+
+_G.pg.base.gametip.child2_word_upgrade = {
+	tip = "강화"
+}
+
+
+_G.pg.base.gametip.child2_nailing_minigame_help = {
+	tip = {
+		{
+			info = [[
+스크래치를 긁어 보상을 획득하세요! 
+타로 풀이(강화 효과) 및 파라미터 성장 등의 보상 획득 가능! 
+보상은 다음과 같습니다.
+1등상:
+·타로 카드, 타로 풀이(효과), 파라미터 성장(대), 금전, 행동력, 기분 중 1개를 획득할 수 있습니다. 
+
+2등상:
+·타로 풀이(효과), 파라미터 성장(중), 금전, 행동력, 기분 중 1개를 획득할 수 있습니다. 
+
+3등상:
+·파라미터 성장(소), 금전 중 1개를 획득할 수 있습니다. ]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.child2_nailing_game_result2 = {
+	tip = "점수: "
+}
+
+
+_G.pg.base.gametip.child2_game_endless_cnt = {
+	tip = "엔드리스: $1턴째"
+}
+
+
+_G.pg.base.gametip.cultivating_plant_task_title = {
+	tip = "1회차 클리어"
+}
+
+
+_G.pg.base.gametip.cultivating_plant_island_task = {
+	tip = "아일랜드에서 해당 임무 클리어"
+}
+
+
+_G.pg.base.gametip.cultivating_plant_part_1 = {
+	tip = "TB 육성 Ⅰ기로"
+}
+
+
+_G.pg.base.gametip.cultivating_plant_part_2 = {
+	tip = "TB 육성 Ⅱ기로"
+}
+
+
+_G.pg.base.gametip.cultivating_plant_part_3 = {
+	tip = "TB 육성 Ⅲ기로"
+}
+
+
+_G.pg.base.gametip.child2_priority_tip = {
+	tip = "타로나 풀이를 선택하세요."
+}
+
+
+_G.pg.base.gametip.child2_cur_round_temp = {
+	tip = "추가 턴"
+}
+
+
+_G.pg.base.gametip.child2_nailing_game_result = {
+	tip = "득점:"
+}
+
+
+_G.pg.base.gametip.child2_benefit_summary2 = {
+	tip = "최대 강화 합계:"
+}
+
+
+_G.pg.base.gametip.child2_pool_exhausted = {
+	tip = "다시 뽑을 수 있는 것이 없습니다."
+}
+
+
+_G.pg.base.gametip.child2_secretary_skin_confirm = {
+	tip = "尚未获得换装，前往换装商店购买？"
+}
+
+
+_G.pg.base.gametip.child2_secretary_skin_expire = {
+	tip = "판매 기간이 아닙니다."
+}
+
+
+_G.pg.base.gametip.child2_explorer_main_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help13"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help14"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help15"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help16"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help17"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help18"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.battlepass_main_tip_2604 = {
+	tip = "2026/4/1-2026/5/31 이벤트 기간 중, 월드 투어 누적 <icon name=pt w=0.5 h=0.5/> 획득 보상으로 <color=#854747>「쾰른·META」</color> 등을 획득 가능"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2604 = {
+	tip = {
+		{
+			info = "■ 이벤트 진행 기간\\n 2026.4.1(수) 0:00 ~ 2026.5.31(일) 23:59\\n\\n■ 개요\\n「월드 투어」란, 이벤트 개최 중의 임무를 클리어하여 「투어 Pt」를 모으고, 획득한 투어 합계에 따른 보상을 받을 수 있는 이벤트입니다.\\n또한, 기본 투어 보상에는 추가로 「특허 투어 보상」이 존재하며, 상점 아이템 「특허 투어 패스」를 구매하면 특허 투어 보상도 획득할 수 있습니다.\\n기본 투어 보상으로는 함선 「쾰른·META」을, 특허 투어 보상으로는 경순양함 「아브로라」의 한정 스킨 「취기 어린 해풍」을 획득할 수 있습니다.\\n\\n■ 플레이 방법\\n· 「월드 투어」 이벤트의 시작과 동시에 2종류의 임무가 개방됩니다.\\n ① 주간 개방 임무\\n 이벤트 시작 시 및 이벤트 기간 중 매주 월요일 0시에 개방되는 임무. 총 8개 그룹\\n ② 전 기간 임무\\n 처음부터 모두 개방되는 임무. 총 1개 그룹\\n· 상기 「월드 투어」는 모두 자동적으로 수령이 완료되고, 「월드 투어」 화면을 열었을 때 이미 달성 조건을 만족하고 있는 임무는 클리어 상태가 되어 「투어 Pt」를 자동으로 획득합니다.\\n 또한 「특허 투어 패스」를 구매하면 15단계 분량의 보상(투어 Pt 1500)을 획득할 수 있습니다.\\n· 「투어 Pt」의 누적 합계에 따라 투어 보상을 받을 수 있습니다. 투어 보상은 2종류가 존재합니다.\\n ① 기본 투어 보상\\n 「투어 Pt」의 획득 수에 따라 획득할 수 있는 보상. 총 100단계입니다\\n ② 특허 투어 보상\\n 「특허 투어 패스」를 구매하면 개방되는 추가 보상. 기본 투어 보상과 마찬가지로 총 100단계가 존재하며, 기본 투어 보상과 동일한 단계의 특허 투어 보상을 획득할 수 있습니다.\\n· 이벤트가 종료되면 획득한 투어 Pt는 리셋됩니다.\\n\\n■ Tips\\n· 플레이 스타일\\n 월드 투어는 총 100단계가 있으며, 한꺼번에 마지막까지 클리어할 수 없는 구조로 되어 있습니다. 평소 하던 퀘스트를 반복하면서 임무를 수행하거나, 목표 보상을 정해 최단 페이스로 클리어해 나가는 등 자신의 플레이 스타일에 맞춰 플레이하는 것을 추천합니다.\\n\\n· 특허 투어 패스\\n 상점에서 「특허 투어 패스」를 구매하면 유용한 아이템과 함께 「투어 Pt」를 1500Pt 획득할 수 있습니다. 또한, 추가 한정 스킨은 「특허 투어 패스」를 구매하여 개방되는 「특허 투어 보상」에서만 획득할 수 있습니다. 이 점 주의하시기 바랍니다.\\n\\n· 임무 스킵(추천하지 않음)\\n 「월드 투어」의 「임무 목록」 화면에서 각 임무 우측의 화살표 버튼을 탭하면, 임무를 자동으로 스킵(클리어 상태로 변경)하여 투어 Pt를 획득할 수 있는 「월드 투어 티켓」의 구매 및 사용이 가능합니다.\\n 다이아를 소모하므로 추천하지 않습니다.\\n 「월드 투어 티켓」은 이벤트 종료 후에도 계속 소지할 수 있습니다."
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2604 = {
+	tip = {
+		{
+			info = "■ 월드 투어에 대하여\\n· 「월드 투어」 이벤트의 시작과 동시에 2종류의 임무가 개방됩니다.\\n ① 주간 개방 임무\\n 이벤트 시작 시 및 이벤트 기간 중 매주 월요일 0시에 개방되는 임무. 총 8개 그룹\\n ② 전 기간 임무\\n 처음부터 모두 개방되는 임무. 총 1개 그룹\\n\\n· 상기 「월드 투어」는 모두 자동적으로 수령이 완료되고, 「월드 투어」 화면을 열었을 때 이미 달성 조건을 만족하고 있는 임무는 클리어 상태가 되어 「투어 Pt」를 자동으로 획득합니다.\\n\\n· 「월드 투어」의 「임무 목록」 화면에서 각 임무 우측의 화살표 버튼을 탭하면, 임무를 자동으로 스킵(클리어 상태로 변경)하여 투어 Pt를 획득할 수 있는 「월드 투어 티켓」의 구매 및 사용이 가능합니다.\\n 다이아를 소모하므로 추천하지 않습니다……\\n 「월드 투어 티켓」은 이벤트 종료 후에도 계속 소지할 수 있습니다."
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_title_2604 = {
+	tip = "월드 투어·28기"
 }
 
 

@@ -9,22 +9,36 @@ slot0.initConfig = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.anim = slot0._tf:Find("anim_root"):GetComponent(typeof(Animation))
-	slot0.animEvent = slot0._tf:Find("anim_root"):GetComponent(typeof(DftAniEvent))
+	slot1 = slot0._tf
+	slot1 = slot1:Find("anim_root")
+	slot0.anim = slot1:GetComponent(typeof(Animation))
+	slot1 = slot0._tf
+	slot1 = slot1:Find("anim_root")
+	slot0.animEvent = slot1:GetComponent(typeof(DftAniEvent))
+	slot1 = slot0.animEvent
 
-	slot0.animEvent:SetEndEvent(function ()
+	slot1:SetEndEvent(function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end)
 
-	slot0.closeBtn = slot0._tf:Find("anim_root/bg")
-	slot0.windowTF = slot0._tf:Find("anim_root/window")
-	slot0.curCntTF = slot0.windowTF:Find("collect/cur")
-	slot0.allCntTF = slot0.windowTF:Find("collect/all")
-	slot0.pageTF = slot0.windowTF:Find("page")
-	slot0.nextBtn = slot0.windowTF:Find("next_btn")
-	slot0.lastBtn = slot0.windowTF:Find("last_btn")
-	slot0.paginationTF = slot0.windowTF:Find("pagination")
-	slot0.performTF = slot0._tf:Find("anim_root/perform")
+	slot1 = slot0._tf
+	slot0.closeBtn = slot1:Find("anim_root/bg")
+	slot1 = slot0._tf
+	slot0.windowTF = slot1:Find("anim_root/window")
+	slot1 = slot0.windowTF
+	slot0.curCntTF = slot1:Find("collect/cur")
+	slot1 = slot0.windowTF
+	slot0.allCntTF = slot1:Find("collect/all")
+	slot1 = slot0.windowTF
+	slot0.pageTF = slot1:Find("page")
+	slot1 = slot0.windowTF
+	slot0.nextBtn = slot1:Find("next_btn")
+	slot1 = slot0.windowTF
+	slot0.lastBtn = slot1:Find("last_btn")
+	slot1 = slot0.windowTF
+	slot0.paginationTF = slot1:Find("pagination")
+	slot1 = slot0._tf
+	slot0.performTF = slot1:Find("anim_root/perform")
 
 	setActive(slot0.performTF, false)
 	slot0:initConfig()
@@ -53,6 +67,12 @@ slot0.init = function(slot0)
 	slot0:OverlayPanel(slot0._tf, {
 		groupDelta = 2
 	})
+	eachChild(slot0.pageTF, function (slot0)
+		slot1 = slot0:Find("lock/unlock_btn/Text")
+
+		slot1:GetComponent("RichText"):AddSprite("gold", uv0._tf:Find("res/gold"):GetComponent(typeof(Image)).sprite)
+		setText(slot1, i18n("child_could_buy"))
+	end)
 end
 
 slot0.updatePage = function(slot0)

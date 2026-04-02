@@ -37,33 +37,51 @@ slot0.didEnter = function(slot0)
 	slot1 = slot0.contextData.plan_results or {}
 	slot0.result = {}
 	slot0.resResult = {}
+	slot0.resultEvent = {}
+	slot0.resResultEvent = {}
 	slot0.drops = {}
 
-	slot2 = function(slot0)
-		for slot4, slot5 in ipairs(slot0) do
-			table.insert(uv0.drops, slot5)
+	slot2 = function(slot0, slot1)
+		for slot5, slot6 in ipairs(slot0) do
+			table.insert(uv0.drops, slot6)
 
-			if slot5.type == EducateConst.DROP_TYPE_ATTR then
-				if not uv0.result[slot5.id] then
-					uv0.result[slot5.id] = 0
+			if slot6.type == EducateConst.DROP_TYPE_ATTR then
+				if slot1 then
+					if not uv0.resultEvent[slot6.id] then
+						uv0.resultEvent[slot6.id] = 0
+					end
+
+					uv0.resultEvent[slot6.id] = uv0.resultEvent[slot6.id] + slot6.number
+				else
+					if not uv0.result[slot6.id] then
+						uv0.result[slot6.id] = 0
+					end
+
+					uv0.result[slot6.id] = uv0.result[slot6.id] + slot6.number
 				end
-
-				uv0.result[slot5.id] = uv0.result[slot5.id] + slot5.number
 			end
 
-			if slot5.type == EducateConst.DROP_TYPE_RES then
-				if not uv0.resResult[slot5.id] then
-					uv0.resResult[slot5.id] = 0
-				end
+			if slot6.type == EducateConst.DROP_TYPE_RES then
+				if slot1 then
+					if not uv0.resResultEvent[slot6.id] then
+						uv0.resResultEvent[slot6.id] = 0
+					end
 
-				uv0.resResult[slot5.id] = uv0.resResult[slot5.id] + slot5.number
+					uv0.resResultEvent[slot6.id] = uv0.resResultEvent[slot6.id] + slot6.number
+				else
+					if not uv0.resResult[slot6.id] then
+						uv0.resResult[slot6.id] = 0
+					end
+
+					uv0.resResult[slot6.id] = uv0.resResult[slot6.id] + slot6.number
+				end
 			end
 		end
 	end
 
 	for slot6, slot7 in ipairs(slot1) do
 		slot2(slot7.plan_drops)
-		slot2(slot7.event_drops)
+		slot2(slot7.event_drops, true)
 		slot2(slot7.spec_event_drops)
 	end
 
@@ -136,16 +154,23 @@ slot0.updateMinorPanel = function(slot0)
 
 		GetImageSpriteFromAtlasAsync("ui/educatecommonui_atlas", "attr_" .. slot6, slot5:Find("icon"), true)
 		setText(slot5:Find("name"), pg.child_attr[slot6].name)
-		setText(slot5:Find("value_add/value_old"), slot0.char:GetAttrById(slot6))
+		setText(slot5:Find("value/value/old"), slot0.char:GetAttrById(slot6))
+		setText(slot5:Find("value/value/add"), "")
+		setText(slot5:Find("value/event_add"), "")
 
-		slot8 = slot0.result[slot6] or 0
+		slot10 = (slot0.result[slot6] or 0) ~= 0 or (slot0.resultEvent[slot6] or 0) ~= 0
 
-		setActive(slot5:Find("VX"), slot8 ~= 0)
-		setText(slot5:Find("value_add"), "")
+		setActive(slot5:Find("VX"), slot10)
 
-		if slot8 ~= 0 then
+		if slot10 then
 			onDelayTick(function ()
-				setText(uv0:Find("value_add"), "+" .. uv1)
+				if uv0 > 0 then
+					setText(uv1:Find("value/value/add"), "+" .. uv0)
+				end
+
+				if uv2 > 0 then
+					setText(uv1:Find("value/event_add"), "+" .. uv2)
+				end
 			end, 0.891)
 		end
 	end
@@ -163,11 +188,15 @@ slot0.updateResPanel = function(slot0)
 			slot7 = 0
 		end
 
-		setText(slot5:Find("value_add/value_old"), slot7)
+		setText(slot5:Find("value/value/old"), slot7)
 
 		slot8 = slot0.resResult[slot6] or 0
 
-		setText(slot5:Find("value_add"), slot8 == 0 and "" or "+" .. slot8)
+		setText(slot5:Find("value/value/add"), slot8 == 0 and "" or "+" .. slot8)
+
+		slot10 = slot0.resResultEvent[slot6] or 0
+
+		setText(slot5:Find("value/event_add"), slot10 == 0 and "" or "+" .. slot10)
 	end
 end
 

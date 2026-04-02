@@ -270,6 +270,8 @@ slot0.CheckGuide = function(slot0, slot1)
 
 			uv1.PlayNextOne(slot0, slot1)
 		end
+
+		uv2()
 	end, slot1)
 end
 

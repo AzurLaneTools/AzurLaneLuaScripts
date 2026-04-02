@@ -341,13 +341,16 @@ pg.activity_link_button = {
 	[109] = {
 		param = "MoscowURCoreActivityUI",
 		name = "event_core",
-		time = "stop",
 		text_pic = "text_event_core",
 		type = 16,
 		pic = "event_core",
 		id = 109,
 		group_id = 1,
-		order = 1
+		order = 1,
+		time = {
+			"default",
+			50429
+		}
 	},
 	[110] = {
 		param = "AprilFoolDiscovery2026UI",

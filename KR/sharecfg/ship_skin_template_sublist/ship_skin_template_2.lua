@@ -1,123 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_2 = {
-	[102059] = {
-		name = "헬레나·改",
-		change_skin = "",
-		desc = "새로운 장비… 적응하기가 약간 복잡하긴하지만, 지금의 나는 이 힘을 다룰 수 있을거라 믿어! 지휘관, 내 활약을 기대해줘!",
-		illustrator2 = -1,
-		ship_group = 10205,
-		group_index = 9,
-		purchase_offset = "",
-		painting = "hailunna_g",
-		lover_hand = "hand_2_02",
-		skin_type = 2,
-		shop_type_id = 9997,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		lover_kiss = "lip02",
-		bg_sp = "",
-		bg = "",
-		bgm = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		special_effects = "",
-		id = 102059,
-		voice_actor_2 = -1,
-		gyro = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		prefab = "hailunna_g",
-		l2d_se = "",
-		part_scale = "",
-		get_showing = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 34,
-		shop_dynamic_hx = 0,
-		spine_offset = "",
-		illustrator = 7,
-		rarity_bg = "",
-		double_char = 0,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.315,
-					1.072,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.32,
-					1.085,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.34,
-					1.091,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.53,
-							2.289,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[102060] = {
 		name = "애틀란타",
 		change_skin = "",
@@ -16941,6 +16824,249 @@ pg.base.ship_skin_template_2 = {
 		},
 		ship_l2d_id = {
 			1032611
+		}
+	},
+	[103262] = {
+		name = "떠도는 레이지 크레인",
+		change_skin = "",
+		desc = "휴우…… 이스트 글림 축제 분위기를 더 즐기려고 갈아입었는데… 보기에도 좋고 착용감도 최고인데 왠지 부끄러워지네…… 응? 지휘관, 언제 왔어?",
+		illustrator2 = -1,
+		ship_group = 10326,
+		group_index = 2,
+		purchase_offset = "",
+		painting = "beianpudunII_3",
+		lover_hand = "hand_1_01",
+		skin_type = 0,
+		shop_type_id = 3,
+		l2d_ignore_drag = 0,
+		hand_id = 3,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		lover_kiss = "lip03",
+		bg_sp = "",
+		bg = "157",
+		bgm = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		special_effects = "",
+		id = 103262,
+		voice_actor_2 = -1,
+		gyro = 0,
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		prefab = "beianpudunII_3",
+		l2d_se = "",
+		part_scale = "",
+		get_showing = "",
+		main_UI_FX = "",
+		shop_id = 70961,
+		voice_actor = 27,
+		shop_dynamic_hx = 0,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.57,
+					0.82,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.56,
+					0.82,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.34,
+							0.14
+						}
+					}
+				}
+			}
+		}
+	},
+	[103270] = {
+		name = "루이빌",
+		change_skin = "",
+		desc = "노샘프턴급 중순양함—루이빌, 현호 CA-28",
+		illustrator2 = -1,
+		ship_group = 10327,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "luyisiweier",
+		lover_hand = "hand_1_02",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		lover_kiss = "lip03",
+		bg_sp = "",
+		bg = "",
+		bgm = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		special_effects = "",
+		id = 103270,
+		voice_actor_2 = -1,
+		gyro = 0,
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		prefab = "luyisiweier",
+		l2d_se = "",
+		part_scale = "",
+		get_showing = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 393,
+		shop_dynamic_hx = 0,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.059,
+					0.999,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.052,
+					0.061,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					2.058,
+					1.038,
+					0
+				}
+			},
+			vicegun = {
+				{
+					2.134,
+					1.089,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.261,
+							2.531,
+							0.14
+						}
+					}
+				}
+			}
 		}
 	}
 }

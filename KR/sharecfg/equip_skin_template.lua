@@ -58674,6 +58674,187 @@ pg.equip_skin_template = {
 			"wash"
 		}
 	},
+	[2117] = {
+		hit_sfx = "",
+		bullet_name = "zidan_jiancifeiye",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		icon = "96841",
+		name = "그린 스파크 탄",
+		desc = "깃털처럼 가볍게 날아가는 저것은 초록빛 생기로 가득 차 있다",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 2117,
+		themeid = 109,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "zidan_jiancifeiye_hit",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[2118] = {
+		hit_sfx = "",
+		bullet_name = "yulei_shujingfazhang",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "96842",
+		name = "아이비 스태프 어뢰",
+		desc = "가리키는 곳에 봄의 발소리를",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 2118,
+		themeid = 109,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[2119] = {
+		hit_sfx = "",
+		bullet_name = "paodan_shutenghuahuan",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "96843",
+		name = "포레스트 크라운 포탄",
+		desc = "나뭇가지로 만든 왕관은 숲의 속삭임을 전해준다",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 2119,
+		themeid = 109,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[2120] = {
+		hit_sfx = "",
+		bullet_name = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "96844",
+		name = "영고성쇠의 나무",
+		desc = "피고 지며, 시들고 무성해지는―― 그 나무의 윤회는 이곳에",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 2120,
+		themeid = 109,
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "shebei_kumukaihua",
+		orbit_slg = "",
+		orbit_ui = "shebei_kumukaihuaui",
+		miss_sfx = "",
+		orbit_rotate = false,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 1,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		double_char_bone = {
+			1,
+			0,
+			1
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				-0.2,
+				-1.49,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				-5,
+				93
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
 	[3001] = {
 		hit_sfx = "",
 		bullet_name = "",
@@ -62249,6 +62430,10 @@ pg.equip_skin_template = {
 		2114,
 		2115,
 		2116,
+		2117,
+		2118,
+		2119,
+		2120,
 		3001,
 		3003,
 		3010,

@@ -135,6 +135,11 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "idol-BlueSpirit-inst"
 	},
+	ActivityShop50430 = {
+		default_bgm = "story-china-0226-pv",
+		special_bgm = "",
+		bgm = "story-china-0226-pv"
+	},
 	ActivityShop50464 = {
 		default_bgm = "theme-merkuriameta",
 		special_bgm = "",
@@ -2809,6 +2814,11 @@ pg.voice_bgm = {
 		default_bgm = "story-dazy-style",
 		special_bgm = "",
 		bgm = "story-dazy-style"
+	},
+	XiaoDaDiPtRePage = {
+		default_bgm = "login-orchestral-ver",
+		special_bgm = "",
+		bgm = "login-orchestral-ver"
 	},
 	MaoxiV5MainPage = {
 		default_bgm = "theme-antarctica",

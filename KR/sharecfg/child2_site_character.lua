@@ -510,6 +510,1026 @@ pg.child2_site_character = {
 		drop_display = {},
 		cost = {}
 	},
+	[201] = {
+		id = 201,
+		node_id = 3240101,
+		type = 1,
+		group = 7,
+		option_name = "함선 교류",
+		level = 0,
+		drop_display = {
+			{
+				1,
+				101,
+				5
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[202] = {
+		id = 202,
+		node_id = 3240201,
+		type = 1,
+		group = 7,
+		option_name = "함선 교류",
+		level = 1,
+		drop_display = {
+			{
+				1,
+				101,
+				10
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[203] = {
+		id = 203,
+		node_id = 3240301,
+		type = 1,
+		group = 7,
+		option_name = "함선 교류",
+		level = 2,
+		drop_display = {
+			{
+				1,
+				101,
+				15
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[204] = {
+		id = 204,
+		node_id = 0,
+		type = 1,
+		group = 7,
+		option_name = "함선 교류",
+		level = 3,
+		drop_display = {},
+		cost = {}
+	},
+	[205] = {
+		id = 205,
+		node_id = 3241101,
+		type = 1,
+		group = 8,
+		option_name = "함선 교류",
+		level = 0,
+		drop_display = {
+			{
+				1,
+				101,
+				5
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[206] = {
+		id = 206,
+		node_id = 3241201,
+		type = 1,
+		group = 8,
+		option_name = "함선 교류",
+		level = 1,
+		drop_display = {
+			{
+				1,
+				101,
+				10
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[207] = {
+		id = 207,
+		node_id = 3241301,
+		type = 1,
+		group = 8,
+		option_name = "함선 교류",
+		level = 2,
+		drop_display = {
+			{
+				1,
+				101,
+				15
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[208] = {
+		id = 208,
+		node_id = 0,
+		type = 1,
+		group = 8,
+		option_name = "함선 교류",
+		level = 3,
+		drop_display = {},
+		cost = {}
+	},
+	[209] = {
+		id = 209,
+		node_id = 3242101,
+		type = 1,
+		group = 9,
+		option_name = "함선 교류",
+		level = 0,
+		drop_display = {
+			{
+				1,
+				101,
+				5
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[210] = {
+		id = 210,
+		node_id = 3242201,
+		type = 1,
+		group = 9,
+		option_name = "함선 교류",
+		level = 1,
+		drop_display = {
+			{
+				1,
+				101,
+				10
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[211] = {
+		id = 211,
+		node_id = 3242301,
+		type = 1,
+		group = 9,
+		option_name = "함선 교류",
+		level = 2,
+		drop_display = {
+			{
+				1,
+				101,
+				15
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[212] = {
+		id = 212,
+		node_id = 0,
+		type = 1,
+		group = 9,
+		option_name = "함선 교류",
+		level = 3,
+		drop_display = {},
+		cost = {}
+	},
+	[213] = {
+		id = 213,
+		node_id = 3243101,
+		type = 2,
+		group = 10,
+		option_name = "함선 교류",
+		level = 0,
+		drop_display = {
+			{
+				1,
+				101,
+				5
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[214] = {
+		id = 214,
+		node_id = 3243201,
+		type = 2,
+		group = 10,
+		option_name = "함선 교류",
+		level = 1,
+		drop_display = {
+			{
+				1,
+				101,
+				10
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[215] = {
+		id = 215,
+		node_id = 3243301,
+		type = 2,
+		group = 10,
+		option_name = "함선 교류",
+		level = 2,
+		drop_display = {
+			{
+				1,
+				101,
+				15
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[216] = {
+		id = 216,
+		node_id = 0,
+		type = 2,
+		group = 10,
+		option_name = "함선 교류",
+		level = 3,
+		drop_display = {},
+		cost = {}
+	},
+	[217] = {
+		id = 217,
+		node_id = 3244101,
+		type = 2,
+		group = 11,
+		option_name = "함선 교류",
+		level = 0,
+		drop_display = {
+			{
+				1,
+				101,
+				5
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[218] = {
+		id = 218,
+		node_id = 3244201,
+		type = 2,
+		group = 11,
+		option_name = "함선 교류",
+		level = 1,
+		drop_display = {
+			{
+				1,
+				101,
+				10
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[219] = {
+		id = 219,
+		node_id = 3244301,
+		type = 2,
+		group = 11,
+		option_name = "함선 교류",
+		level = 2,
+		drop_display = {
+			{
+				1,
+				101,
+				15
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[220] = {
+		id = 220,
+		node_id = 0,
+		type = 2,
+		group = 11,
+		option_name = "함선 교류",
+		level = 3,
+		drop_display = {},
+		cost = {}
+	},
+	[221] = {
+		id = 221,
+		node_id = 3245101,
+		type = 2,
+		group = 12,
+		option_name = "함선 교류",
+		level = 0,
+		drop_display = {
+			{
+				1,
+				101,
+				5
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[222] = {
+		id = 222,
+		node_id = 3245201,
+		type = 2,
+		group = 12,
+		option_name = "함선 교류",
+		level = 1,
+		drop_display = {
+			{
+				1,
+				101,
+				10
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[223] = {
+		id = 223,
+		node_id = 3245301,
+		type = 2,
+		group = 12,
+		option_name = "함선 교류",
+		level = 2,
+		drop_display = {
+			{
+				1,
+				101,
+				15
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[224] = {
+		id = 224,
+		node_id = 0,
+		type = 2,
+		group = 12,
+		option_name = "함선 교류",
+		level = 3,
+		drop_display = {},
+		cost = {}
+	},
+	[301] = {
+		id = 301,
+		node_id = 3640101,
+		type = 1,
+		group = 13,
+		option_name = "함선 교류",
+		level = 0,
+		drop_display = {
+			{
+				1,
+				301,
+				5
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[302] = {
+		id = 302,
+		node_id = 3640201,
+		type = 1,
+		group = 13,
+		option_name = "함선 교류",
+		level = 1,
+		drop_display = {
+			{
+				1,
+				301,
+				10
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[303] = {
+		id = 303,
+		node_id = 3640301,
+		type = 1,
+		group = 13,
+		option_name = "함선 교류",
+		level = 2,
+		drop_display = {
+			{
+				1,
+				301,
+				15
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[304] = {
+		id = 304,
+		node_id = 0,
+		type = 1,
+		group = 13,
+		option_name = "함선 교류",
+		level = 3,
+		drop_display = {},
+		cost = {}
+	},
+	[305] = {
+		id = 305,
+		node_id = 3641101,
+		type = 1,
+		group = 14,
+		option_name = "함선 교류",
+		level = 0,
+		drop_display = {
+			{
+				1,
+				301,
+				5
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[306] = {
+		id = 306,
+		node_id = 3641201,
+		type = 1,
+		group = 14,
+		option_name = "함선 교류",
+		level = 1,
+		drop_display = {
+			{
+				1,
+				301,
+				10
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[307] = {
+		id = 307,
+		node_id = 3641301,
+		type = 1,
+		group = 14,
+		option_name = "함선 교류",
+		level = 2,
+		drop_display = {
+			{
+				1,
+				301,
+				15
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[308] = {
+		id = 308,
+		node_id = 0,
+		type = 1,
+		group = 14,
+		option_name = "함선 교류",
+		level = 3,
+		drop_display = {},
+		cost = {}
+	},
+	[309] = {
+		id = 309,
+		node_id = 3642101,
+		type = 1,
+		group = 15,
+		option_name = "함선 교류",
+		level = 0,
+		drop_display = {
+			{
+				1,
+				301,
+				5
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[310] = {
+		id = 310,
+		node_id = 3642201,
+		type = 1,
+		group = 15,
+		option_name = "함선 교류",
+		level = 1,
+		drop_display = {
+			{
+				1,
+				301,
+				10
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[311] = {
+		id = 311,
+		node_id = 3642301,
+		type = 1,
+		group = 15,
+		option_name = "함선 교류",
+		level = 2,
+		drop_display = {
+			{
+				1,
+				301,
+				15
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[312] = {
+		id = 312,
+		node_id = 0,
+		type = 1,
+		group = 15,
+		option_name = "함선 교류",
+		level = 3,
+		drop_display = {},
+		cost = {}
+	},
+	[313] = {
+		id = 313,
+		node_id = 3643101,
+		type = 2,
+		group = 16,
+		option_name = "함선 교류",
+		level = 0,
+		drop_display = {
+			{
+				1,
+				301,
+				5
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[314] = {
+		id = 314,
+		node_id = 3643201,
+		type = 2,
+		group = 16,
+		option_name = "함선 교류",
+		level = 1,
+		drop_display = {
+			{
+				1,
+				301,
+				10
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[315] = {
+		id = 315,
+		node_id = 3643301,
+		type = 2,
+		group = 16,
+		option_name = "함선 교류",
+		level = 2,
+		drop_display = {
+			{
+				1,
+				301,
+				15
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[316] = {
+		id = 316,
+		node_id = 0,
+		type = 2,
+		group = 16,
+		option_name = "함선 교류",
+		level = 3,
+		drop_display = {},
+		cost = {}
+	},
+	[317] = {
+		id = 317,
+		node_id = 3644101,
+		type = 2,
+		group = 17,
+		option_name = "함선 교류",
+		level = 0,
+		drop_display = {
+			{
+				1,
+				301,
+				5
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[318] = {
+		id = 318,
+		node_id = 3644201,
+		type = 2,
+		group = 17,
+		option_name = "함선 교류",
+		level = 1,
+		drop_display = {
+			{
+				1,
+				301,
+				10
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[319] = {
+		id = 319,
+		node_id = 3644301,
+		type = 2,
+		group = 17,
+		option_name = "함선 교류",
+		level = 2,
+		drop_display = {
+			{
+				1,
+				301,
+				15
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[320] = {
+		id = 320,
+		node_id = 0,
+		type = 2,
+		group = 17,
+		option_name = "함선 교류",
+		level = 3,
+		drop_display = {},
+		cost = {}
+	},
+	[321] = {
+		id = 321,
+		node_id = 3645101,
+		type = 2,
+		group = 18,
+		option_name = "함선 교류",
+		level = 0,
+		drop_display = {
+			{
+				1,
+				301,
+				5
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[322] = {
+		id = 322,
+		node_id = 3645201,
+		type = 2,
+		group = 18,
+		option_name = "함선 교류",
+		level = 1,
+		drop_display = {
+			{
+				1,
+				301,
+				10
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[323] = {
+		id = 323,
+		node_id = 3645301,
+		type = 2,
+		group = 18,
+		option_name = "함선 교류",
+		level = 2,
+		drop_display = {
+			{
+				1,
+				301,
+				15
+			},
+			{
+				2,
+				304,
+				0
+			}
+		},
+		cost = {
+			2,
+			303,
+			1
+		}
+	},
+	[324] = {
+		id = 324,
+		node_id = 0,
+		type = 2,
+		group = 18,
+		option_name = "함선 교류",
+		level = 3,
+		drop_display = {},
+		cost = {}
+	},
 	get_id_list_by_group = {
 		{
 			1,
@@ -546,6 +1566,78 @@ pg.child2_site_character = {
 			22,
 			23,
 			24
+		},
+		{
+			201,
+			202,
+			203,
+			204
+		},
+		{
+			205,
+			206,
+			207,
+			208
+		},
+		{
+			209,
+			210,
+			211,
+			212
+		},
+		{
+			213,
+			214,
+			215,
+			216
+		},
+		{
+			217,
+			218,
+			219,
+			220
+		},
+		{
+			221,
+			222,
+			223,
+			224
+		},
+		{
+			301,
+			302,
+			303,
+			304
+		},
+		{
+			305,
+			306,
+			307,
+			308
+		},
+		{
+			309,
+			310,
+			311,
+			312
+		},
+		{
+			313,
+			314,
+			315,
+			316
+		},
+		{
+			317,
+			318,
+			319,
+			320
+		},
+		{
+			321,
+			322,
+			323,
+			324
 		}
 	},
 	all = {
@@ -572,6 +1664,54 @@ pg.child2_site_character = {
 		21,
 		22,
 		23,
-		24
+		24,
+		201,
+		202,
+		203,
+		204,
+		205,
+		206,
+		207,
+		208,
+		209,
+		210,
+		211,
+		212,
+		213,
+		214,
+		215,
+		216,
+		217,
+		218,
+		219,
+		220,
+		221,
+		222,
+		223,
+		224,
+		301,
+		302,
+		303,
+		304,
+		305,
+		306,
+		307,
+		308,
+		309,
+		310,
+		311,
+		312,
+		313,
+		314,
+		315,
+		316,
+		317,
+		318,
+		319,
+		320,
+		321,
+		322,
+		323,
+		324
 	}
 }

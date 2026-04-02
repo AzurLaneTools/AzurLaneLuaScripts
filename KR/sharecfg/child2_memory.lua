@@ -33,7 +33,7 @@ pg.child2_memory = {
 		character = 1,
 		id = 105,
 		pic = "bg_project_oceana_cg5",
-		desc = "야외 활동! I"
+		desc = "야외 활동! Ⅰ"
 	},
 	[106] = {
 		lua = "LINGYANGZHEYANGCHENGJIHUA11",
@@ -47,7 +47,7 @@ pg.child2_memory = {
 		character = 1,
 		id = 107,
 		pic = "bg_project_oceana_cg7",
-		desc = "과외 활동? I"
+		desc = "과외 활동? Ⅰ"
 	},
 	[108] = {
 		lua = "LINGYANGZHEYANGCHENGJIHUA13",
@@ -166,14 +166,217 @@ pg.child2_memory = {
 		character = 1,
 		id = 124,
 		pic = "bg_project_oceana_cg22",
-		desc = "당신과 함께하는 미래Ⅰ"
+		desc = "함께 하는 미래Ⅰ"
 	},
 	[125] = {
 		lua = "LINGYANGZHEYANGCHENGJIHUA30",
 		character = 1,
 		id = 125,
 		pic = "bg_project_oceana_cg22",
-		desc = "당신과 함께하는 미래Ⅱ"
+		desc = "함께 하는 미래Ⅱ"
+	},
+	[201] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA1",
+		character = 2,
+		id = 201,
+		pic = "bg_project_explorer_cg33",
+		desc = "스캐빈저 육성 계획, 시동!"
+	},
+	[202] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA3",
+		character = 2,
+		id = 202,
+		pic = "bg_project_explorer_cg38",
+		desc = "풋풋한 등교일"
+	},
+	[203] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA4",
+		character = 2,
+		id = 203,
+		pic = "bg_project_explorer_cg36",
+		desc = "회전목마"
+	},
+	[204] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA5",
+		character = 2,
+		id = 204,
+		pic = "bg_project_explorer_cg37",
+		desc = "겨울의 온기"
+	},
+	[205] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA6",
+		character = 2,
+		id = 205,
+		pic = "bg_project_explorer_cg34",
+		desc = "토끼들과의 하루"
+	},
+	[206] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA7",
+		character = 2,
+		id = 206,
+		pic = "bg_project_explorer_cg35",
+		desc = "꽃 피는 나무 아래서"
+	},
+	[207] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA8",
+		character = 2,
+		id = 207,
+		pic = "bg_project_explorer_cg39",
+		desc = "그네 위의 약속"
+	},
+	[208] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA9",
+		character = 2,
+		id = 208,
+		pic = "bg_project_explorer_cg9",
+		desc = "가벼운 기대Ⅰ"
+	},
+	[209] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA10",
+		character = 2,
+		id = 209,
+		pic = "bg_project_explorer_cg9",
+		desc = "가벼운 기대Ⅱ"
+	},
+	[210] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA11",
+		character = 2,
+		id = 210,
+		pic = "bg_project_explorer_cg2",
+		desc = "한여름의 물총 싸움"
+	},
+	[211] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA12",
+		character = 2,
+		id = 211,
+		pic = "bg_project_explorer_cg6",
+		desc = "장수풍뎅이의 맛"
+	},
+	[212] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA13",
+		character = 2,
+		id = 212,
+		pic = "bg_project_explorer_cg7",
+		desc = "한밤중의 수선 작업"
+	},
+	[213] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA14",
+		character = 2,
+		id = 213,
+		pic = "bg_project_explorer_cg1",
+		desc = "그림 속 풍경"
+	},
+	[214] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA15",
+		character = 2,
+		id = 214,
+		pic = "bg_project_explorer_cg4",
+		desc = "빗속의 한때"
+	},
+	[215] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA16",
+		character = 2,
+		id = 215,
+		pic = "bg_project_explorer_cg3",
+		desc = "아름다운 겨울 남기기"
+	},
+	[216] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA17",
+		character = 2,
+		id = 216,
+		pic = "bg_project_explorer_cg5",
+		desc = "견습 항해사 일지"
+	},
+	[217] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA18",
+		character = 2,
+		id = 217,
+		pic = "bg_project_explorer_cg8",
+		desc = "소중한 당신과의 미래Ⅰ"
+	},
+	[218] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA19",
+		character = 2,
+		id = 218,
+		pic = "bg_project_explorer_cg8",
+		desc = "소중한 당신과의 미래Ⅱ"
+	},
+	[219] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA20",
+		character = 2,
+		id = 219,
+		pic = "bg_project_explorer_cg30",
+		desc = "패션을 향한 첫걸음Ⅰ"
+	},
+	[220] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA21",
+		character = 2,
+		id = 220,
+		pic = "bg_project_explorer_cg30",
+		desc = "패션을 향한 첫걸음Ⅱ"
+	},
+	[221] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA22",
+		character = 2,
+		id = 221,
+		pic = "bg_project_explorer_cg27",
+		desc = "소녀의 비밀"
+	},
+	[222] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA23",
+		character = 2,
+		id = 222,
+		pic = "bg_project_explorer_cg29",
+		desc = "마음을 울리는 아름다움"
+	},
+	[223] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA24",
+		character = 2,
+		id = 223,
+		pic = "bg_project_explorer_cg28",
+		desc = "기타 현에 담긴 마음"
+	},
+	[224] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA25",
+		character = 2,
+		id = 224,
+		pic = "bg_project_explorer_cg24",
+		desc = "이 달콤함을 당신에게"
+	},
+	[225] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA26",
+		character = 2,
+		id = 225,
+		pic = "bg_project_explorer_cg25",
+		desc = "사진에 새겨진 봄"
+	},
+	[226] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA27",
+		character = 2,
+		id = 226,
+		pic = "bg_project_explorer_cg26",
+		desc = "첫 점"
+	},
+	[227] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA28",
+		character = 2,
+		id = 227,
+		pic = "bg_project_explorer_cg31",
+		desc = "함께 걷는 미래Ⅰ"
+	},
+	[228] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA29",
+		character = 2,
+		id = 228,
+		pic = "bg_project_explorer_cg31",
+		desc = "함께 걷는 미래Ⅱ"
+	},
+	[229] = {
+		lua = "TANSUOZHEYANGCHENGJIHUA30",
+		character = 2,
+		id = 229,
+		pic = "bg_project_explorer_cg32",
+		desc = "새로운 출발"
 	},
 	get_id_list_by_character = {
 		{
@@ -202,6 +405,37 @@ pg.child2_memory = {
 			123,
 			124,
 			125
+		},
+		{
+			201,
+			202,
+			203,
+			204,
+			205,
+			206,
+			207,
+			208,
+			209,
+			210,
+			211,
+			212,
+			213,
+			214,
+			215,
+			216,
+			217,
+			218,
+			219,
+			220,
+			221,
+			222,
+			223,
+			224,
+			225,
+			226,
+			227,
+			228,
+			229
 		}
 	},
 	all = {
@@ -229,6 +463,35 @@ pg.child2_memory = {
 		122,
 		123,
 		124,
-		125
+		125,
+		201,
+		202,
+		203,
+		204,
+		205,
+		206,
+		207,
+		208,
+		209,
+		210,
+		211,
+		212,
+		213,
+		214,
+		215,
+		216,
+		217,
+		218,
+		219,
+		220,
+		221,
+		222,
+		223,
+		224,
+		225,
+		226,
+		227,
+		228,
+		229
 	}
 }

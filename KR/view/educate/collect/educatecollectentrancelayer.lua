@@ -13,7 +13,7 @@ end
 slot0.initData = function(slot0)
 	slot1 = getProxy(EducateProxy)
 	slot0.memories = slot1:GetMemories()
-	slot0.endings = slot1:GetFinishEndings()
+	slot0.endings = slot1:GetAllEndings()
 end
 
 slot0.findUI = function(slot0)

@@ -255,6 +255,15 @@ pg.island_task = setmetatable({
 		[5] = {
 			50000001,
 			50000002,
+			51001001,
+			51001002,
+			51001003,
+			51002001,
+			51002002,
+			51002003,
+			51003001,
+			51003002,
+			51003003,
 			50001001,
 			50001002,
 			50001003,
@@ -291,6 +300,12 @@ pg.island_task = setmetatable({
 			50003006,
 			50003007,
 			50003008
+		},
+		[9] = {
+			51001000,
+			51002000,
+			51003000,
+			20013000
 		},
 		[8] = {
 			80001001,
@@ -383,9 +398,6 @@ pg.island_task = setmetatable({
 			80001228,
 			80001229,
 			80001230
-		},
-		[9] = {
-			20013000
 		}
 	},
 	all = {
@@ -478,6 +490,18 @@ pg.island_task = setmetatable({
 		10019999,
 		50000001,
 		50000002,
+		51001000,
+		51001001,
+		51001002,
+		51001003,
+		51002000,
+		51002001,
+		51002002,
+		51002003,
+		51003000,
+		51003001,
+		51003002,
+		51003003,
 		50001001,
 		50001002,
 		50001003,
@@ -4547,6 +4571,480 @@ pg.base.island_task = {
 				41,
 				1,
 				2000
+			}
+		}
+	},
+	[51001000] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "육성 캐릭터 초대",
+		type = 9,
+		task_desc = "특수 선행 조건",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "육성 캐릭터 초대",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 51001000,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			510010001
+		},
+		reward_show = {}
+	},
+	[51001001] = {
+		trigger_data = 0,
+		trigger_tips = 1,
+		name = "데이터 로딩 중Ⅰ",
+		type = 5,
+		task_desc = "이제 곧 특별한 방문객이 아일랜드로 찾아온다. 이곳의 개발에 큰 흥미를 가지고 있는 모양이니…… 특산품을 준비하여 아일랜드의 발전 상황을 알려주자.",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "육성 캐릭터 초대",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 51001001,
+		unlock_condition = {
+			{
+				2,
+				51001000
+			},
+			{
+				2,
+				10001060
+			}
+		},
+		link_task = {},
+		target_id = {
+			510010011
+		},
+		reward_show = {
+			{
+				41,
+				1,
+				1000
+			}
+		}
+	},
+	[51001002] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "데이터 로딩 중Ⅱ",
+		type = 5,
+		task_desc = "이제 곧 특별한 방문객이 아일랜드로 찾아온다. 이곳의 개발에 큰 흥미를 가지고 있는 모양이니…… 특산품을 준비하여 아일랜드의 발전 상황을 알려주자.",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "육성 캐릭터 초대",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 51001002,
+		unlock_condition = {
+			{
+				2,
+				51001001
+			}
+		},
+		link_task = {},
+		target_id = {
+			510010012
+		},
+		reward_show = {
+			{
+				41,
+				1,
+				1000
+			}
+		}
+	},
+	[51001003] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "데이터 로딩 중Ⅲ",
+		type = 5,
+		task_desc = "이제 곧 특별한 방문객이 아일랜드로 찾아온다. 이곳의 개발에 큰 흥미를 가지고 있는 모양이니…… 특산품을 준비하여 아일랜드의 발전 상황을 알려주자.",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "육성 캐릭터 초대",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 51001003,
+		unlock_condition = {
+			{
+				2,
+				51001002
+			}
+		},
+		link_task = {},
+		target_id = {
+			510010013,
+			510010014
+		},
+		reward_show = {
+			{
+				44,
+				990002,
+				1
+			}
+		}
+	},
+	[51002000] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "장난꾸러기 습격",
+		type = 9,
+		task_desc = "특수 선행 조건",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "육성 캐릭터 초대",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 51002000,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			510020001
+		},
+		reward_show = {}
+	},
+	[51002001] = {
+		trigger_data = 0,
+		trigger_tips = 1,
+		name = "장난꾸러기 습격Ⅰ",
+		type = 5,
+		task_desc = "평온한 일상은 이제 끝! 기운 넘치는 장난꾸러기가 이곳으로 오고 있다! 맛있는 것을 준비해두지 않으면, 하루 종일 달라붙어 있을지도 모른다!",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "육성 캐릭터 초대",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 51002001,
+		unlock_condition = {
+			{
+				2,
+				51002000
+			},
+			{
+				2,
+				10001060
+			}
+		},
+		link_task = {},
+		target_id = {
+			510020011
+		},
+		reward_show = {
+			{
+				41,
+				1,
+				1000
+			}
+		}
+	},
+	[51002002] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "장난꾸러기 습격Ⅱ",
+		type = 5,
+		task_desc = "평온한 일상은 이제 끝! 기운 넘치는 장난꾸러기가 이곳으로 오고 있다! 맛있는 것을 준비해두지 않으면, 하루 종일 달라붙어 있을지도 모른다!",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "육성 캐릭터 초대",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 51002002,
+		unlock_condition = {
+			{
+				2,
+				51002001
+			}
+		},
+		link_task = {},
+		target_id = {
+			510020012
+		},
+		reward_show = {
+			{
+				41,
+				1,
+				1000
+			}
+		}
+	},
+	[51002003] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "장난꾸러기 습격Ⅲ",
+		type = 5,
+		task_desc = "평온한 일상은 이제 끝! 기운 넘치는 장난꾸러기가 이곳으로 오고 있다! 맛있는 것을 준비해두지 않으면, 하루 종일 달라붙어 있을지도 모른다!",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "육성 캐릭터 초대",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 51002003,
+		unlock_condition = {
+			{
+				2,
+				51002002
+			}
+		},
+		link_task = {},
+		target_id = {
+			510020013,
+			510020014
+		},
+		reward_show = {
+			{
+				44,
+				990001,
+				1
+			}
+		}
+	},
+	[51003000] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "얌전한 방문객",
+		type = 9,
+		task_desc = "특수 선행 조건",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "육성 캐릭터 초대",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 51003000,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			510030001
+		},
+		reward_show = {}
+	},
+	[51003001] = {
+		trigger_data = 0,
+		trigger_tips = 1,
+		name = "얌전한 방문객Ⅰ",
+		type = 5,
+		task_desc = "머뭇거리는 작은 그림자가 계속 이쪽을 바라보고 있다…… 아일랜드의 특산품을 준비해서 조금씩 이곳에 익숙해지게 해주자.",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "육성 캐릭터 초대",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 51003001,
+		unlock_condition = {
+			{
+				2,
+				51003000
+			},
+			{
+				2,
+				10001060
+			}
+		},
+		link_task = {},
+		target_id = {
+			510030011
+		},
+		reward_show = {
+			{
+				41,
+				1,
+				1000
+			}
+		}
+	},
+	[51003002] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "얌전한 방문객Ⅱ",
+		type = 5,
+		task_desc = "머뭇거리는 작은 그림자가 계속 이쪽을 바라보고 있다…… 아일랜드의 특산품을 준비해서 조금씩 이곳에 익숙해지게 해주자.",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "육성 캐릭터 초대",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 51003002,
+		unlock_condition = {
+			{
+				2,
+				51003001
+			}
+		},
+		link_task = {},
+		target_id = {
+			510030012
+		},
+		reward_show = {
+			{
+				41,
+				1,
+				1000
+			}
+		}
+	},
+	[51003003] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "얌전한 방문객Ⅲ",
+		type = 5,
+		task_desc = "머뭇거리는 작은 그림자가 계속 이쪽을 바라보고 있다…… 아일랜드의 특산품을 준비해서 조금씩 이곳에 익숙해지게 해주자.",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 0,
+		unlock_time = "always",
+		series = "육성 캐릭터 초대",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 51003003,
+		unlock_condition = {
+			{
+				2,
+				51003002
+			}
+		},
+		link_task = {},
+		target_id = {
+			510030013,
+			510030014
+		},
+		reward_show = {
+			{
+				44,
+				990003,
+				1
 			}
 		}
 	},

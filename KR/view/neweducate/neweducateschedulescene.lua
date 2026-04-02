@@ -39,17 +39,24 @@ slot0.init = function(slot0)
 	slot0.moneyTF = slot0.rightTF:Find("money")
 	slot0.moodTF = slot0.rightTF:Find("mood")
 
-	setText(slot0.rightTF:Find("attr_title/Text"), i18n("child2_attr_title"))
+	setText(slot0.rightTF:Find("attrs/attr_title/Text"), i18n("child2_attr_title"))
 
-	slot0.attrsTF = slot0.rightTF:Find("attrs")
+	slot0.attrsTF = slot0.rightTF:Find("attrs/attrs")
 
-	setText(slot0.rightTF:Find("talent_title/Text"), i18n("child2_talent_title"))
+	setText(slot0.rightTF:Find("talent/talent_title/Text"), i18n("child2_talent_title"))
 
-	slot0.talentsTF = slot0.rightTF:Find("talents")
-
-	setText(slot0.rightTF:Find("status_title/Text"), i18n("child2_status_title"))
-
+	slot0.talentsTF = slot0.rightTF:Find("talent/talents")
 	slot0.statusTF = slot0.rightTF:Find("status")
+
+	setText(slot0.statusTF:Find("status_title/Text"), i18n("child2_status_title"))
+
+	slot0.tarotTF = slot0.rightTF:Find("tarot")
+
+	setText(slot0.tarotTF:Find("title/Text"), i18n("child2_tarot_title"))
+
+	slot0.tarotIconTF = slot0.tarotTF:Find("bg/icon")
+	slot0.tarotNameTF = slot0.tarotTF:Find("bg/name")
+	slot0.tarotEntryTF = slot0.tarotTF:Find("bg/entry")
 
 	slot0:InitRightPanel()
 
@@ -59,6 +66,7 @@ slot0.init = function(slot0)
 
 	slot0.skipToggleCom = slot0.skipToggle:GetComponent(typeof(Toggle))
 	slot0.nextBtn = slot0.rightTF:Find("next")
+	slot0.nextTempBtn = slot0.rightTF:Find("next_temp")
 end
 
 slot0.GetSkipLocalKey = function(slot0)
@@ -87,48 +95,42 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.mainTF:Find("top/return_btn"), function ()
 		uv0:onBackPressed()
 	end, SFX_PANEL)
+	onButton(slot0, slot0.tarotTF:Find("bg"), function ()
+		uv0:emit(uv1.GO_SUBLAYER, Context.New({
+			mediator = NewEducateTarotEntryMediator,
+			viewComponent = NewEducateTarotEntryLayer
+		}))
+	end, SFX_PANEL)
 	onToggle(slot0, slot0.skipToggle, function (slot0)
 		PlayerPrefs.SetInt(uv0:GetSkipLocalKey(), slot0 and 1 or 0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.nextBtn, function ()
-		slot0 = {}
-		slot1 = ""
-		slot2 = false
-
-		if uv0.selectedCnt < uv0.unlockPlanNum then
-			slot1 = i18n("child2_schedule_sure_tip")
-			slot2 = true
-		end
-
-		if uv0.contextData.char:GetPoint() > 0 then
-			slot1 = slot2 and i18n("child2_schedule_sure_tip3") or i18n("child2_schedule_sure_tip2")
-		end
-
-		table.insert(slot0, function (slot0)
-			if uv0 ~= "" then
-				uv1:emit(uv2.ON_BOX, {
-					content = uv0,
-					onYes = slot0
-				})
-			else
-				slot0()
-			end
-		end)
-		seriesAsync(slot0, function ()
-			uv0:emit(NewEducateScheduleMediator.ON_SELECTED_PLANS, uv0.skipToggleCom.isOn, uv0.cells)
-		end)
+		uv0:OnClickNextBtn()
 	end, SFX_PANEL)
-	onScroll(slot0, slot0.statusTF, function (slot0)
+	onButton(slot0, slot0.nextTempBtn, function ()
+		uv0:OnClickNextBtn()
+	end, SFX_PANEL)
+	onScroll(slot0, slot0.statusTF:Find("status"), function (slot0)
 		eachChild(uv0.statusUIList.container, function (slot0)
 			triggerToggle(slot0, false)
 		end)
 	end)
 	slot0:SetData()
+	setActive(slot0.nextTempBtn, slot0.contextData.char:GetRoundData():NextIsTemp())
 	triggerToggle(slot0.skipToggle, PlayerPrefs.GetInt(slot0:GetSkipLocalKey()) == 1)
 	slot0:UpdateTitle()
 	slot0:FlushPlanView()
 	slot0:UpdateCells()
-	slot0.talentUIList:align(uv0.TALENT_CNT)
+
+	slot0.isTarotChar = slot0.contextData.char:GetPermanentData():IsTarotType()
+
+	setActive(slot0.tarotTF, slot0.isTarotChar)
+	setActive(slot0.statusTF, not slot0.isTarotChar)
+	slot0:FlushTarot()
+
+	slot0.talentRoundIds = slot0.contextData.char:GetRoundData():GetTalentRoundIds()
+
+	slot0.talentUIList:align(#slot0.talentRoundIds)
 	slot0.statusUIList:align(#slot0.status)
 	slot0:UpdateReuslt()
 	slot0:CheckUpgradePlans()
@@ -184,6 +186,22 @@ slot0.InitRightPanel = function(slot0)
 
 			LoadImageSpriteAsync("neweducateicon/" .. slot4.icon, slot2:Find("icon_bg/icon"))
 			setScrollText(slot2:Find("name_mask/name"), slot4.name)
+			setToggleEnabled(slot2, uv0.isTarotChar)
+
+			if uv0.isTarotChar then
+				setText(slot2:Find("info/content/name"), slot4.name)
+
+				slot6, slot7 = NewEducateInfoPanel.GetArrtInfo(slot4.rank, uv0.contextData.char:GetAttr(slot3))
+
+				setText(slot2:Find("info/content/value"), slot7)
+
+				slot9, slot10 = uv0.contextData.char:GetBenefitData():GetDisplayPctByDrop({
+					type = NewEducateConst.DROP_TYPE.ATTR,
+					id = slot3
+				})
+
+				setText(slot2:Find("info/content/desc"), i18n("child2_benefit_summary") .. slot9 .. "%" .. "\n" .. i18n("child2_benefit_summary2") .. slot10 .. "%")
+			end
 		elseif slot0 == UIItemList.EventUpdate then
 			uv0:UpdateAttr(slot1, slot2)
 		end
@@ -200,7 +218,7 @@ slot0.InitRightPanel = function(slot0)
 	end)
 
 	slot1 = slot0.statusTF
-	slot1 = slot1:Find("content/content")
+	slot1 = slot1:Find("status/content/content")
 	slot0.statusUIList = UIItemList.New(slot1, slot1:Find("tpl"))
 	slot2 = slot0.statusUIList
 
@@ -212,6 +230,16 @@ slot0.InitRightPanel = function(slot0)
 end
 
 slot0.UpdateTitle = function(slot0)
+	if slot0.contextData.char:GetRoundData():IsEndless() then
+		slot0:UpdateEndlessTitle()
+	else
+		slot0:UpdateNormalTitle()
+	end
+
+	setImageSprite(slot0.bgTF, LoadSprite("bg/" .. slot0.contextData.char:GetRoundData():getConfig("main_background")), false)
+end
+
+slot0.UpdateNormalTitle = function(slot0)
 	slot2, slot3, slot4 = slot0.contextData.char:GetRoundData():GetProgressInfo()
 
 	setText(slot0.titleRoundTF, slot2)
@@ -221,7 +249,18 @@ slot0.UpdateTitle = function(slot0)
 
 	setText(slot0.targetTF:Find("target"), i18n("child2_schedule_target", slot5, slot4))
 	setText(slot0.targetTF:Find("value"), (slot5 < slot4 and setColorStr(slot5, "#ff6767") or slot5) .. "/" .. slot4)
-	setImageSprite(slot0.bgTF, LoadSprite("bg/" .. slot0.contextData.char:GetRoundData():getConfig("main_background")), false)
+end
+
+slot0.UpdateEndlessTitle = function(slot0)
+	slot2, slot3, slot4 = slot0.contextData.char:GetRoundData():GetEndlessProgressInfos()
+
+	setText(slot0.titleRoundTF, slot2)
+	setText(slot0.targetTF:Find("round"), i18n("child2_assess_round", 0))
+
+	slot5 = slot0.contextData.char:GetAttrSum()
+
+	setText(slot0.targetTF:Find("target"), i18n("child2_schedule_target", slot5, slot4))
+	setText(slot0.targetTF:Find("value"), (slot5 < slot4 and setColorStr(slot5, "#ff6767") or slot5) .. "/" .. slot4)
 end
 
 slot0.UpdateCells = function(slot0)
@@ -366,6 +405,22 @@ slot0.FlushPlanView = function(slot0)
 	slot0.planUIList:align(#slot0.showList)
 end
 
+slot0.FlushTarot = function(slot0)
+	slot0.tarotId = slot0.contextData.char:GetTarotId()
+
+	setActive(slot0.tarotIconTF, slot0.tarotId)
+
+	if slot0.tarotId then
+		LoadImageSpriteAsync("neweducateicon/" .. pg.child2_benefit_list[slot0.tarotId].item_icon_little, slot0.tarotIconTF)
+	end
+
+	setText(slot0.tarotNameTF, slot0.tarotId and pg.child2_benefit_list[slot0.tarotId].name or "EMPTY")
+
+	slot0.entries = slot0.contextData.char:GetBenefitData():GetListByType(NewEducateBuff.TYPE.ENTRY)
+
+	setText(slot0.tarotEntryTF, i18n("child2_entry_summary") .. #slot0.entries)
+end
+
 slot0.UpdateEffect = function(slot0, slot1)
 	setText(slot0.effectTF, string.gsub("$1", "$1", i18n("child2_mood_desc" .. slot0.contextData.char:GetMoodStage(slot1))))
 end
@@ -499,7 +554,7 @@ slot0.UpdateReuslt = function(slot0)
 
 	setText(slot0.moodTF:Find("before_value"), slot3)
 
-	slot4 = math.min(pg.child_resource[slot0.moodResId].max_value, math.max(pg.child_resource[slot0.moodResId].min_value, slot3 + slot0.moodResult))
+	slot4 = math.min(pg.child2_resource[slot0.moodResId].max_value, math.max(pg.child2_resource[slot0.moodResId].min_value, slot3 + slot0.moodResult))
 
 	setText(slot0.moodTF:Find("after_value"), slot4)
 
@@ -513,6 +568,35 @@ end
 
 slot0.SetScheduleData = function(slot0, slot1)
 	slot0.contextData.scheduleDataTable.OnScheduleDone = slot1
+end
+
+slot0.OnClickNextBtn = function(slot0)
+	slot1 = {}
+	slot2 = ""
+	slot3 = false
+
+	if slot0.selectedCnt < slot0.unlockPlanNum then
+		slot2 = i18n("child2_schedule_sure_tip")
+		slot3 = true
+	end
+
+	if slot0.contextData.char:GetPoint() > 0 then
+		slot2 = slot3 and i18n("child2_schedule_sure_tip3") or i18n("child2_schedule_sure_tip2")
+	end
+
+	table.insert(slot1, function (slot0)
+		if uv0 ~= "" then
+			uv1:emit(uv2.ON_BOX, {
+				content = uv0,
+				onYes = slot0
+			})
+		else
+			slot0()
+		end
+	end)
+	seriesAsync(slot1, function ()
+		uv0:emit(NewEducateScheduleMediator.ON_SELECTED_PLANS, uv0.skipToggleCom.isOn, uv0.cells)
+	end)
 end
 
 slot0.willExit = function(slot0)

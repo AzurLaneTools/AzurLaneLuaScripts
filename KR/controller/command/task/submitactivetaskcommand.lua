@@ -3,6 +3,14 @@ slot1 = {
 	59599
 }
 
+slot0.GetSubmitActivityTaskDone = function(slot0)
+	return GAME.SUBMIT_ACTIVITY_TASK_DONE
+end
+
+slot0.GetSubMitActivityAwardDown = function(slot0)
+	return GAME.SUBMIT_TASK_AWARD_DOWN
+end
+
 slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody() or {}
 	slot3 = slot2.callback
@@ -87,7 +95,7 @@ slot0.submitActivity = function(slot0, slot1, slot2, slot3, slot4)
 					SubmitTaskCommand.OnSubmitSuccess(slot6)
 				end
 
-				uv2:sendNotification(GAME.SUBMIT_ACTIVITY_TASK_DONE, {
+				uv2:sendNotification(uv2:GetSubmitActivityTaskDone(), {
 					awards = slot1
 				}, uv1.task_ids)
 			elseif table.contains(TotalTaskProxy.normal_task_type, uv0) then
@@ -103,12 +111,12 @@ slot0.submitActivity = function(slot0, slot1, slot2, slot3, slot4)
 					getProxy(TaskProxy):removeSubmittingTask(slot6.id)
 				end
 
-				uv2:sendNotification(GAME.SUBMIT_ACTIVITY_TASK_DONE, {
+				uv2:sendNotification(uv2:GetSubmitActivityTaskDone(), {
 					awards = slot1
 				}, uv1.task_ids)
 			end
 
-			uv2:sendNotification(GAME.SUBMIT_TASK_AWARD_DOWN, {
+			uv2:sendNotification(uv2:GetSubMitActivityAwardDown(), {
 				awards = slot1
 			}, uv1.task_ids)
 

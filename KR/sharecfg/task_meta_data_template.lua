@@ -357,6 +357,11 @@ pg.task_meta_data_template = setmetatable({
 		100533,
 		100534,
 		100535,
+		100541,
+		100542,
+		100543,
+		100544,
+		100545,
 		200001,
 		200002,
 		200003,
@@ -532,7 +537,11 @@ pg.task_meta_data_template = setmetatable({
 		200441,
 		200442,
 		200443,
-		200444
+		200444,
+		200451,
+		200452,
+		200453,
+		200454
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3377,6 +3386,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "레겐스부르크·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
 	},
+	[100541] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970210",
+		id = 100541,
+		target_num = 1,
+		desc = "쾰른·META을 편성한 함대로 1회 전투에서 승리한다"
+	},
+	[100542] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970210",
+		id = 100542,
+		target_num = 1,
+		desc = "쾰른·META을 편성한 함대로 LV30+ 적 함대를 격파한다"
+	},
+	[100543] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970210",
+		id = 100543,
+		target_num = 1,
+		desc = "쾰른·META을 편성한 함대로 LV55+ 적 함대를 격파한다"
+	},
+	[100544] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970210",
+		id = 100544,
+		target_num = 1,
+		desc = "쾰른·META을 편성한 함대로 LV80+ 적 함대를 격파한다"
+	},
+	[100545] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970210",
+		id = 100545,
+		target_num = 1,
+		desc = "쾰른·META을 편성한 함대로 LV100+ 적 함대를 격파한다"
+	},
 	[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -4784,5 +4833,37 @@ pg.base.task_meta_data_template = {
 		id = 200444,
 		target_num = 1,
 		desc = "대형작전에서 레겐스부르크·META를 포함한 함대로 Lv100 이상의 적 격파"
+	},
+	[200451] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970210",
+		id = 200451,
+		target_num = 1,
+		desc = "세이렌 작전에서 쾰른·META을 포함한 함대로 1회 전투에서 승리한다"
+	},
+	[200452] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970210",
+		id = 200452,
+		target_num = 1,
+		desc = "세이렌 작전에서 쾰른·META을 포함한 함대로 LV70+ 적을 격파한다"
+	},
+	[200453] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970210",
+		id = 200453,
+		target_num = 1,
+		desc = "세이렌 작전에서 쾰른·META을 포함한 함대로 LV90+ 적을 격파한다"
+	},
+	[200454] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970210",
+		id = 200454,
+		target_num = 1,
+		desc = "세이렌 작전에서 쾰른·META을 포함한 함대로 LV100+ 적을 격파한다"
 	}
 }

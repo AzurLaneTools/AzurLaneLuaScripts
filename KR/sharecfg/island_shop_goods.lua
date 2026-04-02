@@ -256,7 +256,13 @@ pg.island_shop_goods = setmetatable({
 		471051701,
 		471011001,
 		475060101,
-		474030301
+		474030301,
+		99000101,
+		99000102,
+		99000201,
+		99000202,
+		99000301,
+		99000302
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -11034,6 +11040,252 @@ pg.base.island_shop_goods = {
 			{
 				47,
 				4030301,
+				1
+			}
+		}
+	},
+	[99000101] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 4,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "활기찬 등교길",
+		desc = "네비게이터의 아일랜드 캐릭터용 의상 스킨 「활기찬 등교길」 획득 가능",
+		pt_award = 0,
+		icon = "IslandGoodsIcon/skin_99000101",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 0,
+		id = 99000101,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			2000000
+		},
+		items = {
+			{
+				47,
+				99000101,
+				1
+			}
+		}
+	},
+	[99000102] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 4,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "우등생 코스프레",
+		desc = "네비게이터의 아일랜드 캐릭터용 의상 스킨 「우등생 코스프레」 획득 가능",
+		pt_award = 0,
+		icon = "IslandGoodsIcon/skin_99000102",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 0,
+		id = 99000102,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			2000000
+		},
+		items = {
+			{
+				47,
+				99000102,
+				1
+			}
+		}
+	},
+	[99000201] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 4,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "어린 시절",
+		desc = "TB의 아일랜드 캐릭터용 의상 스킨 「어린 시절」 획득 가능",
+		pt_award = 0,
+		icon = "IslandGoodsIcon/skin_99000201",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 0,
+		id = 99000201,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			2000000
+		},
+		items = {
+			{
+				47,
+				99000201,
+				1
+			}
+		}
+	},
+	[99000202] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 4,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "서툰 관찰자",
+		desc = "TB의 아일랜드 캐릭터용 의상 스킨 「서툰 관찰자」 획득 가능",
+		pt_award = 0,
+		icon = "IslandGoodsIcon/skin_99000202",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 0,
+		id = 99000202,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			2000000
+		},
+		items = {
+			{
+				47,
+				99000202,
+				1
+			}
+		}
+	},
+	[99000301] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 4,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "순백의 속삭임",
+		desc = "스캐빈저의 아일랜드 캐릭터용 의상 스킨 「순백의 속삭임」 획득 가능",
+		pt_award = 0,
+		icon = "IslandGoodsIcon/skin_99000301",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 0,
+		id = 99000301,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			2000000
+		},
+		items = {
+			{
+				47,
+				99000301,
+				1
+			}
+		}
+	},
+	[99000302] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 4,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "정적의 예복",
+		desc = "스캐빈저의 아일랜드 캐릭터용 의상 스킨 「정적의 예복」 획득 가능",
+		pt_award = 0,
+		icon = "IslandGoodsIcon/skin_99000302",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 0,
+		id = 99000302,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			2000000
+		},
+		items = {
+			{
+				47,
+				99000302,
 				1
 			}
 		}

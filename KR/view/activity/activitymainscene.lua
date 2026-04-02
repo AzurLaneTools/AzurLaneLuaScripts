@@ -137,6 +137,14 @@ slot0.didEnter = function(slot0)
 	end, SOUND_BACK)
 	slot0:updateEntrances()
 	slot0:emit(ActivityMediator.SHOW_NEXT_ACTIVITY)
+
+	if slot0.contextData.event then
+		slot0:emit(slot0.contextData.event, slot0.contextData.data)
+
+		slot0.contextData.event = nil
+		slot0.contextData.data = nil
+	end
+
 	pg.CameraFixMgr.GetInstance():Adapt()
 end
 

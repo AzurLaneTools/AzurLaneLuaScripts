@@ -13,6 +13,9 @@ pg.island_item_data_template = setmetatable({
 			8,
 			9,
 			10,
+			11,
+			12,
+			13,
 			1000,
 			1001,
 			1002,
@@ -257,6 +260,9 @@ pg.island_item_data_template = setmetatable({
 			200018,
 			200019,
 			200020,
+			200021,
+			200022,
+			200023,
 			300001,
 			300002,
 			300003,
@@ -489,6 +495,9 @@ pg.island_item_data_template = setmetatable({
 			7,
 			8,
 			9,
+			11,
+			12,
+			13,
 			1500,
 			1501,
 			1502,
@@ -548,6 +557,9 @@ pg.island_item_data_template = setmetatable({
 			200018,
 			200019,
 			200020,
+			200021,
+			200022,
+			200023,
 			300001,
 			300002,
 			300003,
@@ -572,6 +584,9 @@ pg.island_item_data_template = setmetatable({
 		8,
 		9,
 		10,
+		11,
+		12,
+		13,
 		1000,
 		1001,
 		1002,
@@ -826,6 +841,9 @@ pg.island_item_data_template = setmetatable({
 		200018,
 		200019,
 		200020,
+		200021,
+		200022,
+		200023,
 		300001,
 		300002,
 		300003,
@@ -1123,6 +1141,78 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {}
 	},
+	{
+		name = "领洋者-娜比娅（特殊）",
+		desc = "领洋者-娜比娅（特殊）",
+		type = 3,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "islandInvitation/invite_990001",
+		price = 0,
+		icon_normal = "",
+		rarity = 1,
+		convert = 0,
+		resource_type = 0,
+		id = 11,
+		have_max = 0,
+		filter = {},
+		sub_attribute = {},
+		jump_page = {}
+	},
+	{
+		name = "领航员-TB（特殊）",
+		desc = "领航员-TB（特殊）",
+		type = 3,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "islandInvitation/invite_990002",
+		price = 0,
+		icon_normal = "",
+		rarity = 1,
+		convert = 0,
+		resource_type = 0,
+		id = 12,
+		have_max = 0,
+		filter = {},
+		sub_attribute = {},
+		jump_page = {}
+	},
+	{
+		name = "探索者-艾普洛（特殊）",
+		desc = "探索者-艾普洛（特殊）",
+		type = 3,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "islandInvitation/invite_990003",
+		price = 0,
+		icon_normal = "",
+		rarity = 1,
+		convert = 0,
+		resource_type = 0,
+		id = 13,
+		have_max = 0,
+		filter = {},
+		sub_attribute = {},
+		jump_page = {}
+	},
 	[1000] = {
 		name = "밀 씨앗",
 		desc = "모항에서 엄선된 밀 씨앗. 좋은 품질의 밀을 수확할 수 있다.",
@@ -1152,8 +1242,17 @@ pg.base.island_item_data_template = {
 			{
 				"상점 구매",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10022
+					}
 				}
 			}
 		}
@@ -1187,8 +1286,17 @@ pg.base.island_item_data_template = {
 			{
 				"상점 구매",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10022
+					}
 				}
 			}
 		}
@@ -1222,8 +1330,17 @@ pg.base.island_item_data_template = {
 			{
 				"상점 구매",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10022
+					}
 				}
 			}
 		}
@@ -1257,8 +1374,17 @@ pg.base.island_item_data_template = {
 			{
 				"상점 구매",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10022
+					}
 				}
 			}
 		}
@@ -1292,8 +1418,17 @@ pg.base.island_item_data_template = {
 			{
 				"상점 구매",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
 				}
 			}
 		}
@@ -1327,8 +1462,17 @@ pg.base.island_item_data_template = {
 			{
 				"상점 구매",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10022
+					}
 				}
 			}
 		}
@@ -1362,8 +1506,17 @@ pg.base.island_item_data_template = {
 			{
 				"상점 구매",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10022
+					}
 				}
 			}
 		}
@@ -1397,8 +1550,17 @@ pg.base.island_item_data_template = {
 			{
 				"상점 구매",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
 				}
 			}
 		}
@@ -1432,8 +1594,17 @@ pg.base.island_item_data_template = {
 			{
 				"상점 구매",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10022
+					}
 				}
 			}
 		}
@@ -1467,8 +1638,17 @@ pg.base.island_item_data_template = {
 			{
 				"상점 구매",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10022
+					}
 				}
 			}
 		}
@@ -1502,8 +1682,17 @@ pg.base.island_item_data_template = {
 			{
 				"상점 구매",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
 				}
 			}
 		}
@@ -1537,8 +1726,17 @@ pg.base.island_item_data_template = {
 			{
 				"상점 구매",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
 				}
 			}
 		}
@@ -1572,8 +1770,17 @@ pg.base.island_item_data_template = {
 			{
 				"상점 구매",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
 				}
 			}
 		}
@@ -1607,8 +1814,17 @@ pg.base.island_item_data_template = {
 			{
 				"상점 구매",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
 				}
 			}
 		}
@@ -1642,8 +1858,17 @@ pg.base.island_item_data_template = {
 			{
 				"상점 구매",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
 				}
 			}
 		}
@@ -1677,8 +1902,17 @@ pg.base.island_item_data_template = {
 			{
 				"상점 구매",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10025
+					}
 				}
 			}
 		}
@@ -1712,8 +1946,17 @@ pg.base.island_item_data_template = {
 			{
 				"상점 구매",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10025
+					}
 				}
 			}
 		}
@@ -1747,8 +1990,17 @@ pg.base.island_item_data_template = {
 			{
 				"상점 구매",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10025
+					}
 				}
 			}
 		}
@@ -1782,8 +2034,17 @@ pg.base.island_item_data_template = {
 			{
 				"상점 구매",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10025
+					}
 				}
 			}
 		}
@@ -1817,8 +2078,17 @@ pg.base.island_item_data_template = {
 			{
 				"상점 구매",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10025
+					}
 				}
 			}
 		}
@@ -1852,8 +2122,17 @@ pg.base.island_item_data_template = {
 			{
 				"상점 구매",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10025
+					}
 				}
 			}
 		}
@@ -4065,7 +4344,19 @@ pg.base.island_item_data_template = {
 		jump_page = {
 			{
 				"방앗간",
-				{}
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10019
+					}
+				}
 			}
 		}
 	},
@@ -4097,7 +4388,19 @@ pg.base.island_item_data_template = {
 		jump_page = {
 			{
 				"방앗간",
-				{}
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10019
+					}
+				}
 			}
 		}
 	},
@@ -4129,7 +4432,19 @@ pg.base.island_item_data_template = {
 		jump_page = {
 			{
 				"방앗간",
-				{}
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10019
+					}
+				}
 			}
 		}
 	},
@@ -6763,7 +7078,16 @@ pg.base.island_item_data_template = {
 				"상점 구매",
 				{
 					"IslandShopScene",
-					"page = 1"
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10025
+					}
 				}
 			}
 		}
@@ -6829,7 +7153,16 @@ pg.base.island_item_data_template = {
 				"상점 구매",
 				{
 					"IslandShopScene",
-					"page = 1"
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10025
+					}
 				}
 			}
 		}
@@ -9737,6 +10070,99 @@ pg.base.island_item_data_template = {
 		jump_page = {
 			{
 				"별빛상",
+				{}
+			}
+		}
+	},
+	[200021] = {
+		name = "领洋者-娜比娅岛屿权限认证函",
+		desc = "领洋者-娜比娅的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200021",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200021,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"活动获取",
+				{}
+			}
+		}
+	},
+	[200022] = {
+		name = "领航员-TB岛屿权限认证函",
+		desc = "领航员-TB的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200022",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200022,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"活动获取",
+				{}
+			}
+		}
+	},
+	[200023] = {
+		name = "探索者-艾普洛岛屿权限认证函",
+		desc = "探索者-艾普洛的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200023",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200023,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"活动获取",
 				{}
 			}
 		}

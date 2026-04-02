@@ -2542,6 +2542,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[970211] = {
 			30058
+		},
+		[970210] = {
+			30059
 		}
 	},
 	get_id_list_by_handbook_type = {
@@ -3398,7 +3401,8 @@ pg.ship_data_group = setmetatable({
 			30055,
 			30056,
 			30057,
-			30058
+			30058,
+			30059
 		}
 	},
 	all = {
@@ -4248,7 +4252,8 @@ pg.ship_data_group = setmetatable({
 		30055,
 		30056,
 		30057,
-		30058
+		30058,
+		30059
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -38960,6 +38965,41 @@ pg.base.ship_data_group = {
 					"METACHARACTER",
 					{
 						autoOpenShipConfigID = 9702111
+					}
+				},
+				0
+			}
+		}
+	},
+	[30059] = {
+		nationality = 97,
+		type = 2,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970210,
+		index_id = 30059,
+		code = 30059,
+		share_group_id = {},
+		property_hexagon = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"메타랩·월드 투어",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9702101
 					}
 				},
 				0

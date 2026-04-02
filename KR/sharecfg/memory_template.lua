@@ -4235,7 +4235,75 @@ pg.memory_template = setmetatable({
 		20146,
 		20147,
 		20148,
-		20149
+		20149,
+		20150,
+		20151,
+		20152,
+		20153,
+		20154,
+		20155,
+		20156,
+		20157,
+		20158,
+		20159,
+		20160,
+		20161,
+		20162,
+		20163,
+		20164,
+		20165,
+		20166,
+		20167,
+		20168,
+		20169,
+		20170,
+		20171,
+		20172,
+		20173,
+		20174,
+		20175,
+		20176,
+		20177,
+		20178,
+		20179,
+		20180,
+		20181,
+		20182,
+		20183,
+		20184,
+		20185,
+		20186,
+		20187,
+		20188,
+		20189,
+		20190,
+		20191,
+		20192,
+		20193,
+		20194,
+		20195,
+		20196,
+		20197,
+		20198,
+		20199,
+		20200,
+		20201,
+		20202,
+		20203,
+		20204,
+		20205,
+		20206,
+		20207,
+		20208,
+		20209,
+		20210,
+		20211,
+		20212,
+		20213,
+		20214,
+		20215,
+		20216,
+		20217
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -67752,6 +67820,1026 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"LINGYANGZHELAIFANGJISHI12"
+		}
+	},
+	[20150] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "스캐빈저 육성 계획, 시동! ·상",
+		condition = "「TB 육성」 - 스캐빈저 메인 스토리 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA1",
+		id = 20150,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA1"
+		}
+	},
+	[20151] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "스캐빈저 육성 계획, 시동! ·하",
+		condition = "「TB 육성」 - 스캐빈저 메인 스토리 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA2",
+		id = 20151,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA2"
+		}
+	},
+	[20152] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "풋풋한 등교일",
+		condition = "「TB 육성」 - 스캐빈저 메인 스토리 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA3",
+		id = 20152,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA3"
+		}
+	},
+	[20153] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "회전목마",
+		condition = "「TB 육성」 - 스캐빈저 메인 스토리 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA4",
+		id = 20153,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA4"
+		}
+	},
+	[20154] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "겨울의 온기",
+		condition = "「TB 육성」 - 스캐빈저 메인 스토리 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA5",
+		id = 20154,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA5"
+		}
+	},
+	[20155] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "토끼들과의 하루",
+		condition = "「TB 육성」 - 스캐빈저 메인 스토리 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA6",
+		id = 20155,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA6"
+		}
+	},
+	[20156] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "꽃 피는 나무 아래서",
+		condition = "「TB 육성」 - 스캐빈저 메인 스토리 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA7",
+		id = 20156,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA7"
+		}
+	},
+	[20157] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "그네 위의 약속",
+		condition = "「TB 육성」 - 스캐빈저 메인 스토리 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA8",
+		id = 20157,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA8"
+		}
+	},
+	[20158] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "가벼운 기대Ⅰ",
+		condition = "「TB 육성」 - 스캐빈저 메인 스토리 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA9",
+		id = 20158,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA9"
+		}
+	},
+	[20159] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "가벼운 기대Ⅱ",
+		condition = "「TB 육성」 - 스캐빈저 메인 스토리 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA10",
+		id = 20159,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA10"
+		}
+	},
+	[20160] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "한여름의 물총 싸움",
+		condition = "「TB 육성」 - 스캐빈저 메인 스토리 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA11",
+		id = 20160,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA11"
+		}
+	},
+	[20161] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "장수풍뎅이의 맛",
+		condition = "「TB 육성」 - 스캐빈저 메인 스토리 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA12",
+		id = 20161,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA12"
+		}
+	},
+	[20162] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "한밤중의 수선 작업",
+		condition = "「TB 육성」 - 스캐빈저 메인 스토리 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA13",
+		id = 20162,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA13"
+		}
+	},
+	[20163] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "그림 속 풍경",
+		condition = "「TB 육성」 - 스캐빈저 메인 스토리 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA14",
+		id = 20163,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA14"
+		}
+	},
+	[20164] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "빗속의 한때",
+		condition = "「TB 육성」 - 스캐빈저 메인 스토리 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA15",
+		id = 20164,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA15"
+		}
+	},
+	[20165] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "아름다운 겨울 남기기",
+		condition = "「TB 육성」 - 스캐빈저 메인 스토리 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA16",
+		id = 20165,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA16"
+		}
+	},
+	[20166] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "견습 항해사 일지",
+		condition = "「TB 육성」 - 스캐빈저 메인 스토리 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA17",
+		id = 20166,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA17"
+		}
+	},
+	[20167] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "소중한 당신과의 미래Ⅰ",
+		condition = "「TB 육성」 - 스캐빈저 메인 스토리 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA18",
+		id = 20167,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA18"
+		}
+	},
+	[20168] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "소중한 당신과의 미래Ⅱ",
+		condition = "「TB 육성」 - 스캐빈저 메인 스토리 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA19",
+		id = 20168,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA19"
+		}
+	},
+	[20169] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "패션을 향한 첫걸음Ⅰ",
+		condition = "「TB 육성」 - 스캐빈저 메인 스토리 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA20",
+		id = 20169,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA20"
+		}
+	},
+	[20170] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "패션을 향한 첫걸음Ⅱ",
+		condition = "「TB 육성」 - 스캐빈저 메인 스토리 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA21",
+		id = 20170,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA21"
+		}
+	},
+	[20171] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "소녀의 비밀",
+		condition = "「TB 육성」 - 스캐빈저 메인 스토리 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA22",
+		id = 20171,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA22"
+		}
+	},
+	[20172] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "마음을 울리는 아름다움",
+		condition = "「TB 육성」 - 스캐빈저 메인 스토리 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA23",
+		id = 20172,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA23"
+		}
+	},
+	[20173] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "기타 현에 담긴 마음",
+		condition = "「TB 육성」 - 스캐빈저 메인 스토리 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA24",
+		id = 20173,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA24"
+		}
+	},
+	[20174] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "이 달콤함을 당신에게",
+		condition = "「TB 육성」 - 스캐빈저 메인 스토리 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA25",
+		id = 20174,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA25"
+		}
+	},
+	[20175] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "사진에 새겨진 봄",
+		condition = "「TB 육성」 - 스캐빈저 메인 스토리 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA26",
+		id = 20175,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA26"
+		}
+	},
+	[20176] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "첫 점",
+		condition = "「TB 육성」 - 스캐빈저 메인 스토리 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA27",
+		id = 20176,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA27"
+		}
+	},
+	[20177] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "함께 걷는 미래Ⅰ",
+		condition = "「TB 육성」 - 스캐빈저 메인 스토리 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA28",
+		id = 20177,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA28"
+		}
+	},
+	[20178] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "함께 걷는 미래Ⅱ",
+		condition = "「TB 육성」 - 스캐빈저 메인 스토리 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA29",
+		id = 20178,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA29"
+		}
+	},
+	[20179] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "새로운 출발",
+		condition = "「TB 육성」 - 스캐빈저 메인 스토리 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA30",
+		id = 20179,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA30"
+		}
+	},
+	[20180] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "진학의 순간",
+		condition = "「TB 육성」 - 스캐빈저 엔딩 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA31",
+		id = 20180,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA31"
+		}
+	},
+	[20181] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "전업 자녀",
+		condition = "「TB 육성」 - 스캐빈저 엔딩 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA32",
+		id = 20181,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA32"
+		}
+	},
+	[20182] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "오트쿠튀르 장인",
+		condition = "「TB 육성」 - 스캐빈저 엔딩 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA33",
+		id = 20182,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA33"
+		}
+	},
+	[20183] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "먹방 스트리머",
+		condition = "「TB 육성」 - 스캐빈저 엔딩 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA34",
+		id = 20183,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA34"
+		}
+	},
+	[20184] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "라이트노벨 작가",
+		condition = "「TB 육성」 - 스캐빈저 엔딩 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA35",
+		id = 20184,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA35"
+		}
+	},
+	[20185] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "신문 기자",
+		condition = "「TB 육성」 - 스캐빈저 엔딩 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA36",
+		id = 20185,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA36"
+		}
+	},
+	[20186] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "인형탈 연기자",
+		condition = "「TB 육성」 - 스캐빈저 엔딩 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA37",
+		id = 20186,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA37"
+		}
+	},
+	[20187] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "꽃집 점장",
+		condition = "「TB 육성」 - 스캐빈저 엔딩 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA38",
+		id = 20187,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA38"
+		}
+	},
+	[20188] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "여행가",
+		condition = "「TB 육성」 - 스캐빈저 엔딩 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA39",
+		id = 20188,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA39"
+		}
+	},
+	[20189] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "낚시의 달인",
+		condition = "「TB 육성」 - 스캐빈저 엔딩 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA40",
+		id = 20189,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA40"
+		}
+	},
+	[20190] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "바리스타",
+		condition = "「TB 육성」 - 스캐빈저 엔딩 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA41",
+		id = 20190,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA41"
+		}
+	},
+	[20191] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "점술가",
+		condition = "「TB 육성」 - 스캐빈저 엔딩 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA42",
+		id = 20191,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA42"
+		}
+	},
+	[20192] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "서점 점원",
+		condition = "「TB 육성」 - 스캐빈저 엔딩 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA43",
+		id = 20192,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA43"
+		}
+	},
+	[20193] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "피아니스트",
+		condition = "「TB 육성」 - 스캐빈저 엔딩 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA44",
+		id = 20193,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA44"
+		}
+	},
+	[20194] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "표본사",
+		condition = "「TB 육성」 - 스캐빈저 엔딩 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA45",
+		id = 20194,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA45"
+		}
+	},
+	[20195] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "재회",
+		condition = "「TB 육성」 - 스캐빈저 메인 스토리 클리어",
+		story = "TANSUOZHEYANGCHENGJIHUA46",
+		id = 20195,
+		icon = "tb_zhuxian",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEYANGCHENGJIHUA46"
+		}
+	},
+	[20196] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "비 오는 날의 산책",
+		condition = "「TB 육성」 - 스캐빈저와 대화",
+		story = "TANSUOZHEXINZHIXUYU1",
+		id = 20196,
+		icon = "oceana_tanxin",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEXINZHIXUYU1"
+		}
+	},
+	[20197] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "애프터눈 티타임",
+		condition = "「TB 육성」 - 스캐빈저와 대화",
+		story = "TANSUOZHEXINZHIXUYU2",
+		id = 20197,
+		icon = "oceana_tanxin",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEXINZHIXUYU2"
+		}
+	},
+	[20198] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "서류 정리",
+		condition = "「TB 육성」 - 스캐빈저와 대화",
+		story = "TANSUOZHEXINZHIXUYU3",
+		id = 20198,
+		icon = "oceana_tanxin",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEXINZHIXUYU3"
+		}
+	},
+	[20199] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "선물 고르기",
+		condition = "「TB 육성」 - 스캐빈저와 대화",
+		story = "TANSUOZHEXINZHIXUYU4",
+		id = 20199,
+		icon = "oceana_tanxin",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEXINZHIXUYU4"
+		}
+	},
+	[20200] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "호기심",
+		condition = "「TB 육성」 - 스캐빈저와 대화",
+		story = "TANSUOZHEXINZHIXUYU5",
+		id = 20200,
+		icon = "oceana_tanxin",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEXINZHIXUYU5"
+		}
+	},
+	[20201] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "앨범 만들기",
+		condition = "「TB 육성」 - 스캐빈저와 대화",
+		story = "TANSUOZHEXINZHIXUYU6",
+		id = 20201,
+		icon = "oceana_tanxin",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEXINZHIXUYU6"
+		}
+	},
+	[20202] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "유원지 가기",
+		condition = "「TB 육성」 - 스캐빈저와 대화",
+		story = "TANSUOZHEXINZHIXUYU7",
+		id = 20202,
+		icon = "oceana_tanxin",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEXINZHIXUYU7"
+		}
+	},
+	[20203] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "창고 보물찾기",
+		condition = "「TB 육성」 - 스캐빈저와 대화",
+		story = "TANSUOZHEXINZHIXUYU8",
+		id = 20203,
+		icon = "oceana_tanxin",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEXINZHIXUYU8"
+		}
+	},
+	[20204] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "건강 관리",
+		condition = "「TB 육성」 - 스캐빈저와 대화",
+		story = "TANSUOZHEXINZHIXUYU9",
+		id = 20204,
+		icon = "oceana_tanxin",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEXINZHIXUYU9"
+		}
+	},
+	[20205] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "장식 계획",
+		condition = "「TB 육성」 - 스캐빈저와 대화",
+		story = "TANSUOZHEXINZHIXUYU10",
+		id = 20205,
+		icon = "oceana_tanxin",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHEXINZHIXUYU10"
+		}
+	},
+	[20206] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "빛나는 비결Ⅰ",
+		condition = "「TB 육성」 - 스캐빈저에서 동료 방문",
+		story = "TANSUOZHELAIFANGJISHI1",
+		id = 20206,
+		icon = "explorer_baifang1",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHELAIFANGJISHI1"
+		}
+	},
+	[20207] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "꽃의 정원Ⅰ",
+		condition = "「TB 육성」 - 스캐빈저에서 동료 방문",
+		story = "TANSUOZHELAIFANGJISHI2",
+		id = 20207,
+		icon = "explorer_baifang2",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHELAIFANGJISHI2"
+		}
+	},
+	[20208] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "고칠 필요 없는 솔직함Ⅰ",
+		condition = "「TB 육성」 - 스캐빈저에서 동료 방문",
+		story = "TANSUOZHELAIFANGJISHI3",
+		id = 20208,
+		icon = "explorer_baifang3",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHELAIFANGJISHI3"
+		}
+	},
+	[20209] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "앞치마와 영광Ⅰ",
+		condition = "「TB 육성」 - 스캐빈저에서 동료 방문",
+		story = "TANSUOZHELAIFANGJISHI4",
+		id = 20209,
+		icon = "explorer_baifang4",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHELAIFANGJISHI4"
+		}
+	},
+	[20210] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "서툰 마음Ⅰ",
+		condition = "「TB 육성」 - 스캐빈저에서 동료 방문",
+		story = "TANSUOZHELAIFANGJISHI5",
+		id = 20210,
+		icon = "explorer_baifang5",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHELAIFANGJISHI5"
+		}
+	},
+	[20211] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "정연한 하루Ⅰ",
+		condition = "「TB 육성」 - 스캐빈저에서 동료 방문",
+		story = "TANSUOZHELAIFANGJISHI6",
+		id = 20211,
+		icon = "explorer_baifang6",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHELAIFANGJISHI6"
+		}
+	},
+	[20212] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "빛나는 비결Ⅱ",
+		condition = "「TB 육성」 - 스캐빈저에서 동료 방문",
+		story = "TANSUOZHELAIFANGJISHI7",
+		id = 20212,
+		icon = "explorer_baifang1",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHELAIFANGJISHI7"
+		}
+	},
+	[20213] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "꽃의 정원Ⅱ",
+		condition = "「TB 육성」 - 스캐빈저에서 동료 방문",
+		story = "TANSUOZHELAIFANGJISHI8",
+		id = 20213,
+		icon = "explorer_baifang2",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHELAIFANGJISHI8"
+		}
+	},
+	[20214] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "꽃의 정원Ⅱ",
+		condition = "「TB 육성」 - 스캐빈저에서 동료 방문",
+		story = "TANSUOZHELAIFANGJISHI9",
+		id = 20214,
+		icon = "explorer_baifang3",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHELAIFANGJISHI9"
+		}
+	},
+	[20215] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "앞치마와 영광Ⅱ",
+		condition = "「TB 육성」 - 스캐빈저에서 동료 방문",
+		story = "TANSUOZHELAIFANGJISHI10",
+		id = 20215,
+		icon = "explorer_baifang4",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHELAIFANGJISHI10"
+		}
+	},
+	[20216] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "서툰 마음Ⅱ",
+		condition = "「TB 육성」 - 스캐빈저에서 동료 방문",
+		story = "TANSUOZHELAIFANGJISHI11",
+		id = 20216,
+		icon = "explorer_baifang5",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHELAIFANGJISHI11"
+		}
+	},
+	[20217] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "정연한 하루Ⅱ",
+		condition = "「TB 육성」 - 스캐빈저에서 동료 방문",
+		story = "TANSUOZHELAIFANGJISHI12",
+		id = 20217,
+		icon = "explorer_baifang6",
+		is_open = 0,
+		unlock_pre = {
+			"TANSUOZHELAIFANGJISHI12"
 		}
 	}
 }

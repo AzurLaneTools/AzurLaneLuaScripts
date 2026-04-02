@@ -16373,6 +16373,37 @@ _G.pg.base.item_data_statistics[21058] = {
 }
 
 
+_G.pg.base.item_data_statistics[21059] = {
+	open_directly = 0,
+	name = "결정: 쾰른·META",
+	type = 4,
+	display = "쾰른·META의 능력을 상승시키는 아이템. 메타랩의 한계 돌파에 사용 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21059",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21059,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "결정화 내열강",
@@ -30876,6 +30907,58 @@ _G.pg.base.item_data_statistics[30433] = {
 		{
 			9,
 			2116,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30434] = {
+	open_directly = 1,
+	name = "랜덤 장비 스킨",
+	type = 11,
+	display = "특허 투어 보상 장비 스킨을 무작위로 1개 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "111228",
+	id = 30434,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2117,
+			1
+		},
+		{
+			9,
+			2118,
+			1
+		},
+		{
+			9,
+			2119,
+			1
+		},
+		{
+			9,
+			2120,
 			1
 		}
 	},

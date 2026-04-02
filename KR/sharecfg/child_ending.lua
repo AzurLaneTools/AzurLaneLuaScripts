@@ -1,11 +1,16 @@
 pg = pg or {}
 pg.child_ending = {
 	{
-		id = 1,
 		name = "사진 모델",
-		group = 1,
 		polaroid_condition = 201,
+		group = 1,
+		lock_name = "사진 모델",
 		pic = "bg_project_tb_cg26",
+		unlock_desc = "오픈 가능",
+		sp_bg = 2,
+		child_cg_basic_price = 2000,
+		id = 1,
+		pic_preview = "tb_ending1",
 		level = 1,
 		condition = {
 			{
@@ -33,11 +38,16 @@ pg.child_ending = {
 		}
 	},
 	{
-		id = 2,
 		name = "실력파 아티스트",
-		group = 2,
 		polaroid_condition = 201,
+		group = 2,
+		lock_name = "실력파 아티스트",
 		pic = "bg_project_tb_cg27",
+		unlock_desc = "오픈 가능",
+		sp_bg = 2,
+		child_cg_basic_price = 2000,
+		id = 2,
+		pic_preview = "tb_ending2",
 		level = 1,
 		condition = {
 			{
@@ -70,11 +80,16 @@ pg.child_ending = {
 		}
 	},
 	{
-		id = 3,
 		name = "인기 뮤지션",
-		group = 3,
 		polaroid_condition = 201,
+		group = 3,
+		lock_name = "인기 뮤지션",
 		pic = "bg_project_tb_cg28",
+		unlock_desc = "오픈 가능",
+		sp_bg = 2,
+		child_cg_basic_price = 2000,
+		id = 3,
+		pic_preview = "tb_ending3",
 		level = 1,
 		condition = {
 			{
@@ -97,11 +112,16 @@ pg.child_ending = {
 		}
 	},
 	{
-		id = 4,
 		name = "떠오르는 뉴스타",
-		group = 4,
 		polaroid_condition = 203,
+		group = 4,
+		lock_name = "떠오르는 뉴스타",
 		pic = "bg_project_tb_cg29",
+		unlock_desc = "오픈 가능",
+		sp_bg = 2,
+		child_cg_basic_price = 2000,
+		id = 4,
+		pic_preview = "tb_ending4",
 		level = 1,
 		condition = {
 			{
@@ -134,11 +154,16 @@ pg.child_ending = {
 		}
 	},
 	{
-		id = 5,
 		name = "달인 요리사",
-		group = 5,
 		polaroid_condition = 203,
+		group = 5,
+		lock_name = "달인 요리사",
 		pic = "bg_project_tb_cg30",
+		unlock_desc = "오픈 가능",
+		sp_bg = 2,
+		child_cg_basic_price = 2000,
+		id = 5,
+		pic_preview = "tb_ending5",
 		level = 1,
 		condition = {
 			{
@@ -166,11 +191,16 @@ pg.child_ending = {
 		}
 	},
 	{
-		id = 6,
 		name = "유망한 작가",
-		group = 6,
 		polaroid_condition = 203,
+		group = 6,
+		lock_name = "유망한 작가",
 		pic = "bg_project_tb_cg31",
+		unlock_desc = "오픈 가능",
+		sp_bg = 2,
+		child_cg_basic_price = 2000,
+		id = 6,
+		pic_preview = "tb_ending6",
 		level = 1,
 		condition = {
 			{
@@ -198,11 +228,16 @@ pg.child_ending = {
 		}
 	},
 	{
-		id = 7,
 		name = "기대주 선수",
-		group = 7,
 		polaroid_condition = 202,
+		group = 7,
+		lock_name = "기대주 선수",
 		pic = "bg_project_tb_cg32",
+		unlock_desc = "오픈 가능",
+		sp_bg = 2,
+		child_cg_basic_price = 2000,
+		id = 7,
+		pic_preview = "tb_ending7",
 		level = 1,
 		condition = {
 			{
@@ -225,11 +260,16 @@ pg.child_ending = {
 		}
 	},
 	{
-		id = 8,
 		name = "천재 비즈니스 우먼",
-		group = 8,
 		polaroid_condition = 202,
+		group = 8,
+		lock_name = "천재 비즈니스 우먼",
 		pic = "bg_project_tb_cg33",
+		unlock_desc = "오픈 가능",
+		sp_bg = 2,
+		child_cg_basic_price = 2000,
+		id = 8,
+		pic_preview = "tb_ending8",
 		level = 1,
 		condition = {
 			{
@@ -257,11 +297,16 @@ pg.child_ending = {
 		}
 	},
 	{
-		id = 9,
 		name = "활기찬 농부",
-		group = 9,
 		polaroid_condition = 202,
+		group = 9,
+		lock_name = "활기찬 농부",
 		pic = "bg_project_tb_cg34",
+		unlock_desc = "오픈 가능",
+		sp_bg = 2,
+		child_cg_basic_price = 2000,
+		id = 9,
+		pic_preview = "tb_ending9",
 		level = 1,
 		condition = {
 			{
@@ -294,11 +339,16 @@ pg.child_ending = {
 		}
 	},
 	{
-		id = 10,
 		name = "반복되는 일상",
-		group = 10,
 		polaroid_condition = 0,
+		group = 10,
+		lock_name = "반복되는 일상",
 		pic = "bg_project_tb_cg35",
+		unlock_desc = "오픈 가능",
+		sp_bg = 2,
+		child_cg_basic_price = 2000,
+		id = 10,
+		pic_preview = "tb_ending10",
 		level = 1,
 		condition = {
 			{
@@ -327,11 +377,16 @@ pg.child_ending = {
 		}
 	},
 	{
-		id = 11,
 		name = "두문불출",
-		group = 11,
 		polaroid_condition = 0,
+		group = 11,
+		lock_name = "두문불출",
 		pic = "bg_project_tb_cg36",
+		unlock_desc = "오픈 가능",
+		sp_bg = 2,
+		child_cg_basic_price = 2000,
+		id = 11,
+		pic_preview = "tb_ending11",
 		level = 1,
 		condition = {},
 		performance = {

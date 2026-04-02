@@ -414,6 +414,388 @@ pg.child2_ending = {
 			}
 		}
 	},
+	[101] = {
+		pic_preview = "explorer_ending1",
+		name = "진학의 순간",
+		character = 2,
+		id = 101,
+		pic = "bg_project_explorer_cg32",
+		performance = "TANSUOZHEYANGCHENGJIHUA31",
+		condition_desc = {
+			{
+				{
+					99801
+				},
+				"육성 클리어"
+			}
+		},
+		condition = {
+			"&&",
+			{
+				3800101
+			}
+		}
+	},
+	[102] = {
+		pic_preview = "explorer_ending2",
+		name = "전업 자녀",
+		character = 2,
+		id = 102,
+		pic = "bg_project_explorer_cg15",
+		performance = "TANSUOZHEYANGCHENGJIHUA32",
+		condition_desc = {
+			{
+				{
+					99801
+				},
+				"파라미터 합계>3000"
+			}
+		},
+		condition = {
+			"&&",
+			{
+				3800201
+			}
+		}
+	},
+	[103] = {
+		pic_preview = "explorer_ending3",
+		name = "오트쿠튀르 장인",
+		character = 2,
+		id = 103,
+		pic = "bg_project_explorer_cg14",
+		performance = "TANSUOZHEYANGCHENGJIHUA33",
+		condition_desc = {
+			{
+				{
+					99801
+				},
+				"파라미터 합계>6000"
+			}
+		},
+		condition = {
+			"&&",
+			{
+				3800301
+			}
+		}
+	},
+	[104] = {
+		pic_preview = "explorer_ending4",
+		name = "먹방 스트리머",
+		character = 2,
+		id = 104,
+		pic = "bg_project_explorer_cg20",
+		performance = "TANSUOZHEYANGCHENGJIHUA34",
+		condition_desc = {
+			{
+				{
+					99801
+				},
+				"성격 - 외향적"
+			},
+			{
+				{
+					99801
+				},
+				"파라미터 합계>4000"
+			}
+		},
+		condition = {
+			"&&",
+			{
+				3800401,
+				3800402
+			}
+		}
+	},
+	[105] = {
+		pic_preview = "explorer_ending5",
+		name = "라이트노벨 작가",
+		character = 2,
+		id = 105,
+		pic = "bg_project_explorer_cg23",
+		performance = "TANSUOZHEYANGCHENGJIHUA35",
+		condition_desc = {
+			{
+				{
+					99801
+				},
+				"성격 - 내성적"
+			},
+			{
+				{
+					99801
+				},
+				"파라미터 합계>4000"
+			}
+		},
+		condition = {
+			"&&",
+			{
+				3800501,
+				3800502
+			}
+		}
+	},
+	[106] = {
+		pic_preview = "explorer_ending14",
+		name = "신문 기자",
+		character = 2,
+		id = 106,
+		pic = "bg_project_explorer_cg18",
+		performance = "TANSUOZHEYANGCHENGJIHUA36",
+		condition_desc = {
+			{
+				{
+					99801
+				},
+				"성격 - 외향적>80"
+			}
+		},
+		condition = {
+			"&&",
+			{
+				3800601
+			}
+		}
+	},
+	[107] = {
+		pic_preview = "explorer_ending15",
+		name = "인형탈 연기자",
+		character = 2,
+		id = 107,
+		pic = "bg_project_explorer_cg11",
+		performance = "TANSUOZHEYANGCHENGJIHUA37",
+		condition_desc = {
+			{
+				{
+					99801
+				},
+				"성격 - 내성적>80"
+			}
+		},
+		condition = {
+			"&&",
+			{
+				3800701
+			}
+		}
+	},
+	[108] = {
+		pic_preview = "explorer_ending6",
+		name = "꽃집 점장",
+		character = 2,
+		id = 108,
+		pic = "bg_project_explorer_cg16",
+		performance = "TANSUOZHEYANGCHENGJIHUA38",
+		condition_desc = {
+			{
+				{
+					99801
+				},
+				"지식>4000"
+			},
+			{
+				{
+					99801
+				},
+				"파라미터 합계>12000"
+			}
+		},
+		condition = {
+			"&&",
+			{
+				3800801,
+				3800802
+			}
+		}
+	},
+	[109] = {
+		pic_preview = "explorer_ending11",
+		name = "여행가",
+		character = 2,
+		id = 109,
+		pic = "bg_project_explorer_cg19",
+		performance = "TANSUOZHEYANGCHENGJIHUA39",
+		condition_desc = {
+			{
+				{
+					99801
+				},
+				"관광 여행 횟수>=20"
+			}
+		},
+		condition = {
+			"&&",
+			{
+				3800901
+			}
+		}
+	},
+	[110] = {
+		pic_preview = "explorer_ending8",
+		name = "낚시의 달인",
+		character = 2,
+		id = 110,
+		pic = "bg_project_explorer_cg17",
+		performance = "TANSUOZHEYANGCHENGJIHUA40",
+		condition_desc = {
+			{
+				{
+					99801
+				},
+				"체력>4000"
+			},
+			{
+				{
+					99801
+				},
+				"파라미터 합계>12000"
+			}
+		},
+		condition = {
+			"&&",
+			{
+				3801001,
+				3801002
+			}
+		}
+	},
+	[111] = {
+		pic_preview = "explorer_ending7",
+		name = "바리스타",
+		character = 2,
+		id = 111,
+		pic = "bg_project_explorer_cg22",
+		performance = "TANSUOZHEYANGCHENGJIHUA41",
+		condition_desc = {
+			{
+				{
+					99801
+				},
+				"손재주>4000"
+			},
+			{
+				{
+					99801
+				},
+				"파라미터 합계>12000"
+			}
+		},
+		condition = {
+			"&&",
+			{
+				3801101,
+				3801102
+			}
+		}
+	},
+	[112] = {
+		pic_preview = "explorer_ending9",
+		name = "점술가",
+		character = 2,
+		id = 112,
+		pic = "bg_project_explorer_cg21",
+		performance = "TANSUOZHEYANGCHENGJIHUA42",
+		condition_desc = {
+			{
+				{
+					99801
+				},
+				"감수성>4000"
+			},
+			{
+				{
+					99801
+				},
+				"파라미터 합계>12000"
+			}
+		},
+		condition = {
+			"&&",
+			{
+				3801201,
+				3801202
+			}
+		}
+	},
+	[113] = {
+		pic_preview = "explorer_ending10",
+		name = "서점 점원",
+		character = 2,
+		id = 113,
+		pic = "bg_project_explorer_cg12",
+		performance = "TANSUOZHEYANGCHENGJIHUA43",
+		condition_desc = {
+			{
+				{
+					99801
+				},
+				"생활 체험 횟수>=20"
+			}
+		},
+		condition = {
+			"&&",
+			{
+				3801301
+			}
+		}
+	},
+	[114] = {
+		pic_preview = "explorer_ending12",
+		name = "피아니스트",
+		character = 2,
+		id = 114,
+		pic = "bg_project_explorer_cg13",
+		performance = "TANSUOZHEYANGCHENGJIHUA44",
+		condition_desc = {
+			{
+				{
+					99801
+				},
+				"특수 엔딩\n이벤트 3개 클리어"
+			}
+		},
+		condition = {
+			"||",
+			{
+				3801401,
+				3801402,
+				3801403,
+				3801404,
+				3801405,
+				3801406
+			}
+		}
+	},
+	[115] = {
+		pic_preview = "explorer_ending13",
+		name = "표본사",
+		character = 2,
+		id = 115,
+		pic = "bg_project_explorer_cg10",
+		performance = "TANSUOZHEYANGCHENGJIHUA45",
+		condition_desc = {
+			{
+				{
+					99801
+				},
+				"특수 엔딩\n이벤트 3개 클리어"
+			}
+		},
+		condition = {
+			"||",
+			{
+				3801501,
+				3801502,
+				3801503,
+				3801504,
+				3801505,
+				3801506
+			}
+		}
+	},
 	get_id_list_by_character = {
 		{
 			1,
@@ -431,6 +813,23 @@ pg.child2_ending = {
 			13,
 			14,
 			15
+		},
+		{
+			101,
+			102,
+			103,
+			104,
+			105,
+			106,
+			107,
+			108,
+			109,
+			110,
+			111,
+			112,
+			113,
+			114,
+			115
 		}
 	},
 	all = {
@@ -448,6 +847,21 @@ pg.child2_ending = {
 		12,
 		13,
 		14,
-		15
+		15,
+		101,
+		102,
+		103,
+		104,
+		105,
+		106,
+		107,
+		108,
+		109,
+		110,
+		111,
+		112,
+		113,
+		114,
+		115
 	}
 }

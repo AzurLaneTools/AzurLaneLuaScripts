@@ -348,5 +348,16 @@ return {
 		isTip = function ()
 			return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(ActivityConst.OTHER_WORLD_TERMINAL_BATTLE_ID))
 		end
+	},
+	{
+		banner = "cultivating_plant",
+		event = ActivityMediator.OPEN_CULTIVATING_PLANT,
+		data = {},
+		isShow = function ()
+			return getProxy(ActivityProxy):getActivityById(ActivityConst.CULTIVATING_PLANT_ID) and not slot0:isEnd()
+		end,
+		isTip = function ()
+			return CultivatingPlantTools.NeedShowRedPoint()
+		end
 	}
 }

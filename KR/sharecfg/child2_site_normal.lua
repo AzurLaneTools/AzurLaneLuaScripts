@@ -176,6 +176,182 @@ pg.child2_site_normal = {
 			"oceana_lvyou_3"
 		}
 	},
+	{
+		site_lv = 1,
+		type = 1,
+		title = "생활 체험 Lv1(금전 80 획득)",
+		node_id = 3700801,
+		character = 2,
+		id = 7,
+		cost = {
+			2,
+			303,
+			1
+		},
+		drop_display = {
+			{
+				2,
+				301,
+				80
+			}
+		},
+		special_args = {
+			"&&",
+			{
+				3600101
+			}
+		},
+		cpk = {
+			"explorer_ditudagong_1",
+			"explorer_ditudagong_2",
+			"explorer_ditudagong_3"
+		}
+	},
+	{
+		site_lv = 2,
+		type = 1,
+		title = "생활 체험 Lv2(금전 120 획득)",
+		node_id = 3700802,
+		character = 2,
+		id = 8,
+		cost = {
+			2,
+			303,
+			1
+		},
+		drop_display = {
+			{
+				2,
+				301,
+				120
+			}
+		},
+		special_args = {
+			"&&",
+			{
+				3600102
+			}
+		},
+		cpk = {
+			"explorer_ditudagong_1",
+			"explorer_ditudagong_2",
+			"explorer_ditudagong_3"
+		}
+	},
+	{
+		site_lv = 3,
+		type = 1,
+		title = "생활 체험 Lv3(금전 200 획득)",
+		node_id = 3700803,
+		character = 2,
+		id = 9,
+		cost = {
+			2,
+			303,
+			1
+		},
+		drop_display = {
+			{
+				2,
+				301,
+				200
+			}
+		},
+		special_args = {},
+		cpk = {
+			"explorer_ditudagong_1",
+			"explorer_ditudagong_2",
+			"explorer_ditudagong_3"
+		}
+	},
+	{
+		site_lv = 1,
+		type = 2,
+		title = "관광 여행 Lv1(기분 6 획득)",
+		node_id = 3700804,
+		character = 2,
+		id = 10,
+		cost = {
+			2,
+			303,
+			1
+		},
+		drop_display = {
+			{
+				2,
+				302,
+				6
+			}
+		},
+		special_args = {
+			"&&",
+			{
+				3600101
+			}
+		},
+		cpk = {
+			"explorer_ditulvyou_1",
+			"explorer_ditulvyou_2",
+			"explorer_ditulvyou_3"
+		}
+	},
+	{
+		site_lv = 2,
+		type = 2,
+		title = "관광 여행 Lv2(기분 10 획득)",
+		node_id = 3700805,
+		character = 2,
+		id = 11,
+		cost = {
+			2,
+			303,
+			1
+		},
+		drop_display = {
+			{
+				2,
+				302,
+				10
+			}
+		},
+		special_args = {
+			"&&",
+			{
+				3600102
+			}
+		},
+		cpk = {
+			"explorer_ditulvyou_1",
+			"explorer_ditulvyou_2",
+			"explorer_ditulvyou_3"
+		}
+	},
+	{
+		site_lv = 3,
+		type = 2,
+		title = "관광 여행 Lv3(기분 18 획득)",
+		node_id = 3700806,
+		character = 2,
+		id = 12,
+		cost = {
+			2,
+			303,
+			1
+		},
+		drop_display = {
+			{
+				2,
+				302,
+				18
+			}
+		},
+		special_args = {},
+		cpk = {
+			"explorer_ditulvyou_1",
+			"explorer_ditulvyou_2",
+			"explorer_ditulvyou_3"
+		}
+	},
 	get_id_list_by_character = {
 		{
 			1,
@@ -184,6 +360,14 @@ pg.child2_site_normal = {
 			4,
 			5,
 			6
+		},
+		{
+			7,
+			8,
+			9,
+			10,
+			11,
+			12
 		}
 	},
 	all = {
@@ -192,6 +376,12 @@ pg.child2_site_normal = {
 		3,
 		4,
 		5,
-		6
+		6,
+		7,
+		8,
+		9,
+		10,
+		11,
+		12
 	}
 }

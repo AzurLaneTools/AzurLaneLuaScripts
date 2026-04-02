@@ -1,13 +1,19 @@
 slot0 = class("NewEducateChar", import("model.vo.BaseVO"))
 slot0.RES_TYPE = {
-	FAVOR = 4,
+	REFRESH_SHOP = 5,
 	ACTION = 3,
 	MONEY = 1,
-	MOOD = 2
+	MOOD = 2,
+	FAVOR = 4,
+	REFRESH_CHOICE = 6
 }
 slot0.ATTR_TYPE = {
 	ATTR = 1,
 	PERSONALITY = 2
+}
+slot0.DIFFICULTY = {
+	EASY = 0,
+	HARD = 1
 }
 
 slot0.bindConfigTable = function(slot0)
@@ -17,7 +23,8 @@ end
 slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot0.id
-	slot0.roundData = NewEducateRound.New(slot0.id, slot1.round)
+	slot0.difficulty = slot1.difficulty or uv0.DIFFICULTY.EASY
+	slot0.roundData = NewEducateRound.New(slot1)
 
 	slot0:SetResources(slot1.res.resource)
 	slot0:SetAttrs(slot1.res.attrs)
@@ -40,7 +47,7 @@ slot0.Ctor = function(slot0, slot1)
 
 	slot0.callName = slot1.name or ""
 	slot0.gotFavorLv = slot1.favor_lv or 0
-	slot0.benefitData = NewEducateBenefit.New(slot1.benefit)
+	slot0.benefitData = NewEducateBenefit.New(slot1.benefit, slot1.display)
 
 	slot0:BuildSiteIdMap()
 end
@@ -62,7 +69,7 @@ slot0.GetGameCnt = function(slot0)
 end
 
 slot0.InitFSM = function(slot0, slot1)
-	slot0.fsm = NewEducateFSM.New(slot0.id, slot1)
+	slot0.fsm = NewEducateStateMgr.New(slot0.id, slot1)
 end
 
 slot0.InitSiteData = function(slot0, slot1)
@@ -79,7 +86,7 @@ slot0.InitSiteData = function(slot0, slot1)
 
 	for slot6, slot7 in pairs(NewEducateConst.SITE_NORMAL_TYPE) do
 		if not slot0.normalType2Id[slot7] then
-			slot0.normalType2Id[slot7] = underscore.detect(slot2, function (slot0)
+			slot0.normalType2Id[slot7] = underscore.detect(slot2 or {}, function (slot0)
 				return pg.child2_site_normal[slot0].type == uv0 and slot1.site_lv == 1
 			end)
 		end
@@ -107,7 +114,9 @@ slot0.GetSelectInfo = function(slot0)
 		bg = slot0.roundData:getConfig("main_background"),
 		name = slot0:getConfig("name2"),
 		gameCnt = slot0:GetGameCnt(),
-		progressStr = i18n("child2_cur_round", slot0.roundData.round)
+		progressStr = slot0.roundData:IsEndless() and i18n("child2_game_endless_cnt", slot0.roundData:GetWave()) or i18n("child2_cur_round", slot0.roundData.round),
+		isHard = slot0.difficulty == uv0.DIFFICULTY.HARD,
+		isEndless = slot0.roundData:IsEndless()
 	}
 end
 
@@ -137,13 +146,31 @@ slot0.BuildSiteIdMap = function(slot0)
 				end)
 			end,
 			[NewEducateConst.SITE_TYPE.SHOP] = function ()
-				uv0.siteIdMap[uv1] = uv2
+				uv0.siteIdMap[uv1] = {}
+
+				underscore.each(uv2, function (slot0)
+					if pg.child2_site_display[slot0].character == uv0.id then
+						table.insert(uv0.siteIdMap[uv1], slot0)
+					end
+				end)
 			end,
 			[NewEducateConst.SITE_TYPE.WORK] = function ()
-				uv0.siteIdMap[uv1] = uv2
+				uv0.siteIdMap[uv1] = {}
+
+				underscore.each(uv2, function (slot0)
+					if pg.child2_site_display[slot0].character == uv0.id then
+						table.insert(uv0.siteIdMap[uv1], slot0)
+					end
+				end)
 			end,
 			[NewEducateConst.SITE_TYPE.TRAVEL] = function ()
-				uv0.siteIdMap[uv1] = uv2
+				uv0.siteIdMap[uv1] = {}
+
+				underscore.each(uv2, function (slot0)
+					if pg.child2_site_display[slot0].character == uv0.id then
+						table.insert(uv0.siteIdMap[uv1], slot0)
+					end
+				end)
 			end,
 			[NewEducateConst.SITE_TYPE.EVENT] = function ()
 				underscore.each(uv0, function (slot0)
@@ -214,7 +241,7 @@ slot0.SetResources = function(slot0, slot1)
 end
 
 slot0.GetRes = function(slot0, slot1)
-	return slot0.resources[slot1]
+	return slot0.resources[slot1] or 0
 end
 
 slot0.GetPoint = function(slot0)
@@ -222,13 +249,7 @@ slot0.GetPoint = function(slot0)
 end
 
 slot0.GetResByType = function(slot0, slot1)
-	return slot0.resources[slot0:GetResIdByType(slot1)]
-end
-
-slot0.GetResPanelIds = function(slot0)
-	return underscore.select(underscore.keys(slot0.resources), function (slot0)
-		return pg.child2_resource[slot0].type ~= uv0.RES_TYPE.FAVOR
-	end)
+	return slot0.resources[slot0:GetResIdByType(slot1)] or 0
 end
 
 slot0.GetResIdByType = function(slot0, slot1)
@@ -238,6 +259,12 @@ slot0.GetResIdByType = function(slot0, slot1)
 end
 
 slot0.UpdateRes = function(slot0, slot1, slot2)
+	if not slot0.resources[slot1] then
+		warning("不符合当前角色的资源更新！！！")
+
+		slot0.resources[slot1] = 0
+	end
+
 	slot0.resources[slot1] = slot0.resources[slot1] + slot2
 	slot0.resources[slot1] = math.max(pg.child2_resource[slot1].min_value, slot0.resources[slot1])
 	slot0.resources[slot1] = math.min(pg.child2_resource[slot1].max_value, slot0.resources[slot1])
@@ -245,16 +272,16 @@ end
 
 slot0.GetMoodStage = function(slot0, slot1)
 	if (slot1 or slot0:GetResByType(uv0.RES_TYPE.MOOD)) <= pg.gameset.child_emotion.description[1][1][1] then
-		return 1
+		return 1, slot2[1][2]
 	end
 
 	if slot2[#slot2][1][2] <= slot3 then
-		return #slot2
+		return #slot2, slot2[#slot2][2]
 	end
 
 	for slot7, slot8 in ipairs(slot2) do
 		if slot8[1][1] <= slot3 and slot3 < slot8[1][2] then
-			return slot7
+			return slot7, slot8[2]
 		end
 	end
 end
@@ -306,14 +333,14 @@ slot0.GetAttr = function(slot0, slot1)
 	return slot0.attrs[slot1]
 end
 
-slot0.GetAttrIds = function(slot0, slot1)
-	slot2 = underscore.select(underscore.keys(slot0.attrs), function (slot0)
+slot0.GetAttrIds = function(slot0)
+	slot1 = underscore.select(underscore.keys(slot0.attrs), function (slot0)
 		return pg.child2_attr[slot0].type == uv0.ATTR_TYPE.ATTR
 	end)
 
-	table.sort(slot2)
+	table.sort(slot1)
 
-	return slot2
+	return slot1
 end
 
 slot0.GetAttrSum = function(slot0)
@@ -358,26 +385,43 @@ slot0.GetPersonalityTag = function(slot0, slot1)
 	end)
 end
 
+slot0.GetPersonalityTagTip = function(slot0, slot1)
+	return i18n("child2_personal_id" .. slot0.id .. "_tag" .. slot1)
+end
+
+slot0.GetPersonalityTagOptionBg = function(slot0, slot1)
+	return underscore.detect(slot0:getConfig("personality_tag_icon"), function (slot0)
+		return slot0[1] == "tag" .. uv0
+	end)[3]
+end
+
 slot0.UpdateAttr = function(slot0, slot1, slot2)
+	if not slot0.attrs[slot1] then
+		warning("不符合当前角色的属性更新！！！")
+
+		slot0.attrs[slot1] = 0
+	end
+
 	slot0.attrs[slot1] = slot0.attrs[slot1] + slot2
 	slot0.attrs[slot1] = math.max(pg.child2_attr[slot1].min_value, slot0.attrs[slot1])
 	slot0.attrs[slot1] = math.min(pg.child2_attr[slot1].max_value, slot0.attrs[slot1])
 end
 
 slot0.GetAssessRankIdx = function(slot0)
-	if slot0.roundData:getConfig("target_id") == 0 then
+	if slot0.roundData:getConfig("target_id") == 0 or slot0.roundData:IsTemp() then
 		return 0
 	end
 
-	slot2 = slot0:GetAttrSum()
+	slot2 = slot0.roundData:GetExtraFactor()
+	slot3 = slot0:GetAttrSum()
 
-	for slot7, slot8 in ipairs(pg.child2_target[slot1].attr_sum_level) do
-		if slot8[1] <= slot2 and slot2 <= slot8[2] then
-			return slot7
+	for slot8, slot9 in ipairs(pg.child2_target[slot1].attr_sum_level) do
+		if slot3 >= slot9[1] * slot2 and slot3 <= slot9[2] * slot2 then
+			return slot8
 		end
 	end
 
-	return #slot3
+	return #slot4
 end
 
 slot0.GetAssessPreStory = function(slot0)
@@ -466,7 +510,12 @@ slot0.OnNextRound = function(slot0)
 
 	slot0.resources[slot0:GetResIdByType(NewEducateChar.RES_TYPE.ACTION)] = slot0.roundData:getConfig("map_mobility")
 
+	if slot0.resources[slot0:GetResIdByType(NewEducateChar.RES_TYPE.REFRESH_SHOP)] then
+		slot0.resources[slot0:GetResIdByType(NewEducateChar.RES_TYPE.REFRESH_SHOP)] = slot0.roundData:getConfig("refresh_refill")
+	end
+
 	slot0.benefitData:OnNextRound(slot0.roundData.round)
+	slot0.permanentData:OnNextRound(slot0.roundData.round)
 end
 
 slot0.GetBenefitData = function(slot0)
@@ -474,12 +523,14 @@ slot0.GetBenefitData = function(slot0)
 end
 
 slot0.AddBuff = function(slot0, slot1, slot2)
+	slot0.permanentData:CheckBuffRecord(slot1)
+
 	if slot2 > 0 then
-		if slot0.fsm:IsImmediateBenefit() then
-			slot0.benefitData:AddActiveBuff(slot1, slot0.roundData.round)
-		else
-			slot0.benefitData:AddPendingBuff(slot1)
-		end
+		slot0.benefitData:AddBuff({
+			id = slot1,
+			round = slot0.roundData.round,
+			is_pending = not slot0.fsm:IsImmediateBenefit()
+		})
 	else
 		slot0.benefitData:RemoveBuff(slot1)
 	end
@@ -499,6 +550,10 @@ end
 
 slot0.GetStatus = function(slot0, slot1)
 	return slot0.benefitData:GetBuff(slot1)
+end
+
+slot0.GetTarotId = function(slot0)
+	return slot0.benefitData:GetListByType(NewEducateBuff.TYPE.TAROT)[1] and slot1.id
 end
 
 slot0.GetGoodsDiscountInfos = function(slot0)
@@ -526,7 +581,9 @@ slot0.GetOwnCnt = function(slot0, slot1)
 		[NewEducateConst.DROP_TYPE.BUFF] = function ()
 			return uv0.benefitData:ExistBuff(uv1.id) and 1 or 0
 		end
-	})
+	}, function ()
+		return 0
+	end)
 end
 
 slot0.IsMatch = function(slot0, slot1)

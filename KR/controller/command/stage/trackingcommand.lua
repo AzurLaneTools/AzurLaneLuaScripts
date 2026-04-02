@@ -194,10 +194,14 @@ slot0.execute = function(slot0, slot1)
 		end,
 		function (slot0)
 			if uv0:IsSupportSubmarineStage() and #uv0:getSupportFleet() > 0 then
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = i18n("submarine_support_oil_consume_tip", getGameset("submarine_support_oil_consume")[1]),
-					onYes = slot0
-				})
+				if uv1 then
+					slot0()
+				else
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						content = i18n("submarine_support_oil_consume_tip", getGameset("submarine_support_oil_consume")[1]),
+						onYes = slot0
+					})
+				end
 			else
 				slot0()
 			end

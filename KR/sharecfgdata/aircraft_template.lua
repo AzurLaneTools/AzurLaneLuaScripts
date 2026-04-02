@@ -94746,6 +94746,176 @@ _G.pg.base.aircraft_template[180023] = {
 }
 
 
+_G.pg.base.aircraft_template[183501] = {
+	name = "科隆M直升机Lv1",
+	max_hp = 42,
+	accuracy = 23,
+	model_ID = "fl-282",
+	ACC_growth = 0,
+	crash_DMG = 180,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "fl-282",
+	spawn_brownian = 1,
+	nationality = 4,
+	hp_growth = 1692,
+	speed = 48,
+	id = 183501,
+	scale = 1,
+	funnel_behavior = {
+		rear = -40,
+		exist = 10,
+		front = -40,
+		stay = 2
+	},
+	weapon_ID = {},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[183502] = {
+	id = 183502,
+	name = "科隆M直升机Lv2",
+	spawn_brownian = 1,
+	base = 183501,
+	max_hp = 48,
+	hp_growth = 1913
+}
+
+
+_G.pg.base.aircraft_template[183503] = {
+	id = 183503,
+	name = "科隆M直升机Lv3",
+	spawn_brownian = 1,
+	base = 183501,
+	max_hp = 54,
+	hp_growth = 2133
+}
+
+
+_G.pg.base.aircraft_template[183504] = {
+	id = 183504,
+	name = "科隆M直升机Lv4",
+	spawn_brownian = 1,
+	base = 183501,
+	max_hp = 61,
+	hp_growth = 2354
+}
+
+
+_G.pg.base.aircraft_template[183505] = {
+	id = 183505,
+	name = "科隆M直升机Lv5",
+	spawn_brownian = 1,
+	base = 183501,
+	max_hp = 67,
+	hp_growth = 2575
+}
+
+
+_G.pg.base.aircraft_template[183506] = {
+	id = 183506,
+	name = "科隆M直升机Lv6",
+	spawn_brownian = 1,
+	base = 183501,
+	max_hp = 73,
+	hp_growth = 2796
+}
+
+
+_G.pg.base.aircraft_template[183507] = {
+	id = 183507,
+	name = "科隆M直升机Lv7",
+	spawn_brownian = 1,
+	base = 183501,
+	max_hp = 79,
+	hp_growth = 3016
+}
+
+
+_G.pg.base.aircraft_template[183508] = {
+	id = 183508,
+	name = "科隆M直升机Lv8",
+	spawn_brownian = 1,
+	base = 183501,
+	max_hp = 86,
+	hp_growth = 3237
+}
+
+
+_G.pg.base.aircraft_template[183509] = {
+	id = 183509,
+	name = "科隆M直升机Lv9",
+	spawn_brownian = 1,
+	base = 183501,
+	max_hp = 92,
+	hp_growth = 3458
+}
+
+
+_G.pg.base.aircraft_template[183510] = {
+	id = 183510,
+	name = "科隆M直升机Lv10",
+	spawn_brownian = 1,
+	base = 183501,
+	max_hp = 98,
+	hp_growth = 3678
+}
+
+
 _G.pg.base.aircraft_template[200101] = {
 	name = "【大舰队米德维BOSS】执棋者 轰炸机",
 	max_hp = 202,

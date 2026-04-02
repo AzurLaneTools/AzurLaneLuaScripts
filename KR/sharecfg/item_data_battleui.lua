@@ -193,6 +193,21 @@ pg.item_data_battleui = {
 			1
 		}
 	},
+	[114] = {
+		name = "아이비",
+		key = "SkinNormal_20260326",
+		display_icon = "ui_114",
+		unlock = "특허 투어 패스 28기 보상",
+		is_unlock = 1,
+		rare = 3,
+		desc = "화면 끝에서 무성하게 자라난 아이비 사이로 환상적인 빛이 반짝인다. 모든 전투에 고대 숲의 신비로움과 생명력을 더해준다",
+		id = 114,
+		icon = "114",
+		scene = {},
+		rare_display = {
+			1
+		}
+	},
 	[201] = {
 		name = "크리스마스",
 		key = "SkinNormal_20241209",
@@ -326,6 +341,7 @@ pg.item_data_battleui = {
 		111,
 		112,
 		113,
+		114,
 		201,
 		202,
 		203,

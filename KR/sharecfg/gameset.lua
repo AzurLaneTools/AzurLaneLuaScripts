@@ -3837,7 +3837,7 @@ pg.gameset = {
 	act_npc_ship_id = {
 		key_value = 0,
 		description = {
-			50154
+			50501
 		}
 	},
 	music_Version = {
@@ -4053,5 +4053,131 @@ pg.gameset = {
 	love_base_id = {
 		description = "",
 		key_value = 31201
+	},
+	child_cg_add_price = {
+		description = "",
+		key_value = 0
+	},
+	child_cg_max_price = {
+		description = "",
+		key_value = 2000
+	},
+	child_polaroid_basic_price = {
+		description = "",
+		key_value = 1000
+	},
+	child_polaroid_add_price = {
+		description = "",
+		key_value = 0
+	},
+	child_polaroid_max_price = {
+		description = "",
+		key_value = 1000
+	},
+	child2_tarot_refresh_limit = {
+		description = "",
+		key_value = 1
+	},
+	child2_effect_refresh_limit = {
+		description = "",
+		key_value = 999
+	},
+	child2_draw_factor = {
+		description = "",
+		key_value = 500
+	},
+	child2_shop_refresh_price = {
+		description = "",
+		key_value = 150
+	},
+	child2_shop_refresh_count = {
+		description = "",
+		key_value = 1
+	},
+	child2_endless_loop_extra_factor = {
+		key_value = 0,
+		description = {
+			{
+				1,
+				30,
+				1
+			},
+			{
+				31,
+				40,
+				15
+			},
+			{
+				41,
+				50,
+				225
+			},
+			{
+				51,
+				60,
+				3375
+			},
+			{
+				61,
+				70,
+				50625
+			},
+			{
+				71,
+				999,
+				759375
+			}
+		}
+	},
+	child2_endless_loop_extra_factor_hard = {
+		key_value = 0,
+		description = {
+			{
+				1,
+				30,
+				1
+			},
+			{
+				31,
+				40,
+				15
+			},
+			{
+				41,
+				50,
+				225
+			},
+			{
+				51,
+				60,
+				3375
+			},
+			{
+				61,
+				70,
+				50625
+			},
+			{
+				71,
+				999,
+				759375
+			}
+		}
+	},
+	child2_rank_switch = {
+		description = "",
+		key_value = 1
+	},
+	child2_pool_exhausted_token = {
+		key_value = 0,
+		description = {
+			3839997,
+			3839998,
+			3839999
+		}
+	},
+	child2_select_sleep_time = {
+		description = "0.85",
+		key_value = 0
 	}
 }

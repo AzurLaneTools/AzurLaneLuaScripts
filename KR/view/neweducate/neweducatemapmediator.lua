@@ -3,6 +3,7 @@ slot0.ON_SITE_NORMAL = "NewEducateMapMediator.ON_SITE_NORMAL"
 slot0.ON_SITE_EVENT = "NewEducateMapMediator.ON_SITE_EVENT"
 slot0.ON_SITE_SHIP = "NewEducateMapMediator.ON_SITE_SHIP"
 slot0.ON_SHOPPING = "NewEducateMapMediator.ON_SHOPPING"
+slot0.ON_REFRESH_SHOP = "NewEducateMapMediator.ON_REFRESH_SHOP"
 slot0.ON_UPGRADE_NORMAL = "NewEducateMapMediator.ON_UPGRADE_NORMAL"
 slot0.ON_SHIP_UPGRADE_LEVEL = "NewEducateMapMediator.ON_SHIP_UPGRADE_LEVEL"
 
@@ -32,6 +33,11 @@ slot0.register = function(slot0)
 			num = slot2 or 1
 		})
 	end)
+	slot0:bind(uv0.ON_REFRESH_SHOP, function (slot0)
+		uv0:sendNotification(GAME.NEW_EDUCATE_REFRESH_SHOP, {
+			id = uv0.contextData.char.id
+		})
+	end)
 	slot0:bind(uv0.ON_UPGRADE_NORMAL, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.NEW_EDUCATE_UPGRADE_NORMAL_SITE, {
 			id = uv0.contextData.char.id,
@@ -48,13 +54,16 @@ slot0.listNotificationInterests = function(slot0)
 		NewEducateProxy.PERSONALITY_UPDATED,
 		NewEducateProxy.TALENT_UPDATED,
 		NewEducateProxy.STATUS_UPDATED,
+		NewEducateProxy.TAROT_UPDATED,
 		GAME.NEW_EDUCATE_NODE_START,
 		GAME.NEW_EDUCATE_NEXT_NODE,
 		GAME.NEW_EDUCATE_SHOPPING_DONE,
+		GAME.NEW_EDUCATE_REFRESH_SHOP_DONE,
 		GAME.NEW_EDUCATE_REFRESH_DONE,
 		GAME.NEW_EDUCATE_MAP_NORMAL_DONE,
 		GAME.NEW_EDUCATE_MAP_EVENT_DONE,
 		GAME.NEW_EDUCATE_MAP_SHIP_DONE,
+		GAME.NEW_EDUCATE_CHECK_PRIORITY_FSM,
 		uv0.ON_SHIP_UPGRADE_LEVEL
 	}
 end
@@ -72,17 +81,29 @@ slot0.handleNotification = function(slot0, slot1)
 		slot0.viewComponent:OnTalentUpdate()
 	elseif slot2 == NewEducateProxy.STATUS_UPDATED then
 		slot0.viewComponent:OnStatusUpdate()
+	elseif slot2 == NewEducateProxy.TAROT_UPDATED then
+		slot0.viewComponent:OnTarotUpdate()
 	elseif slot2 == GAME.NEW_EDUCATE_NODE_START then
 		slot0.viewComponent:OnNodeStart(slot3.node)
 	elseif slot2 == GAME.NEW_EDUCATE_NEXT_NODE then
 		slot0.viewComponent:OnNextNode(slot3)
 	elseif slot2 == GAME.NEW_EDUCATE_SHOPPING_DONE then
-		slot0.viewComponent:emit(NewEducateBaseUI.ON_DROP, {
-			items = slot3.drops,
-			removeFunc = function ()
-				uv0.viewComponent:OnShoppingDone()
+		seriesAsync({
+			function (slot0)
+				if not uv0.isUpgradeEntry then
+					uv1.viewComponent:emit(NewEducateBaseUI.ON_DROP, {
+						items = uv0.drops,
+						removeFunc = slot0
+					})
+				else
+					slot0()
+				end
 			end
-		})
+		}, function ()
+			uv0.viewComponent:OnShoppingDone()
+		end)
+	elseif slot2 == GAME.NEW_EDUCATE_REFRESH_SHOP_DONE then
+		slot0.viewComponent:OnRefreshShopDone()
 	elseif slot2 == GAME.NEW_EDUCATE_REFRESH_DONE then
 		slot0.viewComponent:emit(NewEducateBaseUI.GO_SCENE, SCENE.NEW_EDUCATE, {
 			id = slot3.id
@@ -95,6 +116,8 @@ slot0.handleNotification = function(slot0, slot1)
 		slot0:StartNodeWithCheckDrops(slot3)
 	elseif slot2 == uv0.ON_SHIP_UPGRADE_LEVEL then
 		slot0.viewComponent:UpdateShipLv()
+	elseif slot2 == GAME.NEW_EDUCATE_CHECK_PRIORITY_FSM then
+		slot0:CheckPriorityState()
 	end
 end
 

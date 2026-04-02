@@ -37,28 +37,30 @@ slot0.Show = function(slot0, slot1)
 		groupDelta = 1
 	})
 
-	slot2 = slot0.contextData.char
-	slot2 = slot2:GetRoundData()
-	slot3, slot4, slot5 = slot2:GetProgressInfo()
+	slot2 = slot0.contextData.char:GetRoundData()
+	slot3 = slot2.round
+	slot4 = 0
+	slot5 = 0
+
+	if slot2:IsEndless() then
+		slot6, slot7, slot5 = slot2:GetEndlessProgressInfos()
+	else
+		slot3, slot4, slot5 = slot2:GetProgressInfo()
+	end
 
 	setText(slot0.assessTF, i18n("child2_assess_tip", slot4))
 	setText(slot0.targetTF, i18n("child2_assess_tip_target", slot5))
-	setText(slot0.roundTF, i18n("child2_cur_round", slot3 - 1))
+	setText(slot0.roundTF, i18n("child2_cur_round", slot2:IsTemp() and slot3 or slot3 - 1))
 	seriesAsync({
 		function (slot0)
-			slot1 = uv0.roundAnimEvent
-
-			slot1:SetEndEvent(function ()
+			uv0.roundAnimEvent:SetEndEvent(function ()
 				uv0.roundAnimEvent:SetEndEvent(nil)
 				setActive(uv0.roundWindow, false)
 				uv1()
 			end)
-
-			slot1 = uv0.roundAnimEvent
-
-			slot1:SetTriggerEvent(function ()
+			uv0.roundAnimEvent:SetTriggerEvent(function ()
 				uv0.roundAnimEvent:SetTriggerEvent(nil)
-				setText(uv0.roundTF, i18n("child2_cur_round", uv1))
+				setText(uv0.roundTF, uv1 and i18n("child2_cur_round_temp") or i18n("child2_cur_round", uv2))
 			end)
 			setActive(uv0.roundWindow, true)
 		end,

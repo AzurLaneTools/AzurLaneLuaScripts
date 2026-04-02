@@ -171776,6 +171776,31 @@ _G.pg.base.item_virtual_data_statistics[65115] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65116] = {
+	drop_gold_max = 0,
+	name = "투어 Pt",
+	display = "이벤트 「월드 투어」에서 누적 보상을 획득하기 위한 임무 Pt 아이템. 이벤트 종료 후 삭제됩니다",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 7028,
+	icon = "props/battlepass_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 21,
+	id = 65116,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65500] = {
 	drop_gold_max = 0,
 	name = "저항의 별 기념 훈장",
@@ -179255,6 +179280,31 @@ _G.pg.base.item_virtual_data_statistics[65875] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65876] = {
+	drop_gold_max = 0,
+	name = "동원지령 Pt",
+	display = "「사령부 동원지령」 임무로 획득할 수 있는 이벤트 Pt. 이벤트 종료 후에 제거됩니다.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/union_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65876,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[66001] = {
 	drop_gold_max = 0,
 	name = "목재",
@@ -179447,6 +179497,56 @@ _G.pg.base.item_virtual_data_statistics[66012] = {
 	drop_oil_max = 0,
 	virtual_type = 103,
 	id = 66012,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66013] = {
+	drop_gold_max = 0,
+	name = "호감도 - 꼬마 프리드리히",
+	display = "이벤트 「엄마의 연주 연습」·호감도",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xiaofeitelie_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66013,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66014] = {
+	drop_gold_max = 0,
+	name = "小腓特烈大帝转换虚拟道具（不显示）",
+	display = "看不到看不到",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50501,
+	icon = "Props/masaiqu_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 17,
+	id = 66014,
 	display_icon = {},
 	price = {},
 	index = {},

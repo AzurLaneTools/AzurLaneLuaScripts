@@ -1,8 +1,10 @@
 slot0 = class("DialoguePerformPlayer", import(".BasePerformPlayer"))
 slot0.TYPEWRITE_SPEED = 0.05
+slot0.TYPEWRITE_SPEED_UP = 0.01
 
 slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
+	pg.DelegateInfo.New(slot0)
 
 	slot0.eventTipBig = slot0._tf:Find("event_tip")
 	slot0.content = slot0._tf:Find("content")
@@ -15,9 +17,11 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.text2 = slot0.content:Find("Text2")
 	slot0.resultTF = slot0.content:Find("result")
 	slot0.resultTpl = slot0.content:Find("tpl")
+	slot0.nextClickTF = slot0._tf:Find("click")
 end
 
 slot0.Play = function(slot0, slot1, slot2)
+	setActive(slot0.nextClickTF, true)
 	slot0:checkName()
 	slot0:Show()
 
@@ -46,6 +50,8 @@ slot0.Play = function(slot0, slot1, slot2)
 end
 
 slot0._play = function(slot0, slot1, slot2, slot3)
+	slot0.speed = uv0.TYPEWRITE_SPEED
+
 	setActive(slot0.eventTipSmall, slot1.show_event == 1)
 	setActive(slot0.next, slot1.show_next == 1)
 
@@ -104,7 +110,10 @@ slot0._play = function(slot0, slot1, slot2, slot3)
 				end
 
 				setActive(slot2, true)
-				slot2:GetComponent(typeof(Animation)):Play("anim_educate_attr_in")
+
+				slot3 = slot2:GetComponent(typeof(Animation))
+
+				slot3:Play("anim_educate_attr_in")
 				onDelayTick(function ()
 					uv0()
 				end, 0.033)
@@ -112,7 +121,7 @@ slot0._play = function(slot0, slot1, slot2, slot3)
 		end
 
 		seriesAsync(slot0, function ()
-			onDelayTick(function ()
+			uv0.twId = LeanTween.delayedCall(1, System.Action(function ()
 				setActive(uv0.resultTF, false)
 				eachChild(uv0.resultTF, function (slot0)
 					setActive(slot0, false)
@@ -121,12 +130,34 @@ slot0._play = function(slot0, slot1, slot2, slot3)
 				if uv1 then
 					uv1()
 				end
-			end, 1)
+			end)).uniqueId
 		end)
 	end
 
-	slot7:setSpeed(uv0.TYPEWRITE_SPEED)
+	slot7:setSpeed(slot0.speed)
 	slot7:Play()
+	onButton(slot0, slot0.nextClickTF, function ()
+		if uv0.speed == uv1.TYPEWRITE_SPEED_UP then
+			if uv0.twId then
+				LeanTween.cancel(uv0.twId)
+
+				uv0.twId = nil
+			end
+
+			setActive(uv0.resultTF, false)
+			eachChild(uv0.resultTF, function (slot0)
+				setActive(slot0, false)
+			end)
+
+			if uv2 then
+				uv2()
+			end
+		else
+			uv0.speed = uv1.TYPEWRITE_SPEED_UP
+
+			uv3:setSpeed(uv0.speed)
+		end
+	end)
 end
 
 slot0.checkName = function(slot0)
@@ -149,6 +180,16 @@ slot0.Clear = function(slot0)
 	setActive(slot0.eventTipBig, false)
 	setActive(slot0.eventTipSmall, false)
 	slot0:Hide()
+end
+
+slot0.Dispose = function(slot0)
+	if slot0.twId then
+		LeanTween.cancel(slot0.twId)
+
+		slot0.twId = nil
+	end
+
+	pg.DelegateInfo.Dispose(slot0)
 end
 
 return slot0

@@ -6,6 +6,7 @@ slot0.ON_DROP = "NewEducateBaseUI.ON_DROP"
 slot0.ON_ITEM = "NewEducateBaseUI.ON_ITEM"
 slot0.ON_BOX = "NewEducateBaseUI.ON_BOX"
 slot0.ON_SHOP = "NewEducateBaseUI.ON_SHOP"
+slot0.ON_PRIORITY_STATE = "NewEducateBaseUI.ON_PRIORITY_STATE"
 
 slot0.getGroupName = function(slot0)
 	return "NewEducateBaseUI"
