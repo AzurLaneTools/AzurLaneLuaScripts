@@ -36487,24 +36487,6 @@ pg.activity_template = {
 			ui_name = "glorytaskpage"
 		}
 	},
-	[980001] = {
-		mark = 20260312,
-		page_info = "",
-		time = "always",
-		type = 13,
-		login_pop = 0,
-		config_id = 0,
-		is_show = 0,
-		config_client = "",
-		title_res_tag = "",
-		id = 980001,
-		page_core = "",
-		config_data = {
-			8001,
-			8002,
-			8003
-		}
-	},
 	[50000] = {
 		mark = 20250619,
 		time = "stop",
@@ -52234,6 +52216,24 @@ pg.activity_template = {
 			}
 		}
 	},
+	[980001] = {
+		mark = 20260312,
+		page_info = "",
+		time = "always",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 980001,
+		page_core = "",
+		config_data = {
+			8001,
+			8002,
+			8003
+		}
+	},
 	[990001] = {
 		mark = 20250929,
 		page_info = "",
@@ -52565,6 +52565,7 @@ pg.activity_template = {
 	[990011] = {
 		mark = 20250929,
 		page_info = "",
+		time = "always",
 		type = 5001,
 		login_pop = 0,
 		config_id = 0,
@@ -52575,33 +52576,6 @@ pg.activity_template = {
 		page_core = "",
 		config_data = {
 			2
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					9,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					4,
-					5
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
 		}
 	},
 	[999901] = {
@@ -53006,7 +52980,6 @@ pg.activity_template = {
 			21003,
 			40089,
 			40090,
-			980001,
 			50005,
 			50011,
 			50017,
@@ -53076,7 +53049,8 @@ pg.activity_template = {
 			50448,
 			50465,
 			50478,
-			100001
+			100001,
+			980001
 		},
 		[74] = {
 			1110,
@@ -55197,7 +55171,6 @@ pg.activity_template = {
 		25061,
 		40089,
 		40090,
-		980001,
 		50000,
 		50001,
 		50002,
@@ -55520,6 +55493,7 @@ pg.activity_template = {
 		50502,
 		100001,
 		200001,
+		980001,
 		990001,
 		990002,
 		990003,

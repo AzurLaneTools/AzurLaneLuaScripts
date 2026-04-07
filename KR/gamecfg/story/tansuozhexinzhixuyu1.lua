@@ -104,7 +104,7 @@ return {
 			actor = -2,
 			actorName = "로라",
 			hidePaintObj = true,
-			say = "$1 님도 이런 분위기를 좋아하시는군요……",
+			say = "{tb} 님도 이런 분위기를 좋아하시는군요……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
