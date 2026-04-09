@@ -10,6 +10,10 @@ slot0.bindConfigTable = function(slot0)
 	return pg.island_task_target
 end
 
+slot0.GetName = function(slot0)
+	return slot0:getConfig("name")
+end
+
 slot0.GetType = function(slot0)
 	return slot0:getConfig("type")
 end

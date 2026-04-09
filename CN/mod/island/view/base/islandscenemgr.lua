@@ -2,6 +2,9 @@ slot0 = class("IslandSceneMgr")
 slot1 = false
 slot2 = 1
 slot3 = 2
+slot0.NEED_LONDING_PAGE_LIST = {
+	"IslandCheaterTavernPrepareMainPage"
+}
 
 slot0.Ctor = function(slot0, slot1)
 	slot0.scene = slot1
@@ -18,33 +21,61 @@ slot0.OpenPage = function(slot0, slot1, slot2, ...)
 	slot3 = packEx(...)
 
 	if slot0:IsSceneType(slot1) then
-		slot4 = slot0:CreateScenePage(slot2)
+		slot0:CheckOverflowAndDestory(slot0:CreateScenePage(slot2))
 
-		slot0:CheckOverflowAndDestory(slot4)
-		slot0:ClosePrevScenePage(function ()
-			uv0:Record(IslandSceneContext.New(uv1, unpackEx(uv2)), true)
-			uv0:StartPage(uv3, uv2)
-		end)
+		if slot0:IsNeedLoadingPage(slot2) then
+			slot5 = pg.SceneAnimMgr.GetInstance()
+
+			slot5:CommonSceneChange("Dorm3DLoading", function (slot0)
+				slot1 = uv0
+
+				slot1:ClosePrevScenePage(function ()
+					uv0:Record(IslandSceneContext.New(uv1, unpackEx(uv2)), true)
+					uv0:StartPage(uv3, uv2)
+					uv4()
+				end)
+			end)
+		else
+			slot0:ClosePrevScenePage(function ()
+				uv0:Record(IslandSceneContext.New(uv1, unpackEx(uv2)), true)
+				uv0:StartPage(uv3, uv2)
+			end)
+		end
 
 		return slot4
 	else
 		slot4 = slot0:CreateSubPage(slot1, slot2)
-		slot5 = slot0:GetContext(slot1)
+		slot5, slot6 = slot0:GetContext(slot1)
 
 		assert(slot5, slot1.__cname)
-		slot5:AddSubPage(slot2, ...)
+		slot5:AddSubPage(slot2, slot6, slot1.__cname, ...)
 		slot0:StartPage(slot4, slot3)
+		slot0.scene:emit(ISLAND_EVT.SUB_PAGE_OPEN, slot2.__cname)
 
 		return slot4
 	end
 end
 
+slot0.IsNeedLoadingPage = function(slot0, slot1)
+	return table.keyof(uv0.NEED_LONDING_PAGE_LIST, slot1.__cname)
+end
+
 slot0.GetContext = function(slot0, slot1)
-	return _.detect(slot0.stack, function (slot0)
-		return slot0.class.__cname == uv0.__cname or #slot0:GetSubPages() > 0 and _.any(slot0:GetSubPages(), function (slot0)
+	for slot5, slot6 in ipairs(slot0.stack) do
+		if slot6.class.__cname == slot1.__cname then
+			return slot6, #slot6:GetSubPages()
+		end
+	end
+
+	for slot5, slot6 in ipairs(slot0.stack) do
+		if _.detect(slot6:GetSubPages(), function (slot0)
 			return slot0.class.__cname == uv0.__cname
-		end)
-	end)
+		end) then
+			return slot6, slot7:GetLevel()
+		end
+	end
+
+	return nil
 end
 
 slot0.GetPage = function(slot0, slot1)
@@ -105,7 +136,7 @@ slot0.ClosePrevScenePage = function(slot0, slot1)
 			slot3:Disable(slot1)
 
 			for slot7, slot8 in ipairs(slot2:GetSubPages()) do
-				if slot0:GetSubPage(slot8.class):GetLoaded() then
+				if slot0:GetSubPage(slot8.class) and slot9:GetLoaded() then
 					slot9:Disable()
 				end
 			end
@@ -161,6 +192,21 @@ slot0.ClosePage = function(slot0, slot1)
 	slot0:Debug()
 end
 
+slot0.DestorySubPage = function(slot0, slot1)
+	if not slot0:GetContext(slot1) then
+		return
+	end
+
+	for slot6, slot7 in ipairs(slot2:GetSubPages()) do
+		if slot0:GetSubPage(slot7.class) and slot8:GetLoaded() then
+			slot7.__visible = false
+
+			table.removebyvalue(slot0.subPages, slot8)
+			slot8:Destroy()
+		end
+	end
+end
+
 slot0.CheckAndCloseScenePage = function(slot0, slot1)
 	if slot0:GetContext(slot1) then
 		if slot0:GetPage(slot2.class) and slot3:GetLoaded() and slot3:isShowing() then
@@ -173,7 +219,7 @@ slot0.CheckAndCloseScenePage = function(slot0, slot1)
 			slot3:Disable()
 
 			for slot9, slot10 in ipairs(slot2:GetSubPages()) do
-				if slot0:GetSubPage(slot10.class):GetLoaded() then
+				if slot0:GetSubPage(slot10.class) and slot11:GetLoaded() then
 					slot11:Destroy()
 					table.removebyvalue(slot0.subPages, slot11)
 				end
@@ -223,16 +269,27 @@ end
 
 slot0.CheckAndCloseSubPage = function(slot0, slot1)
 	if slot0:GetContext(slot1) then
-		for slot6, slot7 in ipairs(slot2:GetSubPages()) do
-			if slot7.class.__cname == slot1.__cname then
-				if slot0:GetSubPage(slot7.class):GetLoaded() then
-					slot7.__visible = false
+		slot3 = -1
 
-					slot8:Disable()
-				end
+		for slot7, slot8 in ipairs(slot2:GetSubPages()) do
+			if slot8.class.__cname == slot1.__cname then
+				slot3 = slot8:GetLevel()
 
-				return true
+				break
 			end
+		end
+
+		if slot3 >= 0 then
+			for slot7, slot8 in ipairs(slot2:GetSubPages()) do
+				if slot3 == slot8:GetLevel() and (slot8:GetSubPageParentName() == slot1.__cname or slot8.class.__cname == slot1.__cname) and slot0:GetSubPage(slot8.class) and slot9:GetLoaded() then
+					slot8.__visible = false
+
+					slot0.scene:emit(ISLAND_EVT.SUB_PAGE_CLOSE, slot9.class.__cname)
+					slot9:Disable()
+				end
+			end
+
+			return true
 		end
 	end
 
@@ -260,7 +317,7 @@ slot0.DestroyPage = function(slot0, slot1, slot2, slot3)
 		slot2:DisabelOpenPrevWhenClose()
 
 		for slot7, slot8 in ipairs(slot2:GetSubPages()) do
-			if slot0:GetSubPage(slot8.class):GetLoaded() then
+			if slot0:GetSubPage(slot8.class) and slot9:GetLoaded() then
 				slot9:Destroy()
 				table.removebyvalue(slot0.subPages, slot1)
 			end

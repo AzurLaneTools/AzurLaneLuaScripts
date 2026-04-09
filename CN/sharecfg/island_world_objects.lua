@@ -9065,6 +9065,209 @@ pg.island_world_objects = {
 			}
 		}
 	},
+	[10110001] = {
+		behaviourTree = "",
+		unitId = 101004,
+		type = 0,
+		name = "seet1",
+		gen_type = 1,
+		id = 10110001,
+		mapId = 1011,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				6.29,
+				0,
+				2.11
+			},
+			rotation = {
+				0,
+				270,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10110002] = {
+		behaviourTree = "",
+		unitId = 101004,
+		type = 0,
+		name = "seet2",
+		gen_type = 1,
+		id = 10110002,
+		mapId = 1011,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				6.29,
+				0,
+				2.11
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10110003] = {
+		behaviourTree = "",
+		unitId = 101004,
+		type = 0,
+		name = "seet3",
+		gen_type = 1,
+		id = 10110003,
+		mapId = 1011,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				6.29,
+				0,
+				2.11
+			},
+			rotation = {
+				0,
+				90,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10110004] = {
+		behaviourTree = "",
+		unitId = 101004,
+		type = 0,
+		name = "seet4",
+		gen_type = 1,
+		id = 10110004,
+		mapId = 1011,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				6.29,
+				0,
+				2.11
+			},
+			rotation = {
+				0,
+				180,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10110005] = {
+		behaviourTree = "",
+		unitId = 101001,
+		type = 0,
+		name = "desk1",
+		gen_type = 0,
+		id = 10110005,
+		mapId = 1011,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				6.29,
+				0,
+				2.11
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10110006] = {
+		behaviourTree = "",
+		unitId = 101002,
+		type = 0,
+		name = "desk1_1",
+		gen_type = 1,
+		id = 10110006,
+		mapId = 1011,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				6.29,
+				0.66,
+				2.11
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10110007] = {
+		behaviourTree = "",
+		unitId = 101003,
+		type = 0,
+		name = "desk1_2",
+		gen_type = 1,
+		id = 10110007,
+		mapId = 1011,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				6.29,
+				0.573,
+				2.11
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
 	[10010001] = {
 		behaviourTree = "",
 		unitId = 100101,
@@ -15015,6 +15218,15 @@ pg.island_world_objects = {
 			10030017,
 			10030018
 		},
+		[1011] = {
+			10110001,
+			10110002,
+			10110003,
+			10110004,
+			10110005,
+			10110006,
+			10110007
+		},
 		[1001] = {
 			10010001,
 			10010002,
@@ -15492,6 +15704,13 @@ pg.island_world_objects = {
 		10030016,
 		10030017,
 		10030018,
+		10110001,
+		10110002,
+		10110003,
+		10110004,
+		10110005,
+		10110006,
+		10110007,
 		10010001,
 		10010002,
 		10010003,

@@ -4080,6 +4080,13 @@ pg.memory_template = setmetatable({
 		5061,
 		5062,
 		5063,
+		5071,
+		5072,
+		5073,
+		5074,
+		5075,
+		5076,
+		5077,
 		10011,
 		10012,
 		10013,
@@ -65529,6 +65536,111 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"1360007"
+		}
+	},
+	[5071] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "意外的约会申请",
+		condition = "解锁「真实与伪饰的她」任务1",
+		story = "DEWENJUN1",
+		id = 5071,
+		icon = "memory_dewenjun",
+		is_open = 0,
+		unlock_pre = {
+			"DEWENJUN1"
+		}
+	},
+	[5072] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "糖霜密语",
+		condition = "解锁「真实与伪饰的她」任务2",
+		story = "DEWENJUN2",
+		id = 5072,
+		icon = "memory_dewenjun",
+		is_open = 0,
+		unlock_pre = {
+			"DEWENJUN2"
+		}
+	},
+	[5073] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "限时魔法",
+		condition = "解锁「真实与伪饰的她」任务3",
+		story = "DEWENJUN3",
+		id = 5073,
+		icon = "memory_dewenjun",
+		is_open = 0,
+		unlock_pre = {
+			"DEWENJUN3"
+		}
+	},
+	[5074] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "错乱的塔罗",
+		condition = "解锁「真实与伪饰的她」任务4",
+		story = "DEWENJUN4",
+		id = 5074,
+		icon = "memory_dewenjun",
+		is_open = 0,
+		unlock_pre = {
+			"DEWENJUN4"
+		}
+	},
+	[5075] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "约会的终点",
+		condition = "解锁「真实与伪饰的她」任务5",
+		story = "DEWENJUN5",
+		id = 5075,
+		icon = "memory_dewenjun",
+		is_open = 0,
+		unlock_pre = {
+			"DEWENJUN5"
+		}
+	},
+	[5076] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "真实的德文郡",
+		condition = "解锁「真实与伪饰的她」任务6",
+		story = "DEWENJUN6",
+		id = 5076,
+		icon = "memory_dewenjun",
+		is_open = 0,
+		unlock_pre = {
+			"DEWENJUN6"
+		}
+	},
+	[5077] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "输家的惩罚",
+		condition = "解锁「真实与伪饰的她」任务7",
+		story = "DEWENJUN7",
+		id = 5077,
+		icon = "memory_dewenjun",
+		is_open = 0,
+		unlock_pre = {
+			"DEWENJUN7"
 		}
 	},
 	[10011] = {

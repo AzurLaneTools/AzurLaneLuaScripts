@@ -17,7 +17,9 @@ pg.island_card_diy = setmetatable({
 		4013,
 		4014,
 		4015,
-		4016
+		4016,
+		4017,
+		4018
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -181,5 +183,35 @@ pg.base.island_card_diy = {
 		tech_id = 0,
 		desc = "恶毒形象照",
 		jump_page = {}
+	},
+	[4017] = {
+		resource = "islandphoto/4017",
+		name = "精锐推演师",
+		type = 4,
+		id = 4017,
+		icon = "islandprops/card_4017",
+		tech_id = 0,
+		desc = "授予战术推演新秀的认证名片。",
+		jump_page = {
+			{
+				"开发季—战术推演",
+				{}
+			}
+		}
+	},
+	[4018] = {
+		resource = "islandphoto/4018",
+		name = "王牌推演师",
+		type = 4,
+		id = 4018,
+		icon = "islandprops/card_4018",
+		tech_id = 0,
+		desc = "颁发给战术推演大师的荣誉名片。",
+		jump_page = {
+			{
+				"开发季—战术推演",
+				{}
+			}
+		}
 	}
 }

@@ -9,7 +9,7 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 
 	slot0.poolMgr = slot1
 	slot0.view, slot0.controller = slot0:GetViewAndController(slot2, slot3)
-	slot0.sceneLoader = IslandSceneLoader.New()
+	slot0.sceneLoader = slot0:GetSceneLoader()
 
 	slot0:UpdateState(uv0.STATE_LOAD)
 
@@ -33,6 +33,10 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	})
 
 	slot0.enterTime = pg.TimeMgr.GetInstance():GetServerTime()
+end
+
+slot0.GetSceneLoader = function(slot0)
+	return IslandSceneLoader.New()
 end
 
 slot0.GetPoolMgr = function(slot0)
@@ -65,6 +69,8 @@ slot0.SetUp = function(slot0, slot1)
 	end
 
 	slot0.callback = slot1
+
+	slot0:OnInit()
 end
 
 slot0.Init = function(slot0, slot1)
@@ -135,7 +141,9 @@ slot0.Dispose = function(slot0, slot1)
 		LateUpdateBeat:RemoveListener(slot0.lateUpdateluHandle)
 	end
 
-	setActive(IslandCameraMgr.instance.gameObject, false)
+	if IslandCameraMgr.instance and IslandCameraMgr.instance.gameObject then
+		setActive(IslandCameraMgr.instance.gameObject, false)
+	end
 
 	if slot0.view then
 		slot0.view:Dispose()
@@ -156,6 +164,9 @@ slot0.Dispose = function(slot0, slot1)
 	end
 end
 
+slot0.OnInit = function(slot0)
+end
+
 slot0.GetViewAndController = function(slot0, slot1, slot2)
 	slot3, slot4 = nil
 	slot5 = slot1:GetMapId()
@@ -163,6 +174,9 @@ slot0.GetViewAndController = function(slot0, slot1, slot2)
 
 	if slot5 == IslandConst.AGORA_MAP_ID then
 		slot3 = AgoraView.New(slot0, AgoraController.New(slot0, slot1):GetAgora(), slot2)
+	elseif slot5 == IslandConst.CheaterTavernMapId then
+		slot4 = CheaterTavernController.New(slot0, slot1)
+		slot3 = IslandCheaterTavernGameView.New(slot0, slot2)
 	elseif slot6.minigame_id > 0 then
 		slot3 = IslandSeekGameView.New(slot0, slot2)
 		slot4 = IslandController.New(slot0, slot1)

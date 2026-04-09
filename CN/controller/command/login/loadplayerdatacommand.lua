@@ -289,6 +289,10 @@ slot0.execute = function(slot0, slot1)
 		{
 			LoveLetterProxy,
 			true
+		},
+		{
+			PlayRoomProxy,
+			true
 		}
 	})
 

@@ -349,6 +349,10 @@ slot0.UpdateBound = function(slot0)
 		slot0:CreateL2dDragBound(slot0.live2dChar)
 		slot0._dragBoundsUI:SetVisible(Live2dConst.l2d_bound_open)
 	elseif slot0._dragBoundsUI then
+		if slot0._dragBoundsUI:GetDragsCount() == 0 then
+			slot0._dragBoundsUI:SetData(slot0.live2dChar:GetDragBounds(), slot0.ship:getSkinId())
+		end
+
 		slot0._dragBoundsUI:SetVisible(Live2dConst.l2d_bound_open)
 	end
 end

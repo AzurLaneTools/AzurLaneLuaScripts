@@ -190,6 +190,7 @@ end
 slot0.Show = function(slot0)
 	uv0.super.Show(slot0)
 	slot0:Flush()
+	setActive(slot0.togglePanel, true)
 end
 
 slot0.Flush = function(slot0)

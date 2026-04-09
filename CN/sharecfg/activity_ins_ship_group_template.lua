@@ -4352,7 +4352,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Devonshire",
 		background = "",
 		sculpture = "dewenjun",
-		nationality = 0,
+		nationality = 2,
 		type = 1,
 		sculpture_ii = ""
 	},

@@ -6,14 +6,14 @@ slot0.GetPassedLayer = function(slot0)
 			return BossRushAlvitPassedLayer
 		end,
 		[ActivityConst.ZENGKEHAIJUNSHANGJIANG_BOSS_RUSH_ID] = function ()
-			return BossRushVerZenkerPassedLayer
+			return BossRushSardiniaPassedLayer
 		end
 	}, function ()
 		return checkExist(pg.activity_template[uv0], {
 			"config_client"
 		}, {
 			"passed"
-		}) and _G[slot0] or BossRushPassedLayer
+		}) and _G[slot0] or BossRushPassedCombatLoadLayer
 	end)
 end
 

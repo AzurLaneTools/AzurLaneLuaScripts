@@ -47,8 +47,9 @@ slot0.GetObject = function(slot0, slot1, slot2, slot3)
 		uv0:CheckOverFlow(uv1)
 
 		slot0 = {}
+		uv0.loadingCallbacks[uv1.key] = {}
 
-		for slot4, slot5 in ipairs(uv0.loadingCallbacks[uv1.key]) do
+		for slot5, slot6 in ipairs(Clone(uv0.loadingCallbacks[uv1.key])) do
 			table.insert(slot0, function (slot0)
 				slot1 = uv0
 
@@ -60,8 +61,6 @@ slot0.GetObject = function(slot0, slot1, slot2, slot3)
 		end
 
 		parallelAsync(slot0)
-
-		uv0.loadingCallbacks[uv1.key] = {}
 	end)
 end
 

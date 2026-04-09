@@ -516,10 +516,6 @@ slot0.filterOk = function(slot0, slot1)
 	end
 
 	if slot5[1] ~= 0 then
-		if not slot11 then
-			return false
-		end
-
 		slot13 = false
 
 		for slot17, slot18 in ipairs(slot5) do
@@ -544,10 +540,6 @@ slot0.filterOk = function(slot0, slot1)
 	end
 
 	if slot6[1] ~= 0 then
-		if not slot11 then
-			return false
-		end
-
 		slot13 = false
 
 		for slot17, slot18 in ipairs(slot6) do
@@ -566,10 +558,6 @@ slot0.filterOk = function(slot0, slot1)
 	end
 
 	if slot7[1] ~= 0 then
-		if not slot11 then
-			return false
-		end
-
 		slot13 = false
 
 		for slot17, slot18 in ipairs(slot7) do

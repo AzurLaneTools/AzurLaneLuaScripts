@@ -209,8 +209,8 @@ slot0.selectActivity = function(slot0, slot1)
 		uv0.nextActivity = nil
 		slot0 = uv0.pageDic[uv0.activity.id]
 
-		slot0:ActionInvoke("Flush", uv0.activity)
 		slot0:ActionInvoke("ShowOrHide", true)
+		slot0:ActionInvoke("Flush", uv0.activity)
 	end)
 end
 

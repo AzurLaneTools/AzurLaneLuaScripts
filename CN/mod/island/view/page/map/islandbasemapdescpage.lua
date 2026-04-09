@@ -35,6 +35,7 @@ slot0.OnShow = function(slot0, slot1)
 end
 
 slot0.GoMap = function(slot0, slot1)
+	slot0:emitCoreController(ISLAND_EVT.SWITCH_MAP)
 	slot0:emit(IslandBaseMediator.SWITCH_MAP, slot1, pg.island_map[slot1].born_object)
 	slot0:emit(IslandBaseMapPage.CLOSE)
 end

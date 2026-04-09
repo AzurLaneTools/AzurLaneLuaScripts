@@ -12510,12 +12510,12 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "戈里齐亚、安德里亚·多利亚 建造追加！"
+	tip = "{namecode:462}、{namecode:450} 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "阿蒂利奥·雷戈洛 建造追加！"
+	tip = "{namecode:442} 建造追加！"
 }
 
 
@@ -41897,6 +41897,51 @@ _G.pg.base.gametip.island_help_fish = {
 }
 
 
+_G.pg.base.gametip.island_help_bar = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_bar1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_bar2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_bar3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_bar4"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
 _G.pg.base.gametip.island_skin_original_desc = {
 	tip = "默认"
 }
@@ -44357,6 +44402,46 @@ _G.pg.base.gametip.island_dress_replace_tip = {
 
 _G.pg.base.gametip.island_activity_expired = {
 	tip = "活动已结束"
+}
+
+
+_G.pg.base.gametip.island_activity_pt_point = {
+	tip = "已获得积分"
+}
+
+
+_G.pg.base.gametip.island_activity_pt_get_oneclick = {
+	tip = "一键领取"
+}
+
+
+_G.pg.base.gametip.island_activity_pt_jump_1 = {
+	tip = "前往"
+}
+
+
+_G.pg.base.gametip.island_activity_pt_task_reward_tip_1 = {
+	tip = "达到推演入门III即可获取"
+}
+
+
+_G.pg.base.gametip.island_activity_pt_task_reward_tip_2 = {
+	tip = "达到推演进阶IV即可获取"
+}
+
+
+_G.pg.base.gametip.island_activity_pt_task_reward_tip_3 = {
+	tip = "达到推演专精IV即可获取"
+}
+
+
+_G.pg.base.gametip.island_activity_pt_task_reward_tip_4 = {
+	tip = "达到推演大师即可获取"
+}
+
+
+_G.pg.base.gametip.island_activity_pt_got_all = {
+	tip = "已获取全部奖励"
 }
 
 
@@ -48050,4 +48135,379 @@ _G.pg.base.gametip.l2d_tip_on = {
 
 _G.pg.base.gametip.l2d_tip_off = {
 	tip = "Live2D交互提示已关闭"
+}
+
+
+_G.pg.base.gametip.play_room_season = {
+	tip = "赛季"
+}
+
+
+_G.pg.base.gametip.play_room_season_en = {
+	tip = "SEASON"
+}
+
+
+_G.pg.base.gametip.play_room_viewer_tip = {
+	tip = "观看人数: $1/$2"
+}
+
+
+_G.pg.base.gametip.play_room_switch_viewer = {
+	tip = "切换观战"
+}
+
+
+_G.pg.base.gametip.play_room_switch_player = {
+	tip = "进行观战"
+}
+
+
+_G.pg.base.gametip.play_room_switch_tip = {
+	tip = "是否切换私人/公共房间？"
+}
+
+
+_G.pg.base.gametip.island_bar_quick_tip = {
+	tip = "暂时没有找到房间，是否立即创建新房间？"
+}
+
+
+_G.pg.base.gametip.island_bar_quick_addbot = {
+	tip = "是否添满机器人立即开始游戏？"
+}
+
+
+_G.pg.base.gametip.match_exit = {
+	tip = "$1玩家，因为退出匹配，需要等待$2秒"
+}
+
+
+_G.pg.base.gametip.match_point_gap = {
+	tip = "积分差距过大，无法发起匹配"
+}
+
+
+_G.pg.base.gametip.match_room_num_full1 = {
+	tip = "房间已到达上限，不可再新建房间"
+}
+
+
+_G.pg.base.gametip.match_room_full2 = {
+	tip = "房间已满，无法加入"
+}
+
+
+_G.pg.base.gametip.match_no_search_room = {
+	tip = "没有搜索到指定房间"
+}
+
+
+_G.pg.base.gametip.match_ui_room_name = {
+	tip = "$1的房间"
+}
+
+
+_G.pg.base.gametip.match_ui_room_create = {
+	tip = "创建房间"
+}
+
+
+_G.pg.base.gametip.match_ui_room_search = {
+	tip = "搜索"
+}
+
+
+_G.pg.base.gametip.match_ui_room_type1 = {
+	tip = "进行中…"
+}
+
+
+_G.pg.base.gametip.match_ui_room_type2 = {
+	tip = "加入"
+}
+
+
+_G.pg.base.gametip.match_ui_room_type3 = {
+	tip = "已满员"
+}
+
+
+_G.pg.base.gametip.match_ui_room_type4 = {
+	tip = "私人"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filtertitle1 = {
+	tip = "排序"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filtertitle2 = {
+	tip = "房间"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filtertitle3 = {
+	tip = "状态"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filter1 = {
+	tip = "房间人数"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filter2 = {
+	tip = "观战人数"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filter3 = {
+	tip = "建立时间"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filter4 = {
+	tip = "所有房间"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filter5 = {
+	tip = "公开房间"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filter6 = {
+	tip = "私人房间"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filter7 = {
+	tip = "所有状态"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filter8 = {
+	tip = "未开始"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filter9 = {
+	tip = "已开始"
+}
+
+
+_G.pg.base.gametip.match_ui_room_out = {
+	tip = "您已被房主踢出房间"
+}
+
+
+_G.pg.base.gametip.match_ui_room_homeowner = {
+	tip = "房主"
+}
+
+
+_G.pg.base.gametip.match_ui_room_send = {
+	tip = "发送"
+}
+
+
+_G.pg.base.gametip.match_ui_room_ready1 = {
+	tip = "准备"
+}
+
+
+_G.pg.base.gametip.match_ui_room_ready2 = {
+	tip = "已准备"
+}
+
+
+_G.pg.base.gametip.match_ui_room_startgame = {
+	tip = "开始游戏"
+}
+
+
+_G.pg.base.gametip.match_ui_matching_invitation = {
+	tip = "匹配邀请"
+}
+
+
+_G.pg.base.gametip.match_ui_matching_consent = {
+	tip = "同意"
+}
+
+
+_G.pg.base.gametip.match_ui_matching_waiting1 = {
+	tip = "等待时间：$1秒"
+}
+
+
+_G.pg.base.gametip.match_ui_matching_waiting2 = {
+	tip = "匹配中"
+}
+
+
+_G.pg.base.gametip.match_ui_matching_loading = {
+	tip = "场景搭建中…"
+}
+
+
+_G.pg.base.gametip.match_ui_ranking_list1 = {
+	tip = "好友"
+}
+
+
+_G.pg.base.gametip.match_ui_ranking_list2 = {
+	tip = "舰队"
+}
+
+
+_G.pg.base.gametip.match_ui_ranking_list3 = {
+	tip = "所有"
+}
+
+
+_G.pg.base.gametip.match_ui_ranking_list4 = {
+	tip = "暂未上榜"
+}
+
+
+_G.pg.base.gametip.match_ui_punishment1 = {
+	tip = "最近有战斗意外退出,造成他人体验影响较差\n本次匹配需等待$1秒后可继续进行游戏"
+}
+
+
+_G.pg.base.gametip.match_ui_punishment2 = {
+	tip = "我已知晓"
+}
+
+
+_G.pg.base.gametip.match_ui_chat = {
+	tip = "房间"
+}
+
+
+_G.pg.base.gametip.match_ui_point_match = {
+	tip = "积分匹配"
+}
+
+
+_G.pg.base.gametip.match_ui_accept = {
+	tip = "接受"
+}
+
+
+_G.pg.base.gametip.match_ui_matching = {
+	tip = "匹配中"
+}
+
+
+_G.pg.base.gametip.match_ui_point = {
+	tip = "已获得积分"
+}
+
+
+_G.pg.base.gametip.match_ui_room_list = {
+	tip = "房间列表"
+}
+
+
+_G.pg.base.gametip.match_ui_matching2 = {
+	tip = "正在匹配中……"
+}
+
+
+_G.pg.base.gametip.match_ui_server_unkonw = {
+	tip = "未知"
+}
+
+
+_G.pg.base.gametip.match_ui_window_out = {
+	tip = "暂未上榜"
+}
+
+
+_G.pg.base.gametip.match_ui_matching_fail = {
+	tip = "暂无匹配玩家 "
+}
+
+
+_G.pg.base.gametip.bar_ui_start1 = {
+	tip = "真实战术"
+}
+
+
+_G.pg.base.gametip.bar_ui_start2 = {
+	tip = "真实战术"
+}
+
+
+_G.pg.base.gametip.bar_ui_check1 = {
+	tip = "前往游戏"
+}
+
+
+_G.pg.base.gametip.bar_ui_check2 = {
+	tip = "已获得积分"
+}
+
+
+_G.pg.base.gametip.bar_ui_game1 = {
+	tip = "已淘汰"
+}
+
+
+_G.pg.base.gametip.bar_ui_game3 = {
+	tip = "积分"
+}
+
+
+_G.pg.base.gametip.bar_ui_game4 = {
+	tip = "滑动屏幕，转动惩罚轮盘"
+}
+
+
+_G.pg.base.gametip.bar_ui_end1 = {
+	tip = "退出"
+}
+
+
+_G.pg.base.gametip.bar_ui_end2 = {
+	tip = "继续观看"
+}
+
+
+_G.pg.base.gametip.bar_tips_game1 = {
+	tip = "$1质疑成功"
+}
+
+
+_G.pg.base.gametip.bar_tips_game2 = {
+	tip = "$1质疑失败"
+}
+
+
+_G.pg.base.gametip.bar_tips_game3 = {
+	tip = "$1受到惩罚被淘汰了"
+}
+
+
+_G.pg.base.gametip.bar_tips_game4 = {
+	tip = "$1未受到惩罚,游戏继续"
+}
+
+
+_G.pg.base.gametip.bar_tips_game5 = {
+	tip = "$1接受惩罚"
+}
+
+
+_G.pg.base.gametip.bar_tips_game6 = {
+	tip = "是否立即退出当前进行中的对局。\n强行退出会造成对局失败，无法正常获得分数。"
+}
+
+
+_G.pg.base.gametip.bar_tips_game7 = {
+	tip = "是否立即退出当前进行中的对局。"
 }

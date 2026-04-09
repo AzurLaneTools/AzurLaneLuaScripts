@@ -40,27 +40,61 @@ slot0.didEnter = function(slot0)
 		function (slot0)
 			uv0(uv1.contextData.curIndex, uv1.contextData.maxIndex)
 			onDelayTick(slot0, 0.5)
-		end,
-		function (slot0)
-			slot1 = uv0.contextData.curIndex
-			slot2 = uv0.contextData.maxIndex
-
-			uv1(uv0.rtContent:GetChild(slot1 - 1):Find("left"), -1)
-
-			if slot1 > 1 then
-				uv1(uv0.rtContent:GetChild(slot1 - 2):Find("right"), -1)
-			end
-
-			LeanTween.value(0, 1, 0.8):setOnUpdate(System.Action_float(function (slot0)
-				setSlider(uv0.rtSlider, 0, uv1 - 1, uv2 - 1 + slot0)
-			end)):setEaseOutCubic():setOnComplete(System.Action(slot0))
-		end,
-		function (slot0)
-			uv0(uv1.contextData.curIndex + 1, uv1.contextData.maxIndex)
-			onDelayTick(slot0, 1.5)
 		end
 	}, function ()
-		uv0:closeView()
+		slot0 = uv0.contextData.curIndex
+		slot1 = uv0.contextData.maxIndex
+
+		uv1(uv0.rtContent:GetChild(slot0 - 1):Find("left"), -1)
+
+		if slot0 > 1 then
+			uv1(uv0.rtContent:GetChild(slot0 - 2):Find("right"), -1)
+		end
+
+		slot3 = uv0
+
+		slot3:combatPreload(function ()
+			seriesAsync({
+				function (slot0)
+					uv0(uv1.contextData.curIndex + 1, uv1.contextData.maxIndex)
+					onDelayTick(slot0, 1.5)
+				end
+			}, function ()
+				uv0:emit(ChallengePassedCombatLoadMediator.FINISH, uv0._loadObs)
+			end)
+		end)
+	end)
+end
+
+slot0.combatPreload = function(slot0, slot1)
+	PoolMgr.GetInstance():DestroyAllSprite()
+
+	slot0._loadObs = {}
+
+	ys.Battle.BattleFXPool.GetInstance():Init()
+	ys.Battle.BattleResourceManager.GetInstance():Init()
+
+	slot3, slot4 = CombatLoadUI.GetTotalResourceList(slot0.contextData)
+
+	for slot8, slot9 in ipairs(slot3) do
+		slot2:AddPreloadResource(slot9)
+	end
+
+	for slot8, slot9 in ipairs(slot4) do
+		slot2:AddPreloadCV(slot9)
+	end
+
+	slot6 = 0
+	slot8 = pg.UIMgr.GetInstance()
+
+	setActive(slot8:GetMainCamera(), true)
+
+	slot6 = slot2:StartPreload(function ()
+		uv0()
+	end, function (slot0)
+		slot1 = nil
+
+		setSlider(uv1.rtSlider, 0, uv1.contextData.maxIndex - 1, uv1.contextData.curIndex - 1 + (uv0 == 0 and 0 or slot0 / uv0))
 	end)
 end
 

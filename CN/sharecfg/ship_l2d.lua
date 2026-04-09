@@ -42406,7 +42406,7 @@ pg.ship_l2d = {
 		id = 49905303,
 		offset_y = 0,
 		revert_smooth = 100,
-		limit_time = 1,
+		limit_time = 0.01,
 		parts_data = "",
 		relation_parameter = "",
 		ignore_react = 1,
@@ -42428,7 +42428,7 @@ pg.ship_l2d = {
 		action_trigger = {
 			target = 10,
 			circle = true,
-			action = "touch_drag1",
+			action = "",
 			type = 2
 		}
 	},

@@ -590,4 +590,42 @@ slot0.BuildJuusOfficialAccountsClick = function(slot0)
 	}, {})
 end
 
+slot0.BuildPlayRoomInvate = function(slot0, slot1, slot2)
+	return uv0(30076, {
+		slot1,
+		slot2
+	}, {
+		slot0
+	})
+end
+
+slot0.BuildPlayRoomMatch = function(slot0, slot1, slot2, slot3, slot4)
+	return uv0(30074, {
+		slot1,
+		slot2,
+		slot3,
+		slot4
+	}, {
+		slot0
+	})
+end
+
+slot0.BuildCheaterTavernGame = function(slot0, slot1)
+	return uv0(30072, {
+		slot0,
+		slot1
+	}, {})
+end
+
+slot0.BuildCheaterTavernResult = function(slot0, slot1, slot2, slot3, slot4, slot5)
+	return uv0(30073, {
+		slot0,
+		slot1,
+		slot2,
+		slot3,
+		slot4,
+		slot5
+	}, {})
+end
+
 return slot0
