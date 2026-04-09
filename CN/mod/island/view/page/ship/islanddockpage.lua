@@ -82,7 +82,9 @@ slot0.OnFilter = function(slot0, slot1)
 	slot0:FlushShips()
 end
 
-slot0.Show = function(slot0)
+slot0.Show = function(slot0, slot1)
+	slot0.hideUnlockShip = slot1
+
 	uv0.super.Show(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.frameTr, {
 		pbList = {
@@ -203,6 +205,14 @@ slot0.GetShips = function(slot0)
 
 	for slot8, slot9 in ipairs(slot2) do
 		table.insert(slot1, slot9.configId)
+	end
+
+	if slot0.hideUnlockShip then
+		for slot8 = #slot1, 1, -1 do
+			if slot1[slot8] and getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(slot9) == nil then
+				table.remove(slot1, slot8)
+			end
+		end
 	end
 
 	return slot1

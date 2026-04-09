@@ -127,4 +127,8 @@ slot0.SetNeedNotLoadUI = function(slot0)
 	slot0.needLoadUI = false
 end
 
+slot0.GetNeedHideUnlockShipFlag = function(slot0)
+	return true
+end
+
 return slot0
