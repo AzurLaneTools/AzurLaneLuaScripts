@@ -41,7 +41,7 @@ slot0.didEnter = function(slot0, slot1, slot2, slot3, slot4, slot5)
 
 		slot9 = getProxy(PlayRoomProxy):GetRoomData()
 
-		setActive(slot0.uiSwitchCharacterBtn, not slot4 and slot7 and slot3 ~= IslandCheaterTavernConst.SceneRoomType.MatchInfoRoom and not slot5)
+		setActive(slot0.uiSwitchCharacterBtn, (slot2 == slot6 or not slot4) and slot7 and slot3 ~= IslandCheaterTavernConst.SceneRoomType.MatchInfoRoom and not slot5)
 	else
 		setActive(slot0.uiBgTf, true)
 		setActive(slot0.uiMainTf, false)

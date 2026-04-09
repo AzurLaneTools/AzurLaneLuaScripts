@@ -363,6 +363,21 @@ slot0.OnCheaterOperateDoneNotify = function(slot0, slot1)
 	end)
 end
 
+slot0.OnPlayerEscape = function(slot0, slot1)
+	if slot0.cheaterTavernAgency:GetPlayerData(slot1):IsOut() then
+		return
+	end
+
+	slot2:SetOutState()
+
+	slot4 = slot0.playerHudTFDic[slot0.playerUserIndexDic[slot1]]
+
+	setActive(slot4:Find("out"), true)
+	setActive(slot4:Find("hp"), false)
+	slot0.cardViewManager:OtherPlayerCardDestroy(slot1)
+	slot0.parent:emitCore(CheaterTavernEvent.PLAYER_OUT_ANIMATION, slot1, slot2.seat, slot1 == getProxy(PlayerProxy):getRawData().id)
+end
+
 slot0.Show = function(slot0)
 end
 
@@ -476,14 +491,15 @@ slot0.OnCheaterEveryRoundStart = function(slot0)
 end
 
 slot0.OnCheaterEveryRoundStartDone = function(slot0, slot1)
+	CheatTavernCameraMgr.instance:ActiveVirtualCamera("lookSeet0" .. slot0.cheaterTavernAgency:GetMainPlayer().seat)
 	slot0:HideCurrentBoutCoundDown()
 	slot0:SetActiveState(true)
 	setActive(slot0.uiRondRealCardTips, true)
 
-	slot3 = pg.bar_card[slot0.cheaterTavernAgency:GetRealCard()]
+	slot5 = pg.bar_card[slot0.cheaterTavernAgency:GetRealCard()]
 
-	GetImageSpriteFromAtlasAsync("Island/IslandCheaterTavernIcon/" .. slot3.card_res, "", slot0.uirealCard)
-	GetImageSpriteFromAtlasAsync("Island/IslandCheaterTavernIcon/" .. slot3.card_res, "", slot0.uirealCardTip)
+	GetImageSpriteFromAtlasAsync("Island/IslandCheaterTavernIcon/" .. slot5.card_res, "", slot0.uirealCard)
+	GetImageSpriteFromAtlasAsync("Island/IslandCheaterTavernIcon/" .. slot5.card_res, "", slot0.uirealCardTip)
 	slot0:RemoveRealCardTipShowTime()
 
 	slot0.realCardTipShowTimer = Timer.New(function ()
