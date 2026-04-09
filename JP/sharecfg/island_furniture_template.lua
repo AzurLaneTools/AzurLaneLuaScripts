@@ -2164,7 +2164,12 @@ pg.island_furniture_template = {
 			5,
 			4
 		},
-		jump_page = {}
+		jump_page = {
+			{
+				"模擬戦闘",
+				{}
+			}
+		}
 	},
 	[30006] = {
 		setNum = 999,

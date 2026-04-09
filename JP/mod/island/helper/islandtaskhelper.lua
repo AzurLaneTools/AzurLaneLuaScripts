@@ -81,6 +81,12 @@ slot0.GetRuntimeData = function(slot0, slot1)
 		end,
 		[IslandTaskTargetType.TASK_DAILY_IN_WEEK] = function ()
 			return uv0:GetTaskAgency():GetFinishedDailyCntInWeek()
+		end,
+		[IslandTaskTargetType.GAME_MAX_SCORE] = function ()
+			return getProxy(ActivityProxy):getActivityByType(pg.mode_room[uv0].activity_type) and slot1.data2 or 0
+		end,
+		[IslandTaskTargetType.GAME_CUR_SCORE] = function ()
+			return getProxy(ActivityProxy):getActivityByType(pg.mode_room[uv0].activity_type) and slot1.data1 or 0
 		end
 	}, function ()
 		assert(false, "not exist runtime type: " .. uv0)

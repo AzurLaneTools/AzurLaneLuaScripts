@@ -4049,6 +4049,13 @@ pg.memory_template = setmetatable({
 		5061,
 		5062,
 		5063,
+		5071,
+		5072,
+		5073,
+		5074,
+		5075,
+		5076,
+		5077,
 		10000,
 		10001,
 		10002,
@@ -65057,6 +65064,111 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"1360007"
+		}
+	},
+	[5071] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "意外なデートの誘い",
+		condition = "「真実と虚飾のカノジョ1」開始",
+		story = "DEWENJUN1",
+		id = 5071,
+		icon = "memory_dewenjun",
+		is_open = 0,
+		unlock_pre = {
+			"DEWENJUN1"
+		}
+	},
+	[5072] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "それはアイシングの囁き",
+		condition = "「真実と虚飾のカノジョ2」開始",
+		story = "DEWENJUN2",
+		id = 5072,
+		icon = "memory_dewenjun",
+		is_open = 0,
+		unlock_pre = {
+			"DEWENJUN2"
+		}
+	},
+	[5073] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "魔法は時間制限あり",
+		condition = "「真実と虚飾のカノジョ3」開始",
+		story = "DEWENJUN3",
+		id = 5073,
+		icon = "memory_dewenjun",
+		is_open = 0,
+		unlock_pre = {
+			"DEWENJUN3"
+		}
+	},
+	[5074] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "謎。錯乱するタロット",
+		condition = "「真実と虚飾のカノジョ4」開始",
+		story = "DEWENJUN4",
+		id = 5074,
+		icon = "memory_dewenjun",
+		is_open = 0,
+		unlock_pre = {
+			"DEWENJUN4"
+		}
+	},
+	[5075] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "デートの結末は",
+		condition = "「真実と虚飾のカノジョ5」開始",
+		story = "DEWENJUN5",
+		id = 5075,
+		icon = "memory_dewenjun",
+		is_open = 0,
+		unlock_pre = {
+			"DEWENJUN5"
+		}
+	},
+	[5076] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "デヴォンシャー。真実の彼女は…",
+		condition = "「真実と虚飾のカノジョ6」開始",
+		story = "DEWENJUN6",
+		id = 5076,
+		icon = "memory_dewenjun",
+		is_open = 0,
+		unlock_pre = {
+			"DEWENJUN6"
+		}
+	},
+	[5077] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "負けた者にはお仕置きを",
+		condition = "「真実と虚飾のカノジョ7」開始",
+		story = "DEWENJUN7",
+		id = 5077,
+		icon = "memory_dewenjun",
+		is_open = 0,
+		unlock_pre = {
+			"DEWENJUN7"
 		}
 	},
 	[10000] = {

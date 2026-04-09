@@ -12882,12 +12882,12 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「ゴリツィア」「アンドレア・ドーリア」常設実装！"
+	tip = "「ブリュンヒルデ」「ブリュッヒャー」常設実装！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「アッティリオ・レゴロ」常設実装！"
+	tip = "「Z16」常設実装！"
 }
 
 
@@ -42397,6 +42397,51 @@ _G.pg.base.gametip.island_help_fish = {
 }
 
 
+_G.pg.base.gametip.island_help_bar = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_bar1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_bar2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_bar3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_bar4"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
 _G.pg.base.gametip.island_skin_original_desc = {
 	tip = "基本"
 }
@@ -44853,6 +44898,46 @@ _G.pg.base.gametip.island_dress_replace_tip = {
 
 _G.pg.base.gametip.island_activity_expired = {
 	tip = "イベントが終了しました"
+}
+
+
+_G.pg.base.gametip.island_activity_pt_point = {
+	tip = "累計スコア"
+}
+
+
+_G.pg.base.gametip.island_activity_pt_get_oneclick = {
+	tip = "一括受取"
+}
+
+
+_G.pg.base.gametip.island_activity_pt_jump_1 = {
+	tip = "確認"
+}
+
+
+_G.pg.base.gametip.island_activity_pt_task_reward_tip_1 = {
+	tip = "模擬戦闘入門III到達で入手"
+}
+
+
+_G.pg.base.gametip.island_activity_pt_task_reward_tip_2 = {
+	tip = "模擬戦闘熟練IV 到達で入手"
+}
+
+
+_G.pg.base.gametip.island_activity_pt_task_reward_tip_3 = {
+	tip = "模擬戦闘専門IV 到達で入手"
+}
+
+
+_G.pg.base.gametip.island_activity_pt_task_reward_tip_4 = {
+	tip = "模擬戦闘達人 到達で入手"
+}
+
+
+_G.pg.base.gametip.island_activity_pt_got_all = {
+	tip = "全ての報酬を入手しました"
 }
 
 
@@ -48576,4 +48661,379 @@ _G.pg.base.gametip.l2d_tip_on = {
 
 _G.pg.base.gametip.l2d_tip_off = {
 	tip = "L2D演出tips機能がオフになりました"
+}
+
+
+_G.pg.base.gametip.play_room_season = {
+	tip = "シーズン"
+}
+
+
+_G.pg.base.gametip.play_room_season_en = {
+	tip = "SEASON"
+}
+
+
+_G.pg.base.gametip.play_room_viewer_tip = {
+	tip = "観戦人数: $1/$2"
+}
+
+
+_G.pg.base.gametip.play_room_switch_viewer = {
+	tip = "観戦切替"
+}
+
+
+_G.pg.base.gametip.play_room_switch_player = {
+	tip = "観戦開始"
+}
+
+
+_G.pg.base.gametip.play_room_switch_tip = {
+	tip = "公開/プライベートルームを切り替えますか？"
+}
+
+
+_G.pg.base.gametip.island_bar_quick_tip = {
+	tip = "ルームが見つかりませんでした。ルームを作成しますか？"
+}
+
+
+_G.pg.base.gametip.island_bar_quick_addbot = {
+	tip = "botでゲームを開始しますか？"
+}
+
+
+_G.pg.base.gametip.match_exit = {
+	tip = "プレイヤー$1がマッチングを取り下げたため、$2秒後に再度マッチングを開始します"
+}
+
+
+_G.pg.base.gametip.match_point_gap = {
+	tip = "スコア差が大きすぎるため、マッチングできません"
+}
+
+
+_G.pg.base.gametip.match_room_num_full1 = {
+	tip = "ルームが上限になっているため、作成できません"
+}
+
+
+_G.pg.base.gametip.match_room_full2 = {
+	tip = "ルームが満員のため、参加できません"
+}
+
+
+_G.pg.base.gametip.match_no_search_room = {
+	tip = "ルームが見つかりませんでした"
+}
+
+
+_G.pg.base.gametip.match_ui_room_name = {
+	tip = "$1のルーム"
+}
+
+
+_G.pg.base.gametip.match_ui_room_create = {
+	tip = "ルーム作成"
+}
+
+
+_G.pg.base.gametip.match_ui_room_search = {
+	tip = "検索"
+}
+
+
+_G.pg.base.gametip.match_ui_room_type1 = {
+	tip = "ゲーム中"
+}
+
+
+_G.pg.base.gametip.match_ui_room_type2 = {
+	tip = "参加"
+}
+
+
+_G.pg.base.gametip.match_ui_room_type3 = {
+	tip = "満員"
+}
+
+
+_G.pg.base.gametip.match_ui_room_type4 = {
+	tip = "プライベート"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filtertitle1 = {
+	tip = "並び替え"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filtertitle2 = {
+	tip = "ルーム"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filtertitle3 = {
+	tip = "状態"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filter1 = {
+	tip = "参加人数"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filter2 = {
+	tip = "観戦人数"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filter3 = {
+	tip = "作成時間"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filter4 = {
+	tip = "全てのルーム"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filter5 = {
+	tip = "公開"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filter6 = {
+	tip = "プライベート"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filter7 = {
+	tip = "すべての状態"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filter8 = {
+	tip = "準備中"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filter9 = {
+	tip = "開始済"
+}
+
+
+_G.pg.base.gametip.match_ui_room_out = {
+	tip = "ルームから退出させられました"
+}
+
+
+_G.pg.base.gametip.match_ui_room_homeowner = {
+	tip = "ホスト"
+}
+
+
+_G.pg.base.gametip.match_ui_room_send = {
+	tip = "送信"
+}
+
+
+_G.pg.base.gametip.match_ui_room_ready1 = {
+	tip = "準備完了"
+}
+
+
+_G.pg.base.gametip.match_ui_room_ready2 = {
+	tip = "準備完了"
+}
+
+
+_G.pg.base.gametip.match_ui_room_startgame = {
+	tip = "スタート"
+}
+
+
+_G.pg.base.gametip.match_ui_matching_invitation = {
+	tip = "マッチング要請"
+}
+
+
+_G.pg.base.gametip.match_ui_matching_consent = {
+	tip = "同意"
+}
+
+
+_G.pg.base.gametip.match_ui_matching_waiting1 = {
+	tip = "待ち時間：$1秒"
+}
+
+
+_G.pg.base.gametip.match_ui_matching_waiting2 = {
+	tip = "マッチング中"
+}
+
+
+_G.pg.base.gametip.match_ui_matching_loading = {
+	tip = "読み込み中"
+}
+
+
+_G.pg.base.gametip.match_ui_ranking_list1 = {
+	tip = "友達"
+}
+
+
+_G.pg.base.gametip.match_ui_ranking_list2 = {
+	tip = "大艦隊"
+}
+
+
+_G.pg.base.gametip.match_ui_ranking_list3 = {
+	tip = "全て"
+}
+
+
+_G.pg.base.gametip.match_ui_ranking_list4 = {
+	tip = "ランク外"
+}
+
+
+_G.pg.base.gametip.match_ui_punishment1 = {
+	tip = "マッチングが$1秒後に開始します"
+}
+
+
+_G.pg.base.gametip.match_ui_punishment2 = {
+	tip = "確定"
+}
+
+
+_G.pg.base.gametip.match_ui_chat = {
+	tip = "ルーム"
+}
+
+
+_G.pg.base.gametip.match_ui_point_match = {
+	tip = "マッチング"
+}
+
+
+_G.pg.base.gametip.match_ui_accept = {
+	tip = "確定"
+}
+
+
+_G.pg.base.gametip.match_ui_matching = {
+	tip = "マッチング中"
+}
+
+
+_G.pg.base.gametip.match_ui_point = {
+	tip = "スコア累計"
+}
+
+
+_G.pg.base.gametip.match_ui_room_list = {
+	tip = "ルーム一覧"
+}
+
+
+_G.pg.base.gametip.match_ui_matching2 = {
+	tip = "マッチング中"
+}
+
+
+_G.pg.base.gametip.match_ui_server_unkonw = {
+	tip = "不明"
+}
+
+
+_G.pg.base.gametip.match_ui_window_out = {
+	tip = "ランク外"
+}
+
+
+_G.pg.base.gametip.match_ui_matching_fail = {
+	tip = "マッチング可能なプレイヤーはいません"
+}
+
+
+_G.pg.base.gametip.bar_ui_start1 = {
+	tip = "真実戦術"
+}
+
+
+_G.pg.base.gametip.bar_ui_start2 = {
+	tip = "真実戦術"
+}
+
+
+_G.pg.base.gametip.bar_ui_check1 = {
+	tip = "ゲームへ"
+}
+
+
+_G.pg.base.gametip.bar_ui_check2 = {
+	tip = "スコア累計"
+}
+
+
+_G.pg.base.gametip.bar_ui_game1 = {
+	tip = "失格済"
+}
+
+
+_G.pg.base.gametip.bar_ui_game3 = {
+	tip = "スコア"
+}
+
+
+_G.pg.base.gametip.bar_ui_game4 = {
+	tip = "スライドで罰ゲームルーレットを回そう"
+}
+
+
+_G.pg.base.gametip.bar_ui_end1 = {
+	tip = "退出"
+}
+
+
+_G.pg.base.gametip.bar_ui_end2 = {
+	tip = "観戦再開"
+}
+
+
+_G.pg.base.gametip.bar_tips_game1 = {
+	tip = "$1質疑成功"
+}
+
+
+_G.pg.base.gametip.bar_tips_game2 = {
+	tip = "$1質疑失敗"
+}
+
+
+_G.pg.base.gametip.bar_tips_game3 = {
+	tip = "$1が罰ゲームで失格になりました"
+}
+
+
+_G.pg.base.gametip.bar_tips_game4 = {
+	tip = "$1が罰ゲームを受けませんでした"
+}
+
+
+_G.pg.base.gametip.bar_tips_game5 = {
+	tip = "$1が罰ゲームを受けました"
+}
+
+
+_G.pg.base.gametip.bar_tips_game6 = {
+	tip = "ゲームを中止しますか？\n途中でゲームを中止すると失格になり、また正常に得点を獲得できません"
+}
+
+
+_G.pg.base.gametip.bar_tips_game7 = {
+	tip = "ゲームを中止しますか？ "
 }

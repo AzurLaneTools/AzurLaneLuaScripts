@@ -62231,6 +62231,165 @@ pg.equip_skin_template = {
 			"wash"
 		}
 	},
+	[3073] = {
+		hit_sfx = "",
+		bullet_name = "paodan_tierruite",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "99192",
+		name = "チャリオットドローン砲弾",
+		desc = "2025年人気投票特別投票（セイレーン）優勝記念",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 3073,
+		themeid = 199,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[3075] = {
+		hit_sfx = "",
+		bullet_name = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "99194",
+		name = "れいんぼーすたー",
+		desc = "2025年人気投票特別投票（リトル）優勝記念",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 3075,
+		themeid = 199,
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "shebei_xingxingguanghuan",
+		orbit_slg = "",
+		orbit_ui = "shebei_xingxingguanghuanui",
+		miss_sfx = "",
+		orbit_rotate = false,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 1,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		double_char_bone = {
+			1,
+			0,
+			1
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				0.06,
+				-3.16,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				-2.86,
+				-18
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
+	[3076] = {
+		hit_sfx = "",
+		bullet_name = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "99195",
+		name = "マンジュシャゲの舞扇",
+		desc = "2025年人気投票特別投票（META）優勝記念",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 3076,
+		themeid = 199,
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "shebei_bianhuazheshan",
+		orbit_slg = "",
+		orbit_ui = "shebei_bianhuazheshanui",
+		miss_sfx = "",
+		orbit_rotate = false,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 1,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		double_char_bone = {
+			1,
+			0,
+			1
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				-0.23,
+				-2.31,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				2,
+				32
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
 	all = {
 		1,
 		2,
@@ -63765,6 +63924,9 @@ pg.equip_skin_template = {
 		3066,
 		3067,
 		3068,
-		3069
+		3069,
+		3073,
+		3075,
+		3076
 	}
 }

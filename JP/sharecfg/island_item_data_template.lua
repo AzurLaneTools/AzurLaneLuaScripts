@@ -16,6 +16,7 @@ pg.island_item_data_template = setmetatable({
 			11,
 			12,
 			13,
+			14,
 			1000,
 			1001,
 			1002,
@@ -288,6 +289,7 @@ pg.island_item_data_template = setmetatable({
 	get_id_list_by_type = {
 		{
 			10,
+			14,
 			1000,
 			1001,
 			1002,
@@ -587,6 +589,7 @@ pg.island_item_data_template = setmetatable({
 		11,
 		12,
 		13,
+		14,
 		1000,
 		1001,
 		1002,
@@ -1210,6 +1213,32 @@ pg.base.island_item_data_template = {
 		id = 13,
 		have_max = 0,
 		filter = {},
+		sub_attribute = {},
+		jump_page = {}
+	},
+	{
+		name = "離島開発Pt",
+		desc = "離島開発エリアの発展度合いを示すPtアイテム。各種報酬を入手可能",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/season_pt",
+		price = 0,
+		icon_normal = "",
+		rarity = 1,
+		convert = 0,
+		resource_type = 0,
+		id = 14,
+		have_max = 0,
+		filter = {
+			10312
+		},
 		sub_attribute = {},
 		jump_page = {}
 	},

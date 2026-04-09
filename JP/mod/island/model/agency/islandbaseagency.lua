@@ -44,4 +44,10 @@ end
 slot0.UpdatePerDay = function(slot0)
 end
 
+slot0.UpdatePerDay = function(slot0)
+end
+
+slot0.UpdatePerSecond = function(slot0)
+end
+
 return slot0

@@ -721,6 +721,22 @@ slot0.readyToAchieve = function(slot0)
 		end,
 		[ActivityConst.ACTIVITY_TYPE_LOVE_LETTER_MAIL] = function (slot0)
 			return slot0:getConfig("config_id") <= getProxy(PlayerProxy):getRawData().level and slot0.data1 == 0
+		end,
+		[ActivityConst.ACTIVITY_TYPE_ISLAND_GAME_PT] = function (slot0)
+			slot2 = getProxy(IslandProxy):GetIsland():GetTaskAgency()
+
+			return IslandGamePtTemplatePage.ShouldFirstTip(slot0.id) or _.any(pg.island_activity_pt_page[slot0:getIslandConfig("config_id")].task_id, function (slot0)
+				return uv0:GetTask(slot0) and slot1:IsFinish() and not uv0:IsFinishTask(slot0)
+			end)
+		end,
+		[ActivityConst.ACTIVITY_TYPE_ISLAND_CHEATE_TAVERN] = function (slot0)
+			for slot5, slot6 in ipairs(getProxy(ActivityTaskProxy):getTaskById(ActivityConst.ISLAND_BAR_ACT_ID)) do
+				if slot6:getTaskStatus() == 1 then
+					return true
+				end
+			end
+
+			return false
 		end
 	}
 

@@ -19,6 +19,11 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.port = slot1.port
 	slot0.proxyHost = slot1.proxy_host
 	slot0.proxyPort = slot1.proxy_port
+	slot0.ids = {}
+
+	for slot6, slot7 in ipairs(slot1.ids) do
+		table.insert(slot0.ids, slot7)
+	end
 end
 
 slot0.getHost = function(slot0)

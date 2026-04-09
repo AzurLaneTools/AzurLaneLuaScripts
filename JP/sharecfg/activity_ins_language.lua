@@ -7717,7 +7717,40 @@ pg.activity_ins_language = setmetatable({
 		"op_reply_20002_2_4",
 		"op_reply_20002_2_5",
 		"op_reply_20002_2_6",
-		"op_reply_20002_2_7"
+		"op_reply_20002_2_7",
+		"ins_20003",
+		"ins_discuss_20003_1",
+		"ins_reply_20003_1_1",
+		"ins_discuss_20003_2",
+		"ins_reply_20003_2_1",
+		"ins_reply_20003_2_2",
+		"ins_discuss_20003_3",
+		"ins_reply_20003_3_1",
+		"ins_reply_20003_3_2",
+		"ins_discuss_20003_4",
+		"ins_reply_20003_4_1",
+		"ins_reply_20003_4_2",
+		"ins_reply_20003_4_3",
+		"ins_discuss_20003_5",
+		"ins_reply_20003_5_1",
+		"ins_reply_20003_5_2",
+		"ins_reply_20003_5_3",
+		"ins_reply_20003_5_4",
+		"ins_discuss_20003_6",
+		"ins_reply_20003_6_1",
+		"ins_reply_20003_6_2",
+		"ins_reply_20003_6_3",
+		"ins_reply_20003_6_4",
+		"ins_op_20003_1_1",
+		"op_reply_20003_1_1",
+		"op_reply_20003_1_2",
+		"op_reply_20003_1_3",
+		"ins_op_20003_1_2",
+		"op_reply_20003_2_1",
+		"op_reply_20003_2_2",
+		"op_reply_20003_2_3",
+		"op_reply_20003_2_4",
+		"op_reply_20003_2_5"
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -30562,312 +30595,411 @@ pg.base.activity_ins_language = {
 		value = "うん。今日も指揮官との共同作業を楽しみにしてるよ"
 	},
 	ins_634 = {
-		value = ""
+		value = "まさか見つかってしまうとは♪"
 	},
 	ins_discuss_634_1 = {
-		value = ""
+		value = "一体どこに潜入しようとしてるの？"
 	},
 	ins_reply_634_1_1 = {
-		value = ""
+		value = "ええと……とにかく指揮官がいる場所じゃありませんわっ！"
 	},
 	ins_reply_634_1_2 = {
-		value = ""
+		value = "本当なの？（じーーー）"
 	},
 	ins_reply_634_1_3 = {
-		value = ""
+		value = "（じーーー）"
 	},
 	ins_reply_634_1_4 = {
-		value = ""
+		value = "よく白を切りましたね"
 	},
 	ins_discuss_634_2 = {
-		value = ""
+		value = "精妙な忍術とお見受けしました。雲龍さん、どうかご教授をお願いします"
 	},
 	ins_reply_634_2_1 = {
-		value = ""
+		value = "妙風も学びたい！"
 	},
 	ins_reply_634_2_2 = {
-		value = ""
+		value = "え？先生になるというの？この私が？"
 	},
 	ins_op_634_1_1 = {
-		value = ""
+		value = "なにか滴り落ちているような音が？"
 	},
 	op_reply_634_1_1 = {
-		value = ""
+		value = "錯覚ではありません。今指揮官の側にいますから♪"
 	},
 	ins_op_634_1_2 = {
-		value = ""
+		value = "隠れ身の術？学びたいな"
 	},
 	op_reply_634_1_2 = {
-		value = ""
+		value = "人に教えられるようなものではありませんわ。まあ、身をもって体験してもらうことはできますけど♪"
 	},
 	ins_635 = {
-		value = ""
+		value = "……絶対に屈しないぞ！"
 	},
 	ins_discuss_635_1 = {
-		value = ""
+		value = "頑張って！こういうのはエスケープマジックの中でも難易度トリブルSだから！"
 	},
 	ins_reply_635_1_1 = {
-		value = ""
+		value = "その通り！こんなに密集してるレーザーはいくら妙風でも苦労しちゃう！"
 	},
 	ins_reply_635_1_2 = {
-		value = ""
+		value = "助けて……ダメだ…もうおしまいだぁ…！くっ…！"
 	},
 	ins_discuss_635_2 = {
-		value = ""
+		value = "心配ありませーん！私が開発したスーパーレーザー着替え装置は服と装備だけを融かすから、体にはまったくの無害でーす！"
 	},
 	ins_reply_635_2_1 = {
-		value = ""
+		value = "どうしてそんな奇怪な装置を開発したの？！"
 	},
 	ins_reply_635_2_2 = {
-		value = ""
+		value = "もちろん効率向上のためですともぉ！装置を起動すれば、手を動かさずともあっという間に服を除去できるなんてめっちゃ便利でしょー！"
 	},
 	ins_reply_635_2_3 = {
-		value = ""
+		value = "確かに便利ね……こっちにも一台作ってもらえます？"
 	},
 	ins_reply_635_2_4 = {
-		value = ""
+		value = "？？？"
 	},
 	ins_op_635_1_1 = {
-		value = ""
+		value = "今レーザーをオフにするから"
 	},
 	op_reply_635_1_1 = {
-		value = ""
+		value = "……見たくないの？ほ、本当に見たくないの？！"
 	},
 	ins_op_635_1_2 = {
-		value = ""
+		value = "替えの服を持ってきた"
 	},
 	op_reply_635_1_2 = {
-		value = ""
+		value = "あ、ありがとう……ええと……着せてくれない…？"
 	},
 	ins_636 = {
-		value = ""
+		value = "チャージ完了です～"
 	},
 	ins_discuss_636_1 = {
-		value = ""
+		value = "いよいよ激戦が繰り広げられる時"
 	},
 	ins_reply_636_1_1 = {
-		value = ""
+		value = "あなたは暗闇に身を潜め、無防備の敵に反撃を仕掛け――"
 	},
 	ins_reply_636_1_2 = {
-		value = ""
+		value = "そのまま一気に包囲網を突破し、黒幕を倒し指揮官を救った――"
 	},
 	ins_reply_636_1_3 = {
-		value = ""
+		value = "うん。中々いい流れですね。楽しませていただきました"
 	},
 	ins_reply_636_1_4 = {
-		value = ""
+		value = "ええ、中々いい流れですね～。こんな感じで行きましょう～"
 	},
 	ins_discuss_636_2 = {
-		value = ""
+		value = "ん？尻尾の使い道が増えた？"
 	},
 	ins_reply_636_2_1 = {
-		value = ""
+		value = "龍神さま、危ないからやめたほうがいいですよ"
 	},
 	ins_op_636_1_1 = {
-		value = ""
+		value = "ちょうど携帯のバッテリーが……"
 	},
 	op_reply_636_1_1 = {
-		value = ""
+		value = "私に任せて～尻尾の準備はできていますよ～"
 	},
 	ins_op_636_1_2 = {
-		value = ""
+		value = "一緒に突破しよう！"
 	},
 	op_reply_636_1_2 = {
-		value = ""
+		value = "ふふふ、一緒にトラブルを処してあげましょう～"
 	},
 	ins_20001 = {
-		value = ""
+		value = "フォローいただきありがとうございます！\\nここでは最新のニュースやオモシロ情報、日常の話題など、母港のホットなニュースをお届けします！匿名での投書も歓迎です。\\nこれからも饅頭ニュースをよろしくお願いいたします。"
 	},
 	ins_discuss_20001_1 = {
-		value = ""
+		value = "新機能の饅頭ニュースがローンチしたぞぉ"
 	},
 	ins_reply_20001_1_1 = {
-		value = ""
+		value = "プロジェクトリリース！祝うぞ！"
 	},
 	ins_reply_20001_1_2 = {
-		value = ""
+		value = "お疲れ様です！ちゃんと「健康」に動いていますから、開発に当たった皆さんはちゃんと休んでくださいね♪"
 	},
 	ins_discuss_20001_2 = {
-		value = ""
+		value = "ナヒーモフたちが頑張って開発したから、気に入ってくれると嬉しい……"
 	},
 	ins_reply_20001_2_1 = {
-		value = ""
+		value = "ご苦労さん！地味な日々もここまで！面白い記事がじゃんじゃん出てくるよ！"
 	},
 	ins_discuss_20001_3 = {
-		value = ""
+		value = "めでたしめでたし！みんなも聞いてる？面白いウワサがすぐ流れるよー！"
 	},
 	ins_discuss_20001_4 = {
-		value = ""
+		value = "すごいね、新大陸を発見した気分♪"
 	},
 	ins_discuss_20001_5 = {
-		value = ""
+		value = "なんと、機能更新？！"
 	},
 	ins_discuss_20001_6 = {
-		value = ""
+		value = "1つ要望がありまーす！実名で投稿したいでーす！"
 	},
 	ins_discuss_20001_7 = {
-		value = ""
+		value = "派手に宣伝してるのね…その野心はとてもよろしいっ！"
 	},
 	ins_discuss_20001_8 = {
-		value = ""
+		value = "新しいチャンネルですか……"
 	},
 	ins_reply_20001_8_1 = {
-		value = ""
+		value = "フォローした覚えがないのですが……あれ、どうしてフォローを外せないのですか？"
 	},
 	ins_discuss_20001_9 = {
-		value = ""
+		value = "何か楽しい内容はある？なければフォローを外すわ"
 	},
 	ins_discuss_20001_10 = {
-		value = ""
+		value = "これでもっと色々情報を受信できるの？楽しみ～"
 	},
 	ins_discuss_20001_11 = {
-		value = ""
+		value = "撫順のスマホが鞍山姉さんに没収されたから、この飛雲さまが代わりに投稿するよ～"
 	},
 	ins_discuss_20001_12 = {
-		value = ""
+		value = "更新が楽しみですわ"
 	},
 	ins_reply_20001_12_1 = {
-		value = ""
+		value = "母港ニュースも更新されたよ！みんな、要望や意見があればドシドシ送って！"
 	},
 	ins_discuss_20001_13 = {
-		value = ""
+		value = "幽霊さんも便乗宣伝をするのー！4人チームの競技ゲームであと1人足りなくて、誰か今すぐ来てくれないー？"
 	},
 	ins_discuss_20001_14 = {
-		value = ""
+		value = "みんなごはんたべた？あさ、ひる、ばんはなにをたべた？"
 	},
 	ins_discuss_20001_15 = {
-		value = ""
+		value = "本当に何でも投稿していいんですか？！なら宝の地図を送りますね！皆で失われたお宝を探しましょう！"
 	},
 	ins_reply_20001_15_1 = {
-		value = ""
+		value = "いいこと言うじゃない！ちなみに宝の地図は先に私にだけ送ってくれない？みんなのために偵察してくる！"
 	},
 	ins_op_20001_1_1 = {
-		value = ""
+		value = "匿名投稿代行がいるのかな…？"
 	},
 	op_reply_20001_1_1 = {
-		value = ""
+		value = "わたしがやるよ！"
 	},
 	op_reply_20001_1_2 = {
-		value = ""
+		value = "ぜひ話を聞かせて！というかもう指揮官の予定を押さえなきゃ！"
 	},
 	op_reply_20001_1_3 = {
-		value = ""
+		value = "うちに！！うちにタレコミお願いしまーす！！"
 	},
 	op_reply_20001_1_4 = {
-		value = ""
+		value = "これではご主人さまも実名で投稿せざるを得ませんね"
 	},
 	ins_op_20001_1_2 = {
-		value = ""
+		value = "饅頭ニュース開設おめでとう！"
 	},
 	op_reply_20001_2_1 = {
-		value = ""
+		value = "ありがとう、同志指揮官！"
 	},
 	op_reply_20001_2_2 = {
-		value = ""
+		value = "何か問題が起きたら、いつでもナヒーモフに言ってね"
 	},
 	op_reply_20001_2_3 = {
-		value = ""
+		value = "指揮官の好みの設定も同期処理中デス"
 	},
 	op_reply_20001_2_4 = {
-		value = ""
+		value = "ご主人、先にいいねを押してもらえる？"
 	},
 	op_reply_20001_2_5 = {
-		value = ""
+		value = "指揮官はポエムに興味あります？それとほかの人に頼まれたのでお聞きしますが、指揮官はどんな物語が好きですか？"
 	},
 	ins_20002 = {
-		value = ""
+		value = "先日、サラトガ映画製作所が映画のゲーム化クリエイティブ施策を開始したことを発表しました。\\nこの施策はこれまでの映画制作の幅を広げるだけでなく、インタラクティブな物語体験と没入型の体験の可能性も模索できる、とのことです。\\nプロデューサーのサラトガはインタビューで「Yes, we did it!」と発言し、\\n今回の施策は技術革新であると同時に、コンテンツの見せ方を再定義するものだと強調しました。"
 	},
 	ins_discuss_20002_1 = {
-		value = ""
+		value = "なんかすごそうだね！"
 	},
 	ins_discuss_20002_2 = {
-		value = ""
+		value = "インタラクティブ性を持たせられるのなら、戦術演習の要素をもっと盛り込めるのでは？"
 	},
 	ins_reply_20002_2_1 = {
-		value = ""
+		value = "いい考えだな"
 	},
 	ins_discuss_20002_3 = {
-		value = ""
+		value = "それって映像アドベンチャーゲームだよね？"
 	},
 	ins_discuss_20002_4 = {
-		value = ""
+		value = "それって映像アドベンチャーゲームだよね？"
 	},
 	ins_discuss_20002_5 = {
-		value = ""
+		value = "それって映像アドベンチャーゲームだよね？"
 	},
 	ins_discuss_20002_6 = {
-		value = ""
+		value = "『しまった！数十年前の技術に囲まれちゃった！』"
 	},
 	ins_reply_20002_6_1 = {
-		value = ""
+		value = "ある意味では「原点回帰」ですね"
 	},
 	ins_discuss_20002_7 = {
-		value = ""
+		value = "頑張ってサラっち！このままだとみんなに見くびられるよ！"
 	},
 	ins_reply_20002_7_1 = {
-		value = ""
+		value = "どういうこと？？"
 	},
 	ins_discuss_20002_8 = {
-		value = ""
+		value = "ここで広告でも募集しましょうか……"
 	},
 	ins_reply_20002_8_1 = {
-		value = ""
+		value = "技術サポートが必要なら明石に言うにゃ！いい感じで見積ってあげるにゃ♪"
 	},
 	ins_discuss_20002_9 = {
-		value = ""
+		value = "インタラクティブって……指揮官様と密着できるアレですか？それなら大鳳はもう……楽しみましたわ♡"
 	},
 	ins_reply_20002_9_1 = {
-		value = ""
+		value = "シリアスも僭越ながら同意見でございます"
 	},
 	ins_reply_20002_9_2 = {
-		value = ""
+		value = "ええ"
 	},
 	ins_reply_20002_9_3 = {
-		value = ""
+		value = "ふん……"
 	},
 	ins_reply_20002_9_4 = {
-		value = ""
+		value = "えへへ……せんせー！だいすき！"
 	},
 	ins_reply_20002_9_5 = {
-		value = ""
+		value = "わかるわ～♪"
 	},
 	ins_op_20002_1_1 = {
-		value = ""
+		value = "Yes, we did it!"
 	},
 	op_reply_20002_1_1 = {
-		value = ""
+		value = "Yes, we did it!"
 	},
 	op_reply_20002_1_2 = {
-		value = ""
+		value = "Yes, we did it!"
 	},
 	op_reply_20002_1_3 = {
-		value = ""
+		value = "一体感すごっ！ってこれは一体何のネタですか？"
 	},
 	op_reply_20002_1_4 = {
-		value = ""
+		value = "知らないわ！でもこれを言っておけば、なんとなく胸の奥がじんわりする！"
 	},
 	ins_op_20002_1_2 = {
-		value = ""
+		value = "体験したいけど受け付けてる？"
 	},
 	op_reply_20002_2_1 = {
-		value = ""
+		value = "もちろん！まずは制作フローが整ったら招待してあげるね"
 	},
 	op_reply_20002_2_2 = {
-		value = ""
+		value = "コンテチームの工数を考えといて！"
 	},
 	op_reply_20002_2_3 = {
-		value = ""
+		value = "撮影チームの工数を考えといて！"
 	},
 	op_reply_20002_2_4 = {
-		value = ""
+		value = "編集チームの工数を考えといて！"
 	},
 	op_reply_20002_2_5 = {
-		value = ""
+		value = "テストチームの工数を考えといて！"
 	},
 	op_reply_20002_2_6 = {
-		value = ""
+		value = "いつ一般公開するの？@サラトガ"
 	},
 	op_reply_20002_2_7 = {
+		value = "秘密だよ～"
+	},
+	ins_20003 = {
+		value = ""
+	},
+	ins_discuss_20003_1 = {
+		value = ""
+	},
+	ins_reply_20003_1_1 = {
+		value = ""
+	},
+	ins_discuss_20003_2 = {
+		value = ""
+	},
+	ins_reply_20003_2_1 = {
+		value = ""
+	},
+	ins_reply_20003_2_2 = {
+		value = ""
+	},
+	ins_discuss_20003_3 = {
+		value = ""
+	},
+	ins_reply_20003_3_1 = {
+		value = ""
+	},
+	ins_reply_20003_3_2 = {
+		value = ""
+	},
+	ins_discuss_20003_4 = {
+		value = ""
+	},
+	ins_reply_20003_4_1 = {
+		value = ""
+	},
+	ins_reply_20003_4_2 = {
+		value = ""
+	},
+	ins_reply_20003_4_3 = {
+		value = ""
+	},
+	ins_discuss_20003_5 = {
+		value = ""
+	},
+	ins_reply_20003_5_1 = {
+		value = ""
+	},
+	ins_reply_20003_5_2 = {
+		value = ""
+	},
+	ins_reply_20003_5_3 = {
+		value = ""
+	},
+	ins_reply_20003_5_4 = {
+		value = ""
+	},
+	ins_discuss_20003_6 = {
+		value = ""
+	},
+	ins_reply_20003_6_1 = {
+		value = ""
+	},
+	ins_reply_20003_6_2 = {
+		value = ""
+	},
+	ins_reply_20003_6_3 = {
+		value = ""
+	},
+	ins_reply_20003_6_4 = {
+		value = ""
+	},
+	ins_op_20003_1_1 = {
+		value = ""
+	},
+	op_reply_20003_1_1 = {
+		value = ""
+	},
+	op_reply_20003_1_2 = {
+		value = ""
+	},
+	op_reply_20003_1_3 = {
+		value = ""
+	},
+	ins_op_20003_1_2 = {
+		value = ""
+	},
+	op_reply_20003_2_1 = {
+		value = ""
+	},
+	op_reply_20003_2_2 = {
+		value = ""
+	},
+	op_reply_20003_2_3 = {
+		value = ""
+	},
+	op_reply_20003_2_4 = {
+		value = ""
+	},
+	op_reply_20003_2_5 = {
 		value = ""
 	}
 }

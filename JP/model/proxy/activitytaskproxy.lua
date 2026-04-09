@@ -80,6 +80,20 @@ slot0.updateActList = function(slot0, slot1, slot2)
 	slot0:checkAutoSubmit()
 end
 
+slot0.updateProgressBySubType = function(slot0, slot1, slot2, slot3)
+	for slot7 = 1, #slot0.actTasks do
+		if slot0.actTasks[slot7].actId == slot1 then
+			for slot11, slot12 in ipairs(slot0.actTasks[slot7].tasks) do
+				if slot12:getConfig("sub_type") == slot2 then
+					slot12:updateProgress(slot3)
+				end
+			end
+		end
+	end
+
+	slot0:checkAutoSubmit()
+end
+
 slot0.addActList = function(slot0, slot1, slot2)
 	for slot6, slot7 in ipairs(slot2) do
 		for slot11 = 1, #slot0.actTasks do

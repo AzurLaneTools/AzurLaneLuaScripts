@@ -37188,3 +37188,329 @@ _G.pg.base.spweapon_data_statistics[15130] = {
 		}
 	}
 }
+
+
+_G.pg.base.spweapon_data_statistics[15160] = {
+	attribute_1 = "cannon",
+	name = "ナノテクガジェットガン",
+	type = 2,
+	tech = 0,
+	value_1_random = 10,
+	rarity = 4,
+	effect_id_display = 901010,
+	value_2_random = 5,
+	effect_id = 901010,
+	attribute_2 = "reload",
+	next = 15161,
+	upgrade_id = 101,
+	value_2 = 6,
+	icon = "15160",
+	value_1 = 13,
+	level = 1,
+	descrip = "特殊装備コアで製造された専用特殊装備",
+	uncraftable = 0,
+	unique = 10226,
+	important = 2,
+	prev = 0,
+	id = 15160,
+	usability = {
+		2
+	},
+	skill_upgrade = {
+		{
+			0,
+			1013140
+		}
+	},
+	hide_buff_upgrade = {},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[15161] = {
+	upgrade_id = 102,
+	prev = 15160,
+	next = 15162,
+	base = 15160,
+	id = 15161,
+	value_2 = 6,
+	value_1 = 14,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[15162] = {
+	upgrade_id = 103,
+	prev = 15161,
+	next = 15163,
+	base = 15160,
+	id = 15162,
+	value_2 = 7,
+	value_1 = 15,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[15163] = {
+	upgrade_id = 104,
+	prev = 15162,
+	next = 15164,
+	base = 15160,
+	id = 15163,
+	value_2 = 8,
+	value_1 = 16,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[15164] = {
+	upgrade_id = 105,
+	prev = 15163,
+	next = 15165,
+	base = 15160,
+	id = 15164,
+	value_2 = 9,
+	value_1 = 17,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[15165] = {
+	upgrade_id = 106,
+	prev = 15164,
+	next = 15166,
+	base = 15160,
+	id = 15165,
+	value_2 = 10,
+	value_1 = 18,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[15166] = {
+	upgrade_id = 107,
+	prev = 15165,
+	next = 15167,
+	base = 15160,
+	id = 15166,
+	value_2 = 11,
+	value_1 = 19,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[15167] = {
+	upgrade_id = 108,
+	prev = 15166,
+	next = 15168,
+	base = 15160,
+	id = 15167,
+	value_2 = 12,
+	value_1 = 20,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[15168] = {
+	upgrade_id = 109,
+	prev = 15167,
+	next = 15169,
+	base = 15160,
+	id = 15168,
+	value_2 = 13,
+	value_1 = 21,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[15169] = {
+	upgrade_id = 110,
+	prev = 15168,
+	next = 15170,
+	base = 15160,
+	id = 15169,
+	value_2 = 14,
+	value_1 = 23,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[15170] = {
+	id = 15170,
+	upgrade_id = 111,
+	base = 15160,
+	next = 0,
+	prev = 15169,
+	value_2 = 15,
+	value_1 = 25,
+	level = 11,
+	skill_upgrade = {
+		{
+			13140,
+			1013140
+		}
+	}
+}
+
+
+_G.pg.base.spweapon_data_statistics[15180] = {
+	attribute_1 = "cannon",
+	name = "か弱いウサバッグ",
+	type = 1,
+	tech = 0,
+	value_1_random = 10,
+	rarity = 4,
+	effect_id_display = 902300,
+	value_2_random = 10,
+	effect_id = 902300,
+	attribute_2 = "torpedo",
+	next = 15181,
+	upgrade_id = 101,
+	value_2 = 13,
+	icon = "15180",
+	value_1 = 13,
+	level = 1,
+	descrip = "特殊装備コアで製造された専用特殊装備",
+	uncraftable = 0,
+	unique = 20126,
+	important = 2,
+	prev = 0,
+	id = 15180,
+	usability = {
+		1
+	},
+	skill_upgrade = {
+		{
+			0,
+			1090450
+		}
+	},
+	hide_buff_upgrade = {},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[15181] = {
+	upgrade_id = 102,
+	prev = 15180,
+	next = 15182,
+	base = 15180,
+	id = 15181,
+	value_2 = 14,
+	value_1 = 14,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[15182] = {
+	upgrade_id = 103,
+	prev = 15181,
+	next = 15183,
+	base = 15180,
+	id = 15182,
+	value_2 = 15,
+	value_1 = 15,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[15183] = {
+	upgrade_id = 104,
+	prev = 15182,
+	next = 15184,
+	base = 15180,
+	id = 15183,
+	value_2 = 16,
+	value_1 = 16,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[15184] = {
+	upgrade_id = 105,
+	prev = 15183,
+	next = 15185,
+	base = 15180,
+	id = 15184,
+	value_2 = 17,
+	value_1 = 17,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[15185] = {
+	upgrade_id = 106,
+	prev = 15184,
+	next = 15186,
+	base = 15180,
+	id = 15185,
+	value_2 = 18,
+	value_1 = 18,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[15186] = {
+	upgrade_id = 107,
+	prev = 15185,
+	next = 15187,
+	base = 15180,
+	id = 15186,
+	value_2 = 19,
+	value_1 = 19,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[15187] = {
+	upgrade_id = 108,
+	prev = 15186,
+	next = 15188,
+	base = 15180,
+	id = 15187,
+	value_2 = 20,
+	value_1 = 20,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[15188] = {
+	upgrade_id = 109,
+	prev = 15187,
+	next = 15189,
+	base = 15180,
+	id = 15188,
+	value_2 = 21,
+	value_1 = 21,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[15189] = {
+	upgrade_id = 110,
+	prev = 15188,
+	next = 15190,
+	base = 15180,
+	id = 15189,
+	value_2 = 23,
+	value_1 = 23,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[15190] = {
+	id = 15190,
+	upgrade_id = 111,
+	base = 15180,
+	next = 0,
+	prev = 15189,
+	value_2 = 25,
+	value_1 = 25,
+	level = 11,
+	skill_upgrade = {
+		{
+			2121,
+			1090450
+		}
+	}
+}

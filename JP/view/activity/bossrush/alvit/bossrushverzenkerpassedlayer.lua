@@ -24,17 +24,48 @@ slot0.didEnter = function(slot0)
 	eachChild(slot3:Find("Image/content"), function (slot0, slot1)
 		setActive(slot0, slot1 < uv0.contextData.maxIndex)
 	end)
-	seriesAsync({
-		function (slot0)
-			triggerToggle(uv0._tf:Find("Image/content"):GetChild(uv0.contextData.curIndex - 1), true)
-			onDelayTick(slot0, 1.5)
-		end,
-		function (slot0)
-			triggerToggle(uv0._tf:Find("Image/content"):GetChild(uv0.contextData.curIndex), true)
-			onDelayTick(slot0, 1.5)
-		end
-	}, function ()
-		uv0:closeView()
+	slot0:combatPreload(function ()
+		seriesAsync({
+			function (slot0)
+				triggerToggle(uv0._tf:Find("Image/content"):GetChild(uv0.contextData.curIndex - 1), true)
+				onDelayTick(slot0, 1.5)
+			end,
+			function (slot0)
+				triggerToggle(uv0._tf:Find("Image/content"):GetChild(uv0.contextData.curIndex), true)
+				onDelayTick(slot0, 1.5)
+			end
+		}, function ()
+			uv0:emit(ChallengePassedCombatLoadMediator.FINISH, uv0._loadObs)
+		end)
+	end)
+end
+
+slot0.combatPreload = function(slot0, slot1)
+	PoolMgr.GetInstance():DestroyAllSprite()
+
+	slot0._loadObs = {}
+
+	ys.Battle.BattleFXPool.GetInstance():Init()
+	ys.Battle.BattleResourceManager.GetInstance():Init()
+
+	slot3, slot4 = CombatLoadUI.GetTotalResourceList(slot0.contextData)
+
+	for slot8, slot9 in ipairs(slot3) do
+		slot2:AddPreloadResource(slot9)
+	end
+
+	for slot8, slot9 in ipairs(slot4) do
+		slot2:AddPreloadCV(slot9)
+	end
+
+	slot6 = 0
+	slot8 = pg.UIMgr.GetInstance()
+
+	setActive(slot8:GetMainCamera(), true)
+
+	slot6 = slot2:StartPreload(function ()
+		uv0()
+	end, function (slot0)
 	end)
 end
 

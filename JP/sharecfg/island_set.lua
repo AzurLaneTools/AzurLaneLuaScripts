@@ -466,6 +466,11 @@ pg.island_set = {
 		key = "season_now",
 		key_value_int = 2
 	},
+	season_pt_show = {
+		key_value_varchar = "",
+		key = "season_pt_show",
+		key_value_int = 14
+	},
 	island_manage_price_coefficient = {
 		key_value_varchar = "",
 		key = "island_manage_price_coefficient",
@@ -1185,6 +1190,7 @@ pg.island_set = {
 		"daily_gift",
 		"season_pt",
 		"season_now",
+		"season_pt_show",
 		"island_manage_price_coefficient",
 		"island_manage_sale_coefficient_a",
 		"island_manage_sale_coefficient_b",

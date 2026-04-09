@@ -594,6 +594,7 @@ pg.login = {
 			}
 		},
 		op_time = {
+			"timer",
 			{
 				{
 					2022,
@@ -654,6 +655,7 @@ pg.login = {
 			}
 		},
 		op_time = {
+			"timer",
 			{
 				{
 					2023,
@@ -669,8 +671,8 @@ pg.login = {
 			{
 				{
 					2023,
-					2,
-					2
+					1,
+					22
 				},
 				{
 					23,
@@ -714,6 +716,7 @@ pg.login = {
 			}
 		},
 		op_time = {
+			"timer",
 			{
 				{
 					2023,
@@ -818,6 +821,7 @@ pg.login = {
 			}
 		},
 		op_time = {
+			"timer",
 			{
 				{
 					2023,
@@ -984,6 +988,7 @@ pg.login = {
 		login_cri = "",
 		bgm = "login-jp-20230914",
 		op_time = {
+			"timer",
 			{
 				{
 					2023,
@@ -1044,6 +1049,7 @@ pg.login = {
 			}
 		},
 		op_time = {
+			"timer",
 			{
 				{
 					2023,
@@ -1104,6 +1110,7 @@ pg.login = {
 			}
 		},
 		op_time = {
+			"timer",
 			{
 				{
 					2023,
@@ -1138,6 +1145,7 @@ pg.login = {
 		login_cri = "",
 		bgm = "login-jp-20230914",
 		op_time = {
+			"timer",
 			{
 				{
 					2023,
@@ -1233,6 +1241,7 @@ pg.login = {
 			}
 		},
 		op_time = {
+			"timer",
 			{
 				{
 					2023,
@@ -1293,6 +1302,7 @@ pg.login = {
 			}
 		},
 		op_time = {
+			"timer",
 			{
 				{
 					2023,
@@ -1353,6 +1363,7 @@ pg.login = {
 			}
 		},
 		op_time = {
+			"timer",
 			{
 				{
 					2023,
@@ -1781,6 +1792,7 @@ pg.login = {
 			}
 		},
 		op_time = {
+			"timer",
 			{
 				{
 					2024,
@@ -1981,6 +1993,7 @@ pg.login = {
 			}
 		},
 		op_time = {
+			"timer",
 			{
 				{
 					2025,
@@ -2455,6 +2468,7 @@ pg.login = {
 			}
 		},
 		op_time = {
+			"timer",
 			{
 				{
 					2026,
@@ -2533,6 +2547,7 @@ pg.login = {
 			}
 		},
 		op_time = {
+			"timer",
 			{
 				{
 					2026,
@@ -2593,6 +2608,7 @@ pg.login = {
 			}
 		},
 		op_time = {
+			"timer",
 			{
 				{
 					2026,
@@ -2653,6 +2669,7 @@ pg.login = {
 			}
 		},
 		op_time = {
+			"timer",
 			{
 				{
 					2026,

@@ -17,7 +17,9 @@ pg.island_card_diy = setmetatable({
 		4013,
 		4014,
 		4015,
-		4016
+		4016,
+		4017,
+		4018
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -181,5 +183,35 @@ pg.base.island_card_diy = {
 		tech_id = 0,
 		desc = "ル・マラン (イメージ)",
 		jump_page = {}
+	},
+	[4017] = {
+		resource = "islandphoto/4017",
+		name = "エリート模擬士",
+		type = 4,
+		id = 4017,
+		icon = "islandprops/card_4017",
+		tech_id = 0,
+		desc = "模擬戦闘の新星の認証カード",
+		jump_page = {
+			{
+				"シーズンーー模擬戦闘",
+				{}
+			}
+		}
+	},
+	[4018] = {
+		resource = "islandphoto/4018",
+		name = "エース模擬士",
+		type = 4,
+		id = 4018,
+		icon = "islandprops/card_4018",
+		tech_id = 0,
+		desc = "模擬戦闘の達人の認証カード",
+		jump_page = {
+			{
+				"シーズンーー模擬戦闘",
+				{}
+			}
+		}
 	}
 }
