@@ -119,8 +119,8 @@ slot0.UpdateMapVO = function(slot0, slot1)
 		slot10 = slot0.storyNodesDict[slot8]:getConfigTable()
 
 		setAnchoredPosition(slot0.storyHolder:Find(tostring(slot8)) or cloneTplTo(slot0.storyNodeTpl, slot0.storyHolder, slot8), {
-			x = slot0.mapWidth * tonumber(slot10.pos_x),
-			y = slot0.mapHeight * tonumber(slot10.pos_y)
+			x = 1920 * tonumber(slot10.pos_x),
+			y = 1080 * tonumber(slot10.pos_y)
 		})
 	end
 end
@@ -407,7 +407,7 @@ slot0.UpdateStory = function(slot0)
 	for slot8, slot9 in pairs(slot0.storyNodesDict) do
 		slot10 = slot0.storyHolder:Find(tostring(slot9.id))
 
-		setActive(slot10, slot9:IsActive(slot0.activity, slot0.ptActivity))
+		setActive(slot10, slot9:IsActive(slot0.activity, slot0.sceneParent.ptActivity))
 		setText(slot10:Find("main/char/bg/Text"), slot9:GetName())
 
 		slot12 = slot9:IsReaded()
@@ -515,6 +515,8 @@ slot0.UpdateStoryTask = function(slot0)
 	if not getProxy(TaskProxy):getTaskVO(slot0.activity:getConfig("config_client").task_id) then
 		errorMsg("Missing Activity Task ID : " .. slot1)
 	end
+
+	print(slot1)
 
 	slot0.storyTask = slot2 or Task.New({
 		id = slot1

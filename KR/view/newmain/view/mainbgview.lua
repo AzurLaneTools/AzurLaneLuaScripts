@@ -77,7 +77,7 @@ slot0.Init = function(slot0, slot1)
 	slot0:ClearSpecailBg()
 
 	slot0.isSpecialBg = slot1:getShipBgPrint() ~= slot1:rarity2bgPrintForGet()
-	slot3, slot4 = MainPaintingView.GetAssistantStatus(slot1)
+	slot3, slot0._showBg = MainPaintingView.GetAssistantStatus(slot1)
 
 	if slot0.isSpecialBg and slot4 then
 		slot0:SetSpecailBg(slot2)
@@ -119,9 +119,14 @@ end
 
 slot0.SetSpecailBg = function(slot0, slot1)
 	slot0.isloading = true
-	slot2 = pg.DynamicBgMgr.GetInstance()
+	slot2 = uv0.GetBgAndBgm()
+	slot3 = pg.DynamicBgMgr.GetInstance()
 
-	slot2:LoadBg(slot0, slot1, slot0._tf.parent, slot0._tf, function (slot0)
+	slot3:LoadBg(slot0, slot1, slot0._tf.parent, slot0._tf, function (slot0)
+		uv0:SetCommonBg(uv1)
+		setActive(uv0._tf, true)
+		tf(slot0):SetAsLastSibling()
+
 		uv0.isloading = false
 		slot0.transform.localPosition = Vector3(0, 0, 200)
 	end, function ()
@@ -202,6 +207,7 @@ slot0.AdjustMapEffect = function(slot0, slot1)
 end
 
 slot0.SetCommonBg = function(slot0, slot1)
+	setActive(slot0._tf, false)
 	setActive(slot0._tf, true)
 	setImageSprite(slot0._tf, LoadSprite("commonbg/" .. slot1, ""))
 

@@ -343,7 +343,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "",
-		key_value = 638
+		key_value = 643
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1914,7 +1914,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 642
+		key_value = 646
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -4073,6 +4073,10 @@ pg.gameset = {
 	child_polaroid_max_price = {
 		description = "",
 		key_value = 1000
+	},
+	l2d_tips_default_icon = {
+		description = "L2DUI",
+		key_value = 0
 	},
 	child2_tarot_refresh_limit = {
 		description = "",

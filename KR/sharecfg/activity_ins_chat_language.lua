@@ -8533,6 +8533,228 @@ pg.activity_ins_chat_language = setmetatable({
 		8530,
 		8531,
 		8532,
+		8667,
+		8668,
+		8669,
+		8670,
+		8671,
+		8672,
+		8673,
+		8674,
+		8675,
+		8676,
+		8677,
+		8678,
+		8679,
+		8680,
+		8681,
+		8682,
+		8683,
+		8684,
+		8685,
+		8686,
+		8687,
+		8688,
+		8689,
+		8690,
+		8691,
+		8692,
+		8693,
+		8694,
+		8695,
+		8696,
+		8697,
+		8698,
+		8699,
+		8700,
+		8701,
+		8702,
+		8703,
+		8704,
+		8705,
+		8706,
+		8707,
+		8708,
+		8709,
+		8710,
+		8711,
+		8712,
+		8713,
+		8714,
+		8715,
+		8716,
+		8717,
+		8718,
+		8719,
+		8720,
+		8721,
+		8722,
+		8723,
+		8724,
+		8725,
+		8726,
+		8727,
+		8728,
+		8729,
+		8730,
+		8731,
+		8732,
+		8733,
+		8734,
+		8735,
+		8736,
+		8737,
+		8738,
+		8739,
+		8740,
+		8741,
+		8742,
+		8743,
+		8744,
+		8745,
+		8746,
+		8747,
+		8748,
+		8749,
+		8750,
+		8751,
+		8752,
+		8753,
+		8754,
+		8755,
+		8756,
+		8757,
+		8758,
+		8759,
+		8760,
+		8761,
+		8762,
+		8763,
+		8764,
+		8765,
+		8766,
+		8767,
+		8768,
+		8769,
+		8770,
+		8771,
+		8772,
+		8773,
+		8774,
+		8775,
+		8776,
+		8777,
+		8778,
+		8779,
+		8780,
+		8781,
+		8782,
+		8783,
+		8784,
+		8785,
+		8786,
+		8787,
+		8788,
+		8789,
+		8790,
+		8791,
+		8792,
+		8793,
+		8794,
+		8795,
+		8796,
+		8797,
+		8798,
+		8799,
+		8800,
+		8801,
+		8802,
+		8803,
+		8804,
+		8805,
+		8806,
+		8807,
+		8808,
+		8809,
+		8810,
+		8811,
+		8812,
+		8813,
+		8814,
+		8815,
+		8816,
+		8817,
+		8818,
+		8819,
+		8820,
+		8821,
+		8822,
+		8823,
+		8824,
+		8825,
+		8826,
+		8827,
+		8828,
+		8829,
+		8830,
+		8831,
+		8832,
+		8833,
+		8834,
+		8835,
+		8836,
+		8837,
+		8838,
+		8839,
+		8840,
+		8841,
+		8842,
+		8843,
+		8844,
+		8845,
+		8846,
+		8847,
+		8848,
+		8849,
+		8850,
+		8851,
+		8852,
+		8853,
+		8854,
+		8855,
+		8856,
+		8857,
+		8858,
+		8859,
+		8860,
+		8861,
+		8862,
+		8863,
+		8864,
+		8865,
+		8866,
+		8867,
+		8868,
+		8869,
+		8870,
+		8871,
+		8872,
+		8873,
+		8874,
+		8875,
+		8876,
+		8877,
+		8878,
+		8879,
+		8880,
+		8881,
+		8882,
+		8883,
+		8884,
+		8885,
+		8886,
+		8887,
+		8888,
 		8533,
 		8534,
 		8535,
@@ -84310,6 +84532,1940 @@ pg.base.activity_ins_chat_language = {
 		type = 1,
 		id = 8532,
 		flag = 4
+	},
+	[8667] = {
+		param = "방울을 울렸는데, 들으셨나요?",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8667,
+		flag = 0
+	},
+	[8668] = {
+		param = "사실 무척 고민스러운 문제에 직면했답니다.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8668,
+		flag = 0
+	},
+	[8669] = {
+		param = "그래서 당신의 지혜를 빌리려고요.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8669,
+		flag = 0
+	},
+	[8670] = {
+		param = "지금 가구점에서 소파를 고르고 있는데, 꽤 고급스러워 보이는 걸 두 개 찾았어요.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8670,
+		flag = 0
+	},
+	[8671] = {
+		param = "하나는 보석이 박혀 있고, 정교한 조각 장식도 있어서 아주 화려해 보여요.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8671,
+		flag = 0
+	},
+	[8672] = {
+		param = "다른 하나는 최고급 소재라 푹신함은 최고지만, 겉모습이 조금 수수하네요.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8672,
+		flag = 0
+	},
+	[8673] = {
+		param = "처음 봤을 때는 첫 번째 소파가 마음에 들었는데, 두 번째 소파에 앉아보니 조금 망설여져서요……",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8673,
+		flag = 0
+	},
+	[8674] = {
+		param = "당신이라면 어느 쪽을 고르겠어요?",
+		ship_group = 30717,
+		type = 1,
+		id = 8674,
+		flag = 0,
+		option = {
+			{
+				1,
+				"첫 번째 것"
+			},
+			{
+				2,
+				"두 번째 것"
+			}
+		}
+	},
+	[8675] = {
+		param = "첫 번째 소파가 좋겠어. 화려하면 기분까지 좋아지잖아.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8675,
+		flag = 1
+	},
+	[8676] = {
+		param = "두 번째 소파가 좋으려나? 그래도 앉았을 때 편안해야 좋잖아?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8676,
+		flag = 2
+	},
+	[8677] = {
+		param = "으음…… 조금만 생각할 시간을 주세요.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8677,
+		flag = 0
+	},
+	[8678] = {
+		param = "아아, 정말! 고민되네요!",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8678,
+		flag = 0
+	},
+	[8679] = {
+		param = "화려함과 안락함을 모두 갖춘 소파는 없는 걸까요?",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8679,
+		flag = 0
+	},
+	[8680] = {
+		param = "어느 쪽을 고르면 좋지……",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8680,
+		flag = 0
+	},
+	[8681] = {
+		param = "그래…… 차라리……",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8681,
+		flag = 0
+	},
+	[8682] = {
+		param = "……지휘관, 완벽한 해결책이 떠올랐어요!",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8682,
+		flag = 0
+	},
+	[8683] = {
+		param = "이 누님은 하나만 고르지 않고 둘 다 사기로 했답니다!",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8683,
+		flag = 0
+	},
+	[8684] = {
+		param = "303",
+		ship_group = 30717,
+		option = "",
+		type = 4,
+		id = 8684,
+		flag = 0
+	},
+	[8685] = {
+		param = "첫 번째 소파는 거실에 둬서 손윗사람으로서의 품격을 드높이고",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8685,
+		flag = 0
+	},
+	[8686] = {
+		param = "두 번째 소파는 침실에 둬서 쉴 때 푹 쉴 거예요!",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8686,
+		flag = 0
+	},
+	[8687] = {
+		param = "역시 돈으로 해결할 수 없는 문제는 없네요♪",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8687,
+		flag = 0
+	},
+	[8688] = {
+		param = "크흠!",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8688,
+		flag = 0
+	},
+	[8689] = {
+		param = "지금 저와 함께 식사할 사람을 모집 중이랍니다. 자원하실 분 없나요?",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8689,
+		flag = 0
+	},
+	[8690] = {
+		param = "근처에 새로 생긴 고급 레스토랑이 있어서, 조금 가보고 싶은데……",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8690,
+		flag = 0
+	},
+	[8691] = {
+		param = "메뉴 중에 도저히 입에 맞지 않는 식재료가 있어서요……",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8691,
+		flag = 0
+	},
+	[8692] = {
+		param = "먹어보지도 않고 싫어하는 건 아니에요! 그저 저와 맞지 않을 뿐이니 부디 오해하지 마시길!",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8692,
+		flag = 0
+	},
+	[8693] = {
+		param = "어쨌든 식재료를 낭비하지 않으려면, 함께 먹어줄 사람이 필요해요.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8693,
+		flag = 0
+	},
+	[8694] = {
+		param = "그래서 지휘관, 당신으로 정했답니다.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8694,
+		flag = 0
+	},
+	[8695] = {
+		param = "교통비도 식비도 전부 이 누님이 낼게요. 어때요?",
+		ship_group = 30717,
+		type = 1,
+		id = 8695,
+		flag = 0,
+		option = {
+			{
+				1,
+				"그런 솔깃한 제안을?"
+			}
+		}
+	},
+	[8696] = {
+		param = "그렇게 솔깃한 제안을?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8696,
+		flag = 1
+	},
+	[8697] = {
+		param = "미리 말해두지만, 이 가게는 식사하는 경험 자체를 중시하는 곳이라",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8697,
+		flag = 1
+	},
+	[8698] = {
+		param = "요리 하나하나가 무척 섬세하고 설명도 곁들여지거든요.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8698,
+		flag = 1
+	},
+	[8699] = {
+		param = "그래서 식사 시간이 조금 길어질 거예요.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8699,
+		flag = 1
+	},
+	[8700] = {
+		param = "주말에 갈 테니까 시간은 꼭 비워두세요.",
+		ship_group = 30717,
+		type = 1,
+		id = 8700,
+		flag = 1,
+		option = {
+			{
+				2,
+				"좋아. 밥 먹은 다음엔……"
+			}
+		}
+	},
+	[8701] = {
+		param = "좋아. 밥 먹은 다음엔 뭐 할까?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8701,
+		flag = 2
+	},
+	[8702] = {
+		param = "영화라도 보러 갈까 하는데…….",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8702,
+		flag = 2
+	},
+	[8703] = {
+		param = "그러면…… 너무 데이트 같죠?!",
+		ship_group = 30717,
+		type = 1,
+		id = 8703,
+		flag = 2,
+		option = {
+			{
+				3,
+				"그런 거 아니야?"
+			}
+		}
+	},
+	[8704] = {
+		param = "데이트 아니었어?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8704,
+		flag = 3
+	},
+	[8705] = {
+		param = "마치 이 누님이 적극적으로 데이트 신청을 하는 것처럼 말하다니…!",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8705,
+		flag = 3
+	},
+	[8706] = {
+		param = "그저 같이 먹어줄 사람이 필요했을 뿐인데……",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8706,
+		flag = 3
+	},
+	[8707] = {
+		param = "아무튼 한턱 내는 거니까 제대로 감사하도록 하세요!",
+		ship_group = 30717,
+		type = 1,
+		id = 8707,
+		flag = 3,
+		option = {
+			{
+				4,
+				"고마워……"
+			}
+		}
+	},
+	[8708] = {
+		param = "고마워! 누님!",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8708,
+		flag = 4
+	},
+	[8709] = {
+		param = "그거면 됐어요.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8709,
+		flag = 4
+	},
+	[8710] = {
+		param = "이 누님은 당신을 소중히 여기니까요.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8710,
+		flag = 4
+	},
+	[8711] = {
+		param = "앞으로도 맛있는 게 있으면 또 불러줄게요~",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8711,
+		flag = 4
+	},
+	[8712] = {
+		param = "딸랑딸랑~",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8712,
+		flag = 0
+	},
+	[8713] = {
+		param = "방울을 울렸답니다. 지휘관, 있어요?",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8713,
+		flag = 0
+	},
+	[8714] = {
+		param = "또 고민스러운 문제에 직면하고 말았어요.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8714,
+		flag = 0
+	},
+	[8715] = {
+		param = "한 번 더 당신의 지혜를 빌려줘요.",
+		ship_group = 30717,
+		type = 1,
+		id = 8715,
+		flag = 0,
+		option = {
+			{
+				1,
+				"「또」？"
+			}
+		}
+	},
+	[8716] = {
+		param = "「또」? 지난번 소파 고르기 이야기의 연장선이야?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8716,
+		flag = 1
+	},
+	[8717] = {
+		param = "네.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8717,
+		flag = 1
+	},
+	[8718] = {
+		param = "그런 다음, 소파를 둘 다 샀는데… 문제가 좀 생겼어요.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8718,
+		flag = 1
+	},
+	[8719] = {
+		param = "막상 방에 두려니 공간이 부족해요.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8719,
+		flag = 1
+	},
+	[8720] = {
+		param = "침실에 두니까 통로가 너무 좁아져서",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8720,
+		flag = 1
+	},
+	[8721] = {
+		param = "걸을 때 옆으로 몸을 비틀어야 할 정도예요.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8721,
+		flag = 1
+	},
+	[8722] = {
+		param = "그래서 지금 쓰는 크고 화려한 침대를 한 치수 작은 걸로 바꿀까 하는데……",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8722,
+		flag = 1
+	},
+	[8723] = {
+		param = "그러는 김에 지휘관은 어떤 침대가 좋은지도 물어보려던 참이었어요……",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8723,
+		flag = 1
+	},
+	[8724] = {
+		param = "그냥 참고용이에요. 그뿐이랍니다.",
+		ship_group = 30717,
+		type = 1,
+		id = 8724,
+		flag = 1,
+		option = {
+			{
+				2,
+				"침대를 작은 걸로 바꾸면……"
+			}
+		}
+	},
+	[8725] = {
+		param = "침대를 작은 걸로 바꾸면 품격이 떨어지지 않을까?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8725,
+		flag = 2
+	},
+	[8726] = {
+		param = "으음…… 일리가 있네요!",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8726,
+		flag = 2
+	},
+	[8727] = {
+		param = "이 침대도 살 때 꽤 고민한 끝에 결정한 거니까요.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8727,
+		flag = 2
+	},
+	[8728] = {
+		param = "바꿨다가 후회해도 난감하고……",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8728,
+		flag = 2
+	},
+	[8729] = {
+		param = "그런 중요한 걸 놓치다니, 이런 실책을…!",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8729,
+		flag = 2
+	},
+	[8730] = {
+		param = "어떻게 하면 좋을까요……",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8730,
+		flag = 2
+	},
+	[8731] = {
+		param = "소파도 두고 싶고, 이 침대도 포기하기 싫은데……",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8731,
+		flag = 2
+	},
+	[8732] = {
+		param = "그래! 더 넓은 방으로 이사하면 전부 둘 수 있겠네요!",
+		ship_group = 30717,
+		type = 1,
+		id = 8732,
+		flag = 2,
+		option = {
+			{
+				3,
+				"역시 우리 누님!"
+			}
+		}
+	},
+	[8733] = {
+		param = "역시 우리 누님이야. 금방 해결책을 생각해냈네.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8733,
+		flag = 3
+	},
+	[8734] = {
+		param = "당연하죠♪",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8734,
+		flag = 3
+	},
+	[8735] = {
+		param = "하지만 방을 옮기는 건 아무래도 직접 봐야 결정할 수 있죠.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8735,
+		flag = 3
+	},
+	[8736] = {
+		param = "지휘관, 시간 되나요?",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8736,
+		flag = 3
+	},
+	[8737] = {
+		param = "당신의 취향에 맞는 방을……",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8737,
+		flag = 3
+	},
+	[8738] = {
+		param = "어쨌든 일단 같이 가요! 결정된 거예요!",
+		ship_group = 30717,
+		type = 1,
+		id = 8738,
+		flag = 3,
+		option = {
+			{
+				4,
+				"바로 갈게"
+			}
+		}
+	},
+	[8739] = {
+		param = "지금 바로 갈게.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8739,
+		flag = 4
+	},
+	[8740] = {
+		param = "기다리고 있을게요.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8740,
+		flag = 4
+	},
+	[8741] = {
+		param = "앞으로 오랫동안 함께 지낼 장소니까, 제대로 골라야죠.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8741,
+		flag = 4
+	},
+	[8742] = {
+		param = "운명의 상대여, 드디어 내가 하늘의 사자라는 증표를 찾아냈다.",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8742,
+		flag = 0
+	},
+	[8743] = {
+		param = "보고 싶나?",
+		ship_group = 30228,
+		type = 1,
+		id = 8743,
+		flag = 0,
+		option = {
+			{
+				1,
+				"사자의 증표?"
+			}
+		}
+	},
+	[8744] = {
+		param = "사자의 증표? 그게 뭐야?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8744,
+		flag = 1
+	},
+	[8745] = {
+		param = "후훗♪ 듣고 기절이나 하지 말라고.",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8745,
+		flag = 1
+	},
+	[8746] = {
+		param = "방금 막 깨달았는데, 내가 영감 상태에 들어가면……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8746,
+		flag = 1
+	},
+	[8747] = {
+		param = "머리카락이 자기 맘대로 곤두서!",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8747,
+		flag = 1
+	},
+	[8748] = {
+		param = "바람에 휘날리는 게 아니라, 정말로 꼿꼿이 선다고! 실로 멋지지 아니한가?!",
+		ship_group = 30228,
+		type = 1,
+		id = 8748,
+		flag = 1,
+		option = {
+			{
+				2,
+				"확실히 좀 신기하긴 하네"
+			}
+		}
+	},
+	[8749] = {
+		param = "확실히 좀 신기하긴 하네.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8749,
+		flag = 2
+	},
+	[8750] = {
+		param = "사진 있어? 좀 보고 싶은데.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8750,
+		flag = 2
+	},
+	[8751] = {
+		param = "지금 찍어주지……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8751,
+		flag = 2
+	},
+	[8752] = {
+		param = "……잠깐.",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8752,
+		flag = 2
+	},
+	[8753] = {
+		param = "왜 안 서는 거지?",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8753,
+		flag = 2
+	},
+	[8754] = {
+		param = "운명의 상대여, 잠시만 기다려라.",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8754,
+		flag = 2
+	},
+	[8755] = {
+		param = "다시 영감 상태에 들어가 보마!",
+		ship_group = 30228,
+		type = 1,
+		id = 8755,
+		flag = 2,
+		option = {
+			{
+				3,
+				"정전기 때문 아니야?"
+			}
+		}
+	},
+	[8756] = {
+		param = "정전기 때문 아니야?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8756,
+		flag = 3
+	},
+	[8757] = {
+		param = "헛소리하지 마라……!",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8757,
+		flag = 3
+	},
+	[8758] = {
+		param = "그런 단순한 자연현상과 똑같을리 없다!",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8758,
+		flag = 3
+	},
+	[8759] = {
+		param = "지금 당장 증명해 주마!",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8759,
+		flag = 3
+	},
+	[8760] = {
+		param = "뿜어내는 뇌전을 강화해서, 단숨에 영감 상태에 들어가면……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8760,
+		flag = 3
+	},
+	[8761] = {
+		param = "왜 갑자기 전등이 다 꺼진 거지?",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8761,
+		flag = 3
+	},
+	[8762] = {
+		param = "안 켜져…… 정전인가?",
+		ship_group = 30228,
+		type = 1,
+		id = 8762,
+		flag = 3,
+		option = {
+			{
+				4,
+				"괜찮아?"
+			}
+		}
+	},
+	[8763] = {
+		param = "괜찮아? 지금 그쪽으로 갈까?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8763,
+		flag = 4
+	},
+	[8764] = {
+		param = "그냥 정전일 뿐…… 아무렇지도 않아! 정말이다!",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8764,
+		flag = 4
+	},
+	[8765] = {
+		param = "하나도 안 무섭다고! 전혀!",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8765,
+		flag = 4
+	},
+	[8766] = {
+		param = "54",
+		ship_group = 30228,
+		option = "",
+		type = 4,
+		id = 8766,
+		flag = 4
+	},
+	[8767] = {
+		param = "……지금 어디야?",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8767,
+		flag = 4
+	},
+	[8768] = {
+		param = "운명의 상대여.",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8768,
+		flag = 0
+	},
+	[8769] = {
+		param = "폭풍우의 전조인 바람 소리가 들리는가?",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8769,
+		flag = 0
+	},
+	[8770] = {
+		param = "빨래를 걷을 시간이다.",
+		ship_group = 30228,
+		type = 1,
+		id = 8770,
+		flag = 1,
+		option = {
+			{
+				1,
+				"고마워"
+			}
+		}
+	},
+	[8771] = {
+		param = "고마워. 근데 날씨가 바뀔 거라는 건 어떻게 알았어?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8771,
+		flag = 1
+	},
+	[8772] = {
+		param = "나에게는 잠시나마 하늘의 뜻을 엿볼 수 있는 힘이 있지……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8772,
+		flag = 1
+	},
+	[8773] = {
+		param = "방금 전의 바람에는 먹구름의 분노가 섞여 있더군.",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8773,
+		flag = 1
+	},
+	[8774] = {
+		param = "광풍이 천둥과 번개를 몰고",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8774,
+		flag = 1
+	},
+	[8775] = {
+		param = "만균의 기세로 하늘을 뒤덮는 호우를 뿌리리라.",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8775,
+		flag = 1
+	},
+	[8776] = {
+		param = "지금 마침 사자의 이름으로 위대한 자연의 의지와 교신하는 중이니",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8776,
+		flag = 1
+	},
+	[8777] = {
+		param = "이 뇌운의 분노를 잠재우고 신속하게 물러나게 해 보이마!",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8777,
+		flag = 1
+	},
+	[8778] = {
+		param = "운명의 상대여, 내가 이 거친 날씨를 길들이는 모습을 똑똑히 지켜보거라!",
+		ship_group = 30228,
+		type = 1,
+		id = 8778,
+		flag = 1,
+		option = {
+			{
+				2,
+				"뭔가 엄청난 느낌……"
+			}
+		}
+	},
+	[8779] = {
+		param = "솔직히 무슨 말인지는 잘 모르겠지만, 뭔가 엄청날 것 같아.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8779,
+		flag = 2
+	},
+	[8780] = {
+		param = "이미 비가 억수같이 쏟아지는데 괜찮아?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8780,
+		flag = 2
+	},
+	[8781] = {
+		param = "당연히 괜찮지!",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8781,
+		flag = 2
+	},
+	[8782] = {
+		param = "조금만 더 시간을 주면……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8782,
+		flag = 2
+	},
+	[8783] = {
+		param = "금방 비를 제어해 보이겠다!",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8783,
+		flag = 2
+	},
+	[8784] = {
+		param = "잠깐, 바람이 너무 강한데…!",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8784,
+		flag = 2
+	},
+	[8785] = {
+		param = "비가 정자 안까지 들이치다니……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8785,
+		flag = 2
+	},
+	[8786] = {
+		param = "바람 주제에 무엄하군! 멈춰라! 멈추라고 말하지 않았나!",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8786,
+		flag = 2
+	},
+	[8787] = {
+		param = "366",
+		ship_group = 30228,
+		option = "",
+		type = 4,
+		id = 8787,
+		flag = 2
+	},
+	[8788] = {
+		param = "운명의 상대여, 도와줘……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8788,
+		flag = 2
+	},
+	[8789] = {
+		param = "실패해 버렸어. 폭풍우 때문에 움직일 수가 없어…",
+		ship_group = 30228,
+		type = 1,
+		id = 8789,
+		flag = 2,
+		option = {
+			{
+				3,
+				"어디야?"
+			}
+		}
+	},
+	[8790] = {
+		param = "어디야? 지금 바로 갈게.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8790,
+		flag = 3
+	},
+	[8791] = {
+		param = "집무실 근처에 있는 작은 정자다. 쫄딱 젖었어……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8791,
+		flag = 3
+	},
+	[8792] = {
+		param = "살려줘……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8792,
+		flag = 3
+	},
+	[8793] = {
+		param = "나의 운명의 상대여.",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8793,
+		flag = 0
+	},
+	[8794] = {
+		param = "지금, 확실히 느껴지는군……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8794,
+		flag = 0
+	},
+	[8795] = {
+		param = "나와 너 사이에는 사라지지 않는 유대가 있다는 것을.",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8795,
+		flag = 0
+	},
+	[8796] = {
+		param = "그것이 우리의 마음을 통하게 하고",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8796,
+		flag = 0
+	},
+	[8797] = {
+		param = "어떤 상황에서도 네 의도를 깨닫게 해주지.",
+		ship_group = 30228,
+		type = 1,
+		id = 8797,
+		flag = 0,
+		option = {
+			{
+				1,
+				"대단한걸……"
+			}
+		}
+	},
+	[8798] = {
+		param = "대단한걸. 시험 삼아 한번 해 볼래?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8798,
+		flag = 1
+	},
+	[8799] = {
+		param = "후훗……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8799,
+		flag = 1
+	},
+	[8800] = {
+		param = "운명의 상대는 지금… 업무를 어떻게 처리할지 고민하고 있군!",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8800,
+		flag = 1
+	},
+	[8801] = {
+		param = "어때? 맞췄지?",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8801,
+		flag = 1
+	},
+	[8802] = {
+		param = "금방 도와주러 가마. 눈물을 흘리며 감사하도록!",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8802,
+		flag = 1
+	},
+	[8803] = {
+		param = "231",
+		ship_group = 30228,
+		type = 4,
+		id = 8803,
+		flag = 1,
+		option = {
+			{
+				2,
+				"아쉽지만……"
+			}
+		}
+	},
+	[8804] = {
+		param = "아쉽지만, 방금 일을 전부 끝낸 참이야.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8804,
+		flag = 2
+	},
+	[8805] = {
+		param = "한발 늦었네.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8805,
+		flag = 2
+	},
+	[8806] = {
+		param = "320",
+		ship_group = 30228,
+		option = "",
+		type = 4,
+		id = 8806,
+		flag = 2
+	},
+	[8807] = {
+		param = "운명의 상대는 혼자서도 척척 해내는군……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8807,
+		flag = 2
+	},
+	[8808] = {
+		param = "내가 하나도…… 도움이 되지 못했어.",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8808,
+		flag = 2
+	},
+	[8809] = {
+		param = "난 쓸모가 없어…… 쓸모가 없다고……",
+		ship_group = 30228,
+		type = 1,
+		id = 8809,
+		flag = 2,
+		option = {
+			{
+				3,
+				"사실 고민이 하나 더 있어"
+			}
+		}
+	},
+	[8810] = {
+		param = "사실 고민이 하나 더 있어.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8810,
+		flag = 3
+	},
+	[8811] = {
+		param = "오늘 밤은 웬일로 야근이 없어서, 뭘 할까 고민 중이거든.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8811,
+		flag = 3
+	},
+	[8812] = {
+		param = "호오?! 그런 고민이 있었다니.",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8812,
+		flag = 3
+	},
+	[8813] = {
+		param = "그렇지, 마침 좋은 장소가 떠오르는군.",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8813,
+		flag = 3
+	},
+	[8814] = {
+		param = "안내해 주마. 절대 후회하지 않게 해주지!",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8814,
+		flag = 3
+	},
+	[8815] = {
+		param = "자세한 내용은……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8815,
+		flag = 3
+	},
+	[8816] = {
+		param = "운명의 상대여, 기대하고 있거라. 지금 바로 가겠다!",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8816,
+		flag = 3
+	},
+	[8817] = {
+		param = "지휘관님~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8817,
+		flag = 0
+	},
+	[8818] = {
+		param = "오늘도 열심히 일하는 제 모습, 잘 지켜보셨나요?",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8818,
+		flag = 0
+	},
+	[8819] = {
+		param = "일을 얼마나 많이 처리했는지 아시죠~",
+		ship_group = 30229,
+		type = 1,
+		id = 8819,
+		flag = 0,
+		option = {
+			{
+				1,
+				"수고했어……"
+			},
+			{
+				2,
+				"앞으로도 열심히 해"
+			}
+		}
+	},
+	[8820] = {
+		param = "수고했어, 덕분에 오늘은 한결 수월했어.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8820,
+		flag = 1
+	},
+	[8821] = {
+		param = "제법 열심히 했답니다.",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8821,
+		flag = 1
+	},
+	[8822] = {
+		param = "그러니까 그에 상응하는 포상이 따라야겠죠~?",
+		ship_group = 30229,
+		type = 1,
+		id = 8822,
+		flag = 1,
+		option = {
+			{
+				3,
+				"어떤 포상을 원해?"
+			}
+		}
+	},
+	[8823] = {
+		param = "잘했어, 그 기세로 계속해서 힘내줘.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8823,
+		flag = 2
+	},
+	[8824] = {
+		param = "에이~ 「앞으로도」라니요.",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8824,
+		flag = 2
+	},
+	[8825] = {
+		param = "지휘관님의 포상이 없으면, 앞으로 계속할 의욕이 안 난단 말이에요~",
+		ship_group = 30229,
+		type = 1,
+		id = 8825,
+		flag = 2,
+		option = {
+			{
+				3,
+				"어떤 포상을 원해?"
+			}
+		}
+	},
+	[8826] = {
+		param = "어떤 포상을 원해?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8826,
+		flag = 3
+	},
+	[8827] = {
+		param = "으음, 글쎄요……",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8827,
+		flag = 3
+	},
+	[8828] = {
+		param = "그럼, 지휘관님이 제 꼬리를 관리해 주시는 걸로 하죠~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8828,
+		flag = 3
+	},
+	[8829] = {
+		param = "[파일 「꼬리 관리 가이드」]",
+		ship_group = 1,
+		type = 5,
+		id = 8829,
+		flag = 3,
+		option = {
+			{
+				4,
+				"수신"
+			}
+		}
+	},
+	[8830] = {
+		param = "파일 「꼬리 관리 가이드」를 수신했습니다.",
+		ship_group = 0,
+		option = "",
+		type = 5,
+		id = 8830,
+		flag = 4
+	},
+	[8831] = {
+		param = "제 꼬리 관리는 절차가 까다로우니까, 한가할 때 미리 공부해 두세요~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8831,
+		flag = 4
+	},
+	[8832] = {
+		param = "정성껏 관리해 줘서 이렇게 예쁘고 매끄러운 거예요.",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8832,
+		flag = 4
+	},
+	[8833] = {
+		param = "꼬리 관리는 시간이 꽤 걸리니까, 하는 김에 같이 영화라도 보실래요?",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8833,
+		flag = 4
+	},
+	[8834] = {
+		param = "영화를 같이 볼 거면, 내친김에 식사도 함께하는 건 어때요?",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8834,
+		flag = 4
+	},
+	[8835] = {
+		param = "밥도 같이 먹을 거면, 같이 목욕이라든가~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8835,
+		flag = 4
+	},
+	[8836] = {
+		param = "목욕도 같이 하면, 그 다음은……",
+		ship_group = 30229,
+		type = 1,
+		id = 8836,
+		flag = 4,
+		option = {
+			{
+				5,
+				"잠깐, 정지. 기다려 봐"
+			}
+		}
+	},
+	[8837] = {
+		param = "잠깐, 정지. 기다려 봐.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8837,
+		flag = 5
+	},
+	[8838] = {
+		param = "한꺼번에 그렇게 욕심 부리지 말고 다음 포상도 남겨둬야지.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8838,
+		flag = 5
+	},
+	[8839] = {
+		param = "에이, 너무해요.",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8839,
+		flag = 5
+	},
+	[8840] = {
+		param = "어쩔 수 없죠. 오늘은 꼬리 관리만 받는 걸로 할게요~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8840,
+		flag = 5
+	},
+	[8841] = {
+		param = "문을 안쪽에서 잠그고, 열쇠를 뽑아버리면…… 후훗~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8841,
+		flag = 5
+	},
+	[8842] = {
+		param = "지휘관님~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8842,
+		flag = 0
+	},
+	[8843] = {
+		param = "지금 온천인데, 지휘관님을 위해 특별한 서프라이즈를 준비했답니다~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8843,
+		flag = 0
+	},
+	[8844] = {
+		param = "꼭 오셔야 해요.",
+		ship_group = 30229,
+		type = 1,
+		id = 8844,
+		flag = 0,
+		option = {
+			{
+				1,
+				"오늘은 무슨 특별한 날도 아닌데…"
+			}
+		}
+	},
+	[8845] = {
+		param = "오늘은 무슨 특별한 날도 아닌데…",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8845,
+		flag = 1
+	},
+	[8846] = {
+		param = "뭔가 꾸미고 있는 거 아니야?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8846,
+		flag = 1
+	},
+	[8847] = {
+		param = "225",
+		ship_group = 30229,
+		option = "",
+		type = 4,
+		id = 8847,
+		flag = 1
+	},
+	[8848] = {
+		param = "그럴 리가요~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8848,
+		flag = 1
+	},
+	[8849] = {
+		param = "저는 그저……",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8849,
+		flag = 1
+	},
+	[8850] = {
+		param = "어제는 정말 성실하게 노력하셨고,",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8850,
+		flag = 1
+	},
+	[8851] = {
+		param = "그저께도 성실하게 노력하셨잖아요?",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8851,
+		flag = 1
+	},
+	[8852] = {
+		param = "그 전날도, 그 전전날도……",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8852,
+		flag = 1
+	},
+	[8853] = {
+		param = "이렇게 열심히 하시는 지휘관님께 힘을 드리고 싶어서요~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8853,
+		flag = 1
+	},
+	[8854] = {
+		param = "궁금하시면 특별한 서프라이즈의 내용이 뭔지 먼저 알려드릴게요~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8854,
+		flag = 1
+	},
+	[8855] = {
+		param = "사실 새로운 수영복을 골랐답니다♪ 꼬리 부분도 특별히 디자인된 수영복이에요.",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8855,
+		flag = 1
+	},
+	[8856] = {
+		param = "어때요? 제 새 수영복, 궁금하지 않으신가요?",
+		ship_group = 30229,
+		type = 1,
+		id = 8856,
+		flag = 1,
+		option = {
+			{
+				2,
+				"수영복, 온천, 꼬리……"
+			}
+		}
+	},
+	[8857] = {
+		param = "수영복, 온천, 꼬리…… 아하.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8857,
+		flag = 2
+	},
+	[8858] = {
+		param = "수영복을 미끼로 온천으로 꾀어내서, 내가 감전되는 모습을 보려는 거지?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8858,
+		flag = 2
+	},
+	[8859] = {
+		param = "어라, 들켜버렸네요.",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8859,
+		flag = 2
+	},
+	[8860] = {
+		param = "역시 지휘관님을 속이는 건 어렵네요.",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8860,
+		flag = 2
+	},
+	[8861] = {
+		param = "사실 최근에 새로운 요법을 알게 됐거든요. 이름하여 「온천 전기 요법」!",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8861,
+		flag = 2
+	},
+	[8862] = {
+		param = "조금씩 전류를 계속 흘려보내기만 하면 감전될 걱정도 없대요.",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8862,
+		flag = 2
+	},
+	[8863] = {
+		param = "저도 직접 해봤는데 효과가 있는 것 같더라고요? 지휘관님도 같이 해봐요~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8863,
+		flag = 2
+	},
+	[8864] = {
+		param = "부탁이에요~ 같이 해봐요~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8864,
+		flag = 2
+	},
+	[8865] = {
+		param = "해주실 거죠~?",
+		ship_group = 30229,
+		type = 1,
+		id = 8865,
+		flag = 2,
+		option = {
+			{
+				3,
+				"딱 한 번만이야"
+			}
+		}
+	},
+	[8866] = {
+		param = "딱 한 번만이야.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8866,
+		flag = 3
+	},
+	[8867] = {
+		param = "역시 자상하시다니까~ 기다리고 있을게요♪",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8867,
+		flag = 3
+	},
+	[8868] = {
+		param = "에이~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8868,
+		flag = 0
+	},
+	[8869] = {
+		param = "에이~~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8869,
+		flag = 0
+	},
+	[8870] = {
+		param = "에이~~~",
+		ship_group = 30229,
+		type = 1,
+		id = 8870,
+		flag = 0,
+		option = {
+			{
+				1,
+				"무슨 일이야?"
+			}
+		}
+	},
+	[8871] = {
+		param = "무슨 일이야?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8871,
+		flag = 1
+	},
+	[8872] = {
+		param = "꼬리로 지휘관님을 계속, 계~속 꽉 껴안고 싶은데요……",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8872,
+		flag = 1
+	},
+	[8873] = {
+		param = "그러면 지휘관님이 감전돼서 찌릿하실 테니…… 아무리 저라도 마음이 아프거든요.",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8873,
+		flag = 1
+	},
+	[8874] = {
+		param = "꼬리 관리에 신경을 쓰고 있는데도 자꾸 전기가 새어 나와요.",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8874,
+		flag = 1
+	},
+	[8875] = {
+		param = "57",
+		ship_group = 30229,
+		option = "",
+		type = 4,
+		id = 8875,
+		flag = 1
+	},
+	[8876] = {
+		param = "지휘관님, 얼른 그 무적의 두뇌로 어떻게 좀 해보세요~",
+		ship_group = 30229,
+		type = 1,
+		id = 8876,
+		flag = 1,
+		option = {
+			{
+				2,
+				"근본적인 문제는……"
+			}
+		}
+	},
+	[8877] = {
+		param = "근본적인 문제는…… 역시 누전이겠지?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8877,
+		flag = 2
+	},
+	[8878] = {
+		param = "「피뢰침」이라고 들어본 적 있어?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8878,
+		flag = 2
+	},
+	[8879] = {
+		param = "건물 옥상에 세워서 번개를 땅으로 흘려보내는 그거요?",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8879,
+		flag = 2
+	},
+	[8880] = {
+		param = "피뢰침을 통해 번개를 땅으로 흘려보내서",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8880,
+		flag = 2
+	},
+	[8881] = {
+		param = "강력한 번개를 무해하게 만드는… 똑똑한 구조죠.",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8881,
+		flag = 2
+	},
+	[8882] = {
+		param = "그러니까 지금 꼬리에서 새어 나오는 전기를 어딘가로 흘려보내면 된다는 말씀이죠?",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8882,
+		flag = 2
+	},
+	[8883] = {
+		param = "으음……",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8883,
+		flag = 2
+	},
+	[8884] = {
+		param = "꼬리에 긴 전선을 묶으면 피뢰침처럼 전기를 흘려보낼 수 있으려나……",
+		ship_group = 30229,
+		type = 1,
+		id = 8884,
+		flag = 2,
+		option = {
+			{
+				3,
+				"이론상으로는 그렇지"
+			}
+		}
+	},
+	[8885] = {
+		param = "이론상으로는 그렇지. 그래도 전선보다는 금속 펜던트가 더 나을 것 같아.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8885,
+		flag = 3
+	},
+	[8886] = {
+		param = "그럼 바로 시내로 고르러 가요. 지휘관님도 같이 가요~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8886,
+		flag = 3
+	},
+	[8887] = {
+		param = "꼬리로 꽉 껴안고 싶어서 못 참겠거든요♪",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8887,
+		flag = 3
+	},
+	[8888] = {
+		param = "먼저 가서 기다리고 있을게요~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8888,
+		flag = 3
 	},
 	[8533] = {
 		param = "유키카제님은 요즘 고민이 좀 있는 거다.",

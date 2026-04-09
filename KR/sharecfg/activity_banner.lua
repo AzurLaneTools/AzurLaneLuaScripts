@@ -13,7 +13,7 @@ pg.activity_banner = {
 				{
 					2026,
 					4,
-					2
+					9
 				},
 				{
 					0,
@@ -25,18 +25,17 @@ pg.activity_banner = {
 				{
 					2026,
 					4,
-					9
+					22
 				},
 				{
-					12,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 2,
 		pic = "temp2",
@@ -46,25 +45,13 @@ pg.activity_banner = {
 				projectName = "new",
 				page = 1
 			}
-		}
-	},
-	{
-		type = 2,
-		id = 3,
-		pic = "temp3",
-		param = {
-			"scene activity",
-			{
-				event = "ActivityMediator.OPEN_CULTIVATING_PLANT",
-				data = {}
-			}
 		},
 		time = {
 			{
 				{
 					2026,
 					4,
-					2
+					9
 				},
 				{
 					0,
@@ -76,7 +63,7 @@ pg.activity_banner = {
 				{
 					2026,
 					4,
-					9
+					23
 				},
 				{
 					12,
@@ -87,14 +74,80 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "50479",
-		time = "stop",
-		type = 3,
-		id = 4,
-		pic = "temp4"
+		type = 2,
+		id = 3,
+		pic = "temp3",
+		param = {
+			"scene core activity",
+			{
+				coreName = "YunLongSPCoreActivityUI"
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					4,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
 	},
 	{
-		time = "stop",
+		type = 2,
+		id = 4,
+		pic = "temp4",
+		param = {
+			"scene charge",
+			{
+				wrap = 4
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					4,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
 		type = 2,
 		id = 5,
 		pic = "temp5",
@@ -103,35 +156,13 @@ pg.activity_banner = {
 			{
 				warp = "shopstreet"
 			}
-		}
-	},
-	{
-		param = "50448",
-		time = "stop",
-		type = 3,
-		id = 6,
-		pic = "temp6"
-	},
-	{
-		time = "stop",
-		type = 2,
-		id = 7,
-		pic = "temp7",
-		param = {
-			"dorm 3d select"
-		}
-	},
-	{
-		param = "50501",
-		type = 3,
-		id = 8,
-		pic = "temp8",
+		},
 		time = {
 			{
 				{
 					2026,
 					4,
-					2
+					9
 				},
 				{
 					0,
@@ -143,7 +174,75 @@ pg.activity_banner = {
 				{
 					2026,
 					4,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 6,
+		pic = "temp6",
+		param = {
+			"scene court yard"
+		},
+		time = {
+			{
+				{
+					2026,
+					4,
 					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 7,
+		pic = "temp7",
+		param = {
+			"dorm 3d select"
+		},
+		time = {
+			{
+				{
+					2026,
+					4,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					23
 				},
 				{
 					12,
@@ -155,8 +254,8 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 9,
-		pic = "temp9",
+		id = 8,
+		pic = "temp8",
 		param = {
 			"crusing"
 		},
@@ -187,6 +286,40 @@ pg.activity_banner = {
 			}
 		}
 	},
+	{
+		type = 2,
+		id = 9,
+		pic = "temp9",
+		param = {
+			"LiquorFloor"
+		},
+		time = {
+			{
+				{
+					2026,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[90] = {
 		param = "",
 		time = "stop",
@@ -210,10 +343,35 @@ pg.activity_banner = {
 	},
 	[99] = {
 		param = "",
-		time = "stop",
 		type = 12,
 		id = 99,
-		pic = "limit_skin"
+		pic = "limit_skin",
+		time = {
+			{
+				{
+					2026,
+					4,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[100] = {
 		param = "饺子|广受欢迎的传统特色食物！<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
@@ -269,14 +427,12 @@ pg.activity_banner = {
 			1,
 			2,
 			3,
-			5,
-			7,
-			9
-		},
-		[3] = {
 			4,
+			5,
 			6,
-			8
+			7,
+			8,
+			9
 		},
 		[9] = {
 			90,

@@ -94746,6 +94746,434 @@ _G.pg.base.aircraft_template[180023] = {
 }
 
 
+_G.pg.base.aircraft_template[183441] = {
+	name = "云龙技能流星 LV1",
+	max_hp = 41,
+	accuracy = 23,
+	model_ID = "liuxing",
+	ACC_growth = 0,
+	crash_DMG = 188,
+	dodge = 1.05,
+	attack_power = 2,
+	dodge_limit = 5,
+	type = 2,
+	AP_growth = 2000,
+	icon = "liuxing",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1594,
+	speed = 52,
+	id = 183441,
+	scale = 1,
+	weapon_ID = {
+		50541,
+		50841,
+		183451
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.26,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[183442] = {
+	max_hp = 47,
+	name = "云龙技能流星 LV2",
+	spawn_brownian = 1,
+	base = 183441,
+	id = 183442,
+	hp_growth = 1802,
+	weapon_ID = {
+		50542,
+		50842,
+		183452
+	}
+}
+
+
+_G.pg.base.aircraft_template[183443] = {
+	max_hp = 52,
+	name = "云龙技能流星 LV3",
+	spawn_brownian = 1,
+	base = 183441,
+	id = 183443,
+	hp_growth = 2010,
+	weapon_ID = {
+		50543,
+		50843,
+		183453
+	}
+}
+
+
+_G.pg.base.aircraft_template[183444] = {
+	max_hp = 58,
+	name = "云龙技能流星 LV4",
+	spawn_brownian = 1,
+	base = 183441,
+	id = 183444,
+	hp_growth = 2218,
+	weapon_ID = {
+		50544,
+		50844,
+		183454
+	}
+}
+
+
+_G.pg.base.aircraft_template[183445] = {
+	max_hp = 63,
+	name = "云龙技能流星 LV5",
+	spawn_brownian = 1,
+	base = 183441,
+	id = 183445,
+	hp_growth = 2426,
+	weapon_ID = {
+		50545,
+		50845,
+		183455
+	}
+}
+
+
+_G.pg.base.aircraft_template[183446] = {
+	max_hp = 68,
+	name = "云龙技能流星 LV6",
+	spawn_brownian = 1,
+	base = 183441,
+	id = 183446,
+	hp_growth = 2634,
+	weapon_ID = {
+		50546,
+		50846,
+		183456
+	}
+}
+
+
+_G.pg.base.aircraft_template[183447] = {
+	max_hp = 74,
+	name = "云龙技能流星 LV7",
+	spawn_brownian = 1,
+	base = 183441,
+	id = 183447,
+	hp_growth = 2842,
+	weapon_ID = {
+		50547,
+		50847,
+		183457
+	}
+}
+
+
+_G.pg.base.aircraft_template[183448] = {
+	max_hp = 79,
+	name = "云龙技能流星 LV8",
+	spawn_brownian = 1,
+	base = 183441,
+	id = 183448,
+	hp_growth = 3050,
+	weapon_ID = {
+		50548,
+		50848,
+		183458
+	}
+}
+
+
+_G.pg.base.aircraft_template[183449] = {
+	max_hp = 85,
+	name = "云龙技能流星 LV9",
+	spawn_brownian = 1,
+	base = 183441,
+	id = 183449,
+	hp_growth = 3258,
+	weapon_ID = {
+		50549,
+		50849,
+		183459
+	}
+}
+
+
+_G.pg.base.aircraft_template[183450] = {
+	max_hp = 90,
+	name = "云龙技能流星 LV10",
+	spawn_brownian = 1,
+	base = 183441,
+	id = 183450,
+	hp_growth = 3466,
+	weapon_ID = {
+		50550,
+		50850,
+		183460
+	}
+}
+
+
+_G.pg.base.aircraft_template[183461] = {
+	name = "云龙技能彗星Lv1",
+	max_hp = 42,
+	accuracy = 23,
+	model_ID = "huixing",
+	ACC_growth = 0,
+	crash_DMG = 208,
+	dodge = 3.33,
+	attack_power = 2,
+	dodge_limit = 1,
+	type = 3,
+	AP_growth = 2000,
+	icon = "huixing",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1605,
+	speed = 48,
+	id = 183461,
+	scale = 1,
+	weapon_ID = {
+		50041,
+		183471,
+		183481
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[183462] = {
+	max_hp = 48,
+	name = "云龙技能彗星Lv2",
+	spawn_brownian = 1,
+	base = 183461,
+	id = 183462,
+	hp_growth = 1846,
+	weapon_ID = {
+		50042,
+		183472,
+		183482
+	}
+}
+
+
+_G.pg.base.aircraft_template[183463] = {
+	max_hp = 54,
+	name = "云龙技能彗星Lv3",
+	spawn_brownian = 1,
+	base = 183461,
+	id = 183463,
+	hp_growth = 2087,
+	weapon_ID = {
+		50043,
+		183473,
+		183483
+	}
+}
+
+
+_G.pg.base.aircraft_template[183464] = {
+	max_hp = 61,
+	name = "云龙技能彗星Lv4",
+	spawn_brownian = 1,
+	base = 183461,
+	id = 183464,
+	hp_growth = 2327,
+	weapon_ID = {
+		50044,
+		183474,
+		183484
+	}
+}
+
+
+_G.pg.base.aircraft_template[183465] = {
+	max_hp = 67,
+	name = "云龙技能彗星Lv5",
+	spawn_brownian = 1,
+	base = 183461,
+	id = 183465,
+	hp_growth = 2568,
+	weapon_ID = {
+		50045,
+		183475,
+		183485
+	}
+}
+
+
+_G.pg.base.aircraft_template[183466] = {
+	max_hp = 73,
+	name = "云龙技能彗星Lv6",
+	spawn_brownian = 1,
+	base = 183461,
+	id = 183466,
+	hp_growth = 2809,
+	weapon_ID = {
+		50046,
+		183476,
+		183486
+	}
+}
+
+
+_G.pg.base.aircraft_template[183467] = {
+	max_hp = 79,
+	name = "云龙技能彗星Lv7",
+	spawn_brownian = 1,
+	base = 183461,
+	id = 183467,
+	hp_growth = 3050,
+	weapon_ID = {
+		50047,
+		183477,
+		183487
+	}
+}
+
+
+_G.pg.base.aircraft_template[183468] = {
+	max_hp = 86,
+	name = "云龙技能彗星Lv8",
+	spawn_brownian = 1,
+	base = 183461,
+	id = 183468,
+	hp_growth = 3290,
+	weapon_ID = {
+		50048,
+		183478,
+		183488
+	}
+}
+
+
+_G.pg.base.aircraft_template[183469] = {
+	max_hp = 92,
+	name = "云龙技能彗星Lv9",
+	spawn_brownian = 1,
+	base = 183461,
+	id = 183469,
+	hp_growth = 3531,
+	weapon_ID = {
+		50049,
+		183479,
+		183489
+	}
+}
+
+
+_G.pg.base.aircraft_template[183470] = {
+	max_hp = 98,
+	name = "云龙技能彗星Lv10",
+	spawn_brownian = 1,
+	base = 183461,
+	id = 183470,
+	hp_growth = 3772,
+	weapon_ID = {
+		50050,
+		183480,
+		183490
+	}
+}
+
+
 _G.pg.base.aircraft_template[183501] = {
 	name = "科隆M直升机Lv1",
 	max_hp = 42,
@@ -294784,6 +295212,1091 @@ _G.pg.base.aircraft_template[3366712] = {
 	scale = 0.75,
 	weapon_ID = {
 		3366084
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3376065] = {
+	name = "【2026云龙SP活动】航母轰炸机 Lv1",
+	max_hp = 64,
+	accuracy = 23,
+	model_ID = "feiji_tegongtu",
+	ACC_growth = 0,
+	crash_DMG = 36,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "feiji_tegongtu",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1680,
+	speed = 33,
+	id = 3376065,
+	scale = 0.75,
+	weapon_ID = {
+		3376075
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3376066] = {
+	name = "【2026云龙SP活动】航母轰炸机 Lv2",
+	max_hp = 88,
+	accuracy = 23,
+	model_ID = "feiji_tegongtu",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "feiji_tegongtu",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 33,
+	id = 3376066,
+	scale = 0.75,
+	weapon_ID = {
+		3376076
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3376067] = {
+	name = "【2026云龙SP活动】航母轰炸机 Lv3",
+	max_hp = 112,
+	accuracy = 23,
+	model_ID = "feiji_tegongtu",
+	ACC_growth = 0,
+	crash_DMG = 62,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "feiji_tegongtu",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2240,
+	speed = 33,
+	id = 3376067,
+	scale = 0.75,
+	weapon_ID = {
+		3376077
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3376068] = {
+	name = "【2026云龙SP活动】航母轰炸机 Lv4",
+	max_hp = 136,
+	accuracy = 23,
+	model_ID = "feiji_tegongtu",
+	ACC_growth = 0,
+	crash_DMG = 78,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "feiji_tegongtu",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2520,
+	speed = 33,
+	id = 3376068,
+	scale = 0.75,
+	weapon_ID = {
+		3376078
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3376069] = {
+	name = "【2026云龙SP活动】航母轰炸机 Lv5",
+	max_hp = 160,
+	accuracy = 23,
+	model_ID = "feiji_tegongtu",
+	ACC_growth = 0,
+	crash_DMG = 98,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "feiji_tegongtu",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2800,
+	speed = 33,
+	id = 3376069,
+	scale = 0.75,
+	weapon_ID = {
+		3376079
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3376070] = {
+	name = "【2026云龙SP活动】航母战斗机 Lv1",
+	max_hp = 80,
+	accuracy = 23,
+	model_ID = "feiji_tegongtu",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_tegongtu",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2280,
+	speed = 30,
+	id = 3376070,
+	scale = 0.75,
+	weapon_ID = {
+		3376080,
+		1005675
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3376071] = {
+	name = "【2026云龙SP活动】航母战斗机 Lv2",
+	max_hp = 110,
+	accuracy = 23,
+	model_ID = "feiji_tegongtu",
+	ACC_growth = 0,
+	crash_DMG = 85,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_tegongtu",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2660,
+	speed = 30,
+	id = 3376071,
+	scale = 0.75,
+	weapon_ID = {
+		3376081,
+		1005676
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3376072] = {
+	name = "【2026云龙SP活动】航母战斗机 Lv3",
+	max_hp = 140,
+	accuracy = 23,
+	model_ID = "feiji_tegongtu",
+	ACC_growth = 0,
+	crash_DMG = 110,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_tegongtu",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 3040,
+	speed = 30,
+	id = 3376072,
+	scale = 0.75,
+	weapon_ID = {
+		3376082,
+		1005677
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3376073] = {
+	name = "【2026云龙SP活动】航母战斗机 Lv4",
+	max_hp = 170,
+	accuracy = 23,
+	model_ID = "feiji_tegongtu",
+	ACC_growth = 0,
+	crash_DMG = 140,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_tegongtu",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 3420,
+	speed = 30,
+	id = 3376073,
+	scale = 0.75,
+	weapon_ID = {
+		3376083,
+		1005678
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3376074] = {
+	name = "【2026云龙SP活动】航母战斗机 Lv5",
+	max_hp = 200,
+	accuracy = 23,
+	model_ID = "feiji_tegongtu",
+	ACC_growth = 0,
+	crash_DMG = 175,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_tegongtu",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 3800,
+	speed = 30,
+	id = 3376074,
+	scale = 0.75,
+	weapon_ID = {
+		3376084,
+		1005679
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3376311] = {
+	name = "【2026云龙SP活动 困难】精英蛋船 霓虹都市航母 战斗机",
+	max_hp = 136,
+	accuracy = 23,
+	model_ID = "feiji_tegongtu",
+	ACC_growth = 0,
+	crash_DMG = 78,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_tegongtu",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2520,
+	speed = 33,
+	id = 3376311,
+	scale = 0.75,
+	weapon_ID = {
+		3376082,
+		1005677
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3376312] = {
+	name = "【2026云龙SP活动 困难】精英蛋船 霓虹都市航母 轰炸机",
+	max_hp = 170,
+	accuracy = 23,
+	model_ID = "feiji_tegongtu",
+	ACC_growth = 0,
+	crash_DMG = 140,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "feiji_tegongtu",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 3420,
+	speed = 30,
+	id = 3376312,
+	scale = 0.75,
+	weapon_ID = {
+		3376077
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3376411] = {
+	name = "【2026云龙SP活动 SP】精英蛋船 霓虹都市航母 战斗机",
+	max_hp = 160,
+	accuracy = 23,
+	model_ID = "feiji_tegongtu",
+	ACC_growth = 0,
+	crash_DMG = 98,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_tegongtu",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2800,
+	speed = 33,
+	id = 3376411,
+	scale = 0.75,
+	weapon_ID = {
+		3376084,
+		1005679
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3376412] = {
+	name = "【2026云龙SP活动 SP】精英蛋船 霓虹都市航母 轰炸机",
+	max_hp = 200,
+	accuracy = 23,
+	model_ID = "feiji_tegongtu",
+	ACC_growth = 0,
+	crash_DMG = 175,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "feiji_tegongtu",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 3800,
+	speed = 30,
+	id = 3376412,
+	scale = 0.75,
+	weapon_ID = {
+		3376079
 	},
 	position_offset = {
 		0,

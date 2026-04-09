@@ -187,6 +187,7 @@ pg.furniture_data_template = setmetatable({
 			329,
 			330,
 			331,
+			332,
 			100002,
 			100003,
 			100004,
@@ -3705,6 +3706,27 @@ pg.furniture_data_template = setmetatable({
 			335119,
 			335301,
 			335302
+		},
+		[136] = {
+			336001,
+			336002,
+			336101,
+			336102,
+			336103,
+			336104,
+			336105,
+			336106,
+			336107,
+			336108,
+			336109,
+			336110,
+			336111,
+			336112,
+			336113,
+			336114,
+			336115,
+			336301,
+			336302
 		}
 	},
 	get_id_list_by_tag = {
@@ -5916,7 +5938,21 @@ pg.furniture_data_template = setmetatable({
 			335115,
 			335116,
 			335117,
-			335118
+			335118,
+			336101,
+			336102,
+			336103,
+			336104,
+			336105,
+			336106,
+			336107,
+			336108,
+			336109,
+			336110,
+			336111,
+			336112,
+			336113,
+			336114
 		},
 		{
 			1108,
@@ -6343,7 +6379,8 @@ pg.furniture_data_template = setmetatable({
 			319,
 			321,
 			323,
-			331
+			331,
+			332
 		},
 		[7] = {
 			213,
@@ -6556,7 +6593,8 @@ pg.furniture_data_template = setmetatable({
 			331309,
 			333119,
 			334123,
-			335119
+			335119,
+			336115
 		},
 		[4] = {
 			1001,
@@ -6678,7 +6716,8 @@ pg.furniture_data_template = setmetatable({
 			331001,
 			333001,
 			334001,
-			335001
+			335001,
+			336001
 		},
 		[3] = {
 			1002,
@@ -6801,7 +6840,8 @@ pg.furniture_data_template = setmetatable({
 			331002,
 			333002,
 			334002,
-			335002
+			335002,
+			336002
 		},
 		[5] = {
 			1301,
@@ -7186,7 +7226,9 @@ pg.furniture_data_template = setmetatable({
 			334301,
 			334302,
 			335301,
-			335302
+			335302,
+			336301,
+			336302
 		}
 	},
 	get_id_list_by_type = {
@@ -7311,7 +7353,8 @@ pg.furniture_data_template = setmetatable({
 			331002,
 			333002,
 			334002,
-			335002
+			335002,
+			336002
 		},
 		[7] = {
 			1,
@@ -7475,6 +7518,7 @@ pg.furniture_data_template = setmetatable({
 			329,
 			330,
 			331,
+			332,
 			100002,
 			100004,
 			100005,
@@ -9743,7 +9787,22 @@ pg.furniture_data_template = setmetatable({
 			335116,
 			335117,
 			335118,
-			335119
+			335119,
+			336101,
+			336102,
+			336103,
+			336104,
+			336105,
+			336106,
+			336107,
+			336108,
+			336109,
+			336110,
+			336111,
+			336112,
+			336113,
+			336114,
+			336115
 		},
 		[11] = {
 			131,
@@ -9948,7 +10007,8 @@ pg.furniture_data_template = setmetatable({
 			331001,
 			333001,
 			334001,
-			335001
+			335001,
+			336001
 		},
 		[5] = {
 			1101,
@@ -10639,7 +10699,9 @@ pg.furniture_data_template = setmetatable({
 			334301,
 			334302,
 			335301,
-			335302
+			335302,
+			336301,
+			336302
 		},
 		[8] = {
 			17121
@@ -10872,6 +10934,7 @@ pg.furniture_data_template = setmetatable({
 		329,
 		330,
 		331,
+		332,
 		100002,
 		100003,
 		100004,
@@ -14149,7 +14212,26 @@ pg.furniture_data_template = setmetatable({
 		335118,
 		335119,
 		335301,
-		335302
+		335302,
+		336001,
+		336002,
+		336101,
+		336102,
+		336103,
+		336104,
+		336105,
+		336106,
+		336107,
+		336108,
+		336109,
+		336110,
+		336111,
+		336112,
+		336113,
+		336114,
+		336115,
+		336301,
+		336302
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -23459,6 +23541,50 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[332] = {
+		can_rotate = 0,
+		describe = "쏜 시티의 시정을 관리하는 빌딩. 규칙과 지령의 중추인 그곳은 밤의 어둠 속에 조용히 자리 잡고 있다.",
+		gain_by = "유람자 모집 계획",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "시정 관리 빌딩",
+		advice = 0,
+		id = 332,
+		tag = 8,
+		comfortable = 0,
+		icon = "tegongdushixunzhangicon",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"tegongdushixunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		advice = 0,
 		name = "우정의 공기 펌프",
@@ -29211,7 +29337,7 @@ pg.base.furniture_data_template = {
 	},
 	[100083] = {
 		advice = 0,
-		name = "미라주 플라이어",
+		name = "판타즘 플라이어",
 		count = 1,
 		type = 11,
 		dir = 0,
@@ -29231,7 +29357,7 @@ pg.base.furniture_data_template = {
 		canputon = 0,
 		id = 100083,
 		comfortable = 0,
-		describe = "네온사인 속에서 유일무이한 궤적을 그리자.",
+		describe = "네온의 광채 속에서, 나만의 궤적을 그려보자.",
 		dorm_id = 0,
 		tag = 6,
 		spine_extra = "",
@@ -173762,6 +173888,959 @@ pg.base.furniture_data_template = {
 		spine = {
 			{
 				"qiangshicj8",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[336001] = {
+		can_rotate = 0,
+		describe = "커맨드 센터에서 데이터 스트림에 감싸인 채 도시를 내려다보자.",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tg/dibantg",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "지휘 센터 바닥",
+		advice = 0,
+		tag = 4,
+		id = 336001,
+		icon = "dibantgicon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[336002] = {
+		can_rotate = 0,
+		describe = "커맨드 센터에서 데이터 스트림에 감싸인 채 도시를 내려다보자.",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "지휘 센터 벽",
+		advice = 0,
+		id = 336002,
+		tag = 3,
+		comfortable = 4,
+		icon = "qiangbitgicon",
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbitg",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[336101] = {
+		advice = 0,
+		name = "지휘 센터 조작대",
+		count = 1,
+		type = 2,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "caozuotaitgicon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 136,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		id = 336101,
+		comfortable = 4,
+		describe = "여러 조작 패널을 조합한 콘솔. 버튼을 잘못 누르지 않도록 주의할 것!",
+		dorm_id = 0,
+		tag = 1,
+		spine_action_replace = "",
+		size = {
+			14,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"caozuotaitgB",
+				"normal"
+			},
+			{
+				"caozuotaitgT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit1",
+						nil,
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				},
+				{
+					{
+						"sit1"
+					},
+					{
+						"sit2"
+					}
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		followBone = {
+			{
+				"char2",
+				1
+			},
+			{
+				"char1",
+				-1
+			}
+		},
+		interAction_group = {}
+	},
+	[336102] = {
+		can_rotate = 0,
+		describe = "생체 인증 완료, 진입을 허가합니다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "지휘 센터 안전문",
+		advice = 0,
+		id = 336102,
+		tag = 1,
+		comfortable = 4,
+		icon = "damentgicon",
+		size = {
+			24,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"damentg",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[336103] = {
+		can_rotate = 0,
+		describe = "표준 물자를 수납하는 함. 각종 장비나 부품이 보관되어 있다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tg/daxiangzitg",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "지휘 센터 수납함",
+		advice = 0,
+		tag = 1,
+		id = 336103,
+		icon = "daxiangzitgicon",
+		comfortable = 1,
+		size = {
+			2,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[336104] = {
+		can_rotate = 0,
+		describe = "고정밀 3D 공간 이미징 장치. 도시의 전체 모습을 실시간으로 투영한다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "도시 프로젝션",
+		advice = 0,
+		id = 336104,
+		tag = 1,
+		comfortable = 2,
+		icon = "ditutgicon",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"ditutg",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[336105] = {
+		can_rotate = 0,
+		describe = "고밀도 데이터 연산 센터. 작전 수행에 필요한 연산 리소스를 제공한다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "지휘 센터 서버",
+		advice = 0,
+		id = 336105,
+		tag = 1,
+		comfortable = 2,
+		icon = "fuwuqitgicon",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"fuwuqitg",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[336106] = {
+		can_rotate = 0,
+		describe = "수랭식 방열과 저소음 에어플로우 설계가 적용된 케이스. 고효율이면서 작동 소음도 조용하다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tg/jixiangtg",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "지휘 센터 케이스",
+		advice = 0,
+		tag = 1,
+		id = 336106,
+		icon = "jixiangtgicon",
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[336107] = {
+		can_rotate = 0,
+		describe = "축 조절이 가능한 모니터. 다각적인 정보 분석에 적합하다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "지휘 센터 모니터 도면",
+		advice = 0,
+		id = 336107,
+		tag = 1,
+		comfortable = 3,
+		icon = "pingmuzutgicon",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"pingmuzutg",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[336108] = {
+		can_rotate = 0,
+		describe = "홀로그램으로 출격 중!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "홀로그램",
+		advice = 0,
+		id = 336108,
+		tag = 1,
+		comfortable = 2,
+		icon = "quanxitgicon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"quanxitg",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[336109] = {
+		advice = 0,
+		name = "지휘 센터 워크 데스크",
+		count = 1,
+		type = 2,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "shuzhuotgicon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 136,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 3,
+		belong = 1,
+		canputon = 0,
+		id = 336109,
+		comfortable = 3,
+		describe = "데스크 하드웨어가 업그레이드되면서 작업 효율도 쑥쑥 상승!",
+		dorm_id = 0,
+		tag = 1,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shuzhuotgB",
+				"normal"
+			},
+			{
+				"shuzhuotgT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[336110] = {
+		can_rotate = 0,
+		describe = "허리를 굽히고 몸을 비틀어서, 레이저를 피해라!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "레이저 발생 장치",
+		advice = 0,
+		id = 336110,
+		tag = 1,
+		comfortable = 2,
+		icon = "tanceqitgicon",
+		size = {
+			1,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tanceqitg",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[336111] = {
+		can_rotate = 0,
+		describe = "타겟 확인, 바로 출발한다쥬쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "만쥬 에이전트",
+		advice = 0,
+		id = 336111,
+		tag = 1,
+		comfortable = 3,
+		icon = "tegongjiutgicon",
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tegongjiutg",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[336112] = {
+		can_rotate = 0,
+		describe = "잡동사니는 수납 상자에 맡기자.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tg/xiangzikaitg",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "지휘 센터 잡동사니 상자",
+		advice = 0,
+		tag = 1,
+		id = 336112,
+		icon = "xiangzikaitgicon",
+		comfortable = 1,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[336113] = {
+		can_rotate = 0,
+		describe = "오늘도 지휘 센터은 평화롭다쥬쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "순찰 만쥬",
+		advice = 0,
+		id = 336113,
+		tag = 1,
+		comfortable = 2,
+		icon = "xunluojiutgicon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xunluojiutg",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[336114] = {
+		can_rotate = 0,
+		describe = "삐—— 삐—— 쥬쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "지휘 센터 스피커",
+		advice = 0,
+		id = 336114,
+		tag = 1,
+		comfortable = 1,
+		icon = "yinxiangtgicon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yinxiangtg",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[336115] = {
+		advice = 0,
+		name = "지휘 센터 스캐너",
+		count = 1,
+		type = 2,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "saomiaoyitgicon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 136,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		id = 336115,
+		comfortable = 4,
+		describe = "멀티 스펙트럼 스캔과 실시간 3D 렌더링 지원. 신원 특정이나 장비 분석 등에 이용 가능하다.",
+		dorm_id = 0,
+		tag = 7,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			7,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"saomiaoyitgB",
+				"normal"
+			},
+			{
+				"saomiaoyitgT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[336301] = {
+		can_rotate = 1,
+		describe = "감시 영상을 실시간으로 투영하여, 전체 동향을 한눈에 파악할 수 있다.",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 3,
+		canputon = 0,
+		count = 1,
+		name = "지휘 센터 모니터",
+		advice = 0,
+		id = 336301,
+		tag = 5,
+		comfortable = 4,
+		icon = "dapingtgicon",
+		size = {
+			18,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"dapingtg",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[336302] = {
+		can_rotate = 1,
+		describe = "용의자 목록 업데이트 완료! 즉시 체포령을 발령한다!",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 136,
+		spine_extra = "",
+		level = 5,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 4,
+		canputon = 0,
+		count = 1,
+		name = "지휘 센터 지명수배서",
+		advice = 0,
+		id = 336302,
+		tag = 5,
+		comfortable = 3,
+		icon = "tongjilingtgicon",
+		size = {
+			10,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tongjilingtg",
 				"normal"
 			}
 		},

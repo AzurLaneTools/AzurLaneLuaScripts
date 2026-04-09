@@ -52002,6 +52002,495 @@ pg.activity_template = {
 			}
 		}
 	},
+	[50481] = {
+		mark = 20260326,
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 1,
+		title_res_tag = "YunLongSPCoreActivity_subtitle_1",
+		id = 50481,
+		page_core = "YunLongSPCoreActivityUI",
+		config_data = {
+			2010001,
+			2010002,
+			2010003,
+			2010021,
+			2010022,
+			2010023,
+			2010041
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					4,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "YunLongSPMainPage",
+			ui_name = "YunLongSPMainPage"
+		},
+		config_client = {
+			PTID = 643,
+			shopItemID = 71317,
+			task_id = 25333,
+			entrance_bg = "activitybanner/temp10",
+			order = 1,
+			storys = {
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176
+			}
+		}
+	},
+	[50482] = {
+		mark = 20260326,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50482,
+		page_core = "",
+		config_data = {
+			21914,
+			21915,
+			21916,
+			21917,
+			21918,
+			21919,
+			21920,
+			21921,
+			21922,
+			21923
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					4,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50483] = {
+		mark = 20260326,
+		type = 74,
+		login_pop = 0,
+		config_id = 50483,
+		is_show = 2,
+		title_res_tag = "YunLongSPCoreActivity_subtitle_2",
+		id = 50483,
+		page_core = "YunLongSPCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					4,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "YunLongSPPtPage",
+			ui_name = "YunLongSPPtPage"
+		},
+		config_client = {
+			shopLinkActID = 50486,
+			highValueItemSort = {
+				13,
+				21,
+				23,
+				25,
+				28
+			}
+		}
+	},
+	[50484] = {
+		mark = 20260326,
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50484,
+		page_core = "",
+		config_data = {
+			{
+				31924,
+				100
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					4,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50485] = {
+		mark = 20260326,
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 643,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		title_res_tag = "",
+		id = 50485,
+		page_core = "",
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					4,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50486] = {
+		mark = 20260326,
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 50486,
+		page_core = "",
+		config_data = {
+			3856,
+			3857,
+			3858,
+			3859,
+			3860,
+			3861,
+			3862,
+			3863,
+			3864,
+			3865,
+			3866,
+			3867,
+			3868,
+			3869,
+			3870,
+			3871,
+			3872,
+			3873,
+			3874,
+			3875,
+			3876,
+			3877,
+			3878,
+			3879,
+			3880,
+			3881,
+			3882
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					4,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_helanSP",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			pt_id = 643,
+			use_secretary = false,
+			painting = "yunlong_pt"
+		}
+	},
+	[50487] = {
+		mark = 20250424,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50487,
+		page_core = "",
+		config_data = {
+			25318,
+			25319,
+			25320,
+			25321,
+			25322,
+			25323,
+			25324,
+			25325,
+			25326,
+			25327,
+			25328,
+			25329,
+			25330,
+			25331,
+			25333
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					4,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
+	[50489] = {
+		mark = 20260326,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50489,
+		page_core = "",
+		config_data = {
+			25332
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					4,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50491] = {
+		mark = 20260326,
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		title_res_tag = "",
+		id = 50491,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					4,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		config_client = {
+			id = 4,
+			bg = "loadingbg/bg_build_4_act",
+			buildship_tip = "「운류」, 「나요로」, 「랭동타블」의 등장 확률 UP! ",
+			rate_tip = {
+				"<color=#ffde38>SSR</color>: 7%",
+				"<color=#d797ff>SR</color>: 12%",
+				"<color=#3dc6ff>R</color>: 51%",
+				"노멀: 30%",
+				"<color=#ffde38>운류</color>: 2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>랭동타블</color>: 2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#d797ff>나요로</color>: 2.5%<color=#92FC63>(up!)</color>"
+			}
+		}
+	},
 	[50492] = {
 		mark = 20260326,
 		page_info = "",
@@ -52652,7 +53141,8 @@ pg.activity_template = {
 			50350,
 			50381,
 			50433,
-			50467
+			50467,
+			50491
 		},
 		{
 			2,
@@ -53049,6 +53539,9 @@ pg.activity_template = {
 			50448,
 			50465,
 			50478,
+			50482,
+			50487,
+			50489,
 			100001,
 			980001
 		},
@@ -53153,6 +53646,7 @@ pg.activity_template = {
 			50429,
 			50463,
 			50477,
+			50483,
 			50502
 		},
 		[14] = {
@@ -53207,7 +53701,8 @@ pg.activity_template = {
 			50330,
 			50362,
 			50430,
-			50464
+			50464,
+			50486
 		},
 		[30] = {
 			4868,
@@ -53409,7 +53904,8 @@ pg.activity_template = {
 			50406,
 			50407,
 			50428,
-			50466
+			50466,
+			50484
 		},
 		[10] = {
 			4873,
@@ -53592,7 +54088,8 @@ pg.activity_template = {
 			50357,
 			50376,
 			50431,
-			50469
+			50469,
+			50485
 		},
 		[12] = {
 			4898,
@@ -53668,7 +54165,8 @@ pg.activity_template = {
 			50426,
 			50427,
 			50461,
-			50462
+			50462,
+			50481
 		},
 		[80] = {
 			4902,
@@ -55487,6 +55985,15 @@ pg.activity_template = {
 		50476,
 		50477,
 		50478,
+		50481,
+		50482,
+		50483,
+		50484,
+		50485,
+		50486,
+		50487,
+		50489,
+		50491,
 		50492,
 		50493,
 		50501,

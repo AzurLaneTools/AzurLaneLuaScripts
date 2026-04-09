@@ -42,6 +42,8 @@ slot0.execute = function(slot0, slot1)
 			pg.TipsMgr:GetInstance():ShowTips(i18n("friend_max_count"))
 		elseif slot0.result == 1 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("friend_sendFriendRequest_success"))
+		elseif slot0.result == 9 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("add_friend_fail_tip9"))
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("friend_sendFriendRequest", slot0.result))
 		end

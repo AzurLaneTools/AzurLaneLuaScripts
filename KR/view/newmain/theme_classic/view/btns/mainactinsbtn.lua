@@ -18,7 +18,7 @@ end
 
 slot0.OnInit = function(slot0)
 	slot0.animator = slot0._tf:Find("icon"):GetComponent(typeof(Animator))
-	slot1 = getProxy(InstagramProxy):ShouldShowTip() or getProxy(InstagramChatProxy):ShouldShowTip()
+	slot1 = getProxy(InstagramProxy):ShouldShowTip() or getProxy(InstagramChatProxy):ShouldShowTip() or getProxy(InstagramProxy):ShouldShowTip()
 	slot0.animator.enabled = slot1
 
 	setActive(slot0._tf:Find("Tip"), slot1)

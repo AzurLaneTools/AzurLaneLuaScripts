@@ -16377,7 +16377,7 @@ _G.pg.base.item_data_statistics[21059] = {
 	open_directly = 0,
 	name = "결정: 쾰른·META",
 	type = 4,
-	display = "쾰른·META의 능력을 상승시키는 아이템. 메타랩의 한계 돌파에 사용 가능",
+	display = "쾰른·META의 능력을 상승시키는 아이템. META 연구실의 한계돌파에서 사용 가능",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
@@ -29182,6 +29182,131 @@ _G.pg.base.item_data_statistics[30381] = {
 }
 
 
+_G.pg.base.item_data_statistics[30382] = {
+	open_directly = 1,
+	name = "장비스킨 상자 (나이트 에이전트)",
+	type = 11,
+	display = "랜덤으로 장비스킨 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxnihongtegong",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30379",
+	id = 30382,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4330,
+			1
+		},
+		{
+			9,
+			4331,
+			1
+		},
+		{
+			9,
+			4332,
+			1
+		},
+		{
+			9,
+			4333,
+			1
+		},
+		{
+			9,
+			4334,
+			1
+		},
+		{
+			9,
+			4335,
+			1
+		},
+		{
+			9,
+			4336,
+			1
+		},
+		{
+			9,
+			4337,
+			1
+		},
+		{
+			9,
+			4338,
+			1
+		},
+		{
+			9,
+			4339,
+			1
+		},
+		{
+			9,
+			4340,
+			1
+		},
+		{
+			9,
+			4341,
+			1
+		},
+		{
+			9,
+			4342,
+			1
+		},
+		{
+			9,
+			4343,
+			1
+		},
+		{
+			9,
+			4344,
+			1
+		},
+		{
+			9,
+			4345,
+			1
+		},
+		{
+			9,
+			4346,
+			1
+		},
+		{
+			9,
+			4347,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "장비스킨 상자(월드 투어)",
@@ -30920,9 +31045,9 @@ _G.pg.base.item_data_statistics[30433] = {
 
 _G.pg.base.item_data_statistics[30434] = {
 	open_directly = 1,
-	name = "랜덤 장비 스킨",
+	name = "랜덤 장비스킨(월드 투어)",
 	type = 11,
-	display = "특허 투어 보상 장비 스킨을 무작위로 1개 획득 가능",
+	display = "월드 투어 보상 장비스킨을 랜덤으로 하나 획득 가능",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -44565,6 +44690,219 @@ _G.pg.base.item_data_statistics[30565] = {
 		{
 			9,
 			4329,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30566] = {
+	open_directly = 0,
+	name = "선택 장비스킨 상자 (나이트 에이전트)",
+	type = 13,
+	display = "사용하면 장비스킨(나이트 에이전트) 중 하나를 선택해서 획득할 수 있습니다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxnihongtegongzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30566,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4330,
+			1
+		},
+		{
+			9,
+			4331,
+			1
+		},
+		{
+			9,
+			4332,
+			1
+		},
+		{
+			9,
+			4333,
+			1
+		},
+		{
+			9,
+			4334,
+			1
+		},
+		{
+			9,
+			4335,
+			1
+		},
+		{
+			9,
+			4336,
+			1
+		},
+		{
+			9,
+			4337,
+			1
+		},
+		{
+			9,
+			4338,
+			1
+		},
+		{
+			9,
+			4339,
+			1
+		},
+		{
+			9,
+			4340,
+			1
+		},
+		{
+			9,
+			4341,
+			1
+		},
+		{
+			9,
+			4342,
+			1
+		},
+		{
+			9,
+			4343,
+			1
+		},
+		{
+			9,
+			4344,
+			1
+		},
+		{
+			9,
+			4345,
+			1
+		},
+		{
+			9,
+			4346,
+			1
+		},
+		{
+			9,
+			4347,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4330,
+			1
+		},
+		{
+			9,
+			4331,
+			1
+		},
+		{
+			9,
+			4332,
+			1
+		},
+		{
+			9,
+			4333,
+			1
+		},
+		{
+			9,
+			4334,
+			1
+		},
+		{
+			9,
+			4335,
+			1
+		},
+		{
+			9,
+			4336,
+			1
+		},
+		{
+			9,
+			4337,
+			1
+		},
+		{
+			9,
+			4338,
+			1
+		},
+		{
+			9,
+			4339,
+			1
+		},
+		{
+			9,
+			4340,
+			1
+		},
+		{
+			9,
+			4341,
+			1
+		},
+		{
+			9,
+			4342,
+			1
+		},
+		{
+			9,
+			4343,
+			1
+		},
+		{
+			9,
+			4344,
+			1
+		},
+		{
+			9,
+			4345,
+			1
+		},
+		{
+			9,
+			4346,
+			1
+		},
+		{
+			9,
+			4347,
 			1
 		}
 	},
@@ -106167,6 +106505,114 @@ _G.pg.base.item_data_statistics[68162] = {
 	combination_display = {},
 	usage_arg = {
 		90407
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68232] = {
+	open_directly = 0,
+	name = "换装体验券(溶于重重夜色)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>{namecode:209}</color>换装<color=#92fc63FF>溶于重重夜色</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年4月1日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68232,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90453
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68233] = {
+	open_directly = 0,
+	name = "换装体验券(Electric Affection)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>{namecode:311}</color>换装<color=#92fc63FF>Electric Affection</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年4月1日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68233,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90454
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68234] = {
+	open_directly = 0,
+	name = "换装体验券(偷心怪盗)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>{namecode:69}</color>换装<color=#92fc63FF>偷心怪盗</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年4月1日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68234,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90455
 	},
 	limit = {}
 }

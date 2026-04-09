@@ -27900,9 +27900,9 @@ pg.child2_benefit = {
 		condition = {},
 		effect = {
 			{
-				2,
+				1,
 				{
-					1,
+					2,
 					301,
 					-60
 				}

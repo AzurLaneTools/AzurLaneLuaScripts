@@ -1927,5 +1927,9 @@ pg.voice_actor_CN = {
 	[501] = {
 		actor_name = "요시다 유리",
 		code = 501
+	},
+	[502] = {
+		actor_name = "노무라 카나코",
+		code = 502
 	}
 }

@@ -1925,6 +1925,20 @@ pg.name_code = {
 		code = "후지나미",
 		nation = 0
 	},
+	[311] = {
+		name = "나요로",
+		type = 1,
+		id = 311,
+		code = "나요로",
+		nation = 0
+	},
+	[312] = {
+		name = "키즈",
+		type = 1,
+		id = 312,
+		code = "키즈",
+		nation = 0
+	},
 	[400] = {
 		name = "Z1",
 		type = 1,
@@ -2994,6 +3008,13 @@ pg.name_code = {
 		type = 1,
 		id = 552,
 		code = "레겐스부르크·META",
+		nation = 0
+	},
+	[553] = {
+		name = "쾰른·META",
+		type = 1,
+		id = 553,
+		code = "쾰른·META",
 		nation = 0
 	},
 	[10000] = {

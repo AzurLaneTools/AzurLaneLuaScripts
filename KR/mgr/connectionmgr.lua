@@ -141,6 +141,8 @@ slot1.Reconnect = function(slot0, slot1)
 					if nowWorld() and slot1.type ~= World.TypeBase then
 						WorldConst.ReqWorldForServer()
 					end
+
+					NewEducateHelper.ReqDataForServer()
 				elseif uv5.needStartSend then
 					uv5.needStartSend = false
 

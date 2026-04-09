@@ -4017,6 +4017,23 @@ pg.memory_template = setmetatable({
 		5061,
 		5062,
 		5063,
+		5041,
+		5042,
+		5043,
+		5044,
+		5045,
+		5046,
+		5047,
+		5048,
+		5049,
+		5050,
+		5051,
+		5052,
+		5053,
+		5054,
+		5055,
+		5056,
+		5057,
 		10000,
 		10001,
 		10002,
@@ -64535,6 +64552,261 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"1360007"
+		}
+	},
+	[5041] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "서막: 모든 것은 추락으로부터",
+		condition = "VR-0 시작",
+		story = "MANYOUZHEZHAOMUJIHUA1",
+		id = 5041,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA1"
+		}
+	},
+	[5042] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "야음영의",
+		condition = "VR-1 시작",
+		story = "MANYOUZHEZHAOMUJIHUA2",
+		id = 5042,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA2"
+		}
+	},
+	[5043] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "역류",
+		condition = "VR-2 시작",
+		story = "MANYOUZHEZHAOMUJIHUA3",
+		id = 5043,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA3"
+		}
+	},
+	[5044] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "실효된 역할",
+		condition = "VR-3 시작",
+		story = "MANYOUZHEZHAOMUJIHUA4",
+		id = 5044,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA4"
+		}
+	},
+	[5045] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "위장과 사고",
+		condition = "VR-4 시작",
+		story = "MANYOUZHEZHAOMUJIHUA5",
+		id = 5045,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA5"
+		}
+	},
+	[5046] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "하늘을 가르는 결의",
+		condition = "VR-5 시작",
+		story = "MANYOUZHEZHAOMUJIHUA6",
+		id = 5046,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA6"
+		}
+	},
+	[5047] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "서툰 괴도와 붉은 실의 감옥",
+		condition = "VR-6 시작",
+		story = "MANYOUZHEZHAOMUJIHUA7",
+		id = 5047,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA7"
+		}
+	},
+	[5048] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "신뢰의 행방",
+		condition = "VR-7 시작",
+		story = "MANYOUZHEZHAOMUJIHUA8",
+		id = 5048,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA8"
+		}
+	},
+	[5049] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "실수투성이 요원",
+		condition = "VR-8 시작",
+		story = "MANYOUZHEZHAOMUJIHUA9",
+		id = 5049,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA9"
+		}
+	},
+	[5050] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "운명의 갈림길",
+		condition = "VR-9 시작",
+		story = "MANYOUZHEZHAOMUJIHUA10",
+		id = 5050,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA10"
+		}
+	},
+	[5051] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "END1: 시작이자 끝",
+		condition = "「유람자 모집 계획」 엔딩 오픈",
+		story = "MANYOUZHEZHAOMUJIHUA11",
+		id = 5051,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA11"
+		}
+	},
+	[5052] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "END2: 프로토콜 제로",
+		condition = "「유람자 모집 계획」 엔딩 오픈",
+		story = "MANYOUZHEZHAOMUJIHUA12",
+		id = 5052,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA12"
+		}
+	},
+	[5053] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "END3: 끝나지 않는 집착",
+		condition = "「유람자 모집 계획」 엔딩 오픈",
+		story = "MANYOUZHEZHAOMUJIHUA13",
+		id = 5053,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA13"
+		}
+	},
+	[5054] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "END4: 자유를 향한 외침",
+		condition = "「유람자 모집 계획」 엔딩 오픈",
+		story = "MANYOUZHEZHAOMUJIHUA14",
+		id = 5054,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA14"
+		}
+	},
+	[5055] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "END5: 소리 없는 배신",
+		condition = "「유람자 모집 계획」 엔딩 오픈",
+		story = "MANYOUZHEZHAOMUJIHUA15",
+		id = 5055,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA15"
+		}
+	},
+	[5056] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "END6: 감미로운 포위망",
+		condition = "「유람자 모집 계획」 엔딩 오픈",
+		story = "MANYOUZHEZHAOMUJIHUA16",
+		id = 5056,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA16"
+		}
+	},
+	[5057] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "불완전한 집결",
+		condition = "「유람자 모집 계획」 엔딩 오픈",
+		story = "MANYOUZHEZHAOMUJIHUA17",
+		id = 5057,
+		icon = "memory_manyouzhezhaomujihua",
+		is_open = 0,
+		unlock_pre = {
+			"MANYOUZHEZHAOMUJIHUA17"
 		}
 	},
 	[10000] = {

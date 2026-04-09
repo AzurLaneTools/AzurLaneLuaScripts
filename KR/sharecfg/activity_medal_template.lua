@@ -1428,6 +1428,102 @@ pg.activity_medal_template = {
 		id = 5044108,
 		medal_asset = "ActivityMedal/5044108"
 	},
+	[5048201] = {
+		activity_medal_desc = "네온사인이 빛나는 도시는 잠들지 않는다.",
+		next_medal = 0,
+		item = 65876,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "1",
+		task_id = 21915,
+		activity_medal_name = "스티커: 네온 시티",
+		id = 5048201,
+		medal_asset = "ActivityMedal/5048201"
+	},
+	[5048202] = {
+		activity_medal_desc = "Catch 'er By Surprise!",
+		next_medal = 0,
+		item = 65877,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "2",
+		task_id = 21916,
+		activity_medal_name = "스티커: 탈출",
+		id = 5048202,
+		medal_asset = "ActivityMedal/5048202"
+	},
+	[5048203] = {
+		activity_medal_desc = "방대한 데이터를 실시간으로 분석한다.",
+		next_medal = 0,
+		item = 65878,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "3",
+		task_id = 21917,
+		activity_medal_name = "스티커: 프로젝션",
+		id = 5048203,
+		medal_asset = "ActivityMedal/5048203"
+	},
+	[5048204] = {
+		activity_medal_desc = "묶여있는 것처럼 위장한 다음에…… 어라? 안 풀리잖아……! ?",
+		next_medal = 0,
+		item = 65879,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "4",
+		task_id = 21918,
+		activity_medal_name = "스티커: 셀프 포박",
+		id = 5048204,
+		medal_asset = "ActivityMedal/5048204"
+	},
+	[5048205] = {
+		activity_medal_desc = "네 정체는 이미 탄로났다. 더는 도망칠 수 없어!",
+		next_medal = 0,
+		item = 65880,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "5",
+		task_id = 21919,
+		activity_medal_name = "스티커: 전 지역 지명 수배",
+		id = 5048205,
+		medal_asset = "ActivityMedal/5048205"
+	},
+	[5048206] = {
+		activity_medal_desc = "못 잡으면…… 보물은 내 것이야.",
+		next_medal = 0,
+		item = 65881,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "6",
+		task_id = 21920,
+		activity_medal_name = "스티커: 예고장",
+		id = 5048206,
+		medal_asset = "ActivityMedal/5048206"
+	},
+	[5048207] = {
+		activity_medal_desc = "헤드폰을 쓰고 나만의 세상으로 다이빙",
+		next_medal = 0,
+		item = 65882,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "7",
+		task_id = 21921,
+		activity_medal_name = "스티커: 딥 타입",
+		id = 5048207,
+		medal_asset = "ActivityMedal/5048207"
+	},
+	[5048208] = {
+		activity_medal_desc = "유람자들이여, 모여라!",
+		next_medal = 0,
+		item = 65883,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "8",
+		task_id = 21922,
+		activity_medal_name = "스티커: 엠블럼",
+		id = 5048208,
+		medal_asset = "ActivityMedal/5048208"
+	},
 	get_id_list_by_group = {
 		[5711] = {
 			571101,
@@ -1577,6 +1673,16 @@ pg.activity_medal_template = {
 			5044106,
 			5044107,
 			5044108
+		},
+		[50482] = {
+			5048201,
+			5048202,
+			5048203,
+			5048204,
+			5048205,
+			5048206,
+			5048207,
+			5048208
 		}
 	},
 	all = {
@@ -1698,6 +1804,14 @@ pg.activity_medal_template = {
 		5044105,
 		5044106,
 		5044107,
-		5044108
+		5044108,
+		5048201,
+		5048202,
+		5048203,
+		5048204,
+		5048205,
+		5048206,
+		5048207,
+		5048208
 	}
 }

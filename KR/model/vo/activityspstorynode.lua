@@ -87,6 +87,18 @@ slot0.GetCleanAnimator = function(slot0)
 	return slot1
 end
 
+slot0.IsRecrew = function(slot0)
+	if type(slot0:getConfig("label_key")) ~= "table" then
+		return nil
+	end
+
+	if not PlayerPrefs.HasKey(StoryStep.GetGlobalFlagKey(slot1.flagID) .. slot1.flagIndex) then
+		return false
+	end
+
+	return PlayerPrefs.GetInt(slot2) > 0
+end
+
 slot0.GetOptionBranchByStoryName = function(slot0, slot1)
 	slot3 = nil
 

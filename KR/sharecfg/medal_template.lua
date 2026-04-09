@@ -2741,6 +2741,27 @@ pg.medal_template = {
 		explain1 = "「봄빛 여관 Online」",
 		explain2 = "이벤트"
 	},
+	[200151] = {
+		target_id = "50482",
+		name = "도시 유람 기념 훈장",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "머리 위로 빛나는 네온보드와 발아래로 흐르는 무지갯빛 길. 불야성의 거리를 걷는 유람자의 영혼으로 느끼는 도시의 비트와 노트.\n——웰컴 투 쏜 시티!",
+		next = 0,
+		icon = "9151",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9151",
+		condition = "「유람자 모집 계획」 기념 스티커 8개 수집",
+		rank = 1,
+		id = 200151,
+		explain1 = "「유람자 모집 계획」",
+		explain2 = "이벤트"
+	},
 	all = {
 		10011,
 		10012,
@@ -2866,6 +2887,7 @@ pg.medal_template = {
 		200111,
 		200121,
 		200131,
-		200141
+		200141,
+		200151
 	}
 }

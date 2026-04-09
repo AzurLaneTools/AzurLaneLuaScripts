@@ -4,6 +4,14 @@ slot0.getUIName = function(slot0)
 	return "NewEducateSelectUI"
 end
 
+slot0.preload = function(slot0, slot1)
+	slot2 = pg.PerformMgr.GetInstance()
+
+	slot2:CheckLoad(function ()
+		uv0()
+	end)
+end
+
 slot0.init = function(slot0)
 	slot0.rootTF = slot0._tf:Find("root")
 	slot0.bgTF = slot0.rootTF:Find("bg")
