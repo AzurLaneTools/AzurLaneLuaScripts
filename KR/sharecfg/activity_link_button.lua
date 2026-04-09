@@ -396,7 +396,7 @@ pg.activity_link_button = {
 	},
 	[113] = {
 		param = "EighthAnniversaryJpCoreActivityUI",
-		name = "event_core",
+		name = "event_core_2",
 		text_pic = "text_event_special",
 		type = 16,
 		pic = "event_special",
@@ -491,11 +491,11 @@ pg.activity_link_button = {
 		},
 		event_core = {
 			109,
-			113,
 			114
 		},
 		event_core_2 = {
-			110
+			110,
+			113
 		},
 		event_map_2 = {
 			111
