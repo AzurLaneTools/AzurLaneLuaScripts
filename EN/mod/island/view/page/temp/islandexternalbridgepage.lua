@@ -16,12 +16,13 @@ slot0.OnHide = function(slot0)
 	slot0:RemoveSubLayers(slot0:GetContext())
 end
 
-slot0.AddSubLayers = function(slot0, slot1)
+slot0.AddSubLayers = function(slot0, slot1, slot2)
 	slot1.data = {
 		container = slot0._tf,
 		onClose = function ()
 			uv0:Hide()
-		end
+		end,
+		params = slot2
 	}
 
 	pg.m02:sendNotification(GAME.LOAD_LAYERS, {

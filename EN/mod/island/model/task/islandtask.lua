@@ -231,4 +231,16 @@ slot0.GetSubmitPlayInfo = function(slot0)
 	return slot1[1], slot1[2]
 end
 
+slot0.BuildFakeTask = function(slot0)
+	return uv0.New({
+		id = slot0,
+		process_list = _.map(pg.island_task[slot0].target_id, function (slot0)
+			return {
+				target_id = slot0,
+				target_count = pg.island_task_target[slot0].target_num
+			}
+		end)
+	})
+end
+
 return slot0

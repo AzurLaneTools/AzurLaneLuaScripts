@@ -1187,5 +1187,14 @@ pg.activity_const = {
 	},
 	LiquorFloor_ACT_ID = {
 		act_id = 50434
+	},
+	ISLAND_BAR_ACT_ID = {
+		act_id = 990013
+	},
+	ISLAND_BAR_SIGN_ACT_ID = {
+		act_id = 990014
+	},
+	ISLAND_BAR_TASK_ACT_ID = {
+		act_id = 990015
 	}
 }

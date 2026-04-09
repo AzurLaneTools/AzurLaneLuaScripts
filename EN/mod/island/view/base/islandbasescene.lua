@@ -147,7 +147,8 @@ slot0.onUILoaded = function(slot0, slot1)
 	slot5 = slot0
 	slot0.monitors = {
 		IslandPlayerDataMonitor.New(slot0:GetIsland()),
-		IslandSyncDataMonitor.New(slot0.GetIsland(slot5))
+		IslandSyncDataMonitor.New(slot0:GetIsland()),
+		IslandCheaterTavernMonitor.New(slot0.GetIsland(slot5))
 	}
 	slot0.poppingQueue = IslandPoppingQueue.New(slot0)
 
@@ -257,6 +258,14 @@ end
 
 slot0.ClosePage = function(slot0, slot1)
 	slot0.sceneMgr:ClosePage(slot1)
+end
+
+slot0.GetPage = function(slot0, slot1)
+	return slot0.sceneMgr:GetPage(slot1)
+end
+
+slot0.GetSubPage = function(slot0, slot1)
+	return slot0.sceneMgr:GetSubPage(slot1)
 end
 
 slot0.ShowToast = function(slot0, slot1)

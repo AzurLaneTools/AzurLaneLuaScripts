@@ -445,6 +445,15 @@ end
 slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.saveBtn, function ()
 		if not uv0:CheckDressIsDirty() then
+			if uv0.changeDressType then
+				pg.m02:sendNotification(GAME.ISLAND_CHEATER_CHANGE_VIEW_DRESSID, {
+					type = uv0.changeDressType,
+					game_type = PlayRoomTools.GetGameTypeID(),
+					ship_id = uv0.shipId
+				})
+				pg.m02:sendNotification(GAME.PLAY_ROOM_REFRESH_ROOM_INFO)
+			end
+
 			pg.TipsMgr.GetInstance():ShowTips(i18n("island_dress_save1"))
 
 			return
@@ -637,7 +646,8 @@ slot0.UpdateDressUpList = function(slot0)
 	end
 end
 
-slot0.OnShow = function(slot0, slot1, slot2, slot3, slot4)
+slot0.OnShow = function(slot0, slot1, slot2, slot3, slot4, slot5)
+	slot0.changeDressType = slot5
 	slot0.SmoothFunc = slot4
 	slot0.isFirstDressUp = slot2
 
@@ -648,8 +658,8 @@ slot0.OnShow = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.shipDressHelper = slot3
 	slot0.island = getProxy(IslandProxy):GetIsland()
 	slot0.characterAgency = slot0.island:GetCharacterAgency()
-	slot5 = slot0.island
-	slot0.dressUpAgency = slot5:GetDressUpAgency()
+	slot6 = slot0.island
+	slot0.dressUpAgency = slot6:GetDressUpAgency()
 	slot0.shipId = slot1
 	slot0.indexData = {
 		order = 1,
@@ -669,6 +679,16 @@ slot0.OnShow = function(slot0, slot1, slot2, slot3, slot4)
 	else
 		setActive(slot0.toggles[4], true)
 		triggerToggle(slot0.toggles[4], true)
+	end
+
+	if slot0.changeDressType then
+		for slot9, slot10 in ipairs(pg.gameset.bar_not_display_dress_type.description) do
+			for slot14, slot15 in pairs(uv1) do
+				if slot15 == slot10 then
+					setActive(slot0.toggles[slot14], false)
+				end
+			end
+		end
 	end
 
 	setActive(slot0.toggles[1], slot1 == 0)
@@ -920,6 +940,14 @@ slot0.SaveDressUpData = function(slot0, slot1)
 				skin_id = uv2.curSkinId,
 				color_id = uv2.curskinColorId
 			})
+
+			if uv2.changeDressType then
+				pg.m02:sendNotification(GAME.ISLAND_CHEATER_CHANGE_VIEW_DRESSID, {
+					type = uv2.changeDressType,
+					game_type = PlayRoomTools.GetGameTypeID(),
+					ship_id = uv2.shipId
+				})
+			end
 		end
 
 		if #slot4 == 0 then

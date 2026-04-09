@@ -5,7 +5,7 @@ slot0.Init = function(slot0)
 	slot0.mapId = slot0.sceneData.mapId
 end
 
-slot0.SetUp = function(slot0)
+slot0.SystemCtor = function(slot0)
 	slot0.strollAllocator = IslandStrollAllocator.New(slot0)
 	slot0.visibilityAllocator = IslandVisibilityAllocator.New(slot0)
 	slot0.giftAllocator = IslandGiftAllocator.New(slot0)
@@ -13,6 +13,10 @@ slot0.SetUp = function(slot0)
 	slot0.timeDelayCreate = IslandDelayCreationSystem.New(slot0)
 	slot0.playerInputManager = PlayerInputManager.New(slot0)
 	slot0.islandSyncMgr = IslandSyncMgr.New(slot0)
+end
+
+slot0.SetUp = function(slot0)
+	slot0:SystemCtor()
 
 	for slot4, slot5 in ipairs(slot0.sceneData.unitList) do
 		if slot0.visibilityAllocator:IsVisible(slot5.id) then
@@ -145,6 +149,7 @@ slot0.AddListeners = function(slot0)
 	slot0:AddIslandListener(IslandProxy.RELEASE_NPC_REFRESH, slot0.OnReleaseNpcRefresh)
 	slot0:AddIslandListener(IslandProxy.RESET_SP, slot0.OnResetSp)
 	slot0:AddIslandListener(IslandFishingAgency.BAIT_UPDATE, slot0.OnBaitUpdate)
+	slot0:AddIslandListener(ISLAND_EVT.SWITCH_MAP, slot0.OnSwitchMap)
 end
 
 slot0.RemoveListeners = function(slot0)
@@ -196,6 +201,7 @@ slot0.RemoveListeners = function(slot0)
 	slot0:RemoveIslandListener(IslandProxy.RELEASE_NPC_REFRESH, slot0.OnReleaseNpcRefresh)
 	slot0:RemoveIslandListener(IslandProxy.RESET_SP, slot0.OnResetSp)
 	slot0:RemoveIslandListener(IslandFishingAgency.BAIT_UPDATE, slot0.OnBaitUpdate)
+	slot0:RemoveIslandListener(ISLAND_EVT.SWITCH_MAP, slot0.OnSwitchMap)
 end
 
 slot0.OnBaitUpdate = function(slot0, slot1)
@@ -932,7 +938,6 @@ end
 
 slot0.InitSyncMgr = function(slot0)
 	slot0.islandSyncMgr:Init(slot0.sceneData.unitList)
-	slot0:NotifiyCore(ISLAND_EVT.INIT_INTERACTION_OP_VIEW)
 end
 
 slot0.SetVisitorSyncData = function(slot0, slot1, slot2)
@@ -1076,6 +1081,12 @@ slot0.OnCloseRestaurant = function(slot0, slot1)
 
 	for slot9, slot10 in ipairs(slot4:GetUnits(slot3)) do
 		slot0:NotifiyCore(ISLAND_EVT.RMOVE_UNIT, IslandConst.UNIT_LIST_MANAGE, slot10.id)
+	end
+end
+
+slot0.OnSwitchMap = function(slot0)
+	if slot0.islandSyncMgr and slot0.islandSyncMgr:IsPlayerInTimeline() then
+		slot0:NotifiyCore(ISLAND_EVT.INIT_INTERACTION_OP_VIEW)
 	end
 end
 

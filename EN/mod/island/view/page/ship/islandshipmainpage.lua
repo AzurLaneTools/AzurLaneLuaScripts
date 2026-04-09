@@ -132,7 +132,7 @@ slot0.OnInit = function(slot0)
 	end, SFX_PANEL)
 
 	slot4 = function()
-		uv0:OpenPage(IslandDockPage)
+		uv0:OpenPage(IslandDockPage, uv0:GetNeedHideUnlockShipFlag())
 		uv0:SetVisible(uv0.leftPanel, false)
 	end
 
@@ -190,6 +190,7 @@ end
 slot0.Show = function(slot0)
 	uv0.super.Show(slot0)
 	slot0:Flush()
+	setActive(slot0.togglePanel, true)
 end
 
 slot0.Flush = function(slot0)
@@ -386,6 +387,10 @@ slot0.SetObjInitRotaion = function(slot0, slot1)
 	end, 0.5, 1)
 
 	slot0.timer:Start()
+end
+
+slot0.GetNeedHideUnlockShipFlag = function(slot0)
+	return false
 end
 
 return slot0

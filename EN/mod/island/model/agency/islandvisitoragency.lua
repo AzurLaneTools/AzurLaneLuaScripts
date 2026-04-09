@@ -17,16 +17,6 @@ slot0.GetPlayerList = function(slot0)
 	return slot0.playerList
 end
 
-slot0.GetPlayer = function(slot0)
-	for slot4, slot5 in pairs(slot0.playerList) do
-		if slot5:IsSelf() then
-			return slot5
-		end
-	end
-
-	return nil
-end
-
 slot0.DeletePlayer = function(slot0, slot1)
 	slot0.playerList[slot1] = nil
 

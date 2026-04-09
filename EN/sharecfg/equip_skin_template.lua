@@ -58855,6 +58855,65 @@ pg.equip_skin_template = {
 			"wash"
 		}
 	},
+	[3001] = {
+		hit_sfx = "",
+		bullet_name = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "99141",
+		name = "Observer's Touch",
+		desc = "In commemoration of Observer's first-place ranking in the 2025 Special Vote.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 3001,
+		themeid = 199,
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "shebei_chushou",
+		orbit_slg = "",
+		orbit_ui = "shebei_chushouui",
+		miss_sfx = "",
+		orbit_rotate = false,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 1,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		double_char_bone = {
+			1,
+			0,
+			1
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				-0.23,
+				-1.5,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				0,
+				82
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
 	[3002] = {
 		hit_sfx = "",
 		bullet_name = "",
@@ -60958,6 +61017,106 @@ pg.equip_skin_template = {
 			"wash"
 		}
 	},
+	[3070] = {
+		hit_sfx = "",
+		bullet_name = "zidan_caisefenbi",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "99189",
+		name = "Colorful Crayon Shell",
+		desc = "In commemoration of Little Prinz Eugen's first-place ranking in the 2025 Special Vote.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 3070,
+		themeid = 199,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[3076] = {
+		hit_sfx = "",
+		bullet_name = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "99195",
+		name = "Lycoris Dance Fan",
+		desc = "In commemoration of Taihou META's first-place ranking in the 2025 Special Vote.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 3076,
+		themeid = 199,
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "shebei_bianhuazheshan",
+		orbit_slg = "",
+		orbit_ui = "shebei_bianhuazheshanui",
+		miss_sfx = "",
+		orbit_rotate = false,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 1,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		double_char_bone = {
+			1,
+			0,
+			1
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				-0.23,
+				-2.31,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				2,
+				32
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
 	all = {
 		1,
 		2,
@@ -62416,6 +62575,7 @@ pg.equip_skin_template = {
 		2118,
 		2119,
 		2120,
+		3001,
 		3002,
 		3004,
 		3005,
@@ -62461,6 +62621,8 @@ pg.equip_skin_template = {
 		3066,
 		3067,
 		3068,
-		3069
+		3069,
+		3070,
+		3076
 	}
 }

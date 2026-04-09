@@ -577,6 +577,7 @@ pg.expedition_data_by_map = setmetatable({
 		2200130,
 		2200140,
 		2200141,
+		2200150,
 		9920001,
 		9920002,
 		9920011,
@@ -33530,6 +33531,56 @@ pg.base.expedition_data_by_map = {
 		story_inactive_color = "",
 		ui_type = 1,
 		bg = "Map_1760002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2200150] = {
+		map = 2200150,
+		name = "Operation Convergence|| ||CHAPTER EX||E.X.",
+		bgm = "story-6",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "YUANHUIDIANZUOZHAN1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1670001",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1670001",
 		story_id = "",
 		chapterGroups = "",
 		destory_icon_suffix = "blue",

@@ -17,7 +17,9 @@ pg.island_card_diy = setmetatable({
 		4013,
 		4014,
 		4015,
-		4016
+		4016,
+		4017,
+		4018
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -164,12 +166,12 @@ pg.base.island_card_diy = {
 	},
 	[4015] = {
 		resource = "islandphoto/4015",
-		name = "Taskhent Model",
+		name = "Tashkent Model",
 		type = 4,
 		id = 4015,
 		icon = "islandprops/morensuipian",
 		tech_id = 0,
-		desc = "Taskhent Model",
+		desc = "Tashkent Model",
 		jump_page = {}
 	},
 	[4016] = {
@@ -181,5 +183,35 @@ pg.base.island_card_diy = {
 		tech_id = 0,
 		desc = "Le Malin Model",
 		jump_page = {}
+	},
+	[4017] = {
+		resource = "islandphoto/4017",
+		name = "Elite Simulationist",
+		type = 4,
+		id = 4017,
+		icon = "islandprops/card_4017",
+		tech_id = 0,
+		desc = "A title awarded to the rising stars of Tactical Simulation.",
+		jump_page = {
+			{
+				"Season - Tactical Simulation",
+				{}
+			}
+		}
+	},
+	[4018] = {
+		resource = "islandphoto/4018",
+		name = "Ace Simulationist",
+		type = 4,
+		id = 4018,
+		icon = "islandprops/card_4018",
+		tech_id = 0,
+		desc = "A title awarded to the masters of Tactical Simulation.",
+		jump_page = {
+			{
+				"Season - Tactical Simulation",
+				{}
+			}
+		}
 	}
 }

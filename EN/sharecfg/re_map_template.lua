@@ -2624,6 +2624,53 @@ pg.re_map_template = {
 			}
 		}
 	},
+	[46] = {
+		id = 46,
+		name = "远汇点作战常驻复刻",
+		bg = "temp_bulunxierde",
+		memory_group = 224,
+		activity_type = 2,
+		order = 46,
+		config_data = {
+			2200151,
+			2200152,
+			2200153,
+			2200154
+		},
+		chapter_progress = {
+			25,
+			50,
+			75,
+			100
+		},
+		drop_gain = {
+			{
+				2200154,
+				4,
+				403021,
+				60
+			},
+			{}
+		},
+		drop_display_sp = {
+			{
+				{
+					4,
+					403021
+				},
+				"SP4"
+			}
+		},
+		drop_display = {
+			{
+				{
+					2,
+					11026
+				},
+				"SP4"
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2668,6 +2715,7 @@ pg.re_map_template = {
 		42,
 		43,
 		44,
-		45
+		45,
+		46
 	}
 }

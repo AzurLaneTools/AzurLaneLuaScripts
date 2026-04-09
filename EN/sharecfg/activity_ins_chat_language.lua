@@ -8947,7 +8947,91 @@ pg.activity_ins_chat_language = setmetatable({
 		8944,
 		8945,
 		8946,
-		8947
+		8947,
+		8948,
+		8949,
+		8950,
+		8951,
+		8952,
+		8953,
+		8954,
+		8955,
+		8956,
+		8957,
+		8958,
+		8959,
+		8960,
+		8961,
+		8962,
+		8963,
+		8964,
+		8965,
+		8966,
+		8967,
+		8968,
+		8969,
+		8970,
+		8971,
+		8972,
+		8973,
+		8974,
+		8975,
+		8976,
+		8977,
+		8978,
+		8979,
+		8980,
+		8981,
+		8982,
+		8983,
+		8984,
+		8985,
+		8986,
+		8987,
+		8988,
+		8989,
+		8990,
+		8991,
+		8992,
+		8993,
+		8994,
+		8995,
+		8996,
+		8997,
+		8998,
+		8999,
+		9000,
+		9001,
+		9002,
+		9003,
+		9004,
+		9005,
+		9006,
+		9007,
+		9008,
+		9009,
+		9010,
+		9011,
+		9012,
+		9013,
+		9014,
+		9015,
+		9016,
+		9017,
+		9018,
+		9019,
+		9020,
+		9021,
+		9022,
+		9023,
+		9024,
+		9025,
+		9026,
+		9027,
+		9028,
+		9029,
+		9030,
+		9031
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -88073,6 +88157,731 @@ pg.base.activity_ins_chat_language = {
 		option = "",
 		type = 1,
 		id = 8947,
+		flag = 2
+	},
+	[8948] = {
+		param = "As your personal maid, I request permission to conduct a survey of your preferences.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8948,
+		flag = 0
+	},
+	[8949] = {
+		param = "This will ensure the continued improvement of my services to you.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8949,
+		flag = 0
+	},
+	[8950] = {
+		param = "The rules are simple. Once I ask a question, you have three seconds to come up with an answer.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8950,
+		flag = 0
+	},
+	[8951] = {
+		param = "Overthinking is forbidden. You must be honest.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8951,
+		flag = 0
+	},
+	[8952] = {
+		param = "For the sake of fairness, I would like you to ask the first question.",
+		ship_group = 20313,
+		type = 1,
+		id = 8952,
+		flag = 0,
+		option = {
+			{
+				1,
+				"What mode are you in right now?"
+			}
+		}
+	},
+	[8953] = {
+		param = "What mode are you in right now?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8953,
+		flag = 1
+	},
+	[8954] = {
+		param = "Three, two, one... Ding!",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8954,
+		flag = 1
+	},
+	[8955] = {
+		param = "My answer is... sickly-sweet quiz show host mode!",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8955,
+		flag = 1
+	},
+	[8956] = {
+		param = "I spent AAAALL day thinking of how to make you fail this quiz in the cutie-est way possible!",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8956,
+		flag = 1
+	},
+	[8957] = {
+		param = "Ahem. My turn.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8957,
+		flag = 1
+	},
+	[8958] = {
+		param = "Which of my modes do you like the best, Commander?",
+		ship_group = 20313,
+		type = 1,
+		id = 8958,
+		flag = 1,
+		option = {
+			{
+				2,
+				"I like maid mode."
+			},
+			{
+				3,
+				"Probably work mode?"
+			}
+		}
+	},
+	[8959] = {
+		param = "I like maid mode.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8959,
+		flag = 2
+	},
+	[8960] = {
+		param = "As you wish, Master. Shall I adjust your collar for you? Or perhaps place an extra sugar cube beside your afternoon tea?",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8960,
+		flag = 2
+	},
+	[8961] = {
+		param = "From now on, I shall use this standard to provide you with service that goes above and beyond.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8961,
+		flag = 2
+	},
+	[8962] = {
+		param = "Probably work mode?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8962,
+		flag = 3
+	},
+	[8963] = {
+		param = "Understood. I've synchronised your schedule for the day, and I am prepared to handle any unexpected eventualities.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8963,
+		flag = 3
+	},
+	[8964] = {
+		param = "Do you find that I'm exceptionally reliable when I'm in work mode?",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8964,
+		flag = 3
+	},
+	[8965] = {
+		param = "Next questiooon~ It's all you, Commander!",
+		ship_group = 20313,
+		type = 1,
+		id = 8965,
+		flag = 0,
+		option = {
+			{
+				4,
+				"Don't you get tired from switching modes so often?"
+			}
+		}
+	},
+	[8966] = {
+		param = "Don't you get tired from switching modes so often?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8966,
+		flag = 4
+	},
+	[8967] = {
+		param = "I never get tired when I'm with YOU, Commander~",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8967,
+		flag = 4
+	},
+	[8968] = {
+		param = "Thoughtful mode engaged.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8968,
+		flag = 4
+	},
+	[8969] = {
+		param = "This is the answer you wanted to hear, I presume.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8969,
+		flag = 4
+	},
+	[8970] = {
+		param = "However, it is true. On to my final question.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8970,
+		flag = 4
+	},
+	[8971] = {
+		param = "If I were to switch into lover mode right now, would you run away?",
+		ship_group = 20313,
+		type = 1,
+		id = 8971,
+		flag = 4,
+		option = {
+			{
+				5,
+				"No, I wouldn't."
+			}
+		}
+	},
+	[8972] = {
+		param = "No, I wouldn't.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8972,
+		flag = 5
+	},
+	[8973] = {
+		param = "Your answer came two-thirds of a second too late... Time's up~ Was someone too shy to answer? Or were you thinking really hard?",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8973,
+		flag = 5
+	},
+	[8974] = {
+		param = "But I do enjoy that reaction.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8974,
+		flag = 5
+	},
+	[8975] = {
+		param = "As a reward, I will leave my exclusive lover mode engaged for the rest of the day.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8975,
+		flag = 5
+	},
+	[8976] = {
+		param = "Prepare yourself for overwhelming sweetness~",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8976,
+		flag = 5
+	},
+	[8977] = {
+		param = "Commander, I may not be able to serve by your side today... but my remote maid service is working as planned.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8977,
+		flag = 0
+	},
+	[8978] = {
+		param = "I have already optimized the day's schedule.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8978,
+		flag = 0
+	},
+	[8979] = {
+		param = "9:00 – Strategy Meeting. 11:00 – Exercises. 15:00 – Document Review...",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8979,
+		flag = 0
+	},
+	[8980] = {
+		param = "I've also inserted sweetness replenishment periods for you in between said plans~",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8980,
+		flag = 0
+	},
+	[8981] = {
+		param = "Sugar is a vital fuel for maintaining your focus throughout a busy work day. It's a professional recommendation from your personal maid!",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8981,
+		flag = 0
+	},
+	[8982] = {
+		param = "Please look beneath the third document on your left.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8982,
+		flag = 0
+	},
+	[8983] = {
+		param = "Have you found the card featuring a heart and a donut?",
+		ship_group = 20313,
+		type = 1,
+		id = 8983,
+		flag = 0,
+		option = {
+			{
+				1,
+				"\"Love ♡ Refill Card\"...?"
+			}
+		}
+	},
+	[8984] = {
+		param = "\"Love ♡ Refill Card\"...?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8984,
+		flag = 1
+	},
+	[8985] = {
+		param = "That's the activation key for my remote love delivery system~",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8985,
+		flag = 1
+	},
+	[8986] = {
+		param = "Now, I have a quick question for you. In what capacity would you like me to accompany you today?",
+		ship_group = 20313,
+		type = 1,
+		id = 8986,
+		flag = 1,
+		option = {
+			{
+				2,
+				"What about a junior classmate?"
+			},
+			{
+				3,
+				"Maid, please."
+			}
+		}
+	},
+	[8987] = {
+		param = "What about a junior classmate?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8987,
+		flag = 2
+	},
+	[8988] = {
+		param = "That's an interesting choice~ Innocent junior mode engaged.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8988,
+		flag = 2
+	},
+	[8989] = {
+		param = "Senpai, can you open the bottom drawer for me, please?",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8989,
+		flag = 2
+	},
+	[8990] = {
+		param = "I snuck some sweet treats in there for you this morning.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8990,
+		flag = 2
+	},
+	[8991] = {
+		param = "Open it up, and you'll see my own homemade, heart-shaped donuts. They're covered with powdered sugar, too...",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8991,
+		flag = 2
+	},
+	[8992] = {
+		param = "Max out your glucose and love levels all at once~",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8992,
+		flag = 2
+	},
+	[8993] = {
+		param = "Maid, please.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8993,
+		flag = 3
+	},
+	[8994] = {
+		param = "Understood. Personal maid mode engaged.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8994,
+		flag = 3
+	},
+	[8995] = {
+		param = "Now, Master, please open the top drawer to your right.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8995,
+		flag = 3
+	},
+	[8996] = {
+		param = "Have you opened it? Inside, there are fresh-baked maple pancakes. They were still piping hot when I deposited them inside...",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8996,
+		flag = 3
+	},
+	[8997] = {
+		param = "Consider this a sweet delivery from your personal maid, Master.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8997,
+		flag = 3
+	},
+	[8998] = {
+		param = "Did you enjoy this sweet delivery?",
+		ship_group = 20313,
+		type = 1,
+		id = 8998,
+		flag = 0,
+		option = {
+			{
+				4,
+				"That was very thoughtful of you."
+			}
+		}
+	},
+	[8999] = {
+		param = "That was very thoughtful of you.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8999,
+		flag = 4
+	},
+	[9000] = {
+		param = "I'm just glad that the delivery was a success.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9000,
+		flag = 4
+	},
+	[9001] = {
+		param = "I've been thinking for a while now about how to make you remember my presence even when I can't be by your side..",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9001,
+		flag = 4
+	},
+	[9002] = {
+		param = "Now I have my answer.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9002,
+		flag = 4
+	},
+	[9003] = {
+		param = "From now on, expect regular sweetness refills~",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9003,
+		flag = 4
+	},
+	[9004] = {
+		param = "I hope you look forward to them.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9004,
+		flag = 4
+	},
+	[9005] = {
+		param = "Once I've finished my business, I will return posthaste.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9005,
+		flag = 4
+	},
+	[9006] = {
+		param = "Until then, enjoy all the love I've left for you~",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9006,
+		flag = 4
+	},
+	[9007] = {
+		param = "Just as if I were by your side the entire time.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9007,
+		flag = 4
+	},
+	[9008] = {
+		param = "Commander, there's something I wish to discuss.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9008,
+		flag = 0
+	},
+	[9009] = {
+		param = "I've completed the rough draft of a Supplementary Oath Contract. Would you take a look, please?",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9009,
+		flag = 0
+	},
+	[9010] = {
+		param = "Article 1: The Commander will henceforth be given the following title: Devonshire's Lifelong Donut Taste-Tester.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9010,
+		flag = 0
+	},
+	[9011] = {
+		param = "In accordance with this, you are obligated to be the very first to taste and provide feedback on each of my new creations.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9011,
+		flag = 0
+	},
+	[9012] = {
+		param = "Should you give a negative review, Devonshire reserves the right to compel you to retract said review by various means, including but not limited to pouting, logical appeals, and remaking the donuts.",
+		ship_group = 20313,
+		type = 1,
+		id = 9012,
+		flag = 0,
+		option = {
+			{
+				1,
+				"What if I still don't change my review?"
+			}
+		}
+	},
+	[9013] = {
+		param = "What if I still don't change my review? For curiosity's sake.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9013,
+		flag = 1
+	},
+	[9014] = {
+		param = "In that case, you will be given relentless attention by the pastry chef.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9014,
+		flag = 1
+	},
+	[9015] = {
+		param = "For example, last week, you commented that there was a \"strong hint of bonito flavor.\" Since then, I have undergone many revisions.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9015,
+		flag = 1
+	},
+	[9016] = {
+		param = "Prepare yourself for my all-out sweet assault until your review is retracted.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9016,
+		flag = 1
+	},
+	[9017] = {
+		param = "Article 2: When Devonshire unconsciously slips into her \"true feelings\" mode, she may occasionally engage in... un-maidly behavior.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9017,
+		flag = 1
+	},
+	[9018] = {
+		param = "When this happens, the Commander is strictly forbidden from making any remarks at her expense.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9018,
+		flag = 1
+	},
+	[9019] = {
+		param = "You will also be obligated to indulge me in any childish antics that I may show interest in.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9019,
+		flag = 1
+	},
+	[9020] = {
+		param = "If you cannot bear to witness such a thing...",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9020,
+		flag = 1
+	},
+	[9021] = {
+		param = "You may attempt to give me a hug, forcefully interrupting the aforementioned behavior.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9021,
+		flag = 1
+	},
+	[9022] = {
+		param = "This concludes the Supplementary Oath Contract. I will now accept feedback.",
+		ship_group = 20313,
+		type = 1,
+		id = 9022,
+		flag = 1,
+		option = {
+			{
+				2,
+				"If that's all you want..."
+			}
+		}
+	},
+	[9023] = {
+		param = "If that's all you want, then let me sign it already. Do you plan to add any extra articles to it?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9023,
+		flag = 2
+	},
+	[9024] = {
+		param = "Not at this moment. This is a necessary agreement to unlock the True Devonshire, however, so I will take the liberty of adding more if they come to mind.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9024,
+		flag = 2
+	},
+	[9025] = {
+		param = "I'll have the document printed out and deliver it to you shortly.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9025,
+		flag = 2
+	},
+	[9026] = {
+		param = "You will find a blank line at the very bottom.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9026,
+		flag = 2
+	},
+	[9027] = {
+		param = "There, you must write, \"Under no duress, I willingly accept all of Devonshire's terms, conditions, and supplementary clauses.\"",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9027,
+		flag = 2
+	},
+	[9028] = {
+		param = "Sign your name as well, and the deal is made.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9028,
+		flag = 2
+	},
+	[9029] = {
+		param = "Alongside today's document, I will also deliver my newest confection.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9029,
+		flag = 2
+	},
+	[9030] = {
+		param = "I await a fair and impartial review, as we've just discussed.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9030,
+		flag = 2
+	},
+	[9031] = {
+		param = "Otherwise, I'll have to switch into lover mode and have a little... \"discussion\" with you.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9031,
 		flag = 2
 	}
 }

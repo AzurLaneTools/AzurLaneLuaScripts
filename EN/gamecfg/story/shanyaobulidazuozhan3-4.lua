@@ -9,7 +9,7 @@ return {
 			hidePaintObj = true,
 			bgName = "star_level_bg_596",
 			bgm = "theme-vanguard",
-			say = "Number 5: Iron Claw Demon, who had sworn to snatch up all the candy in the world, was defeated. Not long after, Number 6: The Contingency, hellbent on conquering the world with AI, joined the fray.",
+			say = "在立志得到世间的一切美味甜品的「No.5 Iron★Claw」失败后，想用AI掌控世界的「No.6 The★Contingency」出现了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -32,7 +32,7 @@ return {
 			actor = 900480,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "This is it for you.",
+			say = "到此为止了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			actor = 204040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "That's the same as what the last one said...",
+			say = "你们怎么连说的词都一样啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			actor = 100002,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Hey, Super AI TC, can I ask a question, buli?",
+			say = "话说超级AI-TC，能问你一个问题吗buli？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			actor = 900480,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "What is it?",
+			say = "什么问题？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			actor = 100002,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "You and the Lord of Evil both say you wanna conquer the world, buli. Doesn't that make you enemies, buli?",
+			say = "你也想统治世界，恐怖大魔王也想统治世界……你们的目标不矛盾吗buli？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			actor = 100002,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Is it really the Omni-Cube really what you want, buli?",
+			say = "你真正想要的，真是万能魔方吗buli？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			actor = 900480,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "I... What I want is...",
+			say = "我真正想要的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			actor = 100020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Now's our chance, bulin! Hit her with everything while she's distracted, bulin!",
+			say = "好机会burin！趁她分神，大家一起攻击burin！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

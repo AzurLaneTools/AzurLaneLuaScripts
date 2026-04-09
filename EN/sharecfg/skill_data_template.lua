@@ -2947,6 +2947,7 @@ pg.skill_data_template = setmetatable({
 		1014660,
 		1019160,
 		1014990,
+		1013140,
 		1012910,
 		1014140,
 		1019260,
@@ -2990,6 +2991,7 @@ pg.skill_data_template = setmetatable({
 		1090400,
 		1090420,
 		1090430,
+		1090450,
 		1090440
 	}
 }, confHX)
@@ -202500,6 +202502,148 @@ Increases this ship's AVI and ACC by $2. When this ship has Royal Navy gear equi
 			}
 		}
 	},
+	[1013140] = {
+		desc_get = "",
+		name = "Reno Reactor+",
+		type = 3,
+		max_level = 10,
+		desc = "Increases this ship's AA, FP, and RLD by $1. During battle, every 2 times another ship in your fleet takes DMG: increases this ship's AA and FP by $2 (can be stacked up to 2 times) until the end of the battle. Every 20s: fires a $3 special barrage (DMG is based on the skill's level).",
+		id = 1013140,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"4.0%",
+				"10.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
 	[1012910] = {
 		desc_get = "",
 		name = "Destroyer Division 6: Hibiki+",
@@ -208069,6 +208213,148 @@ Increases this ship's AVI and ACC by $2. When this ship has Royal Navy gear equi
 				},
 				{
 					"80%"
+				}
+			}
+		}
+	},
+	[1090450] = {
+		desc_get = "",
+		name = "Target Designator: Torpedo - Matchless",
+		type = 3,
+		max_level = 10,
+		desc = "When this ship's Torpedoes hit a target: $1 chance to activate Target Designator for 8s, increasing the target's Torpedo DMG taken by $2 (cannot be stacked). Every 15s: deploys \"Totally Helpless\" Smokescreen for 5s; while this ship is inside this smokescreen, increases its Evasion Rate by $2 (under this effect, this ship cannot benefit from other Smokescreen and Smokescreen: Light Cruisers skills). Every 10s: fires a $3 special barrage (DMG is based on the skill's level).",
+		id = 1090450,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"7.0%",
+				"17.0%"
+			},
+			{
+				"20.0%",
+				"40.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"7.0%",
+					"+1.1%"
+				},
+				{
+					"8.1%",
+					"+1.1%"
+				},
+				{
+					"9.2%",
+					"+1.1%"
+				},
+				{
+					"10.3%",
+					"+1.1%"
+				},
+				{
+					"11.4%",
+					"+1.1%"
+				},
+				{
+					"12.5%",
+					"+1.1%"
+				},
+				{
+					"13.6%",
+					"+1.1%"
+				},
+				{
+					"14.7%",
+					"+1.1%"
+				},
+				{
+					"15.8%",
+					"+1.2%"
+				},
+				{
+					"17.0%"
+				}
+			},
+			{
+				{
+					"20.0%",
+					"+2.2%"
+				},
+				{
+					"22.2%",
+					"+2.2%"
+				},
+				{
+					"24.4%",
+					"+2.2%"
+				},
+				{
+					"26.6%",
+					"+2.2%"
+				},
+				{
+					"28.8%",
+					"+2.2%"
+				},
+				{
+					"31.0%",
+					"+2.2%"
+				},
+				{
+					"33.2%",
+					"+2.2%"
+				},
+				{
+					"35.4%",
+					"+2.2%"
+				},
+				{
+					"37.6%",
+					"+2.4%"
+				},
+				{
+					"40.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
 				}
 			}
 		}

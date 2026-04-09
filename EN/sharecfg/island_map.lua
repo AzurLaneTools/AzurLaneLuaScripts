@@ -153,6 +153,23 @@ pg.island_map = {
 			0.5
 		}
 	},
+	[1011] = {
+		minigame_id = 0,
+		name = "Tactical Simulation",
+		time = "always",
+		default_bgm = "danmachi-az-story",
+		loading = 0,
+		desc = "",
+		sceneName = "island/scenesres/scenes/bar/map_xyd_bar_01",
+		save_transform = 0,
+		id = 1011,
+		born_object = 10100001,
+		camera_zoom = {
+			0.3,
+			0.8,
+			0.5
+		}
+	},
 	all = {
 		1001,
 		1002,
@@ -162,6 +179,7 @@ pg.island_map = {
 		1006,
 		1007,
 		1009,
-		1010
+		1010,
+		1011
 	}
 }

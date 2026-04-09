@@ -237,6 +237,14 @@ slot0.getDragBoundUI = function(slot0, slot1, slot2)
 	end)
 end
 
+slot0.GetDragsCount = function(slot0)
+	if slot0._dragsUI then
+		return #slot0._dragsUI
+	end
+
+	return 0
+end
+
 slot0.ActionChange = function(slot0, slot1)
 	slot0._state = slot1
 end

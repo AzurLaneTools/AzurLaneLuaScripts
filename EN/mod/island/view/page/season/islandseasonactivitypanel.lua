@@ -113,6 +113,16 @@ slot0.setActivities = function(slot0, slot1)
 end
 
 slot0.updateActivity = function(slot0, slot1)
+	if ActivityConst.IslandPageIdLinks[slot1.id] then
+		for slot6, slot7 in ipairs(slot2) do
+			slot0:_updateActivity(getProxy(ActivityProxy):getActivityById(slot7))
+		end
+	else
+		slot0:_updateActivity(slot1)
+	end
+end
+
+slot0._updateActivity = function(slot0, slot1)
 	if slot1:isIslandShow() and not slot1:isEnd() then
 		slot0.activities[slot0:getActivityIndex(slot1.id) or #slot0.activities + 1] = slot1
 
@@ -240,8 +250,8 @@ slot0.selectActivity = function(slot0, slot1)
 		uv0.nextActivity = nil
 		slot0 = uv0.pageDic[uv0.activity.id]
 
-		slot0:ActionInvoke("Flush", uv0.activity)
 		slot0:ActionInvoke("ShowOrHide", true)
+		slot0:ActionInvoke("Flush", uv0.activity)
 	end)
 end
 
@@ -255,6 +265,10 @@ slot0.OnDestroy = function(slot0)
 	slot0.pageDic = nil
 	slot0.activities = nil
 	slot0.switchCount = nil
+end
+
+slot0.OnHide = function(slot0)
+	slot0:UnOverlayPanel(slot0._tf, slot0._parentTf)
 end
 
 return slot0

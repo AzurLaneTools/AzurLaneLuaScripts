@@ -10,7 +10,7 @@ return {
 			bgm = "theme-vanguard",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "KABOOOM!",
+			say = "轰————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,9 +71,9 @@ return {
 			factiontag = "demon★king",
 			nameColor = "#FF9B93",
 			actor = 900233,
-			actorName = "Lord of Evil",
+			actorName = "恐怖大魔王？",
 			hidePaintObj = true,
-			say = "Ugh... Now I can FINALLY ditch this weird-ass film set.",
+			say = "啊……终于可以离开这个莫名其妙的片场了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,9 +87,9 @@ return {
 			nameColor = "#FF9B93",
 			soundeffect = "event:/battle/boom2",
 			actor = 900233,
-			actorName = "Lord of Evil",
+			actorName = "恐怖大魔王？",
 			hidePaintObj = true,
-			say = "My troops, I command you! You're going down with me!",
+			say = "全军听令——随我——一同自爆！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			},
 			sequence = {
 				{
-					"And so, the Lord of Evil and her terrifying army went up in flames and vanished.",
+					"「就这样，恐怖大魔王和她的恐怖军团在火光中消失了」",
 					0
 				}
 			}
@@ -170,7 +170,7 @@ return {
 			actor = 204040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Justice always prevails!",
+			say = "正义必胜——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			actor = 204040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "The Omni-Cube is ours at last. What shall we wish for? World peace?",
+			say = "万能魔方是我们的了，接下来你们要许愿世界和平么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			actor = 100020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "No, bulin...",
+			say = "不——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			actor = 100011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "This Cube tempts man and brings war whenever it appears, purin... It's the reason behind all this, purin! It can't keep getting away with it, purin!",
+			say = "万能魔方……你一届又一届的出现，蛊惑着一群又一群强者……你才是搅乱世界和平的罪魁祸首purin！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			actor = 100002,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "For the sake of love, peace, justice, and the future, we need to destroy it rather than make a wish to it, buli!",
+			say = "为了爱与和平与友谊与正义与胜利与未来，我们不需要向你许愿，而是要消灭你buli！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			actor = 100011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Help us deal with it, little knight! Purin!",
+			say = "小小骑士，与我们一起吧purin~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			actor = 204040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "...Of course! Gladly!",
+			say = "……好，我们一起！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			actor = 100002,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "In the name of the three bulin sisters – shatter into pieces, buli!",
+			say = "以布里三姐妹之名——消灭你buli！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,27 +361,27 @@ return {
 			},
 			sequence = {
 				{
-					"There was a blinding light, and the Omni-Cube was broken into a million pieces.",
+					"耀眼的光芒中，万能魔方被摧毁了。",
 					0
 				},
 				{
-					"The world was returned to peace and calm.",
+					"世界恢复了宁静与祥和。",
 					0.5
 				},
 				{
-					"The little knight set out on her journey once more.",
+					"小小骑士再次踏上了旅途。",
 					1
 				},
 				{
-					"The bulin sisters, meanwhile, went back to leading their quiet lives.",
+					"布里三姐妹也回归了平静的日常。",
 					1.5
 				},
 				{
-					"Secretly, they waited for that big moment to come...",
+					"她们在暗中等待着……",
 					2
 				},
 				{
-					"When they could flex their full might again.",
+					"等待下一次大显身手的时候——",
 					2.5
 				}
 			}
@@ -391,27 +391,27 @@ return {
 			asideType = 1,
 			sequence = {
 				{
-					"DISCLAIMER",
+					"「特别说明」",
 					0
 				},
 				{
-					"This is a work of fiction based on the fantasies of the bulin sisters.",
+					"「本故事根据少女的幻想改编而成」",
 					0.5
 				},
 				{
-					"Any similarity to events, past or future, is merely a coincidence.",
+					"「如有雷同，纯属巧合」",
 					1
 				},
 				{
-					"No Wisdom Cubes were destroyed during the production of this story.",
+					"「拍摄过程中，没有任何心智魔方被实际摧毁」",
 					1.5
 				},
 				{
-					"We hope you enjoyed it.",
+					"「请放心观看」",
 					2
 				},
 				{
-					"Operation: Shining Bulin - The End",
+					"「——闪耀★布里★大作战·END」",
 					2.5
 				}
 			}

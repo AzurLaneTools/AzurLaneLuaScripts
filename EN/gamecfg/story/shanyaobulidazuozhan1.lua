@@ -17,19 +17,19 @@ return {
 			},
 			sequence = {
 				{
-					"All things in the world are built on balance.",
+					"「世间万物皆处于均衡之中」",
 					0
 				},
 				{
-					"Where there is good, there is evil. Where light shines, darkness festers.",
+					"「有光便有影，有明便有暗」",
 					1
 				},
 				{
-					"This is a law. An unbreakable principle.",
+					"「这是法则，亦是铁律」",
 					2
 				},
 				{
-					"As with everything, however, there are exceptions.",
+					"「但，凡事总有例外」",
 					3
 				}
 			}
@@ -48,7 +48,7 @@ return {
 			},
 			sequence = {
 				{
-					"For instance, the Omni-Cube – a supreme treasure capable of bending the rules to grant any wish.",
+					"「比如，可以扭曲一切法则定律，实现一切愿望的至宝——万能魔方」",
 					0
 				}
 			}
@@ -58,7 +58,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_149",
-			say = "Once every 60 years, the Omni-Cube appears in the world, granting a single wish before vanishing again.",
+			say = "每过六十年，万能魔方都会现世，而后在实现一次愿望后消失。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_149",
 			hidePaintObj = true,
-			say = "Whenever it arrives, the world's most powerful warriors vie for this supreme treasure fiercely.",
+			say = "为了争夺这件至宝，世间的强者以六十年为周期彼此战斗着。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_149",
 			hidePaintObj = true,
-			say = "Now, the Omni-Cube has appeared again.",
+			say = "现在，万能魔方再次出现了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_149",
 			hidePaintObj = true,
-			say = "After besting countless rivals, seven competitors have made it to destiny's final destination.",
+			say = "七位强者也从无数竞争者中杀出，来到了这座命定的最终舞台上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_149",
 			hidePaintObj = true,
-			say = "These competitors are...",
+			say = "她们分别是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			},
 			sequence = {
 				{
-					"The Golden Bulin, the inheritor of the golden spirit and commander of her golden mech!",
+					"「操纵着Golden机甲传承Golden精神的Golden★Purin」",
 					0
 				}
 			}
@@ -152,7 +152,7 @@ return {
 			actor = 100011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "I have the golden spirit on my side and WILL get the Omni-Cube for the sake of world peace, purin!",
+			say = "为了Golden精神的传承，为了世界和平，一定要拿到万能魔方purin！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			},
 			sequence = {
 				{
-					"The Magic Bulin, who swore to protect love and uphold justice!",
+					"「发誓守护爱与正义的魔法少女Magic★Buli」",
 					0
 				}
 			}
@@ -202,7 +202,7 @@ return {
 			actor = 100002,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "I WILL get the Omni-Cube to protect love and uphold justice, buli!",
+			say = "为了守护爱与正义，为了世界和平，一定要拿到万能魔方buli！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			},
 			sequence = {
 				{
-					"The righteous Super Bulin, who flattens all her foes with but one swing of her hammer!",
+					"「面对任何敌人都可以一锤击溃的正义英雄Super★Burin」",
 					0
 				}
 			}
@@ -252,7 +252,7 @@ return {
 			actor = 100020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "What they said, bulin. I WILL get the Omni-Cube, bulin!",
+			say = "我也和姐姐们一样，一定要拿到万能魔方Burin！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			},
 			sequence = {
 				{
-					"The Little Knight, the aspiring swordswoman who journeys all by herself!",
+					"「独自踏上旅途的小小骑士Little★Knight」",
 					0
 				}
 			}
@@ -302,7 +302,7 @@ return {
 			actor = 204040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "I WILL get the Omni-Cube to become a true legend and prove myself worthy of my sword!",
+			say = "为了成为独当一面的传奇，为了证明手中的剑，一定要拿到万能魔方！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			},
 			sequence = {
 				{
-					"The Iron Claw Demon, the phantom of the sea with two big, meaty claws!",
+					"「拥有一对无双巨爪的海上魅影Iron★Claw」",
 					0
 				}
 			}
@@ -350,9 +350,9 @@ return {
 			factiontag = "iron★claw",
 			bgName = "star_level_bg_149",
 			actor = 403130,
-			actorName = "Iron Claw Demon",
+			actorName = "铁爪恶魔",
 			hidePaintObj = true,
-			say = "I WILL get the Omni-Cube to snatch up all the candy in the world!",
+			say = "为了得到世间的一切美味甜品，一定要拿到万能魔方！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			},
 			sequence = {
 				{
-					"The Contingency, an AI alleged to possess intelligence greater than all life put together!",
+					"「自称智慧超过世界上一切生物之和的超级人工智能The★Contingency」",
 					0
 				}
 			}
@@ -402,7 +402,7 @@ return {
 			actor = 900480,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "I WILL get the Omni-Cube to achieve a world ruled by AI!",
+			say = "为了让AI掌控世界，一定要拿到万能魔方！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			},
 			sequence = {
 				{
-					"The Lord of Evil, the strongest and most villainous villain that always gets back up every time she's knocked down!",
+					"「屡败屡战却从不气馁的最强最大最恶反派Demon★King」",
 					0
 				}
 			}
@@ -450,9 +450,9 @@ return {
 			factiontag = "demon★king",
 			bgName = "star_level_bg_149",
 			actor = 900233,
-			actorName = "Lord of Evil",
+			actorName = "恐怖大魔王？",
 			hidePaintObj = true,
-			say = "Mwahaha! I WILL get the Omni-Cube and conquer the world!",
+			say = "桀桀桀，为了征服全世界，一定要拿到万能魔方！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,31 +472,31 @@ return {
 			asideType = 1,
 			sequence = {
 				{
-					"Number 1: The Golden Bulin",
+					"「No.1 Golden★Purin」",
 					0
 				},
 				{
-					"Number 2: The Magic Bulin",
+					"「No.2 Magic★Buli」",
 					0.5
 				},
 				{
-					"Number 3: The Super Bulin",
+					"「No.3 Super★Burin」",
 					1
 				},
 				{
-					"Number 4: The Little Knight",
+					"「No.4 Little★Knight」",
 					1.5
 				},
 				{
-					"Number 5: Iron Claw Demon",
+					"「No.5 Iron★Claw」",
 					2
 				},
 				{
-					"Number 6: The Contingency",
+					"「No.6 The★Contingency」",
 					2.5
 				},
 				{
-					"Number 7: Lord of Evil",
+					"「No.7 Demon★King」",
 					3
 				}
 			}
@@ -515,7 +515,7 @@ return {
 			},
 			sequence = {
 				{
-					"The war between these seven renowned warriors has now begun...",
+					"「七位绝世强者间的战争，现在开始了——」",
 					0
 				}
 			}

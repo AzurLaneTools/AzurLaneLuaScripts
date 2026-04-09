@@ -440,7 +440,20 @@ pg.island_task_target = setmetatable({
 		403010011,
 		404010011,
 		405010011,
-		406010011
+		406010011,
+		900010011,
+		900010021,
+		900010031,
+		900010041,
+		900010051,
+		900010061,
+		900010071,
+		900010081,
+		900010091,
+		900010101,
+		900010111,
+		900010121,
+		900010201
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -5256,6 +5269,149 @@ pg.base.island_task_target = {
 		target_num = 120000,
 		target_param = {
 			1
+		}
+	},
+	[900010011] = {
+		tips = "",
+		jump_ui = "",
+		name = "Obtain a total score of 1050 in Tactical Simulation.",
+		type = 1001,
+		id = 900010011,
+		target_num = 1050,
+		target_param = {
+			101
+		}
+	},
+	[900010021] = {
+		tips = "",
+		jump_ui = "",
+		name = "Obtain a total score of 1100 in Tactical Simulation.",
+		type = 1001,
+		id = 900010021,
+		target_num = 1100,
+		target_param = {
+			101
+		}
+	},
+	[900010031] = {
+		tips = "",
+		jump_ui = "",
+		name = "Obtain a total score of 1150 in Tactical Simulation.",
+		type = 1001,
+		id = 900010031,
+		target_num = 1150,
+		target_param = {
+			101
+		}
+	},
+	[900010041] = {
+		tips = "",
+		jump_ui = "",
+		name = "Obtain a total score of 1200 in Tactical Simulation.",
+		type = 1001,
+		id = 900010041,
+		target_num = 1200,
+		target_param = {
+			101
+		}
+	},
+	[900010051] = {
+		tips = "",
+		jump_ui = "",
+		name = "Obtain a total score of 1250 in Tactical Simulation.",
+		type = 1001,
+		id = 900010051,
+		target_num = 1250,
+		target_param = {
+			101
+		}
+	},
+	[900010061] = {
+		tips = "",
+		jump_ui = "",
+		name = "Obtain a total score of 1300 in Tactical Simulation.",
+		type = 1001,
+		id = 900010061,
+		target_num = 1300,
+		target_param = {
+			101
+		}
+	},
+	[900010071] = {
+		tips = "",
+		jump_ui = "",
+		name = "Obtain a total score of 1350 in Tactical Simulation.",
+		type = 1001,
+		id = 900010071,
+		target_num = 1350,
+		target_param = {
+			101
+		}
+	},
+	[900010081] = {
+		tips = "",
+		jump_ui = "",
+		name = "Obtain a total score of 1400 in Tactical Simulation.",
+		type = 1001,
+		id = 900010081,
+		target_num = 1400,
+		target_param = {
+			101
+		}
+	},
+	[900010091] = {
+		tips = "",
+		jump_ui = "",
+		name = "Obtain a total score of 1450 in Tactical Simulation.",
+		type = 1001,
+		id = 900010091,
+		target_num = 1450,
+		target_param = {
+			101
+		}
+	},
+	[900010101] = {
+		tips = "",
+		jump_ui = "",
+		name = "Obtain a total score of 1500 in Tactical Simulation.",
+		type = 1001,
+		id = 900010101,
+		target_num = 1500,
+		target_param = {
+			101
+		}
+	},
+	[900010111] = {
+		tips = "",
+		jump_ui = "",
+		name = "Obtain a total score of 1550 in Tactical Simulation.",
+		type = 1001,
+		id = 900010111,
+		target_num = 1550,
+		target_param = {
+			101
+		}
+	},
+	[900010121] = {
+		tips = "",
+		jump_ui = "",
+		name = "Obtain a total score of 1600 in Tactical Simulation.",
+		type = 1001,
+		id = 900010121,
+		target_num = 1600,
+		target_param = {
+			101
+		}
+	},
+	[900010201] = {
+		tips = "",
+		jump_ui = "",
+		name = "Obtain a total score of 3000 in Tactical Simulation.",
+		type = 1001,
+		id = 900010201,
+		target_num = 3000,
+		target_param = {
+			101
 		}
 	}
 }

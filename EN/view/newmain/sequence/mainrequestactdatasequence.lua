@@ -8,6 +8,7 @@ slot0.Execute = function(slot0, slot1)
 	slot0:RequestManualSignAct()
 	slot0:RequestRandomDailyTask()
 	slot0:RequestDALDailyTask()
+	slot0:RequestStoryAutoUnlock()
 	slot1()
 end
 
@@ -100,6 +101,39 @@ slot0.RequestDALDailyTask = function(slot0)
 	pg.m02:sendNotification(GAME.COLLABRATE_BOSS_RUSH_REQUEST_DATA, {
 		actId = slot1.id
 	})
+end
+
+slot0.RequestStoryAutoUnlock = function(slot0)
+	slot1 = false
+	slot2 = {}
+
+	for slot6, slot7 in ipairs(pg.memory_group.all) do
+		if type(pg.memory_group[slot7].auto_unlock) == "table" then
+			slot10 = pg.NewStoryMgr.GetInstance()
+
+			if not getProxy(ActivityProxy):getActivityById(slot8.link_event) or slot9:isEnd() then
+				slot12 = {}
+
+				for slot16, slot17 in ipairs(slot8.auto_unlock) do
+					if slot10:GetPlayedFlag(slot10:StoryName2StoryId(pg.memory_template[slot17].story)) then
+						table.insert(slot12, slot18)
+					else
+						table.insert(slot2, slot18)
+					end
+				end
+
+				if #slot12 > 0 and #slot2 > 0 then
+					slot1 = true
+				end
+			end
+		end
+	end
+
+	if slot1 then
+		pg.m02:sendNotification(GAME.STORY_UPDATE_LIST, {
+			storyIds = slot2
+		})
+	end
 end
 
 return slot0

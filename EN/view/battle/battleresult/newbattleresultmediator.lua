@@ -67,6 +67,7 @@ end
 slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.BEGIN_STAGE_DONE,
+		GAME.CONTINUE_STAGE_DONE,
 		NewBattleResultMediator.SET_SKIP_FLAG,
 		ContinuousOperationMediator.CONTINUE_OPERATION,
 		GAME.ACT_BOSS_EXCHANGE_TICKET_DONE,
@@ -79,6 +80,8 @@ slot0.handleNotification = function(slot0, slot1)
 
 	if slot1:getName() == GAME.BEGIN_STAGE_DONE then
 		slot0:sendNotification(GAME.CHANGE_SCENE, SCENE.COMBATLOAD, slot3)
+	elseif slot2 == GAME.CONTINUE_STAGE_DONE then
+		slot0:sendNotification(GAME.CHANGE_SCENE, SCENE.BOSSRUSH_PASSED_COMBATLOAD, slot3)
 	elseif slot2 == ContinuousOperationMediator.CONTINUE_OPERATION then
 		slot0.contextData.continuousBattleTimes = slot0.contextData.continuousBattleTimes - 1
 	elseif slot2 == NewBattleResultMediator.SET_SKIP_FLAG then

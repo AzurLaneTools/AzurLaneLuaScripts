@@ -25,7 +25,7 @@ return {
 			},
 			sequence = {
 				{
-					"At last, the day had come for the fated final battle...",
+					"「终于，命定的决战日到来了——」",
 					0
 				}
 			}
@@ -36,7 +36,7 @@ return {
 			hidePaintObj = true,
 			bgName = "star_level_bg_596",
 			bgm = "theme-vanguard",
-			say = "An unwavering alliance had formed in opposition to the Justice League, consisting of the trio of the Iron Claw Demon, The Contingency, and the Lord of Evil.",
+			say = "为了对抗正义联盟，Iron★Claw、The★Contingency与Demon★King三人也结成了牢不可破的同盟。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			actor = 100020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "They've teamed up, bulin! This is gonna get tricky, bulin...",
+			say = "敌人抱团了burin，好像有点麻烦了burin……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			actor = 100011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Yeah, but it's us four against the three of them, purin!",
+			say = "不论如何，战斗力对比是四个人打三个人purin！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			actor = 100011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "We have strength in numbers, purin!",
+			say = "优势在我们purin！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			actor = 100011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Sisters, and our little knight friend – let's work together to beat up the baddie alliance, purin!",
+			say = "二妹，三妹，还有小骑士，我们携手，粉碎邪恶联盟purin！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			actor = 100002,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Let's show them what they get for being baddies, buli! For love and justice, buli!",
+			say = "为了爱与友情与正义，粉碎邪恶联盟buli！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			actor = 100020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Yeah! Let's, bulin! Time to crush the bad guys, bulin!",
+			say = "我也一样burin！粉碎邪恶联盟burin！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			actor = 204040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Alright! All together – charge!",
+			say = "一同勇往直前吧——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

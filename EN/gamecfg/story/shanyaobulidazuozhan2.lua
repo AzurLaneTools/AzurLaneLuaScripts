@@ -9,7 +9,7 @@ return {
 			hidePaintObj = true,
 			bgName = "star_level_bg_187",
 			bgm = "login-20250401us",
-			say = "The Golden Bulin, the Magic Bulin, and the Super Bulin...",
+			say = "Golden★Purin、Magic★Buli，还有Super★Burin——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_187",
 			hidePaintObj = true,
-			say = "The three sisters joined forces, gathered all the clues, and together figured out the Omni-Cube's location.",
+			say = "布里三姐妹齐心协力，终于集齐了线索，找到了万能魔方的准确位置。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,21 +40,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_187",
 			hidePaintObj = true,
-			say = "Not only that, they even befriended a little knight during their travels and became close acquaintances.",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "star_level_bg_187",
-			factiontag = "little★knight",
-			dir = 1,
-			actor = 204040,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "I've been thinking a lot about what to name my legendary sword.",
+			say = "不仅如此，她们还在征途中与那位小小骑士缔结了深厚的友谊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +54,7 @@ return {
 			actor = 204040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "The Sword of Oaths, the Sword of Victory, the Sword of Benevolence, the Sword of Justice... I haven't decided on which yet, though.",
+			say = "这把传说中的宝剑，我为它想过许多名字。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +68,7 @@ return {
 			actor = 204040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "That will have to come at the end of my journey.",
+			say = "誓约之剑……胜利之剑……仁之剑……义之剑……但是我最终都无法决定。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +82,7 @@ return {
 			actor = 204040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "You know, what I want is to prove myself. Becoming a proper knight means becoming fit to wield this sword...",
+			say = "因为我的旅途还没有完成。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +96,21 @@ return {
 			actor = 204040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "That's why I don't need the Omni-Cube.",
+			say = "我要证明自己，证明自己有资格成为独当一面的骑士，要证明自己能够配得上这把宝剑……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			bgName = "star_level_bg_187",
+			factiontag = "little★knight",
+			dir = 1,
+			actor = 204040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "至于万能魔方本身……对我没用。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			actor = 204040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "At the same time, you three have righteous hearts. I'm sure that you'll use it for good.",
+			say = "你们也是心向正义的人，相信你们会妥善使用的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			actor = 100020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Don't worry about that, bulin! We've already got a plan, bulin!",
+			say = "放心burin！我们三姐妹已经有打算了burin！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			actor = 100011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Exactly, purin!",
+			say = "对了purin！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			actor = 100011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Tomorrow is the final battle, purin! We all need to get some good rest, purin!",
+			say = "明天就是最终战了，大家一定要好好休息purin！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			actor = 100002,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Right you are, buli!",
+			say = "没错buli！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			actor = 100002,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Also, I made food for us all, buli! It's filled with love and magic, buli! Have your fill before going to bed, buli!",
+			say = "我做了充满爱与魔法的蛋包饭buli，大家一定要饱餐一顿再休息buli！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			actor = 204040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Thank you. What a heartwarming evening this is.",
+			say = "多谢了……真是温暖的一晚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			actor = 204040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "What will you all do after this war is over?",
+			say = "等到战争结束后，你们都有什么打算？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			actor = 204040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Me – I want to create my own Knights of the Round Table once I've proved my mettle.",
+			say = "我打算在证明了自己之后，回家组一个属于自己的圆桌骑士团。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			actor = 100011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Good question, purin...",
+			say = "打算么purin……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			actor = 100011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "I'm gonna pierce the heavens with my golden mech, purin!",
+			say = "我打算让黄金（Golden）机甲突破天际purin~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			actor = 100020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "I'm gonna test the limits of my My Kitty Kabam Hammer, bulin!",
+			say = "我打算继续探索超级喵喵1号的强化极致burin~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			actor = 100002,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "I'm gonna keep protecting love and upholding justice, buli!",
+			say = "我打算继续在世间守护爱与正义buli~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			actor = 204040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "I see... Good luck to us all, then!",
+			say = "那么……我们一起加油吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,9 +359,9 @@ return {
 			hideOther = true,
 			dir = 1,
 			actor = 100011,
-			actorName = "Prototype Bulin MKII & Universal Bulin & Specialized Bulin Custom MKIII",
+			actorName = "试作型布里MKII&泛用型布里&特装型布里MKIII",
 			hidePaintObj = true,
-			say = "- The Justice League will prevail, purin! - The Justice League will prevail, buli! - The Justice League will prevail, bulin!",
+			say = "正义联盟必胜purin~！\n正义联盟必胜buli~！\n正义联盟必胜burin~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			},
 			sequence = {
 				{
-					"Soon, it would be time for the final battle, brimming with friendship and determination...",
+					"「充满友情与热血的最终战，即将上演——」",
 					0
 				}
 			}

@@ -24,6 +24,7 @@ slot0.ON_EQUIPMENT = "BaseUI:ON_EQUIPMENT"
 slot0.ON_SPWEAPON = "BaseUI:ON_SPWEAPON"
 slot0.ON_SHIP_EXP = "BaseUI.ON_SHIP_EXP"
 slot0.ON_BACK_PRESSED = "BaseUI:ON_BACK_PRESS"
+slot0.ON_ADD_SUBLAYER = "BaseUI:ON_ADD_SUBLAYER"
 
 slot0.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)

@@ -299,6 +299,9 @@ slot0.onRegister = function(slot0)
 			onRemoved = slot1 and slot1.onRemoved or nil
 		}))
 	end)
+	slot0:bind(BaseUI.ON_ADD_SUBLAYER, function (slot0, slot1)
+		uv0:addSubLayers(slot1)
+	end)
 	slot0:commonBind()
 	slot0:register()
 end

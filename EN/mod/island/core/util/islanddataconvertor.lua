@@ -321,6 +321,10 @@ slot0.SceneData2IslandUnits = function(slot0, slot1, slot2, slot3, slot4, slot5,
 		end
 	end
 
+	if slot3 == IslandConst.CheaterTavernMapId then
+		return
+	end
+
 	for slot11, slot12 in pairs(slot2) do
 		if slot12:IsSelf() then
 			table.insert(slot0, uv0.PlayerData2IslandUnit(slot12, slot3, slot6, slot4, slot5))
@@ -456,6 +460,39 @@ slot0.TakePhotoData2IslandUnit = function(slot0)
 			0,
 			0,
 			0
+		},
+		scale = {
+			1,
+			1,
+			1
+		},
+		showCondition = {},
+		hideCondition = {}
+	})
+end
+
+slot0.IslandCheaterTavernPlayerDataToUnit = function(slot0)
+	slot3 = pg.island_world_objects[10110000 + slot0.seat]
+	slot4 = {
+		id = slot0.id,
+		unitId = CheaterTavernHelper.GetModelDataByViewData(slot0.user_view).unitId,
+		typ = IslandConst.UNIT_TYPE_CHEATERTAVERN_PLAYER
+	}
+
+	return IslandUnitVO.New({
+		behaviourTree = "",
+		index = 0,
+		genType = 1,
+		id = slot4.id,
+		modelId = slot4.unitId,
+		type = slot4.typ,
+		name = slot0.id,
+		position = slot4.position or slot3.param.position,
+		rotation = slot4.rotation or slot3.param.rotation,
+		scale = slot3.param.scale or {
+			1,
+			1,
+			1
 		},
 		scale = {
 			1,

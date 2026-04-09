@@ -421,30 +421,13 @@ slot0.CheckActBossSystem = function(slot0, slot1)
 end
 
 slot0.ContinuousBossRush = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
-	seriesAsync({
-		function (slot0)
-			if uv0 == SYSTEM_BOSS_RUSH_COLLABRATE then
-				slot0()
-			else
-				uv1:addSubLayers(Context.New({
-					mediator = ChallengePassedMediator,
-					viewComponent = BossRushConst.GetPassedLayer(uv2),
-					data = {
-						curIndex = uv3 - 1,
-						maxIndex = #uv4
-					},
-					onRemoved = slot0
-				}))
-			end
-		end,
-		function (slot0)
-			pg.m02:sendNotification(GAME.BEGIN_STAGE, {
-				system = uv0,
-				actId = uv1,
-				continuousBattleTimes = uv2,
-				totalBattleTimes = uv3
-			})
-		end
+	pg.m02:sendNotification(GAME.BEGIN_STAGE, {
+		system = slot1,
+		actId = slot2,
+		continuousBattleTimes = slot5,
+		totalBattleTimes = slot6,
+		curIndex = slot3 - 1,
+		maxIndex = #slot4
 	})
 end
 

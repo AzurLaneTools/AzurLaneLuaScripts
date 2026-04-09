@@ -25858,10 +25858,10 @@ pg.activity_ins_template = {
 		ship_group = 30717,
 		name = "Unryuu ",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "https://blhxusstatic.yo-star.com/pic/260326_yunlong2Zx0i2l6dav8zElm.png",
 		title = "",
-		message_persist = "",
-		is_active = 1,
+		message_persist = "ins_634",
+		is_active = 0,
 		oalist_pic_persist = "",
 		sculpture = "yunlong",
 		id = 634,
@@ -25878,17 +25878,31 @@ pg.activity_ins_template = {
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				3,
+				26
+			},
+			{
+				21,
+				36,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			6950,
+			6955
+		}
 	},
 	[635] = {
 		ship_group = 30228,
 		name = "Kizu",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "https://blhxusstatic.yo-star.com/pic/260326_mujinD6EopPEDVIclQT47.png",
 		title = "",
-		message_persist = "",
-		is_active = 1,
+		message_persist = "ins_635",
+		is_active = 0,
 		oalist_pic_persist = "",
 		sculpture = "mujin",
 		id = 635,
@@ -25905,17 +25919,31 @@ pg.activity_ins_template = {
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				3,
+				27
+			},
+			{
+				19,
+				53,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			6963,
+			6966
+		}
 	},
 	[636] = {
 		ship_group = 30229,
 		name = "Nayoro",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "https://blhxusstatic.yo-star.com/pic/260326_mingjiO6qUqxkhGvob1lLw.png",
 		title = "",
-		message_persist = "",
-		is_active = 1,
+		message_persist = "ins_636",
+		is_active = 0,
 		oalist_pic_persist = "",
 		sculpture = "mingji",
 		id = 636,
@@ -25932,18 +25960,32 @@ pg.activity_ins_template = {
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				3,
+				28
+			},
+			{
+				9,
+				40,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			6976,
+			6981
+		}
 	},
 	[20001] = {
 		ship_group = 0,
 		name = "",
 		type = 2,
-		picture_persist = "",
+		picture_persist = "https://blhxusstatic.yo-star.com/pic/260326_OA4bigldklYOjgVP5SyeJa.png",
 		title = "Follow Juu Port Updates Today!",
-		message_persist = "",
-		is_active = 1,
-		oalist_pic_persist = "",
+		message_persist = "ins_20001",
+		is_active = 0,
+		oalist_pic_persist = "https://blhxusstatic.yo-star.com/pic/260326_OA4small8EQug8e3sX1bYtqN.png",
 		sculpture = "",
 		id = 20001,
 		group_id = 20001,
@@ -25959,18 +26001,45 @@ pg.activity_ins_template = {
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				3,
+				26
+			},
+			{
+				1,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			100001,
+			100004,
+			100006,
+			100007,
+			100008,
+			100009,
+			100010,
+			100011,
+			100013,
+			100014,
+			100015,
+			100016,
+			100018,
+			100019,
+			100020
+		}
 	},
 	[20002] = {
 		ship_group = 0,
 		name = "",
 		type = 2,
-		picture_persist = "",
+		picture_persist = "https://blhxusstatic.yo-star.com/pic/260326_OA2bigMMwdfawHI7buhdmj.png",
 		title = "Port News - Saratoga Film Studios Introduces New Technology",
-		message_persist = "",
-		is_active = 1,
-		oalist_pic_persist = "",
+		message_persist = "ins_20002",
+		is_active = 0,
+		oalist_pic_persist = "https://blhxusstatic.yo-star.com/pic/260326_OA2smallzjwgEh1GPcCiOpgZ.png",
 		sculpture = "",
 		id = 20002,
 		group_id = 20002,
@@ -25984,6 +26053,54 @@ pg.activity_ins_template = {
 				1,
 				5,
 				0
+			}
+		},
+		time_persist = {
+			{
+				2026,
+				3,
+				26
+			},
+			{
+				1,
+				5,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			100034,
+			100035,
+			100037,
+			100038,
+			100039,
+			100040,
+			100042,
+			100044,
+			100046
+		}
+	},
+	[20003] = {
+		ship_group = 0,
+		name = "",
+		type = 2,
+		picture_persist = "",
+		title = "[Port Tales] The Long-Awaited Climax! Commander's Favorite Place to Stay! Fu Shun's Bizarre Adventure (1)",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "",
+		id = 20003,
+		group_id = 20003,
+		time = {
+			{
+				2026,
+				4,
+				9
+			},
+			{
+				14,
+				0,
+				17
 			}
 		},
 		time_persist = {},
@@ -26618,6 +26735,7 @@ pg.activity_ins_template = {
 		635,
 		636,
 		20001,
-		20002
+		20002,
+		20003
 	}
 }

@@ -50,6 +50,8 @@ slot0.register = function(slot0)
 			elseif table.contains(TotalTaskProxy.normal_task_type, slot8) then
 				getProxy(TaskProxy):updateActProgress(slot6, slot7)
 			end
+
+			uv0:sendNotification(ActivityProxy.ACTIVITY_UPDATED, getProxy(ActivityProxy):getActivityById(slot6):clone())
 		end
 
 		uv0.facade:sendNotification(GAME.TOTAL_TASK_UPDATED)
@@ -82,6 +84,8 @@ slot0.register = function(slot0)
 			elseif table.contains(TotalTaskProxy.normal_task_type, slot8) then
 				getProxy(TaskProxy):removeActData(slot6, slot7)
 			end
+
+			uv0:sendNotification(ActivityProxy.ACTIVITY_UPDATED, getProxy(ActivityProxy):getActivityById(slot6):clone())
 		end
 
 		uv0.facade:sendNotification(GAME.TOTAL_TASK_UPDATED)
