@@ -11014,7 +11014,7 @@ _G.pg.base.gametip.activity_switch_award_pool_failed = {
 
 
 _G.pg.base.gametip.shop_street_activity_tip = {
-	tip = "  *이벤트 기간(<color=#539b2c>02.26-03.18</COLOR>)에는 갱신 시마다 반드시<color=#539b2c>장비스킨 상자 (신춘 옥션)/장비스킨 상자 (서광영춘)</color>가 출현합니다.\n*이벤트 기간(<color=#539b2c>03.12-03.25</COLOR>)에는 갱신 시마다 반드시<color=#539b2c>장비스킨 상자 (봄빛 여관)</color>가 출현합니다."
+	tip = "  *이벤트 기간(<color=#539b2c>04.09-04.22</COLOR>)에는 갱신 시마다 반드시<color=#539b2c>장비스킨 상자</color>"
 }
 
 
@@ -33254,7 +33254,7 @@ _G.pg.base.gametip.commander_unsel_lock_flag_tip = {
 
 
 _G.pg.base.gametip.skin_discount_timelimit = {
-	tip = "道具$1将于$2维护后到期，请及时前往换装商店使用"
+	tip = "아이템 $1은(는) $2 점검 후 만료될 예정입니다. 기한 내에 스킨 상점에서 사용해 주시기 바랍니다. "
 }
 
 
@@ -45116,7 +45116,7 @@ _G.pg.base.gametip.fengfanV3_20251023_Sidebar3 = {
 
 
 _G.pg.base.gametip.fengfanV3_20251023_jinianshouce = {
-	tip = ""
+	tip = "실적"
 }
 
 

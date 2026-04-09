@@ -179482,7 +179482,7 @@ _G.pg.base.item_virtual_data_statistics[65883] = {
 
 _G.pg.base.item_virtual_data_statistics[65884] = {
 	drop_gold_max = 0,
-	name = "유람자 엠블럼",
+	name = "유람자 훈장 ",
 	display = "「유람자 모집 계획」의 이벤트 Pt. 이벤트 종료 시에 삭제된다.",
 	type = 0,
 	is_world = 0,

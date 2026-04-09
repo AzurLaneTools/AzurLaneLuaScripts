@@ -35276,10 +35276,10 @@ pg.activity_template = {
 			item_id = 65555,
 			sub_act_id = 21017,
 			gift_tip = {
-				[9006] = {
-					""
-				},
 				[9005] = {
+					"winter_luckybag_9005"
+				},
+				[9006] = {
 					"winter_luckybag_9006",
 					81229
 				}
@@ -52487,7 +52487,9 @@ pg.activity_template = {
 				" ",
 				"<color=#ffde38>랭동타블</color>: 2.0%<color=#92FC63>(up!)</color>",
 				" ",
-				"<color=#d797ff>나요로</color>: 2.5%<color=#92FC63>(up!)</color>"
+				"<color=#d797ff>나요로</color>: 2.5%<color=#92FC63>(up!)</color>",
+				" ",
+				"※같은 레어도의 건조 획득 확률은 동일합니다."
 			}
 		}
 	},
