@@ -11,7 +11,7 @@ slot0.execute = function(slot0, slot1)
 		type = 1
 	}, 23107, function (slot0)
 		if slot0.result == 0 then
-			uv0:SetIsConnecting()
+			uv0:SetIsConnecting(true)
 			uv0:SetResetGameData(slot0)
 
 			slot1 = uv1

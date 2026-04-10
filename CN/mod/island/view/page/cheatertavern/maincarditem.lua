@@ -115,6 +115,10 @@ slot0.UpdateMoveToTable = function(slot0)
 		return
 	end
 
+	if not slot0.isLoaded then
+		return
+	end
+
 	slot0.deltaTime = Time.deltaTime + slot0.deltaTime
 	slot3 = Vector3.Lerp(slot0.startPos, slot0.endPos, slot0.cureveZ:Evaluate(slot0.deltaTime / IslandCheaterTavernConst.moveToTableTime))
 
@@ -150,6 +154,10 @@ slot0.UpdateMoveToTable = function(slot0)
 end
 
 slot0.MoveToTable = function(slot0, slot1, slot2)
+	if not slot0.isLoaded then
+		return
+	end
+
 	setActive(slot0.selectedCardTf, false)
 
 	slot0.hasSend = true

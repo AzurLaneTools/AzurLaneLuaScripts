@@ -7,7 +7,7 @@ slot0.register = function(slot0)
 	slot0.cheaterTavernAgency = slot1:GetCheaterTavernAgency()
 
 	slot0:on(23101, function (slot0)
-		uv0.cheaterTavernAgency:SetIsConnecting()
+		uv0.cheaterTavernAgency:SetIsConnecting(true)
 
 		if IslandCheaterTavernConst.changeSeat then
 			slot1 = nil
@@ -90,6 +90,14 @@ slot0.register = function(slot0)
 
 		uv0.cheaterTavernAgency:UpdatePlayerDelegateState(slot0.user_id, slot0.state)
 		pg.m02:sendNotification(GAME.ISLAND_CHEATER_DELEGATE_NOTIFY)
+	end)
+	slot0:on(23117, function (slot0)
+		slot2 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ISLAND_CHEAT_BAR)
+		slot3 = slot0.cur_score - slot2.data1
+		slot2.data1 = slot0.cur_score
+		slot2.data2 = math.max(slot0.cur_score, slot2.data2)
+
+		getProxy(ActivityProxy):updateActivity(slot2)
 	end)
 end
 

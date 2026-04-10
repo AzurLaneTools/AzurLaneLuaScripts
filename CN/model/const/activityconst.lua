@@ -242,7 +242,7 @@ slot0.PageIdLink = {
 slot0.IslandPageIdLinks = {
 	[slot0.ISLAND_BAR_ACT_ID] = {
 		slot0.ISLAND_BAR_SIGN_ACT_ID,
-		slot0.ISLAND_BAR_SIGN_ACT_ID
+		slot0.ISLAND_BAR_TASK_ACT_ID
 	}
 }
 
