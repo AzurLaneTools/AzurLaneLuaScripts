@@ -3,8 +3,8 @@ slot0 = class("IslandCheaterTavernAgency", import(".IslandBaseAgency"))
 slot0.OnInit = function(slot0, slot1)
 end
 
-slot0.SetIsConnecting = function(slot0)
-	slot0.isConnecting = true
+slot0.SetIsConnecting = function(slot0, slot1)
+	slot0.isConnecting = slot1
 end
 
 slot0.IsConnecting = function(slot0)

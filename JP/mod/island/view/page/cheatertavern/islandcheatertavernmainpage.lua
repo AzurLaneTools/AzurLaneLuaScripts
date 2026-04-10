@@ -253,6 +253,7 @@ slot0.Flush = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
+	slot0:OnHide()
 	uv0.super.OnDestroy(slot0)
 end
 

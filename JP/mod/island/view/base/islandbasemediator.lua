@@ -236,16 +236,23 @@ slot0.handleNotification = function(slot0, slot1)
 
 		slot4 = function()
 			uv0.exitProcessing = true
+			slot1 = _IslandCore
+			slot1 = slot1:GetController()
+			uv1.id = slot1:GetIsland().id
 			slot0 = uv0.viewComponent
 
-			slot0:ExitProcess(BaseUI.ON_HOME, function ()
+			slot0:ExitProcess("", function ()
 				uv0.exitProcessing = false
 
-				pg.m02:sendNotification(GAME.ISLAND_ENTER, uv1)
+				uv0:sendNotification(GAME.ISLAND_CHANGE_ENTER, uv1)
 			end)
 		end
 
 		if _IslandCore and _IslandCore.state == IslandCore.STATE_INIT_FINISH then
+			if isa(_IslandCore, IslandMinigameCore) then
+				slot0.viewComponent:GetIsland():GetCheaterTavernAgency():SetIsConnecting(false)
+			end
+
 			slot4()
 		else
 			slot0.coreInitCallback = slot4
@@ -253,14 +260,10 @@ slot0.handleNotification = function(slot0, slot1)
 	elseif slot2 == GAME.ISLAND_SELECT_GIFT_DONE then
 		slot0.viewComponent:HandleAwardDisplay(slot3.dropData, slot3.callback, IslandAwardDisplayPage.TYPE_SIGN_GIFT)
 	elseif slot2 == GAME.ISLAND_CORE_STATE_CHANGED then
-		if slot3 == IslandCore.STATE_INIT_FINISH then
-			getProxy(IslandProxy):SetReconnectProcessing(false)
+		if slot3 == IslandCore.STATE_INIT_FINISH and slot0.coreInitCallback then
+			slot0.coreInitCallback()
 
-			if slot0.coreInitCallback then
-				slot0.coreInitCallback()
-
-				slot0.coreInitCallback = nil
-			end
+			slot0.coreInitCallback = nil
 		end
 	elseif slot2 == GAME.ISLAND_TRADE_DONE then
 		slot0.viewComponent:HandleAwardDisplay(slot3.dropData, slot3.callback)
