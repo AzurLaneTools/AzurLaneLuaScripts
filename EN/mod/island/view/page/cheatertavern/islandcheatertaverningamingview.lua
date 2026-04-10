@@ -462,18 +462,25 @@ slot0.StartRounCountDown = function(slot0, slot1)
 	end, 1, -1)
 
 	slot0.randCoundDownTimer.func()
-	slot0.randCoundDownTimer:Start()
+
+	if slot0.randCoundDownTimer then
+		slot0.randCoundDownTimer:Start()
+	end
 end
 
 slot0.StopRoundCoundDown = function(slot0)
 	if slot0.randCoundDownTimer then
 		slot0.randCoundDownTimer:Stop()
+
+		slot0.randCoundDownTimer = nil
 	end
 end
 
 slot0.RemoveRealCardTipShowTime = function(slot0)
 	if slot0.realCardTipShowTimer then
 		slot0.realCardTipShowTimer:Stop()
+
+		slot0.realCardTipShowTimer = nil
 	end
 end
 

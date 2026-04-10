@@ -48735,7 +48735,7 @@ _G.pg.base.gametip.bar_ui_end1 = {
 
 
 _G.pg.base.gametip.bar_ui_end2 = {
-	tip = "Resume spectating"
+	tip = "Resume"
 }
 
 

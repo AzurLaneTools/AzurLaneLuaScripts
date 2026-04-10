@@ -1145,8 +1145,8 @@ pg.base.island_item_data_template = {
 		jump_page = {}
 	},
 	{
-		name = "领洋者-娜比娅（特殊）",
-		desc = "领洋者-娜比娅（特殊）",
+		name = "Oceana",
+		desc = "Oceana",
 		type = 3,
 		manage_influence = 0,
 		pt_num = 0,
@@ -1169,8 +1169,8 @@ pg.base.island_item_data_template = {
 		jump_page = {}
 	},
 	{
-		name = "领航员-TB（特殊）",
-		desc = "领航员-TB（特殊）",
+		name = "TB",
+		desc = "TB",
 		type = 3,
 		manage_influence = 0,
 		pt_num = 0,
@@ -1193,8 +1193,8 @@ pg.base.island_item_data_template = {
 		jump_page = {}
 	},
 	{
-		name = "探索者-艾普洛（特殊）",
-		desc = "探索者-艾普洛（特殊）",
+		name = "Explorer",
+		desc = "Explorer",
 		type = 3,
 		manage_influence = 0,
 		pt_num = 0,

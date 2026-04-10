@@ -7,7 +7,7 @@ slot0.register = function(slot0)
 	slot0.cheaterTavernAgency = slot1:GetCheaterTavernAgency()
 
 	slot0:on(23101, function (slot0)
-		uv0.cheaterTavernAgency:SetIsConnecting()
+		uv0.cheaterTavernAgency:SetIsConnecting(true)
 
 		if IslandCheaterTavernConst.changeSeat then
 			slot1 = nil

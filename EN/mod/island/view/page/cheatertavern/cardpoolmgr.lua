@@ -20,12 +20,13 @@ slot0.GetCardGameObjectById = function(slot0, slot1, slot2, slot3)
 				uv0(Object.Instantiate(slot0))
 			end)
 		end
-	else
-		slot4 = slot0.poolDic[slot1][1]
-
-		setActive(slot4.transform, true)
-		slot2(slot4)
+	elseif IsNil(slot0.poolDic[slot1][1]) then
 		table.remove(slot0.poolDic[slot1], 1)
+		slot0:GetCardGameObjectById(slot1, slot2, slot3)
+	else
+		setActive(slot4.transform, true)
+		table.remove(slot0.poolDic[slot1], 1)
+		slot2(slot4)
 	end
 end
 

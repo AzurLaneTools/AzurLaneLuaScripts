@@ -49,4 +49,10 @@ end
 slot0.OnInit = function(slot0)
 end
 
+slot0.OnHide = function(slot0)
+	if slot0._tf.parent ~= slot0.uiParent_ then
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0.uiParent_)
+	end
+end
+
 return slot0

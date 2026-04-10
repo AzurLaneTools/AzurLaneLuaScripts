@@ -37973,41 +37973,41 @@ cs.gametip = {
 	},
 	bar_ui_end2 = {
 		1362920,
-		92,
+		81,
 		true
 	},
 	bar_tips_game1 = {
-		1363012,
+		1363001,
 		103,
 		true
 	},
 	bar_tips_game2 = {
-		1363115,
+		1363104,
 		99,
 		true
 	},
 	bar_tips_game3 = {
-		1363214,
+		1363203,
 		125,
 		true
 	},
 	bar_tips_game4 = {
-		1363339,
+		1363328,
 		115,
 		true
 	},
 	bar_tips_game5 = {
-		1363454,
+		1363443,
 		123,
 		true
 	},
 	bar_tips_game6 = {
-		1363577,
+		1363566,
 		168,
 		true
 	},
 	bar_tips_game7 = {
-		1363745,
+		1363734,
 		111,
 		true
 	}
