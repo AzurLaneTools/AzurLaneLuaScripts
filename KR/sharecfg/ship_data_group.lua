@@ -17072,18 +17072,19 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트 : 청홍의 메아리",
+				"한정 이벤트: 창홍의 메아리",
 				{
 					""
 				},
 				0
 			},
 			{
-				"함대 상점 교환",
+				"소형함 건조",
 				{
-					"SHOP",
+					"GETBOAT",
 					{
-						warp = "guild"
+						projectName = "light",
+						page = 1
 					}
 				},
 				0

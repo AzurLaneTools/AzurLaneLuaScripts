@@ -33254,7 +33254,7 @@ _G.pg.base.gametip.commander_unsel_lock_flag_tip = {
 
 
 _G.pg.base.gametip.skin_discount_timelimit = {
-	tip = "아이템 $1은(는) $2 점검 후 만료될 예정입니다. 기한 내에 스킨 상점에서 사용해 주시기 바랍니다. "
+	tip = "아이템 $1은(는) $2 23:59:59 만료될 예정입니다.\n기한 내에 스킨 상점에서 사용해 주시기 바랍니다. "
 }
 
 
