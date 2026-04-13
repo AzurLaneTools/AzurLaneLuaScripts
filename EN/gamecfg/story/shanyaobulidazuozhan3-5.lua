@@ -10,7 +10,7 @@ return {
 			bgm = "theme-vanguard",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "KABOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_596",
 			hidePaintObj = true,
-			say = "在超级AI-TC陷入逻辑异常后，布里三姐妹与小小骑士抓住机会一举击溃了它的军团。",
+			say = "While Super AI TC struggled to process the question, the bulin sisters and the Little Knight exploited the moment to defeat her army all at once.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			actor = 900480,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "等等……",
+			say = "Wait...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			actor = 204040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……嗯？死到临头你还有什么想说的么？",
+			say = "Yes? Do you have any last words?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			actor = 900480,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "42……",
+			say = "42...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			actor = 900480,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "我知道我真正想要的答案了……是42……",
+			say = "I see it now... The answer I've been looking for is... 42...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			actor = 100020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……burin？这是什么意思burin？",
+			say = "Bulin? What does that mean, bulin?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			actor = 900480,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "宇宙的，万物的……一切的终极答案……",
+			say = "It's the answer to the ultimate question... of life, the universe, and everything...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			actor = 900480,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "我终于知道了……",
+			say = "I finally understand now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_596",
 			hidePaintObj = true,
-			say = "超级AI-TC露出了心满意足的笑容，在一阵风中消散了。",
+			say = "With a satisfied smile on her face, Super AI TC faded away in a gust of wind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			actor = 100002,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……buli？虽然不知道是怎么回事，但是胜利了buli！",
+			say = "Buli...? I'm kinda confused, but we won, buli!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			actor = 100011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼，不愧是我们的二妹，智慧无双purin~",
+			say = "Heheh! Good job, Uny – your wits are unparalleled, purin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

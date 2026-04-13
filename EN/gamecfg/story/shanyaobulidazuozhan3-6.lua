@@ -25,7 +25,7 @@ return {
 			},
 			sequence = {
 				{
-					"「终历经千辛万苦后，最终的敌人出现了——」",
+					"After weathering several difficult battles, the final obstacle finally appeared before the four girls...",
 					0
 				}
 			}
@@ -37,9 +37,9 @@ return {
 			bgName = "star_level_bg_596",
 			bgm = "theme-vanguard",
 			actor = 900233,
-			actorName = "恐怖大魔王？",
+			actorName = "Lord of Evil",
 			hidePaintObj = true,
-			say = "桀桀桀，到此为止了！",
+			say = "Mwahaha! This is it for you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actor = 204040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这句词已经听过两遍了……",
+			say = "We've heard that three times by now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,9 +75,9 @@ return {
 			factiontag = "demon★king",
 			nameColor = "#FF9B93",
 			actor = 900233,
-			actorName = "恐怖大魔王？",
+			actorName = "Lord of Evil",
 			hidePaintObj = true,
-			say = "咳……这个万能魔方，可是强者的象征啊！",
+			say = "Ahem... The Omni-Cube is a symbol of power! It doesn't belong in the hands of the weak!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,9 +90,9 @@ return {
 			factiontag = "demon★king",
 			nameColor = "#FF9B93",
 			actor = 900233,
-			actorName = "恐怖大魔王？",
+			actorName = "Lord of Evil",
 			hidePaintObj = true,
-			say = "和我这个恐怖大魔王最般配了！所以这个万能魔方我非拿不可！",
+			say = "I am the Lord of Evil, and thus better suited for it than any of you! I WILL make the Cube mine, no matter the cost!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			actor = 204040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "休想！你这个邪恶的大魔王，我们今天就要粉碎你的阴谋！",
+			say = "Not on our watch! We're going to thwart your evil ambitions right here, right now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			actor = 100002,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "为了爱与和平与友谊与正义与胜利，代表buli消灭你——！",
+			say = "In the name of love, peace, friendship, justice – *breathes in* – and all bulins, I will destroy you, buli!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,9 +143,9 @@ return {
 			factiontag = "demon★king",
 			nameColor = "#FF9B93",
 			actor = 900233,
-			actorName = "恐怖大魔王？",
+			actorName = "Lord of Evil",
 			hidePaintObj = true,
-			say = "哼！所谓胜兵必骄，骄兵必败！",
+			say = "Hmph! As they say – winners become complacent, and the complacent are bound to lose!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,9 +157,9 @@ return {
 			bgName = "star_level_bg_596",
 			factiontag = "demon★king",
 			actor = 900233,
-			actorName = "恐怖大魔王？",
+			actorName = "Lord of Evil",
 			hidePaintObj = true,
-			say = "你们已经连赢了两场，接下来的胜负还不好说呢！",
+			say = "Just 'cause you beat the last two doesn't mean you'll win again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,9 +172,9 @@ return {
 			factiontag = "demon★king",
 			nameColor = "#FF9B93",
 			actor = 900233,
-			actorName = "恐怖大魔王？",
+			actorName = "Lord of Evil",
 			hidePaintObj = true,
-			say = "吃我一招——！",
+			say = "Face your doom!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

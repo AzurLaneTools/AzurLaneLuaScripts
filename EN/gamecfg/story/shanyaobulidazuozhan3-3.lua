@@ -10,7 +10,7 @@ return {
 			bgm = "theme-vanguard",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "KABOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_596",
 			hidePaintObj = true,
-			say = "面对「No.5 Iron★Claw」无限重生的巨龙机甲·铁爪。",
+			say = "Just as Number 5: Iron Claw Demon said, her Mechadrake was able to revive an endless number of times.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_596",
 			hidePaintObj = true,
-			say = "「No.1 Golden★Purin」拿出了无限投入战场的是试作型超级钻头MKII量产型作为应对。",
+			say = "However, Number 1: The Golden Bulin fought back with an endless weapon of her own: Her mass-produced Prototype Super Drill MKIIs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_596",
 			hidePaintObj = true,
-			say = "终于——在这场仿佛永无止境的战争中，「No.2 Magic★Buli」与「No.4 Little★Knight」抓住了一瞬机会。",
+			say = "As this never-ending battle unfolded, Number 2: The Magic Bulin and Number 4: The Little Knight seized a momentary opening.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			actor = 100002,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "三妹，就是现在buli！",
+			say = "Specy, this is your chance, buli!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			actor = 204040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "趁着我们牵制住她的本体，对铁爪恶魔使用必杀技吧！",
+			say = "We'll hold her back! In the meantime, hit the Iron Claw Demon with your ultimate move!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 100020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "burin~burin——闪耀★星辰★一锤★BURIN~★！",
+			say = "Bulin-bulin! Shining Starlight SMASH! BULIIIN!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "KABOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			actor = 100020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……铁爪恶魔沉入水中生死不明burin！",
+			say = "Hmm... She sank below the waves – I can't say if she survived or not, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			actor = 204040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "生死不明，那就是死了。",
+			say = "If you're not sure, it seems safe to assume that she's dead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			actor = 100011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼，不愧是我们的三妹，天下无敌purin~",
+			say = "Way to go, Specy, purin! You really are the GOAT among bulins, purin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			actor = 100002,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "为了爱与和平与友谊与正义，继续前进吧buli！",
+			say = "Let's keep moving, buli! For love, peace, friendship, and justice, buli!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
