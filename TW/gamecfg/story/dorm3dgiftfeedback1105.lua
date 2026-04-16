@@ -14,7 +14,7 @@ return {
 			voice = "event:/dorm/drom3d_Newjersey_other/drom3d_NewJersey_gift2_voice1",
 			actorName = 10517,
 			nameColor = "#FFFFFF",
-			say = "双人游戏手柄！Honey是在邀请我一起玩吗？",
+			say = "雙人遊戲手把！ Honey是在邀請我一起玩嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			voice = "event:/dorm/drom3d_Newjersey_other/drom3d_NewJersey_gift2_voice2",
 			actorName = 10517,
 			nameColor = "#FFFFFF",
-			say = "正好我最近练习了很多新招式~嘿嘿~要试试看吗？",
+			say = "正好我最近練習了很多新招式~嘿嘿~要試試看嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

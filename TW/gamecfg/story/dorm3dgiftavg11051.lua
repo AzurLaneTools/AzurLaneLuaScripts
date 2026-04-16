@@ -16,7 +16,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "Honey~我找到了一款很有趣的游戏！",
+			say = "Honey~我找到了一款很有趣的遊戲！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "等下我们可以一起试试哦~",
+			say = "等下我們可以一起試試哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这个游戏……有助于增进我们之间的感情——",
+			say = "這個遊戲……有助於增進我們之間的感情——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,14 +108,14 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "而且，方便指、挥、官更了解我的战术♡",
+			say = "而且，方便指、揮、官更瞭解我的戰術♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "是那种……危险游戏么？",
+					content = "是那種……危險遊戲嗎？",
 					flag = 1
 				}
 			},
@@ -154,7 +154,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "对哦~",
+			say = "對哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,14 +194,14 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "而且对Honey而言，或许充满诱惑性~",
+			say = "而且對Honey而言，或許充滿誘惑性~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "？我么？",
+					content = "？我嗎？",
 					flag = 1
 				}
 			},
