@@ -2106,6 +2106,53 @@ pg.re_map_template = {
 			}
 		}
 	},
+	[38] = {
+		id = 38,
+		name = "虚像构筑之塔常驻复刻",
+		bg = "temp_diguo",
+		memory_group = 212,
+		activity_type = 2,
+		order = 38,
+		config_data = {
+			2200131,
+			2200132,
+			2200133,
+			2200134
+		},
+		chapter_progress = {
+			25,
+			50,
+			75,
+			100
+		},
+		drop_gain = {
+			{
+				2200134,
+				4,
+				601071,
+				60
+			},
+			{}
+		},
+		drop_display_sp = {
+			{
+				{
+					4,
+					601071
+				},
+				"SP4"
+			}
+		},
+		drop_display = {
+			{
+				{
+					2,
+					11048
+				},
+				"SP4"
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2142,6 +2189,7 @@ pg.re_map_template = {
 		34,
 		35,
 		36,
-		37
+		37,
+		38
 	}
 }

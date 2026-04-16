@@ -3161,6 +3161,13 @@ pg.memory_template = setmetatable({
 		4056,
 		4057,
 		4058,
+		4061,
+		4062,
+		4063,
+		4064,
+		4065,
+		4066,
+		4067,
 		4071,
 		4072,
 		4073,
@@ -51368,6 +51375,111 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"WEIXIANFAMINGPOJINZHONGWEITUO8"
+		}
+	},
+	[4061] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "失眠的呂措小姐",
+		condition = "解锁「奪回甜蜜美夢！」任務1",
+		story = "LVZUOFU1",
+		id = 4061,
+		icon = "memory_lvzuofu",
+		is_open = 0,
+		unlock_pre = {
+			"LVZUOFU1"
+		}
+	},
+	[4062] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "疲憊的呂措小姐",
+		condition = "解锁「奪回甜蜜美夢！」任務2",
+		story = "LVZUOFU2",
+		id = 4062,
+		icon = "memory_lvzuofu",
+		is_open = 0,
+		unlock_pre = {
+			"LVZUOFU2"
+		}
+	},
+	[4063] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "針對失眠的「處方」",
+		condition = "解锁「奪回甜蜜美夢！」任務3",
+		story = "LVZUOFU3",
+		id = 4063,
+		icon = "memory_lvzuofu",
+		is_open = 0,
+		unlock_pre = {
+			"LVZUOFU3"
+		}
+	},
+	[4064] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "林蔭道上的呂措小姐",
+		condition = "解锁「奪回甜蜜美夢！」任務4",
+		story = "LVZUOFU4",
+		id = 4064,
+		icon = "memory_lvzuofu",
+		is_open = 0,
+		unlock_pre = {
+			"LVZUOFU4"
+		}
+	},
+	[4065] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "安睡時刻",
+		condition = "解锁「奪回甜蜜美夢！」任務5",
+		story = "LVZUOFU5",
+		id = 4065,
+		icon = "memory_lvzuofu",
+		is_open = 0,
+		unlock_pre = {
+			"LVZUOFU5"
+		}
+	},
+	[4066] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "深夜的守候",
+		condition = "解锁「奪回甜蜜美夢！」任務6",
+		story = "LVZUOFU6",
+		id = 4066,
+		icon = "memory_lvzuofu",
+		is_open = 0,
+		unlock_pre = {
+			"LVZUOFU6"
+		}
+	},
+	[4067] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "晚安，呂措小姐",
+		condition = "解锁「奪回甜蜜美夢！」任務7",
+		story = "LVZUOFU7",
+		id = 4067,
+		icon = "memory_lvzuofu",
+		is_open = 0,
+		unlock_pre = {
+			"LVZUOFU7"
 		}
 	},
 	[4071] = {

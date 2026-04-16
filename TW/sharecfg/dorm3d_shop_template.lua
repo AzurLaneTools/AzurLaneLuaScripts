@@ -35,7 +35,8 @@ pg.dorm3d_shop_template = setmetatable({
 		37,
 		38,
 		39,
-		40
+		40,
+		41
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -783,6 +784,28 @@ pg.base.dorm3d_shop_template = {
 		},
 		banners = {
 			"banner_furniture1462"
+		}
+	},
+	[41] = {
+		rarity = 4,
+		name = "炫彩遊戲手把",
+		type = 2,
+		room_id = 10517,
+		unlock = "",
+		item_id = 1051702,
+		id = 41,
+		realroom_id = 0,
+		order = "2",
+		panel = {
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			260402
+		},
+		banners = {
+			"banner_gift1051702"
 		}
 	}
 }

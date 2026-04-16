@@ -351,6 +351,7 @@ pg.memory_group = setmetatable({
 		602,
 		603,
 		604,
+		605,
 		614,
 		615,
 		618,
@@ -8563,6 +8564,27 @@ pg.base.memory_group = {
 			3995,
 			3996,
 			3997
+		},
+		group_id = {
+			10000
+		}
+	},
+	[605] = {
+		icon = "title_chara_lvzuofu",
+		type = 3,
+		link_event = 0,
+		title = "奪回甜蜜美夢！",
+		auto_unlock = "",
+		subtype = 0,
+		id = 605,
+		memories = {
+			4061,
+			4062,
+			4063,
+			4064,
+			4065,
+			4066,
+			4067
 		},
 		group_id = {
 			10000

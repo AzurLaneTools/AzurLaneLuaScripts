@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"夺回甜蜜美梦！\n\n<size=45>三　针对失眠的“处方”</size>",
+					"奪回甜蜜美夢！\n\n<size=45>3 針對失眠的「處方」</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgm = "story-richang-7",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "将{namecode:461:吕佐夫}抱到沙发上，又为她准备好了热可可后，开始正式聊起了困扰{namecode:461:吕佐夫}的失眠问题。",
+			say = "將呂措抱到沙發上，又為她準備好了熱可可後，開始正式聊起了困擾呂措的失眠問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			actor = 404040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就是毫无缘由的失眠了嘛……",
+			say = "就是毫無緣由的失眠了嘛……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "她懒洋洋地歪在沙发上，像只慵懒的猫。",
+			say = "她懶洋洋地歪在沙發上，像一隻慵懶的貓。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "在啜饮了一口杯中的热可可后，又再度开了口。",
+			say = "在啜飲了一口杯中的熱可可後，又再度開了口。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			actor = 404040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不如指挥官来随便讲个故事吧~说不定我马上就能睡着哦？",
+			say = "不如指揮官來隨便講個故事吧~說不定我馬上就能睡著喔？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我讲的故事有那么无聊么……？",
+			say = "我講的故事有這麼無聊嗎……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			actor = 404040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎呀，我不是那个意思啦。",
+			say = "哎呀，我不是那個意思。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			actor = 404040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "毕竟听着你的声音就会产生安心的感觉，这样一来就会想睡嘛~",
+			say = "畢竟聽著你的聲音就會產生安心的感覺，這樣一來就會想睡嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "如果这一招有用的话，你不是应该来工作的时候就犯困么？",
+			say = "如果這招有用的話，妳不是應該來工作的時候就想睡嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			actor = 404040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对哦……看来这样行不通呢……",
+			say = "對哦……看來這樣行不通呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			actor = 404040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唉，要是能恢复平时的睡眠状况就好了~",
+			say = "唉，要是能恢復平常的睡眠狀況就好了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,20 +179,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "她的口吻轻松慵懒依旧，然而眸中毫无神采，只有浓浓的疲惫。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "平时的睡眠状况？会不会就是因为这一点，才导致了你失眠？",
+			say = "她的口吻輕鬆慵懶依舊，然而眸中毫無神采，只有濃濃的疲憊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +192,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "白天随心所欲地入睡，导致作息时间颠倒，让你晚上变得精神抖擞，睡不着了。",
+			say = "平時的睡眠狀況？會不會就是因為這一點，才導致了妳失眠？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "白天隨心所欲地入睡，導致作息時間顛倒，讓妳晚上變得精神抖擻，睡不著了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			actor = 404040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哈啊~说的也有道理……不过我都这样这么久了，还是第一次失眠呢。",
+			say = "哈啊~說的也有道理……不過我都這樣這麼久了，還是第一次失眠呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "也许这就是积攒已久产生的不良后果？总之之后还是尽量避免白天睡觉吧。",
+			say = "也許這就是累積已久產生的不良後果？總之以後還是盡量避免白天睡覺吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "以免真的形成恶性循环，让生物钟彻底紊乱了。",
+			say = "以免真的形成惡性循環，讓生理時鐘徹底紊亂了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			actor = 404040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好吧……按照这个理论，现在我似乎不太适合想办法去睡觉呢。",
+			say = "好吧……照這個理論，現在我似乎不太適合想辦法去睡覺。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			actor = 404040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "该不会要我就这样直勾勾地盯着指挥官看到晚上，再去睡吧~？",
+			say = "該不會要我就這樣直勾勾地盯著指揮官看到晚上，再去睡吧~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			actor = 404040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这么想想好像也不是不可以……反正我可能到了晚上也毫无睡意~",
+			say = "這麼想想好像也不是不可以……反正我可能到了晚上也毫無睡意~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我说的是之后注意，今天是特殊情况。",
+			say = "我說的是之後要注意，今天是特殊情況。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我想想……要不要试试去晒晒太阳？",
+			say = "我想想……要不要試試曬曬太陽？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "阳光可以帮助调整生物钟，也能刺激褪黑素的分泌。",
+			say = "陽光可以幫助調整生理時鐘，也能刺激褪黑素的分泌。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			actor = 404040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可我是舰船哦~？这样也有用吗？",
+			say = "但我是艦船哦~？這樣也有用嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "那至少也要出去散散步，做一些不给身体增加负担的轻松运动，说不定很快就有困意了。",
+			say = "那至少也要出去散步，做一些不給身體增加負擔的輕鬆運動，說不定很快就有睏意了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			actor = 404040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我现在这副萎靡不振的样子，和指挥官出去的话……会不会很扫兴啊……",
+			say = "我現在這樣萎靡不振的樣子，和指揮官出去的話……會不會很掃興啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			actor = 404040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而且，万一我在外面和刚刚一样头晕站不稳，直接晕倒怎么办？",
+			say = "而且，萬一我在外面和剛剛一樣頭暈站不穩，直接暈倒怎麼辦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			actor = 404040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官会不会把我直接丢在路边……！",
+			say = "指揮官會不會把我直接丟在路邊……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "放心吧，有我在，绝对不会让你晕倒，更不可能把你丢在路边的。",
+			say = "放心吧，有我在，絕對不會讓妳暈倒，更不可能把妳丟在路邊的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "更何况现在不是讨论兴致不兴致的时候，不如说我更在意你的状态。",
+			say = "更何況現在不是討論興致不興致的時候，不如說我更在意妳的狀態。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "如果你真的晕倒了，我就负责把你抱去医务室。",
+			say = "如果妳真的暈倒了，我就負責把妳抱去醫務室。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "说到这里，原本有些纠结的{namecode:461:吕佐夫}脸上染上一丝不易察觉的淡红色。",
+			say = "說到這裡，原本有些糾結的呂措臉上染上一絲不易察覺的淡紅色。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "虽然这样有可能会被误会“港区的偷懒达人在街上都能睡着”就是了。",
+			say = "雖然這樣有可能會被誤會「港區的偷懶達人在街上都能睡著」就是了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			actor = 404040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我可不是偷懒达人吧？我只是在保存体力应对突发情况而已哦~",
+			say = "我可不是偷懶達人吧？我只是在保存體力應對突發情況而已哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			actor = 404040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对……这个应该叫“战略性休息~♪”。",
+			say = "對……這個應該叫「戰略性休息~♪」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			actor = 404040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真正认真起来的我，可是很厉害的呢……",
+			say = "真正認真起來的我，可是很厲害的呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "好好，那么厉害的{namecode:461:吕佐夫}小姐，想去哪里散散步？",
+			say = "好好，那麼厲害的呂措小姐，想去哪裡散步呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			actor = 404040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "让我再好好考虑一下吧~",
+			say = "讓我再好好考慮一下吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

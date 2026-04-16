@@ -5,15 +5,17 @@ pg.activity_banner = {
 		id = 1,
 		pic = "temp1",
 		param = {
-			"scene skinshop",
-			{}
+			"scene charge",
+			{
+				wrap = 4
+			}
 		},
 		time = {
 			{
 				{
 					2026,
 					4,
-					2
+					16
 				},
 				{
 					0,
@@ -25,7 +27,7 @@ pg.activity_banner = {
 				{
 					2026,
 					4,
-					15
+					22
 				},
 				{
 					23,
@@ -51,7 +53,7 @@ pg.activity_banner = {
 				{
 					2026,
 					4,
-					2
+					16
 				},
 				{
 					0,
@@ -63,7 +65,7 @@ pg.activity_banner = {
 				{
 					2026,
 					4,
-					16
+					23
 				},
 				{
 					14,
@@ -74,21 +76,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "5641",
+		type = 3,
 		id = 3,
 		pic = "temp3",
-		param = {
-			"scene core activity",
-			{
-				coreName = "YunLongSPCoreActivityUI"
-			}
-		},
 		time = {
 			{
 				{
 					2026,
 					4,
-					2
+					16
 				},
 				{
 					0,
@@ -100,7 +97,7 @@ pg.activity_banner = {
 				{
 					2026,
 					4,
-					16
+					23
 				},
 				{
 					14,
@@ -111,6 +108,7 @@ pg.activity_banner = {
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 4,
 		pic = "temp4",
@@ -118,32 +116,6 @@ pg.activity_banner = {
 			"scene charge",
 			{
 				wrap = 4
-			}
-		},
-		time = {
-			{
-				{
-					2026,
-					4,
-					2
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					4,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		}
 	},
@@ -162,7 +134,7 @@ pg.activity_banner = {
 				{
 					2026,
 					4,
-					2
+					16
 				},
 				{
 					0,
@@ -174,7 +146,7 @@ pg.activity_banner = {
 				{
 					2026,
 					4,
-					15
+					22
 				},
 				{
 					23,
@@ -196,7 +168,7 @@ pg.activity_banner = {
 				{
 					2026,
 					4,
-					2
+					16
 				},
 				{
 					0,
@@ -208,7 +180,7 @@ pg.activity_banner = {
 				{
 					2026,
 					4,
-					15
+					22
 				},
 				{
 					23,
@@ -230,7 +202,7 @@ pg.activity_banner = {
 				{
 					2026,
 					4,
-					2
+					16
 				},
 				{
 					0,
@@ -242,10 +214,10 @@ pg.activity_banner = {
 				{
 					2026,
 					4,
-					15
+					23
 				},
 				{
-					23,
+					14,
 					59,
 					59
 				}
@@ -291,9 +263,10 @@ pg.activity_banner = {
 		id = 9,
 		pic = "temp9",
 		param = {
-			"scene core activity",
+			"scene level",
 			{
-				coreName = "AprilFoolDiscovery2026UI"
+				open_remaster = true,
+				isSP = false
 			}
 		},
 		time = {
@@ -301,7 +274,7 @@ pg.activity_banner = {
 				{
 					2026,
 					4,
-					1
+					16
 				},
 				{
 					0,
@@ -313,10 +286,10 @@ pg.activity_banner = {
 				{
 					2026,
 					4,
-					7
+					23
 				},
 				{
-					23,
+					14,
 					59,
 					59
 				}
@@ -373,7 +346,7 @@ pg.activity_banner = {
 				{
 					2026,
 					4,
-					2
+					16
 				},
 				{
 					0,
@@ -385,7 +358,7 @@ pg.activity_banner = {
 				{
 					2026,
 					4,
-					15
+					22
 				},
 				{
 					23,
@@ -783,7 +756,6 @@ pg.activity_banner = {
 		[2] = {
 			1,
 			2,
-			3,
 			4,
 			5,
 			6,
@@ -816,6 +788,7 @@ pg.activity_banner = {
 			1024
 		},
 		[3] = {
+			3,
 			10,
 			1003
 		},

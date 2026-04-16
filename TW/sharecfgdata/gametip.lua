@@ -12110,22 +12110,22 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "羅馬、李奧納多·達·文西等角色 建造機率UP！"
+	tip = "武藏、酒匂、羽黑 建造機率UP！"
 }
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "喀琅施塔得、阿爾漢格爾斯克 建造追加！"
+	tip = "的里雅斯德 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "基輔 建造追加！"
+	tip = "龐培·馬格諾 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "喀琅施塔得、窩瓦 建造追加！"
+	tip = "帝國 建造追加！"
 }
 
 
