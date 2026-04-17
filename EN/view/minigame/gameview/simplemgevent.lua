@@ -16,5 +16,6 @@ slot0.ADD_SCORE = "SimpleMGEvent: add score"
 slot0.GAME_OVER = "SimpleMGEvent: game over"
 slot0.USE_SKILL = "SimpleMGEvent: use skill"
 slot0.SHOW_RANK = "SimpleMGEvent: show rank"
+slot0.STOP_TIME_STEP = "SimpleMGEvent:stop time step"
 
 return slot0

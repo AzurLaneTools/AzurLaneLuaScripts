@@ -1927,7 +1927,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 646
+		key_value = 659
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -2024,9 +2024,7 @@ pg.gameset = {
 	doa_fever_buff = {
 		key_value = 8761,
 		description = {
-			8765,
-			8767,
-			8769
+			8761
 		}
 	},
 	doa_fever_recover = {
@@ -2036,9 +2034,7 @@ pg.gameset = {
 	doa_fever_strategy = {
 		key_value = 10021,
 		description = {
-			10031,
-			10032,
-			10033
+			10021
 		}
 	},
 	meta_skill_exp_double = {
@@ -2598,7 +2594,7 @@ pg.gameset = {
 		}
 	},
 	dayandnight_bgm = {
-		key_value = 50063,
+		key_value = 6025,
 		description = {
 			{
 				{
@@ -2606,7 +2602,7 @@ pg.gameset = {
 					5
 				},
 				"bg_main_night",
-				"yumia-44"
+				"doa-song-night06"
 			},
 			{
 				{
@@ -2614,7 +2610,7 @@ pg.gameset = {
 					8
 				},
 				"bg_main_twilight",
-				"yumia-43"
+				"doa-song-day03"
 			},
 			{
 				{
@@ -2622,7 +2618,7 @@ pg.gameset = {
 					16
 				},
 				"bg_main_day",
-				"yumia-43"
+				"doa-song-day03"
 			},
 			{
 				{
@@ -2630,7 +2626,7 @@ pg.gameset = {
 					19
 				},
 				"bg_main_twilight",
-				"yumia-43"
+				"doa-song-day03"
 			},
 			{
 				{
@@ -2638,7 +2634,7 @@ pg.gameset = {
 					24
 				},
 				"bg_main_night",
-				"yumia-44"
+				"doa-song-night06"
 			}
 		}
 	},
@@ -4374,6 +4370,36 @@ pg.gameset = {
 			1,
 			2,
 			6
+		}
+	},
+	barbot_match_waittime = {
+		key_value = 0,
+		description = {
+			{
+				1,
+				10,
+				15
+			},
+			{
+				2,
+				16,
+				20
+			},
+			{
+				3,
+				21,
+				25
+			},
+			{
+				4,
+				26,
+				30
+			},
+			{
+				5,
+				31,
+				40
+			}
 		}
 	},
 	bar_runaway_time = {

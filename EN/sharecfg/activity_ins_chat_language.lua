@@ -9031,7 +9031,64 @@ pg.activity_ins_chat_language = setmetatable({
 		9028,
 		9029,
 		9030,
-		9031
+		9031,
+		9110,
+		9111,
+		9112,
+		9113,
+		9114,
+		9115,
+		9116,
+		9117,
+		9118,
+		9119,
+		9120,
+		9121,
+		9122,
+		9123,
+		9124,
+		9125,
+		9126,
+		9127,
+		9128,
+		9129,
+		9130,
+		9131,
+		9132,
+		9133,
+		9134,
+		9135,
+		9136,
+		9137,
+		9138,
+		9139,
+		9140,
+		9141,
+		9142,
+		9143,
+		9144,
+		9145,
+		9146,
+		9147,
+		9148,
+		9149,
+		9150,
+		9151,
+		9152,
+		9153,
+		9154,
+		9155,
+		9156,
+		9157,
+		9158,
+		9159,
+		9160,
+		9161,
+		9162,
+		9163,
+		9164,
+		9165,
+		9166
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -88883,5 +88940,480 @@ pg.base.activity_ins_chat_language = {
 		type = 1,
 		id = 9031,
 		flag = 2
+	},
+	[9110] = {
+		param = "How could this have happened?",
+		ship_group = 10125,
+		option = "",
+		type = 1,
+		id = 9110,
+		flag = 0
+	},
+	[9111] = {
+		param = "The ice cream I put in the freezer last night is gone!",
+		ship_group = 10125,
+		option = "",
+		type = 1,
+		id = 9111,
+		flag = 0
+	},
+	[9112] = {
+		param = "WHAT?! Who's committing these crimes in broad daylight?!",
+		ship_group = 10149,
+		type = 1,
+		id = 9112,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Missing ice cream? That's an awful crime!"
+			},
+			{
+				2,
+				"Are we sure this is worth calling a crime?"
+			}
+		}
+	},
+	[9113] = {
+		param = "Missing ice cream? That's an awful crime!",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9113,
+		flag = 1
+	},
+	[9114] = {
+		param = "Are we sure this is worth calling a crime?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9114,
+		flag = 2
+	},
+	[9115] = {
+		param = "If even the Commander reacted then it must be a big deal~",
+		ship_group = 10806,
+		option = "",
+		type = 1,
+		id = 9115,
+		flag = 0
+	},
+	[9116] = {
+		param = "The mystery of the missing ice cream... Everyone, the time to step forth and uphold justice is now!",
+		ship_group = 10144,
+		option = "",
+		type = 1,
+		id = 9116,
+		flag = 0
+	},
+	[9117] = {
+		param = "Essex, weren't you out late last night? Did you notice anything unusual?",
+		ship_group = 10738,
+		option = "",
+		type = 1,
+		id = 9117,
+		flag = 0
+	},
+	[9118] = {
+		param = "Huh? Me?",
+		ship_group = 10709,
+		option = "",
+		type = 1,
+		id = 9118,
+		flag = 0
+	},
+	[9119] = {
+		param = "I was out having dinner with Hornet and the others last night, so I got home late...",
+		ship_group = 10709,
+		option = "",
+		type = 1,
+		id = 9119,
+		flag = 0
+	},
+	[9120] = {
+		param = "I don't remember seeing anything unusual.",
+		ship_group = 10709,
+		option = "",
+		type = 1,
+		id = 9120,
+		flag = 0
+	},
+	[9121] = {
+		param = "Hammann, was it that limited-edition pistachio vanilla that you stood in line for 30 minutes for?",
+		ship_group = 10124,
+		option = "",
+		type = 1,
+		id = 9121,
+		flag = 0
+	},
+	[9122] = {
+		param = "Sims! I can hear you laughing from here! If you keep teasing me, I'll eat YOUR ice cream and see how you like it!",
+		ship_group = 10125,
+		option = "",
+		type = 1,
+		id = 9122,
+		flag = 0
+	},
+	[9123] = {
+		param = "You're so pathetic that you can just take it.",
+		ship_group = 10124,
+		option = "",
+		type = 1,
+		id = 9123,
+		flag = 0
+	},
+	[9124] = {
+		param = "I've got plenty of ice cream here. Wanna come over and take some?",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 9124,
+		flag = 0
+	},
+	[9125] = {
+		param = "I have popsicles I can share, too.",
+		ship_group = 10107,
+		option = "",
+		type = 1,
+		id = 9125,
+		flag = 0
+	},
+	[9126] = {
+		param = "Yorktown and I just ordered five boxes. They'll be here in ten minutes, so I'll leave some in the shared space.",
+		ship_group = 10706,
+		option = "",
+		type = 1,
+		id = 9126,
+		flag = 0
+	},
+	[9127] = {
+		param = "I have the pistachio vanilla kind that you like. Come and get it later.",
+		ship_group = 10705,
+		option = "",
+		type = 1,
+		id = 9127,
+		flag = 0
+	},
+	[9128] = {
+		param = "Thank you, everyone! But...",
+		ship_group = 10125,
+		option = "",
+		type = 1,
+		id = 9128,
+		flag = 0
+	},
+	[9129] = {
+		param = "You'd much rather have the specific ice cream that you stood in line for, right? That's rough.",
+		ship_group = 10124,
+		option = "",
+		type = 1,
+		id = 9129,
+		flag = 0
+	},
+	[9130] = {
+		param = "Do you think someone took it by mistake?",
+		ship_group = 10208,
+		option = "",
+		type = 1,
+		id = 9130,
+		flag = 0
+	},
+	[9131] = {
+		param = "That, or it's a prank...",
+		ship_group = 10314,
+		option = "",
+		type = 1,
+		id = 9131,
+		flag = 0
+	},
+	[9132] = {
+		param = "it wasn't me! i was showing off my flying for the commander!",
+		ship_group = 10110,
+		option = "",
+		type = 1,
+		id = 9132,
+		flag = 0
+	},
+	[9133] = {
+		param = "Me neither! I was playing hide-and-seek with the Commander!",
+		ship_group = 10802,
+		option = "",
+		type = 1,
+		id = 9133,
+		flag = 0
+	},
+	[9134] = {
+		param = "you were with the commander too???",
+		ship_group = 10110,
+		option = "",
+		type = 1,
+		id = 9134,
+		flag = 0
+	},
+	[9135] = {
+		param = "You were, too...?",
+		ship_group = 10802,
+		option = "",
+		type = 1,
+		id = 9135,
+		flag = 0
+	},
+	[9136] = {
+		param = "Sounds like you forgot to get your story straight beforehand...",
+		ship_group = 10155,
+		type = 1,
+		id = 9136,
+		flag = 0,
+		option = {
+			{
+				3,
+				"Was I mentioned?"
+			}
+		}
+	},
+	[9137] = {
+		param = "Was I mentioned?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9137,
+		flag = 3
+	},
+	[9138] = {
+		param = "crap! i forgot the commander is in this chat too!",
+		ship_group = 10110,
+		option = "",
+		type = 1,
+		id = 9138,
+		flag = 3
+	},
+	[9139] = {
+		param = "im sorryyy! i thought it would look suspicious if i just said i didnt do anything!",
+		ship_group = 10110,
+		option = "",
+		type = 1,
+		id = 9139,
+		flag = 3
+	},
+	[9140] = {
+		param = "Yeah! Same here!",
+		ship_group = 10802,
+		option = "",
+		type = 1,
+		id = 9140,
+		flag = 3
+	},
+	[9141] = {
+		param = "Wow, this chat is blowing up. What's going on?",
+		ship_group = 10707,
+		option = "",
+		type = 1,
+		id = 9141,
+		flag = 3
+	},
+	[9142] = {
+		param = "We're looking for clues to the mystery of who stole Hammann's ice cream!",
+		ship_group = 10149,
+		option = "",
+		type = 1,
+		id = 9142,
+		flag = 3
+	},
+	[9143] = {
+		param = "Ice cream? Was it pistachio vanilla flavored?",
+		ship_group = 10707,
+		option = "",
+		type = 1,
+		id = 9143,
+		flag = 3
+	},
+	[9144] = {
+		param = "YES, that one!",
+		ship_group = 10125,
+		option = "",
+		type = 1,
+		id = 9144,
+		flag = 3
+	},
+	[9145] = {
+		param = "Hornet... You didn't.",
+		ship_group = 19902,
+		option = "",
+		type = 1,
+		id = 9145,
+		flag = 3
+	},
+	[9146] = {
+		param = "201",
+		ship_group = 10709,
+		option = "",
+		type = 4,
+		id = 9146,
+		flag = 3
+	},
+	[9147] = {
+		param = "Huh? No, no! It wasn't me!",
+		ship_group = 10707,
+		option = "",
+		type = 1,
+		id = 9147,
+		flag = 3
+	},
+	[9148] = {
+		param = "Essex, you got pretty drunk at dinner last night. When we got back, you were going through the freezer looking for sweets, remember?",
+		ship_group = 10707,
+		option = "",
+		type = 1,
+		id = 9148,
+		flag = 3
+	},
+	[9149] = {
+		param = "You don't remember stuffing your face full of ice cream while crying about being made fun of?",
+		ship_group = 10707,
+		option = "",
+		type = 1,
+		id = 9149,
+		flag = 3
+	},
+	[9150] = {
+		param = ".........",
+		ship_group = 10709,
+		option = "",
+		type = 1,
+		id = 9150,
+		flag = 3
+	},
+	[9151] = {
+		param = "Now that you mention it, I noticed an empty box of ice cream in my room earlier...",
+		ship_group = 10709,
+		option = "",
+		type = 1,
+		id = 9151,
+		flag = 3
+	},
+	[9152] = {
+		param = "And it's solved! Great work, Hornet!",
+		ship_group = 10208,
+		option = "",
+		type = 1,
+		id = 9152,
+		flag = 3
+	},
+	[9153] = {
+		param = "Thanks! I don't know if I really deserve the praise, though...",
+		ship_group = 10707,
+		type = 1,
+		id = 9153,
+		flag = 3,
+		option = {
+			{
+				4,
+				"If you were drunk…"
+			}
+		}
+	},
+	[9154] = {
+		param = "If you were drunk, then no wonder you didn't remember.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9154,
+		flag = 4
+	},
+	[9155] = {
+		param = "I'm sure it wasn't on purpose, anyway.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9155,
+		flag = 4
+	},
+	[9156] = {
+		param = "Even if I was drunk, I'm really sorry, Hammann! I'll buy you ice cream for a whole year to make up for it!",
+		ship_group = 10709,
+		option = "",
+		type = 1,
+		id = 9156,
+		flag = 4
+	},
+	[9157] = {
+		param = "A whole year is a little much...",
+		ship_group = 10125,
+		option = "",
+		type = 1,
+		id = 9157,
+		flag = 4
+	},
+	[9158] = {
+		param = "She's saying yes.",
+		ship_group = 10124,
+		option = "",
+		type = 1,
+		id = 9158,
+		flag = 4
+	},
+	[9159] = {
+		param = "Hey!",
+		ship_group = 10125,
+		option = "",
+		type = 1,
+		id = 9159,
+		flag = 4
+	},
+	[9160] = {
+		param = "phew! now thats a relief. see i told you i didnt do it",
+		ship_group = 10110,
+		option = "",
+		type = 1,
+		id = 9160,
+		flag = 4
+	},
+	[9161] = {
+		param = "It's your fault for acting suspicious...",
+		ship_group = 10112,
+		option = "",
+		type = 1,
+		id = 9161,
+		flag = 4
+	},
+	[9162] = {
+		param = "Is it just me, or does getting tipsy and eating ice cream sound like a lot of fun?",
+		ship_group = 10139,
+		option = "",
+		type = 1,
+		id = 9162,
+		flag = 4
+	},
+	[9163] = {
+		param = "If anyone wants to try bad girl drinks, I know how to help get your hands on them.",
+		ship_group = 10153,
+		option = "",
+		type = 1,
+		id = 9163,
+		flag = 4
+	},
+	[9164] = {
+		param = "i wanna!",
+		ship_group = 10110,
+		option = "",
+		type = 1,
+		id = 9164,
+		flag = 4
+	},
+	[9165] = {
+		param = "Me, too!",
+		ship_group = 10802,
+		option = "",
+		type = 1,
+		id = 9165,
+		flag = 4
+	},
+	[9166] = {
+		param = "30",
+		ship_group = 10802,
+		option = "",
+		type = 4,
+		id = 9166,
+		flag = 4
 	}
 }

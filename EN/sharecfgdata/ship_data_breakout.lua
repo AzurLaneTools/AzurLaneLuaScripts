@@ -48751,6 +48751,7 @@ _G.pg.base.ship_data_breakout[10400012] = {
 	level = 30,
 	use_item = {},
 	weapon_ids = {
+		107,
 		107
 	}
 }
@@ -49028,6 +49029,7 @@ _G.pg.base.ship_data_breakout[10500012] = {
 	level = 30,
 	use_item = {},
 	weapon_ids = {
+		107,
 		107
 	}
 }
@@ -49238,6 +49240,7 @@ _G.pg.base.ship_data_breakout[10500042] = {
 	level = 30,
 	use_item = {},
 	weapon_ids = {
+		106,
 		106
 	}
 }
@@ -49517,6 +49520,7 @@ _G.pg.base.ship_data_breakout[10600012] = {
 	level = 30,
 	use_item = {},
 	weapon_ids = {
+		106,
 		106
 	}
 }
@@ -50109,6 +50113,422 @@ _G.pg.base.ship_data_breakout[10600094] = {
 	breakout_id = 0,
 	breakout_view = "None",
 	id = 10600094,
+	icon = "10001",
+	level = 0,
+	use_item = {},
+	weapon_ids = {}
+}
+
+
+_G.pg.base.ship_data_breakout[10600101] = {
+	use_gold = 1000,
+	pre_id = 0,
+	use_char_num = 1,
+	use_char = 1060010,
+	breakout_id = 10600102,
+	breakout_view = "All Dive Bombers +1/Aircraft efficiency +3%",
+	id = 10600101,
+	icon = "10001",
+	level = 10,
+	use_item = {},
+	weapon_ids = {
+		61181,
+		54014
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[10600102] = {
+	use_gold = 3000,
+	pre_id = 10600101,
+	use_char_num = 1,
+	use_char = 1060010,
+	breakout_id = 10600103,
+	breakout_view = "Hangar capacity +1/All Fighters +1/Aircraft efficiency +5%",
+	id = 10600102,
+	icon = "10001",
+	level = 30,
+	use_item = {},
+	weapon_ids = {
+		61182,
+		54014,
+		61182,
+		54014
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[10600103] = {
+	use_gold = 10000,
+	pre_id = 10600102,
+	use_char_num = 2,
+	use_char = 1060010,
+	breakout_id = 10600104,
+	breakout_view = "All aircraft +1/Aircraft efficiency +7%",
+	id = 10600103,
+	icon = "10001",
+	level = 70,
+	use_item = {},
+	weapon_ids = {
+		61183,
+		54015,
+		61183,
+		54015
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[10600104] = {
+	use_gold = 0,
+	pre_id = 10600103,
+	use_char_num = 0,
+	use_char = 1060010,
+	breakout_id = 0,
+	breakout_view = "None",
+	id = 10600104,
+	icon = "10001",
+	level = 0,
+	use_item = {},
+	weapon_ids = {}
+}
+
+
+_G.pg.base.ship_data_breakout[10600111] = {
+	use_gold = 1000,
+	pre_id = 0,
+	use_char_num = 1,
+	use_char = 1060011,
+	breakout_id = 10600112,
+	breakout_view = "Main gun base +1/Main gun efficiency +5%",
+	id = 10600111,
+	icon = "10001",
+	level = 10,
+	use_item = {},
+	weapon_ids = {
+		44100,
+		44100
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[10600112] = {
+	use_gold = 3000,
+	pre_id = 10600111,
+	use_char_num = 1,
+	use_char = 1060011,
+	breakout_id = 10600113,
+	breakout_view = "Secondary gun base +2/Main gun efficiency +10%",
+	id = 10600112,
+	icon = "10001",
+	level = 30,
+	use_item = {},
+	weapon_ids = {
+		101,
+		101,
+		101
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[10600113] = {
+	use_gold = 10000,
+	pre_id = 10600112,
+	use_char_num = 2,
+	use_char = 1060011,
+	breakout_id = 10600114,
+	breakout_view = "Main gun base +1/Main gun efficiency +15%",
+	id = 10600113,
+	icon = "10001",
+	level = 70,
+	use_item = {},
+	weapon_ids = {
+		44100,
+		44100,
+		44100
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[10600114] = {
+	use_gold = 0,
+	pre_id = 10600113,
+	use_char_num = 0,
+	use_char = 1060011,
+	breakout_id = 0,
+	breakout_view = "None",
+	id = 10600114,
+	icon = "10001",
+	level = 0,
+	use_item = {},
+	weapon_ids = {}
+}
+
+
+_G.pg.base.ship_data_breakout[10600121] = {
+	use_gold = 1000,
+	pre_id = 0,
+	use_char_num = 1,
+	use_char = 1060012,
+	breakout_id = 10600122,
+	breakout_view = "Main gun efficiency +5%",
+	id = 10600121,
+	icon = "10001",
+	level = 10,
+	use_item = {},
+	weapon_ids = {
+		33000
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[10600122] = {
+	use_gold = 3000,
+	pre_id = 10600121,
+	use_char_num = 1,
+	use_char = 1060012,
+	breakout_id = 10600123,
+	breakout_view = "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+	id = 10600122,
+	icon = "10001",
+	level = 30,
+	use_item = {},
+	weapon_ids = {
+		106,
+		106
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[10600123] = {
+	use_gold = 10000,
+	pre_id = 10600122,
+	use_char_num = 2,
+	use_char = 1060012,
+	breakout_id = 10600124,
+	breakout_view = "Torpedo efficiency +15%",
+	id = 10600123,
+	icon = "10001",
+	level = 70,
+	use_item = {},
+	weapon_ids = {
+		106,
+		106
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[10600124] = {
+	use_gold = 0,
+	pre_id = 10600123,
+	use_char_num = 0,
+	use_char = 1060012,
+	breakout_id = 0,
+	breakout_view = "None",
+	id = 10600124,
+	icon = "10001",
+	level = 0,
+	use_item = {},
+	weapon_ids = {}
+}
+
+
+_G.pg.base.ship_data_breakout[10600131] = {
+	use_gold = 1000,
+	pre_id = 0,
+	use_char_num = 1,
+	use_char = 1060013,
+	breakout_id = 10600132,
+	breakout_view = "Torpedo efficiency +5%",
+	id = 10600131,
+	icon = "10001",
+	level = 10,
+	use_item = {},
+	weapon_ids = {
+		106
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[10600132] = {
+	use_gold = 3000,
+	pre_id = 10600131,
+	use_char_num = 1,
+	use_char = 1060013,
+	breakout_id = 10600133,
+	breakout_view = "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+	id = 10600132,
+	icon = "10001",
+	level = 30,
+	use_item = {},
+	weapon_ids = {
+		106,
+		106
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[10600133] = {
+	use_gold = 10000,
+	pre_id = 10600132,
+	use_char_num = 2,
+	use_char = 1060013,
+	breakout_id = 10600134,
+	breakout_view = "All weapons' efficiency +5%",
+	id = 10600133,
+	icon = "10001",
+	level = 70,
+	use_item = {},
+	weapon_ids = {
+		106
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[10600134] = {
+	use_gold = 0,
+	pre_id = 10600133,
+	use_char_num = 0,
+	use_char = 1060013,
+	breakout_id = 0,
+	breakout_view = "None",
+	id = 10600134,
+	icon = "10001",
+	level = 0,
+	use_item = {},
+	weapon_ids = {}
+}
+
+
+_G.pg.base.ship_data_breakout[10600141] = {
+	use_gold = 1000,
+	pre_id = 0,
+	use_char_num = 1,
+	use_char = 1060014,
+	breakout_id = 10600142,
+	breakout_view = "Torpedo efficiency +5%",
+	id = 10600141,
+	icon = "10001",
+	level = 10,
+	use_item = {},
+	weapon_ids = {
+		140
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[10600142] = {
+	use_gold = 3000,
+	pre_id = 10600141,
+	use_char_num = 1,
+	use_char = 1060014,
+	breakout_id = 10600143,
+	breakout_view = "Torpedo base +1/Improve hunting range",
+	id = 10600142,
+	icon = "10001",
+	level = 30,
+	use_item = {},
+	weapon_ids = {
+		140,
+		140,
+		140,
+		140
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[10600143] = {
+	use_gold = 10000,
+	pre_id = 10600142,
+	use_char_num = 2,
+	use_char = 1060014,
+	breakout_id = 10600144,
+	breakout_view = "Torpedo efficiency +10%",
+	id = 10600143,
+	icon = "10001",
+	level = 70,
+	use_item = {},
+	weapon_ids = {
+		140
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[10600144] = {
+	use_gold = 0,
+	pre_id = 10600143,
+	use_char_num = 0,
+	use_char = 1060014,
+	breakout_id = 0,
+	breakout_view = "None",
+	id = 10600144,
+	icon = "10001",
+	level = 0,
+	use_item = {},
+	weapon_ids = {}
+}
+
+
+_G.pg.base.ship_data_breakout[10600151] = {
+	use_gold = 1000,
+	pre_id = 0,
+	use_char_num = 1,
+	use_char = 1060015,
+	breakout_id = 10600152,
+	breakout_view = "Main gun efficiency +5%",
+	id = 10600151,
+	icon = "10001",
+	level = 10,
+	use_item = {},
+	weapon_ids = {
+		12000
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[10600152] = {
+	use_gold = 3000,
+	pre_id = 10600151,
+	use_char_num = 1,
+	use_char = 1060015,
+	breakout_id = 10600153,
+	breakout_view = "Main gun base +1/Main gun efficiency +10%",
+	id = 10600152,
+	icon = "10001",
+	level = 30,
+	use_item = {},
+	weapon_ids = {
+		12000,
+		12000
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[10600153] = {
+	use_gold = 10000,
+	pre_id = 10600152,
+	use_char_num = 2,
+	use_char = 1060015,
+	breakout_id = 10600154,
+	breakout_view = "Main gun efficiency +15%",
+	id = 10600153,
+	icon = "10001",
+	level = 70,
+	use_item = {},
+	weapon_ids = {
+		12000,
+		12000
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[10600154] = {
+	use_gold = 0,
+	pre_id = 10600153,
+	use_char_num = 0,
+	use_char = 1060015,
+	breakout_id = 0,
+	breakout_view = "None",
+	id = 10600154,
 	icon = "10001",
 	level = 0,
 	use_item = {},
@@ -52942,6 +53362,7 @@ _G.pg.base.ship_data_breakout[11300042] = {
 	level = 30,
 	use_item = {},
 	weapon_ids = {
+		106,
 		106
 	}
 }

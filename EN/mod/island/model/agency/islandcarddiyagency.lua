@@ -23,6 +23,10 @@ slot0.GetIds = function(slot0)
 	return underscore.keys(slot0.data)
 end
 
+slot0.GetIdCount = function(slot0, slot1)
+	return slot0.data[slot1] and slot0.data[slot1].count or 0
+end
+
 slot0.AddCardDiy = function(slot0, slot1)
 	if slot0.data[slot1.id] then
 		slot0.data[slot1.id]:AddCount(slot1.num)

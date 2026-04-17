@@ -364,6 +364,8 @@ pg.strategy_data_template = setmetatable({
 		201705,
 		201706,
 		201707,
+		201741,
+		201742,
 		205001,
 		205002,
 		205003,
@@ -4561,6 +4563,44 @@ Your ships become briefly invulnerable after taking DMG.
 		iconSize = "",
 		buff_type = 0,
 		id = 201707,
+		icon = "200908",
+		arg = {}
+	},
+	[201741] = {
+		buff_id = 0,
+		name = "Challenge Mode",
+		desc = [[
+The boss takes reduced DMG from ships more than 20 units away <color=#92fc63>(1.0% reduced DMG taken for every 1 unit greater than 20, up to 50.0%)</color> and deals increased DMG to ships more than 20 units away <color=#92fc63>(2.0% increased DMG dealt for every 1 unit greater than 20, up to 100.0%)</color>.
+The boss takes <color=#92fc63>100.0% increased shelling DMG and 50.0% increased torpedo DMG from your Vanguard fleet</color>.
+The boss is able to shoot down bombers easily.
+<color=#ddf700>Hint: The distance between the boss's initial position and the left-most range of your Vanguard fleet's movement is approximately 70 units.</color>]],
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201741,
+		icon = "200908",
+		arg = {}
+	},
+	[201742] = {
+		buff_id = 0,
+		name = "Challenge Mode",
+		desc = [[
+The boss takes reduced DMG from ships more than 20 units away <color=#92fc63>(1.0% reduced DMG taken for every 1 unit greater than 20, up to 50.0%)</color> and deals increased DMG to ships more than 20 units away <color=#92fc63>(2.0% increased DMG dealt for every 1 unit greater than 20, up to 100.0%)</color>.
+The boss takes <color=#92fc63>100.0% increased shelling DMG and 50.0% increased torpedo DMG from your Vanguard fleet</color>.
+The boss is able to shoot down bombers easily.
+<color=#ddf700>Hint: The distance between the boss's initial position and the left-most range of your Vanguard fleet's movement is approximately 70 units</color>.
+
+- Hard Mode Details -
+Enemy DMG dealt is <color=#ffc038>significantly increased</color>. Large enemy shells cannot be nullified by airstrikes or shields.
+The hitbox of your Vanguard fleet is <color=#92fc63>limited to only the frontmost ship, and the size of the hitbox is also significantly reduced</color>.
+When your ship is hit, it will become invulnerable for a short period of time.
+
+The following gear or skills are rendered ineffective:
+[Fiercer When Cornered], [Operation Rainbow], [Eleventh Hour], [I Will Not Yield!]]],
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201742,
 		icon = "200908",
 		arg = {}
 	},

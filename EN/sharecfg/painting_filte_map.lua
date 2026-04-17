@@ -1695,6 +1695,27 @@ pg.painting_filte_map = {
 			"painting/baiyanjuren_3"
 		}
 	},
+	baiyanjuren_4 = {
+		key = "baiyanjuren_4",
+		res_list = {
+			"painting/baiyanjuren_4_tex",
+			"painting/baiyanjuren_4_rw_tex",
+			"painting/baiyanjuren_4_rw_hx_tex",
+			"painting/baiyanjuren_4_n_tex",
+			"painting/baiyanjuren_4_n_rw_tex",
+			"painting/baiyanjuren_4_n_rw_hx_tex",
+			"painting/baiyanjuren_4_n_hx_tex",
+			"painting/baiyanjuren_4_n_hx",
+			"painting/baiyanjuren_4_n_bj_tex",
+			"painting/baiyanjuren_4_n_bj_hx_tex",
+			"painting/baiyanjuren_4_n",
+			"painting/baiyanjuren_4_hx_tex",
+			"painting/baiyanjuren_4_hx",
+			"painting/baiyanjuren_4_bj_tex",
+			"painting/baiyanjuren_4_bj_hx_tex",
+			"painting/baiyanjuren_4"
+		}
+	},
 	balaka = {
 		key = "balaka",
 		res_list = {
@@ -2111,6 +2132,16 @@ pg.painting_filte_map = {
 			"painting/beikaluolaina_2_n_tex",
 			"painting/beikaluolaina_2_n",
 			"painting/beikaluolaina_2"
+		}
+	},
+	beikaluolaina_3 = {
+		key = "beikaluolaina_3",
+		res_list = {
+			"painting/beikaluolaina_3_tex",
+			"painting/beikaluolaina_3_rw_tex",
+			"painting/beikaluolaina_3_n_rw_tex",
+			"painting/beikaluolaina_3_n",
+			"painting/beikaluolaina_3"
 		}
 	},
 	beilaosenlin = {
@@ -6760,6 +6791,16 @@ pg.painting_filte_map = {
 		res_list = {
 			"painting/haixiao_2_doa_tex",
 			"painting/haixiao_2_doa"
+		}
+	},
+	haixiao_3_doa = {
+		key = "haixiao_3_doa",
+		res_list = {
+			"painting/haixiao_3_doa_tex",
+			"painting/haixiao_3_doa_rw_tex",
+			"painting/haixiao_3_doa_n_rw_tex",
+			"painting/haixiao_3_doa_n",
+			"painting/haixiao_3_doa"
 		}
 	},
 	haixiao_doa = {
@@ -12770,6 +12811,29 @@ pg.painting_filte_map = {
 			"painting/muyue_g"
 		}
 	},
+	na_2_doa = {
+		key = "na_2_doa",
+		res_list = {
+			"painting/na_2_doa_tex",
+			"painting/na_2_doa_rw_tex",
+			"painting/na_2_doa_n_rw_tex",
+			"painting/na_2_doa_n",
+			"painting/na_2_doa_bj_tex",
+			"painting/na_2_doa"
+		}
+	},
+	na_doa = {
+		key = "na_doa",
+		res_list = {
+			"painting/na_doa_tex",
+			"painting/na_doa_rw_tex",
+			"painting/na_doa_n_tex",
+			"painting/na_doa_n_rw_tex",
+			"painting/na_doa_n",
+			"painting/na_doa_bj_tex",
+			"painting/na_doa"
+		}
+	},
 	nabulesi = {
 		key = "nabulesi",
 		res_list = {
@@ -13843,6 +13907,27 @@ pg.painting_filte_map = {
 			"painting/ouruola_h"
 		}
 	},
+	paidi_2_doa = {
+		key = "paidi_2_doa",
+		res_list = {
+			"painting/paidi_2_doa_tex",
+			"painting/paidi_2_doa_rw_tex",
+			"painting/paidi_2_doa_n_rw_tex",
+			"painting/paidi_2_doa_n",
+			"painting/paidi_2_doa"
+		}
+	},
+	paidi_doa = {
+		key = "paidi_doa",
+		res_list = {
+			"painting/paidi_doa_tex",
+			"painting/paidi_doa_rw_tex",
+			"painting/paidi_doa_n_tex",
+			"painting/paidi_doa_n_rw_tex",
+			"painting/paidi_doa_n",
+			"painting/paidi_doa"
+		}
+	},
 	pangpeimagenuo = {
 		key = "pangpeimagenuo",
 		res_list = {
@@ -14309,6 +14394,31 @@ pg.painting_filte_map = {
 			"painting/qianlai_3_n_tex",
 			"painting/qianlai_3_n",
 			"painting/qianlai_3"
+		}
+	},
+	qiannai_2_doa = {
+		key = "qiannai_2_doa",
+		res_list = {
+			"painting/qiannai_2_doa_tex",
+			"painting/qiannai_2_doa_rw_tex",
+			"painting/qiannai_2_doa_n_tex",
+			"painting/qiannai_2_doa_n_rw_tex",
+			"painting/qiannai_2_doa_n_bj_tex",
+			"painting/qiannai_2_doa_n",
+			"painting/qiannai_2_doa_bj_tex",
+			"painting/qiannai_2_doa"
+		}
+	},
+	qiannai_doa = {
+		key = "qiannai_doa",
+		res_list = {
+			"painting/qiannai_doa_tex",
+			"painting/qiannai_doa_rw_tex",
+			"painting/qiannai_doa_n_tex",
+			"painting/qiannai_doa_n_rw_tex",
+			"painting/qiannai_doa_n",
+			"painting/qiannai_doa_bj_tex",
+			"painting/qiannai_doa"
 		}
 	},
 	qiansui = {
@@ -18667,6 +18777,29 @@ pg.painting_filte_map = {
 			"painting/xiangbin_h"
 		}
 	},
+	xiangdi_2_doa = {
+		key = "xiangdi_2_doa",
+		res_list = {
+			"painting/xiangdi_2_doa_tex",
+			"painting/xiangdi_2_doa_rw_tex",
+			"painting/xiangdi_2_doa_n_rw_tex",
+			"painting/xiangdi_2_doa_n",
+			"painting/xiangdi_2_doa_bj_tex",
+			"painting/xiangdi_2_doa"
+		}
+	},
+	xiangdi_doa = {
+		key = "xiangdi_doa",
+		res_list = {
+			"painting/xiangdi_doa_tex",
+			"painting/xiangdi_doa_rw_tex",
+			"painting/xiangdi_doa_n_tex",
+			"painting/xiangdi_doa_n_rw_tex",
+			"painting/xiangdi_doa_n",
+			"painting/xiangdi_doa_bj_tex",
+			"painting/xiangdi_doa"
+		}
+	},
 	xiangfeng = {
 		key = "xiangfeng",
 		res_list = {
@@ -20091,6 +20224,16 @@ pg.painting_filte_map = {
 			"painting/yichui_5"
 		}
 	},
+	yichui_7 = {
+		key = "yichui_7",
+		res_list = {
+			"painting/yichui_7_tex",
+			"painting/yichui_7_rw_tex",
+			"painting/yichui_7_n_rw_tex",
+			"painting/yichui_7_n",
+			"painting/yichui_7"
+		}
+	},
 	yikaluosi = {
 		key = "yikaluosi",
 		res_list = {
@@ -20198,6 +20341,31 @@ pg.painting_filte_map = {
 			"painting/yilishabai_alter_n_tex",
 			"painting/yilishabai_alter_n",
 			"painting/yilishabai_alter"
+		}
+	},
+	yilisi_2_doa = {
+		key = "yilisi_2_doa",
+		res_list = {
+			"painting/yilisi_2_doa_tex",
+			"painting/yilisi_2_doa_rw_tex",
+			"painting/yilisi_2_doa_n_rw_tex",
+			"painting/yilisi_2_doa_n",
+			"painting/yilisi_2_doa_bj_tex",
+			"painting/yilisi_2_doa"
+		}
+	},
+	yilisi_doa = {
+		key = "yilisi_doa",
+		res_list = {
+			"painting/yilisi_doa_tex",
+			"painting/yilisi_doa_rw_tex",
+			"painting/yilisi_doa_n_tex",
+			"painting/yilisi_doa_n_rw_tex",
+			"painting/yilisi_doa_n_bj_tex",
+			"painting/yilisi_doa_n",
+			"painting/yilisi_doa_bj2_tex",
+			"painting/yilisi_doa_bj1_tex",
+			"painting/yilisi_doa"
 		}
 	},
 	yindianna = {
@@ -21966,6 +22134,29 @@ pg.painting_filte_map = {
 			"painting/zhusaipei_2_n_tex",
 			"painting/zhusaipei_2_n",
 			"painting/zhusaipei_2"
+		}
+	},
+	zhuzi_2_doa = {
+		key = "zhuzi_2_doa",
+		res_list = {
+			"painting/zhuzi_2_doa_tex",
+			"painting/zhuzi_2_doa_rw_tex",
+			"painting/zhuzi_2_doa_n_rw_tex",
+			"painting/zhuzi_2_doa_n",
+			"painting/zhuzi_2_doa_bj_tex",
+			"painting/zhuzi_2_doa"
+		}
+	},
+	zhuzi_doa = {
+		key = "zhuzi_doa",
+		res_list = {
+			"painting/zhuzi_doa_tex",
+			"painting/zhuzi_doa_rw_tex",
+			"painting/zhuzi_doa_n_tex",
+			"painting/zhuzi_doa_n_rw_tex",
+			"painting/zhuzi_doa_n",
+			"painting/zhuzi_doa_bj_tex",
+			"painting/zhuzi_doa"
 		}
 	},
 	zi = {

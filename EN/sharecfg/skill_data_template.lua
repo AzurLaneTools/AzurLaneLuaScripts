@@ -381,6 +381,9 @@ pg.skill_data_template = setmetatable({
 		61040,
 		61050,
 		61060,
+		61070,
+		61080,
+		61090,
 		7000,
 		9010,
 		9020,
@@ -2202,6 +2205,30 @@ pg.skill_data_template = setmetatable({
 		106340,
 		106350,
 		106360,
+		106370,
+		106380,
+		106390,
+		106400,
+		106410,
+		106420,
+		106430,
+		106440,
+		106450,
+		106460,
+		106470,
+		106480,
+		106490,
+		106500,
+		106510,
+		106520,
+		106530,
+		106540,
+		106550,
+		106560,
+		106570,
+		106580,
+		106590,
+		106600,
 		107010,
 		107020,
 		107030,
@@ -13621,6 +13648,48 @@ When equipped by Yumia Liessfeldt: adds a special Anti-Air Gun and, 25s after th
 		max_level = 0,
 		desc = "When the wearer takes DMG: increases the wearer's DMG dealt by 3.0% and DMG taken by 1.0% for 20s (30s cooldown between activations).",
 		id = 61060,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[61070] = {
+		desc_get = "",
+		name = "Electrifying Deco-Pen",
+		type = 0,
+		max_level = 0,
+		desc = "Changes the BGM when equipped. If other gear that changes the BGM is active simultaneously, only a randomly chosen one will take effect.",
+		id = 61070,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[61080] = {
+		desc_get = "",
+		name = "Gravure Photocard",
+		type = 0,
+		max_level = 0,
+		desc = "When equipped by a Venus Vacation ship: increases the wearer's Main Gun, Torpedo, and Airstrike Crit Rate by 3.0%.",
+		id = 61080,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[61090] = {
+		desc_get = "",
+		name = "Clover of Happiness",
+		type = 0,
+		max_level = 0,
+		desc = "Every 20s during battle: restores 1.0% Max HP to the wearer (can be activated up to 3 times per battle).",
+		id = 61090,
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -149116,6 +149185,2399 @@ When this ship fires her Main Guns: spends all Charge and increases this ship's 
 				}
 			}
 		}
+	},
+	[106370] = {
+		desc_get = "",
+		name = "Handmade Bento",
+		type = 2,
+		max_level = 10,
+		desc = "At the start of battle: increases the fleet's FP, AA, and EVA by $1 (this effect lasts until Shizuku's next Main Gun attack).\nWhenever Shizuku fires her Main Guns: increases the fleet's FP, AA, and EVA based on her Main Guns' reloading time (1.0% increase for every $2s spent reloading); this effect lasts until the next time this ship fires her Main Guns.",
+		id = 106370,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"4",
+				"3"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"4"
+				},
+				{
+					"4"
+				},
+				{
+					"4"
+				},
+				{
+					"4"
+				},
+				{
+					"4"
+				},
+				{
+					"4"
+				},
+				{
+					"3"
+				},
+				{
+					"3"
+				},
+				{
+					"3"
+				},
+				{
+					"3"
+				}
+			}
+		}
+	},
+	[106380] = {
+		desc_get = "",
+		name = "Foxy Cosplay",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's FP by $1. Whenever this ship fires her Main Guns: $2 chance to fire a $3 special barrage (DMG is based on the skill's level).\nEvery 10s during battle: restores $4 Max HP to the ally with the lowest current percentage of HP and another random ally.\nOnce per battle, when an ally falls below 20.0% Max HP as a result of DMG taken, restores 8.0% of Shizuku's Max HP to that ship. When this effect activates: this skill's special barrage is enhanced until the end of battle, increases this ship's FP by 5.0%, then immediately fires this barrage again.",
+		id = 106380,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"50.0%",
+				"80.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"1.0%",
+				"2.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"50.0%",
+					"+3.3%"
+				},
+				{
+					"53.3%",
+					"+3.3%"
+				},
+				{
+					"56.6%",
+					"+3.3%"
+				},
+				{
+					"59.9%",
+					"+3.3%"
+				},
+				{
+					"63.2%",
+					"+3.3%"
+				},
+				{
+					"66.5%",
+					"+3.3%"
+				},
+				{
+					"69.8%",
+					"+3.3%"
+				},
+				{
+					"73.1%",
+					"+3.3%"
+				},
+				{
+					"76.4%",
+					"+3.6%"
+				},
+				{
+					"80%"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.09%"
+				},
+				{
+					"1.09%",
+					"+0.09%"
+				},
+				{
+					"1.18%",
+					"+0.12%"
+				},
+				{
+					"1.3%",
+					"+0.09%"
+				},
+				{
+					"1.39%",
+					"+0.09%"
+				},
+				{
+					"1.48%",
+					"+0.12%"
+				},
+				{
+					"1.6%",
+					"+0.12%"
+				},
+				{
+					"1.72%",
+					"+0.12%"
+				},
+				{
+					"1.84%",
+					"+0.16%"
+				},
+				{
+					"2.0%"
+				}
+			}
+		}
+	},
+	[106390] = {
+		desc_get = "",
+		name = "Foxy Cosplay+",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's FP by $1. Whenever this ship fires her Main Guns: $2 chance to fire a $3 special barrage (DMG is based on the skill's level).\nEvery 10s during battle: restores $4 Max HP to the ally with the lowest current percentage of HP and another random ally; if the target of this restoration effect is under 33.0% Max HP, the amount restored is increased by 50.0%.\nOnce per battle, when an ally falls below 20.0% Max HP as a result of DMG taken, restores 8.0% of Shizuku's Max HP to that ship. When this effect activates: this skill's special barrage is enhanced until the end of battle, increases this ship's FP by 5.0%, then immediately fires this barrage again.",
+		id = 106390,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"50.0%",
+				"100.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"1.0%",
+				"2.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"50.0%",
+					"+5.0%"
+				},
+				{
+					"55.0%",
+					"+5.0%"
+				},
+				{
+					"60.0%",
+					"+5.0%"
+				},
+				{
+					"65.0%",
+					"+5.0%"
+				},
+				{
+					"70.0%",
+					"+5.0%"
+				},
+				{
+					"75.0%",
+					"+5.0%"
+				},
+				{
+					"80.0%",
+					"+5.0%"
+				},
+				{
+					"85.0%",
+					"+5.0%"
+				},
+				{
+					"90.0%",
+					"+10.0%"
+				},
+				{
+					"100%"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.09%"
+				},
+				{
+					"1.09%",
+					"+0.09%"
+				},
+				{
+					"1.18%",
+					"+0.12%"
+				},
+				{
+					"1.3%",
+					"+0.09%"
+				},
+				{
+					"1.39%",
+					"+0.09%"
+				},
+				{
+					"1.48%",
+					"+0.12%"
+				},
+				{
+					"1.6%",
+					"+0.12%"
+				},
+				{
+					"1.72%",
+					"+0.12%"
+				},
+				{
+					"1.84%",
+					"+0.16%"
+				},
+				{
+					"2.0%"
+				}
+			}
+		}
+	},
+	[106400] = {
+		desc_get = "",
+		name = "Host of the Harvest Festival",
+		type = 1,
+		max_level = 1,
+		desc = "For 30s after the start of battle: restores 1.0% of the fleet's Max HP every 15s; afterwards, reduces the DMG this ship takes by 5.0% until the end of battle.",
+		id = 106400,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[106410] = {
+		desc_get = "",
+		name = "Neon Pink Burst",
+		type = 1,
+		max_level = 10,
+		desc = "At the start of battle, increases this ship's FP and ACC by $1. Every 15s after the start of battle: $2 chance to fire a $3 special barrage (DMG is based on the skill's level), inflicting Armor Break on enemies hit.",
+		id = 106410,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"4.0%",
+				"10.0%"
+			},
+			{
+				"40.0%",
+				"70.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[106420] = {
+		desc_get = "",
+		name = "Neon Pink Burst +",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's Main Gun efficiency by $1. At the start of battle, increases this ship's FP and ACC by $2. Every 15s after the start of battle: $3 chance to fire a $4 special barrage (DMG is based on the skill's level), inflicting Armor Break on enemies hit. When an allied ship fires her AA guns for the first time each battle: immediately fires this barrage an additional time.",
+		id = 106420,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"4.0%",
+				"10.0%"
+			},
+			{
+				"50.0%",
+				"100.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"50.0%",
+					"+5.5%"
+				},
+				{
+					"55.5%",
+					"+5.5%"
+				},
+				{
+					"61%",
+					"+5.5%"
+				},
+				{
+					"66.5%",
+					"+5.5%"
+				},
+				{
+					"72.0%",
+					"+5.5%"
+				},
+				{
+					"77.5%",
+					"+5.5%"
+				},
+				{
+					"83.0%",
+					"+5.5%"
+				},
+				{
+					"88.5%",
+					"+5.5%"
+				},
+				{
+					"94.0%",
+					"+6.0%"
+				},
+				{
+					"100.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[106430] = {
+		desc_get = "",
+		name = "Supporting What You \"Love\"!",
+		type = 2,
+		max_level = 10,
+		desc = [[
+During battle, sends support to allies if certain conditions are met!
+1) When a ship in your Main Fleet readies a Salvo or an Airstrike: increases that ship's DMG dealt by $1 for 8s;
+2) When a ship in your Vanguard readies a Torpedo strike: increases that ship's Crit Rate by $2 for 8s;
+3) When a ship falls below 20.0% HP as a result of DMG taken: restores $3 Max HP to that ship.
+Each effect can only trigger once every 8s, up to a maximum of twice per battle. Each time this ship sends support: increases this ship's EVA by 5.0% and reduces her DMG taken by 5.0% for 8s.]],
+		id = 106430,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"3.5%",
+				"8.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[106440] = {
+		desc_get = "",
+		name = "Bittersweet Aftertaste",
+		type = 1,
+		max_level = 1,
+		desc = "For 15s after the start of battle: reduces this ship's SPD by 2 and increases AA by 10.0%. Afterwards, increases Secondary Gun efficiency by 10.0% until the end of battle.",
+		id = 106440,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[106450] = {
+		desc_get = "",
+		name = "Greetings From Below",
+		type = 1,
+		max_level = 10,
+		desc = "At the start of battle: fires a $1 special barrage (DMG is based on the skill's level), reducing the SPD of enemies hit by 20.0% for 8s.",
+		id = 106450,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[106460] = {
+		desc_get = "",
+		name = "Greetings From Below+",
+		type = 1,
+		max_level = 10,
+		desc = "At the start of battle: fires a $1 special barrage (improved; DMG is based on the skill's level), reducing the SPD of enemies hit by 20.0% and increasing the DMG they take from Venus Vacation ships by $2 for 8s.",
+		id = 106460,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"3.5%",
+				"8.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			}
+		}
+	},
+	[106470] = {
+		desc_get = "",
+		name = "Keen Danger Senses",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this boat's OXY by $1. When this boat surfaces: fires a $2 special barrage (DMG is based on the skill's level), reducing the DMG dealt by enemies hit by 8.0% for 10s. While retreating: increases this boat's SPD by 50.0%.",
+		id = 106470,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"2",
+				"20"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"2",
+					"+2"
+				},
+				{
+					"4",
+					"+2"
+				},
+				{
+					"6",
+					"+2"
+				},
+				{
+					"8",
+					"+2"
+				},
+				{
+					"10",
+					"+2"
+				},
+				{
+					"12",
+					"+2"
+				},
+				{
+					"14",
+					"+2"
+				},
+				{
+					"16",
+					"+2"
+				},
+				{
+					"18",
+					"+2"
+				},
+				{
+					"20"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[106480] = {
+		desc_get = "",
+		name = "Delicious, Hearty Hamburger",
+		type = 1,
+		max_level = 1,
+		desc = "For 20s after the start of battle: increases the wearer's SPD by 3; afterwards, reduces the DMG this ship takes by 10.0% until the end of battle.",
+		id = 106480,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[106490] = {
+		desc_get = "",
+		name = "Elise's Tactical Guidance",
+		type = 3,
+		max_level = 10,
+		desc = [[
+Every 10s: fires a $1 special barrage (DMG is based on the skill's level). During battle, when another allied Main Fleet ship finishes loading a Salvo or an Airstrike: increases that ship's and Elise's DMG dealt by $2 for 8s; Furthermore, applies an additional effect based on the type of allied ship triggering this effect:
+BB, BC, or BBV: increases that ship's FP by $3 for 8s;
+CV, CVL, or BBV: increases that ship's AVI by $3 for 8s.
+The status boost and DMG boost effects of this skill cannot be stacked.]],
+		id = 106490,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[106500] = {
+		desc_get = "",
+		name = "Instructor's Duty",
+		type = 1,
+		max_level = 10,
+		desc = "At the start of battle, if there are two or more Venus Vacation ships in the same fleet: increases this ship's Aircraft efficiency by 5.0%. Whenever this ship launches an airstrike: launches an additional $1 special airstrike (DMG is based on the skill's level).",
+		id = 106500,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[106510] = {
+		desc_get = "",
+		name = "Instructor's Duty+",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's AVI by $2. At the start of battle, if there are 2 or more Venus Vacation ships in the same fleet: increases this ship's Aircraft efficiency by 5.0%.\nWhenever this ship launches an airstrike: launches an additional $1 special airstrike (improved; DMG is based on the skill's level); if this is Elise's first airstrike during this battle: reduces the loading time of Venus Vacation CVs and CVLs' next airstrike by 20.0%.",
+		id = 106510,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[106520] = {
+		desc_get = "",
+		name = "Monochromatic Mage",
+		type = 1,
+		max_level = 1,
+		desc = "For 30s after the start of battle: increases this ship's ACC by 10.0%. Afterwards, reduces this ship's DMG taken by 10.0% until the end of battle.",
+		id = 106520,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[106530] = {
+		desc_get = "",
+		name = "Dreamy Mixology",
+		type = 3,
+		max_level = 10,
+		desc = [[
+At the start of battle and every 20s after that: performs a feat of mixology and applies [Venus Concoction] to 2 random Vanguard allies. The possible effects are:
+1) [Golden Venus Concoction]: Increases this ship's ACC and RLD by $1 for 20s;
+2) [Crimson Venus Concoction]: Increases this ship's Crit Rate and Crit DMG by $1 for 20s;
+3) [Verdant Venus Concoction]: Increases this ship's EVA by $2 and reduces this ship's DMG taken by $2 for 20s;
+4) [Cosmopolitan]: Grants the effects of all of the above [Venus Concoctions].]],
+		id = 106530,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[106540] = {
+		desc_get = "",
+		name = "Flawless Focus",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's FP and TRP by $1. Every 20s: randomly targets one enemy, reducing its SPD by 10.0% for 16s; while there is a targeted enemy on the field: every 3s, performs a $2 special attack at that enemy, which ignores shields (DMG is based on the skill's level); every 6 times this ship fires her Main Guns: fires a $2 special barrage (DMG is based on the skill's level).",
+		id = 106540,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[106550] = {
+		desc_get = "",
+		name = "Flawless Focus+",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's FP and TRP by $1. Every 20s: randomly targets one enemy (prioritizing humanoid enemies), reducing its SPD by 10.0% for 16s; while there is a targeted enemy on the field: every 3s, performs a $2 special attack at that enemy, which ignores shields (DMG is based on the skill's level); every 4 times this ship fires her Main Guns: fires a $2 special barrage (DMG is based on the skill's level).",
+		id = 106550,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[106560] = {
+		desc_get = "",
+		name = "Chili Crab",
+		type = 1,
+		max_level = 1,
+		desc = "For the first 40s of battle: increases this ship's ACC by 10.0%. Afterwards, increases this ship's AA by 10.0% until the end of battle.",
+		id = 106560,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[106570] = {
+		desc_get = "",
+		name = "Impactful Composition",
+		type = 1,
+		max_level = 10,
+		desc = "At the start of battle, increases this ship's FP and TRP by $1. For each Venus Vacation ship in the fleet (up to a maximum of 3): increases this ship's ACC and RLD by $2. Every 20s during battle: fires a $3 special barrage (DMG is based on the skill's level); enemies hit by this barrage take 5.0% increased DMG from Tsukushi (cannot be stacked).",
+		id = 106570,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[106580] = {
+		desc_get = "",
+		name = "Impactful Composition+",
+		type = 1,
+		max_level = 10,
+		desc = "At the start of battle, increases this ship's FP and TRP by $1. For each Venus Vacation ship in the fleet (up to a maximum of 3): increases this ship's ACC and RLD by $2. Every 20s during battle: fires an enhanced $3 special barrage (DMG is based on the skill's level); enemies hit by this barrage take 10.0% increased DMG from Tsukushi (cannot be stacked).",
+		id = 106580,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[106590] = {
+		desc_get = "",
+		name = "Homebody's Leisure Time",
+		type = 2,
+		max_level = 10,
+		desc = "At the start of battle, increases this ship's EVA by $1 and generates a barrier that lasts until the end of battle; this barrier can absorb up to $2 of this ship's Max HP. When this barrier is broken: restores $3 Max HP to this ship and reduces DMG taken by 5.0% until the end of battle.",
+		id = 106590,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"3.5%",
+				"8.0%"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			}
+		}
+	},
+	[106600] = {
+		desc_get = "",
+		name = "Burst of Inspiration",
+		type = 1,
+		max_level = 1,
+		desc = "For 45s after the start of battle: increases this ship's Crit Rate by 20.0%; When this effect ends, fires a special barrage one time only (DMG is based on the skill's level).",
+		id = 106600,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
 	},
 	[107010] = {
 		desc_get = "",

@@ -220,6 +220,8 @@ slot0.OtherPlayerCardDestroy = function(slot0, slot1)
 	for slot6, slot7 in pairs(slot2) do
 		slot7:Destroy()
 	end
+
+	slot0.otherPlayerCardDic[slot1] = {}
 end
 
 slot0.PlayerCardSetActive = function(slot0, slot1, slot2)

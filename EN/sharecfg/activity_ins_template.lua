@@ -25977,15 +25977,177 @@ pg.activity_ins_template = {
 			6981
 		}
 	},
+	[637] = {
+		ship_group = 10990,
+		name = "Elise",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "yilisi_DOA",
+		id = 637,
+		group_id = 637,
+		time = {
+			{
+				2026,
+				4,
+				17
+			},
+			{
+				15,
+				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[638] = {
+		ship_group = 10991,
+		name = "Shizuku",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "na_DOA",
+		id = 638,
+		group_id = 638,
+		time = {
+			{
+				2026,
+				4,
+				18
+			},
+			{
+				16,
+				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[639] = {
+		ship_group = 10992,
+		name = "Shandy",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "xiangdi_DOA",
+		id = 639,
+		group_id = 639,
+		time = {
+			{
+				2026,
+				4,
+				19
+			},
+			{
+				20,
+				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[640] = {
+		ship_group = 10993,
+		name = "Tsukushi",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "zhuzi_DOA",
+		id = 640,
+		group_id = 640,
+		time = {
+			{
+				2026,
+				4,
+				20
+			},
+			{
+				14,
+				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[641] = {
+		ship_group = 10994,
+		name = "Patty",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "paidi_DOA",
+		id = 641,
+		group_id = 641,
+		time = {
+			{
+				2026,
+				4,
+				21
+			},
+			{
+				11,
+				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[642] = {
+		ship_group = 10995,
+		name = "Yukino",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "qiannai_DOA",
+		id = 642,
+		group_id = 642,
+		time = {
+			{
+				2026,
+				4,
+				22
+			},
+			{
+				13,
+				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	[20001] = {
 		ship_group = 0,
 		name = "",
 		type = 2,
-		picture_persist = "https://blhxusstatic.yo-star.com/pic/260326_OA4bigldklYOjgVP5SyeJa.png",
+		picture_persist = "",
 		title = "Follow Juu Port Updates Today!",
-		message_persist = "ins_20001",
-		is_active = 0,
-		oalist_pic_persist = "https://blhxusstatic.yo-star.com/pic/260326_OA4small8EQug8e3sX1bYtqN.png",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
 		sculpture = "",
 		id = 20001,
 		group_id = 20001,
@@ -26001,45 +26163,18 @@ pg.activity_ins_template = {
 				0
 			}
 		},
-		time_persist = {
-			{
-				2026,
-				3,
-				26
-			},
-			{
-				1,
-				0,
-				0
-			}
-		},
-		npc_discuss_persist = {
-			100001,
-			100004,
-			100006,
-			100007,
-			100008,
-			100009,
-			100010,
-			100011,
-			100013,
-			100014,
-			100015,
-			100016,
-			100018,
-			100019,
-			100020
-		}
+		time_persist = {},
+		npc_discuss_persist = {}
 	},
 	[20002] = {
 		ship_group = 0,
 		name = "",
 		type = 2,
-		picture_persist = "https://blhxusstatic.yo-star.com/pic/260326_OA2bigMMwdfawHI7buhdmj.png",
+		picture_persist = "",
 		title = "Port News - Saratoga Film Studios Introduces New Technology",
-		message_persist = "ins_20002",
-		is_active = 0,
-		oalist_pic_persist = "https://blhxusstatic.yo-star.com/pic/260326_OA2smallzjwgEh1GPcCiOpgZ.png",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
 		sculpture = "",
 		id = 20002,
 		group_id = 20002,
@@ -26055,29 +26190,8 @@ pg.activity_ins_template = {
 				0
 			}
 		},
-		time_persist = {
-			{
-				2026,
-				3,
-				26
-			},
-			{
-				1,
-				5,
-				0
-			}
-		},
-		npc_discuss_persist = {
-			100034,
-			100035,
-			100037,
-			100038,
-			100039,
-			100040,
-			100042,
-			100044,
-			100046
-		}
+		time_persist = {},
+		npc_discuss_persist = {}
 	},
 	[20003] = {
 		ship_group = 0,
@@ -26099,6 +26213,33 @@ pg.activity_ins_template = {
 			},
 			{
 				14,
+				0,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[20004] = {
+		ship_group = 0,
+		name = "",
+		type = 2,
+		picture_persist = "",
+		title = "[Port Fashion] Beat the Heat, and Catch the Waves of Trendiness!",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "",
+		id = 20004,
+		group_id = 20004,
+		time = {
+			{
+				2026,
+				4,
+				17
+			},
+			{
+				11,
 				0,
 				17
 			}
@@ -26734,8 +26875,15 @@ pg.activity_ins_template = {
 		634,
 		635,
 		636,
+		637,
+		638,
+		639,
+		640,
+		641,
+		642,
 		20001,
 		20002,
-		20003
+		20003,
+		20004
 	}
 }

@@ -145,6 +145,10 @@ slot0.OnUpdate = function(slot0)
 			if slot0.gotShoot then
 				setActive(slot0.boomShoot, true)
 				onDelayTick(function ()
+					if IsNil(uv0.boomShoot) then
+						return
+					end
+
 					setActive(uv0.boomShoot, false)
 					uv0.animator:SetTrigger("close")
 					uv0.decorationAnimator:SetTrigger("close")
@@ -153,6 +157,10 @@ slot0.OnUpdate = function(slot0)
 				setActive(slot0.noGotShoot, true)
 				setActive(slot0["bombId" .. tostring(slot0.curBombId)], true)
 				onDelayTick(function ()
+					if IsNil(uv0.noGotShoot) then
+						return
+					end
+
 					setActive(uv0.noGotShoot, false)
 					uv0.animator:SetTrigger("close")
 					uv0.decorationAnimator:SetTrigger("close")
@@ -172,6 +180,10 @@ slot0.OnUpdate = function(slot0)
 			if slot0.gotShoot then
 				setActive(slot0.boomShoot, true)
 				onDelayTick(function ()
+					if IsNil(uv0.boomShoot) then
+						return
+					end
+
 					setActive(uv0.boomShoot, false)
 					uv0.animator:SetTrigger("close")
 					uv0.decorationAnimator:SetTrigger("close")
@@ -180,6 +192,10 @@ slot0.OnUpdate = function(slot0)
 				setActive(slot0.noGotShoot, true)
 				setActive(slot0["bombId" .. tostring(slot0.curBombId)], true)
 				onDelayTick(function ()
+					if IsNil(uv0.noGotShoot) then
+						return
+					end
+
 					setActive(uv0.noGotShoot, false)
 					uv0.animator:SetTrigger("close")
 					uv0.decorationAnimator:SetTrigger("close")

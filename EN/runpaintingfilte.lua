@@ -374,6 +374,28 @@ SpecialFilteForActStory = function()
 	return pg.NewStoryMgr.GetInstance():GetStoryPaintingsByNameList(slot3)
 end
 
+SpecialFilteForShopSkinPrefab = function()
+	slot0 = {}
+
+	for slot4, slot5 in ipairs(pg.activity_template.all) do
+		slot6 = pg.activity_template[slot5]
+
+		if PaintingfilteConst.IsActMatchTime(slot5) and slot6.config_client and type(slot6.config_client) == "table" and slot6.config_client.painting then
+			if type(slot6.config_client.painting) == "string" then
+				table.insert(slot0, slot6.config_client.painting)
+			end
+
+			if type(slot6.config_client.painting) == "table" then
+				for slot11, slot12 in ipairs(slot6.config_client.painting) do
+					table.insert(slot0, slot12)
+				end
+			end
+		end
+	end
+
+	return table.concat(slot0, ";")
+end
+
 PLATFORM_CH = 1
 PLATFORM_JP = 2
 PLATFORM_KR = 3

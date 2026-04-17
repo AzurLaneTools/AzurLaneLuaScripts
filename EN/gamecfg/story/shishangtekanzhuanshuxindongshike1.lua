@@ -181,10 +181,10 @@ return {
 			portrait = "zhihuiguan",
 			actorName = "{playername}",
 			optionFlag = 1,
+			hideRecordIco = true,
 			actor = 107161,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			hiderecordico = true,
 			say = "Let's clean together.",
 			typewriter = {
 				speed = 0.05,
@@ -213,10 +213,10 @@ return {
 			portrait = "zhihuiguan",
 			actorName = "{playername}",
 			optionFlag = 2,
+			hideRecordIco = true,
 			actor = 107161,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			hiderecordico = true,
 			say = "I'll do my best to be a good teacher.",
 			typewriter = {
 				speed = 0.05,

@@ -29000,6 +29000,131 @@ _G.pg.base.item_data_statistics[30382] = {
 }
 
 
+_G.pg.base.item_data_statistics[30383] = {
+	open_directly = 1,
+	name = "Gear Skin Box (Beachside Brilliance)",
+	type = 11,
+	display = "Contains a random Beachside Brilliance-themed gear skin.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshanyaohaibin",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30380",
+	id = 30383,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4348,
+			1
+		},
+		{
+			9,
+			4349,
+			1
+		},
+		{
+			9,
+			4350,
+			1
+		},
+		{
+			9,
+			4351,
+			1
+		},
+		{
+			9,
+			4352,
+			1
+		},
+		{
+			9,
+			4353,
+			1
+		},
+		{
+			9,
+			4354,
+			1
+		},
+		{
+			9,
+			4355,
+			1
+		},
+		{
+			9,
+			4356,
+			1
+		},
+		{
+			9,
+			4357,
+			1
+		},
+		{
+			9,
+			4358,
+			1
+		},
+		{
+			9,
+			4359,
+			1
+		},
+		{
+			9,
+			4360,
+			1
+		},
+		{
+			9,
+			4361,
+			1
+		},
+		{
+			9,
+			4362,
+			1
+		},
+		{
+			9,
+			4363,
+			1
+		},
+		{
+			9,
+			4364,
+			1
+		},
+		{
+			9,
+			4365,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "Random Gear Skin Box",
@@ -44825,6 +44950,219 @@ _G.pg.base.item_data_statistics[30566] = {
 		{
 			9,
 			4347,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30567] = {
+	open_directly = 0,
+	name = "Selection Gear Skin Box (Beachside Brilliance)",
+	type = 13,
+	display = "Can be opened to receive 1 Beachside Brilliance-themed gear skin of your choosing.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshanyaohaibinzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30567,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4348,
+			1
+		},
+		{
+			9,
+			4349,
+			1
+		},
+		{
+			9,
+			4350,
+			1
+		},
+		{
+			9,
+			4351,
+			1
+		},
+		{
+			9,
+			4352,
+			1
+		},
+		{
+			9,
+			4353,
+			1
+		},
+		{
+			9,
+			4354,
+			1
+		},
+		{
+			9,
+			4355,
+			1
+		},
+		{
+			9,
+			4356,
+			1
+		},
+		{
+			9,
+			4357,
+			1
+		},
+		{
+			9,
+			4358,
+			1
+		},
+		{
+			9,
+			4359,
+			1
+		},
+		{
+			9,
+			4360,
+			1
+		},
+		{
+			9,
+			4361,
+			1
+		},
+		{
+			9,
+			4362,
+			1
+		},
+		{
+			9,
+			4363,
+			1
+		},
+		{
+			9,
+			4364,
+			1
+		},
+		{
+			9,
+			4365,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4348,
+			1
+		},
+		{
+			9,
+			4349,
+			1
+		},
+		{
+			9,
+			4350,
+			1
+		},
+		{
+			9,
+			4351,
+			1
+		},
+		{
+			9,
+			4352,
+			1
+		},
+		{
+			9,
+			4353,
+			1
+		},
+		{
+			9,
+			4354,
+			1
+		},
+		{
+			9,
+			4355,
+			1
+		},
+		{
+			9,
+			4356,
+			1
+		},
+		{
+			9,
+			4357,
+			1
+		},
+		{
+			9,
+			4358,
+			1
+		},
+		{
+			9,
+			4359,
+			1
+		},
+		{
+			9,
+			4360,
+			1
+		},
+		{
+			9,
+			4361,
+			1
+		},
+		{
+			9,
+			4362,
+			1
+		},
+		{
+			9,
+			4363,
+			1
+		},
+		{
+			9,
+			4364,
+			1
+		},
+		{
+			9,
+			4365,
 			1
 		}
 	},

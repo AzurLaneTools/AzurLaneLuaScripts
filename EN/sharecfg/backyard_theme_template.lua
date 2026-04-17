@@ -5306,6 +5306,41 @@ pg.backyard_theme_template = {
 			336302
 		}
 	},
+	[137] = {
+		Cfg_1 = 5,
+		name = "Beachside Brilliance",
+		desc = "May brilliant waves and shimmering sunlight illuminate your perfect vacation!",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 137,
+		id = 137,
+		icon = "doa2themeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			337001,
+			337002,
+			337101,
+			337102,
+			337104,
+			337105,
+			337106,
+			337107,
+			337108,
+			337109,
+			337110,
+			337111,
+			337112,
+			337113,
+			337114,
+			337115,
+			337116
+		}
+	},
 	all = {
 		1,
 		2,
@@ -5429,6 +5464,7 @@ pg.backyard_theme_template = {
 		133,
 		134,
 		135,
-		136
+		136,
+		137
 	}
 }

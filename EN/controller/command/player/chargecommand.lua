@@ -51,15 +51,15 @@ slot0.execute = function(slot0, slot1)
 						if pg.SdkMgr.GetInstance():CheckAudit() then
 							originalPrint("serverTag:audit 请求购买物品")
 							pg.SdkMgr.GetInstance():AiriBuy(uv1:getConfig("airijp_id"), "audit", slot0.pay_id)
+						elseif pg.SdkMgr.GetInstance():CheckGoogleSimulator() then
+							originalPrint("serverTag:test 请求购买物品")
+							pg.SdkMgr.GetInstance():AiriBuy(uv1:getConfig("airijp_id"), "test", slot0.pay_id)
 						elseif pg.SdkMgr.GetInstance():CheckPreAudit() then
 							originalPrint("serverTag:preAudit 请求购买物品")
 							pg.SdkMgr.GetInstance():AiriBuy(uv1:getConfig("airijp_id"), "preAudit", slot0.pay_id)
 						elseif pg.SdkMgr.GetInstance():CheckPretest() then
 							originalPrint("serverTag:preTest 请求购买物品")
 							pg.SdkMgr.GetInstance():AiriBuy(uv1:getConfig("airijp_id"), "preAudit", slot0.pay_id)
-						elseif pg.SdkMgr.GetInstance():CheckGoogleSimulator() then
-							originalPrint("serverTag:test 请求购买物品")
-							pg.SdkMgr.GetInstance():AiriBuy(uv1:getConfig("airijp_id"), "test", slot0.pay_id)
 						else
 							originalPrint("serverTag:production 请求购买物品")
 							pg.SdkMgr.GetInstance():AiriBuy(uv1:getConfig("airijp_id"), "production", slot0.pay_id)
