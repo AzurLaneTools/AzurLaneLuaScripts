@@ -285,6 +285,15 @@ pg.activity_banner_notice = {
 			}
 		}
 	},
+	{
+		id = 35,
+		param = {
+			"scene core activity",
+			{
+				coreName = "DOACoreActivityUI"
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -319,6 +328,7 @@ pg.activity_banner_notice = {
 		31,
 		32,
 		33,
-		34
+		34,
+		35
 	}
 }

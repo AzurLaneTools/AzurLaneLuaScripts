@@ -29466,6 +29466,131 @@ _G.pg.base.item_data_statistics[30382] = {
 }
 
 
+_G.pg.base.item_data_statistics[30383] = {
+	open_directly = 1,
+	name = "外观装备箱(闪耀海滨)",
+	type = 11,
+	display = "可以获得一件随机的DOA联动风格外观装备",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshanyaohaibin",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30380",
+	id = 30383,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4348,
+			1
+		},
+		{
+			9,
+			4349,
+			1
+		},
+		{
+			9,
+			4350,
+			1
+		},
+		{
+			9,
+			4351,
+			1
+		},
+		{
+			9,
+			4352,
+			1
+		},
+		{
+			9,
+			4353,
+			1
+		},
+		{
+			9,
+			4354,
+			1
+		},
+		{
+			9,
+			4355,
+			1
+		},
+		{
+			9,
+			4356,
+			1
+		},
+		{
+			9,
+			4357,
+			1
+		},
+		{
+			9,
+			4358,
+			1
+		},
+		{
+			9,
+			4359,
+			1
+		},
+		{
+			9,
+			4360,
+			1
+		},
+		{
+			9,
+			4361,
+			1
+		},
+		{
+			9,
+			4362,
+			1
+		},
+		{
+			9,
+			4363,
+			1
+		},
+		{
+			9,
+			4364,
+			1
+		},
+		{
+			9,
+			4365,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "外观装备箱(世界巡游)",
@@ -45291,6 +45416,219 @@ _G.pg.base.item_data_statistics[30566] = {
 		{
 			9,
 			4347,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30567] = {
+	open_directly = 0,
+	name = "定向外观装备箱(闪耀海滨)",
+	type = 13,
+	display = "使用后可从「闪耀海滨」主题外观装备中任意选择一种获得1个",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshanyaohaibinzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30567,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4348,
+			1
+		},
+		{
+			9,
+			4349,
+			1
+		},
+		{
+			9,
+			4350,
+			1
+		},
+		{
+			9,
+			4351,
+			1
+		},
+		{
+			9,
+			4352,
+			1
+		},
+		{
+			9,
+			4353,
+			1
+		},
+		{
+			9,
+			4354,
+			1
+		},
+		{
+			9,
+			4355,
+			1
+		},
+		{
+			9,
+			4356,
+			1
+		},
+		{
+			9,
+			4357,
+			1
+		},
+		{
+			9,
+			4358,
+			1
+		},
+		{
+			9,
+			4359,
+			1
+		},
+		{
+			9,
+			4360,
+			1
+		},
+		{
+			9,
+			4361,
+			1
+		},
+		{
+			9,
+			4362,
+			1
+		},
+		{
+			9,
+			4363,
+			1
+		},
+		{
+			9,
+			4364,
+			1
+		},
+		{
+			9,
+			4365,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4348,
+			1
+		},
+		{
+			9,
+			4349,
+			1
+		},
+		{
+			9,
+			4350,
+			1
+		},
+		{
+			9,
+			4351,
+			1
+		},
+		{
+			9,
+			4352,
+			1
+		},
+		{
+			9,
+			4353,
+			1
+		},
+		{
+			9,
+			4354,
+			1
+		},
+		{
+			9,
+			4355,
+			1
+		},
+		{
+			9,
+			4356,
+			1
+		},
+		{
+			9,
+			4357,
+			1
+		},
+		{
+			9,
+			4358,
+			1
+		},
+		{
+			9,
+			4359,
+			1
+		},
+		{
+			9,
+			4360,
+			1
+		},
+		{
+			9,
+			4361,
+			1
+		},
+		{
+			9,
+			4362,
+			1
+		},
+		{
+			9,
+			4363,
+			1
+		},
+		{
+			9,
+			4364,
+			1
+		},
+		{
+			9,
+			4365,
 			1
 		}
 	},
@@ -128997,6 +129335,357 @@ _G.pg.base.item_data_statistics[68234] = {
 	combination_display = {},
 	usage_arg = {
 		90455
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68235] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(特训中的威严之人)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>百眼巨人</color>换装<color=#92fc63FF>特训中的威严之人</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "88010",
+	id = 68235,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68238,
+			1
+		},
+		{
+			2,
+			68241,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68236] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(某位女神的午后)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>伊莉丝</color>换装<color=#92fc63FF>某位女神的午后</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "88011",
+	id = 68236,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68239,
+			1
+		},
+		{
+			2,
+			68242,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68237] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(魅惑的特调饮品)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>香迪</color>换装<color=#92fc63FF>魅惑的特调饮品</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "88012",
+	id = 68237,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68240,
+			1
+		},
+		{
+			2,
+			68243,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68238] = {
+	open_directly = 0,
+	name = "换装抵扣券(特训中的威严之人)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>百眼巨人</color>换装<color=#92fc63FF>特训中的威严之人</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年4月30日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68238,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71332
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68239] = {
+	open_directly = 0,
+	name = "换装抵扣券(某位女神的午后)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>伊莉丝</color>换装<color=#92fc63FF>某位女神的午后</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年4月30日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68239,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71325
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68240] = {
+	open_directly = 0,
+	name = "换装抵扣券(魅惑的特调饮品)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>香迪</color>换装<color=#92fc63FF>魅惑的特调饮品</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年4月30日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68240,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71327
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68241] = {
+	open_directly = 0,
+	name = "换装体验券(特训中的威严之人)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>百眼巨人</color>换装<color=#92fc63FF>特训中的威严之人</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年4月30日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68241,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90459
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68242] = {
+	open_directly = 0,
+	name = "换装体验券(某位女神的午后)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>伊莉丝</color>换装<color=#92fc63FF>某位女神的午后</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年4月30日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68242,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90460
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68243] = {
+	open_directly = 0,
+	name = "换装体验券(魅惑的特调饮品)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>香迪</color>换装<color=#92fc63FF>魅惑的特调饮品</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年4月30日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68243,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90461
 	},
 	limit = {}
 }

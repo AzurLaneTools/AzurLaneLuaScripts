@@ -1,6 +1,5 @@
 slot0 = class("SpinePaintingConst")
 slot0.drag_type_normal = 1
-slot0.drag_type_rgb = 2
 slot0.drag_type_list = 3
 slot0.ship_drag_datas = {
 	gaoxiong_6 = {
@@ -1313,6 +1312,225 @@ slot0.ship_drag_datas = {
 						"idleRandom1",
 						"TouchHead"
 					}
+				}
+			}
+		}
+	},
+	yilisi_2_DOA = {
+		multiple_face = {},
+		hit_area = {
+			"drag"
+		},
+		drag_data = {
+			type = slot0.drag_type_normal,
+			config_client = {
+				{
+					change_idle = "ex",
+					click = true,
+					action = "drag",
+					idle = "normal",
+					is_default = true
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					action = "drag_ex",
+					idle = "ex",
+					is_default = false
+				}
+			}
+		}
+	},
+	na_2_DOA = {
+		multiple_face = {},
+		hit_area = {
+			"drag"
+		},
+		drag_data = {
+			type = slot0.drag_type_normal,
+			config_client = {
+				{
+					change_idle = "ex",
+					click = true,
+					action = "drag",
+					idle = "normal",
+					is_default = true
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					action = "drag_ex",
+					idle = "ex",
+					is_default = false
+				}
+			}
+		}
+	},
+	xiangdi_2_DOA = {
+		multiple_face = {},
+		hit_area = {
+			"drag"
+		},
+		drag_data = {
+			type = slot0.drag_type_normal,
+			config_client = {
+				{
+					change_idle = "ex",
+					click = true,
+					action = "drag",
+					idle = "normal",
+					is_default = true
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					action = "drag_ex",
+					idle = "ex",
+					is_default = false
+				}
+			}
+		}
+	},
+	zhuzi_2_DOA = {
+		multiple_face = {},
+		hit_area = {
+			"drag"
+		},
+		drag_data = {
+			type = slot0.drag_type_normal,
+			config_client = {
+				{
+					change_idle = "ex",
+					click = true,
+					action = "drag",
+					idle = "normal",
+					is_default = true
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					action = "drag_ex",
+					idle = "ex",
+					is_default = false
+				}
+			}
+		}
+	},
+	paidi_2_DOA = {
+		multiple_face = {},
+		hit_area = {
+			"drag"
+		},
+		drag_data = {
+			type = slot0.drag_type_normal,
+			config_client = {
+				{
+					change_idle = "ex",
+					click = true,
+					action = "drag",
+					idle = "normal",
+					is_default = true
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					action = "drag_ex",
+					idle = "ex",
+					is_default = false
+				}
+			}
+		}
+	},
+	qiannai_2_DOA = {
+		multiple_face = {},
+		hit_area = {
+			"drag"
+		},
+		drag_data = {
+			type = slot0.drag_type_normal,
+			config_client = {
+				{
+					change_idle = "ex",
+					click = true,
+					action = "drag",
+					idle = "normal",
+					is_default = true
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					action = "drag_ex",
+					idle = "ex",
+					is_default = false
+				}
+			}
+		}
+	},
+	haixiao_3_DOA = {
+		multiple_face = {},
+		hit_area = {
+			"drag"
+		},
+		drag_data = {
+			type = slot0.drag_type_normal,
+			config_client = {
+				{
+					change_idle = "ex",
+					click = true,
+					action = "drag",
+					idle = "normal",
+					is_default = true
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					action = "drag_ex",
+					idle = "ex",
+					is_default = false
+				}
+			}
+		}
+	},
+	beikaluolaina_3 = {
+		multiple_face = {},
+		hit_area = {
+			"drag"
+		},
+		drag_data = {
+			type = slot0.drag_type_normal,
+			config_client = {
+				{
+					change_idle = "ex",
+					click = true,
+					action = "drag",
+					idle = "normal",
+					is_default = true
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					action = "drag_ex",
+					idle = "ex",
+					is_default = false
+				}
+			}
+		}
+	},
+	yichui_7 = {
+		multiple_face = {},
+		hit_area = {
+			"touch"
+		},
+		drag_data = {
+			type = slot0.drag_type_normal,
+			config_client = {
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "normal",
+					action = "touch",
+					is_default = true,
+					hit = "touch"
 				}
 			}
 		}

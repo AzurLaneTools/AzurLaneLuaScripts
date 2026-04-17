@@ -28,7 +28,7 @@ slot0.execute = function(slot0, slot1)
 			slot1:UpdateDeleationRewardDataBySlotId(uv2, nil)
 
 			if uv4 == 1 and slot1:GetDelegationSlotData(uv2):GetSlotRoleData() then
-				slot4:ResetGetTimes(slot0.get_times)
+				slot4:OnGetAwardMidway(slot0.start_time, slot0.rest_time_list, slot0.get_times)
 			end
 
 			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandGetDelegationAward(uv5 and 1 or 0, slot0.drop_list))

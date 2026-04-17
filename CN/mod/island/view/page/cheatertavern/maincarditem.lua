@@ -261,6 +261,8 @@ slot0.Destroy = function(slot0)
 	slot0.unSelectedCardTf = nil
 
 	slot0.cardPoolMgr:ReturnGameObjectById(slot0.id, slot0.tf.gameObject)
+
+	slot0.tf = nil
 end
 
 return slot0

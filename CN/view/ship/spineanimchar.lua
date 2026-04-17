@@ -249,6 +249,10 @@ slot0.updateCharDirect = function(slot0)
 	end
 end
 
+slot0.GetActionName = function(slot0)
+	return slot0.actionName
+end
+
 slot0.getDirectActonName = function(slot0, slot1)
 	if not slot0.direct then
 		slot0.direct = math.sign(tf(slot0._model).localScale.x)

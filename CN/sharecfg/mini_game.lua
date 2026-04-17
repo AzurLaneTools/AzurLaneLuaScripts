@@ -3001,6 +3001,59 @@ pg.mini_game = {
 		hub_id = 69,
 		request_data = 1
 	},
+	{
+		is_ranking = 0,
+		view_name = "CutFruitGameView",
+		game_room = 0,
+		type = 2,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		name = "doa联动切西瓜",
+		config_csv = "",
+		id = 83,
+		hub_id = 70,
+		request_data = 1,
+		simple_config_data = {
+			drop_ids = {
+				{
+					2,
+					54006,
+					1
+				},
+				{
+					2,
+					50004,
+					5
+				},
+				{
+					1,
+					2,
+					300
+				},
+				{
+					2,
+					54034,
+					2
+				},
+				{
+					2,
+					20013,
+					1
+				},
+				{
+					2,
+					54051,
+					1
+				},
+				{
+					2,
+					30383,
+					2
+				}
+			}
+		},
+		config_data = {}
+	},
 	[1001] = {
 		is_ranking = 0,
 		view_name = "GameRoomFushun3View",
@@ -3657,6 +3710,7 @@ pg.mini_game = {
 		80,
 		81,
 		82,
+		83,
 		1001,
 		1002,
 		1003,

@@ -775,7 +775,8 @@ slot0._listNotificationInterests = function(slot0)
 		GAME.PLAY_ROOM_REDAY_ROOM_REFRESH,
 		GAME.PLAY_ROOM_MATCH_REDAY_ROOM_REFRESH,
 		GAME.ISLAND_CHEATER_DELEGATE_NOTIFY,
-		CheaterTavernEvent.CLOSE_SHIP_SELECT_PAGE
+		CheaterTavernEvent.CLOSE_SHIP_SELECT_PAGE,
+		IslandProxy.PRESS_BACK
 	}
 end
 

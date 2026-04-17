@@ -4087,6 +4087,26 @@ pg.memory_template = setmetatable({
 		5075,
 		5076,
 		5077,
+		5081,
+		5082,
+		5083,
+		5084,
+		5085,
+		5086,
+		5087,
+		5088,
+		5089,
+		5090,
+		5091,
+		5092,
+		5093,
+		5101,
+		5102,
+		5103,
+		5104,
+		5105,
+		5106,
+		5107,
 		10011,
 		10012,
 		10013,
@@ -65641,6 +65661,306 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"DEWENJUN7"
+		}
+	},
+	[5081] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "再次到来的女神们",
+		condition = "进入 EPS-1",
+		story = "SHANYAOHAIBINGUANQIA1",
+		id = 5081,
+		icon = "memory_shanyaohaibin1",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINGUANQIA1"
+		}
+	},
+	[5082] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "大赛准备",
+		condition = "进入 EPS-2",
+		story = "SHANYAOHAIBINGUANQIA2",
+		id = 5082,
+		icon = "memory_shanyaohaibin1",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINGUANQIA2"
+		}
+	},
+	[5083] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "按部就班",
+		condition = "进入 EPS-3",
+		story = "SHANYAOHAIBINGUANQIA3",
+		id = 5083,
+		icon = "memory_shanyaohaibin1",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINGUANQIA3"
+		}
+	},
+	[5084] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Cosplayer？",
+		condition = "进入 EPS-4",
+		story = "SHANYAOHAIBINGUANQIA4",
+		id = 5084,
+		icon = "memory_shanyaohaibin1",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINGUANQIA4"
+		}
+	},
+	[5085] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "以魅力为武器",
+		condition = "进入 EPS-5",
+		story = "SHANYAOHAIBINGUANQIA5",
+		id = 5085,
+		icon = "memory_shanyaohaibin1",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINGUANQIA5"
+		}
+	},
+	[5086] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "取材第一",
+		condition = "进入 EPS-6",
+		story = "SHANYAOHAIBINGUANQIA6",
+		id = 5086,
+		icon = "memory_shanyaohaibin1",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINGUANQIA6"
+		}
+	},
+	[5087] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "寻宝大冒险",
+		condition = "进入 EPS-7",
+		story = "SHANYAOHAIBINGUANQIA7",
+		id = 5087,
+		icon = "memory_shanyaohaibin1",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINGUANQIA7"
+		}
+	},
+	[5088] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "时尚风潮",
+		condition = "进入 EPS-8",
+		story = "SHANYAOHAIBINGUANQIA8",
+		id = 5088,
+		icon = "memory_shanyaohaibin1",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINGUANQIA8"
+		}
+	},
+	[5089] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "关于流行服饰",
+		condition = "进入 EPS-9",
+		story = "SHANYAOHAIBINGUANQIA9",
+		id = 5089,
+		icon = "memory_shanyaohaibin1",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINGUANQIA9"
+		}
+	},
+	[5090] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "关于温泉",
+		condition = "进入 EPS-10",
+		story = "SHANYAOHAIBINGUANQIA10",
+		id = 5090,
+		icon = "memory_shanyaohaibin1",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINGUANQIA10"
+		}
+	},
+	[5091] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "关于摄影团队",
+		condition = "进入 EPS-11",
+		story = "SHANYAOHAIBINGUANQIA11",
+		id = 5091,
+		icon = "memory_shanyaohaibin1",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINGUANQIA11"
+		}
+	},
+	[5092] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "关于直播团队",
+		condition = "进入 EPS-12",
+		story = "SHANYAOHAIBINGUANQIA12",
+		id = 5092,
+		icon = "memory_shanyaohaibin1",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINGUANQIA12"
+		}
+	},
+	[5093] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "大赛开幕！",
+		condition = "进入 EPS-13",
+		story = "SHANYAOHAIBINGUANQIA13",
+		id = 5093,
+		icon = "memory_shanyaohaibin1",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINGUANQIA13"
+		}
+	},
+	[5101] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "这是为了更好地工作",
+		condition = "解锁「假日航线·闪耀海滨-维纳斯篇」伊莉丝的剧情",
+		story = "SHANYAOHAIBINRICHANG1",
+		id = 5101,
+		icon = "memory_shanyaohaibin2",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINRICHANG1"
+		}
+	},
+	[5102] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "海滨的午憩",
+		condition = "解锁「假日航线·闪耀海滨-维纳斯篇」雫的剧情",
+		story = "SHANYAOHAIBINRICHANG2",
+		id = 5102,
+		icon = "memory_shanyaohaibin2",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINRICHANG2"
+		}
+	},
+	[5103] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "沉浸式配方",
+		condition = "解锁「假日航线·闪耀海滨-维纳斯篇」香迪的剧情",
+		story = "SHANYAOHAIBINRICHANG3",
+		id = 5103,
+		icon = "memory_shanyaohaibin2",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINRICHANG3"
+		}
+	},
+	[5104] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "身临其境的漫画家",
+		condition = "解锁「假日航线·闪耀海滨-维纳斯篇」筑紫的剧情",
+		story = "SHANYAOHAIBINRICHANG4",
+		id = 5104,
+		icon = "memory_shanyaohaibin2",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINRICHANG4"
+		}
+	},
+	[5105] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "为你带来幸运的兔兔",
+		condition = "解锁「假日航线·闪耀海滨-维纳斯篇」派蒂的剧情",
+		story = "SHANYAOHAIBINRICHANG5",
+		id = 5105,
+		icon = "memory_shanyaohaibin2",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINRICHANG5"
+		}
+	},
+	[5106] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "危险野兽狩猎中！",
+		condition = "解锁「假日航线·闪耀海滨-维纳斯篇」千乃的剧情",
+		story = "SHANYAOHAIBINRICHANG6",
+		id = 5106,
+		icon = "memory_shanyaohaibin2",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINRICHANG6"
+		}
+	},
+	[5107] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "升空的焰火",
+		condition = "解锁「假日航线·闪耀海滨-维纳斯篇」海咲的剧情",
+		story = "SHANYAOHAIBINRICHANG7",
+		id = 5107,
+		icon = "memory_shanyaohaibin2",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINRICHANG7"
 		}
 	},
 	[10011] = {

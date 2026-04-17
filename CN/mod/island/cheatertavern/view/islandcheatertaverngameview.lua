@@ -17,7 +17,6 @@ slot0.AfterCoreInit = function(slot0)
 	end
 
 	slot0.weatherSystem = IslandWeatherSystem.New(slot0)
-	slot0.root = slot0:CreateRoot()
 
 	slot0:InitSceneGameObject()
 
@@ -67,10 +66,10 @@ slot0.RemoveListeners = function(slot0)
 end
 
 slot0.OnInitCamera = function(slot0, slot1)
-	onNextTick(function ()
-		print("lookSeet0" .. Time.frameCount)
-		CheatTavernCameraMgr.instance:ActiveVirtualCamera("lookSeet0" .. uv0)
-	end)
+	print("todo:lookSeet0" .. Time.frameCount)
+	CheatTavernCameraMgr.instance:ActiveVirtualCamera("lookSeet0" .. slot1)
+
+	CheatTavernCameraMgr.instance._mainCamera.enabled = true
 end
 
 slot0.PlayBGM = function(slot0)

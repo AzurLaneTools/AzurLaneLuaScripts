@@ -1,123 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_2 = {
-	[102059] = {
-		name = "海伦娜.改",
-		change_skin = "",
-		desc = "全新的装备…适应起来会稍微有些复杂呢，但是现在的我，有信心驾驱这些力量！指挥官，请期待我的表现吧！",
-		illustrator2 = -1,
-		ship_group = 10205,
-		group_index = 9,
-		purchase_offset = "",
-		painting = "hailunna_g",
-		lover_hand = "hand_2_02",
-		skin_type = 2,
-		shop_type_id = 9997,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		lover_kiss = "lip02",
-		bg_sp = "",
-		bg = "",
-		bgm = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		special_effects = "",
-		id = 102059,
-		voice_actor_2 = -1,
-		gyro = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		prefab = "hailunna_g",
-		l2d_se = "",
-		part_scale = "",
-		get_showing = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 34,
-		shop_dynamic_hx = 0,
-		spine_offset = "",
-		illustrator = 7,
-		rarity_bg = "",
-		double_char = 0,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.315,
-					1.072,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.32,
-					1.085,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.34,
-					1.091,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.53,
-							2.289,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[102060] = {
 		name = "亚特兰大",
 		change_skin = "",
@@ -17055,6 +16938,272 @@ pg.base.ship_skin_template_2 = {
 						}
 					}
 				}
+			}
+		}
+	},
+	[103270] = {
+		name = "路易斯维尔",
+		change_skin = "",
+		desc = "北安普敦级重巡洋舰—路易斯维尔，舷号CA-28",
+		illustrator2 = -1,
+		ship_group = 10327,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "luyisiweier",
+		lover_hand = "hand_1_02",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		lover_kiss = "lip03",
+		bg_sp = "",
+		bg = "",
+		bgm = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		special_effects = "",
+		id = 103270,
+		voice_actor_2 = -1,
+		gyro = 0,
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		prefab = "luyisiweier",
+		l2d_se = "",
+		part_scale = "",
+		get_showing = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 393,
+		shop_dynamic_hx = 0,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.059,
+					0.999,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.052,
+					0.061,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					2.058,
+					1.038,
+					0
+				}
+			},
+			vicegun = {
+				{
+					2.134,
+					1.089,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.261,
+							2.531,
+							0.14
+						}
+					}
+				}
+			}
+		}
+	},
+	[103271] = {
+		name = "梦幻推荐",
+		change_skin = "",
+		desc = "指挥官，这是你点的——欸，应该是写在小票上的……咦？小票放在哪里了？呜，如果我把指挥官的点单搞错了那就糟糕了……",
+		illustrator2 = -1,
+		ship_group = 10327,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "luyisiweier_2",
+		lover_hand = "hand_1_02",
+		skin_type = 4,
+		shop_type_id = 16,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		lover_kiss = "lip03",
+		bg_sp = "",
+		bg = "145",
+		bgm = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		id = 103271,
+		voice_actor_2 = -1,
+		gyro = 0,
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		prefab = "luyisiweier_2",
+		l2d_se = "",
+		part_scale = "",
+		get_showing = "",
+		main_UI_FX = "",
+		shop_id = 70941,
+		voice_actor = 393,
+		shop_dynamic_hx = 0,
+		illustrator = -1,
+		rarity_bg = "",
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2,
+			6
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.868,
+					1.042,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.884,
+					1.115,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.147,
+					0.026,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.902,
+					1.237,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.198,
+							2.377,
+							0.14
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			231,
+			-699,
+			0,
+			0.4
+		},
+		special_effects = {
+			"lihui_luyisiweier_2",
+			{
+				156,
+				-59,
+				0
+			},
+			{
+				0.4
 			}
 		}
 	}

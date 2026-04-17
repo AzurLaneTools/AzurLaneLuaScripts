@@ -3531,6 +3531,9 @@ temp = function()
 				}
 			}
 		},
+		["迪"] = {
+			this = true
+		},
 		["槟"] = {
 			this = true
 		}
@@ -3947,6 +3950,11 @@ temp = function()
 		},
 		["吕"] = {
 			["波"] = {
+				this = true
+			}
+		},
+		["莉"] = {
+			["丝"] = {
 				this = true
 			}
 		}
@@ -9047,6 +9055,46 @@ temp()
 temp = function()
 	uv0["环"] = {
 		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["雫"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["筑"] = {
+		["紫"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["派"] = {
+		["蒂"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["千"] = {
+		["乃"] = {
 			this = true
 		}
 	}

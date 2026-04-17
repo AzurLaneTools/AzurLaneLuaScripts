@@ -644,7 +644,7 @@ pg.activity_ins_ship_group_template = {
 		name = "NO1Sandiego!",
 		background = "",
 		sculpture = "shengdiyage",
-		nationality = 0,
+		nationality = 1,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -662,7 +662,7 @@ pg.activity_ins_ship_group_template = {
 		name = "L.I.",
 		background = "",
 		sculpture = "changdao_4",
-		nationality = 0,
+		nationality = 1,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -671,7 +671,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Enterprise",
 		background = "",
 		sculpture = "qiye",
-		nationality = 0,
+		nationality = 1,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -734,7 +734,7 @@ pg.activity_ins_ship_group_template = {
 		name = "DD_Hammann",
 		background = "",
 		sculpture = "hamanII",
-		nationality = 0,
+		nationality = 1,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -1247,7 +1247,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Shangri-La",
 		background = "",
 		sculpture = "xianggelila_2",
-		nationality = 0,
+		nationality = 1,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -1265,7 +1265,7 @@ pg.activity_ins_ship_group_template = {
 		name = "G_Albacore",
 		background = "",
 		sculpture = "daqinghuayu",
-		nationality = 0,
+		nationality = 1,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -1697,7 +1697,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Sims",
 		background = "",
 		sculpture = "ximusi",
-		nationality = 0,
+		nationality = 1,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -1733,7 +1733,7 @@ pg.activity_ins_ship_group_template = {
 		name = "BlackCat",
 		background = "",
 		sculpture = "kubo",
-		nationality = 0,
+		nationality = 1,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -2363,7 +2363,7 @@ pg.activity_ins_ship_group_template = {
 		name = "CharmArcher",
 		background = "",
 		sculpture = "sheshuiyu_2",
-		nationality = 0,
+		nationality = 1,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -2390,7 +2390,7 @@ pg.activity_ins_ship_group_template = {
 		name = "HappyEveryDay!",
 		background = "",
 		sculpture = "jiujinshan",
-		nationality = 0,
+		nationality = 1,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -2408,7 +2408,7 @@ pg.activity_ins_ship_group_template = {
 		name = "BlackDragon",
 		background = "",
 		sculpture = "xinzexi_4",
-		nationality = 0,
+		nationality = 1,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -2417,7 +2417,7 @@ pg.activity_ins_ship_group_template = {
 		name = "L.B.Thatcher",
 		background = "",
 		sculpture = "saqieer",
-		nationality = 0,
+		nationality = 1,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -2768,7 +2768,7 @@ pg.activity_ins_ship_group_template = {
 		name = "GA@ColaLove",
 		background = "",
 		sculpture = "zuozhiya",
-		nationality = 0,
+		nationality = 1,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -2903,7 +2903,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Bristol",
 		background = "",
 		sculpture = "Bulisituoer_3",
-		nationality = 0,
+		nationality = 1,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -5868,6 +5868,78 @@ pg.activity_ins_ship_group_template = {
 		type = 1,
 		sculpture_ii = ""
 	},
+	[10990] = {
+		ship_group = 10990,
+		name = "Elise",
+		background = "",
+		sculpture = "yilisi_DOA",
+		nationality = 0,
+		type = 1,
+		sculpture_ii = ""
+	},
+	[10991] = {
+		ship_group = 10991,
+		name = "Shizuku",
+		background = "",
+		sculpture = "na_DOA",
+		nationality = 0,
+		type = 1,
+		sculpture_ii = ""
+	},
+	[10992] = {
+		ship_group = 10992,
+		name = "Shandy",
+		background = "",
+		sculpture = "xiangdi_DOA",
+		nationality = 0,
+		type = 1,
+		sculpture_ii = ""
+	},
+	[10993] = {
+		ship_group = 10993,
+		name = "Tsukushi",
+		background = "",
+		sculpture = "zhuzi_DOA",
+		nationality = 0,
+		type = 1,
+		sculpture_ii = ""
+	},
+	[10994] = {
+		ship_group = 10994,
+		name = "Patty",
+		background = "",
+		sculpture = "paidi_DOA",
+		nationality = 0,
+		type = 1,
+		sculpture_ii = ""
+	},
+	[10995] = {
+		ship_group = 10995,
+		name = "Yukino",
+		background = "",
+		sculpture = "qiannai_DOA",
+		nationality = 0,
+		type = 1,
+		sculpture_ii = ""
+	},
+	[10107] = {
+		ship_group = 10107,
+		name = "McCall",
+		background = "",
+		sculpture = "maikaoer",
+		nationality = 1,
+		type = 1,
+		sculpture_ii = ""
+	},
+	[10139] = {
+		ship_group = 10139,
+		name = "Mullany",
+		background = "",
+		sculpture = "malani",
+		nationality = 1,
+		type = 1,
+		sculpture_ii = ""
+	},
 	all = {
 		30701,
 		30702,
@@ -6520,6 +6592,14 @@ pg.activity_ins_ship_group_template = {
 		30228,
 		30229,
 		30806,
-		30125
+		30125,
+		10990,
+		10991,
+		10992,
+		10993,
+		10994,
+		10995,
+		10107,
+		10139
 	}
 }

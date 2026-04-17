@@ -299,13 +299,18 @@ slot0.LoadMiniGameScene = function(slot0, slot1)
 end
 
 slot0.ChangeMiniGameScene = function(slot0)
-	if slot0.needChangeMap then
-		slot0:UnloadScene()
+	slot1 = pg.SceneAnimMgr.GetInstance()
 
-		_IslandCore = slot0.miniGameCore
-	end
+	slot1:CommonSceneChange("Dorm3DLoading", function (slot0)
+		if uv0.needChangeMap then
+			uv0:UnloadScene()
 
-	_IslandCore:OnChangeMiniGameScene(slot0.needChangeMap, slot0.isReConnected)
+			_IslandCore = uv0.miniGameCore
+		end
+
+		_IslandCore:OnChangeMiniGameScene(uv0.needChangeMap, uv0.isReConnected)
+		slot0()
+	end)
 end
 
 slot0.SetUp = function(slot0, slot1)

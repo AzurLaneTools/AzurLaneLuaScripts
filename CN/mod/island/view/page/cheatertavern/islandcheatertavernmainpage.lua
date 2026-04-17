@@ -89,6 +89,7 @@ slot0.AddListeners = function(slot0)
 	slot0:AddListener(GuildProxy.NEW_MSG_ADDED, slot0.RefreshMessage)
 	slot0:AddListener(PlayRoomProxy.CHAT_MSG_UPDATE, slot0.RefreshMessage)
 	slot0:AddListener(GAME.CHANGE_CHAT_ROOM_DONE, slot0.RefreshMessage)
+	slot0:AddListener(IslandProxy.PRESS_BACK, slot0.OnPressBack)
 end
 
 slot0.RemoveListeners = function(slot0)
@@ -109,6 +110,7 @@ slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(GuildProxy.NEW_MSG_ADDED, slot0.RefreshMessage)
 	slot0:RemoveListener(PlayRoomProxy.CHAT_MSG_UPDATE, slot0.RefreshMessage)
 	slot0:RemoveListener(GAME.CHANGE_CHAT_ROOM_DONE, slot0.RefreshMessage)
+	slot0:RemoveListener(IslandProxy.PRESS_BACK, slot0.OnPressBack)
 end
 
 slot0.OnCheaterFinishQuit = function(slot0)
@@ -187,33 +189,7 @@ end
 
 slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.uicloseBtn, function ()
-		slot0 = {}
-		slot2 = getProxy(PlayRoomProxy):GetRoomData()
-
-		if not uv0.isFinish then
-			if slot2.roomType == PlayRoomConst.PLAY_ROOM_TYPE.MATCH then
-				table.insert(slot0, function (slot0)
-					pg.MsgboxMgr.GetInstance():ShowMsgBox({
-						content = i18n("bar_tips_game6"),
-						onYes = slot0
-					})
-				end)
-			else
-				table.insert(slot0, function (slot0)
-					pg.MsgboxMgr.GetInstance():ShowMsgBox({
-						content = i18n("bar_tips_game7"),
-						onYes = slot0
-					})
-				end)
-			end
-		end
-
-		seriesAsync(slot0, function ()
-			uv0:Hide()
-			uv0:emit(IslandMediator.PLAY_ROOM_MATCH_STOP)
-			getProxy(PlayRoomProxy):SetPlayingGameState(false)
-			IslandCheaterTavernRecordTools.RecordResult(IslandCheaterTavernRecordTools.LEAVE)
-		end)
+		uv0:OnClickCloseBtn()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.uiSenderPanel, function ()
 		uv0:emit(BaseUI.ON_ADD_SUBLAYER, Context.New({
@@ -238,15 +214,14 @@ slot0.OnShow = function(slot0, slot1, slot2)
 	slot0.isFinish = false
 
 	slot0:CreateViews()
-
-	for slot6, slot7 in ipairs(slot0.views) do
-		slot7:Init()
-	end
-
 	slot0:GetSubView(IslandCheaterTavernInGamingView):SetActiveState(false)
 	slot0:GetSubView(IslandCheaterTavernStartGameView):SetActiveState(false)
 	slot0:Flush()
 	slot0:RefreshMessage()
+
+	for slot6, slot7 in ipairs(slot0.views) do
+		slot7:Init()
+	end
 end
 
 slot0.Flush = function(slot0)
@@ -258,6 +233,7 @@ slot0.OnDestroy = function(slot0)
 end
 
 slot0.OnHide = function(slot0)
+	slot0:GetIsland():GetCheaterTavernAgency():SetUILoadOver(false)
 	slot0:RemoveEveryRondStartTimer()
 
 	for slot4, slot5 in ipairs(slot0.views) do
@@ -355,6 +331,40 @@ slot0.InsertMsg = function(slot0, slot1, slot2)
 	if slot2.player and slot2.content then
 		table.insert(slot1, slot2)
 	end
+end
+
+slot0.OnClickCloseBtn = function(slot0)
+	slot1 = {}
+	slot3 = getProxy(PlayRoomProxy):GetRoomData()
+
+	if not slot0.isFinish then
+		if slot3.roomType == PlayRoomConst.PLAY_ROOM_TYPE.MATCH then
+			table.insert(slot1, function (slot0)
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = i18n("bar_tips_game6"),
+					onYes = slot0
+				})
+			end)
+		else
+			table.insert(slot1, function (slot0)
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = i18n("bar_tips_game7"),
+					onYes = slot0
+				})
+			end)
+		end
+	end
+
+	seriesAsync(slot1, function ()
+		uv0:Hide()
+		uv0:emit(IslandMediator.PLAY_ROOM_MATCH_STOP)
+		getProxy(PlayRoomProxy):SetPlayingGameState(false)
+		IslandCheaterTavernRecordTools.RecordResult(IslandCheaterTavernRecordTools.LEAVE)
+	end)
+end
+
+slot0.OnPressBack = function(slot0)
+	slot0:OnClickCloseBtn()
 end
 
 return slot0
