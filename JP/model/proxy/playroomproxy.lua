@@ -216,7 +216,7 @@ slot6.register = function(slot0)
 
 				uv0:sendNotification(GAME.PLAY_ROOM_EXIT_MATCH_READY_ROOM)
 
-				if (pg.TimeMgr.GetInstance():GetServerTime() < slot4 or slot3) and uv0.exitMatchFlag ~= true then
+				if slot0.reason == 3 then
 					uv0:sendNotification(GAME.PLAY_ROOM_CREATE_ROOM, {
 						type = PlayRoomConst.PLAY_ROOM_TYPE.MATCH,
 						gameType = uv0.roomData.gameType

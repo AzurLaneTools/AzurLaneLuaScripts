@@ -42,19 +42,15 @@ slot0.Init = function(slot0)
 
 	slot0.playerHudTFDic = {}
 	slot0.uiplayerHudInfoList = UIItemList.New(slot0.uiplayerInfoList, slot0.uiplayerInfoItem)
-	slot1 = slot0.uiplayerHudInfoList
 
-	slot1:make(function (slot0, slot1, slot2)
+	slot0.uiplayerHudInfoList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventInit then
 			uv0:OnInitPlayerHudInfoItem(slot1, slot2)
 		elseif slot0 == UIItemList.EventUpdate then
 			uv0:OnUpdatePlayerHudInfoItem(slot1, slot2)
 		end
 	end)
-
-	slot1 = slot0.uiplayerHudInfoList
-
-	slot1:each(function (slot0, slot1)
+	slot0.uiplayerHudInfoList:each(function (slot0, slot1)
 		uv0:OnInitPlayerHudInfoItem(slot0, slot1)
 	end)
 
@@ -116,6 +112,7 @@ slot0.Init = function(slot0)
 	setText(slot0.uiOutText, i18n("bar_ui_game1"))
 	setActive(slot0.uiTipsTf, false)
 	setParent(slot0.uiTipsTf, pg.UIMgr.GetInstance().OverlayToast)
+	slot0.cheaterTavernAgency:SetUILoadOver(true)
 end
 
 slot0.OnCheaterOperateDone = function(slot0, slot1)

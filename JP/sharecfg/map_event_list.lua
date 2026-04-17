@@ -4379,6 +4379,51 @@ pg.map_event_list = {
 		},
 		help_pictures = {}
 	},
+	[2020001] = {
+		help_open = 1,
+		chapter_id = 2020001,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_doa"
+		}
+	},
+	[2020002] = {
+		help_open = 0,
+		chapter_id = 2020002,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_doa"
+		}
+	},
+	[2020003] = {
+		help_open = 0,
+		chapter_id = 2020003,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_doa"
+		}
+	},
+	[2020004] = {
+		help_open = 0,
+		chapter_id = 2020004,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_doa"
+		}
+	},
+	[2020041] = {
+		help_open = 0,
+		chapter_id = 2020041,
+		event_list = {},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_doa"
+		}
+	},
 	[2100243] = {
 		help_open = 1,
 		chapter_id = 2100243,
@@ -6493,6 +6538,11 @@ pg.map_event_list = {
 		1910023,
 		1910041,
 		1990041,
+		2020001,
+		2020002,
+		2020003,
+		2020004,
+		2020041,
 		2100243,
 		2100244,
 		2100245,

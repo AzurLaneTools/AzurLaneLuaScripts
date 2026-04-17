@@ -3880,6 +3880,169 @@ pg.base.ship_skin_template_3 = {
 			use_event = true
 		}
 	},
+	[105122] = {
+		name = "太陽のユニーク",
+		change_skin = "",
+		desc = "指揮官、今日はバニー水着のノースカロライナですよ～ん？バニー要素が分からないって？じゃあもっとじっくり観察しませんと。ふふふ♪",
+		illustrator2 = -1,
+		ship_group = 10512,
+		group_index = 2,
+		purchase_offset = "",
+		painting = "beikaluolaina_3",
+		lover_hand = "hand_1_02",
+		skin_type = 0,
+		shop_type_id = 6,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		lover_kiss = "lip03",
+		bg_sp = "",
+		bg = "701",
+		bgm = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		special_effects = "",
+		id = 105122,
+		voice_actor_2 = -1,
+		gyro = 0,
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		prefab = "beikaluolaina_3",
+		l2d_se = "",
+		part_scale = "",
+		main_UI_FX = "",
+		shop_id = 71333,
+		voice_actor = 39,
+		shop_dynamic_hx = 0,
+		illustrator = -1,
+		rarity_bg = "",
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			6,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		shop_offset = {
+			7,
+			-180,
+			0,
+			0.53
+		},
+		spine_offset_profile = {
+			70.61,
+			-178.7,
+			0,
+			0.52
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.079,
+					0.941,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.11,
+					1.36,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.859,
+					2.289,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.534,
+							2.375,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			179.9,
+			-296.6,
+			0,
+			0.66
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-1885,
+					-324,
+					2,
+					0,
+					153,
+					2
+				},
+				{
+					-1234,
+					839,
+					2,
+					128,
+					0,
+					2
+				},
+				{
+					-332,
+					76,
+					2,
+					0,
+					-163,
+					2
+				}
+			}
+		}
+	},
 	[105130] = {
 		name = "ワシントン",
 		change_skin = "",
@@ -16856,116 +17019,6 @@ pg.base.ship_skin_template_3 = {
 						{
 							-0.647,
 							2.225,
-							-0.25
-						}
-					}
-				}
-			}
-		}
-	},
-	[107300] = {
-		name = "サン・ジャシント",
-		change_skin = "",
-		desc = "インディペンデンス級軽空母-サン・ジャシント　CVL-30",
-		illustrator2 = -1,
-		ship_group = 10730,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "shenghaxintuo",
-		lover_hand = "hand_1_02",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		lover_kiss = "lip03",
-		bg_sp = "",
-		bg = "",
-		bgm = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		special_effects = "",
-		id = 107300,
-		voice_actor_2 = -1,
-		gyro = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		prefab = "shenghaxintuo",
-		l2d_se = "",
-		part_scale = "",
-		get_showing = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 392,
-		shop_dynamic_hx = 0,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		double_char = 0,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.443,
-					1.093,
-					0
-				}
-			},
-			plane = {
-				{
-					1.791,
-					1.759,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.327,
-							2.381,
 							-0.25
 						}
 					}

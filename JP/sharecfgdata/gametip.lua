@@ -12877,17 +12877,17 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "期間限定建造を累計200回行うと「ソビエツキー・ソユーズ」を確定で入手可能！（最大4隻まで）"
+	tip = "「エリーゼ」「シャンディ」「ゆきの」出現確率UP!"
 }
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「ブリュンヒルデ」「ブリュッヒャー」常設実装！"
+	tip = "「ゴリツィア」「アンドレア・ドーリア」常設実装！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「Z16」常設実装！"
+	tip = "「アッティリオ・レゴロ」常設実装！"
 }
 
 
@@ -29128,7 +29128,7 @@ _G.pg.base.gametip.hotspring_tip1 = {
 
 
 _G.pg.base.gametip.hotspring_tip2 = {
-	tip = "温泉コインが足りません"
+	tip = "温泉手形が足りません"
 }
 
 
@@ -29137,10 +29137,10 @@ _G.pg.base.gametip.hotspring_help = {
 		{
 			info = [[
 遊び方：
-裏山キャンペーン「妖怪温泉街」にて、「饅頭温泉」が<color=#92fc63>9.14-10.4 23:59</color>まで開放されます！
+裏山キャンペーン「饅頭隠れ湯」にて、「饅頭温泉」が<color=#92fc63>4.17-5.1 23:59</color>まで開放されます！
 1.饅頭温泉の入浴枠をタップすると、艦船を配置しコンディションの回復速度を上昇させられます
 2.配置済みの艦船をドラッグ&ドロップすると温泉での位置を調整できます
-3.ミニゲーム「温泉街神隠し事件」をプレイすると、アイテム<color=#92fc63>温泉手形</color>を最大4個まで入手できます
+3.「バケーションレーン・きらめく砂浜」をプレイすると、アイテム<color=#92fc63>温泉手形</color>を最大4個まで入手できます
 4.「増築」ボタンをタップすると、<color=#92fc63>温泉手形</color>を消費し入浴枠を追加することが可能です]]
 		}
 	}
@@ -29148,7 +29148,7 @@ _G.pg.base.gametip.hotspring_help = {
 
 
 _G.pg.base.gametip.hotspring_expand = {
-	tip = "裏山温泉コインを$1消費し温泉を増築しますか？"
+	tip = "温泉手形<icon name=wenquanshoupai w=0.7 h=0.7/>を$1消費し温泉を増築しますか？"
 }
 
 
@@ -47199,15 +47199,11 @@ _G.pg.base.gametip.pac_minigame_help = {
 		{
 			info = [[
 遊び方：
-「飛雲の大冒険」とは、飛雲を操作し仲間から逃げつつ東煌グルメを集めてスコアを稼ぐゲームになります。
-2/26（木）まで毎日ステージが開放され、7日間ゲームをクリアすると、艦船「飛雲」などの報酬を入手できます。
-
-遊び方：
-1.飛雲を操作し、迫ってくる仲間たちから上手く逃げましょう！
-2.拾ったアイテムによって異なる効果が発揮されます
-　金豆：スコア入手
-　サンザシのタンフールー：移動速度がアップし、仲間にぶつかると酸っぱいサンザシでその仲間を開始地点に飛ばす事ができる。
-3.仲間に捕まるか、ゲーム終了ボタンをタップするとゲームがクリアになります。]]
+1.<color=#92fc63>5/1（金）</color>まで毎日ゲーム回数が<color=#92fc63>1</color>回開放されます（全<color=#92fc63>7</color>回）。7日間ミニゲームを遊ぶと報酬を入手できます。
+ルール：
+1.60秒の間で、提示されたヒント通りに入力すると、スイカ割りを実行できます。
+2.入力を間違えると、キャラの動きが止まってしまいます。
+3.スイカ割りに成功するか、制限時間が0になると、ゲームクリアになります]]
 		}
 	}
 }
@@ -48635,6 +48631,56 @@ _G.pg.base.gametip.juusoa_title = {
 }
 
 
+_G.pg.base.gametip.doa3_activityPageUI_1 = {
+	tip = "きらめく思い出"
+}
+
+
+_G.pg.base.gametip.doa3_activityPageUI_2 = {
+	tip = "ストーリークリアで\n報酬GET"
+}
+
+
+_G.pg.base.gametip.doa3_activityPageUI_3 = {
+	tip = "確認へ"
+}
+
+
+_G.pg.base.gametip.doa3_activityPageUI_4 = {
+	tip = "ストーリークリアで限定外装GET!"
+}
+
+
+_G.pg.base.gametip.doa3_activityPageUI_5 = {
+	tip = "ストーリークリアで\nGET"
+}
+
+
+_G.pg.base.gametip.doa3_activityPageUI_6 = {
+	tip = "報酬\n確認"
+}
+
+
+_G.pg.base.gametip.doa3_activityPageUI_7 = {
+	tip = "友好度"
+}
+
+
+_G.pg.base.gametip.cut_fruit_minigame_help = {
+	tip = {
+		{
+			info = [[
+遊び方：
+1.<color=#92fc63>4/23（木）</color>まで毎日ゲーム回数が<color=#92fc63>1</color>回開放されます（全<color=#92fc63>7</color>回）。7日間ミニゲームを遊ぶと報酬を入手できます。
+ルール：
+1.60秒の間で、提示されたヒント通りに入力すると、スイカ割りを実行できます。
+2.入力を間違えると、キャラの動きが止まってしまいます。
+3.スイカ割りに成功するか、制限時間が0になると、ゲームクリアになります]]
+		}
+	}
+}
+
+
 _G.pg.base.gametip.story_recrewed = {
 	tip = "募集済"
 }
@@ -48900,7 +48946,7 @@ _G.pg.base.gametip.match_ui_ranking_list4 = {
 
 
 _G.pg.base.gametip.match_ui_punishment1 = {
-	tip = "マッチングが$1秒後に開始します"
+	tip = "マッチングは$1後に開始できます"
 }
 
 

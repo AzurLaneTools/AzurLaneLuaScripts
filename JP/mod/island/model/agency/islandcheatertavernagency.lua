@@ -11,6 +11,31 @@ slot0.IsConnecting = function(slot0)
 	return slot0.isConnecting
 end
 
+slot0.SetUILoadOver = function(slot0, slot1)
+	slot0.isUILoadOver = slot1
+
+	if slot1 then
+		slot2 = ipairs
+		slot3 = slot0.cacheFunc or {}
+
+		for slot5, slot6 in slot2(slot3) do
+			slot6()
+		end
+	end
+
+	slot0.cacheFunc = {}
+end
+
+slot0.IsUILoadOver = function(slot0)
+	return slot0.isUILoadOver
+end
+
+slot0.AddCacheFunc = function(slot0, slot1)
+	slot0.cacheFunc = slot0.cacheFunc or {}
+
+	table.insert(slot0.cacheFunc, slot1)
+end
+
 slot0.SetStartGameData = function(slot0, slot1)
 	slot0.player_dic = {}
 	slot0.roomType = slot1.room_type
@@ -32,7 +57,7 @@ end
 slot0.SetResetGameData = function(slot0, slot1)
 	slot0.player_dic = {}
 	slot0.roomType = slot1.room_type
-	slot0.allPlayerNum = #slot1.player_list
+	slot0.allPlayerNum = #slot1.player_list + #slot1.out_player_list
 	slot0.curPlayerSeat = 0
 
 	for slot5, slot6 in ipairs(slot1.player_list) do
@@ -41,6 +66,17 @@ slot0.SetResetGameData = function(slot0, slot1)
 		end
 
 		slot0.player_dic[slot6.user_id] = IslandCheaterPlayer.New(slot6)
+	end
+
+	for slot5, slot6 in ipairs(slot1.out_player_list) do
+		if slot6.user_id == getProxy(PlayerProxy):getRawData().id then
+			slot0.curPlayerSeat = slot6.seat
+		end
+
+		slot6.card_num = 0
+		slot0.player_dic[slot6.user_id] = IslandCheaterPlayer.New(slot6)
+
+		slot0.player_dic[slot6.user_id]:SetOutState()
 	end
 
 	slot0:SetMainPlayerCards(slot1.card_list)
@@ -76,6 +112,10 @@ slot0.GetMainPlayerCards = function(slot0)
 	end)
 
 	return slot0.cardList
+end
+
+slot0.ClearMainPlayerCards = function(slot0)
+	slot0.cardList = {}
 end
 
 slot0.MainPlayerPutCard = function(slot0, slot1)
@@ -135,6 +175,10 @@ slot0.UpdatePlayerBombState = function(slot0, slot1, slot2, slot3)
 
 		if slot3 == 1 then
 			slot4:SetOutState()
+
+			if slot1 == getProxy(PlayerProxy):getRawData().id then
+				slot0:ClearMainPlayerCards()
+			end
 		end
 	end
 end

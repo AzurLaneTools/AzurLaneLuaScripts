@@ -16,9 +16,6 @@ slot0.SYSTEM = {
 
 slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.systemNo = slot2.system_no
-
-	warning("init systemNo", slot0.systemNo)
-
 	slot0.curNode = slot2.current_node or 0
 	slot0.states = {
 		[uv0.SYSTEM.INIT] = NewEducateStateBase.New(),

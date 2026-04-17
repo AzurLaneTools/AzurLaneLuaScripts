@@ -1,6 +1,293 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_13 = {
+	[502092] = {
+		name = "異域の夢想郷",
+		change_skin = "",
+		desc = "ふぅ……目覚めたばかりのときに、夢が示してくれた運命の殿方に出会えるなんて～。うふふ、定めの導きとなれば…ねえ旅人さん、しばし足を止めて、ここで長旅の疲れを癒やしてはいかが…？",
+		illustrator2 = -1,
+		ship_group = 50209,
+		group_index = 2,
+		purchase_offset = "",
+		painting = "jian_3",
+		lover_hand = "hand_1_02",
+		skin_type = 0,
+		shop_type_id = 27,
+		l2d_ignore_drag = 0,
+		hand_id = 9,
+		lip_smoothing = 0,
+		lover_kiss = "lip03",
+		bg_sp = "",
+		bg = "303",
+		bgm = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		special_effects = "",
+		id = 502092,
+		voice_actor_2 = -1,
+		gyro = 0,
+		l2d_drag_rate = "",
+		prefab = "jian_3",
+		l2d_se = "",
+		part_scale = "",
+		get_showing = "",
+		main_UI_FX = "",
+		shop_id = 71118,
+		voice_actor = 395,
+		shop_dynamic_hx = 0,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		time = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			60,
+			-145,
+			0
+		},
+		live2d_offset_profile = {
+			80,
+			-110,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.793,
+					1.545,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.781,
+					1.547,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.892,
+					3.27,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.014,
+							3.531,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_special",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		l2d_para_range = {
+			ParamAngleX = {
+				-10,
+				10
+			},
+			ParamAngleY = {
+				-10,
+				10
+			}
+		},
+		ship_l2d_id = {
+			50209201,
+			50209202,
+			50209203,
+			50209204,
+			50209205,
+			50209206
+		}
+	},
+	[502100] = {
+		name = "海容",
+		change_skin = "",
+		desc = "海容級防護巡洋艦-海容",
+		illustrator2 = -1,
+		ship_group = 50210,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "hairong",
+		lover_hand = "hand_1_02",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 9,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		lover_kiss = "lip03",
+		bg_sp = "",
+		bg = "",
+		bgm = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		special_effects = "",
+		id = 502100,
+		voice_actor_2 = -1,
+		gyro = 0,
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		prefab = "hairong",
+		l2d_se = "",
+		part_scale = "",
+		get_showing = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 440,
+		shop_dynamic_hx = 0,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.446,
+					0.881,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.443,
+					0.883,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.638,
+					2.367,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.29,
+							2.41,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[502101] = {
 		name = "メープル・インプレッション",
 		change_skin = "",
@@ -17343,256 +17630,6 @@ pg.base.ship_skin_template_13 = {
 						{
 							-0.478,
 							2.441,
-							-0.18
-						}
-					}
-				}
-			}
-		}
-	},
-	[701120] = {
-		name = "スヴィレピイ",
-		change_skin = "",
-		desc = "7Uストロジェボイ級駆逐艦-スヴィレピイ",
-		illustrator2 = -1,
-		ship_group = 70112,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "xiongmeng",
-		lover_hand = "hand_3_02",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 5,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		lover_kiss = "lip01",
-		bg_sp = "",
-		bg = "",
-		bgm = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		special_effects = "",
-		id = 701120,
-		voice_actor_2 = -1,
-		gyro = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		prefab = "xiongmeng",
-		l2d_se = "",
-		part_scale = "",
-		get_showing = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 400,
-		shop_dynamic_hx = 0,
-		spine_offset = "",
-		illustrator = 1,
-		rarity_bg = "",
-		double_char = 0,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.826,
-					0.347,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.598,
-					1.173,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.633,
-					0.907,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.459,
-							2.461,
-							-0.18
-						}
-					}
-				}
-			}
-		}
-	},
-	[701121] = {
-		name = "アート・オブ・リベリオン",
-		change_skin = "",
-		desc = "「喝采せよ！凄腕グラフィティマスター、スヴィレピイの登場だ！芸術の誕生が見れるなんて、あんたたち本当に運がいいな！鑑賞眼のないやつは気をつけろよ～！」",
-		illustrator2 = -1,
-		ship_group = 70112,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "xiongmeng_2",
-		lover_hand = "hand_3_02",
-		skin_type = 0,
-		shop_type_id = 12,
-		l2d_ignore_drag = 0,
-		hand_id = 5,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		lover_kiss = "lip01",
-		bg_sp = "",
-		bg = "154",
-		bgm = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		special_effects = "",
-		id = 701121,
-		voice_actor_2 = -1,
-		gyro = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		prefab = "xiongmeng_2",
-		l2d_se = "",
-		part_scale = "",
-		get_showing = "",
-		main_UI_FX = "",
-		shop_id = 70982,
-		voice_actor = 400,
-		shop_dynamic_hx = 0,
-		spine_offset = "",
-		illustrator = 1,
-		rarity_bg = "",
-		double_char = 0,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.748,
-					0.314,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.782,
-					0.309,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.633,
-					0.953,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.491,
-							2.454,
 							-0.18
 						}
 					}

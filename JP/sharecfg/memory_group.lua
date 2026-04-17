@@ -264,6 +264,8 @@ pg.memory_group = setmetatable({
 		358,
 		359,
 		360,
+		361,
+		362,
 		501,
 		502,
 		503,
@@ -6835,6 +6837,50 @@ pg.base.memory_group = {
 			5061,
 			5062,
 			5063
+		}
+	},
+	[361] = {
+		icon = "title_event",
+		type = 2,
+		link_event = 6025,
+		title = "きらめく砂浜~ステージ編~",
+		auto_unlock = "",
+		subtype = 2,
+		id = 361,
+		group_id = "",
+		memories = {
+			5081,
+			5082,
+			5083,
+			5084,
+			5085,
+			5086,
+			5087,
+			5088,
+			5089,
+			5090,
+			5091,
+			5092,
+			5093
+		}
+	},
+	[362] = {
+		icon = "title_event",
+		type = 2,
+		link_event = 6028,
+		title = "きらめく砂浜~ヴィーナス編~",
+		auto_unlock = "",
+		subtype = 2,
+		id = 362,
+		group_id = "",
+		memories = {
+			5101,
+			5102,
+			5103,
+			5104,
+			5105,
+			5106,
+			5107
 		}
 	},
 	[501] = {

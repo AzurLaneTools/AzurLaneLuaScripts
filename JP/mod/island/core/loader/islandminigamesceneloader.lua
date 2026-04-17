@@ -40,7 +40,16 @@ slot0.LoadSceneWithProgress = function(slot0, slot1, slot2)
 
 	slot6:LoadSceneAsyncWithProgress(slot5, slot4, LoadSceneMode.Additive, function (slot0)
 		if slot0 == 1 then
-			-- Nothing
+			onNextTick(function ()
+				slot0 = SceneOpBackgroundMgr.Inst
+
+				slot0:ActivatePendingScene()
+				onNextTick(function ()
+					if CheatTavernCameraMgr.instance then
+						CheatTavernCameraMgr.instance._mainCamera.enabled = false
+					end
+				end)
+			end)
 		end
 
 		uv0(slot0)
@@ -62,22 +71,28 @@ slot0.UnLoad = function(slot0, slot1)
 		return
 	end
 
-	slot4 = pg.UIMgr.GetInstance()
+	if not slot1 then
+		slot4 = pg.UIMgr.GetInstance()
 
-	slot4:LoadingOn()
+		slot4:LoadingOn()
 
-	slot4 = SceneOpMgr.Inst
+		slot4 = SceneOpMgr.Inst
 
-	slot4:UnloadSceneAsync(slot2, slot3, function ()
-		pg.UIMgr.GetInstance():LoadingOff()
-	end)
+		slot4:UnloadSceneAsync(slot2, slot3, function ()
+			pg.UIMgr.GetInstance():LoadingOff()
+		end)
+	else
+		slot4 = SceneOpMgr.Inst
+
+		slot4:UnloadSceneAsync(slot2, slot3, function ()
+		end)
+	end
 
 	slot0.scenePath = nil
 	slot0.sceneName = nil
 end
 
 slot0.ActivatePendingScene = function(slot0)
-	SceneOpBackgroundMgr.Inst:ActivatePendingScene()
 end
 
 slot0.Dispose = function(slot0, slot1)

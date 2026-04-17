@@ -1,6 +1,130 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_5 = {
+	[202078] = {
+		name = "輝かしい門出",
+		change_skin = "",
+		desc = "ロイヤルナイト・サウサンプトン、ウエディング姿になって華々しく登場ー！あっ、指揮官様、もしかして緊張なさってますか？じゃあ早速～えへへ（もみもみ）、どうですか？肩の力、抜けました？",
+		illustrator2 = -1,
+		ship_group = 20207,
+		group_index = 8,
+		purchase_offset = "",
+		painting = "nananpudun_h",
+		lover_hand = "hand_2_02",
+		skin_type = 1,
+		shop_type_id = 9998,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		lover_kiss = "lip02",
+		bg_sp = "",
+		bg = "",
+		bgm = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		special_effects = "",
+		id = 202078,
+		voice_actor_2 = -1,
+		gyro = 0,
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		prefab = "nananpudun_h",
+		l2d_se = "",
+		part_scale = "",
+		get_showing = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 187,
+		shop_dynamic_hx = 0,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.33,
+					1,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.13,
+					0.96,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.21,
+					0.11,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.19,
+					1.2,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.44,
+							2.28,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[202080] = {
 		name = "シェフィールド",
 		change_skin = "",
@@ -17283,125 +17407,6 @@ pg.base.ship_skin_template_5 = {
 		ship_l2d_id = {
 			204,
 			205
-		}
-	},
-	[205016] = {
-		name = "シーサイドオーダーズ",
-		change_skin = "",
-		desc = "もう、そこで何をしているのこの下僕！仕事なんてしてないで早く海に入って羽を伸ばしてきなさい！せっかく海辺に来てやったんだから、がっかりさせないでよねっ！",
-		illustrator2 = -1,
-		ship_group = 20501,
-		group_index = 6,
-		purchase_offset = "",
-		painting = "yilishabai_7",
-		lover_hand = "hand_2_02",
-		skin_type = 4,
-		shop_type_id = 6,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		lover_kiss = "lip02",
-		bg_sp = "",
-		bg = "117",
-		bgm = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		special_effects = "",
-		id = 205016,
-		voice_actor_2 = -1,
-		gyro = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		prefab = "yilishabai_7",
-		l2d_se = "",
-		part_scale = "",
-		get_showing = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 28,
-		shop_dynamic_hx = 0,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		double_char = 0,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.17,
-					1.08,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.688,
-					1.12,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.688,
-					1.12,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.41,
-							2.35,
-							0
-						}
-					}
-				}
-			}
 		}
 	}
 }

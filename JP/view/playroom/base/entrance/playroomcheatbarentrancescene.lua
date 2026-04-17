@@ -102,6 +102,7 @@ slot0.closeView = function(slot0)
 end
 
 slot0.onBackPressed = function(slot0)
+	slot0:closeView()
 end
 
 return slot0

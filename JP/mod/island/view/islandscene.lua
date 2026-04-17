@@ -583,4 +583,14 @@ slot0.willExit = function(slot0)
 	end
 end
 
+slot0.onBackPressed = function(slot0)
+	if slot0.sceneMgr:GetPage(IslandCheaterTavernMainPage) then
+		pg.m02:sendNotification(IslandProxy.PRESS_BACK)
+
+		return
+	end
+
+	uv0.super.onBackPressed(slot0)
+end
+
 return slot0

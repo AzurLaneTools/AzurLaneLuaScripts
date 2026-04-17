@@ -1,4 +1,8 @@
 slot0 = class("LevelStageDOAFeverPanel", import("view.base.BaseSubPanel"))
+slot0.PAINTING_RANGE = {
+	1,
+	7
+}
 
 slot0.getUIName = function(slot0)
 	return "LevelStageDOAFeverPanel"
@@ -78,7 +82,7 @@ slot0.UpdateView = function(slot0, slot1, slot2)
 
 				slot1 = uv0.banner:Find("Main/Painting")
 
-				setImageSprite(slot1, LoadSprite("ui/LevelStageDOAFeverPanel_atlas", tostring(math.random(1, 7))), true)
+				setImageSprite(slot1, LoadSprite("ui/LevelStageDOAFeverPanel_atlas", tostring(math.random(uv0.PAINTING_RANGE[1], uv0.PAINTING_RANGE[2]))), true)
 				setActive(uv0.banner, true)
 
 				slot1:GetComponent(typeof(Image)).enabled = true

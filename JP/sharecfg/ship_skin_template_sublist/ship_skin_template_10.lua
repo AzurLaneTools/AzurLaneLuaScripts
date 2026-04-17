@@ -1,6 +1,252 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_10 = {
+	[307013] = {
+		name = "朱絹の余醺",
+		change_skin = "",
+		desc = "指揮官様～お待ちしておりましたわ。赤城を焦らせようとするなんて罪な人……ですが、これで終わり――指揮官様と赤城の逢瀬を阻む者はもはやおりませんわ…♡",
+		illustrator2 = -1,
+		ship_group = 30701,
+		group_index = 3,
+		purchase_offset = "",
+		painting = "Chicheng_4",
+		lover_hand = "hand_1_02",
+		skin_type = 0,
+		shop_type_id = 7,
+		l2d_ignore_drag = 0,
+		hand_id = 2,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		lover_kiss = "lip03",
+		bg_sp = "",
+		bg = "136",
+		bgm = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		special_effects = "",
+		id = 307013,
+		voice_actor_2 = -1,
+		gyro = 0,
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		prefab = "Chicheng_4",
+		l2d_se = "",
+		part_scale = "",
+		get_showing = "",
+		main_UI_FX = "",
+		shop_id = 70423,
+		voice_actor = 44,
+		shop_dynamic_hx = 0,
+		spine_offset = "",
+		illustrator = 8,
+		rarity_bg = "",
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.215,
+					1.149,
+					0
+				}
+			},
+			plane = {
+				{
+					1.229,
+					1.184,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.3,
+							2.618,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[307014] = {
+		name = "朝凰来儀",
+		change_skin = "",
+		desc = "この宴は指揮官様へのご褒美…そして指揮官様が来てくださることは赤城へのご褒美になりますわ～ええ、今日は酔いつぶれるまで帰しませんわ。ふふふ、ふふふふふ♡",
+		illustrator2 = -1,
+		ship_group = 30701,
+		group_index = 4,
+		purchase_offset = "",
+		painting = "chicheng_5",
+		lover_hand = "hand_1_02",
+		skin_type = 0,
+		shop_type_id = 3,
+		l2d_ignore_drag = 1,
+		hand_id = 2,
+		lip_smoothing = 0,
+		lover_kiss = "lip03",
+		bg_sp = "",
+		bg = "152",
+		bgm = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		special_effects = "",
+		id = 307014,
+		voice_actor_2 = -1,
+		gyro = 0,
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		prefab = "chicheng_5",
+		l2d_se = "",
+		part_scale = "",
+		get_showing = "",
+		main_UI_FX = "",
+		shop_id = 70659,
+		voice_actor = 44,
+		shop_dynamic_hx = 0,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		time = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		tag = {
+			1,
+			4
+		},
+		live2d_offset = {
+			40,
+			70,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.135,
+					1.344,
+					0
+				}
+			},
+			plane = {
+				{
+					1.167,
+					1.184,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.327,
+							2.423,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_special",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		l2d_para_range = {
+			ParamBodyAngleY = {
+				0,
+				0
+			}
+		}
+	},
 	[307015] = {
 		name = "甜菓の路畔",
 		change_skin = "",
@@ -16892,256 +17138,6 @@ pg.base.ship_skin_template_10 = {
 						{
 							-0.725,
 							1.842,
-							-1.05
-						}
-					}
-				}
-			}
-		}
-	},
-	[401350] = {
-		name = "Z35",
-		change_skin = "",
-		desc = "1936B型駆逐艦-Z35 ",
-		illustrator2 = -1,
-		ship_group = 40135,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "Z35",
-		lover_hand = "hand_2_02",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		lover_kiss = "lip02",
-		bg_sp = "",
-		bg = "",
-		bgm = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		special_effects = "",
-		id = 401350,
-		voice_actor_2 = -1,
-		gyro = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		prefab = "Z35",
-		l2d_se = "",
-		part_scale = "",
-		get_showing = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 123,
-		shop_dynamic_hx = 0,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		double_char = 0,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.18,
-					0.9,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.19,
-					0.88,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.08,
-					0.11,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.17,
-					0.88,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.62,
-							2.24,
-							-1.05
-						}
-					}
-				}
-			}
-		}
-	},
-	[401351] = {
-		name = "projekt Kirschblüte",
-		change_skin = "",
-		desc = "「指揮官、艦隊の皆、あけましておめでとう～！歌って踊れるフュンちゃん、重桜風の新年企画、名付けて『projekt Kirschblüte 』をお届けしまーす！ぜひ応援してくださいね！」",
-		illustrator2 = -1,
-		ship_group = 40135,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "z35_2",
-		lover_hand = "hand_2_02",
-		skin_type = 0,
-		shop_type_id = 2,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		lover_kiss = "lip02",
-		bg_sp = "",
-		bg = "126",
-		bgm = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		special_effects = "",
-		id = 401351,
-		voice_actor_2 = -1,
-		gyro = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		prefab = "z35_2",
-		l2d_se = "",
-		part_scale = "",
-		get_showing = "",
-		main_UI_FX = "",
-		shop_id = 70292,
-		voice_actor = 123,
-		shop_dynamic_hx = 0,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		double_char = 0,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.18,
-					0.9,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.19,
-					0.88,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.08,
-					0.11,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.17,
-					0.88,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.62,
-							2.24,
 							-1.05
 						}
 					}

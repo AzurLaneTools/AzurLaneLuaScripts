@@ -179,6 +179,12 @@ slot0.StartLoading = function(slot0, slot1, slot2, slot3)
 
 			uv0:GetComponent("DftAniEvent"):SetTriggerEvent(uv1)
 			quickPlayAnimator(uv0, "jufeng")
+		end,
+		jiarihangxianshanyaohaibin = function ()
+			uv0 = uv0:Find("scale")
+
+			uv0:GetComponent("DftAniEvent"):SetTriggerEvent(uv1)
+			quickPlayAnimator(uv0, "manyou")
 		end
 	}, function ()
 	end)
@@ -221,6 +227,9 @@ slot0.EndLoading = function(slot0, slot1, slot2, slot3)
 			uv0()
 		end,
 		jufengyuziyouqundao_fullscreen = function ()
+			uv0()
+		end,
+		jiarihangxianshanyaohaibin = function ()
 			uv0()
 		end
 	}, function ()

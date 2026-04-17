@@ -2225,6 +2225,11 @@ temp = function()
 						}
 					}
 				},
+				["デ"] = {
+					["ィ"] = {
+						this = true
+					}
+				},
 				["パ"] = {
 					["ー"] = {
 						["ニ"] = {
@@ -2698,6 +2703,13 @@ temp = function()
 							}
 						}
 					}
+				}
+			}
+		},
+		["リ"] = {
+			["ー"] = {
+				["ゼ"] = {
+					this = true
 				}
 			}
 		}
@@ -4985,6 +4997,11 @@ temp = function()
 						this = true
 					}
 				}
+			}
+		},
+		["テ"] = {
+			["ィ"] = {
+				this = true
 			}
 		},
 		["ト"] = {
@@ -9359,6 +9376,42 @@ temp = function()
 	uv0["た"] = {
 		["ま"] = {
 			["き"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["し"] = {
+		["ず"] = {
+			["く"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["つ"] = {
+		["く"] = {
+			["し"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["ゆ"] = {
+		["き"] = {
+			["の"] = {
 				this = true
 			}
 		}

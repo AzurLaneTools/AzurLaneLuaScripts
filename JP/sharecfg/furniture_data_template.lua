@@ -196,6 +196,7 @@ pg.furniture_data_template = setmetatable({
 			330,
 			331,
 			332,
+			333,
 			100002,
 			100003,
 			100004,
@@ -3744,6 +3745,25 @@ pg.furniture_data_template = setmetatable({
 			336115,
 			336301,
 			336302
+		},
+		[137] = {
+			337001,
+			337002,
+			337101,
+			337102,
+			337104,
+			337105,
+			337106,
+			337107,
+			337108,
+			337109,
+			337110,
+			337111,
+			337112,
+			337113,
+			337114,
+			337115,
+			337116
 		}
 	},
 	get_id_list_by_tag = {
@@ -5969,7 +5989,22 @@ pg.furniture_data_template = setmetatable({
 			336111,
 			336112,
 			336113,
-			336114
+			336114,
+			337101,
+			337102,
+			337104,
+			337105,
+			337106,
+			337107,
+			337108,
+			337109,
+			337110,
+			337111,
+			337112,
+			337113,
+			337114,
+			337115,
+			337116
 		},
 		{
 			1108,
@@ -6407,7 +6442,8 @@ pg.furniture_data_template = setmetatable({
 			321,
 			323,
 			331,
-			332
+			332,
+			333
 		},
 		[7] = {
 			223,
@@ -6745,7 +6781,8 @@ pg.furniture_data_template = setmetatable({
 			333001,
 			334001,
 			335001,
-			336001
+			336001,
+			337001
 		},
 		[3] = {
 			1002,
@@ -6869,7 +6906,8 @@ pg.furniture_data_template = setmetatable({
 			333002,
 			334002,
 			335002,
-			336002
+			336002,
+			337002
 		},
 		[5] = {
 			1301,
@@ -7386,7 +7424,8 @@ pg.furniture_data_template = setmetatable({
 			333002,
 			334002,
 			335002,
-			336002
+			336002,
+			337002
 		},
 		[7] = {
 			1,
@@ -7558,6 +7597,7 @@ pg.furniture_data_template = setmetatable({
 			330,
 			331,
 			332,
+			333,
 			100002,
 			100004,
 			100005,
@@ -9834,7 +9874,22 @@ pg.furniture_data_template = setmetatable({
 			336112,
 			336113,
 			336114,
-			336115
+			336115,
+			337101,
+			337102,
+			337104,
+			337105,
+			337106,
+			337107,
+			337108,
+			337109,
+			337110,
+			337111,
+			337112,
+			337113,
+			337114,
+			337115,
+			337116
 		},
 		[11] = {
 			143,
@@ -10421,7 +10476,8 @@ pg.furniture_data_template = setmetatable({
 			333001,
 			334001,
 			335001,
-			336001
+			336001,
+			337001
 		},
 		[5] = {
 			1101,
@@ -10990,6 +11046,7 @@ pg.furniture_data_template = setmetatable({
 		330,
 		331,
 		332,
+		333,
 		100002,
 		100003,
 		100004,
@@ -14293,7 +14350,24 @@ pg.furniture_data_template = setmetatable({
 		336114,
 		336115,
 		336301,
-		336302
+		336302,
+		337001,
+		337002,
+		337101,
+		337102,
+		337104,
+		337105,
+		337106,
+		337107,
+		337108,
+		337109,
+		337110,
+		337111,
+		337112,
+		337113,
+		337114,
+		337115,
+		337116
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -24096,6 +24170,44 @@ pg.base.furniture_data_template = {
 				"tegongdushixunzhang",
 				"normal"
 			}
+		},
+		interAction_group = {}
+	},
+	[333] = {
+		can_rotate = 0,
+		describe = "碧い海に広がる青空。きらめくバカンスを、共に満喫しよう！——「バケーションレーン・きらめく砂浜」イベント記念アイテム",
+		gain_by = "コラボイベント",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/shanyaohaibinxunzhang",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "きらめく砂浜記念章",
+		advice = 0,
+		tag = 8,
+		id = 333,
+		icon = "shanyaohaibinxunzhangicon",
+		comfortable = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
 		},
 		interAction_group = {}
 	},
@@ -175747,6 +175859,756 @@ pg.base.furniture_data_template = {
 				"tongjilingtg",
 				"normal"
 			}
+		},
+		interAction_group = {}
+	},
+	[337001] = {
+		can_rotate = 0,
+		describe = "きらめく波しぶきと太陽で、最高のバケーションを彩ろう！",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa2/dibandoa2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 137,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "砂浜の床",
+		advice = 0,
+		tag = 4,
+		id = 337001,
+		icon = "dibandoa2icon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[337002] = {
+		can_rotate = 0,
+		describe = "きらめく波しぶきと太陽で、最高のバケーションを彩ろう！",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 137,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "砂浜の壁",
+		advice = 0,
+		id = 337002,
+		tag = 3,
+		comfortable = 4,
+		icon = "qiangbidoa2icon",
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbidoa2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[337101] = {
+		can_rotate = 0,
+		describe = "特製ドリンクを片手に、仲間たちと心ゆくまで語り合おう",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa2/bataidoa2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 137,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "砂浜のバーカウンター",
+		advice = 0,
+		tag = 1,
+		id = 337101,
+		icon = "bataidoa2icon",
+		comfortable = 3,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[337102] = {
+		can_rotate = 0,
+		describe = "スツールに腰掛け、景色を眺めながら優雅な一杯を嗜もう",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa2/bataiyizidoa2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 137,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 4,
+		name = "バーのハイスツール",
+		advice = 0,
+		id = 337102,
+		tag = 1,
+		comfortable = 1,
+		icon = "bataiyizidoa2icon",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					12.9,
+					64.7
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[337104] = {
+		can_rotate = 0,
+		describe = "海のように鮮やかな青。一度座れば、手放せなくなる心地よさ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa2/shatanyi1doa2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 137,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "紺碧のビーチチェア",
+		advice = 0,
+		id = 337104,
+		tag = 1,
+		comfortable = 1,
+		icon = "shatanyi1doa2icon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					28.2,
+					16
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[337105] = {
+		can_rotate = 0,
+		describe = "真っ白なデザイン。日光浴に欠かせない存在！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa2/shatanyi2doa2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 137,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "純白のビーチチェア",
+		advice = 0,
+		id = 337105,
+		tag = 1,
+		comfortable = 1,
+		icon = "shatanyi2doa2icon",
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					9.1,
+					22.1
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[337106] = {
+		can_rotate = 0,
+		describe = "半ば埋もれた岩。足元にどうぞ気を付けて",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa2/shitou1doa2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 137,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "砂浜の岩1",
+		advice = 0,
+		tag = 1,
+		id = 337106,
+		icon = "shitou1doa2icon",
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[337107] = {
+		can_rotate = 0,
+		describe = "半ば埋もれた岩。足元にどうぞ気を付けて",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa2/shitou2doa2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 137,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "砂浜の岩2",
+		advice = 0,
+		tag = 1,
+		id = 337107,
+		icon = "shitou2doa2icon",
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[337108] = {
+		can_rotate = 0,
+		describe = "半ば埋もれた岩。足元にどうぞ気を付けて",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa2/shitou3doa2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 137,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "砂浜の岩3",
+		advice = 0,
+		tag = 1,
+		id = 337108,
+		icon = "shitou3doa2icon",
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[337109] = {
+		can_rotate = 0,
+		describe = "爽やかな青が、さっとあなただけの日陰をお届け",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa2/suliaosandoa2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 137,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "砂浜のパラソル",
+		advice = 0,
+		tag = 1,
+		id = 337109,
+		icon = "suliaosandoa2icon",
+		comfortable = 2,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[337110] = {
+		can_rotate = 0,
+		describe = "軽やかな木製パーテーションで、落ち着いた空間をスマートに演出",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa2/zhalandoa2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 137,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "砂浜の木製仕切り",
+		advice = 0,
+		tag = 1,
+		id = 337110,
+		icon = "zhalandoa2icon",
+		comfortable = 2,
+		size = {
+			1,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[337111] = {
+		can_rotate = 0,
+		describe = "ヤシの葉で編まれた、リゾート気分も実用性も満点の日除け",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa2/zheyangsandoa2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 137,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "ヤシの葉パラソル",
+		advice = 0,
+		tag = 1,
+		id = 337111,
+		icon = "zheyangsandoa2ico",
+		comfortable = 2,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[337112] = {
+		can_rotate = 0,
+		describe = "海辺の灯籠を灯し、柔らかな光でビーチパーティーの夜を暖かく包み込もう",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa2/zhuangshidoa2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 137,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "砂浜のウッドランタン",
+		advice = 0,
+		tag = 1,
+		id = 337112,
+		icon = "zhuangshidoa2icon",
+		comfortable = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[337113] = {
+		can_rotate = 0,
+		describe = "鮮やかな花が飾られた、グルメを楽しむための特等席",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa2/zhuoyi1doa2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 137,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "砂浜のくつろぎテーブルセット1",
+		advice = 0,
+		id = 337113,
+		tag = 1,
+		comfortable = 3,
+		icon = "zhuoyi1doa2",
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-66,
+					-17
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[337114] = {
+		can_rotate = 0,
+		describe = "鮮やかな花が飾られた、グルメを楽しむための特等席",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "doa2/zhuoyi2doa2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 137,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "砂浜のくつろぎテーブルセット2",
+		advice = 0,
+		id = 337114,
+		tag = 1,
+		comfortable = 2,
+		icon = "zhuoyi2doa2",
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-27,
+					5
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[337115] = {
+		can_rotate = 0,
+		describe = "青々としたヤシの木が、生き生きと砂浜を活気づける！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 137,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 4,
+		name = "砂浜のヤシの木",
+		advice = 0,
+		id = 337115,
+		tag = 1,
+		comfortable = 2,
+		icon = "zonglvshudoa2icon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zonglvshudoa2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[337116] = {
+		advice = 0,
+		name = "砂浜のハンモック",
+		count = 1,
+		type = 2,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "diaochuangdoa2icon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 137,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 3,
+		belong = 1,
+		canputon = 0,
+		id = 337116,
+		comfortable = 3,
+		describe = "木の間に揺られるひと時。心地よいお昼寝に打って付け！",
+		dorm_id = 0,
+		tag = 1,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			2,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"diaochuangdoa2B",
+				"normal"
+			},
+			{
+				"diaochuangdoa2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	}
