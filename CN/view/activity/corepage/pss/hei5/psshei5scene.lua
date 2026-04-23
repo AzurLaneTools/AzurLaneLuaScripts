@@ -128,7 +128,7 @@ slot0.SetAward = function(slot0)
 			}))
 			onButton(uv0, slot2, function ()
 				uv0:emit(BaseUI.ON_NEW_STYLE_DROP, {
-					drop = drop
+					drop = uv1
 				})
 			end, SFX_PANEL)
 		end

@@ -7752,7 +7752,7 @@ pg.collection_template = {
 			},
 			{
 				id = 59189,
-				nums = "150",
+				nums = "300",
 				type = 2
 			}
 		},

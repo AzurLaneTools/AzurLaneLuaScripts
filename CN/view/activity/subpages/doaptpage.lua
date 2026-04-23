@@ -4,13 +4,14 @@ slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.buffModule = slot0.bg:Find("buff_module")
-	slot0.buffPanel = slot0.buffModule:Find("skill")
-	slot0.buffLvs = {}
-
-	eachChild(slot0.buffPanel, function (slot0)
-		table.insert(uv0.buffLvs, slot0)
-	end)
-
+	slot1 = slot0.buffModule
+	slot0.buffPanel = slot1:Find("skill")
+	slot0.buffLvs = {
+		slot0.buffPanel:Find("pow_lv"),
+		slot0.buffPanel:Find("tec_lv"),
+		slot0.buffPanel:Find("stm_lv"),
+		slot0.buffPanel:Find("apl_lv")
+	}
 	slot0.getGreyBtn = slot0.bg:Find("get_grey_btn")
 	slot0.helpBtn = slot0.bg:Find("help_btn")
 	slot0.levelPanel = slot0.buffModule:Find("level")
