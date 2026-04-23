@@ -128,7 +128,9 @@ end
 slot0.UpdateVirtualBuff = function(slot0, slot1, slot2)
 	LoadImageSpriteAtlasAsync("ui/mainui_atlas", slot2.Image, slot1)
 	onButton(slot0, slot1, function ()
-		uv0:emit(NewMainMediator.GO_SINGLE_ACTIVITY, ActivityConst.DOA_PT_ID)
+		uv0.buffDesMsgbox = uv0.buffDesMsgbox or MainBuffDesMsgbox.New(pg.UIMgr.GetInstance().UIMain)
+
+		uv0.buffDesMsgbox:ExecuteAction("Show", ActivityConst.DOA_PT_ID)
 	end, SFX_PANEL)
 	setActive(slot1, true)
 end
@@ -163,6 +165,14 @@ slot0.GetDirection = function(slot0)
 	return Vector2(0, 1)
 end
 
+slot0.Disable = function(slot0)
+	if slot0.buffDesMsgbox then
+		slot0.buffDesMsgbox:Destroy()
+
+		slot0.buffDesMsgbox = nil
+	end
+end
+
 slot0.Dispose = function(slot0)
 	uv0.super.Dispose(slot0)
 
@@ -173,6 +183,12 @@ slot0.Dispose = function(slot0)
 	end
 
 	slot0:ClearTimers()
+
+	if slot0.buffDesMsgbox then
+		slot0.buffDesMsgbox:Destroy()
+
+		slot0.buffDesMsgbox = nil
+	end
 end
 
 return slot0
