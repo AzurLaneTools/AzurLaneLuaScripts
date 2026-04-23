@@ -12882,12 +12882,12 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「ゴリツィア」「アンドレア・ドーリア」常設実装！"
+	tip = "「ブリュンヒルデ」「ブリュッヒャー」常設実装！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「アッティリオ・レゴロ」常設実装！"
+	tip = "「Z16」常設実装！"
 }
 
 
@@ -16696,9 +16696,9 @@ _G.pg.base.gametip.doa_collection = {
 ・イベント海域（ステージ）をクリア
 ・イベント任務をクリア
 ・ヴィーナスPt「累計獲得数報酬」
-・「ミニゲーム新規（どんけつゲーム）」「ミニゲーム復刻（ヴィーナス練習試合）」に参加
+・「ミニゲーム復刻（どんけつゲーム）」「ミニゲーム復刻（ヴィーナス練習試合）」に参加
 
-キャラ好物情報の開放報酬は5月17日（水）23:59ま
+キャラ好物情報の開放報酬は5月7日（木）23:59ま
 での期間限定で受け取れます。]]
 		}
 	}
@@ -20787,7 +20787,7 @@ _G.pg.base.gametip.venusvolleyball_help = {
 「ヴィーナス練習試合」とは、ビーチバレーのミニゲー
 ムをプレイすることで、報酬を入手できるミニイベント
 です。
-キャラクターを選択し、7日間毎日1回開放される試合を
+キャラクターを選択し、最初から解放された7ステージを全て
 クリアすると、コラボ兵装「ヴィーナス覚醒ジェム」を
 入手できます。]]
 		},
@@ -20867,15 +20867,15 @@ _G.pg.base.gametip.doa_main = {
 		},
 		{
 			info = [[
-ミニゲーム新規（どんけつゲーム）：
-ミニゲームをプレイすることができます。７日間プレイ
+ミニゲーム復刻（どんけつゲーム）：
+ミニゲームをプレイすることができます。初日で開放された全ステージクリア
 すると、「ルナ」の特殊兵装「やきいも」、「たまき」の特殊兵装「マカロン」などを入手でき
 ます。]]
 		},
 		{
 			info = [[
 ミニゲーム復刻（ヴィーナス練習試合）：
-ミニゲームをプレイすることができます。７日間プレイ
+ミニゲームをプレイすることができます。初日で開放された全ステージクリア
 すると、特別兵装「ヴィーナス覚醒ジェム」を入手でき
 ます。]]
 		},
@@ -20884,7 +20884,7 @@ _G.pg.base.gametip.doa_main = {
 さらに、コラボイベント期間中毎日「特別委託」が出現
 します。委託を遂行すると報酬を入手することができま
 す。特別委託は既存の委託出撃枠・委託出現枠とは別枠
-として扱われ、また、委託報酬は5月17日（水）23:59
+として扱われ、また、委託報酬は5月1日（金）23:59
 までの期間限定で受領できます。]]
 		}
 	}
@@ -26833,7 +26833,7 @@ _G.pg.base.gametip.blackfriday_help = {
 
 
 _G.pg.base.gametip.eventshop_time_hint = {
-	tip = "$1メンテナンスまで交換可能"
+	tip = "$1 23:59まで交換可能"
 }
 
 
@@ -49082,4 +49082,59 @@ _G.pg.base.gametip.bar_tips_game6 = {
 
 _G.pg.base.gametip.bar_tips_game7 = {
 	tip = "ゲームを中止しますか？ "
+}
+
+
+_G.pg.base.gametip.exchange_code_tip = {
+	tip = "下記のアイテムと交換します\n"
+}
+
+
+_G.pg.base.gametip.exchange_code_skin = {
+	tip = "<color=#FF4A45>当該着せ替えを所持しているため、ダイヤに自動変換されます</color>"
+}
+
+
+_G.pg.base.gametip.exchange_code_error_16 = {
+	tip = "このUIDでの交換回数上限に達しています"
+}
+
+
+_G.pg.base.gametip.exchange_code_error_12 = {
+	tip = "しばらく経ってから再度お試しください"
+}
+
+
+_G.pg.base.gametip.exchange_code_error_9 = {
+	tip = "無効なシリアルコードです"
+}
+
+
+_G.pg.base.gametip.exchange_code_error_20 = {
+	tip = "シリアルコードが存在しません"
+}
+
+
+_G.pg.base.gametip.exchange_code_error_6 = {
+	tip = "シリアルコードの交換回数が最大になりました"
+}
+
+
+_G.pg.base.gametip.exchange_code_error_7 = {
+	tip = "すでに使用済みのシリアルコードです"
+}
+
+
+_G.pg.base.gametip.exchange_code_before_time = {
+	tip = "シリアルコード交換期間外です"
+}
+
+
+_G.pg.base.gametip.exchange_code_after_time = {
+	tip = "交換期間外です"
+}
+
+
+_G.pg.base.gametip.exchange_code_skin_tip = {
+	tip = "着せ替え"
 }

@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50461
+			50804
 		}
 	},
 	{
@@ -51,30 +51,28 @@ pg.activity_link_button = {
 		}
 	},
 	[11] = {
+		param = "0",
 		name = "event_map_sub",
-		time = "stop",
 		text_pic = "text_event_map_sub",
-		type = 2,
+		type = 0,
 		pic = "event_map_sub",
 		id = 11,
 		group_id = 3,
 		order = 1,
-		param = {
-			"LiquorFloor"
+		time = {
+			"default",
+			50804
 		}
 	},
 	[12] = {
 		name = "event_sub_act",
+		time = "stop",
 		text_pic = "text_event_map_sub",
 		type = 2,
 		pic = "event_map_sub",
 		id = 12,
 		group_id = 3,
 		order = 1,
-		time = {
-			"default",
-			50434
-		},
 		param = {
 			"LiquorFloor"
 		}
@@ -97,15 +95,18 @@ pg.activity_link_button = {
 	},
 	[20] = {
 		name = "event_minigame",
-		time = "stop",
 		text_pic = "text_event_minigame",
 		type = 2,
 		pic = "event_minigame",
 		id = 20,
 		group_id = 5,
 		order = 1,
+		time = {
+			"default",
+			50811
+		},
 		param = {
-			"holiday villa map"
+			"scene DOAReLink Island"
 		}
 	},
 	[21] = {

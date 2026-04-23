@@ -154632,31 +154632,6 @@ _G.pg.base.item_virtual_data_statistics[59179] = {
 }
 
 
-_G.pg.base.item_virtual_data_statistics[59180] = {
-	drop_gold_max = 0,
-	name = "訓練Pt",
-	display = "「兆しの夢」報酬交換用アイテム。イベント終了後に削除される。",
-	type = 98,
-	is_world = 0,
-	shop_id = -1,
-	replace_item = 0,
-	time_limit = 0,
-	link_id = 0,
-	icon = "Props/xunliandianshu_s",
-	order = 0,
-	rarity = 2,
-	max_num = 0,
-	drop_oil_max = 0,
-	virtual_type = 0,
-	id = 59180,
-	display_icon = {},
-	price = {},
-	index = {},
-	shiptrans_id = {},
-	combination_display = {}
-}
-
-
 _G.pg.base.item_virtual_data_statistics[59181] = {
 	drop_gold_max = 0,
 	name = "試着貸出チケット（2020.10.11まで）",
@@ -154699,6 +154674,31 @@ _G.pg.base.item_virtual_data_statistics[59182] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 59182,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[59180] = {
+	drop_gold_max = 0,
+	name = "訓練Pt",
+	display = "「兆しの夢」報酬交換用アイテム。イベント終了後に削除される。",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xunliandianshu_s",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 59180,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -154907,31 +154907,6 @@ _G.pg.base.item_virtual_data_statistics[59190] = {
 }
 
 
-_G.pg.base.item_virtual_data_statistics[59191] = {
-	drop_gold_max = 0,
-	name = "訓練Pt",
-	display = "「作戦準備・鉄血」報酬交換用アイテム。イベント終了後に削除される。",
-	type = 98,
-	is_world = 0,
-	shop_id = -1,
-	replace_item = 0,
-	time_limit = 0,
-	link_id = 0,
-	icon = "Props/xunliandianshu_t",
-	order = 0,
-	rarity = 2,
-	max_num = 0,
-	drop_oil_max = 0,
-	virtual_type = 0,
-	id = 59191,
-	display_icon = {},
-	price = {},
-	index = {},
-	shiptrans_id = {},
-	combination_display = {}
-}
-
-
 _G.pg.base.item_virtual_data_statistics[59192] = {
 	drop_gold_max = 0,
 	name = "鉄血キー",
@@ -154999,6 +154974,31 @@ _G.pg.base.item_virtual_data_statistics[59194] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 59194,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[59191] = {
+	drop_gold_max = 0,
+	name = "訓練Pt",
+	display = "「作戦準備・鉄血」報酬交換用アイテム。イベント終了後に削除される。",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xunliandianshu_t",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 59191,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -159686,56 +159686,6 @@ _G.pg.base.item_virtual_data_statistics[59411] = {
 }
 
 
-_G.pg.base.item_virtual_data_statistics[59412] = {
-	drop_gold_max = 0,
-	name = "友好度-プリンツ・オイゲンちゃん",
-	display = "イベント「甘えちゃいたい　ケーゼクーヘン」・友好度報酬（累計獲得数）",
-	type = 98,
-	is_world = 0,
-	shop_id = -1,
-	replace_item = 0,
-	time_limit = 0,
-	link_id = 0,
-	icon = "Props/little_eugen_pt",
-	order = 0,
-	rarity = 2,
-	max_num = 0,
-	drop_oil_max = 0,
-	virtual_type = 0,
-	id = 59412,
-	display_icon = {},
-	price = {},
-	index = {},
-	shiptrans_id = {},
-	combination_display = {}
-}
-
-
-_G.pg.base.item_virtual_data_statistics[59413] = {
-	drop_gold_max = 0,
-	name = "訓練Pt",
-	display = "「作戦準備・鉄血」報酬交換用アイテム。イベント終了後に削除される。",
-	type = 98,
-	is_world = 0,
-	shop_id = -1,
-	replace_item = 0,
-	time_limit = 0,
-	link_id = 0,
-	icon = "Props/xunliandianshu_d",
-	order = 0,
-	rarity = 2,
-	max_num = 0,
-	drop_oil_max = 0,
-	virtual_type = 0,
-	id = 59413,
-	display_icon = {},
-	price = {},
-	index = {},
-	shiptrans_id = {},
-	combination_display = {}
-}
-
-
 _G.pg.base.item_virtual_data_statistics[59420] = {
 	drop_gold_max = 0,
 	name = "ヴィーナスPt",
@@ -159778,6 +159728,56 @@ _G.pg.base.item_virtual_data_statistics[59421] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 59421,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[59412] = {
+	drop_gold_max = 0,
+	name = "友好度-プリンツ・オイゲンちゃん",
+	display = "イベント「甘えちゃいたい　ケーゼクーヘン」・友好度報酬（累計獲得数）",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/little_eugen_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 59412,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[59413] = {
+	drop_gold_max = 0,
+	name = "訓練Pt",
+	display = "「作戦準備・鉄血」報酬交換用アイテム。イベント終了後に削除される。",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xunliandianshu_d",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 59413,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180115,6 +180115,31 @@ _G.pg.base.item_virtual_data_statistics[65887] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65901] = {
+	drop_gold_max = 0,
+	name = "試着貸出チケット（2026.4.30まで）",
+	display = "「試着貸出」対象になった着せ替えを一定時間内使用可能にするチケット。イベント終了（2026.4.30まで）で削除されます",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65901,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[66001] = {
 	drop_gold_max = 0,
 	name = "木材",
@@ -180357,6 +180382,56 @@ _G.pg.base.item_virtual_data_statistics[66014] = {
 	drop_oil_max = 0,
 	virtual_type = 17,
 	id = 66014,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66018] = {
+	drop_gold_max = 0,
+	name = "ヴィーナスPt",
+	display = "「バケーションレーン・復刻」の交換Ptアイテム。イベント終了時に削除されます",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/DOA_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66018,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66019] = {
+	drop_gold_max = 0,
+	name = "建造チケット",
+	display = "「バケーションレーン・復刻」にて入手可能。「バケーションレーン・復刻」特別建造を1回行える（イベント終了時に削除されます）",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50813,
+	icon = "Props/buildTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 22,
+	id = 66019,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -187569,6 +187644,456 @@ _G.pg.base.item_virtual_data_statistics[70192] = {
 	drop_oil_max = 0,
 	virtual_type = 1,
 	id = 70192,
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[70201] = {
+	drop_gold_max = 0,
+	name = "好きな食べもの(マリー・ローズ)",
+	display = "マリー・ローズが好きな食べもの：プリンセスバーケルセ。キャラの好物情報を開放可能",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50810,
+	icon = "Props/doa_collect",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 70201,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[70202] = {
+	drop_gold_max = 0,
+	name = "好きな飲みもの(マリー・ローズ)",
+	display = "マリー・ローズが好きな飲みもの：トロピカルジュース。キャラの好物情報を開放可能",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50810,
+	icon = "Props/doa_collect",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 70202,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[70203] = {
+	drop_gold_max = 0,
+	name = "好きな食べもの(ほのか)",
+	display = "ほのかが好きな食べもの：ホイップシュークリーム。キャラの好物情報を開放可能",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50810,
+	icon = "Props/doa_collect",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 70203,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[70204] = {
+	drop_gold_max = 0,
+	name = "好きな飲みもの(ほのか)",
+	display = "ほのかが好きな飲みもの：レモンスカッシュ。キャラの好物情報を開放可能",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50810,
+	icon = "Props/doa_collect",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 70204,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[70205] = {
+	drop_gold_max = 0,
+	name = "好きな食べもの(かすみ)",
+	display = "かすみが好きな食べもの：苺のミルフィーユ。キャラの好物情報を開放可能",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50810,
+	icon = "Props/doa_collect",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 70205,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[70206] = {
+	drop_gold_max = 0,
+	name = "好きな飲みもの(かすみ)",
+	display = "かすみが好きな飲みもの：アイスコーヒー。キャラの好物情報を開放可能",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50810,
+	icon = "Props/doa_collect",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 70206,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[70207] = {
+	drop_gold_max = 0,
+	name = "好きな食べもの(みさき)",
+	display = "みさきが好きな食べもの：マンゴーバニラクレープ。キャラの好物情報を開放可能",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50810,
+	icon = "Props/doa_collect",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 70207,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[70208] = {
+	drop_gold_max = 0,
+	name = "好きな飲みもの(みさき)",
+	display = "みさきが好きな飲みもの：タピオカミルクティー。キャラの好物情報を開放可能",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50810,
+	icon = "Props/doa_collect",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 70208,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[70209] = {
+	drop_gold_max = 0,
+	name = "好きな食べもの(なぎさ)",
+	display = "なぎさが好きな食べもの：スフレパンケーキ。キャラの好物情報を開放可能",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50810,
+	icon = "Props/doa_collect",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 70209,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[70210] = {
+	drop_gold_max = 0,
+	name = "好きな飲みもの(なぎさ)",
+	display = "なぎさが好きな飲みもの：いちごシェイク。キャラの好物情報を開放可能",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50810,
+	icon = "Props/doa_collect",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 70210,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[70211] = {
+	drop_gold_max = 0,
+	name = "好きな食べもの(女天狗)",
+	display = "女天狗が好きな食べもの：まんじゅう。キャラの好物情報を開放可能",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50810,
+	icon = "Props/doa_collect",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 70211,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[70212] = {
+	drop_gold_max = 0,
+	name = "好きな飲みもの(女天狗)",
+	display = "女天狗が好きな飲みもの：抹茶。キャラの好物情報を開放可能",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50810,
+	icon = "Props/doa_collect",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 70212,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[70213] = {
+	drop_gold_max = 0,
+	name = "好きな食べもの(モニカ)",
+	display = "モニカが好きな食べもの：パパナッシュ。キャラの好物情報を開放可能",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50810,
+	icon = "Props/doa_collect",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 70213,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[70214] = {
+	drop_gold_max = 0,
+	name = "好きな飲みもの(モニカ)",
+	display = "モニカが好きな飲みもの：メープルホイップラテ。キャラの好物情報を開放可能",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50810,
+	icon = "Props/doa_collect",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 70214,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[70215] = {
+	drop_gold_max = 0,
+	name = "好きな食べもの(たまき)",
+	display = "たまきが好きな食べもの：マカロン。キャラの好物情報を開放可能",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50810,
+	icon = "Props/doa_collect",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 70215,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[70216] = {
+	drop_gold_max = 0,
+	name = "好きな飲みもの(たまき)",
+	display = "たまきが好きな飲みもの：炭酸水。キャラの好物情報を開放可能",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50810,
+	icon = "Props/doa_collect",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 70216,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[70217] = {
+	drop_gold_max = 0,
+	name = "好きな食べもの(ルナ)",
+	display = "ルナが好きな食べもの：やきいも。キャラの好物情報を開放可能",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50810,
+	icon = "Props/doa_collect",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 70217,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[70218] = {
+	drop_gold_max = 0,
+	name = "好きな飲みもの(ルナ)",
+	display = "ルナが好きな飲みもの：グリーンスムージー。キャラの好物情報を開放可能",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50810,
+	icon = "Props/doa_collect",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 70218,
+	display_icon = {},
+	price = {},
 	index = {},
 	shiptrans_id = {},
 	combination_display = {}

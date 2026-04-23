@@ -29391,7 +29391,7 @@ pg.activity_template = {
 				{
 					2026,
 					5,
-					1
+					7
 				},
 				{
 					23,
@@ -29568,6 +29568,8 @@ pg.activity_template = {
 			}
 		},
 		config_client = {
+			order = 1,
+			fightLinkActID = 6036,
 			task_id = 25426,
 			entrance_bg = "activitybanner/temp10",
 			PTID = 653
@@ -29760,6 +29762,799 @@ pg.activity_template = {
 					2026,
 					5,
 					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50801] = {
+		mark = 20260423,
+		page_info = "",
+		type = 76,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50801,
+		page_core = "",
+		config_data = {
+			50001,
+			50005,
+			50002,
+			50006,
+			50003,
+			50004,
+			50008,
+			50012
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50803] = {
+		mark = 20260423,
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50803,
+		page_core = "",
+		config_data = {
+			{
+				31978,
+				100
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50804] = {
+		mark = 20260423,
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 48,
+		title_res_tag = "DOA_pt",
+		id = 50804,
+		page_core = "",
+		config_data = {
+			1450001,
+			1450002,
+			1450003,
+			1450004,
+			1450041,
+			1450051,
+			1450052
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "DoaMainRePage",
+			ui_name = "DoaMainRePage"
+		},
+		config_client = {
+			fightLinkActID = 50804,
+			PTID = 661,
+			story = "JIARIHANGXIAN1",
+			entrance_bg = "activitybanner/temp10",
+			order = 2
+		}
+	},
+	[50805] = {
+		mark = 20260423,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50805,
+		page_core = "",
+		config_data = {
+			25511,
+			25512,
+			25513,
+			25514,
+			25515,
+			25516,
+			25517,
+			25518,
+			25519,
+			25520,
+			25521,
+			25522,
+			25523,
+			25524,
+			25525,
+			25526,
+			25527,
+			25528,
+			25529,
+			25530,
+			25531,
+			25532,
+			25533,
+			25534,
+			25537
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50806] = {
+		mark = 20260423,
+		type = 74,
+		login_pop = 0,
+		config_id = 50806,
+		is_show = 47,
+		title_res_tag = "DOA_pt",
+		id = 50806,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "DOAPtPage",
+			ui_name = "DOAPtPage"
+		},
+		config_client = {
+			fightLinkActID = 50804
+		}
+	},
+	[50807] = {
+		mark = 20260423,
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 50807,
+		page_core = "",
+		config_data = {
+			3911,
+			3912,
+			3913,
+			3914,
+			3915,
+			3916,
+			3917,
+			3918,
+			3919,
+			3920,
+			3921,
+			3922,
+			3923,
+			3924,
+			3925,
+			3926,
+			3927,
+			3928,
+			3929,
+			3930,
+			3931,
+			3932,
+			3933,
+			3934,
+			3935,
+			3936,
+			3937,
+			3938,
+			3939,
+			3940
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_doa",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			pt_id = 661,
+			painting = "haixiao_pt"
+		}
+	},
+	[50809] = {
+		mark = 20260423,
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 661,
+		is_show = 0,
+		config_data = "100",
+		title_res_tag = "",
+		id = 50809,
+		page_core = "",
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			linkPTActID = 50806
+		}
+	},
+	[50810] = {
+		mark = 20260423,
+		page_info = "",
+		type = 21,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50810,
+		page_core = "",
+		config_data = {
+			70213,
+			70214,
+			70207,
+			70208,
+			70211,
+			70212,
+			70203,
+			70204,
+			70209,
+			70210,
+			70205,
+			70206,
+			70201,
+			70202,
+			70217,
+			70218,
+			70215,
+			70216
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50811] = {
+		mark = 20260423,
+		page_info = "",
+		type = 57,
+		login_pop = 0,
+		config_id = 76,
+		is_show = 0,
+		config_data = "0",
+		title_res_tag = "",
+		id = 50811,
+		page_core = "",
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					4,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			scene = "scene DOAReLink Island",
+			ships = {
+				"maliluosi_DOA",
+				"suixiang_doa",
+				"xia_DOA",
+				"zhixiao_DOA",
+				"nvtiangou_DOA",
+				"monika_DOA",
+				"luna_2_doa",
+				"maliluosi_3_DOA",
+				"huan_2_doa"
+			}
+		}
+	},
+	[50812] = {
+		mark = 20260423,
+		page_info = "",
+		type = 57,
+		login_pop = 0,
+		config_id = 75,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50812,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					4,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50813] = {
+		mark = 20260423,
+		page_info = "",
+		type = 80,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 50813,
+		page_core = "",
+		config_data = {
+			5,
+			12
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			66019
+		}
+	},
+	[50814] = {
+		mark = 20260423,
+		type = 3,
+		login_pop = 0,
+		config_id = 92,
+		is_show = 46,
+		config_client = "",
+		title_res_tag = "YidaliV2_login",
+		id = 50814,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "LoginSignRe3Page",
+			ui_name = "LoginSignRe3Page"
+		}
+	},
+	[50815] = {
+		mark = 20260423,
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 5,
+		is_show = 0,
+		title_res_tag = "",
+		id = 50815,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 5,
+			bg = "loadingbg/bg_build_5_act",
+			buildship_tip = "「たまき」「ルナ」など出現確率UP！",
+			rate_tip = {
+				"<color=#ffde38>SSレア</color>：7%",
+				"<color=#d797ff>Sレア</color>：12%",
+				"<color=#3dc6ff>レア</color>：51%",
+				"ノーマル：30%",
+				"<color=#ffde38>たまき</color>：2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>ルナ</color>：2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>マリー・ローズ</color>：0.5%",
+				" ",
+				"<color=#ffde38>ほのか</color>：0.5%",
+				" ",
+				"<color=#ffde38>かすみ</color>：0.5%",
+				" ",
+				"<color=#ffde38>みさき</color>：0.5%",
+				" ",
+				"<color=#d797ff>なぎさ</color>：2.5%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#d797ff>モニカ</color>：2.5%<color=#92FC63>(up!)</color>"
+			}
+		}
+	},
+	[50816] = {
+		mark = 20260423,
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 12,
+		is_show = 0,
+		title_res_tag = "",
+		id = 50816,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 12,
+			bg = "loadingbg/bg_build_12_act",
+			buildship_tip = "「マリー・ローズ」「ほのか」など出現確率UP！",
+			rate_tip = {
+				"<color=#ffde38>SSレア</color>：7%",
+				"<color=#d797ff>Sレア</color>：12%",
+				"<color=#3dc6ff>レア</color>：51%",
+				"ノーマル：30%",
+				"<color=#ffde38>マリー・ローズ</color>：2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>ほのか</color>：2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>かすみ</color>：2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>みさき</color>：0.5%",
+				" ",
+				"<color=#d797ff>なぎさ</color>：2.5%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#d797ff>モニカ</color>：2.5%<color=#92FC63>(up!)</color>"
+			}
+		}
+	},
+	[50817] = {
+		mark = 20260423,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50817,
+		page_core = "",
+		config_data = {
+			25536
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					30
 				},
 				{
 					23,
@@ -47258,6 +48053,8 @@ pg.activity_template = {
 			5965,
 			5996,
 			6041,
+			50815,
+			50816,
 			50012,
 			50053,
 			50062,
@@ -47303,6 +48100,7 @@ pg.activity_template = {
 			5859,
 			5895,
 			5960,
+			50814,
 			8050,
 			8053,
 			8062,
@@ -47567,6 +48365,8 @@ pg.activity_template = {
 			6025,
 			6028,
 			6037,
+			50805,
+			50817,
 			10138,
 			50005,
 			50011,
@@ -47805,6 +48605,7 @@ pg.activity_template = {
 			6022,
 			6026,
 			6031,
+			50806,
 			50006,
 			50015,
 			50049,
@@ -47894,6 +48695,7 @@ pg.activity_template = {
 			5964,
 			5967,
 			6035,
+			50807,
 			50007,
 			50052,
 			50061,
@@ -47922,6 +48724,7 @@ pg.activity_template = {
 			5689,
 			5788,
 			5879,
+			50810,
 			50422,
 			50493
 		},
@@ -48012,6 +48815,7 @@ pg.activity_template = {
 			5904,
 			5953,
 			6034,
+			50809,
 			50009,
 			50019,
 			50051,
@@ -48085,6 +48889,7 @@ pg.activity_template = {
 			5941,
 			5942,
 			6036,
+			50804,
 			50003,
 			50004,
 			50042,
@@ -48149,6 +48954,7 @@ pg.activity_template = {
 			5908,
 			5975,
 			6038,
+			50803,
 			50010,
 			50020,
 			50047,
@@ -48184,6 +48990,7 @@ pg.activity_template = {
 			5799,
 			5858,
 			5896,
+			50813,
 			50001,
 			50164,
 			50236,
@@ -48375,6 +49182,8 @@ pg.activity_template = {
 			5969,
 			5976,
 			6029,
+			50811,
+			50812,
 			50046,
 			50083,
 			50204,
@@ -48616,6 +49425,9 @@ pg.activity_template = {
 		},
 		[134] = {
 			6024
+		},
+		[76] = {
+			50801
 		},
 		[54] = {
 			7011,
@@ -49602,6 +50414,21 @@ pg.activity_template = {
 		6038,
 		6040,
 		6041,
+		50801,
+		50803,
+		50804,
+		50805,
+		50806,
+		50807,
+		50809,
+		50810,
+		50811,
+		50812,
+		50813,
+		50814,
+		50815,
+		50816,
+		50817,
 		7011,
 		7012,
 		7013,

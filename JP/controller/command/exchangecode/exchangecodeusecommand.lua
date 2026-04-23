@@ -19,6 +19,8 @@ slot0.execute = function(slot0, slot1)
 				content = i18n("exchangecode_use_ok")
 			})
 			pg.m02:sendNotification(GAME.EXCHANGECODE_USE_SUCCESS)
+		elseif pg.gametip["exchange_code_error_" .. slot0.result] then
+			pg.TipsMgr.GetInstance():ShowTips(pg.gametip["exchange_code_error_" .. slot0.result].tip)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("exchangecode_use", slot0.result))
 		end

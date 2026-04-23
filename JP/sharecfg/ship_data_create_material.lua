@@ -228,6 +228,25 @@ pg.ship_data_create_material = {
 			"ノーマル：30%"
 		}
 	},
+	{
+		use_gold = 1500,
+		name = "限时建造",
+		build_anim = "building",
+		type = 2,
+		ship_icon = "1",
+		build_voice = "",
+		use_item = 20001,
+		number_1 = 2,
+		id = 12,
+		icon = "build_12",
+		exchange_count = 2,
+		rate_tip = {
+			"<color=#ffde38>SSレア</color>：7%",
+			"<color=#d797ff>Sレア</color>：12%",
+			"<color=#3dc6ff>レア</color>：51%",
+			"ノーマル：30%"
+		}
+	},
 	all = {
 		1,
 		2,
@@ -239,6 +258,7 @@ pg.ship_data_create_material = {
 		8,
 		9,
 		10,
-		11
+		11,
+		12
 	}
 }

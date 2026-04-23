@@ -500,7 +500,7 @@ slot0.ship_drag_datas = {
 					click = true,
 					idle = "normal_lv2",
 					action = "normal_lv2-3",
-					is_default = true,
+					is_default = false,
 					active = true,
 					hit = "drag"
 				},
@@ -509,7 +509,7 @@ slot0.ship_drag_datas = {
 					click = true,
 					idle = "normal_lv3",
 					action = "normal_lv3-5",
-					is_default = true,
+					is_default = false,
 					active = true,
 					hit = "drag"
 				},
@@ -518,7 +518,7 @@ slot0.ship_drag_datas = {
 					click = true,
 					idle = "normal_lv5",
 					action = "normal_lv5-1",
-					is_default = true,
+					is_default = false,
 					active = true,
 					hit = "drag"
 				}

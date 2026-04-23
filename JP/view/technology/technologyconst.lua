@@ -342,7 +342,7 @@ slot0.GetMotClassConfig = function(slot0, slot1)
 end
 
 slot0.GetShipTypeByGroupID = function(slot0)
-	return pg.ship_data_group[pg.ship_data_group.get_id_list_by_group_type[slot0][1]].type
+	return ShipGroup.getDefaultShipConfig(slot0).type
 end
 
 slot0.isNormalActOn = function()
