@@ -79,6 +79,7 @@ pg.item_data_frame = setmetatable({
 		609,
 		610,
 		611,
+		613,
 		614,
 		1001,
 		1002,
@@ -800,6 +801,15 @@ pg.base.item_data_frame = {
 		id = 611,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>感受著林間的清風，來一場別樣的渡假體驗吧~</color>透過參與「林間渡假準備」活動獲取",
+		scene = {}
+	},
+	[613] = {
+		name = "春季促銷紀念（2026）",
+		gain_by = "",
+		time_second = 0,
+		id = 613,
+		time_limit_type = 0,
+		desc = "指揮官，感謝您參與促銷活動，請收好贈品喵~！\n<color=#A7A7AA>透過參與「特別巡遊 春季贈禮」獲得</color>",
 		scene = {}
 	},
 	[614] = {

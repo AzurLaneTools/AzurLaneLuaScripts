@@ -3303,105 +3303,6 @@ pg.drop_data_restore = {
 		drop_id = 998319,
 		target_id = 205023
 	},
-	[582] = {
-		target_type = 7,
-		resource_type = 14,
-		type = 1,
-		id = 582,
-		resource_num = 1180,
-		drop_id = 998324,
-		target_id = 307084
-	},
-	[583] = {
-		target_type = 7,
-		resource_type = 14,
-		type = 1,
-		id = 583,
-		resource_num = 1180,
-		drop_id = 998324,
-		target_id = 499022
-	},
-	[584] = {
-		target_type = 7,
-		resource_type = 14,
-		type = 1,
-		id = 584,
-		resource_num = 1180,
-		drop_id = 998324,
-		target_id = 699021
-	},
-	[585] = {
-		target_type = 7,
-		resource_type = 14,
-		type = 1,
-		id = 585,
-		resource_num = 1180,
-		drop_id = 998324,
-		target_id = 205161
-	},
-	[586] = {
-		target_type = 7,
-		resource_type = 14,
-		type = 1,
-		id = 586,
-		resource_num = 1180,
-		drop_id = 998324,
-		target_id = 499053
-	},
-	[587] = {
-		target_type = 7,
-		resource_type = 14,
-		type = 1,
-		id = 587,
-		resource_num = 1180,
-		drop_id = 998324,
-		target_id = 307076
-	},
-	[588] = {
-		target_type = 7,
-		resource_type = 14,
-		type = 1,
-		id = 588,
-		resource_num = 1200,
-		drop_id = 998324,
-		target_id = 202204
-	},
-	[589] = {
-		target_type = 7,
-		resource_type = 14,
-		type = 1,
-		id = 589,
-		resource_num = 1180,
-		drop_id = 998324,
-		target_id = 904021
-	},
-	[590] = {
-		target_type = 7,
-		resource_type = 14,
-		type = 1,
-		id = 590,
-		resource_num = 1180,
-		drop_id = 998324,
-		target_id = 407041
-	},
-	[591] = {
-		target_type = 7,
-		resource_type = 14,
-		type = 1,
-		id = 591,
-		resource_num = 1180,
-		drop_id = 998324,
-		target_id = 799021
-	},
-	[592] = {
-		target_type = 7,
-		resource_type = 14,
-		type = 1,
-		id = 592,
-		resource_num = 1180,
-		drop_id = 998324,
-		target_id = 901072
-	},
 	[593] = {
 		target_type = 7,
 		resource_type = 14,
@@ -6993,6 +6894,114 @@ pg.drop_data_restore = {
 		drop_id = 998117,
 		target_id = 202204
 	},
+	[10298] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 10298,
+		resource_num = 1200,
+		drop_id = 998324,
+		target_id = 307082
+	},
+	[10299] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 10299,
+		resource_num = 1180,
+		drop_id = 998324,
+		target_id = 499022
+	},
+	[10300] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 10300,
+		resource_num = 1180,
+		drop_id = 998324,
+		target_id = 904021
+	},
+	[10301] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 10301,
+		resource_num = 1260,
+		drop_id = 998324,
+		target_id = 1199011
+	},
+	[10302] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 10302,
+		resource_num = 1180,
+		drop_id = 998324,
+		target_id = 107251
+	},
+	[10303] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 10303,
+		resource_num = 1180,
+		drop_id = 998324,
+		target_id = 805032
+	},
+	[10304] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 10304,
+		resource_num = 1260,
+		drop_id = 998324,
+		target_id = 199033
+	},
+	[10305] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 10305,
+		resource_num = 1180,
+		drop_id = 998324,
+		target_id = 901072
+	},
+	[10306] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 10306,
+		resource_num = 1080,
+		drop_id = 998324,
+		target_id = 102134
+	},
+	[10307] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 10307,
+		resource_num = 1180,
+		drop_id = 998324,
+		target_id = 206062
+	},
+	[10308] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 10308,
+		resource_num = 1180,
+		drop_id = 998324,
+		target_id = 101511
+	},
+	[10309] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 10309,
+		resource_num = 1180,
+		drop_id = 998324,
+		target_id = 307151
+	},
 	[15000] = {
 		target_type = 7,
 		resource_type = 1,
@@ -7388,17 +7397,6 @@ pg.drop_data_restore = {
 		577,
 		578,
 		579,
-		582,
-		583,
-		584,
-		585,
-		586,
-		587,
-		588,
-		589,
-		590,
-		591,
-		592,
 		593,
 		594,
 		595,
@@ -7798,6 +7796,18 @@ pg.drop_data_restore = {
 		10295,
 		10296,
 		10297,
+		10298,
+		10299,
+		10300,
+		10301,
+		10302,
+		10303,
+		10304,
+		10305,
+		10306,
+		10307,
+		10308,
+		10309,
 		15000,
 		15001,
 		15002

@@ -34,6 +34,11 @@ pg.pay_data_display = setmetatable({
 		93,
 		96,
 		98,
+		9002,
+		9003,
+		9004,
+		9005,
+		9006,
 		9007,
 		9008,
 		9009,
@@ -42,6 +47,7 @@ pg.pay_data_display = setmetatable({
 		9012,
 		9013,
 		9014,
+		1305,
 		2022,
 		2023,
 		2024,
@@ -66,6 +72,7 @@ pg.pay_data_display = setmetatable({
 		2045,
 		2046,
 		2047,
+		2048,
 		2050,
 		2051,
 		2052,
@@ -3753,6 +3760,603 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[9002] = {
+		picture = "pack_2024_98",
+		name = "春季自選禮包1（2026）",
+		type = 0,
+		second_text = "",
+		descrip = "可獲得980鑽，春季自選禮物盒1*1，和大量其他獎勵",
+		subject = "春季自選禮包1（2026）",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 490,
+		descrip_extra = "*禮包將會寄到信箱，請注意查收。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.libao153",
+		extra_gem = 0,
+		id = 9002,
+		airijp_id = "com.yostarjp.azurlane.diamond197",
+		name_display = "春季自選禮包1（2026）",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				81221,
+				1
+			},
+			{
+				1,
+				14,
+				980
+			},
+			{
+				2,
+				16501,
+				100
+			},
+			{
+				2,
+				59010,
+				1000
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					30
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				81221,
+				1
+			},
+			{
+				1,
+				14,
+				980
+			},
+			{
+				2,
+				16501,
+				100
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81225,
+				1
+			}
+		}
+	},
+	[9003] = {
+		picture = "pack_2024_198",
+		name = "春季自選禮包2（2026）",
+		type = 0,
+		second_text = "",
+		descrip = "可獲得1980鑽，春季自選禮物盒2*1，及其大量其他獎勵",
+		subject = "春季自選禮包2（2026）",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 990,
+		descrip_extra = "*禮包將會寄到信箱，請注意查收。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.libao154",
+		extra_gem = 0,
+		id = 9003,
+		airijp_id = "com.yostarjp.azurlane.diamond198",
+		name_display = "春季自選禮包2（2026）",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				81222,
+				1
+			},
+			{
+				1,
+				14,
+				1980
+			},
+			{
+				2,
+				15008,
+				1000
+			},
+			{
+				2,
+				30114,
+				30
+			},
+			{
+				2,
+				59010,
+				2000
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					30
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				81222,
+				1
+			},
+			{
+				1,
+				14,
+				1980
+			},
+			{
+				2,
+				15008,
+				1000
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81226,
+				1
+			}
+		}
+	},
+	[9004] = {
+		picture = "pack_2024_328",
+		name = "春季自選禮包3（2026）",
+		type = 0,
+		second_text = "",
+		descrip = "可獲得3280鑽，春季自選禮物盒3*1，和大量其他獎勵",
+		subject = "春季自選禮包3（2026）",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 1690,
+		descrip_extra = "*禮包將會寄到信箱，請注意查收。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.libao155",
+		extra_gem = 0,
+		id = 9004,
+		airijp_id = "com.yostarjp.azurlane.diamond199",
+		name_display = "春季自選禮包3（2026）",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				81223,
+				1
+			},
+			{
+				1,
+				14,
+				3280
+			},
+			{
+				2,
+				15012,
+				150
+			},
+			{
+				2,
+				15008,
+				2000
+			},
+			{
+				2,
+				16004,
+				2
+			},
+			{
+				2,
+				16014,
+				2
+			},
+			{
+				2,
+				16024,
+				2
+			},
+			{
+				2,
+				16032,
+				30
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					30
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				81223,
+				1
+			},
+			{
+				1,
+				14,
+				3280
+			},
+			{
+				2,
+				15012,
+				150
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81227,
+				1
+			}
+		}
+	},
+	[9005] = {
+		picture = "fudai99",
+		name = "豪華春季促銷禮盒（2026）",
+		type = 1,
+		second_text = "大量獎勵",
+		descrip = "可獲得一件角色換裝，2026鑽，和大量其他獎勵",
+		subject = "豪華春季促銷禮盒（2026）",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 990,
+		descrip_extra = "*福袋將會寄到信箱，請注意查收。 \n*重複取得已擁有的換裝時，則自動置換成等價的鑽石。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.libao156",
+		extra_gem = 0,
+		id = 9005,
+		airijp_id = "com.yostarjp.azurlane.diamond200",
+		name_display = "豪華春季促銷禮盒（2026）",
+		first_text = "隨機換裝和大量鑽石",
+		akashi_pick = 1,
+		skin_inquire_relation = 86220,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86220,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				35
+			},
+			{
+				2,
+				15003,
+				12
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					30
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				35
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81228,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86220,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			}
+		}
+	},
+	[9006] = {
+		picture = "fudai_L2d_new",
+		name = "春季促銷禮盒（2026）",
+		type = 1,
+		second_text = "大量獎勵",
+		descrip = "可獲得清單中未擁有的L2D換裝*1（擁有清單中所有換裝則轉換為獲得鑽石）和其他獎勵",
+		subject = "春季促銷禮盒（2026）",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 330,
+		descrip_extra = "*福袋將會寄到信箱，請注意查收。 \n*擁有清單中的所有換裝則轉換為獲得1080鑽石。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 2,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.libao157",
+		extra_gem = 0,
+		id = 9006,
+		airijp_id = "com.yostarjp.azurlane.diamond201",
+		name_display = "春季促銷禮盒（2026）",
+		first_text = "隨機換裝",
+		akashi_pick = 1,
+		skin_inquire_relation = 86221,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86221,
+				1
+			},
+			{
+				1,
+				1,
+				2000
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					30
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				1,
+				2000
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81229,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86221,
+				1
+			}
+		}
+	},
 	[9007] = {
 		picture = "fudai30",
 		name = "慶典狂歡夜禮盒·I",
@@ -4824,6 +5428,91 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
+	},
+	[1305] = {
+		picture = "battlepass_winter_1",
+		name = "春季特許巡遊憑證",
+		type = 0,
+		second_text = "",
+		descrip = "可獲得200巡遊點數，同時解鎖特許巡遊獎勵",
+		subject = "春季特許巡遊憑證（2026.4）",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 270,
+		descrip_extra = "*需透過任務達成對應巡遊進度後才可獲取",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 6,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.battlepass271",
+		extra_gem = 0,
+		id = 1305,
+		airijp_id = "com.hkmanjuu.azurlane.battlepass271",
+		name_display = "春季特許巡遊憑證",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4102,
+				200
+			},
+			{
+				8,
+				65112,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					13
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				65112,
+				200
+			}
+		},
+		sub_display = {
+			7305,
+			200
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
 	},
 	[2022] = {
 		picture = "mofangzhiyuan1",
@@ -6859,6 +7548,114 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40058,
+				1
+			}
+		}
+	},
+	[2048] = {
+		picture = "huteng_package",
+		name = "海上傳奇支援組合包（前衛）",
+		type = 0,
+		second_text = "",
+		descrip = "可獲得換裝自選券、心智魔方、艦艇演習數據T2和物資獎勵！",
+		subject = "海上傳奇支援組合包（前衛）",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 670,
+		descrip_extra = "*禮包將會寄到信箱，請注意查收。",
+		limit_group = 0,
+		package_tag = "超值\n推薦",
+		type_order = 5,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.package63",
+		extra_gem = 0,
+		id = 2048,
+		airijp_id = "com.yostarjp.azurlane.package124",
+		name_display = "海上傳奇支援組合包",
+		first_text = "",
+		akashi_pick = 1,
+		sub_display = "",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 1,
+		extra_service_item = {
+			{
+				2,
+				59564,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				1,
+				1,
+				30000
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59564,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40059,
 				1
 			}
 		}

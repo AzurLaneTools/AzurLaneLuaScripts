@@ -12110,22 +12110,22 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "武藏、酒匂、羽黑 建造機率UP！"
+	tip = "羅馬、李奧納多·達·文西等角色 建造機率UP！"
 }
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "的里雅斯德 建造追加！"
+	tip = "前衛、復仇 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "龐培·馬格諾 建造追加！"
+	tip = "賈維斯 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "帝國 建造追加！"
+	tip = "前衛、不撓 建造追加！"
 }
 
 
@@ -37218,6 +37218,40 @@ _G.pg.base.gametip.rps_game_take_card = {
 }
 
 
+_G.pg.base.gametip.SkinDiscountHelp_Winter = {
+	tip = {
+		{
+			info = "1.活動期間，以<color=#92fc63>原價</color>（不使用換裝折扣券）購買一件春季返場換裝、一個豪華春季促銷禮盒或一個春季促銷禮盒時，可領取一張<color=#92fc63>換裝折扣券（春季）</color>\n2.<color=#92fc63>換裝折扣券（春季）</color>可用於購買春季返場任意換裝時抵扣300鑽石（購買禮盒時不可折抵）\n3.未使用的<color=#92fc63>換裝折價券（春季）</color>將會在活動結束後（2026年4月30日維護）消失"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.SkinDiscount_Hint = {
+	tip = "目前有未領取的換裝折扣券，是否前往領取？"
+}
+
+
+_G.pg.base.gametip.SkinDiscount_Got = {
+	tip = "已擁有:$1"
+}
+
+
+_G.pg.base.gametip.skin_original_price = {
+	tip = "原價"
+}
+
+
+_G.pg.base.gametip.SkinDiscount_Owned_Tips = {
+	tip = "目前已擁有活動返場換裝（$1/$2）。若已擁有全部活動返場換裝，則該活動掉落的換裝折扣券無法使用。\n是否確認購買該禮包？"
+}
+
+
+_G.pg.base.gametip.SkinDiscount_Last_Coupon = {
+	tip = "購買後的換裝折扣券數量將超過可使用換裝的數量，部分換裝折扣券將無法使用。\n確認購買換裝嗎？"
+}
+
+
 _G.pg.base.gametip.clue_title_1 = {
 	tip = "地點情報"
 }
@@ -40123,6 +40157,16 @@ _G.pg.base.gametip.shop_sell_ended = {
 }
 
 
+_G.pg.base.gametip.general_activity_side_bar1 = {
+	tip = "春季換裝返場"
+}
+
+
+_G.pg.base.gametip.general_activity_side_bar2 = {
+	tip = "春季特別巡遊"
+}
+
+
 _G.pg.base.gametip.skinshop_on_sale_tip = {
 	tip = "禮包在售"
 }
@@ -40541,43 +40585,43 @@ _G.pg.base.gametip.battlepass_main_help_1211 = {
 	tip = {
 		{
 			info = [[
-世界巡游 冬日赠礼(2025.12.11-2025.12.31)
+世界巡遊 春季贈禮(2026.04.23-2025.05.13)
 
-·<color=#92fc63>开放时间</color>
- 2025.12.11 0点 ~ 2025.12.31 23:59:59
+·<color=#92fc63>開放時間</color>
+ 2026.04.23 18點 ~ 2026.05.13 23:59:59
 
-·<color=#92fc63>巡游进度说明</color>
-（1）活动期间，指挥官通过完成巡游任务，可获取「冬日巡游点数」。
-（2）巡游任务随时间开放解锁。
-（3）每获取100点「冬日巡游点数」即可增加1巡游进度
-（4）巡游进度提升后可以获取相应等级的奖励，巡游进度最高可达15。
+·<color=#92fc63>巡遊進度說明</color>
+（1）活動期間，指揮官透過完成巡遊任務，可獲得「春季巡遊點數」。
+（2）巡遊任務隨時間開放解鎖。
+（3）每獲得100點「冬季巡遊點數」即可增加1巡遊進度
+（4）巡遊進度提升後可以獲得對應等級的獎勵，巡遊進度最高可達15。
 
-·<color=#92fc63>奖励规则</color>
-巡游进度奖励分为两种：
-（1）基础巡游奖励：包含<color=#ff5c5c>换装折扣券（世界巡游 冬日赠礼）</color>、<color=#ff5c5c>高级定向蓝图·八期</color>等奖励；
- 当巡游达到指定进度时，指挥官可以直接领取相应的基础巡游奖励。
-（2）特许巡游奖励：包含<color=#ff5c5c>战斗UI：冬日促销 </color>、<color=#ff5c5c>钻石</color>等奖励；
- 购买「冬日特许巡游凭证」，且巡游达到指定进度时，可以领取特许巡游奖励。
- 注：购买「冬日特许巡游凭证」后，不会影响基础巡游奖励的领取。
+·<color=#92fc63>獎勵規則</color>
+巡遊進度獎勵分為兩種：
+（1）基礎巡遊獎勵：包含<color=#ff5c5c>換裝折扣券（世界巡遊 春季贈禮）</color>、<color=#ff5c5c>高級定向藍圖·八期</color>等獎勵；
+ 當巡遊達到指定進度時，指揮官可以直接領取相應的基礎巡遊獎勵。
+（2）特許巡遊獎勵：包含<color=#ff5c5c>戰鬥UI：春季促銷 </color>、<color=#ff5c5c>鑽石</color>等獎勵；
+ 購買「春季特許巡遊憑證」，且巡遊達到指定進度時，可以領取特許巡遊獎勵。
+ 註：購買「春季特許巡遊憑證」後，不會影響基礎巡遊獎勵的領取。
 
-·<color=#92fc63>「冬日特许巡游凭证」说明</color>
-（1）「冬日特许巡游凭证」可于「商店」-「优惠礼包」中购买，购买后可立刻获得<color=#ff5c5c>200点</color>「冬日巡游点数」同时解锁特许巡游奖励。
-（2）「冬日特许巡游凭证」将于<color=#ff5c5c>活动结束前一小时</color>停止售卖(即12.31 22:59:59停止)，请指挥官注意购买时间。
+·<color=#92fc63>「春季特許巡遊憑證」說明</color>
+（1）「春季特許巡遊憑證」可於「商店」-「優惠禮包」中購買，購買後可立刻獲得<color=#ff5c5c>200點</color>「春季巡遊點數」同時解鎖特許巡遊獎勵。
+（2）「春季特許巡遊憑證」將於<color=#ff5c5c>活動結束前一小時</color>停止販售(即05.13 22:59:59停止)，請指揮官注意購買時間。
 
-·<color=#92fc63>任务说明</color>
-巡游任务分为两种：
-（1）每日任务 
- 巡游任务中共有12组每日任务。自活动开始后解锁第一日任务，之后每日的0点解锁下一天任务
-（2）S.P.任务
- S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
-（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励。]]
+·<color=#92fc63>任務說明</color>
+巡遊任務分為兩種：
+（1）每日任務 
+ 巡遊任務中共有12組每日任務。自活動開始後解鎖第一日任務，之後每日的0點解鎖下一天任務
+（2）S.P.任務
+ S.P.任務為一組特殊任務，在活動開始後會直接處於全部解鎖狀態。
+（3）巡遊任務在解鎖後會自動接取，滿足任務完成條件時，會自動完成並獲得對應獎勵。]]
 		}
 	}
 }
 
 
 _G.pg.base.gametip.cruise_title_1211 = {
-	tip = "世界巡游·冬日赠礼"
+	tip = "世界巡遊·春季贈禮"
 }
 
 
@@ -40602,12 +40646,12 @@ _G.pg.base.gametip.winter_battlepass_proceed = {
 
 
 _G.pg.base.gametip.winter_battlepass_main_time_title = {
-	tip = "剩余时间："
+	tip = "剩餘時間："
 }
 
 
 _G.pg.base.gametip.winter_cruise_title_1211 = {
-	tip = "世界巡游 冬日赠礼"
+	tip = "世界巡遊 春季贈禮"
 }
 
 
@@ -40617,7 +40661,7 @@ _G.pg.base.gametip.winter_cruise_task_tips = {
 
 
 _G.pg.base.gametip.winter_cruise_task_unlock = {
-	tip = "该日任务将于$1天$2时后解锁"
+	tip = "該日任務將於$1天$2時解鎖"
 }
 
 
@@ -40627,47 +40671,47 @@ _G.pg.base.gametip.winter_cruise_task_day = {
 
 
 _G.pg.base.gametip.winter_battlepass_pay_acquire = {
-	tip = "购买后立即获得："
+	tip = "購買後立即獲得："
 }
 
 
 _G.pg.base.gametip.winter_battlepass_pay_tip = {
-	tip = "购买后解锁特许巡游奖励："
+	tip = "購買後解鎖特許巡遊獎勵："
 }
 
 
 _G.pg.base.gametip.winter_battlepass_mission = {
-	tip = "任务"
+	tip = "任務"
 }
 
 
 _G.pg.base.gametip.winter_battlepass_rewards = {
-	tip = "奖励"
+	tip = "獎勵"
 }
 
 
 _G.pg.base.gametip.winter_cruise_btn_pay = {
-	tip = "解锁特许巡游"
+	tip = "解鎖特許巡遊"
 }
 
 
 _G.pg.base.gametip.winter_cruise_pay_reward = {
-	tip = "升级奖励"
+	tip = "升級獎勵"
 }
 
 
 _G.pg.base.gametip.winter_luckybag_9005 = {
-	tip = "当前已拥有换装（$1/$2）。若已经拥有换装，则对应的换装抵扣券不生效。如果已拥有礼盒内全部换装，则自动置换成等价钻石，此时不会掉落换装抵扣券。\n确认购买该礼包吗？"
+	tip = "目前已擁有換裝（$1/$2）。若已經擁有換裝，則對應的換裝折扣券不生效。如果已擁有禮盒內全部換裝，則自動置換成等價鑽石，此時不會掉落換裝折扣券。 \n確認購買該禮包嗎？"
 }
 
 
 _G.pg.base.gametip.winter_luckybag_9006 = {
-	tip = "当前已拥有换装（$1/$2）。若已经拥有换装，则对应的换装抵扣券不生效。如果已拥有礼盒内全部换装，则返还1080钻石，此时不会掉落换装抵扣券。\n确认购买该礼包吗？"
+	tip = "目前已擁有換裝（$1/$2）。若已經擁有換裝，則對應的換裝折扣券不生效。如果已擁有禮盒內全部換裝，則返還1080鑽石，此時不會掉落換裝折扣券。 \n確認購買該禮包嗎？"
 }
 
 
 _G.pg.base.gametip.winter_cruise_btn_all = {
-	tip = "全部领取"
+	tip = "全部領取"
 }
 
 

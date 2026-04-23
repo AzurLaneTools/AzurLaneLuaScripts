@@ -173708,6 +173708,31 @@ _G.pg.base.item_virtual_data_statistics[65111] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65112] = {
+	drop_gold_max = 0,
+	name = "春季巡遊點數",
+	display = "參與「世界巡遊 春季贈禮」獲得的點數，累計一定程度可以領取獎勵，活動結束後將會消失",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 7305,
+	icon = "props/battlepass_winter_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 29,
+	id = 65112,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65115] = {
 	drop_gold_max = 0,
 	name = "藍色浮光",
@@ -175038,6 +175063,56 @@ _G.pg.base.item_virtual_data_statistics[65548] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 65548,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65555] = {
+	drop_gold_max = 0,
+	name = "換裝折扣券（春季）",
+	display = "用於「換裝商店」內購買所有春季返場換裝時享有300鑽石優惠\n有效期至：2026年4月30日維護",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 45097,
+	icon = "Props/skin_300_school",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 13,
+	id = 65555,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65556] = {
+	drop_gold_max = 0,
+	name = "換裝折扣券（世界巡遊 春季贈禮）",
+	display = "用於「換裝商店」內購買所有春季返場與常駐換裝時享有180鑽石優惠\n有效期至：2026年5月13日 23:59:59",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 45098,
+	icon = "Props/skin_180_blackfriday",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 13,
+	id = 65556,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -190940,6 +191015,182 @@ _G.pg.base.item_virtual_data_statistics[86218] = {
 			1820
 		}
 	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86220] = {
+	drop_gold_max = 0,
+	name = "隨機換裝",
+	display = "不會被看到",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86220,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			307082,
+			840
+		},
+		{
+			499022,
+			830
+		},
+		{
+			904021,
+			830
+		},
+		{
+			1199011,
+			870
+		},
+		{
+			107251,
+			830
+		},
+		{
+			805032,
+			830
+		},
+		{
+			199033,
+			870
+		},
+		{
+			901072,
+			830
+		},
+		{
+			102134,
+			780
+		},
+		{
+			206062,
+			830
+		},
+		{
+			101511,
+			830
+		},
+		{
+			307151,
+			830
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86221] = {
+	drop_gold_max = 0,
+	name = "隨機換裝",
+	display = [[
+從以下換裝中隨機獲得1件未擁有的換裝(如果所有換裝都已擁有，則會轉化為獲得1080鑽石) 
+各換裝機率均等，包含換裝如下：
+埃米爾·貝爾坦換裝 藍色海岸；
+敦克爾克換裝 “甜蜜”夏日；
+大鳳換裝 毒蘋果；
+火奴魯魯換裝 盛夏的「災難」；
+火奴魯魯換裝 兩人的夏日祭；
+雷諾換裝 bunny·reno！；
+北卡羅來納換裝 秘密的換裝練習？；
+阿貝克隆比換裝 壞壞兔的惡作劇！；
+歐根親王換裝 Final Lap；
+企業換裝 Wind Catcher；
+羅恩換裝 蒼翠的安眠曲；
+大鳳換裝 放學後的甜蜜時光；
+樫野換裝 絆倒的迷糊女僕；
+雅努斯換裝 萬聖喵喵驚悚夜；
+布雷默頓換裝 悠然放鬆時光；
+應瑞換裝 松戲梅·其上；
+肇和換裝 松戲梅·其下；
+魯普雷希特親王換裝 騰龍戲春？；
+埃吉爾換裝 金龍騰祥雲；
+易北換裝 清純的＂反派小姐＂？；
+庫斯克換裝 霧中雪狼；
+威嚴換裝 野兔和蒸汽房；
+哥里加換裝 辦公室的「隔閡」；
+初月換裝 八月戀夏；
+雲仙換裝 嬉水碧海；
+烏爾里希·馮·胡滕換裝 一騎絕塵；
+金鹿號換裝 古堡中的恐怖淑女；
+關島換裝 魅力舞台；
+拉菲II換裝 睡意滿滿忙碌DAY；
+克里夫蘭換裝 休息室的意外邂逅？；
+阿爾比恩換裝 香氣來朱閣；
+安克拉治換裝 舟畔共明月；
+英仙座換裝 慵懶的春光；
+蘇維埃聯盟換裝 天幕危機；
+德文郡換裝 紅月下的惡魔；
+可畏換裝 值日生的春心萌動；
+聖路易斯換裝 郵輪上的誘人午後；
+光輝換裝 兩人的學習時間；
+史特拉斯堡換裝 賽場上的電子妖精；
+霞飛換裝 祝福的起步衝刺；
+匹茲堡換裝 斟酒女郎的賭局；
+潘勒韋換裝 清涼的甜蜜滋味；
+腓特烈大帝換裝 相會於盛夏之夜；
+天城換裝 落於王座之花；
+渡良瀨換裝 不會消失的換裝魔法；
+尾張換裝 願望為「愛」；
+建武換裝 妝點，只為今夜；
+美因茲換裝 靜謐之所的安逸；
+讓·巴爾換裝 燈映星沉；
+拉斐爾換裝 愛與美的秘密珍藏；
+濟安換裝 異域綺夢；
+莫加多爾換裝 嗅診的照顧天使；
+七省換裝 相依偎的溫度；
+曾克爾將軍換裝 心動審訊練習中；
+Z13換裝 策略性約會進行時；
+吾妻換裝 心向何方的指導課；
+馬塞納換裝 醉甜之泉；
+貝勒森林換裝 水色療癒；
+安克拉治換裝 香甜牛奶味之夜；
+企業換裝 雨霽於心晴之時；
+伊404換裝 繚亂的忍者遊戲；
+近江換裝 逃脫失敗…？；
+淺間換裝 綻放於妖異之夜；
+蘇維埃聯盟換裝 纏絲審訊；
+亞爾薩斯換裝 聖宵之鬼的醉意；
+雲仙換裝 萬船聚懷；
+關島換裝 女忍者的危險綜藝；
+安妮女王復仇號換裝 隱密之擁的呼喚；
+珍珠號換裝 魔堡中的墮天使；
+約克鎮II換裝 交錯的溫柔時光；
+列星頓II換裝 輕飄飄的女僕；
+考彭斯換裝 心動香甜補給中；
+金獅換裝 寵溺的清洗遊戲；
+梅克倫堡換裝 束縛的烙印；
+歐根親王換裝 微醺與試探的距離]],
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86221,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 

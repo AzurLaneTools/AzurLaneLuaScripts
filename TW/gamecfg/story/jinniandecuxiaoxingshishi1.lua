@@ -9,7 +9,7 @@ return {
 			bgm = "story-richang-12",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "说起来，今天这个日期，好像是……",
+			say = "說起來，今天這個日期，好像是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错喵，又到了一年一度的那个日子了喵！",
+			say = "沒錯喵，又到了一年一度的日子喵了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，请看宣传片喵~！",
+			say = "指揮官，請看宣傳片喵~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,11 +95,11 @@ return {
 			},
 			sequence = {
 				{
-					"【这里写第一句宣传词，注意字数限制二十五个字】",
+					"【這裡寫第一句宣傳詞，注意字數限制二十五個字】",
 					1.5
 				},
 				{
-					"【这里写第二句宣传词，注意字数限制二十五个字】",
+					"【這裡寫第二句宣傳詞，注意字數限制二十五個字】",
 					3
 				}
 			}
@@ -110,11 +110,11 @@ return {
 			asideType = 1,
 			sequence = {
 				{
-					"【镜头切换，塑造氛围】",
+					"【鏡頭切換，塑造氛圍】",
 					1.5
 				},
 				{
-					"【素材还没到，先占坑】",
+					"【素材還沒到，先佔坑】",
 					3
 				}
 			}
@@ -125,15 +125,15 @@ return {
 			asideType = 1,
 			sequence = {
 				{
-					"【这里写活动总结语】",
+					"【這裡寫活動總結語】",
 					1
 				},
 				{
-					"【这里写活动标题】",
+					"【這裡寫活動標題】",
 					2
 				},
 				{
-					"【这里写活动时间】",
+					"【這裡寫活動時間】",
 					3
 				}
 			}
@@ -175,7 +175,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……喵？资、资源好像放错了喵？！",
+			say = "……喵？資、資源好像放錯了喵？ ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			bgm = "story-richang-11",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "【画面切换到都市实景】【插入一阵强劲的音乐】",
+			say = "【畫面切換到都市實景】【插入一陣強勁的音樂】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_529",
 			hidePaintObj = true,
-			say = "【画面再次切换，接入演员宣传】",
+			say = "【畫面再次切換，接入演員宣傳】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			actorName = "契卡洛夫",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊……稍微有点喝多了头有点晕……",
+			say = "啊……稍微有點喝多了頭有點暈……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还好之后可以后期配音，现在把口型和节奏对上就好……",
+			say = "還好之後可以後期配音，現在把口型和節奏對上就好……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,8 +272,8 @@ return {
 			bgName = "bg_blackfriday_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "纳希莫夫海军上将",
-			say = "尽量保持自然的不要看镜头，尽可能保持自然地说出台词……",
+			actorName = "納西莫夫海軍上將",
+			say = "盡量保持自然的不要看鏡頭，盡可能保持自然地說出台詞……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,8 +285,8 @@ return {
 			bgName = "bg_blackfriday_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "纳希莫夫海军上将",
-			say = "契卡洛夫小姐，你今天买的商品真是太实惠了。",
+			actorName = "納西莫夫海軍上將",
+			say = "契卡洛夫小姐，妳今天買的商品真是太實惠了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,8 +298,8 @@ return {
 			bgName = "bg_blackfriday_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "纳希莫夫海军上将",
-			say = "你是从哪里买到这么实惠的商品的呢？",
+			actorName = "納西莫夫海軍上將",
+			say = "妳是從哪裡買到這麼平價的商品的呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "都是{namecode:98:明石}今年准备的促销商品哦，别的不说，酒水部分是真的很实惠……值得一试哟~",
+			say = "都是明石今年準備的促銷商品哦，別的不說，酒水部分是真的很划算……值得一試喲~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,21 +324,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_blackfriday_cg2",
 			hidePaintObj = true,
-			say = "【高级轿车即将驶过，镜头聚焦过去】",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			portrait = 105174,
-			side = 2,
-			bgName = "bg_blackfriday_cg2",
-			actorName = "{namecode:199:新泽西}",
-			dir = 1,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "哇哦~Honey快看，我正在马路上飙车哦！",
+			say = "【高級轎車即將駛過，鏡頭聚焦過去】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +338,21 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "整片街区都因为拍摄封锁了，现在可以自由自在享受疾驰的快乐哦？！",
+			say = "哇哦~Honey快看，我正在馬路上飆車呢！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			portrait = 105174,
+			side = 2,
+			bgName = "bg_blackfriday_cg2",
+			actorName = "{namecode:199:新泽西}",
+			dir = 1,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "整個街區都因為拍攝封鎖了，現在可以自由自在享受疾馳的快樂哦？ ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,11 +362,11 @@ return {
 			portrait = 904021,
 			side = 2,
 			bgName = "bg_blackfriday_cg2",
-			actorName = "斯特拉斯堡",
+			actorName = "史特拉斯堡",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳，{namecode:199:新泽西}小姐……说词。",
+			say = "咳，紐澤西小姐……台詞。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦对……Honey，Honey！今年{namecode:98:明石}小姐的促销也是实惠满满哦！",
+			say = "喔對……Honey，Honey！今年明石小姐的促銷也是優惠滿滿哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "之后我们一起去看看吧~！",
+			say = "之後我們一起去看看吧~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,11 +404,11 @@ return {
 			portrait = 904021,
 			side = 2,
 			bgName = "bg_blackfriday_cg2",
-			actorName = "斯特拉斯堡",
+			actorName = "史特拉斯堡",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……台词里好像不是这么写的，你是真心觉得{namecode:98:明石}促销实惠的？",
+			say = "……台詞裡好像不是這麼寫的，妳是真心覺得明石促銷優惠的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯？难道不是吗？！",
+			say = "嗯？難道不是嗎？ ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她甚至有每日免费礼物派送欸！",
+			say = "她甚至有每日免費禮物送欸！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,11 +446,11 @@ return {
 			portrait = 904021,
 			side = 2,
 			bgName = "bg_blackfriday_cg2",
-			actorName = "斯特拉斯堡",
+			actorName = "史特拉斯堡",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这一点倒确实……一个好传统得到了延续……",
+			say = "這一點倒確實……一個好傳統得到了延續……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然喵！",
+			say = "當然喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "今年也是一场省掉其他一切环节，从根本上实实在在地让利喵！",
+			say = "今年也是一場省掉其他一切環節，從根本上實實在在讓利喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "限定换装返场、促销期间的超值限定礼包，{namecode:98:明石}也全都准备好了喵！",
+			say = "限定換裝返場、促銷期間的超值限定禮包，明石也全都準備好了喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那么，让我们相约在促销之日喵~！",
+			say = "那麼，讓我們相約在促銷之日喵~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_blackfriday_cg2",
 			hidePaintObj = true,
-			say = "【镜头切换到明亮的天空，收尾结束】",
+			say = "【鏡頭切換到明亮的天空，收尾結束】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,11 +567,11 @@ return {
 			},
 			options = {
 				{
-					content = "很独特的宣传片",
+					content = "很獨特的宣傳影片",
 					flag = 1
 				},
 				{
-					content = "很新颖的宣传片",
+					content = "很新穎的宣傳影片",
 					flag = 2
 				}
 			}
@@ -584,7 +584,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:98:明石}去更换宣传片资源了喵——！",
+			say = "明石去更換宣傳片資源了喵——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -597,7 +597,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官今年也请看传单，千万不要错过这次大好机会喵~！",
+			say = "指揮官今年也請看傳單，千萬不要錯過這次大好機會喵~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,19 +608,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "在留下了一摞促销传单后，一道绿色闪电如去年一般急速离开了指挥室。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "今天的指挥室又要成为她的订单自取处了……",
+			say = "在留下了一疊促銷傳單後，一道綠色閃電如去年一般急速離開了指揮室。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -632,7 +620,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "也罢，一年一度的促销日……",
+			say = "今天的指揮室又要成為她的傳單自取處了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,7 +632,19 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "工作结束之后，去看看好了——",
+			say = "也罷，一年一度的促銷日……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "工作結束之後，去看看好了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

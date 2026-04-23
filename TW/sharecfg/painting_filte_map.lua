@@ -12951,12 +12951,6 @@ pg.painting_filte_map = {
 		res_list = {
 			"painting/naximofu_tex",
 			"painting/naximofu_rw_tex",
-			"painting/naximofu_4_tex",
-			"painting/naximofu_4_rw_tex",
-			"painting/naximofu_4_n_tex",
-			"painting/naximofu_4_n_rw_tex",
-			"painting/naximofu_4_n",
-			"painting/naximofu_4",
 			"painting/naximofu"
 		}
 	},
@@ -12981,6 +12975,17 @@ pg.painting_filte_map = {
 			"painting/naximofu_3_n_rw_tex",
 			"painting/naximofu_3_n",
 			"painting/naximofu_3"
+		}
+	},
+	naximofu_4 = {
+		key = "naximofu_4",
+		res_list = {
+			"painting/naximofu_4_tex",
+			"painting/naximofu_4_rw_tex",
+			"painting/naximofu_4_n_tex",
+			"painting/naximofu_4_n_rw_tex",
+			"painting/naximofu_4_n",
+			"painting/naximofu_4"
 		}
 	},
 	nazhi = {
@@ -19186,12 +19191,6 @@ pg.painting_filte_map = {
 			"painting/xinzexi_jz2_tex",
 			"painting/xinzexi_jz1_tex",
 			"painting/xinzexi_front_tex",
-			"painting/xinzexi_5_tex",
-			"painting/xinzexi_5_rw_tex",
-			"painting/xinzexi_5_n_tex",
-			"painting/xinzexi_5_n_rw_tex",
-			"painting/xinzexi_5_n",
-			"painting/xinzexi_5",
 			"painting/xinzexi"
 		}
 	},
@@ -19227,6 +19226,17 @@ pg.painting_filte_map = {
 			"painting/xinzexi_4_n_tex",
 			"painting/xinzexi_4_n",
 			"painting/xinzexi_4"
+		}
+	},
+	xinzexi_5 = {
+		key = "xinzexi_5",
+		res_list = {
+			"painting/xinzexi_5_tex",
+			"painting/xinzexi_5_rw_tex",
+			"painting/xinzexi_5_n_tex",
+			"painting/xinzexi_5_n_rw_tex",
+			"painting/xinzexi_5_n",
+			"painting/xinzexi_5"
 		}
 	},
 	xinzexi_h = {

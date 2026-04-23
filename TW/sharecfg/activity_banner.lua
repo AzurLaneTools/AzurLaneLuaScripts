@@ -5,17 +5,15 @@ pg.activity_banner = {
 		id = 1,
 		pic = "temp1",
 		param = {
-			"scene charge",
-			{
-				wrap = 4
-			}
+			"scene skinshop",
+			{}
 		},
 		time = {
 			{
 				{
 					2026,
 					4,
-					16
+					23
 				},
 				{
 					0,
@@ -27,10 +25,10 @@ pg.activity_banner = {
 				{
 					2026,
 					4,
-					22
+					30
 				},
 				{
-					23,
+					14,
 					59,
 					59
 				}
@@ -42,10 +40,10 @@ pg.activity_banner = {
 		id = 2,
 		pic = "temp2",
 		param = {
-			"scene get boat",
+			"scene level",
 			{
-				projectName = "new",
-				page = 1
+				open_remaster = true,
+				isSP = false
 			}
 		},
 		time = {
@@ -53,7 +51,7 @@ pg.activity_banner = {
 				{
 					2026,
 					4,
-					16
+					23
 				},
 				{
 					0,
@@ -65,7 +63,7 @@ pg.activity_banner = {
 				{
 					2026,
 					4,
-					23
+					30
 				},
 				{
 					14,
@@ -108,7 +106,6 @@ pg.activity_banner = {
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 4,
 		pic = "temp4",
@@ -117,9 +114,36 @@ pg.activity_banner = {
 			{
 				wrap = 4
 			}
+		},
+		time = {
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					30
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 5,
 		pic = "temp5",
@@ -128,66 +152,15 @@ pg.activity_banner = {
 			{
 				warp = "shopstreet"
 			}
-		},
-		time = {
-			{
-				{
-					2026,
-					4,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					4,
-					22
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 6,
 		pic = "temp6",
 		param = {
 			"scene court yard"
-		},
-		time = {
-			{
-				{
-					2026,
-					4,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					4,
-					22
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
@@ -195,14 +168,19 @@ pg.activity_banner = {
 		id = 7,
 		pic = "temp7",
 		param = {
-			"dorm 3d select"
+			"scene core activity",
+			{
+				actID = 7305,
+				openPass = true,
+				coreName = "WinterFestival2025CoreActivityUI"
+			}
 		},
 		time = {
 			{
 				{
 					2026,
 					4,
-					16
+					23
 				},
 				{
 					0,
@@ -214,7 +192,7 @@ pg.activity_banner = {
 				{
 					2026,
 					4,
-					23
+					30
 				},
 				{
 					14,

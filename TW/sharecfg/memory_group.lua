@@ -235,6 +235,7 @@ pg.memory_group = setmetatable({
 		342,
 		343,
 		344,
+		346,
 		347,
 		348,
 		349,
@@ -6055,6 +6056,19 @@ pg.base.memory_group = {
 			4749
 		}
 	},
+	[346] = {
+		icon = "title_event",
+		type = 2,
+		link_event = 45096,
+		title = "今年的促銷形式是！",
+		auto_unlock = "",
+		subtype = 3,
+		id = 346,
+		group_id = "",
+		memories = {
+			4771
+		}
+	},
 	[347] = {
 		icon = "title_event",
 		type = 2,
@@ -8573,7 +8587,7 @@ pg.base.memory_group = {
 		icon = "title_chara_lvzuofu",
 		type = 3,
 		link_event = 0,
-		title = "奪回甜蜜美夢！",
+		title = "夺回甜蜜美梦！",
 		auto_unlock = "",
 		subtype = 0,
 		id = 605,

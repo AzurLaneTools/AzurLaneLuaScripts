@@ -163,6 +163,21 @@ pg.item_data_battleui = {
 			1
 		}
 	},
+	[112] = {
+		name = "春季促銷",
+		key = "SkinNormal_20251211",
+		display_icon = "ui_112",
+		unlock = "特別巡遊明石的贈禮獲取",
+		is_unlock = 1,
+		rare = 3,
+		desc = "該介面專為喜歡購物的指揮官準備，在享受購物歡樂的同時，用鋪天蓋地的禮物淹沒對手吧。",
+		id = 112,
+		icon = "112",
+		scene = {},
+		rare_display = {
+			1
+		}
+	},
 	[201] = {
 		name = "聖誕雪境",
 		key = "SkinNormal_20241209",
@@ -294,6 +309,7 @@ pg.item_data_battleui = {
 		108,
 		109,
 		111,
+		112,
 		201,
 		202,
 		203,

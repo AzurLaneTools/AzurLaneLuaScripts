@@ -3608,6 +3608,7 @@ pg.memory_template = setmetatable({
 		4747,
 		4748,
 		4749,
+		4771,
 		4781,
 		4782,
 		4783,
@@ -58080,6 +58081,21 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"JUFENGYUZIYOUQUNDAO29"
+		}
+	},
+	[4771] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "今年的促銷形式是！",
+		condition = "解鎖「今年的促銷形式是！」",
+		story = "JINNIANDECUXIAOXINGSHISHI1",
+		id = 4771,
+		icon = "memory_jinniandecuxiaoxingshishi",
+		is_open = 0,
+		unlock_pre = {
+			"JINNIANDECUXIAOXINGSHISHI1"
 		}
 	},
 	[4781] = {
