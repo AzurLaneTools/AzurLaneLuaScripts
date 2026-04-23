@@ -28322,6 +28322,53 @@ pg.activity_template = {
 			}
 		}
 	},
+	[6040] = {
+		mark = 20260409,
+		type = 86,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 39,
+		title_res_tag = "votingaward",
+		id = 6040,
+		page_core = "",
+		config_data = {
+			25502,
+			25503,
+			25504
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					21
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "VotingResulitAward2Page",
+			ui_name = "VotingResulitAward2Page"
+		},
+		config_client = {}
+	},
 	[7001] = {
 		mark = 20210930,
 		time = "stop",
@@ -38231,7 +38278,7 @@ pg.activity_template = {
 				"<color=#ffde38>SSR</color>: 7%",
 				"<color=#d797ff>SR</color>: 12%",
 				"<color=#3dc6ff>R</color>: 51%",
-				"N: 30%",
+				"노멀: 30%",
 				"<color=#ffde38>라이잘린 슈타우트</color>: 2.0%<color=#92FC63>(up!)</color>",
 				"  ",
 				"<color=#ffde38>파트리샤 아벨하임</color>: 2.0%<color=#92FC63>(up!)</color>",
@@ -41871,7 +41918,7 @@ pg.activity_template = {
 								warp = "shopstreet"
 							}
 						},
-						"상점에서 획득"
+						"军需商店兑换"
 					},
 					{
 						2,
@@ -41879,7 +41926,7 @@ pg.activity_template = {
 							"scene level",
 							{}
 						},
-						"이벤트 스테이지에서 획득"
+						"活动关卡掉落"
 					}
 				}
 			}
@@ -45048,7 +45095,7 @@ pg.activity_template = {
 								warp = "shopstreet"
 							}
 						},
-						"상점에서 획득"
+						"상점에서 교환"
 					},
 					{
 						2,
@@ -45056,7 +45103,7 @@ pg.activity_template = {
 							"scene level",
 							{}
 						},
-						"이벤트 스테이지에서 획득"
+						"이벤트 스테이지에서 등장"
 					}
 				}
 			},
@@ -49157,21 +49204,19 @@ pg.activity_template = {
 			}
 		},
 		config_client = {
-			id = 5,
-			bg = "loadingbg/bg_build_5_act",
-			buildship_tip = "누비안、{namecode:531}、리버풀 등 캐릭터 건조 확률UP！",
+			id = 4,
+			bg = "loadingbg/bg_build_4_act",
+			buildship_tip = "「누비안」, 「프리드리히 카를」, 「리버풀」 등장 확률 UP! ",
 			rate_tip = {
-				"<color=#ffde38>SSR</color>：7%",
-				"<color=#d797ff>SR</color>：12%",
-				"<color=#3dc6ff>R</color>：51%",
-				"N：30%",
-				"<color=#ffde38>{namecode:531}</color>：2.0%<color=#92FC63>(up!)</color>",
+				"<color=#ffde38>SSR</color>: 7%",
+				"<color=#d797ff>SR</color>: 12%",
+				"<color=#3dc6ff>R</color>: 51%",
+				"노멀: 30%",
+				"<color=#ffde38>프리드리히 카를</color>: 2.0%<color=#92FC63>(up!)</color>",
 				" ",
-				"<color=#ffde38>누비안</color>：2.0%<color=#92FC63>(up!)</color>",
+				"<color=#ffde38>누비안</color>: 2.0%<color=#92FC63>(up!)</color>",
 				" ",
-				"<color=#d797ff>리버풀</color>：2.5%<color=#92FC63>(up!)</color>",
-				" ",
-				"※같은 레어도의 건조 획득 확률은 동일합니다."
+				"<color=#d797ff>리버풀</color>: 2.5%<color=#92FC63>(up!)</color>"
 			}
 		}
 	},
@@ -49497,12 +49542,10 @@ pg.activity_template = {
 				"<color=#ffde38>SSR</color>: 7%",
 				"<color=#d797ff>SR</color>: 12%",
 				"<color=#3dc6ff>R</color>: 26%",
-				"N: 55%",
+				"노멀: 55%",
 				"<color=#ffde38>장우</color>: 2.0%(<color=#92fc63>up!</color>)",
 				" ",
-				"<color=#d797ff>하이처우</color>: 2.5%(<color=#92fc63>up!</color>)",
-				" ",
-				"※같은 레어도의 건조 획득 확률은 동일합니다."
+				"<color=#d797ff>하이처우</color>: 2.5%(<color=#92fc63>up!</color>)"
 			}
 		}
 	},
@@ -52004,6 +52047,7 @@ pg.activity_template = {
 	},
 	[50481] = {
 		mark = 20260326,
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -52019,33 +52063,6 @@ pg.activity_template = {
 			2010022,
 			2010023,
 			2010041
-		},
-		time = {
-			"timer",
-			{
-				{
-					2026,
-					4,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					4,
-					23
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
 		},
 		page_info = {
 			class_name = "YunLongSPMainPage",
@@ -52177,6 +52194,7 @@ pg.activity_template = {
 	[50484] = {
 		mark = 20260326,
 		page_info = "",
+		time = "stop",
 		type = 27,
 		login_pop = 0,
 		config_id = 1,
@@ -52189,33 +52207,6 @@ pg.activity_template = {
 			{
 				31924,
 				100
-			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2026,
-					4,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					4,
-					22
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		}
 	},
@@ -52341,6 +52332,7 @@ pg.activity_template = {
 	[50487] = {
 		mark = 20250424,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -52365,38 +52357,12 @@ pg.activity_template = {
 			25330,
 			25331,
 			25333
-		},
-		time = {
-			"timer",
-			{
-				{
-					2026,
-					4,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					4,
-					23
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
 		}
 	},
 	[50489] = {
 		mark = 20260326,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -52407,38 +52373,12 @@ pg.activity_template = {
 		page_core = "",
 		config_data = {
 			25332
-		},
-		time = {
-			"timer",
-			{
-				{
-					2026,
-					4,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					4,
-					22
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[50491] = {
 		mark = 20260326,
 		page_info = "",
+		time = "stop",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
@@ -52447,33 +52387,6 @@ pg.activity_template = {
 		id = 50491,
 		page_core = "",
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2026,
-					4,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					4,
-					23
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		},
 		config_client = {
 			id = 4,
 			bg = "loadingbg/bg_build_4_act",
@@ -52487,9 +52400,7 @@ pg.activity_template = {
 				" ",
 				"<color=#ffde38>랭동타블</color>: 2.0%<color=#92FC63>(up!)</color>",
 				" ",
-				"<color=#d797ff>나요로</color>: 2.5%<color=#92FC63>(up!)</color>",
-				" ",
-				"※같은 레어도의 건조 획득 확률은 동일합니다."
+				"<color=#d797ff>나요로</color>: 2.5%<color=#92FC63>(up!)</color>"
 			}
 		}
 	},
@@ -53067,6 +52978,142 @@ pg.activity_template = {
 		page_core = "",
 		config_data = {
 			2
+		}
+	},
+	[990013] = {
+		mark = 20260319,
+		page_info = "",
+		type = 801,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 990013,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[990014] = {
+		mark = 20260319,
+		page_info = "",
+		type = 89,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 990014,
+		page_core = "",
+		config_data = {
+			{
+				56248
+			},
+			{
+				56249
+			},
+			{
+				56250
+			},
+			{
+				56251
+			},
+			{
+				56252
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[990015] = {
+		mark = 20260319,
+		page_info = "",
+		type = 890,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 990015,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[999901] = {
@@ -54277,6 +54324,7 @@ pg.activity_template = {
 			5790,
 			5830,
 			5911,
+			6040,
 			50084,
 			50235,
 			50290,
@@ -54415,7 +54463,8 @@ pg.activity_template = {
 			7502,
 			7503,
 			50044,
-			50372
+			50372,
+			990014
 		},
 		[22] = {
 			5264,
@@ -54652,6 +54701,12 @@ pg.activity_template = {
 		[800] = {
 			990009,
 			999901
+		},
+		[801] = {
+			990013
+		},
+		[890] = {
+			990015
 		}
 	},
 	all = {
@@ -55469,6 +55524,7 @@ pg.activity_template = {
 		6022,
 		6023,
 		6024,
+		6040,
 		7001,
 		7004,
 		7005,
@@ -56013,6 +56069,9 @@ pg.activity_template = {
 		990008,
 		990009,
 		990011,
+		990013,
+		990014,
+		990015,
 		999901
 	}
 }

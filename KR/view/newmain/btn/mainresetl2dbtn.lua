@@ -22,7 +22,7 @@ slot0.FlushL2d = function(slot0)
 		return
 	end
 
-	setActive(slot0._tf, MainPaintingView.GetAssistantStatus(getProxy(PlayerProxy):getRawData():GetFlagShip()) == MainPaintingView.STATE_L2D)
+	setActive(slot0._tf, MainPaintingView.GetAssistantStatus(getProxy(PlayerProxy):getRawData():GetCurrentFlagShip()) == MainPaintingView.STATE_L2D)
 end
 
 return slot0

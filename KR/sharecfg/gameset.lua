@@ -4183,5 +4183,183 @@ pg.gameset = {
 	child2_select_sleep_time = {
 		description = "0.85",
 		key_value = 0
+	},
+	match_refuseCD = {
+		description = "",
+		key_value = 10
+	},
+	match_expand = {
+		description = "",
+		key_value = 100
+	},
+	match_time_expand = {
+		key_value = 0,
+		description = {
+			{
+				3,
+				100
+			},
+			{
+				5,
+				200
+			},
+			{
+				10,
+				300
+			}
+		}
+	},
+	match_time_limit = {
+		description = "",
+		key_value = 50
+	},
+	bar_punishment_limit = {
+		description = "",
+		key_value = 6
+	},
+	bar_card = {
+		key_value = 0,
+		description = {
+			{
+				1,
+				6
+			},
+			{
+				2,
+				6
+			},
+			{
+				3,
+				6
+			},
+			{
+				99,
+				2
+			}
+		}
+	},
+	bar_card_time = {
+		description = "",
+		key_value = 15
+	},
+	bar_punishment_rotate_time = {
+		description = "",
+		key_value = 5
+	},
+	bar_punishment_turntable_time = {
+		description = "",
+		key_value = 5
+	},
+	bar_punishment_eliminate_time = {
+		description = "",
+		key_value = 4
+	},
+	bar_question_time = {
+		description = "",
+		key_value = 6
+	},
+	barbot_card1_weight = {
+		description = "",
+		key_value = 5
+	},
+	barbot_card2_weight = {
+		description = "",
+		key_value = 5
+	},
+	barbot_card3_weight = {
+		description = "",
+		key_value = 5
+	},
+	barbot_initial_probability_X = {
+		description = "",
+		key_value = 10
+	},
+	barbot_increase_probability_Y = {
+		description = "",
+		key_value = 5
+	},
+	barbot_increase_probability_Z = {
+		description = "",
+		key_value = 1
+	},
+	barbot_increase_probability_M = {
+		key_value = 0,
+		description = {
+			5,
+			10,
+			15
+		}
+	},
+	barbot_card_time = {
+		key_value = 0,
+		description = {
+			2,
+			2
+		}
+	},
+	barbot_punishment_rotate_time = {
+		key_value = 0,
+		description = {
+			1,
+			2
+		}
+	},
+	barbot_ranktime = {
+		key_value = 0,
+		description = {
+			20,
+			25
+		}
+	},
+	bar_refreshcard_time = {
+		description = "",
+		key_value = 4
+	},
+	bar_showcard_time = {
+		description = "",
+		key_value = 3
+	},
+	barbot_automatic_hosting = {
+		description = "",
+		key_value = 3
+	},
+	integral_consecutive_victories = {
+		description = "",
+		key_value = 20
+	},
+	bar_default_character = {
+		description = "",
+		key_value = 10703
+	},
+	bar_not_display_dress_type = {
+		key_value = 0,
+		description = {
+			3
+		}
+	},
+	barbot_dress_type = {
+		key_value = 0,
+		description = {
+			1,
+			2,
+			6
+		}
+	},
+	bar_runaway_time = {
+		description = "",
+		key_value = 3
+	},
+	["3disland_score_limit"] = {
+		key_value = 0,
+		description = {
+			{
+				101,
+				9999
+			}
+		}
+	},
+	bar_match_wait_time = {
+		description = "",
+		key_value = 300
 	}
 }

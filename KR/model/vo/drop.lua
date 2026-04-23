@@ -483,7 +483,10 @@ slot0.InitSwitch = function()
 			return pg.island_collection[slot0.id]
 		end,
 		[VIRTUAL_DROP_TYPE_ISLAND_SEASON_PT] = function (slot0)
-			return getIslandSeasonPtInfo()
+			slot2 = pg.island_item_data_template[pg.island_set.season_pt_show.key_value_int]
+			slot0.desc = slot2.desc
+
+			return slot2
 		end
 	}
 
@@ -636,6 +639,17 @@ slot0.InitSwitch = function()
 
 			if slot1:GetIsland() then
 				return slot2:GetActionAgency():ExistAction(slot0.id) and 1 or 0
+			end
+
+			return 0
+		end,
+		[VIRTUAL_DROP_TYPE_ISLAND_SEASON_PT] = function (slot0)
+			if not getProxy(IslandProxy) then
+				return 0
+			end
+
+			if slot1:GetIsland() then
+				return slot2:GetSeasonAgency():GetSeason():GetPt()
 			end
 
 			return 0
@@ -1684,6 +1698,9 @@ slot0.InitSwitch = function()
 		end,
 		[DROP_TYPE_ISLAND_SKIN] = function (slot0, slot1, slot2)
 			updateIslandSkin(slot1, slot0, slot2)
+		end,
+		[DROP_TYPE_ISLAND_DRESS] = function (slot0, slot1, slot2)
+			updateIslandDress(slot1, slot0, slot2)
 		end
 	}
 

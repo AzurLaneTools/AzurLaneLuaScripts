@@ -154472,6 +154472,31 @@ _G.pg.base.item_virtual_data_statistics[59179] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[59180] = {
+	drop_gold_max = 0,
+	name = "훈련 PT",
+	display = "「시작의 꿈」 보상 교환용 아이템. 이벤트 종료 후에 제거됩니다.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xunliandianshu_s",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 59180,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[59181] = {
 	drop_gold_max = 0,
 	name = "스킨 체험권",
@@ -154514,31 +154539,6 @@ _G.pg.base.item_virtual_data_statistics[59182] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 59182,
-	display_icon = {},
-	price = {},
-	index = {},
-	shiptrans_id = {},
-	combination_display = {}
-}
-
-
-_G.pg.base.item_virtual_data_statistics[59180] = {
-	drop_gold_max = 0,
-	name = "훈련PT",
-	display = "액자 이벤트 교환용. 이벤트 종료 후 사라짐.",
-	type = 98,
-	is_world = 0,
-	shop_id = -1,
-	replace_item = 0,
-	time_limit = 0,
-	link_id = 0,
-	icon = "Props/xunliandianshu_s",
-	order = 0,
-	rarity = 2,
-	max_num = 0,
-	drop_oil_max = 0,
-	virtual_type = 0,
-	id = 59180,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -154747,6 +154747,31 @@ _G.pg.base.item_virtual_data_statistics[59190] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[59191] = {
+	drop_gold_max = 0,
+	name = "훈련 PT",
+	display = "「작전 준비·메탈 블러드」 보상 교환용 아이템. 이벤트 종료 후에 제거됩니다.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xunliandianshu_t",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 59191,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[59192] = {
 	drop_gold_max = 0,
 	name = "철혈의 열쇠",
@@ -154814,31 +154839,6 @@ _G.pg.base.item_virtual_data_statistics[59194] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 59194,
-	display_icon = {},
-	price = {},
-	index = {},
-	shiptrans_id = {},
-	combination_display = {}
-}
-
-
-_G.pg.base.item_virtual_data_statistics[59191] = {
-	drop_gold_max = 0,
-	name = "훈련 Pt",
-	display = "테두리 이벤트 교환용. 이벤트 종료 후 사라짐.",
-	type = 98,
-	is_world = 0,
-	shop_id = -1,
-	replace_item = 0,
-	time_limit = 0,
-	link_id = 0,
-	icon = "Props/xunliandianshu_t",
-	order = 0,
-	rarity = 2,
-	max_num = 0,
-	drop_oil_max = 0,
-	virtual_type = 0,
-	id = 59191,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -159501,6 +159501,56 @@ _G.pg.base.item_virtual_data_statistics[59411] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[59412] = {
+	drop_gold_max = 0,
+	name = "호감도 - 꼬마 프린츠 오이겐",
+	display = "이벤트 「치즈치즈 설탕듬뿍」·호감도 보상(획득 합계)",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/little_eugen_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 59412,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[59413] = {
+	drop_gold_max = 0,
+	name = "훈련 PT",
+	display = "「작전 준비·메탈 블러드」 보상 교환용 아이템. 이벤트 종료 후에 제거됩니다.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xunliandianshu_d",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 59413,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[59420] = {
 	drop_gold_max = 0,
 	name = "비너스 포인트",
@@ -159543,56 +159593,6 @@ _G.pg.base.item_virtual_data_statistics[59421] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 59421,
-	display_icon = {},
-	price = {},
-	index = {},
-	shiptrans_id = {},
-	combination_display = {}
-}
-
-
-_G.pg.base.item_virtual_data_statistics[59412] = {
-	drop_gold_max = 0,
-	name = "치즈 케이크",
-	display = "「치즈치즈 설탕듬뿍!」 이벤트 캐릭터 호감도 상승용. 이벤트 종료 후 사라짐",
-	type = 98,
-	is_world = 0,
-	shop_id = -1,
-	replace_item = 0,
-	time_limit = 0,
-	link_id = 0,
-	icon = "Props/little_eugen_pt",
-	order = 0,
-	rarity = 2,
-	max_num = 0,
-	drop_oil_max = 0,
-	virtual_type = 0,
-	id = 59412,
-	display_icon = {},
-	price = {},
-	index = {},
-	shiptrans_id = {},
-	combination_display = {}
-}
-
-
-_G.pg.base.item_virtual_data_statistics[59413] = {
-	drop_gold_max = 0,
-	name = "훈련PT",
-	display = "아이콘 테두리 이벤트에서 교환 가능. 이벤트 종료 후 사라짐.",
-	type = 98,
-	is_world = 0,
-	shop_id = -1,
-	replace_item = 0,
-	time_limit = 0,
-	link_id = 0,
-	icon = "Props/xunliandianshu_d",
-	order = 0,
-	rarity = 2,
-	max_num = 0,
-	drop_oil_max = 0,
-	virtual_type = 0,
-	id = 59413,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169353,8 +169353,8 @@ _G.pg.base.item_virtual_data_statistics[60488] = {
 
 _G.pg.base.item_virtual_data_statistics[60600] = {
 	drop_gold_max = 0,
-	name = "암호 「M」",
-	display = "「빛나는★부린★대작전」 이벤트 아이템",
+	name = "패스 「M」",
+	display = "「빛나는 부린 대작전」의 힌트 아이템",
 	type = 0,
 	is_world = 0,
 	shop_id = -1,
@@ -169378,8 +169378,8 @@ _G.pg.base.item_virtual_data_statistics[60600] = {
 
 _G.pg.base.item_virtual_data_statistics[60601] = {
 	drop_gold_max = 0,
-	name = "암호 「A」",
-	display = "「빛나는★부린★대작전」 이벤트 아이템",
+	name = "패스 「A」",
+	display = "「빛나는 부린 대작전」의 힌트 아이템",
 	type = 0,
 	is_world = 0,
 	shop_id = -1,
@@ -169403,8 +169403,8 @@ _G.pg.base.item_virtual_data_statistics[60601] = {
 
 _G.pg.base.item_virtual_data_statistics[60602] = {
 	drop_gold_max = 0,
-	name = "암호 「G」",
-	display = "「빛나는★부린★대작전」 이벤트 아이템",
+	name = "패스 「G」",
+	display = "「빛나는 부린 대작전」의 힌트 아이템",
 	type = 0,
 	is_world = 0,
 	shop_id = -1,
@@ -169428,8 +169428,8 @@ _G.pg.base.item_virtual_data_statistics[60602] = {
 
 _G.pg.base.item_virtual_data_statistics[60603] = {
 	drop_gold_max = 0,
-	name = "암호 「I」",
-	display = "「빛나는★부린★대작전」 이벤트 아이템",
+	name = "패스 「I」",
+	display = "「빛나는 부린 대작전」의 힌트 아이템",
 	type = 0,
 	is_world = 0,
 	shop_id = -1,
@@ -169453,8 +169453,8 @@ _G.pg.base.item_virtual_data_statistics[60603] = {
 
 _G.pg.base.item_virtual_data_statistics[60604] = {
 	drop_gold_max = 0,
-	name = "암호 「C」",
-	display = "「빛나는★부린★대작전」 이벤트 아이템",
+	name = "패스 「C」",
+	display = "「빛나는 부린 대작전」의 힌트 아이템",
 	type = 0,
 	is_world = 0,
 	shop_id = -1,
@@ -169478,8 +169478,8 @@ _G.pg.base.item_virtual_data_statistics[60604] = {
 
 _G.pg.base.item_virtual_data_statistics[60605] = {
 	drop_gold_max = 0,
-	name = "암호 「B」",
-	display = "「빛나는★부린★대작전」 이벤트 아이템",
+	name = "패스 「B」",
+	display = "「빛나는 부린 대작전」의 힌트 아이템",
 	type = 0,
 	is_world = 0,
 	shop_id = -1,
@@ -169503,8 +169503,8 @@ _G.pg.base.item_virtual_data_statistics[60605] = {
 
 _G.pg.base.item_virtual_data_statistics[60606] = {
 	drop_gold_max = 0,
-	name = "암호 「U」",
-	display = "「빛나는★부린★대작전」 이벤트 아이템",
+	name = "패스 「U」",
+	display = "「빛나는 부린 대작전」의 힌트 아이템",
 	type = 0,
 	is_world = 0,
 	shop_id = -1,
@@ -169528,8 +169528,8 @@ _G.pg.base.item_virtual_data_statistics[60606] = {
 
 _G.pg.base.item_virtual_data_statistics[60607] = {
 	drop_gold_max = 0,
-	name = "암호 「L」",
-	display = "「빛나는★부린★대작전」 이벤트 아이템",
+	name = "패스 「L」",
+	display = "「빛나는 부린 대작전」의 힌트 아이템",
 	type = 0,
 	is_world = 0,
 	shop_id = -1,
@@ -169553,8 +169553,8 @@ _G.pg.base.item_virtual_data_statistics[60607] = {
 
 _G.pg.base.item_virtual_data_statistics[60608] = {
 	drop_gold_max = 0,
-	name = "암호 「I」",
-	display = "「빛나는★부린★대작전」 이벤트 아이템",
+	name = "패스 「I」",
+	display = "「빛나는 부린 대작전」의 힌트 아이템",
 	type = 0,
 	is_world = 0,
 	shop_id = -1,
@@ -179458,7 +179458,7 @@ _G.pg.base.item_virtual_data_statistics[65882] = {
 _G.pg.base.item_virtual_data_statistics[65883] = {
 	drop_gold_max = 0,
 	name = "스티커: 엠블럼",
-	display = "유람자들이여, 모여라!",
+	display = "완더러들이여, 모여라!",
 	type = 0,
 	is_world = 0,
 	shop_id = -1,
@@ -179482,7 +179482,7 @@ _G.pg.base.item_virtual_data_statistics[65883] = {
 
 _G.pg.base.item_virtual_data_statistics[65884] = {
 	drop_gold_max = 0,
-	name = "유람자 훈장 ",
+	name = "완더러 엠블럼",
 	display = "「유람자 모집 계획」의 이벤트 Pt. 이벤트 종료 시에 삭제된다.",
 	type = 0,
 	is_world = 0,
@@ -179532,8 +179532,8 @@ _G.pg.base.item_virtual_data_statistics[65885] = {
 
 _G.pg.base.item_virtual_data_statistics[65886] = {
 	drop_gold_max = 0,
-	name = "도시 유람 기념 훈장",
-	display = "머리 위로 빛나는 네온보드와 발아래로 흐르는 무지갯빛 길. 불야성의 거리를 걷는 유람자의 영혼으로 느끼는 도시의 비트와 노트.\n——웰컴 투 쏜 시티!",
+	name = "완더러 기념 훈장",
+	display = "머리 위로 빛나는 네온보드와 발아래로 흐르는 무지갯빛 길. 불야성의 거리를 걷는 완더러의 영혼으로 느끼는 도시의 비트와 노트.\n——웰컴 투 쏜 시티!",
 	type = 98,
 	is_world = 0,
 	shop_id = -1,

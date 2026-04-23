@@ -4352,7 +4352,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Devonshire",
 		background = "",
 		sculpture = "dewenjun",
-		nationality = 0,
+		nationality = 2,
 		type = 1,
 		sculpture_ii = ""
 	},
@@ -4763,7 +4763,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[201] = {
 		ship_group = 201,
-		name = "애프터눈 티 보너스",
+		name = "애프터눈 티 서비스",
 		background = "200",
 		sculpture = "201",
 		nationality = 12,

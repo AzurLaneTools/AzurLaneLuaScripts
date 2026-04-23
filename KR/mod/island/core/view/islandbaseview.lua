@@ -91,8 +91,12 @@ end
 
 slot0.OnCoreStateChanged = function(slot0, slot1)
 	if slot1 == IslandCore.STATE_INIT_FINISH then
-		pg.BgmMgr.GetInstance():Push("IslandScene", slot0.bgm)
+		slot0:PlayBGM()
 	end
+end
+
+slot0.PlayBGM = function(slot0)
+	pg.BgmMgr.GetInstance():Push("IslandScene", slot0.bgm)
 end
 
 slot0.NotifiyCore = function(slot0, slot1, ...)

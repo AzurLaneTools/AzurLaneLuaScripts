@@ -52,7 +52,8 @@ slot0.execute = function(slot0, slot1)
 						status = slot8.state,
 						name = slot8.name,
 						tag_state = slot8.tag_state,
-						sort = slot8.sort
+						sort = slot8.sort,
+						ids = slot8.ids
 					})
 					slot3[#slot3 + 1] = slot8.proxy_ip .. ":" .. slot8.proxy_port
 					slot3[#slot3 + 1] = slot8.ip .. ":" .. slot8.port

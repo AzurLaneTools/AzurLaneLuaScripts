@@ -524,6 +524,7 @@ pg.login = {
 			}
 		},
 		op_time = {
+			"timer",
 			{
 				{
 					2022,
@@ -584,6 +585,7 @@ pg.login = {
 			}
 		},
 		op_time = {
+			"timer",
 			{
 				{
 					2023,
@@ -644,6 +646,7 @@ pg.login = {
 			}
 		},
 		op_time = {
+			"timer",
 			{
 				{
 					2023,
@@ -722,6 +725,7 @@ pg.login = {
 			}
 		},
 		op_time = {
+			"timer",
 			{
 				{
 					2023,

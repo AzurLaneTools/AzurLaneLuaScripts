@@ -4034,6 +4034,13 @@ pg.memory_template = setmetatable({
 		5055,
 		5056,
 		5057,
+		5071,
+		5072,
+		5073,
+		5074,
+		5075,
+		5076,
+		5077,
 		10000,
 		10001,
 		10002,
@@ -64515,7 +64522,7 @@ pg.base.memory_template = {
 		type = 1,
 		number = 0,
 		title = "만능 큐브",
-		condition = "「빛나는★부린★대작전」 이벤트 아이템",
+		condition = "「빛나는 부린 대작전」 시작",
 		story = "SHANYAOBULIDAZUOZHAN1",
 		id = 5061,
 		icon = "memory_shanyaobulidazuozhan",
@@ -64530,7 +64537,7 @@ pg.base.memory_template = {
 		type = 1,
 		number = 0,
 		title = "저스티스 유니온",
-		condition = "암호 전부 수집",
+		condition = "모든 힌트 수집",
 		story = "SHANYAOBULIDAZUOZHAN2",
 		id = 5062,
 		icon = "memory_shanyaobulidazuozhan",
@@ -64544,8 +64551,8 @@ pg.base.memory_template = {
 		subtitle = "",
 		type = 2,
 		number = 0,
-		title = "반짝반짝 대작전",
-		condition = "특수 전투 진입",
+		title = "빛나는 대작전",
+		condition = "특수 전투 돌입",
 		story = "1360007",
 		id = 5063,
 		icon = "memory_shanyaobulidazuozhan",
@@ -64807,6 +64814,111 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"MANYOUZHEZHAOMUJIHUA17"
+		}
+	},
+	[5071] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "뜻밖의 데이트 신청",
+		condition = "「진실과 허식의 그녀 1」 시작",
+		story = "DEWENJUN1",
+		id = 5071,
+		icon = "memory_dewenjun",
+		is_open = 0,
+		unlock_pre = {
+			"DEWENJUN1"
+		}
+	},
+	[5072] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "아이싱의 속삭임",
+		condition = "「진실과 허식의 그녀 2」 시작",
+		story = "DEWENJUN2",
+		id = 5072,
+		icon = "memory_dewenjun",
+		is_open = 0,
+		unlock_pre = {
+			"DEWENJUN2"
+		}
+	},
+	[5073] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "마법은 언젠가 끝나는 법",
+		condition = "「진실과 허식의 그녀 3」 시작",
+		story = "DEWENJUN3",
+		id = 5073,
+		icon = "memory_dewenjun",
+		is_open = 0,
+		unlock_pre = {
+			"DEWENJUN3"
+		}
+	},
+	[5074] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "수수께끼, 뒤틀린 타로",
+		condition = "「진실과 허식의 그녀 」 시작",
+		story = "DEWENJUN4",
+		id = 5074,
+		icon = "memory_dewenjun",
+		is_open = 0,
+		unlock_pre = {
+			"DEWENJUN4"
+		}
+	},
+	[5075] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "데이트의 결말",
+		condition = "「진실과 허식의 그녀 5」 시작",
+		story = "DEWENJUN5",
+		id = 5075,
+		icon = "memory_dewenjun",
+		is_open = 0,
+		unlock_pre = {
+			"DEWENJUN5"
+		}
+	},
+	[5076] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "데본셔, 진정한 그녀",
+		condition = "「진실과 허식의 그녀 6」 시작",
+		story = "DEWENJUN6",
+		id = 5076,
+		icon = "memory_dewenjun",
+		is_open = 0,
+		unlock_pre = {
+			"DEWENJUN6"
+		}
+	},
+	[5077] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "패배자에게는 벌을",
+		condition = "「진실과 허식의 그녀 7」 시작",
+		story = "DEWENJUN7",
+		id = 5077,
+		icon = "memory_dewenjun",
+		is_open = 0,
+		unlock_pre = {
+			"DEWENJUN7"
 		}
 	},
 	[10000] = {

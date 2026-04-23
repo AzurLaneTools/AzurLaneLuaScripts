@@ -1,4 +1,4 @@
-slot0 = class("BossRushAlvitPassedLayer", import("view.activity.BossRush.BossRushPassedLayer"))
+slot0 = class("BossRushAlvitPassedLayer", import("view.activity.BossRush.BossRushPassedCombatLoadLayer"))
 slot0.GROW_TIME = 0.55
 
 slot0.getUIName = function(slot0)

@@ -45,19 +45,28 @@ slot0.LoadCharacterScene = function(slot0, slot1)
 end
 
 slot0.ModifyCameraMask = function(slot0)
-	slot1 = IslandCameraMgr.instance._mainCamera
-	slot0.defaultCullingMask = slot1.cullingMask
+	if IsNil(IslandCameraMgr.instance) then
+		slot1 = CheatTavernCameraMgr.instance
+	end
 
-	LuaHelper.SetCamCullingMask(slot1, "Character3D")
+	slot2 = slot1._mainCamera
+	slot0.defaultCullingMask = slot2.cullingMask
+
+	LuaHelper.SetCamCullingMask(slot2, "Character3D")
 end
 
 slot0.ActivityCharacterCamera = function(slot0)
 	slot1 = slot0:GetActiveCamName()
-	slot2 = IslandCameraMgr.instance:GetVirtualCamera(slot1)
-	slot2.Follow = slot0.roleContainer
-	slot2.LookAt = slot0.roleContainer
 
-	IslandCameraMgr.instance:ActiveVirtualCamera(slot1)
+	if IsNil(IslandCameraMgr.instance) then
+		slot2 = CheatTavernCameraMgr.instance
+	end
+
+	slot3 = slot2:GetVirtualCamera(slot1)
+	slot3.Follow = slot0.roleContainer
+	slot3.LookAt = slot0.roleContainer
+
+	slot2:ActiveVirtualCamera(slot1)
 end
 
 slot0.InitSceneTimeline = function(slot0)
@@ -208,8 +217,12 @@ slot0.UnLoadCharacterScene = function(slot0, slot1)
 end
 
 slot0.ResetCameraMask = function(slot0)
-	if slot0.defaultCullingMask and IslandCameraMgr.instance then
-		LuaHelper.ResetCamCullingMask(IslandCameraMgr.instance._mainCamera, slot0.defaultCullingMask)
+	if IsNil(IslandCameraMgr.instance) then
+		slot1 = CheatTavernCameraMgr.instance
+	end
+
+	if slot0.defaultCullingMask and slot1 then
+		LuaHelper.ResetCamCullingMask(slot1._mainCamera, slot0.defaultCullingMask)
 	end
 end
 

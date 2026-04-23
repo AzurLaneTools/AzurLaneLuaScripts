@@ -254,20 +254,20 @@ slot0.InitDressData = function(slot0)
 	end
 end
 
-slot0.InitDressTF = function(slot0)
-	for slot4, slot5 in pairs(slot0.dataAfterRoleInit) do
-		slot0:ChangeDressByType(slot4, slot5)
+slot0.InitDressTF = function(slot0, slot1)
+	for slot5, slot6 in pairs(slot0.dataAfterRoleInit) do
+		slot0:ChangeDressByType(slot5, slot6, slot1)
 	end
 
 	slot0.dataAfterRoleInit = {}
 end
 
-slot0.OnRoleLoaded = function(slot0, slot1, slot2)
+slot0.OnRoleLoaded = function(slot0, slot1, slot2, slot3)
 	slot0.modelData = slot2
 	slot0.roleTF = slot1
 	slot0.hasTF = true
 
-	slot0:InitDressTF()
+	slot0:InitDressTF(slot3)
 end
 
 slot0.RemoveDressTF = function(slot0)
@@ -336,17 +336,25 @@ slot0.LoadDressObjectItem = function(slot0, slot1, slot2, slot3)
 	slot6 = slot0.shipId
 
 	table.insert(slot0.loadingIdList or {}, IslandAssetLoadDispatcher.Instance:Enqueue(pg.island_dress_template[slot2].model, "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-		if uv0 ~= uv1.shipId then
+		if IsNil(uv0.roleTF) then
 			return
 		end
 
-		if uv1.currentDressDataDic[uv2].id ~= uv3 then
+		if uv0.hasTF == false then
+			return
+		end
+
+		if uv1 ~= uv0.shipId then
+			return
+		end
+
+		if uv0.currentDressDataDic[uv2].id ~= uv3 then
 			return
 		end
 
 		slot1 = Object.Instantiate(slot0)
 
-		pg.ViewUtils.SetLayer(slot1.transform, uv1.isScene and Layer.Default or Layer.Character3D)
+		pg.ViewUtils.SetLayer(slot1.transform, uv0.isScene and Layer.Default or Layer.Character3D)
 		switch(uv2, {
 			[uv4.DressType.BackDecorate] = function ()
 				slot0 = uv0.roleTF.transform
@@ -427,41 +435,41 @@ slot0.LoadDressObjectItem = function(slot0, slot1, slot2, slot3)
 			end
 		})
 
-		uv1.pageDressTFDic[uv3] = slot1
+		uv0.pageDressTFDic[uv3] = slot1
 
-		existCall(uv6)
+		existCall(uv6, slot1)
 	end), true, true))
 end
 
-slot0.ChangeDressObject = function(slot0, slot1, slot2)
-	slot3 = slot2.id
+slot0.ChangeDressObject = function(slot0, slot1, slot2, slot3)
+	slot4 = slot2.id
 
 	if slot0.currentDressDataDic[slot1] and slot0.currentDressDataDic[slot1].id or 0 then
-		if slot4 == slot3 then
+		if slot5 == slot4 then
 			return
 		end
 
-		if slot4 ~= 0 then
-			if slot0.pageDressTFDic[slot4] then
-				Object.Destroy(slot5)
+		if slot5 ~= 0 then
+			if slot0.pageDressTFDic[slot5] then
+				Object.Destroy(slot6)
 
-				slot0.pageDressTFDic[slot4] = nil
+				slot0.pageDressTFDic[slot5] = nil
 			end
 
 			slot0.currentDressDataDic[slot1] = nil
 		end
 	end
 
-	if slot3 == 0 then
+	if slot4 == 0 then
 		return
 	end
 
 	slot0.currentDressDataDic[slot1] = slot2
 
-	slot0:LoadDressObjectItem(slot1, slot3)
+	slot0:LoadDressObjectItem(slot1, slot4, slot3)
 end
 
-slot0.ChangeDressByType = function(slot0, slot1, slot2)
+slot0.ChangeDressByType = function(slot0, slot1, slot2, slot3)
 	if not slot0.hasTF then
 		slot0.dataAfterRoleInit[slot1] = slot2
 
@@ -471,7 +479,7 @@ slot0.ChangeDressByType = function(slot0, slot1, slot2)
 	if table.contains(uv0.CommanderCustom, slot1) then
 		slot0:ChangeCommanderPart(slot1, slot2)
 	else
-		slot0:ChangeDressObject(slot1, slot2)
+		slot0:ChangeDressObject(slot1, slot2, slot3)
 	end
 end
 

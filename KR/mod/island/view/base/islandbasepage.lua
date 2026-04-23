@@ -24,6 +24,10 @@ slot0.emitCore = function(slot0, slot1, ...)
 	slot0.islandScene:emitCore(slot1, ...)
 end
 
+slot0.emitCoreController = function(slot0, slot1, ...)
+	slot0.islandScene:emitCoreController(slot1, ...)
+end
+
 slot0.CanEsc = function(slot0)
 	return true
 end
@@ -46,6 +50,10 @@ end
 
 slot0.GetPoolMgr = function(slot0)
 	return slot0.islandScene.poolMgr
+end
+
+slot0.GetPage = function(slot0, slot1)
+	return slot0.islandScene:GetPage(slot1)
 end
 
 slot0.Show = function(slot0, ...)
@@ -128,6 +136,10 @@ end
 
 slot0.ClosePage = function(slot0, slot1)
 	slot0.islandScene.sceneMgr:ClosePage(slot1)
+end
+
+slot0.DestorySubPage = function(slot0, slot1)
+	slot0.islandScene.sceneMgr:DestorySubPage(slot1)
 end
 
 slot0.AddListener = function(slot0, slot1, slot2)

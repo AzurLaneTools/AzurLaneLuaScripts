@@ -1634,7 +1634,7 @@ _G.pg.base.gametip.common_no_open = {
 
 
 _G.pg.base.gametip["common_already owned"] = {
-	tip = "보유 중"
+	tip = "획득 완료"
 }
 
 
@@ -12542,12 +12542,12 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「고리치아」, 「안드레아 도리아」 상시 건조 추가!"
+	tip = "「브륀힐드」, 「블뤼허」 상시 건조 추가!"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「아틸리오 레골로」 상시 건조 추가!"
+	tip = "「Z16」 상시 건조 추가!"
 }
 
 
@@ -41577,6 +41577,51 @@ _G.pg.base.gametip.island_help_fish = {
 }
 
 
+_G.pg.base.gametip.island_help_bar = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_bar1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_bar2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_bar3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_bar4"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
 _G.pg.base.gametip.island_skin_original_desc = {
 	tip = "기본"
 }
@@ -44033,6 +44078,46 @@ _G.pg.base.gametip.island_dress_replace_tip = {
 
 _G.pg.base.gametip.island_activity_expired = {
 	tip = "이벤트가 종료되었습니다."
+}
+
+
+_G.pg.base.gametip.island_activity_pt_point = {
+	tip = "합계 점수"
+}
+
+
+_G.pg.base.gametip.island_activity_pt_get_oneclick = {
+	tip = "일괄 수령"
+}
+
+
+_G.pg.base.gametip.island_activity_pt_jump_1 = {
+	tip = "확인"
+}
+
+
+_G.pg.base.gametip.island_activity_pt_task_reward_tip_1 = {
+	tip = "모의 전투 입문 III 도달 시 획득"
+}
+
+
+_G.pg.base.gametip.island_activity_pt_task_reward_tip_2 = {
+	tip = "모의 전투 숙련 IV 도달 시 획득"
+}
+
+
+_G.pg.base.gametip.island_activity_pt_task_reward_tip_3 = {
+	tip = "모의 전투 전문 IV 도달 시 획득"
+}
+
+
+_G.pg.base.gametip.island_activity_pt_task_reward_tip_4 = {
+	tip = "모의 전투 달인 도달 시 획득"
+}
+
+
+_G.pg.base.gametip.island_activity_pt_got_all = {
+	tip = "모든 보상을 획득했습니다."
 }
 
 
@@ -47589,7 +47674,7 @@ _G.pg.base.gametip.spring_present_tips3 = {
 
 
 _G.pg.base.gametip.aprilfool_2026_cd = {
-	tip = "쿨타임"
+	tip = "재표시 대기시간"
 }
 
 
@@ -47597,11 +47682,12 @@ _G.pg.base.gametip.purplebulin_help_2026 = {
 	tip = {
 		{
 			info = [[
-이벤트 설명:
-1. 이벤트 기간 중, 특정 화면이나 스테이지에서 해당하는 단서를 수집할 수 있습니다.
-2. 단서 수집이 어려울 경우, 단서 칸을 클릭하여 힌트를 해금할 수 있습니다.
-주의: 10분마다 하나의 힌트만 해금할 수 있습니다.
-3. 단서 수집을 완료하면 특별 스테이지가 개방되며, 특별 스테이지 도전에서 승리하면 특수 보상을 획득할 수 있습니다.]]
+플레이 방법:
+1. 이벤트 기간 중에 모항과 해역의 특정 장소에 「암호」가 나타나 푸링! 
+2. 찾지 못한 경우에는 「암호」 아이콘을 탭하면 돼 푸링! 
+ 힌트는 10분에 1개만 오픈할 수 있어 푸링! 
+3. 「암호」를 모두 모으면, 특별한 스테이지에 도전할 수 있어 푸링! 
+ 해당 스테이지를 클리어하면, 보상을 획득할 수 있어 푸링! ]]
 		}
 	}
 }
@@ -47717,4 +47803,379 @@ _G.pg.base.gametip.l2d_tip_on = {
 
 _G.pg.base.gametip.l2d_tip_off = {
 	tip = "L2D 연출 tips 기능이 OFF로 설정되었습니다."
+}
+
+
+_G.pg.base.gametip.play_room_season = {
+	tip = "시즌"
+}
+
+
+_G.pg.base.gametip.play_room_season_en = {
+	tip = "SEASON"
+}
+
+
+_G.pg.base.gametip.play_room_viewer_tip = {
+	tip = "관전 인원: $1/$2"
+}
+
+
+_G.pg.base.gametip.play_room_switch_viewer = {
+	tip = "관전 전환"
+}
+
+
+_G.pg.base.gametip.play_room_switch_player = {
+	tip = "관전 시작"
+}
+
+
+_G.pg.base.gametip.play_room_switch_tip = {
+	tip = "공개/비공개 방으로 전환하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_bar_quick_tip = {
+	tip = "방을 찾지 못했습니다. 방을 새로 생성하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.island_bar_quick_addbot = {
+	tip = "bot으로 게임을 시작하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.match_exit = {
+	tip = "플레이어 $1(이)가 매칭을 취소함에 따라 $2초 동안 대기해야 합니다."
+}
+
+
+_G.pg.base.gametip.match_point_gap = {
+	tip = "점수 차이가 너무 커서 매칭이 불가능합니다."
+}
+
+
+_G.pg.base.gametip.match_room_num_full1 = {
+	tip = "방이 한도에 도달하여 생성할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.match_room_full2 = {
+	tip = "방이 가득 차서 참여할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.match_no_search_room = {
+	tip = "방을 찾지 못했습니다."
+}
+
+
+_G.pg.base.gametip.match_ui_room_name = {
+	tip = "$1의 방"
+}
+
+
+_G.pg.base.gametip.match_ui_room_create = {
+	tip = "방 생성"
+}
+
+
+_G.pg.base.gametip.match_ui_room_search = {
+	tip = "검색"
+}
+
+
+_G.pg.base.gametip.match_ui_room_type1 = {
+	tip = "게임 중"
+}
+
+
+_G.pg.base.gametip.match_ui_room_type2 = {
+	tip = "참여"
+}
+
+
+_G.pg.base.gametip.match_ui_room_type3 = {
+	tip = "만원"
+}
+
+
+_G.pg.base.gametip.match_ui_room_type4 = {
+	tip = "비공개"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filtertitle1 = {
+	tip = "정렬"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filtertitle2 = {
+	tip = "룸"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filtertitle3 = {
+	tip = "상태"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filter1 = {
+	tip = "참가 인원"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filter2 = {
+	tip = "관전 인원"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filter3 = {
+	tip = "생성 시간"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filter4 = {
+	tip = "모든 방"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filter5 = {
+	tip = "공개"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filter6 = {
+	tip = "비공개"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filter7 = {
+	tip = "모든 상태"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filter8 = {
+	tip = "준비 중"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filter9 = {
+	tip = "시작 완료"
+}
+
+
+_G.pg.base.gametip.match_ui_room_out = {
+	tip = "룸에서 퇴장되었습니다."
+}
+
+
+_G.pg.base.gametip.match_ui_room_homeowner = {
+	tip = "방장"
+}
+
+
+_G.pg.base.gametip.match_ui_room_send = {
+	tip = "송신"
+}
+
+
+_G.pg.base.gametip.match_ui_room_ready1 = {
+	tip = "준비 완료"
+}
+
+
+_G.pg.base.gametip.match_ui_room_ready2 = {
+	tip = "준비 완료"
+}
+
+
+_G.pg.base.gametip.match_ui_room_startgame = {
+	tip = "시작"
+}
+
+
+_G.pg.base.gametip.match_ui_matching_invitation = {
+	tip = "매칭 요청"
+}
+
+
+_G.pg.base.gametip.match_ui_matching_consent = {
+	tip = "동의"
+}
+
+
+_G.pg.base.gametip.match_ui_matching_waiting1 = {
+	tip = "대기 시간: $1초"
+}
+
+
+_G.pg.base.gametip.match_ui_matching_waiting2 = {
+	tip = "매칭 중"
+}
+
+
+_G.pg.base.gametip.match_ui_matching_loading = {
+	tip = "로딩 중"
+}
+
+
+_G.pg.base.gametip.match_ui_ranking_list1 = {
+	tip = "친구"
+}
+
+
+_G.pg.base.gametip.match_ui_ranking_list2 = {
+	tip = "대함대"
+}
+
+
+_G.pg.base.gametip.match_ui_ranking_list3 = {
+	tip = "전체"
+}
+
+
+_G.pg.base.gametip.match_ui_ranking_list4 = {
+	tip = "랭크 외"
+}
+
+
+_G.pg.base.gametip.match_ui_punishment1 = {
+	tip = "매칭은 $1 후에 시작할 수 있습니다."
+}
+
+
+_G.pg.base.gametip.match_ui_punishment2 = {
+	tip = "확정"
+}
+
+
+_G.pg.base.gametip.match_ui_chat = {
+	tip = "룸"
+}
+
+
+_G.pg.base.gametip.match_ui_point_match = {
+	tip = "매칭"
+}
+
+
+_G.pg.base.gametip.match_ui_accept = {
+	tip = "확정"
+}
+
+
+_G.pg.base.gametip.match_ui_matching = {
+	tip = "매칭 중"
+}
+
+
+_G.pg.base.gametip.match_ui_point = {
+	tip = "점수 합계"
+}
+
+
+_G.pg.base.gametip.match_ui_room_list = {
+	tip = "방 목록"
+}
+
+
+_G.pg.base.gametip.match_ui_matching2 = {
+	tip = "매칭 중"
+}
+
+
+_G.pg.base.gametip.match_ui_server_unkonw = {
+	tip = "불명"
+}
+
+
+_G.pg.base.gametip.match_ui_window_out = {
+	tip = "랭크 외"
+}
+
+
+_G.pg.base.gametip.match_ui_matching_fail = {
+	tip = "매칭 가능한 플레이어가 없습니다."
+}
+
+
+_G.pg.base.gametip.bar_ui_start1 = {
+	tip = "진짜 전술"
+}
+
+
+_G.pg.base.gametip.bar_ui_start2 = {
+	tip = "진짜 전술"
+}
+
+
+_G.pg.base.gametip.bar_ui_check1 = {
+	tip = "게임으로 이동"
+}
+
+
+_G.pg.base.gametip.bar_ui_check2 = {
+	tip = "점수 합계"
+}
+
+
+_G.pg.base.gametip.bar_ui_game1 = {
+	tip = "실격 처리"
+}
+
+
+_G.pg.base.gametip.bar_ui_game3 = {
+	tip = "점수"
+}
+
+
+_G.pg.base.gametip.bar_ui_game4 = {
+	tip = "슬라이드해서 벌칙 룰렛을 돌리자"
+}
+
+
+_G.pg.base.gametip.bar_ui_end1 = {
+	tip = "퇴장"
+}
+
+
+_G.pg.base.gametip.bar_ui_end2 = {
+	tip = "관전 재개"
+}
+
+
+_G.pg.base.gametip.bar_tips_game1 = {
+	tip = "$1 이의 제기 성공"
+}
+
+
+_G.pg.base.gametip.bar_tips_game2 = {
+	tip = "$1 이의 제기 실패"
+}
+
+
+_G.pg.base.gametip.bar_tips_game3 = {
+	tip = "$1(은)는 벌칙을 받아 실격 처리되었습니다."
+}
+
+
+_G.pg.base.gametip.bar_tips_game4 = {
+	tip = "$1(은)는 벌칙을 받지 않았습니다."
+}
+
+
+_G.pg.base.gametip.bar_tips_game5 = {
+	tip = "$1(은)는 벌칙을 받았습니다."
+}
+
+
+_G.pg.base.gametip.bar_tips_game6 = {
+	tip = "게임을 중단하시겠습니까? \n도중에 게임을 중단하면 실격 처리되어, 정상적으로 점수를 획득할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.bar_tips_game7 = {
+	tip = ""
 }

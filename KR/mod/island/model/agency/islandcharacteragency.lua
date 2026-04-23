@@ -59,6 +59,20 @@ slot0.OnInit = function(slot0, slot1)
 
 		slot0.shipWearDressData[slot7.ship_id] = slot8
 	end
+
+	slot0.gameViewIDList = {}
+
+	for slot6, slot7 in ipairs(slot1.ship_sys.game_ship_list) do
+		slot0.gameViewIDList[slot7.game_type] = slot7.ship_id
+	end
+end
+
+slot0.SetMiniGameShipViewId = function(slot0, slot1, slot2)
+	slot0.gameViewIDList[slot1] = slot2
+end
+
+slot0.GetViewGameShipViewId = function(slot0, slot1)
+	return slot0.gameViewIDList[slot1]
 end
 
 slot0.CanFollowPlayer = function(slot0, slot1)

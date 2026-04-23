@@ -59579,7 +59579,7 @@ pg.equip_skin_template = {
 		preview_hit_distance = 0,
 		icon = "99141",
 		name = "옵저버 텐터클스",
-		desc = "옵저버 인기 투표 2023 특별 투표 부문 우수 기념",
+		desc = "「옵저버」 인기 투표 2023 특별 투표 부문 우수 기념",
 		ship_config_id = 100011,
 		derivate_boom = "",
 		id = 3001,
@@ -59624,6 +59624,65 @@ pg.equip_skin_template = {
 			{
 				0,
 				82
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
+	[3002] = {
+		hit_sfx = "",
+		bullet_name = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "99142",
+		name = "타워의 왕관",
+		desc = "「아비터·타워·XVI」 인기 투표 2025 - 특별 투표(세이렌) 우승 기념",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 3002,
+		themeid = 199,
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "shebei_huangguan",
+		orbit_slg = "",
+		orbit_ui = "shebei_huangguanui",
+		miss_sfx = "",
+		orbit_rotate = false,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		double_char_bone = {
+			1,
+			0,
+			1
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				0,
+				1.2,
+				-12.2
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				0,
+				370
 			}
 		},
 		orbit_hidden_action = {
@@ -59688,6 +59747,47 @@ pg.equip_skin_template = {
 		orbit_hidden_action = {
 			"sleep",
 			"wash"
+		}
+	},
+	[3007] = {
+		hit_sfx = "",
+		bullet_name = "zidan_suipian",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		icon = "99111",
+		name = "정보 주입 장치",
+		desc = "「헬레나·META」 인기 투표 2025 - 특별 투표(META) 우승 기념",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 3007,
+		themeid = 199,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "zidan_suipian_hit",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
 		}
 	},
 	[3010] = {
@@ -61693,6 +61793,47 @@ pg.equip_skin_template = {
 			"wash"
 		}
 	},
+	[3074] = {
+		hit_sfx = "",
+		bullet_name = "paodan_huweilingdang",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "99193",
+		name = "여우꼬리 방울 포탄",
+		desc = "「꼬마 시나노」 인기 투표 2025 - 특별 투표(꼬마) 우승 기념",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 3074,
+		themeid = 199,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
 	all = {
 		1,
 		2,
@@ -63170,7 +63311,9 @@ pg.equip_skin_template = {
 		2119,
 		2120,
 		3001,
+		3002,
 		3003,
+		3007,
 		3010,
 		3011,
 		3012,
@@ -63214,6 +63357,7 @@ pg.equip_skin_template = {
 		3066,
 		3067,
 		3068,
-		3069
+		3069,
+		3074
 	}
 }

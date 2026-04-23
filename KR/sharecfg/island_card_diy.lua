@@ -17,7 +17,9 @@ pg.island_card_diy = setmetatable({
 		4013,
 		4014,
 		4015,
-		4016
+		4016,
+		4017,
+		4018
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -181,5 +183,35 @@ pg.base.island_card_diy = {
 		tech_id = 0,
 		desc = "르 말랭 (이미지)",
 		jump_page = {}
+	},
+	[4017] = {
+		resource = "islandphoto/4017",
+		name = "엘리트 모의사",
+		type = 4,
+		id = 4017,
+		icon = "islandprops/card_4017",
+		tech_id = 0,
+		desc = "모의 전투의 신예에게 수여되는 인증 카드",
+		jump_page = {
+			{
+				"开发季—战术推演",
+				{}
+			}
+		}
+	},
+	[4018] = {
+		resource = "islandphoto/4018",
+		name = "에이스 모의사",
+		type = 4,
+		id = 4018,
+		icon = "islandprops/card_4018",
+		tech_id = 0,
+		desc = "모의 전투의 달인에게 수여되는 인증 카드",
+		jump_page = {
+			{
+				"开发季—战术推演",
+				{}
+			}
+		}
 	}
 }

@@ -140,16 +140,6 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "story-wanderingcity-future"
 	},
-	ActivityShop50430 = {
-		default_bgm = "story-china-0226-pv",
-		special_bgm = "",
-		bgm = "story-china-0226-pv"
-	},
-	ActivityShop50464 = {
-		default_bgm = "theme-merkuriameta",
-		special_bgm = "",
-		bgm = "theme-merkuriameta"
-	},
 	BuildShipScene = {
 		default_bgm = "main",
 		special_bgm = "",
@@ -2815,6 +2805,11 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "story-kezhan-china"
 	},
+	AprilFoolDiscovery2026Page = {
+		default_bgm = "story-dazy-style",
+		special_bgm = "",
+		bgm = "story-dazy-style"
+	},
 	YunLongSPMainPage = {
 		default_bgm = "story-wanderingcity-future",
 		special_bgm = "",
@@ -2829,11 +2824,6 @@ pg.voice_bgm = {
 		default_bgm = "story-wanderingcity-future",
 		special_bgm = "",
 		bgm = "story-wanderingcity-future"
-	},
-	AprilFoolDiscovery2026Page = {
-		default_bgm = "story-dazy-style",
-		special_bgm = "",
-		bgm = "story-dazy-style"
 	},
 	XiaoDaDiPtRePage = {
 		default_bgm = "login-orchestral-ver",
@@ -2869,5 +2859,15 @@ pg.voice_bgm = {
 		default_bgm = "story-nonightcity",
 		special_bgm = "",
 		bgm = "story-nonightcity"
+	},
+	map_xyd_bar_01 = {
+		default_bgm = "danmachi-az-story ",
+		special_bgm = "",
+		bgm = "danmachi-az-story "
+	},
+	VotingResulitAward2Page = {
+		default_bgm = "votefes-up",
+		special_bgm = "",
+		bgm = "votefes-up"
 	}
 }

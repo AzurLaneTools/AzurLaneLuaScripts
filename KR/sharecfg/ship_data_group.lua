@@ -23792,9 +23792,20 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 결상점 작전",
+				"이벤트: 결상점 작전",
 				{
 					""
+				},
+				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -25033,9 +25044,20 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 결상점 작전",
+				"이벤트: 결상점 작전",
 				{
 					""
+				},
+				0
+			},
+			{
+				"대형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -25671,9 +25693,20 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 결상점 작전",
+				"이벤트: 결상점 작전",
 				{
 					""
+				},
+				0
+			},
+			{
+				"대형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}

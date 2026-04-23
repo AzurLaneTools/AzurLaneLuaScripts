@@ -110,7 +110,7 @@ slot0.register = function(slot0)
 		uv0:SetUp()
 	end)
 	slot0:bind(uv0.SWITCH_MAP, function (slot0, slot1, slot2)
-		if not uv0.viewComponent:GetIsland():GetAblityAgency():IsUnlockMap(slot1) then
+		if not uv0.viewComponent:GetIsland():GetAblityAgency():IsUnlockMap(slot1) and slot1 ~= IslandConst.CheaterTavernMapId then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("island_lock_map_tip"))
 
 			return
@@ -174,11 +174,16 @@ slot0.listNotificationInterests = function(slot0)
 		GAME.ON_APPLICATION_PAUSE,
 		GAME.ISLAND_ON_HOME,
 		GAME.ISLAND_ON_RECONNECT,
-		GAME.ISLAND_SELECT_GIFT_DONE,
 		GAME.ISLAND_CORE_STATE_CHANGED,
 		GAME.ISLAND_TRADE_DONE,
 		IslandTradegency.WEEK_NUM_UPDATE,
-		IslandTradegency.INVITE_LIST_UPDATE
+		IslandTradegency.INVITE_LIST_UPDATE,
+		GAME.ISLAND_SELECT_GIFT_DONE,
+		GAME.PLAY_ROOM_LOAD_MINIGAME_SCENE,
+		GAME.PLAY_ROOM_ALL_LOAD_OVER,
+		GAME.PLAY_ROOM_ENTER_LOAD,
+		PlayRoomProxy.CHAT_MSG_UPDATE,
+		GAME.OPEN_FRIEND_INFO_DONE
 	}
 
 	for slot6, slot7 in ipairs(slot0:_listNotificationInterests()) do
@@ -201,6 +206,8 @@ slot0.handleNotification = function(slot0, slot1)
 		end
 	elseif slot2 == GAME.CHANGE_CHAT_ROOM_DONE then
 		slot0.viewComponent:emitCore(ISLAND_EVT.CHAT_ROOM_UPDATE)
+	elseif slot2 == GAME.OPEN_FRIEND_INFO_DONE then
+		slot0.friendInfoPosition = slot3
 	elseif slot2 == GAME.FRIEND_SEARCH_DONE and slot3.list[1] and slot3.type == SearchFriendCommand.SEARCH_TYPE_RESUME then
 		slot0:addSubLayers(Context.New({
 			viewComponent = IslandFriendInfoLayer,
@@ -229,16 +236,23 @@ slot0.handleNotification = function(slot0, slot1)
 
 		slot4 = function()
 			uv0.exitProcessing = true
+			slot1 = _IslandCore
+			slot1 = slot1:GetController()
+			uv1.id = slot1:GetIsland().id
 			slot0 = uv0.viewComponent
 
-			slot0:ExitProcess(BaseUI.ON_HOME, function ()
+			slot0:ExitProcess("", function ()
 				uv0.exitProcessing = false
 
-				pg.m02:sendNotification(GAME.ISLAND_ENTER, uv1)
+				uv0:sendNotification(GAME.ISLAND_CHANGE_ENTER, uv1)
 			end)
 		end
 
 		if _IslandCore and _IslandCore.state == IslandCore.STATE_INIT_FINISH then
+			if isa(_IslandCore, IslandMinigameCore) then
+				slot0.viewComponent:GetIsland():GetCheaterTavernAgency():SetIsConnecting(false)
+			end
+
 			slot4()
 		else
 			slot0.coreInitCallback = slot4
@@ -246,21 +260,52 @@ slot0.handleNotification = function(slot0, slot1)
 	elseif slot2 == GAME.ISLAND_SELECT_GIFT_DONE then
 		slot0.viewComponent:HandleAwardDisplay(slot3.dropData, slot3.callback, IslandAwardDisplayPage.TYPE_SIGN_GIFT)
 	elseif slot2 == GAME.ISLAND_CORE_STATE_CHANGED then
-		if slot3 == IslandCore.STATE_INIT_FINISH then
-			getProxy(IslandProxy):SetReconnectProcessing(false)
+		if slot3 == IslandCore.STATE_INIT_FINISH and slot0.coreInitCallback then
+			slot0.coreInitCallback()
 
-			if slot0.coreInitCallback then
-				slot0.coreInitCallback()
-
-				slot0.coreInitCallback = nil
-			end
+			slot0.coreInitCallback = nil
 		end
 	elseif slot2 == GAME.ISLAND_TRADE_DONE then
 		slot0.viewComponent:HandleAwardDisplay(slot3.dropData, slot3.callback)
+	elseif slot2 == GAME.PLAY_ROOM_LOAD_MINIGAME_SCENE then
+		slot0.isReconected = slot3.isReconecting
+
+		if slot0.viewComponent:GetIsland():GetMapId() ~= slot3.mapId then
+			slot0:LoadMiniGameScene(slot4)
+
+			slot0.needChangeMap = true
+		else
+			slot0.needChangeMap = false
+
+			Timer.New(function ()
+				pg.m02:sendNotification(GAME.PLAY_ROOM_LOAD_SCENE_COMPLETE)
+			end, 2, 0):Start()
+		end
+	elseif slot2 == GAME.PLAY_ROOM_ALL_LOAD_OVER then
+		slot0:ChangeMiniGameScene()
 	end
 
 	slot0:_handleNotification(slot1)
 	slot0.viewComponent:emit(slot2, slot3)
+end
+
+slot0.LoadMiniGameScene = function(slot0, slot1)
+	slot0.viewComponent:GetIsland():SetMapId(slot1)
+
+	slot0.miniGameCore = IslandMinigameCore.New(slot0.viewComponent:GetPoolMgr(), slot2, _IslandCore:GetView():GetSubView(IslandOpView) and slot4.showBalance or 0)
+
+	slot0.miniGameCore:SetIslandViewCoponent(slot0.viewComponent)
+	slot0.miniGameCore:SetIsReconected(slot0.isReconected)
+end
+
+slot0.ChangeMiniGameScene = function(slot0)
+	if slot0.needChangeMap then
+		slot0:UnloadScene()
+
+		_IslandCore = slot0.miniGameCore
+	end
+
+	_IslandCore:OnChangeMiniGameScene(slot0.needChangeMap, slot0.isReConnected)
 end
 
 slot0.SetUp = function(slot0, slot1)
@@ -284,11 +329,19 @@ slot0.UnloadScene = function(slot0, slot1)
 	slot0.viewComponent:OnUnloadScene()
 
 	if _IslandCore then
-		_IslandCore:Dispose(slot1)
+		if isa(_IslandCore, IslandMinigameCore) then
+			_IslandCore:Dispose(slot1)
 
-		_IslandCore = nil
+			_IslandCore = nil
 
-		return _IslandCore:GetView():GetSubView(IslandOpView) and slot3.showBalance or 1
+			return _IslandCore.showBalance
+		else
+			_IslandCore:Dispose(slot1)
+
+			_IslandCore = nil
+
+			return _IslandCore:GetView():GetSubView(IslandOpView) and slot3.showBalance or 1
+		end
 	end
 
 	return 1

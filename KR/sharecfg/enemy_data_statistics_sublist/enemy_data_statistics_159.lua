@@ -1092,7 +1092,7 @@ pg.enemy_data_statistics_159 = {
 	},
 	[13400017] = {
 		cannon = 1919,
-		name = "거룡 메카 「무쇠 손」",
+		name = "거룡 메카·「강철 발톱」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		id = 13400017,
@@ -1136,7 +1136,7 @@ pg.enemy_data_statistics_159 = {
 	},
 	[13400018] = {
 		cannon = 1919,
-		name = "슈퍼 AI - TC",
+		name = "슈퍼 AI-TC",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

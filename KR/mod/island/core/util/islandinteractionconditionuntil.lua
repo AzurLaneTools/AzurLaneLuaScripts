@@ -12,6 +12,7 @@ slot0.SHOW_TYPE_CAN_WILD_SIGNIN = 10
 slot0.SHOW_TYPE_ABILITY = 11
 slot0.SHOW_TYPE_TASK_TARGET = 12
 slot0.SHOW_TYPE_SELF_ABILITY = 13
+slot0.SHOW_TYPE_ACTIVITY = 14
 
 slot0.Check = function(slot0, slot1)
 	slot3 = slot1[2]
@@ -52,6 +53,9 @@ slot0.Check = function(slot0, slot1)
 		end,
 		[uv0.SHOW_TYPE_TASK_TARGET] = function ()
 			return uv0:GetTaskAgency():GetTask(uv1) and slot0:GetTargetById(uv2) and not slot0:GetTargetById(uv2):IsFinish()
+		end,
+		[uv0.SHOW_TYPE_ACTIVITY] = function ()
+			return getProxy(ActivityProxy):IsActivityNotEnd(uv0)
 		end
 	}, function ()
 		assert(false, "非法显示条件类型:" .. uv0)

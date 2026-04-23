@@ -171,7 +171,8 @@ pg.island_interaction = setmetatable({
 			2501,
 			2502,
 			2503,
-			2504
+			2504,
+			2505
 		},
 		[26] = {
 			2601,
@@ -671,6 +672,7 @@ pg.island_interaction = setmetatable({
 		2502,
 		2503,
 		2504,
+		2505,
 		2601,
 		2602,
 		2603,
@@ -2668,6 +2670,26 @@ pg.base.island_interaction = {
 			{
 				3,
 				10002290
+			}
+		}
+	},
+	[2505] = {
+		text = "모의 전투",
+		groupId = 25,
+		only_self = 0,
+		type = 6,
+		id = 2505,
+		icon = 1,
+		param = {
+			"IslandSeasonPage",
+			{
+				target_act_id = 990014
+			}
+		},
+		show_condition = {
+			{
+				14,
+				990014
 			}
 		}
 	},

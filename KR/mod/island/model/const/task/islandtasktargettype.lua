@@ -57,6 +57,8 @@ slot0.ACTION_HELLO_DAILY = 55
 slot0.TASK_DAILY_IN_WEEK = 56
 slot0.START_FISHING = 57
 slot0.FISHING = 58
+slot0.GAME_MAX_SCORE = 1001
+slot0.GAME_CUR_SCORE = 1002
 
 slot0.GetRuntimeTypes = function()
 	return {
@@ -82,7 +84,9 @@ slot0.GetRuntimeTypes = function()
 		uv0.ACTIVITY_ORDER,
 		uv0.ORDER_DAILY,
 		uv0.ACTION_HELLO_DAILY,
-		uv0.TASK_DAILY_IN_WEEK
+		uv0.TASK_DAILY_IN_WEEK,
+		uv0.GAME_MAX_SCORE,
+		uv0.GAME_CUR_SCORE
 	}
 end
 

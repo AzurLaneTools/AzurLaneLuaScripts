@@ -76,6 +76,10 @@ slot0.OnFirstFlush = function(slot0)
 					end)
 				end
 			end, SFX_PANEL)
+
+			if slot1 == 1 then
+				triggerToggle(slot2, true)
+			end
 		end
 	end)
 

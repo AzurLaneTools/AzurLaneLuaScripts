@@ -8,8 +8,16 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0.loadingCallbacks = {}
 end
 
+slot0.SetInstanceDestroyPreProcessor = function(slot0, slot1)
+	slot0.instanceDestroyPreProcessor = slot1
+end
+
 slot0.CreatePool = function(slot0, slot1, slot2)
-	return IslandObjectPool.New(slot0.root, slot1, slot2, slot0.poolCapacity)
+	slot3 = IslandObjectPool.New(slot0.root, slot1, slot2, slot0.poolCapacity)
+
+	slot3:SetInstanceDestroyPreProcessor(slot0.instanceDestroyPreProcessor)
+
+	return slot3
 end
 
 slot0.GetPool = function(slot0, slot1, slot2)
@@ -47,8 +55,9 @@ slot0.GetObject = function(slot0, slot1, slot2, slot3)
 		uv0:CheckOverFlow(uv1)
 
 		slot0 = {}
+		uv0.loadingCallbacks[uv1.key] = {}
 
-		for slot4, slot5 in ipairs(uv0.loadingCallbacks[uv1.key]) do
+		for slot5, slot6 in ipairs(Clone(uv0.loadingCallbacks[uv1.key])) do
 			table.insert(slot0, function (slot0)
 				slot1 = uv0
 
@@ -60,13 +69,12 @@ slot0.GetObject = function(slot0, slot1, slot2, slot3)
 		end
 
 		parallelAsync(slot0)
-
-		uv0.loadingCallbacks[uv1.key] = {}
 	end)
 end
 
 slot0.ReturnObject = function(slot0, slot1, slot2)
 	if not slot0:RawGetPool(slot1) then
+		existCall(slot0.instanceDestroyPreProcessor, slot2)
 		Object.Destroy(slot2)
 
 		return
