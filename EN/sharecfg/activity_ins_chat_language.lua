@@ -9032,6 +9032,84 @@ pg.activity_ins_chat_language = setmetatable({
 		9029,
 		9030,
 		9031,
+		9032,
+		9033,
+		9034,
+		9035,
+		9036,
+		9037,
+		9038,
+		9039,
+		9040,
+		9041,
+		9042,
+		9043,
+		9044,
+		9045,
+		9046,
+		9047,
+		9048,
+		9049,
+		9050,
+		9051,
+		9052,
+		9053,
+		9054,
+		9055,
+		9056,
+		9057,
+		9058,
+		9059,
+		9060,
+		9061,
+		9062,
+		9063,
+		9064,
+		9065,
+		9066,
+		9067,
+		9068,
+		9069,
+		9070,
+		9071,
+		9072,
+		9073,
+		9074,
+		9075,
+		9076,
+		9077,
+		9078,
+		9079,
+		9080,
+		9081,
+		9082,
+		9083,
+		9084,
+		9085,
+		9086,
+		9087,
+		9088,
+		9089,
+		9090,
+		9091,
+		9092,
+		9093,
+		9094,
+		9095,
+		9096,
+		9097,
+		9098,
+		9099,
+		9100,
+		9101,
+		9102,
+		9103,
+		9104,
+		9105,
+		9106,
+		9107,
+		9108,
+		9109,
 		9110,
 		9111,
 		9112,
@@ -88940,6 +89018,680 @@ pg.base.activity_ins_chat_language = {
 		type = 1,
 		id = 9031,
 		flag = 2
+	},
+	[9032] = {
+		param = "Commandeeer!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9032,
+		flag = 0
+	},
+	[9033] = {
+		param = "I finished organizing all the files on your desk~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9033,
+		flag = 0
+	},
+	[9034] = {
+		param = "Plus, I gave your office a thorough cleaning from top to bottom.",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9034,
+		flag = 0
+	},
+	[9035] = {
+		param = "That really wore me out~",
+		ship_group = 10601,
+		type = 1,
+		id = 9035,
+		flag = 0,
+		option = {
+			{
+				1,
+				"That's rare..."
+			}
+		}
+	},
+	[9036] = {
+		param = "That's rare. I've never seen you take work seriously.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9036,
+		flag = 1
+	},
+	[9037] = {
+		param = "That's not all~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9037,
+		flag = 1
+	},
+	[9038] = {
+		param = "To make sure you really noticed my effort...",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9038,
+		flag = 1
+	},
+	[9039] = {
+		param = "I'm packing up a bunch of soda, chips, cup ramen, and games from my place.",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9039,
+		flag = 1
+	},
+	[9040] = {
+		param = "Once I'm ready, I'm gonna move it all to your office!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9040,
+		flag = 1
+	},
+	[9041] = {
+		param = "I'll be the ghost haunting your office for a while~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9041,
+		flag = 1
+	},
+	[9042] = {
+		param = "You can tell me to stay all night and work with you, and I'll be just fine~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9042,
+		flag = 1
+	},
+	[9043] = {
+		param = "That is... if you can even see me!",
+		ship_group = 10601,
+		type = 1,
+		id = 9043,
+		flag = 1,
+		option = {
+			{
+				2,
+				"I appreciate the thought..."
+			}
+		}
+	},
+	[9044] = {
+		param = "I appreciate the thought... but something's bothering me about this.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9044,
+		flag = 2
+	},
+	[9045] = {
+		param = "Don't be silly!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9045,
+		flag = 2
+	},
+	[9046] = {
+		param = "I'm a friendly ghost, so I'm nice to humans sometimes.",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9046,
+		flag = 2
+	},
+	[9047] = {
+		param = "It's not like I'm doing this because this game I've really been looking forward to just came out, or anything.",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9047,
+		flag = 2
+	},
+	[9048] = {
+		param = "And it's DEFINITELY not because I want to buy that new deluxe console release to play it at the highest quality!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9048,
+		flag = 2
+	},
+	[9049] = {
+		param = "Sniffle... I'm going way over this month's budget so I can get one of the first-edition units...",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9049,
+		flag = 2
+	},
+	[9050] = {
+		param = "But if you're interested, now's the perfect time to get into the series~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9050,
+		flag = 2
+	},
+	[9051] = {
+		param = "I'll show you all about the franchise~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9051,
+		flag = 2
+	},
+	[9052] = {
+		param = "And if you get into it... we can go halfsies on the console!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9052,
+		flag = 2
+	},
+	[9053] = {
+		param = "Then I won't have to go over budget~",
+		ship_group = 10601,
+		type = 1,
+		id = 9053,
+		flag = 2,
+		option = {
+			{
+				3,
+				"Okay, but what about work?"
+			}
+		}
+	},
+	[9054] = {
+		param = "Okay, but what about work?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9054,
+		flag = 3
+	},
+	[9055] = {
+		param = "That can wait~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9055,
+		flag = 3
+	},
+	[9056] = {
+		param = "I finished packing, so I'm on my way now~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9056,
+		flag = 3
+	},
+	[9057] = {
+		param = "Have fun being haunted for a while, Commander!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9057,
+		flag = 3
+	},
+	[9058] = {
+		param = "I'm sleepy...",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9058,
+		flag = 0
+	},
+	[9059] = {
+		param = "Whenever I try to sleep lately, I end up thinking about you...",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9059,
+		flag = 0
+	},
+	[9060] = {
+		param = "Take responsibility, Commander.",
+		ship_group = 10601,
+		type = 1,
+		id = 9060,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Why?"
+			}
+		}
+	},
+	[9061] = {
+		param = "Why?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9061,
+		flag = 1
+	},
+	[9062] = {
+		param = "Because our game the other day ended in a draw, duh!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9062,
+		flag = 1
+	},
+	[9063] = {
+		param = "I'm THE L.I., a famous player among all the gamer circles!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9063,
+		flag = 1
+	},
+	[9064] = {
+		param = "All five of the top spots on the leaderboards for that game are occupied by me!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9064,
+		flag = 1
+	},
+	[9065] = {
+		param = "I thought you were just a normal noob...",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9065,
+		flag = 1
+	},
+	[9066] = {
+		param = "But you mastered the game in no time.",
+		ship_group = 10601,
+		type = 1,
+		id = 9066,
+		flag = 1,
+		option = {
+			{
+				2,
+				"It must be because it's a strategy game."
+			}
+		}
+	},
+	[9067] = {
+		param = "It must be because it's a strategy game.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9067,
+		flag = 2
+	},
+	[9068] = {
+		param = "Even if it is you, I can't believe you got as good as me in just thirty minutes...",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9068,
+		flag = 2
+	},
+	[9069] = {
+		param = "You've wounded my pride as a veteran player!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9069,
+		flag = 2
+	},
+	[9070] = {
+		param = "So I've been trying to figure out your weaknesses.",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9070,
+		flag = 2
+	},
+	[9071] = {
+		param = "I've been studying hard every day on how to master the preparation and timing of my moves, too.",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9071,
+		flag = 2
+	},
+	[9072] = {
+		param = "Now I've drilled the perfect technique into myself!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9072,
+		flag = 2
+	},
+	[9073] = {
+		param = "Next time, I'm NOT losing!",
+		ship_group = 10601,
+		type = 1,
+		id = 9073,
+		flag = 2,
+		option = {
+			{
+				3,
+				"Really?"
+			}
+		}
+	},
+	[9074] = {
+		param = "Really? Then tell me just how incredible you are.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9074,
+		flag = 3
+	},
+	[9075] = {
+		param = "Heh, don't get too scared when you hear this.",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9075,
+		flag = 3
+	},
+	[9076] = {
+		param = "The micro-management is really complex, so one key to success is how good at navigating the menus you are.",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9076,
+		flag = 3
+	},
+	[9077] = {
+		param = "For example, when you're ready for the surprise attack, you have to deploy your troops really fast in a wide area...",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9077,
+		flag = 3
+	},
+	[9078] = {
+		param = "Wait, are you gathering intel on my strategies right now?",
+		ship_group = 10601,
+		type = 1,
+		id = 9078,
+		flag = 3,
+		option = {
+			{
+				4,
+				"You got me."
+			}
+		}
+	},
+	[9079] = {
+		param = "You got me.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9079,
+		flag = 4
+	},
+	[9080] = {
+		param = "Gah! I can't let my guard down around you at all!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9080,
+		flag = 4
+	},
+	[9081] = {
+		param = "But even if you know that much, you still can't beat me!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9081,
+		flag = 4
+	},
+	[9082] = {
+		param = "You'll experience what REALLY makes this technique so good next time we play!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9082,
+		flag = 4
+	},
+	[9083] = {
+		param = "I'll be waiting for your next day off~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9083,
+		flag = 4
+	},
+	[9084] = {
+		param = "66",
+		ship_group = 10601,
+		option = "",
+		type = 4,
+		id = 9084,
+		flag = 4
+	},
+	[9085] = {
+		param = "So, you know how I keep being short on funds?",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9085,
+		flag = 0
+	},
+	[9086] = {
+		param = "I thought of this really great idea~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9086,
+		flag = 0
+	},
+	[9087] = {
+		param = "Basically... I'll make model kits and sell them!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9087,
+		flag = 0
+	},
+	[9088] = {
+		param = "If my series becomes popular, my money problems will be solved in no time!",
+		ship_group = 10601,
+		type = 1,
+		id = 9088,
+		flag = 0,
+		option = {
+			{
+				1,
+				"That's a good idea..."
+			}
+		}
+	},
+	[9089] = {
+		param = "That's a good idea. Do you need any logistical help?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9089,
+		flag = 1
+	},
+	[9090] = {
+		param = "I've been building these babies for years, and I'm basically an industry insider.",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9090,
+		flag = 1
+	},
+	[9091] = {
+		param = "I've already got the mass production figured out~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9091,
+		flag = 1
+	},
+	[9092] = {
+		param = "But...",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9092,
+		flag = 1
+	},
+	[9093] = {
+		param = "I have no idea how to design them!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9093,
+		flag = 1
+	},
+	[9094] = {
+		param = "What kinds of models are popular?",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9094,
+		flag = 1
+	},
+	[9095] = {
+		param = "I don't know how to tell!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9095,
+		flag = 1
+	},
+	[9096] = {
+		param = "322",
+		ship_group = 10601,
+		type = 4,
+		id = 9096,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Why don't you start by..."
+			}
+		}
+	},
+	[9097] = {
+		param = "Why don't you start by looking at what's popular now and identifying design elements that resonate with the market?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9097,
+		flag = 2
+	},
+	[9098] = {
+		param = "Are you saying I should determine my design direction first?",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9098,
+		flag = 2
+	},
+	[9099] = {
+		param = "That might just work!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9099,
+		flag = 2
+	},
+	[9100] = {
+		param = "Hmm... What's trendy at port right now?",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9100,
+		flag = 2
+	},
+	[9101] = {
+		param = "Oh, I think I have the perfect idea!",
+		ship_group = 10601,
+		type = 1,
+		id = 9101,
+		flag = 2,
+		option = {
+			{
+				3,
+				"Yeah? Let's hear it."
+			}
+		}
+	},
+	[9102] = {
+		param = "Yeah? Let's hear it.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9102,
+		flag = 3
+	},
+	[9103] = {
+		param = "I'll start by making a Commander Mecha series!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9103,
+		flag = 3
+	},
+	[9104] = {
+		param = "The main attractions will be cool robot models, but you'll be piloting them.",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9104,
+		flag = 3
+	},
+	[9105] = {
+		param = "Maybe my designs won't match up to the big players, sure...",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9105,
+		flag = 3
+	},
+	[9106] = {
+		param = "But if they come with miniature figures of you as a pilot, then I'm sure they'll sell out in no time!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9106,
+		flag = 3
+	},
+	[9107] = {
+		param = "This is gonna be huge!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9107,
+		flag = 3
+	},
+	[9108] = {
+		param = "Are you free right now, Commander? Can we talk details for a while?",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9108,
+		flag = 3
+	},
+	[9109] = {
+		param = "Maybe I could even try to give them a transformation feature...",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9109,
+		flag = 3
 	},
 	[9110] = {
 		param = "How could this have happened?",

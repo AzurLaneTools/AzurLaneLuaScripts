@@ -1,7 +1,8 @@
 slot0 = class("SummerFeastNavigationAgent", require("view.main.NavalAcademyStudent"))
 
-slot0.Ctor = function(slot0, slot1)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.onTransEdge = nil
+	slot0.needOneScale = slot2
 
 	uv0.super.Ctor(slot0, slot1)
 end
@@ -11,6 +12,7 @@ end
 
 slot0.normalSpeed = 15
 slot0.normalScale = 0.5
+slot0.oneScale = 1
 
 slot0.SetOnTransEdge = function(slot0, slot1)
 	slot0.onTransEdge = slot1
@@ -86,10 +88,17 @@ slot0.updateLogic = function(slot0)
 			slot0.posTable[slot0.currentPoint.id] = nil
 		end
 
-		slot0._tf.localScale = (slot1.scale or uv0.normalScale) * Vector2.one
-		slot5 = slot0.pathFinder:getEdge(slot1, slot2)
+		slot5 = slot1.scale or uv0.normalScale
 
-		LeanTween.value(slot0._go, 0, 1, slot4):setOnUpdate(System.Action_float(function (slot0)
+		if slot0.needOneScale then
+			slot5 = slot0.oneScale
+		end
+
+		slot0._tf.localScale = slot5 * Vector2.one
+		slot6 = slot0.pathFinder
+		slot6 = slot6:getEdge(slot1, slot2)
+		slot7 = LeanTween.value(slot0._go, 0, 1, slot4)
+		slot7 = slot7:setOnUpdate(System.Action_float(function (slot0)
 			slot1 = nil
 			uv1._tf.anchoredPosition = (not uv0 or not uv0.bezier_control_point or uv2.GetBeziersPoints(uv3, uv4, uv1.pathFinder:getPoint(uv0.bezier_control_point), slot0)) and Vector2.Lerp(uv3, uv4, slot0)
 			slot2 = math.lerp(uv3.scale or uv2.normalScale, uv4.scale or uv2.normalScale, slot0) * Vector2.one
@@ -103,9 +112,15 @@ slot0.updateLogic = function(slot0)
 				slot3 = math.sign(uv3.fixedDirection)
 			end
 
+			if uv1.needOneScale then
+				slot2 = uv1.oneScale * Vector2.one
+			end
+
 			slot2.x = math.abs(slot2.x) * slot3
 			uv1._tf.localScale = slot2
-		end)):setOnComplete(System.Action(function ()
+		end))
+
+		slot7:setOnComplete(System.Action(function ()
 			uv0.currentPoint = uv0.targetPoint
 			slot0 = uv0.currentPoint.id
 			slot1 = uv0.currentPoint.nexts

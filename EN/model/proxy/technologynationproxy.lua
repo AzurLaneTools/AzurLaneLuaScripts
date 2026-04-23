@@ -495,17 +495,7 @@ slot0.printNationPointLog = function(slot0)
 		slot6 = slot4 .. " :"
 
 		for slot10, slot11 in ipairs(slot5) do
-			slot12 = slot11.id
-			slot13 = slot11:getNation()
-			slot14 = nil
-
-			for slot18 = 4, 1, -1 do
-				if pg.ship_data_statistics[tonumber(slot12 .. slot18)] then
-					slot14 = pg.ship_data_statistics[tonumber(slot12 .. slot18)].nationality
-				end
-			end
-
-			slot6 = slot6 .. tostring(slot12) .. " " .. tostring(slot13) .. " " .. tostring(slot14) .. "||"
+			slot6 = slot6 .. tostring(slot11.id) .. " " .. tostring(slot11:getNation()) .. "||"
 		end
 
 		print(slot6)

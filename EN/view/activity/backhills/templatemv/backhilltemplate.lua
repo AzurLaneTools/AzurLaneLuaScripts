@@ -65,7 +65,7 @@ slot0.InitStudents = function(slot0, slot1, slot2, slot3)
 		if not slot0.academyStudents[slot11] then
 			slot13 = cloneTplTo(slot0._shipTpl, slot0._map)
 			slot13.gameObject.name = slot11
-			slot15 = SummerFeastNavigationAgent.New(slot13.gameObject)
+			slot15 = SummerFeastNavigationAgent.New(slot13.gameObject, true)
 
 			slot15:attach()
 			slot15:setPathFinder(slot0.graphPath)

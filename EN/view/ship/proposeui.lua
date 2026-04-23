@@ -1134,7 +1134,7 @@ slot0.loadChar = function(slot0, slot1, slot2, slot3)
 
 				uv0.actorPainting = slot0
 
-				ShipExpressionHelper.SetExpression(uv0.actorPainting, uv0.paintingName)
+				ShipExpressionHelper.SetExpression(uv0.actorPainting, uv0.paintingName, uv0.shipVO.propose and "propose" or nil)
 				uv1()
 			end)
 

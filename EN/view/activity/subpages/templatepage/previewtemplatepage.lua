@@ -37,13 +37,6 @@ slot0.initBtn = function(slot0)
 				})
 			end)
 		end,
-		academy = function (slot0)
-			onButton(uv0, slot0, function ()
-				uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.NAVALACADEMYSCENE, {
-					page = "activity"
-				})
-			end)
-		end,
 		shop = function (slot0)
 			onButton(uv0, slot0, function ()
 				if not uv0.shopLinkActID or not getProxy(ActivityProxy):getActivitiesById(uv0.shopLinkActID) then
@@ -81,13 +74,17 @@ slot0.initBtn = function(slot0)
 		end,
 		fight = function (slot0)
 			onButton(uv0, slot0, function ()
-				if uv0.fightLinkActID and uv1(uv0.fightLinkActID) then
+				if uv0.fightLinkActID and uv1(slot0) then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 					return
 				end
 
-				uv2:emit(ActivityMediator.BATTLE_OPERA)
+				if slot0 then
+					uv2:emit(ActivityMediator.SKIP_ACTIVITY_MAP, slot0)
+				else
+					uv2:emit(ActivityMediator.BATTLE_OPERA)
+				end
 			end)
 		end,
 		lottery = function (slot0)

@@ -3053,6 +3053,119 @@ pg.mini_game = {
 		},
 		config_data = {}
 	},
+	[86] = {
+		is_ranking = 0,
+		view_name = "DOAPPMiniGameView",
+		game_room = 0,
+		type = 2,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_data = "",
+		name = "Butt Battle",
+		config_csv = "",
+		id = 86,
+		hub_id = 75,
+		request_data = 0,
+		simple_config_data = {
+			drop = {
+				{
+					8,
+					66018,
+					150
+				},
+				{
+					8,
+					66018,
+					150
+				},
+				{
+					21,
+					10980,
+					1
+				},
+				{
+					8,
+					66018,
+					150
+				},
+				{
+					8,
+					66018,
+					150
+				},
+				{
+					8,
+					66018,
+					150
+				},
+				{
+					21,
+					10960,
+					1
+				}
+			}
+		}
+	},
+	[87] = {
+		is_ranking = 0,
+		view_name = "VolleyballGameView",
+		game_room = 0,
+		type = 2,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_data = "",
+		name = "Volleyball Scrimmage",
+		config_csv = "",
+		id = 87,
+		hub_id = 76,
+		request_data = 0,
+		simple_config_data = {
+			story = {
+				{
+					"JIARIHANGXIANRICHANG1"
+				},
+				{},
+				{
+					"JIARIHANGXIANRICHANG2"
+				},
+				{},
+				{
+					"JIARIHANGXIANRICHANG3"
+				},
+				{},
+				{
+					"JIARIHANGXIANRICHANG4"
+				}
+			},
+			mainChar = {
+				1,
+				6,
+				3,
+				4,
+				5,
+				2,
+				7
+			},
+			minorChar = {
+				2,
+				1,
+				2,
+				5,
+				6,
+				7,
+				4
+			},
+			endScore = {
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5
+			}
+		}
+	},
 	[1001] = {
 		is_ranking = 0,
 		view_name = "GameRoomFushun3View",
@@ -3710,6 +3823,8 @@ pg.mini_game = {
 		81,
 		82,
 		83,
+		86,
+		87,
 		1001,
 		1002,
 		1003,

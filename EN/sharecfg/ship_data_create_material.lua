@@ -235,6 +235,25 @@ pg.ship_data_create_material = {
 			"Common: 30%"
 		}
 	},
+	{
+		use_gold = 1500,
+		name = "Limited Build",
+		build_anim = "building",
+		type = 2,
+		ship_icon = "1",
+		build_voice = "",
+		use_item = 20001,
+		number_1 = 2,
+		id = 12,
+		icon = "build_12",
+		exchange_count = 2,
+		rate_tip = {
+			"<color=#ffde38>Super Rare</color>: 7%",
+			"<color=#d797ff>Elite</color>: 12%",
+			"<color=#3dc6ff>Rare</color>: 51%",
+			"Common: 30%"
+		}
+	},
 	all = {
 		1,
 		2,
@@ -246,6 +265,7 @@ pg.ship_data_create_material = {
 		8,
 		9,
 		10,
-		11
+		11,
+		12
 	}
 }

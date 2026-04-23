@@ -8,15 +8,7 @@ slot0.GetGroupConfig = function(slot0)
 end
 
 slot0.getDefaultShipConfig = function(slot0)
-	slot1 = nil
-
-	for slot5 = 4, 1, -1 do
-		if pg.ship_data_statistics[tonumber(slot0 .. slot5)] then
-			break
-		end
-	end
-
-	return slot1
+	return pg.ship_data_statistics[slot0 * 10 + 1]
 end
 
 slot0.getDefaultShipNameByGroupID = function(slot0)

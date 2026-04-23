@@ -294,6 +294,12 @@ pg.activity_banner_notice = {
 			}
 		}
 	},
+	{
+		id = 36,
+		param = {
+			"scene activity"
+		}
+	},
 	all = {
 		1,
 		2,
@@ -329,6 +335,7 @@ pg.activity_banner_notice = {
 		32,
 		33,
 		34,
-		35
+		35,
+		36
 	}
 }

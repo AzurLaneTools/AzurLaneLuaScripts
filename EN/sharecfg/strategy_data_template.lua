@@ -366,6 +366,7 @@ pg.strategy_data_template = setmetatable({
 		201707,
 		201741,
 		201742,
+		201743,
 		205001,
 		205002,
 		205003,
@@ -4601,6 +4602,25 @@ The following gear or skills are rendered ineffective:
 		iconSize = "",
 		buff_type = 0,
 		id = 201742,
+		icon = "200908",
+		arg = {}
+	},
+	[201743] = {
+		buff_id = 0,
+		name = "Challenge Mode",
+		desc = [[
+When any boss is defeated, the other will enter Fever status, <color=#ffc038>altering its attack patterns and significantly increasing its DMG dealt</color>.
+- Hard Mode Details -
+Enemy DMG dealt is <color=#ffc038>significantly increased</color>. Large enemy shells cannot be nullified by airstrikes or shields.
+The hitbox of your Vanguard fleet is <color=#92fc63>limited to only the frontmost ship, and the size of the hitbox is also significantly reduced</color>.
+When your ship is hit, it will become invulnerable for a short period of time.
+
+The following gear or skills are rendered ineffective:
+[Fiercer When Cornered], [Operation Rainbow], [Eleventh Hour], [I Will Not Yield!]]],
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201743,
 		icon = "200908",
 		arg = {}
 	},

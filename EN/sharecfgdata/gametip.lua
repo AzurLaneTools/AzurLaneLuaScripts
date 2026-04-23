@@ -16675,7 +16675,7 @@ _G.pg.base.gametip.doa_collection = {
 			info = "- Character Likes Overview -"
 		},
 		{
-			info = "You can learn more about the Venus cast by participating in the event and completing tasks.\nBy collecting all 18 character likes you'll receive the Venus Vacation Statue as well as 3 Venus Vacation gear skin boxes. (The Vacation Statue can only be obtained once.)"
+			info = "You can learn more about the Venus cast by participating in the event and completing tasks.\nBy collecting all 18 character likes, you'll receive the Venus Vacation Statue as well as 3 Venus Vacation gear skin boxes. (The Venus Vacation Statue can only be obtained once.)"
 		},
 		{
 			info = "- Unlocking Character Likes -"
@@ -16689,7 +16689,7 @@ There are a few different ways to unlock character likes, which vary from charac
 · Playing the Volleyball Scrimmage minigame
 · Playing the Butt Battle minigame
 
-Milestone rewards for collecting character likes remain claimable up to May 17th, 11:59 PM. (UTC-7).]]
+Milestone rewards for collecting character likes remain claimable up to May 7th, 11:59 PM.]]
 		}
 	}
 }
@@ -20723,27 +20723,22 @@ _G.pg.base.gametip.hunter_npc = {
 _G.pg.base.gametip.venusvolleyball_help = {
 	tip = {
 		{
+			info = "- Volleyball Scrimmage Overview -"
+		},
+		{
+			info = "Play the Volleyball Scrimmage minigame to receive rewards. Upon completing all 7 of the initially unlocked matches to earn the limited gear, <color=#92fc63>Awakening Pearl</color>."
+		},
+		{
+			info = "- How to Play -"
+		},
+		{
 			info = [[
-Event Rules:
-1. <color=#92fc63>A new match</color> will become available every day until
-<color=#92fc63>5/3</color> at midnight, up to a total of <color=#92fc63>7</color> matches. 
-Complete all the matches to earn the limited gear, <color=#92fc63>"Venus Awakening Gem,"</color>as well as
-the following item-<color=#92fc63>"Favorite Food (Monica)"</color>.
-2. Tap to start the game and choose two characters to enter the match.
-The match will conclude when either side scores <color=#92fc63>5</color> points.
-3. A timing circle will appear when it's the player's turn to hit the ball.
-Tap anywhere on the screen at the proper time to hit the ball.
-4. When the timing circle is between the outer and inner scoring circles,
-a "Good" rating will be given. When the timing circle is tapped within the
-inner scoring circle, a "Perfect" rating will be given.
-If the screen is not tapped, or tapped before the timing circle
-is allowed to retract, a "Miss" rating will be given.
-A "Miss" will result in the other side scoring.
-A Good or Perfect rating counts as a successful receive.
-5. If all matches have been unlocked, you may can repeat
-the match on the same day. After completing all the matches,
-Free Play will be unlocked, allowing players to freely select
-their desired character to play with.]]
+Tap the Start Game button and choose two characters to enter the match.
+In the scrimmage, members will automatically navigate the court. Tap the screen at the right time to successfully serve or return the ball.
+The match will conclude when either side scores 5 points.
+· Team members cannot be changed during a match.
+· Matches can be replayed freely every day.
+· After completing all the matches, the Free Play mode will be unlocked. You may change your team members freely.]]
 		}
 	}
 }
@@ -20770,7 +20765,7 @@ _G.pg.base.gametip.doa_main = {
 			info = "- Vacation Resort Overview -"
 		},
 		{
-			info = "The Vacation Resort acts as a hub to quickly jump to all features of the Vacation Lane event."
+			info = "The Vacation Resort acts as a hub to quickly jump to all features of the Vacation Lane Rerun event."
 		},
 		{
 			info = "These include:"
@@ -20794,13 +20789,13 @@ _G.pg.base.gametip.doa_main = {
 			info = "· Commemorative Medal: \nComplete different tasks to unlock character likes. Unlock all of them to receive the Venus Vacation Statue."
 		},
 		{
-			info = "· Butt Battle: \nA new minigame. Play over 7 days to receive Luna's Augment Module \"\"Roasted Sweet Potato\"\" and Tamaki's Augment Module \"\"Macaroon\"\"."
+			info = "· Butt Battle: \nA rerun minigame. Complete 7 stages to receive Luna's Augment Module \"Roasted Sweet Potato\" and Tamaki's Augment Module \"Macaroon\"."
 		},
 		{
-			info = "· Volleyball Scrimmage: \nA rerun minigame. Play over 7 days to receive a piece of unique gear, the Venus Awakening Gem."
+			info = "· Volleyball Scrimmage: \nA rerun minigame. Complete 7 matches to earn the limited gear, Awakening Pearl."
 		},
 		{
-			info = "Additionally, special commissions will appear during the event period. These exist separately to ordinary commissions, but yield rewards all the time. You can accept these special commissions up until May 17th, 11:59 PM. (UTC-7)."
+			info = "Additionally, special commissions will appear during the event period. These exist separately from ordinary commissions, but yield rewards all the time. You can accept these special commissions up until May 1st, 11:59 PM."
 		}
 	}
 }
@@ -24611,7 +24606,7 @@ _G.pg.base.gametip.Settings_title_Redeem_input_submit = {
 
 
 _G.pg.base.gametip.Settings_title_Redeem_input_placeholder = {
-	tip = "Only accepts alphanumeric characters"
+	tip = "Please enter your gift code."
 }
 
 
@@ -26602,7 +26597,7 @@ Event Rules:
 
 
 _G.pg.base.gametip.eventshop_time_hint = {
-	tip = "Available till $1"
+	tip = "Exchange available until $1, 11:59 PM."
 }
 
 
@@ -48816,4 +48811,59 @@ _G.pg.base.gametip.bar_tips_game6 = {
 
 _G.pg.base.gametip.bar_tips_game7 = {
 	tip = "Would you like to quit the match?"
+}
+
+
+_G.pg.base.gametip.exchange_code_tip = {
+	tip = "Redeeming for the following items:\n"
+}
+
+
+_G.pg.base.gametip.exchange_code_skin = {
+	tip = "<color=#FF4A45>You already own this Skin. It will be automatically exchanged for Gems.</color>"
+}
+
+
+_G.pg.base.gametip.exchange_code_error_16 = {
+	tip = "This account has reached the redemption limit."
+}
+
+
+_G.pg.base.gametip.exchange_code_error_12 = {
+	tip = "Please wait and try again."
+}
+
+
+_G.pg.base.gametip.exchange_code_error_9 = {
+	tip = "Invalid gift code."
+}
+
+
+_G.pg.base.gametip.exchange_code_error_20 = {
+	tip = "This gift code does not exist."
+}
+
+
+_G.pg.base.gametip.exchange_code_error_6 = {
+	tip = "This gift code cannot be used anymore."
+}
+
+
+_G.pg.base.gametip.exchange_code_error_7 = {
+	tip = "This gift code has already been used."
+}
+
+
+_G.pg.base.gametip.exchange_code_before_time = {
+	tip = "This gift code is not currently active."
+}
+
+
+_G.pg.base.gametip.exchange_code_after_time = {
+	tip = "This gift code has expired."
+}
+
+
+_G.pg.base.gametip.exchange_code_skin_tip = {
+	tip = "Skin"
 }
