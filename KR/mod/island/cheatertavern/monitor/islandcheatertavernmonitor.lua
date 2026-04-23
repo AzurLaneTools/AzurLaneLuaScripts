@@ -27,10 +27,19 @@ slot0.register = function(slot0)
 			end
 		end
 
-		onNextTick(function ()
-			uv0:StartCheaterTevernGame(uv1)
-			uv0:InitPlayerDate(uv1)
-		end)
+		uv0.cheaterTavernAgency:SetStartGameData(slot0)
+
+		if uv0.cheaterTavernAgency:IsUILoadOver() then
+			uv0:StartCheaterTevernGame(slot0)
+			uv0:InitPlayerDate(slot0)
+		else
+			slot1 = uv0.cheaterTavernAgency
+
+			slot1:AddCacheFunc(function ()
+				uv0:StartCheaterTevernGame(uv1)
+				uv0:InitPlayerDate(uv1)
+			end)
+		end
 	end)
 	slot0:on(23102, function (slot0)
 		if not uv0.cheaterTavernAgency:IsConnecting() then
@@ -44,7 +53,15 @@ slot0.register = function(slot0)
 			return
 		end
 
-		uv0:PlayOperateHandle(slot0)
+		if uv0.cheaterTavernAgency:IsUILoadOver() then
+			uv0:PlayOperateHandle(slot0)
+		else
+			slot1 = uv0.cheaterTavernAgency
+
+			slot1:AddCacheFunc(function ()
+				uv0:PlayOperateHandle(uv1)
+			end)
+		end
 	end)
 	slot0:on(23108, function (slot0)
 		if not uv0.cheaterTavernAgency:IsConnecting() then
@@ -122,9 +139,6 @@ slot0.Init = function(slot0)
 end
 
 slot0.StartCheaterTevernGame = function(slot0, slot1)
-	slot2 = slot0.cheaterTavernAgency
-
-	slot2:SetStartGameData(slot1)
 	pg.m02:sendNotification(GAME.ISLAND_CHEATER_FIRSTROND_START, {
 		operation = {
 			user_id = slot1.user_id,

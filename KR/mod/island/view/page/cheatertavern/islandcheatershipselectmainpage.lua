@@ -2,16 +2,47 @@ slot0 = class("IslandCheaterShipSelectMainPage", import("..ship.IslandShipMainPa
 
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
+	onButton(slot0, slot0.backBtn, function ()
+		if uv0.childPage then
+			slot0 = uv0.childPage
+
+			slot0:CheckInReturn(function ()
+				if uv0.needLoadingUI then
+					slot0 = pg.SceneAnimMgr.GetInstance()
+
+					slot0:CommonSceneChange("Dorm3DLoading", function (slot0)
+						uv0:Hide()
+
+						uv0.childPage = nil
+
+						slot0()
+					end)
+				else
+					uv0:Hide()
+				end
+			end)
+		elseif uv0.needLoadingUI then
+			slot0 = pg.SceneAnimMgr.GetInstance()
+
+			slot0:CommonSceneChange("Dorm3DLoading", function (slot0)
+				uv0:Hide()
+				print("3333eeee")
+				slot0()
+			end)
+		else
+			uv0:Hide()
+		end
+	end, SFX_PANEL)
 end
 
 slot0.AddListeners = function(slot0)
 	uv0.super.AddListeners(slot0)
-	slot0:AddListener(CheaterTavernEvent.CLOSE_SHIP_SELECT_PAGE, slot0.SetNeedNotLoadUI)
+	slot0:AddListener(CheaterTavernEvent.CLOSE_SHIP_SELECT_PAGE, slot0.SetNeedNotLoadingUI)
 end
 
 slot0.RemoveListeners = function(slot0)
 	uv0.super.RemoveListeners(slot0)
-	slot0:RemoveListener(CheaterTavernEvent.CLOSE_SHIP_SELECT_PAGE, slot0.SetNeedNotLoadUI)
+	slot0:RemoveListener(CheaterTavernEvent.CLOSE_SHIP_SELECT_PAGE, slot0.SetNeedNotLoadingUI)
 end
 
 slot0.Show = function(slot0, slot1)
@@ -20,7 +51,7 @@ slot0.Show = function(slot0, slot1)
 	uv0.super.Show(slot0)
 	setActive(slot0.togglePanel, false)
 
-	slot0.needLoadUI = true
+	slot0.needLoadingUI = true
 end
 
 slot0.FlushShips = function(slot0, slot1)
@@ -93,20 +124,10 @@ end
 slot0.ClearCharacterScene = function(slot0, slot1)
 	if slot0.isLoadCharacterScene then
 		if slot0.needLoadUI then
-			slot2 = pg.SceneAnimMgr.GetInstance()
-
-			slot2:CommonSceneChange("Dorm3DLoading", function (slot0)
-				slot1 = uv0
-
-				slot1:ClearCharacterContainer()
-
-				slot1 = uv0
-
-				slot1:UnLoadCharacterScene(function ()
-					uv0:ActivityPlayerCamera()
-					existCall(uv1)
-					uv2()
-				end)
+			slot0:ClearCharacterContainer()
+			slot0:UnLoadCharacterScene(function ()
+				uv0:ActivityPlayerCamera()
+				existCall(uv1)
 			end)
 		else
 			slot0:ClearCharacterContainer()
@@ -123,8 +144,8 @@ slot0.ClearCharacterScene = function(slot0, slot1)
 	slot0.isLoadCharacterScene = false
 end
 
-slot0.SetNeedNotLoadUI = function(slot0)
-	slot0.needLoadUI = false
+slot0.SetNeedNotLoadingUI = function(slot0)
+	slot0.needLoadingUI = false
 end
 
 slot0.GetNeedHideUnlockShipFlag = function(slot0)

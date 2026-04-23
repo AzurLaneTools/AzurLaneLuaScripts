@@ -57,7 +57,10 @@ slot0.AddSubLayers = function(slot0, slot1)
 	slot1.data = {
 		container = slot0._tf,
 		onClose = function ()
-			uv0:Hide()
+			pg.SceneAnimMgr.GetInstance():CommonSceneChange("Dorm3DLoading", function (slot0)
+				uv0:Hide()
+				slot0()
+			end)
 		end,
 		sceneRoomType = slot0.sceneRoomType
 	}
@@ -216,13 +219,10 @@ slot0.ClearCharacterScene = function(slot0, slot1)
 
 	if slot0.isLoadCharacterScene then
 		slot0:UnLoadLightEffect()
-		pg.SceneAnimMgr.GetInstance():CommonSceneChange("Dorm3DLoading", function (slot0)
-			uv0:ClearCharacterContainer()
-			uv0:UnLoadCharacterScene(function ()
-				uv0:ActivityPlayerCamera()
-				existCall(uv1)
-				uv2()
-			end)
+		slot0:ClearCharacterContainer()
+		slot0:UnLoadCharacterScene(function ()
+			uv0:ActivityPlayerCamera()
+			existCall(uv1)
 		end)
 		slot0:ResetCameraMask()
 		slot0:emitCore(ISLAND_EVT.REFRESH_WEATHER_SYSTEM)

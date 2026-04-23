@@ -11,6 +11,7 @@ slot0.GEN_RECYCLEITEM = "IslandProxy:GEN_RECYCLEITEM"
 slot0.LOCK_NPC_REFRESH = "IslandProxy:LOCK_NPC_REFRESH"
 slot0.RELEASE_NPC_REFRESH = "IslandProxy:RELEASE_NPC_REFRESH"
 slot0.RESET_SP = "IslandProxy:RESET_SP"
+slot0.PRESS_BACK = "IslandProxy:PRESS_BACK"
 slot0.CHAT_MSG_UPDATE = "IslandProxy:CHAT_MSG_UPDATE"
 
 slot0.register = function(slot0)

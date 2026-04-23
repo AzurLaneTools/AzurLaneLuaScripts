@@ -185,10 +185,6 @@ slot0.RefreshPlayerList = function(slot0)
 	end
 end
 
-slot0.OnBackPressed = function(slot0)
-	slot0:OnClickCloseBtn()
-end
-
 slot0.OnClickCloseBtn = function(slot0)
 	if slot0.isLoading then
 		return
@@ -256,7 +252,7 @@ slot0.StartLeanTween = function(slot0, slot1, slot2)
 	end))
 
 	slot3:setOnComplete(System.Action(function ()
-		uv0:OnBackPressed()
+		uv0:OnClickCloseBtn()
 		uv0:StopLeanTween()
 	end))
 end
@@ -409,6 +405,10 @@ slot0.InsertMsg = function(slot0, slot1, slot2)
 	if slot2.player and slot2.content then
 		table.insert(slot1, slot2)
 	end
+end
+
+slot0.onBackPressed = function(slot0)
+	slot0:OnClickCloseBtn()
 end
 
 return slot0

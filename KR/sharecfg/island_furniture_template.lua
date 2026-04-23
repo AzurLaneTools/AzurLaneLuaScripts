@@ -1886,7 +1886,7 @@ pg.island_furniture_template = {
 		},
 		jump_page = {
 			{
-				"战术推演",
+				"모의 전투",
 				{}
 			}
 		}

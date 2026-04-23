@@ -12,6 +12,8 @@ slot0.Ctor = function(slot0, slot1)
 
 	slot0.state = 0
 	slot0.player_info = slot1.player_info
+	slot0.rank = 0
+	slot0.addScore = 0
 end
 
 slot0.SetGameData = function(slot0, slot1, slot2)

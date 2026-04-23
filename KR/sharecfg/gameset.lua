@@ -4345,6 +4345,36 @@ pg.gameset = {
 			6
 		}
 	},
+	barbot_match_waittime = {
+		key_value = 0,
+		description = {
+			{
+				1,
+				10,
+				15
+			},
+			{
+				2,
+				16,
+				20
+			},
+			{
+				3,
+				21,
+				25
+			},
+			{
+				4,
+				26,
+				30
+			},
+			{
+				5,
+				31,
+				40
+			}
+		}
+	},
 	bar_runaway_time = {
 		description = "",
 		key_value = 3
