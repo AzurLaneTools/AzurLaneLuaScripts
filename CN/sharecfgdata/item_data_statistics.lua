@@ -129691,6 +129691,684 @@ _G.pg.base.item_data_statistics[68243] = {
 }
 
 
+_G.pg.base.item_data_statistics[68244] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(热气蒸腾的女神)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>玛莉萝丝</color>换装<color=#92fc63FF>热气蒸腾的女神</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "88014",
+	id = 68244,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68247,
+			1
+		},
+		{
+			2,
+			68250,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68245] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(礁石边的盛夏天使)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>穗香</color>换装<color=#92fc63FF>礁石边的盛夏天使</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "88015",
+	id = 68245,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68248,
+			1
+		},
+		{
+			2,
+			68251,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68246] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(水边的霞光)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>霞</color>换装<color=#92fc63FF>水边的霞光</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "88016",
+	id = 68246,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68249,
+			1
+		},
+		{
+			2,
+			68252,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68247] = {
+	open_directly = 0,
+	name = "换装抵扣券(热气蒸腾的女神)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>玛莉萝丝</color>换装<color=#92fc63FF>热气蒸腾的女神</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年4月30日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68247,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			70838
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68248] = {
+	open_directly = 0,
+	name = "换装抵扣券(礁石边的盛夏天使)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>穗香</color>换装<color=#92fc63FF>礁石边的盛夏天使</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年4月30日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68248,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			70447
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68249] = {
+	open_directly = 0,
+	name = "换装抵扣券(水边的霞光)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>霞</color>换装<color=#92fc63FF>水边的霞光</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年4月30日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68249,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			70446
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68250] = {
+	open_directly = 0,
+	name = "换装体验券(热气蒸腾的女神)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>玛莉萝丝</color>换装<color=#92fc63FF>热气蒸腾的女神</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年4月30日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68250,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90465
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68251] = {
+	open_directly = 0,
+	name = "换装体验券(礁石边的盛夏天使)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>穗香</color>换装<color=#92fc63FF>礁石边的盛夏天使</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年4月30日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68251,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90466
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68252] = {
+	open_directly = 0,
+	name = "换装体验券(水边的霞光)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>霞</color>换装<color=#92fc63FF>水边的霞光</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年4月30日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68252,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90467
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68253] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(沙滩上的女神)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>露娜</color>换装<color=#92fc63FF>沙滩上的女神</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "88018",
+	id = 68253,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68256,
+			1
+		},
+		{
+			2,
+			68259,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68254] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(女神的沐浴时间)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>环</color>换装<color=#92fc63FF>女神的沐浴时间</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "88019",
+	id = 68254,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68257,
+			1
+		},
+		{
+			2,
+			68260,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68256] = {
+	open_directly = 0,
+	name = "换装抵扣券(沙滩上的女神)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>露娜</color>换装<color=#92fc63FF>沙滩上的女神</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年4月30日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68256,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			70840
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68257] = {
+	open_directly = 0,
+	name = "换装抵扣券(女神的沐浴时间)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>环</color>换装<color=#92fc63FF>女神的沐浴时间</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年4月30日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68257,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			70839
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68259] = {
+	open_directly = 0,
+	name = "换装体验券(沙滩上的女神)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>露娜</color>换装<color=#92fc63FF>沙滩上的女神</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年4月30日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68259,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90471
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68260] = {
+	open_directly = 0,
+	name = "换装体验券(女神的沐浴时间)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>环</color>换装<color=#92fc63FF>女神的沐浴时间</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年4月30日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68260,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90472
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[70219] = {
+	open_directly = 0,
+	name = "「假日航线」角色自选",
+	type = 13,
+	display = "<color=#ff5c5c>5.14维护后道具将会删除。</color>可从「玛莉·萝丝」、「穗香」、「霞」、「海咲」、「凪咲」与「莫妮卡」中自行选择一位角色进行兑换。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/70144",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 70219,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			4,
+			10600011,
+			1
+		},
+		{
+			4,
+			10600021,
+			1
+		},
+		{
+			4,
+			10600031,
+			1
+		},
+		{
+			4,
+			10600041,
+			1
+		},
+		{
+			4,
+			10600051,
+			1
+		},
+		{
+			4,
+			10600071,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			4,
+			10600011,
+			1
+		},
+		{
+			4,
+			10600021,
+			1
+		},
+		{
+			4,
+			10600031,
+			1
+		},
+		{
+			4,
+			10600041,
+			1
+		},
+		{
+			4,
+			10600051,
+			1
+		},
+		{
+			4,
+			10600071,
+			1
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[81200] = {
 	open_directly = 1,
 	name = "绚烂缤纷夜福袋·I",

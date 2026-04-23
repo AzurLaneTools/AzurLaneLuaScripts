@@ -22,16 +22,23 @@ end
 slot0.GetCollectionList = function(slot0)
 	slot1 = slot0:getConfig("config_data")
 	slot2 = slot0:getDayIndex()
+	slot0.collections = underscore.filter(slot0.collections, function (slot0)
+		if table.contains(uv0:getData1List(), slot0.id) then
+			return false
+		end
 
-	if #slot0.collections > 0 and table.indexof(slot1, slot0.collections[1].id) < slot2 then
-		table.remove(slot0.collections, 1)
-	end
+		if table.indexof(uv1, slot0.id) < uv2 and slot0:GetState() < EventInfo.StateActive then
+			return false
+		end
 
-	if #slot0.collections == 0 and slot2 > 0 and slot2 <= #slot1 and not table.contains(slot0.data1_list, slot1[slot2]) then
+		return true
+	end)
+
+	if #slot0.collections == 0 and slot1[slot2] and not table.contains(slot0:getData1List(), slot1[slot2]) then
 		table.insert(slot0.collections, EventInfo.New({
 			finish_time = 0,
 			over_time = 0,
-			id = slot3,
+			id = slot1[slot2],
 			ship_id_list = {},
 			activity_id = slot0.id
 		}))

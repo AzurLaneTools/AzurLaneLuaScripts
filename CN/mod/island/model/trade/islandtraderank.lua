@@ -8,6 +8,10 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.name = slot1.name
 end
 
+slot0.IsVaild = function(slot0)
+	return slot0.value > 0
+end
+
 slot0.IsSelf = function(slot0)
 	return slot0.id == getProxy(PlayerProxy):getRawData().id
 end

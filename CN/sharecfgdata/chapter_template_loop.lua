@@ -61035,7 +61035,7 @@ _G.pg.base.chapter_template_loop[1450041] = {
 		{
 			"level",
 			1,
-			110
+			100
 		}
 	},
 	expedition_id_weight_list = {

@@ -9032,6 +9032,84 @@ pg.activity_ins_chat_language = setmetatable({
 		9029,
 		9030,
 		9031,
+		9032,
+		9033,
+		9034,
+		9035,
+		9036,
+		9037,
+		9038,
+		9039,
+		9040,
+		9041,
+		9042,
+		9043,
+		9044,
+		9045,
+		9046,
+		9047,
+		9048,
+		9049,
+		9050,
+		9051,
+		9052,
+		9053,
+		9054,
+		9055,
+		9056,
+		9057,
+		9058,
+		9059,
+		9060,
+		9061,
+		9062,
+		9063,
+		9064,
+		9065,
+		9066,
+		9067,
+		9068,
+		9069,
+		9070,
+		9071,
+		9072,
+		9073,
+		9074,
+		9075,
+		9076,
+		9077,
+		9078,
+		9079,
+		9080,
+		9081,
+		9082,
+		9083,
+		9084,
+		9085,
+		9086,
+		9087,
+		9088,
+		9089,
+		9090,
+		9091,
+		9092,
+		9093,
+		9094,
+		9095,
+		9096,
+		9097,
+		9098,
+		9099,
+		9100,
+		9101,
+		9102,
+		9103,
+		9104,
+		9105,
+		9106,
+		9107,
+		9108,
+		9109,
 		9110,
 		9111,
 		9112,
@@ -88950,6 +89028,680 @@ pg.base.activity_ins_chat_language = {
 		type = 1,
 		id = 9031,
 		flag = 2
+	},
+	[9032] = {
+		param = "嘻嘻，指挥官指挥官！",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9032,
+		flag = 0
+	},
+	[9033] = {
+		param = "我已经帮你把桌上的文件都分类整理好咯",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9033,
+		flag = 0
+	},
+	[9034] = {
+		param = "还仔仔细细地把指挥室打扫了一遍",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9034,
+		flag = 0
+	},
+	[9035] = {
+		param = "可把我累惨了~",
+		ship_group = 10601,
+		type = 1,
+		id = 9035,
+		flag = 0,
+		option = {
+			{
+				1,
+				"真少见啊……"
+			}
+		}
+	},
+	[9036] = {
+		param = "真少见啊，长岛居然在勤奋工作",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9036,
+		flag = 1
+	},
+	[9037] = {
+		param = "嘻嘻~不仅如此",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9037,
+		flag = 1
+	},
+	[9038] = {
+		param = "为了更好地在指挥官面前刷存在感",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9038,
+		flag = 1
+	},
+	[9039] = {
+		param = "我正在收拾家里的可乐薯片泡面游戏",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9039,
+		flag = 1
+	},
+	[9040] = {
+		param = "准备全——都搬进指挥室~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9040,
+		flag = 1
+	},
+	[9041] = {
+		param = "近期的长岛，要变成常驻指挥室的幽灵了哦~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9041,
+		flag = 1
+	},
+	[9042] = {
+		param = "即使指挥官想让我通宵加班也没问题——",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9042,
+		flag = 1
+	},
+	[9043] = {
+		param = "嘻嘻，前提是你能看到我~飘啊飘~",
+		ship_group = 10601,
+		type = 1,
+		id = 9043,
+		flag = 1,
+		option = {
+			{
+				2,
+				"谢谢，但总感觉……"
+			}
+		}
+	},
+	[9044] = {
+		param = "谢谢，但总感觉有什么不对劲……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9044,
+		flag = 2
+	},
+	[9045] = {
+		param = "没有什么不对劲的哦！",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9045,
+		flag = 2
+	},
+	[9046] = {
+		param = "长岛可是个好心的幽灵哦，偶尔也会显露出善良的一面~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9046,
+		flag = 2
+	},
+	[9047] = {
+		param = "绝对不是因为我超期待的游戏官宣了系列新作即将发布的消息！",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9047,
+		flag = 2
+	},
+	[9048] = {
+		param = "也绝对不是为了追求最高画质，还要同步购买性能升级的豪华纪念款主机！",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9048,
+		flag = 2
+	},
+	[9049] = {
+		param = "为了抢到第一批货，这个月的预算要超过不少……",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9049,
+		flag = 2
+	},
+	[9050] = {
+		param = "对了！指挥官想要了解的话，现在可是非常好的入坑机会哦~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9050,
+		flag = 2
+	},
+	[9051] = {
+		param = "嘻嘻~让我来给你好好介绍一下这个经典系列吧~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9051,
+		flag = 2
+	},
+	[9052] = {
+		param = "要是指挥官也喜欢的话……我们就可以一起拼单了！",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9052,
+		flag = 2
+	},
+	[9053] = {
+		param = "预算负担瞬间少了一半~",
+		ship_group = 10601,
+		type = 1,
+		id = 9053,
+		flag = 2,
+		option = {
+			{
+				3,
+				"谢谢，但总感觉……"
+			}
+		}
+	},
+	[9054] = {
+		param = "可以是可以，那工作的事情……？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9054,
+		flag = 3
+	},
+	[9055] = {
+		param = "欸嘿~那种事情就之后再说吧~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9055,
+		flag = 3
+	},
+	[9056] = {
+		param = "我已经收拾好啦，马上就过来",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9056,
+		flag = 3
+	},
+	[9057] = {
+		param = "幽灵长岛这段时间都会飘在你身边哟~！",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9057,
+		flag = 3
+	},
+	[9058] = {
+		param = "好困……",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9058,
+		flag = 0
+	},
+	[9059] = {
+		param = "长岛这几天睡觉时候满脑子都是指挥官……",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9059,
+		flag = 0
+	},
+	[9060] = {
+		param = "指挥官可得好好负责……",
+		ship_group = 10601,
+		type = 1,
+		id = 9060,
+		flag = 0,
+		option = {
+			{
+				1,
+				"这是为什么？"
+			}
+		}
+	},
+	[9061] = {
+		param = "这是为什么？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9061,
+		flag = 1
+	},
+	[9062] = {
+		param = "当然是因为上次玩游戏和指挥官打成平局的事啦！",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9062,
+		flag = 1
+	},
+	[9063] = {
+		param = "我可是在游戏高手圈里都赫赫有名的“岛屿幽灵”",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9063,
+		flag = 1
+	},
+	[9064] = {
+		param = "上次我们一起玩的那个游戏的排行榜前五名，也都是我！",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9064,
+		flag = 1
+	},
+	[9065] = {
+		param = "本来觉得指挥官只是个普通萌新",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9065,
+		flag = 1
+	},
+	[9066] = {
+		param = "结果你只是刚刚上手，就成长得这么迅速……",
+		ship_group = 10601,
+		type = 1,
+		id = 9066,
+		flag = 1,
+		option = {
+			{
+				2,
+				"可能是因为这个游戏比较看重策略性吧……"
+			}
+		}
+	},
+	[9067] = {
+		param = "可能是因为这个游戏比较看重策略性吧……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9067,
+		flag = 2
+	},
+	[9068] = {
+		param = "虽然是指挥官，但是和刚上手半小时的萌新打平局什么的……",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9068,
+		flag = 2
+	},
+	[9069] = {
+		param = "长岛身为老玩家的自尊心完全没法接受啊！",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9069,
+		flag = 2
+	},
+	[9070] = {
+		param = "我这几天除了飘在指挥官身边观察破绽以外",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9070,
+		flag = 2
+	},
+	[9071] = {
+		param = "每天还在认真钻研究竟该如何排兵布阵，把控时机",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9071,
+		flag = 2
+	},
+	[9072] = {
+		param = "现在，我掌握了一套超无解的微操！",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9072,
+		flag = 2
+	},
+	[9073] = {
+		param = "一定不会再输给你了！",
+		ship_group = 10601,
+		type = 1,
+		id = 9073,
+		flag = 2,
+		option = {
+			{
+				3,
+				"我不信"
+			}
+		}
+	},
+	[9074] = {
+		param = "我不信，除非你说说有多厉害",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9074,
+		flag = 3
+	},
+	[9075] = {
+		param = "嘻嘻~可不要被吓到了",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9075,
+		flag = 3
+	},
+	[9076] = {
+		param = "这套微操流程非常复杂，很考验熟练程度",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9076,
+		flag = 3
+	},
+	[9077] = {
+		param = "结合地毯式空投和……",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9077,
+		flag = 3
+	},
+	[9078] = {
+		param = "等等，指挥官难道是在侦查敌情？",
+		ship_group = 10601,
+		type = 1,
+		id = 9078,
+		flag = 3,
+		option = {
+			{
+				4,
+				"被你发现了"
+			}
+		}
+	},
+	[9079] = {
+		param = "被你发现了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9079,
+		flag = 4
+	},
+	[9080] = {
+		param = "唔哇！还真是不能对指挥官掉以轻心",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9080,
+		flag = 4
+	},
+	[9081] = {
+		param = "不过嘛~这点信息还不足以动摇我的胜利",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9081,
+		flag = 4
+	},
+	[9082] = {
+		param = "这番操作技术的厉害之处，还是留着下次对战的时候请指挥官亲自体会吧！",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9082,
+		flag = 4
+	},
+	[9083] = {
+		param = "这个休息日，我会等着你的~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9083,
+		flag = 4
+	},
+	[9084] = {
+		param = "66",
+		ship_group = 10601,
+		option = "",
+		type = 4,
+		id = 9084,
+		flag = 4
+	},
+	[9085] = {
+		param = "嘿嘿~为了防止再次出现资金短缺的情况",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9085,
+		flag = 0
+	},
+	[9086] = {
+		param = "我有个宏大的计划~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9086,
+		flag = 0
+	},
+	[9087] = {
+		param = "——我可以制作系列模型，进行贩售！",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9087,
+		flag = 0
+	},
+	[9088] = {
+		param = "只要能做出一个受欢迎的模型系列，资金问题就完全解决了！",
+		ship_group = 10601,
+		type = 1,
+		id = 9088,
+		flag = 0,
+		option = {
+			{
+				1,
+				"听起来是个好主意……"
+			}
+		}
+	},
+	[9089] = {
+		param = "听起来是个好主意，需要技术支持么？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9089,
+		flag = 1
+	},
+	[9090] = {
+		param = "嘻嘻，根据长岛多年的拼胶经验，以及对行业的深入了解！",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9090,
+		flag = 1
+	},
+	[9091] = {
+		param = "量产技术已经搞定了~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9091,
+		flag = 1
+	},
+	[9092] = {
+		param = "不过……",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9092,
+		flag = 1
+	},
+	[9093] = {
+		param = "我完全不懂该怎么设计啦！",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9093,
+		flag = 1
+	},
+	[9094] = {
+		param = "到底怎么样的模型才会受人欢迎……",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9094,
+		flag = 1
+	},
+	[9095] = {
+		param = "一点头绪都没有啊啊啊！",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9095,
+		flag = 1
+	},
+	[9096] = {
+		param = "322",
+		ship_group = 10601,
+		type = 4,
+		id = 9096,
+		flag = 1,
+		option = {
+			{
+				2,
+				"可以先参考一下……"
+			}
+		}
+	},
+	[9097] = {
+		param = "可以先参考现在的高人气角色来提取一下设计要素，分析市场喜好",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9097,
+		flag = 2
+	},
+	[9098] = {
+		param = "先确定设计方向吗？",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9098,
+		flag = 2
+	},
+	[9099] = {
+		param = "这样……说不定真能行得通！",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9099,
+		flag = 2
+	},
+	[9100] = {
+		param = "港区现在的流行趋势，我看看……",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9100,
+		flag = 2
+	},
+	[9101] = {
+		param = "嗯嗯，我已经有一个完美的想法了！",
+		ship_group = 10601,
+		type = 1,
+		id = 9101,
+		flag = 2,
+		option = {
+			{
+				3,
+				"哦？"
+			}
+		}
+	},
+	[9102] = {
+		param = "哦？说说看",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9102,
+		flag = 3
+	},
+	[9103] = {
+		param = "我打算制作——指挥官机甲系列！",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9103,
+		flag = 3
+	},
+	[9104] = {
+		param = "主体是帅气的机甲模型，而驾驶员是指挥官",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9104,
+		flag = 3
+	},
+	[9105] = {
+		param = "虽然在机甲设计方面可能还是比不过老牌厂商",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9105,
+		flag = 3
+	},
+	[9106] = {
+		param = "但亮点在于：产品会包含指挥官驾驶员ver.的模型，这个才是真正的杀手锏！",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9106,
+		flag = 3
+	},
+	[9107] = {
+		param = "嘻嘻，这下不受欢迎也不行啦！",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9107,
+		flag = 3
+	},
+	[9108] = {
+		param = "指挥官现在有空吗？我们来一起敲定设计细节吧！",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9108,
+		flag = 3
+	},
+	[9109] = {
+		param = "看看能不能有变身的可能性……",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9109,
+		flag = 3
 	},
 	[9110] = {
 		param = "呜……怎么会这样……！",

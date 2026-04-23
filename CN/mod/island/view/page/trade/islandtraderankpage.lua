@@ -35,36 +35,11 @@ slot0.Show = function(slot0, slot1, slot2)
 			uv0:RequestRank(slot0)
 		end
 	}, function ()
-		slot0, slot1 = uv0:GetDislays()
-		uv0.rankNums = uv0:GenRank(slot0, slot1)
+		slot0, slot1, uv0.rankNums = uv0:GetDislays()
 
-		uv0:DisplayResult(slot1)
+		uv0:DisplayResult(slot1, slot0)
 		uv0:UpdateSelfRank(slot0)
 	end)
-end
-
-slot0.GenRank = function(slot0, slot1, slot2)
-	table.insert({}, slot1)
-
-	for slot7, slot8 in ipairs(slot2) do
-		table.insert(slot3, slot8)
-	end
-
-	table.sort(slot3, function (slot0, slot1)
-		if uv0.mode == IslandTradePage.MODE_SELL then
-			return slot1.value < slot0.value
-		elseif uv0.mode == IslandTradePage.MODE_PURCHAS then
-			return slot0.value < slot1.value
-		end
-	end)
-
-	slot4 = {}
-
-	for slot8, slot9 in ipairs(slot3) do
-		slot4[slot9.id] = slot8
-	end
-
-	return slot4
 end
 
 slot0.GetDislays = function(slot0)
@@ -76,10 +51,12 @@ slot0.GetDislays = function(slot0)
 		slot1, slot2 = getProxy(IslandProxy):GetIsland():GetTradeAgency():GetRanks()
 	end
 
-	slot3 = {}
+	table.insert({}, slot2)
 
 	for slot7, slot8 in ipairs(slot1) do
-		table.insert(slot3, slot8)
+		if slot8:IsVaild() then
+			table.insert(slot3, slot8)
+		end
 	end
 
 	table.sort(slot3, function (slot0, slot1)
@@ -90,27 +67,33 @@ slot0.GetDislays = function(slot0)
 		end
 	end)
 
-	return slot2, slot3
+	slot4 = {}
+	slot5 = 0
+	slot6 = 0
+
+	for slot10, slot11 in ipairs(slot3) do
+		if slot11.value ~= slot5 then
+			slot4[slot11.value] = slot6 + 1
+			slot5 = slot11.value
+		end
+	end
+
+	return slot2, slot3, slot4
 end
 
 slot0.RequestRank = function(slot0, slot1)
 	slot0:emit(IslandBaseMediator.REQ_TRADE_RANK, slot1)
 end
 
-slot0.DisplayResult = function(slot0, slot1)
+slot0.DisplayResult = function(slot0, slot1, slot2)
 	slot0.displays = {}
 
-	for slot5, slot6 in ipairs(slot1) do
-		table.insert(slot0.displays, slot6)
+	for slot6, slot7 in ipairs(slot1) do
+		if slot7.id ~= slot2.id then
+			table.insert(slot0.displays, slot7)
+		end
 	end
 
-	table.sort(slot0.displays, function (slot0, slot1)
-		if uv0.mode == IslandTradePage.MODE_SELL then
-			return slot1.value < slot0.value
-		elseif uv0.mode == IslandTradePage.MODE_PURCHAS then
-			return slot0.value < slot1.value
-		end
-	end)
 	slot0.scrollrect:SetTotalCount(#slot0.displays)
 end
 
@@ -132,14 +115,16 @@ slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	end
 
 	slot4 = slot0.displays[slot1 + 1]
+	slot5 = slot0.rankNums[slot4.value]
 
-	slot3:Update(slot0.rankNums[slot4.id], slot4, slot1)
+	assert(slot5, slot4.value)
+	slot3:Update(slot5, slot4, slot1)
 end
 
 slot0.UpdateSelfRank = function(slot0, slot1)
 	slot3 = slot0.selfRankCard
 
-	slot3:Update(slot0.rankNums[slot1.id], slot1, 0)
+	slot3:Update(slot0.rankNums[slot1.value], slot1, 0)
 	onButton(slot0, slot0.selfRankCard.inviteBtn, function ()
 		uv0:emit(IslandTradePage.OPEN_INVITE_PAGE)
 	end, SFX_PANEL)

@@ -12510,12 +12510,12 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "戈里齐亚、安德里亚·多利亚 建造追加！"
+	tip = "{namecode:462}、{namecode:450} 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "阿蒂利奥·雷戈洛 建造追加！"
+	tip = "{namecode:442} 建造追加！"
 }
 
 
@@ -16233,7 +16233,7 @@ _G.pg.base.gametip.music_juus = {
 _G.pg.base.gametip.doa_collection = {
 	tip = {
 		{
-			info = "活动时间：<color=#92fc63>4.27-5.11维护</color>\n1.活动期间，参与活动收集「角色喜好」，收集全部<color=#92fc63>18</color>个后可获得限定家具<color=#92fc63>「维纳斯假期纪念像」、「外观装备箱(维纳斯假期)*3」</color>\n※「维纳斯假期纪念像」无法重复获取"
+			info = "活动时间：<color=#92fc63>4.23-5.1 24时</color>\n1.活动期间，参与活动收集「角色喜好」，收集全部<color=#92fc63>18</color>个后可获得限定家具<color=#92fc63>「维纳斯假期纪念像」、「外观装备箱(维纳斯假期)*3」</color>\n※「维纳斯假期纪念像」无法重复获取"
 		},
 		{
 			info = [[
@@ -16245,7 +16245,7 @@ _G.pg.base.gametip.doa_collection = {
 ⑤完成砰砰咚挑战赛]]
 		},
 		{
-			info = "3.领取时间截止5月17日23点59分"
+			info = "3.领取时间截止5月7日24时"
 		}
 	}
 }
@@ -20510,7 +20510,7 @@ _G.pg.base.gametip.venusvolleyball_help = {
 		{
 			info = [[
 活动规则：
-1.<color=#92fc63>5月3日</color>为止每日0点开放<color=#92fc63>1</color>场新的比赛，总计<color=#92fc63>7</color>场，可累计。全部完成后可以获得限定装备<color=#92fc63>「觉醒宝珠」</color>以及角色喜好道具-<color=#92fc63>「喜好食物(莫妮卡)」</color>
+1.总计<color=#92fc63>7</color>场比赛，全部完成后可以获得限定装备<color=#92fc63>「觉醒宝珠」</color>以及角色喜好道具-<color=#92fc63>「喜好饮品(莫妮卡)」</color>
 2.点击开始游戏，选择两名角色后开始比赛，任意一方获得<color=#92fc63>5</color>分后即可完成游戏
 3.指挥官在接球和击球时会出现判定圈，点击屏幕任意位置完成判定
 4.判定圈缩至外圈与内圈之间时点击视为good，判定圈缩至内圈后点击视为perfect，未进行点击或判定圈未缩到外圈时点击视为miss接球时：判定miss为失分，判定good和perfect成功接球击球时：判定miss击球但不得分，判定good和perfect击球得分
@@ -20540,7 +20540,7 @@ _G.pg.base.gametip.doa_main = {
 		{
 			info = [[
 活动规则：
-<color=#92fc63>4.27-5.11维护</color>期间开启限时活动「假日航线」
+<color=#92fc63>4.23-5.1 24时</color>期间开启限时活动「假日航线」
 1.通过特别作战获取「维纳斯点数」，在「累计奖励」和「补给商店」处兑换丰厚奖励
 2.完成「砰砰咚挑战赛」可获得露娜特殊兵装<color=#92fc63>「烤白薯」</color>、环特殊兵装<color=#92fc63>「马卡龙」</color>等奖励
 3.完成「排球练习赛」小游戏第七战可以获得限定装备<color=#92fc63>「觉醒宝珠」</color>
@@ -20548,7 +20548,7 @@ _G.pg.base.gametip.doa_main = {
 4.在活动中收集18个「角色喜好」道具后，可在「纪念章」处获取<color=#92fc63>「维纳斯假期纪念像」</color>等奖励详细获取条件可在「纪念章」界面查看
 5.点击「限时建造」可以前往建造界面
 6.点击「换装商店」可以前往换装商店界面
-7.<color=#92fc63>4.27-5.10</color> 每日刷新一个活动特殊委托，该委托不占用可派出舰队上限，完成委托可获取活动奖励未进行的委托将于次日消失，进行中的委托可于次日领取奖励，领取奖励后可刷新次日的活动特殊委托]]
+7.<color=#92fc63>4.23-5.1 24时</color> 每日刷新一个活动特殊委托，该委托不占用可派出舰队上限，完成委托可获取活动奖励未进行的委托将于次日消失，进行中的委托可于次日领取奖励，领取奖励后可刷新次日的活动特殊委托]]
 		}
 	}
 }
@@ -24313,7 +24313,7 @@ _G.pg.base.gametip.Settings_title_Redeem_input_submit = {
 
 
 _G.pg.base.gametip.Settings_title_Redeem_input_placeholder = {
-	tip = "仅限英语数字组合"
+	tip = "请输入兑换码"
 }
 
 
@@ -26578,7 +26578,7 @@ _G.pg.base.gametip.blackfriday_help = {
 
 
 _G.pg.base.gametip.eventshop_time_hint = {
-	tip = "兑换时间截止至$1维护"
+	tip = "兑换时间截止至$1 24时"
 }
 
 
@@ -48560,4 +48560,59 @@ _G.pg.base.gametip.bar_tips_game6 = {
 
 _G.pg.base.gametip.bar_tips_game7 = {
 	tip = "是否立即退出当前进行中的对局。"
+}
+
+
+_G.pg.base.gametip.exchange_code_tip = {
+	tip = "即将兑换以下物品\n"
+}
+
+
+_G.pg.base.gametip.exchange_code_skin = {
+	tip = "<color=#FF4A45>检测到您已经拥有该换装，继续兑换将转换为钻石</color>"
+}
+
+
+_G.pg.base.gametip.exchange_code_error_16 = {
+	tip = "当前账号已达到该礼包码兑换上限，无法再次兑换。"
+}
+
+
+_G.pg.base.gametip.exchange_code_error_12 = {
+	tip = "当前系统出现异常，请稍后重试 "
+}
+
+
+_G.pg.base.gametip.exchange_code_error_9 = {
+	tip = "无效的兑换码"
+}
+
+
+_G.pg.base.gametip.exchange_code_error_20 = {
+	tip = "兑换码错误"
+}
+
+
+_G.pg.base.gametip.exchange_code_error_6 = {
+	tip = "兑换次数已用完"
+}
+
+
+_G.pg.base.gametip.exchange_code_error_7 = {
+	tip = "该兑换码已被使用"
+}
+
+
+_G.pg.base.gametip.exchange_code_before_time = {
+	tip = "未到该兑换码生效时间，请在兑换开放时间内使用。"
+}
+
+
+_G.pg.base.gametip.exchange_code_after_time = {
+	tip = "兑换码已过期"
+}
+
+
+_G.pg.base.gametip.exchange_code_skin_tip = {
+	tip = "换装"
 }

@@ -24,13 +24,14 @@ slot0.OnInit = function(slot0)
 	slot0.mask = slot0.bg:Find("mask")
 	slot0.trainWindow = slot0._tf:Find("TrainWindow")
 	slot0.trainBtn = slot0.trainWindow:Find("panel/train_btn")
-	slot0.trainSkills = slot0.trainWindow:Find("panel/skills")
-	slot0.trainSkillBtns = {}
-
-	eachChild(slot0.trainSkills, function (slot0)
-		table.insert(uv0.trainSkillBtns, slot0)
-	end)
-
+	slot1 = slot0.trainWindow
+	slot0.trainSkills = slot1:Find("panel/skills")
+	slot0.trainSkillBtns = {
+		slot0.trainSkills:Find("pow_btn"),
+		slot0.trainSkills:Find("tec_btn"),
+		slot0.trainSkills:Find("stm_btn"),
+		slot0.trainSkills:Find("apl_btn")
+	}
 	slot0.curInfoPanel = slot0.trainWindow:Find("panel/info_bg")
 	slot0.curInfo = slot0.trainWindow:Find("panel/info_bg/cur")
 	slot0.nextInfo = slot0.trainWindow:Find("panel/info_bg/next")
@@ -99,6 +100,12 @@ slot0.OnFirstFlush = function(slot0)
 
 		if uv0.activity:getConfig("config_client") ~= "" and uv0.activity:getConfig("config_client").linkActID then
 			slot1 = getProxy(ActivityProxy):getActivityById(slot0)
+		end
+
+		if slot2.fightLinkActID then
+			uv0:emit(ActivityMediator.SKIP_ACTIVITY_MAP, slot3)
+
+			return
 		end
 
 		if not slot0 then
