@@ -130276,6 +130276,357 @@ _G.pg.base.item_data_statistics[68260] = {
 }
 
 
+_G.pg.base.item_data_statistics[68261] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(晨光里的事故)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>阿尔比恩</color>换装<color=#92fc63FF>晨光里的事故</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "88021",
+	id = 68261,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68264,
+			1
+		},
+		{
+			2,
+			68267,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68262] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(落于窗台的暖阳)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>埃佛森</color>换装<color=#92fc63FF>落于窗台的暖阳</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "88022",
+	id = 68262,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68265,
+			1
+		},
+		{
+			2,
+			68268,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68263] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(相依偎的温度)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>七省</color>换装<color=#92fc63FF>相依偎的温度</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "88023",
+	id = 68263,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68266,
+			1
+		},
+		{
+			2,
+			68269,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68264] = {
+	open_directly = 0,
+	name = "换装抵扣券(晨光里的事故)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>阿尔比恩</color>换装<color=#92fc63FF>晨光里的事故</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年4月30日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68264,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71133
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68265] = {
+	open_directly = 0,
+	name = "换装抵扣券(落于窗台的暖阳)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>埃佛森</color>换装<color=#92fc63FF>落于窗台的暖阳</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年4月30日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68265,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71129
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68266] = {
+	open_directly = 0,
+	name = "换装抵扣券(相依偎的温度)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>七省</color>换装<color=#92fc63FF>相依偎的温度</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年4月30日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68266,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71128
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68267] = {
+	open_directly = 0,
+	name = "换装体验券(晨光里的事故)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>阿尔比恩</color>换装<color=#92fc63FF>晨光里的事故</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年4月30日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68267,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90476
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68268] = {
+	open_directly = 0,
+	name = "换装体验券(落于窗台的暖阳)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>埃佛森</color>换装<color=#92fc63FF>落于窗台的暖阳</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年4月30日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68268,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90477
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68269] = {
+	open_directly = 0,
+	name = "换装体验券(相依偎的温度)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>七省</color>换装<color=#92fc63FF>相依偎的温度</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年4月30日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68269,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90478
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[70219] = {
 	open_directly = 0,
 	name = "「假日航线」角色自选",

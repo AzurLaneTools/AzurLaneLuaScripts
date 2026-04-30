@@ -1,6 +1,21 @@
 pg = pg or {}
-pg.ship_skin_reward = {
-	[701111] = {
+pg.ship_skin_reward = rawget(pg, "ship_skin_reward") or setmetatable({
+	__name = "ship_skin_reward"
+}, confNEO)
+pg.ship_skin_reward.all = {
+	701111,
+	408131,
+	499062,
+	503011,
+	201391,
+	502043,
+	502053
+}
+pg.base = pg.base or {}
+pg.base.ship_skin_reward = {}
+
+(function ()
+	pg.base.ship_skin_reward[701111] = {
 		id = 701111,
 		reward = {
 			{
@@ -14,8 +29,8 @@ pg.ship_skin_reward = {
 				1
 			}
 		}
-	},
-	[408131] = {
+	}
+	pg.base.ship_skin_reward[408131] = {
 		id = 408131,
 		reward = {
 			{
@@ -29,8 +44,8 @@ pg.ship_skin_reward = {
 				1
 			}
 		}
-	},
-	[499062] = {
+	}
+	pg.base.ship_skin_reward[499062] = {
 		id = 499062,
 		reward = {
 			{
@@ -44,8 +59,8 @@ pg.ship_skin_reward = {
 				1
 			}
 		}
-	},
-	[503011] = {
+	}
+	pg.base.ship_skin_reward[503011] = {
 		id = 503011,
 		reward = {
 			{
@@ -64,8 +79,8 @@ pg.ship_skin_reward = {
 				1
 			}
 		}
-	},
-	[201391] = {
+	}
+	pg.base.ship_skin_reward[201391] = {
 		id = 201391,
 		reward = {
 			{
@@ -84,8 +99,8 @@ pg.ship_skin_reward = {
 				1
 			}
 		}
-	},
-	[502043] = {
+	}
+	pg.base.ship_skin_reward[502043] = {
 		id = 502043,
 		reward = {
 			{
@@ -94,8 +109,8 @@ pg.ship_skin_reward = {
 				1
 			}
 		}
-	},
-	[502053] = {
+	}
+	pg.base.ship_skin_reward[502053] = {
 		id = 502053,
 		reward = {
 			{
@@ -104,14 +119,5 @@ pg.ship_skin_reward = {
 				1
 			}
 		}
-	},
-	all = {
-		701111,
-		408131,
-		499062,
-		503011,
-		201391,
-		502043,
-		502053
 	}
-}
+end)()

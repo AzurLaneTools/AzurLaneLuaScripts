@@ -1,36 +1,39 @@
 pg = pg or {}
-pg.activity_task_permanent = setmetatable({
-	__name = "activity_task_permanent",
-	all = {
-		6000,
-		6001,
-		6002,
-		6003,
-		6004,
-		6005,
-		6006,
-		6007,
-		6008,
-		6009,
-		6010,
-		6011,
-		6012,
-		6013,
-		6014,
-		6015,
-		6016,
-		6017,
-		6018,
-		6019,
-		6020,
-		6021,
-		6022,
-		6023
-	}
-}, confHX)
+pg.activity_task_permanent = rawget(pg, "activity_task_permanent") or setmetatable({
+	__name = "activity_task_permanent"
+}, confNEO)
+pg.activity_task_permanent.__namecode__ = true
+pg.activity_task_permanent.all = {
+	6000,
+	6001,
+	6002,
+	6003,
+	6004,
+	6005,
+	6006,
+	6007,
+	6008,
+	6009,
+	6010,
+	6011,
+	6012,
+	6013,
+	6014,
+	6015,
+	6016,
+	6017,
+	6018,
+	6019,
+	6020,
+	6021,
+	6022,
+	6023
+}
 pg.base = pg.base or {}
-pg.base.activity_task_permanent = {
-	[6000] = {
+pg.base.activity_task_permanent = {}
+
+(function ()
+	pg.base.activity_task_permanent[6000] = {
 		gametip = "可获得鲼限定换装「季夏攻势」",
 		banner_route = "permanent_yamashiro",
 		gametip_extra = "最快7日获得",
@@ -48,8 +51,8 @@ pg.base.activity_task_permanent = {
 			35005,
 			35006
 		}
-	},
-	[6001] = {
+	}
+	pg.base.activity_task_permanent[6001] = {
 		gametip = "可获得克雷文限定换装「操场边的拉拉队长」",
 		banner_route = "permanent_craven",
 		gametip_extra = "最快10日获得",
@@ -80,8 +83,8 @@ pg.base.activity_task_permanent = {
 			35025,
 			35026
 		}
-	},
-	[6002] = {
+	}
+	pg.base.activity_task_permanent[6002] = {
 		gametip = "可获得吸血鬼限定换装「白衣小恶魔」",
 		banner_route = "permanent_xixuegui",
 		gametip_extra = "最快7日获得",
@@ -99,8 +102,8 @@ pg.base.activity_task_permanent = {
 			35032,
 			35033
 		}
-	},
-	[6003] = {
+	}
+	pg.base.activity_task_permanent[6003] = {
 		gametip = "可获得小天鹅限定换装「海滨的十字星」",
 		banner_route = "permanent_xiaotiane",
 		gametip_extra = "最快10日获得",
@@ -131,8 +134,8 @@ pg.base.activity_task_permanent = {
 			35052,
 			35053
 		}
-	},
-	[6004] = {
+	}
+	pg.base.activity_task_permanent[6004] = {
 		gametip = "可获得荙限定换装「夜宴微醺」",
 		banner_route = "permanent_dachaolifu",
 		gametip_extra = "最快7日获得",
@@ -157,8 +160,8 @@ pg.base.activity_task_permanent = {
 			35066,
 			35067
 		}
-	},
-	[6005] = {
+	}
+	pg.base.activity_task_permanent[6005] = {
 		gametip = "可获得鲼限定换装「盛装的黑猫」",
 		banner_route = "permanent_shanchenglifu",
 		gametip_extra = "最快7日获得",
@@ -183,8 +186,8 @@ pg.base.activity_task_permanent = {
 			35080,
 			35081
 		}
-	},
-	[6006] = {
+	}
+	pg.base.activity_task_permanent[6006] = {
 		gametip = "可获得孟菲斯限定换装「Mystical Night」",
 		banner_route = "permanent_mengfeisi",
 		gametip_extra = "最快7日获得",
@@ -194,8 +197,8 @@ pg.base.activity_task_permanent = {
 		id = 6006,
 		over_task_id = "",
 		eliminate_task_id = {}
-	},
-	[6007] = {
+	}
+	pg.base.activity_task_permanent[6007] = {
 		gametip = "可获得楉限定换装「限时圣诞Wakaba」",
 		banner_route = "permanent_ruoyeshengdan",
 		gametip_extra = "最快7日获得",
@@ -220,8 +223,8 @@ pg.base.activity_task_permanent = {
 			35094,
 			35095
 		}
-	},
-	[6008] = {
+	}
+	pg.base.activity_task_permanent[6008] = {
 		gametip = "可获得荙限定换装「驯鹿与圣诞礼物」",
 		banner_route = "permanent_dachaoshengdan",
 		gametip_extra = "最快7日获得",
@@ -246,8 +249,8 @@ pg.base.activity_task_permanent = {
 			35108,
 			35109
 		}
-	},
-	[6009] = {
+	}
+	pg.base.activity_task_permanent[6009] = {
 		gametip = "可获得格里德利限定换装「圣诞摄影会！」",
 		banner_route = "permanent_gelidelishengdan",
 		gametip_extra = "最快8日获得",
@@ -266,8 +269,8 @@ pg.base.activity_task_permanent = {
 			35116,
 			35117
 		}
-	},
-	[6010] = {
+	}
+	pg.base.activity_task_permanent[6010] = {
 		gametip = "可获得萨拉托加限定换装「异国的偶像？」",
 		banner_route = "permanent_salatuojia",
 		gametip_extra = "最快9日获得",
@@ -277,8 +280,8 @@ pg.base.activity_task_permanent = {
 		id = 6010,
 		over_task_id = "",
 		eliminate_task_id = {}
-	},
-	[6011] = {
+	}
+	pg.base.activity_task_permanent[6011] = {
 		gametip = "可获得标枪限定换装「微速前进！」",
 		banner_route = "permanent_biaoqiang",
 		gametip_extra = "最快9日获得",
@@ -307,8 +310,8 @@ pg.base.activity_task_permanent = {
 			35134,
 			35135
 		}
-	},
-	[6012] = {
+	}
+	pg.base.activity_task_permanent[6012] = {
 		gametip = "可获得{namecode:417}限定换装「理科实验时间！」",
 		banner_route = "permanent_u73",
 		gametip_extra = "最快7日获得",
@@ -337,8 +340,8 @@ pg.base.activity_task_permanent = {
 			35152,
 			35153
 		}
-	},
-	[6013] = {
+	}
+	pg.base.activity_task_permanent[6013] = {
 		gametip = "可获得棘鳍限定换装「五彩斑斓的宴会」",
 		banner_route = "permanent_jiqi",
 		gametip_extra = "最快7日获得",
@@ -363,8 +366,8 @@ pg.base.activity_task_permanent = {
 			35166,
 			35167
 		}
-	},
-	[6014] = {
+	}
+	pg.base.activity_task_permanent[6014] = {
 		gametip = "可获得桐限定换装「特型偶像Fubuki」",
 		banner_route = "permanent_chuixue",
 		gametip_extra = "最快7日获得",
@@ -389,8 +392,8 @@ pg.base.activity_task_permanent = {
 			35180,
 			35181
 		}
-	},
-	[6015] = {
+	}
+	pg.base.activity_task_permanent[6015] = {
 		gametip = "可获得贝利限定换装「捣蛋黑兔」",
 		banner_route = "permanent_beili",
 		gametip_extra = "最快7日获得",
@@ -415,8 +418,8 @@ pg.base.activity_task_permanent = {
 			35194,
 			35195
 		}
-	},
-	[6016] = {
+	}
+	pg.base.activity_task_permanent[6016] = {
 		gametip = "可获得{namecode:408}限定换装「哲学讲师」",
 		banner_route = "permanent_z23",
 		gametip_extra = "最快10日获得",
@@ -447,8 +450,8 @@ pg.base.activity_task_permanent = {
 			35214,
 			35215
 		}
-	},
-	[6017] = {
+	}
+	pg.base.activity_task_permanent[6017] = {
 		gametip = "可获得马布尔黑德限定换装「魅惑的缤纷雪夜」",
 		banner_route = "permanent_mabuerheide",
 		gametip_extra = "最快7日获得",
@@ -458,8 +461,8 @@ pg.base.activity_task_permanent = {
 		id = 6017,
 		over_task_id = "",
 		eliminate_task_id = {}
-	},
-	[6018] = {
+	}
+	pg.base.activity_task_permanent[6018] = {
 		gametip = "可获得限定家具「巧克力啾」",
 		banner_route = "permanent_qiaokelijiu",
 		gametip_extra = "最快7日获得",
@@ -477,8 +480,8 @@ pg.base.activity_task_permanent = {
 			35221,
 			35222
 		}
-	},
-	[6019] = {
+	}
+	pg.base.activity_task_permanent[6019] = {
 		gametip = "可获得{namecode:254}限定换装「角落的向日葵」",
 		banner_route = "permanent_i56",
 		gametip_extra = "最快7日获得",
@@ -503,8 +506,8 @@ pg.base.activity_task_permanent = {
 			35235,
 			35236
 		}
-	},
-	[6020] = {
+	}
+	pg.base.activity_task_permanent[6020] = {
 		gametip = "可获得{namecode:147}限定换装「缎带轻飘飘」",
 		banner_route = "permanent_manchao",
 		gametip_extra = "最快7日获得",
@@ -529,8 +532,8 @@ pg.base.activity_task_permanent = {
 			35256,
 			35257
 		}
-	},
-	[6021] = {
+	}
+	pg.base.activity_task_permanent[6021] = {
 		gametip = "可获得{namecode:46}限定换装「悠闲春日」",
 		banner_route = "permanent_changliang",
 		gametip_extra = "最快7日获得",
@@ -555,8 +558,8 @@ pg.base.activity_task_permanent = {
 			35270,
 			35271
 		}
-	},
-	[6022] = {
+	}
+	pg.base.activity_task_permanent[6022] = {
 		gametip = "可获得角色{namecode:475}",
 		banner_route = "permanent_u410",
 		gametip_extra = "最快7日获得",
@@ -566,8 +569,8 @@ pg.base.activity_task_permanent = {
 		id = 6022,
 		over_task_id = "",
 		eliminate_task_id = {}
-	},
-	[6023] = {
+	}
+	pg.base.activity_task_permanent[6023] = {
 		gametip = "可获得{namecode:30}限定换装「春邀灯火」",
 		banner_route = "permanent_chunyaodenghuo",
 		gametip_extra = "最快7日获得",
@@ -593,4 +596,4 @@ pg.base.activity_task_permanent = {
 			35285
 		}
 	}
-}
+end)()

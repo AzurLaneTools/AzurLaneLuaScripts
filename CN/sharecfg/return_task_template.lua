@@ -1,6 +1,44 @@
 pg = pg or {}
-pg.return_task_template = {
-	[56011] = {
+pg.return_task_template = rawget(pg, "return_task_template") or setmetatable({
+	__name = "return_task_template"
+}, confNEO)
+pg.return_task_template.all = {
+	56011,
+	56012,
+	56013,
+	56021,
+	56022,
+	56023,
+	56031,
+	56032,
+	56033,
+	56041,
+	56042,
+	56043,
+	56051,
+	56052,
+	56053,
+	56061,
+	56062,
+	56063,
+	56071,
+	56072,
+	56073,
+	56081,
+	56082,
+	56083,
+	56091,
+	56092,
+	56093,
+	56101,
+	56102,
+	56103
+}
+pg.base = pg.base or {}
+pg.base.return_task_template = {}
+
+(function ()
+	pg.base.return_task_template[56011] = {
 		reward_date = 1,
 		pt_award = 80,
 		pt_item = 59616,
@@ -41,8 +79,8 @@ pg.return_task_template = {
 				70
 			}
 		}
-	},
-	[56012] = {
+	}
+	pg.base.return_task_template[56012] = {
 		reward_date = 1,
 		pt_award = 80,
 		pt_item = 59616,
@@ -83,8 +121,8 @@ pg.return_task_template = {
 				12
 			}
 		}
-	},
-	[56013] = {
+	}
+	pg.base.return_task_template[56013] = {
 		reward_date = 1,
 		pt_award = 80,
 		pt_item = 59616,
@@ -125,8 +163,8 @@ pg.return_task_template = {
 				300
 			}
 		}
-	},
-	[56021] = {
+	}
+	pg.base.return_task_template[56021] = {
 		reward_date = 2,
 		pt_award = 80,
 		pt_item = 59616,
@@ -167,8 +205,8 @@ pg.return_task_template = {
 				4
 			}
 		}
-	},
-	[56022] = {
+	}
+	pg.base.return_task_template[56022] = {
 		reward_date = 2,
 		pt_award = 80,
 		pt_item = 59616,
@@ -209,8 +247,8 @@ pg.return_task_template = {
 				300
 			}
 		}
-	},
-	[56023] = {
+	}
+	pg.base.return_task_template[56023] = {
 		reward_date = 2,
 		pt_award = 80,
 		pt_item = 59616,
@@ -251,8 +289,8 @@ pg.return_task_template = {
 				30
 			}
 		}
-	},
-	[56031] = {
+	}
+	pg.base.return_task_template[56031] = {
 		reward_date = 3,
 		pt_award = 80,
 		pt_item = 59616,
@@ -293,8 +331,8 @@ pg.return_task_template = {
 				12
 			}
 		}
-	},
-	[56032] = {
+	}
+	pg.base.return_task_template[56032] = {
 		reward_date = 3,
 		pt_award = 80,
 		pt_item = 59616,
@@ -335,8 +373,8 @@ pg.return_task_template = {
 				12
 			}
 		}
-	},
-	[56033] = {
+	}
+	pg.base.return_task_template[56033] = {
 		reward_date = 3,
 		pt_award = 80,
 		pt_item = 59616,
@@ -377,8 +415,8 @@ pg.return_task_template = {
 				450
 			}
 		}
-	},
-	[56041] = {
+	}
+	pg.base.return_task_template[56041] = {
 		reward_date = 4,
 		pt_award = 80,
 		pt_item = 59616,
@@ -419,8 +457,8 @@ pg.return_task_template = {
 				300
 			}
 		}
-	},
-	[56042] = {
+	}
+	pg.base.return_task_template[56042] = {
 		reward_date = 4,
 		pt_award = 80,
 		pt_item = 59616,
@@ -461,8 +499,8 @@ pg.return_task_template = {
 				300
 			}
 		}
-	},
-	[56043] = {
+	}
+	pg.base.return_task_template[56043] = {
 		reward_date = 4,
 		pt_award = 80,
 		pt_item = 59616,
@@ -503,8 +541,8 @@ pg.return_task_template = {
 				400
 			}
 		}
-	},
-	[56051] = {
+	}
+	pg.base.return_task_template[56051] = {
 		reward_date = 5,
 		pt_award = 80,
 		pt_item = 59616,
@@ -545,8 +583,8 @@ pg.return_task_template = {
 				20
 			}
 		}
-	},
-	[56052] = {
+	}
+	pg.base.return_task_template[56052] = {
 		reward_date = 5,
 		pt_award = 80,
 		pt_item = 59616,
@@ -587,8 +625,8 @@ pg.return_task_template = {
 				8
 			}
 		}
-	},
-	[56053] = {
+	}
+	pg.base.return_task_template[56053] = {
 		reward_date = 5,
 		pt_award = 80,
 		pt_item = 59616,
@@ -629,8 +667,8 @@ pg.return_task_template = {
 				2500
 			}
 		}
-	},
-	[56061] = {
+	}
+	pg.base.return_task_template[56061] = {
 		reward_date = 6,
 		pt_award = 80,
 		pt_item = 59616,
@@ -671,8 +709,8 @@ pg.return_task_template = {
 				14
 			}
 		}
-	},
-	[56062] = {
+	}
+	pg.base.return_task_template[56062] = {
 		reward_date = 6,
 		pt_award = 80,
 		pt_item = 59616,
@@ -713,8 +751,8 @@ pg.return_task_template = {
 				15
 			}
 		}
-	},
-	[56063] = {
+	}
+	pg.base.return_task_template[56063] = {
 		reward_date = 6,
 		pt_award = 80,
 		pt_item = 59616,
@@ -755,8 +793,8 @@ pg.return_task_template = {
 				2000
 			}
 		}
-	},
-	[56071] = {
+	}
+	pg.base.return_task_template[56071] = {
 		reward_date = 7,
 		pt_award = 80,
 		pt_item = 59616,
@@ -797,8 +835,8 @@ pg.return_task_template = {
 				27
 			}
 		}
-	},
-	[56072] = {
+	}
+	pg.base.return_task_template[56072] = {
 		reward_date = 7,
 		pt_award = 80,
 		pt_item = 59616,
@@ -839,8 +877,8 @@ pg.return_task_template = {
 				20
 			}
 		}
-	},
-	[56073] = {
+	}
+	pg.base.return_task_template[56073] = {
 		reward_date = 7,
 		pt_award = 80,
 		pt_item = 59616,
@@ -881,8 +919,8 @@ pg.return_task_template = {
 				1
 			}
 		}
-	},
-	[56081] = {
+	}
+	pg.base.return_task_template[56081] = {
 		reward_date = 8,
 		pt_award = 80,
 		pt_item = 59616,
@@ -923,8 +961,8 @@ pg.return_task_template = {
 				20
 			}
 		}
-	},
-	[56082] = {
+	}
+	pg.base.return_task_template[56082] = {
 		reward_date = 8,
 		pt_award = 80,
 		pt_item = 59616,
@@ -965,8 +1003,8 @@ pg.return_task_template = {
 				12
 			}
 		}
-	},
-	[56083] = {
+	}
+	pg.base.return_task_template[56083] = {
 		reward_date = 8,
 		pt_award = 80,
 		pt_item = 59616,
@@ -1007,8 +1045,8 @@ pg.return_task_template = {
 				5
 			}
 		}
-	},
-	[56091] = {
+	}
+	pg.base.return_task_template[56091] = {
 		reward_date = 9,
 		pt_award = 80,
 		pt_item = 59616,
@@ -1049,8 +1087,8 @@ pg.return_task_template = {
 				50
 			}
 		}
-	},
-	[56092] = {
+	}
+	pg.base.return_task_template[56092] = {
 		reward_date = 9,
 		pt_award = 80,
 		pt_item = 59616,
@@ -1091,8 +1129,8 @@ pg.return_task_template = {
 				12
 			}
 		}
-	},
-	[56093] = {
+	}
+	pg.base.return_task_template[56093] = {
 		reward_date = 9,
 		pt_award = 80,
 		pt_item = 59616,
@@ -1133,8 +1171,8 @@ pg.return_task_template = {
 				6
 			}
 		}
-	},
-	[56101] = {
+	}
+	pg.base.return_task_template[56101] = {
 		reward_date = 10,
 		pt_award = 80,
 		pt_item = 59616,
@@ -1175,8 +1213,8 @@ pg.return_task_template = {
 				50
 			}
 		}
-	},
-	[56102] = {
+	}
+	pg.base.return_task_template[56102] = {
 		reward_date = 10,
 		pt_award = 80,
 		pt_item = 59616,
@@ -1217,8 +1255,8 @@ pg.return_task_template = {
 				125
 			}
 		}
-	},
-	[56103] = {
+	}
+	pg.base.return_task_template[56103] = {
 		reward_date = 10,
 		pt_award = 80,
 		pt_item = 59616,
@@ -1259,37 +1297,5 @@ pg.return_task_template = {
 				160
 			}
 		}
-	},
-	all = {
-		56011,
-		56012,
-		56013,
-		56021,
-		56022,
-		56023,
-		56031,
-		56032,
-		56033,
-		56041,
-		56042,
-		56043,
-		56051,
-		56052,
-		56053,
-		56061,
-		56062,
-		56063,
-		56071,
-		56072,
-		56073,
-		56081,
-		56082,
-		56083,
-		56091,
-		56092,
-		56093,
-		56101,
-		56102,
-		56103
 	}
-}
+end)()

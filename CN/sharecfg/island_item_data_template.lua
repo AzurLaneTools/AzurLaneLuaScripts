@@ -1,581 +1,303 @@
 pg = pg or {}
-pg.island_item_data_template = setmetatable({
-	__name = "island_item_data_template",
-	get_id_list_by_usage = {
-		usage_undefined = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			1000,
-			1001,
-			1002,
-			1003,
-			1004,
-			1005,
-			1006,
-			1007,
-			1008,
-			1009,
-			1010,
-			1011,
-			1012,
-			1014,
-			1015,
-			1016,
-			1017,
-			1018,
-			1019,
-			1020,
-			1021,
-			1022,
-			1101,
-			1102,
-			1103,
-			1104,
-			1105,
-			1106,
-			1107,
-			1108,
-			1201,
-			1202,
-			1203,
-			1204,
-			1205,
-			1206,
-			1207,
-			1208,
-			2000,
-			2001,
-			2002,
-			2003,
-			2004,
-			2005,
-			2006,
-			2007,
-			2008,
-			2009,
-			2010,
-			2011,
-			2012,
-			2014,
-			2015,
-			2016,
-			2017,
-			2018,
-			2019,
-			2020,
-			2021,
-			2022,
-			2521,
-			2522,
-			2600,
-			2601,
-			2602,
-			2603,
-			2604,
-			2605,
-			2606,
-			2700,
-			2701,
-			2702,
-			2703,
-			2704,
-			2705,
-			2800,
-			2801,
-			2802,
-			2803,
-			3000,
-			3001,
-			3002,
-			3003,
-			3004,
-			3005,
-			3006,
-			3007,
-			3008,
-			3009,
-			3010,
-			3011,
-			3012,
-			3013,
-			3014,
-			3015,
-			3017,
-			3018,
-			3019,
-			3020,
-			3021,
-			3022,
-			3023,
-			3024,
-			3025,
-			3026,
-			3028,
-			3029,
-			3030,
-			3032,
-			3033,
-			3034,
-			3035,
-			3036,
-			3037,
-			3038,
-			3039,
-			3040,
-			3041,
-			3042,
-			3043,
-			3044,
-			3045,
-			3046,
-			3047,
-			3048,
-			3049,
-			3050,
-			3051,
-			3052,
-			3053,
-			3054,
-			3055,
-			3056,
-			3059,
-			3101,
-			3102,
-			3103,
-			3104,
-			3105,
-			3106,
-			3107,
-			3108,
-			3109,
-			3110,
-			3111,
-			3112,
-			3113,
-			3114,
-			3115,
-			3116,
-			3117,
-			3118,
-			3119,
-			3120,
-			4001,
-			4002,
-			4003,
-			4004,
-			4005,
-			4006,
-			4007,
-			4008,
-			4009,
-			4010,
-			4011,
-			4012,
-			4013,
-			4014,
-			4015,
-			4016,
-			4017,
-			4018,
-			4019,
-			4020,
-			4021,
-			4022,
-			4023,
-			4024,
-			4025,
-			4026,
-			4027,
-			4028,
-			5001,
-			5002,
-			5003,
-			5004,
-			5005,
-			5006,
-			5007,
-			5008,
-			5101,
-			5102,
-			5103,
-			5104,
-			5105,
-			5106,
-			5107,
-			5108,
-			9900,
-			100001,
-			100002,
-			100003,
-			100011,
-			100012,
-			100013,
-			100021,
-			100022,
-			100023,
-			100031,
-			100032,
-			100033,
-			100041,
-			100042,
-			100043,
-			100051,
-			100052,
-			100053,
-			100061,
-			100062,
-			100063,
-			100101,
-			100102,
-			100103,
-			100201,
-			200001,
-			200002,
-			200003,
-			200004,
-			200005,
-			200006,
-			200007,
-			200008,
-			200009,
-			200010,
-			200011,
-			200012,
-			200013,
-			200014,
-			200015,
-			200016,
-			200017,
-			200018,
-			200019,
-			200020,
-			200021,
-			200022,
-			200023,
-			300001,
-			300002,
-			300003,
-			300004,
-			300005,
-			300006
-		},
-		usage_fish = {
-			1500,
-			1501,
-			1502,
-			1503
-		},
-		usage_island_gift = {
-			110001,
-			110002,
-			110003,
-			110004,
-			110005,
-			110006
-		}
+pg.island_item_data_template = rawget(pg, "island_item_data_template") or setmetatable({
+	__name = "island_item_data_template"
+}, confNEO)
+pg.island_item_data_template.__namecode__ = true
+pg.island_item_data_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	1000,
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008,
+	1009,
+	1010,
+	1011,
+	1012,
+	1014,
+	1015,
+	1016,
+	1017,
+	1018,
+	1019,
+	1020,
+	1021,
+	1022,
+	1101,
+	1102,
+	1103,
+	1104,
+	1105,
+	1106,
+	1107,
+	1108,
+	1201,
+	1202,
+	1203,
+	1204,
+	1205,
+	1206,
+	1207,
+	1208,
+	1500,
+	1501,
+	1502,
+	1503,
+	2000,
+	2001,
+	2002,
+	2003,
+	2004,
+	2005,
+	2006,
+	2007,
+	2008,
+	2009,
+	2010,
+	2011,
+	2012,
+	2014,
+	2015,
+	2016,
+	2017,
+	2018,
+	2019,
+	2020,
+	2021,
+	2022,
+	2521,
+	2522,
+	2600,
+	2601,
+	2602,
+	2603,
+	2604,
+	2605,
+	2606,
+	2700,
+	2701,
+	2702,
+	2703,
+	2704,
+	2705,
+	2800,
+	2801,
+	2802,
+	2803,
+	3000,
+	3001,
+	3002,
+	3003,
+	3004,
+	3005,
+	3006,
+	3007,
+	3008,
+	3009,
+	3010,
+	3011,
+	3012,
+	3013,
+	3014,
+	3015,
+	3017,
+	3018,
+	3019,
+	3020,
+	3021,
+	3022,
+	3023,
+	3024,
+	3025,
+	3026,
+	3028,
+	3029,
+	3030,
+	3032,
+	3033,
+	3034,
+	3035,
+	3036,
+	3037,
+	3038,
+	3039,
+	3040,
+	3041,
+	3042,
+	3043,
+	3044,
+	3045,
+	3046,
+	3047,
+	3048,
+	3049,
+	3050,
+	3051,
+	3052,
+	3053,
+	3054,
+	3055,
+	3056,
+	3059,
+	3101,
+	3102,
+	3103,
+	3104,
+	3105,
+	3106,
+	3107,
+	3108,
+	3109,
+	3110,
+	3111,
+	3112,
+	3113,
+	3114,
+	3115,
+	3116,
+	3117,
+	3118,
+	3119,
+	3120,
+	4001,
+	4002,
+	4003,
+	4004,
+	4005,
+	4006,
+	4007,
+	4008,
+	4009,
+	4010,
+	4011,
+	4012,
+	4013,
+	4014,
+	4015,
+	4016,
+	4017,
+	4018,
+	4019,
+	4020,
+	4021,
+	4022,
+	4023,
+	4024,
+	4025,
+	4026,
+	4027,
+	4028,
+	5001,
+	5002,
+	5003,
+	5004,
+	5005,
+	5006,
+	5007,
+	5008,
+	5101,
+	5102,
+	5103,
+	5104,
+	5105,
+	5106,
+	5107,
+	5108,
+	9900,
+	100001,
+	100002,
+	100003,
+	100011,
+	100012,
+	100013,
+	100021,
+	100022,
+	100023,
+	100031,
+	100032,
+	100033,
+	100041,
+	100042,
+	100043,
+	100051,
+	100052,
+	100053,
+	100061,
+	100062,
+	100063,
+	100101,
+	100102,
+	100103,
+	100201,
+	110001,
+	110002,
+	110003,
+	110004,
+	110005,
+	110006,
+	200001,
+	200002,
+	200003,
+	200004,
+	200005,
+	200006,
+	200007,
+	200008,
+	200009,
+	200010,
+	200011,
+	200012,
+	200013,
+	200014,
+	200015,
+	200016,
+	200017,
+	200018,
+	200019,
+	200020,
+	200021,
+	200022,
+	200023,
+	300001,
+	300002,
+	300003,
+	300004,
+	300005,
+	300006
+}
+pg.island_item_data_template.get_id_list_by_usage = {
+	usage_fish = {
+		1500,
+		1501,
+		1502,
+		1503
 	},
-	get_id_list_by_type = {
-		{
-			10,
-			14,
-			1000,
-			1001,
-			1002,
-			1003,
-			1004,
-			1005,
-			1006,
-			1007,
-			1008,
-			1009,
-			1010,
-			1011,
-			1012,
-			1014,
-			1015,
-			1016,
-			1017,
-			1018,
-			1019,
-			1020,
-			1021,
-			1022,
-			1101,
-			1102,
-			1103,
-			1104,
-			1105,
-			1106,
-			1107,
-			1108,
-			1201,
-			1202,
-			1203,
-			1204,
-			1205,
-			1206,
-			1207,
-			1208,
-			2000,
-			2001,
-			2002,
-			2003,
-			2004,
-			2005,
-			2006,
-			2007,
-			2008,
-			2009,
-			2010,
-			2011,
-			2012,
-			2014,
-			2015,
-			2016,
-			2017,
-			2018,
-			2019,
-			2020,
-			2021,
-			2022,
-			2521,
-			2522,
-			2600,
-			2601,
-			2602,
-			2603,
-			2604,
-			2605,
-			2606,
-			2700,
-			2701,
-			2702,
-			2703,
-			2704,
-			2705,
-			2800,
-			2801,
-			2802,
-			2803,
-			3000,
-			3001,
-			3002,
-			3003,
-			3004,
-			3005,
-			3006,
-			3007,
-			3008,
-			3009,
-			3010,
-			3011,
-			3012,
-			3013,
-			3014,
-			3015,
-			3017,
-			3018,
-			3019,
-			3020,
-			3021,
-			3022,
-			3023,
-			3024,
-			3025,
-			3026,
-			3028,
-			3029,
-			3030,
-			3032,
-			3033,
-			3034,
-			3035,
-			3036,
-			3037,
-			3038,
-			3039,
-			3040,
-			3041,
-			3042,
-			3043,
-			3044,
-			3045,
-			3046,
-			3047,
-			3048,
-			3049,
-			3050,
-			3051,
-			3052,
-			3053,
-			3054,
-			3055,
-			3056,
-			3059,
-			3101,
-			3102,
-			3103,
-			3104,
-			3105,
-			3106,
-			3107,
-			3108,
-			3109,
-			3110,
-			3111,
-			3112,
-			3113,
-			3114,
-			3115,
-			3116,
-			3117,
-			3118,
-			3119,
-			3120,
-			4001,
-			4002,
-			4003,
-			4004,
-			4005,
-			4006,
-			4007,
-			4008,
-			4009,
-			4010,
-			4011,
-			4012,
-			4013,
-			4014,
-			4015,
-			4016,
-			4017,
-			4018,
-			4019,
-			4020,
-			4021,
-			4022,
-			4023,
-			4024,
-			4025,
-			4026,
-			4027,
-			4028,
-			5001,
-			5002,
-			5003,
-			5004,
-			5005,
-			5006,
-			5007,
-			5008,
-			5101,
-			5102,
-			5103,
-			5104,
-			5105,
-			5106,
-			5107,
-			5108,
-			9900
-		},
-		[3] = {
-			1,
-			5,
-			6,
-			7,
-			8,
-			9,
-			11,
-			12,
-			13,
-			1500,
-			1501,
-			1502,
-			1503
-		},
-		[4] = {
-			2
-		},
-		[2] = {
-			3,
-			4,
-			100011,
-			100012,
-			100013,
-			100021,
-			100022,
-			100023,
-			100031,
-			100032,
-			100033,
-			100041,
-			100042,
-			100043,
-			100051,
-			100052,
-			100053,
-			100061,
-			100062,
-			100063,
-			100101,
-			100102,
-			100103,
-			100201,
-			110001,
-			110002,
-			110003,
-			110004,
-			110005,
-			110006,
-			200001,
-			200002,
-			200003,
-			200004,
-			200005,
-			200006,
-			200007,
-			200008,
-			200009,
-			200010,
-			200011,
-			200012,
-			200013,
-			200014,
-			200015,
-			200016,
-			200017,
-			200018,
-			200019,
-			200020,
-			200021,
-			200022,
-			200023,
-			300001,
-			300002,
-			300003,
-			300004,
-			300005,
-			300006
-		},
-		[5] = {
-			100001,
-			100002,
-			100003
-		}
+	usage_island_gift = {
+		110001,
+		110002,
+		110003,
+		110004,
+		110005,
+		110006
 	},
-	all = {
+	usage_undefined = {
 		1,
 		2,
 		3,
@@ -628,10 +350,6 @@ pg.island_item_data_template = setmetatable({
 		1206,
 		1207,
 		1208,
-		1500,
-		1501,
-		1502,
-		1503,
 		2000,
 		2001,
 		2002,
@@ -818,6 +536,266 @@ pg.island_item_data_template = setmetatable({
 		100102,
 		100103,
 		100201,
+		200001,
+		200002,
+		200003,
+		200004,
+		200005,
+		200006,
+		200007,
+		200008,
+		200009,
+		200010,
+		200011,
+		200012,
+		200013,
+		200014,
+		200015,
+		200016,
+		200017,
+		200018,
+		200019,
+		200020,
+		200021,
+		200022,
+		200023,
+		300001,
+		300002,
+		300003,
+		300004,
+		300005,
+		300006
+	}
+}
+pg.island_item_data_template.get_id_list_by_type = {
+	{
+		10,
+		14,
+		1000,
+		1001,
+		1002,
+		1003,
+		1004,
+		1005,
+		1006,
+		1007,
+		1008,
+		1009,
+		1010,
+		1011,
+		1012,
+		1014,
+		1015,
+		1016,
+		1017,
+		1018,
+		1019,
+		1020,
+		1021,
+		1022,
+		1101,
+		1102,
+		1103,
+		1104,
+		1105,
+		1106,
+		1107,
+		1108,
+		1201,
+		1202,
+		1203,
+		1204,
+		1205,
+		1206,
+		1207,
+		1208,
+		2000,
+		2001,
+		2002,
+		2003,
+		2004,
+		2005,
+		2006,
+		2007,
+		2008,
+		2009,
+		2010,
+		2011,
+		2012,
+		2014,
+		2015,
+		2016,
+		2017,
+		2018,
+		2019,
+		2020,
+		2021,
+		2022,
+		2521,
+		2522,
+		2600,
+		2601,
+		2602,
+		2603,
+		2604,
+		2605,
+		2606,
+		2700,
+		2701,
+		2702,
+		2703,
+		2704,
+		2705,
+		2800,
+		2801,
+		2802,
+		2803,
+		3000,
+		3001,
+		3002,
+		3003,
+		3004,
+		3005,
+		3006,
+		3007,
+		3008,
+		3009,
+		3010,
+		3011,
+		3012,
+		3013,
+		3014,
+		3015,
+		3017,
+		3018,
+		3019,
+		3020,
+		3021,
+		3022,
+		3023,
+		3024,
+		3025,
+		3026,
+		3028,
+		3029,
+		3030,
+		3032,
+		3033,
+		3034,
+		3035,
+		3036,
+		3037,
+		3038,
+		3039,
+		3040,
+		3041,
+		3042,
+		3043,
+		3044,
+		3045,
+		3046,
+		3047,
+		3048,
+		3049,
+		3050,
+		3051,
+		3052,
+		3053,
+		3054,
+		3055,
+		3056,
+		3059,
+		3101,
+		3102,
+		3103,
+		3104,
+		3105,
+		3106,
+		3107,
+		3108,
+		3109,
+		3110,
+		3111,
+		3112,
+		3113,
+		3114,
+		3115,
+		3116,
+		3117,
+		3118,
+		3119,
+		3120,
+		4001,
+		4002,
+		4003,
+		4004,
+		4005,
+		4006,
+		4007,
+		4008,
+		4009,
+		4010,
+		4011,
+		4012,
+		4013,
+		4014,
+		4015,
+		4016,
+		4017,
+		4018,
+		4019,
+		4020,
+		4021,
+		4022,
+		4023,
+		4024,
+		4025,
+		4026,
+		4027,
+		4028,
+		5001,
+		5002,
+		5003,
+		5004,
+		5005,
+		5006,
+		5007,
+		5008,
+		5101,
+		5102,
+		5103,
+		5104,
+		5105,
+		5106,
+		5107,
+		5108,
+		9900
+	},
+	{
+		3,
+		4,
+		100011,
+		100012,
+		100013,
+		100021,
+		100022,
+		100023,
+		100031,
+		100032,
+		100033,
+		100041,
+		100042,
+		100043,
+		100051,
+		100052,
+		100053,
+		100061,
+		100062,
+		100063,
+		100101,
+		100102,
+		100103,
+		100201,
 		110001,
 		110002,
 		110003,
@@ -853,11 +831,36 @@ pg.island_item_data_template = setmetatable({
 		300004,
 		300005,
 		300006
-	}
-}, confHX)
-pg.base = pg.base or {}
-pg.base.island_item_data_template = {
+	},
 	{
+		1,
+		5,
+		6,
+		7,
+		8,
+		9,
+		11,
+		12,
+		13,
+		1500,
+		1501,
+		1502,
+		1503
+	},
+	{
+		2
+	},
+	{
+		100001,
+		100002,
+		100003
+	}
+}
+pg.base = pg.base or {}
+pg.base.island_item_data_template = {}
+
+(function ()
+	pg.base.island_item_data_template[1] = {
 		name = "开发资金",
 		desc = "在岛屿开发区内流通的货币，是开发区持续发展的基础。",
 		type = 3,
@@ -891,8 +894,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	{
+	}
+	pg.base.island_item_data_template[2] = {
 		name = "开发经验",
 		desc = "岛屿的开发经验，累积足够的开发经验可以提升岛屿的开发等级",
 		type = 4,
@@ -926,8 +929,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	{
+	}
+	pg.base.island_item_data_template[3] = {
 		name = "装扮染色盘",
 		desc = "盘中包含多种染料，能随心所欲地改变装扮的颜色，打造真正独一无二的装扮。 ",
 		type = 2,
@@ -961,8 +964,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	{
+	}
+	pg.base.island_item_data_template[4] = {
 		name = "搭建凭证",
 		desc = "集会岛搭建凭证，使用凭证，在集会岛上搭建属于自己的乐园。",
 		type = 2,
@@ -987,8 +990,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[5] = {
 		name = "地图残片-1",
 		desc = "岛屿上的神秘纸片，歪歪扭扭的线条里不知藏着什么秘密~",
 		type = 3,
@@ -1013,8 +1016,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[6] = {
 		name = "地图残片-2",
 		desc = "岛屿上的神秘纸片，歪歪扭扭的线条里不知藏着什么秘密~",
 		type = 3,
@@ -1039,8 +1042,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[7] = {
 		name = "地图残片-3",
 		desc = "岛屿上的神秘纸片，歪歪扭扭的线条里不知藏着什么秘密~",
 		type = 3,
@@ -1065,8 +1068,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[8] = {
 		name = "地图残片-4",
 		desc = "岛屿上的神秘纸片，歪歪扭扭的线条里不知藏着什么秘密~",
 		type = 3,
@@ -1091,8 +1094,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[9] = {
 		name = "地图残片-5",
 		desc = "岛屿上的神秘纸片，歪歪扭扭的线条里不知藏着什么秘密~",
 		type = 3,
@@ -1117,8 +1120,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[10] = {
 		name = "岛屿PT兑换券",
 		desc = "岛屿计划开发季PT兑换券，开发季结束后会自动转化为当前开发季岛屿开发PT，也可在仓库中手动转化。",
 		type = 1,
@@ -1143,8 +1146,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[11] = {
 		name = "领洋者-娜比娅（特殊）",
 		desc = "领洋者-娜比娅（特殊）",
 		type = 3,
@@ -1167,8 +1170,8 @@ pg.base.island_item_data_template = {
 		filter = {},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[12] = {
 		name = "领航员-TB（特殊）",
 		desc = "领航员-TB（特殊）",
 		type = 3,
@@ -1191,8 +1194,8 @@ pg.base.island_item_data_template = {
 		filter = {},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[13] = {
 		name = "探索者-艾普洛（特殊）",
 		desc = "探索者-艾普洛（特殊）",
 		type = 3,
@@ -1215,8 +1218,8 @@ pg.base.island_item_data_template = {
 		filter = {},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[14] = {
 		name = "岛屿开发PT",
 		desc = "岛屿开发区发展进度的体现，能够用来获取各类开发物资。",
 		type = 1,
@@ -1241,8 +1244,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[1000] = {
+	}
+	pg.base.island_item_data_template[1000] = {
 		name = "小麦种子",
 		desc = "港区精选的小麦种子，可以产出优质的小麦。",
 		type = 1,
@@ -1285,8 +1288,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1001] = {
+	}
+	pg.base.island_item_data_template[1001] = {
 		name = "玉米种子",
 		desc = "港区精选的玉米种子，蕴含丰收的力量。",
 		type = 1,
@@ -1329,8 +1332,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1002] = {
+	}
+	pg.base.island_item_data_template[1002] = {
 		name = "旱稻种子",
 		desc = "港区精选的旱稻种子，一起等待丰收时刻吧~",
 		type = 1,
@@ -1373,8 +1376,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1003] = {
+	}
+	pg.base.island_item_data_template[1003] = {
 		name = "白菜种子",
 		desc = "港区精选的白菜种子，可以种出水灵灵的大白菜！",
 		type = 1,
@@ -1417,8 +1420,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1004] = {
+	}
+	pg.base.island_item_data_template[1004] = {
 		name = "胡萝卜种子",
 		desc = "港区精选的胡萝卜种子，可以种出香甜的胡萝卜。",
 		type = 1,
@@ -1461,8 +1464,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1005] = {
+	}
+	pg.base.island_item_data_template[1005] = {
 		name = "土豆种子",
 		desc = "港区精选的土豆的种子，可以轻松种出高产的土豆。",
 		type = 1,
@@ -1505,8 +1508,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1006] = {
+	}
+	pg.base.island_item_data_template[1006] = {
 		name = "大豆种子",
 		desc = "港区精选的大豆的种子，可以轻松种出优质的大豆。",
 		type = 1,
@@ -1549,8 +1552,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1007] = {
+	}
+	pg.base.island_item_data_template[1007] = {
 		name = "洋葱种子",
 		desc = "港区精选的洋葱种子，能轻松培育出迷人的洋葱。",
 		type = 1,
@@ -1593,8 +1596,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1008] = {
+	}
+	pg.base.island_item_data_template[1008] = {
 		name = "牧草种子",
 		desc = "港区精选的选牧草种子，能种出丰饶的牧草。",
 		type = 1,
@@ -1637,8 +1640,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1009] = {
+	}
+	pg.base.island_item_data_template[1009] = {
 		name = "咖啡树种",
 		desc = "港区精选的咖啡树种，可以结出风味独特的咖啡豆。",
 		type = 1,
@@ -1681,8 +1684,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1010] = {
+	}
+	pg.base.island_item_data_template[1010] = {
 		name = "亚麻种子",
 		desc = "港区精选的亚麻种子，生长迅速，纤维长且坚韧，是纺织的好帮手。",
 		type = 1,
@@ -1725,8 +1728,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1011] = {
+	}
+	pg.base.island_item_data_template[1011] = {
 		name = "草莓种子",
 		desc = "港区精选的草莓种子，可以种出鲜红的草莓。",
 		type = 1,
@@ -1769,8 +1772,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1012] = {
+	}
+	pg.base.island_item_data_template[1012] = {
 		name = "棉花种子",
 		desc = "港区精选的棉花种子，可以结出柔软的棉花。",
 		type = 1,
@@ -1813,8 +1816,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1014] = {
+	}
+	pg.base.island_item_data_template[1014] = {
 		name = "茶树种子",
 		desc = "港区精选的茶树种子，可以种出品质上乘的茶叶。",
 		type = 1,
@@ -1857,8 +1860,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1015] = {
+	}
+	pg.base.island_item_data_template[1015] = {
 		name = "薰衣草种子",
 		desc = "港区精选的薰衣草种子，可以种出一片紫色的花海。",
 		type = 1,
@@ -1901,8 +1904,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1016] = {
+	}
+	pg.base.island_item_data_template[1016] = {
 		name = "苹果树种",
 		desc = "港区培育的优质苹果树种，可以结出清脆可口的苹果。",
 		type = 1,
@@ -1945,8 +1948,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1017] = {
+	}
+	pg.base.island_item_data_template[1017] = {
 		name = "柑橘树种",
 		desc = "港区培育的优质柑橘树种，可以结出鲜甜多汁的柑橘。",
 		type = 1,
@@ -1989,8 +1992,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1018] = {
+	}
+	pg.base.island_item_data_template[1018] = {
 		name = "香蕉树种",
 		desc = "港区培育的优质香蕉树种，可以结出饱满的香蕉。",
 		type = 1,
@@ -2033,8 +2036,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1019] = {
+	}
+	pg.base.island_item_data_template[1019] = {
 		name = "芒果树种",
 		desc = "港区培育的优质芒果树种，可以结出香甜的芒果。",
 		type = 1,
@@ -2077,8 +2080,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1020] = {
+	}
+	pg.base.island_item_data_template[1020] = {
 		name = "柠檬树种",
 		desc = "港区培育的优质柠檬树种，可以结出清新的柠檬。",
 		type = 1,
@@ -2121,8 +2124,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1021] = {
+	}
+	pg.base.island_item_data_template[1021] = {
 		name = "牛油果树种",
 		desc = "港区培育的优质牛油果树种，可以结出营养丰富的牛油果。",
 		type = 1,
@@ -2165,8 +2168,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1022] = {
+	}
+	pg.base.island_item_data_template[1022] = {
 		name = "橡胶树种",
 		desc = "港区精选的橡胶树种，可以产出优质的橡胶。",
 		type = 1,
@@ -2209,8 +2212,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1101] = {
+	}
+	pg.base.island_item_data_template[1101] = {
 		name = "贝苗",
 		desc = "双壳类生物幼苗，成长稳定，培育技术成熟。",
 		type = 1,
@@ -2253,8 +2256,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1102] = {
+	}
+	pg.base.island_item_data_template[1102] = {
 		name = "鲶鱼苗",
 		desc = "底栖淡水鱼苗，耐低氧环境，适宜在静水泥底池中高密度养殖。",
 		type = 1,
@@ -2297,8 +2300,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1103] = {
+	}
+	pg.base.island_item_data_template[1103] = {
 		name = "鲤鱼苗",
 		desc = "淡水杂食性鱼苗，适应性强，可在多种水质条件下稳定生长。",
 		type = 1,
@@ -2341,8 +2344,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1104] = {
+	}
+	pg.base.island_item_data_template[1104] = {
 		name = "鲫鱼苗",
 		desc = "小型淡水鱼苗，主食藻类和有机碎屑，有助于维持水体生态平衡。",
 		type = 1,
@@ -2385,8 +2388,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1105] = {
+	}
+	pg.base.island_item_data_template[1105] = {
 		name = "小河虾苗",
 		desc = "淡水虾类幼体，可作为水体清洁者，喜食残饵与部分藻类。",
 		type = 1,
@@ -2429,8 +2432,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1106] = {
+	}
+	pg.base.island_item_data_template[1106] = {
 		name = "小龙虾苗",
 		desc = "甲壳类幼体，生长过程中甲壳会逐渐变红变硬，其成体是热门水产品。",
 		type = 1,
@@ -2473,8 +2476,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1107] = {
+	}
+	pg.base.island_item_data_template[1107] = {
 		name = "鲈鱼苗",
 		desc = "肉食性鱼苗，肉质鲜嫩，经培育后可获得上乘的食用鱼类。",
 		type = 1,
@@ -2517,8 +2520,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1108] = {
+	}
+	pg.base.island_item_data_template[1108] = {
 		name = "蟹苗",
 		desc = "蜕壳频繁的蟹幼体，需在水质清新的环境中培育。",
 		type = 1,
@@ -2561,8 +2564,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1201] = {
+	}
+	pg.base.island_item_data_template[1201] = {
 		name = "鱿鱼苗",
 		desc = "头足类幼体，成长过程需多次形态变化，最终产出弹滑的肉质。",
 		type = 1,
@@ -2605,8 +2608,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1202] = {
+	}
+	pg.base.island_item_data_template[1202] = {
 		name = "马鲛鱼苗",
 		desc = "肉食性鱼苗，活跃于中上层水域，具有良好成长性。",
 		type = 1,
@@ -2649,8 +2652,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1203] = {
+	}
+	pg.base.island_item_data_template[1203] = {
 		name = "金枪鱼苗",
 		desc = "大型远洋鱼类幼苗，体型增长明显，需要在持续供氧的水域生长。",
 		type = 1,
@@ -2693,8 +2696,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1204] = {
+	}
+	pg.base.island_item_data_template[1204] = {
 		name = "三文鱼苗",
 		desc = "洄游性鱼类幼体，适宜水温较低的水域，需要耐心照料方能收获丰美鱼肉。",
 		type = 1,
@@ -2737,8 +2740,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1205] = {
+	}
+	pg.base.island_item_data_template[1205] = {
 		name = "红鲷鱼苗",
 		desc = "暖水性海水鱼苗，成长后体色鲜艳，具有较高观赏性。",
 		type = 1,
@@ -2781,8 +2784,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1206] = {
+	}
+	pg.base.island_item_data_template[1206] = {
 		name = "黑鲷鱼苗",
 		desc = "礁区鱼类幼苗，体质强健，培育成功率较高。",
 		type = 1,
@@ -2825,8 +2828,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1207] = {
+	}
+	pg.base.island_item_data_template[1207] = {
 		name = "黄鳍金枪鱼苗",
 		desc = "高经济价值鱼苗，水下游动速度快，对水体溶氧量要求严苛。",
 		type = 1,
@@ -2869,8 +2872,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1208] = {
+	}
+	pg.base.island_item_data_template[1208] = {
 		name = "海参苗",
 		desc = "底栖棘皮动物幼体，以沉积有机物为食，能有效净化养殖池底层。",
 		type = 1,
@@ -2913,8 +2916,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1500] = {
+	}
+	pg.base.island_item_data_template[1500] = {
 		name = "蚯蚓",
 		desc = "模拟蚯蚓的假饵，其逼真的造型容易吸引鱼类上钩。",
 		type = 3,
@@ -2944,8 +2947,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[1501] = {
+	}
+	pg.base.island_item_data_template[1501] = {
 		name = "玉米粒",
 		desc = "经过特殊调味的玉米粒假饵，金黄的色泽能有效吸引杂食性鱼类的注意。",
 		type = 3,
@@ -2970,8 +2973,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[1502] = {
+	}
+	pg.base.island_item_data_template[1502] = {
 		name = "虾仁",
 		desc = "精心制作的模拟虾仁假饵，其逼真的形态和动作能诱惑多数肉食鱼类。",
 		type = 3,
@@ -3001,8 +3004,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[1503] = {
+	}
+	pg.base.island_item_data_template[1503] = {
 		name = "章鱼须",
 		desc = "造型独特的仿真假饵，它在水中的舞动对大型海产有着致命的吸引力。",
 		type = 3,
@@ -3032,8 +3035,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2000] = {
+	}
+	pg.base.island_item_data_template[2000] = {
 		name = "小麦",
 		desc = "刚收获不久的新鲜小麦，制作面粉的重要原料。",
 		type = 1,
@@ -3064,8 +3067,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2001] = {
+	}
+	pg.base.island_item_data_template[2001] = {
 		name = "玉米",
 		desc = "金黄饱满的玉米，散发着田野的清甜气息。",
 		type = 1,
@@ -3096,8 +3099,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2002] = {
+	}
+	pg.base.island_item_data_template[2002] = {
 		name = "大米",
 		desc = "清白色的优质大米，含有丰富的淀粉和谷物蛋白。",
 		type = 1,
@@ -3128,8 +3131,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2003] = {
+	}
+	pg.base.island_item_data_template[2003] = {
 		name = "白菜",
 		desc = "清脆可口的白菜，新鲜直采！",
 		type = 1,
@@ -3160,8 +3163,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2004] = {
+	}
+	pg.base.island_item_data_template[2004] = {
 		name = "胡萝卜",
 		desc = "家中常备蔬菜，营养丰富，口感清甜。",
 		type = 1,
@@ -3192,8 +3195,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2005] = {
+	}
+	pg.base.island_item_data_template[2005] = {
 		name = "土豆",
 		desc = "蔬菜中的淀粉代表，可以被做成千变万化的形态。",
 		type = 1,
@@ -3224,8 +3227,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2006] = {
+	}
+	pg.base.island_item_data_template[2006] = {
 		name = "大豆",
 		desc = "圆润饱满，富含蛋白质，除了制作美食之外，也有丰富的工业用途。",
 		type = 1,
@@ -3256,8 +3259,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2007] = {
+	}
+	pg.base.island_item_data_template[2007] = {
 		name = "洋葱",
 		desc = "紫色的外衣剥开……小心别被弄掉眼泪！",
 		type = 1,
@@ -3288,8 +3291,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2008] = {
+	}
+	pg.base.island_item_data_template[2008] = {
 		name = "牧草",
 		desc = "高品质牧草，让牧场充满生机！",
 		type = 1,
@@ -3320,8 +3323,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2009] = {
+	}
+	pg.base.island_item_data_template[2009] = {
 		name = "咖啡豆",
 		desc = "香气浓郁，提神醒脑，不来一杯吗？",
 		type = 1,
@@ -3352,8 +3355,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2010] = {
+	}
+	pg.base.island_item_data_template[2010] = {
 		name = "亚麻",
 		desc = "长纤维亚麻，适合纺线织布，你的工坊佳选！",
 		type = 1,
@@ -3384,8 +3387,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2011] = {
+	}
+	pg.base.island_item_data_template[2011] = {
 		name = "草莓",
 		desc = "红彤彤的果实酸甜多汁，很适合搭配甜点食用。",
 		type = 1,
@@ -3416,8 +3419,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2012] = {
+	}
+	pg.base.island_item_data_template[2012] = {
 		name = "棉花",
 		desc = "柔软的白色棉花，纺织业的重要材料。",
 		type = 1,
@@ -3448,8 +3451,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2014] = {
+	}
+	pg.base.island_item_data_template[2014] = {
 		name = "茶叶",
 		desc = "苦涩清香，享受大自然的味道~",
 		type = 1,
@@ -3480,8 +3483,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2015] = {
+	}
+	pg.base.island_item_data_template[2015] = {
 		name = "薰衣草",
 		desc = "芬芳四溢，除点缀花园外，还能用来萃取精油。",
 		type = 1,
@@ -3512,8 +3515,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2016] = {
+	}
+	pg.base.island_item_data_template[2016] = {
 		name = "苹果",
 		desc = "清脆多汁，富含多种维生素，可直接食用也可加工为果汁。",
 		type = 1,
@@ -3544,8 +3547,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2017] = {
+	}
+	pg.base.island_item_data_template[2017] = {
 		name = "柑橘",
 		desc = "便宜、易保存、还带有美好香气的水果。",
 		type = 1,
@@ -3576,8 +3579,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2018] = {
+	}
+	pg.base.island_item_data_template[2018] = {
 		name = "香蕉",
 		desc = "热带风情的象征，柔软香甜，富含丰富的膳食纤维。",
 		type = 1,
@@ -3608,8 +3611,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2019] = {
+	}
+	pg.base.island_item_data_template[2019] = {
 		name = "芒果",
 		desc = "果肉细腻的夏日水果，拥有超高的甜度，可以榨汁食用。",
 		type = 1,
@@ -3640,8 +3643,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2020] = {
+	}
+	pg.base.island_item_data_template[2020] = {
 		name = "柠檬",
 		desc = "果皮清香，酸甜适中，时常用来调味。",
 		type = 1,
@@ -3672,8 +3675,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2021] = {
+	}
+	pg.base.island_item_data_template[2021] = {
 		name = "牛油果",
 		desc = "口感细腻软糯，美味无糖更健康。",
 		type = 1,
@@ -3704,8 +3707,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2022] = {
+	}
+	pg.base.island_item_data_template[2022] = {
 		name = "橡胶",
 		desc = "高弹性，工业加工的常见材料，用途广泛！",
 		type = 1,
@@ -3736,8 +3739,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2521] = {
+	}
+	pg.base.island_item_data_template[2521] = {
 		name = "淡水鱼肉",
 		desc = "加工后的鲜美淡水鱼肉，是制作许多家常料理的基础食材。",
 		type = 1,
@@ -3768,8 +3771,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2522] = {
+	}
+	pg.base.island_item_data_template[2522] = {
 		name = "海水鱼肉",
 		desc = "加工后的新鲜海水鱼肉，带着海洋的芬芳。",
 		type = 1,
@@ -3800,8 +3803,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2600] = {
+	}
+	pg.base.island_item_data_template[2600] = {
 		name = "鲜肉",
 		desc = "动物产出的鲜肉，最为优质的蛋白质来源。",
 		type = 1,
@@ -3832,8 +3835,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2601] = {
+	}
+	pg.base.island_item_data_template[2601] = {
 		name = "鸡蛋",
 		desc = "土褐色的鸡蛋，是烹饪的常见原料。",
 		type = 1,
@@ -3864,8 +3867,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2602] = {
+	}
+	pg.base.island_item_data_template[2602] = {
 		name = "禽肉",
 		desc = "低脂肪高蛋白肉类，适合多种菜肴。",
 		type = 1,
@@ -3896,8 +3899,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2603] = {
+	}
+	pg.base.island_item_data_template[2603] = {
 		name = "牛奶",
 		desc = "不仅是天然的饮品，还能用来制作酸奶和奶酪等美味。",
 		type = 1,
@@ -3928,8 +3931,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2604] = {
+	}
+	pg.base.island_item_data_template[2604] = {
 		name = "皮料",
 		desc = "经过简单处理的动物皮，可进一步加工为皮革。",
 		type = 1,
@@ -3960,8 +3963,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2605] = {
+	}
+	pg.base.island_item_data_template[2605] = {
 		name = "羊毛",
 		desc = "动物身上的毛纤维，是纺织工业的重要原料。",
 		type = 1,
@@ -3992,8 +3995,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2606] = {
+	}
+	pg.base.island_item_data_template[2606] = {
 		name = "新鲜蜂蜜",
 		desc = "新鲜采集的蜂蜜，充满了自然的香甜。",
 		type = 1,
@@ -4024,8 +4027,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2700] = {
+	}
+	pg.base.island_item_data_template[2700] = {
 		name = "煤炭",
 		desc = "基础的燃料，燃烧效率高，常用于加热或工业生产。",
 		type = 1,
@@ -4056,8 +4059,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2701] = {
+	}
+	pg.base.island_item_data_template[2701] = {
 		name = "铜矿",
 		desc = "富含铜元素的矿石，冶炼出的铜常用于生产电子产品。",
 		type = 1,
@@ -4088,8 +4091,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2702] = {
+	}
+	pg.base.island_item_data_template[2702] = {
 		name = "铝矿",
 		desc = "富含铝元素的矿石，冶炼出的铝常用于制造飞行器和船舶。",
 		type = 1,
@@ -4120,8 +4123,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2703] = {
+	}
+	pg.base.island_item_data_template[2703] = {
 		name = "铁矿",
 		desc = "富含铁元素的矿石，冶炼出的铁常用于建造各种建筑。",
 		type = 1,
@@ -4152,8 +4155,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2704] = {
+	}
+	pg.base.island_item_data_template[2704] = {
 		name = "硫矿",
 		desc = "富含硫元素的矿石，冶炼出的硫常用于制作肥料和杀虫剂。",
 		type = 1,
@@ -4184,8 +4187,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2705] = {
+	}
+	pg.base.island_item_data_template[2705] = {
 		name = "银矿",
 		desc = "富含银元素的矿石，冶炼出的银常用于制作合金和化学仪器。",
 		type = 1,
@@ -4216,8 +4219,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2800] = {
+	}
+	pg.base.island_item_data_template[2800] = {
 		name = "自然之木",
 		desc = "木材中的基础款，从造纸到建筑，用途广泛。",
 		type = 1,
@@ -4248,8 +4251,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2801] = {
+	}
+	pg.base.island_item_data_template[2801] = {
 		name = "实用之木",
 		desc = "纹理美观，适合制作家具和地板。",
 		type = 1,
@@ -4280,8 +4283,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2802] = {
+	}
+	pg.base.island_item_data_template[2802] = {
 		name = "精选之木",
 		desc = "坚固耐用，传统造船和高端家具料。",
 		type = 1,
@@ -4312,8 +4315,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2803] = {
+	}
+	pg.base.island_item_data_template[2803] = {
 		name = "典雅之木",
 		desc = "美观且坚硬，适合高档装饰和家具。",
 		type = 1,
@@ -4344,8 +4347,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3000] = {
+	}
+	pg.base.island_item_data_template[3000] = {
 		name = "咯咯鸡饲料",
 		desc = "专为咯咯鸡打造的高蛋白饲料，能为其提供充足的能量。",
 		type = 1,
@@ -4388,8 +4391,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[3001] = {
+	}
+	pg.base.island_item_data_template[3001] = {
 		name = "哼哼猪饲料",
 		desc = "专为哼哼猪打造的增重用饲料，适合食量大的动物食用。",
 		type = 1,
@@ -4432,8 +4435,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[3002] = {
+	}
+	pg.base.island_item_data_template[3002] = {
 		name = "哞哞牛饲料",
 		desc = "专为哞哞牛打造的营养饲料，能帮助哞哞牛产出香甜浓郁的牛奶。",
 		type = 1,
@@ -4476,8 +4479,10 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[3003] = {
+	}
+end)()
+(function ()
+	pg.base.island_item_data_template[3003] = {
 		name = "咩咩羊饲料",
 		desc = "专为咩咩羊打造的玉米粉制饲料，能帮助咩咩羊长出更加柔顺的羊毛 。",
 		type = 1,
@@ -4520,8 +4525,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[3004] = {
+	}
+	pg.base.island_item_data_template[3004] = {
 		name = "面粉",
 		desc = "由小麦磨成的白面粉，制作面包、蛋糕和披萨的必需品。",
 		type = 1,
@@ -4552,8 +4557,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3005] = {
+	}
+	pg.base.island_item_data_template[3005] = {
 		name = "冰咖啡",
 		desc = "口感清爽，适合夏日消暑和提神。",
 		type = 1,
@@ -4587,8 +4592,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3006] = {
+	}
+	pg.base.island_item_data_template[3006] = {
 		name = "芝士",
 		desc = "以奶类为原料制成，含有丰富的蛋白质和脂质，常用来搭配面包使用。",
 		type = 1,
@@ -4622,8 +4627,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3007] = {
+	}
+	pg.base.island_item_data_template[3007] = {
 		name = "拿铁",
 		desc = "浓缩咖啡与蒸奶混合，口感香滑，深受咖啡爱好者喜爱 。",
 		type = 1,
@@ -4657,8 +4662,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3008] = {
+	}
+	pg.base.island_item_data_template[3008] = {
 		name = "柑橘咖啡",
 		desc = "加入了柑橘汁的咖啡饮品，以清新的酸度和自然的果香为特色。",
 		type = 1,
@@ -4692,8 +4697,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3009] = {
+	}
+	pg.base.island_item_data_template[3009] = {
 		name = "苹果派",
 		desc = "将苹果馅料裹在酥皮之中，口感香甜，是经典甜点代表之一。",
 		type = 1,
@@ -4727,8 +4732,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3010] = {
+	}
+	pg.base.island_item_data_template[3010] = {
 		name = "草莓奶绿",
 		desc = "入口细腻的奶沫，清新丝滑，口感丰富。",
 		type = 1,
@@ -4762,8 +4767,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3011] = {
+	}
+	pg.base.island_item_data_template[3011] = {
 		name = "豆腐",
 		desc = "白净柔嫩，由大豆制成，富含丰富的植物蛋白。",
 		type = 1,
@@ -4797,8 +4802,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3012] = {
+	}
+	pg.base.island_item_data_template[3012] = {
 		name = "肉末烧豆腐",
 		desc = "经典家常菜，口感滑嫩、汤汁浓郁。",
 		type = 1,
@@ -4832,8 +4837,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3013] = {
+	}
+	pg.base.island_item_data_template[3013] = {
 		name = "蛋包饭",
 		desc = "金黄的煎蛋包裹着松软的米饭，每一口都充满了惊喜！",
 		type = 1,
@@ -4867,8 +4872,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3014] = {
+	}
+	pg.base.island_item_data_template[3014] = {
 		name = "白菜豆腐汤",
 		desc = "白菜的鲜甜与豆腐的嫩滑交织，是非常清淡健康的菜式。",
 		type = 1,
@@ -4902,8 +4907,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3015] = {
+	}
+	pg.base.island_item_data_template[3015] = {
 		name = "蔬菜沙拉",
 		desc = "新鲜的蔬菜搭配香浓的酱汁，清爽可口！",
 		type = 1,
@@ -4937,8 +4942,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3017] = {
+	}
+	pg.base.island_item_data_template[3017] = {
 		name = "苹果汁",
 		desc = "鲜榨水果汁果香浓郁，是很受欢迎的健康饮品！",
 		type = 1,
@@ -4972,8 +4977,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3018] = {
+	}
+	pg.base.island_item_data_template[3018] = {
 		name = "香蕉芒果汁",
 		desc = "香蕉与芒果的完美融合，是热带风味的浓缩！",
 		type = 1,
@@ -5007,8 +5012,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3019] = {
+	}
+	pg.base.island_item_data_template[3019] = {
 		name = "蜂蜜柠檬水",
 		desc = "甘甜蜂蜜与清爽柠檬的美妙融合，还能补充维c。",
 		type = 1,
@@ -5042,8 +5047,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3020] = {
+	}
+	pg.base.island_item_data_template[3020] = {
 		name = "草莓蜜沁",
 		desc = "草莓与柠檬的奇妙组合，清爽不腻的果味特饮。",
 		type = 1,
@@ -5077,8 +5082,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3021] = {
+	}
+	pg.base.island_item_data_template[3021] = {
 		name = "薰衣草茶",
 		desc = "具有净化心绪，舒解压力的作用，很适合调养身心。",
 		type = 1,
@@ -5112,8 +5117,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3022] = {
+	}
+	pg.base.island_item_data_template[3022] = {
 		name = "草莓蜂蜜冰沙",
 		desc = "草莓的酸甜与蜂蜜的香浓完美融合，构成甜蜜的冰沙世界。",
 		type = 1,
@@ -5147,8 +5152,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3023] = {
+	}
+	pg.base.island_item_data_template[3023] = {
 		name = "玉米杯",
 		desc = "金黄的玉米粒经过简单蒸煮变得香甜可口，是常见的美味小吃。",
 		type = 1,
@@ -5182,8 +5187,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3024] = {
+	}
+	pg.base.island_item_data_template[3024] = {
 		name = "香橙派",
 		desc = "经典甜点，下午茶时间食用更佳。",
 		type = 1,
@@ -5217,8 +5222,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3025] = {
+	}
+	pg.base.island_item_data_template[3025] = {
 		name = "芒果糯米饭",
 		desc = "热带风情特色家常菜，适合没食欲的时候食用。",
 		type = 1,
@@ -5252,8 +5257,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3026] = {
+	}
+	pg.base.island_item_data_template[3026] = {
 		name = "香蕉可丽饼",
 		desc = "经典早餐，口感酥脆，老少皆宜。",
 		type = 1,
@@ -5287,8 +5292,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3028] = {
+	}
+	pg.base.island_item_data_template[3028] = {
 		name = "草莓夏洛特",
 		desc = "口感酥脆的蛋白霜底搭配香甜的草莓馅料，深受甜品爱好者的喜爱。",
 		type = 1,
@@ -5322,8 +5327,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3029] = {
+	}
+	pg.base.island_item_data_template[3029] = {
 		name = "炭烤肉串",
 		desc = "外焦里嫩，香气扑鼻，烧烤派对的必备美食！",
 		type = 1,
@@ -5357,8 +5362,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3030] = {
+	}
+	pg.base.island_item_data_template[3030] = {
 		name = "禽肉土豆拼盘",
 		desc = "简单而美味，是家庭餐桌上的经典搭配！",
 		type = 1,
@@ -5392,8 +5397,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3032] = {
+	}
+	pg.base.island_item_data_template[3032] = {
 		name = "爆炒禽肉",
 		desc = "禽肉搭配调料爆炒出锅，香气四溢！",
 		type = 1,
@@ -5427,8 +5432,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3033] = {
+	}
+	pg.base.island_item_data_template[3033] = {
 		name = "胡萝卜厚蛋烧",
 		desc = "薄薄的蛋皮裹着香甜的胡萝卜，口感层次丰富，是早餐或下午茶的绝佳选择！",
 		type = 1,
@@ -5462,8 +5467,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3034] = {
+	}
+	pg.base.island_item_data_template[3034] = {
 		name = "汉堡肉饭",
 		desc = "既有快餐的便捷，又能享受主食的饱腹感，当之无愧的多功能美食！",
 		type = 1,
@@ -5497,8 +5502,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3035] = {
+	}
+	pg.base.island_item_data_template[3035] = {
 		name = "布料",
 		desc = "由带有纤维的材料制成的织品，是很多日用品和工业产品的原料。",
 		type = 1,
@@ -5529,8 +5534,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3036] = {
+	}
+	pg.base.island_item_data_template[3036] = {
 		name = "皮革",
 		desc = "由动物的皮毛加工而来，常用于服装和家具的制作。",
 		type = 1,
@@ -5561,8 +5566,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3037] = {
+	}
+	pg.base.island_item_data_template[3037] = {
 		name = "绳索",
 		desc = "紧实坚韧，无论是绑货物还是搭架子，都能派上用场。",
 		type = 1,
@@ -5593,8 +5598,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3038] = {
+	}
+	pg.base.island_item_data_template[3038] = {
 		name = "手套",
 		desc = "家家必备的保暖用品，寒冷天气出行少不了它。",
 		type = 1,
@@ -5625,8 +5630,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3039] = {
+	}
+	pg.base.island_item_data_template[3039] = {
 		name = "香囊",
 		desc = "装满草药或香料，随身携带提神醒脑。",
 		type = 1,
@@ -5657,8 +5662,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3040] = {
+	}
+	pg.base.island_item_data_template[3040] = {
 		name = "鞋靴",
 		desc = "皮革制品，通常用于保护足部。",
 		type = 1,
@@ -5689,8 +5694,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3041] = {
+	}
+	pg.base.island_item_data_template[3041] = {
 		name = "绷带",
 		desc = "急救必备品，无论割伤还是擦伤，都能及时处理。",
 		type = 1,
@@ -5721,8 +5726,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3042] = {
+	}
+	pg.base.island_item_data_template[3042] = {
 		name = "炭笔",
 		desc = "通常用于绘画和速写，美术常用工具的一种。",
 		type = 1,
@@ -5753,8 +5758,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3043] = {
+	}
+	pg.base.island_item_data_template[3043] = {
 		name = "电缆",
 		desc = "现代化的象征，为众多设施提供了电力支持。",
 		type = 1,
@@ -5785,8 +5790,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3044] = {
+	}
+	pg.base.island_item_data_template[3044] = {
 		name = "铁钉",
 		desc = "常见建造用品，经常用于固定木板和制作家具。",
 		type = 1,
@@ -5817,8 +5822,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3045] = {
+	}
+	pg.base.island_item_data_template[3045] = {
 		name = "硫酸",
 		desc = "拥有很强腐蚀性的化学品。",
 		type = 1,
@@ -5849,8 +5854,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3046] = {
+	}
+	pg.base.island_item_data_template[3046] = {
 		name = "火药",
 		desc = "现代武器的必需品，需要妥善保管的危险品。",
 		type = 1,
@@ -5881,8 +5886,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3047] = {
+	}
+	pg.base.island_item_data_template[3047] = {
 		name = "刀叉餐具",
 		desc = "家家户户，餐桌必备。",
 		type = 1,
@@ -5913,8 +5918,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3048] = {
+	}
+	pg.base.island_item_data_template[3048] = {
 		name = "纸张",
 		desc = "常以廉价的植物纤维制成，保存容易，书写方便。",
 		type = 1,
@@ -5945,8 +5950,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3049] = {
+	}
+	pg.base.island_item_data_template[3049] = {
 		name = "记事本",
 		desc = "记满了日常事务的本子，也可当作日记本使用。",
 		type = 1,
@@ -5977,8 +5982,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3050] = {
+	}
+	pg.base.island_item_data_template[3050] = {
 		name = "桌椅",
 		desc = "最常见的家具，能够提供一个休息的地方。",
 		type = 1,
@@ -6009,8 +6014,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3051] = {
+	}
+	pg.base.island_item_data_template[3051] = {
 		name = "精选木桶",
 		desc = "多功能工具，通常用来储存红酒或蜂蜜。",
 		type = 1,
@@ -6041,8 +6046,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3052] = {
+	}
+	pg.base.island_item_data_template[3052] = {
 		name = "文件柜",
 		desc = "办公室必备，可以方便存放、管理各类文件。",
 		type = 1,
@@ -6073,8 +6078,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3053] = {
+	}
+	pg.base.island_item_data_template[3053] = {
 		name = "墨盒",
 		desc = "用来存储打印墨水，是打印机的核心组件。",
 		type = 1,
@@ -6105,8 +6110,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3054] = {
+	}
+	pg.base.island_item_data_template[3054] = {
 		name = "钟表",
 		desc = "指示时间的精密仪器，常被固定在房间墙上。",
 		type = 1,
@@ -6137,8 +6142,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3055] = {
+	}
+	pg.base.island_item_data_template[3055] = {
 		name = "蓄电池",
 		desc = "可重复使用，为电机、照明设备等提供稳定的能源。",
 		type = 1,
@@ -6169,8 +6174,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3056] = {
+	}
+	pg.base.island_item_data_template[3056] = {
 		name = "净水滤芯",
 		desc = "过滤掉水中的杂质，为大家提供纯净的水源！",
 		type = 1,
@@ -6201,8 +6206,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3059] = {
+	}
+	pg.base.island_item_data_template[3059] = {
 		name = "欧姆蛋",
 		desc = "蓬松蛋皮包裹柔嫩内馅，金黄诱人，简单而满足的美味",
 		type = 1,
@@ -6236,8 +6241,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3101] = {
+	}
+	pg.base.island_item_data_template[3101] = {
 		name = "经典豆腐套餐",
 		desc = "肉末烧豆腐搭配白菜豆腐汤，简单美味的一餐。",
 		type = 1,
@@ -6271,8 +6276,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3102] = {
+	}
+	pg.base.island_item_data_template[3102] = {
 		name = "绵玉定食",
 		desc = "蓬松蛋包饭搭配温润嫩豆腐，简单却令人满足的滋味。",
 		type = 1,
@@ -6306,8 +6311,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3103] = {
+	}
+	pg.base.island_item_data_template[3103] = {
 		name = "花香果韵",
 		desc = "薰衣草的舒缓芬芳与苹果的清新甘甜巧妙融合，带来双重味觉享受。",
 		type = 1,
@@ -6341,8 +6346,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3104] = {
+	}
+	pg.base.island_item_data_template[3104] = {
 		name = "缤纷果乐园",
 		desc = "香甜香蕉芒果汁碰撞草莓蜂蜜冰沙，双重果味为你带去清爽的体验。",
 		type = 1,
@@ -6376,8 +6381,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3105] = {
+	}
+	pg.base.island_item_data_template[3105] = {
 		name = "阳光蜜水",
 		desc = "草莓蜜沁的甜美与蜂蜜柠檬水的清新，碰撞出活力十足的阳光味道。",
 		type = 1,
@@ -6411,8 +6416,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3106] = {
+	}
+	pg.base.island_item_data_template[3106] = {
 		name = "香甜组合",
 		desc = "热带芒果香糯，遇上甜脆玉米杯，一次尝遍两种幸福甜味。",
 		type = 1,
@@ -6446,8 +6451,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3107] = {
+	}
+	pg.base.island_item_data_template[3107] = {
 		name = "果园二重奏",
 		desc = "香蕉可丽饼的柔软搭配金黄苹果派的酥香，一次享受双重果味甜蜜。",
 		type = 1,
@@ -6481,8 +6486,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3108] = {
+	}
+	pg.base.island_item_data_template[3108] = {
 		name = "莓果香橙甜点组",
 		desc = "草莓的浪漫邂逅香橙的阳光气息，碰撞出令人陶醉的甜点时光。",
 		type = 1,
@@ -6516,8 +6521,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3109] = {
+	}
+	pg.base.island_item_data_template[3109] = {
 		name = "烤肉狂欢",
 		desc = "香烤肉串配酥嫩禽肉土豆，让你一次吃个过瘾。",
 		type = 1,
@@ -6551,8 +6556,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3110] = {
+	}
+	pg.base.island_item_data_template[3110] = {
 		name = "能量双拼套餐",
 		desc = "经典汉堡肉饭搭配香辣爆炒禽肉，双重蛋白质满足你一天的能量。",
 		type = 1,
@@ -6586,8 +6591,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3111] = {
+	}
+	pg.base.island_item_data_template[3111] = {
 		name = "晨光活力组合",
 		desc = "蓬松欧姆蛋邂逅香浓拿铁，给你一个完美的早餐时刻。",
 		type = 1,
@@ -6621,8 +6626,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3112] = {
+	}
+	pg.base.island_item_data_template[3112] = {
 		name = "醒神套餐",
 		desc = "冰咖啡搭配浓郁芝士，苦甜平衡的经典醒神套餐。",
 		type = 1,
@@ -6656,8 +6661,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3113] = {
+	}
+	pg.base.island_item_data_template[3113] = {
 		name = "果香双杯乐",
 		desc = "柑橘咖啡的微酸邂逅草莓奶绿的香甜，两份特调一次满足。",
 		type = 1,
@@ -6691,8 +6696,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3114] = {
+	}
+	pg.base.island_item_data_template[3114] = {
 		name = "炸鱼薯条",
 		desc = "炸鱼外酥里嫩，薯条香脆可口，深受大众喜爱！",
 		type = 1,
@@ -6726,8 +6731,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3115] = {
+	}
+	pg.base.island_item_data_template[3115] = {
 		name = "柠檬虾",
 		desc = "虾肉的鲜嫩与柠檬的酸甜相结合，清爽开胃。",
 		type = 1,
@@ -6761,8 +6766,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3116] = {
+	}
+	pg.base.island_item_data_template[3116] = {
 		name = "洋葱蒸鱼",
 		desc = "以清甜洋葱丝佐味的蒸制鱼鲜，最大程度保留了鱼肉的原滋原味。",
 		type = 1,
@@ -6796,8 +6801,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3117] = {
+	}
+	pg.base.island_item_data_template[3117] = {
 		name = "装饰画",
 		desc = "点缀着房间墙壁的精致画作，为房间增添一抹艺术气息。",
 		type = 1,
@@ -6828,8 +6833,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3118] = {
+	}
+	pg.base.island_item_data_template[3118] = {
 		name = "海鲜饭",
 		desc = "汇聚了海鲜精华的丰盛烩饭，米粒中藏着大海的慷慨赠礼。",
 		type = 1,
@@ -6863,8 +6868,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3119] = {
+	}
+	pg.base.island_item_data_template[3119] = {
 		name = "爆炒小龙虾",
 		desc = "以旺火快炒出的小龙虾红亮诱人，是很受欢迎的下饭佳肴。",
 		type = 1,
@@ -6898,8 +6903,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3120] = {
+	}
+	pg.base.island_item_data_template[3120] = {
 		name = "佛跳墙",
 		desc = "精心炖煮数小时的珍馐，常被作为宴席上的压轴佳肴。",
 		type = 1,
@@ -6933,8 +6938,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4001] = {
+	}
+	pg.base.island_item_data_template[4001] = {
 		name = "秋菊",
 		desc = "金黄色的秋菊，随风摇曳，是秋季观赏与泡茶的佳品。",
 		type = 1,
@@ -6964,8 +6969,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4002] = {
+	}
+	pg.base.island_item_data_template[4002] = {
 		name = "芦苇花",
 		desc = "轻盈洁白的芦苇花，生于水岸，常用于制作干花装饰。",
 		type = 1,
@@ -6995,8 +7000,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4003] = {
+	}
+	pg.base.island_item_data_template[4003] = {
 		name = "花生",
 		desc = "香脆可口的花生，富含蛋白质和健康脂肪。",
 		type = 1,
@@ -7026,8 +7031,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4004] = {
+	}
+	pg.base.island_item_data_template[4004] = {
 		name = "松茸",
 		desc = "鲜嫩的山林珍品松茸，香气独特，是煲汤提鲜的顶级食材。",
 		type = 1,
@@ -7057,8 +7062,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4005] = {
+	}
+	pg.base.island_item_data_template[4005] = {
 		name = "秋月梨",
 		desc = "清甜多汁的秋月梨，果肉细腻，是生津润燥的秋季佳果。",
 		type = 1,
@@ -7089,8 +7094,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4006] = {
+	}
+	pg.base.island_item_data_template[4006] = {
 		name = "秋月梨树种",
 		desc = "秋月梨树种，蕴藏清甜的未来，可培育优质梨树。",
 		type = 1,
@@ -7132,8 +7137,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[4007] = {
+	}
+	pg.base.island_item_data_template[4007] = {
 		name = "柿子",
 		desc = "红艳饱满的柿子，软糯甘甜，富含维生素，是秋日时令鲜果。",
 		type = 1,
@@ -7164,8 +7169,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4008] = {
+	}
+	pg.base.island_item_data_template[4008] = {
 		name = "柿子树种",
 		desc = "种下种子，收获“柿柿”如意的美好。",
 		type = 1,
@@ -7207,8 +7212,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[4009] = {
+	}
+	pg.base.island_item_data_template[4009] = {
 		name = "柿子饼",
 		desc = "香甜软糯的柿子饼，由鲜柿制作而成，是传统风味茶点。",
 		type = 1,
@@ -7242,8 +7247,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4010] = {
+	}
+	pg.base.island_item_data_template[4010] = {
 		name = "松茸鸡汤",
 		desc = "鲜香浓郁的松茸鸡汤，使用禽肉与松茸慢炖，温补滋养。",
 		type = 1,
@@ -7277,8 +7282,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4011] = {
+	}
+	pg.base.island_item_data_template[4011] = {
 		name = "秋季花束",
 		desc = "温暖橘黄的秋季花束，精选菊花、芦苇等时令花材，装点秋意。",
 		type = 1,
@@ -7312,8 +7317,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4012] = {
+	}
+	pg.base.island_item_data_template[4012] = {
 		name = "花生油",
 		desc = "醇香浓郁的花生油，由优质花生压榨，是健康烹饪用油。",
 		type = 1,
@@ -7347,8 +7352,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4013] = {
+	}
+	pg.base.island_item_data_template[4013] = {
 		name = "胡萝卜秋梨汁",
 		desc = "鲜榨甘甜的胡萝卜秋梨汁，融合秋梨的清润与胡萝卜的营养，清爽解渴。",
 		type = 1,
@@ -7382,8 +7387,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4014] = {
+	}
+	pg.base.island_item_data_template[4014] = {
 		name = "菊花茶",
 		desc = "淡雅清香的菊花茶，冲泡秋菊花瓣，清热降火，回味甘醇。",
 		type = 1,
@@ -7417,8 +7422,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4015] = {
+	}
+	pg.base.island_item_data_template[4015] = {
 		name = "春笋",
 		desc = "在春季破土而出的新鲜竹笋，口感脆嫩，是赫赫有名的时令食材。",
 		type = 1,
@@ -7448,8 +7453,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4016] = {
+	}
+	pg.base.island_item_data_template[4016] = {
 		name = "荠菜",
 		desc = "清新的春季野菜，带有独特的香气，常用于制作馅料或凉拌。",
 		type = 1,
@@ -7479,8 +7484,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4017] = {
+	}
+	pg.base.island_item_data_template[4017] = {
 		name = "迎春花",
 		desc = "初春绽放的亮黄色小花，可观赏也可晒干用于泡茶。",
 		type = 1,
@@ -7510,8 +7515,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4018] = {
+	}
+	pg.base.island_item_data_template[4018] = {
 		name = "风信子",
 		desc = "香气浓郁的早春观花植物，多用于布置花坛、花境或庭院。",
 		type = 1,
@@ -7541,8 +7546,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4019] = {
+	}
+	pg.base.island_item_data_template[4019] = {
 		name = "芦笋",
 		desc = "春季收获的鲜美蔬菜，口感爽脆，可简单烹饪或作为配菜。",
 		type = 1,
@@ -7573,8 +7578,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4020] = {
+	}
+	pg.base.island_item_data_template[4020] = {
 		name = "芦笋种子",
 		desc = "把它们埋进土里，很快就能长出一排排芦笋嫩芽啦~",
 		type = 1,
@@ -7616,8 +7621,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[4021] = {
+	}
+	pg.base.island_item_data_template[4021] = {
 		name = "凤梨",
 		desc = "别名菠萝，酸甜多汁的热带风味水果，可直接食用或加工。",
 		type = 1,
@@ -7648,8 +7653,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4022] = {
+	}
+	pg.base.island_item_data_template[4022] = {
 		name = "凤梨种子",
 		desc = "蕴藏着热带阳光的种子，种下后，可以长出美味的凤梨果实。",
 		type = 1,
@@ -7691,8 +7696,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[4023] = {
+	}
+	pg.base.island_item_data_template[4023] = {
 		name = "鲜榨菠萝汁",
 		desc = "用新鲜菠萝即时压榨的果汁，口感清爽，充满热带风味。",
 		type = 1,
@@ -7726,8 +7731,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4024] = {
+	}
+	pg.base.island_item_data_template[4024] = {
 		name = "迎春花茶",
 		desc = "以晒干的迎春花蕾冲泡的花草茶，带有淡雅清香与舒缓功效。",
 		type = 1,
@@ -7761,8 +7766,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4025] = {
+	}
+	pg.base.island_item_data_template[4025] = {
 		name = "凉拌双笋",
 		desc = "芦笋与春笋清爽凉拌的春日小菜，口感清脆，风味谐和。",
 		type = 1,
@@ -7796,8 +7801,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4026] = {
+	}
+	pg.base.island_item_data_template[4026] = {
 		name = "芦笋炒虾仁",
 		desc = "芦笋与鲜虾仁快炒而成的佳肴，虾鲜笋脆，是一道有名的家常菜。",
 		type = 1,
@@ -7831,8 +7836,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4027] = {
+	}
+	pg.base.island_item_data_template[4027] = {
 		name = "袋装荠菜干",
 		desc = "经晾晒干燥保存的荠菜，便于储存，可用于煮汤或泡发入馅。",
 		type = 1,
@@ -7863,8 +7868,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4028] = {
+	}
+	pg.base.island_item_data_template[4028] = {
 		name = "春季花束",
 		desc = "用迎春花与风信子扎成的花束，色彩明媚，为房间带来春日气息。",
 		type = 1,
@@ -7895,8 +7900,10 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5001] = {
+	}
+end)()
+(function ()
+	pg.base.island_item_data_template[5001] = {
 		name = "贝类",
 		desc = "其外壳常用于装饰品或精致工艺品。",
 		type = 1,
@@ -7927,8 +7934,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5002] = {
+	}
+	pg.base.island_item_data_template[5002] = {
 		name = "鲶鱼",
 		desc = "肥美的鲶鱼，口感丰腴，适合各种重口味的烹调。",
 		type = 1,
@@ -7959,8 +7966,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5003] = {
+	}
+	pg.base.island_item_data_template[5003] = {
 		name = "鲤鱼",
 		desc = "淡水中的美味代表，餐馆里的招牌美食。",
 		type = 1,
@@ -7991,8 +7998,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5004] = {
+	}
+	pg.base.island_item_data_template[5004] = {
 		name = "鲫鱼",
 		desc = "常见食用鱼类之一，肉质细嫩肉味甜美，营养价值很高。",
 		type = 1,
@@ -8023,8 +8030,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5005] = {
+	}
+	pg.base.island_item_data_template[5005] = {
 		name = "小河虾",
 		desc = "高蛋白，低脂肪、低热量，优质水产美食之一。",
 		type = 1,
@@ -8055,8 +8062,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5006] = {
+	}
+	pg.base.island_item_data_template[5006] = {
 		name = "小龙虾",
 		desc = "常居水下的小家伙，虽然是海产，却是最接地气的美味。",
 		type = 1,
@@ -8087,8 +8094,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5007] = {
+	}
+	pg.base.island_item_data_template[5007] = {
 		name = "鲈鱼",
 		desc = "鲜美的鲈鱼，肉质白嫩，适合清蒸或煎制。",
 		type = 1,
@@ -8119,8 +8126,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5008] = {
+	}
+	pg.base.island_item_data_template[5008] = {
 		name = "螃蟹",
 		desc = "鲜美的螃蟹，蟹肉清甜，富含营养和风味。",
 		type = 1,
@@ -8151,8 +8158,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5101] = {
+	}
+	pg.base.island_item_data_template[5101] = {
 		name = "鱿鱼",
 		desc = "弹滑可口的鱿鱼，是各类烧烤的明星食材。",
 		type = 1,
@@ -8183,8 +8190,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5102] = {
+	}
+	pg.base.island_item_data_template[5102] = {
 		name = "马鲛鱼",
 		desc = "流线型的海中速度健将，肉质紧实，非常适合香煎。",
 		type = 1,
@@ -8215,8 +8222,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5103] = {
+	}
+	pg.base.island_item_data_template[5103] = {
 		name = "金枪鱼",
 		desc = "有着高蛋白低脂肪的优质鱼肉，是海钓的终极目标之一。",
 		type = 1,
@@ -8247,8 +8254,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5104] = {
+	}
+	pg.base.island_item_data_template[5104] = {
 		name = "三文鱼",
 		desc = "珍贵渔获，拥有漂亮的纹理与丰腴的口感。",
 		type = 1,
@@ -8279,8 +8286,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5105] = {
+	}
+	pg.base.island_item_data_template[5105] = {
 		name = "红鲷鱼",
 		desc = "杂食性鱼类，喜结群游速快，因其较高的营养价值广受欢迎。",
 		type = 1,
@@ -8311,8 +8318,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5106] = {
+	}
+	pg.base.island_item_data_template[5106] = {
 		name = "黑鲷鱼",
 		desc = "灵活且狡猾的对手，成功钓起它需要不错的技巧。",
 		type = 1,
@@ -8343,8 +8350,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5107] = {
+	}
+	pg.base.island_item_data_template[5107] = {
 		name = "黄鳍金枪鱼",
 		desc = "品质上乘的金枪鱼，脂肪分布均匀，是制作高级料理的绝佳原料。",
 		type = 1,
@@ -8375,8 +8382,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5108] = {
+	}
+	pg.base.island_item_data_template[5108] = {
 		name = "海参",
 		desc = "滋补珍品，需要一点耐心和运气才能获得。",
 		type = 1,
@@ -8407,8 +8414,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[9900] = {
+	}
+	pg.base.island_item_data_template[9900] = {
 		name = "珍珠",
 		desc = "由贝类孕育出的天然珍宝，色泽温润，与珍珠相关的交易在市场上相当火爆。",
 		type = 1,
@@ -8438,8 +8445,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100001] = {
+	}
+	pg.base.island_item_data_template[100001] = {
 		name = "生活经验指南T1",
 		desc = "一本内容基础的开发区生活指南。使用后，能少量增加角色的开发区生活经验。",
 		type = 5,
@@ -8477,8 +8484,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100002] = {
+	}
+	pg.base.island_item_data_template[100002] = {
 		name = "生活经验指南T2",
 		desc = "一本内容详细的开发区生活指南。使用后，能中幅增加角色的开发区生活经验。",
 		type = 5,
@@ -8516,8 +8523,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100003] = {
+	}
+	pg.base.island_item_data_template[100003] = {
 		name = "生活经验指南T3",
 		desc = "一本内容丰富的开发区生活指南。使用后，能大幅增加角色的开发区生活经验。",
 		type = 5,
@@ -8555,8 +8562,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100011] = {
+	}
+	pg.base.island_item_data_template[100011] = {
 		name = "经营指南T1",
 		desc = "一本内容基础的经营技巧指南。使用后，角色的经营能力将少量提升。",
 		type = 2,
@@ -8594,8 +8601,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100012] = {
+	}
+	pg.base.island_item_data_template[100012] = {
 		name = "经营指南T2",
 		desc = "一本内容详细的经营技巧指南。使用后，角色的经营能力将中幅提升。",
 		type = 2,
@@ -8625,8 +8632,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100013] = {
+	}
+	pg.base.island_item_data_template[100013] = {
 		name = "经营指南T3",
 		desc = "一本内容丰富的经营技巧指南。使用后，角色的经营能力将大幅提升。",
 		type = 2,
@@ -8651,8 +8658,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[100021] = {
+	}
+	pg.base.island_item_data_template[100021] = {
 		name = "种植指南T1",
 		desc = "一本内容基础的种植技巧指南。使用后，角色的种植能力将少量提升。",
 		type = 2,
@@ -8690,8 +8697,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100022] = {
+	}
+	pg.base.island_item_data_template[100022] = {
 		name = "种植指南T2",
 		desc = "一本内容详细的种植技巧指南。使用后，角色的种植能力将中幅提升。",
 		type = 2,
@@ -8721,8 +8728,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100023] = {
+	}
+	pg.base.island_item_data_template[100023] = {
 		name = "种植指南T3",
 		desc = "一本内容丰富的种植技巧指南。使用后，角色的种植能力将大幅提升。",
 		type = 2,
@@ -8747,8 +8754,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[100031] = {
+	}
+	pg.base.island_item_data_template[100031] = {
 		name = "制造指南T1",
 		desc = "一本内容基础的制造技巧指南。使用后，角色的制造能力将少量提升。",
 		type = 2,
@@ -8786,8 +8793,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100032] = {
+	}
+	pg.base.island_item_data_template[100032] = {
 		name = "制造指南T2",
 		desc = "一本内容详细的制造技巧指南。使用后，角色的制造能力将中幅提升。",
 		type = 2,
@@ -8817,8 +8824,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100033] = {
+	}
+	pg.base.island_item_data_template[100033] = {
 		name = "制造指南T3",
 		desc = "一本内容丰富的制造技巧指南。使用后，角色的制造能力将大幅提升。",
 		type = 2,
@@ -8843,8 +8850,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[100041] = {
+	}
+	pg.base.island_item_data_template[100041] = {
 		name = "采集指南T1",
 		desc = "一本内容基础的采集技巧指南。使用后，角色的采集能力将少量提升。",
 		type = 2,
@@ -8882,8 +8889,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100042] = {
+	}
+	pg.base.island_item_data_template[100042] = {
 		name = "采集指南T2",
 		desc = "一本内容详细的采集技巧指南。使用后，角色的采集能力将中幅提升。",
 		type = 2,
@@ -8913,8 +8920,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100043] = {
+	}
+	pg.base.island_item_data_template[100043] = {
 		name = "采集指南T3",
 		desc = "一本内容丰富的采集技巧指南。使用后，角色的采集能力将大幅提升。",
 		type = 2,
@@ -8939,8 +8946,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[100051] = {
+	}
+	pg.base.island_item_data_template[100051] = {
 		name = "养护指南T1",
 		desc = "一本内容基础的养护技巧指南。使用后，角色的养护能力将少量提升。",
 		type = 2,
@@ -8978,8 +8985,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100052] = {
+	}
+	pg.base.island_item_data_template[100052] = {
 		name = "养护指南T2",
 		desc = "一本内容详细的养护技巧指南。使用后，角色的养护能力将中幅提升。",
 		type = 2,
@@ -9009,8 +9016,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100053] = {
+	}
+	pg.base.island_item_data_template[100053] = {
 		name = "养护指南T3",
 		desc = "一本内容丰富的养护技巧指南。使用后，角色的养护能力将大幅提升。",
 		type = 2,
@@ -9035,8 +9042,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[100061] = {
+	}
+	pg.base.island_item_data_template[100061] = {
 		name = "烹调指南T1",
 		desc = "一本内容基础的烹调技巧指南。使用后，角色的烹调能力将少量提升。",
 		type = 2,
@@ -9074,8 +9081,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100062] = {
+	}
+	pg.base.island_item_data_template[100062] = {
 		name = "烹调指南T2",
 		desc = "一本内容详细的烹调技巧指南。使用后，角色的烹调能力将中幅提升。",
 		type = 2,
@@ -9105,8 +9112,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100063] = {
+	}
+	pg.base.island_item_data_template[100063] = {
 		name = "烹调指南T3",
 		desc = "一本内容丰富的烹调技巧指南。使用后，角色的烹调能力将大幅提升。",
 		type = 2,
@@ -9131,8 +9138,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[100101] = {
+	}
+	pg.base.island_item_data_template[100101] = {
 		name = "生产技能指南T1",
 		desc = "一本内容基础的生产技能指南。用于提升角色的开发区生产技能等级。",
 		type = 2,
@@ -9170,8 +9177,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100102] = {
+	}
+	pg.base.island_item_data_template[100102] = {
 		name = "生产技能指南T2",
 		desc = "一本内容详细的生产技能指南。用于提升角色的开发区生产技能等级。",
 		type = 2,
@@ -9209,8 +9216,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100103] = {
+	}
+	pg.base.island_item_data_template[100103] = {
 		name = "生产技能指南T3",
 		desc = "一本内容丰富的生产技能指南。用于提升角色的开发区生产技能等级。",
 		type = 2,
@@ -9248,8 +9255,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100201] = {
+	}
+	pg.base.island_item_data_template[100201] = {
 		name = "岛屿开发结晶",
 		desc = "岛屿开发经验的结晶。角色突破所需的必要材料。",
 		type = 2,
@@ -9279,8 +9286,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[110001] = {
+	}
+	pg.base.island_item_data_template[110001] = {
 		name = "海盐特饮",
 		desc = "使用后恢复角色50体力。基础款能量特饮，咸甜交织的独特口感，像海风拂过舌尖。",
 		type = 2,
@@ -9323,8 +9330,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[110002] = {
+	}
+	pg.base.island_item_data_template[110002] = {
 		name = "新叶特饮",
 		desc = "使用后恢复角色50体力，全能力提高3%，持续8小时。散发着嫩芽的清香，清新提神。",
 		type = 2,
@@ -9365,8 +9372,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[110003] = {
+	}
+	pg.base.island_item_data_template[110003] = {
 		name = "草莓特饮",
 		desc = "使用后恢复角色50体力，生产基础资材时，工作速度提高5%，持续8小时。饱含草莓的甜香，酸甜之中活力满满。",
 		type = 2,
@@ -9407,8 +9414,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[110004] = {
+	}
+	pg.base.island_item_data_template[110004] = {
 		name = "金桔特饮",
 		desc = "使用后恢复角色50体力，在基地工厂制作产品时，工作速度提高5%，持续8小时。带着金桔微涩的口感，清爽解乏一口回甘。",
 		type = 2,
@@ -9449,8 +9456,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[110005] = {
+	}
+	pg.base.island_item_data_template[110005] = {
 		name = "蓝莓特饮",
 		desc = "使用后恢复角色50体力，制作店铺餐品时，工作速度提高5%，持续8小时。融汇蓝莓酸甜，馥郁果香令人愉悦。",
 		type = 2,
@@ -9491,8 +9498,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[110006] = {
+	}
+	pg.base.island_item_data_template[110006] = {
 		name = "葡萄特饮",
 		desc = "使用后恢复角色50体力，角色经营店铺时，销售额提高5%，持续8小时。每一口都是圆润饱满的甜蜜风味。",
 		type = 2,
@@ -9533,8 +9540,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200001] = {
+	}
+	pg.base.island_item_data_template[200001] = {
 		name = "柴郡岛屿权限认证函",
 		desc = "柴郡的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
 		type = 2,
@@ -9564,8 +9571,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200002] = {
+	}
+	pg.base.island_item_data_template[200002] = {
 		name = "萨拉托加岛屿权限认证函",
 		desc = "萨拉托加的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
 		type = 2,
@@ -9590,8 +9597,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[200003] = {
+	}
+	pg.base.island_item_data_template[200003] = {
 		name = "{namecode:98:明石}岛屿权限认证函",
 		desc = "{namecode:98:明石}的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
 		type = 2,
@@ -9621,8 +9628,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200004] = {
+	}
+	pg.base.island_item_data_template[200004] = {
 		name = "{namecode:97:大凤}岛屿权限认证函",
 		desc = "{namecode:97:大凤}的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
 		type = 2,
@@ -9647,8 +9654,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[200005] = {
+	}
+	pg.base.island_item_data_template[200005] = {
 		name = "{namecode:199:新泽西}岛屿权限认证函",
 		desc = "{namecode:199:新泽西}的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
 		type = 2,
@@ -9678,8 +9685,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200006] = {
+	}
+	pg.base.island_item_data_template[200006] = {
 		name = "{namecode:18:岛风}岛屿权限认证函",
 		desc = "{namecode:18:岛风}的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
 		type = 2,
@@ -9709,8 +9716,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200007] = {
+	}
+	pg.base.island_item_data_template[200007] = {
 		name = "应瑞岛屿权限认证函",
 		desc = "应瑞的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
 		type = 2,
@@ -9740,8 +9747,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200008] = {
+	}
+	pg.base.island_item_data_template[200008] = {
 		name = "恶毒岛屿权限认证函",
 		desc = "恶毒的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
 		type = 2,
@@ -9771,8 +9778,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200009] = {
+	}
+	pg.base.island_item_data_template[200009] = {
 		name = "独角兽岛屿权限认证函",
 		desc = "独角兽的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
 		type = 2,
@@ -9802,8 +9809,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200010] = {
+	}
+	pg.base.island_item_data_template[200010] = {
 		name = "塔什干岛屿权限认证函",
 		desc = "塔什干的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
 		type = 2,
@@ -9833,8 +9840,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200011] = {
+	}
+	pg.base.island_item_data_template[200011] = {
 		name = "胡德岛屿权限认证函",
 		desc = "胡德的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
 		type = 2,
@@ -9864,8 +9871,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200012] = {
+	}
+	pg.base.island_item_data_template[200012] = {
 		name = "{namecode:193:小天城}岛屿权限认证函",
 		desc = "{namecode:193:小天城}的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
 		type = 2,
@@ -9895,8 +9902,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200013] = {
+	}
+	pg.base.island_item_data_template[200013] = {
 		name = "{namecode:427:欧根亲王}岛屿权限认证函",
 		desc = "{namecode:427:欧根亲王}的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
 		type = 2,
@@ -9926,8 +9933,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200014] = {
+	}
+	pg.base.island_item_data_template[200014] = {
 		name = "肇和岛屿权限认证函",
 		desc = "肇和的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
 		type = 2,
@@ -9957,8 +9964,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200015] = {
+	}
+	pg.base.island_item_data_template[200015] = {
 		name = "莱昂纳多·达·芬奇岛屿权限认证函",
 		desc = "莱昂纳多·达·芬奇的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
 		type = 2,
@@ -9988,8 +9995,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200016] = {
+	}
+	pg.base.island_item_data_template[200016] = {
 		name = "威廉·D·波特岛屿权限认证函",
 		desc = "威廉·D·波特的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
 		type = 2,
@@ -10019,8 +10026,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200017] = {
+	}
+	pg.base.island_item_data_template[200017] = {
 		name = "镇海岛屿权限认证函",
 		desc = "镇海的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
 		type = 2,
@@ -10050,8 +10057,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200018] = {
+	}
+	pg.base.island_item_data_template[200018] = {
 		name = "{namecode:67}岛屿权限认证函",
 		desc = "{namecode:67}的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
 		type = 2,
@@ -10081,8 +10088,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200019] = {
+	}
+	pg.base.island_item_data_template[200019] = {
 		name = "海伦娜岛屿权限认证函",
 		desc = "海伦娜的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
 		type = 2,
@@ -10112,8 +10119,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200020] = {
+	}
+	pg.base.island_item_data_template[200020] = {
 		name = "{namecode:440}岛屿权限认证函",
 		desc = "{namecode:440}的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
 		type = 2,
@@ -10143,8 +10150,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200021] = {
+	}
+	pg.base.island_item_data_template[200021] = {
 		name = "领洋者-娜比娅岛屿权限认证函",
 		desc = "领洋者-娜比娅的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
 		type = 2,
@@ -10174,8 +10181,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200022] = {
+	}
+	pg.base.island_item_data_template[200022] = {
 		name = "领航员-TB岛屿权限认证函",
 		desc = "领航员-TB的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
 		type = 2,
@@ -10205,8 +10212,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200023] = {
+	}
+	pg.base.island_item_data_template[200023] = {
 		name = "探索者-艾普洛岛屿权限认证函",
 		desc = "探索者-艾普洛的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
 		type = 2,
@@ -10236,8 +10243,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[300001] = {
+	}
+	pg.base.island_item_data_template[300001] = {
 		name = "丰壤农田委派效率提高 4%",
 		desc = "获得后，丰壤农田委派效率提高 4%",
 		type = 2,
@@ -10265,8 +10272,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[300002] = {
+	}
+	pg.base.island_item_data_template[300002] = {
 		name = "坠香果园委派效率提高 4%",
 		desc = "获得后，坠香果园委派效率提高 4%",
 		type = 2,
@@ -10294,8 +10301,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[300003] = {
+	}
+	pg.base.island_item_data_template[300003] = {
 		name = "青芽苗圃委派效率提高 4%",
 		desc = "获得后，青芽苗圃委派效率提高 4%",
 		type = 2,
@@ -10323,8 +10330,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[300004] = {
+	}
+	pg.base.island_item_data_template[300004] = {
 		name = "丰壤农田委派效率提高 8%",
 		desc = "获得后，丰壤农田委派效率提高 8%",
 		type = 2,
@@ -10352,8 +10359,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[300005] = {
+	}
+	pg.base.island_item_data_template[300005] = {
 		name = "坠香果园委派效率提高 8%",
 		desc = "获得后，坠香果园委派效率提高 8%",
 		type = 2,
@@ -10381,8 +10388,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[300006] = {
+	}
+	pg.base.island_item_data_template[300006] = {
 		name = "青芽苗圃委派效率提高 8%",
 		desc = "获得后，青芽苗圃委派效率提高 8%",
 		type = 2,
@@ -10411,4 +10418,4 @@ pg.base.island_item_data_template = {
 			}
 		}
 	}
-}
+end)()

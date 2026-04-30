@@ -1,6 +1,28 @@
 pg = pg or {}
-pg.activity_workbench_item = {
-	{
+pg.activity_workbench_item = rawget(pg, "activity_workbench_item") or setmetatable({
+	__name = "activity_workbench_item"
+}, confNEO)
+pg.activity_workbench_item.all = {
+	1,
+	2,
+	3,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15
+}
+pg.base = pg.base or {}
+pg.base.activity_workbench_item = {}
+
+(function ()
+	pg.base.activity_workbench_item[1] = {
 		name = "粗糙木料",
 		rarity = 2,
 		display = "从岛上茂密森林中获取到的木材，仅经过了初步加工，显得稍有些粗糙。",
@@ -10,8 +32,8 @@ pg.activity_workbench_item = {
 			"产出途径：无人岛",
 			islandNodes = {}
 		}
-	},
-	{
+	}
+	pg.base.activity_workbench_item[2] = {
 		name = "优选木料",
 		rarity = 3,
 		display = "特制的木材，经过了抛光和加压浸注处理，因此更加坚固耐用。一圈圈岁月的吻痕依然留在上面，似乎在宣誓着它曾经的沧桑。",
@@ -21,8 +43,8 @@ pg.activity_workbench_item = {
 			"产出途径：海岛制作台",
 			recipeid = 1
 		}
-	},
-	{
+	}
+	pg.base.activity_workbench_item[3] = {
 		name = "宝石原矿",
 		rarity = 3,
 		display = "混杂着各种杂质的原矿，其中散发着浑浊的光芒。看起来尚需雕琢——不由让人期待它展露光芒的那天。",
@@ -31,8 +53,8 @@ pg.activity_workbench_item = {
 		get_access = {
 			"产出途径：探险队每日收获"
 		}
-	},
-	[5] = {
+	}
+	pg.base.activity_workbench_item[5] = {
 		name = "黄宝石",
 		rarity = 4,
 		display = "晶莹剔透的黄色宝石，折射着如皎月般温暖柔和的光芒，似乎价值连城。",
@@ -42,8 +64,8 @@ pg.activity_workbench_item = {
 			"产出途径：海岛制作台",
 			recipeid = 4
 		}
-	},
-	[6] = {
+	}
+	pg.base.activity_workbench_item[6] = {
 		name = "红宝石",
 		rarity = 4,
 		display = "晶莹剔透的红色宝石，折射着如红霞般炽烈炫目的光芒，似乎价值连城。",
@@ -53,8 +75,8 @@ pg.activity_workbench_item = {
 			"产出途径：海岛制作台",
 			recipeid = 3
 		}
-	},
-	[7] = {
+	}
+	pg.base.activity_workbench_item[7] = {
 		name = "多彩花束",
 		rarity = 2,
 		display = "简单捆扎之后的花朵，带有清新的暗香。可以作为送人的礼物，也可以扦插到别处，把暗香播撒到更远的地方。",
@@ -66,8 +88,8 @@ pg.activity_workbench_item = {
 				1056
 			}
 		}
-	},
-	[8] = {
+	}
+	pg.base.activity_workbench_item[8] = {
 		name = "家具设计图",
 		rarity = 2,
 		display = "家具的设计蓝图，事无巨细地标注着各种零件的尺寸及安装方式。所有巧夺天工总是始于一砖一瓦。",
@@ -96,8 +118,8 @@ pg.activity_workbench_item = {
 				18771
 			}
 		}
-	},
-	[9] = {
+	}
+	pg.base.activity_workbench_item[9] = {
 		name = "温泉石板",
 		rarity = 2,
 		display = "由大块圆石砖铺成的地板，带有石材天然的淡青色，踩上去的触感柔和而舒适。",
@@ -107,8 +129,8 @@ pg.activity_workbench_item = {
 			"产出途径：海岛制作台",
 			recipeid = 5
 		}
-	},
-	[10] = {
+	}
+	pg.base.activity_workbench_item[10] = {
 		name = "温泉出水口",
 		rarity = 3,
 		display = "用来给温泉换水的装置，由新竹搭建而成，搭配温泉的青石，显得精巧而别致。",
@@ -118,8 +140,8 @@ pg.activity_workbench_item = {
 			"产出途径：海岛制作台",
 			recipeid = 6
 		}
-	},
-	[11] = {
+	}
+	pg.base.activity_workbench_item[11] = {
 		name = "团子牛奶套装",
 		rarity = 3,
 		display = "泡温泉过程中可以歆享的重樱点心。团子糯乎乎的，带有些许的甜味，备受喜爱好甜食的大伙青睐。",
@@ -129,8 +151,8 @@ pg.activity_workbench_item = {
 			"产出途径：海岛制作台",
 			recipeid = 7
 		}
-	},
-	[12] = {
+	}
+	pg.base.activity_workbench_item[12] = {
 		name = "温泉栅栏",
 		rarity = 3,
 		display = "由竹子制成的栏杆。不太耐受温泉潮湿的环境，但是带着竹子特有的翠色与清香，有种别致的雅致感。",
@@ -140,8 +162,8 @@ pg.activity_workbench_item = {
 			"产出途径：海岛制作台",
 			recipeid = 8
 		}
-	},
-	[13] = {
+	}
+	pg.base.activity_workbench_item[13] = {
 		name = "“温泉打包”服务",
 		rarity = 3,
 		display = "用来在岸上洗涤身体的木盆，配有干干净净的白色毛巾。虽然只是打包起来的温泉一角，依然能给身处其中的人提供舒畅的些许温暖。",
@@ -151,8 +173,8 @@ pg.activity_workbench_item = {
 			"产出途径：海岛制作台",
 			recipeid = 9
 		}
-	},
-	[14] = {
+	}
+	pg.base.activity_workbench_item[14] = {
 		name = "宴会邀请函",
 		rarity = 4,
 		display = "城堡宴会的邀请函，可向心仪的对象发出宴会邀请。",
@@ -162,8 +184,8 @@ pg.activity_workbench_item = {
 			"产出途径：心跳城堡挑战赛",
 			minigame = 56
 		}
-	},
-	[15] = {
+	}
+	pg.base.activity_workbench_item[15] = {
 		name = "宴会纪念品",
 		rarity = 4,
 		display = "精美的纪念品，让人回忆起宴会上欢乐的时光。",
@@ -173,21 +195,5 @@ pg.activity_workbench_item = {
 			"产出途径：心跳城堡挑战赛",
 			minigame = 56
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15
 	}
-}
+end)()

@@ -1249,4 +1249,8 @@ slot0.GetConfigClientSetting = function(slot0, slot1)
 	return slot0:getConfig("config_client")[slot1]
 end
 
+slot0.IsMaintenanceFinish = function(slot0)
+	return not slot0:GetConfigClientSetting("no_maintenance")
+end
+
 return slot0

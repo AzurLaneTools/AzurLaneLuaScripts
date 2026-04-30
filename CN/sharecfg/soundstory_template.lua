@@ -1,6 +1,43 @@
 pg = pg or {}
-pg.soundstory_template = {
-	{
+pg.soundstory_template = rawget(pg, "soundstory_template") or setmetatable({
+	__name = "soundstory_template"
+}, confNEO)
+pg.soundstory_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29
+}
+pg.base = pg.base or {}
+pg.base.soundstory_template = {}
+
+(function ()
+	pg.base.soundstory_template[1] = {
 		story_pic = "",
 		name = "悠然茶室 ",
 		story_resource_JP = "soundStory1_JP",
@@ -52,8 +89,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[2] = {
 		story_pic = "",
 		name = "碧海阳光",
 		story_resource_JP = "soundStory2_JP",
@@ -64,6 +101,7 @@ pg.soundstory_template = {
 		overview = "“指挥官喜欢大海吗，樫我很喜欢哦！” \n和樫一起享受碧海阳光 \n冰凉的海水也无法掩盖她炽热的内心",
 		order = 2,
 		audition_text = "呼，真开心呀♪嘿嘿，有点不小心闹过头了呢。有多久没在海边像这样玩的这么开心了呢？ ",
+		time = "always",
 		ship_id = 31901,
 		id = 2,
 		captions_color = "#2e78d0",
@@ -77,36 +115,9 @@ pg.soundstory_template = {
 			1,
 			15,
 			3
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					1,
-					23
-				},
-				{
-					12,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					1,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[3] = {
 		story_pic = "",
 		name = "枕边心跳",
 		story_resource_JP = "soundStory3_JP",
@@ -132,8 +143,8 @@ pg.soundstory_template = {
 			15,
 			3
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[4] = {
 		story_pic = "",
 		name = "融化于舌尖的甜美",
 		story_resource_JP = "soundStory4_JP",
@@ -159,8 +170,8 @@ pg.soundstory_template = {
 			15,
 			3
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[5] = {
 		story_pic = "",
 		name = "至高的嘉奖",
 		story_resource_JP = "soundStory5_JP",
@@ -212,8 +223,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[6] = {
 		story_pic = "",
 		name = "匣中赠礼",
 		story_resource_JP = "soundStory6_JP",
@@ -265,8 +276,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[7] = {
 		story_pic = "",
 		name = "独占你的渴望",
 		story_resource_JP = "soundStory7_JP",
@@ -318,8 +329,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[8] = {
 		story_pic = "",
 		name = "心跳协奏",
 		story_resource_JP = "soundStory8_JP",
@@ -345,8 +356,8 @@ pg.soundstory_template = {
 			15,
 			3
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[9] = {
 		story_pic = "",
 		name = "微热的厨房间",
 		story_resource_JP = "soundStory9_JP",
@@ -398,8 +409,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[10] = {
 		story_pic = "",
 		name = "少女的小小心思",
 		story_resource_JP = "soundStory10_JP",
@@ -428,9 +439,9 @@ pg.soundstory_template = {
 			"timer",
 			{
 				{
-					2024,
+					2026,
 					4,
-					25
+					30
 				},
 				{
 					12,
@@ -440,9 +451,9 @@ pg.soundstory_template = {
 			},
 			{
 				{
-					2024,
+					2026,
 					5,
-					1
+					6
 				},
 				{
 					23,
@@ -451,8 +462,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[11] = {
 		story_pic = "",
 		name = "沉醉余音",
 		story_resource_JP = "soundStory11_JP",
@@ -504,8 +515,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[12] = {
 		story_pic = "",
 		name = "藏匿在暗处的亲昵",
 		story_resource_JP = "soundStory12_JP",
@@ -557,8 +568,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[13] = {
 		story_pic = "",
 		name = "微醺之爱的夏夜邂逅",
 		story_resource_JP = "soundStory13_JP",
@@ -610,8 +621,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[14] = {
 		story_pic = "",
 		name = "受困于甜蜜陷阱",
 		story_resource_JP = "soundStory14_JP",
@@ -663,8 +674,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[15] = {
 		story_pic = "",
 		name = "雨雾迷蒙",
 		story_resource_JP = "soundStory15_JP",
@@ -690,8 +701,8 @@ pg.soundstory_template = {
 			15,
 			3
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[16] = {
 		story_pic = "",
 		name = "床边的玛丽小姐",
 		story_resource_JP = "soundStory16_JP",
@@ -743,8 +754,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[17] = {
 		story_pic = "",
 		name = "拉近关系的秘诀",
 		story_resource_JP = "soundStory17_JP",
@@ -796,8 +807,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[18] = {
 		story_pic = "",
 		name = "圣夜的惊喜 ",
 		story_resource_JP = "soundStory18_JP",
@@ -849,8 +860,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[19] = {
 		story_pic = "",
 		name = "乌冬面的制作方法？！",
 		story_resource_JP = "soundStory19_JP",
@@ -902,8 +913,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[20] = {
 		story_pic = "",
 		name = "和你的海滩约会",
 		story_resource_JP = "soundStory20_JP",
@@ -955,8 +966,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[21] = {
 		story_pic = "",
 		name = "禁忌的午夜告解室",
 		story_resource_JP = "soundStory21_JP",
@@ -1008,8 +1019,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[22] = {
 		story_pic = "",
 		name = "甜汤中的心意",
 		story_resource_JP = "soundStory22_JP",
@@ -1061,8 +1072,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[23] = {
 		story_pic = "",
 		name = "桑拿房中的耐力训练！……？",
 		story_resource_JP = "soundStory23_JP",
@@ -1114,8 +1125,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[24] = {
 		story_pic = "",
 		name = "保养“藏品”的方式",
 		story_resource_JP = "soundStory24_JP",
@@ -1167,8 +1178,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[25] = {
 		story_pic = "",
 		name = "下次也一起约会吧！",
 		story_resource_JP = "soundStory25_JP",
@@ -1220,8 +1231,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[26] = {
 		story_pic = "",
 		name = "“深海魔物”进食观察",
 		story_resource_JP = "soundStory26_JP",
@@ -1273,8 +1284,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[27] = {
 		story_pic = "",
 		name = "令人着迷的休憩之处",
 		story_resource_JP = "soundStory27_JP",
@@ -1326,8 +1337,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[28] = {
 		story_pic = "",
 		name = "温柔的安眠时分",
 		story_resource_JP = "soundStory28_JP",
@@ -1379,35 +1390,58 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28
 	}
-}
+	pg.base.soundstory_template[29] = {
+		story_pic = "",
+		name = "浴室中的亲密接触",
+		story_resource_JP = "soundStory29_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "十二稜子",
+		audition_resource_JP = "ss-960010-1",
+		overview = "游泳结束后前往浴室，听到洗澡间里传来快乐的哼歌声……但是此刻想要离开的话，已经来不及了~",
+		order = 2,
+		audition_text = "唔……有一种好难形容的感觉！",
+		ship_id = 960010,
+		id = 29,
+		captions_color = "#5d2528",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					4,
+					30
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+end)()

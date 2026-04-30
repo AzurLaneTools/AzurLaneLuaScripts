@@ -345,10 +345,26 @@ slot0.timeCall = function(slot0)
 			while #uv0.stopList > 0 and uv0.stopList[1][1] <= slot1 do
 				slot2, slot3 = unpack(table.remove(uv0.stopList, 1))
 
-				if uv0.data[slot3]:getConfig("type") == ActivityConst.ACTIVITY_TYPE_MILITARY_EXERCISE then
-					getProxy(MilitaryExerciseProxy):setSeasonOver()
-				end
+				switch(uv0.data[slot3]:getConfig("type"), {
+					[ActivityConst.ACTIVITY_TYPE_MILITARY_EXERCISE] = function ()
+						getProxy(MilitaryExerciseProxy):setSeasonOver()
+					end,
+					[ActivityConst.ACTIVITY_TYPE_NPC_COLLECTION] = function ()
+						if getProxy(BayProxy):getShipById(uv0.data2) and slot0:isActivityNpc() then
+							uv1:sendNotification(GAME.SEND_CMD, {
+								cmd = "kick"
+							})
+						end
+					end,
+					[ActivityConst.ACTIVITY_TYPE_TASKS] = function ()
+						slot0 = getProxy(TaskProxy)
+						slot4 = "config_data"
 
+						for slot4, slot5 in ipairs(uv0:getConfig(slot4)) do
+							slot0:removeTaskById(slot5)
+						end
+					end
+				})
 				pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inActivity")
 				uv0:sendNotification(uv1.ACTIVITY_END, slot3)
 			end

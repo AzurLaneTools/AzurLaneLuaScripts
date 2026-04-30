@@ -1,6 +1,28 @@
 pg = pg or {}
-pg.activity_holiday_trans = {
+pg.activity_holiday_trans = rawget(pg, "activity_holiday_trans") or setmetatable({
+	__name = "activity_holiday_trans"
+}, confNEO)
+pg.activity_holiday_trans.all = {
+	1,
+	2,
+	3,
+	4
+}
+pg.activity_holiday_trans.get_id_list_by_type = {
 	{
+		1,
+		2,
+		3
+	},
+	{
+		4
+	}
+}
+pg.base = pg.base or {}
+pg.base.activity_holiday_trans = {}
+
+(function ()
+	pg.base.activity_holiday_trans[1] = {
 		cost_task_id = 23727,
 		name = "小型运输船队",
 		type = 1,
@@ -20,8 +42,8 @@ pg.activity_holiday_trans = {
 				200
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_trans[2] = {
 		cost_task_id = 23728,
 		name = "中型运输船队",
 		type = 1,
@@ -36,8 +58,8 @@ pg.activity_holiday_trans = {
 				800
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_trans[3] = {
 		cost_task_id = 23729,
 		name = "大型运输船队",
 		type = 1,
@@ -52,8 +74,8 @@ pg.activity_holiday_trans = {
 				1200
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_trans[4] = {
 		cost_task_id = 23730,
 		name = "邮轮观光船队",
 		type = 2,
@@ -68,21 +90,5 @@ pg.activity_holiday_trans = {
 				1000
 			}
 		}
-	},
-	get_id_list_by_type = {
-		{
-			1,
-			2,
-			3
-		},
-		{
-			4
-		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4
 	}
-}
+end)()

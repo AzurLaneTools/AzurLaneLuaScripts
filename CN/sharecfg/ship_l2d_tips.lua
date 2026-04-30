@@ -1,6 +1,16 @@
 pg = pg or {}
-pg.ship_l2d_tips = {
-	[302291] = {
+pg.ship_l2d_tips = rawget(pg, "ship_l2d_tips") or setmetatable({
+	__name = "ship_l2d_tips"
+}, confNEO)
+pg.ship_l2d_tips.all = {
+	302291,
+	206023
+}
+pg.base = pg.base or {}
+pg.base.ship_l2d_tips = {}
+
+(function ()
+	pg.base.ship_l2d_tips[302291] = {
 		id = 302291,
 		tips_icon = {
 			{
@@ -192,8 +202,8 @@ pg.ship_l2d_tips = {
 				}
 			}
 		}
-	},
-	[206023] = {
+	}
+	pg.base.ship_l2d_tips[206023] = {
 		id = 206023,
 		tips_icon = {
 			{
@@ -355,9 +365,5 @@ pg.ship_l2d_tips = {
 				}
 			}
 		}
-	},
-	all = {
-		302291,
-		206023
 	}
-}
+end)()

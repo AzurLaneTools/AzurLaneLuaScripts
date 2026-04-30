@@ -1,5171 +1,5191 @@
 pg = pg or {}
-pg.lover_character_template = {
-	[10000] = {
+pg.lover_character_template = rawget(pg, "lover_character_template") or setmetatable({
+	__name = "lover_character_template"
+}, confNEO)
+pg.lover_character_template.all = {
+	10000,
+	10001,
+	10002,
+	10103,
+	10104,
+	10105,
+	10102,
+	10140,
+	10106,
+	10107,
+	10108,
+	10124,
+	10125,
+	10116,
+	10117,
+	10127,
+	10136,
+	10137,
+	10109,
+	10129,
+	10130,
+	10131,
+	10135,
+	10141,
+	10114,
+	10115,
+	10112,
+	10138,
+	10139,
+	10133,
+	10134,
+	10153,
+	10146,
+	10147,
+	10142,
+	10113,
+	10111,
+	10110,
+	10152,
+	10155,
+	10143,
+	10145,
+	10148,
+	10144,
+	10149,
+	10126,
+	10201,
+	10202,
+	10211,
+	10218,
+	10227,
+	10216,
+	10203,
+	10204,
+	10229,
+	10212,
+	10213,
+	10205,
+	10219,
+	10206,
+	10207,
+	10208,
+	10222,
+	10226,
+	10221,
+	10209,
+	10210,
+	10214,
+	10215,
+	10223,
+	10225,
+	10233,
+	10234,
+	10235,
+	10220,
+	10301,
+	10302,
+	10303,
+	10304,
+	10305,
+	10306,
+	10307,
+	10312,
+	10308,
+	10313,
+	10314,
+	10309,
+	10310,
+	10311,
+	10316,
+	10328,
+	10324,
+	10327,
+	10329,
+	10401,
+	10501,
+	10502,
+	10503,
+	10504,
+	10507,
+	10508,
+	10509,
+	10510,
+	10511,
+	10512,
+	10513,
+	10514,
+	10515,
+	10517,
+	10519,
+	10520,
+	10601,
+	10602,
+	10655,
+	10701,
+	10702,
+	10703,
+	10704,
+	10705,
+	10706,
+	10708,
+	10707,
+	10709,
+	10711,
+	10713,
+	10714,
+	10717,
+	10722,
+	10723,
+	10725,
+	10729,
+	10730,
+	10738,
+	10799,
+	10802,
+	10804,
+	10803,
+	10801,
+	10806,
+	10807,
+	10808,
+	10809,
+	11201,
+	11802,
+	20123,
+	20101,
+	20102,
+	20103,
+	20106,
+	20107,
+	20108,
+	20109,
+	20110,
+	20129,
+	20111,
+	20112,
+	20113,
+	20114,
+	20139,
+	20116,
+	20120,
+	20136,
+	20133,
+	20121,
+	20122,
+	20124,
+	20125,
+	20126,
+	20127,
+	20132,
+	20134,
+	20135,
+	20137,
+	20138,
+	20221,
+	20222,
+	20232,
+	20201,
+	20202,
+	20203,
+	20213,
+	20214,
+	20229,
+	20215,
+	20207,
+	20219,
+	20208,
+	20226,
+	20209,
+	20210,
+	20234,
+	20211,
+	20212,
+	20218,
+	20204,
+	20227,
+	20233,
+	20230,
+	20220,
+	20224,
+	20235,
+	20231,
+	20216,
+	20217,
+	20236,
+	20223,
+	20301,
+	20302,
+	20309,
+	20303,
+	20304,
+	20305,
+	20306,
+	20307,
+	20308,
+	20310,
+	20313,
+	20401,
+	20402,
+	20404,
+	20403,
+	20501,
+	20502,
+	20510,
+	20511,
+	20514,
+	20503,
+	20504,
+	20505,
+	20506,
+	20507,
+	20509,
+	20513,
+	20516,
+	20601,
+	20602,
+	20603,
+	20605,
+	20606,
+	20608,
+	20604,
+	20607,
+	20701,
+	20706,
+	20702,
+	20703,
+	20704,
+	20705,
+	20712,
+	20709,
+	20713,
+	20707,
+	21301,
+	21302,
+	21304,
+	30130,
+	30131,
+	30179,
+	30185,
+	30132,
+	30133,
+	30135,
+	30137,
+	30138,
+	30139,
+	30141,
+	30101,
+	30102,
+	30104,
+	30172,
+	30105,
+	30109,
+	30110,
+	30111,
+	30112,
+	30121,
+	30123,
+	30124,
+	30125,
+	30126,
+	30113,
+	30115,
+	30114,
+	30147,
+	30148,
+	30149,
+	30163,
+	30164,
+	30165,
+	30166,
+	30181,
+	30117,
+	30118,
+	30127,
+	30128,
+	30116,
+	30159,
+	30160,
+	30161,
+	30162,
+	30120,
+	30186,
+	30183,
+	30180,
+	30154,
+	30184,
+	30156,
+	30188,
+	30189,
+	30190,
+	30191,
+	30192,
+	30157,
+	30158,
+	30182,
+	30129,
+	30204,
+	30205,
+	30206,
+	30207,
+	30208,
+	30209,
+	30201,
+	30212,
+	30213,
+	30214,
+	30226,
+	30227,
+	30210,
+	30211,
+	30317,
+	30318,
+	30220,
+	30221,
+	30223,
+	30225,
+	30301,
+	30302,
+	30303,
+	30304,
+	30306,
+	30307,
+	30308,
+	30309,
+	30310,
+	30311,
+	30312,
+	30313,
+	30314,
+	30319,
+	30320,
+	30401,
+	30402,
+	30403,
+	30404,
+	30406,
+	30405,
+	30407,
+	30511,
+	30501,
+	30502,
+	30503,
+	30504,
+	30505,
+	30506,
+	30507,
+	30508,
+	30512,
+	30513,
+	30514,
+	30516,
+	30510,
+	30601,
+	30602,
+	30603,
+	30604,
+	30605,
+	30606,
+	30607,
+	30608,
+	30609,
+	30701,
+	30702,
+	30709,
+	30703,
+	30704,
+	30705,
+	30706,
+	30707,
+	30713,
+	30708,
+	30714,
+	30712,
+	30715,
+	30716,
+	30801,
+	30804,
+	30802,
+	30805,
+	30803,
+	30806,
+	31701,
+	31702,
+	31201,
+	31901,
+	40101,
+	40102,
+	40109,
+	40111,
+	40113,
+	40116,
+	40118,
+	40119,
+	40120,
+	40121,
+	40123,
+	40124,
+	40125,
+	40126,
+	40128,
+	40135,
+	40136,
+	40143,
+	40146,
+	40147,
+	40152,
+	40199,
+	40207,
+	40208,
+	40201,
+	40202,
+	40203,
+	40204,
+	40205,
+	40206,
+	40210,
+	40211,
+	40304,
+	40305,
+	40301,
+	40302,
+	40303,
+	40309,
+	40310,
+	40314,
+	40312,
+	40311,
+	40313,
+	40316,
+	40401,
+	40402,
+	40403,
+	40404,
+	40405,
+	40406,
+	40407,
+	40501,
+	40502,
+	40503,
+	40504,
+	40506,
+	40601,
+	40602,
+	40603,
+	40701,
+	40703,
+	40704,
+	40702,
+	40813,
+	40810,
+	40802,
+	40805,
+	40801,
+	40809,
+	40806,
+	40808,
+	40811,
+	40807,
+	40814,
+	40804,
+	40803,
+	40812,
+	50101,
+	50102,
+	50103,
+	50104,
+	50105,
+	50106,
+	50107,
+	50108,
+	50109,
+	50204,
+	50205,
+	50201,
+	50202,
+	50203,
+	50207,
+	50208,
+	50209,
+	50210,
+	50212,
+	50301,
+	50401,
+	50601,
+	50602,
+	51901,
+	60102,
+	60106,
+	60109,
+	60104,
+	60105,
+	60103,
+	60108,
+	60110,
+	60111,
+	60107,
+	60201,
+	60202,
+	60203,
+	60301,
+	60304,
+	60302,
+	60303,
+	60305,
+	60306,
+	60501,
+	60502,
+	60503,
+	60505,
+	60506,
+	60507,
+	60508,
+	60701,
+	60702,
+	60801,
+	60802,
+	60803,
+	70108,
+	70107,
+	70102,
+	70106,
+	70109,
+	70103,
+	70104,
+	70110,
+	70111,
+	70112,
+	70201,
+	70202,
+	70208,
+	70206,
+	70204,
+	70207,
+	70203,
+	70205,
+	70301,
+	70302,
+	70501,
+	70502,
+	70504,
+	70505,
+	70506,
+	70507,
+	70508,
+	70509,
+	70701,
+	71801,
+	80102,
+	80103,
+	80104,
+	80105,
+	80101,
+	80107,
+	80108,
+	80201,
+	80202,
+	80203,
+	80204,
+	80301,
+	80302,
+	80303,
+	80401,
+	80501,
+	80502,
+	80503,
+	80601,
+	80701,
+	80702,
+	80801,
+	90101,
+	90102,
+	90103,
+	90104,
+	90105,
+	90106,
+	90107,
+	90111,
+	90113,
+	90114,
+	90201,
+	90202,
+	90301,
+	90302,
+	90303,
+	90401,
+	90402,
+	90501,
+	90502,
+	90701,
+	110101,
+	110201,
+	960001,
+	960002,
+	960003,
+	960004,
+	960005,
+	960006,
+	960007,
+	960008,
+	960009,
+	960010,
+	960011,
+	960012,
+	960013,
+	960014,
+	960015,
+	960016,
+	29901,
+	29902,
+	39901,
+	39902,
+	49901,
+	89901,
+	19901,
+	19902,
+	39903,
+	39904,
+	49902,
+	99901,
+	29903,
+	29904,
+	49903,
+	49904,
+	89902,
+	19903,
+	39905,
+	49905,
+	49906,
+	69901,
+	29905,
+	49907,
+	59901,
+	79901,
+	89903,
+	19904,
+	39906,
+	49908,
+	49909,
+	99902,
+	19905,
+	39907,
+	69902,
+	79902,
+	89904,
+	49910,
+	19906,
+	69903,
+	79903,
+	119901,
+	970701,
+	970702,
+	970201,
+	970703,
+	970501,
+	970601,
+	970401,
+	970602,
+	970402,
+	970502,
+	970202,
+	970403,
+	970301,
+	970404,
+	970101,
+	970102,
+	970503,
+	970203,
+	970504,
+	970204,
+	970801,
+	971201,
+	970302,
+	970103,
+	970205,
+	970603,
+	971301,
+	970206,
+	970104,
+	970207,
+	970505,
+	970105,
+	970704,
+	970303,
+	970304,
+	970106,
+	970506,
+	970405,
+	970604,
+	970507,
+	970705,
+	970305,
+	970306,
+	970508,
+	970706,
+	970509,
+	970107,
+	970707,
+	970108,
+	970406,
+	970109,
+	970110,
+	970208,
+	970708,
+	970209,
+	970111,
+	60204,
+	30194,
+	60509,
+	60112,
+	50302
+}
+pg.base = pg.base or {}
+pg.base.lover_character_template = {}
+
+(function ()
+	pg.base.lover_character_template[10000] = {
 		exp_upper_limit = 12000,
 		group_id = 10000,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10001] = {
+	}
+	pg.base.lover_character_template[10001] = {
 		exp_upper_limit = 12000,
 		group_id = 10001,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10002] = {
+	}
+	pg.base.lover_character_template[10002] = {
 		exp_upper_limit = 12000,
 		group_id = 10002,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10103] = {
+	}
+	pg.base.lover_character_template[10103] = {
 		exp_upper_limit = 12000,
 		group_id = 10103,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10104] = {
+	}
+	pg.base.lover_character_template[10104] = {
 		exp_upper_limit = 12000,
 		group_id = 10104,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10105] = {
+	}
+	pg.base.lover_character_template[10105] = {
 		exp_upper_limit = 12000,
 		group_id = 10105,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10102] = {
+	}
+	pg.base.lover_character_template[10102] = {
 		exp_upper_limit = 12000,
 		group_id = 10102,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10140] = {
+	}
+	pg.base.lover_character_template[10140] = {
 		exp_upper_limit = 12000,
 		group_id = 10140,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10106] = {
+	}
+	pg.base.lover_character_template[10106] = {
 		exp_upper_limit = 12000,
 		group_id = 10106,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10107] = {
+	}
+	pg.base.lover_character_template[10107] = {
 		exp_upper_limit = 12000,
 		group_id = 10107,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10108] = {
+	}
+	pg.base.lover_character_template[10108] = {
 		exp_upper_limit = 12000,
 		group_id = 10108,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10124] = {
+	}
+	pg.base.lover_character_template[10124] = {
 		exp_upper_limit = 12000,
 		group_id = 10124,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10125] = {
+	}
+	pg.base.lover_character_template[10125] = {
 		exp_upper_limit = 12000,
 		group_id = 10125,
 		exp_up = 200,
 		relate_group_id = {
 			10150
 		}
-	},
-	[10116] = {
+	}
+	pg.base.lover_character_template[10116] = {
 		exp_upper_limit = 12000,
 		group_id = 10116,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10117] = {
+	}
+	pg.base.lover_character_template[10117] = {
 		exp_upper_limit = 12000,
 		group_id = 10117,
 		exp_up = 200,
 		relate_group_id = {
 			10151
 		}
-	},
-	[10127] = {
+	}
+	pg.base.lover_character_template[10127] = {
 		exp_upper_limit = 12000,
 		group_id = 10127,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10136] = {
+	}
+	pg.base.lover_character_template[10136] = {
 		exp_upper_limit = 12000,
 		group_id = 10136,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10137] = {
+	}
+	pg.base.lover_character_template[10137] = {
 		exp_upper_limit = 12000,
 		group_id = 10137,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10109] = {
+	}
+	pg.base.lover_character_template[10109] = {
 		exp_upper_limit = 12000,
 		group_id = 10109,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10129] = {
+	}
+	pg.base.lover_character_template[10129] = {
 		exp_upper_limit = 12000,
 		group_id = 10129,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10130] = {
+	}
+	pg.base.lover_character_template[10130] = {
 		exp_upper_limit = 12000,
 		group_id = 10130,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10131] = {
+	}
+	pg.base.lover_character_template[10131] = {
 		exp_upper_limit = 12000,
 		group_id = 10131,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10135] = {
+	}
+	pg.base.lover_character_template[10135] = {
 		exp_upper_limit = 12000,
 		group_id = 10135,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10141] = {
+	}
+	pg.base.lover_character_template[10141] = {
 		exp_upper_limit = 12000,
 		group_id = 10141,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10114] = {
+	}
+	pg.base.lover_character_template[10114] = {
 		exp_upper_limit = 12000,
 		group_id = 10114,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10115] = {
+	}
+	pg.base.lover_character_template[10115] = {
 		exp_upper_limit = 12000,
 		group_id = 10115,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10112] = {
+	}
+	pg.base.lover_character_template[10112] = {
 		exp_upper_limit = 12000,
 		group_id = 10112,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10138] = {
+	}
+	pg.base.lover_character_template[10138] = {
 		exp_upper_limit = 12000,
 		group_id = 10138,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10139] = {
+	}
+	pg.base.lover_character_template[10139] = {
 		exp_upper_limit = 12000,
 		group_id = 10139,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10133] = {
+	}
+	pg.base.lover_character_template[10133] = {
 		exp_upper_limit = 12000,
 		group_id = 10133,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10134] = {
+	}
+	pg.base.lover_character_template[10134] = {
 		exp_upper_limit = 12000,
 		group_id = 10134,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10153] = {
+	}
+	pg.base.lover_character_template[10153] = {
 		exp_upper_limit = 12000,
 		group_id = 10153,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10146] = {
+	}
+	pg.base.lover_character_template[10146] = {
 		exp_upper_limit = 12000,
 		group_id = 10146,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10147] = {
+	}
+	pg.base.lover_character_template[10147] = {
 		exp_upper_limit = 12000,
 		group_id = 10147,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10142] = {
+	}
+	pg.base.lover_character_template[10142] = {
 		exp_upper_limit = 12000,
 		group_id = 10142,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10113] = {
+	}
+	pg.base.lover_character_template[10113] = {
 		exp_upper_limit = 12000,
 		group_id = 10113,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10111] = {
+	}
+	pg.base.lover_character_template[10111] = {
 		exp_upper_limit = 12000,
 		group_id = 10111,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10110] = {
+	}
+	pg.base.lover_character_template[10110] = {
 		exp_upper_limit = 12000,
 		group_id = 10110,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10152] = {
+	}
+	pg.base.lover_character_template[10152] = {
 		exp_upper_limit = 12000,
 		group_id = 10152,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10155] = {
+	}
+	pg.base.lover_character_template[10155] = {
 		exp_upper_limit = 12000,
 		group_id = 10155,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10143] = {
+	}
+	pg.base.lover_character_template[10143] = {
 		exp_upper_limit = 12000,
 		group_id = 10143,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10145] = {
+	}
+	pg.base.lover_character_template[10145] = {
 		exp_upper_limit = 12000,
 		group_id = 10145,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10148] = {
+	}
+	pg.base.lover_character_template[10148] = {
 		exp_upper_limit = 12000,
 		group_id = 10148,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10144] = {
+	}
+	pg.base.lover_character_template[10144] = {
 		exp_upper_limit = 12000,
 		group_id = 10144,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10149] = {
+	}
+	pg.base.lover_character_template[10149] = {
 		exp_upper_limit = 12000,
 		group_id = 10149,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10126] = {
+	}
+	pg.base.lover_character_template[10126] = {
 		exp_upper_limit = 12000,
 		group_id = 10126,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10201] = {
+	}
+	pg.base.lover_character_template[10201] = {
 		exp_upper_limit = 12000,
 		group_id = 10201,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10202] = {
+	}
+	pg.base.lover_character_template[10202] = {
 		exp_upper_limit = 12000,
 		group_id = 10202,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10211] = {
+	}
+	pg.base.lover_character_template[10211] = {
 		exp_upper_limit = 12000,
 		group_id = 10211,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10218] = {
+	}
+	pg.base.lover_character_template[10218] = {
 		exp_upper_limit = 12000,
 		group_id = 10218,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10227] = {
+	}
+	pg.base.lover_character_template[10227] = {
 		exp_upper_limit = 12000,
 		group_id = 10227,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10216] = {
+	}
+	pg.base.lover_character_template[10216] = {
 		exp_upper_limit = 12000,
 		group_id = 10216,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10203] = {
+	}
+	pg.base.lover_character_template[10203] = {
 		exp_upper_limit = 12000,
 		group_id = 10203,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10204] = {
+	}
+	pg.base.lover_character_template[10204] = {
 		exp_upper_limit = 12000,
 		group_id = 10204,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10229] = {
+	}
+	pg.base.lover_character_template[10229] = {
 		exp_upper_limit = 12000,
 		group_id = 10229,
 		exp_up = 200,
 		relate_group_id = {
 			10232
 		}
-	},
-	[10212] = {
+	}
+	pg.base.lover_character_template[10212] = {
 		exp_upper_limit = 12000,
 		group_id = 10212,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10213] = {
+	}
+	pg.base.lover_character_template[10213] = {
 		exp_upper_limit = 12000,
 		group_id = 10213,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10205] = {
+	}
+	pg.base.lover_character_template[10205] = {
 		exp_upper_limit = 12000,
 		group_id = 10205,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10219] = {
+	}
+	pg.base.lover_character_template[10219] = {
 		exp_upper_limit = 12000,
 		group_id = 10219,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10206] = {
+	}
+	pg.base.lover_character_template[10206] = {
 		exp_upper_limit = 12000,
 		group_id = 10206,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10207] = {
+	}
+	pg.base.lover_character_template[10207] = {
 		exp_upper_limit = 12000,
 		group_id = 10207,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10208] = {
+	}
+	pg.base.lover_character_template[10208] = {
 		exp_upper_limit = 12000,
 		group_id = 10208,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10222] = {
+	}
+	pg.base.lover_character_template[10222] = {
 		exp_upper_limit = 12000,
 		group_id = 10222,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10226] = {
+	}
+	pg.base.lover_character_template[10226] = {
 		exp_upper_limit = 12000,
 		group_id = 10226,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10221] = {
+	}
+	pg.base.lover_character_template[10221] = {
 		exp_upper_limit = 12000,
 		group_id = 10221,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10209] = {
+	}
+	pg.base.lover_character_template[10209] = {
 		exp_upper_limit = 12000,
 		group_id = 10209,
 		exp_up = 200,
 		relate_group_id = {
 			10224
 		}
-	},
-	[10210] = {
+	}
+	pg.base.lover_character_template[10210] = {
 		exp_upper_limit = 12000,
 		group_id = 10210,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10214] = {
+	}
+	pg.base.lover_character_template[10214] = {
 		exp_upper_limit = 12000,
 		group_id = 10214,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10215] = {
+	}
+	pg.base.lover_character_template[10215] = {
 		exp_upper_limit = 12000,
 		group_id = 10215,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10223] = {
+	}
+	pg.base.lover_character_template[10223] = {
 		exp_upper_limit = 12000,
 		group_id = 10223,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10225] = {
+	}
+	pg.base.lover_character_template[10225] = {
 		exp_upper_limit = 12000,
 		group_id = 10225,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10233] = {
+	}
+	pg.base.lover_character_template[10233] = {
 		exp_upper_limit = 12000,
 		group_id = 10233,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10234] = {
+	}
+	pg.base.lover_character_template[10234] = {
 		exp_upper_limit = 12000,
 		group_id = 10234,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10235] = {
+	}
+	pg.base.lover_character_template[10235] = {
 		exp_upper_limit = 12000,
 		group_id = 10235,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10220] = {
+	}
+	pg.base.lover_character_template[10220] = {
 		exp_upper_limit = 12000,
 		group_id = 10220,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10301] = {
+	}
+	pg.base.lover_character_template[10301] = {
 		exp_upper_limit = 12000,
 		group_id = 10301,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10302] = {
+	}
+	pg.base.lover_character_template[10302] = {
 		exp_upper_limit = 12000,
 		group_id = 10302,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10303] = {
+	}
+	pg.base.lover_character_template[10303] = {
 		exp_upper_limit = 12000,
 		group_id = 10303,
 		exp_up = 200,
 		relate_group_id = {
 			10326
 		}
-	},
-	[10304] = {
+	}
+	pg.base.lover_character_template[10304] = {
 		exp_upper_limit = 12000,
 		group_id = 10304,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10305] = {
+	}
+	pg.base.lover_character_template[10305] = {
 		exp_upper_limit = 12000,
 		group_id = 10305,
 		exp_up = 200,
 		relate_group_id = {
 			10231
 		}
-	},
-	[10306] = {
+	}
+	pg.base.lover_character_template[10306] = {
 		exp_upper_limit = 12000,
 		group_id = 10306,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10307] = {
+	}
+	pg.base.lover_character_template[10307] = {
 		exp_upper_limit = 12000,
 		group_id = 10307,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10312] = {
+	}
+	pg.base.lover_character_template[10312] = {
 		exp_upper_limit = 12000,
 		group_id = 10312,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10308] = {
+	}
+	pg.base.lover_character_template[10308] = {
 		exp_upper_limit = 12000,
 		group_id = 10308,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10313] = {
+	}
+	pg.base.lover_character_template[10313] = {
 		exp_upper_limit = 12000,
 		group_id = 10313,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10314] = {
+	}
+	pg.base.lover_character_template[10314] = {
 		exp_upper_limit = 12000,
 		group_id = 10314,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10309] = {
+	}
+	pg.base.lover_character_template[10309] = {
 		exp_upper_limit = 12000,
 		group_id = 10309,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10310] = {
+	}
+	pg.base.lover_character_template[10310] = {
 		exp_upper_limit = 12000,
 		group_id = 10310,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10311] = {
+	}
+	pg.base.lover_character_template[10311] = {
 		exp_upper_limit = 12000,
 		group_id = 10311,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10316] = {
+	}
+	pg.base.lover_character_template[10316] = {
 		exp_upper_limit = 12000,
 		group_id = 10316,
 		exp_up = 200,
 		relate_group_id = {
 			10325
 		}
-	},
-	[10328] = {
+	}
+	pg.base.lover_character_template[10328] = {
 		exp_upper_limit = 12000,
 		group_id = 10328,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10324] = {
+	}
+	pg.base.lover_character_template[10324] = {
 		exp_upper_limit = 12000,
 		group_id = 10324,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10327] = {
+	}
+	pg.base.lover_character_template[10327] = {
 		exp_upper_limit = 12000,
 		group_id = 10327,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10329] = {
+	}
+	pg.base.lover_character_template[10329] = {
 		exp_upper_limit = 12000,
 		group_id = 10329,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10401] = {
+	}
+	pg.base.lover_character_template[10401] = {
 		exp_upper_limit = 12000,
 		group_id = 10401,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10501] = {
+	}
+	pg.base.lover_character_template[10501] = {
 		exp_upper_limit = 12000,
 		group_id = 10501,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10502] = {
+	}
+	pg.base.lover_character_template[10502] = {
 		exp_upper_limit = 12000,
 		group_id = 10502,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10503] = {
+	}
+	pg.base.lover_character_template[10503] = {
 		exp_upper_limit = 12000,
 		group_id = 10503,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10504] = {
+	}
+	pg.base.lover_character_template[10504] = {
 		exp_upper_limit = 12000,
 		group_id = 10504,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10507] = {
+	}
+	pg.base.lover_character_template[10507] = {
 		exp_upper_limit = 12000,
 		group_id = 10507,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10508] = {
+	}
+end)()
+(function ()
+	pg.base.lover_character_template[10508] = {
 		exp_upper_limit = 12000,
 		group_id = 10508,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10509] = {
+	}
+	pg.base.lover_character_template[10509] = {
 		exp_upper_limit = 12000,
 		group_id = 10509,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10510] = {
+	}
+	pg.base.lover_character_template[10510] = {
 		exp_upper_limit = 12000,
 		group_id = 10510,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10511] = {
+	}
+	pg.base.lover_character_template[10511] = {
 		exp_upper_limit = 12000,
 		group_id = 10511,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10512] = {
+	}
+	pg.base.lover_character_template[10512] = {
 		exp_upper_limit = 12000,
 		group_id = 10512,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10513] = {
+	}
+	pg.base.lover_character_template[10513] = {
 		exp_upper_limit = 12000,
 		group_id = 10513,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10514] = {
+	}
+	pg.base.lover_character_template[10514] = {
 		exp_upper_limit = 12000,
 		group_id = 10514,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10515] = {
+	}
+	pg.base.lover_character_template[10515] = {
 		exp_upper_limit = 12000,
 		group_id = 10515,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10517] = {
+	}
+	pg.base.lover_character_template[10517] = {
 		exp_upper_limit = 12000,
 		group_id = 10517,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10519] = {
+	}
+	pg.base.lover_character_template[10519] = {
 		exp_upper_limit = 12000,
 		group_id = 10519,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10520] = {
+	}
+	pg.base.lover_character_template[10520] = {
 		exp_upper_limit = 12000,
 		group_id = 10520,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10601] = {
+	}
+	pg.base.lover_character_template[10601] = {
 		exp_upper_limit = 12000,
 		group_id = 10601,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10602] = {
+	}
+	pg.base.lover_character_template[10602] = {
 		exp_upper_limit = 12000,
 		group_id = 10602,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10655] = {
+	}
+	pg.base.lover_character_template[10655] = {
 		exp_upper_limit = 12000,
 		group_id = 10655,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10701] = {
+	}
+	pg.base.lover_character_template[10701] = {
 		exp_upper_limit = 12000,
 		group_id = 10701,
 		exp_up = 200,
 		relate_group_id = {
 			10727
 		}
-	},
-	[10702] = {
+	}
+	pg.base.lover_character_template[10702] = {
 		exp_upper_limit = 12000,
 		group_id = 10702,
 		exp_up = 200,
 		relate_group_id = {
 			10716
 		}
-	},
-	[10703] = {
+	}
+	pg.base.lover_character_template[10703] = {
 		exp_upper_limit = 12000,
 		group_id = 10703,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10704] = {
+	}
+	pg.base.lover_character_template[10704] = {
 		exp_upper_limit = 12000,
 		group_id = 10704,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10705] = {
+	}
+	pg.base.lover_character_template[10705] = {
 		exp_upper_limit = 12000,
 		group_id = 10705,
 		exp_up = 200,
 		relate_group_id = {
 			10710
 		}
-	},
-	[10706] = {
+	}
+	pg.base.lover_character_template[10706] = {
 		exp_upper_limit = 12000,
 		group_id = 10706,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10708] = {
+	}
+	pg.base.lover_character_template[10708] = {
 		exp_upper_limit = 12000,
 		group_id = 10708,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10707] = {
+	}
+	pg.base.lover_character_template[10707] = {
 		exp_upper_limit = 12000,
 		group_id = 10707,
 		exp_up = 200,
 		relate_group_id = {
 			10712
 		}
-	},
-	[10709] = {
+	}
+	pg.base.lover_character_template[10709] = {
 		exp_upper_limit = 12000,
 		group_id = 10709,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10711] = {
+	}
+	pg.base.lover_character_template[10711] = {
 		exp_upper_limit = 12000,
 		group_id = 10711,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10713] = {
+	}
+	pg.base.lover_character_template[10713] = {
 		exp_upper_limit = 12000,
 		group_id = 10713,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10714] = {
+	}
+	pg.base.lover_character_template[10714] = {
 		exp_upper_limit = 12000,
 		group_id = 10714,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10717] = {
+	}
+	pg.base.lover_character_template[10717] = {
 		exp_upper_limit = 12000,
 		group_id = 10717,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10722] = {
+	}
+	pg.base.lover_character_template[10722] = {
 		exp_upper_limit = 12000,
 		group_id = 10722,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10723] = {
+	}
+	pg.base.lover_character_template[10723] = {
 		exp_upper_limit = 12000,
 		group_id = 10723,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10725] = {
+	}
+	pg.base.lover_character_template[10725] = {
 		exp_upper_limit = 12000,
 		group_id = 10725,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10729] = {
+	}
+	pg.base.lover_character_template[10729] = {
 		exp_upper_limit = 12000,
 		group_id = 10729,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10730] = {
+	}
+	pg.base.lover_character_template[10730] = {
 		exp_upper_limit = 12000,
 		group_id = 10730,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10738] = {
+	}
+	pg.base.lover_character_template[10738] = {
 		exp_upper_limit = 12000,
 		group_id = 10738,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10799] = {
+	}
+	pg.base.lover_character_template[10799] = {
 		exp_upper_limit = 12000,
 		group_id = 10799,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10802] = {
+	}
+	pg.base.lover_character_template[10802] = {
 		exp_upper_limit = 12000,
 		group_id = 10802,
 		exp_up = 200,
 		relate_group_id = {
 			10805
 		}
-	},
-	[10804] = {
+	}
+	pg.base.lover_character_template[10804] = {
 		exp_upper_limit = 12000,
 		group_id = 10804,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10803] = {
+	}
+	pg.base.lover_character_template[10803] = {
 		exp_upper_limit = 12000,
 		group_id = 10803,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10801] = {
+	}
+	pg.base.lover_character_template[10801] = {
 		exp_upper_limit = 12000,
 		group_id = 10801,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10806] = {
+	}
+	pg.base.lover_character_template[10806] = {
 		exp_upper_limit = 12000,
 		group_id = 10806,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10807] = {
+	}
+	pg.base.lover_character_template[10807] = {
 		exp_upper_limit = 12000,
 		group_id = 10807,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10808] = {
+	}
+	pg.base.lover_character_template[10808] = {
 		exp_upper_limit = 12000,
 		group_id = 10808,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[10809] = {
+	}
+	pg.base.lover_character_template[10809] = {
 		exp_upper_limit = 12000,
 		group_id = 10809,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[11201] = {
+	}
+	pg.base.lover_character_template[11201] = {
 		exp_upper_limit = 12000,
 		group_id = 11201,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[11802] = {
+	}
+	pg.base.lover_character_template[11802] = {
 		exp_upper_limit = 12000,
 		group_id = 11802,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20123] = {
+	}
+	pg.base.lover_character_template[20123] = {
 		exp_upper_limit = 12000,
 		group_id = 20123,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20101] = {
+	}
+	pg.base.lover_character_template[20101] = {
 		exp_upper_limit = 12000,
 		group_id = 20101,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20102] = {
+	}
+	pg.base.lover_character_template[20102] = {
 		exp_upper_limit = 12000,
 		group_id = 20102,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20103] = {
+	}
+	pg.base.lover_character_template[20103] = {
 		exp_upper_limit = 12000,
 		group_id = 20103,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20106] = {
+	}
+	pg.base.lover_character_template[20106] = {
 		exp_upper_limit = 12000,
 		group_id = 20106,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20107] = {
+	}
+	pg.base.lover_character_template[20107] = {
 		exp_upper_limit = 12000,
 		group_id = 20107,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20108] = {
+	}
+	pg.base.lover_character_template[20108] = {
 		exp_upper_limit = 12000,
 		group_id = 20108,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20109] = {
+	}
+	pg.base.lover_character_template[20109] = {
 		exp_upper_limit = 12000,
 		group_id = 20109,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20110] = {
+	}
+	pg.base.lover_character_template[20110] = {
 		exp_upper_limit = 12000,
 		group_id = 20110,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20129] = {
+	}
+	pg.base.lover_character_template[20129] = {
 		exp_upper_limit = 12000,
 		group_id = 20129,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20111] = {
+	}
+	pg.base.lover_character_template[20111] = {
 		exp_upper_limit = 12000,
 		group_id = 20111,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20112] = {
+	}
+	pg.base.lover_character_template[20112] = {
 		exp_upper_limit = 12000,
 		group_id = 20112,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20113] = {
+	}
+	pg.base.lover_character_template[20113] = {
 		exp_upper_limit = 12000,
 		group_id = 20113,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20114] = {
+	}
+	pg.base.lover_character_template[20114] = {
 		exp_upper_limit = 12000,
 		group_id = 20114,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20139] = {
+	}
+	pg.base.lover_character_template[20139] = {
 		exp_upper_limit = 12000,
 		group_id = 20139,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20116] = {
+	}
+	pg.base.lover_character_template[20116] = {
 		exp_upper_limit = 12000,
 		group_id = 20116,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20120] = {
+	}
+	pg.base.lover_character_template[20120] = {
 		exp_upper_limit = 12000,
 		group_id = 20120,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20136] = {
+	}
+	pg.base.lover_character_template[20136] = {
 		exp_upper_limit = 12000,
 		group_id = 20136,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20133] = {
+	}
+	pg.base.lover_character_template[20133] = {
 		exp_upper_limit = 12000,
 		group_id = 20133,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20121] = {
+	}
+	pg.base.lover_character_template[20121] = {
 		exp_upper_limit = 12000,
 		group_id = 20121,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20122] = {
+	}
+	pg.base.lover_character_template[20122] = {
 		exp_upper_limit = 12000,
 		group_id = 20122,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20124] = {
+	}
+	pg.base.lover_character_template[20124] = {
 		exp_upper_limit = 12000,
 		group_id = 20124,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20125] = {
+	}
+	pg.base.lover_character_template[20125] = {
 		exp_upper_limit = 12000,
 		group_id = 20125,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20126] = {
+	}
+	pg.base.lover_character_template[20126] = {
 		exp_upper_limit = 12000,
 		group_id = 20126,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20127] = {
+	}
+	pg.base.lover_character_template[20127] = {
 		exp_upper_limit = 12000,
 		group_id = 20127,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20132] = {
+	}
+	pg.base.lover_character_template[20132] = {
 		exp_upper_limit = 12000,
 		group_id = 20132,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20134] = {
+	}
+	pg.base.lover_character_template[20134] = {
 		exp_upper_limit = 12000,
 		group_id = 20134,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20135] = {
+	}
+	pg.base.lover_character_template[20135] = {
 		exp_upper_limit = 12000,
 		group_id = 20135,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20137] = {
+	}
+	pg.base.lover_character_template[20137] = {
 		exp_upper_limit = 12000,
 		group_id = 20137,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20138] = {
+	}
+	pg.base.lover_character_template[20138] = {
 		exp_upper_limit = 12000,
 		group_id = 20138,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20221] = {
+	}
+	pg.base.lover_character_template[20221] = {
 		exp_upper_limit = 12000,
 		group_id = 20221,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20222] = {
+	}
+	pg.base.lover_character_template[20222] = {
 		exp_upper_limit = 12000,
 		group_id = 20222,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20232] = {
+	}
+	pg.base.lover_character_template[20232] = {
 		exp_upper_limit = 12000,
 		group_id = 20232,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20201] = {
+	}
+	pg.base.lover_character_template[20201] = {
 		exp_upper_limit = 12000,
 		group_id = 20201,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20202] = {
+	}
+	pg.base.lover_character_template[20202] = {
 		exp_upper_limit = 12000,
 		group_id = 20202,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20203] = {
+	}
+	pg.base.lover_character_template[20203] = {
 		exp_upper_limit = 12000,
 		group_id = 20203,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20213] = {
+	}
+	pg.base.lover_character_template[20213] = {
 		exp_upper_limit = 12000,
 		group_id = 20213,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20214] = {
+	}
+	pg.base.lover_character_template[20214] = {
 		exp_upper_limit = 12000,
 		group_id = 20214,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20229] = {
+	}
+	pg.base.lover_character_template[20229] = {
 		exp_upper_limit = 12000,
 		group_id = 20229,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20215] = {
+	}
+	pg.base.lover_character_template[20215] = {
 		exp_upper_limit = 12000,
 		group_id = 20215,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20207] = {
+	}
+	pg.base.lover_character_template[20207] = {
 		exp_upper_limit = 12000,
 		group_id = 20207,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20219] = {
+	}
+	pg.base.lover_character_template[20219] = {
 		exp_upper_limit = 12000,
 		group_id = 20219,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20208] = {
+	}
+	pg.base.lover_character_template[20208] = {
 		exp_upper_limit = 12000,
 		group_id = 20208,
 		exp_up = 200,
 		relate_group_id = {
 			20225
 		}
-	},
-	[20226] = {
+	}
+	pg.base.lover_character_template[20226] = {
 		exp_upper_limit = 12000,
 		group_id = 20226,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20209] = {
+	}
+	pg.base.lover_character_template[20209] = {
 		exp_upper_limit = 12000,
 		group_id = 20209,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20210] = {
+	}
+	pg.base.lover_character_template[20210] = {
 		exp_upper_limit = 12000,
 		group_id = 20210,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20234] = {
+	}
+	pg.base.lover_character_template[20234] = {
 		exp_upper_limit = 12000,
 		group_id = 20234,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20211] = {
+	}
+	pg.base.lover_character_template[20211] = {
 		exp_upper_limit = 12000,
 		group_id = 20211,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20212] = {
+	}
+	pg.base.lover_character_template[20212] = {
 		exp_upper_limit = 12000,
 		group_id = 20212,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20218] = {
+	}
+	pg.base.lover_character_template[20218] = {
 		exp_upper_limit = 12000,
 		group_id = 20218,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20204] = {
+	}
+	pg.base.lover_character_template[20204] = {
 		exp_upper_limit = 12000,
 		group_id = 20204,
 		exp_up = 200,
 		relate_group_id = {
 			20228
 		}
-	},
-	[20227] = {
+	}
+	pg.base.lover_character_template[20227] = {
 		exp_upper_limit = 12000,
 		group_id = 20227,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20233] = {
+	}
+	pg.base.lover_character_template[20233] = {
 		exp_upper_limit = 12000,
 		group_id = 20233,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20230] = {
+	}
+	pg.base.lover_character_template[20230] = {
 		exp_upper_limit = 12000,
 		group_id = 20230,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20220] = {
+	}
+	pg.base.lover_character_template[20220] = {
 		exp_upper_limit = 12000,
 		group_id = 20220,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20224] = {
+	}
+	pg.base.lover_character_template[20224] = {
 		exp_upper_limit = 12000,
 		group_id = 20224,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20235] = {
+	}
+end)()
+(function ()
+	pg.base.lover_character_template[20235] = {
 		exp_upper_limit = 12000,
 		group_id = 20235,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20231] = {
+	}
+	pg.base.lover_character_template[20231] = {
 		exp_upper_limit = 12000,
 		group_id = 20231,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20216] = {
+	}
+	pg.base.lover_character_template[20216] = {
 		exp_upper_limit = 12000,
 		group_id = 20216,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20217] = {
+	}
+	pg.base.lover_character_template[20217] = {
 		exp_upper_limit = 12000,
 		group_id = 20217,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20236] = {
+	}
+	pg.base.lover_character_template[20236] = {
 		exp_upper_limit = 12000,
 		group_id = 20236,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20223] = {
+	}
+	pg.base.lover_character_template[20223] = {
 		exp_upper_limit = 12000,
 		group_id = 20223,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20301] = {
+	}
+	pg.base.lover_character_template[20301] = {
 		exp_upper_limit = 12000,
 		group_id = 20301,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20302] = {
+	}
+	pg.base.lover_character_template[20302] = {
 		exp_upper_limit = 12000,
 		group_id = 20302,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20309] = {
+	}
+	pg.base.lover_character_template[20309] = {
 		exp_upper_limit = 12000,
 		group_id = 20309,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20303] = {
+	}
+	pg.base.lover_character_template[20303] = {
 		exp_upper_limit = 12000,
 		group_id = 20303,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20304] = {
+	}
+	pg.base.lover_character_template[20304] = {
 		exp_upper_limit = 12000,
 		group_id = 20304,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20305] = {
+	}
+	pg.base.lover_character_template[20305] = {
 		exp_upper_limit = 12000,
 		group_id = 20305,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20306] = {
+	}
+	pg.base.lover_character_template[20306] = {
 		exp_upper_limit = 12000,
 		group_id = 20306,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20307] = {
+	}
+	pg.base.lover_character_template[20307] = {
 		exp_upper_limit = 12000,
 		group_id = 20307,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20308] = {
+	}
+	pg.base.lover_character_template[20308] = {
 		exp_upper_limit = 12000,
 		group_id = 20308,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20310] = {
+	}
+	pg.base.lover_character_template[20310] = {
 		exp_upper_limit = 12000,
 		group_id = 20310,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20313] = {
+	}
+	pg.base.lover_character_template[20313] = {
 		exp_upper_limit = 12000,
 		group_id = 20313,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20401] = {
+	}
+	pg.base.lover_character_template[20401] = {
 		exp_upper_limit = 12000,
 		group_id = 20401,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20402] = {
+	}
+	pg.base.lover_character_template[20402] = {
 		exp_upper_limit = 12000,
 		group_id = 20402,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20404] = {
+	}
+	pg.base.lover_character_template[20404] = {
 		exp_upper_limit = 12000,
 		group_id = 20404,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20403] = {
+	}
+	pg.base.lover_character_template[20403] = {
 		exp_upper_limit = 12000,
 		group_id = 20403,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20501] = {
+	}
+	pg.base.lover_character_template[20501] = {
 		exp_upper_limit = 12000,
 		group_id = 20501,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20502] = {
+	}
+	pg.base.lover_character_template[20502] = {
 		exp_upper_limit = 12000,
 		group_id = 20502,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20510] = {
+	}
+	pg.base.lover_character_template[20510] = {
 		exp_upper_limit = 12000,
 		group_id = 20510,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20511] = {
+	}
+	pg.base.lover_character_template[20511] = {
 		exp_upper_limit = 12000,
 		group_id = 20511,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20514] = {
+	}
+	pg.base.lover_character_template[20514] = {
 		exp_upper_limit = 12000,
 		group_id = 20514,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20503] = {
+	}
+	pg.base.lover_character_template[20503] = {
 		exp_upper_limit = 12000,
 		group_id = 20503,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20504] = {
+	}
+	pg.base.lover_character_template[20504] = {
 		exp_upper_limit = 12000,
 		group_id = 20504,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20505] = {
+	}
+	pg.base.lover_character_template[20505] = {
 		exp_upper_limit = 12000,
 		group_id = 20505,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20506] = {
+	}
+	pg.base.lover_character_template[20506] = {
 		exp_upper_limit = 12000,
 		group_id = 20506,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20507] = {
+	}
+	pg.base.lover_character_template[20507] = {
 		exp_upper_limit = 12000,
 		group_id = 20507,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20509] = {
+	}
+	pg.base.lover_character_template[20509] = {
 		exp_upper_limit = 12000,
 		group_id = 20509,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20513] = {
+	}
+	pg.base.lover_character_template[20513] = {
 		exp_upper_limit = 12000,
 		group_id = 20513,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20516] = {
+	}
+	pg.base.lover_character_template[20516] = {
 		exp_upper_limit = 12000,
 		group_id = 20516,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20601] = {
+	}
+	pg.base.lover_character_template[20601] = {
 		exp_upper_limit = 12000,
 		group_id = 20601,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20602] = {
+	}
+	pg.base.lover_character_template[20602] = {
 		exp_upper_limit = 12000,
 		group_id = 20602,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20603] = {
+	}
+	pg.base.lover_character_template[20603] = {
 		exp_upper_limit = 12000,
 		group_id = 20603,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20605] = {
+	}
+	pg.base.lover_character_template[20605] = {
 		exp_upper_limit = 12000,
 		group_id = 20605,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20606] = {
+	}
+	pg.base.lover_character_template[20606] = {
 		exp_upper_limit = 12000,
 		group_id = 20606,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20608] = {
+	}
+	pg.base.lover_character_template[20608] = {
 		exp_upper_limit = 12000,
 		group_id = 20608,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20604] = {
+	}
+	pg.base.lover_character_template[20604] = {
 		exp_upper_limit = 12000,
 		group_id = 20604,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20607] = {
+	}
+	pg.base.lover_character_template[20607] = {
 		exp_upper_limit = 12000,
 		group_id = 20607,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20701] = {
+	}
+	pg.base.lover_character_template[20701] = {
 		exp_upper_limit = 12000,
 		group_id = 20701,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20706] = {
+	}
+	pg.base.lover_character_template[20706] = {
 		exp_upper_limit = 12000,
 		group_id = 20706,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20702] = {
+	}
+	pg.base.lover_character_template[20702] = {
 		exp_upper_limit = 12000,
 		group_id = 20702,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20703] = {
+	}
+	pg.base.lover_character_template[20703] = {
 		exp_upper_limit = 12000,
 		group_id = 20703,
 		exp_up = 200,
 		relate_group_id = {
 			20711
 		}
-	},
-	[20704] = {
+	}
+	pg.base.lover_character_template[20704] = {
 		exp_upper_limit = 12000,
 		group_id = 20704,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20705] = {
+	}
+	pg.base.lover_character_template[20705] = {
 		exp_upper_limit = 12000,
 		group_id = 20705,
 		exp_up = 200,
 		relate_group_id = {
 			20714
 		}
-	},
-	[20712] = {
+	}
+	pg.base.lover_character_template[20712] = {
 		exp_upper_limit = 12000,
 		group_id = 20712,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20709] = {
+	}
+	pg.base.lover_character_template[20709] = {
 		exp_upper_limit = 12000,
 		group_id = 20709,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20713] = {
+	}
+	pg.base.lover_character_template[20713] = {
 		exp_upper_limit = 12000,
 		group_id = 20713,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[20707] = {
+	}
+	pg.base.lover_character_template[20707] = {
 		exp_upper_limit = 12000,
 		group_id = 20707,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[21301] = {
+	}
+	pg.base.lover_character_template[21301] = {
 		exp_upper_limit = 12000,
 		group_id = 21301,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[21302] = {
+	}
+	pg.base.lover_character_template[21302] = {
 		exp_upper_limit = 12000,
 		group_id = 21302,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[21304] = {
+	}
+	pg.base.lover_character_template[21304] = {
 		exp_upper_limit = 12000,
 		group_id = 21304,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30130] = {
+	}
+	pg.base.lover_character_template[30130] = {
 		exp_upper_limit = 12000,
 		group_id = 30130,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30131] = {
+	}
+	pg.base.lover_character_template[30131] = {
 		exp_upper_limit = 12000,
 		group_id = 30131,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30179] = {
+	}
+	pg.base.lover_character_template[30179] = {
 		exp_upper_limit = 12000,
 		group_id = 30179,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30185] = {
+	}
+	pg.base.lover_character_template[30185] = {
 		exp_upper_limit = 12000,
 		group_id = 30185,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30132] = {
+	}
+	pg.base.lover_character_template[30132] = {
 		exp_upper_limit = 12000,
 		group_id = 30132,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30133] = {
+	}
+	pg.base.lover_character_template[30133] = {
 		exp_upper_limit = 12000,
 		group_id = 30133,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30135] = {
+	}
+	pg.base.lover_character_template[30135] = {
 		exp_upper_limit = 12000,
 		group_id = 30135,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30137] = {
+	}
+	pg.base.lover_character_template[30137] = {
 		exp_upper_limit = 12000,
 		group_id = 30137,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30138] = {
+	}
+	pg.base.lover_character_template[30138] = {
 		exp_upper_limit = 12000,
 		group_id = 30138,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30139] = {
+	}
+	pg.base.lover_character_template[30139] = {
 		exp_upper_limit = 12000,
 		group_id = 30139,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30141] = {
+	}
+	pg.base.lover_character_template[30141] = {
 		exp_upper_limit = 12000,
 		group_id = 30141,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30101] = {
+	}
+	pg.base.lover_character_template[30101] = {
 		exp_upper_limit = 12000,
 		group_id = 30101,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30102] = {
+	}
+	pg.base.lover_character_template[30102] = {
 		exp_upper_limit = 12000,
 		group_id = 30102,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30104] = {
+	}
+	pg.base.lover_character_template[30104] = {
 		exp_upper_limit = 12000,
 		group_id = 30104,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30172] = {
+	}
+	pg.base.lover_character_template[30172] = {
 		exp_upper_limit = 12000,
 		group_id = 30172,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30105] = {
+	}
+	pg.base.lover_character_template[30105] = {
 		exp_upper_limit = 12000,
 		group_id = 30105,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30109] = {
+	}
+	pg.base.lover_character_template[30109] = {
 		exp_upper_limit = 12000,
 		group_id = 30109,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30110] = {
+	}
+	pg.base.lover_character_template[30110] = {
 		exp_upper_limit = 12000,
 		group_id = 30110,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30111] = {
+	}
+	pg.base.lover_character_template[30111] = {
 		exp_upper_limit = 12000,
 		group_id = 30111,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30112] = {
+	}
+	pg.base.lover_character_template[30112] = {
 		exp_upper_limit = 12000,
 		group_id = 30112,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30121] = {
+	}
+	pg.base.lover_character_template[30121] = {
 		exp_upper_limit = 12000,
 		group_id = 30121,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30123] = {
+	}
+	pg.base.lover_character_template[30123] = {
 		exp_upper_limit = 12000,
 		group_id = 30123,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30124] = {
+	}
+	pg.base.lover_character_template[30124] = {
 		exp_upper_limit = 12000,
 		group_id = 30124,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30125] = {
+	}
+	pg.base.lover_character_template[30125] = {
 		exp_upper_limit = 12000,
 		group_id = 30125,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30126] = {
+	}
+	pg.base.lover_character_template[30126] = {
 		exp_upper_limit = 12000,
 		group_id = 30126,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30113] = {
+	}
+	pg.base.lover_character_template[30113] = {
 		exp_upper_limit = 12000,
 		group_id = 30113,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30115] = {
+	}
+	pg.base.lover_character_template[30115] = {
 		exp_upper_limit = 12000,
 		group_id = 30115,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30114] = {
+	}
+	pg.base.lover_character_template[30114] = {
 		exp_upper_limit = 12000,
 		group_id = 30114,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30147] = {
+	}
+	pg.base.lover_character_template[30147] = {
 		exp_upper_limit = 12000,
 		group_id = 30147,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30148] = {
+	}
+	pg.base.lover_character_template[30148] = {
 		exp_upper_limit = 12000,
 		group_id = 30148,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30149] = {
+	}
+	pg.base.lover_character_template[30149] = {
 		exp_upper_limit = 12000,
 		group_id = 30149,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30163] = {
+	}
+	pg.base.lover_character_template[30163] = {
 		exp_upper_limit = 12000,
 		group_id = 30163,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30164] = {
+	}
+	pg.base.lover_character_template[30164] = {
 		exp_upper_limit = 12000,
 		group_id = 30164,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30165] = {
+	}
+	pg.base.lover_character_template[30165] = {
 		exp_upper_limit = 12000,
 		group_id = 30165,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30166] = {
+	}
+	pg.base.lover_character_template[30166] = {
 		exp_upper_limit = 12000,
 		group_id = 30166,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30181] = {
+	}
+	pg.base.lover_character_template[30181] = {
 		exp_upper_limit = 12000,
 		group_id = 30181,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30117] = {
+	}
+	pg.base.lover_character_template[30117] = {
 		exp_upper_limit = 12000,
 		group_id = 30117,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30118] = {
+	}
+	pg.base.lover_character_template[30118] = {
 		exp_upper_limit = 12000,
 		group_id = 30118,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30127] = {
+	}
+	pg.base.lover_character_template[30127] = {
 		exp_upper_limit = 12000,
 		group_id = 30127,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30128] = {
+	}
+	pg.base.lover_character_template[30128] = {
 		exp_upper_limit = 12000,
 		group_id = 30128,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30116] = {
+	}
+	pg.base.lover_character_template[30116] = {
 		exp_upper_limit = 12000,
 		group_id = 30116,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30159] = {
+	}
+	pg.base.lover_character_template[30159] = {
 		exp_upper_limit = 12000,
 		group_id = 30159,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30160] = {
+	}
+	pg.base.lover_character_template[30160] = {
 		exp_upper_limit = 12000,
 		group_id = 30160,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30161] = {
+	}
+	pg.base.lover_character_template[30161] = {
 		exp_upper_limit = 12000,
 		group_id = 30161,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30162] = {
+	}
+	pg.base.lover_character_template[30162] = {
 		exp_upper_limit = 12000,
 		group_id = 30162,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30120] = {
+	}
+end)()
+(function ()
+	pg.base.lover_character_template[30120] = {
 		exp_upper_limit = 12000,
 		group_id = 30120,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30186] = {
+	}
+	pg.base.lover_character_template[30186] = {
 		exp_upper_limit = 12000,
 		group_id = 30186,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30183] = {
+	}
+	pg.base.lover_character_template[30183] = {
 		exp_upper_limit = 12000,
 		group_id = 30183,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30180] = {
+	}
+	pg.base.lover_character_template[30180] = {
 		exp_upper_limit = 12000,
 		group_id = 30180,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30154] = {
+	}
+	pg.base.lover_character_template[30154] = {
 		exp_upper_limit = 12000,
 		group_id = 30154,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30184] = {
+	}
+	pg.base.lover_character_template[30184] = {
 		exp_upper_limit = 12000,
 		group_id = 30184,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30156] = {
+	}
+	pg.base.lover_character_template[30156] = {
 		exp_upper_limit = 12000,
 		group_id = 30156,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30188] = {
+	}
+	pg.base.lover_character_template[30188] = {
 		exp_upper_limit = 12000,
 		group_id = 30188,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30189] = {
+	}
+	pg.base.lover_character_template[30189] = {
 		exp_upper_limit = 12000,
 		group_id = 30189,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30190] = {
+	}
+	pg.base.lover_character_template[30190] = {
 		exp_upper_limit = 12000,
 		group_id = 30190,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30191] = {
+	}
+	pg.base.lover_character_template[30191] = {
 		exp_upper_limit = 12000,
 		group_id = 30191,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30192] = {
+	}
+	pg.base.lover_character_template[30192] = {
 		exp_upper_limit = 12000,
 		group_id = 30192,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30157] = {
+	}
+	pg.base.lover_character_template[30157] = {
 		exp_upper_limit = 12000,
 		group_id = 30157,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30158] = {
+	}
+	pg.base.lover_character_template[30158] = {
 		exp_upper_limit = 12000,
 		group_id = 30158,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30182] = {
+	}
+	pg.base.lover_character_template[30182] = {
 		exp_upper_limit = 12000,
 		group_id = 30182,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30129] = {
+	}
+	pg.base.lover_character_template[30129] = {
 		exp_upper_limit = 12000,
 		group_id = 30129,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30204] = {
+	}
+	pg.base.lover_character_template[30204] = {
 		exp_upper_limit = 12000,
 		group_id = 30204,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30205] = {
+	}
+	pg.base.lover_character_template[30205] = {
 		exp_upper_limit = 12000,
 		group_id = 30205,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30206] = {
+	}
+	pg.base.lover_character_template[30206] = {
 		exp_upper_limit = 12000,
 		group_id = 30206,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30207] = {
+	}
+	pg.base.lover_character_template[30207] = {
 		exp_upper_limit = 12000,
 		group_id = 30207,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30208] = {
+	}
+	pg.base.lover_character_template[30208] = {
 		exp_upper_limit = 12000,
 		group_id = 30208,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30209] = {
+	}
+	pg.base.lover_character_template[30209] = {
 		exp_upper_limit = 12000,
 		group_id = 30209,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30201] = {
+	}
+	pg.base.lover_character_template[30201] = {
 		exp_upper_limit = 12000,
 		group_id = 30201,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30212] = {
+	}
+	pg.base.lover_character_template[30212] = {
 		exp_upper_limit = 12000,
 		group_id = 30212,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30213] = {
+	}
+	pg.base.lover_character_template[30213] = {
 		exp_upper_limit = 12000,
 		group_id = 30213,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30214] = {
+	}
+	pg.base.lover_character_template[30214] = {
 		exp_upper_limit = 12000,
 		group_id = 30214,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30226] = {
+	}
+	pg.base.lover_character_template[30226] = {
 		exp_upper_limit = 12000,
 		group_id = 30226,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30227] = {
+	}
+	pg.base.lover_character_template[30227] = {
 		exp_upper_limit = 12000,
 		group_id = 30227,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30210] = {
+	}
+	pg.base.lover_character_template[30210] = {
 		exp_upper_limit = 12000,
 		group_id = 30210,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30211] = {
+	}
+	pg.base.lover_character_template[30211] = {
 		exp_upper_limit = 12000,
 		group_id = 30211,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30317] = {
+	}
+	pg.base.lover_character_template[30317] = {
 		exp_upper_limit = 12000,
 		group_id = 30317,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30318] = {
+	}
+	pg.base.lover_character_template[30318] = {
 		exp_upper_limit = 12000,
 		group_id = 30318,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30220] = {
+	}
+	pg.base.lover_character_template[30220] = {
 		exp_upper_limit = 12000,
 		group_id = 30220,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30221] = {
+	}
+	pg.base.lover_character_template[30221] = {
 		exp_upper_limit = 12000,
 		group_id = 30221,
 		exp_up = 200,
 		relate_group_id = {
 			30224
 		}
-	},
-	[30223] = {
+	}
+	pg.base.lover_character_template[30223] = {
 		exp_upper_limit = 12000,
 		group_id = 30223,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30225] = {
+	}
+	pg.base.lover_character_template[30225] = {
 		exp_upper_limit = 12000,
 		group_id = 30225,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30301] = {
+	}
+	pg.base.lover_character_template[30301] = {
 		exp_upper_limit = 12000,
 		group_id = 30301,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30302] = {
+	}
+	pg.base.lover_character_template[30302] = {
 		exp_upper_limit = 12000,
 		group_id = 30302,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30303] = {
+	}
+	pg.base.lover_character_template[30303] = {
 		exp_upper_limit = 12000,
 		group_id = 30303,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30304] = {
+	}
+	pg.base.lover_character_template[30304] = {
 		exp_upper_limit = 12000,
 		group_id = 30304,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30306] = {
+	}
+	pg.base.lover_character_template[30306] = {
 		exp_upper_limit = 12000,
 		group_id = 30306,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30307] = {
+	}
+	pg.base.lover_character_template[30307] = {
 		exp_upper_limit = 12000,
 		group_id = 30307,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30308] = {
+	}
+	pg.base.lover_character_template[30308] = {
 		exp_upper_limit = 12000,
 		group_id = 30308,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30309] = {
+	}
+	pg.base.lover_character_template[30309] = {
 		exp_upper_limit = 12000,
 		group_id = 30309,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30310] = {
+	}
+	pg.base.lover_character_template[30310] = {
 		exp_upper_limit = 12000,
 		group_id = 30310,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30311] = {
+	}
+	pg.base.lover_character_template[30311] = {
 		exp_upper_limit = 12000,
 		group_id = 30311,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30312] = {
+	}
+	pg.base.lover_character_template[30312] = {
 		exp_upper_limit = 12000,
 		group_id = 30312,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30313] = {
+	}
+	pg.base.lover_character_template[30313] = {
 		exp_upper_limit = 12000,
 		group_id = 30313,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30314] = {
+	}
+	pg.base.lover_character_template[30314] = {
 		exp_upper_limit = 12000,
 		group_id = 30314,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30319] = {
+	}
+	pg.base.lover_character_template[30319] = {
 		exp_upper_limit = 12000,
 		group_id = 30319,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30320] = {
+	}
+	pg.base.lover_character_template[30320] = {
 		exp_upper_limit = 12000,
 		group_id = 30320,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30401] = {
+	}
+	pg.base.lover_character_template[30401] = {
 		exp_upper_limit = 12000,
 		group_id = 30401,
 		exp_up = 200,
 		relate_group_id = {
 			30408
 		}
-	},
-	[30402] = {
+	}
+	pg.base.lover_character_template[30402] = {
 		exp_upper_limit = 12000,
 		group_id = 30402,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30403] = {
+	}
+	pg.base.lover_character_template[30403] = {
 		exp_upper_limit = 12000,
 		group_id = 30403,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30404] = {
+	}
+	pg.base.lover_character_template[30404] = {
 		exp_upper_limit = 12000,
 		group_id = 30404,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30406] = {
+	}
+	pg.base.lover_character_template[30406] = {
 		exp_upper_limit = 12000,
 		group_id = 30406,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30405] = {
+	}
+	pg.base.lover_character_template[30405] = {
 		exp_upper_limit = 12000,
 		group_id = 30405,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30407] = {
+	}
+	pg.base.lover_character_template[30407] = {
 		exp_upper_limit = 12000,
 		group_id = 30407,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30511] = {
+	}
+	pg.base.lover_character_template[30511] = {
 		exp_upper_limit = 12000,
 		group_id = 30511,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30501] = {
+	}
+	pg.base.lover_character_template[30501] = {
 		exp_upper_limit = 12000,
 		group_id = 30501,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30502] = {
+	}
+	pg.base.lover_character_template[30502] = {
 		exp_upper_limit = 12000,
 		group_id = 30502,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30503] = {
+	}
+	pg.base.lover_character_template[30503] = {
 		exp_upper_limit = 12000,
 		group_id = 30503,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30504] = {
+	}
+	pg.base.lover_character_template[30504] = {
 		exp_upper_limit = 12000,
 		group_id = 30504,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30505] = {
+	}
+	pg.base.lover_character_template[30505] = {
 		exp_upper_limit = 12000,
 		group_id = 30505,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30506] = {
+	}
+	pg.base.lover_character_template[30506] = {
 		exp_upper_limit = 12000,
 		group_id = 30506,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30507] = {
+	}
+	pg.base.lover_character_template[30507] = {
 		exp_upper_limit = 12000,
 		group_id = 30507,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30508] = {
+	}
+	pg.base.lover_character_template[30508] = {
 		exp_upper_limit = 12000,
 		group_id = 30508,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30512] = {
+	}
+	pg.base.lover_character_template[30512] = {
 		exp_upper_limit = 12000,
 		group_id = 30512,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30513] = {
+	}
+	pg.base.lover_character_template[30513] = {
 		exp_upper_limit = 12000,
 		group_id = 30513,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30514] = {
+	}
+	pg.base.lover_character_template[30514] = {
 		exp_upper_limit = 12000,
 		group_id = 30514,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30516] = {
+	}
+	pg.base.lover_character_template[30516] = {
 		exp_upper_limit = 12000,
 		group_id = 30516,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30510] = {
+	}
+	pg.base.lover_character_template[30510] = {
 		exp_upper_limit = 12000,
 		group_id = 30510,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30601] = {
+	}
+	pg.base.lover_character_template[30601] = {
 		exp_upper_limit = 12000,
 		group_id = 30601,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30602] = {
+	}
+	pg.base.lover_character_template[30602] = {
 		exp_upper_limit = 12000,
 		group_id = 30602,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30603] = {
+	}
+	pg.base.lover_character_template[30603] = {
 		exp_upper_limit = 12000,
 		group_id = 30603,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30604] = {
+	}
+	pg.base.lover_character_template[30604] = {
 		exp_upper_limit = 12000,
 		group_id = 30604,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30605] = {
+	}
+	pg.base.lover_character_template[30605] = {
 		exp_upper_limit = 12000,
 		group_id = 30605,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30606] = {
+	}
+	pg.base.lover_character_template[30606] = {
 		exp_upper_limit = 12000,
 		group_id = 30606,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30607] = {
+	}
+	pg.base.lover_character_template[30607] = {
 		exp_upper_limit = 12000,
 		group_id = 30607,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30608] = {
+	}
+	pg.base.lover_character_template[30608] = {
 		exp_upper_limit = 12000,
 		group_id = 30608,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30609] = {
+	}
+	pg.base.lover_character_template[30609] = {
 		exp_upper_limit = 12000,
 		group_id = 30609,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30701] = {
+	}
+	pg.base.lover_character_template[30701] = {
 		exp_upper_limit = 12000,
 		group_id = 30701,
 		exp_up = 200,
 		relate_group_id = {
 			30710
 		}
-	},
-	[30702] = {
+	}
+	pg.base.lover_character_template[30702] = {
 		exp_upper_limit = 12000,
 		group_id = 30702,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30709] = {
+	}
+	pg.base.lover_character_template[30709] = {
 		exp_upper_limit = 12000,
 		group_id = 30709,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30703] = {
+	}
+	pg.base.lover_character_template[30703] = {
 		exp_upper_limit = 12000,
 		group_id = 30703,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30704] = {
+	}
+	pg.base.lover_character_template[30704] = {
 		exp_upper_limit = 12000,
 		group_id = 30704,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30705] = {
+	}
+	pg.base.lover_character_template[30705] = {
 		exp_upper_limit = 12000,
 		group_id = 30705,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30706] = {
+	}
+	pg.base.lover_character_template[30706] = {
 		exp_upper_limit = 12000,
 		group_id = 30706,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30707] = {
+	}
+	pg.base.lover_character_template[30707] = {
 		exp_upper_limit = 12000,
 		group_id = 30707,
 		exp_up = 200,
 		relate_group_id = {
 			30711
 		}
-	},
-	[30713] = {
+	}
+	pg.base.lover_character_template[30713] = {
 		exp_upper_limit = 12000,
 		group_id = 30713,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30708] = {
+	}
+	pg.base.lover_character_template[30708] = {
 		exp_upper_limit = 12000,
 		group_id = 30708,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30714] = {
+	}
+	pg.base.lover_character_template[30714] = {
 		exp_upper_limit = 12000,
 		group_id = 30714,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30712] = {
+	}
+	pg.base.lover_character_template[30712] = {
 		exp_upper_limit = 12000,
 		group_id = 30712,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30715] = {
+	}
+	pg.base.lover_character_template[30715] = {
 		exp_upper_limit = 12000,
 		group_id = 30715,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30716] = {
+	}
+	pg.base.lover_character_template[30716] = {
 		exp_upper_limit = 12000,
 		group_id = 30716,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30801] = {
+	}
+	pg.base.lover_character_template[30801] = {
 		exp_upper_limit = 12000,
 		group_id = 30801,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30804] = {
+	}
+	pg.base.lover_character_template[30804] = {
 		exp_upper_limit = 12000,
 		group_id = 30804,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30802] = {
+	}
+	pg.base.lover_character_template[30802] = {
 		exp_upper_limit = 12000,
 		group_id = 30802,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30805] = {
+	}
+	pg.base.lover_character_template[30805] = {
 		exp_upper_limit = 12000,
 		group_id = 30805,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30803] = {
+	}
+	pg.base.lover_character_template[30803] = {
 		exp_upper_limit = 12000,
 		group_id = 30803,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30806] = {
+	}
+end)()
+(function ()
+	pg.base.lover_character_template[30806] = {
 		exp_upper_limit = 12000,
 		group_id = 30806,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[31701] = {
+	}
+	pg.base.lover_character_template[31701] = {
 		exp_upper_limit = 12000,
 		group_id = 31701,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[31702] = {
+	}
+	pg.base.lover_character_template[31702] = {
 		exp_upper_limit = 12000,
 		group_id = 31702,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[31201] = {
+	}
+	pg.base.lover_character_template[31201] = {
 		exp_upper_limit = 12000,
 		group_id = 31201,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[31901] = {
+	}
+	pg.base.lover_character_template[31901] = {
 		exp_upper_limit = 12000,
 		group_id = 31901,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40101] = {
+	}
+	pg.base.lover_character_template[40101] = {
 		exp_upper_limit = 12000,
 		group_id = 40101,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40102] = {
+	}
+	pg.base.lover_character_template[40102] = {
 		exp_upper_limit = 12000,
 		group_id = 40102,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40109] = {
+	}
+	pg.base.lover_character_template[40109] = {
 		exp_upper_limit = 12000,
 		group_id = 40109,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40111] = {
+	}
+	pg.base.lover_character_template[40111] = {
 		exp_upper_limit = 12000,
 		group_id = 40111,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40113] = {
+	}
+	pg.base.lover_character_template[40113] = {
 		exp_upper_limit = 12000,
 		group_id = 40113,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40116] = {
+	}
+	pg.base.lover_character_template[40116] = {
 		exp_upper_limit = 12000,
 		group_id = 40116,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40118] = {
+	}
+	pg.base.lover_character_template[40118] = {
 		exp_upper_limit = 12000,
 		group_id = 40118,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40119] = {
+	}
+	pg.base.lover_character_template[40119] = {
 		exp_upper_limit = 12000,
 		group_id = 40119,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40120] = {
+	}
+	pg.base.lover_character_template[40120] = {
 		exp_upper_limit = 12000,
 		group_id = 40120,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40121] = {
+	}
+	pg.base.lover_character_template[40121] = {
 		exp_upper_limit = 12000,
 		group_id = 40121,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40123] = {
+	}
+	pg.base.lover_character_template[40123] = {
 		exp_upper_limit = 12000,
 		group_id = 40123,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40124] = {
+	}
+	pg.base.lover_character_template[40124] = {
 		exp_upper_limit = 12000,
 		group_id = 40124,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40125] = {
+	}
+	pg.base.lover_character_template[40125] = {
 		exp_upper_limit = 12000,
 		group_id = 40125,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40126] = {
+	}
+	pg.base.lover_character_template[40126] = {
 		exp_upper_limit = 12000,
 		group_id = 40126,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40128] = {
+	}
+	pg.base.lover_character_template[40128] = {
 		exp_upper_limit = 12000,
 		group_id = 40128,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40135] = {
+	}
+	pg.base.lover_character_template[40135] = {
 		exp_upper_limit = 12000,
 		group_id = 40135,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40136] = {
+	}
+	pg.base.lover_character_template[40136] = {
 		exp_upper_limit = 12000,
 		group_id = 40136,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40143] = {
+	}
+	pg.base.lover_character_template[40143] = {
 		exp_upper_limit = 12000,
 		group_id = 40143,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40146] = {
+	}
+	pg.base.lover_character_template[40146] = {
 		exp_upper_limit = 12000,
 		group_id = 40146,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40147] = {
+	}
+	pg.base.lover_character_template[40147] = {
 		exp_upper_limit = 12000,
 		group_id = 40147,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40152] = {
+	}
+	pg.base.lover_character_template[40152] = {
 		exp_upper_limit = 12000,
 		group_id = 40152,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40199] = {
+	}
+	pg.base.lover_character_template[40199] = {
 		exp_upper_limit = 12000,
 		group_id = 40199,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40207] = {
+	}
+	pg.base.lover_character_template[40207] = {
 		exp_upper_limit = 12000,
 		group_id = 40207,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40208] = {
+	}
+	pg.base.lover_character_template[40208] = {
 		exp_upper_limit = 12000,
 		group_id = 40208,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40201] = {
+	}
+	pg.base.lover_character_template[40201] = {
 		exp_upper_limit = 12000,
 		group_id = 40201,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40202] = {
+	}
+	pg.base.lover_character_template[40202] = {
 		exp_upper_limit = 12000,
 		group_id = 40202,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40203] = {
+	}
+	pg.base.lover_character_template[40203] = {
 		exp_upper_limit = 12000,
 		group_id = 40203,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40204] = {
+	}
+	pg.base.lover_character_template[40204] = {
 		exp_upper_limit = 12000,
 		group_id = 40204,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40205] = {
+	}
+	pg.base.lover_character_template[40205] = {
 		exp_upper_limit = 12000,
 		group_id = 40205,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40206] = {
+	}
+	pg.base.lover_character_template[40206] = {
 		exp_upper_limit = 12000,
 		group_id = 40206,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40210] = {
+	}
+	pg.base.lover_character_template[40210] = {
 		exp_upper_limit = 12000,
 		group_id = 40210,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40211] = {
+	}
+	pg.base.lover_character_template[40211] = {
 		exp_upper_limit = 12000,
 		group_id = 40211,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40304] = {
+	}
+	pg.base.lover_character_template[40304] = {
 		exp_upper_limit = 12000,
 		group_id = 40304,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40305] = {
+	}
+	pg.base.lover_character_template[40305] = {
 		exp_upper_limit = 12000,
 		group_id = 40305,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40301] = {
+	}
+	pg.base.lover_character_template[40301] = {
 		exp_upper_limit = 12000,
 		group_id = 40301,
 		exp_up = 200,
 		relate_group_id = {
 			40307
 		}
-	},
-	[40302] = {
+	}
+	pg.base.lover_character_template[40302] = {
 		exp_upper_limit = 12000,
 		group_id = 40302,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40303] = {
+	}
+	pg.base.lover_character_template[40303] = {
 		exp_upper_limit = 12000,
 		group_id = 40303,
 		exp_up = 200,
 		relate_group_id = {
 			40315
 		}
-	},
-	[40309] = {
+	}
+	pg.base.lover_character_template[40309] = {
 		exp_upper_limit = 12000,
 		group_id = 40309,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40310] = {
+	}
+	pg.base.lover_character_template[40310] = {
 		exp_upper_limit = 12000,
 		group_id = 40310,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40314] = {
+	}
+	pg.base.lover_character_template[40314] = {
 		exp_upper_limit = 12000,
 		group_id = 40314,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40312] = {
+	}
+	pg.base.lover_character_template[40312] = {
 		exp_upper_limit = 12000,
 		group_id = 40312,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40311] = {
+	}
+	pg.base.lover_character_template[40311] = {
 		exp_upper_limit = 12000,
 		group_id = 40311,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40313] = {
+	}
+	pg.base.lover_character_template[40313] = {
 		exp_upper_limit = 12000,
 		group_id = 40313,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40316] = {
+	}
+	pg.base.lover_character_template[40316] = {
 		exp_upper_limit = 12000,
 		group_id = 40316,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40401] = {
+	}
+	pg.base.lover_character_template[40401] = {
 		exp_upper_limit = 12000,
 		group_id = 40401,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40402] = {
+	}
+	pg.base.lover_character_template[40402] = {
 		exp_upper_limit = 12000,
 		group_id = 40402,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40403] = {
+	}
+	pg.base.lover_character_template[40403] = {
 		exp_upper_limit = 12000,
 		group_id = 40403,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40404] = {
+	}
+	pg.base.lover_character_template[40404] = {
 		exp_upper_limit = 12000,
 		group_id = 40404,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40405] = {
+	}
+	pg.base.lover_character_template[40405] = {
 		exp_upper_limit = 12000,
 		group_id = 40405,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40406] = {
+	}
+	pg.base.lover_character_template[40406] = {
 		exp_upper_limit = 12000,
 		group_id = 40406,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40407] = {
+	}
+	pg.base.lover_character_template[40407] = {
 		exp_upper_limit = 12000,
 		group_id = 40407,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40501] = {
+	}
+	pg.base.lover_character_template[40501] = {
 		exp_upper_limit = 12000,
 		group_id = 40501,
 		exp_up = 200,
 		relate_group_id = {
 			40505
 		}
-	},
-	[40502] = {
+	}
+	pg.base.lover_character_template[40502] = {
 		exp_upper_limit = 12000,
 		group_id = 40502,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40503] = {
+	}
+	pg.base.lover_character_template[40503] = {
 		exp_upper_limit = 12000,
 		group_id = 40503,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40504] = {
+	}
+	pg.base.lover_character_template[40504] = {
 		exp_upper_limit = 12000,
 		group_id = 40504,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40506] = {
+	}
+	pg.base.lover_character_template[40506] = {
 		exp_upper_limit = 12000,
 		group_id = 40506,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40601] = {
+	}
+	pg.base.lover_character_template[40601] = {
 		exp_upper_limit = 12000,
 		group_id = 40601,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40602] = {
+	}
+	pg.base.lover_character_template[40602] = {
 		exp_upper_limit = 12000,
 		group_id = 40602,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40603] = {
+	}
+	pg.base.lover_character_template[40603] = {
 		exp_upper_limit = 12000,
 		group_id = 40603,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40701] = {
+	}
+	pg.base.lover_character_template[40701] = {
 		exp_upper_limit = 12000,
 		group_id = 40701,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40703] = {
+	}
+	pg.base.lover_character_template[40703] = {
 		exp_upper_limit = 12000,
 		group_id = 40703,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40704] = {
+	}
+	pg.base.lover_character_template[40704] = {
 		exp_upper_limit = 12000,
 		group_id = 40704,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40702] = {
+	}
+	pg.base.lover_character_template[40702] = {
 		exp_upper_limit = 12000,
 		group_id = 40702,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40813] = {
+	}
+	pg.base.lover_character_template[40813] = {
 		exp_upper_limit = 12000,
 		group_id = 40813,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40810] = {
+	}
+	pg.base.lover_character_template[40810] = {
 		exp_upper_limit = 12000,
 		group_id = 40810,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40802] = {
+	}
+	pg.base.lover_character_template[40802] = {
 		exp_upper_limit = 12000,
 		group_id = 40802,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40805] = {
+	}
+	pg.base.lover_character_template[40805] = {
 		exp_upper_limit = 12000,
 		group_id = 40805,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40801] = {
+	}
+	pg.base.lover_character_template[40801] = {
 		exp_upper_limit = 12000,
 		group_id = 40801,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40809] = {
+	}
+	pg.base.lover_character_template[40809] = {
 		exp_upper_limit = 12000,
 		group_id = 40809,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40806] = {
+	}
+	pg.base.lover_character_template[40806] = {
 		exp_upper_limit = 12000,
 		group_id = 40806,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40808] = {
+	}
+	pg.base.lover_character_template[40808] = {
 		exp_upper_limit = 12000,
 		group_id = 40808,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40811] = {
+	}
+	pg.base.lover_character_template[40811] = {
 		exp_upper_limit = 12000,
 		group_id = 40811,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40807] = {
+	}
+	pg.base.lover_character_template[40807] = {
 		exp_upper_limit = 12000,
 		group_id = 40807,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40814] = {
+	}
+	pg.base.lover_character_template[40814] = {
 		exp_upper_limit = 12000,
 		group_id = 40814,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40804] = {
+	}
+	pg.base.lover_character_template[40804] = {
 		exp_upper_limit = 12000,
 		group_id = 40804,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40803] = {
+	}
+	pg.base.lover_character_template[40803] = {
 		exp_upper_limit = 12000,
 		group_id = 40803,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[40812] = {
+	}
+	pg.base.lover_character_template[40812] = {
 		exp_upper_limit = 12000,
 		group_id = 40812,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[50101] = {
+	}
+	pg.base.lover_character_template[50101] = {
 		exp_upper_limit = 12000,
 		group_id = 50101,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[50102] = {
+	}
+	pg.base.lover_character_template[50102] = {
 		exp_upper_limit = 12000,
 		group_id = 50102,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[50103] = {
+	}
+	pg.base.lover_character_template[50103] = {
 		exp_upper_limit = 12000,
 		group_id = 50103,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[50104] = {
+	}
+	pg.base.lover_character_template[50104] = {
 		exp_upper_limit = 12000,
 		group_id = 50104,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[50105] = {
+	}
+	pg.base.lover_character_template[50105] = {
 		exp_upper_limit = 12000,
 		group_id = 50105,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[50106] = {
+	}
+	pg.base.lover_character_template[50106] = {
 		exp_upper_limit = 12000,
 		group_id = 50106,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[50107] = {
+	}
+	pg.base.lover_character_template[50107] = {
 		exp_upper_limit = 12000,
 		group_id = 50107,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[50108] = {
+	}
+	pg.base.lover_character_template[50108] = {
 		exp_upper_limit = 12000,
 		group_id = 50108,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[50109] = {
+	}
+	pg.base.lover_character_template[50109] = {
 		exp_upper_limit = 12000,
 		group_id = 50109,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[50204] = {
+	}
+	pg.base.lover_character_template[50204] = {
 		exp_upper_limit = 12000,
 		group_id = 50204,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[50205] = {
+	}
+	pg.base.lover_character_template[50205] = {
 		exp_upper_limit = 12000,
 		group_id = 50205,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[50201] = {
+	}
+	pg.base.lover_character_template[50201] = {
 		exp_upper_limit = 12000,
 		group_id = 50201,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[50202] = {
+	}
+	pg.base.lover_character_template[50202] = {
 		exp_upper_limit = 12000,
 		group_id = 50202,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[50203] = {
+	}
+	pg.base.lover_character_template[50203] = {
 		exp_upper_limit = 12000,
 		group_id = 50203,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[50207] = {
+	}
+	pg.base.lover_character_template[50207] = {
 		exp_upper_limit = 12000,
 		group_id = 50207,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[50208] = {
+	}
+	pg.base.lover_character_template[50208] = {
 		exp_upper_limit = 12000,
 		group_id = 50208,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[50209] = {
+	}
+	pg.base.lover_character_template[50209] = {
 		exp_upper_limit = 12000,
 		group_id = 50209,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[50210] = {
+	}
+	pg.base.lover_character_template[50210] = {
 		exp_upper_limit = 12000,
 		group_id = 50210,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[50212] = {
+	}
+end)()
+(function ()
+	pg.base.lover_character_template[50212] = {
 		exp_upper_limit = 12000,
 		group_id = 50212,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[50301] = {
+	}
+	pg.base.lover_character_template[50301] = {
 		exp_upper_limit = 12000,
 		group_id = 50301,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[50401] = {
+	}
+	pg.base.lover_character_template[50401] = {
 		exp_upper_limit = 12000,
 		group_id = 50401,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[50601] = {
+	}
+	pg.base.lover_character_template[50601] = {
 		exp_upper_limit = 12000,
 		group_id = 50601,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[50602] = {
+	}
+	pg.base.lover_character_template[50602] = {
 		exp_upper_limit = 12000,
 		group_id = 50602,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[51901] = {
+	}
+	pg.base.lover_character_template[51901] = {
 		exp_upper_limit = 12000,
 		group_id = 51901,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[60102] = {
+	}
+	pg.base.lover_character_template[60102] = {
 		exp_upper_limit = 12000,
 		group_id = 60102,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[60106] = {
+	}
+	pg.base.lover_character_template[60106] = {
 		exp_upper_limit = 12000,
 		group_id = 60106,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[60109] = {
+	}
+	pg.base.lover_character_template[60109] = {
 		exp_upper_limit = 12000,
 		group_id = 60109,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[60104] = {
+	}
+	pg.base.lover_character_template[60104] = {
 		exp_upper_limit = 12000,
 		group_id = 60104,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[60105] = {
+	}
+	pg.base.lover_character_template[60105] = {
 		exp_upper_limit = 12000,
 		group_id = 60105,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[60103] = {
+	}
+	pg.base.lover_character_template[60103] = {
 		exp_upper_limit = 12000,
 		group_id = 60103,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[60108] = {
+	}
+	pg.base.lover_character_template[60108] = {
 		exp_upper_limit = 12000,
 		group_id = 60108,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[60110] = {
+	}
+	pg.base.lover_character_template[60110] = {
 		exp_upper_limit = 12000,
 		group_id = 60110,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[60111] = {
+	}
+	pg.base.lover_character_template[60111] = {
 		exp_upper_limit = 12000,
 		group_id = 60111,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[60107] = {
+	}
+	pg.base.lover_character_template[60107] = {
 		exp_upper_limit = 12000,
 		group_id = 60107,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[60201] = {
+	}
+	pg.base.lover_character_template[60201] = {
 		exp_upper_limit = 12000,
 		group_id = 60201,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[60202] = {
+	}
+	pg.base.lover_character_template[60202] = {
 		exp_upper_limit = 12000,
 		group_id = 60202,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[60203] = {
+	}
+	pg.base.lover_character_template[60203] = {
 		exp_upper_limit = 12000,
 		group_id = 60203,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[60301] = {
+	}
+	pg.base.lover_character_template[60301] = {
 		exp_upper_limit = 12000,
 		group_id = 60301,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[60304] = {
+	}
+	pg.base.lover_character_template[60304] = {
 		exp_upper_limit = 12000,
 		group_id = 60304,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[60302] = {
+	}
+	pg.base.lover_character_template[60302] = {
 		exp_upper_limit = 12000,
 		group_id = 60302,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[60303] = {
+	}
+	pg.base.lover_character_template[60303] = {
 		exp_upper_limit = 12000,
 		group_id = 60303,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[60305] = {
+	}
+	pg.base.lover_character_template[60305] = {
 		exp_upper_limit = 12000,
 		group_id = 60305,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[60306] = {
+	}
+	pg.base.lover_character_template[60306] = {
 		exp_upper_limit = 12000,
 		group_id = 60306,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[60501] = {
+	}
+	pg.base.lover_character_template[60501] = {
 		exp_upper_limit = 12000,
 		group_id = 60501,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[60502] = {
+	}
+	pg.base.lover_character_template[60502] = {
 		exp_upper_limit = 12000,
 		group_id = 60502,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[60503] = {
+	}
+	pg.base.lover_character_template[60503] = {
 		exp_upper_limit = 12000,
 		group_id = 60503,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[60505] = {
+	}
+	pg.base.lover_character_template[60505] = {
 		exp_upper_limit = 12000,
 		group_id = 60505,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[60506] = {
+	}
+	pg.base.lover_character_template[60506] = {
 		exp_upper_limit = 12000,
 		group_id = 60506,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[60507] = {
+	}
+	pg.base.lover_character_template[60507] = {
 		exp_upper_limit = 12000,
 		group_id = 60507,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[60508] = {
+	}
+	pg.base.lover_character_template[60508] = {
 		exp_upper_limit = 12000,
 		group_id = 60508,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[60701] = {
+	}
+	pg.base.lover_character_template[60701] = {
 		exp_upper_limit = 12000,
 		group_id = 60701,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[60702] = {
+	}
+	pg.base.lover_character_template[60702] = {
 		exp_upper_limit = 12000,
 		group_id = 60702,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[60801] = {
+	}
+	pg.base.lover_character_template[60801] = {
 		exp_upper_limit = 12000,
 		group_id = 60801,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[60802] = {
+	}
+	pg.base.lover_character_template[60802] = {
 		exp_upper_limit = 12000,
 		group_id = 60802,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[60803] = {
+	}
+	pg.base.lover_character_template[60803] = {
 		exp_upper_limit = 12000,
 		group_id = 60803,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[70108] = {
+	}
+	pg.base.lover_character_template[70108] = {
 		exp_upper_limit = 12000,
 		group_id = 70108,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[70107] = {
+	}
+	pg.base.lover_character_template[70107] = {
 		exp_upper_limit = 12000,
 		group_id = 70107,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[70102] = {
+	}
+	pg.base.lover_character_template[70102] = {
 		exp_upper_limit = 12000,
 		group_id = 70102,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[70106] = {
+	}
+	pg.base.lover_character_template[70106] = {
 		exp_upper_limit = 12000,
 		group_id = 70106,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[70109] = {
+	}
+	pg.base.lover_character_template[70109] = {
 		exp_upper_limit = 12000,
 		group_id = 70109,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[70103] = {
+	}
+	pg.base.lover_character_template[70103] = {
 		exp_upper_limit = 12000,
 		group_id = 70103,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[70104] = {
+	}
+	pg.base.lover_character_template[70104] = {
 		exp_upper_limit = 12000,
 		group_id = 70104,
 		exp_up = 200,
 		relate_group_id = {
 			70105
 		}
-	},
-	[70110] = {
+	}
+	pg.base.lover_character_template[70110] = {
 		exp_upper_limit = 12000,
 		group_id = 70110,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[70111] = {
+	}
+	pg.base.lover_character_template[70111] = {
 		exp_upper_limit = 12000,
 		group_id = 70111,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[70112] = {
+	}
+	pg.base.lover_character_template[70112] = {
 		exp_upper_limit = 12000,
 		group_id = 70112,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[70201] = {
+	}
+	pg.base.lover_character_template[70201] = {
 		exp_upper_limit = 12000,
 		group_id = 70201,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[70202] = {
+	}
+	pg.base.lover_character_template[70202] = {
 		exp_upper_limit = 12000,
 		group_id = 70202,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[70208] = {
+	}
+	pg.base.lover_character_template[70208] = {
 		exp_upper_limit = 12000,
 		group_id = 70208,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[70206] = {
+	}
+	pg.base.lover_character_template[70206] = {
 		exp_upper_limit = 12000,
 		group_id = 70206,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[70204] = {
+	}
+	pg.base.lover_character_template[70204] = {
 		exp_upper_limit = 12000,
 		group_id = 70204,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[70207] = {
+	}
+	pg.base.lover_character_template[70207] = {
 		exp_upper_limit = 12000,
 		group_id = 70207,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[70203] = {
+	}
+	pg.base.lover_character_template[70203] = {
 		exp_upper_limit = 12000,
 		group_id = 70203,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[70205] = {
+	}
+	pg.base.lover_character_template[70205] = {
 		exp_upper_limit = 12000,
 		group_id = 70205,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[70301] = {
+	}
+	pg.base.lover_character_template[70301] = {
 		exp_upper_limit = 12000,
 		group_id = 70301,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[70302] = {
+	}
+	pg.base.lover_character_template[70302] = {
 		exp_upper_limit = 12000,
 		group_id = 70302,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[70501] = {
+	}
+	pg.base.lover_character_template[70501] = {
 		exp_upper_limit = 12000,
 		group_id = 70501,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[70502] = {
+	}
+	pg.base.lover_character_template[70502] = {
 		exp_upper_limit = 12000,
 		group_id = 70502,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[70504] = {
+	}
+	pg.base.lover_character_template[70504] = {
 		exp_upper_limit = 12000,
 		group_id = 70504,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[70505] = {
+	}
+	pg.base.lover_character_template[70505] = {
 		exp_upper_limit = 12000,
 		group_id = 70505,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[70506] = {
+	}
+	pg.base.lover_character_template[70506] = {
 		exp_upper_limit = 12000,
 		group_id = 70506,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[70507] = {
+	}
+	pg.base.lover_character_template[70507] = {
 		exp_upper_limit = 12000,
 		group_id = 70507,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[70508] = {
+	}
+	pg.base.lover_character_template[70508] = {
 		exp_upper_limit = 12000,
 		group_id = 70508,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[70509] = {
+	}
+	pg.base.lover_character_template[70509] = {
 		exp_upper_limit = 12000,
 		group_id = 70509,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[70701] = {
+	}
+	pg.base.lover_character_template[70701] = {
 		exp_upper_limit = 12000,
 		group_id = 70701,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[71801] = {
+	}
+	pg.base.lover_character_template[71801] = {
 		exp_upper_limit = 12000,
 		group_id = 71801,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[80102] = {
+	}
+	pg.base.lover_character_template[80102] = {
 		exp_upper_limit = 12000,
 		group_id = 80102,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[80103] = {
+	}
+	pg.base.lover_character_template[80103] = {
 		exp_upper_limit = 12000,
 		group_id = 80103,
 		exp_up = 200,
 		relate_group_id = {
 			80109
 		}
-	},
-	[80104] = {
+	}
+	pg.base.lover_character_template[80104] = {
 		exp_upper_limit = 12000,
 		group_id = 80104,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[80105] = {
+	}
+	pg.base.lover_character_template[80105] = {
 		exp_upper_limit = 12000,
 		group_id = 80105,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[80101] = {
+	}
+	pg.base.lover_character_template[80101] = {
 		exp_upper_limit = 12000,
 		group_id = 80101,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[80107] = {
+	}
+	pg.base.lover_character_template[80107] = {
 		exp_upper_limit = 12000,
 		group_id = 80107,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[80108] = {
+	}
+	pg.base.lover_character_template[80108] = {
 		exp_upper_limit = 12000,
 		group_id = 80108,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[80201] = {
+	}
+	pg.base.lover_character_template[80201] = {
 		exp_upper_limit = 12000,
 		group_id = 80201,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[80202] = {
+	}
+	pg.base.lover_character_template[80202] = {
 		exp_upper_limit = 12000,
 		group_id = 80202,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[80203] = {
+	}
+	pg.base.lover_character_template[80203] = {
 		exp_upper_limit = 12000,
 		group_id = 80203,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[80204] = {
+	}
+	pg.base.lover_character_template[80204] = {
 		exp_upper_limit = 12000,
 		group_id = 80204,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[80301] = {
+	}
+	pg.base.lover_character_template[80301] = {
 		exp_upper_limit = 12000,
 		group_id = 80301,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[80302] = {
+	}
+	pg.base.lover_character_template[80302] = {
 		exp_upper_limit = 12000,
 		group_id = 80302,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[80303] = {
+	}
+	pg.base.lover_character_template[80303] = {
 		exp_upper_limit = 12000,
 		group_id = 80303,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[80401] = {
+	}
+	pg.base.lover_character_template[80401] = {
 		exp_upper_limit = 12000,
 		group_id = 80401,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[80501] = {
+	}
+	pg.base.lover_character_template[80501] = {
 		exp_upper_limit = 12000,
 		group_id = 80501,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[80502] = {
+	}
+	pg.base.lover_character_template[80502] = {
 		exp_upper_limit = 12000,
 		group_id = 80502,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[80503] = {
+	}
+	pg.base.lover_character_template[80503] = {
 		exp_upper_limit = 12000,
 		group_id = 80503,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[80601] = {
+	}
+	pg.base.lover_character_template[80601] = {
 		exp_upper_limit = 12000,
 		group_id = 80601,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[80701] = {
+	}
+	pg.base.lover_character_template[80701] = {
 		exp_upper_limit = 12000,
 		group_id = 80701,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[80702] = {
+	}
+	pg.base.lover_character_template[80702] = {
 		exp_upper_limit = 12000,
 		group_id = 80702,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[80801] = {
+	}
+	pg.base.lover_character_template[80801] = {
 		exp_upper_limit = 12000,
 		group_id = 80801,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[90101] = {
+	}
+	pg.base.lover_character_template[90101] = {
 		exp_upper_limit = 12000,
 		group_id = 90101,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[90102] = {
+	}
+	pg.base.lover_character_template[90102] = {
 		exp_upper_limit = 12000,
 		group_id = 90102,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[90103] = {
+	}
+	pg.base.lover_character_template[90103] = {
 		exp_upper_limit = 12000,
 		group_id = 90103,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[90104] = {
+	}
+	pg.base.lover_character_template[90104] = {
 		exp_upper_limit = 12000,
 		group_id = 90104,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[90105] = {
+	}
+	pg.base.lover_character_template[90105] = {
 		exp_upper_limit = 12000,
 		group_id = 90105,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[90106] = {
+	}
+	pg.base.lover_character_template[90106] = {
 		exp_upper_limit = 12000,
 		group_id = 90106,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[90107] = {
+	}
+	pg.base.lover_character_template[90107] = {
 		exp_upper_limit = 12000,
 		group_id = 90107,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[90111] = {
+	}
+	pg.base.lover_character_template[90111] = {
 		exp_upper_limit = 12000,
 		group_id = 90111,
 		exp_up = 200,
 		relate_group_id = {
 			90112
 		}
-	},
-	[90113] = {
+	}
+	pg.base.lover_character_template[90113] = {
 		exp_upper_limit = 12000,
 		group_id = 90113,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[90114] = {
+	}
+	pg.base.lover_character_template[90114] = {
 		exp_upper_limit = 12000,
 		group_id = 90114,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[90201] = {
+	}
+	pg.base.lover_character_template[90201] = {
 		exp_upper_limit = 12000,
 		group_id = 90201,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[90202] = {
+	}
+end)()
+(function ()
+	pg.base.lover_character_template[90202] = {
 		exp_upper_limit = 12000,
 		group_id = 90202,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[90301] = {
+	}
+	pg.base.lover_character_template[90301] = {
 		exp_upper_limit = 12000,
 		group_id = 90301,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[90302] = {
+	}
+	pg.base.lover_character_template[90302] = {
 		exp_upper_limit = 12000,
 		group_id = 90302,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[90303] = {
+	}
+	pg.base.lover_character_template[90303] = {
 		exp_upper_limit = 12000,
 		group_id = 90303,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[90401] = {
+	}
+	pg.base.lover_character_template[90401] = {
 		exp_upper_limit = 12000,
 		group_id = 90401,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[90402] = {
+	}
+	pg.base.lover_character_template[90402] = {
 		exp_upper_limit = 12000,
 		group_id = 90402,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[90501] = {
+	}
+	pg.base.lover_character_template[90501] = {
 		exp_upper_limit = 12000,
 		group_id = 90501,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[90502] = {
+	}
+	pg.base.lover_character_template[90502] = {
 		exp_upper_limit = 12000,
 		group_id = 90502,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[90701] = {
+	}
+	pg.base.lover_character_template[90701] = {
 		exp_upper_limit = 12000,
 		group_id = 90701,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[110101] = {
+	}
+	pg.base.lover_character_template[110101] = {
 		exp_upper_limit = 12000,
 		group_id = 110101,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[110201] = {
+	}
+	pg.base.lover_character_template[110201] = {
 		exp_upper_limit = 12000,
 		group_id = 110201,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[960001] = {
+	}
+	pg.base.lover_character_template[960001] = {
 		exp_upper_limit = 12000,
 		group_id = 960001,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[960002] = {
+	}
+	pg.base.lover_character_template[960002] = {
 		exp_upper_limit = 12000,
 		group_id = 960002,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[960003] = {
+	}
+	pg.base.lover_character_template[960003] = {
 		exp_upper_limit = 12000,
 		group_id = 960003,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[960004] = {
+	}
+	pg.base.lover_character_template[960004] = {
 		exp_upper_limit = 12000,
 		group_id = 960004,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[960005] = {
+	}
+	pg.base.lover_character_template[960005] = {
 		exp_upper_limit = 12000,
 		group_id = 960005,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[960006] = {
+	}
+	pg.base.lover_character_template[960006] = {
 		exp_upper_limit = 12000,
 		group_id = 960006,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[960007] = {
+	}
+	pg.base.lover_character_template[960007] = {
 		exp_upper_limit = 12000,
 		group_id = 960007,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[960008] = {
+	}
+	pg.base.lover_character_template[960008] = {
 		exp_upper_limit = 12000,
 		group_id = 960008,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[960009] = {
+	}
+	pg.base.lover_character_template[960009] = {
 		exp_upper_limit = 12000,
 		group_id = 960009,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[960010] = {
+	}
+	pg.base.lover_character_template[960010] = {
 		exp_upper_limit = 12000,
 		group_id = 960010,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[960011] = {
+	}
+	pg.base.lover_character_template[960011] = {
 		exp_upper_limit = 12000,
 		group_id = 960011,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[960012] = {
+	}
+	pg.base.lover_character_template[960012] = {
 		exp_upper_limit = 12000,
 		group_id = 960012,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[960013] = {
+	}
+	pg.base.lover_character_template[960013] = {
 		exp_upper_limit = 12000,
 		group_id = 960013,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[960014] = {
+	}
+	pg.base.lover_character_template[960014] = {
 		exp_upper_limit = 12000,
 		group_id = 960014,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[960015] = {
+	}
+	pg.base.lover_character_template[960015] = {
 		exp_upper_limit = 12000,
 		group_id = 960015,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[960016] = {
+	}
+	pg.base.lover_character_template[960016] = {
 		exp_upper_limit = 12000,
 		group_id = 960016,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[29901] = {
+	}
+	pg.base.lover_character_template[29901] = {
 		exp_upper_limit = 12000,
 		group_id = 29901,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[29902] = {
+	}
+	pg.base.lover_character_template[29902] = {
 		exp_upper_limit = 12000,
 		group_id = 29902,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[39901] = {
+	}
+	pg.base.lover_character_template[39901] = {
 		exp_upper_limit = 12000,
 		group_id = 39901,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[39902] = {
+	}
+	pg.base.lover_character_template[39902] = {
 		exp_upper_limit = 12000,
 		group_id = 39902,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[49901] = {
+	}
+	pg.base.lover_character_template[49901] = {
 		exp_upper_limit = 12000,
 		group_id = 49901,
 		exp_up = 200,
 		relate_group_id = {
 			40308
 		}
-	},
-	[89901] = {
+	}
+	pg.base.lover_character_template[89901] = {
 		exp_upper_limit = 12000,
 		group_id = 89901,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[19901] = {
+	}
+	pg.base.lover_character_template[19901] = {
 		exp_upper_limit = 12000,
 		group_id = 19901,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[19902] = {
+	}
+	pg.base.lover_character_template[19902] = {
 		exp_upper_limit = 12000,
 		group_id = 19902,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[39903] = {
+	}
+	pg.base.lover_character_template[39903] = {
 		exp_upper_limit = 12000,
 		group_id = 39903,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[39904] = {
+	}
+	pg.base.lover_character_template[39904] = {
 		exp_upper_limit = 12000,
 		group_id = 39904,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[49902] = {
+	}
+	pg.base.lover_character_template[49902] = {
 		exp_upper_limit = 12000,
 		group_id = 49902,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[99901] = {
+	}
+	pg.base.lover_character_template[99901] = {
 		exp_upper_limit = 12000,
 		group_id = 99901,
 		exp_up = 200,
 		relate_group_id = {
 			90503
 		}
-	},
-	[29903] = {
+	}
+	pg.base.lover_character_template[29903] = {
 		exp_upper_limit = 12000,
 		group_id = 29903,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[29904] = {
+	}
+	pg.base.lover_character_template[29904] = {
 		exp_upper_limit = 12000,
 		group_id = 29904,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[49903] = {
+	}
+	pg.base.lover_character_template[49903] = {
 		exp_upper_limit = 12000,
 		group_id = 49903,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[49904] = {
+	}
+	pg.base.lover_character_template[49904] = {
 		exp_upper_limit = 12000,
 		group_id = 49904,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[89902] = {
+	}
+	pg.base.lover_character_template[89902] = {
 		exp_upper_limit = 12000,
 		group_id = 89902,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[19903] = {
+	}
+	pg.base.lover_character_template[19903] = {
 		exp_upper_limit = 12000,
 		group_id = 19903,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[39905] = {
+	}
+	pg.base.lover_character_template[39905] = {
 		exp_upper_limit = 12000,
 		group_id = 39905,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[49905] = {
+	}
+	pg.base.lover_character_template[49905] = {
 		exp_upper_limit = 12000,
 		group_id = 49905,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[49906] = {
+	}
+	pg.base.lover_character_template[49906] = {
 		exp_upper_limit = 12000,
 		group_id = 49906,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[69901] = {
+	}
+	pg.base.lover_character_template[69901] = {
 		exp_upper_limit = 12000,
 		group_id = 69901,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[29905] = {
+	}
+	pg.base.lover_character_template[29905] = {
 		exp_upper_limit = 12000,
 		group_id = 29905,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[49907] = {
+	}
+	pg.base.lover_character_template[49907] = {
 		exp_upper_limit = 12000,
 		group_id = 49907,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[59901] = {
+	}
+	pg.base.lover_character_template[59901] = {
 		exp_upper_limit = 12000,
 		group_id = 59901,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[79901] = {
+	}
+	pg.base.lover_character_template[79901] = {
 		exp_upper_limit = 12000,
 		group_id = 79901,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[89903] = {
+	}
+	pg.base.lover_character_template[89903] = {
 		exp_upper_limit = 12000,
 		group_id = 89903,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[19904] = {
+	}
+	pg.base.lover_character_template[19904] = {
 		exp_upper_limit = 12000,
 		group_id = 19904,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[39906] = {
+	}
+	pg.base.lover_character_template[39906] = {
 		exp_upper_limit = 12000,
 		group_id = 39906,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[49908] = {
+	}
+	pg.base.lover_character_template[49908] = {
 		exp_upper_limit = 12000,
 		group_id = 49908,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[49909] = {
+	}
+	pg.base.lover_character_template[49909] = {
 		exp_upper_limit = 12000,
 		group_id = 49909,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[99902] = {
+	}
+	pg.base.lover_character_template[99902] = {
 		exp_upper_limit = 12000,
 		group_id = 99902,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[19905] = {
+	}
+	pg.base.lover_character_template[19905] = {
 		exp_upper_limit = 12000,
 		group_id = 19905,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[39907] = {
+	}
+	pg.base.lover_character_template[39907] = {
 		exp_upper_limit = 12000,
 		group_id = 39907,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[69902] = {
+	}
+	pg.base.lover_character_template[69902] = {
 		exp_upper_limit = 12000,
 		group_id = 69902,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[79902] = {
+	}
+	pg.base.lover_character_template[79902] = {
 		exp_upper_limit = 12000,
 		group_id = 79902,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[89904] = {
+	}
+	pg.base.lover_character_template[89904] = {
 		exp_upper_limit = 12000,
 		group_id = 89904,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[49910] = {
+	}
+	pg.base.lover_character_template[49910] = {
 		exp_upper_limit = 12000,
 		group_id = 49910,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[19906] = {
+	}
+	pg.base.lover_character_template[19906] = {
 		exp_upper_limit = 12000,
 		group_id = 19906,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[69903] = {
+	}
+	pg.base.lover_character_template[69903] = {
 		exp_upper_limit = 12000,
 		group_id = 69903,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[79903] = {
+	}
+	pg.base.lover_character_template[79903] = {
 		exp_upper_limit = 12000,
 		group_id = 79903,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[119901] = {
+	}
+	pg.base.lover_character_template[119901] = {
 		exp_upper_limit = 12000,
 		group_id = 119901,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970701] = {
+	}
+	pg.base.lover_character_template[970701] = {
 		exp_upper_limit = 12000,
 		group_id = 970701,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970702] = {
+	}
+	pg.base.lover_character_template[970702] = {
 		exp_upper_limit = 12000,
 		group_id = 970702,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970201] = {
+	}
+	pg.base.lover_character_template[970201] = {
 		exp_upper_limit = 12000,
 		group_id = 970201,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970703] = {
+	}
+	pg.base.lover_character_template[970703] = {
 		exp_upper_limit = 12000,
 		group_id = 970703,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970501] = {
+	}
+	pg.base.lover_character_template[970501] = {
 		exp_upper_limit = 12000,
 		group_id = 970501,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970601] = {
+	}
+	pg.base.lover_character_template[970601] = {
 		exp_upper_limit = 12000,
 		group_id = 970601,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970401] = {
+	}
+	pg.base.lover_character_template[970401] = {
 		exp_upper_limit = 12000,
 		group_id = 970401,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970602] = {
+	}
+	pg.base.lover_character_template[970602] = {
 		exp_upper_limit = 12000,
 		group_id = 970602,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970402] = {
+	}
+	pg.base.lover_character_template[970402] = {
 		exp_upper_limit = 12000,
 		group_id = 970402,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970502] = {
+	}
+	pg.base.lover_character_template[970502] = {
 		exp_upper_limit = 12000,
 		group_id = 970502,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970202] = {
+	}
+	pg.base.lover_character_template[970202] = {
 		exp_upper_limit = 12000,
 		group_id = 970202,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970403] = {
+	}
+	pg.base.lover_character_template[970403] = {
 		exp_upper_limit = 12000,
 		group_id = 970403,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970301] = {
+	}
+	pg.base.lover_character_template[970301] = {
 		exp_upper_limit = 12000,
 		group_id = 970301,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970404] = {
+	}
+	pg.base.lover_character_template[970404] = {
 		exp_upper_limit = 12000,
 		group_id = 970404,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970101] = {
+	}
+	pg.base.lover_character_template[970101] = {
 		exp_upper_limit = 12000,
 		group_id = 970101,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970102] = {
+	}
+	pg.base.lover_character_template[970102] = {
 		exp_upper_limit = 12000,
 		group_id = 970102,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970503] = {
+	}
+	pg.base.lover_character_template[970503] = {
 		exp_upper_limit = 12000,
 		group_id = 970503,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970203] = {
+	}
+	pg.base.lover_character_template[970203] = {
 		exp_upper_limit = 12000,
 		group_id = 970203,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970504] = {
+	}
+	pg.base.lover_character_template[970504] = {
 		exp_upper_limit = 12000,
 		group_id = 970504,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970204] = {
+	}
+	pg.base.lover_character_template[970204] = {
 		exp_upper_limit = 12000,
 		group_id = 970204,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970801] = {
+	}
+	pg.base.lover_character_template[970801] = {
 		exp_upper_limit = 12000,
 		group_id = 970801,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[971201] = {
+	}
+	pg.base.lover_character_template[971201] = {
 		exp_upper_limit = 12000,
 		group_id = 971201,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970302] = {
+	}
+	pg.base.lover_character_template[970302] = {
 		exp_upper_limit = 12000,
 		group_id = 970302,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970103] = {
+	}
+	pg.base.lover_character_template[970103] = {
 		exp_upper_limit = 12000,
 		group_id = 970103,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970205] = {
+	}
+	pg.base.lover_character_template[970205] = {
 		exp_upper_limit = 12000,
 		group_id = 970205,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970603] = {
+	}
+	pg.base.lover_character_template[970603] = {
 		exp_upper_limit = 12000,
 		group_id = 970603,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[971301] = {
+	}
+	pg.base.lover_character_template[971301] = {
 		exp_upper_limit = 12000,
 		group_id = 971301,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970206] = {
+	}
+	pg.base.lover_character_template[970206] = {
 		exp_upper_limit = 12000,
 		group_id = 970206,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970104] = {
+	}
+	pg.base.lover_character_template[970104] = {
 		exp_upper_limit = 12000,
 		group_id = 970104,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970207] = {
+	}
+	pg.base.lover_character_template[970207] = {
 		exp_upper_limit = 12000,
 		group_id = 970207,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970505] = {
+	}
+	pg.base.lover_character_template[970505] = {
 		exp_upper_limit = 12000,
 		group_id = 970505,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970105] = {
+	}
+end)()
+(function ()
+	pg.base.lover_character_template[970105] = {
 		exp_upper_limit = 12000,
 		group_id = 970105,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970704] = {
+	}
+	pg.base.lover_character_template[970704] = {
 		exp_upper_limit = 12000,
 		group_id = 970704,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970303] = {
+	}
+	pg.base.lover_character_template[970303] = {
 		exp_upper_limit = 12000,
 		group_id = 970303,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970304] = {
+	}
+	pg.base.lover_character_template[970304] = {
 		exp_upper_limit = 12000,
 		group_id = 970304,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970106] = {
+	}
+	pg.base.lover_character_template[970106] = {
 		exp_upper_limit = 12000,
 		group_id = 970106,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970506] = {
+	}
+	pg.base.lover_character_template[970506] = {
 		exp_upper_limit = 12000,
 		group_id = 970506,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970405] = {
+	}
+	pg.base.lover_character_template[970405] = {
 		exp_upper_limit = 12000,
 		group_id = 970405,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970604] = {
+	}
+	pg.base.lover_character_template[970604] = {
 		exp_upper_limit = 12000,
 		group_id = 970604,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970507] = {
+	}
+	pg.base.lover_character_template[970507] = {
 		exp_upper_limit = 12000,
 		group_id = 970507,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970705] = {
+	}
+	pg.base.lover_character_template[970705] = {
 		exp_upper_limit = 12000,
 		group_id = 970705,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970305] = {
+	}
+	pg.base.lover_character_template[970305] = {
 		exp_upper_limit = 12000,
 		group_id = 970305,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970306] = {
+	}
+	pg.base.lover_character_template[970306] = {
 		exp_upper_limit = 12000,
 		group_id = 970306,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970508] = {
+	}
+	pg.base.lover_character_template[970508] = {
 		exp_upper_limit = 12000,
 		group_id = 970508,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970706] = {
+	}
+	pg.base.lover_character_template[970706] = {
 		exp_upper_limit = 12000,
 		group_id = 970706,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970509] = {
+	}
+	pg.base.lover_character_template[970509] = {
 		exp_upper_limit = 12000,
 		group_id = 970509,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970107] = {
+	}
+	pg.base.lover_character_template[970107] = {
 		exp_upper_limit = 12000,
 		group_id = 970107,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970707] = {
+	}
+	pg.base.lover_character_template[970707] = {
 		exp_upper_limit = 12000,
 		group_id = 970707,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970108] = {
+	}
+	pg.base.lover_character_template[970108] = {
 		exp_upper_limit = 12000,
 		group_id = 970108,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970406] = {
+	}
+	pg.base.lover_character_template[970406] = {
 		exp_upper_limit = 12000,
 		group_id = 970406,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970109] = {
+	}
+	pg.base.lover_character_template[970109] = {
 		exp_upper_limit = 12000,
 		group_id = 970109,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970110] = {
+	}
+	pg.base.lover_character_template[970110] = {
 		exp_upper_limit = 12000,
 		group_id = 970110,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970208] = {
+	}
+	pg.base.lover_character_template[970208] = {
 		exp_upper_limit = 12000,
 		group_id = 970208,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970708] = {
+	}
+	pg.base.lover_character_template[970708] = {
 		exp_upper_limit = 12000,
 		group_id = 970708,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970209] = {
+	}
+	pg.base.lover_character_template[970209] = {
 		exp_upper_limit = 12000,
 		group_id = 970209,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[970111] = {
+	}
+	pg.base.lover_character_template[970111] = {
 		exp_upper_limit = 12000,
 		group_id = 970111,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[60204] = {
+	}
+	pg.base.lover_character_template[60204] = {
 		exp_upper_limit = 12000,
 		group_id = 60204,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[30194] = {
+	}
+	pg.base.lover_character_template[30194] = {
 		exp_upper_limit = 12000,
 		group_id = 30194,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[60509] = {
+	}
+	pg.base.lover_character_template[60509] = {
 		exp_upper_limit = 12000,
 		group_id = 60509,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[60112] = {
+	}
+	pg.base.lover_character_template[60112] = {
 		exp_upper_limit = 12000,
 		group_id = 60112,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	[50302] = {
+	}
+	pg.base.lover_character_template[50302] = {
 		exp_upper_limit = 12000,
 		group_id = 50302,
 		exp_up = 200,
 		relate_group_id = {}
-	},
-	all = {
-		10000,
-		10001,
-		10002,
-		10103,
-		10104,
-		10105,
-		10102,
-		10140,
-		10106,
-		10107,
-		10108,
-		10124,
-		10125,
-		10116,
-		10117,
-		10127,
-		10136,
-		10137,
-		10109,
-		10129,
-		10130,
-		10131,
-		10135,
-		10141,
-		10114,
-		10115,
-		10112,
-		10138,
-		10139,
-		10133,
-		10134,
-		10153,
-		10146,
-		10147,
-		10142,
-		10113,
-		10111,
-		10110,
-		10152,
-		10155,
-		10143,
-		10145,
-		10148,
-		10144,
-		10149,
-		10126,
-		10201,
-		10202,
-		10211,
-		10218,
-		10227,
-		10216,
-		10203,
-		10204,
-		10229,
-		10212,
-		10213,
-		10205,
-		10219,
-		10206,
-		10207,
-		10208,
-		10222,
-		10226,
-		10221,
-		10209,
-		10210,
-		10214,
-		10215,
-		10223,
-		10225,
-		10233,
-		10234,
-		10235,
-		10220,
-		10301,
-		10302,
-		10303,
-		10304,
-		10305,
-		10306,
-		10307,
-		10312,
-		10308,
-		10313,
-		10314,
-		10309,
-		10310,
-		10311,
-		10316,
-		10328,
-		10324,
-		10327,
-		10329,
-		10401,
-		10501,
-		10502,
-		10503,
-		10504,
-		10507,
-		10508,
-		10509,
-		10510,
-		10511,
-		10512,
-		10513,
-		10514,
-		10515,
-		10517,
-		10519,
-		10520,
-		10601,
-		10602,
-		10655,
-		10701,
-		10702,
-		10703,
-		10704,
-		10705,
-		10706,
-		10708,
-		10707,
-		10709,
-		10711,
-		10713,
-		10714,
-		10717,
-		10722,
-		10723,
-		10725,
-		10729,
-		10730,
-		10738,
-		10799,
-		10802,
-		10804,
-		10803,
-		10801,
-		10806,
-		10807,
-		10808,
-		10809,
-		11201,
-		11802,
-		20123,
-		20101,
-		20102,
-		20103,
-		20106,
-		20107,
-		20108,
-		20109,
-		20110,
-		20129,
-		20111,
-		20112,
-		20113,
-		20114,
-		20139,
-		20116,
-		20120,
-		20136,
-		20133,
-		20121,
-		20122,
-		20124,
-		20125,
-		20126,
-		20127,
-		20132,
-		20134,
-		20135,
-		20137,
-		20138,
-		20221,
-		20222,
-		20232,
-		20201,
-		20202,
-		20203,
-		20213,
-		20214,
-		20229,
-		20215,
-		20207,
-		20219,
-		20208,
-		20226,
-		20209,
-		20210,
-		20234,
-		20211,
-		20212,
-		20218,
-		20204,
-		20227,
-		20233,
-		20230,
-		20220,
-		20224,
-		20235,
-		20231,
-		20216,
-		20217,
-		20236,
-		20223,
-		20301,
-		20302,
-		20309,
-		20303,
-		20304,
-		20305,
-		20306,
-		20307,
-		20308,
-		20310,
-		20313,
-		20401,
-		20402,
-		20404,
-		20403,
-		20501,
-		20502,
-		20510,
-		20511,
-		20514,
-		20503,
-		20504,
-		20505,
-		20506,
-		20507,
-		20509,
-		20513,
-		20516,
-		20601,
-		20602,
-		20603,
-		20605,
-		20606,
-		20608,
-		20604,
-		20607,
-		20701,
-		20706,
-		20702,
-		20703,
-		20704,
-		20705,
-		20712,
-		20709,
-		20713,
-		20707,
-		21301,
-		21302,
-		21304,
-		30130,
-		30131,
-		30179,
-		30185,
-		30132,
-		30133,
-		30135,
-		30137,
-		30138,
-		30139,
-		30141,
-		30101,
-		30102,
-		30104,
-		30172,
-		30105,
-		30109,
-		30110,
-		30111,
-		30112,
-		30121,
-		30123,
-		30124,
-		30125,
-		30126,
-		30113,
-		30115,
-		30114,
-		30147,
-		30148,
-		30149,
-		30163,
-		30164,
-		30165,
-		30166,
-		30181,
-		30117,
-		30118,
-		30127,
-		30128,
-		30116,
-		30159,
-		30160,
-		30161,
-		30162,
-		30120,
-		30186,
-		30183,
-		30180,
-		30154,
-		30184,
-		30156,
-		30188,
-		30189,
-		30190,
-		30191,
-		30192,
-		30157,
-		30158,
-		30182,
-		30129,
-		30204,
-		30205,
-		30206,
-		30207,
-		30208,
-		30209,
-		30201,
-		30212,
-		30213,
-		30214,
-		30226,
-		30227,
-		30210,
-		30211,
-		30317,
-		30318,
-		30220,
-		30221,
-		30223,
-		30225,
-		30301,
-		30302,
-		30303,
-		30304,
-		30306,
-		30307,
-		30308,
-		30309,
-		30310,
-		30311,
-		30312,
-		30313,
-		30314,
-		30319,
-		30320,
-		30401,
-		30402,
-		30403,
-		30404,
-		30406,
-		30405,
-		30407,
-		30511,
-		30501,
-		30502,
-		30503,
-		30504,
-		30505,
-		30506,
-		30507,
-		30508,
-		30512,
-		30513,
-		30514,
-		30516,
-		30510,
-		30601,
-		30602,
-		30603,
-		30604,
-		30605,
-		30606,
-		30607,
-		30608,
-		30609,
-		30701,
-		30702,
-		30709,
-		30703,
-		30704,
-		30705,
-		30706,
-		30707,
-		30713,
-		30708,
-		30714,
-		30712,
-		30715,
-		30716,
-		30801,
-		30804,
-		30802,
-		30805,
-		30803,
-		30806,
-		31701,
-		31702,
-		31201,
-		31901,
-		40101,
-		40102,
-		40109,
-		40111,
-		40113,
-		40116,
-		40118,
-		40119,
-		40120,
-		40121,
-		40123,
-		40124,
-		40125,
-		40126,
-		40128,
-		40135,
-		40136,
-		40143,
-		40146,
-		40147,
-		40152,
-		40199,
-		40207,
-		40208,
-		40201,
-		40202,
-		40203,
-		40204,
-		40205,
-		40206,
-		40210,
-		40211,
-		40304,
-		40305,
-		40301,
-		40302,
-		40303,
-		40309,
-		40310,
-		40314,
-		40312,
-		40311,
-		40313,
-		40316,
-		40401,
-		40402,
-		40403,
-		40404,
-		40405,
-		40406,
-		40407,
-		40501,
-		40502,
-		40503,
-		40504,
-		40506,
-		40601,
-		40602,
-		40603,
-		40701,
-		40703,
-		40704,
-		40702,
-		40813,
-		40810,
-		40802,
-		40805,
-		40801,
-		40809,
-		40806,
-		40808,
-		40811,
-		40807,
-		40814,
-		40804,
-		40803,
-		40812,
-		50101,
-		50102,
-		50103,
-		50104,
-		50105,
-		50106,
-		50107,
-		50108,
-		50109,
-		50204,
-		50205,
-		50201,
-		50202,
-		50203,
-		50207,
-		50208,
-		50209,
-		50210,
-		50212,
-		50301,
-		50401,
-		50601,
-		50602,
-		51901,
-		60102,
-		60106,
-		60109,
-		60104,
-		60105,
-		60103,
-		60108,
-		60110,
-		60111,
-		60107,
-		60201,
-		60202,
-		60203,
-		60301,
-		60304,
-		60302,
-		60303,
-		60305,
-		60306,
-		60501,
-		60502,
-		60503,
-		60505,
-		60506,
-		60507,
-		60508,
-		60701,
-		60702,
-		60801,
-		60802,
-		60803,
-		70108,
-		70107,
-		70102,
-		70106,
-		70109,
-		70103,
-		70104,
-		70110,
-		70111,
-		70112,
-		70201,
-		70202,
-		70208,
-		70206,
-		70204,
-		70207,
-		70203,
-		70205,
-		70301,
-		70302,
-		70501,
-		70502,
-		70504,
-		70505,
-		70506,
-		70507,
-		70508,
-		70509,
-		70701,
-		71801,
-		80102,
-		80103,
-		80104,
-		80105,
-		80101,
-		80107,
-		80108,
-		80201,
-		80202,
-		80203,
-		80204,
-		80301,
-		80302,
-		80303,
-		80401,
-		80501,
-		80502,
-		80503,
-		80601,
-		80701,
-		80702,
-		80801,
-		90101,
-		90102,
-		90103,
-		90104,
-		90105,
-		90106,
-		90107,
-		90111,
-		90113,
-		90114,
-		90201,
-		90202,
-		90301,
-		90302,
-		90303,
-		90401,
-		90402,
-		90501,
-		90502,
-		90701,
-		110101,
-		110201,
-		960001,
-		960002,
-		960003,
-		960004,
-		960005,
-		960006,
-		960007,
-		960008,
-		960009,
-		960010,
-		960011,
-		960012,
-		960013,
-		960014,
-		960015,
-		960016,
-		29901,
-		29902,
-		39901,
-		39902,
-		49901,
-		89901,
-		19901,
-		19902,
-		39903,
-		39904,
-		49902,
-		99901,
-		29903,
-		29904,
-		49903,
-		49904,
-		89902,
-		19903,
-		39905,
-		49905,
-		49906,
-		69901,
-		29905,
-		49907,
-		59901,
-		79901,
-		89903,
-		19904,
-		39906,
-		49908,
-		49909,
-		99902,
-		19905,
-		39907,
-		69902,
-		79902,
-		89904,
-		49910,
-		19906,
-		69903,
-		79903,
-		119901,
-		970701,
-		970702,
-		970201,
-		970703,
-		970501,
-		970601,
-		970401,
-		970602,
-		970402,
-		970502,
-		970202,
-		970403,
-		970301,
-		970404,
-		970101,
-		970102,
-		970503,
-		970203,
-		970504,
-		970204,
-		970801,
-		971201,
-		970302,
-		970103,
-		970205,
-		970603,
-		971301,
-		970206,
-		970104,
-		970207,
-		970505,
-		970105,
-		970704,
-		970303,
-		970304,
-		970106,
-		970506,
-		970405,
-		970604,
-		970507,
-		970705,
-		970305,
-		970306,
-		970508,
-		970706,
-		970509,
-		970107,
-		970707,
-		970108,
-		970406,
-		970109,
-		970110,
-		970208,
-		970708,
-		970209,
-		970111,
-		60204,
-		30194,
-		60509,
-		60112,
-		50302
 	}
-}
+end)()

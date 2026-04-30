@@ -1,6 +1,96 @@
 pg = pg or {}
-pg.activity_dreamland_explore = {
+pg.activity_dreamland_explore = rawget(pg, "activity_dreamland_explore") or setmetatable({
+	__name = "activity_dreamland_explore"
+}, confNEO)
+pg.activity_dreamland_explore.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	27,
+	28,
+	29
+}
+pg.activity_dreamland_explore.get_id_list_by_group = {
 	{
+		1,
+		2,
+		3
+	},
+	{
+		4
+	},
+	{
+		5,
+		6,
+		7
+	},
+	{
+		8,
+		9,
+		10,
+		11,
+		12,
+		13
+	},
+	{
+		14,
+		15,
+		16
+	},
+	{
+		17
+	},
+	{
+		18,
+		19,
+		20
+	},
+	{
+		21,
+		22
+	},
+	{
+		23,
+		24,
+		25
+	},
+	{
+		27
+	},
+	{
+		28
+	},
+	{
+		29
+	}
+}
+pg.base = pg.base or {}
+pg.base.activity_dreamland_explore = {}
+
+(function ()
+	pg.base.activity_dreamland_explore[1] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 1,
@@ -29,8 +119,8 @@ pg.activity_dreamland_explore = {
 				"这是什么原理呢，真是太神奇了。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[2] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 1,
@@ -59,8 +149,8 @@ pg.activity_dreamland_explore = {
 				"这是什么原理呢，真是太神奇了。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[3] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 1,
@@ -89,8 +179,8 @@ pg.activity_dreamland_explore = {
 				"这是什么原理呢，真是太神奇了。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[4] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 2,
@@ -114,8 +204,8 @@ pg.activity_dreamland_explore = {
 				"对此，{namecode:161}表示梦境就是存在各种不可思议的不合理之处，不必放在心上。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[5] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 3,
@@ -144,8 +234,8 @@ pg.activity_dreamland_explore = {
 				"“这一定是{namecode:179}小姐的愿望要实现的征兆！”路过的利物浦兴奋地说道。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[6] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 3,
@@ -174,8 +264,8 @@ pg.activity_dreamland_explore = {
 				"“这一定是{namecode:179}小姐的愿望要实现的征兆！”路过的利物浦兴奋地说道。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[7] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 3,
@@ -204,8 +294,8 @@ pg.activity_dreamland_explore = {
 				"“这一定是{namecode:179}小姐的愿望要实现的征兆！”路过的利物浦兴奋地说道。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[8] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 4,
@@ -238,8 +328,8 @@ pg.activity_dreamland_explore = {
 				"嗯……反正是在梦里，就由她去吧。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[9] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 4,
@@ -272,8 +362,8 @@ pg.activity_dreamland_explore = {
 				"嗯……反正是在梦里，就由她去吧。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[10] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 4,
@@ -306,8 +396,8 @@ pg.activity_dreamland_explore = {
 				"嗯……反正是在梦里，就由她去吧。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[11] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 4,
@@ -340,8 +430,8 @@ pg.activity_dreamland_explore = {
 				"嗯……反正是在梦里，就由她去吧。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[12] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 4,
@@ -374,8 +464,8 @@ pg.activity_dreamland_explore = {
 				"嗯……反正是在梦里，就由她去吧。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[13] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 4,
@@ -408,8 +498,8 @@ pg.activity_dreamland_explore = {
 				"嗯……反正是在梦里，就由她去吧。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[14] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 5,
@@ -442,8 +532,8 @@ pg.activity_dreamland_explore = {
 				"之后和{namecode:37}都收到了{namecode:88}送的幸运气球作为答谢。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[15] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 5,
@@ -476,8 +566,8 @@ pg.activity_dreamland_explore = {
 				"之后和{namecode:37}都收到了{namecode:88}送的幸运气球作为答谢。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[16] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 5,
@@ -510,8 +600,8 @@ pg.activity_dreamland_explore = {
 				"之后和{namecode:37}都收到了{namecode:88}送的幸运气球作为答谢。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[17] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 6,
@@ -540,8 +630,8 @@ pg.activity_dreamland_explore = {
 				"然而在此处寻找了许久，完全没有发现幽灵的影踪。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[18] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 7,
@@ -570,8 +660,8 @@ pg.activity_dreamland_explore = {
 				"不过，她到底涂了多少……？"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[19] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 7,
@@ -600,8 +690,8 @@ pg.activity_dreamland_explore = {
 				"不过，她到底涂了多少……？"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[20] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 7,
@@ -630,8 +720,8 @@ pg.activity_dreamland_explore = {
 				"不过，她到底涂了多少……？"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[21] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 8,
@@ -661,8 +751,8 @@ pg.activity_dreamland_explore = {
 				"阿尔弗雷多有些沮丧，但仍坚持自己之前所见不虚。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[22] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 8,
@@ -691,8 +781,8 @@ pg.activity_dreamland_explore = {
 				"阿尔弗雷多有些沮丧，但仍坚持自己之前所见不虚。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[23] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 9,
@@ -721,8 +811,8 @@ pg.activity_dreamland_explore = {
 				"{namecode:189}是不是看太多恐怖片了？"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[24] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 9,
@@ -751,8 +841,8 @@ pg.activity_dreamland_explore = {
 				"{namecode:189}是不是看太多恐怖片了？"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[25] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 9,
@@ -781,8 +871,8 @@ pg.activity_dreamland_explore = {
 				"{namecode:189}是不是看太多恐怖片了？"
 			}
 		}
-	},
-	[27] = {
+	}
+	pg.base.activity_dreamland_explore[27] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 10,
@@ -815,8 +905,8 @@ pg.activity_dreamland_explore = {
 				"总之，这种时候还是建议她先联系{namecode:161}吧。"
 			}
 		}
-	},
-	[28] = {
+	}
+	pg.base.activity_dreamland_explore[28] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 11,
@@ -838,8 +928,8 @@ pg.activity_dreamland_explore = {
 				"然而顺着{namecode:180}指出的方向努力看去，结果却什么也看不到。"
 			}
 		}
-	},
-	[29] = {
+	}
+	pg.base.activity_dreamland_explore[29] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 12,
@@ -868,89 +958,5 @@ pg.activity_dreamland_explore = {
 				"然而在{namecode:161}的提醒后发现，只是抚顺一路都在摩挲衣服产生的格外强烈的静电。"
 			}
 		}
-	},
-	get_id_list_by_group = {
-		{
-			1,
-			2,
-			3
-		},
-		{
-			4
-		},
-		{
-			5,
-			6,
-			7
-		},
-		{
-			8,
-			9,
-			10,
-			11,
-			12,
-			13
-		},
-		{
-			14,
-			15,
-			16
-		},
-		{
-			17
-		},
-		{
-			18,
-			19,
-			20
-		},
-		{
-			21,
-			22
-		},
-		{
-			23,
-			24,
-			25
-		},
-		{
-			27
-		},
-		{
-			28
-		},
-		{
-			29
-		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		27,
-		28,
-		29
 	}
-}
+end)()

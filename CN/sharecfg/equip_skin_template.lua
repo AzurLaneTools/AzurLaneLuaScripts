@@ -1,6 +1,1569 @@
 pg = pg or {}
-pg.equip_skin_template = {
-	{
+pg.equip_skin_template = rawget(pg, "equip_skin_template") or setmetatable({
+	__name = "equip_skin_template"
+}, confNEO)
+pg.equip_skin_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	50,
+	51,
+	52,
+	53,
+	54,
+	55,
+	56,
+	57,
+	58,
+	59,
+	60,
+	61,
+	62,
+	63,
+	64,
+	65,
+	66,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	110,
+	111,
+	112,
+	113,
+	114,
+	115,
+	116,
+	117,
+	118,
+	120,
+	121,
+	122,
+	123,
+	124,
+	125,
+	126,
+	127,
+	128,
+	129,
+	130,
+	131,
+	132,
+	133,
+	134,
+	135,
+	136,
+	137,
+	140,
+	141,
+	142,
+	143,
+	144,
+	145,
+	146,
+	147,
+	148,
+	149,
+	150,
+	151,
+	152,
+	153,
+	154,
+	155,
+	156,
+	157,
+	160,
+	161,
+	162,
+	163,
+	164,
+	165,
+	166,
+	167,
+	168,
+	169,
+	170,
+	171,
+	172,
+	173,
+	174,
+	175,
+	176,
+	177,
+	180,
+	181,
+	182,
+	183,
+	184,
+	185,
+	186,
+	187,
+	188,
+	189,
+	190,
+	191,
+	192,
+	193,
+	194,
+	195,
+	196,
+	197,
+	200,
+	201,
+	202,
+	203,
+	204,
+	205,
+	206,
+	207,
+	208,
+	209,
+	210,
+	211,
+	212,
+	213,
+	214,
+	215,
+	216,
+	217,
+	220,
+	221,
+	222,
+	223,
+	224,
+	225,
+	226,
+	227,
+	228,
+	229,
+	230,
+	231,
+	232,
+	233,
+	234,
+	235,
+	236,
+	237,
+	240,
+	241,
+	242,
+	243,
+	244,
+	245,
+	246,
+	247,
+	248,
+	249,
+	250,
+	251,
+	252,
+	253,
+	254,
+	255,
+	256,
+	257,
+	260,
+	261,
+	262,
+	263,
+	264,
+	265,
+	266,
+	267,
+	268,
+	269,
+	270,
+	271,
+	272,
+	273,
+	274,
+	275,
+	276,
+	277,
+	280,
+	281,
+	282,
+	283,
+	284,
+	285,
+	286,
+	287,
+	288,
+	289,
+	290,
+	291,
+	292,
+	293,
+	294,
+	295,
+	296,
+	297,
+	300,
+	301,
+	302,
+	303,
+	304,
+	305,
+	306,
+	307,
+	308,
+	309,
+	310,
+	311,
+	312,
+	313,
+	314,
+	315,
+	316,
+	317,
+	320,
+	321,
+	322,
+	323,
+	324,
+	325,
+	326,
+	327,
+	328,
+	329,
+	330,
+	331,
+	332,
+	333,
+	334,
+	335,
+	336,
+	337,
+	340,
+	341,
+	342,
+	343,
+	344,
+	345,
+	346,
+	347,
+	348,
+	349,
+	350,
+	351,
+	352,
+	353,
+	354,
+	355,
+	356,
+	357,
+	360,
+	361,
+	362,
+	363,
+	364,
+	365,
+	366,
+	367,
+	368,
+	369,
+	370,
+	371,
+	372,
+	373,
+	374,
+	375,
+	376,
+	377,
+	380,
+	381,
+	382,
+	383,
+	384,
+	385,
+	386,
+	387,
+	388,
+	389,
+	390,
+	391,
+	392,
+	393,
+	394,
+	395,
+	396,
+	397,
+	398,
+	400,
+	401,
+	402,
+	403,
+	404,
+	405,
+	406,
+	407,
+	408,
+	409,
+	410,
+	411,
+	412,
+	413,
+	414,
+	415,
+	416,
+	417,
+	420,
+	421,
+	422,
+	423,
+	424,
+	425,
+	426,
+	427,
+	428,
+	429,
+	430,
+	431,
+	432,
+	433,
+	434,
+	435,
+	436,
+	437,
+	440,
+	441,
+	442,
+	443,
+	444,
+	445,
+	446,
+	447,
+	448,
+	449,
+	450,
+	451,
+	452,
+	453,
+	454,
+	455,
+	456,
+	457,
+	460,
+	461,
+	462,
+	463,
+	464,
+	465,
+	466,
+	467,
+	468,
+	469,
+	470,
+	471,
+	472,
+	473,
+	474,
+	475,
+	476,
+	477,
+	480,
+	481,
+	482,
+	483,
+	484,
+	485,
+	486,
+	487,
+	488,
+	489,
+	490,
+	491,
+	492,
+	493,
+	494,
+	495,
+	496,
+	497,
+	500,
+	501,
+	502,
+	503,
+	504,
+	505,
+	506,
+	507,
+	508,
+	509,
+	510,
+	511,
+	512,
+	513,
+	514,
+	515,
+	516,
+	517,
+	520,
+	521,
+	522,
+	523,
+	524,
+	525,
+	526,
+	527,
+	528,
+	529,
+	530,
+	531,
+	532,
+	533,
+	534,
+	535,
+	536,
+	537,
+	540,
+	541,
+	542,
+	543,
+	544,
+	545,
+	546,
+	547,
+	548,
+	549,
+	550,
+	551,
+	552,
+	553,
+	554,
+	555,
+	556,
+	557,
+	560,
+	561,
+	562,
+	563,
+	564,
+	565,
+	566,
+	567,
+	568,
+	569,
+	570,
+	571,
+	572,
+	573,
+	574,
+	575,
+	576,
+	577,
+	580,
+	581,
+	582,
+	583,
+	584,
+	585,
+	586,
+	587,
+	588,
+	589,
+	590,
+	591,
+	592,
+	593,
+	594,
+	595,
+	596,
+	597,
+	600,
+	601,
+	602,
+	603,
+	604,
+	605,
+	606,
+	607,
+	608,
+	609,
+	610,
+	611,
+	612,
+	613,
+	614,
+	615,
+	616,
+	617,
+	620,
+	621,
+	622,
+	623,
+	624,
+	625,
+	626,
+	627,
+	628,
+	629,
+	630,
+	631,
+	632,
+	633,
+	634,
+	635,
+	636,
+	637,
+	638,
+	639,
+	640,
+	641,
+	642,
+	643,
+	644,
+	645,
+	646,
+	647,
+	648,
+	649,
+	650,
+	651,
+	652,
+	653,
+	654,
+	655,
+	656,
+	657,
+	658,
+	659,
+	660,
+	661,
+	662,
+	670,
+	671,
+	672,
+	673,
+	674,
+	675,
+	676,
+	677,
+	678,
+	679,
+	680,
+	681,
+	682,
+	683,
+	684,
+	685,
+	686,
+	687,
+	690,
+	691,
+	692,
+	693,
+	694,
+	695,
+	696,
+	697,
+	698,
+	699,
+	700,
+	701,
+	702,
+	703,
+	704,
+	705,
+	706,
+	707,
+	710,
+	711,
+	712,
+	713,
+	714,
+	715,
+	716,
+	717,
+	718,
+	719,
+	720,
+	721,
+	722,
+	723,
+	724,
+	725,
+	726,
+	727,
+	730,
+	731,
+	732,
+	733,
+	734,
+	735,
+	736,
+	737,
+	738,
+	739,
+	740,
+	741,
+	742,
+	743,
+	744,
+	745,
+	746,
+	747,
+	750,
+	751,
+	752,
+	753,
+	754,
+	755,
+	756,
+	757,
+	758,
+	759,
+	760,
+	761,
+	762,
+	763,
+	764,
+	765,
+	766,
+	767,
+	771,
+	772,
+	773,
+	774,
+	775,
+	780,
+	781,
+	782,
+	783,
+	784,
+	785,
+	786,
+	787,
+	788,
+	789,
+	790,
+	791,
+	792,
+	793,
+	794,
+	795,
+	796,
+	797,
+	800,
+	801,
+	802,
+	803,
+	804,
+	805,
+	806,
+	810,
+	811,
+	812,
+	813,
+	814,
+	815,
+	816,
+	817,
+	818,
+	819,
+	820,
+	821,
+	822,
+	823,
+	824,
+	825,
+	826,
+	827,
+	830,
+	831,
+	832,
+	833,
+	834,
+	835,
+	836,
+	837,
+	838,
+	839,
+	840,
+	841,
+	842,
+	843,
+	844,
+	845,
+	846,
+	847,
+	850,
+	851,
+	852,
+	853,
+	854,
+	855,
+	856,
+	857,
+	858,
+	859,
+	860,
+	861,
+	862,
+	863,
+	864,
+	865,
+	866,
+	867,
+	870,
+	871,
+	872,
+	873,
+	874,
+	875,
+	876,
+	877,
+	878,
+	879,
+	880,
+	881,
+	882,
+	883,
+	884,
+	885,
+	886,
+	887,
+	890,
+	891,
+	892,
+	893,
+	894,
+	895,
+	896,
+	897,
+	898,
+	899,
+	900,
+	901,
+	902,
+	903,
+	904,
+	905,
+	906,
+	907,
+	908,
+	910,
+	911,
+	912,
+	913,
+	914,
+	915,
+	916,
+	917,
+	918,
+	919,
+	920,
+	921,
+	922,
+	923,
+	924,
+	925,
+	926,
+	927,
+	930,
+	931,
+	932,
+	933,
+	934,
+	935,
+	936,
+	937,
+	938,
+	939,
+	940,
+	941,
+	942,
+	943,
+	944,
+	945,
+	946,
+	947,
+	950,
+	951,
+	952,
+	953,
+	954,
+	955,
+	956,
+	957,
+	958,
+	959,
+	960,
+	961,
+	962,
+	963,
+	964,
+	965,
+	966,
+	967,
+	970,
+	971,
+	972,
+	973,
+	974,
+	975,
+	976,
+	977,
+	978,
+	979,
+	980,
+	981,
+	982,
+	983,
+	984,
+	985,
+	986,
+	987,
+	4001,
+	4002,
+	4003,
+	4004,
+	4005,
+	4006,
+	4007,
+	4008,
+	4009,
+	4010,
+	4011,
+	4012,
+	4013,
+	4014,
+	4015,
+	4016,
+	4017,
+	4018,
+	4019,
+	4020,
+	4021,
+	4022,
+	4023,
+	4024,
+	4025,
+	4026,
+	4027,
+	4028,
+	4029,
+	4030,
+	4031,
+	4032,
+	4033,
+	4034,
+	4035,
+	4036,
+	4037,
+	4038,
+	4039,
+	4040,
+	4041,
+	4042,
+	4043,
+	4044,
+	4045,
+	4046,
+	4047,
+	4048,
+	4049,
+	4050,
+	4051,
+	4052,
+	4053,
+	4054,
+	4055,
+	4056,
+	4057,
+	4058,
+	4059,
+	4060,
+	4061,
+	4062,
+	4063,
+	4064,
+	4065,
+	4066,
+	4067,
+	4068,
+	4069,
+	4070,
+	4071,
+	4072,
+	4073,
+	4074,
+	4075,
+	4076,
+	4077,
+	4078,
+	4079,
+	4080,
+	4081,
+	4082,
+	4083,
+	4084,
+	4085,
+	4086,
+	4087,
+	4088,
+	4089,
+	4090,
+	4091,
+	4092,
+	4093,
+	4094,
+	4095,
+	4096,
+	4097,
+	4098,
+	4099,
+	4100,
+	4101,
+	4102,
+	4103,
+	4104,
+	4105,
+	4106,
+	4107,
+	4108,
+	4109,
+	4110,
+	4111,
+	4112,
+	4113,
+	4114,
+	4115,
+	4116,
+	4117,
+	4118,
+	4119,
+	4120,
+	4121,
+	4122,
+	4123,
+	4124,
+	4125,
+	4126,
+	4127,
+	4128,
+	4129,
+	4130,
+	4131,
+	4132,
+	4133,
+	4134,
+	4135,
+	4136,
+	4137,
+	4138,
+	4139,
+	4140,
+	4141,
+	4142,
+	4143,
+	4144,
+	4145,
+	4146,
+	4147,
+	4148,
+	4149,
+	4150,
+	4151,
+	4152,
+	4153,
+	4154,
+	4155,
+	4156,
+	4157,
+	4158,
+	4159,
+	4160,
+	4161,
+	4162,
+	4163,
+	4164,
+	4165,
+	4166,
+	4167,
+	4168,
+	4169,
+	4170,
+	4171,
+	4172,
+	4173,
+	4174,
+	4175,
+	4176,
+	4177,
+	4178,
+	4179,
+	4180,
+	4181,
+	4182,
+	4183,
+	4184,
+	4185,
+	4186,
+	4187,
+	4188,
+	4189,
+	4190,
+	4191,
+	4192,
+	4193,
+	4194,
+	4195,
+	4196,
+	4197,
+	4198,
+	4199,
+	4200,
+	4201,
+	4202,
+	4203,
+	4204,
+	4205,
+	4206,
+	4207,
+	4208,
+	4209,
+	4210,
+	4211,
+	4212,
+	4213,
+	4214,
+	4215,
+	4216,
+	4217,
+	4218,
+	4219,
+	4220,
+	4221,
+	4222,
+	4223,
+	4224,
+	4225,
+	4226,
+	4227,
+	4228,
+	4229,
+	4230,
+	4231,
+	4232,
+	4233,
+	4234,
+	4235,
+	4236,
+	4237,
+	4238,
+	4239,
+	4240,
+	4241,
+	4242,
+	4243,
+	4244,
+	4245,
+	4246,
+	4247,
+	4248,
+	4249,
+	4250,
+	4251,
+	4252,
+	4253,
+	4254,
+	4255,
+	4256,
+	4257,
+	4258,
+	4259,
+	4260,
+	4261,
+	4262,
+	4263,
+	4264,
+	4265,
+	4266,
+	4267,
+	4268,
+	4269,
+	4270,
+	4271,
+	4272,
+	4273,
+	4274,
+	4275,
+	4276,
+	4277,
+	4278,
+	4279,
+	4280,
+	4281,
+	4282,
+	4283,
+	4284,
+	4285,
+	4286,
+	4287,
+	4288,
+	4289,
+	4290,
+	4291,
+	4292,
+	4293,
+	4294,
+	4295,
+	4296,
+	4297,
+	4298,
+	4299,
+	4300,
+	4301,
+	4302,
+	4303,
+	4304,
+	4305,
+	4306,
+	4307,
+	4308,
+	4309,
+	4310,
+	4311,
+	4312,
+	4313,
+	4314,
+	4315,
+	4316,
+	4317,
+	4318,
+	4319,
+	4320,
+	4321,
+	4322,
+	4323,
+	4324,
+	4325,
+	4326,
+	4327,
+	4328,
+	4329,
+	4330,
+	4331,
+	4332,
+	4333,
+	4334,
+	4335,
+	4336,
+	4337,
+	4338,
+	4339,
+	4340,
+	4341,
+	4342,
+	4343,
+	4344,
+	4345,
+	4346,
+	4347,
+	4348,
+	4349,
+	4350,
+	4351,
+	4352,
+	4353,
+	4354,
+	4355,
+	4356,
+	4357,
+	4358,
+	4359,
+	4360,
+	4361,
+	4362,
+	4363,
+	4364,
+	4365,
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008,
+	1009,
+	1010,
+	1011,
+	1012,
+	1013,
+	1014,
+	1015,
+	1051,
+	1052,
+	1053,
+	1054,
+	1055,
+	1056,
+	1057,
+	1058,
+	1059,
+	1060,
+	1061,
+	1062,
+	1063,
+	1064,
+	1065,
+	1066,
+	1067,
+	1068,
+	1101,
+	1102,
+	1103,
+	1104,
+	1105,
+	1106,
+	1107,
+	1108,
+	1109,
+	1110,
+	1111,
+	1112,
+	1113,
+	1114,
+	1115,
+	1116,
+	1117,
+	1118,
+	1119,
+	1200,
+	1201,
+	1202,
+	1203,
+	1204,
+	1205,
+	1206,
+	1207,
+	1208,
+	1209,
+	1210,
+	1211,
+	1212,
+	1213,
+	1214,
+	1215,
+	1216,
+	1217,
+	1218,
+	1300,
+	1400,
+	1401,
+	1402,
+	1403,
+	1404,
+	1405,
+	1406,
+	1407,
+	1408,
+	1409,
+	1410,
+	1411,
+	1412,
+	1413,
+	1414,
+	1415,
+	1416,
+	1417,
+	1450,
+	1451,
+	1452,
+	1453,
+	1454,
+	1455,
+	1456,
+	1457,
+	1458,
+	1459,
+	1460,
+	1461,
+	1462,
+	1463,
+	1464,
+	1465,
+	1466,
+	1467,
+	1471,
+	1472,
+	1473,
+	1474,
+	1475,
+	1476,
+	1477,
+	1478,
+	1479,
+	1480,
+	1481,
+	1482,
+	1483,
+	1484,
+	1485,
+	1486,
+	1487,
+	1488,
+	1489,
+	1490,
+	1491,
+	1492,
+	1493,
+	1494,
+	1495,
+	1496,
+	1497,
+	1498,
+	1499,
+	1501,
+	1502,
+	1503,
+	1504,
+	1505,
+	1506,
+	1507,
+	1511,
+	1512,
+	1513,
+	1514,
+	1515,
+	1516,
+	1517,
+	1518,
+	1519,
+	1520,
+	1521,
+	1522,
+	1523,
+	1524,
+	1525,
+	1526,
+	1527,
+	1528,
+	2001,
+	2002,
+	2003,
+	2004,
+	2005,
+	2006,
+	2007,
+	2008,
+	2009,
+	2010,
+	2011,
+	2012,
+	2013,
+	2014,
+	2015,
+	2016,
+	2017,
+	2018,
+	2019,
+	2020,
+	2021,
+	2022,
+	2023,
+	2024,
+	2025,
+	2026,
+	2027,
+	2028,
+	2029,
+	2030,
+	2031,
+	2032,
+	2033,
+	2034,
+	2035,
+	2036,
+	2037,
+	2038,
+	2039,
+	2040,
+	2041,
+	2042,
+	2043,
+	2044,
+	2045,
+	2046,
+	2047,
+	2048,
+	2049,
+	2050,
+	2051,
+	2052,
+	2053,
+	2054,
+	2055,
+	2056,
+	2061,
+	2062,
+	2063,
+	2064,
+	2065,
+	2066,
+	2067,
+	2068,
+	2069,
+	2070,
+	2071,
+	2072,
+	2073,
+	2074,
+	2075,
+	2076,
+	2077,
+	2078,
+	2079,
+	2080,
+	2081,
+	2082,
+	2083,
+	2084,
+	2085,
+	2086,
+	2087,
+	2088,
+	2089,
+	2090,
+	2091,
+	2092,
+	2093,
+	2094,
+	2095,
+	2096,
+	2097,
+	2098,
+	2099,
+	2100,
+	2101,
+	2102,
+	2103,
+	2104,
+	2105,
+	2106,
+	2107,
+	2108,
+	2109,
+	2110,
+	2111,
+	2112,
+	2113,
+	2114,
+	2115,
+	2116,
+	2117,
+	2118,
+	2119,
+	2120,
+	3001,
+	3002,
+	3003,
+	3004,
+	3005,
+	3006,
+	3007,
+	3008,
+	3009,
+	3010,
+	3011,
+	3012,
+	3013,
+	3014,
+	3015,
+	3016,
+	3017,
+	3024,
+	3025,
+	3026,
+	3027,
+	3028,
+	3029,
+	3030,
+	3031,
+	3032,
+	3033,
+	3034,
+	3035,
+	3036,
+	3037,
+	3038,
+	3039,
+	3040,
+	3041,
+	3042,
+	3043,
+	3044,
+	3045,
+	3046,
+	3047,
+	3048,
+	3049,
+	3050,
+	3051,
+	3052,
+	3053,
+	3054,
+	3059,
+	3060,
+	3061,
+	3062,
+	3063,
+	3064,
+	3065,
+	3066,
+	3067,
+	3068,
+	3069,
+	3071,
+	3072,
+	3075
+}
+pg.base = pg.base or {}
+pg.base.equip_skin_template = {}
+
+(function ()
+	pg.base.equip_skin_template[1] = {
 		hit_sfx = "",
 		bullet_name = "Bullet_haibao",
 		orbit_ui_bound = "",
@@ -40,8 +1603,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[2] = {
 		hit_sfx = "",
 		bullet_name = "Torpedo_haibao",
 		orbit_ui_bound = "",
@@ -80,8 +1643,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[3] = {
 		hit_sfx = "",
 		bullet_name = "Bullet_xianyu",
 		orbit_ui_bound = "",
@@ -121,8 +1684,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[4] = {
 		hit_sfx = "",
 		bullet_name = "Torpedo_xianyu",
 		orbit_ui_bound = "",
@@ -161,8 +1724,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[5] = {
 		hit_sfx = "",
 		bullet_name = "Bullet_xinnian",
 		orbit_ui_bound = "",
@@ -202,8 +1765,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[6] = {
 		hit_sfx = "",
 		bullet_name = "Torpedo_xinnian",
 		orbit_ui_bound = "",
@@ -242,8 +1805,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[7] = {
 		hit_sfx = "",
 		bullet_name = "Bullet_shengdan",
 		orbit_ui_bound = "",
@@ -283,8 +1846,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[8] = {
 		hit_sfx = "",
 		bullet_name = "torpedo_guaizhangtang",
 		orbit_ui_bound = "",
@@ -323,8 +1886,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[9] = {
 		hit_sfx = "",
 		bullet_name = "Bullet_xueqiu",
 		orbit_ui_bound = "",
@@ -364,8 +1927,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[10] = {
 		hit_sfx = "",
 		bullet_name = "Torpedo_shengdanshu",
 		orbit_ui_bound = "",
@@ -404,8 +1967,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[11] = {
 		hit_sfx = "",
 		bullet_name = "haibao_hongzha",
 		orbit_ui_bound = "",
@@ -443,8 +2006,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[12] = {
 		hit_sfx = "",
 		bullet_name = "haibao_yulei",
 		orbit_ui_bound = "",
@@ -482,8 +2045,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[13] = {
 		hit_sfx = "",
 		bullet_name = "xianyu_hongzha",
 		orbit_ui_bound = "",
@@ -521,8 +2084,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[14] = {
 		hit_sfx = "",
 		bullet_name = "xianyu_yulei",
 		orbit_ui_bound = "",
@@ -560,8 +2123,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[15] = {
 		hit_sfx = "",
 		bullet_name = "xinnian_feiji",
 		orbit_ui_bound = "",
@@ -599,8 +2162,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[16] = {
 		hit_sfx = "",
 		bullet_name = "xinnian_feiji",
 		orbit_ui_bound = "",
@@ -638,8 +2201,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[17] = {
 		hit_sfx = "",
 		bullet_name = "xinnian_feiji",
 		orbit_ui_bound = "",
@@ -677,8 +2240,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[18] = {
 		hit_sfx = "",
 		bullet_name = "shengdan_feiji",
 		orbit_ui_bound = "",
@@ -716,8 +2279,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[19] = {
 		hit_sfx = "",
 		bullet_name = "shengdan_feiji",
 		orbit_ui_bound = "",
@@ -755,8 +2318,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[20] = {
 		hit_sfx = "",
 		bullet_name = "shengdan_feiji2",
 		orbit_ui_bound = "",
@@ -794,8 +2357,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[21] = {
 		hit_sfx = "",
 		bullet_name = "shengdan_feiji2",
 		orbit_ui_bound = "",
@@ -833,8 +2396,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[22] = {
 		hit_sfx = "",
 		bullet_name = "Bullet_mantou",
 		orbit_ui_bound = "",
@@ -874,8 +2437,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[23] = {
 		hit_sfx = "",
 		bullet_name = "Torpedo_mantou",
 		orbit_ui_bound = "",
@@ -914,8 +2477,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[24] = {
 		hit_sfx = "",
 		bullet_name = "mantou_feiji",
 		orbit_ui_bound = "",
@@ -953,8 +2516,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[25] = {
 		hit_sfx = "",
 		bullet_name = "mantou_feiji",
 		orbit_ui_bound = "",
@@ -992,8 +2555,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[26] = {
 		hit_sfx = "",
 		bullet_name = "mantou_feiji",
 		orbit_ui_bound = "",
@@ -1031,8 +2594,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[27] = {
 		hit_sfx = "",
 		bullet_name = "SprFes_bullet_tongban",
 		orbit_ui_bound = "",
@@ -1072,8 +2635,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[28] = {
 		hit_sfx = "",
 		bullet_name = "SprFes_bullet_juzi",
 		orbit_ui_bound = "",
@@ -1113,8 +2676,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[29] = {
 		hit_sfx = "",
 		bullet_name = "SprFes_bullet_paozhang",
 		orbit_ui_bound = "",
@@ -1154,8 +2717,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[30] = {
 		hit_sfx = "",
 		bullet_name = "SprFes_bullet_jinyuanbao",
 		orbit_ui_bound = "",
@@ -1195,8 +2758,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[31] = {
 		hit_sfx = "",
 		bullet_name = "SprFes_torpedo_hongbao",
 		orbit_ui_bound = "",
@@ -1235,8 +2798,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[32] = {
 		hit_sfx = "",
 		bullet_name = "SprFes_torpedo_zhongguojie",
 		orbit_ui_bound = "",
@@ -1275,8 +2838,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[33] = {
 		hit_sfx = "",
 		bullet_name = "SprFes_denglong",
 		orbit_ui_bound = "",
@@ -1314,8 +2877,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[34] = {
 		hit_sfx = "",
 		bullet_name = "SprFes_denglong",
 		orbit_ui_bound = "",
@@ -1353,8 +2916,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[35] = {
 		hit_sfx = "",
 		bullet_name = "SprFes_denglong",
 		orbit_ui_bound = "",
@@ -1392,8 +2955,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[36] = {
 		hit_sfx = "",
 		bullet_name = "SprFes_caishen",
 		orbit_ui_bound = "",
@@ -1431,8 +2994,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[37] = {
 		hit_sfx = "",
 		bullet_name = "SprFes_caishen",
 		orbit_ui_bound = "",
@@ -1470,8 +3033,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_template[38] = {
 		hit_sfx = "",
 		bullet_name = "SprFes_caishen",
 		orbit_ui_bound = "",
@@ -1509,8 +3072,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[50] = {
+	}
+	pg.base.equip_skin_template[50] = {
 		hit_sfx = "",
 		bullet_name = "Torpedo_shudi",
 		orbit_ui_bound = "",
@@ -1549,8 +3112,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[51] = {
+	}
+	pg.base.equip_skin_template[51] = {
 		hit_sfx = "",
 		bullet_name = "Torpedo_xiangpi",
 		orbit_ui_bound = "",
@@ -1589,8 +3152,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[52] = {
+	}
+	pg.base.equip_skin_template[52] = {
 		hit_sfx = "",
 		bullet_name = "Torpedo_pencil",
 		orbit_ui_bound = "",
@@ -1629,8 +3192,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[53] = {
+	}
+	pg.base.equip_skin_template[53] = {
 		hit_sfx = "",
 		bullet_name = "school_bullet_fenbi",
 		orbit_ui_bound = "",
@@ -1670,8 +3233,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[54] = {
+	}
+	pg.base.equip_skin_template[54] = {
 		hit_sfx = "",
 		bullet_name = "school_bullet_huaban",
 		orbit_ui_bound = "",
@@ -1711,8 +3274,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[55] = {
+	}
+	pg.base.equip_skin_template[55] = {
 		hit_sfx = "",
 		bullet_name = "school_liangjiaoqipaodan",
 		orbit_ui_bound = "",
@@ -1752,8 +3315,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[56] = {
+	}
+	pg.base.equip_skin_template[56] = {
 		hit_sfx = "",
 		bullet_name = "school_heibancapaodan",
 		orbit_ui_bound = "",
@@ -1793,8 +3356,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[57] = {
+	}
+	pg.base.equip_skin_template[57] = {
 		hit_sfx = "",
 		bullet_name = "school_biandangpaodan",
 		orbit_ui_bound = "",
@@ -1834,8 +3397,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[58] = {
+	}
+	pg.base.equip_skin_template[58] = {
 		hit_sfx = "",
 		bullet_name = "plane_zhifeiji",
 		orbit_ui_bound = "",
@@ -1873,8 +3436,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[59] = {
+	}
+	pg.base.equip_skin_template[59] = {
 		hit_sfx = "",
 		bullet_name = "plane_zhifeiji",
 		orbit_ui_bound = "",
@@ -1912,8 +3475,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[60] = {
+	}
+	pg.base.equip_skin_template[60] = {
 		hit_sfx = "",
 		bullet_name = "plane_zhifeiji",
 		orbit_ui_bound = "",
@@ -1951,8 +3514,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[61] = {
+	}
+	pg.base.equip_skin_template[61] = {
 		hit_sfx = "",
 		bullet_name = "plane_sakura",
 		orbit_ui_bound = "",
@@ -1990,8 +3553,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[62] = {
+	}
+	pg.base.equip_skin_template[62] = {
 		hit_sfx = "",
 		bullet_name = "plane_sakura",
 		orbit_ui_bound = "",
@@ -2029,8 +3592,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[63] = {
+	}
+	pg.base.equip_skin_template[63] = {
 		hit_sfx = "",
 		bullet_name = "plane_sakura",
 		orbit_ui_bound = "",
@@ -2068,8 +3631,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[64] = {
+	}
+	pg.base.equip_skin_template[64] = {
 		hit_sfx = "",
 		bullet_name = "plane_book",
 		orbit_ui_bound = "",
@@ -2107,8 +3670,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[65] = {
+	}
+	pg.base.equip_skin_template[65] = {
 		hit_sfx = "",
 		bullet_name = "plane_book",
 		orbit_ui_bound = "",
@@ -2146,8 +3709,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[66] = {
+	}
+	pg.base.equip_skin_template[66] = {
 		hit_sfx = "",
 		bullet_name = "plane_book",
 		orbit_ui_bound = "",
@@ -2185,8 +3748,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[101] = {
+	}
+	pg.base.equip_skin_template[101] = {
 		hit_sfx = "",
 		bullet_name = "yulei_bingbang",
 		orbit_ui_bound = "",
@@ -2225,8 +3788,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[102] = {
+	}
+	pg.base.equip_skin_template[102] = {
 		hit_sfx = "",
 		bullet_name = "yulei_qishui",
 		orbit_ui_bound = "",
@@ -2265,8 +3828,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[103] = {
+	}
+	pg.base.equip_skin_template[103] = {
 		hit_sfx = "",
 		bullet_name = "yulei_fengling",
 		orbit_ui_bound = "",
@@ -2305,8 +3868,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[104] = {
+	}
+	pg.base.equip_skin_template[104] = {
 		hit_sfx = "",
 		bullet_name = "zidan_xigua",
 		orbit_ui_bound = "",
@@ -2346,8 +3909,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[105] = {
+	}
+	pg.base.equip_skin_template[105] = {
 		hit_sfx = "",
 		bullet_name = "zidan_fengche",
 		orbit_ui_bound = "",
@@ -2387,8 +3950,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[106] = {
+	}
+	pg.base.equip_skin_template[106] = {
 		hit_sfx = "",
 		bullet_name = "zidan_bingbang",
 		orbit_ui_bound = "",
@@ -2428,8 +3991,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[107] = {
+	}
+	pg.base.equip_skin_template[107] = {
 		hit_sfx = "",
 		bullet_name = "paodan_xuezi",
 		orbit_ui_bound = "",
@@ -2469,8 +4032,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[108] = {
+	}
+	pg.base.equip_skin_template[108] = {
 		hit_sfx = "",
 		bullet_name = "paodan_xigua",
 		orbit_ui_bound = "",
@@ -2510,8 +4073,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[109] = {
+	}
+	pg.base.equip_skin_template[109] = {
 		hit_sfx = "",
 		bullet_name = "paodan_yun",
 		orbit_ui_bound = "",
@@ -2551,8 +4114,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[110] = {
+	}
+	pg.base.equip_skin_template[110] = {
 		hit_sfx = "",
 		bullet_name = "feiji_zhuzhuwenxiang",
 		orbit_ui_bound = "",
@@ -2590,8 +4153,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[111] = {
+	}
+	pg.base.equip_skin_template[111] = {
 		hit_sfx = "",
 		bullet_name = "feiji_zhuzhuwenxiang",
 		orbit_ui_bound = "",
@@ -2629,8 +4192,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[112] = {
+	}
+	pg.base.equip_skin_template[112] = {
 		hit_sfx = "",
 		bullet_name = "feiji_zhuzhuwenxiang",
 		orbit_ui_bound = "",
@@ -2668,8 +4231,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[113] = {
+	}
+	pg.base.equip_skin_template[113] = {
 		hit_sfx = "",
 		bullet_name = "feiji_pugongying",
 		orbit_ui_bound = "",
@@ -2707,8 +4270,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[114] = {
+	}
+	pg.base.equip_skin_template[114] = {
 		hit_sfx = "",
 		bullet_name = "feiji_pugongying",
 		orbit_ui_bound = "",
@@ -2746,8 +4309,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[115] = {
+	}
+	pg.base.equip_skin_template[115] = {
 		hit_sfx = "",
 		bullet_name = "feiji_pugongying",
 		orbit_ui_bound = "",
@@ -2785,8 +4348,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[116] = {
+	}
+	pg.base.equip_skin_template[116] = {
 		hit_sfx = "",
 		bullet_name = "feiji_saoqingniang",
 		orbit_ui_bound = "",
@@ -2824,8 +4387,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[117] = {
+	}
+	pg.base.equip_skin_template[117] = {
 		hit_sfx = "",
 		bullet_name = "feiji_saoqingniang",
 		orbit_ui_bound = "",
@@ -2863,8 +4426,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[118] = {
+	}
+	pg.base.equip_skin_template[118] = {
 		hit_sfx = "",
 		bullet_name = "feiji_saoqingniang",
 		orbit_ui_bound = "",
@@ -2902,8 +4465,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[120] = {
+	}
+	pg.base.equip_skin_template[120] = {
 		hit_sfx = "",
 		bullet_name = "zidan_ya",
 		orbit_ui_bound = "",
@@ -2943,8 +4506,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[121] = {
+	}
+	pg.base.equip_skin_template[121] = {
 		hit_sfx = "",
 		bullet_name = "zidan_weiba",
 		orbit_ui_bound = "",
@@ -2984,8 +4547,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[122] = {
+	}
+	pg.base.equip_skin_template[122] = {
 		hit_sfx = "",
 		bullet_name = "zidan_rou",
 		orbit_ui_bound = "",
@@ -3025,8 +4588,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[123] = {
+	}
+	pg.base.equip_skin_template[123] = {
 		hit_sfx = "",
 		bullet_name = "paodan_rou",
 		orbit_ui_bound = "",
@@ -3066,8 +4629,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[124] = {
+	}
+	pg.base.equip_skin_template[124] = {
 		hit_sfx = "",
 		bullet_name = "paodan_caochong",
 		orbit_ui_bound = "",
@@ -3107,8 +4670,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[125] = {
+	}
+	pg.base.equip_skin_template[125] = {
 		hit_sfx = "",
 		bullet_name = "paodan_zhuti",
 		orbit_ui_bound = "",
@@ -3148,8 +4711,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[126] = {
+	}
+	pg.base.equip_skin_template[126] = {
 		hit_sfx = "",
 		bullet_name = "yulei_rou",
 		orbit_ui_bound = "",
@@ -3188,8 +4751,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[127] = {
+	}
+	pg.base.equip_skin_template[127] = {
 		hit_sfx = "",
 		bullet_name = "yulei_xianggu",
 		orbit_ui_bound = "",
@@ -3228,8 +4791,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[128] = {
+	}
+	pg.base.equip_skin_template[128] = {
 		hit_sfx = "",
 		bullet_name = "yulei_chaihuo",
 		orbit_ui_bound = "",
@@ -3268,8 +4831,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[129] = {
+	}
+	pg.base.equip_skin_template[129] = {
 		hit_sfx = "",
 		bullet_name = "feiji_zhuqiqiu",
 		orbit_ui_bound = "",
@@ -3307,8 +4870,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[130] = {
+	}
+	pg.base.equip_skin_template[130] = {
 		hit_sfx = "",
 		bullet_name = "feiji_zhuqiqiu",
 		orbit_ui_bound = "",
@@ -3346,8 +4909,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[131] = {
+	}
+	pg.base.equip_skin_template[131] = {
 		hit_sfx = "",
 		bullet_name = "feiji_zhuqiqiu",
 		orbit_ui_bound = "",
@@ -3385,8 +4948,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[132] = {
+	}
+	pg.base.equip_skin_template[132] = {
 		hit_sfx = "",
 		bullet_name = "feiji_zhuyun",
 		orbit_ui_bound = "",
@@ -3424,8 +4987,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[133] = {
+	}
+	pg.base.equip_skin_template[133] = {
 		hit_sfx = "",
 		bullet_name = "feiji_zhuyun",
 		orbit_ui_bound = "",
@@ -3463,8 +5026,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[134] = {
+	}
+	pg.base.equip_skin_template[134] = {
 		hit_sfx = "",
 		bullet_name = "feiji_zhuyun",
 		orbit_ui_bound = "",
@@ -3502,8 +5065,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[135] = {
+	}
+	pg.base.equip_skin_template[135] = {
 		hit_sfx = "",
 		bullet_name = "feiji_zhuchaoren",
 		orbit_ui_bound = "",
@@ -3541,8 +5104,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[136] = {
+	}
+	pg.base.equip_skin_template[136] = {
 		hit_sfx = "",
 		bullet_name = "feiji_zhuchaoren",
 		orbit_ui_bound = "",
@@ -3580,8 +5143,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[137] = {
+	}
+	pg.base.equip_skin_template[137] = {
 		hit_sfx = "",
 		bullet_name = "feiji_zhuchaoren",
 		orbit_ui_bound = "",
@@ -3619,8 +5182,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[140] = {
+	}
+	pg.base.equip_skin_template[140] = {
 		hit_sfx = "",
 		bullet_name = "zidan_cup",
 		orbit_ui_bound = "",
@@ -3660,8 +5223,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[141] = {
+	}
+	pg.base.equip_skin_template[141] = {
 		hit_sfx = "",
 		bullet_name = "zidan_cookie",
 		orbit_ui_bound = "",
@@ -3701,8 +5264,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[142] = {
+	}
+	pg.base.equip_skin_template[142] = {
 		hit_sfx = "",
 		bullet_name = "zidan_buding",
 		orbit_ui_bound = "",
@@ -3742,8 +5305,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[143] = {
+	}
+	pg.base.equip_skin_template[143] = {
 		hit_sfx = "",
 		bullet_name = "paodan_benzhong",
 		orbit_ui_bound = "",
@@ -3783,8 +5346,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[144] = {
+	}
+	pg.base.equip_skin_template[144] = {
 		hit_sfx = "",
 		bullet_name = "paodan_huangjialiaoli",
 		orbit_ui_bound = "",
@@ -3824,8 +5387,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[145] = {
+	}
+	pg.base.equip_skin_template[145] = {
 		hit_sfx = "",
 		bullet_name = "paodan_dianhuating",
 		orbit_ui_bound = "",
@@ -3865,8 +5428,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[146] = {
+	}
+	pg.base.equip_skin_template[146] = {
 		hit_sfx = "",
 		bullet_name = "yulei_guaizhang",
 		orbit_ui_bound = "",
@@ -3905,8 +5468,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[147] = {
+	}
+	pg.base.equip_skin_template[147] = {
 		hit_sfx = "",
 		bullet_name = "yulei_yandou",
 		orbit_ui_bound = "",
@@ -3945,8 +5508,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[148] = {
+	}
+	pg.base.equip_skin_template[148] = {
 		hit_sfx = "",
 		bullet_name = "yulei_mingjiu",
 		orbit_ui_bound = "",
@@ -3985,8 +5548,10 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[149] = {
+	}
+end)()
+(function ()
+	pg.base.equip_skin_template[149] = {
 		hit_sfx = "",
 		bullet_name = "feiji_reqiqiu",
 		orbit_ui_bound = "",
@@ -4024,8 +5589,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[150] = {
+	}
+	pg.base.equip_skin_template[150] = {
 		hit_sfx = "",
 		bullet_name = "feiji_reqiqiu",
 		orbit_ui_bound = "",
@@ -4063,8 +5628,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[151] = {
+	}
+	pg.base.equip_skin_template[151] = {
 		hit_sfx = "",
 		bullet_name = "feiji_reqiqiu",
 		orbit_ui_bound = "",
@@ -4102,8 +5667,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[152] = {
+	}
+	pg.base.equip_skin_template[152] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tieta",
 		orbit_ui_bound = "",
@@ -4141,8 +5706,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[153] = {
+	}
+	pg.base.equip_skin_template[153] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tieta",
 		orbit_ui_bound = "",
@@ -4180,8 +5745,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[154] = {
+	}
+	pg.base.equip_skin_template[154] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tieta",
 		orbit_ui_bound = "",
@@ -4219,8 +5784,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[155] = {
+	}
+	pg.base.equip_skin_template[155] = {
 		hit_sfx = "",
 		bullet_name = "feiji_bashi",
 		orbit_ui_bound = "",
@@ -4258,8 +5823,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[156] = {
+	}
+	pg.base.equip_skin_template[156] = {
 		hit_sfx = "",
 		bullet_name = "feiji_bashi",
 		orbit_ui_bound = "",
@@ -4297,8 +5862,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[157] = {
+	}
+	pg.base.equip_skin_template[157] = {
 		hit_sfx = "",
 		bullet_name = "feiji_bashi",
 		orbit_ui_bound = "",
@@ -4336,8 +5901,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[160] = {
+	}
+	pg.base.equip_skin_template[160] = {
 		hit_sfx = "",
 		bullet_name = "zidan_rongyan",
 		orbit_ui_bound = "",
@@ -4377,8 +5942,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[161] = {
+	}
+	pg.base.equip_skin_template[161] = {
 		hit_sfx = "",
 		bullet_name = "zidan_kafeibei",
 		orbit_ui_bound = "",
@@ -4418,8 +5983,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[162] = {
+	}
+	pg.base.equip_skin_template[162] = {
 		hit_sfx = "",
 		bullet_name = "zidan_nailao",
 		orbit_ui_bound = "",
@@ -4459,8 +6024,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[163] = {
+	}
+	pg.base.equip_skin_template[163] = {
 		hit_sfx = "",
 		bullet_name = "paodan_yidalimian",
 		orbit_ui_bound = "",
@@ -4500,8 +6065,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[164] = {
+	}
+	pg.base.equip_skin_template[164] = {
 		hit_sfx = "",
 		bullet_name = "paodan_zuqiu",
 		orbit_ui_bound = "",
@@ -4541,8 +6106,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[165] = {
+	}
+	pg.base.equip_skin_template[165] = {
 		hit_sfx = "",
 		bullet_name = "paodan_pisa",
 		orbit_ui_bound = "",
@@ -4582,8 +6147,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[166] = {
+	}
+	pg.base.equip_skin_template[166] = {
 		hit_sfx = "",
 		bullet_name = "yulei_bingqilin",
 		orbit_ui_bound = "",
@@ -4622,8 +6187,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[167] = {
+	}
+	pg.base.equip_skin_template[167] = {
 		hit_sfx = "",
 		bullet_name = "yulei_hongjiu",
 		orbit_ui_bound = "",
@@ -4662,8 +6227,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[168] = {
+	}
+	pg.base.equip_skin_template[168] = {
 		hit_sfx = "",
 		bullet_name = "yulei_jianbing",
 		orbit_ui_bound = "",
@@ -4702,8 +6267,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[169] = {
+	}
+	pg.base.equip_skin_template[169] = {
 		hit_sfx = "",
 		bullet_name = "feiji_xieta",
 		orbit_ui_bound = "",
@@ -4741,8 +6306,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[170] = {
+	}
+	pg.base.equip_skin_template[170] = {
 		hit_sfx = "",
 		bullet_name = "feiji_xieta",
 		orbit_ui_bound = "",
@@ -4780,8 +6345,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[171] = {
+	}
+	pg.base.equip_skin_template[171] = {
 		hit_sfx = "",
 		bullet_name = "feiji_xieta",
 		orbit_ui_bound = "",
@@ -4819,8 +6384,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[172] = {
+	}
+	pg.base.equip_skin_template[172] = {
 		hit_sfx = "",
 		bullet_name = "feiji_gongduola",
 		orbit_ui_bound = "",
@@ -4858,8 +6423,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[173] = {
+	}
+	pg.base.equip_skin_template[173] = {
 		hit_sfx = "",
 		bullet_name = "feiji_gongduola",
 		orbit_ui_bound = "",
@@ -4897,8 +6462,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[174] = {
+	}
+	pg.base.equip_skin_template[174] = {
 		hit_sfx = "",
 		bullet_name = "feiji_gongduola",
 		orbit_ui_bound = "",
@@ -4936,8 +6501,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[175] = {
+	}
+	pg.base.equip_skin_template[175] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yugang",
 		orbit_ui_bound = "",
@@ -4975,8 +6540,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[176] = {
+	}
+	pg.base.equip_skin_template[176] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yugang",
 		orbit_ui_bound = "",
@@ -5014,8 +6579,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[177] = {
+	}
+	pg.base.equip_skin_template[177] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yugang",
 		orbit_ui_bound = "",
@@ -5053,8 +6618,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[180] = {
+	}
+	pg.base.equip_skin_template[180] = {
 		hit_sfx = "",
 		bullet_name = "zidan_xiangshui",
 		orbit_ui_bound = "",
@@ -5094,8 +6659,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[181] = {
+	}
+	pg.base.equip_skin_template[181] = {
 		hit_sfx = "",
 		bullet_name = "zidan_guangpan",
 		orbit_ui_bound = "",
@@ -5135,8 +6700,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[182] = {
+	}
+	pg.base.equip_skin_template[182] = {
 		hit_sfx = "",
 		bullet_name = "zidan_guashi",
 		orbit_ui_bound = "",
@@ -5176,8 +6741,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[183] = {
+	}
+	pg.base.equip_skin_template[183] = {
 		hit_sfx = "",
 		bullet_name = "paodan_maojin",
 		orbit_ui_bound = "",
@@ -5217,8 +6782,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[184] = {
+	}
+	pg.base.equip_skin_template[184] = {
 		hit_sfx = "",
 		bullet_name = "paodan_woshouquan",
 		orbit_ui_bound = "",
@@ -5258,8 +6823,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[185] = {
+	}
+	pg.base.equip_skin_template[185] = {
 		hit_sfx = "",
 		bullet_name = "paodan_yinxiang",
 		orbit_ui_bound = "",
@@ -5299,8 +6864,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[186] = {
+	}
+	pg.base.equip_skin_template[186] = {
 		hit_sfx = "",
 		bullet_name = "yulei_maikefeng",
 		orbit_ui_bound = "",
@@ -5339,8 +6904,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[187] = {
+	}
+	pg.base.equip_skin_template[187] = {
 		hit_sfx = "",
 		bullet_name = "yulei_shanzi",
 		orbit_ui_bound = "",
@@ -5379,8 +6944,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[188] = {
+	}
+	pg.base.equip_skin_template[188] = {
 		hit_sfx = "",
 		bullet_name = "yulei_menpiao",
 		orbit_ui_bound = "",
@@ -5419,8 +6984,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[189] = {
+	}
+	pg.base.equip_skin_template[189] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yingyuanfeiji",
 		orbit_ui_bound = "",
@@ -5458,8 +7023,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[190] = {
+	}
+	pg.base.equip_skin_template[190] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yingyuanfeiji",
 		orbit_ui_bound = "",
@@ -5497,8 +7062,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[191] = {
+	}
+	pg.base.equip_skin_template[191] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yingyuanfeiji",
 		orbit_ui_bound = "",
@@ -5536,8 +7101,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[192] = {
+	}
+	pg.base.equip_skin_template[192] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yingyuanreqiqiu",
 		orbit_ui_bound = "",
@@ -5575,8 +7140,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[193] = {
+	}
+	pg.base.equip_skin_template[193] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yingyuanreqiqiu",
 		orbit_ui_bound = "",
@@ -5614,8 +7179,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[194] = {
+	}
+	pg.base.equip_skin_template[194] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yingyuanreqiqiu",
 		orbit_ui_bound = "",
@@ -5653,8 +7218,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[195] = {
+	}
+	pg.base.equip_skin_template[195] = {
 		hit_sfx = "",
 		bullet_name = "feiji_idolfeiji",
 		orbit_ui_bound = "",
@@ -5692,8 +7257,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[196] = {
+	}
+	pg.base.equip_skin_template[196] = {
 		hit_sfx = "",
 		bullet_name = "feiji_idolfeiji",
 		orbit_ui_bound = "",
@@ -5731,8 +7296,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[197] = {
+	}
+	pg.base.equip_skin_template[197] = {
 		hit_sfx = "",
 		bullet_name = "feiji_idolfeiji",
 		orbit_ui_bound = "",
@@ -5770,8 +7335,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[200] = {
+	}
+	pg.base.equip_skin_template[200] = {
 		hit_sfx = "",
 		bullet_name = "zidan_hulizidan",
 		orbit_ui_bound = "",
@@ -5811,8 +7376,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[201] = {
+	}
+	pg.base.equip_skin_template[201] = {
 		hit_sfx = "",
 		bullet_name = "zidan_qianliyan",
 		orbit_ui_bound = "",
@@ -5852,8 +7417,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[202] = {
+	}
+	pg.base.equip_skin_template[202] = {
 		hit_sfx = "",
 		bullet_name = "zidan_shishen",
 		orbit_ui_bound = "",
@@ -5893,8 +7458,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[203] = {
+	}
+	pg.base.equip_skin_template[203] = {
 		hit_sfx = "",
 		bullet_name = "paodan_aqua",
 		orbit_ui_bound = "",
@@ -5934,8 +7499,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[204] = {
+	}
+	pg.base.equip_skin_template[204] = {
 		hit_sfx = "",
 		bullet_name = "paodan_zhaxiashi",
 		orbit_ui_bound = "",
@@ -5975,8 +7540,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[205] = {
+	}
+	pg.base.equip_skin_template[205] = {
 		hit_sfx = "",
 		bullet_name = "paodan_chuixueque",
 		orbit_ui_bound = "",
@@ -6016,8 +7581,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[206] = {
+	}
+	pg.base.equip_skin_template[206] = {
 		hit_sfx = "",
 		bullet_name = "yulei_holomaikefeng",
 		orbit_ui_bound = "",
@@ -6056,8 +7621,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[207] = {
+	}
+	pg.base.equip_skin_template[207] = {
 		hit_sfx = "",
 		bullet_name = "yulei_yumi",
 		orbit_ui_bound = "",
@@ -6096,8 +7661,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[208] = {
+	}
+	pg.base.equip_skin_template[208] = {
 		hit_sfx = "",
 		bullet_name = "yulei_holoyulei",
 		orbit_ui_bound = "",
@@ -6136,8 +7701,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[209] = {
+	}
+	pg.base.equip_skin_template[209] = {
 		hit_sfx = "",
 		bullet_name = "feiji_hulifeiji",
 		orbit_ui_bound = "",
@@ -6175,8 +7740,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[210] = {
+	}
+	pg.base.equip_skin_template[210] = {
 		hit_sfx = "",
 		bullet_name = "feiji_hulifeiji",
 		orbit_ui_bound = "",
@@ -6214,8 +7779,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[211] = {
+	}
+	pg.base.equip_skin_template[211] = {
 		hit_sfx = "",
 		bullet_name = "feiji_hulifeiji",
 		orbit_ui_bound = "",
@@ -6253,8 +7818,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[212] = {
+	}
+	pg.base.equip_skin_template[212] = {
 		hit_sfx = "",
 		bullet_name = "feiji_vtuber2",
 		orbit_ui_bound = "",
@@ -6292,8 +7857,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[213] = {
+	}
+	pg.base.equip_skin_template[213] = {
 		hit_sfx = "",
 		bullet_name = "feiji_vtuber2",
 		orbit_ui_bound = "",
@@ -6331,8 +7896,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[214] = {
+	}
+	pg.base.equip_skin_template[214] = {
 		hit_sfx = "",
 		bullet_name = "feiji_vtuber2",
 		orbit_ui_bound = "",
@@ -6370,8 +7935,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[215] = {
+	}
+	pg.base.equip_skin_template[215] = {
 		hit_sfx = "",
 		bullet_name = "feiji_vtuber1",
 		orbit_ui_bound = "",
@@ -6409,8 +7974,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[216] = {
+	}
+	pg.base.equip_skin_template[216] = {
 		hit_sfx = "",
 		bullet_name = "feiji_vtuber1",
 		orbit_ui_bound = "",
@@ -6448,8 +8013,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[217] = {
+	}
+	pg.base.equip_skin_template[217] = {
 		hit_sfx = "",
 		bullet_name = "feiji_vtuber1",
 		orbit_ui_bound = "",
@@ -6487,8 +8052,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[220] = {
+	}
+	pg.base.equip_skin_template[220] = {
 		hit_sfx = "",
 		bullet_name = "zidan_shoukao",
 		orbit_ui_bound = "",
@@ -6528,8 +8093,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[221] = {
+	}
+	pg.base.equip_skin_template[221] = {
 		hit_sfx = "",
 		bullet_name = "zidan_tieqiu",
 		orbit_ui_bound = "",
@@ -6569,8 +8134,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[222] = {
+	}
+	pg.base.equip_skin_template[222] = {
 		hit_sfx = "",
 		bullet_name = "zidan_bingkuai",
 		orbit_ui_bound = "",
@@ -6610,8 +8175,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[223] = {
+	}
+	pg.base.equip_skin_template[223] = {
 		hit_sfx = "",
 		bullet_name = "paodan_chuizi",
 		orbit_ui_bound = "",
@@ -6651,8 +8216,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[224] = {
+	}
+	pg.base.equip_skin_template[224] = {
 		hit_sfx = "",
 		bullet_name = "paodan_liandao",
 		orbit_ui_bound = "",
@@ -6692,8 +8257,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[225] = {
+	}
+	pg.base.equip_skin_template[225] = {
 		hit_sfx = "",
 		bullet_name = "paodan_kongjianzhan",
 		orbit_ui_bound = "",
@@ -6733,8 +8298,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[226] = {
+	}
+	pg.base.equip_skin_template[226] = {
 		hit_sfx = "",
 		bullet_name = "yulei_futejia",
 		orbit_ui_bound = "",
@@ -6773,8 +8338,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[227] = {
+	}
+	pg.base.equip_skin_template[227] = {
 		hit_sfx = "",
 		bullet_name = "yulei_dongyumi",
 		orbit_ui_bound = "",
@@ -6813,8 +8378,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[228] = {
+	}
+	pg.base.equip_skin_template[228] = {
 		hit_sfx = "",
 		bullet_name = "yulei_dongtudou",
 		orbit_ui_bound = "",
@@ -6853,8 +8418,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[229] = {
+	}
+	pg.base.equip_skin_template[229] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yujing",
 		orbit_ui_bound = "",
@@ -6892,8 +8457,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[230] = {
+	}
+	pg.base.equip_skin_template[230] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yujing",
 		orbit_ui_bound = "",
@@ -6931,8 +8496,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[231] = {
+	}
+	pg.base.equip_skin_template[231] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yujing",
 		orbit_ui_bound = "",
@@ -6970,8 +8535,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[232] = {
+	}
+	pg.base.equip_skin_template[232] = {
 		hit_sfx = "",
 		bullet_name = "feiji_taoyu",
 		orbit_ui_bound = "",
@@ -7009,8 +8574,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[233] = {
+	}
+	pg.base.equip_skin_template[233] = {
 		hit_sfx = "",
 		bullet_name = "feiji_taoyu",
 		orbit_ui_bound = "",
@@ -7048,8 +8613,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[234] = {
+	}
+	pg.base.equip_skin_template[234] = {
 		hit_sfx = "",
 		bullet_name = "feiji_taoyu",
 		orbit_ui_bound = "",
@@ -7087,8 +8652,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[235] = {
+	}
+	pg.base.equip_skin_template[235] = {
 		hit_sfx = "",
 		bullet_name = "feiji_maoxiong",
 		orbit_ui_bound = "",
@@ -7126,8 +8691,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[236] = {
+	}
+	pg.base.equip_skin_template[236] = {
 		hit_sfx = "",
 		bullet_name = "feiji_maoxiong",
 		orbit_ui_bound = "",
@@ -7165,8 +8730,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[237] = {
+	}
+	pg.base.equip_skin_template[237] = {
 		hit_sfx = "",
 		bullet_name = "feiji_maoxiong",
 		orbit_ui_bound = "",
@@ -7204,8 +8769,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[240] = {
+	}
+	pg.base.equip_skin_template[240] = {
 		hit_sfx = "",
 		bullet_name = "zidan_ganlanqiu",
 		orbit_ui_bound = "",
@@ -7245,8 +8810,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[241] = {
+	}
+	pg.base.equip_skin_template[241] = {
 		hit_sfx = "",
 		bullet_name = "zidan_bangqiu",
 		orbit_ui_bound = "",
@@ -7286,8 +8851,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[242] = {
+	}
+	pg.base.equip_skin_template[242] = {
 		hit_sfx = "",
 		bullet_name = "zidan_lanqiu",
 		orbit_ui_bound = "",
@@ -7327,8 +8892,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[243] = {
+	}
+	pg.base.equip_skin_template[243] = {
 		hit_sfx = "",
 		bullet_name = "paodan_hanbao",
 		orbit_ui_bound = "",
@@ -7368,8 +8933,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[244] = {
+	}
+	pg.base.equip_skin_template[244] = {
 		hit_sfx = "",
 		bullet_name = "paodan_zhaji",
 		orbit_ui_bound = "",
@@ -7409,8 +8974,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[245] = {
+	}
+	pg.base.equip_skin_template[245] = {
 		hit_sfx = "",
 		bullet_name = "paodan_kele",
 		orbit_ui_bound = "",
@@ -7450,8 +9015,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[246] = {
+	}
+	pg.base.equip_skin_template[246] = {
 		hit_sfx = "",
 		bullet_name = "yulei_huoju",
 		orbit_ui_bound = "",
@@ -7490,8 +9055,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[247] = {
+	}
+	pg.base.equip_skin_template[247] = {
 		hit_sfx = "",
 		bullet_name = "yulei_aosika",
 		orbit_ui_bound = "",
@@ -7530,8 +9095,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[248] = {
+	}
+	pg.base.equip_skin_template[248] = {
 		hit_sfx = "",
 		bullet_name = "yulei_jiutong",
 		orbit_ui_bound = "",
@@ -7570,8 +9135,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[249] = {
+	}
+	pg.base.equip_skin_template[249] = {
 		hit_sfx = "",
 		bullet_name = "feiji_eagle",
 		orbit_ui_bound = "",
@@ -7609,8 +9174,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[250] = {
+	}
+	pg.base.equip_skin_template[250] = {
 		hit_sfx = "",
 		bullet_name = "feiji_eagle",
 		orbit_ui_bound = "",
@@ -7648,8 +9213,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[251] = {
+	}
+	pg.base.equip_skin_template[251] = {
 		hit_sfx = "",
 		bullet_name = "feiji_eagle",
 		orbit_ui_bound = "",
@@ -7687,8 +9252,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[252] = {
+	}
+	pg.base.equip_skin_template[252] = {
 		hit_sfx = "",
 		bullet_name = "feiji_cowboy",
 		orbit_ui_bound = "",
@@ -7726,8 +9291,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[253] = {
+	}
+	pg.base.equip_skin_template[253] = {
 		hit_sfx = "",
 		bullet_name = "feiji_cowboy",
 		orbit_ui_bound = "",
@@ -7765,8 +9330,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[254] = {
+	}
+	pg.base.equip_skin_template[254] = {
 		hit_sfx = "",
 		bullet_name = "feiji_cowboy",
 		orbit_ui_bound = "",
@@ -7804,8 +9369,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[255] = {
+	}
+	pg.base.equip_skin_template[255] = {
 		hit_sfx = "",
 		bullet_name = "feiji_super",
 		orbit_ui_bound = "",
@@ -7843,8 +9408,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[256] = {
+	}
+	pg.base.equip_skin_template[256] = {
 		hit_sfx = "",
 		bullet_name = "feiji_super",
 		orbit_ui_bound = "",
@@ -7882,8 +9447,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[257] = {
+	}
+	pg.base.equip_skin_template[257] = {
 		hit_sfx = "",
 		bullet_name = "feiji_super",
 		orbit_ui_bound = "",
@@ -7921,8 +9486,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[260] = {
+	}
+	pg.base.equip_skin_template[260] = {
 		hit_sfx = "",
 		bullet_name = "zidan_makalong",
 		orbit_ui_bound = "",
@@ -7962,8 +9527,10 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[261] = {
+	}
+end)()
+(function ()
+	pg.base.equip_skin_template[261] = {
 		hit_sfx = "",
 		bullet_name = "zidan_gunqiu",
 		orbit_ui_bound = "",
@@ -8003,8 +9570,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[262] = {
+	}
+	pg.base.equip_skin_template[262] = {
 		hit_sfx = "",
 		bullet_name = "zidan_zhenzhu",
 		orbit_ui_bound = "",
@@ -8044,8 +9611,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[263] = {
+	}
+	pg.base.equip_skin_template[263] = {
 		hit_sfx = "",
 		bullet_name = "paodan_wangqiupai",
 		orbit_ui_bound = "",
@@ -8085,8 +9652,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[264] = {
+	}
+	pg.base.equip_skin_template[264] = {
 		hit_sfx = "",
 		bullet_name = "paodan_minghua",
 		orbit_ui_bound = "",
@@ -8126,8 +9693,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[265] = {
+	}
+	pg.base.equip_skin_template[265] = {
 		hit_sfx = "",
 		bullet_name = "paodan_xiangbin",
 		orbit_ui_bound = "",
@@ -8167,8 +9734,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[266] = {
+	}
+	pg.base.equip_skin_template[266] = {
 		hit_sfx = "",
 		bullet_name = "yulei_fagun",
 		orbit_ui_bound = "",
@@ -8207,8 +9774,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[267] = {
+	}
+	pg.base.equip_skin_template[267] = {
 		hit_sfx = "",
 		bullet_name = "yulei_xiangshui",
 		orbit_ui_bound = "",
@@ -8247,8 +9814,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[268] = {
+	}
+	pg.base.equip_skin_template[268] = {
 		hit_sfx = "",
 		bullet_name = "yulei_xunyicao",
 		orbit_ui_bound = "",
@@ -8287,8 +9854,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[269] = {
+	}
+	pg.base.equip_skin_template[269] = {
 		hit_sfx = "",
 		bullet_name = "feiji_zixingche",
 		orbit_ui_bound = "",
@@ -8326,8 +9893,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[270] = {
+	}
+	pg.base.equip_skin_template[270] = {
 		hit_sfx = "",
 		bullet_name = "feiji_zixingche",
 		orbit_ui_bound = "",
@@ -8365,8 +9932,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[271] = {
+	}
+	pg.base.equip_skin_template[271] = {
 		hit_sfx = "",
 		bullet_name = "feiji_zixingche",
 		orbit_ui_bound = "",
@@ -8404,8 +9971,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[272] = {
+	}
+	pg.base.equip_skin_template[272] = {
 		hit_sfx = "",
 		bullet_name = "feiji_lufugong",
 		orbit_ui_bound = "",
@@ -8443,8 +10010,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[273] = {
+	}
+	pg.base.equip_skin_template[273] = {
 		hit_sfx = "",
 		bullet_name = "feiji_lufugong",
 		orbit_ui_bound = "",
@@ -8482,8 +10049,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[274] = {
+	}
+	pg.base.equip_skin_template[274] = {
 		hit_sfx = "",
 		bullet_name = "feiji_lufugong",
 		orbit_ui_bound = "",
@@ -8521,8 +10088,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[275] = {
+	}
+	pg.base.equip_skin_template[275] = {
 		hit_sfx = "",
 		bullet_name = "feiji_3rd",
 		orbit_ui_bound = "",
@@ -8560,8 +10127,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[276] = {
+	}
+	pg.base.equip_skin_template[276] = {
 		hit_sfx = "",
 		bullet_name = "feiji_3rd",
 		orbit_ui_bound = "",
@@ -8599,8 +10166,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[277] = {
+	}
+	pg.base.equip_skin_template[277] = {
 		hit_sfx = "",
 		bullet_name = "feiji_3rd",
 		orbit_ui_bound = "",
@@ -8638,8 +10205,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[280] = {
+	}
+	pg.base.equip_skin_template[280] = {
 		hit_sfx = "",
 		bullet_name = "zidan_luoye",
 		orbit_ui_bound = "",
@@ -8679,8 +10246,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[281] = {
+	}
+	pg.base.equip_skin_template[281] = {
 		hit_sfx = "",
 		bullet_name = "zidan_weic",
 		orbit_ui_bound = "",
@@ -8720,8 +10287,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[282] = {
+	}
+	pg.base.equip_skin_template[282] = {
 		hit_sfx = "",
 		bullet_name = "zidan_bengdai",
 		orbit_ui_bound = "",
@@ -8761,8 +10328,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[283] = {
+	}
+	pg.base.equip_skin_template[283] = {
 		hit_sfx = "",
 		bullet_name = "paodan_shigao",
 		orbit_ui_bound = "",
@@ -8802,8 +10369,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[284] = {
+	}
+	pg.base.equip_skin_template[284] = {
 		hit_sfx = "",
 		bullet_name = "paodan_yangqiping",
 		orbit_ui_bound = "",
@@ -8843,8 +10410,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[285] = {
+	}
+	pg.base.equip_skin_template[285] = {
 		hit_sfx = "",
 		bullet_name = "paodan_feidao",
 		orbit_ui_bound = "",
@@ -8884,8 +10451,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[286] = {
+	}
+	pg.base.equip_skin_template[286] = {
 		hit_sfx = "",
 		bullet_name = "yulei_zhentong",
 		orbit_ui_bound = "",
@@ -8924,8 +10491,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[287] = {
+	}
+	pg.base.equip_skin_template[287] = {
 		hit_sfx = "",
 		bullet_name = "yulei_jiaonang",
 		orbit_ui_bound = "",
@@ -8964,8 +10531,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[288] = {
+	}
+	pg.base.equip_skin_template[288] = {
 		hit_sfx = "",
 		bullet_name = "yulei_shiguan",
 		orbit_ui_bound = "",
@@ -9004,8 +10571,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[289] = {
+	}
+	pg.base.equip_skin_template[289] = {
 		hit_sfx = "",
 		bullet_name = "feiji_lunyijiu",
 		orbit_ui_bound = "",
@@ -9043,8 +10610,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[290] = {
+	}
+	pg.base.equip_skin_template[290] = {
 		hit_sfx = "",
 		bullet_name = "feiji_lunyijiu",
 		orbit_ui_bound = "",
@@ -9082,8 +10649,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[291] = {
+	}
+	pg.base.equip_skin_template[291] = {
 		hit_sfx = "",
 		bullet_name = "feiji_lunyijiu",
 		orbit_ui_bound = "",
@@ -9121,8 +10688,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[292] = {
+	}
+	pg.base.equip_skin_template[292] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tianshijiu",
 		orbit_ui_bound = "",
@@ -9160,8 +10727,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[293] = {
+	}
+	pg.base.equip_skin_template[293] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tianshijiu",
 		orbit_ui_bound = "",
@@ -9199,8 +10766,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[294] = {
+	}
+	pg.base.equip_skin_template[294] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tianshijiu",
 		orbit_ui_bound = "",
@@ -9238,8 +10805,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[295] = {
+	}
+	pg.base.equip_skin_template[295] = {
 		hit_sfx = "",
 		bullet_name = "feiji_feitianjiuyuanche",
 		orbit_ui_bound = "",
@@ -9277,8 +10844,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[296] = {
+	}
+	pg.base.equip_skin_template[296] = {
 		hit_sfx = "",
 		bullet_name = "feiji_feitianjiuyuanche",
 		orbit_ui_bound = "",
@@ -9316,8 +10883,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[297] = {
+	}
+	pg.base.equip_skin_template[297] = {
 		hit_sfx = "",
 		bullet_name = "feiji_feitianjiuyuanche",
 		orbit_ui_bound = "",
@@ -9355,8 +10922,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[300] = {
+	}
+	pg.base.equip_skin_template[300] = {
 		hit_sfx = "",
 		bullet_name = "zidan_shousi",
 		orbit_ui_bound = "",
@@ -9396,8 +10963,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[301] = {
+	}
+	pg.base.equip_skin_template[301] = {
 		hit_sfx = "",
 		bullet_name = "zidan_jiangqi",
 		orbit_ui_bound = "",
@@ -9437,8 +11004,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[302] = {
+	}
+	pg.base.equip_skin_template[302] = {
 		hit_sfx = "",
 		bullet_name = "zidan_dafu",
 		orbit_ui_bound = "",
@@ -9478,8 +11045,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[303] = {
+	}
+	pg.base.equip_skin_template[303] = {
 		hit_sfx = "",
 		bullet_name = "paodan_damojiu",
 		orbit_ui_bound = "",
@@ -9519,8 +11086,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[304] = {
+	}
+	pg.base.equip_skin_template[304] = {
 		hit_sfx = "",
 		bullet_name = "paodan_denglong",
 		orbit_ui_bound = "",
@@ -9560,8 +11127,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[305] = {
+	}
+	pg.base.equip_skin_template[305] = {
 		hit_sfx = "",
 		bullet_name = "paodan_tangsan",
 		orbit_ui_bound = "",
@@ -9601,8 +11168,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[306] = {
+	}
+	pg.base.equip_skin_template[306] = {
 		hit_sfx = "",
 		bullet_name = "yulei_qingjiu",
 		orbit_ui_bound = "",
@@ -9641,8 +11208,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[307] = {
+	}
+	pg.base.equip_skin_template[307] = {
 		hit_sfx = "",
 		bullet_name = "yulei_shuishao",
 		orbit_ui_bound = "",
@@ -9681,8 +11248,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[308] = {
+	}
+	pg.base.equip_skin_template[308] = {
 		hit_sfx = "",
 		bullet_name = "yulei_wushidao",
 		orbit_ui_bound = "",
@@ -9721,8 +11288,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[309] = {
+	}
+	pg.base.equip_skin_template[309] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tiangoujuu",
 		orbit_ui_bound = "",
@@ -9760,8 +11327,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[310] = {
+	}
+	pg.base.equip_skin_template[310] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tiangoujuu",
 		orbit_ui_bound = "",
@@ -9799,8 +11366,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[311] = {
+	}
+	pg.base.equip_skin_template[311] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tiangoujuu",
 		orbit_ui_bound = "",
@@ -9838,8 +11405,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[312] = {
+	}
+	pg.base.equip_skin_template[312] = {
 		hit_sfx = "",
 		bullet_name = "feiji_bailu",
 		orbit_ui_bound = "",
@@ -9877,8 +11444,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[313] = {
+	}
+	pg.base.equip_skin_template[313] = {
 		hit_sfx = "",
 		bullet_name = "feiji_bailu",
 		orbit_ui_bound = "",
@@ -9916,8 +11483,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[314] = {
+	}
+	pg.base.equip_skin_template[314] = {
 		hit_sfx = "",
 		bullet_name = "feiji_bailu",
 		orbit_ui_bound = "",
@@ -9955,8 +11522,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[315] = {
+	}
+	pg.base.equip_skin_template[315] = {
 		hit_sfx = "",
 		bullet_name = "feiji_shenjiaojiu",
 		orbit_ui_bound = "",
@@ -9994,8 +11561,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[316] = {
+	}
+	pg.base.equip_skin_template[316] = {
 		hit_sfx = "",
 		bullet_name = "feiji_shenjiaojiu",
 		orbit_ui_bound = "",
@@ -10033,8 +11600,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[317] = {
+	}
+	pg.base.equip_skin_template[317] = {
 		hit_sfx = "",
 		bullet_name = "feiji_shenjiaojiu",
 		orbit_ui_bound = "",
@@ -10072,8 +11639,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[320] = {
+	}
+	pg.base.equip_skin_template[320] = {
 		hit_sfx = "",
 		bullet_name = "zidan_xingzi",
 		orbit_ui_bound = "",
@@ -10113,8 +11680,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[321] = {
+	}
+	pg.base.equip_skin_template[321] = {
 		hit_sfx = "",
 		bullet_name = "zidan_xinglan",
 		orbit_ui_bound = "",
@@ -10154,8 +11721,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[322] = {
+	}
+	pg.base.equip_skin_template[322] = {
 		hit_sfx = "",
 		bullet_name = "zidan_xingbai",
 		orbit_ui_bound = "",
@@ -10195,8 +11762,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[323] = {
+	}
+	pg.base.equip_skin_template[323] = {
 		hit_sfx = "",
 		bullet_name = "paodan_xingyun",
 		orbit_ui_bound = "",
@@ -10236,8 +11803,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[324] = {
+	}
+	pg.base.equip_skin_template[324] = {
 		hit_sfx = "",
 		bullet_name = "paodan_love",
 		orbit_ui_bound = "",
@@ -10277,8 +11844,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[325] = {
+	}
+	pg.base.equip_skin_template[325] = {
 		hit_sfx = "",
 		bullet_name = "paodan_liuxing",
 		orbit_ui_bound = "",
@@ -10318,8 +11885,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[326] = {
+	}
+	pg.base.equip_skin_template[326] = {
 		hit_sfx = "",
 		bullet_name = "yulei_hangtian",
 		orbit_ui_bound = "",
@@ -10358,8 +11925,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[327] = {
+	}
+	pg.base.equip_skin_template[327] = {
 		hit_sfx = "",
 		bullet_name = "yulei_huojian",
 		orbit_ui_bound = "",
@@ -10398,8 +11965,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[328] = {
+	}
+	pg.base.equip_skin_template[328] = {
 		hit_sfx = "",
 		bullet_name = "yulei_weixing",
 		orbit_ui_bound = "",
@@ -10438,8 +12005,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[329] = {
+	}
+	pg.base.equip_skin_template[329] = {
 		hit_sfx = "",
 		bullet_name = "feiji_hangkongwutai",
 		orbit_ui_bound = "",
@@ -10477,8 +12044,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[330] = {
+	}
+	pg.base.equip_skin_template[330] = {
 		hit_sfx = "",
 		bullet_name = "feiji_hangkongwutai",
 		orbit_ui_bound = "",
@@ -10516,8 +12083,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[331] = {
+	}
+	pg.base.equip_skin_template[331] = {
 		hit_sfx = "",
 		bullet_name = "feiji_hangkongwutai",
 		orbit_ui_bound = "",
@@ -10555,8 +12122,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[332] = {
+	}
+	pg.base.equip_skin_template[332] = {
 		hit_sfx = "",
 		bullet_name = "feiji_weixingbanwu",
 		orbit_ui_bound = "",
@@ -10594,8 +12161,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[333] = {
+	}
+	pg.base.equip_skin_template[333] = {
 		hit_sfx = "",
 		bullet_name = "feiji_weixingbanwu",
 		orbit_ui_bound = "",
@@ -10633,8 +12200,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[334] = {
+	}
+	pg.base.equip_skin_template[334] = {
 		hit_sfx = "",
 		bullet_name = "feiji_weixingbanwu",
 		orbit_ui_bound = "",
@@ -10672,8 +12239,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[335] = {
+	}
+	pg.base.equip_skin_template[335] = {
 		hit_sfx = "",
 		bullet_name = "feiji_shenshengtianshi",
 		orbit_ui_bound = "",
@@ -10711,8 +12278,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[336] = {
+	}
+	pg.base.equip_skin_template[336] = {
 		hit_sfx = "",
 		bullet_name = "feiji_shenshengtianshi",
 		orbit_ui_bound = "",
@@ -10750,8 +12317,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[337] = {
+	}
+	pg.base.equip_skin_template[337] = {
 		hit_sfx = "",
 		bullet_name = "feiji_shenshengtianshi",
 		orbit_ui_bound = "",
@@ -10789,8 +12356,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[340] = {
+	}
+	pg.base.equip_skin_template[340] = {
 		hit_sfx = "",
 		bullet_name = "zidan_baoshi",
 		orbit_ui_bound = "",
@@ -10830,8 +12397,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[341] = {
+	}
+	pg.base.equip_skin_template[341] = {
 		hit_sfx = "",
 		bullet_name = "zidan_yumao",
 		orbit_ui_bound = "",
@@ -10871,8 +12438,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[342] = {
+	}
+	pg.base.equip_skin_template[342] = {
 		hit_sfx = "",
 		bullet_name = "zidan_puke",
 		orbit_ui_bound = "",
@@ -10912,8 +12479,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[343] = {
+	}
+	pg.base.equip_skin_template[343] = {
 		hit_sfx = "",
 		bullet_name = "paodan_gaojihamigua",
 		orbit_ui_bound = "",
@@ -10953,8 +12520,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[344] = {
+	}
+	pg.base.equip_skin_template[344] = {
 		hit_sfx = "",
 		bullet_name = "paodan_duozhitaozi",
 		orbit_ui_bound = "",
@@ -10994,8 +12561,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[345] = {
+	}
+	pg.base.equip_skin_template[345] = {
 		hit_sfx = "",
 		bullet_name = "paodan_jingjixigua",
 		orbit_ui_bound = "",
@@ -11035,8 +12602,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[346] = {
+	}
+	pg.base.equip_skin_template[346] = {
 		hit_sfx = "",
 		bullet_name = "yulei_shachui",
 		orbit_ui_bound = "",
@@ -11075,8 +12642,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[347] = {
+	}
+	pg.base.equip_skin_template[347] = {
 		hit_sfx = "",
 		bullet_name = "yulei_yinliao",
 		orbit_ui_bound = "",
@@ -11115,8 +12682,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[348] = {
+	}
+	pg.base.equip_skin_template[348] = {
 		hit_sfx = "",
 		bullet_name = "yulei_yezishu",
 		orbit_ui_bound = "",
@@ -11155,8 +12722,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[349] = {
+	}
+	pg.base.equip_skin_template[349] = {
 		hit_sfx = "",
 		bullet_name = "feiji_dujiajiu",
 		orbit_ui_bound = "",
@@ -11194,8 +12761,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[350] = {
+	}
+	pg.base.equip_skin_template[350] = {
 		hit_sfx = "",
 		bullet_name = "feiji_dujiajiu",
 		orbit_ui_bound = "",
@@ -11233,8 +12800,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[351] = {
+	}
+	pg.base.equip_skin_template[351] = {
 		hit_sfx = "",
 		bullet_name = "feiji_dujiajiu",
 		orbit_ui_bound = "",
@@ -11272,8 +12839,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[352] = {
+	}
+	pg.base.equip_skin_template[352] = {
 		hit_sfx = "",
 		bullet_name = "feiji_shapaijiu",
 		orbit_ui_bound = "",
@@ -11311,8 +12878,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[353] = {
+	}
+	pg.base.equip_skin_template[353] = {
 		hit_sfx = "",
 		bullet_name = "feiji_shapaijiu",
 		orbit_ui_bound = "",
@@ -11350,8 +12917,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[354] = {
+	}
+	pg.base.equip_skin_template[354] = {
 		hit_sfx = "",
 		bullet_name = "feiji_shapaijiu",
 		orbit_ui_bound = "",
@@ -11389,8 +12956,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[355] = {
+	}
+	pg.base.equip_skin_template[355] = {
 		hit_sfx = "",
 		bullet_name = "feiji_doa",
 		orbit_ui_bound = "",
@@ -11428,8 +12995,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[356] = {
+	}
+	pg.base.equip_skin_template[356] = {
 		hit_sfx = "",
 		bullet_name = "feiji_doa",
 		orbit_ui_bound = "",
@@ -11467,8 +13034,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[357] = {
+	}
+	pg.base.equip_skin_template[357] = {
 		hit_sfx = "",
 		bullet_name = "feiji_doa",
 		orbit_ui_bound = "",
@@ -11506,8 +13073,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[360] = {
+	}
+	pg.base.equip_skin_template[360] = {
 		hit_sfx = "",
 		bullet_name = "zidan_luomu",
 		orbit_ui_bound = "",
@@ -11547,8 +13114,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[361] = {
+	}
+	pg.base.equip_skin_template[361] = {
 		hit_sfx = "",
 		bullet_name = "zidan_yinxiang",
 		orbit_ui_bound = "",
@@ -11588,8 +13155,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[362] = {
+	}
+	pg.base.equip_skin_template[362] = {
 		hit_sfx = "",
 		bullet_name = "zidan_hupo",
 		orbit_ui_bound = "",
@@ -11629,8 +13196,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[363] = {
+	}
+	pg.base.equip_skin_template[363] = {
 		hit_sfx = "",
 		bullet_name = "paodan_heisenlin",
 		orbit_ui_bound = "",
@@ -11670,8 +13237,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[364] = {
+	}
+	pg.base.equip_skin_template[364] = {
 		hit_sfx = "",
 		bullet_name = "paodan_shicheju",
 		orbit_ui_bound = "",
@@ -11711,8 +13278,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[365] = {
+	}
+	pg.base.equip_skin_template[365] = {
 		hit_sfx = "",
 		bullet_name = "paodan_baiguan",
 		orbit_ui_bound = "",
@@ -11752,8 +13319,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[366] = {
+	}
+	pg.base.equip_skin_template[366] = {
 		hit_sfx = "",
 		bullet_name = "yulei_xiangchang",
 		orbit_ui_bound = "",
@@ -11792,8 +13359,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[367] = {
+	}
+	pg.base.equip_skin_template[367] = {
 		hit_sfx = "",
 		bullet_name = "yulei_zhushou",
 		orbit_ui_bound = "",
@@ -11832,8 +13399,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[368] = {
+	}
+	pg.base.equip_skin_template[368] = {
 		hit_sfx = "",
 		bullet_name = "yulei_pijiu",
 		orbit_ui_bound = "",
@@ -11872,8 +13439,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[369] = {
+	}
+	pg.base.equip_skin_template[369] = {
 		hit_sfx = "",
 		bullet_name = "feiji_feiting",
 		orbit_ui_bound = "",
@@ -11911,8 +13478,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[370] = {
+	}
+	pg.base.equip_skin_template[370] = {
 		hit_sfx = "",
 		bullet_name = "feiji_feiting",
 		orbit_ui_bound = "",
@@ -11950,8 +13517,10 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[371] = {
+	}
+end)()
+(function ()
+	pg.base.equip_skin_template[371] = {
 		hit_sfx = "",
 		bullet_name = "feiji_feiting",
 		orbit_ui_bound = "",
@@ -11989,8 +13558,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[372] = {
+	}
+	pg.base.equip_skin_template[372] = {
 		hit_sfx = "",
 		bullet_name = "feiji_feitianqiche",
 		orbit_ui_bound = "",
@@ -12028,8 +13597,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[373] = {
+	}
+	pg.base.equip_skin_template[373] = {
 		hit_sfx = "",
 		bullet_name = "feiji_feitianqiche",
 		orbit_ui_bound = "",
@@ -12067,8 +13636,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[374] = {
+	}
+	pg.base.equip_skin_template[374] = {
 		hit_sfx = "",
 		bullet_name = "feiji_feitianqiche",
 		orbit_ui_bound = "",
@@ -12106,8 +13675,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[375] = {
+	}
+	pg.base.equip_skin_template[375] = {
 		hit_sfx = "",
 		bullet_name = "feiji_menghuangubao",
 		orbit_ui_bound = "",
@@ -12145,8 +13714,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[376] = {
+	}
+	pg.base.equip_skin_template[376] = {
 		hit_sfx = "",
 		bullet_name = "feiji_menghuangubao",
 		orbit_ui_bound = "",
@@ -12184,8 +13753,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[377] = {
+	}
+	pg.base.equip_skin_template[377] = {
 		hit_sfx = "",
 		bullet_name = "feiji_menghuangubao",
 		orbit_ui_bound = "",
@@ -12223,8 +13792,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[380] = {
+	}
+	pg.base.equip_skin_template[380] = {
 		hit_sfx = "",
 		bullet_name = "zidan_lajiao",
 		orbit_ui_bound = "",
@@ -12264,8 +13833,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[381] = {
+	}
+	pg.base.equip_skin_template[381] = {
 		hit_sfx = "",
 		bullet_name = "zidan_chuanghua",
 		orbit_ui_bound = "",
@@ -12305,8 +13874,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[382] = {
+	}
+	pg.base.equip_skin_template[382] = {
 		hit_sfx = "",
 		bullet_name = "zidan_chunlian",
 		orbit_ui_bound = "",
@@ -12346,8 +13915,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[383] = {
+	}
+	pg.base.equip_skin_template[383] = {
 		hit_sfx = "",
 		bullet_name = "paodan_jiaozi",
 		orbit_ui_bound = "",
@@ -12387,8 +13956,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[384] = {
+	}
+	pg.base.equip_skin_template[384] = {
 		hit_sfx = "",
 		bullet_name = "paodan_tangyuan",
 		orbit_ui_bound = "",
@@ -12428,8 +13997,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[385] = {
+	}
+	pg.base.equip_skin_template[385] = {
 		hit_sfx = "",
 		bullet_name = "paodan_niangao",
 		orbit_ui_bound = "",
@@ -12469,8 +14038,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[386] = {
+	}
+	pg.base.equip_skin_template[386] = {
 		hit_sfx = "",
 		bullet_name = "yulei_tanghulu",
 		orbit_ui_bound = "",
@@ -12509,8 +14078,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[387] = {
+	}
+	pg.base.equip_skin_template[387] = {
 		hit_sfx = "",
 		bullet_name = "yulei_zaotang",
 		orbit_ui_bound = "",
@@ -12549,8 +14118,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[388] = {
+	}
+	pg.base.equip_skin_template[388] = {
 		hit_sfx = "",
 		bullet_name = "yulei_chunjuan",
 		orbit_ui_bound = "",
@@ -12589,8 +14158,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[389] = {
+	}
+	pg.base.equip_skin_template[389] = {
 		hit_sfx = "",
 		bullet_name = "feiji_wushi",
 		orbit_ui_bound = "",
@@ -12628,8 +14197,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[390] = {
+	}
+	pg.base.equip_skin_template[390] = {
 		hit_sfx = "",
 		bullet_name = "feiji_wushi",
 		orbit_ui_bound = "",
@@ -12667,8 +14236,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[391] = {
+	}
+	pg.base.equip_skin_template[391] = {
 		hit_sfx = "",
 		bullet_name = "feiji_wushi",
 		orbit_ui_bound = "",
@@ -12706,8 +14275,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[392] = {
+	}
+	pg.base.equip_skin_template[392] = {
 		hit_sfx = "",
 		bullet_name = "feiji_qiniu",
 		orbit_ui_bound = "",
@@ -12745,8 +14314,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[393] = {
+	}
+	pg.base.equip_skin_template[393] = {
 		hit_sfx = "",
 		bullet_name = "feiji_qiniu",
 		orbit_ui_bound = "",
@@ -12784,8 +14353,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[394] = {
+	}
+	pg.base.equip_skin_template[394] = {
 		hit_sfx = "",
 		bullet_name = "feiji_qiniu",
 		orbit_ui_bound = "",
@@ -12823,8 +14392,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[395] = {
+	}
+	pg.base.equip_skin_template[395] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tangzhuang",
 		orbit_ui_bound = "",
@@ -12862,8 +14431,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[396] = {
+	}
+	pg.base.equip_skin_template[396] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tangzhuang",
 		orbit_ui_bound = "",
@@ -12901,8 +14470,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[397] = {
+	}
+	pg.base.equip_skin_template[397] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tangzhuang",
 		orbit_ui_bound = "",
@@ -12940,8 +14509,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[398] = {
+	}
+	pg.base.equip_skin_template[398] = {
 		hit_sfx = "",
 		bullet_name = "paodan_chuitou",
 		orbit_ui_bound = "",
@@ -12981,8 +14550,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[400] = {
+	}
+	pg.base.equip_skin_template[400] = {
 		hit_sfx = "",
 		bullet_name = "zidan_tiantianquan",
 		orbit_ui_bound = "",
@@ -13022,8 +14591,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[401] = {
+	}
+	pg.base.equip_skin_template[401] = {
 		hit_sfx = "",
 		bullet_name = "zidan_mianhuatang",
 		orbit_ui_bound = "",
@@ -13063,8 +14632,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[402] = {
+	}
+	pg.base.equip_skin_template[402] = {
 		hit_sfx = "",
 		bullet_name = "zidan_naicha",
 		orbit_ui_bound = "",
@@ -13104,8 +14673,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[403] = {
+	}
+	pg.base.equip_skin_template[403] = {
 		hit_sfx = "",
 		bullet_name = "paodan_xuanzhuanchabei",
 		orbit_ui_bound = "",
@@ -13145,8 +14714,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[404] = {
+	}
+	pg.base.equip_skin_template[404] = {
 		hit_sfx = "",
 		bullet_name = "paodan_xiaoxiongweibing",
 		orbit_ui_bound = "",
@@ -13186,8 +14755,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[405] = {
+	}
+	pg.base.equip_skin_template[405] = {
 		hit_sfx = "",
 		bullet_name = "paodan_qiqiu",
 		orbit_ui_bound = "",
@@ -13227,8 +14796,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[406] = {
+	}
+	pg.base.equip_skin_template[406] = {
 		hit_sfx = "",
 		bullet_name = "yulei_zhangyu",
 		orbit_ui_bound = "",
@@ -13267,8 +14836,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[407] = {
+	}
+	pg.base.equip_skin_template[407] = {
 		hit_sfx = "",
 		bullet_name = "yulei_jiliuyongjin",
 		orbit_ui_bound = "",
@@ -13307,8 +14876,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[408] = {
+	}
+	pg.base.equip_skin_template[408] = {
 		hit_sfx = "",
 		bullet_name = "yulei_yanhua",
 		orbit_ui_bound = "",
@@ -13347,8 +14916,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[409] = {
+	}
+	pg.base.equip_skin_template[409] = {
 		hit_sfx = "",
 		bullet_name = "feiji_feitiandujiaoshou",
 		orbit_ui_bound = "",
@@ -13386,8 +14955,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[410] = {
+	}
+	pg.base.equip_skin_template[410] = {
 		hit_sfx = "",
 		bullet_name = "feiji_feitiandujiaoshou",
 		orbit_ui_bound = "",
@@ -13425,8 +14994,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[411] = {
+	}
+	pg.base.equip_skin_template[411] = {
 		hit_sfx = "",
 		bullet_name = "feiji_feitiandujiaoshou",
 		orbit_ui_bound = "",
@@ -13464,8 +15033,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[412] = {
+	}
+	pg.base.equip_skin_template[412] = {
 		hit_sfx = "",
 		bullet_name = "feiji_feitianmache",
 		orbit_ui_bound = "",
@@ -13503,8 +15072,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[413] = {
+	}
+	pg.base.equip_skin_template[413] = {
 		hit_sfx = "",
 		bullet_name = "feiji_feitianmache",
 		orbit_ui_bound = "",
@@ -13542,8 +15111,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[414] = {
+	}
+	pg.base.equip_skin_template[414] = {
 		hit_sfx = "",
 		bullet_name = "feiji_feitianmache",
 		orbit_ui_bound = "",
@@ -13581,8 +15150,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[415] = {
+	}
+	pg.base.equip_skin_template[415] = {
 		hit_sfx = "",
 		bullet_name = "feiji_feitianhaidaochuan",
 		orbit_ui_bound = "",
@@ -13620,8 +15189,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[416] = {
+	}
+	pg.base.equip_skin_template[416] = {
 		hit_sfx = "",
 		bullet_name = "feiji_feitianhaidaochuan",
 		orbit_ui_bound = "",
@@ -13659,8 +15228,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[417] = {
+	}
+	pg.base.equip_skin_template[417] = {
 		hit_sfx = "",
 		bullet_name = "feiji_feitianhaidaochuan",
 		orbit_ui_bound = "",
@@ -13698,8 +15267,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[420] = {
+	}
+	pg.base.equip_skin_template[420] = {
 		hit_sfx = "",
 		bullet_name = "zidan_fadai",
 		orbit_ui_bound = "",
@@ -13739,8 +15308,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[421] = {
+	}
+	pg.base.equip_skin_template[421] = {
 		hit_sfx = "",
 		bullet_name = "zidan_huizhang",
 		orbit_ui_bound = "",
@@ -13780,8 +15349,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[422] = {
+	}
+	pg.base.equip_skin_template[422] = {
 		hit_sfx = "",
 		bullet_name = "zidan_makebei",
 		orbit_ui_bound = "",
@@ -13821,8 +15390,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[423] = {
+	}
+	pg.base.equip_skin_template[423] = {
 		hit_sfx = "",
 		bullet_name = "paodan_tuanzi1",
 		orbit_ui_bound = "",
@@ -13862,8 +15431,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[424] = {
+	}
+	pg.base.equip_skin_template[424] = {
 		hit_sfx = "",
 		bullet_name = "paodan_tuanzi2",
 		orbit_ui_bound = "",
@@ -13903,8 +15472,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[425] = {
+	}
+	pg.base.equip_skin_template[425] = {
 		hit_sfx = "",
 		bullet_name = "paodan_tuanzi3",
 		orbit_ui_bound = "",
@@ -13944,8 +15513,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[426] = {
+	}
+	pg.base.equip_skin_template[426] = {
 		hit_sfx = "",
 		bullet_name = "yulei_yingyuanbang",
 		orbit_ui_bound = "",
@@ -13984,8 +15553,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[427] = {
+	}
+	pg.base.equip_skin_template[427] = {
 		hit_sfx = "",
 		bullet_name = "yulei_huaduo",
 		orbit_ui_bound = "",
@@ -14024,8 +15593,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[428] = {
+	}
+	pg.base.equip_skin_template[428] = {
 		hit_sfx = "",
 		bullet_name = "yulei_kouhong",
 		orbit_ui_bound = "",
@@ -14064,8 +15633,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[429] = {
+	}
+	pg.base.equip_skin_template[429] = {
 		hit_sfx = "",
 		bullet_name = "feiji_ouxiangfeiting",
 		orbit_ui_bound = "",
@@ -14103,8 +15672,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[430] = {
+	}
+	pg.base.equip_skin_template[430] = {
 		hit_sfx = "",
 		bullet_name = "feiji_ouxiangfeiting",
 		orbit_ui_bound = "",
@@ -14142,8 +15711,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[431] = {
+	}
+	pg.base.equip_skin_template[431] = {
 		hit_sfx = "",
 		bullet_name = "feiji_ouxiangfeiting",
 		orbit_ui_bound = "",
@@ -14181,8 +15750,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[432] = {
+	}
+	pg.base.equip_skin_template[432] = {
 		hit_sfx = "",
 		bullet_name = "feiji_ouxiangyingyuanjiu",
 		orbit_ui_bound = "",
@@ -14220,8 +15789,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[433] = {
+	}
+	pg.base.equip_skin_template[433] = {
 		hit_sfx = "",
 		bullet_name = "feiji_ouxiangyingyuanjiu",
 		orbit_ui_bound = "",
@@ -14259,8 +15828,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[434] = {
+	}
+	pg.base.equip_skin_template[434] = {
 		hit_sfx = "",
 		bullet_name = "feiji_ouxiangyingyuanjiu",
 		orbit_ui_bound = "",
@@ -14298,8 +15867,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[435] = {
+	}
+	pg.base.equip_skin_template[435] = {
 		hit_sfx = "",
 		bullet_name = "feiji_ouxiangfeiji",
 		orbit_ui_bound = "",
@@ -14337,8 +15906,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[436] = {
+	}
+	pg.base.equip_skin_template[436] = {
 		hit_sfx = "",
 		bullet_name = "feiji_ouxiangfeiji",
 		orbit_ui_bound = "",
@@ -14376,8 +15945,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[437] = {
+	}
+	pg.base.equip_skin_template[437] = {
 		hit_sfx = "",
 		bullet_name = "feiji_ouxiangfeiji",
 		orbit_ui_bound = "",
@@ -14415,8 +15984,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[440] = {
+	}
+	pg.base.equip_skin_template[440] = {
 		hit_sfx = "",
 		bullet_name = "zidan_xunzhang",
 		orbit_ui_bound = "",
@@ -14456,8 +16025,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[441] = {
+	}
+	pg.base.equip_skin_template[441] = {
 		hit_sfx = "",
 		bullet_name = "zidan_niunaiping",
 		orbit_ui_bound = "",
@@ -14497,8 +16066,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[442] = {
+	}
+	pg.base.equip_skin_template[442] = {
 		hit_sfx = "",
 		bullet_name = "zidan_matitie",
 		orbit_ui_bound = "",
@@ -14538,8 +16107,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[443] = {
+	}
+	pg.base.equip_skin_template[443] = {
 		hit_sfx = "",
 		bullet_name = "paodan_niuzaimao",
 		orbit_ui_bound = "",
@@ -14579,8 +16148,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[444] = {
+	}
+	pg.base.equip_skin_template[444] = {
 		hit_sfx = "",
 		bullet_name = "paodan_niuzaixue",
 		orbit_ui_bound = "",
@@ -14620,8 +16189,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[445] = {
+	}
+	pg.base.equip_skin_template[445] = {
 		hit_sfx = "",
 		bullet_name = "paodan_zuolunqiang",
 		orbit_ui_bound = "",
@@ -14661,8 +16230,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[446] = {
+	}
+	pg.base.equip_skin_template[446] = {
 		hit_sfx = "",
 		bullet_name = "yulei_xueqia",
 		orbit_ui_bound = "",
@@ -14701,8 +16270,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[447] = {
+	}
+	pg.base.equip_skin_template[447] = {
 		hit_sfx = "",
 		bullet_name = "yulei_feibiao",
 		orbit_ui_bound = "",
@@ -14741,8 +16310,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[448] = {
+	}
+	pg.base.equip_skin_template[448] = {
 		hit_sfx = "",
 		bullet_name = "yulei_xianrenzhang",
 		orbit_ui_bound = "",
@@ -14781,8 +16350,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[449] = {
+	}
+	pg.base.equip_skin_template[449] = {
 		hit_sfx = "",
 		bullet_name = "feiji_huoche",
 		orbit_ui_bound = "",
@@ -14820,8 +16389,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[450] = {
+	}
+	pg.base.equip_skin_template[450] = {
 		hit_sfx = "",
 		bullet_name = "feiji_huoche",
 		orbit_ui_bound = "",
@@ -14859,8 +16428,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[451] = {
+	}
+	pg.base.equip_skin_template[451] = {
 		hit_sfx = "",
 		bullet_name = "feiji_huoche",
 		orbit_ui_bound = "",
@@ -14898,8 +16467,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[452] = {
+	}
+	pg.base.equip_skin_template[452] = {
 		hit_sfx = "",
 		bullet_name = "feiji_jiuba",
 		orbit_ui_bound = "",
@@ -14937,8 +16506,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[453] = {
+	}
+	pg.base.equip_skin_template[453] = {
 		hit_sfx = "",
 		bullet_name = "feiji_jiuba",
 		orbit_ui_bound = "",
@@ -14976,8 +16545,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[454] = {
+	}
+	pg.base.equip_skin_template[454] = {
 		hit_sfx = "",
 		bullet_name = "feiji_jiuba",
 		orbit_ui_bound = "",
@@ -15015,8 +16584,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[455] = {
+	}
+	pg.base.equip_skin_template[455] = {
 		hit_sfx = "",
 		bullet_name = "feiji_qima",
 		orbit_ui_bound = "",
@@ -15054,8 +16623,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[456] = {
+	}
+	pg.base.equip_skin_template[456] = {
 		hit_sfx = "",
 		bullet_name = "feiji_qima",
 		orbit_ui_bound = "",
@@ -15093,8 +16662,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[457] = {
+	}
+	pg.base.equip_skin_template[457] = {
 		hit_sfx = "",
 		bullet_name = "feiji_qima",
 		orbit_ui_bound = "",
@@ -15132,8 +16701,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[460] = {
+	}
+	pg.base.equip_skin_template[460] = {
 		hit_sfx = "",
 		bullet_name = "zidan_fangshaishuang",
 		orbit_ui_bound = "",
@@ -15173,8 +16742,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[461] = {
+	}
+	pg.base.equip_skin_template[461] = {
 		hit_sfx = "",
 		bullet_name = "zidan_shatanqiu",
 		orbit_ui_bound = "",
@@ -15214,8 +16783,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[462] = {
+	}
+	pg.base.equip_skin_template[462] = {
 		hit_sfx = "",
 		bullet_name = "zidan_haixing",
 		orbit_ui_bound = "",
@@ -15255,8 +16824,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[463] = {
+	}
+	pg.base.equip_skin_template[463] = {
 		hit_sfx = "",
 		bullet_name = "paodan_dahuangjiu",
 		orbit_ui_bound = "",
@@ -15296,8 +16865,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[464] = {
+	}
+	pg.base.equip_skin_template[464] = {
 		hit_sfx = "",
 		bullet_name = "paodan_jingyu",
 		orbit_ui_bound = "",
@@ -15337,8 +16906,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[465] = {
+	}
+	pg.base.equip_skin_template[465] = {
 		hit_sfx = "",
 		bullet_name = "paodan_zhangyu",
 		orbit_ui_bound = "",
@@ -15378,8 +16947,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[466] = {
+	}
+	pg.base.equip_skin_template[466] = {
 		hit_sfx = "",
 		bullet_name = "yulei_qieqiqiu",
 		orbit_ui_bound = "",
@@ -15418,8 +16987,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[467] = {
+	}
+	pg.base.equip_skin_template[467] = {
 		hit_sfx = "",
 		bullet_name = "yulei_hailuo",
 		orbit_ui_bound = "",
@@ -15458,8 +17027,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[468] = {
+	}
+	pg.base.equip_skin_template[468] = {
 		hit_sfx = "",
 		bullet_name = "yulei_zishuipao",
 		orbit_ui_bound = "",
@@ -15498,8 +17067,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[469] = {
+	}
+	pg.base.equip_skin_template[469] = {
 		hit_sfx = "",
 		bullet_name = "feiji_xiangjiaochuan",
 		orbit_ui_bound = "",
@@ -15537,8 +17106,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[470] = {
+	}
+	pg.base.equip_skin_template[470] = {
 		hit_sfx = "",
 		bullet_name = "feiji_xiangjiaochuan",
 		orbit_ui_bound = "",
@@ -15576,8 +17145,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[471] = {
+	}
+	pg.base.equip_skin_template[471] = {
 		hit_sfx = "",
 		bullet_name = "feiji_xiangjiaochuan",
 		orbit_ui_bound = "",
@@ -15615,8 +17184,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[472] = {
+	}
+	pg.base.equip_skin_template[472] = {
 		hit_sfx = "",
 		bullet_name = "feiji_chonglang",
 		orbit_ui_bound = "",
@@ -15654,8 +17223,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[473] = {
+	}
+	pg.base.equip_skin_template[473] = {
 		hit_sfx = "",
 		bullet_name = "feiji_chonglang",
 		orbit_ui_bound = "",
@@ -15693,8 +17262,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[474] = {
+	}
+	pg.base.equip_skin_template[474] = {
 		hit_sfx = "",
 		bullet_name = "feiji_chonglang",
 		orbit_ui_bound = "",
@@ -15732,8 +17301,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[475] = {
+	}
+	pg.base.equip_skin_template[475] = {
 		hit_sfx = "",
 		bullet_name = "feiji_qianshui",
 		orbit_ui_bound = "",
@@ -15771,8 +17340,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[476] = {
+	}
+	pg.base.equip_skin_template[476] = {
 		hit_sfx = "",
 		bullet_name = "feiji_qianshui",
 		orbit_ui_bound = "",
@@ -15810,8 +17379,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[477] = {
+	}
+	pg.base.equip_skin_template[477] = {
 		hit_sfx = "",
 		bullet_name = "feiji_qianshui",
 		orbit_ui_bound = "",
@@ -15849,8 +17418,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[480] = {
+	}
+	pg.base.equip_skin_template[480] = {
 		hit_sfx = "",
 		bullet_name = "zidan_lvsejiguang",
 		orbit_ui_bound = "",
@@ -15890,8 +17459,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[481] = {
+	}
+	pg.base.equip_skin_template[481] = {
 		hit_sfx = "",
 		bullet_name = "zidan_hongsejiguang",
 		orbit_ui_bound = "",
@@ -15931,8 +17500,10 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[482] = {
+	}
+end)()
+(function ()
+	pg.base.equip_skin_template[482] = {
 		hit_sfx = "",
 		bullet_name = "zidan_zisejiguang",
 		orbit_ui_bound = "",
@@ -15972,8 +17543,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[483] = {
+	}
+	pg.base.equip_skin_template[483] = {
 		hit_sfx = "",
 		bullet_name = "paodan_baoliefeidan",
 		orbit_ui_bound = "",
@@ -16013,8 +17584,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[484] = {
+	}
+	pg.base.equip_skin_template[484] = {
 		hit_sfx = "",
 		bullet_name = "paodan_hulinmiehuodan",
 		orbit_ui_bound = "",
@@ -16054,8 +17625,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[485] = {
+	}
+	pg.base.equip_skin_template[485] = {
 		hit_sfx = "",
 		bullet_name = "paodan_nengliangdan",
 		orbit_ui_bound = "",
@@ -16095,8 +17666,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[486] = {
+	}
+	pg.base.equip_skin_template[486] = {
 		hit_sfx = "",
 		bullet_name = "yulei_shengjian",
 		orbit_ui_bound = "",
@@ -16135,8 +17706,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[487] = {
+	}
+	pg.base.equip_skin_template[487] = {
 		hit_sfx = "",
 		bullet_name = "yulei_zuantou",
 		orbit_ui_bound = "",
@@ -16175,8 +17746,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[488] = {
+	}
+	pg.base.equip_skin_template[488] = {
 		hit_sfx = "",
 		bullet_name = "yulei_tianxianyulei",
 		orbit_ui_bound = "",
@@ -16215,8 +17786,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[489] = {
+	}
+	pg.base.equip_skin_template[489] = {
 		hit_sfx = "",
 		bullet_name = "feiji_huangyiyanlong",
 		orbit_ui_bound = "",
@@ -16254,8 +17825,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[490] = {
+	}
+	pg.base.equip_skin_template[490] = {
 		hit_sfx = "",
 		bullet_name = "feiji_huangyiyanlong",
 		orbit_ui_bound = "",
@@ -16293,8 +17864,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[491] = {
+	}
+	pg.base.equip_skin_template[491] = {
 		hit_sfx = "",
 		bullet_name = "feiji_huangyiyanlong",
 		orbit_ui_bound = "",
@@ -16332,8 +17903,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[492] = {
+	}
+	pg.base.equip_skin_template[492] = {
 		hit_sfx = "",
 		bullet_name = "feiji_cangqiongpenqiji",
 		orbit_ui_bound = "",
@@ -16371,8 +17942,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[493] = {
+	}
+	pg.base.equip_skin_template[493] = {
 		hit_sfx = "",
 		bullet_name = "feiji_cangqiongpenqiji",
 		orbit_ui_bound = "",
@@ -16410,8 +17981,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[494] = {
+	}
+	pg.base.equip_skin_template[494] = {
 		hit_sfx = "",
 		bullet_name = "feiji_cangqiongpenqiji",
 		orbit_ui_bound = "",
@@ -16449,8 +18020,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[495] = {
+	}
+	pg.base.equip_skin_template[495] = {
 		hit_sfx = "",
 		bullet_name = "feiji_dainafeiyi",
 		orbit_ui_bound = "",
@@ -16488,8 +18059,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[496] = {
+	}
+	pg.base.equip_skin_template[496] = {
 		hit_sfx = "",
 		bullet_name = "feiji_dainafeiyi",
 		orbit_ui_bound = "",
@@ -16527,8 +18098,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[497] = {
+	}
+	pg.base.equip_skin_template[497] = {
 		hit_sfx = "",
 		bullet_name = "feiji_dainafeiyi",
 		orbit_ui_bound = "",
@@ -16566,8 +18137,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[500] = {
+	}
+	pg.base.equip_skin_template[500] = {
 		hit_sfx = "",
 		bullet_name = "zidan_nvpudaocha",
 		orbit_ui_bound = "",
@@ -16607,8 +18178,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[501] = {
+	}
+	pg.base.equip_skin_template[501] = {
 		hit_sfx = "",
 		bullet_name = "zidan_nvpumaozhua",
 		orbit_ui_bound = "",
@@ -16648,8 +18219,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[502] = {
+	}
+	pg.base.equip_skin_template[502] = {
 		hit_sfx = "",
 		bullet_name = "zidan_nvputoushi",
 		orbit_ui_bound = "",
@@ -16689,8 +18260,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[503] = {
+	}
+	pg.base.equip_skin_template[503] = {
 		hit_sfx = "",
 		bullet_name = "paodan_nvputangguan",
 		orbit_ui_bound = "",
@@ -16730,8 +18301,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[504] = {
+	}
+	pg.base.equip_skin_template[504] = {
 		hit_sfx = "",
 		bullet_name = "paodan_nvpucanpan",
 		orbit_ui_bound = "",
@@ -16771,8 +18342,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[505] = {
+	}
+	pg.base.equip_skin_template[505] = {
 		hit_sfx = "",
 		bullet_name = "paodan_nvpudanbaofan",
 		orbit_ui_bound = "",
@@ -16812,8 +18383,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[506] = {
+	}
+	pg.base.equip_skin_template[506] = {
 		hit_sfx = "",
 		bullet_name = "yulei_nvpubiaohuadai",
 		orbit_ui_bound = "",
@@ -16852,8 +18423,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[507] = {
+	}
+	pg.base.equip_skin_template[507] = {
 		hit_sfx = "",
 		bullet_name = "yulei_nvputuoba",
 		orbit_ui_bound = "",
@@ -16892,8 +18463,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[508] = {
+	}
+	pg.base.equip_skin_template[508] = {
 		hit_sfx = "",
 		bullet_name = "yulei_nvpuxiezi",
 		orbit_ui_bound = "",
@@ -16932,8 +18503,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[509] = {
+	}
+	pg.base.equip_skin_template[509] = {
 		hit_sfx = "",
 		bullet_name = "feiji_manjiufuwuyuan",
 		orbit_ui_bound = "",
@@ -16971,8 +18542,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[510] = {
+	}
+	pg.base.equip_skin_template[510] = {
 		hit_sfx = "",
 		bullet_name = "feiji_manjiufuwuyuan",
 		orbit_ui_bound = "",
@@ -17010,8 +18581,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[511] = {
+	}
+	pg.base.equip_skin_template[511] = {
 		hit_sfx = "",
 		bullet_name = "feiji_manjiufuwuyuan",
 		orbit_ui_bound = "",
@@ -17049,8 +18620,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[512] = {
+	}
+	pg.base.equip_skin_template[512] = {
 		hit_sfx = "",
 		bullet_name = "feiji_manjiuwaimai",
 		orbit_ui_bound = "",
@@ -17088,8 +18659,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[513] = {
+	}
+	pg.base.equip_skin_template[513] = {
 		hit_sfx = "",
 		bullet_name = "feiji_manjiuwaimai",
 		orbit_ui_bound = "",
@@ -17127,8 +18698,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[514] = {
+	}
+	pg.base.equip_skin_template[514] = {
 		hit_sfx = "",
 		bullet_name = "feiji_manjiuwaimai",
 		orbit_ui_bound = "",
@@ -17166,8 +18737,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[515] = {
+	}
+	pg.base.equip_skin_template[515] = {
 		hit_sfx = "",
 		bullet_name = "feiji_manjiunvpu",
 		orbit_ui_bound = "",
@@ -17205,8 +18776,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[516] = {
+	}
+	pg.base.equip_skin_template[516] = {
 		hit_sfx = "",
 		bullet_name = "feiji_manjiunvpu",
 		orbit_ui_bound = "",
@@ -17244,8 +18815,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[517] = {
+	}
+	pg.base.equip_skin_template[517] = {
 		hit_sfx = "",
 		bullet_name = "feiji_manjiunvpu",
 		orbit_ui_bound = "",
@@ -17283,8 +18854,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[520] = {
+	}
+	pg.base.equip_skin_template[520] = {
 		hit_sfx = "",
 		bullet_name = "zidan_hunianmeihua",
 		orbit_ui_bound = "",
@@ -17324,8 +18895,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[521] = {
+	}
+	pg.base.equip_skin_template[521] = {
 		hit_sfx = "",
 		bullet_name = "zidan_hunianzhuzi",
 		orbit_ui_bound = "",
@@ -17365,8 +18936,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[522] = {
+	}
+	pg.base.equip_skin_template[522] = {
 		hit_sfx = "",
 		bullet_name = "zidan_hunianlanhua",
 		orbit_ui_bound = "",
@@ -17406,8 +18977,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[523] = {
+	}
+	pg.base.equip_skin_template[523] = {
 		hit_sfx = "",
 		bullet_name = "paodan_hunianyanyuedao",
 		orbit_ui_bound = "",
@@ -17447,8 +19018,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[524] = {
+	}
+	pg.base.equip_skin_template[524] = {
 		hit_sfx = "",
 		bullet_name = "paodan_hunianshuanggujian",
 		orbit_ui_bound = "",
@@ -17488,8 +19059,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[525] = {
+	}
+	pg.base.equip_skin_template[525] = {
 		hit_sfx = "",
 		bullet_name = "paodan_hunianshemao",
 		orbit_ui_bound = "",
@@ -17529,8 +19100,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[526] = {
+	}
+	pg.base.equip_skin_template[526] = {
 		hit_sfx = "",
 		bullet_name = "yulei_hunianmaobi",
 		orbit_ui_bound = "",
@@ -17569,8 +19140,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[527] = {
+	}
+	pg.base.equip_skin_template[527] = {
 		hit_sfx = "",
 		bullet_name = "yulei_hunianshujuan",
 		orbit_ui_bound = "",
@@ -17609,8 +19180,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[528] = {
+	}
+	pg.base.equip_skin_template[528] = {
 		hit_sfx = "",
 		bullet_name = "yulei_hunianlingpai",
 		orbit_ui_bound = "",
@@ -17649,8 +19220,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[529] = {
+	}
+	pg.base.equip_skin_template[529] = {
 		hit_sfx = "",
 		bullet_name = "feiji_hunianjinli",
 		orbit_ui_bound = "",
@@ -17688,8 +19259,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[530] = {
+	}
+	pg.base.equip_skin_template[530] = {
 		hit_sfx = "",
 		bullet_name = "feiji_hunianjinli",
 		orbit_ui_bound = "",
@@ -17727,8 +19298,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[531] = {
+	}
+	pg.base.equip_skin_template[531] = {
 		hit_sfx = "",
 		bullet_name = "feiji_hunianjinli",
 		orbit_ui_bound = "",
@@ -17766,8 +19337,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[532] = {
+	}
+	pg.base.equip_skin_template[532] = {
 		hit_sfx = "",
 		bullet_name = "feiji_hunianxianhe",
 		orbit_ui_bound = "",
@@ -17805,8 +19376,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[533] = {
+	}
+	pg.base.equip_skin_template[533] = {
 		hit_sfx = "",
 		bullet_name = "feiji_hunianxianhe",
 		orbit_ui_bound = "",
@@ -17844,8 +19415,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[534] = {
+	}
+	pg.base.equip_skin_template[534] = {
 		hit_sfx = "",
 		bullet_name = "feiji_hunianxianhe",
 		orbit_ui_bound = "",
@@ -17883,8 +19454,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[535] = {
+	}
+	pg.base.equip_skin_template[535] = {
 		hit_sfx = "",
 		bullet_name = "feiji_huniankongmingdeng",
 		orbit_ui_bound = "",
@@ -17922,8 +19493,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[536] = {
+	}
+	pg.base.equip_skin_template[536] = {
 		hit_sfx = "",
 		bullet_name = "feiji_huniankongmingdeng",
 		orbit_ui_bound = "",
@@ -17961,8 +19532,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[537] = {
+	}
+	pg.base.equip_skin_template[537] = {
 		hit_sfx = "",
 		bullet_name = "feiji_huniankongmingdeng",
 		orbit_ui_bound = "",
@@ -18000,8 +19571,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[540] = {
+	}
+	pg.base.equip_skin_template[540] = {
 		hit_sfx = "",
 		bullet_name = "zidan_bianfushimo",
 		orbit_ui_bound = "",
@@ -18041,8 +19612,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[541] = {
+	}
+	pg.base.equip_skin_template[541] = {
 		hit_sfx = "",
 		bullet_name = "zidan_yinshizi",
 		orbit_ui_bound = "",
@@ -18082,8 +19653,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[542] = {
+	}
+	pg.base.equip_skin_template[542] = {
 		hit_sfx = "",
 		bullet_name = "zidan_youhuo",
 		orbit_ui_bound = "",
@@ -18123,8 +19694,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[543] = {
+	}
+	pg.base.equip_skin_template[543] = {
 		hit_sfx = "",
 		bullet_name = "paodan_hongyue",
 		orbit_ui_bound = "",
@@ -18164,8 +19735,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[544] = {
+	}
+	pg.base.equip_skin_template[544] = {
 		hit_sfx = "",
 		bullet_name = "paodan_zhutai",
 		orbit_ui_bound = "",
@@ -18205,8 +19776,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[545] = {
+	}
+	pg.base.equip_skin_template[545] = {
 		hit_sfx = "",
 		bullet_name = "paodan_mofazhen",
 		orbit_ui_bound = "",
@@ -18246,8 +19817,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[546] = {
+	}
+	pg.base.equip_skin_template[546] = {
 		hit_sfx = "",
 		bullet_name = "yulei_jianmuzhuang",
 		orbit_ui_bound = "",
@@ -18286,8 +19857,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[547] = {
+	}
+	pg.base.equip_skin_template[547] = {
 		hit_sfx = "",
 		bullet_name = "yulei_meigui",
 		orbit_ui_bound = "",
@@ -18326,8 +19897,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[548] = {
+	}
+	pg.base.equip_skin_template[548] = {
 		hit_sfx = "",
 		bullet_name = "yulei_guancai",
 		orbit_ui_bound = "",
@@ -18366,8 +19937,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[549] = {
+	}
+	pg.base.equip_skin_template[549] = {
 		hit_sfx = "",
 		bullet_name = "feiji_bojue",
 		orbit_ui_bound = "",
@@ -18405,8 +19976,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[550] = {
+	}
+	pg.base.equip_skin_template[550] = {
 		hit_sfx = "",
 		bullet_name = "feiji_bojue",
 		orbit_ui_bound = "",
@@ -18444,8 +20015,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[551] = {
+	}
+	pg.base.equip_skin_template[551] = {
 		hit_sfx = "",
 		bullet_name = "feiji_bojue",
 		orbit_ui_bound = "",
@@ -18483,8 +20054,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[552] = {
+	}
+	pg.base.equip_skin_template[552] = {
 		hit_sfx = "",
 		bullet_name = "feiji_shixianggui",
 		orbit_ui_bound = "",
@@ -18522,8 +20093,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[553] = {
+	}
+	pg.base.equip_skin_template[553] = {
 		hit_sfx = "",
 		bullet_name = "feiji_shixianggui",
 		orbit_ui_bound = "",
@@ -18561,8 +20132,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[554] = {
+	}
+	pg.base.equip_skin_template[554] = {
 		hit_sfx = "",
 		bullet_name = "feiji_shixianggui",
 		orbit_ui_bound = "",
@@ -18600,8 +20171,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[555] = {
+	}
+	pg.base.equip_skin_template[555] = {
 		hit_sfx = "",
 		bullet_name = "feiji_fulingqishi",
 		orbit_ui_bound = "",
@@ -18639,8 +20210,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[556] = {
+	}
+	pg.base.equip_skin_template[556] = {
 		hit_sfx = "",
 		bullet_name = "feiji_fulingqishi",
 		orbit_ui_bound = "",
@@ -18678,8 +20249,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[557] = {
+	}
+	pg.base.equip_skin_template[557] = {
 		hit_sfx = "",
 		bullet_name = "feiji_fulingqishi",
 		orbit_ui_bound = "",
@@ -18717,8 +20288,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[560] = {
+	}
+	pg.base.equip_skin_template[560] = {
 		hit_sfx = "",
 		bullet_name = "zidan_xiangqi",
 		orbit_ui_bound = "",
@@ -18758,8 +20329,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[561] = {
+	}
+	pg.base.equip_skin_template[561] = {
 		hit_sfx = "",
 		bullet_name = "zidan_weiqi",
 		orbit_ui_bound = "",
@@ -18799,8 +20370,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[562] = {
+	}
+	pg.base.equip_skin_template[562] = {
 		hit_sfx = "",
 		bullet_name = "zidan_taohua",
 		orbit_ui_bound = "",
@@ -18840,8 +20411,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[563] = {
+	}
+	pg.base.equip_skin_template[563] = {
 		hit_sfx = "",
 		bullet_name = "paodan_xiaolongbao",
 		orbit_ui_bound = "",
@@ -18881,8 +20452,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[564] = {
+	}
+	pg.base.equip_skin_template[564] = {
 		hit_sfx = "",
 		bullet_name = "paodan_shishizi",
 		orbit_ui_bound = "",
@@ -18922,8 +20493,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[565] = {
+	}
+	pg.base.equip_skin_template[565] = {
 		hit_sfx = "",
 		bullet_name = "paodan_qinghuaci",
 		orbit_ui_bound = "",
@@ -18963,8 +20534,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[566] = {
+	}
+	pg.base.equip_skin_template[566] = {
 		hit_sfx = "",
 		bullet_name = "yulei_fazan",
 		orbit_ui_bound = "",
@@ -19003,8 +20574,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[567] = {
+	}
+	pg.base.equip_skin_template[567] = {
 		hit_sfx = "",
 		bullet_name = "yulei_suona",
 		orbit_ui_bound = "",
@@ -19043,8 +20614,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[568] = {
+	}
+	pg.base.equip_skin_template[568] = {
 		hit_sfx = "",
 		bullet_name = "yulei_hulu",
 		orbit_ui_bound = "",
@@ -19083,8 +20654,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[569] = {
+	}
+	pg.base.equip_skin_template[569] = {
 		hit_sfx = "",
 		bullet_name = "feiji_youzhisan",
 		orbit_ui_bound = "",
@@ -19122,8 +20693,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[570] = {
+	}
+	pg.base.equip_skin_template[570] = {
 		hit_sfx = "",
 		bullet_name = "feiji_youzhisan",
 		orbit_ui_bound = "",
@@ -19161,8 +20732,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[571] = {
+	}
+	pg.base.equip_skin_template[571] = {
 		hit_sfx = "",
 		bullet_name = "feiji_youzhisan",
 		orbit_ui_bound = "",
@@ -19200,8 +20771,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[572] = {
+	}
+	pg.base.equip_skin_template[572] = {
 		hit_sfx = "",
 		bullet_name = "feiji_zhiyuan",
 		orbit_ui_bound = "",
@@ -19239,8 +20810,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[573] = {
+	}
+	pg.base.equip_skin_template[573] = {
 		hit_sfx = "",
 		bullet_name = "feiji_zhiyuan",
 		orbit_ui_bound = "",
@@ -19278,8 +20849,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[574] = {
+	}
+	pg.base.equip_skin_template[574] = {
 		hit_sfx = "",
 		bullet_name = "feiji_zhiyuan",
 		orbit_ui_bound = "",
@@ -19317,8 +20888,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[575] = {
+	}
+	pg.base.equip_skin_template[575] = {
 		hit_sfx = "",
 		bullet_name = "feiji_fanzhou",
 		orbit_ui_bound = "",
@@ -19356,8 +20927,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[576] = {
+	}
+	pg.base.equip_skin_template[576] = {
 		hit_sfx = "",
 		bullet_name = "feiji_fanzhou",
 		orbit_ui_bound = "",
@@ -19395,8 +20966,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[577] = {
+	}
+	pg.base.equip_skin_template[577] = {
 		hit_sfx = "",
 		bullet_name = "feiji_fanzhou",
 		orbit_ui_bound = "",
@@ -19434,8 +21005,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[580] = {
+	}
+	pg.base.equip_skin_template[580] = {
 		hit_sfx = "",
 		bullet_name = "zidan_mogu",
 		orbit_ui_bound = "",
@@ -19475,8 +21046,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[581] = {
+	}
+	pg.base.equip_skin_template[581] = {
 		hit_sfx = "",
 		bullet_name = "zidan_tangguo",
 		orbit_ui_bound = "",
@@ -19516,8 +21087,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[582] = {
+	}
+	pg.base.equip_skin_template[582] = {
 		hit_sfx = "",
 		bullet_name = "zidan_pingguo",
 		orbit_ui_bound = "",
@@ -19557,8 +21128,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[583] = {
+	}
+	pg.base.equip_skin_template[583] = {
 		hit_sfx = "",
 		bullet_name = "paodan_shuijingxie",
 		orbit_ui_bound = "",
@@ -19598,8 +21169,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[584] = {
+	}
+	pg.base.equip_skin_template[584] = {
 		hit_sfx = "",
 		bullet_name = "paodan_futou",
 		orbit_ui_bound = "",
@@ -19639,8 +21210,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[585] = {
+	}
+	pg.base.equip_skin_template[585] = {
 		hit_sfx = "",
 		bullet_name = "paodan_youdeng",
 		orbit_ui_bound = "",
@@ -19680,8 +21251,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[586] = {
+	}
+	pg.base.equip_skin_template[586] = {
 		hit_sfx = "",
 		bullet_name = "yulei_chuidiren",
 		orbit_ui_bound = "",
@@ -19720,8 +21291,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[587] = {
+	}
+	pg.base.equip_skin_template[587] = {
 		hit_sfx = "",
 		bullet_name = "yulei_huluobo",
 		orbit_ui_bound = "",
@@ -19760,8 +21331,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[588] = {
+	}
+	pg.base.equip_skin_template[588] = {
 		hit_sfx = "",
 		bullet_name = "yulei_modoutengwan",
 		orbit_ui_bound = "",
@@ -19800,8 +21371,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[589] = {
+	}
+	pg.base.equip_skin_template[589] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tiane",
 		orbit_ui_bound = "",
@@ -19839,8 +21410,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[590] = {
+	}
+	pg.base.equip_skin_template[590] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tiane",
 		orbit_ui_bound = "",
@@ -19878,8 +21449,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[591] = {
+	}
+	pg.base.equip_skin_template[591] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tiane",
 		orbit_ui_bound = "",
@@ -19917,8 +21488,10 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[592] = {
+	}
+end)()
+(function ()
+	pg.base.equip_skin_template[592] = {
 		hit_sfx = "",
 		bullet_name = "feiji_motan",
 		orbit_ui_bound = "",
@@ -19956,8 +21529,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[593] = {
+	}
+	pg.base.equip_skin_template[593] = {
 		hit_sfx = "",
 		bullet_name = "feiji_motan",
 		orbit_ui_bound = "",
@@ -19995,8 +21568,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[594] = {
+	}
+	pg.base.equip_skin_template[594] = {
 		hit_sfx = "",
 		bullet_name = "feiji_motan",
 		orbit_ui_bound = "",
@@ -20034,8 +21607,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[595] = {
+	}
+	pg.base.equip_skin_template[595] = {
 		hit_sfx = "",
 		bullet_name = "feiji_mofananguache",
 		orbit_ui_bound = "",
@@ -20073,8 +21646,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[596] = {
+	}
+	pg.base.equip_skin_template[596] = {
 		hit_sfx = "",
 		bullet_name = "feiji_mofananguache",
 		orbit_ui_bound = "",
@@ -20112,8 +21685,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[597] = {
+	}
+	pg.base.equip_skin_template[597] = {
 		hit_sfx = "",
 		bullet_name = "feiji_mofananguache",
 		orbit_ui_bound = "",
@@ -20151,8 +21724,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[600] = {
+	}
+	pg.base.equip_skin_template[600] = {
 		hit_sfx = "",
 		bullet_name = "zidan_wuxie",
 		orbit_ui_bound = "",
@@ -20192,8 +21765,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[601] = {
+	}
+	pg.base.equip_skin_template[601] = {
 		hit_sfx = "",
 		bullet_name = "zidan_jiamianmianju",
 		orbit_ui_bound = "",
@@ -20233,8 +21806,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[602] = {
+	}
+	pg.base.equip_skin_template[602] = {
 		hit_sfx = "",
 		bullet_name = "zidan_tiaowujijiantou",
 		orbit_ui_bound = "",
@@ -20274,8 +21847,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[603] = {
+	}
+	pg.base.equip_skin_template[603] = {
 		hit_sfx = "",
 		bullet_name = "paodan_juguangdeng",
 		orbit_ui_bound = "",
@@ -20315,8 +21888,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[604] = {
+	}
+	pg.base.equip_skin_template[604] = {
 		hit_sfx = "",
 		bullet_name = "paodan_gerenwutai",
 		orbit_ui_bound = "",
@@ -20356,8 +21929,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[605] = {
+	}
+	pg.base.equip_skin_template[605] = {
 		hit_sfx = "",
 		bullet_name = "paodan_changjingdaoju",
 		orbit_ui_bound = "",
@@ -20397,8 +21970,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[606] = {
+	}
+	pg.base.equip_skin_template[606] = {
 		hit_sfx = "",
 		bullet_name = "yulei_shuqing",
 		orbit_ui_bound = "",
@@ -20437,8 +22010,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[607] = {
+	}
+	pg.base.equip_skin_template[607] = {
 		hit_sfx = "",
 		bullet_name = "yulei_xiaotiqing",
 		orbit_ui_bound = "",
@@ -20477,8 +22050,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[608] = {
+	}
+	pg.base.equip_skin_template[608] = {
 		hit_sfx = "",
 		bullet_name = "yulei_xiaohao",
 		orbit_ui_bound = "",
@@ -20517,8 +22090,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[609] = {
+	}
+	pg.base.equip_skin_template[609] = {
 		hit_sfx = "",
 		bullet_name = "feiji_kangkangwujiu",
 		orbit_ui_bound = "",
@@ -20556,8 +22129,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[610] = {
+	}
+	pg.base.equip_skin_template[610] = {
 		hit_sfx = "",
 		bullet_name = "feiji_kangkangwujiu",
 		orbit_ui_bound = "",
@@ -20595,8 +22168,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[611] = {
+	}
+	pg.base.equip_skin_template[611] = {
 		hit_sfx = "",
 		bullet_name = "feiji_kangkangwujiu",
 		orbit_ui_bound = "",
@@ -20634,8 +22207,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[612] = {
+	}
+	pg.base.equip_skin_template[612] = {
 		hit_sfx = "",
 		bullet_name = "feiji_baleiwuqunjiu",
 		orbit_ui_bound = "",
@@ -20673,8 +22246,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[613] = {
+	}
+	pg.base.equip_skin_template[613] = {
 		hit_sfx = "",
 		bullet_name = "feiji_baleiwuqunjiu",
 		orbit_ui_bound = "",
@@ -20712,8 +22285,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[614] = {
+	}
+	pg.base.equip_skin_template[614] = {
 		hit_sfx = "",
 		bullet_name = "feiji_baleiwuqunjiu",
 		orbit_ui_bound = "",
@@ -20751,8 +22324,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[615] = {
+	}
+	pg.base.equip_skin_template[615] = {
 		hit_sfx = "",
 		bullet_name = "feiji_sangbawujiu",
 		orbit_ui_bound = "",
@@ -20790,8 +22363,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[616] = {
+	}
+	pg.base.equip_skin_template[616] = {
 		hit_sfx = "",
 		bullet_name = "feiji_sangbawujiu",
 		orbit_ui_bound = "",
@@ -20829,8 +22402,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[617] = {
+	}
+	pg.base.equip_skin_template[617] = {
 		hit_sfx = "",
 		bullet_name = "feiji_sangbawujiu",
 		orbit_ui_bound = "",
@@ -20868,8 +22441,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[620] = {
+	}
+	pg.base.equip_skin_template[620] = {
 		hit_sfx = "",
 		bullet_name = "zidan_jiangbing",
 		orbit_ui_bound = "",
@@ -20909,8 +22482,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[621] = {
+	}
+	pg.base.equip_skin_template[621] = {
 		hit_sfx = "",
 		bullet_name = "zidan_suolingendao",
 		orbit_ui_bound = "",
@@ -20950,8 +22523,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[622] = {
+	}
+	pg.base.equip_skin_template[622] = {
 		hit_sfx = "",
 		bullet_name = "zidan_gangtie",
 		orbit_ui_bound = "",
@@ -20991,8 +22564,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[623] = {
+	}
+	pg.base.equip_skin_template[623] = {
 		hit_sfx = "",
 		bullet_name = "paodan_taocipijiubei",
 		orbit_ui_bound = "",
@@ -21032,8 +22605,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[624] = {
+	}
+	pg.base.equip_skin_template[624] = {
 		hit_sfx = "",
 		bullet_name = "paodan_xiongying",
 		orbit_ui_bound = "",
@@ -21073,8 +22646,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[625] = {
+	}
+	pg.base.equip_skin_template[625] = {
 		hit_sfx = "",
 		bullet_name = "paodan_yinfu",
 		orbit_ui_bound = "",
@@ -21114,8 +22687,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[626] = {
+	}
+	pg.base.equip_skin_template[626] = {
 		hit_sfx = "",
 		bullet_name = "yulei_jujian",
 		orbit_ui_bound = "",
@@ -21154,8 +22727,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[627] = {
+	}
+	pg.base.equip_skin_template[627] = {
 		hit_sfx = "",
 		bullet_name = "yulei_nongcha",
 		orbit_ui_bound = "",
@@ -21194,8 +22767,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[628] = {
+	}
+	pg.base.equip_skin_template[628] = {
 		hit_sfx = "",
 		bullet_name = "yulei_xianlieqiang",
 		orbit_ui_bound = "",
@@ -21234,8 +22807,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[629] = {
+	}
+	pg.base.equip_skin_template[629] = {
 		hit_sfx = "",
 		bullet_name = "feiji_bolandengbaomen",
 		orbit_ui_bound = "",
@@ -21273,8 +22846,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[630] = {
+	}
+	pg.base.equip_skin_template[630] = {
 		hit_sfx = "",
 		bullet_name = "feiji_bolandengbaomen",
 		orbit_ui_bound = "",
@@ -21312,8 +22885,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[631] = {
+	}
+	pg.base.equip_skin_template[631] = {
 		hit_sfx = "",
 		bullet_name = "feiji_bolandengbaomen",
 		orbit_ui_bound = "",
@@ -21351,8 +22924,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[632] = {
+	}
+	pg.base.equip_skin_template[632] = {
 		hit_sfx = "",
 		bullet_name = "feiji_heisenlinzhon",
 		orbit_ui_bound = "",
@@ -21390,8 +22963,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[633] = {
+	}
+	pg.base.equip_skin_template[633] = {
 		hit_sfx = "",
 		bullet_name = "feiji_heisenlinzhon",
 		orbit_ui_bound = "",
@@ -21429,8 +23002,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[634] = {
+	}
+	pg.base.equip_skin_template[634] = {
 		hit_sfx = "",
 		bullet_name = "feiji_heisenlinzhon",
 		orbit_ui_bound = "",
@@ -21468,8 +23041,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[635] = {
+	}
+	pg.base.equip_skin_template[635] = {
 		hit_sfx = "",
 		bullet_name = "feiji_hutaojiazi",
 		orbit_ui_bound = "",
@@ -21507,8 +23080,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[636] = {
+	}
+	pg.base.equip_skin_template[636] = {
 		hit_sfx = "",
 		bullet_name = "feiji_hutaojiazi",
 		orbit_ui_bound = "",
@@ -21546,8 +23119,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[637] = {
+	}
+	pg.base.equip_skin_template[637] = {
 		hit_sfx = "",
 		bullet_name = "feiji_hutaojiazi",
 		orbit_ui_bound = "",
@@ -21585,8 +23158,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[638] = {
+	}
+	pg.base.equip_skin_template[638] = {
 		hit_sfx = "",
 		bullet_name = "zidan_yanliaoshua",
 		orbit_ui_bound = "",
@@ -21626,8 +23199,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[639] = {
+	}
+	pg.base.equip_skin_template[639] = {
 		hit_sfx = "",
 		bullet_name = "zidan_haibao",
 		orbit_ui_bound = "",
@@ -21667,8 +23240,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[640] = {
+	}
+	pg.base.equip_skin_template[640] = {
 		hit_sfx = "",
 		bullet_name = "zidan_zhixingxing",
 		orbit_ui_bound = "",
@@ -21708,8 +23281,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[641] = {
+	}
+	pg.base.equip_skin_template[641] = {
 		hit_sfx = "",
 		bullet_name = "paodan_yanliaoguan",
 		orbit_ui_bound = "",
@@ -21749,8 +23322,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[642] = {
+	}
+	pg.base.equip_skin_template[642] = {
 		hit_sfx = "",
 		bullet_name = "paodan_zhifubao",
 		orbit_ui_bound = "",
@@ -21790,8 +23363,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[643] = {
+	}
+	pg.base.equip_skin_template[643] = {
 		hit_sfx = "",
 		bullet_name = "paodan_gouhuo",
 		orbit_ui_bound = "",
@@ -21831,8 +23404,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[644] = {
+	}
+	pg.base.equip_skin_template[644] = {
 		hit_sfx = "",
 		bullet_name = "yulei_zhangyushao",
 		orbit_ui_bound = "",
@@ -21871,8 +23444,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[645] = {
+	}
+	pg.base.equip_skin_template[645] = {
 		hit_sfx = "",
 		bullet_name = "yulei_pingguotang",
 		orbit_ui_bound = "",
@@ -21911,8 +23484,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[646] = {
+	}
+	pg.base.equip_skin_template[646] = {
 		hit_sfx = "",
 		bullet_name = "yulei_qiaokelixiangjiao",
 		orbit_ui_bound = "",
@@ -21951,8 +23524,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[647] = {
+	}
+	pg.base.equip_skin_template[647] = {
 		hit_sfx = "",
 		bullet_name = "feiji_zhangyushao",
 		orbit_ui_bound = "",
@@ -21990,8 +23563,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[648] = {
+	}
+	pg.base.equip_skin_template[648] = {
 		hit_sfx = "",
 		bullet_name = "feiji_zhangyushao",
 		orbit_ui_bound = "",
@@ -22029,8 +23602,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[649] = {
+	}
+	pg.base.equip_skin_template[649] = {
 		hit_sfx = "",
 		bullet_name = "feiji_zhangyushao",
 		orbit_ui_bound = "",
@@ -22068,8 +23641,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[650] = {
+	}
+	pg.base.equip_skin_template[650] = {
 		hit_sfx = "",
 		bullet_name = "feiji_qiaokelixiangjiao",
 		orbit_ui_bound = "",
@@ -22107,8 +23680,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[651] = {
+	}
+	pg.base.equip_skin_template[651] = {
 		hit_sfx = "",
 		bullet_name = "feiji_qiaokelixiangjiao",
 		orbit_ui_bound = "",
@@ -22146,8 +23719,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[652] = {
+	}
+	pg.base.equip_skin_template[652] = {
 		hit_sfx = "",
 		bullet_name = "feiji_qiaokelixiangjiao",
 		orbit_ui_bound = "",
@@ -22185,8 +23758,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[653] = {
+	}
+	pg.base.equip_skin_template[653] = {
 		hit_sfx = "",
 		bullet_name = "feiji_pingguotang",
 		orbit_ui_bound = "",
@@ -22224,8 +23797,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[654] = {
+	}
+	pg.base.equip_skin_template[654] = {
 		hit_sfx = "",
 		bullet_name = "feiji_pingguotang",
 		orbit_ui_bound = "",
@@ -22263,8 +23836,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[655] = {
+	}
+	pg.base.equip_skin_template[655] = {
 		hit_sfx = "",
 		bullet_name = "feiji_pingguotang",
 		orbit_ui_bound = "",
@@ -22302,8 +23875,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[656] = {
+	}
+	pg.base.equip_skin_template[656] = {
 		hit_sfx = "",
 		bullet_name = "zidan_yuedongfeiti",
 		orbit_ui_bound = "",
@@ -22343,8 +23916,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[657] = {
+	}
+	pg.base.equip_skin_template[657] = {
 		hit_sfx = "",
 		bullet_name = "paodan_tutuhuoqiu",
 		orbit_ui_bound = "",
@@ -22384,8 +23957,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[658] = {
+	}
+	pg.base.equip_skin_template[658] = {
 		hit_sfx = "",
 		bullet_name = "yulei_zhanshizhifu",
 		orbit_ui_bound = "",
@@ -22424,8 +23997,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[659] = {
+	}
+	pg.base.equip_skin_template[659] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -22483,8 +24056,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[660] = {
+	}
+	pg.base.equip_skin_template[660] = {
 		hit_sfx = "",
 		bullet_name = "feiji_shilaimu",
 		orbit_ui_bound = "",
@@ -22522,8 +24095,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[661] = {
+	}
+	pg.base.equip_skin_template[661] = {
 		hit_sfx = "",
 		bullet_name = "feiji_shilaimu",
 		orbit_ui_bound = "",
@@ -22561,8 +24134,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[662] = {
+	}
+	pg.base.equip_skin_template[662] = {
 		hit_sfx = "",
 		bullet_name = "feiji_shilaimu",
 		orbit_ui_bound = "",
@@ -22600,8 +24173,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[670] = {
+	}
+	pg.base.equip_skin_template[670] = {
 		hit_sfx = "",
 		bullet_name = "zidan_wanshengtangguo",
 		orbit_ui_bound = "",
@@ -22641,8 +24214,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[671] = {
+	}
+	pg.base.equip_skin_template[671] = {
 		hit_sfx = "",
 		bullet_name = "zidan_guaiwubinggan",
 		orbit_ui_bound = "",
@@ -22682,8 +24255,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[672] = {
+	}
+	pg.base.equip_skin_template[672] = {
 		hit_sfx = "",
 		bullet_name = "zidan_shuijingbainfu",
 		orbit_ui_bound = "",
@@ -22723,8 +24296,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[673] = {
+	}
+	pg.base.equip_skin_template[673] = {
 		hit_sfx = "",
 		bullet_name = "paodan_shimubei",
 		orbit_ui_bound = "",
@@ -22764,8 +24337,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[674] = {
+	}
+	pg.base.equip_skin_template[674] = {
 		hit_sfx = "",
 		bullet_name = "paodan_nanguadaocaoren",
 		orbit_ui_bound = "",
@@ -22805,8 +24378,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[675] = {
+	}
+	pg.base.equip_skin_template[675] = {
 		hit_sfx = "",
 		bullet_name = "paodan_nanguatou",
 		orbit_ui_bound = "",
@@ -22846,8 +24419,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[676] = {
+	}
+	pg.base.equip_skin_template[676] = {
 		hit_sfx = "",
 		bullet_name = "yulei_youling",
 		orbit_ui_bound = "",
@@ -22886,8 +24459,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[677] = {
+	}
+	pg.base.equip_skin_template[677] = {
 		hit_sfx = "",
 		bullet_name = "yulei_zhizhu",
 		orbit_ui_bound = "",
@@ -22926,8 +24499,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[678] = {
+	}
+	pg.base.equip_skin_template[678] = {
 		hit_sfx = "",
 		bullet_name = "yulei_lazhu",
 		orbit_ui_bound = "",
@@ -22966,8 +24539,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[679] = {
+	}
+	pg.base.equip_skin_template[679] = {
 		hit_sfx = "",
 		bullet_name = "feiji_youlingnanguache",
 		orbit_ui_bound = "",
@@ -23005,8 +24578,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[680] = {
+	}
+	pg.base.equip_skin_template[680] = {
 		hit_sfx = "",
 		bullet_name = "feiji_youlingnanguache",
 		orbit_ui_bound = "",
@@ -23044,8 +24617,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[681] = {
+	}
+	pg.base.equip_skin_template[681] = {
 		hit_sfx = "",
 		bullet_name = "feiji_youlingnanguache",
 		orbit_ui_bound = "",
@@ -23083,8 +24656,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[682] = {
+	}
+	pg.base.equip_skin_template[682] = {
 		hit_sfx = "",
 		bullet_name = "feiji_youlingfashi",
 		orbit_ui_bound = "",
@@ -23122,8 +24695,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[683] = {
+	}
+	pg.base.equip_skin_template[683] = {
 		hit_sfx = "",
 		bullet_name = "feiji_youlingfashi",
 		orbit_ui_bound = "",
@@ -23161,8 +24734,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[684] = {
+	}
+	pg.base.equip_skin_template[684] = {
 		hit_sfx = "",
 		bullet_name = "feiji_youlingfashi",
 		orbit_ui_bound = "",
@@ -23200,8 +24773,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[685] = {
+	}
+	pg.base.equip_skin_template[685] = {
 		hit_sfx = "",
 		bullet_name = "feiji_hualisaozhou",
 		orbit_ui_bound = "",
@@ -23239,8 +24812,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[686] = {
+	}
+	pg.base.equip_skin_template[686] = {
 		hit_sfx = "",
 		bullet_name = "feiji_hualisaozhou",
 		orbit_ui_bound = "",
@@ -23278,8 +24851,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[687] = {
+	}
+	pg.base.equip_skin_template[687] = {
 		hit_sfx = "",
 		bullet_name = "feiji_hualisaozhou",
 		orbit_ui_bound = "",
@@ -23317,8 +24890,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[690] = {
+	}
+	pg.base.equip_skin_template[690] = {
 		hit_sfx = "",
 		bullet_name = "zidan_beike",
 		orbit_ui_bound = "",
@@ -23358,8 +24931,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[691] = {
+	}
+	pg.base.equip_skin_template[691] = {
 		hit_sfx = "",
 		bullet_name = "zidan_yezi",
 		orbit_ui_bound = "",
@@ -23399,8 +24972,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[692] = {
+	}
+	pg.base.equip_skin_template[692] = {
 		hit_sfx = "",
 		bullet_name = "zidan_shachan",
 		orbit_ui_bound = "",
@@ -23440,8 +25013,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[693] = {
+	}
+	pg.base.equip_skin_template[693] = {
 		hit_sfx = "",
 		bullet_name = "paodan_yongquan",
 		orbit_ui_bound = "",
@@ -23481,8 +25054,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[694] = {
+	}
+	pg.base.equip_skin_template[694] = {
 		hit_sfx = "",
 		bullet_name = "paodan_shatanpaiqiu",
 		orbit_ui_bound = "",
@@ -23522,8 +25095,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[695] = {
+	}
+	pg.base.equip_skin_template[695] = {
 		hit_sfx = "",
 		bullet_name = "paodan_jinqiangyu",
 		orbit_ui_bound = "",
@@ -23563,8 +25136,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[696] = {
+	}
+	pg.base.equip_skin_template[696] = {
 		hit_sfx = "",
 		bullet_name = "yulei_mudiao",
 		orbit_ui_bound = "",
@@ -23603,8 +25176,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[697] = {
+	}
+	pg.base.equip_skin_template[697] = {
 		hit_sfx = "",
 		bullet_name = "yulei_piaoliuping",
 		orbit_ui_bound = "",
@@ -23643,8 +25216,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[698] = {
+	}
+	pg.base.equip_skin_template[698] = {
 		hit_sfx = "",
 		bullet_name = "yulei_chonglangban",
 		orbit_ui_bound = "",
@@ -23683,8 +25256,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[699] = {
+	}
+	pg.base.equip_skin_template[699] = {
 		hit_sfx = "",
 		bullet_name = "feiji_dujiajiu1",
 		orbit_ui_bound = "",
@@ -23722,8 +25295,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[700] = {
+	}
+	pg.base.equip_skin_template[700] = {
 		hit_sfx = "",
 		bullet_name = "feiji_dujiajiu1",
 		orbit_ui_bound = "",
@@ -23761,8 +25334,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[701] = {
+	}
+	pg.base.equip_skin_template[701] = {
 		hit_sfx = "",
 		bullet_name = "feiji_dujiajiu1",
 		orbit_ui_bound = "",
@@ -23800,8 +25373,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[702] = {
+	}
+	pg.base.equip_skin_template[702] = {
 		hit_sfx = "",
 		bullet_name = "feiji_motuoting",
 		orbit_ui_bound = "",
@@ -23839,8 +25412,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[703] = {
+	}
+	pg.base.equip_skin_template[703] = {
 		hit_sfx = "",
 		bullet_name = "feiji_motuoting",
 		orbit_ui_bound = "",
@@ -23878,8 +25451,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[704] = {
+	}
+	pg.base.equip_skin_template[704] = {
 		hit_sfx = "",
 		bullet_name = "feiji_motuoting",
 		orbit_ui_bound = "",
@@ -23917,8 +25490,10 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[705] = {
+	}
+end)()
+(function ()
+	pg.base.equip_skin_template[705] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yaoyu",
 		orbit_ui_bound = "",
@@ -23956,8 +25531,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[706] = {
+	}
+	pg.base.equip_skin_template[706] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yaoyu",
 		orbit_ui_bound = "",
@@ -23995,8 +25570,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[707] = {
+	}
+	pg.base.equip_skin_template[707] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yaoyu",
 		orbit_ui_bound = "",
@@ -24034,8 +25609,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[710] = {
+	}
+	pg.base.equip_skin_template[710] = {
 		hit_sfx = "",
 		bullet_name = "zidan_huajuan",
 		orbit_ui_bound = "",
@@ -24075,8 +25650,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[711] = {
+	}
+	pg.base.equip_skin_template[711] = {
 		hit_sfx = "",
 		bullet_name = "zidan_bozaigao",
 		orbit_ui_bound = "",
@@ -24116,8 +25691,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[712] = {
+	}
+	pg.base.equip_skin_template[712] = {
 		hit_sfx = "",
 		bullet_name = "zidan_choudoufu",
 		orbit_ui_bound = "",
@@ -24157,8 +25732,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[713] = {
+	}
+	pg.base.equip_skin_template[713] = {
 		hit_sfx = "",
 		bullet_name = "paodan_songshuyu",
 		orbit_ui_bound = "",
@@ -24198,8 +25773,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[714] = {
+	}
+	pg.base.equip_skin_template[714] = {
 		hit_sfx = "",
 		bullet_name = "paodan_shizitou",
 		orbit_ui_bound = "",
@@ -24239,8 +25814,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[715] = {
+	}
+	pg.base.equip_skin_template[715] = {
 		hit_sfx = "",
 		bullet_name = "paodan_dongguazhong",
 		orbit_ui_bound = "",
@@ -24280,8 +25855,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[716] = {
+	}
+	pg.base.equip_skin_template[716] = {
 		hit_sfx = "",
 		bullet_name = "yulei_youtiao",
 		orbit_ui_bound = "",
@@ -24320,8 +25895,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[717] = {
+	}
+	pg.base.equip_skin_template[717] = {
 		hit_sfx = "",
 		bullet_name = "yulei_yangrouchuan",
 		orbit_ui_bound = "",
@@ -24360,8 +25935,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[718] = {
+	}
+	pg.base.equip_skin_template[718] = {
 		hit_sfx = "",
 		bullet_name = "yulei_mahua",
 		orbit_ui_bound = "",
@@ -24400,8 +25975,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[719] = {
+	}
+	pg.base.equip_skin_template[719] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tonghuoguo",
 		orbit_ui_bound = "",
@@ -24439,8 +26014,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[720] = {
+	}
+	pg.base.equip_skin_template[720] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tonghuoguo",
 		orbit_ui_bound = "",
@@ -24478,8 +26053,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[721] = {
+	}
+	pg.base.equip_skin_template[721] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tonghuoguo",
 		orbit_ui_bound = "",
@@ -24517,8 +26092,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[722] = {
+	}
+	pg.base.equip_skin_template[722] = {
 		hit_sfx = "",
 		bullet_name = "feiji_lamian",
 		orbit_ui_bound = "",
@@ -24556,8 +26131,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[723] = {
+	}
+	pg.base.equip_skin_template[723] = {
 		hit_sfx = "",
 		bullet_name = "feiji_lamian",
 		orbit_ui_bound = "",
@@ -24595,8 +26170,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[724] = {
+	}
+	pg.base.equip_skin_template[724] = {
 		hit_sfx = "",
 		bullet_name = "feiji_lamian",
 		orbit_ui_bound = "",
@@ -24634,8 +26209,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[725] = {
+	}
+	pg.base.equip_skin_template[725] = {
 		hit_sfx = "",
 		bullet_name = "feiji_baozi",
 		orbit_ui_bound = "",
@@ -24673,8 +26248,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[726] = {
+	}
+	pg.base.equip_skin_template[726] = {
 		hit_sfx = "",
 		bullet_name = "feiji_baozi",
 		orbit_ui_bound = "",
@@ -24712,8 +26287,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[727] = {
+	}
+	pg.base.equip_skin_template[727] = {
 		hit_sfx = "",
 		bullet_name = "feiji_baozi",
 		orbit_ui_bound = "",
@@ -24751,8 +26326,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[730] = {
+	}
+	pg.base.equip_skin_template[730] = {
 		hit_sfx = "",
 		bullet_name = "zidan_yumaobi",
 		orbit_ui_bound = "",
@@ -24792,8 +26367,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[731] = {
+	}
+	pg.base.equip_skin_template[731] = {
 		hit_sfx = "",
 		bullet_name = "zidan_zhituan",
 		orbit_ui_bound = "",
@@ -24833,8 +26408,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[732] = {
+	}
+	pg.base.equip_skin_template[732] = {
 		hit_sfx = "",
 		bullet_name = "zidan_yanjing",
 		orbit_ui_bound = "",
@@ -24874,8 +26449,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[733] = {
+	}
+	pg.base.equip_skin_template[733] = {
 		hit_sfx = "",
 		bullet_name = "paodan_shubao",
 		orbit_ui_bound = "",
@@ -24915,8 +26490,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[734] = {
+	}
+	pg.base.equip_skin_template[734] = {
 		hit_sfx = "",
 		bullet_name = "paodan_diqiuyi",
 		orbit_ui_bound = "",
@@ -24956,8 +26531,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[735] = {
+	}
+	pg.base.equip_skin_template[735] = {
 		hit_sfx = "",
 		bullet_name = "paodan_chizi",
 		orbit_ui_bound = "",
@@ -24997,8 +26572,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[736] = {
+	}
+	pg.base.equip_skin_template[736] = {
 		hit_sfx = "",
 		bullet_name = "yulei_bijiben",
 		orbit_ui_bound = "",
@@ -25037,8 +26612,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[737] = {
+	}
+	pg.base.equip_skin_template[737] = {
 		hit_sfx = "",
 		bullet_name = "yulei_yusan",
 		orbit_ui_bound = "",
@@ -25077,8 +26652,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[738] = {
+	}
+	pg.base.equip_skin_template[738] = {
 		hit_sfx = "",
 		bullet_name = "yulei_danhuangguan",
 		orbit_ui_bound = "",
@@ -25117,8 +26692,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[739] = {
+	}
+	pg.base.equip_skin_template[739] = {
 		hit_sfx = "",
 		bullet_name = "feiji_gangqin",
 		orbit_ui_bound = "",
@@ -25156,8 +26731,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[740] = {
+	}
+	pg.base.equip_skin_template[740] = {
 		hit_sfx = "",
 		bullet_name = "feiji_gangqin",
 		orbit_ui_bound = "",
@@ -25195,8 +26770,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[741] = {
+	}
+	pg.base.equip_skin_template[741] = {
 		hit_sfx = "",
 		bullet_name = "feiji_gangqin",
 		orbit_ui_bound = "",
@@ -25234,8 +26809,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[742] = {
+	}
+	pg.base.equip_skin_template[742] = {
 		hit_sfx = "",
 		bullet_name = "feiji_heiban",
 		orbit_ui_bound = "",
@@ -25273,8 +26848,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[743] = {
+	}
+	pg.base.equip_skin_template[743] = {
 		hit_sfx = "",
 		bullet_name = "feiji_heiban",
 		orbit_ui_bound = "",
@@ -25312,8 +26887,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[744] = {
+	}
+	pg.base.equip_skin_template[744] = {
 		hit_sfx = "",
 		bullet_name = "feiji_heiban",
 		orbit_ui_bound = "",
@@ -25351,8 +26926,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[745] = {
+	}
+	pg.base.equip_skin_template[745] = {
 		hit_sfx = "",
 		bullet_name = "feiji_diaoxiang",
 		orbit_ui_bound = "",
@@ -25390,8 +26965,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[746] = {
+	}
+	pg.base.equip_skin_template[746] = {
 		hit_sfx = "",
 		bullet_name = "feiji_diaoxiang",
 		orbit_ui_bound = "",
@@ -25429,8 +27004,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[747] = {
+	}
+	pg.base.equip_skin_template[747] = {
 		hit_sfx = "",
 		bullet_name = "feiji_diaoxiang",
 		orbit_ui_bound = "",
@@ -25468,8 +27043,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[750] = {
+	}
+	pg.base.equip_skin_template[750] = {
 		hit_sfx = "",
 		bullet_name = "zidan_bishou",
 		orbit_ui_bound = "",
@@ -25509,8 +27084,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[751] = {
+	}
+	pg.base.equip_skin_template[751] = {
 		hit_sfx = "",
 		bullet_name = "zidan_zhinanzhen",
 		orbit_ui_bound = "",
@@ -25550,8 +27125,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[752] = {
+	}
+	pg.base.equip_skin_template[752] = {
 		hit_sfx = "",
 		bullet_name = "zidan_fangshaimao",
 		orbit_ui_bound = "",
@@ -25591,8 +27166,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[753] = {
+	}
+	pg.base.equip_skin_template[753] = {
 		hit_sfx = "",
 		bullet_name = "paodan_jijiuxiang",
 		orbit_ui_bound = "",
@@ -25632,8 +27207,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[754] = {
+	}
+	pg.base.equip_skin_template[754] = {
 		hit_sfx = "",
 		bullet_name = "paodan_dengshanbao",
 		orbit_ui_bound = "",
@@ -25673,8 +27248,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[755] = {
+	}
+	pg.base.equip_skin_template[755] = {
 		hit_sfx = "",
 		bullet_name = "paodan_dengshanxue",
 		orbit_ui_bound = "",
@@ -25714,8 +27289,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[756] = {
+	}
+	pg.base.equip_skin_template[756] = {
 		hit_sfx = "",
 		bullet_name = "yulei_shoudiantong",
 		orbit_ui_bound = "",
@@ -25754,8 +27329,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[757] = {
+	}
+	pg.base.equip_skin_template[757] = {
 		hit_sfx = "",
 		bullet_name = "yulei_dengshanshouzhang",
 		orbit_ui_bound = "",
@@ -25794,8 +27369,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[758] = {
+	}
+	pg.base.equip_skin_template[758] = {
 		hit_sfx = "",
 		bullet_name = "yulei_luyingdeng",
 		orbit_ui_bound = "",
@@ -25834,8 +27409,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[759] = {
+	}
+	pg.base.equip_skin_template[759] = {
 		hit_sfx = "",
 		bullet_name = "feiji_chongfengzhou",
 		orbit_ui_bound = "",
@@ -25873,8 +27448,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[760] = {
+	}
+	pg.base.equip_skin_template[760] = {
 		hit_sfx = "",
 		bullet_name = "feiji_chongfengzhou",
 		orbit_ui_bound = "",
@@ -25912,8 +27487,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[761] = {
+	}
+	pg.base.equip_skin_template[761] = {
 		hit_sfx = "",
 		bullet_name = "feiji_chongfengzhou",
 		orbit_ui_bound = "",
@@ -25951,8 +27526,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[762] = {
+	}
+	pg.base.equip_skin_template[762] = {
 		hit_sfx = "",
 		bullet_name = "feiji_xiaomotuo",
 		orbit_ui_bound = "",
@@ -25990,8 +27565,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[763] = {
+	}
+	pg.base.equip_skin_template[763] = {
 		hit_sfx = "",
 		bullet_name = "feiji_xiaomotuo",
 		orbit_ui_bound = "",
@@ -26029,8 +27604,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[764] = {
+	}
+	pg.base.equip_skin_template[764] = {
 		hit_sfx = "",
 		bullet_name = "feiji_xiaomotuo",
 		orbit_ui_bound = "",
@@ -26068,8 +27643,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[765] = {
+	}
+	pg.base.equip_skin_template[765] = {
 		hit_sfx = "",
 		bullet_name = "feiji_zhangpeng",
 		orbit_ui_bound = "",
@@ -26107,8 +27682,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[766] = {
+	}
+	pg.base.equip_skin_template[766] = {
 		hit_sfx = "",
 		bullet_name = "feiji_zhangpeng",
 		orbit_ui_bound = "",
@@ -26146,8 +27721,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[767] = {
+	}
+	pg.base.equip_skin_template[767] = {
 		hit_sfx = "",
 		bullet_name = "feiji_zhangpeng",
 		orbit_ui_bound = "",
@@ -26185,8 +27760,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[771] = {
+	}
+	pg.base.equip_skin_template[771] = {
 		hit_sfx = "",
 		bullet_name = "paodan_senlinzhixin_green",
 		orbit_ui_bound = "",
@@ -26226,8 +27801,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[772] = {
+	}
+	pg.base.equip_skin_template[772] = {
 		hit_sfx = "",
 		bullet_name = "paodan_senlinzhixin_purple",
 		orbit_ui_bound = "",
@@ -26267,8 +27842,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[773] = {
+	}
+	pg.base.equip_skin_template[773] = {
 		hit_sfx = "",
 		bullet_name = "paodan_senlinzhixin_blue",
 		orbit_ui_bound = "",
@@ -26308,8 +27883,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[774] = {
+	}
+	pg.base.equip_skin_template[774] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -26367,8 +27942,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[775] = {
+	}
+	pg.base.equip_skin_template[775] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -26426,8 +28001,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[780] = {
+	}
+	pg.base.equip_skin_template[780] = {
 		hit_sfx = "",
 		bullet_name = "zidan_shubiao",
 		orbit_ui_bound = "",
@@ -26467,8 +28042,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[781] = {
+	}
+	pg.base.equip_skin_template[781] = {
 		hit_sfx = "",
 		bullet_name = "zidan_makebi",
 		orbit_ui_bound = "",
@@ -26508,8 +28083,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[782] = {
+	}
+	pg.base.equip_skin_template[782] = {
 		hit_sfx = "",
 		bullet_name = "zidan_gongpai",
 		orbit_ui_bound = "",
@@ -26549,8 +28124,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[783] = {
+	}
+	pg.base.equip_skin_template[783] = {
 		hit_sfx = "",
 		bullet_name = "paodan_zhuji",
 		orbit_ui_bound = "",
@@ -26590,8 +28165,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[784] = {
+	}
+	pg.base.equip_skin_template[784] = {
 		hit_sfx = "",
 		bullet_name = "paodan_shuweiban",
 		orbit_ui_bound = "",
@@ -26631,8 +28206,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[785] = {
+	}
+	pg.base.equip_skin_template[785] = {
 		hit_sfx = "",
 		bullet_name = "paodan_gaogenxie",
 		orbit_ui_bound = "",
@@ -26672,8 +28247,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[786] = {
+	}
+	pg.base.equip_skin_template[786] = {
 		hit_sfx = "",
 		bullet_name = "yulei_riguangdeng",
 		orbit_ui_bound = "",
@@ -26712,8 +28287,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[787] = {
+	}
+	pg.base.equip_skin_template[787] = {
 		hit_sfx = "",
 		bullet_name = "yulei_kafeibei",
 		orbit_ui_bound = "",
@@ -26752,8 +28327,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[788] = {
+	}
+	pg.base.equip_skin_template[788] = {
 		hit_sfx = "",
 		bullet_name = "yulei_jianpan",
 		orbit_ui_bound = "",
@@ -26792,8 +28367,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[789] = {
+	}
+	pg.base.equip_skin_template[789] = {
 		hit_sfx = "",
 		bullet_name = "feiji_xianshiqi",
 		orbit_ui_bound = "",
@@ -26831,8 +28406,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[790] = {
+	}
+	pg.base.equip_skin_template[790] = {
 		hit_sfx = "",
 		bullet_name = "feiji_xianshiqi",
 		orbit_ui_bound = "",
@@ -26870,8 +28445,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[791] = {
+	}
+	pg.base.equip_skin_template[791] = {
 		hit_sfx = "",
 		bullet_name = "feiji_xianshiqi",
 		orbit_ui_bound = "",
@@ -26909,8 +28484,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[792] = {
+	}
+	pg.base.equip_skin_template[792] = {
 		hit_sfx = "",
 		bullet_name = "feiji_bangongyi",
 		orbit_ui_bound = "",
@@ -26948,8 +28523,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[793] = {
+	}
+	pg.base.equip_skin_template[793] = {
 		hit_sfx = "",
 		bullet_name = "feiji_bangongyi",
 		orbit_ui_bound = "",
@@ -26987,8 +28562,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[794] = {
+	}
+	pg.base.equip_skin_template[794] = {
 		hit_sfx = "",
 		bullet_name = "feiji_bangongyi",
 		orbit_ui_bound = "",
@@ -27026,8 +28601,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[795] = {
+	}
+	pg.base.equip_skin_template[795] = {
 		hit_sfx = "",
 		bullet_name = "feiji_baiban",
 		orbit_ui_bound = "",
@@ -27065,8 +28640,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[796] = {
+	}
+	pg.base.equip_skin_template[796] = {
 		hit_sfx = "",
 		bullet_name = "feiji_baiban",
 		orbit_ui_bound = "",
@@ -27104,8 +28679,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[797] = {
+	}
+	pg.base.equip_skin_template[797] = {
 		hit_sfx = "",
 		bullet_name = "feiji_baiban",
 		orbit_ui_bound = "",
@@ -27143,8 +28718,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[800] = {
+	}
+	pg.base.equip_skin_template[800] = {
 		hit_sfx = "",
 		bullet_name = "zidan_gulitejiguang",
 		orbit_ui_bound = "",
@@ -27184,8 +28759,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[801] = {
+	}
+	pg.base.equip_skin_template[801] = {
 		hit_sfx = "",
 		bullet_name = "paodan_yuanhuanguangren",
 		orbit_ui_bound = "",
@@ -27225,8 +28800,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[802] = {
+	}
+	pg.base.equip_skin_template[802] = {
 		hit_sfx = "",
 		bullet_name = "yulei_chongnengyulei",
 		orbit_ui_bound = "",
@@ -27265,8 +28840,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[803] = {
+	}
+	pg.base.equip_skin_template[803] = {
 		hit_sfx = "",
 		bullet_name = "feiji_judayanlong",
 		orbit_ui_bound = "",
@@ -27304,8 +28879,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[804] = {
+	}
+	pg.base.equip_skin_template[804] = {
 		hit_sfx = "",
 		bullet_name = "feiji_judayanlong",
 		orbit_ui_bound = "",
@@ -27343,8 +28918,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[805] = {
+	}
+	pg.base.equip_skin_template[805] = {
 		hit_sfx = "",
 		bullet_name = "feiji_judayanlong",
 		orbit_ui_bound = "",
@@ -27382,8 +28957,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[806] = {
+	}
+	pg.base.equip_skin_template[806] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 2,
@@ -27477,8 +29052,8 @@ pg.equip_skin_template = {
 				}
 			}
 		}
-	},
-	[810] = {
+	}
+	pg.base.equip_skin_template[810] = {
 		hit_sfx = "",
 		bullet_name = "zidan_paopao",
 		orbit_ui_bound = "",
@@ -27518,8 +29093,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[811] = {
+	}
+	pg.base.equip_skin_template[811] = {
 		hit_sfx = "",
 		bullet_name = "zidan_yaoqinghan",
 		orbit_ui_bound = "",
@@ -27559,8 +29134,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[812] = {
+	}
+	pg.base.equip_skin_template[812] = {
 		hit_sfx = "",
 		bullet_name = "zidan_xiaodianxin",
 		orbit_ui_bound = "",
@@ -27600,8 +29175,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[813] = {
+	}
+	pg.base.equip_skin_template[813] = {
 		hit_sfx = "",
 		bullet_name = "paodan_yanhua",
 		orbit_ui_bound = "",
@@ -27641,8 +29216,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[814] = {
+	}
+	pg.base.equip_skin_template[814] = {
 		hit_sfx = "",
 		bullet_name = "paodan_diaosu",
 		orbit_ui_bound = "",
@@ -27682,8 +29257,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[815] = {
+	}
+	pg.base.equip_skin_template[815] = {
 		hit_sfx = "",
 		bullet_name = "paodan_huashu",
 		orbit_ui_bound = "",
@@ -27723,8 +29298,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[816] = {
+	}
+	pg.base.equip_skin_template[816] = {
 		hit_sfx = "",
 		bullet_name = "yulei_yaoshi",
 		orbit_ui_bound = "",
@@ -27763,8 +29338,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[817] = {
+	}
+	pg.base.equip_skin_template[817] = {
 		hit_sfx = "",
 		bullet_name = "yulei_tideng",
 		orbit_ui_bound = "",
@@ -27803,8 +29378,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[818] = {
+	}
+	pg.base.equip_skin_template[818] = {
 		hit_sfx = "",
 		bullet_name = "yulei_xiangbin",
 		orbit_ui_bound = "",
@@ -27843,8 +29418,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[819] = {
+	}
+	pg.base.equip_skin_template[819] = {
 		hit_sfx = "",
 		bullet_name = "feiji_menghuanchengbao",
 		orbit_ui_bound = "",
@@ -27882,8 +29457,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[820] = {
+	}
+	pg.base.equip_skin_template[820] = {
 		hit_sfx = "",
 		bullet_name = "feiji_menghuanchengbao",
 		orbit_ui_bound = "",
@@ -27921,8 +29496,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[821] = {
+	}
+	pg.base.equip_skin_template[821] = {
 		hit_sfx = "",
 		bullet_name = "feiji_menghuanchengbao",
 		orbit_ui_bound = "",
@@ -27960,8 +29535,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[822] = {
+	}
+	pg.base.equip_skin_template[822] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yaoyuehuache",
 		orbit_ui_bound = "",
@@ -27999,8 +29574,10 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[823] = {
+	}
+end)()
+(function ()
+	pg.base.equip_skin_template[823] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yaoyuehuache",
 		orbit_ui_bound = "",
@@ -28038,8 +29615,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[824] = {
+	}
+	pg.base.equip_skin_template[824] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yaoyuehuache",
 		orbit_ui_bound = "",
@@ -28077,8 +29654,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[825] = {
+	}
+	pg.base.equip_skin_template[825] = {
 		hit_sfx = "",
 		bullet_name = "feiji_haohuashafa",
 		orbit_ui_bound = "",
@@ -28116,8 +29693,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[826] = {
+	}
+	pg.base.equip_skin_template[826] = {
 		hit_sfx = "",
 		bullet_name = "feiji_haohuashafa",
 		orbit_ui_bound = "",
@@ -28155,8 +29732,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[827] = {
+	}
+	pg.base.equip_skin_template[827] = {
 		hit_sfx = "",
 		bullet_name = "feiji_haohuashafa",
 		orbit_ui_bound = "",
@@ -28194,8 +29771,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[830] = {
+	}
+	pg.base.equip_skin_template[830] = {
 		hit_sfx = "",
 		bullet_name = "zidan_youhun",
 		orbit_ui_bound = "",
@@ -28235,8 +29812,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[831] = {
+	}
+	pg.base.equip_skin_template[831] = {
 		hit_sfx = "",
 		bullet_name = "zidan_gouyu",
 		orbit_ui_bound = "",
@@ -28276,8 +29853,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[832] = {
+	}
+	pg.base.equip_skin_template[832] = {
 		hit_sfx = "",
 		bullet_name = "zidan_yinyangfu",
 		orbit_ui_bound = "",
@@ -28317,8 +29894,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[833] = {
+	}
+	pg.base.equip_skin_template[833] = {
 		hit_sfx = "",
 		bullet_name = "paodan_mianjv",
 		orbit_ui_bound = "",
@@ -28358,8 +29935,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[834] = {
+	}
+	pg.base.equip_skin_template[834] = {
 		hit_sfx = "",
 		bullet_name = "paodan_fudou",
 		orbit_ui_bound = "",
@@ -28399,8 +29976,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[835] = {
+	}
+	pg.base.equip_skin_template[835] = {
 		hit_sfx = "",
 		bullet_name = "paodan_fuyouling",
 		orbit_ui_bound = "",
@@ -28440,8 +30017,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[836] = {
+	}
+	pg.base.equip_skin_template[836] = {
 		hit_sfx = "",
 		bullet_name = "yulei_dongqing",
 		orbit_ui_bound = "",
@@ -28480,8 +30057,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[837] = {
+	}
+	pg.base.equip_skin_template[837] = {
 		hit_sfx = "",
 		bullet_name = "yulei_huifangjuan",
 		orbit_ui_bound = "",
@@ -28520,8 +30097,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[838] = {
+	}
+	pg.base.equip_skin_template[838] = {
 		hit_sfx = "",
 		bullet_name = "yulei_chabei",
 		orbit_ui_bound = "",
@@ -28560,8 +30137,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[839] = {
+	}
+	pg.base.equip_skin_template[839] = {
 		hit_sfx = "",
 		bullet_name = "feiji_jiuweihu",
 		orbit_ui_bound = "",
@@ -28599,8 +30176,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[840] = {
+	}
+	pg.base.equip_skin_template[840] = {
 		hit_sfx = "",
 		bullet_name = "feiji_jiuweihu",
 		orbit_ui_bound = "",
@@ -28638,8 +30215,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[841] = {
+	}
+	pg.base.equip_skin_template[841] = {
 		hit_sfx = "",
 		bullet_name = "feiji_jiuweihu",
 		orbit_ui_bound = "",
@@ -28677,8 +30254,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[842] = {
+	}
+	pg.base.equip_skin_template[842] = {
 		hit_sfx = "",
 		bullet_name = "feiji_hetong",
 		orbit_ui_bound = "",
@@ -28716,8 +30293,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[843] = {
+	}
+	pg.base.equip_skin_template[843] = {
 		hit_sfx = "",
 		bullet_name = "feiji_hetong",
 		orbit_ui_bound = "",
@@ -28755,8 +30332,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[844] = {
+	}
+	pg.base.equip_skin_template[844] = {
 		hit_sfx = "",
 		bullet_name = "feiji_hetong",
 		orbit_ui_bound = "",
@@ -28794,8 +30371,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[845] = {
+	}
+	pg.base.equip_skin_template[845] = {
 		hit_sfx = "",
 		bullet_name = "feiji_xuenv",
 		orbit_ui_bound = "",
@@ -28833,8 +30410,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[846] = {
+	}
+	pg.base.equip_skin_template[846] = {
 		hit_sfx = "",
 		bullet_name = "feiji_xuenv",
 		orbit_ui_bound = "",
@@ -28872,8 +30449,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[847] = {
+	}
+	pg.base.equip_skin_template[847] = {
 		hit_sfx = "",
 		bullet_name = "feiji_xuenv",
 		orbit_ui_bound = "",
@@ -28911,8 +30488,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[850] = {
+	}
+	pg.base.equip_skin_template[850] = {
 		hit_sfx = "",
 		bullet_name = "zidan_yanzhao",
 		orbit_ui_bound = "",
@@ -28952,8 +30529,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[851] = {
+	}
+	pg.base.equip_skin_template[851] = {
 		hit_sfx = "",
 		bullet_name = "zidan_gouzi",
 		orbit_ui_bound = "",
@@ -28993,8 +30570,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[852] = {
+	}
+	pg.base.equip_skin_template[852] = {
 		hit_sfx = "",
 		bullet_name = "zidan_wandao",
 		orbit_ui_bound = "",
@@ -29034,8 +30611,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[853] = {
+	}
+	pg.base.equip_skin_template[853] = {
 		hit_sfx = "",
 		bullet_name = "paodan_baoxiang",
 		orbit_ui_bound = "",
@@ -29075,8 +30652,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[854] = {
+	}
+	pg.base.equip_skin_template[854] = {
 		hit_sfx = "",
 		bullet_name = "paodan_baopodan",
 		orbit_ui_bound = "",
@@ -29116,8 +30693,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[855] = {
+	}
+	pg.base.equip_skin_template[855] = {
 		hit_sfx = "",
 		bullet_name = "paodan_zhinanzhenhd",
 		orbit_ui_bound = "",
@@ -29157,8 +30734,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[856] = {
+	}
+	pg.base.equip_skin_template[856] = {
 		hit_sfx = "",
 		bullet_name = "yulei_suifashouqiang",
 		orbit_ui_bound = "",
@@ -29197,8 +30774,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[857] = {
+	}
+	pg.base.equip_skin_template[857] = {
 		hit_sfx = "",
 		bullet_name = "yulei_jiatui",
 		orbit_ui_bound = "",
@@ -29237,8 +30814,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[858] = {
+	}
+	pg.base.equip_skin_template[858] = {
 		hit_sfx = "",
 		bullet_name = "yulei_chushou",
 		orbit_ui_bound = "",
@@ -29277,8 +30854,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[859] = {
+	}
+	pg.base.equip_skin_template[859] = {
 		hit_sfx = "",
 		bullet_name = "feiji_haidaochuan",
 		orbit_ui_bound = "",
@@ -29316,8 +30893,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[860] = {
+	}
+	pg.base.equip_skin_template[860] = {
 		hit_sfx = "",
 		bullet_name = "feiji_haidaochuan",
 		orbit_ui_bound = "",
@@ -29355,8 +30932,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[861] = {
+	}
+	pg.base.equip_skin_template[861] = {
 		hit_sfx = "",
 		bullet_name = "feiji_haidaochuan",
 		orbit_ui_bound = "",
@@ -29394,8 +30971,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[862] = {
+	}
+	pg.base.equip_skin_template[862] = {
 		hit_sfx = "",
 		bullet_name = "feiji_huangjiachuan",
 		orbit_ui_bound = "",
@@ -29433,8 +31010,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[863] = {
+	}
+	pg.base.equip_skin_template[863] = {
 		hit_sfx = "",
 		bullet_name = "feiji_huangjiachuan",
 		orbit_ui_bound = "",
@@ -29472,8 +31049,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[864] = {
+	}
+	pg.base.equip_skin_template[864] = {
 		hit_sfx = "",
 		bullet_name = "feiji_huangjiachuan",
 		orbit_ui_bound = "",
@@ -29511,8 +31088,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[865] = {
+	}
+	pg.base.equip_skin_template[865] = {
 		hit_sfx = "",
 		bullet_name = "feiji_youlingchuan",
 		orbit_ui_bound = "",
@@ -29550,8 +31127,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[866] = {
+	}
+	pg.base.equip_skin_template[866] = {
 		hit_sfx = "",
 		bullet_name = "feiji_youlingchuan",
 		orbit_ui_bound = "",
@@ -29589,8 +31166,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[867] = {
+	}
+	pg.base.equip_skin_template[867] = {
 		hit_sfx = "",
 		bullet_name = "feiji_youlingchuan",
 		orbit_ui_bound = "",
@@ -29628,8 +31205,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[870] = {
+	}
+	pg.base.equip_skin_template[870] = {
 		hit_sfx = "",
 		bullet_name = "zidan_maikefeng",
 		orbit_ui_bound = "",
@@ -29669,8 +31246,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[871] = {
+	}
+	pg.base.equip_skin_template[871] = {
 		hit_sfx = "",
 		bullet_name = "zidan_tuer",
 		orbit_ui_bound = "",
@@ -29710,8 +31287,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[872] = {
+	}
+	pg.base.equip_skin_template[872] = {
 		hit_sfx = "",
 		bullet_name = "zidan_yinliao",
 		orbit_ui_bound = "",
@@ -29751,8 +31328,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[873] = {
+	}
+	pg.base.equip_skin_template[873] = {
 		hit_sfx = "",
 		bullet_name = "paodan_changpian",
 		orbit_ui_bound = "",
@@ -29792,8 +31369,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[874] = {
+	}
+	pg.base.equip_skin_template[874] = {
 		hit_sfx = "",
 		bullet_name = "paodan_dengqiu",
 		orbit_ui_bound = "",
@@ -29833,8 +31410,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[875] = {
+	}
+	pg.base.equip_skin_template[875] = {
 		hit_sfx = "",
 		bullet_name = "paodan_laba",
 		orbit_ui_bound = "",
@@ -29874,8 +31451,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[876] = {
+	}
+	pg.base.equip_skin_template[876] = {
 		hit_sfx = "",
 		bullet_name = "yulei_nihongjita",
 		orbit_ui_bound = "",
@@ -29914,8 +31491,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[877] = {
+	}
+	pg.base.equip_skin_template[877] = {
 		hit_sfx = "",
 		bullet_name = "yulei_nihongluobo",
 		orbit_ui_bound = "",
@@ -29954,8 +31531,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[878] = {
+	}
+	pg.base.equip_skin_template[878] = {
 		hit_sfx = "",
 		bullet_name = "yulei_nihongyinxiang",
 		orbit_ui_bound = "",
@@ -29994,8 +31571,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[879] = {
+	}
+	pg.base.equip_skin_template[879] = {
 		hit_sfx = "",
 		bullet_name = "feiji_wutai",
 		orbit_ui_bound = "",
@@ -30033,8 +31610,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[880] = {
+	}
+	pg.base.equip_skin_template[880] = {
 		hit_sfx = "",
 		bullet_name = "feiji_wutai",
 		orbit_ui_bound = "",
@@ -30072,8 +31649,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[881] = {
+	}
+	pg.base.equip_skin_template[881] = {
 		hit_sfx = "",
 		bullet_name = "feiji_wutai",
 		orbit_ui_bound = "",
@@ -30111,8 +31688,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[882] = {
+	}
+	pg.base.equip_skin_template[882] = {
 		hit_sfx = "",
 		bullet_name = "feiji_DJtai",
 		orbit_ui_bound = "",
@@ -30150,8 +31727,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[883] = {
+	}
+	pg.base.equip_skin_template[883] = {
 		hit_sfx = "",
 		bullet_name = "feiji_DJtai",
 		orbit_ui_bound = "",
@@ -30189,8 +31766,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[884] = {
+	}
+	pg.base.equip_skin_template[884] = {
 		hit_sfx = "",
 		bullet_name = "feiji_DJtai",
 		orbit_ui_bound = "",
@@ -30228,8 +31805,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[885] = {
+	}
+	pg.base.equip_skin_template[885] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tiaojiutai",
 		orbit_ui_bound = "",
@@ -30267,8 +31844,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[886] = {
+	}
+	pg.base.equip_skin_template[886] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tiaojiutai",
 		orbit_ui_bound = "",
@@ -30306,8 +31883,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[887] = {
+	}
+	pg.base.equip_skin_template[887] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tiaojiutai",
 		orbit_ui_bound = "",
@@ -30345,8 +31922,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[890] = {
+	}
+	pg.base.equip_skin_template[890] = {
 		hit_sfx = "",
 		bullet_name = "zidan_fantianying",
 		orbit_ui_bound = "",
@@ -30386,8 +31963,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[891] = {
+	}
+	pg.base.equip_skin_template[891] = {
 		hit_sfx = "",
 		bullet_name = "zidan_feijian",
 		orbit_ui_bound = "",
@@ -30427,8 +32004,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[892] = {
+	}
+	pg.base.equip_skin_template[892] = {
 		hit_sfx = "",
 		bullet_name = "zidan_linglongqiu",
 		orbit_ui_bound = "",
@@ -30468,8 +32045,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[893] = {
+	}
+	pg.base.equip_skin_template[893] = {
 		hit_sfx = "",
 		bullet_name = "paodan_bagua",
 		orbit_ui_bound = "",
@@ -30509,8 +32086,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[894] = {
+	}
+	pg.base.equip_skin_template[894] = {
 		hit_sfx = "",
 		bullet_name = "paodan_hulu",
 		orbit_ui_bound = "",
@@ -30550,8 +32127,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[895] = {
+	}
+	pg.base.equip_skin_template[895] = {
 		hit_sfx = "",
 		bullet_name = "paodan_jianzhen",
 		orbit_ui_bound = "",
@@ -30591,8 +32168,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[896] = {
+	}
+	pg.base.equip_skin_template[896] = {
 		hit_sfx = "",
 		bullet_name = "yulei_dizi",
 		orbit_ui_bound = "",
@@ -30631,8 +32208,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[897] = {
+	}
+	pg.base.equip_skin_template[897] = {
 		hit_sfx = "",
 		bullet_name = "yulei_fuchen",
 		orbit_ui_bound = "",
@@ -30671,8 +32248,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[898] = {
+	}
+	pg.base.equip_skin_template[898] = {
 		hit_sfx = "",
 		bullet_name = "yulei_guqin",
 		orbit_ui_bound = "",
@@ -30711,8 +32288,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[899] = {
+	}
+	pg.base.equip_skin_template[899] = {
 		hit_sfx = "",
 		bullet_name = "feiji_juque",
 		orbit_ui_bound = "",
@@ -30750,8 +32327,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[900] = {
+	}
+	pg.base.equip_skin_template[900] = {
 		hit_sfx = "",
 		bullet_name = "feiji_juque",
 		orbit_ui_bound = "",
@@ -30789,8 +32366,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[901] = {
+	}
+	pg.base.equip_skin_template[901] = {
 		hit_sfx = "",
 		bullet_name = "feiji_juque",
 		orbit_ui_bound = "",
@@ -30828,8 +32405,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[902] = {
+	}
+	pg.base.equip_skin_template[902] = {
 		hit_sfx = "",
 		bullet_name = "feiji_mojian",
 		orbit_ui_bound = "",
@@ -30867,8 +32444,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[903] = {
+	}
+	pg.base.equip_skin_template[903] = {
 		hit_sfx = "",
 		bullet_name = "feiji_mojian",
 		orbit_ui_bound = "",
@@ -30906,8 +32483,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[904] = {
+	}
+	pg.base.equip_skin_template[904] = {
 		hit_sfx = "",
 		bullet_name = "feiji_mojian",
 		orbit_ui_bound = "",
@@ -30945,8 +32522,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[905] = {
+	}
+	pg.base.equip_skin_template[905] = {
 		hit_sfx = "",
 		bullet_name = "feiji_xuanyuan",
 		orbit_ui_bound = "",
@@ -30984,8 +32561,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[906] = {
+	}
+	pg.base.equip_skin_template[906] = {
 		hit_sfx = "",
 		bullet_name = "feiji_xuanyuan",
 		orbit_ui_bound = "",
@@ -31023,8 +32600,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[907] = {
+	}
+	pg.base.equip_skin_template[907] = {
 		hit_sfx = "",
 		bullet_name = "feiji_xuanyuan",
 		orbit_ui_bound = "",
@@ -31062,8 +32639,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[908] = {
+	}
+	pg.base.equip_skin_template[908] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -31121,8 +32698,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[910] = {
+	}
+	pg.base.equip_skin_template[910] = {
 		hit_sfx = "",
 		bullet_name = "zidan_guaidaoyanjin",
 		orbit_ui_bound = "",
@@ -31162,8 +32739,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[911] = {
+	}
+	pg.base.equip_skin_template[911] = {
 		hit_sfx = "",
 		bullet_name = "zidan_guaidaojiamian",
 		orbit_ui_bound = "",
@@ -31203,8 +32780,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[912] = {
+	}
+	pg.base.equip_skin_template[912] = {
 		hit_sfx = "",
 		bullet_name = "zidan_guaidaoqizi",
 		orbit_ui_bound = "",
@@ -31244,8 +32821,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[913] = {
+	}
+	pg.base.equip_skin_template[913] = {
 		hit_sfx = "",
 		bullet_name = "paodan_tegongxiong",
 		orbit_ui_bound = "",
@@ -31285,8 +32862,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[914] = {
+	}
+	pg.base.equip_skin_template[914] = {
 		hit_sfx = "",
 		bullet_name = "paodan_tegongtu",
 		orbit_ui_bound = "",
@@ -31326,8 +32903,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[915] = {
+	}
+	pg.base.equip_skin_template[915] = {
 		hit_sfx = "",
 		bullet_name = "paodan_tegongjiu",
 		orbit_ui_bound = "",
@@ -31367,8 +32944,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[916] = {
+	}
+	pg.base.equip_skin_template[916] = {
 		hit_sfx = "",
 		bullet_name = "yulei_qiubang",
 		orbit_ui_bound = "",
@@ -31407,8 +32984,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[917] = {
+	}
+	pg.base.equip_skin_template[917] = {
 		hit_sfx = "",
 		bullet_name = "yulei_zhadan",
 		orbit_ui_bound = "",
@@ -31447,8 +33024,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[918] = {
+	}
+	pg.base.equip_skin_template[918] = {
 		hit_sfx = "",
 		bullet_name = "yulei_duijiangji",
 		orbit_ui_bound = "",
@@ -31487,8 +33064,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[919] = {
+	}
+	pg.base.equip_skin_template[919] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tegongxiong",
 		orbit_ui_bound = "",
@@ -31526,8 +33103,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[920] = {
+	}
+	pg.base.equip_skin_template[920] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tegongxiong",
 		orbit_ui_bound = "",
@@ -31565,8 +33142,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[921] = {
+	}
+	pg.base.equip_skin_template[921] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tegongxiong",
 		orbit_ui_bound = "",
@@ -31604,8 +33181,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[922] = {
+	}
+	pg.base.equip_skin_template[922] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tegongtu",
 		orbit_ui_bound = "",
@@ -31643,8 +33220,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[923] = {
+	}
+	pg.base.equip_skin_template[923] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tegongtu",
 		orbit_ui_bound = "",
@@ -31682,8 +33259,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[924] = {
+	}
+	pg.base.equip_skin_template[924] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tegongtu",
 		orbit_ui_bound = "",
@@ -31721,8 +33298,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[925] = {
+	}
+	pg.base.equip_skin_template[925] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tegongjiu",
 		orbit_ui_bound = "",
@@ -31760,8 +33337,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[926] = {
+	}
+	pg.base.equip_skin_template[926] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tegongjiu",
 		orbit_ui_bound = "",
@@ -31799,8 +33376,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[927] = {
+	}
+	pg.base.equip_skin_template[927] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tegongjiu",
 		orbit_ui_bound = "",
@@ -31838,8 +33415,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[930] = {
+	}
+	pg.base.equip_skin_template[930] = {
 		hit_sfx = "",
 		bullet_name = "zidan_huoshimo",
 		orbit_ui_bound = "",
@@ -31879,8 +33456,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[931] = {
+	}
+	pg.base.equip_skin_template[931] = {
 		hit_sfx = "",
 		bullet_name = "zidan_leishimo",
 		orbit_ui_bound = "",
@@ -31920,8 +33497,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[932] = {
+	}
+	pg.base.equip_skin_template[932] = {
 		hit_sfx = "",
 		bullet_name = "zidan_bingshimo",
 		orbit_ui_bound = "",
@@ -31961,8 +33538,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[933] = {
+	}
+	pg.base.equip_skin_template[933] = {
 		hit_sfx = "",
 		bullet_name = "paodan_baodanshilaimu",
 		orbit_ui_bound = "",
@@ -32002,8 +33579,10 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[934] = {
+	}
+end)()
+(function ()
+	pg.base.equip_skin_template[934] = {
 		hit_sfx = "",
 		bullet_name = "paodan_guowangshilaimu",
 		orbit_ui_bound = "",
@@ -32043,8 +33622,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[935] = {
+	}
+	pg.base.equip_skin_template[935] = {
 		hit_sfx = "",
 		bullet_name = "paodan_mofashilaimu",
 		orbit_ui_bound = "",
@@ -32084,8 +33663,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[936] = {
+	}
+	pg.base.equip_skin_template[936] = {
 		hit_sfx = "",
 		bullet_name = "yulei_muzhang",
 		orbit_ui_bound = "",
@@ -32124,8 +33703,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[937] = {
+	}
+	pg.base.equip_skin_template[937] = {
 		hit_sfx = "",
 		bullet_name = "yulei_fazhang",
 		orbit_ui_bound = "",
@@ -32164,8 +33743,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[938] = {
+	}
+	pg.base.equip_skin_template[938] = {
 		hit_sfx = "",
 		bullet_name = "yulei_yongzhezhijian",
 		orbit_ui_bound = "",
@@ -32204,8 +33783,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[939] = {
+	}
+	pg.base.equip_skin_template[939] = {
 		hit_sfx = "",
 		bullet_name = "feiji_shimoshilaimu",
 		orbit_ui_bound = "",
@@ -32243,8 +33822,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[940] = {
+	}
+	pg.base.equip_skin_template[940] = {
 		hit_sfx = "",
 		bullet_name = "feiji_shimoshilaimu",
 		orbit_ui_bound = "",
@@ -32282,8 +33861,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[941] = {
+	}
+	pg.base.equip_skin_template[941] = {
 		hit_sfx = "",
 		bullet_name = "feiji_shimoshilaimu",
 		orbit_ui_bound = "",
@@ -32321,8 +33900,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[942] = {
+	}
+	pg.base.equip_skin_template[942] = {
 		hit_sfx = "",
 		bullet_name = "feiji_youhunshilaimu",
 		orbit_ui_bound = "",
@@ -32360,8 +33939,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[943] = {
+	}
+	pg.base.equip_skin_template[943] = {
 		hit_sfx = "",
 		bullet_name = "feiji_youhunshilaimu",
 		orbit_ui_bound = "",
@@ -32399,8 +33978,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[944] = {
+	}
+	pg.base.equip_skin_template[944] = {
 		hit_sfx = "",
 		bullet_name = "feiji_youhunshilaimu",
 		orbit_ui_bound = "",
@@ -32438,8 +34017,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[945] = {
+	}
+	pg.base.equip_skin_template[945] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tianshishilaimu",
 		orbit_ui_bound = "",
@@ -32477,8 +34056,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[946] = {
+	}
+	pg.base.equip_skin_template[946] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tianshishilaimu",
 		orbit_ui_bound = "",
@@ -32516,8 +34095,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[947] = {
+	}
+	pg.base.equip_skin_template[947] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tianshishilaimu",
 		orbit_ui_bound = "",
@@ -32555,8 +34134,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[950] = {
+	}
+	pg.base.equip_skin_template[950] = {
 		hit_sfx = "",
 		bullet_name = "zidan_hongyingguangbang",
 		orbit_ui_bound = "",
@@ -32596,8 +34175,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[951] = {
+	}
+	pg.base.equip_skin_template[951] = {
 		hit_sfx = "",
 		bullet_name = "zidan_lvyingguangbang",
 		orbit_ui_bound = "",
@@ -32637,8 +34216,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[952] = {
+	}
+	pg.base.equip_skin_template[952] = {
 		hit_sfx = "",
 		bullet_name = "zidan_huangyingguangbang",
 		orbit_ui_bound = "",
@@ -32678,8 +34257,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[953] = {
+	}
+	pg.base.equip_skin_template[953] = {
 		hit_sfx = "",
 		bullet_name = "paodan_chabeiyingxiang",
 		orbit_ui_bound = "",
@@ -32719,8 +34298,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[954] = {
+	}
+	pg.base.equip_skin_template[954] = {
 		hit_sfx = "",
 		bullet_name = "paodan_jianpanmao",
 		orbit_ui_bound = "",
@@ -32760,8 +34339,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[955] = {
+	}
+	pg.base.equip_skin_template[955] = {
 		hit_sfx = "",
 		bullet_name = "paodan_ouxiangmaozhua",
 		orbit_ui_bound = "",
@@ -32801,8 +34380,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[956] = {
+	}
+	pg.base.equip_skin_template[956] = {
 		hit_sfx = "",
 		bullet_name = "yulei_jita",
 		orbit_ui_bound = "",
@@ -32841,8 +34420,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[957] = {
+	}
+	pg.base.equip_skin_template[957] = {
 		hit_sfx = "",
 		bullet_name = "yulei_beisi",
 		orbit_ui_bound = "",
@@ -32881,8 +34460,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[958] = {
+	}
+	pg.base.equip_skin_template[958] = {
 		hit_sfx = "",
 		bullet_name = "yulei_mjianpan",
 		orbit_ui_bound = "",
@@ -32921,8 +34500,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[959] = {
+	}
+	pg.base.equip_skin_template[959] = {
 		hit_sfx = "",
 		bullet_name = "feiji_jitajiu",
 		orbit_ui_bound = "",
@@ -32960,8 +34539,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[960] = {
+	}
+	pg.base.equip_skin_template[960] = {
 		hit_sfx = "",
 		bullet_name = "feiji_jitajiu",
 		orbit_ui_bound = "",
@@ -32999,8 +34578,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[961] = {
+	}
+	pg.base.equip_skin_template[961] = {
 		hit_sfx = "",
 		bullet_name = "feiji_jitajiu",
 		orbit_ui_bound = "",
@@ -33038,8 +34617,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[962] = {
+	}
+	pg.base.equip_skin_template[962] = {
 		hit_sfx = "",
 		bullet_name = "feiji_beisijiu",
 		orbit_ui_bound = "",
@@ -33077,8 +34656,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[963] = {
+	}
+	pg.base.equip_skin_template[963] = {
 		hit_sfx = "",
 		bullet_name = "feiji_beisijiu",
 		orbit_ui_bound = "",
@@ -33116,8 +34695,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[964] = {
+	}
+	pg.base.equip_skin_template[964] = {
 		hit_sfx = "",
 		bullet_name = "feiji_beisijiu",
 		orbit_ui_bound = "",
@@ -33155,8 +34734,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[965] = {
+	}
+	pg.base.equip_skin_template[965] = {
 		hit_sfx = "",
 		bullet_name = "feiji_gushoujiu",
 		orbit_ui_bound = "",
@@ -33194,8 +34773,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[966] = {
+	}
+	pg.base.equip_skin_template[966] = {
 		hit_sfx = "",
 		bullet_name = "feiji_gushoujiu",
 		orbit_ui_bound = "",
@@ -33233,8 +34812,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[967] = {
+	}
+	pg.base.equip_skin_template[967] = {
 		hit_sfx = "",
 		bullet_name = "feiji_gushoujiu",
 		orbit_ui_bound = "",
@@ -33272,8 +34851,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[970] = {
+	}
+	pg.base.equip_skin_template[970] = {
 		hit_sfx = "",
 		bullet_name = "zidan_dabingbang",
 		orbit_ui_bound = "",
@@ -33313,8 +34892,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[971] = {
+	}
+	pg.base.equip_skin_template[971] = {
 		hit_sfx = "",
 		bullet_name = "zidan_xiaojiubei",
 		orbit_ui_bound = "",
@@ -33354,8 +34933,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[972] = {
+	}
+	pg.base.equip_skin_template[972] = {
 		hit_sfx = "",
 		bullet_name = "zidan_bingkele",
 		orbit_ui_bound = "",
@@ -33395,8 +34974,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[973] = {
+	}
+	pg.base.equip_skin_template[973] = {
 		hit_sfx = "",
 		bullet_name = "paodan_chongqichuanjiadan",
 		orbit_ui_bound = "",
@@ -33436,8 +35015,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[974] = {
+	}
+	pg.base.equip_skin_template[974] = {
 		hit_sfx = "",
 		bullet_name = "paodan_chongqizhadan",
 		orbit_ui_bound = "",
@@ -33477,8 +35056,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[975] = {
+	}
+	pg.base.equip_skin_template[975] = {
 		hit_sfx = "",
 		bullet_name = "paodan_chongqidaodan",
 		orbit_ui_bound = "",
@@ -33518,8 +35097,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[976] = {
+	}
+	pg.base.equip_skin_template[976] = {
 		hit_sfx = "",
 		bullet_name = "yulei_chongqiyulei",
 		orbit_ui_bound = "",
@@ -33558,8 +35137,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[977] = {
+	}
+	pg.base.equip_skin_template[977] = {
 		hit_sfx = "",
 		bullet_name = "yulei_chongqixiaoting",
 		orbit_ui_bound = "",
@@ -33598,8 +35177,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[978] = {
+	}
+	pg.base.equip_skin_template[978] = {
 		hit_sfx = "",
 		bullet_name = "yulei_chongqishayuqi",
 		orbit_ui_bound = "",
@@ -33638,8 +35217,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[979] = {
+	}
+	pg.base.equip_skin_template[979] = {
 		hit_sfx = "",
 		bullet_name = "feiji_chongqihuolieniao",
 		orbit_ui_bound = "",
@@ -33677,8 +35256,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[980] = {
+	}
+	pg.base.equip_skin_template[980] = {
 		hit_sfx = "",
 		bullet_name = "feiji_chongqihuolieniao",
 		orbit_ui_bound = "",
@@ -33716,8 +35295,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[981] = {
+	}
+	pg.base.equip_skin_template[981] = {
 		hit_sfx = "",
 		bullet_name = "feiji_chongqihuolieniao",
 		orbit_ui_bound = "",
@@ -33755,8 +35334,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[982] = {
+	}
+	pg.base.equip_skin_template[982] = {
 		hit_sfx = "",
 		bullet_name = "feiji_chongqidujiaoshou",
 		orbit_ui_bound = "",
@@ -33794,8 +35373,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[983] = {
+	}
+	pg.base.equip_skin_template[983] = {
 		hit_sfx = "",
 		bullet_name = "feiji_chongqidujiaoshou",
 		orbit_ui_bound = "",
@@ -33833,8 +35412,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[984] = {
+	}
+	pg.base.equip_skin_template[984] = {
 		hit_sfx = "",
 		bullet_name = "feiji_chongqidujiaoshou",
 		orbit_ui_bound = "",
@@ -33872,8 +35451,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[985] = {
+	}
+	pg.base.equip_skin_template[985] = {
 		hit_sfx = "",
 		bullet_name = "feiji_chongqihaitun",
 		orbit_ui_bound = "",
@@ -33911,8 +35490,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[986] = {
+	}
+	pg.base.equip_skin_template[986] = {
 		hit_sfx = "",
 		bullet_name = "feiji_chongqihaitun",
 		orbit_ui_bound = "",
@@ -33950,8 +35529,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[987] = {
+	}
+	pg.base.equip_skin_template[987] = {
 		hit_sfx = "",
 		bullet_name = "feiji_chongqihaitun",
 		orbit_ui_bound = "",
@@ -33989,8 +35568,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4001] = {
+	}
+	pg.base.equip_skin_template[4001] = {
 		hit_sfx = "",
 		bullet_name = "zidan_jimu",
 		orbit_ui_bound = "",
@@ -34030,8 +35609,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4002] = {
+	}
+	pg.base.equip_skin_template[4002] = {
 		hit_sfx = "",
 		bullet_name = "zidan_ertongxiangji",
 		orbit_ui_bound = "",
@@ -34071,8 +35650,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4003] = {
+	}
+	pg.base.equip_skin_template[4003] = {
 		hit_sfx = "",
 		bullet_name = "zidan_yuanmao",
 		orbit_ui_bound = "",
@@ -34112,8 +35691,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4004] = {
+	}
+	pg.base.equip_skin_template[4004] = {
 		hit_sfx = "",
 		bullet_name = "paodan_xiaoche",
 		orbit_ui_bound = "",
@@ -34153,8 +35732,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4005] = {
+	}
+	pg.base.equip_skin_template[4005] = {
 		hit_sfx = "",
 		bullet_name = "paodan_qiaoqiaoban",
 		orbit_ui_bound = "",
@@ -34194,8 +35773,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4006] = {
+	}
+	pg.base.equip_skin_template[4006] = {
 		hit_sfx = "",
 		bullet_name = "paodan_huati",
 		orbit_ui_bound = "",
@@ -34235,8 +35814,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4007] = {
+	}
+	pg.base.equip_skin_template[4007] = {
 		hit_sfx = "",
 		bullet_name = "yulei_dalabi",
 		orbit_ui_bound = "",
@@ -34275,8 +35854,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4008] = {
+	}
+	pg.base.equip_skin_template[4008] = {
 		hit_sfx = "",
 		bullet_name = "yulei_datangguo",
 		orbit_ui_bound = "",
@@ -34315,8 +35894,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4009] = {
+	}
+	pg.base.equip_skin_template[4009] = {
 		hit_sfx = "",
 		bullet_name = "yulei_danaiping",
 		orbit_ui_bound = "",
@@ -34355,8 +35934,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4010] = {
+	}
+	pg.base.equip_skin_template[4010] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tongxinqiqiu",
 		orbit_ui_bound = "",
@@ -34394,8 +35973,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4011] = {
+	}
+	pg.base.equip_skin_template[4011] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tongxinqiqiu",
 		orbit_ui_bound = "",
@@ -34433,8 +36012,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4012] = {
+	}
+	pg.base.equip_skin_template[4012] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tongxinqiqiu",
 		orbit_ui_bound = "",
@@ -34472,8 +36051,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4013] = {
+	}
+	pg.base.equip_skin_template[4013] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tongxinzhuqingting",
 		orbit_ui_bound = "",
@@ -34511,8 +36090,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4014] = {
+	}
+	pg.base.equip_skin_template[4014] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tongxinzhuqingting",
 		orbit_ui_bound = "",
@@ -34550,8 +36129,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4015] = {
+	}
+	pg.base.equip_skin_template[4015] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tongxinzhuqingting",
 		orbit_ui_bound = "",
@@ -34589,8 +36168,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4016] = {
+	}
+	pg.base.equip_skin_template[4016] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tongxinzhifeiji",
 		orbit_ui_bound = "",
@@ -34628,8 +36207,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4017] = {
+	}
+	pg.base.equip_skin_template[4017] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tongxinzhifeiji",
 		orbit_ui_bound = "",
@@ -34667,8 +36246,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4018] = {
+	}
+	pg.base.equip_skin_template[4018] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tongxinzhifeiji",
 		orbit_ui_bound = "",
@@ -34706,8 +36285,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4019] = {
+	}
+	pg.base.equip_skin_template[4019] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -34765,8 +36344,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[4020] = {
+	}
+	pg.base.equip_skin_template[4020] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -34824,8 +36403,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[4021] = {
+	}
+	pg.base.equip_skin_template[4021] = {
 		hit_sfx = "",
 		bullet_name = "zidan_jinkuangshi",
 		orbit_ui_bound = "",
@@ -34865,8 +36444,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4022] = {
+	}
+	pg.base.equip_skin_template[4022] = {
 		hit_sfx = "",
 		bullet_name = "zidan_guantou",
 		orbit_ui_bound = "",
@@ -34906,8 +36485,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4023] = {
+	}
+	pg.base.equip_skin_template[4023] = {
 		hit_sfx = "",
 		bullet_name = "zidan_weishiji",
 		orbit_ui_bound = "",
@@ -34947,8 +36526,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4024] = {
+	}
+	pg.base.equip_skin_template[4024] = {
 		hit_sfx = "",
 		bullet_name = "yulei_tieqiao",
 		orbit_ui_bound = "",
@@ -34987,8 +36566,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4025] = {
+	}
+	pg.base.equip_skin_template[4025] = {
 		hit_sfx = "",
 		bullet_name = "yulei_douniushoutao",
 		orbit_ui_bound = "",
@@ -35027,8 +36606,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4026] = {
+	}
+	pg.base.equip_skin_template[4026] = {
 		hit_sfx = "",
 		bullet_name = "yulei_zhayao",
 		orbit_ui_bound = "",
@@ -35067,8 +36646,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4027] = {
+	}
+	pg.base.equip_skin_template[4027] = {
 		hit_sfx = "",
 		bullet_name = "paodan_taosuo",
 		orbit_ui_bound = "",
@@ -35108,8 +36687,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4028] = {
+	}
+	pg.base.equip_skin_template[4028] = {
 		hit_sfx = "",
 		bullet_name = "paodan_meiyoudeng",
 		orbit_ui_bound = "",
@@ -35149,8 +36728,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4029] = {
+	}
+	pg.base.equip_skin_template[4029] = {
 		hit_sfx = "",
 		bullet_name = "paodan_tongjiling",
 		orbit_ui_bound = "",
@@ -35190,8 +36769,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4030] = {
+	}
+	pg.base.equip_skin_template[4030] = {
 		hit_sfx = "",
 		bullet_name = "feiji_kuangche",
 		orbit_ui_bound = "",
@@ -35229,8 +36808,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4031] = {
+	}
+	pg.base.equip_skin_template[4031] = {
 		hit_sfx = "",
 		bullet_name = "feiji_kuangche",
 		orbit_ui_bound = "",
@@ -35268,8 +36847,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4032] = {
+	}
+	pg.base.equip_skin_template[4032] = {
 		hit_sfx = "",
 		bullet_name = "feiji_kuangche",
 		orbit_ui_bound = "",
@@ -35307,8 +36886,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4033] = {
+	}
+	pg.base.equip_skin_template[4033] = {
 		hit_sfx = "",
 		bullet_name = "feiji_mache",
 		orbit_ui_bound = "",
@@ -35346,8 +36925,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4034] = {
+	}
+	pg.base.equip_skin_template[4034] = {
 		hit_sfx = "",
 		bullet_name = "feiji_mache",
 		orbit_ui_bound = "",
@@ -35385,8 +36964,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4035] = {
+	}
+	pg.base.equip_skin_template[4035] = {
 		hit_sfx = "",
 		bullet_name = "feiji_mache",
 		orbit_ui_bound = "",
@@ -35424,8 +37003,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4036] = {
+	}
+	pg.base.equip_skin_template[4036] = {
 		hit_sfx = "",
 		bullet_name = "feiji_douniu",
 		orbit_ui_bound = "",
@@ -35463,8 +37042,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4037] = {
+	}
+	pg.base.equip_skin_template[4037] = {
 		hit_sfx = "",
 		bullet_name = "feiji_douniu",
 		orbit_ui_bound = "",
@@ -35502,8 +37081,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4038] = {
+	}
+	pg.base.equip_skin_template[4038] = {
 		hit_sfx = "",
 		bullet_name = "feiji_douniu",
 		orbit_ui_bound = "",
@@ -35541,8 +37120,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4039] = {
+	}
+	pg.base.equip_skin_template[4039] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -35600,8 +37179,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[4040] = {
+	}
+	pg.base.equip_skin_template[4040] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -35659,8 +37238,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[4041] = {
+	}
+	pg.base.equip_skin_template[4041] = {
 		hit_sfx = "",
 		bullet_name = "zidan_hanbao",
 		orbit_ui_bound = "",
@@ -35700,8 +37279,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4042] = {
+	}
+	pg.base.equip_skin_template[4042] = {
 		hit_sfx = "",
 		bullet_name = "zidan_bangbangtang",
 		orbit_ui_bound = "",
@@ -35741,8 +37320,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4043] = {
+	}
+	pg.base.equip_skin_template[4043] = {
 		hit_sfx = "",
 		bullet_name = "zidan_bingjiling",
 		orbit_ui_bound = "",
@@ -35782,8 +37361,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4044] = {
+	}
+	pg.base.equip_skin_template[4044] = {
 		hit_sfx = "",
 		bullet_name = "yulei_qiqiu",
 		orbit_ui_bound = "",
@@ -35822,8 +37401,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4045] = {
+	}
+	pg.base.equip_skin_template[4045] = {
 		hit_sfx = "",
 		bullet_name = "yulei_huojianyanhua",
 		orbit_ui_bound = "",
@@ -35862,8 +37441,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4046] = {
+	}
+	pg.base.equip_skin_template[4046] = {
 		hit_sfx = "",
 		bullet_name = "yulei_fengche",
 		orbit_ui_bound = "",
@@ -35902,8 +37481,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4047] = {
+	}
+	pg.base.equip_skin_template[4047] = {
 		hit_sfx = "",
 		bullet_name = "paodan_chaijunmoshumao",
 		orbit_ui_bound = "",
@@ -35943,8 +37522,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4048] = {
+	}
+	pg.base.equip_skin_template[4048] = {
 		hit_sfx = "",
 		bullet_name = "paodan_pengpengche",
 		orbit_ui_bound = "",
@@ -35984,8 +37563,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4049] = {
+	}
+	pg.base.equip_skin_template[4049] = {
 		hit_sfx = "",
 		bullet_name = "paodan_dulunche",
 		orbit_ui_bound = "",
@@ -36025,8 +37604,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4050] = {
+	}
+	pg.base.equip_skin_template[4050] = {
 		hit_sfx = "",
 		bullet_name = "feiji_xuanzhuanmuma",
 		orbit_ui_bound = "",
@@ -36064,8 +37643,10 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4051] = {
+	}
+end)()
+(function ()
+	pg.base.equip_skin_template[4051] = {
 		hit_sfx = "",
 		bullet_name = "feiji_xuanzhuanmuma",
 		orbit_ui_bound = "",
@@ -36103,8 +37684,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4052] = {
+	}
+	pg.base.equip_skin_template[4052] = {
 		hit_sfx = "",
 		bullet_name = "feiji_xuanzhuanmuma",
 		orbit_ui_bound = "",
@@ -36142,8 +37723,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4053] = {
+	}
+	pg.base.equip_skin_template[4053] = {
 		hit_sfx = "",
 		bullet_name = "feiji_motianlun",
 		orbit_ui_bound = "",
@@ -36181,8 +37762,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4054] = {
+	}
+	pg.base.equip_skin_template[4054] = {
 		hit_sfx = "",
 		bullet_name = "feiji_motianlun",
 		orbit_ui_bound = "",
@@ -36220,8 +37801,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4055] = {
+	}
+	pg.base.equip_skin_template[4055] = {
 		hit_sfx = "",
 		bullet_name = "feiji_motianlun",
 		orbit_ui_bound = "",
@@ -36259,8 +37840,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4056] = {
+	}
+	pg.base.equip_skin_template[4056] = {
 		hit_sfx = "",
 		bullet_name = "feiji_huochetou",
 		orbit_ui_bound = "",
@@ -36298,8 +37879,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4057] = {
+	}
+	pg.base.equip_skin_template[4057] = {
 		hit_sfx = "",
 		bullet_name = "feiji_huochetou",
 		orbit_ui_bound = "",
@@ -36337,8 +37918,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4058] = {
+	}
+	pg.base.equip_skin_template[4058] = {
 		hit_sfx = "",
 		bullet_name = "feiji_huochetou",
 		orbit_ui_bound = "",
@@ -36376,8 +37957,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4059] = {
+	}
+	pg.base.equip_skin_template[4059] = {
 		hit_sfx = "",
 		bullet_name = "zidan_youlin",
 		orbit_ui_bound = "",
@@ -36417,8 +37998,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4060] = {
+	}
+	pg.base.equip_skin_template[4060] = {
 		hit_sfx = "",
 		bullet_name = "zidan_zhangyu",
 		orbit_ui_bound = "",
@@ -36458,8 +38039,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4061] = {
+	}
+	pg.base.equip_skin_template[4061] = {
 		hit_sfx = "",
 		bullet_name = "zidan_yaoshui",
 		orbit_ui_bound = "",
@@ -36499,8 +38080,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4062] = {
+	}
+	pg.base.equip_skin_template[4062] = {
 		hit_sfx = "",
 		bullet_name = "yulei_yaoguaiyoulin",
 		orbit_ui_bound = "",
@@ -36539,8 +38120,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4063] = {
+	}
+	pg.base.equip_skin_template[4063] = {
 		hit_sfx = "",
 		bullet_name = "yulei_nangua",
 		orbit_ui_bound = "",
@@ -36579,8 +38160,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4064] = {
+	}
+	pg.base.equip_skin_template[4064] = {
 		hit_sfx = "",
 		bullet_name = "yulei_emocha",
 		orbit_ui_bound = "",
@@ -36619,8 +38200,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4065] = {
+	}
+	pg.base.equip_skin_template[4065] = {
 		hit_sfx = "",
 		bullet_name = "paodan_guancai",
 		orbit_ui_bound = "",
@@ -36660,8 +38241,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4066] = {
+	}
+	pg.base.equip_skin_template[4066] = {
 		hit_sfx = "",
 		bullet_name = "paodan_yaojingzhangyu",
 		orbit_ui_bound = "",
@@ -36701,8 +38282,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4067] = {
+	}
+	pg.base.equip_skin_template[4067] = {
 		hit_sfx = "",
 		bullet_name = "paodan_zhuwang",
 		orbit_ui_bound = "",
@@ -36742,8 +38323,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4068] = {
+	}
+	pg.base.equip_skin_template[4068] = {
 		hit_sfx = "",
 		bullet_name = "feiji_xixuegui",
 		orbit_ui_bound = "",
@@ -36781,8 +38362,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4069] = {
+	}
+	pg.base.equip_skin_template[4069] = {
 		hit_sfx = "",
 		bullet_name = "feiji_xixuegui",
 		orbit_ui_bound = "",
@@ -36820,8 +38401,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4070] = {
+	}
+	pg.base.equip_skin_template[4070] = {
 		hit_sfx = "",
 		bullet_name = "feiji_xixuegui",
 		orbit_ui_bound = "",
@@ -36859,8 +38440,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4071] = {
+	}
+	pg.base.equip_skin_template[4071] = {
 		hit_sfx = "",
 		bullet_name = "feij_nvwu",
 		orbit_ui_bound = "",
@@ -36898,8 +38479,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4072] = {
+	}
+	pg.base.equip_skin_template[4072] = {
 		hit_sfx = "",
 		bullet_name = "feij_nvwu",
 		orbit_ui_bound = "",
@@ -36937,8 +38518,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4073] = {
+	}
+	pg.base.equip_skin_template[4073] = {
 		hit_sfx = "",
 		bullet_name = "feij_nvwu",
 		orbit_ui_bound = "",
@@ -36976,8 +38557,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4074] = {
+	}
+	pg.base.equip_skin_template[4074] = {
 		hit_sfx = "",
 		bullet_name = "feiji_youlin",
 		orbit_ui_bound = "",
@@ -37015,8 +38596,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4075] = {
+	}
+	pg.base.equip_skin_template[4075] = {
 		hit_sfx = "",
 		bullet_name = "feiji_youlin",
 		orbit_ui_bound = "",
@@ -37054,8 +38635,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4076] = {
+	}
+	pg.base.equip_skin_template[4076] = {
 		hit_sfx = "",
 		bullet_name = "feiji_youlin",
 		orbit_ui_bound = "",
@@ -37093,8 +38674,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4077] = {
+	}
+	pg.base.equip_skin_template[4077] = {
 		hit_sfx = "",
 		bullet_name = "zidan_feitubanshou",
 		orbit_ui_bound = "",
@@ -37134,8 +38715,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4078] = {
+	}
+	pg.base.equip_skin_template[4078] = {
 		hit_sfx = "",
 		bullet_name = "zidan_qiandan",
 		orbit_ui_bound = "",
@@ -37175,8 +38756,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4079] = {
+	}
+	pg.base.equip_skin_template[4079] = {
 		hit_sfx = "",
 		bullet_name = "zidan_ranshaoping",
 		orbit_ui_bound = "",
@@ -37216,8 +38797,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4080] = {
+	}
+	pg.base.equip_skin_template[4080] = {
 		hit_sfx = "",
 		bullet_name = "yulei_paiqiguan",
 		orbit_ui_bound = "",
@@ -37256,8 +38837,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4081] = {
+	}
+	pg.base.equip_skin_template[4081] = {
 		hit_sfx = "",
 		bullet_name = "yulei_famen",
 		orbit_ui_bound = "",
@@ -37296,8 +38877,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4082] = {
+	}
+	pg.base.equip_skin_template[4082] = {
 		hit_sfx = "",
 		bullet_name = "yulei_shouqiang",
 		orbit_ui_bound = "",
@@ -37336,8 +38917,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4083] = {
+	}
+	pg.base.equip_skin_template[4083] = {
 		hit_sfx = "",
 		bullet_name = "paodan_quantou",
 		orbit_ui_bound = "",
@@ -37377,8 +38958,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4084] = {
+	}
+	pg.base.equip_skin_template[4084] = {
 		hit_sfx = "",
 		bullet_name = "paodan_chelun",
 		orbit_ui_bound = "",
@@ -37418,8 +38999,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4085] = {
+	}
+	pg.base.equip_skin_template[4085] = {
 		hit_sfx = "",
 		bullet_name = "paodan_guolu",
 		orbit_ui_bound = "",
@@ -37459,8 +39040,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4086] = {
+	}
+	pg.base.equip_skin_template[4086] = {
 		hit_sfx = "",
 		bullet_name = "feiji_penqiche",
 		orbit_ui_bound = "",
@@ -37498,8 +39079,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4087] = {
+	}
+	pg.base.equip_skin_template[4087] = {
 		hit_sfx = "",
 		bullet_name = "feiji_penqiche",
 		orbit_ui_bound = "",
@@ -37537,8 +39118,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4088] = {
+	}
+	pg.base.equip_skin_template[4088] = {
 		hit_sfx = "",
 		bullet_name = "feiji_penqiche",
 		orbit_ui_bound = "",
@@ -37576,8 +39157,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4089] = {
+	}
+	pg.base.equip_skin_template[4089] = {
 		hit_sfx = "",
 		bullet_name = "feiji_feijiqiu",
 		orbit_ui_bound = "",
@@ -37615,8 +39196,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4090] = {
+	}
+	pg.base.equip_skin_template[4090] = {
 		hit_sfx = "",
 		bullet_name = "feiji_feijiqiu",
 		orbit_ui_bound = "",
@@ -37654,8 +39235,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4091] = {
+	}
+	pg.base.equip_skin_template[4091] = {
 		hit_sfx = "",
 		bullet_name = "feiji_feijiqiu",
 		orbit_ui_bound = "",
@@ -37693,8 +39274,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4092] = {
+	}
+	pg.base.equip_skin_template[4092] = {
 		hit_sfx = "",
 		bullet_name = "feiji_motuo",
 		orbit_ui_bound = "",
@@ -37732,8 +39313,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4093] = {
+	}
+	pg.base.equip_skin_template[4093] = {
 		hit_sfx = "",
 		bullet_name = "feiji_motuo",
 		orbit_ui_bound = "",
@@ -37771,8 +39352,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4094] = {
+	}
+	pg.base.equip_skin_template[4094] = {
 		hit_sfx = "",
 		bullet_name = "feiji_motuo",
 		orbit_ui_bound = "",
@@ -37810,8 +39391,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4095] = {
+	}
+	pg.base.equip_skin_template[4095] = {
 		hit_sfx = "",
 		bullet_name = "zidan_changmingsuo",
 		orbit_ui_bound = "",
@@ -37851,8 +39432,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4096] = {
+	}
+	pg.base.equip_skin_template[4096] = {
 		hit_sfx = "",
 		bullet_name = "zidan_suozi",
 		orbit_ui_bound = "",
@@ -37892,8 +39473,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4097] = {
+	}
+	pg.base.equip_skin_template[4097] = {
 		hit_sfx = "",
 		bullet_name = "zidan_lindang",
 		orbit_ui_bound = "",
@@ -37933,8 +39514,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4098] = {
+	}
+	pg.base.equip_skin_template[4098] = {
 		hit_sfx = "",
 		bullet_name = "yulei_zhongguojie",
 		orbit_ui_bound = "",
@@ -37973,8 +39554,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4099] = {
+	}
+	pg.base.equip_skin_template[4099] = {
 		hit_sfx = "",
 		bullet_name = "yulei_zhisan",
 		orbit_ui_bound = "",
@@ -38013,8 +39594,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4100] = {
+	}
+	pg.base.equip_skin_template[4100] = {
 		hit_sfx = "",
 		bullet_name = "yulei_fuchen1",
 		orbit_ui_bound = "",
@@ -38053,8 +39634,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4101] = {
+	}
+	pg.base.equip_skin_template[4101] = {
 		hit_sfx = "",
 		bullet_name = "paodan_douli",
 		orbit_ui_bound = "",
@@ -38094,8 +39675,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4102] = {
+	}
+	pg.base.equip_skin_template[4102] = {
 		hit_sfx = "",
 		bullet_name = "paodan_tuanshan",
 		orbit_ui_bound = "",
@@ -38135,8 +39716,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4103] = {
+	}
+	pg.base.equip_skin_template[4103] = {
 		hit_sfx = "",
 		bullet_name = "paodan_huowen",
 		orbit_ui_bound = "",
@@ -38176,8 +39757,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4104] = {
+	}
+	pg.base.equip_skin_template[4104] = {
 		hit_sfx = "",
 		bullet_name = "feiji_denglongyu",
 		orbit_ui_bound = "",
@@ -38215,8 +39796,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4105] = {
+	}
+	pg.base.equip_skin_template[4105] = {
 		hit_sfx = "",
 		bullet_name = "feiji_denglongyu",
 		orbit_ui_bound = "",
@@ -38254,8 +39835,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4106] = {
+	}
+	pg.base.equip_skin_template[4106] = {
 		hit_sfx = "",
 		bullet_name = "feiji_denglongyu",
 		orbit_ui_bound = "",
@@ -38293,8 +39874,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4107] = {
+	}
+	pg.base.equip_skin_template[4107] = {
 		hit_sfx = "",
 		bullet_name = "feiji_xiannvjiu",
 		orbit_ui_bound = "",
@@ -38332,8 +39913,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4108] = {
+	}
+	pg.base.equip_skin_template[4108] = {
 		hit_sfx = "",
 		bullet_name = "feiji_xiannvjiu",
 		orbit_ui_bound = "",
@@ -38371,8 +39952,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4109] = {
+	}
+	pg.base.equip_skin_template[4109] = {
 		hit_sfx = "",
 		bullet_name = "feiji_xiannvjiu",
 		orbit_ui_bound = "",
@@ -38410,8 +39991,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4110] = {
+	}
+	pg.base.equip_skin_template[4110] = {
 		hit_sfx = "",
 		bullet_name = "feiji_shiweijiu",
 		orbit_ui_bound = "",
@@ -38449,8 +40030,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4111] = {
+	}
+	pg.base.equip_skin_template[4111] = {
 		hit_sfx = "",
 		bullet_name = "feiji_shiweijiu",
 		orbit_ui_bound = "",
@@ -38488,8 +40069,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4112] = {
+	}
+	pg.base.equip_skin_template[4112] = {
 		hit_sfx = "",
 		bullet_name = "feiji_shiweijiu",
 		orbit_ui_bound = "",
@@ -38527,8 +40108,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4113] = {
+	}
+	pg.base.equip_skin_template[4113] = {
 		hit_sfx = "",
 		bullet_name = "zidan_erhuan",
 		orbit_ui_bound = "",
@@ -38568,8 +40149,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4114] = {
+	}
+	pg.base.equip_skin_template[4114] = {
 		hit_sfx = "",
 		bullet_name = "zidan_aijibaoshi",
 		orbit_ui_bound = "",
@@ -38609,8 +40190,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4115] = {
+	}
+	pg.base.equip_skin_template[4115] = {
 		hit_sfx = "",
 		bullet_name = "zidan_shengjiachong",
 		orbit_ui_bound = "",
@@ -38650,8 +40231,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4116] = {
+	}
+	pg.base.equip_skin_template[4116] = {
 		hit_sfx = "",
 		bullet_name = "yulei_aijifazhang",
 		orbit_ui_bound = "",
@@ -38690,8 +40271,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4117] = {
+	}
+	pg.base.equip_skin_template[4117] = {
 		hit_sfx = "",
 		bullet_name = "yulei_changmao",
 		orbit_ui_bound = "",
@@ -38730,8 +40311,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4118] = {
+	}
+	pg.base.equip_skin_template[4118] = {
 		hit_sfx = "",
 		bullet_name = "yulei_bishou",
 		orbit_ui_bound = "",
@@ -38770,8 +40351,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4119] = {
+	}
+	pg.base.equip_skin_template[4119] = {
 		hit_sfx = "",
 		bullet_name = "paodan_jinzita",
 		orbit_ui_bound = "",
@@ -38811,8 +40392,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4120] = {
+	}
+	pg.base.equip_skin_template[4120] = {
 		hit_sfx = "",
 		bullet_name = "paodan_anka",
 		orbit_ui_bound = "",
@@ -38852,8 +40433,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4121] = {
+	}
+	pg.base.equip_skin_template[4121] = {
 		hit_sfx = "",
 		bullet_name = "paodan_guanzi",
 		orbit_ui_bound = "",
@@ -38893,8 +40474,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4122] = {
+	}
+	pg.base.equip_skin_template[4122] = {
 		hit_sfx = "",
 		bullet_name = "feiji_huanghou",
 		orbit_ui_bound = "",
@@ -38932,8 +40513,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4123] = {
+	}
+	pg.base.equip_skin_template[4123] = {
 		hit_sfx = "",
 		bullet_name = "feiji_huanghou",
 		orbit_ui_bound = "",
@@ -38971,8 +40552,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4124] = {
+	}
+	pg.base.equip_skin_template[4124] = {
 		hit_sfx = "",
 		bullet_name = "feiji_huanghou",
 		orbit_ui_bound = "",
@@ -39010,8 +40591,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4125] = {
+	}
+	pg.base.equip_skin_template[4125] = {
 		hit_sfx = "",
 		bullet_name = "feiji_falao",
 		orbit_ui_bound = "",
@@ -39049,8 +40630,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4126] = {
+	}
+	pg.base.equip_skin_template[4126] = {
 		hit_sfx = "",
 		bullet_name = "feiji_falao",
 		orbit_ui_bound = "",
@@ -39088,8 +40669,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4127] = {
+	}
+	pg.base.equip_skin_template[4127] = {
 		hit_sfx = "",
 		bullet_name = "feiji_falao",
 		orbit_ui_bound = "",
@@ -39127,8 +40708,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4128] = {
+	}
+	pg.base.equip_skin_template[4128] = {
 		hit_sfx = "",
 		bullet_name = "feiji_munaiyi",
 		orbit_ui_bound = "",
@@ -39166,8 +40747,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4129] = {
+	}
+	pg.base.equip_skin_template[4129] = {
 		hit_sfx = "",
 		bullet_name = "feiji_munaiyi",
 		orbit_ui_bound = "",
@@ -39205,8 +40786,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4130] = {
+	}
+	pg.base.equip_skin_template[4130] = {
 		hit_sfx = "",
 		bullet_name = "feiji_munaiyi",
 		orbit_ui_bound = "",
@@ -39244,8 +40825,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4131] = {
+	}
+	pg.base.equip_skin_template[4131] = {
 		hit_sfx = "",
 		bullet_name = "zidan_chaungketie",
 		orbit_ui_bound = "",
@@ -39285,8 +40866,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4132] = {
+	}
+	pg.base.equip_skin_template[4132] = {
 		hit_sfx = "",
 		bullet_name = "zidan_yaoping",
 		orbit_ui_bound = "",
@@ -39326,8 +40907,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4133] = {
+	}
+	pg.base.equip_skin_template[4133] = {
 		hit_sfx = "",
 		bullet_name = "zidan_kouzhao",
 		orbit_ui_bound = "",
@@ -39367,8 +40948,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4134] = {
+	}
+	pg.base.equip_skin_template[4134] = {
 		hit_sfx = "",
 		bullet_name = "yulei_zhuguai",
 		orbit_ui_bound = "",
@@ -39407,8 +40988,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4135] = {
+	}
+	pg.base.equip_skin_template[4135] = {
 		hit_sfx = "",
 		bullet_name = "yulei_tiwenji",
 		orbit_ui_bound = "",
@@ -39447,8 +41028,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4136] = {
+	}
+	pg.base.equip_skin_template[4136] = {
 		hit_sfx = "",
 		bullet_name = "yulei_tingzhenqi",
 		orbit_ui_bound = "",
@@ -39487,8 +41068,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4137] = {
+	}
+	pg.base.equip_skin_template[4137] = {
 		hit_sfx = "",
 		bullet_name = "paodan_diaoping",
 		orbit_ui_bound = "",
@@ -39528,8 +41109,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4138] = {
+	}
+	pg.base.equip_skin_template[4138] = {
 		hit_sfx = "",
 		bullet_name = "paodan_yaoxiang",
 		orbit_ui_bound = "",
@@ -39569,8 +41150,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4139] = {
+	}
+	pg.base.equip_skin_template[4139] = {
 		hit_sfx = "",
 		bullet_name = "paodan_xianweijing",
 		orbit_ui_bound = "",
@@ -39610,8 +41191,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4140] = {
+	}
+	pg.base.equip_skin_template[4140] = {
 		hit_sfx = "",
 		bullet_name = "feiji_binchuang",
 		orbit_ui_bound = "",
@@ -39649,8 +41230,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4141] = {
+	}
+	pg.base.equip_skin_template[4141] = {
 		hit_sfx = "",
 		bullet_name = "feiji_binchuang",
 		orbit_ui_bound = "",
@@ -39688,8 +41269,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4142] = {
+	}
+	pg.base.equip_skin_template[4142] = {
 		hit_sfx = "",
 		bullet_name = "feiji_binchuang",
 		orbit_ui_bound = "",
@@ -39727,8 +41308,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4143] = {
+	}
+	pg.base.equip_skin_template[4143] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tuiche",
 		orbit_ui_bound = "",
@@ -39766,8 +41347,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4144] = {
+	}
+	pg.base.equip_skin_template[4144] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tuiche",
 		orbit_ui_bound = "",
@@ -39805,8 +41386,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4145] = {
+	}
+	pg.base.equip_skin_template[4145] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tuiche",
 		orbit_ui_bound = "",
@@ -39844,8 +41425,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4146] = {
+	}
+	pg.base.equip_skin_template[4146] = {
 		hit_sfx = "",
 		bullet_name = "feiji_lunyi",
 		orbit_ui_bound = "",
@@ -39883,8 +41464,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4147] = {
+	}
+	pg.base.equip_skin_template[4147] = {
 		hit_sfx = "",
 		bullet_name = "feiji_lunyi",
 		orbit_ui_bound = "",
@@ -39922,8 +41503,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4148] = {
+	}
+	pg.base.equip_skin_template[4148] = {
 		hit_sfx = "",
 		bullet_name = "feiji_lunyi",
 		orbit_ui_bound = "",
@@ -39961,8 +41542,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4149] = {
+	}
+	pg.base.equip_skin_template[4149] = {
 		hit_sfx = "",
 		bullet_name = "zidan_yujinxiang_bai",
 		orbit_ui_bound = "",
@@ -40002,8 +41583,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4150] = {
+	}
+	pg.base.equip_skin_template[4150] = {
 		hit_sfx = "",
 		bullet_name = "zidan_yujinxiang_huang",
 		orbit_ui_bound = "",
@@ -40043,8 +41624,10 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4151] = {
+	}
+end)()
+(function ()
+	pg.base.equip_skin_template[4151] = {
 		hit_sfx = "",
 		bullet_name = "zidan_yujinxiang_hong",
 		orbit_ui_bound = "",
@@ -40084,8 +41667,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4152] = {
+	}
+	pg.base.equip_skin_template[4152] = {
 		hit_sfx = "",
 		bullet_name = "yulei_zixingche",
 		orbit_ui_bound = "",
@@ -40124,8 +41707,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4153] = {
+	}
+	pg.base.equip_skin_template[4153] = {
 		hit_sfx = "",
 		bullet_name = "yulei_luteqin",
 		orbit_ui_bound = "",
@@ -40164,8 +41747,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4154] = {
+	}
+	pg.base.equip_skin_template[4154] = {
 		hit_sfx = "",
 		bullet_name = "yulei_bishua",
 		orbit_ui_bound = "",
@@ -40204,8 +41787,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4155] = {
+	}
+	pg.base.equip_skin_template[4155] = {
 		hit_sfx = "",
 		bullet_name = "paodan_nailao",
 		orbit_ui_bound = "",
@@ -40245,8 +41828,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4156] = {
+	}
+	pg.base.equip_skin_template[4156] = {
 		hit_sfx = "",
 		bullet_name = "paodan_fengche",
 		orbit_ui_bound = "",
@@ -40286,8 +41869,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4157] = {
+	}
+	pg.base.equip_skin_template[4157] = {
 		hit_sfx = "",
 		bullet_name = "paodan_muxie",
 		orbit_ui_bound = "",
@@ -40327,8 +41910,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4158] = {
+	}
+	pg.base.equip_skin_template[4158] = {
 		hit_sfx = "",
 		bullet_name = "feiji_nongfu",
 		orbit_ui_bound = "",
@@ -40366,8 +41949,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4159] = {
+	}
+	pg.base.equip_skin_template[4159] = {
 		hit_sfx = "",
 		bullet_name = "feiji_nongfu",
 		orbit_ui_bound = "",
@@ -40405,8 +41988,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4160] = {
+	}
+	pg.base.equip_skin_template[4160] = {
 		hit_sfx = "",
 		bullet_name = "feiji_nongfu",
 		orbit_ui_bound = "",
@@ -40444,8 +42027,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4161] = {
+	}
+	pg.base.equip_skin_template[4161] = {
 		hit_sfx = "",
 		bullet_name = "feiji_shaonv",
 		orbit_ui_bound = "",
@@ -40483,8 +42066,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4162] = {
+	}
+	pg.base.equip_skin_template[4162] = {
 		hit_sfx = "",
 		bullet_name = "feiji_shaonv",
 		orbit_ui_bound = "",
@@ -40522,8 +42105,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4163] = {
+	}
+	pg.base.equip_skin_template[4163] = {
 		hit_sfx = "",
 		bullet_name = "feiji_shaonv",
 		orbit_ui_bound = "",
@@ -40561,8 +42144,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4164] = {
+	}
+	pg.base.equip_skin_template[4164] = {
 		hit_sfx = "",
 		bullet_name = "feji_senlinshaonv",
 		orbit_ui_bound = "",
@@ -40600,8 +42183,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4165] = {
+	}
+	pg.base.equip_skin_template[4165] = {
 		hit_sfx = "",
 		bullet_name = "feji_senlinshaonv",
 		orbit_ui_bound = "",
@@ -40639,8 +42222,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4166] = {
+	}
+	pg.base.equip_skin_template[4166] = {
 		hit_sfx = "",
 		bullet_name = "feji_senlinshaonv",
 		orbit_ui_bound = "",
@@ -40678,8 +42261,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4167] = {
+	}
+	pg.base.equip_skin_template[4167] = {
 		hit_sfx = "",
 		bullet_name = "zidan_zhentou",
 		orbit_ui_bound = "",
@@ -40719,8 +42302,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4168] = {
+	}
+	pg.base.equip_skin_template[4168] = {
 		hit_sfx = "",
 		bullet_name = "zidan_shanhu",
 		orbit_ui_bound = "",
@@ -40760,8 +42343,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4169] = {
+	}
+	pg.base.equip_skin_template[4169] = {
 		hit_sfx = "",
 		bullet_name = "zidan_yinliaolan",
 		orbit_ui_bound = "",
@@ -40801,8 +42384,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4170] = {
+	}
+	pg.base.equip_skin_template[4170] = {
 		hit_sfx = "",
 		bullet_name = "yulei_zheyangsan",
 		orbit_ui_bound = "",
@@ -40841,8 +42424,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4171] = {
+	}
+	pg.base.equip_skin_template[4171] = {
 		hit_sfx = "",
 		bullet_name = "yulei_yujin",
 		orbit_ui_bound = "",
@@ -40881,8 +42464,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4172] = {
+	}
+	pg.base.equip_skin_template[4172] = {
 		hit_sfx = "",
 		bullet_name = "yulei_beikefengling",
 		orbit_ui_bound = "",
@@ -40921,8 +42504,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4173] = {
+	}
+	pg.base.equip_skin_template[4173] = {
 		hit_sfx = "",
 		bullet_name = "paodan_zaocantuopan",
 		orbit_ui_bound = "",
@@ -40962,8 +42545,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4174] = {
+	}
+	pg.base.equip_skin_template[4174] = {
 		hit_sfx = "",
 		bullet_name = "paodan_bianxiebingxiang",
 		orbit_ui_bound = "",
@@ -41003,8 +42586,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4175] = {
+	}
+	pg.base.equip_skin_template[4175] = {
 		hit_sfx = "",
 		bullet_name = "paodan_shatanchengbao",
 		orbit_ui_bound = "",
@@ -41044,8 +42627,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4176] = {
+	}
+	pg.base.equip_skin_template[4176] = {
 		hit_sfx = "",
 		bullet_name = "feiji_jiushengquan",
 		orbit_ui_bound = "",
@@ -41083,8 +42666,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4177] = {
+	}
+	pg.base.equip_skin_template[4177] = {
 		hit_sfx = "",
 		bullet_name = "feiji_jiushengquan",
 		orbit_ui_bound = "",
@@ -41122,8 +42705,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4178] = {
+	}
+	pg.base.equip_skin_template[4178] = {
 		hit_sfx = "",
 		bullet_name = "feiji_jiushengquan",
 		orbit_ui_bound = "",
@@ -41161,8 +42744,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4179] = {
+	}
+	pg.base.equip_skin_template[4179] = {
 		hit_sfx = "",
 		bullet_name = "feiji_fanchuan",
 		orbit_ui_bound = "",
@@ -41200,8 +42783,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4180] = {
+	}
+	pg.base.equip_skin_template[4180] = {
 		hit_sfx = "",
 		bullet_name = "feiji_fanchuan",
 		orbit_ui_bound = "",
@@ -41239,8 +42822,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4181] = {
+	}
+	pg.base.equip_skin_template[4181] = {
 		hit_sfx = "",
 		bullet_name = "feiji_fanchuan",
 		orbit_ui_bound = "",
@@ -41278,8 +42861,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4182] = {
+	}
+	pg.base.equip_skin_template[4182] = {
 		hit_sfx = "",
 		bullet_name = "feiji_pihuating",
 		orbit_ui_bound = "",
@@ -41317,8 +42900,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4183] = {
+	}
+	pg.base.equip_skin_template[4183] = {
 		hit_sfx = "",
 		bullet_name = "feiji_pihuating",
 		orbit_ui_bound = "",
@@ -41356,8 +42939,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4184] = {
+	}
+	pg.base.equip_skin_template[4184] = {
 		hit_sfx = "",
 		bullet_name = "feiji_pihuating",
 		orbit_ui_bound = "",
@@ -41395,8 +42978,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4185] = {
+	}
+	pg.base.equip_skin_template[4185] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -41454,8 +43037,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[4186] = {
+	}
+	pg.base.equip_skin_template[4186] = {
 		hit_sfx = "",
 		bullet_name = "zidan_huochepiao",
 		orbit_ui_bound = "",
@@ -41495,8 +43078,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4187] = {
+	}
+	pg.base.equip_skin_template[4187] = {
 		hit_sfx = "",
 		bullet_name = "zidan_qidi",
 		orbit_ui_bound = "",
@@ -41536,8 +43119,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4188] = {
+	}
+	pg.base.equip_skin_template[4188] = {
 		hit_sfx = "",
 		bullet_name = "zidan_lianjieqi",
 		orbit_ui_bound = "",
@@ -41577,8 +43160,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4189] = {
+	}
+	pg.base.equip_skin_template[4189] = {
 		hit_sfx = "",
 		bullet_name = "yulei_zhanpai",
 		orbit_ui_bound = "",
@@ -41617,8 +43200,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4190] = {
+	}
+	pg.base.equip_skin_template[4190] = {
 		hit_sfx = "",
 		bullet_name = "yulei_xinhaodeng",
 		orbit_ui_bound = "",
@@ -41657,8 +43240,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4191] = {
+	}
+	pg.base.equip_skin_template[4191] = {
 		hit_sfx = "",
 		bullet_name = "yulei_tiegui",
 		orbit_ui_bound = "",
@@ -41697,8 +43280,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4192] = {
+	}
+	pg.base.equip_skin_template[4192] = {
 		hit_sfx = "",
 		bullet_name = "paodan_liechezhangmaozi",
 		orbit_ui_bound = "",
@@ -41738,8 +43321,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4193] = {
+	}
+	pg.base.equip_skin_template[4193] = {
 		hit_sfx = "",
 		bullet_name = "paodan_xinglixiang",
 		orbit_ui_bound = "",
@@ -41779,8 +43362,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4194] = {
+	}
+	pg.base.equip_skin_template[4194] = {
 		hit_sfx = "",
 		bullet_name = "paodan_guazhong",
 		orbit_ui_bound = "",
@@ -41820,8 +43403,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4195] = {
+	}
+	pg.base.equip_skin_template[4195] = {
 		hit_sfx = "",
 		bullet_name = "feiji_chezhanhuochetou",
 		orbit_ui_bound = "",
@@ -41859,8 +43442,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4196] = {
+	}
+	pg.base.equip_skin_template[4196] = {
 		hit_sfx = "",
 		bullet_name = "feiji_chezhanhuochetou",
 		orbit_ui_bound = "",
@@ -41898,8 +43481,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4197] = {
+	}
+	pg.base.equip_skin_template[4197] = {
 		hit_sfx = "",
 		bullet_name = "feiji_chezhanhuochetou",
 		orbit_ui_bound = "",
@@ -41937,8 +43520,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4198] = {
+	}
+	pg.base.equip_skin_template[4198] = {
 		hit_sfx = "",
 		bullet_name = "feiji_chengwuyuan",
 		orbit_ui_bound = "",
@@ -41976,8 +43559,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4199] = {
+	}
+	pg.base.equip_skin_template[4199] = {
 		hit_sfx = "",
 		bullet_name = "feiji_chengwuyuan",
 		orbit_ui_bound = "",
@@ -42015,8 +43598,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4200] = {
+	}
+	pg.base.equip_skin_template[4200] = {
 		hit_sfx = "",
 		bullet_name = "feiji_chengwuyuan",
 		orbit_ui_bound = "",
@@ -42054,8 +43637,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4201] = {
+	}
+	pg.base.equip_skin_template[4201] = {
 		hit_sfx = "",
 		bullet_name = "feiji_daoyoujiu",
 		orbit_ui_bound = "",
@@ -42093,8 +43676,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4202] = {
+	}
+	pg.base.equip_skin_template[4202] = {
 		hit_sfx = "",
 		bullet_name = "feiji_daoyoujiu",
 		orbit_ui_bound = "",
@@ -42132,8 +43715,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4203] = {
+	}
+	pg.base.equip_skin_template[4203] = {
 		hit_sfx = "",
 		bullet_name = "feiji_daoyoujiu",
 		orbit_ui_bound = "",
@@ -42171,8 +43754,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4204] = {
+	}
+	pg.base.equip_skin_template[4204] = {
 		hit_sfx = "",
 		bullet_name = "zidan_dieying",
 		orbit_ui_bound = "",
@@ -42212,8 +43795,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4205] = {
+	}
+	pg.base.equip_skin_template[4205] = {
 		hit_sfx = "",
 		bullet_name = "zidan_gujingling",
 		orbit_ui_bound = "",
@@ -42253,8 +43836,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4206] = {
+	}
+	pg.base.equip_skin_template[4206] = {
 		hit_sfx = "",
 		bullet_name = "zidan_sushe",
 		orbit_ui_bound = "",
@@ -42294,8 +43877,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4207] = {
+	}
+	pg.base.equip_skin_template[4207] = {
 		hit_sfx = "",
 		bullet_name = "yulei_saozhao",
 		orbit_ui_bound = "",
@@ -42334,8 +43917,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4208] = {
+	}
+	pg.base.equip_skin_template[4208] = {
 		hit_sfx = "",
 		bullet_name = "yulei_gujingling",
 		orbit_ui_bound = "",
@@ -42374,8 +43957,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4209] = {
+	}
+	pg.base.equip_skin_template[4209] = {
 		hit_sfx = "",
 		bullet_name = "yulei_jinglingzhang",
 		orbit_ui_bound = "",
@@ -42414,8 +43997,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4210] = {
+	}
+	pg.base.equip_skin_template[4210] = {
 		hit_sfx = "",
 		bullet_name = "paodan_mofamao",
 		orbit_ui_bound = "",
@@ -42455,8 +44038,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4211] = {
+	}
+	pg.base.equip_skin_template[4211] = {
 		hit_sfx = "",
 		bullet_name = "paodan_mofaminiang",
 		orbit_ui_bound = "",
@@ -42496,8 +44079,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4212] = {
+	}
+	pg.base.equip_skin_template[4212] = {
 		hit_sfx = "",
 		bullet_name = "paodan_mofashu",
 		orbit_ui_bound = "",
@@ -42537,8 +44120,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4213] = {
+	}
+	pg.base.equip_skin_template[4213] = {
 		hit_sfx = "",
 		bullet_name = "feiji_jiulaimuruanniguai",
 		orbit_ui_bound = "",
@@ -42576,8 +44159,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4214] = {
+	}
+	pg.base.equip_skin_template[4214] = {
 		hit_sfx = "",
 		bullet_name = "feiji_jiulaimuruanniguai",
 		orbit_ui_bound = "",
@@ -42615,8 +44198,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4215] = {
+	}
+	pg.base.equip_skin_template[4215] = {
 		hit_sfx = "",
 		bullet_name = "feiji_jiulaimuruanniguai",
 		orbit_ui_bound = "",
@@ -42654,8 +44237,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4216] = {
+	}
+	pg.base.equip_skin_template[4216] = {
 		hit_sfx = "",
 		bullet_name = "feiji_jiulaimuemo",
 		orbit_ui_bound = "",
@@ -42693,8 +44276,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4217] = {
+	}
+	pg.base.equip_skin_template[4217] = {
 		hit_sfx = "",
 		bullet_name = "feiji_jiulaimuemo",
 		orbit_ui_bound = "",
@@ -42732,8 +44315,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4218] = {
+	}
+	pg.base.equip_skin_template[4218] = {
 		hit_sfx = "",
 		bullet_name = "feiji_jiulaimuemo",
 		orbit_ui_bound = "",
@@ -42771,8 +44354,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4219] = {
+	}
+	pg.base.equip_skin_template[4219] = {
 		hit_sfx = "",
 		bullet_name = "feiji_jiulaimushixianggui",
 		orbit_ui_bound = "",
@@ -42810,8 +44393,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4220] = {
+	}
+	pg.base.equip_skin_template[4220] = {
 		hit_sfx = "",
 		bullet_name = "feiji_jiulaimushixianggui",
 		orbit_ui_bound = "",
@@ -42849,8 +44432,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4221] = {
+	}
+	pg.base.equip_skin_template[4221] = {
 		hit_sfx = "",
 		bullet_name = "feiji_jiulaimushixianggui",
 		orbit_ui_bound = "",
@@ -42888,8 +44471,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4222] = {
+	}
+	pg.base.equip_skin_template[4222] = {
 		hit_sfx = "",
 		bullet_name = "zidan_huhuo",
 		orbit_ui_bound = "",
@@ -42929,8 +44512,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4223] = {
+	}
+	pg.base.equip_skin_template[4223] = {
 		hit_sfx = "",
 		bullet_name = "zidan_fengyu",
 		orbit_ui_bound = "",
@@ -42970,8 +44553,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4224] = {
+	}
+	pg.base.equip_skin_template[4224] = {
 		hit_sfx = "",
 		bullet_name = "zidan_shengjie",
 		orbit_ui_bound = "",
@@ -43011,8 +44594,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4225] = {
+	}
+	pg.base.equip_skin_template[4225] = {
 		hit_sfx = "",
 		bullet_name = "yulei_hongying",
 		orbit_ui_bound = "",
@@ -43051,8 +44634,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4226] = {
+	}
+	pg.base.equip_skin_template[4226] = {
 		hit_sfx = "",
 		bullet_name = "yulei_jingui",
 		orbit_ui_bound = "",
@@ -43091,8 +44674,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4227] = {
+	}
+	pg.base.equip_skin_template[4227] = {
 		hit_sfx = "",
 		bullet_name = "yulei_qingsong",
 		orbit_ui_bound = "",
@@ -43131,8 +44714,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4228] = {
+	}
+	pg.base.equip_skin_template[4228] = {
 		hit_sfx = "",
 		bullet_name = "paodan_jiedeng",
 		orbit_ui_bound = "",
@@ -43172,8 +44755,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4229] = {
+	}
+	pg.base.equip_skin_template[4229] = {
 		hit_sfx = "",
 		bullet_name = "paodan_jiuhulu",
 		orbit_ui_bound = "",
@@ -43213,8 +44796,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4230] = {
+	}
+	pg.base.equip_skin_template[4230] = {
 		hit_sfx = "",
 		bullet_name = "paodan_renzheliandao",
 		orbit_ui_bound = "",
@@ -43254,8 +44837,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4231] = {
+	}
+	pg.base.equip_skin_template[4231] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yunzhonghongying",
 		orbit_ui_bound = "",
@@ -43293,8 +44876,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4232] = {
+	}
+	pg.base.equip_skin_template[4232] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yunzhonghongying",
 		orbit_ui_bound = "",
@@ -43332,8 +44915,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4233] = {
+	}
+	pg.base.equip_skin_template[4233] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yunzhonghongying",
 		orbit_ui_bound = "",
@@ -43371,8 +44954,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4234] = {
+	}
+	pg.base.equip_skin_template[4234] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yunzhongjingui",
 		orbit_ui_bound = "",
@@ -43410,8 +44993,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4235] = {
+	}
+	pg.base.equip_skin_template[4235] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yunzhongjingui",
 		orbit_ui_bound = "",
@@ -43449,8 +45032,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4236] = {
+	}
+	pg.base.equip_skin_template[4236] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yunzhongjingui",
 		orbit_ui_bound = "",
@@ -43488,8 +45071,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4237] = {
+	}
+	pg.base.equip_skin_template[4237] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yunzhongqinsong",
 		orbit_ui_bound = "",
@@ -43527,8 +45110,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4238] = {
+	}
+	pg.base.equip_skin_template[4238] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yunzhongqinsong",
 		orbit_ui_bound = "",
@@ -43566,8 +45149,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4239] = {
+	}
+	pg.base.equip_skin_template[4239] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yunzhongqinsong",
 		orbit_ui_bound = "",
@@ -43605,8 +45188,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4240] = {
+	}
+	pg.base.equip_skin_template[4240] = {
 		hit_sfx = "",
 		bullet_name = "zidan_huoguang",
 		orbit_ui_bound = "",
@@ -43646,8 +45229,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4241] = {
+	}
+	pg.base.equip_skin_template[4241] = {
 		hit_sfx = "",
 		bullet_name = "zidan_lvzhu",
 		orbit_ui_bound = "",
@@ -43687,8 +45270,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4242] = {
+	}
+	pg.base.equip_skin_template[4242] = {
 		hit_sfx = "",
 		bullet_name = "zidan_zhangyuyan",
 		orbit_ui_bound = "",
@@ -43728,8 +45311,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4243] = {
+	}
+	pg.base.equip_skin_template[4243] = {
 		hit_sfx = "",
 		bullet_name = "yulei_chuanmao",
 		orbit_ui_bound = "",
@@ -43768,8 +45351,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4244] = {
+	}
+	pg.base.equip_skin_template[4244] = {
 		hit_sfx = "",
 		bullet_name = "yulei_sanchaji",
 		orbit_ui_bound = "",
@@ -43808,8 +45391,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4245] = {
+	}
+	pg.base.equip_skin_template[4245] = {
 		hit_sfx = "",
 		bullet_name = "yulei_weigan",
 		orbit_ui_bound = "",
@@ -43848,8 +45431,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4246] = {
+	}
+	pg.base.equip_skin_template[4246] = {
 		hit_sfx = "",
 		bullet_name = "paodan_haidaomao",
 		orbit_ui_bound = "",
@@ -43889,8 +45472,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4247] = {
+	}
+	pg.base.equip_skin_template[4247] = {
 		hit_sfx = "",
 		bullet_name = "paodan_pojiutong",
 		orbit_ui_bound = "",
@@ -43930,8 +45513,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4248] = {
+	}
+	pg.base.equip_skin_template[4248] = {
 		hit_sfx = "",
 		bullet_name = "paodan_haiditideng",
 		orbit_ui_bound = "",
@@ -43971,8 +45554,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4249] = {
+	}
+	pg.base.equip_skin_template[4249] = {
 		hit_sfx = "",
 		bullet_name = "feiji_youlingchuanlan",
 		orbit_ui_bound = "",
@@ -44010,8 +45593,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4250] = {
+	}
+	pg.base.equip_skin_template[4250] = {
 		hit_sfx = "",
 		bullet_name = "feiji_youlingchuanlan",
 		orbit_ui_bound = "",
@@ -44049,8 +45632,10 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4251] = {
+	}
+end)()
+(function ()
+	pg.base.equip_skin_template[4251] = {
 		hit_sfx = "",
 		bullet_name = "feiji_youlingchuanlan",
 		orbit_ui_bound = "",
@@ -44088,8 +45673,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4252] = {
+	}
+	pg.base.equip_skin_template[4252] = {
 		hit_sfx = "",
 		bullet_name = "feiji_youlingchuanlv",
 		orbit_ui_bound = "",
@@ -44127,8 +45712,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4253] = {
+	}
+	pg.base.equip_skin_template[4253] = {
 		hit_sfx = "",
 		bullet_name = "feiji_youlingchuanlv",
 		orbit_ui_bound = "",
@@ -44166,8 +45751,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4254] = {
+	}
+	pg.base.equip_skin_template[4254] = {
 		hit_sfx = "",
 		bullet_name = "feiji_youlingchuanlv",
 		orbit_ui_bound = "",
@@ -44205,8 +45790,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4255] = {
+	}
+	pg.base.equip_skin_template[4255] = {
 		hit_sfx = "",
 		bullet_name = "feiji_youlingchuanzi",
 		orbit_ui_bound = "",
@@ -44244,8 +45829,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4256] = {
+	}
+	pg.base.equip_skin_template[4256] = {
 		hit_sfx = "",
 		bullet_name = "feiji_youlingchuanzi",
 		orbit_ui_bound = "",
@@ -44283,8 +45868,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4257] = {
+	}
+	pg.base.equip_skin_template[4257] = {
 		hit_sfx = "",
 		bullet_name = "feiji_youlingchuanzi",
 		orbit_ui_bound = "",
@@ -44322,8 +45907,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4258] = {
+	}
+	pg.base.equip_skin_template[4258] = {
 		hit_sfx = "",
 		bullet_name = "zidan_gaojiaobei",
 		orbit_ui_bound = "",
@@ -44363,8 +45948,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4259] = {
+	}
+	pg.base.equip_skin_template[4259] = {
 		hit_sfx = "",
 		bullet_name = "zidan_lingjie",
 		orbit_ui_bound = "",
@@ -44404,8 +45989,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4260] = {
+	}
+	pg.base.equip_skin_template[4260] = {
 		hit_sfx = "",
 		bullet_name = "zidan_xuancaihuatong",
 		orbit_ui_bound = "",
@@ -44445,8 +46030,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4261] = {
+	}
+	pg.base.equip_skin_template[4261] = {
 		hit_sfx = "",
 		bullet_name = "yulei_zhuopai",
 		orbit_ui_bound = "",
@@ -44485,8 +46070,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4262] = {
+	}
+	pg.base.equip_skin_template[4262] = {
 		hit_sfx = "",
 		bullet_name = "yulei_qipaoguojiuping",
 		orbit_ui_bound = "",
@@ -44525,8 +46110,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4263] = {
+	}
+	pg.base.equip_skin_template[4263] = {
 		hit_sfx = "",
 		bullet_name = "yulei_kapaishan",
 		orbit_ui_bound = "",
@@ -44565,8 +46150,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4264] = {
+	}
+	pg.base.equip_skin_template[4264] = {
 		hit_sfx = "",
 		bullet_name = "paodan_xuancaidengqiu",
 		orbit_ui_bound = "",
@@ -44606,8 +46191,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4265] = {
+	}
+	pg.base.equip_skin_template[4265] = {
 		hit_sfx = "",
 		bullet_name = "paodan_feibiaopan",
 		orbit_ui_bound = "",
@@ -44647,8 +46232,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4266] = {
+	}
+	pg.base.equip_skin_template[4266] = {
 		hit_sfx = "",
 		bullet_name = "paodan_tuertoushi",
 		orbit_ui_bound = "",
@@ -44688,8 +46273,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4267] = {
+	}
+	pg.base.equip_skin_template[4267] = {
 		hit_sfx = "",
 		bullet_name = "feiji_shizhejiu",
 		orbit_ui_bound = "",
@@ -44727,8 +46312,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4268] = {
+	}
+	pg.base.equip_skin_template[4268] = {
 		hit_sfx = "",
 		bullet_name = "feiji_shizhejiu",
 		orbit_ui_bound = "",
@@ -44766,8 +46351,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4269] = {
+	}
+	pg.base.equip_skin_template[4269] = {
 		hit_sfx = "",
 		bullet_name = "feiji_shizhejiu",
 		orbit_ui_bound = "",
@@ -44805,8 +46390,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4270] = {
+	}
+	pg.base.equip_skin_template[4270] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tuerjiu",
 		orbit_ui_bound = "",
@@ -44844,8 +46429,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4271] = {
+	}
+	pg.base.equip_skin_template[4271] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tuerjiu",
 		orbit_ui_bound = "",
@@ -44883,8 +46468,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4272] = {
+	}
+	pg.base.equip_skin_template[4272] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tuerjiu",
 		orbit_ui_bound = "",
@@ -44922,8 +46507,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4273] = {
+	}
+	pg.base.equip_skin_template[4273] = {
 		hit_sfx = "",
 		bullet_name = "feiji_heguanjiu",
 		orbit_ui_bound = "",
@@ -44961,8 +46546,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4274] = {
+	}
+	pg.base.equip_skin_template[4274] = {
 		hit_sfx = "",
 		bullet_name = "feiji_heguanjiu",
 		orbit_ui_bound = "",
@@ -45000,8 +46585,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4275] = {
+	}
+	pg.base.equip_skin_template[4275] = {
 		hit_sfx = "",
 		bullet_name = "feiji_heguanjiu",
 		orbit_ui_bound = "",
@@ -45039,8 +46624,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4276] = {
+	}
+	pg.base.equip_skin_template[4276] = {
 		hit_sfx = "",
 		bullet_name = "zidan_pailidexiangzhi",
 		orbit_ui_bound = "",
@@ -45080,8 +46665,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4277] = {
+	}
+	pg.base.equip_skin_template[4277] = {
 		hit_sfx = "",
 		bullet_name = "zidan_jiaojuanhe",
 		orbit_ui_bound = "",
@@ -45121,8 +46706,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4278] = {
+	}
+	pg.base.equip_skin_template[4278] = {
 		hit_sfx = "",
 		bullet_name = "zidan_sdcard",
 		orbit_ui_bound = "",
@@ -45162,8 +46747,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4279] = {
+	}
+	pg.base.equip_skin_template[4279] = {
 		hit_sfx = "",
 		bullet_name = "yulei_buguangbang",
 		orbit_ui_bound = "",
@@ -45202,8 +46787,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4280] = {
+	}
+	pg.base.equip_skin_template[4280] = {
 		hit_sfx = "",
 		bullet_name = "yulei_sanjiaojia",
 		orbit_ui_bound = "",
@@ -45242,8 +46827,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4281] = {
+	}
+	pg.base.equip_skin_template[4281] = {
 		hit_sfx = "",
 		bullet_name = "yulei_changjiaojingtou",
 		orbit_ui_bound = "",
@@ -45282,8 +46867,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4282] = {
+	}
+	pg.base.equip_skin_template[4282] = {
 		hit_sfx = "",
 		bullet_name = "paodan_shaguaxiangji",
 		orbit_ui_bound = "",
@@ -45323,8 +46908,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4283] = {
+	}
+	pg.base.equip_skin_template[4283] = {
 		hit_sfx = "",
 		bullet_name = "paodan_zhuanyexiangji",
 		orbit_ui_bound = "",
@@ -45364,8 +46949,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4284] = {
+	}
+	pg.base.equip_skin_template[4284] = {
 		hit_sfx = "",
 		bullet_name = "paodan_sheyinggongjuxiang",
 		orbit_ui_bound = "",
@@ -45405,8 +46990,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4285] = {
+	}
+	pg.base.equip_skin_template[4285] = {
 		hit_sfx = "",
 		bullet_name = "feiji_huangjixiangkuang",
 		orbit_ui_bound = "",
@@ -45444,8 +47029,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4286] = {
+	}
+	pg.base.equip_skin_template[4286] = {
 		hit_sfx = "",
 		bullet_name = "feiji_huangjixiangkuang",
 		orbit_ui_bound = "",
@@ -45483,8 +47068,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4287] = {
+	}
+	pg.base.equip_skin_template[4287] = {
 		hit_sfx = "",
 		bullet_name = "feiji_huangjixiangkuang",
 		orbit_ui_bound = "",
@@ -45522,8 +47107,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4288] = {
+	}
+	pg.base.equip_skin_template[4288] = {
 		hit_sfx = "",
 		bullet_name = "feiji_sheyingdaping",
 		orbit_ui_bound = "",
@@ -45561,8 +47146,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4289] = {
+	}
+	pg.base.equip_skin_template[4289] = {
 		hit_sfx = "",
 		bullet_name = "feiji_sheyingdaping",
 		orbit_ui_bound = "",
@@ -45600,8 +47185,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4290] = {
+	}
+	pg.base.equip_skin_template[4290] = {
 		hit_sfx = "",
 		bullet_name = "feiji_sheyingdaping",
 		orbit_ui_bound = "",
@@ -45639,8 +47224,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4291] = {
+	}
+	pg.base.equip_skin_template[4291] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yishuhaibao",
 		orbit_ui_bound = "",
@@ -45678,8 +47263,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4292] = {
+	}
+	pg.base.equip_skin_template[4292] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yishuhaibao",
 		orbit_ui_bound = "",
@@ -45717,8 +47302,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4293] = {
+	}
+	pg.base.equip_skin_template[4293] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yishuhaibao",
 		orbit_ui_bound = "",
@@ -45756,8 +47341,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4294] = {
+	}
+	pg.base.equip_skin_template[4294] = {
 		hit_sfx = "",
 		bullet_name = "zidan_zhongshiqianbi",
 		orbit_ui_bound = "",
@@ -45797,8 +47382,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4295] = {
+	}
+	pg.base.equip_skin_template[4295] = {
 		hit_sfx = "",
 		bullet_name = "zidan_wanyueyushi",
 		orbit_ui_bound = "",
@@ -45838,8 +47423,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4296] = {
+	}
+	pg.base.equip_skin_template[4296] = {
 		hit_sfx = "",
 		bullet_name = "zidan_feicuiyuhuan",
 		orbit_ui_bound = "",
@@ -45879,8 +47464,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4297] = {
+	}
+	pg.base.equip_skin_template[4297] = {
 		hit_sfx = "",
 		bullet_name = "yulei_liusu",
 		orbit_ui_bound = "",
@@ -45919,8 +47504,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4298] = {
+	}
+	pg.base.equip_skin_template[4298] = {
 		hit_sfx = "",
 		bullet_name = "yulei_xiangyunshanzi",
 		orbit_ui_bound = "",
@@ -45959,8 +47544,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4299] = {
+	}
+	pg.base.equip_skin_template[4299] = {
 		hit_sfx = "",
 		bullet_name = "yulei_yuzan",
 		orbit_ui_bound = "",
@@ -45999,8 +47584,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4300] = {
+	}
+	pg.base.equip_skin_template[4300] = {
 		hit_sfx = "",
 		bullet_name = "paodan_wanzhengyushi",
 		orbit_ui_bound = "",
@@ -46040,8 +47625,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4301] = {
+	}
+	pg.base.equip_skin_template[4301] = {
 		hit_sfx = "",
 		bullet_name = "paodan_xiangxun",
 		orbit_ui_bound = "",
@@ -46081,8 +47666,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4302] = {
+	}
+	pg.base.equip_skin_template[4302] = {
 		hit_sfx = "",
 		bullet_name = "paodan_tiandeng",
 		orbit_ui_bound = "",
@@ -46122,8 +47707,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4303] = {
+	}
+	pg.base.equip_skin_template[4303] = {
 		hit_sfx = "",
 		bullet_name = "feiji_loukongchuanghu",
 		orbit_ui_bound = "",
@@ -46161,8 +47746,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4304] = {
+	}
+	pg.base.equip_skin_template[4304] = {
 		hit_sfx = "",
 		bullet_name = "feiji_loukongchuanghu",
 		orbit_ui_bound = "",
@@ -46200,8 +47785,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4305] = {
+	}
+	pg.base.equip_skin_template[4305] = {
 		hit_sfx = "",
 		bullet_name = "feiji_loukongchuanghu",
 		orbit_ui_bound = "",
@@ -46239,8 +47824,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4306] = {
+	}
+	pg.base.equip_skin_template[4306] = {
 		hit_sfx = "",
 		bullet_name = "feiji_mozhuhuajuan",
 		orbit_ui_bound = "",
@@ -46278,8 +47863,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4307] = {
+	}
+	pg.base.equip_skin_template[4307] = {
 		hit_sfx = "",
 		bullet_name = "feiji_mozhuhuajuan",
 		orbit_ui_bound = "",
@@ -46317,8 +47902,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4308] = {
+	}
+	pg.base.equip_skin_template[4308] = {
 		hit_sfx = "",
 		bullet_name = "feiji_mozhuhuajuan",
 		orbit_ui_bound = "",
@@ -46356,8 +47941,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4309] = {
+	}
+	pg.base.equip_skin_template[4309] = {
 		hit_sfx = "",
 		bullet_name = "feiji_meihuazheshan",
 		orbit_ui_bound = "",
@@ -46395,8 +47980,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4310] = {
+	}
+	pg.base.equip_skin_template[4310] = {
 		hit_sfx = "",
 		bullet_name = "feiji_meihuazheshan",
 		orbit_ui_bound = "",
@@ -46434,8 +48019,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4311] = {
+	}
+	pg.base.equip_skin_template[4311] = {
 		hit_sfx = "",
 		bullet_name = "feiji_meihuazheshan",
 		orbit_ui_bound = "",
@@ -46473,8 +48058,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4312] = {
+	}
+	pg.base.equip_skin_template[4312] = {
 		hit_sfx = "",
 		bullet_name = "zidan_weiqiqizi",
 		orbit_ui_bound = "",
@@ -46514,8 +48099,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4313] = {
+	}
+	pg.base.equip_skin_template[4313] = {
 		hit_sfx = "",
 		bullet_name = "zidan_majiangpai",
 		orbit_ui_bound = "",
@@ -46555,8 +48140,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4314] = {
+	}
+	pg.base.equip_skin_template[4314] = {
 		hit_sfx = "",
 		bullet_name = "zidan_xiangnang",
 		orbit_ui_bound = "",
@@ -46596,8 +48181,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4315] = {
+	}
+	pg.base.equip_skin_template[4315] = {
 		hit_sfx = "",
 		bullet_name = "yulei_zhutong",
 		orbit_ui_bound = "",
@@ -46636,8 +48221,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4316] = {
+	}
+	pg.base.equip_skin_template[4316] = {
 		hit_sfx = "",
 		bullet_name = "yulei_huapin",
 		orbit_ui_bound = "",
@@ -46676,8 +48261,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4317] = {
+	}
+	pg.base.equip_skin_template[4317] = {
 		hit_sfx = "",
 		bullet_name = "yulei_xiuhuaxie",
 		orbit_ui_bound = "",
@@ -46716,8 +48301,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4318] = {
+	}
+	pg.base.equip_skin_template[4318] = {
 		hit_sfx = "",
 		bullet_name = "paodan_weiqiguan",
 		orbit_ui_bound = "",
@@ -46757,8 +48342,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4319] = {
+	}
+	pg.base.equip_skin_template[4319] = {
 		hit_sfx = "",
 		bullet_name = "paodan_bijia",
 		orbit_ui_bound = "",
@@ -46798,8 +48383,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4320] = {
+	}
+	pg.base.equip_skin_template[4320] = {
 		hit_sfx = "",
 		bullet_name = "paodan_suanpan",
 		orbit_ui_bound = "",
@@ -46839,8 +48424,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4321] = {
+	}
+	pg.base.equip_skin_template[4321] = {
 		hit_sfx = "",
 		bullet_name = "feiji_madeng",
 		orbit_ui_bound = "",
@@ -46878,8 +48463,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4322] = {
+	}
+	pg.base.equip_skin_template[4322] = {
 		hit_sfx = "",
 		bullet_name = "feiji_madeng",
 		orbit_ui_bound = "",
@@ -46917,8 +48502,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4323] = {
+	}
+	pg.base.equip_skin_template[4323] = {
 		hit_sfx = "",
 		bullet_name = "feiji_madeng",
 		orbit_ui_bound = "",
@@ -46956,8 +48541,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4324] = {
+	}
+	pg.base.equip_skin_template[4324] = {
 		hit_sfx = "",
 		bullet_name = "feiji_madengqipan",
 		orbit_ui_bound = "",
@@ -46995,8 +48580,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4325] = {
+	}
+	pg.base.equip_skin_template[4325] = {
 		hit_sfx = "",
 		bullet_name = "feiji_madengqipan",
 		orbit_ui_bound = "",
@@ -47034,8 +48619,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4326] = {
+	}
+	pg.base.equip_skin_template[4326] = {
 		hit_sfx = "",
 		bullet_name = "feiji_madengqipan",
 		orbit_ui_bound = "",
@@ -47073,8 +48658,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4327] = {
+	}
+	pg.base.equip_skin_template[4327] = {
 		hit_sfx = "",
 		bullet_name = "feiji_madengsuanpan",
 		orbit_ui_bound = "",
@@ -47112,8 +48697,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4328] = {
+	}
+	pg.base.equip_skin_template[4328] = {
 		hit_sfx = "",
 		bullet_name = "feiji_madengsuanpan",
 		orbit_ui_bound = "",
@@ -47151,8 +48736,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4329] = {
+	}
+	pg.base.equip_skin_template[4329] = {
 		hit_sfx = "",
 		bullet_name = "feiji_madengsuanpan",
 		orbit_ui_bound = "",
@@ -47190,8 +48775,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4330] = {
+	}
+	pg.base.equip_skin_template[4330] = {
 		hit_sfx = "",
 		bullet_name = "zidan_gaokejixinpian",
 		orbit_ui_bound = "",
@@ -47231,8 +48816,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4331] = {
+	}
+	pg.base.equip_skin_template[4331] = {
 		hit_sfx = "",
 		bullet_name = "zidan_guangyingshandian",
 		orbit_ui_bound = "",
@@ -47272,8 +48857,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4332] = {
+	}
+	pg.base.equip_skin_template[4332] = {
 		hit_sfx = "",
 		bullet_name = "zidan_toumingshuidi",
 		orbit_ui_bound = "",
@@ -47313,8 +48898,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4333] = {
+	}
+	pg.base.equip_skin_template[4333] = {
 		hit_sfx = "",
 		bullet_name = "yulei_shandianshouqiang",
 		orbit_ui_bound = "",
@@ -47353,8 +48938,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4334] = {
+	}
+	pg.base.equip_skin_template[4334] = {
 		hit_sfx = "",
 		bullet_name = "yulei_guaidaozhuagou",
 		orbit_ui_bound = "",
@@ -47393,8 +48978,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4335] = {
+	}
+	pg.base.equip_skin_template[4335] = {
 		hit_sfx = "",
 		bullet_name = "yulei_weizaozhengjian",
 		orbit_ui_bound = "",
@@ -47433,8 +49018,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4336] = {
+	}
+	pg.base.equip_skin_template[4336] = {
 		hit_sfx = "",
 		bullet_name = "paodan_dianzitongjiling",
 		orbit_ui_bound = "",
@@ -47474,8 +49059,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4337] = {
+	}
+	pg.base.equip_skin_template[4337] = {
 		hit_sfx = "",
 		bullet_name = "paodan_fanzuiyugaohan",
 		orbit_ui_bound = "",
@@ -47515,8 +49100,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4338] = {
+	}
+	pg.base.equip_skin_template[4338] = {
 		hit_sfx = "",
 		bullet_name = "paodan_guaidaomianju",
 		orbit_ui_bound = "",
@@ -47556,8 +49141,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4339] = {
+	}
+	pg.base.equip_skin_template[4339] = {
 		hit_sfx = "",
 		bullet_name = "feiji_anyingjiu",
 		orbit_ui_bound = "",
@@ -47595,8 +49180,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4340] = {
+	}
+	pg.base.equip_skin_template[4340] = {
 		hit_sfx = "",
 		bullet_name = "feiji_anyingjiu",
 		orbit_ui_bound = "",
@@ -47634,8 +49219,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4341] = {
+	}
+	pg.base.equip_skin_template[4341] = {
 		hit_sfx = "",
 		bullet_name = "feiji_anyingjiu",
 		orbit_ui_bound = "",
@@ -47673,8 +49258,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4342] = {
+	}
+	pg.base.equip_skin_template[4342] = {
 		hit_sfx = "",
 		bullet_name = "feiji_guaidaojiu",
 		orbit_ui_bound = "",
@@ -47712,8 +49297,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4343] = {
+	}
+	pg.base.equip_skin_template[4343] = {
 		hit_sfx = "",
 		bullet_name = "feiji_guaidaojiu",
 		orbit_ui_bound = "",
@@ -47751,8 +49336,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4344] = {
+	}
+	pg.base.equip_skin_template[4344] = {
 		hit_sfx = "",
 		bullet_name = "feiji_guaidaojiu",
 		orbit_ui_bound = "",
@@ -47790,8 +49375,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4345] = {
+	}
+	pg.base.equip_skin_template[4345] = {
 		hit_sfx = "",
 		bullet_name = "feiji_feitianjiche",
 		orbit_ui_bound = "",
@@ -47829,8 +49414,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4346] = {
+	}
+	pg.base.equip_skin_template[4346] = {
 		hit_sfx = "",
 		bullet_name = "feiji_feitianjiche",
 		orbit_ui_bound = "",
@@ -47868,8 +49453,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4347] = {
+	}
+	pg.base.equip_skin_template[4347] = {
 		hit_sfx = "",
 		bullet_name = "feiji_feitianjiche",
 		orbit_ui_bound = "",
@@ -47907,8 +49492,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4348] = {
+	}
+	pg.base.equip_skin_template[4348] = {
 		hit_sfx = "",
 		bullet_name = "zidan_qianghuashi_doa",
 		orbit_ui_bound = "",
@@ -47948,8 +49533,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4349] = {
+	}
+	pg.base.equip_skin_template[4349] = {
 		hit_sfx = "",
 		bullet_name = "zidan_jiabindianshu_doa",
 		orbit_ui_bound = "",
@@ -47989,8 +49574,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4350] = {
+	}
+	pg.base.equip_skin_template[4350] = {
 		hit_sfx = "",
 		bullet_name = "zidan_vbaoshi_doa",
 		orbit_ui_bound = "",
@@ -48030,8 +49615,10 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[4351] = {
+	}
+end)()
+(function ()
+	pg.base.equip_skin_template[4351] = {
 		hit_sfx = "",
 		bullet_name = "yulei_putao_doa",
 		orbit_ui_bound = "",
@@ -48070,8 +49657,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4352] = {
+	}
+	pg.base.equip_skin_template[4352] = {
 		hit_sfx = "",
 		bullet_name = "yulei_boluo_doa",
 		orbit_ui_bound = "",
@@ -48110,8 +49697,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4353] = {
+	}
+	pg.base.equip_skin_template[4353] = {
 		hit_sfx = "",
 		bullet_name = "yulei_xiangjiao_doa",
 		orbit_ui_bound = "",
@@ -48150,8 +49737,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[4354] = {
+	}
+	pg.base.equip_skin_template[4354] = {
 		hit_sfx = "",
 		bullet_name = "paodan_xiangji_doa",
 		orbit_ui_bound = "",
@@ -48191,8 +49778,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4355] = {
+	}
+	pg.base.equip_skin_template[4355] = {
 		hit_sfx = "",
 		bullet_name = "paodan_jishiben_doa",
 		orbit_ui_bound = "",
@@ -48232,8 +49819,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4356] = {
+	}
+	pg.base.equip_skin_template[4356] = {
 		hit_sfx = "",
 		bullet_name = "paodan_nvshenli_doa",
 		orbit_ui_bound = "",
@@ -48273,8 +49860,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[4357] = {
+	}
+	pg.base.equip_skin_template[4357] = {
 		hit_sfx = "",
 		bullet_name = "feiji_qidianjiu_doa",
 		orbit_ui_bound = "",
@@ -48312,8 +49899,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4358] = {
+	}
+	pg.base.equip_skin_template[4358] = {
 		hit_sfx = "",
 		bullet_name = "feiji_qidianjiu_doa",
 		orbit_ui_bound = "",
@@ -48351,8 +49938,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4359] = {
+	}
+	pg.base.equip_skin_template[4359] = {
 		hit_sfx = "",
 		bullet_name = "feiji_qidianjiu_doa",
 		orbit_ui_bound = "",
@@ -48390,8 +49977,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4360] = {
+	}
+	pg.base.equip_skin_template[4360] = {
 		hit_sfx = "",
 		bullet_name = "feiji_huahuanjiu_doa",
 		orbit_ui_bound = "",
@@ -48429,8 +50016,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4361] = {
+	}
+	pg.base.equip_skin_template[4361] = {
 		hit_sfx = "",
 		bullet_name = "feiji_huahuanjiu_doa",
 		orbit_ui_bound = "",
@@ -48468,8 +50055,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4362] = {
+	}
+	pg.base.equip_skin_template[4362] = {
 		hit_sfx = "",
 		bullet_name = "feiji_huahuanjiu_doa",
 		orbit_ui_bound = "",
@@ -48507,8 +50094,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[4363] = {
+	}
+	pg.base.equip_skin_template[4363] = {
 		hit_sfx = "",
 		bullet_name = "feiji_hujingjiu_doa",
 		orbit_ui_bound = "",
@@ -48546,8 +50133,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[4364] = {
+	}
+	pg.base.equip_skin_template[4364] = {
 		hit_sfx = "",
 		bullet_name = "feiji_hujingjiu_doa",
 		orbit_ui_bound = "",
@@ -48585,8 +50172,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[4365] = {
+	}
+	pg.base.equip_skin_template[4365] = {
 		hit_sfx = "",
 		bullet_name = "feiji_hujingjiu_doa",
 		orbit_ui_bound = "",
@@ -48624,8 +50211,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[1001] = {
+	}
+	pg.base.equip_skin_template[1001] = {
 		hit_sfx = "",
 		bullet_name = "Nep_bullet_shizi",
 		orbit_ui_bound = "",
@@ -48665,8 +50252,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[1002] = {
+	}
+	pg.base.equip_skin_template[1002] = {
 		hit_sfx = "",
 		bullet_name = "Nep_bullet_xianggu",
 		orbit_ui_bound = "",
@@ -48706,8 +50293,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[1003] = {
+	}
+	pg.base.equip_skin_template[1003] = {
 		hit_sfx = "",
 		bullet_name = "Nep_bullet_anniu",
 		orbit_ui_bound = "",
@@ -48747,8 +50334,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[1004] = {
+	}
+	pg.base.equip_skin_template[1004] = {
 		hit_sfx = "",
 		bullet_name = "Nep_bullet_guangpan",
 		orbit_ui_bound = "",
@@ -48788,8 +50375,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[1005] = {
+	}
+	pg.base.equip_skin_template[1005] = {
 		hit_sfx = "",
 		bullet_name = "Nep_bullet_shilaimu",
 		orbit_ui_bound = "",
@@ -48829,8 +50416,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[1006] = {
+	}
+	pg.base.equip_skin_template[1006] = {
 		hit_sfx = "",
 		bullet_name = "Nep_torpedo_dianchi",
 		orbit_ui_bound = "",
@@ -48869,8 +50456,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[1007] = {
+	}
+	pg.base.equip_skin_template[1007] = {
 		hit_sfx = "",
 		bullet_name = "Nep_green",
 		orbit_ui_bound = "",
@@ -48908,8 +50495,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[1008] = {
+	}
+	pg.base.equip_skin_template[1008] = {
 		hit_sfx = "",
 		bullet_name = "Nep_green",
 		orbit_ui_bound = "",
@@ -48947,8 +50534,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[1009] = {
+	}
+	pg.base.equip_skin_template[1009] = {
 		hit_sfx = "",
 		bullet_name = "Nep_green",
 		orbit_ui_bound = "",
@@ -48986,8 +50573,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[1010] = {
+	}
+	pg.base.equip_skin_template[1010] = {
 		hit_sfx = "",
 		bullet_name = "pixel_bullet_small",
 		orbit_ui_bound = "",
@@ -49027,8 +50614,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[1011] = {
+	}
+	pg.base.equip_skin_template[1011] = {
 		hit_sfx = "",
 		bullet_name = "pixel_bullet_large",
 		orbit_ui_bound = "",
@@ -49068,8 +50655,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[1012] = {
+	}
+	pg.base.equip_skin_template[1012] = {
 		hit_sfx = "",
 		bullet_name = "Torpedo_pixel",
 		orbit_ui_bound = "",
@@ -49108,8 +50695,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[1013] = {
+	}
+	pg.base.equip_skin_template[1013] = {
 		hit_sfx = "",
 		bullet_name = "pixel_hongzhaji",
 		orbit_ui_bound = "",
@@ -49147,8 +50734,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[1014] = {
+	}
+	pg.base.equip_skin_template[1014] = {
 		hit_sfx = "",
 		bullet_name = "pixel_zhandouji",
 		orbit_ui_bound = "",
@@ -49186,8 +50773,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[1015] = {
+	}
+	pg.base.equip_skin_template[1015] = {
 		hit_sfx = "",
 		bullet_name = "pixel_yuleiji",
 		orbit_ui_bound = "",
@@ -49225,8 +50812,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[1051] = {
+	}
+	pg.base.equip_skin_template[1051] = {
 		hit_sfx = "",
 		bullet_name = "yulei_fanshao",
 		orbit_ui_bound = "",
@@ -49265,8 +50852,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[1052] = {
+	}
+	pg.base.equip_skin_template[1052] = {
 		hit_sfx = "",
 		bullet_name = "yulei_kuwu",
 		orbit_ui_bound = "",
@@ -49305,8 +50892,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[1053] = {
+	}
+	pg.base.equip_skin_template[1053] = {
 		hit_sfx = "",
 		bullet_name = "yulei_juanzhou",
 		orbit_ui_bound = "",
@@ -49345,8 +50932,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[1054] = {
+	}
+	pg.base.equip_skin_template[1054] = {
 		hit_sfx = "",
 		bullet_name = "zidan_fuzhou",
 		orbit_ui_bound = "",
@@ -49386,8 +50973,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[1055] = {
+	}
+	pg.base.equip_skin_template[1055] = {
 		hit_sfx = "",
 		bullet_name = "zidan_gongjian",
 		orbit_ui_bound = "",
@@ -49427,8 +51014,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[1056] = {
+	}
+	pg.base.equip_skin_template[1056] = {
 		hit_sfx = "",
 		bullet_name = "zidan_duanjian",
 		orbit_ui_bound = "",
@@ -49468,8 +51055,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[1057] = {
+	}
+	pg.base.equip_skin_template[1057] = {
 		hit_sfx = "",
 		bullet_name = "paodan_shigui",
 		orbit_ui_bound = "",
@@ -49509,8 +51096,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[1058] = {
+	}
+	pg.base.equip_skin_template[1058] = {
 		hit_sfx = "",
 		bullet_name = "paodan_dajian",
 		orbit_ui_bound = "",
@@ -49550,8 +51137,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[1059] = {
+	}
+	pg.base.equip_skin_template[1059] = {
 		hit_sfx = "",
 		bullet_name = "paodan_tieshan",
 		orbit_ui_bound = "",
@@ -49591,8 +51178,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[1060] = {
+	}
+	pg.base.equip_skin_template[1060] = {
 		hit_sfx = "",
 		bullet_name = "feiji_kelalin",
 		orbit_ui_bound = "",
@@ -49630,8 +51217,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[1061] = {
+	}
+	pg.base.equip_skin_template[1061] = {
 		hit_sfx = "",
 		bullet_name = "feiji_kelalin",
 		orbit_ui_bound = "",
@@ -49669,8 +51256,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[1062] = {
+	}
+	pg.base.equip_skin_template[1062] = {
 		hit_sfx = "",
 		bullet_name = "feiji_kelalin",
 		orbit_ui_bound = "",
@@ -49708,8 +51295,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[1063] = {
+	}
+	pg.base.equip_skin_template[1063] = {
 		hit_sfx = "",
 		bullet_name = "feiji_kekebo",
 		orbit_ui_bound = "",
@@ -49747,8 +51334,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[1064] = {
+	}
+	pg.base.equip_skin_template[1064] = {
 		hit_sfx = "",
 		bullet_name = "feiji_kekebo",
 		orbit_ui_bound = "",
@@ -49786,8 +51373,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[1065] = {
+	}
+	pg.base.equip_skin_template[1065] = {
 		hit_sfx = "",
 		bullet_name = "feiji_kekebo",
 		orbit_ui_bound = "",
@@ -49825,8 +51412,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[1066] = {
+	}
+	pg.base.equip_skin_template[1066] = {
 		hit_sfx = "",
 		bullet_name = "feiji_buou",
 		orbit_ui_bound = "",
@@ -49864,8 +51451,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[1067] = {
+	}
+	pg.base.equip_skin_template[1067] = {
 		hit_sfx = "",
 		bullet_name = "feiji_buou",
 		orbit_ui_bound = "",
@@ -49903,8 +51490,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[1068] = {
+	}
+	pg.base.equip_skin_template[1068] = {
 		hit_sfx = "",
 		bullet_name = "feiji_buou",
 		orbit_ui_bound = "",
@@ -49942,8 +51529,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[1101] = {
+	}
+	pg.base.equip_skin_template[1101] = {
 		hit_sfx = "",
 		bullet_name = "yulei_ai_faku",
 		orbit_ui_bound = "",
@@ -49982,8 +51569,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[1102] = {
+	}
+	pg.base.equip_skin_template[1102] = {
 		hit_sfx = "",
 		bullet_name = "yulei_ai_lingdai",
 		orbit_ui_bound = "",
@@ -50022,8 +51609,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[1103] = {
+	}
+	pg.base.equip_skin_template[1103] = {
 		hit_sfx = "",
 		bullet_name = "yulei_ai_yingyuan",
 		orbit_ui_bound = "",
@@ -50062,8 +51649,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[1104] = {
+	}
+	pg.base.equip_skin_template[1104] = {
 		hit_sfx = "",
 		bullet_name = "zidan_ai_dachui",
 		orbit_ui_bound = "",
@@ -50103,8 +51690,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[1105] = {
+	}
+	pg.base.equip_skin_template[1105] = {
 		hit_sfx = "",
 		bullet_name = "zidan_ai_duandai",
 		orbit_ui_bound = "",
@@ -50144,8 +51731,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[1106] = {
+	}
+	pg.base.equip_skin_template[1106] = {
 		hit_sfx = "",
 		bullet_name = "zidan_ai_quantao",
 		orbit_ui_bound = "",
@@ -50185,8 +51772,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[1107] = {
+	}
+	pg.base.equip_skin_template[1107] = {
 		hit_sfx = "",
 		bullet_name = "paodan_ai_1",
 		orbit_ui_bound = "",
@@ -50226,8 +51813,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[1108] = {
+	}
+	pg.base.equip_skin_template[1108] = {
 		hit_sfx = "",
 		bullet_name = "paodan_ai_2",
 		orbit_ui_bound = "",
@@ -50267,8 +51854,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[1109] = {
+	}
+	pg.base.equip_skin_template[1109] = {
 		hit_sfx = "",
 		bullet_name = "paodan_ai_3",
 		orbit_ui_bound = "",
@@ -50308,8 +51895,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[1110] = {
+	}
+	pg.base.equip_skin_template[1110] = {
 		hit_sfx = "",
 		bullet_name = "paodan_ai_4",
 		orbit_ui_bound = "",
@@ -50349,8 +51936,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[1111] = {
+	}
+	pg.base.equip_skin_template[1111] = {
 		hit_sfx = "",
 		bullet_name = "feiji_ai_aijiang",
 		orbit_ui_bound = "",
@@ -50388,8 +51975,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[1112] = {
+	}
+	pg.base.equip_skin_template[1112] = {
 		hit_sfx = "",
 		bullet_name = "feiji_ai_aijiang",
 		orbit_ui_bound = "",
@@ -50427,8 +52014,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[1113] = {
+	}
+	pg.base.equip_skin_template[1113] = {
 		hit_sfx = "",
 		bullet_name = "feiji_ai_aijiang",
 		orbit_ui_bound = "",
@@ -50466,8 +52053,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[1114] = {
+	}
+	pg.base.equip_skin_template[1114] = {
 		hit_sfx = "",
 		bullet_name = "feiji_ai_gamer",
 		orbit_ui_bound = "",
@@ -50505,8 +52092,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[1115] = {
+	}
+	pg.base.equip_skin_template[1115] = {
 		hit_sfx = "",
 		bullet_name = "feiji_ai_gamer",
 		orbit_ui_bound = "",
@@ -50544,8 +52131,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[1116] = {
+	}
+	pg.base.equip_skin_template[1116] = {
 		hit_sfx = "",
 		bullet_name = "feiji_ai_gamer",
 		orbit_ui_bound = "",
@@ -50583,8 +52170,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[1117] = {
+	}
+	pg.base.equip_skin_template[1117] = {
 		hit_sfx = "",
 		bullet_name = "feiji_ai_perform",
 		orbit_ui_bound = "",
@@ -50622,8 +52209,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[1118] = {
+	}
+	pg.base.equip_skin_template[1118] = {
 		hit_sfx = "",
 		bullet_name = "feiji_ai_perform",
 		orbit_ui_bound = "",
@@ -50661,8 +52248,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[1119] = {
+	}
+	pg.base.equip_skin_template[1119] = {
 		hit_sfx = "",
 		bullet_name = "feiji_ai_perform",
 		orbit_ui_bound = "",
@@ -50700,8 +52287,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[1200] = {
+	}
+	pg.base.equip_skin_template[1200] = {
 		hit_sfx = "",
 		bullet_name = "zidan_baiyangtangguo",
 		orbit_ui_bound = "",
@@ -50741,8 +52328,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[1201] = {
+	}
+	pg.base.equip_skin_template[1201] = {
 		hit_sfx = "",
 		bullet_name = "zidan_qiguangbaoshi",
 		orbit_ui_bound = "",
@@ -50782,8 +52369,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[1202] = {
+	}
+	pg.base.equip_skin_template[1202] = {
 		hit_sfx = "",
 		bullet_name = "zidan_jinjiwanlingyaoji",
 		orbit_ui_bound = "",
@@ -50823,8 +52410,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[1203] = {
+	}
+	pg.base.equip_skin_template[1203] = {
 		hit_sfx = "",
 		bullet_name = "paodan_fuxiaomodaoshu",
 		orbit_ui_bound = "",
@@ -50864,8 +52451,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[1204] = {
+	}
+	pg.base.equip_skin_template[1204] = {
 		hit_sfx = "",
 		bullet_name = "paodan_masaikexiwang",
 		orbit_ui_bound = "",
@@ -50905,8 +52492,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[1205] = {
+	}
+	pg.base.equip_skin_template[1205] = {
 		hit_sfx = "",
 		bullet_name = "paodan_lingyikexingqiu",
 		orbit_ui_bound = "",
@@ -50946,8 +52533,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[1206] = {
+	}
+	pg.base.equip_skin_template[1206] = {
 		hit_sfx = "",
 		bullet_name = "yulei_zhongheji",
 		orbit_ui_bound = "",
@@ -50986,8 +52573,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[1207] = {
+	}
+	pg.base.equip_skin_template[1207] = {
 		hit_sfx = "",
 		bullet_name = "yulei_xiangjing",
 		orbit_ui_bound = "",
@@ -51026,8 +52613,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[1208] = {
+	}
+	pg.base.equip_skin_template[1208] = {
 		hit_sfx = "",
 		bullet_name = "yulei_lvxingping",
 		orbit_ui_bound = "",
@@ -51066,8 +52653,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[1209] = {
+	}
+	pg.base.equip_skin_template[1209] = {
 		hit_sfx = "",
 		bullet_name = "feiji_huajing",
 		orbit_ui_bound = "",
@@ -51105,8 +52692,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[1210] = {
+	}
+	pg.base.equip_skin_template[1210] = {
 		hit_sfx = "",
 		bullet_name = "feiji_huajing",
 		orbit_ui_bound = "",
@@ -51144,8 +52731,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[1211] = {
+	}
+	pg.base.equip_skin_template[1211] = {
 		hit_sfx = "",
 		bullet_name = "feiji_huajing",
 		orbit_ui_bound = "",
@@ -51183,8 +52770,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[1212] = {
+	}
+	pg.base.equip_skin_template[1212] = {
 		hit_sfx = "",
 		bullet_name = "feiji_weifengxianzi",
 		orbit_ui_bound = "",
@@ -51222,8 +52809,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[1213] = {
+	}
+	pg.base.equip_skin_template[1213] = {
 		hit_sfx = "",
 		bullet_name = "feiji_weifengxianzi",
 		orbit_ui_bound = "",
@@ -51261,8 +52848,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[1214] = {
+	}
+	pg.base.equip_skin_template[1214] = {
 		hit_sfx = "",
 		bullet_name = "feiji_weifengxianzi",
 		orbit_ui_bound = "",
@@ -51300,8 +52887,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[1215] = {
+	}
+	pg.base.equip_skin_template[1215] = {
 		hit_sfx = "",
 		bullet_name = "feiji_weiguanglingzhe",
 		orbit_ui_bound = "",
@@ -51339,8 +52926,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[1216] = {
+	}
+	pg.base.equip_skin_template[1216] = {
 		hit_sfx = "",
 		bullet_name = "feiji_weiguanglingzhe",
 		orbit_ui_bound = "",
@@ -51378,8 +52965,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[1217] = {
+	}
+	pg.base.equip_skin_template[1217] = {
 		hit_sfx = "",
 		bullet_name = "feiji_weiguanglingzhe",
 		orbit_ui_bound = "",
@@ -51417,8 +53004,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[1218] = {
+	}
+	pg.base.equip_skin_template[1218] = {
 		hit_sfx = "battle/ryza1",
 		bullet_name = "paodan_mutong",
 		orbit_ui_bound = "",
@@ -51458,8 +53045,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[1300] = {
+	}
+	pg.base.equip_skin_template[1300] = {
 		hit_sfx = "",
 		bullet_name = "paodan_hezi",
 		orbit_ui_bound = "",
@@ -51499,8 +53086,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[1400] = {
+	}
+	pg.base.equip_skin_template[1400] = {
 		hit_sfx = "",
 		bullet_name = "zidan_renhun",
 		orbit_ui_bound = "",
@@ -51540,8 +53127,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[1401] = {
+	}
+	pg.base.equip_skin_template[1401] = {
 		hit_sfx = "",
 		bullet_name = "zidan_hongweijin",
 		orbit_ui_bound = "",
@@ -51581,8 +53168,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[1402] = {
+	}
+	pg.base.equip_skin_template[1402] = {
 		hit_sfx = "",
 		bullet_name = "zidan_kuwu",
 		orbit_ui_bound = "",
@@ -51622,8 +53209,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[1403] = {
+	}
+	pg.base.equip_skin_template[1403] = {
 		hit_sfx = "",
 		bullet_name = "paodan_mifajuanzhou",
 		orbit_ui_bound = "",
@@ -51663,8 +53250,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[1404] = {
+	}
+	pg.base.equip_skin_template[1404] = {
 		hit_sfx = "",
 		bullet_name = "paodan_shubingshan",
 		orbit_ui_bound = "",
@@ -51704,8 +53291,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[1405] = {
+	}
+	pg.base.equip_skin_template[1405] = {
 		hit_sfx = "",
 		bullet_name = "paodan_yuanyuelun",
 		orbit_ui_bound = "",
@@ -51745,8 +53332,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[1406] = {
+	}
+	pg.base.equip_skin_template[1406] = {
 		hit_sfx = "",
 		bullet_name = "yulei_taijuan",
 		orbit_ui_bound = "",
@@ -51785,8 +53372,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[1407] = {
+	}
+	pg.base.equip_skin_template[1407] = {
 		hit_sfx = "",
 		bullet_name = "yulei_shousipinpan",
 		orbit_ui_bound = "",
@@ -51825,8 +53412,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[1408] = {
+	}
+	pg.base.equip_skin_template[1408] = {
 		hit_sfx = "",
 		bullet_name = "yulei_rentugali",
 		orbit_ui_bound = "",
@@ -51865,8 +53452,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[1409] = {
+	}
+	pg.base.equip_skin_template[1409] = {
 		hit_sfx = "",
 		bullet_name = "feiji_beibeijinxiang",
 		orbit_ui_bound = "",
@@ -51904,8 +53491,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[1410] = {
+	}
+	pg.base.equip_skin_template[1410] = {
 		hit_sfx = "",
 		bullet_name = "feiji_beibeijinxiang",
 		orbit_ui_bound = "",
@@ -51943,8 +53530,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[1411] = {
+	}
+	pg.base.equip_skin_template[1411] = {
 		hit_sfx = "",
 		bullet_name = "feiji_beibeijinxiang",
 		orbit_ui_bound = "",
@@ -51982,8 +53569,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[1412] = {
+	}
+	pg.base.equip_skin_template[1412] = {
 		hit_sfx = "",
 		bullet_name = "feiji_banxiang",
 		orbit_ui_bound = "",
@@ -52021,8 +53608,10 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[1413] = {
+	}
+end)()
+(function ()
+	pg.base.equip_skin_template[1413] = {
 		hit_sfx = "",
 		bullet_name = "feiji_banxiang",
 		orbit_ui_bound = "",
@@ -52060,8 +53649,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[1414] = {
+	}
+	pg.base.equip_skin_template[1414] = {
 		hit_sfx = "",
 		bullet_name = "feiji_banxiang",
 		orbit_ui_bound = "",
@@ -52099,8 +53688,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[1415] = {
+	}
+	pg.base.equip_skin_template[1415] = {
 		hit_sfx = "",
 		bullet_name = "feiji_rentu",
 		orbit_ui_bound = "",
@@ -52138,8 +53727,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[1416] = {
+	}
+	pg.base.equip_skin_template[1416] = {
 		hit_sfx = "",
 		bullet_name = "feiji_rentu",
 		orbit_ui_bound = "",
@@ -52177,8 +53766,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[1417] = {
+	}
+	pg.base.equip_skin_template[1417] = {
 		hit_sfx = "",
 		bullet_name = "feiji_rentu",
 		orbit_ui_bound = "",
@@ -52216,8 +53805,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[1450] = {
+	}
+	pg.base.equip_skin_template[1450] = {
 		hit_sfx = "",
 		bullet_name = "zidan_tolove_nianli",
 		orbit_ui_bound = "",
@@ -52257,8 +53846,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[1451] = {
+	}
+	pg.base.equip_skin_template[1451] = {
 		hit_sfx = "",
 		bullet_name = "zidan_tolove_xin",
 		orbit_ui_bound = "",
@@ -52298,8 +53887,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[1452] = {
+	}
+	pg.base.equip_skin_template[1452] = {
 		hit_sfx = "",
 		bullet_name = "zidan_tolove_xingxing",
 		orbit_ui_bound = "",
@@ -52339,8 +53928,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[1453] = {
+	}
+	pg.base.equip_skin_template[1453] = {
 		hit_sfx = "",
 		bullet_name = "paodan_tolove_quantou",
 		orbit_ui_bound = "",
@@ -52380,8 +53969,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[1454] = {
+	}
+	pg.base.equip_skin_template[1454] = {
 		hit_sfx = "",
 		bullet_name = "paodan_tolove_hua",
 		orbit_ui_bound = "",
@@ -52421,8 +54010,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[1455] = {
+	}
+	pg.base.equip_skin_template[1455] = {
 		hit_sfx = "",
 		bullet_name = "paodan_tolove_heimeigui",
 		orbit_ui_bound = "",
@@ -52462,8 +54051,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[1456] = {
+	}
+	pg.base.equip_skin_template[1456] = {
 		hit_sfx = "",
 		bullet_name = "yulei_tolove_qiang",
 		orbit_ui_bound = "",
@@ -52502,8 +54091,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[1457] = {
+	}
+	pg.base.equip_skin_template[1457] = {
 		hit_sfx = "",
 		bullet_name = "yulei_tolove_daodan",
 		orbit_ui_bound = "",
@@ -52542,8 +54131,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[1458] = {
+	}
+	pg.base.equip_skin_template[1458] = {
 		hit_sfx = "",
 		bullet_name = "yulei_tolove_haitun",
 		orbit_ui_bound = "",
@@ -52582,8 +54171,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[1459] = {
+	}
+	pg.base.equip_skin_template[1459] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tolove_lunadike",
 		orbit_ui_bound = "",
@@ -52621,8 +54210,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[1460] = {
+	}
+	pg.base.equip_skin_template[1460] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tolove_lunadike",
 		orbit_ui_bound = "",
@@ -52660,8 +54249,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[1461] = {
+	}
+	pg.base.equip_skin_template[1461] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tolove_lunadike",
 		orbit_ui_bound = "",
@@ -52699,8 +54288,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[1462] = {
+	}
+	pg.base.equip_skin_template[1462] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tolove_feichuan",
 		orbit_ui_bound = "",
@@ -52738,8 +54327,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[1463] = {
+	}
+	pg.base.equip_skin_template[1463] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tolove_feichuan",
 		orbit_ui_bound = "",
@@ -52777,8 +54366,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[1464] = {
+	}
+	pg.base.equip_skin_template[1464] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tolove_feichuan",
 		orbit_ui_bound = "",
@@ -52816,8 +54405,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[1465] = {
+	}
+	pg.base.equip_skin_template[1465] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tolove_feidie",
 		orbit_ui_bound = "",
@@ -52855,8 +54444,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[1466] = {
+	}
+	pg.base.equip_skin_template[1466] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tolove_feidie",
 		orbit_ui_bound = "",
@@ -52894,8 +54483,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[1467] = {
+	}
+	pg.base.equip_skin_template[1467] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tolove_feidie",
 		orbit_ui_bound = "",
@@ -52933,8 +54522,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[1471] = {
+	}
+	pg.base.equip_skin_template[1471] = {
 		hit_sfx = "",
 		bullet_name = "zidan_zhanjibrs",
 		orbit_ui_bound = "",
@@ -52974,8 +54563,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[1472] = {
+	}
+	pg.base.equip_skin_template[1472] = {
 		hit_sfx = "",
 		bullet_name = "feiji_dm",
 		orbit_ui_bound = "",
@@ -53013,8 +54602,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[1473] = {
+	}
+	pg.base.equip_skin_template[1473] = {
 		hit_sfx = "",
 		bullet_name = "feiji_dm",
 		orbit_ui_bound = "",
@@ -53052,8 +54641,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[1474] = {
+	}
+	pg.base.equip_skin_template[1474] = {
 		hit_sfx = "",
 		bullet_name = "feiji_dm",
 		orbit_ui_bound = "",
@@ -53091,8 +54680,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[1475] = {
+	}
+	pg.base.equip_skin_template[1475] = {
 		hit_sfx = "",
 		bullet_name = "yulei_jupaobrs",
 		orbit_ui_bound = "",
@@ -53131,8 +54720,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[1476] = {
+	}
+	pg.base.equip_skin_template[1476] = {
 		hit_sfx = "",
 		bullet_name = "yulei_suolianbrs",
 		orbit_ui_bound = "",
@@ -53171,8 +54760,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[1477] = {
+	}
+	pg.base.equip_skin_template[1477] = {
 		hit_sfx = "",
 		bullet_name = "pandan_jupaobrs",
 		orbit_ui_bound = "",
@@ -53212,8 +54801,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[1478] = {
+	}
+	pg.base.equip_skin_template[1478] = {
 		hit_sfx = "",
 		bullet_name = "pandan_liandaobrs",
 		orbit_ui_bound = "",
@@ -53253,8 +54842,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[1479] = {
+	}
+	pg.base.equip_skin_template[1479] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -53312,8 +54901,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[1480] = {
+	}
+	pg.base.equip_skin_template[1480] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -53371,8 +54960,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[1481] = {
+	}
+	pg.base.equip_skin_template[1481] = {
 		hit_sfx = "",
 		bullet_name = "zidan_yumia_yuansu",
 		orbit_ui_bound = "",
@@ -53412,8 +55001,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[1482] = {
+	}
+	pg.base.equip_skin_template[1482] = {
 		hit_sfx = "",
 		bullet_name = "zidan_yumia_xianzhe",
 		orbit_ui_bound = "",
@@ -53453,8 +55042,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[1483] = {
+	}
+	pg.base.equip_skin_template[1483] = {
 		hit_sfx = "",
 		bullet_name = "zidan_yumia_zunzhang",
 		orbit_ui_bound = "",
@@ -53494,8 +55083,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[1484] = {
+	}
+	pg.base.equip_skin_template[1484] = {
 		hit_sfx = "",
 		bullet_name = "paodan_yumia_liuxing",
 		orbit_ui_bound = "",
@@ -53535,8 +55124,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[1485] = {
+	}
+	pg.base.equip_skin_template[1485] = {
 		hit_sfx = "",
 		bullet_name = "paodan_yumia_jiguan",
 		orbit_ui_bound = "",
@@ -53576,8 +55165,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[1486] = {
+	}
+	pg.base.equip_skin_template[1486] = {
 		hit_sfx = "",
 		bullet_name = "paodan_yumia_yunshi",
 		orbit_ui_bound = "",
@@ -53617,8 +55206,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[1487] = {
+	}
+	pg.base.equip_skin_template[1487] = {
 		hit_sfx = "",
 		bullet_name = "yulei_yumia_dianchi",
 		orbit_ui_bound = "",
@@ -53657,8 +55246,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[1488] = {
+	}
+	pg.base.equip_skin_template[1488] = {
 		hit_sfx = "",
 		bullet_name = "yulei_yumia_kuangshi",
 		orbit_ui_bound = "",
@@ -53697,8 +55286,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[1489] = {
+	}
+	pg.base.equip_skin_template[1489] = {
 		hit_sfx = "",
 		bullet_name = "yulei_yumia_yangguangshi",
 		orbit_ui_bound = "",
@@ -53737,8 +55326,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[1490] = {
+	}
+	pg.base.equip_skin_template[1490] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yumia_guangcai",
 		orbit_ui_bound = "",
@@ -53776,8 +55365,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[1491] = {
+	}
+	pg.base.equip_skin_template[1491] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yumia_guangcai",
 		orbit_ui_bound = "",
@@ -53815,8 +55404,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[1492] = {
+	}
+	pg.base.equip_skin_template[1492] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yumia_guangcai",
 		orbit_ui_bound = "",
@@ -53854,8 +55443,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[1493] = {
+	}
+	pg.base.equip_skin_template[1493] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yumia_anying",
 		orbit_ui_bound = "",
@@ -53893,8 +55482,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[1494] = {
+	}
+	pg.base.equip_skin_template[1494] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yumia_anying",
 		orbit_ui_bound = "",
@@ -53932,8 +55521,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[1495] = {
+	}
+	pg.base.equip_skin_template[1495] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yumia_anying",
 		orbit_ui_bound = "",
@@ -53971,8 +55560,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[1496] = {
+	}
+	pg.base.equip_skin_template[1496] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yumia_rongyuan",
 		orbit_ui_bound = "",
@@ -54010,8 +55599,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[1497] = {
+	}
+	pg.base.equip_skin_template[1497] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yumia_rongyuan",
 		orbit_ui_bound = "",
@@ -54049,8 +55638,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[1498] = {
+	}
+	pg.base.equip_skin_template[1498] = {
 		hit_sfx = "",
 		bullet_name = "feiji_yumia_rongyuan",
 		orbit_ui_bound = "",
@@ -54088,8 +55677,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[1499] = {
+	}
+	pg.base.equip_skin_template[1499] = {
 		hit_sfx = "ui/atelier_yumia_taru_3",
 		bullet_name = "paodan_mutong_yumia",
 		orbit_ui_bound = "",
@@ -54129,8 +55718,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[1501] = {
+	}
+	pg.base.equip_skin_template[1501] = {
 		hit_sfx = "",
 		bullet_name = "paodan_dixiachengsanmingzhi",
 		orbit_ui_bound = "",
@@ -54170,8 +55759,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[1502] = {
+	}
+	pg.base.equip_skin_template[1502] = {
 		hit_sfx = "",
 		bullet_name = "zidan_hudiejie",
 		orbit_ui_bound = "",
@@ -54211,8 +55800,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[1503] = {
+	}
+	pg.base.equip_skin_template[1503] = {
 		hit_sfx = "",
 		bullet_name = "paodan_zhashuqiu",
 		orbit_ui_bound = "",
@@ -54252,8 +55841,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[1504] = {
+	}
+	pg.base.equip_skin_template[1504] = {
 		hit_sfx = "",
 		bullet_name = "yulei_hesitiya",
 		orbit_ui_bound = "",
@@ -54292,8 +55881,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[1505] = {
+	}
+	pg.base.equip_skin_template[1505] = {
 		hit_sfx = "",
 		bullet_name = "zidan_guangmingzhifeng",
 		orbit_ui_bound = "",
@@ -54333,8 +55922,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[1506] = {
+	}
+	pg.base.equip_skin_template[1506] = {
 		hit_sfx = "",
 		bullet_name = "yulei_zhuditiya",
 		orbit_ui_bound = "",
@@ -54373,8 +55962,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[1507] = {
+	}
+	pg.base.equip_skin_template[1507] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -54432,8 +56021,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[1511] = {
+	}
+	pg.base.equip_skin_template[1511] = {
 		hit_sfx = "",
 		bullet_name = "zidan_dal_miejuetianshi",
 		orbit_ui_bound = "",
@@ -54473,8 +56062,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[1512] = {
+	}
+	pg.base.equip_skin_template[1512] = {
 		hit_sfx = "",
 		bullet_name = "zidan_dal_kekedi",
 		orbit_ui_bound = "",
@@ -54514,8 +56103,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[1513] = {
+	}
+	pg.base.equip_skin_template[1513] = {
 		hit_sfx = "",
 		bullet_name = "zidan_dal_shufuzhe",
 		orbit_ui_bound = "",
@@ -54555,8 +56144,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[1514] = {
+	}
+	pg.base.equip_skin_template[1514] = {
 		hit_sfx = "",
 		bullet_name = "paodan_dal_aoshagong",
 		orbit_ui_bound = "",
@@ -54596,8 +56185,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[1515] = {
+	}
+	pg.base.equip_skin_template[1515] = {
 		hit_sfx = "",
 		bullet_name = "paodan_dal_xuanlanjiangui",
 		orbit_ui_bound = "",
@@ -54637,8 +56226,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[1516] = {
+	}
+	pg.base.equip_skin_template[1516] = {
 		hit_sfx = "",
 		bullet_name = "paodan_dal_sisinai",
 		orbit_ui_bound = "",
@@ -54678,8 +56267,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[1517] = {
+	}
+	pg.base.equip_skin_template[1517] = {
 		hit_sfx = "",
 		bullet_name = "yulei_dal_aoshagong",
 		orbit_ui_bound = "",
@@ -54718,8 +56307,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[1518] = {
+	}
+	pg.base.equip_skin_template[1518] = {
 		hit_sfx = "",
 		bullet_name = "yulei_dal_xuanleijiangui",
 		orbit_ui_bound = "",
@@ -54758,8 +56347,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[1519] = {
+	}
+	pg.base.equip_skin_template[1519] = {
 		hit_sfx = "",
 		bullet_name = "yulei_dal_guanchuanzhe",
 		orbit_ui_bound = "",
@@ -54798,8 +56387,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[1520] = {
+	}
+	pg.base.equip_skin_template[1520] = {
 		hit_sfx = "",
 		bullet_name = "feiji_dal_bingjiekuilei",
 		orbit_ui_bound = "",
@@ -54837,8 +56426,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[1521] = {
+	}
+	pg.base.equip_skin_template[1521] = {
 		hit_sfx = "",
 		bullet_name = "feiji_dal_bingjiekuilei",
 		orbit_ui_bound = "",
@@ -54876,8 +56465,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[1522] = {
+	}
+	pg.base.equip_skin_template[1522] = {
 		hit_sfx = "",
 		bullet_name = "feiji_dal_bingjiekuilei",
 		orbit_ui_bound = "",
@@ -54915,8 +56504,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[1523] = {
+	}
+	pg.base.equip_skin_template[1523] = {
 		hit_sfx = "",
 		bullet_name = "feiji_dal_rilunzhihuan",
 		orbit_ui_bound = "",
@@ -54954,8 +56543,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[1524] = {
+	}
+	pg.base.equip_skin_template[1524] = {
 		hit_sfx = "",
 		bullet_name = "feiji_dal_rilunzhihuan",
 		orbit_ui_bound = "",
@@ -54993,8 +56582,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[1525] = {
+	}
+	pg.base.equip_skin_template[1525] = {
 		hit_sfx = "",
 		bullet_name = "feiji_dal_rilunzhihuan",
 		orbit_ui_bound = "",
@@ -55032,8 +56621,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[1526] = {
+	}
+	pg.base.equip_skin_template[1526] = {
 		hit_sfx = "",
 		bullet_name = "feiji_dal_kekedi",
 		orbit_ui_bound = "",
@@ -55071,8 +56660,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[1527] = {
+	}
+	pg.base.equip_skin_template[1527] = {
 		hit_sfx = "",
 		bullet_name = "feiji_dal_kekedi",
 		orbit_ui_bound = "",
@@ -55110,8 +56699,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[1528] = {
+	}
+	pg.base.equip_skin_template[1528] = {
 		hit_sfx = "",
 		bullet_name = "feiji_dal_kekedi",
 		orbit_ui_bound = "",
@@ -55149,8 +56738,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[2001] = {
+	}
+	pg.base.equip_skin_template[2001] = {
 		hit_sfx = "",
 		bullet_name = "yulei_fanxing",
 		orbit_ui_bound = "",
@@ -55189,8 +56778,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[2002] = {
+	}
+	pg.base.equip_skin_template[2002] = {
 		hit_sfx = "",
 		bullet_name = "paodan_huixing",
 		orbit_ui_bound = "",
@@ -55230,8 +56819,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[2003] = {
+	}
+	pg.base.equip_skin_template[2003] = {
 		hit_sfx = "",
 		bullet_name = "zidan_xingqiu",
 		orbit_ui_bound = "",
@@ -55271,8 +56860,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[2004] = {
+	}
+	pg.base.equip_skin_template[2004] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -55330,8 +56919,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[2005] = {
+	}
+	pg.base.equip_skin_template[2005] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -55389,8 +56978,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[2006] = {
+	}
+	pg.base.equip_skin_template[2006] = {
 		hit_sfx = "",
 		bullet_name = "paodan_shuangxingpaodan",
 		orbit_ui_bound = "",
@@ -55430,8 +57019,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[2007] = {
+	}
+	pg.base.equip_skin_template[2007] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -55489,8 +57078,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[2008] = {
+	}
+	pg.base.equip_skin_template[2008] = {
 		hit_sfx = "",
 		bullet_name = "yulei_aomomo",
 		orbit_ui_bound = "",
@@ -55529,8 +57118,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[2009] = {
+	}
+	pg.base.equip_skin_template[2009] = {
 		hit_sfx = "",
 		bullet_name = "yulei_yaoxing",
 		orbit_ui_bound = "",
@@ -55569,8 +57158,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[2010] = {
+	}
+	pg.base.equip_skin_template[2010] = {
 		hit_sfx = "",
 		bullet_name = "paodan_tianti",
 		orbit_ui_bound = "",
@@ -55610,8 +57199,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[2011] = {
+	}
+	pg.base.equip_skin_template[2011] = {
 		hit_sfx = "",
 		bullet_name = "xingyunzidan01",
 		orbit_ui_bound = "",
@@ -55651,8 +57240,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[2012] = {
+	}
+	pg.base.equip_skin_template[2012] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -55710,8 +57299,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[2013] = {
+	}
+	pg.base.equip_skin_template[2013] = {
 		hit_sfx = "",
 		bullet_name = "xingyunzidan02",
 		orbit_ui_bound = "",
@@ -55751,8 +57340,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[2014] = {
+	}
+	pg.base.equip_skin_template[2014] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -55810,8 +57399,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[2015] = {
+	}
+	pg.base.equip_skin_template[2015] = {
 		hit_sfx = "",
 		bullet_name = "zidan_moshukapai1",
 		orbit_ui_bound = "",
@@ -55851,8 +57440,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[2016] = {
+	}
+	pg.base.equip_skin_template[2016] = {
 		hit_sfx = "",
 		bullet_name = "zidan_moshukapai2",
 		orbit_ui_bound = "",
@@ -55892,8 +57481,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[2017] = {
+	}
+	pg.base.equip_skin_template[2017] = {
 		hit_sfx = "",
 		bullet_name = "paodan_moshumao",
 		orbit_ui_bound = "",
@@ -55933,8 +57522,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[2018] = {
+	}
+	pg.base.equip_skin_template[2018] = {
 		hit_sfx = "",
 		bullet_name = "yulei_moshubang",
 		orbit_ui_bound = "",
@@ -55973,8 +57562,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[2019] = {
+	}
+	pg.base.equip_skin_template[2019] = {
 		hit_sfx = "",
 		bullet_name = "feiji_huoyanfenghuang",
 		orbit_ui_bound = "",
@@ -56012,8 +57601,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[2020] = {
+	}
+	pg.base.equip_skin_template[2020] = {
 		hit_sfx = "",
 		bullet_name = "feiji_huoyanfenghuang",
 		orbit_ui_bound = "",
@@ -56051,8 +57640,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[2021] = {
+	}
+	pg.base.equip_skin_template[2021] = {
 		hit_sfx = "",
 		bullet_name = "feiji_huoyanfenghuang",
 		orbit_ui_bound = "",
@@ -56090,8 +57679,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[2022] = {
+	}
+	pg.base.equip_skin_template[2022] = {
 		hit_sfx = "",
 		bullet_name = "zidan_moshuqiqiu",
 		orbit_ui_bound = "",
@@ -56131,8 +57720,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[2023] = {
+	}
+	pg.base.equip_skin_template[2023] = {
 		hit_sfx = "",
 		bullet_name = "paodan_yingbi",
 		orbit_ui_bound = "",
@@ -56172,8 +57761,10 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[2024] = {
+	}
+end)()
+(function ()
+	pg.base.equip_skin_template[2024] = {
 		hit_sfx = "",
 		bullet_name = "yulei_aixin",
 		orbit_ui_bound = "",
@@ -56212,8 +57803,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[2025] = {
+	}
+	pg.base.equip_skin_template[2025] = {
 		hit_sfx = "",
 		bullet_name = "paodan_shaizi",
 		orbit_ui_bound = "",
@@ -56253,8 +57844,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[2026] = {
+	}
+	pg.base.equip_skin_template[2026] = {
 		hit_sfx = "",
 		bullet_name = "yulei_kapai",
 		orbit_ui_bound = "",
@@ -56293,8 +57884,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[2027] = {
+	}
+	pg.base.equip_skin_template[2027] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -56352,8 +57943,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[2028] = {
+	}
+	pg.base.equip_skin_template[2028] = {
 		hit_sfx = "",
 		bullet_name = "zidan_yingbi02",
 		orbit_ui_bound = "",
@@ -56393,8 +57984,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[2029] = {
+	}
+	pg.base.equip_skin_template[2029] = {
 		hit_sfx = "",
 		bullet_name = "zidan_bingbao",
 		orbit_ui_bound = "",
@@ -56434,8 +58025,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[2030] = {
+	}
+	pg.base.equip_skin_template[2030] = {
 		hit_sfx = "",
 		bullet_name = "paodan_qiuxingshandian",
 		orbit_ui_bound = "",
@@ -56475,8 +58066,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[2031] = {
+	}
+	pg.base.equip_skin_template[2031] = {
 		hit_sfx = "",
 		bullet_name = "yulei_longjuanfeng",
 		orbit_ui_bound = "",
@@ -56515,8 +58106,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[2032] = {
+	}
+	pg.base.equip_skin_template[2032] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -56574,8 +58165,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[2033] = {
+	}
+	pg.base.equip_skin_template[2033] = {
 		hit_sfx = "",
 		bullet_name = "feiji_leiyun1",
 		orbit_ui_bound = "",
@@ -56613,8 +58204,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[2034] = {
+	}
+	pg.base.equip_skin_template[2034] = {
 		hit_sfx = "",
 		bullet_name = "feiji_leiyun2",
 		orbit_ui_bound = "",
@@ -56652,8 +58243,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[2035] = {
+	}
+	pg.base.equip_skin_template[2035] = {
 		hit_sfx = "",
 		bullet_name = "feiji_leiyun3",
 		orbit_ui_bound = "",
@@ -56691,8 +58282,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[2036] = {
+	}
+	pg.base.equip_skin_template[2036] = {
 		hit_sfx = "",
 		bullet_name = "paodan_bingqiu",
 		orbit_ui_bound = "",
@@ -56732,8 +58323,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[2037] = {
+	}
+	pg.base.equip_skin_template[2037] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -56791,8 +58382,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[2038] = {
+	}
+	pg.base.equip_skin_template[2038] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -56850,8 +58441,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[2039] = {
+	}
+	pg.base.equip_skin_template[2039] = {
 		hit_sfx = "",
 		bullet_name = "paodan_huoqiu",
 		orbit_ui_bound = "",
@@ -56891,8 +58482,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[2040] = {
+	}
+	pg.base.equip_skin_template[2040] = {
 		hit_sfx = "",
 		bullet_name = "paodan_shandian",
 		orbit_ui_bound = "",
@@ -56932,8 +58523,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[2041] = {
+	}
+	pg.base.equip_skin_template[2041] = {
 		hit_sfx = "",
 		bullet_name = "zidan_caihong",
 		orbit_ui_bound = "",
@@ -56973,8 +58564,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[2042] = {
+	}
+	pg.base.equip_skin_template[2042] = {
 		hit_sfx = "",
 		bullet_name = "yulei_hailang",
 		orbit_ui_bound = "",
@@ -57013,8 +58604,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[2043] = {
+	}
+	pg.base.equip_skin_template[2043] = {
 		hit_sfx = "",
 		bullet_name = "paodan_bodongquan",
 		orbit_ui_bound = "",
@@ -57054,8 +58645,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[2044] = {
+	}
+	pg.base.equip_skin_template[2044] = {
 		hit_sfx = "",
 		bullet_name = "zidan_honglanqiu",
 		orbit_ui_bound = "",
@@ -57095,8 +58686,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[2045] = {
+	}
+	pg.base.equip_skin_template[2045] = {
 		hit_sfx = "",
 		bullet_name = "yulei_xiangsufeidan",
 		orbit_ui_bound = "",
@@ -57135,8 +58726,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[2046] = {
+	}
+	pg.base.equip_skin_template[2046] = {
 		hit_sfx = "",
 		bullet_name = "feiji_xiangsutianlei",
 		orbit_ui_bound = "",
@@ -57174,8 +58765,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[2047] = {
+	}
+	pg.base.equip_skin_template[2047] = {
 		hit_sfx = "",
 		bullet_name = "feiji_xiangsutianlei",
 		orbit_ui_bound = "",
@@ -57213,8 +58804,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[2048] = {
+	}
+	pg.base.equip_skin_template[2048] = {
 		hit_sfx = "",
 		bullet_name = "feiji_xiangsutianlei",
 		orbit_ui_bound = "",
@@ -57252,8 +58843,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[2049] = {
+	}
+	pg.base.equip_skin_template[2049] = {
 		hit_sfx = "",
 		bullet_name = "paodan_xingxi",
 		orbit_ui_bound = "",
@@ -57293,8 +58884,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[2050] = {
+	}
+	pg.base.equip_skin_template[2050] = {
 		hit_sfx = "",
 		bullet_name = "zidan_shizixing",
 		orbit_ui_bound = "",
@@ -57334,8 +58925,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[2051] = {
+	}
+	pg.base.equip_skin_template[2051] = {
 		hit_sfx = "",
 		bullet_name = "yulei_yunshi",
 		orbit_ui_bound = "",
@@ -57374,8 +58965,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[2052] = {
+	}
+	pg.base.equip_skin_template[2052] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -57433,8 +59024,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[2053] = {
+	}
+	pg.base.equip_skin_template[2053] = {
 		hit_sfx = "",
 		bullet_name = "paodan_tutu",
 		orbit_ui_bound = "",
@@ -57474,8 +59065,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[2054] = {
+	}
+	pg.base.equip_skin_template[2054] = {
 		hit_sfx = "",
 		bullet_name = "zidan_xiangsunengliangqiu",
 		orbit_ui_bound = "",
@@ -57515,8 +59106,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[2055] = {
+	}
+	pg.base.equip_skin_template[2055] = {
 		hit_sfx = "",
 		bullet_name = "yulei_xiangsuaixin",
 		orbit_ui_bound = "",
@@ -57555,8 +59146,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[2056] = {
+	}
+	pg.base.equip_skin_template[2056] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -57614,8 +59205,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[2061] = {
+	}
+	pg.base.equip_skin_template[2061] = {
 		hit_sfx = "",
 		bullet_name = "paodan_yunshi",
 		orbit_ui_bound = "",
@@ -57655,8 +59246,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[2062] = {
+	}
+	pg.base.equip_skin_template[2062] = {
 		hit_sfx = "",
 		bullet_name = "zidan_mofafeidan",
 		orbit_ui_bound = "",
@@ -57696,8 +59287,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[2063] = {
+	}
+	pg.base.equip_skin_template[2063] = {
 		hit_sfx = "",
 		bullet_name = "yulei_youling02",
 		orbit_ui_bound = "",
@@ -57736,8 +59327,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[2064] = {
+	}
+	pg.base.equip_skin_template[2064] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -57795,8 +59386,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[2065] = {
+	}
+	pg.base.equip_skin_template[2065] = {
 		hit_sfx = "",
 		bullet_name = "zidan_gaoliangfaqiu",
 		orbit_ui_bound = "",
@@ -57836,8 +59427,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[2066] = {
+	}
+	pg.base.equip_skin_template[2066] = {
 		hit_sfx = "",
 		bullet_name = "yulei_bingmozhua",
 		orbit_ui_bound = "",
@@ -57876,8 +59467,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[2067] = {
+	}
+	pg.base.equip_skin_template[2067] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -57941,8 +59532,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[2068] = {
+	}
+	pg.base.equip_skin_template[2068] = {
 		hit_sfx = "",
 		bullet_name = "feiji_juyanlong",
 		orbit_ui_bound = "",
@@ -57980,8 +59571,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[2069] = {
+	}
+	pg.base.equip_skin_template[2069] = {
 		hit_sfx = "",
 		bullet_name = "feiji_juyanlong1",
 		orbit_ui_bound = "",
@@ -58019,8 +59610,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[2070] = {
+	}
+	pg.base.equip_skin_template[2070] = {
 		hit_sfx = "",
 		bullet_name = "feiji_juyanlong2",
 		orbit_ui_bound = "",
@@ -58058,8 +59649,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[2071] = {
+	}
+	pg.base.equip_skin_template[2071] = {
 		hit_sfx = "",
 		bullet_name = "paodan_fenghuolun",
 		orbit_ui_bound = "",
@@ -58099,8 +59690,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[2072] = {
+	}
+	pg.base.equip_skin_template[2072] = {
 		hit_sfx = "",
 		bullet_name = "zidan_huixing01",
 		orbit_ui_bound = "",
@@ -58140,8 +59731,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[2073] = {
+	}
+	pg.base.equip_skin_template[2073] = {
 		hit_sfx = "",
 		bullet_name = "yulei_saozhou",
 		orbit_ui_bound = "",
@@ -58180,8 +59771,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[2074] = {
+	}
+	pg.base.equip_skin_template[2074] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -58239,8 +59830,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[2075] = {
+	}
+	pg.base.equip_skin_template[2075] = {
 		hit_sfx = "",
 		bullet_name = "paodan_shujushanchu",
 		orbit_ui_bound = "",
@@ -58280,8 +59871,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[2076] = {
+	}
+	pg.base.equip_skin_template[2076] = {
 		hit_sfx = "",
 		bullet_name = "zidan_zhenliejiantou",
 		orbit_ui_bound = "",
@@ -58321,8 +59912,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[2077] = {
+	}
+	pg.base.equip_skin_template[2077] = {
 		hit_sfx = "",
 		bullet_name = "yulei_dengpai",
 		orbit_ui_bound = "",
@@ -58361,8 +59952,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[2078] = {
+	}
+	pg.base.equip_skin_template[2078] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -58420,8 +60011,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[2079] = {
+	}
+	pg.base.equip_skin_template[2079] = {
 		hit_sfx = "",
 		bullet_name = "paodan_jiguangquan",
 		orbit_ui_bound = "",
@@ -58461,8 +60052,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[2080] = {
+	}
+	pg.base.equip_skin_template[2080] = {
 		hit_sfx = "",
 		bullet_name = "zidan_10daima",
 		orbit_ui_bound = "",
@@ -58502,8 +60093,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[2081] = {
+	}
+	pg.base.equip_skin_template[2081] = {
 		hit_sfx = "",
 		bullet_name = "yulei_penqijijia",
 		orbit_ui_bound = "",
@@ -58542,8 +60133,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[2082] = {
+	}
+	pg.base.equip_skin_template[2082] = {
 		hit_sfx = "",
 		bullet_name = "feiji_saomiao",
 		orbit_ui_bound = "",
@@ -58581,8 +60172,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[2083] = {
+	}
+	pg.base.equip_skin_template[2083] = {
 		hit_sfx = "",
 		bullet_name = "feiji_saomiao",
 		orbit_ui_bound = "",
@@ -58620,8 +60211,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[2084] = {
+	}
+	pg.base.equip_skin_template[2084] = {
 		hit_sfx = "",
 		bullet_name = "feiji_saomiao",
 		orbit_ui_bound = "",
@@ -58659,8 +60250,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[2085] = {
+	}
+	pg.base.equip_skin_template[2085] = {
 		hit_sfx = "",
 		bullet_name = "zidan_jiguangqiliu",
 		orbit_ui_bound = "",
@@ -58700,8 +60291,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[2086] = {
+	}
+	pg.base.equip_skin_template[2086] = {
 		hit_sfx = "",
 		bullet_name = "yulei_nengliangdao2",
 		orbit_ui_bound = "",
@@ -58740,8 +60331,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[2087] = {
+	}
+	pg.base.equip_skin_template[2087] = {
 		hit_sfx = "",
 		bullet_name = "paodan_nengliangmaodian",
 		orbit_ui_bound = "",
@@ -58781,8 +60372,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[2088] = {
+	}
+	pg.base.equip_skin_template[2088] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -58840,8 +60431,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[2089] = {
+	}
+	pg.base.equip_skin_template[2089] = {
 		hit_sfx = "",
 		bullet_name = "zidan_shengguangyumao",
 		orbit_ui_bound = "",
@@ -58881,8 +60472,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[2090] = {
+	}
+	pg.base.equip_skin_template[2090] = {
 		hit_sfx = "",
 		bullet_name = "yulei_diaoxiang",
 		orbit_ui_bound = "",
@@ -58921,8 +60512,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[2091] = {
+	}
+	pg.base.equip_skin_template[2091] = {
 		hit_sfx = "",
 		bullet_name = "paodan_shengqiu",
 		orbit_ui_bound = "",
@@ -58962,8 +60553,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[2092] = {
+	}
+	pg.base.equip_skin_template[2092] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -59021,8 +60612,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[2093] = {
+	}
+	pg.base.equip_skin_template[2093] = {
 		hit_sfx = "",
 		bullet_name = "zidan_emojianjiao",
 		orbit_ui_bound = "",
@@ -59062,8 +60653,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[2094] = {
+	}
+	pg.base.equip_skin_template[2094] = {
 		hit_sfx = "",
 		bullet_name = "yulei_emoweiba",
 		orbit_ui_bound = "",
@@ -59102,8 +60693,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[2095] = {
+	}
+	pg.base.equip_skin_template[2095] = {
 		hit_sfx = "",
 		bullet_name = "paodan_emozhutai",
 		orbit_ui_bound = "",
@@ -59143,8 +60734,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[2096] = {
+	}
+	pg.base.equip_skin_template[2096] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -59202,8 +60793,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[2097] = {
+	}
+	pg.base.equip_skin_template[2097] = {
 		hit_sfx = "",
 		bullet_name = "zidan_guangying",
 		orbit_ui_bound = "",
@@ -59243,8 +60834,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[2098] = {
+	}
+	pg.base.equip_skin_template[2098] = {
 		hit_sfx = "",
 		bullet_name = "yulei_liangchi",
 		orbit_ui_bound = "",
@@ -59283,8 +60874,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[2099] = {
+	}
+	pg.base.equip_skin_template[2099] = {
 		hit_sfx = "",
 		bullet_name = "paodan_rimian",
 		orbit_ui_bound = "",
@@ -59324,8 +60915,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[2100] = {
+	}
+	pg.base.equip_skin_template[2100] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -59383,8 +60974,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[2101] = {
+	}
+	pg.base.equip_skin_template[2101] = {
 		hit_sfx = "",
 		bullet_name = "zidan_moshui",
 		orbit_ui_bound = "",
@@ -59424,8 +61015,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[2102] = {
+	}
+	pg.base.equip_skin_template[2102] = {
 		hit_sfx = "",
 		bullet_name = "yulei_zhuzi",
 		orbit_ui_bound = "",
@@ -59464,8 +61055,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[2103] = {
+	}
+	pg.base.equip_skin_template[2103] = {
 		hit_sfx = "",
 		bullet_name = "paodan_yanshi",
 		orbit_ui_bound = "",
@@ -59505,8 +61096,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[2104] = {
+	}
+	pg.base.equip_skin_template[2104] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -59564,8 +61155,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[2105] = {
+	}
+	pg.base.equip_skin_template[2105] = {
 		hit_sfx = "",
 		bullet_name = "zidan_moshuifeiniao",
 		orbit_ui_bound = "",
@@ -59605,8 +61196,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[2106] = {
+	}
+	pg.base.equip_skin_template[2106] = {
 		hit_sfx = "",
 		bullet_name = "yulei_jinli",
 		orbit_ui_bound = "",
@@ -59645,8 +61236,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[2107] = {
+	}
+	pg.base.equip_skin_template[2107] = {
 		hit_sfx = "",
 		bullet_name = "paodan_lianhua",
 		orbit_ui_bound = "",
@@ -59686,8 +61277,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[2108] = {
+	}
+	pg.base.equip_skin_template[2108] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -59745,8 +61336,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[2109] = {
+	}
+	pg.base.equip_skin_template[2109] = {
 		hit_sfx = "",
 		bullet_name = "zidan_queyu",
 		orbit_ui_bound = "",
@@ -59786,8 +61377,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[2110] = {
+	}
+	pg.base.equip_skin_template[2110] = {
 		hit_sfx = "",
 		bullet_name = "yulei_yutu",
 		orbit_ui_bound = "",
@@ -59826,8 +61417,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[2111] = {
+	}
+	pg.base.equip_skin_template[2111] = {
 		hit_sfx = "",
 		bullet_name = "paodan_jinwu",
 		orbit_ui_bound = "",
@@ -59867,8 +61458,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[2112] = {
+	}
+	pg.base.equip_skin_template[2112] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -59926,8 +61517,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[2113] = {
+	}
+	pg.base.equip_skin_template[2113] = {
 		hit_sfx = "",
 		bullet_name = "zidan_gudianbishou",
 		orbit_ui_bound = "",
@@ -59967,8 +61558,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[2114] = {
+	}
+	pg.base.equip_skin_template[2114] = {
 		hit_sfx = "",
 		bullet_name = "yulei_luomazhu",
 		orbit_ui_bound = "",
@@ -60007,8 +61598,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[2115] = {
+	}
+	pg.base.equip_skin_template[2115] = {
 		hit_sfx = "",
 		bullet_name = "paodan_huangjidiaoxiang",
 		orbit_ui_bound = "",
@@ -60048,8 +61639,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[2116] = {
+	}
+	pg.base.equip_skin_template[2116] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -60107,8 +61698,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[2117] = {
+	}
+	pg.base.equip_skin_template[2117] = {
 		hit_sfx = "",
 		bullet_name = "zidan_jiancifeiye",
 		orbit_ui_bound = "",
@@ -60148,8 +61739,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[2118] = {
+	}
+	pg.base.equip_skin_template[2118] = {
 		hit_sfx = "",
 		bullet_name = "yulei_shujingfazhang",
 		orbit_ui_bound = "",
@@ -60188,8 +61779,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[2119] = {
+	}
+	pg.base.equip_skin_template[2119] = {
 		hit_sfx = "",
 		bullet_name = "paodan_shutenghuahuan",
 		orbit_ui_bound = "",
@@ -60229,8 +61820,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[2120] = {
+	}
+	pg.base.equip_skin_template[2120] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -60288,8 +61879,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[3001] = {
+	}
+	pg.base.equip_skin_template[3001] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -60347,8 +61938,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[3002] = {
+	}
+	pg.base.equip_skin_template[3002] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -60406,8 +61997,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[3003] = {
+	}
+	pg.base.equip_skin_template[3003] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -60465,8 +62056,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[3004] = {
+	}
+	pg.base.equip_skin_template[3004] = {
 		hit_sfx = "",
 		bullet_name = "feiji_baiying",
 		orbit_ui_bound = "",
@@ -60504,8 +62095,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[3005] = {
+	}
+	pg.base.equip_skin_template[3005] = {
 		hit_sfx = "",
 		bullet_name = "feiji_baiying",
 		orbit_ui_bound = "",
@@ -60543,8 +62134,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[3006] = {
+	}
+	pg.base.equip_skin_template[3006] = {
 		hit_sfx = "",
 		bullet_name = "feiji_baiying",
 		orbit_ui_bound = "",
@@ -60582,8 +62173,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[3007] = {
+	}
+	pg.base.equip_skin_template[3007] = {
 		hit_sfx = "",
 		bullet_name = "zidan_suipian",
 		orbit_ui_bound = "",
@@ -60623,8 +62214,10 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[3008] = {
+	}
+end)()
+(function ()
+	pg.base.equip_skin_template[3008] = {
 		hit_sfx = "",
 		bullet_name = "paodan_lingdang",
 		orbit_ui_bound = "",
@@ -60664,8 +62257,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[3009] = {
+	}
+	pg.base.equip_skin_template[3009] = {
 		hit_sfx = "",
 		bullet_name = "zidan_chaojimaozhua",
 		orbit_ui_bound = "",
@@ -60705,8 +62298,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[3010] = {
+	}
+	pg.base.equip_skin_template[3010] = {
 		hit_sfx = "",
 		bullet_name = "feiji_xintiao",
 		orbit_ui_bound = "",
@@ -60744,8 +62337,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[3011] = {
+	}
+	pg.base.equip_skin_template[3011] = {
 		hit_sfx = "",
 		bullet_name = "feiji_xintiao",
 		orbit_ui_bound = "",
@@ -60783,8 +62376,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[3012] = {
+	}
+	pg.base.equip_skin_template[3012] = {
 		hit_sfx = "",
 		bullet_name = "feiji_xintiao",
 		orbit_ui_bound = "",
@@ -60822,8 +62415,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[3013] = {
+	}
+	pg.base.equip_skin_template[3013] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tianchengyulei",
 		orbit_ui_bound = "",
@@ -60861,8 +62454,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[3014] = {
+	}
+	pg.base.equip_skin_template[3014] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tianchengzhandou",
 		orbit_ui_bound = "",
@@ -60900,8 +62493,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[3015] = {
+	}
+	pg.base.equip_skin_template[3015] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tianchenghongzha",
 		orbit_ui_bound = "",
@@ -60939,8 +62532,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[3016] = {
+	}
+	pg.base.equip_skin_template[3016] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -60998,8 +62591,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[3017] = {
+	}
+	pg.base.equip_skin_template[3017] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -61057,8 +62650,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[3024] = {
+	}
+	pg.base.equip_skin_template[3024] = {
 		hit_sfx = "",
 		bullet_name = "zidan_dongzhi",
 		orbit_ui_bound = "",
@@ -61098,8 +62691,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[3025] = {
+	}
+	pg.base.equip_skin_template[3025] = {
 		hit_sfx = "",
 		bullet_name = "yulei_dongzhi",
 		orbit_ui_bound = "",
@@ -61138,8 +62731,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[3026] = {
+	}
+	pg.base.equip_skin_template[3026] = {
 		hit_sfx = "",
 		bullet_name = "paodan_dongzhi",
 		orbit_ui_bound = "",
@@ -61179,8 +62772,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[3027] = {
+	}
+	pg.base.equip_skin_template[3027] = {
 		hit_sfx = "",
 		bullet_name = "feiji_dongzhi",
 		orbit_ui_bound = "",
@@ -61218,8 +62811,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[3028] = {
+	}
+	pg.base.equip_skin_template[3028] = {
 		hit_sfx = "",
 		bullet_name = "feiji_dongzhi",
 		orbit_ui_bound = "",
@@ -61257,8 +62850,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[3029] = {
+	}
+	pg.base.equip_skin_template[3029] = {
 		hit_sfx = "",
 		bullet_name = "feiji_dongzhi",
 		orbit_ui_bound = "",
@@ -61296,8 +62889,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[3030] = {
+	}
+	pg.base.equip_skin_template[3030] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -61355,8 +62948,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[3031] = {
+	}
+	pg.base.equip_skin_template[3031] = {
 		hit_sfx = "",
 		bullet_name = "feiji_fulici",
 		orbit_ui_bound = "",
@@ -61394,8 +62987,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[3032] = {
+	}
+	pg.base.equip_skin_template[3032] = {
 		hit_sfx = "",
 		bullet_name = "feiji_fulici",
 		orbit_ui_bound = "",
@@ -61433,8 +63026,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[3033] = {
+	}
+	pg.base.equip_skin_template[3033] = {
 		hit_sfx = "",
 		bullet_name = "feiji_fulici",
 		orbit_ui_bound = "",
@@ -61472,8 +63065,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[3034] = {
+	}
+	pg.base.equip_skin_template[3034] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -61531,8 +63124,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[3035] = {
+	}
+	pg.base.equip_skin_template[3035] = {
 		hit_sfx = "",
 		bullet_name = "zidan_biaoqianrifu",
 		orbit_ui_bound = "",
@@ -61572,8 +63165,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[3036] = {
+	}
+	pg.base.equip_skin_template[3036] = {
 		hit_sfx = "",
 		bullet_name = "yulei_gouwudairifu",
 		orbit_ui_bound = "",
@@ -61612,8 +63205,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[3037] = {
+	}
+	pg.base.equip_skin_template[3037] = {
 		hit_sfx = "",
 		bullet_name = "paodan_liherifu",
 		orbit_ui_bound = "",
@@ -61653,8 +63246,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[3038] = {
+	}
+	pg.base.equip_skin_template[3038] = {
 		hit_sfx = "",
 		bullet_name = "feiji_gouwucherifu",
 		orbit_ui_bound = "",
@@ -61692,8 +63285,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[3039] = {
+	}
+	pg.base.equip_skin_template[3039] = {
 		hit_sfx = "",
 		bullet_name = "feiji_gouwucherifu",
 		orbit_ui_bound = "",
@@ -61731,8 +63324,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[3040] = {
+	}
+	pg.base.equip_skin_template[3040] = {
 		hit_sfx = "",
 		bullet_name = "feiji_gouwucherifu",
 		orbit_ui_bound = "",
@@ -61770,8 +63363,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[3041] = {
+	}
+	pg.base.equip_skin_template[3041] = {
 		hit_sfx = "",
 		bullet_name = "yulei_youlinghuanrao",
 		orbit_ui_bound = "",
@@ -61810,8 +63403,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[3042] = {
+	}
+	pg.base.equip_skin_template[3042] = {
 		hit_sfx = "",
 		bullet_name = "paodan_youling",
 		orbit_ui_bound = "",
@@ -61851,8 +63444,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[3043] = {
+	}
+	pg.base.equip_skin_template[3043] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -61910,8 +63503,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[3044] = {
+	}
+	pg.base.equip_skin_template[3044] = {
 		hit_sfx = "",
 		bullet_name = "yulei_songzhen",
 		orbit_ui_bound = "",
@@ -61950,8 +63543,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[3045] = {
+	}
+	pg.base.equip_skin_template[3045] = {
 		hit_sfx = "",
 		bullet_name = "paodan_pugongying",
 		orbit_ui_bound = "",
@@ -61991,8 +63584,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[3046] = {
+	}
+	pg.base.equip_skin_template[3046] = {
 		hit_sfx = "",
 		bullet_name = "yulei_bolang",
 		orbit_ui_bound = "",
@@ -62031,8 +63624,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[3047] = {
+	}
+	pg.base.equip_skin_template[3047] = {
 		hit_sfx = "",
 		bullet_name = "paodan_hailang",
 		orbit_ui_bound = "",
@@ -62072,8 +63665,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[3048] = {
+	}
+	pg.base.equip_skin_template[3048] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -62131,8 +63724,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[3049] = {
+	}
+	pg.base.equip_skin_template[3049] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -62190,8 +63783,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[3050] = {
+	}
+	pg.base.equip_skin_template[3050] = {
 		hit_sfx = "",
 		bullet_name = "zidan_bingqiang",
 		orbit_ui_bound = "",
@@ -62231,8 +63824,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[3051] = {
+	}
+	pg.base.equip_skin_template[3051] = {
 		hit_sfx = "",
 		bullet_name = "paodan_bingzhui",
 		orbit_ui_bound = "",
@@ -62272,8 +63865,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[3052] = {
+	}
+	pg.base.equip_skin_template[3052] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -62331,8 +63924,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[3053] = {
+	}
+	pg.base.equip_skin_template[3053] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -62390,8 +63983,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[3054] = {
+	}
+	pg.base.equip_skin_template[3054] = {
 		hit_sfx = "",
 		bullet_name = "paodan_tangguohe",
 		orbit_ui_bound = "",
@@ -62431,8 +64024,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[3059] = {
+	}
+	pg.base.equip_skin_template[3059] = {
 		hit_sfx = "",
 		bullet_name = "zidan_dongzhiqiqiu",
 		orbit_ui_bound = "",
@@ -62472,8 +64065,8 @@ pg.equip_skin_template = {
 			101,
 			101
 		}
-	},
-	[3060] = {
+	}
+	pg.base.equip_skin_template[3060] = {
 		hit_sfx = "",
 		bullet_name = "yulei_dongzhidengpai",
 		orbit_ui_bound = "",
@@ -62512,8 +64105,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[3061] = {
+	}
+	pg.base.equip_skin_template[3061] = {
 		hit_sfx = "",
 		bullet_name = "paodan_dongzhigouwuhe",
 		orbit_ui_bound = "",
@@ -62553,8 +64146,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[3062] = {
+	}
+	pg.base.equip_skin_template[3062] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -62612,8 +64205,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[3063] = {
+	}
+	pg.base.equip_skin_template[3063] = {
 		hit_sfx = "",
 		bullet_name = "feiji_liekexingdunIIyulei",
 		orbit_ui_bound = "",
@@ -62651,8 +64244,8 @@ pg.equip_skin_template = {
 			61503,
 			61504
 		}
-	},
-	[3064] = {
+	}
+	pg.base.equip_skin_template[3064] = {
 		hit_sfx = "",
 		bullet_name = "feiji_liekexingdunIIzhandou",
 		orbit_ui_bound = "",
@@ -62690,8 +64283,8 @@ pg.equip_skin_template = {
 			61505,
 			54010
 		}
-	},
-	[3065] = {
+	}
+	pg.base.equip_skin_template[3065] = {
 		hit_sfx = "",
 		bullet_name = "feiji_liekexingdunIIhongzha",
 		orbit_ui_bound = "",
@@ -62729,8 +64322,8 @@ pg.equip_skin_template = {
 			61501,
 			54014
 		}
-	},
-	[3066] = {
+	}
+	pg.base.equip_skin_template[3066] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -62788,8 +64381,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[3067] = {
+	}
+	pg.base.equip_skin_template[3067] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -62847,8 +64440,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[3068] = {
+	}
+	pg.base.equip_skin_template[3068] = {
 		hit_sfx = "",
 		bullet_name = "paodan_yingtaopangci",
 		orbit_ui_bound = "",
@@ -62888,8 +64481,8 @@ pg.equip_skin_template = {
 			24000,
 			24000
 		}
-	},
-	[3069] = {
+	}
+	pg.base.equip_skin_template[3069] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -62947,8 +64540,8 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	[3071] = {
+	}
+	pg.base.equip_skin_template[3071] = {
 		hit_sfx = "",
 		bullet_name = "yulei_ceshizhe",
 		orbit_ui_bound = "",
@@ -62987,8 +64580,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[3072] = {
+	}
+	pg.base.equip_skin_template[3072] = {
 		hit_sfx = "",
 		bullet_name = "yulei_jingjimeigui",
 		orbit_ui_bound = "",
@@ -63027,8 +64620,8 @@ pg.equip_skin_template = {
 			107,
 			107
 		}
-	},
-	[3075] = {
+	}
+	pg.base.equip_skin_template[3075] = {
 		hit_sfx = "",
 		bullet_name = "",
 		type = 1,
@@ -63086,1562 +64679,5 @@ pg.equip_skin_template = {
 			"sleep",
 			"wash"
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		50,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56,
-		57,
-		58,
-		59,
-		60,
-		61,
-		62,
-		63,
-		64,
-		65,
-		66,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		110,
-		111,
-		112,
-		113,
-		114,
-		115,
-		116,
-		117,
-		118,
-		120,
-		121,
-		122,
-		123,
-		124,
-		125,
-		126,
-		127,
-		128,
-		129,
-		130,
-		131,
-		132,
-		133,
-		134,
-		135,
-		136,
-		137,
-		140,
-		141,
-		142,
-		143,
-		144,
-		145,
-		146,
-		147,
-		148,
-		149,
-		150,
-		151,
-		152,
-		153,
-		154,
-		155,
-		156,
-		157,
-		160,
-		161,
-		162,
-		163,
-		164,
-		165,
-		166,
-		167,
-		168,
-		169,
-		170,
-		171,
-		172,
-		173,
-		174,
-		175,
-		176,
-		177,
-		180,
-		181,
-		182,
-		183,
-		184,
-		185,
-		186,
-		187,
-		188,
-		189,
-		190,
-		191,
-		192,
-		193,
-		194,
-		195,
-		196,
-		197,
-		200,
-		201,
-		202,
-		203,
-		204,
-		205,
-		206,
-		207,
-		208,
-		209,
-		210,
-		211,
-		212,
-		213,
-		214,
-		215,
-		216,
-		217,
-		220,
-		221,
-		222,
-		223,
-		224,
-		225,
-		226,
-		227,
-		228,
-		229,
-		230,
-		231,
-		232,
-		233,
-		234,
-		235,
-		236,
-		237,
-		240,
-		241,
-		242,
-		243,
-		244,
-		245,
-		246,
-		247,
-		248,
-		249,
-		250,
-		251,
-		252,
-		253,
-		254,
-		255,
-		256,
-		257,
-		260,
-		261,
-		262,
-		263,
-		264,
-		265,
-		266,
-		267,
-		268,
-		269,
-		270,
-		271,
-		272,
-		273,
-		274,
-		275,
-		276,
-		277,
-		280,
-		281,
-		282,
-		283,
-		284,
-		285,
-		286,
-		287,
-		288,
-		289,
-		290,
-		291,
-		292,
-		293,
-		294,
-		295,
-		296,
-		297,
-		300,
-		301,
-		302,
-		303,
-		304,
-		305,
-		306,
-		307,
-		308,
-		309,
-		310,
-		311,
-		312,
-		313,
-		314,
-		315,
-		316,
-		317,
-		320,
-		321,
-		322,
-		323,
-		324,
-		325,
-		326,
-		327,
-		328,
-		329,
-		330,
-		331,
-		332,
-		333,
-		334,
-		335,
-		336,
-		337,
-		340,
-		341,
-		342,
-		343,
-		344,
-		345,
-		346,
-		347,
-		348,
-		349,
-		350,
-		351,
-		352,
-		353,
-		354,
-		355,
-		356,
-		357,
-		360,
-		361,
-		362,
-		363,
-		364,
-		365,
-		366,
-		367,
-		368,
-		369,
-		370,
-		371,
-		372,
-		373,
-		374,
-		375,
-		376,
-		377,
-		380,
-		381,
-		382,
-		383,
-		384,
-		385,
-		386,
-		387,
-		388,
-		389,
-		390,
-		391,
-		392,
-		393,
-		394,
-		395,
-		396,
-		397,
-		398,
-		400,
-		401,
-		402,
-		403,
-		404,
-		405,
-		406,
-		407,
-		408,
-		409,
-		410,
-		411,
-		412,
-		413,
-		414,
-		415,
-		416,
-		417,
-		420,
-		421,
-		422,
-		423,
-		424,
-		425,
-		426,
-		427,
-		428,
-		429,
-		430,
-		431,
-		432,
-		433,
-		434,
-		435,
-		436,
-		437,
-		440,
-		441,
-		442,
-		443,
-		444,
-		445,
-		446,
-		447,
-		448,
-		449,
-		450,
-		451,
-		452,
-		453,
-		454,
-		455,
-		456,
-		457,
-		460,
-		461,
-		462,
-		463,
-		464,
-		465,
-		466,
-		467,
-		468,
-		469,
-		470,
-		471,
-		472,
-		473,
-		474,
-		475,
-		476,
-		477,
-		480,
-		481,
-		482,
-		483,
-		484,
-		485,
-		486,
-		487,
-		488,
-		489,
-		490,
-		491,
-		492,
-		493,
-		494,
-		495,
-		496,
-		497,
-		500,
-		501,
-		502,
-		503,
-		504,
-		505,
-		506,
-		507,
-		508,
-		509,
-		510,
-		511,
-		512,
-		513,
-		514,
-		515,
-		516,
-		517,
-		520,
-		521,
-		522,
-		523,
-		524,
-		525,
-		526,
-		527,
-		528,
-		529,
-		530,
-		531,
-		532,
-		533,
-		534,
-		535,
-		536,
-		537,
-		540,
-		541,
-		542,
-		543,
-		544,
-		545,
-		546,
-		547,
-		548,
-		549,
-		550,
-		551,
-		552,
-		553,
-		554,
-		555,
-		556,
-		557,
-		560,
-		561,
-		562,
-		563,
-		564,
-		565,
-		566,
-		567,
-		568,
-		569,
-		570,
-		571,
-		572,
-		573,
-		574,
-		575,
-		576,
-		577,
-		580,
-		581,
-		582,
-		583,
-		584,
-		585,
-		586,
-		587,
-		588,
-		589,
-		590,
-		591,
-		592,
-		593,
-		594,
-		595,
-		596,
-		597,
-		600,
-		601,
-		602,
-		603,
-		604,
-		605,
-		606,
-		607,
-		608,
-		609,
-		610,
-		611,
-		612,
-		613,
-		614,
-		615,
-		616,
-		617,
-		620,
-		621,
-		622,
-		623,
-		624,
-		625,
-		626,
-		627,
-		628,
-		629,
-		630,
-		631,
-		632,
-		633,
-		634,
-		635,
-		636,
-		637,
-		638,
-		639,
-		640,
-		641,
-		642,
-		643,
-		644,
-		645,
-		646,
-		647,
-		648,
-		649,
-		650,
-		651,
-		652,
-		653,
-		654,
-		655,
-		656,
-		657,
-		658,
-		659,
-		660,
-		661,
-		662,
-		670,
-		671,
-		672,
-		673,
-		674,
-		675,
-		676,
-		677,
-		678,
-		679,
-		680,
-		681,
-		682,
-		683,
-		684,
-		685,
-		686,
-		687,
-		690,
-		691,
-		692,
-		693,
-		694,
-		695,
-		696,
-		697,
-		698,
-		699,
-		700,
-		701,
-		702,
-		703,
-		704,
-		705,
-		706,
-		707,
-		710,
-		711,
-		712,
-		713,
-		714,
-		715,
-		716,
-		717,
-		718,
-		719,
-		720,
-		721,
-		722,
-		723,
-		724,
-		725,
-		726,
-		727,
-		730,
-		731,
-		732,
-		733,
-		734,
-		735,
-		736,
-		737,
-		738,
-		739,
-		740,
-		741,
-		742,
-		743,
-		744,
-		745,
-		746,
-		747,
-		750,
-		751,
-		752,
-		753,
-		754,
-		755,
-		756,
-		757,
-		758,
-		759,
-		760,
-		761,
-		762,
-		763,
-		764,
-		765,
-		766,
-		767,
-		771,
-		772,
-		773,
-		774,
-		775,
-		780,
-		781,
-		782,
-		783,
-		784,
-		785,
-		786,
-		787,
-		788,
-		789,
-		790,
-		791,
-		792,
-		793,
-		794,
-		795,
-		796,
-		797,
-		800,
-		801,
-		802,
-		803,
-		804,
-		805,
-		806,
-		810,
-		811,
-		812,
-		813,
-		814,
-		815,
-		816,
-		817,
-		818,
-		819,
-		820,
-		821,
-		822,
-		823,
-		824,
-		825,
-		826,
-		827,
-		830,
-		831,
-		832,
-		833,
-		834,
-		835,
-		836,
-		837,
-		838,
-		839,
-		840,
-		841,
-		842,
-		843,
-		844,
-		845,
-		846,
-		847,
-		850,
-		851,
-		852,
-		853,
-		854,
-		855,
-		856,
-		857,
-		858,
-		859,
-		860,
-		861,
-		862,
-		863,
-		864,
-		865,
-		866,
-		867,
-		870,
-		871,
-		872,
-		873,
-		874,
-		875,
-		876,
-		877,
-		878,
-		879,
-		880,
-		881,
-		882,
-		883,
-		884,
-		885,
-		886,
-		887,
-		890,
-		891,
-		892,
-		893,
-		894,
-		895,
-		896,
-		897,
-		898,
-		899,
-		900,
-		901,
-		902,
-		903,
-		904,
-		905,
-		906,
-		907,
-		908,
-		910,
-		911,
-		912,
-		913,
-		914,
-		915,
-		916,
-		917,
-		918,
-		919,
-		920,
-		921,
-		922,
-		923,
-		924,
-		925,
-		926,
-		927,
-		930,
-		931,
-		932,
-		933,
-		934,
-		935,
-		936,
-		937,
-		938,
-		939,
-		940,
-		941,
-		942,
-		943,
-		944,
-		945,
-		946,
-		947,
-		950,
-		951,
-		952,
-		953,
-		954,
-		955,
-		956,
-		957,
-		958,
-		959,
-		960,
-		961,
-		962,
-		963,
-		964,
-		965,
-		966,
-		967,
-		970,
-		971,
-		972,
-		973,
-		974,
-		975,
-		976,
-		977,
-		978,
-		979,
-		980,
-		981,
-		982,
-		983,
-		984,
-		985,
-		986,
-		987,
-		4001,
-		4002,
-		4003,
-		4004,
-		4005,
-		4006,
-		4007,
-		4008,
-		4009,
-		4010,
-		4011,
-		4012,
-		4013,
-		4014,
-		4015,
-		4016,
-		4017,
-		4018,
-		4019,
-		4020,
-		4021,
-		4022,
-		4023,
-		4024,
-		4025,
-		4026,
-		4027,
-		4028,
-		4029,
-		4030,
-		4031,
-		4032,
-		4033,
-		4034,
-		4035,
-		4036,
-		4037,
-		4038,
-		4039,
-		4040,
-		4041,
-		4042,
-		4043,
-		4044,
-		4045,
-		4046,
-		4047,
-		4048,
-		4049,
-		4050,
-		4051,
-		4052,
-		4053,
-		4054,
-		4055,
-		4056,
-		4057,
-		4058,
-		4059,
-		4060,
-		4061,
-		4062,
-		4063,
-		4064,
-		4065,
-		4066,
-		4067,
-		4068,
-		4069,
-		4070,
-		4071,
-		4072,
-		4073,
-		4074,
-		4075,
-		4076,
-		4077,
-		4078,
-		4079,
-		4080,
-		4081,
-		4082,
-		4083,
-		4084,
-		4085,
-		4086,
-		4087,
-		4088,
-		4089,
-		4090,
-		4091,
-		4092,
-		4093,
-		4094,
-		4095,
-		4096,
-		4097,
-		4098,
-		4099,
-		4100,
-		4101,
-		4102,
-		4103,
-		4104,
-		4105,
-		4106,
-		4107,
-		4108,
-		4109,
-		4110,
-		4111,
-		4112,
-		4113,
-		4114,
-		4115,
-		4116,
-		4117,
-		4118,
-		4119,
-		4120,
-		4121,
-		4122,
-		4123,
-		4124,
-		4125,
-		4126,
-		4127,
-		4128,
-		4129,
-		4130,
-		4131,
-		4132,
-		4133,
-		4134,
-		4135,
-		4136,
-		4137,
-		4138,
-		4139,
-		4140,
-		4141,
-		4142,
-		4143,
-		4144,
-		4145,
-		4146,
-		4147,
-		4148,
-		4149,
-		4150,
-		4151,
-		4152,
-		4153,
-		4154,
-		4155,
-		4156,
-		4157,
-		4158,
-		4159,
-		4160,
-		4161,
-		4162,
-		4163,
-		4164,
-		4165,
-		4166,
-		4167,
-		4168,
-		4169,
-		4170,
-		4171,
-		4172,
-		4173,
-		4174,
-		4175,
-		4176,
-		4177,
-		4178,
-		4179,
-		4180,
-		4181,
-		4182,
-		4183,
-		4184,
-		4185,
-		4186,
-		4187,
-		4188,
-		4189,
-		4190,
-		4191,
-		4192,
-		4193,
-		4194,
-		4195,
-		4196,
-		4197,
-		4198,
-		4199,
-		4200,
-		4201,
-		4202,
-		4203,
-		4204,
-		4205,
-		4206,
-		4207,
-		4208,
-		4209,
-		4210,
-		4211,
-		4212,
-		4213,
-		4214,
-		4215,
-		4216,
-		4217,
-		4218,
-		4219,
-		4220,
-		4221,
-		4222,
-		4223,
-		4224,
-		4225,
-		4226,
-		4227,
-		4228,
-		4229,
-		4230,
-		4231,
-		4232,
-		4233,
-		4234,
-		4235,
-		4236,
-		4237,
-		4238,
-		4239,
-		4240,
-		4241,
-		4242,
-		4243,
-		4244,
-		4245,
-		4246,
-		4247,
-		4248,
-		4249,
-		4250,
-		4251,
-		4252,
-		4253,
-		4254,
-		4255,
-		4256,
-		4257,
-		4258,
-		4259,
-		4260,
-		4261,
-		4262,
-		4263,
-		4264,
-		4265,
-		4266,
-		4267,
-		4268,
-		4269,
-		4270,
-		4271,
-		4272,
-		4273,
-		4274,
-		4275,
-		4276,
-		4277,
-		4278,
-		4279,
-		4280,
-		4281,
-		4282,
-		4283,
-		4284,
-		4285,
-		4286,
-		4287,
-		4288,
-		4289,
-		4290,
-		4291,
-		4292,
-		4293,
-		4294,
-		4295,
-		4296,
-		4297,
-		4298,
-		4299,
-		4300,
-		4301,
-		4302,
-		4303,
-		4304,
-		4305,
-		4306,
-		4307,
-		4308,
-		4309,
-		4310,
-		4311,
-		4312,
-		4313,
-		4314,
-		4315,
-		4316,
-		4317,
-		4318,
-		4319,
-		4320,
-		4321,
-		4322,
-		4323,
-		4324,
-		4325,
-		4326,
-		4327,
-		4328,
-		4329,
-		4330,
-		4331,
-		4332,
-		4333,
-		4334,
-		4335,
-		4336,
-		4337,
-		4338,
-		4339,
-		4340,
-		4341,
-		4342,
-		4343,
-		4344,
-		4345,
-		4346,
-		4347,
-		4348,
-		4349,
-		4350,
-		4351,
-		4352,
-		4353,
-		4354,
-		4355,
-		4356,
-		4357,
-		4358,
-		4359,
-		4360,
-		4361,
-		4362,
-		4363,
-		4364,
-		4365,
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1007,
-		1008,
-		1009,
-		1010,
-		1011,
-		1012,
-		1013,
-		1014,
-		1015,
-		1051,
-		1052,
-		1053,
-		1054,
-		1055,
-		1056,
-		1057,
-		1058,
-		1059,
-		1060,
-		1061,
-		1062,
-		1063,
-		1064,
-		1065,
-		1066,
-		1067,
-		1068,
-		1101,
-		1102,
-		1103,
-		1104,
-		1105,
-		1106,
-		1107,
-		1108,
-		1109,
-		1110,
-		1111,
-		1112,
-		1113,
-		1114,
-		1115,
-		1116,
-		1117,
-		1118,
-		1119,
-		1200,
-		1201,
-		1202,
-		1203,
-		1204,
-		1205,
-		1206,
-		1207,
-		1208,
-		1209,
-		1210,
-		1211,
-		1212,
-		1213,
-		1214,
-		1215,
-		1216,
-		1217,
-		1218,
-		1300,
-		1400,
-		1401,
-		1402,
-		1403,
-		1404,
-		1405,
-		1406,
-		1407,
-		1408,
-		1409,
-		1410,
-		1411,
-		1412,
-		1413,
-		1414,
-		1415,
-		1416,
-		1417,
-		1450,
-		1451,
-		1452,
-		1453,
-		1454,
-		1455,
-		1456,
-		1457,
-		1458,
-		1459,
-		1460,
-		1461,
-		1462,
-		1463,
-		1464,
-		1465,
-		1466,
-		1467,
-		1471,
-		1472,
-		1473,
-		1474,
-		1475,
-		1476,
-		1477,
-		1478,
-		1479,
-		1480,
-		1481,
-		1482,
-		1483,
-		1484,
-		1485,
-		1486,
-		1487,
-		1488,
-		1489,
-		1490,
-		1491,
-		1492,
-		1493,
-		1494,
-		1495,
-		1496,
-		1497,
-		1498,
-		1499,
-		1501,
-		1502,
-		1503,
-		1504,
-		1505,
-		1506,
-		1507,
-		1511,
-		1512,
-		1513,
-		1514,
-		1515,
-		1516,
-		1517,
-		1518,
-		1519,
-		1520,
-		1521,
-		1522,
-		1523,
-		1524,
-		1525,
-		1526,
-		1527,
-		1528,
-		2001,
-		2002,
-		2003,
-		2004,
-		2005,
-		2006,
-		2007,
-		2008,
-		2009,
-		2010,
-		2011,
-		2012,
-		2013,
-		2014,
-		2015,
-		2016,
-		2017,
-		2018,
-		2019,
-		2020,
-		2021,
-		2022,
-		2023,
-		2024,
-		2025,
-		2026,
-		2027,
-		2028,
-		2029,
-		2030,
-		2031,
-		2032,
-		2033,
-		2034,
-		2035,
-		2036,
-		2037,
-		2038,
-		2039,
-		2040,
-		2041,
-		2042,
-		2043,
-		2044,
-		2045,
-		2046,
-		2047,
-		2048,
-		2049,
-		2050,
-		2051,
-		2052,
-		2053,
-		2054,
-		2055,
-		2056,
-		2061,
-		2062,
-		2063,
-		2064,
-		2065,
-		2066,
-		2067,
-		2068,
-		2069,
-		2070,
-		2071,
-		2072,
-		2073,
-		2074,
-		2075,
-		2076,
-		2077,
-		2078,
-		2079,
-		2080,
-		2081,
-		2082,
-		2083,
-		2084,
-		2085,
-		2086,
-		2087,
-		2088,
-		2089,
-		2090,
-		2091,
-		2092,
-		2093,
-		2094,
-		2095,
-		2096,
-		2097,
-		2098,
-		2099,
-		2100,
-		2101,
-		2102,
-		2103,
-		2104,
-		2105,
-		2106,
-		2107,
-		2108,
-		2109,
-		2110,
-		2111,
-		2112,
-		2113,
-		2114,
-		2115,
-		2116,
-		2117,
-		2118,
-		2119,
-		2120,
-		3001,
-		3002,
-		3003,
-		3004,
-		3005,
-		3006,
-		3007,
-		3008,
-		3009,
-		3010,
-		3011,
-		3012,
-		3013,
-		3014,
-		3015,
-		3016,
-		3017,
-		3024,
-		3025,
-		3026,
-		3027,
-		3028,
-		3029,
-		3030,
-		3031,
-		3032,
-		3033,
-		3034,
-		3035,
-		3036,
-		3037,
-		3038,
-		3039,
-		3040,
-		3041,
-		3042,
-		3043,
-		3044,
-		3045,
-		3046,
-		3047,
-		3048,
-		3049,
-		3050,
-		3051,
-		3052,
-		3053,
-		3054,
-		3059,
-		3060,
-		3061,
-		3062,
-		3063,
-		3064,
-		3065,
-		3066,
-		3067,
-		3068,
-		3069,
-		3071,
-		3072,
-		3075
 	}
-}
+end)()

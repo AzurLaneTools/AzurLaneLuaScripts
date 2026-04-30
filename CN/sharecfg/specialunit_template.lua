@@ -1,6 +1,41 @@
 pg = pg or {}
-pg.specialunit_template = {
-	[1150001] = {
+pg.specialunit_template = rawget(pg, "specialunit_template") or setmetatable({
+	__name = "specialunit_template"
+}, confNEO)
+pg.specialunit_template.all = {
+	1150001,
+	1150002,
+	1150003,
+	1150004,
+	1150005,
+	1150006,
+	1150011,
+	1150012,
+	1150013,
+	1150014,
+	1150015,
+	1150016,
+	1150020,
+	1150021,
+	1150022,
+	1210001,
+	1210002,
+	1210003,
+	1210004,
+	1210005,
+	1210006,
+	1210011,
+	1210012,
+	1210013,
+	1210014,
+	1210015,
+	1210016
+}
+pg.base = pg.base or {}
+pg.base.specialunit_template = {}
+
+(function ()
+	pg.base.specialunit_template[1150001] = {
 		appear_story = "DONGHUO13",
 		name = "塞壬运输船",
 		ai = 1,
@@ -127,8 +162,8 @@ pg.specialunit_template = {
 				2
 			}
 		}
-	},
-	[1150002] = {
+	}
+	pg.base.specialunit_template[1150002] = {
 		appear_story = "",
 		name = "塞壬运输船",
 		ai = 1,
@@ -255,8 +290,8 @@ pg.specialunit_template = {
 				2
 			}
 		}
-	},
-	[1150003] = {
+	}
+	pg.base.specialunit_template[1150003] = {
 		appear_story = "",
 		name = "塞壬运输船",
 		ai = 1,
@@ -383,8 +418,8 @@ pg.specialunit_template = {
 				2
 			}
 		}
-	},
-	[1150004] = {
+	}
+	pg.base.specialunit_template[1150004] = {
 		appear_story = "",
 		name = "塞壬运输船",
 		ai = 1,
@@ -511,8 +546,8 @@ pg.specialunit_template = {
 				2
 			}
 		}
-	},
-	[1150005] = {
+	}
+	pg.base.specialunit_template[1150005] = {
 		appear_story = "",
 		name = "塞壬运输船",
 		ai = 1,
@@ -639,8 +674,8 @@ pg.specialunit_template = {
 				2
 			}
 		}
-	},
-	[1150006] = {
+	}
+	pg.base.specialunit_template[1150006] = {
 		appear_story = "",
 		name = "塞壬运输船",
 		ai = 1,
@@ -767,8 +802,8 @@ pg.specialunit_template = {
 				2
 			}
 		}
-	},
-	[1150011] = {
+	}
+	pg.base.specialunit_template[1150011] = {
 		appear_story = "DONGHUO13",
 		name = "塞壬运输船",
 		ai = 1,
@@ -895,8 +930,8 @@ pg.specialunit_template = {
 				2
 			}
 		}
-	},
-	[1150012] = {
+	}
+	pg.base.specialunit_template[1150012] = {
 		appear_story = "",
 		name = "塞壬运输船",
 		ai = 1,
@@ -1023,8 +1058,8 @@ pg.specialunit_template = {
 				2
 			}
 		}
-	},
-	[1150013] = {
+	}
+	pg.base.specialunit_template[1150013] = {
 		appear_story = "",
 		name = "塞壬运输船",
 		ai = 1,
@@ -1151,8 +1186,8 @@ pg.specialunit_template = {
 				2
 			}
 		}
-	},
-	[1150014] = {
+	}
+	pg.base.specialunit_template[1150014] = {
 		appear_story = "",
 		name = "塞壬运输船",
 		ai = 1,
@@ -1279,8 +1314,8 @@ pg.specialunit_template = {
 				2
 			}
 		}
-	},
-	[1150015] = {
+	}
+	pg.base.specialunit_template[1150015] = {
 		appear_story = "",
 		name = "塞壬运输船",
 		ai = 1,
@@ -1407,8 +1442,8 @@ pg.specialunit_template = {
 				2
 			}
 		}
-	},
-	[1150016] = {
+	}
+	pg.base.specialunit_template[1150016] = {
 		appear_story = "",
 		name = "塞壬运输船",
 		ai = 1,
@@ -1535,8 +1570,8 @@ pg.specialunit_template = {
 				2
 			}
 		}
-	},
-	[1150020] = {
+	}
+	pg.base.specialunit_template[1150020] = {
 		appear_story = "LINGDONG19",
 		name = "侦查舰队",
 		ai = 0,
@@ -1549,8 +1584,8 @@ pg.specialunit_template = {
 		s_score_drop = 0,
 		ai_arg = {},
 		alert_range = {}
-	},
-	[1150021] = {
+	}
+	pg.base.specialunit_template[1150021] = {
 		appear_story = "LINGDONG19",
 		name = "主力舰队",
 		ai = 0,
@@ -1563,8 +1598,8 @@ pg.specialunit_template = {
 		s_score_drop = 0,
 		ai_arg = {},
 		alert_range = {}
-	},
-	[1150022] = {
+	}
+	pg.base.specialunit_template[1150022] = {
 		appear_story = "LINGDONG19",
 		name = "航空舰队",
 		ai = 0,
@@ -1577,8 +1612,8 @@ pg.specialunit_template = {
 		s_score_drop = 0,
 		ai_arg = {},
 		alert_range = {}
-	},
-	[1210001] = {
+	}
+	pg.base.specialunit_template[1210001] = {
 		appear_story = "",
 		name = "塞壬运输船",
 		ai = 1,
@@ -1705,8 +1740,8 @@ pg.specialunit_template = {
 				2
 			}
 		}
-	},
-	[1210002] = {
+	}
+	pg.base.specialunit_template[1210002] = {
 		appear_story = "",
 		name = "塞壬运输船",
 		ai = 1,
@@ -1833,8 +1868,8 @@ pg.specialunit_template = {
 				2
 			}
 		}
-	},
-	[1210003] = {
+	}
+	pg.base.specialunit_template[1210003] = {
 		appear_story = "",
 		name = "塞壬运输船",
 		ai = 1,
@@ -1961,8 +1996,8 @@ pg.specialunit_template = {
 				2
 			}
 		}
-	},
-	[1210004] = {
+	}
+	pg.base.specialunit_template[1210004] = {
 		appear_story = "",
 		name = "塞壬运输船",
 		ai = 1,
@@ -2089,8 +2124,8 @@ pg.specialunit_template = {
 				2
 			}
 		}
-	},
-	[1210005] = {
+	}
+	pg.base.specialunit_template[1210005] = {
 		appear_story = "",
 		name = "塞壬运输船",
 		ai = 1,
@@ -2217,8 +2252,8 @@ pg.specialunit_template = {
 				2
 			}
 		}
-	},
-	[1210006] = {
+	}
+	pg.base.specialunit_template[1210006] = {
 		appear_story = "",
 		name = "塞壬运输船",
 		ai = 1,
@@ -2345,8 +2380,8 @@ pg.specialunit_template = {
 				2
 			}
 		}
-	},
-	[1210011] = {
+	}
+	pg.base.specialunit_template[1210011] = {
 		appear_story = "",
 		name = "塞壬运输船",
 		ai = 1,
@@ -2473,8 +2508,8 @@ pg.specialunit_template = {
 				2
 			}
 		}
-	},
-	[1210012] = {
+	}
+	pg.base.specialunit_template[1210012] = {
 		appear_story = "",
 		name = "塞壬运输船",
 		ai = 1,
@@ -2601,8 +2636,8 @@ pg.specialunit_template = {
 				2
 			}
 		}
-	},
-	[1210013] = {
+	}
+	pg.base.specialunit_template[1210013] = {
 		appear_story = "",
 		name = "塞壬运输船",
 		ai = 1,
@@ -2729,8 +2764,8 @@ pg.specialunit_template = {
 				2
 			}
 		}
-	},
-	[1210014] = {
+	}
+	pg.base.specialunit_template[1210014] = {
 		appear_story = "",
 		name = "塞壬运输船",
 		ai = 1,
@@ -2857,8 +2892,8 @@ pg.specialunit_template = {
 				2
 			}
 		}
-	},
-	[1210015] = {
+	}
+	pg.base.specialunit_template[1210015] = {
 		appear_story = "",
 		name = "塞壬运输船",
 		ai = 1,
@@ -2985,8 +3020,8 @@ pg.specialunit_template = {
 				2
 			}
 		}
-	},
-	[1210016] = {
+	}
+	pg.base.specialunit_template[1210016] = {
 		appear_story = "",
 		name = "塞壬运输船",
 		ai = 1,
@@ -3113,34 +3148,5 @@ pg.specialunit_template = {
 				2
 			}
 		}
-	},
-	all = {
-		1150001,
-		1150002,
-		1150003,
-		1150004,
-		1150005,
-		1150006,
-		1150011,
-		1150012,
-		1150013,
-		1150014,
-		1150015,
-		1150016,
-		1150020,
-		1150021,
-		1150022,
-		1210001,
-		1210002,
-		1210003,
-		1210004,
-		1210005,
-		1210006,
-		1210011,
-		1210012,
-		1210013,
-		1210014,
-		1210015,
-		1210016
 	}
-}
+end)()

@@ -1,31 +1,34 @@
 pg = pg or {}
-pg.livingarea_cover = setmetatable({
-	__name = "livingarea_cover",
-	all = {
-		0,
-		100101,
-		100102,
-		100103,
-		100201,
-		100202,
-		100203,
-		100301,
-		100302,
-		100303,
-		101101,
-		101102,
-		101103,
-		101201,
-		101202,
-		101203,
-		101401,
-		101402,
-		101403
-	}
-}, confHX)
+pg.livingarea_cover = rawget(pg, "livingarea_cover") or setmetatable({
+	__name = "livingarea_cover"
+}, confNEO)
+pg.livingarea_cover.__namecode__ = true
+pg.livingarea_cover.all = {
+	0,
+	100101,
+	100102,
+	100103,
+	100201,
+	100202,
+	100203,
+	100301,
+	100302,
+	100303,
+	101101,
+	101102,
+	101103,
+	101201,
+	101202,
+	101203,
+	101401,
+	101402,
+	101403
+}
 pg.base = pg.base or {}
-pg.base.livingarea_cover = {
-	[0] = {
+pg.base.livingarea_cover = {}
+
+(function ()
+	pg.base.livingarea_cover[0] = {
 		get_tips = "",
 		name = "默认",
 		nighttime_res = "0_bg_night",
@@ -36,8 +39,8 @@ pg.base.livingarea_cover = {
 		id = 0,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "0_icon"
-	},
-	[100101] = {
+	}
+	pg.base.livingarea_cover[100101] = {
 		get_tips = "获得了新的契合度封面",
 		name = "欢迎光临",
 		nighttime_res = "100101_bg_night",
@@ -48,8 +51,8 @@ pg.base.livingarea_cover = {
 		id = 100101,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "100101_icon"
-	},
-	[100102] = {
+	}
+	pg.base.livingarea_cover[100102] = {
 		get_tips = "获得了新的契合度封面",
 		name = "沙发谈心",
 		nighttime_res = "100102_bg_night",
@@ -60,8 +63,8 @@ pg.base.livingarea_cover = {
 		id = 100102,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "100102_icon"
-	},
-	[100103] = {
+	}
+	pg.base.livingarea_cover[100103] = {
 		get_tips = "获得了新的契合度封面",
 		name = "床铺整理",
 		nighttime_res = "100103_bg_night",
@@ -72,8 +75,8 @@ pg.base.livingarea_cover = {
 		id = 100103,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "100103_icon"
-	},
-	[100201] = {
+	}
+	pg.base.livingarea_cover[100201] = {
 		get_tips = "获得了新的契合度封面",
 		name = "窗边等待",
 		nighttime_res = "100201_bg_night",
@@ -84,8 +87,8 @@ pg.base.livingarea_cover = {
 		id = 100201,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "100201_icon"
-	},
-	[100202] = {
+	}
+	pg.base.livingarea_cover[100202] = {
 		get_tips = "获得了新的契合度封面",
 		name = "下午茶邀请",
 		nighttime_res = "100202_bg_night",
@@ -96,8 +99,8 @@ pg.base.livingarea_cover = {
 		id = 100202,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "100202_icon"
-	},
-	[100203] = {
+	}
+	pg.base.livingarea_cover[100203] = {
 		get_tips = "获得了新的契合度封面",
 		name = "休憩时间",
 		nighttime_res = "100203_bg_night",
@@ -108,8 +111,8 @@ pg.base.livingarea_cover = {
 		id = 100203,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "100203_icon"
-	},
-	[100301] = {
+	}
+	pg.base.livingarea_cover[100301] = {
 		get_tips = "获得了新的契合度封面",
 		name = "美味期待",
 		nighttime_res = "100301_bg_night",
@@ -120,8 +123,8 @@ pg.base.livingarea_cover = {
 		id = 100301,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "100301_icon"
-	},
-	[100302] = {
+	}
+	pg.base.livingarea_cover[100302] = {
 		get_tips = "获得了新的契合度封面",
 		name = "故事时光",
 		nighttime_res = "100302_bg_night",
@@ -132,8 +135,8 @@ pg.base.livingarea_cover = {
 		id = 100302,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "100302_icon"
-	},
-	[100303] = {
+	}
+	pg.base.livingarea_cover[100303] = {
 		get_tips = "获得了新的契合度封面",
 		name = "绘境之约",
 		nighttime_res = "100303_bg_night",
@@ -144,8 +147,8 @@ pg.base.livingarea_cover = {
 		id = 100303,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "100303_icon"
-	},
-	[101101] = {
+	}
+	pg.base.livingarea_cover[101101] = {
 		get_tips = "获得了新的契合度封面",
 		name = "闲憩怡然",
 		nighttime_res = "101101_bg_night",
@@ -156,8 +159,8 @@ pg.base.livingarea_cover = {
 		id = 101101,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "101101_icon"
-	},
-	[101102] = {
+	}
+	pg.base.livingarea_cover[101102] = {
 		get_tips = "获得了新的契合度封面",
 		name = "暖阳欢颜",
 		nighttime_res = "101102_bg_night",
@@ -168,8 +171,8 @@ pg.base.livingarea_cover = {
 		id = 101102,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "101102_icon"
-	},
-	[101103] = {
+	}
+	pg.base.livingarea_cover[101103] = {
 		get_tips = "获得了新的契合度封面",
 		name = "甜蜜絮语",
 		nighttime_res = "101103_bg_night",
@@ -180,8 +183,8 @@ pg.base.livingarea_cover = {
 		id = 101103,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "101103_icon"
-	},
-	[101201] = {
+	}
+	pg.base.livingarea_cover[101201] = {
 		get_tips = "获得了新的契合度封面",
 		name = "独享邀请 ",
 		nighttime_res = "101201_bg_night",
@@ -192,8 +195,8 @@ pg.base.livingarea_cover = {
 		id = 101201,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "101201_icon"
-	},
-	[101202] = {
+	}
+	pg.base.livingarea_cover[101202] = {
 		get_tips = "获得了新的契合度封面",
 		name = "相依的思绪 ",
 		nighttime_res = "101202_bg_night",
@@ -204,8 +207,8 @@ pg.base.livingarea_cover = {
 		id = 101202,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "101202_icon"
-	},
-	[101203] = {
+	}
+	pg.base.livingarea_cover[101203] = {
 		get_tips = "获得了新的契合度封面",
 		name = "情动指尖 ",
 		nighttime_res = "101203_bg_night",
@@ -216,8 +219,8 @@ pg.base.livingarea_cover = {
 		id = 101203,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "101203_icon"
-	},
-	[101401] = {
+	}
+	pg.base.livingarea_cover[101401] = {
 		get_tips = "获得了新的契合度封面",
 		name = "案前密语",
 		nighttime_res = "101401_bg_night",
@@ -228,8 +231,8 @@ pg.base.livingarea_cover = {
 		id = 101401,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "101401_icon"
-	},
-	[101402] = {
+	}
+	pg.base.livingarea_cover[101402] = {
 		get_tips = "获得了新的契合度封面",
 		name = "慵懒共憩",
 		nighttime_res = "101402_bg_night",
@@ -240,8 +243,8 @@ pg.base.livingarea_cover = {
 		id = 101402,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "101402_icon"
-	},
-	[101403] = {
+	}
+	pg.base.livingarea_cover[101403] = {
 		get_tips = "获得了新的契合度封面",
 		name = "枕畔邀约",
 		nighttime_res = "101403_bg_night",
@@ -253,4 +256,4 @@ pg.base.livingarea_cover = {
 		icon = "Props/drom3d_camera1003",
 		icon_res = "101403_icon"
 	}
-}
+end)()

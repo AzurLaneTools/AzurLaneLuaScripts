@@ -435,4 +435,42 @@ slot0.getGiveDrops = function(slot0)
 	return slot1
 end
 
+slot0.OwnSpAward = function(slot0)
+	slot1 = function(slot0)
+		return getProxy(DormProxy):getData():GetOwnFurnitureCount(slot0) > 0
+	end
+
+	slot2 = function(slot0)
+		return getProxy(CollectionProxy):GetTrophyById(slot0) and (slot1:canClaimed() or slot1:isClaimed())
+	end
+
+	slot3 = function(slot0)
+		for slot6, slot7 in pairs(getProxy(PlayerProxy):getRawData():getActivityMedalGroup()) do
+			if slot7:OwnMedel(slot0) then
+				return true
+			end
+		end
+
+		return false
+	end
+
+	if ({
+		type = slot0[1],
+		id = slot0[2],
+		count = slot0[3]
+	}).type == DROP_TYPE_FURNITURE then
+		return slot1(slot4.id)
+	elseif slot4.type == DROP_TYPE_VITEM and type(pg.item_virtual_data_statistics[slot4.id].album_config) == "table" then
+		slot7 = slot5[2]
+
+		if slot5[1] == 1 then
+			return slot2(slot7)
+		elseif slot6 == 2 then
+			return slot3(slot7)
+		end
+	end
+
+	return false
+end
+
 return slot0

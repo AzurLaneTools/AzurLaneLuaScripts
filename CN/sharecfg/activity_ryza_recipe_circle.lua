@@ -1,6 +1,616 @@
 pg = pg or {}
-pg.activity_ryza_recipe_circle = {
-	{
+pg.activity_ryza_recipe_circle = rawget(pg, "activity_ryza_recipe_circle") or setmetatable({
+	__name = "activity_ryza_recipe_circle"
+}, confNEO)
+pg.activity_ryza_recipe_circle.all = {
+	1,
+	2,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	39,
+	40,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	47,
+	48,
+	49,
+	50,
+	51,
+	60,
+	61,
+	62,
+	63,
+	64,
+	65,
+	66,
+	67,
+	100,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	110,
+	200,
+	201,
+	202,
+	203,
+	204,
+	205,
+	206,
+	207,
+	208,
+	209,
+	210,
+	300,
+	301,
+	302,
+	303,
+	304,
+	305,
+	306,
+	307,
+	308,
+	309,
+	310,
+	311,
+	400,
+	401,
+	402,
+	403,
+	404,
+	405,
+	406,
+	407,
+	408,
+	409,
+	410,
+	411,
+	412,
+	413,
+	500,
+	501,
+	502,
+	503,
+	504,
+	505,
+	506,
+	507,
+	508,
+	509,
+	510,
+	511,
+	600,
+	601,
+	602,
+	603,
+	604,
+	605,
+	606,
+	607,
+	608,
+	609,
+	610,
+	611,
+	612,
+	613,
+	700,
+	701,
+	702,
+	703,
+	704,
+	705,
+	706,
+	707,
+	708,
+	709,
+	710,
+	711,
+	712,
+	713,
+	714,
+	800,
+	801,
+	802,
+	803,
+	804,
+	805,
+	806,
+	807,
+	808,
+	809,
+	810,
+	811,
+	812,
+	813,
+	814,
+	900,
+	901,
+	902,
+	903,
+	904,
+	905,
+	906,
+	907,
+	908,
+	909,
+	910,
+	911,
+	912,
+	913,
+	914,
+	1000,
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008,
+	1009,
+	1010,
+	1011,
+	1012,
+	1013,
+	1100,
+	1101,
+	1102,
+	1103,
+	1104,
+	1105,
+	1106,
+	1107,
+	1108,
+	1109,
+	1110,
+	1111,
+	1112,
+	1113,
+	1114,
+	1115,
+	1200,
+	1201,
+	1202,
+	1203,
+	1204,
+	1205,
+	1206,
+	1207,
+	1208,
+	1209,
+	1210,
+	1211,
+	1212,
+	1213,
+	1214,
+	1215,
+	1216,
+	1217,
+	1218,
+	1300,
+	1301,
+	1302,
+	1303,
+	1304,
+	1305,
+	1306,
+	1307,
+	1308,
+	1309,
+	1310,
+	1311,
+	1312,
+	1313,
+	1314,
+	1315,
+	1400,
+	1401,
+	1402,
+	1403,
+	1404,
+	1405,
+	1406,
+	1407,
+	1408,
+	1409,
+	1410,
+	1411,
+	1412,
+	1413,
+	1414,
+	1415,
+	1416,
+	1417,
+	1418,
+	1419,
+	1420,
+	1421,
+	1422,
+	1423,
+	1500,
+	1501,
+	1502,
+	1503,
+	1504,
+	1505,
+	1506,
+	1507,
+	1508,
+	1509,
+	1510,
+	1511,
+	1512,
+	1513,
+	1514,
+	1515,
+	1516,
+	1517,
+	1518,
+	1519,
+	1520,
+	1521,
+	1600,
+	1601,
+	1602,
+	1603,
+	1604,
+	1605,
+	1606,
+	1607,
+	1608,
+	1609,
+	1610,
+	1611,
+	1612,
+	1613,
+	1614,
+	1615,
+	1616,
+	1617,
+	1618,
+	1619,
+	1700,
+	1701,
+	1702,
+	1703,
+	1704,
+	1705,
+	1706,
+	1707,
+	1708,
+	1709,
+	1800,
+	1801,
+	1802,
+	1803,
+	1804,
+	1805,
+	1806,
+	1807,
+	1808,
+	1809,
+	1810,
+	1811,
+	1812,
+	1813,
+	1814,
+	1815,
+	1900,
+	1901,
+	1902,
+	1903,
+	1904,
+	1905,
+	1906,
+	1907,
+	1908,
+	1909,
+	1910,
+	1911,
+	1912,
+	1913,
+	1914,
+	1915,
+	1916,
+	1917,
+	2000,
+	2001,
+	2002,
+	2003,
+	2004,
+	2005,
+	2006,
+	2007,
+	2008,
+	2009,
+	2010,
+	2011,
+	2012,
+	2013,
+	2014,
+	2015,
+	2016,
+	2017,
+	2100,
+	2101,
+	2102,
+	2200,
+	2201,
+	2202,
+	2203,
+	2300,
+	2301,
+	2302,
+	2303,
+	2400,
+	2401,
+	2402,
+	2403,
+	2500,
+	2501,
+	2502,
+	2503,
+	2600,
+	2601,
+	2602,
+	2603,
+	2604,
+	2700,
+	2701,
+	2702,
+	2703,
+	2704,
+	2705,
+	2706,
+	2707,
+	2708,
+	2800,
+	2801,
+	2802,
+	2803,
+	2804,
+	2805,
+	2806,
+	2807,
+	2808,
+	2900,
+	2901,
+	2902,
+	2903,
+	2904,
+	2905,
+	2906,
+	2907,
+	2908,
+	3000,
+	3001,
+	3002,
+	3003,
+	3004,
+	3005,
+	3006,
+	3007,
+	3008,
+	3100,
+	3101,
+	3102,
+	3103,
+	3104,
+	3105,
+	3106,
+	3107,
+	3108,
+	3200,
+	3201,
+	3202,
+	3203,
+	3204,
+	3205,
+	3206,
+	3207,
+	3208,
+	3300,
+	3301,
+	3302,
+	3303,
+	3304,
+	3305,
+	3306,
+	3307,
+	3308,
+	3400,
+	3401,
+	3402,
+	3403,
+	3404,
+	3405,
+	3406,
+	3407,
+	3408,
+	3501,
+	3502,
+	3503,
+	10001,
+	10002,
+	10003,
+	10004,
+	10005,
+	10006,
+	10007,
+	10011,
+	10012,
+	10013,
+	10014,
+	10015,
+	10016,
+	10017,
+	10021,
+	10022,
+	10023,
+	10024,
+	10025,
+	10026,
+	10027,
+	10031,
+	10032,
+	10033,
+	10034,
+	10035,
+	10036,
+	10037,
+	10041,
+	10042,
+	10043,
+	10044,
+	10045,
+	10046,
+	10047,
+	10051,
+	10052,
+	10053,
+	10054,
+	10055,
+	10056,
+	10057,
+	10061,
+	10062,
+	10063,
+	10064,
+	10065,
+	10066,
+	10067,
+	10071,
+	10072,
+	10073,
+	10074,
+	10075,
+	10076,
+	10077,
+	10081,
+	10082,
+	10083,
+	10084,
+	10085,
+	10086,
+	10087,
+	10091,
+	10092,
+	10093,
+	10094,
+	10095,
+	10096,
+	10097,
+	10101,
+	10102,
+	10103,
+	10104,
+	10105,
+	10106,
+	10107,
+	10108,
+	10111,
+	10112,
+	10113,
+	10114,
+	10115,
+	10116,
+	10117,
+	10118,
+	10121,
+	10122,
+	10123,
+	10124,
+	10125,
+	10126,
+	10127,
+	10128,
+	10131,
+	10132,
+	10133,
+	10134,
+	10135,
+	10136,
+	10137,
+	10138,
+	10141,
+	10142,
+	10143,
+	10151,
+	10152,
+	10153,
+	10161,
+	10162,
+	10163,
+	10171,
+	10172,
+	10173,
+	10181,
+	10182,
+	10183,
+	10184,
+	10185,
+	10191,
+	10192,
+	10193,
+	10194,
+	10201,
+	10202,
+	10203,
+	10204,
+	10211,
+	10212,
+	10213,
+	10221,
+	10222,
+	10223,
+	10231,
+	10232,
+	10233,
+	10241,
+	10242,
+	10243
+}
+pg.base = pg.base or {}
+pg.base.activity_ryza_recipe_circle = {}
+
+(function ()
+	pg.base.activity_ryza_recipe_circle[1] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -10,8 +620,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 2,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	{
+	}
+	pg.base.activity_ryza_recipe_circle[2] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -21,8 +631,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 3,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[10] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -45,8 +655,8 @@ pg.activity_ryza_recipe_circle = {
 				11
 			}
 		}
-	},
-	[11] = {
+	}
+	pg.base.activity_ryza_recipe_circle[11] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -61,8 +671,8 @@ pg.activity_ryza_recipe_circle = {
 				18
 			}
 		}
-	},
-	[12] = {
+	}
+	pg.base.activity_ryza_recipe_circle[12] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -77,8 +687,8 @@ pg.activity_ryza_recipe_circle = {
 				13
 			}
 		}
-	},
-	[13] = {
+	}
+	pg.base.activity_ryza_recipe_circle[13] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -93,8 +703,8 @@ pg.activity_ryza_recipe_circle = {
 				14
 			}
 		}
-	},
-	[14] = {
+	}
+	pg.base.activity_ryza_recipe_circle[14] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -109,8 +719,8 @@ pg.activity_ryza_recipe_circle = {
 				15
 			}
 		}
-	},
-	[15] = {
+	}
+	pg.base.activity_ryza_recipe_circle[15] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -125,8 +735,8 @@ pg.activity_ryza_recipe_circle = {
 				16
 			}
 		}
-	},
-	[16] = {
+	}
+	pg.base.activity_ryza_recipe_circle[16] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -141,8 +751,8 @@ pg.activity_ryza_recipe_circle = {
 				19
 			}
 		}
-	},
-	[17] = {
+	}
+	pg.base.activity_ryza_recipe_circle[17] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -152,8 +762,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 1,
 		prop_level = 2,
 		circle_connect = {}
-	},
-	[18] = {
+	}
+	pg.base.activity_ryza_recipe_circle[18] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -163,8 +773,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 1,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[19] = {
+	}
+	pg.base.activity_ryza_recipe_circle[19] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -174,8 +784,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 1,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[20] = {
+	}
+	pg.base.activity_ryza_recipe_circle[20] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -198,8 +808,8 @@ pg.activity_ryza_recipe_circle = {
 				22
 			}
 		}
-	},
-	[21] = {
+	}
+	pg.base.activity_ryza_recipe_circle[21] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -214,8 +824,8 @@ pg.activity_ryza_recipe_circle = {
 				29
 			}
 		}
-	},
-	[22] = {
+	}
+	pg.base.activity_ryza_recipe_circle[22] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -230,8 +840,8 @@ pg.activity_ryza_recipe_circle = {
 				26
 			}
 		}
-	},
-	[23] = {
+	}
+	pg.base.activity_ryza_recipe_circle[23] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -246,8 +856,8 @@ pg.activity_ryza_recipe_circle = {
 				24
 			}
 		}
-	},
-	[24] = {
+	}
+	pg.base.activity_ryza_recipe_circle[24] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -262,8 +872,8 @@ pg.activity_ryza_recipe_circle = {
 				25
 			}
 		}
-	},
-	[25] = {
+	}
+	pg.base.activity_ryza_recipe_circle[25] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -278,8 +888,8 @@ pg.activity_ryza_recipe_circle = {
 				27
 			}
 		}
-	},
-	[26] = {
+	}
+	pg.base.activity_ryza_recipe_circle[26] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -289,8 +899,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 2,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[27] = {
+	}
+	pg.base.activity_ryza_recipe_circle[27] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -305,8 +915,8 @@ pg.activity_ryza_recipe_circle = {
 				28
 			}
 		}
-	},
-	[28] = {
+	}
+	pg.base.activity_ryza_recipe_circle[28] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -316,8 +926,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 2,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[29] = {
+	}
+	pg.base.activity_ryza_recipe_circle[29] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -332,8 +942,8 @@ pg.activity_ryza_recipe_circle = {
 				1
 			}
 		}
-	},
-	[30] = {
+	}
+	pg.base.activity_ryza_recipe_circle[30] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -352,8 +962,8 @@ pg.activity_ryza_recipe_circle = {
 				32
 			}
 		}
-	},
-	[31] = {
+	}
+	pg.base.activity_ryza_recipe_circle[31] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -368,8 +978,8 @@ pg.activity_ryza_recipe_circle = {
 				35
 			}
 		}
-	},
-	[32] = {
+	}
+	pg.base.activity_ryza_recipe_circle[32] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -384,8 +994,8 @@ pg.activity_ryza_recipe_circle = {
 				33
 			}
 		}
-	},
-	[33] = {
+	}
+	pg.base.activity_ryza_recipe_circle[33] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -400,8 +1010,8 @@ pg.activity_ryza_recipe_circle = {
 				34
 			}
 		}
-	},
-	[34] = {
+	}
+	pg.base.activity_ryza_recipe_circle[34] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -416,8 +1026,8 @@ pg.activity_ryza_recipe_circle = {
 				36
 			}
 		}
-	},
-	[35] = {
+	}
+	pg.base.activity_ryza_recipe_circle[35] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -427,8 +1037,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 3,
 		prop_level = 2,
 		circle_connect = {}
-	},
-	[36] = {
+	}
+	pg.base.activity_ryza_recipe_circle[36] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -443,8 +1053,8 @@ pg.activity_ryza_recipe_circle = {
 				37
 			}
 		}
-	},
-	[37] = {
+	}
+	pg.base.activity_ryza_recipe_circle[37] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -463,8 +1073,8 @@ pg.activity_ryza_recipe_circle = {
 				39
 			}
 		}
-	},
-	[38] = {
+	}
+	pg.base.activity_ryza_recipe_circle[38] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -474,8 +1084,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 3,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[39] = {
+	}
+	pg.base.activity_ryza_recipe_circle[39] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -490,8 +1100,8 @@ pg.activity_ryza_recipe_circle = {
 				2
 			}
 		}
-	},
-	[40] = {
+	}
+	pg.base.activity_ryza_recipe_circle[40] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -510,8 +1120,8 @@ pg.activity_ryza_recipe_circle = {
 				41
 			}
 		}
-	},
-	[41] = {
+	}
+	pg.base.activity_ryza_recipe_circle[41] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -526,8 +1136,8 @@ pg.activity_ryza_recipe_circle = {
 				44
 			}
 		}
-	},
-	[42] = {
+	}
+	pg.base.activity_ryza_recipe_circle[42] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -542,8 +1152,8 @@ pg.activity_ryza_recipe_circle = {
 				43
 			}
 		}
-	},
-	[43] = {
+	}
+	pg.base.activity_ryza_recipe_circle[43] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -558,8 +1168,8 @@ pg.activity_ryza_recipe_circle = {
 				45
 			}
 		}
-	},
-	[44] = {
+	}
+	pg.base.activity_ryza_recipe_circle[44] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -574,8 +1184,8 @@ pg.activity_ryza_recipe_circle = {
 				46
 			}
 		}
-	},
-	[45] = {
+	}
+	pg.base.activity_ryza_recipe_circle[45] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -590,8 +1200,8 @@ pg.activity_ryza_recipe_circle = {
 				47
 			}
 		}
-	},
-	[46] = {
+	}
+	pg.base.activity_ryza_recipe_circle[46] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -606,8 +1216,8 @@ pg.activity_ryza_recipe_circle = {
 				48
 			}
 		}
-	},
-	[47] = {
+	}
+	pg.base.activity_ryza_recipe_circle[47] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -622,8 +1232,8 @@ pg.activity_ryza_recipe_circle = {
 				49
 			}
 		}
-	},
-	[48] = {
+	}
+	pg.base.activity_ryza_recipe_circle[48] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -638,8 +1248,8 @@ pg.activity_ryza_recipe_circle = {
 				50
 			}
 		}
-	},
-	[49] = {
+	}
+	pg.base.activity_ryza_recipe_circle[49] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -649,8 +1259,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 4,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[50] = {
+	}
+	pg.base.activity_ryza_recipe_circle[50] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -665,8 +1275,8 @@ pg.activity_ryza_recipe_circle = {
 				51
 			}
 		}
-	},
-	[51] = {
+	}
+	pg.base.activity_ryza_recipe_circle[51] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -676,8 +1286,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 4,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[60] = {
+	}
+	pg.base.activity_ryza_recipe_circle[60] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -696,8 +1306,8 @@ pg.activity_ryza_recipe_circle = {
 				61
 			}
 		}
-	},
-	[61] = {
+	}
+	pg.base.activity_ryza_recipe_circle[61] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -707,8 +1317,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 5,
 		prop_level = 2,
 		circle_connect = {}
-	},
-	[62] = {
+	}
+	pg.base.activity_ryza_recipe_circle[62] = {
 		star_list = "",
 		type = 3,
 		prop_type = 0,
@@ -723,8 +1333,8 @@ pg.activity_ryza_recipe_circle = {
 				63
 			}
 		}
-	},
-	[63] = {
+	}
+	pg.base.activity_ryza_recipe_circle[63] = {
 		star_list = "",
 		type = 3,
 		prop_type = 0,
@@ -747,8 +1357,8 @@ pg.activity_ryza_recipe_circle = {
 				65
 			}
 		}
-	},
-	[64] = {
+	}
+	pg.base.activity_ryza_recipe_circle[64] = {
 		star_list = "",
 		type = 3,
 		prop_type = 0,
@@ -758,8 +1368,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 5,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[65] = {
+	}
+	pg.base.activity_ryza_recipe_circle[65] = {
 		star_list = "",
 		type = 3,
 		prop_type = 0,
@@ -769,8 +1379,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 5,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[66] = {
+	}
+	pg.base.activity_ryza_recipe_circle[66] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -785,8 +1395,8 @@ pg.activity_ryza_recipe_circle = {
 				67
 			}
 		}
-	},
-	[67] = {
+	}
+	pg.base.activity_ryza_recipe_circle[67] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -796,8 +1406,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 5,
 		prop_level = 2,
 		circle_connect = {}
-	},
-	[100] = {
+	}
+	pg.base.activity_ryza_recipe_circle[100] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -820,8 +1430,8 @@ pg.activity_ryza_recipe_circle = {
 				102
 			}
 		}
-	},
-	[101] = {
+	}
+	pg.base.activity_ryza_recipe_circle[101] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -836,8 +1446,8 @@ pg.activity_ryza_recipe_circle = {
 				105
 			}
 		}
-	},
-	[102] = {
+	}
+	pg.base.activity_ryza_recipe_circle[102] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -852,8 +1462,8 @@ pg.activity_ryza_recipe_circle = {
 				103
 			}
 		}
-	},
-	[103] = {
+	}
+	pg.base.activity_ryza_recipe_circle[103] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -868,8 +1478,8 @@ pg.activity_ryza_recipe_circle = {
 				104
 			}
 		}
-	},
-	[104] = {
+	}
+	pg.base.activity_ryza_recipe_circle[104] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -879,8 +1489,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 10,
 		prop_level = 3,
 		circle_connect = {}
-	},
-	[105] = {
+	}
+	pg.base.activity_ryza_recipe_circle[105] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -895,8 +1505,8 @@ pg.activity_ryza_recipe_circle = {
 				106
 			}
 		}
-	},
-	[106] = {
+	}
+	pg.base.activity_ryza_recipe_circle[106] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -906,8 +1516,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 10,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[107] = {
+	}
+	pg.base.activity_ryza_recipe_circle[107] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -922,8 +1532,8 @@ pg.activity_ryza_recipe_circle = {
 				108
 			}
 		}
-	},
-	[108] = {
+	}
+	pg.base.activity_ryza_recipe_circle[108] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -942,8 +1552,8 @@ pg.activity_ryza_recipe_circle = {
 				110
 			}
 		}
-	},
-	[109] = {
+	}
+	pg.base.activity_ryza_recipe_circle[109] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -953,8 +1563,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 10,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[110] = {
+	}
+	pg.base.activity_ryza_recipe_circle[110] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -964,8 +1574,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 10,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[200] = {
+	}
+	pg.base.activity_ryza_recipe_circle[200] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -975,8 +1585,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 20,
 		prop_level = 3,
 		circle_connect = {}
-	},
-	[201] = {
+	}
+	pg.base.activity_ryza_recipe_circle[201] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -991,8 +1601,8 @@ pg.activity_ryza_recipe_circle = {
 				200
 			}
 		}
-	},
-	[202] = {
+	}
+	pg.base.activity_ryza_recipe_circle[202] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -1019,8 +1629,8 @@ pg.activity_ryza_recipe_circle = {
 				203
 			}
 		}
-	},
-	[203] = {
+	}
+	pg.base.activity_ryza_recipe_circle[203] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1035,8 +1645,8 @@ pg.activity_ryza_recipe_circle = {
 				204
 			}
 		}
-	},
-	[204] = {
+	}
+	pg.base.activity_ryza_recipe_circle[204] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1051,8 +1661,8 @@ pg.activity_ryza_recipe_circle = {
 				206
 			}
 		}
-	},
-	[205] = {
+	}
+	pg.base.activity_ryza_recipe_circle[205] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1067,8 +1677,8 @@ pg.activity_ryza_recipe_circle = {
 				209
 			}
 		}
-	},
-	[206] = {
+	}
+	pg.base.activity_ryza_recipe_circle[206] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1078,8 +1688,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 20,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[207] = {
+	}
+	pg.base.activity_ryza_recipe_circle[207] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1094,8 +1704,8 @@ pg.activity_ryza_recipe_circle = {
 				208
 			}
 		}
-	},
-	[208] = {
+	}
+	pg.base.activity_ryza_recipe_circle[208] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1105,8 +1715,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 20,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[209] = {
+	}
+	pg.base.activity_ryza_recipe_circle[209] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1121,8 +1731,8 @@ pg.activity_ryza_recipe_circle = {
 				210
 			}
 		}
-	},
-	[210] = {
+	}
+	pg.base.activity_ryza_recipe_circle[210] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1132,8 +1742,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 20,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[300] = {
+	}
+	pg.base.activity_ryza_recipe_circle[300] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -1152,8 +1762,8 @@ pg.activity_ryza_recipe_circle = {
 				302
 			}
 		}
-	},
-	[301] = {
+	}
+	pg.base.activity_ryza_recipe_circle[301] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -1163,8 +1773,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 30,
 		prop_level = 3,
 		circle_connect = {}
-	},
-	[302] = {
+	}
+	pg.base.activity_ryza_recipe_circle[302] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -1179,8 +1789,8 @@ pg.activity_ryza_recipe_circle = {
 				308
 			}
 		}
-	},
-	[303] = {
+	}
+	pg.base.activity_ryza_recipe_circle[303] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1195,8 +1805,8 @@ pg.activity_ryza_recipe_circle = {
 				300
 			}
 		}
-	},
-	[304] = {
+	}
+	pg.base.activity_ryza_recipe_circle[304] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1211,8 +1821,8 @@ pg.activity_ryza_recipe_circle = {
 				303
 			}
 		}
-	},
-	[305] = {
+	}
+	pg.base.activity_ryza_recipe_circle[305] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1231,8 +1841,8 @@ pg.activity_ryza_recipe_circle = {
 				307
 			}
 		}
-	},
-	[306] = {
+	}
+	pg.base.activity_ryza_recipe_circle[306] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1247,8 +1857,8 @@ pg.activity_ryza_recipe_circle = {
 				305
 			}
 		}
-	},
-	[307] = {
+	}
+	pg.base.activity_ryza_recipe_circle[307] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1263,8 +1873,8 @@ pg.activity_ryza_recipe_circle = {
 				310
 			}
 		}
-	},
-	[308] = {
+	}
+	pg.base.activity_ryza_recipe_circle[308] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1279,8 +1889,8 @@ pg.activity_ryza_recipe_circle = {
 				309
 			}
 		}
-	},
-	[309] = {
+	}
+	pg.base.activity_ryza_recipe_circle[309] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1290,8 +1900,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 30,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[310] = {
+	}
+	pg.base.activity_ryza_recipe_circle[310] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1306,8 +1916,8 @@ pg.activity_ryza_recipe_circle = {
 				311
 			}
 		}
-	},
-	[311] = {
+	}
+	pg.base.activity_ryza_recipe_circle[311] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1317,8 +1927,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 30,
 		prop_level = 2,
 		circle_connect = {}
-	},
-	[400] = {
+	}
+	pg.base.activity_ryza_recipe_circle[400] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -1337,8 +1947,8 @@ pg.activity_ryza_recipe_circle = {
 				401
 			}
 		}
-	},
-	[401] = {
+	}
+	pg.base.activity_ryza_recipe_circle[401] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -1353,8 +1963,8 @@ pg.activity_ryza_recipe_circle = {
 				402
 			}
 		}
-	},
-	[402] = {
+	}
+	pg.base.activity_ryza_recipe_circle[402] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -1369,8 +1979,8 @@ pg.activity_ryza_recipe_circle = {
 				403
 			}
 		}
-	},
-	[403] = {
+	}
+	pg.base.activity_ryza_recipe_circle[403] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1385,8 +1995,8 @@ pg.activity_ryza_recipe_circle = {
 				404
 			}
 		}
-	},
-	[404] = {
+	}
+	pg.base.activity_ryza_recipe_circle[404] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1405,8 +2015,8 @@ pg.activity_ryza_recipe_circle = {
 				411
 			}
 		}
-	},
-	[405] = {
+	}
+	pg.base.activity_ryza_recipe_circle[405] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1421,8 +2031,8 @@ pg.activity_ryza_recipe_circle = {
 				406
 			}
 		}
-	},
-	[406] = {
+	}
+	pg.base.activity_ryza_recipe_circle[406] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1441,8 +2051,8 @@ pg.activity_ryza_recipe_circle = {
 				409
 			}
 		}
-	},
-	[407] = {
+	}
+	pg.base.activity_ryza_recipe_circle[407] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1457,8 +2067,8 @@ pg.activity_ryza_recipe_circle = {
 				408
 			}
 		}
-	},
-	[408] = {
+	}
+	pg.base.activity_ryza_recipe_circle[408] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1477,8 +2087,8 @@ pg.activity_ryza_recipe_circle = {
 				412
 			}
 		}
-	},
-	[409] = {
+	}
+	pg.base.activity_ryza_recipe_circle[409] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1488,8 +2098,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 40,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[410] = {
+	}
+	pg.base.activity_ryza_recipe_circle[410] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1499,8 +2109,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 40,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[411] = {
+	}
+	pg.base.activity_ryza_recipe_circle[411] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1510,8 +2120,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 40,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[412] = {
+	}
+	pg.base.activity_ryza_recipe_circle[412] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1521,8 +2131,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 40,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[413] = {
+	}
+	pg.base.activity_ryza_recipe_circle[413] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1532,8 +2142,10 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 40,
 		prop_level = 2,
 		circle_connect = {}
-	},
-	[500] = {
+	}
+end)()
+(function ()
+	pg.base.activity_ryza_recipe_circle[500] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -1552,8 +2164,8 @@ pg.activity_ryza_recipe_circle = {
 				501
 			}
 		}
-	},
-	[501] = {
+	}
+	pg.base.activity_ryza_recipe_circle[501] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -1568,8 +2180,8 @@ pg.activity_ryza_recipe_circle = {
 				510
 			}
 		}
-	},
-	[502] = {
+	}
+	pg.base.activity_ryza_recipe_circle[502] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1584,8 +2196,8 @@ pg.activity_ryza_recipe_circle = {
 				503
 			}
 		}
-	},
-	[503] = {
+	}
+	pg.base.activity_ryza_recipe_circle[503] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1600,8 +2212,8 @@ pg.activity_ryza_recipe_circle = {
 				505
 			}
 		}
-	},
-	[504] = {
+	}
+	pg.base.activity_ryza_recipe_circle[504] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -1624,8 +2236,8 @@ pg.activity_ryza_recipe_circle = {
 				507
 			}
 		}
-	},
-	[505] = {
+	}
+	pg.base.activity_ryza_recipe_circle[505] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1635,8 +2247,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 50,
 		prop_level = 3,
 		circle_connect = {}
-	},
-	[506] = {
+	}
+	pg.base.activity_ryza_recipe_circle[506] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1651,8 +2263,8 @@ pg.activity_ryza_recipe_circle = {
 				508
 			}
 		}
-	},
-	[507] = {
+	}
+	pg.base.activity_ryza_recipe_circle[507] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1667,8 +2279,8 @@ pg.activity_ryza_recipe_circle = {
 				509
 			}
 		}
-	},
-	[508] = {
+	}
+	pg.base.activity_ryza_recipe_circle[508] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1678,8 +2290,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 50,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[509] = {
+	}
+	pg.base.activity_ryza_recipe_circle[509] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1694,8 +2306,8 @@ pg.activity_ryza_recipe_circle = {
 				511
 			}
 		}
-	},
-	[510] = {
+	}
+	pg.base.activity_ryza_recipe_circle[510] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1705,8 +2317,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 50,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[511] = {
+	}
+	pg.base.activity_ryza_recipe_circle[511] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1716,8 +2328,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 50,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[600] = {
+	}
+	pg.base.activity_ryza_recipe_circle[600] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -1732,8 +2344,8 @@ pg.activity_ryza_recipe_circle = {
 				601
 			}
 		}
-	},
-	[601] = {
+	}
+	pg.base.activity_ryza_recipe_circle[601] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -1756,8 +2368,8 @@ pg.activity_ryza_recipe_circle = {
 				603
 			}
 		}
-	},
-	[602] = {
+	}
+	pg.base.activity_ryza_recipe_circle[602] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1772,8 +2384,8 @@ pg.activity_ryza_recipe_circle = {
 				600
 			}
 		}
-	},
-	[603] = {
+	}
+	pg.base.activity_ryza_recipe_circle[603] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1788,8 +2400,8 @@ pg.activity_ryza_recipe_circle = {
 				605
 			}
 		}
-	},
-	[604] = {
+	}
+	pg.base.activity_ryza_recipe_circle[604] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1808,8 +2420,8 @@ pg.activity_ryza_recipe_circle = {
 				606
 			}
 		}
-	},
-	[605] = {
+	}
+	pg.base.activity_ryza_recipe_circle[605] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1824,8 +2436,8 @@ pg.activity_ryza_recipe_circle = {
 				607
 			}
 		}
-	},
-	[606] = {
+	}
+	pg.base.activity_ryza_recipe_circle[606] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1840,8 +2452,8 @@ pg.activity_ryza_recipe_circle = {
 				608
 			}
 		}
-	},
-	[607] = {
+	}
+	pg.base.activity_ryza_recipe_circle[607] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1856,8 +2468,8 @@ pg.activity_ryza_recipe_circle = {
 				609
 			}
 		}
-	},
-	[608] = {
+	}
+	pg.base.activity_ryza_recipe_circle[608] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1872,8 +2484,8 @@ pg.activity_ryza_recipe_circle = {
 				610
 			}
 		}
-	},
-	[609] = {
+	}
+	pg.base.activity_ryza_recipe_circle[609] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1883,8 +2495,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 60,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[610] = {
+	}
+	pg.base.activity_ryza_recipe_circle[610] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1894,8 +2506,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 60,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[611] = {
+	}
+	pg.base.activity_ryza_recipe_circle[611] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -1905,8 +2517,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 60,
 		prop_level = 3,
 		circle_connect = {}
-	},
-	[612] = {
+	}
+	pg.base.activity_ryza_recipe_circle[612] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1921,8 +2533,8 @@ pg.activity_ryza_recipe_circle = {
 				613
 			}
 		}
-	},
-	[613] = {
+	}
+	pg.base.activity_ryza_recipe_circle[613] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1932,8 +2544,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 60,
 		prop_level = 3,
 		circle_connect = {}
-	},
-	[700] = {
+	}
+	pg.base.activity_ryza_recipe_circle[700] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -1956,8 +2568,8 @@ pg.activity_ryza_recipe_circle = {
 				701
 			}
 		}
-	},
-	[701] = {
+	}
+	pg.base.activity_ryza_recipe_circle[701] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -1976,8 +2588,8 @@ pg.activity_ryza_recipe_circle = {
 				714
 			}
 		}
-	},
-	[702] = {
+	}
+	pg.base.activity_ryza_recipe_circle[702] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -1996,8 +2608,8 @@ pg.activity_ryza_recipe_circle = {
 				712
 			}
 		}
-	},
-	[703] = {
+	}
+	pg.base.activity_ryza_recipe_circle[703] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2016,8 +2628,8 @@ pg.activity_ryza_recipe_circle = {
 				709
 			}
 		}
-	},
-	[704] = {
+	}
+	pg.base.activity_ryza_recipe_circle[704] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2032,8 +2644,8 @@ pg.activity_ryza_recipe_circle = {
 				706
 			}
 		}
-	},
-	[705] = {
+	}
+	pg.base.activity_ryza_recipe_circle[705] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2048,8 +2660,8 @@ pg.activity_ryza_recipe_circle = {
 				711
 			}
 		}
-	},
-	[706] = {
+	}
+	pg.base.activity_ryza_recipe_circle[706] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2064,8 +2676,8 @@ pg.activity_ryza_recipe_circle = {
 				707
 			}
 		}
-	},
-	[707] = {
+	}
+	pg.base.activity_ryza_recipe_circle[707] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2080,8 +2692,8 @@ pg.activity_ryza_recipe_circle = {
 				710
 			}
 		}
-	},
-	[708] = {
+	}
+	pg.base.activity_ryza_recipe_circle[708] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -2091,8 +2703,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 70,
 		prop_level = 3,
 		circle_connect = {}
-	},
-	[709] = {
+	}
+	pg.base.activity_ryza_recipe_circle[709] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2102,8 +2714,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 70,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[710] = {
+	}
+	pg.base.activity_ryza_recipe_circle[710] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2113,8 +2725,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 70,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[711] = {
+	}
+	pg.base.activity_ryza_recipe_circle[711] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2129,8 +2741,8 @@ pg.activity_ryza_recipe_circle = {
 				713
 			}
 		}
-	},
-	[712] = {
+	}
+	pg.base.activity_ryza_recipe_circle[712] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2140,8 +2752,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 70,
 		prop_level = 2,
 		circle_connect = {}
-	},
-	[713] = {
+	}
+	pg.base.activity_ryza_recipe_circle[713] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2151,8 +2763,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 70,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[714] = {
+	}
+	pg.base.activity_ryza_recipe_circle[714] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2162,8 +2774,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 70,
 		prop_level = 2,
 		circle_connect = {}
-	},
-	[800] = {
+	}
+	pg.base.activity_ryza_recipe_circle[800] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -2182,8 +2794,8 @@ pg.activity_ryza_recipe_circle = {
 				803
 			}
 		}
-	},
-	[801] = {
+	}
+	pg.base.activity_ryza_recipe_circle[801] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -2193,8 +2805,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 80,
 		prop_level = 3,
 		circle_connect = {}
-	},
-	[802] = {
+	}
+	pg.base.activity_ryza_recipe_circle[802] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2217,8 +2829,8 @@ pg.activity_ryza_recipe_circle = {
 				811
 			}
 		}
-	},
-	[803] = {
+	}
+	pg.base.activity_ryza_recipe_circle[803] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -2233,8 +2845,8 @@ pg.activity_ryza_recipe_circle = {
 				804
 			}
 		}
-	},
-	[804] = {
+	}
+	pg.base.activity_ryza_recipe_circle[804] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2249,8 +2861,8 @@ pg.activity_ryza_recipe_circle = {
 				805
 			}
 		}
-	},
-	[805] = {
+	}
+	pg.base.activity_ryza_recipe_circle[805] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2260,8 +2872,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 80,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[806] = {
+	}
+	pg.base.activity_ryza_recipe_circle[806] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2280,8 +2892,8 @@ pg.activity_ryza_recipe_circle = {
 				809
 			}
 		}
-	},
-	[807] = {
+	}
+	pg.base.activity_ryza_recipe_circle[807] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2296,8 +2908,8 @@ pg.activity_ryza_recipe_circle = {
 				808
 			}
 		}
-	},
-	[808] = {
+	}
+	pg.base.activity_ryza_recipe_circle[808] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2307,8 +2919,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 80,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[809] = {
+	}
+	pg.base.activity_ryza_recipe_circle[809] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2323,8 +2935,8 @@ pg.activity_ryza_recipe_circle = {
 				810
 			}
 		}
-	},
-	[810] = {
+	}
+	pg.base.activity_ryza_recipe_circle[810] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2334,8 +2946,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 80,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[811] = {
+	}
+	pg.base.activity_ryza_recipe_circle[811] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2354,8 +2966,8 @@ pg.activity_ryza_recipe_circle = {
 				812
 			}
 		}
-	},
-	[812] = {
+	}
+	pg.base.activity_ryza_recipe_circle[812] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2365,8 +2977,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 80,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[813] = {
+	}
+	pg.base.activity_ryza_recipe_circle[813] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2381,8 +2993,8 @@ pg.activity_ryza_recipe_circle = {
 				814
 			}
 		}
-	},
-	[814] = {
+	}
+	pg.base.activity_ryza_recipe_circle[814] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2392,8 +3004,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 80,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[900] = {
+	}
+	pg.base.activity_ryza_recipe_circle[900] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -2416,8 +3028,8 @@ pg.activity_ryza_recipe_circle = {
 				902
 			}
 		}
-	},
-	[901] = {
+	}
+	pg.base.activity_ryza_recipe_circle[901] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -2432,8 +3044,8 @@ pg.activity_ryza_recipe_circle = {
 				903
 			}
 		}
-	},
-	[902] = {
+	}
+	pg.base.activity_ryza_recipe_circle[902] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -2448,8 +3060,8 @@ pg.activity_ryza_recipe_circle = {
 				904
 			}
 		}
-	},
-	[903] = {
+	}
+	pg.base.activity_ryza_recipe_circle[903] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2459,8 +3071,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 90,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[904] = {
+	}
+	pg.base.activity_ryza_recipe_circle[904] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2475,8 +3087,8 @@ pg.activity_ryza_recipe_circle = {
 				905
 			}
 		}
-	},
-	[905] = {
+	}
+	pg.base.activity_ryza_recipe_circle[905] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2486,8 +3098,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 90,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[906] = {
+	}
+	pg.base.activity_ryza_recipe_circle[906] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2502,8 +3114,8 @@ pg.activity_ryza_recipe_circle = {
 				907
 			}
 		}
-	},
-	[907] = {
+	}
+	pg.base.activity_ryza_recipe_circle[907] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2522,8 +3134,8 @@ pg.activity_ryza_recipe_circle = {
 				911
 			}
 		}
-	},
-	[908] = {
+	}
+	pg.base.activity_ryza_recipe_circle[908] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2542,8 +3154,8 @@ pg.activity_ryza_recipe_circle = {
 				909
 			}
 		}
-	},
-	[909] = {
+	}
+	pg.base.activity_ryza_recipe_circle[909] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2553,8 +3165,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 90,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[910] = {
+	}
+	pg.base.activity_ryza_recipe_circle[910] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2564,8 +3176,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 90,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[911] = {
+	}
+	pg.base.activity_ryza_recipe_circle[911] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2580,8 +3192,8 @@ pg.activity_ryza_recipe_circle = {
 				912
 			}
 		}
-	},
-	[912] = {
+	}
+	pg.base.activity_ryza_recipe_circle[912] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2600,8 +3212,8 @@ pg.activity_ryza_recipe_circle = {
 				913
 			}
 		}
-	},
-	[913] = {
+	}
+	pg.base.activity_ryza_recipe_circle[913] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2611,8 +3223,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 90,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[914] = {
+	}
+	pg.base.activity_ryza_recipe_circle[914] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2622,8 +3234,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 90,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1000] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1000] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -2642,8 +3254,8 @@ pg.activity_ryza_recipe_circle = {
 				1007
 			}
 		}
-	},
-	[1001] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1001] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -2658,8 +3270,8 @@ pg.activity_ryza_recipe_circle = {
 				1000
 			}
 		}
-	},
-	[1002] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1002] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -2674,8 +3286,8 @@ pg.activity_ryza_recipe_circle = {
 				1003
 			}
 		}
-	},
-	[1003] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1003] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2694,8 +3306,8 @@ pg.activity_ryza_recipe_circle = {
 				1005
 			}
 		}
-	},
-	[1004] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1004] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2705,8 +3317,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 100,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1005] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1005] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2721,8 +3333,8 @@ pg.activity_ryza_recipe_circle = {
 				1006
 			}
 		}
-	},
-	[1006] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1006] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2732,8 +3344,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 100,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1007] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1007] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2748,8 +3360,8 @@ pg.activity_ryza_recipe_circle = {
 				1008
 			}
 		}
-	},
-	[1008] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1008] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2764,8 +3376,8 @@ pg.activity_ryza_recipe_circle = {
 				1009
 			}
 		}
-	},
-	[1009] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1009] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2784,8 +3396,8 @@ pg.activity_ryza_recipe_circle = {
 				1011
 			}
 		}
-	},
-	[1010] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1010] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2795,8 +3407,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 100,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1011] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1011] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2811,8 +3423,8 @@ pg.activity_ryza_recipe_circle = {
 				1012
 			}
 		}
-	},
-	[1012] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1012] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2827,8 +3439,8 @@ pg.activity_ryza_recipe_circle = {
 				1013
 			}
 		}
-	},
-	[1013] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1013] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2838,8 +3450,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 100,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1100] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1100] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -2858,8 +3470,8 @@ pg.activity_ryza_recipe_circle = {
 				1102
 			}
 		}
-	},
-	[1101] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1101] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -2878,8 +3490,8 @@ pg.activity_ryza_recipe_circle = {
 				1110
 			}
 		}
-	},
-	[1102] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1102] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -2894,8 +3506,8 @@ pg.activity_ryza_recipe_circle = {
 				1103
 			}
 		}
-	},
-	[1103] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1103] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2910,8 +3522,8 @@ pg.activity_ryza_recipe_circle = {
 				1104
 			}
 		}
-	},
-	[1104] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1104] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2926,8 +3538,8 @@ pg.activity_ryza_recipe_circle = {
 				1105
 			}
 		}
-	},
-	[1105] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1105] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2942,8 +3554,8 @@ pg.activity_ryza_recipe_circle = {
 				1106
 			}
 		}
-	},
-	[1106] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1106] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2958,8 +3570,8 @@ pg.activity_ryza_recipe_circle = {
 				1107
 			}
 		}
-	},
-	[1107] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1107] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2969,8 +3581,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 110,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1108] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1108] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2985,8 +3597,8 @@ pg.activity_ryza_recipe_circle = {
 				1109
 			}
 		}
-	},
-	[1109] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1109] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -2996,8 +3608,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 110,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1110] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1110] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3012,8 +3624,8 @@ pg.activity_ryza_recipe_circle = {
 				1111
 			}
 		}
-	},
-	[1111] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1111] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3028,8 +3640,8 @@ pg.activity_ryza_recipe_circle = {
 				1112
 			}
 		}
-	},
-	[1112] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1112] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3039,8 +3651,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 110,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1113] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1113] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3059,8 +3671,8 @@ pg.activity_ryza_recipe_circle = {
 				1100
 			}
 		}
-	},
-	[1114] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1114] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3075,8 +3687,10 @@ pg.activity_ryza_recipe_circle = {
 				1115
 			}
 		}
-	},
-	[1115] = {
+	}
+end)()
+(function ()
+	pg.base.activity_ryza_recipe_circle[1115] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3086,8 +3700,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 110,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1200] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1200] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -3110,8 +3724,8 @@ pg.activity_ryza_recipe_circle = {
 				1203
 			}
 		}
-	},
-	[1201] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1201] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -3134,8 +3748,8 @@ pg.activity_ryza_recipe_circle = {
 				1202
 			}
 		}
-	},
-	[1202] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1202] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -3150,8 +3764,8 @@ pg.activity_ryza_recipe_circle = {
 				1216
 			}
 		}
-	},
-	[1203] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1203] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3166,8 +3780,8 @@ pg.activity_ryza_recipe_circle = {
 				1204
 			}
 		}
-	},
-	[1204] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1204] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3177,8 +3791,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 120,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1205] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1205] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3201,8 +3815,8 @@ pg.activity_ryza_recipe_circle = {
 				1208
 			}
 		}
-	},
-	[1206] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1206] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3217,8 +3831,8 @@ pg.activity_ryza_recipe_circle = {
 				1205
 			}
 		}
-	},
-	[1207] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1207] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3228,8 +3842,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 120,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1208] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1208] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3244,8 +3858,8 @@ pg.activity_ryza_recipe_circle = {
 				1209
 			}
 		}
-	},
-	[1209] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1209] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3260,8 +3874,8 @@ pg.activity_ryza_recipe_circle = {
 				1210
 			}
 		}
-	},
-	[1210] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1210] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3271,8 +3885,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 120,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1211] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1211] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3282,8 +3896,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 120,
 		prop_level = 2,
 		circle_connect = {}
-	},
-	[1212] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1212] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3293,8 +3907,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 120,
 		prop_level = 2,
 		circle_connect = {}
-	},
-	[1213] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1213] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3309,8 +3923,8 @@ pg.activity_ryza_recipe_circle = {
 				1214
 			}
 		}
-	},
-	[1214] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1214] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3325,8 +3939,8 @@ pg.activity_ryza_recipe_circle = {
 				1215
 			}
 		}
-	},
-	[1215] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1215] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3336,8 +3950,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 120,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1216] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1216] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3352,8 +3966,8 @@ pg.activity_ryza_recipe_circle = {
 				1217
 			}
 		}
-	},
-	[1217] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1217] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3368,8 +3982,8 @@ pg.activity_ryza_recipe_circle = {
 				1218
 			}
 		}
-	},
-	[1218] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1218] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3379,8 +3993,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 120,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1300] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1300] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -3399,8 +4013,8 @@ pg.activity_ryza_recipe_circle = {
 				1302
 			}
 		}
-	},
-	[1301] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1301] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -3423,8 +4037,8 @@ pg.activity_ryza_recipe_circle = {
 				1306
 			}
 		}
-	},
-	[1302] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1302] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3439,8 +4053,8 @@ pg.activity_ryza_recipe_circle = {
 				1303
 			}
 		}
-	},
-	[1303] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1303] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3455,8 +4069,8 @@ pg.activity_ryza_recipe_circle = {
 				1304
 			}
 		}
-	},
-	[1304] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1304] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3466,8 +4080,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 130,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1305] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1305] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -3477,8 +4091,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 130,
 		prop_level = 3,
 		circle_connect = {}
-	},
-	[1306] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1306] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3493,8 +4107,8 @@ pg.activity_ryza_recipe_circle = {
 				1307
 			}
 		}
-	},
-	[1307] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1307] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3504,8 +4118,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 130,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1308] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1308] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3524,8 +4138,8 @@ pg.activity_ryza_recipe_circle = {
 				1312
 			}
 		}
-	},
-	[1309] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1309] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3544,8 +4158,8 @@ pg.activity_ryza_recipe_circle = {
 				1313
 			}
 		}
-	},
-	[1310] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1310] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3560,8 +4174,8 @@ pg.activity_ryza_recipe_circle = {
 				1311
 			}
 		}
-	},
-	[1311] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1311] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3571,8 +4185,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 130,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1312] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1312] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3582,8 +4196,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 130,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1313] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1313] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3602,8 +4216,8 @@ pg.activity_ryza_recipe_circle = {
 				1315
 			}
 		}
-	},
-	[1314] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1314] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3613,8 +4227,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 130,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1315] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1315] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3624,8 +4238,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 130,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1400] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1400] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -3652,8 +4266,8 @@ pg.activity_ryza_recipe_circle = {
 				1414
 			}
 		}
-	},
-	[1401] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1401] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -3676,8 +4290,8 @@ pg.activity_ryza_recipe_circle = {
 				1407
 			}
 		}
-	},
-	[1402] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1402] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3692,8 +4306,8 @@ pg.activity_ryza_recipe_circle = {
 				1403
 			}
 		}
-	},
-	[1403] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1403] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3708,8 +4322,8 @@ pg.activity_ryza_recipe_circle = {
 				1404
 			}
 		}
-	},
-	[1404] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1404] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3724,8 +4338,8 @@ pg.activity_ryza_recipe_circle = {
 				1405
 			}
 		}
-	},
-	[1405] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1405] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3735,8 +4349,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 140,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1406] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1406] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3746,8 +4360,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 140,
 		prop_level = 2,
 		circle_connect = {}
-	},
-	[1407] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1407] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3762,8 +4376,8 @@ pg.activity_ryza_recipe_circle = {
 				1408
 			}
 		}
-	},
-	[1408] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1408] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3778,8 +4392,8 @@ pg.activity_ryza_recipe_circle = {
 				1409
 			}
 		}
-	},
-	[1409] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1409] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3794,8 +4408,8 @@ pg.activity_ryza_recipe_circle = {
 				1410
 			}
 		}
-	},
-	[1410] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1410] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3805,8 +4419,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 140,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1411] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1411] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3821,8 +4435,8 @@ pg.activity_ryza_recipe_circle = {
 				1412
 			}
 		}
-	},
-	[1412] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1412] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3837,8 +4451,8 @@ pg.activity_ryza_recipe_circle = {
 				1413
 			}
 		}
-	},
-	[1413] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1413] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3848,8 +4462,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 140,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1414] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1414] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3864,8 +4478,8 @@ pg.activity_ryza_recipe_circle = {
 				1415
 			}
 		}
-	},
-	[1415] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1415] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3880,8 +4494,8 @@ pg.activity_ryza_recipe_circle = {
 				1416
 			}
 		}
-	},
-	[1416] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1416] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3891,8 +4505,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 140,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1417] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1417] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3907,8 +4521,8 @@ pg.activity_ryza_recipe_circle = {
 				1418
 			}
 		}
-	},
-	[1418] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1418] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3923,8 +4537,8 @@ pg.activity_ryza_recipe_circle = {
 				1419
 			}
 		}
-	},
-	[1419] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1419] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3943,8 +4557,8 @@ pg.activity_ryza_recipe_circle = {
 				1422
 			}
 		}
-	},
-	[1420] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1420] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3959,8 +4573,8 @@ pg.activity_ryza_recipe_circle = {
 				1421
 			}
 		}
-	},
-	[1421] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1421] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3970,8 +4584,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 140,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1422] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1422] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3986,8 +4600,8 @@ pg.activity_ryza_recipe_circle = {
 				1423
 			}
 		}
-	},
-	[1423] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1423] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -3997,8 +4611,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 140,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1500] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1500] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -4025,8 +4639,8 @@ pg.activity_ryza_recipe_circle = {
 				1504
 			}
 		}
-	},
-	[1501] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1501] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -4041,8 +4655,8 @@ pg.activity_ryza_recipe_circle = {
 				1502
 			}
 		}
-	},
-	[1502] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1502] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4057,8 +4671,8 @@ pg.activity_ryza_recipe_circle = {
 				1503
 			}
 		}
-	},
-	[1503] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1503] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4068,8 +4682,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 150,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1504] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1504] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4088,8 +4702,8 @@ pg.activity_ryza_recipe_circle = {
 				1505
 			}
 		}
-	},
-	[1505] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1505] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4104,8 +4718,8 @@ pg.activity_ryza_recipe_circle = {
 				1506
 			}
 		}
-	},
-	[1506] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1506] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4120,8 +4734,8 @@ pg.activity_ryza_recipe_circle = {
 				1507
 			}
 		}
-	},
-	[1507] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1507] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4131,8 +4745,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 150,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1508] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1508] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4147,8 +4761,8 @@ pg.activity_ryza_recipe_circle = {
 				1509
 			}
 		}
-	},
-	[1509] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1509] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4163,8 +4777,8 @@ pg.activity_ryza_recipe_circle = {
 				1510
 			}
 		}
-	},
-	[1510] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1510] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4174,8 +4788,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 150,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1511] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1511] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4190,8 +4804,8 @@ pg.activity_ryza_recipe_circle = {
 				1512
 			}
 		}
-	},
-	[1512] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1512] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4206,8 +4820,8 @@ pg.activity_ryza_recipe_circle = {
 				1513
 			}
 		}
-	},
-	[1513] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1513] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4222,8 +4836,8 @@ pg.activity_ryza_recipe_circle = {
 				1514
 			}
 		}
-	},
-	[1514] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1514] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4238,8 +4852,8 @@ pg.activity_ryza_recipe_circle = {
 				1515
 			}
 		}
-	},
-	[1515] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1515] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4254,8 +4868,8 @@ pg.activity_ryza_recipe_circle = {
 				1516
 			}
 		}
-	},
-	[1516] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1516] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4265,8 +4879,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 150,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1517] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1517] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4281,8 +4895,8 @@ pg.activity_ryza_recipe_circle = {
 				1518
 			}
 		}
-	},
-	[1518] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1518] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4297,8 +4911,8 @@ pg.activity_ryza_recipe_circle = {
 				1519
 			}
 		}
-	},
-	[1519] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1519] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4313,8 +4927,8 @@ pg.activity_ryza_recipe_circle = {
 				1520
 			}
 		}
-	},
-	[1520] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1520] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4329,8 +4943,8 @@ pg.activity_ryza_recipe_circle = {
 				1521
 			}
 		}
-	},
-	[1521] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1521] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4340,8 +4954,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 150,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1600] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1600] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -4368,8 +4982,8 @@ pg.activity_ryza_recipe_circle = {
 				1601
 			}
 		}
-	},
-	[1601] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1601] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4384,8 +4998,8 @@ pg.activity_ryza_recipe_circle = {
 				1605
 			}
 		}
-	},
-	[1602] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1602] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -4400,8 +5014,8 @@ pg.activity_ryza_recipe_circle = {
 				1603
 			}
 		}
-	},
-	[1603] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1603] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4411,8 +5025,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 160,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1604] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1604] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4422,8 +5036,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 160,
 		prop_level = 3,
 		circle_connect = {}
-	},
-	[1605] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1605] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4442,8 +5056,8 @@ pg.activity_ryza_recipe_circle = {
 				1611
 			}
 		}
-	},
-	[1606] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1606] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4462,8 +5076,8 @@ pg.activity_ryza_recipe_circle = {
 				1608
 			}
 		}
-	},
-	[1607] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1607] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4473,8 +5087,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 160,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1608] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1608] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4489,8 +5103,8 @@ pg.activity_ryza_recipe_circle = {
 				1609
 			}
 		}
-	},
-	[1609] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1609] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4505,8 +5119,8 @@ pg.activity_ryza_recipe_circle = {
 				1610
 			}
 		}
-	},
-	[1610] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1610] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4516,8 +5130,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 160,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1611] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1611] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4532,8 +5146,8 @@ pg.activity_ryza_recipe_circle = {
 				1612
 			}
 		}
-	},
-	[1612] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1612] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4543,8 +5157,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 160,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1613] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1613] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4559,8 +5173,8 @@ pg.activity_ryza_recipe_circle = {
 				1614
 			}
 		}
-	},
-	[1614] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1614] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4579,8 +5193,8 @@ pg.activity_ryza_recipe_circle = {
 				1615
 			}
 		}
-	},
-	[1615] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1615] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4590,8 +5204,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 160,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1616] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1616] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4606,8 +5220,8 @@ pg.activity_ryza_recipe_circle = {
 				1617
 			}
 		}
-	},
-	[1617] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1617] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4622,8 +5236,10 @@ pg.activity_ryza_recipe_circle = {
 				1618
 			}
 		}
-	},
-	[1618] = {
+	}
+end)()
+(function ()
+	pg.base.activity_ryza_recipe_circle[1618] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4638,8 +5254,8 @@ pg.activity_ryza_recipe_circle = {
 				1619
 			}
 		}
-	},
-	[1619] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1619] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4649,8 +5265,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 160,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1700] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1700] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -4673,8 +5289,8 @@ pg.activity_ryza_recipe_circle = {
 				1702
 			}
 		}
-	},
-	[1701] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1701] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -4684,8 +5300,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 170,
 		prop_level = 3,
 		circle_connect = {}
-	},
-	[1702] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1702] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4700,8 +5316,8 @@ pg.activity_ryza_recipe_circle = {
 				1703
 			}
 		}
-	},
-	[1703] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1703] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4720,8 +5336,8 @@ pg.activity_ryza_recipe_circle = {
 				1705
 			}
 		}
-	},
-	[1704] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1704] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4731,8 +5347,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 170,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1705] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1705] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4742,8 +5358,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 170,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1706] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1706] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4758,8 +5374,8 @@ pg.activity_ryza_recipe_circle = {
 				1707
 			}
 		}
-	},
-	[1707] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1707] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4778,8 +5394,8 @@ pg.activity_ryza_recipe_circle = {
 				1709
 			}
 		}
-	},
-	[1708] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1708] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4789,8 +5405,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 170,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1709] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1709] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4800,8 +5416,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 170,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1800] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1800] = {
 		star_list = "",
 		type = 3,
 		prop_type = 0,
@@ -4824,8 +5440,8 @@ pg.activity_ryza_recipe_circle = {
 				1806
 			}
 		}
-	},
-	[1801] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1801] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4840,8 +5456,8 @@ pg.activity_ryza_recipe_circle = {
 				1809
 			}
 		}
-	},
-	[1802] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1802] = {
 		star_list = "",
 		type = 3,
 		prop_type = 0,
@@ -4856,8 +5472,8 @@ pg.activity_ryza_recipe_circle = {
 				1803
 			}
 		}
-	},
-	[1803] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1803] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4872,8 +5488,8 @@ pg.activity_ryza_recipe_circle = {
 				1804
 			}
 		}
-	},
-	[1804] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1804] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4888,8 +5504,8 @@ pg.activity_ryza_recipe_circle = {
 				1805
 			}
 		}
-	},
-	[1805] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1805] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4899,8 +5515,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 180,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1806] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1806] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4915,8 +5531,8 @@ pg.activity_ryza_recipe_circle = {
 				1807
 			}
 		}
-	},
-	[1807] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1807] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4931,8 +5547,8 @@ pg.activity_ryza_recipe_circle = {
 				1808
 			}
 		}
-	},
-	[1808] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1808] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4942,8 +5558,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 180,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1809] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1809] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4962,8 +5578,8 @@ pg.activity_ryza_recipe_circle = {
 				1813
 			}
 		}
-	},
-	[1810] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1810] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4978,8 +5594,8 @@ pg.activity_ryza_recipe_circle = {
 				1811
 			}
 		}
-	},
-	[1811] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1811] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -4994,8 +5610,8 @@ pg.activity_ryza_recipe_circle = {
 				1812
 			}
 		}
-	},
-	[1812] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1812] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -5005,8 +5621,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 180,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1813] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1813] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -5021,8 +5637,8 @@ pg.activity_ryza_recipe_circle = {
 				1814
 			}
 		}
-	},
-	[1814] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1814] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -5037,8 +5653,8 @@ pg.activity_ryza_recipe_circle = {
 				1815
 			}
 		}
-	},
-	[1815] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1815] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -5048,8 +5664,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 180,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[1900] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1900] = {
 		star_list = "",
 		type = 3,
 		prop_type = 0,
@@ -5076,8 +5692,8 @@ pg.activity_ryza_recipe_circle = {
 				1902
 			}
 		}
-	},
-	[1901] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1901] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -5087,8 +5703,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 190,
 		prop_level = 2,
 		circle_connect = {}
-	},
-	[1902] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1902] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -5098,8 +5714,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 190,
 		prop_level = 2,
 		circle_connect = {}
-	},
-	[1903] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1903] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -5109,8 +5725,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 190,
 		prop_level = 2,
 		circle_connect = {}
-	},
-	[1904] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1904] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -5120,8 +5736,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 190,
 		prop_level = 2,
 		circle_connect = {}
-	},
-	[1905] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1905] = {
 		star_list = "",
 		type = 0,
 		prop_type = 0,
@@ -5136,8 +5752,8 @@ pg.activity_ryza_recipe_circle = {
 				1906
 			}
 		}
-	},
-	[1906] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1906] = {
 		star_list = "",
 		type = 0,
 		prop_type = 0,
@@ -5147,8 +5763,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 190,
 		prop_level = 0,
 		circle_connect = {}
-	},
-	[1907] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1907] = {
 		star_list = "",
 		type = 0,
 		prop_type = 0,
@@ -5163,8 +5779,8 @@ pg.activity_ryza_recipe_circle = {
 				1908
 			}
 		}
-	},
-	[1908] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1908] = {
 		star_list = "",
 		type = 0,
 		prop_type = 0,
@@ -5174,8 +5790,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 190,
 		prop_level = 0,
 		circle_connect = {}
-	},
-	[1909] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1909] = {
 		star_list = "",
 		type = 0,
 		prop_type = 0,
@@ -5190,8 +5806,8 @@ pg.activity_ryza_recipe_circle = {
 				1910
 			}
 		}
-	},
-	[1910] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1910] = {
 		star_list = "",
 		type = 0,
 		prop_type = 0,
@@ -5201,8 +5817,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 190,
 		prop_level = 0,
 		circle_connect = {}
-	},
-	[1911] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1911] = {
 		star_list = "",
 		type = 0,
 		prop_type = 0,
@@ -5217,8 +5833,8 @@ pg.activity_ryza_recipe_circle = {
 				1912
 			}
 		}
-	},
-	[1912] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1912] = {
 		star_list = "",
 		type = 0,
 		prop_type = 0,
@@ -5228,8 +5844,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 190,
 		prop_level = 0,
 		circle_connect = {}
-	},
-	[1913] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1913] = {
 		star_list = "",
 		type = 0,
 		prop_type = 0,
@@ -5244,8 +5860,8 @@ pg.activity_ryza_recipe_circle = {
 				1914
 			}
 		}
-	},
-	[1914] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1914] = {
 		star_list = "",
 		type = 0,
 		prop_type = 0,
@@ -5260,8 +5876,8 @@ pg.activity_ryza_recipe_circle = {
 				1915
 			}
 		}
-	},
-	[1915] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1915] = {
 		star_list = "",
 		type = 0,
 		prop_type = 0,
@@ -5276,8 +5892,8 @@ pg.activity_ryza_recipe_circle = {
 				1916
 			}
 		}
-	},
-	[1916] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1916] = {
 		star_list = "",
 		type = 0,
 		prop_type = 0,
@@ -5292,8 +5908,8 @@ pg.activity_ryza_recipe_circle = {
 				1917
 			}
 		}
-	},
-	[1917] = {
+	}
+	pg.base.activity_ryza_recipe_circle[1917] = {
 		star_list = "",
 		type = 0,
 		prop_type = 0,
@@ -5303,8 +5919,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 190,
 		prop_level = 0,
 		circle_connect = {}
-	},
-	[2000] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2000] = {
 		star_list = "",
 		type = 3,
 		prop_type = 0,
@@ -5327,8 +5943,8 @@ pg.activity_ryza_recipe_circle = {
 				2002
 			}
 		}
-	},
-	[2001] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2001] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -5347,8 +5963,8 @@ pg.activity_ryza_recipe_circle = {
 				2009
 			}
 		}
-	},
-	[2002] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2002] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -5363,8 +5979,8 @@ pg.activity_ryza_recipe_circle = {
 				2011
 			}
 		}
-	},
-	[2003] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2003] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -5379,8 +5995,8 @@ pg.activity_ryza_recipe_circle = {
 				2013
 			}
 		}
-	},
-	[2004] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2004] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -5395,8 +6011,8 @@ pg.activity_ryza_recipe_circle = {
 				2005
 			}
 		}
-	},
-	[2005] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2005] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -5411,8 +6027,8 @@ pg.activity_ryza_recipe_circle = {
 				2006
 			}
 		}
-	},
-	[2006] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2006] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -5427,8 +6043,8 @@ pg.activity_ryza_recipe_circle = {
 				2007
 			}
 		}
-	},
-	[2007] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2007] = {
 		star_list = "",
 		type = 4,
 		prop_type = 0,
@@ -5443,8 +6059,8 @@ pg.activity_ryza_recipe_circle = {
 				2008
 			}
 		}
-	},
-	[2008] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2008] = {
 		star_list = "",
 		type = 4,
 		prop_type = 0,
@@ -5454,8 +6070,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 200,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[2009] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2009] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -5470,8 +6086,8 @@ pg.activity_ryza_recipe_circle = {
 				2010
 			}
 		}
-	},
-	[2010] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2010] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -5481,8 +6097,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 200,
 		prop_level = 2,
 		circle_connect = {}
-	},
-	[2011] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2011] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -5497,8 +6113,8 @@ pg.activity_ryza_recipe_circle = {
 				2012
 			}
 		}
-	},
-	[2012] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2012] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -5508,8 +6124,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 200,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[2013] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2013] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -5528,8 +6144,8 @@ pg.activity_ryza_recipe_circle = {
 				2016
 			}
 		}
-	},
-	[2014] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2014] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -5544,8 +6160,8 @@ pg.activity_ryza_recipe_circle = {
 				2015
 			}
 		}
-	},
-	[2015] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2015] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -5555,8 +6171,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 200,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[2016] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2016] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -5571,8 +6187,8 @@ pg.activity_ryza_recipe_circle = {
 				2017
 			}
 		}
-	},
-	[2017] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2017] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -5582,8 +6198,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 200,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[2100] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2100] = {
 		star_list = "",
 		type = 4,
 		prop_type = 0,
@@ -5602,8 +6218,8 @@ pg.activity_ryza_recipe_circle = {
 				2102
 			}
 		}
-	},
-	[2101] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2101] = {
 		star_list = "",
 		type = 4,
 		prop_type = 0,
@@ -5613,8 +6229,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 210,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[2102] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2102] = {
 		star_list = "",
 		type = 4,
 		prop_type = 0,
@@ -5624,8 +6240,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 210,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[2200] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2200] = {
 		star_list = "",
 		type = 3,
 		prop_type = 0,
@@ -5648,8 +6264,8 @@ pg.activity_ryza_recipe_circle = {
 				2202
 			}
 		}
-	},
-	[2201] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2201] = {
 		star_list = "",
 		type = 4,
 		prop_type = 0,
@@ -5659,8 +6275,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 220,
 		prop_level = 2,
 		circle_connect = {}
-	},
-	[2202] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2202] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -5670,8 +6286,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 220,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[2203] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2203] = {
 		star_list = "",
 		type = 4,
 		prop_type = 0,
@@ -5681,8 +6297,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 220,
 		prop_level = 2,
 		circle_connect = {}
-	},
-	[2300] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2300] = {
 		star_list = "",
 		type = 3,
 		prop_type = 0,
@@ -5705,8 +6321,8 @@ pg.activity_ryza_recipe_circle = {
 				2302
 			}
 		}
-	},
-	[2301] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2301] = {
 		star_list = "",
 		type = 4,
 		prop_type = 0,
@@ -5716,8 +6332,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 230,
 		prop_level = 2,
 		circle_connect = {}
-	},
-	[2302] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2302] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -5727,8 +6343,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 230,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[2303] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2303] = {
 		star_list = "",
 		type = 4,
 		prop_type = 0,
@@ -5738,8 +6354,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 230,
 		prop_level = 2,
 		circle_connect = {}
-	},
-	[2400] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2400] = {
 		star_list = "",
 		type = 3,
 		prop_type = 0,
@@ -5762,8 +6378,8 @@ pg.activity_ryza_recipe_circle = {
 				2402
 			}
 		}
-	},
-	[2401] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2401] = {
 		star_list = "",
 		type = 4,
 		prop_type = 0,
@@ -5773,8 +6389,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 240,
 		prop_level = 2,
 		circle_connect = {}
-	},
-	[2402] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2402] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -5784,8 +6400,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 240,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[2403] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2403] = {
 		star_list = "",
 		type = 4,
 		prop_type = 0,
@@ -5795,8 +6411,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 240,
 		prop_level = 2,
 		circle_connect = {}
-	},
-	[2500] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2500] = {
 		star_list = "",
 		type = 3,
 		prop_type = 0,
@@ -5819,8 +6435,8 @@ pg.activity_ryza_recipe_circle = {
 				2502
 			}
 		}
-	},
-	[2501] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2501] = {
 		star_list = "",
 		type = 4,
 		prop_type = 0,
@@ -5830,8 +6446,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 250,
 		prop_level = 2,
 		circle_connect = {}
-	},
-	[2502] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2502] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -5841,8 +6457,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 250,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[2503] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2503] = {
 		star_list = "",
 		type = 4,
 		prop_type = 0,
@@ -5852,8 +6468,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 250,
 		prop_level = 2,
 		circle_connect = {}
-	},
-	[2600] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2600] = {
 		star_list = "",
 		type = 3,
 		prop_type = 0,
@@ -5880,8 +6496,8 @@ pg.activity_ryza_recipe_circle = {
 				2604
 			}
 		}
-	},
-	[2601] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2601] = {
 		star_list = "",
 		type = 4,
 		prop_type = 0,
@@ -5891,8 +6507,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 260,
 		prop_level = 3,
 		circle_connect = {}
-	},
-	[2602] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2602] = {
 		star_list = "",
 		type = 4,
 		prop_type = 0,
@@ -5902,8 +6518,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 260,
 		prop_level = 2,
 		circle_connect = {}
-	},
-	[2603] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2603] = {
 		star_list = "",
 		type = 4,
 		prop_type = 0,
@@ -5913,8 +6529,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 260,
 		prop_level = 3,
 		circle_connect = {}
-	},
-	[2604] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2604] = {
 		star_list = "",
 		type = 4,
 		prop_type = 0,
@@ -5924,8 +6540,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 260,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[2700] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2700] = {
 		star_list = "",
 		type = 3,
 		prop_type = 0,
@@ -5944,8 +6560,8 @@ pg.activity_ryza_recipe_circle = {
 				2705
 			}
 		}
-	},
-	[2701] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2701] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -5960,8 +6576,8 @@ pg.activity_ryza_recipe_circle = {
 				2702
 			}
 		}
-	},
-	[2702] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2702] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -5976,8 +6592,8 @@ pg.activity_ryza_recipe_circle = {
 				2703
 			}
 		}
-	},
-	[2703] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2703] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -5992,8 +6608,8 @@ pg.activity_ryza_recipe_circle = {
 				2704
 			}
 		}
-	},
-	[2704] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2704] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -6003,8 +6619,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 270,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[2705] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2705] = {
 		star_list = "",
 		type = 3,
 		prop_type = 0,
@@ -6019,8 +6635,8 @@ pg.activity_ryza_recipe_circle = {
 				2706
 			}
 		}
-	},
-	[2706] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2706] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -6035,8 +6651,8 @@ pg.activity_ryza_recipe_circle = {
 				2707
 			}
 		}
-	},
-	[2707] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2707] = {
 		star_list = "",
 		type = 4,
 		prop_type = 0,
@@ -6051,8 +6667,8 @@ pg.activity_ryza_recipe_circle = {
 				2708
 			}
 		}
-	},
-	[2708] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2708] = {
 		star_list = "",
 		type = 4,
 		prop_type = 0,
@@ -6062,8 +6678,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 270,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[2800] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2800] = {
 		star_list = "",
 		type = 3,
 		prop_type = 0,
@@ -6082,8 +6698,8 @@ pg.activity_ryza_recipe_circle = {
 				2805
 			}
 		}
-	},
-	[2801] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2801] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -6098,8 +6714,8 @@ pg.activity_ryza_recipe_circle = {
 				2802
 			}
 		}
-	},
-	[2802] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2802] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -6114,8 +6730,10 @@ pg.activity_ryza_recipe_circle = {
 				2803
 			}
 		}
-	},
-	[2803] = {
+	}
+end)()
+(function ()
+	pg.base.activity_ryza_recipe_circle[2803] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -6130,8 +6748,8 @@ pg.activity_ryza_recipe_circle = {
 				2804
 			}
 		}
-	},
-	[2804] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2804] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -6141,8 +6759,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 280,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[2805] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2805] = {
 		star_list = "",
 		type = 3,
 		prop_type = 0,
@@ -6157,8 +6775,8 @@ pg.activity_ryza_recipe_circle = {
 				2806
 			}
 		}
-	},
-	[2806] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2806] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -6173,8 +6791,8 @@ pg.activity_ryza_recipe_circle = {
 				2807
 			}
 		}
-	},
-	[2807] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2807] = {
 		star_list = "",
 		type = 4,
 		prop_type = 0,
@@ -6189,8 +6807,8 @@ pg.activity_ryza_recipe_circle = {
 				2808
 			}
 		}
-	},
-	[2808] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2808] = {
 		star_list = "",
 		type = 4,
 		prop_type = 0,
@@ -6200,8 +6818,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 280,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[2900] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2900] = {
 		star_list = "",
 		type = 3,
 		prop_type = 0,
@@ -6220,8 +6838,8 @@ pg.activity_ryza_recipe_circle = {
 				2905
 			}
 		}
-	},
-	[2901] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2901] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -6236,8 +6854,8 @@ pg.activity_ryza_recipe_circle = {
 				2902
 			}
 		}
-	},
-	[2902] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2902] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -6252,8 +6870,8 @@ pg.activity_ryza_recipe_circle = {
 				2903
 			}
 		}
-	},
-	[2903] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2903] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -6268,8 +6886,8 @@ pg.activity_ryza_recipe_circle = {
 				2904
 			}
 		}
-	},
-	[2904] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2904] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -6279,8 +6897,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 290,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[2905] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2905] = {
 		star_list = "",
 		type = 3,
 		prop_type = 0,
@@ -6295,8 +6913,8 @@ pg.activity_ryza_recipe_circle = {
 				2906
 			}
 		}
-	},
-	[2906] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2906] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -6311,8 +6929,8 @@ pg.activity_ryza_recipe_circle = {
 				2907
 			}
 		}
-	},
-	[2907] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2907] = {
 		star_list = "",
 		type = 4,
 		prop_type = 0,
@@ -6327,8 +6945,8 @@ pg.activity_ryza_recipe_circle = {
 				2908
 			}
 		}
-	},
-	[2908] = {
+	}
+	pg.base.activity_ryza_recipe_circle[2908] = {
 		star_list = "",
 		type = 4,
 		prop_type = 0,
@@ -6338,8 +6956,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 290,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[3000] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3000] = {
 		star_list = "",
 		type = 3,
 		prop_type = 0,
@@ -6358,8 +6976,8 @@ pg.activity_ryza_recipe_circle = {
 				3005
 			}
 		}
-	},
-	[3001] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3001] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -6374,8 +6992,8 @@ pg.activity_ryza_recipe_circle = {
 				3002
 			}
 		}
-	},
-	[3002] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3002] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -6390,8 +7008,8 @@ pg.activity_ryza_recipe_circle = {
 				3003
 			}
 		}
-	},
-	[3003] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3003] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -6406,8 +7024,8 @@ pg.activity_ryza_recipe_circle = {
 				3004
 			}
 		}
-	},
-	[3004] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3004] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -6417,8 +7035,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 300,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[3005] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3005] = {
 		star_list = "",
 		type = 3,
 		prop_type = 0,
@@ -6433,8 +7051,8 @@ pg.activity_ryza_recipe_circle = {
 				3006
 			}
 		}
-	},
-	[3006] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3006] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -6449,8 +7067,8 @@ pg.activity_ryza_recipe_circle = {
 				3007
 			}
 		}
-	},
-	[3007] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3007] = {
 		star_list = "",
 		type = 4,
 		prop_type = 0,
@@ -6465,8 +7083,8 @@ pg.activity_ryza_recipe_circle = {
 				3008
 			}
 		}
-	},
-	[3008] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3008] = {
 		star_list = "",
 		type = 4,
 		prop_type = 0,
@@ -6476,8 +7094,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 300,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[3100] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3100] = {
 		star_list = "",
 		type = 3,
 		prop_type = 0,
@@ -6496,8 +7114,8 @@ pg.activity_ryza_recipe_circle = {
 				3105
 			}
 		}
-	},
-	[3101] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3101] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -6512,8 +7130,8 @@ pg.activity_ryza_recipe_circle = {
 				3102
 			}
 		}
-	},
-	[3102] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3102] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -6528,8 +7146,8 @@ pg.activity_ryza_recipe_circle = {
 				3103
 			}
 		}
-	},
-	[3103] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3103] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -6544,8 +7162,8 @@ pg.activity_ryza_recipe_circle = {
 				3104
 			}
 		}
-	},
-	[3104] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3104] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -6555,8 +7173,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 310,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[3105] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3105] = {
 		star_list = "",
 		type = 3,
 		prop_type = 0,
@@ -6571,8 +7189,8 @@ pg.activity_ryza_recipe_circle = {
 				3106
 			}
 		}
-	},
-	[3106] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3106] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -6587,8 +7205,8 @@ pg.activity_ryza_recipe_circle = {
 				3107
 			}
 		}
-	},
-	[3107] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3107] = {
 		star_list = "",
 		type = 4,
 		prop_type = 0,
@@ -6603,8 +7221,8 @@ pg.activity_ryza_recipe_circle = {
 				3108
 			}
 		}
-	},
-	[3108] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3108] = {
 		star_list = "",
 		type = 4,
 		prop_type = 0,
@@ -6614,8 +7232,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 310,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[3200] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3200] = {
 		star_list = "",
 		type = 3,
 		prop_type = 0,
@@ -6634,8 +7252,8 @@ pg.activity_ryza_recipe_circle = {
 				3205
 			}
 		}
-	},
-	[3201] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3201] = {
 		star_list = "",
 		type = 1,
 		prop_type = 0,
@@ -6650,8 +7268,8 @@ pg.activity_ryza_recipe_circle = {
 				3202
 			}
 		}
-	},
-	[3202] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3202] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -6666,8 +7284,8 @@ pg.activity_ryza_recipe_circle = {
 				3203
 			}
 		}
-	},
-	[3203] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3203] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -6682,8 +7300,8 @@ pg.activity_ryza_recipe_circle = {
 				3204
 			}
 		}
-	},
-	[3204] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3204] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -6693,8 +7311,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 320,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[3205] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3205] = {
 		star_list = "",
 		type = 3,
 		prop_type = 0,
@@ -6709,8 +7327,8 @@ pg.activity_ryza_recipe_circle = {
 				3206
 			}
 		}
-	},
-	[3206] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3206] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -6725,8 +7343,8 @@ pg.activity_ryza_recipe_circle = {
 				3207
 			}
 		}
-	},
-	[3207] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3207] = {
 		star_list = "",
 		type = 4,
 		prop_type = 0,
@@ -6741,8 +7359,8 @@ pg.activity_ryza_recipe_circle = {
 				3208
 			}
 		}
-	},
-	[3208] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3208] = {
 		star_list = "",
 		type = 4,
 		prop_type = 0,
@@ -6752,8 +7370,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 320,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[3300] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3300] = {
 		star_list = "",
 		type = 3,
 		prop_type = 0,
@@ -6772,8 +7390,8 @@ pg.activity_ryza_recipe_circle = {
 				3305
 			}
 		}
-	},
-	[3301] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3301] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -6788,8 +7406,8 @@ pg.activity_ryza_recipe_circle = {
 				3302
 			}
 		}
-	},
-	[3302] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3302] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -6804,8 +7422,8 @@ pg.activity_ryza_recipe_circle = {
 				3303
 			}
 		}
-	},
-	[3303] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3303] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -6820,8 +7438,8 @@ pg.activity_ryza_recipe_circle = {
 				3304
 			}
 		}
-	},
-	[3304] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3304] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -6831,8 +7449,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 330,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[3305] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3305] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -6847,8 +7465,8 @@ pg.activity_ryza_recipe_circle = {
 				3306
 			}
 		}
-	},
-	[3306] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3306] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -6863,8 +7481,8 @@ pg.activity_ryza_recipe_circle = {
 				3307
 			}
 		}
-	},
-	[3307] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3307] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -6879,8 +7497,8 @@ pg.activity_ryza_recipe_circle = {
 				3308
 			}
 		}
-	},
-	[3308] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3308] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -6890,8 +7508,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 330,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[3400] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3400] = {
 		star_list = "",
 		type = 3,
 		prop_type = 0,
@@ -6910,8 +7528,8 @@ pg.activity_ryza_recipe_circle = {
 				3405
 			}
 		}
-	},
-	[3401] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3401] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -6926,8 +7544,8 @@ pg.activity_ryza_recipe_circle = {
 				3402
 			}
 		}
-	},
-	[3402] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3402] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -6942,8 +7560,8 @@ pg.activity_ryza_recipe_circle = {
 				3403
 			}
 		}
-	},
-	[3403] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3403] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -6958,8 +7576,8 @@ pg.activity_ryza_recipe_circle = {
 				3404
 			}
 		}
-	},
-	[3404] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3404] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -6969,8 +7587,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 340,
 		prop_level = 2,
 		circle_connect = {}
-	},
-	[3405] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3405] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -6985,8 +7603,8 @@ pg.activity_ryza_recipe_circle = {
 				3406
 			}
 		}
-	},
-	[3406] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3406] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -7001,8 +7619,8 @@ pg.activity_ryza_recipe_circle = {
 				3407
 			}
 		}
-	},
-	[3407] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3407] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -7017,8 +7635,8 @@ pg.activity_ryza_recipe_circle = {
 				3408
 			}
 		}
-	},
-	[3408] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3408] = {
 		star_list = "",
 		type = 2,
 		prop_type = 0,
@@ -7028,8 +7646,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 340,
 		prop_level = 2,
 		circle_connect = {}
-	},
-	[3501] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3501] = {
 		star_list = "",
 		type = 4,
 		prop_type = 0,
@@ -7048,8 +7666,8 @@ pg.activity_ryza_recipe_circle = {
 				3503
 			}
 		}
-	},
-	[3502] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3502] = {
 		star_list = "",
 		type = 4,
 		prop_type = 0,
@@ -7059,8 +7677,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 350,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[3503] = {
+	}
+	pg.base.activity_ryza_recipe_circle[3503] = {
 		star_list = "",
 		type = 4,
 		prop_type = 0,
@@ -7070,8 +7688,8 @@ pg.activity_ryza_recipe_circle = {
 		recipe_id = 350,
 		prop_level = 1,
 		circle_connect = {}
-	},
-	[10001] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10001] = {
 		star_list = "",
 		type = 8,
 		prop_type = 0,
@@ -7085,8 +7703,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			0
 		}
-	},
-	[10002] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10002] = {
 		star_list = "",
 		type = 8,
 		prop_type = 4,
@@ -7100,8 +7718,8 @@ pg.activity_ryza_recipe_circle = {
 			127,
 			132
 		}
-	},
-	[10003] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10003] = {
 		star_list = "",
 		type = 8,
 		prop_type = 4,
@@ -7115,8 +7733,8 @@ pg.activity_ryza_recipe_circle = {
 			-245,
 			12
 		}
-	},
-	[10004] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10004] = {
 		star_list = "",
 		type = 6,
 		prop_type = 0,
@@ -7130,8 +7748,8 @@ pg.activity_ryza_recipe_circle = {
 			-6,
 			-235
 		}
-	},
-	[10005] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10005] = {
 		star_list = "",
 		type = 6,
 		prop_type = 0,
@@ -7145,8 +7763,8 @@ pg.activity_ryza_recipe_circle = {
 			-191,
 			201
 		}
-	},
-	[10006] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10006] = {
 		star_list = "",
 		type = 6,
 		prop_type = 0,
@@ -7160,8 +7778,8 @@ pg.activity_ryza_recipe_circle = {
 			-6,
 			366
 		}
-	},
-	[10007] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10007] = {
 		star_list = "",
 		type = 6,
 		prop_type = 0,
@@ -7175,8 +7793,8 @@ pg.activity_ryza_recipe_circle = {
 			199,
 			-171
 		}
-	},
-	[10011] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10011] = {
 		star_list = "",
 		type = 8,
 		prop_type = 4,
@@ -7190,8 +7808,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			0
 		}
-	},
-	[10012] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10012] = {
 		star_list = "",
 		type = 8,
 		prop_type = 4,
@@ -7205,8 +7823,8 @@ pg.activity_ryza_recipe_circle = {
 			120,
 			-118.9
 		}
-	},
-	[10013] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10013] = {
 		star_list = "",
 		type = 8,
 		prop_type = 4,
@@ -7220,8 +7838,8 @@ pg.activity_ryza_recipe_circle = {
 			-136.7,
 			129.5
 		}
-	},
-	[10014] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10014] = {
 		star_list = "",
 		type = 8,
 		prop_type = 3,
@@ -7235,8 +7853,8 @@ pg.activity_ryza_recipe_circle = {
 			127.1,
 			129.5
 		}
-	},
-	[10015] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10015] = {
 		star_list = "",
 		type = 6,
 		prop_type = 0,
@@ -7250,8 +7868,8 @@ pg.activity_ryza_recipe_circle = {
 			-200,
 			-173
 		}
-	},
-	[10016] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10016] = {
 		star_list = "",
 		type = 6,
 		prop_type = 0,
@@ -7265,8 +7883,8 @@ pg.activity_ryza_recipe_circle = {
 			-6,
 			368
 		}
-	},
-	[10017] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10017] = {
 		star_list = "",
 		type = 5,
 		prop_type = 0,
@@ -7280,8 +7898,8 @@ pg.activity_ryza_recipe_circle = {
 			362,
 			11
 		}
-	},
-	[10021] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10021] = {
 		star_list = "",
 		type = 8,
 		prop_type = 4,
@@ -7295,8 +7913,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			0
 		}
-	},
-	[10022] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10022] = {
 		star_list = "",
 		type = 8,
 		prop_type = 4,
@@ -7310,8 +7928,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			235
 		}
-	},
-	[10023] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10023] = {
 		star_list = "",
 		type = 8,
 		prop_type = 3,
@@ -7325,8 +7943,8 @@ pg.activity_ryza_recipe_circle = {
 			-120,
 			-118
 		}
-	},
-	[10024] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10024] = {
 		star_list = "",
 		type = 8,
 		prop_type = 4,
@@ -7340,8 +7958,8 @@ pg.activity_ryza_recipe_circle = {
 			120,
 			-118
 		}
-	},
-	[10025] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10025] = {
 		star_list = "",
 		type = 6,
 		prop_type = 0,
@@ -7355,8 +7973,8 @@ pg.activity_ryza_recipe_circle = {
 			-373,
 			18
 		}
-	},
-	[10026] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10026] = {
 		star_list = "",
 		type = 6,
 		prop_type = 0,
@@ -7370,8 +7988,8 @@ pg.activity_ryza_recipe_circle = {
 			215,
 			175
 		}
-	},
-	[10027] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10027] = {
 		star_list = "",
 		type = 5,
 		prop_type = 0,
@@ -7385,8 +8003,8 @@ pg.activity_ryza_recipe_circle = {
 			-8,
 			-354
 		}
-	},
-	[10031] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10031] = {
 		star_list = "",
 		type = 8,
 		prop_type = 4,
@@ -7400,8 +8018,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			0
 		}
-	},
-	[10032] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10032] = {
 		star_list = "",
 		type = 8,
 		prop_type = 4,
@@ -7415,8 +8033,8 @@ pg.activity_ryza_recipe_circle = {
 			120,
 			-115
 		}
-	},
-	[10033] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10033] = {
 		star_list = "",
 		type = 8,
 		prop_type = 4,
@@ -7430,8 +8048,8 @@ pg.activity_ryza_recipe_circle = {
 			127,
 			125
 		}
-	},
-	[10034] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10034] = {
 		star_list = "",
 		type = 6,
 		prop_type = 0,
@@ -7445,8 +8063,8 @@ pg.activity_ryza_recipe_circle = {
 			-244,
 			9
 		}
-	},
-	[10035] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10035] = {
 		star_list = "",
 		type = 6,
 		prop_type = 0,
@@ -7460,8 +8078,8 @@ pg.activity_ryza_recipe_circle = {
 			-7,
 			-346
 		}
-	},
-	[10036] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10036] = {
 		star_list = "",
 		type = 6,
 		prop_type = 0,
@@ -7475,8 +8093,8 @@ pg.activity_ryza_recipe_circle = {
 			-7,
 			374
 		}
-	},
-	[10037] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10037] = {
 		star_list = "",
 		type = 5,
 		prop_type = 0,
@@ -7490,8 +8108,8 @@ pg.activity_ryza_recipe_circle = {
 			-187,
 			-181
 		}
-	},
-	[10041] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10041] = {
 		star_list = "",
 		type = 8,
 		prop_type = 4,
@@ -7505,8 +8123,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			0
 		}
-	},
-	[10042] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10042] = {
 		star_list = "",
 		type = 8,
 		prop_type = 5,
@@ -7520,8 +8138,8 @@ pg.activity_ryza_recipe_circle = {
 			-130,
 			127
 		}
-	},
-	[10043] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10043] = {
 		star_list = "",
 		type = 8,
 		prop_type = 5,
@@ -7535,8 +8153,8 @@ pg.activity_ryza_recipe_circle = {
 			120,
 			127
 		}
-	},
-	[10044] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10044] = {
 		star_list = "",
 		type = 8,
 		prop_type = 5,
@@ -7550,8 +8168,8 @@ pg.activity_ryza_recipe_circle = {
 			-7,
 			-241
 		}
-	},
-	[10045] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10045] = {
 		star_list = "",
 		type = 8,
 		prop_type = 1,
@@ -7565,8 +8183,8 @@ pg.activity_ryza_recipe_circle = {
 			-199,
 			-170
 		}
-	},
-	[10046] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10046] = {
 		star_list = "",
 		type = 8,
 		prop_type = 4,
@@ -7580,8 +8198,8 @@ pg.activity_ryza_recipe_circle = {
 			190,
 			-170
 		}
-	},
-	[10047] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10047] = {
 		star_list = "",
 		type = 6,
 		prop_type = 0,
@@ -7595,8 +8213,8 @@ pg.activity_ryza_recipe_circle = {
 			-7,
 			372
 		}
-	},
-	[10051] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10051] = {
 		star_list = "",
 		type = 8,
 		prop_type = 4,
@@ -7610,8 +8228,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			0
 		}
-	},
-	[10052] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10052] = {
 		star_list = "",
 		type = 8,
 		prop_type = 5,
@@ -7625,8 +8243,10 @@ pg.activity_ryza_recipe_circle = {
 			-130,
 			127
 		}
-	},
-	[10053] = {
+	}
+end)()
+(function ()
+	pg.base.activity_ryza_recipe_circle[10053] = {
 		star_list = "",
 		type = 8,
 		prop_type = 5,
@@ -7640,8 +8260,8 @@ pg.activity_ryza_recipe_circle = {
 			120,
 			127
 		}
-	},
-	[10054] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10054] = {
 		star_list = "",
 		type = 8,
 		prop_type = 5,
@@ -7655,8 +8275,8 @@ pg.activity_ryza_recipe_circle = {
 			-7,
 			-241
 		}
-	},
-	[10055] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10055] = {
 		star_list = "",
 		type = 8,
 		prop_type = 1,
@@ -7670,8 +8290,8 @@ pg.activity_ryza_recipe_circle = {
 			-199,
 			-170
 		}
-	},
-	[10056] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10056] = {
 		star_list = "",
 		type = 8,
 		prop_type = 3,
@@ -7685,8 +8305,8 @@ pg.activity_ryza_recipe_circle = {
 			190,
 			-170
 		}
-	},
-	[10057] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10057] = {
 		star_list = "",
 		type = 5,
 		prop_type = 0,
@@ -7700,8 +8320,8 @@ pg.activity_ryza_recipe_circle = {
 			-7,
 			372
 		}
-	},
-	[10061] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10061] = {
 		star_list = "",
 		type = 8,
 		prop_type = 4,
@@ -7715,8 +8335,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			0
 		}
-	},
-	[10062] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10062] = {
 		star_list = "",
 		type = 8,
 		prop_type = 5,
@@ -7730,8 +8350,8 @@ pg.activity_ryza_recipe_circle = {
 			-130,
 			127
 		}
-	},
-	[10063] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10063] = {
 		star_list = "",
 		type = 8,
 		prop_type = 5,
@@ -7745,8 +8365,8 @@ pg.activity_ryza_recipe_circle = {
 			120,
 			127
 		}
-	},
-	[10064] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10064] = {
 		star_list = "",
 		type = 8,
 		prop_type = 5,
@@ -7760,8 +8380,8 @@ pg.activity_ryza_recipe_circle = {
 			-7,
 			-241
 		}
-	},
-	[10065] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10065] = {
 		star_list = "",
 		type = 8,
 		prop_type = 2,
@@ -7775,8 +8395,8 @@ pg.activity_ryza_recipe_circle = {
 			-199,
 			-170
 		}
-	},
-	[10066] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10066] = {
 		star_list = "",
 		type = 5,
 		prop_type = 0,
@@ -7790,8 +8410,8 @@ pg.activity_ryza_recipe_circle = {
 			190,
 			-170
 		}
-	},
-	[10067] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10067] = {
 		star_list = "",
 		type = 5,
 		prop_type = 0,
@@ -7805,8 +8425,8 @@ pg.activity_ryza_recipe_circle = {
 			-7,
 			372
 		}
-	},
-	[10071] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10071] = {
 		star_list = "",
 		type = 8,
 		prop_type = 4,
@@ -7820,8 +8440,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			0
 		}
-	},
-	[10072] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10072] = {
 		star_list = "",
 		type = 8,
 		prop_type = 5,
@@ -7835,8 +8455,8 @@ pg.activity_ryza_recipe_circle = {
 			-130,
 			127
 		}
-	},
-	[10073] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10073] = {
 		star_list = "",
 		type = 8,
 		prop_type = 5,
@@ -7850,8 +8470,8 @@ pg.activity_ryza_recipe_circle = {
 			120,
 			127
 		}
-	},
-	[10074] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10074] = {
 		star_list = "",
 		type = 8,
 		prop_type = 5,
@@ -7865,8 +8485,8 @@ pg.activity_ryza_recipe_circle = {
 			-7,
 			-241
 		}
-	},
-	[10075] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10075] = {
 		star_list = "",
 		type = 8,
 		prop_type = 2,
@@ -7880,8 +8500,8 @@ pg.activity_ryza_recipe_circle = {
 			-199,
 			-170
 		}
-	},
-	[10076] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10076] = {
 		star_list = "",
 		type = 8,
 		prop_type = 3,
@@ -7895,8 +8515,8 @@ pg.activity_ryza_recipe_circle = {
 			190,
 			-170
 		}
-	},
-	[10077] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10077] = {
 		star_list = "",
 		type = 5,
 		prop_type = 0,
@@ -7910,8 +8530,8 @@ pg.activity_ryza_recipe_circle = {
 			-7,
 			372
 		}
-	},
-	[10081] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10081] = {
 		star_list = "",
 		type = 8,
 		prop_type = 4,
@@ -7925,8 +8545,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			0
 		}
-	},
-	[10082] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10082] = {
 		star_list = "",
 		type = 8,
 		prop_type = 5,
@@ -7940,8 +8560,8 @@ pg.activity_ryza_recipe_circle = {
 			-130,
 			127
 		}
-	},
-	[10083] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10083] = {
 		star_list = "",
 		type = 8,
 		prop_type = 5,
@@ -7955,8 +8575,8 @@ pg.activity_ryza_recipe_circle = {
 			120,
 			127
 		}
-	},
-	[10084] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10084] = {
 		star_list = "",
 		type = 8,
 		prop_type = 5,
@@ -7970,8 +8590,8 @@ pg.activity_ryza_recipe_circle = {
 			-7,
 			-241
 		}
-	},
-	[10085] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10085] = {
 		star_list = "",
 		type = 8,
 		prop_type = 4,
@@ -7985,8 +8605,8 @@ pg.activity_ryza_recipe_circle = {
 			-199,
 			-170
 		}
-	},
-	[10086] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10086] = {
 		star_list = "",
 		type = 5,
 		prop_type = 0,
@@ -8000,8 +8620,8 @@ pg.activity_ryza_recipe_circle = {
 			190,
 			-170
 		}
-	},
-	[10087] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10087] = {
 		star_list = "",
 		type = 5,
 		prop_type = 0,
@@ -8015,8 +8635,8 @@ pg.activity_ryza_recipe_circle = {
 			-7,
 			372
 		}
-	},
-	[10091] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10091] = {
 		star_list = "",
 		type = 8,
 		prop_type = 4,
@@ -8030,8 +8650,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			0
 		}
-	},
-	[10092] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10092] = {
 		star_list = "",
 		type = 8,
 		prop_type = 5,
@@ -8045,8 +8665,8 @@ pg.activity_ryza_recipe_circle = {
 			-130,
 			127
 		}
-	},
-	[10093] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10093] = {
 		star_list = "",
 		type = 8,
 		prop_type = 5,
@@ -8060,8 +8680,8 @@ pg.activity_ryza_recipe_circle = {
 			120,
 			127
 		}
-	},
-	[10094] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10094] = {
 		star_list = "",
 		type = 8,
 		prop_type = 5,
@@ -8075,8 +8695,8 @@ pg.activity_ryza_recipe_circle = {
 			-7,
 			-241
 		}
-	},
-	[10095] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10095] = {
 		star_list = "",
 		type = 5,
 		prop_type = 0,
@@ -8090,8 +8710,8 @@ pg.activity_ryza_recipe_circle = {
 			-199,
 			-170
 		}
-	},
-	[10096] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10096] = {
 		star_list = "",
 		type = 5,
 		prop_type = 0,
@@ -8105,8 +8725,8 @@ pg.activity_ryza_recipe_circle = {
 			190,
 			-170
 		}
-	},
-	[10097] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10097] = {
 		star_list = "",
 		type = 5,
 		prop_type = 0,
@@ -8120,8 +8740,8 @@ pg.activity_ryza_recipe_circle = {
 			-7,
 			372
 		}
-	},
-	[10101] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10101] = {
 		star_list = "",
 		type = 7,
 		prop_type = 6,
@@ -8135,8 +8755,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			0
 		}
-	},
-	[10102] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10102] = {
 		star_list = "",
 		type = 8,
 		prop_type = 1,
@@ -8150,8 +8770,8 @@ pg.activity_ryza_recipe_circle = {
 			-175,
 			181
 		}
-	},
-	[10103] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10103] = {
 		star_list = "",
 		type = 8,
 		prop_type = 1,
@@ -8165,8 +8785,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			-242
 		}
-	},
-	[10104] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10104] = {
 		star_list = "",
 		type = 7,
 		prop_type = 6,
@@ -8180,8 +8800,8 @@ pg.activity_ryza_recipe_circle = {
 			150,
 			200
 		}
-	},
-	[10105] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10105] = {
 		star_list = "",
 		type = 8,
 		prop_type = 1,
@@ -8195,8 +8815,8 @@ pg.activity_ryza_recipe_circle = {
 			-362,
 			0
 		}
-	},
-	[10106] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10106] = {
 		star_list = "",
 		type = 8,
 		prop_type = 1,
@@ -8210,8 +8830,8 @@ pg.activity_ryza_recipe_circle = {
 			-9,
 			345
 		}
-	},
-	[10107] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10107] = {
 		star_list = "",
 		type = 8,
 		prop_type = 1,
@@ -8225,8 +8845,8 @@ pg.activity_ryza_recipe_circle = {
 			352,
 			18
 		}
-	},
-	[10108] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10108] = {
 		star_list = "",
 		type = 8,
 		prop_type = 1,
@@ -8240,8 +8860,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			-352
 		}
-	},
-	[10111] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10111] = {
 		star_list = "",
 		type = 7,
 		prop_type = 6,
@@ -8255,8 +8875,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			0
 		}
-	},
-	[10112] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10112] = {
 		star_list = "",
 		type = 8,
 		prop_type = 2,
@@ -8270,8 +8890,8 @@ pg.activity_ryza_recipe_circle = {
 			-175,
 			181
 		}
-	},
-	[10113] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10113] = {
 		star_list = "",
 		type = 8,
 		prop_type = 2,
@@ -8285,8 +8905,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			-242
 		}
-	},
-	[10114] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10114] = {
 		star_list = "",
 		type = 7,
 		prop_type = 6,
@@ -8300,8 +8920,8 @@ pg.activity_ryza_recipe_circle = {
 			150,
 			200
 		}
-	},
-	[10115] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10115] = {
 		star_list = "",
 		type = 8,
 		prop_type = 2,
@@ -8315,8 +8935,8 @@ pg.activity_ryza_recipe_circle = {
 			-362,
 			0
 		}
-	},
-	[10116] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10116] = {
 		star_list = "",
 		type = 8,
 		prop_type = 2,
@@ -8330,8 +8950,8 @@ pg.activity_ryza_recipe_circle = {
 			-9,
 			345
 		}
-	},
-	[10117] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10117] = {
 		star_list = "",
 		type = 8,
 		prop_type = 2,
@@ -8345,8 +8965,8 @@ pg.activity_ryza_recipe_circle = {
 			352,
 			18
 		}
-	},
-	[10118] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10118] = {
 		star_list = "",
 		type = 8,
 		prop_type = 2,
@@ -8360,8 +8980,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			-352
 		}
-	},
-	[10121] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10121] = {
 		star_list = "",
 		type = 7,
 		prop_type = 6,
@@ -8375,8 +8995,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			0
 		}
-	},
-	[10122] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10122] = {
 		star_list = "",
 		type = 8,
 		prop_type = 3,
@@ -8390,8 +9010,8 @@ pg.activity_ryza_recipe_circle = {
 			-175,
 			181
 		}
-	},
-	[10123] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10123] = {
 		star_list = "",
 		type = 8,
 		prop_type = 3,
@@ -8405,8 +9025,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			-242
 		}
-	},
-	[10124] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10124] = {
 		star_list = "",
 		type = 7,
 		prop_type = 6,
@@ -8420,8 +9040,8 @@ pg.activity_ryza_recipe_circle = {
 			150,
 			200
 		}
-	},
-	[10125] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10125] = {
 		star_list = "",
 		type = 8,
 		prop_type = 3,
@@ -8435,8 +9055,8 @@ pg.activity_ryza_recipe_circle = {
 			-362,
 			0
 		}
-	},
-	[10126] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10126] = {
 		star_list = "",
 		type = 8,
 		prop_type = 3,
@@ -8450,8 +9070,8 @@ pg.activity_ryza_recipe_circle = {
 			-9,
 			345
 		}
-	},
-	[10127] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10127] = {
 		star_list = "",
 		type = 8,
 		prop_type = 3,
@@ -8465,8 +9085,8 @@ pg.activity_ryza_recipe_circle = {
 			352,
 			18
 		}
-	},
-	[10128] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10128] = {
 		star_list = "",
 		type = 8,
 		prop_type = 3,
@@ -8480,8 +9100,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			-352
 		}
-	},
-	[10131] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10131] = {
 		star_list = "",
 		type = 7,
 		prop_type = 6,
@@ -8495,8 +9115,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			0
 		}
-	},
-	[10132] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10132] = {
 		star_list = "",
 		type = 8,
 		prop_type = 4,
@@ -8510,8 +9130,8 @@ pg.activity_ryza_recipe_circle = {
 			-175,
 			181
 		}
-	},
-	[10133] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10133] = {
 		star_list = "",
 		type = 8,
 		prop_type = 4,
@@ -8525,8 +9145,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			-242
 		}
-	},
-	[10134] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10134] = {
 		star_list = "",
 		type = 7,
 		prop_type = 6,
@@ -8540,8 +9160,8 @@ pg.activity_ryza_recipe_circle = {
 			150,
 			200
 		}
-	},
-	[10135] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10135] = {
 		star_list = "",
 		type = 8,
 		prop_type = 4,
@@ -8555,8 +9175,8 @@ pg.activity_ryza_recipe_circle = {
 			-362,
 			0
 		}
-	},
-	[10136] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10136] = {
 		star_list = "",
 		type = 8,
 		prop_type = 4,
@@ -8570,8 +9190,8 @@ pg.activity_ryza_recipe_circle = {
 			-9,
 			345
 		}
-	},
-	[10137] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10137] = {
 		star_list = "",
 		type = 8,
 		prop_type = 4,
@@ -8585,8 +9205,8 @@ pg.activity_ryza_recipe_circle = {
 			352,
 			18
 		}
-	},
-	[10138] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10138] = {
 		star_list = "",
 		type = 8,
 		prop_type = 4,
@@ -8600,8 +9220,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			-352
 		}
-	},
-	[10141] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10141] = {
 		star_list = "",
 		type = 7,
 		prop_type = 6,
@@ -8615,8 +9235,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			0
 		}
-	},
-	[10142] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10142] = {
 		star_list = "",
 		type = 5,
 		prop_type = 0,
@@ -8630,8 +9250,8 @@ pg.activity_ryza_recipe_circle = {
 			-215,
 			14
 		}
-	},
-	[10143] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10143] = {
 		star_list = "",
 		type = 5,
 		prop_type = 0,
@@ -8645,8 +9265,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			230
 		}
-	},
-	[10151] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10151] = {
 		star_list = "",
 		type = 7,
 		prop_type = 6,
@@ -8660,8 +9280,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			0
 		}
-	},
-	[10152] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10152] = {
 		star_list = "",
 		type = 5,
 		prop_type = 0,
@@ -8675,8 +9295,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			227
 		}
-	},
-	[10153] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10153] = {
 		star_list = "",
 		type = 5,
 		prop_type = 0,
@@ -8690,8 +9310,8 @@ pg.activity_ryza_recipe_circle = {
 			215,
 			16
 		}
-	},
-	[10161] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10161] = {
 		star_list = "",
 		type = 7,
 		prop_type = 6,
@@ -8705,8 +9325,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			0
 		}
-	},
-	[10162] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10162] = {
 		star_list = "",
 		type = 5,
 		prop_type = 0,
@@ -8720,8 +9340,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			-211.5
 		}
-	},
-	[10163] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10163] = {
 		star_list = "",
 		type = 5,
 		prop_type = 0,
@@ -8735,8 +9355,8 @@ pg.activity_ryza_recipe_circle = {
 			215,
 			15
 		}
-	},
-	[10171] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10171] = {
 		star_list = "",
 		type = 7,
 		prop_type = 6,
@@ -8750,8 +9370,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			0
 		}
-	},
-	[10172] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10172] = {
 		star_list = "",
 		type = 5,
 		prop_type = 0,
@@ -8765,8 +9385,8 @@ pg.activity_ryza_recipe_circle = {
 			-215,
 			14
 		}
-	},
-	[10173] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10173] = {
 		star_list = "",
 		type = 5,
 		prop_type = 0,
@@ -8780,8 +9400,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			-211.5
 		}
-	},
-	[10181] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10181] = {
 		star_list = "",
 		type = 7,
 		prop_type = 6,
@@ -8795,8 +9415,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			0
 		}
-	},
-	[10182] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10182] = {
 		star_list = "",
 		type = 5,
 		prop_type = 0,
@@ -8810,8 +9430,8 @@ pg.activity_ryza_recipe_circle = {
 			-215,
 			14
 		}
-	},
-	[10183] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10183] = {
 		star_list = "",
 		type = 5,
 		prop_type = 0,
@@ -8825,8 +9445,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			-211.5
 		}
-	},
-	[10184] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10184] = {
 		star_list = "",
 		type = 5,
 		prop_type = 0,
@@ -8840,8 +9460,8 @@ pg.activity_ryza_recipe_circle = {
 			215,
 			16
 		}
-	},
-	[10185] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10185] = {
 		star_list = "",
 		type = 5,
 		prop_type = 0,
@@ -8855,8 +9475,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			227
 		}
-	},
-	[10191] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10191] = {
 		star_list = "",
 		type = 7,
 		prop_type = 6,
@@ -8870,8 +9490,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			0
 		}
-	},
-	[10192] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10192] = {
 		star_list = "",
 		type = 8,
 		prop_type = 5,
@@ -8885,8 +9505,8 @@ pg.activity_ryza_recipe_circle = {
 			206,
 			-125
 		}
-	},
-	[10193] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10193] = {
 		star_list = "",
 		type = 8,
 		prop_type = 5,
@@ -8900,8 +9520,8 @@ pg.activity_ryza_recipe_circle = {
 			-213,
 			-132
 		}
-	},
-	[10194] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10194] = {
 		star_list = "",
 		type = 8,
 		prop_type = 5,
@@ -8915,8 +9535,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			251
 		}
-	},
-	[10201] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10201] = {
 		star_list = "",
 		type = 7,
 		prop_type = 6,
@@ -8930,8 +9550,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			0
 		}
-	},
-	[10202] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10202] = {
 		star_list = "",
 		type = 5,
 		prop_type = 0,
@@ -8945,8 +9565,8 @@ pg.activity_ryza_recipe_circle = {
 			206,
 			-125
 		}
-	},
-	[10203] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10203] = {
 		star_list = "",
 		type = 5,
 		prop_type = 0,
@@ -8960,8 +9580,8 @@ pg.activity_ryza_recipe_circle = {
 			-213,
 			-132
 		}
-	},
-	[10204] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10204] = {
 		star_list = "",
 		type = 5,
 		prop_type = 0,
@@ -8975,8 +9595,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			251
 		}
-	},
-	[10211] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10211] = {
 		star_list = "",
 		type = 7,
 		prop_type = 6,
@@ -8990,8 +9610,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			0
 		}
-	},
-	[10212] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10212] = {
 		star_list = "",
 		type = 8,
 		prop_type = 1,
@@ -9005,8 +9625,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			245
 		}
-	},
-	[10213] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10213] = {
 		star_list = "",
 		type = 8,
 		prop_type = 1,
@@ -9020,8 +9640,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			-245
 		}
-	},
-	[10221] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10221] = {
 		star_list = "",
 		type = 7,
 		prop_type = 6,
@@ -9035,8 +9655,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			0
 		}
-	},
-	[10222] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10222] = {
 		star_list = "",
 		type = 8,
 		prop_type = 2,
@@ -9050,8 +9670,8 @@ pg.activity_ryza_recipe_circle = {
 			-250,
 			0
 		}
-	},
-	[10223] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10223] = {
 		star_list = "",
 		type = 8,
 		prop_type = 2,
@@ -9065,8 +9685,8 @@ pg.activity_ryza_recipe_circle = {
 			250,
 			0
 		}
-	},
-	[10231] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10231] = {
 		star_list = "",
 		type = 7,
 		prop_type = 6,
@@ -9080,8 +9700,8 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			0
 		}
-	},
-	[10232] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10232] = {
 		star_list = "",
 		type = 8,
 		prop_type = 3,
@@ -9095,8 +9715,8 @@ pg.activity_ryza_recipe_circle = {
 			-167,
 			174
 		}
-	},
-	[10233] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10233] = {
 		star_list = "",
 		type = 8,
 		prop_type = 3,
@@ -9110,8 +9730,8 @@ pg.activity_ryza_recipe_circle = {
 			174,
 			-176
 		}
-	},
-	[10241] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10241] = {
 		star_list = "",
 		type = 7,
 		prop_type = 6,
@@ -9125,8 +9745,10 @@ pg.activity_ryza_recipe_circle = {
 			0,
 			0
 		}
-	},
-	[10242] = {
+	}
+end)()
+(function ()
+	pg.base.activity_ryza_recipe_circle[10242] = {
 		star_list = "",
 		type = 8,
 		prop_type = 4,
@@ -9140,8 +9762,8 @@ pg.activity_ryza_recipe_circle = {
 			-189.8,
 			-176
 		}
-	},
-	[10243] = {
+	}
+	pg.base.activity_ryza_recipe_circle[10243] = {
 		star_list = "",
 		type = 8,
 		prop_type = 4,
@@ -9155,609 +9777,5 @@ pg.activity_ryza_recipe_circle = {
 			172.4,
 			174
 		}
-	},
-	all = {
-		1,
-		2,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		39,
-		40,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46,
-		47,
-		48,
-		49,
-		50,
-		51,
-		60,
-		61,
-		62,
-		63,
-		64,
-		65,
-		66,
-		67,
-		100,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		110,
-		200,
-		201,
-		202,
-		203,
-		204,
-		205,
-		206,
-		207,
-		208,
-		209,
-		210,
-		300,
-		301,
-		302,
-		303,
-		304,
-		305,
-		306,
-		307,
-		308,
-		309,
-		310,
-		311,
-		400,
-		401,
-		402,
-		403,
-		404,
-		405,
-		406,
-		407,
-		408,
-		409,
-		410,
-		411,
-		412,
-		413,
-		500,
-		501,
-		502,
-		503,
-		504,
-		505,
-		506,
-		507,
-		508,
-		509,
-		510,
-		511,
-		600,
-		601,
-		602,
-		603,
-		604,
-		605,
-		606,
-		607,
-		608,
-		609,
-		610,
-		611,
-		612,
-		613,
-		700,
-		701,
-		702,
-		703,
-		704,
-		705,
-		706,
-		707,
-		708,
-		709,
-		710,
-		711,
-		712,
-		713,
-		714,
-		800,
-		801,
-		802,
-		803,
-		804,
-		805,
-		806,
-		807,
-		808,
-		809,
-		810,
-		811,
-		812,
-		813,
-		814,
-		900,
-		901,
-		902,
-		903,
-		904,
-		905,
-		906,
-		907,
-		908,
-		909,
-		910,
-		911,
-		912,
-		913,
-		914,
-		1000,
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1007,
-		1008,
-		1009,
-		1010,
-		1011,
-		1012,
-		1013,
-		1100,
-		1101,
-		1102,
-		1103,
-		1104,
-		1105,
-		1106,
-		1107,
-		1108,
-		1109,
-		1110,
-		1111,
-		1112,
-		1113,
-		1114,
-		1115,
-		1200,
-		1201,
-		1202,
-		1203,
-		1204,
-		1205,
-		1206,
-		1207,
-		1208,
-		1209,
-		1210,
-		1211,
-		1212,
-		1213,
-		1214,
-		1215,
-		1216,
-		1217,
-		1218,
-		1300,
-		1301,
-		1302,
-		1303,
-		1304,
-		1305,
-		1306,
-		1307,
-		1308,
-		1309,
-		1310,
-		1311,
-		1312,
-		1313,
-		1314,
-		1315,
-		1400,
-		1401,
-		1402,
-		1403,
-		1404,
-		1405,
-		1406,
-		1407,
-		1408,
-		1409,
-		1410,
-		1411,
-		1412,
-		1413,
-		1414,
-		1415,
-		1416,
-		1417,
-		1418,
-		1419,
-		1420,
-		1421,
-		1422,
-		1423,
-		1500,
-		1501,
-		1502,
-		1503,
-		1504,
-		1505,
-		1506,
-		1507,
-		1508,
-		1509,
-		1510,
-		1511,
-		1512,
-		1513,
-		1514,
-		1515,
-		1516,
-		1517,
-		1518,
-		1519,
-		1520,
-		1521,
-		1600,
-		1601,
-		1602,
-		1603,
-		1604,
-		1605,
-		1606,
-		1607,
-		1608,
-		1609,
-		1610,
-		1611,
-		1612,
-		1613,
-		1614,
-		1615,
-		1616,
-		1617,
-		1618,
-		1619,
-		1700,
-		1701,
-		1702,
-		1703,
-		1704,
-		1705,
-		1706,
-		1707,
-		1708,
-		1709,
-		1800,
-		1801,
-		1802,
-		1803,
-		1804,
-		1805,
-		1806,
-		1807,
-		1808,
-		1809,
-		1810,
-		1811,
-		1812,
-		1813,
-		1814,
-		1815,
-		1900,
-		1901,
-		1902,
-		1903,
-		1904,
-		1905,
-		1906,
-		1907,
-		1908,
-		1909,
-		1910,
-		1911,
-		1912,
-		1913,
-		1914,
-		1915,
-		1916,
-		1917,
-		2000,
-		2001,
-		2002,
-		2003,
-		2004,
-		2005,
-		2006,
-		2007,
-		2008,
-		2009,
-		2010,
-		2011,
-		2012,
-		2013,
-		2014,
-		2015,
-		2016,
-		2017,
-		2100,
-		2101,
-		2102,
-		2200,
-		2201,
-		2202,
-		2203,
-		2300,
-		2301,
-		2302,
-		2303,
-		2400,
-		2401,
-		2402,
-		2403,
-		2500,
-		2501,
-		2502,
-		2503,
-		2600,
-		2601,
-		2602,
-		2603,
-		2604,
-		2700,
-		2701,
-		2702,
-		2703,
-		2704,
-		2705,
-		2706,
-		2707,
-		2708,
-		2800,
-		2801,
-		2802,
-		2803,
-		2804,
-		2805,
-		2806,
-		2807,
-		2808,
-		2900,
-		2901,
-		2902,
-		2903,
-		2904,
-		2905,
-		2906,
-		2907,
-		2908,
-		3000,
-		3001,
-		3002,
-		3003,
-		3004,
-		3005,
-		3006,
-		3007,
-		3008,
-		3100,
-		3101,
-		3102,
-		3103,
-		3104,
-		3105,
-		3106,
-		3107,
-		3108,
-		3200,
-		3201,
-		3202,
-		3203,
-		3204,
-		3205,
-		3206,
-		3207,
-		3208,
-		3300,
-		3301,
-		3302,
-		3303,
-		3304,
-		3305,
-		3306,
-		3307,
-		3308,
-		3400,
-		3401,
-		3402,
-		3403,
-		3404,
-		3405,
-		3406,
-		3407,
-		3408,
-		3501,
-		3502,
-		3503,
-		10001,
-		10002,
-		10003,
-		10004,
-		10005,
-		10006,
-		10007,
-		10011,
-		10012,
-		10013,
-		10014,
-		10015,
-		10016,
-		10017,
-		10021,
-		10022,
-		10023,
-		10024,
-		10025,
-		10026,
-		10027,
-		10031,
-		10032,
-		10033,
-		10034,
-		10035,
-		10036,
-		10037,
-		10041,
-		10042,
-		10043,
-		10044,
-		10045,
-		10046,
-		10047,
-		10051,
-		10052,
-		10053,
-		10054,
-		10055,
-		10056,
-		10057,
-		10061,
-		10062,
-		10063,
-		10064,
-		10065,
-		10066,
-		10067,
-		10071,
-		10072,
-		10073,
-		10074,
-		10075,
-		10076,
-		10077,
-		10081,
-		10082,
-		10083,
-		10084,
-		10085,
-		10086,
-		10087,
-		10091,
-		10092,
-		10093,
-		10094,
-		10095,
-		10096,
-		10097,
-		10101,
-		10102,
-		10103,
-		10104,
-		10105,
-		10106,
-		10107,
-		10108,
-		10111,
-		10112,
-		10113,
-		10114,
-		10115,
-		10116,
-		10117,
-		10118,
-		10121,
-		10122,
-		10123,
-		10124,
-		10125,
-		10126,
-		10127,
-		10128,
-		10131,
-		10132,
-		10133,
-		10134,
-		10135,
-		10136,
-		10137,
-		10138,
-		10141,
-		10142,
-		10143,
-		10151,
-		10152,
-		10153,
-		10161,
-		10162,
-		10163,
-		10171,
-		10172,
-		10173,
-		10181,
-		10182,
-		10183,
-		10184,
-		10185,
-		10191,
-		10192,
-		10193,
-		10194,
-		10201,
-		10202,
-		10203,
-		10204,
-		10211,
-		10212,
-		10213,
-		10221,
-		10222,
-		10223,
-		10231,
-		10232,
-		10233,
-		10241,
-		10242,
-		10243
 	}
-}
+end)()

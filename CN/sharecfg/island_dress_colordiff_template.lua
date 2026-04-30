@@ -1,6 +1,34 @@
 pg = pg or {}
-pg.island_dress_colordiff_template = {
-	[104000101] = {
+pg.island_dress_colordiff_template = rawget(pg, "island_dress_colordiff_template") or setmetatable({
+	__name = "island_dress_colordiff_template"
+}, confNEO)
+pg.island_dress_colordiff_template.all = {
+	104000101,
+	104000102,
+	104000201,
+	104000202,
+	104000301,
+	104000302
+}
+pg.island_dress_colordiff_template.get_id_list_by_belongto_dress = {
+	[1040001] = {
+		104000101,
+		104000102
+	},
+	[1040002] = {
+		104000201,
+		104000202
+	},
+	[1040003] = {
+		104000301,
+		104000302
+	}
+}
+pg.base = pg.base or {}
+pg.base.island_dress_colordiff_template = {}
+
+(function ()
+	pg.base.island_dress_colordiff_template[104000101] = {
 		related_dress = 0,
 		model = "island/character/9001/prefab/9001_02_hair_component_desc_ext_mat_0",
 		id = 104000101,
@@ -12,8 +40,8 @@ pg.island_dress_colordiff_template = {
 				1
 			}
 		}
-	},
-	[104000102] = {
+	}
+	pg.base.island_dress_colordiff_template[104000102] = {
 		related_dress = 0,
 		model = "island/character/9001/prefab/9001_02_hair_component_desc_ext_mat_1",
 		id = 104000102,
@@ -25,8 +53,8 @@ pg.island_dress_colordiff_template = {
 				1
 			}
 		}
-	},
-	[104000201] = {
+	}
+	pg.base.island_dress_colordiff_template[104000201] = {
 		related_dress = 0,
 		model = "island/character/9001/prefab/9001_01_hair_component_desc_ext_mat_0",
 		id = 104000201,
@@ -38,8 +66,8 @@ pg.island_dress_colordiff_template = {
 				1
 			}
 		}
-	},
-	[104000202] = {
+	}
+	pg.base.island_dress_colordiff_template[104000202] = {
 		related_dress = 0,
 		model = "island/character/9001/prefab/9001_01_hair_component_desc_ext_mat_1",
 		id = 104000202,
@@ -51,8 +79,8 @@ pg.island_dress_colordiff_template = {
 				1
 			}
 		}
-	},
-	[104000301] = {
+	}
+	pg.base.island_dress_colordiff_template[104000301] = {
 		related_dress = 0,
 		model = "island/character/9001/prefab/9001_00_hair_component_desc_ext_mat_0",
 		id = 104000301,
@@ -64,8 +92,8 @@ pg.island_dress_colordiff_template = {
 				1
 			}
 		}
-	},
-	[104000302] = {
+	}
+	pg.base.island_dress_colordiff_template[104000302] = {
 		related_dress = 0,
 		model = "island/character/9001/prefab/9001_00_hair_component_desc_ext_mat_1",
 		id = 104000302,
@@ -77,27 +105,5 @@ pg.island_dress_colordiff_template = {
 				1
 			}
 		}
-	},
-	get_id_list_by_belongto_dress = {
-		[1040001] = {
-			104000101,
-			104000102
-		},
-		[1040002] = {
-			104000201,
-			104000202
-		},
-		[1040003] = {
-			104000301,
-			104000302
-		}
-	},
-	all = {
-		104000101,
-		104000102,
-		104000201,
-		104000202,
-		104000301,
-		104000302
 	}
-}
+end)()

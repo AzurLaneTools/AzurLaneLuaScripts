@@ -1,28 +1,31 @@
 pg = pg or {}
-pg.activity_clue_ending = setmetatable({
-	__name = "activity_clue_ending",
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16
-	}
-}, confHX)
+pg.activity_clue_ending = rawget(pg, "activity_clue_ending") or setmetatable({
+	__name = "activity_clue_ending"
+}, confNEO)
+pg.activity_clue_ending.__namecode__ = true
+pg.activity_clue_ending.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16
+}
 pg.base = pg.base or {}
-pg.base.activity_clue_ending = {
-	{
+pg.base.activity_clue_ending = {}
+
+(function ()
+	pg.base.activity_clue_ending[1] = {
 		title = "破局记录-1",
 		type = 1,
 		group = 1,
@@ -87,8 +90,8 @@ pg.base.activity_clue_ending = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[2] = {
 		title = "破局记录-2",
 		type = 1,
 		group = 1,
@@ -128,8 +131,8 @@ pg.base.activity_clue_ending = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[3] = {
 		title = "破局记录-3",
 		type = 1,
 		group = 1,
@@ -178,8 +181,8 @@ pg.base.activity_clue_ending = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[4] = {
 		title = "结局",
 		type = 2,
 		group = 1,
@@ -228,8 +231,8 @@ pg.base.activity_clue_ending = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[5] = {
 		title = "破局记录-1",
 		type = 1,
 		group = 2,
@@ -301,8 +304,8 @@ pg.base.activity_clue_ending = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[6] = {
 		title = "破局记录-2",
 		type = 1,
 		group = 2,
@@ -356,8 +359,8 @@ pg.base.activity_clue_ending = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[7] = {
 		title = "破局记录-3",
 		type = 1,
 		group = 2,
@@ -495,8 +498,8 @@ pg.base.activity_clue_ending = {
 				0.7
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[8] = {
 		title = "结局",
 		type = 2,
 		group = 2,
@@ -545,8 +548,8 @@ pg.base.activity_clue_ending = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[9] = {
 		title = "破局记录-1",
 		type = 1,
 		group = 3,
@@ -623,8 +626,8 @@ pg.base.activity_clue_ending = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[10] = {
 		title = "破局记录-2",
 		type = 1,
 		group = 3,
@@ -679,8 +682,8 @@ pg.base.activity_clue_ending = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[11] = {
 		title = "破局记录-3",
 		type = 1,
 		group = 3,
@@ -770,8 +773,8 @@ pg.base.activity_clue_ending = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[12] = {
 		title = "结局",
 		type = 2,
 		group = 3,
@@ -822,8 +825,8 @@ pg.base.activity_clue_ending = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[13] = {
 		title = "破局记录-1",
 		type = 1,
 		group = 4,
@@ -926,8 +929,8 @@ pg.base.activity_clue_ending = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[14] = {
 		title = "破局记录-2",
 		type = 1,
 		group = 4,
@@ -1036,8 +1039,8 @@ pg.base.activity_clue_ending = {
 				0.8
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[15] = {
 		title = "破局记录-3",
 		type = 1,
 		group = 4,
@@ -1129,8 +1132,8 @@ pg.base.activity_clue_ending = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[16] = {
 		title = "结局",
 		type = 2,
 		group = 4,
@@ -1181,4 +1184,4 @@ pg.base.activity_clue_ending = {
 			}
 		}
 	}
-}
+end)()

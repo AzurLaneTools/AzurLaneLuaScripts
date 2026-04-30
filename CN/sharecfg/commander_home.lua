@@ -1,6 +1,29 @@
 pg = pg or {}
-pg.commander_home = {
-	{
+pg.commander_home = rawget(pg, "commander_home") or setmetatable({
+	__name = "commander_home"
+}, confNEO)
+pg.commander_home.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15
+}
+pg.base = pg.base or {}
+pg.base.commander_home = {}
+
+(function ()
+	pg.base.commander_home[1] = {
 		clean_exp = 30,
 		exp_number = 60,
 		home_exp = 120,
@@ -30,8 +53,8 @@ pg.commander_home = {
 				16
 			}
 		}
-	},
-	{
+	}
+	pg.base.commander_home[2] = {
 		clean_exp = 30,
 		exp_number = 60,
 		home_exp = 300,
@@ -62,8 +85,8 @@ pg.commander_home = {
 				16
 			}
 		}
-	},
-	{
+	}
+	pg.base.commander_home[3] = {
 		clean_exp = 30,
 		exp_number = 60,
 		home_exp = 540,
@@ -94,8 +117,8 @@ pg.commander_home = {
 				16
 			}
 		}
-	},
-	{
+	}
+	pg.base.commander_home[4] = {
 		clean_exp = 30,
 		exp_number = 60,
 		home_exp = 900,
@@ -126,8 +149,8 @@ pg.commander_home = {
 				16
 			}
 		}
-	},
-	{
+	}
+	pg.base.commander_home[5] = {
 		clean_exp = 30,
 		exp_number = 60,
 		home_exp = 1260,
@@ -158,8 +181,8 @@ pg.commander_home = {
 				16
 			}
 		}
-	},
-	{
+	}
+	pg.base.commander_home[6] = {
 		clean_exp = 30,
 		exp_number = 60,
 		home_exp = 1800,
@@ -190,8 +213,8 @@ pg.commander_home = {
 				16
 			}
 		}
-	},
-	{
+	}
+	pg.base.commander_home[7] = {
 		clean_exp = 30,
 		exp_number = 60,
 		home_exp = 2280,
@@ -222,8 +245,8 @@ pg.commander_home = {
 				16
 			}
 		}
-	},
-	{
+	}
+	pg.base.commander_home[8] = {
 		clean_exp = 30,
 		exp_number = 60,
 		home_exp = 3000,
@@ -254,8 +277,8 @@ pg.commander_home = {
 				16
 			}
 		}
-	},
-	{
+	}
+	pg.base.commander_home[9] = {
 		clean_exp = 30,
 		exp_number = 60,
 		home_exp = 3600,
@@ -286,8 +309,8 @@ pg.commander_home = {
 				16
 			}
 		}
-	},
-	{
+	}
+	pg.base.commander_home[10] = {
 		clean_exp = 30,
 		exp_number = 60,
 		home_exp = 4500,
@@ -319,8 +342,8 @@ pg.commander_home = {
 				16
 			}
 		}
-	},
-	{
+	}
+	pg.base.commander_home[11] = {
 		clean_exp = 30,
 		exp_number = 60,
 		home_exp = 5220,
@@ -352,8 +375,8 @@ pg.commander_home = {
 				16
 			}
 		}
-	},
-	{
+	}
+	pg.base.commander_home[12] = {
 		clean_exp = 30,
 		exp_number = 60,
 		home_exp = 6300,
@@ -385,8 +408,8 @@ pg.commander_home = {
 				16
 			}
 		}
-	},
-	{
+	}
+	pg.base.commander_home[13] = {
 		clean_exp = 30,
 		exp_number = 60,
 		home_exp = 7140,
@@ -418,8 +441,8 @@ pg.commander_home = {
 				16
 			}
 		}
-	},
-	{
+	}
+	pg.base.commander_home[14] = {
 		clean_exp = 30,
 		exp_number = 60,
 		home_exp = 8400,
@@ -451,8 +474,8 @@ pg.commander_home = {
 				16
 			}
 		}
-	},
-	{
+	}
+	pg.base.commander_home[15] = {
 		clean_exp = 30,
 		exp_number = 60,
 		home_exp = 0,
@@ -484,22 +507,5 @@ pg.commander_home = {
 				16
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15
 	}
-}
+end)()

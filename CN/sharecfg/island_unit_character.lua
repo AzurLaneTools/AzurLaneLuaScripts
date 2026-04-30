@@ -1,130 +1,133 @@
 pg = pg or {}
-pg.island_unit_character = setmetatable({
-	__name = "island_unit_character",
-	all = {
-		0,
-		100100,
-		100200,
-		100300,
-		100400,
-		100500,
-		100600,
-		100700,
-		100800,
-		100900,
-		101000,
-		101100,
-		101200,
-		101300,
-		101400,
-		101500,
-		101600,
-		101800,
-		300200,
-		300300,
-		300400,
-		300500,
-		300600,
-		300700,
-		300800,
-		300900,
-		300901,
-		300902,
-		300903,
-		301000,
-		301100,
-		301200,
-		301300,
-		302000,
-		302300,
-		302400,
-		302500,
-		302600,
-		302700,
-		302800,
-		302900,
-		303000,
-		303100,
-		303300,
-		303400,
-		303500,
-		303600,
-		303700,
-		303800,
-		303900,
-		900100,
-		900102,
-		900103,
-		900104,
-		900110,
-		900120,
-		900112,
-		900122,
-		900113,
-		900123,
-		900114,
-		900124,
-		1011000,
-		1011001,
-		1011002,
-		1020500,
-		1020501,
-		1020502,
-		1051700,
-		1051701,
-		1051702,
-		1070300,
-		1070301,
-		1070302,
-		2060300,
-		2060301,
-		2060302,
-		2040300,
-		2990300,
-		2990301,
-		2990302,
-		3012900,
-		3012901,
-		3012902,
-		3031200,
-		3031201,
-		3031202,
-		3040700,
-		3040701,
-		3040702,
-		3070700,
-		3120100,
-		3120101,
-		3120102,
-		3120199,
-		4030300,
-		4030301,
-		4030302,
-		4990200,
-		4990201,
-		4990202,
-		5020400,
-		5020500,
-		5060100,
-		5060101,
-		5060102,
-		6080200,
-		7010400,
-		9011100,
-		99000100,
-		99000101,
-		99000102,
-		99000200,
-		99000201,
-		99000202,
-		99000300,
-		99000301,
-		99000302
-	}
-}, confHX)
+pg.island_unit_character = rawget(pg, "island_unit_character") or setmetatable({
+	__name = "island_unit_character"
+}, confNEO)
+pg.island_unit_character.__namecode__ = true
+pg.island_unit_character.all = {
+	0,
+	100100,
+	100200,
+	100300,
+	100400,
+	100500,
+	100600,
+	100700,
+	100800,
+	100900,
+	101000,
+	101100,
+	101200,
+	101300,
+	101400,
+	101500,
+	101600,
+	101800,
+	300200,
+	300300,
+	300400,
+	300500,
+	300600,
+	300700,
+	300800,
+	300900,
+	300901,
+	300902,
+	300903,
+	301000,
+	301100,
+	301200,
+	301300,
+	302000,
+	302300,
+	302400,
+	302500,
+	302600,
+	302700,
+	302800,
+	302900,
+	303000,
+	303100,
+	303300,
+	303400,
+	303500,
+	303600,
+	303700,
+	303800,
+	303900,
+	900100,
+	900102,
+	900103,
+	900104,
+	900110,
+	900120,
+	900112,
+	900122,
+	900113,
+	900123,
+	900114,
+	900124,
+	1011000,
+	1011001,
+	1011002,
+	1020500,
+	1020501,
+	1020502,
+	1051700,
+	1051701,
+	1051702,
+	1070300,
+	1070301,
+	1070302,
+	2060300,
+	2060301,
+	2060302,
+	2040300,
+	2990300,
+	2990301,
+	2990302,
+	3012900,
+	3012901,
+	3012902,
+	3031200,
+	3031201,
+	3031202,
+	3040700,
+	3040701,
+	3040702,
+	3070700,
+	3120100,
+	3120101,
+	3120102,
+	3120199,
+	4030300,
+	4030301,
+	4030302,
+	4990200,
+	4990201,
+	4990202,
+	5020400,
+	5020500,
+	5060100,
+	5060101,
+	5060102,
+	6080200,
+	7010400,
+	9011100,
+	99000100,
+	99000101,
+	99000102,
+	99000200,
+	99000201,
+	99000202,
+	99000300,
+	99000301,
+	99000302
+}
 pg.base = pg.base or {}
-pg.base.island_unit_character = {
-	[0] = {
+pg.base.island_unit_character = {}
+
+(function ()
+	pg.base.island_unit_character[0] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "",
@@ -140,8 +143,8 @@ pg.base.island_unit_character = {
 		id = 0,
 		CollisionParam = "",
 		personality = 0
-	},
-	[100100] = {
+	}
+	pg.base.island_unit_character[100100] = {
 		describe_illustrated_guid = "我是奥林匹克，嗯……现在负责看管这座岛上的磨坊……\n这里总是弥漫着面粉的香气，伴着风车转动的节奏声……让人忍不住打起盹来……需要面粉的话……带小麦来找我就好……Zzzz",
 		english_name = "R.M.S. Olympic",
 		name = "奥林匹克",
@@ -157,8 +160,8 @@ pg.base.island_unit_character = {
 		id = 100100,
 		CollisionParam = "",
 		personality = 2
-	},
-	[100200] = {
+	}
+	pg.base.island_unit_character[100200] = {
 		describe_illustrated_guid = "指挥官～我是帕特莉，货运中心的管理员。\n港口的订单、货船调度和贸易报表都交给我来处理吧～\n帕特莉保证让开发区的资材像海风一样快速流通！",
 		english_name = "SS Patrick Henry",
 		name = "帕特莉",
@@ -174,8 +177,8 @@ pg.base.island_unit_character = {
 		id = 100200,
 		CollisionParam = "",
 		personality = 2
-	},
-	[100300] = {
+	}
+	pg.base.island_unit_character[100300] = {
 		describe_illustrated_guid = "嗨~指挥官！是我斯蒂芬妮呀～\n虽然偶尔会偷偷靠在货箱后面摸会儿鱼~不过不用担心！无论是建材还是作物，只要是你需要的，我一定好好安排！\n下次来港口记得叫我哟～",
 		english_name = "SS Stephen Hopkins",
 		name = "斯蒂芬妮",
@@ -191,8 +194,8 @@ pg.base.island_unit_character = {
 		id = 100300,
 		CollisionParam = "",
 		personality = 2
-	},
-	[100400] = {
+	}
+	pg.base.island_unit_character[100400] = {
 		describe_illustrated_guid = "指挥官……我是赫莫……农场的种子正在安静地生长，阳光和雨露会一直滋养着它们……而我们只需耐心等待，等待着这片土地的馈赠。",
 		english_name = "RMS Homeric",
 		name = "赫莫",
@@ -208,8 +211,8 @@ pg.base.island_unit_character = {
 		id = 100400,
 		CollisionParam = "",
 		personality = 2
-	},
-	[100500] = {
+	}
+	pg.base.island_unit_character[100500] = {
 		describe_illustrated_guid = "咩哞哞～岛上充满活力的牧场管理员梅莉——登场！\n现在每天都被毛茸茸的小家伙们包围着，捡鸡蛋、挤牛奶、追着跑丢的小羊羔～这样的日子开心又热闹！指挥官有空也来牧场玩呀！",
 		english_name = "Amerigo Vespucci",
 		name = "梅莉",
@@ -225,8 +228,8 @@ pg.base.island_unit_character = {
 		id = 100500,
 		CollisionParam = "",
 		personality = 2
-	},
-	[100600] = {
+	}
+	pg.base.island_unit_character[100600] = {
 		describe_illustrated_guid = "指挥官！乔安欢迎您来沉石矿山游玩！\n这里的矿洞非常有趣，很值得探索的！等我筹备好，可以带您坐着矿车进去游览一番！\n还会为您唱开矿用的专属曲目，就请好好期待吧！",
 		english_name = "SS John W. Brown",
 		name = "乔安",
@@ -242,8 +245,8 @@ pg.base.island_unit_character = {
 		id = 100600,
 		CollisionParam = "",
 		personality = 2
-	},
-	[100700] = {
+	}
+	pg.base.island_unit_character[100700] = {
 		describe_illustrated_guid = "我是奥布莱恩号，正在为岛屿开发计划努力着。\n指挥官一定不知道，每次工作很疲惫的时候……我都会偷偷想起你呢~这样就算伐木的时候再辛苦，我也依旧很开心。",
 		english_name = "Jeremiah O'Brien",
 		name = "奥布莱恩",
@@ -259,8 +262,8 @@ pg.base.island_unit_character = {
 		id = 100700,
 		CollisionParam = "",
 		personality = 1
-	},
-	[100800] = {
+	}
+	pg.base.island_unit_character[100800] = {
 		describe_illustrated_guid = "指挥官，我是阿莫玛，港口商区的管理者。\n虽然工作细碎，每天都要核对报表、优化店铺陈列、分析客流数据……但看到港口商区日益繁荣，这份满足的成就感就胜过了一切。",
 		english_name = "SS Am-Mer-Mar",
 		name = "阿莫玛",
@@ -276,8 +279,8 @@ pg.base.island_unit_character = {
 		id = 100800,
 		CollisionParam = "",
 		personality = 1
-	},
-	[100900] = {
+	}
+	pg.base.island_unit_character[100900] = {
 		describe_illustrated_guid = "你好啊指挥官，我是开发区的工厂管理员萝莎！\n对我而言，流水线上轰鸣声就是最美妙的音乐！虽然扳手总失踪、进度经常爆炸——但只要指挥官需要，萝莎就能让所有的机器功率全开！",
 		english_name = "SS Brigadier General Clinton W. Russell",
 		name = "萝莎",
@@ -293,8 +296,8 @@ pg.base.island_unit_character = {
 		id = 100900,
 		CollisionParam = "",
 		personality = 1
-	},
-	[101000] = {
+	}
+	pg.base.island_unit_character[101000] = {
 		describe_illustrated_guid = "指挥官，我是集会岛的接待员莉莎。\n现在负责为指挥官提供集会岛的指引与建设支持。\n为了能让开发区的大家能在集会岛上的安全、愉快地活动，我会全力协助指挥官对集会岛的建设。",
 		english_name = "R.M.S Queen Elizabeth",
 		name = "莉莎",
@@ -310,8 +313,8 @@ pg.base.island_unit_character = {
 		id = 101000,
 		CollisionParam = "",
 		personality = 1
-	},
-	[101100] = {
+	}
+	pg.base.island_unit_character[101100] = {
 		describe_illustrated_guid = "阳光～雨露～甜甜的果子快快长～！我是果园管理员露西！\n每天看着地里的果实一点点染上收获的颜色，就觉得世界真美好～",
 		english_name = "RMS Lusitania",
 		name = "露西",
@@ -327,8 +330,8 @@ pg.base.island_unit_character = {
 		id = 101100,
 		CollisionParam = "",
 		personality = 1
-	},
-	[101200] = {
+	}
+	pg.base.island_unit_character[101200] = {
 		describe_illustrated_guid = "指挥官您好，我是布莱梅……港口啾咖啡的店员。\n我喜欢这里空气里咖啡的香味……每天望着热气缓缓升起的感觉，很安心……\n那个……指挥官如果想来，我会为您选个安静的位置。",
 		english_name = "SS Bremen",
 		name = "布莱梅",
@@ -344,8 +347,8 @@ pg.base.island_unit_character = {
 		id = 101200,
 		CollisionParam = "",
 		personality = 1
-	},
-	[101300] = {
+	}
+	pg.base.island_unit_character[101300] = {
 		describe_illustrated_guid = "嘀嘀嗒~这里是指挥官最活泼可爱的集会岛向导玛丽~\n我会用最灿烂的笑容为大家指明方向，让来到集会岛的所有人都能立刻感受到这里的热情与快乐！",
 		english_name = "R.M.S Queen Mary",
 		name = "玛丽 ",
@@ -361,8 +364,8 @@ pg.base.island_unit_character = {
 		id = 101300,
 		CollisionParam = "",
 		personality = 1
-	},
-	[101400] = {
+	}
+	pg.base.island_unit_character[101400] = {
 		describe_illustrated_guid = "指挥官，我是拉科尼娅……在岛上照看苗圃和蜜蜂们……\n阳光洒进来的时候，整个苗圃都很安静，只有蜜蜂嗡嗡的声音……这样的感觉……我很喜欢……\n指挥官……要不要也来尝尝新取的蜂蜜？很甜的……",
 		english_name = "RMS Laconia",
 		name = "拉科尼娅",
@@ -378,8 +381,8 @@ pg.base.island_unit_character = {
 		id = 101400,
 		CollisionParam = "",
 		personality = 1
-	},
-	[101500] = {
+	}
+	pg.base.island_unit_character[101500] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "珂汀 ",
@@ -395,8 +398,8 @@ pg.base.island_unit_character = {
 		id = 101500,
 		CollisionParam = "",
 		personality = 1
-	},
-	[101600] = {
+	}
+	pg.base.island_unit_character[101600] = {
 		describe_illustrated_guid = "我是岛屿的开发季管理员佩芮，现在负责整理开发需要的物资清单。\n最近我在思考新的开发计划……指挥官如果有什么建议也可以告诉我。岛屿的开发之路还很长，但我们可以……一步一步慢慢走。",
 		english_name = "SS Robert E. Peary",
 		name = "佩芮",
@@ -412,8 +415,8 @@ pg.base.island_unit_character = {
 		id = 101600,
 		CollisionParam = "",
 		personality = 1
-	},
-	[101800] = {
+	}
+	pg.base.island_unit_character[101800] = {
 		describe_illustrated_guid = "你好呀指挥官，我是这片渔场的管理员布莉缇！\n这片海域的潮汐流向和鱼群脾气我都一清二楚，只听水流的动静我就知道有没有大家伙在！\n呜喵~偷偷告诉指挥官，我还掌握着独家钓技哦，想学的话随时都可以来找我~",
 		english_name = "RMS Empress of Britain",
 		name = "布莉缇",
@@ -429,8 +432,8 @@ pg.base.island_unit_character = {
 		id = 101800,
 		CollisionParam = "",
 		personality = 1
-	},
-	[300200] = {
+	}
+	pg.base.island_unit_character[300200] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "工作啾",
@@ -446,8 +449,8 @@ pg.base.island_unit_character = {
 		id = 300200,
 		CollisionParam = "",
 		personality = 0
-	},
-	[300300] = {
+	}
+	pg.base.island_unit_character[300300] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "直升鸡",
@@ -463,8 +466,8 @@ pg.base.island_unit_character = {
 		id = 300300,
 		CollisionParam = "",
 		personality = 0
-	},
-	[300400] = {
+	}
+	pg.base.island_unit_character[300400] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "路障鸡",
@@ -480,8 +483,8 @@ pg.base.island_unit_character = {
 		id = 300400,
 		CollisionParam = "",
 		personality = 0
-	},
-	[300500] = {
+	}
+	pg.base.island_unit_character[300500] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "粉鸡",
@@ -497,8 +500,8 @@ pg.base.island_unit_character = {
 		id = 300500,
 		CollisionParam = "",
 		personality = 0
-	},
-	[300600] = {
+	}
+	pg.base.island_unit_character[300600] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "礼帽鸡",
@@ -514,8 +517,8 @@ pg.base.island_unit_character = {
 		id = 300600,
 		CollisionParam = "",
 		personality = 0
-	},
-	[300700] = {
+	}
+	pg.base.island_unit_character[300700] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "麻雀",
@@ -531,8 +534,8 @@ pg.base.island_unit_character = {
 		id = 300700,
 		CollisionParam = "",
 		personality = 0
-	},
-	[300800] = {
+	}
+	pg.base.island_unit_character[300800] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "海鸥",
@@ -548,8 +551,8 @@ pg.base.island_unit_character = {
 		id = 300800,
 		CollisionParam = "",
 		personality = 0
-	},
-	[300900] = {
+	}
+	pg.base.island_unit_character[300900] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "",
@@ -569,8 +572,8 @@ pg.base.island_unit_character = {
 			0.2,
 			0.25
 		}
-	},
-	[300901] = {
+	}
+	pg.base.island_unit_character[300901] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "",
@@ -590,8 +593,8 @@ pg.base.island_unit_character = {
 			0.2,
 			0.25
 		}
-	},
-	[300902] = {
+	}
+	pg.base.island_unit_character[300902] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "",
@@ -611,8 +614,8 @@ pg.base.island_unit_character = {
 			0.2,
 			0.25
 		}
-	},
-	[300903] = {
+	}
+	pg.base.island_unit_character[300903] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "",
@@ -632,8 +635,8 @@ pg.base.island_unit_character = {
 			0.2,
 			0.25
 		}
-	},
-	[301000] = {
+	}
+	pg.base.island_unit_character[301000] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "哼哼猪",
@@ -653,8 +656,8 @@ pg.base.island_unit_character = {
 			0.5,
 			1
 		}
-	},
-	[301100] = {
+	}
+	pg.base.island_unit_character[301100] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "奶牛(牧场)",
@@ -674,8 +677,8 @@ pg.base.island_unit_character = {
 			0.8,
 			1
 		}
-	},
-	[301200] = {
+	}
+	pg.base.island_unit_character[301200] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "黄牛(牧场)",
@@ -695,8 +698,8 @@ pg.base.island_unit_character = {
 			0.8,
 			1
 		}
-	},
-	[301300] = {
+	}
+	pg.base.island_unit_character[301300] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "羊(牧场)",
@@ -716,8 +719,8 @@ pg.base.island_unit_character = {
 			0.5,
 			1
 		}
-	},
-	[302000] = {
+	}
+	pg.base.island_unit_character[302000] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "咯咯鸡",
@@ -737,8 +740,8 @@ pg.base.island_unit_character = {
 			0.3,
 			0.5
 		}
-	},
-	[302300] = {
+	}
+	pg.base.island_unit_character[302300] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "小河虾",
@@ -754,8 +757,8 @@ pg.base.island_unit_character = {
 		id = 302300,
 		CollisionParam = "",
 		personality = 0
-	},
-	[302400] = {
+	}
+	pg.base.island_unit_character[302400] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "鲤鱼",
@@ -771,8 +774,8 @@ pg.base.island_unit_character = {
 		id = 302400,
 		CollisionParam = "",
 		personality = 0
-	},
-	[302500] = {
+	}
+	pg.base.island_unit_character[302500] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "贝壳",
@@ -788,8 +791,8 @@ pg.base.island_unit_character = {
 		id = 302500,
 		CollisionParam = "",
 		personality = 0
-	},
-	[302600] = {
+	}
+	pg.base.island_unit_character[302600] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "小龙虾",
@@ -805,8 +808,8 @@ pg.base.island_unit_character = {
 		id = 302600,
 		CollisionParam = "",
 		personality = 0
-	},
-	[302700] = {
+	}
+	pg.base.island_unit_character[302700] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "三文鱼",
@@ -822,8 +825,8 @@ pg.base.island_unit_character = {
 		id = 302700,
 		CollisionParam = "",
 		personality = 0
-	},
-	[302800] = {
+	}
+	pg.base.island_unit_character[302800] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "海参",
@@ -839,8 +842,8 @@ pg.base.island_unit_character = {
 		id = 302800,
 		CollisionParam = "",
 		personality = 0
-	},
-	[302900] = {
+	}
+	pg.base.island_unit_character[302900] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "鱿鱼",
@@ -856,8 +859,8 @@ pg.base.island_unit_character = {
 		id = 302900,
 		CollisionParam = "",
 		personality = 0
-	},
-	[303000] = {
+	}
+	pg.base.island_unit_character[303000] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "金枪鱼",
@@ -873,8 +876,8 @@ pg.base.island_unit_character = {
 		id = 303000,
 		CollisionParam = "",
 		personality = 0
-	},
-	[303100] = {
+	}
+	pg.base.island_unit_character[303100] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "螃蟹",
@@ -890,8 +893,8 @@ pg.base.island_unit_character = {
 		id = 303100,
 		CollisionParam = "",
 		personality = 0
-	},
-	[303300] = {
+	}
+	pg.base.island_unit_character[303300] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "鲶鱼",
@@ -907,8 +910,8 @@ pg.base.island_unit_character = {
 		id = 303300,
 		CollisionParam = "",
 		personality = 0
-	},
-	[303400] = {
+	}
+	pg.base.island_unit_character[303400] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "鲫鱼",
@@ -924,8 +927,8 @@ pg.base.island_unit_character = {
 		id = 303400,
 		CollisionParam = "",
 		personality = 0
-	},
-	[303500] = {
+	}
+	pg.base.island_unit_character[303500] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "马鲛鱼",
@@ -941,8 +944,8 @@ pg.base.island_unit_character = {
 		id = 303500,
 		CollisionParam = "",
 		personality = 0
-	},
-	[303600] = {
+	}
+	pg.base.island_unit_character[303600] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "红鲷鱼",
@@ -958,8 +961,8 @@ pg.base.island_unit_character = {
 		id = 303600,
 		CollisionParam = "",
 		personality = 0
-	},
-	[303700] = {
+	}
+	pg.base.island_unit_character[303700] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "黄鳍金枪鱼",
@@ -975,8 +978,8 @@ pg.base.island_unit_character = {
 		id = 303700,
 		CollisionParam = "",
 		personality = 0
-	},
-	[303800] = {
+	}
+	pg.base.island_unit_character[303800] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "鲈鱼",
@@ -992,8 +995,8 @@ pg.base.island_unit_character = {
 		id = 303800,
 		CollisionParam = "",
 		personality = 0
-	},
-	[303900] = {
+	}
+	pg.base.island_unit_character[303900] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "黑鲷鱼",
@@ -1009,8 +1012,8 @@ pg.base.island_unit_character = {
 		id = 303900,
 		CollisionParam = "",
 		personality = 0
-	},
-	[900100] = {
+	}
+	pg.base.island_unit_character[900100] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "",
@@ -1026,8 +1029,8 @@ pg.base.island_unit_character = {
 		id = 900100,
 		CollisionParam = "",
 		personality = 0
-	},
-	[900102] = {
+	}
+	pg.base.island_unit_character[900102] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "",
@@ -1043,8 +1046,8 @@ pg.base.island_unit_character = {
 		id = 900102,
 		CollisionParam = "",
 		personality = 0
-	},
-	[900103] = {
+	}
+	pg.base.island_unit_character[900103] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "",
@@ -1060,8 +1063,8 @@ pg.base.island_unit_character = {
 		id = 900103,
 		CollisionParam = "",
 		personality = 0
-	},
-	[900104] = {
+	}
+	pg.base.island_unit_character[900104] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "",
@@ -1077,8 +1080,8 @@ pg.base.island_unit_character = {
 		id = 900104,
 		CollisionParam = "",
 		personality = 0
-	},
-	[900110] = {
+	}
+	pg.base.island_unit_character[900110] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "",
@@ -1094,8 +1097,8 @@ pg.base.island_unit_character = {
 		id = 900110,
 		CollisionParam = "",
 		personality = 0
-	},
-	[900120] = {
+	}
+	pg.base.island_unit_character[900120] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "",
@@ -1111,8 +1114,8 @@ pg.base.island_unit_character = {
 		id = 900120,
 		CollisionParam = "",
 		personality = 0
-	},
-	[900112] = {
+	}
+	pg.base.island_unit_character[900112] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "",
@@ -1128,8 +1131,8 @@ pg.base.island_unit_character = {
 		id = 900112,
 		CollisionParam = "",
 		personality = 0
-	},
-	[900122] = {
+	}
+	pg.base.island_unit_character[900122] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "",
@@ -1145,8 +1148,8 @@ pg.base.island_unit_character = {
 		id = 900122,
 		CollisionParam = "",
 		personality = 0
-	},
-	[900113] = {
+	}
+	pg.base.island_unit_character[900113] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "",
@@ -1162,8 +1165,8 @@ pg.base.island_unit_character = {
 		id = 900113,
 		CollisionParam = "",
 		personality = 0
-	},
-	[900123] = {
+	}
+	pg.base.island_unit_character[900123] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "",
@@ -1179,8 +1182,8 @@ pg.base.island_unit_character = {
 		id = 900123,
 		CollisionParam = "",
 		personality = 0
-	},
-	[900114] = {
+	}
+	pg.base.island_unit_character[900114] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "",
@@ -1196,8 +1199,8 @@ pg.base.island_unit_character = {
 		id = 900114,
 		CollisionParam = "",
 		personality = 0
-	},
-	[900124] = {
+	}
+	pg.base.island_unit_character[900124] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "",
@@ -1213,8 +1216,8 @@ pg.base.island_unit_character = {
 		id = 900124,
 		CollisionParam = "",
 		personality = 0
-	},
-	[1011000] = {
+	}
+	pg.base.island_unit_character[1011000] = {
 		describe_illustrated_guid = "指挥官！岛屿探险地图我已经画好了！虽然、虽然可能有点歪……但这次我一定会找到传说中的秘密宝藏的！相信我吧！",
 		english_name = "USS William D. Porter",
 		name = "威廉·D·波特",
@@ -1230,8 +1233,8 @@ pg.base.island_unit_character = {
 		id = 1011000,
 		CollisionParam = "",
 		personality = 1
-	},
-	[1011001] = {
+	}
+	pg.base.island_unit_character[1011001] = {
 		describe_illustrated_guid = "",
 		english_name = "USS William D. Porter",
 		name = "威廉·D·波特",
@@ -1247,8 +1250,8 @@ pg.base.island_unit_character = {
 		id = 1011001,
 		CollisionParam = "",
 		personality = 1
-	},
-	[1011002] = {
+	}
+	pg.base.island_unit_character[1011002] = {
 		describe_illustrated_guid = "",
 		english_name = "USS William D. Porter",
 		name = "威廉·D·波特",
@@ -1264,8 +1267,8 @@ pg.base.island_unit_character = {
 		id = 1011002,
 		CollisionParam = "",
 		personality = 1
-	},
-	[1020500] = {
+	}
+	pg.base.island_unit_character[1020500] = {
 		describe_illustrated_guid = "这里的海风很温和，阳光也正好……那个，指挥官，如果工作累了，我泡了新的花茶，要一起尝尝看吗？",
 		english_name = "USS Helena",
 		name = "海伦娜",
@@ -1281,8 +1284,8 @@ pg.base.island_unit_character = {
 		id = 1020500,
 		CollisionParam = "",
 		personality = 2
-	},
-	[1020501] = {
+	}
+	pg.base.island_unit_character[1020501] = {
 		describe_illustrated_guid = "",
 		english_name = "USS Helena",
 		name = "海伦娜",
@@ -1298,8 +1301,8 @@ pg.base.island_unit_character = {
 		id = 1020501,
 		CollisionParam = "",
 		personality = 2
-	},
-	[1020502] = {
+	}
+	pg.base.island_unit_character[1020502] = {
 		describe_illustrated_guid = "",
 		english_name = "USS Helena",
 		name = "海伦娜",
@@ -1315,8 +1318,8 @@ pg.base.island_unit_character = {
 		id = 1020502,
 		CollisionParam = "",
 		personality = 2
-	},
-	[1051700] = {
+	}
+	pg.base.island_unit_character[1051700] = {
 		describe_illustrated_guid = "无论是战场还是林地，Black Dragon都会是最强的存在！Honey~和我一起迈向世界第一吧♪",
 		english_name = "USS New Jersey",
 		name = "{namecode:199}",
@@ -1332,8 +1335,8 @@ pg.base.island_unit_character = {
 		id = 1051700,
 		CollisionParam = "",
 		personality = 1
-	},
-	[1051701] = {
+	}
+	pg.base.island_unit_character[1051701] = {
 		describe_illustrated_guid = "",
 		english_name = "USS New Jersey",
 		name = "{namecode:199}",
@@ -1349,8 +1352,8 @@ pg.base.island_unit_character = {
 		id = 1051701,
 		CollisionParam = "",
 		personality = 1
-	},
-	[1051702] = {
+	}
+	pg.base.island_unit_character[1051702] = {
 		describe_illustrated_guid = "",
 		english_name = "USS New Jersey",
 		name = "{namecode:199}",
@@ -1366,8 +1369,8 @@ pg.base.island_unit_character = {
 		id = 1051702,
 		CollisionParam = "",
 		personality = 1
-	},
-	[1070300] = {
+	}
+	pg.base.island_unit_character[1070300] = {
 		describe_illustrated_guid = "从天空到大地，萨拉托加带着满满的收获来啦！指挥官，要尝尝我亲手种出的新鲜蔬菜吗？嘿嘿，保证“营养”丰富哦~",
 		english_name = "USS Saratoga",
 		name = "萨拉托加",
@@ -1383,8 +1386,8 @@ pg.base.island_unit_character = {
 		id = 1070300,
 		CollisionParam = "",
 		personality = 1
-	},
-	[1070301] = {
+	}
+	pg.base.island_unit_character[1070301] = {
 		describe_illustrated_guid = "",
 		english_name = "USS Saratoga",
 		name = "萨拉托加",
@@ -1400,8 +1403,8 @@ pg.base.island_unit_character = {
 		id = 1070301,
 		CollisionParam = "",
 		personality = 1
-	},
-	[1070302] = {
+	}
+	pg.base.island_unit_character[1070302] = {
 		describe_illustrated_guid = "",
 		english_name = "USS Saratoga",
 		name = "萨拉托加",
@@ -1417,8 +1420,8 @@ pg.base.island_unit_character = {
 		id = 1070302,
 		CollisionParam = "",
 		personality = 1
-	},
-	[2060300] = {
+	}
+	pg.base.island_unit_character[2060300] = {
 		describe_illustrated_guid = "哥、哥哥……能像现在这样帮上大家的忙，独角兽真的很开心！之后，我也会继续加油的……因为……最喜欢哥哥了！",
 		english_name = "HMS Unicorn",
 		name = "独角兽",
@@ -1434,8 +1437,8 @@ pg.base.island_unit_character = {
 		id = 2060300,
 		CollisionParam = "",
 		personality = 2
-	},
-	[2060301] = {
+	}
+	pg.base.island_unit_character[2060301] = {
 		describe_illustrated_guid = "",
 		english_name = "HMS Unicorn",
 		name = "独角兽",
@@ -1451,8 +1454,8 @@ pg.base.island_unit_character = {
 		id = 2060301,
 		CollisionParam = "",
 		personality = 2
-	},
-	[2060302] = {
+	}
+	pg.base.island_unit_character[2060302] = {
 		describe_illustrated_guid = "",
 		english_name = "HMS Unicorn",
 		name = "独角兽",
@@ -1468,8 +1471,8 @@ pg.base.island_unit_character = {
 		id = 2060302,
 		CollisionParam = "",
 		personality = 2
-	},
-	[2040300] = {
+	}
+	pg.base.island_unit_character[2040300] = {
 		describe_illustrated_guid = "皇家的优雅从不因时光而褪色~指挥官，可愿与我共品红茶，细语未来的胜利。",
 		english_name = "HMS Hood",
 		name = "胡德",
@@ -1485,8 +1488,8 @@ pg.base.island_unit_character = {
 		id = 2040300,
 		CollisionParam = "",
 		personality = 2
-	},
-	[2990300] = {
+	}
+	pg.base.island_unit_character[2990300] = {
 		describe_illustrated_guid = "亲爱的~你的目光又落在柴郡身上了呢……真好！再多看看我，只看着我吧~喵♡",
 		english_name = "HMS Cheshire",
 		name = "柴郡",
@@ -1502,8 +1505,8 @@ pg.base.island_unit_character = {
 		id = 2990300,
 		CollisionParam = "",
 		personality = 1
-	},
-	[2990301] = {
+	}
+	pg.base.island_unit_character[2990301] = {
 		describe_illustrated_guid = "",
 		english_name = "HMS Cheshire",
 		name = "柴郡",
@@ -1519,8 +1522,8 @@ pg.base.island_unit_character = {
 		id = 2990301,
 		CollisionParam = "",
 		personality = 1
-	},
-	[2990302] = {
+	}
+	pg.base.island_unit_character[2990302] = {
 		describe_illustrated_guid = "",
 		english_name = "HMS Cheshire",
 		name = "柴郡",
@@ -1536,8 +1539,8 @@ pg.base.island_unit_character = {
 		id = 2990302,
 		CollisionParam = "",
 		personality = 1
-	},
-	[3012900] = {
+	}
+	pg.base.island_unit_character[3012900] = {
 		describe_illustrated_guid = "速度是制胜的关键！无论是配送、收割还是支援，全都交给最快的岛风吧！哼哼，绝对轻松搞定~",
 		english_name = "IJN Shimakaze",
 		name = "{namecode:18}",
@@ -1553,8 +1556,8 @@ pg.base.island_unit_character = {
 		id = 3012900,
 		CollisionParam = "",
 		personality = 1
-	},
-	[3012901] = {
+	}
+	pg.base.island_unit_character[3012901] = {
 		describe_illustrated_guid = "",
 		english_name = "IJN Shimakaze",
 		name = "{namecode:18}",
@@ -1570,8 +1573,8 @@ pg.base.island_unit_character = {
 		id = 3012901,
 		CollisionParam = "",
 		personality = 1
-	},
-	[3012902] = {
+	}
+	pg.base.island_unit_character[3012902] = {
 		describe_illustrated_guid = "",
 		english_name = "IJN Shimakaze",
 		name = "{namecode:18}",
@@ -1587,8 +1590,8 @@ pg.base.island_unit_character = {
 		id = 3012902,
 		CollisionParam = "",
 		personality = 1
-	},
-	[3031200] = {
+	}
+	pg.base.island_unit_character[3031200] = {
 		describe_illustrated_guid = "工作？任务？那些都暂时忘掉吧~来，指挥官，枕在姐姐腿上，好好享受只属于你的安心午睡时间……",
 		english_name = "IJN Atago",
 		name = "{namecode:67}",
@@ -1604,8 +1607,8 @@ pg.base.island_unit_character = {
 		id = 3031200,
 		CollisionParam = "",
 		personality = 1
-	},
-	[3031201] = {
+	}
+	pg.base.island_unit_character[3031201] = {
 		describe_illustrated_guid = "",
 		english_name = "IJN Atago",
 		name = "{namecode:67}",
@@ -1621,8 +1624,8 @@ pg.base.island_unit_character = {
 		id = 3031201,
 		CollisionParam = "",
 		personality = 1
-	},
-	[3031202] = {
+	}
+	pg.base.island_unit_character[3031202] = {
 		describe_illustrated_guid = "",
 		english_name = "IJN Atago",
 		name = "{namecode:67}",
@@ -1638,8 +1641,8 @@ pg.base.island_unit_character = {
 		id = 3031202,
 		CollisionParam = "",
 		personality = 1
-	},
-	[3040700] = {
+	}
+	pg.base.island_unit_character[3040700] = {
 		describe_illustrated_guid = "呵护岛上的每一棵小树……这就是现在的我守护大家的方式！指挥官，要看着我的果树慢慢长大哦～",
 		english_name = "IJN Amagi",
 		name = "{namecode:193}",
@@ -1655,8 +1658,8 @@ pg.base.island_unit_character = {
 		id = 3040700,
 		CollisionParam = "",
 		personality = 2
-	},
-	[3040701] = {
+	}
+	pg.base.island_unit_character[3040701] = {
 		describe_illustrated_guid = "",
 		english_name = "IJN Amagi",
 		name = "{namecode:193}",
@@ -1672,8 +1675,8 @@ pg.base.island_unit_character = {
 		id = 3040701,
 		CollisionParam = "",
 		personality = 2
-	},
-	[3040702] = {
+	}
+	pg.base.island_unit_character[3040702] = {
 		describe_illustrated_guid = "",
 		english_name = "IJN Amagi",
 		name = "{namecode:193}",
@@ -1689,8 +1692,8 @@ pg.base.island_unit_character = {
 		id = 3040702,
 		CollisionParam = "",
 		personality = 2
-	},
-	[3070700] = {
+	}
+	pg.base.island_unit_character[3070700] = {
 		describe_illustrated_guid = "指挥官大人～不管在哪里……大凤的全部，都是只属于您一个人的哦？要好好珍惜呢~❤",
 		english_name = "IJN Taihō",
 		name = "{namecode:97}",
@@ -1706,8 +1709,8 @@ pg.base.island_unit_character = {
 		id = 3070700,
 		CollisionParam = "",
 		personality = 1
-	},
-	[3120100] = {
+	}
+	pg.base.island_unit_character[3120100] = {
 		describe_illustrated_guid = "喵哈哈~万能的明石可以用最新技术给指挥升级工具喵！只要一点点的研发费用和材料~很实惠吧喵~",
 		english_name = "IJN Akashi",
 		name = "{namecode:98}",
@@ -1723,8 +1726,8 @@ pg.base.island_unit_character = {
 		id = 3120100,
 		CollisionParam = "",
 		personality = 1
-	},
-	[3120101] = {
+	}
+	pg.base.island_unit_character[3120101] = {
 		describe_illustrated_guid = "",
 		english_name = "IJN Akashi",
 		name = "{namecode:98}",
@@ -1740,8 +1743,8 @@ pg.base.island_unit_character = {
 		id = 3120101,
 		CollisionParam = "",
 		personality = 1
-	},
-	[3120102] = {
+	}
+	pg.base.island_unit_character[3120102] = {
 		describe_illustrated_guid = "",
 		english_name = "IJN Akashi",
 		name = "{namecode:98}",
@@ -1757,8 +1760,8 @@ pg.base.island_unit_character = {
 		id = 3120102,
 		CollisionParam = "",
 		personality = 1
-	},
-	[3120199] = {
+	}
+	pg.base.island_unit_character[3120199] = {
 		describe_illustrated_guid = "",
 		english_name = "",
 		name = "？？？",
@@ -1774,8 +1777,8 @@ pg.base.island_unit_character = {
 		id = 3120199,
 		CollisionParam = "",
 		personality = 0
-	},
-	[4030300] = {
+	}
+	pg.base.island_unit_character[4030300] = {
 		describe_illustrated_guid = "指挥官，想尝尝我为你特别准备的惊喜吗？……呵呵，不必担心，这微妙的滋味一定会让你……回味无穷哦~",
 		english_name = "KMS Prinz Eugen",
 		name = "{namecode:427}",
@@ -1791,8 +1794,8 @@ pg.base.island_unit_character = {
 		id = 4030300,
 		CollisionParam = "",
 		personality = 1
-	},
-	[4030301] = {
+	}
+	pg.base.island_unit_character[4030301] = {
 		describe_illustrated_guid = "",
 		english_name = "KMS Prinz Eugen",
 		name = "{namecode:427}",
@@ -1808,8 +1811,8 @@ pg.base.island_unit_character = {
 		id = 4030301,
 		CollisionParam = "",
 		personality = 1
-	},
-	[4030302] = {
+	}
+	pg.base.island_unit_character[4030302] = {
 		describe_illustrated_guid = "",
 		english_name = "KMS Prinz Eugen",
 		name = "{namecode:427}",
@@ -1825,8 +1828,8 @@ pg.base.island_unit_character = {
 		id = 4030302,
 		CollisionParam = "",
 		personality = 1
-	},
-	[4990200] = {
+	}
+	pg.base.island_unit_character[4990200] = {
 		describe_illustrated_guid = "将战场上的布局，化为庭院的规划。这里是属于我们的新天地，你只需尽情享受这份宁静……其余的，交给我就好，我的孩子。",
 		english_name = "KMS Friedrich der Grosse",
 		name = "{namecode:440}",
@@ -1842,8 +1845,8 @@ pg.base.island_unit_character = {
 		id = 4990200,
 		CollisionParam = "",
 		personality = 1
-	},
-	[4990201] = {
+	}
+	pg.base.island_unit_character[4990201] = {
 		describe_illustrated_guid = "",
 		english_name = "KMS Friedrich der Grosse",
 		name = "{namecode:440}",
@@ -1859,8 +1862,10 @@ pg.base.island_unit_character = {
 		id = 4990201,
 		CollisionParam = "",
 		personality = 1
-	},
-	[4990202] = {
+	}
+end)()
+(function ()
+	pg.base.island_unit_character[4990202] = {
 		describe_illustrated_guid = "",
 		english_name = "KMS Friedrich der Grosse",
 		name = "{namecode:440}",
@@ -1876,8 +1881,8 @@ pg.base.island_unit_character = {
 		id = 4990202,
 		CollisionParam = "",
 		personality = 1
-	},
-	[5020400] = {
+	}
+	pg.base.island_unit_character[5020400] = {
 		describe_illustrated_guid = "茶已沏好，墨亦研匀……指挥官，要暂时放下工作，来陪我共赏这幅未完成的画吗？",
 		english_name = "Ying Swei",
 		name = "应瑞",
@@ -1893,8 +1898,8 @@ pg.base.island_unit_character = {
 		id = 5020400,
 		CollisionParam = "",
 		personality = 2
-	},
-	[5020500] = {
+	}
+	pg.base.island_unit_character[5020500] = {
 		describe_illustrated_guid = "真是的…！要我说多少次才行——我才是姐姐呀！指挥官，你可要好好记住这一点哦？不然我会生气的！",
 		english_name = "Chao Ho",
 		name = "肇和",
@@ -1910,8 +1915,8 @@ pg.base.island_unit_character = {
 		id = 5020500,
 		CollisionParam = "",
 		personality = 1
-	},
-	[5060100] = {
+	}
+	pg.base.island_unit_character[5060100] = {
 		describe_illustrated_guid = "棋局暂歇，方寸田园亦有趣味。指挥官，不妨将岛屿的运营也视作一盘棋？不过现在，我只想与你静静品茗观花。",
 		english_name = "Chen Hai",
 		name = "镇海",
@@ -1927,8 +1932,8 @@ pg.base.island_unit_character = {
 		id = 5060100,
 		CollisionParam = "",
 		personality = 2
-	},
-	[5060101] = {
+	}
+	pg.base.island_unit_character[5060101] = {
 		describe_illustrated_guid = "",
 		english_name = "Chen Hai",
 		name = "镇海",
@@ -1944,8 +1949,8 @@ pg.base.island_unit_character = {
 		id = 5060101,
 		CollisionParam = "",
 		personality = 2
-	},
-	[5060102] = {
+	}
+	pg.base.island_unit_character[5060102] = {
 		describe_illustrated_guid = "",
 		english_name = "Chen Hai",
 		name = "镇海",
@@ -1961,8 +1966,8 @@ pg.base.island_unit_character = {
 		id = 5060102,
 		CollisionParam = "",
 		personality = 2
-	},
-	[6080200] = {
+	}
+	pg.base.island_unit_character[6080200] = {
 		describe_illustrated_guid = "指挥官，这地方给我提供了不少有趣的灵感呢~我的大脑已经在全速运转啦！有任何需求都尽管来找我吧~",
 		english_name = "RN Leonardo da Vinci",
 		name = "莱昂纳多·达·芬奇",
@@ -1978,8 +1983,8 @@ pg.base.island_unit_character = {
 		id = 6080200,
 		CollisionParam = "",
 		personality = 2
-	},
-	[7010400] = {
+	}
+	pg.base.island_unit_character[7010400] = {
 		describe_illustrated_guid = "天蓝色的轨迹会继续延伸至远方……不过比起独行，塔什干更期待与同志酱共享这份宁静。",
 		english_name = "SN Tashkent",
 		name = "塔什干",
@@ -1995,8 +2000,8 @@ pg.base.island_unit_character = {
 		id = 7010400,
 		CollisionParam = "",
 		personality = 2
-	},
-	[9011100] = {
+	}
+	pg.base.island_unit_character[9011100] = {
 		describe_illustrated_guid = "虽然确实说过尽管吩咐……但这工作范围未免也太广了……哈啊……指挥官，我先小睡五分钟……就五分钟……",
 		english_name = "MNF Le Malin",
 		name = "恶毒",
@@ -2012,8 +2017,8 @@ pg.base.island_unit_character = {
 		id = 9011100,
 		CollisionParam = "",
 		personality = 2
-	},
-	[99000100] = {
+	}
+	pg.base.island_unit_character[99000100] = {
 		describe_illustrated_guid = "呐——笨蛋指挥官还在按部就班吗？真没劲~！要不要跟我来点刺激的？比如……在岛屿上举办一场冒险比赛？输的人可要听赢家的话哦！",
 		english_name = "Oceana",
 		name = "领洋者-娜比娅",
@@ -2029,8 +2034,8 @@ pg.base.island_unit_character = {
 		id = 99000100,
 		CollisionParam = "",
 		personality = 1
-	},
-	[99000101] = {
+	}
+	pg.base.island_unit_character[99000101] = {
 		describe_illustrated_guid = "",
 		english_name = "Oceana",
 		name = "领洋者-娜比娅",
@@ -2046,8 +2051,8 @@ pg.base.island_unit_character = {
 		id = 99000101,
 		CollisionParam = "",
 		personality = 1
-	},
-	[99000102] = {
+	}
+	pg.base.island_unit_character[99000102] = {
 		describe_illustrated_guid = "",
 		english_name = "Oceana",
 		name = "领洋者-娜比娅",
@@ -2063,8 +2068,8 @@ pg.base.island_unit_character = {
 		id = 99000102,
 		CollisionParam = "",
 		personality = 1
-	},
-	[99000200] = {
+	}
+	pg.base.island_unit_character[99000200] = {
 		describe_illustrated_guid = "正在扫描岛屿生态……判断当前环境适宜度：优。切换至休闲模式……指挥官，我的数据库可辅助规划最优日程，要现在生成方案吗？",
 		english_name = "Navigator",
 		name = "领航员-TB",
@@ -2080,8 +2085,8 @@ pg.base.island_unit_character = {
 		id = 99000200,
 		CollisionParam = "",
 		personality = 2
-	},
-	[99000201] = {
+	}
+	pg.base.island_unit_character[99000201] = {
 		describe_illustrated_guid = "",
 		english_name = "Navigator",
 		name = "领航员-TB",
@@ -2097,8 +2102,8 @@ pg.base.island_unit_character = {
 		id = 99000201,
 		CollisionParam = "",
 		personality = 2
-	},
-	[99000202] = {
+	}
+	pg.base.island_unit_character[99000202] = {
 		describe_illustrated_guid = "",
 		english_name = "Navigator",
 		name = "领航员-TB",
@@ -2114,8 +2119,8 @@ pg.base.island_unit_character = {
 		id = 99000202,
 		CollisionParam = "",
 		personality = 2
-	},
-	[99000300] = {
+	}
+	pg.base.island_unit_character[99000300] = {
 		describe_illustrated_guid = "家长大人，您看……这片叶子的形状很特别。是我在一处很漂亮的花园中发现的，如果您喜欢，我可以带您去看哦~",
 		english_name = "Explorer",
 		name = "探索者-艾普洛",
@@ -2131,8 +2136,8 @@ pg.base.island_unit_character = {
 		id = 99000300,
 		CollisionParam = "",
 		personality = 2
-	},
-	[99000301] = {
+	}
+	pg.base.island_unit_character[99000301] = {
 		describe_illustrated_guid = "",
 		english_name = "Explorer",
 		name = "探索者-艾普洛",
@@ -2148,8 +2153,8 @@ pg.base.island_unit_character = {
 		id = 99000301,
 		CollisionParam = "",
 		personality = 2
-	},
-	[99000302] = {
+	}
+	pg.base.island_unit_character[99000302] = {
 		describe_illustrated_guid = "",
 		english_name = "Explorer",
 		name = "探索者-艾普洛",
@@ -2166,4 +2171,4 @@ pg.base.island_unit_character = {
 		CollisionParam = "",
 		personality = 2
 	}
-}
+end)()

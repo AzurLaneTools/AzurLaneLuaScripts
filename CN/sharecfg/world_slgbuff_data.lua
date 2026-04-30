@@ -1,6 +1,113 @@
 pg = pg or {}
-pg.world_SLGbuff_data = {
-	{
+pg.world_SLGbuff_data = rawget(pg, "world_SLGbuff_data") or setmetatable({
+	__name = "world_SLGbuff_data"
+}, confNEO)
+pg.world_SLGbuff_data.all = {
+	1,
+	2,
+	200,
+	201,
+	202,
+	301,
+	302,
+	303,
+	304,
+	305,
+	306,
+	307,
+	308,
+	309,
+	310,
+	311,
+	312,
+	313,
+	314,
+	315,
+	316,
+	317,
+	318,
+	320,
+	321,
+	322,
+	323,
+	324,
+	325,
+	326,
+	401,
+	402,
+	403,
+	600,
+	601,
+	602,
+	610,
+	620,
+	630,
+	700,
+	710,
+	1010,
+	1020,
+	1030,
+	1040,
+	1050,
+	1060,
+	1110,
+	1120,
+	1130,
+	1210,
+	1220,
+	1230,
+	1240,
+	1250,
+	1260,
+	1270,
+	1280,
+	1290,
+	1300,
+	1310,
+	1320,
+	1410,
+	1420,
+	1430,
+	1440,
+	1450,
+	1460,
+	1470,
+	1480,
+	1490,
+	1500,
+	1510,
+	1520,
+	1530,
+	1540,
+	1550,
+	1560,
+	2000,
+	2010,
+	2020,
+	2100,
+	2110,
+	2120,
+	2200,
+	2210,
+	2220,
+	2300,
+	2310,
+	2320,
+	2400,
+	2410,
+	2420,
+	2500,
+	2510,
+	2520,
+	4000,
+	4010,
+	4020
+}
+pg.base = pg.base or {}
+pg.base.world_SLGbuff_data = {}
+
+(function ()
+	pg.base.world_SLGbuff_data[1] = {
 		name = "战损",
 		trap_type = 0,
 		lua_id = 0,
@@ -44,8 +151,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	{
+	}
+	pg.base.world_SLGbuff_data[2] = {
 		name = "塞壬干扰",
 		trap_type = 0,
 		lua_id = 0,
@@ -68,8 +175,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[200] = {
+	}
+	pg.base.world_SLGbuff_data[200] = {
 		name = "士气低落LV1",
 		trap_type = 0,
 		lua_id = 0,
@@ -113,8 +220,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[201] = {
+	}
+	pg.base.world_SLGbuff_data[201] = {
 		name = "士气低落LV2",
 		trap_type = 0,
 		lua_id = 0,
@@ -158,8 +265,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[202] = {
+	}
+	pg.base.world_SLGbuff_data[202] = {
 		name = "士气低落LV3",
 		trap_type = 0,
 		lua_id = 0,
@@ -203,8 +310,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[301] = {
+	}
+	pg.base.world_SLGbuff_data[301] = {
 		name = "异常：电磁干扰",
 		trap_type = 1,
 		lua_id = 0,
@@ -227,8 +334,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[302] = {
+	}
+	pg.base.world_SLGbuff_data[302] = {
 		name = "异常：漩涡扰动",
 		trap_type = 2,
 		lua_id = 0,
@@ -253,8 +360,8 @@ pg.world_SLGbuff_data = {
 			30
 		},
 		delete_traptype = {}
-	},
-	[303] = {
+	}
+	pg.base.world_SLGbuff_data[303] = {
 		name = "异常：燃烧",
 		trap_type = 3,
 		lua_id = 0,
@@ -281,8 +388,8 @@ pg.world_SLGbuff_data = {
 		delete_traptype = {
 			6
 		}
-	},
-	[304] = {
+	}
+	pg.base.world_SLGbuff_data[304] = {
 		name = "异常：导航干扰",
 		trap_type = 4,
 		lua_id = 0,
@@ -305,8 +412,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[305] = {
+	}
+	pg.base.world_SLGbuff_data[305] = {
 		name = "异常：移动受限",
 		trap_type = 5,
 		lua_id = 0,
@@ -333,8 +440,8 @@ pg.world_SLGbuff_data = {
 			50
 		},
 		delete_traptype = {}
-	},
-	[306] = {
+	}
+	pg.base.world_SLGbuff_data[306] = {
 		name = "异常：结冰",
 		trap_type = 6,
 		lua_id = 0,
@@ -368,8 +475,8 @@ pg.world_SLGbuff_data = {
 		delete_traptype = {
 			3
 		}
-	},
-	[307] = {
+	}
+	pg.base.world_SLGbuff_data[307] = {
 		name = "异常：移动受限",
 		trap_type = 5,
 		lua_id = 0,
@@ -396,8 +503,8 @@ pg.world_SLGbuff_data = {
 			100
 		},
 		delete_traptype = {}
-	},
-	[308] = {
+	}
+	pg.base.world_SLGbuff_data[308] = {
 		name = "异常：燃烧",
 		trap_type = 3,
 		lua_id = 0,
@@ -424,8 +531,8 @@ pg.world_SLGbuff_data = {
 		delete_traptype = {
 			6
 		}
-	},
-	[309] = {
+	}
+	pg.base.world_SLGbuff_data[309] = {
 		name = "异常：导航干扰",
 		trap_type = 4,
 		lua_id = 0,
@@ -448,8 +555,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[310] = {
+	}
+	pg.base.world_SLGbuff_data[310] = {
 		name = "异常：移动受限",
 		trap_type = 5,
 		lua_id = 0,
@@ -476,8 +583,8 @@ pg.world_SLGbuff_data = {
 			80
 		},
 		delete_traptype = {}
-	},
-	[311] = {
+	}
+	pg.base.world_SLGbuff_data[311] = {
 		name = "异常：导航干扰",
 		trap_type = 4,
 		lua_id = 0,
@@ -500,8 +607,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[312] = {
+	}
+	pg.base.world_SLGbuff_data[312] = {
 		name = "异常：移动受限",
 		trap_type = 5,
 		lua_id = 0,
@@ -528,8 +635,8 @@ pg.world_SLGbuff_data = {
 			50
 		},
 		delete_traptype = {}
-	},
-	[313] = {
+	}
+	pg.base.world_SLGbuff_data[313] = {
 		name = "异常：电磁干扰",
 		trap_type = 1,
 		lua_id = 0,
@@ -552,8 +659,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[314] = {
+	}
+	pg.base.world_SLGbuff_data[314] = {
 		name = "异常：强力电磁干扰",
 		trap_type = 1,
 		lua_id = 0,
@@ -576,8 +683,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[315] = {
+	}
+	pg.base.world_SLGbuff_data[315] = {
 		name = "异常：燃烧",
 		trap_type = 3,
 		lua_id = 0,
@@ -604,8 +711,8 @@ pg.world_SLGbuff_data = {
 		delete_traptype = {
 			1006
 		}
-	},
-	[316] = {
+	}
+	pg.base.world_SLGbuff_data[316] = {
 		name = "异常：结冰",
 		trap_type = 6,
 		lua_id = 0,
@@ -639,8 +746,8 @@ pg.world_SLGbuff_data = {
 		delete_traptype = {
 			1003
 		}
-	},
-	[317] = {
+	}
+	pg.base.world_SLGbuff_data[317] = {
 		name = "异常：漩涡扰动",
 		trap_type = 2,
 		lua_id = 0,
@@ -665,8 +772,8 @@ pg.world_SLGbuff_data = {
 			30
 		},
 		delete_traptype = {}
-	},
-	[318] = {
+	}
+	pg.base.world_SLGbuff_data[318] = {
 		name = "异常：强力导航干扰",
 		trap_type = 4,
 		lua_id = 0,
@@ -689,8 +796,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[320] = {
+	}
+	pg.base.world_SLGbuff_data[320] = {
 		name = "异常：烧灼",
 		trap_type = 3,
 		lua_id = 0,
@@ -717,8 +824,8 @@ pg.world_SLGbuff_data = {
 		delete_traptype = {
 			6
 		}
-	},
-	[321] = {
+	}
+	pg.base.world_SLGbuff_data[321] = {
 		name = "异常：电磁干扰",
 		trap_type = 1,
 		lua_id = 0,
@@ -741,8 +848,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[322] = {
+	}
+	pg.base.world_SLGbuff_data[322] = {
 		name = "异常：漩涡扰动",
 		trap_type = 2,
 		lua_id = 0,
@@ -767,8 +874,8 @@ pg.world_SLGbuff_data = {
 			30
 		},
 		delete_traptype = {}
-	},
-	[323] = {
+	}
+	pg.base.world_SLGbuff_data[323] = {
 		name = "异常：燃烧",
 		trap_type = 3,
 		lua_id = 0,
@@ -795,8 +902,8 @@ pg.world_SLGbuff_data = {
 		delete_traptype = {
 			1016
 		}
-	},
-	[324] = {
+	}
+	pg.base.world_SLGbuff_data[324] = {
 		name = "异常：导航干扰",
 		trap_type = 4,
 		lua_id = 0,
@@ -819,8 +926,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[325] = {
+	}
+	pg.base.world_SLGbuff_data[325] = {
 		name = "异常：移动受限",
 		trap_type = 5,
 		lua_id = 0,
@@ -847,8 +954,8 @@ pg.world_SLGbuff_data = {
 			50
 		},
 		delete_traptype = {}
-	},
-	[326] = {
+	}
+	pg.base.world_SLGbuff_data[326] = {
 		name = "异常：结冰",
 		trap_type = 6,
 		lua_id = 0,
@@ -882,8 +989,8 @@ pg.world_SLGbuff_data = {
 		delete_traptype = {
 			1013
 		}
-	},
-	[401] = {
+	}
+	pg.base.world_SLGbuff_data[401] = {
 		name = "适应性调整-攻击",
 		trap_type = 0,
 		lua_id = 0,
@@ -906,8 +1013,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[402] = {
+	}
+	pg.base.world_SLGbuff_data[402] = {
 		name = "适应性调整-耐久",
 		trap_type = 0,
 		lua_id = 0,
@@ -930,8 +1037,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[403] = {
+	}
+	pg.base.world_SLGbuff_data[403] = {
 		name = "适应性调整-恢复",
 		trap_type = 0,
 		lua_id = 0,
@@ -954,8 +1061,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[600] = {
+	}
+	pg.base.world_SLGbuff_data[600] = {
 		name = "异常：移动受限",
 		trap_type = 5,
 		lua_id = 0,
@@ -982,8 +1089,8 @@ pg.world_SLGbuff_data = {
 			50
 		},
 		delete_traptype = {}
-	},
-	[601] = {
+	}
+	pg.base.world_SLGbuff_data[601] = {
 		name = "异常：导航干扰",
 		trap_type = 4,
 		lua_id = 0,
@@ -1006,8 +1113,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[602] = {
+	}
+	pg.base.world_SLGbuff_data[602] = {
 		name = "感染地形",
 		trap_type = 8,
 		lua_id = 0,
@@ -1035,8 +1142,8 @@ pg.world_SLGbuff_data = {
 			1
 		},
 		delete_traptype = {}
-	},
-	[610] = {
+	}
+	pg.base.world_SLGbuff_data[610] = {
 		name = "观测·VIII",
 		trap_type = 0,
 		lua_id = 0,
@@ -1059,8 +1166,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[620] = {
+	}
+	pg.base.world_SLGbuff_data[620] = {
 		name = "观测·XIV",
 		trap_type = 7,
 		lua_id = 0,
@@ -1085,8 +1192,8 @@ pg.world_SLGbuff_data = {
 			201
 		},
 		delete_traptype = {}
-	},
-	[630] = {
+	}
+	pg.base.world_SLGbuff_data[630] = {
 		name = "观测·IX",
 		trap_type = 9,
 		lua_id = 0,
@@ -1111,8 +1218,8 @@ pg.world_SLGbuff_data = {
 			202
 		},
 		delete_traptype = {}
-	},
-	[700] = {
+	}
+	pg.base.world_SLGbuff_data[700] = {
 		name = "炮击支援",
 		trap_type = 0,
 		lua_id = 78000,
@@ -1135,8 +1242,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[710] = {
+	}
+	pg.base.world_SLGbuff_data[710] = {
 		name = "航空支援",
 		trap_type = 0,
 		lua_id = 78010,
@@ -1159,8 +1266,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1010] = {
+	}
+	pg.base.world_SLGbuff_data[1010] = {
 		name = "炮击强化",
 		trap_type = 0,
 		lua_id = 70100,
@@ -1183,8 +1290,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1020] = {
+	}
+	pg.base.world_SLGbuff_data[1020] = {
 		name = "雷击强化",
 		trap_type = 0,
 		lua_id = 70200,
@@ -1207,8 +1314,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1030] = {
+	}
+	pg.base.world_SLGbuff_data[1030] = {
 		name = "防空强化",
 		trap_type = 0,
 		lua_id = 70300,
@@ -1231,8 +1338,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1040] = {
+	}
+	pg.base.world_SLGbuff_data[1040] = {
 		name = "航空强化",
 		trap_type = 0,
 		lua_id = 70400,
@@ -1255,8 +1362,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1050] = {
+	}
+	pg.base.world_SLGbuff_data[1050] = {
 		name = "装填强化",
 		trap_type = 0,
 		lua_id = 70500,
@@ -1279,8 +1386,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1060] = {
+	}
+	pg.base.world_SLGbuff_data[1060] = {
 		name = "航速强化",
 		trap_type = 0,
 		lua_id = 70900,
@@ -1303,8 +1410,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1110] = {
+	}
+	pg.base.world_SLGbuff_data[1110] = {
 		name = "炮击抗性",
 		trap_type = 0,
 		lua_id = 71000,
@@ -1327,8 +1434,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1120] = {
+	}
+	pg.base.world_SLGbuff_data[1120] = {
 		name = "雷击抗性",
 		trap_type = 0,
 		lua_id = 71100,
@@ -1351,8 +1458,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1130] = {
+	}
+	pg.base.world_SLGbuff_data[1130] = {
 		name = "航空抗性",
 		trap_type = 0,
 		lua_id = 71200,
@@ -1375,8 +1482,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1210] = {
+	}
+	pg.base.world_SLGbuff_data[1210] = {
 		name = "炮击易伤LV1",
 		trap_type = 0,
 		lua_id = 71050,
@@ -1399,8 +1506,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1220] = {
+	}
+	pg.base.world_SLGbuff_data[1220] = {
 		name = "炮击易伤LV2",
 		trap_type = 0,
 		lua_id = 71150,
@@ -1423,8 +1530,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1230] = {
+	}
+	pg.base.world_SLGbuff_data[1230] = {
 		name = "炮击易伤LV3",
 		trap_type = 0,
 		lua_id = 71250,
@@ -1447,8 +1554,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1240] = {
+	}
+	pg.base.world_SLGbuff_data[1240] = {
 		name = "雷击易伤LV1",
 		trap_type = 0,
 		lua_id = 71350,
@@ -1471,8 +1578,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1250] = {
+	}
+	pg.base.world_SLGbuff_data[1250] = {
 		name = "雷击易伤LV2",
 		trap_type = 0,
 		lua_id = 71450,
@@ -1495,8 +1602,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1260] = {
+	}
+	pg.base.world_SLGbuff_data[1260] = {
 		name = "雷击易伤LV3",
 		trap_type = 0,
 		lua_id = 71550,
@@ -1519,8 +1626,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1270] = {
+	}
+	pg.base.world_SLGbuff_data[1270] = {
 		name = "航空易伤LV1",
 		trap_type = 0,
 		lua_id = 71650,
@@ -1543,8 +1650,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1280] = {
+	}
+	pg.base.world_SLGbuff_data[1280] = {
 		name = "航空易伤LV2",
 		trap_type = 0,
 		lua_id = 71750,
@@ -1567,8 +1674,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1290] = {
+	}
+	pg.base.world_SLGbuff_data[1290] = {
 		name = "航空易伤LV3",
 		trap_type = 0,
 		lua_id = 71850,
@@ -1591,8 +1698,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1300] = {
+	}
+	pg.base.world_SLGbuff_data[1300] = {
 		name = "猎手",
 		trap_type = 0,
 		lua_id = 72000,
@@ -1615,8 +1722,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1310] = {
+	}
+	pg.base.world_SLGbuff_data[1310] = {
 		name = "先锋猎手",
 		trap_type = 0,
 		lua_id = 72100,
@@ -1639,8 +1746,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1320] = {
+	}
+	pg.base.world_SLGbuff_data[1320] = {
 		name = "主力猎手",
 		trap_type = 0,
 		lua_id = 72200,
@@ -1663,8 +1770,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1410] = {
+	}
+	pg.base.world_SLGbuff_data[1410] = {
 		name = "毁灭",
 		trap_type = 0,
 		lua_id = 73000,
@@ -1687,8 +1794,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1420] = {
+	}
+	pg.base.world_SLGbuff_data[1420] = {
 		name = "盛大登场",
 		trap_type = 0,
 		lua_id = 73100,
@@ -1711,8 +1818,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1430] = {
+	}
+	pg.base.world_SLGbuff_data[1430] = {
 		name = "护盾：大量耐久",
 		trap_type = 0,
 		lua_id = 73200,
@@ -1735,8 +1842,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1440] = {
+	}
+	pg.base.world_SLGbuff_data[1440] = {
 		name = "护盾：重点防御",
 		trap_type = 0,
 		lua_id = 73300,
@@ -1759,8 +1866,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1450] = {
+	}
+	pg.base.world_SLGbuff_data[1450] = {
 		name = "护盾：伤害偏转",
 		trap_type = 0,
 		lua_id = 73400,
@@ -1783,8 +1890,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1460] = {
+	}
+	pg.base.world_SLGbuff_data[1460] = {
 		name = "火力超载模块",
 		trap_type = 0,
 		lua_id = 73500,
@@ -1807,8 +1914,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1470] = {
+	}
+	pg.base.world_SLGbuff_data[1470] = {
 		name = "装甲超载模块",
 		trap_type = 0,
 		lua_id = 73600,
@@ -1831,8 +1938,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1480] = {
+	}
+	pg.base.world_SLGbuff_data[1480] = {
 		name = "维修超载模块",
 		trap_type = 0,
 		lua_id = 73700,
@@ -1855,8 +1962,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1490] = {
+	}
+	pg.base.world_SLGbuff_data[1490] = {
 		name = "护盾超载模块",
 		trap_type = 0,
 		lua_id = 73800,
@@ -1879,8 +1986,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1500] = {
+	}
+	pg.base.world_SLGbuff_data[1500] = {
 		name = "恢复反转",
 		trap_type = 0,
 		lua_id = 73900,
@@ -1903,8 +2010,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1510] = {
+	}
+	pg.base.world_SLGbuff_data[1510] = {
 		name = "恢复转移",
 		trap_type = 0,
 		lua_id = 74000,
@@ -1927,8 +2034,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1520] = {
+	}
+	pg.base.world_SLGbuff_data[1520] = {
 		name = "暴击转移",
 		trap_type = 0,
 		lua_id = 74100,
@@ -1951,8 +2058,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1530] = {
+	}
+	pg.base.world_SLGbuff_data[1530] = {
 		name = "穿透",
 		trap_type = 0,
 		lua_id = 74200,
@@ -1975,8 +2082,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1540] = {
+	}
+	pg.base.world_SLGbuff_data[1540] = {
 		name = "干涉",
 		trap_type = 0,
 		lua_id = 74300,
@@ -1999,8 +2106,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1550] = {
+	}
+	pg.base.world_SLGbuff_data[1550] = {
 		name = "附加损伤",
 		trap_type = 0,
 		lua_id = 74400,
@@ -2023,8 +2130,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1560] = {
+	}
+	pg.base.world_SLGbuff_data[1560] = {
 		name = "精准",
 		trap_type = 0,
 		lua_id = 70600,
@@ -2047,8 +2154,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[2000] = {
+	}
+	pg.base.world_SLGbuff_data[2000] = {
 		name = "炮击强化",
 		trap_type = 0,
 		lua_id = 70100,
@@ -2071,8 +2178,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[2010] = {
+	}
+	pg.base.world_SLGbuff_data[2010] = {
 		name = "炮击强化",
 		trap_type = 0,
 		lua_id = 70100,
@@ -2095,8 +2202,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[2020] = {
+	}
+	pg.base.world_SLGbuff_data[2020] = {
 		name = "炮击强化",
 		trap_type = 0,
 		lua_id = 70100,
@@ -2119,8 +2226,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[2100] = {
+	}
+	pg.base.world_SLGbuff_data[2100] = {
 		name = "雷击强化",
 		trap_type = 0,
 		lua_id = 70200,
@@ -2143,8 +2250,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[2110] = {
+	}
+	pg.base.world_SLGbuff_data[2110] = {
 		name = "雷击强化",
 		trap_type = 0,
 		lua_id = 70200,
@@ -2167,8 +2274,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[2120] = {
+	}
+	pg.base.world_SLGbuff_data[2120] = {
 		name = "雷击强化",
 		trap_type = 0,
 		lua_id = 70200,
@@ -2191,8 +2298,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[2200] = {
+	}
+	pg.base.world_SLGbuff_data[2200] = {
 		name = "防空强化",
 		trap_type = 0,
 		lua_id = 70300,
@@ -2215,8 +2322,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[2210] = {
+	}
+	pg.base.world_SLGbuff_data[2210] = {
 		name = "防空强化",
 		trap_type = 0,
 		lua_id = 70300,
@@ -2239,8 +2346,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[2220] = {
+	}
+	pg.base.world_SLGbuff_data[2220] = {
 		name = "防空强化",
 		trap_type = 0,
 		lua_id = 70300,
@@ -2263,8 +2370,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[2300] = {
+	}
+	pg.base.world_SLGbuff_data[2300] = {
 		name = "航空强化",
 		trap_type = 0,
 		lua_id = 70400,
@@ -2287,8 +2394,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[2310] = {
+	}
+	pg.base.world_SLGbuff_data[2310] = {
 		name = "航空强化",
 		trap_type = 0,
 		lua_id = 70400,
@@ -2311,8 +2418,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[2320] = {
+	}
+	pg.base.world_SLGbuff_data[2320] = {
 		name = "航空强化",
 		trap_type = 0,
 		lua_id = 70400,
@@ -2335,8 +2442,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[2400] = {
+	}
+	pg.base.world_SLGbuff_data[2400] = {
 		name = "装填强化",
 		trap_type = 0,
 		lua_id = 70500,
@@ -2359,8 +2466,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[2410] = {
+	}
+	pg.base.world_SLGbuff_data[2410] = {
 		name = "装填强化",
 		trap_type = 0,
 		lua_id = 70500,
@@ -2383,8 +2490,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[2420] = {
+	}
+	pg.base.world_SLGbuff_data[2420] = {
 		name = "装填强化",
 		trap_type = 0,
 		lua_id = 70500,
@@ -2407,8 +2514,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[2500] = {
+	}
+	pg.base.world_SLGbuff_data[2500] = {
 		name = "航速强化",
 		trap_type = 0,
 		lua_id = 70900,
@@ -2431,8 +2538,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[2510] = {
+	}
+	pg.base.world_SLGbuff_data[2510] = {
 		name = "航速强化",
 		trap_type = 0,
 		lua_id = 70900,
@@ -2455,8 +2562,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[2520] = {
+	}
+	pg.base.world_SLGbuff_data[2520] = {
 		name = "航速强化",
 		trap_type = 0,
 		lua_id = 70900,
@@ -2479,8 +2586,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[4000] = {
+	}
+	pg.base.world_SLGbuff_data[4000] = {
 		name = "分离式作战模块",
 		trap_type = 0,
 		lua_id = 0,
@@ -2503,8 +2610,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[4010] = {
+	}
+	pg.base.world_SLGbuff_data[4010] = {
 		name = "质量防御场",
 		trap_type = 0,
 		lua_id = 0,
@@ -2527,8 +2634,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[4020] = {
+	}
+	pg.base.world_SLGbuff_data[4020] = {
 		name = "腐蚀雾化模块",
 		trap_type = 0,
 		lua_id = 0,
@@ -2551,106 +2658,5 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	all = {
-		1,
-		2,
-		200,
-		201,
-		202,
-		301,
-		302,
-		303,
-		304,
-		305,
-		306,
-		307,
-		308,
-		309,
-		310,
-		311,
-		312,
-		313,
-		314,
-		315,
-		316,
-		317,
-		318,
-		320,
-		321,
-		322,
-		323,
-		324,
-		325,
-		326,
-		401,
-		402,
-		403,
-		600,
-		601,
-		602,
-		610,
-		620,
-		630,
-		700,
-		710,
-		1010,
-		1020,
-		1030,
-		1040,
-		1050,
-		1060,
-		1110,
-		1120,
-		1130,
-		1210,
-		1220,
-		1230,
-		1240,
-		1250,
-		1260,
-		1270,
-		1280,
-		1290,
-		1300,
-		1310,
-		1320,
-		1410,
-		1420,
-		1430,
-		1440,
-		1450,
-		1460,
-		1470,
-		1480,
-		1490,
-		1500,
-		1510,
-		1520,
-		1530,
-		1540,
-		1550,
-		1560,
-		2000,
-		2010,
-		2020,
-		2100,
-		2110,
-		2120,
-		2200,
-		2210,
-		2220,
-		2300,
-		2310,
-		2320,
-		2400,
-		2410,
-		2420,
-		2500,
-		2510,
-		2520,
-		4000,
-		4010,
-		4020
 	}
-}
+end)()

@@ -1,6 +1,66 @@
 pg = pg or {}
-pg.activity_ninja_building = {
-	{
+pg.activity_ninja_building = rawget(pg, "activity_ninja_building") or setmetatable({
+	__name = "activity_ninja_building"
+}, confNEO)
+pg.activity_ninja_building.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	101,
+	102,
+	103,
+	104
+}
+pg.activity_ninja_building.get_id_list_by_need_level = {
+	[0] = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		10,
+		11,
+		12,
+		13,
+		14,
+		15,
+		16,
+		17,
+		18,
+		19,
+		20,
+		101,
+		102,
+		103,
+		104
+	}
+}
+pg.base = pg.base or {}
+pg.base.activity_ninja_building = {}
+
+(function ()
+	pg.base.activity_ninja_building[1] = {
 		time = 0,
 		type = 1,
 		need_level = 0,
@@ -53,8 +113,8 @@ pg.activity_ninja_building = {
 			"ninjacityicon/icon_changwu_b",
 			"ninjacityicon/icon_changwu"
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_building[2] = {
 		time = 0,
 		type = 1,
 		need_level = 0,
@@ -107,8 +167,8 @@ pg.activity_ninja_building = {
 			"ninjacityicon/icon_micang_b",
 			"ninjacityicon/icon_micang"
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_building[3] = {
 		time = 0,
 		type = 1,
 		need_level = 0,
@@ -161,8 +221,8 @@ pg.activity_ninja_building = {
 			"ninjacityicon/icon_zhushuichi_b",
 			"ninjacityicon/icon_zhushuichi"
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_building[4] = {
 		time = 0,
 		type = 1,
 		need_level = 0,
@@ -205,8 +265,8 @@ pg.activity_ninja_building = {
 			"ninjacityicon/icon_dashoumen_b",
 			"ninjacityicon/icon_dashoumen"
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_building[5] = {
 		time = 0,
 		type = 1,
 		need_level = 0,
@@ -249,8 +309,8 @@ pg.activity_ninja_building = {
 			"ninjacityicon/icon_eryumen_b",
 			"ninjacityicon/icon_eryumen"
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_building[6] = {
 		time = 0,
 		type = 1,
 		need_level = 0,
@@ -293,8 +353,8 @@ pg.activity_ninja_building = {
 			"ninjacityicon/icon_minfang_b",
 			"ninjacityicon/icon_minfang"
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_building[7] = {
 		time = 0,
 		type = 1,
 		need_level = 0,
@@ -347,8 +407,8 @@ pg.activity_ninja_building = {
 			"ninjacityicon/icon_xiaotianshou_b",
 			"ninjacityicon/icon_xiaotianshou"
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_building[8] = {
 		time = 0,
 		type = 1,
 		need_level = 0,
@@ -401,8 +461,8 @@ pg.activity_ninja_building = {
 			"ninjacityicon/icon_sanyumenwaiqiaoliang_b",
 			"ninjacityicon/icon_sanyumenwaiqiaoliang"
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_building[9] = {
 		time = 0,
 		type = 1,
 		need_level = 0,
@@ -455,8 +515,8 @@ pg.activity_ninja_building = {
 			"ninjacityicon/icon_xiuxingdi_b",
 			"ninjacityicon/icon_xiuxingdi"
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_building[10] = {
 		time = 0,
 		type = 1,
 		need_level = 0,
@@ -499,8 +559,8 @@ pg.activity_ninja_building = {
 			"ninjacityicon/icon_linyuan_b",
 			"ninjacityicon/icon_linyuan"
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_building[11] = {
 		time = 0,
 		type = 1,
 		need_level = 0,
@@ -543,8 +603,8 @@ pg.activity_ninja_building = {
 			"ninjacityicon/icon_sanchonglu_b",
 			"ninjacityicon/icon_sanchonglu"
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_building[12] = {
 		time = 0,
 		type = 1,
 		need_level = 0,
@@ -587,8 +647,8 @@ pg.activity_ninja_building = {
 			"ninjacityicon/icon_qulunyumen_b",
 			"ninjacityicon/icon_qulunyumen"
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_building[13] = {
 		time = 0,
 		type = 1,
 		need_level = 0,
@@ -641,8 +701,8 @@ pg.activity_ninja_building = {
 			"ninjacityicon/icon_bingying_b",
 			"ninjacityicon/icon_bingying"
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_building[14] = {
 		time = 0,
 		type = 1,
 		need_level = 0,
@@ -695,8 +755,8 @@ pg.activity_ninja_building = {
 			"ninjacityicon/icon_wuqiku_b",
 			"ninjacityicon/icon_wuqiku"
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_building[15] = {
 		time = 0,
 		type = 1,
 		need_level = 0,
@@ -739,8 +799,8 @@ pg.activity_ninja_building = {
 			"ninjacityicon/icon_machang_b",
 			"ninjacityicon/icon_machang"
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_building[16] = {
 		time = 0,
 		type = 1,
 		need_level = 0,
@@ -793,8 +853,8 @@ pg.activity_ninja_building = {
 			"ninjacityicon/icon_tianshouge_b",
 			"ninjacityicon/icon_tianshouge"
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_building[17] = {
 		time = 0,
 		type = 1,
 		need_level = 0,
@@ -847,8 +907,8 @@ pg.activity_ninja_building = {
 			"ninjacityicon/icon_yudian_b",
 			"ninjacityicon/icon_yudian"
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_building[18] = {
 		time = 0,
 		type = 1,
 		need_level = 0,
@@ -891,8 +951,8 @@ pg.activity_ninja_building = {
 			"ninjacityicon/icon_sichonglu_b",
 			"ninjacityicon/icon_sichonglu"
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_building[19] = {
 		time = 0,
 		type = 1,
 		need_level = 0,
@@ -935,8 +995,8 @@ pg.activity_ninja_building = {
 			"ninjacityicon/icon_sanyumenwaiqiaoliang_b",
 			"ninjacityicon/icon_sanyumenwaiqiaoliang"
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_building[20] = {
 		time = 0,
 		type = 1,
 		need_level = 0,
@@ -989,8 +1049,8 @@ pg.activity_ninja_building = {
 			"ninjacityicon/icon_baowu_b",
 			"ninjacityicon/icon_baowu"
 		}
-	},
-	[101] = {
+	}
+	pg.base.activity_ninja_building[101] = {
 		time = 60,
 		type = 2,
 		need_level = 0,
@@ -1043,8 +1103,8 @@ pg.activity_ninja_building = {
 			"qicon/yanzhan_4",
 			"qicon/yanzhan_4"
 		}
-	},
-	[102] = {
+	}
+	pg.base.activity_ninja_building[102] = {
 		time = 60,
 		type = 2,
 		need_level = 0,
@@ -1097,8 +1157,8 @@ pg.activity_ninja_building = {
 			"qicon/bulunnusi_3",
 			"qicon/bulunnusi_3"
 		}
-	},
-	[103] = {
+	}
+	pg.base.activity_ninja_building[103] = {
 		time = 60,
 		type = 2,
 		need_level = 0,
@@ -1151,8 +1211,8 @@ pg.activity_ninja_building = {
 			"qicon/lafeiII_4",
 			"qicon/lafeiII_4"
 		}
-	},
-	[104] = {
+	}
+	pg.base.activity_ninja_building[104] = {
 		time = 60,
 		type = 2,
 		need_level = 0,
@@ -1205,59 +1265,5 @@ pg.activity_ninja_building = {
 			"qicon/jiasikenie_3",
 			"qicon/jiasikenie_3"
 		}
-	},
-	get_id_list_by_need_level = {
-		[0] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			101,
-			102,
-			103,
-			104
-		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		101,
-		102,
-		103,
-		104
 	}
-}
+end)()

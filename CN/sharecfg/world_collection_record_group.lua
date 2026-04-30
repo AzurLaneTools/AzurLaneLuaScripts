@@ -1,6 +1,20 @@
 pg = pg or {}
-pg.world_collection_record_group = {
-	{
+pg.world_collection_record_group = rawget(pg, "world_collection_record_group") or setmetatable({
+	__name = "world_collection_record_group"
+}, confNEO)
+pg.world_collection_record_group.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6
+}
+pg.base = pg.base or {}
+pg.base.world_collection_record_group = {}
+
+(function ()
+	pg.base.world_collection_record_group[1] = {
 		id = 1,
 		name_abbreviate = "Chapter1-银翼苍穹",
 		type = 1,
@@ -30,8 +44,8 @@ pg.world_collection_record_group = {
 			100023,
 			100024
 		}
-	},
-	{
+	}
+	pg.base.world_collection_record_group[2] = {
 		id = 2,
 		name_abbreviate = "Chapter2-皇家号令",
 		type = 1,
@@ -51,8 +65,8 @@ pg.world_collection_record_group = {
 			100037,
 			100038
 		}
-	},
-	{
+	}
+	pg.base.world_collection_record_group[3] = {
 		id = 3,
 		name_abbreviate = "Chapter3-渐入迷踪",
 		type = 1,
@@ -72,8 +86,8 @@ pg.world_collection_record_group = {
 			100051,
 			100052
 		}
-	},
-	{
+	}
+	pg.base.world_collection_record_group[4] = {
 		id = 4,
 		name_abbreviate = "Chapter4-红樱远航",
 		type = 1,
@@ -93,8 +107,8 @@ pg.world_collection_record_group = {
 			100065,
 			100066
 		}
-	},
-	{
+	}
+	pg.base.world_collection_record_group[5] = {
 		id = 5,
 		name_abbreviate = "Chapter5-火烬余辉",
 		type = 1,
@@ -122,21 +136,13 @@ pg.world_collection_record_group = {
 			100096,
 			100097
 		}
-	},
-	{
+	}
+	pg.base.world_collection_record_group[6] = {
 		id = 6,
 		name_abbreviate = "情报片段",
 		type = 3,
 		child = {
 			100071
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6
 	}
-}
+end)()

@@ -1,6 +1,29 @@
 pg = pg or {}
-pg.escort_template = {
-	[20001] = {
+pg.escort_template = rawget(pg, "escort_template") or setmetatable({
+	__name = "escort_template"
+}, confNEO)
+pg.escort_template.all = {
+	20001,
+	20002,
+	20003,
+	20004,
+	20005,
+	20006,
+	20007,
+	20008,
+	20009,
+	20010,
+	20011,
+	20012,
+	20013,
+	20014,
+	20015
+}
+pg.base = pg.base or {}
+pg.base.escort_template = {}
+
+(function ()
+	pg.base.escort_template[20001] = {
 		pos_x = "0.38328125",
 		id = 20001,
 		pic = "BC",
@@ -35,8 +58,8 @@ pg.escort_template = {
 				139056
 			}
 		}
-	},
-	[20002] = {
+	}
+	pg.base.escort_template[20002] = {
 		pos_x = "0.513046875",
 		id = 20002,
 		pic = "BD",
@@ -71,8 +94,8 @@ pg.escort_template = {
 				139060
 			}
 		}
-	},
-	[20003] = {
+	}
+	pg.base.escort_template[20003] = {
 		pos_x = "0.641484375",
 		id = 20003,
 		pic = "BE",
@@ -107,8 +130,8 @@ pg.escort_template = {
 				139064
 			}
 		}
-	},
-	[20004] = {
+	}
+	pg.base.escort_template[20004] = {
 		pos_x = "0.384375",
 		id = 20004,
 		pic = "BC",
@@ -143,8 +166,8 @@ pg.escort_template = {
 				139056
 			}
 		}
-	},
-	[20005] = {
+	}
+	pg.base.escort_template[20005] = {
 		pos_x = "0.51328125",
 		id = 20005,
 		pic = "BD",
@@ -179,8 +202,8 @@ pg.escort_template = {
 				139060
 			}
 		}
-	},
-	[20006] = {
+	}
+	pg.base.escort_template[20006] = {
 		pos_x = "0.63984375",
 		id = 20006,
 		pic = "BE",
@@ -215,8 +238,8 @@ pg.escort_template = {
 				139064
 			}
 		}
-	},
-	[20007] = {
+	}
+	pg.base.escort_template[20007] = {
 		pos_x = "0.384375",
 		id = 20007,
 		pic = "BC",
@@ -251,8 +274,8 @@ pg.escort_template = {
 				139056
 			}
 		}
-	},
-	[20008] = {
+	}
+	pg.base.escort_template[20008] = {
 		pos_x = "0.51328125",
 		id = 20008,
 		pic = "BD",
@@ -287,8 +310,8 @@ pg.escort_template = {
 				139060
 			}
 		}
-	},
-	[20009] = {
+	}
+	pg.base.escort_template[20009] = {
 		pos_x = "0.63984375",
 		id = 20009,
 		pic = "BE",
@@ -323,8 +346,8 @@ pg.escort_template = {
 				139064
 			}
 		}
-	},
-	[20010] = {
+	}
+	pg.base.escort_template[20010] = {
 		pos_x = "0.384375",
 		id = 20010,
 		pic = "BC",
@@ -359,8 +382,8 @@ pg.escort_template = {
 				139056
 			}
 		}
-	},
-	[20011] = {
+	}
+	pg.base.escort_template[20011] = {
 		pos_x = "0.51328125",
 		id = 20011,
 		pic = "BD",
@@ -395,8 +418,8 @@ pg.escort_template = {
 				139060
 			}
 		}
-	},
-	[20012] = {
+	}
+	pg.base.escort_template[20012] = {
 		pos_x = "0.63984375",
 		id = 20012,
 		pic = "BE",
@@ -431,8 +454,8 @@ pg.escort_template = {
 				139064
 			}
 		}
-	},
-	[20013] = {
+	}
+	pg.base.escort_template[20013] = {
 		pos_x = "0.384375",
 		id = 20013,
 		pic = "BC",
@@ -467,8 +490,8 @@ pg.escort_template = {
 				139056
 			}
 		}
-	},
-	[20014] = {
+	}
+	pg.base.escort_template[20014] = {
 		pos_x = "0.51328125",
 		id = 20014,
 		pic = "BD",
@@ -503,8 +526,8 @@ pg.escort_template = {
 				139060
 			}
 		}
-	},
-	[20015] = {
+	}
+	pg.base.escort_template[20015] = {
 		pos_x = "0.63984375",
 		id = 20015,
 		pic = "BE",
@@ -539,22 +562,5 @@ pg.escort_template = {
 				139064
 			}
 		}
-	},
-	all = {
-		20001,
-		20002,
-		20003,
-		20004,
-		20005,
-		20006,
-		20007,
-		20008,
-		20009,
-		20010,
-		20011,
-		20012,
-		20013,
-		20014,
-		20015
 	}
-}
+end)()

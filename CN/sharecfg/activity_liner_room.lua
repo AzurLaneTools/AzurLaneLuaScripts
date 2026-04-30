@@ -1,6 +1,47 @@
 pg = pg or {}
-pg.activity_liner_room = {
-	{
+pg.activity_liner_room = rawget(pg, "activity_liner_room") or setmetatable({
+	__name = "activity_liner_room"
+}, confNEO)
+pg.activity_liner_room.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33
+}
+pg.base = pg.base or {}
+pg.base.activity_liner_room = {}
+
+(function ()
+	pg.base.activity_liner_room[1] = {
 		name = "驾驶台",
 		id = 1,
 		desc = "邮轮的驾驶台，控制着整艘巨轮前进的方向。\n桌上是本次假日邮轮航线的海图，上面有着熟悉的字迹。\n“要把可爱的人类……”后面的字迹被人为擦掉了。",
@@ -16,8 +57,8 @@ pg.activity_liner_room = {
 			}
 		},
 		sd = {}
-	},
-	{
+	}
+	pg.base.activity_liner_room[2] = {
 		name = "露天泳池",
 		id = 2,
 		desc = "清澈的露天泳池，抬头可以看见天空。\n不过，明明是斥巨资打造的恒温露天泳池，水温却会莫名升高。\n这块牌子是——“当指挥官在附近时，请务必让阿尔萨斯离开泳池”……嗯？",
@@ -55,8 +96,8 @@ pg.activity_liner_room = {
 				"stand"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_room[3] = {
 		name = "办公区",
 		id = 3,
 		desc = "特别设立在邮轮中的办公区，守护着所有人在旅途中的办公权。\n每个人都有需要在旅途中办公的时候。\n只是，有的人格外多。",
@@ -80,8 +121,8 @@ pg.activity_liner_room = {
 				"walk"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_room[4] = {
 		name = "指挥官船舱",
 		id = 4,
 		desc = "邮轮上最宽敞的房间，钥匙被严密保护着。\n房间内的一切陈均设均选用了最高级的材料，并由全局统筹委员会严选把关。\n在确保安全的同时，力求在旅途之中为居住之人提供最舒适的体验。",
@@ -105,8 +146,8 @@ pg.activity_liner_room = {
 				"walk"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_room[5] = {
 		name = "露天阳台",
 		id = 5,
 		desc = "指挥官船舱延展出的私人空间。\n舰船们似乎对这里非常感兴趣，理由是这里的月色很美。\n由于此处和指挥官舱室联通，安全保障委员会最终出于各种考虑追加了护栏。",
@@ -130,8 +171,8 @@ pg.activity_liner_room = {
 				"stand"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_room[6] = {
 		name = "露天公园",
 		id = 6,
 		desc = "充满植物的露天公园，邮轮上的绿色氧吧。\n除了常见的绿植外，还特别移栽了椰子树，甚至包含一片舒适的人造沙滩。\n有时会在这里遇到意想不到的人。",
@@ -169,8 +210,8 @@ pg.activity_liner_room = {
 				"stand"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_room[7] = {
 		name = "女仆咖啡厅",
 		id = 7,
 		desc = "由重樱牵头修建的大型女仆咖啡厅，各阵营均有属于自己的独立区域。\n就算在邮轮之上，女仆们的战争依然继续着。\n有时能听到里面会传出诸如“萌萌的心动魔法～”的练习声。",
@@ -201,8 +242,8 @@ pg.activity_liner_room = {
 				"walk"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_room[8] = {
 		name = "运动场",
 		id = 8,
 		desc = "邮轮上的运动场，包括室内和室外两部分。\n室内主要以健身器材为主，室外则是各种球类运动场。\n在运动场中设置有多个冰柜，提供免费冰饮服务。",
@@ -226,8 +267,8 @@ pg.activity_liner_room = {
 				"walk"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_room[9] = {
 		name = "舞会厅",
 		id = 9,
 		desc = "延续了模拟店风格的主题舞厅，内部设置了舞池和吧台。\n想要展现自我的话，就前往舞池的中央吧。\n在墙上贴着告示：因菜单容量限制，暂不接受更多命名特调申请。",
@@ -251,8 +292,8 @@ pg.activity_liner_room = {
 				"stand"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_room[10] = {
 		name = "宴会厅",
 		id = 10,
 		desc = "邮轮内最豪华的大厅，这里的宴会终日不停。\n据说在修建时，伊丽莎白曾极力要求将其装修为皇家风格。\n不过经过猜拳999负后，她终于向黎塞留妥协了。",
@@ -283,8 +324,8 @@ pg.activity_liner_room = {
 				"walk"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_room[11] = {
 		name = "娱乐室",
 		id = 11,
 		desc = "邮轮上的娱乐室，有着所有你能想到种类的游戏机和电玩设备。\n在这里可以遇到干劲满满的长岛。\n不过，还是让她把这份干劲用到工作中比较好吧。",
@@ -315,8 +356,8 @@ pg.activity_liner_room = {
 				"walk"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_room[12] = {
 		name = "露天水吧",
 		id = 12,
 		desc = "位于邮轮尾部的露天水吧，比起舞会厅安静不少。\n想静静欣赏夜色的话，就来这里吧。\n在墙上贴着告示：因菜单容量限制，暂不接受更多命名特调申请。",
@@ -340,8 +381,8 @@ pg.activity_liner_room = {
 				"stand"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_room[13] = {
 		name = "转接区",
 		id = 13,
 		desc = "邮轮上承担物资转运功能的区域之一。\n设置有多部起重机，从水面可以直达前甲板，一部分救生船也挂在此处。\n在围栏上挂着告示：人货分离，请勿将此处当成直达电梯使用。",
@@ -386,8 +427,8 @@ pg.activity_liner_room = {
 				"stand"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_room[14] = {
 		name = "露天水上乐园",
 		id = 14,
 		desc = "位于邮轮前部的露天水上乐园，其中包括大回环滑梯、人工造浪系统等大型设施。\n同时亦设立安全救生员岗位防止意外溺水的情况出现。\n毕竟安全高于一切，不是么？",
@@ -411,8 +452,8 @@ pg.activity_liner_room = {
 				"stand"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_room[15] = {
 		name = "大剧院",
 		id = 15,
 		desc = "仿照了撒丁圆形剧场风格建设的大剧院。\n偶尔会从演出结束的剧院后台传出小提琴的音乐声。\n——此事已被布里斯托尔记入了自己的待调查事件笔记中。",
@@ -428,8 +469,8 @@ pg.activity_liner_room = {
 			}
 		},
 		sd = {}
-	},
-	{
+	}
+	pg.base.activity_liner_room[16] = {
 		name = "教室",
 		id = 16,
 		desc = "特别设立在邮轮中的教室，守护着所有人在旅途中的学习权。\n左边的黑板上写着：1+1=11，右边的黑板上写着：As+Cu=Au+Cs。\n……给我把老师叫来！",
@@ -453,8 +494,8 @@ pg.activity_liner_room = {
 				"walk"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_room[17] = {
 		name = "居住船舱（A区）",
 		id = 17,
 		desc = "邮轮中多个居住船舱中的一个区段，特点是现代时尚与简约。\n冰箱与扫地机器人等常规电器自不必说，就连无人机、激光定位器与雷达也有配备。\n……是不是有些现代化过头了？",
@@ -485,8 +526,8 @@ pg.activity_liner_room = {
 				"walk"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_room[18] = {
 		name = "居住船舱（B区）",
 		id = 18,
 		desc = "邮轮中多个居住船舱中的一个区段，特点是装潢较其他区段更加豪华。\n房间内的所有物品都支持根据需求申请替换，仅灯罩就有九十种款式可选。\n……这就是邮轮修建了那么大货仓的原因么？",
@@ -524,8 +565,8 @@ pg.activity_liner_room = {
 				"walk"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_room[19] = {
 		name = "居住船舱（C区）",
 		id = 19,
 		desc = "邮轮中多个居住船舱中的一个区段，也是最靠近厨房的区域之一。\n济安曾经主动申请想要住在这片区域。\n但在龙武的强烈要求下，济安的申请被驳回了。",
@@ -556,8 +597,8 @@ pg.activity_liner_room = {
 				"walk"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_room[20] = {
 		name = "猫房",
 		id = 20,
 		desc = "应众人的强烈要求而在邮轮内特别增设的功能区。\n有着各种品种的猫咪，是猫咪爱好者的福地。\n克莱蒙梭说，如果有猫咪出逃，可以联络{namecode:523}",
@@ -581,8 +622,8 @@ pg.activity_liner_room = {
 				"stand"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_room[21] = {
 		name = "大浴场",
 		id = 21,
 		desc = "由罗马亲自监工的大浴场，保持着原汁原味的撒丁风情。\n功能设施齐全，很适合为疲惫的一天划上句号。\n当然，如果想要来此处办公也可以。为什么不呢？",
@@ -613,8 +654,8 @@ pg.activity_liner_room = {
 				"walk"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_room[22] = {
 		name = "水族馆",
 		id = 22,
 		desc = "邮轮内部的水族馆，水箱中有着许多平时不常见的稀有鱼类。\n我们在邮轮上看水族箱中的鱼群，鱼群在大海上看邮轮上的我们。\n……是不是该向它们收费了？",
@@ -638,8 +679,8 @@ pg.activity_liner_room = {
 				"walk"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_room[23] = {
 		name = "电影院",
 		id = 23,
 		desc = "邮轮内部的电影院，采用了最好的幕布及声音设备。\n启航前运送了大家喜欢的电影母带，可随时放映观看。\n目前正在热映的是《暗金不夜城》导演剪辑版。",
@@ -663,8 +704,8 @@ pg.activity_liner_room = {
 				"walk"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_room[24] = {
 		name = "大商场",
 		id = 24,
 		desc = "为了满足“度假时的购物欲望”而建立的大商场。\n各色服装、饰品等一应俱全，连武器装备的店铺也有开设。\n这些店铺应该不都是{namecode:98}的……吧？",
@@ -695,8 +736,8 @@ pg.activity_liner_room = {
 				"walk"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_room[25] = {
 		name = "厨房",
 		id = 25,
 		desc = "邮轮上的中央厨房，可以为整艘邮轮的乘客提供源源不断的美食。\n有开放烹饪区，敦刻尔克是这里最受欢迎的人之一。\n在墙上贴着告示：给指挥官供餐的区域不在此处。",
@@ -727,8 +768,8 @@ pg.activity_liner_room = {
 				"walk"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_room[26] = {
 		name = "神秘角落",
 		id = 26,
 		desc = "调查小队的据点，邮轮上的神秘角落！\n当群星归位之时，真相就会浮于眼前——\n最近的调查目标是——“邮轮的七大不可思议”！",
@@ -766,8 +807,8 @@ pg.activity_liner_room = {
 				"walk"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_room[27] = {
 		name = "弹药库",
 		id = 27,
 		desc = "特别设立在邮轮中的弹药库，守护着所有人的安全。\n邮轮的警卫室也设置在这里。\n在问邮轮上为什么有弹药库之前不妨换个角度，邮轮上为什么不能有弹药库呢？",
@@ -791,8 +832,8 @@ pg.activity_liner_room = {
 				"walk"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_room[28] = {
 		name = "储藏室",
 		id = 28,
 		desc = "邮轮上的储存空间，存放着仿佛无穷无尽的海量物资箱。\n理论上，在这里你可以找到远航中所需要的一切——只要知道箱子的编号。\n不过还有一个更加快捷的方法——付钱让{namecode:98}来找。",
@@ -823,8 +864,8 @@ pg.activity_liner_room = {
 				"walk"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_room[29] = {
 		name = "主机舱",
 		id = 29,
 		desc = "邮轮的“心脏”，连接着驾驶台。\n在这里，可以尽情聆听引擎运转的美妙轰鸣声。\n但其实，这艘邮轮是由魔方供能驱动的，轰鸣只是效果音。",
@@ -840,8 +881,8 @@ pg.activity_liner_room = {
 			}
 		},
 		sd = {}
-	},
-	{
+	}
+	pg.base.activity_liner_room[30] = {
 		name = "机械工坊",
 		id = 30,
 		desc = "邮轮上可以制作、维修各类设备的机械工坊。\n灵敏、{namecode:37}和{namecode:525}等人会轮流在此值班。\n如果遇到损坏的东西，就来这里维修吧。",
@@ -857,8 +898,8 @@ pg.activity_liner_room = {
 			}
 		},
 		sd = {}
-	},
-	{
+	}
+	pg.base.activity_liner_room[31] = {
 		name = "防爆大门",
 		id = 31,
 		desc = "在前往指挥官船舱的必经之路上设置的防爆大门。\n采用了最高规格的材料和工艺，看起来就带给人十足的安全感。\n安全保障委员会说，如此设置是为了确保指挥官的安全——很好。",
@@ -874,8 +915,8 @@ pg.activity_liner_room = {
 			}
 		},
 		sd = {}
-	},
-	{
+	}
+	pg.base.activity_liner_room[32] = {
 		name = "没用的先占坑",
 		id = 32,
 		desc = "没用的先占坑",
@@ -891,8 +932,8 @@ pg.activity_liner_room = {
 			}
 		},
 		sd = {}
-	},
-	{
+	}
+	pg.base.activity_liner_room[33] = {
 		name = "没用的先占坑",
 		id = 33,
 		desc = "没用的先占坑",
@@ -908,40 +949,5 @@ pg.activity_liner_room = {
 			}
 		},
 		sd = {}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30,
-		31,
-		32,
-		33
 	}
-}
+end)()

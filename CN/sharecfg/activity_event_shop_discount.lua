@@ -1,6 +1,28 @@
 pg = pg or {}
-pg.activity_event_shop_discount = {
-	[5080] = {
+pg.activity_event_shop_discount = rawget(pg, "activity_event_shop_discount") or setmetatable({
+	__name = "activity_event_shop_discount"
+}, confNEO)
+pg.activity_event_shop_discount.all = {
+	5080,
+	5652,
+	5850,
+	50034,
+	50142,
+	50241,
+	50243,
+	50269,
+	50270,
+	50445,
+	50446,
+	21018,
+	21019,
+	50500
+}
+pg.base = pg.base or {}
+pg.base.activity_event_shop_discount = {}
+
+(function ()
+	pg.base.activity_event_shop_discount[5080] = {
 		max_count = 0,
 		item_id = 59502,
 		change_resource_type = 0,
@@ -24,8 +46,8 @@ pg.activity_event_shop_discount = {
 			70196,
 			70197
 		}
-	},
-	[5652] = {
+	}
+	pg.base.activity_event_shop_discount[5652] = {
 		max_count = 0,
 		item_id = 65045,
 		change_resource_type = 0,
@@ -49,8 +71,8 @@ pg.activity_event_shop_discount = {
 			70196,
 			70197
 		}
-	},
-	[5850] = {
+	}
+	pg.base.activity_event_shop_discount[5850] = {
 		max_count = 0,
 		item_id = 65550,
 		change_resource_type = 0,
@@ -137,8 +159,8 @@ pg.activity_event_shop_discount = {
 			70201,
 			70200
 		}
-	},
-	[50034] = {
+	}
+	pg.base.activity_event_shop_discount[50034] = {
 		max_count = 0,
 		item_id = 65551,
 		change_resource_type = 0,
@@ -176,8 +198,8 @@ pg.activity_event_shop_discount = {
 			71008,
 			71009
 		}
-	},
-	[50142] = {
+	}
+	pg.base.activity_event_shop_discount[50142] = {
 		max_count = 0,
 		item_id = 65552,
 		change_resource_type = 0,
@@ -222,8 +244,8 @@ pg.activity_event_shop_discount = {
 			71032,
 			71036
 		}
-	},
-	[50241] = {
+	}
+	pg.base.activity_event_shop_discount[50241] = {
 		max_count = 0,
 		item_id = 65553,
 		change_resource_type = 0,
@@ -516,8 +538,8 @@ pg.activity_event_shop_discount = {
 			71146,
 			71147
 		}
-	},
-	[50243] = {
+	}
+	pg.base.activity_event_shop_discount[50243] = {
 		max_count = 0,
 		item_id = 65554,
 		change_resource_type = 0,
@@ -1685,8 +1707,8 @@ pg.activity_event_shop_discount = {
 			70925,
 			70926
 		}
-	},
-	[50269] = {
+	}
+	pg.base.activity_event_shop_discount[50269] = {
 		max_count = 0,
 		item_id = 65555,
 		change_resource_type = 0,
@@ -1973,8 +1995,8 @@ pg.activity_event_shop_discount = {
 			71173,
 			71174
 		}
-	},
-	[50270] = {
+	}
+	pg.base.activity_event_shop_discount[50270] = {
 		max_count = 0,
 		item_id = 65556,
 		change_resource_type = 0,
@@ -2457,8 +2479,8 @@ pg.activity_event_shop_discount = {
 			70755,
 			70756
 		}
-	},
-	[50445] = {
+	}
+	pg.base.activity_event_shop_discount[50445] = {
 		max_count = 0,
 		item_id = 65555,
 		change_resource_type = 0,
@@ -2640,8 +2662,8 @@ pg.activity_event_shop_discount = {
 			71173,
 			71174
 		}
-	},
-	[50446] = {
+	}
+	pg.base.activity_event_shop_discount[50446] = {
 		max_count = 0,
 		item_id = 65556,
 		change_resource_type = 0,
@@ -3539,8 +3561,8 @@ pg.activity_event_shop_discount = {
 			70959,
 			70960
 		}
-	},
-	[21018] = {
+	}
+	pg.base.activity_event_shop_discount[21018] = {
 		max_count = 0,
 		item_id = 65555,
 		change_resource_type = 0,
@@ -3825,8 +3847,8 @@ pg.activity_event_shop_discount = {
 			71173,
 			71174
 		}
-	},
-	[21019] = {
+	}
+	pg.base.activity_event_shop_discount[21019] = {
 		max_count = 0,
 		item_id = 65556,
 		change_resource_type = 0,
@@ -4847,8 +4869,8 @@ pg.activity_event_shop_discount = {
 			70975,
 			70976
 		}
-	},
-	[50500] = {
+	}
+	pg.base.activity_event_shop_discount[50500] = {
 		max_count = 0,
 		item_id = 65557,
 		change_resource_type = 0,
@@ -4888,21 +4910,5 @@ pg.activity_event_shop_discount = {
 			70143,
 			70185
 		}
-	},
-	all = {
-		5080,
-		5652,
-		5850,
-		50034,
-		50142,
-		50241,
-		50243,
-		50269,
-		50270,
-		50445,
-		50446,
-		21018,
-		21019,
-		50500
 	}
-}
+end)()

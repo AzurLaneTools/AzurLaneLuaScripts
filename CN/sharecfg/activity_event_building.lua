@@ -1,6 +1,50 @@
 pg = pg or {}
-pg.activity_event_building = {
-	{
+pg.activity_event_building = rawget(pg, "activity_event_building") or setmetatable({
+	__name = "activity_event_building"
+}, confNEO)
+pg.activity_event_building.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	39
+}
+pg.base = pg.base or {}
+pg.base.activity_event_building = {}
+
+(function ()
+	pg.base.activity_event_building[1] = {
 		name = "啾啾咖啡 ",
 		id = 1,
 		desc = "港区CAFF，出售：皇家咖啡、北方联合面包、撒丁披萨。 ",
@@ -25,8 +69,8 @@ pg.activity_event_building = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_building[2] = {
 		name = "啾啾小笼 ",
 		id = 2,
 		desc = "热气腾腾的小笼包，正宗东煌风味，客官不来一笼么？ ",
@@ -51,8 +95,8 @@ pg.activity_event_building = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_building[3] = {
 		name = "啾啾汉堡 ",
 		id = 3,
 		desc = "快乐三件套：汉堡、可乐与薯条。",
@@ -77,8 +121,8 @@ pg.activity_event_building = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_building[4] = {
 		name = "啾啾和菓子 ",
 		id = 4,
 		desc = "重樱风味的传统和菓子店，三周年限定纪念款绝赞售卖中。 ",
@@ -103,8 +147,8 @@ pg.activity_event_building = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_building[5] = {
 		name = "啾啾书店",
 		id = 5,
 		desc = "漫画、小说、工具书...考试辅导材料限时半价中。",
@@ -129,8 +173,8 @@ pg.activity_event_building = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_building[6] = {
 		name = "啾啾游戏店",
 		id = 6,
 		desc = "本店不但出售最新款游戏，更出售比游戏更刺激的......最新款主机！",
@@ -155,8 +199,8 @@ pg.activity_event_building = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_building[7] = {
 		name = "啾啾模型店",
 		id = 7,
 		desc = "下一次扭蛋一定会是想要的那个！",
@@ -181,8 +225,8 @@ pg.activity_event_building = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_building[8] = {
 		name = "啾啾咖啡",
 		id = 8,
 		desc = "辛劳之余，要来一杯可口的JUJU咖啡么？",
@@ -207,8 +251,8 @@ pg.activity_event_building = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_building[9] = {
 		name = "旋转木啾",
 		id = 9,
 		desc = "当达到最高速时，或许真的能飞起来哦？",
@@ -233,8 +277,8 @@ pg.activity_event_building = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_building[10] = {
 		name = "云霄飞啾",
 		id = 10,
 		desc = "速度、激情与一飞冲天的感觉！",
@@ -259,8 +303,8 @@ pg.activity_event_building = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_building[11] = {
 		name = "跳楼啾",
 		id = 11,
 		desc = "尽情享受下坠的快乐吧！",
@@ -285,8 +329,8 @@ pg.activity_event_building = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_building[12] = {
 		name = "啾啾海盗船",
 		id = 12,
 		desc = "喜欢乘风破浪的感觉么？",
@@ -311,8 +355,8 @@ pg.activity_event_building = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_building[13] = {
 		name = "啾啾冲浪",
 		id = 13,
 		desc = "与海浪一同起舞吧！",
@@ -337,8 +381,8 @@ pg.activity_event_building = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_building[14] = {
 		name = "啾啾跳水",
 		id = 14,
 		desc = "水花越小，分数越高哦！",
@@ -363,8 +407,8 @@ pg.activity_event_building = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_building[15] = {
 		name = "滑滑世界",
 		id = 15,
 		desc = "紧张刺激的水滑梯之旅！",
@@ -389,8 +433,8 @@ pg.activity_event_building = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_building[16] = {
 		name = "啾啾瀑布",
 		id = 16,
 		desc = "尽情感受水流的冲击！",
@@ -415,8 +459,8 @@ pg.activity_event_building = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_building[17] = {
 		name = "皇家午茶",
 		id = 17,
 		desc = "茶AND咖啡店！，其名为皇家午茶<Queen's Tea>！就通过这个本王亲自监督设计的皇家午茶企划，来一转颓势吧！哼哼！",
@@ -457,8 +501,8 @@ pg.activity_event_building = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_building[18] = {
 		name = "莱茵咖啡馆",
 		id = 18,
 		desc = "在传统咖啡的基础上，开发新的饮品和食物，以创新性作为卖点…——嗯，不失为一个好主意…",
@@ -499,8 +543,8 @@ pg.activity_event_building = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_building[19] = {
 		name = "主教学楼",
 		id = 19,
 		desc = "好好学习，天天向上。",
@@ -525,8 +569,8 @@ pg.activity_event_building = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_building[20] = {
 		name = "占卜屋",
 		id = 20,
 		desc = "想要了解今日运势么？",
@@ -551,8 +595,8 @@ pg.activity_event_building = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_building[21] = {
 		name = "演唱台",
 		id = 21,
 		desc = "空闲时间任何人都能上台！",
@@ -577,8 +621,8 @@ pg.activity_event_building = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_building[22] = {
 		name = "校园商街",
 		id = 22,
 		desc = "请尽情挑选——",
@@ -603,8 +647,8 @@ pg.activity_event_building = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_building[23] = {
 		name = "生活区",
 		id = 23,
 		desc = "国服六周年后山建筑",
@@ -637,8 +681,8 @@ pg.activity_event_building = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_building[24] = {
 		name = "海岛制作台",
 		id = 24,
 		desc = "国服六周年后山建筑",
@@ -671,8 +715,8 @@ pg.activity_event_building = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_building[25] = {
 		name = "啾啾探险队",
 		id = 25,
 		desc = "国服六周年后山建筑",
@@ -705,8 +749,8 @@ pg.activity_event_building = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_building[26] = {
 		name = "用餐区",
 		id = 26,
 		desc = "国服六周年后山建筑",
@@ -739,8 +783,8 @@ pg.activity_event_building = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_building[27] = {
 		name = "海岛据点",
 		id = 27,
 		desc = "国服六周年后山据点",
@@ -768,8 +812,8 @@ pg.activity_event_building = {
 			8,
 			12
 		}
-	},
-	[31] = {
+	}
+	pg.base.activity_event_building[31] = {
 		name = "白鹰科技模块",
 		id = 31,
 		buff = {
@@ -806,8 +850,8 @@ pg.activity_event_building = {
 			"我方角色单场战斗中累计损失耐久百分比超过30%时，恢复其3%耐久，每个角色限一次",
 			"我方角色单场战斗中累计损失耐久百分比超过20%时，恢复其3%耐久，每个角色限一次"
 		}
-	},
-	[32] = {
+	}
+	pg.base.activity_event_building[32] = {
 		name = "皇家科技模块",
 		id = 32,
 		buff = {
@@ -844,8 +888,8 @@ pg.activity_event_building = {
 			"我方角色战斗中航空升4%",
 			"我方角色战斗中航空升6%"
 		}
-	},
-	[33] = {
+	}
+	pg.base.activity_event_building[33] = {
 		name = "鸢尾科技模块",
 		id = 33,
 		buff = {
@@ -882,8 +926,8 @@ pg.activity_event_building = {
 			"我方角色战斗中受到的伤害降低2%",
 			"我方角色战斗中受到的伤害降低3%"
 		}
-	},
-	[34] = {
+	}
+	pg.base.activity_event_building[34] = {
 		name = "铁血科技模块",
 		id = 34,
 		buff = {
@@ -920,8 +964,8 @@ pg.activity_event_building = {
 			"我方角色战斗中炮击提升4%",
 			"我方角色战斗中炮击提升6%"
 		}
-	},
-	[35] = {
+	}
+	pg.base.activity_event_building[35] = {
 		name = "东煌科技模块",
 		id = 35,
 		buff = {
@@ -958,8 +1002,8 @@ pg.activity_event_building = {
 			"我方角色战斗中命中提升4%",
 			"我方角色战斗中命中提升6%"
 		}
-	},
-	[36] = {
+	}
+	pg.base.activity_event_building[36] = {
 		name = "撒丁科技模块",
 		id = 36,
 		buff = {
@@ -996,8 +1040,8 @@ pg.activity_event_building = {
 			"我方角色在每场战斗开始的前15秒内装填提升15%",
 			"我方角色在每场战斗开始的前20秒内装填提升15%"
 		}
-	},
-	[37] = {
+	}
+	pg.base.activity_event_building[37] = {
 		name = "郁金科技模块",
 		id = 37,
 		buff = {
@@ -1034,8 +1078,8 @@ pg.activity_event_building = {
 			"我方角色战斗中航速提升4点",
 			"我方角色战斗中航速提升6点"
 		}
-	},
-	[38] = {
+	}
+	pg.base.activity_event_building[38] = {
 		name = "北联科技模块",
 		id = 38,
 		buff = {
@@ -1072,8 +1116,8 @@ pg.activity_event_building = {
 			"我方角色战斗中造成的伤害提升2%",
 			"我方角色战斗中造成的伤害提升3%"
 		}
-	},
-	[39] = {
+	}
+	pg.base.activity_event_building[39] = {
 		name = "重樱科技模块",
 		id = 39,
 		buff = {
@@ -1110,43 +1154,5 @@ pg.activity_event_building = {
 			"我方角色战斗中雷击提升4%",
 			"我方角色战斗中雷击提升6%"
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		39
 	}
-}
+end)()

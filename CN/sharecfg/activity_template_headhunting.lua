@@ -1,6 +1,35 @@
 pg = pg or {}
-pg.activity_template_headhunting = {
-	[300] = {
+pg.activity_template_headhunting = rawget(pg, "activity_template_headhunting") or setmetatable({
+	__name = "activity_template_headhunting"
+}, confNEO)
+pg.activity_template_headhunting.all = {
+	300,
+	369,
+	590,
+	687,
+	990,
+	4111,
+	4416,
+	4526,
+	4876,
+	5011,
+	5349,
+	30887,
+	5570,
+	5961,
+	30893,
+	40428,
+	40674,
+	40807,
+	41327,
+	50118,
+	21011
+}
+pg.base = pg.base or {}
+pg.base.activity_template_headhunting = {}
+
+(function ()
+	pg.base.activity_template_headhunting[300] = {
 		man_num = 2,
 		id = 300,
 		pt = 124,
@@ -190,8 +219,8 @@ pg.activity_template_headhunting = {
 			}
 		},
 		tasklist = {}
-	},
-	[369] = {
+	}
+	pg.base.activity_template_headhunting[369] = {
 		man_num = 2,
 		id = 369,
 		pt = 135,
@@ -396,8 +425,8 @@ pg.activity_template_headhunting = {
 			14978,
 			14979
 		}
-	},
-	[590] = {
+	}
+	pg.base.activity_template_headhunting[590] = {
 		man_num = 2,
 		id = 590,
 		pt = 156,
@@ -602,8 +631,8 @@ pg.activity_template_headhunting = {
 			15660,
 			15661
 		}
-	},
-	[687] = {
+	}
+	pg.base.activity_template_headhunting[687] = {
 		man_num = 2,
 		id = 687,
 		pt = 168,
@@ -808,8 +837,8 @@ pg.activity_template_headhunting = {
 			16040,
 			16041
 		}
-	},
-	[990] = {
+	}
+	pg.base.activity_template_headhunting[990] = {
 		man_num = 2,
 		id = 990,
 		pt = 204,
@@ -1014,8 +1043,8 @@ pg.activity_template_headhunting = {
 			16664,
 			16665
 		}
-	},
-	[4111] = {
+	}
+	pg.base.activity_template_headhunting[4111] = {
 		man_num = 2,
 		id = 4111,
 		pt = 220,
@@ -1220,8 +1249,8 @@ pg.activity_template_headhunting = {
 			17006,
 			17007
 		}
-	},
-	[4416] = {
+	}
+	pg.base.activity_template_headhunting[4416] = {
 		man_num = 2,
 		id = 4416,
 		pt = 264,
@@ -1426,8 +1455,8 @@ pg.activity_template_headhunting = {
 			17687,
 			17688
 		}
-	},
-	[4526] = {
+	}
+	pg.base.activity_template_headhunting[4526] = {
 		man_num = 2,
 		id = 4526,
 		pt = 279,
@@ -1632,8 +1661,8 @@ pg.activity_template_headhunting = {
 			17945,
 			17946
 		}
-	},
-	[4876] = {
+	}
+	pg.base.activity_template_headhunting[4876] = {
 		man_num = 2,
 		id = 4876,
 		pt = 353,
@@ -1838,8 +1867,8 @@ pg.activity_template_headhunting = {
 			18840,
 			18841
 		}
-	},
-	[5011] = {
+	}
+	pg.base.activity_template_headhunting[5011] = {
 		man_num = 2,
 		id = 5011,
 		pt = 371,
@@ -2044,8 +2073,8 @@ pg.activity_template_headhunting = {
 			19261,
 			19262
 		}
-	},
-	[5349] = {
+	}
+	pg.base.activity_template_headhunting[5349] = {
 		man_num = 2,
 		id = 5349,
 		pt = 412,
@@ -2250,8 +2279,8 @@ pg.activity_template_headhunting = {
 			20123,
 			20124
 		}
-	},
-	[30887] = {
+	}
+	pg.base.activity_template_headhunting[30887] = {
 		man_num = 2,
 		id = 30887,
 		pt = 412,
@@ -2456,8 +2485,8 @@ pg.activity_template_headhunting = {
 			20123,
 			20124
 		}
-	},
-	[5570] = {
+	}
+	pg.base.activity_template_headhunting[5570] = {
 		man_num = 2,
 		id = 5570,
 		pt = 430,
@@ -2662,8 +2691,8 @@ pg.activity_template_headhunting = {
 			20541,
 			20542
 		}
-	},
-	[5961] = {
+	}
+	pg.base.activity_template_headhunting[5961] = {
 		man_num = 2,
 		id = 5961,
 		pt = 500,
@@ -2868,8 +2897,8 @@ pg.activity_template_headhunting = {
 			23613,
 			23614
 		}
-	},
-	[30893] = {
+	}
+	pg.base.activity_template_headhunting[30893] = {
 		man_num = 2,
 		id = 30893,
 		pt = 500,
@@ -3074,8 +3103,8 @@ pg.activity_template_headhunting = {
 			23613,
 			23614
 		}
-	},
-	[40428] = {
+	}
+	pg.base.activity_template_headhunting[40428] = {
 		man_num = 2,
 		id = 40428,
 		pt = 220,
@@ -3280,8 +3309,8 @@ pg.activity_template_headhunting = {
 			17006,
 			17007
 		}
-	},
-	[40674] = {
+	}
+	pg.base.activity_template_headhunting[40674] = {
 		man_num = 2,
 		id = 40674,
 		pt = 264,
@@ -3486,8 +3515,8 @@ pg.activity_template_headhunting = {
 			17687,
 			17688
 		}
-	},
-	[40807] = {
+	}
+	pg.base.activity_template_headhunting[40807] = {
 		man_num = 2,
 		id = 40807,
 		pt = 40807,
@@ -3692,8 +3721,8 @@ pg.activity_template_headhunting = {
 			80333,
 			80334
 		}
-	},
-	[41327] = {
+	}
+	pg.base.activity_template_headhunting[41327] = {
 		man_num = 2,
 		id = 41327,
 		pt = 40935,
@@ -3898,8 +3927,8 @@ pg.activity_template_headhunting = {
 			80433,
 			80434
 		}
-	},
-	[50118] = {
+	}
+	pg.base.activity_template_headhunting[50118] = {
 		man_num = 2,
 		id = 50118,
 		pt = 544,
@@ -4104,8 +4133,8 @@ pg.activity_template_headhunting = {
 			24406,
 			24407
 		}
-	},
-	[21011] = {
+	}
+	pg.base.activity_template_headhunting[21011] = {
 		man_num = 2,
 		id = 21011,
 		pt = 957,
@@ -4310,28 +4339,5 @@ pg.activity_template_headhunting = {
 			1000122,
 			1000123
 		}
-	},
-	all = {
-		300,
-		369,
-		590,
-		687,
-		990,
-		4111,
-		4416,
-		4526,
-		4876,
-		5011,
-		5349,
-		30887,
-		5570,
-		5961,
-		30893,
-		40428,
-		40674,
-		40807,
-		41327,
-		50118,
-		21011
 	}
-}
+end)()

@@ -1,6 +1,15 @@
 pg = pg or {}
-pg.chapter_group_refresh = {
-	[1404] = {
+pg.chapter_group_refresh = rawget(pg, "chapter_group_refresh") or setmetatable({
+	__name = "chapter_group_refresh"
+}, confNEO)
+pg.chapter_group_refresh.all = {
+	1404
+}
+pg.base = pg.base or {}
+pg.base.chapter_group_refresh = {}
+
+(function ()
+	pg.base.chapter_group_refresh[1404] = {
 		id = 1404,
 		expedition_id_weight_list = {
 			{
@@ -209,8 +218,5 @@ pg.chapter_group_refresh = {
 				1
 			}
 		}
-	},
-	all = {
-		1404
 	}
-}
+end)()

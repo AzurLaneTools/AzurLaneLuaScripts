@@ -1,6 +1,18 @@
 pg = pg or {}
-pg.world_help_data = {
-	{
+pg.world_help_data = rawget(pg, "world_help_data") or setmetatable({
+	__name = "world_help_data"
+}, confNEO)
+pg.world_help_data.all = {
+	1,
+	2,
+	3,
+	4
+}
+pg.base = pg.base or {}
+pg.base.world_help_data = {}
+
+(function ()
+	pg.base.world_help_data[1] = {
 		id = 1,
 		name = "舰队",
 		stage = 5,
@@ -14,8 +26,8 @@ pg.world_help_data = {
 				"WorldHelpbg/worldhelp1_2"
 			}
 		}
-	},
-	{
+	}
+	pg.base.world_help_data[2] = {
 		id = 2,
 		name = "系统",
 		stage = 10,
@@ -57,8 +69,8 @@ pg.world_help_data = {
 				"WorldHelpbg/worldhelp2_8"
 			}
 		}
-	},
-	{
+	}
+	pg.base.world_help_data[3] = {
 		id = 3,
 		name = "探索",
 		stage = 0,
@@ -108,8 +120,8 @@ pg.world_help_data = {
 				"WorldHelpbg/worldhelp3_11"
 			}
 		}
-	},
-	{
+	}
+	pg.base.world_help_data[4] = {
 		id = 4,
 		name = "战斗",
 		stage = 10,
@@ -143,11 +155,5 @@ pg.world_help_data = {
 				"WorldHelpbg/worldhelp4_8"
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4
 	}
-}
+end)()

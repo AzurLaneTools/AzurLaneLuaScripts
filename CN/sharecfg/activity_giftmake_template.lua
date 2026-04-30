@@ -1,6 +1,12 @@
 pg = pg or {}
-pg.activity_giftmake_template = {
-	{
+pg.activity_giftmake_template = rawget(pg, "activity_giftmake_template") or setmetatable({
+	__name = "activity_giftmake_template"
+}, confNEO)
+pg.base = pg.base or {}
+pg.base.activity_giftmake_template = {}
+
+(function ()
+	pg.base.activity_giftmake_template[1] = {
 		reward = 900028,
 		describe = "之前在岛上发现了有趣的材料，用这个为拉菲做一个发卡吧。\n至于发卡的样式……如果做成拉菲喜欢的兔耳朵样子的话，她应该会很开心。",
 		thankwords = "这是……指挥官亲手为拉菲做的吗，亮晶晶的红宝石就像是兔兔的眼睛一样。\n拉菲戴着好看吗？唔，虽然拉菲收到指挥官的礼物很开心，但是，拉菲可不是兔子哦！\n这些是给指挥官的回礼。以及，一会要和拉菲一起去晒太阳哦。",
@@ -34,8 +40,8 @@ pg.activity_giftmake_template = {
 			0.5,
 			0.5
 		}
-	},
-	{
+	}
+	pg.base.activity_giftmake_template[2] = {
 		reward = 900028,
 		describe = "在岛上发现了闪闪发亮的宝石，好像很适合给同样闪耀的标枪做一把符合她个性的武器？\n在海岛上再多收集一些，给她一个小小的惊喜吧。",
 		thankwords = "呜哇~带着亮晶晶红宝石的标枪模型~！虽然只是武器模型，但是看起来很精巧呢~嘿嘿，谢谢指挥官啦~\n啊等下等下，标枪也给指挥官准备了回礼哦——锵锵！请指挥官收下吧~",
@@ -69,8 +75,8 @@ pg.activity_giftmake_template = {
 			0.3,
 			0.3
 		}
-	},
-	{
+	}
+	pg.base.activity_giftmake_template[3] = {
 		reward = 900028,
 		describe = "在岛上闲逛的时候发现了正在练习挥刀的{namecode:6}……用海岛上新发现的材料为她准备一件小礼物，来实现她“想让武器变得炫酷”的愿望吧。",
 		thankwords = "哦哦，这把刀……看上去好厉害！\n像是超级稀有装备的样子……{namecode:6}有新招式的灵感了！\n作为{namecode:6}给指挥官的回礼，这些材料还请指挥官收下的说！",
@@ -104,8 +110,8 @@ pg.activity_giftmake_template = {
 			0.35,
 			0.35
 		}
-	},
-	{
+	}
+	pg.base.activity_giftmake_template[4] = {
 		reward = 900028,
 		describe = "为了在海岛上建立据点，{namecode:408}一直活跃在建设的第一线，似乎为这些工作操了很多心的样子。\n送她一件房屋造型的纪念品“奖杯”，她会喜欢吗？",
 		thankwords = "这个是……据点的缩略模型，看起来还挺精致的呢~指挥官做这个应该花了不少心思吧？谢谢指挥官！\n我这里为指挥官准备了一些可能用得到的材料，就当做给指挥官的回礼啦。",
@@ -139,8 +145,8 @@ pg.activity_giftmake_template = {
 			0.4,
 			0.4
 		}
-	},
-	{
+	}
+	pg.base.activity_giftmake_template[5] = {
 		reward = 900028,
 		describe = "用在海岛上发现的宝石制作一个晶莹剔透的优酱如何？记得叮嘱一下独角兽，宝石优酱应该会很沉，抱的时候要小心哦~",
 		thankwords = "是优酱水晶模型？冰冰凉凉晶莹剔透，还有闪耀的装饰，太好了优酱，我们有新同伴了哦？\n嗯，独角兽很喜欢~！因为是哥哥送给独角兽的东西，独角兽会好好珍惜的……！\n独角兽也给哥哥也准备了礼物……请收下吧，希望哥哥也喜欢独角兽的礼物~",
@@ -174,8 +180,8 @@ pg.activity_giftmake_template = {
 			0.3,
 			0.3
 		}
-	},
-	{
+	}
+	pg.base.activity_giftmake_template[6] = {
 		reward = 900028,
 		describe = "不知是谁走漏了风声，萨拉托加似乎得知了要给大家准备礼物的计划……已经不止一次缠着自己要给她做些纪念品了。\n作为给她的礼物，一套兼具美观可爱与实用性的厨具套装如何？",
 		thankwords = "这个是……厨具套装？是用黄宝石做的？看起来好精致~！谢谢你啦，指挥官~！\n啊对了，差点忘记给指挥官的回礼了——接好咯~嘿嘿，放心，里面装的可不是萨拉妹妹的恶作剧哟？",
@@ -209,8 +215,8 @@ pg.activity_giftmake_template = {
 			0.35,
 			0.35
 		}
-	},
-	{
+	}
+	pg.base.activity_giftmake_template[7] = {
 		reward = 900028,
 		describe = "为了答谢{namecode:98}在据点建设过程中对自己的帮助，送给她一件礼物作为回报吧。\n对于{namecode:98}来说，她最喜欢的东西，自然就是那个了……",
 		thankwords = "喵？！这个箱子……漂亮的藏宝箱，看起来好华贵的样子喵~上面还有红宝石和黄宝石，用来装贵重物品再好不过了喵~\n既然如此，这份充满{namecode:98}感谢之情的回礼，就当做给指挥官的礼物了喵~",
@@ -244,8 +250,8 @@ pg.activity_giftmake_template = {
 			0.4,
 			0.4
 		}
-	},
-	{
+	}
+	pg.base.activity_giftmake_template[8] = {
 		reward = 900028,
 		describe = "在海岛上发现了造型奇特的矿石，雕琢一下就能变成翱翔的鹰的姿态。如果用它做一份纪念品送给为据点建设工作而操心的企业的话，她应该会开心吧。",
 		thankwords = "黄宝石制成的老鹰模型，翱翔天际的身姿很帅气呢。很精致的礼物，是你亲自做的？真是厉害……呵呵，我很中意哦\n谢谢你的礼物。作为回礼，请收下这些吧。",
@@ -280,4 +286,4 @@ pg.activity_giftmake_template = {
 			0.35
 		}
 	}
-}
+end)()

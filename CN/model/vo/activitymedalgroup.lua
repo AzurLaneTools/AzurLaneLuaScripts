@@ -86,8 +86,12 @@ end
 
 slot0.GetAll = function(slot0)
 	return underscore.all(slot0:GetMedalIds(), function (slot0)
-		return uv0.medalList[slot0] and uv0.medalList[slot0].timeStamp and uv0.medalList[slot0].timeStamp ~= 0
+		return uv0:OwnMedel(slot0)
 	end)
+end
+
+slot0.OwnMedel = function(slot0, slot1)
+	return slot0.medalList[slot1] and slot0.medalList[slot1].timeStamp and slot0.medalList[slot1].timeStamp ~= 0
 end
 
 slot0.GetGroupIDByMedalID = function(slot0)

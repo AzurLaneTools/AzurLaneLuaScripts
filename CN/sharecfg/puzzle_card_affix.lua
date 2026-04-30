@@ -1,6 +1,20 @@
 pg = pg or {}
-pg.puzzle_card_affix = {
-	[100] = {
+pg.puzzle_card_affix = rawget(pg, "puzzle_card_affix") or setmetatable({
+	__name = "puzzle_card_affix"
+}, confNEO)
+pg.puzzle_card_affix.all = {
+	100,
+	101,
+	102,
+	103,
+	301,
+	306
+}
+pg.base = pg.base or {}
+pg.base.puzzle_card_affix = {}
+
+(function ()
+	pg.base.puzzle_card_affix[100] = {
 		name = "跨射",
 		affix_type = 0,
 		name_EN = "",
@@ -9,8 +23,8 @@ pg.puzzle_card_affix = {
 		icon = "100",
 		condition = 2,
 		show = 1
-	},
-	[101] = {
+	}
+	pg.base.puzzle_card_affix[101] = {
 		name = "空袭",
 		affix_type = 0,
 		name_EN = "",
@@ -19,8 +33,8 @@ pg.puzzle_card_affix = {
 		icon = "101",
 		condition = 2,
 		show = 1
-	},
-	[102] = {
+	}
+	pg.base.puzzle_card_affix[102] = {
 		name = "雷击",
 		affix_type = 0,
 		name_EN = "",
@@ -29,8 +43,8 @@ pg.puzzle_card_affix = {
 		icon = "102",
 		condition = 1,
 		show = 1
-	},
-	[103] = {
+	}
+	pg.base.puzzle_card_affix[103] = {
 		name = "维修",
 		affix_type = 0,
 		name_EN = "",
@@ -39,8 +53,8 @@ pg.puzzle_card_affix = {
 		icon = "102",
 		condition = 0,
 		show = 1
-	},
-	[301] = {
+	}
+	pg.base.puzzle_card_affix[301] = {
 		name = "循环",
 		affix_type = 2,
 		name_EN = "Reload",
@@ -49,8 +63,8 @@ pg.puzzle_card_affix = {
 		icon = "301",
 		condition = 0,
 		show = 0
-	},
-	[306] = {
+	}
+	pg.base.puzzle_card_affix[306] = {
 		name = "自动武器",
 		affix_type = 2,
 		name_EN = "Auto Fire",
@@ -59,13 +73,5 @@ pg.puzzle_card_affix = {
 		icon = "400",
 		condition = 0,
 		show = 0
-	},
-	all = {
-		100,
-		101,
-		102,
-		103,
-		301,
-		306
 	}
-}
+end)()

@@ -1,6 +1,19 @@
 pg = pg or {}
-pg.activity_ninja_city = {
-	{
+pg.activity_ninja_city = rawget(pg, "activity_ninja_city") or setmetatable({
+	__name = "activity_ninja_city"
+}, confNEO)
+pg.activity_ninja_city.all = {
+	1,
+	2,
+	3,
+	4,
+	5
+}
+pg.base = pg.base or {}
+pg.base.activity_ninja_city = {}
+
+(function ()
+	pg.base.activity_ninja_city[1] = {
 		story = "JIZHANRENZHEZHICHENG1",
 		id = 1,
 		level = 1,
@@ -25,8 +38,8 @@ pg.activity_ninja_city = {
 			1,
 			1
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_city[2] = {
 		story = "JIZHANRENZHEZHICHENG2",
 		id = 2,
 		level = 2,
@@ -50,8 +63,8 @@ pg.activity_ninja_city = {
 			1,
 			1
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_city[3] = {
 		story = "JIZHANRENZHEZHICHENG3",
 		id = 3,
 		level = 3,
@@ -75,8 +88,8 @@ pg.activity_ninja_city = {
 			1,
 			1
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_city[4] = {
 		story = "JIZHANRENZHEZHICHENG4",
 		id = 4,
 		level = 4,
@@ -99,8 +112,8 @@ pg.activity_ninja_city = {
 			45,
 			30
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_city[5] = {
 		story = "JIZHANRENZHEZHICHENG5",
 		id = 5,
 		level = 5,
@@ -117,12 +130,5 @@ pg.activity_ninja_city = {
 			90,
 			60
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5
 	}
-}
+end)()

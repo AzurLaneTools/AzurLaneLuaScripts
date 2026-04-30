@@ -1,6 +1,844 @@
 pg = pg or {}
-pg.ship_data_strengthen = {
-	[10000] = {
+pg.ship_data_strengthen = rawget(pg, "ship_data_strengthen") or setmetatable({
+	__name = "ship_data_strengthen"
+}, confNEO)
+pg.ship_data_strengthen.all = {
+	10000,
+	10001,
+	10002,
+	10102,
+	10103,
+	10104,
+	10105,
+	10106,
+	10107,
+	10108,
+	10109,
+	10110,
+	10111,
+	10112,
+	10113,
+	10114,
+	10115,
+	10116,
+	10117,
+	10124,
+	10125,
+	10126,
+	10127,
+	10129,
+	10130,
+	10131,
+	10133,
+	10134,
+	10135,
+	10136,
+	10137,
+	10138,
+	10139,
+	10140,
+	10141,
+	10142,
+	10143,
+	10144,
+	10145,
+	10146,
+	10147,
+	10148,
+	10149,
+	10150,
+	10151,
+	10152,
+	10153,
+	10155,
+	10199,
+	10201,
+	10202,
+	10203,
+	10204,
+	10205,
+	10206,
+	10207,
+	10208,
+	10209,
+	10210,
+	10211,
+	10212,
+	10213,
+	10214,
+	10215,
+	10216,
+	10217,
+	10218,
+	10219,
+	10220,
+	10221,
+	10222,
+	10223,
+	10224,
+	10225,
+	10226,
+	10227,
+	10228,
+	10229,
+	10230,
+	10231,
+	10232,
+	10233,
+	10234,
+	10235,
+	10301,
+	10302,
+	10303,
+	10304,
+	10305,
+	10306,
+	10307,
+	10308,
+	10309,
+	10310,
+	10311,
+	10312,
+	10313,
+	10314,
+	10316,
+	10324,
+	10325,
+	10326,
+	10327,
+	10328,
+	10329,
+	10401,
+	10501,
+	10502,
+	10503,
+	10504,
+	10507,
+	10508,
+	10509,
+	10510,
+	10511,
+	10512,
+	10513,
+	10514,
+	10515,
+	10517,
+	10519,
+	10520,
+	10601,
+	10602,
+	10655,
+	10701,
+	10702,
+	10703,
+	10704,
+	10705,
+	10706,
+	10707,
+	10708,
+	10709,
+	10710,
+	10711,
+	10712,
+	10713,
+	10714,
+	10716,
+	10717,
+	10722,
+	10723,
+	10725,
+	10727,
+	10729,
+	10730,
+	10738,
+	10798,
+	10799,
+	10801,
+	10802,
+	10803,
+	10804,
+	10805,
+	10806,
+	10807,
+	10808,
+	10809,
+	11201,
+	11802,
+	20101,
+	20102,
+	20103,
+	20106,
+	20107,
+	20108,
+	20109,
+	20110,
+	20111,
+	20112,
+	20113,
+	20114,
+	20116,
+	20120,
+	20121,
+	20122,
+	20123,
+	20124,
+	20125,
+	20126,
+	20127,
+	20129,
+	20132,
+	20133,
+	20134,
+	20135,
+	20136,
+	20137,
+	20138,
+	20139,
+	20201,
+	20202,
+	20203,
+	20204,
+	20207,
+	20208,
+	20209,
+	20210,
+	20211,
+	20212,
+	20213,
+	20214,
+	20215,
+	20216,
+	20217,
+	20218,
+	20219,
+	20221,
+	20222,
+	20220,
+	20223,
+	20224,
+	20225,
+	20226,
+	20227,
+	20228,
+	20229,
+	20230,
+	20231,
+	20232,
+	20233,
+	20234,
+	20235,
+	20236,
+	20301,
+	20302,
+	20303,
+	20304,
+	20305,
+	20306,
+	20307,
+	20308,
+	20309,
+	20310,
+	20313,
+	20401,
+	20402,
+	20403,
+	20404,
+	20501,
+	20502,
+	20503,
+	20504,
+	20505,
+	20506,
+	20507,
+	20509,
+	20510,
+	20511,
+	20513,
+	20514,
+	20516,
+	20601,
+	20602,
+	20603,
+	20604,
+	20605,
+	20606,
+	20607,
+	20608,
+	20701,
+	20702,
+	20703,
+	20704,
+	20705,
+	20706,
+	20707,
+	20709,
+	20711,
+	20712,
+	20713,
+	20714,
+	21301,
+	21302,
+	21304,
+	30101,
+	30102,
+	30104,
+	30105,
+	30109,
+	30110,
+	30111,
+	30112,
+	30113,
+	30114,
+	30115,
+	30116,
+	30117,
+	30118,
+	30120,
+	30121,
+	30123,
+	30124,
+	30125,
+	30126,
+	30127,
+	30128,
+	30129,
+	30130,
+	30131,
+	30132,
+	30133,
+	30135,
+	30137,
+	30138,
+	30139,
+	30141,
+	30147,
+	30148,
+	30149,
+	30153,
+	30154,
+	30156,
+	30157,
+	30158,
+	30159,
+	30160,
+	30161,
+	30162,
+	30163,
+	30164,
+	30165,
+	30166,
+	30172,
+	30179,
+	30180,
+	30181,
+	30182,
+	30183,
+	30184,
+	30185,
+	30186,
+	30187,
+	30188,
+	30189,
+	30190,
+	30191,
+	30192,
+	30193,
+	30194,
+	30201,
+	30204,
+	30205,
+	30206,
+	30207,
+	30208,
+	30209,
+	30210,
+	30211,
+	30212,
+	30213,
+	30214,
+	30226,
+	30227,
+	30228,
+	30229,
+	30220,
+	30221,
+	30223,
+	30224,
+	30225,
+	30301,
+	30302,
+	30303,
+	30304,
+	30306,
+	30307,
+	30308,
+	30309,
+	30310,
+	30311,
+	30312,
+	30313,
+	30314,
+	30315,
+	30317,
+	30318,
+	30319,
+	30320,
+	30401,
+	30402,
+	30403,
+	30404,
+	30405,
+	30406,
+	30407,
+	30408,
+	30501,
+	30502,
+	30503,
+	30504,
+	30505,
+	30506,
+	30507,
+	30508,
+	30510,
+	30511,
+	30512,
+	30513,
+	30514,
+	30516,
+	30517,
+	30601,
+	30602,
+	30603,
+	30604,
+	30605,
+	30606,
+	30607,
+	30608,
+	30609,
+	30701,
+	30702,
+	30703,
+	30704,
+	30705,
+	30706,
+	30707,
+	30708,
+	30709,
+	30710,
+	30711,
+	30712,
+	30713,
+	30714,
+	30715,
+	30716,
+	30717,
+	30801,
+	30802,
+	30803,
+	30804,
+	30805,
+	30806,
+	31001,
+	31002,
+	31003,
+	31004,
+	31201,
+	31701,
+	31702,
+	31901,
+	40001,
+	40002,
+	40101,
+	40102,
+	40109,
+	40111,
+	40113,
+	40116,
+	40118,
+	40119,
+	40120,
+	40121,
+	40123,
+	40124,
+	40125,
+	40126,
+	40128,
+	40135,
+	40136,
+	40143,
+	40146,
+	40147,
+	40152,
+	40199,
+	40201,
+	40202,
+	40203,
+	40213,
+	40204,
+	40205,
+	40206,
+	40207,
+	40208,
+	40210,
+	40211,
+	40301,
+	40302,
+	40303,
+	40304,
+	40305,
+	40307,
+	40308,
+	40309,
+	40310,
+	40311,
+	40312,
+	40313,
+	40314,
+	40315,
+	40316,
+	40401,
+	40402,
+	40403,
+	40404,
+	40405,
+	40406,
+	40407,
+	40501,
+	40502,
+	40503,
+	40504,
+	40505,
+	40506,
+	40601,
+	40602,
+	40603,
+	40701,
+	40702,
+	40703,
+	40704,
+	40801,
+	40802,
+	40803,
+	40804,
+	40805,
+	40806,
+	40807,
+	40808,
+	40809,
+	40810,
+	40811,
+	40812,
+	40813,
+	40814,
+	50101,
+	50102,
+	50103,
+	50104,
+	50105,
+	50106,
+	50107,
+	50108,
+	50109,
+	50201,
+	50211,
+	50202,
+	50203,
+	50204,
+	50298,
+	50205,
+	50299,
+	50207,
+	50208,
+	50209,
+	50210,
+	50212,
+	50301,
+	50302,
+	50401,
+	50601,
+	50611,
+	50602,
+	51901,
+	52001,
+	52002,
+	52003,
+	52004,
+	52101,
+	52102,
+	52103,
+	52104,
+	60102,
+	60103,
+	60104,
+	60105,
+	60106,
+	60107,
+	60108,
+	60109,
+	60110,
+	60111,
+	60112,
+	60201,
+	60202,
+	60203,
+	60204,
+	60301,
+	60302,
+	60303,
+	60304,
+	60305,
+	60306,
+	60501,
+	60502,
+	60503,
+	60505,
+	60506,
+	60507,
+	60508,
+	60509,
+	60701,
+	60702,
+	60801,
+	60802,
+	60803,
+	70102,
+	70103,
+	70104,
+	70105,
+	70106,
+	70107,
+	70108,
+	70109,
+	70110,
+	70111,
+	70112,
+	70113,
+	70201,
+	70202,
+	70203,
+	70204,
+	70205,
+	70206,
+	70207,
+	70208,
+	70209,
+	70210,
+	70212,
+	70301,
+	70302,
+	70303,
+	70501,
+	70502,
+	70504,
+	70505,
+	70506,
+	70507,
+	70508,
+	70509,
+	70701,
+	71801,
+	80101,
+	80102,
+	80103,
+	80104,
+	80105,
+	80107,
+	80108,
+	80109,
+	80201,
+	80202,
+	80203,
+	80204,
+	80301,
+	80302,
+	80303,
+	80401,
+	80501,
+	80502,
+	80503,
+	80601,
+	80701,
+	80702,
+	80801,
+	90101,
+	90102,
+	90103,
+	90104,
+	90105,
+	90106,
+	90107,
+	90111,
+	90112,
+	90113,
+	90114,
+	90201,
+	90202,
+	90301,
+	90302,
+	90303,
+	90401,
+	90402,
+	90501,
+	90502,
+	90503,
+	90701,
+	110101,
+	110201,
+	960001,
+	960002,
+	960003,
+	960004,
+	960005,
+	960006,
+	960007,
+	960008,
+	960009,
+	960010,
+	960011,
+	960012,
+	960013,
+	960014,
+	960015,
+	960016,
+	1010001,
+	1010002,
+	1010003,
+	1010004,
+	1010005,
+	1010006,
+	1010007,
+	1010008,
+	1020001,
+	1020002,
+	1030001,
+	1030002,
+	1030003,
+	1030004,
+	1030005,
+	1030006,
+	1040001,
+	1040002,
+	1040003,
+	1040004,
+	1050001,
+	1050002,
+	1050003,
+	1050004,
+	1050005,
+	1050006,
+	1050007,
+	1060001,
+	1060002,
+	1060003,
+	1060004,
+	1060005,
+	1060006,
+	1060007,
+	1060008,
+	1060009,
+	1060010,
+	1060011,
+	1060012,
+	1060013,
+	1060014,
+	1060015,
+	1070001,
+	1070002,
+	1070003,
+	1070004,
+	1070005,
+	1070006,
+	1070007,
+	1080001,
+	1080002,
+	1080003,
+	1080004,
+	1080005,
+	1080006,
+	1080007,
+	1080008,
+	1080009,
+	1090001,
+	1090002,
+	1090003,
+	1090004,
+	1090005,
+	1090006,
+	1100001,
+	1100002,
+	1100003,
+	1100004,
+	1100005,
+	1100006,
+	1100007,
+	1110001,
+	1110002,
+	1110003,
+	1110004,
+	1110005,
+	1110006,
+	1120001,
+	1120002,
+	1130001,
+	1130002,
+	1130003,
+	1130004,
+	1140001,
+	1140002,
+	1150001,
+	1150002,
+	1150003,
+	1150004,
+	1150005,
+	1150006,
+	29901,
+	29902,
+	39901,
+	39902,
+	49901,
+	89901,
+	19901,
+	19902,
+	39903,
+	39904,
+	49902,
+	99901,
+	29903,
+	29904,
+	49903,
+	49904,
+	89902,
+	19903,
+	39905,
+	49905,
+	49906,
+	69901,
+	29905,
+	49907,
+	59901,
+	79901,
+	89903,
+	19904,
+	39906,
+	49908,
+	49909,
+	99902,
+	19905,
+	39907,
+	69902,
+	79902,
+	89904,
+	19906,
+	49910,
+	69903,
+	79903,
+	119901
+}
+pg.base = pg.base or {}
+pg.base.ship_data_strengthen = {}
+
+(function ()
+	pg.base.ship_data_strengthen[10000] = {
 		id = 10000,
 		durability = {
 			0,
@@ -23,8 +861,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[10001] = {
+	}
+	pg.base.ship_data_strengthen[10001] = {
 		id = 10001,
 		durability = {
 			0,
@@ -47,8 +885,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[10002] = {
+	}
+	pg.base.ship_data_strengthen[10002] = {
 		id = 10002,
 		durability = {
 			0,
@@ -71,8 +909,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[10102] = {
+	}
+	pg.base.ship_data_strengthen[10102] = {
 		id = 10102,
 		durability = {
 			14,
@@ -95,8 +933,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10103] = {
+	}
+	pg.base.ship_data_strengthen[10103] = {
 		id = 10103,
 		durability = {
 			14,
@@ -119,8 +957,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10104] = {
+	}
+	pg.base.ship_data_strengthen[10104] = {
 		id = 10104,
 		durability = {
 			14,
@@ -143,8 +981,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10105] = {
+	}
+	pg.base.ship_data_strengthen[10105] = {
 		id = 10105,
 		durability = {
 			13,
@@ -167,8 +1005,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[10106] = {
+	}
+	pg.base.ship_data_strengthen[10106] = {
 		id = 10106,
 		durability = {
 			13,
@@ -191,8 +1029,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[10107] = {
+	}
+	pg.base.ship_data_strengthen[10107] = {
 		id = 10107,
 		durability = {
 			13,
@@ -215,8 +1053,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[10108] = {
+	}
+	pg.base.ship_data_strengthen[10108] = {
 		id = 10108,
 		durability = {
 			14,
@@ -239,8 +1077,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[10109] = {
+	}
+	pg.base.ship_data_strengthen[10109] = {
 		id = 10109,
 		durability = {
 			16,
@@ -263,8 +1101,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[10110] = {
+	}
+	pg.base.ship_data_strengthen[10110] = {
 		id = 10110,
 		durability = {
 			24,
@@ -287,8 +1125,8 @@ pg.ship_data_strengthen = {
 			0,
 			17
 		}
-	},
-	[10111] = {
+	}
+	pg.base.ship_data_strengthen[10111] = {
 		id = 10111,
 		durability = {
 			16,
@@ -311,8 +1149,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[10112] = {
+	}
+	pg.base.ship_data_strengthen[10112] = {
 		id = 10112,
 		durability = {
 			16,
@@ -335,8 +1173,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[10113] = {
+	}
+	pg.base.ship_data_strengthen[10113] = {
 		id = 10113,
 		durability = {
 			15,
@@ -359,8 +1197,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[10114] = {
+	}
+	pg.base.ship_data_strengthen[10114] = {
 		id = 10114,
 		durability = {
 			15,
@@ -383,8 +1221,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[10115] = {
+	}
+	pg.base.ship_data_strengthen[10115] = {
 		id = 10115,
 		durability = {
 			15,
@@ -407,8 +1245,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[10116] = {
+	}
+	pg.base.ship_data_strengthen[10116] = {
 		id = 10116,
 		durability = {
 			16,
@@ -431,8 +1269,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[10117] = {
+	}
+	pg.base.ship_data_strengthen[10117] = {
 		id = 10117,
 		durability = {
 			18,
@@ -455,8 +1293,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[10124] = {
+	}
+	pg.base.ship_data_strengthen[10124] = {
 		id = 10124,
 		durability = {
 			15,
@@ -479,8 +1317,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[10125] = {
+	}
+	pg.base.ship_data_strengthen[10125] = {
 		id = 10125,
 		durability = {
 			15,
@@ -503,8 +1341,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[10126] = {
+	}
+	pg.base.ship_data_strengthen[10126] = {
 		id = 10126,
 		durability = {
 			15,
@@ -527,8 +1365,8 @@ pg.ship_data_strengthen = {
 			0,
 			16
 		}
-	},
-	[10127] = {
+	}
+	pg.base.ship_data_strengthen[10127] = {
 		id = 10127,
 		durability = {
 			16,
@@ -551,8 +1389,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[10129] = {
+	}
+	pg.base.ship_data_strengthen[10129] = {
 		id = 10129,
 		durability = {
 			16,
@@ -575,8 +1413,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[10130] = {
+	}
+	pg.base.ship_data_strengthen[10130] = {
 		id = 10130,
 		durability = {
 			16,
@@ -599,8 +1437,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[10131] = {
+	}
+	pg.base.ship_data_strengthen[10131] = {
 		id = 10131,
 		durability = {
 			16,
@@ -623,8 +1461,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[10133] = {
+	}
+	pg.base.ship_data_strengthen[10133] = {
 		id = 10133,
 		durability = {
 			16,
@@ -647,8 +1485,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[10134] = {
+	}
+	pg.base.ship_data_strengthen[10134] = {
 		id = 10134,
 		durability = {
 			16,
@@ -671,8 +1509,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[10135] = {
+	}
+	pg.base.ship_data_strengthen[10135] = {
 		id = 10135,
 		durability = {
 			14,
@@ -695,8 +1533,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[10136] = {
+	}
+	pg.base.ship_data_strengthen[10136] = {
 		id = 10136,
 		durability = {
 			16,
@@ -719,8 +1557,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[10137] = {
+	}
+	pg.base.ship_data_strengthen[10137] = {
 		id = 10137,
 		durability = {
 			16,
@@ -743,8 +1581,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[10138] = {
+	}
+	pg.base.ship_data_strengthen[10138] = {
 		id = 10138,
 		durability = {
 			15,
@@ -767,8 +1605,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[10139] = {
+	}
+	pg.base.ship_data_strengthen[10139] = {
 		id = 10139,
 		durability = {
 			16,
@@ -791,8 +1629,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[10140] = {
+	}
+	pg.base.ship_data_strengthen[10140] = {
 		id = 10140,
 		durability = {
 			15,
@@ -815,8 +1653,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[10141] = {
+	}
+	pg.base.ship_data_strengthen[10141] = {
 		id = 10141,
 		durability = {
 			16,
@@ -839,8 +1677,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[10142] = {
+	}
+	pg.base.ship_data_strengthen[10142] = {
 		id = 10142,
 		durability = {
 			16,
@@ -863,8 +1701,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[10143] = {
+	}
+	pg.base.ship_data_strengthen[10143] = {
 		id = 10143,
 		durability = {
 			15,
@@ -887,8 +1725,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[10144] = {
+	}
+	pg.base.ship_data_strengthen[10144] = {
 		id = 10144,
 		durability = {
 			23,
@@ -911,8 +1749,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[10145] = {
+	}
+	pg.base.ship_data_strengthen[10145] = {
 		id = 10145,
 		durability = {
 			26,
@@ -935,8 +1773,8 @@ pg.ship_data_strengthen = {
 			0,
 			16
 		}
-	},
-	[10146] = {
+	}
+	pg.base.ship_data_strengthen[10146] = {
 		id = 10146,
 		durability = {
 			16,
@@ -959,8 +1797,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[10147] = {
+	}
+	pg.base.ship_data_strengthen[10147] = {
 		id = 10147,
 		durability = {
 			15,
@@ -983,8 +1821,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[10148] = {
+	}
+	pg.base.ship_data_strengthen[10148] = {
 		id = 10148,
 		durability = {
 			25,
@@ -1007,8 +1845,8 @@ pg.ship_data_strengthen = {
 			0,
 			16
 		}
-	},
-	[10149] = {
+	}
+	pg.base.ship_data_strengthen[10149] = {
 		id = 10149,
 		durability = {
 			25,
@@ -1031,8 +1869,8 @@ pg.ship_data_strengthen = {
 			0,
 			16
 		}
-	},
-	[10150] = {
+	}
+	pg.base.ship_data_strengthen[10150] = {
 		id = 10150,
 		durability = {
 			15,
@@ -1055,8 +1893,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[10151] = {
+	}
+	pg.base.ship_data_strengthen[10151] = {
 		id = 10151,
 		durability = {
 			28,
@@ -1079,8 +1917,8 @@ pg.ship_data_strengthen = {
 			0,
 			17
 		}
-	},
-	[10152] = {
+	}
+	pg.base.ship_data_strengthen[10152] = {
 		id = 10152,
 		durability = {
 			16,
@@ -1103,8 +1941,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[10153] = {
+	}
+	pg.base.ship_data_strengthen[10153] = {
 		id = 10153,
 		durability = {
 			17,
@@ -1127,8 +1965,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[10155] = {
+	}
+	pg.base.ship_data_strengthen[10155] = {
 		id = 10155,
 		durability = {
 			17,
@@ -1151,8 +1989,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[10199] = {
+	}
+	pg.base.ship_data_strengthen[10199] = {
 		id = 10199,
 		durability = {
 			15,
@@ -1175,8 +2013,8 @@ pg.ship_data_strengthen = {
 			0,
 			16
 		}
-	},
-	[10201] = {
+	}
+	pg.base.ship_data_strengthen[10201] = {
 		id = 10201,
 		durability = {
 			26,
@@ -1199,8 +2037,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10202] = {
+	}
+	pg.base.ship_data_strengthen[10202] = {
 		id = 10202,
 		durability = {
 			26,
@@ -1223,8 +2061,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10203] = {
+	}
+	pg.base.ship_data_strengthen[10203] = {
 		id = 10203,
 		durability = {
 			30,
@@ -1247,8 +2085,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10204] = {
+	}
+	pg.base.ship_data_strengthen[10204] = {
 		id = 10204,
 		durability = {
 			30,
@@ -1271,8 +2109,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10205] = {
+	}
+	pg.base.ship_data_strengthen[10205] = {
 		id = 10205,
 		durability = {
 			31,
@@ -1295,8 +2133,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10206] = {
+	}
+	pg.base.ship_data_strengthen[10206] = {
 		id = 10206,
 		durability = {
 			24,
@@ -1319,8 +2157,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[10207] = {
+	}
+	pg.base.ship_data_strengthen[10207] = {
 		id = 10207,
 		durability = {
 			24,
@@ -1343,8 +2181,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[10208] = {
+	}
+	pg.base.ship_data_strengthen[10208] = {
 		id = 10208,
 		durability = {
 			25,
@@ -1367,8 +2205,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10209] = {
+	}
+	pg.base.ship_data_strengthen[10209] = {
 		id = 10209,
 		durability = {
 			30,
@@ -1391,8 +2229,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10210] = {
+	}
+	pg.base.ship_data_strengthen[10210] = {
 		id = 10210,
 		durability = {
 			31,
@@ -1415,8 +2253,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10211] = {
+	}
+	pg.base.ship_data_strengthen[10211] = {
 		id = 10211,
 		durability = {
 			26,
@@ -1439,8 +2277,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10212] = {
+	}
+	pg.base.ship_data_strengthen[10212] = {
 		id = 10212,
 		durability = {
 			30,
@@ -1463,8 +2301,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10213] = {
+	}
+	pg.base.ship_data_strengthen[10213] = {
 		id = 10213,
 		durability = {
 			31,
@@ -1487,8 +2325,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10214] = {
+	}
+	pg.base.ship_data_strengthen[10214] = {
 		id = 10214,
 		durability = {
 			31,
@@ -1511,8 +2349,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10215] = {
+	}
+	pg.base.ship_data_strengthen[10215] = {
 		id = 10215,
 		durability = {
 			29,
@@ -1535,8 +2373,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10216] = {
+	}
+	pg.base.ship_data_strengthen[10216] = {
 		id = 10216,
 		durability = {
 			27,
@@ -1559,8 +2397,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10217] = {
+	}
+	pg.base.ship_data_strengthen[10217] = {
 		id = 10217,
 		durability = {
 			25,
@@ -1583,8 +2421,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10218] = {
+	}
+	pg.base.ship_data_strengthen[10218] = {
 		id = 10218,
 		durability = {
 			27,
@@ -1607,8 +2445,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10219] = {
+	}
+	pg.base.ship_data_strengthen[10219] = {
 		id = 10219,
 		durability = {
 			30,
@@ -1631,8 +2469,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10220] = {
+	}
+	pg.base.ship_data_strengthen[10220] = {
 		id = 10220,
 		durability = {
 			30,
@@ -1655,8 +2493,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10221] = {
+	}
+	pg.base.ship_data_strengthen[10221] = {
 		id = 10221,
 		durability = {
 			24,
@@ -1679,8 +2517,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10222] = {
+	}
+	pg.base.ship_data_strengthen[10222] = {
 		id = 10222,
 		durability = {
 			24,
@@ -1703,8 +2541,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[10223] = {
+	}
+	pg.base.ship_data_strengthen[10223] = {
 		id = 10223,
 		durability = {
 			31,
@@ -1727,8 +2565,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10224] = {
+	}
+	pg.base.ship_data_strengthen[10224] = {
 		id = 10224,
 		durability = {
 			30,
@@ -1751,8 +2589,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10225] = {
+	}
+	pg.base.ship_data_strengthen[10225] = {
 		id = 10225,
 		durability = {
 			28,
@@ -1775,8 +2613,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10226] = {
+	}
+	pg.base.ship_data_strengthen[10226] = {
 		id = 10226,
 		durability = {
 			27,
@@ -1799,8 +2637,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10227] = {
+	}
+	pg.base.ship_data_strengthen[10227] = {
 		id = 10227,
 		durability = {
 			25,
@@ -1823,8 +2661,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10228] = {
+	}
+	pg.base.ship_data_strengthen[10228] = {
 		id = 10228,
 		durability = {
 			31,
@@ -1847,8 +2685,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10229] = {
+	}
+	pg.base.ship_data_strengthen[10229] = {
 		id = 10229,
 		durability = {
 			30,
@@ -1871,8 +2709,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10230] = {
+	}
+	pg.base.ship_data_strengthen[10230] = {
 		id = 10230,
 		durability = {
 			24,
@@ -1895,8 +2733,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[10231] = {
+	}
+	pg.base.ship_data_strengthen[10231] = {
 		id = 10231,
 		durability = {
 			31,
@@ -1919,8 +2757,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10232] = {
+	}
+	pg.base.ship_data_strengthen[10232] = {
 		id = 10232,
 		durability = {
 			30,
@@ -1943,8 +2781,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10233] = {
+	}
+	pg.base.ship_data_strengthen[10233] = {
 		id = 10233,
 		durability = {
 			32,
@@ -1967,8 +2805,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[10234] = {
+	}
+	pg.base.ship_data_strengthen[10234] = {
 		id = 10234,
 		durability = {
 			32,
@@ -1991,8 +2829,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10235] = {
+	}
+	pg.base.ship_data_strengthen[10235] = {
 		id = 10235,
 		durability = {
 			30,
@@ -2015,8 +2853,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10301] = {
+	}
+	pg.base.ship_data_strengthen[10301] = {
 		id = 10301,
 		durability = {
 			42,
@@ -2039,8 +2877,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[10302] = {
+	}
+	pg.base.ship_data_strengthen[10302] = {
 		id = 10302,
 		durability = {
 			42,
@@ -2063,8 +2901,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[10303] = {
+	}
+	pg.base.ship_data_strengthen[10303] = {
 		id = 10303,
 		durability = {
 			44,
@@ -2087,8 +2925,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[10304] = {
+	}
+	pg.base.ship_data_strengthen[10304] = {
 		id = 10304,
 		durability = {
 			44,
@@ -2111,8 +2949,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[10305] = {
+	}
+	pg.base.ship_data_strengthen[10305] = {
 		id = 10305,
 		durability = {
 			45,
@@ -2135,8 +2973,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[10306] = {
+	}
+	pg.base.ship_data_strengthen[10306] = {
 		id = 10306,
 		durability = {
 			37,
@@ -2159,8 +2997,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[10307] = {
+	}
+	pg.base.ship_data_strengthen[10307] = {
 		id = 10307,
 		durability = {
 			38,
@@ -2183,8 +3021,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[10308] = {
+	}
+	pg.base.ship_data_strengthen[10308] = {
 		id = 10308,
 		durability = {
 			40,
@@ -2207,8 +3045,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[10309] = {
+	}
+	pg.base.ship_data_strengthen[10309] = {
 		id = 10309,
 		durability = {
 			40,
@@ -2231,8 +3069,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[10310] = {
+	}
+	pg.base.ship_data_strengthen[10310] = {
 		id = 10310,
 		durability = {
 			40,
@@ -2255,8 +3093,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[10311] = {
+	}
+	pg.base.ship_data_strengthen[10311] = {
 		id = 10311,
 		durability = {
 			49,
@@ -2279,8 +3117,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[10312] = {
+	}
+	pg.base.ship_data_strengthen[10312] = {
 		id = 10312,
 		durability = {
 			44,
@@ -2303,8 +3141,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10313] = {
+	}
+	pg.base.ship_data_strengthen[10313] = {
 		id = 10313,
 		durability = {
 			47,
@@ -2327,8 +3165,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10314] = {
+	}
+	pg.base.ship_data_strengthen[10314] = {
 		id = 10314,
 		durability = {
 			47,
@@ -2351,8 +3189,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[10316] = {
+	}
+	pg.base.ship_data_strengthen[10316] = {
 		id = 10316,
 		durability = {
 			50,
@@ -2375,8 +3213,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10324] = {
+	}
+	pg.base.ship_data_strengthen[10324] = {
 		id = 10324,
 		durability = {
 			49,
@@ -2399,8 +3237,10 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10325] = {
+	}
+end)()
+(function ()
+	pg.base.ship_data_strengthen[10325] = {
 		id = 10325,
 		durability = {
 			48,
@@ -2423,8 +3263,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[10326] = {
+	}
+	pg.base.ship_data_strengthen[10326] = {
 		id = 10326,
 		durability = {
 			47,
@@ -2447,8 +3287,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10327] = {
+	}
+	pg.base.ship_data_strengthen[10327] = {
 		id = 10327,
 		durability = {
 			49,
@@ -2471,8 +3311,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[10328] = {
+	}
+	pg.base.ship_data_strengthen[10328] = {
 		id = 10328,
 		durability = {
 			46,
@@ -2495,8 +3335,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[10329] = {
+	}
+	pg.base.ship_data_strengthen[10329] = {
 		id = 10329,
 		durability = {
 			45,
@@ -2519,8 +3359,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[10401] = {
+	}
+	pg.base.ship_data_strengthen[10401] = {
 		id = 10401,
 		durability = {
 			79,
@@ -2543,8 +3383,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[10501] = {
+	}
+	pg.base.ship_data_strengthen[10501] = {
 		id = 10501,
 		durability = {
 			71,
@@ -2567,8 +3407,8 @@ pg.ship_data_strengthen = {
 			0,
 			9
 		}
-	},
-	[10502] = {
+	}
+	pg.base.ship_data_strengthen[10502] = {
 		id = 10502,
 		durability = {
 			71,
@@ -2591,8 +3431,8 @@ pg.ship_data_strengthen = {
 			0,
 			9
 		}
-	},
-	[10503] = {
+	}
+	pg.base.ship_data_strengthen[10503] = {
 		id = 10503,
 		durability = {
 			73,
@@ -2615,8 +3455,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[10504] = {
+	}
+	pg.base.ship_data_strengthen[10504] = {
 		id = 10504,
 		durability = {
 			75,
@@ -2639,8 +3479,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[10507] = {
+	}
+	pg.base.ship_data_strengthen[10507] = {
 		id = 10507,
 		durability = {
 			74,
@@ -2663,8 +3503,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[10508] = {
+	}
+	pg.base.ship_data_strengthen[10508] = {
 		id = 10508,
 		durability = {
 			74,
@@ -2687,8 +3527,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[10509] = {
+	}
+	pg.base.ship_data_strengthen[10509] = {
 		id = 10509,
 		durability = {
 			77,
@@ -2711,8 +3551,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[10510] = {
+	}
+	pg.base.ship_data_strengthen[10510] = {
 		id = 10510,
 		durability = {
 			76,
@@ -2735,8 +3575,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[10511] = {
+	}
+	pg.base.ship_data_strengthen[10511] = {
 		id = 10511,
 		durability = {
 			77,
@@ -2759,8 +3599,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[10512] = {
+	}
+	pg.base.ship_data_strengthen[10512] = {
 		id = 10512,
 		durability = {
 			81,
@@ -2783,8 +3623,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[10513] = {
+	}
+	pg.base.ship_data_strengthen[10513] = {
 		id = 10513,
 		durability = {
 			81,
@@ -2807,8 +3647,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[10514] = {
+	}
+	pg.base.ship_data_strengthen[10514] = {
 		id = 10514,
 		durability = {
 			80,
@@ -2831,8 +3671,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[10515] = {
+	}
+	pg.base.ship_data_strengthen[10515] = {
 		id = 10515,
 		durability = {
 			81,
@@ -2855,8 +3695,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[10517] = {
+	}
+	pg.base.ship_data_strengthen[10517] = {
 		id = 10517,
 		durability = {
 			86,
@@ -2879,8 +3719,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[10519] = {
+	}
+	pg.base.ship_data_strengthen[10519] = {
 		id = 10519,
 		durability = {
 			80,
@@ -2903,8 +3743,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[10520] = {
+	}
+	pg.base.ship_data_strengthen[10520] = {
 		id = 10520,
 		durability = {
 			80,
@@ -2927,8 +3767,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[10601] = {
+	}
+	pg.base.ship_data_strengthen[10601] = {
 		id = 10601,
 		durability = {
 			0,
@@ -2951,8 +3791,8 @@ pg.ship_data_strengthen = {
 			35,
 			13
 		}
-	},
-	[10602] = {
+	}
+	pg.base.ship_data_strengthen[10602] = {
 		id = 10602,
 		durability = {
 			0,
@@ -2975,8 +3815,8 @@ pg.ship_data_strengthen = {
 			34,
 			12
 		}
-	},
-	[10655] = {
+	}
+	pg.base.ship_data_strengthen[10655] = {
 		id = 10655,
 		durability = {
 			0,
@@ -2999,8 +3839,8 @@ pg.ship_data_strengthen = {
 			35,
 			13
 		}
-	},
-	[10701] = {
+	}
+	pg.base.ship_data_strengthen[10701] = {
 		id = 10701,
 		durability = {
 			0,
@@ -3023,8 +3863,8 @@ pg.ship_data_strengthen = {
 			25,
 			9
 		}
-	},
-	[10702] = {
+	}
+	pg.base.ship_data_strengthen[10702] = {
 		id = 10702,
 		durability = {
 			0,
@@ -3047,8 +3887,8 @@ pg.ship_data_strengthen = {
 			63,
 			8
 		}
-	},
-	[10703] = {
+	}
+	pg.base.ship_data_strengthen[10703] = {
 		id = 10703,
 		durability = {
 			0,
@@ -3071,8 +3911,8 @@ pg.ship_data_strengthen = {
 			63,
 			8
 		}
-	},
-	[10704] = {
+	}
+	pg.base.ship_data_strengthen[10704] = {
 		id = 10704,
 		durability = {
 			0,
@@ -3095,8 +3935,8 @@ pg.ship_data_strengthen = {
 			29,
 			9
 		}
-	},
-	[10705] = {
+	}
+	pg.base.ship_data_strengthen[10705] = {
 		id = 10705,
 		durability = {
 			0,
@@ -3119,8 +3959,8 @@ pg.ship_data_strengthen = {
 			62,
 			8
 		}
-	},
-	[10706] = {
+	}
+	pg.base.ship_data_strengthen[10706] = {
 		id = 10706,
 		durability = {
 			0,
@@ -3143,8 +3983,8 @@ pg.ship_data_strengthen = {
 			69,
 			9
 		}
-	},
-	[10707] = {
+	}
+	pg.base.ship_data_strengthen[10707] = {
 		id = 10707,
 		durability = {
 			0,
@@ -3167,8 +4007,8 @@ pg.ship_data_strengthen = {
 			63,
 			8
 		}
-	},
-	[10708] = {
+	}
+	pg.base.ship_data_strengthen[10708] = {
 		id = 10708,
 		durability = {
 			0,
@@ -3191,8 +4031,8 @@ pg.ship_data_strengthen = {
 			51,
 			8
 		}
-	},
-	[10709] = {
+	}
+	pg.base.ship_data_strengthen[10709] = {
 		id = 10709,
 		durability = {
 			0,
@@ -3215,8 +4055,8 @@ pg.ship_data_strengthen = {
 			68,
 			9
 		}
-	},
-	[10710] = {
+	}
+	pg.base.ship_data_strengthen[10710] = {
 		id = 10710,
 		durability = {
 			0,
@@ -3239,8 +4079,8 @@ pg.ship_data_strengthen = {
 			72,
 			9
 		}
-	},
-	[10711] = {
+	}
+	pg.base.ship_data_strengthen[10711] = {
 		id = 10711,
 		durability = {
 			0,
@@ -3263,8 +4103,8 @@ pg.ship_data_strengthen = {
 			68,
 			9
 		}
-	},
-	[10712] = {
+	}
+	pg.base.ship_data_strengthen[10712] = {
 		id = 10712,
 		durability = {
 			0,
@@ -3287,8 +4127,8 @@ pg.ship_data_strengthen = {
 			68,
 			9
 		}
-	},
-	[10713] = {
+	}
+	pg.base.ship_data_strengthen[10713] = {
 		id = 10713,
 		durability = {
 			0,
@@ -3311,8 +4151,8 @@ pg.ship_data_strengthen = {
 			68,
 			9
 		}
-	},
-	[10714] = {
+	}
+	pg.base.ship_data_strengthen[10714] = {
 		id = 10714,
 		durability = {
 			0,
@@ -3335,8 +4175,8 @@ pg.ship_data_strengthen = {
 			68,
 			9
 		}
-	},
-	[10716] = {
+	}
+	pg.base.ship_data_strengthen[10716] = {
 		id = 10716,
 		durability = {
 			0,
@@ -3359,8 +4199,8 @@ pg.ship_data_strengthen = {
 			73,
 			9
 		}
-	},
-	[10717] = {
+	}
+	pg.base.ship_data_strengthen[10717] = {
 		id = 10717,
 		durability = {
 			0,
@@ -3383,8 +4223,8 @@ pg.ship_data_strengthen = {
 			67,
 			9
 		}
-	},
-	[10722] = {
+	}
+	pg.base.ship_data_strengthen[10722] = {
 		id = 10722,
 		durability = {
 			0,
@@ -3407,8 +4247,8 @@ pg.ship_data_strengthen = {
 			38,
 			13
 		}
-	},
-	[10723] = {
+	}
+	pg.base.ship_data_strengthen[10723] = {
 		id = 10723,
 		durability = {
 			0,
@@ -3431,8 +4271,8 @@ pg.ship_data_strengthen = {
 			42,
 			13
 		}
-	},
-	[10725] = {
+	}
+	pg.base.ship_data_strengthen[10725] = {
 		id = 10725,
 		durability = {
 			0,
@@ -3455,8 +4295,8 @@ pg.ship_data_strengthen = {
 			46,
 			15
 		}
-	},
-	[10727] = {
+	}
+	pg.base.ship_data_strengthen[10727] = {
 		id = 10727,
 		durability = {
 			0,
@@ -3479,8 +4319,8 @@ pg.ship_data_strengthen = {
 			43,
 			13
 		}
-	},
-	[10729] = {
+	}
+	pg.base.ship_data_strengthen[10729] = {
 		id = 10729,
 		durability = {
 			0,
@@ -3503,8 +4343,8 @@ pg.ship_data_strengthen = {
 			43,
 			14
 		}
-	},
-	[10730] = {
+	}
+	pg.base.ship_data_strengthen[10730] = {
 		id = 10730,
 		durability = {
 			0,
@@ -3527,8 +4367,8 @@ pg.ship_data_strengthen = {
 			43,
 			14
 		}
-	},
-	[10738] = {
+	}
+	pg.base.ship_data_strengthen[10738] = {
 		id = 10738,
 		durability = {
 			0,
@@ -3551,8 +4391,8 @@ pg.ship_data_strengthen = {
 			68,
 			9
 		}
-	},
-	[10798] = {
+	}
+	pg.base.ship_data_strengthen[10798] = {
 		id = 10798,
 		durability = {
 			0,
@@ -3575,8 +4415,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[10799] = {
+	}
+	pg.base.ship_data_strengthen[10799] = {
 		id = 10799,
 		durability = {
 			0,
@@ -3599,8 +4439,8 @@ pg.ship_data_strengthen = {
 			63,
 			8
 		}
-	},
-	[10801] = {
+	}
+	pg.base.ship_data_strengthen[10801] = {
 		id = 10801,
 		durability = {
 			13,
@@ -3623,8 +4463,8 @@ pg.ship_data_strengthen = {
 			0,
 			6
 		}
-	},
-	[10802] = {
+	}
+	pg.base.ship_data_strengthen[10802] = {
 		id = 10802,
 		durability = {
 			11,
@@ -3647,8 +4487,8 @@ pg.ship_data_strengthen = {
 			0,
 			7
 		}
-	},
-	[10803] = {
+	}
+	pg.base.ship_data_strengthen[10803] = {
 		id = 10803,
 		durability = {
 			12,
@@ -3671,8 +4511,8 @@ pg.ship_data_strengthen = {
 			0,
 			7
 		}
-	},
-	[10804] = {
+	}
+	pg.base.ship_data_strengthen[10804] = {
 		id = 10804,
 		durability = {
 			13,
@@ -3695,8 +4535,8 @@ pg.ship_data_strengthen = {
 			0,
 			6
 		}
-	},
-	[10805] = {
+	}
+	pg.base.ship_data_strengthen[10805] = {
 		id = 10805,
 		durability = {
 			11,
@@ -3719,8 +4559,8 @@ pg.ship_data_strengthen = {
 			0,
 			6
 		}
-	},
-	[10806] = {
+	}
+	pg.base.ship_data_strengthen[10806] = {
 		id = 10806,
 		durability = {
 			12,
@@ -3743,8 +4583,8 @@ pg.ship_data_strengthen = {
 			0,
 			7
 		}
-	},
-	[10807] = {
+	}
+	pg.base.ship_data_strengthen[10807] = {
 		id = 10807,
 		durability = {
 			21,
@@ -3767,8 +4607,8 @@ pg.ship_data_strengthen = {
 			0,
 			6
 		}
-	},
-	[10808] = {
+	}
+	pg.base.ship_data_strengthen[10808] = {
 		id = 10808,
 		durability = {
 			11,
@@ -3791,8 +4631,8 @@ pg.ship_data_strengthen = {
 			0,
 			7
 		}
-	},
-	[10809] = {
+	}
+	pg.base.ship_data_strengthen[10809] = {
 		id = 10809,
 		durability = {
 			13,
@@ -3815,8 +4655,8 @@ pg.ship_data_strengthen = {
 			0,
 			6
 		}
-	},
-	[11201] = {
+	}
+	pg.base.ship_data_strengthen[11201] = {
 		id = 11201,
 		durability = {
 			9,
@@ -3839,8 +4679,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[11802] = {
+	}
+	pg.base.ship_data_strengthen[11802] = {
 		id = 11802,
 		durability = {
 			55,
@@ -3863,8 +4703,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[20101] = {
+	}
+	pg.base.ship_data_strengthen[20101] = {
 		id = 20101,
 		durability = {
 			12,
@@ -3887,8 +4727,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[20102] = {
+	}
+	pg.base.ship_data_strengthen[20102] = {
 		id = 20102,
 		durability = {
 			12,
@@ -3911,8 +4751,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[20103] = {
+	}
+	pg.base.ship_data_strengthen[20103] = {
 		id = 20103,
 		durability = {
 			12,
@@ -3935,8 +4775,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[20106] = {
+	}
+	pg.base.ship_data_strengthen[20106] = {
 		id = 20106,
 		durability = {
 			12,
@@ -3959,8 +4799,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[20107] = {
+	}
+	pg.base.ship_data_strengthen[20107] = {
 		id = 20107,
 		durability = {
 			12,
@@ -3983,8 +4823,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[20108] = {
+	}
+	pg.base.ship_data_strengthen[20108] = {
 		id = 20108,
 		durability = {
 			12,
@@ -4007,8 +4847,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[20109] = {
+	}
+	pg.base.ship_data_strengthen[20109] = {
 		id = 20109,
 		durability = {
 			12,
@@ -4031,8 +4871,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[20110] = {
+	}
+	pg.base.ship_data_strengthen[20110] = {
 		id = 20110,
 		durability = {
 			12,
@@ -4055,8 +4895,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[20111] = {
+	}
+	pg.base.ship_data_strengthen[20111] = {
 		id = 20111,
 		durability = {
 			13,
@@ -4079,8 +4919,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[20112] = {
+	}
+	pg.base.ship_data_strengthen[20112] = {
 		id = 20112,
 		durability = {
 			13,
@@ -4103,8 +4943,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[20113] = {
+	}
+	pg.base.ship_data_strengthen[20113] = {
 		id = 20113,
 		durability = {
 			16,
@@ -4127,8 +4967,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[20114] = {
+	}
+	pg.base.ship_data_strengthen[20114] = {
 		id = 20114,
 		durability = {
 			14,
@@ -4151,8 +4991,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[20116] = {
+	}
+	pg.base.ship_data_strengthen[20116] = {
 		id = 20116,
 		durability = {
 			15,
@@ -4175,8 +5015,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[20120] = {
+	}
+	pg.base.ship_data_strengthen[20120] = {
 		id = 20120,
 		durability = {
 			14,
@@ -4199,8 +5039,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[20121] = {
+	}
+	pg.base.ship_data_strengthen[20121] = {
 		id = 20121,
 		durability = {
 			15,
@@ -4223,8 +5063,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[20122] = {
+	}
+	pg.base.ship_data_strengthen[20122] = {
 		id = 20122,
 		durability = {
 			14,
@@ -4247,8 +5087,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[20123] = {
+	}
+	pg.base.ship_data_strengthen[20123] = {
 		id = 20123,
 		durability = {
 			13,
@@ -4271,8 +5111,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[20124] = {
+	}
+	pg.base.ship_data_strengthen[20124] = {
 		id = 20124,
 		durability = {
 			14,
@@ -4295,8 +5135,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[20125] = {
+	}
+	pg.base.ship_data_strengthen[20125] = {
 		id = 20125,
 		durability = {
 			14,
@@ -4319,8 +5159,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[20126] = {
+	}
+	pg.base.ship_data_strengthen[20126] = {
 		id = 20126,
 		durability = {
 			14,
@@ -4343,8 +5183,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[20127] = {
+	}
+	pg.base.ship_data_strengthen[20127] = {
 		id = 20127,
 		durability = {
 			14,
@@ -4367,8 +5207,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[20129] = {
+	}
+	pg.base.ship_data_strengthen[20129] = {
 		id = 20129,
 		durability = {
 			13,
@@ -4391,8 +5231,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[20132] = {
+	}
+	pg.base.ship_data_strengthen[20132] = {
 		id = 20132,
 		durability = {
 			16,
@@ -4415,8 +5255,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[20133] = {
+	}
+	pg.base.ship_data_strengthen[20133] = {
 		id = 20133,
 		durability = {
 			14,
@@ -4439,8 +5279,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[20134] = {
+	}
+	pg.base.ship_data_strengthen[20134] = {
 		id = 20134,
 		durability = {
 			22,
@@ -4463,8 +5303,8 @@ pg.ship_data_strengthen = {
 			0,
 			16
 		}
-	},
-	[20135] = {
+	}
+	pg.base.ship_data_strengthen[20135] = {
 		id = 20135,
 		durability = {
 			22,
@@ -4487,8 +5327,8 @@ pg.ship_data_strengthen = {
 			0,
 			16
 		}
-	},
-	[20136] = {
+	}
+	pg.base.ship_data_strengthen[20136] = {
 		id = 20136,
 		durability = {
 			16,
@@ -4511,8 +5351,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[20137] = {
+	}
+	pg.base.ship_data_strengthen[20137] = {
 		id = 20137,
 		durability = {
 			18,
@@ -4535,8 +5375,8 @@ pg.ship_data_strengthen = {
 			0,
 			16
 		}
-	},
-	[20138] = {
+	}
+	pg.base.ship_data_strengthen[20138] = {
 		id = 20138,
 		durability = {
 			24,
@@ -4559,8 +5399,8 @@ pg.ship_data_strengthen = {
 			0,
 			17
 		}
-	},
-	[20139] = {
+	}
+	pg.base.ship_data_strengthen[20139] = {
 		id = 20139,
 		durability = {
 			16,
@@ -4583,8 +5423,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[20201] = {
+	}
+	pg.base.ship_data_strengthen[20201] = {
 		id = 20201,
 		durability = {
 			27,
@@ -4607,8 +5447,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[20202] = {
+	}
+	pg.base.ship_data_strengthen[20202] = {
 		id = 20202,
 		durability = {
 			30,
@@ -4631,8 +5471,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[20203] = {
+	}
+	pg.base.ship_data_strengthen[20203] = {
 		id = 20203,
 		durability = {
 			30,
@@ -4655,8 +5495,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[20204] = {
+	}
+	pg.base.ship_data_strengthen[20204] = {
 		id = 20204,
 		durability = {
 			29,
@@ -4679,8 +5519,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[20207] = {
+	}
+	pg.base.ship_data_strengthen[20207] = {
 		id = 20207,
 		durability = {
 			28,
@@ -4703,8 +5543,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[20208] = {
+	}
+	pg.base.ship_data_strengthen[20208] = {
 		id = 20208,
 		durability = {
 			28,
@@ -4727,8 +5567,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[20209] = {
+	}
+	pg.base.ship_data_strengthen[20209] = {
 		id = 20209,
 		durability = {
 			26,
@@ -4751,8 +5591,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[20210] = {
+	}
+	pg.base.ship_data_strengthen[20210] = {
 		id = 20210,
 		durability = {
 			28,
@@ -4775,8 +5615,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[20211] = {
+	}
+	pg.base.ship_data_strengthen[20211] = {
 		id = 20211,
 		durability = {
 			29,
@@ -4799,8 +5639,10 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[20212] = {
+	}
+end)()
+(function ()
+	pg.base.ship_data_strengthen[20212] = {
 		id = 20212,
 		durability = {
 			33,
@@ -4823,8 +5665,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[20213] = {
+	}
+	pg.base.ship_data_strengthen[20213] = {
 		id = 20213,
 		durability = {
 			28,
@@ -4847,8 +5689,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[20214] = {
+	}
+	pg.base.ship_data_strengthen[20214] = {
 		id = 20214,
 		durability = {
 			28,
@@ -4871,8 +5713,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[20215] = {
+	}
+	pg.base.ship_data_strengthen[20215] = {
 		id = 20215,
 		durability = {
 			30,
@@ -4895,8 +5737,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[20216] = {
+	}
+	pg.base.ship_data_strengthen[20216] = {
 		id = 20216,
 		durability = {
 			29,
@@ -4919,8 +5761,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[20217] = {
+	}
+	pg.base.ship_data_strengthen[20217] = {
 		id = 20217,
 		durability = {
 			29,
@@ -4943,8 +5785,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[20218] = {
+	}
+	pg.base.ship_data_strengthen[20218] = {
 		id = 20218,
 		durability = {
 			29,
@@ -4967,8 +5809,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[20219] = {
+	}
+	pg.base.ship_data_strengthen[20219] = {
 		id = 20219,
 		durability = {
 			26,
@@ -4991,8 +5833,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[20221] = {
+	}
+	pg.base.ship_data_strengthen[20221] = {
 		id = 20221,
 		durability = {
 			24,
@@ -5015,8 +5857,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[20222] = {
+	}
+	pg.base.ship_data_strengthen[20222] = {
 		id = 20222,
 		durability = {
 			23,
@@ -5039,8 +5881,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[20220] = {
+	}
+	pg.base.ship_data_strengthen[20220] = {
 		id = 20220,
 		durability = {
 			28,
@@ -5063,8 +5905,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[20223] = {
+	}
+	pg.base.ship_data_strengthen[20223] = {
 		id = 20223,
 		durability = {
 			30,
@@ -5087,8 +5929,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[20224] = {
+	}
+	pg.base.ship_data_strengthen[20224] = {
 		id = 20224,
 		durability = {
 			26,
@@ -5111,8 +5953,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[20225] = {
+	}
+	pg.base.ship_data_strengthen[20225] = {
 		id = 20225,
 		durability = {
 			28,
@@ -5135,8 +5977,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[20226] = {
+	}
+	pg.base.ship_data_strengthen[20226] = {
 		id = 20226,
 		durability = {
 			28,
@@ -5159,8 +6001,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[20227] = {
+	}
+	pg.base.ship_data_strengthen[20227] = {
 		id = 20227,
 		durability = {
 			29,
@@ -5183,8 +6025,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[20228] = {
+	}
+	pg.base.ship_data_strengthen[20228] = {
 		id = 20228,
 		durability = {
 			27,
@@ -5207,8 +6049,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[20229] = {
+	}
+	pg.base.ship_data_strengthen[20229] = {
 		id = 20229,
 		durability = {
 			29,
@@ -5231,8 +6073,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[20230] = {
+	}
+	pg.base.ship_data_strengthen[20230] = {
 		id = 20230,
 		durability = {
 			25,
@@ -5255,8 +6097,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[20231] = {
+	}
+	pg.base.ship_data_strengthen[20231] = {
 		id = 20231,
 		durability = {
 			27,
@@ -5279,8 +6121,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[20232] = {
+	}
+	pg.base.ship_data_strengthen[20232] = {
 		id = 20232,
 		durability = {
 			28,
@@ -5303,8 +6145,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[20233] = {
+	}
+	pg.base.ship_data_strengthen[20233] = {
 		id = 20233,
 		durability = {
 			27,
@@ -5327,8 +6169,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[20234] = {
+	}
+	pg.base.ship_data_strengthen[20234] = {
 		id = 20234,
 		durability = {
 			28,
@@ -5351,8 +6193,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[20235] = {
+	}
+	pg.base.ship_data_strengthen[20235] = {
 		id = 20235,
 		durability = {
 			29,
@@ -5375,8 +6217,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[20236] = {
+	}
+	pg.base.ship_data_strengthen[20236] = {
 		id = 20236,
 		durability = {
 			31,
@@ -5399,8 +6241,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[20301] = {
+	}
+	pg.base.ship_data_strengthen[20301] = {
 		id = 20301,
 		durability = {
 			41,
@@ -5423,8 +6265,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[20302] = {
+	}
+	pg.base.ship_data_strengthen[20302] = {
 		id = 20302,
 		durability = {
 			40,
@@ -5447,8 +6289,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[20303] = {
+	}
+	pg.base.ship_data_strengthen[20303] = {
 		id = 20303,
 		durability = {
 			40,
@@ -5471,8 +6313,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[20304] = {
+	}
+	pg.base.ship_data_strengthen[20304] = {
 		id = 20304,
 		durability = {
 			40,
@@ -5495,8 +6337,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[20305] = {
+	}
+	pg.base.ship_data_strengthen[20305] = {
 		id = 20305,
 		durability = {
 			32,
@@ -5519,8 +6361,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[20306] = {
+	}
+	pg.base.ship_data_strengthen[20306] = {
 		id = 20306,
 		durability = {
 			33,
@@ -5543,8 +6385,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[20307] = {
+	}
+	pg.base.ship_data_strengthen[20307] = {
 		id = 20307,
 		durability = {
 			41,
@@ -5567,8 +6409,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[20308] = {
+	}
+	pg.base.ship_data_strengthen[20308] = {
 		id = 20308,
 		durability = {
 			41,
@@ -5591,8 +6433,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[20309] = {
+	}
+	pg.base.ship_data_strengthen[20309] = {
 		id = 20309,
 		durability = {
 			37,
@@ -5615,8 +6457,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[20310] = {
+	}
+	pg.base.ship_data_strengthen[20310] = {
 		id = 20310,
 		durability = {
 			46,
@@ -5639,8 +6481,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[20313] = {
+	}
+	pg.base.ship_data_strengthen[20313] = {
 		id = 20313,
 		durability = {
 			42,
@@ -5663,8 +6505,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[20401] = {
+	}
+	pg.base.ship_data_strengthen[20401] = {
 		id = 20401,
 		durability = {
 			70,
@@ -5687,8 +6529,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[20402] = {
+	}
+	pg.base.ship_data_strengthen[20402] = {
 		id = 20402,
 		durability = {
 			66,
@@ -5711,8 +6553,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[20403] = {
+	}
+	pg.base.ship_data_strengthen[20403] = {
 		id = 20403,
 		durability = {
 			66,
@@ -5735,8 +6577,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[20404] = {
+	}
+	pg.base.ship_data_strengthen[20404] = {
 		id = 20404,
 		durability = {
 			64,
@@ -5759,8 +6601,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[20501] = {
+	}
+	pg.base.ship_data_strengthen[20501] = {
 		id = 20501,
 		durability = {
 			77,
@@ -5783,8 +6625,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[20502] = {
+	}
+	pg.base.ship_data_strengthen[20502] = {
 		id = 20502,
 		durability = {
 			83,
@@ -5807,8 +6649,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[20503] = {
+	}
+	pg.base.ship_data_strengthen[20503] = {
 		id = 20503,
 		durability = {
 			78,
@@ -5831,8 +6673,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[20504] = {
+	}
+	pg.base.ship_data_strengthen[20504] = {
 		id = 20504,
 		durability = {
 			78,
@@ -5855,8 +6697,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[20505] = {
+	}
+	pg.base.ship_data_strengthen[20505] = {
 		id = 20505,
 		durability = {
 			81,
@@ -5879,8 +6721,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[20506] = {
+	}
+	pg.base.ship_data_strengthen[20506] = {
 		id = 20506,
 		durability = {
 			81,
@@ -5903,8 +6745,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[20507] = {
+	}
+	pg.base.ship_data_strengthen[20507] = {
 		id = 20507,
 		durability = {
 			81,
@@ -5927,8 +6769,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[20509] = {
+	}
+	pg.base.ship_data_strengthen[20509] = {
 		id = 20509,
 		durability = {
 			80,
@@ -5951,8 +6793,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[20510] = {
+	}
+	pg.base.ship_data_strengthen[20510] = {
 		id = 20510,
 		durability = {
 			78,
@@ -5975,8 +6817,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[20511] = {
+	}
+	pg.base.ship_data_strengthen[20511] = {
 		id = 20511,
 		durability = {
 			76,
@@ -5999,8 +6841,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[20513] = {
+	}
+	pg.base.ship_data_strengthen[20513] = {
 		id = 20513,
 		durability = {
 			80,
@@ -6023,8 +6865,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[20514] = {
+	}
+	pg.base.ship_data_strengthen[20514] = {
 		id = 20514,
 		durability = {
 			80,
@@ -6047,8 +6889,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[20516] = {
+	}
+	pg.base.ship_data_strengthen[20516] = {
 		id = 20516,
 		durability = {
 			87,
@@ -6071,8 +6913,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[20601] = {
+	}
+	pg.base.ship_data_strengthen[20601] = {
 		id = 20601,
 		durability = {
 			0,
@@ -6095,8 +6937,8 @@ pg.ship_data_strengthen = {
 			35,
 			12
 		}
-	},
-	[20602] = {
+	}
+	pg.base.ship_data_strengthen[20602] = {
 		id = 20602,
 		durability = {
 			0,
@@ -6119,8 +6961,8 @@ pg.ship_data_strengthen = {
 			35,
 			12
 		}
-	},
-	[20603] = {
+	}
+	pg.base.ship_data_strengthen[20603] = {
 		id = 20603,
 		durability = {
 			0,
@@ -6143,8 +6985,8 @@ pg.ship_data_strengthen = {
 			38,
 			13
 		}
-	},
-	[20604] = {
+	}
+	pg.base.ship_data_strengthen[20604] = {
 		id = 20604,
 		durability = {
 			0,
@@ -6167,8 +7009,8 @@ pg.ship_data_strengthen = {
 			53,
 			11
 		}
-	},
-	[20605] = {
+	}
+	pg.base.ship_data_strengthen[20605] = {
 		id = 20605,
 		durability = {
 			0,
@@ -6191,8 +7033,8 @@ pg.ship_data_strengthen = {
 			37,
 			13
 		}
-	},
-	[20606] = {
+	}
+	pg.base.ship_data_strengthen[20606] = {
 		id = 20606,
 		durability = {
 			0,
@@ -6215,8 +7057,8 @@ pg.ship_data_strengthen = {
 			41,
 			12
 		}
-	},
-	[20607] = {
+	}
+	pg.base.ship_data_strengthen[20607] = {
 		id = 20607,
 		durability = {
 			0,
@@ -6239,8 +7081,8 @@ pg.ship_data_strengthen = {
 			53,
 			11
 		}
-	},
-	[20608] = {
+	}
+	pg.base.ship_data_strengthen[20608] = {
 		id = 20608,
 		durability = {
 			0,
@@ -6263,8 +7105,8 @@ pg.ship_data_strengthen = {
 			53,
 			11
 		}
-	},
-	[20701] = {
+	}
+	pg.base.ship_data_strengthen[20701] = {
 		id = 20701,
 		durability = {
 			39,
@@ -6287,8 +7129,8 @@ pg.ship_data_strengthen = {
 			58,
 			8
 		}
-	},
-	[20702] = {
+	}
+	pg.base.ship_data_strengthen[20702] = {
 		id = 20702,
 		durability = {
 			0,
@@ -6311,8 +7153,8 @@ pg.ship_data_strengthen = {
 			63,
 			8
 		}
-	},
-	[20703] = {
+	}
+	pg.base.ship_data_strengthen[20703] = {
 		id = 20703,
 		durability = {
 			0,
@@ -6335,8 +7177,8 @@ pg.ship_data_strengthen = {
 			63,
 			8
 		}
-	},
-	[20704] = {
+	}
+	pg.base.ship_data_strengthen[20704] = {
 		id = 20704,
 		durability = {
 			0,
@@ -6359,8 +7201,8 @@ pg.ship_data_strengthen = {
 			64,
 			7
 		}
-	},
-	[20705] = {
+	}
+	pg.base.ship_data_strengthen[20705] = {
 		id = 20705,
 		durability = {
 			0,
@@ -6383,8 +7225,8 @@ pg.ship_data_strengthen = {
 			65,
 			8
 		}
-	},
-	[20706] = {
+	}
+	pg.base.ship_data_strengthen[20706] = {
 		id = 20706,
 		durability = {
 			0,
@@ -6407,8 +7249,8 @@ pg.ship_data_strengthen = {
 			56,
 			8
 		}
-	},
-	[20707] = {
+	}
+	pg.base.ship_data_strengthen[20707] = {
 		id = 20707,
 		durability = {
 			0,
@@ -6431,8 +7273,8 @@ pg.ship_data_strengthen = {
 			69,
 			9
 		}
-	},
-	[20709] = {
+	}
+	pg.base.ship_data_strengthen[20709] = {
 		id = 20709,
 		durability = {
 			0,
@@ -6455,8 +7297,8 @@ pg.ship_data_strengthen = {
 			59,
 			8
 		}
-	},
-	[20711] = {
+	}
+	pg.base.ship_data_strengthen[20711] = {
 		id = 20711,
 		durability = {
 			0,
@@ -6479,8 +7321,8 @@ pg.ship_data_strengthen = {
 			64,
 			8
 		}
-	},
-	[20712] = {
+	}
+	pg.base.ship_data_strengthen[20712] = {
 		id = 20712,
 		durability = {
 			0,
@@ -6503,8 +7345,8 @@ pg.ship_data_strengthen = {
 			68,
 			8
 		}
-	},
-	[20713] = {
+	}
+	pg.base.ship_data_strengthen[20713] = {
 		id = 20713,
 		durability = {
 			0,
@@ -6527,8 +7369,8 @@ pg.ship_data_strengthen = {
 			63,
 			8
 		}
-	},
-	[20714] = {
+	}
+	pg.base.ship_data_strengthen[20714] = {
 		id = 20714,
 		durability = {
 			0,
@@ -6551,8 +7393,8 @@ pg.ship_data_strengthen = {
 			66,
 			8
 		}
-	},
-	[21301] = {
+	}
+	pg.base.ship_data_strengthen[21301] = {
 		id = 21301,
 		durability = {
 			52,
@@ -6575,8 +7417,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[21302] = {
+	}
+	pg.base.ship_data_strengthen[21302] = {
 		id = 21302,
 		durability = {
 			52,
@@ -6599,8 +7441,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[21304] = {
+	}
+	pg.base.ship_data_strengthen[21304] = {
 		id = 21304,
 		durability = {
 			53,
@@ -6623,8 +7465,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[30101] = {
+	}
+	pg.base.ship_data_strengthen[30101] = {
 		id = 30101,
 		durability = {
 			11,
@@ -6647,8 +7489,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[30102] = {
+	}
+	pg.base.ship_data_strengthen[30102] = {
 		id = 30102,
 		durability = {
 			12,
@@ -6671,8 +7513,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[30104] = {
+	}
+	pg.base.ship_data_strengthen[30104] = {
 		id = 30104,
 		durability = {
 			12,
@@ -6695,8 +7537,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[30105] = {
+	}
+	pg.base.ship_data_strengthen[30105] = {
 		id = 30105,
 		durability = {
 			12,
@@ -6719,8 +7561,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[30109] = {
+	}
+	pg.base.ship_data_strengthen[30109] = {
 		id = 30109,
 		durability = {
 			11,
@@ -6743,8 +7585,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[30110] = {
+	}
+	pg.base.ship_data_strengthen[30110] = {
 		id = 30110,
 		durability = {
 			11,
@@ -6767,8 +7609,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[30111] = {
+	}
+	pg.base.ship_data_strengthen[30111] = {
 		id = 30111,
 		durability = {
 			11,
@@ -6791,8 +7633,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[30112] = {
+	}
+	pg.base.ship_data_strengthen[30112] = {
 		id = 30112,
 		durability = {
 			11,
@@ -6815,8 +7657,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[30113] = {
+	}
+	pg.base.ship_data_strengthen[30113] = {
 		id = 30113,
 		durability = {
 			12,
@@ -6839,8 +7681,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[30114] = {
+	}
+	pg.base.ship_data_strengthen[30114] = {
 		id = 30114,
 		durability = {
 			13,
@@ -6863,8 +7705,8 @@ pg.ship_data_strengthen = {
 			0,
 			16
 		}
-	},
-	[30115] = {
+	}
+	pg.base.ship_data_strengthen[30115] = {
 		id = 30115,
 		durability = {
 			12,
@@ -6887,8 +7729,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[30116] = {
+	}
+	pg.base.ship_data_strengthen[30116] = {
 		id = 30116,
 		durability = {
 			12,
@@ -6911,8 +7753,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[30117] = {
+	}
+	pg.base.ship_data_strengthen[30117] = {
 		id = 30117,
 		durability = {
 			12,
@@ -6935,8 +7777,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[30118] = {
+	}
+	pg.base.ship_data_strengthen[30118] = {
 		id = 30118,
 		durability = {
 			12,
@@ -6959,8 +7801,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[30120] = {
+	}
+	pg.base.ship_data_strengthen[30120] = {
 		id = 30120,
 		durability = {
 			12,
@@ -6983,8 +7825,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[30121] = {
+	}
+	pg.base.ship_data_strengthen[30121] = {
 		id = 30121,
 		durability = {
 			11,
@@ -7007,8 +7849,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[30123] = {
+	}
+	pg.base.ship_data_strengthen[30123] = {
 		id = 30123,
 		durability = {
 			11,
@@ -7031,8 +7873,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[30124] = {
+	}
+	pg.base.ship_data_strengthen[30124] = {
 		id = 30124,
 		durability = {
 			11,
@@ -7055,8 +7897,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[30125] = {
+	}
+	pg.base.ship_data_strengthen[30125] = {
 		id = 30125,
 		durability = {
 			11,
@@ -7079,8 +7921,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[30126] = {
+	}
+	pg.base.ship_data_strengthen[30126] = {
 		id = 30126,
 		durability = {
 			11,
@@ -7103,8 +7945,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[30127] = {
+	}
+	pg.base.ship_data_strengthen[30127] = {
 		id = 30127,
 		durability = {
 			12,
@@ -7127,8 +7969,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[30128] = {
+	}
+	pg.base.ship_data_strengthen[30128] = {
 		id = 30128,
 		durability = {
 			12,
@@ -7151,8 +7993,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[30129] = {
+	}
+	pg.base.ship_data_strengthen[30129] = {
 		id = 30129,
 		durability = {
 			14,
@@ -7175,8 +8017,8 @@ pg.ship_data_strengthen = {
 			0,
 			16
 		}
-	},
-	[30130] = {
+	}
+	pg.base.ship_data_strengthen[30130] = {
 		id = 30130,
 		durability = {
 			11,
@@ -7199,8 +8041,10 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[30131] = {
+	}
+end)()
+(function ()
+	pg.base.ship_data_strengthen[30131] = {
 		id = 30131,
 		durability = {
 			11,
@@ -7223,8 +8067,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[30132] = {
+	}
+	pg.base.ship_data_strengthen[30132] = {
 		id = 30132,
 		durability = {
 			11,
@@ -7247,8 +8091,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[30133] = {
+	}
+	pg.base.ship_data_strengthen[30133] = {
 		id = 30133,
 		durability = {
 			11,
@@ -7271,8 +8115,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[30135] = {
+	}
+	pg.base.ship_data_strengthen[30135] = {
 		id = 30135,
 		durability = {
 			11,
@@ -7295,8 +8139,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[30137] = {
+	}
+	pg.base.ship_data_strengthen[30137] = {
 		id = 30137,
 		durability = {
 			11,
@@ -7319,8 +8163,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[30138] = {
+	}
+	pg.base.ship_data_strengthen[30138] = {
 		id = 30138,
 		durability = {
 			11,
@@ -7343,8 +8187,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[30139] = {
+	}
+	pg.base.ship_data_strengthen[30139] = {
 		id = 30139,
 		durability = {
 			11,
@@ -7367,8 +8211,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[30141] = {
+	}
+	pg.base.ship_data_strengthen[30141] = {
 		id = 30141,
 		durability = {
 			11,
@@ -7391,8 +8235,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[30147] = {
+	}
+	pg.base.ship_data_strengthen[30147] = {
 		id = 30147,
 		durability = {
 			12,
@@ -7415,8 +8259,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[30148] = {
+	}
+	pg.base.ship_data_strengthen[30148] = {
 		id = 30148,
 		durability = {
 			12,
@@ -7439,8 +8283,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[30149] = {
+	}
+	pg.base.ship_data_strengthen[30149] = {
 		id = 30149,
 		durability = {
 			13,
@@ -7463,8 +8307,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[30153] = {
+	}
+	pg.base.ship_data_strengthen[30153] = {
 		id = 30153,
 		durability = {
 			12,
@@ -7487,8 +8331,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[30154] = {
+	}
+	pg.base.ship_data_strengthen[30154] = {
 		id = 30154,
 		durability = {
 			11,
@@ -7511,8 +8355,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[30156] = {
+	}
+	pg.base.ship_data_strengthen[30156] = {
 		id = 30156,
 		durability = {
 			14,
@@ -7535,8 +8379,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[30157] = {
+	}
+	pg.base.ship_data_strengthen[30157] = {
 		id = 30157,
 		durability = {
 			14,
@@ -7559,8 +8403,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[30158] = {
+	}
+	pg.base.ship_data_strengthen[30158] = {
 		id = 30158,
 		durability = {
 			14,
@@ -7583,8 +8427,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[30159] = {
+	}
+	pg.base.ship_data_strengthen[30159] = {
 		id = 30159,
 		durability = {
 			12,
@@ -7607,8 +8451,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[30160] = {
+	}
+	pg.base.ship_data_strengthen[30160] = {
 		id = 30160,
 		durability = {
 			12,
@@ -7631,8 +8475,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[30161] = {
+	}
+	pg.base.ship_data_strengthen[30161] = {
 		id = 30161,
 		durability = {
 			12,
@@ -7655,8 +8499,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[30162] = {
+	}
+	pg.base.ship_data_strengthen[30162] = {
 		id = 30162,
 		durability = {
 			12,
@@ -7679,8 +8523,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[30163] = {
+	}
+	pg.base.ship_data_strengthen[30163] = {
 		id = 30163,
 		durability = {
 			11,
@@ -7703,8 +8547,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[30164] = {
+	}
+	pg.base.ship_data_strengthen[30164] = {
 		id = 30164,
 		durability = {
 			11,
@@ -7727,8 +8571,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[30165] = {
+	}
+	pg.base.ship_data_strengthen[30165] = {
 		id = 30165,
 		durability = {
 			11,
@@ -7751,8 +8595,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[30166] = {
+	}
+	pg.base.ship_data_strengthen[30166] = {
 		id = 30166,
 		durability = {
 			11,
@@ -7775,8 +8619,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[30172] = {
+	}
+	pg.base.ship_data_strengthen[30172] = {
 		id = 30172,
 		durability = {
 			12,
@@ -7799,8 +8643,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[30179] = {
+	}
+	pg.base.ship_data_strengthen[30179] = {
 		id = 30179,
 		durability = {
 			11,
@@ -7823,8 +8667,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[30180] = {
+	}
+	pg.base.ship_data_strengthen[30180] = {
 		id = 30180,
 		durability = {
 			13,
@@ -7847,8 +8691,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[30181] = {
+	}
+	pg.base.ship_data_strengthen[30181] = {
 		id = 30181,
 		durability = {
 			12,
@@ -7871,8 +8715,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[30182] = {
+	}
+	pg.base.ship_data_strengthen[30182] = {
 		id = 30182,
 		durability = {
 			14,
@@ -7895,8 +8739,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[30183] = {
+	}
+	pg.base.ship_data_strengthen[30183] = {
 		id = 30183,
 		durability = {
 			12,
@@ -7919,8 +8763,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[30184] = {
+	}
+	pg.base.ship_data_strengthen[30184] = {
 		id = 30184,
 		durability = {
 			15,
@@ -7943,8 +8787,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[30185] = {
+	}
+	pg.base.ship_data_strengthen[30185] = {
 		id = 30185,
 		durability = {
 			11,
@@ -7967,8 +8811,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[30186] = {
+	}
+	pg.base.ship_data_strengthen[30186] = {
 		id = 30186,
 		durability = {
 			14,
@@ -7991,8 +8835,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[30187] = {
+	}
+	pg.base.ship_data_strengthen[30187] = {
 		id = 30187,
 		durability = {
 			13,
@@ -8015,8 +8859,8 @@ pg.ship_data_strengthen = {
 			0,
 			16
 		}
-	},
-	[30188] = {
+	}
+	pg.base.ship_data_strengthen[30188] = {
 		id = 30188,
 		durability = {
 			16,
@@ -8039,8 +8883,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[30189] = {
+	}
+	pg.base.ship_data_strengthen[30189] = {
 		id = 30189,
 		durability = {
 			16,
@@ -8063,8 +8907,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[30190] = {
+	}
+	pg.base.ship_data_strengthen[30190] = {
 		id = 30190,
 		durability = {
 			13,
@@ -8087,8 +8931,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[30191] = {
+	}
+	pg.base.ship_data_strengthen[30191] = {
 		id = 30191,
 		durability = {
 			13,
@@ -8111,8 +8955,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[30192] = {
+	}
+	pg.base.ship_data_strengthen[30192] = {
 		id = 30192,
 		durability = {
 			12,
@@ -8135,8 +8979,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[30193] = {
+	}
+	pg.base.ship_data_strengthen[30193] = {
 		id = 30193,
 		durability = {
 			12,
@@ -8159,8 +9003,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[30194] = {
+	}
+	pg.base.ship_data_strengthen[30194] = {
 		id = 30194,
 		durability = {
 			13,
@@ -8183,8 +9027,8 @@ pg.ship_data_strengthen = {
 			0,
 			16
 		}
-	},
-	[30201] = {
+	}
+	pg.base.ship_data_strengthen[30201] = {
 		id = 30201,
 		durability = {
 			24,
@@ -8207,8 +9051,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[30204] = {
+	}
+	pg.base.ship_data_strengthen[30204] = {
 		id = 30204,
 		durability = {
 			26,
@@ -8231,8 +9075,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[30205] = {
+	}
+	pg.base.ship_data_strengthen[30205] = {
 		id = 30205,
 		durability = {
 			22,
@@ -8255,8 +9099,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[30206] = {
+	}
+	pg.base.ship_data_strengthen[30206] = {
 		id = 30206,
 		durability = {
 			27,
@@ -8279,8 +9123,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[30207] = {
+	}
+	pg.base.ship_data_strengthen[30207] = {
 		id = 30207,
 		durability = {
 			27,
@@ -8303,8 +9147,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[30208] = {
+	}
+	pg.base.ship_data_strengthen[30208] = {
 		id = 30208,
 		durability = {
 			27,
@@ -8327,8 +9171,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[30209] = {
+	}
+	pg.base.ship_data_strengthen[30209] = {
 		id = 30209,
 		durability = {
 			26,
@@ -8351,8 +9195,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[30210] = {
+	}
+	pg.base.ship_data_strengthen[30210] = {
 		id = 30210,
 		durability = {
 			37,
@@ -8375,8 +9219,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[30211] = {
+	}
+	pg.base.ship_data_strengthen[30211] = {
 		id = 30211,
 		durability = {
 			37,
@@ -8399,8 +9243,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[30212] = {
+	}
+	pg.base.ship_data_strengthen[30212] = {
 		id = 30212,
 		durability = {
 			27,
@@ -8423,8 +9267,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[30213] = {
+	}
+	pg.base.ship_data_strengthen[30213] = {
 		id = 30213,
 		durability = {
 			28,
@@ -8447,8 +9291,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[30214] = {
+	}
+	pg.base.ship_data_strengthen[30214] = {
 		id = 30214,
 		durability = {
 			28,
@@ -8471,8 +9315,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[30226] = {
+	}
+	pg.base.ship_data_strengthen[30226] = {
 		id = 30226,
 		durability = {
 			28,
@@ -8495,8 +9339,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[30227] = {
+	}
+	pg.base.ship_data_strengthen[30227] = {
 		id = 30227,
 		durability = {
 			29,
@@ -8519,8 +9363,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[30228] = {
+	}
+	pg.base.ship_data_strengthen[30228] = {
 		id = 30228,
 		durability = {
 			30,
@@ -8543,8 +9387,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[30229] = {
+	}
+	pg.base.ship_data_strengthen[30229] = {
 		id = 30229,
 		durability = {
 			29,
@@ -8567,8 +9411,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[30220] = {
+	}
+	pg.base.ship_data_strengthen[30220] = {
 		id = 30220,
 		durability = {
 			27,
@@ -8591,8 +9435,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[30221] = {
+	}
+	pg.base.ship_data_strengthen[30221] = {
 		id = 30221,
 		durability = {
 			32,
@@ -8615,8 +9459,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[30223] = {
+	}
+	pg.base.ship_data_strengthen[30223] = {
 		id = 30223,
 		durability = {
 			31,
@@ -8639,8 +9483,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[30224] = {
+	}
+	pg.base.ship_data_strengthen[30224] = {
 		id = 30224,
 		durability = {
 			33,
@@ -8663,8 +9507,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[30225] = {
+	}
+	pg.base.ship_data_strengthen[30225] = {
 		id = 30225,
 		durability = {
 			34,
@@ -8687,8 +9531,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[30301] = {
+	}
+	pg.base.ship_data_strengthen[30301] = {
 		id = 30301,
 		durability = {
 			39,
@@ -8711,8 +9555,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[30302] = {
+	}
+	pg.base.ship_data_strengthen[30302] = {
 		id = 30302,
 		durability = {
 			39,
@@ -8735,8 +9579,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[30303] = {
+	}
+	pg.base.ship_data_strengthen[30303] = {
 		id = 30303,
 		durability = {
 			39,
@@ -8759,8 +9603,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[30304] = {
+	}
+	pg.base.ship_data_strengthen[30304] = {
 		id = 30304,
 		durability = {
 			39,
@@ -8783,8 +9627,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[30306] = {
+	}
+	pg.base.ship_data_strengthen[30306] = {
 		id = 30306,
 		durability = {
 			48,
@@ -8807,8 +9651,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[30307] = {
+	}
+	pg.base.ship_data_strengthen[30307] = {
 		id = 30307,
 		durability = {
 			36,
@@ -8831,8 +9675,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[30308] = {
+	}
+	pg.base.ship_data_strengthen[30308] = {
 		id = 30308,
 		durability = {
 			36,
@@ -8855,8 +9699,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[30309] = {
+	}
+	pg.base.ship_data_strengthen[30309] = {
 		id = 30309,
 		durability = {
 			43,
@@ -8879,8 +9723,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[30310] = {
+	}
+	pg.base.ship_data_strengthen[30310] = {
 		id = 30310,
 		durability = {
 			44,
@@ -8903,8 +9747,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[30311] = {
+	}
+	pg.base.ship_data_strengthen[30311] = {
 		id = 30311,
 		durability = {
 			50,
@@ -8927,8 +9771,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[30312] = {
+	}
+	pg.base.ship_data_strengthen[30312] = {
 		id = 30312,
 		durability = {
 			50,
@@ -8951,8 +9795,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[30313] = {
+	}
+	pg.base.ship_data_strengthen[30313] = {
 		id = 30313,
 		durability = {
 			50,
@@ -8975,8 +9819,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[30314] = {
+	}
+	pg.base.ship_data_strengthen[30314] = {
 		id = 30314,
 		durability = {
 			48,
@@ -8999,8 +9843,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[30315] = {
+	}
+	pg.base.ship_data_strengthen[30315] = {
 		id = 30315,
 		durability = {
 			37,
@@ -9023,8 +9867,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[30317] = {
+	}
+	pg.base.ship_data_strengthen[30317] = {
 		id = 30317,
 		durability = {
 			43,
@@ -9047,8 +9891,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[30318] = {
+	}
+	pg.base.ship_data_strengthen[30318] = {
 		id = 30318,
 		durability = {
 			43,
@@ -9071,8 +9915,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[30319] = {
+	}
+	pg.base.ship_data_strengthen[30319] = {
 		id = 30319,
 		durability = {
 			54,
@@ -9095,8 +9939,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[30320] = {
+	}
+	pg.base.ship_data_strengthen[30320] = {
 		id = 30320,
 		durability = {
 			54,
@@ -9119,8 +9963,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[30401] = {
+	}
+	pg.base.ship_data_strengthen[30401] = {
 		id = 30401,
 		durability = {
 			69,
@@ -9143,8 +9987,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[30402] = {
+	}
+	pg.base.ship_data_strengthen[30402] = {
 		id = 30402,
 		durability = {
 			69,
@@ -9167,8 +10011,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[30403] = {
+	}
+	pg.base.ship_data_strengthen[30403] = {
 		id = 30403,
 		durability = {
 			67,
@@ -9191,8 +10035,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[30404] = {
+	}
+	pg.base.ship_data_strengthen[30404] = {
 		id = 30404,
 		durability = {
 			69,
@@ -9215,8 +10059,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[30405] = {
+	}
+	pg.base.ship_data_strengthen[30405] = {
 		id = 30405,
 		durability = {
 			80,
@@ -9239,8 +10083,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[30406] = {
+	}
+	pg.base.ship_data_strengthen[30406] = {
 		id = 30406,
 		durability = {
 			68,
@@ -9263,8 +10107,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[30407] = {
+	}
+	pg.base.ship_data_strengthen[30407] = {
 		id = 30407,
 		durability = {
 			69,
@@ -9287,8 +10131,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[30408] = {
+	}
+	pg.base.ship_data_strengthen[30408] = {
 		id = 30408,
 		durability = {
 			70,
@@ -9311,8 +10155,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[30501] = {
+	}
+	pg.base.ship_data_strengthen[30501] = {
 		id = 30501,
 		durability = {
 			73,
@@ -9335,8 +10179,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[30502] = {
+	}
+	pg.base.ship_data_strengthen[30502] = {
 		id = 30502,
 		durability = {
 			73,
@@ -9359,8 +10203,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[30503] = {
+	}
+	pg.base.ship_data_strengthen[30503] = {
 		id = 30503,
 		durability = {
 			75,
@@ -9383,8 +10227,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[30504] = {
+	}
+	pg.base.ship_data_strengthen[30504] = {
 		id = 30504,
 		durability = {
 			75,
@@ -9407,8 +10251,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[30505] = {
+	}
+	pg.base.ship_data_strengthen[30505] = {
 		id = 30505,
 		durability = {
 			79,
@@ -9431,8 +10275,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[30506] = {
+	}
+	pg.base.ship_data_strengthen[30506] = {
 		id = 30506,
 		durability = {
 			77,
@@ -9455,8 +10299,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[30507] = {
+	}
+	pg.base.ship_data_strengthen[30507] = {
 		id = 30507,
 		durability = {
 			80,
@@ -9479,8 +10323,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[30508] = {
+	}
+	pg.base.ship_data_strengthen[30508] = {
 		id = 30508,
 		durability = {
 			80,
@@ -9503,8 +10347,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[30510] = {
+	}
+	pg.base.ship_data_strengthen[30510] = {
 		id = 30510,
 		durability = {
 			91,
@@ -9527,8 +10371,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[30511] = {
+	}
+	pg.base.ship_data_strengthen[30511] = {
 		id = 30511,
 		durability = {
 			62,
@@ -9551,8 +10395,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[30512] = {
+	}
+	pg.base.ship_data_strengthen[30512] = {
 		id = 30512,
 		durability = {
 			80,
@@ -9575,8 +10419,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[30513] = {
+	}
+	pg.base.ship_data_strengthen[30513] = {
 		id = 30513,
 		durability = {
 			80,
@@ -9599,8 +10443,10 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[30514] = {
+	}
+end)()
+(function ()
+	pg.base.ship_data_strengthen[30514] = {
 		id = 30514,
 		durability = {
 			80,
@@ -9623,8 +10469,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[30516] = {
+	}
+	pg.base.ship_data_strengthen[30516] = {
 		id = 30516,
 		durability = {
 			83,
@@ -9647,8 +10493,32 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[30601] = {
+	}
+	pg.base.ship_data_strengthen[30517] = {
+		id = 30517,
+		durability = {
+			79,
+			0,
+			0,
+			0,
+			40
+		},
+		level_exp = {
+			25,
+			0,
+			0,
+			0,
+			30
+		},
+		attr_exp = {
+			66,
+			0,
+			0,
+			0,
+			10
+		}
+	}
+	pg.base.ship_data_strengthen[30601] = {
 		id = 30601,
 		durability = {
 			0,
@@ -9671,8 +10541,8 @@ pg.ship_data_strengthen = {
 			34,
 			11
 		}
-	},
-	[30602] = {
+	}
+	pg.base.ship_data_strengthen[30602] = {
 		id = 30602,
 		durability = {
 			0,
@@ -9695,8 +10565,8 @@ pg.ship_data_strengthen = {
 			34,
 			11
 		}
-	},
-	[30603] = {
+	}
+	pg.base.ship_data_strengthen[30603] = {
 		id = 30603,
 		durability = {
 			0,
@@ -9719,8 +10589,8 @@ pg.ship_data_strengthen = {
 			35,
 			12
 		}
-	},
-	[30604] = {
+	}
+	pg.base.ship_data_strengthen[30604] = {
 		id = 30604,
 		durability = {
 			0,
@@ -9743,8 +10613,8 @@ pg.ship_data_strengthen = {
 			34,
 			12
 		}
-	},
-	[30605] = {
+	}
+	pg.base.ship_data_strengthen[30605] = {
 		id = 30605,
 		durability = {
 			0,
@@ -9767,8 +10637,8 @@ pg.ship_data_strengthen = {
 			34,
 			12
 		}
-	},
-	[30606] = {
+	}
+	pg.base.ship_data_strengthen[30606] = {
 		id = 30606,
 		durability = {
 			0,
@@ -9791,8 +10661,8 @@ pg.ship_data_strengthen = {
 			43,
 			12
 		}
-	},
-	[30607] = {
+	}
+	pg.base.ship_data_strengthen[30607] = {
 		id = 30607,
 		durability = {
 			0,
@@ -9815,8 +10685,8 @@ pg.ship_data_strengthen = {
 			39,
 			13
 		}
-	},
-	[30608] = {
+	}
+	pg.base.ship_data_strengthen[30608] = {
 		id = 30608,
 		durability = {
 			0,
@@ -9839,8 +10709,8 @@ pg.ship_data_strengthen = {
 			43,
 			13
 		}
-	},
-	[30609] = {
+	}
+	pg.base.ship_data_strengthen[30609] = {
 		id = 30609,
 		durability = {
 			0,
@@ -9863,8 +10733,8 @@ pg.ship_data_strengthen = {
 			43,
 			12
 		}
-	},
-	[30701] = {
+	}
+	pg.base.ship_data_strengthen[30701] = {
 		id = 30701,
 		durability = {
 			0,
@@ -9887,8 +10757,8 @@ pg.ship_data_strengthen = {
 			64,
 			9
 		}
-	},
-	[30702] = {
+	}
+	pg.base.ship_data_strengthen[30702] = {
 		id = 30702,
 		durability = {
 			0,
@@ -9911,8 +10781,8 @@ pg.ship_data_strengthen = {
 			64,
 			9
 		}
-	},
-	[30703] = {
+	}
+	pg.base.ship_data_strengthen[30703] = {
 		id = 30703,
 		durability = {
 			0,
@@ -9935,8 +10805,8 @@ pg.ship_data_strengthen = {
 			61,
 			8
 		}
-	},
-	[30704] = {
+	}
+	pg.base.ship_data_strengthen[30704] = {
 		id = 30704,
 		durability = {
 			0,
@@ -9959,8 +10829,8 @@ pg.ship_data_strengthen = {
 			62,
 			8
 		}
-	},
-	[30705] = {
+	}
+	pg.base.ship_data_strengthen[30705] = {
 		id = 30705,
 		durability = {
 			0,
@@ -9983,8 +10853,8 @@ pg.ship_data_strengthen = {
 			63,
 			8
 		}
-	},
-	[30706] = {
+	}
+	pg.base.ship_data_strengthen[30706] = {
 		id = 30706,
 		durability = {
 			0,
@@ -10007,8 +10877,8 @@ pg.ship_data_strengthen = {
 			64,
 			8
 		}
-	},
-	[30707] = {
+	}
+	pg.base.ship_data_strengthen[30707] = {
 		id = 30707,
 		durability = {
 			0,
@@ -10031,8 +10901,8 @@ pg.ship_data_strengthen = {
 			63,
 			8
 		}
-	},
-	[30708] = {
+	}
+	pg.base.ship_data_strengthen[30708] = {
 		id = 30708,
 		durability = {
 			0,
@@ -10055,8 +10925,8 @@ pg.ship_data_strengthen = {
 			69,
 			9
 		}
-	},
-	[30709] = {
+	}
+	pg.base.ship_data_strengthen[30709] = {
 		id = 30709,
 		durability = {
 			0,
@@ -10079,8 +10949,8 @@ pg.ship_data_strengthen = {
 			62,
 			9
 		}
-	},
-	[30710] = {
+	}
+	pg.base.ship_data_strengthen[30710] = {
 		id = 30710,
 		durability = {
 			0,
@@ -10103,8 +10973,8 @@ pg.ship_data_strengthen = {
 			64,
 			9
 		}
-	},
-	[30711] = {
+	}
+	pg.base.ship_data_strengthen[30711] = {
 		id = 30711,
 		durability = {
 			0,
@@ -10127,8 +10997,8 @@ pg.ship_data_strengthen = {
 			63,
 			8
 		}
-	},
-	[30712] = {
+	}
+	pg.base.ship_data_strengthen[30712] = {
 		id = 30712,
 		durability = {
 			0,
@@ -10151,8 +11021,8 @@ pg.ship_data_strengthen = {
 			66,
 			8
 		}
-	},
-	[30713] = {
+	}
+	pg.base.ship_data_strengthen[30713] = {
 		id = 30713,
 		durability = {
 			0,
@@ -10175,8 +11045,8 @@ pg.ship_data_strengthen = {
 			60,
 			8
 		}
-	},
-	[30714] = {
+	}
+	pg.base.ship_data_strengthen[30714] = {
 		id = 30714,
 		durability = {
 			0,
@@ -10199,8 +11069,8 @@ pg.ship_data_strengthen = {
 			63,
 			8
 		}
-	},
-	[30715] = {
+	}
+	pg.base.ship_data_strengthen[30715] = {
 		id = 30715,
 		durability = {
 			0,
@@ -10223,8 +11093,8 @@ pg.ship_data_strengthen = {
 			70,
 			9
 		}
-	},
-	[30716] = {
+	}
+	pg.base.ship_data_strengthen[30716] = {
 		id = 30716,
 		durability = {
 			0,
@@ -10247,8 +11117,8 @@ pg.ship_data_strengthen = {
 			75,
 			9
 		}
-	},
-	[30717] = {
+	}
+	pg.base.ship_data_strengthen[30717] = {
 		id = 30717,
 		durability = {
 			0,
@@ -10271,8 +11141,8 @@ pg.ship_data_strengthen = {
 			67,
 			8
 		}
-	},
-	[30801] = {
+	}
+	pg.base.ship_data_strengthen[30801] = {
 		id = 30801,
 		durability = {
 			11,
@@ -10295,8 +11165,8 @@ pg.ship_data_strengthen = {
 			0,
 			8
 		}
-	},
-	[30802] = {
+	}
+	pg.base.ship_data_strengthen[30802] = {
 		id = 30802,
 		durability = {
 			11,
@@ -10319,8 +11189,8 @@ pg.ship_data_strengthen = {
 			0,
 			8
 		}
-	},
-	[30803] = {
+	}
+	pg.base.ship_data_strengthen[30803] = {
 		id = 30803,
 		durability = {
 			11,
@@ -10343,8 +11213,8 @@ pg.ship_data_strengthen = {
 			0,
 			6
 		}
-	},
-	[30804] = {
+	}
+	pg.base.ship_data_strengthen[30804] = {
 		id = 30804,
 		durability = {
 			12,
@@ -10367,8 +11237,8 @@ pg.ship_data_strengthen = {
 			0,
 			5
 		}
-	},
-	[30805] = {
+	}
+	pg.base.ship_data_strengthen[30805] = {
 		id = 30805,
 		durability = {
 			11,
@@ -10391,8 +11261,8 @@ pg.ship_data_strengthen = {
 			0,
 			4
 		}
-	},
-	[30806] = {
+	}
+	pg.base.ship_data_strengthen[30806] = {
 		id = 30806,
 		durability = {
 			12,
@@ -10415,8 +11285,8 @@ pg.ship_data_strengthen = {
 			0,
 			8
 		}
-	},
-	[31001] = {
+	}
+	pg.base.ship_data_strengthen[31001] = {
 		id = 31001,
 		durability = {
 			73,
@@ -10439,8 +11309,8 @@ pg.ship_data_strengthen = {
 			16,
 			9
 		}
-	},
-	[31002] = {
+	}
+	pg.base.ship_data_strengthen[31002] = {
 		id = 31002,
 		durability = {
 			73,
@@ -10463,8 +11333,8 @@ pg.ship_data_strengthen = {
 			16,
 			9
 		}
-	},
-	[31003] = {
+	}
+	pg.base.ship_data_strengthen[31003] = {
 		id = 31003,
 		durability = {
 			75,
@@ -10487,8 +11357,8 @@ pg.ship_data_strengthen = {
 			16,
 			9
 		}
-	},
-	[31004] = {
+	}
+	pg.base.ship_data_strengthen[31004] = {
 		id = 31004,
 		durability = {
 			75,
@@ -10511,8 +11381,8 @@ pg.ship_data_strengthen = {
 			16,
 			9
 		}
-	},
-	[31201] = {
+	}
+	pg.base.ship_data_strengthen[31201] = {
 		id = 31201,
 		durability = {
 			8,
@@ -10535,8 +11405,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[31701] = {
+	}
+	pg.base.ship_data_strengthen[31701] = {
 		id = 31701,
 		durability = {
 			9,
@@ -10559,8 +11429,8 @@ pg.ship_data_strengthen = {
 			5,
 			8
 		}
-	},
-	[31702] = {
+	}
+	pg.base.ship_data_strengthen[31702] = {
 		id = 31702,
 		durability = {
 			10,
@@ -10583,8 +11453,8 @@ pg.ship_data_strengthen = {
 			9,
 			8
 		}
-	},
-	[31901] = {
+	}
+	pg.base.ship_data_strengthen[31901] = {
 		id = 31901,
 		durability = {
 			13,
@@ -10607,8 +11477,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[40001] = {
+	}
+	pg.base.ship_data_strengthen[40001] = {
 		id = 40001,
 		durability = {
 			68,
@@ -10631,8 +11501,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[40002] = {
+	}
+	pg.base.ship_data_strengthen[40002] = {
 		id = 40002,
 		durability = {
 			68,
@@ -10655,8 +11525,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[40101] = {
+	}
+	pg.base.ship_data_strengthen[40101] = {
 		id = 40101,
 		durability = {
 			12,
@@ -10679,8 +11549,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[40102] = {
+	}
+	pg.base.ship_data_strengthen[40102] = {
 		id = 40102,
 		durability = {
 			15,
@@ -10703,8 +11573,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[40109] = {
+	}
+	pg.base.ship_data_strengthen[40109] = {
 		id = 40109,
 		durability = {
 			14,
@@ -10727,8 +11597,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[40111] = {
+	}
+	pg.base.ship_data_strengthen[40111] = {
 		id = 40111,
 		durability = {
 			12,
@@ -10751,8 +11621,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[40113] = {
+	}
+	pg.base.ship_data_strengthen[40113] = {
 		id = 40113,
 		durability = {
 			15,
@@ -10775,8 +11645,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[40116] = {
+	}
+	pg.base.ship_data_strengthen[40116] = {
 		id = 40116,
 		durability = {
 			12,
@@ -10799,8 +11669,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[40118] = {
+	}
+	pg.base.ship_data_strengthen[40118] = {
 		id = 40118,
 		durability = {
 			12,
@@ -10823,8 +11693,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[40119] = {
+	}
+	pg.base.ship_data_strengthen[40119] = {
 		id = 40119,
 		durability = {
 			12,
@@ -10847,8 +11717,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[40120] = {
+	}
+	pg.base.ship_data_strengthen[40120] = {
 		id = 40120,
 		durability = {
 			12,
@@ -10871,8 +11741,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[40121] = {
+	}
+	pg.base.ship_data_strengthen[40121] = {
 		id = 40121,
 		durability = {
 			12,
@@ -10895,8 +11765,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[40123] = {
+	}
+	pg.base.ship_data_strengthen[40123] = {
 		id = 40123,
 		durability = {
 			22,
@@ -10919,8 +11789,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[40124] = {
+	}
+	pg.base.ship_data_strengthen[40124] = {
 		id = 40124,
 		durability = {
 			22,
@@ -10943,8 +11813,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[40125] = {
+	}
+	pg.base.ship_data_strengthen[40125] = {
 		id = 40125,
 		durability = {
 			22,
@@ -10967,8 +11837,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[40126] = {
+	}
+	pg.base.ship_data_strengthen[40126] = {
 		id = 40126,
 		durability = {
 			22,
@@ -10991,8 +11861,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[40128] = {
+	}
+	pg.base.ship_data_strengthen[40128] = {
 		id = 40128,
 		durability = {
 			14,
@@ -11015,8 +11885,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[40135] = {
+	}
+	pg.base.ship_data_strengthen[40135] = {
 		id = 40135,
 		durability = {
 			15,
@@ -11039,8 +11909,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[40136] = {
+	}
+	pg.base.ship_data_strengthen[40136] = {
 		id = 40136,
 		durability = {
 			15,
@@ -11063,8 +11933,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[40143] = {
+	}
+	pg.base.ship_data_strengthen[40143] = {
 		id = 40143,
 		durability = {
 			16,
@@ -11087,8 +11957,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[40146] = {
+	}
+	pg.base.ship_data_strengthen[40146] = {
 		id = 40146,
 		durability = {
 			16,
@@ -11111,8 +11981,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[40147] = {
+	}
+	pg.base.ship_data_strengthen[40147] = {
 		id = 40147,
 		durability = {
 			17,
@@ -11135,8 +12005,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[40152] = {
+	}
+	pg.base.ship_data_strengthen[40152] = {
 		id = 40152,
 		durability = {
 			22,
@@ -11159,8 +12029,8 @@ pg.ship_data_strengthen = {
 			0,
 			16
 		}
-	},
-	[40199] = {
+	}
+	pg.base.ship_data_strengthen[40199] = {
 		id = 40199,
 		durability = {
 			23,
@@ -11183,8 +12053,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[40201] = {
+	}
+	pg.base.ship_data_strengthen[40201] = {
 		id = 40201,
 		durability = {
 			28,
@@ -11207,8 +12077,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[40202] = {
+	}
+	pg.base.ship_data_strengthen[40202] = {
 		id = 40202,
 		durability = {
 			28,
@@ -11231,8 +12101,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[40203] = {
+	}
+	pg.base.ship_data_strengthen[40203] = {
 		id = 40203,
 		durability = {
 			28,
@@ -11255,8 +12125,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[40213] = {
+	}
+	pg.base.ship_data_strengthen[40213] = {
 		id = 40213,
 		durability = {
 			28,
@@ -11279,8 +12149,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[40204] = {
+	}
+	pg.base.ship_data_strengthen[40204] = {
 		id = 40204,
 		durability = {
 			27,
@@ -11303,8 +12173,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[40205] = {
+	}
+	pg.base.ship_data_strengthen[40205] = {
 		id = 40205,
 		durability = {
 			32,
@@ -11327,8 +12197,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[40206] = {
+	}
+	pg.base.ship_data_strengthen[40206] = {
 		id = 40206,
 		durability = {
 			34,
@@ -11351,8 +12221,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[40207] = {
+	}
+	pg.base.ship_data_strengthen[40207] = {
 		id = 40207,
 		durability = {
 			29,
@@ -11375,8 +12245,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[40208] = {
+	}
+	pg.base.ship_data_strengthen[40208] = {
 		id = 40208,
 		durability = {
 			23,
@@ -11399,8 +12269,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[40210] = {
+	}
+	pg.base.ship_data_strengthen[40210] = {
 		id = 40210,
 		durability = {
 			31,
@@ -11423,8 +12293,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[40211] = {
+	}
+	pg.base.ship_data_strengthen[40211] = {
 		id = 40211,
 		durability = {
 			33,
@@ -11447,8 +12317,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[40301] = {
+	}
+	pg.base.ship_data_strengthen[40301] = {
 		id = 40301,
 		durability = {
 			46,
@@ -11471,8 +12341,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[40302] = {
+	}
+	pg.base.ship_data_strengthen[40302] = {
 		id = 40302,
 		durability = {
 			53,
@@ -11495,8 +12365,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[40303] = {
+	}
+	pg.base.ship_data_strengthen[40303] = {
 		id = 40303,
 		durability = {
 			36,
@@ -11519,8 +12389,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[40304] = {
+	}
+	pg.base.ship_data_strengthen[40304] = {
 		id = 40304,
 		durability = {
 			56,
@@ -11543,8 +12413,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[40305] = {
+	}
+	pg.base.ship_data_strengthen[40305] = {
 		id = 40305,
 		durability = {
 			56,
@@ -11567,8 +12437,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[40307] = {
+	}
+	pg.base.ship_data_strengthen[40307] = {
 		id = 40307,
 		durability = {
 			46,
@@ -11591,8 +12461,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[40308] = {
+	}
+	pg.base.ship_data_strengthen[40308] = {
 		id = 40308,
 		durability = {
 			52,
@@ -11615,8 +12485,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[40309] = {
+	}
+	pg.base.ship_data_strengthen[40309] = {
 		id = 40309,
 		durability = {
 			57,
@@ -11639,8 +12509,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[40310] = {
+	}
+	pg.base.ship_data_strengthen[40310] = {
 		id = 40310,
 		durability = {
 			55,
@@ -11663,8 +12533,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[40311] = {
+	}
+	pg.base.ship_data_strengthen[40311] = {
 		id = 40311,
 		durability = {
 			42,
@@ -11687,8 +12557,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[40312] = {
+	}
+	pg.base.ship_data_strengthen[40312] = {
 		id = 40312,
 		durability = {
 			41,
@@ -11711,8 +12581,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[40313] = {
+	}
+	pg.base.ship_data_strengthen[40313] = {
 		id = 40313,
 		durability = {
 			55,
@@ -11735,8 +12605,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[40314] = {
+	}
+	pg.base.ship_data_strengthen[40314] = {
 		id = 40314,
 		durability = {
 			55,
@@ -11759,8 +12629,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[40315] = {
+	}
+	pg.base.ship_data_strengthen[40315] = {
 		id = 40315,
 		durability = {
 			52,
@@ -11783,8 +12653,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[40316] = {
+	}
+	pg.base.ship_data_strengthen[40316] = {
 		id = 40316,
 		durability = {
 			39,
@@ -11807,8 +12677,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[40401] = {
+	}
+	pg.base.ship_data_strengthen[40401] = {
 		id = 40401,
 		durability = {
 			68,
@@ -11831,8 +12701,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[40402] = {
+	}
+	pg.base.ship_data_strengthen[40402] = {
 		id = 40402,
 		durability = {
 			68,
@@ -11855,8 +12725,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[40403] = {
+	}
+	pg.base.ship_data_strengthen[40403] = {
 		id = 40403,
 		durability = {
 			72,
@@ -11879,8 +12749,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[40404] = {
+	}
+	pg.base.ship_data_strengthen[40404] = {
 		id = 40404,
 		durability = {
 			73,
@@ -11903,8 +12773,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[40405] = {
+	}
+	pg.base.ship_data_strengthen[40405] = {
 		id = 40405,
 		durability = {
 			70,
@@ -11927,8 +12797,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[40406] = {
+	}
+	pg.base.ship_data_strengthen[40406] = {
 		id = 40406,
 		durability = {
 			71,
@@ -11951,8 +12821,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[40407] = {
+	}
+	pg.base.ship_data_strengthen[40407] = {
 		id = 40407,
 		durability = {
 			69,
@@ -11975,8 +12845,10 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[40501] = {
+	}
+end)()
+(function ()
+	pg.base.ship_data_strengthen[40501] = {
 		id = 40501,
 		durability = {
 			81,
@@ -11999,8 +12871,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[40502] = {
+	}
+	pg.base.ship_data_strengthen[40502] = {
 		id = 40502,
 		durability = {
 			81,
@@ -12023,8 +12895,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[40503] = {
+	}
+	pg.base.ship_data_strengthen[40503] = {
 		id = 40503,
 		durability = {
 			85,
@@ -12047,8 +12919,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[40504] = {
+	}
+	pg.base.ship_data_strengthen[40504] = {
 		id = 40504,
 		durability = {
 			75,
@@ -12071,8 +12943,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[40505] = {
+	}
+	pg.base.ship_data_strengthen[40505] = {
 		id = 40505,
 		durability = {
 			84,
@@ -12095,8 +12967,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[40506] = {
+	}
+	pg.base.ship_data_strengthen[40506] = {
 		id = 40506,
 		durability = {
 			78,
@@ -12119,8 +12991,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[40601] = {
+	}
+	pg.base.ship_data_strengthen[40601] = {
 		id = 40601,
 		durability = {
 			0,
@@ -12143,8 +13015,8 @@ pg.ship_data_strengthen = {
 			40,
 			12
 		}
-	},
-	[40602] = {
+	}
+	pg.base.ship_data_strengthen[40602] = {
 		id = 40602,
 		durability = {
 			0,
@@ -12167,8 +13039,8 @@ pg.ship_data_strengthen = {
 			41,
 			13
 		}
-	},
-	[40603] = {
+	}
+	pg.base.ship_data_strengthen[40603] = {
 		id = 40603,
 		durability = {
 			0,
@@ -12191,8 +13063,8 @@ pg.ship_data_strengthen = {
 			41,
 			13
 		}
-	},
-	[40701] = {
+	}
+	pg.base.ship_data_strengthen[40701] = {
 		id = 40701,
 		durability = {
 			0,
@@ -12215,8 +13087,8 @@ pg.ship_data_strengthen = {
 			67,
 			9
 		}
-	},
-	[40702] = {
+	}
+	pg.base.ship_data_strengthen[40702] = {
 		id = 40702,
 		durability = {
 			32,
@@ -12239,8 +13111,8 @@ pg.ship_data_strengthen = {
 			58,
 			8
 		}
-	},
-	[40703] = {
+	}
+	pg.base.ship_data_strengthen[40703] = {
 		id = 40703,
 		durability = {
 			0,
@@ -12263,8 +13135,8 @@ pg.ship_data_strengthen = {
 			67,
 			10
 		}
-	},
-	[40704] = {
+	}
+	pg.base.ship_data_strengthen[40704] = {
 		id = 40704,
 		durability = {
 			40,
@@ -12287,8 +13159,8 @@ pg.ship_data_strengthen = {
 			71,
 			10
 		}
-	},
-	[40801] = {
+	}
+	pg.base.ship_data_strengthen[40801] = {
 		id = 40801,
 		durability = {
 			9,
@@ -12311,8 +13183,8 @@ pg.ship_data_strengthen = {
 			0,
 			8
 		}
-	},
-	[40802] = {
+	}
+	pg.base.ship_data_strengthen[40802] = {
 		id = 40802,
 		durability = {
 			9,
@@ -12335,8 +13207,8 @@ pg.ship_data_strengthen = {
 			0,
 			8
 		}
-	},
-	[40803] = {
+	}
+	pg.base.ship_data_strengthen[40803] = {
 		id = 40803,
 		durability = {
 			8,
@@ -12359,8 +13231,8 @@ pg.ship_data_strengthen = {
 			0,
 			6
 		}
-	},
-	[40804] = {
+	}
+	pg.base.ship_data_strengthen[40804] = {
 		id = 40804,
 		durability = {
 			7,
@@ -12383,8 +13255,8 @@ pg.ship_data_strengthen = {
 			0,
 			6
 		}
-	},
-	[40805] = {
+	}
+	pg.base.ship_data_strengthen[40805] = {
 		id = 40805,
 		durability = {
 			8,
@@ -12407,8 +13279,8 @@ pg.ship_data_strengthen = {
 			0,
 			6
 		}
-	},
-	[40806] = {
+	}
+	pg.base.ship_data_strengthen[40806] = {
 		id = 40806,
 		durability = {
 			9,
@@ -12431,8 +13303,8 @@ pg.ship_data_strengthen = {
 			0,
 			8
 		}
-	},
-	[40807] = {
+	}
+	pg.base.ship_data_strengthen[40807] = {
 		id = 40807,
 		durability = {
 			8,
@@ -12455,8 +13327,8 @@ pg.ship_data_strengthen = {
 			0,
 			6
 		}
-	},
-	[40808] = {
+	}
+	pg.base.ship_data_strengthen[40808] = {
 		id = 40808,
 		durability = {
 			9,
@@ -12479,8 +13351,8 @@ pg.ship_data_strengthen = {
 			0,
 			6
 		}
-	},
-	[40809] = {
+	}
+	pg.base.ship_data_strengthen[40809] = {
 		id = 40809,
 		durability = {
 			10,
@@ -12503,8 +13375,8 @@ pg.ship_data_strengthen = {
 			0,
 			8
 		}
-	},
-	[40810] = {
+	}
+	pg.base.ship_data_strengthen[40810] = {
 		id = 40810,
 		durability = {
 			8,
@@ -12527,8 +13399,8 @@ pg.ship_data_strengthen = {
 			0,
 			8
 		}
-	},
-	[40811] = {
+	}
+	pg.base.ship_data_strengthen[40811] = {
 		id = 40811,
 		durability = {
 			8,
@@ -12551,8 +13423,8 @@ pg.ship_data_strengthen = {
 			0,
 			6
 		}
-	},
-	[40812] = {
+	}
+	pg.base.ship_data_strengthen[40812] = {
 		id = 40812,
 		durability = {
 			8,
@@ -12575,8 +13447,8 @@ pg.ship_data_strengthen = {
 			0,
 			6
 		}
-	},
-	[40813] = {
+	}
+	pg.base.ship_data_strengthen[40813] = {
 		id = 40813,
 		durability = {
 			8,
@@ -12599,8 +13471,8 @@ pg.ship_data_strengthen = {
 			0,
 			6
 		}
-	},
-	[40814] = {
+	}
+	pg.base.ship_data_strengthen[40814] = {
 		id = 40814,
 		durability = {
 			11,
@@ -12623,8 +13495,8 @@ pg.ship_data_strengthen = {
 			0,
 			8
 		}
-	},
-	[50101] = {
+	}
+	pg.base.ship_data_strengthen[50101] = {
 		id = 50101,
 		durability = {
 			24,
@@ -12647,8 +13519,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[50102] = {
+	}
+	pg.base.ship_data_strengthen[50102] = {
 		id = 50102,
 		durability = {
 			23,
@@ -12671,8 +13543,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[50103] = {
+	}
+	pg.base.ship_data_strengthen[50103] = {
 		id = 50103,
 		durability = {
 			24,
@@ -12695,8 +13567,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[50104] = {
+	}
+	pg.base.ship_data_strengthen[50104] = {
 		id = 50104,
 		durability = {
 			23,
@@ -12719,8 +13591,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[50105] = {
+	}
+	pg.base.ship_data_strengthen[50105] = {
 		id = 50105,
 		durability = {
 			16,
@@ -12743,8 +13615,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[50106] = {
+	}
+	pg.base.ship_data_strengthen[50106] = {
 		id = 50106,
 		durability = {
 			16,
@@ -12767,8 +13639,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[50107] = {
+	}
+	pg.base.ship_data_strengthen[50107] = {
 		id = 50107,
 		durability = {
 			18,
@@ -12791,8 +13663,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[50108] = {
+	}
+	pg.base.ship_data_strengthen[50108] = {
 		id = 50108,
 		durability = {
 			18,
@@ -12815,8 +13687,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[50109] = {
+	}
+	pg.base.ship_data_strengthen[50109] = {
 		id = 50109,
 		durability = {
 			18,
@@ -12839,8 +13711,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[50201] = {
+	}
+	pg.base.ship_data_strengthen[50201] = {
 		id = 50201,
 		durability = {
 			22,
@@ -12863,8 +13735,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[50211] = {
+	}
+	pg.base.ship_data_strengthen[50211] = {
 		id = 50211,
 		durability = {
 			22,
@@ -12887,8 +13759,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[50202] = {
+	}
+	pg.base.ship_data_strengthen[50202] = {
 		id = 50202,
 		durability = {
 			27,
@@ -12911,8 +13783,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[50203] = {
+	}
+	pg.base.ship_data_strengthen[50203] = {
 		id = 50203,
 		durability = {
 			27,
@@ -12935,8 +13807,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[50204] = {
+	}
+	pg.base.ship_data_strengthen[50204] = {
 		id = 50204,
 		durability = {
 			13,
@@ -12959,8 +13831,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[50298] = {
+	}
+	pg.base.ship_data_strengthen[50298] = {
 		id = 50298,
 		durability = {
 			13,
@@ -12983,8 +13855,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[50205] = {
+	}
+	pg.base.ship_data_strengthen[50205] = {
 		id = 50205,
 		durability = {
 			13,
@@ -13007,8 +13879,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[50299] = {
+	}
+	pg.base.ship_data_strengthen[50299] = {
 		id = 50299,
 		durability = {
 			13,
@@ -13031,8 +13903,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[50207] = {
+	}
+	pg.base.ship_data_strengthen[50207] = {
 		id = 50207,
 		durability = {
 			18,
@@ -13055,8 +13927,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[50208] = {
+	}
+	pg.base.ship_data_strengthen[50208] = {
 		id = 50208,
 		durability = {
 			17,
@@ -13079,8 +13951,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[50209] = {
+	}
+	pg.base.ship_data_strengthen[50209] = {
 		id = 50209,
 		durability = {
 			14,
@@ -13103,8 +13975,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[50210] = {
+	}
+	pg.base.ship_data_strengthen[50210] = {
 		id = 50210,
 		durability = {
 			17,
@@ -13127,8 +13999,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[50212] = {
+	}
+	pg.base.ship_data_strengthen[50212] = {
 		id = 50212,
 		durability = {
 			17,
@@ -13151,8 +14023,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[50301] = {
+	}
+	pg.base.ship_data_strengthen[50301] = {
 		id = 50301,
 		durability = {
 			26,
@@ -13175,8 +14047,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[50302] = {
+	}
+	pg.base.ship_data_strengthen[50302] = {
 		id = 50302,
 		durability = {
 			35,
@@ -13199,8 +14071,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[50401] = {
+	}
+	pg.base.ship_data_strengthen[50401] = {
 		id = 50401,
 		durability = {
 			66,
@@ -13223,8 +14095,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[50601] = {
+	}
+	pg.base.ship_data_strengthen[50601] = {
 		id = 50601,
 		durability = {
 			28,
@@ -13247,8 +14119,8 @@ pg.ship_data_strengthen = {
 			37,
 			13
 		}
-	},
-	[50611] = {
+	}
+	pg.base.ship_data_strengthen[50611] = {
 		id = 50611,
 		durability = {
 			28,
@@ -13271,8 +14143,8 @@ pg.ship_data_strengthen = {
 			37,
 			13
 		}
-	},
-	[50602] = {
+	}
+	pg.base.ship_data_strengthen[50602] = {
 		id = 50602,
 		durability = {
 			0,
@@ -13295,8 +14167,8 @@ pg.ship_data_strengthen = {
 			41,
 			12
 		}
-	},
-	[51901] = {
+	}
+	pg.base.ship_data_strengthen[51901] = {
 		id = 51901,
 		durability = {
 			0,
@@ -13319,8 +14191,8 @@ pg.ship_data_strengthen = {
 			3,
 			10
 		}
-	},
-	[52001] = {
+	}
+	pg.base.ship_data_strengthen[52001] = {
 		id = 52001,
 		durability = {
 			24,
@@ -13343,8 +14215,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[52002] = {
+	}
+	pg.base.ship_data_strengthen[52002] = {
 		id = 52002,
 		durability = {
 			23,
@@ -13367,8 +14239,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[52003] = {
+	}
+	pg.base.ship_data_strengthen[52003] = {
 		id = 52003,
 		durability = {
 			24,
@@ -13391,8 +14263,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[52004] = {
+	}
+	pg.base.ship_data_strengthen[52004] = {
 		id = 52004,
 		durability = {
 			23,
@@ -13415,8 +14287,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[52101] = {
+	}
+	pg.base.ship_data_strengthen[52101] = {
 		id = 52101,
 		durability = {
 			24,
@@ -13439,8 +14311,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[52102] = {
+	}
+	pg.base.ship_data_strengthen[52102] = {
 		id = 52102,
 		durability = {
 			23,
@@ -13463,8 +14335,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[52103] = {
+	}
+	pg.base.ship_data_strengthen[52103] = {
 		id = 52103,
 		durability = {
 			24,
@@ -13487,8 +14359,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[52104] = {
+	}
+	pg.base.ship_data_strengthen[52104] = {
 		id = 52104,
 		durability = {
 			23,
@@ -13511,8 +14383,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[60102] = {
+	}
+	pg.base.ship_data_strengthen[60102] = {
 		id = 60102,
 		durability = {
 			23,
@@ -13535,8 +14407,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[60103] = {
+	}
+	pg.base.ship_data_strengthen[60103] = {
 		id = 60103,
 		durability = {
 			21,
@@ -13559,8 +14431,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[60104] = {
+	}
+	pg.base.ship_data_strengthen[60104] = {
 		id = 60104,
 		durability = {
 			20,
@@ -13583,8 +14455,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[60105] = {
+	}
+	pg.base.ship_data_strengthen[60105] = {
 		id = 60105,
 		durability = {
 			21,
@@ -13607,8 +14479,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[60106] = {
+	}
+	pg.base.ship_data_strengthen[60106] = {
 		id = 60106,
 		durability = {
 			21,
@@ -13631,8 +14503,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[60107] = {
+	}
+	pg.base.ship_data_strengthen[60107] = {
 		id = 60107,
 		durability = {
 			20,
@@ -13655,8 +14527,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[60108] = {
+	}
+	pg.base.ship_data_strengthen[60108] = {
 		id = 60108,
 		durability = {
 			21,
@@ -13679,8 +14551,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[60109] = {
+	}
+	pg.base.ship_data_strengthen[60109] = {
 		id = 60109,
 		durability = {
 			22,
@@ -13703,8 +14575,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[60110] = {
+	}
+	pg.base.ship_data_strengthen[60110] = {
 		id = 60110,
 		durability = {
 			23,
@@ -13727,8 +14599,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[60111] = {
+	}
+	pg.base.ship_data_strengthen[60111] = {
 		id = 60111,
 		durability = {
 			21,
@@ -13751,8 +14623,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[60112] = {
+	}
+	pg.base.ship_data_strengthen[60112] = {
 		id = 60112,
 		durability = {
 			21,
@@ -13775,8 +14647,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[60201] = {
+	}
+	pg.base.ship_data_strengthen[60201] = {
 		id = 60201,
 		durability = {
 			29,
@@ -13799,8 +14671,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[60202] = {
+	}
+	pg.base.ship_data_strengthen[60202] = {
 		id = 60202,
 		durability = {
 			33,
@@ -13823,8 +14695,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[60203] = {
+	}
+	pg.base.ship_data_strengthen[60203] = {
 		id = 60203,
 		durability = {
 			28,
@@ -13847,8 +14719,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[60204] = {
+	}
+	pg.base.ship_data_strengthen[60204] = {
 		id = 60204,
 		durability = {
 			30,
@@ -13871,8 +14743,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[60301] = {
+	}
+	pg.base.ship_data_strengthen[60301] = {
 		id = 60301,
 		durability = {
 			42,
@@ -13895,8 +14767,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[60302] = {
+	}
+	pg.base.ship_data_strengthen[60302] = {
 		id = 60302,
 		durability = {
 			46,
@@ -13919,8 +14791,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[60303] = {
+	}
+	pg.base.ship_data_strengthen[60303] = {
 		id = 60303,
 		durability = {
 			46,
@@ -13943,8 +14815,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[60304] = {
+	}
+	pg.base.ship_data_strengthen[60304] = {
 		id = 60304,
 		durability = {
 			44,
@@ -13967,8 +14839,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[60305] = {
+	}
+	pg.base.ship_data_strengthen[60305] = {
 		id = 60305,
 		durability = {
 			42,
@@ -13991,8 +14863,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[60306] = {
+	}
+	pg.base.ship_data_strengthen[60306] = {
 		id = 60306,
 		durability = {
 			46,
@@ -14015,8 +14887,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[60501] = {
+	}
+	pg.base.ship_data_strengthen[60501] = {
 		id = 60501,
 		durability = {
 			81,
@@ -14039,8 +14911,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[60502] = {
+	}
+	pg.base.ship_data_strengthen[60502] = {
 		id = 60502,
 		durability = {
 			80,
@@ -14063,8 +14935,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[60503] = {
+	}
+	pg.base.ship_data_strengthen[60503] = {
 		id = 60503,
 		durability = {
 			81,
@@ -14087,8 +14959,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[60505] = {
+	}
+	pg.base.ship_data_strengthen[60505] = {
 		id = 60505,
 		durability = {
 			64,
@@ -14111,8 +14983,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[60506] = {
+	}
+	pg.base.ship_data_strengthen[60506] = {
 		id = 60506,
 		durability = {
 			66,
@@ -14135,8 +15007,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[60507] = {
+	}
+	pg.base.ship_data_strengthen[60507] = {
 		id = 60507,
 		durability = {
 			69,
@@ -14159,8 +15031,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[60508] = {
+	}
+	pg.base.ship_data_strengthen[60508] = {
 		id = 60508,
 		durability = {
 			87,
@@ -14183,8 +15055,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[60509] = {
+	}
+	pg.base.ship_data_strengthen[60509] = {
 		id = 60509,
 		durability = {
 			81,
@@ -14207,8 +15079,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[60701] = {
+	}
+	pg.base.ship_data_strengthen[60701] = {
 		id = 60701,
 		durability = {
 			0,
@@ -14231,8 +15103,8 @@ pg.ship_data_strengthen = {
 			63,
 			9
 		}
-	},
-	[60702] = {
+	}
+	pg.base.ship_data_strengthen[60702] = {
 		id = 60702,
 		durability = {
 			0,
@@ -14255,8 +15127,8 @@ pg.ship_data_strengthen = {
 			68,
 			8
 		}
-	},
-	[60801] = {
+	}
+	pg.base.ship_data_strengthen[60801] = {
 		id = 60801,
 		durability = {
 			7,
@@ -14279,8 +15151,8 @@ pg.ship_data_strengthen = {
 			0,
 			6
 		}
-	},
-	[60802] = {
+	}
+	pg.base.ship_data_strengthen[60802] = {
 		id = 60802,
 		durability = {
 			9,
@@ -14303,8 +15175,8 @@ pg.ship_data_strengthen = {
 			0,
 			7
 		}
-	},
-	[60803] = {
+	}
+	pg.base.ship_data_strengthen[60803] = {
 		id = 60803,
 		durability = {
 			8,
@@ -14327,8 +15199,8 @@ pg.ship_data_strengthen = {
 			0,
 			7
 		}
-	},
-	[70102] = {
+	}
+	pg.base.ship_data_strengthen[70102] = {
 		id = 70102,
 		durability = {
 			23,
@@ -14351,8 +15223,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[70103] = {
+	}
+	pg.base.ship_data_strengthen[70103] = {
 		id = 70103,
 		durability = {
 			26,
@@ -14375,8 +15247,10 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[70104] = {
+	}
+end)()
+(function ()
+	pg.base.ship_data_strengthen[70104] = {
 		id = 70104,
 		durability = {
 			33,
@@ -14399,8 +15273,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[70105] = {
+	}
+	pg.base.ship_data_strengthen[70105] = {
 		id = 70105,
 		durability = {
 			27,
@@ -14423,8 +15297,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[70106] = {
+	}
+	pg.base.ship_data_strengthen[70106] = {
 		id = 70106,
 		durability = {
 			24,
@@ -14447,8 +15321,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[70107] = {
+	}
+	pg.base.ship_data_strengthen[70107] = {
 		id = 70107,
 		durability = {
 			26,
@@ -14471,8 +15345,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[70108] = {
+	}
+	pg.base.ship_data_strengthen[70108] = {
 		id = 70108,
 		durability = {
 			24,
@@ -14495,8 +15369,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[70109] = {
+	}
+	pg.base.ship_data_strengthen[70109] = {
 		id = 70109,
 		durability = {
 			25,
@@ -14519,8 +15393,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[70110] = {
+	}
+	pg.base.ship_data_strengthen[70110] = {
 		id = 70110,
 		durability = {
 			31,
@@ -14543,8 +15417,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[70111] = {
+	}
+	pg.base.ship_data_strengthen[70111] = {
 		id = 70111,
 		durability = {
 			27,
@@ -14567,8 +15441,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[70112] = {
+	}
+	pg.base.ship_data_strengthen[70112] = {
 		id = 70112,
 		durability = {
 			25,
@@ -14591,8 +15465,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[70113] = {
+	}
+	pg.base.ship_data_strengthen[70113] = {
 		id = 70113,
 		durability = {
 			27,
@@ -14615,8 +15489,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[70201] = {
+	}
+	pg.base.ship_data_strengthen[70201] = {
 		id = 70201,
 		durability = {
 			19,
@@ -14639,8 +15513,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[70202] = {
+	}
+	pg.base.ship_data_strengthen[70202] = {
 		id = 70202,
 		durability = {
 			15,
@@ -14663,8 +15537,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[70203] = {
+	}
+	pg.base.ship_data_strengthen[70203] = {
 		id = 70203,
 		durability = {
 			31,
@@ -14687,8 +15561,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[70204] = {
+	}
+	pg.base.ship_data_strengthen[70204] = {
 		id = 70204,
 		durability = {
 			33,
@@ -14711,8 +15585,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[70205] = {
+	}
+	pg.base.ship_data_strengthen[70205] = {
 		id = 70205,
 		durability = {
 			32,
@@ -14735,8 +15609,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[70206] = {
+	}
+	pg.base.ship_data_strengthen[70206] = {
 		id = 70206,
 		durability = {
 			29,
@@ -14759,8 +15633,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[70207] = {
+	}
+	pg.base.ship_data_strengthen[70207] = {
 		id = 70207,
 		durability = {
 			27,
@@ -14783,8 +15657,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[70208] = {
+	}
+	pg.base.ship_data_strengthen[70208] = {
 		id = 70208,
 		durability = {
 			15,
@@ -14807,8 +15681,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[70209] = {
+	}
+	pg.base.ship_data_strengthen[70209] = {
 		id = 70209,
 		durability = {
 			29,
@@ -14831,8 +15705,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[70210] = {
+	}
+	pg.base.ship_data_strengthen[70210] = {
 		id = 70210,
 		durability = {
 			23,
@@ -14855,8 +15729,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[70212] = {
+	}
+	pg.base.ship_data_strengthen[70212] = {
 		id = 70212,
 		durability = {
 			15,
@@ -14879,8 +15753,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[70301] = {
+	}
+	pg.base.ship_data_strengthen[70301] = {
 		id = 70301,
 		durability = {
 			48,
@@ -14903,8 +15777,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[70302] = {
+	}
+	pg.base.ship_data_strengthen[70302] = {
 		id = 70302,
 		durability = {
 			51,
@@ -14927,8 +15801,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[70303] = {
+	}
+	pg.base.ship_data_strengthen[70303] = {
 		id = 70303,
 		durability = {
 			53,
@@ -14951,8 +15825,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[70501] = {
+	}
+	pg.base.ship_data_strengthen[70501] = {
 		id = 70501,
 		durability = {
 			61,
@@ -14975,8 +15849,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[70502] = {
+	}
+	pg.base.ship_data_strengthen[70502] = {
 		id = 70502,
 		durability = {
 			86,
@@ -14999,8 +15873,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[70504] = {
+	}
+	pg.base.ship_data_strengthen[70504] = {
 		id = 70504,
 		durability = {
 			81,
@@ -15023,8 +15897,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[70505] = {
+	}
+	pg.base.ship_data_strengthen[70505] = {
 		id = 70505,
 		durability = {
 			81,
@@ -15047,8 +15921,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[70506] = {
+	}
+	pg.base.ship_data_strengthen[70506] = {
 		id = 70506,
 		durability = {
 			78,
@@ -15071,8 +15945,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[70507] = {
+	}
+	pg.base.ship_data_strengthen[70507] = {
 		id = 70507,
 		durability = {
 			61,
@@ -15095,8 +15969,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[70508] = {
+	}
+	pg.base.ship_data_strengthen[70508] = {
 		id = 70508,
 		durability = {
 			61,
@@ -15119,8 +15993,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[70509] = {
+	}
+	pg.base.ship_data_strengthen[70509] = {
 		id = 70509,
 		durability = {
 			82,
@@ -15143,8 +16017,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[70701] = {
+	}
+	pg.base.ship_data_strengthen[70701] = {
 		id = 70701,
 		durability = {
 			0,
@@ -15167,8 +16041,8 @@ pg.ship_data_strengthen = {
 			62,
 			9
 		}
-	},
-	[71801] = {
+	}
+	pg.base.ship_data_strengthen[71801] = {
 		id = 71801,
 		durability = {
 			57,
@@ -15191,8 +16065,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[80101] = {
+	}
+	pg.base.ship_data_strengthen[80101] = {
 		id = 80101,
 		durability = {
 			24,
@@ -15215,8 +16089,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[80102] = {
+	}
+	pg.base.ship_data_strengthen[80102] = {
 		id = 80102,
 		durability = {
 			13,
@@ -15239,8 +16113,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[80103] = {
+	}
+	pg.base.ship_data_strengthen[80103] = {
 		id = 80103,
 		durability = {
 			17,
@@ -15263,8 +16137,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[80104] = {
+	}
+	pg.base.ship_data_strengthen[80104] = {
 		id = 80104,
 		durability = {
 			19,
@@ -15287,8 +16161,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[80105] = {
+	}
+	pg.base.ship_data_strengthen[80105] = {
 		id = 80105,
 		durability = {
 			23,
@@ -15311,8 +16185,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[80107] = {
+	}
+	pg.base.ship_data_strengthen[80107] = {
 		id = 80107,
 		durability = {
 			26,
@@ -15335,8 +16209,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[80108] = {
+	}
+	pg.base.ship_data_strengthen[80108] = {
 		id = 80108,
 		durability = {
 			20,
@@ -15359,8 +16233,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[80109] = {
+	}
+	pg.base.ship_data_strengthen[80109] = {
 		id = 80109,
 		durability = {
 			22,
@@ -15383,8 +16257,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[80201] = {
+	}
+	pg.base.ship_data_strengthen[80201] = {
 		id = 80201,
 		durability = {
 			29,
@@ -15407,8 +16281,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[80202] = {
+	}
+	pg.base.ship_data_strengthen[80202] = {
 		id = 80202,
 		durability = {
 			28,
@@ -15431,8 +16305,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[80203] = {
+	}
+	pg.base.ship_data_strengthen[80203] = {
 		id = 80203,
 		durability = {
 			35,
@@ -15455,8 +16329,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[80204] = {
+	}
+	pg.base.ship_data_strengthen[80204] = {
 		id = 80204,
 		durability = {
 			33,
@@ -15479,8 +16353,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[80301] = {
+	}
+	pg.base.ship_data_strengthen[80301] = {
 		id = 80301,
 		durability = {
 			45,
@@ -15503,8 +16377,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[80302] = {
+	}
+	pg.base.ship_data_strengthen[80302] = {
 		id = 80302,
 		durability = {
 			52,
@@ -15527,8 +16401,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[80303] = {
+	}
+	pg.base.ship_data_strengthen[80303] = {
 		id = 80303,
 		durability = {
 			47,
@@ -15551,8 +16425,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[80401] = {
+	}
+	pg.base.ship_data_strengthen[80401] = {
 		id = 80401,
 		durability = {
 			66,
@@ -15575,8 +16449,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[80501] = {
+	}
+	pg.base.ship_data_strengthen[80501] = {
 		id = 80501,
 		durability = {
 			85,
@@ -15599,8 +16473,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[80502] = {
+	}
+	pg.base.ship_data_strengthen[80502] = {
 		id = 80502,
 		durability = {
 			77,
@@ -15623,8 +16497,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[80503] = {
+	}
+	pg.base.ship_data_strengthen[80503] = {
 		id = 80503,
 		durability = {
 			86,
@@ -15647,8 +16521,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[80601] = {
+	}
+	pg.base.ship_data_strengthen[80601] = {
 		id = 80601,
 		durability = {
 			0,
@@ -15671,8 +16545,8 @@ pg.ship_data_strengthen = {
 			47,
 			14
 		}
-	},
-	[80701] = {
+	}
+	pg.base.ship_data_strengthen[80701] = {
 		id = 80701,
 		durability = {
 			32,
@@ -15695,8 +16569,8 @@ pg.ship_data_strengthen = {
 			58,
 			8
 		}
-	},
-	[80702] = {
+	}
+	pg.base.ship_data_strengthen[80702] = {
 		id = 80702,
 		durability = {
 			0,
@@ -15719,8 +16593,8 @@ pg.ship_data_strengthen = {
 			65,
 			9
 		}
-	},
-	[80801] = {
+	}
+	pg.base.ship_data_strengthen[80801] = {
 		id = 80801,
 		durability = {
 			25,
@@ -15743,8 +16617,8 @@ pg.ship_data_strengthen = {
 			0,
 			5
 		}
-	},
-	[90101] = {
+	}
+	pg.base.ship_data_strengthen[90101] = {
 		id = 90101,
 		durability = {
 			13,
@@ -15767,8 +16641,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[90102] = {
+	}
+	pg.base.ship_data_strengthen[90102] = {
 		id = 90102,
 		durability = {
 			22,
@@ -15791,8 +16665,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[90103] = {
+	}
+	pg.base.ship_data_strengthen[90103] = {
 		id = 90103,
 		durability = {
 			21,
@@ -15815,8 +16689,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[90104] = {
+	}
+	pg.base.ship_data_strengthen[90104] = {
 		id = 90104,
 		durability = {
 			20,
@@ -15839,8 +16713,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[90105] = {
+	}
+	pg.base.ship_data_strengthen[90105] = {
 		id = 90105,
 		durability = {
 			18,
@@ -15863,8 +16737,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[90106] = {
+	}
+	pg.base.ship_data_strengthen[90106] = {
 		id = 90106,
 		durability = {
 			19,
@@ -15887,8 +16761,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[90107] = {
+	}
+	pg.base.ship_data_strengthen[90107] = {
 		id = 90107,
 		durability = {
 			28,
@@ -15911,8 +16785,8 @@ pg.ship_data_strengthen = {
 			0,
 			16
 		}
-	},
-	[90111] = {
+	}
+	pg.base.ship_data_strengthen[90111] = {
 		id = 90111,
 		durability = {
 			25,
@@ -15935,8 +16809,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[90112] = {
+	}
+	pg.base.ship_data_strengthen[90112] = {
 		id = 90112,
 		durability = {
 			25,
@@ -15959,8 +16833,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[90113] = {
+	}
+	pg.base.ship_data_strengthen[90113] = {
 		id = 90113,
 		durability = {
 			26,
@@ -15983,8 +16857,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[90114] = {
+	}
+	pg.base.ship_data_strengthen[90114] = {
 		id = 90114,
 		durability = {
 			28,
@@ -16007,8 +16881,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[90201] = {
+	}
+	pg.base.ship_data_strengthen[90201] = {
 		id = 90201,
 		durability = {
 			31,
@@ -16031,8 +16905,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[90202] = {
+	}
+	pg.base.ship_data_strengthen[90202] = {
 		id = 90202,
 		durability = {
 			32,
@@ -16055,8 +16929,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[90301] = {
+	}
+	pg.base.ship_data_strengthen[90301] = {
 		id = 90301,
 		durability = {
 			43,
@@ -16079,8 +16953,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[90302] = {
+	}
+	pg.base.ship_data_strengthen[90302] = {
 		id = 90302,
 		durability = {
 			51,
@@ -16103,8 +16977,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[90303] = {
+	}
+	pg.base.ship_data_strengthen[90303] = {
 		id = 90303,
 		durability = {
 			45,
@@ -16127,8 +17001,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[90401] = {
+	}
+	pg.base.ship_data_strengthen[90401] = {
 		id = 90401,
 		durability = {
 			67,
@@ -16151,8 +17025,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[90402] = {
+	}
+	pg.base.ship_data_strengthen[90402] = {
 		id = 90402,
 		durability = {
 			70,
@@ -16175,8 +17049,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[90501] = {
+	}
+	pg.base.ship_data_strengthen[90501] = {
 		id = 90501,
 		durability = {
 			79,
@@ -16199,8 +17073,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[90502] = {
+	}
+	pg.base.ship_data_strengthen[90502] = {
 		id = 90502,
 		durability = {
 			86,
@@ -16223,8 +17097,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[90503] = {
+	}
+	pg.base.ship_data_strengthen[90503] = {
 		id = 90503,
 		durability = {
 			81,
@@ -16247,8 +17121,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[90701] = {
+	}
+	pg.base.ship_data_strengthen[90701] = {
 		id = 90701,
 		durability = {
 			0,
@@ -16271,8 +17145,8 @@ pg.ship_data_strengthen = {
 			65,
 			9
 		}
-	},
-	[110101] = {
+	}
+	pg.base.ship_data_strengthen[110101] = {
 		id = 110101,
 		durability = {
 			15,
@@ -16295,8 +17169,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[110201] = {
+	}
+	pg.base.ship_data_strengthen[110201] = {
 		id = 110201,
 		durability = {
 			31,
@@ -16319,8 +17193,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[960001] = {
+	}
+	pg.base.ship_data_strengthen[960001] = {
 		id = 960001,
 		durability = {
 			36,
@@ -16343,8 +17217,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[960002] = {
+	}
+	pg.base.ship_data_strengthen[960002] = {
 		id = 960002,
 		durability = {
 			80,
@@ -16367,8 +17241,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[960003] = {
+	}
+	pg.base.ship_data_strengthen[960003] = {
 		id = 960003,
 		durability = {
 			32,
@@ -16391,8 +17265,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[960004] = {
+	}
+	pg.base.ship_data_strengthen[960004] = {
 		id = 960004,
 		durability = {
 			34,
@@ -16415,8 +17289,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[960005] = {
+	}
+	pg.base.ship_data_strengthen[960005] = {
 		id = 960005,
 		durability = {
 			34,
@@ -16439,8 +17313,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[960006] = {
+	}
+	pg.base.ship_data_strengthen[960006] = {
 		id = 960006,
 		durability = {
 			40,
@@ -16463,8 +17337,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[960007] = {
+	}
+	pg.base.ship_data_strengthen[960007] = {
 		id = 960007,
 		durability = {
 			84,
@@ -16487,8 +17361,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[960008] = {
+	}
+	pg.base.ship_data_strengthen[960008] = {
 		id = 960008,
 		durability = {
 			45,
@@ -16511,8 +17385,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[960009] = {
+	}
+	pg.base.ship_data_strengthen[960009] = {
 		id = 960009,
 		durability = {
 			35,
@@ -16535,8 +17409,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[960010] = {
+	}
+	pg.base.ship_data_strengthen[960010] = {
 		id = 960010,
 		durability = {
 			30,
@@ -16559,8 +17433,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[960011] = {
+	}
+	pg.base.ship_data_strengthen[960011] = {
 		id = 960011,
 		durability = {
 			38,
@@ -16583,8 +17457,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[960012] = {
+	}
+	pg.base.ship_data_strengthen[960012] = {
 		id = 960012,
 		durability = {
 			86,
@@ -16607,8 +17481,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[960013] = {
+	}
+	pg.base.ship_data_strengthen[960013] = {
 		id = 960013,
 		durability = {
 			46,
@@ -16631,8 +17505,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[960014] = {
+	}
+	pg.base.ship_data_strengthen[960014] = {
 		id = 960014,
 		durability = {
 			84,
@@ -16655,8 +17529,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[960015] = {
+	}
+	pg.base.ship_data_strengthen[960015] = {
 		id = 960015,
 		durability = {
 			30,
@@ -16679,8 +17553,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[960016] = {
+	}
+	pg.base.ship_data_strengthen[960016] = {
 		id = 960016,
 		durability = {
 			33,
@@ -16703,8 +17577,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[1010001] = {
+	}
+	pg.base.ship_data_strengthen[1010001] = {
 		id = 1010001,
 		durability = {
 			28,
@@ -16727,8 +17601,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[1010002] = {
+	}
+	pg.base.ship_data_strengthen[1010002] = {
 		id = 1010002,
 		durability = {
 			43,
@@ -16751,8 +17625,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[1010003] = {
+	}
+	pg.base.ship_data_strengthen[1010003] = {
 		id = 1010003,
 		durability = {
 			13,
@@ -16775,8 +17649,10 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[1010004] = {
+	}
+end)()
+(function ()
+	pg.base.ship_data_strengthen[1010004] = {
 		id = 1010004,
 		durability = {
 			0,
@@ -16799,8 +17675,8 @@ pg.ship_data_strengthen = {
 			62,
 			8
 		}
-	},
-	[1010005] = {
+	}
+	pg.base.ship_data_strengthen[1010005] = {
 		id = 1010005,
 		durability = {
 			30,
@@ -16823,8 +17699,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[1010006] = {
+	}
+	pg.base.ship_data_strengthen[1010006] = {
 		id = 1010006,
 		durability = {
 			46,
@@ -16847,8 +17723,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[1010007] = {
+	}
+	pg.base.ship_data_strengthen[1010007] = {
 		id = 1010007,
 		durability = {
 			14,
@@ -16871,8 +17747,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[1010008] = {
+	}
+	pg.base.ship_data_strengthen[1010008] = {
 		id = 1010008,
 		durability = {
 			0,
@@ -16895,8 +17771,8 @@ pg.ship_data_strengthen = {
 			66,
 			8
 		}
-	},
-	[1020001] = {
+	}
+	pg.base.ship_data_strengthen[1020001] = {
 		id = 1020001,
 		durability = {
 			10,
@@ -16919,8 +17795,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[1020002] = {
+	}
+	pg.base.ship_data_strengthen[1020002] = {
 		id = 1020002,
 		durability = {
 			7,
@@ -16943,8 +17819,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[1030001] = {
+	}
+	pg.base.ship_data_strengthen[1030001] = {
 		id = 1030001,
 		durability = {
 			43,
@@ -16967,8 +17843,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[1030002] = {
+	}
+	pg.base.ship_data_strengthen[1030002] = {
 		id = 1030002,
 		durability = {
 			18,
@@ -16991,8 +17867,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[1030003] = {
+	}
+	pg.base.ship_data_strengthen[1030003] = {
 		id = 1030003,
 		durability = {
 			28,
@@ -17015,8 +17891,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[1030004] = {
+	}
+	pg.base.ship_data_strengthen[1030004] = {
 		id = 1030004,
 		durability = {
 			0,
@@ -17039,8 +17915,8 @@ pg.ship_data_strengthen = {
 			29,
 			11
 		}
-	},
-	[1030005] = {
+	}
+	pg.base.ship_data_strengthen[1030005] = {
 		id = 1030005,
 		durability = {
 			0,
@@ -17063,8 +17939,8 @@ pg.ship_data_strengthen = {
 			29,
 			11
 		}
-	},
-	[1030006] = {
+	}
+	pg.base.ship_data_strengthen[1030006] = {
 		id = 1030006,
 		durability = {
 			0,
@@ -17087,8 +17963,8 @@ pg.ship_data_strengthen = {
 			53,
 			7
 		}
-	},
-	[1040001] = {
+	}
+	pg.base.ship_data_strengthen[1040001] = {
 		id = 1040001,
 		durability = {
 			14,
@@ -17111,8 +17987,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[1040002] = {
+	}
+	pg.base.ship_data_strengthen[1040002] = {
 		id = 1040002,
 		durability = {
 			47,
@@ -17135,8 +18011,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[1040003] = {
+	}
+	pg.base.ship_data_strengthen[1040003] = {
 		id = 1040003,
 		durability = {
 			0,
@@ -17159,8 +18035,8 @@ pg.ship_data_strengthen = {
 			64,
 			8
 		}
-	},
-	[1040004] = {
+	}
+	pg.base.ship_data_strengthen[1040004] = {
 		id = 1040004,
 		durability = {
 			77,
@@ -17183,8 +18059,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[1050001] = {
+	}
+	pg.base.ship_data_strengthen[1050001] = {
 		id = 1050001,
 		durability = {
 			14,
@@ -17207,8 +18083,8 @@ pg.ship_data_strengthen = {
 			4,
 			15
 		}
-	},
-	[1050002] = {
+	}
+	pg.base.ship_data_strengthen[1050002] = {
 		id = 1050002,
 		durability = {
 			0,
@@ -17231,8 +18107,8 @@ pg.ship_data_strengthen = {
 			66,
 			9
 		}
-	},
-	[1050003] = {
+	}
+	pg.base.ship_data_strengthen[1050003] = {
 		id = 1050003,
 		durability = {
 			12,
@@ -17255,8 +18131,8 @@ pg.ship_data_strengthen = {
 			0,
 			8
 		}
-	},
-	[1050004] = {
+	}
+	pg.base.ship_data_strengthen[1050004] = {
 		id = 1050004,
 		durability = {
 			13,
@@ -17279,8 +18155,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[1050005] = {
+	}
+	pg.base.ship_data_strengthen[1050005] = {
 		id = 1050005,
 		durability = {
 			43,
@@ -17303,8 +18179,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[1050006] = {
+	}
+	pg.base.ship_data_strengthen[1050006] = {
 		id = 1050006,
 		durability = {
 			0,
@@ -17327,8 +18203,8 @@ pg.ship_data_strengthen = {
 			39,
 			12
 		}
-	},
-	[1050007] = {
+	}
+	pg.base.ship_data_strengthen[1050007] = {
 		id = 1050007,
 		durability = {
 			0,
@@ -17351,8 +18227,8 @@ pg.ship_data_strengthen = {
 			58,
 			8
 		}
-	},
-	[1060001] = {
+	}
+	pg.base.ship_data_strengthen[1060001] = {
 		id = 1060001,
 		durability = {
 			17,
@@ -17375,8 +18251,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[1060002] = {
+	}
+	pg.base.ship_data_strengthen[1060002] = {
 		id = 1060002,
 		durability = {
 			76,
@@ -17399,8 +18275,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[1060003] = {
+	}
+	pg.base.ship_data_strengthen[1060003] = {
 		id = 1060003,
 		durability = {
 			48,
@@ -17423,8 +18299,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[1060004] = {
+	}
+	pg.base.ship_data_strengthen[1060004] = {
 		id = 1060004,
 		durability = {
 			31,
@@ -17447,8 +18323,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[1060005] = {
+	}
+	pg.base.ship_data_strengthen[1060005] = {
 		id = 1060005,
 		durability = {
 			72,
@@ -17471,8 +18347,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[1060006] = {
+	}
+	pg.base.ship_data_strengthen[1060006] = {
 		id = 1060006,
 		durability = {
 			0,
@@ -17495,8 +18371,8 @@ pg.ship_data_strengthen = {
 			58,
 			8
 		}
-	},
-	[1060007] = {
+	}
+	pg.base.ship_data_strengthen[1060007] = {
 		id = 1060007,
 		durability = {
 			27,
@@ -17519,8 +18395,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[1060008] = {
+	}
+	pg.base.ship_data_strengthen[1060008] = {
 		id = 1060008,
 		durability = {
 			0,
@@ -17543,8 +18419,8 @@ pg.ship_data_strengthen = {
 			45,
 			12
 		}
-	},
-	[1060009] = {
+	}
+	pg.base.ship_data_strengthen[1060009] = {
 		id = 1060009,
 		durability = {
 			77,
@@ -17567,8 +18443,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[1060010] = {
+	}
+	pg.base.ship_data_strengthen[1060010] = {
 		id = 1060010,
 		durability = {
 			0,
@@ -17591,8 +18467,8 @@ pg.ship_data_strengthen = {
 			63,
 			9
 		}
-	},
-	[1060011] = {
+	}
+	pg.base.ship_data_strengthen[1060011] = {
 		id = 1060011,
 		durability = {
 			77,
@@ -17615,8 +18491,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[1060012] = {
+	}
+	pg.base.ship_data_strengthen[1060012] = {
 		id = 1060012,
 		durability = {
 			46,
@@ -17639,8 +18515,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[1060013] = {
+	}
+	pg.base.ship_data_strengthen[1060013] = {
 		id = 1060013,
 		durability = {
 			18,
@@ -17663,8 +18539,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[1060014] = {
+	}
+	pg.base.ship_data_strengthen[1060014] = {
 		id = 1060014,
 		durability = {
 			11,
@@ -17687,8 +18563,8 @@ pg.ship_data_strengthen = {
 			0,
 			7
 		}
-	},
-	[1060015] = {
+	}
+	pg.base.ship_data_strengthen[1060015] = {
 		id = 1060015,
 		durability = {
 			32,
@@ -17711,8 +18587,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[1070001] = {
+	}
+	pg.base.ship_data_strengthen[1070001] = {
 		id = 1070001,
 		durability = {
 			30,
@@ -17735,8 +18611,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[1070002] = {
+	}
+	pg.base.ship_data_strengthen[1070002] = {
 		id = 1070002,
 		durability = {
 			0,
@@ -17759,8 +18635,8 @@ pg.ship_data_strengthen = {
 			68,
 			10
 		}
-	},
-	[1070003] = {
+	}
+	pg.base.ship_data_strengthen[1070003] = {
 		id = 1070003,
 		durability = {
 			80,
@@ -17783,8 +18659,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[1070004] = {
+	}
+	pg.base.ship_data_strengthen[1070004] = {
 		id = 1070004,
 		durability = {
 			44,
@@ -17807,8 +18683,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[1070005] = {
+	}
+	pg.base.ship_data_strengthen[1070005] = {
 		id = 1070005,
 		durability = {
 			13,
@@ -17831,8 +18707,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[1070006] = {
+	}
+	pg.base.ship_data_strengthen[1070006] = {
 		id = 1070006,
 		durability = {
 			9,
@@ -17855,8 +18731,8 @@ pg.ship_data_strengthen = {
 			0,
 			8
 		}
-	},
-	[1070007] = {
+	}
+	pg.base.ship_data_strengthen[1070007] = {
 		id = 1070007,
 		durability = {
 			9,
@@ -17879,8 +18755,8 @@ pg.ship_data_strengthen = {
 			0,
 			8
 		}
-	},
-	[1080001] = {
+	}
+	pg.base.ship_data_strengthen[1080001] = {
 		id = 1080001,
 		durability = {
 			33,
@@ -17903,8 +18779,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[1080002] = {
+	}
+	pg.base.ship_data_strengthen[1080002] = {
 		id = 1080002,
 		durability = {
 			81,
@@ -17927,8 +18803,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[1080003] = {
+	}
+	pg.base.ship_data_strengthen[1080003] = {
 		id = 1080003,
 		durability = {
 			26,
@@ -17951,8 +18827,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[1080004] = {
+	}
+	pg.base.ship_data_strengthen[1080004] = {
 		id = 1080004,
 		durability = {
 			43,
@@ -17975,8 +18851,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[1080005] = {
+	}
+	pg.base.ship_data_strengthen[1080005] = {
 		id = 1080005,
 		durability = {
 			45,
@@ -17999,8 +18875,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[1080006] = {
+	}
+	pg.base.ship_data_strengthen[1080006] = {
 		id = 1080006,
 		durability = {
 			0,
@@ -18023,8 +18899,8 @@ pg.ship_data_strengthen = {
 			63,
 			10
 		}
-	},
-	[1080007] = {
+	}
+	pg.base.ship_data_strengthen[1080007] = {
 		id = 1080007,
 		durability = {
 			74,
@@ -18047,8 +18923,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[1080008] = {
+	}
+	pg.base.ship_data_strengthen[1080008] = {
 		id = 1080008,
 		durability = {
 			74,
@@ -18071,8 +18947,8 @@ pg.ship_data_strengthen = {
 			39,
 			9
 		}
-	},
-	[1080009] = {
+	}
+	pg.base.ship_data_strengthen[1080009] = {
 		id = 1080009,
 		durability = {
 			13,
@@ -18095,8 +18971,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[1090001] = {
+	}
+	pg.base.ship_data_strengthen[1090001] = {
 		id = 1090001,
 		durability = {
 			26,
@@ -18119,8 +18995,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[1090002] = {
+	}
+	pg.base.ship_data_strengthen[1090002] = {
 		id = 1090002,
 		durability = {
 			0,
@@ -18143,8 +19019,8 @@ pg.ship_data_strengthen = {
 			51,
 			13
 		}
-	},
-	[1090003] = {
+	}
+	pg.base.ship_data_strengthen[1090003] = {
 		id = 1090003,
 		durability = {
 			83,
@@ -18167,8 +19043,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[1090004] = {
+	}
+	pg.base.ship_data_strengthen[1090004] = {
 		id = 1090004,
 		durability = {
 			50,
@@ -18191,8 +19067,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[1090005] = {
+	}
+	pg.base.ship_data_strengthen[1090005] = {
 		id = 1090005,
 		durability = {
 			0,
@@ -18215,8 +19091,8 @@ pg.ship_data_strengthen = {
 			62,
 			10
 		}
-	},
-	[1090006] = {
+	}
+	pg.base.ship_data_strengthen[1090006] = {
 		id = 1090006,
 		durability = {
 			51,
@@ -18239,8 +19115,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[1100001] = {
+	}
+	pg.base.ship_data_strengthen[1100001] = {
 		id = 1100001,
 		durability = {
 			33,
@@ -18263,8 +19139,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[1100002] = {
+	}
+	pg.base.ship_data_strengthen[1100002] = {
 		id = 1100002,
 		durability = {
 			50,
@@ -18287,8 +19163,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[1100003] = {
+	}
+	pg.base.ship_data_strengthen[1100003] = {
 		id = 1100003,
 		durability = {
 			9,
@@ -18311,8 +19187,8 @@ pg.ship_data_strengthen = {
 			0,
 			7
 		}
-	},
-	[1100004] = {
+	}
+	pg.base.ship_data_strengthen[1100004] = {
 		id = 1100004,
 		durability = {
 			0,
@@ -18335,8 +19211,8 @@ pg.ship_data_strengthen = {
 			66,
 			8
 		}
-	},
-	[1100005] = {
+	}
+	pg.base.ship_data_strengthen[1100005] = {
 		id = 1100005,
 		durability = {
 			83,
@@ -18359,8 +19235,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[1100006] = {
+	}
+	pg.base.ship_data_strengthen[1100006] = {
 		id = 1100006,
 		durability = {
 			0,
@@ -18383,8 +19259,8 @@ pg.ship_data_strengthen = {
 			49,
 			13
 		}
-	},
-	[1100007] = {
+	}
+	pg.base.ship_data_strengthen[1100007] = {
 		id = 1100007,
 		durability = {
 			42,
@@ -18407,8 +19283,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[1110001] = {
+	}
+	pg.base.ship_data_strengthen[1110001] = {
 		id = 1110001,
 		durability = {
 			47,
@@ -18431,8 +19307,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[1110002] = {
+	}
+	pg.base.ship_data_strengthen[1110002] = {
 		id = 1110002,
 		durability = {
 			18,
@@ -18455,8 +19331,8 @@ pg.ship_data_strengthen = {
 			0,
 			16
 		}
-	},
-	[1110003] = {
+	}
+	pg.base.ship_data_strengthen[1110003] = {
 		id = 1110003,
 		durability = {
 			31,
@@ -18479,8 +19355,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[1110004] = {
+	}
+	pg.base.ship_data_strengthen[1110004] = {
 		id = 1110004,
 		durability = {
 			81,
@@ -18503,8 +19379,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[1110005] = {
+	}
+	pg.base.ship_data_strengthen[1110005] = {
 		id = 1110005,
 		durability = {
 			64,
@@ -18527,8 +19403,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[1110006] = {
+	}
+	pg.base.ship_data_strengthen[1110006] = {
 		id = 1110006,
 		durability = {
 			0,
@@ -18551,8 +19427,8 @@ pg.ship_data_strengthen = {
 			63,
 			8
 		}
-	},
-	[1120001] = {
+	}
+	pg.base.ship_data_strengthen[1120001] = {
 		id = 1120001,
 		durability = {
 			67,
@@ -18575,8 +19451,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[1120002] = {
+	}
+	pg.base.ship_data_strengthen[1120002] = {
 		id = 1120002,
 		durability = {
 			0,
@@ -18599,8 +19475,8 @@ pg.ship_data_strengthen = {
 			68,
 			10
 		}
-	},
-	[1130001] = {
+	}
+	pg.base.ship_data_strengthen[1130001] = {
 		id = 1130001,
 		durability = {
 			0,
@@ -18623,8 +19499,8 @@ pg.ship_data_strengthen = {
 			54,
 			13
 		}
-	},
-	[1130002] = {
+	}
+	pg.base.ship_data_strengthen[1130002] = {
 		id = 1130002,
 		durability = {
 			33,
@@ -18647,8 +19523,8 @@ pg.ship_data_strengthen = {
 			0,
 			13
 		}
-	},
-	[1130003] = {
+	}
+	pg.base.ship_data_strengthen[1130003] = {
 		id = 1130003,
 		durability = {
 			79,
@@ -18671,8 +19547,8 @@ pg.ship_data_strengthen = {
 			0,
 			11
 		}
-	},
-	[1130004] = {
+	}
+	pg.base.ship_data_strengthen[1130004] = {
 		id = 1130004,
 		durability = {
 			18,
@@ -18695,8 +19571,8 @@ pg.ship_data_strengthen = {
 			0,
 			17
 		}
-	},
-	[1140001] = {
+	}
+	pg.base.ship_data_strengthen[1140001] = {
 		id = 1140001,
 		durability = {
 			9,
@@ -18719,8 +19595,8 @@ pg.ship_data_strengthen = {
 			0,
 			12
 		}
-	},
-	[1140002] = {
+	}
+	pg.base.ship_data_strengthen[1140002] = {
 		id = 1140002,
 		durability = {
 			34,
@@ -18743,8 +19619,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[1150001] = {
+	}
+	pg.base.ship_data_strengthen[1150001] = {
 		id = 1150001,
 		durability = {
 			51,
@@ -18767,8 +19643,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[1150002] = {
+	}
+	pg.base.ship_data_strengthen[1150002] = {
 		id = 1150002,
 		durability = {
 			0,
@@ -18791,8 +19667,8 @@ pg.ship_data_strengthen = {
 			66,
 			10
 		}
-	},
-	[1150003] = {
+	}
+	pg.base.ship_data_strengthen[1150003] = {
 		id = 1150003,
 		durability = {
 			85,
@@ -18815,8 +19691,8 @@ pg.ship_data_strengthen = {
 			0,
 			10
 		}
-	},
-	[1150004] = {
+	}
+	pg.base.ship_data_strengthen[1150004] = {
 		id = 1150004,
 		durability = {
 			0,
@@ -18839,8 +19715,8 @@ pg.ship_data_strengthen = {
 			49,
 			13
 		}
-	},
-	[1150005] = {
+	}
+	pg.base.ship_data_strengthen[1150005] = {
 		id = 1150005,
 		durability = {
 			30,
@@ -18863,8 +19739,8 @@ pg.ship_data_strengthen = {
 			0,
 			14
 		}
-	},
-	[1150006] = {
+	}
+	pg.base.ship_data_strengthen[1150006] = {
 		id = 1150006,
 		durability = {
 			35,
@@ -18887,8 +19763,8 @@ pg.ship_data_strengthen = {
 			0,
 			15
 		}
-	},
-	[29901] = {
+	}
+	pg.base.ship_data_strengthen[29901] = {
 		id = 29901,
 		durability = {
 			47,
@@ -18911,8 +19787,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[29902] = {
+	}
+	pg.base.ship_data_strengthen[29902] = {
 		id = 29902,
 		durability = {
 			122,
@@ -18935,8 +19811,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[39901] = {
+	}
+	pg.base.ship_data_strengthen[39901] = {
 		id = 39901,
 		durability = {
 			74,
@@ -18959,8 +19835,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[39902] = {
+	}
+	pg.base.ship_data_strengthen[39902] = {
 		id = 39902,
 		durability = {
 			123,
@@ -18983,8 +19859,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[49901] = {
+	}
+	pg.base.ship_data_strengthen[49901] = {
 		id = 49901,
 		durability = {
 			78,
@@ -19007,8 +19883,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[89901] = {
+	}
+	pg.base.ship_data_strengthen[89901] = {
 		id = 89901,
 		durability = {
 			76,
@@ -19031,8 +19907,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[19901] = {
+	}
+	pg.base.ship_data_strengthen[19901] = {
 		id = 19901,
 		durability = {
 			49,
@@ -19055,8 +19931,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[19902] = {
+	}
+	pg.base.ship_data_strengthen[19902] = {
 		id = 19902,
 		durability = {
 			124,
@@ -19079,8 +19955,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[39903] = {
+	}
+	pg.base.ship_data_strengthen[39903] = {
 		id = 39903,
 		durability = {
 			24,
@@ -19103,8 +19979,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[39904] = {
+	}
+	pg.base.ship_data_strengthen[39904] = {
 		id = 39904,
 		durability = {
 			85,
@@ -19127,8 +20003,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[49902] = {
+	}
+	pg.base.ship_data_strengthen[49902] = {
 		id = 49902,
 		durability = {
 			128,
@@ -19151,8 +20027,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[99901] = {
+	}
+	pg.base.ship_data_strengthen[99901] = {
 		id = 99901,
 		durability = {
 			122,
@@ -19175,8 +20051,10 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[29903] = {
+	}
+end)()
+(function ()
+	pg.base.ship_data_strengthen[29903] = {
 		id = 29903,
 		durability = {
 			78,
@@ -19199,8 +20077,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[29904] = {
+	}
+	pg.base.ship_data_strengthen[29904] = {
 		id = 29904,
 		durability = {
 			80,
@@ -19223,8 +20101,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[49903] = {
+	}
+	pg.base.ship_data_strengthen[49903] = {
 		id = 49903,
 		durability = {
 			46,
@@ -19247,8 +20125,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[49904] = {
+	}
+	pg.base.ship_data_strengthen[49904] = {
 		id = 49904,
 		durability = {
 			101,
@@ -19271,8 +20149,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[89902] = {
+	}
+	pg.base.ship_data_strengthen[89902] = {
 		id = 89902,
 		durability = {
 			130,
@@ -19295,8 +20173,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[19903] = {
+	}
+	pg.base.ship_data_strengthen[19903] = {
 		id = 19903,
 		durability = {
 			69,
@@ -19319,8 +20197,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[39905] = {
+	}
+	pg.base.ship_data_strengthen[39905] = {
 		id = 39905,
 		durability = {
 			0,
@@ -19343,8 +20221,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[49905] = {
+	}
+	pg.base.ship_data_strengthen[49905] = {
 		id = 49905,
 		durability = {
 			78,
@@ -19367,8 +20245,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[49906] = {
+	}
+	pg.base.ship_data_strengthen[49906] = {
 		id = 49906,
 		durability = {
 			0,
@@ -19391,8 +20269,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[69901] = {
+	}
+	pg.base.ship_data_strengthen[69901] = {
 		id = 69901,
 		durability = {
 			123,
@@ -19415,8 +20293,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[29905] = {
+	}
+	pg.base.ship_data_strengthen[29905] = {
 		id = 29905,
 		durability = {
 			0,
@@ -19439,8 +20317,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[49907] = {
+	}
+	pg.base.ship_data_strengthen[49907] = {
 		id = 49907,
 		durability = {
 			0,
@@ -19463,8 +20341,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[59901] = {
+	}
+	pg.base.ship_data_strengthen[59901] = {
 		id = 59901,
 		durability = {
 			0,
@@ -19487,8 +20365,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[79901] = {
+	}
+	pg.base.ship_data_strengthen[79901] = {
 		id = 79901,
 		durability = {
 			0,
@@ -19511,8 +20389,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[89903] = {
+	}
+	pg.base.ship_data_strengthen[89903] = {
 		id = 89903,
 		durability = {
 			0,
@@ -19535,8 +20413,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[19904] = {
+	}
+	pg.base.ship_data_strengthen[19904] = {
 		id = 19904,
 		durability = {
 			0,
@@ -19559,8 +20437,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[39906] = {
+	}
+	pg.base.ship_data_strengthen[39906] = {
 		id = 39906,
 		durability = {
 			0,
@@ -19583,8 +20461,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[49908] = {
+	}
+	pg.base.ship_data_strengthen[49908] = {
 		id = 49908,
 		durability = {
 			0,
@@ -19607,8 +20485,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[49909] = {
+	}
+	pg.base.ship_data_strengthen[49909] = {
 		id = 49909,
 		durability = {
 			0,
@@ -19631,8 +20509,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[99902] = {
+	}
+	pg.base.ship_data_strengthen[99902] = {
 		id = 99902,
 		durability = {
 			0,
@@ -19655,8 +20533,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[19905] = {
+	}
+	pg.base.ship_data_strengthen[19905] = {
 		id = 19905,
 		durability = {
 			0,
@@ -19679,8 +20557,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[39907] = {
+	}
+	pg.base.ship_data_strengthen[39907] = {
 		id = 39907,
 		durability = {
 			0,
@@ -19703,8 +20581,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[69902] = {
+	}
+	pg.base.ship_data_strengthen[69902] = {
 		id = 69902,
 		durability = {
 			0,
@@ -19727,8 +20605,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[79902] = {
+	}
+	pg.base.ship_data_strengthen[79902] = {
 		id = 79902,
 		durability = {
 			0,
@@ -19751,8 +20629,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[89904] = {
+	}
+	pg.base.ship_data_strengthen[89904] = {
 		id = 89904,
 		durability = {
 			0,
@@ -19775,8 +20653,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[19906] = {
+	}
+	pg.base.ship_data_strengthen[19906] = {
 		id = 19906,
 		durability = {
 			0,
@@ -19799,8 +20677,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[49910] = {
+	}
+	pg.base.ship_data_strengthen[49910] = {
 		id = 49910,
 		durability = {
 			0,
@@ -19823,8 +20701,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[69903] = {
+	}
+	pg.base.ship_data_strengthen[69903] = {
 		id = 69903,
 		durability = {
 			0,
@@ -19847,8 +20725,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[79903] = {
+	}
+	pg.base.ship_data_strengthen[79903] = {
 		id = 79903,
 		durability = {
 			0,
@@ -19871,8 +20749,8 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	[119901] = {
+	}
+	pg.base.ship_data_strengthen[119901] = {
 		id = 119901,
 		durability = {
 			0,
@@ -19895,836 +20773,5 @@ pg.ship_data_strengthen = {
 			0,
 			0
 		}
-	},
-	all = {
-		10000,
-		10001,
-		10002,
-		10102,
-		10103,
-		10104,
-		10105,
-		10106,
-		10107,
-		10108,
-		10109,
-		10110,
-		10111,
-		10112,
-		10113,
-		10114,
-		10115,
-		10116,
-		10117,
-		10124,
-		10125,
-		10126,
-		10127,
-		10129,
-		10130,
-		10131,
-		10133,
-		10134,
-		10135,
-		10136,
-		10137,
-		10138,
-		10139,
-		10140,
-		10141,
-		10142,
-		10143,
-		10144,
-		10145,
-		10146,
-		10147,
-		10148,
-		10149,
-		10150,
-		10151,
-		10152,
-		10153,
-		10155,
-		10199,
-		10201,
-		10202,
-		10203,
-		10204,
-		10205,
-		10206,
-		10207,
-		10208,
-		10209,
-		10210,
-		10211,
-		10212,
-		10213,
-		10214,
-		10215,
-		10216,
-		10217,
-		10218,
-		10219,
-		10220,
-		10221,
-		10222,
-		10223,
-		10224,
-		10225,
-		10226,
-		10227,
-		10228,
-		10229,
-		10230,
-		10231,
-		10232,
-		10233,
-		10234,
-		10235,
-		10301,
-		10302,
-		10303,
-		10304,
-		10305,
-		10306,
-		10307,
-		10308,
-		10309,
-		10310,
-		10311,
-		10312,
-		10313,
-		10314,
-		10316,
-		10324,
-		10325,
-		10326,
-		10327,
-		10328,
-		10329,
-		10401,
-		10501,
-		10502,
-		10503,
-		10504,
-		10507,
-		10508,
-		10509,
-		10510,
-		10511,
-		10512,
-		10513,
-		10514,
-		10515,
-		10517,
-		10519,
-		10520,
-		10601,
-		10602,
-		10655,
-		10701,
-		10702,
-		10703,
-		10704,
-		10705,
-		10706,
-		10707,
-		10708,
-		10709,
-		10710,
-		10711,
-		10712,
-		10713,
-		10714,
-		10716,
-		10717,
-		10722,
-		10723,
-		10725,
-		10727,
-		10729,
-		10730,
-		10738,
-		10798,
-		10799,
-		10801,
-		10802,
-		10803,
-		10804,
-		10805,
-		10806,
-		10807,
-		10808,
-		10809,
-		11201,
-		11802,
-		20101,
-		20102,
-		20103,
-		20106,
-		20107,
-		20108,
-		20109,
-		20110,
-		20111,
-		20112,
-		20113,
-		20114,
-		20116,
-		20120,
-		20121,
-		20122,
-		20123,
-		20124,
-		20125,
-		20126,
-		20127,
-		20129,
-		20132,
-		20133,
-		20134,
-		20135,
-		20136,
-		20137,
-		20138,
-		20139,
-		20201,
-		20202,
-		20203,
-		20204,
-		20207,
-		20208,
-		20209,
-		20210,
-		20211,
-		20212,
-		20213,
-		20214,
-		20215,
-		20216,
-		20217,
-		20218,
-		20219,
-		20221,
-		20222,
-		20220,
-		20223,
-		20224,
-		20225,
-		20226,
-		20227,
-		20228,
-		20229,
-		20230,
-		20231,
-		20232,
-		20233,
-		20234,
-		20235,
-		20236,
-		20301,
-		20302,
-		20303,
-		20304,
-		20305,
-		20306,
-		20307,
-		20308,
-		20309,
-		20310,
-		20313,
-		20401,
-		20402,
-		20403,
-		20404,
-		20501,
-		20502,
-		20503,
-		20504,
-		20505,
-		20506,
-		20507,
-		20509,
-		20510,
-		20511,
-		20513,
-		20514,
-		20516,
-		20601,
-		20602,
-		20603,
-		20604,
-		20605,
-		20606,
-		20607,
-		20608,
-		20701,
-		20702,
-		20703,
-		20704,
-		20705,
-		20706,
-		20707,
-		20709,
-		20711,
-		20712,
-		20713,
-		20714,
-		21301,
-		21302,
-		21304,
-		30101,
-		30102,
-		30104,
-		30105,
-		30109,
-		30110,
-		30111,
-		30112,
-		30113,
-		30114,
-		30115,
-		30116,
-		30117,
-		30118,
-		30120,
-		30121,
-		30123,
-		30124,
-		30125,
-		30126,
-		30127,
-		30128,
-		30129,
-		30130,
-		30131,
-		30132,
-		30133,
-		30135,
-		30137,
-		30138,
-		30139,
-		30141,
-		30147,
-		30148,
-		30149,
-		30153,
-		30154,
-		30156,
-		30157,
-		30158,
-		30159,
-		30160,
-		30161,
-		30162,
-		30163,
-		30164,
-		30165,
-		30166,
-		30172,
-		30179,
-		30180,
-		30181,
-		30182,
-		30183,
-		30184,
-		30185,
-		30186,
-		30187,
-		30188,
-		30189,
-		30190,
-		30191,
-		30192,
-		30193,
-		30194,
-		30201,
-		30204,
-		30205,
-		30206,
-		30207,
-		30208,
-		30209,
-		30210,
-		30211,
-		30212,
-		30213,
-		30214,
-		30226,
-		30227,
-		30228,
-		30229,
-		30220,
-		30221,
-		30223,
-		30224,
-		30225,
-		30301,
-		30302,
-		30303,
-		30304,
-		30306,
-		30307,
-		30308,
-		30309,
-		30310,
-		30311,
-		30312,
-		30313,
-		30314,
-		30315,
-		30317,
-		30318,
-		30319,
-		30320,
-		30401,
-		30402,
-		30403,
-		30404,
-		30405,
-		30406,
-		30407,
-		30408,
-		30501,
-		30502,
-		30503,
-		30504,
-		30505,
-		30506,
-		30507,
-		30508,
-		30510,
-		30511,
-		30512,
-		30513,
-		30514,
-		30516,
-		30601,
-		30602,
-		30603,
-		30604,
-		30605,
-		30606,
-		30607,
-		30608,
-		30609,
-		30701,
-		30702,
-		30703,
-		30704,
-		30705,
-		30706,
-		30707,
-		30708,
-		30709,
-		30710,
-		30711,
-		30712,
-		30713,
-		30714,
-		30715,
-		30716,
-		30717,
-		30801,
-		30802,
-		30803,
-		30804,
-		30805,
-		30806,
-		31001,
-		31002,
-		31003,
-		31004,
-		31201,
-		31701,
-		31702,
-		31901,
-		40001,
-		40002,
-		40101,
-		40102,
-		40109,
-		40111,
-		40113,
-		40116,
-		40118,
-		40119,
-		40120,
-		40121,
-		40123,
-		40124,
-		40125,
-		40126,
-		40128,
-		40135,
-		40136,
-		40143,
-		40146,
-		40147,
-		40152,
-		40199,
-		40201,
-		40202,
-		40203,
-		40213,
-		40204,
-		40205,
-		40206,
-		40207,
-		40208,
-		40210,
-		40211,
-		40301,
-		40302,
-		40303,
-		40304,
-		40305,
-		40307,
-		40308,
-		40309,
-		40310,
-		40311,
-		40312,
-		40313,
-		40314,
-		40315,
-		40316,
-		40401,
-		40402,
-		40403,
-		40404,
-		40405,
-		40406,
-		40407,
-		40501,
-		40502,
-		40503,
-		40504,
-		40505,
-		40506,
-		40601,
-		40602,
-		40603,
-		40701,
-		40702,
-		40703,
-		40704,
-		40801,
-		40802,
-		40803,
-		40804,
-		40805,
-		40806,
-		40807,
-		40808,
-		40809,
-		40810,
-		40811,
-		40812,
-		40813,
-		40814,
-		50101,
-		50102,
-		50103,
-		50104,
-		50105,
-		50106,
-		50107,
-		50108,
-		50109,
-		50201,
-		50211,
-		50202,
-		50203,
-		50204,
-		50298,
-		50205,
-		50299,
-		50207,
-		50208,
-		50209,
-		50210,
-		50212,
-		50301,
-		50302,
-		50401,
-		50601,
-		50611,
-		50602,
-		51901,
-		52001,
-		52002,
-		52003,
-		52004,
-		52101,
-		52102,
-		52103,
-		52104,
-		60102,
-		60103,
-		60104,
-		60105,
-		60106,
-		60107,
-		60108,
-		60109,
-		60110,
-		60111,
-		60112,
-		60201,
-		60202,
-		60203,
-		60204,
-		60301,
-		60302,
-		60303,
-		60304,
-		60305,
-		60306,
-		60501,
-		60502,
-		60503,
-		60505,
-		60506,
-		60507,
-		60508,
-		60509,
-		60701,
-		60702,
-		60801,
-		60802,
-		60803,
-		70102,
-		70103,
-		70104,
-		70105,
-		70106,
-		70107,
-		70108,
-		70109,
-		70110,
-		70111,
-		70112,
-		70113,
-		70201,
-		70202,
-		70203,
-		70204,
-		70205,
-		70206,
-		70207,
-		70208,
-		70209,
-		70210,
-		70212,
-		70301,
-		70302,
-		70303,
-		70501,
-		70502,
-		70504,
-		70505,
-		70506,
-		70507,
-		70508,
-		70509,
-		70701,
-		71801,
-		80101,
-		80102,
-		80103,
-		80104,
-		80105,
-		80107,
-		80108,
-		80109,
-		80201,
-		80202,
-		80203,
-		80204,
-		80301,
-		80302,
-		80303,
-		80401,
-		80501,
-		80502,
-		80503,
-		80601,
-		80701,
-		80702,
-		80801,
-		90101,
-		90102,
-		90103,
-		90104,
-		90105,
-		90106,
-		90107,
-		90111,
-		90112,
-		90113,
-		90114,
-		90201,
-		90202,
-		90301,
-		90302,
-		90303,
-		90401,
-		90402,
-		90501,
-		90502,
-		90503,
-		90701,
-		110101,
-		110201,
-		960001,
-		960002,
-		960003,
-		960004,
-		960005,
-		960006,
-		960007,
-		960008,
-		960009,
-		960010,
-		960011,
-		960012,
-		960013,
-		960014,
-		960015,
-		960016,
-		1010001,
-		1010002,
-		1010003,
-		1010004,
-		1010005,
-		1010006,
-		1010007,
-		1010008,
-		1020001,
-		1020002,
-		1030001,
-		1030002,
-		1030003,
-		1030004,
-		1030005,
-		1030006,
-		1040001,
-		1040002,
-		1040003,
-		1040004,
-		1050001,
-		1050002,
-		1050003,
-		1050004,
-		1050005,
-		1050006,
-		1050007,
-		1060001,
-		1060002,
-		1060003,
-		1060004,
-		1060005,
-		1060006,
-		1060007,
-		1060008,
-		1060009,
-		1060010,
-		1060011,
-		1060012,
-		1060013,
-		1060014,
-		1060015,
-		1070001,
-		1070002,
-		1070003,
-		1070004,
-		1070005,
-		1070006,
-		1070007,
-		1080001,
-		1080002,
-		1080003,
-		1080004,
-		1080005,
-		1080006,
-		1080007,
-		1080008,
-		1080009,
-		1090001,
-		1090002,
-		1090003,
-		1090004,
-		1090005,
-		1090006,
-		1100001,
-		1100002,
-		1100003,
-		1100004,
-		1100005,
-		1100006,
-		1100007,
-		1110001,
-		1110002,
-		1110003,
-		1110004,
-		1110005,
-		1110006,
-		1120001,
-		1120002,
-		1130001,
-		1130002,
-		1130003,
-		1130004,
-		1140001,
-		1140002,
-		1150001,
-		1150002,
-		1150003,
-		1150004,
-		1150005,
-		1150006,
-		29901,
-		29902,
-		39901,
-		39902,
-		49901,
-		89901,
-		19901,
-		19902,
-		39903,
-		39904,
-		49902,
-		99901,
-		29903,
-		29904,
-		49903,
-		49904,
-		89902,
-		19903,
-		39905,
-		49905,
-		49906,
-		69901,
-		29905,
-		49907,
-		59901,
-		79901,
-		89903,
-		19904,
-		39906,
-		49908,
-		49909,
-		99902,
-		19905,
-		39907,
-		69902,
-		79902,
-		89904,
-		19906,
-		49910,
-		69903,
-		79903,
-		119901
 	}
-}
+end)()

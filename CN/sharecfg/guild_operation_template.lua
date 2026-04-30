@@ -1,6 +1,18 @@
 pg = pg or {}
-pg.guild_operation_template = {
-	{
+pg.guild_operation_template = rawget(pg, "guild_operation_template") or setmetatable({
+	__name = "guild_operation_template"
+}, confNEO)
+pg.guild_operation_template.all = {
+	1,
+	2,
+	3,
+	4
+}
+pg.base = pg.base or {}
+pg.base.guild_operation_template = {}
+
+(function ()
+	pg.base.guild_operation_template[1] = {
 		scale = "小型远征：1~5人(推荐)",
 		name = "米德维岛哨卫作战",
 		theme = "midway",
@@ -30,8 +42,8 @@ pg.guild_operation_template = {
 				54017
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_operation_template[2] = {
 		scale = "中型远征：3~8人(推荐)",
 		name = "北方商路护航作战",
 		theme = "northern",
@@ -60,8 +72,8 @@ pg.guild_operation_template = {
 				54017
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_operation_template[3] = {
 		scale = "大型远征：6~14人(推荐)",
 		name = "半岛攻略战",
 		theme = "norskehavet",
@@ -92,8 +104,8 @@ pg.guild_operation_template = {
 				54017
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_operation_template[4] = {
 		scale = "大型远征：8~20人(推荐)",
 		name = "达古康纳尔岛海空战",
 		theme = "guadalcanal",
@@ -124,11 +136,5 @@ pg.guild_operation_template = {
 				54017
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4
 	}
-}
+end)()

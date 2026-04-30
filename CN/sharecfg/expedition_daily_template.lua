@@ -1,6 +1,22 @@
 pg = pg or {}
-pg.expedition_daily_template = {
-	[101] = {
+pg.expedition_daily_template = rawget(pg, "expedition_daily_template") or setmetatable({
+	__name = "expedition_daily_template"
+}, confNEO)
+pg.expedition_daily_template.all = {
+	101,
+	201,
+	301,
+	401,
+	501,
+	601,
+	701,
+	801
+}
+pg.base = pg.base or {}
+pg.base.expedition_daily_template = {}
+
+(function ()
+	pg.base.expedition_daily_template[101] = {
 		tips = "该副本暂未开放，敬请期待",
 		limit_type = 0,
 		pic = "daily4",
@@ -14,8 +30,8 @@ pg.expedition_daily_template = {
 		des = "该副本暂未开放，敬请期待",
 		weekday = {},
 		expedition_and_lv_limit_list = {}
-	},
-	[201] = {
+	}
+	pg.base.expedition_daily_template[201] = {
 		tips = "商船护送开启时间为：每周一、周四、周日",
 		limit_type = 1,
 		pic = "daily1",
@@ -82,8 +98,8 @@ pg.expedition_daily_template = {
 				95
 			}
 		}
-	},
-	[301] = {
+	}
+	pg.base.expedition_daily_template[301] = {
 		tips = "海域突进开启时间为：每周二、周五、周日",
 		limit_type = 1,
 		pic = "daily2",
@@ -126,8 +142,8 @@ pg.expedition_daily_template = {
 				95
 			}
 		}
-	},
-	[401] = {
+	}
+	pg.base.expedition_daily_template[401] = {
 		tips = "斩首行动开启时间为：每周三、周六、周日",
 		limit_type = 1,
 		pic = "daily3",
@@ -170,8 +186,8 @@ pg.expedition_daily_template = {
 				95
 			}
 		}
-	},
-	[501] = {
+	}
+	pg.base.expedition_daily_template[501] = {
 		tips = "破交作战每天开启，每周上限四次",
 		limit_type = 2,
 		pic = "daily5",
@@ -218,8 +234,8 @@ pg.expedition_daily_template = {
 				95
 			}
 		}
-	},
-	[601] = {
+	}
+	pg.base.expedition_daily_template[601] = {
 		tips = "战术研修每天开启",
 		limit_type = 1,
 		pic = "daily6",
@@ -266,8 +282,8 @@ pg.expedition_daily_template = {
 				100
 			}
 		}
-	},
-	[701] = {
+	}
+	pg.base.expedition_daily_template[701] = {
 		tips = "兵装训练每天开启，每周上限两次",
 		limit_type = 2,
 		pic = "daily7",
@@ -298,8 +314,8 @@ pg.expedition_daily_template = {
 				75
 			}
 		}
-	},
-	[801] = {
+	}
+	pg.base.expedition_daily_template[801] = {
 		tips = "限时兵装训练开放期间每天开启",
 		limit_type = 1,
 		pic = "daily8",
@@ -355,15 +371,5 @@ pg.expedition_daily_template = {
 				70
 			}
 		}
-	},
-	all = {
-		101,
-		201,
-		301,
-		401,
-		501,
-		601,
-		701,
-		801
 	}
-}
+end)()

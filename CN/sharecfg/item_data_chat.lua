@@ -1,257 +1,263 @@
 pg = pg or {}
-pg.item_data_chat = {
-	[0] = {
+pg.item_data_chat = rawget(pg, "item_data_chat") or setmetatable({
+	__name = "item_data_chat"
+}, confNEO)
+pg.item_data_chat.all = {
+	0,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	300,
+	301,
+	602,
+	603,
+	606,
+	607,
+	610,
+	10001,
+	10002,
+	10003,
+	10004,
+	10005,
+	10006,
+	10007,
+	10008,
+	10009,
+	10010,
+	10011,
+	10012
+}
+pg.base = pg.base or {}
+pg.base.item_data_chat = {}
+
+(function ()
+	pg.base.item_data_chat[0] = {
 		name = "默认装扮",
 		time_second = 0,
 		id = 0,
 		time_limit_type = 0,
 		desc = "不设置任何聊天气泡",
 		scene = {}
-	},
-	[101] = {
+	}
+	pg.base.item_data_chat[101] = {
 		name = "一周年纪念",
 		time_second = 0,
 		id = 101,
 		time_limit_type = 0,
 		desc = "献给所有一年间持续奋斗在港区的指挥官们\n<color=#A7A7AAFF>开启「再诞·曙光」纪念币获取</color>",
 		scene = {}
-	},
-	[102] = {
+	}
+	pg.base.item_data_chat[102] = {
 		name = "二周年纪念",
 		time_second = 0,
 		id = 102,
 		time_limit_type = 0,
 		desc = "献给所有两年间持续奋斗在港区的指挥官们\n<color=#A7A7AAFF>通过参与二周年限定活动获取</color>",
 		scene = {}
-	},
-	[103] = {
+	}
+	pg.base.item_data_chat[103] = {
 		name = "三周年纪念",
 		time_second = 0,
 		id = 103,
 		time_limit_type = 0,
 		desc = "献给所有三年间持续奋斗在港区的指挥官们\n<color=#A7A7AAFF>通过参与三周年限定活动获取</color>",
 		scene = {}
-	},
-	[104] = {
+	}
+	pg.base.item_data_chat[104] = {
 		name = "四周年纪念",
 		time_second = 0,
 		id = 104,
 		time_limit_type = 0,
 		desc = "献给所有四年间持续奋斗在港区的指挥官们\n<color=#A7A7AAFF>通过参与四周年限定活动获取</color>",
 		scene = {}
-	},
-	[105] = {
+	}
+	pg.base.item_data_chat[105] = {
 		name = "五周年纪念",
 		time_second = 0,
 		id = 105,
 		time_limit_type = 0,
 		desc = "献给所有五年间持续奋斗在港区的指挥官们\n<color=#A7A7AAFF>通过参与五周年限定活动获取</color>",
 		scene = {}
-	},
-	[106] = {
+	}
+	pg.base.item_data_chat[106] = {
 		name = "六周年纪念",
 		time_second = 0,
 		id = 106,
 		time_limit_type = 0,
 		desc = "献给所有六年间持续奋斗在港区的指挥官们\n<color=#A7A7AAFF>通过参与六周年限定活动获取</color>",
 		scene = {}
-	},
-	[107] = {
+	}
+	pg.base.item_data_chat[107] = {
 		name = "七周年纪念",
 		time_second = 0,
 		id = 107,
 		time_limit_type = 0,
 		desc = "献给所有七年间持续奋斗在港区的指挥官们\n<color=#A7A7AAFF>通过参与七周年限定活动获取</color>",
 		scene = {}
-	},
-	[108] = {
+	}
+	pg.base.item_data_chat[108] = {
 		name = "八周年纪念",
 		time_second = 0,
 		id = 108,
 		time_limit_type = 0,
 		desc = "献给所有八年间持续奋斗在港区的指挥官们\n<color=#A7A7AAFF>通过参与八周年限定活动获取</color>",
 		scene = {}
-	},
-	[300] = {
+	}
+	pg.base.item_data_chat[300] = {
 		name = "召集者",
 		time_second = 2592000,
 		id = 300,
 		time_limit_type = 1,
 		desc = "<color=#ffffff>感谢您对于动员指令的响应，指挥官</color>\n<color=#A7A7AAFF>有效期30天</color>",
 		scene = {}
-	},
-	[301] = {
+	}
+	pg.base.item_data_chat[301] = {
 		name = "回归者",
 		time_second = 2592000,
 		id = 301,
 		time_limit_type = 1,
 		desc = "<color=#ffffff>指挥部欢迎您的归来，期待您今后的活跃</color>\n<color=#A7A7AAFF>有效期30天</color>",
 		scene = {}
-	},
-	[602] = {
+	}
+	pg.base.item_data_chat[602] = {
 		name = "绿野的余响",
 		time_second = 0,
 		id = 602,
 		time_limit_type = 0,
 		desc = "献给所有六年间持续奋斗在港区的指挥官们\n<color=#A7A7AAFF>通过参与六周年限定活动获取</color>",
 		scene = {}
-	},
-	[603] = {
+	}
+	pg.base.item_data_chat[603] = {
 		name = "华丽的邀约",
 		time_second = 0,
 		id = 603,
 		time_limit_type = 0,
 		desc = "献给所有参与港区宴会的指挥官！\n<color=#A7A7AAFF>通过参与「宴会邀约」获取 </color>",
 		scene = {}
-	},
-	[606] = {
+	}
+	pg.base.item_data_chat[606] = {
 		name = "碧海的回波",
 		time_second = 0,
 		id = 606,
 		time_limit_type = 0,
 		desc = "在水波荡漾之中，尽情享受假日邮轮之旅吧~！\n<color=#A7A7AAFF>通过参与七周年限定活动获取</color>",
 		scene = {}
-	},
-	[607] = {
+	}
+	pg.base.item_data_chat[607] = {
 		name = "荒野的追忆",
 		time_second = 0,
 		id = 607,
 		time_limit_type = 0,
 		desc = "荒野、开拓与假日的回忆纪念。\n<color=#A7A7AAFF>通过参与「荒野假日开拓记」活动获取</color>",
 		scene = {}
-	},
-	[610] = {
+	}
+	pg.base.item_data_chat[610] = {
 		name = "海滨的轻浪",
 		time_second = 0,
 		id = 610,
 		time_limit_type = 0,
 		desc = "漫步于海滨，倾听海浪的细语。\n<color=#A7A7AAFF>通过参与「夏日重建！海岛别墅度假计划！」活动获取</color>",
 		scene = {}
-	},
-	[10001] = {
+	}
+	pg.base.item_data_chat[10001] = {
 		name = "限界的挑战者·双子座",
 		time_second = 0,
 		id = 10001,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>献给勇于挑战极限的指挥官！</color>\n<color=#A7A7AAFF>通过参与「限界挑战」获取 </color>",
 		scene = {}
-	},
-	[10002] = {
+	}
+	pg.base.item_data_chat[10002] = {
 		name = "限界的挑战者·巨蟹座",
 		time_second = 0,
 		id = 10002,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>献给勇于挑战极限的指挥官！</color>\n<color=#A7A7AAFF>通过参与「限界挑战」获取 </color>",
 		scene = {}
-	},
-	[10003] = {
+	}
+	pg.base.item_data_chat[10003] = {
 		name = "限界的挑战者·狮子座",
 		time_second = 0,
 		id = 10003,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>献给勇于挑战极限的指挥官！</color>\n<color=#A7A7AAFF>通过参与「限界挑战」获取 </color>",
 		scene = {}
-	},
-	[10004] = {
+	}
+	pg.base.item_data_chat[10004] = {
 		name = "限界的挑战者·处女座",
 		time_second = 0,
 		id = 10004,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>献给勇于挑战极限的指挥官！</color>\n<color=#A7A7AAFF>通过参与「限界挑战」获取 </color>",
 		scene = {}
-	},
-	[10005] = {
+	}
+	pg.base.item_data_chat[10005] = {
 		name = "限界的挑战者·天秤座",
 		time_second = 0,
 		id = 10005,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>献给勇于挑战极限的指挥官！</color>\n<color=#A7A7AAFF>通过参与「限界挑战」获取 </color>",
 		scene = {}
-	},
-	[10006] = {
+	}
+	pg.base.item_data_chat[10006] = {
 		name = "限界的挑战者·天蝎座",
 		time_second = 0,
 		id = 10006,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>献给勇于挑战极限的指挥官！</color>\n<color=#A7A7AAFF>通过参与「限界挑战」获取 </color>",
 		scene = {}
-	},
-	[10007] = {
+	}
+	pg.base.item_data_chat[10007] = {
 		name = "限界的挑战者·射手座",
 		time_second = 0,
 		id = 10007,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>献给勇于挑战极限的指挥官！</color>\n<color=#A7A7AAFF>通过参与「限界挑战」获取 </color>",
 		scene = {}
-	},
-	[10008] = {
+	}
+	pg.base.item_data_chat[10008] = {
 		name = "限界的挑战者·摩羯座",
 		time_second = 0,
 		id = 10008,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>献给勇于挑战极限的指挥官！</color>\n<color=#A7A7AAFF>通过参与「限界挑战」获取 </color>",
 		scene = {}
-	},
-	[10009] = {
+	}
+	pg.base.item_data_chat[10009] = {
 		name = "限界的挑战者·水瓶座",
 		time_second = 0,
 		id = 10009,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>献给勇于挑战极限的指挥官！</color>\n<color=#A7A7AAFF>通过参与「限界挑战」获取 </color>",
 		scene = {}
-	},
-	[10010] = {
+	}
+	pg.base.item_data_chat[10010] = {
 		name = "限界的挑战者·双鱼座",
 		time_second = 0,
 		id = 10010,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>献给勇于挑战极限的指挥官！</color>\n<color=#A7A7AAFF>通过参与「限界挑战」获取 </color>",
 		scene = {}
-	},
-	[10011] = {
+	}
+	pg.base.item_data_chat[10011] = {
 		name = "限界的挑战者·白羊座",
 		time_second = 0,
 		id = 10011,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>献给勇于挑战极限的指挥官！</color>\n<color=#A7A7AAFF>通过参与「限界挑战」获取 </color>",
 		scene = {}
-	},
-	[10012] = {
+	}
+	pg.base.item_data_chat[10012] = {
 		name = "限界的挑战者·金牛座",
 		time_second = 0,
 		id = 10012,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>献给勇于挑战极限的指挥官！</color>\n<color=#A7A7AAFF>通过参与「限界挑战」获取 </color>",
 		scene = {}
-	},
-	all = {
-		0,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		300,
-		301,
-		602,
-		603,
-		606,
-		607,
-		610,
-		10001,
-		10002,
-		10003,
-		10004,
-		10005,
-		10006,
-		10007,
-		10008,
-		10009,
-		10010,
-		10011,
-		10012
 	}
-}
+end)()

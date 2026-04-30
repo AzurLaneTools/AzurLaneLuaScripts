@@ -1,6 +1,15 @@
 pg = pg or {}
-pg.escort_map_template = {
-	[70000] = {
+pg.escort_map_template = rawget(pg, "escort_map_template") or setmetatable({
+	__name = "escort_map_template"
+}, confNEO)
+pg.escort_map_template.all = {
+	70000
+}
+pg.base = pg.base or {}
+pg.base.escort_map_template = {}
+
+(function ()
+	pg.base.escort_map_template[70000] = {
 		level_limit = 40,
 		id = 70000,
 		refresh_time = 21600,
@@ -24,8 +33,5 @@ pg.escort_map_template = {
 			1,
 			1
 		}
-	},
-	all = {
-		70000
 	}
-}
+end)()

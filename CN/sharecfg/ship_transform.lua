@@ -1,6 +1,73 @@
 pg = pg or {}
-pg.ship_transform = {
-	[970701] = {
+pg.ship_transform = rawget(pg, "ship_transform") or setmetatable({
+	__name = "ship_transform"
+}, confNEO)
+pg.ship_transform.all = {
+	970701,
+	970702,
+	970201,
+	970703,
+	970501,
+	970601,
+	970401,
+	970602,
+	970402,
+	970502,
+	970202,
+	970403,
+	970404,
+	970301,
+	970101,
+	970102,
+	970503,
+	970203,
+	970504,
+	970204,
+	970801,
+	971201,
+	970302,
+	970103,
+	970205,
+	970603,
+	971301,
+	970206,
+	970104,
+	970207,
+	970505,
+	970105,
+	970704,
+	970303,
+	970304,
+	970106,
+	970506,
+	970405,
+	970604,
+	970507,
+	970705,
+	970305,
+	970306,
+	970508,
+	970706,
+	970509,
+	970707,
+	970107,
+	970108,
+	970406,
+	970109,
+	970110,
+	970111,
+	970208,
+	970708,
+	970209,
+	970210,
+	970510,
+	970211
+}
+pg.base = pg.base or {}
+pg.base.ship_transform = {}
+
+(function ()
+	pg.base.ship_transform[970701] = {
 		id = 970701,
 		exclusive_item = {
 			{
@@ -16,8 +83,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970702] = {
+	}
+	pg.base.ship_transform[970702] = {
 		id = 970702,
 		exclusive_item = {
 			{
@@ -33,8 +100,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970201] = {
+	}
+	pg.base.ship_transform[970201] = {
 		id = 970201,
 		exclusive_item = {
 			{
@@ -50,8 +117,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970703] = {
+	}
+	pg.base.ship_transform[970703] = {
 		id = 970703,
 		exclusive_item = {
 			{
@@ -67,8 +134,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970501] = {
+	}
+	pg.base.ship_transform[970501] = {
 		id = 970501,
 		exclusive_item = {
 			{
@@ -84,8 +151,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970601] = {
+	}
+	pg.base.ship_transform[970601] = {
 		id = 970601,
 		exclusive_item = {
 			{
@@ -101,8 +168,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970401] = {
+	}
+	pg.base.ship_transform[970401] = {
 		id = 970401,
 		exclusive_item = {
 			{
@@ -118,8 +185,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970602] = {
+	}
+	pg.base.ship_transform[970602] = {
 		id = 970602,
 		exclusive_item = {
 			{
@@ -135,8 +202,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970402] = {
+	}
+	pg.base.ship_transform[970402] = {
 		id = 970402,
 		exclusive_item = {
 			{
@@ -152,8 +219,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970502] = {
+	}
+	pg.base.ship_transform[970502] = {
 		id = 970502,
 		exclusive_item = {
 			{
@@ -169,8 +236,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970202] = {
+	}
+	pg.base.ship_transform[970202] = {
 		id = 970202,
 		exclusive_item = {
 			{
@@ -186,8 +253,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970403] = {
+	}
+	pg.base.ship_transform[970403] = {
 		id = 970403,
 		exclusive_item = {
 			{
@@ -203,8 +270,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970404] = {
+	}
+	pg.base.ship_transform[970404] = {
 		id = 970404,
 		exclusive_item = {
 			{
@@ -220,8 +287,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970301] = {
+	}
+	pg.base.ship_transform[970301] = {
 		id = 970301,
 		exclusive_item = {
 			{
@@ -237,8 +304,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970101] = {
+	}
+	pg.base.ship_transform[970101] = {
 		id = 970101,
 		exclusive_item = {
 			{
@@ -254,8 +321,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970102] = {
+	}
+	pg.base.ship_transform[970102] = {
 		id = 970102,
 		exclusive_item = {
 			{
@@ -271,8 +338,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970503] = {
+	}
+	pg.base.ship_transform[970503] = {
 		id = 970503,
 		exclusive_item = {
 			{
@@ -288,8 +355,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970203] = {
+	}
+	pg.base.ship_transform[970203] = {
 		id = 970203,
 		exclusive_item = {
 			{
@@ -305,8 +372,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970504] = {
+	}
+	pg.base.ship_transform[970504] = {
 		id = 970504,
 		exclusive_item = {
 			{
@@ -322,8 +389,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970204] = {
+	}
+	pg.base.ship_transform[970204] = {
 		id = 970204,
 		exclusive_item = {
 			{
@@ -339,8 +406,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970801] = {
+	}
+	pg.base.ship_transform[970801] = {
 		id = 970801,
 		exclusive_item = {
 			{
@@ -356,8 +423,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[971201] = {
+	}
+	pg.base.ship_transform[971201] = {
 		id = 971201,
 		exclusive_item = {
 			{
@@ -373,8 +440,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970302] = {
+	}
+	pg.base.ship_transform[970302] = {
 		id = 970302,
 		exclusive_item = {
 			{
@@ -390,8 +457,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970103] = {
+	}
+	pg.base.ship_transform[970103] = {
 		id = 970103,
 		exclusive_item = {
 			{
@@ -407,8 +474,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970205] = {
+	}
+	pg.base.ship_transform[970205] = {
 		id = 970205,
 		exclusive_item = {
 			{
@@ -424,8 +491,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970603] = {
+	}
+	pg.base.ship_transform[970603] = {
 		id = 970603,
 		exclusive_item = {
 			{
@@ -441,8 +508,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[971301] = {
+	}
+	pg.base.ship_transform[971301] = {
 		id = 971301,
 		exclusive_item = {
 			{
@@ -458,8 +525,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970206] = {
+	}
+	pg.base.ship_transform[970206] = {
 		id = 970206,
 		exclusive_item = {
 			{
@@ -475,8 +542,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970104] = {
+	}
+	pg.base.ship_transform[970104] = {
 		id = 970104,
 		exclusive_item = {
 			{
@@ -492,8 +559,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970207] = {
+	}
+	pg.base.ship_transform[970207] = {
 		id = 970207,
 		exclusive_item = {
 			{
@@ -509,8 +576,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970505] = {
+	}
+	pg.base.ship_transform[970505] = {
 		id = 970505,
 		exclusive_item = {
 			{
@@ -526,8 +593,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970105] = {
+	}
+	pg.base.ship_transform[970105] = {
 		id = 970105,
 		exclusive_item = {
 			{
@@ -543,8 +610,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970704] = {
+	}
+	pg.base.ship_transform[970704] = {
 		id = 970704,
 		exclusive_item = {
 			{
@@ -560,8 +627,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970303] = {
+	}
+	pg.base.ship_transform[970303] = {
 		id = 970303,
 		exclusive_item = {
 			{
@@ -577,8 +644,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970304] = {
+	}
+	pg.base.ship_transform[970304] = {
 		id = 970304,
 		exclusive_item = {
 			{
@@ -594,8 +661,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970106] = {
+	}
+	pg.base.ship_transform[970106] = {
 		id = 970106,
 		exclusive_item = {
 			{
@@ -611,8 +678,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970506] = {
+	}
+	pg.base.ship_transform[970506] = {
 		id = 970506,
 		exclusive_item = {
 			{
@@ -628,8 +695,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970405] = {
+	}
+	pg.base.ship_transform[970405] = {
 		id = 970405,
 		exclusive_item = {
 			{
@@ -645,8 +712,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970604] = {
+	}
+	pg.base.ship_transform[970604] = {
 		id = 970604,
 		exclusive_item = {
 			{
@@ -662,8 +729,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970507] = {
+	}
+	pg.base.ship_transform[970507] = {
 		id = 970507,
 		exclusive_item = {
 			{
@@ -679,8 +746,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970705] = {
+	}
+	pg.base.ship_transform[970705] = {
 		id = 970705,
 		exclusive_item = {
 			{
@@ -696,8 +763,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970305] = {
+	}
+	pg.base.ship_transform[970305] = {
 		id = 970305,
 		exclusive_item = {
 			{
@@ -713,8 +780,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970306] = {
+	}
+	pg.base.ship_transform[970306] = {
 		id = 970306,
 		exclusive_item = {
 			{
@@ -730,8 +797,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970508] = {
+	}
+	pg.base.ship_transform[970508] = {
 		id = 970508,
 		exclusive_item = {
 			{
@@ -747,8 +814,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970706] = {
+	}
+	pg.base.ship_transform[970706] = {
 		id = 970706,
 		exclusive_item = {
 			{
@@ -764,8 +831,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970509] = {
+	}
+	pg.base.ship_transform[970509] = {
 		id = 970509,
 		exclusive_item = {
 			{
@@ -781,8 +848,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970707] = {
+	}
+	pg.base.ship_transform[970707] = {
 		id = 970707,
 		exclusive_item = {
 			{
@@ -798,8 +865,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970107] = {
+	}
+	pg.base.ship_transform[970107] = {
 		id = 970107,
 		exclusive_item = {
 			{
@@ -815,8 +882,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970108] = {
+	}
+	pg.base.ship_transform[970108] = {
 		id = 970108,
 		exclusive_item = {
 			{
@@ -832,8 +899,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970406] = {
+	}
+	pg.base.ship_transform[970406] = {
 		id = 970406,
 		exclusive_item = {
 			{
@@ -849,8 +916,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970109] = {
+	}
+	pg.base.ship_transform[970109] = {
 		id = 970109,
 		exclusive_item = {
 			{
@@ -866,8 +933,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970110] = {
+	}
+	pg.base.ship_transform[970110] = {
 		id = 970110,
 		exclusive_item = {
 			{
@@ -883,8 +950,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970111] = {
+	}
+	pg.base.ship_transform[970111] = {
 		id = 970111,
 		exclusive_item = {
 			{
@@ -900,8 +967,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970208] = {
+	}
+	pg.base.ship_transform[970208] = {
 		id = 970208,
 		exclusive_item = {
 			{
@@ -917,8 +984,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970708] = {
+	}
+	pg.base.ship_transform[970708] = {
 		id = 970708,
 		exclusive_item = {
 			{
@@ -934,8 +1001,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970209] = {
+	}
+	pg.base.ship_transform[970209] = {
 		id = 970209,
 		exclusive_item = {
 			{
@@ -951,8 +1018,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970210] = {
+	}
+	pg.base.ship_transform[970210] = {
 		id = 970210,
 		exclusive_item = {
 			{
@@ -968,8 +1035,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970510] = {
+	}
+	pg.base.ship_transform[970510] = {
 		id = 970510,
 		exclusive_item = {
 			{
@@ -985,8 +1052,8 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	[970211] = {
+	}
+	pg.base.ship_transform[970211] = {
 		id = 970211,
 		exclusive_item = {
 			{
@@ -1002,66 +1069,5 @@ pg.ship_transform = {
 				10
 			}
 		}
-	},
-	all = {
-		970701,
-		970702,
-		970201,
-		970703,
-		970501,
-		970601,
-		970401,
-		970602,
-		970402,
-		970502,
-		970202,
-		970403,
-		970404,
-		970301,
-		970101,
-		970102,
-		970503,
-		970203,
-		970504,
-		970204,
-		970801,
-		971201,
-		970302,
-		970103,
-		970205,
-		970603,
-		971301,
-		970206,
-		970104,
-		970207,
-		970505,
-		970105,
-		970704,
-		970303,
-		970304,
-		970106,
-		970506,
-		970405,
-		970604,
-		970507,
-		970705,
-		970305,
-		970306,
-		970508,
-		970706,
-		970509,
-		970707,
-		970107,
-		970108,
-		970406,
-		970109,
-		970110,
-		970111,
-		970208,
-		970708,
-		970209,
-		970210,
-		970510,
-		970211
 	}
-}
+end)()

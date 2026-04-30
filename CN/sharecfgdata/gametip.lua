@@ -26582,6 +26582,11 @@ _G.pg.base.gametip.eventshop_time_hint = {
 }
 
 
+_G.pg.base.gametip.eventshop_time_hint2 = {
+	tip = "兑换时间截止至$1 24时"
+}
+
+
 _G.pg.base.gametip.purchase_backyard_theme_desc_for_onekey = {
 	tip = "购买后将获得每件家具各1件。"
 }
@@ -37689,7 +37694,7 @@ _G.pg.base.gametip.help_starLightAlbum = {
  ※ 活动进行时，指挥官可在<color=#92fc63>活动页面或回忆界面</color>通过指定入口进入「纪念贴纸」收集页面；
  ※ 活动结束后指挥官将只能通过<color=#92fc63>回忆界面</color>指定入口进入「纪念贴纸」收集页面；
  ※ 「纪念贴纸」可以通过完成对应活动任务获取；
- ※ 奖励领取界面将延长至3月4日24时；]]
+ ※ 奖励领取界面将延长至5月13日24时；]]
 		}
 	}
 }
@@ -48615,4 +48620,34 @@ _G.pg.base.gametip.exchange_code_after_time = {
 
 _G.pg.base.gametip.exchange_code_skin_tip = {
 	tip = "换装"
+}
+
+
+_G.pg.base.gametip.littleMusashi_npc = {
+	tip = {
+		{
+			info = "尚未成熟的守护者说明："
+		},
+		{
+			info = "1.活动期间，玩家可获得临时npc角色「小鳄」，临时角色不可誓约、不可退役、不可被选为强化突破材料。"
+		},
+		{
+			info = "2.活动期间，完成活动任务，可获得临时npc角色「小鳄」的友好度。"
+		},
+		{
+			info = "3.5月6日为止，每日解锁1个可达成的友好度阶段。"
+		},
+		{
+			info = "4.在活动结束前累计获得10000点友好度，可领取奖励并将临时角色「小鳄」转化为永久角色。"
+		},
+		{
+			info = "5.在活动结束后，未完成转化的临时角色「小鳄」将离开港区，不返还已经消耗的强化、突破等培养材料。"
+		},
+		{
+			info = "6.npc角色无法参与大型作战。"
+		},
+		{
+			info = "7.npc角色无法参与大舰队作战中的事件派遣、攻坚队和首领战。"
+		}
+	}
 }

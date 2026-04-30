@@ -1,6 +1,23 @@
 pg = pg or {}
-pg.activity_event_turning = {
-	{
+pg.activity_event_turning = rawget(pg, "activity_event_turning") or setmetatable({
+	__name = "activity_event_turning"
+}, confNEO)
+pg.activity_event_turning.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9
+}
+pg.base = pg.base or {}
+pg.base.activity_event_turning = {}
+
+(function ()
+	pg.base.activity_event_turning[1] = {
 		type = 1,
 		id = 1,
 		total_num = 7,
@@ -67,8 +84,8 @@ pg.activity_event_turning = {
 			},
 			{}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_turning[2] = {
 		type = 2,
 		id = 2,
 		total_num = 7,
@@ -135,8 +152,8 @@ pg.activity_event_turning = {
 				"CANGSHANRENFATIERICHANG7"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_turning[3] = {
 		type = 1,
 		id = 3,
 		total_num = 0,
@@ -190,8 +207,8 @@ pg.activity_event_turning = {
 		},
 		story_list = {},
 		story_task = {}
-	},
-	{
+	}
+	pg.base.activity_event_turning[4] = {
 		type = 1,
 		id = 4,
 		total_num = 0,
@@ -245,8 +262,8 @@ pg.activity_event_turning = {
 		},
 		story_list = {},
 		story_task = {}
-	},
-	{
+	}
+	pg.base.activity_event_turning[5] = {
 		type = 1,
 		id = 5,
 		total_num = 0,
@@ -300,8 +317,8 @@ pg.activity_event_turning = {
 		},
 		story_list = {},
 		story_task = {}
-	},
-	{
+	}
+	pg.base.activity_event_turning[6] = {
 		type = 1,
 		id = 6,
 		total_num = 0,
@@ -355,8 +372,8 @@ pg.activity_event_turning = {
 		},
 		story_list = {},
 		story_task = {}
-	},
-	{
+	}
+	pg.base.activity_event_turning[7] = {
 		type = 1,
 		id = 7,
 		total_num = 0,
@@ -410,8 +427,8 @@ pg.activity_event_turning = {
 		},
 		story_list = {},
 		story_task = {}
-	},
-	{
+	}
+	pg.base.activity_event_turning[8] = {
 		type = 1,
 		id = 8,
 		total_num = 0,
@@ -465,8 +482,8 @@ pg.activity_event_turning = {
 		},
 		story_list = {},
 		story_task = {}
-	},
-	{
+	}
+	pg.base.activity_event_turning[9] = {
 		type = 1,
 		id = 9,
 		total_num = 0,
@@ -520,16 +537,5 @@ pg.activity_event_turning = {
 		},
 		story_list = {},
 		story_task = {}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9
 	}
-}
+end)()

@@ -196,6 +196,7 @@ slot0.register = function(slot0)
 		slot0.player = slot3:getData()
 
 		slot3:setFlag("battle", true)
+		slot3:setFlag("random_skin", true)
 	end
 end
 

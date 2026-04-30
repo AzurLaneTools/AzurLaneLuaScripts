@@ -1,6 +1,23 @@
 pg = pg or {}
-pg.activity_liner_time_group = {
-	{
+pg.activity_liner_time_group = rawget(pg, "activity_liner_time_group") or setmetatable({
+	__name = "activity_liner_time_group"
+}, confNEO)
+pg.activity_liner_time_group.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9
+}
+pg.base = pg.base or {}
+pg.base.activity_liner_time_group = {}
+
+(function ()
+	pg.base.activity_liner_time_group[1] = {
 		id = 1,
 		ids = {
 			1,
@@ -16,8 +33,8 @@ pg.activity_liner_time_group = {
 			2,
 			1000
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time_group[2] = {
 		id = 2,
 		ids = {
 			8,
@@ -33,8 +50,8 @@ pg.activity_liner_time_group = {
 			1,
 			2000
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time_group[3] = {
 		id = 3,
 		ids = {
 			15,
@@ -49,8 +66,8 @@ pg.activity_liner_time_group = {
 			15014,
 			3
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time_group[4] = {
 		id = 4,
 		ids = {
 			21,
@@ -66,8 +83,8 @@ pg.activity_liner_time_group = {
 			16004,
 			2
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time_group[5] = {
 		id = 5,
 		ids = {
 			28
@@ -77,8 +94,8 @@ pg.activity_liner_time_group = {
 			54018,
 			5
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time_group[6] = {
 		id = 6,
 		ids = {
 			29,
@@ -94,8 +111,8 @@ pg.activity_liner_time_group = {
 			15008,
 			300
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time_group[7] = {
 		id = 7,
 		ids = {
 			36,
@@ -111,8 +128,8 @@ pg.activity_liner_time_group = {
 			30357,
 			2
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time_group[8] = {
 		id = 8,
 		ids = {
 			43,
@@ -128,8 +145,8 @@ pg.activity_liner_time_group = {
 			50005,
 			5
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time_group[9] = {
 		id = 9,
 		ids = {
 			50,
@@ -144,16 +161,5 @@ pg.activity_liner_time_group = {
 			278,
 			1
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9
 	}
-}
+end)()

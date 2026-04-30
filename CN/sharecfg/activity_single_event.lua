@@ -1,6 +1,82 @@
 pg = pg or {}
-pg.activity_single_event = {
-	[1001] = {
+pg.activity_single_event = rawget(pg, "activity_single_event") or setmetatable({
+	__name = "activity_single_event"
+}, confNEO)
+pg.activity_single_event.all = {
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008,
+	1009,
+	1010,
+	1011,
+	1012,
+	1013,
+	1014,
+	1015,
+	1016,
+	1017,
+	1018,
+	1019,
+	1020,
+	1021,
+	1022,
+	1023,
+	1024,
+	1025,
+	1026,
+	2001,
+	2002,
+	2003,
+	2004,
+	2005,
+	2006,
+	2007,
+	2008,
+	2009,
+	2010,
+	2011,
+	2012,
+	2013,
+	2014,
+	3001,
+	3002,
+	3003,
+	3004,
+	3005,
+	3006,
+	3007,
+	3008,
+	3009,
+	3010,
+	3011,
+	3012,
+	3013,
+	3014,
+	3015,
+	3016,
+	3017,
+	3018,
+	3019,
+	3020,
+	3021,
+	3022,
+	3023,
+	3024,
+	3025,
+	3026,
+	3027,
+	3028
+}
+pg.base = pg.base or {}
+pg.base.activity_single_event = {}
+
+(function ()
+	pg.base.activity_single_event[1001] = {
 		story_type = 1,
 		name = "EP1-1 从零开始的冒险",
 		pre_event = 0,
@@ -15,8 +91,8 @@ pg.activity_single_event = {
 			493
 		},
 		options = {}
-	},
-	[1002] = {
+	}
+	pg.base.activity_single_event[1002] = {
 		story_type = 2,
 		name = "EP1-2 初始之森的战斗",
 		pre_event = 1001,
@@ -80,8 +156,8 @@ pg.activity_single_event = {
 				"SSS"
 			}
 		}
-	},
-	[1003] = {
+	}
+	pg.base.activity_single_event[1003] = {
 		story_type = 1,
 		name = "EP1-3 别样的新手村",
 		pre_event = 1002,
@@ -96,8 +172,8 @@ pg.activity_single_event = {
 			419
 		},
 		options = {}
-	},
-	[1004] = {
+	}
+	pg.base.activity_single_event[1004] = {
 		story_type = 1,
 		name = "EP1-4 王都与国王",
 		pre_event = 1003,
@@ -161,8 +237,8 @@ pg.activity_single_event = {
 				"SSS"
 			}
 		}
-	},
-	[1005] = {
+	}
+	pg.base.activity_single_event[1005] = {
 		story_type = 1,
 		name = "EP2-1 王都采购",
 		pre_event = 1004,
@@ -177,8 +253,8 @@ pg.activity_single_event = {
 			255
 		},
 		options = {}
-	},
-	[1006] = {
+	}
+	pg.base.activity_single_event[1006] = {
 		story_type = 1,
 		name = "EP2-2 无尽树海的深处",
 		pre_event = 1005,
@@ -193,8 +269,8 @@ pg.activity_single_event = {
 			271
 		},
 		options = {}
-	},
-	[1007] = {
+	}
+	pg.base.activity_single_event[1007] = {
 		story_type = 1,
 		name = "EP2-3 村落的药剂师",
 		pre_event = 1006,
@@ -262,8 +338,8 @@ pg.activity_single_event = {
 				"B"
 			}
 		}
-	},
-	[1008] = {
+	}
+	pg.base.activity_single_event[1008] = {
 		story_type = 2,
 		name = "EP2-4 高塔的魔女",
 		pre_event = 1007,
@@ -335,8 +411,8 @@ pg.activity_single_event = {
 				"C"
 			}
 		}
-	},
-	[1009] = {
+	}
+	pg.base.activity_single_event[1009] = {
 		story_type = 2,
 		name = "EP2-5 传说中的英雄",
 		pre_event = 1008,
@@ -408,8 +484,8 @@ pg.activity_single_event = {
 				"SSS"
 			}
 		}
-	},
-	[1010] = {
+	}
+	pg.base.activity_single_event[1010] = {
 		story_type = 2,
 		name = "EP3-1 来自天上的敌人",
 		pre_event = 1009,
@@ -481,8 +557,8 @@ pg.activity_single_event = {
 				"SSS"
 			}
 		}
-	},
-	[1011] = {
+	}
+	pg.base.activity_single_event[1011] = {
 		story_type = 1,
 		name = "EP3-2 救援弗里德村",
 		pre_event = 1010,
@@ -497,8 +573,8 @@ pg.activity_single_event = {
 			-544
 		},
 		options = {}
-	},
-	[1012] = {
+	}
+	pg.base.activity_single_event[1012] = {
 		story_type = 2,
 		name = "EP3-3 守望长城攻防战",
 		pre_event = 1011,
@@ -570,8 +646,8 @@ pg.activity_single_event = {
 				"SSS"
 			}
 		}
-	},
-	[1013] = {
+	}
+	pg.base.activity_single_event[1013] = {
 		story_type = 1,
 		name = "EP3-4 庆功宴",
 		pre_event = 1012,
@@ -647,8 +723,8 @@ pg.activity_single_event = {
 				"SSS"
 			}
 		}
-	},
-	[1014] = {
+	}
+	pg.base.activity_single_event[1014] = {
 		story_type = 2,
 		name = "EP4-1 枯萎森林的圣女",
 		pre_event = 1013,
@@ -724,8 +800,8 @@ pg.activity_single_event = {
 				"SSS"
 			}
 		}
-	},
-	[1015] = {
+	}
+	pg.base.activity_single_event[1015] = {
 		story_type = 1,
 		name = "EP4-2 猎人的往昔",
 		pre_event = 1014,
@@ -740,8 +816,8 @@ pg.activity_single_event = {
 			201
 		},
 		options = {}
-	},
-	[1016] = {
+	}
+	pg.base.activity_single_event[1016] = {
 		story_type = 2,
 		name = "EP4-3 遗迹的守护者",
 		pre_event = 1015,
@@ -817,8 +893,8 @@ pg.activity_single_event = {
 				"SSS"
 			}
 		}
-	},
-	[1017] = {
+	}
+	pg.base.activity_single_event[1017] = {
 		story_type = 1,
 		name = "EP4-4 尘封的真相",
 		pre_event = 1016,
@@ -894,8 +970,8 @@ pg.activity_single_event = {
 				"SSS"
 			}
 		}
-	},
-	[1018] = {
+	}
+	pg.base.activity_single_event[1018] = {
 		story_type = 1,
 		name = "EP4-5 东方据点之战",
 		pre_event = 1017,
@@ -971,8 +1047,8 @@ pg.activity_single_event = {
 				"SSS"
 			}
 		}
-	},
-	[1019] = {
+	}
+	pg.base.activity_single_event[1019] = {
 		story_type = 1,
 		name = "EP4-6 西方据点之战",
 		pre_event = 1018,
@@ -1048,8 +1124,8 @@ pg.activity_single_event = {
 				"SSS"
 			}
 		}
-	},
-	[1020] = {
+	}
+	pg.base.activity_single_event[1020] = {
 		story_type = 2,
 		name = "EP4-7 中部据点之战",
 		pre_event = 1019,
@@ -1125,8 +1201,8 @@ pg.activity_single_event = {
 				"SSS"
 			}
 		}
-	},
-	[1021] = {
+	}
+	pg.base.activity_single_event[1021] = {
 		story_type = 2,
 		name = "EP5-1 军械库之战",
 		pre_event = 1020,
@@ -1202,8 +1278,8 @@ pg.activity_single_event = {
 				"SSS"
 			}
 		}
-	},
-	[1022] = {
+	}
+	pg.base.activity_single_event[1022] = {
 		story_type = 1,
 		name = "EP5-2 补给站之战",
 		pre_event = 1021,
@@ -1279,8 +1355,8 @@ pg.activity_single_event = {
 				"SSS"
 			}
 		}
-	},
-	[1023] = {
+	}
+	pg.base.activity_single_event[1023] = {
 		story_type = 1,
 		name = "EP5-3 来自王都的天使",
 		pre_event = 1022,
@@ -1295,8 +1371,8 @@ pg.activity_single_event = {
 			-269
 		},
 		options = {}
-	},
-	[1024] = {
+	}
+	pg.base.activity_single_event[1024] = {
 		story_type = 2,
 		name = "EP5-4 巨炎龙讨伐战",
 		pre_event = 1023,
@@ -1372,8 +1448,8 @@ pg.activity_single_event = {
 				"SSS"
 			}
 		}
-	},
-	[1025] = {
+	}
+	pg.base.activity_single_event[1025] = {
 		story_type = 2,
 		name = "EP5-5 最终魔王讨伐战",
 		pre_event = 1024,
@@ -1388,8 +1464,8 @@ pg.activity_single_event = {
 			-380
 		},
 		options = {}
-	},
-	[1026] = {
+	}
+	pg.base.activity_single_event[1026] = {
 		story_type = 1,
 		name = "EP5-6 在那之后的故事",
 		pre_event = 1025,
@@ -1404,8 +1480,8 @@ pg.activity_single_event = {
 			-300
 		},
 		options = {}
-	},
-	[2001] = {
+	}
+	pg.base.activity_single_event[2001] = {
 		story_type = 1,
 		name = "委托-修缮城墙 ",
 		pre_event = 0,
@@ -1420,8 +1496,8 @@ pg.activity_single_event = {
 			-489
 		},
 		options = {}
-	},
-	[2002] = {
+	}
+	pg.base.activity_single_event[2002] = {
 		story_type = 1,
 		name = "委托-探索遗迹",
 		pre_event = 0,
@@ -1436,8 +1512,8 @@ pg.activity_single_event = {
 			497
 		},
 		options = {}
-	},
-	[2003] = {
+	}
+	pg.base.activity_single_event[2003] = {
 		story_type = 1,
 		name = "委托-要塞驻守 ",
 		pre_event = 0,
@@ -1452,8 +1528,8 @@ pg.activity_single_event = {
 			86
 		},
 		options = {}
-	},
-	[2004] = {
+	}
+	pg.base.activity_single_event[2004] = {
 		story_type = 1,
 		name = "委托-潜入魔王补给站 ",
 		pre_event = 0,
@@ -1468,8 +1544,8 @@ pg.activity_single_event = {
 			-413
 		},
 		options = {}
-	},
-	[2005] = {
+	}
+	pg.base.activity_single_event[2005] = {
 		story_type = 1,
 		name = "委托-炎狱山脉调查 ",
 		pre_event = 0,
@@ -1484,8 +1560,8 @@ pg.activity_single_event = {
 			497
 		},
 		options = {}
-	},
-	[2006] = {
+	}
+	pg.base.activity_single_event[2006] = {
 		story_type = 1,
 		name = "委托-帮助特尔玛尔村",
 		pre_event = 0,
@@ -1500,8 +1576,8 @@ pg.activity_single_event = {
 			14
 		},
 		options = {}
-	},
-	[2007] = {
+	}
+	pg.base.activity_single_event[2007] = {
 		story_type = 1,
 		name = "委托-帮助乌尔斯普村",
 		pre_event = 0,
@@ -1516,8 +1592,8 @@ pg.activity_single_event = {
 			417
 		},
 		options = {}
-	},
-	[2008] = {
+	}
+	pg.base.activity_single_event[2008] = {
 		story_type = 1,
 		name = "委托-帮助弗里德村",
 		pre_event = 0,
@@ -1532,8 +1608,8 @@ pg.activity_single_event = {
 			-538
 		},
 		options = {}
-	},
-	[2009] = {
+	}
+	pg.base.activity_single_event[2009] = {
 		story_type = 1,
 		name = "委托-枯萎森林地形侦察",
 		pre_event = 0,
@@ -1548,8 +1624,8 @@ pg.activity_single_event = {
 			-164
 		},
 		options = {}
-	},
-	[2010] = {
+	}
+	pg.base.activity_single_event[2010] = {
 		story_type = 1,
 		name = "委托-炎狱湖钓鱼",
 		pre_event = 0,
@@ -1564,8 +1640,8 @@ pg.activity_single_event = {
 			-389
 		},
 		options = {}
-	},
-	[2011] = {
+	}
+	pg.base.activity_single_event[2011] = {
 		story_type = 1,
 		name = "委托-石料采集",
 		pre_event = 0,
@@ -1580,8 +1656,8 @@ pg.activity_single_event = {
 			-256
 		},
 		options = {}
-	},
-	[2012] = {
+	}
+	pg.base.activity_single_event[2012] = {
 		story_type = 1,
 		name = "委托-潜入魔王军械库",
 		pre_event = 0,
@@ -1596,8 +1672,8 @@ pg.activity_single_event = {
 			-364
 		},
 		options = {}
-	},
-	[2013] = {
+	}
+	pg.base.activity_single_event[2013] = {
 		story_type = 1,
 		name = "委托-无尽树海狩猎",
 		pre_event = 0,
@@ -1612,8 +1688,8 @@ pg.activity_single_event = {
 			-203
 		},
 		options = {}
-	},
-	[2014] = {
+	}
+	pg.base.activity_single_event[2014] = {
 		story_type = 1,
 		name = "委托-悠闲钓鱼 ",
 		pre_event = 0,
@@ -1628,8 +1704,8 @@ pg.activity_single_event = {
 			-361
 		},
 		options = {}
-	},
-	[3001] = {
+	}
+	pg.base.activity_single_event[3001] = {
 		story_type = 1,
 		name = "EP1-1 初见即毕业",
 		pre_event = 0,
@@ -1644,8 +1720,8 @@ pg.activity_single_event = {
 			0
 		},
 		options = {}
-	},
-	[3002] = {
+	}
+	pg.base.activity_single_event[3002] = {
 		story_type = 1,
 		name = "EP1-2 初入奇渊",
 		pre_event = 3001,
@@ -1660,8 +1736,8 @@ pg.activity_single_event = {
 			0
 		},
 		options = {}
-	},
-	[3003] = {
+	}
+	pg.base.activity_single_event[3003] = {
 		story_type = 1,
 		name = "EP1-3 再见还是毕业",
 		pre_event = 3002,
@@ -1676,8 +1752,8 @@ pg.activity_single_event = {
 			0
 		},
 		options = {}
-	},
-	[3004] = {
+	}
+	pg.base.activity_single_event[3004] = {
 		story_type = 1,
 		name = "EP1-4 再度启程",
 		pre_event = 3003,
@@ -1692,8 +1768,8 @@ pg.activity_single_event = {
 			0
 		},
 		options = {}
-	},
-	[3005] = {
+	}
+	pg.base.activity_single_event[3005] = {
 		story_type = 1,
 		name = "EP2-1 冰喉峡谷",
 		pre_event = 3004,
@@ -1708,8 +1784,8 @@ pg.activity_single_event = {
 			0
 		},
 		options = {}
-	},
-	[3006] = {
+	}
+	pg.base.activity_single_event[3006] = {
 		story_type = 1,
 		name = "EP2-2 极光之地",
 		pre_event = 3005,
@@ -1724,8 +1800,8 @@ pg.activity_single_event = {
 			0
 		},
 		options = {}
-	},
-	[3007] = {
+	}
+	pg.base.activity_single_event[3007] = {
 		story_type = 1,
 		name = "EP2-3 陷阱",
 		pre_event = 3006,
@@ -1740,8 +1816,8 @@ pg.activity_single_event = {
 			0
 		},
 		options = {}
-	},
-	[3008] = {
+	}
+	pg.base.activity_single_event[3008] = {
 		story_type = 1,
 		name = "EP2-4 重逢",
 		pre_event = 3007,
@@ -1756,8 +1832,8 @@ pg.activity_single_event = {
 			0
 		},
 		options = {}
-	},
-	[3009] = {
+	}
+	pg.base.activity_single_event[3009] = {
 		story_type = 1,
 		name = "EP2-5 过去的事",
 		pre_event = 3008,
@@ -1772,8 +1848,8 @@ pg.activity_single_event = {
 			0
 		},
 		options = {}
-	},
-	[3010] = {
+	}
+	pg.base.activity_single_event[3010] = {
 		story_type = 1,
 		name = "EP2-6 古老的馈赠",
 		pre_event = 3009,
@@ -1788,8 +1864,8 @@ pg.activity_single_event = {
 			0
 		},
 		options = {}
-	},
-	[3011] = {
+	}
+	pg.base.activity_single_event[3011] = {
 		story_type = 1,
 		name = "EP2-7 寒冬要塞",
 		pre_event = 3010,
@@ -1804,8 +1880,8 @@ pg.activity_single_event = {
 			0
 		},
 		options = {}
-	},
-	[3012] = {
+	}
+	pg.base.activity_single_event[3012] = {
 		story_type = 2,
 		name = "EP3-1 秽沼瘴潭之战",
 		pre_event = 3011,
@@ -1820,8 +1896,8 @@ pg.activity_single_event = {
 			0
 		},
 		options = {}
-	},
-	[3013] = {
+	}
+	pg.base.activity_single_event[3013] = {
 		story_type = 1,
 		name = "EP3-2 异化法师营地",
 		pre_event = 3012,
@@ -1836,8 +1912,8 @@ pg.activity_single_event = {
 			0
 		},
 		options = {}
-	},
-	[3014] = {
+	}
+	pg.base.activity_single_event[3014] = {
 		story_type = 1,
 		name = "EP3-3 结盟仪式",
 		pre_event = 3013,
@@ -1852,8 +1928,8 @@ pg.activity_single_event = {
 			0
 		},
 		options = {}
-	},
-	[3015] = {
+	}
+	pg.base.activity_single_event[3015] = {
 		story_type = 2,
 		name = "EP3-4 和谈生变",
 		pre_event = 3014,
@@ -1868,8 +1944,8 @@ pg.activity_single_event = {
 			0
 		},
 		options = {}
-	},
-	[3016] = {
+	}
+	pg.base.activity_single_event[3016] = {
 		story_type = 1,
 		name = "EP3-5 预言之子",
 		pre_event = 3015,
@@ -1884,8 +1960,8 @@ pg.activity_single_event = {
 			0
 		},
 		options = {}
-	},
-	[3017] = {
+	}
+	pg.base.activity_single_event[3017] = {
 		story_type = 2,
 		name = "EP4-1 遗忘之地",
 		pre_event = 3016,
@@ -1900,8 +1976,8 @@ pg.activity_single_event = {
 			0
 		},
 		options = {}
-	},
-	[3018] = {
+	}
+	pg.base.activity_single_event[3018] = {
 		story_type = 1,
 		name = "EP4-2 不落要塞",
 		pre_event = 3017,
@@ -1916,8 +1992,8 @@ pg.activity_single_event = {
 			0
 		},
 		options = {}
-	},
-	[3019] = {
+	}
+	pg.base.activity_single_event[3019] = {
 		story_type = 2,
 		name = "EP4-3 幻影之境",
 		pre_event = 3018,
@@ -1932,8 +2008,8 @@ pg.activity_single_event = {
 			0
 		},
 		options = {}
-	},
-	[3020] = {
+	}
+	pg.base.activity_single_event[3020] = {
 		story_type = 1,
 		name = "EP4-4 黎明的终战",
 		pre_event = 3019,
@@ -1948,8 +2024,8 @@ pg.activity_single_event = {
 			0
 		},
 		options = {}
-	},
-	[3021] = {
+	}
+	pg.base.activity_single_event[3021] = {
 		story_type = 1,
 		name = "EP4-5 神庙漫步",
 		pre_event = 3020,
@@ -1964,8 +2040,8 @@ pg.activity_single_event = {
 			0
 		},
 		options = {}
-	},
-	[3022] = {
+	}
+	pg.base.activity_single_event[3022] = {
 		story_type = 1,
 		name = "EP4-6 回忆觉醒",
 		pre_event = 3021,
@@ -1980,8 +2056,8 @@ pg.activity_single_event = {
 			0
 		},
 		options = {}
-	},
-	[3023] = {
+	}
+	pg.base.activity_single_event[3023] = {
 		story_type = 1,
 		name = "EP4-7 寂灭魔法塔",
 		pre_event = 3022,
@@ -1996,8 +2072,8 @@ pg.activity_single_event = {
 			0
 		},
 		options = {}
-	},
-	[3024] = {
+	}
+	pg.base.activity_single_event[3024] = {
 		story_type = 1,
 		name = "EP4-8 逝去的时代",
 		pre_event = 3023,
@@ -2012,8 +2088,8 @@ pg.activity_single_event = {
 			0
 		},
 		options = {}
-	},
-	[3025] = {
+	}
+	pg.base.activity_single_event[3025] = {
 		story_type = 1,
 		name = "EP4-9 沉睡之地",
 		pre_event = 3024,
@@ -2028,8 +2104,8 @@ pg.activity_single_event = {
 			0
 		},
 		options = {}
-	},
-	[3026] = {
+	}
+	pg.base.activity_single_event[3026] = {
 		story_type = 1,
 		name = "EP5-1 反攻的第一枪",
 		pre_event = 3025,
@@ -2044,8 +2120,8 @@ pg.activity_single_event = {
 			0
 		},
 		options = {}
-	},
-	[3027] = {
+	}
+	pg.base.activity_single_event[3027] = {
 		story_type = 2,
 		name = "EP5-2 恩泽城之战",
 		pre_event = 3026,
@@ -2060,8 +2136,8 @@ pg.activity_single_event = {
 			0
 		},
 		options = {}
-	},
-	[3028] = {
+	}
+	pg.base.activity_single_event[3028] = {
 		story_type = 1,
 		name = "EP5-3 终结与新生",
 		pre_event = 3027,
@@ -2137,75 +2213,5 @@ pg.activity_single_event = {
 				"SSS"
 			}
 		}
-	},
-	all = {
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1007,
-		1008,
-		1009,
-		1010,
-		1011,
-		1012,
-		1013,
-		1014,
-		1015,
-		1016,
-		1017,
-		1018,
-		1019,
-		1020,
-		1021,
-		1022,
-		1023,
-		1024,
-		1025,
-		1026,
-		2001,
-		2002,
-		2003,
-		2004,
-		2005,
-		2006,
-		2007,
-		2008,
-		2009,
-		2010,
-		2011,
-		2012,
-		2013,
-		2014,
-		3001,
-		3002,
-		3003,
-		3004,
-		3005,
-		3006,
-		3007,
-		3008,
-		3009,
-		3010,
-		3011,
-		3012,
-		3013,
-		3014,
-		3015,
-		3016,
-		3017,
-		3018,
-		3019,
-		3020,
-		3021,
-		3022,
-		3023,
-		3024,
-		3025,
-		3026,
-		3027,
-		3028
 	}
-}
+end)()

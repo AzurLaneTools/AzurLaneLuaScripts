@@ -1,6 +1,27 @@
 pg = pg or {}
-pg.blackfriday_shop_template = {
-	[27] = {
+pg.blackfriday_shop_template = rawget(pg, "blackfriday_shop_template") or setmetatable({
+	__name = "blackfriday_shop_template"
+}, confNEO)
+pg.blackfriday_shop_template.all = {
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	39
+}
+pg.base = pg.base or {}
+pg.base.blackfriday_shop_template = {}
+
+(function ()
+	pg.base.blackfriday_shop_template[27] = {
 		resource_type = 444,
 		resource_category = 1,
 		goods_rarity = 4,
@@ -16,8 +37,8 @@ pg.blackfriday_shop_template = {
 		goods = {
 			609
 		}
-	},
-	[28] = {
+	}
+	pg.base.blackfriday_shop_template[28] = {
 		resource_type = 444,
 		resource_category = 1,
 		goods_rarity = 3,
@@ -33,8 +54,8 @@ pg.blackfriday_shop_template = {
 		goods = {
 			3024
 		}
-	},
-	[29] = {
+	}
+	pg.base.blackfriday_shop_template[29] = {
 		resource_type = 444,
 		resource_category = 1,
 		goods_rarity = 3,
@@ -50,8 +71,8 @@ pg.blackfriday_shop_template = {
 		goods = {
 			3025
 		}
-	},
-	[30] = {
+	}
+	pg.base.blackfriday_shop_template[30] = {
 		resource_type = 444,
 		resource_category = 1,
 		goods_rarity = 3,
@@ -67,8 +88,8 @@ pg.blackfriday_shop_template = {
 		goods = {
 			3026
 		}
-	},
-	[31] = {
+	}
+	pg.base.blackfriday_shop_template[31] = {
 		resource_type = 444,
 		resource_category = 1,
 		goods_rarity = 3,
@@ -84,8 +105,8 @@ pg.blackfriday_shop_template = {
 		goods = {
 			3027
 		}
-	},
-	[32] = {
+	}
+	pg.base.blackfriday_shop_template[32] = {
 		resource_type = 444,
 		resource_category = 1,
 		goods_rarity = 3,
@@ -101,8 +122,8 @@ pg.blackfriday_shop_template = {
 		goods = {
 			3028
 		}
-	},
-	[33] = {
+	}
+	pg.base.blackfriday_shop_template[33] = {
 		resource_type = 444,
 		resource_category = 1,
 		goods_rarity = 3,
@@ -118,8 +139,8 @@ pg.blackfriday_shop_template = {
 		goods = {
 			3029
 		}
-	},
-	[34] = {
+	}
+	pg.base.blackfriday_shop_template[34] = {
 		resource_type = 444,
 		resource_category = 1,
 		goods_rarity = 4,
@@ -135,8 +156,8 @@ pg.blackfriday_shop_template = {
 		goods = {
 			42060
 		}
-	},
-	[35] = {
+	}
+	pg.base.blackfriday_shop_template[35] = {
 		resource_type = 444,
 		resource_category = 1,
 		goods_rarity = 5,
@@ -152,8 +173,8 @@ pg.blackfriday_shop_template = {
 		goods = {
 			42066
 		}
-	},
-	[36] = {
+	}
+	pg.base.blackfriday_shop_template[36] = {
 		resource_type = 444,
 		resource_category = 1,
 		goods_rarity = 3,
@@ -169,8 +190,8 @@ pg.blackfriday_shop_template = {
 		goods = {
 			50006
 		}
-	},
-	[37] = {
+	}
+	pg.base.blackfriday_shop_template[37] = {
 		resource_type = 444,
 		resource_category = 1,
 		goods_rarity = 4,
@@ -186,8 +207,8 @@ pg.blackfriday_shop_template = {
 		goods = {
 			100011
 		}
-	},
-	[38] = {
+	}
+	pg.base.blackfriday_shop_template[38] = {
 		resource_type = 444,
 		resource_category = 1,
 		goods_rarity = 4,
@@ -203,8 +224,8 @@ pg.blackfriday_shop_template = {
 		goods = {
 			20013
 		}
-	},
-	[39] = {
+	}
+	pg.base.blackfriday_shop_template[39] = {
 		resource_type = 444,
 		resource_category = 1,
 		goods_rarity = 5,
@@ -220,20 +241,5 @@ pg.blackfriday_shop_template = {
 		goods = {
 			59010
 		}
-	},
-	all = {
-		27,
-		28,
-		29,
-		30,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		39
 	}
-}
+end)()

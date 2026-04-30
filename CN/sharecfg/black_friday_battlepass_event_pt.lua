@@ -1,6 +1,18 @@
 pg = pg or {}
-pg.black_friday_battlepass_event_pt = {
-	[7301] = {
+pg.black_friday_battlepass_event_pt = rawget(pg, "black_friday_battlepass_event_pt") or setmetatable({
+	__name = "black_friday_battlepass_event_pt"
+}, confNEO)
+pg.black_friday_battlepass_event_pt.all = {
+	7301,
+	7302,
+	7303,
+	7304
+}
+pg.base = pg.base or {}
+pg.base.black_friday_battlepass_event_pt = {}
+
+(function ()
+	pg.base.black_friday_battlepass_event_pt[7301] = {
 		map_name = "1113",
 		type = 1,
 		equip_skin = "",
@@ -63,8 +75,8 @@ pg.black_friday_battlepass_event_pt = {
 		key_point_display = {
 			10
 		}
-	},
-	[7302] = {
+	}
+	pg.base.black_friday_battlepass_event_pt[7302] = {
 		map_name = "1211",
 		type = 1,
 		equip_skin = "",
@@ -127,8 +139,8 @@ pg.black_friday_battlepass_event_pt = {
 		key_point_display = {
 			10
 		}
-	},
-	[7303] = {
+	}
+	pg.base.black_friday_battlepass_event_pt[7303] = {
 		map_name = "226",
 		type = 1,
 		equip_skin = "",
@@ -191,8 +203,8 @@ pg.black_friday_battlepass_event_pt = {
 		key_point_display = {
 			10
 		}
-	},
-	[7304] = {
+	}
+	pg.base.black_friday_battlepass_event_pt[7304] = {
 		map_name = "226",
 		type = 1,
 		equip_skin = "",
@@ -255,11 +267,5 @@ pg.black_friday_battlepass_event_pt = {
 		key_point_display = {
 			10
 		}
-	},
-	all = {
-		7301,
-		7302,
-		7303,
-		7304
 	}
-}
+end)()

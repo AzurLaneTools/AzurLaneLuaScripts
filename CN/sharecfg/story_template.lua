@@ -1,6 +1,40 @@
 pg = pg or {}
-pg.story_template = {
-	[4342] = {
+pg.story_template = rawget(pg, "story_template") or setmetatable({
+	__name = "story_template"
+}, confNEO)
+pg.story_template.all = {
+	4342,
+	4343,
+	4344,
+	4350,
+	4351,
+	4352,
+	4353,
+	4354,
+	4355,
+	4356,
+	4368,
+	4369,
+	4370,
+	4371,
+	4372,
+	4373,
+	4374,
+	6180,
+	6181,
+	6182,
+	6183,
+	6184,
+	6959,
+	6969,
+	6976,
+	6979
+}
+pg.base = pg.base or {}
+pg.base.story_template = {}
+
+(function ()
+	pg.base.story_template[4342] = {
 		name = "E0-1",
 		id = 4342,
 		icon = "story-doujichang",
@@ -9,8 +43,8 @@ pg.story_template = {
 			0.5,
 			0.3
 		}
-	},
-	[4343] = {
+	}
+	pg.base.story_template[4343] = {
 		name = "E0-2",
 		id = 4343,
 		icon = "story-doujichang",
@@ -19,8 +53,8 @@ pg.story_template = {
 			0.5,
 			0.3
 		}
-	},
-	[4344] = {
+	}
+	pg.base.story_template[4344] = {
 		name = "E0-3",
 		id = 4344,
 		icon = "story-doujichang",
@@ -29,8 +63,8 @@ pg.story_template = {
 			0.5,
 			0.3
 		}
-	},
-	[4350] = {
+	}
+	pg.base.story_template[4350] = {
 		name = "E1-1",
 		id = 4350,
 		icon = "story-diluoyi",
@@ -39,8 +73,8 @@ pg.story_template = {
 			0.105,
 			0.14
 		}
-	},
-	[4351] = {
+	}
+	pg.base.story_template[4351] = {
 		name = "E1-2",
 		id = 4351,
 		icon = "story-diluoyi",
@@ -49,8 +83,8 @@ pg.story_template = {
 			0.5,
 			0.136
 		}
-	},
-	[4352] = {
+	}
+	pg.base.story_template[4352] = {
 		name = "E1-3",
 		id = 4352,
 		icon = "story-diluoyi",
@@ -59,8 +93,8 @@ pg.story_template = {
 			0.411,
 			0.355
 		}
-	},
-	[4353] = {
+	}
+	pg.base.story_template[4353] = {
 		name = "E1-4",
 		id = 4353,
 		icon = "story-diluoyi",
@@ -69,8 +103,8 @@ pg.story_template = {
 			0.578,
 			0.296
 		}
-	},
-	[4354] = {
+	}
+	pg.base.story_template[4354] = {
 		name = "E1-5",
 		id = 4354,
 		icon = "story-diluoyi",
@@ -79,8 +113,8 @@ pg.story_template = {
 			0.41,
 			0.276
 		}
-	},
-	[4355] = {
+	}
+	pg.base.story_template[4355] = {
 		name = "E1-6",
 		id = 4355,
 		icon = "story-diluoyi",
@@ -89,8 +123,8 @@ pg.story_template = {
 			0.517,
 			0.412
 		}
-	},
-	[4356] = {
+	}
+	pg.base.story_template[4356] = {
 		name = "E1-7",
 		id = 4356,
 		icon = "story-diluoyi",
@@ -99,8 +133,8 @@ pg.story_template = {
 			0.28,
 			0.391
 		}
-	},
-	[4368] = {
+	}
+	pg.base.story_template[4368] = {
 		name = "E2-1",
 		id = 4368,
 		icon = "story-xinhaota",
@@ -109,8 +143,8 @@ pg.story_template = {
 			0.91,
 			0.114
 		}
-	},
-	[4369] = {
+	}
+	pg.base.story_template[4369] = {
 		name = "E2-2",
 		id = 4369,
 		icon = "story-xinhaota",
@@ -119,8 +153,8 @@ pg.story_template = {
 			0.71,
 			0.33
 		}
-	},
-	[4370] = {
+	}
+	pg.base.story_template[4370] = {
 		name = "E2-3",
 		id = 4370,
 		icon = "story-xinhaota",
@@ -129,8 +163,8 @@ pg.story_template = {
 			0.9,
 			0.341
 		}
-	},
-	[4371] = {
+	}
+	pg.base.story_template[4371] = {
 		name = "E2-4",
 		id = 4371,
 		icon = "story-xinhaota",
@@ -139,8 +173,8 @@ pg.story_template = {
 			0.443,
 			0.152
 		}
-	},
-	[4372] = {
+	}
+	pg.base.story_template[4372] = {
 		name = "E2-5",
 		id = 4372,
 		icon = "story-xinhaota",
@@ -149,8 +183,8 @@ pg.story_template = {
 			0.188,
 			0.176
 		}
-	},
-	[4373] = {
+	}
+	pg.base.story_template[4373] = {
 		name = "E2-6",
 		id = 4373,
 		icon = "story-xinhaota",
@@ -159,8 +193,8 @@ pg.story_template = {
 			0.33,
 			0.358
 		}
-	},
-	[4374] = {
+	}
+	pg.base.story_template[4374] = {
 		name = "E2-7",
 		id = 4374,
 		icon = "story-xinhaota",
@@ -169,8 +203,8 @@ pg.story_template = {
 			0.192,
 			0.447
 		}
-	},
-	[6180] = {
+	}
+	pg.base.story_template[6180] = {
 		name = "E1-1",
 		id = 6180,
 		icon = "story-wurenji",
@@ -179,8 +213,8 @@ pg.story_template = {
 			0.65,
 			0.49
 		}
-	},
-	[6181] = {
+	}
+	pg.base.story_template[6181] = {
 		name = "E1-2",
 		id = 6181,
 		icon = "story-wurenji",
@@ -189,8 +223,8 @@ pg.story_template = {
 			0.56,
 			0.1
 		}
-	},
-	[6182] = {
+	}
+	pg.base.story_template[6182] = {
 		name = "E1-3",
 		id = 6182,
 		icon = "story-wurenji",
@@ -199,8 +233,8 @@ pg.story_template = {
 			0.73,
 			0.25
 		}
-	},
-	[6183] = {
+	}
+	pg.base.story_template[6183] = {
 		name = "E1-4",
 		id = 6183,
 		icon = "story-xinghaizhuangzhi",
@@ -209,8 +243,8 @@ pg.story_template = {
 			0.85,
 			0.4
 		}
-	},
-	[6184] = {
+	}
+	pg.base.story_template[6184] = {
 		name = "E1-5",
 		id = 6184,
 		icon = "story-zhihuimao",
@@ -219,8 +253,8 @@ pg.story_template = {
 			0.2,
 			0.4
 		}
-	},
-	[6959] = {
+	}
+	pg.base.story_template[6959] = {
 		name = "SP",
 		id = 6959,
 		icon = "story-doujichang",
@@ -229,8 +263,8 @@ pg.story_template = {
 			0.5,
 			0.3
 		}
-	},
-	[6969] = {
+	}
+	pg.base.story_template[6969] = {
 		name = "SP",
 		id = 6969,
 		icon = "story-doujichang",
@@ -239,8 +273,8 @@ pg.story_template = {
 			0.5,
 			0.3
 		}
-	},
-	[6976] = {
+	}
+	pg.base.story_template[6976] = {
 		name = "SP",
 		id = 6976,
 		icon = "story-doujichang",
@@ -249,8 +283,8 @@ pg.story_template = {
 			0.5,
 			0.3
 		}
-	},
-	[6979] = {
+	}
+	pg.base.story_template[6979] = {
 		name = "SP",
 		id = 6979,
 		icon = "story-doujichang",
@@ -259,33 +293,5 @@ pg.story_template = {
 			0.5,
 			0.3
 		}
-	},
-	all = {
-		4342,
-		4343,
-		4344,
-		4350,
-		4351,
-		4352,
-		4353,
-		4354,
-		4355,
-		4356,
-		4368,
-		4369,
-		4370,
-		4371,
-		4372,
-		4373,
-		4374,
-		6180,
-		6181,
-		6182,
-		6183,
-		6184,
-		6959,
-		6969,
-		6976,
-		6979
 	}
-}
+end)()

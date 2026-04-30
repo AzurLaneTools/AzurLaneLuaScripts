@@ -1,6 +1,39 @@
 pg = pg or {}
-pg.settings_other_template = {
-	{
+pg.settings_other_template = rawget(pg, "settings_other_template") or setmetatable({
+	__name = "settings_other_template"
+}, confNEO)
+pg.settings_other_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25
+}
+pg.base = pg.base or {}
+pg.base.settings_other_template = {}
+
+(function ()
+	pg.base.settings_other_template[1] = {
 		default = 0,
 		name = "",
 		alignment = 0,
@@ -8,8 +41,8 @@ pg.settings_other_template = {
 		id = 1,
 		title = "显示自定义角色名称",
 		desc = "功能开启后，角色显示自定义名称 "
-	},
-	{
+	}
+	pg.base.settings_other_template[2] = {
 		default = 0,
 		name = "AUTO_BATTLE_LABEL",
 		alignment = 0,
@@ -17,8 +50,8 @@ pg.settings_other_template = {
 		id = 2,
 		title = "自律战斗结束时震动提醒",
 		desc = "功能开启后，自律战斗结束时设备震动提示战斗结束"
-	},
-	{
+	}
+	pg.base.settings_other_template[3] = {
 		default = 1,
 		name = "RARE_SHIP_VIBRATE",
 		alignment = 0,
@@ -26,8 +59,8 @@ pg.settings_other_template = {
 		id = 3,
 		title = "获得角色震动",
 		desc = "功能开启后，获得超稀有及以上稀有度角色时出现设备振动提示 "
-	},
-	{
+	}
+	pg.base.settings_other_template[4] = {
 		default = 1,
 		name = "DISPLAY_SHIP_GET_EFFECT",
 		alignment = 0,
@@ -35,8 +68,8 @@ pg.settings_other_template = {
 		id = 4,
 		title = "重复角色获得提示",
 		desc = "功能关闭后，重复获得已解锁图鉴的普通及稀有角色时不会弹出角色获取界面 "
-	},
-	{
+	}
+	pg.base.settings_other_template[5] = {
 		default = 1,
 		name = "SHOW_TOUCH_EFFECT",
 		alignment = 0,
@@ -44,8 +77,8 @@ pg.settings_other_template = {
 		id = 5,
 		title = "显示触屏特效",
 		desc = "功能开启后，点击游戏界面可显示触屏特效"
-	},
-	{
+	}
+	pg.base.settings_other_template[6] = {
 		default = 0,
 		name = "BG_FIT_MODE",
 		alignment = 0,
@@ -53,8 +86,8 @@ pg.settings_other_template = {
 		id = 6,
 		title = "过场图适应屏幕最小边",
 		desc = "功能开启后，过场图片适应设备最小边框，不显示黑边"
-	},
-	{
+	}
+	pg.base.settings_other_template[7] = {
 		default = 1,
 		name = "BATTLE_HIDE_BG",
 		alignment = 0,
@@ -62,8 +95,8 @@ pg.settings_other_template = {
 		id = 7,
 		title = "战斗默认隐藏局部背景",
 		desc = "功能开启后，战斗中会默认隐藏换装的局部背景"
-	},
-	{
+	}
+	pg.base.settings_other_template[8] = {
 		default = 0,
 		name = "BATTLE_EXPOSE_LINE",
 		alignment = 1,
@@ -87,8 +120,8 @@ pg.settings_other_template = {
 演习中，航母被侦测值不会自动降低
 演习中，增加暴露提示线，敌方角色进入暴露范围内时，所有航母直接脱离【隐蔽】状态
 ]]
-	},
-	{
+	}
+	pg.base.settings_other_template[9] = {
 		default = 0,
 		name = "AUTOFIGHT_BATTERY_SAVEMODE",
 		alignment = 0,
@@ -96,8 +129,8 @@ pg.settings_other_template = {
 		id = 9,
 		title = "自律寻敌暗屏模式",
 		desc = "开启后，会在自律寻敌开始的20秒后调低屏幕亮度，节省能耗"
-	},
-	{
+	}
+	pg.base.settings_other_template[10] = {
 		default = 0,
 		name = "AUTOFIGHT_DOWN_FRAME",
 		alignment = 0,
@@ -105,8 +138,8 @@ pg.settings_other_template = {
 		id = 10,
 		title = "暗屏模式降帧",
 		desc = "开启后，会在自律寻敌暗屏模式中降低游戏帧数，节省能耗"
-	},
-	{
+	}
+	pg.base.settings_other_template[11] = {
 		default = 1,
 		name = "ALLOW_FIREND_VISIT_BACKYARD_FLAG",
 		alignment = 0,
@@ -114,8 +147,8 @@ pg.settings_other_template = {
 		id = 11,
 		title = "允许好友拜访后宅",
 		desc = "功能开启后，允许我的好友来我的后宅拜访"
-	},
-	{
+	}
+	pg.base.settings_other_template[12] = {
 		default = 0,
 		name = "SHOW_FIREND_BACKYARD_SHIP_FLAG",
 		alignment = 0,
@@ -123,8 +156,8 @@ pg.settings_other_template = {
 		id = 12,
 		title = "显示他人拜访痕迹",
 		desc = "功能开启后，好友来拜访我的后宅后，会在我的后宅显示该好友的秘书舰"
-	},
-	{
+	}
+	pg.base.settings_other_template[13] = {
 		default = 0,
 		name = "SHOW_MY_BACKYARD_SHIP_FLAG",
 		alignment = 0,
@@ -132,8 +165,8 @@ pg.settings_other_template = {
 		id = 13,
 		title = "显示我的拜访痕迹",
 		desc = "功能开启后，我拜访好友的后宅后，会在好友的后宅显示我的秘书舰"
-	},
-	{
+	}
+	pg.base.settings_other_template[14] = {
 		default = 0,
 		name = "QUICK_CHANGE_EQUIP",
 		alignment = 0,
@@ -141,8 +174,8 @@ pg.settings_other_template = {
 		id = 14,
 		title = "快速更换二次确认界面",
 		desc = "功能开启后，使用快速更换功能更换角色装备时，将弹出装备详细信息确认界面 "
-	},
-	{
+	}
+	pg.base.settings_other_template[15] = {
 		default = 1,
 		name = "GYRO_ENABLE",
 		alignment = 0,
@@ -150,8 +183,8 @@ pg.settings_other_template = {
 		id = 15,
 		title = "L2D陀螺仪背景控制",
 		desc = "功能开启后，部分L2D换装背景将支持由陀螺仪控制"
-	},
-	{
+	}
+	pg.base.settings_other_template[16] = {
 		default = 1,
 		name = "SHIP_NAME_COLOR",
 		alignment = 0,
@@ -159,8 +192,8 @@ pg.settings_other_template = {
 		id = 16,
 		title = "誓约角色名特殊显示",
 		desc = "功能开启后，在船坞等界面，已誓约的角色名将使用特殊颜色显示"
-	},
-	{
+	}
+	pg.base.settings_other_template[17] = {
 		default = 1,
 		name = "BATTLERESULT_DISPAY_PAINTING",
 		alignment = 0,
@@ -168,8 +201,8 @@ pg.settings_other_template = {
 		id = 17,
 		title = "展示结算角色",
 		desc = "功能开启后，将展示战斗结算立绘过场"
-	},
-	{
+	}
+	pg.base.settings_other_template[18] = {
 		default = 0,
 		name = "LIVE2D_STATUS_SAVE",
 		alignment = 0,
@@ -177,8 +210,8 @@ pg.settings_other_template = {
 		id = 18,
 		title = "秘书舰互动状态固定",
 		desc = "功能开启后，主界面L2D与特殊动态立绘换装的互动状态将固定为主界面待机动作；互动状态固定后，L2D换装的【登录】【回港】动画将不会播放"
-	},
-	{
+	}
+	pg.base.settings_other_template[19] = {
 		default = 1,
 		name = "USAGE_NEW_MAINUI",
 		alignment = 0,
@@ -186,8 +219,8 @@ pg.settings_other_template = {
 		id = 19,
 		title = "使用新版主界面",
 		desc = "功能开启后，显示新版主界面"
-	},
-	{
+	}
+	pg.base.settings_other_template[20] = {
 		default = 1,
 		name = "MAINUI_NEVER_SLEEP",
 		alignment = 0,
@@ -195,8 +228,8 @@ pg.settings_other_template = {
 		id = 20,
 		title = "位于主界面时屏幕常亮",
 		desc = "功能开启后，主界面不会随时间自动锁屏"
-	},
-	{
+	}
+	pg.base.settings_other_template[21] = {
 		default = 0,
 		name = "MAINUI_RESET_L2D",
 		alignment = 0,
@@ -204,8 +237,8 @@ pg.settings_other_template = {
 		id = 21,
 		title = "主界面显示L2D重置按钮",
 		desc = "功能开启后，主界面出现l2d重置按钮"
-	},
-	{
+	}
+	pg.base.settings_other_template[22] = {
 		default = 0,
 		name = "LOCK_NEW_SHIP",
 		alignment = 0,
@@ -213,8 +246,8 @@ pg.settings_other_template = {
 		id = 22,
 		title = "自动锁定新获得角色",
 		desc = "功能开启后，自动锁定新获得角色，不再弹出锁定提示"
-	},
-	{
+	}
+	pg.base.settings_other_template[23] = {
 		default = 1,
 		name = "ISLAND_NOTIFYCATION",
 		alignment = 0,
@@ -222,8 +255,8 @@ pg.settings_other_template = {
 		id = 23,
 		title = "岛屿访客通知",
 		desc = "功能开启后，他人问访问您的岛屿将弹框通知"
-	},
-	{
+	}
+	pg.base.settings_other_template[24] = {
 		default = 0,
 		name = "GRAPHI_API_SWITCH_OPTION",
 		alignment = 0,
@@ -231,8 +264,8 @@ pg.settings_other_template = {
 		id = 24,
 		title = "渲染兼容模式",
 		desc = "功能开启后，可以解决部分机型在默认模式下会出现黑屏的问题"
-	},
-	{
+	}
+	pg.base.settings_other_template[25] = {
 		default = 1,
 		name = "REMOVE_LOW_MOOD",
 		alignment = 0,
@@ -240,32 +273,5 @@ pg.settings_other_template = {
 		id = 25,
 		title = "自动编队时不编入低心情角色",
 		desc = "功能开启后，使用推荐功能自动编队时，不再编入低心情角色"
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25
 	}
-}
+end)()

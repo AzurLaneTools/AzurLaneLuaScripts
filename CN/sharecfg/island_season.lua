@@ -1,6 +1,16 @@
 pg = pg or {}
-pg.island_season = {
-	{
+pg.island_season = rawget(pg, "island_season") or setmetatable({
+	__name = "island_season"
+}, confNEO)
+pg.island_season.all = {
+	1,
+	2
+}
+pg.base = pg.base or {}
+pg.base.island_season = {}
+
+(function ()
+	pg.base.island_season[1] = {
 		id = 1,
 		name = "岛屿开发季I——启动时刻！",
 		name_short = "开发季I",
@@ -445,8 +455,8 @@ pg.island_season = {
 			class_name = "diyisaijileijipt",
 			ui_name = "diyisaijileijipt"
 		}
-	},
-	{
+	}
+	pg.base.island_season[2] = {
 		id = 2,
 		name = "岛屿开发季II——春日闲趣",
 		name_short = "开发季II",
@@ -875,9 +885,5 @@ pg.island_season = {
 			class_name = "diyisaijileijipt",
 			ui_name = "diyisaijileijipt"
 		}
-	},
-	all = {
-		1,
-		2
 	}
-}
+end)()

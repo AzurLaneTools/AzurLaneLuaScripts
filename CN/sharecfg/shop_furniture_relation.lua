@@ -1,42 +1,45 @@
 pg = pg or {}
-pg.shop_furniture_relation = setmetatable({
-	__name = "shop_furniture_relation",
-	get_id_list_by_fur_id = {
-		[200003] = {
-			70626
-		},
-		[200001] = {
-			70633
-		},
-		[200002] = {
-			70629
-		},
-		[200004] = {
-			70671
-		},
-		[200005] = {
-			70700
-		},
-		[200006] = {
-			70715
-		},
-		[200009] = {
-			70921
-		}
+pg.shop_furniture_relation = rawget(pg, "shop_furniture_relation") or setmetatable({
+	__name = "shop_furniture_relation"
+}, confNEO)
+pg.shop_furniture_relation.__namecode__ = true
+pg.shop_furniture_relation.all = {
+	70626,
+	70633,
+	70629,
+	70671,
+	70700,
+	70715,
+	70921
+}
+pg.shop_furniture_relation.get_id_list_by_fur_id = {
+	[200001] = {
+		70633
 	},
-	all = {
-		70626,
-		70633,
-		70629,
-		70671,
-		70700,
-		70715,
+	[200002] = {
+		70629
+	},
+	[200003] = {
+		70626
+	},
+	[200004] = {
+		70671
+	},
+	[200005] = {
+		70700
+	},
+	[200006] = {
+		70715
+	},
+	[200009] = {
 		70921
 	}
-}, confHX)
+}
 pg.base = pg.base or {}
-pg.base.shop_furniture_relation = {
-	[70626] = {
+pg.base.shop_furniture_relation = {}
+
+(function ()
+	pg.base.shop_furniture_relation[70626] = {
 		fur_id = 200003,
 		id = 70626,
 		desc = "鲪——“不情愿”的圣夜祭",
@@ -50,8 +53,8 @@ pg.base.shop_furniture_relation = {
 				-40
 			}
 		}
-	},
-	[70633] = {
+	}
+	pg.base.shop_furniture_relation[70633] = {
 		fur_id = 200001,
 		id = 70633,
 		desc = "奥古斯特·冯·帕塞瓦尔——女仆魔女",
@@ -60,8 +63,8 @@ pg.base.shop_furniture_relation = {
 			1.1
 		},
 		position = {}
-	},
-	[70629] = {
+	}
+	pg.base.shop_furniture_relation[70629] = {
 		fur_id = 200002,
 		id = 70629,
 		desc = "阿达尔伯特亲王——闭店后的特别时光",
@@ -75,8 +78,8 @@ pg.base.shop_furniture_relation = {
 				-24
 			}
 		}
-	},
-	[70671] = {
+	}
+	pg.base.shop_furniture_relation[70671] = {
 		fur_id = 200004,
 		id = 70671,
 		desc = "阿尔汉格尔斯克——择日而航",
@@ -90,8 +93,8 @@ pg.base.shop_furniture_relation = {
 				-41
 			}
 		}
-	},
-	[70700] = {
+	}
+	pg.base.shop_furniture_relation[70700] = {
 		fur_id = 200005,
 		id = 70700,
 		desc = "{namecode:427}——沉醉于夜",
@@ -105,8 +108,8 @@ pg.base.shop_furniture_relation = {
 				-50
 			}
 		}
-	},
-	[70715] = {
+	}
+	pg.base.shop_furniture_relation[70715] = {
 		fur_id = 200006,
 		id = 70715,
 		desc = "{namecode:97}——放学后的甜蜜时光",
@@ -124,8 +127,8 @@ pg.base.shop_furniture_relation = {
 				-20
 			}
 		}
-	},
-	[70921] = {
+	}
+	pg.base.shop_furniture_relation[70921] = {
 		fur_id = 200009,
 		id = 70921,
 		desc = "金鹿号——古堡中的恐怖淑女",
@@ -144,4 +147,4 @@ pg.base.shop_furniture_relation = {
 			}
 		}
 	}
-}
+end)()

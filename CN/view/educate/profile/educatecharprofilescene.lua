@@ -107,7 +107,7 @@ end
 slot0.GetWordList = function(slot0, slot1)
 	slot2 = {}
 
-	for slot6, slot7 in pairs(pg.character_voice_special.all) do
+	for slot6, slot7 in ipairs(pg.character_voice_special.all) do
 		slot8 = slot7
 
 		if string.find(slot7, ShipWordHelper.WORD_TYPE_MAIN) then

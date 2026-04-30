@@ -1,6 +1,18 @@
 pg = pg or {}
-pg.extraenemy_challenge_template = {
-	{
+pg.extraenemy_challenge_template = rawget(pg, "extraenemy_challenge_template") or setmetatable({
+	__name = "extraenemy_challenge_template"
+}, confNEO)
+pg.extraenemy_challenge_template.all = {
+	1,
+	2,
+	3,
+	4
+}
+pg.base = pg.base or {}
+pg.base.extraenemy_challenge_template = {}
+
+(function ()
+	pg.base.extraenemy_challenge_template[1] = {
 		ex_challenge_enemy = 1729005,
 		id = 1,
 		score_pt = {
@@ -231,8 +243,8 @@ pg.extraenemy_challenge_template = {
 			1017,
 			1020
 		}
-	},
-	{
+	}
+	pg.base.extraenemy_challenge_template[2] = {
 		ex_challenge_enemy = 1789005,
 		id = 2,
 		score_pt = {
@@ -464,8 +476,8 @@ pg.extraenemy_challenge_template = {
 			101801,
 			1020
 		}
-	},
-	{
+	}
+	pg.base.extraenemy_challenge_template[3] = {
 		ex_challenge_enemy = 1889005,
 		id = 3,
 		score_pt = {
@@ -696,8 +708,8 @@ pg.extraenemy_challenge_template = {
 			1017,
 			1020
 		}
-	},
-	{
+	}
+	pg.base.extraenemy_challenge_template[4] = {
 		ex_challenge_enemy = 1999905,
 		id = 4,
 		score_pt = {
@@ -928,11 +940,5 @@ pg.extraenemy_challenge_template = {
 			1017,
 			1020
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4
 	}
-}
+end)()
