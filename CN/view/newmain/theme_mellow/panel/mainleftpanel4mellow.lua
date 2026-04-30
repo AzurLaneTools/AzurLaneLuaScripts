@@ -16,4 +16,7 @@ slot0.GetDirection = function(slot0)
 	return Vector2(-1, 0)
 end
 
+slot0.CalcLayout = function(slot0)
+end
+
 return slot0
