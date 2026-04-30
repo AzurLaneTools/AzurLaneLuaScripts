@@ -1,6 +1,24 @@
 pg = pg or {}
-pg.activity_vote = {
-	[40] = {
+pg.activity_vote = rawget(pg, "activity_vote") or setmetatable({
+	__name = "activity_vote"
+}, confNEO)
+pg.activity_vote.all = {
+	40,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	47,
+	48,
+	49
+}
+pg.base = pg.base or {}
+pg.base.activity_vote = {}
+
+(function ()
+	pg.base.activity_vote[40] = {
 		name = "予選",
 		ticket_period = 480,
 		type = 1,
@@ -1114,8 +1132,8 @@ pg.activity_vote = {
 				}
 			}
 		}
-	},
-	[41] = {
+	}
+	pg.base.activity_vote[41] = {
 		name = "グループA",
 		ticket_period = 200,
 		type = 3,
@@ -1363,8 +1381,8 @@ pg.activity_vote = {
 				}
 			}
 		}
-	},
-	[42] = {
+	}
+	pg.base.activity_vote[42] = {
 		name = "グループB",
 		ticket_period = 200,
 		type = 3,
@@ -1612,8 +1630,8 @@ pg.activity_vote = {
 				}
 			}
 		}
-	},
-	[43] = {
+	}
+	pg.base.activity_vote[43] = {
 		name = "グループC",
 		ticket_period = 200,
 		type = 3,
@@ -1861,8 +1879,8 @@ pg.activity_vote = {
 				}
 			}
 		}
-	},
-	[44] = {
+	}
+	pg.base.activity_vote[44] = {
 		name = "グループD",
 		ticket_period = 200,
 		type = 3,
@@ -2110,8 +2128,8 @@ pg.activity_vote = {
 				}
 			}
 		}
-	},
-	[45] = {
+	}
+	pg.base.activity_vote[45] = {
 		name = "決勝復活戦",
 		ticket_period = 160,
 		type = 4,
@@ -2354,8 +2372,8 @@ pg.activity_vote = {
 				}
 			}
 		}
-	},
-	[46] = {
+	}
+	pg.base.activity_vote[46] = {
 		name = "決勝戦",
 		ticket_period = 280,
 		type = 5,
@@ -2617,8 +2635,8 @@ pg.activity_vote = {
 				}
 			}
 		}
-	},
-	[47] = {
+	}
+	pg.base.activity_vote[47] = {
 		name = "特別投票Ⅰ",
 		ticket_period = 0,
 		type = 7,
@@ -2728,8 +2746,8 @@ pg.activity_vote = {
 				}
 			}
 		}
-	},
-	[48] = {
+	}
+	pg.base.activity_vote[48] = {
 		name = "特別投票Ⅱ",
 		ticket_period = 0,
 		type = 7,
@@ -2877,8 +2895,8 @@ pg.activity_vote = {
 				}
 			}
 		}
-	},
-	[49] = {
+	}
+	pg.base.activity_vote[49] = {
 		name = "特別投票Ⅲ",
 		ticket_period = 0,
 		type = 7,
@@ -2988,17 +3006,5 @@ pg.activity_vote = {
 				}
 			}
 		}
-	},
-	all = {
-		40,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46,
-		47,
-		48,
-		49
 	}
-}
+end)()

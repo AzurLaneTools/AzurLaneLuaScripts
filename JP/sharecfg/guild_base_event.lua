@@ -1,211 +1,214 @@
 pg = pg or {}
-pg.guild_base_event = setmetatable({
-	__name = "guild_base_event",
-	all = {
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1007,
-		1008,
-		1009,
-		1010,
-		1011,
-		1012,
-		1013,
-		1014,
-		1015,
-		1101,
-		1102,
-		1103,
-		1104,
-		1105,
-		1106,
-		1107,
-		1108,
-		1109,
-		1110,
-		1111,
-		1112,
-		1113,
-		1114,
-		1201,
-		1202,
-		1203,
-		1204,
-		1205,
-		1206,
-		1207,
-		1208,
-		1209,
-		2001,
-		2002,
-		2003,
-		2004,
-		2005,
-		2006,
-		2007,
-		2008,
-		2009,
-		2010,
-		2011,
-		2012,
-		2013,
-		2014,
-		2015,
-		2016,
-		2017,
-		2018,
-		2019,
-		2020,
-		2021,
-		2101,
-		2102,
-		2103,
-		2104,
-		2105,
-		2106,
-		2107,
-		2108,
-		2109,
-		2110,
-		2111,
-		2112,
-		2113,
-		2114,
-		2115,
-		2116,
-		2201,
-		2202,
-		2203,
-		2204,
-		2205,
-		2206,
-		2207,
-		3001,
-		3002,
-		3003,
-		3004,
-		3005,
-		3006,
-		3007,
-		3008,
-		3009,
-		3010,
-		3011,
-		3012,
-		3013,
-		3014,
-		3015,
-		3016,
-		3017,
-		3018,
-		3019,
-		3020,
-		3021,
-		3022,
-		3023,
-		3024,
-		3101,
-		3102,
-		3103,
-		3104,
-		3105,
-		3106,
-		3107,
-		3108,
-		3109,
-		3110,
-		3111,
-		3112,
-		3113,
-		3114,
-		3115,
-		3201,
-		3202,
-		3203,
-		3204,
-		3205,
-		3206,
-		3207,
-		3208,
-		3209,
-		3210,
-		3211,
-		3212,
-		3213,
-		3214,
-		3215,
-		3216,
-		4001,
-		4002,
-		4003,
-		4004,
-		4005,
-		4006,
-		4007,
-		4008,
-		4009,
-		4010,
-		4011,
-		4012,
-		4013,
-		4014,
-		4015,
-		4018,
-		4019,
-		4020,
-		4021,
-		4022,
-		4023,
-		4024,
-		4025,
-		4026,
-		4027,
-		4028,
-		4101,
-		4102,
-		4103,
-		4104,
-		4105,
-		4106,
-		4107,
-		4108,
-		4109,
-		4110,
-		4111,
-		4112,
-		4113,
-		4114,
-		4115,
-		4116,
-		4117,
-		4118,
-		4120,
-		4121,
-		4122,
-		4123,
-		4201,
-		4202,
-		4203,
-		4204,
-		4205,
-		4206,
-		4207,
-		4208,
-		4209,
-		4210,
-		4211,
-		4212,
-		4213,
-		4214
-	}
-}, confHX)
+pg.guild_base_event = rawget(pg, "guild_base_event") or setmetatable({
+	__name = "guild_base_event"
+}, confNEO)
+pg.guild_base_event.__namecode__ = true
+pg.guild_base_event.all = {
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008,
+	1009,
+	1010,
+	1011,
+	1012,
+	1013,
+	1014,
+	1015,
+	1101,
+	1102,
+	1103,
+	1104,
+	1105,
+	1106,
+	1107,
+	1108,
+	1109,
+	1110,
+	1111,
+	1112,
+	1113,
+	1114,
+	1201,
+	1202,
+	1203,
+	1204,
+	1205,
+	1206,
+	1207,
+	1208,
+	1209,
+	2001,
+	2002,
+	2003,
+	2004,
+	2005,
+	2006,
+	2007,
+	2008,
+	2009,
+	2010,
+	2011,
+	2012,
+	2013,
+	2014,
+	2015,
+	2016,
+	2017,
+	2018,
+	2019,
+	2020,
+	2021,
+	2101,
+	2102,
+	2103,
+	2104,
+	2105,
+	2106,
+	2107,
+	2108,
+	2109,
+	2110,
+	2111,
+	2112,
+	2113,
+	2114,
+	2115,
+	2116,
+	2201,
+	2202,
+	2203,
+	2204,
+	2205,
+	2206,
+	2207,
+	3001,
+	3002,
+	3003,
+	3004,
+	3005,
+	3006,
+	3007,
+	3008,
+	3009,
+	3010,
+	3011,
+	3012,
+	3013,
+	3014,
+	3015,
+	3016,
+	3017,
+	3018,
+	3019,
+	3020,
+	3021,
+	3022,
+	3023,
+	3024,
+	3101,
+	3102,
+	3103,
+	3104,
+	3105,
+	3106,
+	3107,
+	3108,
+	3109,
+	3110,
+	3111,
+	3112,
+	3113,
+	3114,
+	3115,
+	3201,
+	3202,
+	3203,
+	3204,
+	3205,
+	3206,
+	3207,
+	3208,
+	3209,
+	3210,
+	3211,
+	3212,
+	3213,
+	3214,
+	3215,
+	3216,
+	4001,
+	4002,
+	4003,
+	4004,
+	4005,
+	4006,
+	4007,
+	4008,
+	4009,
+	4010,
+	4011,
+	4012,
+	4013,
+	4014,
+	4015,
+	4018,
+	4019,
+	4020,
+	4021,
+	4022,
+	4023,
+	4024,
+	4025,
+	4026,
+	4027,
+	4028,
+	4101,
+	4102,
+	4103,
+	4104,
+	4105,
+	4106,
+	4107,
+	4108,
+	4109,
+	4110,
+	4111,
+	4112,
+	4113,
+	4114,
+	4115,
+	4116,
+	4117,
+	4118,
+	4120,
+	4121,
+	4122,
+	4123,
+	4201,
+	4202,
+	4203,
+	4204,
+	4205,
+	4206,
+	4207,
+	4208,
+	4209,
+	4210,
+	4211,
+	4212,
+	4213,
+	4214
+}
 pg.base = pg.base or {}
-pg.base.guild_base_event = {
-	[1001] = {
+pg.base.guild_base_event = {}
+
+(function ()
+	pg.base.guild_base_event[1001] = {
 		extra_squedron_ratio = 0,
 		name = "北方海域掃討作戦",
 		extra_squadron = "",
@@ -271,8 +274,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[1002] = {
+	}
+	pg.base.guild_base_event[1002] = {
 		extra_squedron_ratio = 0,
 		name = "南方海域掃討作戦",
 		extra_squadron = "",
@@ -338,8 +341,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[1003] = {
+	}
+	pg.base.guild_base_event[1003] = {
 		extra_squedron_ratio = 0,
 		name = "真珠湾航路掃討",
 		extra_squadron = "",
@@ -406,8 +409,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[1004] = {
+	}
+	pg.base.guild_base_event[1004] = {
 		extra_squedron_ratio = 0,
 		name = "ウェーク島航路掃討",
 		extra_squadron = "",
@@ -474,8 +477,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[1005] = {
+	}
+	pg.base.guild_base_event[1005] = {
 		extra_squedron_ratio = 0,
 		name = "真珠湾物資接収護衛",
 		extra_squadron = "",
@@ -537,8 +540,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[1006] = {
+	}
+	pg.base.guild_base_event[1006] = {
 		extra_squedron_ratio = 0,
 		name = "ウェーク島物資輸送護衛",
 		extra_squadron = "",
@@ -600,8 +603,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[1007] = {
+	}
+	pg.base.guild_base_event[1007] = {
 		extra_squedron_ratio = 0,
 		name = "真珠湾航空機材接収護衛",
 		extra_squadron = "",
@@ -667,8 +670,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[1008] = {
+	}
+	pg.base.guild_base_event[1008] = {
 		extra_squedron_ratio = 0,
 		name = "ウェーク島航空機材輸送護衛",
 		extra_squadron = "",
@@ -734,8 +737,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[1009] = {
+	}
+	pg.base.guild_base_event[1009] = {
 		extra_squedron_ratio = 0,
 		name = "ミッドウェイ近海巡回",
 		extra_squadron = "",
@@ -796,8 +799,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[1010] = {
+	}
+	pg.base.guild_base_event[1010] = {
 		extra_squedron_ratio = 0,
 		name = "真珠湾近海巡回",
 		extra_squadron = "",
@@ -858,8 +861,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[1011] = {
+	}
+	pg.base.guild_base_event[1011] = {
 		extra_squedron_ratio = 0,
 		name = "ジョンストン環礁海域巡回",
 		extra_squadron = "",
@@ -920,8 +923,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[1012] = {
+	}
+	pg.base.guild_base_event[1012] = {
 		extra_squedron_ratio = 0,
 		name = "ウェーク島海域巡回",
 		extra_squadron = "",
@@ -982,8 +985,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[1013] = {
+	}
+	pg.base.guild_base_event[1013] = {
 		extra_squedron_ratio = 0,
 		name = "北マリアナ諸島偵察",
 		extra_squadron = "",
@@ -1050,8 +1053,8 @@ pg.base.guild_base_event = {
 			"調査成功，手掛り発見，下記報酬獲得",
 			"調査失敗，下記報酬獲得"
 		}
-	},
-	[1014] = {
+	}
+	pg.base.guild_base_event[1014] = {
 		extra_squedron_ratio = 0,
 		name = "ミッドウェイ島南部海域偵察",
 		extra_squadron = "",
@@ -1117,8 +1120,8 @@ pg.base.guild_base_event = {
 			"調査成功，手掛り発見，下記報酬獲得",
 			"調査失敗，下記報酬獲得"
 		}
-	},
-	[1015] = {
+	}
+	pg.base.guild_base_event[1015] = {
 		extra_squedron_ratio = 0,
 		name = "マーシャル諸島偵察",
 		extra_squadron = "",
@@ -1185,8 +1188,8 @@ pg.base.guild_base_event = {
 			"調査成功，手掛り発見，下記報酬獲得",
 			"調査失敗，下記報酬獲得"
 		}
-	},
-	[1101] = {
+	}
+	pg.base.guild_base_event[1101] = {
 		extra_squedron_ratio = 200,
 		name = "ベーカー島航路掃討",
 		extra_squadron = "Brooklyn-Class",
@@ -1261,8 +1264,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[1102] = {
+	}
+	pg.base.guild_base_event[1102] = {
 		extra_squedron_ratio = 200,
 		name = "ジョンストン環礁航路掃討",
 		extra_squadron = "Northampton-Class",
@@ -1337,8 +1340,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[1103] = {
+	}
+	pg.base.guild_base_event[1103] = {
 		extra_squedron_ratio = 200,
 		name = "グアム島護衛任務",
 		extra_squadron = "Fletcher-Class",
@@ -1412,8 +1415,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[1104] = {
+	}
+	pg.base.guild_base_event[1104] = {
 		extra_squedron_ratio = 200,
 		name = "ベーカー島護衛任務",
 		extra_squadron = "Cleveland-Class",
@@ -1487,8 +1490,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[1105] = {
+	}
+	pg.base.guild_base_event[1105] = {
 		extra_squedron_ratio = 200,
 		name = "ジョンストン環礁護衛任務",
 		extra_squadron = "Benson-Class",
@@ -1561,8 +1564,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[1106] = {
+	}
+	pg.base.guild_base_event[1106] = {
 		extra_squedron_ratio = 200,
 		name = "西部海岸護衛任務",
 		extra_squadron = "Omaha-Class",
@@ -1635,8 +1638,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[1107] = {
+	}
+	pg.base.guild_base_event[1107] = {
 		extra_squedron_ratio = 200,
 		name = "リシアンスキー島海域警戒",
 		extra_squadron = "Sims-Class",
@@ -1709,8 +1712,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[1108] = {
+	}
+	pg.base.guild_base_event[1108] = {
 		extra_squedron_ratio = 200,
 		name = "レーザン島海域警戒",
 		extra_squadron = "Gridley-Class",
@@ -1784,8 +1787,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[1109] = {
+	}
+	pg.base.guild_base_event[1109] = {
 		extra_squedron_ratio = 200,
 		name = "クレ環礁海域警戒",
 		extra_squadron = "Pensacola-Class",
@@ -1859,8 +1862,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[1110] = {
+	}
+	pg.base.guild_base_event[1110] = {
 		extra_squedron_ratio = 200,
 		name = "ネッカー島海域警戒",
 		extra_squadron = "Farragut-Class",
@@ -1934,8 +1937,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[1111] = {
+	}
+	pg.base.guild_base_event[1111] = {
 		extra_squedron_ratio = 200,
 		name = "ニホア島海域警戒",
 		extra_squadron = "Mahan-Class",
@@ -2008,8 +2011,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[1112] = {
+	}
+	pg.base.guild_base_event[1112] = {
 		extra_squedron_ratio = 200,
 		name = "北方海域偵察",
 		extra_squadron = "Fletcher-Class",
@@ -2078,8 +2081,8 @@ pg.base.guild_base_event = {
 			"調査成功，手掛り発見，下記報酬獲得",
 			"調査失敗，下記報酬獲得"
 		}
-	},
-	[1113] = {
+	}
+	pg.base.guild_base_event[1113] = {
 		extra_squedron_ratio = 200,
 		name = "ジョンストン環礁南部海域偵察",
 		extra_squadron = "Benson-Class",
@@ -2148,8 +2151,8 @@ pg.base.guild_base_event = {
 			"調査成功，手掛り発見，下記報酬獲得",
 			"調査失敗，下記報酬獲得"
 		}
-	},
-	[1114] = {
+	}
+	pg.base.guild_base_event[1114] = {
 		extra_squedron_ratio = 200,
 		name = "ベーカー島海域偵察",
 		extra_squadron = "Lexington-Class",
@@ -2223,8 +2226,8 @@ pg.base.guild_base_event = {
 			"調査成功，手掛り発見，下記報酬獲得",
 			"調査失敗，下記報酬獲得"
 		}
-	},
-	[1201] = {
+	}
+	pg.base.guild_base_event[1201] = {
 		extra_squedron_ratio = 0,
 		name = "ミッドウェイ近海夜間警戒",
 		extra_squadron = "",
@@ -2285,8 +2288,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[1202] = {
+	}
+	pg.base.guild_base_event[1202] = {
 		extra_squedron_ratio = 0,
 		name = "真珠湾近海夜間警戒",
 		extra_squadron = "",
@@ -2347,8 +2350,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[1203] = {
+	}
+	pg.base.guild_base_event[1203] = {
 		extra_squedron_ratio = 0,
 		name = "環礁海域夜間警戒",
 		extra_squadron = "",
@@ -2409,8 +2412,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[1204] = {
+	}
+	pg.base.guild_base_event[1204] = {
 		extra_squedron_ratio = 0,
 		name = "ウェーク島海域夜間警戒",
 		extra_squadron = "",
@@ -2471,8 +2474,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[1205] = {
+	}
+	pg.base.guild_base_event[1205] = {
 		extra_squedron_ratio = 0,
 		name = "ミッドウェイ島補給整備",
 		extra_squadron = "",
@@ -2533,8 +2536,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[1206] = {
+	}
+	pg.base.guild_base_event[1206] = {
 		extra_squedron_ratio = 0,
 		name = "真珠湾補給整備",
 		extra_squadron = "",
@@ -2596,8 +2599,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[1207] = {
+	}
+	pg.base.guild_base_event[1207] = {
 		extra_squedron_ratio = 0,
 		name = "真珠湾艤装補修",
 		extra_squadron = "",
@@ -2660,8 +2663,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[1208] = {
+	}
+	pg.base.guild_base_event[1208] = {
 		extra_squedron_ratio = 0,
 		name = "ミッドウェイ島物資整備",
 		extra_squadron = "",
@@ -2722,8 +2725,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[1209] = {
+	}
+	pg.base.guild_base_event[1209] = {
 		extra_squedron_ratio = 0,
 		name = "真珠湾物資整備",
 		extra_squadron = "",
@@ -2785,8 +2788,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[2001] = {
+	}
+	pg.base.guild_base_event[2001] = {
 		extra_squedron_ratio = 0,
 		name = "NA海域南西護衛戦",
 		extra_squadron = "",
@@ -2853,8 +2856,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[2002] = {
+	}
+	pg.base.guild_base_event[2002] = {
 		extra_squedron_ratio = 0,
 		name = "NA海域南東護衛戦",
 		extra_squadron = "",
@@ -2921,8 +2924,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[2003] = {
+	}
+	pg.base.guild_base_event[2003] = {
 		extra_squedron_ratio = 0,
 		name = "NA海域北西護衛戦",
 		extra_squadron = "",
@@ -2989,8 +2992,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[2004] = {
+	}
+	pg.base.guild_base_event[2004] = {
 		extra_squedron_ratio = 0,
 		name = "NA海域北東護衛戦",
 		extra_squadron = "",
@@ -3057,8 +3060,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[2005] = {
+	}
+	pg.base.guild_base_event[2005] = {
 		extra_squedron_ratio = 0,
 		name = "NA海域西部護衛戦",
 		extra_squadron = "",
@@ -3125,8 +3128,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[2006] = {
+	}
+	pg.base.guild_base_event[2006] = {
 		extra_squedron_ratio = 0,
 		name = "NA海域東部護衛戦",
 		extra_squadron = "",
@@ -3193,8 +3196,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[2007] = {
+	}
+	pg.base.guild_base_event[2007] = {
 		extra_squedron_ratio = 0,
 		name = "NA海域北部護衛戦",
 		extra_squadron = "",
@@ -3261,8 +3264,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[2008] = {
+	}
+	pg.base.guild_base_event[2008] = {
 		extra_squedron_ratio = 0,
 		name = "極地航路西部護衛",
 		extra_squadron = "",
@@ -3329,8 +3332,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[2009] = {
+	}
+	pg.base.guild_base_event[2009] = {
 		extra_squedron_ratio = 0,
 		name = "LD－SP航路西部護衛",
 		extra_squadron = "",
@@ -3392,8 +3395,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[2010] = {
+	}
+	pg.base.guild_base_event[2010] = {
 		extra_squedron_ratio = 0,
 		name = "NY－LD航路西部護衛",
 		extra_squadron = "",
@@ -3455,8 +3458,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[2011] = {
+	}
+	pg.base.guild_base_event[2011] = {
 		extra_squedron_ratio = 0,
 		name = "極地航路東部護衛",
 		extra_squadron = "",
@@ -3523,8 +3526,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[2012] = {
+	}
+	pg.base.guild_base_event[2012] = {
 		extra_squedron_ratio = 0,
 		name = "LD－SP航路東部護衛",
 		extra_squadron = "",
@@ -3586,8 +3589,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[2013] = {
+	}
+	pg.base.guild_base_event[2013] = {
 		extra_squedron_ratio = 0,
 		name = "NY－LD航路東部護衛",
 		extra_squadron = "",
@@ -3649,8 +3652,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[2014] = {
+	}
+	pg.base.guild_base_event[2014] = {
 		extra_squedron_ratio = 0,
 		name = "NY近海巡回",
 		extra_squadron = "",
@@ -3711,8 +3714,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[2015] = {
+	}
+	pg.base.guild_base_event[2015] = {
 		extra_squedron_ratio = 0,
 		name = "王家海峡巡回",
 		extra_squadron = "",
@@ -3773,8 +3776,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[2016] = {
+	}
+	pg.base.guild_base_event[2016] = {
 		extra_squedron_ratio = 0,
 		name = "ムルマンスク近海巡回",
 		extra_squadron = "",
@@ -3835,8 +3838,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[2017] = {
+	}
+	pg.base.guild_base_event[2017] = {
 		extra_squedron_ratio = 0,
 		name = "バミューダ海偵察",
 		extra_squadron = "",
@@ -3902,8 +3905,8 @@ pg.base.guild_base_event = {
 			"調査成功，手掛り発見，下記報酬獲得",
 			"調査失敗，下記報酬獲得"
 		}
-	},
-	[2018] = {
+	}
+	pg.base.guild_base_event[2018] = {
 		extra_squedron_ratio = 0,
 		name = "ヤンマイエン島偵察",
 		extra_squadron = "",
@@ -3969,8 +3972,8 @@ pg.base.guild_base_event = {
 			"調査成功，手掛り発見，下記報酬獲得",
 			"調査失敗，下記報酬獲得"
 		}
-	},
-	[2019] = {
+	}
+	pg.base.guild_base_event[2019] = {
 		extra_squedron_ratio = 0,
 		name = "ラブラドル海偵察",
 		extra_squadron = "",
@@ -4032,8 +4035,8 @@ pg.base.guild_base_event = {
 			"調査成功，手掛り発見，下記報酬獲得",
 			"調査失敗，下記報酬獲得"
 		}
-	},
-	[2020] = {
+	}
+	pg.base.guild_base_event[2020] = {
 		extra_squedron_ratio = 0,
 		name = "バレンツ海偵察",
 		extra_squadron = "",
@@ -4095,8 +4098,8 @@ pg.base.guild_base_event = {
 			"調査成功，手掛り発見，下記報酬獲得",
 			"調査失敗，下記報酬獲得"
 		}
-	},
-	[2021] = {
+	}
+	pg.base.guild_base_event[2021] = {
 		extra_squedron_ratio = 0,
 		name = "ノルスカ海偵察",
 		extra_squadron = "",
@@ -4158,8 +4161,8 @@ pg.base.guild_base_event = {
 			"調査成功，手掛り発見，下記報酬獲得",
 			"調査失敗，下記報酬獲得"
 		}
-	},
-	[2101] = {
+	}
+	pg.base.guild_base_event[2101] = {
 		extra_squedron_ratio = 200,
 		name = "ラブラドル護衛戦",
 		extra_squadron = "Leander-Class",
@@ -4234,8 +4237,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[2102] = {
+	}
+	pg.base.guild_base_event[2102] = {
 		extra_squedron_ratio = 200,
 		name = "ノルスカ海護衛戦",
 		extra_squadron = "Nelson-Class",
@@ -4310,8 +4313,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[2103] = {
+	}
+	pg.base.guild_base_event[2103] = {
 		extra_squedron_ratio = 200,
 		name = "バレンツ海護衛戦",
 		extra_squadron = "Northern Union-DD",
@@ -4390,8 +4393,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[2104] = {
+	}
+	pg.base.guild_base_event[2104] = {
 		extra_squedron_ratio = 200,
 		name = "セントローレンス湾護衛戦",
 		extra_squadron = "County-Class",
@@ -4466,8 +4469,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[2105] = {
+	}
+	pg.base.guild_base_event[2105] = {
 		extra_squedron_ratio = 200,
 		name = "極地航路中部護衛",
 		extra_squadron = "Northern Union-DD",
@@ -4541,8 +4544,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[2106] = {
+	}
+	pg.base.guild_base_event[2106] = {
 		extra_squedron_ratio = 200,
 		name = "LD－SP航路中部護衛",
 		extra_squadron = "C-Class",
@@ -4611,8 +4614,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[2107] = {
+	}
+	pg.base.guild_base_event[2107] = {
 		extra_squedron_ratio = 200,
 		name = "NY－LD航路中部護衛",
 		extra_squadron = "B-Class",
@@ -4681,8 +4684,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[2108] = {
+	}
+	pg.base.guild_base_event[2108] = {
 		extra_squedron_ratio = 200,
 		name = "アゾレス諸島警戒",
 		extra_squadron = "J-Class",
@@ -4756,8 +4759,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[2109] = {
+	}
+	pg.base.guild_base_event[2109] = {
 		extra_squedron_ratio = 200,
 		name = "ケルト海警戒",
 		extra_squadron = "F-Class",
@@ -4831,8 +4834,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[2110] = {
+	}
+	pg.base.guild_base_event[2110] = {
 		extra_squedron_ratio = 200,
 		name = "北方海域警戒",
 		extra_squadron = "County-Class",
@@ -4906,8 +4909,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[2111] = {
+	}
+	pg.base.guild_base_event[2111] = {
 		extra_squedron_ratio = 200,
 		name = "白海警戒",
 		extra_squadron = "Town-Class",
@@ -4981,8 +4984,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[2112] = {
+	}
+	pg.base.guild_base_event[2112] = {
 		extra_squedron_ratio = 200,
 		name = "チェシュスカヤ湾警戒",
 		extra_squadron = "Northern Union-CL",
@@ -5060,8 +5063,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[2113] = {
+	}
+	pg.base.guild_base_event[2113] = {
 		extra_squedron_ratio = 200,
 		name = "ペチョラ湾警戒",
 		extra_squadron = "Northern Union-CL",
@@ -5139,8 +5142,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[2114] = {
+	}
+	pg.base.guild_base_event[2114] = {
 		extra_squedron_ratio = 200,
 		name = "グリーンランド海深部偵察",
 		extra_squadron = "Royal Fleet-CVL",
@@ -5215,8 +5218,8 @@ pg.base.guild_base_event = {
 			"調査成功，手掛り発見，下記報酬獲得",
 			"調査失敗，下記報酬獲得"
 		}
-	},
-	[2115] = {
+	}
+	pg.base.guild_base_event[2115] = {
 		extra_squedron_ratio = 200,
 		name = "NA海域深部偵察",
 		extra_squadron = "F-Class",
@@ -5291,8 +5294,8 @@ pg.base.guild_base_event = {
 			"調査成功，手掛り発見，下記報酬獲得",
 			"調査失敗，下記報酬獲得"
 		}
-	},
-	[2116] = {
+	}
+	pg.base.guild_base_event[2116] = {
 		extra_squedron_ratio = 200,
 		name = "バフィン湾偵察",
 		extra_squadron = "Eagle Union-CVL",
@@ -5371,8 +5374,8 @@ pg.base.guild_base_event = {
 			"調査成功，手掛り発見，下記報酬獲得",
 			"調査失敗，下記報酬獲得"
 		}
-	},
-	[2201] = {
+	}
+	pg.base.guild_base_event[2201] = {
 		extra_squedron_ratio = 0,
 		name = "NY近海夜間警戒",
 		extra_squadron = "",
@@ -5433,8 +5436,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[2202] = {
+	}
+	pg.base.guild_base_event[2202] = {
 		extra_squedron_ratio = 0,
 		name = "王家海峡夜間警戒",
 		extra_squadron = "",
@@ -5495,8 +5498,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[2203] = {
+	}
+	pg.base.guild_base_event[2203] = {
 		extra_squedron_ratio = 0,
 		name = "ムルマンスク夜間警戒",
 		extra_squadron = "",
@@ -5557,8 +5560,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[2204] = {
+	}
+	pg.base.guild_base_event[2204] = {
 		extra_squedron_ratio = 0,
 		name = "ベア島偵察",
 		extra_squadron = "",
@@ -5624,8 +5627,8 @@ pg.base.guild_base_event = {
 			"調査成功，手掛り発見，下記報酬獲得",
 			"調査失敗，下記報酬獲得"
 		}
-	},
-	[2205] = {
+	}
+	pg.base.guild_base_event[2205] = {
 		extra_squedron_ratio = 0,
 		name = "ホーペン島偵察",
 		extra_squadron = "",
@@ -5691,8 +5694,8 @@ pg.base.guild_base_event = {
 			"調査成功，手掛り発見，下記報酬獲得",
 			"調査失敗，下記報酬獲得"
 		}
-	},
-	[2206] = {
+	}
+	pg.base.guild_base_event[2206] = {
 		extra_squedron_ratio = 0,
 		name = "セントローレンス湾偵察",
 		extra_squadron = "",
@@ -5754,8 +5757,8 @@ pg.base.guild_base_event = {
 			"調査成功，手掛り発見，下記報酬獲得",
 			"調査失敗，下記報酬獲得"
 		}
-	},
-	[2207] = {
+	}
+	pg.base.guild_base_event[2207] = {
 		extra_squedron_ratio = 0,
 		name = "カンタブリア海偵察",
 		extra_squadron = "",
@@ -5817,8 +5820,8 @@ pg.base.guild_base_event = {
 			"調査成功，手掛り発見，下記報酬獲得",
 			"調査失敗，下記報酬獲得"
 		}
-	},
-	[3001] = {
+	}
+	pg.base.guild_base_event[3001] = {
 		extra_squedron_ratio = 0,
 		name = "ベストフィヨルド海戦",
 		extra_squadron = "",
@@ -5888,8 +5891,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3002] = {
+	}
+	pg.base.guild_base_event[3002] = {
 		extra_squedron_ratio = 0,
 		name = "ヒートラ島遭遇戦",
 		extra_squadron = "",
@@ -5959,8 +5962,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3003] = {
+	}
+	pg.base.guild_base_event[3003] = {
 		extra_squedron_ratio = 0,
 		name = "ボクナフィヨルド海戦",
 		extra_squadron = "",
@@ -6030,8 +6033,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3004] = {
+	}
+	pg.base.guild_base_event[3004] = {
 		extra_squedron_ratio = 0,
 		name = "北海海戦",
 		extra_squadron = "",
@@ -6101,8 +6104,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3005] = {
+	}
+	pg.base.guild_base_event[3005] = {
 		extra_squedron_ratio = 0,
 		name = "ナルビク輸送路破壊",
 		extra_squadron = "",
@@ -6168,8 +6171,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3006] = {
+	}
+	pg.base.guild_base_event[3006] = {
 		extra_squedron_ratio = 0,
 		name = "ナムソース輸送路破壊",
 		extra_squadron = "",
@@ -6235,8 +6238,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3007] = {
+	}
+	pg.base.guild_base_event[3007] = {
 		extra_squedron_ratio = 0,
 		name = "クリスチャンサン輸送路破壊",
 		extra_squadron = "",
@@ -6302,8 +6305,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3008] = {
+	}
+	pg.base.guild_base_event[3008] = {
 		extra_squedron_ratio = 0,
 		name = "スタヴァンゲル輸送路破壊",
 		extra_squadron = "",
@@ -6369,8 +6372,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3009] = {
+	}
+	pg.base.guild_base_event[3009] = {
 		extra_squedron_ratio = 0,
 		name = "ナルビク港制海権確保",
 		extra_squadron = "",
@@ -6440,8 +6443,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3010] = {
+	}
+	pg.base.guild_base_event[3010] = {
 		extra_squedron_ratio = 0,
 		name = "ナムソース港制海権確保",
 		extra_squadron = "",
@@ -6511,8 +6514,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3011] = {
+	}
+	pg.base.guild_base_event[3011] = {
 		extra_squedron_ratio = 0,
 		name = "クリスチャンサン港制海権確保",
 		extra_squadron = "",
@@ -6582,8 +6585,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3012] = {
+	}
+	pg.base.guild_base_event[3012] = {
 		extra_squedron_ratio = 0,
 		name = "スタヴァンゲル港制海権確保",
 		extra_squadron = "",
@@ -6653,8 +6656,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3013] = {
+	}
+	pg.base.guild_base_event[3013] = {
 		extra_squedron_ratio = 0,
 		name = "ナルビク港制空権確保",
 		extra_squadron = "",
@@ -6716,8 +6719,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3014] = {
+	}
+	pg.base.guild_base_event[3014] = {
 		extra_squedron_ratio = 0,
 		name = "ナムソース港制空権確保",
 		extra_squadron = "",
@@ -6779,8 +6782,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3015] = {
+	}
+	pg.base.guild_base_event[3015] = {
 		extra_squedron_ratio = 0,
 		name = "クリスチャンサン港制空権確保",
 		extra_squadron = "",
@@ -6842,8 +6845,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3016] = {
+	}
+	pg.base.guild_base_event[3016] = {
 		extra_squedron_ratio = 0,
 		name = "スタヴァンゲル港制空権確保",
 		extra_squadron = "",
@@ -6905,8 +6908,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3017] = {
+	}
+	pg.base.guild_base_event[3017] = {
 		extra_squedron_ratio = 0,
 		name = "オフォトフィヨルド偵察",
 		extra_squadron = "",
@@ -6977,8 +6980,8 @@ pg.base.guild_base_event = {
 			"調査成功，手掛り発見，下記報酬獲得",
 			"調査失敗，下記報酬獲得"
 		}
-	},
-	[3018] = {
+	}
+	pg.base.guild_base_event[3018] = {
 		extra_squedron_ratio = 0,
 		name = "スカゲラク海峡偵察",
 		extra_squadron = "",
@@ -7049,8 +7052,10 @@ pg.base.guild_base_event = {
 			"調査成功，手掛り発見，下記報酬獲得",
 			"調査失敗，下記報酬獲得"
 		}
-	},
-	[3019] = {
+	}
+end)()
+(function ()
+	pg.base.guild_base_event[3019] = {
 		extra_squedron_ratio = 0,
 		name = "ボクナフィヨルド偵察",
 		extra_squadron = "",
@@ -7121,8 +7126,8 @@ pg.base.guild_base_event = {
 			"調査成功，手掛り発見，下記報酬獲得",
 			"調査失敗，下記報酬獲得"
 		}
-	},
-	[3020] = {
+	}
+	pg.base.guild_base_event[3020] = {
 		extra_squedron_ratio = 0,
 		name = "マストラフィヨルド偵察",
 		extra_squadron = "",
@@ -7193,8 +7198,8 @@ pg.base.guild_base_event = {
 			"調査成功，手掛り発見，下記報酬獲得",
 			"調査失敗，下記報酬獲得"
 		}
-	},
-	[3021] = {
+	}
+	pg.base.guild_base_event[3021] = {
 		extra_squedron_ratio = 0,
 		name = "ブレスト艤装補修",
 		extra_squadron = "",
@@ -7256,8 +7261,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3022] = {
+	}
+	pg.base.guild_base_event[3022] = {
 		extra_squedron_ratio = 0,
 		name = "ヴィルヘルムスハーフェン港艤装補修",
 		extra_squadron = "",
@@ -7319,8 +7324,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3023] = {
+	}
+	pg.base.guild_base_event[3023] = {
 		extra_squedron_ratio = 0,
 		name = "ブレスト物資整備",
 		extra_squadron = "",
@@ -7382,8 +7387,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3024] = {
+	}
+	pg.base.guild_base_event[3024] = {
 		extra_squedron_ratio = 0,
 		name = "ヴィルヘルムスハーフェン港物資整備",
 		extra_squadron = "",
@@ -7445,8 +7450,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3101] = {
+	}
+	pg.base.guild_base_event[3101] = {
 		extra_squedron_ratio = 200,
 		name = "ジブラルタル海域遭遇戦",
 		extra_squadron = "H-Class",
@@ -7524,8 +7529,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3102] = {
+	}
+	pg.base.guild_base_event[3102] = {
 		extra_squedron_ratio = 200,
 		name = "スカゲラク海峡海戦",
 		extra_squadron = "Nelson-Class",
@@ -7603,8 +7608,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3103] = {
+	}
+	pg.base.guild_base_event[3103] = {
 		extra_squedron_ratio = 200,
 		name = "トロンハイム輸送路破壊",
 		extra_squadron = "U-boat",
@@ -7678,8 +7683,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3104] = {
+	}
+	pg.base.guild_base_event[3104] = {
 		extra_squedron_ratio = 200,
 		name = "ベルゲン輸送路破壊",
 		extra_squadron = "U-boat",
@@ -7753,8 +7758,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3105] = {
+	}
+	pg.base.guild_base_event[3105] = {
 		extra_squedron_ratio = 200,
 		name = "オスロ輸送路破壊",
 		extra_squadron = "Admiral Hipper-Class",
@@ -7828,8 +7833,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3106] = {
+	}
+	pg.base.guild_base_event[3106] = {
 		extra_squedron_ratio = 200,
 		name = "トロンハイム港制海権確保",
 		extra_squadron = "Leander-Class",
@@ -7907,8 +7912,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3107] = {
+	}
+	pg.base.guild_base_event[3107] = {
 		extra_squedron_ratio = 200,
 		name = "ベルゲン港制海権確保",
 		extra_squadron = "Konigsberg-Class",
@@ -7986,8 +7991,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3108] = {
+	}
+	pg.base.guild_base_event[3108] = {
 		extra_squedron_ratio = 200,
 		name = "オスロ港制海権確保",
 		extra_squadron = "Admiral Hipper-Class",
@@ -8065,8 +8070,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3109] = {
+	}
+	pg.base.guild_base_event[3109] = {
 		extra_squedron_ratio = 200,
 		name = "トロンハイム港制空権確保",
 		extra_squadron = "Illustrious-Class",
@@ -8136,8 +8141,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3110] = {
+	}
+	pg.base.guild_base_event[3110] = {
 		extra_squedron_ratio = 200,
 		name = "ベルゲン港制空権確保",
 		extra_squadron = "Illustrious-Class",
@@ -8207,8 +8212,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3111] = {
+	}
+	pg.base.guild_base_event[3111] = {
 		extra_squedron_ratio = 200,
 		name = "オスロ港制空権確保",
 		extra_squadron = "Illustrious-Class",
@@ -8278,8 +8283,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3112] = {
+	}
+	pg.base.guild_base_event[3112] = {
 		extra_squedron_ratio = 200,
 		name = "トロンハイムフィヨルド偵察",
 		extra_squadron = "Royal Fleet-CVL",
@@ -8358,8 +8363,8 @@ pg.base.guild_base_event = {
 			"調査成功，手掛り発見，下記報酬獲得",
 			"調査失敗，下記報酬獲得"
 		}
-	},
-	[3113] = {
+	}
+	pg.base.guild_base_event[3113] = {
 		extra_squedron_ratio = 200,
 		name = "フェンズフィヨルド偵察",
 		extra_squadron = "F-Class",
@@ -8438,8 +8443,8 @@ pg.base.guild_base_event = {
 			"調査成功，手掛り発見，下記報酬獲得",
 			"調査失敗，下記報酬獲得"
 		}
-	},
-	[3114] = {
+	}
+	pg.base.guild_base_event[3114] = {
 		extra_squedron_ratio = 200,
 		name = "ビョーナフィヨルド偵察",
 		extra_squadron = "C-Class",
@@ -8518,8 +8523,8 @@ pg.base.guild_base_event = {
 			"調査成功，手掛り発見，下記報酬獲得",
 			"調査失敗，下記報酬獲得"
 		}
-	},
-	[3115] = {
+	}
+	pg.base.guild_base_event[3115] = {
 		extra_squedron_ratio = 200,
 		name = "オスロフィヨルド偵察",
 		extra_squadron = "Royal Fleet-CVL",
@@ -8598,8 +8603,8 @@ pg.base.guild_base_event = {
 			"調査成功，手掛り発見，下記報酬獲得",
 			"調査失敗，下記報酬獲得"
 		}
-	},
-	[3201] = {
+	}
+	pg.base.guild_base_event[3201] = {
 		extra_squedron_ratio = 0,
 		name = "ブレスト輸送護衛",
 		extra_squadron = "",
@@ -8665,8 +8670,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3202] = {
+	}
+	pg.base.guild_base_event[3202] = {
 		extra_squedron_ratio = 0,
 		name = "ヴィルヘルムスハーフェン港輸送護衛",
 		extra_squadron = "",
@@ -8732,8 +8737,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3203] = {
+	}
+	pg.base.guild_base_event[3203] = {
 		extra_squedron_ratio = 0,
 		name = "リバープール輸送護衛",
 		extra_squadron = "",
@@ -8800,8 +8805,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3204] = {
+	}
+	pg.base.guild_base_event[3204] = {
 		extra_squedron_ratio = 0,
 		name = "キール港輸送護衛",
 		extra_squadron = "",
@@ -8868,8 +8873,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3205] = {
+	}
+	pg.base.guild_base_event[3205] = {
 		extra_squedron_ratio = 0,
 		name = "ナルビク輸送封鎖",
 		extra_squadron = "",
@@ -8934,8 +8939,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3206] = {
+	}
+	pg.base.guild_base_event[3206] = {
 		extra_squedron_ratio = 0,
 		name = "ナムソース輸送封鎖",
 		extra_squadron = "",
@@ -9000,8 +9005,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3207] = {
+	}
+	pg.base.guild_base_event[3207] = {
 		extra_squedron_ratio = 0,
 		name = "スタヴァンゲル輸送封鎖",
 		extra_squadron = "",
@@ -9067,8 +9072,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3208] = {
+	}
+	pg.base.guild_base_event[3208] = {
 		extra_squedron_ratio = 0,
 		name = "クリスチャンサン輸送封鎖",
 		extra_squadron = "",
@@ -9134,8 +9139,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3209] = {
+	}
+	pg.base.guild_base_event[3209] = {
 		extra_squedron_ratio = 0,
 		name = "ナルビク港拠点確保",
 		extra_squadron = "",
@@ -9201,8 +9206,8 @@ pg.base.guild_base_event = {
 			"任務成功，手掛り発見，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3210] = {
+	}
+	pg.base.guild_base_event[3210] = {
 		extra_squedron_ratio = 0,
 		name = "ナムソース港拠点確保",
 		extra_squadron = "",
@@ -9268,8 +9273,8 @@ pg.base.guild_base_event = {
 			"任務成功，手掛り発見，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3211] = {
+	}
+	pg.base.guild_base_event[3211] = {
 		extra_squedron_ratio = 0,
 		name = "スタヴァンゲル港拠点確保",
 		extra_squadron = "",
@@ -9331,8 +9336,8 @@ pg.base.guild_base_event = {
 			"任務成功，手掛り発見，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3212] = {
+	}
+	pg.base.guild_base_event[3212] = {
 		extra_squedron_ratio = 0,
 		name = "クリスチャンサン港拠点確保",
 		extra_squadron = "",
@@ -9394,8 +9399,8 @@ pg.base.guild_base_event = {
 			"任務成功，手掛り発見，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3213] = {
+	}
+	pg.base.guild_base_event[3213] = {
 		extra_squedron_ratio = 0,
 		name = "リバープール艤装補修",
 		extra_squadron = "",
@@ -9458,8 +9463,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3214] = {
+	}
+	pg.base.guild_base_event[3214] = {
 		extra_squedron_ratio = 0,
 		name = "キール港艤装補修",
 		extra_squadron = "",
@@ -9522,8 +9527,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3215] = {
+	}
+	pg.base.guild_base_event[3215] = {
 		extra_squedron_ratio = 0,
 		name = "リバープール物資整備",
 		extra_squadron = "",
@@ -9586,8 +9591,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[3216] = {
+	}
+	pg.base.guild_base_event[3216] = {
 		extra_squedron_ratio = 0,
 		name = "キール港物資整備",
 		extra_squadron = "",
@@ -9650,8 +9655,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4001] = {
+	}
+	pg.base.guild_base_event[4001] = {
 		extra_squedron_ratio = 0,
 		name = "北方海域セイレーン掃討",
 		extra_squadron = "",
@@ -9721,8 +9726,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4002] = {
+	}
+	pg.base.guild_base_event[4002] = {
 		extra_squedron_ratio = 0,
 		name = "珊瑚海セイレーン掃討",
 		extra_squadron = "",
@@ -9792,8 +9797,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4003] = {
+	}
+	pg.base.guild_base_event[4003] = {
 		extra_squedron_ratio = 0,
 		name = "ヌクマヌ環礁セイレーン殲滅",
 		extra_squadron = "",
@@ -9863,8 +9868,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4004] = {
+	}
+	pg.base.guild_base_event[4004] = {
 		extra_squedron_ratio = 0,
 		name = "インディスペンサブル海峡拠点確保",
 		extra_squadron = "",
@@ -9930,8 +9935,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4005] = {
+	}
+	pg.base.guild_base_event[4005] = {
 		extra_squedron_ratio = 0,
 		name = "ヴェラ・ガルフ拠点確保",
 		extra_squadron = "",
@@ -9997,8 +10002,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4006] = {
+	}
+	pg.base.guild_base_event[4006] = {
 		extra_squedron_ratio = 0,
 		name = "ブランチ海峡阻止戦",
 		extra_squadron = "",
@@ -10069,8 +10074,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4007] = {
+	}
+	pg.base.guild_base_event[4007] = {
 		extra_squedron_ratio = 0,
 		name = "ブラッケット海峡遭遇戦",
 		extra_squadron = "",
@@ -10141,8 +10146,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4008] = {
+	}
+	pg.base.guild_base_event[4008] = {
 		extra_squedron_ratio = 0,
 		name = "マニング海峡遭遇戦",
 		extra_squadron = "",
@@ -10213,8 +10218,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4009] = {
+	}
+	pg.base.guild_base_event[4009] = {
 		extra_squedron_ratio = 0,
 		name = "北方海域制空権確保",
 		extra_squadron = "",
@@ -10284,8 +10289,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4010] = {
+	}
+	pg.base.guild_base_event[4010] = {
 		extra_squedron_ratio = 0,
 		name = "南方海域制空権確保",
 		extra_squadron = "",
@@ -10355,8 +10360,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4011] = {
+	}
+	pg.base.guild_base_event[4011] = {
 		extra_squedron_ratio = 0,
 		name = "ガダルカナル制空権確保",
 		extra_squadron = "",
@@ -10426,8 +10431,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4012] = {
+	}
+	pg.base.guild_base_event[4012] = {
 		extra_squedron_ratio = 0,
 		name = "北方海域対空護衛",
 		extra_squadron = "",
@@ -10497,8 +10502,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4013] = {
+	}
+	pg.base.guild_base_event[4013] = {
 		extra_squedron_ratio = 0,
 		name = "南方海域対空護衛",
 		extra_squadron = "",
@@ -10568,8 +10573,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4014] = {
+	}
+	pg.base.guild_base_event[4014] = {
 		extra_squedron_ratio = 0,
 		name = "ガダルカナル対空護衛",
 		extra_squadron = "",
@@ -10639,8 +10644,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4015] = {
+	}
+	pg.base.guild_base_event[4015] = {
 		extra_squedron_ratio = 0,
 		name = "ツラギ島航空支援",
 		extra_squadron = "",
@@ -10710,8 +10715,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4018] = {
+	}
+	pg.base.guild_base_event[4018] = {
 		extra_squedron_ratio = 0,
 		name = "ツラギ島作戦支援",
 		extra_squadron = "",
@@ -10777,8 +10782,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4019] = {
+	}
+	pg.base.guild_base_event[4019] = {
 		extra_squedron_ratio = 0,
 		name = "ツラギ島制海権確保",
 		extra_squadron = "",
@@ -10848,8 +10853,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4020] = {
+	}
+	pg.base.guild_base_event[4020] = {
 		extra_squedron_ratio = 0,
 		name = "ツラギ島制空権確保",
 		extra_squadron = "",
@@ -10915,8 +10920,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4021] = {
+	}
+	pg.base.guild_base_event[4021] = {
 		extra_squedron_ratio = 0,
 		name = "サンタクルーズ諸島警戒",
 		extra_squadron = "",
@@ -10986,8 +10991,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4022] = {
+	}
+	pg.base.guild_base_event[4022] = {
 		extra_squedron_ratio = 0,
 		name = "サントペコア飛行場警戒",
 		extra_squadron = "",
@@ -11053,8 +11058,8 @@ pg.base.guild_base_event = {
 			"任務成功，手掛り発見，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4023] = {
+	}
+	pg.base.guild_base_event[4023] = {
 		extra_squedron_ratio = 0,
 		name = "ビラ湾警戒",
 		extra_squadron = "",
@@ -11120,8 +11125,8 @@ pg.base.guild_base_event = {
 			"任務成功，手掛り発見，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4024] = {
+	}
+	pg.base.guild_base_event[4024] = {
 		extra_squedron_ratio = 0,
 		name = "ヌメア港警戒",
 		extra_squadron = "",
@@ -11187,8 +11192,8 @@ pg.base.guild_base_event = {
 			"任務成功，手掛り発見，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4025] = {
+	}
+	pg.base.guild_base_event[4025] = {
 		extra_squedron_ratio = 0,
 		name = "ラバウル港警戒",
 		extra_squadron = "",
@@ -11254,8 +11259,8 @@ pg.base.guild_base_event = {
 			"任務成功，手掛り発見，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4026] = {
+	}
+	pg.base.guild_base_event[4026] = {
 		extra_squedron_ratio = 0,
 		name = "チューク警戒",
 		extra_squadron = "",
@@ -11321,8 +11326,8 @@ pg.base.guild_base_event = {
 			"任務成功，手掛り発見，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4027] = {
+	}
+	pg.base.guild_base_event[4027] = {
 		extra_squedron_ratio = 0,
 		name = "ラモス島水路警戒",
 		extra_squadron = "",
@@ -11393,8 +11398,8 @@ pg.base.guild_base_event = {
 			"調査成功，手掛り発見，下記報酬獲得",
 			"調査失敗，下記報酬獲得"
 		}
-	},
-	[4028] = {
+	}
+	pg.base.guild_base_event[4028] = {
 		extra_squedron_ratio = 0,
 		name = "バルフォー海峡警戒",
 		extra_squadron = "",
@@ -11465,8 +11470,8 @@ pg.base.guild_base_event = {
 			"調査成功，手掛り発見，下記報酬獲得",
 			"調査失敗，下記報酬獲得"
 		}
-	},
-	[4101] = {
+	}
+	pg.base.guild_base_event[4101] = {
 		extra_squedron_ratio = 200,
 		name = "ニュージョージアサウンドセイレーン掃討",
 		extra_squadron = "Gato-Class",
@@ -11544,8 +11549,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4102] = {
+	}
+	pg.base.guild_base_event[4102] = {
 		extra_squedron_ratio = 200,
 		name = "レンネル島南部暗礁セイレーン掃討",
 		extra_squadron = "Brooklyn-Class",
@@ -11623,8 +11628,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4103] = {
+	}
+	pg.base.guild_base_event[4103] = {
 		extra_squedron_ratio = 200,
 		name = "カーテレット諸島セイレーン殲滅",
 		extra_squadron = "Cleveland-Class",
@@ -11702,8 +11707,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4104] = {
+	}
+	pg.base.guild_base_event[4104] = {
 		extra_squedron_ratio = 200,
 		name = "サボ島海戦",
 		extra_squadron = "Northampton-Class",
@@ -11782,8 +11787,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4105] = {
+	}
+	pg.base.guild_base_event[4105] = {
 		extra_squedron_ratio = 200,
 		name = "テナル湾決戦",
 		extra_squadron = "Furutaka-Class",
@@ -11862,8 +11867,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4106] = {
+	}
+	pg.base.guild_base_event[4106] = {
 		extra_squedron_ratio = 200,
 		name = "アイアンボトムサウンド砲撃戦",
 		extra_squadron = "Kongo-Class",
@@ -11938,8 +11943,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4107] = {
+	}
+	pg.base.guild_base_event[4107] = {
 		extra_squedron_ratio = 200,
 		name = "タサファロンガ遭遇戦",
 		extra_squadron = "Kagero-Class",
@@ -12018,8 +12023,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4108] = {
+	}
+	pg.base.guild_base_event[4108] = {
 		extra_squedron_ratio = 200,
 		name = "アイアンボトムサウンド夜戦",
 		extra_squadron = "Special Type",
@@ -12093,8 +12098,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4109] = {
+	}
+	pg.base.guild_base_event[4109] = {
 		extra_squedron_ratio = 200,
 		name = "クラ湾夜戦",
 		extra_squadron = "Special Type",
@@ -12168,8 +12173,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4110] = {
+	}
+	pg.base.guild_base_event[4110] = {
 		extra_squedron_ratio = 200,
 		name = "タサファロンガ夜戦",
 		extra_squadron = "Kongo-Class",
@@ -12247,8 +12252,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4111] = {
+	}
+	pg.base.guild_base_event[4111] = {
 		extra_squedron_ratio = 200,
 		name = "テナル湾制空権確保",
 		extra_squadron = "Eagle Union-CVL",
@@ -12322,8 +12327,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4112] = {
+	}
+	pg.base.guild_base_event[4112] = {
 		extra_squedron_ratio = 200,
 		name = "スチュアート島制空権確保",
 		extra_squadron = "Essex-Class",
@@ -12401,8 +12406,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4113] = {
+	}
+	pg.base.guild_base_event[4113] = {
 		extra_squedron_ratio = 200,
 		name = "インディスペンサブル海峡制空権確保",
 		extra_squadron = "Independence-Class",
@@ -12476,8 +12481,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4114] = {
+	}
+	pg.base.guild_base_event[4114] = {
 		extra_squedron_ratio = 200,
 		name = "サンタクルーズ諸島制空権確保",
 		extra_squadron = "Yorktown-Class",
@@ -12551,8 +12556,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4115] = {
+	}
+	pg.base.guild_base_event[4115] = {
 		extra_squedron_ratio = 200,
 		name = "レンネル島対空護衛",
 		extra_squadron = "Atlanta-Class",
@@ -12630,8 +12635,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4116] = {
+	}
+	pg.base.guild_base_event[4116] = {
 		extra_squedron_ratio = 200,
 		name = "ルンガ岬航空支援",
 		extra_squadron = "5th-airfleet",
@@ -12709,8 +12714,8 @@ pg.base.guild_base_event = {
 			"任務成功，手掛り発見，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4117] = {
+	}
+	pg.base.guild_base_event[4117] = {
 		extra_squedron_ratio = 200,
 		name = "エンプレスオーガスタベイ海戦",
 		extra_squadron = "Essex-Class",
@@ -12788,8 +12793,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4118] = {
+	}
+	pg.base.guild_base_event[4118] = {
 		extra_squedron_ratio = 200,
 		name = "コロンバンガラ海戦海戦",
 		extra_squadron = "Yorktown-Class",
@@ -12863,8 +12868,8 @@ pg.base.guild_base_event = {
 			"作戦成功，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4120] = {
+	}
+	pg.base.guild_base_event[4120] = {
 		extra_squedron_ratio = 200,
 		name = "ルンガ岬作戦支援",
 		extra_squadron = "Astoria-Class",
@@ -12941,8 +12946,8 @@ pg.base.guild_base_event = {
 			"任務成功，手掛り発見，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4121] = {
+	}
+	pg.base.guild_base_event[4121] = {
 		extra_squedron_ratio = 200,
 		name = "ルンガ岬制海権確保",
 		extra_squadron = "Kongo-Class",
@@ -13019,8 +13024,8 @@ pg.base.guild_base_event = {
 			"任務成功，手掛り発見，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4122] = {
+	}
+	pg.base.guild_base_event[4122] = {
 		extra_squedron_ratio = 200,
 		name = "ルンガ岬制空権確保",
 		extra_squadron = "Essex-Class",
@@ -13089,8 +13094,8 @@ pg.base.guild_base_event = {
 			"任務成功，手掛り発見，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4123] = {
+	}
+	pg.base.guild_base_event[4123] = {
 		extra_squedron_ratio = 200,
 		name = "ニュージョージアサウンド警戒",
 		extra_squadron = "Fletcher-Class",
@@ -13169,8 +13174,8 @@ pg.base.guild_base_event = {
 			"調査成功，手掛り発見，下記報酬獲得",
 			"調査失敗，下記報酬獲得"
 		}
-	},
-	[4201] = {
+	}
+	pg.base.guild_base_event[4201] = {
 		extra_squedron_ratio = 0,
 		name = "ウィルソン海峡拠点確保",
 		extra_squadron = "",
@@ -13241,8 +13246,8 @@ pg.base.guild_base_event = {
 			"作戦成功，手掛り発見，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4202] = {
+	}
+	pg.base.guild_base_event[4202] = {
 		extra_squedron_ratio = 0,
 		name = "ハリウナ湾待ち伏せ",
 		extra_squadron = "",
@@ -13312,8 +13317,8 @@ pg.base.guild_base_event = {
 			"作戦成功，手掛り発見，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4203] = {
+	}
+	pg.base.guild_base_event[4203] = {
 		extra_squedron_ratio = 0,
 		name = "ルティ湾待ち伏せ",
 		extra_squadron = "",
@@ -13379,8 +13384,8 @@ pg.base.guild_base_event = {
 			"作戦成功，手掛り発見，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4204] = {
+	}
+	pg.base.guild_base_event[4204] = {
 		extra_squedron_ratio = 0,
 		name = "マロウ湾セイレーン殲滅",
 		extra_squadron = "",
@@ -13445,8 +13450,8 @@ pg.base.guild_base_event = {
 			"作戦成功，手掛り発見，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4205] = {
+	}
+	pg.base.guild_base_event[4205] = {
 		extra_squedron_ratio = 0,
 		name = "ワイラハ湾セイレーン殲滅",
 		extra_squadron = "",
@@ -13515,8 +13520,8 @@ pg.base.guild_base_event = {
 			"作戦成功，手掛り発見，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4206] = {
+	}
+	pg.base.guild_base_event[4206] = {
 		extra_squedron_ratio = 0,
 		name = "スペイネ湾セイレーン殲滅",
 		extra_squadron = "",
@@ -13585,8 +13590,8 @@ pg.base.guild_base_event = {
 			"作戦成功，手掛り発見，下記報酬獲得",
 			"作戦ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4207] = {
+	}
+	pg.base.guild_base_event[4207] = {
 		extra_squedron_ratio = 0,
 		name = "近海制空権確保",
 		extra_squadron = "",
@@ -13651,8 +13656,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4208] = {
+	}
+	pg.base.guild_base_event[4208] = {
 		extra_squedron_ratio = 0,
 		name = "近海制空権確保",
 		extra_squadron = "",
@@ -13717,8 +13722,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4209] = {
+	}
+	pg.base.guild_base_event[4209] = {
 		extra_squedron_ratio = 0,
 		name = "近海対空護衛",
 		extra_squadron = "",
@@ -13783,8 +13788,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4210] = {
+	}
+	pg.base.guild_base_event[4210] = {
 		extra_squedron_ratio = 0,
 		name = "近海対空護衛",
 		extra_squadron = "",
@@ -13849,8 +13854,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4211] = {
+	}
+	pg.base.guild_base_event[4211] = {
 		extra_squedron_ratio = 0,
 		name = "サントペコア飛行場補給輸送",
 		extra_squadron = "",
@@ -13912,8 +13917,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4212] = {
+	}
+	pg.base.guild_base_event[4212] = {
 		extra_squedron_ratio = 0,
 		name = "ラバウル港補給輸送",
 		extra_squadron = "",
@@ -13975,8 +13980,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4213] = {
+	}
+	pg.base.guild_base_event[4213] = {
 		extra_squedron_ratio = 0,
 		name = "ヌメア港補給整備",
 		extra_squadron = "",
@@ -14039,8 +14044,8 @@ pg.base.guild_base_event = {
 			"任務成功，下記報酬獲得",
 			"任務ほぼ成功，下記報酬獲得"
 		}
-	},
-	[4214] = {
+	}
+	pg.base.guild_base_event[4214] = {
 		extra_squedron_ratio = 0,
 		name = "ラバウル港補給整備",
 		extra_squadron = "",
@@ -14104,4 +14109,4 @@ pg.base.guild_base_event = {
 			"任務ほぼ成功，下記報酬獲得"
 		}
 	}
-}
+end)()

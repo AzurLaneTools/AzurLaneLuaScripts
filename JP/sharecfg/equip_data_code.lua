@@ -1,75 +1,81 @@
 pg = pg or {}
-pg.equip_data_code = {
-	WAVE = {
+pg.equip_data_code = rawget(pg, "equip_data_code") or setmetatable({
+	__name = "equip_data_code"
+}, confNEO)
+pg.equip_data_code.all = {
+	"WAVE",
+	"GUID",
+	"ASW",
+	"SCA",
+	"NA",
+	"FP",
+	"AIR",
+	"VOL",
+	"BOMB",
+	"SRG",
+	"LRG",
+	"NORM",
+	"LOCK",
+	"TRP"
+}
+pg.base = pg.base or {}
+pg.base.equip_data_code = {}
+
+(function ()
+	pg.base.equip_data_code.WAVE = {
 		text = "/回",
 		code = "WAVE"
-	},
-	GUID = {
+	}
+	pg.base.equip_data_code.GUID = {
 		text = "誘導",
 		code = "GUID"
-	},
-	ASW = {
+	}
+	pg.base.equip_data_code.ASW = {
 		text = "対潜",
 		code = "ASW"
-	},
-	SCA = {
+	}
+	pg.base.equip_data_code.SCA = {
 		text = "拡散",
 		code = "SCA"
-	},
-	NA = {
+	}
+	pg.base.equip_data_code.NA = {
 		text = "なし",
 		code = "NA"
-	},
-	FP = {
+	}
+	pg.base.equip_data_code.FP = {
 		text = "砲撃",
 		code = "FP"
-	},
-	AIR = {
+	}
+	pg.base.equip_data_code.AIR = {
 		text = "航空",
 		code = "AIR"
-	},
-	VOL = {
+	}
+	pg.base.equip_data_code.VOL = {
 		text = "投射",
 		code = "VOL"
-	},
-	BOMB = {
+	}
+	pg.base.equip_data_code.BOMB = {
 		text = "爆撃",
 		code = "BOMB"
-	},
-	SRG = {
+	}
+	pg.base.equip_data_code.SRG = {
 		text = "近距離",
 		code = "SRG"
-	},
-	LRG = {
+	}
+	pg.base.equip_data_code.LRG = {
 		text = "遠距離",
 		code = "LRG"
-	},
-	NORM = {
+	}
+	pg.base.equip_data_code.NORM = {
 		text = "通常",
 		code = "NORM"
-	},
-	LOCK = {
+	}
+	pg.base.equip_data_code.LOCK = {
 		text = "追尾",
 		code = "LOCK"
-	},
-	TRP = {
+	}
+	pg.base.equip_data_code.TRP = {
 		text = "雷撃",
 		code = "TRP"
-	},
-	all = {
-		"WAVE",
-		"GUID",
-		"ASW",
-		"SCA",
-		"NA",
-		"FP",
-		"AIR",
-		"VOL",
-		"BOMB",
-		"SRG",
-		"LRG",
-		"NORM",
-		"LOCK",
-		"TRP"
 	}
-}
+end)()

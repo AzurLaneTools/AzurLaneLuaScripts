@@ -1,6 +1,52 @@
 pg = pg or {}
-pg.child_shop_template = {
-	{
+pg.child_shop_template = rawget(pg, "child_shop_template") or setmetatable({
+	__name = "child_shop_template"
+}, confNEO)
+pg.child_shop_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	47,
+	51,
+	52,
+	53,
+	54,
+	55,
+	56
+}
+pg.base = pg.base or {}
+pg.base.child_shop_template = {}
+
+(function ()
+	pg.base.child_shop_template[1] = {
 		resource_num = 30,
 		item_id = 1,
 		id = 1,
@@ -18,8 +64,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	{
+	}
+	pg.base.child_shop_template[2] = {
 		resource_num = 15,
 		item_id = 2,
 		id = 2,
@@ -37,8 +83,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	{
+	}
+	pg.base.child_shop_template[3] = {
 		resource_num = 50,
 		item_id = 3,
 		id = 3,
@@ -56,8 +102,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	{
+	}
+	pg.base.child_shop_template[4] = {
 		resource_num = 50,
 		item_id = 4,
 		id = 4,
@@ -75,8 +121,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	{
+	}
+	pg.base.child_shop_template[5] = {
 		resource_num = 50,
 		item_id = 5,
 		id = 5,
@@ -94,8 +140,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	{
+	}
+	pg.base.child_shop_template[6] = {
 		resource_num = 50,
 		item_id = 6,
 		id = 6,
@@ -113,8 +159,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	[11] = {
+	}
+	pg.base.child_shop_template[11] = {
 		resource_num = 50,
 		item_id = 11,
 		id = 11,
@@ -132,8 +178,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	[12] = {
+	}
+	pg.base.child_shop_template[12] = {
 		resource_num = 50,
 		item_id = 12,
 		id = 12,
@@ -151,8 +197,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	[13] = {
+	}
+	pg.base.child_shop_template[13] = {
 		resource_num = 50,
 		item_id = 13,
 		id = 13,
@@ -170,8 +216,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	[14] = {
+	}
+	pg.base.child_shop_template[14] = {
 		resource_num = 50,
 		item_id = 14,
 		id = 14,
@@ -189,8 +235,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	[15] = {
+	}
+	pg.base.child_shop_template[15] = {
 		resource_num = 80,
 		item_id = 15,
 		id = 15,
@@ -208,8 +254,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	[16] = {
+	}
+	pg.base.child_shop_template[16] = {
 		resource_num = 80,
 		item_id = 16,
 		id = 16,
@@ -227,8 +273,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	[17] = {
+	}
+	pg.base.child_shop_template[17] = {
 		resource_num = 80,
 		item_id = 17,
 		id = 17,
@@ -246,8 +292,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	[21] = {
+	}
+	pg.base.child_shop_template[21] = {
 		resource_num = 20,
 		item_id = 21,
 		id = 21,
@@ -265,8 +311,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	[22] = {
+	}
+	pg.base.child_shop_template[22] = {
 		resource_num = 20,
 		item_id = 22,
 		id = 22,
@@ -284,8 +330,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	[23] = {
+	}
+	pg.base.child_shop_template[23] = {
 		resource_num = 40,
 		item_id = 23,
 		id = 23,
@@ -303,8 +349,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	[24] = {
+	}
+	pg.base.child_shop_template[24] = {
 		resource_num = 40,
 		item_id = 24,
 		id = 24,
@@ -322,8 +368,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	[25] = {
+	}
+	pg.base.child_shop_template[25] = {
 		resource_num = 150,
 		item_id = 25,
 		id = 25,
@@ -341,8 +387,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	[26] = {
+	}
+	pg.base.child_shop_template[26] = {
 		resource_num = 150,
 		item_id = 26,
 		id = 26,
@@ -360,8 +406,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	[31] = {
+	}
+	pg.base.child_shop_template[31] = {
 		resource_num = 20,
 		item_id = 31,
 		id = 31,
@@ -379,8 +425,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	[32] = {
+	}
+	pg.base.child_shop_template[32] = {
 		resource_num = 20,
 		item_id = 32,
 		id = 32,
@@ -398,8 +444,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	[33] = {
+	}
+	pg.base.child_shop_template[33] = {
 		resource_num = 20,
 		item_id = 33,
 		id = 33,
@@ -417,8 +463,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	[34] = {
+	}
+	pg.base.child_shop_template[34] = {
 		resource_num = 40,
 		item_id = 34,
 		id = 34,
@@ -436,8 +482,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	[35] = {
+	}
+	pg.base.child_shop_template[35] = {
 		resource_num = 40,
 		item_id = 35,
 		id = 35,
@@ -455,8 +501,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	[36] = {
+	}
+	pg.base.child_shop_template[36] = {
 		resource_num = 40,
 		item_id = 36,
 		id = 36,
@@ -474,8 +520,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	[41] = {
+	}
+	pg.base.child_shop_template[41] = {
 		resource_num = 90,
 		item_id = 41,
 		id = 41,
@@ -493,8 +539,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	[42] = {
+	}
+	pg.base.child_shop_template[42] = {
 		resource_num = 90,
 		item_id = 42,
 		id = 42,
@@ -512,8 +558,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	[43] = {
+	}
+	pg.base.child_shop_template[43] = {
 		resource_num = 120,
 		item_id = 43,
 		id = 43,
@@ -531,8 +577,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	[44] = {
+	}
+	pg.base.child_shop_template[44] = {
 		resource_num = 150,
 		item_id = 44,
 		id = 44,
@@ -550,8 +596,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	[45] = {
+	}
+	pg.base.child_shop_template[45] = {
 		resource_num = 150,
 		item_id = 45,
 		id = 45,
@@ -569,8 +615,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	[46] = {
+	}
+	pg.base.child_shop_template[46] = {
 		resource_num = 150,
 		item_id = 46,
 		id = 46,
@@ -588,8 +634,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	[47] = {
+	}
+	pg.base.child_shop_template[47] = {
 		resource_num = 150,
 		item_id = 47,
 		id = 47,
@@ -607,8 +653,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	[51] = {
+	}
+	pg.base.child_shop_template[51] = {
 		resource_num = 60,
 		item_id = 51,
 		id = 51,
@@ -626,8 +672,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	[52] = {
+	}
+	pg.base.child_shop_template[52] = {
 		resource_num = 150,
 		item_id = 52,
 		id = 52,
@@ -645,8 +691,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	[53] = {
+	}
+	pg.base.child_shop_template[53] = {
 		resource_num = 60,
 		item_id = 53,
 		id = 53,
@@ -664,8 +710,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	[54] = {
+	}
+	pg.base.child_shop_template[54] = {
 		resource_num = 150,
 		item_id = 54,
 		id = 54,
@@ -683,8 +729,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	[55] = {
+	}
+	pg.base.child_shop_template[55] = {
 		resource_num = 90,
 		item_id = 55,
 		id = 55,
@@ -702,8 +748,8 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	[56] = {
+	}
+	pg.base.child_shop_template[56] = {
 		resource_num = 90,
 		item_id = 56,
 		id = 56,
@@ -721,45 +767,5 @@ pg.child_shop_template = {
 				7
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46,
-		47,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56
 	}
-}
+end)()

@@ -1,6 +1,36 @@
 pg = pg or {}
-pg.world_joint_boss_template = {
-	{
+pg.world_joint_boss_template = rawget(pg, "world_joint_boss_template") or setmetatable({
+	__name = "world_joint_boss_template"
+}, confNEO)
+pg.world_joint_boss_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22
+}
+pg.base = pg.base or {}
+pg.base.world_joint_boss_template = {}
+
+(function ()
+	pg.base.world_joint_boss_template[1] = {
 		name = "飛龍(META)",
 		boss_level_id = 1,
 		state = "always",
@@ -28,8 +58,8 @@ pg.world_joint_boss_template = {
 			411,
 			777
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[2] = {
 		name = "アーク・ロイヤル(META)",
 		boss_level_id = 16,
 		state = "always",
@@ -57,8 +87,8 @@ pg.world_joint_boss_template = {
 			411,
 			574
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[3] = {
 		name = "ヘレナ(META)",
 		boss_level_id = 31,
 		state = "always",
@@ -90,8 +120,8 @@ pg.world_joint_boss_template = {
 			0.95,
 			0.95
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[4] = {
 		name = "蒼龍(META)",
 		boss_level_id = 46,
 		state = "always",
@@ -123,8 +153,8 @@ pg.world_joint_boss_template = {
 			0.95,
 			0.95
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[5] = {
 		name = "グナイゼナウ(META)",
 		boss_level_id = 61,
 		state = "always",
@@ -152,8 +182,8 @@ pg.world_joint_boss_template = {
 			480,
 			635
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[6] = {
 		name = "シャルンホルスト(META)",
 		boss_level_id = 76,
 		state = "always",
@@ -181,8 +211,8 @@ pg.world_joint_boss_template = {
 			480,
 			635
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[7] = {
 		name = "レパルス(META)",
 		boss_level_id = 91,
 		state = "always",
@@ -219,8 +249,8 @@ pg.world_joint_boss_template = {
 			0.95,
 			0.95
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[8] = {
 		name = "レナウン(META)",
 		boss_level_id = 106,
 		state = "always",
@@ -262,8 +292,8 @@ pg.world_joint_boss_template = {
 			0.9,
 			0.9
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[9] = {
 		name = "アリゾナ(META)",
 		boss_level_id = 121,
 		state = "always",
@@ -295,8 +325,8 @@ pg.world_joint_boss_template = {
 			0.9,
 			0.9
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[10] = {
 		name = "クイーン・エリザベス(META)",
 		boss_level_id = 136,
 		state = "always",
@@ -328,8 +358,8 @@ pg.world_joint_boss_template = {
 			0.9,
 			0.9
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[11] = {
 		name = "アルジェリー(META)",
 		boss_level_id = 151,
 		state = "always",
@@ -361,8 +391,8 @@ pg.world_joint_boss_template = {
 			0.9,
 			0.9
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[12] = {
 		name = "神通(META)",
 		boss_level_id = 166,
 		state = "always",
@@ -399,8 +429,8 @@ pg.world_joint_boss_template = {
 			0.8,
 			0.8
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[13] = {
 		name = "キーロフ(META)",
 		boss_level_id = 181,
 		state = "always",
@@ -432,8 +462,8 @@ pg.world_joint_boss_template = {
 			0.8,
 			0.8
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[14] = {
 		name = "ロドニー(META)",
 		boss_level_id = 196,
 		state = "always",
@@ -470,8 +500,8 @@ pg.world_joint_boss_template = {
 			1,
 			1
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[15] = {
 		name = "ウィチタ(META)",
 		boss_level_id = 211,
 		state = "always",
@@ -508,8 +538,8 @@ pg.world_joint_boss_template = {
 			1,
 			1
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[16] = {
 		name = "長門(META)",
 		boss_level_id = 226,
 		state = "always",
@@ -541,8 +571,8 @@ pg.world_joint_boss_template = {
 			1,
 			1
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[17] = {
 		name = "大鳳(META)",
 		boss_level_id = 241,
 		state = "stop",
@@ -574,8 +604,8 @@ pg.world_joint_boss_template = {
 			1,
 			1
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[18] = {
 		name = "ホーネット(META)",
 		boss_level_id = 256,
 		state = "stop",
@@ -607,8 +637,8 @@ pg.world_joint_boss_template = {
 			0.9,
 			0.9
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[19] = {
 		name = "江風(META)",
 		boss_level_id = 271,
 		state = "stop",
@@ -640,8 +670,8 @@ pg.world_joint_boss_template = {
 			0.68,
 			0.68
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[20] = {
 		name = "夕立(META)",
 		boss_level_id = 286,
 		state = "stop",
@@ -673,8 +703,8 @@ pg.world_joint_boss_template = {
 			0.68,
 			0.68
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[21] = {
 		name = "ヨークタウン(META)",
 		boss_level_id = 301,
 		state = "stop",
@@ -711,8 +741,8 @@ pg.world_joint_boss_template = {
 			0.65,
 			0.65
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[22] = {
 		name = "レーゲンスブルク(META)",
 		boss_level_id = 316,
 		item_id = 100000,
@@ -769,29 +799,5 @@ pg.world_joint_boss_template = {
 			0.65,
 			0.65
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22
 	}
-}
+end)()

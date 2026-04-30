@@ -1,6 +1,44 @@
 pg = pg or {}
-pg.child2_site_normal = {
+pg.child2_site_normal = rawget(pg, "child2_site_normal") or setmetatable({
+	__name = "child2_site_normal"
+}, confNEO)
+pg.child2_site_normal.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12
+}
+pg.child2_site_normal.get_id_list_by_character = {
 	{
+		1,
+		2,
+		3,
+		4,
+		5,
+		6
+	},
+	{
+		7,
+		8,
+		9,
+		10,
+		11,
+		12
+	}
+}
+pg.base = pg.base or {}
+pg.base.child2_site_normal = {}
+
+(function ()
+	pg.base.child2_site_normal[1] = {
 		site_lv = 1,
 		type = 1,
 		title = "生活体験Lv1（財貨80入手）",
@@ -30,8 +68,8 @@ pg.child2_site_normal = {
 			"oceana_ditudagong_2",
 			"oceana_ditudagong_3"
 		}
-	},
-	{
+	}
+	pg.base.child2_site_normal[2] = {
 		site_lv = 2,
 		type = 1,
 		title = "生活体験Lv2（財貨120入手）",
@@ -61,8 +99,8 @@ pg.child2_site_normal = {
 			"oceana_ditudagong_2",
 			"oceana_ditudagong_3"
 		}
-	},
-	{
+	}
+	pg.base.child2_site_normal[3] = {
 		site_lv = 3,
 		type = 1,
 		title = "生活体験Lv3（財貨200入手）",
@@ -87,8 +125,8 @@ pg.child2_site_normal = {
 			"oceana_ditudagong_2",
 			"oceana_ditudagong_3"
 		}
-	},
-	{
+	}
+	pg.base.child2_site_normal[4] = {
 		site_lv = 1,
 		type = 2,
 		title = "観光旅行Lv1（気分6入手）",
@@ -118,8 +156,8 @@ pg.child2_site_normal = {
 			"oceana_lvyou_2",
 			"oceana_lvyou_3"
 		}
-	},
-	{
+	}
+	pg.base.child2_site_normal[5] = {
 		site_lv = 2,
 		type = 2,
 		title = "観光旅行Lv2（気分10入手）",
@@ -149,8 +187,8 @@ pg.child2_site_normal = {
 			"oceana_lvyou_2",
 			"oceana_lvyou_3"
 		}
-	},
-	{
+	}
+	pg.base.child2_site_normal[6] = {
 		site_lv = 3,
 		type = 2,
 		title = "観光旅行Lv3（気分18入手）",
@@ -175,8 +213,8 @@ pg.child2_site_normal = {
 			"oceana_lvyou_2",
 			"oceana_lvyou_3"
 		}
-	},
-	{
+	}
+	pg.base.child2_site_normal[7] = {
 		site_lv = 1,
 		type = 1,
 		title = "生活体験Lv1（財貨80入手）",
@@ -206,8 +244,8 @@ pg.child2_site_normal = {
 			"explorer_ditudagong_2",
 			"explorer_ditudagong_3"
 		}
-	},
-	{
+	}
+	pg.base.child2_site_normal[8] = {
 		site_lv = 2,
 		type = 1,
 		title = "生活体験Lv2（財貨120入手）",
@@ -237,8 +275,8 @@ pg.child2_site_normal = {
 			"explorer_ditudagong_2",
 			"explorer_ditudagong_3"
 		}
-	},
-	{
+	}
+	pg.base.child2_site_normal[9] = {
 		site_lv = 3,
 		type = 1,
 		title = "生活体験Lv3（財貨200入手）",
@@ -263,8 +301,8 @@ pg.child2_site_normal = {
 			"explorer_ditudagong_2",
 			"explorer_ditudagong_3"
 		}
-	},
-	{
+	}
+	pg.base.child2_site_normal[10] = {
 		site_lv = 1,
 		type = 2,
 		title = "観光旅行Lv1（気分6入手）",
@@ -294,8 +332,8 @@ pg.child2_site_normal = {
 			"explorer_ditulvyou_2",
 			"explorer_ditulvyou_3"
 		}
-	},
-	{
+	}
+	pg.base.child2_site_normal[11] = {
 		site_lv = 2,
 		type = 2,
 		title = "観光旅行Lv2（気分10入手）",
@@ -325,8 +363,8 @@ pg.child2_site_normal = {
 			"explorer_ditulvyou_2",
 			"explorer_ditulvyou_3"
 		}
-	},
-	{
+	}
+	pg.base.child2_site_normal[12] = {
 		site_lv = 3,
 		type = 2,
 		title = "観光旅行Lv3（気分18入手）",
@@ -351,37 +389,5 @@ pg.child2_site_normal = {
 			"explorer_ditulvyou_2",
 			"explorer_ditulvyou_3"
 		}
-	},
-	get_id_list_by_character = {
-		{
-			1,
-			2,
-			3,
-			4,
-			5,
-			6
-		},
-		{
-			7,
-			8,
-			9,
-			10,
-			11,
-			12
-		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12
 	}
-}
+end)()

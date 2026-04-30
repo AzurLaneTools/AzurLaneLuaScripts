@@ -1,6 +1,19 @@
 pg = pg or {}
-pg.activity_event_blackwhite = {
-	{
+pg.activity_event_blackwhite = rawget(pg, "activity_event_blackwhite") or setmetatable({
+	__name = "activity_event_blackwhite"
+}, confNEO)
+pg.activity_event_blackwhite.all = {
+	1,
+	2,
+	3,
+	4,
+	5
+}
+pg.base = pg.base or {}
+pg.base.activity_event_blackwhite = {}
+
+(function ()
+	pg.base.activity_event_blackwhite[1] = {
 		name = "第一张图",
 		random = 0,
 		story = "AIJINGHUA1",
@@ -287,8 +300,8 @@ pg.activity_event_blackwhite = {
 				-1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_blackwhite[2] = {
 		name = "第二张图",
 		random = 0,
 		story = "AIJINGHUA2",
@@ -575,8 +588,8 @@ pg.activity_event_blackwhite = {
 				-1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_blackwhite[3] = {
 		name = "第三张图",
 		random = 0,
 		story = "AIJINGHUA3",
@@ -863,8 +876,8 @@ pg.activity_event_blackwhite = {
 				-1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_blackwhite[4] = {
 		name = "第四张图",
 		random = 0,
 		story = "AIJINGHUA4",
@@ -1151,8 +1164,8 @@ pg.activity_event_blackwhite = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_blackwhite[5] = {
 		name = "随机图",
 		random = 1,
 		story = "",
@@ -1168,12 +1181,5 @@ pg.activity_event_blackwhite = {
 			9
 		},
 		map = {}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5
 	}
-}
+end)()

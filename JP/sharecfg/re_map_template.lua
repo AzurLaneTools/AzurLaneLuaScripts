@@ -1,6 +1,59 @@
 pg = pg or {}
-pg.re_map_template = {
-	{
+pg.re_map_template = rawget(pg, "re_map_template") or setmetatable({
+	__name = "re_map_template"
+}, confNEO)
+pg.re_map_template.all = {
+	1,
+	2,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	39,
+	40,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46
+}
+pg.base = pg.base or {}
+pg.base.re_map_template = {}
+
+(function ()
+	pg.base.re_map_template[1] = {
 		id = 1,
 		name = "红染常驻复刻",
 		bg = "temp_hongran",
@@ -69,8 +122,8 @@ pg.re_map_template = {
 				"D3"
 			}
 		}
-	},
-	{
+	}
+	pg.base.re_map_template[2] = {
 		id = 2,
 		name = "Z舰队常驻复刻",
 		bg = "temp_zjiandui",
@@ -112,8 +165,8 @@ pg.re_map_template = {
 				"SP3"
 			}
 		}
-	},
-	[4] = {
+	}
+	pg.base.re_map_template[4] = {
 		id = 4,
 		name = "凛冬常驻复刻",
 		bg = "temp_lingdong",
@@ -182,8 +235,8 @@ pg.re_map_template = {
 				"D3"
 			}
 		}
-	},
-	[5] = {
+	}
+	pg.base.re_map_template[5] = {
 		id = 5,
 		name = "围剿斯佩伯爵』常驻复刻",
 		bg = "temp_sipei",
@@ -218,8 +271,8 @@ pg.re_map_template = {
 				"SP2"
 			}
 		}
-	},
-	[6] = {
+	}
+	pg.base.re_map_template[6] = {
 		id = 6,
 		name = "异色格常驻复刻",
 		bg = "temp_yisege",
@@ -296,8 +349,8 @@ pg.re_map_template = {
 				"D1"
 			}
 		}
-	},
-	[7] = {
+	}
+	pg.base.re_map_template[7] = {
 		id = 7,
 		name = "坠落之翼常驻复刻",
 		bg = "temp_zhuiluo",
@@ -366,8 +419,8 @@ pg.re_map_template = {
 				"D3"
 			}
 		}
-	},
-	[8] = {
+	}
+	pg.base.re_map_template[8] = {
 		id = 8,
 		name = "鸢尾之华常驻复刻",
 		bg = "temp_yuanwei",
@@ -436,8 +489,8 @@ pg.re_map_template = {
 				"D3"
 			}
 		}
-	},
-	[9] = {
+	}
+	pg.base.re_map_template[9] = {
 		id = 9,
 		name = "墨染的钢铁之花常驻复刻",
 		bg = "temp_moran",
@@ -506,8 +559,8 @@ pg.re_map_template = {
 				"D2"
 			}
 		}
-	},
-	[10] = {
+	}
+	pg.base.re_map_template[10] = {
 		id = 10,
 		name = "光荣的一战常驻复刻",
 		bg = "temp_guangrong",
@@ -549,8 +602,8 @@ pg.re_map_template = {
 				"SP2"
 			}
 		}
-	},
-	[11] = {
+	}
+	pg.base.re_map_template[11] = {
 		id = 11,
 		name = "苍红的回响常驻复刻",
 		bg = "temp_tiancheng",
@@ -619,8 +672,8 @@ pg.re_map_template = {
 				"D3"
 			}
 		}
-	},
-	[12] = {
+	}
+	pg.base.re_map_template[12] = {
 		id = 12,
 		name = "月光下的序曲常驻复刻",
 		bg = "temp_xinaoerliang",
@@ -648,8 +701,8 @@ pg.re_map_template = {
 				"SP3"
 			}
 		}
-	},
-	[13] = {
+	}
+	pg.base.re_map_template[13] = {
 		id = 13,
 		name = "俾斯麦常驻复刻",
 		bg = "temp_bisimai",
@@ -718,8 +771,8 @@ pg.re_map_template = {
 				"B2、B3、D2、D3"
 			}
 		}
-	},
-	[14] = {
+	}
+	pg.base.re_map_template[14] = {
 		id = 14,
 		name = "偶像一期常驻复刻",
 		bg = "temp_ouxiang",
@@ -766,8 +819,8 @@ pg.re_map_template = {
 				"SP5"
 			}
 		}
-	},
-	[15] = {
+	}
+	pg.base.re_map_template[15] = {
 		id = 15,
 		name = "神圣的悲喜剧常驻复刻",
 		bg = "temp_beixiju",
@@ -844,8 +897,8 @@ pg.re_map_template = {
 				"D3"
 			}
 		}
-	},
-	[16] = {
+	}
+	pg.base.re_map_template[16] = {
 		id = 16,
 		name = "斯图尔特的硝烟常驻复刻",
 		bg = "temp_longxiang",
@@ -873,8 +926,8 @@ pg.re_map_template = {
 				"SP3"
 			}
 		}
-	},
-	[17] = {
+	}
+	pg.base.re_map_template[17] = {
 		id = 17,
 		name = "箱庭疗法常驻复刻",
 		bg = "temp_xiangting",
@@ -959,8 +1012,8 @@ pg.re_map_template = {
 				"D3"
 			}
 		}
-	},
-	[18] = {
+	}
+	pg.base.re_map_template[18] = {
 		id = 18,
 		name = "浮樱影华常驻复刻",
 		bg = "temp_fuying",
@@ -1029,8 +1082,8 @@ pg.re_map_template = {
 				"D2"
 			}
 		}
-	},
-	[19] = {
+	}
+	pg.base.re_map_template[19] = {
 		id = 19,
 		name = "最珍贵的宝物常驻复刻",
 		bg = "temp_u110",
@@ -1058,8 +1111,8 @@ pg.re_map_template = {
 				"SP3"
 			}
 		}
-	},
-	[20] = {
+	}
+	pg.base.re_map_template[20] = {
 		id = 20,
 		name = "偶像二期常驻复刻",
 		bg = "temp_ouxiang2",
@@ -1106,8 +1159,8 @@ pg.re_map_template = {
 				"SP5"
 			}
 		}
-	},
-	[21] = {
+	}
+	pg.base.re_map_template[21] = {
 		id = 21,
 		name = "微层混合常驻复刻",
 		bg = "temp_weiceng",
@@ -1176,8 +1229,8 @@ pg.re_map_template = {
 				"C2"
 			}
 		}
-	},
-	[22] = {
+	}
+	pg.base.re_map_template[22] = {
 		id = 22,
 		name = "峡湾间的星辰常驻复刻",
 		bg = "temp_yonggan",
@@ -1207,8 +1260,8 @@ pg.re_map_template = {
 				"SP3"
 			}
 		}
-	},
-	[23] = {
+	}
+	pg.base.re_map_template[23] = {
 		id = 23,
 		name = "穹顶下的圣咏曲常驻复刻",
 		bg = "temp_zhende",
@@ -1277,8 +1330,8 @@ pg.re_map_template = {
 				"D2"
 			}
 		}
-	},
-	[24] = {
+	}
+	pg.base.re_map_template[24] = {
 		id = 24,
 		name = "夜幕下的归途常驻复刻",
 		bg = "temp_taertu",
@@ -1306,8 +1359,8 @@ pg.re_map_template = {
 				"SP3"
 			}
 		}
-	},
-	[25] = {
+	}
+	pg.base.re_map_template[25] = {
 		id = 25,
 		name = "北境序曲常驻复刻",
 		bg = "temp_qiaba",
@@ -1376,8 +1429,8 @@ pg.re_map_template = {
 				"D2"
 			}
 		}
-	},
-	[26] = {
+	}
+	pg.base.re_map_template[26] = {
 		id = 26,
 		name = "永夜幻光常驻复刻",
 		bg = "temp_hemin",
@@ -1446,8 +1499,8 @@ pg.re_map_template = {
 				"D1"
 			}
 		}
-	},
-	[27] = {
+	}
+	pg.base.re_map_template[27] = {
 		id = 27,
 		name = "峡湾间的反击常驻复刻",
 		bg = "temp_aisijimoren",
@@ -1475,8 +1528,8 @@ pg.re_map_template = {
 				"SP3"
 			}
 		}
-	},
-	[28] = {
+	}
+	pg.base.re_map_template[28] = {
 		id = 28,
 		name = "负象限作战常驻复刻",
 		bg = "temp_u37",
@@ -1545,8 +1598,8 @@ pg.re_map_template = {
 				"D1"
 			}
 		}
-	},
-	[29] = {
+	}
+	pg.base.re_map_template[29] = {
 		id = 29,
 		name = "蝶海梦花常驻复刻",
 		bg = "temp_xinnong",
@@ -1623,8 +1676,8 @@ pg.re_map_template = {
 				"HT4"
 			}
 		}
-	},
-	[30] = {
+	}
+	pg.base.re_map_template[30] = {
 		id = 30,
 		name = "镜位螺旋常驻复刻",
 		bg = "temp_xinzexi",
@@ -1693,8 +1746,8 @@ pg.re_map_template = {
 				"D1"
 			}
 		}
-	},
-	[31] = {
+	}
+	pg.base.re_map_template[31] = {
 		id = 31,
 		name = "破晓冰华常驻复刻",
 		bg = "temp_talin",
@@ -1763,8 +1816,8 @@ pg.re_map_template = {
 				"D1"
 			}
 		}
-	},
-	[32] = {
+	}
+	pg.base.re_map_template[32] = {
 		id = 32,
 		name = "划破海空之翼常驻复刻",
 		bg = "temp_pulinsidun",
@@ -1792,8 +1845,8 @@ pg.re_map_template = {
 				"SP3"
 			}
 		}
-	},
-	[33] = {
+	}
+	pg.base.re_map_template[33] = {
 		id = 33,
 		name = "杰诺瓦的焰火常驻复刻",
 		bg = "temp_fuxv",
@@ -1821,8 +1874,8 @@ pg.re_map_template = {
 				"SP3"
 			}
 		}
-	},
-	[34] = {
+	}
+	pg.base.re_map_template[34] = {
 		id = 34,
 		name = "碧海光粼常驻复刻",
 		bg = "temp_daofeng",
@@ -1891,8 +1944,8 @@ pg.re_map_template = {
 				"D1"
 			}
 		}
-	},
-	[35] = {
+	}
+	pg.base.re_map_template[35] = {
 		id = 35,
 		name = "复兴的赞美诗常驻复刻",
 		bg = "temp_weineituo",
@@ -1961,8 +2014,8 @@ pg.re_map_template = {
 				"D1"
 			}
 		}
-	},
-	[36] = {
+	}
+	pg.base.re_map_template[36] = {
 		id = 36,
 		name = "逆转彩虹之塔常驻复刻",
 		bg = "temp_huteng",
@@ -2035,8 +2088,8 @@ pg.re_map_template = {
 				"D1"
 			}
 		}
-	},
-	[37] = {
+	}
+	pg.base.re_map_template[37] = {
 		id = 37,
 		name = "深度回音常驻复刻",
 		bg = "temp_kalangshitade",
@@ -2105,8 +2158,8 @@ pg.re_map_template = {
 				"D1"
 			}
 		}
-	},
-	[38] = {
+	}
+	pg.base.re_map_template[38] = {
 		id = 38,
 		name = "虚像构筑之塔常驻复刻",
 		bg = "temp_diguo",
@@ -2152,8 +2205,8 @@ pg.re_map_template = {
 				"SP4"
 			}
 		}
-	},
-	[39] = {
+	}
+	pg.base.re_map_template[39] = {
 		id = 39,
 		name = "泠誓光庭常驻复刻",
 		bg = "temp_qianwei",
@@ -2222,8 +2275,8 @@ pg.re_map_template = {
 				"D1"
 			}
 		}
-	},
-	[40] = {
+	}
+	pg.base.re_map_template[40] = {
 		id = 40,
 		name = "雄鹰的叙事歌常驻复刻",
 		bg = "temp_luoma",
@@ -2292,8 +2345,8 @@ pg.re_map_template = {
 				"D1"
 			}
 		}
-	},
-	[41] = {
+	}
+	pg.base.re_map_template[41] = {
 		id = 41,
 		name = "虹彩的终幕曲常驻复刻",
 		bg = "temp_aimudeng",
@@ -2362,8 +2415,8 @@ pg.re_map_template = {
 				"D2"
 			}
 		}
-	},
-	[42] = {
+	}
+	pg.base.re_map_template[42] = {
 		id = 42,
 		name = "飓风与青春之泉常驻复刻",
 		bg = "temp_fengfanv1",
@@ -2413,8 +2466,8 @@ pg.re_map_template = {
 				"T6"
 			}
 		}
-	},
-	[43] = {
+	}
+	pg.base.re_map_template[43] = {
 		id = 43,
 		name = "紫绛槿岚常驻复刻",
 		bg = "temp_wuzang",
@@ -2483,8 +2536,8 @@ pg.re_map_template = {
 				"D2"
 			}
 		}
-	},
-	[44] = {
+	}
+	pg.base.re_map_template[44] = {
 		id = 44,
 		name = "定向折叠常驻复刻",
 		bg = "temp_yuekechengII",
@@ -2553,8 +2606,8 @@ pg.re_map_template = {
 				"D2"
 			}
 		}
-	},
-	[45] = {
+	}
+	pg.base.re_map_template[45] = {
 		id = 45,
 		name = "湮烬尘墟常驻复刻",
 		bg = "temp_yuanchou",
@@ -2623,8 +2676,8 @@ pg.re_map_template = {
 				"C2"
 			}
 		}
-	},
-	[46] = {
+	}
+	pg.base.re_map_template[46] = {
 		id = 46,
 		name = "远汇点作战常驻复刻",
 		bg = "temp_bulunxierde",
@@ -2670,52 +2723,5 @@ pg.re_map_template = {
 				"SP4"
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		39,
-		40,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46
 	}
-}
+end)()

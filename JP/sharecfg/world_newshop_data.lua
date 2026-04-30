@@ -1,6 +1,98 @@
 pg = pg or {}
-pg.world_newshop_data = {
-	[10101] = {
+pg.world_newshop_data = rawget(pg, "world_newshop_data") or setmetatable({
+	__name = "world_newshop_data"
+}, confNEO)
+pg.world_newshop_data.all = {
+	10101,
+	10102,
+	10103,
+	10104,
+	10105,
+	10106,
+	10201,
+	10202,
+	10203,
+	10204,
+	10205,
+	10206,
+	10301,
+	10302,
+	10303,
+	10304,
+	10305,
+	10306,
+	10401,
+	10402,
+	10403,
+	20101,
+	20102,
+	20103,
+	20104,
+	20105,
+	20201,
+	20202,
+	20203,
+	20204,
+	20205,
+	20301,
+	20302,
+	20303,
+	20304,
+	20305,
+	20401,
+	20402,
+	20403,
+	20404,
+	30101,
+	30102,
+	30103,
+	30104,
+	30105,
+	30201,
+	30202,
+	30203,
+	30204,
+	30205,
+	30301,
+	30302,
+	30303,
+	30304,
+	30305,
+	30401,
+	30402,
+	30403,
+	30404,
+	30405,
+	40101,
+	40102,
+	40103,
+	40104,
+	40105,
+	40201,
+	40202,
+	40203,
+	40204,
+	40205,
+	40206,
+	40207,
+	40301,
+	40302,
+	40303,
+	40304,
+	40305,
+	40306,
+	40307,
+	40401,
+	40402,
+	40403,
+	40404,
+	40405
+}
+pg.base = pg.base or {}
+pg.base.world_newshop_data = {}
+
+(function ()
+	pg.base.world_newshop_data[10101] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -12,8 +104,8 @@ pg.world_newshop_data = {
 		frequency = 3,
 		price_num = 1000,
 		price_type = 12
-	},
-	[10102] = {
+	}
+	pg.base.world_newshop_data[10102] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -25,8 +117,8 @@ pg.world_newshop_data = {
 		frequency = 1,
 		price_num = 3000,
 		price_type = 12
-	},
-	[10103] = {
+	}
+	pg.base.world_newshop_data[10103] = {
 		item_type = 12,
 		priority = 3,
 		price_id = 101,
@@ -38,8 +130,8 @@ pg.world_newshop_data = {
 		frequency = 4,
 		price_num = 10,
 		price_type = 12
-	},
-	[10104] = {
+	}
+	pg.base.world_newshop_data[10104] = {
 		item_type = 12,
 		priority = 4,
 		price_id = 101,
@@ -51,8 +143,8 @@ pg.world_newshop_data = {
 		frequency = 4,
 		price_num = 10,
 		price_type = 12
-	},
-	[10105] = {
+	}
+	pg.base.world_newshop_data[10105] = {
 		item_type = 12,
 		priority = 5,
 		price_id = 101,
@@ -64,8 +156,8 @@ pg.world_newshop_data = {
 		frequency = 4,
 		price_num = 10,
 		price_type = 12
-	},
-	[10106] = {
+	}
+	pg.base.world_newshop_data[10106] = {
 		item_type = 12,
 		priority = 6,
 		price_id = 100,
@@ -77,8 +169,8 @@ pg.world_newshop_data = {
 		frequency = 6,
 		price_num = 500,
 		price_type = 12
-	},
-	[10201] = {
+	}
+	pg.base.world_newshop_data[10201] = {
 		item_type = 12,
 		priority = 7,
 		price_id = 100,
@@ -90,8 +182,8 @@ pg.world_newshop_data = {
 		frequency = 2,
 		price_num = 3000,
 		price_type = 12
-	},
-	[10202] = {
+	}
+	pg.base.world_newshop_data[10202] = {
 		item_type = 12,
 		priority = 8,
 		price_id = 100,
@@ -103,8 +195,8 @@ pg.world_newshop_data = {
 		frequency = 2,
 		price_num = 9000,
 		price_type = 12
-	},
-	[10203] = {
+	}
+	pg.base.world_newshop_data[10203] = {
 		item_type = 12,
 		priority = 9,
 		price_id = 101,
@@ -116,8 +208,8 @@ pg.world_newshop_data = {
 		frequency = 2,
 		price_num = 10,
 		price_type = 12
-	},
-	[10204] = {
+	}
+	pg.base.world_newshop_data[10204] = {
 		item_type = 12,
 		priority = 10,
 		price_id = 101,
@@ -129,8 +221,8 @@ pg.world_newshop_data = {
 		frequency = 2,
 		price_num = 10,
 		price_type = 12
-	},
-	[10205] = {
+	}
+	pg.base.world_newshop_data[10205] = {
 		item_type = 12,
 		priority = 11,
 		price_id = 101,
@@ -142,8 +234,8 @@ pg.world_newshop_data = {
 		frequency = 2,
 		price_num = 10,
 		price_type = 12
-	},
-	[10206] = {
+	}
+	pg.base.world_newshop_data[10206] = {
 		item_type = 12,
 		priority = 12,
 		price_id = 100,
@@ -155,8 +247,8 @@ pg.world_newshop_data = {
 		frequency = 6,
 		price_num = 500,
 		price_type = 12
-	},
-	[10301] = {
+	}
+	pg.base.world_newshop_data[10301] = {
 		item_type = 12,
 		priority = 13,
 		price_id = 100,
@@ -168,8 +260,8 @@ pg.world_newshop_data = {
 		frequency = 2,
 		price_num = 9000,
 		price_type = 12
-	},
-	[10302] = {
+	}
+	pg.base.world_newshop_data[10302] = {
 		item_type = 12,
 		priority = 14,
 		price_id = 100,
@@ -181,8 +273,8 @@ pg.world_newshop_data = {
 		frequency = 3,
 		price_num = 15000,
 		price_type = 12
-	},
-	[10303] = {
+	}
+	pg.base.world_newshop_data[10303] = {
 		item_type = 12,
 		priority = 15,
 		price_id = 100,
@@ -194,8 +286,8 @@ pg.world_newshop_data = {
 		frequency = 1,
 		price_num = 36000,
 		price_type = 12
-	},
-	[10304] = {
+	}
+	pg.base.world_newshop_data[10304] = {
 		item_type = 12,
 		priority = 16,
 		price_id = 101,
@@ -207,8 +299,8 @@ pg.world_newshop_data = {
 		frequency = 2,
 		price_num = 20,
 		price_type = 12
-	},
-	[10305] = {
+	}
+	pg.base.world_newshop_data[10305] = {
 		item_type = 12,
 		priority = 17,
 		price_id = 101,
@@ -220,8 +312,8 @@ pg.world_newshop_data = {
 		frequency = 2,
 		price_num = 20,
 		price_type = 12
-	},
-	[10306] = {
+	}
+	pg.base.world_newshop_data[10306] = {
 		item_type = 12,
 		priority = 18,
 		price_id = 101,
@@ -233,8 +325,8 @@ pg.world_newshop_data = {
 		frequency = 2,
 		price_num = 20,
 		price_type = 12
-	},
-	[10401] = {
+	}
+	pg.base.world_newshop_data[10401] = {
 		item_type = 12,
 		priority = 19,
 		price_id = 100,
@@ -246,8 +338,8 @@ pg.world_newshop_data = {
 		frequency = 3,
 		price_num = 30000,
 		price_type = 12
-	},
-	[10402] = {
+	}
+	pg.base.world_newshop_data[10402] = {
 		item_type = 12,
 		priority = 20,
 		price_id = 100,
@@ -259,8 +351,8 @@ pg.world_newshop_data = {
 		frequency = 1,
 		price_num = 60000,
 		price_type = 12
-	},
-	[10403] = {
+	}
+	pg.base.world_newshop_data[10403] = {
 		item_type = 12,
 		priority = 21,
 		price_id = 100,
@@ -272,8 +364,8 @@ pg.world_newshop_data = {
 		frequency = 1,
 		price_num = 100000,
 		price_type = 12
-	},
-	[20101] = {
+	}
+	pg.base.world_newshop_data[20101] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -285,8 +377,8 @@ pg.world_newshop_data = {
 		frequency = 4,
 		price_num = 1000,
 		price_type = 12
-	},
-	[20102] = {
+	}
+	pg.base.world_newshop_data[20102] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 101,
@@ -298,8 +390,8 @@ pg.world_newshop_data = {
 		frequency = 10,
 		price_num = 1,
 		price_type = 12
-	},
-	[20103] = {
+	}
+	pg.base.world_newshop_data[20103] = {
 		item_type = 12,
 		priority = 3,
 		price_id = 101,
@@ -311,8 +403,8 @@ pg.world_newshop_data = {
 		frequency = 10,
 		price_num = 5,
 		price_type = 12
-	},
-	[20104] = {
+	}
+	pg.base.world_newshop_data[20104] = {
 		item_type = 12,
 		priority = 4,
 		price_id = 101,
@@ -324,8 +416,8 @@ pg.world_newshop_data = {
 		frequency = 10,
 		price_num = 20,
 		price_type = 12
-	},
-	[20105] = {
+	}
+	pg.base.world_newshop_data[20105] = {
 		item_type = 12,
 		priority = 5,
 		price_id = 100,
@@ -337,8 +429,8 @@ pg.world_newshop_data = {
 		frequency = 200,
 		price_num = 100,
 		price_type = 12
-	},
-	[20201] = {
+	}
+	pg.base.world_newshop_data[20201] = {
 		item_type = 12,
 		priority = 6,
 		price_id = 100,
@@ -350,8 +442,8 @@ pg.world_newshop_data = {
 		frequency = 8,
 		price_num = 2500,
 		price_type = 12
-	},
-	[20202] = {
+	}
+	pg.base.world_newshop_data[20202] = {
 		item_type = 12,
 		priority = 7,
 		price_id = 101,
@@ -363,8 +455,8 @@ pg.world_newshop_data = {
 		frequency = 10,
 		price_num = 1,
 		price_type = 12
-	},
-	[20203] = {
+	}
+	pg.base.world_newshop_data[20203] = {
 		item_type = 12,
 		priority = 8,
 		price_id = 101,
@@ -376,8 +468,8 @@ pg.world_newshop_data = {
 		frequency = 10,
 		price_num = 5,
 		price_type = 12
-	},
-	[20204] = {
+	}
+	pg.base.world_newshop_data[20204] = {
 		item_type = 12,
 		priority = 9,
 		price_id = 101,
@@ -389,8 +481,8 @@ pg.world_newshop_data = {
 		frequency = 10,
 		price_num = 20,
 		price_type = 12
-	},
-	[20205] = {
+	}
+	pg.base.world_newshop_data[20205] = {
 		item_type = 12,
 		priority = 10,
 		price_id = 100,
@@ -402,8 +494,8 @@ pg.world_newshop_data = {
 		frequency = 200,
 		price_num = 100,
 		price_type = 12
-	},
-	[20301] = {
+	}
+	pg.base.world_newshop_data[20301] = {
 		item_type = 12,
 		priority = 11,
 		price_id = 100,
@@ -415,8 +507,8 @@ pg.world_newshop_data = {
 		frequency = 4,
 		price_num = 5000,
 		price_type = 12
-	},
-	[20302] = {
+	}
+	pg.base.world_newshop_data[20302] = {
 		item_type = 12,
 		priority = 12,
 		price_id = 101,
@@ -428,8 +520,8 @@ pg.world_newshop_data = {
 		frequency = 10,
 		price_num = 1,
 		price_type = 12
-	},
-	[20303] = {
+	}
+	pg.base.world_newshop_data[20303] = {
 		item_type = 12,
 		priority = 13,
 		price_id = 101,
@@ -441,8 +533,8 @@ pg.world_newshop_data = {
 		frequency = 10,
 		price_num = 5,
 		price_type = 12
-	},
-	[20304] = {
+	}
+	pg.base.world_newshop_data[20304] = {
 		item_type = 12,
 		priority = 14,
 		price_id = 101,
@@ -454,8 +546,8 @@ pg.world_newshop_data = {
 		frequency = 10,
 		price_num = 20,
 		price_type = 12
-	},
-	[20305] = {
+	}
+	pg.base.world_newshop_data[20305] = {
 		item_type = 12,
 		priority = 15,
 		price_id = 100,
@@ -467,8 +559,8 @@ pg.world_newshop_data = {
 		frequency = 400,
 		price_num = 100,
 		price_type = 12
-	},
-	[20401] = {
+	}
+	pg.base.world_newshop_data[20401] = {
 		item_type = 12,
 		priority = 16,
 		price_id = 101,
@@ -480,8 +572,8 @@ pg.world_newshop_data = {
 		frequency = 11,
 		price_num = 1,
 		price_type = 12
-	},
-	[20402] = {
+	}
+	pg.base.world_newshop_data[20402] = {
 		item_type = 12,
 		priority = 17,
 		price_id = 101,
@@ -493,8 +585,8 @@ pg.world_newshop_data = {
 		frequency = 11,
 		price_num = 5,
 		price_type = 12
-	},
-	[20403] = {
+	}
+	pg.base.world_newshop_data[20403] = {
 		item_type = 12,
 		priority = 18,
 		price_id = 101,
@@ -506,8 +598,8 @@ pg.world_newshop_data = {
 		frequency = 15,
 		price_num = 20,
 		price_type = 12
-	},
-	[20404] = {
+	}
+	pg.base.world_newshop_data[20404] = {
 		item_type = 12,
 		priority = 19,
 		price_id = 100,
@@ -519,8 +611,8 @@ pg.world_newshop_data = {
 		frequency = 610,
 		price_num = 100,
 		price_type = 12
-	},
-	[30101] = {
+	}
+	pg.base.world_newshop_data[30101] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 101,
@@ -532,8 +624,8 @@ pg.world_newshop_data = {
 		frequency = 10,
 		price_num = 5,
 		price_type = 12
-	},
-	[30102] = {
+	}
+	pg.base.world_newshop_data[30102] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 101,
@@ -545,8 +637,8 @@ pg.world_newshop_data = {
 		frequency = 10,
 		price_num = 5,
 		price_type = 12
-	},
-	[30103] = {
+	}
+	pg.base.world_newshop_data[30103] = {
 		item_type = 12,
 		priority = 3,
 		price_id = 101,
@@ -558,8 +650,8 @@ pg.world_newshop_data = {
 		frequency = 10,
 		price_num = 5,
 		price_type = 12
-	},
-	[30104] = {
+	}
+	pg.base.world_newshop_data[30104] = {
 		item_type = 12,
 		priority = 4,
 		price_id = 101,
@@ -571,8 +663,8 @@ pg.world_newshop_data = {
 		frequency = 10,
 		price_num = 5,
 		price_type = 12
-	},
-	[30105] = {
+	}
+	pg.base.world_newshop_data[30105] = {
 		item_type = 2,
 		priority = 5,
 		price_id = 101,
@@ -584,8 +676,8 @@ pg.world_newshop_data = {
 		frequency = 20,
 		price_num = 1,
 		price_type = 12
-	},
-	[30201] = {
+	}
+	pg.base.world_newshop_data[30201] = {
 		item_type = 12,
 		priority = 6,
 		price_id = 101,
@@ -597,8 +689,8 @@ pg.world_newshop_data = {
 		frequency = 10,
 		price_num = 5,
 		price_type = 12
-	},
-	[30202] = {
+	}
+	pg.base.world_newshop_data[30202] = {
 		item_type = 12,
 		priority = 7,
 		price_id = 101,
@@ -610,8 +702,8 @@ pg.world_newshop_data = {
 		frequency = 10,
 		price_num = 5,
 		price_type = 12
-	},
-	[30203] = {
+	}
+	pg.base.world_newshop_data[30203] = {
 		item_type = 12,
 		priority = 8,
 		price_id = 101,
@@ -623,8 +715,8 @@ pg.world_newshop_data = {
 		frequency = 10,
 		price_num = 5,
 		price_type = 12
-	},
-	[30204] = {
+	}
+	pg.base.world_newshop_data[30204] = {
 		item_type = 12,
 		priority = 9,
 		price_id = 101,
@@ -636,8 +728,8 @@ pg.world_newshop_data = {
 		frequency = 10,
 		price_num = 5,
 		price_type = 12
-	},
-	[30205] = {
+	}
+	pg.base.world_newshop_data[30205] = {
 		item_type = 2,
 		priority = 10,
 		price_id = 101,
@@ -649,8 +741,8 @@ pg.world_newshop_data = {
 		frequency = 30,
 		price_num = 1,
 		price_type = 12
-	},
-	[30301] = {
+	}
+	pg.base.world_newshop_data[30301] = {
 		item_type = 12,
 		priority = 11,
 		price_id = 101,
@@ -662,8 +754,8 @@ pg.world_newshop_data = {
 		frequency = 20,
 		price_num = 5,
 		price_type = 12
-	},
-	[30302] = {
+	}
+	pg.base.world_newshop_data[30302] = {
 		item_type = 12,
 		priority = 12,
 		price_id = 101,
@@ -675,8 +767,8 @@ pg.world_newshop_data = {
 		frequency = 20,
 		price_num = 5,
 		price_type = 12
-	},
-	[30303] = {
+	}
+	pg.base.world_newshop_data[30303] = {
 		item_type = 12,
 		priority = 13,
 		price_id = 101,
@@ -688,8 +780,8 @@ pg.world_newshop_data = {
 		frequency = 20,
 		price_num = 5,
 		price_type = 12
-	},
-	[30304] = {
+	}
+	pg.base.world_newshop_data[30304] = {
 		item_type = 12,
 		priority = 14,
 		price_id = 101,
@@ -701,8 +793,8 @@ pg.world_newshop_data = {
 		frequency = 20,
 		price_num = 5,
 		price_type = 12
-	},
-	[30305] = {
+	}
+	pg.base.world_newshop_data[30305] = {
 		item_type = 2,
 		priority = 15,
 		price_id = 101,
@@ -714,8 +806,8 @@ pg.world_newshop_data = {
 		frequency = 10,
 		price_num = 5,
 		price_type = 12
-	},
-	[30401] = {
+	}
+	pg.base.world_newshop_data[30401] = {
 		item_type = 12,
 		priority = 16,
 		price_id = 101,
@@ -727,8 +819,8 @@ pg.world_newshop_data = {
 		frequency = 20,
 		price_num = 5,
 		price_type = 12
-	},
-	[30402] = {
+	}
+	pg.base.world_newshop_data[30402] = {
 		item_type = 12,
 		priority = 17,
 		price_id = 101,
@@ -740,8 +832,8 @@ pg.world_newshop_data = {
 		frequency = 20,
 		price_num = 5,
 		price_type = 12
-	},
-	[30403] = {
+	}
+	pg.base.world_newshop_data[30403] = {
 		item_type = 12,
 		priority = 18,
 		price_id = 101,
@@ -753,8 +845,8 @@ pg.world_newshop_data = {
 		frequency = 20,
 		price_num = 5,
 		price_type = 12
-	},
-	[30404] = {
+	}
+	pg.base.world_newshop_data[30404] = {
 		item_type = 12,
 		priority = 19,
 		price_id = 101,
@@ -766,8 +858,8 @@ pg.world_newshop_data = {
 		frequency = 20,
 		price_num = 5,
 		price_type = 12
-	},
-	[30405] = {
+	}
+	pg.base.world_newshop_data[30405] = {
 		item_type = 2,
 		priority = 20,
 		price_id = 101,
@@ -779,8 +871,8 @@ pg.world_newshop_data = {
 		frequency = 10,
 		price_num = 5,
 		price_type = 12
-	},
-	[40101] = {
+	}
+	pg.base.world_newshop_data[40101] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -792,8 +884,8 @@ pg.world_newshop_data = {
 		frequency = 5,
 		price_num = 150,
 		price_type = 12
-	},
-	[40102] = {
+	}
+	pg.base.world_newshop_data[40102] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -805,8 +897,8 @@ pg.world_newshop_data = {
 		frequency = 6,
 		price_num = 500,
 		price_type = 12
-	},
-	[40103] = {
+	}
+	pg.base.world_newshop_data[40103] = {
 		item_type = 2,
 		priority = 3,
 		price_id = 101,
@@ -818,8 +910,8 @@ pg.world_newshop_data = {
 		frequency = 5,
 		price_num = 50,
 		price_type = 12
-	},
-	[40104] = {
+	}
+	pg.base.world_newshop_data[40104] = {
 		item_type = 12,
 		priority = 4,
 		price_id = 101,
@@ -831,8 +923,8 @@ pg.world_newshop_data = {
 		frequency = 3,
 		price_num = 20,
 		price_type = 12
-	},
-	[40105] = {
+	}
+	pg.base.world_newshop_data[40105] = {
 		item_type = 12,
 		priority = 5,
 		price_id = 101,
@@ -844,8 +936,8 @@ pg.world_newshop_data = {
 		frequency = 2,
 		price_num = 100,
 		price_type = 12
-	},
-	[40201] = {
+	}
+	pg.base.world_newshop_data[40201] = {
 		item_type = 12,
 		priority = 6,
 		price_id = 100,
@@ -857,8 +949,8 @@ pg.world_newshop_data = {
 		frequency = 10,
 		price_num = 250,
 		price_type = 12
-	},
-	[40202] = {
+	}
+	pg.base.world_newshop_data[40202] = {
 		item_type = 12,
 		priority = 7,
 		price_id = 100,
@@ -870,8 +962,8 @@ pg.world_newshop_data = {
 		frequency = 10,
 		price_num = 750,
 		price_type = 12
-	},
-	[40203] = {
+	}
+	pg.base.world_newshop_data[40203] = {
 		item_type = 2,
 		priority = 8,
 		price_id = 101,
@@ -883,8 +975,8 @@ pg.world_newshop_data = {
 		frequency = 5,
 		price_num = 50,
 		price_type = 12
-	},
-	[40204] = {
+	}
+	pg.base.world_newshop_data[40204] = {
 		item_type = 12,
 		priority = 9,
 		price_id = 101,
@@ -896,8 +988,8 @@ pg.world_newshop_data = {
 		frequency = 4,
 		price_num = 20,
 		price_type = 12
-	},
-	[40205] = {
+	}
+	pg.base.world_newshop_data[40205] = {
 		item_type = 12,
 		priority = 10,
 		price_id = 101,
@@ -909,8 +1001,8 @@ pg.world_newshop_data = {
 		frequency = 4,
 		price_num = 100,
 		price_type = 12
-	},
-	[40206] = {
+	}
+	pg.base.world_newshop_data[40206] = {
 		item_type = 12,
 		priority = 11,
 		price_id = 101,
@@ -922,8 +1014,8 @@ pg.world_newshop_data = {
 		frequency = 10,
 		price_num = 20,
 		price_type = 12
-	},
-	[40207] = {
+	}
+	pg.base.world_newshop_data[40207] = {
 		item_type = 12,
 		priority = 12,
 		price_id = 101,
@@ -935,8 +1027,8 @@ pg.world_newshop_data = {
 		frequency = 4,
 		price_num = 100,
 		price_type = 12
-	},
-	[40301] = {
+	}
+	pg.base.world_newshop_data[40301] = {
 		item_type = 12,
 		priority = 13,
 		price_id = 100,
@@ -948,8 +1040,8 @@ pg.world_newshop_data = {
 		frequency = 6,
 		price_num = 1000,
 		price_type = 12
-	},
-	[40302] = {
+	}
+	pg.base.world_newshop_data[40302] = {
 		item_type = 12,
 		priority = 14,
 		price_id = 100,
@@ -961,8 +1053,8 @@ pg.world_newshop_data = {
 		frequency = 2,
 		price_num = 2500,
 		price_type = 12
-	},
-	[40303] = {
+	}
+	pg.base.world_newshop_data[40303] = {
 		item_type = 2,
 		priority = 15,
 		price_id = 101,
@@ -974,8 +1066,8 @@ pg.world_newshop_data = {
 		frequency = 5,
 		price_num = 50,
 		price_type = 12
-	},
-	[40304] = {
+	}
+	pg.base.world_newshop_data[40304] = {
 		item_type = 2,
 		priority = 16,
 		price_id = 101,
@@ -987,8 +1079,8 @@ pg.world_newshop_data = {
 		frequency = 1,
 		price_num = 300,
 		price_type = 12
-	},
-	[40305] = {
+	}
+	pg.base.world_newshop_data[40305] = {
 		item_type = 12,
 		priority = 17,
 		price_id = 101,
@@ -1000,8 +1092,8 @@ pg.world_newshop_data = {
 		frequency = 10,
 		price_num = 20,
 		price_type = 12
-	},
-	[40306] = {
+	}
+	pg.base.world_newshop_data[40306] = {
 		item_type = 12,
 		priority = 18,
 		price_id = 101,
@@ -1013,8 +1105,8 @@ pg.world_newshop_data = {
 		frequency = 4,
 		price_num = 100,
 		price_type = 12
-	},
-	[40307] = {
+	}
+	pg.base.world_newshop_data[40307] = {
 		item_type = 12,
 		priority = 19,
 		price_id = 101,
@@ -1026,8 +1118,8 @@ pg.world_newshop_data = {
 		frequency = 1,
 		price_num = 300,
 		price_type = 12
-	},
-	[40401] = {
+	}
+	pg.base.world_newshop_data[40401] = {
 		item_type = 2,
 		priority = 20,
 		price_id = 101,
@@ -1039,8 +1131,8 @@ pg.world_newshop_data = {
 		frequency = 2,
 		price_num = 300,
 		price_type = 12
-	},
-	[40402] = {
+	}
+	pg.base.world_newshop_data[40402] = {
 		item_type = 12,
 		priority = 21,
 		price_id = 101,
@@ -1052,8 +1144,8 @@ pg.world_newshop_data = {
 		frequency = 1,
 		price_num = 500,
 		price_type = 12
-	},
-	[40403] = {
+	}
+	pg.base.world_newshop_data[40403] = {
 		item_type = 12,
 		priority = 22,
 		price_id = 101,
@@ -1065,8 +1157,8 @@ pg.world_newshop_data = {
 		frequency = 10,
 		price_num = 20,
 		price_type = 12
-	},
-	[40404] = {
+	}
+	pg.base.world_newshop_data[40404] = {
 		item_type = 12,
 		priority = 23,
 		price_id = 101,
@@ -1078,8 +1170,8 @@ pg.world_newshop_data = {
 		frequency = 2,
 		price_num = 100,
 		price_type = 12
-	},
-	[40405] = {
+	}
+	pg.base.world_newshop_data[40405] = {
 		item_type = 12,
 		priority = 24,
 		price_id = 101,
@@ -1091,91 +1183,5 @@ pg.world_newshop_data = {
 		frequency = 2,
 		price_num = 300,
 		price_type = 12
-	},
-	all = {
-		10101,
-		10102,
-		10103,
-		10104,
-		10105,
-		10106,
-		10201,
-		10202,
-		10203,
-		10204,
-		10205,
-		10206,
-		10301,
-		10302,
-		10303,
-		10304,
-		10305,
-		10306,
-		10401,
-		10402,
-		10403,
-		20101,
-		20102,
-		20103,
-		20104,
-		20105,
-		20201,
-		20202,
-		20203,
-		20204,
-		20205,
-		20301,
-		20302,
-		20303,
-		20304,
-		20305,
-		20401,
-		20402,
-		20403,
-		20404,
-		30101,
-		30102,
-		30103,
-		30104,
-		30105,
-		30201,
-		30202,
-		30203,
-		30204,
-		30205,
-		30301,
-		30302,
-		30303,
-		30304,
-		30305,
-		30401,
-		30402,
-		30403,
-		30404,
-		30405,
-		40101,
-		40102,
-		40103,
-		40104,
-		40105,
-		40201,
-		40202,
-		40203,
-		40204,
-		40205,
-		40206,
-		40207,
-		40301,
-		40302,
-		40303,
-		40304,
-		40305,
-		40306,
-		40307,
-		40401,
-		40402,
-		40403,
-		40404,
-		40405
 	}
-}
+end)()

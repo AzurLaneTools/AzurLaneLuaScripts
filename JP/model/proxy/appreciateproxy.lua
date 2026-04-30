@@ -44,7 +44,7 @@ end
 slot0.checkMusicFileState = function(slot0)
 	slot1, slot2 = nil
 
-	for slot6, slot7 in pairs(pg.music_collect_config.all) do
+	for slot6, slot7 in ipairs(pg.music_collect_config.all) do
 		slot0.musicExistStateTable[slot7] = checkABExist(MusicCollectionConst.MUSIC_SONG_PATH_PREFIX .. pg.music_collect_config[slot7].music .. ".b")
 	end
 end

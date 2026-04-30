@@ -8,66 +8,54 @@ slot0 = function(slot0)
 	end)
 end
 
-slot1 = function(slot0, slot1)
-	return function (slot0, slot1)
-		slot2 = slot0.__name
+confNEO = confNEO or {
+	__index = function (slot0, slot1)
+		slot3 = nil
+		slot4 = rawget(slot0, "__sub__") or {
+			rawget(slot0, "__name")
+		}
+		slot5 = rawget(slot0, "__stream__")
 
-		if uv0 == 1 and cs[slot2][slot1] and not pg.base[slot2][slot1] then
-			LuaHelper.SetConfVal(slot2, cs[slot2][slot1][1], cs[slot2][slot1][2])
-		end
-
-		if uv0 == 2 and cs[slot2].indexs[slot1] then
-			if pg.base[cs[slot2].subList[cs[slot2].indexs[slot1]]] == nil then
-				require("ShareCfg." .. cs[slot2].subFolderName .. "." .. slot3)
+		for slot9, slot10 in ipairs(slot4) do
+			if slot5 and cs[slot10][slot1] and not pg.base[slot10][slot1] then
+				LuaHelper.SetConfVal(slot10, cs[slot10][slot1][1], cs[slot10][slot1][2])
 			end
 
-			slot2 = slot3
+			if pg.base[slot10][slot1] then
+				break
+			end
 		end
 
-		if not pg.base[slot2][slot1] then
+		if slot3 == nil then
 			return nil
 		end
 
-		slot4 = {}
-
-		for slot8, slot9 in pairs(slot3) do
-			if type(slot9) == "string" then
-				slot4[slot8] = uv1(slot9)
-
-				if uv2 then
-					slot4[slot8] = HXSet.hxLan(slot4[slot8])
+		slot6 = rawget(slot0, "__namecode__")
+		slot7 = rawget(slot3, "base") or nil
+		slot0[slot1] = setmetatable({}, {
+			__index = function (slot0, slot1)
+				if uv0[slot1] == nil and uv1 then
+					slot2 = uv2[uv1][slot1]
 				end
-			end
-		end
 
-		if rawget(slot3, "base") ~= nil then
-			slot0[slot1] = setmetatable(slot4, {
-				__index = function (slot0, slot1)
-					if uv0[slot1] == nil then
-						return uv1[uv2][slot1]
-					else
-						return uv0[slot1]
+				if type(slot2) == "string" then
+					if uv3 == "equip_data_statistics" then
+						slot2 = uv4(slot2)
+					end
+
+					if uv5 then
+						slot2 = HXSet.hxLan(slot2)
 					end
 				end
-			})
-		else
-			slot0[slot1] = setmetatable(slot4, {
-				__index = slot3
-			})
-		end
+
+				slot0[slot1] = slot2
+
+				return slot2
+			end
+		})
 
 		return slot0[slot1]
 	end
-end
-
-confSP = confSP or {
-	__index = slot1(2, true)
-}
-confMT = confMT or {
-	__index = slot1(1, true)
-}
-confHX = confHX or {
-	__index = slot1(0, true)
 }
 
 require("localConfig")
@@ -77,9 +65,17 @@ setmetatable(pg, {
 	__index = function (slot0, slot1)
 		if ShareCfg["ShareCfg." .. slot1] then
 			require(slot2)
+		else
+			slot3 = 1
 
-			return rawget(pg, slot1)
+			while ShareCfg[slot2 .. "_" .. slot3] do
+				require(slot2 .. "_" .. slot3)
+
+				slot3 = slot3 + 1
+			end
 		end
+
+		return rawget(pg, slot1)
 	end
 })
 

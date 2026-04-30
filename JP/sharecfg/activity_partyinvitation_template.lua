@@ -1,6 +1,21 @@
 pg = pg or {}
-pg.activity_partyinvitation_template = {
-	{
+pg.activity_partyinvitation_template = rawget(pg, "activity_partyinvitation_template") or setmetatable({
+	__name = "activity_partyinvitation_template"
+}, confNEO)
+pg.activity_partyinvitation_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7
+}
+pg.base = pg.base or {}
+pg.base.activity_partyinvitation_template = {}
+
+(function ()
+	pg.base.activity_partyinvitation_template[1] = {
 		skinId = 107065,
 		groupid = 10706,
 		getletter_story = "YUANWEIFANGXINMIMANSHI2",
@@ -36,8 +51,8 @@ pg.activity_partyinvitation_template = {
 			"ダンスか？分かった。では指揮……指導をよろしく頼む",
 			"ダンスのスキルも身につける必要があるな"
 		}
-	},
-	{
+	}
+	pg.base.activity_partyinvitation_template[2] = {
 		skinId = 107092,
 		groupid = 10709,
 		getletter_story = "YUANWEIFANGXINMIMANSHI3",
@@ -73,8 +88,8 @@ pg.activity_partyinvitation_template = {
 			"ダンスですか？指揮官は自信があるみたいですね～",
 			"タンタン、タンタン…よし、忘れていない"
 		}
-	},
-	{
+	}
+	pg.base.activity_partyinvitation_template[3] = {
 		skinId = 305101,
 		groupid = 30510,
 		getletter_story = "YUANWEIFANGXINMIMANSHI4",
@@ -110,8 +125,8 @@ pg.activity_partyinvitation_template = {
 			"ダンスの誘いなら、ステップが緩めのほうがいいわ",
 			"踊りをするとなれば、肌の触れ合いも避けようがなかろう"
 		}
-	},
-	{
+	}
+	pg.base.activity_partyinvitation_template[4] = {
 		skinId = 905011,
 		groupid = 90501,
 		getletter_story = "YUANWEIFANGXINMIMANSHI5",
@@ -147,8 +162,8 @@ pg.activity_partyinvitation_template = {
 			"ダンス…か。お前の誘いならもちろん受けてやるさ",
 			"言っとくがダンスはあまり得意じゃない。足を踏んでしまったら…"
 		}
-	},
-	{
+	}
+	pg.base.activity_partyinvitation_template[5] = {
 		skinId = 702010,
 		groupid = 70201,
 		getletter_story = "YUANWEIFANGXINMIMANSHI6",
@@ -184,8 +199,8 @@ pg.activity_partyinvitation_template = {
 			"誘っていただきありがとうございます。では～",
 			"ダンスですから、距離をもう少し近くしてもいいですよ"
 		}
-	},
-	{
+	}
+	pg.base.activity_partyinvitation_template[6] = {
 		skinId = 205011,
 		groupid = 20501,
 		getletter_story = "YUANWEIFANGXINMIMANSHI8",
@@ -221,8 +236,8 @@ pg.activity_partyinvitation_template = {
 			"ふん。あんたがどこまで上達したか見てみようじゃない",
 			"下僕、この女王のステップに頑張ってついてきなさい！"
 		}
-	},
-	{
+	}
+	pg.base.activity_partyinvitation_template[7] = {
 		skinId = 405011,
 		groupid = 40501,
 		getletter_story = "YUANWEIFANGXINMIMANSHI7",
@@ -258,14 +273,5 @@ pg.activity_partyinvitation_template = {
 			"ダンスの誘いか。ふふ、では少しだけこの体を預けよう",
 			"ダンスの時はいつもと違うビスマルクに見えた？ふふふ"
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7
 	}
-}
+end)()

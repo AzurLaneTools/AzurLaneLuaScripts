@@ -1,6 +1,166 @@
 pg = pg or {}
-pg.dorm3d_furniture_template = {
+pg.dorm3d_furniture_template = rawget(pg, "dorm3d_furniture_template") or setmetatable({
+	__name = "dorm3d_furniture_template"
+}, confNEO)
+pg.dorm3d_furniture_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	121,
+	122,
+	201,
+	202,
+	203,
+	204,
+	205,
+	206,
+	207,
+	208,
+	209,
+	210,
+	221,
+	222,
+	223,
+	151,
+	251,
+	301,
+	302,
+	303,
+	304,
+	305,
+	306,
+	307,
+	321,
+	322,
+	401,
+	323,
+	324,
+	1101,
+	1102,
+	1103,
+	1104,
+	1105,
+	1106,
+	1107,
+	1108,
+	1151,
+	1152,
+	1153,
+	1154,
+	1201,
+	1202,
+	1203,
+	1211,
+	1212,
+	1213,
+	1214,
+	1215,
+	1221,
+	1222,
+	1223,
+	1401,
+	1402,
+	1403,
+	1411,
+	1412,
+	1413,
+	1414,
+	1415,
+	1461,
+	1462
+}
+pg.dorm3d_furniture_template.get_id_list_by_room_id = {
 	{
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		121,
+		122,
+		151
+	},
+	{
+		201,
+		202,
+		203,
+		204,
+		205,
+		206,
+		207,
+		208,
+		209,
+		210,
+		221,
+		222,
+		223,
+		251
+	},
+	{
+		301,
+		302,
+		303,
+		304,
+		305,
+		306,
+		307,
+		321,
+		322,
+		323,
+		324
+	},
+	{
+		401
+	},
+	[11] = {
+		1101,
+		1102,
+		1103,
+		1104,
+		1105,
+		1106,
+		1107,
+		1108,
+		1151,
+		1152,
+		1153,
+		1154
+	},
+	[12] = {
+		1201,
+		1202,
+		1203,
+		1211,
+		1212,
+		1213,
+		1214,
+		1215,
+		1221,
+		1222,
+		1223
+	},
+	[14] = {
+		1401,
+		1402,
+		1403,
+		1411,
+		1412,
+		1413,
+		1414,
+		1415,
+		1461,
+		1462
+	}
+}
+pg.base = pg.base or {}
+pg.base.dorm3d_furniture_template = {}
+
+(function ()
+	pg.base.dorm3d_furniture_template[1] = {
 		rarity = 3,
 		name = "カウンターチェア",
 		unlock_tips = "",
@@ -25,8 +185,8 @@ pg.dorm3d_furniture_template = {
 			}
 		},
 		shop_id = {}
-	},
-	{
+	}
+	pg.base.dorm3d_furniture_template[2] = {
 		rarity = 2,
 		name = "搾り機",
 		unlock_tips = "",
@@ -46,8 +206,8 @@ pg.dorm3d_furniture_template = {
 			100201
 		},
 		shop_id = {}
-	},
-	{
+	}
+	pg.base.dorm3d_furniture_template[3] = {
 		rarity = 3,
 		name = "クラシックソファ",
 		unlock_tips = "",
@@ -72,8 +232,8 @@ pg.dorm3d_furniture_template = {
 			}
 		},
 		shop_id = {}
-	},
-	{
+	}
+	pg.base.dorm3d_furniture_template[4] = {
 		rarity = 3,
 		name = "シンプルなベッド",
 		unlock_tips = "",
@@ -98,8 +258,8 @@ pg.dorm3d_furniture_template = {
 			}
 		},
 		shop_id = {}
-	},
-	{
+	}
+	pg.base.dorm3d_furniture_template[5] = {
 		rarity = 2,
 		name = "デスクランプ",
 		unlock_tips = "",
@@ -119,8 +279,8 @@ pg.dorm3d_furniture_template = {
 			100101
 		},
 		shop_id = {}
-	},
-	{
+	}
+	pg.base.dorm3d_furniture_template[6] = {
 		rarity = 2,
 		name = "クルーザーモデル",
 		unlock_tips = "",
@@ -140,8 +300,8 @@ pg.dorm3d_furniture_template = {
 			100402
 		},
 		shop_id = {}
-	},
-	[121] = {
+	}
+	pg.base.dorm3d_furniture_template[121] = {
 		rarity = 4,
 		name = "スイートシークレット",
 		type = 4,
@@ -172,8 +332,8 @@ pg.dorm3d_furniture_template = {
 		unlock_banners = {
 			"banner_furniture121"
 		}
-	},
-	[122] = {
+	}
+	pg.base.dorm3d_furniture_template[122] = {
 		rarity = 4,
 		name = "午後の夢郷",
 		type = 5,
@@ -204,8 +364,8 @@ pg.dorm3d_furniture_template = {
 		unlock_banners = {
 			"banner_furniture122"
 		}
-	},
-	[201] = {
+	}
+	pg.base.dorm3d_furniture_template[201] = {
 		rarity = 3,
 		name = "ゆったり布団",
 		unlock_tips = "",
@@ -230,8 +390,8 @@ pg.dorm3d_furniture_template = {
 			}
 		},
 		shop_id = {}
-	},
-	[202] = {
+	}
+	pg.base.dorm3d_furniture_template[202] = {
 		rarity = 3,
 		name = "穏やかな間食",
 		unlock_tips = "",
@@ -256,8 +416,8 @@ pg.dorm3d_furniture_template = {
 			}
 		},
 		shop_id = {}
-	},
-	[203] = {
+	}
+	pg.base.dorm3d_furniture_template[203] = {
 		rarity = 3,
 		name = "そよ風カーペット",
 		unlock_tips = "",
@@ -282,8 +442,8 @@ pg.dorm3d_furniture_template = {
 			}
 		},
 		shop_id = {}
-	},
-	[204] = {
+	}
+	pg.base.dorm3d_furniture_template[204] = {
 		rarity = 2,
 		name = "春の花瓶",
 		unlock_tips = "",
@@ -303,8 +463,8 @@ pg.dorm3d_furniture_template = {
 			120101
 		},
 		shop_id = {}
-	},
-	[205] = {
+	}
+	pg.base.dorm3d_furniture_template[205] = {
 		rarity = 2,
 		name = "饅頭ぬいぐるみ",
 		unlock_tips = "",
@@ -324,8 +484,8 @@ pg.dorm3d_furniture_template = {
 			120102
 		},
 		shop_id = {}
-	},
-	[206] = {
+	}
+	pg.base.dorm3d_furniture_template[206] = {
 		rarity = 2,
 		name = "花見茶器セット",
 		unlock_tips = "",
@@ -345,8 +505,8 @@ pg.dorm3d_furniture_template = {
 			120201
 		},
 		shop_id = {}
-	},
-	[207] = {
+	}
+	pg.base.dorm3d_furniture_template[207] = {
 		rarity = 2,
 		name = "青空の松",
 		unlock_tips = "",
@@ -366,8 +526,8 @@ pg.dorm3d_furniture_template = {
 			120202
 		},
 		shop_id = {}
-	},
-	[208] = {
+	}
+	pg.base.dorm3d_furniture_template[208] = {
 		rarity = 2,
 		name = "静寂の余白",
 		unlock_tips = "",
@@ -387,8 +547,8 @@ pg.dorm3d_furniture_template = {
 			120301
 		},
 		shop_id = {}
-	},
-	[209] = {
+	}
+	pg.base.dorm3d_furniture_template[209] = {
 		rarity = 2,
 		name = "季節の花瓶",
 		unlock_tips = "",
@@ -408,8 +568,8 @@ pg.dorm3d_furniture_template = {
 			120302
 		},
 		shop_id = {}
-	},
-	[210] = {
+	}
+	pg.base.dorm3d_furniture_template[210] = {
 		rarity = 2,
 		name = "幸運饅頭掛け軸",
 		unlock_tips = "",
@@ -429,8 +589,8 @@ pg.dorm3d_furniture_template = {
 			120202
 		},
 		shop_id = {}
-	},
-	[221] = {
+	}
+	pg.base.dorm3d_furniture_template[221] = {
 		rarity = 4,
 		name = "タヌクッション",
 		type = 4,
@@ -461,8 +621,8 @@ pg.dorm3d_furniture_template = {
 		unlock_banners = {
 			"banner_furniture221"
 		}
-	},
-	[222] = {
+	}
+	pg.base.dorm3d_furniture_template[222] = {
 		rarity = 3,
 		name = "逢瀬の机",
 		type = 6,
@@ -495,8 +655,8 @@ pg.dorm3d_furniture_template = {
 		scene_hides = {
 			"fbx/no_bake_pay_prop/diningroom"
 		}
-	},
-	[223] = {
+	}
+	pg.base.dorm3d_furniture_template[223] = {
 		rarity = 4,
 		name = "安らぎの時間",
 		type = 5,
@@ -529,8 +689,8 @@ pg.dorm3d_furniture_template = {
 		scene_hides = {
 			"fbx/no_bake_pay_prop/livingroom"
 		}
-	},
-	[151] = {
+	}
+	pg.base.dorm3d_furniture_template[151] = {
 		rarity = 5,
 		name = "聖夜のソリソファ",
 		type = 5,
@@ -567,8 +727,8 @@ pg.dorm3d_furniture_template = {
 			"fbx/litmap_03/pre_db_ceram01b (1)",
 			"fbx/litmap_03/pre_db_book01"
 		}
-	},
-	[251] = {
+	}
+	pg.base.dorm3d_furniture_template[251] = {
 		rarity = 5,
 		name = "ぬくぬくこたつ",
 		type = 5,
@@ -601,8 +761,8 @@ pg.dorm3d_furniture_template = {
 		scene_hides = {
 			"fbx/no_bake_pay_prop/livingroom"
 		}
-	},
-	[301] = {
+	}
+	pg.base.dorm3d_furniture_template[301] = {
 		rarity = 3,
 		name = "クッキーソファ",
 		unlock_tips = "",
@@ -627,8 +787,8 @@ pg.dorm3d_furniture_template = {
 			}
 		},
 		shop_id = {}
-	},
-	[302] = {
+	}
+	pg.base.dorm3d_furniture_template[302] = {
 		rarity = 3,
 		name = "ソルトウッドベッド",
 		unlock_tips = "",
@@ -653,8 +813,8 @@ pg.dorm3d_furniture_template = {
 			}
 		},
 		shop_id = {}
-	},
-	[303] = {
+	}
+	pg.base.dorm3d_furniture_template[303] = {
 		rarity = 3,
 		name = "青い一角",
 		unlock_tips = "",
@@ -679,8 +839,8 @@ pg.dorm3d_furniture_template = {
 			}
 		},
 		shop_id = {}
-	},
-	[304] = {
+	}
+	pg.base.dorm3d_furniture_template[304] = {
 		rarity = 2,
 		name = "サカバンバスピス",
 		unlock_tips = "",
@@ -700,8 +860,8 @@ pg.dorm3d_furniture_template = {
 			130101
 		},
 		shop_id = {}
-	},
-	[305] = {
+	}
+	pg.base.dorm3d_furniture_template[305] = {
 		rarity = 2,
 		name = "ナチュラルブレス",
 		unlock_tips = "",
@@ -721,8 +881,8 @@ pg.dorm3d_furniture_template = {
 			130102
 		},
 		shop_id = {}
-	},
-	[306] = {
+	}
+	pg.base.dorm3d_furniture_template[306] = {
 		rarity = 2,
 		name = "時の記録",
 		unlock_tips = "",
@@ -742,8 +902,8 @@ pg.dorm3d_furniture_template = {
 			130201
 		},
 		shop_id = {}
-	},
-	[307] = {
+	}
+	pg.base.dorm3d_furniture_template[307] = {
 		rarity = 2,
 		name = "海の出会い",
 		unlock_tips = "",
@@ -763,8 +923,8 @@ pg.dorm3d_furniture_template = {
 			130301
 		},
 		shop_id = {}
-	},
-	[321] = {
+	}
+	pg.base.dorm3d_furniture_template[321] = {
 		rarity = 4,
 		name = "ピュアティータイム",
 		type = 6,
@@ -797,8 +957,8 @@ pg.dorm3d_furniture_template = {
 		scene_hides = {
 			"fbx/no_bake_pay_prop/entertainmentarea"
 		}
-	},
-	[322] = {
+	}
+	pg.base.dorm3d_furniture_template[322] = {
 		rarity = 4,
 		name = "星々の遊船",
 		type = 4,
@@ -831,8 +991,8 @@ pg.dorm3d_furniture_template = {
 		scene_hides = {
 			"fbx/no_bake_pay_prop/bedroom"
 		}
-	},
-	[401] = {
+	}
+	pg.base.dorm3d_furniture_template[401] = {
 		rarity = 5,
 		name = "シーサイドレジャー",
 		type = 3,
@@ -858,8 +1018,8 @@ pg.dorm3d_furniture_template = {
 		unlock_banners = {
 			"banner_furniture401"
 		}
-	},
-	[323] = {
+	}
+	pg.base.dorm3d_furniture_template[323] = {
 		rarity = 4,
 		name = "クラウドドリーム",
 		type = 5,
@@ -892,8 +1052,8 @@ pg.dorm3d_furniture_template = {
 		scene_hides = {
 			"fbx/no_bake_pay_prop/livingroom"
 		}
-	},
-	[324] = {
+	}
+	pg.base.dorm3d_furniture_template[324] = {
 		rarity = 5,
 		name = "ピュアランド",
 		type = 4,
@@ -928,8 +1088,8 @@ pg.dorm3d_furniture_template = {
 			"fbx/no_bake/pre_db_anchoragehostel01_lamp01",
 			"fbx/no_bake/pre_db_anchoragehostel01_lamp01_night"
 		}
-	},
-	[1101] = {
+	}
+	pg.base.dorm3d_furniture_template[1101] = {
 		rarity = 3,
 		name = "うさうさクレイドル",
 		unlock_tips = "",
@@ -954,8 +1114,8 @@ pg.dorm3d_furniture_template = {
 			}
 		},
 		shop_id = {}
-	},
-	[1102] = {
+	}
+	pg.base.dorm3d_furniture_template[1102] = {
 		rarity = 3,
 		name = "アイスド・エイジ",
 		unlock_tips = "",
@@ -980,8 +1140,8 @@ pg.dorm3d_furniture_template = {
 			}
 		},
 		shop_id = {}
-	},
-	[1103] = {
+	}
+	pg.base.dorm3d_furniture_template[1103] = {
 		rarity = 3,
 		name = "おひさまアイランド",
 		unlock_tips = "",
@@ -1006,8 +1166,8 @@ pg.dorm3d_furniture_template = {
 			}
 		},
 		shop_id = {}
-	},
-	[1104] = {
+	}
+	pg.base.dorm3d_furniture_template[1104] = {
 		rarity = 2,
 		name = "プラネットナイトライト",
 		unlock_tips = "",
@@ -1027,8 +1187,8 @@ pg.dorm3d_furniture_template = {
 			1110101
 		},
 		shop_id = {}
-	},
-	[1105] = {
+	}
+	pg.base.dorm3d_furniture_template[1105] = {
 		rarity = 2,
 		name = "ラインアートパネル",
 		unlock_tips = "",
@@ -1048,8 +1208,8 @@ pg.dorm3d_furniture_template = {
 			1110301
 		},
 		shop_id = {}
-	},
-	[1106] = {
+	}
+	pg.base.dorm3d_furniture_template[1106] = {
 		rarity = 2,
 		name = "サイレントブルー",
 		unlock_tips = "",
@@ -1069,8 +1229,8 @@ pg.dorm3d_furniture_template = {
 			1110302
 		},
 		shop_id = {}
-	},
-	[1107] = {
+	}
+	pg.base.dorm3d_furniture_template[1107] = {
 		rarity = 2,
 		name = "電子レンジ",
 		unlock_tips = "",
@@ -1090,8 +1250,8 @@ pg.dorm3d_furniture_template = {
 			1110201
 		},
 		shop_id = {}
-	},
-	[1108] = {
+	}
+	pg.base.dorm3d_furniture_template[1108] = {
 		rarity = 2,
 		name = "緑の盆栽",
 		unlock_tips = "",
@@ -1111,8 +1271,8 @@ pg.dorm3d_furniture_template = {
 			1110202
 		},
 		shop_id = {}
-	},
-	[1151] = {
+	}
+	pg.base.dorm3d_furniture_template[1151] = {
 		rarity = 4,
 		name = "星空のコーナー",
 		type = 5,
@@ -1145,8 +1305,8 @@ pg.dorm3d_furniture_template = {
 		scene_hides = {
 			"no_bake_pay_prop/livingroom"
 		}
-	},
-	[1152] = {
+	}
+	pg.base.dorm3d_furniture_template[1152] = {
 		rarity = 5,
 		name = "ダイナミックホイール",
 		type = 5,
@@ -1179,8 +1339,8 @@ pg.dorm3d_furniture_template = {
 		scene_hides = {
 			"no_bake_pay_prop/livingroom"
 		}
-	},
-	[1153] = {
+	}
+	pg.base.dorm3d_furniture_template[1153] = {
 		rarity = 4,
 		name = "星外の隠れ家",
 		type = 4,
@@ -1213,8 +1373,8 @@ pg.dorm3d_furniture_template = {
 		scene_hides = {
 			"no_bake_pay_prop/bedroom"
 		}
-	},
-	[1154] = {
+	}
+	pg.base.dorm3d_furniture_template[1154] = {
 		rarity = 4,
 		name = "スマート冷蔵庫IB-7",
 		type = 6,
@@ -1245,8 +1405,8 @@ pg.dorm3d_furniture_template = {
 		unlock_banners = {
 			"banner_furniture1154"
 		}
-	},
-	[1201] = {
+	}
+	pg.base.dorm3d_furniture_template[1201] = {
 		rarity = 3,
 		name = "ふんわりベッド",
 		unlock_tips = "",
@@ -1273,8 +1433,8 @@ pg.dorm3d_furniture_template = {
 		unlock_banners = {
 			"banner_furniture1151"
 		}
-	},
-	[1202] = {
+	}
+	pg.base.dorm3d_furniture_template[1202] = {
 		rarity = 3,
 		name = "木製ダイニングテーブル",
 		unlock_tips = "",
@@ -1301,8 +1461,8 @@ pg.dorm3d_furniture_template = {
 		unlock_banners = {
 			"banner_furniture1151"
 		}
-	},
-	[1203] = {
+	}
+	pg.base.dorm3d_furniture_template[1203] = {
 		rarity = 3,
 		name = "シンプルな座椅子",
 		unlock_tips = "",
@@ -1329,8 +1489,8 @@ pg.dorm3d_furniture_template = {
 		unlock_banners = {
 			"banner_furniture1152"
 		}
-	},
-	[1211] = {
+	}
+	pg.base.dorm3d_furniture_template[1211] = {
 		rarity = 2,
 		name = "古風の掛け軸",
 		unlock_tips = "",
@@ -1350,8 +1510,8 @@ pg.dorm3d_furniture_template = {
 			1120301
 		},
 		shop_id = {}
-	},
-	[1212] = {
+	}
+	pg.base.dorm3d_furniture_template[1212] = {
 		rarity = 2,
 		name = "恋慕のコンパニオン",
 		unlock_tips = "",
@@ -1371,8 +1531,8 @@ pg.dorm3d_furniture_template = {
 			1120101
 		},
 		shop_id = {}
-	},
-	[1213] = {
+	}
+	pg.base.dorm3d_furniture_template[1213] = {
 		rarity = 2,
 		name = "フロアランプ",
 		unlock_tips = "",
@@ -1392,8 +1552,8 @@ pg.dorm3d_furniture_template = {
 			1120302
 		},
 		shop_id = {}
-	},
-	[1214] = {
+	}
+	pg.base.dorm3d_furniture_template[1214] = {
 		rarity = 2,
 		name = "半透明の屏風",
 		unlock_tips = "",
@@ -1415,8 +1575,8 @@ pg.dorm3d_furniture_template = {
 		scene_hides = {
 			"no_bake_prop_substitute/pre_db_frame32"
 		}
-	},
-	[1215] = {
+	}
+	pg.base.dorm3d_furniture_template[1215] = {
 		rarity = 2,
 		name = "ナイトライト",
 		unlock_tips = "",
@@ -1436,8 +1596,8 @@ pg.dorm3d_furniture_template = {
 			1120104
 		},
 		shop_id = {}
-	},
-	[1221] = {
+	}
+	pg.base.dorm3d_furniture_template[1221] = {
 		rarity = 4,
 		name = "愛の巣",
 		unlock_tips = "",
@@ -1468,8 +1628,8 @@ pg.dorm3d_furniture_template = {
 		scene_hides = {
 			"no_bake_pay_prop/bedroom"
 		}
-	},
-	[1222] = {
+	}
+	pg.base.dorm3d_furniture_template[1222] = {
 		rarity = 5,
 		name = "花楽の韻律",
 		type = 99,
@@ -1502,8 +1662,8 @@ pg.dorm3d_furniture_template = {
 		scene_hides = {
 			"no_bake_pay_prop/entertainment"
 		}
-	},
-	[1223] = {
+	}
+	pg.base.dorm3d_furniture_template[1223] = {
 		rarity = 4,
 		name = "桜の雅席",
 		type = 5,
@@ -1536,8 +1696,8 @@ pg.dorm3d_furniture_template = {
 		scene_hides = {
 			"no_bake_pay_prop/livingroom"
 		}
-	},
-	[1401] = {
+	}
+	pg.base.dorm3d_furniture_template[1401] = {
 		rarity = 3,
 		name = "ふんわりシルク",
 		unlock_tips = "",
@@ -1562,8 +1722,8 @@ pg.dorm3d_furniture_template = {
 			}
 		},
 		shop_id = {}
-	},
-	[1402] = {
+	}
+	pg.base.dorm3d_furniture_template[1402] = {
 		rarity = 3,
 		name = "シンプルデスク",
 		unlock_tips = "",
@@ -1588,8 +1748,8 @@ pg.dorm3d_furniture_template = {
 			}
 		},
 		shop_id = {}
-	},
-	[1403] = {
+	}
+	pg.base.dorm3d_furniture_template[1403] = {
 		rarity = 3,
 		name = "本革ソファ",
 		unlock_tips = "",
@@ -1614,8 +1774,8 @@ pg.dorm3d_furniture_template = {
 			}
 		},
 		shop_id = {}
-	},
-	[1411] = {
+	}
+	pg.base.dorm3d_furniture_template[1411] = {
 		rarity = 2,
 		name = "ロングキャンドル",
 		unlock_tips = "",
@@ -1635,8 +1795,8 @@ pg.dorm3d_furniture_template = {
 			1140303
 		},
 		shop_id = {}
-	},
-	[1412] = {
+	}
+	pg.base.dorm3d_furniture_template[1412] = {
 		rarity = 2,
 		name = "緑の盆栽",
 		unlock_tips = "",
@@ -1656,8 +1816,8 @@ pg.dorm3d_furniture_template = {
 			1140202
 		},
 		shop_id = {}
-	},
-	[1413] = {
+	}
+	pg.base.dorm3d_furniture_template[1413] = {
 		rarity = 2,
 		name = "デスクライト",
 		unlock_tips = "",
@@ -1677,8 +1837,8 @@ pg.dorm3d_furniture_template = {
 			1140103
 		},
 		shop_id = {}
-	},
-	[1414] = {
+	}
+	pg.base.dorm3d_furniture_template[1414] = {
 		rarity = 2,
 		name = "レトロカメラ",
 		unlock_tips = "",
@@ -1698,8 +1858,8 @@ pg.dorm3d_furniture_template = {
 			1140102
 		},
 		shop_id = {}
-	},
-	[1415] = {
+	}
+	pg.base.dorm3d_furniture_template[1415] = {
 		rarity = 2,
 		name = "肖像画",
 		unlock_tips = "",
@@ -1719,8 +1879,8 @@ pg.dorm3d_furniture_template = {
 			1140302
 		},
 		shop_id = {}
-	},
-	[1461] = {
+	}
+	pg.base.dorm3d_furniture_template[1461] = {
 		rarity = 4,
 		name = "真紅の寧謐",
 		type = 4,
@@ -1753,8 +1913,8 @@ pg.dorm3d_furniture_template = {
 		scene_hides = {
 			"no_bake_pay_prop/bedroom"
 		}
-	},
-	[1462] = {
+	}
+	pg.base.dorm3d_furniture_template[1462] = {
 		rarity = 4,
 		name = "知的な思案",
 		type = 6,
@@ -1787,159 +1947,5 @@ pg.dorm3d_furniture_template = {
 		scene_hides = {
 			"no_bake_pay_prop/study"
 		}
-	},
-	get_id_list_by_room_id = {
-		{
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			121,
-			122,
-			151
-		},
-		{
-			201,
-			202,
-			203,
-			204,
-			205,
-			206,
-			207,
-			208,
-			209,
-			210,
-			221,
-			222,
-			223,
-			251
-		},
-		{
-			301,
-			302,
-			303,
-			304,
-			305,
-			306,
-			307,
-			321,
-			322,
-			323,
-			324
-		},
-		{
-			401
-		},
-		[11] = {
-			1101,
-			1102,
-			1103,
-			1104,
-			1105,
-			1106,
-			1107,
-			1108,
-			1151,
-			1152,
-			1153,
-			1154
-		},
-		[12] = {
-			1201,
-			1202,
-			1203,
-			1211,
-			1212,
-			1213,
-			1214,
-			1215,
-			1221,
-			1222,
-			1223
-		},
-		[14] = {
-			1401,
-			1402,
-			1403,
-			1411,
-			1412,
-			1413,
-			1414,
-			1415,
-			1461,
-			1462
-		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		121,
-		122,
-		201,
-		202,
-		203,
-		204,
-		205,
-		206,
-		207,
-		208,
-		209,
-		210,
-		221,
-		222,
-		223,
-		151,
-		251,
-		301,
-		302,
-		303,
-		304,
-		305,
-		306,
-		307,
-		321,
-		322,
-		401,
-		323,
-		324,
-		1101,
-		1102,
-		1103,
-		1104,
-		1105,
-		1106,
-		1107,
-		1108,
-		1151,
-		1152,
-		1153,
-		1154,
-		1201,
-		1202,
-		1203,
-		1211,
-		1212,
-		1213,
-		1214,
-		1215,
-		1221,
-		1222,
-		1223,
-		1401,
-		1402,
-		1403,
-		1411,
-		1412,
-		1413,
-		1414,
-		1415,
-		1461,
-		1462
 	}
-}
+end)()

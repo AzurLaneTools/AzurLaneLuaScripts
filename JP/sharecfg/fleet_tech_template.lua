@@ -1,6 +1,50 @@
 pg = pg or {}
-pg.fleet_tech_template = {
-	[1001] = {
+pg.fleet_tech_template = rawget(pg, "fleet_tech_template") or setmetatable({
+	__name = "fleet_tech_template"
+}, confNEO)
+pg.fleet_tech_template.all = {
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008,
+	1009,
+	2001,
+	2002,
+	2003,
+	2004,
+	2005,
+	2006,
+	2007,
+	2008,
+	2009,
+	3001,
+	3002,
+	3003,
+	3004,
+	3005,
+	3006,
+	3007,
+	3008,
+	3009,
+	4001,
+	4002,
+	4003,
+	4004,
+	4005,
+	4006,
+	4007,
+	4008,
+	4009
+}
+pg.base = pg.base or {}
+pg.base.fleet_tech_template = {}
+
+(function ()
+	pg.base.fleet_tech_template[1001] = {
 		cost = 1000,
 		time = 1800,
 		groupid = 1,
@@ -48,8 +92,8 @@ pg.fleet_tech_template = {
 				1000
 			}
 		}
-	},
-	[1002] = {
+	}
+	pg.base.fleet_tech_template[1002] = {
 		cost = 1200,
 		time = 3600,
 		groupid = 1,
@@ -153,8 +197,8 @@ pg.fleet_tech_template = {
 				1000
 			}
 		}
-	},
-	[1003] = {
+	}
+	pg.base.fleet_tech_template[1003] = {
 		cost = 1500,
 		time = 7200,
 		groupid = 1,
@@ -296,8 +340,8 @@ pg.fleet_tech_template = {
 				1000
 			}
 		}
-	},
-	[1004] = {
+	}
+	pg.base.fleet_tech_template[1004] = {
 		cost = 3000,
 		time = 14400,
 		groupid = 1,
@@ -439,8 +483,8 @@ pg.fleet_tech_template = {
 				1000
 			}
 		}
-	},
-	[1005] = {
+	}
+	pg.base.fleet_tech_template[1005] = {
 		cost = 4000,
 		time = 21600,
 		groupid = 1,
@@ -582,8 +626,8 @@ pg.fleet_tech_template = {
 				1000
 			}
 		}
-	},
-	[1006] = {
+	}
+	pg.base.fleet_tech_template[1006] = {
 		cost = 5000,
 		time = 28800,
 		groupid = 1,
@@ -725,8 +769,8 @@ pg.fleet_tech_template = {
 				1000
 			}
 		}
-	},
-	[1007] = {
+	}
+	pg.base.fleet_tech_template[1007] = {
 		cost = 10000,
 		time = 50400,
 		groupid = 1,
@@ -868,8 +912,8 @@ pg.fleet_tech_template = {
 				1000
 			}
 		}
-	},
-	[1008] = {
+	}
+	pg.base.fleet_tech_template[1008] = {
 		cost = 12000,
 		time = 68400,
 		groupid = 1,
@@ -1011,8 +1055,8 @@ pg.fleet_tech_template = {
 				1000
 			}
 		}
-	},
-	[1009] = {
+	}
+	pg.base.fleet_tech_template[1009] = {
 		cost = 15000,
 		time = 86400,
 		groupid = 1,
@@ -1154,8 +1198,8 @@ pg.fleet_tech_template = {
 				1000
 			}
 		}
-	},
-	[2001] = {
+	}
+	pg.base.fleet_tech_template[2001] = {
 		cost = 1000,
 		time = 1800,
 		groupid = 2,
@@ -1209,8 +1253,8 @@ pg.fleet_tech_template = {
 				1000
 			}
 		}
-	},
-	[2002] = {
+	}
+	pg.base.fleet_tech_template[2002] = {
 		cost = 1200,
 		time = 3600,
 		groupid = 2,
@@ -1311,8 +1355,8 @@ pg.fleet_tech_template = {
 				1000
 			}
 		}
-	},
-	[2003] = {
+	}
+	pg.base.fleet_tech_template[2003] = {
 		cost = 1500,
 		time = 7200,
 		groupid = 2,
@@ -1435,8 +1479,8 @@ pg.fleet_tech_template = {
 				1000
 			}
 		}
-	},
-	[2004] = {
+	}
+	pg.base.fleet_tech_template[2004] = {
 		cost = 3000,
 		time = 14400,
 		groupid = 2,
@@ -1559,8 +1603,8 @@ pg.fleet_tech_template = {
 				1000
 			}
 		}
-	},
-	[2005] = {
+	}
+	pg.base.fleet_tech_template[2005] = {
 		cost = 4000,
 		time = 21600,
 		groupid = 2,
@@ -1683,8 +1727,8 @@ pg.fleet_tech_template = {
 				1000
 			}
 		}
-	},
-	[2006] = {
+	}
+	pg.base.fleet_tech_template[2006] = {
 		cost = 5000,
 		time = 28800,
 		groupid = 2,
@@ -1807,8 +1851,8 @@ pg.fleet_tech_template = {
 				1000
 			}
 		}
-	},
-	[2007] = {
+	}
+	pg.base.fleet_tech_template[2007] = {
 		cost = 10000,
 		time = 50400,
 		groupid = 2,
@@ -1931,8 +1975,8 @@ pg.fleet_tech_template = {
 				1000
 			}
 		}
-	},
-	[2008] = {
+	}
+	pg.base.fleet_tech_template[2008] = {
 		cost = 12000,
 		time = 68400,
 		groupid = 2,
@@ -2055,8 +2099,8 @@ pg.fleet_tech_template = {
 				1000
 			}
 		}
-	},
-	[2009] = {
+	}
+	pg.base.fleet_tech_template[2009] = {
 		cost = 15000,
 		time = 86400,
 		groupid = 2,
@@ -2179,8 +2223,8 @@ pg.fleet_tech_template = {
 				1000
 			}
 		}
-	},
-	[3001] = {
+	}
+	pg.base.fleet_tech_template[3001] = {
 		cost = 1000,
 		time = 1800,
 		groupid = 3,
@@ -2236,8 +2280,8 @@ pg.fleet_tech_template = {
 				1000
 			}
 		}
-	},
-	[3002] = {
+	}
+	pg.base.fleet_tech_template[3002] = {
 		cost = 1200,
 		time = 3600,
 		groupid = 3,
@@ -2323,8 +2367,8 @@ pg.fleet_tech_template = {
 				1000
 			}
 		}
-	},
-	[3003] = {
+	}
+	pg.base.fleet_tech_template[3003] = {
 		cost = 1500,
 		time = 7200,
 		groupid = 3,
@@ -2434,8 +2478,8 @@ pg.fleet_tech_template = {
 				1000
 			}
 		}
-	},
-	[3004] = {
+	}
+	pg.base.fleet_tech_template[3004] = {
 		cost = 3000,
 		time = 14400,
 		groupid = 3,
@@ -2545,8 +2589,8 @@ pg.fleet_tech_template = {
 				1000
 			}
 		}
-	},
-	[3005] = {
+	}
+	pg.base.fleet_tech_template[3005] = {
 		cost = 4000,
 		time = 21600,
 		groupid = 3,
@@ -2656,8 +2700,8 @@ pg.fleet_tech_template = {
 				1000
 			}
 		}
-	},
-	[3006] = {
+	}
+	pg.base.fleet_tech_template[3006] = {
 		cost = 5000,
 		time = 28800,
 		groupid = 3,
@@ -2767,8 +2811,8 @@ pg.fleet_tech_template = {
 				1000
 			}
 		}
-	},
-	[3007] = {
+	}
+	pg.base.fleet_tech_template[3007] = {
 		cost = 10000,
 		time = 50400,
 		groupid = 3,
@@ -2878,8 +2922,8 @@ pg.fleet_tech_template = {
 				1000
 			}
 		}
-	},
-	[3008] = {
+	}
+	pg.base.fleet_tech_template[3008] = {
 		cost = 12000,
 		time = 68400,
 		groupid = 3,
@@ -2989,8 +3033,8 @@ pg.fleet_tech_template = {
 				1000
 			}
 		}
-	},
-	[3009] = {
+	}
+	pg.base.fleet_tech_template[3009] = {
 		cost = 15000,
 		time = 86400,
 		groupid = 3,
@@ -3100,8 +3144,8 @@ pg.fleet_tech_template = {
 				1000
 			}
 		}
-	},
-	[4001] = {
+	}
+	pg.base.fleet_tech_template[4001] = {
 		cost = 1500,
 		time = 2700,
 		groupid = 4,
@@ -3150,8 +3194,8 @@ pg.fleet_tech_template = {
 				1000
 			}
 		}
-	},
-	[4002] = {
+	}
+	pg.base.fleet_tech_template[4002] = {
 		cost = 1800,
 		time = 5400,
 		groupid = 4,
@@ -3242,8 +3286,8 @@ pg.fleet_tech_template = {
 				1000
 			}
 		}
-	},
-	[4003] = {
+	}
+	pg.base.fleet_tech_template[4003] = {
 		cost = 2250,
 		time = 10800,
 		groupid = 4,
@@ -3349,8 +3393,8 @@ pg.fleet_tech_template = {
 				1000
 			}
 		}
-	},
-	[4004] = {
+	}
+	pg.base.fleet_tech_template[4004] = {
 		cost = 4500,
 		time = 21600,
 		groupid = 4,
@@ -3456,8 +3500,8 @@ pg.fleet_tech_template = {
 				1000
 			}
 		}
-	},
-	[4005] = {
+	}
+	pg.base.fleet_tech_template[4005] = {
 		cost = 6000,
 		time = 32400,
 		groupid = 4,
@@ -3587,8 +3631,8 @@ pg.fleet_tech_template = {
 				1000
 			}
 		}
-	},
-	[4006] = {
+	}
+	pg.base.fleet_tech_template[4006] = {
 		cost = 7500,
 		time = 43200,
 		groupid = 4,
@@ -3727,8 +3771,8 @@ pg.fleet_tech_template = {
 				1000
 			}
 		}
-	},
-	[4007] = {
+	}
+	pg.base.fleet_tech_template[4007] = {
 		cost = 15000,
 		time = 75600,
 		groupid = 4,
@@ -3867,8 +3911,8 @@ pg.fleet_tech_template = {
 				1000
 			}
 		}
-	},
-	[4008] = {
+	}
+	pg.base.fleet_tech_template[4008] = {
 		cost = 18000,
 		time = 102600,
 		groupid = 4,
@@ -4007,8 +4051,8 @@ pg.fleet_tech_template = {
 				1000
 			}
 		}
-	},
-	[4009] = {
+	}
+	pg.base.fleet_tech_template[4009] = {
 		cost = 22500,
 		time = 129600,
 		groupid = 4,
@@ -4147,43 +4191,5 @@ pg.fleet_tech_template = {
 				1000
 			}
 		}
-	},
-	all = {
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1007,
-		1008,
-		1009,
-		2001,
-		2002,
-		2003,
-		2004,
-		2005,
-		2006,
-		2007,
-		2008,
-		2009,
-		3001,
-		3002,
-		3003,
-		3004,
-		3005,
-		3006,
-		3007,
-		3008,
-		3009,
-		4001,
-		4002,
-		4003,
-		4004,
-		4005,
-		4006,
-		4007,
-		4008,
-		4009
 	}
-}
+end)()

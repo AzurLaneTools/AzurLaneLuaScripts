@@ -1,6 +1,224 @@
 pg = pg or {}
-pg.child2_plan = {
-	[1101] = {
+pg.child2_plan = rawget(pg, "child2_plan") or setmetatable({
+	__name = "child2_plan"
+}, confNEO)
+pg.child2_plan.all = {
+	1101,
+	1102,
+	1103,
+	1104,
+	1105,
+	1106,
+	1107,
+	1108,
+	1109,
+	1110,
+	1111,
+	1112,
+	1113,
+	1114,
+	1115,
+	1116,
+	1117,
+	1118,
+	1119,
+	1122,
+	3001,
+	3002,
+	3003,
+	3107,
+	3108,
+	3109,
+	3110,
+	3111,
+	3112,
+	3113,
+	3114,
+	3115,
+	3116,
+	3117,
+	3118,
+	1201,
+	1202,
+	1203,
+	1204,
+	1205,
+	1206,
+	1207,
+	1208,
+	1209,
+	1210,
+	1211,
+	1212,
+	1213,
+	1214,
+	1215,
+	1216,
+	1217,
+	1218,
+	1219,
+	1222,
+	1223,
+	1224,
+	1225,
+	1226,
+	1227,
+	1228,
+	1229,
+	1230,
+	1231,
+	1232,
+	1233,
+	1234,
+	1235,
+	1236,
+	1237
+}
+pg.child2_plan.get_id_list_by_group_id = {
+	{
+		1101
+	},
+	{
+		1102
+	},
+	{
+		1103
+	},
+	{
+		1104
+	},
+	{
+		1105
+	},
+	{
+		1106
+	},
+	{
+		1107,
+		1108,
+		1109
+	},
+	{
+		1110,
+		1111,
+		1112
+	},
+	{
+		1113,
+		1114,
+		1115
+	},
+	{
+		1116,
+		1117,
+		1118
+	},
+	{
+		1119
+	},
+	{
+		1122
+	},
+	[15] = {
+		3107,
+		3108,
+		3109
+	},
+	[16] = {
+		3110,
+		3111,
+		3112
+	},
+	[17] = {
+		3113,
+		3114,
+		3115
+	},
+	[18] = {
+		3116,
+		3117,
+		3118
+	},
+	[30] = {
+		3001,
+		3002,
+		3003
+	},
+	[101] = {
+		1201
+	},
+	[102] = {
+		1202
+	},
+	[103] = {
+		1203
+	},
+	[104] = {
+		1204
+	},
+	[105] = {
+		1205
+	},
+	[106] = {
+		1206
+	},
+	[107] = {
+		1207,
+		1208,
+		1209
+	},
+	[108] = {
+		1210,
+		1211,
+		1212
+	},
+	[109] = {
+		1213,
+		1214,
+		1215
+	},
+	[110] = {
+		1216,
+		1217,
+		1218
+	},
+	[111] = {
+		1219
+	},
+	[112] = {
+		1222
+	},
+	[115] = {
+		1226,
+		1227,
+		1228
+	},
+	[116] = {
+		1229,
+		1230,
+		1231
+	},
+	[117] = {
+		1232,
+		1233,
+		1234
+	},
+	[118] = {
+		1235,
+		1236,
+		1237
+	},
+	[130] = {
+		1223,
+		1224,
+		1225
+	}
+}
+pg.base = pg.base or {}
+pg.base.child2_plan = {}
+
+(function ()
+	pg.base.child2_plan[1101] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_1",
 		level = 1,
@@ -34,8 +252,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[1102] = {
+	}
+	pg.base.child2_plan[1102] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_2",
 		level = 1,
@@ -69,8 +287,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[1103] = {
+	}
+	pg.base.child2_plan[1103] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_3",
 		level = 1,
@@ -104,8 +322,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[1104] = {
+	}
+	pg.base.child2_plan[1104] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_4",
 		level = 1,
@@ -139,8 +357,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[1105] = {
+	}
+	pg.base.child2_plan[1105] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_5",
 		level = 1,
@@ -163,8 +381,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[1106] = {
+	}
+	pg.base.child2_plan[1106] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_6",
 		level = 1,
@@ -187,8 +405,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[1107] = {
+	}
+	pg.base.child2_plan[1107] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_7",
 		level = 1,
@@ -244,8 +462,8 @@ pg.child2_plan = {
 			1,
 			2
 		}
-	},
-	[1108] = {
+	}
+	pg.base.child2_plan[1108] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_7",
 		level = 2,
@@ -301,8 +519,8 @@ pg.child2_plan = {
 			1,
 			2
 		}
-	},
-	[1109] = {
+	}
+	pg.base.child2_plan[1109] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_7",
 		level = 3,
@@ -339,8 +557,8 @@ pg.child2_plan = {
 			1,
 			2
 		}
-	},
-	[1110] = {
+	}
+	pg.base.child2_plan[1110] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_8",
 		level = 1,
@@ -396,8 +614,8 @@ pg.child2_plan = {
 			1,
 			2
 		}
-	},
-	[1111] = {
+	}
+	pg.base.child2_plan[1111] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_8",
 		level = 2,
@@ -453,8 +671,8 @@ pg.child2_plan = {
 			1,
 			2
 		}
-	},
-	[1112] = {
+	}
+	pg.base.child2_plan[1112] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_8",
 		level = 3,
@@ -491,8 +709,8 @@ pg.child2_plan = {
 			1,
 			2
 		}
-	},
-	[1113] = {
+	}
+	pg.base.child2_plan[1113] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_9",
 		level = 1,
@@ -548,8 +766,8 @@ pg.child2_plan = {
 			1,
 			2
 		}
-	},
-	[1114] = {
+	}
+	pg.base.child2_plan[1114] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_9",
 		level = 2,
@@ -605,8 +823,8 @@ pg.child2_plan = {
 			1,
 			2
 		}
-	},
-	[1115] = {
+	}
+	pg.base.child2_plan[1115] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_9",
 		level = 3,
@@ -643,8 +861,8 @@ pg.child2_plan = {
 			1,
 			2
 		}
-	},
-	[1116] = {
+	}
+	pg.base.child2_plan[1116] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_10",
 		level = 1,
@@ -700,8 +918,8 @@ pg.child2_plan = {
 			1,
 			2
 		}
-	},
-	[1117] = {
+	}
+	pg.base.child2_plan[1117] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_10",
 		level = 2,
@@ -757,8 +975,8 @@ pg.child2_plan = {
 			1,
 			2
 		}
-	},
-	[1118] = {
+	}
+	pg.base.child2_plan[1118] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_10",
 		level = 3,
@@ -795,8 +1013,8 @@ pg.child2_plan = {
 			1,
 			2
 		}
-	},
-	[1119] = {
+	}
+	pg.base.child2_plan[1119] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_12",
 		level = 1,
@@ -819,8 +1037,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[1122] = {
+	}
+	pg.base.child2_plan[1122] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_11",
 		level = 1,
@@ -843,8 +1061,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[3001] = {
+	}
+	pg.base.child2_plan[3001] = {
 		replace_type_show = 2,
 		icon_rectangle = "plan_rectangle_15",
 		level = 1,
@@ -867,8 +1085,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[3002] = {
+	}
+	pg.base.child2_plan[3002] = {
 		replace_type_show = 2,
 		icon_rectangle = "plan_rectangle_15",
 		level = 2,
@@ -891,8 +1109,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[3003] = {
+	}
+	pg.base.child2_plan[3003] = {
 		replace_type_show = 2,
 		icon_rectangle = "plan_rectangle_15",
 		level = 3,
@@ -915,8 +1133,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[3107] = {
+	}
+	pg.base.child2_plan[3107] = {
 		replace_type_show = 3,
 		icon_rectangle = "plan_rectangle_7",
 		level = 1,
@@ -950,8 +1168,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[3108] = {
+	}
+	pg.base.child2_plan[3108] = {
 		replace_type_show = 3,
 		icon_rectangle = "plan_rectangle_7",
 		level = 2,
@@ -985,8 +1203,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[3109] = {
+	}
+	pg.base.child2_plan[3109] = {
 		replace_type_show = 3,
 		icon_rectangle = "plan_rectangle_7",
 		level = 3,
@@ -1020,8 +1238,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[3110] = {
+	}
+	pg.base.child2_plan[3110] = {
 		replace_type_show = 3,
 		icon_rectangle = "plan_rectangle_8",
 		level = 1,
@@ -1055,8 +1273,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[3111] = {
+	}
+	pg.base.child2_plan[3111] = {
 		replace_type_show = 3,
 		icon_rectangle = "plan_rectangle_8",
 		level = 2,
@@ -1090,8 +1308,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[3112] = {
+	}
+	pg.base.child2_plan[3112] = {
 		replace_type_show = 3,
 		icon_rectangle = "plan_rectangle_8",
 		level = 3,
@@ -1125,8 +1343,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[3113] = {
+	}
+	pg.base.child2_plan[3113] = {
 		replace_type_show = 3,
 		icon_rectangle = "plan_rectangle_9",
 		level = 1,
@@ -1160,8 +1378,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[3114] = {
+	}
+	pg.base.child2_plan[3114] = {
 		replace_type_show = 3,
 		icon_rectangle = "plan_rectangle_9",
 		level = 2,
@@ -1195,8 +1413,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[3115] = {
+	}
+	pg.base.child2_plan[3115] = {
 		replace_type_show = 3,
 		icon_rectangle = "plan_rectangle_9",
 		level = 3,
@@ -1230,8 +1448,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[3116] = {
+	}
+	pg.base.child2_plan[3116] = {
 		replace_type_show = 3,
 		icon_rectangle = "plan_rectangle_10",
 		level = 1,
@@ -1265,8 +1483,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[3117] = {
+	}
+	pg.base.child2_plan[3117] = {
 		replace_type_show = 3,
 		icon_rectangle = "plan_rectangle_10",
 		level = 2,
@@ -1300,8 +1518,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[3118] = {
+	}
+	pg.base.child2_plan[3118] = {
 		replace_type_show = 3,
 		icon_rectangle = "plan_rectangle_10",
 		level = 3,
@@ -1335,8 +1553,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[1201] = {
+	}
+	pg.base.child2_plan[1201] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_explorer_rectangle_1",
 		level = 1,
@@ -1370,8 +1588,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[1202] = {
+	}
+	pg.base.child2_plan[1202] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_explorer_rectangle_2",
 		level = 1,
@@ -1405,8 +1623,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[1203] = {
+	}
+	pg.base.child2_plan[1203] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_explorer_rectangle_3",
 		level = 1,
@@ -1440,8 +1658,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[1204] = {
+	}
+	pg.base.child2_plan[1204] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_explorer_rectangle_4",
 		level = 1,
@@ -1475,8 +1693,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[1205] = {
+	}
+	pg.base.child2_plan[1205] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_explorer_rectangle_5",
 		level = 1,
@@ -1499,8 +1717,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[1206] = {
+	}
+	pg.base.child2_plan[1206] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_explorer_rectangle_6",
 		level = 1,
@@ -1523,8 +1741,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[1207] = {
+	}
+	pg.base.child2_plan[1207] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_explorer_rectangle_7",
 		level = 1,
@@ -1580,8 +1798,8 @@ pg.child2_plan = {
 			1,
 			2
 		}
-	},
-	[1208] = {
+	}
+	pg.base.child2_plan[1208] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_explorer_rectangle_7",
 		level = 2,
@@ -1637,8 +1855,8 @@ pg.child2_plan = {
 			1,
 			2
 		}
-	},
-	[1209] = {
+	}
+	pg.base.child2_plan[1209] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_explorer_rectangle_7",
 		level = 3,
@@ -1675,8 +1893,8 @@ pg.child2_plan = {
 			1,
 			2
 		}
-	},
-	[1210] = {
+	}
+	pg.base.child2_plan[1210] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_explorer_rectangle_8",
 		level = 1,
@@ -1732,8 +1950,8 @@ pg.child2_plan = {
 			1,
 			2
 		}
-	},
-	[1211] = {
+	}
+	pg.base.child2_plan[1211] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_explorer_rectangle_8",
 		level = 2,
@@ -1789,8 +2007,8 @@ pg.child2_plan = {
 			1,
 			2
 		}
-	},
-	[1212] = {
+	}
+	pg.base.child2_plan[1212] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_explorer_rectangle_8",
 		level = 3,
@@ -1827,8 +2045,8 @@ pg.child2_plan = {
 			1,
 			2
 		}
-	},
-	[1213] = {
+	}
+	pg.base.child2_plan[1213] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_explorer_rectangle_9",
 		level = 1,
@@ -1884,8 +2102,8 @@ pg.child2_plan = {
 			1,
 			2
 		}
-	},
-	[1214] = {
+	}
+	pg.base.child2_plan[1214] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_explorer_rectangle_9",
 		level = 2,
@@ -1941,8 +2159,8 @@ pg.child2_plan = {
 			1,
 			2
 		}
-	},
-	[1215] = {
+	}
+	pg.base.child2_plan[1215] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_explorer_rectangle_9",
 		level = 3,
@@ -1979,8 +2197,8 @@ pg.child2_plan = {
 			1,
 			2
 		}
-	},
-	[1216] = {
+	}
+	pg.base.child2_plan[1216] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_explorer_rectangle_10",
 		level = 1,
@@ -2036,8 +2254,8 @@ pg.child2_plan = {
 			1,
 			2
 		}
-	},
-	[1217] = {
+	}
+	pg.base.child2_plan[1217] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_explorer_rectangle_10",
 		level = 2,
@@ -2093,8 +2311,8 @@ pg.child2_plan = {
 			1,
 			2
 		}
-	},
-	[1218] = {
+	}
+	pg.base.child2_plan[1218] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_explorer_rectangle_10",
 		level = 3,
@@ -2131,8 +2349,8 @@ pg.child2_plan = {
 			1,
 			2
 		}
-	},
-	[1219] = {
+	}
+	pg.base.child2_plan[1219] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_explorer_rectangle_12",
 		level = 1,
@@ -2155,8 +2373,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[1222] = {
+	}
+	pg.base.child2_plan[1222] = {
 		replace_type_show = 1,
 		icon_rectangle = "plan_explorer_rectangle_11",
 		level = 1,
@@ -2179,8 +2397,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[1223] = {
+	}
+	pg.base.child2_plan[1223] = {
 		replace_type_show = 2,
 		icon_rectangle = "plan_explorer_rectangle_15",
 		level = 1,
@@ -2203,8 +2421,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[1224] = {
+	}
+	pg.base.child2_plan[1224] = {
 		replace_type_show = 2,
 		icon_rectangle = "plan_explorer_rectangle_15",
 		level = 2,
@@ -2227,8 +2445,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[1225] = {
+	}
+	pg.base.child2_plan[1225] = {
 		replace_type_show = 2,
 		icon_rectangle = "plan_explorer_rectangle_15",
 		level = 3,
@@ -2251,8 +2469,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[1226] = {
+	}
+	pg.base.child2_plan[1226] = {
 		replace_type_show = 3,
 		icon_rectangle = "plan_explorer_rectangle_7",
 		level = 1,
@@ -2286,8 +2504,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[1227] = {
+	}
+	pg.base.child2_plan[1227] = {
 		replace_type_show = 3,
 		icon_rectangle = "plan_explorer_rectangle_7",
 		level = 2,
@@ -2321,8 +2539,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[1228] = {
+	}
+	pg.base.child2_plan[1228] = {
 		replace_type_show = 3,
 		icon_rectangle = "plan_explorer_rectangle_7",
 		level = 3,
@@ -2356,8 +2574,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[1229] = {
+	}
+	pg.base.child2_plan[1229] = {
 		replace_type_show = 3,
 		icon_rectangle = "plan_explorer_rectangle_8",
 		level = 1,
@@ -2391,8 +2609,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[1230] = {
+	}
+	pg.base.child2_plan[1230] = {
 		replace_type_show = 3,
 		icon_rectangle = "plan_explorer_rectangle_8",
 		level = 2,
@@ -2426,8 +2644,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[1231] = {
+	}
+	pg.base.child2_plan[1231] = {
 		replace_type_show = 3,
 		icon_rectangle = "plan_explorer_rectangle_8",
 		level = 3,
@@ -2461,8 +2679,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[1232] = {
+	}
+	pg.base.child2_plan[1232] = {
 		replace_type_show = 3,
 		icon_rectangle = "plan_explorer_rectangle_9",
 		level = 1,
@@ -2496,8 +2714,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[1233] = {
+	}
+	pg.base.child2_plan[1233] = {
 		replace_type_show = 3,
 		icon_rectangle = "plan_explorer_rectangle_9",
 		level = 2,
@@ -2531,8 +2749,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[1234] = {
+	}
+	pg.base.child2_plan[1234] = {
 		replace_type_show = 3,
 		icon_rectangle = "plan_explorer_rectangle_9",
 		level = 3,
@@ -2566,8 +2784,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[1235] = {
+	}
+	pg.base.child2_plan[1235] = {
 		replace_type_show = 3,
 		icon_rectangle = "plan_explorer_rectangle_10",
 		level = 1,
@@ -2601,8 +2819,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[1236] = {
+	}
+	pg.base.child2_plan[1236] = {
 		replace_type_show = 3,
 		icon_rectangle = "plan_explorer_rectangle_10",
 		level = 2,
@@ -2636,8 +2854,8 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	[1237] = {
+	}
+	pg.base.child2_plan[1237] = {
 		replace_type_show = 3,
 		icon_rectangle = "plan_explorer_rectangle_10",
 		level = 3,
@@ -2671,217 +2889,5 @@ pg.child2_plan = {
 			}
 		},
 		replace_type = {}
-	},
-	get_id_list_by_group_id = {
-		{
-			1101
-		},
-		{
-			1102
-		},
-		{
-			1103
-		},
-		{
-			1104
-		},
-		{
-			1105
-		},
-		{
-			1106
-		},
-		{
-			1107,
-			1108,
-			1109
-		},
-		{
-			1110,
-			1111,
-			1112
-		},
-		{
-			1113,
-			1114,
-			1115
-		},
-		{
-			1116,
-			1117,
-			1118
-		},
-		{
-			1119
-		},
-		{
-			1122
-		},
-		[30] = {
-			3001,
-			3002,
-			3003
-		},
-		[15] = {
-			3107,
-			3108,
-			3109
-		},
-		[16] = {
-			3110,
-			3111,
-			3112
-		},
-		[17] = {
-			3113,
-			3114,
-			3115
-		},
-		[18] = {
-			3116,
-			3117,
-			3118
-		},
-		[101] = {
-			1201
-		},
-		[102] = {
-			1202
-		},
-		[103] = {
-			1203
-		},
-		[104] = {
-			1204
-		},
-		[105] = {
-			1205
-		},
-		[106] = {
-			1206
-		},
-		[107] = {
-			1207,
-			1208,
-			1209
-		},
-		[108] = {
-			1210,
-			1211,
-			1212
-		},
-		[109] = {
-			1213,
-			1214,
-			1215
-		},
-		[110] = {
-			1216,
-			1217,
-			1218
-		},
-		[111] = {
-			1219
-		},
-		[112] = {
-			1222
-		},
-		[130] = {
-			1223,
-			1224,
-			1225
-		},
-		[115] = {
-			1226,
-			1227,
-			1228
-		},
-		[116] = {
-			1229,
-			1230,
-			1231
-		},
-		[117] = {
-			1232,
-			1233,
-			1234
-		},
-		[118] = {
-			1235,
-			1236,
-			1237
-		}
-	},
-	all = {
-		1101,
-		1102,
-		1103,
-		1104,
-		1105,
-		1106,
-		1107,
-		1108,
-		1109,
-		1110,
-		1111,
-		1112,
-		1113,
-		1114,
-		1115,
-		1116,
-		1117,
-		1118,
-		1119,
-		1122,
-		3001,
-		3002,
-		3003,
-		3107,
-		3108,
-		3109,
-		3110,
-		3111,
-		3112,
-		3113,
-		3114,
-		3115,
-		3116,
-		3117,
-		3118,
-		1201,
-		1202,
-		1203,
-		1204,
-		1205,
-		1206,
-		1207,
-		1208,
-		1209,
-		1210,
-		1211,
-		1212,
-		1213,
-		1214,
-		1215,
-		1216,
-		1217,
-		1218,
-		1219,
-		1222,
-		1223,
-		1224,
-		1225,
-		1226,
-		1227,
-		1228,
-		1229,
-		1230,
-		1231,
-		1232,
-		1233,
-		1234,
-		1235,
-		1236,
-		1237
 	}
-}
+end)()

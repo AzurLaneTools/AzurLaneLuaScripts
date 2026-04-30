@@ -1,36 +1,39 @@
 pg = pg or {}
-pg.island_chara_template = setmetatable({
-	__name = "island_chara_template",
-	all = {
-		1,
-		10517,
-		10703,
-		20403,
-		20603,
-		29903,
-		30129,
-		30407,
-		30707,
-		31201,
-		50204,
-		50205,
-		60802,
-		70104,
-		90111,
-		10110,
-		50601,
-		30312,
-		10205,
-		49902,
-		40303,
-		990001,
-		990002,
-		990003
-	}
-}, confHX)
+pg.island_chara_template = rawget(pg, "island_chara_template") or setmetatable({
+	__name = "island_chara_template"
+}, confNEO)
+pg.island_chara_template.__namecode__ = true
+pg.island_chara_template.all = {
+	1,
+	10517,
+	10703,
+	20403,
+	20603,
+	29903,
+	30129,
+	30407,
+	30707,
+	31201,
+	50204,
+	50205,
+	60802,
+	70104,
+	90111,
+	10110,
+	50601,
+	30312,
+	10205,
+	49902,
+	40303,
+	990001,
+	990002,
+	990003
+}
 pg.base = pg.base or {}
-pg.base.island_chara_template = {
-	{
+pg.base.island_chara_template = {}
+
+(function ()
+	pg.base.island_chara_template[1] = {
 		name = "作業饅頭",
 		power = 999,
 		invite_item = 0,
@@ -243,8 +246,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[10517] = {
+	}
+	pg.base.island_chara_template[10517] = {
 		name = "ニュージャージー",
 		power = 100,
 		invite_item = 200005,
@@ -457,8 +460,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[10703] = {
+	}
+	pg.base.island_chara_template[10703] = {
 		name = "サラトガ",
 		power = 100,
 		invite_item = 200002,
@@ -671,8 +674,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[20403] = {
+	}
+	pg.base.island_chara_template[20403] = {
 		name = "フッド",
 		power = 100,
 		invite_item = 200011,
@@ -885,8 +888,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[20603] = {
+	}
+	pg.base.island_chara_template[20603] = {
 		name = "ユニコーン",
 		power = 100,
 		invite_item = 200009,
@@ -1099,8 +1102,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[29903] = {
+	}
+	pg.base.island_chara_template[29903] = {
 		name = "チェシャー",
 		power = 100,
 		invite_item = 200001,
@@ -1313,8 +1316,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[30129] = {
+	}
+	pg.base.island_chara_template[30129] = {
 		name = "島風",
 		power = 100,
 		invite_item = 200006,
@@ -1527,8 +1530,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[30407] = {
+	}
+	pg.base.island_chara_template[30407] = {
 		name = "天城ちゃん",
 		power = 100,
 		invite_item = 200012,
@@ -1741,8 +1744,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[30707] = {
+	}
+	pg.base.island_chara_template[30707] = {
 		name = "大鳳",
 		power = 100,
 		invite_item = 200004,
@@ -1955,8 +1958,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[31201] = {
+	}
+	pg.base.island_chara_template[31201] = {
 		name = "明石",
 		power = 100,
 		invite_item = 200003,
@@ -2174,8 +2177,8 @@ pg.base.island_chara_template = {
 			10001141,
 			10001150
 		}
-	},
-	[50204] = {
+	}
+	pg.base.island_chara_template[50204] = {
 		name = "応瑞",
 		power = 100,
 		invite_item = 200007,
@@ -2388,8 +2391,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[50205] = {
+	}
+	pg.base.island_chara_template[50205] = {
 		name = "肇和",
 		power = 100,
 		invite_item = 200014,
@@ -2602,8 +2605,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[60802] = {
+	}
+	pg.base.island_chara_template[60802] = {
 		name = "レオナルド・ダ・ヴィンチ",
 		power = 100,
 		invite_item = 200015,
@@ -2816,8 +2819,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[70104] = {
+	}
+	pg.base.island_chara_template[70104] = {
 		name = "タシュケント",
 		power = 100,
 		invite_item = 200010,
@@ -3030,8 +3033,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[90111] = {
+	}
+	pg.base.island_chara_template[90111] = {
 		name = "ル·マラン",
 		power = 100,
 		invite_item = 200008,
@@ -3244,8 +3247,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[10110] = {
+	}
+	pg.base.island_chara_template[10110] = {
 		name = "ウィリアム・D・ポーター",
 		power = 100,
 		invite_item = 200016,
@@ -3458,8 +3461,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[50601] = {
+	}
+	pg.base.island_chara_template[50601] = {
 		name = "鎮海",
 		power = 100,
 		invite_item = 200017,
@@ -3672,8 +3675,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[30312] = {
+	}
+	pg.base.island_chara_template[30312] = {
 		name = "愛宕",
 		power = 100,
 		invite_item = 200018,
@@ -3886,8 +3889,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[10205] = {
+	}
+	pg.base.island_chara_template[10205] = {
 		name = "ヘレナ",
 		power = 100,
 		invite_item = 200019,
@@ -4100,8 +4103,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[49902] = {
+	}
+	pg.base.island_chara_template[49902] = {
 		name = "フリードリヒ·デア·グローセ",
 		power = 100,
 		invite_item = 200020,
@@ -4314,8 +4317,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[40303] = {
+	}
+	pg.base.island_chara_template[40303] = {
 		name = "プリンツ·オイゲン",
 		power = 100,
 		invite_item = 200013,
@@ -4528,8 +4531,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[990001] = {
+	}
+	pg.base.island_chara_template[990001] = {
 		name = "ナビゲーター",
 		power = 100,
 		invite_item = 200021,
@@ -4742,8 +4745,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[990002] = {
+	}
+	pg.base.island_chara_template[990002] = {
 		name = "TB",
 		power = 100,
 		invite_item = 200022,
@@ -4956,8 +4959,8 @@ pg.base.island_chara_template = {
 			20
 		},
 		in_task = {}
-	},
-	[990003] = {
+	}
+	pg.base.island_chara_template[990003] = {
 		name = "スカベンジャー",
 		power = 100,
 		invite_item = 200023,
@@ -5171,4 +5174,4 @@ pg.base.island_chara_template = {
 		},
 		in_task = {}
 	}
-}
+end)()

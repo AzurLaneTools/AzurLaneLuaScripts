@@ -1,6 +1,38 @@
 pg = pg or {}
-pg.island_item_timeline = {
-	{
+pg.island_item_timeline = rawget(pg, "island_item_timeline") or setmetatable({
+	__name = "island_item_timeline"
+}, confNEO)
+pg.island_item_timeline.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24
+}
+pg.base = pg.base or {}
+pg.base.island_item_timeline = {}
+
+(function ()
+	pg.base.island_item_timeline[1] = {
 		is_loop = 1,
 		name = "island/timeline/04/interactive_50128/pla_interactive_50128_01",
 		model = "Assets/Island/Item/05/50128/Prefab/pre_item_05_50128a.prefab",
@@ -11,48 +43,48 @@ pg.island_item_timeline = {
 		binding_track = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.island_item_timeline[2] = {
 		is_loop = 1,
 		name = "island/timeline/04/interactive_50128/pla_interactive_50128_02",
 		model = "Assets/Island/Item/05/50128/Prefab/pre_item_05_50128b.prefab",
 		id = 2,
 		binding_path = {},
 		binding_track = {}
-	},
-	{
+	}
+	pg.base.island_item_timeline[3] = {
 		is_loop = 1,
 		name = "island/timeline/04/interactive_50128/pla_interactive_50128_03",
 		model = "Assets/Island/Item/05/50128/Prefab/pre_item_05_50128c.prefab",
 		id = 3,
 		binding_path = {},
 		binding_track = {}
-	},
-	{
+	}
+	pg.base.island_item_timeline[4] = {
 		is_loop = 1,
 		name = "island/timeline/04/interactive_50104/pla_interactive_50104_01",
 		model = "Assets/Island/Item/05/50104/Prefab/pre_item_05_50104.prefab",
 		id = 4,
 		binding_path = {},
 		binding_track = {}
-	},
-	{
+	}
+	pg.base.island_item_timeline[5] = {
 		is_loop = 1,
 		name = "island/timeline/04/interactive_50105/pla_interactive_50105_01",
 		model = "Assets/Island/Item/05/50105/Prefab/pre_item_05_50105.prefab",
 		id = 5,
 		binding_path = {},
 		binding_track = {}
-	},
-	{
+	}
+	pg.base.island_item_timeline[6] = {
 		is_loop = 1,
 		name = "island/timeline/04/interactive_50103/pla_interactive_50103_01",
 		model = "Assets/Island/Item/05/50103/Prefab/pre_item_05_50103.prefab",
 		id = 6,
 		binding_path = {},
 		binding_track = {}
-	},
-	{
+	}
+	pg.base.island_item_timeline[7] = {
 		is_loop = 1,
 		name = "island/timeline/04/interactive_50107/pla_interactive_50107_01",
 		model = "Assets/Island/Item/05/50107/Prefab/pre_item_05_50107.prefab",
@@ -63,8 +95,8 @@ pg.island_item_timeline = {
 		binding_track = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.island_item_timeline[8] = {
 		is_loop = 1,
 		name = "island/timeline/04/interactive_50119/pla_interactive_50119_01",
 		model = "Assets/Island/Item/05/50119/Prefab/pre_item_05_50119.prefab",
@@ -75,24 +107,24 @@ pg.island_item_timeline = {
 		binding_track = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.island_item_timeline[9] = {
 		is_loop = 1,
 		name = "island/timeline/04/interactive_50201/pla_interactive_50201_01",
 		model = "Assets/Island/Item/05/50201/Prefab/pre_item_05_50201a.prefab",
 		id = 9,
 		binding_path = {},
 		binding_track = {}
-	},
-	{
+	}
+	pg.base.island_item_timeline[10] = {
 		is_loop = 1,
 		name = "island/timeline/04/interactive_50201/pla_interactive_50201_02",
 		model = "Assets/Island/Item/05/50201/Prefab/pre_item_05_50201b.prefab",
 		id = 10,
 		binding_path = {},
 		binding_track = {}
-	},
-	{
+	}
+	pg.base.island_item_timeline[11] = {
 		is_loop = 1,
 		name = "island/timeline/04/interactive_50202/pla_interactive_50202_01",
 		model = "Assets/Island/Item/05/50202/Prefab/pre_item_05_50202.prefab",
@@ -105,8 +137,8 @@ pg.island_item_timeline = {
 			1,
 			2
 		}
-	},
-	{
+	}
+	pg.base.island_item_timeline[12] = {
 		is_loop = 1,
 		name = "island/timeline/04/interactive_50205/pla_interactive_50205_01",
 		model = "Assets/Island/Item/05/50205/Prefab/pre_item_05_50205.prefab",
@@ -119,8 +151,8 @@ pg.island_item_timeline = {
 			1,
 			2
 		}
-	},
-	{
+	}
+	pg.base.island_item_timeline[13] = {
 		is_loop = 1,
 		name = "island/timeline/04/interactive_50212/pla_interactive_50212_01",
 		model = "Assets/Island/Item/05/50212/Prefab/pre_item_05_50212.prefab",
@@ -131,32 +163,32 @@ pg.island_item_timeline = {
 		binding_track = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.island_item_timeline[14] = {
 		is_loop = 1,
 		name = "Island/Timeline/05/interative_sit/pla_interative_sit",
 		model = "",
 		id = 14,
 		binding_path = {},
 		binding_track = {}
-	},
-	{
+	}
+	pg.base.island_item_timeline[15] = {
 		is_loop = 1,
 		name = "Island/Timeline/05/interative_lie/pla_interative_lie",
 		model = "",
 		id = 15,
 		binding_path = {},
 		binding_track = {}
-	},
-	{
+	}
+	pg.base.island_item_timeline[16] = {
 		is_loop = 1,
 		name = "Island/Timeline/05/interative_lay/pla_interative_lay",
 		model = "",
 		id = 16,
 		binding_path = {},
 		binding_track = {}
-	},
-	{
+	}
+	pg.base.island_item_timeline[17] = {
 		is_loop = 0,
 		name = "island/timeline/04/interactive_50251/pla_interactive_50251_01",
 		model = "Assets/Island/Item/05/50251/Prefab/pre_item_05_50251.prefab",
@@ -173,8 +205,8 @@ pg.island_item_timeline = {
 			3,
 			4
 		}
-	},
-	{
+	}
+	pg.base.island_item_timeline[18] = {
 		is_loop = 0,
 		name = "island/timeline/04/interactive_50251/pla_interactive_50251_02",
 		model = "Assets/Island/Item/05/50251/Prefab/pre_item_05_50251.prefab",
@@ -191,8 +223,8 @@ pg.island_item_timeline = {
 			3,
 			4
 		}
-	},
-	{
+	}
+	pg.base.island_item_timeline[19] = {
 		is_loop = 1,
 		name = "island/timeline/04/interactive_50277/pla_interactive_50277_01",
 		model = "Assets/Island/Item/05/50277/Prefab/pre_item_05_50277.prefab",
@@ -203,8 +235,8 @@ pg.island_item_timeline = {
 		binding_track = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.island_item_timeline[20] = {
 		is_loop = 1,
 		name = "island/timeline/04/interactive_50253/pla_interactive_50253_01",
 		model = "Assets/Island/Item/05/50253/Prefab/pre_item_05_50253.prefab",
@@ -215,8 +247,8 @@ pg.island_item_timeline = {
 		binding_track = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.island_item_timeline[21] = {
 		is_loop = 0,
 		name = "island/timeline/04/interactive_50254/pla_interactive_50254_01",
 		model = "Assets/Island/Item/05/50254/Prefab/pre_item_05_50254.prefab",
@@ -231,8 +263,8 @@ pg.island_item_timeline = {
 			2,
 			3
 		}
-	},
-	{
+	}
+	pg.base.island_item_timeline[22] = {
 		is_loop = 0,
 		name = "island/timeline/04/interactive_50257/pla_interactive_50257_a-b",
 		model = "Assets/Island/Item/05/50257/Prefab/pre_item_05_50257.prefab",
@@ -245,8 +277,8 @@ pg.island_item_timeline = {
 			1,
 			2
 		}
-	},
-	{
+	}
+	pg.base.island_item_timeline[23] = {
 		is_loop = 0,
 		name = "island/timeline/04/interactive_50257/pla_interactive_50257_b-c",
 		model = "Assets/Island/Item/05/50257/Prefab/pre_item_05_50257.prefab",
@@ -259,8 +291,8 @@ pg.island_item_timeline = {
 			1,
 			2
 		}
-	},
-	{
+	}
+	pg.base.island_item_timeline[24] = {
 		is_loop = 0,
 		name = "island/timeline/04/interactive_50257/pla_interactive_50257_c-a",
 		model = "Assets/Island/Item/05/50257/Prefab/pre_item_05_50257.prefab",
@@ -273,31 +305,5 @@ pg.island_item_timeline = {
 			1,
 			2
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24
 	}
-}
+end)()

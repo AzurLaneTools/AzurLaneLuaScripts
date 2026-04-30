@@ -1,6 +1,18 @@
 pg = pg or {}
-pg.island_achievement_group = {
-	{
+pg.island_achievement_group = rawget(pg, "island_achievement_group") or setmetatable({
+	__name = "island_achievement_group"
+}, confNEO)
+pg.island_achievement_group.all = {
+	1,
+	2,
+	3,
+	4
+}
+pg.base = pg.base or {}
+pg.base.island_achievement_group = {}
+
+(function ()
+	pg.base.island_achievement_group[1] = {
 		id = 1,
 		name = "夢織りの章",
 		icon = "achv_type_2",
@@ -15,8 +27,8 @@ pg.island_achievement_group = {
 			8,
 			9
 		}
-	},
-	{
+	}
+	pg.base.island_achievement_group[2] = {
 		id = 2,
 		name = "繁栄の道",
 		icon = "achv_type_1",
@@ -30,8 +42,8 @@ pg.island_achievement_group = {
 			107,
 			108
 		}
-	},
-	{
+	}
+	pg.base.island_achievement_group[3] = {
 		id = 3,
 		name = "商売の途",
 		icon = "achv_type_3",
@@ -42,8 +54,8 @@ pg.island_achievement_group = {
 			204,
 			205
 		}
-	},
-	{
+	}
+	pg.base.island_achievement_group[4] = {
 		id = 4,
 		name = "成長の旅",
 		icon = "achv_type_4",
@@ -57,11 +69,5 @@ pg.island_achievement_group = {
 			307,
 			308
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4
 	}
-}
+end)()

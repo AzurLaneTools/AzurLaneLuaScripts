@@ -1,6 +1,25 @@
 pg = pg or {}
-pg.guild_boss_event = {
-	[90001] = {
+pg.guild_boss_event = rawget(pg, "guild_boss_event") or setmetatable({
+	__name = "guild_boss_event"
+}, confNEO)
+pg.guild_boss_event.all = {
+	90001,
+	90002,
+	90003,
+	90004,
+	90005,
+	90006,
+	90007,
+	90008,
+	90009,
+	90010,
+	90011
+}
+pg.base = pg.base or {}
+pg.base.guild_boss_event = {}
+
+(function ()
+	pg.base.guild_boss_event[90001] = {
 		id = 90001,
 		name = "北方海域の敵影",
 		report = "セイレーンが撃破され、海域の脅威がついに去った。この戦いもまたセイレーンの実験の一つだろうか？",
@@ -47,8 +66,8 @@ pg.guild_boss_event = {
 				6
 			}
 		}
-	},
-	[90002] = {
+	}
+	pg.base.guild_boss_event[90002] = {
 		id = 90002,
 		name = "環礁を脅かす異変",
 		report = "跋扈する特殊兵装のセイレーン個体が撃破され、脅かされていた碧き航路は再び人類の手に戻った。",
@@ -95,8 +114,8 @@ pg.guild_boss_event = {
 				8
 			}
 		}
-	},
-	[90003] = {
+	}
+	pg.base.guild_boss_event[90003] = {
 		id = 90003,
 		name = "NA海域の幽霊",
 		report = "「幽霊」の正体が改造されたセイレーンだった。人々は再び「幽霊」を恐れる必要はないだろう。",
@@ -143,8 +162,8 @@ pg.guild_boss_event = {
 				7
 			}
 		}
-	},
-	[90004] = {
+	}
+	pg.base.guild_boss_event[90004] = {
 		id = 90004,
 		name = "氷海の巨獣",
 		report = "自由航行こそできないものの、航路の安全はほぼ確保したと言えよう。",
@@ -191,8 +210,8 @@ pg.guild_boss_event = {
 				9
 			}
 		}
-	},
-	[90005] = {
+	}
+	pg.base.guild_boss_event[90005] = {
 		id = 90005,
 		name = "北方航路の襲撃者",
 		report = "撃破されたセイレーンは自我意識を持たず、より上位な個体への模倣…いや、量産型？だった模様。",
@@ -239,8 +258,8 @@ pg.guild_boss_event = {
 				12
 			}
 		}
-	},
-	[90006] = {
+	}
+	pg.base.guild_boss_event[90006] = {
 		id = 90006,
 		name = "峡湾の氷像",
 		report = "セイレーンはどうやら艦隊と交戦するつもりはなく、何かを探しているように見えた…",
@@ -287,8 +306,8 @@ pg.guild_boss_event = {
 				8
 			}
 		}
-	},
-	[90007] = {
+	}
+	pg.base.guild_boss_event[90007] = {
 		id = 90007,
 		name = "王家海域の海魔",
 		report = "港を包囲したセイレーン艦隊を駆除し、海上輸送の拠点の確保に成功。敵の奇襲に備え、次の戦いへ",
@@ -335,8 +354,8 @@ pg.guild_boss_event = {
 				11
 			}
 		}
-	},
-	[90008] = {
+	}
+	pg.base.guild_boss_event[90008] = {
 		id = 90008,
 		name = "白海の亡霊",
 		report = "撃破されたセイレーンは自我意識を持たず、より上位な個体への模倣…いや、量産型？だった模様。",
@@ -383,8 +402,8 @@ pg.guild_boss_event = {
 				15
 			}
 		}
-	},
-	[90009] = {
+	}
+	pg.base.guild_boss_event[90009] = {
 		id = 90009,
 		name = "離島北部の夜戦",
 		report = "艦隊は巡回中に密かに接近してきたセイレーンを撃破した。近海は再び平和に戻った。",
@@ -431,8 +450,8 @@ pg.guild_boss_event = {
 				10
 			}
 		}
-	},
-	[90010] = {
+	}
+	pg.base.guild_boss_event[90010] = {
 		id = 90010,
 		name = "離島湾岸強襲戦",
 		report = "離島周辺のセイレーン艦隊を撃破。これにより離島周辺海域の作戦はまた一歩前進した。",
@@ -479,8 +498,8 @@ pg.guild_boss_event = {
 				14
 			}
 		}
-	},
-	[90011] = {
+	}
+	pg.base.guild_boss_event[90011] = {
 		id = 90011,
 		name = "鉄底海峡防衛戦",
 		report = "セイレーンによる反撃の大攻勢を撃退した。次なる陰謀の手がかりが見つかることを願うばかりだ。",
@@ -527,18 +546,5 @@ pg.guild_boss_event = {
 				18
 			}
 		}
-	},
-	all = {
-		90001,
-		90002,
-		90003,
-		90004,
-		90005,
-		90006,
-		90007,
-		90008,
-		90009,
-		90010,
-		90011
 	}
-}
+end)()

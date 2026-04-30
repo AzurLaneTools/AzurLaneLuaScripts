@@ -1,6 +1,52 @@
 pg = pg or {}
-pg.chapter_defense = {
-	[1250001] = {
+pg.chapter_defense = rawget(pg, "chapter_defense") or setmetatable({
+	__name = "chapter_defense"
+}, confNEO)
+pg.chapter_defense.all = {
+	1250001,
+	1250002,
+	1250003,
+	1250011,
+	1250012,
+	1250013,
+	1250017,
+	1260002,
+	1260003,
+	1260022,
+	1260023,
+	1470002,
+	1470003,
+	1470022,
+	1470023,
+	1490001,
+	1490002,
+	1490003,
+	1490011,
+	1490012,
+	1490013,
+	1490017,
+	1920004,
+	1920005,
+	1920006,
+	1920024,
+	1920025,
+	1920026,
+	2100162,
+	2100163,
+	2100172,
+	2100173,
+	2100181,
+	2100182,
+	2100183,
+	2100191,
+	2100192,
+	2100193
+}
+pg.base = pg.base or {}
+pg.base.chapter_defense = {}
+
+(function ()
+	pg.base.chapter_defense[1250001] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 8,
@@ -38,8 +84,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[1250002] = {
+	}
+	pg.base.chapter_defense[1250002] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 8,
@@ -81,8 +127,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[1250003] = {
+	}
+	pg.base.chapter_defense[1250003] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 8,
@@ -128,8 +174,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[1250011] = {
+	}
+	pg.base.chapter_defense[1250011] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 8,
@@ -171,8 +217,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[1250012] = {
+	}
+	pg.base.chapter_defense[1250012] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 8,
@@ -218,8 +264,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[1250013] = {
+	}
+	pg.base.chapter_defense[1250013] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 8,
@@ -269,8 +315,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[1250017] = {
+	}
+	pg.base.chapter_defense[1250017] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 12,
@@ -328,8 +374,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[1260002] = {
+	}
+	pg.base.chapter_defense[1260002] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 8,
@@ -365,8 +411,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[1260003] = {
+	}
+	pg.base.chapter_defense[1260003] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 8,
@@ -402,8 +448,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[1260022] = {
+	}
+	pg.base.chapter_defense[1260022] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 8,
@@ -439,8 +485,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[1260023] = {
+	}
+	pg.base.chapter_defense[1260023] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 8,
@@ -476,8 +522,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[1470002] = {
+	}
+	pg.base.chapter_defense[1470002] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 8,
@@ -513,8 +559,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[1470003] = {
+	}
+	pg.base.chapter_defense[1470003] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 8,
@@ -550,8 +596,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[1470022] = {
+	}
+	pg.base.chapter_defense[1470022] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 8,
@@ -587,8 +633,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[1470023] = {
+	}
+	pg.base.chapter_defense[1470023] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 8,
@@ -624,8 +670,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[1490001] = {
+	}
+	pg.base.chapter_defense[1490001] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 8,
@@ -663,8 +709,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[1490002] = {
+	}
+	pg.base.chapter_defense[1490002] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 8,
@@ -706,8 +752,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[1490003] = {
+	}
+	pg.base.chapter_defense[1490003] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 8,
@@ -753,8 +799,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[1490011] = {
+	}
+	pg.base.chapter_defense[1490011] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 8,
@@ -796,8 +842,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[1490012] = {
+	}
+	pg.base.chapter_defense[1490012] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 8,
@@ -843,8 +889,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[1490013] = {
+	}
+	pg.base.chapter_defense[1490013] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 8,
@@ -894,8 +940,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[1490017] = {
+	}
+	pg.base.chapter_defense[1490017] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 12,
@@ -953,8 +999,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[1920004] = {
+	}
+	pg.base.chapter_defense[1920004] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 8,
@@ -999,8 +1045,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[1920005] = {
+	}
+	pg.base.chapter_defense[1920005] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 8,
@@ -1045,8 +1091,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[1920006] = {
+	}
+	pg.base.chapter_defense[1920006] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 8,
@@ -1091,8 +1137,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[1920024] = {
+	}
+	pg.base.chapter_defense[1920024] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 8,
@@ -1137,8 +1183,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[1920025] = {
+	}
+	pg.base.chapter_defense[1920025] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 8,
@@ -1183,8 +1229,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[1920026] = {
+	}
+	pg.base.chapter_defense[1920026] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 8,
@@ -1229,8 +1275,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[2100162] = {
+	}
+	pg.base.chapter_defense[2100162] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 8,
@@ -1266,8 +1312,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[2100163] = {
+	}
+	pg.base.chapter_defense[2100163] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 8,
@@ -1303,8 +1349,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[2100172] = {
+	}
+	pg.base.chapter_defense[2100172] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 8,
@@ -1340,8 +1386,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[2100173] = {
+	}
+	pg.base.chapter_defense[2100173] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 8,
@@ -1377,8 +1423,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[2100181] = {
+	}
+	pg.base.chapter_defense[2100181] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 8,
@@ -1416,8 +1462,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[2100182] = {
+	}
+	pg.base.chapter_defense[2100182] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 8,
@@ -1459,8 +1505,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[2100183] = {
+	}
+	pg.base.chapter_defense[2100183] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 8,
@@ -1506,8 +1552,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[2100191] = {
+	}
+	pg.base.chapter_defense[2100191] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 8,
@@ -1549,8 +1595,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[2100192] = {
+	}
+	pg.base.chapter_defense[2100192] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 8,
@@ -1596,8 +1642,8 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	[2100193] = {
+	}
+	pg.base.chapter_defense[2100193] = {
 		port_refresh = 1,
 		bonus_time = 0,
 		port_hp = 8,
@@ -1647,45 +1693,5 @@ pg.chapter_defense = {
 				1
 			}
 		}
-	},
-	all = {
-		1250001,
-		1250002,
-		1250003,
-		1250011,
-		1250012,
-		1250013,
-		1250017,
-		1260002,
-		1260003,
-		1260022,
-		1260023,
-		1470002,
-		1470003,
-		1470022,
-		1470023,
-		1490001,
-		1490002,
-		1490003,
-		1490011,
-		1490012,
-		1490013,
-		1490017,
-		1920004,
-		1920005,
-		1920006,
-		1920024,
-		1920025,
-		1920026,
-		2100162,
-		2100163,
-		2100172,
-		2100173,
-		2100181,
-		2100182,
-		2100183,
-		2100191,
-		2100192,
-		2100193
 	}
-}
+end)()

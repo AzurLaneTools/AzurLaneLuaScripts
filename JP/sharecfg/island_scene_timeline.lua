@@ -1,84 +1,33 @@
 pg = pg or {}
-pg.island_scene_timeline = {
-	{
-		name = "Island/Timeline_scene/prologue_sc01",
-		id = 1,
-		sequence = "[sequence]",
-		obj = {
-			{
-				"all_con/[actor]/ZHG_con",
-				{
-					0,
-					0,
-					0
-				},
-				{
-					-1.798609e-05,
-					0,
-					0
-				},
-				{
-					0,
-					0
-				}
-			}
-		},
-		tracks = {
-			{
-				{
-					"[sequence]/[vfx]/Shot03",
-					"10",
-					"Animator"
-				},
-				{
-					"[sequence]/[vfx]/Shot03",
-					"11",
-					"Animator"
-				},
-				{
-					"[sequence]/[vfx]/Shot03",
-					"12",
-					"Animator"
-				},
-				{
-					"[sequence]/[vfx]/Shot04",
-					"13",
-					"Animator"
-				},
-				{
-					"[sequence]/[vfx]/Shot04",
-					"14",
-					"Animator"
-				},
-				{
-					"[sequence]/[vfx]/Shot04",
-					"15",
-					"Animator"
-				},
-				{
-					"[sequence]/[vfx]/Shot06",
-					"2",
-					"Animator"
-				},
-				{
-					"[sequence]/[vfx]/Shot06",
-					"12",
-					"Animator"
-				},
-				{
-					"[sequence]/[vfx]/Shot06",
-					"13",
-					"Animator"
-				},
-				{
-					"[sequence]/[vfx]/Shot06",
-					"14",
-					"Animator"
-				}
-			}
-		}
-	},
-	[3] = {
+pg.island_scene_timeline = rawget(pg, "island_scene_timeline") or setmetatable({
+	__name = "island_scene_timeline"
+}, confNEO)
+pg.island_scene_timeline.all = {
+	3,
+	4,
+	5,
+	6,
+	15,
+	7,
+	9,
+	10,
+	13,
+	11,
+	12,
+	16,
+	14,
+	2,
+	1,
+	19,
+	17,
+	8,
+	18
+}
+pg.base = pg.base or {}
+pg.base.island_scene_timeline = {}
+
+(function ()
+	pg.base.island_scene_timeline[3] = {
 		name = "Island/Timeline_scene/prologue_sc02_1",
 		id = 3,
 		sequence = "[sequence]",
@@ -125,8 +74,8 @@ pg.island_scene_timeline = {
 				}
 			}
 		}
-	},
-	[4] = {
+	}
+	pg.base.island_scene_timeline[4] = {
 		name = "Island/Timeline_scene/prologue_sc02_2",
 		id = 4,
 		sequence = "[sequence]",
@@ -173,8 +122,8 @@ pg.island_scene_timeline = {
 				}
 			}
 		}
-	},
-	[5] = {
+	}
+	pg.base.island_scene_timeline[5] = {
 		name = "Island/Timeline_scene/prologue_sc03",
 		id = 5,
 		sequence = "[sequence]",
@@ -236,8 +185,8 @@ pg.island_scene_timeline = {
 				}
 			}
 		}
-	},
-	[6] = {
+	}
+	pg.base.island_scene_timeline[6] = {
 		name = "Island/Timeline_scene/prologue_sc04",
 		id = 6,
 		sequence = "[sequence]",
@@ -319,15 +268,15 @@ pg.island_scene_timeline = {
 				}
 			}
 		}
-	},
-	[15] = {
+	}
+	pg.base.island_scene_timeline[15] = {
 		name = "Island/Timeline_scene/prologue_sc05",
 		id = 15,
 		sequence = "[sequence]",
 		obj = {},
 		tracks = {}
-	},
-	[7] = {
+	}
+	pg.base.island_scene_timeline[7] = {
 		name = "Island/Timeline_scene/prologue_sc06_1",
 		id = 7,
 		sequence = "[sequence]",
@@ -389,8 +338,8 @@ pg.island_scene_timeline = {
 				}
 			}
 		}
-	},
-	[9] = {
+	}
+	pg.base.island_scene_timeline[9] = {
 		name = "Island/Timeline_scene/prologue_sc06_3",
 		id = 9,
 		sequence = "[sequence]",
@@ -491,8 +440,8 @@ pg.island_scene_timeline = {
 				}
 			}
 		}
-	},
-	[10] = {
+	}
+	pg.base.island_scene_timeline[10] = {
 		name = "Island/Timeline_scene/prologue_sc07_1",
 		id = 10,
 		sequence = "[sequence]",
@@ -599,8 +548,8 @@ pg.island_scene_timeline = {
 				}
 			}
 		}
-	},
-	[13] = {
+	}
+	pg.base.island_scene_timeline[13] = {
 		name = "Island/Timeline_scene/sceneview_jhs_autumn",
 		id = 13,
 		sequence = "[sequence]",
@@ -642,8 +591,8 @@ pg.island_scene_timeline = {
 				}
 			}
 		}
-	},
-	[11] = {
+	}
+	pg.base.island_scene_timeline[11] = {
 		name = "Island/Timeline_scene/sceneview_commercial",
 		id = 11,
 		sequence = "[sequence]",
@@ -690,8 +639,8 @@ pg.island_scene_timeline = {
 				}
 			}
 		}
-	},
-	[12] = {
+	}
+	pg.base.island_scene_timeline[12] = {
 		name = "Island/Timeline_scene/sceneview_factory_01",
 		id = 12,
 		sequence = "[sequence]",
@@ -733,8 +682,8 @@ pg.island_scene_timeline = {
 				}
 			}
 		}
-	},
-	[16] = {
+	}
+	pg.base.island_scene_timeline[16] = {
 		name = "Island/Timeline_scene/func_signin",
 		id = 16,
 		sequence = "[sequence]",
@@ -821,8 +770,8 @@ pg.island_scene_timeline = {
 				}
 			}
 		}
-	},
-	[14] = {
+	}
+	pg.base.island_scene_timeline[14] = {
 		name = "Island/Timeline_scene/sceneview_ranch",
 		id = 14,
 		sequence = "Sequence",
@@ -869,8 +818,8 @@ pg.island_scene_timeline = {
 				}
 			}
 		}
-	},
-	[2] = {
+	}
+	pg.base.island_scene_timeline[2] = {
 		name = "Island/Timeline_scene/prologue_sc07_2",
 		id = 2,
 		sequence = "[sequence]",
@@ -917,8 +866,86 @@ pg.island_scene_timeline = {
 				}
 			}
 		}
-	},
-	[19] = {
+	}
+	pg.base.island_scene_timeline[1] = {
+		name = "Island/Timeline_scene/prologue_sc01",
+		id = 1,
+		sequence = "[sequence]",
+		obj = {
+			{
+				"all_con/[actor]/ZHG_con",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					-1.798609e-05,
+					0,
+					0
+				},
+				{
+					0,
+					0
+				}
+			}
+		},
+		tracks = {
+			{
+				{
+					"[sequence]/[vfx]/Shot03",
+					"10",
+					"Animator"
+				},
+				{
+					"[sequence]/[vfx]/Shot03",
+					"11",
+					"Animator"
+				},
+				{
+					"[sequence]/[vfx]/Shot03",
+					"12",
+					"Animator"
+				},
+				{
+					"[sequence]/[vfx]/Shot04",
+					"13",
+					"Animator"
+				},
+				{
+					"[sequence]/[vfx]/Shot04",
+					"14",
+					"Animator"
+				},
+				{
+					"[sequence]/[vfx]/Shot04",
+					"15",
+					"Animator"
+				},
+				{
+					"[sequence]/[vfx]/Shot06",
+					"2",
+					"Animator"
+				},
+				{
+					"[sequence]/[vfx]/Shot06",
+					"12",
+					"Animator"
+				},
+				{
+					"[sequence]/[vfx]/Shot06",
+					"13",
+					"Animator"
+				},
+				{
+					"[sequence]/[vfx]/Shot06",
+					"14",
+					"Animator"
+				}
+			}
+		}
+	}
+	pg.base.island_scene_timeline[19] = {
 		name = "Island/Timeline_scene/sceneview_orchard",
 		id = 19,
 		sequence = "[sequence]",
@@ -944,8 +971,8 @@ pg.island_scene_timeline = {
 		tracks = {
 			{}
 		}
-	},
-	[17] = {
+	}
+	pg.base.island_scene_timeline[17] = {
 		name = "Island/Timeline_scene/prologue_sc09_1",
 		id = 17,
 		sequence = "[sequence]",
@@ -1002,8 +1029,8 @@ pg.island_scene_timeline = {
 				}
 			}
 		}
-	},
-	[8] = {
+	}
+	pg.base.island_scene_timeline[8] = {
 		name = "Island/Timeline_scene/prologue_sc06_2",
 		id = 8,
 		sequence = "[sequence]",
@@ -1070,8 +1097,8 @@ pg.island_scene_timeline = {
 				}
 			}
 		}
-	},
-	[18] = {
+	}
+	pg.base.island_scene_timeline[18] = {
 		name = "Island/Timeline_scene/prologue_sc08_1",
 		id = 18,
 		sequence = "[sequence]",
@@ -1118,26 +1145,5 @@ pg.island_scene_timeline = {
 				}
 			}
 		}
-	},
-	all = {
-		3,
-		4,
-		5,
-		6,
-		15,
-		7,
-		9,
-		10,
-		13,
-		11,
-		12,
-		16,
-		14,
-		2,
-		1,
-		19,
-		17,
-		8,
-		18
 	}
-}
+end)()

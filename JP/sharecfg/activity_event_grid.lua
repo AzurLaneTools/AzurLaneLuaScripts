@@ -1,6 +1,16 @@
 pg = pg or {}
-pg.activity_event_grid = {
-	{
+pg.activity_event_grid = rawget(pg, "activity_event_grid") or setmetatable({
+	__name = "activity_event_grid"
+}, confNEO)
+pg.activity_event_grid.all = {
+	1,
+	2
+}
+pg.base = pg.base or {}
+pg.base.activity_event_grid = {}
+
+(function ()
+	pg.base.activity_event_grid[1] = {
 		ticket_item = 59267,
 		id = 1,
 		explore_item = 59268,
@@ -142,8 +152,8 @@ pg.activity_event_grid = {
 				1.2
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_grid[2] = {
 		ticket_item = 59392,
 		id = 2,
 		explore_item = 59393,
@@ -285,9 +295,5 @@ pg.activity_event_grid = {
 				1.2
 			}
 		}
-	},
-	all = {
-		1,
-		2
 	}
-}
+end)()

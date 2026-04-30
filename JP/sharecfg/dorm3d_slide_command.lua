@@ -1,6 +1,65 @@
 pg = pg or {}
-pg.dorm3d_slide_command = {
-	{
+pg.dorm3d_slide_command = rawget(pg, "dorm3d_slide_command") or setmetatable({
+	__name = "dorm3d_slide_command"
+}, confNEO)
+pg.dorm3d_slide_command.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	47,
+	48,
+	49,
+	50,
+	51,
+	52,
+	53,
+	54,
+	55,
+	56,
+	57
+}
+pg.base = pg.base or {}
+pg.base.dorm3d_slide_command = {}
+
+(function ()
+	pg.base.dorm3d_slide_command[1] = {
 		wet = "",
 		effect = "",
 		time = 0,
@@ -9,8 +68,8 @@ pg.dorm3d_slide_command = {
 		anim = "",
 		target = "Point1",
 		fade_in_time = 0
-	},
-	{
+	}
+	pg.base.dorm3d_slide_command[2] = {
 		wet = "",
 		effect = "",
 		time = 0,
@@ -19,8 +78,8 @@ pg.dorm3d_slide_command = {
 		anim = "",
 		target = "Point2",
 		fade_in_time = 0.8
-	},
-	{
+	}
+	pg.base.dorm3d_slide_command[3] = {
 		wet = "",
 		effect = "",
 		time = 0,
@@ -29,8 +88,8 @@ pg.dorm3d_slide_command = {
 		anim = "",
 		target = "Point2_1",
 		fade_in_time = 0.66
-	},
-	{
+	}
+	pg.base.dorm3d_slide_command[4] = {
 		wet = "",
 		effect = "",
 		time = 0,
@@ -39,8 +98,8 @@ pg.dorm3d_slide_command = {
 		anim = "",
 		target = "Point3",
 		fade_in_time = 0
-	},
-	{
+	}
+	pg.base.dorm3d_slide_command[5] = {
 		wet = "",
 		effect = "",
 		time = 0,
@@ -49,8 +108,8 @@ pg.dorm3d_slide_command = {
 		anim = "",
 		target = "Point3_1",
 		fade_in_time = 0
-	},
-	{
+	}
+	pg.base.dorm3d_slide_command[6] = {
 		wet = "",
 		effect = "",
 		time = 0,
@@ -59,8 +118,8 @@ pg.dorm3d_slide_command = {
 		anim = "",
 		target = "Point3_2",
 		fade_in_time = 0
-	},
-	{
+	}
+	pg.base.dorm3d_slide_command[7] = {
 		wet = "",
 		effect = "",
 		time = 0.6,
@@ -69,8 +128,8 @@ pg.dorm3d_slide_command = {
 		anim = "swim_slide_walk_01",
 		target = "Point3_3",
 		fade_in_time = 0
-	},
-	{
+	}
+	pg.base.dorm3d_slide_command[8] = {
 		wet = "",
 		effect = "",
 		time = 0,
@@ -79,8 +138,8 @@ pg.dorm3d_slide_command = {
 		anim = "",
 		target = "Point4",
 		fade_in_time = 0
-	},
-	{
+	}
+	pg.base.dorm3d_slide_command[9] = {
 		wet = "",
 		effect = "",
 		time = 0.75,
@@ -89,8 +148,8 @@ pg.dorm3d_slide_command = {
 		anim = "swim_slide_walk_01",
 		target = "Point4_1",
 		fade_in_time = 0
-	},
-	{
+	}
+	pg.base.dorm3d_slide_command[10] = {
 		wet = "",
 		effect = "",
 		time = 0,
@@ -99,8 +158,8 @@ pg.dorm3d_slide_command = {
 		anim = "30221@swim_slide_up_03",
 		target = "",
 		fade_in_time = 0.3
-	},
-	{
+	}
+	pg.base.dorm3d_slide_command[11] = {
 		wet = "",
 		effect = "",
 		time = 0,
@@ -109,8 +168,8 @@ pg.dorm3d_slide_command = {
 		anim = "",
 		target = "Point6",
 		fade_in_time = 0.6
-	},
-	{
+	}
+	pg.base.dorm3d_slide_command[12] = {
 		wet = "",
 		time = 0.33,
 		type = 6,
@@ -122,8 +181,8 @@ pg.dorm3d_slide_command = {
 			0.15,
 			"vfx_down_nd"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_slide_command[13] = {
 		wet = "",
 		time = 0,
 		type = 5,
@@ -135,8 +194,8 @@ pg.dorm3d_slide_command = {
 			0.1,
 			"vfx_up_nd"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_slide_command[14] = {
 		wet = "",
 		effect = "",
 		time = 1,
@@ -145,8 +204,8 @@ pg.dorm3d_slide_command = {
 		anim = "swim_slide_walk_01",
 		target = "Point8",
 		fade_in_time = 0
-	},
-	{
+	}
+	pg.base.dorm3d_slide_command[15] = {
 		wet = "",
 		effect = "",
 		time = 0,
@@ -155,8 +214,8 @@ pg.dorm3d_slide_command = {
 		anim = "",
 		target = "Point9",
 		fade_in_time = 0
-	},
-	{
+	}
+	pg.base.dorm3d_slide_command[16] = {
 		wet = "",
 		effect = "",
 		time = 0,
@@ -165,8 +224,8 @@ pg.dorm3d_slide_command = {
 		anim = "",
 		target = "Point10",
 		fade_in_time = 0
-	},
-	{
+	}
+	pg.base.dorm3d_slide_command[17] = {
 		wet = "",
 		effect = "",
 		time = 0,
@@ -175,8 +234,8 @@ pg.dorm3d_slide_command = {
 		anim = "",
 		target = "Point11",
 		fade_in_time = 0
-	},
-	[21] = {
+	}
+	pg.base.dorm3d_slide_command[21] = {
 		wet = "",
 		effect = "",
 		time = 0,
@@ -185,8 +244,8 @@ pg.dorm3d_slide_command = {
 		anim = "",
 		target = "Point1",
 		fade_in_time = 0
-	},
-	[22] = {
+	}
+	pg.base.dorm3d_slide_command[22] = {
 		wet = "",
 		effect = "",
 		time = 0,
@@ -195,8 +254,8 @@ pg.dorm3d_slide_command = {
 		anim = "",
 		target = "Point2",
 		fade_in_time = 0.8
-	},
-	[23] = {
+	}
+	pg.base.dorm3d_slide_command[23] = {
 		wet = "",
 		effect = "",
 		time = 0,
@@ -205,8 +264,8 @@ pg.dorm3d_slide_command = {
 		anim = "",
 		target = "Point2_1",
 		fade_in_time = 0.66
-	},
-	[24] = {
+	}
+	pg.base.dorm3d_slide_command[24] = {
 		wet = "",
 		effect = "",
 		time = 0,
@@ -215,8 +274,8 @@ pg.dorm3d_slide_command = {
 		anim = "",
 		target = "Point3",
 		fade_in_time = 0
-	},
-	[25] = {
+	}
+	pg.base.dorm3d_slide_command[25] = {
 		wet = "",
 		effect = "",
 		time = 0,
@@ -225,8 +284,8 @@ pg.dorm3d_slide_command = {
 		anim = "",
 		target = "Point3_1",
 		fade_in_time = 0
-	},
-	[26] = {
+	}
+	pg.base.dorm3d_slide_command[26] = {
 		wet = "",
 		effect = "",
 		time = 0,
@@ -235,8 +294,8 @@ pg.dorm3d_slide_command = {
 		anim = "",
 		target = "Point3_2",
 		fade_in_time = 0
-	},
-	[27] = {
+	}
+	pg.base.dorm3d_slide_command[27] = {
 		wet = "",
 		effect = "",
 		time = 0.6,
@@ -245,8 +304,8 @@ pg.dorm3d_slide_command = {
 		anim = "swim_slide_walk_01",
 		target = "Point3_3",
 		fade_in_time = 0
-	},
-	[28] = {
+	}
+	pg.base.dorm3d_slide_command[28] = {
 		wet = "",
 		effect = "",
 		time = 0,
@@ -255,8 +314,8 @@ pg.dorm3d_slide_command = {
 		anim = "",
 		target = "Point4",
 		fade_in_time = 0
-	},
-	[29] = {
+	}
+	pg.base.dorm3d_slide_command[29] = {
 		wet = "",
 		effect = "",
 		time = 0.75,
@@ -265,8 +324,8 @@ pg.dorm3d_slide_command = {
 		anim = "swim_slide_walk_01",
 		target = "Point4_TLX",
 		fade_in_time = 0
-	},
-	[30] = {
+	}
+	pg.base.dorm3d_slide_command[30] = {
 		wet = "",
 		effect = "",
 		time = 0,
@@ -275,8 +334,8 @@ pg.dorm3d_slide_command = {
 		anim = "swim_slide_up_01",
 		target = "",
 		fade_in_time = 0
-	},
-	[31] = {
+	}
+	pg.base.dorm3d_slide_command[31] = {
 		wet = "",
 		effect = "",
 		time = 0,
@@ -285,8 +344,8 @@ pg.dorm3d_slide_command = {
 		anim = "",
 		target = "Point6",
 		fade_in_time = 0
-	},
-	[32] = {
+	}
+	pg.base.dorm3d_slide_command[32] = {
 		wet = "",
 		time = 1.2,
 		type = 6,
@@ -298,8 +357,8 @@ pg.dorm3d_slide_command = {
 			0.4,
 			"vfx_down_tlx"
 		}
-	},
-	[33] = {
+	}
+	pg.base.dorm3d_slide_command[33] = {
 		wet = "",
 		time = 0,
 		type = 5,
@@ -311,8 +370,8 @@ pg.dorm3d_slide_command = {
 			0.1,
 			"vfx_up_tlx"
 		}
-	},
-	[34] = {
+	}
+	pg.base.dorm3d_slide_command[34] = {
 		wet = "",
 		effect = "",
 		time = 1,
@@ -321,8 +380,8 @@ pg.dorm3d_slide_command = {
 		anim = "swim_slide_walk_01",
 		target = "Point8",
 		fade_in_time = 0.25
-	},
-	[35] = {
+	}
+	pg.base.dorm3d_slide_command[35] = {
 		wet = "",
 		effect = "",
 		time = 0,
@@ -331,8 +390,8 @@ pg.dorm3d_slide_command = {
 		anim = "",
 		target = "Point9",
 		fade_in_time = 0
-	},
-	[36] = {
+	}
+	pg.base.dorm3d_slide_command[36] = {
 		wet = "",
 		effect = "",
 		time = 0,
@@ -341,8 +400,8 @@ pg.dorm3d_slide_command = {
 		anim = "",
 		target = "Point10",
 		fade_in_time = 0
-	},
-	[37] = {
+	}
+	pg.base.dorm3d_slide_command[37] = {
 		wet = "",
 		effect = "",
 		time = 0,
@@ -351,8 +410,8 @@ pg.dorm3d_slide_command = {
 		anim = "",
 		target = "Point11_TLX",
 		fade_in_time = 0
-	},
-	[41] = {
+	}
+	pg.base.dorm3d_slide_command[41] = {
 		wet = "",
 		effect = "",
 		time = 0,
@@ -361,8 +420,8 @@ pg.dorm3d_slide_command = {
 		anim = "",
 		target = "Point1",
 		fade_in_time = 0
-	},
-	[42] = {
+	}
+	pg.base.dorm3d_slide_command[42] = {
 		wet = "",
 		effect = "",
 		time = 0,
@@ -371,8 +430,8 @@ pg.dorm3d_slide_command = {
 		anim = "",
 		target = "Point2",
 		fade_in_time = 0.8
-	},
-	[43] = {
+	}
+	pg.base.dorm3d_slide_command[43] = {
 		wet = "",
 		effect = "",
 		time = 0,
@@ -381,8 +440,8 @@ pg.dorm3d_slide_command = {
 		anim = "",
 		target = "Point2_1",
 		fade_in_time = 0.66
-	},
-	[44] = {
+	}
+	pg.base.dorm3d_slide_command[44] = {
 		wet = "",
 		effect = "",
 		time = 0,
@@ -391,8 +450,8 @@ pg.dorm3d_slide_command = {
 		anim = "",
 		target = "Point3",
 		fade_in_time = 0
-	},
-	[45] = {
+	}
+	pg.base.dorm3d_slide_command[45] = {
 		wet = "",
 		effect = "",
 		time = 0,
@@ -401,8 +460,8 @@ pg.dorm3d_slide_command = {
 		anim = "",
 		target = "Point3_1",
 		fade_in_time = 0
-	},
-	[46] = {
+	}
+	pg.base.dorm3d_slide_command[46] = {
 		wet = "",
 		effect = "",
 		time = 0,
@@ -411,8 +470,8 @@ pg.dorm3d_slide_command = {
 		anim = "",
 		target = "Point3_2",
 		fade_in_time = 0
-	},
-	[47] = {
+	}
+	pg.base.dorm3d_slide_command[47] = {
 		wet = "",
 		effect = "",
 		time = 0.6,
@@ -421,8 +480,8 @@ pg.dorm3d_slide_command = {
 		anim = "swim_slide_walk_01",
 		target = "Point3_3",
 		fade_in_time = 0
-	},
-	[48] = {
+	}
+	pg.base.dorm3d_slide_command[48] = {
 		wet = "",
 		effect = "",
 		time = 0,
@@ -431,8 +490,8 @@ pg.dorm3d_slide_command = {
 		anim = "",
 		target = "Point4",
 		fade_in_time = 0
-	},
-	[49] = {
+	}
+	pg.base.dorm3d_slide_command[49] = {
 		wet = "",
 		effect = "",
 		time = 0.75,
@@ -441,8 +500,8 @@ pg.dorm3d_slide_command = {
 		anim = "swim_slide_walk_01",
 		target = "Point4_AB",
 		fade_in_time = 0
-	},
-	[50] = {
+	}
+	pg.base.dorm3d_slide_command[50] = {
 		wet = "",
 		effect = "",
 		time = 0,
@@ -451,8 +510,8 @@ pg.dorm3d_slide_command = {
 		anim = "swim_slide_up_01",
 		target = "",
 		fade_in_time = 0
-	},
-	[51] = {
+	}
+	pg.base.dorm3d_slide_command[51] = {
 		wet = "",
 		effect = "",
 		time = 0,
@@ -461,8 +520,8 @@ pg.dorm3d_slide_command = {
 		anim = "",
 		target = "Point6",
 		fade_in_time = 0
-	},
-	[52] = {
+	}
+	pg.base.dorm3d_slide_command[52] = {
 		wet = "",
 		time = 0.6,
 		type = 6,
@@ -474,8 +533,8 @@ pg.dorm3d_slide_command = {
 			0.45,
 			"vfx_down_ab"
 		}
-	},
-	[53] = {
+	}
+	pg.base.dorm3d_slide_command[53] = {
 		wet = "",
 		time = 0,
 		type = 5,
@@ -487,8 +546,8 @@ pg.dorm3d_slide_command = {
 			0.1,
 			"vfx_up_ab"
 		}
-	},
-	[54] = {
+	}
+	pg.base.dorm3d_slide_command[54] = {
 		wet = "",
 		effect = "",
 		time = 1,
@@ -497,8 +556,8 @@ pg.dorm3d_slide_command = {
 		anim = "swim_slide_walk_01",
 		target = "Point8",
 		fade_in_time = 0
-	},
-	[55] = {
+	}
+	pg.base.dorm3d_slide_command[55] = {
 		wet = "",
 		effect = "",
 		time = 0,
@@ -507,8 +566,8 @@ pg.dorm3d_slide_command = {
 		anim = "",
 		target = "Point9",
 		fade_in_time = 0
-	},
-	[56] = {
+	}
+	pg.base.dorm3d_slide_command[56] = {
 		wet = "",
 		effect = "",
 		time = 0,
@@ -517,8 +576,8 @@ pg.dorm3d_slide_command = {
 		anim = "",
 		target = "Point10",
 		fade_in_time = 0
-	},
-	[57] = {
+	}
+	pg.base.dorm3d_slide_command[57] = {
 		wet = "",
 		effect = "",
 		time = 0,
@@ -527,58 +586,5 @@ pg.dorm3d_slide_command = {
 		anim = "",
 		target = "Point11_AB",
 		fade_in_time = 0
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46,
-		47,
-		48,
-		49,
-		50,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56,
-		57
 	}
-}
+end)()

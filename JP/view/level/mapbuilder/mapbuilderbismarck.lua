@@ -187,16 +187,33 @@ slot0.UpdateMapItem = function(slot0, slot1, slot2)
 
 	slot23 = slot2:GetDailyBonusQuota()
 	slot24 = findTF(slot4, "mark")
+	slot25 = slot24:Find("bonus")
+	slot27 = findTF(slot25, "icon/Image")
 
-	setActive(slot24:Find("bonus"), slot23)
+	setActive(slot25, slot23)
 	setActive(slot24, slot23)
 
+	if slot25:Find("icon") then
+		setActive(slot26, slot23 and slot0.bonusPtIconPath)
+	end
+
 	if slot23 then
-		slot0.sceneParent.loader:GetSprite("ui/levelmainscene_atlas", slot0.contextData.map:getConfig("type") == Map.ACTIVITY_HARD and "bonus_us_hard" or "bonus_us", slot24:Find("bonus"))
+		slot28 = slot24:GetComponent(typeof(CanvasGroup))
+
+		slot0.sceneParent.loader:GetSprite("ui/levelmainscene_atlas", slot2:GetDailyBonusIconName(), slot25)
+
+		if slot26 and slot0.bonusPtIconPath then
+			if slot27 then
+				GetImageSpriteFromAtlasAsync(slot0.bonusPtIconPath, "", slot27, true)
+			else
+				GetImageSpriteFromAtlasAsync(slot0.bonusPtIconPath, "", slot26, true)
+			end
+		end
+
 		LeanTween.cancel(go(slot24), true)
 
-		slot28 = slot24.anchoredPosition.y
-		slot24:GetComponent(typeof(CanvasGroup)).alpha = 0
+		slot30 = slot24.anchoredPosition.y
+		slot28.alpha = 0
 
 		LeanTween.value(go(slot24), 0, 1, 0.2):setOnUpdate(System.Action_float(function (slot0)
 			uv0.alpha = slot0
@@ -211,7 +228,7 @@ slot0.UpdateMapItem = function(slot0, slot1, slot2)
 		end)):setEase(LeanTweenType.easeOutSine):setDelay(0.7)
 	end
 
-	slot25 = slot2.id
+	slot28 = slot2.id
 
 	onButton(slot0, slot4, function ()
 		if uv0.chaptersInBackAnimating[uv1] then

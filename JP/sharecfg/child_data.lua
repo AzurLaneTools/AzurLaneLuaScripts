@@ -1,6 +1,15 @@
 pg = pg or {}
-pg.child_data = {
-	{
+pg.child_data = rawget(pg, "child_data") or setmetatable({
+	__name = "child_data"
+}, confNEO)
+pg.child_data.all = {
+	1
+}
+pg.base = pg.base or {}
+pg.base.child_data = {}
+
+(function ()
+	pg.base.child_data[1] = {
 		name = "TB",
 		attr_2_add = 5,
 		default_target = 99,
@@ -646,8 +655,5 @@ pg.child_data = {
 				}
 			}
 		}
-	},
-	all = {
-		1
 	}
-}
+end)()

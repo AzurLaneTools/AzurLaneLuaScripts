@@ -1,6 +1,137 @@
 pg = pg or {}
-pg.backyard_theme_template = {
-	{
+pg.backyard_theme_template = rawget(pg, "backyard_theme_template") or setmetatable({
+	__name = "backyard_theme_template"
+}, confNEO)
+pg.backyard_theme_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	7,
+	8,
+	11,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	27,
+	28,
+	29,
+	30,
+	31,
+	33,
+	35,
+	36,
+	37,
+	38,
+	39,
+	40,
+	41,
+	43,
+	44,
+	45,
+	46,
+	48,
+	49,
+	50,
+	51,
+	52,
+	53,
+	54,
+	55,
+	56,
+	57,
+	58,
+	59,
+	60,
+	61,
+	62,
+	63,
+	65,
+	66,
+	69,
+	70,
+	71,
+	72,
+	73,
+	74,
+	75,
+	76,
+	77,
+	78,
+	79,
+	80,
+	81,
+	82,
+	83,
+	84,
+	85,
+	86,
+	87,
+	88,
+	89,
+	90,
+	91,
+	92,
+	93,
+	94,
+	95,
+	96,
+	97,
+	98,
+	99,
+	100,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	110,
+	111,
+	112,
+	113,
+	114,
+	115,
+	116,
+	117,
+	118,
+	119,
+	120,
+	121,
+	122,
+	123,
+	124,
+	125,
+	126,
+	127,
+	129,
+	130,
+	131,
+	132,
+	133,
+	134,
+	135,
+	136,
+	137
+}
+pg.base = pg.base or {}
+pg.base.backyard_theme_template = {}
+
+(function ()
+	pg.base.backyard_theme_template[1] = {
 		Cfg_1 = 5,
 		name = "貧乏ライフ",
 		desc = "貧乏人専用セット。すっからかんよりはマシかも…",
@@ -32,8 +163,8 @@ pg.backyard_theme_template = {
 			1308,
 			1309
 		}
-	},
-	{
+	}
+	pg.base.backyard_theme_template[2] = {
 		Cfg_1 = 5,
 		name = "和風の深秋",
 		desc = "重桜調度品一式。悠々自適に過ごす鎮守府の秋",
@@ -72,8 +203,8 @@ pg.backyard_theme_template = {
 			2304,
 			2305
 		}
-	},
-	{
+	}
+	pg.base.backyard_theme_template[3] = {
 		Cfg_1 = 5,
 		name = "白鷲の日常",
 		desc = "ユニオン日常風家具セット。リラックスしてEnjoy！",
@@ -112,8 +243,8 @@ pg.backyard_theme_template = {
 			3305,
 			3306
 		}
-	},
-	{
+	}
+	pg.base.backyard_theme_template[4] = {
 		Cfg_1 = 5,
 		name = "王家の午後",
 		desc = "ロイヤル風インテリアセット。アフタヌーンティーなんて常識よ？",
@@ -154,8 +285,8 @@ pg.backyard_theme_template = {
 			4306,
 			4307
 		}
-	},
-	{
+	}
+	pg.base.backyard_theme_template[5] = {
 		Cfg_1 = 5,
 		name = "鉄血指揮所",
 		desc = "鉄血指揮所風機材一式。技術が世界一ィ！",
@@ -196,8 +327,8 @@ pg.backyard_theme_template = {
 			5306,
 			5307
 		}
-	},
-	[7] = {
+	}
+	pg.base.backyard_theme_template[7] = {
 		Cfg_1 = 5,
 		name = "炎夏の涼味",
 		desc = "真夏の昼はまさに炎天下！スイカでも食べて体を冷やそう！",
@@ -257,8 +388,8 @@ pg.backyard_theme_template = {
 			7303,
 			7304
 		}
-	},
-	[8] = {
+	}
+	pg.base.backyard_theme_template[8] = {
 		Cfg_1 = 5,
 		name = "クナイペ「鉄血」",
 		desc = "せっかく来たんだから、一杯でもどう？",
@@ -304,8 +435,8 @@ pg.backyard_theme_template = {
 			8306,
 			8307
 		}
-	},
-	[11] = {
+	}
+	pg.base.backyard_theme_template[11] = {
 		Cfg_1 = 5,
 		name = "午後のお茶会",
 		desc = "指揮官にはナイショのおしゃべりをしましょう？",
@@ -360,8 +491,8 @@ pg.backyard_theme_template = {
 			11306,
 			11307
 		}
-	},
-	[13] = {
+	}
+	pg.base.backyard_theme_template[13] = {
 		Cfg_1 = 5,
 		name = "ハロウィン",
 		desc = "トリック・オア・トリート！",
@@ -416,8 +547,8 @@ pg.backyard_theme_template = {
 			13305,
 			13306
 		}
-	},
-	[14] = {
+	}
+	pg.base.backyard_theme_template[14] = {
 		Cfg_1 = 5,
 		name = "星々との邂逅",
 		desc = "深遠なる宇宙には、無数の秘密が隠されている",
@@ -460,8 +591,8 @@ pg.backyard_theme_template = {
 			14303,
 			14304
 		}
-	},
-	[15] = {
+	}
+	pg.base.backyard_theme_template[15] = {
 		Cfg_1 = 5,
 		name = "ニコニココラボ",
 		desc = "ニコニコ！",
@@ -493,8 +624,8 @@ pg.backyard_theme_template = {
 			15302,
 			15305
 		}
-	},
-	[16] = {
+	}
+	pg.base.backyard_theme_template[16] = {
 		Cfg_1 = 5,
 		name = "クリスマス",
 		desc = "Merry Christmas!",
@@ -564,8 +695,8 @@ pg.backyard_theme_template = {
 				}
 			}
 		}
-	},
-	[17] = {
+	}
+	pg.base.backyard_theme_template[17] = {
 		Cfg_1 = 5,
 		name = "謹賀新年",
 		desc = "今年もよろしくお願いします！",
@@ -632,8 +763,8 @@ pg.backyard_theme_template = {
 				}
 			}
 		}
-	},
-	[18] = {
+	}
+	pg.base.backyard_theme_template[18] = {
 		Cfg_1 = 5,
 		name = "ゲイムギョウ界",
 		desc = "ねっぷねぷ～ゲイムギョウ界へようこそ！",
@@ -674,8 +805,8 @@ pg.backyard_theme_template = {
 			18305,
 			18306
 		}
-	},
-	[19] = {
+	}
+	pg.base.backyard_theme_template[19] = {
 		Cfg_1 = 5,
 		name = "恭賀新春",
 		desc = "春節（旧正月）おめでとう！",
@@ -747,8 +878,8 @@ pg.backyard_theme_template = {
 				}
 			}
 		}
-	},
-	[20] = {
+	}
+	pg.base.backyard_theme_template[20] = {
 		Cfg_1 = 5,
 		name = "饅頭パーク ",
 		desc = "饅頭パークへようこそ！",
@@ -781,8 +912,8 @@ pg.backyard_theme_template = {
 			20113,
 			20114
 		}
-	},
-	[21] = {
+	}
+	pg.base.backyard_theme_template[21] = {
 		Cfg_1 = 5,
 		name = "MARIAGE D'AMOUR",
 		desc = "「誓いますか？」「はい、誓います」",
@@ -824,8 +955,8 @@ pg.backyard_theme_template = {
 			21301,
 			21302
 		}
-	},
-	[22] = {
+	}
+	pg.base.backyard_theme_template[22] = {
 		Cfg_1 = 5,
 		name = "アーバンロイヤル",
 		desc = "ありのままで気品をもって優雅たれ――これこそロイヤル王都のあるべき姿",
@@ -866,8 +997,8 @@ pg.backyard_theme_template = {
 			22304,
 			22305
 		}
-	},
-	[23] = {
+	}
+	pg.base.backyard_theme_template[23] = {
 		Cfg_1 = 5,
 		name = "饅頭保育園",
 		desc = "保育園開園！これで饅頭の収容先も安心！",
@@ -906,8 +1037,8 @@ pg.backyard_theme_template = {
 			23306,
 			23307
 		}
-	},
-	[24] = {
+	}
+	pg.base.backyard_theme_template[24] = {
 		Cfg_1 = 5,
 		name = "ネコカフェ",
 		desc = "「ニャンニャンカフェへいらっしゃいませにゃ！」",
@@ -954,8 +1085,8 @@ pg.backyard_theme_template = {
 			24305,
 			24306
 		}
-	},
-	[27] = {
+	}
+	pg.base.backyard_theme_template[27] = {
 		Cfg_1 = 5,
 		name = "サマーパーク",
 		desc = "水遊び、しよっ！",
@@ -1001,8 +1132,8 @@ pg.backyard_theme_template = {
 			27202,
 			27301
 		}
-	},
-	[28] = {
+	}
+	pg.base.backyard_theme_template[28] = {
 		Cfg_1 = 5,
 		name = "饅頭ハウス",
 		desc = "ここがあの饅頭のハウスね……",
@@ -1066,8 +1197,8 @@ pg.backyard_theme_template = {
 			28306,
 			28307
 		}
-	},
-	[29] = {
+	}
+	pg.base.backyard_theme_template[29] = {
 		Cfg_1 = 5,
 		name = "ディープブルー",
 		desc = "深き青に隠された夢の国",
@@ -1111,8 +1242,8 @@ pg.backyard_theme_template = {
 			29301,
 			29302
 		}
-	},
-	[30] = {
+	}
+	pg.base.backyard_theme_template[30] = {
 		Cfg_1 = 5,
 		name = "レインボーヘブン",
 		desc = "素晴らしきレインボーヘブン！",
@@ -1157,8 +1288,8 @@ pg.backyard_theme_template = {
 			30302,
 			30303
 		}
-	},
-	[31] = {
+	}
+	pg.base.backyard_theme_template[31] = {
 		Cfg_1 = 5,
 		name = "atre系列",
 		desc = "atre系列",
@@ -1179,8 +1310,8 @@ pg.backyard_theme_template = {
 			31103,
 			31104
 		}
-	},
-	[33] = {
+	}
+	pg.base.backyard_theme_template[33] = {
 		Cfg_1 = 5,
 		name = "妖怪お祭り",
 		desc = "イヒヒヒ～妖怪たちのお祭りにようこそ～",
@@ -1227,8 +1358,8 @@ pg.backyard_theme_template = {
 			33305,
 			33306
 		}
-	},
-	[35] = {
+	}
+	pg.base.backyard_theme_template[35] = {
 		Cfg_1 = 5,
 		name = "ハロウィンナイト",
 		desc = "ハロウィンナイトへようこそ！",
@@ -1282,8 +1413,8 @@ pg.backyard_theme_template = {
 			35302,
 			35303
 		}
-	},
-	[36] = {
+	}
+	pg.base.backyard_theme_template[36] = {
 		Cfg_1 = 5,
 		name = "うたわれるもの コラボ",
 		desc = "御心のままに",
@@ -1322,8 +1453,8 @@ pg.backyard_theme_template = {
 			36304,
 			36305
 		}
-	},
-	[37] = {
+	}
+	pg.base.backyard_theme_template[37] = {
 		Cfg_1 = 5,
 		name = "町のクリスマス",
 		desc = "雪の商店街でクリスマスを楽しもう！",
@@ -1362,8 +1493,8 @@ pg.backyard_theme_template = {
 			37119,
 			37120
 		}
-	},
-	[38] = {
+	}
+	pg.base.backyard_theme_template[38] = {
 		Cfg_1 = 5,
 		name = "猪突猛進！",
 		desc = "（※都合によりイノシシがボアに改名しました）",
@@ -1421,8 +1552,8 @@ pg.backyard_theme_template = {
 			38304,
 			38305
 		}
-	},
-	[39] = {
+	}
+	pg.base.backyard_theme_template[39] = {
 		Cfg_1 = 5,
 		name = "亥年フェスティバル",
 		desc = "東煌の旧正月風の家具。吉祥・如意、今年こそうまくいくように",
@@ -1476,8 +1607,8 @@ pg.backyard_theme_template = {
 			39306,
 			39307
 		}
-	},
-	[40] = {
+	}
+	pg.base.backyard_theme_template[40] = {
 		Cfg_1 = 5,
 		name = "雪山ホリデー",
 		desc = "ホリデーはスキー場に行こうぜ！",
@@ -1519,8 +1650,8 @@ pg.backyard_theme_template = {
 			40123,
 			40124
 		}
-	},
-	[41] = {
+	}
+	pg.base.backyard_theme_template[41] = {
 		Cfg_1 = 5,
 		name = "饅頭ランド",
 		desc = "夢の饅頭ランドへようこそ！",
@@ -1555,8 +1686,8 @@ pg.backyard_theme_template = {
 			41115,
 			41116
 		}
-	},
-	[43] = {
+	}
+	pg.base.backyard_theme_template[43] = {
 		Cfg_1 = 5,
 		name = "バーチャル空間",
 		desc = "これであなたのお部屋もバーチャル空間に！",
@@ -1599,8 +1730,8 @@ pg.backyard_theme_template = {
 			43304,
 			43307
 		}
-	},
-	[44] = {
+	}
+	pg.base.backyard_theme_template[44] = {
 		Cfg_1 = 5,
 		name = "雨の日",
 		desc = "心がブルーになりがちな雨の午後",
@@ -1643,8 +1774,8 @@ pg.backyard_theme_template = {
 			44301,
 			44302
 		}
-	},
-	[45] = {
+	}
+	pg.base.backyard_theme_template[45] = {
 		Cfg_1 = 5,
 		name = "鉄血楽章",
 		desc = "耳を澄まして聞いてごらん、鉄血が奏でるノスタルジックな楽章を――",
@@ -1708,8 +1839,8 @@ pg.backyard_theme_template = {
 			45309,
 			45310
 		}
-	},
-	[46] = {
+	}
+	pg.base.backyard_theme_template[46] = {
 		Cfg_1 = 5,
 		name = "電脳スペース",
 		desc = "認証、起動――「サイバーパンク」の世界へようこそ",
@@ -1761,8 +1892,8 @@ pg.backyard_theme_template = {
 			46304,
 			46305
 		}
-	},
-	[48] = {
+	}
+	pg.base.backyard_theme_template[48] = {
 		Cfg_1 = 5,
 		name = "サディア旅情",
 		desc = "「サディアの威光…ではなく、観光の魅力を世界に広めますわ」",
@@ -1808,8 +1939,8 @@ pg.backyard_theme_template = {
 			48302,
 			48303
 		}
-	},
-	[49] = {
+	}
+	pg.base.backyard_theme_template[49] = {
 		Cfg_1 = 5,
 		name = "新設基地執務室",
 		desc = "",
@@ -1855,8 +1986,8 @@ pg.backyard_theme_template = {
 			49304,
 			49305
 		}
-	},
-	[50] = {
+	}
+	pg.base.backyard_theme_template[50] = {
 		Cfg_1 = 5,
 		name = "On the road",
 		desc = "乗り物を用意して、ユニオンロードの旅を楽しもう！",
@@ -1898,8 +2029,8 @@ pg.backyard_theme_template = {
 			50122,
 			50123
 		}
-	},
-	[51] = {
+	}
+	pg.base.backyard_theme_template[51] = {
 		Cfg_1 = 5,
 		name = "饅頭屋台街",
 		desc = "屋台街でグルメライフ！",
@@ -1935,8 +2066,8 @@ pg.backyard_theme_template = {
 			51117,
 			51118
 		}
-	},
-	[52] = {
+	}
+	pg.base.backyard_theme_template[52] = {
 		Cfg_1 = 5,
 		name = "ハロウィンタウン",
 		desc = "今年も母港がハロウィン一色だ！",
@@ -1973,8 +2104,8 @@ pg.backyard_theme_template = {
 			52117,
 			52118
 		}
-	},
-	[53] = {
+	}
+	pg.base.backyard_theme_template[53] = {
 		Cfg_1 = 5,
 		name = "激奏ライブ！",
 		desc = "ライブスタート！",
@@ -2011,8 +2142,8 @@ pg.backyard_theme_template = {
 			53303,
 			53304
 		}
-	},
-	[54] = {
+	}
+	pg.base.backyard_theme_template[54] = {
 		Cfg_1 = 5,
 		name = "pocky联动",
 		desc = "pocky联动",
@@ -2034,8 +2165,8 @@ pg.backyard_theme_template = {
 			54104,
 			54105
 		}
-	},
-	[55] = {
+	}
+	pg.base.backyard_theme_template[55] = {
 		Cfg_1 = 5,
 		name = "hololive",
 		desc = "hololive-virtual idol project",
@@ -2091,8 +2222,8 @@ pg.backyard_theme_template = {
 			55306,
 			55307
 		}
-	},
-	[56] = {
+	}
+	pg.base.backyard_theme_template[56] = {
 		Cfg_1 = 5,
 		name = "聖夜のオトギ町",
 		desc = "クリスマスプレゼント…いい子限定！",
@@ -2124,8 +2255,8 @@ pg.backyard_theme_template = {
 			56112,
 			56113
 		}
-	},
-	[57] = {
+	}
+	pg.base.backyard_theme_template[57] = {
 		Cfg_1 = 5,
 		name = "初詣の夜",
 		desc = "新しい一年でも、幸せになりますように",
@@ -2161,8 +2292,8 @@ pg.backyard_theme_template = {
 			57116,
 			57117
 		}
-	},
-	[58] = {
+	}
+	pg.base.backyard_theme_template[58] = {
 		Cfg_1 = 5,
 		name = "団円新春！",
 		desc = "大吉大利！家宅平安！",
@@ -2198,8 +2329,8 @@ pg.backyard_theme_template = {
 			58303,
 			58304
 		}
-	},
-	[59] = {
+	}
+	pg.base.backyard_theme_template[59] = {
 		Cfg_1 = 5,
 		name = "スウィーティーデイ",
 		desc = "貴方と一緒にいる、激甘で幸せそうな每日",
@@ -2233,8 +2364,8 @@ pg.backyard_theme_template = {
 			59302,
 			59303
 		}
-	},
-	[60] = {
+	}
+	pg.base.backyard_theme_template[60] = {
 		Cfg_1 = 5,
 		name = "饅頭収容所バー",
 		desc = "饅頭を収容（？）するための施設。…のはずだが、北方連合にバーに改造された模様",
@@ -2280,8 +2411,8 @@ pg.backyard_theme_template = {
 			60304,
 			60305
 		}
-	},
-	[61] = {
+	}
+	pg.base.backyard_theme_template[61] = {
 		Cfg_1 = 5,
 		name = "母港運動会！",
 		desc = "早く！強く！エレガントに――！",
@@ -2327,8 +2458,8 @@ pg.backyard_theme_template = {
 			61302,
 			61303
 		}
-	},
-	[62] = {
+	}
+	pg.base.backyard_theme_template[62] = {
 		Cfg_1 = 5,
 		name = "田園アイリス",
 		desc = "「こういうのでいいんだよ。お前もそう思うだろ？」",
@@ -2363,8 +2494,8 @@ pg.backyard_theme_template = {
 			62115,
 			62116
 		}
-	},
-	[63] = {
+	}
+	pg.base.backyard_theme_template[63] = {
 		Cfg_1 = 5,
 		name = "饅頭ピザハット",
 		desc = "「最高に美味しいピョ！」",
@@ -2402,8 +2533,8 @@ pg.backyard_theme_template = {
 			63304,
 			63305
 		}
-	},
-	[65] = {
+	}
+	pg.base.backyard_theme_template[65] = {
 		Cfg_1 = 5,
 		name = "重桜の雅",
 		desc = "分かり合おうワビサビの心　褒め称えよう匠の技",
@@ -2442,8 +2573,8 @@ pg.backyard_theme_template = {
 			65119,
 			65301
 		}
-	},
-	[66] = {
+	}
+	pg.base.backyard_theme_template[66] = {
 		Cfg_1 = 5,
 		name = "レーシングパッション",
 		desc = "アクセラレーションピョ！",
@@ -2483,8 +2614,8 @@ pg.backyard_theme_template = {
 			66120,
 			66121
 		}
-	},
-	[69] = {
+	}
+	pg.base.backyard_theme_template[69] = {
 		Cfg_1 = 5,
 		name = "饅頭診療所",
 		desc = "饅頭の最新技術を集結させた医療施設。まずは検査するピョ？",
@@ -2529,8 +2660,8 @@ pg.backyard_theme_template = {
 			69308,
 			69309
 		}
-	},
-	[70] = {
+	}
+	pg.base.backyard_theme_template[70] = {
 		Cfg_1 = 5,
 		name = "激唱ライブ！",
 		desc = "空に届け、私達の歌！",
@@ -2565,8 +2696,8 @@ pg.backyard_theme_template = {
 			70115,
 			70116
 		}
-	},
-	[71] = {
+	}
+	pg.base.backyard_theme_template[71] = {
 		Cfg_1 = 5,
 		name = "ハロウィンの館",
 		desc = "ハロウィンの館へようこそ――",
@@ -2601,8 +2732,8 @@ pg.backyard_theme_template = {
 			71115,
 			71301
 		}
-	},
-	[72] = {
+	}
+	pg.base.backyard_theme_template[72] = {
 		Cfg_1 = 5,
 		name = "女神たちのバカンス",
 		desc = "一味違うバカンスを楽しむピョ！",
@@ -2644,8 +2775,8 @@ pg.backyard_theme_template = {
 			72122,
 			72123
 		}
-	},
-	[73] = {
+	}
+	pg.base.backyard_theme_template[73] = {
 		Cfg_1 = 5,
 		name = "ブラウンクリスマス",
 		desc = "今年のクリスマスはポカポカ暖かく！",
@@ -2690,8 +2821,8 @@ pg.backyard_theme_template = {
 			73304,
 			73305
 		}
-	},
-	[74] = {
+	}
+	pg.base.backyard_theme_template[74] = {
 		Cfg_1 = 5,
 		name = "正月小町",
 		desc = "正月の雪は幸運の兆し…？",
@@ -2728,8 +2859,8 @@ pg.backyard_theme_template = {
 			74117,
 			74118
 		}
-	},
-	[75] = {
+	}
+	pg.base.backyard_theme_template[75] = {
 		Cfg_1 = 5,
 		name = "饅頭の旧正月",
 		desc = "また春節がやってきたピョ！",
@@ -2765,8 +2896,8 @@ pg.backyard_theme_template = {
 			75116,
 			75301
 		}
-	},
-	[76] = {
+	}
+	pg.base.backyard_theme_template[76] = {
 		Cfg_1 = 5,
 		name = "パンダパラダイス",
 		desc = "可愛い友達と一緒に遊ぼう！",
@@ -2813,8 +2944,8 @@ pg.backyard_theme_template = {
 			76304,
 			76305
 		}
-	},
-	[77] = {
+	}
+	pg.base.backyard_theme_template[77] = {
 		Cfg_1 = 5,
 		name = "雪国の観光地",
 		desc = "ずっと見ていたい雪国の町",
@@ -2849,8 +2980,8 @@ pg.backyard_theme_template = {
 			77115,
 			77116
 		}
-	},
-	[78] = {
+	}
+	pg.base.backyard_theme_template[78] = {
 		Cfg_1 = 5,
 		name = "セイント饅頭聖殿",
 		desc = "アイリスの意匠を取り入れた聖殿にして、サディア観光スポット――「聖なる威光をご照覧あれ♪」",
@@ -2884,8 +3015,8 @@ pg.backyard_theme_template = {
 			78114,
 			78115
 		}
-	},
-	[79] = {
+	}
+	pg.base.backyard_theme_template[79] = {
 		Cfg_1 = 5,
 		name = "765プロダクション",
 		desc = "765プロダクションへようこそ！",
@@ -2933,8 +3064,8 @@ pg.backyard_theme_template = {
 			79307,
 			79308
 		}
-	},
-	[80] = {
+	}
+	pg.base.backyard_theme_template[80] = {
 		Cfg_1 = 5,
 		name = "ゲームバー",
 		desc = "静かに飲むも良し、娯楽に興じるも良し！",
@@ -2967,8 +3098,8 @@ pg.backyard_theme_template = {
 			80305,
 			80306
 		}
-	},
-	[81] = {
+	}
+	pg.base.backyard_theme_template[81] = {
 		Cfg_1 = 5,
 		name = "饅頭学園",
 		desc = "学園ライフを楽しむピョ！",
@@ -3009,8 +3140,8 @@ pg.backyard_theme_template = {
 			81305,
 			81306
 		}
-	},
-	[82] = {
+	}
+	pg.base.backyard_theme_template[82] = {
 		Cfg_1 = 5,
 		name = "ウェスタン饅頭タウン",
 		desc = "夢と富とフレンドシップ！ここは希望あふれるウェスタン饅頭タウン！",
@@ -3048,8 +3179,8 @@ pg.backyard_theme_template = {
 			82122,
 			82123
 		}
-	},
-	[83] = {
+	}
+	pg.base.backyard_theme_template[83] = {
 		Cfg_1 = 5,
 		name = "饅頭夏日祭",
 		desc = "母港っ子饅頭のお祭りだピョ！",
@@ -3081,8 +3212,8 @@ pg.backyard_theme_template = {
 			83116,
 			83117
 		}
-	},
-	[84] = {
+	}
+	pg.base.backyard_theme_template[84] = {
 		Cfg_1 = 5,
 		name = "ジオラマ町",
 		desc = "「緊急事態発生！巨大怪獣が町に接近中！」",
@@ -3137,8 +3268,8 @@ pg.backyard_theme_template = {
 			84177,
 			84178
 		}
-	},
-	[85] = {
+	}
+	pg.base.backyard_theme_template[85] = {
 		Cfg_1 = 5,
 		name = "Café in 母港",
 		desc = "いらっしゃいませ！ご注文は「いつもの」でいいですか？",
@@ -3186,8 +3317,8 @@ pg.backyard_theme_template = {
 			85308,
 			85309
 		}
-	},
-	[86] = {
+	}
+	pg.base.backyard_theme_template[86] = {
 		Cfg_1 = 5,
 		name = "東煌庭園",
 		desc = "東煌風の庭園セット。アンチシーズンでも大人気！",
@@ -3225,8 +3356,8 @@ pg.backyard_theme_template = {
 			86119,
 			86301
 		}
-	},
-	[87] = {
+	}
+	pg.base.backyard_theme_template[87] = {
 		Cfg_1 = 5,
 		name = "饅頭学園2",
 		desc = "新学期の始まりだピョ！",
@@ -3261,8 +3392,8 @@ pg.backyard_theme_template = {
 			87130,
 			87131
 		}
-	},
-	[88] = {
+	}
+	pg.base.backyard_theme_template[88] = {
 		Cfg_1 = 5,
 		name = "ヴァンパイア城",
 		desc = "ククク…我が城へようこそピョ…",
@@ -3302,8 +3433,8 @@ pg.backyard_theme_template = {
 			88304,
 			88305
 		}
-	},
-	[89] = {
+	}
+	pg.base.backyard_theme_template[89] = {
 		Cfg_1 = 5,
 		name = "東煌モダン",
 		desc = "シンプルにして困窮にあらず、ゴージャスにして豪奢にあらず",
@@ -3348,8 +3479,8 @@ pg.backyard_theme_template = {
 			89307,
 			89309
 		}
-	},
-	[90] = {
+	}
+	pg.base.backyard_theme_template[90] = {
 		Cfg_1 = 5,
 		name = "メルヘンの森",
 		desc = "ファンタジーの景色が溢れる奇妙な森",
@@ -3387,8 +3518,8 @@ pg.backyard_theme_template = {
 			90125,
 			90127
 		}
-	},
-	[91] = {
+	}
+	pg.base.backyard_theme_template[91] = {
 		Cfg_1 = 5,
 		name = "饅頭ダンスルーム",
 		desc = "音楽と一緒に踊るピョ！",
@@ -3437,8 +3568,8 @@ pg.backyard_theme_template = {
 			91304,
 			91305
 		}
-	},
-	[92] = {
+	}
+	pg.base.backyard_theme_template[92] = {
 		Cfg_1 = 5,
 		name = "饅頭ファストフード",
 		desc = "へい次のお待ちのお客様こっちピョ！",
@@ -3470,8 +3601,8 @@ pg.backyard_theme_template = {
 			92307,
 			92308
 		}
-	},
-	[93] = {
+	}
+	pg.base.backyard_theme_template[93] = {
 		Cfg_1 = 5,
 		name = "清涼盛夏",
 		desc = "アツい夏に海のサマーパーク！",
@@ -3509,8 +3640,8 @@ pg.backyard_theme_template = {
 			93119,
 			93120
 		}
-	},
-	[94] = {
+	}
+	pg.base.backyard_theme_template[94] = {
 		Cfg_1 = 5,
 		name = "饅頭学園祭",
 		desc = "楽しい饅頭たちの学園祭、ただいま開催中！",
@@ -3550,8 +3681,8 @@ pg.backyard_theme_template = {
 			94305,
 			94306
 		}
-	},
-	[95] = {
+	}
+	pg.base.backyard_theme_template[95] = {
 		Cfg_1 = 5,
 		name = "錬金術士のアトリエ",
 		desc = "謎溢れるアトリエをいざ冒険しよう！",
@@ -3599,8 +3730,8 @@ pg.backyard_theme_template = {
 			95304,
 			95305
 		}
-	},
-	[96] = {
+	}
+	pg.base.backyard_theme_template[96] = {
 		Cfg_1 = 5,
 		name = "饅頭ビーチハウス",
 		desc = "一日貸し切りの饅頭海小屋でおもてなしピョ！",
@@ -3639,8 +3770,8 @@ pg.backyard_theme_template = {
 			96306,
 			96307
 		}
-	},
-	[97] = {
+	}
+	pg.base.backyard_theme_template[97] = {
 		Cfg_1 = 5,
 		name = "東煌美食ランド",
 		desc = "「色香味」三拍子が揃った美食パラダイス！",
@@ -3681,8 +3812,8 @@ pg.backyard_theme_template = {
 			97130,
 			97301
 		}
-	},
-	[98] = {
+	}
+	pg.base.backyard_theme_template[98] = {
 		Cfg_1 = 5,
 		name = "ロイヤル学園",
 		desc = "優雅で愉快な学園ライフを♪",
@@ -3740,8 +3871,8 @@ pg.backyard_theme_template = {
 			98313,
 			98314
 		}
-	},
-	[99] = {
+	}
+	pg.base.backyard_theme_template[99] = {
 		Cfg_1 = 5,
 		name = "饅頭隠れ湯",
 		desc = "ふわふわとした湯気、なんか哲学的",
@@ -3786,8 +3917,8 @@ pg.backyard_theme_template = {
 			99303,
 			99304
 		}
-	},
-	[100] = {
+	}
+	pg.base.backyard_theme_template[100] = {
 		Cfg_1 = 5,
 		name = "饅頭無人島",
 		desc = "ここで自分の拠点を建てよう！",
@@ -3833,8 +3964,8 @@ pg.backyard_theme_template = {
 			300201,
 			300202
 		}
-	},
-	[101] = {
+	}
+	pg.base.backyard_theme_template[101] = {
 		Cfg_1 = 5,
 		name = "饅頭別荘",
 		desc = "静謐でロマンチック――饅頭別荘で花草と一緒に呼吸しましょう！",
@@ -3874,8 +4005,8 @@ pg.backyard_theme_template = {
 			301120,
 			301123
 		}
-	},
-	[102] = {
+	}
+	pg.base.backyard_theme_template[102] = {
 		Cfg_1 = 5,
 		name = "饅頭パレス",
 		desc = "クラシックでプレミアムな饅頭パレス。優雅なり！",
@@ -3922,8 +4053,8 @@ pg.backyard_theme_template = {
 			302303,
 			302304
 		}
-	},
-	[103] = {
+	}
+	pg.base.backyard_theme_template[103] = {
 		Cfg_1 = 5,
 		name = "妖怪温泉街",
 		desc = "逢魔の温泉街で大冒険…！？",
@@ -3957,8 +4088,8 @@ pg.backyard_theme_template = {
 			303117,
 			303119
 		}
-	},
-	[104] = {
+	}
+	pg.base.backyard_theme_template[104] = {
 		Cfg_1 = 5,
 		name = "パイレーツキャビン",
 		desc = "航洋船、自由とお宝のために、いざ出航！",
@@ -4014,8 +4145,8 @@ pg.backyard_theme_template = {
 			304119,
 			304108
 		}
-	},
-	[105] = {
+	}
+	pg.base.backyard_theme_template[105] = {
 		Cfg_1 = 5,
 		name = "忍屋敷",
 		desc = "忍の日常を体験したい？忍屋敷に今すぐ申し込みを！",
@@ -4053,8 +4184,8 @@ pg.backyard_theme_template = {
 			305305,
 			305306
 		}
-	},
-	[106] = {
+	}
+	pg.base.backyard_theme_template[106] = {
 		Cfg_1 = 5,
 		name = "母港ナイトクラブ",
 		desc = "ライト！ミュージック！一緒にはしゃいじゃおう！",
@@ -4085,8 +4216,8 @@ pg.backyard_theme_template = {
 			306112,
 			306114
 		}
-	},
-	[107] = {
+	}
+	pg.base.backyard_theme_template[107] = {
 		Cfg_1 = 5,
 		name = "龍舞新春",
 		desc = "新春如意、龍年大吉！",
@@ -4117,8 +4248,8 @@ pg.backyard_theme_template = {
 			307113,
 			307114
 		}
-	},
-	[108] = {
+	}
+	pg.base.backyard_theme_template[108] = {
 		Cfg_1 = 5,
 		name = "怪盗リドル",
 		desc = "ミステリアスな怪盗世界へようこそ！",
@@ -4159,8 +4290,8 @@ pg.backyard_theme_template = {
 			308303,
 			308304
 		}
-	},
-	[109] = {
+	}
+	pg.base.backyard_theme_template[109] = {
 		Cfg_1 = 5,
 		name = "魔法使いの森小屋",
 		desc = "ファンタジーと魔法に満ちた森の小屋へようこそ！",
@@ -4194,8 +4325,8 @@ pg.backyard_theme_template = {
 			309301,
 			309302
 		}
-	},
-	[110] = {
+	}
+	pg.base.backyard_theme_template[110] = {
 		Cfg_1 = 5,
 		name = "星の楽屋",
 		desc = "輝くステージが間もなく開演！",
@@ -4239,8 +4370,8 @@ pg.backyard_theme_template = {
 			310309,
 			310310
 		}
-	},
-	[111] = {
+	}
+	pg.base.backyard_theme_template[111] = {
 		Cfg_1 = 5,
 		name = "ホリデークルーズ",
 		desc = "クルーズ船と一緒に彼方へと旅立とう！",
@@ -4274,8 +4405,8 @@ pg.backyard_theme_template = {
 			311114,
 			311115
 		}
-	},
-	[112] = {
+	}
+	pg.base.backyard_theme_template[112] = {
 		Cfg_1 = 5,
 		name = "レーシングカフェ",
 		desc = "スピード！パッション！マフラーでブォォっと！",
@@ -4309,8 +4440,8 @@ pg.backyard_theme_template = {
 			312301,
 			312302
 		}
-	},
-	[113] = {
+	}
+	pg.base.backyard_theme_template[113] = {
 		Cfg_1 = 5,
 		name = "ウェスタン宿屋",
 		desc = "宿の中では喧嘩禁止ピョ！",
@@ -4344,8 +4475,10 @@ pg.backyard_theme_template = {
 			313302,
 			313303
 		}
-	},
-	[114] = {
+	}
+end)()
+(function ()
+	pg.base.backyard_theme_template[114] = {
 		Cfg_1 = 5,
 		name = "楽園ドリーム",
 		desc = "楽園の夢、ドリームランド！",
@@ -4374,8 +4507,8 @@ pg.backyard_theme_template = {
 			314110,
 			314111
 		}
-	},
-	[115] = {
+	}
+	pg.base.backyard_theme_template[115] = {
 		Cfg_1 = 5,
 		name = "シャドウポート",
 		desc = "影の港で恐れ慄くがいい！",
@@ -4406,8 +4539,8 @@ pg.backyard_theme_template = {
 			315111,
 			315112
 		}
-	},
-	[116] = {
+	}
+	pg.base.backyard_theme_template[116] = {
 		Cfg_1 = 5,
 		name = "プリンセススタイル",
 		desc = "メルヘンチックでプリンセスっぽく！",
@@ -4443,8 +4576,8 @@ pg.backyard_theme_template = {
 			316304,
 			316305
 		}
-	},
-	[117] = {
+	}
+	pg.base.backyard_theme_template[117] = {
 		Cfg_1 = 5,
 		name = "ラフシェルター",
 		desc = "危険溢れる荒野で、心休めるたった一つの場所",
@@ -4475,8 +4608,8 @@ pg.backyard_theme_template = {
 			317302,
 			317303
 		}
-	},
-	[118] = {
+	}
+	pg.base.backyard_theme_template[118] = {
 		Cfg_1 = 5,
 		name = "雪中観梅",
 		desc = "雪を踏み梅を尋ね、春の息吹を共に楽しもう",
@@ -4512,8 +4645,8 @@ pg.backyard_theme_template = {
 			318303,
 			318304
 		}
-	},
-	[119] = {
+	}
+	pg.base.backyard_theme_template[119] = {
 		Cfg_1 = 5,
 		name = "ファラオの秘境",
 		desc = "金色の大地に足を踏み入れれば、遠い昔の残響が聞こえてくるくるくる",
@@ -4552,8 +4685,8 @@ pg.backyard_theme_template = {
 			319303,
 			319304
 		}
-	},
-	[120] = {
+	}
+	pg.base.backyard_theme_template[120] = {
 		Cfg_1 = 5,
 		name = "スペースメディカル",
 		desc = "スペースメディカルステーション。一風変わったケアを君に",
@@ -4592,8 +4725,8 @@ pg.backyard_theme_template = {
 			320305,
 			320306
 		}
-	},
-	[121] = {
+	}
+	pg.base.backyard_theme_template[121] = {
 		Cfg_1 = 5,
 		name = "チュリッパ郷土",
 		desc = "優しい風に馨しい花の香、これぞ田園生活の素晴らしさ！",
@@ -4629,8 +4762,8 @@ pg.backyard_theme_template = {
 			321117,
 			321118
 		}
-	},
-	[122] = {
+	}
+	pg.base.backyard_theme_template[122] = {
 		Cfg_1 = 5,
 		name = "シーサイド",
 		desc = "砂浜に白波、シーサイドバーケーションをのんびりと楽しもう！",
@@ -4664,8 +4797,8 @@ pg.backyard_theme_template = {
 			322114,
 			322115
 		}
-	},
-	[123] = {
+	}
+	pg.base.backyard_theme_template[123] = {
 		Cfg_1 = 5,
 		name = "鉄道の旅",
 		desc = "列車に乗って、レールのリズムと車窓の風景を感じよう",
@@ -4701,8 +4834,8 @@ pg.backyard_theme_template = {
 			324116,
 			324117
 		}
-	},
-	[124] = {
+	}
+	pg.base.backyard_theme_template[124] = {
 		Cfg_1 = 5,
 		name = "アトリエ休憩スペース",
 		desc = "忙しい時でも、日々の余暇を忘れないでね",
@@ -4749,8 +4882,8 @@ pg.backyard_theme_template = {
 			325302,
 			325303
 		}
-	},
-	[125] = {
+	}
+	pg.base.backyard_theme_template[125] = {
 		Cfg_1 = 5,
 		name = "アトリエ作業スペース",
 		desc = "緑の大地に立って、錬金術士の一日を体感しよう",
@@ -4780,8 +4913,8 @@ pg.backyard_theme_template = {
 			326110,
 			326111
 		}
-	},
-	[126] = {
+	}
+	pg.base.backyard_theme_template[126] = {
 		Cfg_1 = 5,
 		name = "アトリエ庭スペース",
 		desc = "暇な時は、アトリエの庭を散策しよう",
@@ -4819,8 +4952,8 @@ pg.backyard_theme_template = {
 			327301,
 			327302
 		}
-	},
-	[127] = {
+	}
+	pg.base.backyard_theme_template[127] = {
 		Cfg_1 = 5,
 		name = "林間秘湯",
 		desc = "湯船に浸かって、くつろぎのひとときを楽しもう",
@@ -4856,8 +4989,8 @@ pg.backyard_theme_template = {
 			328116,
 			328117
 		}
-	},
-	[129] = {
+	}
+	pg.base.backyard_theme_template[129] = {
 		Cfg_1 = 5,
 		name = "忍者の城",
 		desc = "忍者の城で、ハラハラドキドキの忍者大冒険を楽しもう！",
@@ -4895,8 +5028,8 @@ pg.backyard_theme_template = {
 			329118,
 			329119
 		}
-	},
-	[130] = {
+	}
+	pg.base.backyard_theme_template[130] = {
 		Cfg_1 = 5,
 		name = "迷宫都市",
 		desc = "迷宮都市に入り、英雄たちの冒険舞台に登ろう",
@@ -4916,8 +5049,8 @@ pg.backyard_theme_template = {
 			330002,
 			330101
 		}
-	},
-	[131] = {
+	}
+	pg.base.backyard_theme_template[131] = {
 		Cfg_1 = 5,
 		name = "空中艦",
 		desc = "雲を駆け抜けるブリッジに立ち、データが渦巻く戦場を体感せよ",
@@ -4961,8 +5094,8 @@ pg.backyard_theme_template = {
 			331307,
 			331308
 		}
-	},
-	[132] = {
+	}
+	pg.base.backyard_theme_template[132] = {
 		Cfg_1 = 5,
 		name = "幽光の神殿",
 		desc = "失われた扉を開き、瞬く光の中で、秘められし古の言葉を探そう",
@@ -4994,8 +5127,8 @@ pg.backyard_theme_template = {
 			332112,
 			332301
 		}
-	},
-	[133] = {
+	}
+	pg.base.backyard_theme_template[133] = {
 		Cfg_1 = 5,
 		name = "メイドニャーハウス",
 		desc = "ケーキとネコをテーマとしたメイドハウス。ぽかぽかであまーい香り♪",
@@ -5033,8 +5166,8 @@ pg.backyard_theme_template = {
 			333118,
 			333301
 		}
-	},
-	[134] = {
+	}
+	pg.base.backyard_theme_template[134] = {
 		Cfg_1 = 5,
 		name = "ファッションスタジオ",
 		desc = "スタジオに入って、レンズの中のファッションリーダーになろう！",
@@ -5076,8 +5209,8 @@ pg.backyard_theme_template = {
 			334301,
 			334302
 		}
-	},
-	[135] = {
+	}
+	pg.base.backyard_theme_template[135] = {
 		Cfg_1 = 5,
 		name = "新春オークション",
 		desc = "オークションで、パドルを掲げる時の緊張感にハラハラ！",
@@ -5116,8 +5249,8 @@ pg.backyard_theme_template = {
 			335301,
 			335302
 		}
-	},
-	[136] = {
+	}
+	pg.base.backyard_theme_template[136] = {
 		Cfg_1 = 5,
 		name = "データコマンド",
 		desc = "コマンドセンターでデータストリームに包まれながら都市を見下ろそう",
@@ -5152,8 +5285,8 @@ pg.backyard_theme_template = {
 			336301,
 			336302
 		}
-	},
-	[137] = {
+	}
+	pg.base.backyard_theme_template[137] = {
 		Cfg_1 = 5,
 		name = "きらめく砂浜",
 		desc = "きらめく波しぶきと太陽で、最高のバケーションを彩ろう！",
@@ -5187,130 +5320,5 @@ pg.backyard_theme_template = {
 			337115,
 			337116
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		7,
-		8,
-		11,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		27,
-		28,
-		29,
-		30,
-		31,
-		33,
-		35,
-		36,
-		37,
-		38,
-		39,
-		40,
-		41,
-		43,
-		44,
-		45,
-		46,
-		48,
-		49,
-		50,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56,
-		57,
-		58,
-		59,
-		60,
-		61,
-		62,
-		63,
-		65,
-		66,
-		69,
-		70,
-		71,
-		72,
-		73,
-		74,
-		75,
-		76,
-		77,
-		78,
-		79,
-		80,
-		81,
-		82,
-		83,
-		84,
-		85,
-		86,
-		87,
-		88,
-		89,
-		90,
-		91,
-		92,
-		93,
-		94,
-		95,
-		96,
-		97,
-		98,
-		99,
-		100,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		110,
-		111,
-		112,
-		113,
-		114,
-		115,
-		116,
-		117,
-		118,
-		119,
-		120,
-		121,
-		122,
-		123,
-		124,
-		125,
-		126,
-		127,
-		129,
-		130,
-		131,
-		132,
-		133,
-		134,
-		135,
-		136,
-		137
 	}
-}
+end)()

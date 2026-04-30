@@ -1,6 +1,174 @@
 pg = pg or {}
-pg.guild_event_node = {
-	{
+pg.guild_event_node = rawget(pg, "guild_event_node") or setmetatable({
+	__name = "guild_event_node"
+}, confNEO)
+pg.guild_event_node.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	39,
+	40,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	47,
+	48,
+	49,
+	50,
+	51,
+	52,
+	53,
+	54,
+	55,
+	56,
+	57,
+	58,
+	59,
+	60,
+	61,
+	62,
+	63,
+	64,
+	65,
+	66,
+	67,
+	68,
+	69,
+	70,
+	71,
+	72,
+	73,
+	74,
+	75,
+	76,
+	77,
+	78,
+	79,
+	80,
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008,
+	1009,
+	1010,
+	1011,
+	1012,
+	1013,
+	1014,
+	1015,
+	1016,
+	1017,
+	1018,
+	1019,
+	1020,
+	1021,
+	1022,
+	1023,
+	1024,
+	1025,
+	1026,
+	1027,
+	1028,
+	1029,
+	1030,
+	1031,
+	1032,
+	1033,
+	1034,
+	1035,
+	1036,
+	1037,
+	1038,
+	1039,
+	1040,
+	1041,
+	1042,
+	1043,
+	1044,
+	1045,
+	1046,
+	1047,
+	1048,
+	1049,
+	1050,
+	1051,
+	1052,
+	1053,
+	1054,
+	1055,
+	1056,
+	1057,
+	1058,
+	1059,
+	1060,
+	1061,
+	1062,
+	1063,
+	1064,
+	1065,
+	1066,
+	1067,
+	1068,
+	1069,
+	1070,
+	1071,
+	1072,
+	1073,
+	1074,
+	1075,
+	1076,
+	1077,
+	1078,
+	1079,
+	1080
+}
+pg.base = pg.base or {}
+pg.base.guild_event_node = {}
+
+(function ()
+	pg.base.guild_event_node[1] = {
 		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -25,8 +193,8 @@ pg.guild_event_node = {
 				10
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[2] = {
 		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -51,8 +219,8 @@ pg.guild_event_node = {
 				10
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[3] = {
 		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -77,8 +245,8 @@ pg.guild_event_node = {
 				10
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[4] = {
 		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -103,8 +271,8 @@ pg.guild_event_node = {
 				10
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[5] = {
 		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -129,8 +297,8 @@ pg.guild_event_node = {
 				10
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[6] = {
 		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -155,8 +323,8 @@ pg.guild_event_node = {
 				10
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[7] = {
 		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -181,8 +349,8 @@ pg.guild_event_node = {
 				10
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[8] = {
 		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -207,8 +375,8 @@ pg.guild_event_node = {
 				10
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[9] = {
 		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -233,8 +401,8 @@ pg.guild_event_node = {
 				10
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[10] = {
 		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -259,8 +427,8 @@ pg.guild_event_node = {
 				10
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[11] = {
 		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -285,8 +453,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[12] = {
 		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -311,8 +479,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[13] = {
 		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -337,8 +505,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[14] = {
 		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -363,8 +531,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[15] = {
 		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -389,8 +557,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[16] = {
 		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -415,8 +583,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[17] = {
 		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -441,8 +609,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[18] = {
 		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -467,8 +635,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[19] = {
 		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -493,8 +661,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[20] = {
 		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -519,8 +687,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[21] = {
 		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -545,8 +713,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[22] = {
 		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -571,8 +739,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[23] = {
 		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -597,8 +765,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[24] = {
 		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -623,8 +791,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[25] = {
 		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -649,8 +817,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[26] = {
 		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -675,8 +843,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[27] = {
 		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -701,8 +869,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[28] = {
 		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -727,8 +895,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[29] = {
 		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -753,8 +921,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[30] = {
 		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -779,8 +947,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[31] = {
 		success_describe = "$2の艦隊が激戦で中規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -805,8 +973,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[32] = {
 		success_describe = "$2の艦隊が激戦で中規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -831,8 +999,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[33] = {
 		success_describe = "$2の艦隊が激戦で中規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -857,8 +1025,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[34] = {
 		success_describe = "$2の艦隊が激戦で中規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -883,8 +1051,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[35] = {
 		success_describe = "$2の艦隊が激戦で中規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -909,8 +1077,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[36] = {
 		success_describe = "$2の艦隊が激戦で中規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -935,8 +1103,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[37] = {
 		success_describe = "$2の艦隊が激戦で中規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -961,8 +1129,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[38] = {
 		success_describe = "$2の艦隊が激戦で中規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -987,8 +1155,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[39] = {
 		success_describe = "$2の艦隊が激戦で中規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1013,8 +1181,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[40] = {
 		success_describe = "$2の艦隊が激戦で中規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1039,8 +1207,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[41] = {
 		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1065,8 +1233,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[42] = {
 		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1091,8 +1259,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[43] = {
 		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1117,8 +1285,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[44] = {
 		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1143,8 +1311,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[45] = {
 		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1169,8 +1337,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[46] = {
 		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1195,8 +1363,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[47] = {
 		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1221,8 +1389,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[48] = {
 		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1247,8 +1415,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[49] = {
 		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1273,8 +1441,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[50] = {
 		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1299,8 +1467,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[51] = {
 		success_describe = "$2の艦隊が全力で大規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1325,8 +1493,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[52] = {
 		success_describe = "成功消灭了包含主力舰在内的多支塞壬舰队，$2舰队在打扫战场时获得了$1",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1351,8 +1519,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[53] = {
 		success_describe = "成功消灭了包含主力舰在内的多支塞壬舰队，$2舰队在打扫战场时获得了$1",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1377,8 +1545,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[54] = {
 		success_describe = "成功消灭了包含主力舰在内的多支塞壬舰队，$2舰队在打扫战场时获得了$1",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1403,8 +1571,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[55] = {
 		success_describe = "成功消灭了包含主力舰在内的多支塞壬舰队，$2舰队在打扫战场时获得了$1",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1429,8 +1597,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[56] = {
 		success_describe = "成功消灭了包含主力舰在内的多支塞壬舰队，$2舰队在打扫战场时获得了$1",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1455,8 +1623,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[57] = {
 		success_describe = "成功消灭了包含主力舰在内的多支塞壬舰队，$2舰队在打扫战场时获得了$1",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1481,8 +1649,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[58] = {
 		success_describe = "成功消灭了包含主力舰在内的多支塞壬舰队，$2舰队在打扫战场时获得了$1",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1507,8 +1675,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[59] = {
 		success_describe = "成功消灭了包含主力舰在内的多支塞壬舰队，$2舰队在打扫战场时获得了$1",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1533,8 +1701,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[60] = {
 		success_describe = "成功消灭了包含主力舰在内的多支塞壬舰队，$2舰队在打扫战场时获得了$1",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1559,8 +1727,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[61] = {
 		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1585,8 +1753,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[62] = {
 		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1611,8 +1779,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[63] = {
 		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1637,8 +1805,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[64] = {
 		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1663,8 +1831,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[65] = {
 		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1689,8 +1857,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[66] = {
 		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1715,8 +1883,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[67] = {
 		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1741,8 +1909,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[68] = {
 		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1767,8 +1935,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[69] = {
 		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1793,8 +1961,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[70] = {
 		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1819,8 +1987,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[71] = {
 		success_describe = "$2の艦隊が主力艦多数のセイレーンの中核艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1845,8 +2013,8 @@ pg.guild_event_node = {
 				14
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[72] = {
 		success_describe = "$2の艦隊が主力艦多数のセイレーンの中核艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1871,8 +2039,8 @@ pg.guild_event_node = {
 				14
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[73] = {
 		success_describe = "$2の艦隊が主力艦多数のセイレーンの中核艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1897,8 +2065,8 @@ pg.guild_event_node = {
 				14
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[74] = {
 		success_describe = "$2の艦隊が主力艦多数のセイレーンの中核艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1923,8 +2091,8 @@ pg.guild_event_node = {
 				14
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[75] = {
 		success_describe = "$2の艦隊が主力艦多数のセイレーンの中核艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1949,8 +2117,8 @@ pg.guild_event_node = {
 				14
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[76] = {
 		success_describe = "$2の艦隊が主力艦多数のセイレーンの中核艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -1975,8 +2143,8 @@ pg.guild_event_node = {
 				14
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[77] = {
 		success_describe = "$2の艦隊が主力艦多数のセイレーンの中核艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -2001,8 +2169,8 @@ pg.guild_event_node = {
 				14
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[78] = {
 		success_describe = "$2の艦隊が主力艦多数のセイレーンの中核艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -2027,8 +2195,8 @@ pg.guild_event_node = {
 				14
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[79] = {
 		success_describe = "$2の艦隊が主力艦多数のセイレーンの中核艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -2053,8 +2221,8 @@ pg.guild_event_node = {
 				14
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_event_node[80] = {
 		success_describe = "$2の艦隊が主力艦多数のセイレーンの中核艦隊を撃破し、戦利品として$1を手に入れた",
 		item = "sairendanchuan",
 		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
@@ -2079,8 +2247,8 @@ pg.guild_event_node = {
 				14
 			}
 		}
-	},
-	[1001] = {
+	}
+	pg.base.guild_event_node[1001] = {
 		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -2105,8 +2273,8 @@ pg.guild_event_node = {
 				10
 			}
 		}
-	},
-	[1002] = {
+	}
+	pg.base.guild_event_node[1002] = {
 		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -2131,8 +2299,8 @@ pg.guild_event_node = {
 				10
 			}
 		}
-	},
-	[1003] = {
+	}
+	pg.base.guild_event_node[1003] = {
 		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -2157,8 +2325,8 @@ pg.guild_event_node = {
 				10
 			}
 		}
-	},
-	[1004] = {
+	}
+	pg.base.guild_event_node[1004] = {
 		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -2183,8 +2351,8 @@ pg.guild_event_node = {
 				10
 			}
 		}
-	},
-	[1005] = {
+	}
+	pg.base.guild_event_node[1005] = {
 		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -2209,8 +2377,8 @@ pg.guild_event_node = {
 				10
 			}
 		}
-	},
-	[1006] = {
+	}
+	pg.base.guild_event_node[1006] = {
 		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -2235,8 +2403,8 @@ pg.guild_event_node = {
 				10
 			}
 		}
-	},
-	[1007] = {
+	}
+	pg.base.guild_event_node[1007] = {
 		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -2261,8 +2429,8 @@ pg.guild_event_node = {
 				10
 			}
 		}
-	},
-	[1008] = {
+	}
+	pg.base.guild_event_node[1008] = {
 		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -2287,8 +2455,8 @@ pg.guild_event_node = {
 				10
 			}
 		}
-	},
-	[1009] = {
+	}
+	pg.base.guild_event_node[1009] = {
 		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -2313,8 +2481,8 @@ pg.guild_event_node = {
 				10
 			}
 		}
-	},
-	[1010] = {
+	}
+	pg.base.guild_event_node[1010] = {
 		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -2339,8 +2507,8 @@ pg.guild_event_node = {
 				10
 			}
 		}
-	},
-	[1011] = {
+	}
+	pg.base.guild_event_node[1011] = {
 		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -2365,8 +2533,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	[1012] = {
+	}
+	pg.base.guild_event_node[1012] = {
 		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -2391,8 +2559,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	[1013] = {
+	}
+	pg.base.guild_event_node[1013] = {
 		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -2417,8 +2585,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	[1014] = {
+	}
+	pg.base.guild_event_node[1014] = {
 		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -2443,8 +2611,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	[1015] = {
+	}
+	pg.base.guild_event_node[1015] = {
 		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -2469,8 +2637,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	[1016] = {
+	}
+	pg.base.guild_event_node[1016] = {
 		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -2495,8 +2663,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	[1017] = {
+	}
+	pg.base.guild_event_node[1017] = {
 		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -2521,8 +2689,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	[1018] = {
+	}
+	pg.base.guild_event_node[1018] = {
 		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -2547,8 +2715,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	[1019] = {
+	}
+	pg.base.guild_event_node[1019] = {
 		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -2573,8 +2741,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	[1020] = {
+	}
+	pg.base.guild_event_node[1020] = {
 		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -2599,8 +2767,10 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	[1021] = {
+	}
+end)()
+(function ()
+	pg.base.guild_event_node[1021] = {
 		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -2625,8 +2795,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	[1022] = {
+	}
+	pg.base.guild_event_node[1022] = {
 		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -2651,8 +2821,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	[1023] = {
+	}
+	pg.base.guild_event_node[1023] = {
 		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -2677,8 +2847,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	[1024] = {
+	}
+	pg.base.guild_event_node[1024] = {
 		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -2703,8 +2873,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	[1025] = {
+	}
+	pg.base.guild_event_node[1025] = {
 		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -2729,8 +2899,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	[1026] = {
+	}
+	pg.base.guild_event_node[1026] = {
 		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -2755,8 +2925,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	[1027] = {
+	}
+	pg.base.guild_event_node[1027] = {
 		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -2781,8 +2951,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	[1028] = {
+	}
+	pg.base.guild_event_node[1028] = {
 		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -2807,8 +2977,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	[1029] = {
+	}
+	pg.base.guild_event_node[1029] = {
 		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -2833,8 +3003,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	[1030] = {
+	}
+	pg.base.guild_event_node[1030] = {
 		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -2859,8 +3029,8 @@ pg.guild_event_node = {
 				11
 			}
 		}
-	},
-	[1031] = {
+	}
+	pg.base.guild_event_node[1031] = {
 		success_describe = "$2の艦隊はセイレーンに隠された特殊設備を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -2885,8 +3055,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	[1032] = {
+	}
+	pg.base.guild_event_node[1032] = {
 		success_describe = "$2の艦隊はセイレーンに隠された特殊設備を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -2911,8 +3081,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	[1033] = {
+	}
+	pg.base.guild_event_node[1033] = {
 		success_describe = "$2の艦隊はセイレーンに隠された特殊設備を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -2937,8 +3107,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	[1034] = {
+	}
+	pg.base.guild_event_node[1034] = {
 		success_describe = "$2の艦隊はセイレーンに隠された特殊設備を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -2963,8 +3133,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	[1035] = {
+	}
+	pg.base.guild_event_node[1035] = {
 		success_describe = "$2の艦隊はセイレーンに隠された特殊設備を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -2989,8 +3159,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	[1036] = {
+	}
+	pg.base.guild_event_node[1036] = {
 		success_describe = "$2の艦隊はセイレーンに隠された特殊設備を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3015,8 +3185,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	[1037] = {
+	}
+	pg.base.guild_event_node[1037] = {
 		success_describe = "$2の艦隊はセイレーンに隠された特殊設備を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3041,8 +3211,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	[1038] = {
+	}
+	pg.base.guild_event_node[1038] = {
 		success_describe = "$2の艦隊はセイレーンに隠された特殊設備を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3067,8 +3237,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	[1039] = {
+	}
+	pg.base.guild_event_node[1039] = {
 		success_describe = "$2の艦隊はセイレーンに隠された特殊設備を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3093,8 +3263,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	[1040] = {
+	}
+	pg.base.guild_event_node[1040] = {
 		success_describe = "$2の艦隊はセイレーンに隠された特殊設備を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3119,8 +3289,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	[1041] = {
+	}
+	pg.base.guild_event_node[1041] = {
 		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3145,8 +3315,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	[1042] = {
+	}
+	pg.base.guild_event_node[1042] = {
 		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3171,8 +3341,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	[1043] = {
+	}
+	pg.base.guild_event_node[1043] = {
 		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3197,8 +3367,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	[1044] = {
+	}
+	pg.base.guild_event_node[1044] = {
 		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3223,8 +3393,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	[1045] = {
+	}
+	pg.base.guild_event_node[1045] = {
 		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3249,8 +3419,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	[1046] = {
+	}
+	pg.base.guild_event_node[1046] = {
 		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3275,8 +3445,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	[1047] = {
+	}
+	pg.base.guild_event_node[1047] = {
 		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3301,8 +3471,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	[1048] = {
+	}
+	pg.base.guild_event_node[1048] = {
 		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3327,8 +3497,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	[1049] = {
+	}
+	pg.base.guild_event_node[1049] = {
 		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3353,8 +3523,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	[1050] = {
+	}
+	pg.base.guild_event_node[1050] = {
 		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3379,8 +3549,8 @@ pg.guild_event_node = {
 				12
 			}
 		}
-	},
-	[1051] = {
+	}
+	pg.base.guild_event_node[1051] = {
 		success_describe = "$2の艦隊はセイレーンに隠された技術結晶を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3405,8 +3575,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	[1052] = {
+	}
+	pg.base.guild_event_node[1052] = {
 		success_describe = "$2の艦隊はセイレーンに隠された技術結晶を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3431,8 +3601,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	[1053] = {
+	}
+	pg.base.guild_event_node[1053] = {
 		success_describe = "$2の艦隊はセイレーンに隠された技術結晶を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3457,8 +3627,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	[1054] = {
+	}
+	pg.base.guild_event_node[1054] = {
 		success_describe = "$2の艦隊はセイレーンに隠された技術結晶を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3483,8 +3653,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	[1055] = {
+	}
+	pg.base.guild_event_node[1055] = {
 		success_describe = "$2の艦隊はセイレーンに隠された技術結晶を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3509,8 +3679,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	[1056] = {
+	}
+	pg.base.guild_event_node[1056] = {
 		success_describe = "$2の艦隊はセイレーンに隠された技術結晶を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3535,8 +3705,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	[1057] = {
+	}
+	pg.base.guild_event_node[1057] = {
 		success_describe = "$2の艦隊はセイレーンに隠された技術結晶を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3561,8 +3731,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	[1058] = {
+	}
+	pg.base.guild_event_node[1058] = {
 		success_describe = "$2の艦隊はセイレーンに隠された技術結晶を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3587,8 +3757,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	[1059] = {
+	}
+	pg.base.guild_event_node[1059] = {
 		success_describe = "$2の艦隊はセイレーンに隠された技術結晶を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3613,8 +3783,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	[1060] = {
+	}
+	pg.base.guild_event_node[1060] = {
 		success_describe = "$2の艦隊はセイレーンに隠された技術結晶を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3639,8 +3809,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	[1061] = {
+	}
+	pg.base.guild_event_node[1061] = {
 		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3665,8 +3835,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	[1062] = {
+	}
+	pg.base.guild_event_node[1062] = {
 		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3691,8 +3861,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	[1063] = {
+	}
+	pg.base.guild_event_node[1063] = {
 		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3717,8 +3887,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	[1064] = {
+	}
+	pg.base.guild_event_node[1064] = {
 		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3743,8 +3913,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	[1065] = {
+	}
+	pg.base.guild_event_node[1065] = {
 		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3769,8 +3939,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	[1066] = {
+	}
+	pg.base.guild_event_node[1066] = {
 		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3795,8 +3965,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	[1067] = {
+	}
+	pg.base.guild_event_node[1067] = {
 		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3821,8 +3991,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	[1068] = {
+	}
+	pg.base.guild_event_node[1068] = {
 		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3847,8 +4017,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	[1069] = {
+	}
+	pg.base.guild_event_node[1069] = {
 		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3873,8 +4043,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	[1070] = {
+	}
+	pg.base.guild_event_node[1070] = {
 		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3899,8 +4069,8 @@ pg.guild_event_node = {
 				13
 			}
 		}
-	},
-	[1071] = {
+	}
+	pg.base.guild_event_node[1071] = {
 		success_describe = "$2の艦隊はセイレーンに隠された危険装置を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3925,8 +4095,8 @@ pg.guild_event_node = {
 				14
 			}
 		}
-	},
-	[1072] = {
+	}
+	pg.base.guild_event_node[1072] = {
 		success_describe = "$2の艦隊はセイレーンに隠された危険装置を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3951,8 +4121,8 @@ pg.guild_event_node = {
 				14
 			}
 		}
-	},
-	[1073] = {
+	}
+	pg.base.guild_event_node[1073] = {
 		success_describe = "$2の艦隊はセイレーンに隠された危険装置を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -3977,8 +4147,8 @@ pg.guild_event_node = {
 				14
 			}
 		}
-	},
-	[1074] = {
+	}
+	pg.base.guild_event_node[1074] = {
 		success_describe = "$2の艦隊はセイレーンに隠された危険装置を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -4003,8 +4173,8 @@ pg.guild_event_node = {
 				14
 			}
 		}
-	},
-	[1075] = {
+	}
+	pg.base.guild_event_node[1075] = {
 		success_describe = "$2の艦隊はセイレーンに隠された危険装置を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -4029,8 +4199,8 @@ pg.guild_event_node = {
 				14
 			}
 		}
-	},
-	[1076] = {
+	}
+	pg.base.guild_event_node[1076] = {
 		success_describe = "$2の艦隊はセイレーンに隠された危険装置を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -4055,8 +4225,8 @@ pg.guild_event_node = {
 				14
 			}
 		}
-	},
-	[1077] = {
+	}
+	pg.base.guild_event_node[1077] = {
 		success_describe = "$2の艦隊はセイレーンに隠された危険装置を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -4081,8 +4251,8 @@ pg.guild_event_node = {
 				14
 			}
 		}
-	},
-	[1078] = {
+	}
+	pg.base.guild_event_node[1078] = {
 		success_describe = "$2の艦隊はセイレーンに隠された危険装置を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -4107,8 +4277,8 @@ pg.guild_event_node = {
 				14
 			}
 		}
-	},
-	[1079] = {
+	}
+	pg.base.guild_event_node[1079] = {
 		success_describe = "$2の艦隊はセイレーンに隠された危険装置を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -4133,8 +4303,8 @@ pg.guild_event_node = {
 				14
 			}
 		}
-	},
-	[1080] = {
+	}
+	pg.base.guild_event_node[1080] = {
 		success_describe = "$2の艦隊はセイレーンに隠された危険装置を発見し本部に回収させ、補給物資として$1を手に入れた",
 		item = "box",
 		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
@@ -4159,167 +4329,5 @@ pg.guild_event_node = {
 				14
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		39,
-		40,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46,
-		47,
-		48,
-		49,
-		50,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56,
-		57,
-		58,
-		59,
-		60,
-		61,
-		62,
-		63,
-		64,
-		65,
-		66,
-		67,
-		68,
-		69,
-		70,
-		71,
-		72,
-		73,
-		74,
-		75,
-		76,
-		77,
-		78,
-		79,
-		80,
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1007,
-		1008,
-		1009,
-		1010,
-		1011,
-		1012,
-		1013,
-		1014,
-		1015,
-		1016,
-		1017,
-		1018,
-		1019,
-		1020,
-		1021,
-		1022,
-		1023,
-		1024,
-		1025,
-		1026,
-		1027,
-		1028,
-		1029,
-		1030,
-		1031,
-		1032,
-		1033,
-		1034,
-		1035,
-		1036,
-		1037,
-		1038,
-		1039,
-		1040,
-		1041,
-		1042,
-		1043,
-		1044,
-		1045,
-		1046,
-		1047,
-		1048,
-		1049,
-		1050,
-		1051,
-		1052,
-		1053,
-		1054,
-		1055,
-		1056,
-		1057,
-		1058,
-		1059,
-		1060,
-		1061,
-		1062,
-		1063,
-		1064,
-		1065,
-		1066,
-		1067,
-		1068,
-		1069,
-		1070,
-		1071,
-		1072,
-		1073,
-		1074,
-		1075,
-		1076,
-		1077,
-		1078,
-		1079,
-		1080
 	}
-}
+end)()

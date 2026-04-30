@@ -1,73 +1,60 @@
 pg = pg or {}
-pg.dorm3d_ins_chat_group = setmetatable({
-	__name = "dorm3d_ins_chat_group",
-	get_id_list_by_ship_group = {
-		[20220] = {
-			20220101,
-			20220102,
-			20220103,
-			20220104,
-			20220105
-		},
-		[30221] = {
-			30221101,
-			30221102,
-			30221103,
-			30221104,
-			30221105
-		},
-		[19903] = {
-			19903101,
-			19903102,
-			19903103,
-			19903104,
-			19903105,
-			19903106,
-			19903107,
-			19903108
-		},
-		[10517] = {
-			10517101,
-			10517102,
-			10517103,
-			10517104
-		},
-		[30707] = {
-			30707101,
-			30707102,
-			30707103,
-			30707104,
-			30707105,
-			30707106,
-			30707107,
-			30707108,
-			30707109,
-			30707110
-		},
-		[49905] = {
-			49905101,
-			49905102,
-			49905103,
-			49905104,
-			49905105,
-			49905106,
-			49905107,
-			49905108,
-			49905109,
-			49905110
-		}
+pg.dorm3d_ins_chat_group = rawget(pg, "dorm3d_ins_chat_group") or setmetatable({
+	__name = "dorm3d_ins_chat_group"
+}, confNEO)
+pg.dorm3d_ins_chat_group.__namecode__ = true
+pg.dorm3d_ins_chat_group.all = {
+	20220101,
+	20220102,
+	20220103,
+	20220104,
+	20220105,
+	30221101,
+	30221102,
+	30221103,
+	30221104,
+	30221105,
+	19903101,
+	19903102,
+	19903103,
+	19903104,
+	19903105,
+	19903106,
+	19903107,
+	19903108,
+	10517101,
+	10517102,
+	10517103,
+	10517104,
+	30707101,
+	30707102,
+	30707103,
+	30707104,
+	30707105,
+	30707106,
+	30707107,
+	30707108,
+	30707109,
+	30707110,
+	49905101,
+	49905102,
+	49905103,
+	49905104,
+	49905105,
+	49905106,
+	49905107,
+	49905108,
+	49905109,
+	49905110
+}
+pg.dorm3d_ins_chat_group.get_id_list_by_ship_group = {
+	[10517] = {
+		10517101,
+		10517102,
+		10517103,
+		10517104
 	},
-	all = {
-		20220101,
-		20220102,
-		20220103,
-		20220104,
-		20220105,
-		30221101,
-		30221102,
-		30221103,
-		30221104,
-		30221105,
+	[19903] = {
 		19903101,
 		19903102,
 		19903103,
@@ -75,11 +62,23 @@ pg.dorm3d_ins_chat_group = setmetatable({
 		19903105,
 		19903106,
 		19903107,
-		19903108,
-		10517101,
-		10517102,
-		10517103,
-		10517104,
+		19903108
+	},
+	[20220] = {
+		20220101,
+		20220102,
+		20220103,
+		20220104,
+		20220105
+	},
+	[30221] = {
+		30221101,
+		30221102,
+		30221103,
+		30221104,
+		30221105
+	},
+	[30707] = {
 		30707101,
 		30707102,
 		30707103,
@@ -89,7 +88,9 @@ pg.dorm3d_ins_chat_group = setmetatable({
 		30707107,
 		30707108,
 		30707109,
-		30707110,
+		30707110
+	},
+	[49905] = {
 		49905101,
 		49905102,
 		49905103,
@@ -101,10 +102,12 @@ pg.dorm3d_ins_chat_group = setmetatable({
 		49905109,
 		49905110
 	}
-}, confHX)
+}
 pg.base = pg.base or {}
-pg.base.dorm3d_ins_chat_group = {
-	[20220101] = {
+pg.base.dorm3d_ins_chat_group = {}
+
+(function ()
+	pg.base.dorm3d_ins_chat_group[20220101] = {
 		ship_group = 20220,
 		name = "安らぎ",
 		unlock_desc = "シリアスの部屋を1回訪問する",
@@ -129,8 +132,8 @@ pg.base.dorm3d_ins_chat_group = {
 			16,
 			17
 		}
-	},
-	[20220102] = {
+	}
+	pg.base.dorm3d_ins_chat_group[20220102] = {
 		ship_group = 20220,
 		name = "二度目の勘違い",
 		unlock_desc = "シリアスの部屋のアイテムを20個収集する",
@@ -153,8 +156,8 @@ pg.base.dorm3d_ins_chat_group = {
 			31,
 			32
 		}
-	},
-	[20220103] = {
+	}
+	pg.base.dorm3d_ins_chat_group[20220103] = {
 		ship_group = 20220,
 		name = "また元気に",
 		unlock_desc = "シリアスの部屋でシリアスを10回タッチする",
@@ -178,8 +181,8 @@ pg.base.dorm3d_ins_chat_group = {
 			47,
 			48
 		}
-	},
-	[20220104] = {
+	}
+	pg.base.dorm3d_ins_chat_group[20220104] = {
 		ship_group = 20220,
 		name = "記録",
 		unlock_desc = "シリアスの部屋で写真を2回撮る",
@@ -200,8 +203,8 @@ pg.base.dorm3d_ins_chat_group = {
 			60,
 			61
 		}
-	},
-	[20220105] = {
+	}
+	pg.base.dorm3d_ins_chat_group[20220105] = {
 		ship_group = 20220,
 		name = "願い",
 		unlock_desc = "（夜）シリアスをタッチする",
@@ -224,8 +227,8 @@ pg.base.dorm3d_ins_chat_group = {
 			75,
 			76
 		}
-	},
-	[30221101] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30221101] = {
 		ship_group = 30221,
 		name = "お望みであれば……",
 		unlock_desc = "能代の部屋を1回訪問する",
@@ -248,8 +251,8 @@ pg.base.dorm3d_ins_chat_group = {
 			90,
 			91
 		}
-	},
-	[30221102] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30221102] = {
 		ship_group = 30221,
 		name = "頼り",
 		unlock_desc = "能代の部屋のアイテムを20個収集する",
@@ -273,8 +276,8 @@ pg.base.dorm3d_ins_chat_group = {
 			106,
 			107
 		}
-	},
-	[30221103] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30221103] = {
 		ship_group = 30221,
 		name = "話題",
 		unlock_desc = "能代の部屋で能代と15回会話する",
@@ -298,8 +301,8 @@ pg.base.dorm3d_ins_chat_group = {
 			122,
 			123
 		}
-	},
-	[30221104] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30221104] = {
 		ship_group = 30221,
 		name = "未来へ",
 		unlock_desc = "能代の部屋で能代を10回タッチする",
@@ -322,8 +325,8 @@ pg.base.dorm3d_ins_chat_group = {
 			137,
 			138
 		}
-	},
-	[30221105] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30221105] = {
 		ship_group = 30221,
 		name = "月が綺麗ですね",
 		unlock_desc = "（夜）能代の部屋で写真を1回撮る",
@@ -347,8 +350,8 @@ pg.base.dorm3d_ins_chat_group = {
 			153,
 			154
 		}
-	},
-	[19903101] = {
+	}
+	pg.base.dorm3d_ins_chat_group[19903101] = {
 		ship_group = 19903,
 		name = "寝る前に",
 		unlock_desc = "アンカレッジの部屋を1回訪問する",
@@ -374,8 +377,8 @@ pg.base.dorm3d_ins_chat_group = {
 			171,
 			172
 		}
-	},
-	[19903102] = {
+	}
+	pg.base.dorm3d_ins_chat_group[19903102] = {
 		ship_group = 19903,
 		name = "いちばんほしい",
 		unlock_desc = "アンカレッジの部屋を2日間訪問する",
@@ -402,8 +405,8 @@ pg.base.dorm3d_ins_chat_group = {
 			190,
 			191
 		}
-	},
-	[19903103] = {
+	}
+	pg.base.dorm3d_ins_chat_group[19903103] = {
 		ship_group = 19903,
 		name = "とくべつなのは……",
 		unlock_desc = "アンカレッジの部屋を4日間訪問する",
@@ -430,8 +433,8 @@ pg.base.dorm3d_ins_chat_group = {
 			209,
 			210
 		}
-	},
-	[19903104] = {
+	}
+	pg.base.dorm3d_ins_chat_group[19903104] = {
 		ship_group = 19903,
 		name = "失ったヒミツ",
 		unlock_desc = "アンカレッジの部屋のアイテムを20個収集する",
@@ -462,8 +465,8 @@ pg.base.dorm3d_ins_chat_group = {
 			232,
 			233
 		}
-	},
-	[19903105] = {
+	}
+	pg.base.dorm3d_ins_chat_group[19903105] = {
 		ship_group = 19903,
 		name = "もっとほしい",
 		unlock_desc = "アンカレッジの部屋でアンカレッジを10回タッチする",
@@ -490,8 +493,8 @@ pg.base.dorm3d_ins_chat_group = {
 			251,
 			252
 		}
-	},
-	[19903106] = {
+	}
+	pg.base.dorm3d_ins_chat_group[19903106] = {
 		ship_group = 19903,
 		name = "「ありがとう」の意味",
 		unlock_desc = "アンカレッジにプレゼントを5回贈る",
@@ -518,8 +521,8 @@ pg.base.dorm3d_ins_chat_group = {
 			270,
 			271
 		}
-	},
-	[19903107] = {
+	}
+	pg.base.dorm3d_ins_chat_group[19903107] = {
 		ship_group = 19903,
 		name = "好きの理由",
 		unlock_desc = "アンカレッジのミニゲームでスコア3達成",
@@ -545,8 +548,8 @@ pg.base.dorm3d_ins_chat_group = {
 			288,
 			289
 		}
-	},
-	[19903108] = {
+	}
+	pg.base.dorm3d_ins_chat_group[19903108] = {
 		ship_group = 19903,
 		name = "お返し",
 		unlock_desc = "（夜）アンカレッジにプレゼントを贈る",
@@ -573,8 +576,8 @@ pg.base.dorm3d_ins_chat_group = {
 			307,
 			308
 		}
-	},
-	[10517101] = {
+	}
+	pg.base.dorm3d_ins_chat_group[10517101] = {
 		ship_group = 10517,
 		name = "目覚めたらあなたがほしい",
 		unlock_desc = "ニュージャージーの部屋を1日訪問する",
@@ -601,8 +604,8 @@ pg.base.dorm3d_ins_chat_group = {
 			326,
 			327
 		}
-	},
-	[10517102] = {
+	}
+	pg.base.dorm3d_ins_chat_group[10517102] = {
 		ship_group = 10517,
 		name = "スケジュール管理",
 		unlock_desc = "ニュージャージーの部屋を4日訪問する",
@@ -631,8 +634,8 @@ pg.base.dorm3d_ins_chat_group = {
 			346,
 			347
 		}
-	},
-	[10517103] = {
+	}
+	pg.base.dorm3d_ins_chat_group[10517103] = {
 		ship_group = 10517,
 		name = "アクション映画",
 		unlock_desc = "ニュージャージーの部屋を7日訪問する",
@@ -657,8 +660,8 @@ pg.base.dorm3d_ins_chat_group = {
 			363,
 			364
 		}
-	},
-	[10517104] = {
+	}
+	pg.base.dorm3d_ins_chat_group[10517104] = {
 		ship_group = 10517,
 		name = "彼女の秘密",
 		unlock_desc = "ニュージャージーの部屋でアイテムを20個集める",
@@ -687,8 +690,8 @@ pg.base.dorm3d_ins_chat_group = {
 			384,
 			385
 		}
-	},
-	[30707101] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30707101] = {
 		ship_group = 30707,
 		name = "二人だけの世界",
 		unlock_desc = "大鳳の部屋を1回訪問する",
@@ -707,8 +710,8 @@ pg.base.dorm3d_ins_chat_group = {
 			395,
 			396
 		}
-	},
-	[30707102] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30707102] = {
 		ship_group = 30707,
 		name = "ゆっくり流れる時間",
 		unlock_desc = "大鳳の部屋を2日間訪問する",
@@ -729,8 +732,8 @@ pg.base.dorm3d_ins_chat_group = {
 			408,
 			409
 		}
-	},
-	[30707103] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30707103] = {
 		ship_group = 30707,
 		name = "愛情弁当",
 		unlock_desc = "大鳳の部屋を4日間訪問する",
@@ -751,8 +754,8 @@ pg.base.dorm3d_ins_chat_group = {
 			421,
 			422
 		}
-	},
-	[30707104] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30707104] = {
 		ship_group = 30707,
 		name = "害虫駆除計画",
 		unlock_desc = "大鳳の部屋のアイテムを20個収集する",
@@ -771,8 +774,8 @@ pg.base.dorm3d_ins_chat_group = {
 			432,
 			433
 		}
-	},
-	[30707105] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30707105] = {
 		ship_group = 30707,
 		name = "ツーショット",
 		unlock_desc = "大鳳の部屋で大鳳と3回「タッチ」する",
@@ -791,8 +794,8 @@ pg.base.dorm3d_ins_chat_group = {
 			443,
 			444
 		}
-	},
-	[30707106] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30707106] = {
 		ship_group = 30707,
 		name = "こたつ",
 		unlock_desc = "大鳳にプレゼントを5回贈る",
@@ -817,8 +820,8 @@ pg.base.dorm3d_ins_chat_group = {
 			460,
 			461
 		}
-	},
-	[30707107] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30707107] = {
 		ship_group = 30707,
 		name = "いつもの洗濯",
 		unlock_desc = "大鳳の部屋を7日間訪問する",
@@ -839,8 +842,8 @@ pg.base.dorm3d_ins_chat_group = {
 			473,
 			474
 		}
-	},
-	[30707108] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30707108] = {
 		ship_group = 30707,
 		name = "話題とお茶",
 		unlock_desc = "大鳳の部屋で大鳳と15回「会話」する",
@@ -864,8 +867,8 @@ pg.base.dorm3d_ins_chat_group = {
 			489,
 			490
 		}
-	},
-	[30707109] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30707109] = {
 		ship_group = 30707,
 		name = "依存とマッサージ",
 		unlock_desc = "大鳳の部屋で大鳳と5回「タッチ」する",
@@ -888,8 +891,8 @@ pg.base.dorm3d_ins_chat_group = {
 			504,
 			505
 		}
-	},
-	[30707110] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30707110] = {
 		ship_group = 30707,
 		name = "貴重な品物",
 		unlock_desc = "大鳳にプレゼントを10回贈る",
@@ -912,8 +915,8 @@ pg.base.dorm3d_ins_chat_group = {
 			519,
 			520
 		}
-	},
-	[49905101] = {
+	}
+	pg.base.dorm3d_ins_chat_group[49905101] = {
 		ship_group = 49905,
 		name = "就寝前の「あいさつ」",
 		unlock_desc = "エーギルの部屋を1回訪問する",
@@ -937,8 +940,8 @@ pg.base.dorm3d_ins_chat_group = {
 			535,
 			536
 		}
-	},
-	[49905102] = {
+	}
+	pg.base.dorm3d_ins_chat_group[49905102] = {
 		ship_group = 49905,
 		name = "アクアリウム？",
 		unlock_desc = "エーギルの部屋を2日間訪問する",
@@ -968,8 +971,8 @@ pg.base.dorm3d_ins_chat_group = {
 			557,
 			558
 		}
-	},
-	[49905103] = {
+	}
+	pg.base.dorm3d_ins_chat_group[49905103] = {
 		ship_group = 49905,
 		name = "ラッキーアイテム",
 		unlock_desc = "エーギルの部屋を4日間訪問する",
@@ -998,8 +1001,8 @@ pg.base.dorm3d_ins_chat_group = {
 			578,
 			579
 		}
-	},
-	[49905104] = {
+	}
+	pg.base.dorm3d_ins_chat_group[49905104] = {
 		ship_group = 49905,
 		name = "見つかってないもの",
 		unlock_desc = "エーギルの部屋のアイテムを20個収集する",
@@ -1027,8 +1030,8 @@ pg.base.dorm3d_ins_chat_group = {
 			598,
 			599
 		}
-	},
-	[49905105] = {
+	}
+	pg.base.dorm3d_ins_chat_group[49905105] = {
 		ship_group = 49905,
 		name = "依存症",
 		unlock_desc = "エーギルの部屋でエーギルと3回「タッチ」する",
@@ -1055,8 +1058,8 @@ pg.base.dorm3d_ins_chat_group = {
 			617,
 			618
 		}
-	},
-	[49905106] = {
+	}
+	pg.base.dorm3d_ins_chat_group[49905106] = {
 		ship_group = 49905,
 		name = "残されたものは、持っていかれるから",
 		unlock_desc = "エーギルにプレゼントを5回贈る",
@@ -1077,8 +1080,8 @@ pg.base.dorm3d_ins_chat_group = {
 			630,
 			631
 		}
-	},
-	[49905107] = {
+	}
+	pg.base.dorm3d_ins_chat_group[49905107] = {
 		ship_group = 49905,
 		name = "負けず嫌い",
 		unlock_desc = "エーギルの部屋を7日間訪問する",
@@ -1104,8 +1107,8 @@ pg.base.dorm3d_ins_chat_group = {
 			648,
 			649
 		}
-	},
-	[49905108] = {
+	}
+	pg.base.dorm3d_ins_chat_group[49905108] = {
 		ship_group = 49905,
 		name = "星が堕ちぬ夜",
 		unlock_desc = "エーギルの部屋でエーギルと15回「会話」する",
@@ -1138,8 +1141,8 @@ pg.base.dorm3d_ins_chat_group = {
 			673,
 			674
 		}
-	},
-	[49905109] = {
+	}
+	pg.base.dorm3d_ins_chat_group[49905109] = {
 		ship_group = 49905,
 		name = "特別なおもてなし",
 		unlock_desc = "エーギルの部屋でエーギルと5回「タッチ」する",
@@ -1165,8 +1168,8 @@ pg.base.dorm3d_ins_chat_group = {
 			691,
 			692
 		}
-	},
-	[49905110] = {
+	}
+	pg.base.dorm3d_ins_chat_group[49905110] = {
 		ship_group = 49905,
 		name = "ピントの「ズレ」",
 		unlock_desc = "エーギルにプレゼントを10回贈る",
@@ -1194,4 +1197,4 @@ pg.base.dorm3d_ins_chat_group = {
 			711
 		}
 	}
-}
+end)()

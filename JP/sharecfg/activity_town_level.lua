@@ -1,6 +1,29 @@
 pg = pg or {}
-pg.activity_town_level = {
-	{
+pg.activity_town_level = rawget(pg, "activity_town_level") or setmetatable({
+	__name = "activity_town_level"
+}, confNEO)
+pg.activity_town_level.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15
+}
+pg.base = pg.base or {}
+pg.base.activity_town_level = {}
+
+(function ()
+	pg.base.activity_town_level[1] = {
 		gold = 50000,
 		unlock_story = "HUANGYEJIARIKAITUOJI1",
 		exp = 30,
@@ -14,8 +37,8 @@ pg.activity_town_level = {
 			},
 			{}
 		}
-	},
-	{
+	}
+	pg.base.activity_town_level[2] = {
 		gold = 200000,
 		unlock_story = "",
 		exp = 60,
@@ -29,8 +52,8 @@ pg.activity_town_level = {
 				5
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_town_level[3] = {
 		gold = 500000,
 		unlock_story = "HUANGYEJIARIKAITUOJI2",
 		exp = 100,
@@ -44,8 +67,8 @@ pg.activity_town_level = {
 			},
 			{}
 		}
-	},
-	{
+	}
+	pg.base.activity_town_level[4] = {
 		gold = 1500000,
 		unlock_story = "",
 		exp = 200,
@@ -61,8 +84,8 @@ pg.activity_town_level = {
 				15
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_town_level[5] = {
 		gold = 5000000,
 		unlock_story = "HUANGYEJIARIKAITUOJI3",
 		exp = 300,
@@ -78,8 +101,8 @@ pg.activity_town_level = {
 				105
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_town_level[6] = {
 		gold = 10000000,
 		unlock_story = "",
 		exp = 400,
@@ -95,8 +118,8 @@ pg.activity_town_level = {
 				25
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_town_level[7] = {
 		gold = 20000000,
 		unlock_story = "HUANGYEJIARIKAITUOJI4",
 		exp = 600,
@@ -112,8 +135,8 @@ pg.activity_town_level = {
 				115
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_town_level[8] = {
 		gold = 40000000,
 		unlock_story = "",
 		exp = 800,
@@ -129,8 +152,8 @@ pg.activity_town_level = {
 				35
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_town_level[9] = {
 		gold = 80000000,
 		unlock_story = "",
 		exp = 1000,
@@ -146,8 +169,8 @@ pg.activity_town_level = {
 				134
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_town_level[10] = {
 		gold = 160000000,
 		unlock_story = "HUANGYEJIARIKAITUOJI5",
 		exp = 1100,
@@ -161,8 +184,8 @@ pg.activity_town_level = {
 				137
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_town_level[11] = {
 		gold = 240000000,
 		unlock_story = "",
 		exp = 1200,
@@ -174,8 +197,8 @@ pg.activity_town_level = {
 			{},
 			{}
 		}
-	},
-	{
+	}
+	pg.base.activity_town_level[12] = {
 		gold = 320000000,
 		unlock_story = "",
 		exp = 1300,
@@ -187,8 +210,8 @@ pg.activity_town_level = {
 			{},
 			{}
 		}
-	},
-	{
+	}
+	pg.base.activity_town_level[13] = {
 		gold = 640000000,
 		unlock_story = "",
 		exp = 1400,
@@ -200,8 +223,8 @@ pg.activity_town_level = {
 			{},
 			{}
 		}
-	},
-	{
+	}
+	pg.base.activity_town_level[14] = {
 		gold = 1000000000,
 		unlock_story = "",
 		exp = 1500,
@@ -213,8 +236,8 @@ pg.activity_town_level = {
 			{},
 			{}
 		}
-	},
-	{
+	}
+	pg.base.activity_town_level[15] = {
 		gold = 0,
 		unlock_story = "",
 		exp = 0,
@@ -226,22 +249,5 @@ pg.activity_town_level = {
 			{},
 			{}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15
 	}
-}
+end)()

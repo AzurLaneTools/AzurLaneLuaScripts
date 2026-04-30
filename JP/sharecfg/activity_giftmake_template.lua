@@ -1,6 +1,12 @@
 pg = pg or {}
-pg.activity_giftmake_template = {
-	{
+pg.activity_giftmake_template = rawget(pg, "activity_giftmake_template") or setmetatable({
+	__name = "activity_giftmake_template"
+}, confNEO)
+pg.base = pg.base or {}
+pg.base.activity_giftmake_template = {}
+
+(function ()
+	pg.base.activity_giftmake_template[1] = {
 		reward = 900028,
 		describe = "無人島で見つけた面白そうな材料でラフィーに髪飾りを作ろう。\n ウサウサ星の髪飾りと言えば、きっと気に入ってくれるだろう。",
 		thankwords = "指揮官の手作り髪飾り…宝石、ウサウサ星人の目っぽい\n ラフィーに似合う？…うん。嬉しいけどラフィー、ウサウサ星人じゃない……\n 指揮官にもお返し…これからラフィーと一緒に日向ぼっこ、しよう",
@@ -34,8 +40,8 @@ pg.activity_giftmake_template = {
 			0.5,
 			0.5
 		}
-	},
-	{
+	}
+	pg.base.activity_giftmake_template[2] = {
 		reward = 900028,
 		describe = "無人島のキラキラとした宝石、ジャベリンの新装備を作るのにちょうどいいかもしれない？\n……イシヤリと言わたらどうしよう…",
 		thankwords = "わぁ！キラキラの宝石の…ジャベリン模型？これを投げたりしたらダメなんですよね…？大丈夫？指揮官ありがとう！\n ジャベリンもプレゼントとお弁当を用意しましたよ♪じゃじゃーん！受け取ってください！",
@@ -69,8 +75,8 @@ pg.activity_giftmake_template = {
 			0.3,
 			0.3
 		}
-	},
-	{
+	}
+	pg.base.activity_giftmake_template[3] = {
 		reward = 900028,
 		describe = "素振りをしてレベル上げ中の綾波を見た。\n島で見つけた材料でプレゼントを用意して、彼女のオサレポイントも上げとこう。",
 		thankwords = "おお、これは……とても強そうです！\n 激レア装備を手に入れた綾波――新しい技をひらめいた、です\n では、指揮官にはこれをお贈りするです。素材です。受け取ってくださいです",
@@ -104,8 +110,8 @@ pg.activity_giftmake_template = {
 			0.35,
 			0.35
 		}
-	},
-	{
+	}
+	pg.base.activity_giftmake_template[4] = {
 		reward = 900028,
 		describe = "臨時拠点建設の功労者・Z23。\n 活躍のご褒美としていつでも改築できる「シム拠点」をプレゼントするのもいいかもしれない。",
 		thankwords = "これは…臨時拠点の模型！しかもこんなに作り込まれているなんて…ありがとうございます！\n これで改築の時の参考に…あわわ！お返ししないと…この使えそうな素材でよかったら受け取ってください！",
@@ -139,8 +145,8 @@ pg.activity_giftmake_template = {
 			0.4,
 			0.4
 		}
-	},
-	{
+	}
+	pg.base.activity_giftmake_template[5] = {
 		reward = 900028,
 		describe = "宝石を切削して作るクリスタルのゆーちゃん…？\n ちょっと重そうだけど、そこはゆーちゃんがなんとかしてくれるはずだ。",
 		thankwords = "水晶の…ゆーちゃん？えへへ、ひんやりしてキラキラ…ゆーちゃん、友達が増えたよ♪ 実はユニコーン、お兄ちゃんにもプレゼントを用意したよ？お兄ちゃん…気に入ってくれるのかな…？",
@@ -174,8 +180,8 @@ pg.activity_giftmake_template = {
 			0.3,
 			0.3
 		}
-	},
-	{
+	}
+	pg.base.activity_giftmake_template[6] = {
 		reward = 900028,
 		describe = "誰からなのかわからないが、仲間にお土産を作っている話がサラトガちゃんにバレた！\n イタズラされる前に、カワイイ調理器具セットでも贈って機嫌を取ったほうが良さそうだ。",
 		thankwords = "島の宝石で作った料理セット？すごくカワイイ！指揮官、ありがとね♪\n えへへ、そんなプレゼントをくれた指揮官には～サラトガちゃんからお返しだよ♪イタズラじゃないから安心して開けてね♪",
@@ -209,8 +215,8 @@ pg.activity_giftmake_template = {
 			0.35,
 			0.35
 		}
-	},
-	{
+	}
+	pg.base.activity_giftmake_template[7] = {
 		reward = 900028,
 		describe = "ビジネス？とはいえ明石も大いに助けてくれた。菓子折りの代わりにお土産でも作ってプレゼントしよう。\n 中身は明石が一番好きな「アレ」でいいだろう。",
 		thankwords = "にゃにゃ？！すごく高そうな宝箱にゃ…宝石が飾ってあって中身がなくても値が付きそうにゃ…\n ダイヤは…返さにゃいけど、指揮官への感謝としてこれをお返しするにゃ～",
@@ -244,8 +250,8 @@ pg.activity_giftmake_template = {
 			0.4,
 			0.4
 		}
-	},
-	{
+	}
+	pg.base.activity_giftmake_template[8] = {
 		reward = 900028,
 		describe = "無人島で見つけた奇妙な形の宝石、少し工夫すれば空を羽ばたくいーぐるちゃんに仕上げられるはず。\n エンタプライズに送ったら笑顔をみせてくれるだろうか。",
 		thankwords = "黄金のような輝きを放つ鷹の模型――これを指揮官が作ったのか？流石だな。こんなにいいもの、もちろん大事にするさ。\n 私からのお返しはこれだ。大したものじゃないがぜひ受け取ってくれ",
@@ -280,4 +286,4 @@ pg.activity_giftmake_template = {
 			0.35
 		}
 	}
-}
+end)()

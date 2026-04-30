@@ -1,6 +1,18 @@
 pg = pg or {}
-pg.child_resource = {
-	{
+pg.child_resource = rawget(pg, "child_resource") or setmetatable({
+	__name = "child_resource"
+}, confNEO)
+pg.child_resource.all = {
+	1,
+	2,
+	3,
+	4
+}
+pg.base = pg.base or {}
+pg.base.child_resource = {}
+
+(function ()
+	pg.base.child_resource[1] = {
 		min_value = 0,
 		name = "財貨",
 		max_value = 99999,
@@ -8,8 +20,8 @@ pg.child_resource = {
 		icon = "10003",
 		default_value = 20,
 		desc = "予定や買い物に使用されるお金です。一部の予定やお出かけで入手できます"
-	},
-	{
+	}
+	pg.base.child_resource[2] = {
 		min_value = 0,
 		name = "気分",
 		max_value = 100,
@@ -22,8 +34,8 @@ $1
 20~39:不調 報酬獲得-20%
 40~59:普通 報酬獲得+0%
 60~100:好調 報酬獲得+40%]]
-	},
-	{
+	}
+	pg.base.child_resource[3] = {
 		min_value = 0,
 		name = "行動力",
 		max_value = 2000,
@@ -31,8 +43,8 @@ $1
 		icon = "10001",
 		default_value = 0,
 		desc = "TBとお出かけする時に消費する行動力。（TB育成内では）毎週回復します"
-	},
-	{
+	}
+	pg.base.child_resource[4] = {
 		min_value = 0,
 		name = "好感度",
 		max_value = 500,
@@ -40,11 +52,5 @@ $1
 		icon = "10014",
 		default_value = 30,
 		desc = "好感度ストーリーを開放できます。「考え事」をクリアしたりTBとおしゃべりしたりすると獲得できます"
-	},
-	all = {
-		1,
-		2,
-		3,
-		4
 	}
-}
+end)()

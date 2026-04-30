@@ -1,6 +1,181 @@
 pg = pg or {}
-pg.activity_series_enemy_story = {
-	{
+pg.activity_series_enemy_story = rawget(pg, "activity_series_enemy_story") or setmetatable({
+	__name = "activity_series_enemy_story"
+}, confNEO)
+pg.activity_series_enemy_story.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	39,
+	40,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	47,
+	48,
+	49,
+	50,
+	51,
+	52,
+	53,
+	54,
+	55,
+	56,
+	57,
+	58,
+	59,
+	60,
+	61,
+	62,
+	63,
+	64,
+	65,
+	66,
+	67,
+	68,
+	69,
+	70,
+	71,
+	72,
+	73,
+	74,
+	75,
+	76,
+	77,
+	78,
+	79,
+	80,
+	81,
+	82,
+	83,
+	84,
+	85,
+	86,
+	87,
+	88,
+	89,
+	90,
+	91,
+	92,
+	93,
+	94,
+	95,
+	96,
+	97,
+	98,
+	99,
+	100,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	110,
+	111,
+	112,
+	113,
+	114,
+	115,
+	116,
+	117,
+	118,
+	119,
+	120,
+	121,
+	122,
+	123,
+	124,
+	125,
+	126,
+	127,
+	128,
+	129,
+	130,
+	131,
+	132,
+	133,
+	134,
+	135,
+	136,
+	137,
+	138,
+	139,
+	140,
+	141,
+	142,
+	143,
+	144,
+	145,
+	146,
+	147,
+	148,
+	149,
+	150,
+	151,
+	152,
+	153,
+	154,
+	155,
+	156,
+	157,
+	158,
+	159,
+	160,
+	161,
+	162,
+	163,
+	164,
+	165,
+	166,
+	167,
+	168,
+	169,
+	170,
+	171,
+	172,
+	173,
+	174,
+	175,
+	176
+}
+pg.base = pg.base or {}
+pg.base.activity_series_enemy_story = {}
+
+(function ()
+	pg.base.activity_series_enemy_story[1] = {
 		name = "TS-1",
 		story = "JIDIFENGBAO3",
 		type = 1,
@@ -22,8 +197,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			500
 		}
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[2] = {
 		name = "TS-2",
 		story = "JIDIFENGBAO4",
 		type = 3,
@@ -45,8 +220,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[3] = {
 		name = "TS-3",
 		story = "JIDIFENGBAO5",
 		type = 1,
@@ -70,8 +245,8 @@ pg.activity_series_enemy_story = {
 			1000,
 			2
 		}
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[4] = {
 		name = "TS-4",
 		story = "1719601",
 		type = 3,
@@ -93,8 +268,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[5] = {
 		name = "TS-5",
 		story = "JIDIFENGBAO7",
 		type = 1,
@@ -118,8 +293,8 @@ pg.activity_series_enemy_story = {
 			2000,
 			4
 		}
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[6] = {
 		name = "TS-6",
 		story = "JIDIFENGBAO8",
 		type = 3,
@@ -141,8 +316,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			5
 		}
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[7] = {
 		name = "TS-7",
 		story = "JIDIFENGBAO9",
 		type = 1,
@@ -166,8 +341,8 @@ pg.activity_series_enemy_story = {
 			3000,
 			6
 		}
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[8] = {
 		name = "TS-8",
 		story = "JIDIFENGBAO10",
 		type = 3,
@@ -189,8 +364,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			7
 		}
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[9] = {
 		name = "TS-9",
 		story = "JIDIFENGBAO11",
 		type = 1,
@@ -214,8 +389,8 @@ pg.activity_series_enemy_story = {
 			4000,
 			8
 		}
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[10] = {
 		name = "TS-10",
 		story = "JIDIFENGBAO12",
 		type = 3,
@@ -237,8 +412,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			9
 		}
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[11] = {
 		name = "TSH-1",
 		story = "JIDIFENGBAO13",
 		type = 2,
@@ -260,8 +435,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[12] = {
 		name = "TSH-2",
 		story = "JIDIFENGBAO14",
 		type = 2,
@@ -285,8 +460,8 @@ pg.activity_series_enemy_story = {
 			4,
 			11
 		}
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[13] = {
 		name = "TSH-3",
 		story = "JIDIFENGBAO15",
 		type = 2,
@@ -310,8 +485,8 @@ pg.activity_series_enemy_story = {
 			6,
 			12
 		}
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[14] = {
 		name = "TSH-4",
 		story = "JIDIFENGBAO16",
 		type = 2,
@@ -335,8 +510,8 @@ pg.activity_series_enemy_story = {
 			8,
 			13
 		}
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[15] = {
 		name = "TSH-5",
 		story = "JIDIFENGBAO17",
 		type = 2,
@@ -360,8 +535,8 @@ pg.activity_series_enemy_story = {
 			10,
 			14
 		}
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[16] = {
 		name = "TSH-6",
 		story = "1719602",
 		type = 2,
@@ -383,8 +558,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			15
 		}
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[17] = {
 		trigger_type = "",
 		name = "基地1",
 		story = "",
@@ -402,8 +577,8 @@ pg.activity_series_enemy_story = {
 		line = 0,
 		pass_awards = 0,
 		id = 17
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[18] = {
 		trigger_type = "",
 		name = "基地2",
 		story = "",
@@ -421,8 +596,8 @@ pg.activity_series_enemy_story = {
 		line = 1,
 		pass_awards = 0,
 		id = 18
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[19] = {
 		trigger_type = "",
 		name = "基地3",
 		story = "",
@@ -440,8 +615,8 @@ pg.activity_series_enemy_story = {
 		line = 3,
 		pass_awards = 0,
 		id = 19
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[20] = {
 		trigger_type = "",
 		name = "基地4",
 		story = "",
@@ -459,8 +634,8 @@ pg.activity_series_enemy_story = {
 		line = 5,
 		pass_awards = 0,
 		id = 20
-	},
-	{
+	}
+	pg.base.activity_series_enemy_story[21] = {
 		trigger_type = "",
 		name = "基地5",
 		story = "",
@@ -478,8 +653,8 @@ pg.activity_series_enemy_story = {
 		line = 11,
 		pass_awards = 0,
 		id = 21
-	},
-	[31] = {
+	}
+	pg.base.activity_series_enemy_story[31] = {
 		name = "裏切りし者の歌",
 		story = "HUANYINLAIDAOTONGXINXUEYUAN2",
 		type = 1,
@@ -501,8 +676,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			0
 		}
-	},
-	[32] = {
+	}
+	pg.base.activity_series_enemy_story[32] = {
 		name = "ユニット組もうよ♪",
 		story = "1819601",
 		type = 3,
@@ -524,8 +699,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			31
 		}
-	},
-	[33] = {
+	}
+	pg.base.activity_series_enemy_story[33] = {
 		name = "デカ指揮官、登場！",
 		story = "1819602",
 		type = 3,
@@ -547,8 +722,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			32
 		}
-	},
-	[34] = {
+	}
+	pg.base.activity_series_enemy_story[34] = {
 		name = "運動場ファイト！",
 		story = "1819603",
 		type = 3,
@@ -570,8 +745,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			33
 		}
-	},
-	[35] = {
+	}
+	pg.base.activity_series_enemy_story[35] = {
 		name = "先生たちを助けよう！",
 		story = "HUANYINLAIDAOTONGXINXUEYUAN6",
 		type = 1,
@@ -593,8 +768,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			34
 		}
-	},
-	[36] = {
+	}
+	pg.base.activity_series_enemy_story[36] = {
 		name = "わんぱくになろう！",
 		story = "1819604",
 		type = 3,
@@ -616,8 +791,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			35
 		}
-	},
-	[37] = {
+	}
+	pg.base.activity_series_enemy_story[37] = {
 		name = "無邪気に大暴走！",
 		story = "1819605",
 		type = 3,
@@ -639,8 +814,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			36
 		}
-	},
-	[38] = {
+	}
+	pg.base.activity_series_enemy_story[38] = {
 		name = "童心よ、永遠に",
 		story = "HUANYINLAIDAOTONGXINXUEYUAN9",
 		type = 1,
@@ -662,8 +837,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			37
 		}
-	},
-	[39] = {
+	}
+	pg.base.activity_series_enemy_story[39] = {
 		name = "CH-1 不穏な爆発",
 		story = "MICAIDUSHIDEXUNZONGZHE2",
 		type = 1,
@@ -685,8 +860,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			0
 		}
-	},
-	[40] = {
+	}
+	pg.base.activity_series_enemy_story[40] = {
 		name = "CH-2 ウサウサ巡査調査中",
 		story = "MICAIDUSHIDEXUNZONGZHE3",
 		type = 1,
@@ -708,8 +883,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			39
 		}
-	},
-	[41] = {
+	}
+	pg.base.activity_series_enemy_story[41] = {
 		name = "CH-3 戦略的デート",
 		story = "MICAIDUSHIDEXUNZONGZHE4",
 		type = 1,
@@ -731,8 +906,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			40
 		}
-	},
-	[42] = {
+	}
+	pg.base.activity_series_enemy_story[42] = {
 		name = "CH-4 ロードセキュリティ",
 		story = "MICAIDUSHIDEXUNZONGZHE5",
 		type = 1,
@@ -754,8 +929,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			41
 		}
-	},
-	[43] = {
+	}
+	pg.base.activity_series_enemy_story[43] = {
 		name = "CH-5 問題の核心",
 		story = "MICAIDUSHIDEXUNZONGZHE6",
 		type = 1,
@@ -777,8 +952,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			42
 		}
-	},
-	[44] = {
+	}
+	pg.base.activity_series_enemy_story[44] = {
 		name = "CH-6 かくかくしかじか",
 		story = "MICAIDUSHIDEXUNZONGZHE7",
 		type = 1,
@@ -800,8 +975,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			43
 		}
-	},
-	[45] = {
+	}
+	pg.base.activity_series_enemy_story[45] = {
 		name = "CH-7 相談教室",
 		story = "MICAIDUSHIDEXUNZONGZHE8",
 		type = 1,
@@ -823,8 +998,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			44
 		}
-	},
-	[46] = {
+	}
+	pg.base.activity_series_enemy_story[46] = {
 		name = "CH-8 ネオンシティの夜",
 		story = "MICAIDUSHIDEXUNZONGZHE9",
 		type = 1,
@@ -846,8 +1021,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			45
 		}
-	},
-	[47] = {
+	}
+	pg.base.activity_series_enemy_story[47] = {
 		name = "CH-9 潜伏者は誰だ？",
 		story = "MICAIDUSHIDEXUNZONGZHE10",
 		type = 1,
@@ -869,8 +1044,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			46
 		}
-	},
-	[48] = {
+	}
+	pg.base.activity_series_enemy_story[48] = {
 		name = "EPS-1 ある日の調査",
 		story = "YOUMIYAGUANQIAPIAN1",
 		type = 1,
@@ -892,8 +1067,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			48
 		}
-	},
-	[49] = {
+	}
+	pg.base.activity_series_enemy_story[49] = {
 		name = "EPS-2 ある日の宝探し",
 		story = "YOUMIYAGUANQIAPIAN2",
 		type = 1,
@@ -917,8 +1092,8 @@ pg.activity_series_enemy_story = {
 			48,
 			49
 		}
-	},
-	[50] = {
+	}
+	pg.base.activity_series_enemy_story[50] = {
 		name = "EPS-3 ある日の大冒険",
 		story = "YOUMIYAGUANQIAPIAN3",
 		type = 1,
@@ -942,8 +1117,8 @@ pg.activity_series_enemy_story = {
 			49,
 			50
 		}
-	},
-	[51] = {
+	}
+	pg.base.activity_series_enemy_story[51] = {
 		name = "EP1-1 はじまりの海",
 		story = "YOUMIYAGUANQIAPIAN4",
 		type = 1,
@@ -967,8 +1142,8 @@ pg.activity_series_enemy_story = {
 			50,
 			51
 		}
-	},
-	[52] = {
+	}
+	pg.base.activity_series_enemy_story[52] = {
 		name = "EP1-2 快適な砂浜",
 		story = "YOUMIYAGUANQIAPIAN5",
 		type = 1,
@@ -992,8 +1167,8 @@ pg.activity_series_enemy_story = {
 			51,
 			52
 		}
-	},
-	[53] = {
+	}
+	pg.base.activity_series_enemy_story[53] = {
 		name = "EP1-3 岩礁の浜辺",
 		story = "YOUMIYAGUANQIAPIAN6",
 		type = 1,
@@ -1017,8 +1192,8 @@ pg.activity_series_enemy_story = {
 			52,
 			53
 		}
-	},
-	[54] = {
+	}
+	pg.base.activity_series_enemy_story[54] = {
 		name = "EP1-4 合流・その一",
 		story = "YOUMIYAGUANQIAPIAN7",
 		type = 1,
@@ -1042,8 +1217,8 @@ pg.activity_series_enemy_story = {
 			53,
 			54
 		}
-	},
-	[55] = {
+	}
+	pg.base.activity_series_enemy_story[55] = {
 		name = "EP1-5 合流・二",
 		story = "YOUMIYAGUANQIAPIAN8",
 		type = 1,
@@ -1067,8 +1242,8 @@ pg.activity_series_enemy_story = {
 			54,
 			55
 		}
-	},
-	[56] = {
+	}
+	pg.base.activity_series_enemy_story[56] = {
 		name = "EP1-6 はじまりのエリア",
 		story = "YOUMIYAGUANQIAPIAN9",
 		type = 1,
@@ -1092,8 +1267,8 @@ pg.activity_series_enemy_story = {
 			55,
 			56
 		}
-	},
-	[57] = {
+	}
+	pg.base.activity_series_enemy_story[57] = {
 		name = "EP1-7 上を目指して",
 		story = "YOUMIYAGUANQIAPIAN10",
 		type = 1,
@@ -1126,8 +1301,8 @@ pg.activity_series_enemy_story = {
 				}
 			}
 		}
-	},
-	[58] = {
+	}
+	pg.base.activity_series_enemy_story[58] = {
 		name = "EP2-1 豊穣の湖",
 		story = "YOUMIYAGUANQIAPIAN11",
 		type = 1,
@@ -1151,8 +1326,8 @@ pg.activity_series_enemy_story = {
 			57,
 			58
 		}
-	},
-	[59] = {
+	}
+	pg.base.activity_series_enemy_story[59] = {
 		name = "EP2-2 豊穣の森",
 		story = "YOUMIYAGUANQIAPIAN12",
 		type = 1,
@@ -1176,8 +1351,8 @@ pg.activity_series_enemy_story = {
 			58,
 			59
 		}
-	},
-	[60] = {
+	}
+	pg.base.activity_series_enemy_story[60] = {
 		name = "EP2-3 豊穣の草原",
 		story = "YOUMIYAGUANQIAPIAN13",
 		type = 1,
@@ -1201,8 +1376,8 @@ pg.activity_series_enemy_story = {
 			59,
 			60
 		}
-	},
-	[61] = {
+	}
+	pg.base.activity_series_enemy_story[61] = {
 		name = "EP2-4 枯れた草原",
 		story = "YOUMIYAGUANQIAPIAN14",
 		type = 1,
@@ -1226,8 +1401,8 @@ pg.activity_series_enemy_story = {
 			60,
 			61
 		}
-	},
-	[62] = {
+	}
+	pg.base.activity_series_enemy_story[62] = {
 		name = "EP2-5 汚れた川",
 		story = "YOUMIYAGUANQIAPIAN15",
 		type = 1,
@@ -1251,8 +1426,8 @@ pg.activity_series_enemy_story = {
 			61,
 			62
 		}
-	},
-	[63] = {
+	}
+	pg.base.activity_series_enemy_story[63] = {
 		name = "EP2-6 廃村",
 		story = "YOUMIYAGUANQIAPIAN16",
 		type = 1,
@@ -1276,8 +1451,8 @@ pg.activity_series_enemy_story = {
 			62,
 			63
 		}
-	},
-	[64] = {
+	}
+	pg.base.activity_series_enemy_story[64] = {
 		name = "EP2-7 腐水の湖",
 		story = "1947001",
 		type = 3,
@@ -1301,8 +1476,8 @@ pg.activity_series_enemy_story = {
 			63,
 			64
 		}
-	},
-	[65] = {
+	}
+	pg.base.activity_series_enemy_story[65] = {
 		name = "EP2-8 天穹の塔：L1区画",
 		story = "YOUMIYAGUANQIAPIAN18",
 		type = 1,
@@ -1326,8 +1501,8 @@ pg.activity_series_enemy_story = {
 			64,
 			65
 		}
-	},
-	[66] = {
+	}
+	pg.base.activity_series_enemy_story[66] = {
 		name = "EP3-1 腐水の海",
 		story = "1947002",
 		type = 3,
@@ -1360,8 +1535,8 @@ pg.activity_series_enemy_story = {
 				}
 			}
 		}
-	},
-	[67] = {
+	}
+	pg.base.activity_series_enemy_story[67] = {
 		name = "EP3-2 腐蝕の森",
 		story = "YOUMIYAGUANQIAPIAN20",
 		type = 1,
@@ -1385,8 +1560,8 @@ pg.activity_series_enemy_story = {
 			66,
 			67
 		}
-	},
-	[68] = {
+	}
+	pg.base.activity_series_enemy_story[68] = {
 		name = "EP3-3 死の荒野",
 		story = "YOUMIYAGUANQIAPIAN21",
 		type = 1,
@@ -1410,8 +1585,8 @@ pg.activity_series_enemy_story = {
 			67,
 			68
 		}
-	},
-	[69] = {
+	}
+	pg.base.activity_series_enemy_story[69] = {
 		name = "EP3-4 廃棄された駐屯所",
 		story = "YOUMIYAGUANQIAPIAN22",
 		type = 1,
@@ -1435,8 +1610,8 @@ pg.activity_series_enemy_story = {
 			68,
 			69
 		}
-	},
-	[70] = {
+	}
+	pg.base.activity_series_enemy_story[70] = {
 		name = "EP3-5 大地溝帯",
 		story = "YOUMIYAGUANQIAPIAN23",
 		type = 1,
@@ -1460,8 +1635,8 @@ pg.activity_series_enemy_story = {
 			69,
 			70
 		}
-	},
-	[71] = {
+	}
+	pg.base.activity_series_enemy_story[71] = {
 		name = "EP3-6 天穹の塔：L2区画",
 		story = "YOUMIYAGUANQIAPIAN24",
 		type = 1,
@@ -1485,8 +1660,8 @@ pg.activity_series_enemy_story = {
 			70,
 			71
 		}
-	},
-	[72] = {
+	}
+	pg.base.activity_series_enemy_story[72] = {
 		name = "EP4-1 魍魎山岳",
 		story = "YOUMIYAGUANQIAPIAN25",
 		type = 1,
@@ -1519,8 +1694,8 @@ pg.activity_series_enemy_story = {
 				}
 			}
 		}
-	},
-	[73] = {
+	}
+	pg.base.activity_series_enemy_story[73] = {
 		name = "EP4-2 廃墟都市",
 		story = "YOUMIYAGUANQIAPIAN26",
 		type = 1,
@@ -1544,8 +1719,8 @@ pg.activity_series_enemy_story = {
 			72,
 			73
 		}
-	},
-	[74] = {
+	}
+	pg.base.activity_series_enemy_story[74] = {
 		name = "EP4-3 天穹の塔：L2区画",
 		story = "YOUMIYAGUANQIAPIAN27",
 		type = 1,
@@ -1569,8 +1744,8 @@ pg.activity_series_enemy_story = {
 			73,
 			74
 		}
-	},
-	[75] = {
+	}
+	pg.base.activity_series_enemy_story[75] = {
 		name = "EP5-1 天穹の海",
 		story = "YOUMIYAGUANQIAPIAN28",
 		type = 1,
@@ -1603,8 +1778,8 @@ pg.activity_series_enemy_story = {
 				}
 			}
 		}
-	},
-	[76] = {
+	}
+	pg.base.activity_series_enemy_story[76] = {
 		name = "EP5-2 巨大バリア",
 		story = "YOUMIYAGUANQIAPIAN29",
 		type = 1,
@@ -1628,8 +1803,8 @@ pg.activity_series_enemy_story = {
 			75,
 			76
 		}
-	},
-	[77] = {
+	}
+	pg.base.activity_series_enemy_story[77] = {
 		name = "EP5-3 コア都市部",
 		story = "YOUMIYAGUANQIAPIAN30",
 		type = 1,
@@ -1653,8 +1828,8 @@ pg.activity_series_enemy_story = {
 			76,
 			77
 		}
-	},
-	[78] = {
+	}
+	pg.base.activity_series_enemy_story[78] = {
 		name = "EP5-4 天穹の塔：頂上",
 		story = "YOUMIYAGUANQIAPIAN31",
 		type = 1,
@@ -1678,8 +1853,8 @@ pg.activity_series_enemy_story = {
 			77,
 			78
 		}
-	},
-	[79] = {
+	}
+	pg.base.activity_series_enemy_story[79] = {
 		name = "EP5-5 決戦",
 		story = "1947003",
 		type = 3,
@@ -1703,8 +1878,8 @@ pg.activity_series_enemy_story = {
 			78,
 			79
 		}
-	},
-	[80] = {
+	}
+	pg.base.activity_series_enemy_story[80] = {
 		name = "EPS-4 エピローグ",
 		story = "YOUMIYAGUANQIAPIAN33",
 		type = 1,
@@ -1728,8 +1903,8 @@ pg.activity_series_enemy_story = {
 			79,
 			80
 		}
-	},
-	[81] = {
+	}
+	pg.base.activity_series_enemy_story[81] = {
 		name = "EPS-5 エピローグⅡ",
 		story = "YOUMIYAGUANQIAPIAN34",
 		type = 1,
@@ -1753,8 +1928,8 @@ pg.activity_series_enemy_story = {
 			80,
 			81
 		}
-	},
-	[82] = {
+	}
+	pg.base.activity_series_enemy_story[82] = {
 		name = "始まりのエリア",
 		story = "",
 		type = 4,
@@ -1778,8 +1953,8 @@ pg.activity_series_enemy_story = {
 			57,
 			79
 		}
-	},
-	[83] = {
+	}
+	pg.base.activity_series_enemy_story[83] = {
 		name = "険しい浜辺",
 		story = "",
 		type = 4,
@@ -1803,8 +1978,8 @@ pg.activity_series_enemy_story = {
 			57,
 			79
 		}
-	},
-	[84] = {
+	}
+	pg.base.activity_series_enemy_story[84] = {
 		name = "始まりの海",
 		story = "",
 		type = 4,
@@ -1828,8 +2003,8 @@ pg.activity_series_enemy_story = {
 			57,
 			79
 		}
-	},
-	[85] = {
+	}
+	pg.base.activity_series_enemy_story[85] = {
 		name = "快適な砂浜",
 		story = "",
 		type = 4,
@@ -1853,8 +2028,8 @@ pg.activity_series_enemy_story = {
 			57,
 			79
 		}
-	},
-	[86] = {
+	}
+	pg.base.activity_series_enemy_story[86] = {
 		name = "豊水の湖",
 		story = "",
 		type = 4,
@@ -1878,8 +2053,8 @@ pg.activity_series_enemy_story = {
 			65,
 			79
 		}
-	},
-	[87] = {
+	}
+	pg.base.activity_series_enemy_story[87] = {
 		name = "豊穣の森",
 		story = "",
 		type = 4,
@@ -1903,8 +2078,8 @@ pg.activity_series_enemy_story = {
 			65,
 			79
 		}
-	},
-	[88] = {
+	}
+	pg.base.activity_series_enemy_story[88] = {
 		name = "L1エリア",
 		story = "",
 		type = 4,
@@ -1928,8 +2103,8 @@ pg.activity_series_enemy_story = {
 			65,
 			79
 		}
-	},
-	[89] = {
+	}
+	pg.base.activity_series_enemy_story[89] = {
 		name = "廃村",
 		story = "",
 		type = 4,
@@ -1953,8 +2128,8 @@ pg.activity_series_enemy_story = {
 			65,
 			79
 		}
-	},
-	[90] = {
+	}
+	pg.base.activity_series_enemy_story[90] = {
 		name = "腐水の湖",
 		story = "",
 		type = 4,
@@ -1978,8 +2153,8 @@ pg.activity_series_enemy_story = {
 			65,
 			79
 		}
-	},
-	[91] = {
+	}
+	pg.base.activity_series_enemy_story[91] = {
 		name = "腐水の海",
 		story = "",
 		type = 4,
@@ -2003,8 +2178,8 @@ pg.activity_series_enemy_story = {
 			71,
 			79
 		}
-	},
-	[92] = {
+	}
+	pg.base.activity_series_enemy_story[92] = {
 		name = "腐蝕の森",
 		story = "",
 		type = 4,
@@ -2028,8 +2203,8 @@ pg.activity_series_enemy_story = {
 			71,
 			79
 		}
-	},
-	[93] = {
+	}
+	pg.base.activity_series_enemy_story[93] = {
 		name = "死の荒野",
 		story = "",
 		type = 4,
@@ -2053,8 +2228,8 @@ pg.activity_series_enemy_story = {
 			71,
 			79
 		}
-	},
-	[94] = {
+	}
+	pg.base.activity_series_enemy_story[94] = {
 		name = "廃棄駐屯所",
 		story = "",
 		type = 4,
@@ -2078,8 +2253,8 @@ pg.activity_series_enemy_story = {
 			71,
 			79
 		}
-	},
-	[95] = {
+	}
+	pg.base.activity_series_enemy_story[95] = {
 		name = "大地溝帯",
 		story = "",
 		type = 4,
@@ -2103,8 +2278,8 @@ pg.activity_series_enemy_story = {
 			71,
 			79
 		}
-	},
-	[96] = {
+	}
+	pg.base.activity_series_enemy_story[96] = {
 		name = "L2エリア",
 		story = "",
 		type = 4,
@@ -2128,8 +2303,8 @@ pg.activity_series_enemy_story = {
 			71,
 			79
 		}
-	},
-	[97] = {
+	}
+	pg.base.activity_series_enemy_story[97] = {
 		name = "魍魎山岳",
 		story = "",
 		type = 4,
@@ -2153,8 +2328,8 @@ pg.activity_series_enemy_story = {
 			74,
 			79
 		}
-	},
-	[98] = {
+	}
+	pg.base.activity_series_enemy_story[98] = {
 		name = "廃墟都市",
 		story = "",
 		type = 4,
@@ -2178,8 +2353,8 @@ pg.activity_series_enemy_story = {
 			74,
 			79
 		}
-	},
-	[99] = {
+	}
+	pg.base.activity_series_enemy_story[99] = {
 		name = "L3エリア",
 		story = "",
 		type = 4,
@@ -2203,8 +2378,8 @@ pg.activity_series_enemy_story = {
 			74,
 			79
 		}
-	},
-	[100] = {
+	}
+	pg.base.activity_series_enemy_story[100] = {
 		name = "蒼穹の海",
 		story = "",
 		type = 4,
@@ -2226,8 +2401,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[101] = {
+	}
+	pg.base.activity_series_enemy_story[101] = {
 		name = "頂上エリア",
 		story = "",
 		type = 4,
@@ -2249,8 +2424,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[102] = {
+	}
+	pg.base.activity_series_enemy_story[102] = {
 		name = "中心エリア",
 		story = "",
 		type = 4,
@@ -2272,8 +2447,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[103] = {
+	}
+	pg.base.activity_series_enemy_story[103] = {
 		name = "快適な砂浜",
 		story = "",
 		type = 4,
@@ -2295,8 +2470,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[104] = {
+	}
+	pg.base.activity_series_enemy_story[104] = {
 		name = "豊水の湖",
 		story = "",
 		type = 4,
@@ -2318,8 +2493,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[105] = {
+	}
+	pg.base.activity_series_enemy_story[105] = {
 		name = "豊穣の森",
 		story = "",
 		type = 4,
@@ -2341,8 +2516,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[106] = {
+	}
+	pg.base.activity_series_enemy_story[106] = {
 		name = "L1エリア",
 		story = "",
 		type = 4,
@@ -2364,8 +2539,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[107] = {
+	}
+	pg.base.activity_series_enemy_story[107] = {
 		name = "廃村",
 		story = "",
 		type = 4,
@@ -2387,8 +2562,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[108] = {
+	}
+	pg.base.activity_series_enemy_story[108] = {
 		name = "腐水の湖",
 		story = "",
 		type = 4,
@@ -2410,8 +2585,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[109] = {
+	}
+	pg.base.activity_series_enemy_story[109] = {
 		name = "腐水の海",
 		story = "",
 		type = 4,
@@ -2433,8 +2608,10 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[110] = {
+	}
+end)()
+(function ()
+	pg.base.activity_series_enemy_story[110] = {
 		name = "腐蝕の森",
 		story = "",
 		type = 4,
@@ -2456,8 +2633,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[111] = {
+	}
+	pg.base.activity_series_enemy_story[111] = {
 		name = "死の荒野",
 		story = "",
 		type = 4,
@@ -2479,8 +2656,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[112] = {
+	}
+	pg.base.activity_series_enemy_story[112] = {
 		name = "廃棄駐屯所",
 		story = "",
 		type = 4,
@@ -2502,8 +2679,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[113] = {
+	}
+	pg.base.activity_series_enemy_story[113] = {
 		name = "大地溝帯",
 		story = "",
 		type = 4,
@@ -2525,8 +2702,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[114] = {
+	}
+	pg.base.activity_series_enemy_story[114] = {
 		name = "L2エリア",
 		story = "",
 		type = 4,
@@ -2548,8 +2725,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[115] = {
+	}
+	pg.base.activity_series_enemy_story[115] = {
 		name = "魍魎山岳",
 		story = "",
 		type = 4,
@@ -2571,8 +2748,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[116] = {
+	}
+	pg.base.activity_series_enemy_story[116] = {
 		name = "廃墟都市",
 		story = "",
 		type = 4,
@@ -2594,8 +2771,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[117] = {
+	}
+	pg.base.activity_series_enemy_story[117] = {
 		name = "L3エリア",
 		story = "",
 		type = 4,
@@ -2617,8 +2794,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[118] = {
+	}
+	pg.base.activity_series_enemy_story[118] = {
 		name = "蒼穹の海",
 		story = "",
 		type = 4,
@@ -2640,8 +2817,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[119] = {
+	}
+	pg.base.activity_series_enemy_story[119] = {
 		name = "頂上エリア",
 		story = "",
 		type = 4,
@@ -2663,8 +2840,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[120] = {
+	}
+	pg.base.activity_series_enemy_story[120] = {
 		name = "中心エリア",
 		story = "",
 		type = 4,
@@ -2686,8 +2863,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			81
 		}
-	},
-	[121] = {
+	}
+	pg.base.activity_series_enemy_story[121] = {
 		name = "EP1-1 いきなり卒業式！？",
 		story = "QIYUANXIADEMIMI2",
 		type = 1,
@@ -2709,8 +2886,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			121
 		}
-	},
-	[122] = {
+	}
+	pg.base.activity_series_enemy_story[122] = {
 		name = "EP1-2 初めての淵層",
 		story = "QIYUANXIADEMIMI3",
 		type = 1,
@@ -2734,8 +2911,8 @@ pg.activity_series_enemy_story = {
 			121,
 			122
 		}
-	},
-	[123] = {
+	}
+	pg.base.activity_series_enemy_story[123] = {
 		name = "EP1-3 またしても卒業式？",
 		story = "QIYUANXIADEMIMI4",
 		type = 1,
@@ -2759,8 +2936,8 @@ pg.activity_series_enemy_story = {
 			122,
 			123
 		}
-	},
-	[124] = {
+	}
+	pg.base.activity_series_enemy_story[124] = {
 		name = "EP1-4 再び旅立ちへ",
 		story = "QIYUANXIADEMIMI5",
 		type = 1,
@@ -2784,8 +2961,8 @@ pg.activity_series_enemy_story = {
 			123,
 			124
 		}
-	},
-	[125] = {
+	}
+	pg.base.activity_series_enemy_story[125] = {
 		name = "EP2-1 アイススロート峡谷",
 		story = "QIYUANXIADEMIMI6",
 		type = 1,
@@ -2809,8 +2986,8 @@ pg.activity_series_enemy_story = {
 			124,
 			125
 		}
-	},
-	[126] = {
+	}
+	pg.base.activity_series_enemy_story[126] = {
 		name = "EP2-2 極光の地",
 		story = "QIYUANXIADEMIMI7",
 		type = 1,
@@ -2834,8 +3011,8 @@ pg.activity_series_enemy_story = {
 			125,
 			126
 		}
-	},
-	[127] = {
+	}
+	pg.base.activity_series_enemy_story[127] = {
 		name = "EP2-3 罠",
 		story = "QIYUANXIADEMIMI8",
 		type = 1,
@@ -2859,8 +3036,8 @@ pg.activity_series_enemy_story = {
 			126,
 			127
 		}
-	},
-	[128] = {
+	}
+	pg.base.activity_series_enemy_story[128] = {
 		name = "EP2-4 再開",
 		story = "QIYUANXIADEMIMI9",
 		type = 1,
@@ -2884,8 +3061,8 @@ pg.activity_series_enemy_story = {
 			127,
 			128
 		}
-	},
-	[129] = {
+	}
+	pg.base.activity_series_enemy_story[129] = {
 		name = "EP2-5 過去",
 		story = "QIYUANXIADEMIMI10",
 		type = 1,
@@ -2909,8 +3086,8 @@ pg.activity_series_enemy_story = {
 			128,
 			129
 		}
-	},
-	[130] = {
+	}
+	pg.base.activity_series_enemy_story[130] = {
 		name = "EP2-6 古の贈り物",
 		story = "QIYUANXIADEMIMI11",
 		type = 1,
@@ -2934,8 +3111,8 @@ pg.activity_series_enemy_story = {
 			129,
 			130
 		}
-	},
-	[131] = {
+	}
+	pg.base.activity_series_enemy_story[131] = {
 		name = "EP2-7 寒冬要塞",
 		story = "QIYUANXIADEMIMI12",
 		type = 1,
@@ -2959,8 +3136,8 @@ pg.activity_series_enemy_story = {
 			130,
 			131
 		}
-	},
-	[132] = {
+	}
+	pg.base.activity_series_enemy_story[132] = {
 		name = "EP3-1 瘴気の沼地の戦",
 		story = "1956001",
 		type = 3,
@@ -2984,8 +3161,8 @@ pg.activity_series_enemy_story = {
 			131,
 			132
 		}
-	},
-	[133] = {
+	}
+	pg.base.activity_series_enemy_story[133] = {
 		name = "EP3-2 魔法使いの野営地",
 		story = "QIYUANXIADEMIMI14",
 		type = 1,
@@ -3009,8 +3186,8 @@ pg.activity_series_enemy_story = {
 			132,
 			133
 		}
-	},
-	[134] = {
+	}
+	pg.base.activity_series_enemy_story[134] = {
 		name = "EP3-3 同盟の調印式",
 		story = "QIYUANXIADEMIMI15",
 		type = 1,
@@ -3034,8 +3211,8 @@ pg.activity_series_enemy_story = {
 			133,
 			134
 		}
-	},
-	[135] = {
+	}
+	pg.base.activity_series_enemy_story[135] = {
 		name = "EP3-4 交渉の異変",
 		story = "1956002",
 		type = 3,
@@ -3059,8 +3236,8 @@ pg.activity_series_enemy_story = {
 			134,
 			135
 		}
-	},
-	[136] = {
+	}
+	pg.base.activity_series_enemy_story[136] = {
 		name = "EP3-5 予言の子",
 		story = "QIYUANXIADEMIMI17",
 		type = 1,
@@ -3084,8 +3261,8 @@ pg.activity_series_enemy_story = {
 			135,
 			136
 		}
-	},
-	[137] = {
+	}
+	pg.base.activity_series_enemy_story[137] = {
 		name = "EP4-1 忘れ去られた地",
 		story = "1956003",
 		type = 3,
@@ -3109,8 +3286,8 @@ pg.activity_series_enemy_story = {
 			136,
 			137
 		}
-	},
-	[138] = {
+	}
+	pg.base.activity_series_enemy_story[138] = {
 		name = "EP4-2 不落の要塞",
 		story = "QIYUANXIADEMIMI19",
 		type = 1,
@@ -3134,8 +3311,8 @@ pg.activity_series_enemy_story = {
 			137,
 			138
 		}
-	},
-	[139] = {
+	}
+	pg.base.activity_series_enemy_story[139] = {
 		name = "EP4-3 幻影の境",
 		story = "1956004",
 		type = 3,
@@ -3159,8 +3336,8 @@ pg.activity_series_enemy_story = {
 			138,
 			139
 		}
-	},
-	[140] = {
+	}
+	pg.base.activity_series_enemy_story[140] = {
 		name = "EP4-4 黎明の終戦",
 		story = "QIYUANXIADEMIMI21",
 		type = 1,
@@ -3184,8 +3361,8 @@ pg.activity_series_enemy_story = {
 			139,
 			140
 		}
-	},
-	[141] = {
+	}
+	pg.base.activity_series_enemy_story[141] = {
 		name = "EP4-5 神殿の探索",
 		story = "QIYUANXIADEMIMI22",
 		type = 1,
@@ -3209,8 +3386,8 @@ pg.activity_series_enemy_story = {
 			140,
 			141
 		}
-	},
-	[142] = {
+	}
+	pg.base.activity_series_enemy_story[142] = {
 		name = "EP4-6 覚醒する記憶",
 		story = "QIYUANXIADEMIMI23",
 		type = 1,
@@ -3234,8 +3411,8 @@ pg.activity_series_enemy_story = {
 			141,
 			142
 		}
-	},
-	[143] = {
+	}
+	pg.base.activity_series_enemy_story[143] = {
 		name = "EP4-7 寂滅の魔法塔",
 		story = "QIYUANXIADEMIMI24",
 		type = 1,
@@ -3259,8 +3436,8 @@ pg.activity_series_enemy_story = {
 			142,
 			143
 		}
-	},
-	[144] = {
+	}
+	pg.base.activity_series_enemy_story[144] = {
 		name = "EP4-8 過ぎ去りし時代",
 		story = "QIYUANXIADEMIMI25",
 		type = 1,
@@ -3284,8 +3461,8 @@ pg.activity_series_enemy_story = {
 			143,
 			144
 		}
-	},
-	[145] = {
+	}
+	pg.base.activity_series_enemy_story[145] = {
 		name = "EP4-9 眠りの地",
 		story = "QIYUANXIADEMIMI26",
 		type = 1,
@@ -3309,8 +3486,8 @@ pg.activity_series_enemy_story = {
 			144,
 			145
 		}
-	},
-	[146] = {
+	}
+	pg.base.activity_series_enemy_story[146] = {
 		name = "EP5-1 反攻の狼煙",
 		story = "QIYUANXIADEMIMI27",
 		type = 1,
@@ -3334,8 +3511,8 @@ pg.activity_series_enemy_story = {
 			145,
 			146
 		}
-	},
-	[147] = {
+	}
+	pg.base.activity_series_enemy_story[147] = {
 		name = "EP5-2 アズィル城の戦い",
 		story = "1956005",
 		type = 3,
@@ -3359,8 +3536,8 @@ pg.activity_series_enemy_story = {
 			146,
 			147
 		}
-	},
-	[148] = {
+	}
+	pg.base.activity_series_enemy_story[148] = {
 		name = "EP5-3 終結と新生",
 		story = "QIYUANXIADEMIMI29",
 		type = 1,
@@ -3384,8 +3561,8 @@ pg.activity_series_enemy_story = {
 			147,
 			148
 		}
-	},
-	[149] = {
+	}
+	pg.base.activity_series_enemy_story[149] = {
 		name = "アズィル城",
 		story = "",
 		type = 4,
@@ -3409,8 +3586,8 @@ pg.activity_series_enemy_story = {
 			124,
 			145
 		}
-	},
-	[150] = {
+	}
+	pg.base.activity_series_enemy_story[150] = {
 		name = "アイススロート峡谷",
 		story = "",
 		type = 4,
@@ -3432,8 +3609,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			131
 		}
-	},
-	[151] = {
+	}
+	pg.base.activity_series_enemy_story[151] = {
 		name = "極光の地",
 		story = "",
 		type = 4,
@@ -3455,8 +3632,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			131
 		}
-	},
-	[152] = {
+	}
+	pg.base.activity_series_enemy_story[152] = {
 		name = "静寂の氷湖",
 		story = "",
 		type = 4,
@@ -3478,8 +3655,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			131
 		}
-	},
-	[153] = {
+	}
+	pg.base.activity_series_enemy_story[153] = {
 		name = "喰光のツンドラ",
 		story = "",
 		type = 4,
@@ -3501,8 +3678,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			131
 		}
-	},
-	[154] = {
+	}
+	pg.base.activity_series_enemy_story[154] = {
 		name = "古代遺跡",
 		story = "",
 		type = 4,
@@ -3524,8 +3701,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			131
 		}
-	},
-	[155] = {
+	}
+	pg.base.activity_series_enemy_story[155] = {
 		name = "寒冬要塞",
 		story = "",
 		type = 4,
@@ -3547,8 +3724,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			131
 		}
-	},
-	[156] = {
+	}
+	pg.base.activity_series_enemy_story[156] = {
 		name = "瘴気の沼地",
 		story = "",
 		type = 4,
@@ -3570,8 +3747,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			136
 		}
-	},
-	[157] = {
+	}
+	pg.base.activity_series_enemy_story[157] = {
 		name = "変化魔法使いキャンプ",
 		story = "",
 		type = 4,
@@ -3593,8 +3770,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			136
 		}
-	},
-	[158] = {
+	}
+	pg.base.activity_series_enemy_story[158] = {
 		name = "囁きの森",
 		story = "",
 		type = 4,
@@ -3616,8 +3793,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			136
 		}
-	},
-	[159] = {
+	}
+	pg.base.activity_series_enemy_story[159] = {
 		name = "腐朽の木",
 		story = "",
 		type = 4,
@@ -3639,8 +3816,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			136
 		}
-	},
-	[160] = {
+	}
+	pg.base.activity_series_enemy_story[160] = {
 		name = "暗夜の魔宮",
 		story = "",
 		type = 4,
@@ -3662,8 +3839,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			136
 		}
-	},
-	[161] = {
+	}
+	pg.base.activity_series_enemy_story[161] = {
 		name = "忘れ去られた地",
 		story = "",
 		type = 4,
@@ -3685,8 +3862,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			145
 		}
-	},
-	[162] = {
+	}
+	pg.base.activity_series_enemy_story[162] = {
 		name = "砕かれた地",
 		story = "",
 		type = 4,
@@ -3708,8 +3885,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			145
 		}
-	},
-	[163] = {
+	}
+	pg.base.activity_series_enemy_story[163] = {
 		name = "寂滅の魔法塔",
 		story = "",
 		type = 4,
@@ -3731,8 +3908,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			145
 		}
-	},
-	[164] = {
+	}
+	pg.base.activity_series_enemy_story[164] = {
 		name = "古戦場の遺跡",
 		story = "",
 		type = 4,
@@ -3754,8 +3931,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			145
 		}
-	},
-	[165] = {
+	}
+	pg.base.activity_series_enemy_story[165] = {
 		name = "静寂の樹庭",
 		story = "",
 		type = 4,
@@ -3777,8 +3954,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			145
 		}
-	},
-	[166] = {
+	}
+	pg.base.activity_series_enemy_story[166] = {
 		name = "アズィル城",
 		story = "",
 		type = 4,
@@ -3800,8 +3977,8 @@ pg.activity_series_enemy_story = {
 		trigger_value = {
 			148
 		}
-	},
-	[167] = {
+	}
+	pg.base.activity_series_enemy_story[167] = {
 		name = "VR-0",
 		story = "MANYOUZHEZHAOMUJIHUA1",
 		type = 1,
@@ -3828,8 +4005,8 @@ pg.activity_series_enemy_story = {
 				true
 			}
 		}
-	},
-	[168] = {
+	}
+	pg.base.activity_series_enemy_story[168] = {
 		name = "VR-1",
 		story = "MANYOUZHEZHAOMUJIHUA2",
 		type = 1,
@@ -3856,8 +4033,8 @@ pg.activity_series_enemy_story = {
 				true
 			}
 		}
-	},
-	[169] = {
+	}
+	pg.base.activity_series_enemy_story[169] = {
 		name = "VR-2",
 		story = "MANYOUZHEZHAOMUJIHUA3",
 		type = 1,
@@ -3884,8 +4061,8 @@ pg.activity_series_enemy_story = {
 				true
 			}
 		}
-	},
-	[170] = {
+	}
+	pg.base.activity_series_enemy_story[170] = {
 		name = "VR-3",
 		story = "MANYOUZHEZHAOMUJIHUA4",
 		type = 1,
@@ -3912,8 +4089,8 @@ pg.activity_series_enemy_story = {
 				true
 			}
 		}
-	},
-	[171] = {
+	}
+	pg.base.activity_series_enemy_story[171] = {
 		name = "VR-4",
 		story = "MANYOUZHEZHAOMUJIHUA5",
 		type = 1,
@@ -3943,8 +4120,8 @@ pg.activity_series_enemy_story = {
 			flagIndex = 1,
 			flagID = 1
 		}
-	},
-	[172] = {
+	}
+	pg.base.activity_series_enemy_story[172] = {
 		name = "VR-5",
 		story = "MANYOUZHEZHAOMUJIHUA6",
 		type = 1,
@@ -3974,8 +4151,8 @@ pg.activity_series_enemy_story = {
 			flagIndex = 2,
 			flagID = 1
 		}
-	},
-	[173] = {
+	}
+	pg.base.activity_series_enemy_story[173] = {
 		name = "VR-6",
 		story = "MANYOUZHEZHAOMUJIHUA7",
 		type = 1,
@@ -4005,8 +4182,8 @@ pg.activity_series_enemy_story = {
 			flagIndex = 3,
 			flagID = 1
 		}
-	},
-	[174] = {
+	}
+	pg.base.activity_series_enemy_story[174] = {
 		name = "VR-7",
 		story = "MANYOUZHEZHAOMUJIHUA8",
 		type = 1,
@@ -4036,8 +4213,8 @@ pg.activity_series_enemy_story = {
 			flagIndex = 4,
 			flagID = 1
 		}
-	},
-	[175] = {
+	}
+	pg.base.activity_series_enemy_story[175] = {
 		name = "VR-8",
 		story = "MANYOUZHEZHAOMUJIHUA9",
 		type = 1,
@@ -4067,8 +4244,8 @@ pg.activity_series_enemy_story = {
 			flagIndex = 5,
 			flagID = 1
 		}
-	},
-	[176] = {
+	}
+	pg.base.activity_series_enemy_story[176] = {
 		name = "VR-9",
 		story = "MANYOUZHEZHAOMUJIHUA10",
 		type = 1,
@@ -4098,174 +4275,5 @@ pg.activity_series_enemy_story = {
 			flagIndex = 6,
 			flagID = 1
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		39,
-		40,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46,
-		47,
-		48,
-		49,
-		50,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56,
-		57,
-		58,
-		59,
-		60,
-		61,
-		62,
-		63,
-		64,
-		65,
-		66,
-		67,
-		68,
-		69,
-		70,
-		71,
-		72,
-		73,
-		74,
-		75,
-		76,
-		77,
-		78,
-		79,
-		80,
-		81,
-		82,
-		83,
-		84,
-		85,
-		86,
-		87,
-		88,
-		89,
-		90,
-		91,
-		92,
-		93,
-		94,
-		95,
-		96,
-		97,
-		98,
-		99,
-		100,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		110,
-		111,
-		112,
-		113,
-		114,
-		115,
-		116,
-		117,
-		118,
-		119,
-		120,
-		121,
-		122,
-		123,
-		124,
-		125,
-		126,
-		127,
-		128,
-		129,
-		130,
-		131,
-		132,
-		133,
-		134,
-		135,
-		136,
-		137,
-		138,
-		139,
-		140,
-		141,
-		142,
-		143,
-		144,
-		145,
-		146,
-		147,
-		148,
-		149,
-		150,
-		151,
-		152,
-		153,
-		154,
-		155,
-		156,
-		157,
-		158,
-		159,
-		160,
-		161,
-		162,
-		163,
-		164,
-		165,
-		166,
-		167,
-		168,
-		169,
-		170,
-		171,
-		172,
-		173,
-		174,
-		175,
-		176
 	}
-}
+end)()

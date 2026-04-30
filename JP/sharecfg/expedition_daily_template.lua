@@ -1,6 +1,22 @@
 pg = pg or {}
-pg.expedition_daily_template = {
-	[101] = {
+pg.expedition_daily_template = rawget(pg, "expedition_daily_template") or setmetatable({
+	__name = "expedition_daily_template"
+}, confNEO)
+pg.expedition_daily_template.all = {
+	101,
+	201,
+	301,
+	401,
+	501,
+	601,
+	701,
+	801
+}
+pg.base = pg.base or {}
+pg.base.expedition_daily_template = {}
+
+(function ()
+	pg.base.expedition_daily_template[101] = {
 		tips = "まだ開放されていないステージです",
 		limit_type = 0,
 		pic = "daily4",
@@ -14,8 +30,8 @@ pg.expedition_daily_template = {
 		des = "まだ開放されていないステージです",
 		weekday = {},
 		expedition_and_lv_limit_list = {}
-	},
-	[201] = {
+	}
+	pg.base.expedition_daily_template[201] = {
 		tips = "月・木・日曜日開放！",
 		limit_type = 1,
 		pic = "daily1",
@@ -82,8 +98,8 @@ pg.expedition_daily_template = {
 				95
 			}
 		}
-	},
-	[301] = {
+	}
+	pg.base.expedition_daily_template[301] = {
 		tips = "火・金・日曜日開放！",
 		limit_type = 1,
 		pic = "daily2",
@@ -126,8 +142,8 @@ pg.expedition_daily_template = {
 				95
 			}
 		}
-	},
-	[401] = {
+	}
+	pg.base.expedition_daily_template[401] = {
 		tips = "水・土・日曜日開放！",
 		limit_type = 1,
 		pic = "daily3",
@@ -170,8 +186,8 @@ pg.expedition_daily_template = {
 				95
 			}
 		}
-	},
-	[501] = {
+	}
+	pg.base.expedition_daily_template[501] = {
 		tips = "毎日開放（毎週4回まで）",
 		limit_type = 2,
 		pic = "daily5",
@@ -218,8 +234,8 @@ pg.expedition_daily_template = {
 				95
 			}
 		}
-	},
-	[601] = {
+	}
+	pg.base.expedition_daily_template[601] = {
 		tips = "战术研修每天开启",
 		limit_type = 1,
 		pic = "daily6",
@@ -266,8 +282,8 @@ pg.expedition_daily_template = {
 				100
 			}
 		}
-	},
-	[701] = {
+	}
+	pg.base.expedition_daily_template[701] = {
 		tips = "毎日開放（毎週2回まで挑戦可能）",
 		limit_type = 2,
 		pic = "daily7",
@@ -298,8 +314,8 @@ pg.expedition_daily_template = {
 				75
 			}
 		}
-	},
-	[801] = {
+	}
+	pg.base.expedition_daily_template[801] = {
 		tips = "期間中毎日開催されます",
 		limit_type = 1,
 		pic = "daily8",
@@ -355,15 +371,5 @@ pg.expedition_daily_template = {
 				70
 			}
 		}
-	},
-	all = {
-		101,
-		201,
-		301,
-		401,
-		501,
-		601,
-		701,
-		801
 	}
-}
+end)()

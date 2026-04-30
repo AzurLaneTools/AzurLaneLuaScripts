@@ -17,18 +17,18 @@ slot0.nameCodeMap_EN = {
 }
 
 slot0.init = function()
-	for slot3, slot4 in pairs(pg.name_code) do
-		slot5 = nil
+	for slot3, slot4 in ipairs(pg.name_code.all) do
+		slot6 = nil
 
-		if slot4.type == 1 then
-			slot5 = uv0.nameCodeMap
-		elseif slot4.type == 2 then
-			slot5 = uv0.nameEquipCodeMap
+		if pg.name_code[slot4].type == 1 then
+			slot6 = uv0.nameCodeMap
+		elseif slot5.type == 2 then
+			slot6 = uv0.nameEquipCodeMap
 		else
 			assert(false)
 		end
 
-		slot5[slot4.name] = slot4.code
+		slot6[slot5.name] = slot5.code
 	end
 
 	if pg.gameset.code_switch.key_value == 1 and PlayerPrefs.HasKey(uv0.codeModeKey) then

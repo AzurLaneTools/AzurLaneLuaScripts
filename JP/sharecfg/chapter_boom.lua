@@ -1,6 +1,26 @@
 pg = pg or {}
-pg.chapter_boom = {
-	[1190001] = {
+pg.chapter_boom = rawget(pg, "chapter_boom") or setmetatable({
+	__name = "chapter_boom"
+}, confNEO)
+pg.chapter_boom.all = {
+	1190001,
+	1190002,
+	1190003,
+	1190004,
+	1190005,
+	1190006,
+	1190011,
+	1190012,
+	1190013,
+	1190014,
+	1190015,
+	1190016
+}
+pg.base = pg.base or {}
+pg.base.chapter_boom = {}
+
+(function ()
+	pg.base.chapter_boom[1190001] = {
 		action_times = 3,
 		minimum_guarantee = 6,
 		first_time = 0,
@@ -78,8 +98,8 @@ pg.chapter_boom = {
 				90494
 			}
 		}
-	},
-	[1190002] = {
+	}
+	pg.base.chapter_boom[1190002] = {
 		action_times = 3,
 		minimum_guarantee = 6,
 		first_time = 0,
@@ -169,8 +189,8 @@ pg.chapter_boom = {
 				90497
 			}
 		}
-	},
-	[1190003] = {
+	}
+	pg.base.chapter_boom[1190003] = {
 		action_times = 3,
 		minimum_guarantee = 6,
 		first_time = 0,
@@ -280,8 +300,8 @@ pg.chapter_boom = {
 				90500
 			}
 		}
-	},
-	[1190004] = {
+	}
+	pg.base.chapter_boom[1190004] = {
 		action_times = 3,
 		minimum_guarantee = 6,
 		first_time = 0,
@@ -395,8 +415,8 @@ pg.chapter_boom = {
 				90503
 			}
 		}
-	},
-	[1190005] = {
+	}
+	pg.base.chapter_boom[1190005] = {
 		action_times = 3,
 		minimum_guarantee = 6,
 		first_time = 0,
@@ -506,8 +526,8 @@ pg.chapter_boom = {
 				90506
 			}
 		}
-	},
-	[1190006] = {
+	}
+	pg.base.chapter_boom[1190006] = {
 		action_times = 3,
 		minimum_guarantee = 6,
 		first_time = 0,
@@ -625,8 +645,8 @@ pg.chapter_boom = {
 				90509
 			}
 		}
-	},
-	[1190011] = {
+	}
+	pg.base.chapter_boom[1190011] = {
 		action_times = 3,
 		minimum_guarantee = 5,
 		first_time = 0,
@@ -704,8 +724,8 @@ pg.chapter_boom = {
 				90512
 			}
 		}
-	},
-	[1190012] = {
+	}
+	pg.base.chapter_boom[1190012] = {
 		action_times = 3,
 		minimum_guarantee = 5,
 		first_time = 0,
@@ -795,8 +815,8 @@ pg.chapter_boom = {
 				90515
 			}
 		}
-	},
-	[1190013] = {
+	}
+	pg.base.chapter_boom[1190013] = {
 		action_times = 3,
 		minimum_guarantee = 5,
 		first_time = 0,
@@ -906,8 +926,8 @@ pg.chapter_boom = {
 				90518
 			}
 		}
-	},
-	[1190014] = {
+	}
+	pg.base.chapter_boom[1190014] = {
 		action_times = 3,
 		minimum_guarantee = 5,
 		first_time = 0,
@@ -1021,8 +1041,8 @@ pg.chapter_boom = {
 				90521
 			}
 		}
-	},
-	[1190015] = {
+	}
+	pg.base.chapter_boom[1190015] = {
 		action_times = 3,
 		minimum_guarantee = 5,
 		first_time = 0,
@@ -1132,8 +1152,8 @@ pg.chapter_boom = {
 				90524
 			}
 		}
-	},
-	[1190016] = {
+	}
+	pg.base.chapter_boom[1190016] = {
 		action_times = 3,
 		minimum_guarantee = 5,
 		first_time = 0,
@@ -1251,19 +1271,5 @@ pg.chapter_boom = {
 				90527
 			}
 		}
-	},
-	all = {
-		1190001,
-		1190002,
-		1190003,
-		1190004,
-		1190005,
-		1190006,
-		1190011,
-		1190012,
-		1190013,
-		1190014,
-		1190015,
-		1190016
 	}
-}
+end)()

@@ -1,6 +1,15 @@
 pg = pg or {}
-pg.quota_shop_template = {
-	{
+pg.quota_shop_template = rawget(pg, "quota_shop_template") or setmetatable({
+	__name = "quota_shop_template"
+}, confNEO)
+pg.quota_shop_template.all = {
+	1
+}
+pg.base = pg.base or {}
+pg.base.quota_shop_template = {}
+
+(function ()
+	pg.base.quota_shop_template[1] = {
 		id = 1,
 		shop_goods = {
 			10500,
@@ -29,8 +38,5 @@ pg.quota_shop_template = {
 			10907,
 			10908
 		}
-	},
-	all = {
-		1
 	}
-}
+end)()

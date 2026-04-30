@@ -67,13 +67,13 @@ slot0.ConcludeEXP = function(slot0, slot1, slot2)
 	slot5 = nil
 
 	if slot0.system == SYSTEM_BOSS_RUSH_COLLABRATE then
-		for slot9, slot10 in pairs(pg.extraenemy_series_template) do
-			if table.contains(slot10.activity_series_enemy_id, slot4) then
+		for slot9, slot10 in ipairs(pg.extraenemy_series_template) do
+			if table.contains(pg.extraenemy_series_template[slot10].activity_series_enemy_id, slot4) then
 				slot5 = CollabrateBossRushSeriesData.New({
-					id = slot9,
+					id = slot10,
 					actId = slot1.id
 				})
-				slot4 = slot9
+				slot4 = slot10
 
 				break
 			end

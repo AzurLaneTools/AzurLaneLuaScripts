@@ -1,36 +1,39 @@
 pg = pg or {}
-pg.activity_task_permanent = setmetatable({
-	__name = "activity_task_permanent",
-	all = {
-		6000,
-		6001,
-		6002,
-		6003,
-		6004,
-		6005,
-		6006,
-		6007,
-		6008,
-		6009,
-		6010,
-		6011,
-		6012,
-		6013,
-		6014,
-		6015,
-		6016,
-		6017,
-		6018,
-		6019,
-		6020,
-		6021,
-		6022,
-		6023
-	}
-}, confHX)
+pg.activity_task_permanent = rawget(pg, "activity_task_permanent") or setmetatable({
+	__name = "activity_task_permanent"
+}, confNEO)
+pg.activity_task_permanent.__namecode__ = true
+pg.activity_task_permanent.all = {
+	6000,
+	6001,
+	6002,
+	6003,
+	6004,
+	6005,
+	6006,
+	6007,
+	6008,
+	6009,
+	6010,
+	6011,
+	6012,
+	6013,
+	6014,
+	6015,
+	6016,
+	6017,
+	6018,
+	6019,
+	6020,
+	6021,
+	6022,
+	6023
+}
 pg.base = pg.base or {}
-pg.base.activity_task_permanent = {
-	[6000] = {
+pg.base.activity_task_permanent = {}
+
+(function ()
+	pg.base.activity_task_permanent[6000] = {
 		gametip = "「山城」の着せ替えをGET!",
 		banner_route = "permanent_yamashiro",
 		gametip_extra = "最速7日間で入手",
@@ -48,8 +51,8 @@ pg.base.activity_task_permanent = {
 			35005,
 			35006
 		}
-	},
-	[6001] = {
+	}
+	pg.base.activity_task_permanent[6001] = {
 		gametip = "「クレイヴン」の着せ替えをGET!",
 		banner_route = "permanent_craven",
 		gametip_extra = "最速10日間で入手",
@@ -80,8 +83,8 @@ pg.base.activity_task_permanent = {
 			35025,
 			35026
 		}
-	},
-	[6002] = {
+	}
+	pg.base.activity_task_permanent[6002] = {
 		gametip = "「ヴァンパイア」の着せ替えをGET!",
 		banner_route = "permanent_xixuegui",
 		gametip_extra = "最速7日間で入手",
@@ -99,8 +102,8 @@ pg.base.activity_task_permanent = {
 			35032,
 			35033
 		}
-	},
-	[6003] = {
+	}
+	pg.base.activity_task_permanent[6003] = {
 		gametip = "「シグニット」の着せ替えをGET!",
 		banner_route = "permanent_xiaotiane",
 		gametip_extra = "最速10日間で入手",
@@ -131,8 +134,8 @@ pg.base.activity_task_permanent = {
 			35052,
 			35053
 		}
-	},
-	[6004] = {
+	}
+	pg.base.activity_task_permanent[6004] = {
 		gametip = "「大潮」の着せ替えをGET!",
 		banner_route = "permanent_dachaolifu",
 		gametip_extra = "最速7日間で入手",
@@ -157,8 +160,8 @@ pg.base.activity_task_permanent = {
 			35066,
 			35067
 		}
-	},
-	[6005] = {
+	}
+	pg.base.activity_task_permanent[6005] = {
 		gametip = "「山城」の着せ替えをGET!",
 		banner_route = "permanent_shanchenglifu",
 		gametip_extra = "最速7日間で入手",
@@ -183,8 +186,8 @@ pg.base.activity_task_permanent = {
 			35080,
 			35081
 		}
-	},
-	[6006] = {
+	}
+	pg.base.activity_task_permanent[6006] = {
 		gametip = "「メンフィス」の着せ替えをGET!",
 		banner_route = "permanent_mengfeisi",
 		gametip_extra = "最速7日間で入手",
@@ -194,8 +197,8 @@ pg.base.activity_task_permanent = {
 		id = 6006,
 		over_task_id = "",
 		eliminate_task_id = {}
-	},
-	[6007] = {
+	}
+	pg.base.activity_task_permanent[6007] = {
 		gametip = "「若葉」の着せ替えをGET!",
 		banner_route = "permanent_ruoyeshengdan",
 		gametip_extra = "最速7日間で入手",
@@ -220,8 +223,8 @@ pg.base.activity_task_permanent = {
 			35094,
 			35095
 		}
-	},
-	[6008] = {
+	}
+	pg.base.activity_task_permanent[6008] = {
 		gametip = "「大潮」の着せ替えをGET!",
 		banner_route = "permanent_dachaoshengdan",
 		gametip_extra = "最速7日間で入手",
@@ -246,8 +249,8 @@ pg.base.activity_task_permanent = {
 			35108,
 			35109
 		}
-	},
-	[6009] = {
+	}
+	pg.base.activity_task_permanent[6009] = {
 		gametip = "「グリッドレイ」の着せ替えをGET!",
 		banner_route = "permanent_gelidelishengdan",
 		gametip_extra = "最速8日間で入手",
@@ -266,8 +269,8 @@ pg.base.activity_task_permanent = {
 			35116,
 			35117
 		}
-	},
-	[6010] = {
+	}
+	pg.base.activity_task_permanent[6010] = {
 		gametip = "「サラトガ」の着せ替えをGET!",
 		banner_route = "permanent_salatuojia",
 		gametip_extra = "最速9日間で入手",
@@ -277,8 +280,8 @@ pg.base.activity_task_permanent = {
 		id = 6010,
 		over_task_id = "",
 		eliminate_task_id = {}
-	},
-	[6011] = {
+	}
+	pg.base.activity_task_permanent[6011] = {
 		gametip = "「ジャベリン」の着せ替えをGET!",
 		banner_route = "permanent_biaoqiang",
 		gametip_extra = "最速9日間で入手",
@@ -307,8 +310,8 @@ pg.base.activity_task_permanent = {
 			35134,
 			35135
 		}
-	},
-	[6012] = {
+	}
+	pg.base.activity_task_permanent[6012] = {
 		gametip = "「U-73」の着せ替えをGET!",
 		banner_route = "permanent_u73",
 		gametip_extra = "最速7日間で入手",
@@ -337,8 +340,8 @@ pg.base.activity_task_permanent = {
 			35152,
 			35153
 		}
-	},
-	[6013] = {
+	}
+	pg.base.activity_task_permanent[6013] = {
 		gametip = "「カヴァラ」の着せ替えをGET!",
 		banner_route = "permanent_jiqi",
 		gametip_extra = "最速7日間で入手",
@@ -363,8 +366,8 @@ pg.base.activity_task_permanent = {
 			35166,
 			35167
 		}
-	},
-	[6014] = {
+	}
+	pg.base.activity_task_permanent[6014] = {
 		gametip = "「吹雪」の着せ替えをGET!",
 		banner_route = "permanent_chuixue",
 		gametip_extra = "最速7日間で入手",
@@ -389,8 +392,8 @@ pg.base.activity_task_permanent = {
 			35180,
 			35181
 		}
-	},
-	[6015] = {
+	}
+	pg.base.activity_task_permanent[6015] = {
 		gametip = "「ベイリー」の着せ替えをGET!",
 		banner_route = "permanent_beili",
 		gametip_extra = "最速7日間で入手",
@@ -415,8 +418,8 @@ pg.base.activity_task_permanent = {
 			35194,
 			35195
 		}
-	},
-	[6016] = {
+	}
+	pg.base.activity_task_permanent[6016] = {
 		gametip = "「Z23」の着せ替えをGET!",
 		banner_route = "permanent_z23",
 		gametip_extra = "最速10日間で入手",
@@ -447,8 +450,8 @@ pg.base.activity_task_permanent = {
 			35214,
 			35215
 		}
-	},
-	[6017] = {
+	}
+	pg.base.activity_task_permanent[6017] = {
 		gametip = "「マーブルヘッド」の着せ替えをGET!",
 		banner_route = "permanent_mabuerheide",
 		gametip_extra = "最速7日間で入手",
@@ -458,8 +461,8 @@ pg.base.activity_task_permanent = {
 		id = 6017,
 		over_task_id = "",
 		eliminate_task_id = {}
-	},
-	[6018] = {
+	}
+	pg.base.activity_task_permanent[6018] = {
 		gametip = "限定家具「チョコ饅頭」をGET!",
 		banner_route = "permanent_qiaokelijiu",
 		gametip_extra = "最速7日間で入手",
@@ -477,8 +480,8 @@ pg.base.activity_task_permanent = {
 			35221,
 			35222
 		}
-	},
-	[6019] = {
+	}
+	pg.base.activity_task_permanent[6019] = {
 		gametip = "「伊56」の着せ替えをGET!",
 		banner_route = "permanent_i56",
 		gametip_extra = "最速7日間で入手",
@@ -503,8 +506,8 @@ pg.base.activity_task_permanent = {
 			35235,
 			35236
 		}
-	},
-	[6020] = {
+	}
+	pg.base.activity_task_permanent[6020] = {
 		gametip = "「満潮」の着せ替えをGET!",
 		banner_route = "permanent_manchao",
 		gametip_extra = "最速7日間で入手",
@@ -529,8 +532,8 @@ pg.base.activity_task_permanent = {
 			35256,
 			35257
 		}
-	},
-	[6021] = {
+	}
+	pg.base.activity_task_permanent[6021] = {
 		gametip = "「長良」の着せ替えをGET!",
 		banner_route = "permanent_changliang",
 		gametip_extra = "最速7日間で入手",
@@ -555,8 +558,8 @@ pg.base.activity_task_permanent = {
 			35270,
 			35271
 		}
-	},
-	[6022] = {
+	}
+	pg.base.activity_task_permanent[6022] = {
 		gametip = "艦船「U-410」をGET!",
 		banner_route = "permanent_u410",
 		gametip_extra = "最速7日間で入手",
@@ -566,8 +569,8 @@ pg.base.activity_task_permanent = {
 		id = 6022,
 		over_task_id = "",
 		eliminate_task_id = {}
-	},
-	[6023] = {
+	}
+	pg.base.activity_task_permanent[6023] = {
 		gametip = "「初春」の着せ替えをGET!",
 		banner_route = "permanent_chunyaodenghuo",
 		gametip_extra = "最速7日間で入手",
@@ -593,4 +596,4 @@ pg.base.activity_task_permanent = {
 			35285
 		}
 	}
-}
+end)()

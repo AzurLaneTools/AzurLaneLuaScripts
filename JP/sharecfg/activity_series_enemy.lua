@@ -1,6 +1,46 @@
 pg = pg or {}
-pg.activity_series_enemy = {
-	[1001] = {
+pg.activity_series_enemy = rawget(pg, "activity_series_enemy") or setmetatable({
+	__name = "activity_series_enemy"
+}, confNEO)
+pg.activity_series_enemy.all = {
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	2001,
+	2002,
+	2003,
+	2004,
+	2005,
+	3001,
+	3002,
+	3003,
+	3004,
+	3005,
+	4001,
+	4002,
+	4011,
+	4012,
+	4021,
+	4022,
+	4031,
+	4032,
+	4041,
+	4042,
+	4051,
+	4052,
+	5001,
+	5002,
+	5003,
+	5004,
+	5005
+}
+pg.base = pg.base or {}
+pg.base.activity_series_enemy = {}
+
+(function ()
+	pg.base.activity_series_enemy[1001] = {
 		oil = 0,
 		name = "EASY：撹乱阻止",
 		type = 1,
@@ -55,8 +95,8 @@ pg.activity_series_enemy = {
 			0,
 			0
 		}
-	},
-	[1002] = {
+	}
+	pg.base.activity_series_enemy[1002] = {
 		oil = 0,
 		name = "NORMAL：気象復元",
 		type = 1,
@@ -126,8 +166,8 @@ pg.activity_series_enemy = {
 			0,
 			0
 		}
-	},
-	[1003] = {
+	}
+	pg.base.activity_series_enemy[1003] = {
 		oil = 0,
 		name = "HARD：基地奪還",
 		type = 1,
@@ -202,8 +242,8 @@ pg.activity_series_enemy = {
 			25,
 			16
 		}
-	},
-	[1004] = {
+	}
+	pg.base.activity_series_enemy[1004] = {
 		oil = 0,
 		name = "SP：拠点威力偵察",
 		type = 2,
@@ -273,8 +313,8 @@ pg.activity_series_enemy = {
 			40,
 			16
 		}
-	},
-	[1005] = {
+	}
+	pg.base.activity_series_enemy[1005] = {
 		oil = 0,
 		name = "EX：上位個体牽制",
 		type = 3,
@@ -332,8 +372,8 @@ pg.activity_series_enemy = {
 			1000,
 			0.8
 		}
-	},
-	[2001] = {
+	}
+	pg.base.activity_series_enemy[2001] = {
 		oil = 0,
 		name = "事務棟",
 		type = 1,
@@ -390,8 +430,8 @@ pg.activity_series_enemy = {
 			0,
 			0
 		}
-	},
-	[2002] = {
+	}
+	pg.base.activity_series_enemy[2002] = {
 		oil = 0,
 		name = "教室棟",
 		type = 1,
@@ -464,8 +504,8 @@ pg.activity_series_enemy = {
 			0,
 			0
 		}
-	},
-	[2003] = {
+	}
+	pg.base.activity_series_enemy[2003] = {
 		oil = 0,
 		name = "芸術棟",
 		type = 1,
@@ -543,8 +583,8 @@ pg.activity_series_enemy = {
 			25,
 			16
 		}
-	},
-	[2004] = {
+	}
+	pg.base.activity_series_enemy[2004] = {
 		oil = 0,
 		name = "運動場",
 		type = 2,
@@ -627,8 +667,8 @@ pg.activity_series_enemy = {
 			40,
 			16
 		}
-	},
-	[2005] = {
+	}
+	pg.base.activity_series_enemy[2005] = {
 		oil = 0,
 		name = "裏山の森",
 		type = 3,
@@ -690,8 +730,8 @@ pg.activity_series_enemy = {
 			1000,
 			0.8
 		}
-	},
-	[3001] = {
+	}
+	pg.base.activity_series_enemy[3001] = {
 		oil = 0,
 		name = "撮影地：幹線道路",
 		type = 1,
@@ -744,8 +784,8 @@ pg.activity_series_enemy = {
 			0,
 			0
 		}
-	},
-	[3002] = {
+	}
+	pg.base.activity_series_enemy[3002] = {
 		oil = 0,
 		name = "撮影地：商店街",
 		type = 1,
@@ -814,8 +854,8 @@ pg.activity_series_enemy = {
 			0,
 			0
 		}
-	},
-	[3003] = {
+	}
+	pg.base.activity_series_enemy[3003] = {
 		oil = 0,
 		name = "撮影地：軌道車両",
 		type = 1,
@@ -889,8 +929,8 @@ pg.activity_series_enemy = {
 			25,
 			16
 		}
-	},
-	[3004] = {
+	}
+	pg.base.activity_series_enemy[3004] = {
 		oil = 0,
 		name = "撮影地：繁華街",
 		type = 2,
@@ -958,8 +998,8 @@ pg.activity_series_enemy = {
 			40,
 			16
 		}
-	},
-	[3005] = {
+	}
+	pg.base.activity_series_enemy[3005] = {
 		oil = 0,
 		name = "撮影地：警察機構",
 		type = 3,
@@ -1017,8 +1057,8 @@ pg.activity_series_enemy = {
 			1000,
 			0.8
 		}
-	},
-	[4001] = {
+	}
+	pg.base.activity_series_enemy[4001] = {
 		oil = 0,
 		name = "ノーマル（LV 20）",
 		type = 1,
@@ -1097,8 +1137,8 @@ pg.activity_series_enemy = {
 			0,
 			0
 		}
-	},
-	[4002] = {
+	}
+	pg.base.activity_series_enemy[4002] = {
 		oil = 0,
 		name = "ハード（LV 35）",
 		type = 1,
@@ -1177,8 +1217,8 @@ pg.activity_series_enemy = {
 			0,
 			0
 		}
-	},
-	[4011] = {
+	}
+	pg.base.activity_series_enemy[4011] = {
 		oil = 0,
 		name = "ノーマル（LV 50）",
 		type = 1,
@@ -1262,8 +1302,8 @@ pg.activity_series_enemy = {
 			0,
 			0
 		}
-	},
-	[4012] = {
+	}
+	pg.base.activity_series_enemy[4012] = {
 		oil = 0,
 		name = "ハード（LV 65）",
 		type = 1,
@@ -1347,8 +1387,8 @@ pg.activity_series_enemy = {
 			0,
 			0
 		}
-	},
-	[4021] = {
+	}
+	pg.base.activity_series_enemy[4021] = {
 		oil = 0,
 		name = "ノーマル（LV 50）",
 		type = 1,
@@ -1432,8 +1472,8 @@ pg.activity_series_enemy = {
 			0,
 			0
 		}
-	},
-	[4022] = {
+	}
+	pg.base.activity_series_enemy[4022] = {
 		oil = 0,
 		name = "ハード（LV 65）",
 		type = 1,
@@ -1517,8 +1557,8 @@ pg.activity_series_enemy = {
 			0,
 			0
 		}
-	},
-	[4031] = {
+	}
+	pg.base.activity_series_enemy[4031] = {
 		oil = 0,
 		name = "ノーマル（LV 50）",
 		type = 1,
@@ -1602,8 +1642,8 @@ pg.activity_series_enemy = {
 			0,
 			0
 		}
-	},
-	[4032] = {
+	}
+	pg.base.activity_series_enemy[4032] = {
 		oil = 0,
 		name = "ハード（LV 65）",
 		type = 1,
@@ -1687,8 +1727,8 @@ pg.activity_series_enemy = {
 			0,
 			0
 		}
-	},
-	[4041] = {
+	}
+	pg.base.activity_series_enemy[4041] = {
 		oil = 0,
 		name = "ノーマル（LV 50）",
 		type = 1,
@@ -1772,8 +1812,8 @@ pg.activity_series_enemy = {
 			0,
 			0
 		}
-	},
-	[4042] = {
+	}
+	pg.base.activity_series_enemy[4042] = {
 		oil = 0,
 		name = "ハード（LV 65）",
 		type = 1,
@@ -1857,8 +1897,8 @@ pg.activity_series_enemy = {
 			0,
 			0
 		}
-	},
-	[4051] = {
+	}
+	pg.base.activity_series_enemy[4051] = {
 		oil = 0,
 		name = "ノーマル（LV 80）",
 		type = 1,
@@ -1947,8 +1987,8 @@ pg.activity_series_enemy = {
 			22,
 			15
 		}
-	},
-	[4052] = {
+	}
+	pg.base.activity_series_enemy[4052] = {
 		oil = 0,
 		name = "ハード（LV 100）",
 		type = 1,
@@ -2037,8 +2077,8 @@ pg.activity_series_enemy = {
 			25,
 			16
 		}
-	},
-	[5001] = {
+	}
+	pg.base.activity_series_enemy[5001] = {
 		oil = 0,
 		name = "舞蝶の約束",
 		type = 1,
@@ -2095,8 +2135,8 @@ pg.activity_series_enemy = {
 			0,
 			0
 		}
-	},
-	[5002] = {
+	}
+	pg.base.activity_series_enemy[5002] = {
 		oil = 0,
 		name = "ふわふわ幻境",
 		type = 1,
@@ -2169,8 +2209,8 @@ pg.activity_series_enemy = {
 			0,
 			0
 		}
-	},
-	[5003] = {
+	}
+	pg.base.activity_series_enemy[5003] = {
 		oil = 0,
 		name = "心の窓",
 		type = 1,
@@ -2248,8 +2288,8 @@ pg.activity_series_enemy = {
 			25,
 			16
 		}
-	},
-	[5004] = {
+	}
+	pg.base.activity_series_enemy[5004] = {
 		oil = 0,
 		name = "純白の心",
 		type = 2,
@@ -2321,8 +2361,8 @@ pg.activity_series_enemy = {
 			40,
 			16
 		}
-	},
-	[5005] = {
+	}
+	pg.base.activity_series_enemy[5005] = {
 		oil = 0,
 		name = "真夜中の囁き",
 		type = 3,
@@ -2384,39 +2424,5 @@ pg.activity_series_enemy = {
 			1000,
 			0.8
 		}
-	},
-	all = {
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		2001,
-		2002,
-		2003,
-		2004,
-		2005,
-		3001,
-		3002,
-		3003,
-		3004,
-		3005,
-		4001,
-		4002,
-		4011,
-		4012,
-		4021,
-		4022,
-		4031,
-		4032,
-		4041,
-		4042,
-		4051,
-		4052,
-		5001,
-		5002,
-		5003,
-		5004,
-		5005
 	}
-}
+end)()

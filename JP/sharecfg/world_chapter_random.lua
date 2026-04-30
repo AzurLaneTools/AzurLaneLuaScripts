@@ -1,6 +1,400 @@
 pg = pg or {}
-pg.world_chapter_random = {
-	{
+pg.world_chapter_random = rawget(pg, "world_chapter_random") or setmetatable({
+	__name = "world_chapter_random"
+}, confNEO)
+pg.world_chapter_random.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	11,
+	12,
+	13,
+	14,
+	21,
+	22,
+	23,
+	24,
+	25,
+	31,
+	32,
+	33,
+	34,
+	41,
+	42,
+	43,
+	44,
+	51,
+	52,
+	53,
+	54,
+	61,
+	62,
+	63,
+	64,
+	65,
+	66,
+	71,
+	72,
+	73,
+	81,
+	82,
+	83,
+	84,
+	85,
+	91,
+	92,
+	93,
+	94,
+	95,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	111,
+	112,
+	113,
+	114,
+	121,
+	122,
+	123,
+	124,
+	125,
+	131,
+	132,
+	133,
+	134,
+	135,
+	141,
+	142,
+	143,
+	144,
+	151,
+	152,
+	153,
+	154,
+	155,
+	156,
+	157,
+	158,
+	159,
+	200,
+	201,
+	202,
+	203,
+	204,
+	205,
+	206,
+	207,
+	211,
+	212,
+	213,
+	214,
+	215,
+	220,
+	221,
+	222,
+	223,
+	224,
+	225,
+	230,
+	231,
+	232,
+	233,
+	234,
+	235,
+	260,
+	261,
+	262,
+	263,
+	264,
+	265,
+	266,
+	267,
+	301,
+	400,
+	401,
+	410,
+	411,
+	412,
+	413,
+	414,
+	415,
+	416,
+	417,
+	418,
+	419,
+	420,
+	500,
+	510,
+	511,
+	512,
+	513,
+	514,
+	515,
+	516,
+	517,
+	518,
+	519,
+	520,
+	541,
+	544,
+	547,
+	550,
+	553,
+	601,
+	602,
+	610,
+	620,
+	630,
+	631,
+	632,
+	640,
+	650,
+	660,
+	700,
+	701,
+	702,
+	703,
+	710,
+	711,
+	712,
+	713,
+	715,
+	720,
+	721,
+	722,
+	723,
+	730,
+	731,
+	740,
+	741,
+	742,
+	743,
+	750,
+	760,
+	761,
+	762,
+	763,
+	770,
+	800,
+	803,
+	806,
+	809,
+	820,
+	823,
+	826,
+	829,
+	840,
+	841,
+	843,
+	844,
+	846,
+	847,
+	849,
+	850,
+	860,
+	863,
+	866,
+	869,
+	901,
+	902,
+	903,
+	1011,
+	1012,
+	1013,
+	1014,
+	1021,
+	1022,
+	1023,
+	1024,
+	1025,
+	1031,
+	1032,
+	1033,
+	1034,
+	1041,
+	1042,
+	1043,
+	1044,
+	1051,
+	1052,
+	1053,
+	1054,
+	1061,
+	1062,
+	1063,
+	1064,
+	1065,
+	1066,
+	1071,
+	1072,
+	1073,
+	1081,
+	1082,
+	1083,
+	1084,
+	1085,
+	1091,
+	1092,
+	1093,
+	1094,
+	1095,
+	1101,
+	1102,
+	1103,
+	1104,
+	1105,
+	1106,
+	1111,
+	1112,
+	1113,
+	1114,
+	1121,
+	1122,
+	1123,
+	1124,
+	1125,
+	1131,
+	1132,
+	1133,
+	1134,
+	1135,
+	1141,
+	1142,
+	1143,
+	1144,
+	1151,
+	1152,
+	1153,
+	1154,
+	1155,
+	1156,
+	1157,
+	1158,
+	1159,
+	20001,
+	20002,
+	20003,
+	20004,
+	20005,
+	20006,
+	20013,
+	20014,
+	20015,
+	20016,
+	20017,
+	20020,
+	20021,
+	20022,
+	20101,
+	20103,
+	20200,
+	20201,
+	20202,
+	20203,
+	20204,
+	30001,
+	30002,
+	30003,
+	30004,
+	30005,
+	30006,
+	30007,
+	30008,
+	30009,
+	30010,
+	30011,
+	30012,
+	30013,
+	30014,
+	30015,
+	30016,
+	30017,
+	30018,
+	30019,
+	30020,
+	30021,
+	30022,
+	30023,
+	30024,
+	30025,
+	30026,
+	30027,
+	30028,
+	30029,
+	30030,
+	30031,
+	30032,
+	30033,
+	30034,
+	30035,
+	30036,
+	30037,
+	30038,
+	30039,
+	30040,
+	30041,
+	30042,
+	30043,
+	30044,
+	30045,
+	30046,
+	30047,
+	30048,
+	30049,
+	30050,
+	30051,
+	30052,
+	30053,
+	30054,
+	30055,
+	30056,
+	30057,
+	30058,
+	30059,
+	30060,
+	30061,
+	30062,
+	30063,
+	30064,
+	30065,
+	30066,
+	30067,
+	30068,
+	30069,
+	30070,
+	30071,
+	30072,
+	89003,
+	89004,
+	89014,
+	89015,
+	89016,
+	89017,
+	40000,
+	43000,
+	43001,
+	43002,
+	43010,
+	43011,
+	43012,
+	43020,
+	44000,
+	44001,
+	44002
+}
+pg.base = pg.base or {}
+pg.base.world_chapter_random = {}
+
+(function ()
+	pg.base.world_chapter_random[1] = {
 		name = "NYシティ",
 		complete_effect = 1,
 		enter_cost = 0,
@@ -21,8 +415,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.world_chapter_random[2] = {
 		name = "リバープール",
 		complete_effect = 1,
 		enter_cost = 0,
@@ -43,8 +437,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	{
+	}
+	pg.base.world_chapter_random[3] = {
 		name = "ジブラルタル",
 		complete_effect = 1,
 		enter_cost = 0,
@@ -65,8 +459,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	{
+	}
+	pg.base.world_chapter_random[4] = {
 		name = "ペテルブルク",
 		complete_effect = 1,
 		enter_cost = 0,
@@ -87,8 +481,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.world_chapter_random[5] = {
 		name = "キール",
 		complete_effect = 1,
 		enter_cost = 0,
@@ -109,8 +503,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.world_chapter_random[6] = {
 		name = "タラント",
 		complete_effect = 1,
 		enter_cost = 0,
@@ -131,8 +525,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	{
+	}
+	pg.base.world_chapter_random[7] = {
 		name = "ブレスト",
 		complete_effect = 1,
 		enter_cost = 0,
@@ -153,8 +547,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.world_chapter_random[8] = {
 		name = "ダカール",
 		complete_effect = 1,
 		enter_cost = 0,
@@ -175,8 +569,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[11] = {
+	}
+	pg.base.world_chapter_random[11] = {
 		name = "カリブ海A",
 		complete_effect = 2,
 		enter_cost = 80,
@@ -197,8 +591,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[12] = {
+	}
+	pg.base.world_chapter_random[12] = {
 		name = "カリブ海B",
 		complete_effect = 2,
 		enter_cost = 60,
@@ -219,8 +613,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[13] = {
+	}
+	pg.base.world_chapter_random[13] = {
 		name = "カリブ海C",
 		complete_effect = 2,
 		enter_cost = 60,
@@ -241,8 +635,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[14] = {
+	}
+	pg.base.world_chapter_random[14] = {
 		name = "カリブ海D",
 		complete_effect = 2,
 		enter_cost = 40,
@@ -263,8 +657,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[21] = {
+	}
+	pg.base.world_chapter_random[21] = {
 		name = "NA海域南西A",
 		complete_effect = 2,
 		enter_cost = 20,
@@ -285,8 +679,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[22] = {
+	}
+	pg.base.world_chapter_random[22] = {
 		name = "NA海域南西B",
 		complete_effect = 2,
 		enter_cost = 10,
@@ -307,8 +701,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[23] = {
+	}
+	pg.base.world_chapter_random[23] = {
 		name = "NA海域南西C",
 		complete_effect = 2,
 		enter_cost = 20,
@@ -329,8 +723,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[24] = {
+	}
+	pg.base.world_chapter_random[24] = {
 		name = "NA海域南西D",
 		complete_effect = 2,
 		enter_cost = 20,
@@ -351,8 +745,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[25] = {
+	}
+	pg.base.world_chapter_random[25] = {
 		name = "NA海域南西E",
 		complete_effect = 2,
 		enter_cost = 30,
@@ -373,8 +767,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[31] = {
+	}
+	pg.base.world_chapter_random[31] = {
 		name = "南西海嶺A",
 		complete_effect = 2,
 		enter_cost = 20,
@@ -395,8 +789,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[32] = {
+	}
+	pg.base.world_chapter_random[32] = {
 		name = "南西海嶺B",
 		complete_effect = 2,
 		enter_cost = 30,
@@ -417,8 +811,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[33] = {
+	}
+	pg.base.world_chapter_random[33] = {
 		name = "南西海嶺C",
 		complete_effect = 2,
 		enter_cost = 30,
@@ -439,8 +833,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[34] = {
+	}
+	pg.base.world_chapter_random[34] = {
 		name = "南西海嶺D",
 		complete_effect = 2,
 		enter_cost = 30,
@@ -461,8 +855,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[41] = {
+	}
+	pg.base.world_chapter_random[41] = {
 		name = "西大陸棚A",
 		complete_effect = 2,
 		enter_cost = 30,
@@ -483,8 +877,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[42] = {
+	}
+	pg.base.world_chapter_random[42] = {
 		name = "西大陸棚B",
 		complete_effect = 2,
 		enter_cost = 40,
@@ -505,8 +899,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[43] = {
+	}
+	pg.base.world_chapter_random[43] = {
 		name = "西大陸棚C",
 		complete_effect = 2,
 		enter_cost = 20,
@@ -527,8 +921,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[44] = {
+	}
+	pg.base.world_chapter_random[44] = {
 		name = "西大陸棚D",
 		complete_effect = 2,
 		enter_cost = 10,
@@ -549,8 +943,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[51] = {
+	}
+	pg.base.world_chapter_random[51] = {
 		name = "南東海嶺A",
 		complete_effect = 2,
 		enter_cost = 40,
@@ -571,8 +965,8 @@ pg.world_chapter_random = {
 			75,
 			75
 		}
-	},
-	[52] = {
+	}
+	pg.base.world_chapter_random[52] = {
 		name = "南東海嶺B",
 		complete_effect = 2,
 		enter_cost = 40,
@@ -593,8 +987,8 @@ pg.world_chapter_random = {
 			75,
 			75
 		}
-	},
-	[53] = {
+	}
+	pg.base.world_chapter_random[53] = {
 		name = "南東海嶺C",
 		complete_effect = 2,
 		enter_cost = 40,
@@ -615,8 +1009,8 @@ pg.world_chapter_random = {
 			75,
 			75
 		}
-	},
-	[54] = {
+	}
+	pg.base.world_chapter_random[54] = {
 		name = "南東海嶺D",
 		complete_effect = 2,
 		enter_cost = 40,
@@ -637,8 +1031,8 @@ pg.world_chapter_random = {
 			75,
 			75
 		}
-	},
-	[61] = {
+	}
+	pg.base.world_chapter_random[61] = {
 		name = "NA海域南東A",
 		complete_effect = 2,
 		enter_cost = 40,
@@ -659,8 +1053,8 @@ pg.world_chapter_random = {
 			75,
 			75
 		}
-	},
-	[62] = {
+	}
+	pg.base.world_chapter_random[62] = {
 		name = "NA海域南東B",
 		complete_effect = 2,
 		enter_cost = 30,
@@ -681,8 +1075,8 @@ pg.world_chapter_random = {
 			75,
 			75
 		}
-	},
-	[63] = {
+	}
+	pg.base.world_chapter_random[63] = {
 		name = "NA海域南東C",
 		complete_effect = 2,
 		enter_cost = 40,
@@ -703,8 +1097,8 @@ pg.world_chapter_random = {
 			75,
 			75
 		}
-	},
-	[64] = {
+	}
+	pg.base.world_chapter_random[64] = {
 		name = "NA海域南東D",
 		complete_effect = 2,
 		enter_cost = 40,
@@ -725,8 +1119,8 @@ pg.world_chapter_random = {
 			75,
 			75
 		}
-	},
-	[65] = {
+	}
+	pg.base.world_chapter_random[65] = {
 		name = "NA海域南東E",
 		complete_effect = 2,
 		enter_cost = 30,
@@ -747,8 +1141,8 @@ pg.world_chapter_random = {
 			75,
 			75
 		}
-	},
-	[66] = {
+	}
+	pg.base.world_chapter_random[66] = {
 		name = "NA海域南東F",
 		complete_effect = 2,
 		enter_cost = 30,
@@ -769,8 +1163,8 @@ pg.world_chapter_random = {
 			75,
 			75
 		}
-	},
-	[71] = {
+	}
+	pg.base.world_chapter_random[71] = {
 		name = "地中海A",
 		complete_effect = 2,
 		enter_cost = 60,
@@ -791,8 +1185,8 @@ pg.world_chapter_random = {
 			75,
 			75
 		}
-	},
-	[72] = {
+	}
+	pg.base.world_chapter_random[72] = {
 		name = "地中海B",
 		complete_effect = 2,
 		enter_cost = 80,
@@ -813,8 +1207,8 @@ pg.world_chapter_random = {
 			75,
 			75
 		}
-	},
-	[73] = {
+	}
+	pg.base.world_chapter_random[73] = {
 		name = "地中海C",
 		complete_effect = 2,
 		enter_cost = 60,
@@ -835,8 +1229,8 @@ pg.world_chapter_random = {
 			75,
 			75
 		}
-	},
-	[81] = {
+	}
+	pg.base.world_chapter_random[81] = {
 		name = "NA海域西A",
 		complete_effect = 2,
 		enter_cost = 20,
@@ -857,8 +1251,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[82] = {
+	}
+	pg.base.world_chapter_random[82] = {
 		name = "NA海域西B",
 		complete_effect = 2,
 		enter_cost = 40,
@@ -879,8 +1273,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[83] = {
+	}
+	pg.base.world_chapter_random[83] = {
 		name = "NA海域西C",
 		complete_effect = 2,
 		enter_cost = 20,
@@ -901,8 +1295,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[84] = {
+	}
+	pg.base.world_chapter_random[84] = {
 		name = "NA海域西D",
 		complete_effect = 2,
 		enter_cost = 20,
@@ -923,8 +1317,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[85] = {
+	}
+	pg.base.world_chapter_random[85] = {
 		name = "NA海域西E",
 		complete_effect = 2,
 		enter_cost = 40,
@@ -945,8 +1339,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[91] = {
+	}
+	pg.base.world_chapter_random[91] = {
 		name = "NA海域北西A",
 		complete_effect = 2,
 		enter_cost = 40,
@@ -967,8 +1361,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[92] = {
+	}
+	pg.base.world_chapter_random[92] = {
 		name = "NA海域北西B",
 		complete_effect = 2,
 		enter_cost = 20,
@@ -989,8 +1383,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[93] = {
+	}
+	pg.base.world_chapter_random[93] = {
 		name = "NA海域北西C",
 		complete_effect = 2,
 		enter_cost = 20,
@@ -1011,8 +1405,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[94] = {
+	}
+	pg.base.world_chapter_random[94] = {
 		name = "NA海域北西D",
 		complete_effect = 2,
 		enter_cost = 30,
@@ -1033,8 +1427,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[95] = {
+	}
+	pg.base.world_chapter_random[95] = {
 		name = "NA海域北西E",
 		complete_effect = 2,
 		enter_cost = 30,
@@ -1055,8 +1449,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[101] = {
+	}
+	pg.base.world_chapter_random[101] = {
 		name = "北西航路A",
 		complete_effect = 2,
 		enter_cost = 60,
@@ -1077,8 +1471,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[102] = {
+	}
+	pg.base.world_chapter_random[102] = {
 		name = "北西航路B",
 		complete_effect = 2,
 		enter_cost = 60,
@@ -1099,8 +1493,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[103] = {
+	}
+	pg.base.world_chapter_random[103] = {
 		name = "北西航路C",
 		complete_effect = 2,
 		enter_cost = 40,
@@ -1121,8 +1515,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[104] = {
+	}
+	pg.base.world_chapter_random[104] = {
 		name = "北西航路D",
 		complete_effect = 2,
 		enter_cost = 40,
@@ -1143,8 +1537,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[105] = {
+	}
+	pg.base.world_chapter_random[105] = {
 		name = "北西航路E",
 		complete_effect = 2,
 		enter_cost = 30,
@@ -1165,8 +1559,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[106] = {
+	}
+	pg.base.world_chapter_random[106] = {
 		name = "北西航路F",
 		complete_effect = 2,
 		enter_cost = 80,
@@ -1187,8 +1581,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[111] = {
+	}
+	pg.base.world_chapter_random[111] = {
 		name = "NA海域東A",
 		complete_effect = 2,
 		enter_cost = 30,
@@ -1209,8 +1603,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	[112] = {
+	}
+	pg.base.world_chapter_random[112] = {
 		name = "NA海域東B",
 		complete_effect = 2,
 		enter_cost = 20,
@@ -1231,8 +1625,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	[113] = {
+	}
+	pg.base.world_chapter_random[113] = {
 		name = "NA海域東C",
 		complete_effect = 2,
 		enter_cost = 30,
@@ -1253,8 +1647,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	[114] = {
+	}
+	pg.base.world_chapter_random[114] = {
 		name = "NA海域東D",
 		complete_effect = 2,
 		enter_cost = 30,
@@ -1275,8 +1669,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	[121] = {
+	}
+	pg.base.world_chapter_random[121] = {
 		name = "東大陸棚A",
 		complete_effect = 2,
 		enter_cost = 80,
@@ -1297,8 +1691,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	[122] = {
+	}
+	pg.base.world_chapter_random[122] = {
 		name = "東大陸棚B",
 		complete_effect = 2,
 		enter_cost = 20,
@@ -1319,8 +1713,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	[123] = {
+	}
+	pg.base.world_chapter_random[123] = {
 		name = "東大陸棚C",
 		complete_effect = 2,
 		enter_cost = 30,
@@ -1341,8 +1735,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	[124] = {
+	}
+	pg.base.world_chapter_random[124] = {
 		name = "東大陸棚D",
 		complete_effect = 2,
 		enter_cost = 60,
@@ -1363,8 +1757,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	[125] = {
+	}
+	pg.base.world_chapter_random[125] = {
 		name = "東大陸棚E",
 		complete_effect = 2,
 		enter_cost = 30,
@@ -1385,8 +1779,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	[131] = {
+	}
+	pg.base.world_chapter_random[131] = {
 		name = "NA海域北東A",
 		complete_effect = 2,
 		enter_cost = 20,
@@ -1407,8 +1801,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	[132] = {
+	}
+	pg.base.world_chapter_random[132] = {
 		name = "NA海域北東B",
 		complete_effect = 2,
 		enter_cost = 20,
@@ -1429,8 +1823,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	[133] = {
+	}
+	pg.base.world_chapter_random[133] = {
 		name = "NA海域北東C",
 		complete_effect = 2,
 		enter_cost = 30,
@@ -1451,8 +1845,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	[134] = {
+	}
+	pg.base.world_chapter_random[134] = {
 		name = "NA海域北東D",
 		complete_effect = 2,
 		enter_cost = 20,
@@ -1473,8 +1867,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	[135] = {
+	}
+	pg.base.world_chapter_random[135] = {
 		name = "NA海域北東E",
 		complete_effect = 2,
 		enter_cost = 30,
@@ -1495,8 +1889,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	[141] = {
+	}
+	pg.base.world_chapter_random[141] = {
 		name = "北東航路A",
 		complete_effect = 2,
 		enter_cost = 30,
@@ -1517,8 +1911,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	[142] = {
+	}
+	pg.base.world_chapter_random[142] = {
 		name = "北東航路B",
 		complete_effect = 2,
 		enter_cost = 40,
@@ -1539,8 +1933,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	[143] = {
+	}
+	pg.base.world_chapter_random[143] = {
 		name = "北東航路C",
 		complete_effect = 2,
 		enter_cost = 30,
@@ -1561,8 +1955,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	[144] = {
+	}
+	pg.base.world_chapter_random[144] = {
 		name = "北東航路D",
 		complete_effect = 2,
 		enter_cost = 60,
@@ -1583,8 +1977,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	[151] = {
+	}
+	pg.base.world_chapter_random[151] = {
 		name = "NA海域深部A",
 		complete_effect = 2,
 		enter_cost = 60,
@@ -1605,8 +1999,8 @@ pg.world_chapter_random = {
 			110,
 			110
 		}
-	},
-	[152] = {
+	}
+	pg.base.world_chapter_random[152] = {
 		name = "NA海域深部B",
 		complete_effect = 2,
 		enter_cost = 60,
@@ -1627,8 +2021,8 @@ pg.world_chapter_random = {
 			110,
 			110
 		}
-	},
-	[153] = {
+	}
+	pg.base.world_chapter_random[153] = {
 		name = "NA海域深部C",
 		complete_effect = 2,
 		enter_cost = 80,
@@ -1649,8 +2043,8 @@ pg.world_chapter_random = {
 			110,
 			110
 		}
-	},
-	[154] = {
+	}
+	pg.base.world_chapter_random[154] = {
 		name = "NA海域中心",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -1671,8 +2065,8 @@ pg.world_chapter_random = {
 			200,
 			200
 		}
-	},
-	[155] = {
+	}
+	pg.base.world_chapter_random[155] = {
 		name = "NA海域深部D",
 		complete_effect = 2,
 		enter_cost = 80,
@@ -1693,8 +2087,8 @@ pg.world_chapter_random = {
 			110,
 			110
 		}
-	},
-	[156] = {
+	}
+	pg.base.world_chapter_random[156] = {
 		name = "NA海域深部E",
 		complete_effect = 2,
 		enter_cost = 80,
@@ -1715,8 +2109,8 @@ pg.world_chapter_random = {
 			110,
 			110
 		}
-	},
-	[157] = {
+	}
+	pg.base.world_chapter_random[157] = {
 		name = "NA海域深部F",
 		complete_effect = 2,
 		enter_cost = 80,
@@ -1737,8 +2131,8 @@ pg.world_chapter_random = {
 			110,
 			110
 		}
-	},
-	[158] = {
+	}
+	pg.base.world_chapter_random[158] = {
 		name = "NA海域深部G",
 		complete_effect = 2,
 		enter_cost = 60,
@@ -1759,8 +2153,8 @@ pg.world_chapter_random = {
 			110,
 			110
 		}
-	},
-	[159] = {
+	}
+	pg.base.world_chapter_random[159] = {
 		name = "NA海域深部H",
 		complete_effect = 2,
 		enter_cost = 60,
@@ -1781,8 +2175,8 @@ pg.world_chapter_random = {
 			110,
 			110
 		}
-	},
-	[200] = {
+	}
+	pg.base.world_chapter_random[200] = {
 		name = "Chapter1-0-1 演習海域",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -1803,8 +2197,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[201] = {
+	}
+	pg.base.world_chapter_random[201] = {
 		name = "Chapter1-1 出航",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -1825,8 +2219,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[202] = {
+	}
+	pg.base.world_chapter_random[202] = {
 		name = "Chapter1-0-1 演習海域",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -1847,8 +2241,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[203] = {
+	}
+	pg.base.world_chapter_random[203] = {
 		name = "Chapter1-2 既視感",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -1869,8 +2263,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[204] = {
+	}
+	pg.base.world_chapter_random[204] = {
 		name = "Chapter1-3 バミューダへ",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -1891,8 +2285,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[205] = {
+	}
+	pg.base.world_chapter_random[205] = {
 		name = "Chapter1-4 赤い影",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -1913,8 +2307,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[206] = {
+	}
+	pg.base.world_chapter_random[206] = {
 		name = "Chapter1-5 和平条約",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -1935,8 +2329,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[207] = {
+	}
+	pg.base.world_chapter_random[207] = {
 		name = "Chapter1-6 前哨基地",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -1957,8 +2351,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[211] = {
+	}
+	pg.base.world_chapter_random[211] = {
 		name = "Chapter2-2 共同作戦",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -1979,8 +2373,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[212] = {
+	}
+	pg.base.world_chapter_random[212] = {
 		name = "Chapter2-3 掃討戦",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -2001,8 +2395,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[213] = {
+	}
+	pg.base.world_chapter_random[213] = {
 		name = "Chapter2-4 救援信号",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -2023,8 +2417,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[214] = {
+	}
+	pg.base.world_chapter_random[214] = {
 		name = "Chapter2-5 女王の連絡",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -2045,8 +2439,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[215] = {
+	}
+	pg.base.world_chapter_random[215] = {
 		name = "Chapter2-6 強敵",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -2067,8 +2461,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[220] = {
+	}
+	pg.base.world_chapter_random[220] = {
 		name = "Chapter3-1 片翼戦線",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -2089,8 +2483,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[221] = {
+	}
+	pg.base.world_chapter_random[221] = {
 		name = "Chapter3-2 TBについて",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -2111,8 +2505,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[222] = {
+	}
+	pg.base.world_chapter_random[222] = {
 		name = "Chapter3-3 友軍信号",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -2133,8 +2527,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[223] = {
+	}
+	pg.base.world_chapter_random[223] = {
 		name = "Chapter3-4 救援",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -2155,8 +2549,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[224] = {
+	}
+	pg.base.world_chapter_random[224] = {
 		name = "Chapter3-5 残影",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -2177,8 +2571,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[225] = {
+	}
+	pg.base.world_chapter_random[225] = {
 		name = "Chapter3-6 一気突破",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -2199,8 +2593,10 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[230] = {
+	}
+end)()
+(function ()
+	pg.base.world_chapter_random[230] = {
 		name = "Chapter4-1 地中海",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -2221,8 +2617,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[231] = {
+	}
+	pg.base.world_chapter_random[231] = {
 		name = "Chapter4-2 タラント",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -2243,8 +2639,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[232] = {
+	}
+	pg.base.world_chapter_random[232] = {
 		name = "Chapter4-3 ダカール",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -2265,8 +2661,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[233] = {
+	}
+	pg.base.world_chapter_random[233] = {
 		name = "Chapter4-4 侵入",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -2287,8 +2683,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[234] = {
+	}
+	pg.base.world_chapter_random[234] = {
 		name = "Chapter4-5 海霧",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -2309,8 +2705,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[235] = {
+	}
+	pg.base.world_chapter_random[235] = {
 		name = "Chapter4-6 戦略調整",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -2331,8 +2727,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[260] = {
+	}
+	pg.base.world_chapter_random[260] = {
 		name = "Chapter5-1 泥沼",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -2353,8 +2749,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[261] = {
+	}
+	pg.base.world_chapter_random[261] = {
 		name = "Chapter5-2 座標",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -2375,8 +2771,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[262] = {
+	}
+	pg.base.world_chapter_random[262] = {
 		name = "Chapter5-3 幻影",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -2397,8 +2793,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[263] = {
+	}
+	pg.base.world_chapter_random[263] = {
 		name = "Chapter5-4 茶会",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -2419,8 +2815,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[264] = {
+	}
+	pg.base.world_chapter_random[264] = {
 		name = "Chapter5-5 総攻撃",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -2441,8 +2837,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[265] = {
+	}
+	pg.base.world_chapter_random[265] = {
 		name = "Chapter5-6-0 円環",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -2463,8 +2859,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[266] = {
+	}
+	pg.base.world_chapter_random[266] = {
 		name = "Chapter5-6-1 収束",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -2485,8 +2881,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[267] = {
+	}
+	pg.base.world_chapter_random[267] = {
 		name = "Chapter5-6-2 基底",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -2507,8 +2903,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[301] = {
+	}
+	pg.base.world_chapter_random[301] = {
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -2529,8 +2925,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[400] = {
+	}
+	pg.base.world_chapter_random[400] = {
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -2551,8 +2947,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[401] = {
+	}
+	pg.base.world_chapter_random[401] = {
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -2573,8 +2969,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[410] = {
+	}
+	pg.base.world_chapter_random[410] = {
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -2595,8 +2991,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[411] = {
+	}
+	pg.base.world_chapter_random[411] = {
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -2617,8 +3013,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[412] = {
+	}
+	pg.base.world_chapter_random[412] = {
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -2639,8 +3035,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[413] = {
+	}
+	pg.base.world_chapter_random[413] = {
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -2661,8 +3057,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[414] = {
+	}
+	pg.base.world_chapter_random[414] = {
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -2683,8 +3079,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[415] = {
+	}
+	pg.base.world_chapter_random[415] = {
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -2705,8 +3101,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[416] = {
+	}
+	pg.base.world_chapter_random[416] = {
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -2727,8 +3123,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[417] = {
+	}
+	pg.base.world_chapter_random[417] = {
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -2749,8 +3145,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[418] = {
+	}
+	pg.base.world_chapter_random[418] = {
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -2771,8 +3167,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[419] = {
+	}
+	pg.base.world_chapter_random[419] = {
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -2793,8 +3189,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[420] = {
+	}
+	pg.base.world_chapter_random[420] = {
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -2815,8 +3211,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[500] = {
+	}
+	pg.base.world_chapter_random[500] = {
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -2837,8 +3233,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[510] = {
+	}
+	pg.base.world_chapter_random[510] = {
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -2859,8 +3255,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[511] = {
+	}
+	pg.base.world_chapter_random[511] = {
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -2881,8 +3277,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[512] = {
+	}
+	pg.base.world_chapter_random[512] = {
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -2903,8 +3299,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[513] = {
+	}
+	pg.base.world_chapter_random[513] = {
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -2925,8 +3321,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[514] = {
+	}
+	pg.base.world_chapter_random[514] = {
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -2947,8 +3343,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[515] = {
+	}
+	pg.base.world_chapter_random[515] = {
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -2969,8 +3365,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[516] = {
+	}
+	pg.base.world_chapter_random[516] = {
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -2991,8 +3387,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[517] = {
+	}
+	pg.base.world_chapter_random[517] = {
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -3013,8 +3409,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[518] = {
+	}
+	pg.base.world_chapter_random[518] = {
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -3035,8 +3431,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[519] = {
+	}
+	pg.base.world_chapter_random[519] = {
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -3057,8 +3453,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[520] = {
+	}
+	pg.base.world_chapter_random[520] = {
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -3079,8 +3475,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[541] = {
+	}
+	pg.base.world_chapter_random[541] = {
 		name = "异常空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -3101,8 +3497,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[544] = {
+	}
+	pg.base.world_chapter_random[544] = {
 		name = "异常空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -3123,8 +3519,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[547] = {
+	}
+	pg.base.world_chapter_random[547] = {
 		name = "异常空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -3145,8 +3541,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[550] = {
+	}
+	pg.base.world_chapter_random[550] = {
 		name = "异常空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -3167,8 +3563,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[553] = {
+	}
+	pg.base.world_chapter_random[553] = {
 		name = "异常空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -3189,8 +3585,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[601] = {
+	}
+	pg.base.world_chapter_random[601] = {
 		name = "异常空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -3211,8 +3607,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[602] = {
+	}
+	pg.base.world_chapter_random[602] = {
 		name = "异常空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -3233,8 +3629,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[610] = {
+	}
+	pg.base.world_chapter_random[610] = {
 		name = "异常空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -3255,8 +3651,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[620] = {
+	}
+	pg.base.world_chapter_random[620] = {
 		name = "异常空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -3277,8 +3673,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[630] = {
+	}
+	pg.base.world_chapter_random[630] = {
 		name = "异常空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -3299,8 +3695,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[631] = {
+	}
+	pg.base.world_chapter_random[631] = {
 		name = "异常空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -3321,8 +3717,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[632] = {
+	}
+	pg.base.world_chapter_random[632] = {
 		name = "异常空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -3343,8 +3739,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[640] = {
+	}
+	pg.base.world_chapter_random[640] = {
 		name = "异常空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -3365,8 +3761,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[650] = {
+	}
+	pg.base.world_chapter_random[650] = {
 		name = "异常空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -3387,8 +3783,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[660] = {
+	}
+	pg.base.world_chapter_random[660] = {
 		name = "异常空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -3409,8 +3805,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[700] = {
+	}
+	pg.base.world_chapter_random[700] = {
 		name = "神秘海域（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -3431,8 +3827,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[701] = {
+	}
+	pg.base.world_chapter_random[701] = {
 		name = "神秘海域（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -3453,8 +3849,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[702] = {
+	}
+	pg.base.world_chapter_random[702] = {
 		name = "神秘海域（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -3475,8 +3871,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[703] = {
+	}
+	pg.base.world_chapter_random[703] = {
 		name = "神秘海域（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -3497,8 +3893,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[710] = {
+	}
+	pg.base.world_chapter_random[710] = {
 		name = "混乱之海（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -3519,8 +3915,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[711] = {
+	}
+	pg.base.world_chapter_random[711] = {
 		name = "意识之海（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -3541,8 +3937,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[712] = {
+	}
+	pg.base.world_chapter_random[712] = {
 		name = "意识之海（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -3563,8 +3959,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[713] = {
+	}
+	pg.base.world_chapter_random[713] = {
 		name = "混乱之海（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -3585,8 +3981,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[715] = {
+	}
+	pg.base.world_chapter_random[715] = {
 		name = "神秘海域（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -3607,8 +4003,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[720] = {
+	}
+	pg.base.world_chapter_random[720] = {
 		name = "精神空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -3629,8 +4025,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[721] = {
+	}
+	pg.base.world_chapter_random[721] = {
 		name = "精神空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -3651,8 +4047,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[722] = {
+	}
+	pg.base.world_chapter_random[722] = {
 		name = "精神空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -3673,8 +4069,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[723] = {
+	}
+	pg.base.world_chapter_random[723] = {
 		name = "精神空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -3695,8 +4091,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[730] = {
+	}
+	pg.base.world_chapter_random[730] = {
 		name = "精神空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -3717,8 +4113,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[731] = {
+	}
+	pg.base.world_chapter_random[731] = {
 		name = "精神空间·深层（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -3739,8 +4135,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[740] = {
+	}
+	pg.base.world_chapter_random[740] = {
 		name = "图腾空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -3761,8 +4157,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[741] = {
+	}
+	pg.base.world_chapter_random[741] = {
 		name = "图腾空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -3783,8 +4179,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[742] = {
+	}
+	pg.base.world_chapter_random[742] = {
 		name = "图腾空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -3805,8 +4201,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[743] = {
+	}
+	pg.base.world_chapter_random[743] = {
 		name = "图腾空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -3827,8 +4223,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[750] = {
+	}
+	pg.base.world_chapter_random[750] = {
 		name = "图腾空间·深层（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -3849,8 +4245,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[760] = {
+	}
+	pg.base.world_chapter_random[760] = {
 		name = "春之幻境（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -3871,8 +4267,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[761] = {
+	}
+	pg.base.world_chapter_random[761] = {
 		name = "夏之幻境（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -3893,8 +4289,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[762] = {
+	}
+	pg.base.world_chapter_random[762] = {
 		name = "秋之幻境（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -3915,8 +4311,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[763] = {
+	}
+	pg.base.world_chapter_random[763] = {
 		name = "冬之幻境（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -3937,8 +4333,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[770] = {
+	}
+	pg.base.world_chapter_random[770] = {
 		name = "季节幻境·深层（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -3959,8 +4355,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[800] = {
+	}
+	pg.base.world_chapter_random[800] = {
 		name = "セイレーン海域NO.Q2A7L",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -3981,8 +4377,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[803] = {
+	}
+	pg.base.world_chapter_random[803] = {
 		name = "セイレーン海域NO.MY4BE",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -4003,8 +4399,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[806] = {
+	}
+	pg.base.world_chapter_random[806] = {
 		name = "セイレーン海域NO.K8ALD",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -4025,8 +4421,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[809] = {
+	}
+	pg.base.world_chapter_random[809] = {
 		name = "セイレーン海域NO.IKTJB",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -4047,8 +4443,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[820] = {
+	}
+	pg.base.world_chapter_random[820] = {
 		name = "セイレーン海域NO.EMHOD",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -4069,8 +4465,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[823] = {
+	}
+	pg.base.world_chapter_random[823] = {
 		name = "セイレーン海域NO.3PF6Z",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -4091,8 +4487,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[826] = {
+	}
+	pg.base.world_chapter_random[826] = {
 		name = "セイレーン海域NO.COU42",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -4113,8 +4509,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[829] = {
+	}
+	pg.base.world_chapter_random[829] = {
 		name = "セイレーン海域NO.QK3RM",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -4135,8 +4531,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[840] = {
+	}
+	pg.base.world_chapter_random[840] = {
 		name = "セイレーン海域NO.E8BIJ",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -4157,8 +4553,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[841] = {
+	}
+	pg.base.world_chapter_random[841] = {
 		name = "セイレーン海域NO.E8BIJ-II",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -4179,8 +4575,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[843] = {
+	}
+	pg.base.world_chapter_random[843] = {
 		name = "セイレーン海域NO.9RYH2",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -4201,8 +4597,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[844] = {
+	}
+	pg.base.world_chapter_random[844] = {
 		name = "セイレーン海域NO.9RYH2-II",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -4223,8 +4619,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[846] = {
+	}
+	pg.base.world_chapter_random[846] = {
 		name = "セイレーン海域NO.ZKT5G",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -4245,8 +4641,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[847] = {
+	}
+	pg.base.world_chapter_random[847] = {
 		name = "セイレーン海域NO.ZKT5G-II",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -4267,8 +4663,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[849] = {
+	}
+	pg.base.world_chapter_random[849] = {
 		name = "セイレーン海域NO.YH16W",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -4289,8 +4685,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[850] = {
+	}
+	pg.base.world_chapter_random[850] = {
 		name = "セイレーン海域NO.YH16W-II",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -4311,8 +4707,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[860] = {
+	}
+	pg.base.world_chapter_random[860] = {
 		name = "セイレーン海域NO.SLUIA",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -4333,8 +4729,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[863] = {
+	}
+	pg.base.world_chapter_random[863] = {
 		name = "セイレーン海域NO.4KXZG",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -4355,8 +4751,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[866] = {
+	}
+	pg.base.world_chapter_random[866] = {
 		name = "セイレーン海域NO.EC57Y",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -4377,8 +4773,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[869] = {
+	}
+	pg.base.world_chapter_random[869] = {
 		name = "セイレーン海域NO.KAD7O",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -4399,8 +4795,10 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[901] = {
+	}
+end)()
+(function ()
+	pg.base.world_chapter_random[901] = {
 		name = "破碎的空间-I",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -4487,8 +4885,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[902] = {
+	}
+	pg.base.world_chapter_random[902] = {
 		name = "破碎的空间-II",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -4575,8 +4973,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[903] = {
+	}
+	pg.base.world_chapter_random[903] = {
 		name = "破碎的空间-III",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -4663,8 +5061,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[1011] = {
+	}
+	pg.base.world_chapter_random[1011] = {
 		name = "カリブ海A-安全海域",
 		complete_effect = 1,
 		enter_cost = 40,
@@ -4685,8 +5083,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[1012] = {
+	}
+	pg.base.world_chapter_random[1012] = {
 		name = "カリブ海B-安全海域",
 		complete_effect = 1,
 		enter_cost = 30,
@@ -4707,8 +5105,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[1013] = {
+	}
+	pg.base.world_chapter_random[1013] = {
 		name = "カリブ海C-安全海域",
 		complete_effect = 1,
 		enter_cost = 30,
@@ -4729,8 +5127,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[1014] = {
+	}
+	pg.base.world_chapter_random[1014] = {
 		name = "カリブ海D-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
@@ -4751,8 +5149,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[1021] = {
+	}
+	pg.base.world_chapter_random[1021] = {
 		name = "NA海域南西A-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
@@ -4773,8 +5171,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[1022] = {
+	}
+	pg.base.world_chapter_random[1022] = {
 		name = "NA海域南西B-安全海域",
 		complete_effect = 1,
 		enter_cost = 5,
@@ -4795,8 +5193,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[1023] = {
+	}
+	pg.base.world_chapter_random[1023] = {
 		name = "NA海域南西C-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
@@ -4817,8 +5215,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[1024] = {
+	}
+	pg.base.world_chapter_random[1024] = {
 		name = "NA海域南西D-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
@@ -4839,8 +5237,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[1025] = {
+	}
+	pg.base.world_chapter_random[1025] = {
 		name = "NA海域南西E-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
@@ -4861,8 +5259,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[1031] = {
+	}
+	pg.base.world_chapter_random[1031] = {
 		name = "南西海嶺A-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
@@ -4883,8 +5281,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[1032] = {
+	}
+	pg.base.world_chapter_random[1032] = {
 		name = "南西海嶺B-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
@@ -4905,8 +5303,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[1033] = {
+	}
+	pg.base.world_chapter_random[1033] = {
 		name = "南西海嶺C-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
@@ -4927,8 +5325,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[1034] = {
+	}
+	pg.base.world_chapter_random[1034] = {
 		name = "南西海嶺D-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
@@ -4949,8 +5347,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[1041] = {
+	}
+	pg.base.world_chapter_random[1041] = {
 		name = "西大陸棚A-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
@@ -4971,8 +5369,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[1042] = {
+	}
+	pg.base.world_chapter_random[1042] = {
 		name = "西大陸棚B-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
@@ -4993,8 +5391,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[1043] = {
+	}
+	pg.base.world_chapter_random[1043] = {
 		name = "西大陸棚C-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
@@ -5015,8 +5413,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[1044] = {
+	}
+	pg.base.world_chapter_random[1044] = {
 		name = "西大陸棚D-安全海域",
 		complete_effect = 1,
 		enter_cost = 5,
@@ -5037,8 +5435,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[1051] = {
+	}
+	pg.base.world_chapter_random[1051] = {
 		name = "南東海嶺A-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
@@ -5059,8 +5457,8 @@ pg.world_chapter_random = {
 			75,
 			75
 		}
-	},
-	[1052] = {
+	}
+	pg.base.world_chapter_random[1052] = {
 		name = "南東海嶺B-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
@@ -5081,8 +5479,8 @@ pg.world_chapter_random = {
 			75,
 			75
 		}
-	},
-	[1053] = {
+	}
+	pg.base.world_chapter_random[1053] = {
 		name = "南東海嶺C-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
@@ -5103,8 +5501,8 @@ pg.world_chapter_random = {
 			75,
 			75
 		}
-	},
-	[1054] = {
+	}
+	pg.base.world_chapter_random[1054] = {
 		name = "南東海嶺D-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
@@ -5125,8 +5523,8 @@ pg.world_chapter_random = {
 			75,
 			75
 		}
-	},
-	[1061] = {
+	}
+	pg.base.world_chapter_random[1061] = {
 		name = "NA海域南東A-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
@@ -5147,8 +5545,8 @@ pg.world_chapter_random = {
 			75,
 			75
 		}
-	},
-	[1062] = {
+	}
+	pg.base.world_chapter_random[1062] = {
 		name = "NA海域南東B-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
@@ -5169,8 +5567,8 @@ pg.world_chapter_random = {
 			75,
 			75
 		}
-	},
-	[1063] = {
+	}
+	pg.base.world_chapter_random[1063] = {
 		name = "NA海域南東C-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
@@ -5191,8 +5589,8 @@ pg.world_chapter_random = {
 			75,
 			75
 		}
-	},
-	[1064] = {
+	}
+	pg.base.world_chapter_random[1064] = {
 		name = "NA海域南東D-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
@@ -5213,8 +5611,8 @@ pg.world_chapter_random = {
 			75,
 			75
 		}
-	},
-	[1065] = {
+	}
+	pg.base.world_chapter_random[1065] = {
 		name = "NA海域南東E-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
@@ -5235,8 +5633,8 @@ pg.world_chapter_random = {
 			75,
 			75
 		}
-	},
-	[1066] = {
+	}
+	pg.base.world_chapter_random[1066] = {
 		name = "NA海域南東F-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
@@ -5257,8 +5655,8 @@ pg.world_chapter_random = {
 			75,
 			75
 		}
-	},
-	[1071] = {
+	}
+	pg.base.world_chapter_random[1071] = {
 		name = "地中海A-安全海域",
 		complete_effect = 1,
 		enter_cost = 30,
@@ -5279,8 +5677,8 @@ pg.world_chapter_random = {
 			75,
 			75
 		}
-	},
-	[1072] = {
+	}
+	pg.base.world_chapter_random[1072] = {
 		name = "地中海B-安全海域",
 		complete_effect = 1,
 		enter_cost = 40,
@@ -5301,8 +5699,8 @@ pg.world_chapter_random = {
 			75,
 			75
 		}
-	},
-	[1073] = {
+	}
+	pg.base.world_chapter_random[1073] = {
 		name = "地中海C-安全海域",
 		complete_effect = 1,
 		enter_cost = 30,
@@ -5323,8 +5721,8 @@ pg.world_chapter_random = {
 			75,
 			75
 		}
-	},
-	[1081] = {
+	}
+	pg.base.world_chapter_random[1081] = {
 		name = "NA海域西A-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
@@ -5345,8 +5743,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[1082] = {
+	}
+	pg.base.world_chapter_random[1082] = {
 		name = "NA海域西B-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
@@ -5367,8 +5765,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[1083] = {
+	}
+	pg.base.world_chapter_random[1083] = {
 		name = "NA海域西C-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
@@ -5389,8 +5787,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[1084] = {
+	}
+	pg.base.world_chapter_random[1084] = {
 		name = "NA海域西D-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
@@ -5411,8 +5809,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[1085] = {
+	}
+	pg.base.world_chapter_random[1085] = {
 		name = "NA海域西E-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
@@ -5433,8 +5831,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[1091] = {
+	}
+	pg.base.world_chapter_random[1091] = {
 		name = "NA海域北西A-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
@@ -5455,8 +5853,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[1092] = {
+	}
+	pg.base.world_chapter_random[1092] = {
 		name = "NA海域北西B-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
@@ -5477,8 +5875,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[1093] = {
+	}
+	pg.base.world_chapter_random[1093] = {
 		name = "NA海域北西C-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
@@ -5499,8 +5897,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[1094] = {
+	}
+	pg.base.world_chapter_random[1094] = {
 		name = "NA海域北西D-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
@@ -5521,8 +5919,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[1095] = {
+	}
+	pg.base.world_chapter_random[1095] = {
 		name = "NA海域北西E-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
@@ -5543,8 +5941,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[1101] = {
+	}
+	pg.base.world_chapter_random[1101] = {
 		name = "北西航路A-安全海域",
 		complete_effect = 1,
 		enter_cost = 30,
@@ -5565,8 +5963,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[1102] = {
+	}
+	pg.base.world_chapter_random[1102] = {
 		name = "北西航路B-安全海域",
 		complete_effect = 1,
 		enter_cost = 30,
@@ -5587,8 +5985,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[1103] = {
+	}
+	pg.base.world_chapter_random[1103] = {
 		name = "北西航路C-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
@@ -5609,8 +6007,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[1104] = {
+	}
+	pg.base.world_chapter_random[1104] = {
 		name = "北西航路D-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
@@ -5631,8 +6029,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[1105] = {
+	}
+	pg.base.world_chapter_random[1105] = {
 		name = "北西航路E-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
@@ -5653,8 +6051,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[1106] = {
+	}
+	pg.base.world_chapter_random[1106] = {
 		name = "北西航路F-安全海域",
 		complete_effect = 1,
 		enter_cost = 40,
@@ -5675,8 +6073,8 @@ pg.world_chapter_random = {
 			50,
 			50
 		}
-	},
-	[1111] = {
+	}
+	pg.base.world_chapter_random[1111] = {
 		name = "NA海域東A-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
@@ -5697,8 +6095,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	[1112] = {
+	}
+	pg.base.world_chapter_random[1112] = {
 		name = "NA海域東B-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
@@ -5719,8 +6117,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	[1113] = {
+	}
+	pg.base.world_chapter_random[1113] = {
 		name = "NA海域東C-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
@@ -5741,8 +6139,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	[1114] = {
+	}
+	pg.base.world_chapter_random[1114] = {
 		name = "NA海域東D-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
@@ -5763,8 +6161,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	[1121] = {
+	}
+	pg.base.world_chapter_random[1121] = {
 		name = "東大陸棚A-安全海域",
 		complete_effect = 1,
 		enter_cost = 40,
@@ -5785,8 +6183,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	[1122] = {
+	}
+	pg.base.world_chapter_random[1122] = {
 		name = "東大陸棚B-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
@@ -5807,8 +6205,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	[1123] = {
+	}
+	pg.base.world_chapter_random[1123] = {
 		name = "東大陸棚C-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
@@ -5829,8 +6227,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	[1124] = {
+	}
+	pg.base.world_chapter_random[1124] = {
 		name = "東大陸棚D-安全海域",
 		complete_effect = 1,
 		enter_cost = 30,
@@ -5851,8 +6249,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	[1125] = {
+	}
+	pg.base.world_chapter_random[1125] = {
 		name = "東大陸棚E-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
@@ -5873,8 +6271,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	[1131] = {
+	}
+	pg.base.world_chapter_random[1131] = {
 		name = "NA海域北東A-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
@@ -5895,8 +6293,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	[1132] = {
+	}
+	pg.base.world_chapter_random[1132] = {
 		name = "NA海域北東B-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
@@ -5917,8 +6315,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	[1133] = {
+	}
+	pg.base.world_chapter_random[1133] = {
 		name = "NA海域北東C-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
@@ -5939,8 +6337,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	[1134] = {
+	}
+	pg.base.world_chapter_random[1134] = {
 		name = "NA海域北東D-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
@@ -5961,8 +6359,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	[1135] = {
+	}
+	pg.base.world_chapter_random[1135] = {
 		name = "NA海域北東E-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
@@ -5983,8 +6381,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	[1141] = {
+	}
+	pg.base.world_chapter_random[1141] = {
 		name = "北東航路A-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
@@ -6005,8 +6403,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	[1142] = {
+	}
+	pg.base.world_chapter_random[1142] = {
 		name = "北東航路B-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
@@ -6027,8 +6425,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	[1143] = {
+	}
+	pg.base.world_chapter_random[1143] = {
 		name = "北東航路C-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
@@ -6049,8 +6447,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	[1144] = {
+	}
+	pg.base.world_chapter_random[1144] = {
 		name = "北東航路D-安全海域",
 		complete_effect = 1,
 		enter_cost = 30,
@@ -6071,8 +6469,8 @@ pg.world_chapter_random = {
 			25,
 			25
 		}
-	},
-	[1151] = {
+	}
+	pg.base.world_chapter_random[1151] = {
 		name = "NA海域深部A-安全海域",
 		complete_effect = 1,
 		enter_cost = 30,
@@ -6093,8 +6491,8 @@ pg.world_chapter_random = {
 			110,
 			110
 		}
-	},
-	[1152] = {
+	}
+	pg.base.world_chapter_random[1152] = {
 		name = "NA海域深部B-安全海域",
 		complete_effect = 1,
 		enter_cost = 30,
@@ -6115,8 +6513,8 @@ pg.world_chapter_random = {
 			110,
 			110
 		}
-	},
-	[1153] = {
+	}
+	pg.base.world_chapter_random[1153] = {
 		name = "NA海域深部C-安全海域",
 		complete_effect = 1,
 		enter_cost = 40,
@@ -6137,8 +6535,8 @@ pg.world_chapter_random = {
 			110,
 			110
 		}
-	},
-	[1154] = {
+	}
+	pg.base.world_chapter_random[1154] = {
 		name = "NA海域中心-安全海域",
 		complete_effect = 1,
 		enter_cost = 40,
@@ -6159,8 +6557,8 @@ pg.world_chapter_random = {
 			200,
 			200
 		}
-	},
-	[1155] = {
+	}
+	pg.base.world_chapter_random[1155] = {
 		name = "NA海域深部D-安全海域",
 		complete_effect = 1,
 		enter_cost = 40,
@@ -6181,8 +6579,8 @@ pg.world_chapter_random = {
 			110,
 			110
 		}
-	},
-	[1156] = {
+	}
+	pg.base.world_chapter_random[1156] = {
 		name = "NA海域深部E-安全海域",
 		complete_effect = 1,
 		enter_cost = 40,
@@ -6203,8 +6601,8 @@ pg.world_chapter_random = {
 			110,
 			110
 		}
-	},
-	[1157] = {
+	}
+	pg.base.world_chapter_random[1157] = {
 		name = "NA海域深部F-安全海域",
 		complete_effect = 1,
 		enter_cost = 40,
@@ -6225,8 +6623,8 @@ pg.world_chapter_random = {
 			110,
 			110
 		}
-	},
-	[1158] = {
+	}
+	pg.base.world_chapter_random[1158] = {
 		name = "NA海域深部G-安全海域",
 		complete_effect = 1,
 		enter_cost = 30,
@@ -6247,8 +6645,8 @@ pg.world_chapter_random = {
 			110,
 			110
 		}
-	},
-	[1159] = {
+	}
+	pg.base.world_chapter_random[1159] = {
 		name = "NA海域深部H-安全海域",
 		complete_effect = 1,
 		enter_cost = 30,
@@ -6269,8 +6667,8 @@ pg.world_chapter_random = {
 			110,
 			110
 		}
-	},
-	[20001] = {
+	}
+	pg.base.world_chapter_random[20001] = {
 		name = "秘密海域",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -6465,8 +6863,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[20002] = {
+	}
+	pg.base.world_chapter_random[20002] = {
 		name = "秘密海域",
 		complete_effect = 0,
 		enter_cost = 10,
@@ -6661,8 +7059,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[20003] = {
+	}
+	pg.base.world_chapter_random[20003] = {
 		name = "秘密海域",
 		complete_effect = 0,
 		enter_cost = 20,
@@ -6857,8 +7255,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[20004] = {
+	}
+	pg.base.world_chapter_random[20004] = {
 		name = "秘密海域",
 		complete_effect = 0,
 		enter_cost = 20,
@@ -7053,8 +7451,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[20005] = {
+	}
+	pg.base.world_chapter_random[20005] = {
 		name = "秘密海域",
 		complete_effect = 0,
 		enter_cost = 40,
@@ -7249,8 +7647,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[20006] = {
+	}
+	pg.base.world_chapter_random[20006] = {
 		name = "秘密海域",
 		complete_effect = 0,
 		enter_cost = 40,
@@ -7445,8 +7843,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[20013] = {
+	}
+	pg.base.world_chapter_random[20013] = {
 		name = "異常海域（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 80,
@@ -7473,8 +7871,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[20014] = {
+	}
+	pg.base.world_chapter_random[20014] = {
 		name = "異常海域",
 		complete_effect = 0,
 		enter_cost = 80,
@@ -7495,8 +7893,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[20015] = {
+	}
+	pg.base.world_chapter_random[20015] = {
 		name = "異常海域",
 		complete_effect = 0,
 		enter_cost = 100,
@@ -7517,8 +7915,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[20016] = {
+	}
+	pg.base.world_chapter_random[20016] = {
 		name = "異常海域",
 		complete_effect = 0,
 		enter_cost = 100,
@@ -7539,8 +7937,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[20017] = {
+	}
+	pg.base.world_chapter_random[20017] = {
 		name = "異常海域（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 100,
@@ -7567,8 +7965,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[20020] = {
+	}
+	pg.base.world_chapter_random[20020] = {
 		name = "情報開放",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -7613,8 +8011,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[20021] = {
+	}
+	pg.base.world_chapter_random[20021] = {
 		name = "情報開放",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -7659,8 +8057,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[20022] = {
+	}
+	pg.base.world_chapter_random[20022] = {
 		name = "情報開放",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -7681,8 +8079,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[20101] = {
+	}
+	pg.base.world_chapter_random[20101] = {
 		name = "塞壬要塞海域（暂不使用）",
 		complete_effect = 1,
 		enter_cost = 0,
@@ -7703,8 +8101,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[20103] = {
+	}
+	pg.base.world_chapter_random[20103] = {
 		name = "塞壬要塞海域（暂不使用）",
 		complete_effect = 1,
 		enter_cost = 0,
@@ -7725,8 +8123,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[20200] = {
+	}
+	pg.base.world_chapter_random[20200] = {
 		name = "塞壬要塞海域（暂不使用）",
 		complete_effect = 1,
 		enter_cost = 0,
@@ -7747,8 +8145,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[20201] = {
+	}
+	pg.base.world_chapter_random[20201] = {
 		name = "塞壬要塞海域（暂不使用）",
 		complete_effect = 1,
 		enter_cost = 0,
@@ -7769,8 +8167,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[20202] = {
+	}
+	pg.base.world_chapter_random[20202] = {
 		name = "塞壬要塞海域（暂不使用）",
 		complete_effect = 1,
 		enter_cost = 0,
@@ -7791,8 +8189,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[20203] = {
+	}
+	pg.base.world_chapter_random[20203] = {
 		name = "塞壬要塞海域（暂不使用）",
 		complete_effect = 1,
 		enter_cost = 0,
@@ -7813,8 +8211,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[20204] = {
+	}
+	pg.base.world_chapter_random[20204] = {
 		name = "塞壬要塞海域（暂不使用）",
 		complete_effect = 1,
 		enter_cost = 0,
@@ -7835,8 +8233,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30001] = {
+	}
+	pg.base.world_chapter_random[30001] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -7857,8 +8255,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30002] = {
+	}
+	pg.base.world_chapter_random[30002] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -7879,8 +8277,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30003] = {
+	}
+	pg.base.world_chapter_random[30003] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -7901,8 +8299,10 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30004] = {
+	}
+end)()
+(function ()
+	pg.base.world_chapter_random[30004] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -7923,8 +8323,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30005] = {
+	}
+	pg.base.world_chapter_random[30005] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -7945,8 +8345,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30006] = {
+	}
+	pg.base.world_chapter_random[30006] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -7967,8 +8367,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30007] = {
+	}
+	pg.base.world_chapter_random[30007] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -7989,8 +8389,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30008] = {
+	}
+	pg.base.world_chapter_random[30008] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8011,8 +8411,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30009] = {
+	}
+	pg.base.world_chapter_random[30009] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8033,8 +8433,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30010] = {
+	}
+	pg.base.world_chapter_random[30010] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8055,8 +8455,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30011] = {
+	}
+	pg.base.world_chapter_random[30011] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8077,8 +8477,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30012] = {
+	}
+	pg.base.world_chapter_random[30012] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8099,8 +8499,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30013] = {
+	}
+	pg.base.world_chapter_random[30013] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8121,8 +8521,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30014] = {
+	}
+	pg.base.world_chapter_random[30014] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8143,8 +8543,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30015] = {
+	}
+	pg.base.world_chapter_random[30015] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8165,8 +8565,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30016] = {
+	}
+	pg.base.world_chapter_random[30016] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8187,8 +8587,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30017] = {
+	}
+	pg.base.world_chapter_random[30017] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8209,8 +8609,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30018] = {
+	}
+	pg.base.world_chapter_random[30018] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8231,8 +8631,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30019] = {
+	}
+	pg.base.world_chapter_random[30019] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8253,8 +8653,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30020] = {
+	}
+	pg.base.world_chapter_random[30020] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8275,8 +8675,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30021] = {
+	}
+	pg.base.world_chapter_random[30021] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8297,8 +8697,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30022] = {
+	}
+	pg.base.world_chapter_random[30022] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8319,8 +8719,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30023] = {
+	}
+	pg.base.world_chapter_random[30023] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8341,8 +8741,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30024] = {
+	}
+	pg.base.world_chapter_random[30024] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8363,8 +8763,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30025] = {
+	}
+	pg.base.world_chapter_random[30025] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8385,8 +8785,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30026] = {
+	}
+	pg.base.world_chapter_random[30026] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8407,8 +8807,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30027] = {
+	}
+	pg.base.world_chapter_random[30027] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8429,8 +8829,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30028] = {
+	}
+	pg.base.world_chapter_random[30028] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8451,8 +8851,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30029] = {
+	}
+	pg.base.world_chapter_random[30029] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8473,8 +8873,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30030] = {
+	}
+	pg.base.world_chapter_random[30030] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8495,8 +8895,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30031] = {
+	}
+	pg.base.world_chapter_random[30031] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8517,8 +8917,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30032] = {
+	}
+	pg.base.world_chapter_random[30032] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8539,8 +8939,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30033] = {
+	}
+	pg.base.world_chapter_random[30033] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8561,8 +8961,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30034] = {
+	}
+	pg.base.world_chapter_random[30034] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8583,8 +8983,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30035] = {
+	}
+	pg.base.world_chapter_random[30035] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8605,8 +9005,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30036] = {
+	}
+	pg.base.world_chapter_random[30036] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8627,8 +9027,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30037] = {
+	}
+	pg.base.world_chapter_random[30037] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8649,8 +9049,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30038] = {
+	}
+	pg.base.world_chapter_random[30038] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8671,8 +9071,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30039] = {
+	}
+	pg.base.world_chapter_random[30039] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8693,8 +9093,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30040] = {
+	}
+	pg.base.world_chapter_random[30040] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8715,8 +9115,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30041] = {
+	}
+	pg.base.world_chapter_random[30041] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8737,8 +9137,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30042] = {
+	}
+	pg.base.world_chapter_random[30042] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8759,8 +9159,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30043] = {
+	}
+	pg.base.world_chapter_random[30043] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8781,8 +9181,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30044] = {
+	}
+	pg.base.world_chapter_random[30044] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8803,8 +9203,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30045] = {
+	}
+	pg.base.world_chapter_random[30045] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8825,8 +9225,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30046] = {
+	}
+	pg.base.world_chapter_random[30046] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8847,8 +9247,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30047] = {
+	}
+	pg.base.world_chapter_random[30047] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8869,8 +9269,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30048] = {
+	}
+	pg.base.world_chapter_random[30048] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8891,8 +9291,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30049] = {
+	}
+	pg.base.world_chapter_random[30049] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8913,8 +9313,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30050] = {
+	}
+	pg.base.world_chapter_random[30050] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8935,8 +9335,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30051] = {
+	}
+	pg.base.world_chapter_random[30051] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8957,8 +9357,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30052] = {
+	}
+	pg.base.world_chapter_random[30052] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -8979,8 +9379,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30053] = {
+	}
+	pg.base.world_chapter_random[30053] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -9001,8 +9401,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30054] = {
+	}
+	pg.base.world_chapter_random[30054] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -9023,8 +9423,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30055] = {
+	}
+	pg.base.world_chapter_random[30055] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -9045,8 +9445,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30056] = {
+	}
+	pg.base.world_chapter_random[30056] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -9067,8 +9467,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30057] = {
+	}
+	pg.base.world_chapter_random[30057] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -9089,8 +9489,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30058] = {
+	}
+	pg.base.world_chapter_random[30058] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -9111,8 +9511,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30059] = {
+	}
+	pg.base.world_chapter_random[30059] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -9133,8 +9533,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30060] = {
+	}
+	pg.base.world_chapter_random[30060] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -9155,8 +9555,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30061] = {
+	}
+	pg.base.world_chapter_random[30061] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -9177,8 +9577,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30062] = {
+	}
+	pg.base.world_chapter_random[30062] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -9199,8 +9599,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30063] = {
+	}
+	pg.base.world_chapter_random[30063] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -9221,8 +9621,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30064] = {
+	}
+	pg.base.world_chapter_random[30064] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -9243,8 +9643,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30065] = {
+	}
+	pg.base.world_chapter_random[30065] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -9265,8 +9665,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30066] = {
+	}
+	pg.base.world_chapter_random[30066] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -9287,8 +9687,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30067] = {
+	}
+	pg.base.world_chapter_random[30067] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -9309,8 +9709,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30068] = {
+	}
+	pg.base.world_chapter_random[30068] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -9331,8 +9731,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30069] = {
+	}
+	pg.base.world_chapter_random[30069] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -9353,8 +9753,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30070] = {
+	}
+	pg.base.world_chapter_random[30070] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -9375,8 +9775,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30071] = {
+	}
+	pg.base.world_chapter_random[30071] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -9397,8 +9797,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[30072] = {
+	}
+	pg.base.world_chapter_random[30072] = {
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
@@ -9419,8 +9819,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[89003] = {
+	}
+	pg.base.world_chapter_random[89003] = {
 		name = "测试用地图原819",
 		complete_effect = 0,
 		enter_cost = 1000,
@@ -9441,8 +9841,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[89004] = {
+	}
+	pg.base.world_chapter_random[89004] = {
 		name = "测试用地图原819",
 		complete_effect = 0,
 		enter_cost = 1000,
@@ -9463,8 +9863,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[89014] = {
+	}
+	pg.base.world_chapter_random[89014] = {
 		name = "被破坏的海域",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -9485,8 +9885,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[89015] = {
+	}
+	pg.base.world_chapter_random[89015] = {
 		name = "被破坏的海域",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -9507,8 +9907,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[89016] = {
+	}
+	pg.base.world_chapter_random[89016] = {
 		name = "被破坏的海域",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -9529,8 +9929,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[89017] = {
+	}
+	pg.base.world_chapter_random[89017] = {
 		name = "被破坏的海域",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -9551,8 +9951,8 @@ pg.world_chapter_random = {
 			0,
 			0
 		}
-	},
-	[40000] = {
+	}
+	pg.base.world_chapter_random[40000] = {
 		name = "前哨基地",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -9573,8 +9973,8 @@ pg.world_chapter_random = {
 			200,
 			200
 		}
-	},
-	[43000] = {
+	}
+	pg.base.world_chapter_random[43000] = {
 		name = "ノーマル：アビータ・TemperanceXⅣ",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -9595,8 +9995,8 @@ pg.world_chapter_random = {
 			200,
 			200
 		}
-	},
-	[43001] = {
+	}
+	pg.base.world_chapter_random[43001] = {
 		name = "ノーマル：アビータ・StrengthVIII",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -9617,8 +10017,8 @@ pg.world_chapter_random = {
 			200,
 			200
 		}
-	},
-	[43002] = {
+	}
+	pg.base.world_chapter_random[43002] = {
 		name = "ノーマル：アビータ・HermitⅨ",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -9639,8 +10039,8 @@ pg.world_chapter_random = {
 			200,
 			200
 		}
-	},
-	[43010] = {
+	}
+	pg.base.world_chapter_random[43010] = {
 		name = "ハード：アビータ・TemperanceXⅣ",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -9661,8 +10061,8 @@ pg.world_chapter_random = {
 			200,
 			200
 		}
-	},
-	[43011] = {
+	}
+	pg.base.world_chapter_random[43011] = {
 		name = "ハード：アビータ・StrengthVIII",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -9683,8 +10083,8 @@ pg.world_chapter_random = {
 			200,
 			200
 		}
-	},
-	[43012] = {
+	}
+	pg.base.world_chapter_random[43012] = {
 		name = "ハード：アビータ・HermitⅨ",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -9705,8 +10105,8 @@ pg.world_chapter_random = {
 			200,
 			200
 		}
-	},
-	[43020] = {
+	}
+	pg.base.world_chapter_random[43020] = {
 		name = "ハード模擬戦：アビータ",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -9727,8 +10127,8 @@ pg.world_chapter_random = {
 			200,
 			200
 		}
-	},
-	[44000] = {
+	}
+	pg.base.world_chapter_random[44000] = {
 		name = "模擬戦：エンフォーサーXIV",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -9749,8 +10149,8 @@ pg.world_chapter_random = {
 			180,
 			180
 		}
-	},
-	[44001] = {
+	}
+	pg.base.world_chapter_random[44001] = {
 		name = "模擬戦：エンフォーサーVII",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -9771,8 +10171,8 @@ pg.world_chapter_random = {
 			180,
 			180
 		}
-	},
-	[44002] = {
+	}
+	pg.base.world_chapter_random[44002] = {
 		name = "模擬戦：エンフォーサーIX",
 		complete_effect = 0,
 		enter_cost = 0,
@@ -9793,393 +10193,5 @@ pg.world_chapter_random = {
 			180,
 			180
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		11,
-		12,
-		13,
-		14,
-		21,
-		22,
-		23,
-		24,
-		25,
-		31,
-		32,
-		33,
-		34,
-		41,
-		42,
-		43,
-		44,
-		51,
-		52,
-		53,
-		54,
-		61,
-		62,
-		63,
-		64,
-		65,
-		66,
-		71,
-		72,
-		73,
-		81,
-		82,
-		83,
-		84,
-		85,
-		91,
-		92,
-		93,
-		94,
-		95,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		111,
-		112,
-		113,
-		114,
-		121,
-		122,
-		123,
-		124,
-		125,
-		131,
-		132,
-		133,
-		134,
-		135,
-		141,
-		142,
-		143,
-		144,
-		151,
-		152,
-		153,
-		154,
-		155,
-		156,
-		157,
-		158,
-		159,
-		200,
-		201,
-		202,
-		203,
-		204,
-		205,
-		206,
-		207,
-		211,
-		212,
-		213,
-		214,
-		215,
-		220,
-		221,
-		222,
-		223,
-		224,
-		225,
-		230,
-		231,
-		232,
-		233,
-		234,
-		235,
-		260,
-		261,
-		262,
-		263,
-		264,
-		265,
-		266,
-		267,
-		301,
-		400,
-		401,
-		410,
-		411,
-		412,
-		413,
-		414,
-		415,
-		416,
-		417,
-		418,
-		419,
-		420,
-		500,
-		510,
-		511,
-		512,
-		513,
-		514,
-		515,
-		516,
-		517,
-		518,
-		519,
-		520,
-		541,
-		544,
-		547,
-		550,
-		553,
-		601,
-		602,
-		610,
-		620,
-		630,
-		631,
-		632,
-		640,
-		650,
-		660,
-		700,
-		701,
-		702,
-		703,
-		710,
-		711,
-		712,
-		713,
-		715,
-		720,
-		721,
-		722,
-		723,
-		730,
-		731,
-		740,
-		741,
-		742,
-		743,
-		750,
-		760,
-		761,
-		762,
-		763,
-		770,
-		800,
-		803,
-		806,
-		809,
-		820,
-		823,
-		826,
-		829,
-		840,
-		841,
-		843,
-		844,
-		846,
-		847,
-		849,
-		850,
-		860,
-		863,
-		866,
-		869,
-		901,
-		902,
-		903,
-		1011,
-		1012,
-		1013,
-		1014,
-		1021,
-		1022,
-		1023,
-		1024,
-		1025,
-		1031,
-		1032,
-		1033,
-		1034,
-		1041,
-		1042,
-		1043,
-		1044,
-		1051,
-		1052,
-		1053,
-		1054,
-		1061,
-		1062,
-		1063,
-		1064,
-		1065,
-		1066,
-		1071,
-		1072,
-		1073,
-		1081,
-		1082,
-		1083,
-		1084,
-		1085,
-		1091,
-		1092,
-		1093,
-		1094,
-		1095,
-		1101,
-		1102,
-		1103,
-		1104,
-		1105,
-		1106,
-		1111,
-		1112,
-		1113,
-		1114,
-		1121,
-		1122,
-		1123,
-		1124,
-		1125,
-		1131,
-		1132,
-		1133,
-		1134,
-		1135,
-		1141,
-		1142,
-		1143,
-		1144,
-		1151,
-		1152,
-		1153,
-		1154,
-		1155,
-		1156,
-		1157,
-		1158,
-		1159,
-		20001,
-		20002,
-		20003,
-		20004,
-		20005,
-		20006,
-		20013,
-		20014,
-		20015,
-		20016,
-		20017,
-		20020,
-		20021,
-		20022,
-		20101,
-		20103,
-		20200,
-		20201,
-		20202,
-		20203,
-		20204,
-		30001,
-		30002,
-		30003,
-		30004,
-		30005,
-		30006,
-		30007,
-		30008,
-		30009,
-		30010,
-		30011,
-		30012,
-		30013,
-		30014,
-		30015,
-		30016,
-		30017,
-		30018,
-		30019,
-		30020,
-		30021,
-		30022,
-		30023,
-		30024,
-		30025,
-		30026,
-		30027,
-		30028,
-		30029,
-		30030,
-		30031,
-		30032,
-		30033,
-		30034,
-		30035,
-		30036,
-		30037,
-		30038,
-		30039,
-		30040,
-		30041,
-		30042,
-		30043,
-		30044,
-		30045,
-		30046,
-		30047,
-		30048,
-		30049,
-		30050,
-		30051,
-		30052,
-		30053,
-		30054,
-		30055,
-		30056,
-		30057,
-		30058,
-		30059,
-		30060,
-		30061,
-		30062,
-		30063,
-		30064,
-		30065,
-		30066,
-		30067,
-		30068,
-		30069,
-		30070,
-		30071,
-		30072,
-		89003,
-		89004,
-		89014,
-		89015,
-		89016,
-		89017,
-		40000,
-		43000,
-		43001,
-		43002,
-		43010,
-		43011,
-		43012,
-		43020,
-		44000,
-		44001,
-		44002
 	}
-}
+end)()

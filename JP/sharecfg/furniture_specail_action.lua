@@ -1,6 +1,12 @@
 pg = pg or {}
-pg.furniture_specail_action = {
-	[60118] = {
+pg.furniture_specail_action = rawget(pg, "furniture_specail_action") or setmetatable({
+	__name = "furniture_specail_action"
+}, confNEO)
+pg.base = pg.base or {}
+pg.base.furniture_specail_action = {}
+
+(function ()
+	pg.base.furniture_specail_action[60118] = {
 		id = 60118,
 		actions = {
 			{
@@ -12,8 +18,8 @@ pg.furniture_specail_action = {
 				5.17
 			}
 		}
-	},
-	[61125] = {
+	}
+	pg.base.furniture_specail_action[61125] = {
 		id = 61125,
 		actions = {
 			{
@@ -29,8 +35,8 @@ pg.furniture_specail_action = {
 				3
 			}
 		}
-	},
-	[100013] = {
+	}
+	pg.base.furniture_specail_action[100013] = {
 		id = 100013,
 		actions = {
 			{
@@ -42,8 +48,8 @@ pg.furniture_specail_action = {
 				9.33
 			}
 		}
-	},
-	[100009] = {
+	}
+	pg.base.furniture_specail_action[100009] = {
 		id = 100009,
 		actions = {
 			{
@@ -51,8 +57,8 @@ pg.furniture_specail_action = {
 				2
 			}
 		}
-	},
-	[50124] = {
+	}
+	pg.base.furniture_specail_action[50124] = {
 		id = 50124,
 		actions = {
 			{
@@ -60,8 +66,8 @@ pg.furniture_specail_action = {
 				4.333
 			}
 		}
-	},
-	[46129] = {
+	}
+	pg.base.furniture_specail_action[46129] = {
 		id = 46129,
 		actions = {
 			{
@@ -69,8 +75,8 @@ pg.furniture_specail_action = {
 				1.33
 			}
 		}
-	},
-	[100006] = {
+	}
+	pg.base.furniture_specail_action[100006] = {
 		id = 100006,
 		actions = {
 			{
@@ -86,8 +92,8 @@ pg.furniture_specail_action = {
 				2
 			}
 		}
-	},
-	[100005] = {
+	}
+	pg.base.furniture_specail_action[100005] = {
 		id = 100005,
 		actions = {
 			{
@@ -99,8 +105,8 @@ pg.furniture_specail_action = {
 				10
 			}
 		}
-	},
-	[39126] = {
+	}
+	pg.base.furniture_specail_action[39126] = {
 		id = 39126,
 		actions = {
 			{
@@ -108,8 +114,8 @@ pg.furniture_specail_action = {
 				1.4
 			}
 		}
-	},
-	[176] = {
+	}
+	pg.base.furniture_specail_action[176] = {
 		id = 176,
 		actions = {
 			{
@@ -117,8 +123,8 @@ pg.furniture_specail_action = {
 				10
 			}
 		}
-	},
-	[100018] = {
+	}
+	pg.base.furniture_specail_action[100018] = {
 		id = 100018,
 		actions = {
 			{
@@ -126,8 +132,8 @@ pg.furniture_specail_action = {
 				7
 			}
 		}
-	},
-	[72125] = {
+	}
+	pg.base.furniture_specail_action[72125] = {
 		id = 72125,
 		actions = {
 			{
@@ -139,8 +145,8 @@ pg.furniture_specail_action = {
 				0.83
 			}
 		}
-	},
-	[77117] = {
+	}
+	pg.base.furniture_specail_action[77117] = {
 		id = 77117,
 		actions = {
 			{
@@ -152,8 +158,8 @@ pg.furniture_specail_action = {
 				1.5
 			}
 		}
-	},
-	[100025] = {
+	}
+	pg.base.furniture_specail_action[100025] = {
 		id = 100025,
 		actions = {
 			{
@@ -169,8 +175,8 @@ pg.furniture_specail_action = {
 				3.6
 			}
 		}
-	},
-	[100027] = {
+	}
+	pg.base.furniture_specail_action[100027] = {
 		id = 100027,
 		actions = {
 			{
@@ -178,8 +184,8 @@ pg.furniture_specail_action = {
 				0.9
 			}
 		}
-	},
-	[195] = {
+	}
+	pg.base.furniture_specail_action[195] = {
 		id = 195,
 		actions = {
 			{
@@ -192,4 +198,4 @@ pg.furniture_specail_action = {
 			}
 		}
 	}
-}
+end)()

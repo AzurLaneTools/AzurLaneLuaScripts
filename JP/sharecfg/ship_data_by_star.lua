@@ -1,30 +1,45 @@
 pg = pg or {}
-pg.ship_data_by_star = {
-	[0] = {
+pg.ship_data_by_star = rawget(pg, "ship_data_by_star") or setmetatable({
+	__name = "ship_data_by_star"
+}, confNEO)
+pg.ship_data_by_star.all = {
+	0,
+	1,
+	2,
+	3,
+	4,
+	5,
+	6
+}
+pg.base = pg.base or {}
+pg.base.ship_data_by_star = {}
+
+(function ()
+	pg.base.ship_data_by_star[0] = {
 		energy_recover_time_ratio = 0,
 		energy_recover_food_ratio = 0,
 		exchange_price = 1,
 		level_restrictions = 0,
 		ship_star = 0,
 		destory_item = {}
-	},
-	{
+	}
+	pg.base.ship_data_by_star[1] = {
 		energy_recover_time_ratio = 1,
 		energy_recover_food_ratio = 0.1,
 		exchange_price = 1,
 		level_restrictions = 1,
 		ship_star = 1,
 		destory_item = {}
-	},
-	{
+	}
+	pg.base.ship_data_by_star[2] = {
 		energy_recover_time_ratio = 1.1,
 		energy_recover_food_ratio = 0.11,
 		exchange_price = 1,
 		level_restrictions = 10,
 		ship_star = 2,
 		destory_item = {}
-	},
-	{
+	}
+	pg.base.ship_data_by_star[3] = {
 		energy_recover_time_ratio = 1.3,
 		energy_recover_food_ratio = 0.12,
 		exchange_price = 5,
@@ -37,8 +52,8 @@ pg.ship_data_by_star = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.ship_data_by_star[4] = {
 		energy_recover_time_ratio = 1.6,
 		energy_recover_food_ratio = 0.13,
 		exchange_price = 30,
@@ -51,8 +66,8 @@ pg.ship_data_by_star = {
 				4
 			}
 		}
-	},
-	{
+	}
+	pg.base.ship_data_by_star[5] = {
 		energy_recover_time_ratio = 2,
 		energy_recover_food_ratio = 0.14,
 		exchange_price = 80,
@@ -65,8 +80,8 @@ pg.ship_data_by_star = {
 				10
 			}
 		}
-	},
-	{
+	}
+	pg.base.ship_data_by_star[6] = {
 		energy_recover_time_ratio = 2.5,
 		energy_recover_food_ratio = 0.15,
 		exchange_price = 200,
@@ -84,14 +99,5 @@ pg.ship_data_by_star = {
 				500
 			}
 		}
-	},
-	all = {
-		0,
-		1,
-		2,
-		3,
-		4,
-		5,
-		6
 	}
-}
+end)()

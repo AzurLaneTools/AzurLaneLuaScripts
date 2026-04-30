@@ -1,6 +1,56 @@
 pg = pg or {}
-pg.ship_data_blueprint = {
-	[29901] = {
+pg.ship_data_blueprint = rawget(pg, "ship_data_blueprint") or setmetatable({
+	__name = "ship_data_blueprint"
+}, confNEO)
+pg.ship_data_blueprint.all = {
+	29901,
+	29902,
+	39901,
+	39902,
+	49901,
+	89901,
+	19901,
+	19902,
+	39903,
+	39904,
+	49902,
+	99901,
+	29903,
+	29904,
+	49903,
+	49904,
+	89902,
+	19903,
+	39905,
+	49905,
+	49906,
+	69901,
+	29905,
+	49907,
+	59901,
+	79901,
+	89903,
+	19904,
+	39906,
+	49908,
+	49909,
+	99902,
+	19905,
+	39907,
+	69902,
+	79902,
+	89904,
+	19906,
+	49910,
+	69903,
+	79903,
+	119901
+}
+pg.base = pg.base or {}
+pg.base.ship_data_blueprint = {}
+
+(function ()
+	pg.base.ship_data_blueprint[29901] = {
 		unlock_word = "図鑑のロイヤル前衛艦登録数が<color=#92fc63>20</color>以上",
 		name = "ネプチューン ",
 		normal_display = "",
@@ -103,8 +153,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40124
 		}
-	},
-	[29902] = {
+	}
+	pg.base.ship_data_blueprint[29902] = {
 		unlock_word = "図鑑のロイヤル主力艦登録数が<color=#92fc63>10</color>以上",
 		name = "モナーク ",
 		normal_display = "",
@@ -207,8 +257,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40124
 		}
-	},
-	[39901] = {
+	}
+	pg.base.ship_data_blueprint[39901] = {
 		unlock_word = "図鑑の重桜前衛艦登録数が<color=#92fc63>20</color>以上 ",
 		name = "伊吹 ",
 		normal_display = "",
@@ -311,8 +361,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40124
 		}
-	},
-	[39902] = {
+	}
+	pg.base.ship_data_blueprint[39902] = {
 		unlock_word = "図鑑の重桜主力艦登録数が<color=#92fc63>10</color>以上 ",
 		name = "出雲 ",
 		normal_display = "",
@@ -415,8 +465,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40124
 		}
-	},
-	[49901] = {
+	}
+	pg.base.ship_data_blueprint[49901] = {
 		unlock_word = "図鑑の鉄血前衛艦登録数が<color=#92fc63>7</color>以上 ",
 		name = "ローン ",
 		normal_display = "",
@@ -519,8 +569,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40124
 		}
-	},
-	[89901] = {
+	}
+	pg.base.ship_data_blueprint[89901] = {
 		unlock_word = "図鑑のユニオン前衛艦登録数が<color=#92fc63>20</color>以上 ",
 		name = "サン・ルイ ",
 		normal_display = "",
@@ -623,8 +673,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40124
 		}
-	},
-	[19901] = {
+	}
+	pg.base.ship_data_blueprint[19901] = {
 		unlock_word = "ユニオン陣営技術Pt<color=#92fc63>760</color>以上",
 		name = "シアトル ",
 		normal_display = "",
@@ -727,8 +777,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40125
 		}
-	},
-	[19902] = {
+	}
+	pg.base.ship_data_blueprint[19902] = {
 		unlock_word = "ユニオン陣営技術Pt<color=#92fc63>810</color>以上",
 		name = "ジョージア ",
 		normal_display = "",
@@ -831,8 +881,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40125
 		}
-	},
-	[39903] = {
+	}
+	pg.base.ship_data_blueprint[39903] = {
 		unlock_word = "重桜陣営技術Pt<color=#92fc63>780</color>以上",
 		name = "北風 ",
 		normal_display = "",
@@ -935,8 +985,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40125
 		}
-	},
-	[39904] = {
+	}
+	pg.base.ship_data_blueprint[39904] = {
 		unlock_word = "重桜陣営技術Pt<color=#92fc63>900</color>以上",
 		name = "吾妻 ",
 		normal_display = "",
@@ -1041,8 +1091,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[49902] = {
+	}
+	pg.base.ship_data_blueprint[49902] = {
 		unlock_word = "鉄血陣営技術Pt<color=#92fc63>630</color>以上",
 		name = "フリードリヒ・デア・グローセ ",
 		normal_display = "",
@@ -1147,8 +1197,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[99901] = {
+	}
+	pg.base.ship_data_blueprint[99901] = {
 		unlock_word = "ユニオン陣営技術Pt<color=#92fc63>760</color>・鉄血陣営技術Pt<color=#92fc63>420</color>以上",
 		name = "ガスコーニュ ",
 		normal_display = "",
@@ -1252,8 +1302,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40125
 		}
-	},
-	[29903] = {
+	}
+	pg.base.ship_data_blueprint[29903] = {
 		unlock_word = "ロイヤル陣営技術Pt<color=#92fc63>700</color>以上",
 		name = "チェシャー",
 		normal_display = "",
@@ -1356,8 +1406,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40130
 		}
-	},
-	[29904] = {
+	}
+	pg.base.ship_data_blueprint[29904] = {
 		unlock_word = "ロイヤル陣営技術Pt<color=#92fc63>820</color>以上",
 		name = "ドレイク",
 		normal_display = "",
@@ -1462,8 +1512,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[49903] = {
+	}
+	pg.base.ship_data_blueprint[49903] = {
 		unlock_word = "鉄血陣営技術Pt<color=#92fc63>550</color>以上",
 		name = "マインツ",
 		normal_display = "",
@@ -1566,8 +1616,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40130
 		}
-	},
-	[49904] = {
+	}
+	pg.base.ship_data_blueprint[49904] = {
 		unlock_word = "鉄血陣営技術Pt<color=#92fc63>600</color>以上",
 		name = "オーディン",
 		normal_display = "",
@@ -1670,8 +1720,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40130
 		}
-	},
-	[89902] = {
+	}
+	pg.base.ship_data_blueprint[89902] = {
 		unlock_word = "ユニオン陣営技術Pt<color=#92fc63>760</color>・ロイヤル陣営技術Pt<color=#92fc63>700</color>以上",
 		name = "シャンパーニュ",
 		normal_display = "",
@@ -1775,8 +1825,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40130
 		}
-	},
-	[19903] = {
+	}
+	pg.base.ship_data_blueprint[19903] = {
 		unlock_word = "ユニオン陣営技術Pt<color=#92fc63>850</color>以上",
 		name = "アンカレッジ",
 		normal_display = "",
@@ -1879,8 +1929,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40139
 		}
-	},
-	[39905] = {
+	}
+	pg.base.ship_data_blueprint[39905] = {
 		unlock_word = "重桜陣営技術Pt<color=#92fc63>950</color>以上",
 		name = "白龍",
 		normal_display = "",
@@ -1985,8 +2035,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[49905] = {
+	}
+	pg.base.ship_data_blueprint[49905] = {
 		unlock_word = "鉄血陣営技術Pt<color=#92fc63>700</color>以上",
 		name = "エーギル",
 		normal_display = "",
@@ -2076,8 +2126,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[49906] = {
+	}
+	pg.base.ship_data_blueprint[49906] = {
 		unlock_word = "鉄血陣営技術Pt<color=#92fc63>600</color>以上",
 		name = "アウグスト・フォン・パーセヴァル",
 		normal_display = "",
@@ -2180,8 +2230,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40139
 		}
-	},
-	[69901] = {
+	}
+	pg.base.ship_data_blueprint[69901] = {
 		unlock_word = "鉄血陣営技術Pt<color=#92fc63>600</color>・ロイヤル陣営技術Pt<color=#92fc63>700</color>以上",
 		name = "マルコ・ポーロ",
 		normal_display = "",
@@ -2285,8 +2335,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40139
 		}
-	},
-	[29905] = {
+	}
+	pg.base.ship_data_blueprint[29905] = {
 		unlock_word = "ロイヤル陣営技術Pt<color=#92fc63>900</color>以上",
 		name = "プリマス",
 		normal_display = "",
@@ -2376,8 +2426,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[49907] = {
+	}
+	pg.base.ship_data_blueprint[49907] = {
 		unlock_word = "鉄血陣営技術Pt<color=#92fc63>700</color>以上",
 		name = "プリンツ・ループレヒト",
 		normal_display = "",
@@ -2480,8 +2530,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40140
 		}
-	},
-	[59901] = {
+	}
+	pg.base.ship_data_blueprint[59901] = {
 		unlock_word = "東煌陣営技術Pt<color=#92fc63>160</color>以上",
 		name = "ハルビン",
 		normal_display = "",
@@ -2584,8 +2634,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40140
 		}
-	},
-	[79901] = {
+	}
+	pg.base.ship_data_blueprint[79901] = {
 		unlock_word = "ユニオン陣営技術Pt<color=#92fc63>760</color>以上、サディア陣営技術Pt<color=#92fc63>300</color>以上",
 		name = "チカロフ",
 		normal_display = "",
@@ -2689,8 +2739,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40140
 		}
-	},
-	[89903] = {
+	}
+	pg.base.ship_data_blueprint[89903] = {
 		unlock_word = "アイリス陣営技術Pt<color=#92fc63>250</color>以上",
 		name = "ブレスト",
 		normal_display = "",
@@ -2780,8 +2830,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[19904] = {
+	}
+	pg.base.ship_data_blueprint[19904] = {
 		unlock_word = "ユニオン陣営技術Pt<color=#92fc63>1000</color>以上",
 		name = "キアサージ",
 		normal_display = "",
@@ -2871,8 +2921,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[39906] = {
+	}
+	pg.base.ship_data_blueprint[39906] = {
 		unlock_word = "重桜陣営技術Pt<color=#92fc63>900</color>以上",
 		name = "四万十",
 		normal_display = "",
@@ -2973,8 +3023,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[49908] = {
+	}
+	pg.base.ship_data_blueprint[49908] = {
 		unlock_word = "鉄血陣営技術Pt<color=#92fc63>850</color>以上",
 		name = "フィリックス・シュルツ",
 		normal_display = "",
@@ -3075,8 +3125,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[49909] = {
+	}
+	pg.base.ship_data_blueprint[49909] = {
 		unlock_word = "鉄血陣営技術Pt<color=#92fc63>950</color>以上",
 		name = "ヒンデンブルク",
 		normal_display = "",
@@ -3166,8 +3216,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[99902] = {
+	}
+	pg.base.ship_data_blueprint[99902] = {
 		unlock_word = "ヴィシア陣営技術Pt<color=#92fc63>180</color>以上、鉄血陣営技術Pt<color=#92fc63>800</color>以上",
 		name = "フランドル",
 		normal_display = "",
@@ -3269,8 +3319,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[19905] = {
+	}
+	pg.base.ship_data_blueprint[19905] = {
 		unlock_word = "ユニオン技術Pt<color=#92fc63>950</color>以上",
 		name = "ハルフォード",
 		normal_display = "",
@@ -3371,8 +3421,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[39907] = {
+	}
+	pg.base.ship_data_blueprint[39907] = {
 		unlock_word = "重桜技術Pt<color=#92fc63>950</color>以上",
 		name = "大山",
 		normal_display = "",
@@ -3473,8 +3523,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[69902] = {
+	}
+	pg.base.ship_data_blueprint[69902] = {
 		unlock_word = "サディア技術Pt<color=#92fc63>300</color>以上、北方連合技術Pt<color=#92fc63>200</color>以上",
 		name = "ナポリ",
 		normal_display = "",
@@ -3565,8 +3615,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[79902] = {
+	}
+	pg.base.ship_data_blueprint[79902] = {
 		unlock_word = "北方連合技術Pt<color=#92fc63>300</color>以上、サディア技術Pt<color=#92fc63>200</color>以上",
 		name = "アドミラル・ナヒーモフ",
 		normal_display = "",
@@ -3657,8 +3707,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[89904] = {
+	}
+	pg.base.ship_data_blueprint[89904] = {
 		unlock_word = "アイリス技術Pt<color=#92fc63>230</color>以上",
 		name = "バヤール",
 		normal_display = "",
@@ -3759,8 +3809,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[19906] = {
+	}
+	pg.base.ship_data_blueprint[19906] = {
 		unlock_word = "ユニオン技術Pt<color=#92fc63>950</color>以上",
 		name = "カンザス",
 		price = 1500,
@@ -3852,8 +3902,8 @@ pg.ship_data_blueprint = {
 		normal_display = {
 			"主砲砲座+1"
 		}
-	},
-	[49910] = {
+	}
+	pg.base.ship_data_blueprint[49910] = {
 		unlock_word = "鉄血技術Pt<color=#92fc63>950</color>以上",
 		name = "メークレンブルク",
 		normal_display = "",
@@ -3943,8 +3993,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[69903] = {
+	}
+	pg.base.ship_data_blueprint[69903] = {
 		unlock_word = "サディア技術Pt<color=#92fc63>300</color>以上",
 		name = "ヴィットリオ・クニベルティ",
 		normal_display = "",
@@ -4034,8 +4084,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[79903] = {
+	}
+	pg.base.ship_data_blueprint[79903] = {
 		unlock_word = "北方連合技術Pt<color=#92fc63>300</color>以上",
 		name = "ドミートリィ・ドンスコイ",
 		normal_display = "",
@@ -4125,8 +4175,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[119901] = {
+	}
+	pg.base.ship_data_blueprint[119901] = {
 		unlock_word = "鉄血技術Pt<color=#92fc63>800</color>以上、サディア技術Pt<color=#92fc63>200</color>以上",
 		name = "ハウデン・リーウ",
 		price = 6000,
@@ -4219,49 +4269,5 @@ pg.ship_data_blueprint = {
 		normal_display = {
 			"爆弾空襲Lv.1"
 		}
-	},
-	all = {
-		29901,
-		29902,
-		39901,
-		39902,
-		49901,
-		89901,
-		19901,
-		19902,
-		39903,
-		39904,
-		49902,
-		99901,
-		29903,
-		29904,
-		49903,
-		49904,
-		89902,
-		19903,
-		39905,
-		49905,
-		49906,
-		69901,
-		29905,
-		49907,
-		59901,
-		79901,
-		89903,
-		19904,
-		39906,
-		49908,
-		49909,
-		99902,
-		19905,
-		39907,
-		69902,
-		79902,
-		89904,
-		19906,
-		49910,
-		69903,
-		79903,
-		119901
 	}
-}
+end)()

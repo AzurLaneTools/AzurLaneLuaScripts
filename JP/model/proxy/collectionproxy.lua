@@ -245,6 +245,10 @@ slot0.getTrophys = function(slot0)
 	return slot1
 end
 
+slot0.GetTrophyById = function(slot0, slot1)
+	return slot0.trophy[slot1]
+end
+
 slot0.hiddenTrophyAutoClaim = function(slot0)
 	for slot4, slot5 in pairs(slot0.trophy) do
 		if slot5:getHideType() ~= Trophy.ALWAYS_SHOW and slot5:getHideType() ~= Trophy.COMING_SOON and slot5:canClaimed() and not slot5:isClaimed() then

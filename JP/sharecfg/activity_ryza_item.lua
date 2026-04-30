@@ -1,6 +1,107 @@
 pg = pg or {}
-pg.activity_ryza_item = {
-	{
+pg.activity_ryza_item = rawget(pg, "activity_ryza_item") or setmetatable({
+	__name = "activity_ryza_item"
+}, confNEO)
+pg.activity_ryza_item.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	39,
+	40,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	47,
+	48,
+	49,
+	50,
+	51,
+	52,
+	53,
+	54,
+	55,
+	56,
+	57,
+	58,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	110,
+	111,
+	112,
+	116,
+	117,
+	118,
+	119,
+	120,
+	121,
+	122,
+	126,
+	127,
+	128,
+	129,
+	130,
+	131,
+	132,
+	133,
+	134,
+	135,
+	136,
+	137,
+	138,
+	139,
+	140,
+	141
+}
+pg.base = pg.base or {}
+pg.base.activity_ryza_item = {}
+
+(function ()
+	pg.base.activity_ryza_item[1] = {
 		icon = "ryza_item_1",
 		display = "釣り竿の強化版。強化したことにより、魚が警戒せずに寄ってくるように改良されている",
 		prop_type = 0,
@@ -23,8 +124,8 @@ pg.activity_ryza_item = {
 			"入手方法 調合システムで獲得",
 			recipeid = 4
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[2] = {
 		icon = "ryza_item_2",
 		display = "フラムロッドの強化版。先端の宝玉を青い物に変えたため、以前よりも効率的に岩や水晶を破壊することが可能となった",
 		prop_type = 0,
@@ -46,8 +147,8 @@ pg.activity_ryza_item = {
 			"入手方法 調合システムで獲得",
 			recipeid = 3
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[3] = {
 		icon = "ryza_item_3",
 		display = "切れ味や重さを細かく調整し改良を施されたため、普通の斧よりもラクに木材も薪も作れる",
 		prop_type = 0,
@@ -70,8 +171,8 @@ pg.activity_ryza_item = {
 			"入手方法 調合システムで獲得",
 			recipeid = 2
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[4] = {
 		icon = "ryza_item_4",
 		display = "採取しやすいように改良されたこの鎌は、まるで風のように静かに軽やかに草や花を刈り取る",
 		prop_type = 0,
@@ -94,8 +195,8 @@ pg.activity_ryza_item = {
 			"入手方法 調合システムで獲得",
 			recipeid = 1
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[5] = {
 		icon = "ryza_item_5",
 		display = "強大な握力と推力、そして灼熱の採掘レーザーを発射できるセイレーンのメカニカルアーム――錬金術の素材を採取するのに使えるかも？",
 		prop_type = 0,
@@ -120,8 +221,8 @@ pg.activity_ryza_item = {
 			"入手方法 調合システムで獲得",
 			recipeid = 5
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[6] = {
 		icon = "ryza_item_6",
 		display = "砂浜に行けば比較的簡単に発見できる貝。程よい塩分があるため、そのまま火にかけるだけでも美味しく食べられる",
 		prop_type = 0,
@@ -166,8 +267,8 @@ pg.activity_ryza_item = {
 			0.85,
 			0.85
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[7] = {
 		icon = "ryza_item_7",
 		display = "川や湖に囲まれた場所に生息している淡水魚。一般的な魚の一種",
 		prop_type = 0,
@@ -212,8 +313,8 @@ pg.activity_ryza_item = {
 			2.3,
 			-1
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[8] = {
 		icon = "ryza_item_8",
 		display = "湖の最も深い場所に住むとされている、湖に住む魚たちのぬし",
 		prop_type = 0,
@@ -263,8 +364,8 @@ pg.activity_ryza_item = {
 			0,
 			-1.5
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[9] = {
 		icon = "ryza_item_9",
 		display = "結晶のような、透明な石のかけら。様々な種類があり、ただの石から鉱石、中には高級な宝石が混ざっていることもある",
 		prop_type = 0,
@@ -308,8 +409,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[10] = {
 		icon = "ryza_item_10",
 		display = "岩などを壊した際に採取できる砂。揮発性のガスの匂いを漂わせ、火をつけると燃え上がる",
 		prop_type = 0,
@@ -354,8 +455,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[11] = {
 		icon = "ryza_item_11",
 		display = "溶岩鉱を砕き、粉末状にしたもの。粉末とはいえ溶岩であることに変わりないため、放置しているだけで発熱や発火の危険性がある。風に飛ばされたりすれば大惨事になるだろう",
 		prop_type = 0,
@@ -400,8 +501,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[12] = {
 		icon = "ryza_item_12",
 		display = "ただの雑草。どこにでも生息しているということ以外に何の特徴もないため、雑草としか呼ばれていない。あまりに一般的なため、錬金術のレシピにもたびたび顔を見せる",
 		prop_type = 0,
@@ -440,8 +541,8 @@ pg.activity_ryza_item = {
 			2,
 			-1.5
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[13] = {
 		icon = "ryza_item_13",
 		display = "鳥の翼のような形の葉っぱ。とても軽いため、風が吹くと簡単にくるくると飛んでしまう",
 		prop_type = 0,
@@ -486,8 +587,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[14] = {
 		icon = "ryza_item_14",
 		display = "普通のものと違い、赤黒い色をしているトーン。鉄分を含む土壌で生育していたためこの色になったと考えられている。生木であっても火に近づけるとよく燃えるという特徴がある",
 		prop_type = 0,
@@ -537,8 +638,8 @@ pg.activity_ryza_item = {
 			0,
 			0.46
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[15] = {
 		icon = "ryza_item_15",
 		display = "雷の力を有している鉱石。雷雨の多い場所や、山などの高所で採掘されることが多い。落雷によって岩が変質し生まれた鉱石だと言われている",
 		prop_type = 0,
@@ -577,8 +678,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[16] = {
 		icon = "ryza_item_16",
 		display = "巨大隕石の欠片。この欠片には必ずつがいとなる欠片が存在し、どれだけ離れていようと空間を超えた結びつきを持っている。これを利用すれば、空間転移も可能……かもしれない",
 		prop_type = 0,
@@ -628,8 +729,8 @@ pg.activity_ryza_item = {
 			-1.15,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[17] = {
 		icon = "ryza_item_17",
 		display = "七色の光を内部に持つ、透明感のある鉱石。その強度は他の鉱石とは一線を画し、正攻法では加工そのものが不可能と言われている",
 		prop_type = 0,
@@ -674,8 +775,8 @@ pg.activity_ryza_item = {
 			-0.5,
 			3
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[18] = {
 		icon = "ryza_item_18",
 		display = "中枢エリアで採取した謎の結晶体。硬質であらゆるエレメントのエネルギーがその中に含まれている。いい調合素材になるかも？",
 		prop_type = 0,
@@ -738,8 +839,8 @@ pg.activity_ryza_item = {
 			3.97,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[19] = {
 		icon = "ryza_item_19",
 		display = "中枢エリアにある残骸を分解して手に入れた装甲材。固くてきらびやかな表面を持つ白色の外殻はあらゆるエレメントから精錬されたと見られ、上級の調合素材として使用できるかもしれない",
 		prop_type = 0,
@@ -802,8 +903,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[20] = {
 		icon = "ryza_item_20",
 		display = "古代遺跡の守護者の動力源。守護者の本体から離れても、無尽蔵にエネルギーを放ち続けている",
 		prop_type = 0,
@@ -866,8 +967,8 @@ pg.activity_ryza_item = {
 			-0.74,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[21] = {
 		icon = "ryza_item_21",
 		display = "錬金術により人工的に造りだされた精霊の力を、封じ込めた小瓶。あらゆる属性に対して適性を持つ反面、扱うには高い技術が必要とされる",
 		prop_type = 0,
@@ -898,8 +999,8 @@ pg.activity_ryza_item = {
 			-1.5,
 			1
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[22] = {
 		icon = "ryza_item_22",
 		display = "錬金術の調合に頻繁に出てくる基本薬。赤い液体で、火属性の素材と相性がよい",
 		prop_type = 0,
@@ -927,8 +1028,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[23] = {
 		icon = "ryza_item_23",
 		display = "錬金術の調合に頻繁に出てくる基本薬。青い液体で、氷属性の素材と相性がよい",
 		prop_type = 0,
@@ -956,8 +1057,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[24] = {
 		icon = "ryza_item_25",
 		display = "錬金術の調合に頻繁に出てくる基本薬。黄色い液体で、雷属性の素材と相性がよい",
 		prop_type = 0,
@@ -985,8 +1086,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[25] = {
 		icon = "ryza_item_24",
 		display = "錬金術の調合に頻繁に出てくる基本薬。緑の液体で、風属性の素材と相性がよい",
 		prop_type = 0,
@@ -1014,8 +1115,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[26] = {
 		icon = "ryza_item_26",
 		display = "４種のエレメントコアから作られる最上位素材の一つ。全属性と高い属性値を持ち、高度な調合をする際に役に立つ",
 		prop_type = 0,
@@ -1046,8 +1147,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[27] = {
 		icon = "ryza_item_27",
 		display = "異界の森を表す遺跡の鍵。柄には薄紅のトパーズが装飾されており、かつての鬱蒼たる森の姿を思い出させてくれる",
 		prop_type = 0,
@@ -1069,8 +1170,8 @@ pg.activity_ryza_item = {
 			"入手方法 母港依頼任務の報酬で獲得",
 			taskid = 56202
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[28] = {
 		icon = "ryza_item_28",
 		display = "始まりの地を表す遺跡の鍵。柄には無瑕なダイヤモンドが装飾されている。冒険に踏み出す人々の心が、いつまでもダイヤモンドのように高潔であるように",
 		prop_type = 0,
@@ -1092,8 +1193,8 @@ pg.activity_ryza_item = {
 			"入手方法 母港依頼任務の報酬で獲得",
 			taskid = 56201
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[29] = {
 		icon = "ryza_item_29",
 		display = "滅失の都を表す遺跡の鍵。柄には青緑のエメラルドが装飾されている。お宝そのものより、探し求める旅こそ冒険者の宝なり",
 		prop_type = 0,
@@ -1115,8 +1216,8 @@ pg.activity_ryza_item = {
 			"入手方法 母港依頼任務の報酬で獲得",
 			taskid = 56204
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[30] = {
 		icon = "ryza_item_30",
 		display = "紛争の城を表す遺跡の鍵。柄には絢爛なルビーが装飾されている。古の残酷な真実はすでに、時間の大河に溶けてなくなっていたのかもしれない",
 		prop_type = 0,
@@ -1138,8 +1239,8 @@ pg.activity_ryza_item = {
 			"入手方法 母港依頼任務の報酬で獲得",
 			taskid = 56203
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[31] = {
 		icon = "ryza_item_31",
 		display = "錬金術で4本の鍵を融合させて作り出した、カードキーのような装置。中枢エリアの「扉」にある挿入口に差し込められそうだ",
 		prop_type = 0,
@@ -1164,8 +1265,8 @@ pg.activity_ryza_item = {
 			"入手方法 調合システムで獲得",
 			recipeid = 190
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[32] = {
 		icon = "ryza_item_32",
 		display = "遺跡水晶クラスターを10000集めると入手できる記念バッジ。イベント記念アイテムの調合素材",
 		prop_type = 0,
@@ -1188,8 +1289,8 @@ pg.activity_ryza_item = {
 			"入手方法 母港依頼任務の報酬で獲得",
 			taskid = 56217
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[33] = {
 		icon = "ryza_item_33",
 		display = "温泉開発戦を7日間プレイすると入手できる記念バッジ。イベント記念アイテムの調合素材",
 		prop_type = 0,
@@ -1212,8 +1313,8 @@ pg.activity_ryza_item = {
 			"入手方法 母港依頼任務の報酬で獲得",
 			taskid = 56228
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[34] = {
 		icon = "300001",
 		display = "「錬金術士と謎の遺跡群島」コラボイベント海域で使用可能。使用すると、当該ステージでは味方に「火力・航空・雷装ステータスUP」効果が付与される",
 		prop_type = 0,
@@ -1242,8 +1343,8 @@ pg.activity_ryza_item = {
 			300002,
 			300003
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[35] = {
 		icon = "300011",
 		display = "「錬金術士と謎の遺跡群島」コラボイベント海域で使用可能。使用すると、当該ステージでは味方に「受けるダメージを軽減する」効果が付与される",
 		prop_type = 0,
@@ -1272,8 +1373,8 @@ pg.activity_ryza_item = {
 			300012,
 			300013
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[36] = {
 		icon = "300021",
 		display = "「錬金術士と謎の遺跡群島」コラボイベント海域で使用可能。使用すると、当該ステージでは味方に「戦闘中、耐久がゆっくり回復する」効果が付与される",
 		prop_type = 0,
@@ -1302,8 +1403,8 @@ pg.activity_ryza_item = {
 			300022,
 			300023
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[37] = {
 		icon = "300031",
 		display = "「錬金術士と謎の遺跡群島」コラボイベント海域で使用可能。使用すると、当該ステージでは味方に「味方艦船の耐久が20％を下回った場合一度だけ回復する」効果が付与される",
 		prop_type = 0,
@@ -1332,8 +1433,8 @@ pg.activity_ryza_item = {
 			300032,
 			300033
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[38] = {
 		icon = "300041",
 		display = "「錬金術士と謎の遺跡群島」コラボイベント海域で使用可能。使用すると、当該ステージでは味方に「戦闘中、敵を炎上させる支援弾幕が出現する」効果が付与される",
 		prop_type = 0,
@@ -1362,8 +1463,8 @@ pg.activity_ryza_item = {
 			300042,
 			300043
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[39] = {
 		icon = "300051",
 		display = "「錬金術士と謎の遺跡群島」コラボイベント海域で使用可能。使用すると、当該ステージでは味方に「戦闘中、命中した敵の被ダメージを一定時間UPさせる支援弾幕が出現する」効果が付与される",
 		prop_type = 0,
@@ -1392,8 +1493,8 @@ pg.activity_ryza_item = {
 			300052,
 			300053
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[40] = {
 		icon = "300061",
 		display = "「錬金術士と謎の遺跡群島」コラボイベント海域で使用可能。使用すると、当該ステージでは味方に「戦闘で獲得する経験値がUP」効果が付与される",
 		prop_type = 0,
@@ -1422,8 +1523,8 @@ pg.activity_ryza_item = {
 			300062,
 			300063
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[41] = {
 		icon = "300071",
 		display = "「錬金術士と謎の遺跡群島」コラボイベント海域で使用可能。使用すると、当該ステージでは味方に「戦闘での好感度上昇値がUP」効果が付与される",
 		prop_type = 0,
@@ -1450,8 +1551,8 @@ pg.activity_ryza_item = {
 		benefit_buff = {
 			300071
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[42] = {
 		icon = "ryza_item_42",
 		display = "特殊装備「スパークルレヴァリエ」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
 		prop_type = 0,
@@ -1480,8 +1581,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[43] = {
 		icon = "ryza_item_43",
 		display = "特殊装備「アストルムノクス」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
 		prop_type = 0,
@@ -1510,8 +1611,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[44] = {
 		icon = "ryza_item_44",
 		display = "特殊装備「グランデフロラシオン」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
 		prop_type = 0,
@@ -1540,8 +1641,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[45] = {
 		icon = "ryza_item_45",
 		display = "特殊装備「エーデルシュヴァルト」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
 		prop_type = 0,
@@ -1570,8 +1671,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[46] = {
 		icon = "ryza_item_46",
 		display = "特殊装備「エルダーリリー」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
 		prop_type = 0,
@@ -1600,8 +1701,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[47] = {
 		icon = "ryza_item_47",
 		display = "特殊装備「オーレンへルディン」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
 		prop_type = 0,
@@ -1630,8 +1731,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[48] = {
 		icon = "ryza_item_48",
 		display = "特殊装備「グランフラム」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
 		prop_type = 0,
@@ -1659,8 +1760,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[49] = {
 		icon = "ryza_item_49",
 		display = "特殊装備「クライスタルレヘルン」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
 		prop_type = 0,
@@ -1688,8 +1789,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[50] = {
 		icon = "ryza_item_50",
 		display = "特殊装備「ラウトプラジグ」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
 		prop_type = 0,
@@ -1717,8 +1818,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[51] = {
 		icon = "ryza_item_51",
 		display = "特殊装備「ヴィアベールルフト」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
 		prop_type = 0,
@@ -1746,8 +1847,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[52] = {
 		icon = "ryza_item_52",
 		display = "特殊装備「創世の槌」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
 		prop_type = 0,
@@ -1776,8 +1877,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[53] = {
 		icon = "ryza_item_53",
 		display = "特殊装備「泡雲の弾丸」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
 		prop_type = 0,
@@ -1806,8 +1907,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[54] = {
 		icon = "ryza_item_54",
 		display = "特殊装備「Ｎ／Ａ」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
 		prop_type = 0,
@@ -1836,8 +1937,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[55] = {
 		icon = "ryza_item_55",
 		display = "特殊装備「アポカリプス」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
 		prop_type = 0,
@@ -1868,8 +1969,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[56] = {
 		icon = "ryza_item_56",
 		display = "特殊装備「神秘の羽衣」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
 		prop_type = 0,
@@ -1898,8 +1999,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[57] = {
 		icon = "ryza_item_57",
 		display = "特殊装備「エリキシル剤」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
 		prop_type = 0,
@@ -1928,8 +2029,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[58] = {
 		icon = "ryza_item_58",
 		display = "特殊装備「エネルジアニカ」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
 		prop_type = 0,
@@ -1958,8 +2059,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	[101] = {
+	}
+	pg.base.activity_ryza_item[101] = {
 		icon = "yumia_item_1",
 		display = "傘の部分に結晶化した胞子を持つキノコ。加工品が宝飾品として出回っていたらしい。当然ながら食べることはできない",
 		prop_type = 1,
@@ -1987,8 +2088,8 @@ pg.activity_ryza_item = {
 				"youmiya"
 			}
 		}
-	},
-	[102] = {
+	}
+	pg.base.activity_ryza_item[102] = {
 		icon = "yumia_item_2",
 		display = "キノコを背負ったような見た目をした虫。あくまでもキノコ部分含めて虫なので、食用に向いているとはいえない",
 		prop_type = 1,
@@ -2016,8 +2117,8 @@ pg.activity_ryza_item = {
 				"youmiya"
 			}
 		}
-	},
-	[103] = {
+	}
+	pg.base.activity_ryza_item[103] = {
 		icon = "yumia_item_3",
 		display = "トゲに覆われた植物の実。投擲用の武器として使用される。割ると中から美味しい身が出てくる",
 		prop_type = 2,
@@ -2057,8 +2158,8 @@ pg.activity_ryza_item = {
 			0.85,
 			0.85
 		}
-	},
-	[104] = {
+	}
+	pg.base.activity_ryza_item[104] = {
 		icon = "yumia_item_4",
 		display = "実の大部分が結晶化したうに。結晶化していない部分は食べられるが、あまり美味しいとはいえない",
 		prop_type = 2,
@@ -2098,8 +2199,8 @@ pg.activity_ryza_item = {
 			2.3,
 			-1
 		}
-	},
-	[105] = {
+	}
+	pg.base.activity_ryza_item[105] = {
 		icon = "yumia_item_5",
 		display = "毒性の気体を放ち続けている腐木から採取した毒霧。気体の毒性はかなり強く、吸引すると数日は動けなくなる",
 		prop_type = 3,
@@ -2139,8 +2240,8 @@ pg.activity_ryza_item = {
 			0,
 			-1.5
 		}
-	},
-	[106] = {
+	}
+	pg.base.activity_ryza_item[106] = {
 		icon = "yumia_item_6",
 		display = "ふわふわと漂う超微粒子状態の金属……金属というより気体といった方が正しい",
 		prop_type = 3,
@@ -2174,8 +2275,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	[107] = {
+	}
+	pg.base.activity_ryza_item[107] = {
 		icon = "yumia_item_7",
 		display = "周囲の熱を冷気へ変換する力を宿した鉱石。食材の鮮度を保つのに最適",
 		prop_type = 4,
@@ -2215,8 +2316,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	[108] = {
+	}
+	pg.base.activity_ryza_item[108] = {
 		icon = "yumia_item_8",
 		display = "カクカクとした形の花弁を持つ咲くハイビスカスの亜種。植物としてだけでなく、金属素材としても用いられる",
 		prop_type = 4,
@@ -2256,8 +2357,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	[109] = {
+	}
+	pg.base.activity_ryza_item[109] = {
 		icon = "yumia_item_9",
 		display = "外側には触れたものを簡単に貫く鋭いトゲを持つ。毬のような藻だからまりも……とよく誤解されるが、うにの亜種",
 		prop_type = 5,
@@ -2291,8 +2392,8 @@ pg.activity_ryza_item = {
 			2,
 			-1.5
 		}
-	},
-	[110] = {
+	}
+	pg.base.activity_ryza_item[110] = {
 		icon = "yumia_item_10",
 		display = "毒のトゲを持つ魚。襲われると身体中から毒のトゲを伸ばして身を守る",
 		prop_type = 5,
@@ -2332,8 +2433,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	[111] = {
+	}
+	pg.base.activity_ryza_item[111] = {
 		icon = "yumia_item_11",
 		display = "天穹の塔周辺で成長する結晶鉱物。物質エナジーを有している",
 		prop_type = 6,
@@ -2376,8 +2477,8 @@ pg.activity_ryza_item = {
 			0,
 			0.46
 		}
-	},
-	[112] = {
+	}
+	pg.base.activity_ryza_item[112] = {
 		icon = "yumia_item_12",
 		display = "天穹の塔のエナジーが凝縮したコア、膨大なエナジーを有している",
 		prop_type = 6,
@@ -2414,8 +2515,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	[116] = {
+	}
+	pg.base.activity_ryza_item[116] = {
 		icon = "yumia_item_13",
 		display = "専用装備「エフェメラルレコード」の核心モジュール。レシピに欠かせない素材として、アトリエで「エフェメラルレコード」の調合に使用できる",
 		prop_type = 0,
@@ -2475,8 +2576,8 @@ pg.activity_ryza_item = {
 			-1.15,
 			0
 		}
-	},
-	[117] = {
+	}
+	pg.base.activity_ryza_item[117] = {
 		icon = "yumia_item_14",
 		display = "専用装備「秘槍トリアイナ」の核心モジュール。レシピに欠かせない素材として、アトリエで「秘槍トリアイナ」の調合に使用できる",
 		prop_type = 0,
@@ -2536,8 +2637,8 @@ pg.activity_ryza_item = {
 			-0.5,
 			3
 		}
-	},
-	[118] = {
+	}
+	pg.base.activity_ryza_item[118] = {
 		icon = "yumia_item_15",
 		display = "専用装備「ハントレス」の核心モジュール。レシピに欠かせない素材として、アトリエで「ハントレス」の調合に使用できる",
 		prop_type = 0,
@@ -2597,8 +2698,8 @@ pg.activity_ryza_item = {
 			3.97,
 			0
 		}
-	},
-	[119] = {
+	}
+	pg.base.activity_ryza_item[119] = {
 		icon = "yumia_item_16",
 		display = "専用装備「黄泉之蟷螂」の核心モジュール。レシピに欠かせない素材として、アトリエで「黄泉之蟷螂」の調合に使用できる",
 		prop_type = 0,
@@ -2632,8 +2733,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[120] = {
+	}
+	pg.base.activity_ryza_item[120] = {
 		icon = "yumia_item_17",
 		display = "特殊設備「エンデメテオ」の核心モジュール。レシピに欠かせない素材として、アトリエで「エンデメテオ」の調合に使用できる",
 		prop_type = 0,
@@ -2668,8 +2769,8 @@ pg.activity_ryza_item = {
 			-0.74,
 			0
 		}
-	},
-	[121] = {
+	}
+	pg.base.activity_ryza_item[121] = {
 		icon = "yumia_item_18",
 		display = "特殊設備「スペリオルグリモア」の核心モジュール。レシピに欠かせない素材として、アトリエで「スペリオルグリモア」の調合に使用できる",
 		prop_type = 0,
@@ -2703,8 +2804,8 @@ pg.activity_ryza_item = {
 			-1.5,
 			1
 		}
-	},
-	[122] = {
+	}
+	pg.base.activity_ryza_item[122] = {
 		icon = "yumia_item_19",
 		display = "特殊設備「グランシャイン」の核心モジュール。レシピに欠かせない素材として、アトリエで「グランシャイン」の調合に使用できる",
 		prop_type = 0,
@@ -2741,8 +2842,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	[126] = {
+	}
+	pg.base.activity_ryza_item[126] = {
 		icon = "yumia_item_20",
 		display = "特殊設備「パナケイアスフィア」の核心モジュール。レシピに欠かせない素材として、アトリエで「パナケイアスフィア」の調合に使用できる",
 		prop_type = 0,
@@ -2776,8 +2877,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[127] = {
+	}
+	pg.base.activity_ryza_item[127] = {
 		icon = "yumia_item_21",
 		display = "特殊設備「天恵のアーミラリ」の核心モジュール。レシピに欠かせない素材として、アトリエで「天恵のアーミラリ」の調合に使用できる",
 		prop_type = 0,
@@ -2811,8 +2912,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[128] = {
+	}
+	pg.base.activity_ryza_item[128] = {
 		icon = "yumia_item_22",
 		display = "特殊設備「アンフェルキューブ」の核心モジュール。レシピに欠かせない素材として、アトリエで「アンフェルキューブ」の調合に使用できる",
 		prop_type = 0,
@@ -2846,8 +2947,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[129] = {
+	}
+	pg.base.activity_ryza_item[129] = {
 		icon = "yumia_item_23",
 		display = "錬金術で頻繁に使用する基本的な薬剤。赤い中和剤は火属性と相性がよい",
 		prop_type = 7,
@@ -2881,8 +2982,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[130] = {
+	}
+	pg.base.activity_ryza_item[130] = {
 		icon = "yumia_item_24",
 		display = "錬金術で頻繁に使用する基本的な薬剤。青い中和剤は氷属性と相性がよい",
 		prop_type = 7,
@@ -2916,8 +3017,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[131] = {
+	}
+	pg.base.activity_ryza_item[131] = {
 		icon = "yumia_item_25",
 		display = "錬金術で頻繁に使用する基本的な薬剤。黄色い中和剤は雷属性と相性がよい",
 		prop_type = 7,
@@ -2951,8 +3052,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[132] = {
+	}
+	pg.base.activity_ryza_item[132] = {
 		icon = "yumia_item_26",
 		display = "錬金術で頻繁に使用する基本的な薬剤。緑色の中和剤は風属性と相性がよい",
 		prop_type = 7,
@@ -2986,8 +3087,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[133] = {
+	}
+	pg.base.activity_ryza_item[133] = {
 		icon = "yumia_item_27",
 		display = "錬金術で頻繁に使用する基本的な薬剤。改良され、あらゆる素材と相性が良くなるよう作られた万能中和剤である",
 		prop_type = 7,
@@ -3024,8 +3125,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[134] = {
+	}
+	pg.base.activity_ryza_item[134] = {
 		icon = "yumia_item_28",
 		display = "天穹の塔のエナジーを調整するための専用設備。レベル1。",
 		prop_type = 0,
@@ -3057,8 +3158,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[135] = {
+	}
+	pg.base.activity_ryza_item[135] = {
 		icon = "yumia_item_29",
 		display = "天穹の塔のエナジーを調整するための専用設備。レベル2。",
 		prop_type = 0,
@@ -3090,8 +3191,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[136] = {
+	}
+	pg.base.activity_ryza_item[136] = {
 		icon = "yumia_item_30",
 		display = "天穹の塔のエナジーを調整するための専用設備。レベル3。",
 		prop_type = 0,
@@ -3123,8 +3224,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[137] = {
+	}
+	pg.base.activity_ryza_item[137] = {
 		icon = "yumia_item_31",
 		display = "天穹の塔のエナジーを調整するための専用設備。レベル4。",
 		prop_type = 0,
@@ -3156,8 +3257,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[138] = {
+	}
+	pg.base.activity_ryza_item[138] = {
 		icon = "65653",
 		display = "拠点建設に使用される汎用材料。木製のオブジェクトの設置に使用される",
 		prop_type = 0,
@@ -3174,8 +3275,8 @@ pg.activity_ryza_item = {
 		name = "汎用建設木材",
 		normal_circle = "",
 		prop = {}
-	},
-	[139] = {
+	}
+	pg.base.activity_ryza_item[139] = {
 		icon = "65654",
 		display = "拠点建設に使用される汎用材料。石製のオブジェクトの設置に使用される",
 		prop_type = 0,
@@ -3192,8 +3293,8 @@ pg.activity_ryza_item = {
 		name = "汎用建設石材",
 		normal_circle = "",
 		prop = {}
-	},
-	[140] = {
+	}
+	pg.base.activity_ryza_item[140] = {
 		icon = "65655",
 		display = "拠点建設に使用される汎用材料。金属製のオブジェクトの設置に使用される",
 		prop_type = 0,
@@ -3210,8 +3311,8 @@ pg.activity_ryza_item = {
 		name = "汎用建設金属",
 		normal_circle = "",
 		prop = {}
-	},
-	[141] = {
+	}
+	pg.base.activity_ryza_item[141] = {
 		icon = "65656",
 		display = "拠点建設に使用される汎用材料。植物のオブジェクトの設置に使用される",
 		prop_type = 0,
@@ -3228,100 +3329,5 @@ pg.activity_ryza_item = {
 		name = "汎用建設植物",
 		normal_circle = "",
 		prop = {}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		39,
-		40,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46,
-		47,
-		48,
-		49,
-		50,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56,
-		57,
-		58,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		110,
-		111,
-		112,
-		116,
-		117,
-		118,
-		119,
-		120,
-		121,
-		122,
-		126,
-		127,
-		128,
-		129,
-		130,
-		131,
-		132,
-		133,
-		134,
-		135,
-		136,
-		137,
-		138,
-		139,
-		140,
-		141
 	}
-}
+end)()

@@ -1,6 +1,20 @@
 pg = pg or {}
-pg.activity_dreamland_map = {
-	{
+pg.activity_dreamland_map = rawget(pg, "activity_dreamland_map") or setmetatable({
+	__name = "activity_dreamland_map"
+}, confNEO)
+pg.activity_dreamland_map.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6
+}
+pg.base = pg.base or {}
+pg.base.activity_dreamland_map = {}
+
+(function ()
+	pg.base.activity_dreamland_map[1] = {
 		id = 1,
 		name = "イベント広場",
 		unlock_condition = 1,
@@ -24,8 +38,8 @@ pg.activity_dreamland_map = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_map[2] = {
 		id = 2,
 		name = "願いの噴水",
 		unlock_condition = 3,
@@ -53,8 +67,8 @@ pg.activity_dreamland_map = {
 				300
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_map[3] = {
 		id = 3,
 		name = "楽園のお城",
 		unlock_condition = 3,
@@ -78,8 +92,8 @@ pg.activity_dreamland_map = {
 				10
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_map[4] = {
 		id = 4,
 		name = "水上エリア",
 		unlock_condition = 4,
@@ -103,8 +117,8 @@ pg.activity_dreamland_map = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_map[5] = {
 		id = 5,
 		name = "ステージ",
 		unlock_condition = 5,
@@ -128,8 +142,8 @@ pg.activity_dreamland_map = {
 				2
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_map[6] = {
 		id = 6,
 		name = "霧の迷路",
 		unlock_condition = 7,
@@ -153,13 +167,5 @@ pg.activity_dreamland_map = {
 				1
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6
 	}
-}
+end)()

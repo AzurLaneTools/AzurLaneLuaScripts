@@ -1,257 +1,263 @@
 pg = pg or {}
-pg.dorm3d_dance_cucoloris = {
-	[101] = {
+pg.dorm3d_dance_cucoloris = rawget(pg, "dorm3d_dance_cucoloris") or setmetatable({
+	__name = "dorm3d_dance_cucoloris"
+}, confNEO)
+pg.dorm3d_dance_cucoloris.all = {
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	201,
+	202,
+	203,
+	204,
+	205,
+	206,
+	207,
+	208,
+	209,
+	301,
+	302,
+	303,
+	304,
+	305,
+	306,
+	307,
+	308,
+	309,
+	401,
+	402,
+	403,
+	404,
+	405,
+	406,
+	407,
+	408,
+	409
+}
+pg.base = pg.base or {}
+pg.base.dorm3d_dance_cucoloris = {}
+
+(function ()
+	pg.base.dorm3d_dance_cucoloris[101] = {
 		id = 101,
 		icon = "xinzexi_cucoloros1",
 		time = 10.56,
 		target_camera = "dance_camera1"
-	},
-	[102] = {
+	}
+	pg.base.dorm3d_dance_cucoloris[102] = {
 		id = 102,
 		icon = "xinzexi_cucoloros2",
 		time = 35.93,
 		target_camera = "dance_camera1"
-	},
-	[103] = {
+	}
+	pg.base.dorm3d_dance_cucoloris[103] = {
 		id = 103,
 		icon = "xinzexi_cucoloros3",
 		time = 43.42,
 		target_camera = "dance_camera1"
-	},
-	[104] = {
+	}
+	pg.base.dorm3d_dance_cucoloris[104] = {
 		id = 104,
 		icon = "xinzexi_cucoloros4",
 		time = 14.28,
 		target_camera = "dance_camera2"
-	},
-	[105] = {
+	}
+	pg.base.dorm3d_dance_cucoloris[105] = {
 		id = 105,
 		icon = "xinzexi_cucoloros5",
 		time = 19.41,
 		target_camera = "dance_camera2"
-	},
-	[106] = {
+	}
+	pg.base.dorm3d_dance_cucoloris[106] = {
 		id = 106,
 		icon = "xinzexi_cucoloros6",
 		time = 36.25,
 		target_camera = "dance_camera2"
-	},
-	[107] = {
+	}
+	pg.base.dorm3d_dance_cucoloris[107] = {
 		id = 107,
 		icon = "xinzexi_cucoloros7",
 		time = 34.39,
 		target_camera = "dance_camera3"
-	},
-	[108] = {
+	}
+	pg.base.dorm3d_dance_cucoloris[108] = {
 		id = 108,
 		icon = "xinzexi_cucoloros8",
 		time = 11.47,
 		target_camera = "dance_camera3"
-	},
-	[109] = {
+	}
+	pg.base.dorm3d_dance_cucoloris[109] = {
 		id = 109,
 		icon = "xinzexi_cucoloros9",
 		time = 40.21,
 		target_camera = "dance_camera3"
-	},
-	[201] = {
+	}
+	pg.base.dorm3d_dance_cucoloris[201] = {
 		id = 201,
 		icon = "dafeng_cucoloros1",
 		time = 6.35,
 		target_camera = "dance_camera1"
-	},
-	[202] = {
+	}
+	pg.base.dorm3d_dance_cucoloris[202] = {
 		id = 202,
 		icon = "dafeng_cucoloros2",
 		time = 12.2,
 		target_camera = "dance_camera1"
-	},
-	[203] = {
+	}
+	pg.base.dorm3d_dance_cucoloris[203] = {
 		id = 203,
 		icon = "dafeng_cucoloros3",
 		time = 24.25,
 		target_camera = "dance_camera1"
-	},
-	[204] = {
+	}
+	pg.base.dorm3d_dance_cucoloris[204] = {
 		id = 204,
 		icon = "dafeng_cucoloros4",
 		time = 36.53,
 		target_camera = "dance_camera2"
-	},
-	[205] = {
+	}
+	pg.base.dorm3d_dance_cucoloris[205] = {
 		id = 205,
 		icon = "dafeng_cucoloros5",
 		time = 40.88,
 		target_camera = "dance_camera2"
-	},
-	[206] = {
+	}
+	pg.base.dorm3d_dance_cucoloris[206] = {
 		id = 206,
 		icon = "dafeng_cucoloros6",
 		time = 10.92,
 		target_camera = "dance_camera2"
-	},
-	[207] = {
+	}
+	pg.base.dorm3d_dance_cucoloris[207] = {
 		id = 207,
 		icon = "dafeng_cucoloros7",
 		time = 42.06,
 		target_camera = "dance_camera3"
-	},
-	[208] = {
+	}
+	pg.base.dorm3d_dance_cucoloris[208] = {
 		id = 208,
 		icon = "dafeng_cucoloros8",
 		time = 27.36,
 		target_camera = "dance_camera3"
-	},
-	[209] = {
+	}
+	pg.base.dorm3d_dance_cucoloris[209] = {
 		id = 209,
 		icon = "dafeng_cucoloros9",
 		time = 33.57,
 		target_camera = "dance_camera3"
-	},
-	[301] = {
+	}
+	pg.base.dorm3d_dance_cucoloris[301] = {
 		id = 301,
 		icon = "aijier_cucoloros1",
 		time = 12.2,
 		target_camera = "dance_camera1"
-	},
-	[302] = {
+	}
+	pg.base.dorm3d_dance_cucoloris[302] = {
 		id = 302,
 		icon = "aijier_cucoloros2",
 		time = 22.39,
 		target_camera = "dance_camera1"
-	},
-	[303] = {
+	}
+	pg.base.dorm3d_dance_cucoloris[303] = {
 		id = 303,
 		icon = "aijier_cucoloros3",
 		time = 34.35,
 		target_camera = "dance_camera1"
-	},
-	[304] = {
+	}
+	pg.base.dorm3d_dance_cucoloris[304] = {
 		id = 304,
 		icon = "aijier_cucoloros4",
 		time = 7.07,
 		target_camera = "dance_camera2"
-	},
-	[305] = {
+	}
+	pg.base.dorm3d_dance_cucoloris[305] = {
 		id = 305,
 		icon = "aijier_cucoloros5",
 		time = 22.73,
 		target_camera = "dance_camera2"
-	},
-	[306] = {
+	}
+	pg.base.dorm3d_dance_cucoloris[306] = {
 		id = 306,
 		icon = "aijier_cucoloros6",
 		time = 32.76,
 		target_camera = "dance_camera2"
-	},
-	[307] = {
+	}
+	pg.base.dorm3d_dance_cucoloris[307] = {
 		id = 307,
 		icon = "aijier_cucoloros7",
 		time = 36.1,
 		target_camera = "dance_camera3"
-	},
-	[308] = {
+	}
+	pg.base.dorm3d_dance_cucoloris[308] = {
 		id = 308,
 		icon = "aijier_cucoloros8",
 		time = 45.62,
 		target_camera = "dance_camera3"
-	},
-	[309] = {
+	}
+	pg.base.dorm3d_dance_cucoloris[309] = {
 		id = 309,
 		icon = "aijier_cucoloros9",
 		time = 49.78,
 		target_camera = "dance_camera3"
-	},
-	[401] = {
+	}
+	pg.base.dorm3d_dance_cucoloris[401] = {
 		id = 401,
 		icon = "tianlangxing_cucoloros1",
 		time = 2.25,
 		target_camera = "dance_camera1"
-	},
-	[402] = {
+	}
+	pg.base.dorm3d_dance_cucoloris[402] = {
 		id = 402,
 		icon = "tianlangxing_cucoloros2",
 		time = 35.28,
 		target_camera = "dance_camera1"
-	},
-	[403] = {
+	}
+	pg.base.dorm3d_dance_cucoloris[403] = {
 		id = 403,
 		icon = "tianlangxing_cucoloros3",
 		time = 47.65,
 		target_camera = "dance_camera1"
-	},
-	[404] = {
+	}
+	pg.base.dorm3d_dance_cucoloris[404] = {
 		id = 404,
 		icon = "tianlangxing_cucoloros4",
 		time = 11.23,
 		target_camera = "dance_camera2"
-	},
-	[405] = {
+	}
+	pg.base.dorm3d_dance_cucoloris[405] = {
 		id = 405,
 		icon = "tianlangxing_cucoloros5",
 		time = 35.95,
 		target_camera = "dance_camera2"
-	},
-	[406] = {
+	}
+	pg.base.dorm3d_dance_cucoloris[406] = {
 		id = 406,
 		icon = "tianlangxing_cucoloros6",
 		time = 46.02,
 		target_camera = "dance_camera2"
-	},
-	[407] = {
+	}
+	pg.base.dorm3d_dance_cucoloris[407] = {
 		id = 407,
 		icon = "tianlangxing_cucoloros7",
 		time = 6.15,
 		target_camera = "dance_camera3"
-	},
-	[408] = {
+	}
+	pg.base.dorm3d_dance_cucoloris[408] = {
 		id = 408,
 		icon = "tianlangxing_cucoloros8",
 		time = 28.67,
 		target_camera = "dance_camera3"
-	},
-	[409] = {
+	}
+	pg.base.dorm3d_dance_cucoloris[409] = {
 		id = 409,
 		icon = "tianlangxing_cucoloros9",
 		time = 47.08,
 		target_camera = "dance_camera3"
-	},
-	all = {
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		201,
-		202,
-		203,
-		204,
-		205,
-		206,
-		207,
-		208,
-		209,
-		301,
-		302,
-		303,
-		304,
-		305,
-		306,
-		307,
-		308,
-		309,
-		401,
-		402,
-		403,
-		404,
-		405,
-		406,
-		407,
-		408,
-		409
 	}
-}
+end)()

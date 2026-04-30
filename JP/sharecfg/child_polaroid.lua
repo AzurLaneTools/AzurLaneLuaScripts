@@ -1,6 +1,490 @@
 pg = pg or {}
-pg.child_polaroid = {
-	{
+pg.child_polaroid = rawget(pg, "child_polaroid") or setmetatable({
+	__name = "child_polaroid"
+}, confNEO)
+pg.child_polaroid.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	39,
+	40,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	47,
+	48,
+	49,
+	50,
+	51,
+	52,
+	53,
+	54,
+	55,
+	56,
+	57,
+	58,
+	59,
+	60,
+	61,
+	62,
+	63,
+	64,
+	65,
+	66,
+	67,
+	68,
+	69,
+	70,
+	71,
+	72,
+	73,
+	74,
+	75,
+	76,
+	77,
+	78,
+	79,
+	80,
+	81,
+	82,
+	83,
+	84,
+	85,
+	86,
+	87,
+	88,
+	89,
+	90,
+	91,
+	92,
+	93,
+	94,
+	95,
+	96,
+	97,
+	98,
+	99,
+	100,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	110,
+	111,
+	112,
+	113,
+	114,
+	115,
+	116,
+	117,
+	118,
+	119,
+	120,
+	121,
+	122,
+	123,
+	124,
+	125,
+	126,
+	127,
+	128,
+	129,
+	130,
+	131,
+	132,
+	133,
+	134,
+	135,
+	136,
+	137,
+	138,
+	139,
+	140,
+	141,
+	142,
+	143,
+	144,
+	145,
+	146,
+	147,
+	148,
+	149,
+	150,
+	151,
+	152,
+	153,
+	154,
+	155,
+	156,
+	157,
+	158,
+	159,
+	160,
+	161,
+	162,
+	163,
+	164,
+	165,
+	166,
+	167
+}
+pg.child_polaroid.get_id_list_by_group = {
+	[101] = {
+		1,
+		2
+	},
+	[102] = {
+		3,
+		4
+	},
+	[103] = {
+		5,
+		6,
+		7
+	},
+	[104] = {
+		8,
+		9,
+		10
+	},
+	[105] = {
+		11,
+		12,
+		13
+	},
+	[106] = {
+		14
+	},
+	[107] = {
+		15
+	},
+	[108] = {
+		16,
+		17,
+		18
+	},
+	[109] = {
+		19,
+		20
+	},
+	[110] = {
+		21,
+		22
+	},
+	[111] = {
+		23,
+		24,
+		25
+	},
+	[112] = {
+		26,
+		27
+	},
+	[113] = {
+		28,
+		29,
+		30
+	},
+	[114] = {
+		31,
+		32,
+		33
+	},
+	[115] = {
+		34,
+		35,
+		36
+	},
+	[116] = {
+		37,
+		38
+	},
+	[117] = {
+		39,
+		40,
+		41,
+		42,
+		43
+	},
+	[118] = {
+		44
+	},
+	[119] = {
+		45
+	},
+	[120] = {
+		46
+	},
+	[121] = {
+		47,
+		48,
+		49
+	},
+	[122] = {
+		50
+	},
+	[123] = {
+		51,
+		52,
+		53
+	},
+	[124] = {
+		54,
+		55,
+		56
+	},
+	[125] = {
+		57,
+		58,
+		59
+	},
+	[126] = {
+		60,
+		61,
+		62
+	},
+	[127] = {
+		63,
+		64
+	},
+	[128] = {
+		65,
+		66,
+		67,
+		68,
+		69
+	},
+	[129] = {
+		70,
+		71,
+		72,
+		73,
+		74,
+		75
+	},
+	[130] = {
+		76,
+		77,
+		78,
+		79,
+		80
+	},
+	[131] = {
+		81,
+		82,
+		83,
+		84,
+		85
+	},
+	[132] = {
+		86,
+		87
+	},
+	[133] = {
+		88,
+		89,
+		90
+	},
+	[134] = {
+		91,
+		92,
+		93
+	},
+	[135] = {
+		94,
+		95,
+		96
+	},
+	[136] = {
+		97
+	},
+	[137] = {
+		98,
+		99,
+		100
+	},
+	[138] = {
+		101,
+		102,
+		103
+	},
+	[139] = {
+		104
+	},
+	[140] = {
+		105
+	},
+	[141] = {
+		106
+	},
+	[142] = {
+		107
+	},
+	[143] = {
+		108,
+		109,
+		110
+	},
+	[144] = {
+		111,
+		112,
+		113,
+		114,
+		115
+	},
+	[145] = {
+		116,
+		117
+	},
+	[146] = {
+		118,
+		119
+	},
+	[147] = {
+		120,
+		121,
+		122
+	},
+	[148] = {
+		123
+	},
+	[149] = {
+		124,
+		125
+	},
+	[150] = {
+		126,
+		127,
+		128
+	},
+	[151] = {
+		129
+	},
+	[152] = {
+		130
+	},
+	[153] = {
+		131
+	},
+	[154] = {
+		132
+	},
+	[155] = {
+		133
+	},
+	[156] = {
+		134
+	},
+	[157] = {
+		135
+	},
+	[158] = {
+		136
+	},
+	[159] = {
+		137,
+		138,
+		139
+	},
+	[160] = {
+		140,
+		141,
+		142,
+		143
+	},
+	[161] = {
+		144,
+		145,
+		146
+	},
+	[162] = {
+		147,
+		148,
+		149
+	},
+	[163] = {
+		150,
+		151,
+		152
+	},
+	[164] = {
+		153,
+		154,
+		155
+	},
+	[165] = {
+		156
+	},
+	[166] = {
+		157,
+		158,
+		159
+	},
+	[167] = {
+		160
+	},
+	[168] = {
+		161
+	},
+	[169] = {
+		162,
+		163,
+		164
+	},
+	[170] = {
+		165,
+		166,
+		167
+	}
+}
+pg.base = pg.base or {}
+pg.base.child_polaroid = {}
+
+(function ()
+	pg.base.child_polaroid[1] = {
 		group = 101,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -11,8 +495,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[2] = {
 		group = 101,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -23,8 +507,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[3] = {
 		group = 102,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -35,8 +519,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[4] = {
 		group = 102,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -47,8 +531,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[5] = {
 		group = 103,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 5,
@@ -61,8 +545,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[6] = {
 		group = 103,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 6,
@@ -75,8 +559,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[7] = {
 		group = 103,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 7,
@@ -89,8 +573,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[8] = {
 		group = 104,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 8,
@@ -103,8 +587,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[9] = {
 		group = 104,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 9,
@@ -117,8 +601,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[10] = {
 		group = 104,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 10,
@@ -131,8 +615,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[11] = {
 		group = 105,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 11,
@@ -145,8 +629,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[12] = {
 		group = 105,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 12,
@@ -159,8 +643,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[13] = {
 		group = 105,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 13,
@@ -173,8 +657,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[14] = {
 		group = 106,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -185,8 +669,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[15] = {
 		group = 107,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -197,8 +681,8 @@ pg.child_polaroid = {
 		stage = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[16] = {
 		group = 108,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 16,
@@ -211,8 +695,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[17] = {
 		group = 108,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 17,
@@ -225,8 +709,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[18] = {
 		group = 108,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 18,
@@ -239,8 +723,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[19] = {
 		group = 109,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -251,8 +735,8 @@ pg.child_polaroid = {
 		stage = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[20] = {
 		group = 109,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -263,8 +747,8 @@ pg.child_polaroid = {
 		stage = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[21] = {
 		group = 110,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -275,8 +759,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[22] = {
 		group = 110,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -287,8 +771,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[23] = {
 		group = 111,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 23,
@@ -301,8 +785,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[24] = {
 		group = 111,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 24,
@@ -315,8 +799,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[25] = {
 		group = 111,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 25,
@@ -329,8 +813,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[26] = {
 		group = 112,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -341,8 +825,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[27] = {
 		group = 112,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -353,8 +837,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[28] = {
 		group = 113,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 28,
@@ -367,8 +851,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[29] = {
 		group = 113,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 29,
@@ -381,8 +865,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[30] = {
 		group = 113,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 30,
@@ -395,8 +879,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[31] = {
 		group = 114,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 31,
@@ -409,8 +893,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[32] = {
 		group = 114,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 32,
@@ -423,8 +907,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[33] = {
 		group = 114,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 33,
@@ -437,8 +921,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[34] = {
 		group = 115,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 34,
@@ -451,8 +935,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[35] = {
 		group = 115,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 35,
@@ -465,8 +949,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[36] = {
 		group = 115,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 36,
@@ -479,8 +963,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[37] = {
 		group = 116,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -491,8 +975,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[38] = {
 		group = 116,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -503,8 +987,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[39] = {
 		group = 117,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -515,8 +999,8 @@ pg.child_polaroid = {
 		stage = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[40] = {
 		group = 117,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -527,8 +1011,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[41] = {
 		group = 117,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 41,
@@ -541,8 +1025,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[42] = {
 		group = 117,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 42,
@@ -555,8 +1039,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[43] = {
 		group = 117,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 43,
@@ -569,8 +1053,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[44] = {
 		group = 118,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -581,8 +1065,8 @@ pg.child_polaroid = {
 		stage = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[45] = {
 		group = 119,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -593,8 +1077,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[46] = {
 		group = 120,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -605,8 +1089,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[47] = {
 		group = 121,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 47,
@@ -619,8 +1103,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[48] = {
 		group = 121,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 48,
@@ -633,8 +1117,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[49] = {
 		group = 121,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 49,
@@ -647,8 +1131,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[50] = {
 		group = 122,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -659,8 +1143,8 @@ pg.child_polaroid = {
 		stage = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[51] = {
 		group = 123,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 51,
@@ -673,8 +1157,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[52] = {
 		group = 123,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 52,
@@ -687,8 +1171,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[53] = {
 		group = 123,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 53,
@@ -701,8 +1185,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[54] = {
 		group = 124,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 54,
@@ -715,8 +1199,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[55] = {
 		group = 124,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 55,
@@ -729,8 +1213,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[56] = {
 		group = 124,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 56,
@@ -743,8 +1227,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[57] = {
 		group = 125,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -755,8 +1239,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[58] = {
 		group = 125,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -767,8 +1251,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[59] = {
 		group = 125,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -779,8 +1263,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[60] = {
 		group = 126,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 60,
@@ -793,8 +1277,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[61] = {
 		group = 126,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 61,
@@ -807,8 +1291,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[62] = {
 		group = 126,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 62,
@@ -821,8 +1305,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[63] = {
 		group = 127,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -833,8 +1317,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[64] = {
 		group = 127,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -845,8 +1329,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[65] = {
 		group = 128,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -857,8 +1341,8 @@ pg.child_polaroid = {
 		stage = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[66] = {
 		group = 128,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -869,8 +1353,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[67] = {
 		group = 128,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 67,
@@ -883,8 +1367,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[68] = {
 		group = 128,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 68,
@@ -897,8 +1381,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[69] = {
 		group = 128,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 69,
@@ -911,8 +1395,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[70] = {
 		group = 129,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 70,
@@ -925,8 +1409,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[71] = {
 		group = 129,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 71,
@@ -939,8 +1423,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[72] = {
 		group = 129,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 72,
@@ -953,8 +1437,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[73] = {
 		group = 129,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 73,
@@ -967,8 +1451,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[74] = {
 		group = 129,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 74,
@@ -981,8 +1465,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[75] = {
 		group = 129,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 75,
@@ -995,8 +1479,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[76] = {
 		group = 130,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -1007,8 +1491,8 @@ pg.child_polaroid = {
 		stage = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[77] = {
 		group = 130,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -1019,8 +1503,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[78] = {
 		group = 130,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 78,
@@ -1033,8 +1517,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[79] = {
 		group = 130,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 79,
@@ -1047,8 +1531,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[80] = {
 		group = 130,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 80,
@@ -1061,8 +1545,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[81] = {
 		group = 131,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -1073,8 +1557,8 @@ pg.child_polaroid = {
 		stage = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[82] = {
 		group = 131,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -1085,8 +1569,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[83] = {
 		group = 131,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 83,
@@ -1099,8 +1583,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[84] = {
 		group = 131,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 84,
@@ -1113,8 +1597,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[85] = {
 		group = 131,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 85,
@@ -1127,8 +1611,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[86] = {
 		group = 132,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -1139,8 +1623,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[87] = {
 		group = 132,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -1151,8 +1635,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[88] = {
 		group = 133,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 88,
@@ -1165,8 +1649,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[89] = {
 		group = 133,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 89,
@@ -1179,8 +1663,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[90] = {
 		group = 133,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 90,
@@ -1193,8 +1677,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[91] = {
 		group = 134,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 91,
@@ -1207,8 +1691,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[92] = {
 		group = 134,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 92,
@@ -1221,8 +1705,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[93] = {
 		group = 134,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 93,
@@ -1235,8 +1719,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[94] = {
 		group = 135,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 94,
@@ -1249,8 +1733,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[95] = {
 		group = 135,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 95,
@@ -1263,8 +1747,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[96] = {
 		group = 135,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 96,
@@ -1277,8 +1761,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[97] = {
 		group = 136,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -1289,8 +1773,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[98] = {
 		group = 137,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 98,
@@ -1303,8 +1787,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[99] = {
 		group = 137,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 99,
@@ -1317,8 +1801,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[100] = {
 		group = 137,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 100,
@@ -1331,8 +1815,10 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+end)()
+(function ()
+	pg.base.child_polaroid[101] = {
 		group = 138,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 101,
@@ -1345,8 +1831,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[102] = {
 		group = 138,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 102,
@@ -1359,8 +1845,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[103] = {
 		group = 138,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 103,
@@ -1373,8 +1859,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[104] = {
 		group = 139,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -1385,8 +1871,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[105] = {
 		group = 140,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -1397,8 +1883,8 @@ pg.child_polaroid = {
 		stage = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[106] = {
 		group = 141,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -1409,8 +1895,8 @@ pg.child_polaroid = {
 		stage = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[107] = {
 		group = 142,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -1421,8 +1907,8 @@ pg.child_polaroid = {
 		stage = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[108] = {
 		group = 143,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 108,
@@ -1435,8 +1921,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[109] = {
 		group = 143,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 109,
@@ -1449,8 +1935,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[110] = {
 		group = 143,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 110,
@@ -1463,8 +1949,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[111] = {
 		group = 144,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -1475,8 +1961,8 @@ pg.child_polaroid = {
 		stage = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[112] = {
 		group = 144,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -1487,8 +1973,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[113] = {
 		group = 144,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 113,
@@ -1501,8 +1987,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[114] = {
 		group = 144,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 114,
@@ -1515,8 +2001,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[115] = {
 		group = 144,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 115,
@@ -1529,8 +2015,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[116] = {
 		group = 145,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -1541,8 +2027,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[117] = {
 		group = 145,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -1553,8 +2039,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[118] = {
 		group = 146,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -1565,8 +2051,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[119] = {
 		group = 146,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -1577,8 +2063,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[120] = {
 		group = 147,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 120,
@@ -1591,8 +2077,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[121] = {
 		group = 147,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 121,
@@ -1605,8 +2091,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[122] = {
 		group = 147,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 122,
@@ -1619,8 +2105,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[123] = {
 		group = 148,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -1631,8 +2117,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[124] = {
 		group = 149,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -1643,8 +2129,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[125] = {
 		group = 149,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -1655,8 +2141,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[126] = {
 		group = 150,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 126,
@@ -1669,8 +2155,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[127] = {
 		group = 150,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 127,
@@ -1683,8 +2169,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[128] = {
 		group = 150,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 128,
@@ -1697,8 +2183,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[129] = {
 		group = 151,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -1709,8 +2195,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[130] = {
 		group = 152,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -1721,8 +2207,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[131] = {
 		group = 153,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -1733,8 +2219,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[132] = {
 		group = 154,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -1745,8 +2231,8 @@ pg.child_polaroid = {
 		stage = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[133] = {
 		group = 155,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -1757,8 +2243,8 @@ pg.child_polaroid = {
 		stage = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[134] = {
 		group = 156,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -1769,8 +2255,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[135] = {
 		group = 157,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -1781,8 +2267,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[136] = {
 		group = 158,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -1793,8 +2279,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[137] = {
 		group = 159,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 137,
@@ -1807,8 +2293,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[138] = {
 		group = 159,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 138,
@@ -1821,8 +2307,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[139] = {
 		group = 159,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 139,
@@ -1835,8 +2321,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[140] = {
 		group = 160,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -1847,8 +2333,8 @@ pg.child_polaroid = {
 		stage = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[141] = {
 		group = 160,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 141,
@@ -1861,8 +2347,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[142] = {
 		group = 160,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 142,
@@ -1875,8 +2361,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[143] = {
 		group = 160,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 143,
@@ -1889,8 +2375,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[144] = {
 		group = 161,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 144,
@@ -1903,8 +2389,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[145] = {
 		group = 161,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 145,
@@ -1917,8 +2403,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[146] = {
 		group = 161,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 146,
@@ -1931,8 +2417,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[147] = {
 		group = 162,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 147,
@@ -1945,8 +2431,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[148] = {
 		group = 162,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 148,
@@ -1959,8 +2445,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[149] = {
 		group = 162,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 149,
@@ -1973,8 +2459,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[150] = {
 		group = 163,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 150,
@@ -1987,8 +2473,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[151] = {
 		group = 163,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 151,
@@ -2001,8 +2487,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[152] = {
 		group = 163,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 152,
@@ -2015,8 +2501,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[153] = {
 		group = 164,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 153,
@@ -2029,8 +2515,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[154] = {
 		group = 164,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 154,
@@ -2043,8 +2529,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[155] = {
 		group = 164,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 155,
@@ -2057,8 +2543,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[156] = {
 		group = 165,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -2069,8 +2555,8 @@ pg.child_polaroid = {
 		stage = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[157] = {
 		group = 166,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 157,
@@ -2083,8 +2569,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[158] = {
 		group = 166,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 158,
@@ -2097,8 +2583,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[159] = {
 		group = 166,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 159,
@@ -2111,8 +2597,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[160] = {
 		group = 167,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -2123,8 +2609,8 @@ pg.child_polaroid = {
 		stage = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[161] = {
 		group = 168,
 		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
@@ -2135,8 +2621,8 @@ pg.child_polaroid = {
 		stage = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[162] = {
 		group = 169,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 162,
@@ -2149,8 +2635,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[163] = {
 		group = 169,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 163,
@@ -2163,8 +2649,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[164] = {
 		group = 169,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 164,
@@ -2177,8 +2663,8 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[165] = {
 		group = 170,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 165,
@@ -2191,8 +2677,8 @@ pg.child_polaroid = {
 		xingge = {
 			203
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[166] = {
 		group = 170,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 166,
@@ -2205,8 +2691,8 @@ pg.child_polaroid = {
 		xingge = {
 			201
 		}
-	},
-	{
+	}
+	pg.base.child_polaroid[167] = {
 		group = 170,
 		condition = "お出かけ\n適当にぶらつく",
 		id = 167,
@@ -2219,483 +2705,5 @@ pg.child_polaroid = {
 		xingge = {
 			202
 		}
-	},
-	get_id_list_by_group = {
-		[101] = {
-			1,
-			2
-		},
-		[102] = {
-			3,
-			4
-		},
-		[103] = {
-			5,
-			6,
-			7
-		},
-		[104] = {
-			8,
-			9,
-			10
-		},
-		[105] = {
-			11,
-			12,
-			13
-		},
-		[106] = {
-			14
-		},
-		[107] = {
-			15
-		},
-		[108] = {
-			16,
-			17,
-			18
-		},
-		[109] = {
-			19,
-			20
-		},
-		[110] = {
-			21,
-			22
-		},
-		[111] = {
-			23,
-			24,
-			25
-		},
-		[112] = {
-			26,
-			27
-		},
-		[113] = {
-			28,
-			29,
-			30
-		},
-		[114] = {
-			31,
-			32,
-			33
-		},
-		[115] = {
-			34,
-			35,
-			36
-		},
-		[116] = {
-			37,
-			38
-		},
-		[117] = {
-			39,
-			40,
-			41,
-			42,
-			43
-		},
-		[118] = {
-			44
-		},
-		[119] = {
-			45
-		},
-		[120] = {
-			46
-		},
-		[121] = {
-			47,
-			48,
-			49
-		},
-		[122] = {
-			50
-		},
-		[123] = {
-			51,
-			52,
-			53
-		},
-		[124] = {
-			54,
-			55,
-			56
-		},
-		[125] = {
-			57,
-			58,
-			59
-		},
-		[126] = {
-			60,
-			61,
-			62
-		},
-		[127] = {
-			63,
-			64
-		},
-		[128] = {
-			65,
-			66,
-			67,
-			68,
-			69
-		},
-		[129] = {
-			70,
-			71,
-			72,
-			73,
-			74,
-			75
-		},
-		[130] = {
-			76,
-			77,
-			78,
-			79,
-			80
-		},
-		[131] = {
-			81,
-			82,
-			83,
-			84,
-			85
-		},
-		[132] = {
-			86,
-			87
-		},
-		[133] = {
-			88,
-			89,
-			90
-		},
-		[134] = {
-			91,
-			92,
-			93
-		},
-		[135] = {
-			94,
-			95,
-			96
-		},
-		[136] = {
-			97
-		},
-		[137] = {
-			98,
-			99,
-			100
-		},
-		[138] = {
-			101,
-			102,
-			103
-		},
-		[139] = {
-			104
-		},
-		[140] = {
-			105
-		},
-		[141] = {
-			106
-		},
-		[142] = {
-			107
-		},
-		[143] = {
-			108,
-			109,
-			110
-		},
-		[144] = {
-			111,
-			112,
-			113,
-			114,
-			115
-		},
-		[145] = {
-			116,
-			117
-		},
-		[146] = {
-			118,
-			119
-		},
-		[147] = {
-			120,
-			121,
-			122
-		},
-		[148] = {
-			123
-		},
-		[149] = {
-			124,
-			125
-		},
-		[150] = {
-			126,
-			127,
-			128
-		},
-		[151] = {
-			129
-		},
-		[152] = {
-			130
-		},
-		[153] = {
-			131
-		},
-		[154] = {
-			132
-		},
-		[155] = {
-			133
-		},
-		[156] = {
-			134
-		},
-		[157] = {
-			135
-		},
-		[158] = {
-			136
-		},
-		[159] = {
-			137,
-			138,
-			139
-		},
-		[160] = {
-			140,
-			141,
-			142,
-			143
-		},
-		[161] = {
-			144,
-			145,
-			146
-		},
-		[162] = {
-			147,
-			148,
-			149
-		},
-		[163] = {
-			150,
-			151,
-			152
-		},
-		[164] = {
-			153,
-			154,
-			155
-		},
-		[165] = {
-			156
-		},
-		[166] = {
-			157,
-			158,
-			159
-		},
-		[167] = {
-			160
-		},
-		[168] = {
-			161
-		},
-		[169] = {
-			162,
-			163,
-			164
-		},
-		[170] = {
-			165,
-			166,
-			167
-		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		39,
-		40,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46,
-		47,
-		48,
-		49,
-		50,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56,
-		57,
-		58,
-		59,
-		60,
-		61,
-		62,
-		63,
-		64,
-		65,
-		66,
-		67,
-		68,
-		69,
-		70,
-		71,
-		72,
-		73,
-		74,
-		75,
-		76,
-		77,
-		78,
-		79,
-		80,
-		81,
-		82,
-		83,
-		84,
-		85,
-		86,
-		87,
-		88,
-		89,
-		90,
-		91,
-		92,
-		93,
-		94,
-		95,
-		96,
-		97,
-		98,
-		99,
-		100,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		110,
-		111,
-		112,
-		113,
-		114,
-		115,
-		116,
-		117,
-		118,
-		119,
-		120,
-		121,
-		122,
-		123,
-		124,
-		125,
-		126,
-		127,
-		128,
-		129,
-		130,
-		131,
-		132,
-		133,
-		134,
-		135,
-		136,
-		137,
-		138,
-		139,
-		140,
-		141,
-		142,
-		143,
-		144,
-		145,
-		146,
-		147,
-		148,
-		149,
-		150,
-		151,
-		152,
-		153,
-		154,
-		155,
-		156,
-		157,
-		158,
-		159,
-		160,
-		161,
-		162,
-		163,
-		164,
-		165,
-		166,
-		167
 	}
-}
+end)()

@@ -1,6 +1,21 @@
 pg = pg or {}
-pg.activity_tolove_jigsaw = {
-	{
+pg.activity_tolove_jigsaw = rawget(pg, "activity_tolove_jigsaw") or setmetatable({
+	__name = "activity_tolove_jigsaw"
+}, confNEO)
+pg.activity_tolove_jigsaw.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7
+}
+pg.base = pg.base or {}
+pg.base.activity_tolove_jigsaw = {}
+
+(function ()
+	pg.base.activity_tolove_jigsaw[1] = {
 		desc_demand = "シリアスが作る料理をもっと美味しく出来たら……",
 		portrait_up = "tianlangxing",
 		portrait_down = "lala_tolove",
@@ -32,8 +47,8 @@ pg.activity_tolove_jigsaw = {
 			"· 回路パーツを組み立てる",
 			"· 組み立てた回路を繋ぐ（一筆描きで回路をすべて繋ぐ）"
 		}
-	},
-	{
+	}
+	pg.base.activity_tolove_jigsaw[2] = {
 		desc_demand = "売上を伸ばすためにゃら、どんな手を使ってでもかまわないにゃ！",
 		portrait_up = "mingshi",
 		portrait_down = "lala_tolove",
@@ -65,8 +80,8 @@ pg.activity_tolove_jigsaw = {
 			"· 回路パーツを組み立てる",
 			"· 組み立てた回路を繋ぐ（一筆描きで回路をすべて繋ぐ）"
 		}
-	},
-	{
+	}
+	pg.base.activity_tolove_jigsaw[3] = {
 		desc_demand = "ずっとサボってられたらいいのにね～えへへ…こんなとんでもない願いも叶えてくれるの～？",
 		portrait_up = "changdao",
 		portrait_down = "lala_tolove",
@@ -98,8 +113,8 @@ pg.activity_tolove_jigsaw = {
 			"· 回路パーツを組み立てる",
 			"· 組み立てた回路を繋ぐ（一筆描きで回路をすべて繋ぐ）"
 		}
-	},
-	{
+	}
+	pg.base.activity_tolove_jigsaw[4] = {
 		desc_demand = "予め言っておくけど、残業は好きじゃないわ。ただ、どうせ残業するのなら……",
 		portrait_up = "dipulaikesi",
 		portrait_down = "lala_tolove",
@@ -131,8 +146,8 @@ pg.activity_tolove_jigsaw = {
 			"· 回路パーツを組み立てる",
 			"· 組み立てた回路を繋ぐ（一筆描きで回路をすべて繋ぐ）"
 		}
-	},
-	{
+	}
+	pg.base.activity_tolove_jigsaw[5] = {
 		desc_demand = "指揮官の好きな野菜をいっぱい育ててるんだけど～どうしても成長はゆっくりでさ～何かいい方法はないかな？",
 		portrait_up = "weizhang",
 		portrait_down = "lala_tolove",
@@ -164,8 +179,8 @@ pg.activity_tolove_jigsaw = {
 			"· 回路パーツを組み立てる",
 			"· 組み立てた回路を繋ぐ（一筆描きで回路をすべて繋ぐ）"
 		}
-	},
-	{
+	}
+	pg.base.activity_tolove_jigsaw[6] = {
 		desc_demand = "ぐへへ、不思議事件を調査する探索者としては、常にドキドキワクワクな臨場感がほしいよね～！",
 		portrait_up = "bulisituoer",
 		portrait_down = "lala_tolove",
@@ -197,8 +212,8 @@ pg.activity_tolove_jigsaw = {
 			"· 回路パーツを組み立てる",
 			"· 組み立てた回路を繋ぐ（一筆描きで回路をすべて繋ぐ）"
 		}
-	},
-	{
+	}
+	pg.base.activity_tolove_jigsaw[7] = {
 		desc_demand = "ロイヤルの女王さまとして、ロイヤルオーラを極めたいわ！",
 		portrait_up = "yilishabai",
 		portrait_down = "lala_tolove",
@@ -230,14 +245,5 @@ pg.activity_tolove_jigsaw = {
 			"· 回路パーツを組み立てる",
 			"· 組み立てた回路を繋ぐ（一筆描きで回路をすべて繋ぐ）"
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7
 	}
-}
+end)()

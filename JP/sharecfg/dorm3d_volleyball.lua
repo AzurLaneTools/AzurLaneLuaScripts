@@ -1,6 +1,17 @@
 pg = pg or {}
-pg.dorm3d_volleyball = {
-	[20220] = {
+pg.dorm3d_volleyball = rawget(pg, "dorm3d_volleyball") or setmetatable({
+	__name = "dorm3d_volleyball"
+}, confNEO)
+pg.dorm3d_volleyball.all = {
+	20220,
+	30221,
+	19903
+}
+pg.base = pg.base or {}
+pg.base.dorm3d_volleyball = {}
+
+(function ()
+	pg.base.dorm3d_volleyball[20220] = {
 		scene_name = "TLX_volleyball",
 		endScore = 6,
 		id = 20220,
@@ -106,8 +117,8 @@ pg.dorm3d_volleyball = {
 				30
 			}
 		}
-	},
-	[30221] = {
+	}
+	pg.base.dorm3d_volleyball[30221] = {
 		scene_name = "ND_volleyball",
 		endScore = 6,
 		id = 30221,
@@ -213,8 +224,8 @@ pg.dorm3d_volleyball = {
 				30
 			}
 		}
-	},
-	[19903] = {
+	}
+	pg.base.dorm3d_volleyball[19903] = {
 		scene_name = "AB_volleyball",
 		endScore = 6,
 		id = 19903,
@@ -320,10 +331,5 @@ pg.dorm3d_volleyball = {
 				30
 			}
 		}
-	},
-	all = {
-		20220,
-		30221,
-		19903
 	}
-}
+end)()

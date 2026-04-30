@@ -1,6 +1,34 @@
 pg = pg or {}
-pg.dorm3d_welcome = {
-	[202200101] = {
+pg.dorm3d_welcome = rawget(pg, "dorm3d_welcome") or setmetatable({
+	__name = "dorm3d_welcome"
+}, confNEO)
+pg.dorm3d_welcome.all = {
+	202200101,
+	202200102,
+	202200103,
+	202200104,
+	202200105,
+	202200106,
+	202200107
+}
+pg.dorm3d_welcome.get_id_list_by_room_id = {
+	{
+		202200101,
+		202200102,
+		202200103,
+		202200104,
+		202200105,
+		202200106
+	},
+	[4] = {
+		202200107
+	}
+}
+pg.base = pg.base or {}
+pg.base.dorm3d_welcome = {}
+
+(function ()
+	pg.base.dorm3d_welcome[202200101] = {
 		item_prefab = "",
 		weight = 20,
 		welcome_talk = 1319,
@@ -11,8 +39,8 @@ pg.dorm3d_welcome = {
 		id = 202200101,
 		item_shield = "",
 		area = "Bed"
-	},
-	[202200102] = {
+	}
+	pg.base.dorm3d_welcome[202200102] = {
 		item_prefab = "",
 		weight = 20,
 		welcome_talk = 1318,
@@ -23,8 +51,8 @@ pg.dorm3d_welcome = {
 		id = 202200102,
 		item_shield = "",
 		area = "Bed"
-	},
-	[202200103] = {
+	}
+	pg.base.dorm3d_welcome[202200103] = {
 		item_prefab = "Cups_001/pre_db_cups_001_welcome",
 		weight = 0,
 		welcome_talk = 1321,
@@ -38,8 +66,8 @@ pg.dorm3d_welcome = {
 			"fbx/litmap_03/pre_db_ceram01",
 			"fbx/litmap_03/pre_db_ceram01b (1)"
 		}
-	},
-	[202200104] = {
+	}
+	pg.base.dorm3d_welcome[202200104] = {
 		item_prefab = "Book_01/pre_db_book_01_welcome",
 		weight = 20,
 		welcome_talk = 1320,
@@ -52,8 +80,8 @@ pg.dorm3d_welcome = {
 		item_shield = {
 			"fbx/litmap_03/pre_db_book01"
 		}
-	},
-	[202200105] = {
+	}
+	pg.base.dorm3d_welcome[202200105] = {
 		item_prefab = "Ceram_01/pre_db_ceram_01_welcome",
 		weight = 0,
 		welcome_talk = 1317,
@@ -69,8 +97,8 @@ pg.dorm3d_welcome = {
 			"fbx/litmap_01/pre_db_tableware01b",
 			"fbx/litmap_01/pre_db_tableware01a"
 		}
-	},
-	[202200106] = {
+	}
+	pg.base.dorm3d_welcome[202200106] = {
 		item_prefab = "",
 		weight = 20,
 		welcome_talk = 1316,
@@ -81,8 +109,8 @@ pg.dorm3d_welcome = {
 		id = 202200106,
 		item_shield = "",
 		area = "Table"
-	},
-	[202200107] = {
+	}
+	pg.base.dorm3d_welcome[202200107] = {
 		item_prefab = "",
 		weight = 20,
 		welcome_talk = 1322,
@@ -93,27 +121,5 @@ pg.dorm3d_welcome = {
 		id = 202200107,
 		item_shield = "",
 		area = "Tianlangxing"
-	},
-	get_id_list_by_room_id = {
-		{
-			202200101,
-			202200102,
-			202200103,
-			202200104,
-			202200105,
-			202200106
-		},
-		[4] = {
-			202200107
-		}
-	},
-	all = {
-		202200101,
-		202200102,
-		202200103,
-		202200104,
-		202200105,
-		202200106,
-		202200107
 	}
-}
+end)()

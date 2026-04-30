@@ -1,6 +1,22 @@
 pg = pg or {}
-pg.activity_event_linkgame = {
-	{
+pg.activity_event_linkgame = rawget(pg, "activity_event_linkgame") or setmetatable({
+	__name = "activity_event_linkgame"
+}, confNEO)
+pg.activity_event_linkgame.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8
+}
+pg.base = pg.base or {}
+pg.base.activity_event_linkgame = {}
+
+(function ()
+	pg.base.activity_event_linkgame[1] = {
 		id = 1,
 		name = "Stage1",
 		unlock_txt = "限定海域T-1を\n☆3クリア",
@@ -19,8 +35,8 @@ pg.activity_event_linkgame = {
 				12
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_linkgame[2] = {
 		id = 2,
 		name = "Stage2",
 		unlock_txt = "限定海域T-2を\n☆3クリア",
@@ -45,8 +61,8 @@ pg.activity_event_linkgame = {
 		story = {
 			"HOLORICHANG4"
 		}
-	},
-	{
+	}
+	pg.base.activity_event_linkgame[3] = {
 		id = 3,
 		name = "Stage3",
 		unlock_txt = "限定海域T-3を\n☆3クリア",
@@ -69,8 +85,8 @@ pg.activity_event_linkgame = {
 				8
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_linkgame[4] = {
 		id = 4,
 		name = "Stage4",
 		unlock_txt = "限定海域T-4を\n☆3クリア",
@@ -99,8 +115,8 @@ pg.activity_event_linkgame = {
 		story = {
 			"HOLORICHANG5"
 		}
-	},
-	{
+	}
+	pg.base.activity_event_linkgame[5] = {
 		id = 5,
 		name = "Stage5",
 		unlock_txt = "限定海域T-5を\n☆3クリア",
@@ -131,8 +147,8 @@ pg.activity_event_linkgame = {
 				6
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_linkgame[6] = {
 		id = 6,
 		name = "Stage6",
 		unlock_txt = "限定海域T-6を\n☆3クリア",
@@ -169,8 +185,8 @@ pg.activity_event_linkgame = {
 		story = {
 			"HOLORICHANG6"
 		}
-	},
-	{
+	}
+	pg.base.activity_event_linkgame[7] = {
 		id = 7,
 		name = "Stage7",
 		unlock_txt = "ミニゲームS-6を\nクリア",
@@ -209,8 +225,8 @@ pg.activity_event_linkgame = {
 				4
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_linkgame[8] = {
 		id = 8,
 		name = "EX",
 		unlock_txt = "ミニゲームS1-7を\nクリア",
@@ -253,15 +269,5 @@ pg.activity_event_linkgame = {
 				4
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8
 	}
-}
+end)()

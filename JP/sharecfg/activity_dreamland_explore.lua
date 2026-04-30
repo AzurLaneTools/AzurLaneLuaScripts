@@ -1,6 +1,96 @@
 pg = pg or {}
-pg.activity_dreamland_explore = {
+pg.activity_dreamland_explore = rawget(pg, "activity_dreamland_explore") or setmetatable({
+	__name = "activity_dreamland_explore"
+}, confNEO)
+pg.activity_dreamland_explore.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	27,
+	28,
+	29
+}
+pg.activity_dreamland_explore.get_id_list_by_group = {
 	{
+		1,
+		2,
+		3
+	},
+	{
+		4
+	},
+	{
+		5,
+		6,
+		7
+	},
+	{
+		8,
+		9,
+		10,
+		11,
+		12,
+		13
+	},
+	{
+		14,
+		15,
+		16
+	},
+	{
+		17
+	},
+	{
+		18,
+		19,
+		20
+	},
+	{
+		21,
+		22
+	},
+	{
+		23,
+		24,
+		25
+	},
+	{
+		27
+	},
+	{
+		28
+	},
+	{
+		29
+	}
+}
+pg.base = pg.base or {}
+pg.base.activity_dreamland_explore = {}
+
+(function ()
+	pg.base.activity_dreamland_explore[1] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 1,
@@ -29,8 +119,8 @@ pg.activity_dreamland_explore = {
 				"一体どういう作りなのか、気になる……"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[2] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 1,
@@ -59,8 +149,8 @@ pg.activity_dreamland_explore = {
 				"一体どういう作りなのか、気になる……"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[3] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 1,
@@ -89,8 +179,8 @@ pg.activity_dreamland_explore = {
 				"一体どういう作りなのか、気になる……"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[4] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 2,
@@ -121,8 +211,8 @@ pg.activity_dreamland_explore = {
 				"と、天城は説明してくれた。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[5] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 3,
@@ -144,8 +234,8 @@ pg.activity_dreamland_explore = {
 				"通りかかったリヴァプールがカラフルな光を反射している泉を見て、「きっと龍鳳さんの願いが叶う予兆だよ」と興奮気味に言った。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[6] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 3,
@@ -167,8 +257,8 @@ pg.activity_dreamland_explore = {
 				"通りかかったリヴァプールがカラフルな光を反射している泉を見て、「きっと龍鳳さんの願いが叶う予兆だよ」と興奮気味に言った。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[7] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 3,
@@ -190,8 +280,8 @@ pg.activity_dreamland_explore = {
 				"通りかかったリヴァプールがカラフルな光を反射している泉を見て、「きっと龍鳳さんの願いが叶う予兆だよ」と興奮気味に言った。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[8] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 4,
@@ -224,8 +314,8 @@ pg.activity_dreamland_explore = {
 				"……夢だし、好きにさせてあげよう。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[9] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 4,
@@ -258,8 +348,8 @@ pg.activity_dreamland_explore = {
 				"……夢だし、好きにさせてあげよう。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[10] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 4,
@@ -292,8 +382,8 @@ pg.activity_dreamland_explore = {
 				"……夢だし、好きにさせてあげよう。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[11] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 4,
@@ -326,8 +416,8 @@ pg.activity_dreamland_explore = {
 				"……夢だし、好きにさせてあげよう。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[12] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 4,
@@ -360,8 +450,8 @@ pg.activity_dreamland_explore = {
 				"……夢だし、好きにさせてあげよう。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[13] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 4,
@@ -394,8 +484,8 @@ pg.activity_dreamland_explore = {
 				"……夢だし、好きにさせてあげよう。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[14] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 5,
@@ -417,8 +507,8 @@ pg.activity_dreamland_explore = {
 				"自分の風船のせいじゃないと分かった瑞鳳は、「チュンチュン♪」と幸運風船を自分と夕張にプレゼントしてくれた。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[15] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 5,
@@ -440,8 +530,8 @@ pg.activity_dreamland_explore = {
 				"自分の風船のせいじゃないと分かった瑞鳳は、「チュンチュン♪」と幸運風船を自分と夕張にプレゼントしてくれた。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[16] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 5,
@@ -463,8 +553,8 @@ pg.activity_dreamland_explore = {
 				"自分の風船のせいじゃないと分かった瑞鳳は、「チュンチュン♪」と幸運風船を自分と夕張にプレゼントしてくれた。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[17] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 6,
@@ -493,8 +583,8 @@ pg.activity_dreamland_explore = {
 				"皆で頑張って探したが、幽霊の痕跡は発見できなかった。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[18] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 7,
@@ -523,8 +613,8 @@ pg.activity_dreamland_explore = {
 				"一体どれだけ塗ったんだ……？"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[19] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 7,
@@ -553,8 +643,8 @@ pg.activity_dreamland_explore = {
 				"一体どれだけ塗ったんだ……？"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[20] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 7,
@@ -583,8 +673,8 @@ pg.activity_dreamland_explore = {
 				"一体どれだけ塗ったんだ……？"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[21] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 8,
@@ -614,8 +704,8 @@ pg.activity_dreamland_explore = {
 				"ちょっと凹んだアルフレード。しかし己を決して曲げなかった。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[22] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 8,
@@ -644,8 +734,8 @@ pg.activity_dreamland_explore = {
 				"ちょっと凹んだアルフレード。しかし己を決して曲げなかった。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[23] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 9,
@@ -667,8 +757,8 @@ pg.activity_dreamland_explore = {
 				"……ホラー映画を見すぎていないか？"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[24] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 9,
@@ -690,8 +780,8 @@ pg.activity_dreamland_explore = {
 				"……ホラー映画を見すぎていないか？"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[25] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 9,
@@ -713,8 +803,8 @@ pg.activity_dreamland_explore = {
 				"……ホラー映画を見すぎていないか？"
 			}
 		}
-	},
-	[27] = {
+	}
+	pg.base.activity_dreamland_explore[27] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 10,
@@ -747,8 +837,8 @@ pg.activity_dreamland_explore = {
 				""
 			}
 		}
-	},
-	[28] = {
+	}
+	pg.base.activity_dreamland_explore[28] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 11,
@@ -770,8 +860,8 @@ pg.activity_dreamland_explore = {
 				"彼女の指差す方向を見たが、なにも見えなかった。"
 			}
 		}
-	},
-	[29] = {
+	}
+	pg.base.activity_dreamland_explore[29] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 12,
@@ -800,89 +890,5 @@ pg.activity_dreamland_explore = {
 				"しかし天城のヒントで得られた事実では、それはただの静電気だったようだ。"
 			}
 		}
-	},
-	get_id_list_by_group = {
-		{
-			1,
-			2,
-			3
-		},
-		{
-			4
-		},
-		{
-			5,
-			6,
-			7
-		},
-		{
-			8,
-			9,
-			10,
-			11,
-			12,
-			13
-		},
-		{
-			14,
-			15,
-			16
-		},
-		{
-			17
-		},
-		{
-			18,
-			19,
-			20
-		},
-		{
-			21,
-			22
-		},
-		{
-			23,
-			24,
-			25
-		},
-		{
-			27
-		},
-		{
-			28
-		},
-		{
-			29
-		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		27,
-		28,
-		29
 	}
-}
+end)()

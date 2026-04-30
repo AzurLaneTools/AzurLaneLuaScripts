@@ -1,30 +1,33 @@
 pg = pg or {}
-pg.storeup_data_template = setmetatable({
-	__name = "storeup_data_template",
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18
-	}
-}, confHX)
+pg.storeup_data_template = rawget(pg, "storeup_data_template") or setmetatable({
+	__name = "storeup_data_template"
+}, confNEO)
+pg.storeup_data_template.__namecode__ = true
+pg.storeup_data_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18
+}
 pg.base = pg.base or {}
-pg.base.storeup_data_template = {
-	{
+pg.base.storeup_data_template = {}
+
+(function ()
+	pg.base.storeup_data_template[1] = {
 		id = 1,
 		name = "航空先駆",
 		char_list = {
@@ -54,8 +57,8 @@ pg.base.storeup_data_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.storeup_data_template[2] = {
 		id = 2,
 		name = "主人公",
 		char_list = {
@@ -85,8 +88,8 @@ pg.base.storeup_data_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.storeup_data_template[3] = {
 		id = 3,
 		name = "グリッドレイ級",
 		char_list = {
@@ -116,8 +119,8 @@ pg.base.storeup_data_template = {
 				50
 			}
 		}
-	},
-	{
+	}
+	pg.base.storeup_data_template[4] = {
 		id = 4,
 		name = "ビーバーズ隊",
 		char_list = {
@@ -149,8 +152,8 @@ pg.base.storeup_data_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.storeup_data_template[5] = {
 		id = 5,
 		name = "ブルックリン級",
 		char_list = {
@@ -180,8 +183,8 @@ pg.base.storeup_data_template = {
 				50
 			}
 		}
-	},
-	{
+	}
+	pg.base.storeup_data_template[6] = {
 		id = 6,
 		name = "アトランタ級",
 		char_list = {
@@ -211,8 +214,8 @@ pg.base.storeup_data_template = {
 				50
 			}
 		}
-	},
-	{
+	}
+	pg.base.storeup_data_template[7] = {
 		id = 7,
 		name = "1927年度計画",
 		char_list = {
@@ -242,8 +245,8 @@ pg.base.storeup_data_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.storeup_data_template[8] = {
 		id = 8,
 		name = "ポートランド級",
 		char_list = {
@@ -272,8 +275,8 @@ pg.base.storeup_data_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.storeup_data_template[9] = {
 		id = 9,
 		name = "独立の道",
 		char_list = {
@@ -303,8 +306,8 @@ pg.base.storeup_data_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.storeup_data_template[10] = {
 		id = 10,
 		name = "ヨークタウン級",
 		char_list = {
@@ -334,8 +337,8 @@ pg.base.storeup_data_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.storeup_data_template[11] = {
 		id = 11,
 		name = "真珠の涙",
 		char_list = {
@@ -366,8 +369,8 @@ pg.base.storeup_data_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.storeup_data_template[12] = {
 		id = 12,
 		name = "Cクラス",
 		char_list = {
@@ -397,8 +400,8 @@ pg.base.storeup_data_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.storeup_data_template[13] = {
 		id = 13,
 		name = "リアンダー級",
 		char_list = {
@@ -428,8 +431,8 @@ pg.base.storeup_data_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.storeup_data_template[14] = {
 		id = 14,
 		name = "Qエリザベス級",
 		char_list = {
@@ -458,8 +461,8 @@ pg.base.storeup_data_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.storeup_data_template[15] = {
 		id = 15,
 		name = "ネルソン級",
 		char_list = {
@@ -488,8 +491,8 @@ pg.base.storeup_data_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.storeup_data_template[16] = {
 		id = 16,
 		name = "巡洋戦艦家系",
 		char_list = {
@@ -519,8 +522,8 @@ pg.base.storeup_data_template = {
 				50
 			}
 		}
-	},
-	{
+	}
+	pg.base.storeup_data_template[17] = {
 		id = 17,
 		name = "カウンティ級",
 		char_list = {
@@ -552,8 +555,8 @@ pg.base.storeup_data_template = {
 				50
 			}
 		}
-	},
-	{
+	}
+	pg.base.storeup_data_template[18] = {
 		id = 18,
 		name = "鉄血K級",
 		char_list = {
@@ -584,4 +587,4 @@ pg.base.storeup_data_template = {
 			}
 		}
 	}
-}
+end)()

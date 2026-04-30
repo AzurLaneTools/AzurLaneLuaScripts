@@ -2277,18 +2277,20 @@ end
 slot1.GetCVListForProfile = function(slot0, slot1)
 	slot2 = {}
 
-	for slot6, slot7 in pairs(uv0.character_voice) do
-		if not uv0.AssistantInfo.isDisableSpecialClick(slot6) and slot7.unlock_condition[1] >= 0 and slot7.l2d_action ~= "" then
-			if slot7.l2d_action == "get" then
+	for slot6, slot7 in ipairs(uv0.character_voice.all) do
+		slot8 = uv0.character_voice[slot7]
+
+		if not uv0.AssistantInfo.isDisableSpecialClick(slot7) and slot8.unlock_condition[1] >= 0 and slot8.l2d_action ~= "" then
+			if slot8.l2d_action == "get" then
 				if PaintingShowScene.GetSkinShowAble(slot1) then
-					table.insert(slot2, slot7)
+					table.insert(slot2, slot8)
 				end
-			elseif slot7.sp_trans_l2d == 1 then
+			elseif slot8.sp_trans_l2d == 1 then
 				if slot0 then
-					table.insert(slot2, slot7)
+					table.insert(slot2, slot8)
 				end
-			elseif slot7.sp_trans_l2d == 0 or not slot7.sp_trans_l2d then
-				table.insert(slot2, slot7)
+			elseif slot8.sp_trans_l2d == 0 or not slot8.sp_trans_l2d then
+				table.insert(slot2, slot8)
 			end
 		end
 	end

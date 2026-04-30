@@ -1,6 +1,26 @@
 pg = pg or {}
-pg.activity_event_challenge = {
-	{
+pg.activity_event_challenge = rawget(pg, "activity_event_challenge") or setmetatable({
+	__name = "activity_event_challenge"
+}, confNEO)
+pg.activity_event_challenge.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12
+}
+pg.base = pg.base or {}
+pg.base.activity_event_challenge = {}
+
+(function ()
+	pg.base.activity_event_challenge[1] = {
 		id = 1,
 		reset_time = 7,
 		infinite_stage = {
@@ -255,8 +275,8 @@ pg.activity_event_challenge = {
 			5,
 			5
 		}
-	},
-	{
+	}
+	pg.base.activity_event_challenge[2] = {
 		id = 2,
 		reset_time = 7,
 		infinite_stage = {
@@ -511,8 +531,8 @@ pg.activity_event_challenge = {
 			5,
 			5
 		}
-	},
-	{
+	}
+	pg.base.activity_event_challenge[3] = {
 		id = 3,
 		reset_time = 7,
 		infinite_stage = {
@@ -797,8 +817,8 @@ pg.activity_event_challenge = {
 			5,
 			5
 		}
-	},
-	{
+	}
+	pg.base.activity_event_challenge[4] = {
 		id = 4,
 		reset_time = 7,
 		infinite_stage = {
@@ -1263,8 +1283,8 @@ pg.activity_event_challenge = {
 			5,
 			5
 		}
-	},
-	{
+	}
+	pg.base.activity_event_challenge[5] = {
 		id = 5,
 		reset_time = 7,
 		infinite_stage = {
@@ -1669,8 +1689,8 @@ pg.activity_event_challenge = {
 			5,
 			5
 		}
-	},
-	{
+	}
+	pg.base.activity_event_challenge[6] = {
 		id = 6,
 		reset_time = 7,
 		infinite_stage = {
@@ -2075,8 +2095,8 @@ pg.activity_event_challenge = {
 			5,
 			5
 		}
-	},
-	{
+	}
+	pg.base.activity_event_challenge[7] = {
 		id = 7,
 		reset_time = 7,
 		infinite_stage = {
@@ -2511,8 +2531,8 @@ pg.activity_event_challenge = {
 			5,
 			5
 		}
-	},
-	{
+	}
+	pg.base.activity_event_challenge[8] = {
 		id = 8,
 		reset_time = 7,
 		infinite_stage = {
@@ -2917,8 +2937,8 @@ pg.activity_event_challenge = {
 			5,
 			5
 		}
-	},
-	{
+	}
+	pg.base.activity_event_challenge[9] = {
 		id = 9,
 		reset_time = 7,
 		infinite_stage = {
@@ -3323,8 +3343,8 @@ pg.activity_event_challenge = {
 			5,
 			5
 		}
-	},
-	{
+	}
+	pg.base.activity_event_challenge[10] = {
 		id = 10,
 		reset_time = 7,
 		infinite_stage = {
@@ -3729,8 +3749,8 @@ pg.activity_event_challenge = {
 			5,
 			5
 		}
-	},
-	{
+	}
+	pg.base.activity_event_challenge[11] = {
 		id = 11,
 		reset_time = 7,
 		infinite_stage = {
@@ -4135,8 +4155,8 @@ pg.activity_event_challenge = {
 			5,
 			5
 		}
-	},
-	{
+	}
+	pg.base.activity_event_challenge[12] = {
 		id = 12,
 		reset_time = 7,
 		infinite_stage = {
@@ -4541,19 +4561,5 @@ pg.activity_event_challenge = {
 			5,
 			5
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12
 	}
-}
+end)()

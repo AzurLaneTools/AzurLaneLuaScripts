@@ -1,6 +1,62 @@
 pg = pg or {}
-pg.island_main_btns = {
+pg.island_main_btns = rawget(pg, "island_main_btns") or setmetatable({
+	__name = "island_main_btns"
+}, confNEO)
+pg.island_main_btns.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20
+}
+pg.island_main_btns.get_id_list_by_main_type = {
 	{
+		2,
+		3,
+		4,
+		5,
+		11,
+		12
+	},
+	{
+		1,
+		6,
+		7,
+		8,
+		9,
+		10,
+		13,
+		14,
+		15,
+		16,
+		17,
+		18,
+		19
+	},
+	{
+		20
+	}
+}
+pg.base = pg.base or {}
+pg.base.island_main_btns = {}
+
+(function ()
+	pg.base.island_main_btns[1] = {
 		ability_id = 9,
 		name = "倉庫",
 		main_type = 2,
@@ -10,8 +66,8 @@ pg.island_main_btns = {
 		icon = "inventory",
 		order = 1,
 		page_param = {}
-	},
-	{
+	}
+	pg.base.island_main_btns[2] = {
 		ability_id = 28,
 		name = "キャラ",
 		main_type = 1,
@@ -21,8 +77,8 @@ pg.island_main_btns = {
 		icon = "char",
 		order = 5,
 		page_param = {}
-	},
-	{
+	}
+	pg.base.island_main_btns[3] = {
 		ability_id = 6,
 		name = "マップ",
 		main_type = 1,
@@ -32,8 +88,8 @@ pg.island_main_btns = {
 		icon = "map",
 		order = 2,
 		page_param = {}
-	},
-	{
+	}
+	pg.base.island_main_btns[4] = {
 		ability_id = 35,
 		name = "ショップ",
 		main_type = 1,
@@ -59,8 +115,8 @@ pg.island_main_btns = {
 			},
 			1
 		}
-	},
-	{
+	}
+	pg.base.island_main_btns[5] = {
 		ability_id = 2,
 		name = "設備",
 		main_type = 1,
@@ -70,8 +126,8 @@ pg.island_main_btns = {
 		icon = "device",
 		order = 6,
 		page_param = {}
-	},
-	{
+	}
+	pg.base.island_main_btns[6] = {
 		ability_id = 7,
 		name = "離島依頼",
 		main_type = 2,
@@ -81,8 +137,8 @@ pg.island_main_btns = {
 		icon = "order",
 		order = 2,
 		page_param = {}
-	},
-	{
+	}
+	pg.base.island_main_btns[7] = {
 		ability_id = 32,
 		name = "輸送委託",
 		main_type = 2,
@@ -92,8 +148,8 @@ pg.island_main_btns = {
 		icon = "ship_order",
 		order = 3,
 		page_param = {}
-	},
-	{
+	}
+	pg.base.island_main_btns[8] = {
 		ability_id = 37001,
 		name = "配置",
 		main_type = 2,
@@ -103,8 +159,8 @@ pg.island_main_btns = {
 		icon = "post_manage",
 		order = 4,
 		page_param = {}
-	},
-	{
+	}
+	pg.base.island_main_btns[9] = {
 		ability_id = 29001,
 		name = "セット図鑑",
 		main_type = 2,
@@ -114,8 +170,8 @@ pg.island_main_btns = {
 		icon = "collection",
 		order = 5,
 		page_param = {}
-	},
-	{
+	}
+	pg.base.island_main_btns[10] = {
 		ability_id = 30,
 		name = "実績",
 		main_type = 2,
@@ -125,8 +181,8 @@ pg.island_main_btns = {
 		icon = "achievement",
 		order = 6,
 		page_param = {}
-	},
-	{
+	}
+	pg.base.island_main_btns[11] = {
 		ability_id = 31,
 		name = "シーズン",
 		main_type = 1,
@@ -136,8 +192,8 @@ pg.island_main_btns = {
 		icon = "season",
 		order = 3,
 		page_param = {}
-	},
-	{
+	}
+	pg.base.island_main_btns[12] = {
 		ability_id = 28,
 		name = "技術研究",
 		main_type = 1,
@@ -147,8 +203,8 @@ pg.island_main_btns = {
 		icon = "technology",
 		order = 4,
 		page_param = {}
-	},
-	{
+	}
+	pg.base.island_main_btns[13] = {
 		ability_id = 27,
 		name = "友達",
 		main_type = 2,
@@ -158,8 +214,8 @@ pg.island_main_btns = {
 		icon = "friend",
 		order = 7,
 		page_param = {}
-	},
-	{
+	}
+	pg.base.island_main_btns[14] = {
 		ability_id = 33,
 		name = "着せ替え",
 		main_type = 2,
@@ -169,8 +225,8 @@ pg.island_main_btns = {
 		icon = "commander",
 		order = 8,
 		page_param = {}
-	},
-	{
+	}
+	pg.base.island_main_btns[15] = {
 		ability_id = 2,
 		name = "計画",
 		main_type = 2,
@@ -180,8 +236,8 @@ pg.island_main_btns = {
 		icon = "task",
 		order = 9,
 		page_param = {}
-	},
-	{
+	}
+	pg.base.island_main_btns[16] = {
 		ability_id = 0,
 		name = "メール",
 		main_type = 2,
@@ -191,8 +247,8 @@ pg.island_main_btns = {
 		icon = "mail",
 		order = 10,
 		page_param = {}
-	},
-	{
+	}
+	pg.base.island_main_btns[17] = {
 		ability_id = 0,
 		name = "設定",
 		main_type = 2,
@@ -202,8 +258,8 @@ pg.island_main_btns = {
 		icon = "setting",
 		order = 11,
 		page_param = {}
-	},
-	{
+	}
+	pg.base.island_main_btns[18] = {
 		ability_id = 0,
 		name = "図鑑",
 		main_type = 2,
@@ -213,8 +269,8 @@ pg.island_main_btns = {
 		icon = "book",
 		order = 12,
 		page_param = {}
-	},
-	{
+	}
+	pg.base.island_main_btns[19] = {
 		ability_id = 41,
 		name = "写真",
 		main_type = 2,
@@ -224,8 +280,8 @@ pg.island_main_btns = {
 		icon = "photo",
 		order = 13,
 		page_param = {}
-	},
-	{
+	}
+	pg.base.island_main_btns[20] = {
 		ability_id = 47,
 		name = "釣果図鑑",
 		main_type = 3,
@@ -235,55 +291,5 @@ pg.island_main_btns = {
 		icon = "book_fish",
 		order = 14,
 		page_param = {}
-	},
-	get_id_list_by_main_type = {
-		{
-			2,
-			3,
-			4,
-			5,
-			11,
-			12
-		},
-		[2] = {
-			1,
-			6,
-			7,
-			8,
-			9,
-			10,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19
-		},
-		[3] = {
-			20
-		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20
 	}
-}
+end)()

@@ -1,581 +1,303 @@
 pg = pg or {}
-pg.island_item_data_template = setmetatable({
-	__name = "island_item_data_template",
-	get_id_list_by_usage = {
-		usage_undefined = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			1000,
-			1001,
-			1002,
-			1003,
-			1004,
-			1005,
-			1006,
-			1007,
-			1008,
-			1009,
-			1010,
-			1011,
-			1012,
-			1014,
-			1015,
-			1016,
-			1017,
-			1018,
-			1019,
-			1020,
-			1021,
-			1022,
-			1101,
-			1102,
-			1103,
-			1104,
-			1105,
-			1106,
-			1107,
-			1108,
-			1201,
-			1202,
-			1203,
-			1204,
-			1205,
-			1206,
-			1207,
-			1208,
-			2000,
-			2001,
-			2002,
-			2003,
-			2004,
-			2005,
-			2006,
-			2007,
-			2008,
-			2009,
-			2010,
-			2011,
-			2012,
-			2014,
-			2015,
-			2016,
-			2017,
-			2018,
-			2019,
-			2020,
-			2021,
-			2022,
-			2521,
-			2522,
-			2600,
-			2601,
-			2602,
-			2603,
-			2604,
-			2605,
-			2606,
-			2700,
-			2701,
-			2702,
-			2703,
-			2704,
-			2705,
-			2800,
-			2801,
-			2802,
-			2803,
-			3000,
-			3001,
-			3002,
-			3003,
-			3004,
-			3005,
-			3006,
-			3007,
-			3008,
-			3009,
-			3010,
-			3011,
-			3012,
-			3013,
-			3014,
-			3015,
-			3017,
-			3018,
-			3019,
-			3020,
-			3021,
-			3022,
-			3023,
-			3024,
-			3025,
-			3026,
-			3028,
-			3029,
-			3030,
-			3032,
-			3033,
-			3034,
-			3035,
-			3036,
-			3037,
-			3038,
-			3039,
-			3040,
-			3041,
-			3042,
-			3043,
-			3044,
-			3045,
-			3046,
-			3047,
-			3048,
-			3049,
-			3050,
-			3051,
-			3052,
-			3053,
-			3054,
-			3055,
-			3056,
-			3059,
-			3101,
-			3102,
-			3103,
-			3104,
-			3105,
-			3106,
-			3107,
-			3108,
-			3109,
-			3110,
-			3111,
-			3112,
-			3113,
-			3114,
-			3115,
-			3116,
-			3117,
-			3118,
-			3119,
-			3120,
-			4001,
-			4002,
-			4003,
-			4004,
-			4005,
-			4006,
-			4007,
-			4008,
-			4009,
-			4010,
-			4011,
-			4012,
-			4013,
-			4014,
-			4015,
-			4016,
-			4017,
-			4018,
-			4019,
-			4020,
-			4021,
-			4022,
-			4023,
-			4024,
-			4025,
-			4026,
-			4027,
-			4028,
-			5001,
-			5002,
-			5003,
-			5004,
-			5005,
-			5006,
-			5007,
-			5008,
-			5101,
-			5102,
-			5103,
-			5104,
-			5105,
-			5106,
-			5107,
-			5108,
-			9900,
-			100001,
-			100002,
-			100003,
-			100011,
-			100012,
-			100013,
-			100021,
-			100022,
-			100023,
-			100031,
-			100032,
-			100033,
-			100041,
-			100042,
-			100043,
-			100051,
-			100052,
-			100053,
-			100061,
-			100062,
-			100063,
-			100101,
-			100102,
-			100103,
-			100201,
-			200001,
-			200002,
-			200003,
-			200004,
-			200005,
-			200006,
-			200007,
-			200008,
-			200009,
-			200010,
-			200011,
-			200012,
-			200013,
-			200014,
-			200015,
-			200016,
-			200017,
-			200018,
-			200019,
-			200020,
-			200021,
-			200022,
-			200023,
-			300001,
-			300002,
-			300003,
-			300004,
-			300005,
-			300006
-		},
-		usage_fish = {
-			1500,
-			1501,
-			1502,
-			1503
-		},
-		usage_island_gift = {
-			110001,
-			110002,
-			110003,
-			110004,
-			110005,
-			110006
-		}
+pg.island_item_data_template = rawget(pg, "island_item_data_template") or setmetatable({
+	__name = "island_item_data_template"
+}, confNEO)
+pg.island_item_data_template.__namecode__ = true
+pg.island_item_data_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	1000,
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008,
+	1009,
+	1010,
+	1011,
+	1012,
+	1014,
+	1015,
+	1016,
+	1017,
+	1018,
+	1019,
+	1020,
+	1021,
+	1022,
+	1101,
+	1102,
+	1103,
+	1104,
+	1105,
+	1106,
+	1107,
+	1108,
+	1201,
+	1202,
+	1203,
+	1204,
+	1205,
+	1206,
+	1207,
+	1208,
+	1500,
+	1501,
+	1502,
+	1503,
+	2000,
+	2001,
+	2002,
+	2003,
+	2004,
+	2005,
+	2006,
+	2007,
+	2008,
+	2009,
+	2010,
+	2011,
+	2012,
+	2014,
+	2015,
+	2016,
+	2017,
+	2018,
+	2019,
+	2020,
+	2021,
+	2022,
+	2521,
+	2522,
+	2600,
+	2601,
+	2602,
+	2603,
+	2604,
+	2605,
+	2606,
+	2700,
+	2701,
+	2702,
+	2703,
+	2704,
+	2705,
+	2800,
+	2801,
+	2802,
+	2803,
+	3000,
+	3001,
+	3002,
+	3003,
+	3004,
+	3005,
+	3006,
+	3007,
+	3008,
+	3009,
+	3010,
+	3011,
+	3012,
+	3013,
+	3014,
+	3015,
+	3017,
+	3018,
+	3019,
+	3020,
+	3021,
+	3022,
+	3023,
+	3024,
+	3025,
+	3026,
+	3028,
+	3029,
+	3030,
+	3032,
+	3033,
+	3034,
+	3035,
+	3036,
+	3037,
+	3038,
+	3039,
+	3040,
+	3041,
+	3042,
+	3043,
+	3044,
+	3045,
+	3046,
+	3047,
+	3048,
+	3049,
+	3050,
+	3051,
+	3052,
+	3053,
+	3054,
+	3055,
+	3056,
+	3059,
+	3101,
+	3102,
+	3103,
+	3104,
+	3105,
+	3106,
+	3107,
+	3108,
+	3109,
+	3110,
+	3111,
+	3112,
+	3113,
+	3114,
+	3115,
+	3116,
+	3117,
+	3118,
+	3119,
+	3120,
+	4001,
+	4002,
+	4003,
+	4004,
+	4005,
+	4006,
+	4007,
+	4008,
+	4009,
+	4010,
+	4011,
+	4012,
+	4013,
+	4014,
+	4015,
+	4016,
+	4017,
+	4018,
+	4019,
+	4020,
+	4021,
+	4022,
+	4023,
+	4024,
+	4025,
+	4026,
+	4027,
+	4028,
+	5001,
+	5002,
+	5003,
+	5004,
+	5005,
+	5006,
+	5007,
+	5008,
+	5101,
+	5102,
+	5103,
+	5104,
+	5105,
+	5106,
+	5107,
+	5108,
+	9900,
+	100001,
+	100002,
+	100003,
+	100011,
+	100012,
+	100013,
+	100021,
+	100022,
+	100023,
+	100031,
+	100032,
+	100033,
+	100041,
+	100042,
+	100043,
+	100051,
+	100052,
+	100053,
+	100061,
+	100062,
+	100063,
+	100101,
+	100102,
+	100103,
+	100201,
+	110001,
+	110002,
+	110003,
+	110004,
+	110005,
+	110006,
+	200001,
+	200002,
+	200003,
+	200004,
+	200005,
+	200006,
+	200007,
+	200008,
+	200009,
+	200010,
+	200011,
+	200012,
+	200013,
+	200014,
+	200015,
+	200016,
+	200017,
+	200018,
+	200019,
+	200020,
+	200021,
+	200022,
+	200023,
+	300001,
+	300002,
+	300003,
+	300004,
+	300005,
+	300006
+}
+pg.island_item_data_template.get_id_list_by_usage = {
+	usage_fish = {
+		1500,
+		1501,
+		1502,
+		1503
 	},
-	get_id_list_by_type = {
-		{
-			10,
-			14,
-			1000,
-			1001,
-			1002,
-			1003,
-			1004,
-			1005,
-			1006,
-			1007,
-			1008,
-			1009,
-			1010,
-			1011,
-			1012,
-			1014,
-			1015,
-			1016,
-			1017,
-			1018,
-			1019,
-			1020,
-			1021,
-			1022,
-			1101,
-			1102,
-			1103,
-			1104,
-			1105,
-			1106,
-			1107,
-			1108,
-			1201,
-			1202,
-			1203,
-			1204,
-			1205,
-			1206,
-			1207,
-			1208,
-			2000,
-			2001,
-			2002,
-			2003,
-			2004,
-			2005,
-			2006,
-			2007,
-			2008,
-			2009,
-			2010,
-			2011,
-			2012,
-			2014,
-			2015,
-			2016,
-			2017,
-			2018,
-			2019,
-			2020,
-			2021,
-			2022,
-			2521,
-			2522,
-			2600,
-			2601,
-			2602,
-			2603,
-			2604,
-			2605,
-			2606,
-			2700,
-			2701,
-			2702,
-			2703,
-			2704,
-			2705,
-			2800,
-			2801,
-			2802,
-			2803,
-			3000,
-			3001,
-			3002,
-			3003,
-			3004,
-			3005,
-			3006,
-			3007,
-			3008,
-			3009,
-			3010,
-			3011,
-			3012,
-			3013,
-			3014,
-			3015,
-			3017,
-			3018,
-			3019,
-			3020,
-			3021,
-			3022,
-			3023,
-			3024,
-			3025,
-			3026,
-			3028,
-			3029,
-			3030,
-			3032,
-			3033,
-			3034,
-			3035,
-			3036,
-			3037,
-			3038,
-			3039,
-			3040,
-			3041,
-			3042,
-			3043,
-			3044,
-			3045,
-			3046,
-			3047,
-			3048,
-			3049,
-			3050,
-			3051,
-			3052,
-			3053,
-			3054,
-			3055,
-			3056,
-			3059,
-			3101,
-			3102,
-			3103,
-			3104,
-			3105,
-			3106,
-			3107,
-			3108,
-			3109,
-			3110,
-			3111,
-			3112,
-			3113,
-			3114,
-			3115,
-			3116,
-			3117,
-			3118,
-			3119,
-			3120,
-			4001,
-			4002,
-			4003,
-			4004,
-			4005,
-			4006,
-			4007,
-			4008,
-			4009,
-			4010,
-			4011,
-			4012,
-			4013,
-			4014,
-			4015,
-			4016,
-			4017,
-			4018,
-			4019,
-			4020,
-			4021,
-			4022,
-			4023,
-			4024,
-			4025,
-			4026,
-			4027,
-			4028,
-			5001,
-			5002,
-			5003,
-			5004,
-			5005,
-			5006,
-			5007,
-			5008,
-			5101,
-			5102,
-			5103,
-			5104,
-			5105,
-			5106,
-			5107,
-			5108,
-			9900
-		},
-		[3] = {
-			1,
-			5,
-			6,
-			7,
-			8,
-			9,
-			11,
-			12,
-			13,
-			1500,
-			1501,
-			1502,
-			1503
-		},
-		[4] = {
-			2
-		},
-		[2] = {
-			3,
-			4,
-			100011,
-			100012,
-			100013,
-			100021,
-			100022,
-			100023,
-			100031,
-			100032,
-			100033,
-			100041,
-			100042,
-			100043,
-			100051,
-			100052,
-			100053,
-			100061,
-			100062,
-			100063,
-			100101,
-			100102,
-			100103,
-			100201,
-			110001,
-			110002,
-			110003,
-			110004,
-			110005,
-			110006,
-			200001,
-			200002,
-			200003,
-			200004,
-			200005,
-			200006,
-			200007,
-			200008,
-			200009,
-			200010,
-			200011,
-			200012,
-			200013,
-			200014,
-			200015,
-			200016,
-			200017,
-			200018,
-			200019,
-			200020,
-			200021,
-			200022,
-			200023,
-			300001,
-			300002,
-			300003,
-			300004,
-			300005,
-			300006
-		},
-		[5] = {
-			100001,
-			100002,
-			100003
-		}
+	usage_island_gift = {
+		110001,
+		110002,
+		110003,
+		110004,
+		110005,
+		110006
 	},
-	all = {
+	usage_undefined = {
 		1,
 		2,
 		3,
@@ -628,10 +350,6 @@ pg.island_item_data_template = setmetatable({
 		1206,
 		1207,
 		1208,
-		1500,
-		1501,
-		1502,
-		1503,
 		2000,
 		2001,
 		2002,
@@ -818,6 +536,266 @@ pg.island_item_data_template = setmetatable({
 		100102,
 		100103,
 		100201,
+		200001,
+		200002,
+		200003,
+		200004,
+		200005,
+		200006,
+		200007,
+		200008,
+		200009,
+		200010,
+		200011,
+		200012,
+		200013,
+		200014,
+		200015,
+		200016,
+		200017,
+		200018,
+		200019,
+		200020,
+		200021,
+		200022,
+		200023,
+		300001,
+		300002,
+		300003,
+		300004,
+		300005,
+		300006
+	}
+}
+pg.island_item_data_template.get_id_list_by_type = {
+	{
+		10,
+		14,
+		1000,
+		1001,
+		1002,
+		1003,
+		1004,
+		1005,
+		1006,
+		1007,
+		1008,
+		1009,
+		1010,
+		1011,
+		1012,
+		1014,
+		1015,
+		1016,
+		1017,
+		1018,
+		1019,
+		1020,
+		1021,
+		1022,
+		1101,
+		1102,
+		1103,
+		1104,
+		1105,
+		1106,
+		1107,
+		1108,
+		1201,
+		1202,
+		1203,
+		1204,
+		1205,
+		1206,
+		1207,
+		1208,
+		2000,
+		2001,
+		2002,
+		2003,
+		2004,
+		2005,
+		2006,
+		2007,
+		2008,
+		2009,
+		2010,
+		2011,
+		2012,
+		2014,
+		2015,
+		2016,
+		2017,
+		2018,
+		2019,
+		2020,
+		2021,
+		2022,
+		2521,
+		2522,
+		2600,
+		2601,
+		2602,
+		2603,
+		2604,
+		2605,
+		2606,
+		2700,
+		2701,
+		2702,
+		2703,
+		2704,
+		2705,
+		2800,
+		2801,
+		2802,
+		2803,
+		3000,
+		3001,
+		3002,
+		3003,
+		3004,
+		3005,
+		3006,
+		3007,
+		3008,
+		3009,
+		3010,
+		3011,
+		3012,
+		3013,
+		3014,
+		3015,
+		3017,
+		3018,
+		3019,
+		3020,
+		3021,
+		3022,
+		3023,
+		3024,
+		3025,
+		3026,
+		3028,
+		3029,
+		3030,
+		3032,
+		3033,
+		3034,
+		3035,
+		3036,
+		3037,
+		3038,
+		3039,
+		3040,
+		3041,
+		3042,
+		3043,
+		3044,
+		3045,
+		3046,
+		3047,
+		3048,
+		3049,
+		3050,
+		3051,
+		3052,
+		3053,
+		3054,
+		3055,
+		3056,
+		3059,
+		3101,
+		3102,
+		3103,
+		3104,
+		3105,
+		3106,
+		3107,
+		3108,
+		3109,
+		3110,
+		3111,
+		3112,
+		3113,
+		3114,
+		3115,
+		3116,
+		3117,
+		3118,
+		3119,
+		3120,
+		4001,
+		4002,
+		4003,
+		4004,
+		4005,
+		4006,
+		4007,
+		4008,
+		4009,
+		4010,
+		4011,
+		4012,
+		4013,
+		4014,
+		4015,
+		4016,
+		4017,
+		4018,
+		4019,
+		4020,
+		4021,
+		4022,
+		4023,
+		4024,
+		4025,
+		4026,
+		4027,
+		4028,
+		5001,
+		5002,
+		5003,
+		5004,
+		5005,
+		5006,
+		5007,
+		5008,
+		5101,
+		5102,
+		5103,
+		5104,
+		5105,
+		5106,
+		5107,
+		5108,
+		9900
+	},
+	{
+		3,
+		4,
+		100011,
+		100012,
+		100013,
+		100021,
+		100022,
+		100023,
+		100031,
+		100032,
+		100033,
+		100041,
+		100042,
+		100043,
+		100051,
+		100052,
+		100053,
+		100061,
+		100062,
+		100063,
+		100101,
+		100102,
+		100103,
+		100201,
 		110001,
 		110002,
 		110003,
@@ -853,11 +831,36 @@ pg.island_item_data_template = setmetatable({
 		300004,
 		300005,
 		300006
-	}
-}, confHX)
-pg.base = pg.base or {}
-pg.base.island_item_data_template = {
+	},
 	{
+		1,
+		5,
+		6,
+		7,
+		8,
+		9,
+		11,
+		12,
+		13,
+		1500,
+		1501,
+		1502,
+		1503
+	},
+	{
+		2
+	},
+	{
+		100001,
+		100002,
+		100003
+	}
+}
+pg.base = pg.base or {}
+pg.base.island_item_data_template = {}
+
+(function ()
+	pg.base.island_item_data_template[1] = {
 		name = "開発資金",
 		desc = "離島開発エリアで流通する貨幣。持続的な発展の基本である",
 		type = 3,
@@ -891,8 +894,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	{
+	}
+	pg.base.island_item_data_template[2] = {
 		name = "開発EXP",
 		desc = "離島開発の経験値。開発経験値が貯まると開発レベルが上昇する",
 		type = 4,
@@ -926,8 +929,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	{
+	}
+	pg.base.island_item_data_template[3] = {
 		name = "着せ替えカラー",
 		desc = "様々なペイント素材があるカラーパレット。きせかえの色を変更でき、オリジナル着せ替えにすることが可能！",
 		type = 2,
@@ -961,8 +964,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	{
+	}
+	pg.base.island_item_data_template[4] = {
 		name = "建築手形",
 		desc = "集会島の建築許可。これがあれば集会島で自分の専属地を模様替えできる",
 		type = 2,
@@ -987,8 +990,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[5] = {
 		name = "地図の破片-1",
 		desc = "奇妙な紙切れ。歪んだ筆跡になにやら秘密が隠されているようだ",
 		type = 3,
@@ -1013,8 +1016,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[6] = {
 		name = "地図の破片-2",
 		desc = "奇妙な紙切れ。歪んだ筆跡になにやら秘密が隠されているようだ",
 		type = 3,
@@ -1039,8 +1042,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[7] = {
 		name = "地図の破片-3",
 		desc = "奇妙な紙切れ。歪んだ筆跡になにやら秘密が隠されているようだ",
 		type = 3,
@@ -1065,8 +1068,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[8] = {
 		name = "地図の破片-4",
 		desc = "奇妙な紙切れ。歪んだ筆跡になにやら秘密が隠されているようだ",
 		type = 3,
@@ -1091,8 +1094,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[9] = {
 		name = "地図の破片-5",
 		desc = "奇妙な紙切れ。歪んだ筆跡になにやら秘密が隠されているようだ",
 		type = 3,
@@ -1117,8 +1120,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[10] = {
 		name = "離島シーズンPt交換チケット",
 		desc = "離島シーズン開発Ptの交換チケット。シーズン終了時に自動で当シーズンの開発Ptに返還されます（倉庫で手動で変換可能）",
 		type = 1,
@@ -1143,8 +1146,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[11] = {
 		name = "领洋者-娜比娅（特殊）",
 		desc = "领洋者-娜比娅（特殊）",
 		type = 3,
@@ -1167,8 +1170,8 @@ pg.base.island_item_data_template = {
 		filter = {},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[12] = {
 		name = "领航员-TB（特殊）",
 		desc = "领航员-TB（特殊）",
 		type = 3,
@@ -1191,8 +1194,8 @@ pg.base.island_item_data_template = {
 		filter = {},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[13] = {
 		name = "探索者-艾普洛（特殊）",
 		desc = "探索者-艾普洛（特殊）",
 		type = 3,
@@ -1215,8 +1218,8 @@ pg.base.island_item_data_template = {
 		filter = {},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[14] = {
 		name = "離島開発Pt",
 		desc = "離島開発エリアの発展度合いを示すPtアイテム。各種報酬を入手可能",
 		type = 1,
@@ -1241,8 +1244,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[1000] = {
+	}
+	pg.base.island_item_data_template[1000] = {
 		name = "小麦の種",
 		desc = "母港厳選の小麦の種。上質な小麦が収穫できる。",
 		type = 1,
@@ -1285,8 +1288,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1001] = {
+	}
+	pg.base.island_item_data_template[1001] = {
 		name = "とうもろこしの種",
 		desc = "母港厳選のとうもろこしの種。豊作の力が込められている。",
 		type = 1,
@@ -1329,8 +1332,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1002] = {
+	}
+	pg.base.island_item_data_template[1002] = {
 		name = "陸稲の種",
 		desc = "母港厳選の陸稲の種。一緒に収穫の時を待とう",
 		type = 1,
@@ -1373,8 +1376,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1003] = {
+	}
+	pg.base.island_item_data_template[1003] = {
 		name = "白菜の種",
 		desc = "母港厳選の白菜の種。水々しい大きな白菜を収穫できる。",
 		type = 1,
@@ -1417,8 +1420,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1004] = {
+	}
+	pg.base.island_item_data_template[1004] = {
 		name = "ニンジンの種",
 		desc = "母港厳選のニンジンの種。甘いニンジンを収穫できる。",
 		type = 1,
@@ -1461,8 +1464,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1005] = {
+	}
+	pg.base.island_item_data_template[1005] = {
 		name = "じゃがいもの種",
 		desc = "母港厳選のじゃがいもの種。収穫の多いじゃがいもを収穫できる。",
 		type = 1,
@@ -1505,8 +1508,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1006] = {
+	}
+	pg.base.island_item_data_template[1006] = {
 		name = "大豆の種",
 		desc = "母港厳選の大豆の種。上質な大豆を収穫できる。",
 		type = 1,
@@ -1549,8 +1552,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1007] = {
+	}
+	pg.base.island_item_data_template[1007] = {
 		name = "玉ねぎの種",
 		desc = "母港厳選の玉ねぎの種。魅力的な玉ねぎを収穫できる。",
 		type = 1,
@@ -1593,8 +1596,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1008] = {
+	}
+	pg.base.island_item_data_template[1008] = {
 		name = "牧草の種",
 		desc = "母港厳選の牧草の種。豊かな牧草を収穫できる。",
 		type = 1,
@@ -1637,8 +1640,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1009] = {
+	}
+	pg.base.island_item_data_template[1009] = {
 		name = "コーヒーの木の種",
 		desc = "母港厳選のコーヒーの木の種。風味豊かなコーヒー豆を収穫できる。",
 		type = 1,
@@ -1681,8 +1684,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1010] = {
+	}
+	pg.base.island_item_data_template[1010] = {
 		name = "亜麻の種",
 		desc = "母港厳選の亜麻の種。成長が早く、長くて丈夫な繊維を入手できる。紡績の良き素材。",
 		type = 1,
@@ -1725,8 +1728,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1011] = {
+	}
+	pg.base.island_item_data_template[1011] = {
 		name = "いちごの種",
 		desc = "母港厳選のいちごの種。真っ赤ないちごを収穫できる。",
 		type = 1,
@@ -1769,8 +1772,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1012] = {
+	}
+	pg.base.island_item_data_template[1012] = {
 		name = "綿の種",
 		desc = "母港厳選の綿の種。柔らかい綿が実る。",
 		type = 1,
@@ -1813,8 +1816,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1014] = {
+	}
+	pg.base.island_item_data_template[1014] = {
 		name = "茶の木の種",
 		desc = "母港厳選の茶の木の種。上質な茶葉を入手可能。",
 		type = 1,
@@ -1857,8 +1860,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1015] = {
+	}
+	pg.base.island_item_data_template[1015] = {
 		name = "ラベンダーの種",
 		desc = "母港厳選のラベンダーの種。紫色の花畑が育つ。",
 		type = 1,
@@ -1901,8 +1904,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1016] = {
+	}
+	pg.base.island_item_data_template[1016] = {
 		name = "りんごの木の種",
 		desc = "母港で育てられた優良なりんごの木の種。みずみずしくておいしいりんごを収穫可能。",
 		type = 1,
@@ -1945,8 +1948,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1017] = {
+	}
+	pg.base.island_item_data_template[1017] = {
 		name = "柑橘類の木の種",
 		desc = "母港で育てられた優良な柑橘類の木の種。甘くてジューシーな柑橘類を収穫できる。",
 		type = 1,
@@ -1989,8 +1992,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1018] = {
+	}
+	pg.base.island_item_data_template[1018] = {
 		name = "バナナの木の種",
 		desc = "母港で育てられた優良なバナナの木の種。ふっくらとしたバナナを収穫できる。",
 		type = 1,
@@ -2033,8 +2036,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1019] = {
+	}
+	pg.base.island_item_data_template[1019] = {
 		name = "マンゴーの木の種",
 		desc = "母港で育てられた優良なマンゴーの木の種。甘いマンゴーを収穫できる。",
 		type = 1,
@@ -2077,8 +2080,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1020] = {
+	}
+	pg.base.island_item_data_template[1020] = {
 		name = "レモンの木の種",
 		desc = "母港で育てられた優良なレモンの木の種。さわやかなレモンを収穫できる。",
 		type = 1,
@@ -2121,8 +2124,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1021] = {
+	}
+	pg.base.island_item_data_template[1021] = {
 		name = "アボカドの木の種",
 		desc = "母港で育てられた優良なアボカドの木の種。栄養豊富なアボカドを収穫できる。",
 		type = 1,
@@ -2165,8 +2168,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1022] = {
+	}
+	pg.base.island_item_data_template[1022] = {
 		name = "ゴムの木の種",
 		desc = "母港厳選のゴムの木の種。上質なゴムを入手できる。",
 		type = 1,
@@ -2209,8 +2212,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1101] = {
+	}
+	pg.base.island_item_data_template[1101] = {
 		name = "稚貝",
 		desc = "二枚貝類の稚貝。安定して成長し、養殖技術も確立されている。",
 		type = 1,
@@ -2253,8 +2256,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1102] = {
+	}
+	pg.base.island_item_data_template[1102] = {
 		name = "ナマズの稚魚",
 		desc = "底生性の淡水魚の稚魚。低酸素環境に強く、泥底のいけすでの高密度養殖に適している。",
 		type = 1,
@@ -2297,8 +2300,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1103] = {
+	}
+	pg.base.island_item_data_template[1103] = {
 		name = "コイの稚魚",
 		desc = "淡水性の雑食魚の稚魚。環境への適応力が高く、さまざまな水質条件で安定して成長する。",
 		type = 1,
@@ -2341,8 +2344,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1104] = {
+	}
+	pg.base.island_item_data_template[1104] = {
 		name = "フナの稚魚",
 		desc = "小型の淡水魚の稚魚。主に藻類や有機物を食べ、生態系の維持に貢献する。",
 		type = 1,
@@ -2385,8 +2388,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1105] = {
+	}
+	pg.base.island_item_data_template[1105] = {
 		name = "稚エビ",
 		desc = "淡水エビ類の幼体。残餌や一部の藻類を食べ、水域の清掃役として機能する。",
 		type = 1,
@@ -2429,8 +2432,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1106] = {
+	}
+	pg.base.island_item_data_template[1106] = {
 		name = "稚ザリ",
 		desc = "甲殻類の幼体。成長に伴って殻が赤く硬くなり、成体は人気の高い水産物として取引されている。",
 		type = 1,
@@ -2473,8 +2476,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1107] = {
+	}
+	pg.base.island_item_data_template[1107] = {
 		name = "スズキの稚魚",
 		desc = "肉食性魚類の稚魚。肉質が柔らかく、上質な食用魚とされている。",
 		type = 1,
@@ -2517,8 +2520,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1108] = {
+	}
+	pg.base.island_item_data_template[1108] = {
 		name = "稚ガニ",
 		desc = "脱皮を頻繁に行うカニの幼体。清く水質の良い環境での養殖が必要。",
 		type = 1,
@@ -2561,8 +2564,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1201] = {
+	}
+	pg.base.island_item_data_template[1201] = {
 		name = "稚イカ",
 		desc = "頭足類の稚魚。成長の過程で複数回の形態変化を経て、プリプリな肉質に至る。",
 		type = 1,
@@ -2605,8 +2608,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1202] = {
+	}
+	pg.base.island_item_data_template[1202] = {
 		name = "サワラの稚魚",
 		desc = "肉食性魚類の稚魚。中層から表層の水域でよく見かけられ、成長性に優れる。",
 		type = 1,
@@ -2649,8 +2652,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1203] = {
+	}
+	pg.base.island_item_data_template[1203] = {
 		name = "マグロの稚魚",
 		desc = "大型の外洋性魚類の稚魚。成長が早く、十分な酸素供給がある水域での養殖が求められる。",
 		type = 1,
@@ -2693,8 +2696,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1204] = {
+	}
+	pg.base.island_item_data_template[1204] = {
 		name = "サーモンの稚魚",
 		desc = "回遊性魚類の稚魚。低めの水温を好み、丁寧に育てることで良質な魚肉が得られる。",
 		type = 1,
@@ -2737,8 +2740,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1205] = {
+	}
+	pg.base.island_item_data_template[1205] = {
 		name = "マダイの稚魚",
 		desc = "暖水性の海水魚の稚魚。成長後は体色が鮮やかで、観賞価値が高い。",
 		type = 1,
@@ -2781,8 +2784,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1206] = {
+	}
+	pg.base.island_item_data_template[1206] = {
 		name = "クロダイの稚魚",
 		desc = "岩礁域に生息する魚類の稚魚。体質が頑健で、養殖の成功率が高い。",
 		type = 1,
@@ -2825,8 +2828,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1207] = {
+	}
+	pg.base.island_item_data_template[1207] = {
 		name = "キハダの稚魚",
 		desc = "キバタマグロの稚魚。遊泳速度が速く、養殖においては水中の酸素量に高い水準が求められる。",
 		type = 1,
@@ -2869,8 +2872,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1208] = {
+	}
+	pg.base.island_item_data_template[1208] = {
 		name = "稚ナマコ",
 		desc = "底生性の棘皮動物の幼体。堆積した有機物を餌とし、いけすの底層を効率よく浄化してくれる。",
 		type = 1,
@@ -2913,8 +2916,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1500] = {
+	}
+	pg.base.island_item_data_template[1500] = {
 		name = "ミミズ",
 		desc = "ミミズを模したルアー。リアルな見た目で、魚も食いつきやすい。",
 		type = 3,
@@ -2944,8 +2947,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[1501] = {
+	}
+	pg.base.island_item_data_template[1501] = {
 		name = "コーン",
 		desc = "特殊な味づけを施したとうもろこし状のルアー。その黄金色が雑食性の魚に強くアピールする。",
 		type = 3,
@@ -2970,8 +2973,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[1502] = {
+	}
+	pg.base.island_item_data_template[1502] = {
 		name = "むきエビ",
 		desc = "こだわって作られたむきエビ状のルアー。その自然な形と動きが多くの肉食魚を惹きつけるだろう。",
 		type = 3,
@@ -3001,8 +3004,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[1503] = {
+	}
+	pg.base.island_item_data_template[1503] = {
 		name = "タコ足",
 		desc = "独特な形状を持つルアー。水中でのダイナミックな動きが、大型魚にとって抗いがたい魅力をもつ。",
 		type = 3,
@@ -3032,8 +3035,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2000] = {
+	}
+	pg.base.island_item_data_template[2000] = {
 		name = "小麦",
 		desc = "収穫したばかりの新鮮な小麦。小麦粉を作るのに欠かせない原料。",
 		type = 1,
@@ -3064,8 +3067,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2001] = {
+	}
+	pg.base.island_item_data_template[2001] = {
 		name = "とうもろこし",
 		desc = "黄金色に実ったとうもろこし。畑に甘い香りが漂う。",
 		type = 1,
@@ -3096,8 +3099,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2002] = {
+	}
+	pg.base.island_item_data_template[2002] = {
 		name = "米",
 		desc = "白くて上質な米。豊富なでんぷんと穀物たんぱく質を含む。",
 		type = 1,
@@ -3128,8 +3131,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2003] = {
+	}
+	pg.base.island_item_data_template[2003] = {
 		name = "白菜",
 		desc = "みずみずしくておいしい白菜。採れたて新鮮！",
 		type = 1,
@@ -3160,8 +3163,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2004] = {
+	}
+	pg.base.island_item_data_template[2004] = {
 		name = "ニンジン",
 		desc = "家庭でよく使われる野菜。栄養豊富で甘い味わい。",
 		type = 1,
@@ -3192,8 +3195,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2005] = {
+	}
+	pg.base.island_item_data_template[2005] = {
 		name = "じゃがいも",
 		desc = "野菜界のでんぷん代表。様々な形に調理できる。",
 		type = 1,
@@ -3224,8 +3227,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2006] = {
+	}
+	pg.base.island_item_data_template[2006] = {
 		name = "大豆",
 		desc = "丸くてふっくら、たんぱく質が豊富。料理だけでなく工業にもいろいろ使われる。",
 		type = 1,
@@ -3256,8 +3259,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2007] = {
+	}
+	pg.base.island_item_data_template[2007] = {
 		name = "玉ねぎ",
 		desc = "紫色の皮を剥くと…泣かされないように注意！",
 		type = 1,
@@ -3288,8 +3291,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2008] = {
+	}
+	pg.base.island_item_data_template[2008] = {
 		name = "牧草",
 		desc = "高品質な牧草。牧場に溢れるほどの活気を！",
 		type = 1,
@@ -3320,8 +3323,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2009] = {
+	}
+	pg.base.island_item_data_template[2009] = {
 		name = "コーヒー豆",
 		desc = "香り豊かで、気分もすっきり。一杯いかが？",
 		type = 1,
@@ -3352,8 +3355,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2010] = {
+	}
+	pg.base.island_item_data_template[2010] = {
 		name = "亜麻",
 		desc = "長繊維の亜麻。糸作りや織物に最適。工房での作業にぴったり！",
 		type = 1,
@@ -3384,8 +3387,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2011] = {
+	}
+	pg.base.island_item_data_template[2011] = {
 		name = "いちご",
 		desc = "真っ赤な実は甘酸っぱくてジューシー。スイーツと相性抜群。",
 		type = 1,
@@ -3416,8 +3419,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2012] = {
+	}
+	pg.base.island_item_data_template[2012] = {
 		name = "綿",
 		desc = "柔らかい白い綿。紡績の重要な材料。",
 		type = 1,
@@ -3448,8 +3451,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2014] = {
+	}
+	pg.base.island_item_data_template[2014] = {
 		name = "茶葉",
 		desc = "苦味がありながらも清らかな香りもあり。大自然の味を楽しもう。",
 		type = 1,
@@ -3480,8 +3483,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2015] = {
+	}
+	pg.base.island_item_data_template[2015] = {
 		name = "ラベンダー",
 		desc = "香り豊かで庭を彩るだけでなく、精油の抽出にも使える。",
 		type = 1,
@@ -3512,8 +3515,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2016] = {
+	}
+	pg.base.island_item_data_template[2016] = {
 		name = "りんご",
 		desc = "甘酸っぱくてジューシー。各種ビタミンが含まれ、そのまま食べてもジュースにしてもおいしい。",
 		type = 1,
@@ -3544,8 +3547,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2017] = {
+	}
+	pg.base.island_item_data_template[2017] = {
 		name = "柑橘フルーツ",
 		desc = "安価で保存しやすく、さわやかな香りも楽しめる果物。",
 		type = 1,
@@ -3576,8 +3579,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2018] = {
+	}
+	pg.base.island_item_data_template[2018] = {
 		name = "バナナ",
 		desc = "トロピカルな風情のフルーツ。甘くて柔らかく、食物繊維が豊富。",
 		type = 1,
@@ -3608,8 +3611,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2019] = {
+	}
+	pg.base.island_item_data_template[2019] = {
 		name = "マンゴー",
 		desc = "果肉がなめらかな夏の果物。とても甘く、ジュースにしてもおいしい。",
 		type = 1,
@@ -3640,8 +3643,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2020] = {
+	}
+	pg.base.island_item_data_template[2020] = {
 		name = "レモン",
 		desc = "皮は清々しい香りで、身はちょうどいい甘酸っぱさ。料理の味を整えるのにも使われる。",
 		type = 1,
@@ -3672,8 +3675,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2021] = {
+	}
+	pg.base.island_item_data_template[2021] = {
 		name = "アボカド",
 		desc = "なめらかでクリーミーな食感。低カロリーでおいしくヘルシー。",
 		type = 1,
@@ -3704,8 +3707,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2022] = {
+	}
+	pg.base.island_item_data_template[2022] = {
 		name = "ゴム",
 		desc = "高い弾性を持つ一般的な工業加工素材。使い道が多い！",
 		type = 1,
@@ -3736,8 +3739,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2521] = {
+	}
+	pg.base.island_item_data_template[2521] = {
 		name = "淡水魚の肉",
 		desc = "加工された淡水魚の身。家庭料理の基礎となる万能素材。",
 		type = 1,
@@ -3768,8 +3771,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2522] = {
+	}
+	pg.base.island_item_data_template[2522] = {
 		name = "海水魚の肉",
 		desc = "加工された海水魚の身。海の香りがほのかに漂う。",
 		type = 1,
@@ -3800,8 +3803,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2600] = {
+	}
+	pg.base.island_item_data_template[2600] = {
 		name = "新鮮な肉",
 		desc = "動物から取れる新鮮な肉。最高品質のたんぱく質源。",
 		type = 1,
@@ -3832,8 +3835,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2601] = {
+	}
+	pg.base.island_item_data_template[2601] = {
 		name = "卵",
 		desc = "茶色の卵。料理によく使われる食材。",
 		type = 1,
@@ -3864,8 +3867,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2602] = {
+	}
+	pg.base.island_item_data_template[2602] = {
 		name = "鶏肉",
 		desc = "低脂肪高たんぱくの肉類。様々な料理に適している。",
 		type = 1,
@@ -3896,8 +3899,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2603] = {
+	}
+	pg.base.island_item_data_template[2603] = {
 		name = "牛乳",
 		desc = "天然の飲み物。加工してヨーグルトやチーズも作れる。",
 		type = 1,
@@ -3928,8 +3931,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2604] = {
+	}
+	pg.base.island_item_data_template[2604] = {
 		name = "皮素材",
 		desc = "簡単に加工された動物の皮。なめして革にできる。",
 		type = 1,
@@ -3960,8 +3963,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2605] = {
+	}
+	pg.base.island_item_data_template[2605] = {
 		name = "羊毛",
 		desc = "動物の毛繊維。織物工業の重要な原料。",
 		type = 1,
@@ -3992,8 +3995,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2606] = {
+	}
+	pg.base.island_item_data_template[2606] = {
 		name = "新鮮なはちみつ",
 		desc = "採れたてのはちみつ。自然の甘い香りがたっぷり。",
 		type = 1,
@@ -4024,8 +4027,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2700] = {
+	}
+	pg.base.island_item_data_template[2700] = {
 		name = "石炭",
 		desc = "基本的な燃料。燃焼効率が高く、暖房や工業生産によく使われる。",
 		type = 1,
@@ -4056,8 +4059,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2701] = {
+	}
+	pg.base.island_item_data_template[2701] = {
 		name = "銅鉱石",
 		desc = "銅を豊富に含む鉱石。精錬した銅は電子製品の製造によく使われる。",
 		type = 1,
@@ -4088,8 +4091,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2702] = {
+	}
+	pg.base.island_item_data_template[2702] = {
 		name = "アルミ鉱石",
 		desc = "アルミニウムを豊富に含む鉱石。精錬したアルミは航空機や船舶の製造によく使われる。",
 		type = 1,
@@ -4120,8 +4123,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2703] = {
+	}
+	pg.base.island_item_data_template[2703] = {
 		name = "鉄鉱石",
 		desc = "鉄を豊富に含む鉱石。精錬した鉄は様々な施設の建設によく使われる。",
 		type = 1,
@@ -4152,8 +4155,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2704] = {
+	}
+	pg.base.island_item_data_template[2704] = {
 		name = "硫黄鉱石",
 		desc = "硫黄を豊富に含む鉱石。精錬した硫黄は肥料や殺虫剤の製造によく使われる。",
 		type = 1,
@@ -4184,8 +4187,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2705] = {
+	}
+	pg.base.island_item_data_template[2705] = {
 		name = "銀鉱石",
 		desc = "銀を豊富に含む鉱石。精錬した銀は合金や化学機材の製造によく使われる。",
 		type = 1,
@@ -4216,8 +4219,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2800] = {
+	}
+	pg.base.island_item_data_template[2800] = {
 		name = "大自然の原木",
 		desc = "基本的な木材。製紙から建築まで、幅広い用途を持つ。",
 		type = 1,
@@ -4248,8 +4251,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2801] = {
+	}
+	pg.base.island_item_data_template[2801] = {
 		name = "実用の木材",
 		desc = "美しい木目で、家具やフローリングの製作に適している。",
 		type = 1,
@@ -4280,8 +4283,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2802] = {
+	}
+	pg.base.island_item_data_template[2802] = {
 		name = "プレミアム木材",
 		desc = "頑丈で耐久性があり、伝統的な造船や高級家具の製造に使われる。",
 		type = 1,
@@ -4312,8 +4315,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2803] = {
+	}
+	pg.base.island_item_data_template[2803] = {
 		name = "エレガント木材",
 		desc = "美しくて硬い。高級装飾や家具に適している。",
 		type = 1,
@@ -4344,8 +4347,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3000] = {
+	}
+	pg.base.island_item_data_template[3000] = {
 		name = "コッコートリの餌",
 		desc = "コッコートリ専用の高たんぱく飼料。十分なエネルギーを与える。",
 		type = 1,
@@ -4388,8 +4391,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[3001] = {
+	}
+	pg.base.island_item_data_template[3001] = {
 		name = "ブーブーブタの餌",
 		desc = "ブーブーブタ専用の増量用飼料。食べ盛りの動物に適している。",
 		type = 1,
@@ -4432,8 +4435,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[3002] = {
+	}
+	pg.base.island_item_data_template[3002] = {
 		name = "モーモーウシの餌",
 		desc = "モーモーウシ専用の栄養飼料。香りが良くて濃厚な牛乳の産出を助ける。",
 		type = 1,
@@ -4476,8 +4479,10 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[3003] = {
+	}
+end)()
+(function ()
+	pg.base.island_item_data_template[3003] = {
 		name = "メェメーヒツジの餌",
 		desc = "メェメーヒツジ専用のトウモロコシ粉の飼料。より柔らかい羊毛を育てるのに役立つ。",
 		type = 1,
@@ -4520,8 +4525,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[3004] = {
+	}
+	pg.base.island_item_data_template[3004] = {
 		name = "小麦粉",
 		desc = "小麦を挽いた白い粉。パン、ケーキ、ピザ作りなどに欠かせない。",
 		type = 1,
@@ -4552,8 +4557,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3005] = {
+	}
+	pg.base.island_item_data_template[3005] = {
 		name = "アイスコーヒー",
 		desc = "さわやかな味わいで、気分をリフレッシュ！",
 		type = 1,
@@ -4587,8 +4592,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3006] = {
+	}
+	pg.base.island_item_data_template[3006] = {
 		name = "チーズ",
 		desc = "ミルクを原料に作られ、豊富なたんぱく質と脂質を含む。パンと合わせられることが多い。",
 		type = 1,
@@ -4622,8 +4627,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3007] = {
+	}
+	pg.base.island_item_data_template[3007] = {
 		name = "ラテ",
 		desc = "エスプレッソとミルクの組み合わせ。香りが高く舌触りがなめらかで、コーヒー愛好家に愛されている。",
 		type = 1,
@@ -4657,8 +4662,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3008] = {
+	}
+	pg.base.island_item_data_template[3008] = {
 		name = "シトラスコーヒー",
 		desc = "柑橘果汁を加えたコーヒー飲料。さわやかな酸味と果物の香りが特徴。",
 		type = 1,
@@ -4692,8 +4697,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3009] = {
+	}
+	pg.base.island_item_data_template[3009] = {
 		name = "アップルパイ",
 		desc = "りんごの砂糖煮をパイ生地で包んだ甘いお菓子。お定番のスイーツ。",
 		type = 1,
@@ -4727,8 +4732,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3010] = {
+	}
+	pg.base.island_item_data_template[3010] = {
 		name = "いちごミルクシェイク",
 		desc = "口当たりなめらかなクリーム。さわやかでふんわりとした、豊かな味わい。",
 		type = 1,
@@ -4762,8 +4767,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3011] = {
+	}
+	pg.base.island_item_data_template[3011] = {
 		name = "豆腐",
 		desc = "白くて柔らかい。大豆から作られ、豊富な植物性たんぱく質を含む。",
 		type = 1,
@@ -4797,8 +4802,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3012] = {
+	}
+	pg.base.island_item_data_template[3012] = {
 		name = "肉そぼろ豆腐",
 		desc = "東煌の伝統家庭料理。なめらかな食感でスープが濃厚。",
 		type = 1,
@@ -4832,8 +4837,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3013] = {
+	}
+	pg.base.island_item_data_template[3013] = {
 		name = "オムライス",
 		desc = "黄金色の薄焼き卵が柔らかいご飯を包んでいる。一口ごとにサプライズが待っている！",
 		type = 1,
@@ -4867,8 +4872,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3014] = {
+	}
+	pg.base.island_item_data_template[3014] = {
 		name = "白菜と豆腐のスープ",
 		desc = "白菜の甘みと豆腐の旨味。あっさりしていて健康的。",
 		type = 1,
@@ -4902,8 +4907,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3015] = {
+	}
+	pg.base.island_item_data_template[3015] = {
 		name = "野菜サラダ",
 		desc = "新鮮な野菜とドレッシングの組み合わせ。さっぱりとしておいしい！",
 		type = 1,
@@ -4937,8 +4942,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3017] = {
+	}
+	pg.base.island_item_data_template[3017] = {
 		name = "りんごジュース",
 		desc = "搾りたてのジュースはフルーツの香りがいっぱい。人気のヘルシードリンク！",
 		type = 1,
@@ -4972,8 +4977,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3018] = {
+	}
+	pg.base.island_item_data_template[3018] = {
 		name = "バナナマンゴージュース",
 		desc = "バナナとマンゴーの完璧な組み合わせ。トロピカルフレーバーが凝縮されている！",
 		type = 1,
@@ -5007,8 +5012,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3019] = {
+	}
+	pg.base.island_item_data_template[3019] = {
 		name = "はちみつレモン水",
 		desc = "甘いはちみつとさわやかなレモンの絶妙な組み合わせ。ビタミンCも補給できる。",
 		type = 1,
@@ -5042,8 +5047,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3020] = {
+	}
+	pg.base.island_item_data_template[3020] = {
 		name = "いちごレモンドリンク",
 		desc = "いちごとレモンの絶妙な組み合わせで、さっぱりとして飽きのこない果物風味の特製ドリンク。",
 		type = 1,
@@ -5077,8 +5082,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3021] = {
+	}
+	pg.base.island_item_data_template[3021] = {
 		name = "ラベンダーティー",
 		desc = "心を落ち着かせ、ストレスを解消し、心身ともに整えてくれる。",
 		type = 1,
@@ -5112,8 +5117,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3022] = {
+	}
+	pg.base.island_item_data_template[3022] = {
 		name = "いちごのハニーフラッペ",
 		desc = "いちごの甘酸っぱさとはちみつの芳醇さが完璧に融合した、甘美なフラッペワールド。",
 		type = 1,
@@ -5147,8 +5152,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3023] = {
+	}
+	pg.base.island_item_data_template[3023] = {
 		name = "コーンカップ",
 		desc = "軽く蒸した黄金色のとうもろこしの粒をカップに入れたもの。よく見かける美味しいスナック。",
 		type = 1,
@@ -5182,8 +5187,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3024] = {
+	}
+	pg.base.island_item_data_template[3024] = {
 		name = "オレンジパイ",
 		desc = "クラシックなお菓子。午後のティータイムに食べるとより美味しい。",
 		type = 1,
@@ -5217,8 +5222,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3025] = {
+	}
+	pg.base.island_item_data_template[3025] = {
 		name = "マンゴーともち米の蒸し飯",
 		desc = "トロピカル風情あふれる家庭料理。食欲がない時に合う一品。",
 		type = 1,
@@ -5252,8 +5257,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3026] = {
+	}
+	pg.base.island_item_data_template[3026] = {
 		name = "バナナクレープ",
 		desc = "クラシックな朝食。サクサクした食感で、老若男女問わず愛されている。",
 		type = 1,
@@ -5287,8 +5292,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3028] = {
+	}
+	pg.base.island_item_data_template[3028] = {
 		name = "いちごシャルロット",
 		desc = "サクサクのメレンゲ生地に甘いいちごのムースを組み合わせた、スイーツ愛好家たちの大好物。",
 		type = 1,
@@ -5322,8 +5327,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3029] = {
+	}
+	pg.base.island_item_data_template[3029] = {
 		name = "炭火串焼き",
 		desc = "外はパリッと中はじゅわっと、すごくいい香り。バーベキューパーティーの定番！",
 		type = 1,
@@ -5357,8 +5362,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3030] = {
+	}
+	pg.base.island_item_data_template[3030] = {
 		name = "鶏肉とポテトの盛り合わせ",
 		desc = "シンプルで美味しい。家庭の食卓での定番！",
 		type = 1,
@@ -5392,8 +5397,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3032] = {
+	}
+	pg.base.island_item_data_template[3032] = {
 		name = "鶏肉炒め",
 		desc = "鶏肉を調味料と一緒に炒めて仕上げた一品。香りが食欲をそそる！",
 		type = 1,
@@ -5427,8 +5432,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3033] = {
+	}
+	pg.base.island_item_data_template[3033] = {
 		name = "ニンジン厚焼き玉子",
 		desc = "薄い卵焼きに甘いニンジンを包んだ深みのある食感。朝食や午後のおやつにぜひ一品を！",
 		type = 1,
@@ -5462,8 +5467,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3034] = {
+	}
+	pg.base.island_item_data_template[3034] = {
 		name = "ハンバーグ丼",
 		desc = "調理が早く、お腹もいっぱいになれる。タイパがいいグルメ！",
 		type = 1,
@@ -5497,8 +5502,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3035] = {
+	}
+	pg.base.island_item_data_template[3035] = {
 		name = "布生地",
 		desc = "繊維を含む材料で作られた生地素材。多くの日用品や工業製品の原料。",
 		type = 1,
@@ -5529,8 +5534,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3036] = {
+	}
+	pg.base.island_item_data_template[3036] = {
 		name = "革",
 		desc = "動物の毛皮を加工したもの。衣類や家具の製作によく使われる。",
 		type = 1,
@@ -5561,8 +5566,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3037] = {
+	}
+	pg.base.island_item_data_template[3037] = {
 		name = "ロープ",
 		desc = "しっかりと丈夫。荷物を縛るのはもちろん、足場を固定する時にも役に立つ。",
 		type = 1,
@@ -5593,8 +5598,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3038] = {
+	}
+	pg.base.island_item_data_template[3038] = {
 		name = "手袋",
 		desc = "どの家庭にも必須の防寒用品。寒い日の外出には欠かせない。",
 		type = 1,
@@ -5625,8 +5630,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3039] = {
+	}
+	pg.base.island_item_data_template[3039] = {
 		name = "香り袋",
 		desc = "ハーブやスパイスを詰めた袋。持ち運べるリフレッシュアクセサリー。",
 		type = 1,
@@ -5657,8 +5662,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3040] = {
+	}
+	pg.base.island_item_data_template[3040] = {
 		name = "靴",
 		desc = "革製品。足を保護するために使われる。",
 		type = 1,
@@ -5689,8 +5694,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3041] = {
+	}
+	pg.base.island_item_data_template[3041] = {
 		name = "包帯",
 		desc = "必需の救急用品。切り傷でもすり傷でも、すぐに手当てできる。",
 		type = 1,
@@ -5721,8 +5726,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3042] = {
+	}
+	pg.base.island_item_data_template[3042] = {
 		name = "木炭筆",
 		desc = "デッサンやスケッチによく使われる美術道具。",
 		type = 1,
@@ -5753,8 +5758,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3043] = {
+	}
+	pg.base.island_item_data_template[3043] = {
 		name = "ケーブル",
 		desc = "多くの設備に電力を供給しているモダンの象徴。",
 		type = 1,
@@ -5785,8 +5790,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3044] = {
+	}
+	pg.base.island_item_data_template[3044] = {
 		name = "鉄釘",
 		desc = "よく見る建築資材。板の固定や家具の製造によく使われる。",
 		type = 1,
@@ -5817,8 +5822,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3045] = {
+	}
+	pg.base.island_item_data_template[3045] = {
 		name = "化学品",
 		desc = "強い腐食性を持つ化学品。",
 		type = 1,
@@ -5849,8 +5854,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3046] = {
+	}
+	pg.base.island_item_data_template[3046] = {
 		name = "火薬",
 		desc = "モダンの武器の必需品。適切に管理すべき危険物。",
 		type = 1,
@@ -5881,8 +5886,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3047] = {
+	}
+	pg.base.island_item_data_template[3047] = {
 		name = "食器",
 		desc = "どの家庭にとっても必需品。",
 		type = 1,
@@ -5913,8 +5918,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3048] = {
+	}
+	pg.base.island_item_data_template[3048] = {
 		name = "紙",
 		desc = "安価な植物繊維で作られることが多い。保存しやすく、書きやすい。",
 		type = 1,
@@ -5945,8 +5950,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3049] = {
+	}
+	pg.base.island_item_data_template[3049] = {
 		name = "メモ帳",
 		desc = "日常の用事がびっしり書かれたノート。日記帳としても使える。",
 		type = 1,
@@ -5977,8 +5982,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3050] = {
+	}
+	pg.base.island_item_data_template[3050] = {
 		name = "机と椅子",
 		desc = "最も一般的な家具。休憩場所を提供してくれる。",
 		type = 1,
@@ -6009,8 +6014,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3051] = {
+	}
+	pg.base.island_item_data_template[3051] = {
 		name = "セレクション樽",
 		desc = "ワインやはちみつの貯蔵に使われる多機能な樽。",
 		type = 1,
@@ -6041,8 +6046,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3052] = {
+	}
+	pg.base.island_item_data_template[3052] = {
 		name = "ファイルキャビネット",
 		desc = "オフィスの必需品。各種書類の保管・管理に便利。",
 		type = 1,
@@ -6073,8 +6078,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3053] = {
+	}
+	pg.base.island_item_data_template[3053] = {
 		name = "インクカートリッジ",
 		desc = "印刷用インクを保存するもの。プリンターの中核部品。",
 		type = 1,
@@ -6105,8 +6110,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3054] = {
+	}
+	pg.base.island_item_data_template[3054] = {
 		name = "時計",
 		desc = "時間を示す精密機器。通常は部屋の壁に固定される。",
 		type = 1,
@@ -6137,8 +6142,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3055] = {
+	}
+	pg.base.island_item_data_template[3055] = {
 		name = "蓄電池",
 		desc = "繰り返し使用でき、モーター、照明設備などへ安定した電源となる。",
 		type = 1,
@@ -6169,8 +6174,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3056] = {
+	}
+	pg.base.island_item_data_template[3056] = {
 		name = "浄水フィルター",
 		desc = "水中の不純物を除去して、きれいな水を提供してくれる！",
 		type = 1,
@@ -6201,8 +6206,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3059] = {
+	}
+	pg.base.island_item_data_template[3059] = {
 		name = "オムレツ",
 		desc = "ふわふわの卵で柔らかい具材を包んだ黄金色の誘惑的な一品。シンプルながら満足感のある美味しさ。",
 		type = 1,
@@ -6236,8 +6241,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3101] = {
+	}
+	pg.base.island_item_data_template[3101] = {
 		name = "定番豆腐セット",
 		desc = "肉そぼろ豆腐と白菜豆腐スープの組み合わせ。シンプルで美味しい。",
 		type = 1,
@@ -6271,8 +6276,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3102] = {
+	}
+	pg.base.island_item_data_template[3102] = {
 		name = "ふんわり定食",
 		desc = "ふわふわオムライスと温かく滑らかな豆腐の組み合わせ。シンプルながら満足感のある味わい。",
 		type = 1,
@@ -6306,8 +6311,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3103] = {
+	}
+	pg.base.island_item_data_template[3103] = {
 		name = "香りも楽しめるフルーツセット",
 		desc = "ラベンダーの癒やしの香りとりんごの爽やかな甘さが絶妙に融合し、二重の楽しみを感じさせる。",
 		type = 1,
@@ -6341,8 +6346,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3104] = {
+	}
+	pg.base.island_item_data_template[3104] = {
 		name = "カラフル果物パラダイス",
 		desc = "バナナマンゴージュースといちごハニー味のかき氷のセット。フルーツの味わいで爽やかな体験をお届け。",
 		type = 1,
@@ -6376,8 +6381,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3105] = {
+	}
+	pg.base.island_item_data_template[3105] = {
 		name = "太陽のハニー",
 		desc = "いちごハニーの甘さとはちみつレモン水の組み合わせ。元気溢れる太陽の味わい。",
 		type = 1,
@@ -6411,8 +6416,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3106] = {
+	}
+	pg.base.island_item_data_template[3106] = {
 		name = "スイートテイスト",
 		desc = "トロピカルマンゴーの香り豊かな食感に、コーンカップの食べ応えで、一度に二つの幸せを味わえる。",
 		type = 1,
@@ -6446,8 +6451,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3107] = {
+	}
+	pg.base.island_item_data_template[3107] = {
 		name = "果樹園二重奏",
 		desc = "バナナクレープのやわらかさと黄金のアップルパイのサクサク感が組み合わさり、一度に二つの果物の甘い味わいを楽しめる。",
 		type = 1,
@@ -6481,8 +6486,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3108] = {
+	}
+	pg.base.island_item_data_template[3108] = {
 		name = "ベリーオレンジスイーツ",
 		desc = "いちごのロマンチックな出会いとオレンジの太陽のような香りが融合し、うっとりするようなスイーツタイムを演出。",
 		type = 1,
@@ -6516,8 +6521,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3109] = {
+	}
+	pg.base.island_item_data_template[3109] = {
 		name = "肉カーニバル",
 		desc = "香ばしい串焼きと柔らかい鶏肉に、カリカリのフライドポテト。思う存分お腹いっぱい食べられる。",
 		type = 1,
@@ -6551,8 +6556,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3110] = {
+	}
+	pg.base.island_item_data_template[3110] = {
 		name = "エナジーダブルコンボ",
 		desc = "ハンバーグ丼にスパイスの効いた鶏肉炒め、これでもかというタンパク質がダイナミックに一日のエネルギーを補給してくれる。",
 		type = 1,
@@ -6586,8 +6591,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3111] = {
+	}
+	pg.base.island_item_data_template[3111] = {
 		name = "朝光活力コンビ",
 		desc = "ふわふわオムレツとゴージャスなラテで完璧な朝食タイムを。",
 		type = 1,
@@ -6621,8 +6626,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3112] = {
+	}
+	pg.base.island_item_data_template[3112] = {
 		name = "お目覚めブレックファスト",
 		desc = "アイスコーヒーと濃厚チーズ、苦味と甘味のバランスが取れた定番の目覚めブレックファスト。",
 		type = 1,
@@ -6656,8 +6661,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3113] = {
+	}
+	pg.base.island_item_data_template[3113] = {
 		name = "フルーツツインズ",
 		desc = "柑橘コーヒーといちごミルクシェイク。二つの特製ドリンクを一度に満喫できる。",
 		type = 1,
@@ -6691,8 +6696,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3114] = {
+	}
+	pg.base.island_item_data_template[3114] = {
 		name = "フィッシュ&チップス",
 		desc = "外はカリッと、中はふんわり揚がった魚と、香ばしいフライドポテトの組み合わせ。皆に好かれる一品。",
 		type = 1,
@@ -6726,8 +6731,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3115] = {
+	}
+	pg.base.island_item_data_template[3115] = {
 		name = "レモンエビ",
 		desc = "プリッとしたエビの甘みとレモンの爽やかな酸味が合わさり、食欲を増進させる。",
 		type = 1,
@@ -6761,8 +6766,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3116] = {
+	}
+	pg.base.island_item_data_template[3116] = {
 		name = "魚の玉ねぎ蒸し",
 		desc = "甘いタマネギの細切りを添えた蒸し魚。魚本来の旨味を最大限に引き出してくれる。",
 		type = 1,
@@ -6796,8 +6801,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3117] = {
+	}
+	pg.base.island_item_data_template[3117] = {
 		name = "装飾画",
 		desc = "壁を彩る繊細な絵画。部屋にひとさじの芸術的な趣を添える。",
 		type = 1,
@@ -6828,8 +6833,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3118] = {
+	}
+	pg.base.island_item_data_template[3118] = {
 		name = "パエリア",
 		desc = "海の恵みを贅沢に使ったパエリア。ご飯の一粒にも海の風味が混じっている。",
 		type = 1,
@@ -6863,8 +6868,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3119] = {
+	}
+	pg.base.island_item_data_template[3119] = {
 		name = "ザリガニ炒め",
 		desc = "強火で手早く炒めたザリガニ。鮮やかな赤が食欲をそそり、ご飯が進む。",
 		type = 1,
@@ -6898,8 +6903,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3120] = {
+	}
+	pg.base.island_item_data_template[3120] = {
 		name = "佛跳牆",
 		desc = "何時間も丁寧に煮込まれた逸品。宴席の締めを飾るご馳走として振る舞われる。",
 		type = 1,
@@ -6933,8 +6938,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4001] = {
+	}
+	pg.base.island_item_data_template[4001] = {
 		name = "アキギク",
 		desc = "風に揺れる黄金色のアキギク。観賞用にもお茶としても楽しめる逸品。",
 		type = 1,
@@ -6964,8 +6969,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4002] = {
+	}
+	pg.base.island_item_data_template[4002] = {
 		name = "葦の花",
 		desc = "水辺に生育する軽やかで純白の葦の花。ドライフラワーの装飾によく使われる。",
 		type = 1,
@@ -6995,8 +7000,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4003] = {
+	}
+	pg.base.island_item_data_template[4003] = {
 		name = "落花生",
 		desc = "香ばしくて美味しい落花生は、タンパク質と健康的な脂質が豊富。",
 		type = 1,
@@ -7026,8 +7031,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4004] = {
+	}
+	pg.base.island_item_data_template[4004] = {
 		name = "松茸",
 		desc = "新鮮で山の珍味。独特の香りを持ち、スープの出汁取りにも使われる最高級食材。",
 		type = 1,
@@ -7057,8 +7062,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4005] = {
+	}
+	pg.base.island_item_data_template[4005] = {
 		name = "宵月梨",
 		desc = "甘くてみずみずしい梨。舌触りがきめ細かく、のどを潤す秋の味覚。",
 		type = 1,
@@ -7089,8 +7094,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4006] = {
+	}
+	pg.base.island_item_data_template[4006] = {
 		name = "宵月梨の種",
 		desc = "甘い未来が秘められている宵月梨の木の種。良質な梨の木を育てることができる。",
 		type = 1,
@@ -7132,8 +7137,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[4007] = {
+	}
+	pg.base.island_item_data_template[4007] = {
 		name = "柿",
 		desc = "鮮やかに赤く実った柿。やわらかくて甘く、ビタミンが豊富な秋の旬の果物。",
 		type = 1,
@@ -7164,8 +7169,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4008] = {
+	}
+	pg.base.island_item_data_template[4008] = {
 		name = "柿の種",
 		desc = "種を植え、医者が青くなるほど健康な生活を祈って",
 		type = 1,
@@ -7207,8 +7212,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[4009] = {
+	}
+	pg.base.island_item_data_template[4009] = {
 		name = "干し柿",
 		desc = "甘くてもちもちした干し柿。新鮮な柿から作られる。",
 		type = 1,
@@ -7242,8 +7247,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4010] = {
+	}
+	pg.base.island_item_data_template[4010] = {
 		name = "松茸と鶏のスープ",
 		desc = "香り高く濃厚な松茸と鶏のスープ。松茸と鶏肉をじっくり煮込んだ温かく滋養のある一品。",
 		type = 1,
@@ -7277,8 +7282,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4011] = {
+	}
+	pg.base.island_item_data_template[4011] = {
 		name = "秋のブーケ",
 		desc = "温かみのあるオレンジの色合いのブーケ。菊や葦など旬の花材を厳選し、秋の風情を演出する。",
 		type = 1,
@@ -7312,8 +7317,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4012] = {
+	}
+	pg.base.island_item_data_template[4012] = {
 		name = "落花生油",
 		desc = "まろやかな落花生油。良質な落花生を搾った健康的な調理用油。",
 		type = 1,
@@ -7347,8 +7352,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4013] = {
+	}
+	pg.base.island_item_data_template[4013] = {
 		name = "ニンジンと梨のジュース",
 		desc = "ニンジンと梨を使った新鮮で甘いジュース。人参の栄養と梨のさっぱりした味わいが融合した、さわやかな飲み物。",
 		type = 1,
@@ -7382,8 +7387,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4014] = {
+	}
+	pg.base.island_item_data_template[4014] = {
 		name = "菊花の茶",
 		desc = "上品で清らかな香りを持つ菊の茶。菊の花びらを淹れたもので、のぼせを取ってくれるまろやかな後味。",
 		type = 1,
@@ -7417,8 +7422,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4015] = {
+	}
+	pg.base.island_item_data_template[4015] = {
 		name = "春タケノコ",
 		desc = "春の大地から生えた新鮮なタケノコ。歯ごたえがよく、名高い旬の食材として知られている。",
 		type = 1,
@@ -7448,8 +7453,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4016] = {
+	}
+	pg.base.island_item_data_template[4016] = {
 		name = "ナズナ",
 		desc = "爽やかな春の野菜。独特の香りがあり、一部料理の具や和え物によく使われる。",
 		type = 1,
@@ -7479,8 +7484,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4017] = {
+	}
+	pg.base.island_item_data_template[4017] = {
 		name = "オウバイ",
 		desc = "初春に咲く鮮やかな黄色の花。観賞用として楽しめるほか、乾燥させてお茶にもできる。",
 		type = 1,
@@ -7510,8 +7515,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4018] = {
+	}
+	pg.base.island_item_data_template[4018] = {
 		name = "ヒヤシンス",
 		desc = "香り高い早春の観賞植物。花壇や庭園でよく植え込まれる。",
 		type = 1,
@@ -7541,8 +7546,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4019] = {
+	}
+	pg.base.island_item_data_template[4019] = {
 		name = "アスパラガス",
 		desc = "春に収穫されるみずみずしい野菜。シャキッとした食感で、簡単な調理や付け合わせに向いている。",
 		type = 1,
@@ -7573,8 +7578,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4020] = {
+	}
+	pg.base.island_item_data_template[4020] = {
 		name = "アスパラガスの種",
 		desc = "土に埋めておけば、すぐにアスパラガスの若芽がずらりと芽吹く。",
 		type = 1,
@@ -7616,8 +7621,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[4021] = {
+	}
+	pg.base.island_item_data_template[4021] = {
 		name = "パイナップル",
 		desc = "甘酸しく果汁たっぷりの南国風フルーツ。そのままでも食べられるが、加工して食べるのもよい。",
 		type = 1,
@@ -7648,8 +7653,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4022] = {
+	}
+	pg.base.island_item_data_template[4022] = {
 		name = "パイナップルの種",
 		desc = "南国の太陽の恵みを豊かに含む種。植え付ければ、美味しいパイナップルを収穫できる。",
 		type = 1,
@@ -7691,8 +7696,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[4023] = {
+	}
+	pg.base.island_item_data_template[4023] = {
 		name = "搾りたてパイナップルジュース",
 		desc = "新鮮なパイナップルをその場で搾ったジュース。さっぱりとした南国の風味。",
 		type = 1,
@@ -7726,8 +7731,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4024] = {
+	}
+	pg.base.island_item_data_template[4024] = {
 		name = "オウバイ茶",
 		desc = "乾燥させたオウバイのつぼみを使ったハーブティー。ほのかな香りでリラックス効果を持っている。",
 		type = 1,
@@ -7761,8 +7766,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4025] = {
+	}
+	pg.base.island_item_data_template[4025] = {
 		name = "タケノコとアスパラの冷菜",
 		desc = "アスパラガスとタケノコをさっぱり和えた春の小鉢。歯切れがよく、風味の相性も抜群。",
 		type = 1,
@@ -7796,8 +7801,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4026] = {
+	}
+	pg.base.island_item_data_template[4026] = {
 		name = "エビのアスパラ炒め物",
 		desc = "アスパラガスと新鮮なエビを手早く炒めた一品。エビの旨みとシャキシャキ食感が楽しめる定番家庭料理。",
 		type = 1,
@@ -7831,8 +7836,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4027] = {
+	}
+	pg.base.island_item_data_template[4027] = {
 		name = "乾燥ナズナ",
 		desc = "天日干しして保存したナズナ。保存性が高く、汁物や戻して餡に使える。",
 		type = 1,
@@ -7863,8 +7868,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4028] = {
+	}
+	pg.base.island_item_data_template[4028] = {
 		name = "春の花束",
 		desc = "オウバイとヒヤシンスを束ねた花束。明るい彩りで、部屋に春の気配をもたらす。",
 		type = 1,
@@ -7895,8 +7900,10 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5001] = {
+	}
+end)()
+(function ()
+	pg.base.island_item_data_template[5001] = {
 		name = "貝",
 		desc = "殻は装飾品や精巧な工芸品の素材としてよく用いられる。",
 		type = 1,
@@ -7927,8 +7934,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5002] = {
+	}
+	pg.base.island_item_data_template[5002] = {
 		name = "ナマズ",
 		desc = "肥えたナマズ。しっかりした味付けの料理に向く。",
 		type = 1,
@@ -7959,8 +7966,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5003] = {
+	}
+	pg.base.island_item_data_template[5003] = {
 		name = "コイ",
 		desc = "淡水域の味覚を代表する存在。一部の飲食店では看板料理に用いられる。",
 		type = 1,
@@ -7991,8 +7998,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5004] = {
+	}
+	pg.base.island_item_data_template[5004] = {
 		name = "フナ",
 		desc = "食用魚の一種。身がきめ細かく、栄養価も高い。",
 		type = 1,
@@ -8023,8 +8030,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5005] = {
+	}
+	pg.base.island_item_data_template[5005] = {
 		name = "川エビ",
 		desc = "高たんぱく・低脂肪・低カロリーで、良質な水産グルメの代表格。",
 		type = 1,
@@ -8055,8 +8062,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5006] = {
+	}
+	pg.base.island_item_data_template[5006] = {
 		name = "ザリガニ",
 		desc = "よく川などで見かけるザリガニ。食感はまさに田舎風。",
 		type = 1,
@@ -8087,8 +8094,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5007] = {
+	}
+	pg.base.island_item_data_template[5007] = {
 		name = "スズキ",
 		desc = "新鮮なスズキ。白く柔らかな身は蒸し物やソテーにするのに最適。",
 		type = 1,
@@ -8119,8 +8126,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5008] = {
+	}
+	pg.base.island_item_data_template[5008] = {
 		name = "カニ",
 		desc = "新鮮で美味しいカニ。甘みのある身は栄養豊富で風味がいい。",
 		type = 1,
@@ -8151,8 +8158,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5101] = {
+	}
+	pg.base.island_item_data_template[5101] = {
 		name = "イカ",
 		desc = "プリッとした食感のイカ。焼いてよし炙ってよし。",
 		type = 1,
@@ -8183,8 +8190,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5102] = {
+	}
+	pg.base.island_item_data_template[5102] = {
 		name = "サワラ",
 		desc = "流線型の体を持つ海のスピードスター。身が締まっており、香ばしく焼く調理に向いている。",
 		type = 1,
@@ -8215,8 +8222,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5103] = {
+	}
+	pg.base.island_item_data_template[5103] = {
 		name = "マグロ",
 		desc = "高タンパク・低脂肪のマグロ。海釣りの目標の頂点の一つとされる。",
 		type = 1,
@@ -8247,8 +8254,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5104] = {
+	}
+	pg.base.island_item_data_template[5104] = {
 		name = "サーモン",
 		desc = "人気の海の幸。美しい身の模様と豊かな旨味が特徴。",
 		type = 1,
@@ -8279,8 +8286,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5105] = {
+	}
+	pg.base.island_item_data_template[5105] = {
 		name = "マダイ",
 		desc = "雑食性の魚類。群れを成して素早く泳ぐ習性があり、栄養価の高さから広く親しまれている。",
 		type = 1,
@@ -8311,8 +8318,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5106] = {
+	}
+	pg.base.island_item_data_template[5106] = {
 		name = "クロダイ",
 		desc = "素早く狡猾な相手で、釣り上げるにはかなりの腕前が求められる。",
 		type = 1,
@@ -8343,8 +8350,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5107] = {
+	}
+	pg.base.island_item_data_template[5107] = {
 		name = "キハダ",
 		desc = "上質なキハダマグロ。脂が少なく缶詰にもよく使われる。",
 		type = 1,
@@ -8375,8 +8382,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5108] = {
+	}
+	pg.base.island_item_data_template[5108] = {
 		name = "ナマコ",
 		desc = "滋養強壮効果を持つナマコ。手に入れるには少しの忍耐と運が必要。",
 		type = 1,
@@ -8407,8 +8414,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[9900] = {
+	}
+	pg.base.island_item_data_template[9900] = {
 		name = "真珠",
 		desc = "色合い温かな天然のジュエリー。マーケットでは取引が活発に行われている",
 		type = 1,
@@ -8438,8 +8445,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100001] = {
+	}
+	pg.base.island_item_data_template[100001] = {
 		name = "離島EXP教科書 T1",
 		desc = "離島生活の基礎知識をまとめた指南教科書。使用すると、キャラクターの離島EXPが少し増加する。",
 		type = 5,
@@ -8477,8 +8484,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100002] = {
+	}
+	pg.base.island_item_data_template[100002] = {
 		name = "離島EXP教科書 T2",
 		desc = "離島生活の経験を詳しくまとめた指南教科書。使用すると、キャラクターの離島EXPがそこそこ増加する。",
 		type = 5,
@@ -8516,8 +8523,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100003] = {
+	}
+	pg.base.island_item_data_template[100003] = {
 		name = "離島EXP教科書 T3",
 		desc = "離島生活の経験を豊富にまとめた指南教科書。使用すると、キャラクターの離島EXPが大幅に増加する。",
 		type = 5,
@@ -8555,8 +8562,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100011] = {
+	}
+	pg.base.island_item_data_template[100011] = {
 		name = "経営教科書 T1",
 		desc = "経営テクニックの基礎をまとめた指南教科書。使用すると、キャラクターの経営ステータスが少し上昇する。",
 		type = 2,
@@ -8594,8 +8601,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100012] = {
+	}
+	pg.base.island_item_data_template[100012] = {
 		name = "経営教科書 T2",
 		desc = "経営テクニックを詳しく解説した指南教科書。使用すると、キャラクターの経営ステータスがそこそこ上昇する。",
 		type = 2,
@@ -8625,8 +8632,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100013] = {
+	}
+	pg.base.island_item_data_template[100013] = {
 		name = "経営教科書 T3",
 		desc = "経営テクニックを豊富に収録した指南教科書。使用すると、キャラクターの経営ステータスが大幅に上昇する。",
 		type = 2,
@@ -8651,8 +8658,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[100021] = {
+	}
+	pg.base.island_item_data_template[100021] = {
 		name = "農業教科書 T1",
 		desc = "農業テクニックの基礎をまとめた指南教科書。使用すると、キャラクターの農業ステータスが少し上昇する。",
 		type = 2,
@@ -8690,8 +8697,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100022] = {
+	}
+	pg.base.island_item_data_template[100022] = {
 		name = "農業教科書 T2",
 		desc = "農業テクニックを詳しく解説した指南教科書。使用すると、キャラクターの農業ステータスがそこそこ上昇する。",
 		type = 2,
@@ -8721,8 +8728,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100023] = {
+	}
+	pg.base.island_item_data_template[100023] = {
 		name = "農業教科書 T3",
 		desc = "農業テクニックを豊富に収録した指南教科書。使用すると、キャラクターの農業ステータスが大幅に上昇する。",
 		type = 2,
@@ -8747,8 +8754,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[100031] = {
+	}
+	pg.base.island_item_data_template[100031] = {
 		name = "制作教科書 T1",
 		desc = "制作テクニックの基礎をまとめた指南教科書。使用すると、キャラクターの制作ステータスが少し上昇する。",
 		type = 2,
@@ -8786,8 +8793,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100032] = {
+	}
+	pg.base.island_item_data_template[100032] = {
 		name = "制作教科書 T2",
 		desc = "制作テクニックを詳しく解説した指南教科書。使用すると、キャラクターの制作ステータスがそこそこ上昇する。",
 		type = 2,
@@ -8817,8 +8824,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100033] = {
+	}
+	pg.base.island_item_data_template[100033] = {
 		name = "制作教科書 T3",
 		desc = "制作テクニックを豊富に収録した指南教科書。使用すると、キャラクターの制作ステータスが大幅に上昇する。",
 		type = 2,
@@ -8843,8 +8850,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[100041] = {
+	}
+	pg.base.island_item_data_template[100041] = {
 		name = "採集教科書 T1",
 		desc = "採集テクニックの基礎をまとめた指南教科書。使用すると、キャラクターの採集ステータスが少し上昇する。",
 		type = 2,
@@ -8882,8 +8889,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100042] = {
+	}
+	pg.base.island_item_data_template[100042] = {
 		name = "採集教科書 T2",
 		desc = "採集テクニックを詳しく解説した指南教科書。使用すると、キャラクターの採集ステータスがそこそこ上昇する。",
 		type = 2,
@@ -8913,8 +8920,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100043] = {
+	}
+	pg.base.island_item_data_template[100043] = {
 		name = "採集教科書 T3",
 		desc = "採集テクニックを豊富に収録した指南教科書。使用すると、キャラクターの採集ステータスが大幅に上昇する。",
 		type = 2,
@@ -8939,8 +8946,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[100051] = {
+	}
+	pg.base.island_item_data_template[100051] = {
 		name = "飼養教科書 T1",
 		desc = "飼養テクニックの基礎をまとめた指南教科書。使用すると、キャラクターの飼養ステータスが少し上昇する。",
 		type = 2,
@@ -8978,8 +8985,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100052] = {
+	}
+	pg.base.island_item_data_template[100052] = {
 		name = "飼養教科書 T2",
 		desc = "飼養テクニックを詳しく解説した指南教科書。使用すると、キャラクターの飼養ステータスがそこそこ上昇する。",
 		type = 2,
@@ -9009,8 +9016,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100053] = {
+	}
+	pg.base.island_item_data_template[100053] = {
 		name = "飼養教科書 T3",
 		desc = "飼養テクニックを豊富に収録した指南教科書。使用すると、キャラクターの飼養ステータスが大幅に上昇する。",
 		type = 2,
@@ -9035,8 +9042,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[100061] = {
+	}
+	pg.base.island_item_data_template[100061] = {
 		name = "料理教科書 T1",
 		desc = "料理テクニックの基礎をまとめた指南教科書。使用すると、キャラクターの料理ステータスが少し上昇する。",
 		type = 2,
@@ -9074,8 +9081,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100062] = {
+	}
+	pg.base.island_item_data_template[100062] = {
 		name = "料理教科書 T2",
 		desc = "料理テクニックを詳しく解説した指南教科書。使用すると、キャラクターの料理ステータスがそこそこ上昇する。",
 		type = 2,
@@ -9105,8 +9112,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100063] = {
+	}
+	pg.base.island_item_data_template[100063] = {
 		name = "料理教科書 T3",
 		desc = "料理テクニックを豊富に収録した指南教科書。使用すると、キャラクターの料理ステータスが大幅に上昇する。",
 		type = 2,
@@ -9131,8 +9138,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[100101] = {
+	}
+	pg.base.island_item_data_template[100101] = {
 		name = "生産スキル教科書 T1",
 		desc = "生産物スキルの基礎知識をまとめた指南教科書。使用すると、キャラクターの離島開発における生産物スキルレベルが少し上昇する。",
 		type = 2,
@@ -9170,8 +9177,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100102] = {
+	}
+	pg.base.island_item_data_template[100102] = {
 		name = "生産スキル教科書 T2",
 		desc = "生産物スキルの知識を詳しくまとめた指南教科書。使用すると、キャラクターの離島開発における生産物スキルレベルがそこそこ上昇する。",
 		type = 2,
@@ -9209,8 +9216,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100103] = {
+	}
+	pg.base.island_item_data_template[100103] = {
 		name = "生産スキル教科書 T3",
 		desc = "生産物スキルの知識を豊富にまとめた指南教科書。使用すると、キャラクターの離島開発における生産物スキルレベルが大幅に上昇する。",
 		type = 2,
@@ -9248,8 +9255,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100201] = {
+	}
+	pg.base.island_item_data_template[100201] = {
 		name = "離島開発結晶",
 		desc = "離島開発経験の結晶。キャラの突破に必要な素材",
 		type = 2,
@@ -9279,8 +9286,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[110001] = {
+	}
+	pg.base.island_item_data_template[110001] = {
 		name = "海塩ドリンク",
 		desc = "体力50回復する。好物のキャラが追加でバフ効果を得る。まるで潮風が舌先を吹き抜けるような、塩っぱくて甘い独特な味覚",
 		type = 2,
@@ -9323,8 +9330,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[110002] = {
+	}
+	pg.base.island_item_data_template[110002] = {
 		name = "新緑ドリンク",
 		desc = "体力50回復する。まるで潮風が舌先を吹き抜けるような、塩っぱくて甘い独特な味覚",
 		type = 2,
@@ -9365,8 +9372,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[110003] = {
+	}
+	pg.base.island_item_data_template[110003] = {
 		name = "いちごドリンク",
 		desc = "体力が50回復し、8時間、基本資源生産時に作業速度が5％アップ。いちごの甘い香りで今日も元気いっぱい",
 		type = 2,
@@ -9407,8 +9414,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[110004] = {
+	}
+	pg.base.island_item_data_template[110004] = {
 		name = "キンカンドリンク",
 		desc = "体力が50回復し、8時間、基地工場でアイテム制作時に作業速度が5％アップ。キンカンの渋みもあるけど、後味が甘く気分も爽やかに",
 		type = 2,
@@ -9449,8 +9456,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[110005] = {
+	}
+	pg.base.island_item_data_template[110005] = {
 		name = "ベリードリンク",
 		desc = "体力が50回復し、8時間、店舗で料理アイテム制作時に作業速度が5％アップ。酸っぱくて甘い、フルーティーなベリーの嬉しい味覚",
 		type = 2,
@@ -9491,8 +9498,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[110006] = {
+	}
+	pg.base.island_item_data_template[110006] = {
 		name = "ぶどうドリンク",
 		desc = "体力が50回復し、8時間、店舗で店員スタッフを担当する時、店舗の売上が5％アップ。まろやか甘々な風味がたまらない",
 		type = 2,
@@ -9533,8 +9540,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200001] = {
+	}
+	pg.base.island_item_data_template[200001] = {
 		name = "チェシャー-離島権限認証",
 		desc = "チェシャーの離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
 		type = 2,
@@ -9564,8 +9571,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200002] = {
+	}
+	pg.base.island_item_data_template[200002] = {
 		name = "サラトガ-離島権限認証",
 		desc = "サラトガの離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
 		type = 2,
@@ -9590,8 +9597,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[200003] = {
+	}
+	pg.base.island_item_data_template[200003] = {
 		name = "明石-離島権限認証",
 		desc = "明石離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
 		type = 2,
@@ -9621,8 +9628,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200004] = {
+	}
+	pg.base.island_item_data_template[200004] = {
 		name = "大鳳-離島権限認証",
 		desc = "大鳳の離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
 		type = 2,
@@ -9647,8 +9654,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[200005] = {
+	}
+	pg.base.island_item_data_template[200005] = {
 		name = "ニュージャージー-離島権限認証",
 		desc = "ニュージャージーの離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
 		type = 2,
@@ -9678,8 +9685,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200006] = {
+	}
+	pg.base.island_item_data_template[200006] = {
 		name = "島風-離島権限認証",
 		desc = "島風の離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
 		type = 2,
@@ -9709,8 +9716,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200007] = {
+	}
+	pg.base.island_item_data_template[200007] = {
 		name = "応瑞-離島権限認証",
 		desc = "応瑞の離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
 		type = 2,
@@ -9740,8 +9747,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200008] = {
+	}
+	pg.base.island_item_data_template[200008] = {
 		name = "ル・マラン-離島権限認証",
 		desc = "ル・マランの離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
 		type = 2,
@@ -9771,8 +9778,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200009] = {
+	}
+	pg.base.island_item_data_template[200009] = {
 		name = "ユニコーン-離島権限認証",
 		desc = "ユニコーンの離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
 		type = 2,
@@ -9802,8 +9809,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200010] = {
+	}
+	pg.base.island_item_data_template[200010] = {
 		name = "タシュケント-離島権限認証",
 		desc = "タシュケントの離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
 		type = 2,
@@ -9833,8 +9840,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200011] = {
+	}
+	pg.base.island_item_data_template[200011] = {
 		name = "フッド-離島権限認証",
 		desc = "フッドの離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
 		type = 2,
@@ -9864,8 +9871,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200012] = {
+	}
+	pg.base.island_item_data_template[200012] = {
 		name = "天城ちゃん-離島権限認証",
 		desc = "天城ちゃんの離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
 		type = 2,
@@ -9895,8 +9902,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200013] = {
+	}
+	pg.base.island_item_data_template[200013] = {
 		name = "プリンツ・オイゲン-離島権限認証",
 		desc = "プリンツ・オイゲンの離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
 		type = 2,
@@ -9926,8 +9933,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200014] = {
+	}
+	pg.base.island_item_data_template[200014] = {
 		name = "肇和-離島権限認証",
 		desc = "肇和の離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
 		type = 2,
@@ -9957,8 +9964,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200015] = {
+	}
+	pg.base.island_item_data_template[200015] = {
 		name = "レオナルド・ダ・ヴィンチ-離島権限認証",
 		desc = "レオナルド・ダ・ヴィンチの離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
 		type = 2,
@@ -9988,8 +9995,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200016] = {
+	}
+	pg.base.island_item_data_template[200016] = {
 		name = "ウィリアム・D・ポーター-離島権限認証",
 		desc = "ウィリアム・D・ポーターの離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
 		type = 2,
@@ -10019,8 +10026,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200017] = {
+	}
+	pg.base.island_item_data_template[200017] = {
 		name = "鎮海-離島権限認証",
 		desc = "鎮海の離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
 		type = 2,
@@ -10050,8 +10057,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200018] = {
+	}
+	pg.base.island_item_data_template[200018] = {
 		name = "愛宕-離島権限認証",
 		desc = "愛宕の離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
 		type = 2,
@@ -10081,8 +10088,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200019] = {
+	}
+	pg.base.island_item_data_template[200019] = {
 		name = "ヘレナ-離島権限認証",
 		desc = "ヘレナの離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
 		type = 2,
@@ -10112,8 +10119,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200020] = {
+	}
+	pg.base.island_item_data_template[200020] = {
 		name = "フリードリヒ·デア·グローセ-離島権限認証",
 		desc = "フリードリヒ·デア·グローセの離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
 		type = 2,
@@ -10143,8 +10150,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200021] = {
+	}
+	pg.base.island_item_data_template[200021] = {
 		name = "TB-離島権限認証",
 		desc = "TBの離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
 		type = 2,
@@ -10174,8 +10181,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200022] = {
+	}
+	pg.base.island_item_data_template[200022] = {
 		name = "ナビゲーター-離島権限認証",
 		desc = "ナビゲーターの離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
 		type = 2,
@@ -10205,8 +10212,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200023] = {
+	}
+	pg.base.island_item_data_template[200023] = {
 		name = "スカベンジャー-離島権限認証",
 		desc = "スカベンジャーの離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
 		type = 2,
@@ -10236,8 +10243,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[300001] = {
+	}
+	pg.base.island_item_data_template[300001] = {
 		name = "豊穣の畑配置作業効率が4%アップ",
 		desc = "入手後、豊穣の畑配置作業効率が4%アップ",
 		type = 2,
@@ -10265,8 +10272,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[300002] = {
+	}
+	pg.base.island_item_data_template[300002] = {
 		name = "薫る果樹園配置作業効率が4%アップ",
 		desc = "入手後、薫る果樹園配置作業効率が4%アップ",
 		type = 2,
@@ -10294,8 +10301,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[300003] = {
+	}
+	pg.base.island_item_data_template[300003] = {
 		name = "青々苗場配置作業効率が4%アップ",
 		desc = "入手後、青々苗場配置作業効率が4%アップ",
 		type = 2,
@@ -10323,8 +10330,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[300004] = {
+	}
+	pg.base.island_item_data_template[300004] = {
 		name = "豊穣の畑配置作業効率が8%アップ",
 		desc = "入手後、豊穣の畑配置作業効率が8%アップ",
 		type = 2,
@@ -10352,8 +10359,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[300005] = {
+	}
+	pg.base.island_item_data_template[300005] = {
 		name = "薫る果樹園配置作業効率が8%アップ",
 		desc = "入手後、薫る果樹園配置作業効率が8%アップ",
 		type = 2,
@@ -10381,8 +10388,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[300006] = {
+	}
+	pg.base.island_item_data_template[300006] = {
 		name = "青々苗場配置作業効率が8%アップ",
 		desc = "入手後、青々苗場配置作業効率が8%アップ",
 		type = 2,
@@ -10411,4 +10418,4 @@ pg.base.island_item_data_template = {
 			}
 		}
 	}
-}
+end)()

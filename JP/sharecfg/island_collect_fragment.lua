@@ -1,6 +1,26 @@
 pg = pg or {}
-pg.island_collect_fragment = {
-	[1001] = {
+pg.island_collect_fragment = rawget(pg, "island_collect_fragment") or setmetatable({
+	__name = "island_collect_fragment"
+}, confNEO)
+pg.island_collect_fragment.all = {
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008,
+	1009,
+	1010,
+	1011,
+	1012
+}
+pg.base = pg.base or {}
+pg.base.island_collect_fragment = {}
+
+(function ()
+	pg.base.island_collect_fragment[1001] = {
 		name = "飛行装置の破片 ",
 		time_taked = 10,
 		tip = "朝露農場で見つかるかもしれない",
@@ -13,8 +33,8 @@ pg.island_collect_fragment = {
 		object_list = {
 			10010058
 		}
-	},
-	[1002] = {
+	}
+	pg.base.island_collect_fragment[1002] = {
 		name = "飛行装置の破片 ",
 		time_taked = 10,
 		tip = "朝露農場で見つかるかもしれない",
@@ -27,8 +47,8 @@ pg.island_collect_fragment = {
 		object_list = {
 			10010059
 		}
-	},
-	[1003] = {
+	}
+	pg.base.island_collect_fragment[1003] = {
 		name = "飛行装置の破片 ",
 		time_taked = 10,
 		tip = "朝露農場で見つかるかもしれない",
@@ -41,8 +61,8 @@ pg.island_collect_fragment = {
 		object_list = {
 			10010060
 		}
-	},
-	[1004] = {
+	}
+	pg.base.island_collect_fragment[1004] = {
 		name = "飛行装置の破片 ",
 		time_taked = 10,
 		tip = "朝露農場で見つかるかもしれない",
@@ -55,8 +75,8 @@ pg.island_collect_fragment = {
 		object_list = {
 			10010061
 		}
-	},
-	[1005] = {
+	}
+	pg.base.island_collect_fragment[1005] = {
 		name = "飛行装置の破片 ",
 		time_taked = 10,
 		tip = "朝露農場で見つかるかもしれない",
@@ -69,8 +89,8 @@ pg.island_collect_fragment = {
 		object_list = {
 			10010062
 		}
-	},
-	[1006] = {
+	}
+	pg.base.island_collect_fragment[1006] = {
 		name = "飛行装置の破片 ",
 		time_taked = 10,
 		tip = "風の原野で見つかるかもしれない ",
@@ -83,8 +103,8 @@ pg.island_collect_fragment = {
 		object_list = {
 			10040046
 		}
-	},
-	[1007] = {
+	}
+	pg.base.island_collect_fragment[1007] = {
 		name = "飛行装置の破片 ",
 		time_taked = 10,
 		tip = "風の原野で見つかるかもしれない ",
@@ -97,8 +117,8 @@ pg.island_collect_fragment = {
 		object_list = {
 			10040047
 		}
-	},
-	[1008] = {
+	}
+	pg.base.island_collect_fragment[1008] = {
 		name = "飛行装置の破片 ",
 		time_taked = 10,
 		tip = "風の原野で見つかるかもしれない ",
@@ -111,8 +131,8 @@ pg.island_collect_fragment = {
 		object_list = {
 			10040048
 		}
-	},
-	[1009] = {
+	}
+	pg.base.island_collect_fragment[1009] = {
 		name = "飛行装置の破片 ",
 		time_taked = 10,
 		tip = "風の原野で見つかるかもしれない ",
@@ -125,8 +145,8 @@ pg.island_collect_fragment = {
 		object_list = {
 			10040049
 		}
-	},
-	[1010] = {
+	}
+	pg.base.island_collect_fragment[1010] = {
 		name = "飛行装置の破片 ",
 		time_taked = 10,
 		tip = "埠頭で見つかるかもしれない ",
@@ -139,8 +159,8 @@ pg.island_collect_fragment = {
 		object_list = {
 			10020008
 		}
-	},
-	[1011] = {
+	}
+	pg.base.island_collect_fragment[1011] = {
 		name = "飛行装置の破片 ",
 		time_taked = 10,
 		tip = "埠頭で見つかるかもしれない ",
@@ -153,8 +173,8 @@ pg.island_collect_fragment = {
 		object_list = {
 			10020014
 		}
-	},
-	[1012] = {
+	}
+	pg.base.island_collect_fragment[1012] = {
 		name = "飛行装置の破片 ",
 		time_taked = 10,
 		tip = "埠頭で見つかるかもしれない ",
@@ -167,19 +187,5 @@ pg.island_collect_fragment = {
 		object_list = {
 			10020015
 		}
-	},
-	all = {
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1007,
-		1008,
-		1009,
-		1010,
-		1011,
-		1012
 	}
-}
+end)()

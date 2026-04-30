@@ -1,6 +1,19 @@
 pg = pg or {}
-pg.puzzle_combat_template = {
-	[100] = {
+pg.puzzle_combat_template = rawget(pg, "puzzle_combat_template") or setmetatable({
+	__name = "puzzle_combat_template"
+}, confNEO)
+pg.puzzle_combat_template.all = {
+	100,
+	103,
+	104,
+	105,
+	106
+}
+pg.base = pg.base or {}
+pg.base.puzzle_combat_template = {}
+
+(function ()
+	pg.base.puzzle_combat_template[100] = {
 		description = "電子対抗戦・コマンドカードの使い方を練習しよう",
 		name = "チュートリアル",
 		init_move = 15,
@@ -16,8 +29,8 @@ pg.puzzle_combat_template = {
 			999990
 		},
 		relic = {}
-	},
-	[103] = {
+	}
+	pg.base.puzzle_combat_template[103] = {
 		description = "移動コストの回復速度がダウンする。攻撃を慎重に避けつつ敵を倒そう",
 		name = "マニューバ・トレーニング",
 		init_move = 15,
@@ -36,8 +49,8 @@ pg.puzzle_combat_template = {
 			999989
 		},
 		relic = {}
-	},
-	[104] = {
+	}
+	pg.base.puzzle_combat_template[104] = {
 		description = "60秒間持ちこたえるとステージクリア。敵の自爆ボートに注意！",
 		name = "クイック・アタック",
 		init_move = 15,
@@ -57,8 +70,8 @@ pg.puzzle_combat_template = {
 			999991
 		},
 		relic = {}
-	},
-	[105] = {
+	}
+	pg.base.puzzle_combat_template[105] = {
 		description = "敵が一定時間毎に、10秒間持続するカウンターモードに入る\nカウンターモードの敵が受けるダメージが0になり、味方から攻撃を受けた場合自動で反撃する",
 		name = "スナイプショット",
 		init_move = 15,
@@ -76,8 +89,8 @@ pg.puzzle_combat_template = {
 			999978
 		},
 		relic = {}
-	},
-	[106] = {
+	}
+	pg.base.puzzle_combat_template[106] = {
 		description = "戦場に特殊装置が出現する。特殊装置は何度か攻撃されると状態が変化し、また出現から10秒後に自爆し自爆時の状態に応じて戦場全体に強化効果を与える",
 		name = "ストロング・エネミー",
 		init_move = 15,
@@ -95,12 +108,5 @@ pg.puzzle_combat_template = {
 			999990
 		},
 		relic = {}
-	},
-	all = {
-		100,
-		103,
-		104,
-		105,
-		106
 	}
-}
+end)()

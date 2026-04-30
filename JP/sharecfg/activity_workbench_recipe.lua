@@ -1,6 +1,45 @@
 pg = pg or {}
-pg.activity_workbench_recipe = {
-	{
+pg.activity_workbench_recipe = rawget(pg, "activity_workbench_recipe") or setmetatable({
+	__name = "activity_workbench_recipe"
+}, confNEO)
+pg.activity_workbench_recipe.all = {
+	1,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	100,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	110,
+	111,
+	112,
+	113,
+	114,
+	115,
+	116,
+	117,
+	118,
+	119,
+	120,
+	121,
+	122
+}
+pg.base = pg.base or {}
+pg.base.activity_workbench_recipe = {}
+
+(function ()
+	pg.base.activity_workbench_recipe[1] = {
 		name = "良質な木材",
 		id = 1,
 		lock_display = "クラフトLv.2で開放",
@@ -22,8 +61,8 @@ pg.activity_workbench_recipe = {
 				4
 			}
 		}
-	},
-	[3] = {
+	}
+	pg.base.activity_workbench_recipe[3] = {
 		name = "輝く宝石（赤）",
 		id = 3,
 		lock_display = "クラフトLv.2で開放",
@@ -45,8 +84,8 @@ pg.activity_workbench_recipe = {
 				2
 			}
 		}
-	},
-	[4] = {
+	}
+	pg.base.activity_workbench_recipe[4] = {
 		name = "輝く宝石（黄）",
 		id = 4,
 		lock_display = "クラフトLv.2で開放",
@@ -68,8 +107,8 @@ pg.activity_workbench_recipe = {
 				2
 			}
 		}
-	},
-	[5] = {
+	}
+	pg.base.activity_workbench_recipe[5] = {
 		name = "温泉施設：施設内装",
 		id = 5,
 		lock_display = "クラフトLv.3で開放",
@@ -91,8 +130,8 @@ pg.activity_workbench_recipe = {
 				1
 			}
 		}
-	},
-	[6] = {
+	}
+	pg.base.activity_workbench_recipe[6] = {
 		name = "温泉施設：給湯",
 		id = 6,
 		lock_display = "クラフトLv.3で開放",
@@ -119,8 +158,8 @@ pg.activity_workbench_recipe = {
 				1
 			}
 		}
-	},
-	[7] = {
+	}
+	pg.base.activity_workbench_recipe[7] = {
 		name = "温泉施設：湯上がりお菓子",
 		id = 7,
 		lock_display = "クラフトLv.3で開放",
@@ -142,8 +181,8 @@ pg.activity_workbench_recipe = {
 				5
 			}
 		}
-	},
-	[8] = {
+	}
+	pg.base.activity_workbench_recipe[8] = {
 		name = "温泉施設：施設外装",
 		id = 8,
 		lock_display = "クラフトLv.3で開放",
@@ -165,8 +204,8 @@ pg.activity_workbench_recipe = {
 				10
 			}
 		}
-	},
-	[9] = {
+	}
+	pg.base.activity_workbench_recipe[9] = {
 		name = "温泉施設：入浴セット",
 		id = 9,
 		lock_display = "クラフトLv.3で開放",
@@ -188,8 +227,8 @@ pg.activity_workbench_recipe = {
 				5
 			}
 		}
-	},
-	[100] = {
+	}
+	pg.base.activity_workbench_recipe[100] = {
 		name = "饅頭別荘の床",
 		id = 100,
 		lock_display = "クラフトLv.4で開放",
@@ -216,8 +255,8 @@ pg.activity_workbench_recipe = {
 				40
 			}
 		}
-	},
-	[101] = {
+	}
+	pg.base.activity_workbench_recipe[101] = {
 		name = "饅頭別荘の壁",
 		id = 101,
 		lock_display = "クラフトLv.4で開放",
@@ -249,8 +288,8 @@ pg.activity_workbench_recipe = {
 				10
 			}
 		}
-	},
-	[102] = {
+	}
+	pg.base.activity_workbench_recipe[102] = {
 		name = "別荘ロングベンチ",
 		id = 102,
 		lock_display = "クラフトLv.4で開放",
@@ -282,8 +321,8 @@ pg.activity_workbench_recipe = {
 				3
 			}
 		}
-	},
-	[103] = {
+	}
+	pg.base.activity_workbench_recipe[103] = {
 		name = "別荘フラワーベッド",
 		id = 103,
 		lock_display = "クラフトLv.4で開放",
@@ -315,8 +354,8 @@ pg.activity_workbench_recipe = {
 				5
 			}
 		}
-	},
-	[104] = {
+	}
+	pg.base.activity_workbench_recipe[104] = {
 		name = "別荘小屋",
 		id = 104,
 		lock_display = "クラフトLv.4で開放",
@@ -348,8 +387,8 @@ pg.activity_workbench_recipe = {
 				10
 			}
 		}
-	},
-	[105] = {
+	}
+	pg.base.activity_workbench_recipe[105] = {
 		name = "別荘画板",
 		id = 105,
 		lock_display = "クラフトLv.4で開放",
@@ -381,8 +420,8 @@ pg.activity_workbench_recipe = {
 				3
 			}
 		}
-	},
-	[106] = {
+	}
+	pg.base.activity_workbench_recipe[106] = {
 		name = "別荘フラワーカート",
 		id = 106,
 		lock_display = "クラフトLv.4で開放",
@@ -414,8 +453,8 @@ pg.activity_workbench_recipe = {
 				10
 			}
 		}
-	},
-	[107] = {
+	}
+	pg.base.activity_workbench_recipe[107] = {
 		name = "別荘フラワーランプ",
 		id = 107,
 		lock_display = "クラフトLv.4で開放",
@@ -447,8 +486,8 @@ pg.activity_workbench_recipe = {
 				3
 			}
 		}
-	},
-	[108] = {
+	}
+	pg.base.activity_workbench_recipe[108] = {
 		name = "別荘フラワーハウス",
 		id = 108,
 		lock_display = "クラフトLv.4で開放",
@@ -480,8 +519,8 @@ pg.activity_workbench_recipe = {
 				10
 			}
 		}
-	},
-	[109] = {
+	}
+	pg.base.activity_workbench_recipe[109] = {
 		name = "別荘フラワーガーデン",
 		id = 109,
 		lock_display = "クラフトLv.4で開放",
@@ -513,8 +552,8 @@ pg.activity_workbench_recipe = {
 				3
 			}
 		}
-	},
-	[110] = {
+	}
+	pg.base.activity_workbench_recipe[110] = {
 		name = "別荘ウッドブリッジ",
 		id = 110,
 		lock_display = "クラフトLv.4で開放",
@@ -541,8 +580,8 @@ pg.activity_workbench_recipe = {
 				40
 			}
 		}
-	},
-	[111] = {
+	}
+	pg.base.activity_workbench_recipe[111] = {
 		name = "別荘ブランコ",
 		id = 111,
 		lock_display = "クラフトLv.4で開放",
@@ -574,8 +613,8 @@ pg.activity_workbench_recipe = {
 				5
 			}
 		}
-	},
-	[112] = {
+	}
+	pg.base.activity_workbench_recipe[112] = {
 		name = "別荘ウェール",
 		id = 112,
 		lock_display = "クラフトLv.4で開放",
@@ -607,8 +646,8 @@ pg.activity_workbench_recipe = {
 				5
 			}
 		}
-	},
-	[113] = {
+	}
+	pg.base.activity_workbench_recipe[113] = {
 		name = "別荘ハープ",
 		id = 113,
 		lock_display = "クラフトLv.4で開放",
@@ -640,8 +679,8 @@ pg.activity_workbench_recipe = {
 				5
 			}
 		}
-	},
-	[114] = {
+	}
+	pg.base.activity_workbench_recipe[114] = {
 		name = "別荘化粧台",
 		id = 114,
 		lock_display = "クラフトLv.4で開放",
@@ -673,8 +712,8 @@ pg.activity_workbench_recipe = {
 				5
 			}
 		}
-	},
-	[115] = {
+	}
+	pg.base.activity_workbench_recipe[115] = {
 		name = "別荘テーブル",
 		id = 115,
 		lock_display = "クラフトLv.4で開放",
@@ -706,8 +745,8 @@ pg.activity_workbench_recipe = {
 				5
 			}
 		}
-	},
-	[116] = {
+	}
+	pg.base.activity_workbench_recipe[116] = {
 		name = "別荘小亭",
 		id = 116,
 		lock_display = "クラフトLv.4で開放",
@@ -739,8 +778,8 @@ pg.activity_workbench_recipe = {
 				10
 			}
 		}
-	},
-	[117] = {
+	}
+	pg.base.activity_workbench_recipe[117] = {
 		name = "別荘リトルランプ",
 		id = 117,
 		lock_display = "クラフトLv.4で開放",
@@ -772,8 +811,8 @@ pg.activity_workbench_recipe = {
 				1
 			}
 		}
-	},
-	[118] = {
+	}
+	pg.base.activity_workbench_recipe[118] = {
 		name = "別荘郵便受け",
 		id = 118,
 		lock_display = "クラフトLv.4で開放",
@@ -805,8 +844,8 @@ pg.activity_workbench_recipe = {
 				3
 			}
 		}
-	},
-	[119] = {
+	}
+	pg.base.activity_workbench_recipe[119] = {
 		name = "別荘バスタブ",
 		id = 119,
 		lock_display = "クラフトLv.4で開放",
@@ -838,8 +877,8 @@ pg.activity_workbench_recipe = {
 				10
 			}
 		}
-	},
-	[120] = {
+	}
+	pg.base.activity_workbench_recipe[120] = {
 		name = "別荘置時計",
 		id = 120,
 		lock_display = "クラフトLv.4で開放",
@@ -871,8 +910,8 @@ pg.activity_workbench_recipe = {
 				5
 			}
 		}
-	},
-	[121] = {
+	}
+	pg.base.activity_workbench_recipe[121] = {
 		name = "別荘フラワーバスケット",
 		id = 121,
 		lock_display = "クラフトLv.4で開放",
@@ -904,8 +943,8 @@ pg.activity_workbench_recipe = {
 				3
 			}
 		}
-	},
-	[122] = {
+	}
+	pg.base.activity_workbench_recipe[122] = {
 		name = "咲き誇る一瞬",
 		id = 122,
 		lock_display = "クラフトLv.4で開放",
@@ -932,38 +971,5 @@ pg.activity_workbench_recipe = {
 				1
 			}
 		}
-	},
-	all = {
-		1,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		100,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		110,
-		111,
-		112,
-		113,
-		114,
-		115,
-		116,
-		117,
-		118,
-		119,
-		120,
-		121,
-		122
 	}
-}
+end)()

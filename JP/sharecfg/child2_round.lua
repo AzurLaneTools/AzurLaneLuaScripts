@@ -1,6 +1,180 @@
 pg = pg or {}
-pg.child2_round = {
+pg.child2_round = rawget(pg, "child2_round") or setmetatable({
+	__name = "child2_round"
+}, confNEO)
+pg.child2_round.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	110,
+	111,
+	112,
+	113,
+	114,
+	115,
+	116,
+	117,
+	118,
+	119,
+	120,
+	151,
+	152,
+	153,
+	154,
+	155,
+	156,
+	157,
+	158,
+	159,
+	160,
+	201,
+	202,
+	203,
+	204,
+	205,
+	206,
+	207,
+	208,
+	209,
+	210,
+	211,
+	212,
+	213,
+	214,
+	215,
+	216,
+	217,
+	218,
+	219,
+	220,
+	251,
+	252,
+	253,
+	254,
+	255,
+	256,
+	257,
+	258,
+	259,
+	260
+}
+pg.child2_round.get_id_list_by_character = {
 	{
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		10,
+		11,
+		12,
+		13,
+		14,
+		15,
+		16,
+		17,
+		18,
+		19,
+		20
+	},
+	{
+		101,
+		102,
+		103,
+		104,
+		105,
+		106,
+		107,
+		108,
+		109,
+		110,
+		111,
+		112,
+		113,
+		114,
+		115,
+		116,
+		117,
+		118,
+		119,
+		120,
+		151,
+		152,
+		153,
+		154,
+		155,
+		156,
+		157,
+		158,
+		159,
+		160,
+		201,
+		202,
+		203,
+		204,
+		205,
+		206,
+		207,
+		208,
+		209,
+		210,
+		211,
+		212,
+		213,
+		214,
+		215,
+		216,
+		217,
+		218,
+		219,
+		220,
+		251,
+		252,
+		253,
+		254,
+		255,
+		256,
+		257,
+		258,
+		259,
+		260
+	}
+}
+pg.base = pg.base or {}
+pg.base.child2_round = {}
+
+(function ()
+	pg.base.child2_round[1] = {
 		target_id = 0,
 		round_type = 1,
 		map_mobility = 0,
@@ -282,8 +456,8 @@ pg.child2_round = {
 				403
 			}
 		}
-	},
-	{
+	}
+	pg.base.child2_round[2] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -372,8 +546,8 @@ pg.child2_round = {
 			6
 		},
 		main_event_chat_node_id = {}
-	},
-	{
+	}
+	pg.base.child2_round[3] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -462,8 +636,8 @@ pg.child2_round = {
 			6
 		},
 		main_event_chat_node_id = {}
-	},
-	{
+	}
+	pg.base.child2_round[4] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -552,8 +726,8 @@ pg.child2_round = {
 				412
 			}
 		}
-	},
-	{
+	}
+	pg.base.child2_round[5] = {
 		target_id = 1,
 		benefit_select = "",
 		round_type = 1,
@@ -642,8 +816,8 @@ pg.child2_round = {
 			6
 		},
 		main_event_chat_node_id = {}
-	},
-	{
+	}
+	pg.base.child2_round[6] = {
 		target_id = 0,
 		round_type = 1,
 		map_mobility = 3,
@@ -941,8 +1115,8 @@ pg.child2_round = {
 			12
 		},
 		main_event_chat_node_id = {}
-	},
-	{
+	}
+	pg.base.child2_round[7] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -1031,8 +1205,8 @@ pg.child2_round = {
 			12
 		},
 		main_event_chat_node_id = {}
-	},
-	{
+	}
+	pg.base.child2_round[8] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -1121,8 +1295,8 @@ pg.child2_round = {
 			12
 		},
 		main_event_chat_node_id = {}
-	},
-	{
+	}
+	pg.base.child2_round[9] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -1220,8 +1394,8 @@ pg.child2_round = {
 				406
 			}
 		}
-	},
-	{
+	}
+	pg.base.child2_round[10] = {
 		target_id = 2,
 		benefit_select = "",
 		round_type = 1,
@@ -1310,8 +1484,8 @@ pg.child2_round = {
 			12
 		},
 		main_event_chat_node_id = {}
-	},
-	{
+	}
+	pg.base.child2_round[11] = {
 		target_id = 0,
 		round_type = 1,
 		map_mobility = 3,
@@ -1609,8 +1783,8 @@ pg.child2_round = {
 			12
 		},
 		main_event_chat_node_id = {}
-	},
-	{
+	}
+	pg.base.child2_round[12] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -1690,8 +1864,8 @@ pg.child2_round = {
 			12
 		},
 		main_event_chat_node_id = {}
-	},
-	{
+	}
+	pg.base.child2_round[13] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -1780,8 +1954,8 @@ pg.child2_round = {
 			12
 		},
 		main_event_chat_node_id = {}
-	},
-	{
+	}
+	pg.base.child2_round[14] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -1870,8 +2044,8 @@ pg.child2_round = {
 				409
 			}
 		}
-	},
-	{
+	}
+	pg.base.child2_round[15] = {
 		target_id = 3,
 		benefit_select = "",
 		round_type = 1,
@@ -1960,8 +2134,8 @@ pg.child2_round = {
 			12
 		},
 		main_event_chat_node_id = {}
-	},
-	{
+	}
+	pg.base.child2_round[16] = {
 		target_id = 0,
 		round_type = 1,
 		map_mobility = 3,
@@ -2226,8 +2400,8 @@ pg.child2_round = {
 			12
 		},
 		main_event_chat_node_id = {}
-	},
-	{
+	}
+	pg.base.child2_round[17] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -2316,8 +2490,8 @@ pg.child2_round = {
 			12
 		},
 		main_event_chat_node_id = {}
-	},
-	{
+	}
+	pg.base.child2_round[18] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -2397,8 +2571,8 @@ pg.child2_round = {
 			12
 		},
 		main_event_chat_node_id = {}
-	},
-	{
+	}
+	pg.base.child2_round[19] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -2487,8 +2661,8 @@ pg.child2_round = {
 				400
 			}
 		}
-	},
-	{
+	}
+	pg.base.child2_round[20] = {
 		target_id = 4,
 		benefit_select = "",
 		round_type = 1,
@@ -2577,8 +2751,8 @@ pg.child2_round = {
 			12
 		},
 		main_event_chat_node_id = {}
-	},
-	[101] = {
+	}
+	pg.base.child2_round[101] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -2669,8 +2843,8 @@ pg.child2_round = {
 		tarot_select = {
 			1000
 		}
-	},
-	[102] = {
+	}
+	pg.base.child2_round[102] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -2759,8 +2933,8 @@ pg.child2_round = {
 			106
 		},
 		main_event_chat_node_id = {}
-	},
-	[103] = {
+	}
+	pg.base.child2_round[103] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -2858,8 +3032,8 @@ pg.child2_round = {
 				3300801
 			}
 		}
-	},
-	[104] = {
+	}
+	pg.base.child2_round[104] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -2939,8 +3113,8 @@ pg.child2_round = {
 			106
 		},
 		main_event_chat_node_id = {}
-	},
-	[105] = {
+	}
+	pg.base.child2_round[105] = {
 		target_id = 101,
 		benefit_select = "",
 		round_type = 1,
@@ -3029,8 +3203,8 @@ pg.child2_round = {
 			106
 		},
 		main_event_chat_node_id = {}
-	},
-	[106] = {
+	}
+	pg.base.child2_round[106] = {
 		target_id = 0,
 		round_type = 1,
 		map_mobility = 3,
@@ -3237,8 +3411,8 @@ pg.child2_round = {
 				3300601
 			}
 		}
-	},
-	[107] = {
+	}
+	pg.base.child2_round[107] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -3327,8 +3501,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[108] = {
+	}
+	pg.base.child2_round[108] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -3417,8 +3591,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[109] = {
+	}
+	pg.base.child2_round[109] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -3507,8 +3681,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[110] = {
+	}
+	pg.base.child2_round[110] = {
 		target_id = 102,
 		benefit_select = "",
 		round_type = 1,
@@ -3597,8 +3771,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[111] = {
+	}
+	pg.base.child2_round[111] = {
 		target_id = 0,
 		round_type = 1,
 		map_mobility = 3,
@@ -3805,8 +3979,8 @@ pg.child2_round = {
 				3300901
 			}
 		}
-	},
-	[112] = {
+	}
+	pg.base.child2_round[112] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -3886,8 +4060,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[113] = {
+	}
+	pg.base.child2_round[113] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -3976,8 +4150,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[114] = {
+	}
+	pg.base.child2_round[114] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -4057,8 +4231,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[115] = {
+	}
+	pg.base.child2_round[115] = {
 		target_id = 103,
 		benefit_select = "",
 		round_type = 1,
@@ -4147,8 +4321,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[116] = {
+	}
+	pg.base.child2_round[116] = {
 		target_id = 0,
 		round_type = 1,
 		map_mobility = 3,
@@ -4346,8 +4520,8 @@ pg.child2_round = {
 				3301001
 			}
 		}
-	},
-	[117] = {
+	}
+	pg.base.child2_round[117] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -4436,8 +4610,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[118] = {
+	}
+	pg.base.child2_round[118] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -4517,8 +4691,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[119] = {
+	}
+	pg.base.child2_round[119] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -4598,8 +4772,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[120] = {
+	}
+	pg.base.child2_round[120] = {
 		target_id = 104,
 		benefit_select = "",
 		round_type = 1,
@@ -4688,8 +4862,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[151] = {
+	}
+	pg.base.child2_round[151] = {
 		target_id = 111,
 		benefit_select = "",
 		round_type = 2,
@@ -4769,8 +4943,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[152] = {
+	}
+	pg.base.child2_round[152] = {
 		target_id = 112,
 		benefit_select = "",
 		round_type = 2,
@@ -4850,8 +5024,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[153] = {
+	}
+	pg.base.child2_round[153] = {
 		target_id = 113,
 		benefit_select = "",
 		round_type = 2,
@@ -4931,8 +5105,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[154] = {
+	}
+	pg.base.child2_round[154] = {
 		target_id = 114,
 		benefit_select = "",
 		round_type = 2,
@@ -5012,8 +5186,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[155] = {
+	}
+	pg.base.child2_round[155] = {
 		target_id = 115,
 		benefit_select = "",
 		round_type = 2,
@@ -5093,8 +5267,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[156] = {
+	}
+	pg.base.child2_round[156] = {
 		target_id = 116,
 		benefit_select = "",
 		round_type = 2,
@@ -5174,8 +5348,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[157] = {
+	}
+	pg.base.child2_round[157] = {
 		target_id = 117,
 		benefit_select = "",
 		round_type = 2,
@@ -5255,8 +5429,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[158] = {
+	}
+	pg.base.child2_round[158] = {
 		target_id = 118,
 		benefit_select = "",
 		round_type = 2,
@@ -5336,8 +5510,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[159] = {
+	}
+	pg.base.child2_round[159] = {
 		target_id = 119,
 		benefit_select = "",
 		round_type = 2,
@@ -5417,8 +5591,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[160] = {
+	}
+	pg.base.child2_round[160] = {
 		target_id = 120,
 		benefit_select = "",
 		round_type = 2,
@@ -5498,8 +5672,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[201] = {
+	}
+	pg.base.child2_round[201] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -5590,8 +5764,8 @@ pg.child2_round = {
 		tarot_select = {
 			1001
 		}
-	},
-	[202] = {
+	}
+	pg.base.child2_round[202] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -5680,8 +5854,8 @@ pg.child2_round = {
 			106
 		},
 		main_event_chat_node_id = {}
-	},
-	[203] = {
+	}
+	pg.base.child2_round[203] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -5779,8 +5953,8 @@ pg.child2_round = {
 				3300801
 			}
 		}
-	},
-	[204] = {
+	}
+	pg.base.child2_round[204] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -5860,8 +6034,8 @@ pg.child2_round = {
 			106
 		},
 		main_event_chat_node_id = {}
-	},
-	[205] = {
+	}
+	pg.base.child2_round[205] = {
 		target_id = 201,
 		benefit_select = "",
 		round_type = 1,
@@ -5950,8 +6124,8 @@ pg.child2_round = {
 			106
 		},
 		main_event_chat_node_id = {}
-	},
-	[206] = {
+	}
+	pg.base.child2_round[206] = {
 		target_id = 0,
 		round_type = 1,
 		map_mobility = 3,
@@ -6194,8 +6368,8 @@ pg.child2_round = {
 				3300601
 			}
 		}
-	},
-	[207] = {
+	}
+	pg.base.child2_round[207] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -6284,8 +6458,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[208] = {
+	}
+	pg.base.child2_round[208] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -6374,8 +6548,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[209] = {
+	}
+	pg.base.child2_round[209] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -6464,8 +6638,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[210] = {
+	}
+	pg.base.child2_round[210] = {
 		target_id = 202,
 		benefit_select = "",
 		round_type = 1,
@@ -6554,8 +6728,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[211] = {
+	}
+	pg.base.child2_round[211] = {
 		target_id = 0,
 		round_type = 1,
 		map_mobility = 3,
@@ -6798,8 +6972,8 @@ pg.child2_round = {
 				3300901
 			}
 		}
-	},
-	[212] = {
+	}
+	pg.base.child2_round[212] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -6879,8 +7053,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[213] = {
+	}
+	pg.base.child2_round[213] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -6969,8 +7143,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[214] = {
+	}
+	pg.base.child2_round[214] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -7050,8 +7224,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[215] = {
+	}
+	pg.base.child2_round[215] = {
 		target_id = 203,
 		benefit_select = "",
 		round_type = 1,
@@ -7140,8 +7314,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[216] = {
+	}
+	pg.base.child2_round[216] = {
 		target_id = 0,
 		round_type = 1,
 		map_mobility = 3,
@@ -7375,8 +7549,8 @@ pg.child2_round = {
 				3301001
 			}
 		}
-	},
-	[217] = {
+	}
+	pg.base.child2_round[217] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -7465,8 +7639,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[218] = {
+	}
+	pg.base.child2_round[218] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -7546,8 +7720,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[219] = {
+	}
+	pg.base.child2_round[219] = {
 		target_id = 0,
 		benefit_select = "",
 		round_type = 1,
@@ -7627,8 +7801,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[220] = {
+	}
+	pg.base.child2_round[220] = {
 		target_id = 204,
 		benefit_select = "",
 		round_type = 1,
@@ -7717,8 +7891,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[251] = {
+	}
+	pg.base.child2_round[251] = {
 		target_id = 211,
 		benefit_select = "",
 		round_type = 2,
@@ -7798,8 +7972,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[252] = {
+	}
+	pg.base.child2_round[252] = {
 		target_id = 212,
 		benefit_select = "",
 		round_type = 2,
@@ -7879,8 +8053,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[253] = {
+	}
+	pg.base.child2_round[253] = {
 		target_id = 213,
 		benefit_select = "",
 		round_type = 2,
@@ -7960,8 +8134,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[254] = {
+	}
+	pg.base.child2_round[254] = {
 		target_id = 214,
 		benefit_select = "",
 		round_type = 2,
@@ -8041,8 +8215,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[255] = {
+	}
+	pg.base.child2_round[255] = {
 		target_id = 215,
 		benefit_select = "",
 		round_type = 2,
@@ -8122,8 +8296,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[256] = {
+	}
+	pg.base.child2_round[256] = {
 		target_id = 216,
 		benefit_select = "",
 		round_type = 2,
@@ -8203,8 +8377,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[257] = {
+	}
+	pg.base.child2_round[257] = {
 		target_id = 217,
 		benefit_select = "",
 		round_type = 2,
@@ -8284,8 +8458,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[258] = {
+	}
+	pg.base.child2_round[258] = {
 		target_id = 218,
 		benefit_select = "",
 		round_type = 2,
@@ -8365,8 +8539,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[259] = {
+	}
+	pg.base.child2_round[259] = {
 		target_id = 219,
 		benefit_select = "",
 		round_type = 2,
@@ -8446,8 +8620,8 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	[260] = {
+	}
+	pg.base.child2_round[260] = {
 		target_id = 220,
 		benefit_select = "",
 		round_type = 2,
@@ -8527,173 +8701,5 @@ pg.child2_round = {
 			112
 		},
 		main_event_chat_node_id = {}
-	},
-	get_id_list_by_character = {
-		{
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20
-		},
-		{
-			101,
-			102,
-			103,
-			104,
-			105,
-			106,
-			107,
-			108,
-			109,
-			110,
-			111,
-			112,
-			113,
-			114,
-			115,
-			116,
-			117,
-			118,
-			119,
-			120,
-			151,
-			152,
-			153,
-			154,
-			155,
-			156,
-			157,
-			158,
-			159,
-			160,
-			201,
-			202,
-			203,
-			204,
-			205,
-			206,
-			207,
-			208,
-			209,
-			210,
-			211,
-			212,
-			213,
-			214,
-			215,
-			216,
-			217,
-			218,
-			219,
-			220,
-			251,
-			252,
-			253,
-			254,
-			255,
-			256,
-			257,
-			258,
-			259,
-			260
-		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		110,
-		111,
-		112,
-		113,
-		114,
-		115,
-		116,
-		117,
-		118,
-		119,
-		120,
-		151,
-		152,
-		153,
-		154,
-		155,
-		156,
-		157,
-		158,
-		159,
-		160,
-		201,
-		202,
-		203,
-		204,
-		205,
-		206,
-		207,
-		208,
-		209,
-		210,
-		211,
-		212,
-		213,
-		214,
-		215,
-		216,
-		217,
-		218,
-		219,
-		220,
-		251,
-		252,
-		253,
-		254,
-		255,
-		256,
-		257,
-		258,
-		259,
-		260
 	}
-}
+end)()

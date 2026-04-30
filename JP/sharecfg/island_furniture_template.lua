@@ -1,6 +1,133 @@
 pg = pg or {}
-pg.island_furniture_template = {
-	{
+pg.island_furniture_template = rawget(pg, "island_furniture_template") or setmetatable({
+	__name = "island_furniture_template"
+}, confNEO)
+pg.island_furniture_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	100,
+	101,
+	10101,
+	10201,
+	10301,
+	10302,
+	10303,
+	10304,
+	10305,
+	10306,
+	10401,
+	10402,
+	10403,
+	10404,
+	10405,
+	10406,
+	10407,
+	10408,
+	10409,
+	10410,
+	10411,
+	10412,
+	10413,
+	10414,
+	10415,
+	10416,
+	10417,
+	10418,
+	10419,
+	10420,
+	10421,
+	10801,
+	10802,
+	10803,
+	20101,
+	20201,
+	20301,
+	20302,
+	20303,
+	20304,
+	20305,
+	20306,
+	20401,
+	20402,
+	20403,
+	20404,
+	20405,
+	20406,
+	20407,
+	20408,
+	20409,
+	20410,
+	20411,
+	20412,
+	20413,
+	20414,
+	20415,
+	20801,
+	20802,
+	20803,
+	30001,
+	30002,
+	30003,
+	30004,
+	30005,
+	30006,
+	30007,
+	30008,
+	30009,
+	30010,
+	30101,
+	30201,
+	30301,
+	30302,
+	30303,
+	30304,
+	30305,
+	30401,
+	30402,
+	30403,
+	30404,
+	30405,
+	30406,
+	30407,
+	30408,
+	30409,
+	30410,
+	30411,
+	30412,
+	30413,
+	30414,
+	30415,
+	30416,
+	30801,
+	30802,
+	30803
+}
+pg.base = pg.base or {}
+pg.base.island_furniture_template = {}
+
+(function ()
+	pg.base.island_furniture_template[1] = {
 		setNum = 1,
 		describe = "森に位置する静寂な隠れ家。自然と隣り合わせ。",
 		name = "森の小屋",
@@ -20,8 +147,8 @@ pg.island_furniture_template = {
 			22
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[2] = {
 		setNum = 999,
 		describe = "炎のように絢爛な葉を持つ楓の木。風が吹くと一面が彩り豊かに。",
 		name = "紅葉樹",
@@ -41,8 +168,8 @@ pg.island_furniture_template = {
 			3
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[3] = {
 		setNum = 999,
 		describe = "幅広い葉が風でさらさら音を立て、まだらな日陰を落とす。",
 		name = "広葉樹",
@@ -62,8 +189,8 @@ pg.island_furniture_template = {
 			3
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[4] = {
 		setNum = 999,
 		describe = "扇形の葉っぱが風で揺れて、一面を金色に染め上げる。",
 		name = "銀杏樹",
@@ -88,8 +215,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	{
+	}
+	pg.base.island_furniture_template[5] = {
 		setNum = 999,
 		describe = "密集した緑の低木。枝葉の間から時々がさがさと音がする。",
 		name = "緑の低木",
@@ -109,8 +236,8 @@ pg.island_furniture_template = {
 			3
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[6] = {
 		setNum = 999,
 		describe = "明るい黄色の小さな花が咲く低木。蝶々が時々枝に止まる。",
 		name = "黄花の低木",
@@ -130,8 +257,8 @@ pg.island_furniture_template = {
 			1
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[7] = {
 		setNum = 999,
 		describe = "背の低い小さな花々。ひしめいてこっそりおしゃべり中。",
 		name = "小さな花々",
@@ -151,8 +278,8 @@ pg.island_furniture_template = {
 			1
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[8] = {
 		setNum = 999,
 		describe = "明るい黄色の葉っぱが舞う影を大地に落とす。太陽の下で特に目立っている。",
 		name = "明黄の木",
@@ -172,8 +299,8 @@ pg.island_furniture_template = {
 			3
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[9] = {
 		setNum = 999,
 		describe = "樹冠が濃密で、風で軽く揺れるとさらさら音を立てる。",
 		name = "碧盖の木",
@@ -198,8 +325,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	{
+	}
+	pg.base.island_furniture_template[10] = {
 		setNum = 999,
 		describe = "幼い黄色い苗木。細枝には小さな葉が伸びている。",
 		name = "黄枝の苗木",
@@ -219,8 +346,8 @@ pg.island_furniture_template = {
 			3
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[11] = {
 		setNum = 999,
 		describe = "幼い緑の苗木。葉っぱに朝露の湿り気が残っている。",
 		name = "青緑の青木",
@@ -245,8 +372,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	{
+	}
+	pg.base.island_furniture_template[12] = {
 		setNum = 999,
 		describe = "質素な陶土タイル。手作業の独特な美を感じられる。",
 		name = "陶土タイル(小)",
@@ -266,8 +393,8 @@ pg.island_furniture_template = {
 			2
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[13] = {
 		setNum = 999,
 		describe = "質素な陶土タイル。手作業の独特な美を感じられる。",
 		name = "陶土タイル(中)",
@@ -287,8 +414,8 @@ pg.island_furniture_template = {
 			3
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[14] = {
 		setNum = 999,
 		describe = "質素な陶土タイル。手作業の独特な美を感じられる。",
 		name = "陶土タイル(大)",
@@ -308,8 +435,8 @@ pg.island_furniture_template = {
 			5
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[15] = {
 		setNum = 999,
 		describe = "手入れをしやすいようしっかり平坦化されたタイル地面。好きに使おう！",
 		name = "磁器質タイル(小)",
@@ -329,8 +456,8 @@ pg.island_furniture_template = {
 			2
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[16] = {
 		setNum = 999,
 		describe = "手入れをしやすいようしっかり平坦化されたタイル地面。好きに使おう！",
 		name = "磁器質タイル(中)",
@@ -350,8 +477,8 @@ pg.island_furniture_template = {
 			3
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[17] = {
 		setNum = 999,
 		describe = "手入れをしやすいようしっかり平坦化されたタイル地面。好きに使おう！",
 		name = "磁器質タイル(大)",
@@ -371,8 +498,8 @@ pg.island_furniture_template = {
 			5
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[18] = {
 		setNum = 999,
 		describe = "不規則な形の石板で組み合わせた小綺麗なタイル",
 		name = "模様タイル(小)",
@@ -392,8 +519,8 @@ pg.island_furniture_template = {
 			2
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[19] = {
 		setNum = 999,
 		describe = "不規則な形の石板で組み合わせた小綺麗なタイル",
 		name = "模様タイル(中)",
@@ -413,8 +540,8 @@ pg.island_furniture_template = {
 			3
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[20] = {
 		setNum = 999,
 		describe = "不規則な形の石板で組み合わせた小綺麗なタイル",
 		name = "模様タイル(大)",
@@ -434,8 +561,8 @@ pg.island_furniture_template = {
 			5
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[21] = {
 		setNum = 999,
 		describe = "冷色の石タイル。落ち着いた雰囲気で耐用性が高い",
 		name = "灰石タイル(小)",
@@ -455,8 +582,8 @@ pg.island_furniture_template = {
 			2
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[22] = {
 		setNum = 999,
 		describe = "冷色の石タイル。落ち着いた雰囲気で耐用性が高い",
 		name = "灰石タイル(中)",
@@ -476,8 +603,8 @@ pg.island_furniture_template = {
 			3
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[23] = {
 		setNum = 999,
 		describe = "冷色の石タイル。落ち着いた雰囲気で耐用性が高い",
 		name = "灰石タイル(大)",
@@ -497,8 +624,8 @@ pg.island_furniture_template = {
 			5
 		},
 		jump_page = {}
-	},
-	[100] = {
+	}
+	pg.base.island_furniture_template[100] = {
 		setNum = 1,
 		describe = "豊作の麦穂に巨大な楓の葉ーートロフィーから落ち着いたメープルシロップの香りがする",
 		name = "秋の離島開発トロフィー",
@@ -523,8 +650,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[101] = {
+	}
+	pg.base.island_furniture_template[101] = {
 		setNum = 1,
 		describe = "ヒヤシンスが寄り添い合って咲き誇る。瑠璃で彫刻したかのように透き通るトロフィーから清らかな香りが漂う",
 		name = "春の離島開発トロフィー",
@@ -549,8 +676,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10101] = {
+	}
+	pg.base.island_furniture_template[10101] = {
 		setNum = 1,
 		describe = "精緻な森の小屋。素晴らしい田園生活を楽しもう",
 		name = "森の別邸",
@@ -575,8 +702,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10201] = {
+	}
+	pg.base.island_furniture_template[10201] = {
 		setNum = 1,
 		describe = "超大型くまくまソファセット。キャンプへの全ての需要を満たしてくれる。",
 		name = "くまくまソファセット",
@@ -600,8 +727,8 @@ pg.island_furniture_template = {
 			3
 		},
 		jump_page = {}
-	},
-	[10301] = {
+	}
+	pg.base.island_furniture_template[10301] = {
 		setNum = 999,
 		describe = "星々のランプがテーブル椅子を照らして、雰囲気たっぷり。",
 		name = "屋外テーブル椅子",
@@ -628,8 +755,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10302] = {
+	}
+	pg.base.island_furniture_template[10302] = {
 		setNum = 999,
 		describe = "釣り愛好者専用セット。ここに座って一日中釣りしても問題なし！",
 		name = "のんびり釣り椅子",
@@ -651,8 +778,8 @@ pg.island_furniture_template = {
 			5
 		},
 		jump_page = {}
-	},
-	[10303] = {
+	}
+	pg.base.island_furniture_template[10303] = {
 		setNum = 999,
 		describe = "船の錨を叩くとドアベルになる。",
 		name = "キャンプゲート",
@@ -677,8 +804,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10304] = {
+	}
+	pg.base.island_furniture_template[10304] = {
 		setNum = 999,
 		describe = "移動ヴィラ、いつでも出発準備完了！",
 		name = "キャンピングカー",
@@ -703,8 +830,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10305] = {
+	}
+	pg.base.island_furniture_template[10305] = {
 		setNum = 999,
 		describe = "小熊のハンモック。星々は揺りかご。",
 		name = "小熊ハンモック",
@@ -729,8 +856,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10306] = {
+	}
+	pg.base.island_furniture_template[10306] = {
 		setNum = 999,
 		describe = "迅速に設営可能で、持ち運びやすくて実用的！",
 		name = "キャンプテント",
@@ -755,8 +882,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10401] = {
+	}
+	pg.base.island_furniture_template[10401] = {
 		setNum = 999,
 		describe = "猫ちゃんの夕食はあなた次第！魚を釣り上げよう！",
 		name = "ヨット釣り場",
@@ -783,8 +910,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10402] = {
+	}
+	pg.base.island_furniture_template[10402] = {
 		setNum = 999,
 		describe = "焚き火を囲んでのバーベキューと歓談こそがキャンプの魂！",
 		name = "キャンプ焚き火",
@@ -809,8 +936,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10403] = {
+	}
+	pg.base.island_furniture_template[10403] = {
 		setNum = 999,
 		describe = "詰めて詰めて！二人でも入れるよ〜",
 		name = "キャンプ浴槽",
@@ -837,8 +964,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10404] = {
+	}
+	pg.base.island_furniture_template[10404] = {
 		setNum = 999,
 		describe = "石を積み重ねて小熊の形にした置物。愛嬌たっぷり。",
 		name = "くまくま石置物",
@@ -863,8 +990,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10405] = {
+	}
+	pg.base.island_furniture_template[10405] = {
 		setNum = 999,
 		describe = "くまくま造型のバス停。バスの待ち時間にちょっと景色を見よう！",
 		name = "くまくまバス停",
@@ -889,8 +1016,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10406] = {
+	}
+	pg.base.island_furniture_template[10406] = {
 		setNum = 999,
 		describe = "積み重なった落ち葉、風が吹き抜けるとさらさらとした音がする。",
 		name = "落ち葉",
@@ -915,8 +1042,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10407] = {
+	}
+	pg.base.island_furniture_template[10407] = {
 		setNum = 999,
 		describe = "標準的な屋外バーベキュー用具セット。基本は揃っている。",
 		name = "携帯グリルセット",
@@ -941,8 +1068,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10408] = {
+	}
+	pg.base.island_furniture_template[10408] = {
 		setNum = 999,
 		describe = "おこちゃまシーソー。くま耳帽子をかぶって一緒に遊ぼう！",
 		name = "くまくまシーソー",
@@ -969,8 +1096,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10409] = {
+	}
+	pg.base.island_furniture_template[10409] = {
 		setNum = 999,
 		describe = "簡単に動かせるポンプ。いつでも水が汲めて超便利！",
 		name = "給水装置",
@@ -995,8 +1122,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10410] = {
+	}
+	pg.base.island_furniture_template[10410] = {
 		setNum = 999,
 		describe = "危険区域につき要注意。安全第一を忘れずに！",
 		name = "警告看板",
@@ -1021,8 +1148,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10411] = {
+	}
+	pg.base.island_furniture_template[10411] = {
 		setNum = 999,
 		describe = "斧、そして切り株。スムーズに薪割りを行える！",
 		name = "薪割りセット",
@@ -1047,8 +1174,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10412] = {
+	}
+	pg.base.island_furniture_template[10412] = {
 		setNum = 999,
 		describe = "照明付きのフェンス。夜でも明るくて安心！",
 		name = "照明付きフェンス",
@@ -1073,8 +1200,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10413] = {
+	}
+	pg.base.island_furniture_template[10413] = {
 		setNum = 999,
 		describe = "木製のバリケード。信頼できる安全性！",
 		name = "木製バリケード",
@@ -1099,8 +1226,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10414] = {
+	}
+	pg.base.island_furniture_template[10414] = {
 		setNum = 999,
 		describe = "金属の防護フェンス。渋くて頼りになる！",
 		name = "鉄のフェンス",
@@ -1125,8 +1252,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10415] = {
+	}
+	pg.base.island_furniture_template[10415] = {
 		setNum = 999,
 		describe = "成長したばかりの針葉の小樹。生命力に満ち溢れている。",
 		name = "新杉",
@@ -1151,8 +1278,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10416] = {
+	}
+	pg.base.island_furniture_template[10416] = {
 		setNum = 999,
 		describe = "まっすぐそびえ立つ深緑の巨人。周りには木の香りが漂う。",
 		name = "青松",
@@ -1177,8 +1304,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10417] = {
+	}
+	pg.base.island_furniture_template[10417] = {
 		setNum = 999,
 		describe = "ふわふわのクマちゃんぬいぐるみ。抱きしめると癒やされる。",
 		name = "クマぬいぐるみ",
@@ -1203,8 +1330,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10418] = {
+	}
+	pg.base.island_furniture_template[10418] = {
 		setNum = 999,
 		describe = "手作りのミニ容器。淡い木の香りがする。",
 		name = "小さい木樽",
@@ -1229,8 +1356,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10419] = {
+	}
+	pg.base.island_furniture_template[10419] = {
 		setNum = 999,
 		describe = "野外サバイバルに使う資材装備を備蓄すべし！",
 		name = "フォレストハウス",
@@ -1250,8 +1377,8 @@ pg.island_furniture_template = {
 			3
 		},
 		jump_page = {}
-	},
-	[10420] = {
+	}
+	pg.base.island_furniture_template[10420] = {
 		setNum = 999,
 		describe = "まっすぐそびえ立つ照明灯柱。夜に温かい光を灯してくれる。",
 		name = "街灯柱",
@@ -1276,8 +1403,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10421] = {
+	}
+	pg.base.island_furniture_template[10421] = {
 		setNum = 999,
 		describe = "高性能な天体望遠鏡。深宇宙への旅に連れていってくれる。",
 		name = "深宇宙探索者",
@@ -1302,8 +1429,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10801] = {
+	}
+	pg.base.island_furniture_template[10801] = {
 		setNum = 999,
 		describe = "木板で作った簡易路面、その上を歩くひとときは悠々と。",
 		name = "木製路面(小)",
@@ -1323,8 +1450,8 @@ pg.island_furniture_template = {
 			2
 		},
 		jump_page = {}
-	},
-	[10802] = {
+	}
+	pg.base.island_furniture_template[10802] = {
 		setNum = 999,
 		describe = "木板で作った簡易路面、その上を歩くひとときは悠々と。",
 		name = "木製路面(中)",
@@ -1344,8 +1471,8 @@ pg.island_furniture_template = {
 			3
 		},
 		jump_page = {}
-	},
-	[10803] = {
+	}
+	pg.base.island_furniture_template[10803] = {
 		setNum = 999,
 		describe = "木板で作った簡易路面、その上を歩くひとときは悠々と。",
 		name = "木製路面(大)",
@@ -1365,8 +1492,8 @@ pg.island_furniture_template = {
 			5
 		},
 		jump_page = {}
-	},
-	[20101] = {
+	}
+	pg.base.island_furniture_template[20101] = {
 		setNum = 1,
 		describe = "居心地のいい館。落ち着きと侘び寂びを感じてみよう。",
 		name = "楓月の館",
@@ -1391,8 +1518,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20201] = {
+	}
+	pg.base.island_furniture_template[20201] = {
 		setNum = 1,
 		describe = "温泉に浸かり、体も心もリラックス。一瞬の静寂を楽しもう。",
 		name = "温泉浴場",
@@ -1420,8 +1547,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20301] = {
+	}
+	pg.base.island_furniture_template[20301] = {
 		setNum = 999,
 		describe = "座るだけもよし、お茶を嗜むもよし、たぬきたちと戯れるのもまたよし",
 		name = "たぬき茶屋",
@@ -1448,8 +1575,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20302] = {
+	}
+	pg.base.island_furniture_template[20302] = {
 		setNum = 999,
 		describe = "演舞も演武も、己の一芸も。己が腕前を披露してみる？",
 		name = "松楽のステージ",
@@ -1474,8 +1601,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20303] = {
+	}
+	pg.base.island_furniture_template[20303] = {
 		setNum = 999,
 		describe = "油揚げがほしい……",
 		name = "狐の祠",
@@ -1500,8 +1627,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20304] = {
+	}
+	pg.base.island_furniture_template[20304] = {
 		setNum = 999,
 		describe = "食材準備完了！今夜は豪華に寿司盛り合わせだ！",
 		name = "スシテーブル",
@@ -1526,8 +1653,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20305] = {
+	}
+	pg.base.island_furniture_template[20305] = {
 		setNum = 999,
 		describe = "格式高い屏風。装飾としても空間の仕切りとしても使える。",
 		name = "屏風",
@@ -1552,8 +1679,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20306] = {
+	}
+	pg.base.island_furniture_template[20306] = {
 		setNum = 999,
 		describe = "野点傘。風雨の中でもお茶を楽しめる。",
 		name = "野点傘",
@@ -1578,8 +1705,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20401] = {
+	}
+	pg.base.island_furniture_template[20401] = {
 		setNum = 999,
 		describe = "ゆらゆら〜〜ゆらゆら〜〜",
 		name = "楓ブランコ",
@@ -1606,8 +1733,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20402] = {
+	}
+	pg.base.island_furniture_template[20402] = {
 		setNum = 999,
 		describe = "真向斬り？一文字斬り？袈裟斬り！",
 		name = "巻藁",
@@ -1632,8 +1759,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20403] = {
+	}
+	pg.base.island_furniture_template[20403] = {
 		setNum = 999,
 		describe = "のんびりと魚が泳ぎ回ってるので、邪魔しないように。",
 		name = "金魚の川",
@@ -1658,8 +1785,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20404] = {
+	}
+	pg.base.island_furniture_template[20404] = {
 		setNum = 999,
 		describe = "黒ウサウサ、白ウサウサ、黒白ウサウサ重ねウサウサ！",
 		name = "黒ウサウサ",
@@ -1684,8 +1811,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20405] = {
+	}
+	pg.base.island_furniture_template[20405] = {
 		setNum = 999,
 		describe = "白ウサウサ、黒ウサウサ、白黒ウサウサ寄りウサウサ！",
 		name = "白ウサウサ",
@@ -1710,8 +1837,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20406] = {
+	}
+	pg.base.island_furniture_template[20406] = {
 		setNum = 999,
 		describe = "プレゼントがほしい？ちゃんとお願いしてね？",
 		name = "願いたぬき",
@@ -1736,8 +1863,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20407] = {
+	}
+	pg.base.island_furniture_template[20407] = {
 		setNum = 999,
 		describe = "メガサイズですごく可愛い！お風呂から上がったら上に乗っかってリラックス！",
 		name = "仰向けカピバラ",
@@ -1764,8 +1891,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20408] = {
+	}
+	pg.base.island_furniture_template[20408] = {
 		setNum = 999,
 		describe = "仰向けうつ伏せ、好きな時に切り替え可能。楽な姿勢で寄りかかろう。",
 		name = "うつ伏せカピバラ",
@@ -1790,8 +1917,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20409] = {
+	}
+	pg.base.island_furniture_template[20409] = {
 		setNum = 999,
 		describe = "紅葉ひらひら、蝶々ひらひら、秋をロマンチックに。",
 		name = "紅楓の落ち葉",
@@ -1816,8 +1943,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20410] = {
+	}
+	pg.base.island_furniture_template[20410] = {
 		setNum = 999,
 		describe = "褐色の葉っぱが舞い落ちる。秋日の風情に静謐さという隠し味を。",
 		name = "桐の落ち葉",
@@ -1842,8 +1969,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20411] = {
+	}
+	pg.base.island_furniture_template[20411] = {
 		setNum = 999,
 		describe = "黄金色の葉っぱが積もり、庭にぬくもりと安寧の気配を。",
 		name = "銀杏の落ち葉",
@@ -1868,8 +1995,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20412] = {
+	}
+	pg.base.island_furniture_template[20412] = {
 		setNum = 999,
 		describe = "キノコ同士も集まる時があるよね。",
 		name = "共生のキノコ",
@@ -1894,8 +2021,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20413] = {
+	}
+	pg.base.island_furniture_template[20413] = {
 		setNum = 999,
 		describe = "歴史ある年輪を残した切り株。粗い木目は悠久たる大自然の貫禄さをうまく表現している。",
 		name = "古樹の切り株",
@@ -1920,8 +2047,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20414] = {
+	}
+	pg.base.island_furniture_template[20414] = {
 		setNum = 999,
 		describe = "未加工の松の木の丸太。淡い松の香りがする。",
 		name = "松の丸太",
@@ -1946,8 +2073,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20415] = {
+	}
+	pg.base.island_furniture_template[20415] = {
 		setNum = 999,
 		describe = "大地に点在している小さな切り株たち。森の奥へと続くよう。",
 		name = "切り株の道",
@@ -1972,8 +2099,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20801] = {
+	}
+	pg.base.island_furniture_template[20801] = {
 		setNum = 999,
 		describe = "くねくねしている石の小道。荒削りの自然の美を表している。",
 		name = "石の小道(小)",
@@ -1998,8 +2125,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20802] = {
+	}
+	pg.base.island_furniture_template[20802] = {
 		setNum = 999,
 		describe = "くねくねしている石の小道。荒削りの自然の美を表している。",
 		name = "石の小道(中)",
@@ -2024,8 +2151,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20803] = {
+	}
+	pg.base.island_furniture_template[20803] = {
 		setNum = 999,
 		describe = "くねくねしている石の小道。荒削りの自然の美を表している。",
 		name = "石の小道(大)",
@@ -2050,8 +2177,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30001] = {
+	}
+	pg.base.island_furniture_template[30001] = {
 		setNum = 999,
 		describe = "伝統的な石製庭園灯。庭園の道を照らし、穏やかで静かな夜の雰囲気を演出する。",
 		name = "暖色光の石灯籠（小）",
@@ -2071,8 +2198,8 @@ pg.island_furniture_template = {
 			1
 		},
 		jump_page = {}
-	},
-	[30002] = {
+	}
+	pg.base.island_furniture_template[30002] = {
 		setNum = 999,
 		describe = "伝統的な石製庭園灯。庭園の道を照らし、穏やかで静かな夜の雰囲気を演出する。",
 		name = "暖色光の石灯籠（中）",
@@ -2097,8 +2224,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30003] = {
+	}
+	pg.base.island_furniture_template[30003] = {
 		setNum = 999,
 		describe = "ウサギがモチーフの可愛らしいナイトライト。柔らかな光で装飾だけでなく、照明機能も果たしてくれる。",
 		name = "ウサウサライト",
@@ -2118,8 +2245,8 @@ pg.island_furniture_template = {
 			1
 		},
 		jump_page = {}
-	},
-	[30004] = {
+	}
+	pg.base.island_furniture_template[30004] = {
 		setNum = 999,
 		describe = "伝統的な紙製の灯籠。柔らかな範囲照明を提供し、夜の静けさを演出する定番の装飾。",
 		name = "庭園の紙灯籠",
@@ -2144,8 +2271,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30005] = {
+	}
+	pg.base.island_furniture_template[30005] = {
 		setNum = 999,
 		describe = "庭園の池を渡るために架けられた、簡素なアーチ形の小さな木橋。",
 		name = "紅葉渡りの橋",
@@ -2170,8 +2297,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30006] = {
+	}
+	pg.base.island_furniture_template[30006] = {
 		setNum = 999,
 		describe = "頑丈な石材で作られた庭園用の手すり。触れるとひんやりしている。",
 		name = "石製の手すり",
@@ -2196,8 +2323,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30007] = {
+	}
+	pg.base.island_furniture_template[30007] = {
 		setNum = 999,
 		describe = "花の意匠をあしらった鉄製フェンス。安全性と装飾性を兼ね備える。",
 		name = "鉄製のフェンス",
@@ -2222,8 +2349,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30008] = {
+	}
+	pg.base.island_furniture_template[30008] = {
 		setNum = 999,
 		describe = "庭園の景色を構成する木。四季を通して変わらぬ緑を楽しめる。",
 		name = "トウヒの木",
@@ -2248,8 +2375,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30009] = {
+	}
+	pg.base.island_furniture_template[30009] = {
 		setNum = 999,
 		describe = "丁寧に剪定され、さまざまな洗練された形に整えられた景観用の木。",
 		name = "景観用の木",
@@ -2274,8 +2401,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30010] = {
+	}
+	pg.base.island_furniture_template[30010] = {
 		setNum = 999,
 		describe = "淡い青色で星の形をした可愛らしい花。花壇の隅を飾ったり、植え込んで庭園を彩ったりできる。",
 		name = "ブルースターフラワー",
@@ -2300,8 +2427,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30101] = {
+	}
+	pg.base.island_furniture_template[30101] = {
 		setNum = 1,
 		describe = "庭園の景色の一部になっている建物。花を眺めながらパーティーや休憩を楽しめる。",
 		name = "静謐な庭園",
@@ -2326,8 +2453,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30201] = {
+	}
+	pg.base.island_furniture_template[30201] = {
 		setNum = 1,
 		describe = "ガラス屋根から太陽の光が差し込み、四季折々の花が静かに咲き誇る。",
 		name = "琉璃の花温室",
@@ -2355,8 +2482,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30301] = {
+	}
+	pg.base.island_furniture_template[30301] = {
 		setNum = 999,
 		describe = "ティーセットを用意して、ここで本日のアフタヌーンティータイムを迎えよう。",
 		name = "午後の東屋",
@@ -2383,8 +2510,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30302] = {
+	}
+	pg.base.island_furniture_template[30302] = {
 		setNum = 999,
 		describe = "橋の上で願い事をすると、流れ星を見ることができるらしいよ！",
 		name = "星願いの橋",
@@ -2409,8 +2536,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30303] = {
+	}
+	pg.base.island_furniture_template[30303] = {
 		setNum = 999,
 		describe = "刈り込まれ豊かな緑で出来たアーチゲート。頂部にはクラシックなシャンデリアが吊り下げられていて、庭園の入口を明るく美しくしてくれる。",
 		name = "花園のアーチ",
@@ -2435,8 +2562,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30304] = {
+	}
+	pg.base.island_furniture_template[30304] = {
 		setNum = 999,
 		describe = "華麗な世界が、すべての人に開かれている！",
 		name = "花園のゲート",
@@ -2461,8 +2588,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30305] = {
+	}
+	pg.base.island_furniture_template[30305] = {
 		setNum = 999,
 		describe = "お菓子の香りに包まれた、穏やかな午後のティータイムを楽しもう。",
 		name = "花園のテーブルセット",
@@ -2487,8 +2614,10 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30401] = {
+	}
+end)()
+(function ()
+	pg.base.island_furniture_template[30401] = {
 		setNum = 999,
 		describe = "陽だまりの中で、ひまわりと共に風に揺られてみよう。",
 		name = "花畑のブランコ",
@@ -2515,8 +2644,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30402] = {
+	}
+	pg.base.island_furniture_template[30402] = {
 		setNum = 999,
 		describe = "コインを一枚投げ入れて、水音と願いの余韻に耳を澄ませてみよう。",
 		name = "祈願の噴水",
@@ -2543,8 +2672,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30403] = {
+	}
+	pg.base.island_furniture_template[30403] = {
 		setNum = 999,
 		describe = "頭をなでれば、一日中いい気分に！",
 		name = "ラッキー饅頭像",
@@ -2571,8 +2700,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30404] = {
+	}
+	pg.base.island_furniture_template[30404] = {
 		setNum = 999,
 		describe = "しーっ……水辺にお客さまがよく訪れるから、驚かせないように気をつけて。",
 		name = "羽休めの池",
@@ -2597,8 +2726,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30405] = {
+	}
+	pg.base.island_furniture_template[30405] = {
 		setNum = 999,
 		describe = "身も心も癒やしてくれるレトロな露天風呂。湯加減を試してみる？",
 		name = "ノスタルジックの池",
@@ -2623,8 +2752,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30406] = {
+	}
+	pg.base.island_furniture_template[30406] = {
 		setNum = 999,
 		describe = "蝶々に愛された花壇。春の一瞬の表情を、いつでも切り取ってくれる。",
 		name = "蝶憩いの花壇",
@@ -2649,8 +2778,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30407] = {
+	}
+	pg.base.island_furniture_template[30407] = {
 		setNum = 999,
 		describe = "金色に輝くひまわりを集めて、太陽の恵みを部屋に持ち帰ろう。",
 		name = "ひまわりの花束",
@@ -2675,8 +2804,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30408] = {
+	}
+	pg.base.island_furniture_template[30408] = {
 		setNum = 999,
 		describe = "柱に古典的な文様が刻まれ、静かに過ぎし時を語っている。",
 		name = "古典石柱",
@@ -2701,8 +2830,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30409] = {
+	}
+	pg.base.island_furniture_template[30409] = {
 		setNum = 999,
 		describe = "ほぼ完全に崩れた残骸。一つの沈黙を見届けていた。",
 		name = "石柱の残骸（小）",
@@ -2727,8 +2856,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30410] = {
+	}
+	pg.base.island_furniture_template[30410] = {
 		setNum = 999,
 		describe = "半分になった破損した石柱。去りし日の彫刻の痕跡がわずかに残っている。",
 		name = "石柱の残骸（中）",
@@ -2753,8 +2882,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30411] = {
+	}
+	pg.base.island_furniture_template[30411] = {
 		setNum = 999,
 		describe = "廃墟になった柱は、今では小動物たちの仮の住処となっている。",
 		name = "石柱の残骸（倒）",
@@ -2779,8 +2908,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30412] = {
+	}
+	pg.base.island_furniture_template[30412] = {
 		setNum = 999,
 		describe = "枠組みだけが残った石扉の残骸。失われし秘境へと続いているようだ。",
 		name = "石門の残骸",
@@ -2805,8 +2934,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30413] = {
+	}
+	pg.base.island_furniture_template[30413] = {
 		setNum = 999,
 		describe = "メガサイズの花瓶！庭園で一番存在感を放つ景色！",
 		name = "装飾用の花瓶",
@@ -2831,8 +2960,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30414] = {
+	}
+	pg.base.island_furniture_template[30414] = {
 		setNum = 999,
 		describe = "レトロな街灯が石畳の道を照らし、温かな光で夜の安らぎを守ってくれる。",
 		name = "レトロ庭園灯",
@@ -2857,8 +2986,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30415] = {
+	}
+	pg.base.island_furniture_template[30415] = {
 		setNum = 999,
 		describe = "庭園の小道沿いに整然と植えられた観賞用の花。",
 		name = "景観用の花々",
@@ -2883,8 +3012,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30416] = {
+	}
+	pg.base.island_furniture_template[30416] = {
 		setNum = 999,
 		describe = "丁寧に設計・管理された花壇で、整った庭園の美を楽しめる。",
 		name = "景観用の花壇",
@@ -2909,8 +3038,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30801] = {
+	}
+	pg.base.island_furniture_template[30801] = {
 		setNum = 999,
 		describe = "大小さまざまな天然石を敷き詰めた庭園の石畳。丈夫で耐久性が高い。",
 		name = "石畳（小）",
@@ -2935,8 +3064,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30802] = {
+	}
+	pg.base.island_furniture_template[30802] = {
 		setNum = 999,
 		describe = "大小さまざまな天然石を敷き詰めた庭園の石畳。丈夫で耐久性が高い。",
 		name = "石畳（中）",
@@ -2961,8 +3090,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30803] = {
+	}
+	pg.base.island_furniture_template[30803] = {
 		setNum = 999,
 		describe = "大小さまざまな天然石を敷き詰めた庭園の石畳。丈夫で耐久性が高い。",
 		name = "石畳（大）",
@@ -2987,126 +3116,5 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		100,
-		101,
-		10101,
-		10201,
-		10301,
-		10302,
-		10303,
-		10304,
-		10305,
-		10306,
-		10401,
-		10402,
-		10403,
-		10404,
-		10405,
-		10406,
-		10407,
-		10408,
-		10409,
-		10410,
-		10411,
-		10412,
-		10413,
-		10414,
-		10415,
-		10416,
-		10417,
-		10418,
-		10419,
-		10420,
-		10421,
-		10801,
-		10802,
-		10803,
-		20101,
-		20201,
-		20301,
-		20302,
-		20303,
-		20304,
-		20305,
-		20306,
-		20401,
-		20402,
-		20403,
-		20404,
-		20405,
-		20406,
-		20407,
-		20408,
-		20409,
-		20410,
-		20411,
-		20412,
-		20413,
-		20414,
-		20415,
-		20801,
-		20802,
-		20803,
-		30001,
-		30002,
-		30003,
-		30004,
-		30005,
-		30006,
-		30007,
-		30008,
-		30009,
-		30010,
-		30101,
-		30201,
-		30301,
-		30302,
-		30303,
-		30304,
-		30305,
-		30401,
-		30402,
-		30403,
-		30404,
-		30405,
-		30406,
-		30407,
-		30408,
-		30409,
-		30410,
-		30411,
-		30412,
-		30413,
-		30414,
-		30415,
-		30416,
-		30801,
-		30802,
-		30803
 	}
-}
+end)()

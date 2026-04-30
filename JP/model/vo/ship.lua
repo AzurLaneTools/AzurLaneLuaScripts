@@ -154,10 +154,12 @@ slot0.getEnergy = function(slot0)
 end
 
 slot0.getEnergeConfig = function(slot0)
-	slot2 = slot0:getEnergy()
+	slot1 = slot0:getEnergy()
 
-	for slot6, slot7 in pairs(pg.energy_template) do
-		if type(slot6) == "number" and slot7.lower_bound <= slot2 and slot2 <= slot7.upper_bound then
+	for slot5, slot6 in ipairs(pg.energy_template.all) do
+		slot7 = pg.energy_template[slot6]
+
+		if type(slot6) == "number" and slot7.lower_bound <= slot1 and slot1 <= slot7.upper_bound then
 			return slot7
 		end
 	end
@@ -225,7 +227,9 @@ end
 slot0.getIntimacyLevel = function(slot0)
 	slot1 = 0
 
-	for slot6, slot7 in pairs(pg.intimacy_template) do
+	for slot5, slot6 in pairs(pg.intimacy_template.all) do
+		slot7 = pg.intimacy_template[slot6]
+
 		if type(slot6) == "number" and slot7.lower_bound <= slot0:getIntimacy() and slot0:getIntimacy() <= slot7.upper_bound then
 			slot1 = slot6
 
