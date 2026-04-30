@@ -102,7 +102,7 @@ return {
 			actor = 404040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你是來招募隊員的嗎？",
+			say = "妳是來招募隊員的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
