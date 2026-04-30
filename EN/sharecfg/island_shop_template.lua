@@ -1,6 +1,188 @@
 pg = pg or {}
-pg.island_shop_template = {
+pg.island_shop_template = rawget(pg, "island_shop_template") or setmetatable({
+	__name = "island_shop_template"
+}, confNEO)
+pg.island_shop_template.all = {
+	10109,
+	10110,
+	10111,
+	10112,
+	10113,
+	10130,
+	10131,
+	10132,
+	10010,
+	10011,
+	10012,
+	10013,
+	10014,
+	10015,
+	10016,
+	10017,
+	10019,
+	10020,
+	10021,
+	10022,
+	10023,
+	10024,
+	10025,
+	10026,
+	10027,
+	10028,
+	10029,
+	10030,
+	10031,
+	10032,
+	10033,
+	10034,
+	10035,
+	10036,
+	10037,
+	50111,
+	50121,
+	50131,
+	50132,
+	50133,
+	50122,
+	50123
+}
+pg.island_shop_template.get_id_list_by_first_shop = {
+	[0] = {
+		10109,
+		10130,
+		10010,
+		10019,
+		10022,
+		10025,
+		10028,
+		10031,
+		50111
+	},
+	[10010] = {
+		10011,
+		10012,
+		10013,
+		10014,
+		10015,
+		10016,
+		10017
+	},
+	[10019] = {
+		10020,
+		10021
+	},
+	[10022] = {
+		10023,
+		10024
+	},
+	[10025] = {
+		10026,
+		10027
+	},
+	[10028] = {
+		10029,
+		10030
+	},
+	[10031] = {
+		10032,
+		10033,
+		10034,
+		10035,
+		10036,
+		10037
+	},
 	[10109] = {
+		10110,
+		10111,
+		10112,
+		10113
+	},
+	[10130] = {
+		10131,
+		10132
+	},
+	[50111] = {
+		50121,
+		50131,
+		50132,
+		50133,
+		50122,
+		50123
+	}
+}
+pg.island_shop_template.get_id_list_by_second_shop = {
+	[0] = {
+		10109,
+		10110,
+		10130,
+		10131,
+		10010,
+		10011,
+		10019,
+		10020,
+		10022,
+		10023,
+		10025,
+		10026,
+		10028,
+		10029,
+		10031,
+		10032,
+		10036,
+		50111,
+		50121,
+		50122
+	},
+	[10011] = {
+		10012,
+		10013,
+		10014,
+		10015,
+		10016,
+		10017
+	},
+	[10020] = {
+		10021
+	},
+	[10023] = {
+		10024
+	},
+	[10026] = {
+		10027
+	},
+	[10029] = {
+		10030
+	},
+	[10032] = {
+		10033,
+		10034,
+		10035
+	},
+	[10036] = {
+		10037
+	},
+	[10110] = {
+		10111,
+		10112,
+		10113
+	},
+	[10131] = {
+		10132
+	},
+	[50121] = {
+		50131,
+		50132,
+		50133
+	},
+	[50122] = {
+		50123
+	}
+}
+pg.base = pg.base or {}
+pg.base.island_shop_template = {}
+
+(function ()
+	pg.base.island_shop_template[10109] = {
 		first_shop = 0,
 		top_jump = "",
 		top_resource = "",
@@ -18,8 +200,8 @@ pg.island_shop_template = {
 			"Seeds",
 			"daoju"
 		}
-	},
-	[10110] = {
+	}
+	pg.base.island_shop_template[10110] = {
 		first_shop = 10109,
 		top_jump = "",
 		top_resource = "",
@@ -35,8 +217,8 @@ pg.island_shop_template = {
 		tag_icon = {
 			"Seeds"
 		}
-	},
-	[10111] = {
+	}
+	pg.base.island_shop_template[10111] = {
 		first_shop = 10109,
 		top_jump = "",
 		second_shop = 10110,
@@ -70,8 +252,8 @@ pg.island_shop_template = {
 			411008,
 			411009
 		}
-	},
-	[10112] = {
+	}
+	pg.base.island_shop_template[10112] = {
 		first_shop = 10109,
 		top_jump = "",
 		second_shop = 10110,
@@ -104,8 +286,8 @@ pg.island_shop_template = {
 			411021,
 			411022
 		}
-	},
-	[10113] = {
+	}
+	pg.base.island_shop_template[10113] = {
 		first_shop = 10109,
 		top_jump = "",
 		second_shop = 10110,
@@ -140,8 +322,8 @@ pg.island_shop_template = {
 			411025,
 			411026
 		}
-	},
-	[10130] = {
+	}
+	pg.base.island_shop_template[10130] = {
 		first_shop = 0,
 		top_jump = "",
 		top_resource = "",
@@ -159,8 +341,8 @@ pg.island_shop_template = {
 			"Items",
 			"daoju"
 		}
-	},
-	[10131] = {
+	}
+	pg.base.island_shop_template[10131] = {
 		first_shop = 10130,
 		top_jump = "",
 		top_resource = "",
@@ -176,8 +358,8 @@ pg.island_shop_template = {
 		tag_icon = {
 			"Items"
 		}
-	},
-	[10132] = {
+	}
+	pg.base.island_shop_template[10132] = {
 		first_shop = 10130,
 		top_jump = "",
 		second_shop = 10131,
@@ -213,8 +395,8 @@ pg.island_shop_template = {
 			5020002,
 			5030002
 		}
-	},
-	[10010] = {
+	}
+	pg.base.island_shop_template[10010] = {
 		first_shop = 0,
 		top_jump = "",
 		top_resource = "",
@@ -232,8 +414,8 @@ pg.island_shop_template = {
 			"saiji",
 			"tuijian"
 		}
-	},
-	[10011] = {
+	}
+	pg.base.island_shop_template[10011] = {
 		first_shop = 10010,
 		top_jump = "",
 		top_resource = "",
@@ -249,8 +431,8 @@ pg.island_shop_template = {
 		tag_icon = {
 			"Seasonal"
 		}
-	},
-	[10012] = {
+	}
+	pg.base.island_shop_template[10012] = {
 		first_shop = 10010,
 		second_shop = 10011,
 		show_type = 2,
@@ -305,8 +487,8 @@ pg.island_shop_template = {
 			10025,
 			10026
 		}
-	},
-	[10013] = {
+	}
+	pg.base.island_shop_template[10013] = {
 		first_shop = 10010,
 		second_shop = 10011,
 		show_type = 2,
@@ -350,8 +532,8 @@ pg.island_shop_template = {
 			10041,
 			10042
 		}
-	},
-	[10014] = {
+	}
+	pg.base.island_shop_template[10014] = {
 		first_shop = 10010,
 		second_shop = 10011,
 		show_type = 2,
@@ -395,8 +577,8 @@ pg.island_shop_template = {
 			10057,
 			10058
 		}
-	},
-	[10015] = {
+	}
+	pg.base.island_shop_template[10015] = {
 		first_shop = 10010,
 		second_shop = 10011,
 		show_type = 2,
@@ -462,8 +644,8 @@ pg.island_shop_template = {
 			10236,
 			10269
 		}
-	},
-	[10016] = {
+	}
+	pg.base.island_shop_template[10016] = {
 		first_shop = 10010,
 		second_shop = 10011,
 		show_type = 2,
@@ -507,8 +689,8 @@ pg.island_shop_template = {
 			10251,
 			10252
 		}
-	},
-	[10017] = {
+	}
+	pg.base.island_shop_template[10017] = {
 		first_shop = 10010,
 		second_shop = 10011,
 		show_type = 2,
@@ -552,8 +734,8 @@ pg.island_shop_template = {
 			10267,
 			10268
 		}
-	},
-	[10019] = {
+	}
+	pg.base.island_shop_template[10019] = {
 		first_shop = 0,
 		top_jump = "",
 		top_resource = "",
@@ -571,8 +753,8 @@ pg.island_shop_template = {
 			"Mill",
 			"daoju"
 		}
-	},
-	[10020] = {
+	}
+	pg.base.island_shop_template[10020] = {
 		first_shop = 10019,
 		top_jump = "",
 		top_resource = "",
@@ -588,8 +770,8 @@ pg.island_shop_template = {
 		tag_icon = {
 			"Products"
 		}
-	},
-	[10021] = {
+	}
+	pg.base.island_shop_template[10021] = {
 		first_shop = 10019,
 		top_jump = "",
 		second_shop = 10020,
@@ -630,8 +812,8 @@ pg.island_shop_template = {
 			103003,
 			103004
 		}
-	},
-	[10022] = {
+	}
+	pg.base.island_shop_template[10022] = {
 		first_shop = 0,
 		top_jump = "",
 		top_resource = "",
@@ -649,8 +831,8 @@ pg.island_shop_template = {
 			"Seeds",
 			"daoju"
 		}
-	},
-	[10023] = {
+	}
+	pg.base.island_shop_template[10023] = {
 		first_shop = 10022,
 		top_jump = "",
 		top_resource = "",
@@ -666,8 +848,8 @@ pg.island_shop_template = {
 		tag_icon = {
 			"Seeds"
 		}
-	},
-	[10024] = {
+	}
+	pg.base.island_shop_template[10024] = {
 		first_shop = 10022,
 		top_jump = "",
 		second_shop = 10023,
@@ -701,8 +883,8 @@ pg.island_shop_template = {
 			411008,
 			411009
 		}
-	},
-	[10025] = {
+	}
+	pg.base.island_shop_template[10025] = {
 		first_shop = 0,
 		top_jump = "",
 		top_resource = "",
@@ -720,8 +902,8 @@ pg.island_shop_template = {
 			"Seeds",
 			"daoju"
 		}
-	},
-	[10026] = {
+	}
+	pg.base.island_shop_template[10026] = {
 		first_shop = 10025,
 		top_jump = "",
 		top_resource = "",
@@ -737,8 +919,8 @@ pg.island_shop_template = {
 		tag_icon = {
 			"Seeds"
 		}
-	},
-	[10027] = {
+	}
+	pg.base.island_shop_template[10027] = {
 		first_shop = 10025,
 		top_jump = "",
 		second_shop = 10026,
@@ -771,8 +953,8 @@ pg.island_shop_template = {
 			411021,
 			411022
 		}
-	},
-	[10028] = {
+	}
+	pg.base.island_shop_template[10028] = {
 		first_shop = 0,
 		top_jump = "",
 		top_resource = "",
@@ -790,8 +972,8 @@ pg.island_shop_template = {
 			"Seeds",
 			"daoju"
 		}
-	},
-	[10029] = {
+	}
+	pg.base.island_shop_template[10029] = {
 		first_shop = 10028,
 		top_jump = "",
 		top_resource = "",
@@ -807,8 +989,8 @@ pg.island_shop_template = {
 		tag_icon = {
 			"Seeds"
 		}
-	},
-	[10030] = {
+	}
+	pg.base.island_shop_template[10030] = {
 		first_shop = 10028,
 		top_jump = "",
 		second_shop = 10029,
@@ -843,8 +1025,8 @@ pg.island_shop_template = {
 			411025,
 			411026
 		}
-	},
-	[10031] = {
+	}
+	pg.base.island_shop_template[10031] = {
 		first_shop = 0,
 		top_jump = "",
 		top_resource = "",
@@ -862,8 +1044,8 @@ pg.island_shop_template = {
 			"Fishing Gear",
 			"daoju"
 		}
-	},
-	[10032] = {
+	}
+	pg.base.island_shop_template[10032] = {
 		first_shop = 10031,
 		top_jump = "",
 		top_resource = "",
@@ -879,8 +1061,8 @@ pg.island_shop_template = {
 		tag_icon = {
 			"Fish Fry"
 		}
-	},
-	[10033] = {
+	}
+	pg.base.island_shop_template[10033] = {
 		first_shop = 10031,
 		top_jump = "",
 		second_shop = 10032,
@@ -910,8 +1092,8 @@ pg.island_shop_template = {
 			111104,
 			111107
 		}
-	},
-	[10034] = {
+	}
+	pg.base.island_shop_template[10034] = {
 		first_shop = 10031,
 		top_jump = "",
 		second_shop = 10032,
@@ -943,8 +1125,8 @@ pg.island_shop_template = {
 			111205,
 			111206
 		}
-	},
-	[10035] = {
+	}
+	pg.base.island_shop_template[10035] = {
 		first_shop = 10031,
 		top_jump = "",
 		second_shop = 10032,
@@ -976,8 +1158,8 @@ pg.island_shop_template = {
 			111201,
 			111208
 		}
-	},
-	[10036] = {
+	}
+	pg.base.island_shop_template[10036] = {
 		first_shop = 10031,
 		top_jump = "",
 		top_resource = "",
@@ -993,8 +1175,8 @@ pg.island_shop_template = {
 		tag_icon = {
 			"Fish Lures"
 		}
-	},
-	[10037] = {
+	}
+	pg.base.island_shop_template[10037] = {
 		first_shop = 10031,
 		top_jump = "",
 		second_shop = 10036,
@@ -1023,8 +1205,8 @@ pg.island_shop_template = {
 			111502,
 			111503
 		}
-	},
-	[50111] = {
+	}
+	pg.base.island_shop_template[50111] = {
 		first_shop = 0,
 		top_jump = "",
 		top_resource = "",
@@ -1042,8 +1224,8 @@ pg.island_shop_template = {
 			"Appearance",
 			"shizhuang"
 		}
-	},
-	[50121] = {
+	}
+	pg.base.island_shop_template[50121] = {
 		first_shop = 50111,
 		top_jump = "",
 		top_resource = "",
@@ -1059,8 +1241,8 @@ pg.island_shop_template = {
 		tag_icon = {
 			"Accessories"
 		}
-	},
-	[50131] = {
+	}
+	pg.base.island_shop_template[50131] = {
 		first_shop = 50111,
 		top_jump = "",
 		second_shop = 50121,
@@ -1088,8 +1270,8 @@ pg.island_shop_template = {
 			4600002,
 			4630005
 		}
-	},
-	[50132] = {
+	}
+	pg.base.island_shop_template[50132] = {
 		first_shop = 50111,
 		top_jump = "",
 		second_shop = 50121,
@@ -1117,8 +1299,8 @@ pg.island_shop_template = {
 			4600003,
 			4610003
 		}
-	},
-	[50133] = {
+	}
+	pg.base.island_shop_template[50133] = {
 		first_shop = 50111,
 		top_jump = "",
 		second_shop = 50121,
@@ -1146,8 +1328,8 @@ pg.island_shop_template = {
 			4600001,
 			4620004
 		}
-	},
-	[50122] = {
+	}
+	pg.base.island_shop_template[50122] = {
 		first_shop = 50111,
 		top_jump = "",
 		top_resource = "",
@@ -1163,8 +1345,8 @@ pg.island_shop_template = {
 		tag_icon = {
 			"Costumes"
 		}
-	},
-	[50123] = {
+	}
+	pg.base.island_shop_template[50123] = {
 		first_shop = 50111,
 		top_jump = "",
 		second_shop = 50122,
@@ -1206,181 +1388,5 @@ pg.island_shop_template = {
 			99000301,
 			99000302
 		}
-	},
-	get_id_list_by_first_shop = {
-		[0] = {
-			10109,
-			10130,
-			10010,
-			10019,
-			10022,
-			10025,
-			10028,
-			10031,
-			50111
-		},
-		[10109] = {
-			10110,
-			10111,
-			10112,
-			10113
-		},
-		[10130] = {
-			10131,
-			10132
-		},
-		[10010] = {
-			10011,
-			10012,
-			10013,
-			10014,
-			10015,
-			10016,
-			10017
-		},
-		[10019] = {
-			10020,
-			10021
-		},
-		[10022] = {
-			10023,
-			10024
-		},
-		[10025] = {
-			10026,
-			10027
-		},
-		[10028] = {
-			10029,
-			10030
-		},
-		[10031] = {
-			10032,
-			10033,
-			10034,
-			10035,
-			10036,
-			10037
-		},
-		[50111] = {
-			50121,
-			50131,
-			50132,
-			50133,
-			50122,
-			50123
-		}
-	},
-	get_id_list_by_second_shop = {
-		[0] = {
-			10109,
-			10110,
-			10130,
-			10131,
-			10010,
-			10011,
-			10019,
-			10020,
-			10022,
-			10023,
-			10025,
-			10026,
-			10028,
-			10029,
-			10031,
-			10032,
-			10036,
-			50111,
-			50121,
-			50122
-		},
-		[10110] = {
-			10111,
-			10112,
-			10113
-		},
-		[10131] = {
-			10132
-		},
-		[10011] = {
-			10012,
-			10013,
-			10014,
-			10015,
-			10016,
-			10017
-		},
-		[10020] = {
-			10021
-		},
-		[10023] = {
-			10024
-		},
-		[10026] = {
-			10027
-		},
-		[10029] = {
-			10030
-		},
-		[10032] = {
-			10033,
-			10034,
-			10035
-		},
-		[10036] = {
-			10037
-		},
-		[50121] = {
-			50131,
-			50132,
-			50133
-		},
-		[50122] = {
-			50123
-		}
-	},
-	all = {
-		10109,
-		10110,
-		10111,
-		10112,
-		10113,
-		10130,
-		10131,
-		10132,
-		10010,
-		10011,
-		10012,
-		10013,
-		10014,
-		10015,
-		10016,
-		10017,
-		10019,
-		10020,
-		10021,
-		10022,
-		10023,
-		10024,
-		10025,
-		10026,
-		10027,
-		10028,
-		10029,
-		10030,
-		10031,
-		10032,
-		10033,
-		10034,
-		10035,
-		10036,
-		10037,
-		50111,
-		50121,
-		50131,
-		50132,
-		50133,
-		50122,
-		50123
 	}
-}
+end)()

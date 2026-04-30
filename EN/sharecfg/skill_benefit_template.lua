@@ -1,6 +1,427 @@
 pg = pg or {}
-pg.skill_benefit_template = {
-	[363101] = {
+pg.skill_benefit_template = rawget(pg, "skill_benefit_template") or setmetatable({
+	__name = "skill_benefit_template"
+}, confNEO)
+pg.skill_benefit_template.all = {
+	363101,
+	363102,
+	363103,
+	363104,
+	363105,
+	363106,
+	363107,
+	363108,
+	363109,
+	363110,
+	416101,
+	416102,
+	416103,
+	416104,
+	416105,
+	416106,
+	416107,
+	416108,
+	416109,
+	416110,
+	641101,
+	6045001,
+	1017001,
+	1017002,
+	1017003,
+	1017004,
+	1017005,
+	1017006,
+	1017007,
+	1017008,
+	1017009,
+	1017010,
+	1023001,
+	1023002,
+	1023003,
+	1023004,
+	1023005,
+	1023006,
+	1023007,
+	1023008,
+	1023009,
+	1023010,
+	1059001,
+	1059002,
+	1059003,
+	1059004,
+	1059005,
+	1059006,
+	1059007,
+	1059008,
+	1059009,
+	1059010,
+	1146001,
+	1146002,
+	1146003,
+	1146004,
+	1146005,
+	1146006,
+	1146007,
+	1146008,
+	1146009,
+	1146010,
+	1317001,
+	1317002,
+	1317003,
+	1317004,
+	1317005,
+	1317006,
+	1317007,
+	1317008,
+	1317009,
+	1317010,
+	1343001,
+	1343002,
+	1343003,
+	1343004,
+	1343005,
+	1343006,
+	1343007,
+	1343008,
+	1343009,
+	1343010,
+	1359001,
+	1359002,
+	1359003,
+	1359004,
+	1359005,
+	1359006,
+	1359007,
+	1359008,
+	1359009,
+	1359010,
+	1397001,
+	1397002,
+	1397003,
+	1397004,
+	1397005,
+	1397006,
+	1397007,
+	1397008,
+	1397009,
+	1397010,
+	1452001,
+	1452002,
+	1452003,
+	1452004,
+	1452005,
+	1452006,
+	1452007,
+	1452008,
+	1452009,
+	1452010,
+	1463001,
+	1463002,
+	1463003,
+	1463004,
+	1463005,
+	1463006,
+	1463007,
+	1463008,
+	1463009,
+	1463010,
+	1487001,
+	1487002,
+	1487003,
+	1487004,
+	1487005,
+	1487006,
+	1487007,
+	1487008,
+	1487009,
+	1487010,
+	1507001,
+	1507002,
+	1507003,
+	1507004,
+	1507005,
+	1507006,
+	1507007,
+	1507008,
+	1507009,
+	1507010,
+	1531001,
+	1531002,
+	1531003,
+	1531004,
+	1531005,
+	1531006,
+	1531007,
+	1531008,
+	1531009,
+	1531010,
+	1568001,
+	1568002,
+	1568003,
+	1568004,
+	1568005,
+	1568006,
+	1568007,
+	1568008,
+	1568009,
+	1568010,
+	1605001,
+	1605002,
+	1605003,
+	1605004,
+	1605005,
+	1605006,
+	1605007,
+	1605008,
+	1605009,
+	1605010,
+	1622001,
+	1622002,
+	1622003,
+	1622004,
+	1622005,
+	1622006,
+	1622007,
+	1622008,
+	1622009,
+	1622010,
+	1645001,
+	1645002,
+	1645003,
+	1645004,
+	1645005,
+	1645006,
+	1645007,
+	1645008,
+	1645009,
+	1645010,
+	1677001,
+	1677002,
+	1677003,
+	1677004,
+	1677005,
+	1677006,
+	1677007,
+	1677008,
+	1677009,
+	1677010,
+	1703001,
+	1703002,
+	1703003,
+	1703004,
+	1703005,
+	1703006,
+	1703007,
+	1703008,
+	1703009,
+	1703010,
+	1735001,
+	1735002,
+	1735003,
+	1735004,
+	1735005,
+	1735006,
+	1735007,
+	1735008,
+	1735009,
+	1735010,
+	1761001,
+	1761002,
+	1761003,
+	1761004,
+	1761005,
+	1761006,
+	1761007,
+	1761008,
+	1761009,
+	1761010,
+	1951001,
+	1951002,
+	1951003,
+	1951004,
+	1951005,
+	1951006,
+	1951007,
+	1951008,
+	1951009,
+	1951010,
+	6012001,
+	80018001,
+	80018002,
+	80018003,
+	80018004,
+	80018005,
+	80018006,
+	80018007,
+	80018008,
+	80018009,
+	80018010,
+	1651001,
+	1651002,
+	1651003,
+	1651004,
+	1651005,
+	1651006,
+	1651007,
+	1651008,
+	1651009,
+	1651010,
+	1652001,
+	1652002,
+	1652003,
+	1652004,
+	1652005,
+	1652006,
+	1652007,
+	1652008,
+	1652009,
+	1652010,
+	1742001,
+	1742002,
+	1742003,
+	1742004,
+	1742005,
+	1742006,
+	1742007,
+	1742008,
+	1742009,
+	1742010,
+	80079001,
+	80079002,
+	80079003,
+	80079004,
+	80079005,
+	80079006,
+	80079007,
+	80079008,
+	80079009,
+	80079010,
+	15002001,
+	15002002,
+	15002003,
+	15002004,
+	15002005,
+	15002006,
+	15002007,
+	15002008,
+	15002009,
+	15002010,
+	15004001,
+	15004002,
+	15004003,
+	15004004,
+	15004005,
+	15004006,
+	15004007,
+	15004008,
+	15004009,
+	15004010,
+	15047001,
+	15047002,
+	15047003,
+	15047004,
+	15047005,
+	15047006,
+	15047007,
+	15047008,
+	15047009,
+	15047010,
+	15068001,
+	15068002,
+	15068003,
+	15068004,
+	15068005,
+	15068006,
+	15068007,
+	15068008,
+	15068009,
+	15068010,
+	15075001,
+	15075002,
+	15075003,
+	15075004,
+	15075005,
+	15075006,
+	15075007,
+	15075008,
+	15075009,
+	15075010,
+	15096001,
+	15096002,
+	15096003,
+	15096004,
+	15096005,
+	15096006,
+	15096007,
+	15096008,
+	15096009,
+	15096010,
+	15123001,
+	15123002,
+	15123003,
+	15123004,
+	15123005,
+	15123006,
+	15123007,
+	15123008,
+	15123009,
+	15123010,
+	15127001,
+	15127002,
+	15127003,
+	15127004,
+	15127005,
+	15127006,
+	15127007,
+	15127008,
+	15127009,
+	15127010,
+	15146001,
+	15146002,
+	15146003,
+	15146004,
+	15146005,
+	15146006,
+	15146007,
+	15146008,
+	15146009,
+	15146010,
+	15159001,
+	15159002,
+	15159003,
+	15159004,
+	15159005,
+	15159006,
+	15159007,
+	15159008,
+	15159009,
+	15159010,
+	15193001,
+	15193002,
+	15193003,
+	15193004,
+	15193005,
+	15193006,
+	15193007,
+	15193008,
+	15193009,
+	15193010,
+	15216001,
+	15216002,
+	15216003,
+	15216004,
+	15216005,
+	15216006,
+	15216007,
+	15216008,
+	15216009,
+	15216010
+}
+pg.base = pg.base or {}
+pg.base.skill_benefit_template = {}
+
+(function ()
+	pg.base.skill_benefit_template[363101] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 2,
@@ -12,8 +433,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			150
 		}
-	},
-	[363102] = {
+	}
+	pg.base.skill_benefit_template[363102] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 2,
@@ -25,8 +446,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			200
 		}
-	},
-	[363103] = {
+	}
+	pg.base.skill_benefit_template[363103] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 2,
@@ -38,8 +459,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			250
 		}
-	},
-	[363104] = {
+	}
+	pg.base.skill_benefit_template[363104] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 2,
@@ -51,8 +472,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			300
 		}
-	},
-	[363105] = {
+	}
+	pg.base.skill_benefit_template[363105] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 2,
@@ -64,8 +485,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			350
 		}
-	},
-	[363106] = {
+	}
+	pg.base.skill_benefit_template[363106] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 2,
@@ -77,8 +498,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			400
 		}
-	},
-	[363107] = {
+	}
+	pg.base.skill_benefit_template[363107] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 2,
@@ -90,8 +511,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			450
 		}
-	},
-	[363108] = {
+	}
+	pg.base.skill_benefit_template[363108] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 2,
@@ -103,8 +524,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			500
 		}
-	},
-	[363109] = {
+	}
+	pg.base.skill_benefit_template[363109] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 2,
@@ -116,8 +537,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			550
 		}
-	},
-	[363110] = {
+	}
+	pg.base.skill_benefit_template[363110] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 2,
@@ -129,8 +550,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			600
 		}
-	},
-	[416101] = {
+	}
+	pg.base.skill_benefit_template[416101] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 4,
@@ -142,8 +563,8 @@ pg.skill_benefit_template = {
 			4171
 		},
 		world_extra_effect = {}
-	},
-	[416102] = {
+	}
+	pg.base.skill_benefit_template[416102] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 4,
@@ -155,8 +576,8 @@ pg.skill_benefit_template = {
 			4171
 		},
 		world_extra_effect = {}
-	},
-	[416103] = {
+	}
+	pg.base.skill_benefit_template[416103] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 4,
@@ -168,8 +589,8 @@ pg.skill_benefit_template = {
 			4171
 		},
 		world_extra_effect = {}
-	},
-	[416104] = {
+	}
+	pg.base.skill_benefit_template[416104] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 4,
@@ -181,8 +602,8 @@ pg.skill_benefit_template = {
 			4171
 		},
 		world_extra_effect = {}
-	},
-	[416105] = {
+	}
+	pg.base.skill_benefit_template[416105] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 4,
@@ -194,8 +615,8 @@ pg.skill_benefit_template = {
 			4171
 		},
 		world_extra_effect = {}
-	},
-	[416106] = {
+	}
+	pg.base.skill_benefit_template[416106] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 4,
@@ -207,8 +628,8 @@ pg.skill_benefit_template = {
 			4171
 		},
 		world_extra_effect = {}
-	},
-	[416107] = {
+	}
+	pg.base.skill_benefit_template[416107] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 4,
@@ -220,8 +641,8 @@ pg.skill_benefit_template = {
 			4171
 		},
 		world_extra_effect = {}
-	},
-	[416108] = {
+	}
+	pg.base.skill_benefit_template[416108] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 4,
@@ -233,8 +654,8 @@ pg.skill_benefit_template = {
 			4171
 		},
 		world_extra_effect = {}
-	},
-	[416109] = {
+	}
+	pg.base.skill_benefit_template[416109] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 4,
@@ -246,8 +667,8 @@ pg.skill_benefit_template = {
 			4171
 		},
 		world_extra_effect = {}
-	},
-	[416110] = {
+	}
+	pg.base.skill_benefit_template[416110] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 4,
@@ -259,8 +680,8 @@ pg.skill_benefit_template = {
 			4171
 		},
 		world_extra_effect = {}
-	},
-	[641101] = {
+	}
+	pg.base.skill_benefit_template[641101] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 3,
@@ -288,8 +709,8 @@ pg.skill_benefit_template = {
 			1
 		},
 		world_extra_effect = {}
-	},
-	[6045001] = {
+	}
+	pg.base.skill_benefit_template[6045001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 3,
@@ -315,8 +736,8 @@ pg.skill_benefit_template = {
 			1
 		},
 		world_extra_effect = {}
-	},
-	[1017001] = {
+	}
+	pg.base.skill_benefit_template[1017001] = {
 		lv = 1,
 		skill_group_level = 1,
 		type = 1,
@@ -331,8 +752,8 @@ pg.skill_benefit_template = {
 			0.05
 		},
 		world_extra_effect = {}
-	},
-	[1017002] = {
+	}
+	pg.base.skill_benefit_template[1017002] = {
 		lv = 2,
 		skill_group_level = 1,
 		type = 1,
@@ -347,8 +768,8 @@ pg.skill_benefit_template = {
 			0.061
 		},
 		world_extra_effect = {}
-	},
-	[1017003] = {
+	}
+	pg.base.skill_benefit_template[1017003] = {
 		lv = 3,
 		skill_group_level = 1,
 		type = 1,
@@ -363,8 +784,8 @@ pg.skill_benefit_template = {
 			0.072
 		},
 		world_extra_effect = {}
-	},
-	[1017004] = {
+	}
+	pg.base.skill_benefit_template[1017004] = {
 		lv = 4,
 		skill_group_level = 1,
 		type = 1,
@@ -379,8 +800,8 @@ pg.skill_benefit_template = {
 			0.083
 		},
 		world_extra_effect = {}
-	},
-	[1017005] = {
+	}
+	pg.base.skill_benefit_template[1017005] = {
 		lv = 5,
 		skill_group_level = 1,
 		type = 1,
@@ -395,8 +816,8 @@ pg.skill_benefit_template = {
 			0.094
 		},
 		world_extra_effect = {}
-	},
-	[1017006] = {
+	}
+	pg.base.skill_benefit_template[1017006] = {
 		lv = 6,
 		skill_group_level = 1,
 		type = 1,
@@ -411,8 +832,8 @@ pg.skill_benefit_template = {
 			0.105
 		},
 		world_extra_effect = {}
-	},
-	[1017007] = {
+	}
+	pg.base.skill_benefit_template[1017007] = {
 		lv = 7,
 		skill_group_level = 1,
 		type = 1,
@@ -427,8 +848,8 @@ pg.skill_benefit_template = {
 			0.116
 		},
 		world_extra_effect = {}
-	},
-	[1017008] = {
+	}
+	pg.base.skill_benefit_template[1017008] = {
 		lv = 8,
 		skill_group_level = 1,
 		type = 1,
@@ -443,8 +864,8 @@ pg.skill_benefit_template = {
 			0.127
 		},
 		world_extra_effect = {}
-	},
-	[1017009] = {
+	}
+	pg.base.skill_benefit_template[1017009] = {
 		lv = 9,
 		skill_group_level = 1,
 		type = 1,
@@ -459,8 +880,8 @@ pg.skill_benefit_template = {
 			0.138
 		},
 		world_extra_effect = {}
-	},
-	[1017010] = {
+	}
+	pg.base.skill_benefit_template[1017010] = {
 		lv = 10,
 		skill_group_level = 1,
 		type = 1,
@@ -475,8 +896,8 @@ pg.skill_benefit_template = {
 			0.15
 		},
 		world_extra_effect = {}
-	},
-	[1023001] = {
+	}
+	pg.base.skill_benefit_template[1023001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 1,
@@ -492,8 +913,8 @@ pg.skill_benefit_template = {
 			0.06
 		},
 		world_extra_effect = {}
-	},
-	[1023002] = {
+	}
+	pg.base.skill_benefit_template[1023002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 1,
@@ -509,8 +930,8 @@ pg.skill_benefit_template = {
 			0.073
 		},
 		world_extra_effect = {}
-	},
-	[1023003] = {
+	}
+	pg.base.skill_benefit_template[1023003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 1,
@@ -526,8 +947,8 @@ pg.skill_benefit_template = {
 			0.086
 		},
 		world_extra_effect = {}
-	},
-	[1023004] = {
+	}
+	pg.base.skill_benefit_template[1023004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 1,
@@ -543,8 +964,8 @@ pg.skill_benefit_template = {
 			0.099
 		},
 		world_extra_effect = {}
-	},
-	[1023005] = {
+	}
+	pg.base.skill_benefit_template[1023005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 1,
@@ -560,8 +981,8 @@ pg.skill_benefit_template = {
 			0.112
 		},
 		world_extra_effect = {}
-	},
-	[1023006] = {
+	}
+	pg.base.skill_benefit_template[1023006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 1,
@@ -577,8 +998,8 @@ pg.skill_benefit_template = {
 			0.125
 		},
 		world_extra_effect = {}
-	},
-	[1023007] = {
+	}
+	pg.base.skill_benefit_template[1023007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 1,
@@ -594,8 +1015,8 @@ pg.skill_benefit_template = {
 			0.138
 		},
 		world_extra_effect = {}
-	},
-	[1023008] = {
+	}
+	pg.base.skill_benefit_template[1023008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 1,
@@ -611,8 +1032,8 @@ pg.skill_benefit_template = {
 			0.152
 		},
 		world_extra_effect = {}
-	},
-	[1023009] = {
+	}
+	pg.base.skill_benefit_template[1023009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 1,
@@ -628,8 +1049,8 @@ pg.skill_benefit_template = {
 			0.166
 		},
 		world_extra_effect = {}
-	},
-	[1023010] = {
+	}
+	pg.base.skill_benefit_template[1023010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 1,
@@ -645,8 +1066,8 @@ pg.skill_benefit_template = {
 			0.18
 		},
 		world_extra_effect = {}
-	},
-	[1059001] = {
+	}
+	pg.base.skill_benefit_template[1059001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 1,
@@ -662,8 +1083,8 @@ pg.skill_benefit_template = {
 			0.05
 		},
 		world_extra_effect = {}
-	},
-	[1059002] = {
+	}
+	pg.base.skill_benefit_template[1059002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 1,
@@ -679,8 +1100,8 @@ pg.skill_benefit_template = {
 			0.061
 		},
 		world_extra_effect = {}
-	},
-	[1059003] = {
+	}
+	pg.base.skill_benefit_template[1059003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 1,
@@ -696,8 +1117,8 @@ pg.skill_benefit_template = {
 			0.072
 		},
 		world_extra_effect = {}
-	},
-	[1059004] = {
+	}
+	pg.base.skill_benefit_template[1059004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 1,
@@ -713,8 +1134,8 @@ pg.skill_benefit_template = {
 			0.083
 		},
 		world_extra_effect = {}
-	},
-	[1059005] = {
+	}
+	pg.base.skill_benefit_template[1059005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 1,
@@ -730,8 +1151,8 @@ pg.skill_benefit_template = {
 			0.094
 		},
 		world_extra_effect = {}
-	},
-	[1059006] = {
+	}
+	pg.base.skill_benefit_template[1059006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 1,
@@ -747,8 +1168,8 @@ pg.skill_benefit_template = {
 			0.105
 		},
 		world_extra_effect = {}
-	},
-	[1059007] = {
+	}
+	pg.base.skill_benefit_template[1059007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 1,
@@ -764,8 +1185,8 @@ pg.skill_benefit_template = {
 			0.116
 		},
 		world_extra_effect = {}
-	},
-	[1059008] = {
+	}
+	pg.base.skill_benefit_template[1059008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 1,
@@ -781,8 +1202,8 @@ pg.skill_benefit_template = {
 			0.127
 		},
 		world_extra_effect = {}
-	},
-	[1059009] = {
+	}
+	pg.base.skill_benefit_template[1059009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 1,
@@ -798,8 +1219,8 @@ pg.skill_benefit_template = {
 			0.138
 		},
 		world_extra_effect = {}
-	},
-	[1059010] = {
+	}
+	pg.base.skill_benefit_template[1059010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 1,
@@ -815,8 +1236,8 @@ pg.skill_benefit_template = {
 			0.15
 		},
 		world_extra_effect = {}
-	},
-	[1146001] = {
+	}
+	pg.base.skill_benefit_template[1146001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 2,
@@ -833,8 +1254,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			450
 		}
-	},
-	[1146002] = {
+	}
+	pg.base.skill_benefit_template[1146002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 2,
@@ -851,8 +1272,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			520
 		}
-	},
-	[1146003] = {
+	}
+	pg.base.skill_benefit_template[1146003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 2,
@@ -869,8 +1290,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			600
 		}
-	},
-	[1146004] = {
+	}
+	pg.base.skill_benefit_template[1146004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 2,
@@ -887,8 +1308,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			700
 		}
-	},
-	[1146005] = {
+	}
+	pg.base.skill_benefit_template[1146005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 2,
@@ -905,8 +1326,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			770
 		}
-	},
-	[1146006] = {
+	}
+	pg.base.skill_benefit_template[1146006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 2,
@@ -923,8 +1344,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			850
 		}
-	},
-	[1146007] = {
+	}
+	pg.base.skill_benefit_template[1146007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 2,
@@ -941,8 +1362,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			950
 		}
-	},
-	[1146008] = {
+	}
+	pg.base.skill_benefit_template[1146008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 2,
@@ -959,8 +1380,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			1020
 		}
-	},
-	[1146009] = {
+	}
+	pg.base.skill_benefit_template[1146009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 2,
@@ -977,8 +1398,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			1100
 		}
-	},
-	[1146010] = {
+	}
+	pg.base.skill_benefit_template[1146010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 2,
@@ -995,8 +1416,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			1200
 		}
-	},
-	[1317001] = {
+	}
+	pg.base.skill_benefit_template[1317001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 5,
@@ -1008,8 +1429,8 @@ pg.skill_benefit_template = {
 			13220
 		},
 		world_extra_effect = {}
-	},
-	[1317002] = {
+	}
+	pg.base.skill_benefit_template[1317002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 5,
@@ -1021,8 +1442,8 @@ pg.skill_benefit_template = {
 			13220
 		},
 		world_extra_effect = {}
-	},
-	[1317003] = {
+	}
+	pg.base.skill_benefit_template[1317003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 5,
@@ -1034,8 +1455,8 @@ pg.skill_benefit_template = {
 			13220
 		},
 		world_extra_effect = {}
-	},
-	[1317004] = {
+	}
+	pg.base.skill_benefit_template[1317004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 5,
@@ -1047,8 +1468,8 @@ pg.skill_benefit_template = {
 			13220
 		},
 		world_extra_effect = {}
-	},
-	[1317005] = {
+	}
+	pg.base.skill_benefit_template[1317005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 5,
@@ -1060,8 +1481,8 @@ pg.skill_benefit_template = {
 			13220
 		},
 		world_extra_effect = {}
-	},
-	[1317006] = {
+	}
+	pg.base.skill_benefit_template[1317006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 5,
@@ -1073,8 +1494,8 @@ pg.skill_benefit_template = {
 			13220
 		},
 		world_extra_effect = {}
-	},
-	[1317007] = {
+	}
+	pg.base.skill_benefit_template[1317007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 5,
@@ -1086,8 +1507,8 @@ pg.skill_benefit_template = {
 			13220
 		},
 		world_extra_effect = {}
-	},
-	[1317008] = {
+	}
+	pg.base.skill_benefit_template[1317008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 5,
@@ -1099,8 +1520,8 @@ pg.skill_benefit_template = {
 			13220
 		},
 		world_extra_effect = {}
-	},
-	[1317009] = {
+	}
+	pg.base.skill_benefit_template[1317009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 5,
@@ -1112,8 +1533,8 @@ pg.skill_benefit_template = {
 			13220
 		},
 		world_extra_effect = {}
-	},
-	[1317010] = {
+	}
+	pg.base.skill_benefit_template[1317010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 5,
@@ -1125,8 +1546,8 @@ pg.skill_benefit_template = {
 			13220
 		},
 		world_extra_effect = {}
-	},
-	[1343001] = {
+	}
+	pg.base.skill_benefit_template[1343001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 5,
@@ -1138,8 +1559,8 @@ pg.skill_benefit_template = {
 			13540
 		},
 		world_extra_effect = {}
-	},
-	[1343002] = {
+	}
+	pg.base.skill_benefit_template[1343002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 5,
@@ -1151,8 +1572,8 @@ pg.skill_benefit_template = {
 			13540
 		},
 		world_extra_effect = {}
-	},
-	[1343003] = {
+	}
+	pg.base.skill_benefit_template[1343003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 5,
@@ -1164,8 +1585,8 @@ pg.skill_benefit_template = {
 			13540
 		},
 		world_extra_effect = {}
-	},
-	[1343004] = {
+	}
+	pg.base.skill_benefit_template[1343004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 5,
@@ -1177,8 +1598,8 @@ pg.skill_benefit_template = {
 			13540
 		},
 		world_extra_effect = {}
-	},
-	[1343005] = {
+	}
+	pg.base.skill_benefit_template[1343005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 5,
@@ -1190,8 +1611,8 @@ pg.skill_benefit_template = {
 			13540
 		},
 		world_extra_effect = {}
-	},
-	[1343006] = {
+	}
+	pg.base.skill_benefit_template[1343006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 5,
@@ -1203,8 +1624,8 @@ pg.skill_benefit_template = {
 			13540
 		},
 		world_extra_effect = {}
-	},
-	[1343007] = {
+	}
+	pg.base.skill_benefit_template[1343007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 5,
@@ -1216,8 +1637,8 @@ pg.skill_benefit_template = {
 			13540
 		},
 		world_extra_effect = {}
-	},
-	[1343008] = {
+	}
+	pg.base.skill_benefit_template[1343008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 5,
@@ -1229,8 +1650,8 @@ pg.skill_benefit_template = {
 			13540
 		},
 		world_extra_effect = {}
-	},
-	[1343009] = {
+	}
+	pg.base.skill_benefit_template[1343009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 5,
@@ -1242,8 +1663,8 @@ pg.skill_benefit_template = {
 			13540
 		},
 		world_extra_effect = {}
-	},
-	[1343010] = {
+	}
+	pg.base.skill_benefit_template[1343010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 5,
@@ -1255,8 +1676,8 @@ pg.skill_benefit_template = {
 			13540
 		},
 		world_extra_effect = {}
-	},
-	[1359001] = {
+	}
+	pg.base.skill_benefit_template[1359001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 5,
@@ -1268,8 +1689,8 @@ pg.skill_benefit_template = {
 			13700
 		},
 		world_extra_effect = {}
-	},
-	[1359002] = {
+	}
+	pg.base.skill_benefit_template[1359002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 5,
@@ -1281,8 +1702,8 @@ pg.skill_benefit_template = {
 			13700
 		},
 		world_extra_effect = {}
-	},
-	[1359003] = {
+	}
+	pg.base.skill_benefit_template[1359003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 5,
@@ -1294,8 +1715,8 @@ pg.skill_benefit_template = {
 			13700
 		},
 		world_extra_effect = {}
-	},
-	[1359004] = {
+	}
+	pg.base.skill_benefit_template[1359004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 5,
@@ -1307,8 +1728,8 @@ pg.skill_benefit_template = {
 			13700
 		},
 		world_extra_effect = {}
-	},
-	[1359005] = {
+	}
+	pg.base.skill_benefit_template[1359005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 5,
@@ -1320,8 +1741,8 @@ pg.skill_benefit_template = {
 			13700
 		},
 		world_extra_effect = {}
-	},
-	[1359006] = {
+	}
+	pg.base.skill_benefit_template[1359006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 5,
@@ -1333,8 +1754,8 @@ pg.skill_benefit_template = {
 			13700
 		},
 		world_extra_effect = {}
-	},
-	[1359007] = {
+	}
+	pg.base.skill_benefit_template[1359007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 5,
@@ -1346,8 +1767,8 @@ pg.skill_benefit_template = {
 			13700
 		},
 		world_extra_effect = {}
-	},
-	[1359008] = {
+	}
+	pg.base.skill_benefit_template[1359008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 5,
@@ -1359,8 +1780,8 @@ pg.skill_benefit_template = {
 			13700
 		},
 		world_extra_effect = {}
-	},
-	[1359009] = {
+	}
+	pg.base.skill_benefit_template[1359009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 5,
@@ -1372,8 +1793,8 @@ pg.skill_benefit_template = {
 			13700
 		},
 		world_extra_effect = {}
-	},
-	[1359010] = {
+	}
+	pg.base.skill_benefit_template[1359010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 5,
@@ -1385,8 +1806,8 @@ pg.skill_benefit_template = {
 			13700
 		},
 		world_extra_effect = {}
-	},
-	[1397001] = {
+	}
+	pg.base.skill_benefit_template[1397001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 1,
@@ -1401,8 +1822,8 @@ pg.skill_benefit_template = {
 			0.01
 		},
 		world_extra_effect = {}
-	},
-	[1397002] = {
+	}
+	pg.base.skill_benefit_template[1397002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 1,
@@ -1417,8 +1838,8 @@ pg.skill_benefit_template = {
 			0.02
 		},
 		world_extra_effect = {}
-	},
-	[1397003] = {
+	}
+	pg.base.skill_benefit_template[1397003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 1,
@@ -1433,8 +1854,8 @@ pg.skill_benefit_template = {
 			0.03
 		},
 		world_extra_effect = {}
-	},
-	[1397004] = {
+	}
+	pg.base.skill_benefit_template[1397004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 1,
@@ -1449,8 +1870,8 @@ pg.skill_benefit_template = {
 			0.04
 		},
 		world_extra_effect = {}
-	},
-	[1397005] = {
+	}
+	pg.base.skill_benefit_template[1397005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 1,
@@ -1465,8 +1886,8 @@ pg.skill_benefit_template = {
 			0.05
 		},
 		world_extra_effect = {}
-	},
-	[1397006] = {
+	}
+	pg.base.skill_benefit_template[1397006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 1,
@@ -1481,8 +1902,8 @@ pg.skill_benefit_template = {
 			0.06
 		},
 		world_extra_effect = {}
-	},
-	[1397007] = {
+	}
+	pg.base.skill_benefit_template[1397007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 1,
@@ -1497,8 +1918,8 @@ pg.skill_benefit_template = {
 			0.07
 		},
 		world_extra_effect = {}
-	},
-	[1397008] = {
+	}
+	pg.base.skill_benefit_template[1397008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 1,
@@ -1513,8 +1934,10 @@ pg.skill_benefit_template = {
 			0.08
 		},
 		world_extra_effect = {}
-	},
-	[1397009] = {
+	}
+end)()
+(function ()
+	pg.base.skill_benefit_template[1397009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 1,
@@ -1529,8 +1952,8 @@ pg.skill_benefit_template = {
 			0.09
 		},
 		world_extra_effect = {}
-	},
-	[1397010] = {
+	}
+	pg.base.skill_benefit_template[1397010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 1,
@@ -1545,8 +1968,8 @@ pg.skill_benefit_template = {
 			0.1
 		},
 		world_extra_effect = {}
-	},
-	[1452001] = {
+	}
+	pg.base.skill_benefit_template[1452001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 5,
@@ -1558,8 +1981,8 @@ pg.skill_benefit_template = {
 			14640
 		},
 		world_extra_effect = {}
-	},
-	[1452002] = {
+	}
+	pg.base.skill_benefit_template[1452002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 5,
@@ -1571,8 +1994,8 @@ pg.skill_benefit_template = {
 			14640
 		},
 		world_extra_effect = {}
-	},
-	[1452003] = {
+	}
+	pg.base.skill_benefit_template[1452003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 5,
@@ -1584,8 +2007,8 @@ pg.skill_benefit_template = {
 			14640
 		},
 		world_extra_effect = {}
-	},
-	[1452004] = {
+	}
+	pg.base.skill_benefit_template[1452004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 5,
@@ -1597,8 +2020,8 @@ pg.skill_benefit_template = {
 			14640
 		},
 		world_extra_effect = {}
-	},
-	[1452005] = {
+	}
+	pg.base.skill_benefit_template[1452005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 5,
@@ -1610,8 +2033,8 @@ pg.skill_benefit_template = {
 			14640
 		},
 		world_extra_effect = {}
-	},
-	[1452006] = {
+	}
+	pg.base.skill_benefit_template[1452006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 5,
@@ -1623,8 +2046,8 @@ pg.skill_benefit_template = {
 			14640
 		},
 		world_extra_effect = {}
-	},
-	[1452007] = {
+	}
+	pg.base.skill_benefit_template[1452007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 5,
@@ -1636,8 +2059,8 @@ pg.skill_benefit_template = {
 			14640
 		},
 		world_extra_effect = {}
-	},
-	[1452008] = {
+	}
+	pg.base.skill_benefit_template[1452008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 5,
@@ -1649,8 +2072,8 @@ pg.skill_benefit_template = {
 			14640
 		},
 		world_extra_effect = {}
-	},
-	[1452009] = {
+	}
+	pg.base.skill_benefit_template[1452009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 5,
@@ -1662,8 +2085,8 @@ pg.skill_benefit_template = {
 			14640
 		},
 		world_extra_effect = {}
-	},
-	[1452010] = {
+	}
+	pg.base.skill_benefit_template[1452010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 5,
@@ -1675,8 +2098,8 @@ pg.skill_benefit_template = {
 			14640
 		},
 		world_extra_effect = {}
-	},
-	[1463001] = {
+	}
+	pg.base.skill_benefit_template[1463001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 4,
@@ -1688,8 +2111,8 @@ pg.skill_benefit_template = {
 			4171
 		},
 		world_extra_effect = {}
-	},
-	[1463002] = {
+	}
+	pg.base.skill_benefit_template[1463002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 4,
@@ -1701,8 +2124,8 @@ pg.skill_benefit_template = {
 			4171
 		},
 		world_extra_effect = {}
-	},
-	[1463003] = {
+	}
+	pg.base.skill_benefit_template[1463003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 4,
@@ -1714,8 +2137,8 @@ pg.skill_benefit_template = {
 			4171
 		},
 		world_extra_effect = {}
-	},
-	[1463004] = {
+	}
+	pg.base.skill_benefit_template[1463004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 4,
@@ -1727,8 +2150,8 @@ pg.skill_benefit_template = {
 			4171
 		},
 		world_extra_effect = {}
-	},
-	[1463005] = {
+	}
+	pg.base.skill_benefit_template[1463005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 4,
@@ -1740,8 +2163,8 @@ pg.skill_benefit_template = {
 			4171
 		},
 		world_extra_effect = {}
-	},
-	[1463006] = {
+	}
+	pg.base.skill_benefit_template[1463006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 4,
@@ -1753,8 +2176,8 @@ pg.skill_benefit_template = {
 			4171
 		},
 		world_extra_effect = {}
-	},
-	[1463007] = {
+	}
+	pg.base.skill_benefit_template[1463007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 4,
@@ -1766,8 +2189,8 @@ pg.skill_benefit_template = {
 			4171
 		},
 		world_extra_effect = {}
-	},
-	[1463008] = {
+	}
+	pg.base.skill_benefit_template[1463008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 4,
@@ -1779,8 +2202,8 @@ pg.skill_benefit_template = {
 			4171
 		},
 		world_extra_effect = {}
-	},
-	[1463009] = {
+	}
+	pg.base.skill_benefit_template[1463009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 4,
@@ -1792,8 +2215,8 @@ pg.skill_benefit_template = {
 			4171
 		},
 		world_extra_effect = {}
-	},
-	[1463010] = {
+	}
+	pg.base.skill_benefit_template[1463010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 4,
@@ -1805,8 +2228,8 @@ pg.skill_benefit_template = {
 			4171
 		},
 		world_extra_effect = {}
-	},
-	[1487001] = {
+	}
+	pg.base.skill_benefit_template[1487001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 5,
@@ -1818,8 +2241,8 @@ pg.skill_benefit_template = {
 			14880
 		},
 		world_extra_effect = {}
-	},
-	[1487002] = {
+	}
+	pg.base.skill_benefit_template[1487002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 5,
@@ -1831,8 +2254,8 @@ pg.skill_benefit_template = {
 			14880
 		},
 		world_extra_effect = {}
-	},
-	[1487003] = {
+	}
+	pg.base.skill_benefit_template[1487003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 5,
@@ -1844,8 +2267,8 @@ pg.skill_benefit_template = {
 			14880
 		},
 		world_extra_effect = {}
-	},
-	[1487004] = {
+	}
+	pg.base.skill_benefit_template[1487004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 5,
@@ -1857,8 +2280,8 @@ pg.skill_benefit_template = {
 			14880
 		},
 		world_extra_effect = {}
-	},
-	[1487005] = {
+	}
+	pg.base.skill_benefit_template[1487005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 5,
@@ -1870,8 +2293,8 @@ pg.skill_benefit_template = {
 			14880
 		},
 		world_extra_effect = {}
-	},
-	[1487006] = {
+	}
+	pg.base.skill_benefit_template[1487006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 5,
@@ -1883,8 +2306,8 @@ pg.skill_benefit_template = {
 			14880
 		},
 		world_extra_effect = {}
-	},
-	[1487007] = {
+	}
+	pg.base.skill_benefit_template[1487007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 5,
@@ -1896,8 +2319,8 @@ pg.skill_benefit_template = {
 			14880
 		},
 		world_extra_effect = {}
-	},
-	[1487008] = {
+	}
+	pg.base.skill_benefit_template[1487008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 5,
@@ -1909,8 +2332,8 @@ pg.skill_benefit_template = {
 			14880
 		},
 		world_extra_effect = {}
-	},
-	[1487009] = {
+	}
+	pg.base.skill_benefit_template[1487009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 5,
@@ -1922,8 +2345,8 @@ pg.skill_benefit_template = {
 			14880
 		},
 		world_extra_effect = {}
-	},
-	[1487010] = {
+	}
+	pg.base.skill_benefit_template[1487010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 5,
@@ -1935,8 +2358,8 @@ pg.skill_benefit_template = {
 			14880
 		},
 		world_extra_effect = {}
-	},
-	[1507001] = {
+	}
+	pg.base.skill_benefit_template[1507001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 5,
@@ -1948,8 +2371,8 @@ pg.skill_benefit_template = {
 			15080
 		},
 		world_extra_effect = {}
-	},
-	[1507002] = {
+	}
+	pg.base.skill_benefit_template[1507002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 5,
@@ -1961,8 +2384,8 @@ pg.skill_benefit_template = {
 			15080
 		},
 		world_extra_effect = {}
-	},
-	[1507003] = {
+	}
+	pg.base.skill_benefit_template[1507003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 5,
@@ -1974,8 +2397,8 @@ pg.skill_benefit_template = {
 			15080
 		},
 		world_extra_effect = {}
-	},
-	[1507004] = {
+	}
+	pg.base.skill_benefit_template[1507004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 5,
@@ -1987,8 +2410,8 @@ pg.skill_benefit_template = {
 			15080
 		},
 		world_extra_effect = {}
-	},
-	[1507005] = {
+	}
+	pg.base.skill_benefit_template[1507005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 5,
@@ -2000,8 +2423,8 @@ pg.skill_benefit_template = {
 			15080
 		},
 		world_extra_effect = {}
-	},
-	[1507006] = {
+	}
+	pg.base.skill_benefit_template[1507006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 5,
@@ -2013,8 +2436,8 @@ pg.skill_benefit_template = {
 			15080
 		},
 		world_extra_effect = {}
-	},
-	[1507007] = {
+	}
+	pg.base.skill_benefit_template[1507007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 5,
@@ -2026,8 +2449,8 @@ pg.skill_benefit_template = {
 			15080
 		},
 		world_extra_effect = {}
-	},
-	[1507008] = {
+	}
+	pg.base.skill_benefit_template[1507008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 5,
@@ -2039,8 +2462,8 @@ pg.skill_benefit_template = {
 			15080
 		},
 		world_extra_effect = {}
-	},
-	[1507009] = {
+	}
+	pg.base.skill_benefit_template[1507009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 5,
@@ -2052,8 +2475,8 @@ pg.skill_benefit_template = {
 			15080
 		},
 		world_extra_effect = {}
-	},
-	[1507010] = {
+	}
+	pg.base.skill_benefit_template[1507010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 5,
@@ -2065,8 +2488,8 @@ pg.skill_benefit_template = {
 			15080
 		},
 		world_extra_effect = {}
-	},
-	[1531001] = {
+	}
+	pg.base.skill_benefit_template[1531001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 5,
@@ -2078,8 +2501,8 @@ pg.skill_benefit_template = {
 			15350
 		},
 		world_extra_effect = {}
-	},
-	[1531002] = {
+	}
+	pg.base.skill_benefit_template[1531002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 5,
@@ -2091,8 +2514,8 @@ pg.skill_benefit_template = {
 			15350
 		},
 		world_extra_effect = {}
-	},
-	[1531003] = {
+	}
+	pg.base.skill_benefit_template[1531003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 5,
@@ -2104,8 +2527,8 @@ pg.skill_benefit_template = {
 			15350
 		},
 		world_extra_effect = {}
-	},
-	[1531004] = {
+	}
+	pg.base.skill_benefit_template[1531004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 5,
@@ -2117,8 +2540,8 @@ pg.skill_benefit_template = {
 			15350
 		},
 		world_extra_effect = {}
-	},
-	[1531005] = {
+	}
+	pg.base.skill_benefit_template[1531005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 5,
@@ -2130,8 +2553,8 @@ pg.skill_benefit_template = {
 			15350
 		},
 		world_extra_effect = {}
-	},
-	[1531006] = {
+	}
+	pg.base.skill_benefit_template[1531006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 5,
@@ -2143,8 +2566,8 @@ pg.skill_benefit_template = {
 			15350
 		},
 		world_extra_effect = {}
-	},
-	[1531007] = {
+	}
+	pg.base.skill_benefit_template[1531007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 5,
@@ -2156,8 +2579,8 @@ pg.skill_benefit_template = {
 			15350
 		},
 		world_extra_effect = {}
-	},
-	[1531008] = {
+	}
+	pg.base.skill_benefit_template[1531008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 5,
@@ -2169,8 +2592,8 @@ pg.skill_benefit_template = {
 			15350
 		},
 		world_extra_effect = {}
-	},
-	[1531009] = {
+	}
+	pg.base.skill_benefit_template[1531009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 5,
@@ -2182,8 +2605,8 @@ pg.skill_benefit_template = {
 			15350
 		},
 		world_extra_effect = {}
-	},
-	[1531010] = {
+	}
+	pg.base.skill_benefit_template[1531010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 5,
@@ -2195,8 +2618,8 @@ pg.skill_benefit_template = {
 			15350
 		},
 		world_extra_effect = {}
-	},
-	[1568001] = {
+	}
+	pg.base.skill_benefit_template[1568001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 5,
@@ -2208,8 +2631,8 @@ pg.skill_benefit_template = {
 			15710
 		},
 		world_extra_effect = {}
-	},
-	[1568002] = {
+	}
+	pg.base.skill_benefit_template[1568002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 5,
@@ -2221,8 +2644,8 @@ pg.skill_benefit_template = {
 			15710
 		},
 		world_extra_effect = {}
-	},
-	[1568003] = {
+	}
+	pg.base.skill_benefit_template[1568003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 5,
@@ -2234,8 +2657,8 @@ pg.skill_benefit_template = {
 			15710
 		},
 		world_extra_effect = {}
-	},
-	[1568004] = {
+	}
+	pg.base.skill_benefit_template[1568004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 5,
@@ -2247,8 +2670,8 @@ pg.skill_benefit_template = {
 			15710
 		},
 		world_extra_effect = {}
-	},
-	[1568005] = {
+	}
+	pg.base.skill_benefit_template[1568005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 5,
@@ -2260,8 +2683,8 @@ pg.skill_benefit_template = {
 			15710
 		},
 		world_extra_effect = {}
-	},
-	[1568006] = {
+	}
+	pg.base.skill_benefit_template[1568006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 5,
@@ -2273,8 +2696,8 @@ pg.skill_benefit_template = {
 			15710
 		},
 		world_extra_effect = {}
-	},
-	[1568007] = {
+	}
+	pg.base.skill_benefit_template[1568007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 5,
@@ -2286,8 +2709,8 @@ pg.skill_benefit_template = {
 			15710
 		},
 		world_extra_effect = {}
-	},
-	[1568008] = {
+	}
+	pg.base.skill_benefit_template[1568008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 5,
@@ -2299,8 +2722,8 @@ pg.skill_benefit_template = {
 			15710
 		},
 		world_extra_effect = {}
-	},
-	[1568009] = {
+	}
+	pg.base.skill_benefit_template[1568009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 5,
@@ -2312,8 +2735,8 @@ pg.skill_benefit_template = {
 			15710
 		},
 		world_extra_effect = {}
-	},
-	[1568010] = {
+	}
+	pg.base.skill_benefit_template[1568010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 5,
@@ -2325,8 +2748,8 @@ pg.skill_benefit_template = {
 			15710
 		},
 		world_extra_effect = {}
-	},
-	[1605001] = {
+	}
+	pg.base.skill_benefit_template[1605001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 5,
@@ -2338,8 +2761,8 @@ pg.skill_benefit_template = {
 			16060
 		},
 		world_extra_effect = {}
-	},
-	[1605002] = {
+	}
+	pg.base.skill_benefit_template[1605002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 5,
@@ -2351,8 +2774,8 @@ pg.skill_benefit_template = {
 			16060
 		},
 		world_extra_effect = {}
-	},
-	[1605003] = {
+	}
+	pg.base.skill_benefit_template[1605003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 5,
@@ -2364,8 +2787,8 @@ pg.skill_benefit_template = {
 			16060
 		},
 		world_extra_effect = {}
-	},
-	[1605004] = {
+	}
+	pg.base.skill_benefit_template[1605004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 5,
@@ -2377,8 +2800,8 @@ pg.skill_benefit_template = {
 			16060
 		},
 		world_extra_effect = {}
-	},
-	[1605005] = {
+	}
+	pg.base.skill_benefit_template[1605005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 5,
@@ -2390,8 +2813,8 @@ pg.skill_benefit_template = {
 			16060
 		},
 		world_extra_effect = {}
-	},
-	[1605006] = {
+	}
+	pg.base.skill_benefit_template[1605006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 5,
@@ -2403,8 +2826,8 @@ pg.skill_benefit_template = {
 			16060
 		},
 		world_extra_effect = {}
-	},
-	[1605007] = {
+	}
+	pg.base.skill_benefit_template[1605007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 5,
@@ -2416,8 +2839,8 @@ pg.skill_benefit_template = {
 			16060
 		},
 		world_extra_effect = {}
-	},
-	[1605008] = {
+	}
+	pg.base.skill_benefit_template[1605008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 5,
@@ -2429,8 +2852,8 @@ pg.skill_benefit_template = {
 			16060
 		},
 		world_extra_effect = {}
-	},
-	[1605009] = {
+	}
+	pg.base.skill_benefit_template[1605009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 5,
@@ -2442,8 +2865,8 @@ pg.skill_benefit_template = {
 			16060
 		},
 		world_extra_effect = {}
-	},
-	[1605010] = {
+	}
+	pg.base.skill_benefit_template[1605010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 5,
@@ -2455,8 +2878,8 @@ pg.skill_benefit_template = {
 			16060
 		},
 		world_extra_effect = {}
-	},
-	[1622001] = {
+	}
+	pg.base.skill_benefit_template[1622001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 5,
@@ -2468,8 +2891,8 @@ pg.skill_benefit_template = {
 			16240
 		},
 		world_extra_effect = {}
-	},
-	[1622002] = {
+	}
+	pg.base.skill_benefit_template[1622002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 5,
@@ -2481,8 +2904,8 @@ pg.skill_benefit_template = {
 			16240
 		},
 		world_extra_effect = {}
-	},
-	[1622003] = {
+	}
+	pg.base.skill_benefit_template[1622003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 5,
@@ -2494,8 +2917,8 @@ pg.skill_benefit_template = {
 			16240
 		},
 		world_extra_effect = {}
-	},
-	[1622004] = {
+	}
+	pg.base.skill_benefit_template[1622004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 5,
@@ -2507,8 +2930,8 @@ pg.skill_benefit_template = {
 			16240
 		},
 		world_extra_effect = {}
-	},
-	[1622005] = {
+	}
+	pg.base.skill_benefit_template[1622005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 5,
@@ -2520,8 +2943,8 @@ pg.skill_benefit_template = {
 			16240
 		},
 		world_extra_effect = {}
-	},
-	[1622006] = {
+	}
+	pg.base.skill_benefit_template[1622006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 5,
@@ -2533,8 +2956,8 @@ pg.skill_benefit_template = {
 			16240
 		},
 		world_extra_effect = {}
-	},
-	[1622007] = {
+	}
+	pg.base.skill_benefit_template[1622007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 5,
@@ -2546,8 +2969,8 @@ pg.skill_benefit_template = {
 			16240
 		},
 		world_extra_effect = {}
-	},
-	[1622008] = {
+	}
+	pg.base.skill_benefit_template[1622008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 5,
@@ -2559,8 +2982,8 @@ pg.skill_benefit_template = {
 			16240
 		},
 		world_extra_effect = {}
-	},
-	[1622009] = {
+	}
+	pg.base.skill_benefit_template[1622009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 5,
@@ -2572,8 +2995,8 @@ pg.skill_benefit_template = {
 			16240
 		},
 		world_extra_effect = {}
-	},
-	[1622010] = {
+	}
+	pg.base.skill_benefit_template[1622010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 5,
@@ -2585,8 +3008,8 @@ pg.skill_benefit_template = {
 			16240
 		},
 		world_extra_effect = {}
-	},
-	[1645001] = {
+	}
+	pg.base.skill_benefit_template[1645001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 5,
@@ -2598,8 +3021,8 @@ pg.skill_benefit_template = {
 			16480
 		},
 		world_extra_effect = {}
-	},
-	[1645002] = {
+	}
+	pg.base.skill_benefit_template[1645002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 5,
@@ -2611,8 +3034,8 @@ pg.skill_benefit_template = {
 			16480
 		},
 		world_extra_effect = {}
-	},
-	[1645003] = {
+	}
+	pg.base.skill_benefit_template[1645003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 5,
@@ -2624,8 +3047,8 @@ pg.skill_benefit_template = {
 			16480
 		},
 		world_extra_effect = {}
-	},
-	[1645004] = {
+	}
+	pg.base.skill_benefit_template[1645004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 5,
@@ -2637,8 +3060,8 @@ pg.skill_benefit_template = {
 			16480
 		},
 		world_extra_effect = {}
-	},
-	[1645005] = {
+	}
+	pg.base.skill_benefit_template[1645005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 5,
@@ -2650,8 +3073,8 @@ pg.skill_benefit_template = {
 			16480
 		},
 		world_extra_effect = {}
-	},
-	[1645006] = {
+	}
+	pg.base.skill_benefit_template[1645006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 5,
@@ -2663,8 +3086,8 @@ pg.skill_benefit_template = {
 			16480
 		},
 		world_extra_effect = {}
-	},
-	[1645007] = {
+	}
+	pg.base.skill_benefit_template[1645007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 5,
@@ -2676,8 +3099,8 @@ pg.skill_benefit_template = {
 			16480
 		},
 		world_extra_effect = {}
-	},
-	[1645008] = {
+	}
+	pg.base.skill_benefit_template[1645008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 5,
@@ -2689,8 +3112,8 @@ pg.skill_benefit_template = {
 			16480
 		},
 		world_extra_effect = {}
-	},
-	[1645009] = {
+	}
+	pg.base.skill_benefit_template[1645009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 5,
@@ -2702,8 +3125,8 @@ pg.skill_benefit_template = {
 			16480
 		},
 		world_extra_effect = {}
-	},
-	[1645010] = {
+	}
+	pg.base.skill_benefit_template[1645010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 5,
@@ -2715,8 +3138,8 @@ pg.skill_benefit_template = {
 			16480
 		},
 		world_extra_effect = {}
-	},
-	[1677001] = {
+	}
+	pg.base.skill_benefit_template[1677001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 5,
@@ -2728,8 +3151,8 @@ pg.skill_benefit_template = {
 			16780
 		},
 		world_extra_effect = {}
-	},
-	[1677002] = {
+	}
+	pg.base.skill_benefit_template[1677002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 5,
@@ -2741,8 +3164,8 @@ pg.skill_benefit_template = {
 			16780
 		},
 		world_extra_effect = {}
-	},
-	[1677003] = {
+	}
+	pg.base.skill_benefit_template[1677003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 5,
@@ -2754,8 +3177,8 @@ pg.skill_benefit_template = {
 			16780
 		},
 		world_extra_effect = {}
-	},
-	[1677004] = {
+	}
+	pg.base.skill_benefit_template[1677004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 5,
@@ -2767,8 +3190,8 @@ pg.skill_benefit_template = {
 			16780
 		},
 		world_extra_effect = {}
-	},
-	[1677005] = {
+	}
+	pg.base.skill_benefit_template[1677005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 5,
@@ -2780,8 +3203,8 @@ pg.skill_benefit_template = {
 			16780
 		},
 		world_extra_effect = {}
-	},
-	[1677006] = {
+	}
+	pg.base.skill_benefit_template[1677006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 5,
@@ -2793,8 +3216,8 @@ pg.skill_benefit_template = {
 			16780
 		},
 		world_extra_effect = {}
-	},
-	[1677007] = {
+	}
+	pg.base.skill_benefit_template[1677007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 5,
@@ -2806,8 +3229,8 @@ pg.skill_benefit_template = {
 			16780
 		},
 		world_extra_effect = {}
-	},
-	[1677008] = {
+	}
+	pg.base.skill_benefit_template[1677008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 5,
@@ -2819,8 +3242,10 @@ pg.skill_benefit_template = {
 			16780
 		},
 		world_extra_effect = {}
-	},
-	[1677009] = {
+	}
+end)()
+(function ()
+	pg.base.skill_benefit_template[1677009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 5,
@@ -2832,8 +3257,8 @@ pg.skill_benefit_template = {
 			16780
 		},
 		world_extra_effect = {}
-	},
-	[1677010] = {
+	}
+	pg.base.skill_benefit_template[1677010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 5,
@@ -2845,8 +3270,8 @@ pg.skill_benefit_template = {
 			16780
 		},
 		world_extra_effect = {}
-	},
-	[1703001] = {
+	}
+	pg.base.skill_benefit_template[1703001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 5,
@@ -2858,8 +3283,8 @@ pg.skill_benefit_template = {
 			17050
 		},
 		world_extra_effect = {}
-	},
-	[1703002] = {
+	}
+	pg.base.skill_benefit_template[1703002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 5,
@@ -2871,8 +3296,8 @@ pg.skill_benefit_template = {
 			17050
 		},
 		world_extra_effect = {}
-	},
-	[1703003] = {
+	}
+	pg.base.skill_benefit_template[1703003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 5,
@@ -2884,8 +3309,8 @@ pg.skill_benefit_template = {
 			17050
 		},
 		world_extra_effect = {}
-	},
-	[1703004] = {
+	}
+	pg.base.skill_benefit_template[1703004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 5,
@@ -2897,8 +3322,8 @@ pg.skill_benefit_template = {
 			17050
 		},
 		world_extra_effect = {}
-	},
-	[1703005] = {
+	}
+	pg.base.skill_benefit_template[1703005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 5,
@@ -2910,8 +3335,8 @@ pg.skill_benefit_template = {
 			17050
 		},
 		world_extra_effect = {}
-	},
-	[1703006] = {
+	}
+	pg.base.skill_benefit_template[1703006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 5,
@@ -2923,8 +3348,8 @@ pg.skill_benefit_template = {
 			17050
 		},
 		world_extra_effect = {}
-	},
-	[1703007] = {
+	}
+	pg.base.skill_benefit_template[1703007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 5,
@@ -2936,8 +3361,8 @@ pg.skill_benefit_template = {
 			17050
 		},
 		world_extra_effect = {}
-	},
-	[1703008] = {
+	}
+	pg.base.skill_benefit_template[1703008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 5,
@@ -2949,8 +3374,8 @@ pg.skill_benefit_template = {
 			17050
 		},
 		world_extra_effect = {}
-	},
-	[1703009] = {
+	}
+	pg.base.skill_benefit_template[1703009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 5,
@@ -2962,8 +3387,8 @@ pg.skill_benefit_template = {
 			17050
 		},
 		world_extra_effect = {}
-	},
-	[1703010] = {
+	}
+	pg.base.skill_benefit_template[1703010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 5,
@@ -2975,8 +3400,8 @@ pg.skill_benefit_template = {
 			17050
 		},
 		world_extra_effect = {}
-	},
-	[1735001] = {
+	}
+	pg.base.skill_benefit_template[1735001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 5,
@@ -2988,8 +3413,8 @@ pg.skill_benefit_template = {
 			17360
 		},
 		world_extra_effect = {}
-	},
-	[1735002] = {
+	}
+	pg.base.skill_benefit_template[1735002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 5,
@@ -3001,8 +3426,8 @@ pg.skill_benefit_template = {
 			17360
 		},
 		world_extra_effect = {}
-	},
-	[1735003] = {
+	}
+	pg.base.skill_benefit_template[1735003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 5,
@@ -3014,8 +3439,8 @@ pg.skill_benefit_template = {
 			17360
 		},
 		world_extra_effect = {}
-	},
-	[1735004] = {
+	}
+	pg.base.skill_benefit_template[1735004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 5,
@@ -3027,8 +3452,8 @@ pg.skill_benefit_template = {
 			17360
 		},
 		world_extra_effect = {}
-	},
-	[1735005] = {
+	}
+	pg.base.skill_benefit_template[1735005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 5,
@@ -3040,8 +3465,8 @@ pg.skill_benefit_template = {
 			17360
 		},
 		world_extra_effect = {}
-	},
-	[1735006] = {
+	}
+	pg.base.skill_benefit_template[1735006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 5,
@@ -3053,8 +3478,8 @@ pg.skill_benefit_template = {
 			17360
 		},
 		world_extra_effect = {}
-	},
-	[1735007] = {
+	}
+	pg.base.skill_benefit_template[1735007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 5,
@@ -3066,8 +3491,8 @@ pg.skill_benefit_template = {
 			17360
 		},
 		world_extra_effect = {}
-	},
-	[1735008] = {
+	}
+	pg.base.skill_benefit_template[1735008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 5,
@@ -3079,8 +3504,8 @@ pg.skill_benefit_template = {
 			17360
 		},
 		world_extra_effect = {}
-	},
-	[1735009] = {
+	}
+	pg.base.skill_benefit_template[1735009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 5,
@@ -3092,8 +3517,8 @@ pg.skill_benefit_template = {
 			17360
 		},
 		world_extra_effect = {}
-	},
-	[1735010] = {
+	}
+	pg.base.skill_benefit_template[1735010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 5,
@@ -3105,8 +3530,8 @@ pg.skill_benefit_template = {
 			17360
 		},
 		world_extra_effect = {}
-	},
-	[1761001] = {
+	}
+	pg.base.skill_benefit_template[1761001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 5,
@@ -3118,8 +3543,8 @@ pg.skill_benefit_template = {
 			17640
 		},
 		world_extra_effect = {}
-	},
-	[1761002] = {
+	}
+	pg.base.skill_benefit_template[1761002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 5,
@@ -3131,8 +3556,8 @@ pg.skill_benefit_template = {
 			17640
 		},
 		world_extra_effect = {}
-	},
-	[1761003] = {
+	}
+	pg.base.skill_benefit_template[1761003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 5,
@@ -3144,8 +3569,8 @@ pg.skill_benefit_template = {
 			17640
 		},
 		world_extra_effect = {}
-	},
-	[1761004] = {
+	}
+	pg.base.skill_benefit_template[1761004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 5,
@@ -3157,8 +3582,8 @@ pg.skill_benefit_template = {
 			17640
 		},
 		world_extra_effect = {}
-	},
-	[1761005] = {
+	}
+	pg.base.skill_benefit_template[1761005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 5,
@@ -3170,8 +3595,8 @@ pg.skill_benefit_template = {
 			17640
 		},
 		world_extra_effect = {}
-	},
-	[1761006] = {
+	}
+	pg.base.skill_benefit_template[1761006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 5,
@@ -3183,8 +3608,8 @@ pg.skill_benefit_template = {
 			17640
 		},
 		world_extra_effect = {}
-	},
-	[1761007] = {
+	}
+	pg.base.skill_benefit_template[1761007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 5,
@@ -3196,8 +3621,8 @@ pg.skill_benefit_template = {
 			17640
 		},
 		world_extra_effect = {}
-	},
-	[1761008] = {
+	}
+	pg.base.skill_benefit_template[1761008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 5,
@@ -3209,8 +3634,8 @@ pg.skill_benefit_template = {
 			17640
 		},
 		world_extra_effect = {}
-	},
-	[1761009] = {
+	}
+	pg.base.skill_benefit_template[1761009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 5,
@@ -3222,8 +3647,8 @@ pg.skill_benefit_template = {
 			17640
 		},
 		world_extra_effect = {}
-	},
-	[1761010] = {
+	}
+	pg.base.skill_benefit_template[1761010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 5,
@@ -3235,8 +3660,8 @@ pg.skill_benefit_template = {
 			17640
 		},
 		world_extra_effect = {}
-	},
-	[1951001] = {
+	}
+	pg.base.skill_benefit_template[1951001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 5,
@@ -3248,8 +3673,8 @@ pg.skill_benefit_template = {
 			19520
 		},
 		world_extra_effect = {}
-	},
-	[1951002] = {
+	}
+	pg.base.skill_benefit_template[1951002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 5,
@@ -3261,8 +3686,8 @@ pg.skill_benefit_template = {
 			19520
 		},
 		world_extra_effect = {}
-	},
-	[1951003] = {
+	}
+	pg.base.skill_benefit_template[1951003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 5,
@@ -3274,8 +3699,8 @@ pg.skill_benefit_template = {
 			19520
 		},
 		world_extra_effect = {}
-	},
-	[1951004] = {
+	}
+	pg.base.skill_benefit_template[1951004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 5,
@@ -3287,8 +3712,8 @@ pg.skill_benefit_template = {
 			19520
 		},
 		world_extra_effect = {}
-	},
-	[1951005] = {
+	}
+	pg.base.skill_benefit_template[1951005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 5,
@@ -3300,8 +3725,8 @@ pg.skill_benefit_template = {
 			19520
 		},
 		world_extra_effect = {}
-	},
-	[1951006] = {
+	}
+	pg.base.skill_benefit_template[1951006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 5,
@@ -3313,8 +3738,8 @@ pg.skill_benefit_template = {
 			19520
 		},
 		world_extra_effect = {}
-	},
-	[1951007] = {
+	}
+	pg.base.skill_benefit_template[1951007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 5,
@@ -3326,8 +3751,8 @@ pg.skill_benefit_template = {
 			19520
 		},
 		world_extra_effect = {}
-	},
-	[1951008] = {
+	}
+	pg.base.skill_benefit_template[1951008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 5,
@@ -3339,8 +3764,8 @@ pg.skill_benefit_template = {
 			19520
 		},
 		world_extra_effect = {}
-	},
-	[1951009] = {
+	}
+	pg.base.skill_benefit_template[1951009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 5,
@@ -3352,8 +3777,8 @@ pg.skill_benefit_template = {
 			19520
 		},
 		world_extra_effect = {}
-	},
-	[1951010] = {
+	}
+	pg.base.skill_benefit_template[1951010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 5,
@@ -3365,8 +3790,8 @@ pg.skill_benefit_template = {
 			19520
 		},
 		world_extra_effect = {}
-	},
-	[6012001] = {
+	}
+	pg.base.skill_benefit_template[6012001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 2,
@@ -3379,8 +3804,8 @@ pg.skill_benefit_template = {
 			0
 		},
 		world_extra_effect = {}
-	},
-	[80018001] = {
+	}
+	pg.base.skill_benefit_template[80018001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 5,
@@ -3392,8 +3817,8 @@ pg.skill_benefit_template = {
 			800210
 		},
 		world_extra_effect = {}
-	},
-	[80018002] = {
+	}
+	pg.base.skill_benefit_template[80018002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 5,
@@ -3405,8 +3830,8 @@ pg.skill_benefit_template = {
 			800210
 		},
 		world_extra_effect = {}
-	},
-	[80018003] = {
+	}
+	pg.base.skill_benefit_template[80018003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 5,
@@ -3418,8 +3843,8 @@ pg.skill_benefit_template = {
 			800210
 		},
 		world_extra_effect = {}
-	},
-	[80018004] = {
+	}
+	pg.base.skill_benefit_template[80018004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 5,
@@ -3431,8 +3856,8 @@ pg.skill_benefit_template = {
 			800210
 		},
 		world_extra_effect = {}
-	},
-	[80018005] = {
+	}
+	pg.base.skill_benefit_template[80018005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 5,
@@ -3444,8 +3869,8 @@ pg.skill_benefit_template = {
 			800210
 		},
 		world_extra_effect = {}
-	},
-	[80018006] = {
+	}
+	pg.base.skill_benefit_template[80018006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 5,
@@ -3457,8 +3882,8 @@ pg.skill_benefit_template = {
 			800210
 		},
 		world_extra_effect = {}
-	},
-	[80018007] = {
+	}
+	pg.base.skill_benefit_template[80018007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 5,
@@ -3470,8 +3895,8 @@ pg.skill_benefit_template = {
 			800210
 		},
 		world_extra_effect = {}
-	},
-	[80018008] = {
+	}
+	pg.base.skill_benefit_template[80018008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 5,
@@ -3483,8 +3908,8 @@ pg.skill_benefit_template = {
 			800210
 		},
 		world_extra_effect = {}
-	},
-	[80018009] = {
+	}
+	pg.base.skill_benefit_template[80018009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 5,
@@ -3496,8 +3921,8 @@ pg.skill_benefit_template = {
 			800210
 		},
 		world_extra_effect = {}
-	},
-	[80018010] = {
+	}
+	pg.base.skill_benefit_template[80018010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 5,
@@ -3509,8 +3934,8 @@ pg.skill_benefit_template = {
 			800210
 		},
 		world_extra_effect = {}
-	},
-	[1651001] = {
+	}
+	pg.base.skill_benefit_template[1651001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 4,
@@ -3522,8 +3947,8 @@ pg.skill_benefit_template = {
 			4171
 		},
 		world_extra_effect = {}
-	},
-	[1651002] = {
+	}
+	pg.base.skill_benefit_template[1651002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 4,
@@ -3535,8 +3960,8 @@ pg.skill_benefit_template = {
 			4171
 		},
 		world_extra_effect = {}
-	},
-	[1651003] = {
+	}
+	pg.base.skill_benefit_template[1651003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 4,
@@ -3548,8 +3973,8 @@ pg.skill_benefit_template = {
 			4171
 		},
 		world_extra_effect = {}
-	},
-	[1651004] = {
+	}
+	pg.base.skill_benefit_template[1651004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 4,
@@ -3561,8 +3986,8 @@ pg.skill_benefit_template = {
 			4171
 		},
 		world_extra_effect = {}
-	},
-	[1651005] = {
+	}
+	pg.base.skill_benefit_template[1651005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 4,
@@ -3574,8 +3999,8 @@ pg.skill_benefit_template = {
 			4171
 		},
 		world_extra_effect = {}
-	},
-	[1651006] = {
+	}
+	pg.base.skill_benefit_template[1651006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 4,
@@ -3587,8 +4012,8 @@ pg.skill_benefit_template = {
 			4171
 		},
 		world_extra_effect = {}
-	},
-	[1651007] = {
+	}
+	pg.base.skill_benefit_template[1651007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 4,
@@ -3600,8 +4025,8 @@ pg.skill_benefit_template = {
 			4171
 		},
 		world_extra_effect = {}
-	},
-	[1651008] = {
+	}
+	pg.base.skill_benefit_template[1651008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 4,
@@ -3613,8 +4038,8 @@ pg.skill_benefit_template = {
 			4171
 		},
 		world_extra_effect = {}
-	},
-	[1651009] = {
+	}
+	pg.base.skill_benefit_template[1651009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 4,
@@ -3626,8 +4051,8 @@ pg.skill_benefit_template = {
 			4171
 		},
 		world_extra_effect = {}
-	},
-	[1651010] = {
+	}
+	pg.base.skill_benefit_template[1651010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 4,
@@ -3639,8 +4064,8 @@ pg.skill_benefit_template = {
 			4171
 		},
 		world_extra_effect = {}
-	},
-	[1652001] = {
+	}
+	pg.base.skill_benefit_template[1652001] = {
 		lv = 1,
 		skill_group_level = 1,
 		type = 1,
@@ -3655,8 +4080,8 @@ pg.skill_benefit_template = {
 			0.01
 		},
 		world_extra_effect = {}
-	},
-	[1652002] = {
+	}
+	pg.base.skill_benefit_template[1652002] = {
 		lv = 2,
 		skill_group_level = 1,
 		type = 1,
@@ -3671,8 +4096,8 @@ pg.skill_benefit_template = {
 			0.02
 		},
 		world_extra_effect = {}
-	},
-	[1652003] = {
+	}
+	pg.base.skill_benefit_template[1652003] = {
 		lv = 3,
 		skill_group_level = 1,
 		type = 1,
@@ -3687,8 +4112,8 @@ pg.skill_benefit_template = {
 			0.03
 		},
 		world_extra_effect = {}
-	},
-	[1652004] = {
+	}
+	pg.base.skill_benefit_template[1652004] = {
 		lv = 4,
 		skill_group_level = 1,
 		type = 1,
@@ -3703,8 +4128,8 @@ pg.skill_benefit_template = {
 			0.04
 		},
 		world_extra_effect = {}
-	},
-	[1652005] = {
+	}
+	pg.base.skill_benefit_template[1652005] = {
 		lv = 5,
 		skill_group_level = 1,
 		type = 1,
@@ -3719,8 +4144,8 @@ pg.skill_benefit_template = {
 			0.05
 		},
 		world_extra_effect = {}
-	},
-	[1652006] = {
+	}
+	pg.base.skill_benefit_template[1652006] = {
 		lv = 6,
 		skill_group_level = 1,
 		type = 1,
@@ -3735,8 +4160,8 @@ pg.skill_benefit_template = {
 			0.06
 		},
 		world_extra_effect = {}
-	},
-	[1652007] = {
+	}
+	pg.base.skill_benefit_template[1652007] = {
 		lv = 7,
 		skill_group_level = 1,
 		type = 1,
@@ -3751,8 +4176,8 @@ pg.skill_benefit_template = {
 			0.07
 		},
 		world_extra_effect = {}
-	},
-	[1652008] = {
+	}
+	pg.base.skill_benefit_template[1652008] = {
 		lv = 8,
 		skill_group_level = 1,
 		type = 1,
@@ -3767,8 +4192,8 @@ pg.skill_benefit_template = {
 			0.08
 		},
 		world_extra_effect = {}
-	},
-	[1652009] = {
+	}
+	pg.base.skill_benefit_template[1652009] = {
 		lv = 9,
 		skill_group_level = 1,
 		type = 1,
@@ -3783,8 +4208,8 @@ pg.skill_benefit_template = {
 			0.09
 		},
 		world_extra_effect = {}
-	},
-	[1652010] = {
+	}
+	pg.base.skill_benefit_template[1652010] = {
 		lv = 10,
 		skill_group_level = 1,
 		type = 1,
@@ -3799,8 +4224,8 @@ pg.skill_benefit_template = {
 			0.1
 		},
 		world_extra_effect = {}
-	},
-	[1742001] = {
+	}
+	pg.base.skill_benefit_template[1742001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 2,
@@ -3815,8 +4240,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			450
 		}
-	},
-	[1742002] = {
+	}
+	pg.base.skill_benefit_template[1742002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 2,
@@ -3831,8 +4256,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			520
 		}
-	},
-	[1742003] = {
+	}
+	pg.base.skill_benefit_template[1742003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 2,
@@ -3847,8 +4272,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			600
 		}
-	},
-	[1742004] = {
+	}
+	pg.base.skill_benefit_template[1742004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 2,
@@ -3863,8 +4288,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			700
 		}
-	},
-	[1742005] = {
+	}
+	pg.base.skill_benefit_template[1742005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 2,
@@ -3879,8 +4304,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			770
 		}
-	},
-	[1742006] = {
+	}
+	pg.base.skill_benefit_template[1742006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 2,
@@ -3895,8 +4320,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			850
 		}
-	},
-	[1742007] = {
+	}
+	pg.base.skill_benefit_template[1742007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 2,
@@ -3911,8 +4336,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			950
 		}
-	},
-	[1742008] = {
+	}
+	pg.base.skill_benefit_template[1742008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 2,
@@ -3927,8 +4352,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			1020
 		}
-	},
-	[1742009] = {
+	}
+	pg.base.skill_benefit_template[1742009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 2,
@@ -3943,8 +4368,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			1100
 		}
-	},
-	[1742010] = {
+	}
+	pg.base.skill_benefit_template[1742010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 2,
@@ -3959,8 +4384,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			1200
 		}
-	},
-	[80079001] = {
+	}
+	pg.base.skill_benefit_template[80079001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 2,
@@ -3975,8 +4400,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			450
 		}
-	},
-	[80079002] = {
+	}
+	pg.base.skill_benefit_template[80079002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 2,
@@ -3991,8 +4416,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			520
 		}
-	},
-	[80079003] = {
+	}
+	pg.base.skill_benefit_template[80079003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 2,
@@ -4007,8 +4432,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			600
 		}
-	},
-	[80079004] = {
+	}
+	pg.base.skill_benefit_template[80079004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 2,
@@ -4023,8 +4448,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			700
 		}
-	},
-	[80079005] = {
+	}
+	pg.base.skill_benefit_template[80079005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 2,
@@ -4039,8 +4464,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			770
 		}
-	},
-	[80079006] = {
+	}
+	pg.base.skill_benefit_template[80079006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 2,
@@ -4055,8 +4480,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			850
 		}
-	},
-	[80079007] = {
+	}
+	pg.base.skill_benefit_template[80079007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 2,
@@ -4071,8 +4496,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			950
 		}
-	},
-	[80079008] = {
+	}
+	pg.base.skill_benefit_template[80079008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 2,
@@ -4087,8 +4512,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			1020
 		}
-	},
-	[80079009] = {
+	}
+	pg.base.skill_benefit_template[80079009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 2,
@@ -4103,8 +4528,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			1100
 		}
-	},
-	[80079010] = {
+	}
+	pg.base.skill_benefit_template[80079010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 2,
@@ -4119,8 +4544,8 @@ pg.skill_benefit_template = {
 		world_extra_effect = {
 			1200
 		}
-	},
-	[15002001] = {
+	}
+	pg.base.skill_benefit_template[15002001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 5,
@@ -4132,8 +4557,8 @@ pg.skill_benefit_template = {
 			150090
 		},
 		world_extra_effect = {}
-	},
-	[15002002] = {
+	}
+	pg.base.skill_benefit_template[15002002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 5,
@@ -4145,8 +4570,8 @@ pg.skill_benefit_template = {
 			150090
 		},
 		world_extra_effect = {}
-	},
-	[15002003] = {
+	}
+	pg.base.skill_benefit_template[15002003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 5,
@@ -4158,8 +4583,8 @@ pg.skill_benefit_template = {
 			150090
 		},
 		world_extra_effect = {}
-	},
-	[15002004] = {
+	}
+	pg.base.skill_benefit_template[15002004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 5,
@@ -4171,8 +4596,8 @@ pg.skill_benefit_template = {
 			150090
 		},
 		world_extra_effect = {}
-	},
-	[15002005] = {
+	}
+	pg.base.skill_benefit_template[15002005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 5,
@@ -4184,8 +4609,8 @@ pg.skill_benefit_template = {
 			150090
 		},
 		world_extra_effect = {}
-	},
-	[15002006] = {
+	}
+	pg.base.skill_benefit_template[15002006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 5,
@@ -4197,8 +4622,8 @@ pg.skill_benefit_template = {
 			150090
 		},
 		world_extra_effect = {}
-	},
-	[15002007] = {
+	}
+	pg.base.skill_benefit_template[15002007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 5,
@@ -4210,8 +4635,10 @@ pg.skill_benefit_template = {
 			150090
 		},
 		world_extra_effect = {}
-	},
-	[15002008] = {
+	}
+end)()
+(function ()
+	pg.base.skill_benefit_template[15002008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 5,
@@ -4223,8 +4650,8 @@ pg.skill_benefit_template = {
 			150090
 		},
 		world_extra_effect = {}
-	},
-	[15002009] = {
+	}
+	pg.base.skill_benefit_template[15002009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 5,
@@ -4236,8 +4663,8 @@ pg.skill_benefit_template = {
 			150090
 		},
 		world_extra_effect = {}
-	},
-	[15002010] = {
+	}
+	pg.base.skill_benefit_template[15002010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 5,
@@ -4249,8 +4676,8 @@ pg.skill_benefit_template = {
 			150090
 		},
 		world_extra_effect = {}
-	},
-	[15004001] = {
+	}
+	pg.base.skill_benefit_template[15004001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 5,
@@ -4262,8 +4689,8 @@ pg.skill_benefit_template = {
 			150100
 		},
 		world_extra_effect = {}
-	},
-	[15004002] = {
+	}
+	pg.base.skill_benefit_template[15004002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 5,
@@ -4275,8 +4702,8 @@ pg.skill_benefit_template = {
 			150100
 		},
 		world_extra_effect = {}
-	},
-	[15004003] = {
+	}
+	pg.base.skill_benefit_template[15004003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 5,
@@ -4288,8 +4715,8 @@ pg.skill_benefit_template = {
 			150100
 		},
 		world_extra_effect = {}
-	},
-	[15004004] = {
+	}
+	pg.base.skill_benefit_template[15004004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 5,
@@ -4301,8 +4728,8 @@ pg.skill_benefit_template = {
 			150100
 		},
 		world_extra_effect = {}
-	},
-	[15004005] = {
+	}
+	pg.base.skill_benefit_template[15004005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 5,
@@ -4314,8 +4741,8 @@ pg.skill_benefit_template = {
 			150100
 		},
 		world_extra_effect = {}
-	},
-	[15004006] = {
+	}
+	pg.base.skill_benefit_template[15004006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 5,
@@ -4327,8 +4754,8 @@ pg.skill_benefit_template = {
 			150100
 		},
 		world_extra_effect = {}
-	},
-	[15004007] = {
+	}
+	pg.base.skill_benefit_template[15004007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 5,
@@ -4340,8 +4767,8 @@ pg.skill_benefit_template = {
 			150100
 		},
 		world_extra_effect = {}
-	},
-	[15004008] = {
+	}
+	pg.base.skill_benefit_template[15004008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 5,
@@ -4353,8 +4780,8 @@ pg.skill_benefit_template = {
 			150100
 		},
 		world_extra_effect = {}
-	},
-	[15004009] = {
+	}
+	pg.base.skill_benefit_template[15004009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 5,
@@ -4366,8 +4793,8 @@ pg.skill_benefit_template = {
 			150100
 		},
 		world_extra_effect = {}
-	},
-	[15004010] = {
+	}
+	pg.base.skill_benefit_template[15004010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 5,
@@ -4379,8 +4806,8 @@ pg.skill_benefit_template = {
 			150100
 		},
 		world_extra_effect = {}
-	},
-	[15047001] = {
+	}
+	pg.base.skill_benefit_template[15047001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 5,
@@ -4392,8 +4819,8 @@ pg.skill_benefit_template = {
 			150475
 		},
 		world_extra_effect = {}
-	},
-	[15047002] = {
+	}
+	pg.base.skill_benefit_template[15047002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 5,
@@ -4405,8 +4832,8 @@ pg.skill_benefit_template = {
 			150475
 		},
 		world_extra_effect = {}
-	},
-	[15047003] = {
+	}
+	pg.base.skill_benefit_template[15047003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 5,
@@ -4418,8 +4845,8 @@ pg.skill_benefit_template = {
 			150475
 		},
 		world_extra_effect = {}
-	},
-	[15047004] = {
+	}
+	pg.base.skill_benefit_template[15047004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 5,
@@ -4431,8 +4858,8 @@ pg.skill_benefit_template = {
 			150475
 		},
 		world_extra_effect = {}
-	},
-	[15047005] = {
+	}
+	pg.base.skill_benefit_template[15047005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 5,
@@ -4444,8 +4871,8 @@ pg.skill_benefit_template = {
 			150475
 		},
 		world_extra_effect = {}
-	},
-	[15047006] = {
+	}
+	pg.base.skill_benefit_template[15047006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 5,
@@ -4457,8 +4884,8 @@ pg.skill_benefit_template = {
 			150475
 		},
 		world_extra_effect = {}
-	},
-	[15047007] = {
+	}
+	pg.base.skill_benefit_template[15047007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 5,
@@ -4470,8 +4897,8 @@ pg.skill_benefit_template = {
 			150475
 		},
 		world_extra_effect = {}
-	},
-	[15047008] = {
+	}
+	pg.base.skill_benefit_template[15047008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 5,
@@ -4483,8 +4910,8 @@ pg.skill_benefit_template = {
 			150475
 		},
 		world_extra_effect = {}
-	},
-	[15047009] = {
+	}
+	pg.base.skill_benefit_template[15047009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 5,
@@ -4496,8 +4923,8 @@ pg.skill_benefit_template = {
 			150475
 		},
 		world_extra_effect = {}
-	},
-	[15047010] = {
+	}
+	pg.base.skill_benefit_template[15047010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 5,
@@ -4509,8 +4936,8 @@ pg.skill_benefit_template = {
 			150475
 		},
 		world_extra_effect = {}
-	},
-	[15068001] = {
+	}
+	pg.base.skill_benefit_template[15068001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 5,
@@ -4522,8 +4949,8 @@ pg.skill_benefit_template = {
 			150700
 		},
 		world_extra_effect = {}
-	},
-	[15068002] = {
+	}
+	pg.base.skill_benefit_template[15068002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 5,
@@ -4535,8 +4962,8 @@ pg.skill_benefit_template = {
 			150700
 		},
 		world_extra_effect = {}
-	},
-	[15068003] = {
+	}
+	pg.base.skill_benefit_template[15068003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 5,
@@ -4548,8 +4975,8 @@ pg.skill_benefit_template = {
 			150700
 		},
 		world_extra_effect = {}
-	},
-	[15068004] = {
+	}
+	pg.base.skill_benefit_template[15068004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 5,
@@ -4561,8 +4988,8 @@ pg.skill_benefit_template = {
 			150700
 		},
 		world_extra_effect = {}
-	},
-	[15068005] = {
+	}
+	pg.base.skill_benefit_template[15068005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 5,
@@ -4574,8 +5001,8 @@ pg.skill_benefit_template = {
 			150700
 		},
 		world_extra_effect = {}
-	},
-	[15068006] = {
+	}
+	pg.base.skill_benefit_template[15068006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 5,
@@ -4587,8 +5014,8 @@ pg.skill_benefit_template = {
 			150700
 		},
 		world_extra_effect = {}
-	},
-	[15068007] = {
+	}
+	pg.base.skill_benefit_template[15068007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 5,
@@ -4600,8 +5027,8 @@ pg.skill_benefit_template = {
 			150700
 		},
 		world_extra_effect = {}
-	},
-	[15068008] = {
+	}
+	pg.base.skill_benefit_template[15068008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 5,
@@ -4613,8 +5040,8 @@ pg.skill_benefit_template = {
 			150700
 		},
 		world_extra_effect = {}
-	},
-	[15068009] = {
+	}
+	pg.base.skill_benefit_template[15068009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 5,
@@ -4626,8 +5053,8 @@ pg.skill_benefit_template = {
 			150700
 		},
 		world_extra_effect = {}
-	},
-	[15068010] = {
+	}
+	pg.base.skill_benefit_template[15068010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 5,
@@ -4639,8 +5066,8 @@ pg.skill_benefit_template = {
 			150700
 		},
 		world_extra_effect = {}
-	},
-	[15075001] = {
+	}
+	pg.base.skill_benefit_template[15075001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 5,
@@ -4652,8 +5079,8 @@ pg.skill_benefit_template = {
 			150780
 		},
 		world_extra_effect = {}
-	},
-	[15075002] = {
+	}
+	pg.base.skill_benefit_template[15075002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 5,
@@ -4665,8 +5092,8 @@ pg.skill_benefit_template = {
 			150780
 		},
 		world_extra_effect = {}
-	},
-	[15075003] = {
+	}
+	pg.base.skill_benefit_template[15075003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 5,
@@ -4678,8 +5105,8 @@ pg.skill_benefit_template = {
 			150780
 		},
 		world_extra_effect = {}
-	},
-	[15075004] = {
+	}
+	pg.base.skill_benefit_template[15075004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 5,
@@ -4691,8 +5118,8 @@ pg.skill_benefit_template = {
 			150780
 		},
 		world_extra_effect = {}
-	},
-	[15075005] = {
+	}
+	pg.base.skill_benefit_template[15075005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 5,
@@ -4704,8 +5131,8 @@ pg.skill_benefit_template = {
 			150780
 		},
 		world_extra_effect = {}
-	},
-	[15075006] = {
+	}
+	pg.base.skill_benefit_template[15075006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 5,
@@ -4717,8 +5144,8 @@ pg.skill_benefit_template = {
 			150780
 		},
 		world_extra_effect = {}
-	},
-	[15075007] = {
+	}
+	pg.base.skill_benefit_template[15075007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 5,
@@ -4730,8 +5157,8 @@ pg.skill_benefit_template = {
 			150780
 		},
 		world_extra_effect = {}
-	},
-	[15075008] = {
+	}
+	pg.base.skill_benefit_template[15075008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 5,
@@ -4743,8 +5170,8 @@ pg.skill_benefit_template = {
 			150780
 		},
 		world_extra_effect = {}
-	},
-	[15075009] = {
+	}
+	pg.base.skill_benefit_template[15075009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 5,
@@ -4756,8 +5183,8 @@ pg.skill_benefit_template = {
 			150780
 		},
 		world_extra_effect = {}
-	},
-	[15075010] = {
+	}
+	pg.base.skill_benefit_template[15075010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 5,
@@ -4769,8 +5196,8 @@ pg.skill_benefit_template = {
 			150780
 		},
 		world_extra_effect = {}
-	},
-	[15096001] = {
+	}
+	pg.base.skill_benefit_template[15096001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 5,
@@ -4782,8 +5209,8 @@ pg.skill_benefit_template = {
 			150967
 		},
 		world_extra_effect = {}
-	},
-	[15096002] = {
+	}
+	pg.base.skill_benefit_template[15096002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 5,
@@ -4795,8 +5222,8 @@ pg.skill_benefit_template = {
 			150967
 		},
 		world_extra_effect = {}
-	},
-	[15096003] = {
+	}
+	pg.base.skill_benefit_template[15096003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 5,
@@ -4808,8 +5235,8 @@ pg.skill_benefit_template = {
 			150967
 		},
 		world_extra_effect = {}
-	},
-	[15096004] = {
+	}
+	pg.base.skill_benefit_template[15096004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 5,
@@ -4821,8 +5248,8 @@ pg.skill_benefit_template = {
 			150967
 		},
 		world_extra_effect = {}
-	},
-	[15096005] = {
+	}
+	pg.base.skill_benefit_template[15096005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 5,
@@ -4834,8 +5261,8 @@ pg.skill_benefit_template = {
 			150967
 		},
 		world_extra_effect = {}
-	},
-	[15096006] = {
+	}
+	pg.base.skill_benefit_template[15096006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 5,
@@ -4847,8 +5274,8 @@ pg.skill_benefit_template = {
 			150967
 		},
 		world_extra_effect = {}
-	},
-	[15096007] = {
+	}
+	pg.base.skill_benefit_template[15096007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 5,
@@ -4860,8 +5287,8 @@ pg.skill_benefit_template = {
 			150967
 		},
 		world_extra_effect = {}
-	},
-	[15096008] = {
+	}
+	pg.base.skill_benefit_template[15096008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 5,
@@ -4873,8 +5300,8 @@ pg.skill_benefit_template = {
 			150967
 		},
 		world_extra_effect = {}
-	},
-	[15096009] = {
+	}
+	pg.base.skill_benefit_template[15096009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 5,
@@ -4886,8 +5313,8 @@ pg.skill_benefit_template = {
 			150967
 		},
 		world_extra_effect = {}
-	},
-	[15096010] = {
+	}
+	pg.base.skill_benefit_template[15096010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 5,
@@ -4899,8 +5326,8 @@ pg.skill_benefit_template = {
 			150967
 		},
 		world_extra_effect = {}
-	},
-	[15123001] = {
+	}
+	pg.base.skill_benefit_template[15123001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 5,
@@ -4912,8 +5339,8 @@ pg.skill_benefit_template = {
 			151300
 		},
 		world_extra_effect = {}
-	},
-	[15123002] = {
+	}
+	pg.base.skill_benefit_template[15123002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 5,
@@ -4925,8 +5352,8 @@ pg.skill_benefit_template = {
 			151300
 		},
 		world_extra_effect = {}
-	},
-	[15123003] = {
+	}
+	pg.base.skill_benefit_template[15123003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 5,
@@ -4938,8 +5365,8 @@ pg.skill_benefit_template = {
 			151300
 		},
 		world_extra_effect = {}
-	},
-	[15123004] = {
+	}
+	pg.base.skill_benefit_template[15123004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 5,
@@ -4951,8 +5378,8 @@ pg.skill_benefit_template = {
 			151300
 		},
 		world_extra_effect = {}
-	},
-	[15123005] = {
+	}
+	pg.base.skill_benefit_template[15123005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 5,
@@ -4964,8 +5391,8 @@ pg.skill_benefit_template = {
 			151300
 		},
 		world_extra_effect = {}
-	},
-	[15123006] = {
+	}
+	pg.base.skill_benefit_template[15123006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 5,
@@ -4977,8 +5404,8 @@ pg.skill_benefit_template = {
 			151300
 		},
 		world_extra_effect = {}
-	},
-	[15123007] = {
+	}
+	pg.base.skill_benefit_template[15123007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 5,
@@ -4990,8 +5417,8 @@ pg.skill_benefit_template = {
 			151300
 		},
 		world_extra_effect = {}
-	},
-	[15123008] = {
+	}
+	pg.base.skill_benefit_template[15123008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 5,
@@ -5003,8 +5430,8 @@ pg.skill_benefit_template = {
 			151300
 		},
 		world_extra_effect = {}
-	},
-	[15123009] = {
+	}
+	pg.base.skill_benefit_template[15123009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 5,
@@ -5016,8 +5443,8 @@ pg.skill_benefit_template = {
 			151300
 		},
 		world_extra_effect = {}
-	},
-	[15123010] = {
+	}
+	pg.base.skill_benefit_template[15123010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 5,
@@ -5029,8 +5456,8 @@ pg.skill_benefit_template = {
 			151300
 		},
 		world_extra_effect = {}
-	},
-	[15127001] = {
+	}
+	pg.base.skill_benefit_template[15127001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 5,
@@ -5042,8 +5469,8 @@ pg.skill_benefit_template = {
 			151310
 		},
 		world_extra_effect = {}
-	},
-	[15127002] = {
+	}
+	pg.base.skill_benefit_template[15127002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 5,
@@ -5055,8 +5482,8 @@ pg.skill_benefit_template = {
 			151310
 		},
 		world_extra_effect = {}
-	},
-	[15127003] = {
+	}
+	pg.base.skill_benefit_template[15127003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 5,
@@ -5068,8 +5495,8 @@ pg.skill_benefit_template = {
 			151310
 		},
 		world_extra_effect = {}
-	},
-	[15127004] = {
+	}
+	pg.base.skill_benefit_template[15127004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 5,
@@ -5081,8 +5508,8 @@ pg.skill_benefit_template = {
 			151310
 		},
 		world_extra_effect = {}
-	},
-	[15127005] = {
+	}
+	pg.base.skill_benefit_template[15127005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 5,
@@ -5094,8 +5521,8 @@ pg.skill_benefit_template = {
 			151310
 		},
 		world_extra_effect = {}
-	},
-	[15127006] = {
+	}
+	pg.base.skill_benefit_template[15127006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 5,
@@ -5107,8 +5534,8 @@ pg.skill_benefit_template = {
 			151310
 		},
 		world_extra_effect = {}
-	},
-	[15127007] = {
+	}
+	pg.base.skill_benefit_template[15127007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 5,
@@ -5120,8 +5547,8 @@ pg.skill_benefit_template = {
 			151310
 		},
 		world_extra_effect = {}
-	},
-	[15127008] = {
+	}
+	pg.base.skill_benefit_template[15127008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 5,
@@ -5133,8 +5560,8 @@ pg.skill_benefit_template = {
 			151310
 		},
 		world_extra_effect = {}
-	},
-	[15127009] = {
+	}
+	pg.base.skill_benefit_template[15127009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 5,
@@ -5146,8 +5573,8 @@ pg.skill_benefit_template = {
 			151310
 		},
 		world_extra_effect = {}
-	},
-	[15127010] = {
+	}
+	pg.base.skill_benefit_template[15127010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 5,
@@ -5159,8 +5586,8 @@ pg.skill_benefit_template = {
 			151310
 		},
 		world_extra_effect = {}
-	},
-	[15146001] = {
+	}
+	pg.base.skill_benefit_template[15146001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 5,
@@ -5172,8 +5599,8 @@ pg.skill_benefit_template = {
 			151470
 		},
 		world_extra_effect = {}
-	},
-	[15146002] = {
+	}
+	pg.base.skill_benefit_template[15146002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 5,
@@ -5185,8 +5612,8 @@ pg.skill_benefit_template = {
 			151470
 		},
 		world_extra_effect = {}
-	},
-	[15146003] = {
+	}
+	pg.base.skill_benefit_template[15146003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 5,
@@ -5198,8 +5625,8 @@ pg.skill_benefit_template = {
 			151470
 		},
 		world_extra_effect = {}
-	},
-	[15146004] = {
+	}
+	pg.base.skill_benefit_template[15146004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 5,
@@ -5211,8 +5638,8 @@ pg.skill_benefit_template = {
 			151470
 		},
 		world_extra_effect = {}
-	},
-	[15146005] = {
+	}
+	pg.base.skill_benefit_template[15146005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 5,
@@ -5224,8 +5651,8 @@ pg.skill_benefit_template = {
 			151470
 		},
 		world_extra_effect = {}
-	},
-	[15146006] = {
+	}
+	pg.base.skill_benefit_template[15146006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 5,
@@ -5237,8 +5664,8 @@ pg.skill_benefit_template = {
 			151470
 		},
 		world_extra_effect = {}
-	},
-	[15146007] = {
+	}
+	pg.base.skill_benefit_template[15146007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 5,
@@ -5250,8 +5677,8 @@ pg.skill_benefit_template = {
 			151470
 		},
 		world_extra_effect = {}
-	},
-	[15146008] = {
+	}
+	pg.base.skill_benefit_template[15146008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 5,
@@ -5263,8 +5690,8 @@ pg.skill_benefit_template = {
 			151470
 		},
 		world_extra_effect = {}
-	},
-	[15146009] = {
+	}
+	pg.base.skill_benefit_template[15146009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 5,
@@ -5276,8 +5703,8 @@ pg.skill_benefit_template = {
 			151470
 		},
 		world_extra_effect = {}
-	},
-	[15146010] = {
+	}
+	pg.base.skill_benefit_template[15146010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 5,
@@ -5289,8 +5716,8 @@ pg.skill_benefit_template = {
 			151470
 		},
 		world_extra_effect = {}
-	},
-	[15159001] = {
+	}
+	pg.base.skill_benefit_template[15159001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 5,
@@ -5302,8 +5729,8 @@ pg.skill_benefit_template = {
 			151600
 		},
 		world_extra_effect = {}
-	},
-	[15159002] = {
+	}
+	pg.base.skill_benefit_template[15159002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 5,
@@ -5315,8 +5742,8 @@ pg.skill_benefit_template = {
 			151600
 		},
 		world_extra_effect = {}
-	},
-	[15159003] = {
+	}
+	pg.base.skill_benefit_template[15159003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 5,
@@ -5328,8 +5755,8 @@ pg.skill_benefit_template = {
 			151600
 		},
 		world_extra_effect = {}
-	},
-	[15159004] = {
+	}
+	pg.base.skill_benefit_template[15159004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 5,
@@ -5341,8 +5768,8 @@ pg.skill_benefit_template = {
 			151600
 		},
 		world_extra_effect = {}
-	},
-	[15159005] = {
+	}
+	pg.base.skill_benefit_template[15159005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 5,
@@ -5354,8 +5781,8 @@ pg.skill_benefit_template = {
 			151600
 		},
 		world_extra_effect = {}
-	},
-	[15159006] = {
+	}
+	pg.base.skill_benefit_template[15159006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 5,
@@ -5367,8 +5794,8 @@ pg.skill_benefit_template = {
 			151600
 		},
 		world_extra_effect = {}
-	},
-	[15159007] = {
+	}
+	pg.base.skill_benefit_template[15159007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 5,
@@ -5380,8 +5807,8 @@ pg.skill_benefit_template = {
 			151600
 		},
 		world_extra_effect = {}
-	},
-	[15159008] = {
+	}
+	pg.base.skill_benefit_template[15159008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 5,
@@ -5393,8 +5820,8 @@ pg.skill_benefit_template = {
 			151600
 		},
 		world_extra_effect = {}
-	},
-	[15159009] = {
+	}
+	pg.base.skill_benefit_template[15159009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 5,
@@ -5406,8 +5833,8 @@ pg.skill_benefit_template = {
 			151600
 		},
 		world_extra_effect = {}
-	},
-	[15159010] = {
+	}
+	pg.base.skill_benefit_template[15159010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 5,
@@ -5419,8 +5846,8 @@ pg.skill_benefit_template = {
 			151600
 		},
 		world_extra_effect = {}
-	},
-	[15193001] = {
+	}
+	pg.base.skill_benefit_template[15193001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 5,
@@ -5432,8 +5859,8 @@ pg.skill_benefit_template = {
 			151925
 		},
 		world_extra_effect = {}
-	},
-	[15193002] = {
+	}
+	pg.base.skill_benefit_template[15193002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 5,
@@ -5445,8 +5872,8 @@ pg.skill_benefit_template = {
 			151925
 		},
 		world_extra_effect = {}
-	},
-	[15193003] = {
+	}
+	pg.base.skill_benefit_template[15193003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 5,
@@ -5458,8 +5885,8 @@ pg.skill_benefit_template = {
 			151925
 		},
 		world_extra_effect = {}
-	},
-	[15193004] = {
+	}
+	pg.base.skill_benefit_template[15193004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 5,
@@ -5471,8 +5898,8 @@ pg.skill_benefit_template = {
 			151925
 		},
 		world_extra_effect = {}
-	},
-	[15193005] = {
+	}
+	pg.base.skill_benefit_template[15193005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 5,
@@ -5484,8 +5911,8 @@ pg.skill_benefit_template = {
 			151925
 		},
 		world_extra_effect = {}
-	},
-	[15193006] = {
+	}
+	pg.base.skill_benefit_template[15193006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 5,
@@ -5497,8 +5924,8 @@ pg.skill_benefit_template = {
 			151925
 		},
 		world_extra_effect = {}
-	},
-	[15193007] = {
+	}
+	pg.base.skill_benefit_template[15193007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 5,
@@ -5510,8 +5937,10 @@ pg.skill_benefit_template = {
 			151925
 		},
 		world_extra_effect = {}
-	},
-	[15193008] = {
+	}
+end)()
+(function ()
+	pg.base.skill_benefit_template[15193008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 5,
@@ -5523,8 +5952,8 @@ pg.skill_benefit_template = {
 			151925
 		},
 		world_extra_effect = {}
-	},
-	[15193009] = {
+	}
+	pg.base.skill_benefit_template[15193009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 5,
@@ -5536,8 +5965,8 @@ pg.skill_benefit_template = {
 			151925
 		},
 		world_extra_effect = {}
-	},
-	[15193010] = {
+	}
+	pg.base.skill_benefit_template[15193010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 5,
@@ -5549,8 +5978,8 @@ pg.skill_benefit_template = {
 			151925
 		},
 		world_extra_effect = {}
-	},
-	[15216001] = {
+	}
+	pg.base.skill_benefit_template[15216001] = {
 		lv = 1,
 		skill_group_level = 0,
 		type = 5,
@@ -5562,8 +5991,8 @@ pg.skill_benefit_template = {
 			152165
 		},
 		world_extra_effect = {}
-	},
-	[15216002] = {
+	}
+	pg.base.skill_benefit_template[15216002] = {
 		lv = 2,
 		skill_group_level = 0,
 		type = 5,
@@ -5575,8 +6004,8 @@ pg.skill_benefit_template = {
 			152165
 		},
 		world_extra_effect = {}
-	},
-	[15216003] = {
+	}
+	pg.base.skill_benefit_template[15216003] = {
 		lv = 3,
 		skill_group_level = 0,
 		type = 5,
@@ -5588,8 +6017,8 @@ pg.skill_benefit_template = {
 			152165
 		},
 		world_extra_effect = {}
-	},
-	[15216004] = {
+	}
+	pg.base.skill_benefit_template[15216004] = {
 		lv = 4,
 		skill_group_level = 0,
 		type = 5,
@@ -5601,8 +6030,8 @@ pg.skill_benefit_template = {
 			152165
 		},
 		world_extra_effect = {}
-	},
-	[15216005] = {
+	}
+	pg.base.skill_benefit_template[15216005] = {
 		lv = 5,
 		skill_group_level = 0,
 		type = 5,
@@ -5614,8 +6043,8 @@ pg.skill_benefit_template = {
 			152165
 		},
 		world_extra_effect = {}
-	},
-	[15216006] = {
+	}
+	pg.base.skill_benefit_template[15216006] = {
 		lv = 6,
 		skill_group_level = 0,
 		type = 5,
@@ -5627,8 +6056,8 @@ pg.skill_benefit_template = {
 			152165
 		},
 		world_extra_effect = {}
-	},
-	[15216007] = {
+	}
+	pg.base.skill_benefit_template[15216007] = {
 		lv = 7,
 		skill_group_level = 0,
 		type = 5,
@@ -5640,8 +6069,8 @@ pg.skill_benefit_template = {
 			152165
 		},
 		world_extra_effect = {}
-	},
-	[15216008] = {
+	}
+	pg.base.skill_benefit_template[15216008] = {
 		lv = 8,
 		skill_group_level = 0,
 		type = 5,
@@ -5653,8 +6082,8 @@ pg.skill_benefit_template = {
 			152165
 		},
 		world_extra_effect = {}
-	},
-	[15216009] = {
+	}
+	pg.base.skill_benefit_template[15216009] = {
 		lv = 9,
 		skill_group_level = 0,
 		type = 5,
@@ -5666,8 +6095,8 @@ pg.skill_benefit_template = {
 			152165
 		},
 		world_extra_effect = {}
-	},
-	[15216010] = {
+	}
+	pg.base.skill_benefit_template[15216010] = {
 		lv = 10,
 		skill_group_level = 0,
 		type = 5,
@@ -5679,420 +6108,5 @@ pg.skill_benefit_template = {
 			152165
 		},
 		world_extra_effect = {}
-	},
-	all = {
-		363101,
-		363102,
-		363103,
-		363104,
-		363105,
-		363106,
-		363107,
-		363108,
-		363109,
-		363110,
-		416101,
-		416102,
-		416103,
-		416104,
-		416105,
-		416106,
-		416107,
-		416108,
-		416109,
-		416110,
-		641101,
-		6045001,
-		1017001,
-		1017002,
-		1017003,
-		1017004,
-		1017005,
-		1017006,
-		1017007,
-		1017008,
-		1017009,
-		1017010,
-		1023001,
-		1023002,
-		1023003,
-		1023004,
-		1023005,
-		1023006,
-		1023007,
-		1023008,
-		1023009,
-		1023010,
-		1059001,
-		1059002,
-		1059003,
-		1059004,
-		1059005,
-		1059006,
-		1059007,
-		1059008,
-		1059009,
-		1059010,
-		1146001,
-		1146002,
-		1146003,
-		1146004,
-		1146005,
-		1146006,
-		1146007,
-		1146008,
-		1146009,
-		1146010,
-		1317001,
-		1317002,
-		1317003,
-		1317004,
-		1317005,
-		1317006,
-		1317007,
-		1317008,
-		1317009,
-		1317010,
-		1343001,
-		1343002,
-		1343003,
-		1343004,
-		1343005,
-		1343006,
-		1343007,
-		1343008,
-		1343009,
-		1343010,
-		1359001,
-		1359002,
-		1359003,
-		1359004,
-		1359005,
-		1359006,
-		1359007,
-		1359008,
-		1359009,
-		1359010,
-		1397001,
-		1397002,
-		1397003,
-		1397004,
-		1397005,
-		1397006,
-		1397007,
-		1397008,
-		1397009,
-		1397010,
-		1452001,
-		1452002,
-		1452003,
-		1452004,
-		1452005,
-		1452006,
-		1452007,
-		1452008,
-		1452009,
-		1452010,
-		1463001,
-		1463002,
-		1463003,
-		1463004,
-		1463005,
-		1463006,
-		1463007,
-		1463008,
-		1463009,
-		1463010,
-		1487001,
-		1487002,
-		1487003,
-		1487004,
-		1487005,
-		1487006,
-		1487007,
-		1487008,
-		1487009,
-		1487010,
-		1507001,
-		1507002,
-		1507003,
-		1507004,
-		1507005,
-		1507006,
-		1507007,
-		1507008,
-		1507009,
-		1507010,
-		1531001,
-		1531002,
-		1531003,
-		1531004,
-		1531005,
-		1531006,
-		1531007,
-		1531008,
-		1531009,
-		1531010,
-		1568001,
-		1568002,
-		1568003,
-		1568004,
-		1568005,
-		1568006,
-		1568007,
-		1568008,
-		1568009,
-		1568010,
-		1605001,
-		1605002,
-		1605003,
-		1605004,
-		1605005,
-		1605006,
-		1605007,
-		1605008,
-		1605009,
-		1605010,
-		1622001,
-		1622002,
-		1622003,
-		1622004,
-		1622005,
-		1622006,
-		1622007,
-		1622008,
-		1622009,
-		1622010,
-		1645001,
-		1645002,
-		1645003,
-		1645004,
-		1645005,
-		1645006,
-		1645007,
-		1645008,
-		1645009,
-		1645010,
-		1677001,
-		1677002,
-		1677003,
-		1677004,
-		1677005,
-		1677006,
-		1677007,
-		1677008,
-		1677009,
-		1677010,
-		1703001,
-		1703002,
-		1703003,
-		1703004,
-		1703005,
-		1703006,
-		1703007,
-		1703008,
-		1703009,
-		1703010,
-		1735001,
-		1735002,
-		1735003,
-		1735004,
-		1735005,
-		1735006,
-		1735007,
-		1735008,
-		1735009,
-		1735010,
-		1761001,
-		1761002,
-		1761003,
-		1761004,
-		1761005,
-		1761006,
-		1761007,
-		1761008,
-		1761009,
-		1761010,
-		1951001,
-		1951002,
-		1951003,
-		1951004,
-		1951005,
-		1951006,
-		1951007,
-		1951008,
-		1951009,
-		1951010,
-		6012001,
-		80018001,
-		80018002,
-		80018003,
-		80018004,
-		80018005,
-		80018006,
-		80018007,
-		80018008,
-		80018009,
-		80018010,
-		1651001,
-		1651002,
-		1651003,
-		1651004,
-		1651005,
-		1651006,
-		1651007,
-		1651008,
-		1651009,
-		1651010,
-		1652001,
-		1652002,
-		1652003,
-		1652004,
-		1652005,
-		1652006,
-		1652007,
-		1652008,
-		1652009,
-		1652010,
-		1742001,
-		1742002,
-		1742003,
-		1742004,
-		1742005,
-		1742006,
-		1742007,
-		1742008,
-		1742009,
-		1742010,
-		80079001,
-		80079002,
-		80079003,
-		80079004,
-		80079005,
-		80079006,
-		80079007,
-		80079008,
-		80079009,
-		80079010,
-		15002001,
-		15002002,
-		15002003,
-		15002004,
-		15002005,
-		15002006,
-		15002007,
-		15002008,
-		15002009,
-		15002010,
-		15004001,
-		15004002,
-		15004003,
-		15004004,
-		15004005,
-		15004006,
-		15004007,
-		15004008,
-		15004009,
-		15004010,
-		15047001,
-		15047002,
-		15047003,
-		15047004,
-		15047005,
-		15047006,
-		15047007,
-		15047008,
-		15047009,
-		15047010,
-		15068001,
-		15068002,
-		15068003,
-		15068004,
-		15068005,
-		15068006,
-		15068007,
-		15068008,
-		15068009,
-		15068010,
-		15075001,
-		15075002,
-		15075003,
-		15075004,
-		15075005,
-		15075006,
-		15075007,
-		15075008,
-		15075009,
-		15075010,
-		15096001,
-		15096002,
-		15096003,
-		15096004,
-		15096005,
-		15096006,
-		15096007,
-		15096008,
-		15096009,
-		15096010,
-		15123001,
-		15123002,
-		15123003,
-		15123004,
-		15123005,
-		15123006,
-		15123007,
-		15123008,
-		15123009,
-		15123010,
-		15127001,
-		15127002,
-		15127003,
-		15127004,
-		15127005,
-		15127006,
-		15127007,
-		15127008,
-		15127009,
-		15127010,
-		15146001,
-		15146002,
-		15146003,
-		15146004,
-		15146005,
-		15146006,
-		15146007,
-		15146008,
-		15146009,
-		15146010,
-		15159001,
-		15159002,
-		15159003,
-		15159004,
-		15159005,
-		15159006,
-		15159007,
-		15159008,
-		15159009,
-		15159010,
-		15193001,
-		15193002,
-		15193003,
-		15193004,
-		15193005,
-		15193006,
-		15193007,
-		15193008,
-		15193009,
-		15193010,
-		15216001,
-		15216002,
-		15216003,
-		15216004,
-		15216005,
-		15216006,
-		15216007,
-		15216008,
-		15216009,
-		15216010
 	}
-}
+end)()

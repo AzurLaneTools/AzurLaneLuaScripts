@@ -564,7 +564,7 @@ slot0.GetAllShowGiftPackages = function(slot0, slot1)
 		end
 	end
 
-	slot6 = pairs
+	slot6 = ipairs
 	slot7 = pg.shop_template.get_id_list_by_genre[ShopArgs.GiftPackage] or {}
 
 	for slot9, slot10 in slot6(slot7) do
@@ -577,7 +577,7 @@ slot0.GetAllShowGiftPackages = function(slot0, slot1)
 		end
 	end
 
-	slot6 = pairs
+	slot6 = ipairs
 	slot7 = pg.shop_template.get_id_list_by_genre[ShopArgs.GiftActPackage] or {}
 
 	for slot9, slot10 in slot6(slot7) do

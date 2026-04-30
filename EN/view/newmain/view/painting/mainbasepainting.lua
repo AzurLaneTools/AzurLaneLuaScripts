@@ -45,7 +45,17 @@ slot0.Load = function(slot0, slot1)
 	slot0.state = uv0
 	slot0.ship = slot1
 	slot0.paintingName = slot1:getPainting()
+	slot2 = getProxy(PlayerProxy)
+	slot0._loginAction = slot2:getFlag("login")
+	slot2 = getProxy(PlayerProxy)
+	slot0._battleAction = slot2:getFlag("battle")
+	slot2 = getProxy(PlayerProxy)
 
+	slot2:setFlag("login", false)
+
+	slot2 = getProxy(PlayerProxy)
+
+	slot2:setFlag("battle", false)
 	slot0:OnLoad(function ()
 		uv0.state = uv1
 
@@ -184,11 +194,13 @@ slot0.OnFirstTimeTriggerEvent = function(slot0)
 		uv0:PrepareTriggerAction(slot0)
 	end
 
-	if getProxy(PlayerProxy):getFlag("login") then
-		getProxy(PlayerProxy):setFlag("login", nil)
+	if slot0._loginAction then
+		slot0._loginAction = false
+
 		slot1("event_login")
-	elseif getProxy(PlayerProxy):getFlag("battle") then
-		getProxy(PlayerProxy):setFlag("battle", nil)
+	elseif slot0._battleAction then
+		slot0._battleAction = false
+
 		slot1("home")
 	else
 		slot0:TriggerNextEventAuto()

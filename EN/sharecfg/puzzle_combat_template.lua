@@ -1,6 +1,19 @@
 pg = pg or {}
-pg.puzzle_combat_template = {
-	[100] = {
+pg.puzzle_combat_template = rawget(pg, "puzzle_combat_template") or setmetatable({
+	__name = "puzzle_combat_template"
+}, confNEO)
+pg.puzzle_combat_template.all = {
+	100,
+	103,
+	104,
+	105,
+	106
+}
+pg.base = pg.base or {}
+pg.base.puzzle_combat_template = {}
+
+(function ()
+	pg.base.puzzle_combat_template[100] = {
 		description = "Learn about Simulation Battles and how to use Command cards.",
 		name = "Tutorial",
 		init_move = 15,
@@ -16,8 +29,8 @@ pg.puzzle_combat_template = {
 			999990
 		},
 		relic = {}
-	},
-	[103] = {
+	}
+	pg.base.puzzle_combat_template[103] = {
 		description = "Your Movement Orders recover more slowly. Exercise care in avoiding the enemy's attacks as you eliminate them.",
 		name = "Maneuver Training",
 		init_move = 15,
@@ -36,8 +49,8 @@ pg.puzzle_combat_template = {
 			999989
 		},
 		relic = {}
-	},
-	[104] = {
+	}
+	pg.base.puzzle_combat_template[104] = {
 		description = "Stay afloat for 60s to win. Look out for the incoming Bombing Ships!",
 		name = "Reckless Charge",
 		init_move = 15,
@@ -57,8 +70,8 @@ pg.puzzle_combat_template = {
 			999991
 		},
 		relic = {}
-	},
-	[105] = {
+	}
+	pg.base.puzzle_combat_template[105] = {
 		description = "The enemy occasionally enters a counter formation for 10s. \nCounter formation: All damage the enemy takes will be reduced to 0, and they automatically retaliate if your ships attack them.",
 		name = "Marksman's Strike",
 		init_move = 15,
@@ -76,8 +89,8 @@ pg.puzzle_combat_template = {
 			999978
 		},
 		relic = {}
-	},
-	[106] = {
+	}
+	pg.base.puzzle_combat_template[106] = {
 		description = "Special devices appear on the battlefield that switch states when attacked a few times. They self-destruct after 10s and provide buffs to all units on the field based on what state they were last in.",
 		name = "Enemy Assault",
 		init_move = 15,
@@ -95,12 +108,5 @@ pg.puzzle_combat_template = {
 			999990
 		},
 		relic = {}
-	},
-	all = {
-		100,
-		103,
-		104,
-		105,
-		106
 	}
-}
+end)()

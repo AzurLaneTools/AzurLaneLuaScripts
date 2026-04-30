@@ -1,6 +1,42 @@
 pg = pg or {}
-pg.world_collection_file_group = {
-	[110] = {
+pg.world_collection_file_group = rawget(pg, "world_collection_file_group") or setmetatable({
+	__name = "world_collection_file_group"
+}, confNEO)
+pg.world_collection_file_group.all = {
+	110,
+	210,
+	310,
+	320,
+	330,
+	410,
+	510,
+	610,
+	710,
+	810,
+	910,
+	1010,
+	1110,
+	1130,
+	1150,
+	1160,
+	1310,
+	1320,
+	1330,
+	1410,
+	1420,
+	1430,
+	1440,
+	1460,
+	1500,
+	1510,
+	1800,
+	1900
+}
+pg.base = pg.base or {}
+pg.base.world_collection_file_group = {}
+
+(function ()
+	pg.base.world_collection_file_group[110] = {
 		id_2 = "011",
 		name = "Aerolith Incident",
 		name_abbreviate = "1",
@@ -14,8 +50,8 @@ pg.world_collection_file_group = {
 			1105,
 			1106
 		}
-	},
-	[210] = {
+	}
+	pg.base.world_collection_file_group[210] = {
 		id_2 = "021",
 		name = "Energy Revolution",
 		name_abbreviate = "2",
@@ -29,8 +65,8 @@ pg.world_collection_file_group = {
 			2105,
 			2106
 		}
-	},
-	[310] = {
+	}
+	pg.base.world_collection_file_group[310] = {
 		id_2 = "031",
 		name = "Tech & Life",
 		name_abbreviate = "3",
@@ -44,8 +80,8 @@ pg.world_collection_file_group = {
 			3105,
 			3106
 		}
-	},
-	[320] = {
+	}
+	pg.base.world_collection_file_group[320] = {
 		id_2 = "032",
 		name = "New Lifestyle",
 		name_abbreviate = "4",
@@ -59,8 +95,8 @@ pg.world_collection_file_group = {
 			3205,
 			3206
 		}
-	},
-	[330] = {
+	}
+	pg.base.world_collection_file_group[330] = {
 		id_2 = "033",
 		name = "Cube Militarization",
 		name_abbreviate = "5",
@@ -74,8 +110,8 @@ pg.world_collection_file_group = {
 			3305,
 			3306
 		}
-	},
-	[410] = {
+	}
+	pg.base.world_collection_file_group[410] = {
 		id_2 = "041",
 		name = "Cube Militarization II",
 		name_abbreviate = "6",
@@ -89,8 +125,8 @@ pg.world_collection_file_group = {
 			4105,
 			4106
 		}
-	},
-	[510] = {
+	}
+	pg.base.world_collection_file_group[510] = {
 		id_2 = "051",
 		name = "Project Dusk",
 		name_abbreviate = "7",
@@ -104,8 +140,8 @@ pg.world_collection_file_group = {
 			5105,
 			5106
 		}
-	},
-	[610] = {
+	}
+	pg.base.world_collection_file_group[610] = {
 		id_2 = "061",
 		name = "Mysterious",
 		name_abbreviate = "8",
@@ -119,8 +155,8 @@ pg.world_collection_file_group = {
 			6105,
 			6106
 		}
-	},
-	[710] = {
+	}
+	pg.base.world_collection_file_group[710] = {
 		id_2 = "071",
 		name = "Mysterious",
 		name_abbreviate = "9",
@@ -134,8 +170,8 @@ pg.world_collection_file_group = {
 			7105,
 			7106
 		}
-	},
-	[810] = {
+	}
+	pg.base.world_collection_file_group[810] = {
 		id_2 = "081",
 		name = "Global Affairs",
 		name_abbreviate = "10",
@@ -149,8 +185,8 @@ pg.world_collection_file_group = {
 			8105,
 			8106
 		}
-	},
-	[910] = {
+	}
+	pg.base.world_collection_file_group[910] = {
 		id_2 = "091",
 		name = "Mysterious",
 		name_abbreviate = "11",
@@ -164,8 +200,8 @@ pg.world_collection_file_group = {
 			9105,
 			9106
 		}
-	},
-	[1010] = {
+	}
+	pg.base.world_collection_file_group[1010] = {
 		id_2 = "101",
 		name = "Global Affairs II",
 		name_abbreviate = "12",
@@ -179,8 +215,8 @@ pg.world_collection_file_group = {
 			10105,
 			10106
 		}
-	},
-	[1110] = {
+	}
+	pg.base.world_collection_file_group[1110] = {
 		id_2 = "111",
 		name = "College Life",
 		name_abbreviate = "15",
@@ -196,8 +232,8 @@ pg.world_collection_file_group = {
 			11107,
 			11108
 		}
-	},
-	[1130] = {
+	}
+	pg.base.world_collection_file_group[1130] = {
 		id_2 = "113",
 		name = "Creator and Magister",
 		name_abbreviate = "21",
@@ -211,8 +247,8 @@ pg.world_collection_file_group = {
 			11305,
 			11306
 		}
-	},
-	[1150] = {
+	}
+	pg.base.world_collection_file_group[1150] = {
 		id_2 = "115",
 		name = "Present and Future",
 		name_abbreviate = "16",
@@ -226,8 +262,8 @@ pg.world_collection_file_group = {
 			11505,
 			11506
 		}
-	},
-	[1160] = {
+	}
+	pg.base.world_collection_file_group[1160] = {
 		id_2 = "116",
 		name = "Technological Competition",
 		name_abbreviate = "24",
@@ -244,8 +280,8 @@ pg.world_collection_file_group = {
 			11608,
 			11609
 		}
-	},
-	[1310] = {
+	}
+	pg.base.world_collection_file_group[1310] = {
 		id_2 = "131",
 		name = "Breaking News I",
 		name_abbreviate = "17",
@@ -259,8 +295,8 @@ pg.world_collection_file_group = {
 			13105,
 			13106
 		}
-	},
-	[1320] = {
+	}
+	pg.base.world_collection_file_group[1320] = {
 		id_2 = "132",
 		name = "Breaking News II",
 		name_abbreviate = "18",
@@ -274,8 +310,8 @@ pg.world_collection_file_group = {
 			13205,
 			13206
 		}
-	},
-	[1330] = {
+	}
+	pg.base.world_collection_file_group[1330] = {
 		id_2 = "133",
 		name = "Global Crisis",
 		name_abbreviate = "22",
@@ -289,8 +325,8 @@ pg.world_collection_file_group = {
 			13305,
 			13306
 		}
-	},
-	[1410] = {
+	}
+	pg.base.world_collection_file_group[1410] = {
 		id_2 = "141",
 		name = "Richard Files I",
 		name_abbreviate = "13",
@@ -304,8 +340,8 @@ pg.world_collection_file_group = {
 			14105,
 			14106
 		}
-	},
-	[1420] = {
+	}
+	pg.base.world_collection_file_group[1420] = {
 		id_2 = "142",
 		name = "Richard Files II",
 		name_abbreviate = "14",
@@ -319,8 +355,8 @@ pg.world_collection_file_group = {
 			14205,
 			14206
 		}
-	},
-	[1430] = {
+	}
+	pg.base.world_collection_file_group[1430] = {
 		id_2 = "143",
 		name = "Richard Files III",
 		name_abbreviate = "19",
@@ -334,8 +370,8 @@ pg.world_collection_file_group = {
 			14305,
 			14306
 		}
-	},
-	[1440] = {
+	}
+	pg.base.world_collection_file_group[1440] = {
 		id_2 = "144",
 		name = "Richard Files IV",
 		name_abbreviate = "20",
@@ -354,8 +390,8 @@ pg.world_collection_file_group = {
 			14410,
 			14411
 		}
-	},
-	[1460] = {
+	}
+	pg.base.world_collection_file_group[1460] = {
 		id_2 = "146",
 		name = "Richard Archives I",
 		name_abbreviate = "23",
@@ -372,8 +408,8 @@ pg.world_collection_file_group = {
 			14608,
 			14609
 		}
-	},
-	[1500] = {
+	}
+	pg.base.world_collection_file_group[1500] = {
 		id_2 = "150",
 		name = "KAN-SEN Decomissioning",
 		name_abbreviate = "25",
@@ -382,8 +418,8 @@ pg.world_collection_file_group = {
 		child = {
 			15004
 		}
-	},
-	[1510] = {
+	}
+	pg.base.world_collection_file_group[1510] = {
 		id_2 = "151",
 		name = "Deepening Crisis",
 		name_abbreviate = "26",
@@ -393,8 +429,8 @@ pg.world_collection_file_group = {
 			15105,
 			15106
 		}
-	},
-	[1800] = {
+	}
+	pg.base.world_collection_file_group[1800] = {
 		id_2 = "180",
 		name = "Second Standoff",
 		name_abbreviate = "27",
@@ -403,8 +439,8 @@ pg.world_collection_file_group = {
 		child = {
 			18001
 		}
-	},
-	[1900] = {
+	}
+	pg.base.world_collection_file_group[1900] = {
 		id_2 = "190",
 		name = "Superimposed Future I",
 		name_abbreviate = "28",
@@ -418,35 +454,5 @@ pg.world_collection_file_group = {
 			19005,
 			19006
 		}
-	},
-	all = {
-		110,
-		210,
-		310,
-		320,
-		330,
-		410,
-		510,
-		610,
-		710,
-		810,
-		910,
-		1010,
-		1110,
-		1130,
-		1150,
-		1160,
-		1310,
-		1320,
-		1330,
-		1410,
-		1420,
-		1430,
-		1440,
-		1460,
-		1500,
-		1510,
-		1800,
-		1900
 	}
-}
+end)()

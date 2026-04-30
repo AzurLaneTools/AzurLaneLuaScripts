@@ -144,15 +144,43 @@ slot0.UpdateView = function(slot0)
 		end
 	end
 
-	slot4 = getProxy(TaskProxy):getTaskById(slot0.currentMedalGroup:getConfig("activity_link")[1][3][1])
-
 	if slot0.trophyLock then
-		slot0.trophyLock:GetComponent(typeof(Image)).enabled = slot4 ~= nil
+		slot0.trophyLock:GetComponent(typeof(Image)).enabled = not slot0:OwnTrophy()
 	end
 
-	slot0.medalLock:GetComponent(typeof(Image)).enabled = slot4 ~= nil
+	slot0.medalLock:GetComponent(typeof(Image)).enabled = not slot0:OwnMedal()
 
 	setActive(slot0.taskBtn, slot0.currentMedalGroup:GetMedalGroupState() == ActivityMedalGroup.STATE_ACTIVE)
+end
+
+slot0.OwnTrophy = function(slot0)
+	slot2 = -1
+
+	if slot0.currentMedalGroup:getConfig("task_show") and type(slot1) == "table" then
+		slot2 = slot1[1]
+	end
+
+	if slot2 <= 0 then
+		return false
+	end
+
+	return Task.OwnSpAward(pg.task_data_template[slot2].award_display[1])
+end
+
+slot0.OwnMedal = function(slot0)
+	slot2 = -1
+
+	if slot0.currentMedalGroup:getConfig("task_show") and type(slot1) == "table" then
+		slot2 = slot1[2]
+	end
+
+	if slot2 <= 0 then
+		return true
+	end
+
+	slot3 = pg.task_data_template[slot2].award_display
+
+	return Task.OwnSpAward(slot3[#slot3])
 end
 
 slot0.FlushTaskPanel = function(slot0)

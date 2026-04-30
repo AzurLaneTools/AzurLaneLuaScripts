@@ -16,31 +16,16 @@ return {
 		}, slot1)
 	end,
 	GetMatchSpEquipmentListKeyByShip = function (slot0)
-		slot2 = {}
-
-		for slot6, slot7 in ipairs(uv0.GetMatchShipGroupListKey(slot0)) do
-			if pg.spweapon_data_statistics.get_id_list_by_unique[slot7] ~= nil then
-				slot2 = table.insertto(slot2, slot8)
-			end
-		end
-
-		return slot2
-	end,
-	GetMatchShipGroupListKey = function (slot0)
-		if slot0 == "" then
-			return {}
-		end
-
 		slot1 = {}
 
-		for slot5, slot6 in pairs(pg.ship_data_statistics.all) do
-			if uv0.IsMatchKey({
-				pg.ship_data_statistics[slot6].name
-			}, slot0) and not table.contains(slot1, math.floor(slot6 / 10)) then
-				table.insert(slot1, slot8)
+		for slot5, slot6 in pairs(pg.spweapon_data_statistics.get_id_list_by_unique) do
+			for slot10, slot11 in ipairs(pg.ship_data_template.get_id_list_by_group_type[slot5]) do
+				if string.find(string.lower(pg.ship_data_statistics[slot11].name), slot0) then
+					slot1 = table.insertto(slot1, slot6)
+
+					break
+				end
 			end
 		end
-
-		return slot1
 	end
 }

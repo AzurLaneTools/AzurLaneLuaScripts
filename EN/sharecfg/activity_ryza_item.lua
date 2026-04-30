@@ -1,6 +1,107 @@
 pg = pg or {}
-pg.activity_ryza_item = {
-	{
+pg.activity_ryza_item = rawget(pg, "activity_ryza_item") or setmetatable({
+	__name = "activity_ryza_item"
+}, confNEO)
+pg.activity_ryza_item.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	39,
+	40,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	47,
+	48,
+	49,
+	50,
+	51,
+	52,
+	53,
+	54,
+	55,
+	56,
+	57,
+	58,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	110,
+	111,
+	112,
+	116,
+	117,
+	118,
+	119,
+	120,
+	121,
+	122,
+	126,
+	127,
+	128,
+	129,
+	130,
+	131,
+	132,
+	133,
+	134,
+	135,
+	136,
+	137,
+	138,
+	139,
+	140,
+	141
+}
+pg.base = pg.base or {}
+pg.base.activity_ryza_item = {}
+
+(function ()
+	pg.base.activity_ryza_item[1] = {
 		icon = "ryza_item_1",
 		display = "An improved Fishing Rod. Fish will no longer flee from it, and some will even be more attracted to it than usual.",
 		prop_type = 0,
@@ -23,8 +124,8 @@ pg.activity_ryza_item = {
 			"Obtained through: Synthesis",
 			recipeid = 4
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[2] = {
 		icon = "ryza_item_2",
 		display = "A stronger version of the Bomb Rod. The jewel at the tip is blue now, and it can destroy rocks and crystals more easily.",
 		prop_type = 0,
@@ -46,8 +147,8 @@ pg.activity_ryza_item = {
 			"Obtained through: Synthesis",
 			recipeid = 3
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[3] = {
 		icon = "ryza_item_3",
 		display = "An improved tool for splitting firewood and cutting down trees for lumber. It's been modified for better balance and sharpness, making gathering easier than ever.",
 		prop_type = 0,
@@ -70,8 +171,8 @@ pg.activity_ryza_item = {
 			"Obtained through: Synthesis",
 			recipeid = 2
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[4] = {
 		icon = "ryza_item_4",
 		display = "An improved tool for gathering grass and flowers. It's been modified to make gathering easier, and reaps everything as quietly and lightly as the wind.",
 		prop_type = 0,
@@ -94,8 +195,8 @@ pg.activity_ryza_item = {
 			"Obtained through: Synthesis",
 			recipeid = 1
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[5] = {
 		icon = "ryza_item_5",
 		display = "A mechanical arm made by the Sirens. It has a crushing grip strength and an extremely powerful mining laser. It might be useful for gathering alchemy materials.",
 		prop_type = 0,
@@ -120,8 +221,8 @@ pg.activity_ryza_item = {
 			"Obtained through: Synthesis",
 			recipeid = 5
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[6] = {
 		icon = "ryza_item_6",
 		display = "A shellfish commonly found near beaches. Roast it over an open flame and dig in for a delicious meal.",
 		prop_type = 0,
@@ -166,8 +267,8 @@ pg.activity_ryza_item = {
 			0.85,
 			0.85
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[7] = {
 		icon = "ryza_item_7",
 		display = "A freshwater fish found in rivers and lakes. It is a common sight on the dinner table.",
 		prop_type = 0,
@@ -212,8 +313,8 @@ pg.activity_ryza_item = {
 			2.3,
 			-1
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[8] = {
 		icon = "ryza_item_8",
 		display = "The lord of all fish that live in lakes.",
 		prop_type = 0,
@@ -263,8 +364,8 @@ pg.activity_ryza_item = {
 			0,
 			-1.5
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[9] = {
 		icon = "ryza_item_9",
 		display = "A collection of transparent stone fragments. It includes a variety of materials, including rare and expensive jewels.",
 		prop_type = 0,
@@ -308,8 +409,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[10] = {
 		icon = "ryza_item_10",
 		display = "Sand that can be collected by pulverizing rocks. It smells like a volatile gas and burns up when lit.",
 		prop_type = 0,
@@ -354,8 +455,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[11] = {
 		icon = "ryza_item_11",
 		display = "Crushed lava ore in a powdered form. Even as a powder, it's still magma and may suddenly combust if left unattended. It will be a disaster if you let it get scattered by the wind.",
 		prop_type = 0,
@@ -400,8 +501,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[12] = {
 		icon = "ryza_item_12",
 		display = "A common weed that grows absolutely everywhere. It has no distinct features, which is why it doesn't have a proper name. At the same time, it's also a staple ingredient in a large number of alchemy recipes.",
 		prop_type = 0,
@@ -440,8 +541,8 @@ pg.activity_ryza_item = {
 			2,
 			-1.5
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[13] = {
 		icon = "ryza_item_13",
 		display = "A plant with leaves that resemble a bird's wings. They are very light and are easily carried around by the wind.",
 		prop_type = 0,
@@ -486,8 +587,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[14] = {
 		icon = "ryza_item_14",
 		display = "This type of Taun is distinct from regular Tauns due to its reddish-black coloration, which comes from the fact that it only grows in soil rich in iron. It is very flammable, even when it hasn't been dried.",
 		prop_type = 0,
@@ -537,8 +638,8 @@ pg.activity_ryza_item = {
 			0,
 			0.46
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[15] = {
 		icon = "ryza_item_15",
 		display = "A seemingly normal ore that hides the power of lightning. It's most often found at high areas where thunderstorms are common. Some believe the ore was transformed after being struck by lightning.",
 		prop_type = 0,
@@ -577,8 +678,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[16] = {
 		icon = "ryza_item_16",
 		display = "A fragment of a gigantic meteor. They always come in pairs, and are connected no matter how far they are from each other. Some say you can use them to teleport... maybe.",
 		prop_type = 0,
@@ -628,8 +729,8 @@ pg.activity_ryza_item = {
 			-1.15,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[17] = {
 		icon = "ryza_item_17",
 		display = "A rainbow-colored ore that glows from within. Despite its appearance, it's actually one of the hardest known ores. In fact, it's nearly impossible to process using conventional means.",
 		prop_type = 0,
@@ -674,8 +775,8 @@ pg.activity_ryza_item = {
 			-0.5,
 			3
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[18] = {
 		icon = "ryza_item_18",
 		display = "A strange crystal ore collected from the Central Foundation. It's durable, contains energy from all elements, and might serve as a good alchemy material.",
 		prop_type = 0,
@@ -738,8 +839,8 @@ pg.activity_ryza_item = {
 			3.97,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[19] = {
 		icon = "ryza_item_19",
 		display = "An armor plate salvaged from a wreck in the Central Foundation. Its hard, splendid white surface appears to have been tempered using all elements. It may be useful as a potent alchemy material.",
 		prop_type = 0,
@@ -802,8 +903,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[20] = {
 		icon = "ryza_item_20",
 		display = "A core that powered the guardian of the ancient ruins. Even after being taken out of the guardian, it continues releasing energy, seemingly never running out.",
 		prop_type = 0,
@@ -866,8 +967,8 @@ pg.activity_ryza_item = {
 			-0.74,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[21] = {
 		icon = "ryza_item_21",
 		display = "A small bottle containing elemental power. It has an affinity with all elements, which is useful but also makes it difficult to work with.",
 		prop_type = 0,
@@ -898,8 +999,8 @@ pg.activity_ryza_item = {
 			-1.5,
 			1
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[22] = {
 		icon = "ryza_item_22",
 		display = "A common alchemic compound. A red liquid with fire affinity.",
 		prop_type = 0,
@@ -927,8 +1028,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[23] = {
 		icon = "ryza_item_23",
 		display = "A common alchemic compound. A blue liquid with ice affinity.",
 		prop_type = 0,
@@ -956,8 +1057,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[24] = {
 		icon = "ryza_item_25",
 		display = "A common alchemic compound. A yellow liquid with lightning affinity.",
 		prop_type = 0,
@@ -985,8 +1086,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[25] = {
 		icon = "ryza_item_24",
 		display = "A common alchemic compound. A green liquid with wind affinity.",
 		prop_type = 0,
@@ -1014,8 +1115,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[26] = {
 		icon = "ryza_item_26",
 		display = "An advanced material created from the four Elemental Cores. Since it has high affinity with all elements, it's extremely useful in alchemy.",
 		prop_type = 0,
@@ -1046,8 +1147,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[27] = {
 		icon = "ryza_item_27",
 		display = "A key that's symbolic of the Underworld Grove. Its handle is embellished with a light-pink topaz, evoking the image of a once lush forest when holding it.",
 		prop_type = 0,
@@ -1069,8 +1170,8 @@ pg.activity_ryza_item = {
 			"Obtained through: Request completion rewards",
 			taskid = 56202
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[28] = {
 		icon = "ryza_item_28",
 		display = "A key that's symbolic of the Land of Beginnings. Its handle is embellished with a flawless diamond that's as etermally pure as the hearts of those who seek out adventure.",
 		prop_type = 0,
@@ -1092,8 +1193,8 @@ pg.activity_ryza_item = {
 			"Obtained through: Request completion rewards",
 			taskid = 56201
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[29] = {
 		icon = "ryza_item_29",
 		display = "A key that's symbolic of the Desolate Capital. Its handle is embellished with a turquoise emerald, reminding you that the true reward of an adventure is not gold and silver, but rather the journey itself.",
 		prop_type = 0,
@@ -1115,8 +1216,8 @@ pg.activity_ryza_item = {
 			"Obtained through: Request completion rewards",
 			taskid = 56204
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[30] = {
 		icon = "ryza_item_30",
 		display = "A key that's symbolic of the Castle of Strife. Its handle is embellished with a dazzling ruby, making you wonder if the long-buried brutal truth has forever been lost to the sands of time.",
 		prop_type = 0,
@@ -1138,8 +1239,8 @@ pg.activity_ryza_item = {
 			"Obtained through: Request completion rewards",
 			taskid = 56203
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[31] = {
 		icon = "ryza_item_31",
 		display = "An item resembling a keycard, made from combining the other four keys. It should slot into the device by the barrier's door at the Central Foundation.",
 		prop_type = 0,
@@ -1164,8 +1265,8 @@ pg.activity_ryza_item = {
 			"Obtained through: Synthesis",
 			recipeid = 190
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[32] = {
 		icon = "ryza_item_32",
 		display = "Obtained by gathering 10,000 Crystal Clusters. This item is required to make the Ruins Explorer Sculpture.",
 		prop_type = 0,
@@ -1188,8 +1289,8 @@ pg.activity_ryza_item = {
 			"Obtained through: Request completion rewards",
 			taskid = 56217
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[33] = {
 		icon = "ryza_item_33",
 		display = "Obtained by playing Operation Hot Spring for seven days. This item is required to make the Ruins Explorer Sculpture.",
 		prop_type = 0,
@@ -1212,8 +1313,8 @@ pg.activity_ryza_item = {
 			"Obtained through: Request completion rewards",
 			taskid = 56228
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[34] = {
 		icon = "300001",
 		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: increases the FP, AVI, and TRP of your ships.",
 		prop_type = 0,
@@ -1242,8 +1343,8 @@ pg.activity_ryza_item = {
 			300002,
 			300003
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[35] = {
 		icon = "300011",
 		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: reduces the DMG taken by your ships.",
 		prop_type = 0,
@@ -1272,8 +1373,8 @@ pg.activity_ryza_item = {
 			300012,
 			300013
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[36] = {
 		icon = "300021",
 		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: in combat, your ships slowly restore HP over time.",
 		prop_type = 0,
@@ -1302,8 +1403,8 @@ pg.activity_ryza_item = {
 			300022,
 			300023
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[37] = {
 		icon = "300031",
 		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: once per battle, when one of your ship's HP falls beneath 20.0%, she will regain a portion of her HP.",
 		prop_type = 0,
@@ -1332,8 +1433,8 @@ pg.activity_ryza_item = {
 			300032,
 			300033
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[38] = {
 		icon = "300041",
 		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: your fleets will receive supporting barrages during combat that Burn enemies hit.",
 		prop_type = 0,
@@ -1362,8 +1463,8 @@ pg.activity_ryza_item = {
 			300042,
 			300043
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[39] = {
 		icon = "300051",
 		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: your fleets will receive supporting barrages during combat that will temporarily increase the DMG taken by enemies hit.",
 		prop_type = 0,
@@ -1392,8 +1493,8 @@ pg.activity_ryza_item = {
 			300052,
 			300053
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[40] = {
 		icon = "300061",
 		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: your fleets will receive additional EXP from sorties.",
 		prop_type = 0,
@@ -1422,8 +1523,8 @@ pg.activity_ryza_item = {
 			300062,
 			300063
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[41] = {
 		icon = "300071",
 		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: your fleets will gain additional Affinity from sorties.",
 		prop_type = 0,
@@ -1450,8 +1551,8 @@ pg.activity_ryza_item = {
 		benefit_buff = {
 			300071
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[42] = {
 		icon = "ryza_item_42",
 		display = "A core component of Augment Module - Sparkling Reverie. Can be used in synthesis.",
 		prop_type = 0,
@@ -1480,8 +1581,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[43] = {
 		icon = "ryza_item_43",
 		display = "A core component of Augment Module - Astrumnox. Can be used in synthesis.",
 		prop_type = 0,
@@ -1510,8 +1611,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[44] = {
 		icon = "ryza_item_44",
 		display = "A core component of Augment Module - Grand Floracion. Can be used in synthesis.",
 		prop_type = 0,
@@ -1540,8 +1641,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[45] = {
 		icon = "ryza_item_45",
 		display = "A core component of Augment Module - Edel Schwert. Can be used in synthesis.",
 		prop_type = 0,
@@ -1570,8 +1671,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[46] = {
 		icon = "ryza_item_46",
 		display = "A core component of Augment Module - Elder Lily. Can be used in synthesis.",
 		prop_type = 0,
@@ -1600,8 +1701,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[47] = {
 		icon = "ryza_item_47",
 		display = "A core component of Augment Module - Oren Herald. Can be used in synthesis.",
 		prop_type = 0,
@@ -1630,8 +1731,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[48] = {
 		icon = "ryza_item_48",
 		display = "A core component of Auxiliary Gear - Grand Bomb. Can be used in synthesis.",
 		prop_type = 0,
@@ -1659,8 +1760,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[49] = {
 		icon = "ryza_item_49",
 		display = "A core component of Auxiliary Gear - Crystal Ice Bomb. Can be used in synthesis.",
 		prop_type = 0,
@@ -1688,8 +1789,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[50] = {
 		icon = "ryza_item_50",
 		display = "A core component of Auxiliary Gear - Laute Plajig. Can be used in synthesis.",
 		prop_type = 0,
@@ -1717,8 +1818,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[51] = {
 		icon = "ryza_item_51",
 		display = "A core component of Auxiliary Gear - Wirbel Luft. Can be used in synthesis.",
 		prop_type = 0,
@@ -1746,8 +1847,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[52] = {
 		icon = "ryza_item_52",
 		display = "A core component of Auxiliary Gear - Genesis Hammer. Can be used in synthesis.",
 		prop_type = 0,
@@ -1776,8 +1877,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[53] = {
 		icon = "ryza_item_53",
 		display = "A core component of Auxiliary Gear - Bubble Bullet. Can be used in synthesis.",
 		prop_type = 0,
@@ -1806,8 +1907,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[54] = {
 		icon = "ryza_item_54",
 		display = "A core component of Auxiliary Gear - N/A. Can be used in synthesis.",
 		prop_type = 0,
@@ -1836,8 +1937,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[55] = {
 		icon = "ryza_item_55",
 		display = "A core component of Auxiliary Gear - Apocalypse. Can be used in synthesis.",
 		prop_type = 0,
@@ -1868,8 +1969,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[56] = {
 		icon = "ryza_item_56",
 		display = "A core component of Auxiliary Gear - Mystic Robe. Can be used in synthesis.",
 		prop_type = 0,
@@ -1898,8 +1999,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[57] = {
 		icon = "ryza_item_57",
 		display = "A core component of Auxiliary Gear - Elixir. Can be used in synthesis.",
 		prop_type = 0,
@@ -1928,8 +2029,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[58] = {
 		icon = "ryza_item_58",
 		display = "A core component of Auxiliary Gear - Energianica. Can be used in synthesis.",
 		prop_type = 0,
@@ -1958,8 +2059,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	[101] = {
+	}
+	pg.base.activity_ryza_item[101] = {
 		icon = "yumia_item_1",
 		display = "A mushroom that contains crystallized spores in its cap. Inedible, of course. Its crystals are processed into jewelry.",
 		prop_type = 1,
@@ -1987,8 +2088,8 @@ pg.activity_ryza_item = {
 				"youmiya"
 			}
 		}
-	},
-	[102] = {
+	}
+	pg.base.activity_ryza_item[102] = {
 		icon = "yumia_item_2",
 		display = "A bug that looks like it's carrying a mushroom on its back. The mushroom is actually part of the bug, so forget eating it.",
 		prop_type = 1,
@@ -2016,8 +2117,8 @@ pg.activity_ryza_item = {
 				"youmiya"
 			}
 		}
-	},
-	[103] = {
+	}
+	pg.base.activity_ryza_item[103] = {
 		icon = "yumia_item_3",
 		display = "The spiky fruit of a plant. Often used as a throwing weapon. Its flesh is also quite tasty if you crack it open.",
 		prop_type = 2,
@@ -2057,8 +2158,8 @@ pg.activity_ryza_item = {
 			0.85,
 			0.85
 		}
-	},
-	[104] = {
+	}
+	pg.base.activity_ryza_item[104] = {
 		icon = "yumia_item_4",
 		display = "A type of Uni which has largely crystallized. The non-crystallized parts can be consumed, but they don't taste very good.",
 		prop_type = 2,
@@ -2098,8 +2199,8 @@ pg.activity_ryza_item = {
 			2.3,
 			-1
 		}
-	},
-	[105] = {
+	}
+	pg.base.activity_ryza_item[105] = {
 		icon = "yumia_item_5",
 		display = "Noxious gas collected from the emissions of rotting wood. The fumes are very toxic and can immobilize a person for days if inhaled.",
 		prop_type = 3,
@@ -2139,8 +2240,8 @@ pg.activity_ryza_item = {
 			0,
 			-1.5
 		}
-	},
-	[106] = {
+	}
+	pg.base.activity_ryza_item[106] = {
 		icon = "yumia_item_6",
 		display = "A fluffy, glittering bubble composed of incredibly tiny particles of metal. They're so small that it might be more accurate to call this a gas rather than a metal.",
 		prop_type = 3,
@@ -2174,8 +2275,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	[107] = {
+	}
+	pg.base.activity_ryza_item[107] = {
 		icon = "yumia_item_7",
 		display = "Ore that converts ambient heat into cool air. It's great for keeping materials fresh.",
 		prop_type = 4,
@@ -2215,8 +2316,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	[108] = {
+	}
+	pg.base.activity_ryza_item[108] = {
 		icon = "yumia_item_8",
 		display = "A type of hibiscus that blooms around mining areas. As a material, it gets used as both a plant and as a metal.",
 		prop_type = 4,
@@ -2256,8 +2357,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	[109] = {
+	}
+	pg.base.activity_ryza_item[109] = {
 		icon = "yumia_item_9",
 		display = "It possesses sharp spines able to easily penetrate anything that touches its exterior. Despite being named after mossy balls of algae, this seaweed is actually a relative of Uni.",
 		prop_type = 5,
@@ -2291,8 +2392,8 @@ pg.activity_ryza_item = {
 			2,
 			-1.5
 		}
-	},
-	[110] = {
+	}
+	pg.base.activity_ryza_item[110] = {
 		icon = "yumia_item_10",
 		display = "A fish with toxic spines. It extends them to protect itself when threatened.",
 		prop_type = 5,
@@ -2332,8 +2433,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	[111] = {
+	}
+	pg.base.activity_ryza_item[111] = {
 		icon = "yumia_item_11",
 		display = "A crystal ore that grows around the Skynexus Tower. It possesses physical energy.",
 		prop_type = 6,
@@ -2376,8 +2477,8 @@ pg.activity_ryza_item = {
 			0,
 			0.46
 		}
-	},
-	[112] = {
+	}
+	pg.base.activity_ryza_item[112] = {
 		icon = "yumia_item_12",
 		display = "A core of condensed Skynexus Tower energy. It possesses immense energy.",
 		prop_type = 6,
@@ -2414,8 +2515,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	[116] = {
+	}
+	pg.base.activity_ryza_item[116] = {
 		icon = "yumia_item_13",
 		display = "A core component of the Augment Module Ephemeral Record. Can be used in the Atelier as a key material when synthesizing Ephemeral Record.",
 		prop_type = 0,
@@ -2475,8 +2576,8 @@ pg.activity_ryza_item = {
 			-1.15,
 			0
 		}
-	},
-	[117] = {
+	}
+	pg.base.activity_ryza_item[117] = {
 		icon = "yumia_item_14",
 		display = "A core component of the Augment Module Secret Triaina. Can be used in the Atelier as a key material when synthesizing Secret Triaina.",
 		prop_type = 0,
@@ -2536,8 +2637,8 @@ pg.activity_ryza_item = {
 			-0.5,
 			3
 		}
-	},
-	[118] = {
+	}
+	pg.base.activity_ryza_item[118] = {
 		icon = "yumia_item_15",
 		display = "A core component of the Augment Module Huntress. Can be used in the Atelier as a key material when synthesizing Huntress.",
 		prop_type = 0,
@@ -2597,8 +2698,8 @@ pg.activity_ryza_item = {
 			3.97,
 			0
 		}
-	},
-	[119] = {
+	}
+	pg.base.activity_ryza_item[119] = {
 		icon = "yumia_item_16",
 		display = "A core component of the Augment Module Hellion Mantis. Can be used in the Atelier as a key material when synthesizing Hellion Mantis.",
 		prop_type = 0,
@@ -2632,8 +2733,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[120] = {
+	}
+	pg.base.activity_ryza_item[120] = {
 		icon = "yumia_item_17",
 		display = "A core component of the Auxiliary Gear Endemeteo. Can be used in the Atelier as a key material when synthesizing Endemeteo.",
 		prop_type = 0,
@@ -2668,8 +2769,8 @@ pg.activity_ryza_item = {
 			-0.74,
 			0
 		}
-	},
-	[121] = {
+	}
+	pg.base.activity_ryza_item[121] = {
 		icon = "yumia_item_18",
 		display = "A core component of the Auxiliary Gear Superior Grimoire. Can be used in the Atelier as a key material when synthesizing Superior Grimoire.",
 		prop_type = 0,
@@ -2703,8 +2804,8 @@ pg.activity_ryza_item = {
 			-1.5,
 			1
 		}
-	},
-	[122] = {
+	}
+	pg.base.activity_ryza_item[122] = {
 		icon = "yumia_item_19",
 		display = "A core component of the Auxiliary Gear Granshine. Can be used in the Atelier as a key material when synthesizing Granshine.",
 		prop_type = 0,
@@ -2741,8 +2842,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	[126] = {
+	}
+	pg.base.activity_ryza_item[126] = {
 		icon = "yumia_item_20",
 		display = "A core component of the Auxiliary Gear Panacea Sphere. Can be used in the Atelier as a key material when synthesizing Panacea Sphere.",
 		prop_type = 0,
@@ -2776,8 +2877,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[127] = {
+	}
+	pg.base.activity_ryza_item[127] = {
 		icon = "yumia_item_21",
 		display = "A core component of the Auxiliary Gear Heavenly Armillary. Can be used in the Atelier as a key material when synthesizing Heavenly Armillary.",
 		prop_type = 0,
@@ -2811,8 +2912,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[128] = {
+	}
+	pg.base.activity_ryza_item[128] = {
 		icon = "yumia_item_22",
 		display = "A core component of the Auxiliary Gear Enfer Cube. Can be used in the Atelier as a key material when synthesizing Enfer Cube.",
 		prop_type = 0,
@@ -2846,8 +2947,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[129] = {
+	}
+	pg.base.activity_ryza_item[129] = {
 		icon = "yumia_item_23",
 		display = "A basic alchemical solution. Red Neutralizer has an affinity to fire.",
 		prop_type = 7,
@@ -2881,8 +2982,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[130] = {
+	}
+	pg.base.activity_ryza_item[130] = {
 		icon = "yumia_item_24",
 		display = "A basic alchemical solution. Blue Neutralizer has an affinity to ice.",
 		prop_type = 7,
@@ -2916,8 +3017,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[131] = {
+	}
+	pg.base.activity_ryza_item[131] = {
 		icon = "yumia_item_25",
 		display = "A basic alchemical solution. Yellow Neutralizer has an affinity to bolt.",
 		prop_type = 7,
@@ -2951,8 +3052,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[132] = {
+	}
+	pg.base.activity_ryza_item[132] = {
 		icon = "yumia_item_26",
 		display = "A basic alchemical solution. Green Neutralizer has an affinity to air.",
 		prop_type = 7,
@@ -2986,8 +3087,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[133] = {
+	}
+	pg.base.activity_ryza_item[133] = {
 		icon = "yumia_item_27",
 		display = "Neutralizers are fundamental chemicals frequently used in alchemy. This is one was refined to be all-purpose and usable with any and all potential materials.",
 		prop_type = 7,
@@ -3024,8 +3125,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[134] = {
+	}
+	pg.base.activity_ryza_item[134] = {
 		icon = "yumia_item_28",
 		display = "Specialized equipment for tuning the Skynexus Tower's energy. Equipment level 1.",
 		prop_type = 0,
@@ -3057,8 +3158,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[135] = {
+	}
+	pg.base.activity_ryza_item[135] = {
 		icon = "yumia_item_29",
 		display = "Specialized equipment for tuning the Skynexus Tower's energy. Equipment level 2.",
 		prop_type = 0,
@@ -3090,8 +3191,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[136] = {
+	}
+	pg.base.activity_ryza_item[136] = {
 		icon = "yumia_item_30",
 		display = "Specialized equipment for tuning the Skynexus Tower's energy. Equipment level 3.",
 		prop_type = 0,
@@ -3123,8 +3224,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[137] = {
+	}
+	pg.base.activity_ryza_item[137] = {
 		icon = "yumia_item_31",
 		display = "Specialized equipment for tuning the Skynexus Tower's energy. Equipment level 4.",
 		prop_type = 0,
@@ -3156,8 +3257,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[138] = {
+	}
+	pg.base.activity_ryza_item[138] = {
 		icon = "65653",
 		display = "A general material used for base-building. Can be used to install wooden objects.",
 		prop_type = 0,
@@ -3174,8 +3275,8 @@ pg.activity_ryza_item = {
 		name = "Wood Construction Materials",
 		normal_circle = "",
 		prop = {}
-	},
-	[139] = {
+	}
+	pg.base.activity_ryza_item[139] = {
 		icon = "65654",
 		display = "A general material used for base-building. Can be used to install stone objects.",
 		prop_type = 0,
@@ -3192,8 +3293,8 @@ pg.activity_ryza_item = {
 		name = "Stone Construction Materials",
 		normal_circle = "",
 		prop = {}
-	},
-	[140] = {
+	}
+	pg.base.activity_ryza_item[140] = {
 		icon = "65655",
 		display = "A general material used for base-building. Can be used to install metal objects.",
 		prop_type = 0,
@@ -3210,8 +3311,8 @@ pg.activity_ryza_item = {
 		name = "Metal Construction Materials",
 		normal_circle = "",
 		prop = {}
-	},
-	[141] = {
+	}
+	pg.base.activity_ryza_item[141] = {
 		icon = "65656",
 		display = "A general material used for base-building. Can be used to install plant objects.",
 		prop_type = 0,
@@ -3228,100 +3329,5 @@ pg.activity_ryza_item = {
 		name = "Plants Construction Materials",
 		normal_circle = "",
 		prop = {}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		39,
-		40,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46,
-		47,
-		48,
-		49,
-		50,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56,
-		57,
-		58,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		110,
-		111,
-		112,
-		116,
-		117,
-		118,
-		119,
-		120,
-		121,
-		122,
-		126,
-		127,
-		128,
-		129,
-		130,
-		131,
-		132,
-		133,
-		134,
-		135,
-		136,
-		137,
-		138,
-		139,
-		140,
-		141
 	}
-}
+end)()

@@ -1,6 +1,196 @@
 pg = pg or {}
-pg.world_goods_data = {
-	[10101] = {
+pg.world_goods_data = rawget(pg, "world_goods_data") or setmetatable({
+	__name = "world_goods_data"
+}, confNEO)
+pg.world_goods_data.all = {
+	10101,
+	10102,
+	10201,
+	10301,
+	10103,
+	10202,
+	10203,
+	10302,
+	10303,
+	10401,
+	10402,
+	10501,
+	10304,
+	10403,
+	10502,
+	10503,
+	11101,
+	11201,
+	11301,
+	20101,
+	20102,
+	20201,
+	20202,
+	20103,
+	20104,
+	20203,
+	20204,
+	20301,
+	20302,
+	20501,
+	20105,
+	20106,
+	20205,
+	20206,
+	20303,
+	20304,
+	20401,
+	20502,
+	20107,
+	20108,
+	20207,
+	20208,
+	20305,
+	20306,
+	20402,
+	20403,
+	20503,
+	30101,
+	30102,
+	30201,
+	30103,
+	30202,
+	30203,
+	30204,
+	30205,
+	30301,
+	30206,
+	30302,
+	30303,
+	40101,
+	40102,
+	40201,
+	40202,
+	40301,
+	40203,
+	40204,
+	40302,
+	40303,
+	40401,
+	40304,
+	40305,
+	40402,
+	40403,
+	40501,
+	40404,
+	40405,
+	40502,
+	40503,
+	40601,
+	50101,
+	50102,
+	50103,
+	50104,
+	50105,
+	50106,
+	50107,
+	50108,
+	60101,
+	60102,
+	60201,
+	60202,
+	60301,
+	60302,
+	60103,
+	60104,
+	60203,
+	60204,
+	60303,
+	60304,
+	60105,
+	60401,
+	60205,
+	60501,
+	60305,
+	60601,
+	60106,
+	60402,
+	60206,
+	60502,
+	60306,
+	60602,
+	70101,
+	70102,
+	70103,
+	70104,
+	70105,
+	70106,
+	70107,
+	70108,
+	70109,
+	70110,
+	70111,
+	70112,
+	80101,
+	80102,
+	80201,
+	80103,
+	80202,
+	80104,
+	80203,
+	80204,
+	90101,
+	90201,
+	90102,
+	90202,
+	90301,
+	90103,
+	90104,
+	90203,
+	90204,
+	90302,
+	90105,
+	90106,
+	90205,
+	90206,
+	90303,
+	100101,
+	100102,
+	100201,
+	100202,
+	100301,
+	100302,
+	100401,
+	100402,
+	200101,
+	200102,
+	200201,
+	200202,
+	200301,
+	200302,
+	210101,
+	210102,
+	210201,
+	210202,
+	210301,
+	210302,
+	210401,
+	210402,
+	220101,
+	220102,
+	220201,
+	220202,
+	220301,
+	220302,
+	230101,
+	230102,
+	230103,
+	230104,
+	230105,
+	230106,
+	230107,
+	230108
+}
+pg.base = pg.base or {}
+pg.base.world_goods_data = {}
+
+(function ()
+	pg.base.world_goods_data[10101] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -10,8 +200,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 1000,
 		price_type = 12
-	},
-	[10102] = {
+	}
+	pg.base.world_goods_data[10102] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -21,8 +211,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 1000,
 		price_type = 12
-	},
-	[10201] = {
+	}
+	pg.base.world_goods_data[10201] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -32,8 +222,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 3000,
 		price_type = 12
-	},
-	[10301] = {
+	}
+	pg.base.world_goods_data[10301] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -43,8 +233,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 9000,
 		price_type = 12
-	},
-	[10103] = {
+	}
+	pg.base.world_goods_data[10103] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -54,8 +244,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 1000,
 		price_type = 12
-	},
-	[10202] = {
+	}
+	pg.base.world_goods_data[10202] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -65,8 +255,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 3000,
 		price_type = 12
-	},
-	[10203] = {
+	}
+	pg.base.world_goods_data[10203] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -76,8 +266,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 3000,
 		price_type = 12
-	},
-	[10302] = {
+	}
+	pg.base.world_goods_data[10302] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -87,8 +277,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 9000,
 		price_type = 12
-	},
-	[10303] = {
+	}
+	pg.base.world_goods_data[10303] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -98,8 +288,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 9000,
 		price_type = 12
-	},
-	[10401] = {
+	}
+	pg.base.world_goods_data[10401] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -109,8 +299,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 15000,
 		price_type = 12
-	},
-	[10402] = {
+	}
+	pg.base.world_goods_data[10402] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -120,8 +310,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 15000,
 		price_type = 12
-	},
-	[10501] = {
+	}
+	pg.base.world_goods_data[10501] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -131,8 +321,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 30000,
 		price_type = 12
-	},
-	[10304] = {
+	}
+	pg.base.world_goods_data[10304] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -142,8 +332,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 9000,
 		price_type = 12
-	},
-	[10403] = {
+	}
+	pg.base.world_goods_data[10403] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -153,8 +343,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 15000,
 		price_type = 12
-	},
-	[10502] = {
+	}
+	pg.base.world_goods_data[10502] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -164,8 +354,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 30000,
 		price_type = 12
-	},
-	[10503] = {
+	}
+	pg.base.world_goods_data[10503] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -175,8 +365,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 30000,
 		price_type = 12
-	},
-	[11101] = {
+	}
+	pg.base.world_goods_data[11101] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -186,8 +376,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 36000,
 		price_type = 12
-	},
-	[11201] = {
+	}
+	pg.base.world_goods_data[11201] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -197,8 +387,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 60000,
 		price_type = 12
-	},
-	[11301] = {
+	}
+	pg.base.world_goods_data[11301] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -208,8 +398,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 100000,
 		price_type = 12
-	},
-	[20101] = {
+	}
+	pg.base.world_goods_data[20101] = {
 		item_type = 12,
 		priority = 4,
 		price_id = 101,
@@ -219,8 +409,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 2,
 		price_type = 12
-	},
-	[20102] = {
+	}
+	pg.base.world_goods_data[20102] = {
 		item_type = 12,
 		priority = 4,
 		price_id = 101,
@@ -230,8 +420,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 2,
 		price_type = 12
-	},
-	[20201] = {
+	}
+	pg.base.world_goods_data[20201] = {
 		item_type = 12,
 		priority = 4,
 		price_id = 101,
@@ -241,8 +431,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 10,
 		price_type = 12
-	},
-	[20202] = {
+	}
+	pg.base.world_goods_data[20202] = {
 		item_type = 12,
 		priority = 4,
 		price_id = 101,
@@ -252,8 +442,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 10,
 		price_type = 12
-	},
-	[20103] = {
+	}
+	pg.base.world_goods_data[20103] = {
 		item_type = 12,
 		priority = 4,
 		price_id = 101,
@@ -263,8 +453,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 2,
 		price_type = 12
-	},
-	[20104] = {
+	}
+	pg.base.world_goods_data[20104] = {
 		item_type = 12,
 		priority = 4,
 		price_id = 101,
@@ -274,8 +464,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 5,
 		price_type = 12
-	},
-	[20203] = {
+	}
+	pg.base.world_goods_data[20203] = {
 		item_type = 12,
 		priority = 4,
 		price_id = 101,
@@ -285,8 +475,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 10,
 		price_type = 12
-	},
-	[20204] = {
+	}
+	pg.base.world_goods_data[20204] = {
 		item_type = 12,
 		priority = 4,
 		price_id = 101,
@@ -296,8 +486,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 25,
 		price_type = 12
-	},
-	[20301] = {
+	}
+	pg.base.world_goods_data[20301] = {
 		item_type = 12,
 		priority = 4,
 		price_id = 101,
@@ -307,8 +497,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 100,
 		price_type = 12
-	},
-	[20302] = {
+	}
+	pg.base.world_goods_data[20302] = {
 		item_type = 12,
 		priority = 4,
 		price_id = 101,
@@ -318,8 +508,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 100,
 		price_type = 12
-	},
-	[20501] = {
+	}
+	pg.base.world_goods_data[20501] = {
 		item_type = 2,
 		priority = 4,
 		price_id = 101,
@@ -329,8 +519,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 300,
 		price_type = 12
-	},
-	[20105] = {
+	}
+	pg.base.world_goods_data[20105] = {
 		item_type = 12,
 		priority = 4,
 		price_id = 101,
@@ -340,8 +530,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 5,
 		price_type = 12
-	},
-	[20106] = {
+	}
+	pg.base.world_goods_data[20106] = {
 		item_type = 12,
 		priority = 4,
 		price_id = 101,
@@ -351,8 +541,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 5,
 		price_type = 12
-	},
-	[20205] = {
+	}
+	pg.base.world_goods_data[20205] = {
 		item_type = 12,
 		priority = 4,
 		price_id = 101,
@@ -362,8 +552,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 25,
 		price_type = 12
-	},
-	[20206] = {
+	}
+	pg.base.world_goods_data[20206] = {
 		item_type = 12,
 		priority = 4,
 		price_id = 101,
@@ -373,8 +563,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 25,
 		price_type = 12
-	},
-	[20303] = {
+	}
+	pg.base.world_goods_data[20303] = {
 		item_type = 12,
 		priority = 4,
 		price_id = 101,
@@ -384,8 +574,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 100,
 		price_type = 12
-	},
-	[20304] = {
+	}
+	pg.base.world_goods_data[20304] = {
 		item_type = 12,
 		priority = 4,
 		price_id = 101,
@@ -395,8 +585,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 200,
 		price_type = 12
-	},
-	[20401] = {
+	}
+	pg.base.world_goods_data[20401] = {
 		item_type = 2,
 		priority = 4,
 		price_id = 101,
@@ -406,8 +596,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 250,
 		price_type = 12
-	},
-	[20502] = {
+	}
+	pg.base.world_goods_data[20502] = {
 		item_type = 2,
 		priority = 4,
 		price_id = 101,
@@ -417,8 +607,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 300,
 		price_type = 12
-	},
-	[20107] = {
+	}
+	pg.base.world_goods_data[20107] = {
 		item_type = 12,
 		priority = 4,
 		price_id = 101,
@@ -428,8 +618,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 10,
 		price_type = 12
-	},
-	[20108] = {
+	}
+	pg.base.world_goods_data[20108] = {
 		item_type = 12,
 		priority = 4,
 		price_id = 101,
@@ -439,8 +629,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 10,
 		price_type = 12
-	},
-	[20207] = {
+	}
+	pg.base.world_goods_data[20207] = {
 		item_type = 12,
 		priority = 4,
 		price_id = 101,
@@ -450,8 +640,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 50,
 		price_type = 12
-	},
-	[20208] = {
+	}
+	pg.base.world_goods_data[20208] = {
 		item_type = 12,
 		priority = 4,
 		price_id = 101,
@@ -461,8 +651,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 50,
 		price_type = 12
-	},
-	[20305] = {
+	}
+	pg.base.world_goods_data[20305] = {
 		item_type = 12,
 		priority = 4,
 		price_id = 101,
@@ -472,8 +662,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 200,
 		price_type = 12
-	},
-	[20306] = {
+	}
+	pg.base.world_goods_data[20306] = {
 		item_type = 12,
 		priority = 4,
 		price_id = 101,
@@ -483,8 +673,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 200,
 		price_type = 12
-	},
-	[20402] = {
+	}
+	pg.base.world_goods_data[20402] = {
 		item_type = 2,
 		priority = 4,
 		price_id = 101,
@@ -494,8 +684,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 250,
 		price_type = 12
-	},
-	[20403] = {
+	}
+	pg.base.world_goods_data[20403] = {
 		item_type = 2,
 		priority = 4,
 		price_id = 101,
@@ -505,8 +695,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 250,
 		price_type = 12
-	},
-	[20503] = {
+	}
+	pg.base.world_goods_data[20503] = {
 		item_type = 2,
 		priority = 4,
 		price_id = 101,
@@ -516,8 +706,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 300,
 		price_type = 12
-	},
-	[30101] = {
+	}
+	pg.base.world_goods_data[30101] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -527,8 +717,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 1000,
 		price_type = 12
-	},
-	[30102] = {
+	}
+	pg.base.world_goods_data[30102] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -538,8 +728,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 2000,
 		price_type = 12
-	},
-	[30201] = {
+	}
+	pg.base.world_goods_data[30201] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -549,8 +739,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 2500,
 		price_type = 12
-	},
-	[30103] = {
+	}
+	pg.base.world_goods_data[30103] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -560,8 +750,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 1000,
 		price_type = 12
-	},
-	[30202] = {
+	}
+	pg.base.world_goods_data[30202] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -571,8 +761,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 2500,
 		price_type = 12
-	},
-	[30203] = {
+	}
+	pg.base.world_goods_data[30203] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -582,8 +772,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 5000,
 		price_type = 12
-	},
-	[30204] = {
+	}
+	pg.base.world_goods_data[30204] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -593,8 +783,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 2500,
 		price_type = 12
-	},
-	[30205] = {
+	}
+	pg.base.world_goods_data[30205] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -604,8 +794,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 5000,
 		price_type = 12
-	},
-	[30301] = {
+	}
+	pg.base.world_goods_data[30301] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -615,8 +805,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 5000,
 		price_type = 12
-	},
-	[30206] = {
+	}
+	pg.base.world_goods_data[30206] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -626,8 +816,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 2500,
 		price_type = 12
-	},
-	[30302] = {
+	}
+	pg.base.world_goods_data[30302] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -637,8 +827,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 5000,
 		price_type = 12
-	},
-	[30303] = {
+	}
+	pg.base.world_goods_data[30303] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -648,8 +838,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 10000,
 		price_type = 12
-	},
-	[40101] = {
+	}
+	pg.base.world_goods_data[40101] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -659,8 +849,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 300,
 		price_type = 12
-	},
-	[40102] = {
+	}
+	pg.base.world_goods_data[40102] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -670,8 +860,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 450,
 		price_type = 12
-	},
-	[40201] = {
+	}
+	pg.base.world_goods_data[40201] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -681,8 +871,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 500,
 		price_type = 12
-	},
-	[40202] = {
+	}
+	pg.base.world_goods_data[40202] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -692,8 +882,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 1000,
 		price_type = 12
-	},
-	[40301] = {
+	}
+	pg.base.world_goods_data[40301] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -703,8 +893,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 250,
 		price_type = 12
-	},
-	[40203] = {
+	}
+	pg.base.world_goods_data[40203] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -714,8 +904,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 500,
 		price_type = 12
-	},
-	[40204] = {
+	}
+	pg.base.world_goods_data[40204] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -725,8 +915,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 1000,
 		price_type = 12
-	},
-	[40302] = {
+	}
+	pg.base.world_goods_data[40302] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -736,8 +926,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 500,
 		price_type = 12
-	},
-	[40303] = {
+	}
+	pg.base.world_goods_data[40303] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -747,8 +937,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 500,
 		price_type = 12
-	},
-	[40401] = {
+	}
+	pg.base.world_goods_data[40401] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -758,8 +948,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 750,
 		price_type = 12
-	},
-	[40304] = {
+	}
+	pg.base.world_goods_data[40304] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -769,8 +959,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 500,
 		price_type = 12
-	},
-	[40305] = {
+	}
+	pg.base.world_goods_data[40305] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -780,8 +970,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 750,
 		price_type = 12
-	},
-	[40402] = {
+	}
+	pg.base.world_goods_data[40402] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -791,8 +981,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 750,
 		price_type = 12
-	},
-	[40403] = {
+	}
+	pg.base.world_goods_data[40403] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -802,8 +992,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 1500,
 		price_type = 12
-	},
-	[40501] = {
+	}
+	pg.base.world_goods_data[40501] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -813,8 +1003,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 1000,
 		price_type = 12
-	},
-	[40404] = {
+	}
+	pg.base.world_goods_data[40404] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -824,8 +1014,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 2250,
 		price_type = 12
-	},
-	[40405] = {
+	}
+	pg.base.world_goods_data[40405] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -835,8 +1025,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 2250,
 		price_type = 12
-	},
-	[40502] = {
+	}
+	pg.base.world_goods_data[40502] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -846,8 +1036,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 2000,
 		price_type = 12
-	},
-	[40503] = {
+	}
+	pg.base.world_goods_data[40503] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -857,8 +1047,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 3000,
 		price_type = 12
-	},
-	[40601] = {
+	}
+	pg.base.world_goods_data[40601] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -868,8 +1058,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 5000,
 		price_type = 12
-	},
-	[50101] = {
+	}
+	pg.base.world_goods_data[50101] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -879,8 +1069,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 500,
 		price_type = 12
-	},
-	[50102] = {
+	}
+	pg.base.world_goods_data[50102] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -890,8 +1080,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 1000,
 		price_type = 12
-	},
-	[50103] = {
+	}
+	pg.base.world_goods_data[50103] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -901,8 +1091,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 500,
 		price_type = 12
-	},
-	[50104] = {
+	}
+	pg.base.world_goods_data[50104] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -912,8 +1102,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 1000,
 		price_type = 12
-	},
-	[50105] = {
+	}
+	pg.base.world_goods_data[50105] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -923,8 +1113,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 500,
 		price_type = 12
-	},
-	[50106] = {
+	}
+	pg.base.world_goods_data[50106] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -934,8 +1124,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 1000,
 		price_type = 12
-	},
-	[50107] = {
+	}
+	pg.base.world_goods_data[50107] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -945,8 +1135,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 500,
 		price_type = 12
-	},
-	[50108] = {
+	}
+	pg.base.world_goods_data[50108] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -956,8 +1146,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 1000,
 		price_type = 12
-	},
-	[60101] = {
+	}
+	pg.base.world_goods_data[60101] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 101,
@@ -967,8 +1157,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 10,
 		price_type = 12
-	},
-	[60102] = {
+	}
+	pg.base.world_goods_data[60102] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 101,
@@ -978,8 +1168,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 10,
 		price_type = 12
-	},
-	[60201] = {
+	}
+	pg.base.world_goods_data[60201] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 101,
@@ -989,8 +1179,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 10,
 		price_type = 12
-	},
-	[60202] = {
+	}
+	pg.base.world_goods_data[60202] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 101,
@@ -1000,8 +1190,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 10,
 		price_type = 12
-	},
-	[60301] = {
+	}
+	pg.base.world_goods_data[60301] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 101,
@@ -1011,8 +1201,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 10,
 		price_type = 12
-	},
-	[60302] = {
+	}
+	pg.base.world_goods_data[60302] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 101,
@@ -1022,8 +1212,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 10,
 		price_type = 12
-	},
-	[60103] = {
+	}
+	pg.base.world_goods_data[60103] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 101,
@@ -1033,8 +1223,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 10,
 		price_type = 12
-	},
-	[60104] = {
+	}
+	pg.base.world_goods_data[60104] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 101,
@@ -1044,8 +1234,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 10,
 		price_type = 12
-	},
-	[60203] = {
+	}
+	pg.base.world_goods_data[60203] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 101,
@@ -1055,8 +1245,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 10,
 		price_type = 12
-	},
-	[60204] = {
+	}
+	pg.base.world_goods_data[60204] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 101,
@@ -1066,8 +1256,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 10,
 		price_type = 12
-	},
-	[60303] = {
+	}
+	pg.base.world_goods_data[60303] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 101,
@@ -1077,8 +1267,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 10,
 		price_type = 12
-	},
-	[60304] = {
+	}
+	pg.base.world_goods_data[60304] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 101,
@@ -1088,8 +1278,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 10,
 		price_type = 12
-	},
-	[60105] = {
+	}
+	pg.base.world_goods_data[60105] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 101,
@@ -1099,8 +1289,10 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 10,
 		price_type = 12
-	},
-	[60401] = {
+	}
+end)()
+(function ()
+	pg.base.world_goods_data[60401] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 101,
@@ -1110,8 +1302,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 20,
 		price_type = 12
-	},
-	[60205] = {
+	}
+	pg.base.world_goods_data[60205] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 101,
@@ -1121,8 +1313,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 10,
 		price_type = 12
-	},
-	[60501] = {
+	}
+	pg.base.world_goods_data[60501] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 101,
@@ -1132,8 +1324,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 20,
 		price_type = 12
-	},
-	[60305] = {
+	}
+	pg.base.world_goods_data[60305] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 101,
@@ -1143,8 +1335,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 10,
 		price_type = 12
-	},
-	[60601] = {
+	}
+	pg.base.world_goods_data[60601] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 101,
@@ -1154,8 +1346,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 20,
 		price_type = 12
-	},
-	[60106] = {
+	}
+	pg.base.world_goods_data[60106] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 101,
@@ -1165,8 +1357,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 10,
 		price_type = 12
-	},
-	[60402] = {
+	}
+	pg.base.world_goods_data[60402] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 101,
@@ -1176,8 +1368,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 20,
 		price_type = 12
-	},
-	[60206] = {
+	}
+	pg.base.world_goods_data[60206] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 101,
@@ -1187,8 +1379,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 10,
 		price_type = 12
-	},
-	[60502] = {
+	}
+	pg.base.world_goods_data[60502] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 101,
@@ -1198,8 +1390,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 20,
 		price_type = 12
-	},
-	[60306] = {
+	}
+	pg.base.world_goods_data[60306] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 101,
@@ -1209,8 +1401,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 10,
 		price_type = 12
-	},
-	[60602] = {
+	}
+	pg.base.world_goods_data[60602] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 101,
@@ -1220,8 +1412,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 20,
 		price_type = 12
-	},
-	[70101] = {
+	}
+	pg.base.world_goods_data[70101] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -1231,8 +1423,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 2000,
 		price_type = 12
-	},
-	[70102] = {
+	}
+	pg.base.world_goods_data[70102] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -1242,8 +1434,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 2000,
 		price_type = 12
-	},
-	[70103] = {
+	}
+	pg.base.world_goods_data[70103] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -1253,8 +1445,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 5000,
 		price_type = 12
-	},
-	[70104] = {
+	}
+	pg.base.world_goods_data[70104] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -1264,8 +1456,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 2000,
 		price_type = 12
-	},
-	[70105] = {
+	}
+	pg.base.world_goods_data[70105] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -1275,8 +1467,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 5000,
 		price_type = 12
-	},
-	[70106] = {
+	}
+	pg.base.world_goods_data[70106] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -1286,8 +1478,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 10000,
 		price_type = 12
-	},
-	[70107] = {
+	}
+	pg.base.world_goods_data[70107] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -1297,8 +1489,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 5000,
 		price_type = 12
-	},
-	[70108] = {
+	}
+	pg.base.world_goods_data[70108] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -1308,8 +1500,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 10000,
 		price_type = 12
-	},
-	[70109] = {
+	}
+	pg.base.world_goods_data[70109] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -1319,8 +1511,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 20000,
 		price_type = 12
-	},
-	[70110] = {
+	}
+	pg.base.world_goods_data[70110] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -1330,8 +1522,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 10000,
 		price_type = 12
-	},
-	[70111] = {
+	}
+	pg.base.world_goods_data[70111] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -1341,8 +1533,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 20000,
 		price_type = 12
-	},
-	[70112] = {
+	}
+	pg.base.world_goods_data[70112] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -1352,8 +1544,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 50000,
 		price_type = 12
-	},
-	[80101] = {
+	}
+	pg.base.world_goods_data[80101] = {
 		item_type = 12,
 		priority = 5,
 		price_id = 101,
@@ -1363,8 +1555,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 20,
 		price_type = 12
-	},
-	[80102] = {
+	}
+	pg.base.world_goods_data[80102] = {
 		item_type = 12,
 		priority = 5,
 		price_id = 101,
@@ -1374,8 +1566,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 20,
 		price_type = 12
-	},
-	[80201] = {
+	}
+	pg.base.world_goods_data[80201] = {
 		item_type = 12,
 		priority = 5,
 		price_id = 101,
@@ -1385,8 +1577,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 100,
 		price_type = 12
-	},
-	[80103] = {
+	}
+	pg.base.world_goods_data[80103] = {
 		item_type = 12,
 		priority = 5,
 		price_id = 101,
@@ -1396,8 +1588,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 40,
 		price_type = 12
-	},
-	[80202] = {
+	}
+	pg.base.world_goods_data[80202] = {
 		item_type = 12,
 		priority = 5,
 		price_id = 101,
@@ -1407,8 +1599,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 200,
 		price_type = 12
-	},
-	[80104] = {
+	}
+	pg.base.world_goods_data[80104] = {
 		item_type = 12,
 		priority = 5,
 		price_id = 101,
@@ -1418,8 +1610,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 60,
 		price_type = 12
-	},
-	[80203] = {
+	}
+	pg.base.world_goods_data[80203] = {
 		item_type = 12,
 		priority = 5,
 		price_id = 101,
@@ -1429,8 +1621,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 300,
 		price_type = 12
-	},
-	[80204] = {
+	}
+	pg.base.world_goods_data[80204] = {
 		item_type = 12,
 		priority = 5,
 		price_id = 101,
@@ -1440,8 +1632,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 500,
 		price_type = 12
-	},
-	[90101] = {
+	}
+	pg.base.world_goods_data[90101] = {
 		item_type = 12,
 		priority = 5,
 		price_id = 101,
@@ -1451,8 +1643,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 100,
 		price_type = 12
-	},
-	[90201] = {
+	}
+	pg.base.world_goods_data[90201] = {
 		item_type = 12,
 		priority = 5,
 		price_id = 101,
@@ -1462,8 +1654,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 100,
 		price_type = 12
-	},
-	[90102] = {
+	}
+	pg.base.world_goods_data[90102] = {
 		item_type = 12,
 		priority = 5,
 		price_id = 101,
@@ -1473,8 +1665,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 100,
 		price_type = 12
-	},
-	[90202] = {
+	}
+	pg.base.world_goods_data[90202] = {
 		item_type = 12,
 		priority = 5,
 		price_id = 101,
@@ -1484,8 +1676,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 100,
 		price_type = 12
-	},
-	[90301] = {
+	}
+	pg.base.world_goods_data[90301] = {
 		item_type = 12,
 		priority = 5,
 		price_id = 101,
@@ -1495,8 +1687,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 300,
 		price_type = 12
-	},
-	[90103] = {
+	}
+	pg.base.world_goods_data[90103] = {
 		item_type = 12,
 		priority = 5,
 		price_id = 101,
@@ -1506,8 +1698,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 100,
 		price_type = 12
-	},
-	[90104] = {
+	}
+	pg.base.world_goods_data[90104] = {
 		item_type = 12,
 		priority = 5,
 		price_id = 101,
@@ -1517,8 +1709,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 100,
 		price_type = 12
-	},
-	[90203] = {
+	}
+	pg.base.world_goods_data[90203] = {
 		item_type = 12,
 		priority = 5,
 		price_id = 101,
@@ -1528,8 +1720,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 100,
 		price_type = 12
-	},
-	[90204] = {
+	}
+	pg.base.world_goods_data[90204] = {
 		item_type = 12,
 		priority = 5,
 		price_id = 101,
@@ -1539,8 +1731,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 200,
 		price_type = 12
-	},
-	[90302] = {
+	}
+	pg.base.world_goods_data[90302] = {
 		item_type = 12,
 		priority = 5,
 		price_id = 101,
@@ -1550,8 +1742,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 300,
 		price_type = 12
-	},
-	[90105] = {
+	}
+	pg.base.world_goods_data[90105] = {
 		item_type = 12,
 		priority = 5,
 		price_id = 101,
@@ -1561,8 +1753,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 100,
 		price_type = 12
-	},
-	[90106] = {
+	}
+	pg.base.world_goods_data[90106] = {
 		item_type = 12,
 		priority = 5,
 		price_id = 101,
@@ -1572,8 +1764,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 100,
 		price_type = 12
-	},
-	[90205] = {
+	}
+	pg.base.world_goods_data[90205] = {
 		item_type = 12,
 		priority = 5,
 		price_id = 101,
@@ -1583,8 +1775,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 200,
 		price_type = 12
-	},
-	[90206] = {
+	}
+	pg.base.world_goods_data[90206] = {
 		item_type = 12,
 		priority = 5,
 		price_id = 101,
@@ -1594,8 +1786,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 300,
 		price_type = 12
-	},
-	[90303] = {
+	}
+	pg.base.world_goods_data[90303] = {
 		item_type = 12,
 		priority = 5,
 		price_id = 101,
@@ -1605,8 +1797,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 300,
 		price_type = 12
-	},
-	[100101] = {
+	}
+	pg.base.world_goods_data[100101] = {
 		item_type = 12,
 		priority = 3,
 		price_id = 101,
@@ -1616,8 +1808,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 100,
 		price_type = 12
-	},
-	[100102] = {
+	}
+	pg.base.world_goods_data[100102] = {
 		item_type = 12,
 		priority = 3,
 		price_id = 101,
@@ -1627,8 +1819,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 200,
 		price_type = 12
-	},
-	[100201] = {
+	}
+	pg.base.world_goods_data[100201] = {
 		item_type = 12,
 		priority = 3,
 		price_id = 101,
@@ -1638,8 +1830,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 100,
 		price_type = 12
-	},
-	[100202] = {
+	}
+	pg.base.world_goods_data[100202] = {
 		item_type = 12,
 		priority = 3,
 		price_id = 101,
@@ -1649,8 +1841,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 200,
 		price_type = 12
-	},
-	[100301] = {
+	}
+	pg.base.world_goods_data[100301] = {
 		item_type = 12,
 		priority = 3,
 		price_id = 101,
@@ -1660,8 +1852,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 100,
 		price_type = 12
-	},
-	[100302] = {
+	}
+	pg.base.world_goods_data[100302] = {
 		item_type = 12,
 		priority = 3,
 		price_id = 101,
@@ -1671,8 +1863,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 200,
 		price_type = 12
-	},
-	[100401] = {
+	}
+	pg.base.world_goods_data[100401] = {
 		item_type = 12,
 		priority = 3,
 		price_id = 101,
@@ -1682,8 +1874,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 100,
 		price_type = 12
-	},
-	[100402] = {
+	}
+	pg.base.world_goods_data[100402] = {
 		item_type = 12,
 		priority = 3,
 		price_id = 101,
@@ -1693,8 +1885,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 200,
 		price_type = 12
-	},
-	[200101] = {
+	}
+	pg.base.world_goods_data[200101] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -1704,8 +1896,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 800,
 		price_type = 12
-	},
-	[200102] = {
+	}
+	pg.base.world_goods_data[200102] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -1715,8 +1907,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 1600,
 		price_type = 12
-	},
-	[200201] = {
+	}
+	pg.base.world_goods_data[200201] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -1726,8 +1918,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 2000,
 		price_type = 12
-	},
-	[200202] = {
+	}
+	pg.base.world_goods_data[200202] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -1737,8 +1929,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 4000,
 		price_type = 12
-	},
-	[200301] = {
+	}
+	pg.base.world_goods_data[200301] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -1748,8 +1940,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 4000,
 		price_type = 12
-	},
-	[200302] = {
+	}
+	pg.base.world_goods_data[200302] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -1759,8 +1951,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 8000,
 		price_type = 12
-	},
-	[210101] = {
+	}
+	pg.base.world_goods_data[210101] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -1770,8 +1962,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 600,
 		price_type = 12
-	},
-	[210102] = {
+	}
+	pg.base.world_goods_data[210102] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -1781,8 +1973,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 3000,
 		price_type = 12
-	},
-	[210201] = {
+	}
+	pg.base.world_goods_data[210201] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -1792,8 +1984,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 2000,
 		price_type = 12
-	},
-	[210202] = {
+	}
+	pg.base.world_goods_data[210202] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -1803,8 +1995,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 10000,
 		price_type = 12
-	},
-	[210301] = {
+	}
+	pg.base.world_goods_data[210301] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -1814,8 +2006,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 1000,
 		price_type = 12
-	},
-	[210302] = {
+	}
+	pg.base.world_goods_data[210302] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -1825,8 +2017,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 3000,
 		price_type = 12
-	},
-	[210401] = {
+	}
+	pg.base.world_goods_data[210401] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -1836,8 +2028,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 3000,
 		price_type = 12
-	},
-	[210402] = {
+	}
+	pg.base.world_goods_data[210402] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 100,
@@ -1847,8 +2039,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 9000,
 		price_type = 12
-	},
-	[220101] = {
+	}
+	pg.base.world_goods_data[220101] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 110,
@@ -1858,8 +2050,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 1,
 		price_type = 12
-	},
-	[220102] = {
+	}
+	pg.base.world_goods_data[220102] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 110,
@@ -1869,8 +2061,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 1,
 		price_type = 12
-	},
-	[220201] = {
+	}
+	pg.base.world_goods_data[220201] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 110,
@@ -1880,8 +2072,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 1,
 		price_type = 12
-	},
-	[220202] = {
+	}
+	pg.base.world_goods_data[220202] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 110,
@@ -1891,8 +2083,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 1,
 		price_type = 12
-	},
-	[220301] = {
+	}
+	pg.base.world_goods_data[220301] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 110,
@@ -1902,8 +2094,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 1,
 		price_type = 12
-	},
-	[220302] = {
+	}
+	pg.base.world_goods_data[220302] = {
 		item_type = 12,
 		priority = 1,
 		price_id = 110,
@@ -1913,8 +2105,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 1,
 		price_type = 12
-	},
-	[230101] = {
+	}
+	pg.base.world_goods_data[230101] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -1924,8 +2116,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 400,
 		price_type = 12
-	},
-	[230102] = {
+	}
+	pg.base.world_goods_data[230102] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -1935,8 +2127,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 400,
 		price_type = 12
-	},
-	[230103] = {
+	}
+	pg.base.world_goods_data[230103] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -1946,8 +2138,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 400,
 		price_type = 12
-	},
-	[230104] = {
+	}
+	pg.base.world_goods_data[230104] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -1957,8 +2149,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 400,
 		price_type = 12
-	},
-	[230105] = {
+	}
+	pg.base.world_goods_data[230105] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -1968,8 +2160,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 800,
 		price_type = 12
-	},
-	[230106] = {
+	}
+	pg.base.world_goods_data[230106] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -1979,8 +2171,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 800,
 		price_type = 12
-	},
-	[230107] = {
+	}
+	pg.base.world_goods_data[230107] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -1990,8 +2182,8 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 800,
 		price_type = 12
-	},
-	[230108] = {
+	}
+	pg.base.world_goods_data[230108] = {
 		item_type = 12,
 		priority = 2,
 		price_id = 100,
@@ -2001,189 +2193,5 @@ pg.world_goods_data = {
 		frequency = 1,
 		price_num = 800,
 		price_type = 12
-	},
-	all = {
-		10101,
-		10102,
-		10201,
-		10301,
-		10103,
-		10202,
-		10203,
-		10302,
-		10303,
-		10401,
-		10402,
-		10501,
-		10304,
-		10403,
-		10502,
-		10503,
-		11101,
-		11201,
-		11301,
-		20101,
-		20102,
-		20201,
-		20202,
-		20103,
-		20104,
-		20203,
-		20204,
-		20301,
-		20302,
-		20501,
-		20105,
-		20106,
-		20205,
-		20206,
-		20303,
-		20304,
-		20401,
-		20502,
-		20107,
-		20108,
-		20207,
-		20208,
-		20305,
-		20306,
-		20402,
-		20403,
-		20503,
-		30101,
-		30102,
-		30201,
-		30103,
-		30202,
-		30203,
-		30204,
-		30205,
-		30301,
-		30206,
-		30302,
-		30303,
-		40101,
-		40102,
-		40201,
-		40202,
-		40301,
-		40203,
-		40204,
-		40302,
-		40303,
-		40401,
-		40304,
-		40305,
-		40402,
-		40403,
-		40501,
-		40404,
-		40405,
-		40502,
-		40503,
-		40601,
-		50101,
-		50102,
-		50103,
-		50104,
-		50105,
-		50106,
-		50107,
-		50108,
-		60101,
-		60102,
-		60201,
-		60202,
-		60301,
-		60302,
-		60103,
-		60104,
-		60203,
-		60204,
-		60303,
-		60304,
-		60105,
-		60401,
-		60205,
-		60501,
-		60305,
-		60601,
-		60106,
-		60402,
-		60206,
-		60502,
-		60306,
-		60602,
-		70101,
-		70102,
-		70103,
-		70104,
-		70105,
-		70106,
-		70107,
-		70108,
-		70109,
-		70110,
-		70111,
-		70112,
-		80101,
-		80102,
-		80201,
-		80103,
-		80202,
-		80104,
-		80203,
-		80204,
-		90101,
-		90201,
-		90102,
-		90202,
-		90301,
-		90103,
-		90104,
-		90203,
-		90204,
-		90302,
-		90105,
-		90106,
-		90205,
-		90206,
-		90303,
-		100101,
-		100102,
-		100201,
-		100202,
-		100301,
-		100302,
-		100401,
-		100402,
-		200101,
-		200102,
-		200201,
-		200202,
-		200301,
-		200302,
-		210101,
-		210102,
-		210201,
-		210202,
-		210301,
-		210302,
-		210401,
-		210402,
-		220101,
-		220102,
-		220201,
-		220202,
-		220301,
-		220302,
-		230101,
-		230102,
-		230103,
-		230104,
-		230105,
-		230106,
-		230107,
-		230108
 	}
-}
+end)()

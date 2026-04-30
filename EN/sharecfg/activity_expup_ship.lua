@@ -1,6 +1,54 @@
 pg = pg or {}
-pg.activity_expup_ship = {
-	{
+pg.activity_expup_ship = rawget(pg, "activity_expup_ship") or setmetatable({
+	__name = "activity_expup_ship"
+}, confNEO)
+pg.activity_expup_ship.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	5001,
+	5002
+}
+pg.base = pg.base or {}
+pg.base.activity_expup_ship = {}
+
+(function ()
+	pg.base.activity_expup_ship[1] = {
 		id = 1,
 		expup = {
 			{
@@ -20,8 +68,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[2] = {
 		id = 2,
 		expup = {
 			{
@@ -41,8 +89,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[3] = {
 		id = 3,
 		expup = {
 			{
@@ -62,8 +110,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[4] = {
 		id = 4,
 		expup = {
 			{
@@ -83,8 +131,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[5] = {
 		id = 5,
 		expup = {
 			{
@@ -104,8 +152,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[6] = {
 		id = 6,
 		expup = {
 			{
@@ -125,8 +173,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[7] = {
 		id = 7,
 		expup = {
 			{
@@ -146,8 +194,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[8] = {
 		id = 8,
 		expup = {
 			{
@@ -167,8 +215,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[9] = {
 		id = 9,
 		expup = {
 			{
@@ -188,8 +236,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[10] = {
 		id = 10,
 		expup = {
 			{
@@ -209,8 +257,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[11] = {
 		id = 11,
 		expup = {
 			{
@@ -230,8 +278,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[12] = {
 		id = 12,
 		expup = {
 			{
@@ -251,8 +299,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[13] = {
 		id = 13,
 		expup = {
 			{
@@ -272,8 +320,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[14] = {
 		id = 14,
 		expup = {
 			{
@@ -293,8 +341,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[15] = {
 		id = 15,
 		expup = {
 			{
@@ -314,8 +362,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[16] = {
 		id = 16,
 		expup = {
 			{
@@ -335,8 +383,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[17] = {
 		id = 17,
 		expup = {
 			{
@@ -356,8 +404,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[18] = {
 		id = 18,
 		expup = {
 			{
@@ -377,8 +425,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[19] = {
 		id = 19,
 		expup = {
 			{
@@ -402,8 +450,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[20] = {
 		id = 20,
 		expup = {
 			{
@@ -427,8 +475,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[21] = {
 		id = 21,
 		expup = {
 			{
@@ -448,8 +496,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[22] = {
 		id = 22,
 		expup = {
 			{
@@ -477,8 +525,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[23] = {
 		id = 23,
 		expup = {
 			{
@@ -498,8 +546,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[24] = {
 		id = 24,
 		expup = {
 			{
@@ -523,8 +571,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[25] = {
 		id = 25,
 		expup = {
 			{
@@ -548,8 +596,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[26] = {
 		id = 26,
 		expup = {
 			{
@@ -569,8 +617,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[27] = {
 		id = 27,
 		expup = {
 			{
@@ -590,8 +638,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[28] = {
 		id = 28,
 		expup = {
 			{
@@ -611,8 +659,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[29] = {
 		id = 29,
 		expup = {
 			{
@@ -636,8 +684,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[30] = {
 		id = 30,
 		expup = {
 			{
@@ -665,8 +713,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[31] = {
 		id = 31,
 		expup = {
 			{
@@ -694,8 +742,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[32] = {
 		id = 32,
 		expup = {
 			{
@@ -719,8 +767,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[33] = {
 		id = 33,
 		expup = {
 			{
@@ -744,8 +792,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[34] = {
 		id = 34,
 		expup = {
 			{
@@ -773,8 +821,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[35] = {
 		id = 35,
 		expup = {
 			{
@@ -798,8 +846,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[36] = {
 		id = 36,
 		expup = {
 			{
@@ -819,8 +867,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[37] = {
 		id = 37,
 		expup = {
 			{
@@ -844,8 +892,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_expup_ship[38] = {
 		id = 38,
 		expup = {
 			{
@@ -869,8 +917,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	[5001] = {
+	}
+	pg.base.activity_expup_ship[5001] = {
 		id = 5001,
 		expup = {
 			{
@@ -890,8 +938,8 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	[5002] = {
+	}
+	pg.base.activity_expup_ship[5002] = {
 		id = 5002,
 		expup = {
 			{
@@ -911,47 +959,5 @@ pg.activity_expup_ship = {
 				2000
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		5001,
-		5002
 	}
-}
+end)()

@@ -1,6 +1,98 @@
 pg = pg or {}
-pg.character_voice = {
-	unlock = {
+pg.character_voice = rawget(pg, "character_voice") or setmetatable({
+	__name = "character_voice"
+}, confNEO)
+pg.character_voice.all = {
+	"unlock",
+	"login",
+	"detail",
+	"main1",
+	"main2",
+	"main3",
+	"main4",
+	"main5",
+	"main6",
+	"main7",
+	"touch",
+	"touch2",
+	"headtouch",
+	"mission",
+	"mission_complete",
+	"mail",
+	"home",
+	"feeling1",
+	"feeling2",
+	"feeling3",
+	"feeling4",
+	"feeling5",
+	"propose",
+	"expedition",
+	"upgrade",
+	"battle",
+	"win_mvp",
+	"lose",
+	"skill",
+	"hp_warning",
+	"link1",
+	"link2",
+	"link3",
+	"link4",
+	"link5",
+	"link6",
+	"profile",
+	"link7",
+	"ryza_item1",
+	"ryza_item2",
+	"ryza_item3",
+	"ryza_item4",
+	"ryza_item5",
+	"ryza_shop1",
+	"ryza_shop2",
+	"ryza_shop3",
+	"ryza_shop4",
+	"ryza_shop5",
+	"skill_1",
+	"skill_2",
+	"atelier_yumia_shop_1",
+	"atelier_yumia_shop_2",
+	"atelier_yumia_shop_3",
+	"atelier_yumia_shop_4",
+	"atelier_yumia_shop_5",
+	"atelier_yumia_item_1",
+	"atelier_yumia_item_2",
+	"atelier_yumia_item_3",
+	"atelier_yumia_item_4",
+	"atelier_yumia_item_5",
+	"atelier_yumia_item_6",
+	"atelier_yumia_item_7",
+	"atelier_yumia_item_8",
+	"atelier_yumia_item_9",
+	"atelier_yumia_item_10",
+	"atelier_yumia_item_11",
+	"atelier_yumia_item_12",
+	"skill_dal_1",
+	"skill_dal_2",
+	"dal_shop1",
+	"dal_shop2",
+	"dal_shop3",
+	"dal_shop4",
+	"dal_shop5",
+	"asmr_001",
+	"asmr_002",
+	"asmr_003",
+	"asmr_004",
+	"asmr_005",
+	"asmr_006",
+	"asmr_007",
+	"asmr_008",
+	"asmr_009",
+	"asmr_010"
+}
+pg.base = pg.base or {}
+pg.base.character_voice = {}
+
+(function ()
+	pg.base.character_voice.unlock = {
 		voice_name = "Receive",
 		key = "unlock",
 		resource_key = "get",
@@ -12,8 +104,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	login = {
+	}
+	pg.base.character_voice.login = {
 		voice_name = "Log in",
 		key = "login",
 		resource_key = "login",
@@ -25,8 +117,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	detail = {
+	}
+	pg.base.character_voice.detail = {
 		voice_name = "View details",
 		key = "detail",
 		resource_key = "detail",
@@ -38,8 +130,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	main1 = {
+	}
+	pg.base.character_voice.main1 = {
 		voice_name = "Main screen 1",
 		key = "main1",
 		resource_key = "main_1",
@@ -51,8 +143,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	main2 = {
+	}
+	pg.base.character_voice.main2 = {
 		voice_name = "Main screen 2",
 		key = "main2",
 		resource_key = "main_2",
@@ -64,8 +156,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	main3 = {
+	}
+	pg.base.character_voice.main3 = {
 		voice_name = "Main screen 3",
 		key = "main3",
 		resource_key = "main_3",
@@ -77,8 +169,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	main4 = {
+	}
+	pg.base.character_voice.main4 = {
 		voice_name = "Main screen 4",
 		key = "main4",
 		resource_key = "main_4",
@@ -90,8 +182,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	main5 = {
+	}
+	pg.base.character_voice.main5 = {
 		voice_name = "Main screen 5",
 		key = "main5",
 		resource_key = "main_5",
@@ -103,8 +195,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	main6 = {
+	}
+	pg.base.character_voice.main6 = {
 		voice_name = "Main screen 6",
 		key = "main6",
 		resource_key = "main_6",
@@ -116,8 +208,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	main7 = {
+	}
+	pg.base.character_voice.main7 = {
 		voice_name = "Main screen 7",
 		key = "main7",
 		resource_key = "main_7",
@@ -129,8 +221,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	touch = {
+	}
+	pg.base.character_voice.touch = {
 		voice_name = "Normal touch",
 		key = "touch",
 		resource_key = "touch_1",
@@ -142,8 +234,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	touch2 = {
+	}
+	pg.base.character_voice.touch2 = {
 		voice_name = "Special touch",
 		key = "touch2",
 		resource_key = "touch_2",
@@ -155,8 +247,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	headtouch = {
+	}
+	pg.base.character_voice.headtouch = {
 		voice_name = "Rub",
 		key = "headtouch",
 		resource_key = "touch_head",
@@ -168,8 +260,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	mission = {
+	}
+	pg.base.character_voice.mission = {
 		voice_name = "Mission reminder",
 		key = "mission",
 		resource_key = "task",
@@ -181,8 +273,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	mission_complete = {
+	}
+	pg.base.character_voice.mission_complete = {
 		voice_name = "Mission complete",
 		key = "mission_complete",
 		resource_key = "mission_complete",
@@ -194,8 +286,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	mail = {
+	}
+	pg.base.character_voice.mail = {
 		voice_name = "Mail reminder",
 		key = "mail",
 		resource_key = "mail",
@@ -207,8 +299,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	home = {
+	}
+	pg.base.character_voice.home = {
 		voice_name = "Return to port",
 		key = "home",
 		resource_key = "home",
@@ -220,8 +312,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	feeling1 = {
+	}
+	pg.base.character_voice.feeling1 = {
 		voice_name = "Upset",
 		key = "feeling1",
 		resource_key = "feeling1",
@@ -233,8 +325,8 @@ pg.character_voice = {
 			1,
 			0
 		}
-	},
-	feeling2 = {
+	}
+	pg.base.character_voice.feeling2 = {
 		voice_name = "Stranger",
 		key = "feeling2",
 		resource_key = "feeling2",
@@ -246,8 +338,8 @@ pg.character_voice = {
 			1,
 			3100
 		}
-	},
-	feeling3 = {
+	}
+	pg.base.character_voice.feeling3 = {
 		voice_name = "Friendly",
 		key = "feeling3",
 		resource_key = "feeling3",
@@ -259,8 +351,8 @@ pg.character_voice = {
 			1,
 			6100
 		}
-	},
-	feeling4 = {
+	}
+	pg.base.character_voice.feeling4 = {
 		voice_name = "Crush",
 		key = "feeling4",
 		resource_key = "feeling4",
@@ -272,8 +364,8 @@ pg.character_voice = {
 			1,
 			8100
 		}
-	},
-	feeling5 = {
+	}
+	pg.base.character_voice.feeling5 = {
 		voice_name = "Love",
 		key = "feeling5",
 		resource_key = "feeling5",
@@ -285,8 +377,8 @@ pg.character_voice = {
 			1,
 			10000
 		}
-	},
-	propose = {
+	}
+	pg.base.character_voice.propose = {
 		voice_name = "Promise",
 		key = "propose",
 		resource_key = "propose",
@@ -298,8 +390,8 @@ pg.character_voice = {
 			2,
 			0
 		}
-	},
-	expedition = {
+	}
+	pg.base.character_voice.expedition = {
 		voice_name = "Commission complete",
 		key = "expedition",
 		resource_key = "expedition",
@@ -311,8 +403,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	upgrade = {
+	}
+	pg.base.character_voice.upgrade = {
 		voice_name = "Enhancing complete",
 		key = "upgrade",
 		resource_key = "upgrade",
@@ -324,8 +416,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	battle = {
+	}
+	pg.base.character_voice.battle = {
 		voice_name = "Flagship fight",
 		key = "battle",
 		resource_key = "warcry",
@@ -337,8 +429,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	win_mvp = {
+	}
+	pg.base.character_voice.win_mvp = {
 		voice_name = "Victory",
 		key = "win_mvp",
 		resource_key = "mvp",
@@ -350,8 +442,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	lose = {
+	}
+	pg.base.character_voice.lose = {
 		voice_name = "Defeat",
 		key = "lose",
 		resource_key = "lose",
@@ -363,8 +455,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	skill = {
+	}
+	pg.base.character_voice.skill = {
 		voice_name = "Skills",
 		key = "skill",
 		resource_key = "skill",
@@ -376,8 +468,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	hp_warning = {
+	}
+	pg.base.character_voice.hp_warning = {
 		voice_name = "Low HP",
 		key = "hp_warning",
 		resource_key = "hp",
@@ -389,8 +481,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	link1 = {
+	}
+	pg.base.character_voice.link1 = {
 		voice_name = "Battle 1",
 		key = "link1",
 		resource_key = "link1",
@@ -402,8 +494,8 @@ pg.character_voice = {
 			-1,
 			0
 		}
-	},
-	link2 = {
+	}
+	pg.base.character_voice.link2 = {
 		voice_name = "Battle 2",
 		key = "link2",
 		resource_key = "link2",
@@ -415,8 +507,8 @@ pg.character_voice = {
 			-1,
 			0
 		}
-	},
-	link3 = {
+	}
+	pg.base.character_voice.link3 = {
 		voice_name = "Battle 3",
 		key = "link3",
 		resource_key = "link3",
@@ -428,8 +520,8 @@ pg.character_voice = {
 			-1,
 			0
 		}
-	},
-	link4 = {
+	}
+	pg.base.character_voice.link4 = {
 		voice_name = "Battle 4",
 		key = "link4",
 		resource_key = "link4",
@@ -441,8 +533,8 @@ pg.character_voice = {
 			-1,
 			0
 		}
-	},
-	link5 = {
+	}
+	pg.base.character_voice.link5 = {
 		voice_name = "Battle 5",
 		key = "link5",
 		resource_key = "link5",
@@ -454,8 +546,8 @@ pg.character_voice = {
 			-1,
 			0
 		}
-	},
-	link6 = {
+	}
+	pg.base.character_voice.link6 = {
 		voice_name = "Battle 6",
 		key = "link6",
 		resource_key = "link6",
@@ -467,8 +559,8 @@ pg.character_voice = {
 			-1,
 			0
 		}
-	},
-	profile = {
+	}
+	pg.base.character_voice.profile = {
 		voice_name = "Details",
 		key = "profile",
 		resource_key = "profile",
@@ -480,8 +572,8 @@ pg.character_voice = {
 			-1,
 			0
 		}
-	},
-	link7 = {
+	}
+	pg.base.character_voice.link7 = {
 		voice_name = "Battle 7",
 		key = "link7",
 		resource_key = "link7",
@@ -493,8 +585,8 @@ pg.character_voice = {
 			-1,
 			0
 		}
-	},
-	ryza_item1 = {
+	}
+	pg.base.character_voice.ryza_item1 = {
 		voice_name = "Obtained material 1",
 		key = "ryza_item1",
 		resource_key = "ryza_item1",
@@ -506,8 +598,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	ryza_item2 = {
+	}
+	pg.base.character_voice.ryza_item2 = {
 		voice_name = "Obtained material 2",
 		key = "ryza_item2",
 		resource_key = "ryza_item2",
@@ -519,8 +611,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	ryza_item3 = {
+	}
+	pg.base.character_voice.ryza_item3 = {
 		voice_name = "Obtained material 3",
 		key = "ryza_item3",
 		resource_key = "ryza_item3",
@@ -532,8 +624,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	ryza_item4 = {
+	}
+	pg.base.character_voice.ryza_item4 = {
 		voice_name = "Obtained material 4",
 		key = "ryza_item4",
 		resource_key = "ryza_item4",
@@ -545,8 +637,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	ryza_item5 = {
+	}
+	pg.base.character_voice.ryza_item5 = {
 		voice_name = "Obtained material 5",
 		key = "ryza_item5",
 		resource_key = "ryza_item5",
@@ -558,8 +650,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	ryza_shop1 = {
+	}
+	pg.base.character_voice.ryza_shop1 = {
 		voice_name = "Shop 1",
 		key = "ryza_shop1",
 		resource_key = "ryza_shop1",
@@ -571,8 +663,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	ryza_shop2 = {
+	}
+	pg.base.character_voice.ryza_shop2 = {
 		voice_name = "Shop 2",
 		key = "ryza_shop2",
 		resource_key = "ryza_shop2",
@@ -584,8 +676,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	ryza_shop3 = {
+	}
+	pg.base.character_voice.ryza_shop3 = {
 		voice_name = "Shop 3",
 		key = "ryza_shop3",
 		resource_key = "ryza_shop3",
@@ -597,8 +689,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	ryza_shop4 = {
+	}
+	pg.base.character_voice.ryza_shop4 = {
 		voice_name = "Shop 4",
 		key = "ryza_shop4",
 		resource_key = "ryza_shop4",
@@ -610,8 +702,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	ryza_shop5 = {
+	}
+	pg.base.character_voice.ryza_shop5 = {
 		voice_name = "Shop 5",
 		key = "ryza_shop5",
 		resource_key = "ryza_shop5",
@@ -623,8 +715,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	skill_1 = {
+	}
+	pg.base.character_voice.skill_1 = {
 		voice_name = "Skill 1",
 		key = "skill_1",
 		resource_key = "skill_1",
@@ -636,8 +728,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	skill_2 = {
+	}
+	pg.base.character_voice.skill_2 = {
 		voice_name = "Skill 2",
 		key = "skill_2",
 		resource_key = "skill_2",
@@ -649,8 +741,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	atelier_yumia_shop_1 = {
+	}
+	pg.base.character_voice.atelier_yumia_shop_1 = {
 		voice_name = "Shop 1",
 		key = "atelier_yumia_shop_1",
 		resource_key = "atelier_yumia_shop_1",
@@ -662,8 +754,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	atelier_yumia_shop_2 = {
+	}
+	pg.base.character_voice.atelier_yumia_shop_2 = {
 		voice_name = "Shop 2",
 		key = "atelier_yumia_shop_2",
 		resource_key = "atelier_yumia_shop_2",
@@ -675,8 +767,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	atelier_yumia_shop_3 = {
+	}
+	pg.base.character_voice.atelier_yumia_shop_3 = {
 		voice_name = "Shop 3",
 		key = "atelier_yumia_shop_3",
 		resource_key = "atelier_yumia_shop_3",
@@ -688,8 +780,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	atelier_yumia_shop_4 = {
+	}
+	pg.base.character_voice.atelier_yumia_shop_4 = {
 		voice_name = "Shop 4",
 		key = "atelier_yumia_shop_4",
 		resource_key = "atelier_yumia_shop_4",
@@ -701,8 +793,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	atelier_yumia_shop_5 = {
+	}
+	pg.base.character_voice.atelier_yumia_shop_5 = {
 		voice_name = "Shop 5",
 		key = "atelier_yumia_shop_5",
 		resource_key = "atelier_yumia_shop_5",
@@ -714,8 +806,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	atelier_yumia_item_1 = {
+	}
+	pg.base.character_voice.atelier_yumia_item_1 = {
 		voice_name = "Obtained material 1",
 		key = "atelier_yumia_item_1",
 		resource_key = "atelier_yumia_item_1",
@@ -727,8 +819,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	atelier_yumia_item_2 = {
+	}
+	pg.base.character_voice.atelier_yumia_item_2 = {
 		voice_name = "Obtained material 2",
 		key = "atelier_yumia_item_2",
 		resource_key = "atelier_yumia_item_2",
@@ -740,8 +832,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	atelier_yumia_item_3 = {
+	}
+	pg.base.character_voice.atelier_yumia_item_3 = {
 		voice_name = "Obtained material 3",
 		key = "atelier_yumia_item_3",
 		resource_key = "atelier_yumia_item_3",
@@ -753,8 +845,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	atelier_yumia_item_4 = {
+	}
+	pg.base.character_voice.atelier_yumia_item_4 = {
 		voice_name = "Obtained material 4",
 		key = "atelier_yumia_item_4",
 		resource_key = "atelier_yumia_item_4",
@@ -766,8 +858,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	atelier_yumia_item_5 = {
+	}
+	pg.base.character_voice.atelier_yumia_item_5 = {
 		voice_name = "Obtained material 5",
 		key = "atelier_yumia_item_5",
 		resource_key = "atelier_yumia_item_5",
@@ -779,8 +871,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	atelier_yumia_item_6 = {
+	}
+	pg.base.character_voice.atelier_yumia_item_6 = {
 		voice_name = "Obtained material 6",
 		key = "atelier_yumia_item_6",
 		resource_key = "atelier_yumia_item_6",
@@ -792,8 +884,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	atelier_yumia_item_7 = {
+	}
+	pg.base.character_voice.atelier_yumia_item_7 = {
 		voice_name = "Obtained material 7",
 		key = "atelier_yumia_item_7",
 		resource_key = "atelier_yumia_item_7",
@@ -805,8 +897,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	atelier_yumia_item_8 = {
+	}
+	pg.base.character_voice.atelier_yumia_item_8 = {
 		voice_name = "Obtained material 8",
 		key = "atelier_yumia_item_8",
 		resource_key = "atelier_yumia_item_8",
@@ -818,8 +910,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	atelier_yumia_item_9 = {
+	}
+	pg.base.character_voice.atelier_yumia_item_9 = {
 		voice_name = "Obtained material 9",
 		key = "atelier_yumia_item_9",
 		resource_key = "atelier_yumia_item_9",
@@ -831,8 +923,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	atelier_yumia_item_10 = {
+	}
+	pg.base.character_voice.atelier_yumia_item_10 = {
 		voice_name = "Obtained material 10",
 		key = "atelier_yumia_item_10",
 		resource_key = "atelier_yumia_item_10",
@@ -844,8 +936,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	atelier_yumia_item_11 = {
+	}
+	pg.base.character_voice.atelier_yumia_item_11 = {
 		voice_name = "Obtained material 11",
 		key = "atelier_yumia_item_11",
 		resource_key = "atelier_yumia_item_11",
@@ -857,8 +949,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	atelier_yumia_item_12 = {
+	}
+	pg.base.character_voice.atelier_yumia_item_12 = {
 		voice_name = "Obtained material 12",
 		key = "atelier_yumia_item_12",
 		resource_key = "atelier_yumia_item_12",
@@ -870,8 +962,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	skill_dal_1 = {
+	}
+	pg.base.character_voice.skill_dal_1 = {
 		voice_name = "Skill Extra - 1",
 		key = "skill_dal_1",
 		resource_key = "skill_dal_1",
@@ -883,8 +975,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	skill_dal_2 = {
+	}
+	pg.base.character_voice.skill_dal_2 = {
 		voice_name = "Skill Extra - 2",
 		key = "skill_dal_2",
 		resource_key = "skill_dal_2",
@@ -896,8 +988,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	dal_shop1 = {
+	}
+	pg.base.character_voice.dal_shop1 = {
 		voice_name = "Shop 1",
 		key = "dal_shop1",
 		resource_key = "dal_shop1",
@@ -909,8 +1001,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	dal_shop2 = {
+	}
+	pg.base.character_voice.dal_shop2 = {
 		voice_name = "Shop 2",
 		key = "dal_shop2",
 		resource_key = "dal_shop2",
@@ -922,8 +1014,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	dal_shop3 = {
+	}
+	pg.base.character_voice.dal_shop3 = {
 		voice_name = "Shop 3",
 		key = "dal_shop3",
 		resource_key = "dal_shop3",
@@ -935,8 +1027,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	dal_shop4 = {
+	}
+	pg.base.character_voice.dal_shop4 = {
 		voice_name = "Shop 4",
 		key = "dal_shop4",
 		resource_key = "dal_shop4",
@@ -948,8 +1040,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	dal_shop5 = {
+	}
+	pg.base.character_voice.dal_shop5 = {
 		voice_name = "Shop 5",
 		key = "dal_shop5",
 		resource_key = "dal_shop5",
@@ -961,8 +1053,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	asmr_001 = {
+	}
+	pg.base.character_voice.asmr_001 = {
 		voice_name = "asmr语音1",
 		key = "asmr_001",
 		resource_key = "asmr_001",
@@ -974,8 +1066,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	asmr_002 = {
+	}
+	pg.base.character_voice.asmr_002 = {
 		voice_name = "asmr语音2",
 		key = "asmr_002",
 		resource_key = "asmr_002",
@@ -987,8 +1079,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	asmr_003 = {
+	}
+	pg.base.character_voice.asmr_003 = {
 		voice_name = "asmr语音3",
 		key = "asmr_003",
 		resource_key = "asmr_003",
@@ -1000,8 +1092,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	asmr_004 = {
+	}
+	pg.base.character_voice.asmr_004 = {
 		voice_name = "asmr语音4",
 		key = "asmr_004",
 		resource_key = "asmr_004",
@@ -1013,8 +1105,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	asmr_005 = {
+	}
+	pg.base.character_voice.asmr_005 = {
 		voice_name = "asmr语音5",
 		key = "asmr_005",
 		resource_key = "asmr_005",
@@ -1026,8 +1118,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	asmr_006 = {
+	}
+	pg.base.character_voice.asmr_006 = {
 		voice_name = "asmr语音6",
 		key = "asmr_006",
 		resource_key = "asmr_006",
@@ -1039,8 +1131,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	asmr_007 = {
+	}
+	pg.base.character_voice.asmr_007 = {
 		voice_name = "asmr语音7",
 		key = "asmr_007",
 		resource_key = "asmr_007",
@@ -1052,8 +1144,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	asmr_008 = {
+	}
+	pg.base.character_voice.asmr_008 = {
 		voice_name = "asmr语音8",
 		key = "asmr_008",
 		resource_key = "asmr_008",
@@ -1065,8 +1157,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	asmr_009 = {
+	}
+	pg.base.character_voice.asmr_009 = {
 		voice_name = "asmr语音9",
 		key = "asmr_009",
 		resource_key = "asmr_009",
@@ -1078,8 +1170,8 @@ pg.character_voice = {
 			0,
 			0
 		}
-	},
-	asmr_010 = {
+	}
+	pg.base.character_voice.asmr_010 = {
 		voice_name = "asmr语音10",
 		key = "asmr_010",
 		resource_key = "asmr_010",
@@ -1092,4 +1184,4 @@ pg.character_voice = {
 			0
 		}
 	}
-}
+end)()

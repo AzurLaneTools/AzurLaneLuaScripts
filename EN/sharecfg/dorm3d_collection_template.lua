@@ -1,211 +1,198 @@
 pg = pg or {}
-pg.dorm3d_collection_template = setmetatable({
-	__name = "dorm3d_collection_template",
-	get_id_list_by_room_id = {
-		{
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24,
-			25,
-			26,
-			27,
-			28,
-			29,
-			30
-		},
-		{
-			51,
-			52,
-			53,
-			54,
-			55,
-			56,
-			57,
-			58,
-			59,
-			60,
-			61,
-			62,
-			63,
-			64,
-			65,
-			66,
-			67,
-			68,
-			70,
-			72,
-			71,
-			76,
-			77,
-			78,
-			79,
-			74,
-			75
-		},
-		{
-			101,
-			102,
-			103,
-			104,
-			105,
-			106,
-			107,
-			108,
-			109,
-			110,
-			111,
-			112,
-			113,
-			114,
-			115,
-			116,
-			117,
-			118,
-			119,
-			120,
-			121,
-			122,
-			123,
-			124,
-			125,
-			126,
-			127,
-			128
-		},
-		[4] = {
-			31,
-			32,
-			33,
-			34,
-			35,
-			36,
-			37,
-			38,
-			39
-		},
-		[11] = {
-			1101,
-			1102,
-			1103,
-			1104,
-			1105,
-			1106,
-			1107,
-			1108,
-			1109,
-			1110,
-			1111,
-			1112,
-			1113,
-			1114,
-			1115,
-			1116,
-			1117,
-			1118,
-			1119,
-			1120,
-			1121,
-			1122,
-			1123,
-			1124,
-			1125,
-			1126,
-			1127,
-			1128
-		},
-		[12] = {
-			1201,
-			1202,
-			1203,
-			1204,
-			1205,
-			1206,
-			1207,
-			1208,
-			1209,
-			1210,
-			1211,
-			1212,
-			1213,
-			1214,
-			1215,
-			1216,
-			1217,
-			1218,
-			1219,
-			1220,
-			1221,
-			1222,
-			1223,
-			1224,
-			1225,
-			1226,
-			1227,
-			1228,
-			1229,
-			1230
-		},
-		[16] = {
-			1601,
-			1602,
-			1603,
-			1604,
-			1605,
-			1606,
-			1607,
-			1608,
-			1609
-		},
-		[14] = {
-			1401,
-			1402,
-			1403,
-			1404,
-			1405,
-			1406,
-			1407,
-			1408,
-			1409,
-			1410,
-			1411,
-			1412,
-			1413,
-			1414,
-			1415,
-			1416,
-			1417,
-			1418,
-			1419,
-			1420,
-			1421,
-			1422,
-			1423,
-			1424,
-			1425
-		}
-	},
-	all = {
+pg.dorm3d_collection_template = rawget(pg, "dorm3d_collection_template") or setmetatable({
+	__name = "dorm3d_collection_template"
+}, confNEO)
+pg.dorm3d_collection_template.__namecode__ = true
+pg.dorm3d_collection_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	39,
+	51,
+	52,
+	53,
+	54,
+	55,
+	56,
+	57,
+	58,
+	59,
+	60,
+	61,
+	62,
+	63,
+	64,
+	65,
+	66,
+	67,
+	68,
+	70,
+	72,
+	71,
+	76,
+	77,
+	78,
+	79,
+	74,
+	75,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	110,
+	111,
+	112,
+	113,
+	114,
+	115,
+	116,
+	117,
+	118,
+	119,
+	120,
+	121,
+	122,
+	123,
+	124,
+	125,
+	126,
+	127,
+	128,
+	1101,
+	1102,
+	1103,
+	1104,
+	1105,
+	1106,
+	1107,
+	1108,
+	1109,
+	1110,
+	1111,
+	1112,
+	1113,
+	1114,
+	1115,
+	1116,
+	1117,
+	1118,
+	1119,
+	1120,
+	1121,
+	1122,
+	1123,
+	1124,
+	1125,
+	1126,
+	1127,
+	1128,
+	1201,
+	1202,
+	1203,
+	1204,
+	1205,
+	1206,
+	1207,
+	1208,
+	1209,
+	1210,
+	1211,
+	1212,
+	1213,
+	1214,
+	1215,
+	1216,
+	1217,
+	1218,
+	1219,
+	1220,
+	1221,
+	1222,
+	1223,
+	1224,
+	1225,
+	1226,
+	1227,
+	1228,
+	1229,
+	1230,
+	1601,
+	1602,
+	1603,
+	1604,
+	1605,
+	1606,
+	1607,
+	1608,
+	1609,
+	1401,
+	1402,
+	1403,
+	1404,
+	1405,
+	1406,
+	1407,
+	1408,
+	1409,
+	1410,
+	1411,
+	1412,
+	1413,
+	1414,
+	1415,
+	1416,
+	1417,
+	1418,
+	1419,
+	1420,
+	1421,
+	1422,
+	1423,
+	1424,
+	1425
+}
+pg.dorm3d_collection_template.get_id_list_by_room_id = {
+	{
 		1,
 		2,
 		3,
@@ -235,16 +222,9 @@ pg.dorm3d_collection_template = setmetatable({
 		27,
 		28,
 		29,
-		30,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		39,
+		30
+	},
+	{
 		51,
 		52,
 		53,
@@ -271,7 +251,9 @@ pg.dorm3d_collection_template = setmetatable({
 		78,
 		79,
 		74,
-		75,
+		75
+	},
+	{
 		101,
 		102,
 		103,
@@ -299,7 +281,20 @@ pg.dorm3d_collection_template = setmetatable({
 		125,
 		126,
 		127,
-		128,
+		128
+	},
+	{
+		31,
+		32,
+		33,
+		34,
+		35,
+		36,
+		37,
+		38,
+		39
+	},
+	[11] = {
 		1101,
 		1102,
 		1103,
@@ -327,7 +322,9 @@ pg.dorm3d_collection_template = setmetatable({
 		1125,
 		1126,
 		1127,
-		1128,
+		1128
+	},
+	[12] = {
 		1201,
 		1202,
 		1203,
@@ -357,16 +354,9 @@ pg.dorm3d_collection_template = setmetatable({
 		1227,
 		1228,
 		1229,
-		1230,
-		1601,
-		1602,
-		1603,
-		1604,
-		1605,
-		1606,
-		1607,
-		1608,
-		1609,
+		1230
+	},
+	[14] = {
 		1401,
 		1402,
 		1403,
@@ -392,11 +382,24 @@ pg.dorm3d_collection_template = setmetatable({
 		1423,
 		1424,
 		1425
+	},
+	[16] = {
+		1601,
+		1602,
+		1603,
+		1604,
+		1605,
+		1606,
+		1607,
+		1608,
+		1609
 	}
-}, confHX)
+}
 pg.base = pg.base or {}
-pg.base.dorm3d_collection_template = {
-	{
+pg.base.dorm3d_collection_template = {}
+
+(function ()
+	pg.base.dorm3d_collection_template[1] = {
 		name = "Microwave Oven",
 		award = 0,
 		time = 0,
@@ -416,8 +419,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"fbx/litmap_04/pre_db_electrical01/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[2] = {
 		name = "Coffee Machine",
 		award = 0,
 		time = 0,
@@ -437,8 +440,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"fbx/litmap_04/pre_db_electrical07/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[3] = {
 		name = "Mary Janes",
 		award = 0,
 		time = 1,
@@ -458,8 +461,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_shoe01/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[4] = {
 		name = "Wall-Mounted Photograph",
 		award = 0,
 		time = 0,
@@ -479,8 +482,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_billboard06d/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[5] = {
 		name = "Toaster",
 		award = 0,
 		time = 1,
@@ -500,8 +503,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"no_bake_prop/pre_db_electrical02/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[6] = {
 		name = "Trash Can",
 		award = 0,
 		time = 1,
@@ -521,8 +524,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"no_bake_prop/pre_db_pail01/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[7] = {
 		name = "Blue Sky Picture Frame",
 		award = 0,
 		time = 0,
@@ -542,8 +545,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_billboard02/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[8] = {
 		name = "Preserved Butterfly",
 		award = 0,
 		time = 0,
@@ -563,8 +566,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_billboard03 (1)/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[9] = {
 		name = "Floor Lamp",
 		award = 0,
 		time = 0,
@@ -584,8 +587,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_chandelier06/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[10] = {
 		name = "Bread Plate",
 		award = 0,
 		time = 1,
@@ -605,8 +608,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"fbx/litmap_04/pre_db_food01b/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[11] = {
 		name = "Recreational Reading",
 		award = 0,
 		time = 1,
@@ -626,8 +629,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"no_bake_prop/pre_db_book01/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[12] = {
 		name = "Wine Glasses",
 		award = 0,
 		time = 1,
@@ -647,8 +650,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"no_bake_prop/pre_db_tableware07/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[13] = {
 		name = "Legendary Sword Replica",
 		award = 0,
 		time = 0,
@@ -668,8 +671,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"no_bake_prop/pre_db_decoration02/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[14] = {
 		name = "Flower Arrangement 1",
 		award = 0,
 		time = 0,
@@ -689,8 +692,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"fbx/litmap_04/pre_db_ceram05 (1)/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[15] = {
 		name = "Bedside Books",
 		award = 0,
 		time = 1,
@@ -710,8 +713,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_book08/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[16] = {
 		name = "Dresser",
 		award = 0,
 		time = 0,
@@ -731,8 +734,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"no_bake_prop/pre_db_dressingtablecomponents01/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[17] = {
 		name = "Jewelry Case",
 		award = 0,
 		time = 0,
@@ -752,8 +755,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"no_bake_prop/pre_db_jewelrybox01/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[18] = {
 		name = "Flower Arrangement 2",
 		award = 0,
 		time = 0,
@@ -773,8 +776,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"fbx/litmap_02/pre_db_ceram10_01/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[19] = {
 		name = "Mystery Novel",
 		award = 0,
 		time = 1,
@@ -794,8 +797,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"fbx/litmap_02/pre_db_book02/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[20] = {
 		name = "Stuffed Shiba Inu",
 		award = 0,
 		time = 1,
@@ -815,8 +818,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_toy03/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[21] = {
 		name = "A Summer Memory",
 		award = 0,
 		time = 0,
@@ -836,8 +839,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"no_bake_prop/pre_db_toy02/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[22] = {
 		name = "Box of Books",
 		award = 0,
 		time = 0,
@@ -857,8 +860,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"no_bake_prop/pre_db_paperskin01/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[23] = {
 		name = "Watering Pot",
 		award = 0,
 		time = 0,
@@ -878,8 +881,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"no_bake_prop/pre_db_smalltool02/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[24] = {
 		name = "Nightlight",
 		award = 0,
 		time = 2,
@@ -899,8 +902,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"no_bake_prop/pre_db_desklamp02/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[25] = {
 		name = "Sunglasses",
 		award = 0,
 		time = 2,
@@ -920,8 +923,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"no_bake_prop/pre_db_glasses01/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[26] = {
 		name = "Body Lotion",
 		award = 0,
 		time = 2,
@@ -941,8 +944,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"no_bake_prop/pre_db_cosmetic15/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[27] = {
 		name = "Aroma Diffuser",
 		award = 0,
 		time = 2,
@@ -962,8 +965,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"no_bake_prop/pre_db_cosmetic14/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[28] = {
 		name = "White Towel",
 		award = 0,
 		time = 2,
@@ -983,8 +986,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"no_bake_prop/pre_db_towel10/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[29] = {
 		name = "How to Win Your Commander's Heart - Volume 2",
 		award = 0,
 		time = 2,
@@ -1004,8 +1007,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"no_bake_prop/pre_db_book10/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[30] = {
 		name = "Half-Drunk Milk",
 		award = 0,
 		time = 2,
@@ -1025,8 +1028,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"no_bake_prop/pre_db_drink01/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[31] = {
 		name = "Splendid Sandcastle",
 		award = 0,
 		time = 0,
@@ -1046,8 +1049,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"no_bake_prop/pre_dp_toy05_01/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[32] = {
 		name = "Beach Tools",
 		award = 0,
 		time = 0,
@@ -1067,8 +1070,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"no_bake_prop/pre_db_smalltool09_01/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[33] = {
 		name = "Seabreeze Guitar",
 		award = 0,
 		time = 0,
@@ -1088,8 +1091,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"no_bake_prop/pre_guitar02/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[34] = {
 		name = "Half-Consumed Drink",
 		award = 0,
 		time = 0,
@@ -1109,8 +1112,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"no_bake_prop/pre_db_drink06_01/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[35] = {
 		name = "Surfboards",
 		award = 0,
 		time = 0,
@@ -1130,8 +1133,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"no_bake_prop/pre_db_sportinggoods04a_01/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[36] = {
 		name = "Cooler",
 		award = 0,
 		time = 0,
@@ -1151,8 +1154,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"fbx/litmap06/box/pre_plasticbox01_2/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[37] = {
 		name = "Inner Tubes",
 		award = 0,
 		time = 0,
@@ -1172,8 +1175,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"no_bake_prop/pre_db_sportinggoods02_01/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[38] = {
 		name = "Trash Can",
 		award = 0,
 		time = 0,
@@ -1193,8 +1196,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"no_bake_prop/pre_db_trashcan02/vfx_wupintishi01"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_collection_template[39] = {
 		name = "Lantern",
 		award = 0,
 		time = 0,
@@ -1214,8 +1217,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"fbx/litmap04/pre_desklamp01/vfx_wupintishi01"
 		}
-	},
-	[51] = {
+	}
+	pg.base.dorm3d_collection_template[51] = {
 		name = "Hanami Dango Plate",
 		award = 0,
 		time = 0,
@@ -1235,8 +1238,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"fbx/no_bake_pay_prop/livingroom/table/pre_db_tableware14/vfx_wupintishi01"
 		}
-	},
-	[52] = {
+	}
+	pg.base.dorm3d_collection_template[52] = {
 		name = "Tri-Color Mochi",
 		award = 0,
 		time = 0,
@@ -1256,8 +1259,8 @@ pg.base.dorm3d_collection_template = {
 		vfx_prefab = {
 			"fbx/no_bake_pay_prop/livingroom/table/pre_db_tableware15/vfx_wupintishi01"
 		}
-	},
-	[53] = {
+	}
+	pg.base.dorm3d_collection_template[53] = {
 		name = "Opened Book",
 		award = 0,
 		time = 1,
@@ -1281,8 +1284,8 @@ leaving many neat notes on the last pages.]],
 		vfx_prefab = {
 			"fbx/litmap_03/day/pre_db_book01/vfx_wupintishi01"
 		}
-	},
-	[54] = {
+	}
+	pg.base.dorm3d_collection_template[54] = {
 		name = "Bedding",
 		award = 0,
 		time = 0,
@@ -1302,8 +1305,8 @@ leaving many neat notes on the last pages.]],
 		vfx_prefab = {
 			"fbx/litmap_04/pre_db_quilt01/vfx_wupintishi01"
 		}
-	},
-	[55] = {
+	}
+	pg.base.dorm3d_collection_template[55] = {
 		name = "Uniform",
 		award = 0,
 		time = 0,
@@ -1323,8 +1326,8 @@ leaving many neat notes on the last pages.]],
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_cloth02_01/vfx_wupintishi01"
 		}
-	},
-	[56] = {
+	}
+	pg.base.dorm3d_collection_template[56] = {
 		name = "Sakuran Sweets",
 		award = 0,
 		time = 0,
@@ -1344,8 +1347,8 @@ leaving many neat notes on the last pages.]],
 		vfx_prefab = {
 			"fbx/no_bake_pay_prop/livingroom/table/pre_db_tableware13/vfx_wupintishi01"
 		}
-	},
-	[57] = {
+	}
+	pg.base.dorm3d_collection_template[57] = {
 		name = "Wind Chime",
 		award = 0,
 		time = 0,
@@ -1365,8 +1368,8 @@ leaving many neat notes on the last pages.]],
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_curtain04/vfx_wupintishi01"
 		}
-	},
-	[58] = {
+	}
+	pg.base.dorm3d_collection_template[58] = {
 		name = "Wind Chime 2",
 		award = 0,
 		time = 0,
@@ -1386,8 +1389,8 @@ leaving many neat notes on the last pages.]],
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_decoration06/vfx_wupintishi01"
 		}
-	},
-	[59] = {
+	}
+	pg.base.dorm3d_collection_template[59] = {
 		name = "Shopping Bag",
 		award = 0,
 		time = 0,
@@ -1407,8 +1410,8 @@ leaving many neat notes on the last pages.]],
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_bag01/vfx_wupintishi01"
 		}
-	},
-	[60] = {
+	}
+	pg.base.dorm3d_collection_template[60] = {
 		name = "Sakuran Kimono",
 		award = 0,
 		time = 0,
@@ -1428,8 +1431,8 @@ leaving many neat notes on the last pages.]],
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_frame06/vfx_wupintishi01"
 		}
-	},
-	[61] = {
+	}
+	pg.base.dorm3d_collection_template[61] = {
 		name = "Preserved Flowers",
 		award = 0,
 		time = 0,
@@ -1449,8 +1452,8 @@ leaving many neat notes on the last pages.]],
 		vfx_prefab = {
 			"fbx/litmap_03/day/pre_db_decoration07/vfx_wupintishi01"
 		}
-	},
-	[62] = {
+	}
+	pg.base.dorm3d_collection_template[62] = {
 		name = "Pine Bonsai",
 		award = 0,
 		time = 0,
@@ -1470,8 +1473,8 @@ leaving many neat notes on the last pages.]],
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_bonsai03_01/vfx_wupintishi01"
 		}
-	},
-	[63] = {
+	}
+	pg.base.dorm3d_collection_template[63] = {
 		name = "Water Ornament",
 		award = 0,
 		time = 0,
@@ -1491,8 +1494,8 @@ leaving many neat notes on the last pages.]],
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_noshirohostel01_02/vfx_wupintishi01"
 		}
-	},
-	[64] = {
+	}
+	pg.base.dorm3d_collection_template[64] = {
 		name = "Sakuran Umbrella",
 		award = 0,
 		time = 0,
@@ -1512,8 +1515,8 @@ leaving many neat notes on the last pages.]],
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_decoration05_01/vfx_wupintishi01"
 		}
-	},
-	[65] = {
+	}
+	pg.base.dorm3d_collection_template[65] = {
 		name = "Round Cushion",
 		award = 0,
 		time = 0,
@@ -1533,8 +1536,8 @@ leaving many neat notes on the last pages.]],
 		vfx_prefab = {
 			"fbx/no_bake_pay_prop/livingroom/table/pre_db_chair08/vfx_wupintishi01"
 		}
-	},
-	[66] = {
+	}
+	pg.base.dorm3d_collection_template[66] = {
 		name = "Sushi Platter",
 		award = 0,
 		time = 0,
@@ -1559,8 +1562,8 @@ Turns out Noshiro isn't a stickler for tradition.]],
 		vfx_prefab = {
 			"fbx/no_bake_pay_prop/diningroom/pre_db_tableware12_01/vfx_wupintishi01"
 		}
-	},
-	[67] = {
+	}
+	pg.base.dorm3d_collection_template[67] = {
 		name = "Cherry Blossom Branch",
 		award = 0,
 		time = 0,
@@ -1580,8 +1583,8 @@ Turns out Noshiro isn't a stickler for tradition.]],
 		vfx_prefab = {
 			"fbx/no_bake_pay_prop/livingroom/table/pre_db_flowers04/vfx_wupintishi01"
 		}
-	},
-	[68] = {
+	}
+	pg.base.dorm3d_collection_template[68] = {
 		name = "Stack of Books",
 		award = 0,
 		time = 0,
@@ -1601,8 +1604,8 @@ Turns out Noshiro isn't a stickler for tradition.]],
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_book04_01/vfx_wupintishi01"
 		}
-	},
-	[70] = {
+	}
+	pg.base.dorm3d_collection_template[70] = {
 		name = "Kettle",
 		award = 0,
 		time = 0,
@@ -1622,8 +1625,8 @@ Turns out Noshiro isn't a stickler for tradition.]],
 		vfx_prefab = {
 			"fbx/litmap_02/pre_db_tableware09/vfx_wupintishi01"
 		}
-	},
-	[72] = {
+	}
+	pg.base.dorm3d_collection_template[72] = {
 		name = "Tied Hanging Scrolls",
 		award = 0,
 		time = 0,
@@ -1643,8 +1646,8 @@ Turns out Noshiro isn't a stickler for tradition.]],
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_cupboard08_01/vfx_wupintishi01"
 		}
-	},
-	[71] = {
+	}
+	pg.base.dorm3d_collection_template[71] = {
 		name = "Stone Lantern",
 		award = 0,
 		time = 1,
@@ -1664,8 +1667,8 @@ Turns out Noshiro isn't a stickler for tradition.]],
 		vfx_prefab = {
 			"fbx/litmap_03/day/pre_db_noshirohostel01_lamp02/vfx_wupintishi01"
 		}
-	},
-	[76] = {
+	}
+	pg.base.dorm3d_collection_template[76] = {
 		name = "Humidifier",
 		award = 0,
 		time = 2,
@@ -1689,8 +1692,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/litmap_03/night/pre_db_electrical08/vfx_wupintishi01"
 		}
-	},
-	[77] = {
+	}
+	pg.base.dorm3d_collection_template[77] = {
 		name = "Skincare Oil",
 		award = 0,
 		time = 2,
@@ -1710,8 +1713,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/litmap_03/night/pre_db_cosmetic10/vfx_wupintishi01"
 		}
-	},
-	[78] = {
+	}
+	pg.base.dorm3d_collection_template[78] = {
 		name = "Perfume Bottle",
 		award = 0,
 		time = 2,
@@ -1731,8 +1734,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/litmap_03/night/pre_db_cosmetic01_01/pre_db_cosmetic01c/vfx_wupintishi01"
 		}
-	},
-	[79] = {
+	}
+	pg.base.dorm3d_collection_template[79] = {
 		name = "Reed Diffuser",
 		award = 0,
 		time = 2,
@@ -1752,8 +1755,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/litmap_04/night/pre_db_cosmetic02a_01/vfx_wupintishi01"
 		}
-	},
-	[74] = {
+	}
+	pg.base.dorm3d_collection_template[74] = {
 		name = "Wooden Lantern",
 		award = 0,
 		time = 2,
@@ -1773,8 +1776,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/litmap_03/night/pre_db_chandelier11_on/vfx_wupintishi01"
 		}
-	},
-	[75] = {
+	}
+	pg.base.dorm3d_collection_template[75] = {
 		name = "Floor Lamp",
 		award = 0,
 		time = 2,
@@ -1794,8 +1797,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/no_bake_pay_prop/livingroom/pre_db_chandelier08_on/vfx_wupintishi01"
 		}
-	},
-	[101] = {
+	}
+	pg.base.dorm3d_collection_template[101] = {
 		name = "Balloons and Photo",
 		award = 0,
 		time = 0,
@@ -1815,8 +1818,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/litmap_02/pre_db_billboard14/vfx_wupintishi01"
 		}
-	},
-	[102] = {
+	}
+	pg.base.dorm3d_collection_template[102] = {
 		name = "Bunny Tea Set",
 		award = 0,
 		time = 0,
@@ -1836,8 +1839,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/litmap_02/pre_db_ceram11_group01/vfx_wupintishi01"
 		}
-	},
-	[103] = {
+	}
+	pg.base.dorm3d_collection_template[103] = {
 		name = "Wish List",
 		award = 0,
 		time = 0,
@@ -1857,8 +1860,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/litmap_02/pre_db_blackboard01/vfx_wupintishi01"
 		}
-	},
-	[104] = {
+	}
+	pg.base.dorm3d_collection_template[104] = {
 		name = "Trove of Knowledge",
 		award = 0,
 		time = 0,
@@ -1878,8 +1881,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/litmap_02/pre_db_book15_group01/vfx_wupintishi01"
 		}
-	},
-	[105] = {
+	}
+	pg.base.dorm3d_collection_template[105] = {
 		name = "Castle Storage",
 		award = 0,
 		time = 0,
@@ -1899,8 +1902,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/litmap_02/pre_db_cupboard18/vfx_wupintishi01"
 		}
-	},
-	[106] = {
+	}
+	pg.base.dorm3d_collection_template[106] = {
 		name = "Classic Piano",
 		award = 0,
 		time = 0,
@@ -1920,8 +1923,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/litmap_02/pre_db_musicalInstrument02/vfx_wupintishi01"
 		}
-	},
-	[107] = {
+	}
+	pg.base.dorm3d_collection_template[107] = {
 		name = "Crayon Drawing",
 		award = 0,
 		time = 0,
@@ -1941,8 +1944,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/litmap_02/pre_db_paper02_group01/vfx_wupintishi01"
 		}
-	},
-	[108] = {
+	}
+	pg.base.dorm3d_collection_template[108] = {
 		name = "Alarm Clock",
 		award = 0,
 		time = 0,
@@ -1962,8 +1965,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/no_bake_pay_prop/bedroom/pre_db_clock02/vfx_wupintishi01"
 		}
-	},
-	[109] = {
+	}
+	pg.base.dorm3d_collection_template[109] = {
 		name = "Storage Box",
 		award = 0,
 		time = 0,
@@ -1983,8 +1986,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/litmap_02/pre_db_basket04_group01/vfx_wupintishi01"
 		}
-	},
-	[110] = {
+	}
+	pg.base.dorm3d_collection_template[110] = {
 		name = "Floatie",
 		award = 0,
 		time = 0,
@@ -2004,8 +2007,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/litmap_02/pre_db_toy07/vfx_wupintishi01"
 		}
-	},
-	[111] = {
+	}
+	pg.base.dorm3d_collection_template[111] = {
 		name = "Safety Knife",
 		award = 0,
 		time = 0,
@@ -2025,8 +2028,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/litmap_02/pre_db_kitchenware08_group01/vfx_wupintishi01"
 		}
-	},
-	[112] = {
+	}
+	pg.base.dorm3d_collection_template[112] = {
 		name = "Fairy Tale Picture Book",
 		award = 0,
 		time = 0,
@@ -2046,8 +2049,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/no_bake_pay_prop/livingroom/pre_db_book11a/vfx_wupintishi01"
 		}
-	},
-	[113] = {
+	}
+	pg.base.dorm3d_collection_template[113] = {
 		name = "Fluffy Plushie",
 		award = 0,
 		time = 0,
@@ -2067,8 +2070,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/no_bake_pay_prop/livingroom/pre_db_toy06/vfx_wupintishi01"
 		}
-	},
-	[114] = {
+	}
+	pg.base.dorm3d_collection_template[114] = {
 		name = "Cactus",
 		award = 0,
 		time = 0,
@@ -2088,8 +2091,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/litmap_02/pre_db_flowerpot10/vfx_wupintishi01"
 		}
-	},
-	[115] = {
+	}
+	pg.base.dorm3d_collection_template[115] = {
 		name = "Kitchenware",
 		award = 0,
 		time = 0,
@@ -2109,8 +2112,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/litmap_02/pre_db_kitchenware01/vfx_wupintishi01"
 		}
-	},
-	[116] = {
+	}
+	pg.base.dorm3d_collection_template[116] = {
 		name = "Orca Chair",
 		award = 0,
 		time = 0,
@@ -2130,8 +2133,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/no_bake_pay_prop/livingroom/pre_db_chair16/vfx_wupintishi01"
 		}
-	},
-	[117] = {
+	}
+	pg.base.dorm3d_collection_template[117] = {
 		name = "Basket",
 		award = 0,
 		time = 0,
@@ -2151,8 +2154,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/litmap_02/pre_db_basket05/vfx_wupintishi01"
 		}
-	},
-	[118] = {
+	}
+	pg.base.dorm3d_collection_template[118] = {
 		name = "Whale Plushie",
 		award = 0,
 		time = 0,
@@ -2172,8 +2175,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/no_bake_pay_prop/bedroom/pre_db_toy10/vfx_wupintishi01"
 		}
-	},
-	[119] = {
+	}
+	pg.base.dorm3d_collection_template[119] = {
 		name = "Small Blackboard",
 		award = 0,
 		time = 0,
@@ -2193,8 +2196,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/no_bake_pay_prop/entertainmentarea/pre_db_blackboard02/vfx_wupintishi01"
 		}
-	},
-	[120] = {
+	}
+	pg.base.dorm3d_collection_template[120] = {
 		name = "Cube Cushion",
 		award = 0,
 		time = 0,
@@ -2214,8 +2217,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/no_bake_pay_prop/entertainmentarea/pre_db_toy12/vfx_wupintishi01"
 		}
-	},
-	[121] = {
+	}
+	pg.base.dorm3d_collection_template[121] = {
 		name = "Adorned Photos",
 		award = 0,
 		time = 0,
@@ -2235,8 +2238,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/litmap_02/pre_db_decoration12/vfx_wupintishi01"
 		}
-	},
-	[122] = {
+	}
+	pg.base.dorm3d_collection_template[122] = {
 		name = "Umbrella Stand",
 		award = 0,
 		time = 1,
@@ -2256,8 +2259,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/litmap_02/day/pre_db_decoration11/vfx_wupintishi01"
 		}
-	},
-	[123] = {
+	}
+	pg.base.dorm3d_collection_template[123] = {
 		name = "Thermos",
 		award = 0,
 		time = 1,
@@ -2277,8 +2280,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/litmap_02/day/pre_db_tableware26/vfx_wupintishi01"
 		}
-	},
-	[124] = {
+	}
+	pg.base.dorm3d_collection_template[124] = {
 		name = "Stickers",
 		award = 0,
 		time = 1,
@@ -2298,8 +2301,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/litmap_02/day/pre_db_cupboard19_01/vfx_wupintishi01"
 		}
-	},
-	[125] = {
+	}
+	pg.base.dorm3d_collection_template[125] = {
 		name = "Bedside Lamp",
 		award = 0,
 		time = 2,
@@ -2319,8 +2322,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/no_bake_pay_prop/bedroom/pre_db_desklamp03/vfx_wupintishi01"
 		}
-	},
-	[126] = {
+	}
+	pg.base.dorm3d_collection_template[126] = {
 		name = "Whale Pendant Light",
 		award = 0,
 		time = 2,
@@ -2340,8 +2343,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/no_bake/pre_db_anchoragehostel01_lamp01_night/vfx_wupintishi01"
 		}
-	},
-	[127] = {
+	}
+	pg.base.dorm3d_collection_template[127] = {
 		name = "Manjuu Mug",
 		award = 0,
 		time = 2,
@@ -2361,8 +2364,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/no_bake_pay_prop/livingroom/pre_db_tableware24/vfx_wupintishi01"
 		}
-	},
-	[128] = {
+	}
+	pg.base.dorm3d_collection_template[128] = {
 		name = "Bath Towels",
 		award = 0,
 		time = 2,
@@ -2382,8 +2385,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/litmap_02/night/pre_db_towel01_group01/vfx_wupintishi01"
 		}
-	},
-	[1101] = {
+	}
+	pg.base.dorm3d_collection_template[1101] = {
 		name = "Caramel Popcorn",
 		award = 0,
 		time = 0,
@@ -2403,8 +2406,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_electrical18/vfx_wupintishi01"
 		}
-	},
-	[1102] = {
+	}
+	pg.base.dorm3d_collection_template[1102] = {
 		name = "Bunny Apron",
 		award = 0,
 		time = 0,
@@ -2424,8 +2427,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_cloth05/vfx_wupintishi01"
 		}
-	},
-	[1103] = {
+	}
+	pg.base.dorm3d_collection_template[1103] = {
 		name = "Juicer",
 		award = 0,
 		time = 0,
@@ -2445,8 +2448,8 @@ She says it's good for her skin.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_electrical13/vfx_wupintishi01"
 		}
-	},
-	[1104] = {
+	}
+	pg.base.dorm3d_collection_template[1104] = {
 		name = "Bowl of Strawberries",
 		award = 0,
 		time = 0,
@@ -2470,8 +2473,8 @@ and you find your heart skipping a beat as she places it in her mouth.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_fruit01/vfx_wupintishi01"
 		}
-	},
-	[1105] = {
+	}
+	pg.base.dorm3d_collection_template[1105] = {
 		name = "Range Hood",
 		award = 0,
 		time = 0,
@@ -2491,8 +2494,8 @@ and you find your heart skipping a beat as she places it in her mouth.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_newjerseyhostel01_cupboard01/vfx_wupintishi01"
 		}
-	},
-	[1106] = {
+	}
+	pg.base.dorm3d_collection_template[1106] = {
 		name = "Lemon Water",
 		award = 0,
 		time = 0,
@@ -2512,8 +2515,10 @@ and you find your heart skipping a beat as she places it in her mouth.]],
 		vfx_prefab = {
 			"no_bake_pay_prop/kitchen/pre_db_tableware28_group/vfx_wupintishi01"
 		}
-	},
-	[1107] = {
+	}
+end)()
+(function ()
+	pg.base.dorm3d_collection_template[1107] = {
 		name = "White Jacket",
 		award = 0,
 		time = 0,
@@ -2533,8 +2538,8 @@ and you find your heart skipping a beat as she places it in her mouth.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_cloth06/vfx_wupintishi01"
 		}
-	},
-	[1108] = {
+	}
+	pg.base.dorm3d_collection_template[1108] = {
 		name = "Toaster",
 		award = 0,
 		time = 0,
@@ -2554,8 +2559,8 @@ and you find your heart skipping a beat as she places it in her mouth.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_electrical10_01/vfx_wupintishi01"
 		}
-	},
-	[1109] = {
+	}
+	pg.base.dorm3d_collection_template[1109] = {
 		name = "Jungle Vibes",
 		award = 0,
 		time = 0,
@@ -2579,8 +2584,8 @@ you can feel the fresh, revitalizing air it brings.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_bonsai13/vfx_wupintishi01"
 		}
-	},
-	[1110] = {
+	}
+	pg.base.dorm3d_collection_template[1110] = {
 		name = "Glazed Donut",
 		award = 0,
 		time = 0,
@@ -2600,8 +2605,8 @@ you can feel the fresh, revitalizing air it brings.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_food16_group/vfx_wupintishi01"
 		}
-	},
-	[1111] = {
+	}
+	pg.base.dorm3d_collection_template[1111] = {
 		name = "Robot Vacuum",
 		award = 0,
 		time = 0,
@@ -2621,8 +2626,8 @@ you can feel the fresh, revitalizing air it brings.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_electrical17/vfx_wupintishi01"
 		}
-	},
-	[1112] = {
+	}
+	pg.base.dorm3d_collection_template[1112] = {
 		name = "4K TV",
 		award = 0,
 		time = 0,
@@ -2646,8 +2651,8 @@ Explosive action? Or a kiss in the rain on Union streets?]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_appliances06/vfx_wupintishi01"
 		}
-	},
-	[1113] = {
+	}
+	pg.base.dorm3d_collection_template[1113] = {
 		name = "Fashion Magazines",
 		award = 0,
 		time = 0,
@@ -2667,8 +2672,8 @@ Explosive action? Or a kiss in the rain on Union streets?]],
 		vfx_prefab = {
 			"no_bake_pay_prop/livingroom/pre_db_book05_group/vfx_wupintishi01"
 		}
-	},
-	[1114] = {
+	}
+	pg.base.dorm3d_collection_template[1114] = {
 		name = "Handbag",
 		award = 0,
 		time = 0,
@@ -2688,8 +2693,8 @@ Explosive action? Or a kiss in the rain on Union streets?]],
 		vfx_prefab = {
 			"no_bake_pay_prop/livingroom/pre_db_bag05/vfx_wupintishi01"
 		}
-	},
-	[1115] = {
+	}
+	pg.base.dorm3d_collection_template[1115] = {
 		name = "Sports Gear",
 		award = 0,
 		time = 0,
@@ -2709,8 +2714,8 @@ Explosive action? Or a kiss in the rain on Union streets?]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_bag03_group/vfx_wupintishi01"
 		}
-	},
-	[1116] = {
+	}
+	pg.base.dorm3d_collection_template[1116] = {
 		name = "Big J Nameplate",
 		award = 0,
 		time = 0,
@@ -2730,8 +2735,8 @@ Explosive action? Or a kiss in the rain on Union streets?]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_newjerseyhostel01_billboard01_1/vfx_wupintishi01"
 		}
-	},
-	[1117] = {
+	}
+	pg.base.dorm3d_collection_template[1117] = {
 		name = "Clothes Rack",
 		award = 0,
 		time = 0,
@@ -2755,8 +2760,8 @@ Not so simple when it really counts.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_cloth07_group/vfx_wupintishi01"
 		}
-	},
-	[1118] = {
+	}
+	pg.base.dorm3d_collection_template[1118] = {
 		name = "Clear Tote",
 		award = 0,
 		time = 0,
@@ -2776,8 +2781,8 @@ Not so simple when it really counts.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_bag06/vfx_wupintishi01"
 		}
-	},
-	[1119] = {
+	}
+	pg.base.dorm3d_collection_template[1119] = {
 		name = "Bunny Ears",
 		award = 0,
 		time = 0,
@@ -2797,8 +2802,8 @@ Not so simple when it really counts.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_headgear01/vfx_wupintishi01"
 		}
-	},
-	[1120] = {
+	}
+	pg.base.dorm3d_collection_template[1120] = {
 		name = "Air Conditioner",
 		award = 0,
 		time = 0,
@@ -2818,8 +2823,8 @@ Not so simple when it really counts.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_appliances01/vfx_wupintishi01"
 		}
-	},
-	[1121] = {
+	}
+	pg.base.dorm3d_collection_template[1121] = {
 		name = "Air Purifier",
 		award = 0,
 		time = 0,
@@ -2839,8 +2844,8 @@ Not so simple when it really counts.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_appliances03/vfx_wupintishi01"
 		}
-	},
-	[1122] = {
+	}
+	pg.base.dorm3d_collection_template[1122] = {
 		name = "Frozen Drinks",
 		award = 0,
 		time = 0,
@@ -2860,8 +2865,8 @@ Not so simple when it really counts.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_food03_group/vfx_wupintishi01"
 		}
-	},
-	[1123] = {
+	}
+	pg.base.dorm3d_collection_template[1123] = {
 		name = "Wireless Speaker",
 		award = 0,
 		time = 0,
@@ -2881,8 +2886,8 @@ Not so simple when it really counts.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_electrical03/vfx_wupintishi01"
 		}
-	},
-	[1124] = {
+	}
+	pg.base.dorm3d_collection_template[1124] = {
 		name = "Bunny Nightlight",
 		award = 0,
 		time = 2,
@@ -2902,8 +2907,8 @@ Not so simple when it really counts.]],
 		vfx_prefab = {
 			"fbx/litmap_01/night/pre_db_newjerseyhostel01_lamp01a_on/vfx_wupintishi01"
 		}
-	},
-	[1125] = {
+	}
+	pg.base.dorm3d_collection_template[1125] = {
 		name = "Dumbbells",
 		award = 0,
 		time = 0,
@@ -2927,8 +2932,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"no_bake_pay_prop/livingroom/pre_db_sportinggoods06_group/vfx_wupintishi01"
 		}
-	},
-	[1126] = {
+	}
+	pg.base.dorm3d_collection_template[1126] = {
 		name = "Curling Iron",
 		award = 0,
 		time = 0,
@@ -2948,8 +2953,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_electrical15/vfx_wupintishi01"
 		}
-	},
-	[1127] = {
+	}
+	pg.base.dorm3d_collection_template[1127] = {
 		name = "Black Stockings",
 		award = 0,
 		time = 2,
@@ -2969,8 +2974,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/night/pre_db_sock01/vfx_wupintishi01"
 		}
-	},
-	[1128] = {
+	}
+	pg.base.dorm3d_collection_template[1128] = {
 		name = "Skincare Set",
 		award = 0,
 		time = 2,
@@ -2990,8 +2995,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/night/pre_db_cosmetic17/vfx_wupintishi01"
 		}
-	},
-	[1201] = {
+	}
+	pg.base.dorm3d_collection_template[1201] = {
 		name = "Porcelain",
 		award = 0,
 		time = 0,
@@ -3011,8 +3016,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_ceram23/vfx_wupintishi01"
 		}
-	},
-	[1202] = {
+	}
+	pg.base.dorm3d_collection_template[1202] = {
 		name = "After-School Fun",
 		award = 0,
 		time = 2,
@@ -3032,8 +3037,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/night/pre_db_cloth11/vfx_wupintishi01"
 		}
-	},
-	[1203] = {
+	}
+	pg.base.dorm3d_collection_template[1203] = {
 		name = "Forbidden Feast",
 		award = 0,
 		time = 0,
@@ -3053,8 +3058,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_cloth10/vfx_wupintishi01"
 		}
-	},
-	[1204] = {
+	}
+	pg.base.dorm3d_collection_template[1204] = {
 		name = "Wooden Storage Box",
 		award = 0,
 		time = 0,
@@ -3074,8 +3079,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_woodbox03/vfx_wupintishi01"
 		}
-	},
-	[1205] = {
+	}
+	pg.base.dorm3d_collection_template[1205] = {
 		name = "Small Bonsai",
 		award = 0,
 		time = 0,
@@ -3095,8 +3100,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_bonsai20/vfx_wupintishi01"
 		}
-	},
-	[1206] = {
+	}
+	pg.base.dorm3d_collection_template[1206] = {
 		name = "Phoenix Hairpin",
 		award = 0,
 		time = 0,
@@ -3116,8 +3121,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_headgear02/vfx_wupintishi01"
 		}
-	},
-	[1207] = {
+	}
+	pg.base.dorm3d_collection_template[1207] = {
 		name = "Geta Clogs",
 		award = 0,
 		time = 0,
@@ -3137,8 +3142,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_shoe02/vfx_wupintishi01"
 		}
-	},
-	[1208] = {
+	}
+	pg.base.dorm3d_collection_template[1208] = {
 		name = "Book Collection",
 		award = 0,
 		time = 0,
@@ -3158,8 +3163,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_book19/vfx_wupintishi01"
 		}
-	},
-	[1209] = {
+	}
+	pg.base.dorm3d_collection_template[1209] = {
 		name = "Incense Burner",
 		award = 0,
 		time = 2,
@@ -3179,8 +3184,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/night/pre_db_decoration17/vfx_wupintishi01"
 		}
-	},
-	[1210] = {
+	}
+	pg.base.dorm3d_collection_template[1210] = {
 		name = "Cat Tree",
 		award = 0,
 		time = 0,
@@ -3200,8 +3205,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_decoration04/vfx_wupintishi01"
 		}
-	},
-	[1211] = {
+	}
+	pg.base.dorm3d_collection_template[1211] = {
 		name = "Aromatherapy Candle",
 		award = 0,
 		time = 2,
@@ -3221,8 +3226,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/night/pre_db_decoration19/vfx_wupintishi01"
 		}
-	},
-	[1212] = {
+	}
+	pg.base.dorm3d_collection_template[1212] = {
 		name = "Vivacious Flowers",
 		award = 0,
 		time = 0,
@@ -3242,8 +3247,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_flowerpot16/vfx_wupintishi01"
 		}
-	},
-	[1213] = {
+	}
+	pg.base.dorm3d_collection_template[1213] = {
 		name = "Cat Bowls",
 		award = 0,
 		time = 0,
@@ -3263,8 +3268,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_tableware44/vfx_wupintishi01"
 		}
-	},
-	[1214] = {
+	}
+	pg.base.dorm3d_collection_template[1214] = {
 		name = "Fruit Bowl",
 		award = 0,
 		time = 0,
@@ -3284,8 +3289,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"no_bake_pay_prop/kitchen/pre_db_df_kitchen01_0/pre_db_tableware47/vfx_wupintishi01"
 		}
-	},
-	[1215] = {
+	}
+	pg.base.dorm3d_collection_template[1215] = {
 		name = "Full-Size Fridge",
 		award = 0,
 		time = 0,
@@ -3305,8 +3310,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_appliances08/vfx_wupintishi01"
 		}
-	},
-	[1216] = {
+	}
+	pg.base.dorm3d_collection_template[1216] = {
 		name = "Ceramic Knife",
 		award = 0,
 		time = 0,
@@ -3326,8 +3331,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"no_bake/pre_db_kitchenware25/vfx_wupintishi01"
 		}
-	},
-	[1217] = {
+	}
+	pg.base.dorm3d_collection_template[1217] = {
 		name = "Kettle",
 		award = 0,
 		time = 0,
@@ -3347,8 +3352,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_kitchenware19/vfx_wupintishi01"
 		}
-	},
-	[1218] = {
+	}
+	pg.base.dorm3d_collection_template[1218] = {
 		name = "Temari Ball",
 		award = 0,
 		time = 2,
@@ -3368,8 +3373,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/night/pre_db_toy15/vfx_wupintishi01"
 		}
-	},
-	[1219] = {
+	}
+	pg.base.dorm3d_collection_template[1219] = {
 		name = "Cushioned Seat",
 		award = 0,
 		time = 0,
@@ -3389,8 +3394,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_chair28/vfx_wupintishi01"
 		}
-	},
-	[1220] = {
+	}
+	pg.base.dorm3d_collection_template[1220] = {
 		name = "Tuna Sushi",
 		award = 0,
 		time = 2,
@@ -3410,8 +3415,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"no_bake_pay_prop/kitchen/pre_db_df_kitchen01_0/pre_db_food22/vfx_wupintishi01"
 		}
-	},
-	[1221] = {
+	}
+	pg.base.dorm3d_collection_template[1221] = {
 		name = "Loving Lunch",
 		award = 0,
 		time = 2,
@@ -3431,8 +3436,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"no_bake_pay_prop/kitchen/pre_db_df_kitchen01_0/pre_db_food23/vfx_wupintishi01"
 		}
-	},
-	[1222] = {
+	}
+	pg.base.dorm3d_collection_template[1222] = {
 		name = "Wooden Cabinet",
 		award = 0,
 		time = 0,
@@ -3452,8 +3457,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_cupboard29/vfx_wupintishi01"
 		}
-	},
-	[1223] = {
+	}
+	pg.base.dorm3d_collection_template[1223] = {
 		name = "Kitchen Set",
 		award = 0,
 		time = 0,
@@ -3473,8 +3478,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_kitchenware21/vfx_wupintishi01"
 		}
-	},
-	[1224] = {
+	}
+	pg.base.dorm3d_collection_template[1224] = {
 		name = "Paper Fan",
 		award = 0,
 		time = 0,
@@ -3494,8 +3499,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_decoration16b/vfx_wupintishi01"
 		}
-	},
-	[1225] = {
+	}
+	pg.base.dorm3d_collection_template[1225] = {
 		name = "Calligraphy Desk",
 		award = 0,
 		time = 0,
@@ -3515,8 +3520,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_table19/vfx_wupintishi01"
 		}
-	},
-	[1226] = {
+	}
+	pg.base.dorm3d_collection_template[1226] = {
 		name = "Decorative Flowers",
 		award = 0,
 		time = 0,
@@ -3536,8 +3541,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_flowerpot19/vfx_wupintishi01"
 		}
-	},
-	[1227] = {
+	}
+	pg.base.dorm3d_collection_template[1227] = {
 		name = "Range Hood",
 		award = 0,
 		time = 0,
@@ -3557,8 +3562,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_dafeng01_rangehood01/vfx_wupintishi01"
 		}
-	},
-	[1228] = {
+	}
+	pg.base.dorm3d_collection_template[1228] = {
 		name = "Framed Fan",
 		award = 0,
 		time = 0,
@@ -3578,8 +3583,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"no_bake_pay_prop/entertainment/pre_db_df_entertainment_01_0/pre_db_billboard27/vfx_wupintishi01"
 		}
-	},
-	[1229] = {
+	}
+	pg.base.dorm3d_collection_template[1229] = {
 		name = "Kitty Wall Scroll",
 		award = 0,
 		time = 0,
@@ -3599,8 +3604,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_wallscrolls03/vfx_wupintishi01"
 		}
-	},
-	[1230] = {
+	}
+	pg.base.dorm3d_collection_template[1230] = {
 		name = "Ceramic Cups",
 		award = 0,
 		time = 0,
@@ -3620,8 +3625,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_ceram18/vfx_wupintishi01"
 		}
-	},
-	[1601] = {
+	}
+	pg.base.dorm3d_collection_template[1601] = {
 		name = "Menu",
 		award = 0,
 		time = 0,
@@ -3637,8 +3642,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_billboard16_2/vfx_wupintishi01"
 		}
-	},
-	[1602] = {
+	}
+	pg.base.dorm3d_collection_template[1602] = {
 		name = "Signs",
 		award = 0,
 		time = 0,
@@ -3654,8 +3659,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_billboard13/vfx_wupintishi01"
 		}
-	},
-	[1603] = {
+	}
+	pg.base.dorm3d_collection_template[1603] = {
 		name = "Candle",
 		award = 0,
 		time = 0,
@@ -3671,8 +3676,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_desklamp06_1/vfx_wupintishi01"
 		}
-	},
-	[1604] = {
+	}
+	pg.base.dorm3d_collection_template[1604] = {
 		name = "Order Counter",
 		award = 0,
 		time = 0,
@@ -3688,8 +3693,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_electrical19/vfx_wupintishi01"
 		}
-	},
-	[1605] = {
+	}
+	pg.base.dorm3d_collection_template[1605] = {
 		name = "Bottle",
 		award = 0,
 		time = 0,
@@ -3705,8 +3710,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_drink03_1/vfx_wupintishi01"
 		}
-	},
-	[1606] = {
+	}
+	pg.base.dorm3d_collection_template[1606] = {
 		name = "Chocolate Donut",
 		award = 0,
 		time = 0,
@@ -3722,8 +3727,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_food07/vfx_wupintishi01"
 		}
-	},
-	[1607] = {
+	}
+	pg.base.dorm3d_collection_template[1607] = {
 		name = "Cocktail Set",
 		award = 0,
 		time = 0,
@@ -3739,8 +3744,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_frame23_group/vfx_wupintishi01"
 		}
-	},
-	[1608] = {
+	}
+	pg.base.dorm3d_collection_template[1608] = {
 		name = "Napkins",
 		award = 0,
 		time = 0,
@@ -3756,8 +3761,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_tableware30_4/vfx_wupintishi01"
 		}
-	},
-	[1609] = {
+	}
+	pg.base.dorm3d_collection_template[1609] = {
 		name = "Carved Mascot",
 		award = 0,
 		time = 0,
@@ -3773,8 +3778,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_publiccafe01_statue01/vfx_wupintishi01"
 		}
-	},
-	[1401] = {
+	}
+	pg.base.dorm3d_collection_template[1401] = {
 		name = "Vintage Gramophone",
 		award = 0,
 		time = 0,
@@ -3794,8 +3799,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_decoration25/vfx_wupintishi01"
 		}
-	},
-	[1402] = {
+	}
+	pg.base.dorm3d_collection_template[1402] = {
 		name = "Classic Candelabra",
 		award = 0,
 		time = 2,
@@ -3815,8 +3820,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/night/pre_db_decoration26_on/vfx_wupintishi01"
 		}
-	},
-	[1403] = {
+	}
+	pg.base.dorm3d_collection_template[1403] = {
 		name = "Record Collection",
 		award = 0,
 		time = 0,
@@ -3836,8 +3841,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_05/pre_db_decoration28/vfx_wupintishi01"
 		}
-	},
-	[1404] = {
+	}
+	pg.base.dorm3d_collection_template[1404] = {
 		name = "Twinbell Alarm Clock",
 		award = 0,
 		time = 0,
@@ -3857,8 +3862,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_05/pre_db_clock04/vfx_wupintishi01"
 		}
-	},
-	[1405] = {
+	}
+	pg.base.dorm3d_collection_template[1405] = {
 		name = "Bronze Goblet",
 		award = 0,
 		time = 2,
@@ -3878,8 +3883,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/night/pre_db_decoration23/vfx_wupintishi01"
 		}
-	},
-	[1406] = {
+	}
+	pg.base.dorm3d_collection_template[1406] = {
 		name = "Ceramic Teacup",
 		award = 0,
 		time = 0,
@@ -3899,8 +3904,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"no_bake_pay_prop/livingroom/pre_db_aijier_living01_0/pre_db_ceram28_group02/pre_db_ceram28a/vfx_wupintishi01"
 		}
-	},
-	[1407] = {
+	}
+	pg.base.dorm3d_collection_template[1407] = {
 		name = "Art Display",
 		award = 0,
 		time = 0,
@@ -3920,8 +3925,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_billboard_group/vfx_wupintishi01"
 		}
-	},
-	[1408] = {
+	}
+	pg.base.dorm3d_collection_template[1408] = {
 		name = "Wooden Wardrobe",
 		award = 0,
 		time = 0,
@@ -3941,8 +3946,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_cupboard38/vfx_wupintishi01"
 		}
-	},
-	[1409] = {
+	}
+	pg.base.dorm3d_collection_template[1409] = {
 		name = "Hand Mirror",
 		award = 0,
 		time = 0,
@@ -3962,8 +3967,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"no_bake_pay_prop/entertainment/pre_db_aje_entertainment01_0/pre_db_mirror05/vfx_wupintishi01"
 		}
-	},
-	[1410] = {
+	}
+	pg.base.dorm3d_collection_template[1410] = {
 		name = "Painting A",
 		award = 0,
 		time = 0,
@@ -3983,8 +3988,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_billboard32/vfx_wupintishi01"
 		}
-	},
-	[1411] = {
+	}
+	pg.base.dorm3d_collection_template[1411] = {
 		name = "Painting B",
 		award = 0,
 		time = 0,
@@ -4004,8 +4009,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_billboard31/vfx_wupintishi01"
 		}
-	},
-	[1412] = {
+	}
+	pg.base.dorm3d_collection_template[1412] = {
 		name = "Jewelry Box",
 		award = 0,
 		time = 1,
@@ -4025,8 +4030,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"no_bake_pay_prop/entertainment/pre_db_aje_entertainment01_0/pre_db_jewelrybox02/vfx_wupintishi01"
 		}
-	},
-	[1413] = {
+	}
+	pg.base.dorm3d_collection_template[1413] = {
 		name = "Suitcase",
 		award = 0,
 		time = 0,
@@ -4046,8 +4051,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_bag08/vfx_wupintishi01"
 		}
-	},
-	[1414] = {
+	}
+	pg.base.dorm3d_collection_template[1414] = {
 		name = "Small Cabinet",
 		award = 0,
 		time = 0,
@@ -4067,8 +4072,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_05/pre_db_cupboard39/vfx_wupintishi01"
 		}
-	},
-	[1415] = {
+	}
+	pg.base.dorm3d_collection_template[1415] = {
 		name = "Fireplace",
 		award = 0,
 		time = 0,
@@ -4088,8 +4093,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_fireplace02/vfx_wupintishi01"
 		}
-	},
-	[1416] = {
+	}
+	pg.base.dorm3d_collection_template[1416] = {
 		name = "Floor Lamp",
 		award = 0,
 		time = 0,
@@ -4109,8 +4114,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/day/pre_db_floorlamp04_2/vfx_wupintishi01"
 		}
-	},
-	[1417] = {
+	}
+	pg.base.dorm3d_collection_template[1417] = {
 		name = "Fresh Flowers",
 		award = 0,
 		time = 0,
@@ -4130,8 +4135,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_flowers17/vfx_wupintishi01"
 		}
-	},
-	[1418] = {
+	}
+	pg.base.dorm3d_collection_template[1418] = {
 		name = "Decorative Flowers",
 		award = 0,
 		time = 0,
@@ -4151,8 +4156,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_flowers18/vfx_wupintishi01"
 		}
-	},
-	[1419] = {
+	}
+	pg.base.dorm3d_collection_template[1419] = {
 		name = "Scented Candle",
 		award = 0,
 		time = 2,
@@ -4172,8 +4177,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/night/pre_db_decoration24_on/vfx_wupintishi01"
 		}
-	},
-	[1420] = {
+	}
+	pg.base.dorm3d_collection_template[1420] = {
 		name = "Wide Cabinet",
 		award = 0,
 		time = 0,
@@ -4193,8 +4198,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_cupboard37/vfx_wupintishi01"
 		}
-	},
-	[1421] = {
+	}
+	pg.base.dorm3d_collection_template[1421] = {
 		name = "Wall Lamp",
 		award = 0,
 		time = 0,
@@ -4214,8 +4219,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_05/pre_db_aijier_lamp01_7/vfx_wupintishi01"
 		}
-	},
-	[1422] = {
+	}
+	pg.base.dorm3d_collection_template[1422] = {
 		name = "Cosmetics Set",
 		award = 0,
 		time = 1,
@@ -4235,8 +4240,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"no_bake_pay_prop/entertainment/pre_db_aje_entertainment01_0/pre_db_cosmetic19/vfx_wupintishi01"
 		}
-	},
-	[1423] = {
+	}
+	pg.base.dorm3d_collection_template[1423] = {
 		name = "Reading Materials?",
 		award = 0,
 		time = 0,
@@ -4256,8 +4261,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_01/book_group/vfx_wupintishi01"
 		}
-	},
-	[1424] = {
+	}
+	pg.base.dorm3d_collection_template[1424] = {
 		name = "Oil Painting",
 		award = 0,
 		time = 0,
@@ -4277,8 +4282,8 @@ she finds a better version of herself than the day before.]],
 		vfx_prefab = {
 			"fbx/litmap_05/pre_db_billboard29a/vfx_wupintishi01"
 		}
-	},
-	[1425] = {
+	}
+	pg.base.dorm3d_collection_template[1425] = {
 		name = "Gold Trophy",
 		award = 0,
 		time = 0,
@@ -4299,4 +4304,4 @@ she finds a better version of herself than the day before.]],
 			"fbx/litmap_01/pre_db_decoration21/vfx_wupintishi01"
 		}
 	}
-}
+end)()

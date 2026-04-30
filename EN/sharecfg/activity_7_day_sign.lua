@@ -1,6 +1,86 @@
 pg = pg or {}
-pg.activity_7_day_sign = {
-	{
+pg.activity_7_day_sign = rawget(pg, "activity_7_day_sign") or setmetatable({
+	__name = "activity_7_day_sign"
+}, confNEO)
+pg.activity_7_day_sign.all = {
+	1,
+	3,
+	5,
+	6,
+	8,
+	9,
+	10,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	21,
+	22,
+	24,
+	25,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	36,
+	38,
+	40,
+	41,
+	42,
+	43,
+	45,
+	47,
+	48,
+	49,
+	50,
+	51,
+	52,
+	53,
+	55,
+	56,
+	57,
+	58,
+	59,
+	60,
+	61,
+	62,
+	63,
+	64,
+	65,
+	66,
+	67,
+	68,
+	70,
+	71,
+	72,
+	73,
+	74,
+	75,
+	76,
+	77,
+	78,
+	79,
+	80,
+	81,
+	82,
+	84,
+	85,
+	91,
+	92,
+	93
+}
+pg.base = pg.base or {}
+pg.base.activity_7_day_sign = {}
+
+(function ()
+	pg.base.activity_7_day_sign[1] = {
 		id = 1,
 		front_drops = {
 			{
@@ -44,8 +124,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[3] = {
+	}
+	pg.base.activity_7_day_sign[3] = {
 		id = 3,
 		front_drops = {
 			{
@@ -64,8 +144,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[5] = {
+	}
+	pg.base.activity_7_day_sign[5] = {
 		id = 5,
 		front_drops = {
 			{
@@ -109,8 +189,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[6] = {
+	}
+	pg.base.activity_7_day_sign[6] = {
 		id = 6,
 		front_drops = {
 			{
@@ -149,8 +229,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[8] = {
+	}
+	pg.base.activity_7_day_sign[8] = {
 		id = 8,
 		front_drops = {
 			{
@@ -179,8 +259,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[9] = {
+	}
+	pg.base.activity_7_day_sign[9] = {
 		id = 9,
 		front_drops = {
 			{
@@ -219,8 +299,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[10] = {
+	}
+	pg.base.activity_7_day_sign[10] = {
 		id = 10,
 		front_drops = {
 			{
@@ -294,8 +374,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[12] = {
+	}
+	pg.base.activity_7_day_sign[12] = {
 		id = 12,
 		front_drops = {
 			{
@@ -334,8 +414,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[13] = {
+	}
+	pg.base.activity_7_day_sign[13] = {
 		id = 13,
 		front_drops = {
 			{
@@ -359,8 +439,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[14] = {
+	}
+	pg.base.activity_7_day_sign[14] = {
 		id = 14,
 		front_drops = {
 			{
@@ -399,8 +479,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[15] = {
+	}
+	pg.base.activity_7_day_sign[15] = {
 		id = 15,
 		front_drops = {
 			{
@@ -424,8 +504,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[16] = {
+	}
+	pg.base.activity_7_day_sign[16] = {
 		id = 16,
 		front_drops = {
 			{
@@ -464,8 +544,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[17] = {
+	}
+	pg.base.activity_7_day_sign[17] = {
 		id = 17,
 		front_drops = {
 			{
@@ -504,8 +584,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[18] = {
+	}
+	pg.base.activity_7_day_sign[18] = {
 		id = 18,
 		front_drops = {
 			{
@@ -529,8 +609,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[19] = {
+	}
+	pg.base.activity_7_day_sign[19] = {
 		id = 19,
 		front_drops = {
 			{
@@ -574,8 +654,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[21] = {
+	}
+	pg.base.activity_7_day_sign[21] = {
 		id = 21,
 		front_drops = {
 			{
@@ -619,8 +699,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[22] = {
+	}
+	pg.base.activity_7_day_sign[22] = {
 		id = 22,
 		front_drops = {
 			{
@@ -639,8 +719,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[24] = {
+	}
+	pg.base.activity_7_day_sign[24] = {
 		id = 24,
 		front_drops = {
 			{
@@ -669,8 +749,8 @@ pg.activity_7_day_sign = {
 				5
 			}
 		}
-	},
-	[25] = {
+	}
+	pg.base.activity_7_day_sign[25] = {
 		id = 25,
 		front_drops = {
 			{
@@ -689,8 +769,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[27] = {
+	}
+	pg.base.activity_7_day_sign[27] = {
 		id = 27,
 		front_drops = {
 			{
@@ -729,8 +809,8 @@ pg.activity_7_day_sign = {
 				2
 			}
 		}
-	},
-	[28] = {
+	}
+	pg.base.activity_7_day_sign[28] = {
 		id = 28,
 		front_drops = {
 			{
@@ -749,8 +829,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[29] = {
+	}
+	pg.base.activity_7_day_sign[29] = {
 		id = 29,
 		front_drops = {
 			{
@@ -794,8 +874,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[30] = {
+	}
+	pg.base.activity_7_day_sign[30] = {
 		id = 30,
 		front_drops = {
 			{
@@ -834,8 +914,8 @@ pg.activity_7_day_sign = {
 				2
 			}
 		}
-	},
-	[31] = {
+	}
+	pg.base.activity_7_day_sign[31] = {
 		id = 31,
 		front_drops = {
 			{
@@ -864,8 +944,8 @@ pg.activity_7_day_sign = {
 				5
 			}
 		}
-	},
-	[32] = {
+	}
+	pg.base.activity_7_day_sign[32] = {
 		id = 32,
 		front_drops = {
 			{
@@ -884,8 +964,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[33] = {
+	}
+	pg.base.activity_7_day_sign[33] = {
 		id = 33,
 		front_drops = {
 			{
@@ -904,8 +984,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[36] = {
+	}
+	pg.base.activity_7_day_sign[36] = {
 		id = 36,
 		front_drops = {
 			{
@@ -924,8 +1004,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[38] = {
+	}
+	pg.base.activity_7_day_sign[38] = {
 		id = 38,
 		front_drops = {
 			{
@@ -944,8 +1024,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[40] = {
+	}
+	pg.base.activity_7_day_sign[40] = {
 		id = 40,
 		front_drops = {
 			{
@@ -974,8 +1054,8 @@ pg.activity_7_day_sign = {
 				5
 			}
 		}
-	},
-	[41] = {
+	}
+	pg.base.activity_7_day_sign[41] = {
 		id = 41,
 		front_drops = {
 			{
@@ -1014,8 +1094,8 @@ pg.activity_7_day_sign = {
 				2
 			}
 		}
-	},
-	[42] = {
+	}
+	pg.base.activity_7_day_sign[42] = {
 		id = 42,
 		front_drops = {
 			{
@@ -1044,8 +1124,8 @@ pg.activity_7_day_sign = {
 				150
 			}
 		}
-	},
-	[43] = {
+	}
+	pg.base.activity_7_day_sign[43] = {
 		id = 43,
 		front_drops = {
 			{
@@ -1064,8 +1144,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[45] = {
+	}
+	pg.base.activity_7_day_sign[45] = {
 		id = 45,
 		front_drops = {
 			{
@@ -1104,8 +1184,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[47] = {
+	}
+	pg.base.activity_7_day_sign[47] = {
 		id = 47,
 		front_drops = {
 			{
@@ -1144,8 +1224,8 @@ pg.activity_7_day_sign = {
 				2
 			}
 		}
-	},
-	[48] = {
+	}
+	pg.base.activity_7_day_sign[48] = {
 		id = 48,
 		front_drops = {
 			{
@@ -1164,8 +1244,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[49] = {
+	}
+	pg.base.activity_7_day_sign[49] = {
 		id = 49,
 		front_drops = {
 			{
@@ -1194,8 +1274,8 @@ pg.activity_7_day_sign = {
 				5
 			}
 		}
-	},
-	[50] = {
+	}
+	pg.base.activity_7_day_sign[50] = {
 		id = 50,
 		front_drops = {
 			{
@@ -1224,8 +1304,8 @@ pg.activity_7_day_sign = {
 				2
 			}
 		}
-	},
-	[51] = {
+	}
+	pg.base.activity_7_day_sign[51] = {
 		id = 51,
 		front_drops = {
 			{
@@ -1244,8 +1324,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[52] = {
+	}
+	pg.base.activity_7_day_sign[52] = {
 		id = 52,
 		front_drops = {
 			{
@@ -1274,8 +1354,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[53] = {
+	}
+	pg.base.activity_7_day_sign[53] = {
 		id = 53,
 		front_drops = {
 			{
@@ -1294,8 +1374,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[55] = {
+	}
+	pg.base.activity_7_day_sign[55] = {
 		id = 55,
 		front_drops = {
 			{
@@ -1324,8 +1404,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[56] = {
+	}
+	pg.base.activity_7_day_sign[56] = {
 		id = 56,
 		front_drops = {
 			{
@@ -1344,8 +1424,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[57] = {
+	}
+	pg.base.activity_7_day_sign[57] = {
 		id = 57,
 		front_drops = {
 			{
@@ -1374,8 +1454,8 @@ pg.activity_7_day_sign = {
 				5
 			}
 		}
-	},
-	[58] = {
+	}
+	pg.base.activity_7_day_sign[58] = {
 		id = 58,
 		front_drops = {
 			{
@@ -1414,8 +1494,8 @@ pg.activity_7_day_sign = {
 				2
 			}
 		}
-	},
-	[59] = {
+	}
+	pg.base.activity_7_day_sign[59] = {
 		id = 59,
 		front_drops = {
 			{
@@ -1434,8 +1514,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[60] = {
+	}
+	pg.base.activity_7_day_sign[60] = {
 		id = 60,
 		front_drops = {
 			{
@@ -1454,8 +1534,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[61] = {
+	}
+	pg.base.activity_7_day_sign[61] = {
 		id = 61,
 		front_drops = {
 			{
@@ -1494,8 +1574,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[62] = {
+	}
+	pg.base.activity_7_day_sign[62] = {
 		id = 62,
 		front_drops = {
 			{
@@ -1534,8 +1614,8 @@ pg.activity_7_day_sign = {
 				2
 			}
 		}
-	},
-	[63] = {
+	}
+	pg.base.activity_7_day_sign[63] = {
 		id = 63,
 		front_drops = {
 			{
@@ -1554,8 +1634,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[64] = {
+	}
+	pg.base.activity_7_day_sign[64] = {
 		id = 64,
 		front_drops = {
 			{
@@ -1574,8 +1654,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[65] = {
+	}
+	pg.base.activity_7_day_sign[65] = {
 		id = 65,
 		front_drops = {
 			{
@@ -1604,8 +1684,8 @@ pg.activity_7_day_sign = {
 				5
 			}
 		}
-	},
-	[66] = {
+	}
+	pg.base.activity_7_day_sign[66] = {
 		id = 66,
 		front_drops = {
 			{
@@ -1624,8 +1704,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[67] = {
+	}
+	pg.base.activity_7_day_sign[67] = {
 		id = 67,
 		front_drops = {
 			{
@@ -1654,8 +1734,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[68] = {
+	}
+	pg.base.activity_7_day_sign[68] = {
 		id = 68,
 		front_drops = {
 			{
@@ -1674,8 +1754,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[70] = {
+	}
+	pg.base.activity_7_day_sign[70] = {
 		id = 70,
 		front_drops = {
 			{
@@ -1694,8 +1774,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[71] = {
+	}
+	pg.base.activity_7_day_sign[71] = {
 		id = 71,
 		front_drops = {
 			{
@@ -1714,8 +1794,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[72] = {
+	}
+	pg.base.activity_7_day_sign[72] = {
 		id = 72,
 		front_drops = {
 			{
@@ -1744,8 +1824,8 @@ pg.activity_7_day_sign = {
 				5
 			}
 		}
-	},
-	[73] = {
+	}
+	pg.base.activity_7_day_sign[73] = {
 		id = 73,
 		front_drops = {
 			{
@@ -1784,8 +1864,8 @@ pg.activity_7_day_sign = {
 				2
 			}
 		}
-	},
-	[74] = {
+	}
+	pg.base.activity_7_day_sign[74] = {
 		id = 74,
 		front_drops = {
 			{
@@ -1804,8 +1884,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[75] = {
+	}
+	pg.base.activity_7_day_sign[75] = {
 		id = 75,
 		front_drops = {
 			{
@@ -1834,8 +1914,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[76] = {
+	}
+	pg.base.activity_7_day_sign[76] = {
 		id = 76,
 		front_drops = {
 			{
@@ -1874,8 +1954,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[77] = {
+	}
+	pg.base.activity_7_day_sign[77] = {
 		id = 77,
 		front_drops = {
 			{
@@ -1914,8 +1994,8 @@ pg.activity_7_day_sign = {
 				2
 			}
 		}
-	},
-	[78] = {
+	}
+	pg.base.activity_7_day_sign[78] = {
 		id = 78,
 		front_drops = {
 			{
@@ -1934,8 +2014,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[79] = {
+	}
+	pg.base.activity_7_day_sign[79] = {
 		id = 79,
 		front_drops = {
 			{
@@ -1954,8 +2034,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[80] = {
+	}
+	pg.base.activity_7_day_sign[80] = {
 		id = 80,
 		front_drops = {
 			{
@@ -1984,8 +2064,8 @@ pg.activity_7_day_sign = {
 				5
 			}
 		}
-	},
-	[81] = {
+	}
+	pg.base.activity_7_day_sign[81] = {
 		id = 81,
 		front_drops = {
 			{
@@ -2004,8 +2084,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[82] = {
+	}
+	pg.base.activity_7_day_sign[82] = {
 		id = 82,
 		front_drops = {
 			{
@@ -2024,8 +2104,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[84] = {
+	}
+	pg.base.activity_7_day_sign[84] = {
 		id = 84,
 		front_drops = {
 			{
@@ -2054,8 +2134,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[85] = {
+	}
+	pg.base.activity_7_day_sign[85] = {
 		id = 85,
 		front_drops = {
 			{
@@ -2074,8 +2154,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[91] = {
+	}
+	pg.base.activity_7_day_sign[91] = {
 		id = 91,
 		front_drops = {
 			{
@@ -2104,8 +2184,8 @@ pg.activity_7_day_sign = {
 				5
 			}
 		}
-	},
-	[92] = {
+	}
+	pg.base.activity_7_day_sign[92] = {
 		id = 92,
 		front_drops = {
 			{
@@ -2124,78 +2204,25 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	all = {
-		1,
-		3,
-		5,
-		6,
-		8,
-		9,
-		10,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		21,
-		22,
-		24,
-		25,
-		27,
-		28,
-		29,
-		30,
-		31,
-		32,
-		33,
-		36,
-		38,
-		40,
-		41,
-		42,
-		43,
-		45,
-		47,
-		48,
-		49,
-		50,
-		51,
-		52,
-		53,
-		55,
-		56,
-		57,
-		58,
-		59,
-		60,
-		61,
-		62,
-		63,
-		64,
-		65,
-		66,
-		67,
-		68,
-		70,
-		71,
-		72,
-		73,
-		74,
-		75,
-		76,
-		77,
-		78,
-		79,
-		80,
-		81,
-		82,
-		84,
-		85,
-		91,
-		92
 	}
-}
+	pg.base.activity_7_day_sign[93] = {
+		id = 93,
+		front_drops = {
+			{
+				8,
+				65903,
+				3
+			},
+			{
+				1,
+				691,
+				1000
+			},
+			{
+				8,
+				65903,
+				3
+			}
+		}
+	}
+end)()

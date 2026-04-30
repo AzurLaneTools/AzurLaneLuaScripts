@@ -1,6 +1,38 @@
 pg = pg or {}
-pg.island_chara_skill = {
-	[1000] = {
+pg.island_chara_skill = rawget(pg, "island_chara_skill") or setmetatable({
+	__name = "island_chara_skill"
+}, confNEO)
+pg.island_chara_skill.all = {
+	1000,
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008,
+	1009,
+	1010,
+	1011,
+	1012,
+	1013,
+	1014,
+	1015,
+	1016,
+	1017,
+	1018,
+	1019,
+	1020,
+	1021,
+	1022,
+	99999
+}
+pg.base = pg.base or {}
+pg.base.island_chara_skill = {}
+
+(function ()
+	pg.base.island_chara_skill[1000] = {
 		name = "Manufacturing Expertise",
 		id = 1000,
 		icon = "chara_all_skill_14",
@@ -127,8 +159,8 @@ pg.island_chara_skill = {
 				10009
 			}
 		}
-	},
-	[1001] = {
+	}
+	pg.base.island_chara_skill[1001] = {
 		name = "Food Seller",
 		id = 1001,
 		icon = "chara_all_skill_13",
@@ -255,8 +287,8 @@ pg.island_chara_skill = {
 				10019
 			}
 		}
-	},
-	[1002] = {
+	}
+	pg.base.island_chara_skill[1002] = {
 		name = "Thirst Quencher",
 		id = 1002,
 		icon = "chara_all_skill_4",
@@ -393,8 +425,8 @@ pg.island_chara_skill = {
 				100001
 			}
 		}
-	},
-	[1003] = {
+	}
+	pg.base.island_chara_skill[1003] = {
 		name = "Fruit-Growing Expertise",
 		id = 1003,
 		icon = "chara_all_skill_10",
@@ -521,8 +553,8 @@ pg.island_chara_skill = {
 				10039
 			}
 		}
-	},
-	[1004] = {
+	}
+	pg.base.island_chara_skill[1004] = {
 		name = "Lumberjack Expertise",
 		id = 1004,
 		icon = "chara_all_skill_2",
@@ -649,8 +681,8 @@ pg.island_chara_skill = {
 				10049
 			}
 		}
-	},
-	[1005] = {
+	}
+	pg.base.island_chara_skill[1005] = {
 		name = "Ranching Expertise",
 		id = 1005,
 		icon = "chara_all_skill_6",
@@ -777,8 +809,8 @@ pg.island_chara_skill = {
 				10059
 			}
 		}
-	},
-	[1006] = {
+	}
+	pg.base.island_chara_skill[1006] = {
 		name = "Cooking Expertise",
 		id = 1006,
 		icon = "chara_all_skill_7",
@@ -905,8 +937,8 @@ pg.island_chara_skill = {
 				10069
 			}
 		}
-	},
-	[1007] = {
+	}
+	pg.base.island_chara_skill[1007] = {
 		name = "Research Expertise",
 		id = 1007,
 		icon = "chara_all_skill_3",
@@ -1033,8 +1065,8 @@ pg.island_chara_skill = {
 				10079
 			}
 		}
-	},
-	[1008] = {
+	}
+	pg.base.island_chara_skill[1008] = {
 		name = "Mining Expertise",
 		id = 1008,
 		icon = "chara_all_skill_1",
@@ -1161,8 +1193,8 @@ pg.island_chara_skill = {
 				10089
 			}
 		}
-	},
-	[1009] = {
+	}
+	pg.base.island_chara_skill[1009] = {
 		name = "Farming Expertise",
 		id = 1009,
 		icon = "chara_all_skill_5",
@@ -1289,8 +1321,8 @@ pg.island_chara_skill = {
 				10099
 			}
 		}
-	},
-	[1010] = {
+	}
+	pg.base.island_chara_skill[1010] = {
 		name = "Efficient Recovery",
 		id = 1010,
 		icon = "chara_all_skill_8",
@@ -1417,8 +1449,8 @@ pg.island_chara_skill = {
 				10109
 			}
 		}
-	},
-	[1011] = {
+	}
+	pg.base.island_chara_skill[1011] = {
 		name = "Nursery Expertise",
 		id = 1011,
 		icon = "chara_all_skill_9",
@@ -1545,8 +1577,8 @@ pg.island_chara_skill = {
 				10119
 			}
 		}
-	},
-	[1012] = {
+	}
+	pg.base.island_chara_skill[1012] = {
 		name = "Restaurant Specialty",
 		id = 1012,
 		icon = "chara_all_skill_7",
@@ -1683,8 +1715,8 @@ pg.island_chara_skill = {
 				100002
 			}
 		}
-	},
-	[1013] = {
+	}
+	pg.base.island_chara_skill[1013] = {
 		name = "Fruit-Harvesting Expertise",
 		id = 1013,
 		icon = "chara_all_skill_10",
@@ -1811,8 +1843,8 @@ pg.island_chara_skill = {
 				10139
 			}
 		}
-	},
-	[1014] = {
+	}
+	pg.base.island_chara_skill[1014] = {
 		name = "Efficient Researcher",
 		id = 1014,
 		icon = "chara_all_skill_3",
@@ -1939,8 +1971,8 @@ pg.island_chara_skill = {
 				10149
 			}
 		}
-	},
-	[1015] = {
+	}
+	pg.base.island_chara_skill[1015] = {
 		name = "Production Skill",
 		id = 1015,
 		icon = "chara_all_skill_15",
@@ -2067,8 +2099,8 @@ pg.island_chara_skill = {
 				10159
 			}
 		}
-	},
-	[1016] = {
+	}
+	pg.base.island_chara_skill[1016] = {
 		name = "Gathering Skill",
 		id = 1016,
 		icon = "chara_all_skill_5",
@@ -2195,8 +2227,8 @@ pg.island_chara_skill = {
 				10169
 			}
 		}
-	},
-	[1017] = {
+	}
+	pg.base.island_chara_skill[1017] = {
 		name = "Grazing Skill",
 		id = 1017,
 		icon = "chara_all_skill_6",
@@ -2323,8 +2355,8 @@ pg.island_chara_skill = {
 				10179
 			}
 		}
-	},
-	[1018] = {
+	}
+	pg.base.island_chara_skill[1018] = {
 		name = "Café Specialization",
 		id = 1018,
 		icon = "chara_all_skill_12",
@@ -2461,8 +2493,8 @@ pg.island_chara_skill = {
 				100003
 			}
 		}
-	},
-	[1019] = {
+	}
+	pg.base.island_chara_skill[1019] = {
 		name = "Modulation Skill",
 		id = 1019,
 		icon = "chara_all_skill_4",
@@ -2589,8 +2621,8 @@ pg.island_chara_skill = {
 				10199
 			}
 		}
-	},
-	[1020] = {
+	}
+	pg.base.island_chara_skill[1020] = {
 		name = "Collection Skill",
 		id = 1020,
 		icon = "chara_all_skill_2",
@@ -2717,8 +2749,8 @@ pg.island_chara_skill = {
 				10209
 			}
 		}
-	},
-	[1021] = {
+	}
+	pg.base.island_chara_skill[1021] = {
 		name = "Stamina Recovery",
 		id = 1021,
 		icon = "chara_all_skill_8",
@@ -2845,8 +2877,8 @@ pg.island_chara_skill = {
 				10219
 			}
 		}
-	},
-	[1022] = {
+	}
+	pg.base.island_chara_skill[1022] = {
 		name = "Farming Skill",
 		id = 1022,
 		icon = "chara_all_skill_5",
@@ -2973,8 +3005,8 @@ pg.island_chara_skill = {
 				10229
 			}
 		}
-	},
-	[99999] = {
+	}
+	pg.base.island_chara_skill[99999] = {
 		name = "Limitless Stamina",
 		id = 99999,
 		icon = "chara_all_skill_8",
@@ -2986,31 +3018,5 @@ pg.island_chara_skill = {
 				999990
 			}
 		}
-	},
-	all = {
-		1000,
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1007,
-		1008,
-		1009,
-		1010,
-		1011,
-		1012,
-		1013,
-		1014,
-		1015,
-		1016,
-		1017,
-		1018,
-		1019,
-		1020,
-		1021,
-		1022,
-		99999
 	}
-}
+end)()

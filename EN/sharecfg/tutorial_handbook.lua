@@ -1,6 +1,17 @@
 pg = pg or {}
-pg.tutorial_handbook = {
-	[100] = {
+pg.tutorial_handbook = rawget(pg, "tutorial_handbook") or setmetatable({
+	__name = "tutorial_handbook"
+}, confNEO)
+pg.tutorial_handbook.all = {
+	100,
+	200,
+	900
+}
+pg.base = pg.base or {}
+pg.base.tutorial_handbook = {}
+
+(function ()
+	pg.base.tutorial_handbook[100] = {
 		name = "Rookie \nMissions",
 		eng_name = "NEWCOMER",
 		type = 1,
@@ -19,8 +30,8 @@ pg.tutorial_handbook = {
 			100801,
 			100901
 		}
-	},
-	[200] = {
+	}
+	pg.base.tutorial_handbook[200] = {
 		name = "Mechanic \nTutorials",
 		eng_name = "TUTORIAL",
 		type = 1,
@@ -64,8 +75,8 @@ pg.tutorial_handbook = {
 			203301,
 			203401
 		}
-	},
-	[900] = {
+	}
+	pg.base.tutorial_handbook[900] = {
 		name = "Dev. \nMissions",
 		eng_name = "RESEARCH",
 		type = 2,
@@ -76,10 +87,5 @@ pg.tutorial_handbook = {
 		tag_list = {
 			632
 		}
-	},
-	all = {
-		100,
-		200,
-		900
 	}
-}
+end)()

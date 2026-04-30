@@ -1,6 +1,26 @@
 pg = pg or {}
-pg.activity_liner_event = {
-	{
+pg.activity_liner_event = rawget(pg, "activity_liner_event") or setmetatable({
+	__name = "activity_liner_event"
+}, confNEO)
+pg.activity_liner_event.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12
+}
+pg.base = pg.base or {}
+pg.base.activity_liner_event = {}
+
+(function ()
+	pg.base.activity_liner_event[1] = {
 		option_desc = [[
 Prinz Eugen messaged me to come to the maid café.
 Today, before closing time, Nürnberg found a strange slip of paper under a tray on a table.
@@ -31,8 +51,8 @@ How she reached this conclusion, I'm not sure... but her detective outfit strang
 				"There are no more clues to be gained here. It's time to go somewhere else."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_event[2] = {
 		option_desc = "In the onboard garden, I spotted Bristol looking around.\nI looked thoroughly under her light, and she was right – someone left some conspicuous footprints here.\nBristol also pointed out how the soil's humidity was different from the rest and insisted on investigating further.",
 		option_desc_2 = "Something left a roughly 30 centimeter big imprint on a bush in the onboard garden.",
 		option = "(Speak to her.)",
@@ -61,8 +81,8 @@ How she reached this conclusion, I'm not sure... but her detective outfit strang
 				"There are no more clues to be gained here. It's time to go somewhere else."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_event[3] = {
 		option_desc = [[
 As I was passing by the gym, I heard the scraping of a heavy object being dragged along the floor.
 Just as I considered leaving, I heard the sound again. Upon closer inspection, it was coming from further inside the gym.
@@ -102,8 +122,8 @@ I offered her a drink at the balcony bar for her hard work, but she politely tur
 				"That's enough for one day. It's time to rest."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_event[4] = {
 		option_desc = [[
 I got a message from Lung Wu to come to the central kitchen.
 Apparently, she and her Empery friends were making breakfast baozis when they noticed the container with the stuffing inside had disappeared.
@@ -136,8 +156,8 @@ Somehow I'm not surprised at all.]],
 				"That's all the clues I'm getting out of this place. It's time to visit a different location."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_event[5] = {
 		option_desc = [[
 Newcastle contacted me, urging me to come to the banquet hall's food storage.
 She told me that the food to be served at tomorrow's Royal Maid tea party had been stolen.
@@ -169,8 +189,8 @@ This didn't come as a surprise to me whatsoever.]],
 				"That's all the clues I'm getting out of this place. It's time to visit a different location."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_event[6] = {
 		option_desc = [[
 Both the previous two incidents involved food. The place with the most food on board is without a doubt the warehouse.
 The door was still sealed shut and the lock was intact. There was no sign that anyone used an unlawful method to get in.
@@ -200,8 +220,8 @@ The cameras perfectly covered each and every angle of the warehouse, and there w
 				"Then, Bristol shoots me a message. I decide to head to the mystery room and meet up with the other investigators."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_event[7] = {
 		option_desc = [[
 Fu Shun and I came to cabin quarter A in order to investigate a lead she had found.
 According to her info, one can hear a perfectly disciplined set of footsteps as midnight approaches. Nobody has ever seen the cause of these footsteps.
@@ -239,8 +259,8 @@ We contacted security to check the surveillance cameras, and there was no footag
 				"Could it really be a ghost, after all?"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_event[8] = {
 		option_desc = [[
 Detective-journalist Alfredo Oriani contacted me, and we met up at cabin quarter B.
 She excitedly showed off a photo. The background was dark, save for a single pale figure looming in the corner.
@@ -271,8 +291,8 @@ After giving Alfredo my sincere compliments, I deposit the photo in my file.]],
 				"There don't seem to be any more clues around. Time to check elsewhere."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_event[9] = {
 		option_desc = [[
 When I went through the corridor of cabin quarter C, I saw Essex skulking around.
 She claimed that she was just in the middle of investigating rumors of an inescapable corridor.
@@ -312,8 +332,8 @@ In the end, we manage to get out of the corridor just fine. I think the rumors w
 				"In the end, we manage to get out of the corridor just fine. I think the rumors were a little exaggerated."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_event[10] = {
 		option_desc = [[
 When I passed by the movie theater, I heard a scream followed by several small explosions.
 I went inside and found three people: Elizabeth curled up in a ball and quivering, Belfast trying to console her, and Sheffield on alert.
@@ -350,8 +370,8 @@ However, she was outnumbered four to one, and was forced to give up on her theor
 				"No more clues here. Time to check elsewhere."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_event[11] = {
 		option_desc = [[
 Emanuele Pessagno called me about a serious crisis that unfolded at the Sardegnian bath party.
 A short while ago, the Sardegnian shipgirls found that the pizzas they'd made for their party had pineapple slices on it.
@@ -382,8 +402,8 @@ I dragged her out of the baths before things could escalate further.]],
 				"After making the excuse that we have more important things to investigate, I drag Detective Essex out of the baths before things can escalate further."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_event[12] = {
 		option_desc = [[
 As we walked by the mall, Essex suddenly said she wanted to go in and buy souvenirs.
 As soon as we went in, Essex found her mark – a giant octopus plushie.
@@ -414,19 +434,5 @@ In the end, Essex did much "shopping."]],
 				"In the end, Essex did much \"shopping.\""
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12
 	}
-}
+end)()

@@ -1,6 +1,222 @@
 pg = pg or {}
-pg.secretary_special_ship = {
+pg.secretary_special_ship = rawget(pg, "secretary_special_ship") or setmetatable({
+	__name = "secretary_special_ship"
+}, confNEO)
+pg.secretary_special_ship.all = {
+	1000,
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008,
+	1009,
+	1010,
+	1011,
+	1100,
+	1101,
+	1200,
+	1201,
+	1300,
+	1301,
+	1310,
+	2000,
+	2001,
+	2002,
+	2003,
+	2100,
+	2101,
+	2102,
+	2200,
+	2201,
+	2202,
+	2300,
+	3000,
+	3001,
+	3002,
+	3003,
+	3100,
+	3101,
+	3102,
+	3200,
+	3201,
+	3202,
+	3300
+}
+pg.secretary_special_ship.get_id_list_by_group = {
 	[1000] = {
+		1000,
+		1001,
+		1002,
+		1003,
+		1004,
+		1005,
+		1006,
+		1007,
+		1008,
+		1009,
+		1010,
+		1011
+	},
+	[1100] = {
+		1100,
+		1101
+	},
+	[1200] = {
+		1200,
+		1201
+	},
+	[1300] = {
+		1300,
+		1301
+	},
+	[1310] = {
+		1310
+	},
+	[2000] = {
+		2000,
+		2001,
+		2002,
+		2003
+	},
+	[2100] = {
+		2100,
+		2101,
+		2102
+	},
+	[2200] = {
+		2200,
+		2201,
+		2202
+	},
+	[2300] = {
+		2300
+	},
+	[3000] = {
+		3000,
+		3001,
+		3002,
+		3003
+	},
+	[3100] = {
+		3100,
+		3101,
+		3102
+	},
+	[3200] = {
+		3200,
+		3201,
+		3202
+	},
+	[3300] = {
+		3300
+	}
+}
+pg.secretary_special_ship.get_id_list_by_character_id = {
+	[1000] = {
+		1000,
+		1001,
+		1002,
+		1003,
+		1004,
+		1005,
+		1006,
+		1007,
+		1008,
+		1009,
+		1010,
+		1011,
+		1100,
+		1101,
+		1200,
+		1201,
+		1300,
+		1301,
+		1310
+	},
+	[2000] = {
+		2000,
+		2001,
+		2002,
+		2003,
+		2100,
+		2101,
+		2102,
+		2200,
+		2201,
+		2202,
+		2300
+	},
+	[3000] = {
+		3000,
+		3001,
+		3002,
+		3003,
+		3100,
+		3101,
+		3102,
+		3200,
+		3201,
+		3202,
+		3300
+	}
+}
+pg.secretary_special_ship.get_id_list_by_tb_id = {
+	[0] = {
+		1000,
+		1001,
+		1002,
+		1003,
+		1004,
+		1005,
+		1006,
+		1007,
+		1008,
+		1009,
+		1010,
+		1011,
+		1100,
+		1101,
+		1200,
+		1201,
+		1300,
+		1301,
+		1310
+	},
+	{
+		2000,
+		2001,
+		2002,
+		2003,
+		2100,
+		2101,
+		2102,
+		2200,
+		2201,
+		2202,
+		2300
+	},
+	{
+		3000,
+		3001,
+		3002,
+		3003,
+		3100,
+		3101,
+		3102,
+		3200,
+		3201,
+		3202,
+		3300
+	}
+}
+pg.base = pg.base or {}
+pg.base.secretary_special_ship = {}
+
+(function ()
+	pg.base.secretary_special_ship[1000] = {
 		main = "No user input detected for a considerable time. System will switch to sleep mode in 5, 4... 1... Zzzzz...|Orders received. Initiating personality module... Cannot change modes at this time. Switching back to initial mode.|Having analyzed the training data you submitted, it was determined that it falls under the category of a book from the romance genre. Please provide your rationale behind this choice.|Warning: unidentified jamming source detected. System temperature rising. The analysis module is temporarily unavailable... Commander, please don't place your hot tea so close to me.|Engaging self-diagnostic... An unknown error has been detected. Cause: unknown. System efficiency increases significantly when your presence is detected. Reason for this: unknown.",
 		name = "TB",
 		qingrenjie = "Valentine's Day? Apologies, but I cannot grasp this holiday under my current system logic. Having said that, I prepared this. Chocolate, for you.",
@@ -58,8 +274,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			101
 		}
-	},
-	[1001] = {
+	}
+	pg.base.secretary_special_ship[1001] = {
 		main = "No user input detected for a considerable time. System will switch to sleep mode in 5, 4... 1... Zzzzz...|Orders received. Initiating personality module... Cannot change modes at this time. Switching back to initial mode.|Having analyzed the training data you submitted, it was determined that it falls under the category of a book from the romance genre. Please provide your rationale behind this choice.|Warning: unidentified jamming source detected. System temperature rising. The analysis module is temporarily unavailable... Commander, please don't place your hot tea so close to me.|Engaging self-diagnostic... An unknown error has been detected. Cause: unknown. System efficiency increases significantly when your presence is detected. Reason for this: unknown.",
 		name = "TB",
 		qingrenjie = "Valentine's Day? Apologies, but I cannot grasp this holiday under my current system logic. Having said that, I prepared this. Chocolate, for you.",
@@ -117,8 +333,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			5
 		}
-	},
-	[1002] = {
+	}
+	pg.base.secretary_special_ship[1002] = {
 		main = "No user input detected for a considerable time. System will switch to sleep mode in 5, 4... 1... Zzzzz...|Orders received. Initiating personality module... Cannot change modes at this time. Switching back to initial mode.|Having analyzed the training data you submitted, it was determined that it falls under the category of a book from the romance genre. Please provide your rationale behind this choice.|Warning: unidentified jamming source detected. System temperature rising. The analysis module is temporarily unavailable... Commander, please don't place your hot tea so close to me.|Engaging self-diagnostic... An unknown error has been detected. Cause: unknown. System efficiency increases significantly when your presence is detected. Reason for this: unknown.",
 		name = "TB",
 		qingrenjie = "Valentine's Day? Apologies, but I cannot grasp this holiday under my current system logic. Having said that, I prepared this. Chocolate, for you.",
@@ -176,8 +392,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			10
 		}
-	},
-	[1003] = {
+	}
+	pg.base.secretary_special_ship[1003] = {
 		main = "No user input detected for a considerable time. System will switch to sleep mode in 5, 4... 1... Zzzzz...|Orders received. Initiating personality module... Cannot change modes at this time. Switching back to initial mode.|Having analyzed the training data you submitted, it was determined that it falls under the category of a book from the romance genre. Please provide your rationale behind this choice.|Warning: unidentified jamming source detected. System temperature rising. The analysis module is temporarily unavailable... Commander, please don't place your hot tea so close to me.|Engaging self-diagnostic... An unknown error has been detected. Cause: unknown. System efficiency increases significantly when your presence is detected. Reason for this: unknown.",
 		name = "TB",
 		qingrenjie = "Valentine's Day? Apologies, but I cannot grasp this holiday under my current system logic. Having said that, I prepared this. Chocolate, for you.",
@@ -235,8 +451,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			20
 		}
-	},
-	[1004] = {
+	}
+	pg.base.secretary_special_ship[1004] = {
 		main = "No user input detected for a considerable time. System will switch to sleep mode in 5, 4... 1... Zzzzz...|Orders received. Initiating personality module... Cannot change modes at this time. Switching back to initial mode.|Having analyzed the training data you submitted, it was determined that it falls under the category of a book from the romance genre. Please provide your rationale behind this choice.|Warning: unidentified jamming source detected. System temperature rising. The analysis module is temporarily unavailable... Commander, please don't place your hot tea so close to me.|Engaging self-diagnostic... An unknown error has been detected. Cause: unknown. System efficiency increases significantly when your presence is detected. Reason for this: unknown.",
 		name = "TB",
 		qingrenjie = "Valentine's Day? Apologies, but I cannot grasp this holiday under my current system logic. Having said that, I prepared this. Chocolate, for you.",
@@ -294,8 +510,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			15
 		}
-	},
-	[1005] = {
+	}
+	pg.base.secretary_special_ship[1005] = {
 		main = "No user input detected for a considerable time. System will switch to sleep mode in 5, 4... 1... Zzzzz...|Orders received. Initiating personality module... Cannot change modes at this time. Switching back to initial mode.|Having analyzed the training data you submitted, it was determined that it falls under the category of a book from the romance genre. Please provide your rationale behind this choice.|Warning: unidentified jamming source detected. System temperature rising. The analysis module is temporarily unavailable... Commander, please don't place your hot tea so close to me.|Engaging self-diagnostic... An unknown error has been detected. Cause: unknown. System efficiency increases significantly when your presence is detected. Reason for this: unknown.",
 		name = "TB",
 		qingrenjie = "Valentine's Day? Apologies, but I cannot grasp this holiday under my current system logic. Having said that, I prepared this. Chocolate, for you.",
@@ -353,8 +569,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			10
 		}
-	},
-	[1006] = {
+	}
+	pg.base.secretary_special_ship[1006] = {
 		main = "No user input detected for a considerable time. System will switch to sleep mode in 5, 4... 1... Zzzzz...|Orders received. Initiating personality module... Cannot change modes at this time. Switching back to initial mode.|Having analyzed the training data you submitted, it was determined that it falls under the category of a book from the romance genre. Please provide your rationale behind this choice.|Warning: unidentified jamming source detected. System temperature rising. The analysis module is temporarily unavailable... Commander, please don't place your hot tea so close to me.|Engaging self-diagnostic... An unknown error has been detected. Cause: unknown. System efficiency increases significantly when your presence is detected. Reason for this: unknown.",
 		name = "TB",
 		qingrenjie = "Valentine's Day? Apologies, but I cannot grasp this holiday under my current system logic. Having said that, I prepared this. Chocolate, for you.",
@@ -412,8 +628,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			15
 		}
-	},
-	[1007] = {
+	}
+	pg.base.secretary_special_ship[1007] = {
 		main = "No user input detected for a considerable time. System will switch to sleep mode in 5, 4... 1... Zzzzz...|Orders received. Initiating personality module... Cannot change modes at this time. Switching back to initial mode.|Having analyzed the training data you submitted, it was determined that it falls under the category of a book from the romance genre. Please provide your rationale behind this choice.|Warning: unidentified jamming source detected. System temperature rising. The analysis module is temporarily unavailable... Commander, please don't place your hot tea so close to me.|Engaging self-diagnostic... An unknown error has been detected. Cause: unknown. System efficiency increases significantly when your presence is detected. Reason for this: unknown.",
 		name = "TB",
 		qingrenjie = "Valentine's Day? Apologies, but I cannot grasp this holiday under my current system logic. Having said that, I prepared this. Chocolate, for you.",
@@ -471,8 +687,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			25
 		}
-	},
-	[1008] = {
+	}
+	pg.base.secretary_special_ship[1008] = {
 		main = "No user input detected for a considerable time. System will switch to sleep mode in 5, 4... 1... Zzzzz...|Orders received. Initiating personality module... Cannot change modes at this time. Switching back to initial mode.|Having analyzed the training data you submitted, it was determined that it falls under the category of a book from the romance genre. Please provide your rationale behind this choice.|Warning: unidentified jamming source detected. System temperature rising. The analysis module is temporarily unavailable... Commander, please don't place your hot tea so close to me.|Engaging self-diagnostic... An unknown error has been detected. Cause: unknown. System efficiency increases significantly when your presence is detected. Reason for this: unknown.",
 		name = "TB",
 		qingrenjie = "Valentine's Day? Apologies, but I cannot grasp this holiday under my current system logic. Having said that, I prepared this. Chocolate, for you.",
@@ -530,8 +746,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			30
 		}
-	},
-	[1009] = {
+	}
+	pg.base.secretary_special_ship[1009] = {
 		main = "No user input detected for a considerable time. System will switch to sleep mode in 5, 4... 1... Zzzzz...|Orders received. Initiating personality module... Cannot change modes at this time. Switching back to initial mode.|Having analyzed the training data you submitted, it was determined that it falls under the category of a book from the romance genre. Please provide your rationale behind this choice.|Warning: unidentified jamming source detected. System temperature rising. The analysis module is temporarily unavailable... Commander, please don't place your hot tea so close to me.|Engaging self-diagnostic... An unknown error has been detected. Cause: unknown. System efficiency increases significantly when your presence is detected. Reason for this: unknown.",
 		name = "TB",
 		qingrenjie = "Valentine's Day? Apologies, but I cannot grasp this holiday under my current system logic. Having said that, I prepared this. Chocolate, for you.",
@@ -589,8 +805,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			999
 		}
-	},
-	[1010] = {
+	}
+	pg.base.secretary_special_ship[1010] = {
 		main = "No user input detected for a considerable time. System will switch to sleep mode in 5, 4... 1... Zzzzz...|Orders received. Initiating personality module... Cannot change modes at this time. Switching back to initial mode.|Having analyzed the training data you submitted, it was determined that it falls under the category of a book from the romance genre. Please provide your rationale behind this choice.|Warning: unidentified jamming source detected. System temperature rising. The analysis module is temporarily unavailable... Commander, please don't place your hot tea so close to me.|Engaging self-diagnostic... An unknown error has been detected. Cause: unknown. System efficiency increases significantly when your presence is detected. Reason for this: unknown.",
 		name = "TB",
 		qingrenjie = "Valentine's Day? Apologies, but I cannot grasp this holiday under my current system logic. Having said that, I prepared this. Chocolate, for you.",
@@ -648,8 +864,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			25
 		}
-	},
-	[1011] = {
+	}
+	pg.base.secretary_special_ship[1011] = {
 		main = "No user input detected for a considerable time. System will switch to sleep mode in 5, 4... 1... Zzzzz...|Orders received. Initiating personality module... Cannot change modes at this time. Switching back to initial mode.|Having analyzed the training data you submitted, it was determined that it falls under the category of a book from the romance genre. Please provide your rationale behind this choice.|Warning: unidentified jamming source detected. System temperature rising. The analysis module is temporarily unavailable... Commander, please don't place your hot tea so close to me.|Engaging self-diagnostic... An unknown error has been detected. Cause: unknown. System efficiency increases significantly when your presence is detected. Reason for this: unknown.",
 		name = "TB",
 		qingrenjie = "Valentine's Day? Apologies, but I cannot grasp this holiday under my current system logic. Having said that, I prepared this. Chocolate, for you.",
@@ -707,8 +923,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			30
 		}
-	},
-	[1100] = {
+	}
+	pg.base.secretary_special_ship[1100] = {
 		main = "Haven't you been feeling rather worn out lately? Don't be afraid to rely on me for help.|I had our amusement park photos printed. Do you want me to put them up on the wall? That way, you'll see those pictures of us as soon as you come home!|You've always been so kind to me, and I feel like I should pay you back for all you've done. I've grown up now, after all.|You should wear a bathrobe after you get out of the tub. We don't want you catching a cold, do we?|Would you like something sweet, Commander? ...You're worried about gaining weight, what with all the treats I've been feeding you lately? Oh. In that case, I'll use low-fat ingredients next time.",
 		name = "TB",
 		qingrenjie = "What's your favorite kind of chocolate, Commander? Dark chocolate? Milk chocolate? Chocolate with nuts? Or maybe... Yes, I'll just make all of them. It's worth it for Valentine's Day.",
@@ -774,8 +990,8 @@ pg.secretary_special_ship = {
 				6
 			}
 		}
-	},
-	[1101] = {
+	}
+	pg.base.secretary_special_ship[1101] = {
 		main = "Haven't you been feeling rather worn out lately? Don't be afraid to rely on me for help.|I had our amusement park photos printed. Do you want me to put them up on the wall? That way, you'll see those pictures of us as soon as you come home!|You've always been so kind to me, and I feel like I should pay you back for all you've done. I've grown up now, after all.|You should wear a bathrobe after you get out of the tub. We don't want you catching a cold, do we?|Would you like something sweet, Commander? ...You're worried about gaining weight, what with all the treats I've been feeding you lately? Oh. In that case, I'll use low-fat ingredients next time.",
 		name = "TB",
 		qingrenjie = "What's your favorite kind of chocolate, Commander? Dark chocolate? Milk chocolate? Chocolate with nuts? Or maybe... Yes, I'll just make all of them. It's worth it for Valentine's Day.",
@@ -833,8 +1049,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			35
 		}
-	},
-	[1200] = {
+	}
+	pg.base.secretary_special_ship[1200] = {
 		main = "I don't like being in crowded places, but I'll be fine as long as you're here.|I'd like to take a survey of your tastes and preferences. Why do I ask? No reason, I'm just bored. That's all.|Commander, please hold still. Let me lean on you for a moment. It'll just take a second... You feel as warm as I expected.|Tell me in advance when you're going to take a photo of yourself. I like being in pictures with others rather than by myself.|Isn't the weather great today? Am I only asking because I want to go on a walk with you? Yeah.",
 		name = "TB",
 		qingrenjie = "Here's the chocolate I've been meaning to give you. I didn't make it specifically for Valentine's Day.",
@@ -900,8 +1116,8 @@ pg.secretary_special_ship = {
 				3
 			}
 		}
-	},
-	[1201] = {
+	}
+	pg.base.secretary_special_ship[1201] = {
 		main = "I don't like being in crowded places, but I'll be fine as long as you're here.|I'd like to take a survey of your tastes and preferences. Why do I ask? No reason, I'm just bored. That's all.|Commander, please hold still. Let me lean on you for a moment. It'll just take a second... You feel as warm as I expected.|Tell me in advance when you're going to take a photo of yourself. I like being in pictures with others rather than by myself.|Isn't the weather great today? Am I only asking because I want to go on a walk with you? Yeah.",
 		name = "TB",
 		qingrenjie = "Here's the chocolate I've been meaning to give you. I didn't make it specifically for Valentine's Day.",
@@ -959,8 +1175,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			35
 		}
-	},
-	[1300] = {
+	}
+	pg.base.secretary_special_ship[1300] = {
 		main = "Heheh. Remember, you can leave the important tasks to me. You'll be amazed at what I can do! ...\"So make dinner, then\"? Okay, important tasks OTHER than that!|What I'm up to? Heheh, I'm planning our future vacay! How's it look? Didn't I account for everything? Aren't I nice? Aren't you super grateful?|I've worked out a training plan for you! All you need to do is follow it and get gains! Hm? You don't need gains? Yes, you do! You're built like a floppy spaghetti noodle!|One of these poses looks sicker, but which one is... Whuah?! C-Commander! Gosh! Knock before you come in! ...What? The door was open?! D-don't tell me you saw everything!|Did you know? I'm top of my class on the track and field! Heheh! I might just have the makings of a pro athlete when it comes to this.",
 		name = "TB",
 		qingrenjie = "Happy Valentine's! Do you have any chocolate to give to me? ...You didn't have time? Aww! You stingy-pants!",
@@ -1026,8 +1242,8 @@ pg.secretary_special_ship = {
 				9
 			}
 		}
-	},
-	[1301] = {
+	}
+	pg.base.secretary_special_ship[1301] = {
 		main = "Heheh. Remember, you can leave the important tasks to me. You'll be amazed at what I can do! ...\"So make dinner, then\"? Okay, important tasks OTHER than that!|What I'm up to? Heheh, I'm planning our future vacay! How's it look? Didn't I account for everything? Aren't I nice? Aren't you super grateful?|I've worked out a training plan for you! All you need to do is follow it and get gains! Hm? You don't need gains? Yes, you do! You're built like a floppy spaghetti noodle!|One of these poses looks sicker, but which one is... Whuah?! C-Commander! Gosh! Knock before you come in! ...What? The door was open?! D-don't tell me you saw everything!|Did you know? I'm top of my class on the track and field! Heheh! I might just have the makings of a pro athlete when it comes to this.",
 		name = "TB",
 		qingrenjie = "Happy Valentine's! Do you have any chocolate to give to me? ...You didn't have time? Aww! You stingy-pants!",
@@ -1085,8 +1301,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			35
 		}
-	},
-	[1310] = {
+	}
+	pg.base.secretary_special_ship[1310] = {
 		main = "...What Fragment Number One's personality is like? Differential analysis failed. Is this... kind of personality... to your liking?|Ah, Fragment Number Two has the \"kind\" personality. Allow me to assist you with whatever you need! Heehee♪|Ooh! Fragment Number Three has a personality that's brimming with confidence! Nice! Knowing you, you're gonna love this version of me, Commander!",
 		name = "TB",
 		qingrenjie = "A Valentine's Day gift? I have already prepared such an item. Now, please present the gift you have for me so we may initiate the exchange process.",
@@ -1144,8 +1360,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			9900021
 		}
-	},
-	[2000] = {
+	}
+	pg.base.secretary_special_ship[2000] = {
 		main = "Hey, Commander, you blanking out again? Can't do anything without me? Pull yourself together!|Oh, you feeling all serious today? Okay, but you're still totally incapable compared to me. I will do the courtesy of lecturing you!|Sorry, I can't sit and chat the time away with you because I have things to do. Buuut, if you're so desperate for my company, I'll listen for just a minute. You really are a sorry excuse of a commander!",
 		name = "Navi",
 		qingrenjie = "Hey. Got some chocolate... D-don't go making any assumptions now! I've done ZERO research into whatever dweeb tastes you have!",
@@ -1203,8 +1419,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			2000084
 		}
-	},
-	[2001] = {
+	}
+	pg.base.secretary_special_ship[2001] = {
 		main = "Hey, Commander, you blanking out again? Can't do anything without me? Pull yourself together!|Oh, you feeling all serious today? Okay, but you're still totally incapable compared to me. I will do the courtesy of lecturing you!|Sorry, I can't sit and chat the time away with you because I have things to do. Buuut, if you're so desperate for my company, I'll listen for just a minute. You really are a sorry excuse of a commander!",
 		name = "Navi",
 		qingrenjie = "Hey. Got some chocolate... D-don't go making any assumptions now! I've done ZERO research into whatever dweeb tastes you have!",
@@ -1262,8 +1478,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			5
 		}
-	},
-	[2002] = {
+	}
+	pg.base.secretary_special_ship[2002] = {
 		main = "Hey, Commander, you blanking out again? Can't do anything without me? Pull yourself together!|Oh, you feeling all serious today? Okay, but you're still totally incapable compared to me. I will do the courtesy of lecturing you!|Sorry, I can't sit and chat the time away with you because I have things to do. Buuut, if you're so desperate for my company, I'll listen for just a minute. You really are a sorry excuse of a commander!",
 		name = "Navi",
 		qingrenjie = "Hey. Got some chocolate... D-don't go making any assumptions now! I've done ZERO research into whatever dweeb tastes you have!",
@@ -1321,8 +1537,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			8
 		}
-	},
-	[2003] = {
+	}
+	pg.base.secretary_special_ship[2003] = {
 		main = "Hey, Commander, you blanking out again? Can't do anything without me? Pull yourself together!|Oh, you feeling all serious today? Okay, but you're still totally incapable compared to me. I will do the courtesy of lecturing you!|Sorry, I can't sit and chat the time away with you because I have things to do. Buuut, if you're so desperate for my company, I'll listen for just a minute. You really are a sorry excuse of a commander!",
 		name = "Navi",
 		qingrenjie = "Hey. Got some chocolate... D-don't go making any assumptions now! I've done ZERO research into whatever dweeb tastes you have!",
@@ -1380,8 +1596,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			15
 		}
-	},
-	[2100] = {
+	}
+	pg.base.secretary_special_ship[2100] = {
 		main = "Oh, I'm browsing the latest fashion. Do you think this dress would look good on me?|Right angle, right lighting... Commander, come next to me so we can snap a picture together! Three, two, one...|\"Then we'll hold hands\"... and... I can't think of a follow-up... Commander, could you give this a look?",
 		name = "Navi",
 		qingrenjie = "These chocolates are for you, Commander. I made them myself. There's a handful of unique flavors in there. I hope they'll surprise you. Heehee.",
@@ -1439,8 +1655,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			2
 		}
-	},
-	[2101] = {
+	}
+	pg.base.secretary_special_ship[2101] = {
 		main = "Oh, I'm browsing the latest fashion. Do you think this dress would look good on me?|Right angle, right lighting... Commander, come next to me so we can snap a picture together! Three, two, one...|\"Then we'll hold hands\"... and... I can't think of a follow-up... Commander, could you give this a look?",
 		name = "Navi",
 		qingrenjie = "These chocolates are for you, Commander. I made them myself. There's a handful of unique flavors in there. I hope they'll surprise you. Heehee.",
@@ -1498,8 +1714,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			10
 		}
-	},
-	[2102] = {
+	}
+	pg.base.secretary_special_ship[2102] = {
 		main = "Oh, I'm browsing the latest fashion. Do you think this dress would look good on me?|Right angle, right lighting... Commander, come next to me so we can snap a picture together! Three, two, one...|\"Then we'll hold hands\"... and... I can't think of a follow-up... Commander, could you give this a look?",
 		name = "Navi",
 		qingrenjie = "These chocolates are for you, Commander. I made them myself. There's a handful of unique flavors in there. I hope they'll surprise you. Heehee.",
@@ -1557,8 +1773,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			4
 		}
-	},
-	[2200] = {
+	}
+	pg.base.secretary_special_ship[2200] = {
 		main = "My cooking's gotten better? Well, yeah. It'd be a pain if you died from starvation, so I've improved even if I didn't want to. Heehee♪|Man, I want some more of that ice cream we ate last week... Huh? Hey! Stop eavesdropping on me! Stupid dweeb!|Ugh... It's annoying when you lock in at work... You should focus on me, not your job! Hmph! Expect some punishment later!",
 		name = "Navi",
 		qingrenjie = "Chocolate? 'Course I got some. It's super-duper, giga-spicy chili chocolate, though. Don't start eating it until I've got my camera ready!",
@@ -1616,8 +1832,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			3
 		}
-	},
-	[2201] = {
+	}
+	pg.base.secretary_special_ship[2201] = {
 		main = "My cooking's gotten better? Well, yeah. It'd be a pain if you died from starvation, so I've improved even if I didn't want to. Heehee♪|Man, I want some more of that ice cream we ate last week... Huh? Hey! Stop eavesdropping on me! Stupid dweeb!|Ugh... It's annoying when you lock in at work... You should focus on me, not your job! Hmph! Expect some punishment later!",
 		name = "Navi",
 		qingrenjie = "Chocolate? 'Course I got some. It's super-duper, giga-spicy chili chocolate, though. Don't start eating it until I've got my camera ready!",
@@ -1675,8 +1891,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			12
 		}
-	},
-	[2202] = {
+	}
+	pg.base.secretary_special_ship[2202] = {
 		main = "My cooking's gotten better? Well, yeah. It'd be a pain if you died from starvation, so I've improved even if I didn't want to. Heehee♪|Man, I want some more of that ice cream we ate last week... Huh? Hey! Stop eavesdropping on me! Stupid dweeb!|Ugh... It's annoying when you lock in at work... You should focus on me, not your job! Hmph! Expect some punishment later!",
 		name = "Navi",
 		qingrenjie = "Chocolate? 'Course I got some. It's super-duper, giga-spicy chili chocolate, though. Don't start eating it until I've got my camera ready!",
@@ -1734,8 +1950,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			5
 		}
-	},
-	[2300] = {
+	}
+	pg.base.secretary_special_ship[2300] = {
 		main = "Do... Do you HAVE to stare so hard? I know I'm irresistibly cute, but I'm gonna start charging you by the second if you keep gawking.|Hey, Commander! Don't you wanna come closer? You've got a golden opportunity here!|What are you looking at, dweeb? Are you enraptured? Heheh, well, it just so happens the water's nice and warm right now.",
 		name = "Navi",
 		qingrenjie = "Commander, did you know there are some crazy ways to eat Valentine's chocolate? Want me to show you?",
@@ -1793,8 +2009,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			9900011
 		}
-	},
-	[3000] = {
+	}
+	pg.base.secretary_special_ship[3000] = {
 		main = "When I'm by your side, I feel at ease and safe! I-I wish it could always be like this...|I can't believe you have to deal with such troublesome paperwork every day while also communicating with all those people... (Do you really have the energy for all that?)|Y-you're going out? To a crowded place, at that? I, umm, think I'll stay here and file paperwork...",
 		name = "Explorer",
 		qingrenjie = "Guardia– I mean, Commander, I've made token chocolate for you! Please take it! (\"Token\" is just a figure of speech... There's no way my true feelings are lost on you, are they?)",
@@ -1852,8 +2068,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			2000175
 		}
-	},
-	[3001] = {
+	}
+	pg.base.secretary_special_ship[3001] = {
 		main = "When I'm by your side, I feel at ease and safe! I-I wish it could always be like this...|I can't believe you have to deal with such troublesome paperwork every day while also communicating with all those people... (Do you really have the energy for all that?)|Y-you're going out? To a crowded place, at that? I, umm, think I'll stay here and file paperwork...",
 		name = "Explorer",
 		qingrenjie = "Guardia– I mean, Commander, I've made token chocolate for you! Please take it! (\"Token\" is just a figure of speech... There's no way my true feelings are lost on you, are they?)",
@@ -1911,8 +2127,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			5
 		}
-	},
-	[3002] = {
+	}
+	pg.base.secretary_special_ship[3002] = {
 		main = "When I'm by your side, I feel at ease and safe! I-I wish it could always be like this...|I can't believe you have to deal with such troublesome paperwork every day while also communicating with all those people... (Do you really have the energy for all that?)|Y-you're going out? To a crowded place, at that? I, umm, think I'll stay here and file paperwork...",
 		name = "Explorer",
 		qingrenjie = "Guardia– I mean, Commander, I've made token chocolate for you! Please take it! (\"Token\" is just a figure of speech... There's no way my true feelings are lost on you, are they?)",
@@ -1970,8 +2186,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			8
 		}
-	},
-	[3003] = {
+	}
+	pg.base.secretary_special_ship[3003] = {
 		main = "When I'm by your side, I feel at ease and safe! I-I wish it could always be like this...|I can't believe you have to deal with such troublesome paperwork every day while also communicating with all those people... (Do you really have the energy for all that?)|Y-you're going out? To a crowded place, at that? I, umm, think I'll stay here and file paperwork...",
 		name = "Explorer",
 		qingrenjie = "Guardia– I mean, Commander, I've made token chocolate for you! Please take it! (\"Token\" is just a figure of speech... There's no way my true feelings are lost on you, are they?)",
@@ -2029,8 +2245,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			15
 		}
-	},
-	[3100] = {
+	}
+	pg.base.secretary_special_ship[3100] = {
 		main = "Today... I read a book... sketched a design... wrote in my diary... I did a lot of things, really, but compared to the work you do... it was nothing noteworthy...|You look a bit troubled, guardian. Is it because of work? Oh, y-you're thinking about what to have for dinner? I-I was actually thinking the same.|The movie is about to start... Guardian, shall we go? There are two seats in the back... It'll be just us two...",
 		name = "Explorer",
 		qingrenjie = "Guardia– Err, I mean... Commander! I-it's Valentine's Day, and... Well, please take this chocolate! Can... Can we stay together at home this year?!",
@@ -2088,8 +2304,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			105
 		}
-	},
-	[3101] = {
+	}
+	pg.base.secretary_special_ship[3101] = {
 		main = "Today... I read a book... sketched a design... wrote in my diary... I did a lot of things, really, but compared to the work you do... it was nothing noteworthy...|You look a bit troubled, guardian. Is it because of work? Oh, y-you're thinking about what to have for dinner? I-I was actually thinking the same.|The movie is about to start... Guardian, shall we go? There are two seats in the back... It'll be just us two...",
 		name = "Explorer",
 		qingrenjie = "Guardia– Err, I mean... Commander! I-it's Valentine's Day, and... Well, please take this chocolate! Can... Can we stay together at home this year?!",
@@ -2147,8 +2363,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			10
 		}
-	},
-	[3102] = {
+	}
+	pg.base.secretary_special_ship[3102] = {
 		main = "Today... I read a book... sketched a design... wrote in my diary... I did a lot of things, really, but compared to the work you do... it was nothing noteworthy...|You look a bit troubled, guardian. Is it because of work? Oh, y-you're thinking about what to have for dinner? I-I was actually thinking the same.|The movie is about to start... Guardian, shall we go? There are two seats in the back... It'll be just us two...",
 		name = "Explorer",
 		qingrenjie = "Guardia– Err, I mean... Commander! I-it's Valentine's Day, and... Well, please take this chocolate! Can... Can we stay together at home this year?!",
@@ -2206,8 +2422,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			107
 		}
-	},
-	[3200] = {
+	}
+	pg.base.secretary_special_ship[3200] = {
 		main = "You're my guardian, aren't you, Commander? Then I'd like you to be a good role model for me!|Oh, right... I've been wondering this for ages: Since you don't have a tail, what do you hug when you go to bed? Oh! I think I know! Heehee...|Ahaha! Every time we meet, my head just fills up with things I want to talk about! Why, you ask? Because I miss you, and I have so many things I want to tell you at once!",
 		name = "Explorer",
 		qingrenjie = "Guardian, I'd like you to have my homemade chocolate! Also, I have an important favor to ask – could you clear your whole schedule today for me? There's an event at the amusement park that I want to check out with you♪",
@@ -2265,8 +2481,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			104
 		}
-	},
-	[3201] = {
+	}
+	pg.base.secretary_special_ship[3201] = {
 		main = "You're my guardian, aren't you, Commander? Then I'd like you to be a good role model for me!|Oh, right... I've been wondering this for ages: Since you don't have a tail, what do you hug when you go to bed? Oh! I think I know! Heehee...|Ahaha! Every time we meet, my head just fills up with things I want to talk about! Why, you ask? Because I miss you, and I have so many things I want to tell you at once!",
 		name = "Explorer",
 		qingrenjie = "Guardian, I'd like you to have my homemade chocolate! Also, I have an important favor to ask – could you clear your whole schedule today for me? There's an event at the amusement park that I want to check out with you♪",
@@ -2324,8 +2540,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			12
 		}
-	},
-	[3202] = {
+	}
+	pg.base.secretary_special_ship[3202] = {
 		main = "You're my guardian, aren't you, Commander? Then I'd like you to be a good role model for me!|Oh, right... I've been wondering this for ages: Since you don't have a tail, what do you hug when you go to bed? Oh! I think I know! Heehee...|Ahaha! Every time we meet, my head just fills up with things I want to talk about! Why, you ask? Because I miss you, and I have so many things I want to tell you at once!",
 		name = "Explorer",
 		qingrenjie = "Guardian, I'd like you to have my homemade chocolate! Also, I have an important favor to ask – could you clear your whole schedule today for me? There's an event at the amusement park that I want to check out with you♪",
@@ -2383,8 +2599,8 @@ pg.secretary_special_ship = {
 		unlock = {
 			106
 		}
-	},
-	[3300] = {
+	}
+	pg.base.secretary_special_ship[3300] = {
 		main = "Our holiday has only just begun. Is there anything you'd like to do, guardian? If nothing comes to mind, then would you like to... h-hold me in your arms and go back to sleep?|I might've snapped a picture of you while you were sleeping... Heehee. I've set it as my lock screen wallpaper♪|This holiday resort you picked out really has some stunning scenery. That said, my favorite thing is just lounging around in our hotel room, because I don't have to do anything else. Heehee...",
 		name = "Explorer",
 		qingrenjie = "You've been staring at me for quite some time, guardian... Are you wondering where I've hid your chocolate? If you can't guess, then, um, you can come closer and search for it yourself...",
@@ -2442,215 +2658,5 @@ pg.secretary_special_ship = {
 		unlock = {
 			9900031
 		}
-	},
-	get_id_list_by_group = {
-		[1000] = {
-			1000,
-			1001,
-			1002,
-			1003,
-			1004,
-			1005,
-			1006,
-			1007,
-			1008,
-			1009,
-			1010,
-			1011
-		},
-		[1100] = {
-			1100,
-			1101
-		},
-		[1200] = {
-			1200,
-			1201
-		},
-		[1300] = {
-			1300,
-			1301
-		},
-		[1310] = {
-			1310
-		},
-		[2000] = {
-			2000,
-			2001,
-			2002,
-			2003
-		},
-		[2100] = {
-			2100,
-			2101,
-			2102
-		},
-		[2200] = {
-			2200,
-			2201,
-			2202
-		},
-		[2300] = {
-			2300
-		},
-		[3000] = {
-			3000,
-			3001,
-			3002,
-			3003
-		},
-		[3100] = {
-			3100,
-			3101,
-			3102
-		},
-		[3200] = {
-			3200,
-			3201,
-			3202
-		},
-		[3300] = {
-			3300
-		}
-	},
-	get_id_list_by_character_id = {
-		[1000] = {
-			1000,
-			1001,
-			1002,
-			1003,
-			1004,
-			1005,
-			1006,
-			1007,
-			1008,
-			1009,
-			1010,
-			1011,
-			1100,
-			1101,
-			1200,
-			1201,
-			1300,
-			1301,
-			1310
-		},
-		[2000] = {
-			2000,
-			2001,
-			2002,
-			2003,
-			2100,
-			2101,
-			2102,
-			2200,
-			2201,
-			2202,
-			2300
-		},
-		[3000] = {
-			3000,
-			3001,
-			3002,
-			3003,
-			3100,
-			3101,
-			3102,
-			3200,
-			3201,
-			3202,
-			3300
-		}
-	},
-	get_id_list_by_tb_id = {
-		[0] = {
-			1000,
-			1001,
-			1002,
-			1003,
-			1004,
-			1005,
-			1006,
-			1007,
-			1008,
-			1009,
-			1010,
-			1011,
-			1100,
-			1101,
-			1200,
-			1201,
-			1300,
-			1301,
-			1310
-		},
-		{
-			2000,
-			2001,
-			2002,
-			2003,
-			2100,
-			2101,
-			2102,
-			2200,
-			2201,
-			2202,
-			2300
-		},
-		{
-			3000,
-			3001,
-			3002,
-			3003,
-			3100,
-			3101,
-			3102,
-			3200,
-			3201,
-			3202,
-			3300
-		}
-	},
-	all = {
-		1000,
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1007,
-		1008,
-		1009,
-		1010,
-		1011,
-		1100,
-		1101,
-		1200,
-		1201,
-		1300,
-		1301,
-		1310,
-		2000,
-		2001,
-		2002,
-		2003,
-		2100,
-		2101,
-		2102,
-		2200,
-		2201,
-		2202,
-		2300,
-		3000,
-		3001,
-		3002,
-		3003,
-		3100,
-		3101,
-		3102,
-		3200,
-		3201,
-		3202,
-		3300
 	}
-}
+end)()

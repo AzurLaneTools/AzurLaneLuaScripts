@@ -452,9 +452,9 @@ slot0.gotoStory = function(slot0)
 		elseif slot2[1] == 2 then
 			slot5 = slot2[2][1]
 
-			for slot9, slot10 in pairs(pg.memory_group) do
-				if table.contains(slot10.memories, slot5) then
-					slot4 = slot9
+			for slot9, slot10 in ipairs(pg.memory_group.all) do
+				if table.contains(pg.memory_group[slot10].memories, slot5) then
+					slot4 = slot10
 
 					break
 				end
@@ -470,9 +470,9 @@ slot0.gotoStory = function(slot0)
 		elseif slot3[1] == 2 then
 			slot5 = slot3[2][1]
 
-			for slot9, slot10 in pairs(pg.world_collection_record_group) do
-				if table.contains(slot10.child, slot5) then
-					slot4 = slot9
+			for slot9, slot10 in ipairs(pg.world_collection_record_group.all) do
+				if table.contains(pg.world_collection_record_group[slot10].child, slot5) then
+					slot4 = slot10
 
 					break
 				end

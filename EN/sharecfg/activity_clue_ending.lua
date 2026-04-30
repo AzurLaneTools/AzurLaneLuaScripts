@@ -1,28 +1,31 @@
 pg = pg or {}
-pg.activity_clue_ending = setmetatable({
-	__name = "activity_clue_ending",
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16
-	}
-}, confHX)
+pg.activity_clue_ending = rawget(pg, "activity_clue_ending") or setmetatable({
+	__name = "activity_clue_ending"
+}, confNEO)
+pg.activity_clue_ending.__namecode__ = true
+pg.activity_clue_ending.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16
+}
 pg.base = pg.base or {}
-pg.base.activity_clue_ending = {
-	{
+pg.base.activity_clue_ending = {}
+
+(function ()
+	pg.base.activity_clue_ending[1] = {
 		title = "Important Info - 1",
 		type = 1,
 		group = 1,
@@ -87,8 +90,8 @@ Even so, I'm still sorely lacking two things – allies, and information.]],
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[2] = {
 		title = "Important Info - 2",
 		type = 1,
 		group = 1,
@@ -128,8 +131,8 @@ Even so, I'm still sorely lacking two things – allies, and information.]],
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[3] = {
 		title = "Important Info - 3",
 		type = 1,
 		group = 1,
@@ -178,8 +181,8 @@ Even so, I'm still sorely lacking two things – allies, and information.]],
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[4] = {
 		title = "Ending",
 		type = 2,
 		group = 1,
@@ -228,8 +231,8 @@ However, she never came back to me.]],
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[5] = {
 		title = "Important Info - 1",
 		type = 1,
 		group = 2,
@@ -301,8 +304,8 @@ According to the experiment reports, this condition is both similar and dissimil
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[6] = {
 		title = "Important Info - 2",
 		type = 1,
 		group = 2,
@@ -356,8 +359,8 @@ My decision to accept or refuse her invitation will surely lead to drastic chang
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[7] = {
 		title = "Important Info - 3",
 		type = 1,
 		group = 2,
@@ -495,8 +498,8 @@ And so, all the pieces on the board had fallen under our control.]],
 				0.7
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[8] = {
 		title = "Ending",
 		type = 2,
 		group = 2,
@@ -545,8 +548,8 @@ In the end, she never said another word to me, and I lost my ace partner forever
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[9] = {
 		title = "Important Info - 1",
 		type = 1,
 		group = 3,
@@ -623,8 +626,8 @@ When we parted ways, I swore to her that I'd take action at once.]],
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[10] = {
 		title = "Important Info - 2",
 		type = 1,
 		group = 3,
@@ -679,8 +682,8 @@ However, before we can formally move forward with our acquisition plan, there is
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[11] = {
 		title = "Important Info - 3",
 		type = 1,
 		group = 3,
@@ -770,8 +773,8 @@ These documents will be the perfect ploy with which to fool everyone.]],
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[12] = {
 		title = "Ending",
 		type = 2,
 		group = 3,
@@ -822,8 +825,8 @@ And so, this place becomes a haven existing only for the bloodkin.
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[13] = {
 		title = "Important Info - 1",
 		type = 1,
 		group = 4,
@@ -926,8 +929,8 @@ This rescue mission is going to be far more complicated than I'd imagined...]],
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[14] = {
 		title = "Important Info - 2",
 		type = 1,
 		group = 4,
@@ -1036,8 +1039,8 @@ Faced with her sincere desire, I made a promise to her – that I would find a w
 				0.8
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[15] = {
 		title = "Important Info - 3",
 		type = 1,
 		group = 4,
@@ -1129,8 +1132,8 @@ A bold and elaborate plan is gradually taking shape in my mind...]],
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_clue_ending[16] = {
 		title = "Ending",
 		type = 2,
 		group = 4,
@@ -1181,4 +1184,4 @@ We broke free of the shackles of fate. Now it is time to sail into a beautiful t
 			}
 		}
 	}
-}
+end)()

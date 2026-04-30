@@ -1,421 +1,425 @@
 pg = pg or {}
-pg.ship_skin_words_extra = setmetatable({
-	__name = "ship_skin_words_extra",
-	all = {
-		999010,
-		801040,
-		108030,
-		999011,
-		207050,
-		905030,
-		301090,
-		305140,
-		306070,
-		301260,
-		202100,
-		705010,
-		702030,
-		702020,
-		705050,
-		106550,
-		103240,
-		102270,
-		107110,
-		207020,
-		105030,
-		302140,
-		805010,
-		905010,
-		301820,
-		305080,
-		903020,
-		802020,
-		901020,
-		901030,
-		202030,
-		201100,
-		901110,
-		205060,
-		205070,
-		902010,
-		205100,
-		207010,
-		201330,
-		202270,
-		205090,
-		206060,
-		499040,
-		299030,
-		299040,
-		499030,
-		305120,
-		319010,
-		301840,
-		204040,
-		408090,
-		201320,
-		901120,
-		107230,
-		407030,
-		403090,
-		401240,
-		402050,
-		301630,
-		202290,
-		502040,
-		502050,
-		701070,
-		701080,
-		702060,
-		703010,
-		702040,
-		705040,
-		101450,
-		101460,
-		605010,
-		304070,
-		602010,
-		607010,
-		601040,
-		601050,
-		601060,
-		608010,
-		102290,
-		103140,
-		101470,
-		107140,
-		105170,
-		107990,
-		207052,
-		301860,
-		399050,
-		10700010,
-		10700020,
-		10700030,
-		10700040,
-		10700050,
-		10700060,
-		10700070,
-		108070,
-		301290,
-		307120,
-		301470,
-		301480,
-		302070,
-		303060,
-		801070,
-		801080,
-		903010,
-		10800010,
-		10800060,
-		10800070,
-		10800040,
-		10800030,
-		10800050,
-		10800020,
-		403100,
-		402060,
-		405030,
-		406020,
-		408120,
-		101490,
-		502080,
-		502070,
-		202300,
-		705060,
-		707010,
-		701100,
-		718010,
-		701090,
-		601070,
-		603040,
-		607020,
-		506010,
-		603010,
-		402080,
-		402070,
-		404040,
-		404030,
-		403110,
-		405040,
-		403120,
-		205130,
-		201340,
-		207120,
-		205110,
-		202310,
-		203100,
-		907010,
-		901130,
-		202320,
-		299050,
-		499070,
-		599010,
-		799010,
-		899030,
-		605030,
-		602020,
-		608020,
-		601090,
-		601080,
-		603050,
-		305100,
-		301880,
-		302230,
-		303100,
-		301040,
-		404050,
-		403020,
-		401160,
-		101110,
-		403130,
-		206070,
-		201350,
-		202090,
-		9600010,
-		10900010,
-		10900020,
-		10900030,
-		10900040,
-		10900050,
-		10900060,
-		103260,
-		107100,
-		107120,
-		101500,
-		107270,
-		702050,
-		206080,
-		519010,
-		506020,
-		207070,
-		202330,
-		205140,
-		201360,
-		206020,
-		702070,
-		703020,
-		705070,
-		10600080,
-		10600090,
-		405050,
-		402100,
-		406030,
-		401990,
-		207130,
-		307130,
-		603060,
-		601100,
-		605070,
-		199040,
-		499090,
-		399060,
-		499080,
-		999020,
-		10800090,
-		10800080,
-		902020,
-		905020,
-		802030,
-		807020,
-		805020,
-		803010,
-		901040,
-		303190,
-		305130,
-		301890,
-		302060,
-		301900,
-		102310,
-		9600020,
-		9600030,
-		9600040,
-		9600050,
-		9600060,
-		11000010,
-		11000020,
-		11000030,
-		11000040,
-		11000050,
-		11000060,
-		11000070,
-		118020,
-		101510,
-		104010,
-		108080,
-		107300,
-		103270,
-		504010,
-		502090,
-		501050,
-		501060,
-		501070,
-		705020,
-		701110,
-		705080,
-		701120,
-		201370,
-		202340,
-		203130,
-		207053,
-		307140,
-		403140,
-		299020,
-		805030,
-		901070,
-		803020,
-		901050,
-		901060,
-		405060,
-		404060,
-		401470,
-		408130,
-		401430,
-		799020,
-		199050,
-		399070,
-		699020,
-		899040,
-		904020,
-		901140,
-		903030,
-		103280,
-		105150,
-		102330,
-		108090,
-		101520,
-		199030,
-		306040,
-		307150,
-		302250,
-		302260,
-		301910,
-		304050,
-		9600070,
-		9600080,
-		9600090,
-		9600100,
-		9600110,
-		11100010,
-		11100020,
-		11100030,
-		11100040,
-		11100050,
-		11100060,
-		407040,
-		401520,
-		402110,
-		401090,
-		401110,
-		499050,
-		207054,
-		503010,
-		502100,
-		501080,
-		501090,
-		605080,
-		608030,
-		601110,
-		602030,
-		107130,
-		102340,
-		101530,
-		1102010,
-		705090,
-		1101010,
-		702080,
-		103290,
-		201390,
-		205160,
-		201380,
-		202350,
-		202360,
-		403160,
-		207055,
-		11200010,
-		11200020,
-		103160,
-		404070,
-		408140,
-		401130,
-		408100,
-		1199010,
-		499100,
-		799030,
-		199060,
-		699030,
-		11300010,
-		11300020,
-		11300030,
-		11300040,
-		804010,
-		806010,
-		803030,
-		802040,
-		801050,
-		307160,
-		317020,
-		305160,
-		303200,
-		302270,
-		301920,
-		999012,
-		11400010,
-		11400020,
-		9600120,
-		9600130,
-		9600140,
-		9600150,
-		9600160,
-		107090,
-		405020,
-		11500010,
-		11500020,
-		11500030,
-		11500040,
-		11500050,
-		11500060,
-		317010,
-		107160,
-		101100,
-		101550,
-		102350,
-		107250,
-		301940,
-		605090,
-		601120,
-		602040,
-		303110,
-		105200,
-		503020,
-		502120,
-		499020,
-		307080,
-		407010,
-		703030,
-		701130,
-		702090,
-		702100,
-		100000,
-		302290,
-		302280,
-		307170,
-		303140,
-		303130,
-		702010,
-		10600100,
-		10600110,
-		10600120,
-		10600130,
-		10600140,
-		10600150,
-		399010,
-		105120
-	}
-}, confHX)
+pg.ship_skin_words_extra = rawget(pg, "ship_skin_words_extra") or setmetatable({
+	__name = "ship_skin_words_extra"
+}, confNEO)
+pg.ship_skin_words_extra.__namecode__ = true
+pg.ship_skin_words_extra.all = {
+	999010,
+	801040,
+	108030,
+	999011,
+	207050,
+	905030,
+	301090,
+	305140,
+	306070,
+	301260,
+	202100,
+	705010,
+	702030,
+	702020,
+	705050,
+	106550,
+	103240,
+	102270,
+	107110,
+	207020,
+	105030,
+	302140,
+	805010,
+	905010,
+	301820,
+	305080,
+	903020,
+	802020,
+	901020,
+	901030,
+	202030,
+	201100,
+	901110,
+	205060,
+	205070,
+	902010,
+	205100,
+	207010,
+	201330,
+	202270,
+	205090,
+	206060,
+	499040,
+	299030,
+	299040,
+	499030,
+	305120,
+	319010,
+	301840,
+	204040,
+	408090,
+	201320,
+	901120,
+	107230,
+	407030,
+	403090,
+	401240,
+	402050,
+	301630,
+	202290,
+	502040,
+	502050,
+	701070,
+	701080,
+	702060,
+	703010,
+	702040,
+	705040,
+	101450,
+	101460,
+	605010,
+	304070,
+	602010,
+	607010,
+	601040,
+	601050,
+	601060,
+	608010,
+	102290,
+	103140,
+	101470,
+	107140,
+	105170,
+	107990,
+	207052,
+	301860,
+	399050,
+	10700010,
+	10700020,
+	10700030,
+	10700040,
+	10700050,
+	10700060,
+	10700070,
+	108070,
+	301290,
+	307120,
+	301470,
+	301480,
+	302070,
+	303060,
+	801070,
+	801080,
+	903010,
+	10800010,
+	10800060,
+	10800070,
+	10800040,
+	10800030,
+	10800050,
+	10800020,
+	403100,
+	402060,
+	405030,
+	406020,
+	408120,
+	101490,
+	502080,
+	502070,
+	202300,
+	705060,
+	707010,
+	701100,
+	718010,
+	701090,
+	601070,
+	603040,
+	607020,
+	506010,
+	603010,
+	402080,
+	402070,
+	404040,
+	404030,
+	403110,
+	405040,
+	403120,
+	205130,
+	201340,
+	207120,
+	205110,
+	202310,
+	203100,
+	907010,
+	901130,
+	202320,
+	299050,
+	499070,
+	599010,
+	799010,
+	899030,
+	605030,
+	602020,
+	608020,
+	601090,
+	601080,
+	603050,
+	305100,
+	301880,
+	302230,
+	303100,
+	301040,
+	404050,
+	403020,
+	401160,
+	101110,
+	403130,
+	206070,
+	201350,
+	202090,
+	9600010,
+	10900010,
+	10900020,
+	10900030,
+	10900040,
+	10900050,
+	10900060,
+	103260,
+	107100,
+	107120,
+	101500,
+	107270,
+	702050,
+	206080,
+	519010,
+	506020,
+	207070,
+	202330,
+	205140,
+	201360,
+	206020,
+	702070,
+	703020,
+	705070,
+	10600080,
+	10600090,
+	405050,
+	402100,
+	406030,
+	401990,
+	207130,
+	307130,
+	603060,
+	601100,
+	605070,
+	199040,
+	499090,
+	399060,
+	499080,
+	999020,
+	10800090,
+	10800080,
+	902020,
+	905020,
+	802030,
+	807020,
+	805020,
+	803010,
+	901040,
+	303190,
+	305130,
+	301890,
+	302060,
+	301900,
+	102310,
+	9600020,
+	9600030,
+	9600040,
+	9600050,
+	9600060,
+	11000010,
+	11000020,
+	11000030,
+	11000040,
+	11000050,
+	11000060,
+	11000070,
+	118020,
+	101510,
+	104010,
+	108080,
+	107300,
+	103270,
+	504010,
+	502090,
+	501050,
+	501060,
+	501070,
+	705020,
+	701110,
+	705080,
+	701120,
+	201370,
+	202340,
+	203130,
+	207053,
+	307140,
+	403140,
+	299020,
+	805030,
+	901070,
+	803020,
+	901050,
+	901060,
+	405060,
+	404060,
+	401470,
+	408130,
+	401430,
+	799020,
+	199050,
+	399070,
+	699020,
+	899040,
+	904020,
+	901140,
+	903030,
+	103280,
+	105150,
+	102330,
+	108090,
+	101520,
+	199030,
+	306040,
+	307150,
+	302250,
+	302260,
+	301910,
+	304050,
+	9600070,
+	9600080,
+	9600090,
+	9600100,
+	9600110,
+	11100010,
+	11100020,
+	11100030,
+	11100040,
+	11100050,
+	11100060,
+	407040,
+	401520,
+	402110,
+	401090,
+	401110,
+	499050,
+	207054,
+	503010,
+	502100,
+	501080,
+	501090,
+	605080,
+	608030,
+	601110,
+	602030,
+	107130,
+	102340,
+	101530,
+	1102010,
+	705090,
+	1101010,
+	702080,
+	103290,
+	201390,
+	205160,
+	201380,
+	202350,
+	202360,
+	403160,
+	207055,
+	11200010,
+	11200020,
+	103160,
+	404070,
+	408140,
+	401130,
+	408100,
+	1199010,
+	499100,
+	799030,
+	199060,
+	699030,
+	11300010,
+	11300020,
+	11300030,
+	11300040,
+	804010,
+	806010,
+	803030,
+	802040,
+	801050,
+	307160,
+	317020,
+	305160,
+	303200,
+	302270,
+	301920,
+	999012,
+	11400010,
+	11400020,
+	9600120,
+	9600130,
+	9600140,
+	9600150,
+	9600160,
+	107090,
+	405020,
+	11500010,
+	11500020,
+	11500030,
+	11500040,
+	11500050,
+	11500060,
+	317010,
+	107160,
+	101100,
+	101550,
+	102350,
+	107250,
+	301940,
+	605090,
+	601120,
+	602040,
+	303110,
+	105200,
+	503020,
+	502120,
+	499020,
+	307080,
+	407010,
+	703030,
+	701130,
+	702090,
+	702100,
+	100000,
+	302290,
+	302280,
+	307170,
+	303140,
+	303130,
+	702010,
+	10600100,
+	10600110,
+	10600120,
+	10600130,
+	10600140,
+	10600150,
+	399010,
+	105120,
+	305170
+}
 pg.base = pg.base or {}
-pg.base.ship_skin_words_extra = {
-	[999010] = {
+pg.base.ship_skin_words_extra = {}
+
+(function ()
+	pg.base.ship_skin_words_extra[999010] = {
 		feeling3 = "",
 		win_mvp = "",
 		main_extra = "",
@@ -502,8 +506,8 @@ pg.base.ship_skin_words_extra = {
 				"I've studied many emotions, worries, and hopes during my time in this fleet... Now I finally understand what you expect of me, Master. Thank you so, so much, Master..."
 			}
 		}
-	},
-	[801040] = {
+	}
+	pg.base.ship_skin_words_extra[801040] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -535,8 +539,8 @@ pg.base.ship_skin_words_extra = {
 				"Now that I think about it, whenever I'm around you, Commander, my heart always feels fluttery and I can't calm down... Wait, could this be... the Magic of Love?!"
 			}
 		}
-	},
-	[108030] = {
+	}
+	pg.base.ship_skin_words_extra[108030] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -568,8 +572,8 @@ pg.base.ship_skin_words_extra = {
 				"I-I wasn't expecting you to actually carry me around the port... I'm stunned... Listen, I don't mind being with you, but stop treating me like baby!"
 			}
 		}
-	},
-	[999011] = {
+	}
+	pg.base.ship_skin_words_extra[999011] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -631,8 +635,8 @@ pg.base.ship_skin_words_extra = {
 				"I'm sorry, Master... My body feels strangely warm..."
 			}
 		}
-	},
-	[207050] = {
+	}
+	pg.base.ship_skin_words_extra[207050] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -709,8 +713,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander, should I be angry? Positively inconsolable?"
 			}
 		}
-	},
-	[905030] = {
+	}
+	pg.base.ship_skin_words_extra[905030] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -792,8 +796,8 @@ pg.base.ship_skin_words_extra = {
 				"I completely understand what it means to be an idol now. It's about using my abilities to their fullest to sing brilliant, emotionally touching songs to the world. \"Thank you,\" Master."
 			}
 		}
-	},
-	[301090] = {
+	}
+	pg.base.ship_skin_words_extra[301090] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -830,8 +834,8 @@ pg.base.ship_skin_words_extra = {
 				"Hibiki? Oh, it's just you, Commander..."
 			}
 		}
-	},
-	[305140] = {
+	}
+	pg.base.ship_skin_words_extra[305140] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -908,8 +912,8 @@ pg.base.ship_skin_words_extra = {
 				"You know everything about me, from my horns to my personality. Since we're so intimate, I suppose it's needless to tell you... Actually, there's one thing I want to tell you: I will NOT go along with your flirting when we're in the office!"
 			}
 		}
-	},
-	[306070] = {
+	}
+	pg.base.ship_skin_words_extra[306070] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -956,8 +960,8 @@ pg.base.ship_skin_words_extra = {
 				"Hurry up and finish the new missions. Otherwise, people will say that I'm not carrying out my duties as secretary ship."
 			}
 		}
-	},
-	[301260] = {
+	}
+	pg.base.ship_skin_words_extra[301260] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -994,8 +998,8 @@ pg.base.ship_skin_words_extra = {
 				"I'm so glad we finally can be together, Ariake! All that time I spent worrying about when I'd be able to see you seems like a distant illusion now…"
 			}
 		}
-	},
-	[202100] = {
+	}
+	pg.base.ship_skin_words_extra[202100] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -1027,8 +1031,8 @@ pg.base.ship_skin_words_extra = {
 				"Master, you are already the paragon of excellence, for which I am extremely proud. But worry not, Master, in order to ensure that you are not at risk of making any mistakes... please allow me to handle *all* your affairs."
 			}
 		}
-	},
-	[705010] = {
+	}
+	pg.base.ship_skin_words_extra[705010] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -1070,8 +1074,8 @@ pg.base.ship_skin_words_extra = {
 				"You are forgiven, comrade! Such courage deserves to be rewarded! Come, put your hands all over me until you've had your fill!"
 			}
 		}
-	},
-	[702030] = {
+	}
+	pg.base.ship_skin_words_extra[702030] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -1143,8 +1147,8 @@ pg.base.ship_skin_words_extra = {
 				"Still feeling a little uneasy? Just wait a bit longer. You need to stay bound to me like this for now, but sooner or later you won't have to think anymore, you won't have to worry, and you can forget all that pain."
 			}
 		}
-	},
-	[702020] = {
+	}
+	pg.base.ship_skin_words_extra[702020] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -1196,8 +1200,8 @@ pg.base.ship_skin_words_extra = {
 				"I may look young, but I've got a rich history and a vast repertoire of knowledge, which is how I know your mind like the back of my hand, darling♪ \"Wisdom really comes with age\"... We're not touching that topic! Ever! That has nothing to do with it, stupid!"
 			}
 		}
-	},
-	[705050] = {
+	}
+	pg.base.ship_skin_words_extra[705050] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -1249,8 +1253,8 @@ pg.base.ship_skin_words_extra = {
 				"Is this what the Iris would call a \"breach of etiquette?\""
 			}
 		}
-	},
-	[106550] = {
+	}
+	pg.base.ship_skin_words_extra[106550] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -1312,8 +1316,8 @@ pg.base.ship_skin_words_extra = {
 				"C-Commander... Things of this nature are inappropriate here. We should relocate to somewhere else, like... Ahh, I can't believe what I'm saying!"
 			}
 		}
-	},
-	[103240] = {
+	}
+	pg.base.ship_skin_words_extra[103240] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -1370,8 +1374,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander, you wanna go hang after we're done with work? Where? You decide♪ Hehehe~ Don't let me down now. Pick a good place and take me there~"
 			}
 		}
-	},
-	[102270] = {
+	}
+	pg.base.ship_skin_words_extra[102270] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -1423,8 +1427,8 @@ pg.base.ship_skin_words_extra = {
 				"Smokin' bod I've got, am I right? Heehee!"
 			}
 		}
-	},
-	[107110] = {
+	}
+	pg.base.ship_skin_words_extra[107110] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -1496,8 +1500,8 @@ pg.base.ship_skin_words_extra = {
 				"Gotcha, Commander! Heheh, even if these hands will never be able to hold the stars in the sky, at least I can have you~ Just kidding. In any case, wanna go watch a movie? Naturally, we'll be holding hands, hehe~"
 			}
 		}
-	},
-	[207020] = {
+	}
+	pg.base.ship_skin_words_extra[207020] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -1554,8 +1558,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander! N-not here...!"
 			}
 		}
-	},
-	[105030] = {
+	}
+	pg.base.ship_skin_words_extra[105030] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -1612,8 +1616,8 @@ pg.base.ship_skin_words_extra = {
 				"Hey...! Why so restless all of a sudden?"
 			}
 		}
-	},
-	[302140] = {
+	}
+	pg.base.ship_skin_words_extra[302140] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -1675,8 +1679,8 @@ pg.base.ship_skin_words_extra = {
 				"Heheh~ Commander, have you decided where to go for today's date? If you haven't made up your mind, I'll make the decision for you~"
 			}
 		}
-	},
-	[805010] = {
+	}
+	pg.base.ship_skin_words_extra[805010] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -1738,8 +1742,8 @@ pg.base.ship_skin_words_extra = {
 				"Whether you or I care more for the other is inconsequential. I feel more than happy enough just feeling our close bond together like this. Thank you for always being by my side."
 			}
 		}
-	},
-	[905010] = {
+	}
+	pg.base.ship_skin_words_extra[905010] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -1816,8 +1820,8 @@ pg.base.ship_skin_words_extra = {
 				"...Oh, crap, guess I dozed off. How 'bout you take a quick nap too? You could use my lap for a headrest. Take it easy. You and I, we're always by each other's side."
 			}
 		}
-	},
-	[301820] = {
+	}
+	pg.base.ship_skin_words_extra[301820] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -1879,8 +1883,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander, have you been watering the flowers in the office? ...It's important to me, because it gives me something to remember you by when you aren't here."
 			}
 		}
-	},
-	[305080] = {
+	}
+	pg.base.ship_skin_words_extra[305080] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -1962,8 +1966,8 @@ pg.base.ship_skin_words_extra = {
 				"Lest you forget, no matter how great your ambitions may be, you are but a vulnerable human. If you are ever in danger, you must take cover and protect yourself. If misfortune befalling you strips me of my reason to move forward, I will hunt you down through the depths of hell or the pinnacles of heaven. Don't think you can escape from me, ahahaha!"
 			}
 		}
-	},
-	[903020] = {
+	}
+	pg.base.ship_skin_words_extra[903020] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -2040,8 +2044,8 @@ pg.base.ship_skin_words_extra = {
 				"Love, how are the plans for our next date looking? Oh, I know that the destination's basically decided upon. More than that, I was thinking things like... where we'll eat dinner, or where we'll stay. We have to plan out everything carefully so we can enjoy the date that much more!"
 			}
 		}
-	},
-	[802020] = {
+	}
+	pg.base.ship_skin_words_extra[802020] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -2098,8 +2102,8 @@ pg.base.ship_skin_words_extra = {
 				"D-don't touch me there!"
 			}
 		}
-	},
-	[901020] = {
+	}
+	pg.base.ship_skin_words_extra[901020] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -2156,8 +2160,8 @@ pg.base.ship_skin_words_extra = {
 				"It's fine to always be thinking about you? In that case....... Huh? Didn't you just say it was fine...? I sometimes feel like I could just daydream about you forever..."
 			}
 		}
-	},
-	[901030] = {
+	}
+	pg.base.ship_skin_words_extra[901030] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -2224,8 +2228,8 @@ pg.base.ship_skin_words_extra = {
 				"Allll righty, what carefree adventures are we going to have today? ...Woahh?! Commander, why are you hugging me so suddenly? I, I don't mind if you want to fool around, but what if someone sees us... Ahhn?!"
 			}
 		}
-	},
-	[202030] = {
+	}
+	pg.base.ship_skin_words_extra[202030] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -2297,8 +2301,8 @@ pg.base.ship_skin_words_extra = {
 				"Your mail. Let's take a look... Hehe, of course I trust you, my little piggy~"
 			}
 		}
-	},
-	[201100] = {
+	}
+	pg.base.ship_skin_words_extra[201100] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -2365,8 +2369,8 @@ pg.base.ship_skin_words_extra = {
 				"♪ Fish and chips ♪ with salt or with mayonnaise? I'll feed 'em to ya, Commander! Eheheh... open up~"
 			}
 		}
-	},
-	[901110] = {
+	}
+	pg.base.ship_skin_words_extra[901110] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -2448,8 +2452,8 @@ pg.base.ship_skin_words_extra = {
 				"I do want... to go on a date, but I always get tired when we go to some faraway place... W-we should just go on a date at the dorms! Right?"
 			}
 		}
-	},
-	[205060] = {
+	}
+	pg.base.ship_skin_words_extra[205060] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -2526,8 +2530,8 @@ pg.base.ship_skin_words_extra = {
 				"Love based on pretense is a vile thing. I give myself to you as I am, and I accept you for who you are. No matter how many mistakes you make, I can overlook them all, because my eyes are cloudy with tears of happiness. That's what lovers do, after all."
 			}
 		}
-	},
-	[205070] = {
+	}
+	pg.base.ship_skin_words_extra[205070] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -2584,8 +2588,8 @@ pg.base.ship_skin_words_extra = {
 				"O sinful serpent, thou hast chosen to entwine thyself around me. Dedicate thy love to me for all of eternity— and in return, accept my love, and the right to embrace me."
 			}
 		}
-	},
-	[902010] = {
+	}
+	pg.base.ship_skin_words_extra[902010] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -2637,8 +2641,8 @@ pg.base.ship_skin_words_extra = {
 				"Hm? Hmmmmm? ...Mmm... Well, whatever~♪"
 			}
 		}
-	},
-	[205100] = {
+	}
+	pg.base.ship_skin_words_extra[205100] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -2690,8 +2694,8 @@ pg.base.ship_skin_words_extra = {
 				"I don't care if I win or lose... A-after all, what's more important is that I get to be with you, right...? You agree?! ...W-well then, let's have a rematch!"
 			}
 		}
-	},
-	[207010] = {
+	}
+	pg.base.ship_skin_words_extra[207010] = {
 		feeling3 = "",
 		win_mvp = "",
 		expedition = "",
@@ -2753,8 +2757,8 @@ pg.base.ship_skin_words_extra = {
 				"Weight and appearances don't bother me as much anymore. We, as ships, can't physically change much anyway, and you're happy with me no matter how I look. We are both irreplaceable to one another, after all."
 			}
 		}
-	},
-	[201330] = {
+	}
+	pg.base.ship_skin_words_extra[201330] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -2811,8 +2815,8 @@ pg.base.ship_skin_words_extra = {
 				"\"You, who are like the sun...\" No, that's not quite it. If I were to say what you are really like... Maybe a space heater? Warm to be around, without the danger of being burned... Look, even if I'm sticking to you this closely, I'm still not burned! Hehe~"
 			}
 		}
-	},
-	[202270] = {
+	}
+	pg.base.ship_skin_words_extra[202270] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -2864,8 +2868,8 @@ pg.base.ship_skin_words_extra = {
 				"Hmhm~♪ The room's all cleaned, time for... Oh, welcome back, Commander. I'll prepare your meal right away, so please wait a bit longer~"
 			}
 		}
-	},
-	[205090] = {
+	}
+	pg.base.ship_skin_words_extra[205090] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -2922,8 +2926,8 @@ pg.base.ship_skin_words_extra = {
 				"Hehehe, let's plan for our next date, love. Speaking of which, I've heard of a place with famously delicious cookies. How does that sound?"
 			}
 		}
-	},
-	[206060] = {
+	}
+	pg.base.ship_skin_words_extra[206060] = {
 		feeling3 = "",
 		win_mvp = "",
 		home = "",
@@ -2995,8 +2999,8 @@ pg.base.ship_skin_words_extra = {
 				"I've become able to just, you know, talk. Like a normal person. With you and other people, I mean. I owe you thanks for helping me come this far. I love you, Commander. I really do."
 			}
 		}
-	},
-	[499040] = {
+	}
+	pg.base.ship_skin_words_extra[499040] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -3053,8 +3057,8 @@ pg.base.ship_skin_words_extra = {
 				"To tell the truth, I blanked out the moment you presented this ring to me. But now, my mind is clear. Whatever obstacles we will come to face, I vow to take them on together with you."
 			}
 		}
-	},
-	[299030] = {
+	}
+	pg.base.ship_skin_words_extra[299030] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -3116,8 +3120,8 @@ pg.base.ship_skin_words_extra = {
 				"Oh, Owner~! Anywhere you wanna go today? Anything particular you want for dinner? Maybe there's something you wanna say? Ask me, and I'll tell you: I wanna go wherever you're going, I wanna have dinner with and most importantly, I love you, Owner~♡"
 			}
 		}
-	},
-	[299040] = {
+	}
+	pg.base.ship_skin_words_extra[299040] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -3159,8 +3163,8 @@ pg.base.ship_skin_words_extra = {
 				"Hm, I see. This is what it feels like to be loved by someone you love. Not wanting to snatch someone away or wanting to monopolize them, but feeling excited and safe... It feels a bit strange..."
 			}
 		}
-	},
-	[499030] = {
+	}
+	pg.base.ship_skin_words_extra[499030] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -3232,8 +3236,8 @@ pg.base.ship_skin_words_extra = {
 				"*cough*, Commander, please hold yourself back!"
 			}
 		}
-	},
-	[305120] = {
+	}
+	pg.base.ship_skin_words_extra[305120] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -3285,8 +3289,8 @@ pg.base.ship_skin_words_extra = {
 				"Physical contact doesn't normally bother me, but you clearly did that on purpose!"
 			}
 		}
-	},
-	[319010] = {
+	}
+	pg.base.ship_skin_words_extra[319010] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -3348,8 +3352,8 @@ pg.base.ship_skin_words_extra = {
 				"Ahh~ That feels so good... Commander, thank you so much. I really appreciate the massage... Now, it's my turn to do all sorts of things for you, right? Ehehe~♪"
 			}
 		}
-	},
-	[301840] = {
+	}
+	pg.base.ship_skin_words_extra[301840] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -3411,8 +3415,8 @@ pg.base.ship_skin_words_extra = {
 				"I love being in your arms, Commander~ Ahh, I could roll around forever~ ...Wh-who's there?! ...D-d-do you need something from Suzutsuki?! ......Forget what you just saw, all right?! Seriously!"
 			}
 		}
-	},
-	[204040] = {
+	}
+	pg.base.ship_skin_words_extra[204040] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -3464,8 +3468,8 @@ pg.base.ship_skin_words_extra = {
 				"Renown has no need for a sugar rush at this time... B-but, maybe just one piece of candy...!"
 			}
 		}
-	},
-	[408090] = {
+	}
+	pg.base.ship_skin_words_extra[408090] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -3547,8 +3551,8 @@ pg.base.ship_skin_words_extra = {
 				"Mgh... Ohh..."
 			}
 		}
-	},
-	[201320] = {
+	}
+	pg.base.ship_skin_words_extra[201320] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -3595,8 +3599,8 @@ pg.base.ship_skin_words_extra = {
 				"....... Why am I not saying anything? Oh, did you want me to? I was trying to keep quiet so I wouldn't bother you, Commander. Buuut, if you insist... I'll flirt with you all I want~! Ehehe, remember, you were the one who asked~!"
 			}
 		}
-	},
-	[901120] = {
+	}
+	pg.base.ship_skin_words_extra[901120] = {
 		feeling3 = "",
 		upgrade = "",
 		main_extra = "",
@@ -3678,8 +3682,8 @@ pg.base.ship_skin_words_extra = {
 				"Too tired... I'm gonna die... Ahhh... Waaah..."
 			}
 		}
-	},
-	[107230] = {
+	}
+	pg.base.ship_skin_words_extra[107230] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -3741,8 +3745,8 @@ pg.base.ship_skin_words_extra = {
 				"All right, we'll now start our meeting to review and discuss Saratoga's battle style! There will be another one right after to appreciate her newest single! Commander, make sure to keep me company until the end!"
 			}
 		}
-	},
-	[407030] = {
+	}
+	pg.base.ship_skin_words_extra[407030] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -3784,8 +3788,8 @@ pg.base.ship_skin_words_extra = {
 				"Oh, what a thrill it is to do this with you, Officer. Heheh."
 			}
 		}
-	},
-	[403090] = {
+	}
+	pg.base.ship_skin_words_extra[403090] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -3852,8 +3856,8 @@ pg.base.ship_skin_words_extra = {
 				"Whuah?! Geesh, Commander, I know who you are, okay?"
 			}
 		}
-	},
-	[401240] = {
+	}
+	pg.base.ship_skin_words_extra[401240] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -3905,8 +3909,8 @@ pg.base.ship_skin_words_extra = {
 				"Hurry up and finish your work already, you fool! Stop... slacking... off... or I'll scratch you!|Studying...? Wh-why do I have to stoop to doing the same stuff as Z25 and the others? Don't wanna! Stop throwing homework at me!"
 			}
 		}
-	},
-	[402050] = {
+	}
+	pg.base.ship_skin_words_extra[402050] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -3963,8 +3967,8 @@ pg.base.ship_skin_words_extra = {
 				"Ngh... This is just... accidental contact... There's no deeper meaning to this...!"
 			}
 		}
-	},
-	[301630] = {
+	}
+	pg.base.ship_skin_words_extra[301630] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -4036,8 +4040,8 @@ pg.base.ship_skin_words_extra = {
 				"New mail... Should I try singing it aloud like Michishio does?"
 			}
 		}
-	},
-	[202290] = {
+	}
+	pg.base.ship_skin_words_extra[202290] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -4099,8 +4103,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander, if this is what you desire, then..."
 			}
 		}
-	},
-	[502040] = {
+	}
+	pg.base.ship_skin_words_extra[502040] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -4147,8 +4151,8 @@ pg.base.ship_skin_words_extra = {
 				"Though I no longer communicate with you through writing, I feel like we understand each other much better now. Please continue to share your feelings with me, be they amorous or anxious."
 			}
 		}
-	},
-	[502050] = {
+	}
+	pg.base.ship_skin_words_extra[502050] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -4235,8 +4239,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander, um, I'm not just your partner, but I'm also your big sister... or, at least I want to be! S-so, if I want to be pampered a bit... Yeah, pamper me! J-j-just a little!"
 			}
 		}
-	},
-	[701070] = {
+	}
+	pg.base.ship_skin_words_extra[701070] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -4303,8 +4307,8 @@ pg.base.ship_skin_words_extra = {
 				"Uhh, woaaaahhhhh..."
 			}
 		}
-	},
-	[701080] = {
+	}
+	pg.base.ship_skin_words_extra[701080] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -4356,8 +4360,8 @@ pg.base.ship_skin_words_extra = {
 				"Comrade Commander, you mustn't slack off! ...Huh? You want me to come relax with you? I, I guess I can't get mad at that... Wait, hey! Get back to work!|nil|nil"
 			}
 		}
-	},
-	[702060] = {
+	}
+	pg.base.ship_skin_words_extra[702060] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -4399,8 +4403,8 @@ pg.base.ship_skin_words_extra = {
 				"Gosh, your hand feels so warm~"
 			}
 		}
-	},
-	[703010] = {
+	}
+	pg.base.ship_skin_words_extra[703010] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -4457,8 +4461,8 @@ pg.base.ship_skin_words_extra = {
 				"Hehehe. You know what? I'll let you have your fun for once."
 			}
 		}
-	},
-	[702040] = {
+	}
+	pg.base.ship_skin_words_extra[702040] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -4505,8 +4509,8 @@ pg.base.ship_skin_words_extra = {
 				"Hmm... I would like you to be a bit more mindful of the rules."
 			}
 		}
-	},
-	[705040] = {
+	}
+	pg.base.ship_skin_words_extra[705040] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -4568,8 +4572,8 @@ pg.base.ship_skin_words_extra = {
 				"Hey, hey... I didn't call you here to make you all hot and bothered."
 			}
 		}
-	},
-	[101450] = {
+	}
+	pg.base.ship_skin_words_extra[101450] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -4631,8 +4635,8 @@ pg.base.ship_skin_words_extra = {
 				"Beep boop, this is an automated deadpan mission reminder. Mission rewards detected. Go claim them. Beep boop."
 			}
 		}
-	},
-	[101460] = {
+	}
+	pg.base.ship_skin_words_extra[101460] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -4684,8 +4688,8 @@ pg.base.ship_skin_words_extra = {
 				"We've got new missions! Gotta do this stuff sooner or later, so why not get it outta the way now?"
 			}
 		}
-	},
-	[605010] = {
+	}
+	pg.base.ship_skin_words_extra[605010] = {
 		feeling3 = "",
 		upgrade = "",
 		mission = "",
@@ -4757,8 +4761,8 @@ pg.base.ship_skin_words_extra = {
 				"I do not condone this, but since you're so insistent... Ohoho."
 			}
 		}
-	},
-	[304070] = {
+	}
+	pg.base.ship_skin_words_extra[304070] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -4825,8 +4829,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander, would you like to rest on my lap? Thanks to you, I've been able to hold on for a lot longer~ Ehehe... Please make sure to go sleep in your regular bed before Akagi gets mad~"
 			}
 		}
-	},
-	[602010] = {
+	}
+	pg.base.ship_skin_words_extra[602010] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -4888,8 +4892,8 @@ pg.base.ship_skin_words_extra = {
 				"I don't blame you for losing control, but you must consider the impact on your public image."
 			}
 		}
-	},
-	[607010] = {
+	}
+	pg.base.ship_skin_words_extra[607010] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -4961,8 +4965,8 @@ pg.base.ship_skin_words_extra = {
 				"Oh my... Just what am I going to do with you, my Commander..."
 			}
 		}
-	},
-	[601040] = {
+	}
+	pg.base.ship_skin_words_extra[601040] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -5029,8 +5033,8 @@ pg.base.ship_skin_words_extra = {
 				"Ehehe... Commander..."
 			}
 		}
-	},
-	[601050] = {
+	}
+	pg.base.ship_skin_words_extra[601050] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -5082,8 +5086,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander, is my sister doing alright?"
 			}
 		}
-	},
-	[601060] = {
+	}
+	pg.base.ship_skin_words_extra[601060] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -5140,8 +5144,8 @@ pg.base.ship_skin_words_extra = {
 				"I've worked out a course for our date! It goes to a nice, kinda remote little corner of the sea! Now it's your job to find some souvenirs for everyone!"
 			}
 		}
-	},
-	[608010] = {
+	}
+	pg.base.ship_skin_words_extra[608010] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -5198,8 +5202,8 @@ pg.base.ship_skin_words_extra = {
 				"Thanks for everything you do, Commander... Hehehehe... Tell you what, I-I'll make you dinner today... Mushroom marinade, mushroom risotto, and my own mushroom special... Hehehehe...."
 			}
 		}
-	},
-	[102290] = {
+	}
+	pg.base.ship_skin_words_extra[102290] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -5266,8 +5270,8 @@ pg.base.ship_skin_words_extra = {
 				"(Deep breaths... Deep breaths...!!!)"
 			}
 		}
-	},
-	[103140] = {
+	}
+	pg.base.ship_skin_words_extra[103140] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -5324,8 +5328,8 @@ pg.base.ship_skin_words_extra = {
 				"Hey, Puddin', what do you say we retake our vows? ...Hahaha! Look at you, gettin' all flustered! Why so serious? Ahaha~"
 			}
 		}
-	},
-	[101470] = {
+	}
+	pg.base.ship_skin_words_extra[101470] = {
 		feeling3 = "",
 		upgrade = "",
 		mission = "",
@@ -5407,8 +5411,8 @@ pg.base.ship_skin_words_extra = {
 				"Ah, um, I'm so sorry... Mr. Bear is very sensitive to sudden movements, and he'll spring up to defend me..."
 			}
 		}
-	},
-	[107140] = {
+	}
+	pg.base.ship_skin_words_extra[107140] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -5460,8 +5464,8 @@ pg.base.ship_skin_words_extra = {
 				"Good work, Commander. Did you need anything? A date...? Why yes, of course! As long as you're fine with me... Err, no, I'll be taking the lead today, so come with me... H-huh? You don't mean right now?"
 			}
 		}
-	},
-	[105170] = {
+	}
+	pg.base.ship_skin_words_extra[105170] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -5528,8 +5532,8 @@ pg.base.ship_skin_words_extra = {
 				"I know, you absolutely love this kind of stuff, dontcha~ Ahaha~♪"
 			}
 		}
-	},
-	[107990] = {
+	}
+	pg.base.ship_skin_words_extra[107990] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -5581,8 +5585,8 @@ pg.base.ship_skin_words_extra = {
 				"The stars shining in the night sky... Is that the place we're aiming to go to one day? I just know that the two of us can make that dream come true! Even if we have to defeat as many enemies as stars in the sky, we'll overcome anything!"
 			}
 		}
-	},
-	[207052] = {
+	}
+	pg.base.ship_skin_words_extra[207052] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -5639,8 +5643,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander! I urge you to pat my head at once! Or else I will ignore you for the rest of the party!"
 			}
 		}
-	},
-	[301860] = {
+	}
+	pg.base.ship_skin_words_extra[301860] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -5697,8 +5701,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander... What are you up to? (Kazagumo throws you a considerate look.)"
 			}
 		}
-	},
-	[399050] = {
+	}
+	pg.base.ship_skin_words_extra[399050] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -5760,8 +5764,8 @@ pg.base.ship_skin_words_extra = {
 				"F-fine, it's not like I can beat you anyway... Hyaah?!"
 			}
 		}
-	},
-	[10700010] = {
+	}
+	pg.base.ship_skin_words_extra[10700010] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -5833,8 +5837,8 @@ pg.base.ship_skin_words_extra = {
 				"I forgot to ask, but how'd you like that cake I made the other day? ...You loved it? Hehehe~ I get all giddy when people give me their feedback. If you want to, I could make another one for you~"
 			}
 		}
-	},
-	[10700020] = {
+	}
+	pg.base.ship_skin_words_extra[10700020] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -5906,8 +5910,8 @@ pg.base.ship_skin_words_extra = {
 				"When I first arrived in port, there were so many things I didn't understand, but thanks to the help you and the others have given me, I've come to really enjoy my time here. I'm truly grateful for all you've done for me."
 			}
 		}
-	},
-	[10700030] = {
+	}
+	pg.base.ship_skin_words_extra[10700030] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -5979,8 +5983,8 @@ pg.base.ship_skin_words_extra = {
 				"Hey, puff up your chest with pride. You're part of the reason I'm able to shine so brightly over here as well. ...I'll be expecting great things from you in the future as well, Commander! Heehee~♪"
 			}
 		}
-	},
-	[10700040] = {
+	}
+	pg.base.ship_skin_words_extra[10700040] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -6052,8 +6056,8 @@ pg.base.ship_skin_words_extra = {
 				"You're the reason I've managed to come this far, Commander. Allow me to sincerely thank you for always coming to my aid when I wander off~"
 			}
 		}
-	},
-	[10700050] = {
+	}
+	pg.base.ship_skin_words_extra[10700050] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -6125,8 +6129,8 @@ pg.base.ship_skin_words_extra = {
 				"You fell asleep again, didn't you, Commander? Now, now, it's time to get up. Actually... Seeing as you've been swamped with work recently, I guess I'll let you off the hook this once."
 			}
 		}
-	},
-	[10700060] = {
+	}
+	pg.base.ship_skin_words_extra[10700060] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -6198,8 +6202,8 @@ pg.base.ship_skin_words_extra = {
 				"Hey hey, I'll be playing games with Mami on my next day off. Won'tcha join us, Commander? Make sure you bring some pudding with you when you come~! We'll make sure to bring some candy to munch on as well!"
 			}
 		}
-	},
-	[10700070] = {
+	}
+	pg.base.ship_skin_words_extra[10700070] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -6271,8 +6275,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander, I'm here to pick you up! You promised to play games with me and the others today, right~? Come on, let's go~! ...Oh, and can we stop by the store on the way there?"
 			}
 		}
-	},
-	[108070] = {
+	}
+	pg.base.ship_skin_words_extra[108070] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -6334,8 +6338,8 @@ pg.base.ship_skin_words_extra = {
 				"This doesn't feel right, Commander... Y-you didn't mean to do that?"
 			}
 		}
-	},
-	[301290] = {
+	}
+	pg.base.ship_skin_words_extra[301290] = {
 		feeling3 = "",
 		upgrade = "",
 		mission = "",
@@ -6422,8 +6426,8 @@ pg.base.ship_skin_words_extra = {
 				"Sweetheart? I'd love to have dinner with you after work, then go shopping together. I wish we'd have more time for ourselves, even if I'd always want more of it. Hehehe~ Got to make the most of what we can get, though, right?"
 			}
 		}
-	},
-	[307120] = {
+	}
+	pg.base.ship_skin_words_extra[307120] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -6485,8 +6489,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander, how has work been recently? Are you doing well? And how did you like that cake? Oh, and do you know where you want to go for next weekend's date? ...Hehe, every time I see you, I just can't stop myself~ But first of all, I'll have you answer each and every one of my questions~♪"
 			}
 		}
-	},
-	[301470] = {
+	}
+	pg.base.ship_skin_words_extra[301470] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -6558,8 +6562,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander, I hope you'll allow me to hug you... H-hup! Umm... Somehow, I thin k I'm getting too sleepy to... get any practice out of this... Zzz..."
 			}
 		}
-	},
-	[301480] = {
+	}
+	pg.base.ship_skin_words_extra[301480] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -6631,8 +6635,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander! I'm here to play another game! Hehehe~ Whatever we do together, it's always so much fun! Oh, here, Umikaze shared some snacks with me! You can have aaaall of them!"
 			}
 		}
-	},
-	[302070] = {
+	}
+	pg.base.ship_skin_words_extra[302070] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -6709,8 +6713,10 @@ pg.base.ship_skin_words_extra = {
 				"Just as my Self stays by my side and protects me, I would like to stay by your side and protect you. At your side, always... Hehehe~♪"
 			}
 		}
-	},
-	[303060] = {
+	}
+end)()
+(function ()
+	pg.base.ship_skin_words_extra[303060] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -6787,8 +6793,8 @@ pg.base.ship_skin_words_extra = {
 				"Oh, are you asking me on a date? Mm~ What should I tell you in return... Hehehe, how about... the place I'd like to go today~?"
 			}
 		}
-	},
-	[801070] = {
+	}
+	pg.base.ship_skin_words_extra[801070] = {
 		feeling3 = "",
 		expedition = "",
 		home = "",
@@ -6860,8 +6866,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander, have some spare time to have a chat? No no, I didn't have anything special in mind. You know, I get anxious if I don't get to see your face for even a day. Whether you're having a good day or a not-so-good day, I just want to see more of you~"
 			}
 		}
-	},
-	[801080] = {
+	}
+	pg.base.ship_skin_words_extra[801080] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -6923,8 +6929,8 @@ pg.base.ship_skin_words_extra = {
 				"Lord Commander! When is the next sortie? I must know so I can prepare for our holy battle, and also to relax and repose! Most of all, I'd love to spend a day off together with you~"
 			}
 		}
-	},
-	[903010] = {
+	}
+	pg.base.ship_skin_words_extra[903010] = {
 		feeling3 = "",
 		upgrade = "",
 		mission = "",
@@ -7001,8 +7007,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander, did you have any plans for the evening? Ahaha, it's nothing special. I was just thinking that I'd like to eat dinner with you tonight. The reason is... Well, isn't wanting to spend more time with you reason enough? Haha~♪"
 			}
 		}
-	},
-	[10800010] = {
+	}
+	pg.base.ship_skin_words_extra[10800010] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -7074,8 +7080,8 @@ pg.base.ship_skin_words_extra = {
 				"Back then, I wasn't able to fight the enemy head-on. But this time, I have the power to help others. Now, I swear to fight for you and everyone else."
 			}
 		}
-	},
-	[10800060] = {
+	}
+	pg.base.ship_skin_words_extra[10800060] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -7147,8 +7153,8 @@ pg.base.ship_skin_words_extra = {
 				"Huh? Commander? What's with your expression? ...Is there something you're worrying about? If you'd like, I'd be willing to lend an ear. We're friends, after all."
 			}
 		}
-	},
-	[10800070] = {
+	}
+	pg.base.ship_skin_words_extra[10800070] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -7215,8 +7221,8 @@ pg.base.ship_skin_words_extra = {
 				"Oh, time to sortie soon? Take me with you. You'll want a battleship like me... Yeah, that'll be great."
 			}
 		}
-	},
-	[10800040] = {
+	}
+	pg.base.ship_skin_words_extra[10800040] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -7288,8 +7294,8 @@ pg.base.ship_skin_words_extra = {
 				"Oh, Commander! You'd better not forget to come to the next tea party! Heh heh, I swear I'll show you why I'm awesome!"
 			}
 		}
-	},
-	[10800030] = {
+	}
+	pg.base.ship_skin_words_extra[10800030] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -7361,8 +7367,8 @@ pg.base.ship_skin_words_extra = {
 				"Yo, Commander. I'm about to head out to hang out with my friends, wanna tag along? No need to worry, I'm sure everyone would love to see you there."
 			}
 		}
-	},
-	[10800050] = {
+	}
+	pg.base.ship_skin_words_extra[10800050] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -7434,8 +7440,8 @@ pg.base.ship_skin_words_extra = {
 				"Hey, can you come see during break time? I want to really familiarize myself with this place, and I was hoping you could show me around..."
 			}
 		}
-	},
-	[10800020] = {
+	}
+	pg.base.ship_skin_words_extra[10800020] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -7507,8 +7513,8 @@ pg.base.ship_skin_words_extra = {
 				"You hold a pretty special place in my heart, Commander... Huh? Is that a blush I see~?"
 			}
 		}
-	},
-	[403100] = {
+	}
+	pg.base.ship_skin_words_extra[403100] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -7565,8 +7571,8 @@ pg.base.ship_skin_words_extra = {
 				"You down to hang out with me today? Ah, right, you've got work... Tell you what, I'll help you with it. First order of business: putting a smile on your face~"
 			}
 		}
-	},
-	[402060] = {
+	}
+	pg.base.ship_skin_words_extra[402060] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -7638,8 +7644,8 @@ pg.base.ship_skin_words_extra = {
 				"Now that we've gone from homies to like, hand-holding homies, I don't know where to take things from here... \"Don't worry about it?\" Yeah, guess you're right! We got to this point by just going with the flow, so let's stick to that!"
 			}
 		}
-	},
-	[405030] = {
+	}
+	pg.base.ship_skin_words_extra[405030] = {
 		feeling3 = "",
 		upgrade = "",
 		id = 405030,
@@ -7741,8 +7747,8 @@ pg.base.ship_skin_words_extra = {
 				"Stay still. Don't wander away. I can't leave the one I absolutely adore alone. If someone actually tried to tear the two of us apart... Hehehe... Let's just say, I'd tell them to eat shit."
 			}
 		}
-	},
-	[406020] = {
+	}
+	pg.base.ship_skin_words_extra[406020] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -7819,8 +7825,8 @@ pg.base.ship_skin_words_extra = {
 				"I always thought that being a bad girl would keep you interested in me, but... sometimes, I just want to be a good girl who clings to your side... O-only every once in a while though, got it...?"
 			}
 		}
-	},
-	[408120] = {
+	}
+	pg.base.ship_skin_words_extra[408120] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -7902,8 +7908,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander! Do you have time right now? Then come play with me! I remember you saying you would! Oh, we're gonna have so, sooo much fun later!"
 			}
 		}
-	},
-	[101490] = {
+	}
+	pg.base.ship_skin_words_extra[101490] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -7965,8 +7971,8 @@ pg.base.ship_skin_words_extra = {
 				"S-so that's your favorite part of me, huh..."
 			}
 		}
-	},
-	[502080] = {
+	}
+	pg.base.ship_skin_words_extra[502080] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -8013,8 +8019,8 @@ pg.base.ship_skin_words_extra = {
 				"Being upfront about your feelings is good, b-but I'd appreciate at least a little restraint!"
 			}
 		}
-	},
-	[502070] = {
+	}
+	pg.base.ship_skin_words_extra[502070] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -8076,8 +8082,8 @@ pg.base.ship_skin_words_extra = {
 				"It is quite natural for me to be in high spirits. After all, my beloved is by my side, your warmth imbuing me with a happiness that overflows without cessation. What cause could I possibly have to be displeased? And just like me, I hope that as long as I remain by your side, your precious smile will never fade away~♪"
 			}
 		}
-	},
-	[202300] = {
+	}
+	pg.base.ship_skin_words_extra[202300] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -8154,8 +8160,8 @@ pg.base.ship_skin_words_extra = {
 				"Thank you for waiting, my dear Master. Heehee, you seem pretty tired... Hah! I'll pet you on the head today. Good work, good work~ I'm not going anywhere, so just sit tight and let my affection warm you up~!"
 			}
 		}
-	},
-	[705060] = {
+	}
+	pg.base.ship_skin_words_extra[705060] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -8227,8 +8233,8 @@ pg.base.ship_skin_words_extra = {
 				"Would you please tell me ahead of time when you want me to switch from soldier to lady mode? It's hard to dote on you at the drop of a hat – I'm not used to that. As an aside, would you like to go on a date? ...Hehehe. Expect me to make the first move for as long as I'm not used to doting on you."
 			}
 		}
-	},
-	[707010] = {
+	}
+	pg.base.ship_skin_words_extra[707010] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -8295,8 +8301,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander, what would you like for din– Huh, it's already done? No way, I spent all day coming up with a special recipe... *nom*... Woah, delicious! Um, Commander, c-could I please have some more?"
 			}
 		}
-	},
-	[701100] = {
+	}
+	pg.base.ship_skin_words_extra[701100] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -8378,8 +8384,8 @@ pg.base.ship_skin_words_extra = {
 				"I want to be the only one for you. Of all the girls close to you, I want to be your most faithful one. When you look at all of us, I want to be the only one you really see... That's fine, right?"
 			}
 		}
-	},
-	[718010] = {
+	}
+	pg.base.ship_skin_words_extra[718010] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -8456,8 +8462,8 @@ pg.base.ship_skin_words_extra = {
 				"Take this transceiver. It connects to a highly secure channel no one but you and me knows about. Use it whenever I'm not around and you need help, have something on your mind, want to go on a date, or just have a chat. I'll be there for you anytime, anywhere!"
 			}
 		}
-	},
-	[701090] = {
+	}
+	pg.base.ship_skin_words_extra[701090] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -8539,8 +8545,8 @@ pg.base.ship_skin_words_extra = {
 				"You needn't worry, Comrade! I may be obsessed with machinery, but I could never forget about you, my dear lover! On that note, why don't we go on a date to that toy store which opened just today? It supposedly has tons of mechanical toys on offer!"
 			}
 		}
-	},
-	[601070] = {
+	}
+	pg.base.ship_skin_words_extra[601070] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -8607,8 +8613,8 @@ pg.base.ship_skin_words_extra = {
 				"Hey! You know that place popular with couples I brought up the other day? Don't say the name, it's on the tip of my tongue! It's... Hrmmm... Sigh, I can't remember... But you know what? You can make the first move and decide where we'll go for once. Hehehe~"
 			}
 		}
-	},
-	[603040] = {
+	}
+	pg.base.ship_skin_words_extra[603040] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -8685,8 +8691,8 @@ pg.base.ship_skin_words_extra = {
 				"You've got food on your face. I thought you could at least eat properly, but I suppose you're a child, hmm? Remember to drink your water, too... Clean it with a kiss? I-I suppose I could..."
 			}
 		}
-	},
-	[607020] = {
+	}
+	pg.base.ship_skin_words_extra[607020] = {
 		feeling3 = "",
 		upgrade = "",
 		id = 607020,
@@ -8783,8 +8789,8 @@ pg.base.ship_skin_words_extra = {
 				"We don't have to do anything today. You heard me – you can be like me and just not do anything productive. And if you do something wild, I'll let it slide."
 			}
 		}
-	},
-	[506010] = {
+	}
+	pg.base.ship_skin_words_extra[506010] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -8841,8 +8847,8 @@ pg.base.ship_skin_words_extra = {
 				"You'd like to challenge me to another match today? Very well, but let's up the ante this time. The loser is responsible for deciding how the two of us will spend our time together after the match. I also would like to take my hands off the reins every now and then, so I'll try my best to win. Hehe~"
 			}
 		}
-	},
-	[603010] = {
+	}
+	pg.base.ship_skin_words_extra[603010] = {
 		feeling3 = "",
 		upgrade = "",
 		mission = "",
@@ -8924,8 +8930,8 @@ pg.base.ship_skin_words_extra = {
 				"You've shown how much you need me, so as promised, I wholly accept you for who you are~ Hehehe~ You have nothing to worry about, sweetie. You're doing really, really good~"
 			}
 		}
-	},
-	[402080] = {
+	}
+	pg.base.ship_skin_words_extra[402080] = {
 		feeling3 = "",
 		upgrade = "",
 		mission = "",
@@ -9002,8 +9008,8 @@ pg.base.ship_skin_words_extra = {
 				"I'm going to have an awful day today. It's going to rain, the restaurant I booked a table at will close early, same for the movie theater after that, and you'll receive urgent work that keeps you busy all night... That should do it! Thanks for waiting while I recited all that."
 			}
 		}
-	},
-	[402070] = {
+	}
+	pg.base.ship_skin_words_extra[402070] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -9080,8 +9086,8 @@ pg.base.ship_skin_words_extra = {
 				"\"You're just begging to be spoiled, human♥\" Emden shall caress you until you're whisked away to sleep♡"
 			}
 		}
-	},
-	[404040] = {
+	}
+	pg.base.ship_skin_words_extra[404040] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -9138,8 +9144,8 @@ pg.base.ship_skin_words_extra = {
 				"Mrmh, mmh... Heehee, payback!"
 			}
 		}
-	},
-	[404030] = {
+	}
+	pg.base.ship_skin_words_extra[404030] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -9221,8 +9227,8 @@ pg.base.ship_skin_words_extra = {
 				"Good lord... I should've prepared better before asking you on a date... Oh, no, nothing's wrong! I-it's just... Your immediate \"yes\" made my heart flutter in surprise, Commandant!"
 			}
 		}
-	},
-	[403110] = {
+	}
+	pg.base.ship_skin_words_extra[403110] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -9284,8 +9290,8 @@ pg.base.ship_skin_words_extra = {
 				"You know, I think I like it when you somewhat force yourself onto me. Heehee♥"
 			}
 		}
-	},
-	[405040] = {
+	}
+	pg.base.ship_skin_words_extra[405040] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -9337,8 +9343,8 @@ pg.base.ship_skin_words_extra = {
 				"I'll let you off this once. Make sure to hold yourself back next time."
 			}
 		}
-	},
-	[403120] = {
+	}
+	pg.base.ship_skin_words_extra[403120] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -9405,8 +9411,8 @@ pg.base.ship_skin_words_extra = {
 				"So is this how adults play together? Hehehe~"
 			}
 		}
-	},
-	[205130] = {
+	}
+	pg.base.ship_skin_words_extra[205130] = {
 		feeling3 = "",
 		upgrade = "",
 		home = "",
@@ -9498,8 +9504,8 @@ pg.base.ship_skin_words_extra = {
 				"This... This move is too cringeworthy to name, so forget it!"
 			}
 		}
-	},
-	[201340] = {
+	}
+	pg.base.ship_skin_words_extra[201340] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -9586,8 +9592,8 @@ pg.base.ship_skin_words_extra = {
 				"Could you come see me again later today? ...No, not for a checkup, but rather for a d-da– Look, you already know what I'm talking about. If you're interested, then just say it, please... Y-you idiot..."
 			}
 		}
-	},
-	[207120] = {
+	}
+	pg.base.ship_skin_words_extra[207120] = {
 		feeling3 = "",
 		upgrade = "",
 		mission = "",
@@ -9669,8 +9675,8 @@ pg.base.ship_skin_words_extra = {
 				"Let's see, the next things to do on our date are... chilling together indoors, leisurely enjoying some tea, then quietly arrange some flowers. Hm? You want to go outside? I, I think our schedule's already pretty packed. Look, every time we go outside on a date, my legs get all puffy the next day..."
 			}
 		}
-	},
-	[205110] = {
+	}
+	pg.base.ship_skin_words_extra[205110] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -9742,8 +9748,8 @@ pg.base.ship_skin_words_extra = {
 				"Your Excellency, I do not consider you to be weak—and as such, I don't protect you as a member of the Royal Knights, but as a woman who loves you. That is my simple wish, that which makes me happiest... O-of course, I plan on protecting you as a subordinate as well..."
 			}
 		}
-	},
-	[202310] = {
+	}
+	pg.base.ship_skin_words_extra[202310] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -9800,8 +9806,8 @@ pg.base.ship_skin_words_extra = {
 				"Quite a strange way of asking someone on a date, if you ask me."
 			}
 		}
-	},
-	[203100] = {
+	}
+	pg.base.ship_skin_words_extra[203100] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -9858,8 +9864,8 @@ pg.base.ship_skin_words_extra = {
 				"Huh? What is it, Owner?"
 			}
 		}
-	},
-	[907010] = {
+	}
+	pg.base.ship_skin_words_extra[907010] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -9926,8 +9932,8 @@ pg.base.ship_skin_words_extra = {
 				"Hehehe..."
 			}
 		}
-	},
-	[901130] = {
+	}
+	pg.base.ship_skin_words_extra[901130] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -10009,8 +10015,8 @@ pg.base.ship_skin_words_extra = {
 				"My creed says I \"must be ready to sacrifice everything for love, even my life.\" I would never betray you, but I don't know how to martyr myself for love... I needn't do anything so extreme, you say? Hmph, then I implore you to tell me what I SHOULD do! ...A-a date, for starters?!"
 			}
 		}
-	},
-	[202320] = {
+	}
+	pg.base.ship_skin_words_extra[202320] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -10082,8 +10088,8 @@ pg.base.ship_skin_words_extra = {
 				"You want to know how to invite someone you like on a date...? Huh, there's no way I'd tell you. I can't believe you'd ask someone you've exchanged vows with to tell you how to take other girls on dates... Huh?! T-then why don't we go on a date right now...? You should have told me that it was about me in the first place!"
 			}
 		}
-	},
-	[299050] = {
+	}
+	pg.base.ship_skin_words_extra[299050] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -10155,8 +10161,8 @@ pg.base.ship_skin_words_extra = {
 				"You don't need to hold back, dear Commander."
 			}
 		}
-	},
-	[499070] = {
+	}
+	pg.base.ship_skin_words_extra[499070] = {
 		feeling3 = "",
 		upgrade = "",
 		mission = "",
@@ -10238,8 +10244,8 @@ pg.base.ship_skin_words_extra = {
 				"You'll obviously do anything I tell you to since you belong to me, right? Because I've been shockingly nice by calling you \"Commander,\" accepting your ring, and even going on dates with you! Now take my hand!"
 			}
 		}
-	},
-	[599010] = {
+	}
+	pg.base.ship_skin_words_extra[599010] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -10326,8 +10332,8 @@ pg.base.ship_skin_words_extra = {
 				"I heard that a \"date\" is a great way for two people to learn more about each other. Well, you choose the restaurant then, and I'll cover the bill. Let's treat ourselves to some kick-ass food and liquor! ...That's not it? Did I misunderstand something? I thought that's what it said in one of those novels..."
 			}
 		}
-	},
-	[799010] = {
+	}
+	pg.base.ship_skin_words_extra[799010] = {
 		feeling3 = "",
 		upgrade = "",
 		mission = "",
@@ -10404,8 +10410,8 @@ pg.base.ship_skin_words_extra = {
 				"*yaaawn*... Commander? How long have you been up? Forgive me, I really went wild last night... It's fine if you don't remember. I don't really either... *yawn*... Your combat gear... It's really nice... Heehee... Zzz..."
 			}
 		}
-	},
-	[899030] = {
+	}
+	pg.base.ship_skin_words_extra[899030] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -10477,8 +10483,8 @@ pg.base.ship_skin_words_extra = {
 				"Does the Champion... crave my comforts? Hehe~"
 			}
 		}
-	},
-	[605030] = {
+	}
+	pg.base.ship_skin_words_extra[605030] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -10540,8 +10546,8 @@ pg.base.ship_skin_words_extra = {
 				"How very bold of you... You're becoming more and more like Romulus."
 			}
 		}
-	},
-	[602020] = {
+	}
+	pg.base.ship_skin_words_extra[602020] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -10608,8 +10614,8 @@ pg.base.ship_skin_words_extra = {
 				"No way, you actually just touched me..."
 			}
 		}
-	},
-	[608020] = {
+	}
+	pg.base.ship_skin_words_extra[608020] = {
 		feeling3 = "",
 		upgrade = "",
 		id = 608020,
@@ -10696,8 +10702,8 @@ pg.base.ship_skin_words_extra = {
 				"That pillow cover drying in the sun is of course the one with your darling da Vinci in a raunchy pose♡ ...You thought I was serious? So you're saying you WOULD own that... Guess I'll just have to make one♪"
 			}
 		}
-	},
-	[601090] = {
+	}
+	pg.base.ship_skin_words_extra[601090] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -10764,8 +10770,8 @@ pg.base.ship_skin_words_extra = {
 				"When I travel alone, I keep all my emotions buried deep inside me... But when I'm with somebody else, I feel like I can open up my heart... Ehehe, I'm so glad that I get to share this journey with the person I love..."
 			}
 		}
-	},
-	[601080] = {
+	}
+	pg.base.ship_skin_words_extra[601080] = {
 		feeling3 = "",
 		upgrade = "",
 		mission = "",
@@ -10847,8 +10853,8 @@ pg.base.ship_skin_words_extra = {
 				"Oho? You look bored out of your mind, Commander! Tell you what, I know this spot at the port with a killer view – how 'bout we head there and take some pics? Plus a date selfie while we're there... Of course I'm not gonna sell them to anyone! I just want new things for my personal collection, that's all..."
 			}
 		}
-	},
-	[603050] = {
+	}
+	pg.base.ship_skin_words_extra[603050] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -10930,8 +10936,8 @@ pg.base.ship_skin_words_extra = {
 				"Heheh, heheheh... Oh, sorry! I couldn't help but laugh at the main actress' performance... It feels like I've been laughing a lot today? That's because I'm over the moon, just like that actress, and I've wanted to smile."
 			}
 		}
-	},
-	[305100] = {
+	}
+	pg.base.ship_skin_words_extra[305100] = {
 		feeling3 = "",
 		upgrade = "",
 		mission = "",
@@ -11003,8 +11009,8 @@ pg.base.ship_skin_words_extra = {
 				"Return to my embrace after finishing today's work. What do I mean by \"return,\" you ask? Exactly how it sounds. I wish to pamper... I mean, protect you from those who would take advantage of you in your sleep."
 			}
 		}
-	},
-	[301880] = {
+	}
+	pg.base.ship_skin_words_extra[301880] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -11056,8 +11062,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander, if you're doing this kind of stuff to other girls... I, I think you should stop that!"
 			}
 		}
-	},
-	[302230] = {
+	}
+	pg.base.ship_skin_words_extra[302230] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -11144,8 +11150,8 @@ pg.base.ship_skin_words_extra = {
 				"Aren't you dying to tell me how much you love me? Ehehe, I'm going to steal those words right from your lips, so you'd better think carefully about how to return my feelings. The longer you spend agonizing over it, the more my love for you deepens~"
 			}
 		}
-	},
-	[303100] = {
+	}
+	pg.base.ship_skin_words_extra[303100] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -11217,8 +11223,8 @@ pg.base.ship_skin_words_extra = {
 				"Pfft, hahaha... No need to be nervous. I'm not the angry type like Myoukou."
 			}
 		}
-	},
-	[301040] = {
+	}
+	pg.base.ship_skin_words_extra[301040] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -11295,8 +11301,8 @@ pg.base.ship_skin_words_extra = {
 				"My most heartfelt wish...? Well, just getting to spend every day with you is already enough to make me happy... Um, but if I have to make a wish, I'd like to always stay here, a place I can call home, with the person I love..."
 			}
 		}
-	},
-	[404050] = {
+	}
+	pg.base.ship_skin_words_extra[404050] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -11353,8 +11359,8 @@ pg.base.ship_skin_words_extra = {
 				"*sigh*... Just do what you want..."
 			}
 		}
-	},
-	[403020] = {
+	}
+	pg.base.ship_skin_words_extra[403020] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -11411,8 +11417,8 @@ pg.base.ship_skin_words_extra = {
 				"Oh, Commander~ I'm gonna close my eyes for you, 'kay?"
 			}
 		}
-	},
-	[401160] = {
+	}
+	pg.base.ship_skin_words_extra[401160] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -11494,8 +11500,8 @@ pg.base.ship_skin_words_extra = {
 				"H-hey, I told you to cut that out!"
 			}
 		}
-	},
-	[101110] = {
+	}
+	pg.base.ship_skin_words_extra[101110] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -11557,8 +11563,8 @@ pg.base.ship_skin_words_extra = {
 				"\"Even after banishing the forces of evil, the allies of justice did not separate. Instead, they were bound together by the ties formed through fighting alongside each other and lived happily ever after!\" –Alrighty! That's the ending I came up with! Pretty awesome, huh?"
 			}
 		}
-	},
-	[403130] = {
+	}
+	pg.base.ship_skin_words_extra[403130] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -11640,8 +11646,8 @@ pg.base.ship_skin_words_extra = {
 				"Hm? What's special about this part of me? Do you do this with everyone else too...?"
 			}
 		}
-	},
-	[206070] = {
+	}
+	pg.base.ship_skin_words_extra[206070] = {
 		feeling3 = "",
 		upgrade = "",
 		mission = "",
@@ -11713,8 +11719,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander, did you need me? I know you didn't call for me, but I could just feel it. As our hearts are now connected, I heard your desires upon the wind... Oh, m-my apologies for getting worked up on my own... Umm... love you, my dear."
 			}
 		}
-	},
-	[201350] = {
+	}
+	pg.base.ship_skin_words_extra[201350] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -11781,8 +11787,8 @@ pg.base.ship_skin_words_extra = {
 				"\"The day we exchanged oaths was the happiest day of my life... I have to work harder in every aspect of my life so that this happiness may last forever! ...Oh, but if I let the Commander read this, then everything I wrote before will... >///<\""
 			}
 		}
-	},
-	[202090] = {
+	}
+	pg.base.ship_skin_words_extra[202090] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -11844,8 +11850,8 @@ pg.base.ship_skin_words_extra = {
 				"I guess a scolding isn't going to stop you... Ahahah... You're a dead stubborn one, Master~"
 			}
 		}
-	},
-	[9600010] = {
+	}
+	pg.base.ship_skin_words_extra[9600010] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -11912,8 +11918,8 @@ pg.base.ship_skin_words_extra = {
 				"L-look, even I shy away from some stuff..."
 			}
 		}
-	},
-	[10900010] = {
+	}
+	pg.base.ship_skin_words_extra[10900010] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -11985,8 +11991,8 @@ pg.base.ship_skin_words_extra = {
 				"If there's ever anything on your mind, you can come straight to me! I want to do everything I can to support the person who lets us all live ordinary lives in this world!"
 			}
 		}
-	},
-	[10900020] = {
+	}
+	pg.base.ship_skin_words_extra[10900020] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -12058,8 +12064,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander, you seem pretty busy today too. I hope you're not pushing yourself too hard though. After all, you are a precious friend to me."
 			}
 		}
-	},
-	[10900030] = {
+	}
+	pg.base.ship_skin_words_extra[10900030] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -12131,8 +12137,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander, please take me with you on your next vacation. As I'm more familiar with this world now, I wanted to try taking a trip, but I don't feel safe alone. I'd be much more confident with you by my side."
 			}
 		}
-	},
-	[10900040] = {
+	}
+	pg.base.ship_skin_words_extra[10900040] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -12204,8 +12210,8 @@ pg.base.ship_skin_words_extra = {
 				"What's wrong? Something on your mind? If there's something you want to get off your chest, just let it all out. It's not something I'd normally offer, but I'll make an exception today."
 			}
 		}
-	},
-	[10900050] = {
+	}
+	pg.base.ship_skin_words_extra[10900050] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -12277,8 +12283,8 @@ pg.base.ship_skin_words_extra = {
 				"That seed isn't what I'm looking for either. But since it's something you went through the trouble of looking for... I'll take good care of it."
 			}
 		}
-	},
-	[10900060] = {
+	}
+	pg.base.ship_skin_words_extra[10900060] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -12350,8 +12356,8 @@ pg.base.ship_skin_words_extra = {
 				"The fruit you gave me the other day was marvelous! It's been a long time since my heart throbbed like that. You know me well, Commander! How could I expect any less?"
 			}
 		}
-	},
-	[103260] = {
+	}
+	pg.base.ship_skin_words_extra[103260] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -12403,8 +12409,8 @@ pg.base.ship_skin_words_extra = {
 				"H-hold yourself back a bit..."
 			}
 		}
-	},
-	[107100] = {
+	}
+	pg.base.ship_skin_words_extra[107100] = {
 		feeling3 = "",
 		upgrade = "",
 		mission = "",
@@ -12471,8 +12477,8 @@ pg.base.ship_skin_words_extra = {
 				"There, there. Good Commander... Heehee!"
 			}
 		}
-	},
-	[107120] = {
+	}
+	pg.base.ship_skin_words_extra[107120] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -12539,8 +12545,8 @@ pg.base.ship_skin_words_extra = {
 				"Kaboom! Just like that!"
 			}
 		}
-	},
-	[101500] = {
+	}
+	pg.base.ship_skin_words_extra[101500] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -12597,8 +12603,8 @@ pg.base.ship_skin_words_extra = {
 				"P-perv... *blush*"
 			}
 		}
-	},
-	[107270] = {
+	}
+	pg.base.ship_skin_words_extra[107270] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -12655,8 +12661,8 @@ pg.base.ship_skin_words_extra = {
 				"You mustn't do that to your teacher! A-at least, not when I'm acting as your teacher..."
 			}
 		}
-	},
-	[702050] = {
+	}
+	pg.base.ship_skin_words_extra[702050] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -12743,8 +12749,8 @@ pg.base.ship_skin_words_extra = {
 				"Solving your problems and warming your bed are both my responsibilities... Haha! I'm kidding. I do it all because I want to, after all. Oh? That's not what you expected the punchline to be? Well..."
 			}
 		}
-	},
-	[206080] = {
+	}
+	pg.base.ship_skin_words_extra[206080] = {
 		feeling3 = "",
 		upgrade = "",
 		mission = "",
@@ -12821,8 +12827,8 @@ pg.base.ship_skin_words_extra = {
 				"Oh, something on your mind, Commander? Heehee. I don't reckon you need an incantation. You're here for the sole purpose of seeing me, isn't that right? Missing me is still a problem, and I know when you have one of those."
 			}
 		}
-	},
-	[519010] = {
+	}
+	pg.base.ship_skin_words_extra[519010] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -12869,8 +12875,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander, right now... might not be the best time for that."
 			}
 		}
-	},
-	[506020] = {
+	}
+	pg.base.ship_skin_words_extra[506020] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -12932,8 +12938,8 @@ pg.base.ship_skin_words_extra = {
 				"Ooh? Commander, you're gutsier than I gave you credit for."
 			}
 		}
-	},
-	[207070] = {
+	}
+	pg.base.ship_skin_words_extra[207070] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -13010,8 +13016,8 @@ pg.base.ship_skin_words_extra = {
 				"It's wrong to pray only for you and nobody else. However, you're the very person who pushed me in this direction. It is your mistake – do you know what you must do to rectify it? Yes, you do. You have to throw reason to the wayside and let your throbbing... heart take over. Heehee~♥"
 			}
 		}
-	},
-	[202330] = {
+	}
+	pg.base.ship_skin_words_extra[202330] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -13093,8 +13099,8 @@ pg.base.ship_skin_words_extra = {
 				"You're pushing yourself, aren't you? Heehee, don't bother anymore. Leave everything to me now, and let me see more of your pathetic side, Master... Everyone else knows the cool and composed Commander already. The Commander before me... is mine alone~♡"
 			}
 		}
-	},
-	[205140] = {
+	}
+	pg.base.ship_skin_words_extra[205140] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -13156,8 +13162,8 @@ pg.base.ship_skin_words_extra = {
 				"If this is something I can do for you, Lord Commander... *blushes*"
 			}
 		}
-	},
-	[201360] = {
+	}
+	pg.base.ship_skin_words_extra[201360] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -13219,8 +13225,8 @@ pg.base.ship_skin_words_extra = {
 				"Naughty girls who bully people need to be corrected mercilessly~ Am I right, Sidekickommander? Teehee♪"
 			}
 		}
-	},
-	[206020] = {
+	}
+	pg.base.ship_skin_words_extra[206020] = {
 		feeling3 = "",
 		upgrade = "",
 		id = 206020,
@@ -13297,8 +13303,8 @@ pg.base.ship_skin_words_extra = {
 				"Yes, good. Please dote on me."
 			}
 		}
-	},
-	[702070] = {
+	}
+	pg.base.ship_skin_words_extra[702070] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -13360,8 +13366,8 @@ pg.base.ship_skin_words_extra = {
 				"Dates must be planned as thoroughly as a battle. These three should do... \"Port Dates and You,\" \"Top 100 Dating Techniques,\" and \"How to Steal the Commander's Heart on a Date.\" ...Oh? You say I should leave the planning to you? I-if you say so..."
 			}
 		}
-	},
-	[703020] = {
+	}
+	pg.base.ship_skin_words_extra[703020] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -13433,8 +13439,8 @@ pg.base.ship_skin_words_extra = {
 				"It's time I taught you who's the hunter and who's the prey."
 			}
 		}
-	},
-	[705070] = {
+	}
+	pg.base.ship_skin_words_extra[705070] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -13491,8 +13497,8 @@ pg.base.ship_skin_words_extra = {
 				"C-Comrade Commander... What was the point of that, exactly?"
 			}
 		}
-	},
-	[10600080] = {
+	}
+	pg.base.ship_skin_words_extra[10600080] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -13564,8 +13570,8 @@ pg.base.ship_skin_words_extra = {
 				"This place is full of such interesting things. The vast sea, the shipgirls, the delicious food... And you, Commander. I want to keep researching it all... So may I stay by your side longer?"
 			}
 		}
-	},
-	[10600090] = {
+	}
+	pg.base.ship_skin_words_extra[10600090] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -13637,8 +13643,8 @@ pg.base.ship_skin_words_extra = {
 				"Heehee♥ A lot's happened since I came here, and I didn't expect I'd stick around THIS long. But... when I'm with you, gazing at the gorgeous horizon... time just starts to fly."
 			}
 		}
-	},
-	[405050] = {
+	}
+	pg.base.ship_skin_words_extra[405050] = {
 		feeling3 = "",
 		upgrade = "",
 		mission = "",
@@ -13730,8 +13736,8 @@ pg.base.ship_skin_words_extra = {
 				"I, battleship Bismarck, shall forge a brighter future!"
 			}
 		}
-	},
-	[402100] = {
+	}
+	pg.base.ship_skin_words_extra[402100] = {
 		feeling3 = "",
 		upgrade = "",
 		home = "",
@@ -13813,8 +13819,8 @@ pg.base.ship_skin_words_extra = {
 				"(If the Commander gave me an order right now, I'd obey without protest... Rgh, what shame! I ought to be able to crush the Commander between my fingers at a given moment, but I'm like a mere servant!)"
 			}
 		}
-	},
-	[406030] = {
+	}
+	pg.base.ship_skin_words_extra[406030] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -13886,8 +13892,8 @@ pg.base.ship_skin_words_extra = {
 				"What might I do if you don't pay attention to me~? Aww, you don't have to worry so much. Have I EVER done anything to cause trouble for you? Heehee~♪"
 			}
 		}
-	},
-	[401990] = {
+	}
+	pg.base.ship_skin_words_extra[401990] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -13934,8 +13940,10 @@ pg.base.ship_skin_words_extra = {
 				"I already know there's no beating you..."
 			}
 		}
-	},
-	[207130] = {
+	}
+end)()
+(function ()
+	pg.base.ship_skin_words_extra[207130] = {
 		feeling3 = "",
 		upgrade = "",
 		id = 207130,
@@ -14027,8 +14035,8 @@ pg.base.ship_skin_words_extra = {
 				"I-i-i-it is far too soon for me to be participating in such acts!"
 			}
 		}
-	},
-	[307130] = {
+	}
+	pg.base.ship_skin_words_extra[307130] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -14080,8 +14088,8 @@ pg.base.ship_skin_words_extra = {
 				"Heehee... You can't forget about my touch, can you? ♥"
 			}
 		}
-	},
-	[603060] = {
+	}
+	pg.base.ship_skin_words_extra[603060] = {
 		feeling3 = "",
 		upgrade = "",
 		mission = "",
@@ -14163,8 +14171,8 @@ pg.base.ship_skin_words_extra = {
 				"It's not me you want, but this, right? ...You're so predictable... *blushes*"
 			}
 		}
-	},
-	[601100] = {
+	}
+	pg.base.ship_skin_words_extra[601100] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -14221,8 +14229,8 @@ pg.base.ship_skin_words_extra = {
 				"This feels weird... I dunno how to feel about it..."
 			}
 		}
-	},
-	[605070] = {
+	}
+	pg.base.ship_skin_words_extra[605070] = {
 		feeling3 = "",
 		upgrade = "",
 		id = 605070,
@@ -14304,8 +14312,8 @@ pg.base.ship_skin_words_extra = {
 				"Indulge yourself as much as you want♪"
 			}
 		}
-	},
-	[199040] = {
+	}
+	pg.base.ship_skin_words_extra[199040] = {
 		feeling3 = "",
 		upgrade = "",
 		mission = "",
@@ -14382,8 +14390,8 @@ pg.base.ship_skin_words_extra = {
 				"*smooch*... Yep. You're the same as always, and I'm in love with you. Is that all you wanted to confirm? I thought you would... as my friends have put it, \"do what your heart yearns for.\" Are you really not going to do that?"
 			}
 		}
-	},
-	[499090] = {
+	}
+	pg.base.ship_skin_words_extra[499090] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -14475,8 +14483,8 @@ pg.base.ship_skin_words_extra = {
 				"What is it? Thinking of rescinding your earlier decision? Since the moment you surrendered your leader privileges, your opinions as a person have had no weight. You understand what this means, yes, Contract Binder?"
 			}
 		}
-	},
-	[399060] = {
+	}
+	pg.base.ship_skin_words_extra[399060] = {
 		feeling3 = "",
 		upgrade = "",
 		id = 399060,
@@ -14568,8 +14576,8 @@ pg.base.ship_skin_words_extra = {
 				"Yeah, yeah. Just like that. No need for reservation, no need to be polite. You're the head honcho here, so feel free to be yourself. I will always be your Shimanto, your personal Dragon God."
 			}
 		}
-	},
-	[499080] = {
+	}
+	pg.base.ship_skin_words_extra[499080] = {
 		feeling3 = "",
 		upgrade = "",
 		id = 499080,
@@ -14671,8 +14679,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander, despite the profundity of our relationship, why are you still so indifferent towards me... Urgh, I can't just sit around until you get eaten up by one of those big sister types... You know what, I don't care what happens next...! "
 			}
 		}
-	},
-	[999020] = {
+	}
+	pg.base.ship_skin_words_extra[999020] = {
 		feeling3 = "",
 		upgrade = "",
 		id = 999020,
@@ -14784,8 +14792,8 @@ pg.base.ship_skin_words_extra = {
 				"I can't let things end here, the Commander is waiting for me...!"
 			}
 		}
-	},
-	[10800090] = {
+	}
+	pg.base.ship_skin_words_extra[10800090] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -14852,8 +14860,8 @@ pg.base.ship_skin_words_extra = {
 				"I think we've formed a true bond. However, in the truest sense, we come from different worlds. Even if we can't change this fact, we have to look to the future and not linger on the past forever..."
 			}
 		}
-	},
-	[10800080] = {
+	}
+	pg.base.ship_skin_words_extra[10800080] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -14925,8 +14933,8 @@ pg.base.ship_skin_words_extra = {
 				"Because of our duties, our meeting is a once-in-a-lifetime blessing. I've accepted that by now, but... right now, the thought of it makes me so sad."
 			}
 		}
-	},
-	[902020] = {
+	}
+	pg.base.ship_skin_words_extra[902020] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -14988,8 +14996,8 @@ pg.base.ship_skin_words_extra = {
 				"For someone like me who knows nothing outside of battle, being able to experience so many different things... makes me truly happy whenever we do things together, Commander. Might this be... true love?"
 			}
 		}
-	},
-	[905020] = {
+	}
+	pg.base.ship_skin_words_extra[905020] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -15056,8 +15064,8 @@ pg.base.ship_skin_words_extra = {
 				"Shhh–– Just take my hand, and come with me. Where to? Naturally, a place free from the prying eyes of others, where we can be our true selves. Look– even though you have your doubts about me, you're still coming along. In other words, that's proof that you trust me, right?"
 			}
 		}
-	},
-	[802030] = {
+	}
+	pg.base.ship_skin_words_extra[802030] = {
 		feeling3 = "",
 		upgrade = "",
 		mission = "",
@@ -15129,8 +15137,8 @@ pg.base.ship_skin_words_extra = {
 				"A poor Commander, robbed of bodily control by a devious witch's magic and doomed to be her plaything... It's a tale as old as time. Heehee, why don't I try a few more things while you're still immobile?"
 			}
 		}
-	},
-	[807020] = {
+	}
+	pg.base.ship_skin_words_extra[807020] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -15197,8 +15205,8 @@ pg.base.ship_skin_words_extra = {
 				"You and I wish for each other's happiness, and our two wishes intertwine to make one. That's what gives us this dreamlike, blissful time together. I'm glad I fell for you, Commander..."
 			}
 		}
-	},
-	[805020] = {
+	}
+	pg.base.ship_skin_words_extra[805020] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -15260,8 +15268,8 @@ pg.base.ship_skin_words_extra = {
 				"I understand that you want to be pampered. If you think I'm up to the job, then I'm willing to help any time."
 			}
 		}
-	},
-	[803010] = {
+	}
+	pg.base.ship_skin_words_extra[803010] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -15333,8 +15341,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander, are you ready to get coddled and looked after? 'Cause today, you're gonna see a different side of me♪ Heehee♡"
 			}
 		}
-	},
-	[901040] = {
+	}
+	pg.base.ship_skin_words_extra[901040] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -15396,8 +15404,8 @@ pg.base.ship_skin_words_extra = {
 				"C-Commander, get a hold of yourself..."
 			}
 		}
-	},
-	[303190] = {
+	}
+	pg.base.ship_skin_words_extra[303190] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -15469,8 +15477,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander, do you have plans later? Oh, I don't plan to drag you around for weeks. Just one or two days... No! May I ask for just a few hours of your time... for a date?"
 			}
 		}
-	},
-	[305130] = {
+	}
+	pg.base.ship_skin_words_extra[305130] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -15542,8 +15550,8 @@ pg.base.ship_skin_words_extra = {
 				"Dunno why, but I feel on edge when I stand next to you... like I'm not myself, somehow... Creeps me out. Wonder why I'm like this... Any ideas, Commander? ...Lovesickness, huh. What's that even mean?"
 			}
 		}
-	},
-	[301890] = {
+	}
+	pg.base.ship_skin_words_extra[301890] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -15625,8 +15633,8 @@ pg.base.ship_skin_words_extra = {
 				"Heheh, now hold still~ ...So what if I'm sitting on your lap? I'm still helping you with your job. If you really want me to get off, why don't you rest your head on my lap instead? Heehee♡"
 			}
 		}
-	},
-	[302060] = {
+	}
+	pg.base.ship_skin_words_extra[302060] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -15703,8 +15711,8 @@ pg.base.ship_skin_words_extra = {
 				"No matter what, my \"affinity\" stat just won't stop rising. Don't these normally have some kind of cap?! ...Ah! Could it be that you have cheat abilities like me, Commander?!"
 			}
 		}
-	},
-	[301900] = {
+	}
+	pg.base.ship_skin_words_extra[301900] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -15776,8 +15784,8 @@ pg.base.ship_skin_words_extra = {
 				"H-heheh! Do not underestimate my charms... Wait, you're stopping already?!"
 			}
 		}
-	},
-	[102310] = {
+	}
+	pg.base.ship_skin_words_extra[102310] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -15834,8 +15842,8 @@ pg.base.ship_skin_words_extra = {
 				"Now that I really think about it, I've loved you ever since we first met. But I didn't understand my feelings back then... I'm really glad I didn't miss my chance... Umm, so... Can't forget to do this. Ahem... Y-yahoo~☆"
 			}
 		}
-	},
-	[9600020] = {
+	}
+	pg.base.ship_skin_words_extra[9600020] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -15897,8 +15905,8 @@ pg.base.ship_skin_words_extra = {
 				"This stirring in my chest... tell me, what is it?"
 			}
 		}
-	},
-	[9600030] = {
+	}
+	pg.base.ship_skin_words_extra[9600030] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -15970,8 +15978,8 @@ pg.base.ship_skin_words_extra = {
 				"I'm puzzled. I've done it with you so, so many times, yet I still need so much more... Even now, I'm having dirty thoughts while just standing next to you... Heehee♪ My little ones might snap and cover you in ooze, so if that happens, please don't get mad♡"
 			}
 		}
-	},
-	[9600040] = {
+	}
+	pg.base.ship_skin_words_extra[9600040] = {
 		feeling3 = "",
 		upgrade = "",
 		id = 9600040,
@@ -16058,8 +16066,8 @@ pg.base.ship_skin_words_extra = {
 				"Shh. I know it's just you and me here, but you don't want anyone to hear us, do you? While I can always vanish from sight if someone shows up, you can't. That's why you have to be quiet. Same goes for me."
 			}
 		}
-	},
-	[9600050] = {
+	}
+	pg.base.ship_skin_words_extra[9600050] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -16126,8 +16134,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander, are you sure it's fine for me to sit in your lap this whole time? Doesn't it get tiring...? But, being in your embrace really calms me down... There's no wind here, or rain, and it's really warm... I want it to last forever..."
 			}
 		}
-	},
-	[9600060] = {
+	}
+	pg.base.ship_skin_words_extra[9600060] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -16194,8 +16202,8 @@ pg.base.ship_skin_words_extra = {
 				"Now when I look at my dear treasure, I feel like it's worthless compared to you, Commander. That's not to say it's lost its value, just that you're so much more valuable than anything else... The question is, where can I hide you, my biggest treasure? Heehee♪"
 			}
 		}
-	},
-	[11000010] = {
+	}
+	pg.base.ship_skin_words_extra[11000010] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -16267,8 +16275,8 @@ pg.base.ship_skin_words_extra = {
 				"Meeting you was, I think, necessary for my growth as a shinobi. It without a doubt had a great impact that allowed me to take the next step as a person!"
 			}
 		}
-	},
-	[11000020] = {
+	}
+	pg.base.ship_skin_words_extra[11000020] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -16340,8 +16348,8 @@ pg.base.ship_skin_words_extra = {
 				"When I was about to give up on everything, when I felt like I couldn't continue on any further, you were the one who took my hand, illuminated the way forward, and encouraged me to press on... Because I have someone like you, I am able to keep going... So please, continue watching over me just a bit longer."
 			}
 		}
-	},
-	[11000030] = {
+	}
+	pg.base.ship_skin_words_extra[11000030] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -16413,8 +16421,8 @@ pg.base.ship_skin_words_extra = {
 				"Fighting used to be all I had... Or, it should've been. Now I'm at a bit of a loss, 'cause casually hanging out with you is more fun than I thought. Let me enjoy this period of uncertainty a little longer."
 			}
 		}
-	},
-	[11000040] = {
+	}
+	pg.base.ship_skin_words_extra[11000040] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -16486,8 +16494,8 @@ pg.base.ship_skin_words_extra = {
 				"I can never repay you for the lengths you've gone for a hopeless woman with no knowledge of this world. Allow me to thank you once more, as I will again many more times to come."
 			}
 		}
-	},
-	[11000050] = {
+	}
+	pg.base.ship_skin_words_extra[11000050] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -16559,8 +16567,8 @@ pg.base.ship_skin_words_extra = {
 				"You never fall prey to pessimism, and you lead us all with a positive attitude... How is one meant to stop idolizing a person such as you? Heehee... You shouldn't blush, or that blush will spread to me as well."
 			}
 		}
-	},
-	[11000060] = {
+	}
+	pg.base.ship_skin_words_extra[11000060] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -16632,8 +16640,8 @@ pg.base.ship_skin_words_extra = {
 				"I think I can push myself just a little as long as I'm with you. So please, be kind to me until we've found a way to return to our home..."
 			}
 		}
-	},
-	[11000070] = {
+	}
+	pg.base.ship_skin_words_extra[11000070] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -16705,8 +16713,8 @@ pg.base.ship_skin_words_extra = {
 				"To be entirely honest, there's a problem that I haven't been able to discuss with you. But, it'll be okay. My friends and I will find a way to get by. I'm sure that it'll be alright... because of you, Commander."
 			}
 		}
-	},
-	[118020] = {
+	}
+	pg.base.ship_skin_words_extra[118020] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -16778,8 +16786,8 @@ pg.base.ship_skin_words_extra = {
 				"Being so in love your mind goes blank is nice, but doesn't it suck if you can't tell what your partner's thinking? Hmm... How about this – let's both not use a single one of our brain cells! No thoughts, head empty as we go on walks, eat, play, and... Huh? What were we talking about?"
 			}
 		}
-	},
-	[101510] = {
+	}
+	pg.base.ship_skin_words_extra[101510] = {
 		feeling3 = "",
 		upgrade = "",
 		id = 101510,
@@ -16881,8 +16889,8 @@ pg.base.ship_skin_words_extra = {
 				"\"The Ship That Would Not Die\" won't go down that easy..."
 			}
 		}
-	},
-	[104010] = {
+	}
+	pg.base.ship_skin_words_extra[104010] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -16964,8 +16972,8 @@ pg.base.ship_skin_words_extra = {
 				"I can endure it... My mind is set on it!"
 			}
 		}
-	},
-	[108080] = {
+	}
+	pg.base.ship_skin_words_extra[108080] = {
 		feeling3 = "",
 		win_mvp = "",
 		expedition = "",
@@ -17032,8 +17040,8 @@ pg.base.ship_skin_words_extra = {
 				"I wonder if my plushie of you gets lonely when I'm not around... Hm? Just make a plushie of myself and let them be together? G-good idea! I think I'll do that!"
 			}
 		}
-	},
-	[107300] = {
+	}
+	pg.base.ship_skin_words_extra[107300] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -17105,8 +17113,8 @@ pg.base.ship_skin_words_extra = {
 				"Hm? I'm just in the middle of waiting for someone I love. In fact, I just found said person! Heehee, where should we go now? It's a date, you know~ A date♪"
 			}
 		}
-	},
-	[103270] = {
+	}
+	pg.base.ship_skin_words_extra[103270] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -17178,8 +17186,8 @@ pg.base.ship_skin_words_extra = {
 				"Zzzz... Mmm... Oh? Commander, why are you in my room... Hm? I see, so this was your office all this time... Why would I make such a mistake? Umm, are you sure this is your office...?"
 			}
 		}
-	},
-	[504010] = {
+	}
+	pg.base.ship_skin_words_extra[504010] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -17241,8 +17249,8 @@ pg.base.ship_skin_words_extra = {
 				"...We're still outside, you know?! At least... wait until we get back!"
 			}
 		}
-	},
-	[502090] = {
+	}
+	pg.base.ship_skin_words_extra[502090] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -17299,8 +17307,8 @@ pg.base.ship_skin_words_extra = {
 				"Out of curiosity, Commander, are you free today? Would you like to spend the Qixi Festival with me? ...It's too early for that? Hmm, are you sure there isn't something wrong with your calendar? Because according to my calendar, today is Qixi, and so is tomorrow, and the day after... Every day is Qixi, you know..."
 			}
 		}
-	},
-	[501050] = {
+	}
+	pg.base.ship_skin_words_extra[501050] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -17377,8 +17385,8 @@ pg.base.ship_skin_words_extra = {
 				"...Huh? You don't need me to make lunch for you for the time being? Wh-why?! Did you get tired of my cooking? ––Hmm? It's because you've been putting on too much weight? Phew... You had me scared for a moment there..."
 			}
 		}
-	},
-	[501060] = {
+	}
+	pg.base.ship_skin_words_extra[501060] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -17435,8 +17443,8 @@ pg.base.ship_skin_words_extra = {
 				"There are lots of talented people all around the port... and I'm one of them, aren't I? ...I still have a lot left to learn? Ehehe~ In that case, I look forward to you teaching me a whole lot more stuff!"
 			}
 		}
-	},
-	[501070] = {
+	}
+	pg.base.ship_skin_words_extra[501070] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -17498,8 +17506,8 @@ pg.base.ship_skin_words_extra = {
 				"Zzzz... *yaaaawn*... For whatever reason, I always get sleepy when I'm around you... Oh! I know why! It must be because your scent makes me super relaxed... Zzzzzz..."
 			}
 		}
-	},
-	[705020] = {
+	}
+	pg.base.ship_skin_words_extra[705020] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -17561,8 +17569,8 @@ pg.base.ship_skin_words_extra = {
 				"Oh, dear... Looking back at it, \"deepen our relationship\" was an outrageous thing to say. Then you said all those things and even threw a wedding... Thinking about it now... it makes my cheeks warm."
 			}
 		}
-	},
-	[701110] = {
+	}
+	pg.base.ship_skin_words_extra[701110] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -17639,8 +17647,8 @@ pg.base.ship_skin_words_extra = {
 				"Isn't it nice to just huddle together quietly and do nothing sometimes? ...You don't want to bore me? It's not boring! I'm never bored when I'm with you!"
 			}
 		}
-	},
-	[705080] = {
+	}
+	pg.base.ship_skin_words_extra[705080] = {
 		feeling3 = "",
 		upgrade = "",
 		mission = "",
@@ -17707,8 +17715,8 @@ pg.base.ship_skin_words_extra = {
 				"Heehee... I know you're trying to provoke me into something, sweetheart♡"
 			}
 		}
-	},
-	[701120] = {
+	}
+	pg.base.ship_skin_words_extra[701120] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -17775,8 +17783,8 @@ pg.base.ship_skin_words_extra = {
 				"When we're apart, I feel like I have to push myself endlessly to prove my strength, to prove my value... \"Like pulling back a bow's string too hard\"? Yeah, something like that... I really don't know how I'd manage if you weren't here."
 			}
 		}
-	},
-	[201370] = {
+	}
+	pg.base.ship_skin_words_extra[201370] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -17838,8 +17846,8 @@ pg.base.ship_skin_words_extra = {
 				"Fooound you♡ Hooah! How's that? Did that hug cheer you up? If you need more, I can... What? It's fine to just act like myself? Wow. I really can't wrap my head around your tastes..."
 			}
 		}
-	},
-	[202340] = {
+	}
+	pg.base.ship_skin_words_extra[202340] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -17921,8 +17929,8 @@ pg.base.ship_skin_words_extra = {
 				"I'm a maid, and yet it feels like all I ever do is burden you... So, I've got to pay you back for being such a kind and benevolent Master! We should go on a bunch more dates! And take a lot more selfies together... and make so many more memories together!"
 			}
 		}
-	},
-	[203130] = {
+	}
+	pg.base.ship_skin_words_extra[203130] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -17994,8 +18002,8 @@ pg.base.ship_skin_words_extra = {
 				"The truth can occasionally be cruel, so exposing others to it won't necessarily lead to happiness. Sometimes, spending life behind a mask is the easier way. But with you, Commander... I can sincerely feel comfortable showing you my true self."
 			}
 		}
-	},
-	[207053] = {
+	}
+	pg.base.ship_skin_words_extra[207053] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -18042,8 +18050,8 @@ pg.base.ship_skin_words_extra = {
 				"Eep?! Commander, you'd better have a good explanation this time! ...\"Sorry, honey sweetest\"? Now you're just messing with me... Oh, forget it."
 			}
 		}
-	},
-	[307140] = {
+	}
+	pg.base.ship_skin_words_extra[307140] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -18095,8 +18103,8 @@ pg.base.ship_skin_words_extra = {
 				"Heehee, Commander, do you want to nap together? This one made a lovely dream and wants to share it with you♪"
 			}
 		}
-	},
-	[403140] = {
+	}
+	pg.base.ship_skin_words_extra[403140] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -18158,8 +18166,8 @@ pg.base.ship_skin_words_extra = {
 				"Even though we're already a couple, my love for you just keeps growing. No-no, you don't need to do anything. You can just relax and slowly bask in all the love I have for you, little one♥"
 			}
 		}
-	},
-	[299020] = {
+	}
+	pg.base.ship_skin_words_extra[299020] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -18226,8 +18234,8 @@ pg.base.ship_skin_words_extra = {
 				"Never would I have imagined this – that one day I, a loner with no one relying on her, would be mulling over my future together with you. Thank you, for accepting me and giving meaning to my life. You are my greatest love."
 			}
 		}
-	},
-	[805030] = {
+	}
+	pg.base.ship_skin_words_extra[805030] = {
 		feeling3 = "",
 		id = 805030,
 		skill = "",
@@ -18324,8 +18332,8 @@ pg.base.ship_skin_words_extra = {
 				"Da-dim... Da-dum... Da-dim ––Now, to hack right into Commander's emotion module... Wh-why'd I take my mask off? Um... Well, it's to make you lower your guard... Ahaha! Ahh~♡ Ahhhn~♡... Haah... Commencing physical synchronization~♡!"
 			}
 		}
-	},
-	[901070] = {
+	}
+	pg.base.ship_skin_words_extra[901070] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -18407,8 +18415,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander, about my secretary work... Heheh... Same place, same time as usual. Doesn't matter if you come empty-handed, I'll relieve you of your troubles all the same♥"
 			}
 		}
-	},
-	[803020] = {
+	}
+	pg.base.ship_skin_words_extra[803020] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -18465,8 +18473,8 @@ pg.base.ship_skin_words_extra = {
 				"Kh... Wh-why are these \"crane games\" so much more devious than even Sisyphus's trial?! S-stop laughing and help me, damn you!"
 			}
 		}
-	},
-	[901050] = {
+	}
+	pg.base.ship_skin_words_extra[901050] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -18523,8 +18531,8 @@ pg.base.ship_skin_words_extra = {
 				"You think I've gotten more mischievous? Heheh, is that a problem? You know, we swore an oath together, which means I should be annoying you more, if anything... Yeah, right. Fine, I'm sorry! I apologize!"
 			}
 		}
-	},
-	[901060] = {
+	}
+	pg.base.ship_skin_words_extra[901060] = {
 		feeling3 = "",
 		upgrade = "",
 		mission = "",
@@ -18601,8 +18609,8 @@ pg.base.ship_skin_words_extra = {
 				"C-Commander... No matter what happens, I'll never fear! If I'm clumsy, I'll do my best to fix things! A-after all, I'm your knight... Yeah, I am!"
 			}
 		}
-	},
-	[405060] = {
+	}
+	pg.base.ship_skin_words_extra[405060] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -18654,8 +18662,8 @@ pg.base.ship_skin_words_extra = {
 				"When I say that I'll accept all of you, that isn't just pretty words. Go on... Surrender all of yourself, everything, to me. I'll put you in the utmost place in my heart... Heeheehee..."
 			}
 		}
-	},
-	[404060] = {
+	}
+	pg.base.ship_skin_words_extra[404060] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -18712,8 +18720,8 @@ pg.base.ship_skin_words_extra = {
 				"Phew... Commander, I know I'm late saying this, but... Well, I love you very much. My love reaches to the end of eternity and Valhalla beyond... engraved firmly in the passage of time."
 			}
 		}
-	},
-	[401470] = {
+	}
+	pg.base.ship_skin_words_extra[401470] = {
 		feeling3 = "",
 		upgrade = "",
 		id = 401470,
@@ -18795,8 +18803,8 @@ pg.base.ship_skin_words_extra = {
 				"Heehee... I hope I'll see you in my dreams by sleeping with you, holding hands... That'll put me in an amazing mood tomorrow."
 			}
 		}
-	},
-	[408130] = {
+	}
+	pg.base.ship_skin_words_extra[408130] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -18858,8 +18866,8 @@ pg.base.ship_skin_words_extra = {
 				"Hey, which would you choose between plain milk and chocolate milk? It's gotta be chocolate milk, right? Ahah! Chocolate milk is just like me – titillating, multi-layered, and rich... Do you want a taste?"
 			}
 		}
-	},
-	[401430] = {
+	}
+	pg.base.ship_skin_words_extra[401430] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -18931,8 +18939,8 @@ pg.base.ship_skin_words_extra = {
 				"I know I say a lot of nonsense, and I often brag about my strength... Maybe I'm just trying to escape the fact that I'm powerless to change reality. But now... I won't ever let you go! And I won't let anything bad ever happen to you!"
 			}
 		}
-	},
-	[799020] = {
+	}
+	pg.base.ship_skin_words_extra[799020] = {
 		feeling3 = "",
 		upgrade = "",
 		id = 799020,
@@ -19029,8 +19037,8 @@ pg.base.ship_skin_words_extra = {
 				"Have a look at this code, Commander. I came up with it myself and even put it in the startup sequence of your support device... You've already deciphered it? Yeah, you've got it right. Print. \"I love you, Commander. I never want to be without you.\""
 			}
 		}
-	},
-	[199050] = {
+	}
+	pg.base.ship_skin_words_extra[199050] = {
 		feeling3 = "",
 		id = 199050,
 		skill = "",
@@ -19132,8 +19140,8 @@ pg.base.ship_skin_words_extra = {
 				"Do you like the setting of this novel? If you do, I could buy you a made-to-order outfit themed after it. I'd match, of course, heheh. Oh, I hope you don't think servants have the right to say no? Heehee♪"
 			}
 		}
-	},
-	[399070] = {
+	}
+	pg.base.ship_skin_words_extra[399070] = {
 		feeling3 = "",
 		id = 399070,
 		skill = "",
@@ -19235,8 +19243,8 @@ pg.base.ship_skin_words_extra = {
 				"Heehee. You chose to respond to my feelings directly instead of with poetry, so allow me to do the same. Commander, I love you very much♡"
 			}
 		}
-	},
-	[699020] = {
+	}
+	pg.base.ship_skin_words_extra[699020] = {
 		feeling3 = "",
 		id = 699020,
 		skill = "",
@@ -19338,8 +19346,8 @@ pg.base.ship_skin_words_extra = {
 				"I've thought of a myriad of metaphors for my love for you. A lighthouse out at sea, a guiding star... None of them quite hit home, though. Perhaps I ought to forego such things and just express my unadulterated feelings... I love you. I will always be with you."
 			}
 		}
-	},
-	[899040] = {
+	}
+	pg.base.ship_skin_words_extra[899040] = {
 		feeling3 = "",
 		upgrade = "",
 		id = 899040,
@@ -19431,8 +19439,8 @@ pg.base.ship_skin_words_extra = {
 				"In my time with you, I've learned to confront my own emotions. I shouldn't suppress my love. So now, I'm letting you see my... shameful, unsightly side. Please... hold me tight, and give me your warmth."
 			}
 		}
-	},
-	[904020] = {
+	}
+	pg.base.ship_skin_words_extra[904020] = {
 		feeling3 = "",
 		upgrade = "",
 		id = 904020,
@@ -19509,8 +19517,8 @@ pg.base.ship_skin_words_extra = {
 				"I was always a woman who was anxious and acting tough – until you came along and changed me completely. I'm going to hold on to you tightly, hog all your attention, and make you never choose anyone else over me. This is my crime, and it is your punishment... because I'm now the happiest woman in the world."
 			}
 		}
-	},
-	[901140] = {
+	}
+	pg.base.ship_skin_words_extra[901140] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -19567,8 +19575,8 @@ pg.base.ship_skin_words_extra = {
 				"When I think about the time I confessed to you without even knowing it, my face gets all hot... but as long as I can convey this feeling of love, it doesn't matter how hot it gets..."
 			}
 		}
-	},
-	[903030] = {
+	}
+	pg.base.ship_skin_words_extra[903030] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -19630,8 +19638,8 @@ pg.base.ship_skin_words_extra = {
 				"This time, it's definitely perfect... I'm alone with the Commander, and my winning gear is ready... Yeah. I'm basically invincible!"
 			}
 		}
-	},
-	[103280] = {
+	}
+	pg.base.ship_skin_words_extra[103280] = {
 		feeling3 = "",
 		win_mvp = "",
 		expedition = "",
@@ -19703,8 +19711,8 @@ pg.base.ship_skin_words_extra = {
 				"I feel like... you make me feel good, not just physically, but emotionally as well. I like the feeling. Keep on filling me with your love, Commander."
 			}
 		}
-	},
-	[105150] = {
+	}
+	pg.base.ship_skin_words_extra[105150] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -19776,8 +19784,8 @@ pg.base.ship_skin_words_extra = {
 				"Alright, I don't need to slip a love letter into EVERY mag... I-I know giving it right to you gets my feelings across better! But! Being married doesn't make embarrassing things any less embarrassing!"
 			}
 		}
-	},
-	[102330] = {
+	}
+	pg.base.ship_skin_words_extra[102330] = {
 		feeling3 = "",
 		mission = "",
 		id = 102330,
@@ -19864,8 +19872,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander, a thousand and one fresh roses arrived by air mail. Kindly claim them for... Hm? Is this not how lovers express their feelings? What emotion should I be feeling now, then? Should I be embarrassed?"
 			}
 		}
-	},
-	[108090] = {
+	}
+	pg.base.ship_skin_words_extra[108090] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -19927,8 +19935,8 @@ pg.base.ship_skin_words_extra = {
 				"Heehee. I've started clinging to you so badly ever since you told me I can get as close as I want. Makes me happy when you touch me and pat my head, too... but I've also started sweating more 'cause you're touching me, and that's... not great..."
 			}
 		}
-	},
-	[101520] = {
+	}
+	pg.base.ship_skin_words_extra[101520] = {
 		feeling3 = "",
 		upgrade = "",
 		mission = "",
@@ -20000,8 +20008,8 @@ pg.base.ship_skin_words_extra = {
 				"There are so many girls who are more impressive than me. I mean, all I can do is bodyguard work... But you still accepted my feelings and chose me. That made me the happiest girl in the world! So happy that I can't even think of the words to express it!"
 			}
 		}
-	},
-	[199030] = {
+	}
+	pg.base.ship_skin_words_extra[199030] = {
 		feeling3 = "",
 		mission = "",
 		id = 199030,
@@ -20093,8 +20101,8 @@ pg.base.ship_skin_words_extra = {
 				"Anchorage loves... Teacher's smile! I'll do my best... and protect it! So you can smile forever and ever... with Anchorage!"
 			}
 		}
-	},
-	[306040] = {
+	}
+	pg.base.ship_skin_words_extra[306040] = {
 		feeling3 = "",
 		expedition = "",
 		mission = "",
@@ -20181,8 +20189,8 @@ pg.base.ship_skin_words_extra = {
 				"No matter what happens, I won't give up on my desire to be with you, Commander! As long as we're together, anything is possible!"
 			}
 		}
-	},
-	[307150] = {
+	}
+	pg.base.ship_skin_words_extra[307150] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -20239,8 +20247,8 @@ pg.base.ship_skin_words_extra = {
 				"\"O brilliant moon in the sky, though your light fills my eyes, you remain distant and untouchable.\" ...Though in this case, the moon known as Amagi is already at your side... Isn't that right, Commander?"
 			}
 		}
-	},
-	[302250] = {
+	}
+	pg.base.ship_skin_words_extra[302250] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -20317,8 +20325,8 @@ pg.base.ship_skin_words_extra = {
 				"Am I slacking off on my training lately? Not at all, Commander. I simply believe that rest is just as important as work! Heehee, besides, I'm confident that I can protect you already. Love always wins, after all."
 			}
 		}
-	},
-	[302260] = {
+	}
+	pg.base.ship_skin_words_extra[302260] = {
 		feeling3 = "",
 		win_mvp = "",
 		expedition = "",
@@ -20390,8 +20398,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander, I've been learning a new dance... O-oh, no! It's not a prayer dance. It's meant to convey my love. I-if you don't mind, I'll perform it now. Please... watch me closely, Commander!"
 			}
 		}
-	},
-	[301910] = {
+	}
+	pg.base.ship_skin_words_extra[301910] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -20458,8 +20466,8 @@ pg.base.ship_skin_words_extra = {
 				"I can't go back to my old ways... I can't be away from your warmth, and I can't suppress this urge of always wanting to be with you. I'm very selfish, aren't I?"
 			}
 		}
-	},
-	[304050] = {
+	}
+	pg.base.ship_skin_words_extra[304050] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -20511,8 +20519,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander... is still waiting for news of our victory!"
 			}
 		}
-	},
-	[9600070] = {
+	}
+	pg.base.ship_skin_words_extra[9600070] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -20579,8 +20587,8 @@ pg.base.ship_skin_words_extra = {
 				"Have a gander at my newly-sorted display shelf! Everything on here is from our travels and memories together. I hope to expand my collection substantially and add many more shelves! Heehee."
 			}
 		}
-	},
-	[9600080] = {
+	}
+	pg.base.ship_skin_words_extra[9600080] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -20647,8 +20655,8 @@ pg.base.ship_skin_words_extra = {
 				"Heehee. When you're happy, I'm happy. Is this what \"love\" feels like? ...Hm? Before now? I've never had complicated feelings before, so I simply pretended to be happy. I get it now... When you're here, my \"real self\" can be truly happy. That's wonderful."
 			}
 		}
-	},
-	[9600090] = {
+	}
+	pg.base.ship_skin_words_extra[9600090] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -20720,8 +20728,8 @@ pg.base.ship_skin_words_extra = {
 				"Have you decided where we're having late-night snacks tonight? I've got a few ideas, buuut... I'll let you decide this time and I'll pay! Sound good? Come on, choose a place so we can go!"
 			}
 		}
-	},
-	[9600100] = {
+	}
+	pg.base.ship_skin_words_extra[9600100] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -20788,8 +20796,8 @@ pg.base.ship_skin_words_extra = {
 				"Heehee... How ya likin' this high-ABV booze I saved for a special occasion? Feelin' hot? As you should! I made you drink a whole ton of it, so yeah... Heehee... Now all you can do is try to quench MY endless thirst...♥"
 			}
 		}
-	},
-	[9600110] = {
+	}
+	pg.base.ship_skin_words_extra[9600110] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -20856,8 +20864,8 @@ pg.base.ship_skin_words_extra = {
 				"My memories of you are locked away safely in here – inside my heart! Heehee. And there's still lots of empty space for us to create more memories."
 			}
 		}
-	},
-	[11100010] = {
+	}
+	pg.base.ship_skin_words_extra[11100010] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -20924,8 +20932,8 @@ pg.base.ship_skin_words_extra = {
 				"I'm so happy I met you, Commander! And it's great that you feel the same way about me~! Next, I think I'll invent a charm that yields good fortune."
 			}
 		}
-	},
-	[11100020] = {
+	}
+	pg.base.ship_skin_words_extra[11100020] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -20997,8 +21005,8 @@ pg.base.ship_skin_words_extra = {
 				"What do you mean when you say I'm \"blessed with natural mobility\"? Are you talking about my boobs?! Well, it doesn't sound like a compliment to me! But... If it was really meant that way, then maybe choose your words a little better next time."
 			}
 		}
-	},
-	[11100030] = {
+	}
+	pg.base.ship_skin_words_extra[11100030] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -21065,8 +21073,8 @@ pg.base.ship_skin_words_extra = {
 				"You need to be more ravenous, more carnivorous, to withstand the combined love of this port. Want me to teach you what to do?"
 			}
 		}
-	},
-	[11100040] = {
+	}
+	pg.base.ship_skin_words_extra[11100040] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -21133,8 +21141,8 @@ pg.base.ship_skin_words_extra = {
 				"Maybe it's best to simply enjoy my time with you and my friends while we still can."
 			}
 		}
-	},
-	[11100050] = {
+	}
+	pg.base.ship_skin_words_extra[11100050] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -21211,8 +21219,8 @@ pg.base.ship_skin_words_extra = {
 				"I think I've accomplished a lot here. I wasn't able to hold my own in a fight before unlike Lala, and I had so little confidence in myself. But thanks to you, I could muster the courage to try. From now on, I'll keep doing my best so I can be the protector instead of the protected!"
 			}
 		}
-	},
-	[11100060] = {
+	}
+	pg.base.ship_skin_words_extra[11100060] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -21279,8 +21287,10 @@ pg.base.ship_skin_words_extra = {
 				"Thanks for agreeing to go to the port's cat café with me, Commander. Those soft, friendly kitties, especially the Meowfficers... They're too adorable!"
 			}
 		}
-	},
-	[407040] = {
+	}
+end)()
+(function ()
+	pg.base.ship_skin_words_extra[407040] = {
 		feeling3 = "",
 		upgrade = "",
 		id = 407040,
@@ -21367,8 +21377,8 @@ pg.base.ship_skin_words_extra = {
 				"The next war game? You just finished your work – surely you can save this for later? *sigh*... I don't want you to overwork yourself to the point of exhaustion. Let me handle everything and get some rest at once."
 			}
 		}
-	},
-	[401520] = {
+	}
+	pg.base.ship_skin_words_extra[401520] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -21435,8 +21445,8 @@ pg.base.ship_skin_words_extra = {
 				"I swear to keep you safe, Commander! Doesn't matter what enemies or obstacles come your way, I'll drop everything else and come running right to you! And no, I didn't pick that line up from somewhere, that's just how I really, truly feel!"
 			}
 		}
-	},
-	[402110] = {
+	}
+	pg.base.ship_skin_words_extra[402110] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -21503,8 +21513,8 @@ pg.base.ship_skin_words_extra = {
 				"Hmm... I'm no good at straightforward confessions. But I also feel bad, since you've been so proactive, so maybe I should try... Ahem. I-I love you. I always have... H-how was that?! You knew? So I didn't have to push myself to say it? Wh-what kind of answer is that?!"
 			}
 		}
-	},
-	[401090] = {
+	}
+	pg.base.ship_skin_words_extra[401090] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -21581,8 +21591,8 @@ pg.base.ship_skin_words_extra = {
 				"You think I cry less often now...? Y-you're right! I think your help has done wonders for me, and besides... Just as you encourage me with your warm hugs, I want to be able to encourage you with my smile...! Hehe..."
 			}
 		}
-	},
-	[401110] = {
+	}
+	pg.base.ship_skin_words_extra[401110] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -21659,8 +21669,8 @@ pg.base.ship_skin_words_extra = {
 				"I've been thinking, and thinking, and thinking of how to get you to like me more... But I'm so stupid, I can't figure anything out! Commander, tell me how! Tell meee!"
 			}
 		}
-	},
-	[499050] = {
+	}
+	pg.base.ship_skin_words_extra[499050] = {
 		feeling3 = "",
 		expedition = "",
 		mission = "",
@@ -21737,8 +21747,8 @@ pg.base.ship_skin_words_extra = {
 				"Isn't it time you conceded victory to me? I have completely and utterly dominated you, have I not? Your eyes and your racing heart do not lie. Heehee... Eek! H-hold it! I will never be conquered by the likes of you!"
 			}
 		}
-	},
-	[207054] = {
+	}
+	pg.base.ship_skin_words_extra[207054] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -21780,8 +21790,8 @@ pg.base.ship_skin_words_extra = {
 				"Keep going, and you're in trouble! ...Apologize all you want, I'm not listening! Ahh..."
 			}
 		}
-	},
-	[503010] = {
+	}
+	pg.base.ship_skin_words_extra[503010] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -21863,8 +21873,8 @@ pg.base.ship_skin_words_extra = {
 				"I used to only care about clothes and the wearer's looks. Now, I place more importance on the wearer themselves. You've changed my perception, and that's allowed me to create even more perfect garments. For that, I'm grateful, Commander."
 			}
 		}
-	},
-	[502100] = {
+	}
+	pg.base.ship_skin_words_extra[502100] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -21926,8 +21936,8 @@ pg.base.ship_skin_words_extra = {
 				"I thought that the heart-throbbing honeymoon phase was supposed to be short-lived... so why does my heart still pound like crazy whenever I'm near the Commander? ...Ugh, whatever, forget that stupid book! What's more important is that we can both move forward into the future while being truly happy!"
 			}
 		}
-	},
-	[501080] = {
+	}
+	pg.base.ship_skin_words_extra[501080] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -21994,8 +22004,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander, I've made the bed for you— Hmm? What's wrong? You'd like me to stay with you...? Sure, I don't mind~ But first, let me take a shower, then change into some clean pajamas~♪"
 			}
 		}
-	},
-	[501090] = {
+	}
+	pg.base.ship_skin_words_extra[501090] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -22067,8 +22077,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander, let's go grab some cake together! Ehehe, this time for sure, my plan will— Hey, hey! Don't just swallow the thing in one go! I wrote you something on a slip of paper! Spit it out!"
 			}
 		}
-	},
-	[605080] = {
+	}
+	pg.base.ship_skin_words_extra[605080] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -22130,8 +22140,8 @@ pg.base.ship_skin_words_extra = {
 				"First I gazed at you, observed you, then came closer and drew you... and now, you've become an irreplaceable part of my life. My pen and my heart – they both belong to you, my beloved Commander♪"
 			}
 		}
-	},
-	[608030] = {
+	}
+	pg.base.ship_skin_words_extra[608030] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -22193,8 +22203,8 @@ pg.base.ship_skin_words_extra = {
 				"It used to be that I'd prank you just to see your reaction, but now, my heart races just from being around you... Hm? I never said anything about not pranking you anymore. You scolding me is the best reward I could ask for, you know♥"
 			}
 		}
-	},
-	[601110] = {
+	}
+	pg.base.ship_skin_words_extra[601110] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -22256,8 +22266,8 @@ pg.base.ship_skin_words_extra = {
 				"\"The forests feel thee, and with a cool shiver awake; up soars the falcon, flashing in eager joy.\" This is a poem I wrote for you, Commander."
 			}
 		}
-	},
-	[602030] = {
+	}
+	pg.base.ship_skin_words_extra[602030] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -22319,8 +22329,8 @@ pg.base.ship_skin_words_extra = {
 				"I've written about all of our time together in my diary. Sometimes, I draw my memories with you... It's frankly childish behavior for a soldier, but when I look upon them, I remember you. It makes me... so very happy."
 			}
 		}
-	},
-	[107130] = {
+	}
+	pg.base.ship_skin_words_extra[107130] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -22387,8 +22397,8 @@ pg.base.ship_skin_words_extra = {
 				"Did you know, Commander? While I've been on countless adventures and seen many unforgettable wonders, none of them come even close to matching the excitement I felt when we first met. Aww, are you blushing? If you're blushing now, I wonder how you'll react to what I'm about to do. Heehee♡"
 			}
 		}
-	},
-	[102340] = {
+	}
+	pg.base.ship_skin_words_extra[102340] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -22455,8 +22465,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander, I booked the restaurant for our date! Tonight, we'll have the most luxurious candlelit dinner for two in a Ferris wheel! Nyahaha! Are you surprised? Well, we'd better leave now... H-huh? Uh, why can't I find the reservation details...?"
 			}
 		}
-	},
-	[101530] = {
+	}
+	pg.base.ship_skin_words_extra[101530] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -22523,8 +22533,8 @@ pg.base.ship_skin_words_extra = {
 				"When I'm with you now, I realize I don't have to act all bad... You'd accept me no matter how I am, wouldn't you? But that doesn't mean I'm giving up on badness! It's one of my charms, and you're cute when you're getting pranked... Ah, ignore that last part! Forget it!"
 			}
 		}
-	},
-	[1102010] = {
+	}
+	pg.base.ship_skin_words_extra[1102010] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -22591,8 +22601,8 @@ pg.base.ship_skin_words_extra = {
 				"Now, we just pack the soil tight... There. I can't wait to see the rosebud peek out of the soil♪ It's a new life planted by you and me... Say, should we give it a name while we're at it?"
 			}
 		}
-	},
-	[705090] = {
+	}
+	pg.base.ship_skin_words_extra[705090] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -22659,8 +22669,8 @@ pg.base.ship_skin_words_extra = {
 				"Every now and then, I wonder if destiny brought you and me together... My feelings for you have stayed the same between me initially wanting to \"protect\" you and now when we've become a pair. What I am now is your protector, your partner, and someone who couldn't be happier that you love me just as I love you. You can imagine how I feel, can't you?"
 			}
 		}
-	},
-	[1101010] = {
+	}
+	pg.base.ship_skin_words_extra[1101010] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -22727,8 +22737,8 @@ pg.base.ship_skin_words_extra = {
 				"Just as plants need sunlight and water, I need you, Commander. It's so very simple and easy to understand... A natural truth, you might call it."
 			}
 		}
-	},
-	[702080] = {
+	}
+	pg.base.ship_skin_words_extra[702080] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -22790,8 +22800,8 @@ pg.base.ship_skin_words_extra = {
 				"I used to care only about making things, but I've learned so much ever since we met. Sorting and categorizing things, considering usefulness, taking safety measures for others and myself... and of course, that your warmth and smile cannot be substituted by any invention.Heehee♪"
 			}
 		}
-	},
-	[103290] = {
+	}
+	pg.base.ship_skin_words_extra[103290] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -22858,8 +22868,8 @@ pg.base.ship_skin_words_extra = {
 				"Teacher, Anchorage will fold... so many stars for you! Shooting stars! Make lots of wishes...! Like being together forever!"
 			}
 		}
-	},
-	[201390] = {
+	}
+	pg.base.ship_skin_words_extra[201390] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -22926,8 +22936,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander, I'm here to patrol your office! ...Hm? That's the 17th time today? Oh boy... Uh, this is embarrassing to admit, but I, um... I just ended up here because I can't stop thinking about you..."
 			}
 		}
-	},
-	[205160] = {
+	}
+	pg.base.ship_skin_words_extra[205160] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -22994,8 +23004,8 @@ pg.base.ship_skin_words_extra = {
 				"While I will give you preferential treatment, I'm not going to spoil you all the time. Although, when there's no one else around... Ahem. I can consider flirting with you then. Heh – knowing you, you're looking forward to that, aren't you?"
 			}
 		}
-	},
-	[201380] = {
+	}
+	pg.base.ship_skin_words_extra[201380] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -23062,8 +23072,8 @@ pg.base.ship_skin_words_extra = {
 				"(The last method of attraction I tried didn't work too well... It must be because the Commander is so one-of-a-kind.) Oh, Commander... I'm not spacing out. I was just... thinking about you..."
 			}
 		}
-	},
-	[202350] = {
+	}
+	pg.base.ship_skin_words_extra[202350] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -23130,8 +23140,8 @@ pg.base.ship_skin_words_extra = {
 				"Did you know? The double rainbow on the day of our meeting, and the warmth in my heart right now... the old texts consider them both omens of happiness. I'm certain this time! I double-checked♡"
 			}
 		}
-	},
-	[202360] = {
+	}
+	pg.base.ship_skin_words_extra[202360] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -23198,8 +23208,8 @@ pg.base.ship_skin_words_extra = {
 				"Heehee. It looks like I've wound up as your prey. That said, this feeling of being caught by you is surprisingly nice♪"
 			}
 		}
-	},
-	[403160] = {
+	}
+	pg.base.ship_skin_words_extra[403160] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -23266,8 +23276,8 @@ pg.base.ship_skin_words_extra = {
 				"You know, my favorite thing is playing with y– I mean, governing my abyssal kingdom with you! Look, you know what I'm trying to say! I've grown used to you looking after and protecting me, so you'd better never leave me!"
 			}
 		}
-	},
-	[207055] = {
+	}
+	pg.base.ship_skin_words_extra[207055] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -23314,8 +23324,8 @@ pg.base.ship_skin_words_extra = {
 				"Heehee. Commandeeer...♡"
 			}
 		}
-	},
-	[11200010] = {
+	}
+	pg.base.ship_skin_words_extra[11200010] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -23387,8 +23397,8 @@ pg.base.ship_skin_words_extra = {
 				"Many of the stories in this world have so-called \"happy endings.\" That is proof of the people's wishes, and I want to see that world made – by your side."
 			}
 		}
-	},
-	[11200020] = {
+	}
+	pg.base.ship_skin_words_extra[11200020] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -23460,8 +23470,8 @@ pg.base.ship_skin_words_extra = {
 				"I thought I would experience the same conflict and same resolution for all time, but now I want a different future for myself... When did I become such a bad girl?"
 			}
 		}
-	},
-	[103160] = {
+	}
+	pg.base.ship_skin_words_extra[103160] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -23528,8 +23538,8 @@ pg.base.ship_skin_words_extra = {
 				"Phew... I'm tired, Commander. Let me lean on you... Hm? Am I getting too relaxed around you? I-I mean, we're married, and all! Now you're getting me all nervous again..."
 			}
 		}
-	},
-	[404070] = {
+	}
+	pg.base.ship_skin_words_extra[404070] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -23596,8 +23606,8 @@ pg.base.ship_skin_words_extra = {
 				"I take pride in my maturity and reason, but they don't help at all when I'm with you... Now I find myself HOPING for little surprises. Thank you, Commander... You made me realize that the most important thing in life isn't the perfect plan, but time with the people you love."
 			}
 		}
-	},
-	[408140] = {
+	}
+	pg.base.ship_skin_words_extra[408140] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -23664,8 +23674,8 @@ pg.base.ship_skin_words_extra = {
 				"Did you know that my favorite part of the day isn't naptime, but rather the time I spend staring while you work? As much as I think you need to ease off, seeing you in action always moves my heart."
 			}
 		}
-	},
-	[401130] = {
+	}
+	pg.base.ship_skin_words_extra[401130] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -23737,8 +23747,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander! I've come up with a plan to manage our relationship. Firstly, we have to share a hug every day to uphold our intimacy; secondly, we need to express our love to one another to stay holden to our commitment; thirdly, we need to engage in... activities to maintain our passion. I think you get what I'm hinting at!"
 			}
 		}
-	},
-	[408100] = {
+	}
+	pg.base.ship_skin_words_extra[408100] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -23805,8 +23815,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander, y'know what gets me more excited than anything else? It's workin' out the perfect ambush with you and catchin' the baddies with their pants down! But, before we set out, we'll need to do a \"strategy briefing\" first. Get what I mean?"
 			}
 		}
-	},
-	[1199010] = {
+	}
+	pg.base.ship_skin_words_extra[1199010] = {
 		feeling3 = "",
 		id = 1199010,
 		skill = "",
@@ -23913,8 +23923,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander? Are you already asleep? Heehee... It's so nice – listening to each other's heartbeat while in nature's embrace... We can forget about our burdens and responsibilities and enjoy this stillness just for us. Commander, I will always be there for you, be it on the blazing battlefield, or the moonlit way home."
 			}
 		}
-	},
-	[499100] = {
+	}
+	pg.base.ship_skin_words_extra[499100] = {
 		feeling3 = "",
 		id = 499100,
 		skill = "",
@@ -24016,8 +24026,8 @@ pg.base.ship_skin_words_extra = {
 				"Imperator – my Commander. I wish to surpass the bounds of current knowledge and keep exploring the endless abyss of the dark night side by side with you. What do you wish to do?"
 			}
 		}
-	},
-	[799030] = {
+	}
+	pg.base.ship_skin_words_extra[799030] = {
 		feeling3 = "",
 		id = 799030,
 		skill = "",
@@ -24119,8 +24129,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander, I wanna be with you forever. I'm never leaving your side! You won't leave me either, right? Heheh, no matter where you run, I'm gonna come find you! Hehe♥"
 			}
 		}
-	},
-	[199060] = {
+	}
+	pg.base.ship_skin_words_extra[199060] = {
 		feeling3 = "",
 		id = 199060,
 		skill = "",
@@ -24227,8 +24237,8 @@ pg.base.ship_skin_words_extra = {
 				"Are you asleep already? Oh, no... Is it because I didn't help enough today? Will I have to lengthen my working hours and learn to take on more duties? Mm... Maybe tomorrow. For now, I'll just... sleep in your arms a little longer..."
 			}
 		}
-	},
-	[699030] = {
+	}
+	pg.base.ship_skin_words_extra[699030] = {
 		feeling3 = "",
 		id = 699030,
 		skill = "",
@@ -24330,8 +24340,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander, are you ever going to ask how I solved love's ultimate puzzle? Heheh, give me a hug, and I might just tell... Eep?! Y-you're bridal carrying me?! We're in public! But in this position, it's easy to do this... Mwah! This was the ultimate solution... that I wanted to share with you."
 			}
 		}
-	},
-	[11300010] = {
+	}
+	pg.base.ship_skin_words_extra[11300010] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -24403,8 +24413,8 @@ pg.base.ship_skin_words_extra = {
 				"When I'm able to stand by your side and use my power – alchemy – to help... Those times make me feel really honored and proud. I hope I can continue to be of use to you."
 			}
 		}
-	},
-	[11300020] = {
+	}
+	pg.base.ship_skin_words_extra[11300020] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -24476,8 +24486,8 @@ pg.base.ship_skin_words_extra = {
 				"Someday, I might have to go back to my old world. But even if that happens, I won't lose the experiences I had here... No matter how it looks, the bond between our hearts will still be there."
 			}
 		}
-	},
-	[11300030] = {
+	}
+	pg.base.ship_skin_words_extra[11300030] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -24549,8 +24559,8 @@ pg.base.ship_skin_words_extra = {
 				"I see... That explains everything. Okay, I accept defeat. Hmm? Don't worry about it. I'm not changing – I've just made up my mind about things, that's all."
 			}
 		}
-	},
-	[11300040] = {
+	}
+	pg.base.ship_skin_words_extra[11300040] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -24622,8 +24632,8 @@ pg.base.ship_skin_words_extra = {
 				"Wherever I go, I just fail over and over, I make mistakes, and I fall behind... but the fact that I can be by your side and help in many ways... That makes me really happy."
 			}
 		}
-	},
-	[804010] = {
+	}
+	pg.base.ship_skin_words_extra[804010] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -24690,8 +24700,8 @@ pg.base.ship_skin_words_extra = {
 				"All the things I've done for you somehow ended in failure. *sigh*... This might be the first time I've tasted this \"failure\" thing. Hm? \"Don't do them for me, do them for yourself, because seeing you happy makes me happy, too\"? I'm so glad to hear you say that! Um... Could you have... just a small taste of me? Just... give me a little chomp?"
 			}
 		}
-	},
-	[806010] = {
+	}
+	pg.base.ship_skin_words_extra[806010] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -24758,8 +24768,8 @@ pg.base.ship_skin_words_extra = {
 				"Your advice helped me out a lot. I stopped working late every night, and now we mutually care for each other. Umm... You know, persistence over the long term is important when it comes to caring for others! Will you stay with me for as long as it takes?"
 			}
 		}
-	},
-	[803030] = {
+	}
+	pg.base.ship_skin_words_extra[803030] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -24826,8 +24836,8 @@ pg.base.ship_skin_words_extra = {
 				"If we... Hypothetically, if we were to go on a honeymoon, have you a place you wish to visit? In my case, a picturesque city with flavors fine and plentiful would be ideal. May I get to decide? Ahahaha..."
 			}
 		}
-	},
-	[802040] = {
+	}
+	pg.base.ship_skin_words_extra[802040] = {
 		feeling3 = "",
 		id = 802040,
 		skill = "",
@@ -24929,8 +24939,8 @@ pg.base.ship_skin_words_extra = {
 				"Commandeeer, turn toward me. When our foreheads touch... Do you hear my heart's prayers? Oh, you can't? Then here... Mwah♥"
 			}
 		}
-	},
-	[801050] = {
+	}
+	pg.base.ship_skin_words_extra[801050] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -24997,8 +25007,8 @@ pg.base.ship_skin_words_extra = {
 				"I, um... l-l-luh... love... you... No, it's YOU who loves ME, isn't it? So I have to say that for the sake of... Hey, stop with that smug expression!"
 			}
 		}
-	},
-	[307160] = {
+	}
+	pg.base.ship_skin_words_extra[307160] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -25065,8 +25075,8 @@ pg.base.ship_skin_words_extra = {
 				"I admire everything about you... Your fingers, your lips, your gaze... My mysterious, beloved Commander, what are you made of? Please, show me...♡"
 			}
 		}
-	},
-	[317020] = {
+	}
+	pg.base.ship_skin_words_extra[317020] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -25133,8 +25143,8 @@ pg.base.ship_skin_words_extra = {
 				"My treasure and sublimest possession of all is... my time spent with you. Now, come on, let's dance! No need for difficult moves – just follow your heart's beat and mine, and feel the wonderfully sublime rhythm!"
 			}
 		}
-	},
-	[305160] = {
+	}
+	pg.base.ship_skin_words_extra[305160] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -25196,8 +25206,8 @@ pg.base.ship_skin_words_extra = {
 				"When we first met, I didn't think you'd understand the finer things. But you're not just refined – you're a maestro of romance. Now that I know that... I won't believe you when you say you did something because you were \"too tipsy to think straight.\""
 			}
 		}
-	},
-	[303200] = {
+	}
+	pg.base.ship_skin_words_extra[303200] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -25269,8 +25279,8 @@ pg.base.ship_skin_words_extra = {
 				"Ah, the time we have to ourselves is all too short... However, even if we can be together for but a moment, the warmth of your embrace shall remain in my heart forevermore."
 			}
 		}
-	},
-	[302270] = {
+	}
+	pg.base.ship_skin_words_extra[302270] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -25337,8 +25347,8 @@ pg.base.ship_skin_words_extra = {
 				"My scent? Commander, you can tell now...? Hmm... Even I can't discern it. Your scent has permeated mine for so long now that I can't tell the difference between us anymore."
 			}
 		}
-	},
-	[301920] = {
+	}
+	pg.base.ship_skin_words_extra[301920] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -25405,8 +25415,8 @@ pg.base.ship_skin_words_extra = {
 				"I'll always be here for you, Commander. Today, tomorrow, the next day, and the next day... Basically forever! If you ever don't see me nearby, try looking closer!"
 			}
 		}
-	},
-	[999012] = {
+	}
+	pg.base.ship_skin_words_extra[999012] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -25458,8 +25468,8 @@ pg.base.ship_skin_words_extra = {
 				"Abnormal increase in body temperature detected... I-is it because of my thick clothes?"
 			}
 		}
-	},
-	[11400010] = {
+	}
+	pg.base.ship_skin_words_extra[11400010] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -25531,8 +25541,8 @@ pg.base.ship_skin_words_extra = {
 				"Do I make myself clear, Commander? Don't push your luck by leaving me all by myself. I don't like being alone in an unfamiliar place."
 			}
 		}
-	},
-	[11400020] = {
+	}
+	pg.base.ship_skin_words_extra[11400020] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -25604,8 +25614,8 @@ pg.base.ship_skin_words_extra = {
 				"What I've seen and heard here, the things I've felt in our time together, and my own thoughts... There are too many things to discuss. Could you spare some time for me, please?"
 			}
 		}
-	},
-	[9600120] = {
+	}
+	pg.base.ship_skin_words_extra[9600120] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -25667,8 +25677,8 @@ pg.base.ship_skin_words_extra = {
 				"It's dawned on me that there are traces of you all over my room. One way or another, I've wound up wholly reliant on you..."
 			}
 		}
-	},
-	[9600130] = {
+	}
+	pg.base.ship_skin_words_extra[9600130] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -25735,8 +25745,8 @@ pg.base.ship_skin_words_extra = {
 				"I... won?! Oh! I did? I thought I never stood a chance against you no matter what happened... Wait, was this part of some plan of yours? Well, you've admitted defeat, so it's too late to pull out now!"
 			}
 		}
-	},
-	[9600140] = {
+	}
+	pg.base.ship_skin_words_extra[9600140] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -25803,8 +25813,8 @@ pg.base.ship_skin_words_extra = {
 				"Pearls are the tears of the sea, the crystallisation of tenderness. No matter what trials await, I will continue to protect you gently. Forever... and ever."
 			}
 		}
-	},
-	[9600150] = {
+	}
+	pg.base.ship_skin_words_extra[9600150] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -25861,8 +25871,8 @@ pg.base.ship_skin_words_extra = {
 				"No matter where we go, no matter what happens, no matter how fulfilled I am, no matter how caught up I get in something fun... I will never ever leave you all alone! I'll use every trick in the book so we'll be together!"
 			}
 		}
-	},
-	[9600160] = {
+	}
+	pg.base.ship_skin_words_extra[9600160] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -25929,8 +25939,8 @@ pg.base.ship_skin_words_extra = {
 				"Life with you is the peace I've always dreamed of! As long as I have you, I can go confidently to the most dangerous deserted islands or the deepest trenches of the ocean!"
 			}
 		}
-	},
-	[107090] = {
+	}
+	pg.base.ship_skin_words_extra[107090] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -25987,8 +25997,8 @@ pg.base.ship_skin_words_extra = {
 				"I feel your love and trust in me, Commander... I promise, I'll prove that you made the right choice even if it takes my whole life to do it – because I'm your one and only Essex!"
 			}
 		}
-	},
-	[405020] = {
+	}
+	pg.base.ship_skin_words_extra[405020] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -26040,8 +26050,8 @@ pg.base.ship_skin_words_extra = {
 				"In my endless waiting, I've looked forward to the end of the bitter cold thousands of times, hoping for the moment when all the despair, anguish, and loneliness will disappear. Now, my wish has finally come true, because I have you by my side."
 			}
 		}
-	},
-	[11500010] = {
+	}
+	pg.base.ship_skin_words_extra[11500010] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -26113,8 +26123,8 @@ pg.base.ship_skin_words_extra = {
 				"This place is so comfortable. It must be because of you and the people you lead. Though it's only temporary, I'm honored to join you... and I want to protect our time together. May our relationship be a lasting one, Commander."
 			}
 		}
-	},
-	[11500020] = {
+	}
+	pg.base.ship_skin_words_extra[11500020] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -26186,8 +26196,8 @@ pg.base.ship_skin_words_extra = {
 				"A girl's words can often carry multiple layers of meaning. If you are unable to discern these subtleties, you still have much to learn. For example, \"thank you\" is not only an expression of gratitude. If you want to be able to read the true emotions behind these words, you should come to me for lessons."
 			}
 		}
-	},
-	[11500030] = {
+	}
+	pg.base.ship_skin_words_extra[11500030] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -26259,8 +26269,8 @@ pg.base.ship_skin_words_extra = {
 				"I don't want the kind of relationship where one person does all the venting and the other person has to just sit here and take it... I want one where you take the burden of hardship off each other and put your heads together to work through problems... A relationship where you both can move forward, taking everything in stride together. Doesn't that sound ideal?"
 			}
 		}
-	},
-	[11500040] = {
+	}
+	pg.base.ship_skin_words_extra[11500040] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -26332,8 +26342,8 @@ pg.base.ship_skin_words_extra = {
 				"Um... Commander, what's on your mind? If something happened... please tell me. Even though I'm not the most dependable, I still want to help..."
 			}
 		}
-	},
-	[11500050] = {
+	}
+	pg.base.ship_skin_words_extra[11500050] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -26405,8 +26415,8 @@ pg.base.ship_skin_words_extra = {
 				"What do I think about this place, you ask? Heehee... Well, I can answer you by saying that even I, as someone who \"belongs\" nowhere, will be staying here, just for a while."
 			}
 		}
-	},
-	[11500060] = {
+	}
+	pg.base.ship_skin_words_extra[11500060] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -26478,8 +26488,8 @@ pg.base.ship_skin_words_extra = {
 				"Hey, it's no bother at all! I just want to help you like you helped me, Commander! \"Gratitude. You need not hold back in front of us. Please don't be afraid to tell us if you have a problem.\""
 			}
 		}
-	},
-	[317010] = {
+	}
+	pg.base.ship_skin_words_extra[317010] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -26546,8 +26556,8 @@ pg.base.ship_skin_words_extra = {
 				"No matter how little strength one person has, you find surprising ways to leverage it, Commander! Being with you and doing my best at everything makes me so happy."
 			}
 		}
-	},
-	[107160] = {
+	}
+	pg.base.ship_skin_words_extra[107160] = {
 		touch = "",
 		feeling3 = "",
 		win_mvp = "",
@@ -26614,8 +26624,8 @@ pg.base.ship_skin_words_extra = {
 				"♪♪♪~♪♪♪♪~"
 			}
 		}
-	},
-	[101100] = {
+	}
+	pg.base.ship_skin_words_extra[101100] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -26672,8 +26682,8 @@ pg.base.ship_skin_words_extra = {
 				"I've been taking really good care of the stuff you gave me! What stuff? The memories I made with you, my sweetie, on our adventure, obviously!"
 			}
 		}
-	},
-	[101550] = {
+	}
+	pg.base.ship_skin_words_extra[101550] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -26730,8 +26740,8 @@ pg.base.ship_skin_words_extra = {
 				"\"Being with you is... s-so much fun!\" Hmm, that one still sounded awkward... Let's go again. \"Being with you is–\" Huh? C-Commander?! H-how long have you been there?"
 			}
 		}
-	},
-	[102350] = {
+	}
+	pg.base.ship_skin_words_extra[102350] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -26798,8 +26808,8 @@ pg.base.ship_skin_words_extra = {
 				"Come here, Commander! Now close your eyes! That's it, just keep your eyes closed and wait for my instructions. Three, two, one... *smooch*! Ahaha! How'd you like that surprise?"
 			}
 		}
-	},
-	[107250] = {
+	}
+	pg.base.ship_skin_words_extra[107250] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -26881,8 +26891,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander, I've realized... that I want to nourish your heart just as much as I want to support your health. I want to warm you up with my hugs, milk, and love... That alone would make me feel so happy and fulfilled."
 			}
 		}
-	},
-	[301940] = {
+	}
+	pg.base.ship_skin_words_extra[301940] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -26944,8 +26954,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander, I just realized something. No matter what I wear, you're always full of compliments... Does this mean you've completely fallen for me, from head to toe?"
 			}
 		}
-	},
-	[605090] = {
+	}
+	pg.base.ship_skin_words_extra[605090] = {
 		feeling3 = "",
 		expedition = "",
 		mission = "",
@@ -27032,8 +27042,8 @@ pg.base.ship_skin_words_extra = {
 				"I surrender these chains to you, and allow you to judge my sins and future and guide me... You are my sole and final salvation."
 			}
 		}
-	},
-	[601120] = {
+	}
+	pg.base.ship_skin_words_extra[601120] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -27095,8 +27105,8 @@ pg.base.ship_skin_words_extra = {
 				"Whatever you want from me, I'd be happy to do... Huh? Could this be a symptom of... love?"
 			}
 		}
-	},
-	[602040] = {
+	}
+	pg.base.ship_skin_words_extra[602040] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -27158,8 +27168,8 @@ pg.base.ship_skin_words_extra = {
 				"Here's the plan for our date. First, we go to an amusement park. Then, we watch a movie, and we end it with mountaintop stargazing! You think we don't have enough time? Don't worry! As long as we tackle it together, nothing is beyond us! Ooohohoho!"
 			}
 		}
-	},
-	[303110] = {
+	}
+	pg.base.ship_skin_words_extra[303110] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -27216,8 +27226,8 @@ pg.base.ship_skin_words_extra = {
 				"I see... \"Love\" can make even the most invincible of warriors vulnerable, but it can also become the sharpest of blades that cuts through all hesitation... This is why a warrior mustn't fear love."
 			}
 		}
-	},
-	[105200] = {
+	}
+	pg.base.ship_skin_words_extra[105200] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -27269,8 +27279,8 @@ pg.base.ship_skin_words_extra = {
 				"Your hug is warmer than a bedsheet left to dry in the sun... Just keep holdin' me like this. You like it too, don't you?"
 			}
 		}
-	},
-	[503020] = {
+	}
+	pg.base.ship_skin_words_extra[503020] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -27337,8 +27347,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander, look at the pendant I made for you... When carving it, I could think of nothing but your face. I traced every curve with my palm over and over, poring over every last detail... Do you think I'm, um... shameless... For being so honest with you?"
 			}
 		}
-	},
-	[502120] = {
+	}
+	pg.base.ship_skin_words_extra[502120] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -27400,8 +27410,8 @@ pg.base.ship_skin_words_extra = {
 				"I've at last obtained the scent I've been dreaming of... This perfume, based on the theme of love, was made with your odor as the foundation♪"
 			}
 		}
-	},
-	[499020] = {
+	}
+	pg.base.ship_skin_words_extra[499020] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -27458,8 +27468,8 @@ pg.base.ship_skin_words_extra = {
 				"Is this enough to satisfy you? Heehee, I thought not... Share with me all of your little whims and desires. My bosom welcomes all of them..."
 			}
 		}
-	},
-	[307080] = {
+	}
+	pg.base.ship_skin_words_extra[307080] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -27521,8 +27531,8 @@ pg.base.ship_skin_words_extra = {
 				"Now that we have come so far, even fate cannot part us... This one can truly walk hand in hand with you. One could not ask for more..."
 			}
 		}
-	},
-	[407010] = {
+	}
+	pg.base.ship_skin_words_extra[407010] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -27589,8 +27599,8 @@ pg.base.ship_skin_words_extra = {
 				"You once told me that the End would lead to new beginnings. To be honest, I still don't understand what these new beginnings may be. But if you are by my side, then I am ready to witness them... and to lend a hand."
 			}
 		}
-	},
-	[703030] = {
+	}
+	pg.base.ship_skin_words_extra[703030] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -27667,8 +27677,8 @@ pg.base.ship_skin_words_extra = {
 				"What do I think of you? I like you. A lot. That's how we became best friends, isn't it? I will fight for everything you desire and wish to protect. Of course, I do look forward to other things that you want as well..."
 			}
 		}
-	},
-	[701130] = {
+	}
+	pg.base.ship_skin_words_extra[701130] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -27725,8 +27735,8 @@ pg.base.ship_skin_words_extra = {
 				"You've been really proving yourself reliable lately... but don't get cocky! You should rely on me a bit more instead of trying to do everything yourself! I won't take \"no\" for an answer!"
 			}
 		}
-	},
-	[702090] = {
+	}
+	pg.base.ship_skin_words_extra[702090] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -27793,8 +27803,8 @@ pg.base.ship_skin_words_extra = {
 				"Staying focused and withstanding external distractions is the hardest part of mental training. Pull my collar for me... Harder, please... *pant*... Now I can start!"
 			}
 		}
-	},
-	[702100] = {
+	}
+	pg.base.ship_skin_words_extra[702100] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -27851,8 +27861,8 @@ pg.base.ship_skin_words_extra = {
 				"I can't help that my eyes are drawn to you... because I want to record and preserve all of our time spent together."
 			}
 		}
-	},
-	[100000] = {
+	}
+	pg.base.ship_skin_words_extra[100000] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -27909,8 +27919,8 @@ pg.base.ship_skin_words_extra = {
 				"Bulin loves you more than anyone, Commander! A hundred times more than I love wrenches, food, and shiny things combined!"
 			}
 		}
-	},
-	[302290] = {
+	}
+	pg.base.ship_skin_words_extra[302290] = {
 		feeling3 = "",
 		upgrade = "",
 		expedition = "",
@@ -27982,8 +27992,8 @@ pg.base.ship_skin_words_extra = {
 				"You just glanced at me, didn't you? I can tell when you're in need of some love. Heehee, come here and give me a hug!"
 			}
 		}
-	},
-	[302280] = {
+	}
+	pg.base.ship_skin_words_extra[302280] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -28050,8 +28060,8 @@ pg.base.ship_skin_words_extra = {
 				"O fated one, I have turned my two magatama into necklaces. Now, let us place them upon one another... Hereafter, even should we be worlds apart, the bond between us shall not be severed."
 			}
 		}
-	},
-	[307170] = {
+	}
+	pg.base.ship_skin_words_extra[307170] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -28118,8 +28128,8 @@ pg.base.ship_skin_words_extra = {
 				"This bell has fulfilled its purpose, so you don't need to ring it anymore. From now on, even without this simple token, I'll come to you whenever your heart aches for me."
 			}
 		}
-	},
-	[303140] = {
+	}
+	pg.base.ship_skin_words_extra[303140] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -28186,8 +28196,8 @@ pg.base.ship_skin_words_extra = {
 				"All of yesterday's memories and tomorrow's promises with you touch my heart... Hehe, I can't live without you now, Commander."
 			}
 		}
-	},
-	[303130] = {
+	}
+	pg.base.ship_skin_words_extra[303130] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -28254,8 +28264,10 @@ pg.base.ship_skin_words_extra = {
 				"A sword needs a scabbard... and I need you, Commander. As long as I'm here, nobody is ever going to hurt you."
 			}
 		}
-	},
-	[702010] = {
+	}
+end)()
+(function ()
+	pg.base.ship_skin_words_extra[702010] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -28317,8 +28329,8 @@ pg.base.ship_skin_words_extra = {
 				"Wherever you are is my home. I'll always be by your side, just like the inevitable break of dawn every day."
 			}
 		}
-	},
-	[10600100] = {
+	}
+	pg.base.ship_skin_words_extra[10600100] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -28390,8 +28402,8 @@ pg.base.ship_skin_words_extra = {
 				"To be completely honest, the time we spend together has become the most precious thing to me. Could we... keep going for a while longer, you think?"
 			}
 		}
-	},
-	[10600110] = {
+	}
+	pg.base.ship_skin_words_extra[10600110] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -28463,8 +28475,8 @@ pg.base.ship_skin_words_extra = {
 				"When you said it was okay for me to stay here... I felt so warm deep down inside. In return, I'll warm you up, too..."
 			}
 		}
-	},
-	[10600120] = {
+	}
+	pg.base.ship_skin_words_extra[10600120] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -28536,8 +28548,8 @@ pg.base.ship_skin_words_extra = {
 				"Commander, I've been waiting... Oh? You think I'm kidding? Heehee, I wonder. I'll take your order first. If you have any special requests... go ahead and let them all out for me♡"
 			}
 		}
-	},
-	[10600130] = {
+	}
+	pg.base.ship_skin_words_extra[10600130] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -28609,8 +28621,8 @@ pg.base.ship_skin_words_extra = {
 				"Ever since I met you, I've started to understand what it means to have feelings for someone else. This should help me make even better manga... I'll keep trying hard, so I hope you'll support me, too."
 			}
 		}
-	},
-	[10600140] = {
+	}
+	pg.base.ship_skin_words_extra[10600140] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -28682,8 +28694,8 @@ pg.base.ship_skin_words_extra = {
 				"Your scent feels really kind, and it makes me feel happy... Is this what romance is? Can you teach me, Commander?"
 			}
 		}
-	},
-	[10600150] = {
+	}
+	pg.base.ship_skin_words_extra[10600150] = {
 		touch = "",
 		feeling3 = "",
 		upgrade = "",
@@ -28755,8 +28767,8 @@ pg.base.ship_skin_words_extra = {
 				"You know how you always support my loves, Commander? I think that's pretty cool of you. I wanna keep sharing more of my loves with you, so you'd better be ready!"
 			}
 		}
-	},
-	[399010] = {
+	}
+	pg.base.ship_skin_words_extra[399010] = {
 		feeling3 = "",
 		win_mvp = "",
 		expedition = "",
@@ -28828,8 +28840,8 @@ pg.base.ship_skin_words_extra = {
 				"Milord, you light up my world, once comprised of only swordsmanship and poetry. Made it warmer and more vibrant than ever before. I will devote my body, my heart, my everything to you... Milord, please... Embrace me, tightly..."
 			}
 		}
-	},
-	[105120] = {
+	}
+	pg.base.ship_skin_words_extra[105120] = {
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
@@ -28897,4 +28909,67 @@ pg.base.ship_skin_words_extra = {
 			}
 		}
 	}
-}
+	pg.base.ship_skin_words_extra[305170] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 305170,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Ah! You have shown yourself at last! I have crafted the schedule for today and left enough time for us to play together. So... make sure you do exactly as I tell you for the entire day!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome back. I have prepared some refreshments to show my appreciation for your efforts. P-perhaps you would like to share them with me?"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Y-you really are a handful. You will spend more time with me to make up for this, won't you?"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"I want you to hold my hand if you ever find yourself feeling uncertain. It will ease your fear.|Commander, you must try this taiyaki. I saved it just for you. It is vital that a leader maintains their vigor.|Once I have grown and become someone worthy of my name, I shall surely go on to defend even vaster seas. It is my wish that you will remain by my side, even then!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"If you are tired, Commander, you may rest your head on my lap."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Hrmh... If you wish to spend time with me, you only need say so..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"I have recently been reflecting upon the true nature of \"resolve.\" Ahem... My resolve to defend is not about self-sacrifice. Rather, it lies in my conviction to return home by any means. For the cherry blossoms in full bloom, for the delectable taiyaki... and for the person waiting for me."
+			}
+		}
+	}
+end)()

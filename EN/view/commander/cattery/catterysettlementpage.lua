@@ -49,7 +49,7 @@ slot0.Hide = function(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, pg.UIMgr.GetInstance()._normalUIMain)
 end
 
-slot0.GetCurrentFlagship = function(slot0)
+slot0.GetFlagShip = function(slot0)
 	return Ship.New({
 		id = 999,
 		configId = 312011
@@ -59,7 +59,7 @@ end
 slot0.SetPainting = function(slot0)
 	slot0:ReturnPainting()
 
-	slot2 = slot0:GetCurrentFlagship():getPainting()
+	slot2 = slot0:GetFlagShip():getPainting()
 	slot0.paintingName = slot2
 
 	setPaintingPrefabAsync(slot0.painting, slot2, "jiesuan")

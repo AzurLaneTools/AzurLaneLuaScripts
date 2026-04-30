@@ -1,6 +1,21 @@
 pg = pg or {}
-pg.activity_tolove_jigsaw = {
-	{
+pg.activity_tolove_jigsaw = rawget(pg, "activity_tolove_jigsaw") or setmetatable({
+	__name = "activity_tolove_jigsaw"
+}, confNEO)
+pg.activity_tolove_jigsaw.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7
+}
+pg.base = pg.base or {}
+pg.base.activity_tolove_jigsaw = {}
+
+(function ()
+	pg.base.activity_tolove_jigsaw[1] = {
 		desc_demand = "If only my cooking were more palatable...",
 		portrait_up = "tianlangxing",
 		portrait_down = "lala_tolove",
@@ -32,8 +47,8 @@ pg.activity_tolove_jigsaw = {
 			"· Assemble circuitry parts",
 			"· Connect the assembled circuits (draw a line to connect all circuits)"
 		}
-	},
-	{
+	}
+	pg.base.activity_tolove_jigsaw[2] = {
 		desc_demand = "I'll do anything, and I mean ANYTHING, to sell more stuff, nya!",
 		portrait_up = "mingshi",
 		portrait_down = "lala_tolove",
@@ -65,8 +80,8 @@ pg.activity_tolove_jigsaw = {
 			"· Assemble circuitry parts",
 			"· Connect the assembled circuits (draw a line to connect all circuits)"
 		}
-	},
-	{
+	}
+	pg.base.activity_tolove_jigsaw[3] = {
 		desc_demand = "I wish I could slack off all the time... Think you can make that happen?",
 		portrait_up = "changdao",
 		portrait_down = "lala_tolove",
@@ -98,8 +113,8 @@ pg.activity_tolove_jigsaw = {
 			"· Assemble circuitry parts",
 			"· Connect the assembled circuits (draw a line to connect all circuits)"
 		}
-	},
-	{
+	}
+	pg.base.activity_tolove_jigsaw[4] = {
 		desc_demand = "Let me preface this by saying I don't enjoy overtime. But if I must work extra...",
 		portrait_up = "dipulaikesi",
 		portrait_down = "lala_tolove",
@@ -131,8 +146,8 @@ pg.activity_tolove_jigsaw = {
 			"· Assemble circuitry parts",
 			"· Connect the assembled circuits (draw a line to connect all circuits)"
 		}
-	},
-	{
+	}
+	pg.base.activity_tolove_jigsaw[5] = {
 		desc_demand = "I'm growin' a bunch of the Commander's favorite veggies, but it's slooow. Got a fix?",
 		portrait_up = "weizhang",
 		portrait_down = "lala_tolove",
@@ -164,8 +179,8 @@ pg.activity_tolove_jigsaw = {
 			"· Assemble circuitry parts",
 			"· Connect the assembled circuits (draw a line to connect all circuits)"
 		}
-	},
-	{
+	}
+	pg.base.activity_tolove_jigsaw[6] = {
 		desc_demand = "Heheh. I'm an investigator of the unknown, so I need a mysterious, exciting vibe at all times!",
 		portrait_up = "bulisituoer",
 		portrait_down = "lala_tolove",
@@ -197,8 +212,8 @@ pg.activity_tolove_jigsaw = {
 			"· Assemble circuitry parts",
 			"· Connect the assembled circuits (draw a line to connect all circuits)"
 		}
-	},
-	{
+	}
+	pg.base.activity_tolove_jigsaw[7] = {
 		desc_demand = "As queen of the Royal Navy, I wish to cultivate a royal aura!",
 		portrait_up = "yilishabai",
 		portrait_down = "lala_tolove",
@@ -230,14 +245,5 @@ pg.activity_tolove_jigsaw = {
 			"· Assemble circuitry parts",
 			"· Connect the assembled circuits (draw a line to connect all circuits)"
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7
 	}
-}
+end)()

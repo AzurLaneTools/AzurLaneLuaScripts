@@ -1,6 +1,18 @@
 pg = pg or {}
-pg.guild_operation_template = {
-	{
+pg.guild_operation_template = rawget(pg, "guild_operation_template") or setmetatable({
+	__name = "guild_operation_template"
+}, confNEO)
+pg.guild_operation_template.all = {
+	1,
+	2,
+	3,
+	4
+}
+pg.base = pg.base or {}
+pg.base.guild_operation_template = {}
+
+(function ()
+	pg.base.guild_operation_template[1] = {
 		scale = "Scale: Small (Rec. Participants: 1-5)",
 		name = "Pacific Base Patrol",
 		theme = "midway",
@@ -30,8 +42,8 @@ pg.guild_operation_template = {
 				54017
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_operation_template[2] = {
 		scale = "Scale: Medium (Rec. Participants: 3-8)",
 		name = "Northern Shipping Escort",
 		theme = "northern",
@@ -60,8 +72,8 @@ pg.guild_operation_template = {
 				54017
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_operation_template[3] = {
 		scale = "Scale: Large (Rec. Participants: 6-14)",
 		name = "Peninsular Raid",
 		theme = "norskehavet",
@@ -92,8 +104,8 @@ pg.guild_operation_template = {
 				54017
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_operation_template[4] = {
 		scale = "Scale: Very Large (Rec. Participants: 8-20)",
 		name = "Solomon Air-Sea Battle",
 		theme = "guadalcanal",
@@ -124,11 +136,5 @@ pg.guild_operation_template = {
 				54017
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4
 	}
-}
+end)()

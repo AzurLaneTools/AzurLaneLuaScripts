@@ -1,6 +1,26 @@
 pg = pg or {}
-pg.world_port_data = {
-	{
+pg.world_port_data = rawget(pg, "world_port_data") or setmetatable({
+	__name = "world_port_data"
+}, confNEO)
+pg.world_port_data.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	20,
+	30,
+	100,
+	301
+}
+pg.base = pg.base or {}
+pg.base.world_port_data = {}
+
+(function ()
+	pg.base.world_port_data[1] = {
 		port_bg = "port_niuyue",
 		id = 1,
 		name = "NY City",
@@ -17,8 +37,8 @@ pg.world_port_data = {
 				0
 			}
 		}
-	},
-	{
+	}
+	pg.base.world_port_data[2] = {
 		port_bg = "port_liwupu",
 		id = 2,
 		name = "Liverpool",
@@ -35,8 +55,8 @@ pg.world_port_data = {
 				0
 			}
 		}
-	},
-	{
+	}
+	pg.base.world_port_data[3] = {
 		port_bg = "port_zhibuluotuo",
 		id = 3,
 		name = "Gibraltar ",
@@ -53,8 +73,8 @@ pg.world_port_data = {
 				0
 			}
 		}
-	},
-	{
+	}
+	pg.base.world_port_data[4] = {
 		port_bg = "port_shenbidebao",
 		id = 4,
 		name = "St. Petersburg",
@@ -71,8 +91,8 @@ pg.world_port_data = {
 				0
 			}
 		}
-	},
-	{
+	}
+	pg.base.world_port_data[5] = {
 		port_bg = "port_jier",
 		id = 5,
 		name = "Kiel",
@@ -89,8 +109,8 @@ pg.world_port_data = {
 				0
 			}
 		}
-	},
-	{
+	}
+	pg.base.world_port_data[6] = {
 		port_bg = "port_talantuo",
 		id = 6,
 		name = "Taranto",
@@ -107,8 +127,8 @@ pg.world_port_data = {
 				0
 			}
 		}
-	},
-	{
+	}
+	pg.base.world_port_data[7] = {
 		port_bg = "port_buleisite",
 		id = 7,
 		name = "Brest",
@@ -125,8 +145,8 @@ pg.world_port_data = {
 				0
 			}
 		}
-	},
-	{
+	}
+	pg.base.world_port_data[8] = {
 		port_bg = "port_dakaer",
 		id = 8,
 		name = "Dakar",
@@ -143,8 +163,8 @@ pg.world_port_data = {
 				0
 			}
 		}
-	},
-	[20] = {
+	}
+	pg.base.world_port_data[20] = {
 		port_bg = "port_zuozhangangkou",
 		id = 20,
 		name = "Forward Base ",
@@ -161,8 +181,8 @@ pg.world_port_data = {
 				0
 			}
 		}
-	},
-	[30] = {
+	}
+	pg.base.world_port_data[30] = {
 		port_bg = "port_zuozhangangkou",
 		id = 30,
 		name = "NA Ocean Core Sector Forward Base",
@@ -179,8 +199,8 @@ pg.world_port_data = {
 				0
 			}
 		}
-	},
-	[100] = {
+	}
+	pg.base.world_port_data[100] = {
 		port_bg = "port_chuanwu1",
 		id = 100,
 		name = "Future Content ",
@@ -197,8 +217,8 @@ pg.world_port_data = {
 				0
 			}
 		}
-	},
-	[301] = {
+	}
+	pg.base.world_port_data[301] = {
 		port_bg = "port_chongdong",
 		id = 301,
 		name = "Future Content ",
@@ -215,19 +235,5 @@ pg.world_port_data = {
 				0
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		20,
-		30,
-		100,
-		301
 	}
-}
+end)()

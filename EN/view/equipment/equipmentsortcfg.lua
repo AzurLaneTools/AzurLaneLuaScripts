@@ -351,13 +351,6 @@ return {
 				if not slot0.isSkin then
 					return 0
 				else
-					return (uv0 and -1 or 1) * (pg.equip_skin_template[slot0.id][uv1.value] or 0)
-				end
-			end,
-			function (slot0)
-				if not slot0.isSkin then
-					return 0
-				else
 					return (uv0 and -1 or 1) * -slot0.id
 				end
 			end

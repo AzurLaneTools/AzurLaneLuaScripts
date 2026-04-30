@@ -1,6 +1,40 @@
 pg = pg or {}
-pg.child2_attr = {
-	[101] = {
+pg.child2_attr = rawget(pg, "child2_attr") or setmetatable({
+	__name = "child2_attr"
+}, confNEO)
+pg.child2_attr.all = {
+	101,
+	102,
+	103,
+	104,
+	201,
+	301,
+	302,
+	303,
+	304,
+	305
+}
+pg.child2_attr.get_id_list_by_character = {
+	{
+		101,
+		102,
+		103,
+		104,
+		201
+	},
+	{
+		301,
+		302,
+		303,
+		304,
+		305
+	}
+}
+pg.base = pg.base or {}
+pg.base.child2_attr = {}
+
+(function ()
+	pg.base.child2_attr[101] = {
 		character = 1,
 		name = "Fitness",
 		item_icon = "attr_tineng2",
@@ -40,8 +74,8 @@ pg.child2_attr = {
 				"A"
 			}
 		}
-	},
-	[102] = {
+	}
+	pg.base.child2_attr[102] = {
 		character = 1,
 		name = "Knowledge",
 		item_icon = "attr_zhishi2",
@@ -81,8 +115,8 @@ pg.child2_attr = {
 				"A"
 			}
 		}
-	},
-	[103] = {
+	}
+	pg.base.child2_attr[103] = {
 		character = 1,
 		name = "Dexterity",
 		item_icon = "attr_shijian2",
@@ -122,8 +156,8 @@ pg.child2_attr = {
 				"A"
 			}
 		}
-	},
-	[104] = {
+	}
+	pg.base.child2_attr[104] = {
 		character = 1,
 		name = "Sensitivity",
 		item_icon = "attr_ganzhi2",
@@ -163,8 +197,8 @@ pg.child2_attr = {
 				"A"
 			}
 		}
-	},
-	[201] = {
+	}
+	pg.base.child2_attr[201] = {
 		character = 1,
 		name = "Personality",
 		item_icon = "attr_xingge",
@@ -175,8 +209,8 @@ pg.child2_attr = {
 		id = 201,
 		icon = "attr_xingge",
 		rank = {}
-	},
-	[301] = {
+	}
+	pg.base.child2_attr[301] = {
 		character = 2,
 		name = "Fitness",
 		item_icon = "attr_tineng2",
@@ -216,8 +250,8 @@ pg.child2_attr = {
 				"A"
 			}
 		}
-	},
-	[302] = {
+	}
+	pg.base.child2_attr[302] = {
 		character = 2,
 		name = "Knowledge",
 		item_icon = "attr_zhishi2",
@@ -257,8 +291,8 @@ pg.child2_attr = {
 				"A"
 			}
 		}
-	},
-	[303] = {
+	}
+	pg.base.child2_attr[303] = {
 		character = 2,
 		name = "Dexterity",
 		item_icon = "attr_shijian2",
@@ -298,8 +332,8 @@ pg.child2_attr = {
 				"A"
 			}
 		}
-	},
-	[304] = {
+	}
+	pg.base.child2_attr[304] = {
 		character = 2,
 		name = "Sensitivity",
 		item_icon = "attr_ganzhi2",
@@ -339,8 +373,8 @@ pg.child2_attr = {
 				"A"
 			}
 		}
-	},
-	[305] = {
+	}
+	pg.base.child2_attr[305] = {
 		character = 2,
 		name = "Personality",
 		item_icon = "attr_xingge",
@@ -351,33 +385,5 @@ pg.child2_attr = {
 		id = 305,
 		icon = "attr_xingge",
 		rank = {}
-	},
-	get_id_list_by_character = {
-		{
-			101,
-			102,
-			103,
-			104,
-			201
-		},
-		{
-			301,
-			302,
-			303,
-			304,
-			305
-		}
-	},
-	all = {
-		101,
-		102,
-		103,
-		104,
-		201,
-		301,
-		302,
-		303,
-		304,
-		305
 	}
-}
+end)()

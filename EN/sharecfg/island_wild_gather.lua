@@ -1,6 +1,36 @@
 pg = pg or {}
-pg.island_wild_gather = {
-	{
+pg.island_wild_gather = rawget(pg, "island_wild_gather") or setmetatable({
+	__name = "island_wild_gather"
+}, confNEO)
+pg.island_wild_gather.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008,
+	1009,
+	1010,
+	1011,
+	1012,
+	1013,
+	1014,
+	1015,
+	1016
+}
+pg.base = pg.base or {}
+pg.base.island_wild_gather = {}
+
+(function ()
+	pg.base.island_wild_gather[1] = {
 		name = "Bee Nest",
 		refresh = 1,
 		type = 1,
@@ -20,8 +50,8 @@ pg.island_wild_gather = {
 			10,
 			50
 		}
-	},
-	{
+	}
+	pg.base.island_wild_gather[2] = {
 		name = "Bee Nest",
 		refresh = 1,
 		type = 1,
@@ -40,8 +70,8 @@ pg.island_wild_gather = {
 			10,
 			50
 		}
-	},
-	{
+	}
+	pg.base.island_wild_gather[3] = {
 		name = "Bee Nest",
 		refresh = 1,
 		type = 1,
@@ -61,8 +91,8 @@ pg.island_wild_gather = {
 			10,
 			50
 		}
-	},
-	{
+	}
+	pg.base.island_wild_gather[4] = {
 		name = "Honey Barrel",
 		refresh = 1,
 		type = 1,
@@ -80,8 +110,8 @@ pg.island_wild_gather = {
 			10,
 			50
 		}
-	},
-	{
+	}
+	pg.base.island_wild_gather[5] = {
 		name = "Bee Nest",
 		refresh = 1,
 		type = 1,
@@ -99,8 +129,8 @@ pg.island_wild_gather = {
 			10,
 			50
 		}
-	},
-	{
+	}
+	pg.base.island_wild_gather[6] = {
 		name = "Bee Nest",
 		refresh = 1,
 		type = 1,
@@ -118,8 +148,8 @@ pg.island_wild_gather = {
 			10,
 			50
 		}
-	},
-	[1001] = {
+	}
+	pg.base.island_wild_gather[1001] = {
 		name = "Autumn Chrysanthemum",
 		refresh = 1,
 		type = 2,
@@ -137,8 +167,8 @@ pg.island_wild_gather = {
 			10,
 			50
 		}
-	},
-	[1002] = {
+	}
+	pg.base.island_wild_gather[1002] = {
 		name = "Autumn Chrysanthemum",
 		refresh = 1,
 		type = 2,
@@ -156,8 +186,8 @@ pg.island_wild_gather = {
 			10,
 			50
 		}
-	},
-	[1003] = {
+	}
+	pg.base.island_wild_gather[1003] = {
 		name = "Reed Bed",
 		refresh = 1,
 		type = 2,
@@ -175,8 +205,8 @@ pg.island_wild_gather = {
 			10,
 			50
 		}
-	},
-	[1004] = {
+	}
+	pg.base.island_wild_gather[1004] = {
 		name = "Reed Bed",
 		refresh = 1,
 		type = 2,
@@ -194,8 +224,8 @@ pg.island_wild_gather = {
 			10,
 			50
 		}
-	},
-	[1005] = {
+	}
+	pg.base.island_wild_gather[1005] = {
 		name = "Peanuts",
 		refresh = 1,
 		type = 2,
@@ -213,8 +243,8 @@ pg.island_wild_gather = {
 			10,
 			50
 		}
-	},
-	[1006] = {
+	}
+	pg.base.island_wild_gather[1006] = {
 		name = "Peanuts",
 		refresh = 1,
 		type = 2,
@@ -232,8 +262,8 @@ pg.island_wild_gather = {
 			10,
 			50
 		}
-	},
-	[1007] = {
+	}
+	pg.base.island_wild_gather[1007] = {
 		name = "Matsutake",
 		refresh = 1,
 		type = 2,
@@ -251,8 +281,8 @@ pg.island_wild_gather = {
 			10,
 			50
 		}
-	},
-	[1008] = {
+	}
+	pg.base.island_wild_gather[1008] = {
 		name = "Matsutake",
 		refresh = 1,
 		type = 2,
@@ -270,8 +300,8 @@ pg.island_wild_gather = {
 			10,
 			50
 		}
-	},
-	[1009] = {
+	}
+	pg.base.island_wild_gather[1009] = {
 		name = "Spring Bamboo Shoots",
 		refresh = 1,
 		type = 2,
@@ -289,8 +319,8 @@ pg.island_wild_gather = {
 			10,
 			50
 		}
-	},
-	[1010] = {
+	}
+	pg.base.island_wild_gather[1010] = {
 		name = "Spring Bamboo Shoots",
 		refresh = 1,
 		type = 2,
@@ -308,8 +338,8 @@ pg.island_wild_gather = {
 			10,
 			50
 		}
-	},
-	[1011] = {
+	}
+	pg.base.island_wild_gather[1011] = {
 		name = "Shepherd's Purse",
 		refresh = 1,
 		type = 2,
@@ -327,8 +357,8 @@ pg.island_wild_gather = {
 			10,
 			50
 		}
-	},
-	[1012] = {
+	}
+	pg.base.island_wild_gather[1012] = {
 		name = "Shepherd's Purse",
 		refresh = 1,
 		type = 2,
@@ -346,8 +376,8 @@ pg.island_wild_gather = {
 			10,
 			50
 		}
-	},
-	[1013] = {
+	}
+	pg.base.island_wild_gather[1013] = {
 		name = "Winter Jasmine",
 		refresh = 1,
 		type = 2,
@@ -365,8 +395,8 @@ pg.island_wild_gather = {
 			10,
 			50
 		}
-	},
-	[1014] = {
+	}
+	pg.base.island_wild_gather[1014] = {
 		name = "Winter Jasmine",
 		refresh = 1,
 		type = 2,
@@ -384,8 +414,8 @@ pg.island_wild_gather = {
 			10,
 			50
 		}
-	},
-	[1015] = {
+	}
+	pg.base.island_wild_gather[1015] = {
 		name = "Hyacinth",
 		refresh = 1,
 		type = 2,
@@ -403,8 +433,8 @@ pg.island_wild_gather = {
 			10,
 			50
 		}
-	},
-	[1016] = {
+	}
+	pg.base.island_wild_gather[1016] = {
 		name = "Hyacinth",
 		refresh = 1,
 		type = 2,
@@ -422,29 +452,5 @@ pg.island_wild_gather = {
 			10,
 			50
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1007,
-		1008,
-		1009,
-		1010,
-		1011,
-		1012,
-		1013,
-		1014,
-		1015,
-		1016
 	}
-}
+end)()

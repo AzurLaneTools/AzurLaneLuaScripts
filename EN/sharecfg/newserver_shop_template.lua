@@ -1,6 +1,168 @@
 pg = pg or {}
-pg.newserver_shop_template = {
-	[22] = {
+pg.newserver_shop_template = rawget(pg, "newserver_shop_template") or setmetatable({
+	__name = "newserver_shop_template"
+}, confNEO)
+pg.newserver_shop_template.all = {
+	22,
+	301,
+	302,
+	303,
+	304,
+	305,
+	306,
+	307,
+	308,
+	309,
+	310,
+	311,
+	312,
+	313,
+	314,
+	315,
+	316,
+	317,
+	318,
+	319,
+	320,
+	321,
+	322,
+	323,
+	324,
+	325,
+	326,
+	327,
+	328,
+	329,
+	330,
+	331,
+	332,
+	333,
+	334,
+	335,
+	336,
+	337,
+	338,
+	339,
+	340,
+	341,
+	342,
+	343,
+	344,
+	345,
+	346,
+	347,
+	348,
+	349,
+	350,
+	351,
+	352,
+	353,
+	354,
+	355,
+	356,
+	357,
+	358,
+	359,
+	360,
+	361,
+	362,
+	363,
+	364,
+	365,
+	366,
+	367,
+	368,
+	369,
+	370,
+	371,
+	9903
+}
+pg.newserver_shop_template.get_id_list_by_unlock_time = {
+	[0] = {
+		22,
+		301,
+		302,
+		303,
+		304,
+		305,
+		306,
+		307,
+		308,
+		309,
+		310,
+		311,
+		312,
+		313,
+		314,
+		315,
+		316,
+		317,
+		318,
+		319,
+		320,
+		321,
+		322,
+		323,
+		324,
+		325,
+		326,
+		327,
+		9903
+	},
+	[604800] = {
+		328,
+		329,
+		330,
+		331,
+		332,
+		333,
+		334,
+		335,
+		336,
+		337,
+		338,
+		339,
+		340,
+		341,
+		342,
+		343,
+		344,
+		345,
+		346,
+		347,
+		348,
+		349
+	},
+	[1209600] = {
+		350,
+		351,
+		352,
+		353,
+		354,
+		355,
+		356,
+		357,
+		358,
+		359,
+		360,
+		361,
+		362,
+		363,
+		364,
+		365,
+		366,
+		367,
+		368,
+		369,
+		370,
+		371
+	}
+}
+pg.base = pg.base or {}
+pg.base.newserver_shop_template = {}
+
+(function ()
+	pg.base.newserver_shop_template[22] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_rarity = 4,
@@ -16,8 +178,8 @@ pg.newserver_shop_template = {
 		goods = {
 			42000
 		}
-	},
-	[301] = {
+	}
+	pg.base.newserver_shop_template[301] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_rarity = 4,
@@ -33,8 +195,8 @@ pg.newserver_shop_template = {
 		goods = {
 			305051
 		}
-	},
-	[302] = {
+	}
+	pg.base.newserver_shop_template[302] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_rarity = 4,
@@ -50,8 +212,8 @@ pg.newserver_shop_template = {
 		goods = {
 			59407
 		}
-	},
-	[303] = {
+	}
+	pg.base.newserver_shop_template[303] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_rarity = 4,
@@ -95,8 +257,8 @@ pg.newserver_shop_template = {
 			2620,
 			1440
 		}
-	},
-	[304] = {
+	}
+	pg.base.newserver_shop_template[304] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_rarity = 3,
@@ -127,8 +289,8 @@ pg.newserver_shop_template = {
 			4140,
 			2540
 		}
-	},
-	[305] = {
+	}
+	pg.base.newserver_shop_template[305] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_rarity = 4,
@@ -144,8 +306,8 @@ pg.newserver_shop_template = {
 		goods = {
 			20001
 		}
-	},
-	[306] = {
+	}
+	pg.base.newserver_shop_template[306] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_rarity = 3,
@@ -161,8 +323,8 @@ pg.newserver_shop_template = {
 		goods = {
 			15003
 		}
-	},
-	[307] = {
+	}
+	pg.base.newserver_shop_template[307] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_rarity = 4,
@@ -178,8 +340,8 @@ pg.newserver_shop_template = {
 		goods = {
 			100011
 		}
-	},
-	[308] = {
+	}
+	pg.base.newserver_shop_template[308] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_rarity = 3,
@@ -195,8 +357,8 @@ pg.newserver_shop_template = {
 		goods = {
 			100001
 		}
-	},
-	[309] = {
+	}
+	pg.base.newserver_shop_template[309] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_rarity = 3,
@@ -212,8 +374,8 @@ pg.newserver_shop_template = {
 		goods = {
 			16502
 		}
-	},
-	[310] = {
+	}
+	pg.base.newserver_shop_template[310] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_rarity = 4,
@@ -229,8 +391,8 @@ pg.newserver_shop_template = {
 		goods = {
 			15008
 		}
-	},
-	[311] = {
+	}
+	pg.base.newserver_shop_template[311] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_rarity = 3,
@@ -246,8 +408,8 @@ pg.newserver_shop_template = {
 		goods = {
 			61001
 		}
-	},
-	[312] = {
+	}
+	pg.base.newserver_shop_template[312] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_rarity = 3,
@@ -267,8 +429,8 @@ pg.newserver_shop_template = {
 			17033,
 			17043
 		}
-	},
-	[313] = {
+	}
+	pg.base.newserver_shop_template[313] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_rarity = 2,
@@ -288,8 +450,8 @@ pg.newserver_shop_template = {
 			17032,
 			17042
 		}
-	},
-	[314] = {
+	}
+	pg.base.newserver_shop_template[314] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_rarity = 1,
@@ -309,8 +471,8 @@ pg.newserver_shop_template = {
 			17031,
 			17041
 		}
-	},
-	[315] = {
+	}
+	pg.base.newserver_shop_template[315] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_rarity = 5,
@@ -328,8 +490,8 @@ pg.newserver_shop_template = {
 			16014,
 			16024
 		}
-	},
-	[316] = {
+	}
+	pg.base.newserver_shop_template[316] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_rarity = 4,
@@ -347,8 +509,8 @@ pg.newserver_shop_template = {
 			16013,
 			16023
 		}
-	},
-	[317] = {
+	}
+	pg.base.newserver_shop_template[317] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_rarity = 3,
@@ -366,8 +528,8 @@ pg.newserver_shop_template = {
 			16012,
 			16022
 		}
-	},
-	[318] = {
+	}
+	pg.base.newserver_shop_template[318] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_rarity = 2,
@@ -385,8 +547,8 @@ pg.newserver_shop_template = {
 			16011,
 			16021
 		}
-	},
-	[319] = {
+	}
+	pg.base.newserver_shop_template[319] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_rarity = 4,
@@ -405,8 +567,8 @@ pg.newserver_shop_template = {
 			18023,
 			18033
 		}
-	},
-	[320] = {
+	}
+	pg.base.newserver_shop_template[320] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_rarity = 3,
@@ -425,8 +587,8 @@ pg.newserver_shop_template = {
 			18022,
 			18032
 		}
-	},
-	[321] = {
+	}
+	pg.base.newserver_shop_template[321] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_rarity = 2,
@@ -445,8 +607,8 @@ pg.newserver_shop_template = {
 			18021,
 			18031
 		}
-	},
-	[322] = {
+	}
+	pg.base.newserver_shop_template[322] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_rarity = 4,
@@ -462,8 +624,8 @@ pg.newserver_shop_template = {
 		goods = {
 			42000
 		}
-	},
-	[323] = {
+	}
+	pg.base.newserver_shop_template[323] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_rarity = 4,
@@ -479,8 +641,8 @@ pg.newserver_shop_template = {
 		goods = {
 			42010
 		}
-	},
-	[324] = {
+	}
+	pg.base.newserver_shop_template[324] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_rarity = 1,
@@ -496,8 +658,8 @@ pg.newserver_shop_template = {
 		goods = {
 			1
 		}
-	},
-	[325] = {
+	}
+	pg.base.newserver_shop_template[325] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_rarity = 1,
@@ -513,8 +675,8 @@ pg.newserver_shop_template = {
 		goods = {
 			2
 		}
-	},
-	[326] = {
+	}
+	pg.base.newserver_shop_template[326] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_rarity = 1,
@@ -530,8 +692,8 @@ pg.newserver_shop_template = {
 		goods = {
 			3
 		}
-	},
-	[327] = {
+	}
+	pg.base.newserver_shop_template[327] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_rarity = 2,
@@ -547,8 +709,8 @@ pg.newserver_shop_template = {
 		goods = {
 			59900
 		}
-	},
-	[328] = {
+	}
+	pg.base.newserver_shop_template[328] = {
 		unlock_time = 604800,
 		resource_category = 1,
 		goods_rarity = 4,
@@ -564,8 +726,8 @@ pg.newserver_shop_template = {
 		goods = {
 			20001
 		}
-	},
-	[329] = {
+	}
+	pg.base.newserver_shop_template[329] = {
 		unlock_time = 604800,
 		resource_category = 1,
 		goods_rarity = 4,
@@ -581,8 +743,8 @@ pg.newserver_shop_template = {
 		goods = {
 			100011
 		}
-	},
-	[330] = {
+	}
+	pg.base.newserver_shop_template[330] = {
 		unlock_time = 604800,
 		resource_category = 1,
 		goods_rarity = 3,
@@ -598,8 +760,8 @@ pg.newserver_shop_template = {
 		goods = {
 			100001
 		}
-	},
-	[331] = {
+	}
+	pg.base.newserver_shop_template[331] = {
 		unlock_time = 604800,
 		resource_category = 1,
 		goods_rarity = 3,
@@ -615,8 +777,8 @@ pg.newserver_shop_template = {
 		goods = {
 			16502
 		}
-	},
-	[332] = {
+	}
+	pg.base.newserver_shop_template[332] = {
 		unlock_time = 604800,
 		resource_category = 1,
 		goods_rarity = 4,
@@ -632,8 +794,8 @@ pg.newserver_shop_template = {
 		goods = {
 			15008
 		}
-	},
-	[333] = {
+	}
+	pg.base.newserver_shop_template[333] = {
 		unlock_time = 604800,
 		resource_category = 1,
 		goods_rarity = 3,
@@ -649,8 +811,8 @@ pg.newserver_shop_template = {
 		goods = {
 			61001
 		}
-	},
-	[334] = {
+	}
+	pg.base.newserver_shop_template[334] = {
 		unlock_time = 604800,
 		resource_category = 1,
 		goods_rarity = 3,
@@ -670,8 +832,8 @@ pg.newserver_shop_template = {
 			17033,
 			17043
 		}
-	},
-	[335] = {
+	}
+	pg.base.newserver_shop_template[335] = {
 		unlock_time = 604800,
 		resource_category = 1,
 		goods_rarity = 2,
@@ -691,8 +853,8 @@ pg.newserver_shop_template = {
 			17032,
 			17042
 		}
-	},
-	[336] = {
+	}
+	pg.base.newserver_shop_template[336] = {
 		unlock_time = 604800,
 		resource_category = 1,
 		goods_rarity = 1,
@@ -712,8 +874,8 @@ pg.newserver_shop_template = {
 			17031,
 			17041
 		}
-	},
-	[337] = {
+	}
+	pg.base.newserver_shop_template[337] = {
 		unlock_time = 604800,
 		resource_category = 1,
 		goods_rarity = 5,
@@ -731,8 +893,8 @@ pg.newserver_shop_template = {
 			16014,
 			16024
 		}
-	},
-	[338] = {
+	}
+	pg.base.newserver_shop_template[338] = {
 		unlock_time = 604800,
 		resource_category = 1,
 		goods_rarity = 4,
@@ -750,8 +912,8 @@ pg.newserver_shop_template = {
 			16013,
 			16023
 		}
-	},
-	[339] = {
+	}
+	pg.base.newserver_shop_template[339] = {
 		unlock_time = 604800,
 		resource_category = 1,
 		goods_rarity = 3,
@@ -769,8 +931,8 @@ pg.newserver_shop_template = {
 			16012,
 			16022
 		}
-	},
-	[340] = {
+	}
+	pg.base.newserver_shop_template[340] = {
 		unlock_time = 604800,
 		resource_category = 1,
 		goods_rarity = 2,
@@ -788,8 +950,8 @@ pg.newserver_shop_template = {
 			16011,
 			16021
 		}
-	},
-	[341] = {
+	}
+	pg.base.newserver_shop_template[341] = {
 		unlock_time = 604800,
 		resource_category = 1,
 		goods_rarity = 4,
@@ -808,8 +970,8 @@ pg.newserver_shop_template = {
 			18023,
 			18033
 		}
-	},
-	[342] = {
+	}
+	pg.base.newserver_shop_template[342] = {
 		unlock_time = 604800,
 		resource_category = 1,
 		goods_rarity = 3,
@@ -828,8 +990,8 @@ pg.newserver_shop_template = {
 			18022,
 			18032
 		}
-	},
-	[343] = {
+	}
+	pg.base.newserver_shop_template[343] = {
 		unlock_time = 604800,
 		resource_category = 1,
 		goods_rarity = 2,
@@ -848,8 +1010,8 @@ pg.newserver_shop_template = {
 			18021,
 			18031
 		}
-	},
-	[344] = {
+	}
+	pg.base.newserver_shop_template[344] = {
 		unlock_time = 604800,
 		resource_category = 1,
 		goods_rarity = 4,
@@ -865,8 +1027,8 @@ pg.newserver_shop_template = {
 		goods = {
 			42000
 		}
-	},
-	[345] = {
+	}
+	pg.base.newserver_shop_template[345] = {
 		unlock_time = 604800,
 		resource_category = 1,
 		goods_rarity = 4,
@@ -882,8 +1044,8 @@ pg.newserver_shop_template = {
 		goods = {
 			42010
 		}
-	},
-	[346] = {
+	}
+	pg.base.newserver_shop_template[346] = {
 		unlock_time = 604800,
 		resource_category = 1,
 		goods_rarity = 1,
@@ -899,8 +1061,8 @@ pg.newserver_shop_template = {
 		goods = {
 			1
 		}
-	},
-	[347] = {
+	}
+	pg.base.newserver_shop_template[347] = {
 		unlock_time = 604800,
 		resource_category = 1,
 		goods_rarity = 1,
@@ -916,8 +1078,8 @@ pg.newserver_shop_template = {
 		goods = {
 			2
 		}
-	},
-	[348] = {
+	}
+	pg.base.newserver_shop_template[348] = {
 		unlock_time = 604800,
 		resource_category = 1,
 		goods_rarity = 1,
@@ -933,8 +1095,8 @@ pg.newserver_shop_template = {
 		goods = {
 			3
 		}
-	},
-	[349] = {
+	}
+	pg.base.newserver_shop_template[349] = {
 		unlock_time = 604800,
 		resource_category = 1,
 		goods_rarity = 2,
@@ -950,8 +1112,8 @@ pg.newserver_shop_template = {
 		goods = {
 			59900
 		}
-	},
-	[350] = {
+	}
+	pg.base.newserver_shop_template[350] = {
 		unlock_time = 1209600,
 		resource_category = 1,
 		goods_rarity = 4,
@@ -967,8 +1129,8 @@ pg.newserver_shop_template = {
 		goods = {
 			20001
 		}
-	},
-	[351] = {
+	}
+	pg.base.newserver_shop_template[351] = {
 		unlock_time = 1209600,
 		resource_category = 1,
 		goods_rarity = 4,
@@ -984,8 +1146,8 @@ pg.newserver_shop_template = {
 		goods = {
 			100011
 		}
-	},
-	[352] = {
+	}
+	pg.base.newserver_shop_template[352] = {
 		unlock_time = 1209600,
 		resource_category = 1,
 		goods_rarity = 3,
@@ -1001,8 +1163,8 @@ pg.newserver_shop_template = {
 		goods = {
 			100001
 		}
-	},
-	[353] = {
+	}
+	pg.base.newserver_shop_template[353] = {
 		unlock_time = 1209600,
 		resource_category = 1,
 		goods_rarity = 3,
@@ -1018,8 +1180,8 @@ pg.newserver_shop_template = {
 		goods = {
 			16502
 		}
-	},
-	[354] = {
+	}
+	pg.base.newserver_shop_template[354] = {
 		unlock_time = 1209600,
 		resource_category = 1,
 		goods_rarity = 4,
@@ -1035,8 +1197,8 @@ pg.newserver_shop_template = {
 		goods = {
 			15008
 		}
-	},
-	[355] = {
+	}
+	pg.base.newserver_shop_template[355] = {
 		unlock_time = 1209600,
 		resource_category = 1,
 		goods_rarity = 3,
@@ -1052,8 +1214,8 @@ pg.newserver_shop_template = {
 		goods = {
 			61001
 		}
-	},
-	[356] = {
+	}
+	pg.base.newserver_shop_template[356] = {
 		unlock_time = 1209600,
 		resource_category = 1,
 		goods_rarity = 3,
@@ -1073,8 +1235,8 @@ pg.newserver_shop_template = {
 			17033,
 			17043
 		}
-	},
-	[357] = {
+	}
+	pg.base.newserver_shop_template[357] = {
 		unlock_time = 1209600,
 		resource_category = 1,
 		goods_rarity = 2,
@@ -1094,8 +1256,8 @@ pg.newserver_shop_template = {
 			17032,
 			17042
 		}
-	},
-	[358] = {
+	}
+	pg.base.newserver_shop_template[358] = {
 		unlock_time = 1209600,
 		resource_category = 1,
 		goods_rarity = 1,
@@ -1115,8 +1277,8 @@ pg.newserver_shop_template = {
 			17031,
 			17041
 		}
-	},
-	[359] = {
+	}
+	pg.base.newserver_shop_template[359] = {
 		unlock_time = 1209600,
 		resource_category = 1,
 		goods_rarity = 5,
@@ -1134,8 +1296,8 @@ pg.newserver_shop_template = {
 			16014,
 			16024
 		}
-	},
-	[360] = {
+	}
+	pg.base.newserver_shop_template[360] = {
 		unlock_time = 1209600,
 		resource_category = 1,
 		goods_rarity = 4,
@@ -1153,8 +1315,8 @@ pg.newserver_shop_template = {
 			16013,
 			16023
 		}
-	},
-	[361] = {
+	}
+	pg.base.newserver_shop_template[361] = {
 		unlock_time = 1209600,
 		resource_category = 1,
 		goods_rarity = 3,
@@ -1172,8 +1334,8 @@ pg.newserver_shop_template = {
 			16012,
 			16022
 		}
-	},
-	[362] = {
+	}
+	pg.base.newserver_shop_template[362] = {
 		unlock_time = 1209600,
 		resource_category = 1,
 		goods_rarity = 2,
@@ -1191,8 +1353,8 @@ pg.newserver_shop_template = {
 			16011,
 			16021
 		}
-	},
-	[363] = {
+	}
+	pg.base.newserver_shop_template[363] = {
 		unlock_time = 1209600,
 		resource_category = 1,
 		goods_rarity = 4,
@@ -1211,8 +1373,8 @@ pg.newserver_shop_template = {
 			18023,
 			18033
 		}
-	},
-	[364] = {
+	}
+	pg.base.newserver_shop_template[364] = {
 		unlock_time = 1209600,
 		resource_category = 1,
 		goods_rarity = 3,
@@ -1231,8 +1393,8 @@ pg.newserver_shop_template = {
 			18022,
 			18032
 		}
-	},
-	[365] = {
+	}
+	pg.base.newserver_shop_template[365] = {
 		unlock_time = 1209600,
 		resource_category = 1,
 		goods_rarity = 2,
@@ -1251,8 +1413,8 @@ pg.newserver_shop_template = {
 			18021,
 			18031
 		}
-	},
-	[366] = {
+	}
+	pg.base.newserver_shop_template[366] = {
 		unlock_time = 1209600,
 		resource_category = 1,
 		goods_rarity = 4,
@@ -1268,8 +1430,8 @@ pg.newserver_shop_template = {
 		goods = {
 			42000
 		}
-	},
-	[367] = {
+	}
+	pg.base.newserver_shop_template[367] = {
 		unlock_time = 1209600,
 		resource_category = 1,
 		goods_rarity = 4,
@@ -1285,8 +1447,8 @@ pg.newserver_shop_template = {
 		goods = {
 			42010
 		}
-	},
-	[368] = {
+	}
+	pg.base.newserver_shop_template[368] = {
 		unlock_time = 1209600,
 		resource_category = 1,
 		goods_rarity = 1,
@@ -1302,8 +1464,8 @@ pg.newserver_shop_template = {
 		goods = {
 			1
 		}
-	},
-	[369] = {
+	}
+	pg.base.newserver_shop_template[369] = {
 		unlock_time = 1209600,
 		resource_category = 1,
 		goods_rarity = 1,
@@ -1319,8 +1481,8 @@ pg.newserver_shop_template = {
 		goods = {
 			2
 		}
-	},
-	[370] = {
+	}
+	pg.base.newserver_shop_template[370] = {
 		unlock_time = 1209600,
 		resource_category = 1,
 		goods_rarity = 1,
@@ -1336,8 +1498,8 @@ pg.newserver_shop_template = {
 		goods = {
 			3
 		}
-	},
-	[371] = {
+	}
+	pg.base.newserver_shop_template[371] = {
 		unlock_time = 1209600,
 		resource_category = 1,
 		goods_rarity = 2,
@@ -1353,8 +1515,8 @@ pg.newserver_shop_template = {
 		goods = {
 			59900
 		}
-	},
-	[9903] = {
+	}
+	pg.base.newserver_shop_template[9903] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_rarity = 1,
@@ -1370,161 +1532,5 @@ pg.newserver_shop_template = {
 		goods = {
 			1
 		}
-	},
-	get_id_list_by_unlock_time = {
-		[0] = {
-			22,
-			301,
-			302,
-			303,
-			304,
-			305,
-			306,
-			307,
-			308,
-			309,
-			310,
-			311,
-			312,
-			313,
-			314,
-			315,
-			316,
-			317,
-			318,
-			319,
-			320,
-			321,
-			322,
-			323,
-			324,
-			325,
-			326,
-			327,
-			9903
-		},
-		[604800] = {
-			328,
-			329,
-			330,
-			331,
-			332,
-			333,
-			334,
-			335,
-			336,
-			337,
-			338,
-			339,
-			340,
-			341,
-			342,
-			343,
-			344,
-			345,
-			346,
-			347,
-			348,
-			349
-		},
-		[1209600] = {
-			350,
-			351,
-			352,
-			353,
-			354,
-			355,
-			356,
-			357,
-			358,
-			359,
-			360,
-			361,
-			362,
-			363,
-			364,
-			365,
-			366,
-			367,
-			368,
-			369,
-			370,
-			371
-		}
-	},
-	all = {
-		22,
-		301,
-		302,
-		303,
-		304,
-		305,
-		306,
-		307,
-		308,
-		309,
-		310,
-		311,
-		312,
-		313,
-		314,
-		315,
-		316,
-		317,
-		318,
-		319,
-		320,
-		321,
-		322,
-		323,
-		324,
-		325,
-		326,
-		327,
-		328,
-		329,
-		330,
-		331,
-		332,
-		333,
-		334,
-		335,
-		336,
-		337,
-		338,
-		339,
-		340,
-		341,
-		342,
-		343,
-		344,
-		345,
-		346,
-		347,
-		348,
-		349,
-		350,
-		351,
-		352,
-		353,
-		354,
-		355,
-		356,
-		357,
-		358,
-		359,
-		360,
-		361,
-		362,
-		363,
-		364,
-		365,
-		366,
-		367,
-		368,
-		369,
-		370,
-		371,
-		9903
 	}
-}
+end)()

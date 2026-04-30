@@ -1,596 +1,599 @@
 pg = pg or {}
-pg.expedition_data_by_map = setmetatable({
-	__name = "expedition_data_by_map",
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		201,
-		202,
-		203,
-		204,
-		205,
-		206,
-		207,
-		208,
-		209,
-		210,
-		211,
-		212,
-		213,
-		214,
-		10000,
-		70000,
-		1040000,
-		1040001,
-		1040010,
-		1040011,
-		1050000,
-		1050010,
-		1070100,
-		1070200,
-		1080000,
-		1080010,
-		1100000,
-		1100001,
-		1100010,
-		1100011,
-		1100013,
-		1110001,
-		1110002,
-		1110011,
-		1110012,
-		1110021,
-		1120001,
-		1120002,
-		1120011,
-		1120012,
-		1120021,
-		1130000,
-		1130100,
-		1140001,
-		1140002,
-		1140011,
-		1140012,
-		1140021,
-		1150001,
-		1150002,
-		1150011,
-		1150012,
-		1150021,
-		1170001,
-		1180001,
-		1180002,
-		1180011,
-		1180012,
-		1180021,
-		1190000,
-		1190001,
-		1190010,
-		1190011,
-		1190021,
-		1200100,
-		1210001,
-		1210002,
-		1210011,
-		1210012,
-		1210021,
-		1220001,
-		1220021,
-		1230001,
-		1230002,
-		1230011,
-		1230012,
-		1230020,
-		1230021,
-		1240001,
-		1240002,
-		1240011,
-		1240012,
-		1240020,
-		1240021,
-		1250001,
-		1250002,
-		1250011,
-		1250012,
-		1250025,
-		1250026,
-		1250022,
-		1260001,
-		1260002,
-		1260011,
-		1260012,
-		1260025,
-		1260026,
-		1270001,
-		1280001,
-		1280025,
-		1280026,
-		1290001,
-		1290002,
-		1290025,
-		1290026,
-		1300001,
-		1300002,
-		1300011,
-		1300012,
-		1300025,
-		1300026,
-		1310001,
-		1310002,
-		1310011,
-		1310012,
-		1310025,
-		1310026,
-		1320001,
-		1330001,
-		1330002,
-		1330011,
-		1330012,
-		1330025,
-		1330026,
-		1340001,
-		1340002,
-		1340011,
-		1340012,
-		1340021,
-		1350001,
-		1360001,
-		1360002,
-		1360011,
-		1360012,
-		1360025,
-		1360026,
-		1370001,
-		1380001,
-		1380002,
-		1380011,
-		1380012,
-		1380025,
-		1380026,
-		1390001,
-		1400001,
-		1400002,
-		1400011,
-		1400012,
-		1400020,
-		1400021,
-		1410001,
-		1410002,
-		1410011,
-		1410012,
-		1410020,
-		1410021,
-		1420001,
-		1430001,
-		1430002,
-		1430003,
-		1440001,
-		1450001,
-		1450002,
-		1450003,
-		1460001,
-		1460002,
-		1460011,
-		1460012,
-		1460025,
-		1460026,
-		1470001,
-		1470002,
-		1470011,
-		1470012,
-		1470025,
-		1470026,
-		1480001,
-		1480002,
-		1480011,
-		1480012,
-		1480025,
-		1480026,
-		1490001,
-		1490002,
-		1490011,
-		1490012,
-		1490025,
-		1490026,
-		1500001,
-		1500002,
-		1500011,
-		1500012,
-		1500025,
-		1500026,
-		1520001,
-		1520002,
-		1520011,
-		1520012,
-		1520025,
-		1520026,
-		1530001,
-		1530002,
-		1530011,
-		1530012,
-		1530025,
-		1530026,
-		1540001,
-		1540002,
-		1540003,
-		1550001,
-		1550002,
-		1550011,
-		1550012,
-		1550025,
-		1550026,
-		1560001,
-		1560002,
-		1560011,
-		1560012,
-		1560025,
-		1560026,
-		1570001,
-		1570002,
-		1570011,
-		1570012,
-		1570025,
-		1570026,
-		1580001,
-		1590001,
-		1590002,
-		1590003,
-		1590004,
-		1600001,
-		1600002,
-		1600011,
-		1600012,
-		1600025,
-		1600026,
-		1610001,
-		1610002,
-		1610011,
-		1610012,
-		1610025,
-		1610026,
-		1620001,
-		1620002,
-		1620011,
-		1620012,
-		1620025,
-		1620026,
-		1630001,
-		1630002,
-		1630003,
-		1640001,
-		1640002,
-		1640011,
-		1640012,
-		1640025,
-		1640026,
-		1650001,
-		1650002,
-		1650011,
-		1650012,
-		1650025,
-		1650026,
-		1660001,
-		1660002,
-		1660011,
-		1660012,
-		1660025,
-		1660026,
-		1670001,
-		1670002,
-		1670003,
-		1680001,
-		1680002,
-		1680011,
-		1680012,
-		1680025,
-		1680026,
-		1690001,
-		1690002,
-		1690003,
-		1690004,
-		1700001,
-		1700002,
-		1700011,
-		1700012,
-		1700025,
-		1700026,
-		1710001,
-		1710002,
-		1710011,
-		1710012,
-		1710025,
-		1710026,
-		1720001,
-		1720002,
-		1720011,
-		1720012,
-		1720025,
-		1720026,
-		1730001,
-		1740001,
-		1740002,
-		1740011,
-		1740012,
-		1740025,
-		1740026,
-		1750001,
-		1750002,
-		1750011,
-		1750012,
-		1750025,
-		1750026,
-		1760001,
-		1760002,
-		1760003,
-		1760004,
-		1770001,
-		1770002,
-		1770003,
-		1770004,
-		1780001,
-		1780002,
-		1780011,
-		1780012,
-		1780025,
-		1780026,
-		1790001,
-		1790002,
-		1790011,
-		1790012,
-		1790025,
-		1790026,
-		1800001,
-		1800002,
-		1800003,
-		1800004,
-		1810001,
-		1810002,
-		1810011,
-		1810012,
-		1810025,
-		1810026,
-		1820001,
-		1820002,
-		1820003,
-		1820004,
-		1830001,
-		1830002,
-		1830011,
-		1830012,
-		1830025,
-		1830026,
-		1840001,
-		1840002,
-		1850001,
-		1850002,
-		1850011,
-		1850012,
-		1850025,
-		1850026,
-		1860001,
-		1860002,
-		1860003,
-		1860004,
-		1870001,
-		1870002,
-		1870003,
-		1870004,
-		1880001,
-		1880002,
-		1880011,
-		1880012,
-		1880025,
-		1880026,
-		1890001,
-		1890002,
-		1890011,
-		1890012,
-		1890025,
-		1890026,
-		1910001,
-		1910002,
-		1910003,
-		1920001,
-		1920002,
-		1920011,
-		1920012,
-		1920025,
-		1920026,
-		1940001,
-		1940002,
-		1940003,
-		1940004,
-		1950001,
-		1950002,
-		1950011,
-		1950012,
-		1950025,
-		1950026,
-		1960001,
-		1960002,
-		1960011,
-		1960012,
-		1960025,
-		1960026,
-		1970001,
-		1970002,
-		1970003,
-		1970004,
-		1990001,
-		1990002,
-		1990011,
-		1990012,
-		1990025,
-		1990026,
-		2000001,
-		2000002,
-		2000011,
-		2000012,
-		2000025,
-		2000026,
-		2010001,
-		2010002,
-		2010003,
-		2020001,
-		2020002,
-		2020003,
-		2100000,
-		2100001,
-		2100010,
-		2100011,
-		2100020,
-		2100021,
-		2100030,
-		2100031,
-		2100040,
-		2100041,
-		2100050,
-		2100051,
-		2100060,
-		2100061,
-		2100070,
-		2100071,
-		2100080,
-		2100081,
-		2100090,
-		2100091,
-		2100100,
-		2100101,
-		2100110,
-		2100111,
-		2100120,
-		2100121,
-		2100130,
-		2100131,
-		2100140,
-		2100141,
-		2100150,
-		2100151,
-		2100160,
-		2100161,
-		2100170,
-		2100171,
-		2100180,
-		2100181,
-		2100190,
-		2100191,
-		2100200,
-		2100201,
-		2100210,
-		2100211,
-		2100221,
-		2100222,
-		2100231,
-		2100232,
-		2100241,
-		2100242,
-		2100251,
-		2100252,
-		2100261,
-		2100262,
-		2100271,
-		2100272,
-		2100281,
-		2100282,
-		2100291,
-		2100292,
-		2100301,
-		2100302,
-		2100311,
-		2100312,
-		2100321,
-		2100322,
-		2100331,
-		2100332,
-		2100341,
-		2100342,
-		2100351,
-		2100352,
-		2100361,
-		2100362,
-		2100371,
-		2100372,
-		2100381,
-		2100382,
-		2100391,
-		2100392,
-		2100401,
-		2100402,
-		2100411,
-		2100412,
-		2100421,
-		2100422,
-		2100431,
-		2100432,
-		2100441,
-		2100442,
-		2100451,
-		2100452,
-		2100461,
-		2100462,
-		2100471,
-		2100472,
-		2100481,
-		2100482,
-		2100491,
-		2100492,
-		2100501,
-		2100502,
-		2100511,
-		2100512,
-		2100521,
-		2100522,
-		2100531,
-		2100532,
-		2100541,
-		2100542,
-		2100551,
-		2100552,
-		2100561,
-		2100562,
-		2100571,
-		2100572,
-		2200000,
-		2200010,
-		2200020,
-		2200030,
-		2200040,
-		2200050,
-		2200060,
-		2200070,
-		2200080,
-		2200090,
-		2200100,
-		2200110,
-		2200120,
-		2200130,
-		2200140,
-		2200141,
-		2200150,
-		9920001,
-		9920002,
-		9920011,
-		9920012,
-		9920021
-	}
-}, confHX)
+pg.expedition_data_by_map = rawget(pg, "expedition_data_by_map") or setmetatable({
+	__name = "expedition_data_by_map"
+}, confNEO)
+pg.expedition_data_by_map.__namecode__ = true
+pg.expedition_data_by_map.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	201,
+	202,
+	203,
+	204,
+	205,
+	206,
+	207,
+	208,
+	209,
+	210,
+	211,
+	212,
+	213,
+	214,
+	10000,
+	70000,
+	1040000,
+	1040001,
+	1040010,
+	1040011,
+	1050000,
+	1050010,
+	1070100,
+	1070200,
+	1080000,
+	1080010,
+	1100000,
+	1100001,
+	1100010,
+	1100011,
+	1100013,
+	1110001,
+	1110002,
+	1110011,
+	1110012,
+	1110021,
+	1120001,
+	1120002,
+	1120011,
+	1120012,
+	1120021,
+	1130000,
+	1130100,
+	1140001,
+	1140002,
+	1140011,
+	1140012,
+	1140021,
+	1150001,
+	1150002,
+	1150011,
+	1150012,
+	1150021,
+	1170001,
+	1180001,
+	1180002,
+	1180011,
+	1180012,
+	1180021,
+	1190000,
+	1190001,
+	1190010,
+	1190011,
+	1190021,
+	1200100,
+	1210001,
+	1210002,
+	1210011,
+	1210012,
+	1210021,
+	1220001,
+	1220021,
+	1230001,
+	1230002,
+	1230011,
+	1230012,
+	1230020,
+	1230021,
+	1240001,
+	1240002,
+	1240011,
+	1240012,
+	1240020,
+	1240021,
+	1250001,
+	1250002,
+	1250011,
+	1250012,
+	1250025,
+	1250026,
+	1250022,
+	1260001,
+	1260002,
+	1260011,
+	1260012,
+	1260025,
+	1260026,
+	1270001,
+	1280001,
+	1280025,
+	1280026,
+	1290001,
+	1290002,
+	1290025,
+	1290026,
+	1300001,
+	1300002,
+	1300011,
+	1300012,
+	1300025,
+	1300026,
+	1310001,
+	1310002,
+	1310011,
+	1310012,
+	1310025,
+	1310026,
+	1320001,
+	1330001,
+	1330002,
+	1330011,
+	1330012,
+	1330025,
+	1330026,
+	1340001,
+	1340002,
+	1340011,
+	1340012,
+	1340021,
+	1350001,
+	1360001,
+	1360002,
+	1360011,
+	1360012,
+	1360025,
+	1360026,
+	1370001,
+	1380001,
+	1380002,
+	1380011,
+	1380012,
+	1380025,
+	1380026,
+	1390001,
+	1400001,
+	1400002,
+	1400011,
+	1400012,
+	1400020,
+	1400021,
+	1410001,
+	1410002,
+	1410011,
+	1410012,
+	1410020,
+	1410021,
+	1420001,
+	1430001,
+	1430002,
+	1430003,
+	1440001,
+	1450001,
+	1450002,
+	1450003,
+	1460001,
+	1460002,
+	1460011,
+	1460012,
+	1460025,
+	1460026,
+	1470001,
+	1470002,
+	1470011,
+	1470012,
+	1470025,
+	1470026,
+	1480001,
+	1480002,
+	1480011,
+	1480012,
+	1480025,
+	1480026,
+	1490001,
+	1490002,
+	1490011,
+	1490012,
+	1490025,
+	1490026,
+	1500001,
+	1500002,
+	1500011,
+	1500012,
+	1500025,
+	1500026,
+	1520001,
+	1520002,
+	1520011,
+	1520012,
+	1520025,
+	1520026,
+	1530001,
+	1530002,
+	1530011,
+	1530012,
+	1530025,
+	1530026,
+	1540001,
+	1540002,
+	1540003,
+	1550001,
+	1550002,
+	1550011,
+	1550012,
+	1550025,
+	1550026,
+	1560001,
+	1560002,
+	1560011,
+	1560012,
+	1560025,
+	1560026,
+	1570001,
+	1570002,
+	1570011,
+	1570012,
+	1570025,
+	1570026,
+	1580001,
+	1590001,
+	1590002,
+	1590003,
+	1590004,
+	1600001,
+	1600002,
+	1600011,
+	1600012,
+	1600025,
+	1600026,
+	1610001,
+	1610002,
+	1610011,
+	1610012,
+	1610025,
+	1610026,
+	1620001,
+	1620002,
+	1620011,
+	1620012,
+	1620025,
+	1620026,
+	1630001,
+	1630002,
+	1630003,
+	1640001,
+	1640002,
+	1640011,
+	1640012,
+	1640025,
+	1640026,
+	1650001,
+	1650002,
+	1650011,
+	1650012,
+	1650025,
+	1650026,
+	1660001,
+	1660002,
+	1660011,
+	1660012,
+	1660025,
+	1660026,
+	1670001,
+	1670002,
+	1670003,
+	1680001,
+	1680002,
+	1680011,
+	1680012,
+	1680025,
+	1680026,
+	1690001,
+	1690002,
+	1690003,
+	1690004,
+	1700001,
+	1700002,
+	1700011,
+	1700012,
+	1700025,
+	1700026,
+	1710001,
+	1710002,
+	1710011,
+	1710012,
+	1710025,
+	1710026,
+	1720001,
+	1720002,
+	1720011,
+	1720012,
+	1720025,
+	1720026,
+	1730001,
+	1740001,
+	1740002,
+	1740011,
+	1740012,
+	1740025,
+	1740026,
+	1750001,
+	1750002,
+	1750011,
+	1750012,
+	1750025,
+	1750026,
+	1760001,
+	1760002,
+	1760003,
+	1760004,
+	1770001,
+	1770002,
+	1770003,
+	1770004,
+	1780001,
+	1780002,
+	1780011,
+	1780012,
+	1780025,
+	1780026,
+	1790001,
+	1790002,
+	1790011,
+	1790012,
+	1790025,
+	1790026,
+	1800001,
+	1800002,
+	1800003,
+	1800004,
+	1810001,
+	1810002,
+	1810011,
+	1810012,
+	1810025,
+	1810026,
+	1820001,
+	1820002,
+	1820003,
+	1820004,
+	1830001,
+	1830002,
+	1830011,
+	1830012,
+	1830025,
+	1830026,
+	1840001,
+	1840002,
+	1850001,
+	1850002,
+	1850011,
+	1850012,
+	1850025,
+	1850026,
+	1860001,
+	1860002,
+	1860003,
+	1860004,
+	1870001,
+	1870002,
+	1870003,
+	1870004,
+	1880001,
+	1880002,
+	1880011,
+	1880012,
+	1880025,
+	1880026,
+	1890001,
+	1890002,
+	1890011,
+	1890012,
+	1890025,
+	1890026,
+	1910001,
+	1910002,
+	1910003,
+	1920001,
+	1920002,
+	1920011,
+	1920012,
+	1920025,
+	1920026,
+	1940001,
+	1940002,
+	1940003,
+	1940004,
+	1950001,
+	1950002,
+	1950011,
+	1950012,
+	1950025,
+	1950026,
+	1960001,
+	1960002,
+	1960011,
+	1960012,
+	1960025,
+	1960026,
+	1970001,
+	1970002,
+	1970003,
+	1970004,
+	1990001,
+	1990002,
+	1990011,
+	1990012,
+	1990025,
+	1990026,
+	2000001,
+	2000002,
+	2000011,
+	2000012,
+	2000025,
+	2000026,
+	2010001,
+	2010002,
+	2010003,
+	2020001,
+	2020002,
+	2020003,
+	2100000,
+	2100001,
+	2100010,
+	2100011,
+	2100020,
+	2100021,
+	2100030,
+	2100031,
+	2100040,
+	2100041,
+	2100050,
+	2100051,
+	2100060,
+	2100061,
+	2100070,
+	2100071,
+	2100080,
+	2100081,
+	2100090,
+	2100091,
+	2100100,
+	2100101,
+	2100110,
+	2100111,
+	2100120,
+	2100121,
+	2100130,
+	2100131,
+	2100140,
+	2100141,
+	2100150,
+	2100151,
+	2100160,
+	2100161,
+	2100170,
+	2100171,
+	2100180,
+	2100181,
+	2100190,
+	2100191,
+	2100200,
+	2100201,
+	2100210,
+	2100211,
+	2100221,
+	2100222,
+	2100231,
+	2100232,
+	2100241,
+	2100242,
+	2100251,
+	2100252,
+	2100261,
+	2100262,
+	2100271,
+	2100272,
+	2100281,
+	2100282,
+	2100291,
+	2100292,
+	2100301,
+	2100302,
+	2100311,
+	2100312,
+	2100321,
+	2100322,
+	2100331,
+	2100332,
+	2100341,
+	2100342,
+	2100351,
+	2100352,
+	2100361,
+	2100362,
+	2100371,
+	2100372,
+	2100381,
+	2100382,
+	2100391,
+	2100392,
+	2100401,
+	2100402,
+	2100411,
+	2100412,
+	2100421,
+	2100422,
+	2100431,
+	2100432,
+	2100441,
+	2100442,
+	2100451,
+	2100452,
+	2100461,
+	2100462,
+	2100471,
+	2100472,
+	2100481,
+	2100482,
+	2100491,
+	2100492,
+	2100501,
+	2100502,
+	2100511,
+	2100512,
+	2100521,
+	2100522,
+	2100531,
+	2100532,
+	2100541,
+	2100542,
+	2100551,
+	2100552,
+	2100561,
+	2100562,
+	2100571,
+	2100572,
+	2200000,
+	2200010,
+	2200020,
+	2200030,
+	2200040,
+	2200050,
+	2200060,
+	2200070,
+	2200080,
+	2200090,
+	2200100,
+	2200110,
+	2200120,
+	2200130,
+	2200140,
+	2200141,
+	2200150,
+	9920001,
+	9920002,
+	9920011,
+	9920012,
+	9920021
+}
 pg.base = pg.base or {}
-pg.base.expedition_data_by_map = {
-	{
+pg.base.expedition_data_by_map = {}
+
+(function ()
+	pg.base.expedition_data_by_map[1] = {
 		map = 1,
 		name = "Tora! Tora! Tora!",
 		bgm = "level",
@@ -639,8 +642,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	{
+	}
+	pg.base.expedition_data_by_map[2] = {
 		map = 2,
 		name = "Battle of Coral Sea",
 		bgm = "level",
@@ -689,8 +692,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	{
+	}
+	pg.base.expedition_data_by_map[3] = {
 		map = 3,
 		name = "Midway Showdown",
 		bgm = "level",
@@ -746,8 +749,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.expedition_data_by_map[4] = {
 		map = 4,
 		name = "Solomon's Nightmare Pt. 1",
 		bgm = "level",
@@ -813,8 +816,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.expedition_data_by_map[5] = {
 		map = 5,
 		name = "Solomon's Nightmare Pt. 2",
 		bgm = "level",
@@ -882,8 +885,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.expedition_data_by_map[6] = {
 		map = 6,
 		name = "Solomon's Nightmare Pt. 3",
 		bgm = "level",
@@ -961,8 +964,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.expedition_data_by_map[7] = {
 		map = 7,
 		name = "Night of Chaos",
 		bgm = "level",
@@ -1046,8 +1049,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.expedition_data_by_map[8] = {
 		map = 8,
 		name = "Battle Komandorski",
 		bgm = "level",
@@ -1133,8 +1136,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.expedition_data_by_map[9] = {
 		map = 9,
 		name = "Battle of Kula Gulf",
 		bgm = "level",
@@ -1230,8 +1233,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.expedition_data_by_map[10] = {
 		map = 10,
 		name = "Battle of Kolombangara",
 		bgm = "level",
@@ -1333,8 +1336,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.expedition_data_by_map[11] = {
 		map = 11,
 		name = "Empress Augusta Bay ",
 		bgm = "level",
@@ -1383,8 +1386,8 @@ pg.base.expedition_data_by_map = {
 			}
 		},
 		drop_by_map_display = {}
-	},
-	{
+	}
+	pg.base.expedition_data_by_map[12] = {
 		map = 12,
 		name = "Mariana's Turmoil Pt. 1",
 		bgm = "level",
@@ -1433,8 +1436,8 @@ pg.base.expedition_data_by_map = {
 			}
 		},
 		drop_by_map_display = {}
-	},
-	{
+	}
+	pg.base.expedition_data_by_map[13] = {
 		map = 13,
 		name = "Mariana's Turmoil Pt. 2",
 		bgm = "level",
@@ -1483,8 +1486,8 @@ pg.base.expedition_data_by_map = {
 			}
 		},
 		drop_by_map_display = {}
-	},
-	{
+	}
+	pg.base.expedition_data_by_map[14] = {
 		map = 14,
 		name = "Surigao Night Combat ",
 		bgm = "level",
@@ -1512,8 +1515,8 @@ pg.base.expedition_data_by_map = {
 		bind_map = 214,
 		clouds_pos = {},
 		drop_by_map_display = {}
-	},
-	{
+	}
+	pg.base.expedition_data_by_map[15] = {
 		map = 15,
 		name = "The Battle off Cape Engaño",
 		bgm = "level",
@@ -1541,8 +1544,8 @@ pg.base.expedition_data_by_map = {
 		bind_map = 0,
 		clouds_pos = {},
 		drop_by_map_display = {}
-	},
-	{
+	}
+	pg.base.expedition_data_by_map[16] = {
 		map = 16,
 		name = "Battle of the Sibuyan Sea",
 		bgm = "level",
@@ -1570,8 +1573,8 @@ pg.base.expedition_data_by_map = {
 		bind_map = 0,
 		clouds_pos = {},
 		drop_by_map_display = {}
-	},
-	[201] = {
+	}
+	pg.base.expedition_data_by_map[201] = {
 		map = 201,
 		name = "Tora! Tora! Tora!",
 		bgm = "level",
@@ -1620,8 +1623,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[202] = {
+	}
+	pg.base.expedition_data_by_map[202] = {
 		map = 202,
 		name = "Battle of Coral Sea",
 		bgm = "level",
@@ -1670,8 +1673,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[203] = {
+	}
+	pg.base.expedition_data_by_map[203] = {
 		map = 203,
 		name = "Midway Showdown",
 		bgm = "level",
@@ -1720,8 +1723,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[204] = {
+	}
+	pg.base.expedition_data_by_map[204] = {
 		map = 204,
 		name = "Solomon's Nightmare Pt. 1",
 		bgm = "level",
@@ -1774,8 +1777,8 @@ pg.base.expedition_data_by_map = {
 				-109
 			}
 		}
-	},
-	[205] = {
+	}
+	pg.base.expedition_data_by_map[205] = {
 		map = 205,
 		name = "Solomon's Nightmare Pt. 2",
 		bgm = "level",
@@ -1824,8 +1827,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[206] = {
+	}
+	pg.base.expedition_data_by_map[206] = {
 		map = 206,
 		name = "Solomon's Nightmare Pt. 3",
 		bgm = "level",
@@ -1878,8 +1881,8 @@ pg.base.expedition_data_by_map = {
 				-109
 			}
 		}
-	},
-	[207] = {
+	}
+	pg.base.expedition_data_by_map[207] = {
 		map = 207,
 		name = "Night of Chaos",
 		bgm = "level",
@@ -1932,8 +1935,8 @@ pg.base.expedition_data_by_map = {
 				-109
 			}
 		}
-	},
-	[208] = {
+	}
+	pg.base.expedition_data_by_map[208] = {
 		map = 208,
 		name = "Battle Komandorski",
 		bgm = "level",
@@ -1982,8 +1985,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[209] = {
+	}
+	pg.base.expedition_data_by_map[209] = {
 		map = 209,
 		name = "Battle of Kula Gulf",
 		bgm = "level",
@@ -2036,8 +2039,8 @@ pg.base.expedition_data_by_map = {
 				-109
 			}
 		}
-	},
-	[210] = {
+	}
+	pg.base.expedition_data_by_map[210] = {
 		map = 210,
 		name = "Battle of Kolombangara",
 		bgm = "level",
@@ -2090,8 +2093,8 @@ pg.base.expedition_data_by_map = {
 				-109
 			}
 		}
-	},
-	[211] = {
+	}
+	pg.base.expedition_data_by_map[211] = {
 		map = 211,
 		name = "Empress Augusta Bay ",
 		bgm = "level",
@@ -2140,8 +2143,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[212] = {
+	}
+	pg.base.expedition_data_by_map[212] = {
 		map = 212,
 		name = "Mariana's Turmoil Pt. 1",
 		bgm = "level",
@@ -2190,8 +2193,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[213] = {
+	}
+	pg.base.expedition_data_by_map[213] = {
 		map = 213,
 		name = "Mariana's Turmoil Pt. 2",
 		bgm = "level",
@@ -2240,8 +2243,8 @@ pg.base.expedition_data_by_map = {
 			}
 		},
 		drop_by_map_display = {}
-	},
-	[214] = {
+	}
+	pg.base.expedition_data_by_map[214] = {
 		map = 214,
 		name = "Surigao Night Combat",
 		bgm = "level",
@@ -2269,8 +2272,8 @@ pg.base.expedition_data_by_map = {
 		bind_map = 14,
 		clouds_pos = {},
 		drop_by_map_display = {}
-	},
-	[10000] = {
+	}
+	pg.base.expedition_data_by_map[10000] = {
 		map = 10000,
 		name = "Strive, Wish, and Strategize || || Chapter SP || S.P.",
 		bgm = "level02",
@@ -2319,8 +2322,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[70000] = {
+	}
+	pg.base.expedition_data_by_map[70000] = {
 		map = 70000,
 		name = "Maritime Escort ",
 		bgm = "level",
@@ -2369,8 +2372,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1040000] = {
+	}
+	pg.base.expedition_data_by_map[1040000] = {
 		map = 1040000,
 		name = "Visitors Dyed in Red: Prequel || || S.P. || E.X.",
 		bgm = "level02",
@@ -2419,8 +2422,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1040001] = {
+	}
+	pg.base.expedition_data_by_map[1040001] = {
 		map = 1040001,
 		name = "Visitors Dyed in Red: Sequel || || S.P. || E.X.",
 		bgm = "level02",
@@ -2469,8 +2472,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1040010] = {
+	}
+	pg.base.expedition_data_by_map[1040010] = {
 		map = 1040010,
 		name = "Visitors Dyed in Red: Prequel || || S.P. || E.X.",
 		bgm = "level02",
@@ -2519,8 +2522,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1040011] = {
+	}
+	pg.base.expedition_data_by_map[1040011] = {
 		map = 1040011,
 		name = "Visitors Dyed in Red: Sequel || || S.P. || E.X.",
 		bgm = "level02",
@@ -2569,8 +2572,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1050000] = {
+	}
+	pg.base.expedition_data_by_map[1050000] = {
 		map = 1050000,
 		name = "Operation Juno|| ||CHAPTER SP||S.P. ",
 		bgm = "level02",
@@ -2619,8 +2622,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1050010] = {
+	}
+	pg.base.expedition_data_by_map[1050010] = {
 		map = 1050010,
 		name = "Operation Juno|| ||CHAPTER SP||S.P. ",
 		bgm = "level02",
@@ -2669,8 +2672,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1070100] = {
+	}
+	pg.base.expedition_data_by_map[1070100] = {
 		map = 1070100,
 		name = "The Pursuit of Graf Spee|| | S.P. ||S.P. ",
 		bgm = "level02",
@@ -2719,8 +2722,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1070200] = {
+	}
+	pg.base.expedition_data_by_map[1070200] = {
 		map = 1070200,
 		name = "The Pursuit of Graf Spee|| | S.P. ||S.P. ",
 		bgm = "level02",
@@ -2769,8 +2772,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1080000] = {
+	}
+	pg.base.expedition_data_by_map[1080000] = {
 		map = 1080000,
 		name = "Visitors From Another Dimension|| ||CHAPTER SP||S.P.",
 		bgm = "Level-nep",
@@ -2819,8 +2822,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1080010] = {
+	}
+	pg.base.expedition_data_by_map[1080010] = {
 		map = 1080010,
 		name = "Visitors From Another Dimension|| ||CHAPTER SP||S.P.",
 		bgm = "Level-nep2",
@@ -2869,8 +2872,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1100000] = {
+	}
+	pg.base.expedition_data_by_map[1100000] = {
 		map = 1100000,
 		name = "Visitors Dyed in Red: Prequel || || S.P. || E.X.",
 		bgm = "level02",
@@ -2919,8 +2922,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1100001] = {
+	}
+	pg.base.expedition_data_by_map[1100001] = {
 		map = 1100001,
 		name = "Visitors Dyed in Red: Sequel || || S.P. || E.X.",
 		bgm = "level02",
@@ -2969,8 +2972,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1100010] = {
+	}
+	pg.base.expedition_data_by_map[1100010] = {
 		map = 1100010,
 		name = "Visitors Dyed in Red: Prequel || || S.P. || E.X.",
 		bgm = "level02",
@@ -3019,8 +3022,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1100011] = {
+	}
+	pg.base.expedition_data_by_map[1100011] = {
 		map = 1100011,
 		name = "Visitors Dyed in Red: Sequel || || S.P. || E.X.",
 		bgm = "level02",
@@ -3069,8 +3072,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1100013] = {
+	}
+	pg.base.expedition_data_by_map[1100013] = {
 		map = 1100013,
 		name = "Visitors Dyed in Red EX || || S.P. || E.X.",
 		bgm = "level02",
@@ -3119,8 +3122,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1110001] = {
+	}
+	pg.base.expedition_data_by_map[1110001] = {
 		map = 1110001,
 		name = "Ink-Stained Steel Sakura - Pt. 1|| || S.P. || E.X.",
 		bgm = "Nagato-map",
@@ -3169,8 +3172,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1110002] = {
+	}
+	pg.base.expedition_data_by_map[1110002] = {
 		map = 1110002,
 		name = "Ink-Stained Steel Sakura - Pt. 2|| || S.P. || E.X.",
 		bgm = "Nagato-map",
@@ -3219,8 +3222,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1110011] = {
+	}
+	pg.base.expedition_data_by_map[1110011] = {
 		map = 1110011,
 		name = "Ink-Stained Steel Sakura - Pt. 1|| || S.P. || E.X.",
 		bgm = "Nagato-map",
@@ -3269,8 +3272,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1110012] = {
+	}
+	pg.base.expedition_data_by_map[1110012] = {
 		map = 1110012,
 		name = "Ink-Stained Steel Sakura - Pt. 2|| || S.P. || E.X.",
 		bgm = "Nagato-map",
@@ -3319,8 +3322,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1110021] = {
+	}
+	pg.base.expedition_data_by_map[1110021] = {
 		map = 1110021,
 		name = "Ink-Stained Steel Sakura – EX|| ||CHAPTER EX||E.X.",
 		bgm = "Nagato-map",
@@ -3369,8 +3372,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1120001] = {
+	}
+	pg.base.expedition_data_by_map[1120001] = {
 		map = 1120001,
 		name = "Operation Divergent Chessboard Prequel|| S.P. || E.X.",
 		bgm = "level02",
@@ -3419,8 +3422,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1120002] = {
+	}
+	pg.base.expedition_data_by_map[1120002] = {
 		map = 1120002,
 		name = "Operation Divergent Chessboard Sequel|| S.P. || E.X.",
 		bgm = "level02",
@@ -3448,8 +3451,8 @@ pg.base.expedition_data_by_map = {
 		uifx = "",
 		bind_map = 1120012,
 		clouds_pos = {}
-	},
-	[1120011] = {
+	}
+	pg.base.expedition_data_by_map[1120011] = {
 		map = 1120011,
 		name = "Operation Divergent Chessboard Prequel|| S.P. || E.X.",
 		bgm = "level02",
@@ -3498,8 +3501,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1120012] = {
+	}
+	pg.base.expedition_data_by_map[1120012] = {
 		map = 1120012,
 		name = "Operation Divergent Chessboard Sequel|| S.P. || E.X.",
 		bgm = "level02",
@@ -3527,8 +3530,8 @@ pg.base.expedition_data_by_map = {
 		uifx = "",
 		bind_map = 1120002,
 		clouds_pos = {}
-	},
-	[1120021] = {
+	}
+	pg.base.expedition_data_by_map[1120021] = {
 		map = 1120021,
 		name = "Operation Divergent Chessboard EX|| S.P. || E.X.",
 		bgm = "level02",
@@ -3556,8 +3559,8 @@ pg.base.expedition_data_by_map = {
 		uifx = "",
 		bind_map = 1120012,
 		clouds_pos = {}
-	},
-	[1130000] = {
+	}
+	pg.base.expedition_data_by_map[1130000] = {
 		map = 1130000,
 		name = "Moonlit Overture|| ||CHAPTER SP||S.P. ",
 		bgm = "level02",
@@ -3606,8 +3609,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1130100] = {
+	}
+	pg.base.expedition_data_by_map[1130100] = {
 		map = 1130100,
 		name = "Moonlit Overture|| ||CHAPTER SP||S.P. ",
 		bgm = "level02",
@@ -3656,8 +3659,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1140001] = {
+	}
+	pg.base.expedition_data_by_map[1140001] = {
 		map = 1140001,
 		name = "Iris of Light and Dark - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "level03",
@@ -3706,8 +3709,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1140002] = {
+	}
+	pg.base.expedition_data_by_map[1140002] = {
 		map = 1140002,
 		name = "Iris of Light and Dark - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "Level-french2",
@@ -3735,8 +3738,8 @@ pg.base.expedition_data_by_map = {
 		uifx = "",
 		bind_map = 1140012,
 		clouds_pos = {}
-	},
-	[1140011] = {
+	}
+	pg.base.expedition_data_by_map[1140011] = {
 		map = 1140011,
 		name = "Iris of Light and Dark - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "level03",
@@ -3785,8 +3788,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1140012] = {
+	}
+	pg.base.expedition_data_by_map[1140012] = {
 		map = 1140012,
 		name = "Iris of Light and Dark - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "Level-french2",
@@ -3814,8 +3817,8 @@ pg.base.expedition_data_by_map = {
 		uifx = "",
 		bind_map = 1140002,
 		clouds_pos = {}
-	},
-	[1140021] = {
+	}
+	pg.base.expedition_data_by_map[1140021] = {
 		map = 1140021,
 		name = "Iris of Light and Dark - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "Level-french2",
@@ -3843,8 +3846,8 @@ pg.base.expedition_data_by_map = {
 		uifx = "",
 		bind_map = 1140012,
 		clouds_pos = {}
-	},
-	[1150001] = {
+	}
+	pg.base.expedition_data_by_map[1150001] = {
 		map = 1150001,
 		name = "Fallen Wings - Prologue || ||S.P.||E.X.",
 		bgm = "Story-6",
@@ -3893,8 +3896,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1150002] = {
+	}
+	pg.base.expedition_data_by_map[1150002] = {
 		map = 1150002,
 		name = "Fallen Wings - Epilogue || ||S.P.||E.X.",
 		bgm = "Story-6",
@@ -3943,8 +3946,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1150011] = {
+	}
+	pg.base.expedition_data_by_map[1150011] = {
 		map = 1150011,
 		name = "Fallen Wings - Prologue || ||S.P.||E.X.",
 		bgm = "Story-6",
@@ -3993,8 +3996,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1150012] = {
+	}
+	pg.base.expedition_data_by_map[1150012] = {
 		map = 1150012,
 		name = "Fallen Wings - Epilogue || ||S.P.||E.X.",
 		bgm = "Story-6",
@@ -4043,8 +4046,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1150021] = {
+	}
+	pg.base.expedition_data_by_map[1150021] = {
 		map = 1150021,
 		name = "Fallen Wings -EX || ||CHAPTER EX||S.P.",
 		bgm = "Story-6",
@@ -4072,8 +4075,8 @@ pg.base.expedition_data_by_map = {
 		uifx = "",
 		bind_map = 1150012,
 		clouds_pos = {}
-	},
-	[1170001] = {
+	}
+	pg.base.expedition_data_by_map[1170001] = {
 		map = 1170001,
 		name = "The Smoldering South Sea|| ||CHAPTER SP||S.P. ",
 		bgm = "level",
@@ -4122,8 +4125,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1180001] = {
+	}
+	pg.base.expedition_data_by_map[1180001] = {
 		map = 1180001,
 		name = "Crimson Echoes - Part 1 || ||CHAPTER EX||S.P.",
 		bgm = "Nagato-map",
@@ -4172,8 +4175,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1180002] = {
+	}
+	pg.base.expedition_data_by_map[1180002] = {
 		map = 1180002,
 		name = "Crimson Echoes - Part 2 || ||CHAPTER EX||S.P.",
 		bgm = "Story-6",
@@ -4222,8 +4225,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1180011] = {
+	}
+	pg.base.expedition_data_by_map[1180011] = {
 		map = 1180011,
 		name = "Crimson Echoes - Part 1 || ||CHAPTER EX||S.P.",
 		bgm = "Nagato-map",
@@ -4272,8 +4275,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1180012] = {
+	}
+	pg.base.expedition_data_by_map[1180012] = {
 		map = 1180012,
 		name = "Crimson Echoes - Part 2 || ||CHAPTER EX||S.P.",
 		bgm = "Story-6",
@@ -4322,8 +4325,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1180021] = {
+	}
+	pg.base.expedition_data_by_map[1180021] = {
 		map = 1180021,
 		name = "Crimson Echoes - EX|| ||CHAPTER EX||E.X.",
 		bgm = "Story-6",
@@ -4372,8 +4375,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1190000] = {
+	}
+	pg.base.expedition_data_by_map[1190000] = {
 		map = 1190000,
 		name = "Winter's Crown - Part 1|| ||EX CHAPTER||E.X.",
 		bgm = "Story-6",
@@ -4422,8 +4425,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1190001] = {
+	}
+	pg.base.expedition_data_by_map[1190001] = {
 		map = 1190001,
 		name = "Winter's Crown - Part 2|| ||EX CHAPTER||E.X.",
 		bgm = "level03",
@@ -4472,8 +4475,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1190010] = {
+	}
+	pg.base.expedition_data_by_map[1190010] = {
 		map = 1190010,
 		name = "Winter's Crown - Part 1|| ||EX CHAPTER||E.X.",
 		bgm = "Story-6",
@@ -4522,8 +4525,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1190011] = {
+	}
+	pg.base.expedition_data_by_map[1190011] = {
 		map = 1190011,
 		name = "Winter's Crown - Part 2|| ||EX CHAPTER||E.X.",
 		bgm = "level03",
@@ -4572,8 +4575,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1190021] = {
+	}
+	pg.base.expedition_data_by_map[1190021] = {
 		map = 1190021,
 		name = "Winter's Crown - EX|| ||EX CHAPTER||E.X. ",
 		bgm = "level03",
@@ -4622,8 +4625,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1200100] = {
+	}
+	pg.base.expedition_data_by_map[1200100] = {
 		map = 1200100,
 		name = "Stars of the Shimmering Fjord|| ||Chapter SP||S.P. ",
 		bgm = "level02",
@@ -4651,8 +4654,8 @@ pg.base.expedition_data_by_map = {
 		uifx = "",
 		bind_map = 0,
 		clouds_pos = {}
-	},
-	[1210001] = {
+	}
+	pg.base.expedition_data_by_map[1210001] = {
 		map = 1210001,
 		name = "Ink-Stained Steel Sakura - Pt. 1|| || S.P. || E.X.",
 		bgm = "Nagato-map",
@@ -4701,8 +4704,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1210002] = {
+	}
+	pg.base.expedition_data_by_map[1210002] = {
 		map = 1210002,
 		name = "Ink-Stained Steel Sakura - Pt. 2|| || S.P. || E.X.",
 		bgm = "Nagato-map",
@@ -4751,8 +4754,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1210011] = {
+	}
+	pg.base.expedition_data_by_map[1210011] = {
 		map = 1210011,
 		name = "Ink-Stained Steel Sakura - Pt. 1|| || S.P. || E.X.",
 		bgm = "Nagato-map",
@@ -4801,8 +4804,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1210012] = {
+	}
+	pg.base.expedition_data_by_map[1210012] = {
 		map = 1210012,
 		name = "Ink-Stained Steel Sakura - Pt. 2|| || S.P. || E.X.",
 		bgm = "Nagato-map",
@@ -4851,8 +4854,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1210021] = {
+	}
+	pg.base.expedition_data_by_map[1210021] = {
 		map = 1210021,
 		name = "Ink-Stained Steel Sakura – EX|| ||CHAPTER EX||E.X.",
 		bgm = "Nagato-map",
@@ -4901,8 +4904,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1220001] = {
+	}
+	pg.base.expedition_data_by_map[1220001] = {
 		map = 1220001,
 		name = "Virtual Link Synchronicity|| ||CHAPTER EX||E.X.",
 		bgm = "ai-fb-inst",
@@ -4951,8 +4954,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1220021] = {
+	}
+	pg.base.expedition_data_by_map[1220021] = {
 		map = 1220021,
 		name = "Virtual Link Synchronicity·EX|| ||CHAPTER EX||E.X.",
 		bgm = "ai-fb-inst",
@@ -5001,8 +5004,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1230001] = {
+	}
+	pg.base.expedition_data_by_map[1230001] = {
 		map = 1230001,
 		name = "Scherzo of Iron and Blood - Part 1|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
@@ -5051,8 +5054,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1230002] = {
+	}
+	pg.base.expedition_data_by_map[1230002] = {
 		map = 1230002,
 		name = "Scherzo of Iron and Blood - Part 2| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
@@ -5101,8 +5104,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1230011] = {
+	}
+	pg.base.expedition_data_by_map[1230011] = {
 		map = 1230011,
 		name = "Scherzo of Iron and Blood - Part 1|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
@@ -5151,8 +5154,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1230012] = {
+	}
+	pg.base.expedition_data_by_map[1230012] = {
 		map = 1230012,
 		name = "Scherzo of Iron and Blood - Part 2| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
@@ -5201,8 +5204,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1230020] = {
+	}
+	pg.base.expedition_data_by_map[1230020] = {
 		map = 1230020,
 		name = "Scherzo of Iron and Blood – EX|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
@@ -5251,8 +5254,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1230021] = {
+	}
+	pg.base.expedition_data_by_map[1230021] = {
 		map = 1230021,
 		name = "Scherzo of Iron and Blood – EX|| ||CHAPTER EX||E.X.",
 		bgm = "Story-6",
@@ -5301,8 +5304,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1240001] = {
+	}
+	pg.base.expedition_data_by_map[1240001] = {
 		map = 1240001,
 		name = "Iris of Light and Dark - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "level03",
@@ -5351,8 +5354,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1240002] = {
+	}
+	pg.base.expedition_data_by_map[1240002] = {
 		map = 1240002,
 		name = "Iris of Light and Dark - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "Level-french2",
@@ -5380,8 +5383,8 @@ pg.base.expedition_data_by_map = {
 		uifx = "",
 		bind_map = 1240012,
 		clouds_pos = {}
-	},
-	[1240011] = {
+	}
+	pg.base.expedition_data_by_map[1240011] = {
 		map = 1240011,
 		name = "Iris of Light and Dark - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "level03",
@@ -5430,8 +5433,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1240012] = {
+	}
+	pg.base.expedition_data_by_map[1240012] = {
 		map = 1240012,
 		name = "Iris of Light and Dark - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "Level-french2",
@@ -5459,8 +5462,8 @@ pg.base.expedition_data_by_map = {
 		uifx = "",
 		bind_map = 1240002,
 		clouds_pos = {}
-	},
-	[1240020] = {
+	}
+	pg.base.expedition_data_by_map[1240020] = {
 		map = 1240020,
 		name = "Iris of Light and Dark – SP|| ||CHAPTER EX||E.X.",
 		bgm = "Level-french2",
@@ -5509,8 +5512,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1240021] = {
+	}
+	pg.base.expedition_data_by_map[1240021] = {
 		map = 1240021,
 		name = "Iris of Light and Dark - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "Level-french2",
@@ -5538,8 +5541,10 @@ pg.base.expedition_data_by_map = {
 		uifx = "",
 		bind_map = 1240012,
 		clouds_pos = {}
-	},
-	[1250001] = {
+	}
+end)()
+(function ()
+	pg.base.expedition_data_by_map[1250001] = {
 		map = 1250001,
 		name = "Ashen Simulacrum - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
@@ -5588,8 +5593,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1250002] = {
+	}
+	pg.base.expedition_data_by_map[1250002] = {
 		map = 1250002,
 		name = "Ashen Simulacrum - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
@@ -5638,8 +5643,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1250011] = {
+	}
+	pg.base.expedition_data_by_map[1250011] = {
 		map = 1250011,
 		name = "Ashen Simulacrum - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
@@ -5688,8 +5693,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1250012] = {
+	}
+	pg.base.expedition_data_by_map[1250012] = {
 		map = 1250012,
 		name = "Ashen Simulacrum - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
@@ -5738,8 +5743,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1250025] = {
+	}
+	pg.base.expedition_data_by_map[1250025] = {
 		map = 1250025,
 		name = "Ashen Simulacrum – SP|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
@@ -5788,8 +5793,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1250026] = {
+	}
+	pg.base.expedition_data_by_map[1250026] = {
 		map = 1250026,
 		name = "Ashen Simulacrum - EX|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
@@ -5838,8 +5843,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1250022] = {
+	}
+	pg.base.expedition_data_by_map[1250022] = {
 		map = 1250022,
 		name = "Approaching Storm ",
 		bgm = "level02",
@@ -5867,8 +5872,8 @@ pg.base.expedition_data_by_map = {
 		uifx = "",
 		bind_map = 0,
 		clouds_pos = {}
-	},
-	[1260001] = {
+	}
+	pg.base.expedition_data_by_map[1260001] = {
 		map = 1260001,
 		name = "Empyreal Tragicomedy - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "Battle-italy",
@@ -5917,8 +5922,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1260002] = {
+	}
+	pg.base.expedition_data_by_map[1260002] = {
 		map = 1260002,
 		name = "Empyreal Tragicomedy - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "Battle-italy",
@@ -5967,8 +5972,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1260011] = {
+	}
+	pg.base.expedition_data_by_map[1260011] = {
 		map = 1260011,
 		name = "Empyreal Tragicomedy - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "Battle-italy",
@@ -6017,8 +6022,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1260012] = {
+	}
+	pg.base.expedition_data_by_map[1260012] = {
 		map = 1260012,
 		name = "Empyreal Tragicomedy - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "Battle-italy",
@@ -6067,8 +6072,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1260025] = {
+	}
+	pg.base.expedition_data_by_map[1260025] = {
 		map = 1260025,
 		name = "Empyreal Tragicomedy - SP|| ||CHAPTER EX||E.X.",
 		bgm = "Battle-italy",
@@ -6117,8 +6122,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1260026] = {
+	}
+	pg.base.expedition_data_by_map[1260026] = {
 		map = 1260026,
 		name = "Empyreal Tragicomedy - EX|| ||CHAPTER EX||E.X.",
 		bgm = "Battle-italy",
@@ -6167,8 +6172,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1270001] = {
+	}
+	pg.base.expedition_data_by_map[1270001] = {
 		map = 1270001,
 		name = "The Enigma and the Shark|| ||CHAPTER SP||S.P. ",
 		bgm = "level02",
@@ -6217,8 +6222,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1280001] = {
+	}
+	pg.base.expedition_data_by_map[1280001] = {
 		map = 1280001,
 		name = "Passionate Polaris|| ||CHAPTER EX||E.X.",
 		bgm = "azumaster-ins",
@@ -6267,8 +6272,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1280025] = {
+	}
+	pg.base.expedition_data_by_map[1280025] = {
 		map = 1280025,
 		name = "Passionate Polaris SP|| ||CHAPTER EX||E.X.",
 		bgm = "azumaster-ins",
@@ -6317,8 +6322,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1280026] = {
+	}
+	pg.base.expedition_data_by_map[1280026] = {
 		map = 1280026,
 		name = "Passionate Polaris EX|| ||CHAPTER EX||E.X.",
 		bgm = "azumaster-ins",
@@ -6367,8 +6372,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1290001] = {
+	}
+	pg.base.expedition_data_by_map[1290001] = {
 		map = 1290001,
 		name = "Looking Glass of Fact and Fiction - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "holo-tokiwa",
@@ -6417,8 +6422,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1290002] = {
+	}
+	pg.base.expedition_data_by_map[1290002] = {
 		map = 1290002,
 		name = "Looking Glass of Fact and Fiction - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "holo-tokiwa",
@@ -6467,8 +6472,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1290025] = {
+	}
+	pg.base.expedition_data_by_map[1290025] = {
 		map = 1290025,
 		name = "Looking Glass of Fact and Fiction - SP|| ||CHAPTER EX||E.X.",
 		bgm = "holo-inochi-inst",
@@ -6517,8 +6522,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1290026] = {
+	}
+	pg.base.expedition_data_by_map[1290026] = {
 		map = 1290026,
 		name = "Looking Glass of Fact and Fiction - EX|| ||CHAPTER EX||E.X.",
 		bgm = "holo-sora",
@@ -6567,8 +6572,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1300001] = {
+	}
+	pg.base.expedition_data_by_map[1300001] = {
 		map = 1300001,
 		name = "Swirling Cherry Blossoms - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "xinnong-1",
@@ -6617,8 +6622,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1300002] = {
+	}
+	pg.base.expedition_data_by_map[1300002] = {
 		map = 1300002,
 		name = "Swirling Cherry Blossoms - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
@@ -6667,8 +6672,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1300011] = {
+	}
+	pg.base.expedition_data_by_map[1300011] = {
 		map = 1300011,
 		name = "Swirling Cherry Blossoms - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "xinnong-1",
@@ -6717,8 +6722,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1300012] = {
+	}
+	pg.base.expedition_data_by_map[1300012] = {
 		map = 1300012,
 		name = "Swirling Cherry Blossoms - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
@@ -6767,8 +6772,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1300025] = {
+	}
+	pg.base.expedition_data_by_map[1300025] = {
 		map = 1300025,
 		name = "Swirling Cherry Blossoms - SP|| ||CHAPTER EX||E.X.",
 		bgm = "xinnong-1",
@@ -6817,8 +6822,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1300026] = {
+	}
+	pg.base.expedition_data_by_map[1300026] = {
 		map = 1300026,
 		name = "Swirling Cherry Blossoms - EX|| ||CHAPTER EX||E.X.",
 		bgm = "xinnong-2",
@@ -6867,8 +6872,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1310001] = {
+	}
+	pg.base.expedition_data_by_map[1310001] = {
 		map = 1310001,
 		name = "Northern Overture - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "bgm-cccp3",
@@ -6917,8 +6922,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1310002] = {
+	}
+	pg.base.expedition_data_by_map[1310002] = {
 		map = 1310002,
 		name = "Northern Overture - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "xinnong-3",
@@ -6967,8 +6972,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1310011] = {
+	}
+	pg.base.expedition_data_by_map[1310011] = {
 		map = 1310011,
 		name = "Northern Overture - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "bgm-cccp3",
@@ -7017,8 +7022,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1310012] = {
+	}
+	pg.base.expedition_data_by_map[1310012] = {
 		map = 1310012,
 		name = "Northern Overture - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "xinnong-3",
@@ -7067,8 +7072,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1310025] = {
+	}
+	pg.base.expedition_data_by_map[1310025] = {
 		map = 1310025,
 		name = "Northern Overture - SP|| ||CHAPTER EX||E.X.",
 		bgm = "bgm-cccp",
@@ -7117,8 +7122,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1310026] = {
+	}
+	pg.base.expedition_data_by_map[1310026] = {
 		map = 1310026,
 		name = "Northern Overture - EX|| ||CHAPTER EX||E.X.",
 		bgm = "bgm-cccp",
@@ -7167,8 +7172,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1320001] = {
+	}
+	pg.base.expedition_data_by_map[1320001] = {
 		map = 1320001,
 		name = "The Smoldering South Sea|| ||CHAPTER SP||S.P. ",
 		bgm = "level",
@@ -7217,8 +7222,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1330001] = {
+	}
+	pg.base.expedition_data_by_map[1330001] = {
 		map = 1330001,
 		name = "Microlayer Medley - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "hunhe-story",
@@ -7267,8 +7272,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1330002] = {
+	}
+	pg.base.expedition_data_by_map[1330002] = {
 		map = 1330002,
 		name = "Microlayer Medley - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "hunhe-level",
@@ -7317,8 +7322,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1330011] = {
+	}
+	pg.base.expedition_data_by_map[1330011] = {
 		map = 1330011,
 		name = "Microlayer Medley - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "hunhe-story",
@@ -7367,8 +7372,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1330012] = {
+	}
+	pg.base.expedition_data_by_map[1330012] = {
 		map = 1330012,
 		name = "Microlayer Medley - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "hunhe-level",
@@ -7417,8 +7422,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1330025] = {
+	}
+	pg.base.expedition_data_by_map[1330025] = {
 		map = 1330025,
 		name = "Microlayer Medley - SP|| ||CHAPTER EX||E.X.",
 		bgm = "xinnong-4",
@@ -7467,8 +7472,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1330026] = {
+	}
+	pg.base.expedition_data_by_map[1330026] = {
 		map = 1330026,
 		name = "Microlayer Medley - EX|| ||CHAPTER EX||E.X.",
 		bgm = "xinnong-4",
@@ -7517,8 +7522,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1340001] = {
+	}
+	pg.base.expedition_data_by_map[1340001] = {
 		map = 1340001,
 		name = "Crimson Echoes - Part 1 || ||CHAPTER EX||S.P.",
 		bgm = "Nagato-map",
@@ -7567,8 +7572,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1340002] = {
+	}
+	pg.base.expedition_data_by_map[1340002] = {
 		map = 1340002,
 		name = "Crimson Echoes - Part 2 || ||CHAPTER EX||S.P.",
 		bgm = "Story-6",
@@ -7617,8 +7622,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1340011] = {
+	}
+	pg.base.expedition_data_by_map[1340011] = {
 		map = 1340011,
 		name = "Crimson Echoes - Part 1 || ||CHAPTER EX||S.P.",
 		bgm = "Nagato-map",
@@ -7667,8 +7672,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1340012] = {
+	}
+	pg.base.expedition_data_by_map[1340012] = {
 		map = 1340012,
 		name = "Crimson Echoes - Part 2 || ||CHAPTER EX||S.P.",
 		bgm = "Story-6",
@@ -7717,8 +7722,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1340021] = {
+	}
+	pg.base.expedition_data_by_map[1340021] = {
 		map = 1340021,
 		name = "Crimson Echoes - EX|| ||CHAPTER EX||E.X.",
 		bgm = "Story-6",
@@ -7767,8 +7772,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1350001] = {
+	}
+	pg.base.expedition_data_by_map[1350001] = {
 		map = 1350001,
 		name = "The Way Home in the Dark|| ||CHAPTER SP||S.P. ",
 		bgm = "story-french1",
@@ -7817,8 +7822,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1360001] = {
+	}
+	pg.base.expedition_data_by_map[1360001] = {
 		map = 1360001,
 		name = "Skybound Oratorio - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "level03",
@@ -7867,8 +7872,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1360002] = {
+	}
+	pg.base.expedition_data_by_map[1360002] = {
 		map = 1360002,
 		name = "Skybound Oratorio - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-3",
@@ -7917,8 +7922,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1360011] = {
+	}
+	pg.base.expedition_data_by_map[1360011] = {
 		map = 1360011,
 		name = "Skybound Oratorio - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "level03",
@@ -7967,8 +7972,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1360012] = {
+	}
+	pg.base.expedition_data_by_map[1360012] = {
 		map = 1360012,
 		name = "Skybound Oratorio - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-3",
@@ -8017,8 +8022,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1360025] = {
+	}
+	pg.base.expedition_data_by_map[1360025] = {
 		map = 1360025,
 		name = "Skybound Oratorio - SP|| ||CHAPTER EX||E.X.",
 		bgm = "level-french2",
@@ -8067,8 +8072,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1360026] = {
+	}
+	pg.base.expedition_data_by_map[1360026] = {
 		map = 1360026,
 		name = "Skybound Oratorio - EX|| ||CHAPTER EX||E.X.",
 		bgm = "level-french2",
@@ -8117,8 +8122,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1370001] = {
+	}
+	pg.base.expedition_data_by_map[1370001] = {
 		map = 1370001,
 		name = "Counterattack Within the Fjord|| ||CHAPTER SP||S.P. ",
 		bgm = "level02",
@@ -8167,8 +8172,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1380001] = {
+	}
+	pg.base.expedition_data_by_map[1380001] = {
 		map = 1380001,
 		name = "Aurora Noctis - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "bgm-cccp2",
@@ -8217,8 +8222,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1380002] = {
+	}
+	pg.base.expedition_data_by_map[1380002] = {
 		map = 1380002,
 		name = "Aurora Noctis - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "xinnong-4",
@@ -8267,8 +8272,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1380011] = {
+	}
+	pg.base.expedition_data_by_map[1380011] = {
 		map = 1380011,
 		name = "Aurora Noctis - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "bgm-cccp2",
@@ -8317,8 +8322,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1380012] = {
+	}
+	pg.base.expedition_data_by_map[1380012] = {
 		map = 1380012,
 		name = "Aurora Noctis - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "xinnong-4",
@@ -8367,8 +8372,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1380025] = {
+	}
+	pg.base.expedition_data_by_map[1380025] = {
 		map = 1380025,
 		name = "Aurora Noctis - SP|| ||CHAPTER EX||E.X.",
 		bgm = "bgm-cccp2",
@@ -8417,8 +8422,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1380026] = {
+	}
+	pg.base.expedition_data_by_map[1380026] = {
 		map = 1380026,
 		name = "Aurora Noctis - EX|| ||CHAPTER EX||E.X.",
 		bgm = "bgm-cccp2",
@@ -8467,8 +8472,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1390001] = {
+	}
+	pg.base.expedition_data_by_map[1390001] = {
 		map = 1390001,
 		name = "The Enigma and the Shark|| ||CHAPTER SP||S.P. ",
 		bgm = "level02",
@@ -8517,8 +8522,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1400001] = {
+	}
+	pg.base.expedition_data_by_map[1400001] = {
 		map = 1400001,
 		name = "Scherzo of Iron and Blood - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
@@ -8567,8 +8572,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1400002] = {
+	}
+	pg.base.expedition_data_by_map[1400002] = {
 		map = 1400002,
 		name = "Scherzo of Iron and Blood - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
@@ -8617,8 +8622,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1400011] = {
+	}
+	pg.base.expedition_data_by_map[1400011] = {
 		map = 1400011,
 		name = "Scherzo of Iron and Blood - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
@@ -8667,8 +8672,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1400012] = {
+	}
+	pg.base.expedition_data_by_map[1400012] = {
 		map = 1400012,
 		name = "Scherzo of Iron and Blood - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
@@ -8717,8 +8722,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1400020] = {
+	}
+	pg.base.expedition_data_by_map[1400020] = {
 		map = 1400020,
 		name = "Scherzo of Iron and Blood - Interlude|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
@@ -8767,8 +8772,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1400021] = {
+	}
+	pg.base.expedition_data_by_map[1400021] = {
 		map = 1400021,
 		name = "Scherzo of Iron and Blood - EX|| ||CHAPTER EX||E.X.",
 		bgm = "Story-6",
@@ -8817,8 +8822,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1410001] = {
+	}
+	pg.base.expedition_data_by_map[1410001] = {
 		map = 1410001,
 		name = "Dreamwaker's Butterfly - Reality|| ||CHAPTER EX||E.X.",
 		bgm = "xinnong-1",
@@ -8867,8 +8872,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1410002] = {
+	}
+	pg.base.expedition_data_by_map[1410002] = {
 		map = 1410002,
 		name = "Dreamwaker's Butterfly - Dreamworld|| ||CHAPTER EX||E.X.",
 		bgm = "main-newyear",
@@ -8917,8 +8922,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1410011] = {
+	}
+	pg.base.expedition_data_by_map[1410011] = {
 		map = 1410011,
 		name = "Dreamwaker's Butterfly - Reality|| ||CHAPTER EX||E.X.",
 		bgm = "xinnong-1",
@@ -8967,8 +8972,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1410012] = {
+	}
+	pg.base.expedition_data_by_map[1410012] = {
 		map = 1410012,
 		name = "Dreamwaker's Butterfly - Dreamworld|| ||CHAPTER EX||E.X.",
 		bgm = "main-newyear",
@@ -9017,8 +9022,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1410020] = {
+	}
+	pg.base.expedition_data_by_map[1410020] = {
 		map = 1410020,
 		name = "Dreamwaker's Butterfly SP|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-3",
@@ -9067,8 +9072,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1410021] = {
+	}
+	pg.base.expedition_data_by_map[1410021] = {
 		map = 1410021,
 		name = "Dreamwaker's Butterfly EX|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-3",
@@ -9117,8 +9122,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1420001] = {
+	}
+	pg.base.expedition_data_by_map[1420001] = {
 		map = 1420001,
 		name = "Sundered Blue|| ||CHAPTER SP||S.P. ",
 		bgm = "level",
@@ -9167,8 +9172,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1430001] = {
+	}
+	pg.base.expedition_data_by_map[1430001] = {
 		map = 1430001,
 		name = "Universe in Unison|| ||CHAPTER EX||E.X.",
 		bgm = "idol-WISHNESS-inst",
@@ -9217,8 +9222,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1430002] = {
+	}
+	pg.base.expedition_data_by_map[1430002] = {
 		map = 1430002,
 		name = "Universe in Unison - SP|| ||CHAPTER EX||E.X.",
 		bgm = "idol-WISHNESS-inst",
@@ -9267,8 +9272,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1430003] = {
+	}
+	pg.base.expedition_data_by_map[1430003] = {
 		map = 1430003,
 		name = "Universe in Unison - EX|| ||CHAPTER EX||E.X.",
 		bgm = "idol-WISHNESS-inst",
@@ -9317,8 +9322,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1440001] = {
+	}
+	pg.base.expedition_data_by_map[1440001] = {
 		map = 1440001,
 		name = "Stars of the Shimmering Fjord|| ||Chapter SP||S.P. ",
 		bgm = "level02",
@@ -9346,8 +9351,8 @@ pg.base.expedition_data_by_map = {
 		uifx = "",
 		bind_map = 0,
 		clouds_pos = {}
-	},
-	[1450001] = {
+	}
+	pg.base.expedition_data_by_map[1450001] = {
 		map = 1450001,
 		name = "Vacation Lane Rerun|| ||CHAPTER EX||E.X.",
 		bgm = "doa_guanqia",
@@ -9396,8 +9401,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1450002] = {
+	}
+	pg.base.expedition_data_by_map[1450002] = {
 		map = 1450002,
 		name = "Vacation Lane Rerun - SP|| ||CHAPTER EX||E.X.",
 		bgm = "doa_guanqia",
@@ -9446,8 +9451,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1450003] = {
+	}
+	pg.base.expedition_data_by_map[1450003] = {
 		map = 1450003,
 		name = "Vacation Lane Rerun - EX|| ||CHAPTER EX||E.X.",
 		bgm = "doa_guanqia",
@@ -9496,8 +9501,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1460001] = {
+	}
+	pg.base.expedition_data_by_map[1460001] = {
 		map = 1460001,
 		name = "Inverted Orthant - Part 1|| ||CHAPTER EX||E.X.",
 		bgm = "blueocean-image",
@@ -9546,8 +9551,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1460002] = {
+	}
+	pg.base.expedition_data_by_map[1460002] = {
 		map = 1460002,
 		name = "Inverted Orthant - Part 2|| ||CHAPTER EX||E.X.",
 		bgm = "battle-executor-type1",
@@ -9596,8 +9601,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1460011] = {
+	}
+	pg.base.expedition_data_by_map[1460011] = {
 		map = 1460011,
 		name = "Inverted Orthant - Part 1|| ||CHAPTER EX||E.X.",
 		bgm = "blueocean-image",
@@ -9646,8 +9651,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1460012] = {
+	}
+	pg.base.expedition_data_by_map[1460012] = {
 		map = 1460012,
 		name = "Inverted Orthant - Part 2|| ||CHAPTER EX||E.X.",
 		bgm = "battle-executor-type1",
@@ -9696,8 +9701,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1460025] = {
+	}
+	pg.base.expedition_data_by_map[1460025] = {
 		map = 1460025,
 		name = "Inverted Orthant - SP|| ||CHAPTER EX||E.X.",
 		bgm = "xinnong-3",
@@ -9746,8 +9751,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1460026] = {
+	}
+	pg.base.expedition_data_by_map[1460026] = {
 		map = 1460026,
 		name = "Inverted Orthant - EX|| ||CHAPTER EX||E.X.",
 		bgm = "xinnong-3",
@@ -9796,8 +9801,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1470001] = {
+	}
+	pg.base.expedition_data_by_map[1470001] = {
 		map = 1470001,
 		name = "Empyreal Tragicomedy - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "Battle-italy",
@@ -9846,8 +9851,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1470002] = {
+	}
+	pg.base.expedition_data_by_map[1470002] = {
 		map = 1470002,
 		name = "Empyreal Tragicomedy - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "Battle-italy",
@@ -9896,8 +9901,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1470011] = {
+	}
+	pg.base.expedition_data_by_map[1470011] = {
 		map = 1470011,
 		name = "Empyreal Tragicomedy - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "Battle-italy",
@@ -9946,8 +9951,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1470012] = {
+	}
+	pg.base.expedition_data_by_map[1470012] = {
 		map = 1470012,
 		name = "Empyreal Tragicomedy - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "Battle-italy",
@@ -9996,8 +10001,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1470025] = {
+	}
+	pg.base.expedition_data_by_map[1470025] = {
 		map = 1470025,
 		name = "Empyreal Tragicomedy - SP|| ||CHAPTER EX||E.X.",
 		bgm = "Battle-italy",
@@ -10046,8 +10051,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1470026] = {
+	}
+	pg.base.expedition_data_by_map[1470026] = {
 		map = 1470026,
 		name = "Empyreal Tragicomedy - EX|| ||CHAPTER EX||E.X.",
 		bgm = "Battle-italy",
@@ -10096,8 +10101,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1480001] = {
+	}
+	pg.base.expedition_data_by_map[1480001] = {
 		map = 1480001,
 		name = "Khorovod of Dawn's Rime - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "bgm-cccp2",
@@ -10146,8 +10151,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1480002] = {
+	}
+	pg.base.expedition_data_by_map[1480002] = {
 		map = 1480002,
 		name = "Khorovod of Dawn's Rime - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "deepblue-image",
@@ -10196,8 +10201,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1480011] = {
+	}
+	pg.base.expedition_data_by_map[1480011] = {
 		map = 1480011,
 		name = "Khorovod of Dawn's Rime - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "bgm-cccp2",
@@ -10246,8 +10251,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1480012] = {
+	}
+	pg.base.expedition_data_by_map[1480012] = {
 		map = 1480012,
 		name = "Khorovod of Dawn's Rime - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "deepblue-image",
@@ -10296,8 +10301,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1480025] = {
+	}
+	pg.base.expedition_data_by_map[1480025] = {
 		map = 1480025,
 		name = "Khorovod of Dawn's Rime - SP| ||CHAPTER EX||E.X.",
 		bgm = "bgm-cccp",
@@ -10346,8 +10351,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1480026] = {
+	}
+	pg.base.expedition_data_by_map[1480026] = {
 		map = 1480026,
 		name = "Khorovod of Dawn's Rime - EX|| ||CHAPTER EX||E.X.",
 		bgm = "bgm-cccp",
@@ -10396,8 +10401,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1490001] = {
+	}
+	pg.base.expedition_data_by_map[1490001] = {
 		map = 1490001,
 		name = "Ashen Simulacrum - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
@@ -10446,8 +10451,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1490002] = {
+	}
+	pg.base.expedition_data_by_map[1490002] = {
 		map = 1490002,
 		name = "Ashen Simulacrum - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
@@ -10496,8 +10501,10 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1490011] = {
+	}
+end)()
+(function ()
+	pg.base.expedition_data_by_map[1490011] = {
 		map = 1490011,
 		name = "Ashen Simulacrum - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
@@ -10546,8 +10553,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1490012] = {
+	}
+	pg.base.expedition_data_by_map[1490012] = {
 		map = 1490012,
 		name = "Ashen Simulacrum - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
@@ -10596,8 +10603,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1490025] = {
+	}
+	pg.base.expedition_data_by_map[1490025] = {
 		map = 1490025,
 		name = "Ashen Simulacrum - SP|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
@@ -10646,8 +10653,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1490026] = {
+	}
+	pg.base.expedition_data_by_map[1490026] = {
 		map = 1490026,
 		name = "Ashen Simulacrum - EX|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
@@ -10696,8 +10703,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1500001] = {
+	}
+	pg.base.expedition_data_by_map[1500001] = {
 		map = 1500001,
 		name = "Daedalian Hymn - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "story-italy",
@@ -10746,8 +10753,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1500002] = {
+	}
+	pg.base.expedition_data_by_map[1500002] = {
 		map = 1500002,
 		name = "Daedalian Hymn - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "battle-italy",
@@ -10796,8 +10803,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1500011] = {
+	}
+	pg.base.expedition_data_by_map[1500011] = {
 		map = 1500011,
 		name = "Daedalian Hymn - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "story-italy",
@@ -10846,8 +10853,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1500012] = {
+	}
+	pg.base.expedition_data_by_map[1500012] = {
 		map = 1500012,
 		name = "Daedalian Hymn - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "battle-italy",
@@ -10896,8 +10903,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1500025] = {
+	}
+	pg.base.expedition_data_by_map[1500025] = {
 		map = 1500025,
 		name = "Daedalian Hymn - SP|| ||CHAPTER EX||E.X.",
 		bgm = "story-6",
@@ -10946,8 +10953,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1500026] = {
+	}
+	pg.base.expedition_data_by_map[1500026] = {
 		map = 1500026,
 		name = "Daedalian Hymn - EX|| ||CHAPTER EX||E.X.",
 		bgm = "story-6",
@@ -10996,8 +11003,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1520001] = {
+	}
+	pg.base.expedition_data_by_map[1520001] = {
 		map = 1520001,
 		name = "Mirror Involution - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "blueocean-image",
@@ -11046,8 +11053,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1520002] = {
+	}
+	pg.base.expedition_data_by_map[1520002] = {
 		map = 1520002,
 		name = "Mirror Involution - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "deepblue-image",
@@ -11096,8 +11103,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1520011] = {
+	}
+	pg.base.expedition_data_by_map[1520011] = {
 		map = 1520011,
 		name = "Mirror Involution - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "blueocean-image",
@@ -11146,8 +11153,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1520012] = {
+	}
+	pg.base.expedition_data_by_map[1520012] = {
 		map = 1520012,
 		name = "Mirror Involution - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "deepblue-image",
@@ -11196,8 +11203,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1520025] = {
+	}
+	pg.base.expedition_data_by_map[1520025] = {
 		map = 1520025,
 		name = "Mirror Involution - SP|| ||CHAPTER EX||E.X.",
 		bgm = "Beverly_short_eng",
@@ -11246,8 +11253,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1520026] = {
+	}
+	pg.base.expedition_data_by_map[1520026] = {
 		map = 1520026,
 		name = "Mirror Involution - EX|| ||CHAPTER EX||E.X.",
 		bgm = "Beverly_short_eng",
@@ -11296,8 +11303,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1530001] = {
+	}
+	pg.base.expedition_data_by_map[1530001] = {
 		map = 1530001,
 		name = "Swirling Cherry Blossoms - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "xinnong-1",
@@ -11346,8 +11353,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1530002] = {
+	}
+	pg.base.expedition_data_by_map[1530002] = {
 		map = 1530002,
 		name = "Swirling Cherry Blossoms - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
@@ -11396,8 +11403,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1530011] = {
+	}
+	pg.base.expedition_data_by_map[1530011] = {
 		map = 1530011,
 		name = "Swirling Cherry Blossoms - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "xinnong-1",
@@ -11446,8 +11453,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1530012] = {
+	}
+	pg.base.expedition_data_by_map[1530012] = {
 		map = 1530012,
 		name = "Swirling Cherry Blossoms - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
@@ -11496,8 +11503,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1530025] = {
+	}
+	pg.base.expedition_data_by_map[1530025] = {
 		map = 1530025,
 		name = "Swirling Cherry Blossoms - SP|| ||CHAPTER EX||E.X.",
 		bgm = "xinnong-1",
@@ -11546,8 +11553,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1530026] = {
+	}
+	pg.base.expedition_data_by_map[1530026] = {
 		map = 1530026,
 		name = "Swirling Cherry Blossoms - EX|| ||CHAPTER EX||E.X.",
 		bgm = "xinnong-2",
@@ -11596,8 +11603,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1540001] = {
+	}
+	pg.base.expedition_data_by_map[1540001] = {
 		map = 1540001,
 		name = "Azur Anthem|| ||CHAPTER EX||E.X.",
 		bgm = "Idom-Appeal",
@@ -11646,8 +11653,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1540002] = {
+	}
+	pg.base.expedition_data_by_map[1540002] = {
 		map = 1540002,
 		name = "Azur Anthem - SP|| ||CHAPTER EX||E.X.",
 		bgm = "Idom-Appeal",
@@ -11696,8 +11703,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1540003] = {
+	}
+	pg.base.expedition_data_by_map[1540003] = {
 		map = 1540003,
 		name = "Azur Anthem - EX|| ||CHAPTER EX||E.X.",
 		bgm = "Idom-Appeal",
@@ -11746,8 +11753,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1550001] = {
+	}
+	pg.base.expedition_data_by_map[1550001] = {
 		map = 1550001,
 		name = "Microlayer Medley - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "hunhe-story",
@@ -11796,8 +11803,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1550002] = {
+	}
+	pg.base.expedition_data_by_map[1550002] = {
 		map = 1550002,
 		name = "Microlayer Medley - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "hunhe-level",
@@ -11846,8 +11853,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1550011] = {
+	}
+	pg.base.expedition_data_by_map[1550011] = {
 		map = 1550011,
 		name = "Microlayer Medley - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "hunhe-story",
@@ -11896,8 +11903,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1550012] = {
+	}
+	pg.base.expedition_data_by_map[1550012] = {
 		map = 1550012,
 		name = "Microlayer Medley - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "hunhe-level",
@@ -11946,8 +11953,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1550025] = {
+	}
+	pg.base.expedition_data_by_map[1550025] = {
 		map = 1550025,
 		name = "Microlayer Medley - SP|| ||CHAPTER EX||E.X.",
 		bgm = "xinnong-4",
@@ -11996,8 +12003,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1550026] = {
+	}
+	pg.base.expedition_data_by_map[1550026] = {
 		map = 1550026,
 		name = "Microlayer Medley - EX|| ||CHAPTER EX||E.X.",
 		bgm = "xinnong-4",
@@ -12046,8 +12053,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1560001] = {
+	}
+	pg.base.expedition_data_by_map[1560001] = {
 		map = 1560001,
 		name = "Upon the Shimmering Blue - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "battle-pacific",
@@ -12096,8 +12103,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1560002] = {
+	}
+	pg.base.expedition_data_by_map[1560002] = {
 		map = 1560002,
 		name = "Upon the Shimmering Blue - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "map-longgong",
@@ -12146,8 +12153,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1560011] = {
+	}
+	pg.base.expedition_data_by_map[1560011] = {
 		map = 1560011,
 		name = "Upon the Shimmering Blue - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "battle-pacific",
@@ -12196,8 +12203,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1560012] = {
+	}
+	pg.base.expedition_data_by_map[1560012] = {
 		map = 1560012,
 		name = "Upon the Shimmering Blue - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "map-longgong",
@@ -12246,8 +12253,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1560025] = {
+	}
+	pg.base.expedition_data_by_map[1560025] = {
 		map = 1560025,
 		name = "Upon the Shimmering Blue - SP|| ||CHAPTER EX||E.X.",
 		bgm = "battle-longgong",
@@ -12296,8 +12303,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1560026] = {
+	}
+	pg.base.expedition_data_by_map[1560026] = {
 		map = 1560026,
 		name = "Upon the Shimmering Blue - EX|| ||CHAPTER EX||E.X.",
 		bgm = "battle-longgong",
@@ -12346,8 +12353,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1570001] = {
+	}
+	pg.base.expedition_data_by_map[1570001] = {
 		map = 1570001,
 		name = "Skybound Oratorio - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "level03",
@@ -12396,8 +12403,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1570002] = {
+	}
+	pg.base.expedition_data_by_map[1570002] = {
 		map = 1570002,
 		name = "Skybound Oratorio - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-3",
@@ -12446,8 +12453,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1570011] = {
+	}
+	pg.base.expedition_data_by_map[1570011] = {
 		map = 1570011,
 		name = "Skybound Oratorio - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "level03",
@@ -12496,8 +12503,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1570012] = {
+	}
+	pg.base.expedition_data_by_map[1570012] = {
 		map = 1570012,
 		name = "Skybound Oratorio - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-3",
@@ -12546,8 +12553,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1570025] = {
+	}
+	pg.base.expedition_data_by_map[1570025] = {
 		map = 1570025,
 		name = "Skybound Oratorio - SP|| ||CHAPTER EX||E.X.",
 		bgm = "level-french2",
@@ -12596,8 +12603,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1570026] = {
+	}
+	pg.base.expedition_data_by_map[1570026] = {
 		map = 1570026,
 		name = "Skybound Oratorio - EX|| ||CHAPTER EX||E.X.",
 		bgm = "level-french2",
@@ -12646,8 +12653,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1580001] = {
+	}
+	pg.base.expedition_data_by_map[1580001] = {
 		map = 1580001,
 		name = "The Flame-Touched Dagger|| ||Chapter SP||S.P.",
 		bgm = "story-french1",
@@ -12696,8 +12703,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1590001] = {
+	}
+	pg.base.expedition_data_by_map[1590001] = {
 		map = 1590001,
 		name = "World-Spanning Arclight|| ||CHAPTER EX||E.X.",
 		bgm = "ssss-az-pv",
@@ -12749,8 +12756,8 @@ pg.base.expedition_data_by_map = {
 			0.5,
 			0.5
 		}
-	},
-	[1590002] = {
+	}
+	pg.base.expedition_data_by_map[1590002] = {
 		map = 1590002,
 		name = "World-Spanning Arclight·SP|| ||CHAPTER EX||E.X.",
 		bgm = "ssss-az-pv",
@@ -12802,8 +12809,8 @@ pg.base.expedition_data_by_map = {
 			0.5,
 			0.5
 		}
-	},
-	[1590003] = {
+	}
+	pg.base.expedition_data_by_map[1590003] = {
 		map = 1590003,
 		name = "World-Spanning Arclight·EX|| ||CHAPTER EX||E.X.",
 		bgm = "ssss-az-pv",
@@ -12855,8 +12862,8 @@ pg.base.expedition_data_by_map = {
 			0.5,
 			0.5
 		}
-	},
-	[1590004] = {
+	}
+	pg.base.expedition_data_by_map[1590004] = {
 		map = 1590004,
 		name = "World-Spanning Arclight Rerun||CHAPTER EX||E.X.",
 		bgm = "ssss-1114A",
@@ -12908,8 +12915,8 @@ pg.base.expedition_data_by_map = {
 			0.5,
 			0.5
 		}
-	},
-	[1600001] = {
+	}
+	pg.base.expedition_data_by_map[1600001] = {
 		map = 1600001,
 		name = "Tower of Transcendence - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "story-midgard",
@@ -12958,8 +12965,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1600002] = {
+	}
+	pg.base.expedition_data_by_map[1600002] = {
 		map = 1600002,
 		name = "Tower of Transcendence - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "battle-midgard-hunting",
@@ -13008,8 +13015,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1600011] = {
+	}
+	pg.base.expedition_data_by_map[1600011] = {
 		map = 1600011,
 		name = "Tower of Transcendence - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "story-midgard",
@@ -13058,8 +13065,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1600012] = {
+	}
+	pg.base.expedition_data_by_map[1600012] = {
 		map = 1600012,
 		name = "Tower of Transcendence - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "battle-midgard-hunting",
@@ -13108,8 +13115,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1600025] = {
+	}
+	pg.base.expedition_data_by_map[1600025] = {
 		map = 1600025,
 		name = "Tower of Transcendence - SP|| ||CHAPTER EX||E.X.",
 		bgm = "theme-midgard-hunting",
@@ -13158,8 +13165,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1600026] = {
+	}
+	pg.base.expedition_data_by_map[1600026] = {
 		map = 1600026,
 		name = "Tower of Transcendence - EX|| ||CHAPTER EX||E.X.",
 		bgm = "theme-midgard-hunting",
@@ -13208,8 +13215,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1610001] = {
+	}
+	pg.base.expedition_data_by_map[1610001] = {
 		map = 1610001,
 		name = "Northern Overture - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "bgm-cccp3",
@@ -13258,8 +13265,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1610002] = {
+	}
+	pg.base.expedition_data_by_map[1610002] = {
 		map = 1610002,
 		name = "Northern Overture - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "xinnong-3",
@@ -13308,8 +13315,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1610011] = {
+	}
+	pg.base.expedition_data_by_map[1610011] = {
 		map = 1610011,
 		name = "Northern Overture - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "bgm-cccp3",
@@ -13358,8 +13365,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1610012] = {
+	}
+	pg.base.expedition_data_by_map[1610012] = {
 		map = 1610012,
 		name = "Northern Overture - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "xinnong-3",
@@ -13408,8 +13415,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1610025] = {
+	}
+	pg.base.expedition_data_by_map[1610025] = {
 		map = 1610025,
 		name = "Northern Overture - SP|| ||CHAPTER EX||E.X.",
 		bgm = "bgm-cccp",
@@ -13458,8 +13465,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1610026] = {
+	}
+	pg.base.expedition_data_by_map[1610026] = {
 		map = 1610026,
 		name = "Northern Overture - EX|| ||CHAPTER EX||E.X.",
 		bgm = "bgm-cccp",
@@ -13508,8 +13515,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1620001] = {
+	}
+	pg.base.expedition_data_by_map[1620001] = {
 		map = 1620001,
 		name = "Abyssal Refrain - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "battle-deepecho",
@@ -13558,8 +13565,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1620002] = {
+	}
+	pg.base.expedition_data_by_map[1620002] = {
 		map = 1620002,
 		name = "Abyssal Refrain - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "deepblue-image",
@@ -13608,8 +13615,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1620011] = {
+	}
+	pg.base.expedition_data_by_map[1620011] = {
 		map = 1620011,
 		name = "Abyssal Refrain - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "battle-deepecho",
@@ -13658,8 +13665,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1620012] = {
+	}
+	pg.base.expedition_data_by_map[1620012] = {
 		map = 1620012,
 		name = "Abyssal Refrain - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "deepblue-image",
@@ -13708,8 +13715,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1620025] = {
+	}
+	pg.base.expedition_data_by_map[1620025] = {
 		map = 1620025,
 		name = "Abyssal Refrain - SP|| ||CHAPTER EX||E.X.",
 		bgm = "bgm-cccp2",
@@ -13758,8 +13765,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1620026] = {
+	}
+	pg.base.expedition_data_by_map[1620026] = {
 		map = 1620026,
 		name = "Abyssal Refrain - EX|| ||CHAPTER EX||E.X.",
 		bgm = "bgm-cccp2",
@@ -13808,8 +13815,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1630001] = {
+	}
+	pg.base.expedition_data_by_map[1630001] = {
 		map = 1630001,
 		name = "Virtual Tower|| ||CHAPTER EX||E.X.",
 		bgm = "theme-arbitrator-tower",
@@ -13895,8 +13902,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[1630002] = {
+	}
+	pg.base.expedition_data_by_map[1630002] = {
 		map = 1630002,
 		name = "Virtual Tower - SP|| ||CHAPTER EX||E.X.",
 		bgm = "theme-arbitrator-tower",
@@ -13945,8 +13952,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1630003] = {
+	}
+	pg.base.expedition_data_by_map[1630003] = {
 		map = 1630003,
 		name = "Virtual Tower - EX|| ||CHAPTER EX||E.X.",
 		bgm = "theme-arbitrator-tower",
@@ -13995,8 +14002,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1640001] = {
+	}
+	pg.base.expedition_data_by_map[1640001] = {
 		map = 1640001,
 		name = "Rondo at Rainbow's End - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-highseasfleet",
@@ -14048,8 +14055,8 @@ pg.base.expedition_data_by_map = {
 			0.5,
 			0.5
 		}
-	},
-	[1640002] = {
+	}
+	pg.base.expedition_data_by_map[1640002] = {
 		map = 1640002,
 		name = "Rondo at Rainbow's End - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "battle-highseasfleet-reborn",
@@ -14101,8 +14108,8 @@ pg.base.expedition_data_by_map = {
 			0.5,
 			0.5
 		}
-	},
-	[1640011] = {
+	}
+	pg.base.expedition_data_by_map[1640011] = {
 		map = 1640011,
 		name = "Rondo at Rainbow's End - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-highseasfleet",
@@ -14154,8 +14161,8 @@ pg.base.expedition_data_by_map = {
 			0.5,
 			0.5
 		}
-	},
-	[1640012] = {
+	}
+	pg.base.expedition_data_by_map[1640012] = {
 		map = 1640012,
 		name = "Rondo at Rainbow's End - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "battle-highseasfleet-reborn",
@@ -14207,8 +14214,8 @@ pg.base.expedition_data_by_map = {
 			0.5,
 			0.5
 		}
-	},
-	[1640025] = {
+	}
+	pg.base.expedition_data_by_map[1640025] = {
 		map = 1640025,
 		name = "Rondo at Rainbow's End - SP|| ||CHAPTER EX||E.X.",
 		bgm = "theme-frederick",
@@ -14260,8 +14267,8 @@ pg.base.expedition_data_by_map = {
 			0.5,
 			0.5
 		}
-	},
-	[1640026] = {
+	}
+	pg.base.expedition_data_by_map[1640026] = {
 		map = 1640026,
 		name = "Rondo at Rainbow's End - EX|| ||CHAPTER EX||E.X.",
 		bgm = "theme-frederick",
@@ -14313,8 +14320,8 @@ pg.base.expedition_data_by_map = {
 			0.5,
 			0.5
 		}
-	},
-	[1650001] = {
+	}
+	pg.base.expedition_data_by_map[1650001] = {
 		map = 1650001,
 		name = "Pledge of the Radiant Court - PT. 1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-camelot",
@@ -14400,8 +14407,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[1650002] = {
+	}
+	pg.base.expedition_data_by_map[1650002] = {
 		map = 1650002,
 		name = "Pledge of the Radiant Court - PT. 2|| ||CHAPTER EX||E.X.",
 		bgm = "battle-boss-camelot",
@@ -14487,8 +14494,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[1650011] = {
+	}
+	pg.base.expedition_data_by_map[1650011] = {
 		map = 1650011,
 		name = "Pledge of the Radiant Court - PT. 1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-camelot",
@@ -14574,8 +14581,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[1650012] = {
+	}
+	pg.base.expedition_data_by_map[1650012] = {
 		map = 1650012,
 		name = "Pledge of the Radiant Court - PT. 2|| ||CHAPTER EX||E.X.",
 		bgm = "battle-boss-camelot",
@@ -14661,8 +14668,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[1650025] = {
+	}
+	pg.base.expedition_data_by_map[1650025] = {
 		map = 1650025,
 		name = "Pledge of the Radiant Court - SP|| ||CHAPTER EX||E.X.",
 		bgm = "theme-vanguard",
@@ -14711,8 +14718,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1650026] = {
+	}
+	pg.base.expedition_data_by_map[1650026] = {
 		map = 1650026,
 		name = "Pledge of the Radiant Court - EX|| ||CHAPTER EX||E.X.",
 		bgm = "theme-vanguard",
@@ -14761,8 +14768,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1660001] = {
+	}
+	pg.base.expedition_data_by_map[1660001] = {
 		map = 1660001,
 		name = "Aquilifer's Ballade - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "story-roma-outside",
@@ -14811,8 +14818,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1660002] = {
+	}
+	pg.base.expedition_data_by_map[1660002] = {
 		map = 1660002,
 		name = "Aquilifer's Ballade - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "story-roma-inside",
@@ -14861,8 +14868,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1660011] = {
+	}
+	pg.base.expedition_data_by_map[1660011] = {
 		map = 1660011,
 		name = "Aquilifer's Ballade - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "story-roma-outside",
@@ -14911,8 +14918,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1660012] = {
+	}
+	pg.base.expedition_data_by_map[1660012] = {
 		map = 1660012,
 		name = "Aquilifer's Ballade - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "story-roma-inside",
@@ -14961,8 +14968,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1660025] = {
+	}
+	pg.base.expedition_data_by_map[1660025] = {
 		map = 1660025,
 		name = "Aquilifer's Ballade - SP|| ||CHAPTER EX||E.X.",
 		bgm = "theme-roma-image",
@@ -15011,8 +15018,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1660026] = {
+	}
+	pg.base.expedition_data_by_map[1660026] = {
 		map = 1660026,
 		name = "Aquilifer's Ballade - EX|| ||CHAPTER EX||E.X.",
 		bgm = "theme-roma-image",
@@ -15061,8 +15068,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1670001] = {
+	}
+	pg.base.expedition_data_by_map[1670001] = {
 		map = 1670001,
 		name = "Operation Convergence|| ||CHAPTER EX||E.X.",
 		bgm = "story-6",
@@ -15111,8 +15118,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1670002] = {
+	}
+	pg.base.expedition_data_by_map[1670002] = {
 		map = 1670002,
 		name = "Operation Convergence - SP|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-4",
@@ -15161,8 +15168,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1670003] = {
+	}
+	pg.base.expedition_data_by_map[1670003] = {
 		map = 1670003,
 		name = "Operation Convergence - EX|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-4",
@@ -15211,8 +15218,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1680001] = {
+	}
+	pg.base.expedition_data_by_map[1680001] = {
 		map = 1680001,
 		name = "Violet Tempest, Blooming Lycoris - PT. 1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-musashi-inside",
@@ -15261,8 +15268,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1680002] = {
+	}
+	pg.base.expedition_data_by_map[1680002] = {
 		map = 1680002,
 		name = "Violet Tempest, Blooming Lycoris - PT. 2|| ||CHAPTER EX||E.X.",
 		bgm = "musashi-1",
@@ -15311,8 +15318,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1680011] = {
+	}
+	pg.base.expedition_data_by_map[1680011] = {
 		map = 1680011,
 		name = "Violet Tempest, Blooming Lycoris - PT. 1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-musashi-inside",
@@ -15361,8 +15368,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1680012] = {
+	}
+	pg.base.expedition_data_by_map[1680012] = {
 		map = 1680012,
 		name = "Violet Tempest, Blooming Lycoris - PT. 2|| ||CHAPTER EX||E.X.",
 		bgm = "musashi-1",
@@ -15411,8 +15418,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1680025] = {
+	}
+	pg.base.expedition_data_by_map[1680025] = {
 		map = 1680025,
 		name = "Violet Tempest, Blooming Lycoris - SP|| ||CHAPTER EX||E.X.",
 		bgm = "musashi-2",
@@ -15461,8 +15468,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1680026] = {
+	}
+	pg.base.expedition_data_by_map[1680026] = {
 		map = 1680026,
 		name = "Violet Tempest, Blooming Lycoris - EX|| ||CHAPTER EX||E.X.",
 		bgm = "musashi-2",
@@ -15511,8 +15518,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1690001] = {
+	}
+	pg.base.expedition_data_by_map[1690001] = {
 		map = 1690001,
 		name = "The Archipelago of Secrets|| ||CHAPTER EX||E.X.",
 		bgm = "ryza-az-theme",
@@ -15561,8 +15568,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1690002] = {
+	}
+	pg.base.expedition_data_by_map[1690002] = {
 		map = 1690002,
 		name = "The Archipelago of Secrets - Gathering Site|| ||CHAPTER EX||E.X.",
 		bgm = "ryza-5",
@@ -15611,8 +15618,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1690003] = {
+	}
+	pg.base.expedition_data_by_map[1690003] = {
 		map = 1690003,
 		name = "The Archipelago of Secrets - SP|| ||CHAPTER EX||E.X.",
 		bgm = "ryza-az-theme",
@@ -15661,8 +15668,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1690004] = {
+	}
+	pg.base.expedition_data_by_map[1690004] = {
 		map = 1690004,
 		name = "The Archipelago of Secrets - EX|| ||CHAPTER EX||E.X.",
 		bgm = "ryza-az-theme",
@@ -15711,8 +15718,10 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1700001] = {
+	}
+end)()
+(function ()
+	pg.base.expedition_data_by_map[1700001] = {
 		map = 1700001,
 		name = "Parallel Superimposition - PT.1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-schoolfuture",
@@ -15771,8 +15780,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[1700002] = {
+	}
+	pg.base.expedition_data_by_map[1700002] = {
 		map = 1700002,
 		name = "Parallel Superimposition - PT.2|| ||CHAPTER EX||E.X.",
 		bgm = "theme-aostelab",
@@ -15831,8 +15840,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[1700011] = {
+	}
+	pg.base.expedition_data_by_map[1700011] = {
 		map = 1700011,
 		name = "Parallel Superimposition - PT.1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-schoolfuture",
@@ -15891,8 +15900,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[1700012] = {
+	}
+	pg.base.expedition_data_by_map[1700012] = {
 		map = 1700012,
 		name = "Parallel Superimposition - PT.2|| ||CHAPTER EX||E.X.",
 		bgm = "theme-aostelab",
@@ -15951,8 +15960,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[1700025] = {
+	}
+	pg.base.expedition_data_by_map[1700025] = {
 		map = 1700025,
 		name = "Parallel Superimposition - SP|| ||CHAPTER EX||E.X.",
 		bgm = "theme-starsea-core",
@@ -16001,8 +16010,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1700026] = {
+	}
+	pg.base.expedition_data_by_map[1700026] = {
 		map = 1700026,
 		name = "Parallel Superimposition - EX|| ||CHAPTER EX||E.X.",
 		bgm = "theme-starsea-core",
@@ -16051,8 +16060,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1710001] = {
+	}
+	pg.base.expedition_data_by_map[1710001] = {
 		map = 1710001,
 		name = "Revelations of Dust - PT.1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-vichy-church",
@@ -16101,8 +16110,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1710002] = {
+	}
+	pg.base.expedition_data_by_map[1710002] = {
 		map = 1710002,
 		name = "Revelations of Dust - PT.2|| ||CHAPTER EX||E.X.",
 		bgm = "theme-vichy-revelation",
@@ -16151,8 +16160,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1710011] = {
+	}
+	pg.base.expedition_data_by_map[1710011] = {
 		map = 1710011,
 		name = "Revelations of Dust - PT.1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-vichy-church",
@@ -16201,8 +16210,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1710012] = {
+	}
+	pg.base.expedition_data_by_map[1710012] = {
 		map = 1710012,
 		name = "Revelations of Dust - PT.2|| ||CHAPTER EX||E.X.",
 		bgm = "theme-vichy-revelation",
@@ -16251,8 +16260,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1710025] = {
+	}
+	pg.base.expedition_data_by_map[1710025] = {
 		map = 1710025,
 		name = "Revelations of Dust - SP|| ||CHAPTER EX||E.X.",
 		bgm = "theme-vichy-slaughter",
@@ -16301,8 +16310,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1710026] = {
+	}
+	pg.base.expedition_data_by_map[1710026] = {
 		map = 1710026,
 		name = "Revelations of Dust - EX|| ||CHAPTER EX||E.X.",
 		bgm = "theme-vichy-slaughter",
@@ -16351,8 +16360,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1720001] = {
+	}
+	pg.base.expedition_data_by_map[1720001] = {
 		map = 1720001,
 		name = "Confluence of Nothingness - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "main-arbitrationsystem-theme",
@@ -16456,8 +16465,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[1720002] = {
+	}
+	pg.base.expedition_data_by_map[1720002] = {
 		map = 1720002,
 		name = "Confluence of Nothingness - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "battle-thedevilXV-control",
@@ -16561,8 +16570,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[1720011] = {
+	}
+	pg.base.expedition_data_by_map[1720011] = {
 		map = 1720011,
 		name = "Confluence of Nothingness - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "main-arbitrationsystem-theme",
@@ -16666,8 +16675,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[1720012] = {
+	}
+	pg.base.expedition_data_by_map[1720012] = {
 		map = 1720012,
 		name = "Confluence of Nothingness - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "battle-thedevilXV-control",
@@ -16771,8 +16780,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[1720025] = {
+	}
+	pg.base.expedition_data_by_map[1720025] = {
 		map = 1720025,
 		name = "Confluence of Nothingness - SP|| ||CHAPTER EX||E.X.",
 		bgm = "theme-arbitrator-tower",
@@ -16821,8 +16830,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1720026] = {
+	}
+	pg.base.expedition_data_by_map[1720026] = {
 		map = 1720026,
 		name = "Confluence of Nothingness - EX|| ||CHAPTER EX||E.X.",
 		bgm = "theme-arbitrator-tower",
@@ -16871,8 +16880,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1730001] = {
+	}
+	pg.base.expedition_data_by_map[1730001] = {
 		map = 1730001,
 		name = "Anthem of Remembrance|| ||CHAPTER SP||S.P.",
 		bgm = "level-french2",
@@ -16921,8 +16930,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1740001] = {
+	}
+	pg.base.expedition_data_by_map[1740001] = {
 		map = 1740001,
 		name = "The Fool's Scales - PT.1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-underheaven",
@@ -17077,8 +17086,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[1740002] = {
+	}
+	pg.base.expedition_data_by_map[1740002] = {
 		map = 1740002,
 		name = "The Fool's Scales - PT.2|| ||CHAPTER EX||E.X.",
 		bgm = "theme-thehierophantV",
@@ -17218,8 +17227,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[1740011] = {
+	}
+	pg.base.expedition_data_by_map[1740011] = {
 		map = 1740011,
 		name = "The Fool's Scales - PT.1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-underheaven",
@@ -17374,8 +17383,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[1740012] = {
+	}
+	pg.base.expedition_data_by_map[1740012] = {
 		map = 1740012,
 		name = "The Fool's Scales - PT.2|| ||CHAPTER EX||E.X.",
 		bgm = "theme-thehierophantV",
@@ -17515,8 +17524,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[1740025] = {
+	}
+	pg.base.expedition_data_by_map[1740025] = {
 		map = 1740025,
 		name = "The Fool's Scales - SP|| ||CHAPTER EX||E.X.",
 		bgm = "theme-clemenceau",
@@ -17565,8 +17574,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1740026] = {
+	}
+	pg.base.expedition_data_by_map[1740026] = {
 		map = 1740026,
 		name = "The Fool's Scales - EX|| ||CHAPTER EX||E.X.",
 		bgm = "theme-thehierophantV",
@@ -17615,8 +17624,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1750001] = {
+	}
+	pg.base.expedition_data_by_map[1750001] = {
 		map = 1750001,
 		name = "Effulgence Before Eclipse - PT.1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-unzen",
@@ -17665,8 +17674,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1750002] = {
+	}
+	pg.base.expedition_data_by_map[1750002] = {
 		map = 1750002,
 		name = "Effulgence Before Eclipse - PT.2|| ||CHAPTER EX||E.X.",
 		bgm = "theme-sakuraholyplace",
@@ -17715,8 +17724,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1750011] = {
+	}
+	pg.base.expedition_data_by_map[1750011] = {
 		map = 1750011,
 		name = "Effulgence Before Eclipse - PT.1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-unzen",
@@ -17765,8 +17774,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1750012] = {
+	}
+	pg.base.expedition_data_by_map[1750012] = {
 		map = 1750012,
 		name = "Effulgence Before Eclipse - PT.2|| ||CHAPTER EX||E.X.",
 		bgm = "theme-sakuraholyplace",
@@ -17815,8 +17824,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1750025] = {
+	}
+	pg.base.expedition_data_by_map[1750025] = {
 		map = 1750025,
 		name = "Effulgence Before Eclipse - SP|| ||CHAPTER EX||E.X.",
 		bgm = "story-unzen-heart",
@@ -17865,8 +17874,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1750026] = {
+	}
+	pg.base.expedition_data_by_map[1750026] = {
 		map = 1750026,
 		name = "Effulgence Before Eclipse - EX|| ||CHAPTER EX||E.X.",
 		bgm = "story-unzen",
@@ -17915,8 +17924,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1760001] = {
+	}
+	pg.base.expedition_data_by_map[1760001] = {
 		map = 1760001,
 		name = "Tempesta and the Fountain of Youth - PT.1|| ||CHAPTER EX||E.X.",
 		bgm = "story-temepest-1",
@@ -17965,8 +17974,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1760002] = {
+	}
+	pg.base.expedition_data_by_map[1760002] = {
 		map = 1760002,
 		name = "Tempesta and the Fountain of Youth - PT.2|| ||CHAPTER EX||E.X.",
 		bgm = "theme-tempest-up",
@@ -18015,8 +18024,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1760003] = {
+	}
+	pg.base.expedition_data_by_map[1760003] = {
 		map = 1760003,
 		name = "Tempesta and the Fountain of Youth·SP|| ||CHAPTER EX||E.X.",
 		bgm = "theme-tempest",
@@ -18065,8 +18074,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1760004] = {
+	}
+	pg.base.expedition_data_by_map[1760004] = {
 		map = 1760004,
 		name = "Tempesta and the Fountain of Youth·EX|| ||CHAPTER EX||E.X.",
 		bgm = "theme-tempest-up",
@@ -18115,8 +18124,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1770001] = {
+	}
+	pg.base.expedition_data_by_map[1770001] = {
 		map = 1770001,
 		name = "The Ninja Scrolls: Azur Flash|| ||CHAPTER EX||E.X.",
 		bgm = "sk-az-story",
@@ -18165,8 +18174,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1770002] = {
+	}
+	pg.base.expedition_data_by_map[1770002] = {
 		map = 1770002,
 		name = "The Ninja Scrolls: Azur Flash - Challenge|| ||CHAPTER EX||E.X.",
 		bgm = "sk-menu",
@@ -18215,8 +18224,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1770003] = {
+	}
+	pg.base.expedition_data_by_map[1770003] = {
 		map = 1770003,
 		name = "The Ninja Scrolls: Azur Flash - SP|| ||CHAPTER EX||E.X.",
 		bgm = "sk-theme",
@@ -18265,8 +18274,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1770004] = {
+	}
+	pg.base.expedition_data_by_map[1770004] = {
 		map = 1770004,
 		name = "The Ninja Scrolls: Azur Flash - EX|| ||CHAPTER EX||E.X.",
 		bgm = "sk-az-pv1",
@@ -18315,8 +18324,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1780001] = {
+	}
+	pg.base.expedition_data_by_map[1780001] = {
 		map = 1780001,
 		name = "Light-Chasing Sea of Stars - PT.1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-ucnf-image",
@@ -18406,8 +18415,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[1780002] = {
+	}
+	pg.base.expedition_data_by_map[1780002] = {
 		map = 1780002,
 		name = "Light-Chasing Sea of Stars - PT.2|| ||CHAPTER EX||E.X.",
 		bgm = "theme-ucnf-beacon",
@@ -18466,8 +18475,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[1780011] = {
+	}
+	pg.base.expedition_data_by_map[1780011] = {
 		map = 1780011,
 		name = "Light-Chasing Sea of Stars - PT.1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-ucnf-image",
@@ -18557,8 +18566,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[1780012] = {
+	}
+	pg.base.expedition_data_by_map[1780012] = {
 		map = 1780012,
 		name = "Light-Chasing Sea of Stars - PT.2|| ||CHAPTER EX||E.X.",
 		bgm = "theme-ucnf-beacon",
@@ -18617,8 +18626,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[1780025] = {
+	}
+	pg.base.expedition_data_by_map[1780025] = {
 		map = 1780025,
 		name = "Light-Chasing Sea of Stars - SP|| ||CHAPTER EX||E.X.",
 		bgm = "battle-boss-ucnf",
@@ -18708,8 +18717,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[1780026] = {
+	}
+	pg.base.expedition_data_by_map[1780026] = {
 		map = 1780026,
 		name = "Light-Chasing Sea of Stars - EX|| ||CHAPTER EX||E.X.",
 		bgm = "theme-ucnf-flagship",
@@ -18758,8 +18767,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1790001] = {
+	}
+	pg.base.expedition_data_by_map[1790001] = {
 		map = 1790001,
 		name = "Snowrealm Peregrination - PT.1|| ||CHAPTER EX||E.X.",
 		bgm = "story-antarctica-serious",
@@ -18820,8 +18829,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[1790002] = {
+	}
+	pg.base.expedition_data_by_map[1790002] = {
 		map = 1790002,
 		name = "Snowrealm Peregrination - PT.2|| ||CHAPTER EX||E.X.",
 		bgm = "theme-antarctica",
@@ -18882,8 +18891,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[1790011] = {
+	}
+	pg.base.expedition_data_by_map[1790011] = {
 		map = 1790011,
 		name = "Snowrealm Peregrination - PT.1|| ||CHAPTER EX||E.X.",
 		bgm = "story-antarctica-serious",
@@ -18944,8 +18953,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[1790012] = {
+	}
+	pg.base.expedition_data_by_map[1790012] = {
 		map = 1790012,
 		name = "Snowrealm Peregrination - PT.2|| ||CHAPTER EX||E.X.",
 		bgm = "theme-antarctica",
@@ -19006,8 +19015,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[1790025] = {
+	}
+	pg.base.expedition_data_by_map[1790025] = {
 		map = 1790025,
 		name = "Snowrealm Peregrination - SP|| ||CHAPTER EX||E.X.",
 		bgm = "theme-underheaven",
@@ -19056,8 +19065,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1790026] = {
+	}
+	pg.base.expedition_data_by_map[1790026] = {
 		map = 1790026,
 		name = "Snowrealm Peregrination - EX|| ||CHAPTER EX||E.X.",
 		bgm = "story-commander-up",
@@ -19106,8 +19115,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1800001] = {
+	}
+	pg.base.expedition_data_by_map[1800001] = {
 		map = 1800001,
 		name = "Heart-Linking Harmony|| ||CHAPTER EX||E.X.",
 		bgm = "votefes-start",
@@ -19156,8 +19165,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1800002] = {
+	}
+	pg.base.expedition_data_by_map[1800002] = {
 		map = 1800002,
 		name = "Heart-Linking Harmony - Challenge|| ||CHAPTER EX||E.X.",
 		bgm = "votefes-start",
@@ -19206,8 +19215,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1800003] = {
+	}
+	pg.base.expedition_data_by_map[1800003] = {
 		map = 1800003,
 		name = "Heart-Linking Harmony - SP|| ||CHAPTER EX||E.X.",
 		bgm = "song-Cyanidin-full",
@@ -19256,8 +19265,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1800004] = {
+	}
+	pg.base.expedition_data_by_map[1800004] = {
 		map = 1800004,
 		name = "Heart-Linking Harmony - EX|| ||CHAPTER EX||E.X.",
 		bgm = "song-Alizarin-full",
@@ -19306,8 +19315,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1810001] = {
+	}
+	pg.base.expedition_data_by_map[1810001] = {
 		map = 1810001,
 		name = "Light of the Martyrium - PT.1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-lightheven",
@@ -19377,8 +19386,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[1810002] = {
+	}
+	pg.base.expedition_data_by_map[1810002] = {
 		map = 1810002,
 		name = "Light of the Martyrium - PT.2|| ||CHAPTER EX||E.X.",
 		bgm = "theme-lightheven",
@@ -19437,8 +19446,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[1810011] = {
+	}
+	pg.base.expedition_data_by_map[1810011] = {
 		map = 1810011,
 		name = "Light of the Martyrium - PT.1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-lightheven",
@@ -19508,8 +19517,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[1810012] = {
+	}
+	pg.base.expedition_data_by_map[1810012] = {
 		map = 1810012,
 		name = "Light of the Martyrium - PT.2|| ||CHAPTER EX||E.X.",
 		bgm = "theme-lightheven",
@@ -19568,8 +19577,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[1810025] = {
+	}
+	pg.base.expedition_data_by_map[1810025] = {
 		map = 1810025,
 		name = "Light of the Martyrium - SP|| ||CHAPTER EX||E.X.",
 		bgm = "theme-thehierophantV",
@@ -19618,8 +19627,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1810026] = {
+	}
+	pg.base.expedition_data_by_map[1810026] = {
 		map = 1810026,
 		name = "Light of the Martyrium - EX|| ||CHAPTER EX||E.X.",
 		bgm = "theme-lightheven",
@@ -19668,8 +19677,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1820001] = {
+	}
+	pg.base.expedition_data_by_map[1820001] = {
 		map = 1820001,
 		name = "Interlude of Illusions|| ||CHAPTER EX||E.X.",
 		bgm = "story-musicanniversary-gorgeous",
@@ -19748,8 +19757,8 @@ pg.base.expedition_data_by_map = {
 			9,
 			10
 		}
-	},
-	[1820002] = {
+	}
+	pg.base.expedition_data_by_map[1820002] = {
 		map = 1820002,
 		name = "Interlude of Illusions|| ||CHAPTER EX||E.X.",
 		bgm = "story-musicanniversary-gorgeous",
@@ -19828,8 +19837,8 @@ pg.base.expedition_data_by_map = {
 			9,
 			10
 		}
-	},
-	[1820003] = {
+	}
+	pg.base.expedition_data_by_map[1820003] = {
 		map = 1820003,
 		name = "Interlude of Illusions - SP|| ||CHAPTER EX||E.X.",
 		bgm = "story-musicanniversary-gorgeous",
@@ -19908,8 +19917,8 @@ pg.base.expedition_data_by_map = {
 			9,
 			10
 		}
-	},
-	[1820004] = {
+	}
+	pg.base.expedition_data_by_map[1820004] = {
 		map = 1820004,
 		name = "Interlude of Illusions - EX|| ||CHAPTER EX||E.X.",
 		bgm = "story-musicanniversary-gorgeous",
@@ -19988,8 +19997,8 @@ pg.base.expedition_data_by_map = {
 			9,
 			10
 		}
-	},
-	[1830001] = {
+	}
+	pg.base.expedition_data_by_map[1830001] = {
 		map = 1830001,
 		name = "Windborne Steel Wings - PT.1|| ||CHAPTER EX||E.X.",
 		bgm = "battle-eagleunion",
@@ -20059,8 +20068,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[1830002] = {
+	}
+	pg.base.expedition_data_by_map[1830002] = {
 		map = 1830002,
 		name = "Windborne Steel Wings - PT.2|| ||CHAPTER EX||E.X.",
 		bgm = "battle-newwind",
@@ -20130,8 +20139,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[1830011] = {
+	}
+	pg.base.expedition_data_by_map[1830011] = {
 		map = 1830011,
 		name = "Windborne Steel Wings - PT.1|| ||CHAPTER EX||E.X.",
 		bgm = "battle-eagleunion",
@@ -20201,8 +20210,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[1830012] = {
+	}
+	pg.base.expedition_data_by_map[1830012] = {
 		map = 1830012,
 		name = "Windborne Steel Wings - PT.2|| ||CHAPTER EX||E.X.",
 		bgm = "battle-newwind",
@@ -20272,8 +20281,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[1830025] = {
+	}
+	pg.base.expedition_data_by_map[1830025] = {
 		map = 1830025,
 		name = "Windborne Steel Wings - SP|| ||CHAPTER EX||E.X.",
 		bgm = "story-island-soft",
@@ -20322,8 +20331,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1830026] = {
+	}
+	pg.base.expedition_data_by_map[1830026] = {
 		map = 1830026,
 		name = "Windborne Steel Wings - EX|| ||CHAPTER EX||E.X.",
 		bgm = "theme-designfleet-VII",
@@ -20372,8 +20381,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[1840001] = {
+	}
+	pg.base.expedition_data_by_map[1840001] = {
 		map = 1840001,
 		name = "Whence Flowers Bear No Fruit|| ||CHAPTER EX||E.X.",
 		bgm = "story-nailuo-theme",
@@ -20449,8 +20458,8 @@ pg.base.expedition_data_by_map = {
 			22,
 			23
 		}
-	},
-	[1840002] = {
+	}
+	pg.base.expedition_data_by_map[1840002] = {
 		map = 1840002,
 		name = "Whence Flowers Bear No Fruit - TP|| ||CHAPTER EX||E.X.",
 		bgm = "story-nailuo-theme",
@@ -20526,8 +20535,8 @@ pg.base.expedition_data_by_map = {
 			22,
 			23
 		}
-	},
-	[1850001] = {
+	}
+	pg.base.expedition_data_by_map[1850001] = {
 		map = 1850001,
 		name = "Ode of Everblooming Crimson - PT.1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-amagi-cv",
@@ -20624,8 +20633,8 @@ pg.base.expedition_data_by_map = {
 			66,
 			67
 		}
-	},
-	[1850002] = {
+	}
+	pg.base.expedition_data_by_map[1850002] = {
 		map = 1850002,
 		name = "Ode of Everblooming Crimson - PT.2|| ||CHAPTER EX||E.X.",
 		bgm = "story-nailuo-theme",
@@ -20722,8 +20731,8 @@ pg.base.expedition_data_by_map = {
 			66,
 			67
 		}
-	},
-	[1850011] = {
+	}
+	pg.base.expedition_data_by_map[1850011] = {
 		map = 1850011,
 		name = "Ode of Everblooming Crimson - PT.1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-amagi-cv",
@@ -20820,8 +20829,8 @@ pg.base.expedition_data_by_map = {
 			66,
 			67
 		}
-	},
-	[1850012] = {
+	}
+	pg.base.expedition_data_by_map[1850012] = {
 		map = 1850012,
 		name = "Ode of Everblooming Crimson - PT.2|| ||CHAPTER EX||E.X.",
 		bgm = "story-nailuo-theme",
@@ -20918,8 +20927,8 @@ pg.base.expedition_data_by_map = {
 			66,
 			67
 		}
-	},
-	[1850025] = {
+	}
+	pg.base.expedition_data_by_map[1850025] = {
 		map = 1850025,
 		name = "Ode of Everblooming Crimson - SP|| ||CHAPTER EX||E.X.",
 		bgm = "theme-arbitrator-tower",
@@ -21010,8 +21019,8 @@ pg.base.expedition_data_by_map = {
 			66,
 			67
 		}
-	},
-	[1850026] = {
+	}
+	pg.base.expedition_data_by_map[1850026] = {
 		map = 1850026,
 		name = "Ode of Everblooming Crimson - EX|| ||CHAPTER EX||E.X.",
 		bgm = "theme-akagi-meta",
@@ -21103,8 +21112,8 @@ pg.base.expedition_data_by_map = {
 			66,
 			67
 		}
-	},
-	[1860001] = {
+	}
+	pg.base.expedition_data_by_map[1860001] = {
 		map = 1860001,
 		name = "Tempesta and the Sleeping Sea - PT.1|| ||CHAPTER EX||E.X.",
 		bgm = "story-tempest-marching",
@@ -21186,8 +21195,8 @@ pg.base.expedition_data_by_map = {
 			88,
 			89
 		}
-	},
-	[1860002] = {
+	}
+	pg.base.expedition_data_by_map[1860002] = {
 		map = 1860002,
 		name = "Tempesta and the Sleeping Sea - PT.2|| ||CHAPTER EX||E.X.",
 		bgm = "battle-nightmare-theme",
@@ -21269,8 +21278,8 @@ pg.base.expedition_data_by_map = {
 			88,
 			89
 		}
-	},
-	[1860003] = {
+	}
+	pg.base.expedition_data_by_map[1860003] = {
 		map = 1860003,
 		name = "Tempesta and the Sleeping Sea - SP|| ||CHAPTER EX||E.X.",
 		bgm = "theme-tempest-up",
@@ -21346,8 +21355,8 @@ pg.base.expedition_data_by_map = {
 			88,
 			89
 		}
-	},
-	[1860004] = {
+	}
+	pg.base.expedition_data_by_map[1860004] = {
 		map = 1860004,
 		name = "Tempesta and the Sleeping Sea - EX|| ||CHAPTER EX||E.X.",
 		bgm = "theme-ganjisawai",
@@ -21423,8 +21432,8 @@ pg.base.expedition_data_by_map = {
 			88,
 			89
 		}
-	},
-	[1870001] = {
+	}
+	pg.base.expedition_data_by_map[1870001] = {
 		map = 1870001,
 		name = "Dangerous Inventions Incoming!|| ||CHAPTER EX||E.X.",
 		bgm = "main",
@@ -21507,8 +21516,8 @@ pg.base.expedition_data_by_map = {
 			105,
 			106
 		}
-	},
-	[1870002] = {
+	}
+	pg.base.expedition_data_by_map[1870002] = {
 		map = 1870002,
 		name = "Dangerous Inventions Incoming! - Challenge|| ||CHAPTER EX||E.X.",
 		bgm = "main",
@@ -21591,8 +21600,8 @@ pg.base.expedition_data_by_map = {
 			105,
 			106
 		}
-	},
-	[1870003] = {
+	}
+	pg.base.expedition_data_by_map[1870003] = {
 		map = 1870003,
 		name = "Dangerous Inventions Incoming! - SP|| ||CHAPTER EX||E.X.",
 		bgm = "main",
@@ -21663,8 +21672,8 @@ pg.base.expedition_data_by_map = {
 			105,
 			106
 		}
-	},
-	[1870004] = {
+	}
+	pg.base.expedition_data_by_map[1870004] = {
 		map = 1870004,
 		name = "Dangerous Inventions Incoming! - EX|| ||CHAPTER EX||E.X.",
 		bgm = "main",
@@ -21736,8 +21745,8 @@ pg.base.expedition_data_by_map = {
 			105,
 			106
 		}
-	},
-	[1880001] = {
+	}
+	pg.base.expedition_data_by_map[1880001] = {
 		map = 1880001,
 		name = "Substellar Crepuscule - PT. 1|| ||CHAPTER EX||E.X.",
 		bgm = "story-ironblood-strong",
@@ -21833,8 +21842,8 @@ pg.base.expedition_data_by_map = {
 			138,
 			139
 		}
-	},
-	[1880002] = {
+	}
+	pg.base.expedition_data_by_map[1880002] = {
 		map = 1880002,
 		name = "Substellar Crepuscule - PT. 2|| ||CHAPTER EX||E.X.",
 		bgm = "theme-starbeast",
@@ -21930,8 +21939,8 @@ pg.base.expedition_data_by_map = {
 			138,
 			139
 		}
-	},
-	[1880011] = {
+	}
+	pg.base.expedition_data_by_map[1880011] = {
 		map = 1880011,
 		name = "Substellar Crepuscule - PT. 1|| ||CHAPTER EX||E.X.",
 		bgm = "story-ironblood-strong",
@@ -22027,8 +22036,8 @@ pg.base.expedition_data_by_map = {
 			138,
 			139
 		}
-	},
-	[1880012] = {
+	}
+	pg.base.expedition_data_by_map[1880012] = {
 		map = 1880012,
 		name = "Substellar Crepuscule - PT. 2|| ||CHAPTER EX||E.X.",
 		bgm = "theme-starbeast",
@@ -22124,8 +22133,8 @@ pg.base.expedition_data_by_map = {
 			138,
 			139
 		}
-	},
-	[1880025] = {
+	}
+	pg.base.expedition_data_by_map[1880025] = {
 		map = 1880025,
 		name = "Substellar Crepuscule - SP|| ||CHAPTER EX||E.X.",
 		bgm = "story-ironblood-light",
@@ -22212,8 +22221,8 @@ pg.base.expedition_data_by_map = {
 			138,
 			139
 		}
-	},
-	[1880026] = {
+	}
+	pg.base.expedition_data_by_map[1880026] = {
 		map = 1880026,
 		name = "Substellar Crepuscule - EX|| ||CHAPTER EX||E.X.",
 		bgm = "story-antix-past",
@@ -22301,8 +22310,8 @@ pg.base.expedition_data_by_map = {
 			138,
 			139
 		}
-	},
-	[1890001] = {
+	}
+	pg.base.expedition_data_by_map[1890001] = {
 		map = 1890001,
 		name = "Paradiso of Shackled Light - PT.1|| ||CHAPTER EX||E.X.",
 		bgm = "story-theme-sardinia",
@@ -22401,8 +22410,8 @@ pg.base.expedition_data_by_map = {
 			175,
 			176
 		}
-	},
-	[1890002] = {
+	}
+	pg.base.expedition_data_by_map[1890002] = {
 		map = 1890002,
 		name = "Paradiso of Shackled Light - PT.2|| ||CHAPTER EX||E.X.",
 		bgm = "story-shenguang-holy",
@@ -22501,8 +22510,8 @@ pg.base.expedition_data_by_map = {
 			175,
 			176
 		}
-	},
-	[1890011] = {
+	}
+	pg.base.expedition_data_by_map[1890011] = {
 		map = 1890011,
 		name = "Paradiso of Shackled Light - PT.1|| ||CHAPTER EX||E.X.",
 		bgm = "story-theme-sardinia",
@@ -22601,8 +22610,8 @@ pg.base.expedition_data_by_map = {
 			175,
 			176
 		}
-	},
-	[1890012] = {
+	}
+	pg.base.expedition_data_by_map[1890012] = {
 		map = 1890012,
 		name = "Paradiso of Shackled Light - PT.2|| ||CHAPTER EX||E.X.",
 		bgm = "story-shenguang-holy",
@@ -22701,8 +22710,8 @@ pg.base.expedition_data_by_map = {
 			175,
 			176
 		}
-	},
-	[1890025] = {
+	}
+	pg.base.expedition_data_by_map[1890025] = {
 		map = 1890025,
 		name = "Paradiso of Shackled Light - SP|| ||CHAPTER EX||E.X.",
 		bgm = "battle-shenguang-holy",
@@ -22792,8 +22801,8 @@ pg.base.expedition_data_by_map = {
 			175,
 			176
 		}
-	},
-	[1890026] = {
+	}
+	pg.base.expedition_data_by_map[1890026] = {
 		map = 1890026,
 		name = "Paradiso of Shackled Light - EX|| ||CHAPTER EX||E.X.",
 		bgm = "battle-thechariotVII",
@@ -22884,8 +22893,8 @@ pg.base.expedition_data_by_map = {
 			175,
 			176
 		}
-	},
-	[1910001] = {
+	}
+	pg.base.expedition_data_by_map[1910001] = {
 		map = 1910001,
 		name = "Toward Tulipa's Seas|| ||CHAPTER EX||E.X.",
 		bgm = "theme-tulipa",
@@ -22899,7 +22908,7 @@ pg.base.expedition_data_by_map = {
 		guide_id = "",
 		ani_name = "Map_1910002",
 		default_background = "star_level_bg_545",
-		on_activity = 5901,
+		on_activity = 50825,
 		map_name = "levelscene_mapselect_normal",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -22967,8 +22976,10 @@ pg.base.expedition_data_by_map = {
 			187,
 			188
 		}
-	},
-	[1910002] = {
+	}
+end)()
+(function ()
+	pg.base.expedition_data_by_map[1910002] = {
 		map = 1910002,
 		name = "Toward Tulipa's Seas|| ||CHAPTER EX||E.X.",
 		bgm = "theme-tulipa",
@@ -22982,7 +22993,7 @@ pg.base.expedition_data_by_map = {
 		guide_id = "",
 		ani_name = "Map_1910002",
 		default_background = "star_level_bg_545",
-		on_activity = 5901,
+		on_activity = 50825,
 		map_name = "levelscene_mapselect_normal",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -23050,8 +23061,8 @@ pg.base.expedition_data_by_map = {
 			187,
 			188
 		}
-	},
-	[1910003] = {
+	}
+	pg.base.expedition_data_by_map[1910003] = {
 		map = 1910003,
 		name = "Toward Tulipa's Seas - SP|| ||CHAPTER EX||E.X.",
 		bgm = "battle-tulipa",
@@ -23066,7 +23077,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1910003",
 		ani_controller = "",
 		default_background = "star_level_bg_545",
-		on_activity = 5901,
+		on_activity = 50825,
 		map_name = "levelscene_mapselect_sp",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -23113,8 +23124,8 @@ pg.base.expedition_data_by_map = {
 			187,
 			188
 		}
-	},
-	[1920001] = {
+	}
+	pg.base.expedition_data_by_map[1920001] = {
 		map = 1920001,
 		name = "A Rose on the High Tower - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-brokenworld-sad",
@@ -23213,8 +23224,8 @@ pg.base.expedition_data_by_map = {
 			225,
 			226
 		}
-	},
-	[1920002] = {
+	}
+	pg.base.expedition_data_by_map[1920002] = {
 		map = 1920002,
 		name = "A Rose on the High Tower - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "story-royalnavy-serious",
@@ -23313,8 +23324,8 @@ pg.base.expedition_data_by_map = {
 			225,
 			226
 		}
-	},
-	[1920011] = {
+	}
+	pg.base.expedition_data_by_map[1920011] = {
 		map = 1920011,
 		name = "A Rose on the High Tower - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-brokenworld-sad",
@@ -23413,8 +23424,8 @@ pg.base.expedition_data_by_map = {
 			225,
 			226
 		}
-	},
-	[1920012] = {
+	}
+	pg.base.expedition_data_by_map[1920012] = {
 		map = 1920012,
 		name = "A Rose on the High Tower - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "story-royalnavy-serious",
@@ -23513,8 +23524,8 @@ pg.base.expedition_data_by_map = {
 			225,
 			226
 		}
-	},
-	[1920025] = {
+	}
+	pg.base.expedition_data_by_map[1920025] = {
 		map = 1920025,
 		name = "A Rose on the High Tower - SP|| ||CHAPTER EX||E.X.",
 		bgm = "theme-glorious-meta",
@@ -23604,8 +23615,8 @@ pg.base.expedition_data_by_map = {
 			225,
 			226
 		}
-	},
-	[1920026] = {
+	}
+	pg.base.expedition_data_by_map[1920026] = {
 		map = 1920026,
 		name = "A Rose on the High Tower - EX|| ||CHAPTER EX||E.X.",
 		bgm = "theme-lion",
@@ -23696,8 +23707,8 @@ pg.base.expedition_data_by_map = {
 			225,
 			226
 		}
-	},
-	[1940001] = {
+	}
+	pg.base.expedition_data_by_map[1940001] = {
 		map = 1940001,
 		name = "The Tower of Horizons|| ||CHAPTER EX||E.X.",
 		bgm = "yumia-az-theme-pv",
@@ -23875,8 +23886,8 @@ pg.base.expedition_data_by_map = {
 			119,
 			120
 		}
-	},
-	[1940002] = {
+	}
+	pg.base.expedition_data_by_map[1940002] = {
 		map = 1940002,
 		name = "The Tower of Horizons - Gathering Site|| ||CHAPTER EX||E.X.",
 		bgm = "yumia-az-story",
@@ -23963,8 +23974,8 @@ pg.base.expedition_data_by_map = {
 			119,
 			120
 		}
-	},
-	[1940003] = {
+	}
+	pg.base.expedition_data_by_map[1940003] = {
 		map = 1940003,
 		name = "The Tower of Horizons - SP|| ||CHAPTER EX||E.X.",
 		bgm = "yumia-79",
@@ -24039,8 +24050,8 @@ pg.base.expedition_data_by_map = {
 			119,
 			120
 		}
-	},
-	[1940004] = {
+	}
+	pg.base.expedition_data_by_map[1940004] = {
 		map = 1940004,
 		name = "The Tower of Horizons - EX|| ||CHAPTER EX||E.X.",
 		bgm = "yumia-az-battle",
@@ -24116,8 +24127,8 @@ pg.base.expedition_data_by_map = {
 			119,
 			120
 		}
-	},
-	[1950001] = {
+	}
+	pg.base.expedition_data_by_map[1950001] = {
 		map = 1950001,
 		name = "Secrets of the Abyss - PT.1|| ||CHAPTER EX||E.X.",
 		bgm = "story-enzecheng-theme",
@@ -24237,8 +24248,8 @@ pg.base.expedition_data_by_map = {
 			175,
 			176
 		}
-	},
-	[1950002] = {
+	}
+	pg.base.expedition_data_by_map[1950002] = {
 		map = 1950002,
 		name = "Secrets of the Abyss - PT.2|| ||CHAPTER EX||E.X.",
 		bgm = "story-enzecheng-theme",
@@ -24358,8 +24369,8 @@ pg.base.expedition_data_by_map = {
 			175,
 			176
 		}
-	},
-	[1950011] = {
+	}
+	pg.base.expedition_data_by_map[1950011] = {
 		map = 1950011,
 		name = "Secrets of the Abyss - PT.1|| ||CHAPTER EX||E.X.",
 		bgm = "story-enzecheng-theme",
@@ -24479,8 +24490,8 @@ pg.base.expedition_data_by_map = {
 			175,
 			176
 		}
-	},
-	[1950012] = {
+	}
+	pg.base.expedition_data_by_map[1950012] = {
 		map = 1950012,
 		name = "Secrets of the Abyss - PT.2|| ||CHAPTER EX||E.X.",
 		bgm = "story-enzecheng-theme",
@@ -24600,8 +24611,8 @@ pg.base.expedition_data_by_map = {
 			175,
 			176
 		}
-	},
-	[1950025] = {
+	}
+	pg.base.expedition_data_by_map[1950025] = {
 		map = 1950025,
 		name = "Secrets of the Abyss - SP|| ||CHAPTER EX||E.X.",
 		bgm = "battle-tulipa",
@@ -24691,8 +24702,8 @@ pg.base.expedition_data_by_map = {
 			175,
 			176
 		}
-	},
-	[1950026] = {
+	}
+	pg.base.expedition_data_by_map[1950026] = {
 		map = 1950026,
 		name = "Secrets of the Abyss - EX|| ||CHAPTER EX||E.X.",
 		bgm = "login-2022401us",
@@ -24783,8 +24794,8 @@ pg.base.expedition_data_by_map = {
 			175,
 			176
 		}
-	},
-	[1960001] = {
+	}
+	pg.base.expedition_data_by_map[1960001] = {
 		map = 1960001,
 		name = "A Dance for Amahara Above - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "story-amahara-stage2",
@@ -24886,8 +24897,8 @@ pg.base.expedition_data_by_map = {
 			268,
 			269
 		}
-	},
-	[1960002] = {
+	}
+	pg.base.expedition_data_by_map[1960002] = {
 		map = 1960002,
 		name = "A Dance for Amahara Above - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "story-amahara-stage1",
@@ -24989,8 +25000,8 @@ pg.base.expedition_data_by_map = {
 			268,
 			269
 		}
-	},
-	[1960011] = {
+	}
+	pg.base.expedition_data_by_map[1960011] = {
 		map = 1960011,
 		name = "A Dance for Amahara Above - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "story-amahara-stage2",
@@ -25092,8 +25103,8 @@ pg.base.expedition_data_by_map = {
 			268,
 			269
 		}
-	},
-	[1960012] = {
+	}
+	pg.base.expedition_data_by_map[1960012] = {
 		map = 1960012,
 		name = "A Dance for Amahara Above - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "story-amahara-stage1",
@@ -25195,8 +25206,8 @@ pg.base.expedition_data_by_map = {
 			268,
 			269
 		}
-	},
-	[1960025] = {
+	}
+	pg.base.expedition_data_by_map[1960025] = {
 		map = 1960025,
 		name = "A Dance for Amahara Above - SP|| ||CHAPTER EX||E.X.",
 		bgm = "musashi-2",
@@ -25289,8 +25300,8 @@ pg.base.expedition_data_by_map = {
 			268,
 			269
 		}
-	},
-	[1960026] = {
+	}
+	pg.base.expedition_data_by_map[1960026] = {
 		map = 1960026,
 		name = "A Dance for Amahara Above - EX|| ||CHAPTER EX||E.X.",
 		bgm = "story-amahara-stage3",
@@ -25384,8 +25395,8 @@ pg.base.expedition_data_by_map = {
 			268,
 			269
 		}
-	},
-	[1970001] = {
+	}
+	pg.base.expedition_data_by_map[1970001] = {
 		map = 1970001,
 		name = "Tempesta and Islas de Libertád - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-tempest-light",
@@ -25474,8 +25485,8 @@ pg.base.expedition_data_by_map = {
 			318,
 			319
 		}
-	},
-	[1970002] = {
+	}
+	pg.base.expedition_data_by_map[1970002] = {
 		map = 1970002,
 		name = "Tempesta and Islas de Libertád - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "story-temepest-2",
@@ -25564,8 +25575,8 @@ pg.base.expedition_data_by_map = {
 			318,
 			319
 		}
-	},
-	[1970003] = {
+	}
+	pg.base.expedition_data_by_map[1970003] = {
 		map = 1970003,
 		name = "Tempesta and Islas de Libertád - SP|| ||CHAPTER EX||E.X.",
 		bgm = "theme-tempest-light",
@@ -25648,8 +25659,8 @@ pg.base.expedition_data_by_map = {
 			318,
 			319
 		}
-	},
-	[1970004] = {
+	}
+	pg.base.expedition_data_by_map[1970004] = {
 		map = 1970004,
 		name = "Tempesta and Islas de Libertád - EX|| ||CHAPTER EX||E.X.",
 		bgm = "story-tempest-freedom",
@@ -25733,8 +25744,8 @@ pg.base.expedition_data_by_map = {
 			318,
 			319
 		}
-	},
-	[1990001] = {
+	}
+	pg.base.expedition_data_by_map[1990001] = {
 		map = 1990001,
 		name = "A Note Through the Firmament - PT.1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-weimu",
@@ -25823,8 +25834,8 @@ pg.base.expedition_data_by_map = {
 			365,
 			366
 		}
-	},
-	[1990002] = {
+	}
+	pg.base.expedition_data_by_map[1990002] = {
 		map = 1990002,
 		name = "A Note Through the Firmament - PT.2|| ||CHAPTER EX||E.X.",
 		bgm = "story-weimu-link",
@@ -25913,8 +25924,8 @@ pg.base.expedition_data_by_map = {
 			365,
 			366
 		}
-	},
-	[1990011] = {
+	}
+	pg.base.expedition_data_by_map[1990011] = {
 		map = 1990011,
 		name = "A Note Through the Firmament - PT.1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-weimu",
@@ -26003,8 +26014,8 @@ pg.base.expedition_data_by_map = {
 			365,
 			366
 		}
-	},
-	[1990012] = {
+	}
+	pg.base.expedition_data_by_map[1990012] = {
 		map = 1990012,
 		name = "A Note Through the Firmament - PT.2|| ||CHAPTER EX||E.X.",
 		bgm = "story-weimu-link",
@@ -26093,8 +26104,8 @@ pg.base.expedition_data_by_map = {
 			365,
 			366
 		}
-	},
-	[1990025] = {
+	}
+	pg.base.expedition_data_by_map[1990025] = {
 		map = 1990025,
 		name = "A Note Through the Firmament - SP|| ||CHAPTER EX||E.X.",
 		bgm = "theme-uc",
@@ -26174,8 +26185,8 @@ pg.base.expedition_data_by_map = {
 			365,
 			366
 		}
-	},
-	[1990026] = {
+	}
+	pg.base.expedition_data_by_map[1990026] = {
 		map = 1990026,
 		name = "A Note Through the Firmament - EX|| ||CHAPTER EX||E.X.",
 		bgm = "theme-objectX-spread",
@@ -26256,8 +26267,8 @@ pg.base.expedition_data_by_map = {
 			365,
 			366
 		}
-	},
-	[2000001] = {
+	}
+	pg.base.expedition_data_by_map[2000001] = {
 		map = 2000001,
 		name = "Springtide Inn Online - PT.1|| ||CHAPTER EX||E.X.",
 		bgm = "story-kezhan-china",
@@ -26319,8 +26330,8 @@ pg.base.expedition_data_by_map = {
 				2000023
 			}
 		}
-	},
-	[2000002] = {
+	}
+	pg.base.expedition_data_by_map[2000002] = {
 		map = 2000002,
 		name = "Springtide Inn Online - PT.2|| ||CHAPTER EX||E.X.",
 		bgm = "story-kezhan-china",
@@ -26382,8 +26393,8 @@ pg.base.expedition_data_by_map = {
 				2000026
 			}
 		}
-	},
-	[2000011] = {
+	}
+	pg.base.expedition_data_by_map[2000011] = {
 		map = 2000011,
 		name = "Springtide Inn Online - PT.1|| ||CHAPTER EX||E.X.",
 		bgm = "story-kezhan-china",
@@ -26445,8 +26456,8 @@ pg.base.expedition_data_by_map = {
 				2000023
 			}
 		}
-	},
-	[2000012] = {
+	}
+	pg.base.expedition_data_by_map[2000012] = {
 		map = 2000012,
 		name = "Springtide Inn Online - PT.2|| ||CHAPTER EX||E.X.",
 		bgm = "story-kezhan-china",
@@ -26508,8 +26519,8 @@ pg.base.expedition_data_by_map = {
 				2000026
 			}
 		}
-	},
-	[2000025] = {
+	}
+	pg.base.expedition_data_by_map[2000025] = {
 		map = 2000025,
 		name = "Springtide Inn Online·SP|| ||CHAPTER EX||E.X.",
 		bgm = "theme-china-jianwu",
@@ -26562,8 +26573,8 @@ pg.base.expedition_data_by_map = {
 				2000041
 			}
 		}
-	},
-	[2000026] = {
+	}
+	pg.base.expedition_data_by_map[2000026] = {
 		map = 2000026,
 		name = "Springtide Inn Online·EX|| ||CHAPTER EX||E.X.",
 		bgm = "story-chunjie2025-1",
@@ -26617,8 +26628,8 @@ pg.base.expedition_data_by_map = {
 				2000052
 			}
 		}
-	},
-	[2010001] = {
+	}
+	pg.base.expedition_data_by_map[2010001] = {
 		map = 2010001,
 		name = "The Vagabond's Recruitment Plan|| ||CHAPTER EX||E.X.",
 		bgm = "story-wanderingcity-future",
@@ -26691,8 +26702,8 @@ pg.base.expedition_data_by_map = {
 			175,
 			176
 		}
-	},
-	[2010002] = {
+	}
+	pg.base.expedition_data_by_map[2010002] = {
 		map = 2010002,
 		name = "The Vagabond's Recruitment Plan|| ||CHAPTER EX||E.X.",
 		bgm = "story-wanderingcity-future",
@@ -26765,8 +26776,8 @@ pg.base.expedition_data_by_map = {
 			175,
 			176
 		}
-	},
-	[2010003] = {
+	}
+	pg.base.expedition_data_by_map[2010003] = {
 		map = 2010003,
 		name = "The Vagabond's Recruitment Plan - SP|| ||CHAPTER EX||E.X.",
 		bgm = "story-wanderingcity-future",
@@ -26830,8 +26841,8 @@ pg.base.expedition_data_by_map = {
 			175,
 			176
 		}
-	},
-	[2020001] = {
+	}
+	pg.base.expedition_data_by_map[2020001] = {
 		map = 2020001,
 		name = "Vacation Lane - Beachside Brilliance|| ||CHAPTER EX||E.X.",
 		bgm = "doa-az-story-1",
@@ -26907,8 +26918,8 @@ pg.base.expedition_data_by_map = {
 			401,
 			402
 		}
-	},
-	[2020002] = {
+	}
+	pg.base.expedition_data_by_map[2020002] = {
 		map = 2020002,
 		name = "Vacation Lane - Beachside Brilliance·SP|| ||CHAPTER EX||E.X.",
 		bgm = "doa-song-night06",
@@ -26975,8 +26986,8 @@ pg.base.expedition_data_by_map = {
 			401,
 			402
 		}
-	},
-	[2020003] = {
+	}
+	pg.base.expedition_data_by_map[2020003] = {
 		map = 2020003,
 		name = "Vacation Lane - Beachside Brilliance·EX|| ||CHAPTER EX||E.X.",
 		bgm = "doa-song-night06",
@@ -27044,8 +27055,8 @@ pg.base.expedition_data_by_map = {
 			401,
 			402
 		}
-	},
-	[2100000] = {
+	}
+	pg.base.expedition_data_by_map[2100000] = {
 		map = 2100000,
 		name = "Visitors Dyed in Red: Prequel || || S.P. || E.X.",
 		bgm = "level02",
@@ -27094,8 +27105,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100001] = {
+	}
+	pg.base.expedition_data_by_map[2100001] = {
 		map = 2100001,
 		name = "Visitors Dyed in Red: Sequel || || S.P. || E.X.",
 		bgm = "level02",
@@ -27144,8 +27155,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100010] = {
+	}
+	pg.base.expedition_data_by_map[2100010] = {
 		map = 2100010,
 		name = "Visitors Dyed in Red: Prequel || || S.P. || E.X.",
 		bgm = "level02",
@@ -27194,8 +27205,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100011] = {
+	}
+	pg.base.expedition_data_by_map[2100011] = {
 		map = 2100011,
 		name = "Visitors Dyed in Red: Sequel || || S.P. || E.X.",
 		bgm = "level02",
@@ -27244,8 +27255,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100020] = {
+	}
+	pg.base.expedition_data_by_map[2100020] = {
 		map = 2100020,
 		name = "Frigid Winter's Crown: Prequel || || S.P. || E.X.",
 		bgm = "Story-6",
@@ -27294,8 +27305,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100021] = {
+	}
+	pg.base.expedition_data_by_map[2100021] = {
 		map = 2100021,
 		name = "Frigid Winter's Crown: Sequel || || S.P. || E.X.",
 		bgm = "level03",
@@ -27344,8 +27355,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100030] = {
+	}
+	pg.base.expedition_data_by_map[2100030] = {
 		map = 2100030,
 		name = "Frigid Winter's Crown: Prequel || || S.P. || E.X.",
 		bgm = "Story-6",
@@ -27394,8 +27405,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100031] = {
+	}
+	pg.base.expedition_data_by_map[2100031] = {
 		map = 2100031,
 		name = "Frigid Winter's Crown: Sequel || || S.P. || E.X.",
 		bgm = "level03",
@@ -27444,8 +27455,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100040] = {
+	}
+	pg.base.expedition_data_by_map[2100040] = {
 		map = 2100040,
 		name = "Operation Divergent Chessboard Prequel|| S.P. || E.X.",
 		bgm = "level02",
@@ -27494,8 +27505,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100041] = {
+	}
+	pg.base.expedition_data_by_map[2100041] = {
 		map = 2100041,
 		name = "Operation Divergent Chessboard Sequel|| S.P. || E.X.",
 		bgm = "level02",
@@ -27523,8 +27534,8 @@ pg.base.expedition_data_by_map = {
 		uifx = "",
 		bind_map = 2100051,
 		clouds_pos = {}
-	},
-	[2100050] = {
+	}
+	pg.base.expedition_data_by_map[2100050] = {
 		map = 2100050,
 		name = "Operation Divergent Chessboard Prequel|| S.P. || E.X.",
 		bgm = "level02",
@@ -27573,8 +27584,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100051] = {
+	}
+	pg.base.expedition_data_by_map[2100051] = {
 		map = 2100051,
 		name = "Operation Divergent Chessboard Sequel|| S.P. || E.X.",
 		bgm = "level02",
@@ -27602,8 +27613,8 @@ pg.base.expedition_data_by_map = {
 		uifx = "",
 		bind_map = 2100041,
 		clouds_pos = {}
-	},
-	[2100060] = {
+	}
+	pg.base.expedition_data_by_map[2100060] = {
 		map = 2100060,
 		name = "Fallen Wings: Prequel || || S.P. || E.X.",
 		bgm = "Story-6",
@@ -27652,8 +27663,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100061] = {
+	}
+	pg.base.expedition_data_by_map[2100061] = {
 		map = 2100061,
 		name = "Fallen Wings: Sequel || || S.P. || E.X.",
 		bgm = "Story-6",
@@ -27702,8 +27713,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100070] = {
+	}
+	pg.base.expedition_data_by_map[2100070] = {
 		map = 2100070,
 		name = "Fallen Wings: Prequel || || S.P. || E.X.",
 		bgm = "Story-6",
@@ -27752,8 +27763,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100071] = {
+	}
+	pg.base.expedition_data_by_map[2100071] = {
 		map = 2100071,
 		name = "Fallen Wings: Sequel || || S.P. || E.X.",
 		bgm = "Story-6",
@@ -27802,8 +27813,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100080] = {
+	}
+	pg.base.expedition_data_by_map[2100080] = {
 		map = 2100080,
 		name = "Iris of Light and Dark - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "level03",
@@ -27852,8 +27863,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100081] = {
+	}
+	pg.base.expedition_data_by_map[2100081] = {
 		map = 2100081,
 		name = "Iris of Light and Dark - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "Level-french2",
@@ -27881,8 +27892,8 @@ pg.base.expedition_data_by_map = {
 		uifx = "",
 		bind_map = 2100091,
 		clouds_pos = {}
-	},
-	[2100090] = {
+	}
+	pg.base.expedition_data_by_map[2100090] = {
 		map = 2100090,
 		name = "Iris of Light and Dark - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "level03",
@@ -27931,8 +27942,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100091] = {
+	}
+	pg.base.expedition_data_by_map[2100091] = {
 		map = 2100091,
 		name = "Iris of Light and Dark - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "Level-french2",
@@ -27960,8 +27971,8 @@ pg.base.expedition_data_by_map = {
 		uifx = "",
 		bind_map = 2100081,
 		clouds_pos = {}
-	},
-	[2100100] = {
+	}
+	pg.base.expedition_data_by_map[2100100] = {
 		map = 2100100,
 		name = "Ink-Stained Steel Sakura - Pt. 1|| || S.P. || E.X.",
 		bgm = "Nagato-map",
@@ -28010,8 +28021,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100101] = {
+	}
+	pg.base.expedition_data_by_map[2100101] = {
 		map = 2100101,
 		name = "Ink-Stained Steel Sakura - Pt. 2|| || S.P. || E.X.",
 		bgm = "Nagato-map",
@@ -28060,8 +28071,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100110] = {
+	}
+	pg.base.expedition_data_by_map[2100110] = {
 		map = 2100110,
 		name = "Ink-Stained Steel Sakura - Pt. 1|| || S.P. || E.X.",
 		bgm = "Nagato-map",
@@ -28110,8 +28121,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100111] = {
+	}
+	pg.base.expedition_data_by_map[2100111] = {
 		map = 2100111,
 		name = "Ink-Stained Steel Sakura - Pt. 2|| || S.P. || E.X.",
 		bgm = "Nagato-map",
@@ -28160,8 +28171,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100120] = {
+	}
+	pg.base.expedition_data_by_map[2100120] = {
 		map = 2100120,
 		name = "Crimson Echoes - Part 1 || ||CHAPTER EX||S.P.",
 		bgm = "Nagato-map",
@@ -28210,8 +28221,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100121] = {
+	}
+	pg.base.expedition_data_by_map[2100121] = {
 		map = 2100121,
 		name = "Crimson Echoes - Part 2 || ||CHAPTER EX||S.P.",
 		bgm = "Story-6",
@@ -28260,8 +28271,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100130] = {
+	}
+	pg.base.expedition_data_by_map[2100130] = {
 		map = 2100130,
 		name = "Crimson Echoes - Part 1 || ||CHAPTER EX||S.P.",
 		bgm = "Nagato-map",
@@ -28310,8 +28321,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100131] = {
+	}
+	pg.base.expedition_data_by_map[2100131] = {
 		map = 2100131,
 		name = "Crimson Echoes - Part 2 || ||CHAPTER EX||S.P.",
 		bgm = "Story-6",
@@ -28360,8 +28371,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100140] = {
+	}
+	pg.base.expedition_data_by_map[2100140] = {
 		map = 2100140,
 		name = "Scherzo of Iron and Blood - Part 1|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
@@ -28410,8 +28421,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100141] = {
+	}
+	pg.base.expedition_data_by_map[2100141] = {
 		map = 2100141,
 		name = "Scherzo of Iron and Blood - Part 2| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
@@ -28460,8 +28471,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100150] = {
+	}
+	pg.base.expedition_data_by_map[2100150] = {
 		map = 2100150,
 		name = "Scherzo of Iron and Blood - Part 1|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
@@ -28510,8 +28521,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100151] = {
+	}
+	pg.base.expedition_data_by_map[2100151] = {
 		map = 2100151,
 		name = "Scherzo of Iron and Blood - Part 2| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
@@ -28560,8 +28571,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100160] = {
+	}
+	pg.base.expedition_data_by_map[2100160] = {
 		map = 2100160,
 		name = "Empyreal Tragicomedy - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "Battle-italy",
@@ -28610,8 +28621,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100161] = {
+	}
+	pg.base.expedition_data_by_map[2100161] = {
 		map = 2100161,
 		name = "Empyreal Tragicomedy - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "Battle-italy",
@@ -28660,8 +28671,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100170] = {
+	}
+	pg.base.expedition_data_by_map[2100170] = {
 		map = 2100170,
 		name = "Empyreal Tragicomedy - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "Battle-italy",
@@ -28710,8 +28721,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100171] = {
+	}
+	pg.base.expedition_data_by_map[2100171] = {
 		map = 2100171,
 		name = "Empyreal Tragicomedy - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "Battle-italy",
@@ -28760,8 +28771,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100180] = {
+	}
+	pg.base.expedition_data_by_map[2100180] = {
 		map = 2100180,
 		name = "Ashen Simulacrum - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
@@ -28810,8 +28821,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100181] = {
+	}
+	pg.base.expedition_data_by_map[2100181] = {
 		map = 2100181,
 		name = "Ashen Simulacrum - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
@@ -28860,8 +28871,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100190] = {
+	}
+	pg.base.expedition_data_by_map[2100190] = {
 		map = 2100190,
 		name = "Ashen Simulacrum - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
@@ -28910,8 +28921,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100191] = {
+	}
+	pg.base.expedition_data_by_map[2100191] = {
 		map = 2100191,
 		name = "Ashen Simulacrum - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
@@ -28960,8 +28971,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100200] = {
+	}
+	pg.base.expedition_data_by_map[2100200] = {
 		map = 2100200,
 		name = "Swirling Cherry Blossoms - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "xinnong-1",
@@ -29010,8 +29021,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100201] = {
+	}
+	pg.base.expedition_data_by_map[2100201] = {
 		map = 2100201,
 		name = "Swirling Cherry Blossoms - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
@@ -29060,8 +29071,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100210] = {
+	}
+	pg.base.expedition_data_by_map[2100210] = {
 		map = 2100210,
 		name = "Swirling Cherry Blossoms - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "xinnong-1",
@@ -29110,8 +29121,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100211] = {
+	}
+	pg.base.expedition_data_by_map[2100211] = {
 		map = 2100211,
 		name = "Swirling Cherry Blossoms - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
@@ -29160,8 +29171,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100221] = {
+	}
+	pg.base.expedition_data_by_map[2100221] = {
 		map = 2100221,
 		name = "Microlayer Medley - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "hunhe-story",
@@ -29210,8 +29221,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100222] = {
+	}
+	pg.base.expedition_data_by_map[2100222] = {
 		map = 2100222,
 		name = "Microlayer Medley - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "hunhe-level",
@@ -29260,8 +29271,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100231] = {
+	}
+	pg.base.expedition_data_by_map[2100231] = {
 		map = 2100231,
 		name = "Microlayer Medley - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "hunhe-story",
@@ -29310,8 +29321,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100232] = {
+	}
+	pg.base.expedition_data_by_map[2100232] = {
 		map = 2100232,
 		name = "Microlayer Medley - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "hunhe-level",
@@ -29360,8 +29371,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100241] = {
+	}
+	pg.base.expedition_data_by_map[2100241] = {
 		map = 2100241,
 		name = "Skybound Oratorio - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "level03",
@@ -29410,8 +29421,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100242] = {
+	}
+	pg.base.expedition_data_by_map[2100242] = {
 		map = 2100242,
 		name = "Skybound Oratorio - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-3",
@@ -29460,8 +29471,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100251] = {
+	}
+	pg.base.expedition_data_by_map[2100251] = {
 		map = 2100251,
 		name = "Skybound Oratorio - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "level03",
@@ -29510,8 +29521,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100252] = {
+	}
+	pg.base.expedition_data_by_map[2100252] = {
 		map = 2100252,
 		name = "Skybound Oratorio - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-3",
@@ -29560,8 +29571,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100261] = {
+	}
+	pg.base.expedition_data_by_map[2100261] = {
 		map = 2100261,
 		name = "Northern Overture - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "bgm-cccp3",
@@ -29610,8 +29621,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100262] = {
+	}
+	pg.base.expedition_data_by_map[2100262] = {
 		map = 2100262,
 		name = "Northern Overture - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "xinnong-3",
@@ -29660,8 +29671,10 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100271] = {
+	}
+end)()
+(function ()
+	pg.base.expedition_data_by_map[2100271] = {
 		map = 2100271,
 		name = "Northern Overture - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "bgm-cccp3",
@@ -29710,8 +29723,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100272] = {
+	}
+	pg.base.expedition_data_by_map[2100272] = {
 		map = 2100272,
 		name = "Northern Overture - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "xinnong-3",
@@ -29760,8 +29773,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100281] = {
+	}
+	pg.base.expedition_data_by_map[2100281] = {
 		map = 2100281,
 		name = "Aurora Noctis - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "bgm-cccp2",
@@ -29810,8 +29823,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100282] = {
+	}
+	pg.base.expedition_data_by_map[2100282] = {
 		map = 2100282,
 		name = "Aurora Noctis - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "xinnong-4",
@@ -29860,8 +29873,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100291] = {
+	}
+	pg.base.expedition_data_by_map[2100291] = {
 		map = 2100291,
 		name = "Aurora Noctis - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "bgm-cccp2",
@@ -29910,8 +29923,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100292] = {
+	}
+	pg.base.expedition_data_by_map[2100292] = {
 		map = 2100292,
 		name = "Aurora Noctis - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "xinnong-4",
@@ -29960,8 +29973,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100301] = {
+	}
+	pg.base.expedition_data_by_map[2100301] = {
 		map = 2100301,
 		name = "Inverted Orthant - Part 1|| ||CHAPTER EX||E.X.",
 		bgm = "blueocean-image",
@@ -30010,8 +30023,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100302] = {
+	}
+	pg.base.expedition_data_by_map[2100302] = {
 		map = 2100302,
 		name = "Inverted Orthant - Part 2|| ||CHAPTER EX||E.X.",
 		bgm = "battle-executor-type1",
@@ -30060,8 +30073,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100311] = {
+	}
+	pg.base.expedition_data_by_map[2100311] = {
 		map = 2100311,
 		name = "Inverted Orthant - Part 1|| ||CHAPTER EX||E.X.",
 		bgm = "blueocean-image",
@@ -30110,8 +30123,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100312] = {
+	}
+	pg.base.expedition_data_by_map[2100312] = {
 		map = 2100312,
 		name = "Inverted Orthant - Part 2|| ||CHAPTER EX||E.X.",
 		bgm = "battle-executor-type1",
@@ -30160,8 +30173,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100321] = {
+	}
+	pg.base.expedition_data_by_map[2100321] = {
 		map = 2100321,
 		name = "Dreamwaker's Butterfly - Reality|| ||CHAPTER EX||E.X.",
 		bgm = "xinnong-1",
@@ -30210,8 +30223,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100322] = {
+	}
+	pg.base.expedition_data_by_map[2100322] = {
 		map = 2100322,
 		name = "Dreamwaker's Butterfly - Dreamworld|| ||CHAPTER EX||E.X.",
 		bgm = "main-newyear",
@@ -30260,8 +30273,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100331] = {
+	}
+	pg.base.expedition_data_by_map[2100331] = {
 		map = 2100331,
 		name = "Dreamwaker's Butterfly - Reality|| ||CHAPTER EX||E.X.",
 		bgm = "xinnong-1",
@@ -30310,8 +30323,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100332] = {
+	}
+	pg.base.expedition_data_by_map[2100332] = {
 		map = 2100332,
 		name = "Dreamwaker's Butterfly - Dreamworld|| ||CHAPTER EX||E.X.",
 		bgm = "main-newyear",
@@ -30360,8 +30373,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100341] = {
+	}
+	pg.base.expedition_data_by_map[2100341] = {
 		map = 2100341,
 		name = "Mirror Involution - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "blueocean-image",
@@ -30410,8 +30423,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100342] = {
+	}
+	pg.base.expedition_data_by_map[2100342] = {
 		map = 2100342,
 		name = "Mirror Involution - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "deepblue-image",
@@ -30460,8 +30473,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100351] = {
+	}
+	pg.base.expedition_data_by_map[2100351] = {
 		map = 2100351,
 		name = "Mirror Involution - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "blueocean-image",
@@ -30510,8 +30523,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100352] = {
+	}
+	pg.base.expedition_data_by_map[2100352] = {
 		map = 2100352,
 		name = "Mirror Involution - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "deepblue-image",
@@ -30560,8 +30573,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100361] = {
+	}
+	pg.base.expedition_data_by_map[2100361] = {
 		map = 2100361,
 		name = "Khorovod of Dawn's Rime - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "bgm-cccp2",
@@ -30610,8 +30623,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100362] = {
+	}
+	pg.base.expedition_data_by_map[2100362] = {
 		map = 2100362,
 		name = "Khorovod of Dawn's Rime - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "deepblue-image",
@@ -30660,8 +30673,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100371] = {
+	}
+	pg.base.expedition_data_by_map[2100371] = {
 		map = 2100371,
 		name = "Khorovod of Dawn's Rime - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "bgm-cccp2",
@@ -30710,8 +30723,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100372] = {
+	}
+	pg.base.expedition_data_by_map[2100372] = {
 		map = 2100372,
 		name = "Khorovod of Dawn's Rime - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "deepblue-image",
@@ -30760,8 +30773,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100381] = {
+	}
+	pg.base.expedition_data_by_map[2100381] = {
 		map = 2100381,
 		name = "Upon the Shimmering Blue - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "battle-pacific",
@@ -30810,8 +30823,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100382] = {
+	}
+	pg.base.expedition_data_by_map[2100382] = {
 		map = 2100382,
 		name = "Upon the Shimmering Blue - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "map-longgong",
@@ -30860,8 +30873,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100391] = {
+	}
+	pg.base.expedition_data_by_map[2100391] = {
 		map = 2100391,
 		name = "Upon the Shimmering Blue - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "battle-pacific",
@@ -30910,8 +30923,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100392] = {
+	}
+	pg.base.expedition_data_by_map[2100392] = {
 		map = 2100392,
 		name = "Upon the Shimmering Blue - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "map-longgong",
@@ -30960,8 +30973,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100401] = {
+	}
+	pg.base.expedition_data_by_map[2100401] = {
 		map = 2100401,
 		name = "Daedalian Hymn - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "story-italy",
@@ -31010,8 +31023,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100402] = {
+	}
+	pg.base.expedition_data_by_map[2100402] = {
 		map = 2100402,
 		name = "Daedalian Hymn - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "battle-italy",
@@ -31060,8 +31073,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100411] = {
+	}
+	pg.base.expedition_data_by_map[2100411] = {
 		map = 2100411,
 		name = "Daedalian Hymn - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "story-italy",
@@ -31110,8 +31123,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100412] = {
+	}
+	pg.base.expedition_data_by_map[2100412] = {
 		map = 2100412,
 		name = "Daedalian Hymn - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "battle-italy",
@@ -31160,8 +31173,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100421] = {
+	}
+	pg.base.expedition_data_by_map[2100421] = {
 		map = 2100421,
 		name = "Tower of Transcendence - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "story-midgard",
@@ -31210,8 +31223,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100422] = {
+	}
+	pg.base.expedition_data_by_map[2100422] = {
 		map = 2100422,
 		name = "Tower of Transcendence - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "battle-midgard-hunting",
@@ -31260,8 +31273,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100431] = {
+	}
+	pg.base.expedition_data_by_map[2100431] = {
 		map = 2100431,
 		name = "Tower of Transcendence - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "story-midgard",
@@ -31310,8 +31323,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100432] = {
+	}
+	pg.base.expedition_data_by_map[2100432] = {
 		map = 2100432,
 		name = "Tower of Transcendence - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "battle-midgard-hunting",
@@ -31360,8 +31373,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100441] = {
+	}
+	pg.base.expedition_data_by_map[2100441] = {
 		map = 2100441,
 		name = "Abyssal Refrain - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "battle-deepecho",
@@ -31410,8 +31423,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100442] = {
+	}
+	pg.base.expedition_data_by_map[2100442] = {
 		map = 2100442,
 		name = "Abyssal Refrain - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "deepblue-image",
@@ -31460,8 +31473,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100451] = {
+	}
+	pg.base.expedition_data_by_map[2100451] = {
 		map = 2100451,
 		name = "Abyssal Refrain - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "battle-deepecho",
@@ -31510,8 +31523,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100452] = {
+	}
+	pg.base.expedition_data_by_map[2100452] = {
 		map = 2100452,
 		name = "Abyssal Refrain - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "deepblue-image",
@@ -31560,8 +31573,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100461] = {
+	}
+	pg.base.expedition_data_by_map[2100461] = {
 		map = 2100461,
 		name = "Pledge of the Radiant Court - PT. 1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-camelot",
@@ -31647,8 +31660,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[2100462] = {
+	}
+	pg.base.expedition_data_by_map[2100462] = {
 		map = 2100462,
 		name = "Pledge of the Radiant Court - PT. 2|| ||CHAPTER EX||E.X.",
 		bgm = "battle-boss-camelot",
@@ -31734,8 +31747,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[2100471] = {
+	}
+	pg.base.expedition_data_by_map[2100471] = {
 		map = 2100471,
 		name = "Pledge of the Radiant Court - PT. 1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-camelot",
@@ -31821,8 +31834,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[2100472] = {
+	}
+	pg.base.expedition_data_by_map[2100472] = {
 		map = 2100472,
 		name = "Pledge of the Radiant Court - PT. 2|| ||CHAPTER EX||E.X.",
 		bgm = "battle-boss-camelot",
@@ -31908,8 +31921,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[2100481] = {
+	}
+	pg.base.expedition_data_by_map[2100481] = {
 		map = 2100481,
 		name = "Aquilifer's Ballade - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "story-roma-outside",
@@ -31958,8 +31971,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100482] = {
+	}
+	pg.base.expedition_data_by_map[2100482] = {
 		map = 2100482,
 		name = "Aquilifer's Ballade - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "story-roma-inside",
@@ -32008,8 +32021,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100491] = {
+	}
+	pg.base.expedition_data_by_map[2100491] = {
 		map = 2100491,
 		name = "Aquilifer's Ballade - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "story-roma-outside",
@@ -32058,8 +32071,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100492] = {
+	}
+	pg.base.expedition_data_by_map[2100492] = {
 		map = 2100492,
 		name = "Aquilifer's Ballade - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "story-roma-inside",
@@ -32108,8 +32121,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100501] = {
+	}
+	pg.base.expedition_data_by_map[2100501] = {
 		map = 2100501,
 		name = "Rondo at Rainbow's End - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-highseasfleet",
@@ -32161,8 +32174,8 @@ pg.base.expedition_data_by_map = {
 			0.5,
 			0.5
 		}
-	},
-	[2100502] = {
+	}
+	pg.base.expedition_data_by_map[2100502] = {
 		map = 2100502,
 		name = "Rondo at Rainbow's End - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "battle-highseasfleet-reborn",
@@ -32214,8 +32227,8 @@ pg.base.expedition_data_by_map = {
 			0.5,
 			0.5
 		}
-	},
-	[2100511] = {
+	}
+	pg.base.expedition_data_by_map[2100511] = {
 		map = 2100511,
 		name = "Rondo at Rainbow's End - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-highseasfleet",
@@ -32267,8 +32280,8 @@ pg.base.expedition_data_by_map = {
 			0.5,
 			0.5
 		}
-	},
-	[2100512] = {
+	}
+	pg.base.expedition_data_by_map[2100512] = {
 		map = 2100512,
 		name = "Rondo at Rainbow's End - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "battle-highseasfleet-reborn",
@@ -32320,8 +32333,8 @@ pg.base.expedition_data_by_map = {
 			0.5,
 			0.5
 		}
-	},
-	[2100521] = {
+	}
+	pg.base.expedition_data_by_map[2100521] = {
 		map = 2100521,
 		name = "Violet Tempest, Blooming Lycoris - PT. 1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-musashi-inside",
@@ -32370,8 +32383,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100522] = {
+	}
+	pg.base.expedition_data_by_map[2100522] = {
 		map = 2100522,
 		name = "Violet Tempest, Blooming Lycoris - PT. 2|| ||CHAPTER EX||E.X.",
 		bgm = "musashi-1",
@@ -32420,8 +32433,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100531] = {
+	}
+	pg.base.expedition_data_by_map[2100531] = {
 		map = 2100531,
 		name = "Violet Tempest, Blooming Lycoris - PT. 1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-musashi-inside",
@@ -32470,8 +32483,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100532] = {
+	}
+	pg.base.expedition_data_by_map[2100532] = {
 		map = 2100532,
 		name = "Violet Tempest, Blooming Lycoris - PT. 2|| ||CHAPTER EX||E.X.",
 		bgm = "musashi-1",
@@ -32520,8 +32533,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100541] = {
+	}
+	pg.base.expedition_data_by_map[2100541] = {
 		map = 2100541,
 		name = "Parallel Superimposition - PT.1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-schoolfuture",
@@ -32580,8 +32593,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[2100542] = {
+	}
+	pg.base.expedition_data_by_map[2100542] = {
 		map = 2100542,
 		name = "Parallel Superimposition - PT.2|| ||CHAPTER EX||E.X.",
 		bgm = "theme-aostelab",
@@ -32640,8 +32653,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[2100551] = {
+	}
+	pg.base.expedition_data_by_map[2100551] = {
 		map = 2100551,
 		name = "Parallel Superimposition - PT.1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-schoolfuture",
@@ -32700,8 +32713,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[2100552] = {
+	}
+	pg.base.expedition_data_by_map[2100552] = {
 		map = 2100552,
 		name = "Parallel Superimposition - PT.2|| ||CHAPTER EX||E.X.",
 		bgm = "theme-aostelab",
@@ -32760,8 +32773,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[2100561] = {
+	}
+	pg.base.expedition_data_by_map[2100561] = {
 		map = 2100561,
 		name = "Revelations of Dust - PT.1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-vichy-church",
@@ -32810,8 +32823,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100562] = {
+	}
+	pg.base.expedition_data_by_map[2100562] = {
 		map = 2100562,
 		name = "Revelations of Dust - PT.2|| ||CHAPTER EX||E.X.",
 		bgm = "theme-vichy-revelation",
@@ -32860,8 +32873,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100571] = {
+	}
+	pg.base.expedition_data_by_map[2100571] = {
 		map = 2100571,
 		name = "Revelations of Dust - PT.1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-vichy-church",
@@ -32910,8 +32923,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2100572] = {
+	}
+	pg.base.expedition_data_by_map[2100572] = {
 		map = 2100572,
 		name = "Revelations of Dust - PT.2|| ||CHAPTER EX||E.X.",
 		bgm = "theme-vichy-revelation",
@@ -32960,8 +32973,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2200000] = {
+	}
+	pg.base.expedition_data_by_map[2200000] = {
 		map = 2200000,
 		name = "Strive, Wish, and Strategize || || Chapter SP || S.P.",
 		bgm = "level02",
@@ -33010,8 +33023,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2200010] = {
+	}
+	pg.base.expedition_data_by_map[2200010] = {
 		map = 2200010,
 		name = "The Pursuit of Graf Spee|| | S.P. ||S.P. ",
 		bgm = "level02",
@@ -33060,8 +33073,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2200020] = {
+	}
+	pg.base.expedition_data_by_map[2200020] = {
 		map = 2200020,
 		name = "Operation Juno|| ||CHAPTER SP||S.P. ",
 		bgm = "level02",
@@ -33110,8 +33123,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2200030] = {
+	}
+	pg.base.expedition_data_by_map[2200030] = {
 		map = 2200030,
 		name = "Moonlit Overture|| ||CHAPTER SP||S.P. ",
 		bgm = "level02",
@@ -33160,8 +33173,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2200040] = {
+	}
+	pg.base.expedition_data_by_map[2200040] = {
 		map = 2200040,
 		name = "Passionate Polaris|| ||CHAPTER SP||E.X.",
 		bgm = "azumaster-ins",
@@ -33210,8 +33223,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2200050] = {
+	}
+	pg.base.expedition_data_by_map[2200050] = {
 		map = 2200050,
 		name = "The Solomon Ranger|| ||CHAPTER SP||S.P.",
 		bgm = "level",
@@ -33260,8 +33273,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2200060] = {
+	}
+	pg.base.expedition_data_by_map[2200060] = {
 		map = 2200060,
 		name = "The Enigma and the Shark|| ||CHAPTER SP||S.P.",
 		bgm = "level02",
@@ -33310,8 +33323,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2200070] = {
+	}
+	pg.base.expedition_data_by_map[2200070] = {
 		map = 2200070,
 		name = "Universe in Unison|| ||CHAPTER EX||E.X.",
 		bgm = "idol-WISHNESS-inst",
@@ -33360,8 +33373,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2200080] = {
+	}
+	pg.base.expedition_data_by_map[2200080] = {
 		map = 2200080,
 		name = "Stars of the Shimmering Fjord|| ||CHAPTER SP||S.P.",
 		bgm = "level02",
@@ -33389,8 +33402,8 @@ pg.base.expedition_data_by_map = {
 		uifx = "",
 		bind_map = 0,
 		clouds_pos = {}
-	},
-	[2200090] = {
+	}
+	pg.base.expedition_data_by_map[2200090] = {
 		map = 2200090,
 		name = "The Way Home in the Night|| ||CHAPTER SP||S.P.",
 		bgm = "story-french1",
@@ -33439,8 +33452,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2200100] = {
+	}
+	pg.base.expedition_data_by_map[2200100] = {
 		map = 2200100,
 		name = "Counterattack Within the Fjord|| ||CHAPTER SP||S.P.",
 		bgm = "level02",
@@ -33489,8 +33502,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2200110] = {
+	}
+	pg.base.expedition_data_by_map[2200110] = {
 		map = 2200110,
 		name = "Sundered Blue|| ||CHAPTER SP||S.P.",
 		bgm = "level",
@@ -33539,8 +33552,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2200120] = {
+	}
+	pg.base.expedition_data_by_map[2200120] = {
 		map = 2200120,
 		name = "The Flame-Touched Dagger|| ||Chapter SP||S.P.",
 		bgm = "story-french1",
@@ -33589,8 +33602,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2200130] = {
+	}
+	pg.base.expedition_data_by_map[2200130] = {
 		map = 2200130,
 		name = "Virtual Tower|| ||CHAPTER EX||E.X.",
 		bgm = "theme-arbitrator-tower",
@@ -33676,8 +33689,8 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
-	},
-	[2200140] = {
+	}
+	pg.base.expedition_data_by_map[2200140] = {
 		map = 2200140,
 		name = "Tempesta and the Fountain of Youth - PT.1|| ||CHAPTER EX||E.X.",
 		bgm = "story-temepest-1",
@@ -33726,8 +33739,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2200141] = {
+	}
+	pg.base.expedition_data_by_map[2200141] = {
 		map = 2200141,
 		name = "Tempesta and the Fountain of Youth - PT.2|| ||CHAPTER EX||E.X.",
 		bgm = "theme-tempest-up",
@@ -33776,8 +33789,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[2200150] = {
+	}
+	pg.base.expedition_data_by_map[2200150] = {
 		map = 2200150,
 		name = "Operation Convergence|| ||CHAPTER EX||E.X.",
 		bgm = "story-6",
@@ -33826,8 +33839,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[9920001] = {
+	}
+	pg.base.expedition_data_by_map[9920001] = {
 		map = 9920001,
 		name = "Operation Divergent Chessboard Prequel|| S.P. || E.X.",
 		bgm = "level02",
@@ -33876,8 +33889,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[9920002] = {
+	}
+	pg.base.expedition_data_by_map[9920002] = {
 		map = 9920002,
 		name = "Operation Divergent Chessboard Sequel|| S.P. || E.X.",
 		bgm = "level02",
@@ -33905,8 +33918,8 @@ pg.base.expedition_data_by_map = {
 		uifx = "",
 		bind_map = 9920012,
 		clouds_pos = {}
-	},
-	[9920011] = {
+	}
+	pg.base.expedition_data_by_map[9920011] = {
 		map = 9920011,
 		name = "Operation Divergent Chessboard Prequel|| S.P. || E.X.",
 		bgm = "level02",
@@ -33955,8 +33968,8 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
-	},
-	[9920012] = {
+	}
+	pg.base.expedition_data_by_map[9920012] = {
 		map = 9920012,
 		name = "Operation Divergent Chessboard Sequel|| S.P. || E.X.",
 		bgm = "level02",
@@ -33984,8 +33997,8 @@ pg.base.expedition_data_by_map = {
 		uifx = "",
 		bind_map = 9920002,
 		clouds_pos = {}
-	},
-	[9920021] = {
+	}
+	pg.base.expedition_data_by_map[9920021] = {
 		map = 9920021,
 		name = "Operation Divergent Chessboard EX|| S.P. || E.X.",
 		bgm = "level02",
@@ -34014,4 +34027,4 @@ pg.base.expedition_data_by_map = {
 		bind_map = 9920012,
 		clouds_pos = {}
 	}
-}
+end)()

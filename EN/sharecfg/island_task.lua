@@ -1,419 +1,408 @@
 pg = pg or {}
-pg.island_task = setmetatable({
-	__name = "island_task",
-	get_id_list_by_type = {
-		{
-			10001000,
-			10001010,
-			10001020,
-			10001030,
-			10001040,
-			10001050,
-			10001060,
-			10001070,
-			10001071,
-			10001080,
-			10001090,
-			10001100,
-			10001110,
-			10001120,
-			10001130,
-			10001140,
-			10001141,
-			10001150,
-			10001151,
-			10001160,
-			10001170,
-			10001180,
-			10002010,
-			10002020,
-			10002030,
-			10002031,
-			10002032,
-			10002040,
-			10002050,
-			10002051,
-			10002060,
-			10002070,
-			10002080,
-			10002081,
-			10002090,
-			10002100,
-			10002110,
-			10002120,
-			10002130,
-			10002131,
-			10002140,
-			10002141,
-			10002150,
-			10002160,
-			10002170,
-			10002180,
-			10002190,
-			10002200,
-			10002210,
-			10002211,
-			10002220,
-			10002230,
-			10002240,
-			10002250,
-			10002251,
-			10002260,
-			10002270,
-			10002271,
-			10002280,
-			10002290,
-			10002300,
-			10002310,
-			10002320,
-			10002330,
-			10002340,
-			10002350,
-			10002360,
-			10002370,
-			10002380,
-			10003010,
-			10003011,
-			10003020,
-			10003030,
-			10003040,
-			10003050,
-			10003051,
-			10003060,
-			10003070,
-			10003080,
-			10003090,
-			10003091,
-			10003100,
-			10003110,
-			10004010,
-			10004020,
-			10004030
-		},
-		{
-			10019999,
-			20001001,
-			20001002,
-			20001003,
-			20001004,
-			20001005,
-			20001006,
-			20001007,
-			20001008,
-			20001009,
-			20002001,
-			20002002,
-			20002003,
-			20002004,
-			20002005,
-			20002006,
-			20003001,
-			20003002,
-			20003003,
-			20003004,
-			20004000,
-			20004001,
-			20004002,
-			20004003,
-			20005001,
-			20005002,
-			20005003,
-			20005004,
-			20005005,
-			20005006,
-			20005007,
-			20005008,
-			20005009,
-			20006001,
-			20006002,
-			20006003,
-			20006004,
-			20006005,
-			20006006,
-			20006007,
-			20006008,
-			20006009,
-			20007001,
-			20007002,
-			20007003,
-			20007004,
-			20007005,
-			20007006,
-			20007007,
-			20007008,
-			20007009,
-			20007010,
-			20008001,
-			20008002,
-			20008003,
-			20008004,
-			20009001,
-			20009002,
-			20009003,
-			20009004,
-			20010001,
-			20010002,
-			20010003,
-			20010004,
-			20010005,
-			20010006,
-			20010007,
-			20010008,
-			20011001,
-			20011002,
-			20011003,
-			20011004,
-			20011005,
-			20012001,
-			20012002,
-			20012003,
-			20012004,
-			20012005,
-			20012006,
-			20012007,
-			20012008,
-			20012009,
-			20012010,
-			20013001,
-			20013002,
-			20013003,
-			20013004,
-			20013005,
-			20013006,
-			20013007,
-			20013008,
-			20014001,
-			20014002,
-			20014003,
-			20015001,
-			20015002,
-			20016001,
-			20016002,
-			20016003,
-			20016004,
-			20017001,
-			20017002,
-			20017003
-		},
-		{
-			30000001,
-			30000002,
-			30000003,
-			30000004,
-			30000005,
-			30000006,
-			30000007,
-			30000008,
-			30101001,
-			30201001,
-			30301001,
-			30401001,
-			30501001,
-			30501002,
-			30501011,
-			30501012,
-			30501021,
-			30501022,
-			30501031,
-			30501032,
-			30502001,
-			30502002,
-			30502011,
-			30502012,
-			30502021,
-			30502022,
-			30502031,
-			30502032,
-			30504001,
-			30505001,
-			30508001,
-			30601001,
-			30701001,
-			30702001,
-			30703001,
-			30704001,
-			30705001,
-			30706001
-		},
-		{
-			40101001,
-			40102001,
-			40103001,
-			40104001,
-			40105001,
-			40106001,
-			40107001,
-			40108001,
-			40109001,
-			40110001,
-			40201001,
-			40301001,
-			40401001,
-			40501001,
-			40601001
-		},
-		[5] = {
-			50000001,
-			50000002,
-			51001001,
-			51001002,
-			51001003,
-			51002001,
-			51002002,
-			51002003,
-			51003001,
-			51003002,
-			51003003,
-			50001001,
-			50001002,
-			50001003,
-			50001004,
-			50001005,
-			50001006,
-			50001007,
-			50001008,
-			50001009,
-			50001010,
-			50001011,
-			50001012,
-			50001013,
-			50001014,
-			50002001,
-			50002002,
-			50002003,
-			50002004,
-			50002005,
-			50002006,
-			50002007,
-			50002008,
-			50002009,
-			50002010,
-			50002011,
-			50002012,
-			50002013,
-			50002014,
-			50003001,
-			50003002,
-			50003003,
-			50003004,
-			50003005,
-			50003006,
-			50003007,
-			50003008
-		},
-		[9] = {
-			51001000,
-			51002000,
-			51003000,
-			20013000,
-			90001001,
-			90001002,
-			90001003,
-			90001004,
-			90001005,
-			90001006,
-			90001007,
-			90001008,
-			90001009,
-			90001010,
-			90001011,
-			90001012,
-			90001020
-		},
-		[8] = {
-			80001001,
-			80001002,
-			80001003,
-			80001004,
-			80001005,
-			80001006,
-			80001007,
-			80001008,
-			80001009,
-			80001010,
-			80001011,
-			80001012,
-			80001013,
-			80001014,
-			80001015,
-			80001016,
-			80001017,
-			80001018,
-			80001019,
-			80001020,
-			80001021,
-			80001022,
-			80001023,
-			80001024,
-			80001025,
-			80001026,
-			80001027,
-			80001028,
-			80001029,
-			80001030,
-			80001101,
-			80001102,
-			80001103,
-			80001104,
-			80001105,
-			80001106,
-			80001107,
-			80001108,
-			80001109,
-			80001110,
-			80001111,
-			80001112,
-			80001113,
-			80001114,
-			80001115,
-			80001116,
-			80001117,
-			80001118,
-			80001119,
-			80001120,
-			80001121,
-			80001122,
-			80001123,
-			80001124,
-			80001125,
-			80001126,
-			80001127,
-			80001128,
-			80001129,
-			80001130,
-			80001201,
-			80001202,
-			80001203,
-			80001204,
-			80001205,
-			80001206,
-			80001207,
-			80001208,
-			80001209,
-			80001210,
-			80001211,
-			80001212,
-			80001213,
-			80001214,
-			80001215,
-			80001216,
-			80001217,
-			80001218,
-			80001219,
-			80001220,
-			80001221,
-			80001222,
-			80001223,
-			80001224,
-			80001225,
-			80001226,
-			80001227,
-			80001228,
-			80001229,
-			80001230
-		}
-	},
-	all = {
+pg.island_task = rawget(pg, "island_task") or setmetatable({
+	__name = "island_task"
+}, confNEO)
+pg.island_task.__namecode__ = true
+pg.island_task.all = {
+	10001000,
+	10001010,
+	10001020,
+	10001030,
+	10001040,
+	10001050,
+	10001060,
+	10001070,
+	10001071,
+	10001080,
+	10001090,
+	10001100,
+	10001110,
+	10001120,
+	10001130,
+	10001140,
+	10001141,
+	10001150,
+	10001151,
+	10001160,
+	10001170,
+	10001180,
+	10002010,
+	10002020,
+	10002030,
+	10002031,
+	10002032,
+	10002040,
+	10002050,
+	10002051,
+	10002060,
+	10002070,
+	10002080,
+	10002081,
+	10002090,
+	10002100,
+	10002110,
+	10002120,
+	10002130,
+	10002131,
+	10002140,
+	10002141,
+	10002150,
+	10002160,
+	10002170,
+	10002180,
+	10002190,
+	10002200,
+	10002210,
+	10002211,
+	10002220,
+	10002230,
+	10002240,
+	10002250,
+	10002251,
+	10002260,
+	10002270,
+	10002271,
+	10002280,
+	10002290,
+	10002300,
+	10002310,
+	10002320,
+	10002330,
+	10002340,
+	10002350,
+	10002360,
+	10002370,
+	10002380,
+	10003010,
+	10003011,
+	10003020,
+	10003030,
+	10003040,
+	10003050,
+	10003051,
+	10003060,
+	10003070,
+	10003080,
+	10003090,
+	10003091,
+	10003100,
+	10003110,
+	10004010,
+	10004020,
+	10004030,
+	10019999,
+	50000001,
+	50000002,
+	51001000,
+	51001001,
+	51001002,
+	51001003,
+	51002000,
+	51002001,
+	51002002,
+	51002003,
+	51003000,
+	51003001,
+	51003002,
+	51003003,
+	50001001,
+	50001002,
+	50001003,
+	50001004,
+	50001005,
+	50001006,
+	50001007,
+	50001008,
+	50001009,
+	50001010,
+	50001011,
+	50001012,
+	50001013,
+	50001014,
+	50002001,
+	50002002,
+	50002003,
+	50002004,
+	50002005,
+	50002006,
+	50002007,
+	50002008,
+	50002009,
+	50002010,
+	50002011,
+	50002012,
+	50002013,
+	50002014,
+	50003001,
+	50003002,
+	50003003,
+	50003004,
+	50003005,
+	50003006,
+	50003007,
+	50003008,
+	80001001,
+	80001002,
+	80001003,
+	80001004,
+	80001005,
+	80001006,
+	80001007,
+	80001008,
+	80001009,
+	80001010,
+	80001011,
+	80001012,
+	80001013,
+	80001014,
+	80001015,
+	80001016,
+	80001017,
+	80001018,
+	80001019,
+	80001020,
+	80001021,
+	80001022,
+	80001023,
+	80001024,
+	80001025,
+	80001026,
+	80001027,
+	80001028,
+	80001029,
+	80001030,
+	80001101,
+	80001102,
+	80001103,
+	80001104,
+	80001105,
+	80001106,
+	80001107,
+	80001108,
+	80001109,
+	80001110,
+	80001111,
+	80001112,
+	80001113,
+	80001114,
+	80001115,
+	80001116,
+	80001117,
+	80001118,
+	80001119,
+	80001120,
+	80001121,
+	80001122,
+	80001123,
+	80001124,
+	80001125,
+	80001126,
+	80001127,
+	80001128,
+	80001129,
+	80001130,
+	80001201,
+	80001202,
+	80001203,
+	80001204,
+	80001205,
+	80001206,
+	80001207,
+	80001208,
+	80001209,
+	80001210,
+	80001211,
+	80001212,
+	80001213,
+	80001214,
+	80001215,
+	80001216,
+	80001217,
+	80001218,
+	80001219,
+	80001220,
+	80001221,
+	80001222,
+	80001223,
+	80001224,
+	80001225,
+	80001226,
+	80001227,
+	80001228,
+	80001229,
+	80001230,
+	20001001,
+	20001002,
+	20001003,
+	20001004,
+	20001005,
+	20001006,
+	20001007,
+	20001008,
+	20001009,
+	20002001,
+	20002002,
+	20002003,
+	20002004,
+	20002005,
+	20002006,
+	20003001,
+	20003002,
+	20003003,
+	20003004,
+	20004000,
+	20004001,
+	20004002,
+	20004003,
+	20005001,
+	20005002,
+	20005003,
+	20005004,
+	20005005,
+	20005006,
+	20005007,
+	20005008,
+	20005009,
+	20006001,
+	20006002,
+	20006003,
+	20006004,
+	20006005,
+	20006006,
+	20006007,
+	20006008,
+	20006009,
+	20007001,
+	20007002,
+	20007003,
+	20007004,
+	20007005,
+	20007006,
+	20007007,
+	20007008,
+	20007009,
+	20007010,
+	20008001,
+	20008002,
+	20008003,
+	20008004,
+	20009001,
+	20009002,
+	20009003,
+	20009004,
+	20010001,
+	20010002,
+	20010003,
+	20010004,
+	20010005,
+	20010006,
+	20010007,
+	20010008,
+	20011001,
+	20011002,
+	20011003,
+	20011004,
+	20011005,
+	20012001,
+	20012002,
+	20012003,
+	20012004,
+	20012005,
+	20012006,
+	20012007,
+	20012008,
+	20012009,
+	20012010,
+	20013000,
+	20013001,
+	20013002,
+	20013003,
+	20013004,
+	20013005,
+	20013006,
+	20013007,
+	20013008,
+	20014001,
+	20014002,
+	20014003,
+	20015001,
+	20015002,
+	20016001,
+	20016002,
+	20016003,
+	20016004,
+	20017001,
+	20017002,
+	20017003,
+	30000001,
+	30000002,
+	30000003,
+	30000004,
+	30000005,
+	30000006,
+	30000007,
+	30000008,
+	30101001,
+	30201001,
+	30301001,
+	30401001,
+	30501001,
+	30501002,
+	30501011,
+	30501012,
+	30501021,
+	30501022,
+	30501031,
+	30501032,
+	30502001,
+	30502002,
+	30502011,
+	30502012,
+	30502021,
+	30502022,
+	30502031,
+	30502032,
+	30504001,
+	30505001,
+	30508001,
+	30601001,
+	30701001,
+	30702001,
+	30703001,
+	30704001,
+	30705001,
+	30706001,
+	40101001,
+	40102001,
+	40103001,
+	40104001,
+	40105001,
+	40106001,
+	40107001,
+	40108001,
+	40109001,
+	40110001,
+	40201001,
+	40301001,
+	40401001,
+	40501001,
+	40601001,
+	90001001,
+	90001002,
+	90001003,
+	90001004,
+	90001005,
+	90001006,
+	90001007,
+	90001008,
+	90001009,
+	90001010,
+	90001011,
+	90001012,
+	90001020
+}
+pg.island_task.get_id_list_by_type = {
+	{
 		10001000,
 		10001010,
 		10001020,
@@ -499,19 +488,179 @@ pg.island_task = setmetatable({
 		10003110,
 		10004010,
 		10004020,
-		10004030,
+		10004030
+	},
+	{
 		10019999,
+		20001001,
+		20001002,
+		20001003,
+		20001004,
+		20001005,
+		20001006,
+		20001007,
+		20001008,
+		20001009,
+		20002001,
+		20002002,
+		20002003,
+		20002004,
+		20002005,
+		20002006,
+		20003001,
+		20003002,
+		20003003,
+		20003004,
+		20004000,
+		20004001,
+		20004002,
+		20004003,
+		20005001,
+		20005002,
+		20005003,
+		20005004,
+		20005005,
+		20005006,
+		20005007,
+		20005008,
+		20005009,
+		20006001,
+		20006002,
+		20006003,
+		20006004,
+		20006005,
+		20006006,
+		20006007,
+		20006008,
+		20006009,
+		20007001,
+		20007002,
+		20007003,
+		20007004,
+		20007005,
+		20007006,
+		20007007,
+		20007008,
+		20007009,
+		20007010,
+		20008001,
+		20008002,
+		20008003,
+		20008004,
+		20009001,
+		20009002,
+		20009003,
+		20009004,
+		20010001,
+		20010002,
+		20010003,
+		20010004,
+		20010005,
+		20010006,
+		20010007,
+		20010008,
+		20011001,
+		20011002,
+		20011003,
+		20011004,
+		20011005,
+		20012001,
+		20012002,
+		20012003,
+		20012004,
+		20012005,
+		20012006,
+		20012007,
+		20012008,
+		20012009,
+		20012010,
+		20013001,
+		20013002,
+		20013003,
+		20013004,
+		20013005,
+		20013006,
+		20013007,
+		20013008,
+		20014001,
+		20014002,
+		20014003,
+		20015001,
+		20015002,
+		20016001,
+		20016002,
+		20016003,
+		20016004,
+		20017001,
+		20017002,
+		20017003
+	},
+	{
+		30000001,
+		30000002,
+		30000003,
+		30000004,
+		30000005,
+		30000006,
+		30000007,
+		30000008,
+		30101001,
+		30201001,
+		30301001,
+		30401001,
+		30501001,
+		30501002,
+		30501011,
+		30501012,
+		30501021,
+		30501022,
+		30501031,
+		30501032,
+		30502001,
+		30502002,
+		30502011,
+		30502012,
+		30502021,
+		30502022,
+		30502031,
+		30502032,
+		30504001,
+		30505001,
+		30508001,
+		30601001,
+		30701001,
+		30702001,
+		30703001,
+		30704001,
+		30705001,
+		30706001
+	},
+	{
+		40101001,
+		40102001,
+		40103001,
+		40104001,
+		40105001,
+		40106001,
+		40107001,
+		40108001,
+		40109001,
+		40110001,
+		40201001,
+		40301001,
+		40401001,
+		40501001,
+		40601001
+	},
+	{
 		50000001,
 		50000002,
-		51001000,
 		51001001,
 		51001002,
 		51001003,
-		51002000,
 		51002001,
 		51002002,
 		51002003,
-		51003000,
 		51003001,
 		51003002,
 		51003003,
@@ -550,7 +699,9 @@ pg.island_task = setmetatable({
 		50003005,
 		50003006,
 		50003007,
-		50003008,
+		50003008
+	},
+	[8] = {
 		80001001,
 		80001002,
 		80001003,
@@ -640,163 +791,13 @@ pg.island_task = setmetatable({
 		80001227,
 		80001228,
 		80001229,
-		80001230,
-		20001001,
-		20001002,
-		20001003,
-		20001004,
-		20001005,
-		20001006,
-		20001007,
-		20001008,
-		20001009,
-		20002001,
-		20002002,
-		20002003,
-		20002004,
-		20002005,
-		20002006,
-		20003001,
-		20003002,
-		20003003,
-		20003004,
-		20004000,
-		20004001,
-		20004002,
-		20004003,
-		20005001,
-		20005002,
-		20005003,
-		20005004,
-		20005005,
-		20005006,
-		20005007,
-		20005008,
-		20005009,
-		20006001,
-		20006002,
-		20006003,
-		20006004,
-		20006005,
-		20006006,
-		20006007,
-		20006008,
-		20006009,
-		20007001,
-		20007002,
-		20007003,
-		20007004,
-		20007005,
-		20007006,
-		20007007,
-		20007008,
-		20007009,
-		20007010,
-		20008001,
-		20008002,
-		20008003,
-		20008004,
-		20009001,
-		20009002,
-		20009003,
-		20009004,
-		20010001,
-		20010002,
-		20010003,
-		20010004,
-		20010005,
-		20010006,
-		20010007,
-		20010008,
-		20011001,
-		20011002,
-		20011003,
-		20011004,
-		20011005,
-		20012001,
-		20012002,
-		20012003,
-		20012004,
-		20012005,
-		20012006,
-		20012007,
-		20012008,
-		20012009,
-		20012010,
+		80001230
+	},
+	[9] = {
+		51001000,
+		51002000,
+		51003000,
 		20013000,
-		20013001,
-		20013002,
-		20013003,
-		20013004,
-		20013005,
-		20013006,
-		20013007,
-		20013008,
-		20014001,
-		20014002,
-		20014003,
-		20015001,
-		20015002,
-		20016001,
-		20016002,
-		20016003,
-		20016004,
-		20017001,
-		20017002,
-		20017003,
-		30000001,
-		30000002,
-		30000003,
-		30000004,
-		30000005,
-		30000006,
-		30000007,
-		30000008,
-		30101001,
-		30201001,
-		30301001,
-		30401001,
-		30501001,
-		30501002,
-		30501011,
-		30501012,
-		30501021,
-		30501022,
-		30501031,
-		30501032,
-		30502001,
-		30502002,
-		30502011,
-		30502012,
-		30502021,
-		30502022,
-		30502031,
-		30502032,
-		30504001,
-		30505001,
-		30508001,
-		30601001,
-		30701001,
-		30702001,
-		30703001,
-		30704001,
-		30705001,
-		30706001,
-		40101001,
-		40102001,
-		40103001,
-		40104001,
-		40105001,
-		40106001,
-		40107001,
-		40108001,
-		40109001,
-		40110001,
-		40201001,
-		40301001,
-		40401001,
-		40501001,
-		40601001,
 		90001001,
 		90001002,
 		90001003,
@@ -811,10 +812,12 @@ pg.island_task = setmetatable({
 		90001012,
 		90001020
 	}
-}, confHX)
+}
 pg.base = pg.base or {}
-pg.base.island_task = {
-	[10001000] = {
+pg.base.island_task = {}
+
+(function ()
+	pg.base.island_task[10001000] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "In the Wilderness",
@@ -846,8 +849,8 @@ pg.base.island_task = {
 		target_id = {
 			100010001
 		}
-	},
-	[10001010] = {
+	}
+	pg.base.island_task[10001010] = {
 		trigger_data = 0,
 		trigger_tips = 1,
 		name = "Reunion",
@@ -881,8 +884,8 @@ pg.base.island_task = {
 		target_id = {
 			100010101
 		}
-	},
-	[10001020] = {
+	}
+	pg.base.island_task[10001020] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "John's Repair Plan",
@@ -925,8 +928,8 @@ pg.base.island_task = {
 				1000
 			}
 		}
-	},
-	[10001030] = {
+	}
+	pg.base.island_task[10001030] = {
 		trigger_data = 0,
 		trigger_tips = 1,
 		name = "Pickaxes and Coal",
@@ -969,8 +972,8 @@ pg.base.island_task = {
 				10
 			}
 		}
-	},
-	[10001040] = {
+	}
+	pg.base.island_task[10001040] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Hatches and Wood",
@@ -1013,8 +1016,8 @@ pg.base.island_task = {
 				10
 			}
 		}
-	},
-	[10001050] = {
+	}
+	pg.base.island_task[10001050] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Teamwork on the Plains",
@@ -1054,8 +1057,8 @@ pg.base.island_task = {
 				1000
 			}
 		}
-	},
-	[10001060] = {
+	}
+	pg.base.island_task[10001060] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Off Into the Distance",
@@ -1095,8 +1098,8 @@ pg.base.island_task = {
 				1000
 			}
 		}
-	},
-	[10001070] = {
+	}
+	pg.base.island_task[10001070] = {
 		trigger_data = 0,
 		trigger_tips = 1,
 		name = "Gifts from the Plains",
@@ -1133,8 +1136,8 @@ pg.base.island_task = {
 		target_id = {
 			100010701
 		}
-	},
-	[10001071] = {
+	}
+	pg.base.island_task[10001071] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Gifts from the Plains",
@@ -1168,8 +1171,8 @@ pg.base.island_task = {
 		target_id = {
 			100010711
 		}
-	},
-	[10001080] = {
+	}
+	pg.base.island_task[10001080] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Looking for Traces in the Harbor",
@@ -1212,8 +1215,8 @@ pg.base.island_task = {
 				1000
 			}
 		}
-	},
-	[10001090] = {
+	}
+	pg.base.island_task[10001090] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "The Mysterious Café Manjuu",
@@ -1253,8 +1256,8 @@ pg.base.island_task = {
 				1000
 			}
 		}
-	},
-	[10001100] = {
+	}
+	pg.base.island_task[10001100] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Surrounded by Alarms",
@@ -1297,8 +1300,8 @@ pg.base.island_task = {
 				1000
 			}
 		}
-	},
-	[10001110] = {
+	}
+	pg.base.island_task[10001110] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "The Missing Green Cat",
@@ -1338,8 +1341,8 @@ pg.base.island_task = {
 				1000
 			}
 		}
-	},
-	[10001120] = {
+	}
+	pg.base.island_task[10001120] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "A Secret Base?",
@@ -1387,8 +1390,8 @@ pg.base.island_task = {
 				10
 			}
 		}
-	},
-	[10001130] = {
+	}
+	pg.base.island_task[10001130] = {
 		trigger_data = 0,
 		trigger_tips = 1,
 		name = "Rights Secured",
@@ -1422,8 +1425,8 @@ pg.base.island_task = {
 		target_id = {
 			100011301
 		}
-	},
-	[10001140] = {
+	}
+	pg.base.island_task[10001140] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Island Tech",
@@ -1466,8 +1469,8 @@ pg.base.island_task = {
 				1000
 			}
 		}
-	},
-	[10001141] = {
+	}
+	pg.base.island_task[10001141] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Island Tech",
@@ -1510,8 +1513,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[10001150] = {
+	}
+	pg.base.island_task[10001150] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Island Authorization Device",
@@ -1554,8 +1557,8 @@ pg.base.island_task = {
 				1000
 			}
 		}
-	},
-	[10001151] = {
+	}
+	pg.base.island_task[10001151] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Island Authorization Device",
@@ -1589,8 +1592,8 @@ pg.base.island_task = {
 		target_id = {
 			100011511
 		}
-	},
-	[10001160] = {
+	}
+	pg.base.island_task[10001160] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Saratoga's Arrival",
@@ -1630,8 +1633,8 @@ pg.base.island_task = {
 				1000
 			}
 		}
-	},
-	[10001170] = {
+	}
+	pg.base.island_task[10001170] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Island EXP Textbook",
@@ -1684,8 +1687,8 @@ pg.base.island_task = {
 				60
 			}
 		}
-	},
-	[10001180] = {
+	}
+	pg.base.island_task[10001180] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Raise the Island Development Level",
@@ -1719,8 +1722,8 @@ pg.base.island_task = {
 		target_id = {
 			100011801
 		}
-	},
-	[10002010] = {
+	}
+	pg.base.island_task[10002010] = {
 		trigger_data = 0,
 		trigger_tips = 1,
 		name = "All Business Is Good Business",
@@ -1765,8 +1768,8 @@ pg.base.island_task = {
 				20
 			}
 		}
-	},
-	[10002020] = {
+	}
+	pg.base.island_task[10002020] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Tales of Treasure",
@@ -1809,8 +1812,8 @@ pg.base.island_task = {
 				1000
 			}
 		}
-	},
-	[10002030] = {
+	}
+	pg.base.island_task[10002030] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Trailing Stephen",
@@ -1844,8 +1847,8 @@ pg.base.island_task = {
 		target_id = {
 			100020301
 		}
-	},
-	[10002031] = {
+	}
+	pg.base.island_task[10002031] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Trailing Stephen",
@@ -1879,8 +1882,8 @@ pg.base.island_task = {
 		target_id = {
 			100020311
 		}
-	},
-	[10002032] = {
+	}
+	pg.base.island_task[10002032] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Trailing Stephen",
@@ -1928,8 +1931,8 @@ pg.base.island_task = {
 				60
 			}
 		}
-	},
-	[10002040] = {
+	}
+	pg.base.island_task[10002040] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Work-Life Balance",
@@ -1963,8 +1966,8 @@ pg.base.island_task = {
 		target_id = {
 			100020401
 		}
-	},
-	[10002050] = {
+	}
+	pg.base.island_task[10002050] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "What's the Point of Hard Work?",
@@ -2001,8 +2004,8 @@ pg.base.island_task = {
 		target_id = {
 			100020501
 		}
-	},
-	[10002051] = {
+	}
+	pg.base.island_task[10002051] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Raise the Island Development Level",
@@ -2036,8 +2039,8 @@ pg.base.island_task = {
 		target_id = {
 			100020511
 		}
-	},
-	[10002060] = {
+	}
+	pg.base.island_task[10002060] = {
 		trigger_data = 0,
 		trigger_tips = 1,
 		name = "Morningdew Farm",
@@ -2080,8 +2083,8 @@ pg.base.island_task = {
 				1000
 			}
 		}
-	},
-	[10002070] = {
+	}
+	pg.base.island_task[10002070] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "The Farm Girl",
@@ -2121,8 +2124,8 @@ pg.base.island_task = {
 				1000
 			}
 		}
-	},
-	[10002080] = {
+	}
+	pg.base.island_task[10002080] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Growing Crops",
@@ -2156,8 +2159,8 @@ pg.base.island_task = {
 		target_id = {
 			100020801
 		}
-	},
-	[10002081] = {
+	}
+	pg.base.island_task[10002081] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Growing Crops",
@@ -2200,8 +2203,8 @@ pg.base.island_task = {
 				1000
 			}
 		}
-	},
-	[10002090] = {
+	}
+	pg.base.island_task[10002090] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "The Ranch's Treasure",
@@ -2241,8 +2244,8 @@ pg.base.island_task = {
 				1000
 			}
 		}
-	},
-	[10002100] = {
+	}
+	pg.base.island_task[10002100] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "On the Hunt!",
@@ -2285,8 +2288,8 @@ pg.base.island_task = {
 				50
 			}
 		}
-	},
-	[10002110] = {
+	}
+	pg.base.island_task[10002110] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Feed for Clucky",
@@ -2326,8 +2329,8 @@ pg.base.island_task = {
 				1000
 			}
 		}
-	},
-	[10002120] = {
+	}
+	pg.base.island_task[10002120] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Producing Feed",
@@ -2370,8 +2373,8 @@ pg.base.island_task = {
 				1000
 			}
 		}
-	},
-	[10002130] = {
+	}
+	pg.base.island_task[10002130] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Gift From the Animals",
@@ -2411,8 +2414,8 @@ pg.base.island_task = {
 				10
 			}
 		}
-	},
-	[10002131] = {
+	}
+	pg.base.island_task[10002131] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Gift From the Animals",
@@ -2452,8 +2455,8 @@ pg.base.island_task = {
 				1000
 			}
 		}
-	},
-	[10002140] = {
+	}
+	pg.base.island_task[10002140] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Daily Progress",
@@ -2498,8 +2501,8 @@ pg.base.island_task = {
 				60
 			}
 		}
-	},
-	[10002141] = {
+	}
+	pg.base.island_task[10002141] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Raise the Island Development Level",
@@ -2533,8 +2536,8 @@ pg.base.island_task = {
 		target_id = {
 			100021411
 		}
-	},
-	[10002150] = {
+	}
+	pg.base.island_task[10002150] = {
 		trigger_data = 0,
 		trigger_tips = 1,
 		name = "Break Time",
@@ -2574,8 +2577,8 @@ pg.base.island_task = {
 				1000
 			}
 		}
-	},
-	[10002160] = {
+	}
+	pg.base.island_task[10002160] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "The Smell of Eggs",
@@ -2615,8 +2618,8 @@ pg.base.island_task = {
 				1000
 			}
 		}
-	},
-	[10002170] = {
+	}
+	pg.base.island_task[10002170] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "A Delicious Omelette!",
@@ -2659,8 +2662,8 @@ pg.base.island_task = {
 				1000
 			}
 		}
-	},
-	[10002180] = {
+	}
+	pg.base.island_task[10002180] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Harbor Delivery",
@@ -2703,8 +2706,8 @@ pg.base.island_task = {
 				1000
 			}
 		}
-	},
-	[10002190] = {
+	}
+	pg.base.island_task[10002190] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Deliciousness for Sale",
@@ -2744,8 +2747,8 @@ pg.base.island_task = {
 				1000
 			}
 		}
-	},
-	[10002200] = {
+	}
+	pg.base.island_task[10002200] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Customer Number One",
@@ -2788,8 +2791,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[10002210] = {
+	}
+	pg.base.island_task[10002210] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Akashi's Exclusive Deals",
@@ -2839,8 +2842,8 @@ pg.base.island_task = {
 				12
 			}
 		}
-	},
-	[10002211] = {
+	}
+	pg.base.island_task[10002211] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Raise the Island Development Level",
@@ -2874,8 +2877,8 @@ pg.base.island_task = {
 		target_id = {
 			100022111
 		}
-	},
-	[10002220] = {
+	}
+	pg.base.island_task[10002220] = {
 		trigger_data = 0,
 		trigger_tips = 1,
 		name = "Treasure Island?",
@@ -2915,8 +2918,8 @@ pg.base.island_task = {
 				2000
 			}
 		}
-	},
-	[10002230] = {
+	}
+	pg.base.island_task[10002230] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Aircraft Restoration - Harbor",
@@ -2961,8 +2964,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[10002240] = {
+	}
+	pg.base.island_task[10002240] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Aircraft Restoration - Windswept Plains",
@@ -3008,8 +3011,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[10002250] = {
+	}
+	pg.base.island_task[10002250] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Aircraft Restoration - Morningdew Farm",
@@ -3056,8 +3059,8 @@ pg.base.island_task = {
 				3
 			}
 		}
-	},
-	[10002251] = {
+	}
+	pg.base.island_task[10002251] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Aircraft Restoration - Morningdew Farm",
@@ -3097,8 +3100,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[10002260] = {
+	}
+	pg.base.island_task[10002260] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Make for Blue Skies",
@@ -3138,8 +3141,8 @@ pg.base.island_task = {
 				2000
 			}
 		}
-	},
-	[10002270] = {
+	}
+	pg.base.island_task[10002270] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Off to Treasure Island!",
@@ -3176,8 +3179,8 @@ pg.base.island_task = {
 		target_id = {
 			100022701
 		}
-	},
-	[10002271] = {
+	}
+	pg.base.island_task[10002271] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Off to Treasure Island!",
@@ -3217,8 +3220,8 @@ pg.base.island_task = {
 				2000
 			}
 		}
-	},
-	[10002280] = {
+	}
+	pg.base.island_task[10002280] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "So-Called Treasure",
@@ -3261,8 +3264,8 @@ pg.base.island_task = {
 				2000
 			}
 		}
-	},
-	[10002290] = {
+	}
+	pg.base.island_task[10002290] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Daily Supply",
@@ -3305,8 +3308,8 @@ pg.base.island_task = {
 				2000
 			}
 		}
-	},
-	[10002300] = {
+	}
+	pg.base.island_task[10002300] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "My Own Romantic Getaway",
@@ -3346,8 +3349,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[10002310] = {
+	}
+	pg.base.island_task[10002310] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "The Treasure of Get-Together Island",
@@ -3390,8 +3393,8 @@ pg.base.island_task = {
 				2000
 			}
 		}
-	},
-	[10002320] = {
+	}
+	pg.base.island_task[10002320] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Get-Together Island at Its Best",
@@ -3434,8 +3437,8 @@ pg.base.island_task = {
 				2000
 			}
 		}
-	},
-	[10002330] = {
+	}
+	pg.base.island_task[10002330] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Animal Neighbors",
@@ -3478,8 +3481,8 @@ pg.base.island_task = {
 				2000
 			}
 		}
-	},
-	[10002340] = {
+	}
+	pg.base.island_task[10002340] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Aircraft Upgrade",
@@ -3523,8 +3526,8 @@ pg.base.island_task = {
 				2000
 			}
 		}
-	},
-	[10002350] = {
+	}
+	pg.base.island_task[10002350] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "The Mysterious Expert",
@@ -3564,8 +3567,8 @@ pg.base.island_task = {
 				2000
 			}
 		}
-	},
-	[10002360] = {
+	}
+	pg.base.island_task[10002360] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "The Wonder of Get-Together Island",
@@ -3605,8 +3608,8 @@ pg.base.island_task = {
 				2000
 			}
 		}
-	},
-	[10002370] = {
+	}
+	pg.base.island_task[10002370] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "A Bright Future",
@@ -3654,8 +3657,8 @@ pg.base.island_task = {
 				60
 			}
 		}
-	},
-	[10002380] = {
+	}
+	pg.base.island_task[10002380] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Raise the Island Development Level",
@@ -3689,8 +3692,8 @@ pg.base.island_task = {
 		target_id = {
 			100023801
 		}
-	},
-	[10003010] = {
+	}
+	pg.base.island_task[10003010] = {
 		trigger_data = 0,
 		trigger_tips = 1,
 		name = "Life in the Development",
@@ -3724,8 +3727,8 @@ pg.base.island_task = {
 		target_id = {
 			100030101
 		}
-	},
-	[10003011] = {
+	}
+	pg.base.island_task[10003011] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Life in the Development",
@@ -3768,8 +3771,8 @@ pg.base.island_task = {
 				2000
 			}
 		}
-	},
-	[10003020] = {
+	}
+	pg.base.island_task[10003020] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Building the Commercial Area",
@@ -3809,8 +3812,8 @@ pg.base.island_task = {
 				2000
 			}
 		}
-	},
-	[10003030] = {
+	}
+	pg.base.island_task[10003030] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Foods of the Commercial Area",
@@ -3853,8 +3856,8 @@ pg.base.island_task = {
 				2000
 			}
 		}
-	},
-	[10003040] = {
+	}
+	pg.base.island_task[10003040] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Commerce Revitalized",
@@ -3897,8 +3900,8 @@ pg.base.island_task = {
 				2000
 			}
 		}
-	},
-	[10003050] = {
+	}
+	pg.base.island_task[10003050] = {
 		trigger_data = 0,
 		trigger_tips = 1,
 		name = "To the Prosperous Plantation",
@@ -3935,8 +3938,8 @@ pg.base.island_task = {
 		target_id = {
 			100030501
 		}
-	},
-	[10003051] = {
+	}
+	pg.base.island_task[10003051] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "To the Prosperous Plantation",
@@ -3976,8 +3979,8 @@ pg.base.island_task = {
 				2000
 			}
 		}
-	},
-	[10003060] = {
+	}
+	pg.base.island_task[10003060] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "The Quest for Honey",
@@ -4020,8 +4023,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[10003070] = {
+	}
+	pg.base.island_task[10003070] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Honeybees and Bee Honey",
@@ -4069,8 +4072,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[10003080] = {
+	}
+	pg.base.island_task[10003080] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Apple Trees",
@@ -4113,8 +4116,8 @@ pg.base.island_task = {
 				2000
 			}
 		}
-	},
-	[10003090] = {
+	}
+	pg.base.island_task[10003090] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Heaps of Apples",
@@ -4151,8 +4154,8 @@ pg.base.island_task = {
 		target_id = {
 			100030901
 		}
-	},
-	[10003091] = {
+	}
+	pg.base.island_task[10003091] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Heaps of Apples",
@@ -4195,8 +4198,8 @@ pg.base.island_task = {
 				5
 			}
 		}
-	},
-	[10003100] = {
+	}
+	pg.base.island_task[10003100] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Building a Plant Nursery",
@@ -4249,8 +4252,8 @@ pg.base.island_task = {
 				12
 			}
 		}
-	},
-	[10003110] = {
+	}
+	pg.base.island_task[10003110] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Raise the Island Development Level",
@@ -4284,8 +4287,8 @@ pg.base.island_task = {
 		target_id = {
 			100031101
 		}
-	},
-	[10004010] = {
+	}
+	pg.base.island_task[10004010] = {
 		trigger_data = 0,
 		trigger_tips = 1,
 		name = "One Suspicious Feline",
@@ -4325,8 +4328,8 @@ pg.base.island_task = {
 				4000
 			}
 		}
-	},
-	[10004020] = {
+	}
+	pg.base.island_task[10004020] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "The Industrial Revolution",
@@ -4369,8 +4372,8 @@ pg.base.island_task = {
 				4000
 			}
 		}
-	},
-	[10004030] = {
+	}
+	pg.base.island_task[10004030] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Island Factory",
@@ -4418,8 +4421,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[10019999] = {
+	}
+	pg.base.island_task[10019999] = {
 		trigger_data = 0,
 		trigger_tips = 1,
 		name = "Prosperity and Debt",
@@ -4467,8 +4470,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[50000001] = {
+	}
+	pg.base.island_task[50000001] = {
 		trigger_data = 0,
 		trigger_tips = 1,
 		name = "Improvement in Progress",
@@ -4533,8 +4536,8 @@ pg.base.island_task = {
 				2000
 			}
 		}
-	},
-	[50000002] = {
+	}
+	pg.base.island_task[50000002] = {
 		trigger_data = 0,
 		trigger_tips = 1,
 		name = "New Season, New Start!",
@@ -4599,8 +4602,8 @@ pg.base.island_task = {
 				2000
 			}
 		}
-	},
-	[51001000] = {
+	}
+	pg.base.island_task[51001000] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Invite Project Identity Characters",
@@ -4629,8 +4632,8 @@ pg.base.island_task = {
 			510010001
 		},
 		reward_show = {}
-	},
-	[51001001] = {
+	}
+	pg.base.island_task[51001001] = {
 		trigger_data = 0,
 		trigger_tips = 1,
 		name = "Importing Data - I",
@@ -4674,8 +4677,8 @@ pg.base.island_task = {
 				1000
 			}
 		}
-	},
-	[51001002] = {
+	}
+	pg.base.island_task[51001002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Importing Data - II",
@@ -4715,8 +4718,8 @@ pg.base.island_task = {
 				1000
 			}
 		}
-	},
-	[51001003] = {
+	}
+	pg.base.island_task[51001003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Importing Data - III",
@@ -4757,8 +4760,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[51002000] = {
+	}
+	pg.base.island_task[51002000] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Attack of the Little Trickster",
@@ -4787,8 +4790,8 @@ pg.base.island_task = {
 			510020001
 		},
 		reward_show = {}
-	},
-	[51002001] = {
+	}
+	pg.base.island_task[51002001] = {
 		trigger_data = 0,
 		trigger_tips = 1,
 		name = "Attack of the Little Trickster - I",
@@ -4832,8 +4835,8 @@ pg.base.island_task = {
 				1000
 			}
 		}
-	},
-	[51002002] = {
+	}
+	pg.base.island_task[51002002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Attack of the Little Trickster - II",
@@ -4873,8 +4876,8 @@ pg.base.island_task = {
 				1000
 			}
 		}
-	},
-	[51002003] = {
+	}
+	pg.base.island_task[51002003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Attack of the Little Trickster - III",
@@ -4915,8 +4918,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[51003000] = {
+	}
+	pg.base.island_task[51003000] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "The Quiet Visitor",
@@ -4945,8 +4948,8 @@ pg.base.island_task = {
 			510030001
 		},
 		reward_show = {}
-	},
-	[51003001] = {
+	}
+	pg.base.island_task[51003001] = {
 		trigger_data = 0,
 		trigger_tips = 1,
 		name = "The Quiet Visitor - I",
@@ -4990,8 +4993,8 @@ pg.base.island_task = {
 				1000
 			}
 		}
-	},
-	[51003002] = {
+	}
+	pg.base.island_task[51003002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "The Quiet Visitor - II",
@@ -5031,8 +5034,10 @@ pg.base.island_task = {
 				1000
 			}
 		}
-	},
-	[51003003] = {
+	}
+end)()
+(function ()
+	pg.base.island_task[51003003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "The Quiet Visitor - III",
@@ -5073,8 +5078,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[50001001] = {
+	}
+	pg.base.island_task[50001001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Gather Autumn Specialties (1/7)",
@@ -5144,8 +5149,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[50001002] = {
+	}
+	pg.base.island_task[50001002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Gather Autumn Specialties (2/7)",
@@ -5217,8 +5222,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[50001003] = {
+	}
+	pg.base.island_task[50001003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Gather Autumn Specialties (3/7)",
@@ -5290,8 +5295,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[50001004] = {
+	}
+	pg.base.island_task[50001004] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Gather Autumn Specialties (4/7)",
@@ -5363,8 +5368,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[50001005] = {
+	}
+	pg.base.island_task[50001005] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Gather Autumn Specialties (5/7)",
@@ -5441,8 +5446,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[50001006] = {
+	}
+	pg.base.island_task[50001006] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Gather Autumn Specialties (6/7)",
@@ -5519,8 +5524,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[50001007] = {
+	}
+	pg.base.island_task[50001007] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Gather Autumn Specialties (7/7)",
@@ -5597,8 +5602,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[50001008] = {
+	}
+	pg.base.island_task[50001008] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Gather Spring Specialties (1/7)",
@@ -5668,8 +5673,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[50001009] = {
+	}
+	pg.base.island_task[50001009] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Gather Spring Specialties (2/7)",
@@ -5741,8 +5746,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[50001010] = {
+	}
+	pg.base.island_task[50001010] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Gather Spring Specialties (3/7)",
@@ -5814,8 +5819,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[50001011] = {
+	}
+	pg.base.island_task[50001011] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Gather Spring Specialties (4/7)",
@@ -5887,8 +5892,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[50001012] = {
+	}
+	pg.base.island_task[50001012] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Gather Spring Specialties (5/7)",
@@ -5965,8 +5970,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[50001013] = {
+	}
+	pg.base.island_task[50001013] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Gather Spring Specialties (6/7)",
@@ -6043,8 +6048,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[50001014] = {
+	}
+	pg.base.island_task[50001014] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Gather Spring Specialties (7/7)",
@@ -6121,8 +6126,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[50002001] = {
+	}
+	pg.base.island_task[50002001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Make Autumn Specialties (1/7)",
@@ -6192,8 +6197,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[50002002] = {
+	}
+	pg.base.island_task[50002002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Make Autumn Specialties (2/7)",
@@ -6265,8 +6270,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[50002003] = {
+	}
+	pg.base.island_task[50002003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Make Autumn Specialties (3/7)",
@@ -6338,8 +6343,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[50002004] = {
+	}
+	pg.base.island_task[50002004] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Make Autumn Specialties (4/7)",
@@ -6411,8 +6416,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[50002005] = {
+	}
+	pg.base.island_task[50002005] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Make Autumn Specialties (5/7)",
@@ -6489,8 +6494,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[50002006] = {
+	}
+	pg.base.island_task[50002006] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Make Autumn Specialties (6/7)",
@@ -6567,8 +6572,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[50002007] = {
+	}
+	pg.base.island_task[50002007] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Make Autumn Specialties (7/7)",
@@ -6645,8 +6650,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[50002008] = {
+	}
+	pg.base.island_task[50002008] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Make Spring Specialties (1/7)",
@@ -6716,8 +6721,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[50002009] = {
+	}
+	pg.base.island_task[50002009] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Make Spring Specialties (2/7)",
@@ -6789,8 +6794,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[50002010] = {
+	}
+	pg.base.island_task[50002010] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Make Spring Specialties (3/7)",
@@ -6862,8 +6867,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[50002011] = {
+	}
+	pg.base.island_task[50002011] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Make Spring Specialties (4/7)",
@@ -6935,8 +6940,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[50002012] = {
+	}
+	pg.base.island_task[50002012] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Make Spring Specialties (5/7)",
@@ -7013,8 +7018,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[50002013] = {
+	}
+	pg.base.island_task[50002013] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Make Spring Specialties (6/7)",
@@ -7091,8 +7096,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[50002014] = {
+	}
+	pg.base.island_task[50002014] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Make Spring Specialties (7/7)",
@@ -7169,8 +7174,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[50003001] = {
+	}
+	pg.base.island_task[50003001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Autumn Specialty Order (1/4)",
@@ -7240,8 +7245,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[50003002] = {
+	}
+	pg.base.island_task[50003002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Autumn Specialty Order (2/4)",
@@ -7313,8 +7318,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[50003003] = {
+	}
+	pg.base.island_task[50003003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Autumn Specialty Order (3/4)",
@@ -7386,8 +7391,8 @@ pg.base.island_task = {
 				3
 			}
 		}
-	},
-	[50003004] = {
+	}
+	pg.base.island_task[50003004] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Autumn Specialty Order (4/4)",
@@ -7459,8 +7464,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[50003005] = {
+	}
+	pg.base.island_task[50003005] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Spring Specialty Order (1/4)",
@@ -7530,8 +7535,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[50003006] = {
+	}
+	pg.base.island_task[50003006] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Spring Specialty Order (2/4)",
@@ -7603,8 +7608,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[50003007] = {
+	}
+	pg.base.island_task[50003007] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Spring Specialty Order (3/4)",
@@ -7676,8 +7681,8 @@ pg.base.island_task = {
 				3
 			}
 		}
-	},
-	[50003008] = {
+	}
+	pg.base.island_task[50003008] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Spring Specialty Order (4/4)",
@@ -7749,8 +7754,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001001] = {
+	}
+	pg.base.island_task[80001001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Watching the Fields",
@@ -7795,8 +7800,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001002] = {
+	}
+	pg.base.island_task[80001002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "The Beasts Hunger",
@@ -7841,8 +7846,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001003] = {
+	}
+	pg.base.island_task[80001003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Beans or Bust",
@@ -7887,8 +7892,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001004] = {
+	}
+	pg.base.island_task[80001004] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "More Rice!",
@@ -7933,8 +7938,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001005] = {
+	}
+	pg.base.island_task[80001005] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Golden Granary",
@@ -7979,8 +7984,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001006] = {
+	}
+	pg.base.island_task[80001006] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "The Juiciest of Oranges",
@@ -8025,8 +8030,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001007] = {
+	}
+	pg.base.island_task[80001007] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Donations of Dairy",
@@ -8071,8 +8076,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001008] = {
+	}
+	pg.base.island_task[80001008] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Sugar in the Tank",
@@ -8117,8 +8122,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001009] = {
+	}
+	pg.base.island_task[80001009] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Needs More Coffee",
@@ -8163,8 +8168,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001010] = {
+	}
+	pg.base.island_task[80001010] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Meat Is Energy",
@@ -8209,8 +8214,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001011] = {
+	}
+	pg.base.island_task[80001011] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Basic Seasoning",
@@ -8255,8 +8260,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001012] = {
+	}
+	pg.base.island_task[80001012] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "A Healthy Menu",
@@ -8301,8 +8306,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001013] = {
+	}
+	pg.base.island_task[80001013] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Nutritional Combos",
@@ -8347,8 +8352,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001014] = {
+	}
+	pg.base.island_task[80001014] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Latte Time",
@@ -8393,8 +8398,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001015] = {
+	}
+	pg.base.island_task[80001015] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Stir-Fry Resupply",
@@ -8439,8 +8444,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001016] = {
+	}
+	pg.base.island_task[80001016] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Quick and Easy Meal",
@@ -8485,8 +8490,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001017] = {
+	}
+	pg.base.island_task[80001017] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Your First Receipt",
@@ -8521,8 +8526,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001018] = {
+	}
+	pg.base.island_task[80001018] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Safely Stored",
@@ -8562,8 +8567,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001019] = {
+	}
+	pg.base.island_task[80001019] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Regular Resupply",
@@ -8603,8 +8608,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[80001020] = {
+	}
+	pg.base.island_task[80001020] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Efficient Delivery",
@@ -8644,8 +8649,8 @@ pg.base.island_task = {
 				5
 			}
 		}
-	},
-	[80001021] = {
+	}
+	pg.base.island_task[80001021] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Well Stocked",
@@ -8685,8 +8690,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[80001022] = {
+	}
+	pg.base.island_task[80001022] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Sustainable Reserves",
@@ -8726,8 +8731,8 @@ pg.base.island_task = {
 				3
 			}
 		}
-	},
-	[80001023] = {
+	}
+	pg.base.island_task[80001023] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Foundation for Development",
@@ -8772,8 +8777,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001024] = {
+	}
+	pg.base.island_task[80001024] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Your First Request",
@@ -8808,8 +8813,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001025] = {
+	}
+	pg.base.island_task[80001025] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "A Reliable Helper",
@@ -8849,8 +8854,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001026] = {
+	}
+	pg.base.island_task[80001026] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Firm Support",
@@ -8890,8 +8895,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[80001027] = {
+	}
+	pg.base.island_task[80001027] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Request Master",
@@ -8931,8 +8936,8 @@ pg.base.island_task = {
 				5
 			}
 		}
-	},
-	[80001028] = {
+	}
+	pg.base.island_task[80001028] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Pillar of Development",
@@ -8972,8 +8977,8 @@ pg.base.island_task = {
 				5
 			}
 		}
-	},
-	[80001029] = {
+	}
+	pg.base.island_task[80001029] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Core of Development",
@@ -9018,8 +9023,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001030] = {
+	}
+	pg.base.island_task[80001030] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Foundation for Prosperity",
@@ -9064,8 +9069,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001101] = {
+	}
+	pg.base.island_task[80001101] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Watching the Fields",
@@ -9110,8 +9115,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001102] = {
+	}
+	pg.base.island_task[80001102] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "The Beasts Hunger",
@@ -9156,8 +9161,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001103] = {
+	}
+	pg.base.island_task[80001103] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Beans or Bust",
@@ -9202,8 +9207,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001104] = {
+	}
+	pg.base.island_task[80001104] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "More Rice!",
@@ -9248,8 +9253,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001105] = {
+	}
+	pg.base.island_task[80001105] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Golden Granary",
@@ -9294,8 +9299,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001106] = {
+	}
+	pg.base.island_task[80001106] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "The Juiciest of Oranges",
@@ -9340,8 +9345,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001107] = {
+	}
+	pg.base.island_task[80001107] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Donations of Dairy",
@@ -9386,8 +9391,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001108] = {
+	}
+	pg.base.island_task[80001108] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Sugar in the Tank",
@@ -9432,8 +9437,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001109] = {
+	}
+	pg.base.island_task[80001109] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Needs More Coffee",
@@ -9478,8 +9483,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001110] = {
+	}
+	pg.base.island_task[80001110] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Meat Is Energy",
@@ -9524,8 +9529,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001111] = {
+	}
+	pg.base.island_task[80001111] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Basic Seasoning",
@@ -9570,8 +9575,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001112] = {
+	}
+	pg.base.island_task[80001112] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "A Healthy Menu",
@@ -9616,8 +9621,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001113] = {
+	}
+	pg.base.island_task[80001113] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Nutritional Combos",
@@ -9662,8 +9667,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001114] = {
+	}
+	pg.base.island_task[80001114] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Latte Time",
@@ -9708,8 +9713,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001115] = {
+	}
+	pg.base.island_task[80001115] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Stir-Fry Resupply",
@@ -9754,8 +9759,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001116] = {
+	}
+	pg.base.island_task[80001116] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Quick and Easy Meal",
@@ -9800,8 +9805,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001117] = {
+	}
+	pg.base.island_task[80001117] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Your First Receipt",
@@ -9836,8 +9841,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001118] = {
+	}
+	pg.base.island_task[80001118] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Safely Stored",
@@ -9877,8 +9882,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001119] = {
+	}
+	pg.base.island_task[80001119] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Regular Resupply",
@@ -9918,8 +9923,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[80001120] = {
+	}
+	pg.base.island_task[80001120] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Efficient Delivery",
@@ -9959,8 +9964,8 @@ pg.base.island_task = {
 				5
 			}
 		}
-	},
-	[80001121] = {
+	}
+	pg.base.island_task[80001121] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Well Stocked",
@@ -10000,8 +10005,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[80001122] = {
+	}
+	pg.base.island_task[80001122] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Sustainable Reserves",
@@ -10041,8 +10046,8 @@ pg.base.island_task = {
 				3
 			}
 		}
-	},
-	[80001123] = {
+	}
+	pg.base.island_task[80001123] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Foundation for Development",
@@ -10087,8 +10092,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001124] = {
+	}
+	pg.base.island_task[80001124] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Your First Request",
@@ -10123,8 +10128,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001125] = {
+	}
+	pg.base.island_task[80001125] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "A Reliable Helper",
@@ -10164,8 +10169,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001126] = {
+	}
+	pg.base.island_task[80001126] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Firm Support",
@@ -10205,8 +10210,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[80001127] = {
+	}
+	pg.base.island_task[80001127] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Request Master",
@@ -10246,8 +10251,8 @@ pg.base.island_task = {
 				5
 			}
 		}
-	},
-	[80001128] = {
+	}
+	pg.base.island_task[80001128] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Pillar of Development",
@@ -10287,8 +10292,8 @@ pg.base.island_task = {
 				5
 			}
 		}
-	},
-	[80001129] = {
+	}
+	pg.base.island_task[80001129] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Core of Development",
@@ -10333,8 +10338,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001130] = {
+	}
+	pg.base.island_task[80001130] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Foundation for Prosperity",
@@ -10379,8 +10384,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001201] = {
+	}
+	pg.base.island_task[80001201] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Garden Logistics",
@@ -10425,8 +10430,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001202] = {
+	}
+	pg.base.island_task[80001202] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "A Cup to Wake You Up",
@@ -10471,8 +10476,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001203] = {
+	}
+	pg.base.island_task[80001203] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Vegetable Supplies",
@@ -10517,8 +10522,10 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001204] = {
+	}
+end)()
+(function ()
+	pg.base.island_task[80001204] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Sweet Strawberries",
@@ -10563,8 +10570,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001205] = {
+	}
+	pg.base.island_task[80001205] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Textile Materials",
@@ -10609,8 +10616,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001206] = {
+	}
+	pg.base.island_task[80001206] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Fruit Supplies",
@@ -10655,8 +10662,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001207] = {
+	}
+	pg.base.island_task[80001207] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Zingy and Refreshing",
@@ -10701,8 +10708,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001208] = {
+	}
+	pg.base.island_task[80001208] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Quick and Easy Meal",
@@ -10747,8 +10754,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001209] = {
+	}
+	pg.base.island_task[80001209] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Simply Seasoned",
@@ -10793,8 +10800,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001210] = {
+	}
+	pg.base.island_task[80001210] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Sugary Motivation Boost",
@@ -10839,8 +10846,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001211] = {
+	}
+	pg.base.island_task[80001211] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Fragrant and Energizing",
@@ -10885,8 +10892,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001212] = {
+	}
+	pg.base.island_task[80001212] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Bounty of the Sea",
@@ -10931,8 +10938,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001213] = {
+	}
+	pg.base.island_task[80001213] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Supreme Seafood",
@@ -10977,8 +10984,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001214] = {
+	}
+	pg.base.island_task[80001214] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Spicy Extravagance",
@@ -11023,8 +11030,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001215] = {
+	}
+	pg.base.island_task[80001215] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Artistic Flair",
@@ -11069,8 +11076,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001216] = {
+	}
+	pg.base.island_task[80001216] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "A Treat to Break Your Vows For",
@@ -11115,8 +11122,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001217] = {
+	}
+	pg.base.island_task[80001217] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Your First Receipt",
@@ -11151,8 +11158,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001218] = {
+	}
+	pg.base.island_task[80001218] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Safely Stored",
@@ -11192,8 +11199,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001219] = {
+	}
+	pg.base.island_task[80001219] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Regular Resupply",
@@ -11233,8 +11240,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[80001220] = {
+	}
+	pg.base.island_task[80001220] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Efficient Delivery",
@@ -11274,8 +11281,8 @@ pg.base.island_task = {
 				5
 			}
 		}
-	},
-	[80001221] = {
+	}
+	pg.base.island_task[80001221] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Well Stocked",
@@ -11315,8 +11322,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[80001222] = {
+	}
+	pg.base.island_task[80001222] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Sustainable Reserves",
@@ -11356,8 +11363,8 @@ pg.base.island_task = {
 				3
 			}
 		}
-	},
-	[80001223] = {
+	}
+	pg.base.island_task[80001223] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Foundation for Development",
@@ -11402,8 +11409,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001224] = {
+	}
+	pg.base.island_task[80001224] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Your First Request",
@@ -11438,8 +11445,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001225] = {
+	}
+	pg.base.island_task[80001225] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "A Reliable Helper",
@@ -11479,8 +11486,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001226] = {
+	}
+	pg.base.island_task[80001226] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Firm Support",
@@ -11520,8 +11527,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[80001227] = {
+	}
+	pg.base.island_task[80001227] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Request Master",
@@ -11561,8 +11568,8 @@ pg.base.island_task = {
 				5
 			}
 		}
-	},
-	[80001228] = {
+	}
+	pg.base.island_task[80001228] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Pillar of Development",
@@ -11602,8 +11609,8 @@ pg.base.island_task = {
 				5
 			}
 		}
-	},
-	[80001229] = {
+	}
+	pg.base.island_task[80001229] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Core of Development",
@@ -11648,8 +11655,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[80001230] = {
+	}
+	pg.base.island_task[80001230] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Foundation for Prosperity",
@@ -11694,8 +11701,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[20001001] = {
+	}
+	pg.base.island_task[20001001] = {
 		trigger_data = 10040002,
 		trigger_tips = 1,
 		name = "Sounds in the Woods",
@@ -11732,8 +11739,8 @@ pg.base.island_task = {
 			200010011
 		},
 		reward_show = {}
-	},
-	[20001002] = {
+	}
+	pg.base.island_task[20001002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Efficiency Means Victory",
@@ -11781,8 +11788,8 @@ pg.base.island_task = {
 				30
 			}
 		}
-	},
-	[20001003] = {
+	}
+	pg.base.island_task[20001003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Efficiency Means Victory",
@@ -11816,8 +11823,8 @@ pg.base.island_task = {
 			200010031
 		},
 		reward_show = {}
-	},
-	[20001004] = {
+	}
+	pg.base.island_task[20001004] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Bang! Pow!",
@@ -11851,8 +11858,8 @@ pg.base.island_task = {
 			200010041
 		},
 		reward_show = {}
-	},
-	[20001005] = {
+	}
+	pg.base.island_task[20001005] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Broken Track",
@@ -11886,8 +11893,8 @@ pg.base.island_task = {
 			200010051
 		},
 		reward_show = {}
-	},
-	[20001006] = {
+	}
+	pg.base.island_task[20001006] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Makeshift Track",
@@ -11935,8 +11942,8 @@ pg.base.island_task = {
 				30
 			}
 		}
-	},
-	[20001007] = {
+	}
+	pg.base.island_task[20001007] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Must Be Done Today",
@@ -11970,8 +11977,8 @@ pg.base.island_task = {
 			200010071
 		},
 		reward_show = {}
-	},
-	[20001008] = {
+	}
+	pg.base.island_task[20001008] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "The Last Ore",
@@ -12019,8 +12026,8 @@ pg.base.island_task = {
 				30
 			}
 		}
-	},
-	[20001009] = {
+	}
+	pg.base.island_task[20001009] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Riverside Song",
@@ -12078,8 +12085,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[20002001] = {
+	}
+	pg.base.island_task[20002001] = {
 		trigger_data = 10020009,
 		trigger_tips = 1,
 		name = "Decorative Painting",
@@ -12113,8 +12120,8 @@ pg.base.island_task = {
 			200020011
 		},
 		reward_show = {}
-	},
-	[20002002] = {
+	}
+	pg.base.island_task[20002002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Sketch Subject",
@@ -12148,8 +12155,8 @@ pg.base.island_task = {
 			200020021
 		},
 		reward_show = {}
-	},
-	[20002003] = {
+	}
+	pg.base.island_task[20002003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Gathering Suggestions",
@@ -12186,8 +12193,8 @@ pg.base.island_task = {
 			200020031
 		},
 		reward_show = {}
-	},
-	[20002004] = {
+	}
+	pg.base.island_task[20002004] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Making a Brush",
@@ -12224,8 +12231,8 @@ pg.base.island_task = {
 			200020041
 		},
 		reward_show = {}
-	},
-	[20002005] = {
+	}
+	pg.base.island_task[20002005] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Making a Frame",
@@ -12262,8 +12269,8 @@ pg.base.island_task = {
 			200020051
 		},
 		reward_show = {}
-	},
-	[20002006] = {
+	}
+	pg.base.island_task[20002006] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Your Reward",
@@ -12318,8 +12325,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[20003001] = {
+	}
+	pg.base.island_task[20003001] = {
 		trigger_data = 10070025,
 		trigger_tips = 1,
 		name = "Something's Burned in the Servers",
@@ -12353,8 +12360,8 @@ pg.base.island_task = {
 			200030011
 		},
 		reward_show = {}
-	},
-	[20003002] = {
+	}
+	pg.base.island_task[20003002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Raw Materials for Repair",
@@ -12391,8 +12398,8 @@ pg.base.island_task = {
 			200030021
 		},
 		reward_show = {}
-	},
-	[20003003] = {
+	}
+	pg.base.island_task[20003003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Searching for Parts",
@@ -12429,8 +12436,8 @@ pg.base.island_task = {
 			200030031
 		},
 		reward_show = {}
-	},
-	[20003004] = {
+	}
+	pg.base.island_task[20003004] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Function Restored!",
@@ -12485,8 +12492,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[20004000] = {
+	}
+	pg.base.island_task[20004000] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Raise the Island Development Level",
@@ -12526,8 +12533,8 @@ pg.base.island_task = {
 			200040000
 		},
 		reward_show = {}
-	},
-	[20004001] = {
+	}
+	pg.base.island_task[20004001] = {
 		trigger_data = 10060002,
 		trigger_tips = 1,
 		name = "Greetings From the Manager",
@@ -12561,8 +12568,8 @@ pg.base.island_task = {
 			200040011
 		},
 		reward_show = {}
-	},
-	[20004002] = {
+	}
+	pg.base.island_task[20004002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Tips for Developing New Recipes",
@@ -12599,8 +12606,8 @@ pg.base.island_task = {
 			200040021
 		},
 		reward_show = {}
-	},
-	[20004003] = {
+	}
+	pg.base.island_task[20004003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "The Commercial Area's New Dish",
@@ -12655,8 +12662,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[20005001] = {
+	}
+	pg.base.island_task[20005001] = {
 		trigger_data = 10090008,
 		trigger_tips = 1,
 		name = "Ghastly Rumors",
@@ -12690,8 +12697,8 @@ pg.base.island_task = {
 			200050011
 		},
 		reward_show = {}
-	},
-	[20005002] = {
+	}
+	pg.base.island_task[20005002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Bells in the Night",
@@ -12728,8 +12735,8 @@ pg.base.island_task = {
 			200050021
 		},
 		reward_show = {}
-	},
-	[20005003] = {
+	}
+	pg.base.island_task[20005003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Bells in the Night",
@@ -12763,8 +12770,8 @@ pg.base.island_task = {
 			200050031
 		},
 		reward_show = {}
-	},
-	[20005004] = {
+	}
+	pg.base.island_task[20005004] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Another Creepy Noise",
@@ -12798,8 +12805,8 @@ pg.base.island_task = {
 			200050041
 		},
 		reward_show = {}
-	},
-	[20005005] = {
+	}
+	pg.base.island_task[20005005] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Who's Banging in the Night?",
@@ -12836,8 +12843,8 @@ pg.base.island_task = {
 			200050051
 		},
 		reward_show = {}
-	},
-	[20005006] = {
+	}
+	pg.base.island_task[20005006] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Horned Figure",
@@ -12871,8 +12878,8 @@ pg.base.island_task = {
 			200050061
 		},
 		reward_show = {}
-	},
-	[20005007] = {
+	}
+	pg.base.island_task[20005007] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Ghostbusting Specialist",
@@ -12906,8 +12913,8 @@ pg.base.island_task = {
 			200050071
 		},
 		reward_show = {}
-	},
-	[20005008] = {
+	}
+	pg.base.island_task[20005008] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Ghostbusting Specialist",
@@ -12944,8 +12951,8 @@ pg.base.island_task = {
 			200050081
 		},
 		reward_show = {}
-	},
-	[20005009] = {
+	}
+	pg.base.island_task[20005009] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Ghostbusting Specialist",
@@ -13000,8 +13007,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[20006001] = {
+	}
+	pg.base.island_task[20006001] = {
 		trigger_data = 10010003,
 		trigger_tips = 1,
 		name = "The Sheep Are Gone!",
@@ -13035,8 +13042,8 @@ pg.base.island_task = {
 			200060011
 		},
 		reward_show = {}
-	},
-	[20006002] = {
+	}
+	pg.base.island_task[20006002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Closer Examination",
@@ -13070,8 +13077,8 @@ pg.base.island_task = {
 			200060021
 		},
 		reward_show = {}
-	},
-	[20006003] = {
+	}
+	pg.base.island_task[20006003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Closer Examination",
@@ -13108,8 +13115,8 @@ pg.base.island_task = {
 			200060031
 		},
 		reward_show = {}
-	},
-	[20006004] = {
+	}
+	pg.base.island_task[20006004] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Found You!",
@@ -13146,8 +13153,8 @@ pg.base.island_task = {
 			200060041
 		},
 		reward_show = {}
-	},
-	[20006005] = {
+	}
+	pg.base.island_task[20006005] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Eyewitness",
@@ -13181,8 +13188,8 @@ pg.base.island_task = {
 			200060051
 		},
 		reward_show = {}
-	},
-	[20006006] = {
+	}
+	pg.base.island_task[20006006] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Chased It Down!",
@@ -13219,8 +13226,8 @@ pg.base.island_task = {
 			200060061
 		},
 		reward_show = {}
-	},
-	[20006007] = {
+	}
+	pg.base.island_task[20006007] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Chased It Down!",
@@ -13259,8 +13266,8 @@ pg.base.island_task = {
 			200060073
 		},
 		reward_show = {}
-	},
-	[20006008] = {
+	}
+	pg.base.island_task[20006008] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Chased It Down!",
@@ -13294,8 +13301,8 @@ pg.base.island_task = {
 			200060081
 		},
 		reward_show = {}
-	},
-	[20006009] = {
+	}
+	pg.base.island_task[20006009] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Reinforcing the Fences",
@@ -13348,8 +13355,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[20007001] = {
+	}
+	pg.base.island_task[20007001] = {
 		trigger_data = 10040057,
 		trigger_tips = 1,
 		name = "The Person Stuck Behind the Wall",
@@ -13397,8 +13404,8 @@ pg.base.island_task = {
 				3
 			}
 		}
-	},
-	[20007002] = {
+	}
+	pg.base.island_task[20007002] = {
 		trigger_data = 10020026,
 		trigger_tips = 1,
 		name = "Removing Bees Around the Harbor",
@@ -13446,8 +13453,8 @@ pg.base.island_task = {
 				3
 			}
 		}
-	},
-	[20007003] = {
+	}
+	pg.base.island_task[20007003] = {
 		trigger_data = 10010087,
 		trigger_tips = 1,
 		name = "Removing Bees Around the Farm",
@@ -13495,8 +13502,8 @@ pg.base.island_task = {
 				3
 			}
 		}
-	},
-	[20007004] = {
+	}
+	pg.base.island_task[20007004] = {
 		trigger_data = 10040057,
 		trigger_tips = 1,
 		name = "Reinvigorating Honey Water",
@@ -13530,8 +13537,8 @@ pg.base.island_task = {
 			200070041
 		},
 		reward_show = {}
-	},
-	[20007005] = {
+	}
+	pg.base.island_task[20007005] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "The Best Honey Water in the World",
@@ -13568,8 +13575,8 @@ pg.base.island_task = {
 			200070051
 		},
 		reward_show = {}
-	},
-	[20007006] = {
+	}
+	pg.base.island_task[20007006] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Missing Ingredients!",
@@ -13607,8 +13614,8 @@ pg.base.island_task = {
 			200070062
 		},
 		reward_show = {}
-	},
-	[20007007] = {
+	}
+	pg.base.island_task[20007007] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Find the Rosemary",
@@ -13642,8 +13649,8 @@ pg.base.island_task = {
 			200070071
 		},
 		reward_show = {}
-	},
-	[20007008] = {
+	}
+	pg.base.island_task[20007008] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Find the Rosemary",
@@ -13680,8 +13687,8 @@ pg.base.island_task = {
 			200070081
 		},
 		reward_show = {}
-	},
-	[20007009] = {
+	}
+	pg.base.island_task[20007009] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Fresh Ingredients",
@@ -13715,8 +13722,8 @@ pg.base.island_task = {
 			200070091
 		},
 		reward_show = {}
-	},
-	[20007010] = {
+	}
+	pg.base.island_task[20007010] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "The Nameless Person",
@@ -13766,8 +13773,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[20008001] = {
+	}
+	pg.base.island_task[20008001] = {
 		trigger_data = 10020009,
 		trigger_tips = 1,
 		name = "Urgent Request",
@@ -13801,8 +13808,8 @@ pg.base.island_task = {
 			200080011
 		},
 		reward_show = {}
-	},
-	[20008002] = {
+	}
+	pg.base.island_task[20008002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Another Problem",
@@ -13839,8 +13846,8 @@ pg.base.island_task = {
 			200080021
 		},
 		reward_show = {}
-	},
-	[20008003] = {
+	}
+	pg.base.island_task[20008003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Risk Management",
@@ -13877,8 +13884,8 @@ pg.base.island_task = {
 			200080031
 		},
 		reward_show = {}
-	},
-	[20008004] = {
+	}
+	pg.base.island_task[20008004] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Request Complete",
@@ -13928,8 +13935,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[20009001] = {
+	}
+	pg.base.island_task[20009001] = {
 		trigger_data = 10020004,
 		trigger_tips = 1,
 		name = "No Details",
@@ -13970,8 +13977,8 @@ pg.base.island_task = {
 			200090011
 		},
 		reward_show = {}
-	},
-	[20009002] = {
+	}
+	pg.base.island_task[20009002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Transporting Ore",
@@ -14005,8 +14012,8 @@ pg.base.island_task = {
 			200090021
 		},
 		reward_show = {}
-	},
-	[20009003] = {
+	}
+	pg.base.island_task[20009003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Akashi's Plan",
@@ -14040,8 +14047,8 @@ pg.base.island_task = {
 			200090031
 		},
 		reward_show = {}
-	},
-	[20009004] = {
+	}
+	pg.base.island_task[20009004] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "The Truth Is Out",
@@ -14091,8 +14098,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[20010001] = {
+	}
+	pg.base.island_task[20010001] = {
 		trigger_data = 10020009,
 		trigger_tips = 1,
 		name = "A Gift for Patrick",
@@ -14126,8 +14133,8 @@ pg.base.island_task = {
 			200100011
 		},
 		reward_show = {}
-	},
-	[20010002] = {
+	}
+	pg.base.island_task[20010002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Advice",
@@ -14164,8 +14171,8 @@ pg.base.island_task = {
 			200100021
 		},
 		reward_show = {}
-	},
-	[20010003] = {
+	}
+	pg.base.island_task[20010003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "The Secret to High Energy!",
@@ -14202,8 +14209,8 @@ pg.base.island_task = {
 			200100031
 		},
 		reward_show = {}
-	},
-	[20010004] = {
+	}
+	pg.base.island_task[20010004] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Energy Drink Under Preparation",
@@ -14237,8 +14244,8 @@ pg.base.island_task = {
 			200100041
 		},
 		reward_show = {}
-	},
-	[20010005] = {
+	}
+	pg.base.island_task[20010005] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Find Carrots",
@@ -14275,8 +14282,8 @@ pg.base.island_task = {
 			200100051
 		},
 		reward_show = {}
-	},
-	[20010006] = {
+	}
+	pg.base.island_task[20010006] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Comfy Sleep!",
@@ -14313,8 +14320,8 @@ pg.base.island_task = {
 			200100061
 		},
 		reward_show = {}
-	},
-	[20010007] = {
+	}
+	pg.base.island_task[20010007] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Sweet Meringue",
@@ -14351,8 +14358,8 @@ pg.base.island_task = {
 			200100071
 		},
 		reward_show = {}
-	},
-	[20010008] = {
+	}
+	pg.base.island_task[20010008] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "From Us to You",
@@ -14415,8 +14422,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[20011001] = {
+	}
+	pg.base.island_task[20011001] = {
 		trigger_data = 10060002,
 		trigger_tips = 1,
 		name = "The Singular Restaurant",
@@ -14450,8 +14457,8 @@ pg.base.island_task = {
 			200110011
 		},
 		reward_show = {}
-	},
-	[20011002] = {
+	}
+	pg.base.island_task[20011002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Favorite Foods",
@@ -14488,8 +14495,8 @@ pg.base.island_task = {
 			200110021
 		},
 		reward_show = {}
-	},
-	[20011003] = {
+	}
+	pg.base.island_task[20011003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Don't Forget Yourself",
@@ -14523,8 +14530,8 @@ pg.base.island_task = {
 			200110031
 		},
 		reward_show = {}
-	},
-	[20011004] = {
+	}
+	pg.base.island_task[20011004] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Shop Under Construction",
@@ -14573,8 +14580,8 @@ pg.base.island_task = {
 				3
 			}
 		}
-	},
-	[20011005] = {
+	}
+	pg.base.island_task[20011005] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "A Dining District for Everyone",
@@ -14628,8 +14635,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[20012001] = {
+	}
+	pg.base.island_task[20012001] = {
 		trigger_data = 10050002,
 		trigger_tips = 1,
 		name = "Just Borrow Them",
@@ -14663,8 +14670,10 @@ pg.base.island_task = {
 			200120011
 		},
 		reward_show = {}
-	},
-	[20012002] = {
+	}
+end)()
+(function ()
+	pg.base.island_task[20012002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Buy New Ones Already",
@@ -14701,8 +14710,8 @@ pg.base.island_task = {
 			200120021
 		},
 		reward_show = {}
-	},
-	[20012003] = {
+	}
+	pg.base.island_task[20012003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Trees Need Fertilizer",
@@ -14736,8 +14745,8 @@ pg.base.island_task = {
 			200120031
 		},
 		reward_show = {}
-	},
-	[20012004] = {
+	}
+	pg.base.island_task[20012004] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Trees Need Fertilizer",
@@ -14774,8 +14783,8 @@ pg.base.island_task = {
 			200120041
 		},
 		reward_show = {}
-	},
-	[20012005] = {
+	}
+	pg.base.island_task[20012005] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "The Joy of Farming (In a Nutshell)",
@@ -14823,8 +14832,8 @@ pg.base.island_task = {
 				3
 			}
 		}
-	},
-	[20012006] = {
+	}
+	pg.base.island_task[20012006] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Reciprocation",
@@ -14858,8 +14867,8 @@ pg.base.island_task = {
 			200120061
 		},
 		reward_show = {}
-	},
-	[20012007] = {
+	}
+	pg.base.island_task[20012007] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Checking the Number of Orders",
@@ -14893,8 +14902,8 @@ pg.base.island_task = {
 			200120071
 		},
 		reward_show = {}
-	},
-	[20012008] = {
+	}
+	pg.base.island_task[20012008] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "A Surprise",
@@ -14928,8 +14937,8 @@ pg.base.island_task = {
 			200120081
 		},
 		reward_show = {}
-	},
-	[20012009] = {
+	}
+	pg.base.island_task[20012009] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Bad Bugs Get the Repellent",
@@ -14963,8 +14972,8 @@ pg.base.island_task = {
 			200120091
 		},
 		reward_show = {}
-	},
-	[20012010] = {
+	}
+	pg.base.island_task[20012010] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Bad Bugs Get the Repellent",
@@ -15017,8 +15026,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[20013000] = {
+	}
+	pg.base.island_task[20013000] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Raise the Island Development Level",
@@ -15054,8 +15063,8 @@ pg.base.island_task = {
 			200130000
 		},
 		reward_show = {}
-	},
-	[20013001] = {
+	}
+	pg.base.island_task[20013001] = {
 		trigger_data = 10050003,
 		trigger_tips = 1,
 		name = "Missing Fertilizer",
@@ -15089,8 +15098,8 @@ pg.base.island_task = {
 			200130011
 		},
 		reward_show = {}
-	},
-	[20013002] = {
+	}
+	pg.base.island_task[20013002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Scattered Cargo",
@@ -15124,8 +15133,8 @@ pg.base.island_task = {
 			200130021
 		},
 		reward_show = {}
-	},
-	[20013003] = {
+	}
+	pg.base.island_task[20013003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Place a New Order...",
@@ -15159,8 +15168,8 @@ pg.base.island_task = {
 			200130031
 		},
 		reward_show = {}
-	},
-	[20013004] = {
+	}
+	pg.base.island_task[20013004] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "The Search for Fertilizer...",
@@ -15194,8 +15203,8 @@ pg.base.island_task = {
 			200130041
 		},
 		reward_show = {}
-	},
-	[20013005] = {
+	}
+	pg.base.island_task[20013005] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "The Day Is Saved!",
@@ -15229,8 +15238,8 @@ pg.base.island_task = {
 			200130051
 		},
 		reward_show = {}
-	},
-	[20013006] = {
+	}
+	pg.base.island_task[20013006] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Sowing Together",
@@ -15267,8 +15276,8 @@ pg.base.island_task = {
 			200130061
 		},
 		reward_show = {}
-	},
-	[20013007] = {
+	}
+	pg.base.island_task[20013007] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Harvest Time",
@@ -15305,8 +15314,8 @@ pg.base.island_task = {
 			200130071
 		},
 		reward_show = {}
-	},
-	[20013008] = {
+	}
+	pg.base.island_task[20013008] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Lavender Delivery!",
@@ -15356,8 +15365,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[20014001] = {
+	}
+	pg.base.island_task[20014001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "The Secret of the Map Pieces",
@@ -15404,8 +15413,8 @@ pg.base.island_task = {
 			200140015
 		},
 		reward_show = {}
-	},
-	[20014002] = {
+	}
+	pg.base.island_task[20014002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "The Secret of the Map Pieces",
@@ -15442,8 +15451,8 @@ pg.base.island_task = {
 			200140021
 		},
 		reward_show = {}
-	},
-	[20014003] = {
+	}
+	pg.base.island_task[20014003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "The Cat's Payback",
@@ -15491,8 +15500,8 @@ pg.base.island_task = {
 				5
 			}
 		}
-	},
-	[20015001] = {
+	}
+	pg.base.island_task[20015001] = {
 		trigger_data = 10020025,
 		trigger_tips = 0,
 		name = "Let's Get Started!",
@@ -15537,8 +15546,8 @@ pg.base.island_task = {
 				200
 			}
 		}
-	},
-	[20015002] = {
+	}
+	pg.base.island_task[20015002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Great Island Development",
@@ -15586,8 +15595,8 @@ pg.base.island_task = {
 				10
 			}
 		}
-	},
-	[20016001] = {
+	}
+	pg.base.island_task[20016001] = {
 		trigger_data = 0,
 		trigger_tips = 1,
 		name = "Britain's Fish Hatchery",
@@ -15627,8 +15636,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[20016002] = {
+	}
+	pg.base.island_task[20016002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Fishing Time!",
@@ -15665,8 +15674,8 @@ pg.base.island_task = {
 			200160012
 		},
 		reward_show = {}
-	},
-	[20016003] = {
+	}
+	pg.base.island_task[20016003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Fishing Time!",
@@ -15700,8 +15709,8 @@ pg.base.island_task = {
 			200160013
 		},
 		reward_show = {}
-	},
-	[20016004] = {
+	}
+	pg.base.island_task[20016004] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Britain's Fish Hatchery",
@@ -15743,8 +15752,8 @@ pg.base.island_task = {
 				5000
 			}
 		}
-	},
-	[20017001] = {
+	}
+	pg.base.island_task[20017001] = {
 		trigger_data = 0,
 		trigger_tips = 1,
 		name = "Research Into the Pearl Trade",
@@ -15778,8 +15787,8 @@ pg.base.island_task = {
 			200170011
 		},
 		reward_show = {}
-	},
-	[20017002] = {
+	}
+	pg.base.island_task[20017002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Research Into the Pearl Trade",
@@ -15816,8 +15825,8 @@ pg.base.island_task = {
 			200170021
 		},
 		reward_show = {}
-	},
-	[20017003] = {
+	}
+	pg.base.island_task[20017003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Research Into the Pearl Trade",
@@ -15857,8 +15866,8 @@ pg.base.island_task = {
 				10000
 			}
 		}
-	},
-	[30000001] = {
+	}
+	pg.base.island_task[30000001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "A Delayed Order",
@@ -15902,8 +15911,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[30000002] = {
+	}
+	pg.base.island_task[30000002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Overgrowing Trees",
@@ -15947,8 +15956,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[30000003] = {
+	}
+	pg.base.island_task[30000003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Island Request",
@@ -15992,8 +16001,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[30000004] = {
+	}
+	pg.base.island_task[30000004] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Research Project",
@@ -16037,8 +16046,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[30000005] = {
+	}
+	pg.base.island_task[30000005] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "May This Moment Last Forever!",
@@ -16082,8 +16091,8 @@ pg.base.island_task = {
 				1000
 			}
 		}
-	},
-	[30000006] = {
+	}
+	pg.base.island_task[30000006] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Manjuu Logistics",
@@ -16121,8 +16130,8 @@ pg.base.island_task = {
 			300000061
 		},
 		reward_show = {}
-	},
-	[30000007] = {
+	}
+	pg.base.island_task[30000007] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Manjuu Logistics",
@@ -16167,8 +16176,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[30000008] = {
+	}
+	pg.base.island_task[30000008] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Everyone Loves Cats",
@@ -16212,8 +16221,8 @@ pg.base.island_task = {
 				1000
 			}
 		}
-	},
-	[30101001] = {
+	}
+	pg.base.island_task[30101001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Labor is Glorious",
@@ -16257,8 +16266,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[30201001] = {
+	}
+	pg.base.island_task[30201001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Good Management",
@@ -16302,8 +16311,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[30301001] = {
+	}
+	pg.base.island_task[30301001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Transport Job",
@@ -16347,8 +16356,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[30401001] = {
+	}
+	pg.base.island_task[30401001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Island Request",
@@ -16392,8 +16401,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[30501001] = {
+	}
+	pg.base.island_task[30501001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Manjuu Logistics",
@@ -16431,8 +16440,8 @@ pg.base.island_task = {
 			305010011
 		},
 		reward_show = {}
-	},
-	[30501002] = {
+	}
+	pg.base.island_task[30501002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Manjuu Logistics",
@@ -16478,8 +16487,8 @@ pg.base.island_task = {
 				2000
 			}
 		}
-	},
-	[30501011] = {
+	}
+	pg.base.island_task[30501011] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Manjuu Logistics",
@@ -16517,8 +16526,8 @@ pg.base.island_task = {
 			305010111
 		},
 		reward_show = {}
-	},
-	[30501012] = {
+	}
+	pg.base.island_task[30501012] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Manjuu Logistics",
@@ -16564,8 +16573,8 @@ pg.base.island_task = {
 				2000
 			}
 		}
-	},
-	[30501021] = {
+	}
+	pg.base.island_task[30501021] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Manjuu Logistics",
@@ -16607,8 +16616,8 @@ pg.base.island_task = {
 			305010211
 		},
 		reward_show = {}
-	},
-	[30501022] = {
+	}
+	pg.base.island_task[30501022] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Manjuu Logistics",
@@ -16654,8 +16663,8 @@ pg.base.island_task = {
 				2000
 			}
 		}
-	},
-	[30501031] = {
+	}
+	pg.base.island_task[30501031] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Manjuu Logistics",
@@ -16697,8 +16706,8 @@ pg.base.island_task = {
 			305010311
 		},
 		reward_show = {}
-	},
-	[30501032] = {
+	}
+	pg.base.island_task[30501032] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Manjuu Logistics",
@@ -16744,8 +16753,8 @@ pg.base.island_task = {
 				2000
 			}
 		}
-	},
-	[30502001] = {
+	}
+	pg.base.island_task[30502001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Delivery Service",
@@ -16787,8 +16796,8 @@ pg.base.island_task = {
 			305020011
 		},
 		reward_show = {}
-	},
-	[30502002] = {
+	}
+	pg.base.island_task[30502002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Delivery Service",
@@ -16834,8 +16843,8 @@ pg.base.island_task = {
 				2000
 			}
 		}
-	},
-	[30502011] = {
+	}
+	pg.base.island_task[30502011] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Delivery Service",
@@ -16877,8 +16886,8 @@ pg.base.island_task = {
 			305020111
 		},
 		reward_show = {}
-	},
-	[30502012] = {
+	}
+	pg.base.island_task[30502012] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Delivery Service",
@@ -16924,8 +16933,8 @@ pg.base.island_task = {
 				2000
 			}
 		}
-	},
-	[30502021] = {
+	}
+	pg.base.island_task[30502021] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Delivery Service",
@@ -16967,8 +16976,8 @@ pg.base.island_task = {
 			305020211
 		},
 		reward_show = {}
-	},
-	[30502022] = {
+	}
+	pg.base.island_task[30502022] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Delivery Service",
@@ -17014,8 +17023,8 @@ pg.base.island_task = {
 				2000
 			}
 		}
-	},
-	[30502031] = {
+	}
+	pg.base.island_task[30502031] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Delivery Service",
@@ -17057,8 +17066,8 @@ pg.base.island_task = {
 			305020311
 		},
 		reward_show = {}
-	},
-	[30502032] = {
+	}
+	pg.base.island_task[30502032] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Delivery Service",
@@ -17104,8 +17113,8 @@ pg.base.island_task = {
 				2000
 			}
 		}
-	},
-	[30504001] = {
+	}
+	pg.base.island_task[30504001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Everyone Loves Cats",
@@ -17149,8 +17158,8 @@ pg.base.island_task = {
 				2000
 			}
 		}
-	},
-	[30505001] = {
+	}
+	pg.base.island_task[30505001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "May This Moment Last Forever!",
@@ -17194,8 +17203,8 @@ pg.base.island_task = {
 				2000
 			}
 		}
-	},
-	[30508001] = {
+	}
+	pg.base.island_task[30508001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "A Beautiful Day",
@@ -17239,8 +17248,8 @@ pg.base.island_task = {
 				2000
 			}
 		}
-	},
-	[30601001] = {
+	}
+	pg.base.island_task[30601001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Daily Supply",
@@ -17284,8 +17293,8 @@ pg.base.island_task = {
 				2000
 			}
 		}
-	},
-	[30701001] = {
+	}
+	pg.base.island_task[30701001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Making a Meal",
@@ -17329,8 +17338,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[30702001] = {
+	}
+	pg.base.island_task[30702001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Smoke From the Stove",
@@ -17374,8 +17383,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[30703001] = {
+	}
+	pg.base.island_task[30703001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Commercial Area Desserts",
@@ -17423,8 +17432,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[30704001] = {
+	}
+	pg.base.island_task[30704001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Small Meals to the Rescue",
@@ -17472,8 +17481,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[30705001] = {
+	}
+	pg.base.island_task[30705001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Coal-Fired Deliciousness",
@@ -17521,8 +17530,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[30706001] = {
+	}
+	pg.base.island_task[30706001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Manjuu Time",
@@ -17570,8 +17579,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[40101001] = {
+	}
+	pg.base.island_task[40101001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Growing Stockpiles",
@@ -17615,8 +17624,8 @@ pg.base.island_task = {
 				20
 			}
 		}
-	},
-	[40102001] = {
+	}
+	pg.base.island_task[40102001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Who's Lumbering?",
@@ -17660,8 +17669,8 @@ pg.base.island_task = {
 				20
 			}
 		}
-	},
-	[40103001] = {
+	}
+	pg.base.island_task[40103001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Harvest Festa",
@@ -17709,8 +17718,8 @@ pg.base.island_task = {
 				20
 			}
 		}
-	},
-	[40104001] = {
+	}
+	pg.base.island_task[40104001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Nursery's Assisant",
@@ -17758,8 +17767,8 @@ pg.base.island_task = {
 				20
 			}
 		}
-	},
-	[40105001] = {
+	}
+	pg.base.island_task[40105001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "To Taste the Rainbow",
@@ -17807,8 +17816,8 @@ pg.base.island_task = {
 				20
 			}
 		}
-	},
-	[40106001] = {
+	}
+	pg.base.island_task[40106001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Animals are Friends",
@@ -17856,8 +17865,8 @@ pg.base.island_task = {
 				20
 			}
 		}
-	},
-	[40107001] = {
+	}
+	pg.base.island_task[40107001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Crafts Production Equipment Inspection",
@@ -17905,8 +17914,8 @@ pg.base.island_task = {
 				20
 			}
 		}
-	},
-	[40108001] = {
+	}
+	pg.base.island_task[40108001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Industrial Production Equipment Inspection",
@@ -17954,8 +17963,8 @@ pg.base.island_task = {
 				20
 			}
 		}
-	},
-	[40109001] = {
+	}
+	pg.base.island_task[40109001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Lumber Production Equipment Inspection",
@@ -18003,8 +18012,8 @@ pg.base.island_task = {
 				20
 			}
 		}
-	},
-	[40110001] = {
+	}
+	pg.base.island_task[40110001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Electronics Production Equipment Inspection",
@@ -18052,8 +18061,8 @@ pg.base.island_task = {
 				20
 			}
 		}
-	},
-	[40201001] = {
+	}
+	pg.base.island_task[40201001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Combo (Hunger) Breaker",
@@ -18097,8 +18106,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[40301001] = {
+	}
+	pg.base.island_task[40301001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Restocking Best Sellers",
@@ -18142,8 +18151,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[40401001] = {
+	}
+	pg.base.island_task[40401001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Island Impressions",
@@ -18187,8 +18196,8 @@ pg.base.island_task = {
 				20
 			}
 		}
-	},
-	[40501001] = {
+	}
+	pg.base.island_task[40501001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Working Hard Every Day",
@@ -18237,8 +18246,8 @@ pg.base.island_task = {
 				2
 			}
 		}
-	},
-	[40601001] = {
+	}
+	pg.base.island_task[40601001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Weekly Goals",
@@ -18282,8 +18291,8 @@ pg.base.island_task = {
 				3
 			}
 		}
-	},
-	[90001001] = {
+	}
+	pg.base.island_task[90001001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Simulation Novice I",
@@ -18343,8 +18352,8 @@ pg.base.island_task = {
 				10
 			}
 		}
-	},
-	[90001002] = {
+	}
+	pg.base.island_task[90001002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Simulation Novice II",
@@ -18404,8 +18413,8 @@ pg.base.island_task = {
 				5
 			}
 		}
-	},
-	[90001003] = {
+	}
+	pg.base.island_task[90001003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Simulation Novice III",
@@ -18465,8 +18474,8 @@ pg.base.island_task = {
 				8
 			}
 		}
-	},
-	[90001004] = {
+	}
+	pg.base.island_task[90001004] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Simulation Novice IV",
@@ -18526,8 +18535,8 @@ pg.base.island_task = {
 				5
 			}
 		}
-	},
-	[90001005] = {
+	}
+	pg.base.island_task[90001005] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Simulation Adept I",
@@ -18587,8 +18596,8 @@ pg.base.island_task = {
 				3
 			}
 		}
-	},
-	[90001006] = {
+	}
+	pg.base.island_task[90001006] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Simulation Adept II",
@@ -18648,8 +18657,8 @@ pg.base.island_task = {
 				3
 			}
 		}
-	},
-	[90001007] = {
+	}
+	pg.base.island_task[90001007] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Simulation Adept III",
@@ -18709,8 +18718,8 @@ pg.base.island_task = {
 				3
 			}
 		}
-	},
-	[90001008] = {
+	}
+	pg.base.island_task[90001008] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Simulation Adept IV",
@@ -18770,8 +18779,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[90001009] = {
+	}
+	pg.base.island_task[90001009] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Simulation Expert I",
@@ -18831,8 +18840,8 @@ pg.base.island_task = {
 				3
 			}
 		}
-	},
-	[90001010] = {
+	}
+	pg.base.island_task[90001010] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Simulation Expert II",
@@ -18892,8 +18901,8 @@ pg.base.island_task = {
 				3
 			}
 		}
-	},
-	[90001011] = {
+	}
+	pg.base.island_task[90001011] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Simulation Expert III",
@@ -18953,8 +18962,8 @@ pg.base.island_task = {
 				3
 			}
 		}
-	},
-	[90001012] = {
+	}
+	pg.base.island_task[90001012] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Simulation Expert IV",
@@ -19014,8 +19023,8 @@ pg.base.island_task = {
 				1
 			}
 		}
-	},
-	[90001020] = {
+	}
+	pg.base.island_task[90001020] = {
 		trigger_data = 0,
 		trigger_tips = 0,
 		name = "Simulation Master",
@@ -19076,4 +19085,4 @@ pg.base.island_task = {
 			}
 		}
 	}
-}
+end)()

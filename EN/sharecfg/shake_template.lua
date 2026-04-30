@@ -1,6 +1,29 @@
 pg = pg or {}
-pg.shake_template = {
-	[0] = {
+pg.shake_template = rawget(pg, "shake_template") or setmetatable({
+	__name = "shake_template"
+}, confNEO)
+pg.shake_template.all = {
+	0,
+	103,
+	109,
+	203,
+	209,
+	301,
+	302,
+	303,
+	999,
+	1001,
+	1002,
+	1010,
+	1011,
+	1020,
+	1021
+}
+pg.base = pg.base or {}
+pg.base.shake_template = {}
+
+(function ()
+	pg.base.shake_template[0] = {
 		description = "无震动",
 		priority = 0,
 		time = 0,
@@ -13,8 +36,8 @@ pg.shake_template = {
 		vibration_V = 0,
 		friction_const_V = 0,
 		friction_coefficient_V = 0
-	},
-	[103] = {
+	}
+	pg.base.shake_template[103] = {
 		description = "水平微弱震动",
 		priority = 0,
 		time = 2.5,
@@ -27,8 +50,8 @@ pg.shake_template = {
 		vibration_V = 0,
 		friction_const_V = 0,
 		friction_coefficient_V = 0
-	},
-	[109] = {
+	}
+	pg.base.shake_template[109] = {
 		description = "水平强烈震动",
 		priority = 0,
 		time = 3,
@@ -41,8 +64,8 @@ pg.shake_template = {
 		vibration_V = 0,
 		friction_const_V = 0,
 		friction_coefficient_V = 0
-	},
-	[203] = {
+	}
+	pg.base.shake_template[203] = {
 		description = "垂直微弱震动",
 		priority = 0,
 		time = 2.5,
@@ -55,8 +78,8 @@ pg.shake_template = {
 		vibration_V = 30,
 		friction_const_V = 0,
 		friction_coefficient_V = 0.93
-	},
-	[209] = {
+	}
+	pg.base.shake_template[209] = {
 		description = "垂直剧烈震动",
 		priority = 0,
 		time = 3,
@@ -69,8 +92,8 @@ pg.shake_template = {
 		vibration_V = 100,
 		friction_const_V = 0,
 		friction_coefficient_V = 0.98
-	},
-	[301] = {
+	}
+	pg.base.shake_template[301] = {
 		description = "玩家被击中",
 		priority = 0,
 		time = 2,
@@ -83,8 +106,8 @@ pg.shake_template = {
 		vibration_V = 0,
 		friction_const_V = 0,
 		friction_coefficient_V = 0
-	},
-	[302] = {
+	}
+	pg.base.shake_template[302] = {
 		description = "大炮后坐力",
 		priority = 0,
 		time = 2,
@@ -97,8 +120,8 @@ pg.shake_template = {
 		vibration_V = 0,
 		friction_const_V = 0,
 		friction_coefficient_V = 0
-	},
-	[303] = {
+	}
+	pg.base.shake_template[303] = {
 		description = "机枪后坐力",
 		priority = 0,
 		time = 10,
@@ -111,8 +134,8 @@ pg.shake_template = {
 		vibration_V = 0,
 		friction_const_V = 0,
 		friction_coefficient_V = 0
-	},
-	[999] = {
+	}
+	pg.base.shake_template[999] = {
 		description = "测试地震效果",
 		priority = 9,
 		time = 3,
@@ -125,8 +148,8 @@ pg.shake_template = {
 		vibration_V = 0.007,
 		friction_const_V = 0.0005,
 		friction_coefficient_V = 1
-	},
-	[1001] = {
+	}
+	pg.base.shake_template[1001] = {
 		description = "大世界_仲裁者天帕岚斯武器_微弱震动",
 		priority = 12,
 		time = 3.5,
@@ -139,8 +162,8 @@ pg.shake_template = {
 		vibration_V = 0.005,
 		friction_const_V = 0.00018,
 		friction_coefficient_V = 1
-	},
-	[1002] = {
+	}
+	pg.base.shake_template[1002] = {
 		description = "大世界_仲裁者天帕岚斯武器_召唤前强震动",
 		priority = 13,
 		time = 12,
@@ -153,8 +176,8 @@ pg.shake_template = {
 		vibration_V = 0.006,
 		friction_const_V = 0.0002,
 		friction_coefficient_V = 1
-	},
-	[1010] = {
+	}
+	pg.base.shake_template[1010] = {
 		description = "大世界_仲裁者司特莲库斯武器_锤地大招震动",
 		priority = 13,
 		time = 1.5,
@@ -167,8 +190,8 @@ pg.shake_template = {
 		vibration_V = 6,
 		friction_const_V = 0.00018,
 		friction_coefficient_V = 0.93
-	},
-	[1011] = {
+	}
+	pg.base.shake_template[1011] = {
 		description = "大世界_仲裁者司特莲库斯武器_锤地小技能震动",
 		priority = 12,
 		time = 1.5,
@@ -181,8 +204,8 @@ pg.shake_template = {
 		vibration_V = 5,
 		friction_const_V = 0.00018,
 		friction_coefficient_V = 0.91
-	},
-	[1020] = {
+	}
+	pg.base.shake_template[1020] = {
 		description = "大世界_深渊Boss战列",
 		priority = 9,
 		time = 6,
@@ -195,8 +218,8 @@ pg.shake_template = {
 		vibration_V = 0.007,
 		friction_const_V = 0.0005,
 		friction_coefficient_V = 1
-	},
-	[1021] = {
+	}
+	pg.base.shake_template[1021] = {
 		description = "大世界_深渊Boss战列",
 		priority = 12,
 		time = 3,
@@ -209,22 +232,5 @@ pg.shake_template = {
 		vibration_V = 3.5,
 		friction_const_V = 0.00018,
 		friction_coefficient_V = 0.92
-	},
-	all = {
-		0,
-		103,
-		109,
-		203,
-		209,
-		301,
-		302,
-		303,
-		999,
-		1001,
-		1002,
-		1010,
-		1011,
-		1020,
-		1021
 	}
-}
+end)()

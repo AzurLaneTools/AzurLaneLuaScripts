@@ -1,6 +1,34 @@
 pg = pg or {}
-pg.activity_town_collection_2 = {
-	{
+pg.activity_town_collection_2 = rawget(pg, "activity_town_collection_2") or setmetatable({
+	__name = "activity_town_collection_2"
+}, confNEO)
+pg.activity_town_collection_2.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20
+}
+pg.base = pg.base or {}
+pg.base.activity_town_collection_2 = {}
+
+(function ()
+	pg.base.activity_town_collection_2[1] = {
 		id = 1,
 		name = "The Peak of Spring",
 		type = 1,
@@ -11,8 +39,8 @@ pg.activity_town_collection_2 = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[2] = {
 		id = 2,
 		name = "Operation Inn-Filtration",
 		type = 1,
@@ -23,8 +51,8 @@ pg.activity_town_collection_2 = {
 			0,
 			3
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[3] = {
 		id = 3,
 		name = "It's Called Testing for a Reason",
 		type = 1,
@@ -35,8 +63,8 @@ pg.activity_town_collection_2 = {
 			0,
 			6
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[4] = {
 		id = 4,
 		name = "Base-Function Repair Log",
 		type = 1,
@@ -47,8 +75,8 @@ pg.activity_town_collection_2 = {
 			0,
 			9
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[5] = {
 		id = 5,
 		name = "Epilogue",
 		type = 1,
@@ -59,8 +87,8 @@ pg.activity_town_collection_2 = {
 			0,
 			12
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[6] = {
 		id = 6,
 		name = "The Cooking Battle",
 		type = 2,
@@ -71,8 +99,8 @@ pg.activity_town_collection_2 = {
 			1,
 			6
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[7] = {
 		id = 7,
 		name = "Game of Wits",
 		type = 2,
@@ -83,8 +111,8 @@ pg.activity_town_collection_2 = {
 			4,
 			10
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[8] = {
 		id = 8,
 		name = "Room Renovations",
 		type = 2,
@@ -95,8 +123,8 @@ pg.activity_town_collection_2 = {
 			3,
 			5
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[9] = {
 		id = 9,
 		name = "The Lucky One and the Lucky Koi",
 		type = 2,
@@ -107,8 +135,8 @@ pg.activity_town_collection_2 = {
 			5,
 			6
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[10] = {
 		id = 10,
 		name = "A Sketchy Encounter",
 		type = 2,
@@ -119,8 +147,8 @@ pg.activity_town_collection_2 = {
 			6,
 			6
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[11] = {
 		id = 11,
 		name = "Our Game Has Just Begun",
 		type = 3,
@@ -131,8 +159,8 @@ pg.activity_town_collection_2 = {
 			3,
 			3
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[12] = {
 		id = 12,
 		name = "Dancer of the Deep Chamber",
 		type = 3,
@@ -143,8 +171,8 @@ pg.activity_town_collection_2 = {
 			3,
 			6
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[13] = {
 		id = 13,
 		name = "Her Beauty Runneth Over",
 		type = 3,
@@ -155,8 +183,8 @@ pg.activity_town_collection_2 = {
 			3,
 			9
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[14] = {
 		id = 14,
 		name = "Playing Blind ♥",
 		type = 3,
@@ -167,8 +195,8 @@ pg.activity_town_collection_2 = {
 			4,
 			6
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[15] = {
 		id = 15,
 		name = "Spring's Lackadaisical Leisure",
 		type = 3,
@@ -179,8 +207,8 @@ pg.activity_town_collection_2 = {
 			6,
 			8
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[16] = {
 		id = 16,
 		name = "Ozornoy's Self-Defense Training",
 		type = 3,
@@ -191,8 +219,8 @@ pg.activity_town_collection_2 = {
 			1,
 			4
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[17] = {
 		id = 17,
 		name = "Server Under Maintenance",
 		type = 3,
@@ -203,8 +231,8 @@ pg.activity_town_collection_2 = {
 			2,
 			8
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[18] = {
 		id = 18,
 		name = "A Chef's Day Off",
 		type = 3,
@@ -215,8 +243,8 @@ pg.activity_town_collection_2 = {
 			1,
 			8
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[19] = {
 		id = 19,
 		name = "New Year's White Plumage",
 		type = 3,
@@ -227,8 +255,8 @@ pg.activity_town_collection_2 = {
 			1,
 			12
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[20] = {
 		id = 20,
 		name = "Lanternlight Parade",
 		type = 3,
@@ -239,27 +267,5 @@ pg.activity_town_collection_2 = {
 			5,
 			8
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20
 	}
-}
+end)()

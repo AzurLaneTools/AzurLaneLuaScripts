@@ -26601,6 +26601,11 @@ _G.pg.base.gametip.eventshop_time_hint = {
 }
 
 
+_G.pg.base.gametip.eventshop_time_hint2 = {
+	tip = "Exchange available until $1, 11:59 PM."
+}
+
+
 _G.pg.base.gametip.purchase_backyard_theme_desc_for_onekey = {
 	tip = "Buy one of every furniture in the set."
 }
@@ -48866,4 +48871,34 @@ _G.pg.base.gametip.exchange_code_after_time = {
 
 _G.pg.base.gametip.exchange_code_skin_tip = {
 	tip = "Skin"
+}
+
+
+_G.pg.base.gametip.littleMusashi_npc = {
+	tip = {
+		{
+			info = "- Overview -\nDuring the event, Musashi-chan will provisionally join your fleet. Complete missions during the event to earn Trust. Collect enough Trust to have Musashi-chan permanently join your fleet!"
+		},
+		{
+			info = "- How to Play -\n· During the event period, you can earn Trust by defeating the boss fleet in stages at or after Chapter 3 of the Campaign, or in event stages (excluding War Archives). You will be able to unlock rewards by reaching certain Trust milestones."
+		},
+		{
+			info = "· When you defeat the boss of a stage that awards Trust, you will earn twice as much Trust if Musashi-chan is still afloat in one of the fleets at that time."
+		},
+		{
+			info = "· You will not be able to give a Promise Ring to Musashi-chan until you have formally recruited her to the fleet. You will also not be able to Retire or use her as Enhancement or Limit Break material."
+		},
+		{
+			info = "· If Musashi-chan has not been formally recruited by the end of the event, she will leave the Port."
+		},
+		{
+			info = "· Rewards for reaching certain amounts of Trust will unlock in phases, one phase per day until May 6th."
+		},
+		{
+			info = "· Musashi-chan cannot participate in Operation Siren or META Showdowns until she has been formally recruited."
+		},
+		{
+			info = "· Musashi-chan cannot participate in Guild Bosses until she has been formally recruited."
+		}
+	}
 }

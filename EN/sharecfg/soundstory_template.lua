@@ -1,6 +1,43 @@
 pg = pg or {}
-pg.soundstory_template = {
-	{
+pg.soundstory_template = rawget(pg, "soundstory_template") or setmetatable({
+	__name = "soundstory_template"
+}, confNEO)
+pg.soundstory_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29
+}
+pg.base = pg.base or {}
+pg.base.soundstory_template = {}
+
+(function ()
+	pg.base.soundstory_template[1] = {
 		story_pic = "",
 		name = "Tearoom Leisure",
 		story_resource_JP = "soundStory1_JP",
@@ -26,8 +63,8 @@ pg.soundstory_template = {
 			15,
 			3
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[2] = {
 		story_pic = "",
 		name = "On the Beach With Kashino",
 		story_resource_JP = "soundStory2_JP",
@@ -38,6 +75,7 @@ pg.soundstory_template = {
 		overview = "\"Do you like the beach, Commander? I really love it here.\"\nEnjoy the sunshine and shimmering waves with Kashino.\nEven the refreshing breeze and waves cannot cool her passion.",
 		order = 2,
 		audition_text = "Whew... That was fun! Heehee. I got a bit carried away. It's been quite a while since we played on the beach like this...",
+		time = "always",
 		ship_id = 31901,
 		id = 2,
 		captions_color = "#2e78d0",
@@ -51,36 +89,9 @@ pg.soundstory_template = {
 			1,
 			15,
 			3
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					11,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[3] = {
 		story_pic = "",
 		name = "In the Infirmary With Janus",
 		story_resource_JP = "soundStory3_JP",
@@ -106,8 +117,8 @@ pg.soundstory_template = {
 			15,
 			3
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[4] = {
 		story_pic = "",
 		name = "Sweetness that Melts in the Mouth",
 		story_resource_JP = "soundStory4_JP",
@@ -133,8 +144,8 @@ pg.soundstory_template = {
 			15,
 			3
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[5] = {
 		story_pic = "",
 		name = "The Greatest Reward",
 		story_resource_JP = "soundStory5_JP",
@@ -186,8 +197,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[6] = {
 		story_pic = "",
 		name = "A Gift From... Hammann?",
 		story_resource_JP = "soundStory6_JP",
@@ -239,8 +250,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[7] = {
 		story_pic = "",
 		name = "Your Desire is All Mine",
 		story_resource_JP = "soundStory7_JP",
@@ -292,8 +303,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[8] = {
 		story_pic = "",
 		name = "Symphonious Heartbeats",
 		story_resource_JP = "soundStory8_JP",
@@ -319,8 +330,8 @@ pg.soundstory_template = {
 			15,
 			3
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[9] = {
 		story_pic = "",
 		name = "Slightly Feverish Kitchen",
 		story_resource_JP = "soundStory9_JP",
@@ -372,8 +383,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[10] = {
 		story_pic = "",
 		name = "A Girl's Secret Plans",
 		story_resource_JP = "soundStory10_JP",
@@ -402,9 +413,9 @@ pg.soundstory_template = {
 			"timer",
 			{
 				{
-					2025,
-					11,
-					13
+					2026,
+					4,
+					30
 				},
 				{
 					0,
@@ -414,9 +425,9 @@ pg.soundstory_template = {
 			},
 			{
 				{
-					2025,
-					12,
-					3
+					2026,
+					5,
+					6
 				},
 				{
 					23,
@@ -425,8 +436,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[11] = {
 		story_pic = "",
 		name = "Intoxicated by Lingering Sounds",
 		story_resource_JP = "soundStory11_JP",
@@ -478,8 +489,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[12] = {
 		story_pic = "",
 		name = "Having Fun in Secret",
 		story_resource_JP = "soundStory12_JP",
@@ -531,8 +542,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[13] = {
 		story_pic = "",
 		name = "A Tipsy Summer Rendezvous",
 		story_resource_JP = "soundStory13_JP",
@@ -584,8 +595,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[14] = {
 		story_pic = "",
 		name = "Caught in a Sweet Trap",
 		story_resource_JP = "soundStory14_JP",
@@ -637,8 +648,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[15] = {
 		story_pic = "",
 		name = "Shelter From the Rain",
 		story_resource_JP = "soundStory15_JP",
@@ -664,8 +675,8 @@ pg.soundstory_template = {
 			15,
 			3
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[16] = {
 		story_pic = "",
 		name = "Mary By Your Bed",
 		story_resource_JP = "soundStory16_JP",
@@ -717,8 +728,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[17] = {
 		story_pic = "",
 		name = "The Secret to Becoming Close",
 		story_resource_JP = "soundStory17_JP",
@@ -770,8 +781,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[18] = {
 		story_pic = "",
 		name = "Christmas Surprise",
 		story_resource_JP = "soundStory18_JP",
@@ -823,8 +834,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[19] = {
 		story_pic = "",
 		name = "The Dragon God's Gift of Udon",
 		story_resource_JP = "soundStory19_JP",
@@ -876,8 +887,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[20] = {
 		story_pic = "",
 		name = "Seaside Date With You",
 		story_resource_JP = "soundStory20_JP",
@@ -929,8 +940,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[21] = {
 		story_pic = "",
 		name = "The Forbidden Midnight Confessional",
 		story_resource_JP = "soundStory21_JP",
@@ -982,8 +993,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[22] = {
 		story_pic = "",
 		name = "Sentiment Within the Sweetness",
 		story_resource_JP = "soundStory22_JP",
@@ -1035,8 +1046,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[23] = {
 		story_pic = "",
 		name = "Endurance Training in the Sauna",
 		story_resource_JP = "soundStory23_JP",
@@ -1088,8 +1099,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[24] = {
 		story_pic = "",
 		name = "\"Cleaning\" a Collection Piece",
 		story_resource_JP = "soundStory24_JP",
@@ -1141,8 +1152,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[25] = {
 		story_pic = "",
 		name = "Another Day, Another Date!",
 		story_resource_JP = "soundStory25_JP",
@@ -1194,8 +1205,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[26] = {
 		story_pic = "",
 		name = "Monster's Dietary Observation Log",
 		story_resource_JP = "soundStory26_JP",
@@ -1247,8 +1258,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[27] = {
 		story_pic = "",
 		name = "A Mesmerizing Respite",
 		story_resource_JP = "soundStory27_JP",
@@ -1300,8 +1311,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[28] = {
 		story_pic = "",
 		name = "Sweetest Slumber",
 		story_resource_JP = "soundStory28_JP",
@@ -1353,35 +1364,58 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28
 	}
-}
+	pg.base.soundstory_template[29] = {
+		story_pic = "",
+		name = "Steamy Shower Encounter",
+		story_resource_JP = "soundStory29_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "Ryouko Jyuni",
+		audition_resource_JP = "ss-960010-1",
+		overview = "After a swim, I went to the showers to get washed off, only to hear someone's singing voice coming from within... It's too late to back out now!",
+		order = 2,
+		audition_text = "Urk... I can't describe it!",
+		ship_id = 960010,
+		id = 29,
+		captions_color = "#5d2528",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					4,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+end)()

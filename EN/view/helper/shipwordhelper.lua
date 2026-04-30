@@ -369,10 +369,10 @@ end
 slot0.GetCVList = function()
 	slot0 = {}
 
-	for slot4, slot5 in pairs(pg.character_voice) do
-		if not pg.AssistantInfo.isDisableSpecialClick(slot5.key) and slot5.unlock_condition[1] >= 0 then
+	for slot4, slot5 in ipairs(pg.character_voice.all) do
+		if not pg.AssistantInfo.isDisableSpecialClick(pg.character_voice[slot5].key) and slot6.unlock_condition[1] >= 0 then
 			slot0[#slot0 + 1] = setmetatable({}, {
-				__index = slot5
+				__index = slot6
 			})
 		end
 	end

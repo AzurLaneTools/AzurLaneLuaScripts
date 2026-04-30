@@ -1,581 +1,303 @@
 pg = pg or {}
-pg.island_item_data_template = setmetatable({
-	__name = "island_item_data_template",
-	get_id_list_by_usage = {
-		usage_undefined = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			1000,
-			1001,
-			1002,
-			1003,
-			1004,
-			1005,
-			1006,
-			1007,
-			1008,
-			1009,
-			1010,
-			1011,
-			1012,
-			1014,
-			1015,
-			1016,
-			1017,
-			1018,
-			1019,
-			1020,
-			1021,
-			1022,
-			1101,
-			1102,
-			1103,
-			1104,
-			1105,
-			1106,
-			1107,
-			1108,
-			1201,
-			1202,
-			1203,
-			1204,
-			1205,
-			1206,
-			1207,
-			1208,
-			2000,
-			2001,
-			2002,
-			2003,
-			2004,
-			2005,
-			2006,
-			2007,
-			2008,
-			2009,
-			2010,
-			2011,
-			2012,
-			2014,
-			2015,
-			2016,
-			2017,
-			2018,
-			2019,
-			2020,
-			2021,
-			2022,
-			2521,
-			2522,
-			2600,
-			2601,
-			2602,
-			2603,
-			2604,
-			2605,
-			2606,
-			2700,
-			2701,
-			2702,
-			2703,
-			2704,
-			2705,
-			2800,
-			2801,
-			2802,
-			2803,
-			3000,
-			3001,
-			3002,
-			3003,
-			3004,
-			3005,
-			3006,
-			3007,
-			3008,
-			3009,
-			3010,
-			3011,
-			3012,
-			3013,
-			3014,
-			3015,
-			3017,
-			3018,
-			3019,
-			3020,
-			3021,
-			3022,
-			3023,
-			3024,
-			3025,
-			3026,
-			3028,
-			3029,
-			3030,
-			3032,
-			3033,
-			3034,
-			3035,
-			3036,
-			3037,
-			3038,
-			3039,
-			3040,
-			3041,
-			3042,
-			3043,
-			3044,
-			3045,
-			3046,
-			3047,
-			3048,
-			3049,
-			3050,
-			3051,
-			3052,
-			3053,
-			3054,
-			3055,
-			3056,
-			3059,
-			3101,
-			3102,
-			3103,
-			3104,
-			3105,
-			3106,
-			3107,
-			3108,
-			3109,
-			3110,
-			3111,
-			3112,
-			3113,
-			3114,
-			3115,
-			3116,
-			3117,
-			3118,
-			3119,
-			3120,
-			4001,
-			4002,
-			4003,
-			4004,
-			4005,
-			4006,
-			4007,
-			4008,
-			4009,
-			4010,
-			4011,
-			4012,
-			4013,
-			4014,
-			4015,
-			4016,
-			4017,
-			4018,
-			4019,
-			4020,
-			4021,
-			4022,
-			4023,
-			4024,
-			4025,
-			4026,
-			4027,
-			4028,
-			5001,
-			5002,
-			5003,
-			5004,
-			5005,
-			5006,
-			5007,
-			5008,
-			5101,
-			5102,
-			5103,
-			5104,
-			5105,
-			5106,
-			5107,
-			5108,
-			9900,
-			100001,
-			100002,
-			100003,
-			100011,
-			100012,
-			100013,
-			100021,
-			100022,
-			100023,
-			100031,
-			100032,
-			100033,
-			100041,
-			100042,
-			100043,
-			100051,
-			100052,
-			100053,
-			100061,
-			100062,
-			100063,
-			100101,
-			100102,
-			100103,
-			100201,
-			200001,
-			200002,
-			200003,
-			200004,
-			200005,
-			200006,
-			200007,
-			200008,
-			200009,
-			200010,
-			200011,
-			200012,
-			200013,
-			200014,
-			200015,
-			200016,
-			200017,
-			200018,
-			200019,
-			200020,
-			200021,
-			200022,
-			200023,
-			300001,
-			300002,
-			300003,
-			300004,
-			300005,
-			300006
-		},
-		usage_fish = {
-			1500,
-			1501,
-			1502,
-			1503
-		},
-		usage_island_gift = {
-			110001,
-			110002,
-			110003,
-			110004,
-			110005,
-			110006
-		}
+pg.island_item_data_template = rawget(pg, "island_item_data_template") or setmetatable({
+	__name = "island_item_data_template"
+}, confNEO)
+pg.island_item_data_template.__namecode__ = true
+pg.island_item_data_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	1000,
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008,
+	1009,
+	1010,
+	1011,
+	1012,
+	1014,
+	1015,
+	1016,
+	1017,
+	1018,
+	1019,
+	1020,
+	1021,
+	1022,
+	1101,
+	1102,
+	1103,
+	1104,
+	1105,
+	1106,
+	1107,
+	1108,
+	1201,
+	1202,
+	1203,
+	1204,
+	1205,
+	1206,
+	1207,
+	1208,
+	1500,
+	1501,
+	1502,
+	1503,
+	2000,
+	2001,
+	2002,
+	2003,
+	2004,
+	2005,
+	2006,
+	2007,
+	2008,
+	2009,
+	2010,
+	2011,
+	2012,
+	2014,
+	2015,
+	2016,
+	2017,
+	2018,
+	2019,
+	2020,
+	2021,
+	2022,
+	2521,
+	2522,
+	2600,
+	2601,
+	2602,
+	2603,
+	2604,
+	2605,
+	2606,
+	2700,
+	2701,
+	2702,
+	2703,
+	2704,
+	2705,
+	2800,
+	2801,
+	2802,
+	2803,
+	3000,
+	3001,
+	3002,
+	3003,
+	3004,
+	3005,
+	3006,
+	3007,
+	3008,
+	3009,
+	3010,
+	3011,
+	3012,
+	3013,
+	3014,
+	3015,
+	3017,
+	3018,
+	3019,
+	3020,
+	3021,
+	3022,
+	3023,
+	3024,
+	3025,
+	3026,
+	3028,
+	3029,
+	3030,
+	3032,
+	3033,
+	3034,
+	3035,
+	3036,
+	3037,
+	3038,
+	3039,
+	3040,
+	3041,
+	3042,
+	3043,
+	3044,
+	3045,
+	3046,
+	3047,
+	3048,
+	3049,
+	3050,
+	3051,
+	3052,
+	3053,
+	3054,
+	3055,
+	3056,
+	3059,
+	3101,
+	3102,
+	3103,
+	3104,
+	3105,
+	3106,
+	3107,
+	3108,
+	3109,
+	3110,
+	3111,
+	3112,
+	3113,
+	3114,
+	3115,
+	3116,
+	3117,
+	3118,
+	3119,
+	3120,
+	4001,
+	4002,
+	4003,
+	4004,
+	4005,
+	4006,
+	4007,
+	4008,
+	4009,
+	4010,
+	4011,
+	4012,
+	4013,
+	4014,
+	4015,
+	4016,
+	4017,
+	4018,
+	4019,
+	4020,
+	4021,
+	4022,
+	4023,
+	4024,
+	4025,
+	4026,
+	4027,
+	4028,
+	5001,
+	5002,
+	5003,
+	5004,
+	5005,
+	5006,
+	5007,
+	5008,
+	5101,
+	5102,
+	5103,
+	5104,
+	5105,
+	5106,
+	5107,
+	5108,
+	9900,
+	100001,
+	100002,
+	100003,
+	100011,
+	100012,
+	100013,
+	100021,
+	100022,
+	100023,
+	100031,
+	100032,
+	100033,
+	100041,
+	100042,
+	100043,
+	100051,
+	100052,
+	100053,
+	100061,
+	100062,
+	100063,
+	100101,
+	100102,
+	100103,
+	100201,
+	110001,
+	110002,
+	110003,
+	110004,
+	110005,
+	110006,
+	200001,
+	200002,
+	200003,
+	200004,
+	200005,
+	200006,
+	200007,
+	200008,
+	200009,
+	200010,
+	200011,
+	200012,
+	200013,
+	200014,
+	200015,
+	200016,
+	200017,
+	200018,
+	200019,
+	200020,
+	200021,
+	200022,
+	200023,
+	300001,
+	300002,
+	300003,
+	300004,
+	300005,
+	300006
+}
+pg.island_item_data_template.get_id_list_by_usage = {
+	usage_fish = {
+		1500,
+		1501,
+		1502,
+		1503
 	},
-	get_id_list_by_type = {
-		{
-			10,
-			14,
-			1000,
-			1001,
-			1002,
-			1003,
-			1004,
-			1005,
-			1006,
-			1007,
-			1008,
-			1009,
-			1010,
-			1011,
-			1012,
-			1014,
-			1015,
-			1016,
-			1017,
-			1018,
-			1019,
-			1020,
-			1021,
-			1022,
-			1101,
-			1102,
-			1103,
-			1104,
-			1105,
-			1106,
-			1107,
-			1108,
-			1201,
-			1202,
-			1203,
-			1204,
-			1205,
-			1206,
-			1207,
-			1208,
-			2000,
-			2001,
-			2002,
-			2003,
-			2004,
-			2005,
-			2006,
-			2007,
-			2008,
-			2009,
-			2010,
-			2011,
-			2012,
-			2014,
-			2015,
-			2016,
-			2017,
-			2018,
-			2019,
-			2020,
-			2021,
-			2022,
-			2521,
-			2522,
-			2600,
-			2601,
-			2602,
-			2603,
-			2604,
-			2605,
-			2606,
-			2700,
-			2701,
-			2702,
-			2703,
-			2704,
-			2705,
-			2800,
-			2801,
-			2802,
-			2803,
-			3000,
-			3001,
-			3002,
-			3003,
-			3004,
-			3005,
-			3006,
-			3007,
-			3008,
-			3009,
-			3010,
-			3011,
-			3012,
-			3013,
-			3014,
-			3015,
-			3017,
-			3018,
-			3019,
-			3020,
-			3021,
-			3022,
-			3023,
-			3024,
-			3025,
-			3026,
-			3028,
-			3029,
-			3030,
-			3032,
-			3033,
-			3034,
-			3035,
-			3036,
-			3037,
-			3038,
-			3039,
-			3040,
-			3041,
-			3042,
-			3043,
-			3044,
-			3045,
-			3046,
-			3047,
-			3048,
-			3049,
-			3050,
-			3051,
-			3052,
-			3053,
-			3054,
-			3055,
-			3056,
-			3059,
-			3101,
-			3102,
-			3103,
-			3104,
-			3105,
-			3106,
-			3107,
-			3108,
-			3109,
-			3110,
-			3111,
-			3112,
-			3113,
-			3114,
-			3115,
-			3116,
-			3117,
-			3118,
-			3119,
-			3120,
-			4001,
-			4002,
-			4003,
-			4004,
-			4005,
-			4006,
-			4007,
-			4008,
-			4009,
-			4010,
-			4011,
-			4012,
-			4013,
-			4014,
-			4015,
-			4016,
-			4017,
-			4018,
-			4019,
-			4020,
-			4021,
-			4022,
-			4023,
-			4024,
-			4025,
-			4026,
-			4027,
-			4028,
-			5001,
-			5002,
-			5003,
-			5004,
-			5005,
-			5006,
-			5007,
-			5008,
-			5101,
-			5102,
-			5103,
-			5104,
-			5105,
-			5106,
-			5107,
-			5108,
-			9900
-		},
-		[3] = {
-			1,
-			5,
-			6,
-			7,
-			8,
-			9,
-			11,
-			12,
-			13,
-			1500,
-			1501,
-			1502,
-			1503
-		},
-		[4] = {
-			2
-		},
-		[2] = {
-			3,
-			4,
-			100011,
-			100012,
-			100013,
-			100021,
-			100022,
-			100023,
-			100031,
-			100032,
-			100033,
-			100041,
-			100042,
-			100043,
-			100051,
-			100052,
-			100053,
-			100061,
-			100062,
-			100063,
-			100101,
-			100102,
-			100103,
-			100201,
-			110001,
-			110002,
-			110003,
-			110004,
-			110005,
-			110006,
-			200001,
-			200002,
-			200003,
-			200004,
-			200005,
-			200006,
-			200007,
-			200008,
-			200009,
-			200010,
-			200011,
-			200012,
-			200013,
-			200014,
-			200015,
-			200016,
-			200017,
-			200018,
-			200019,
-			200020,
-			200021,
-			200022,
-			200023,
-			300001,
-			300002,
-			300003,
-			300004,
-			300005,
-			300006
-		},
-		[5] = {
-			100001,
-			100002,
-			100003
-		}
+	usage_island_gift = {
+		110001,
+		110002,
+		110003,
+		110004,
+		110005,
+		110006
 	},
-	all = {
+	usage_undefined = {
 		1,
 		2,
 		3,
@@ -628,10 +350,6 @@ pg.island_item_data_template = setmetatable({
 		1206,
 		1207,
 		1208,
-		1500,
-		1501,
-		1502,
-		1503,
 		2000,
 		2001,
 		2002,
@@ -818,6 +536,266 @@ pg.island_item_data_template = setmetatable({
 		100102,
 		100103,
 		100201,
+		200001,
+		200002,
+		200003,
+		200004,
+		200005,
+		200006,
+		200007,
+		200008,
+		200009,
+		200010,
+		200011,
+		200012,
+		200013,
+		200014,
+		200015,
+		200016,
+		200017,
+		200018,
+		200019,
+		200020,
+		200021,
+		200022,
+		200023,
+		300001,
+		300002,
+		300003,
+		300004,
+		300005,
+		300006
+	}
+}
+pg.island_item_data_template.get_id_list_by_type = {
+	{
+		10,
+		14,
+		1000,
+		1001,
+		1002,
+		1003,
+		1004,
+		1005,
+		1006,
+		1007,
+		1008,
+		1009,
+		1010,
+		1011,
+		1012,
+		1014,
+		1015,
+		1016,
+		1017,
+		1018,
+		1019,
+		1020,
+		1021,
+		1022,
+		1101,
+		1102,
+		1103,
+		1104,
+		1105,
+		1106,
+		1107,
+		1108,
+		1201,
+		1202,
+		1203,
+		1204,
+		1205,
+		1206,
+		1207,
+		1208,
+		2000,
+		2001,
+		2002,
+		2003,
+		2004,
+		2005,
+		2006,
+		2007,
+		2008,
+		2009,
+		2010,
+		2011,
+		2012,
+		2014,
+		2015,
+		2016,
+		2017,
+		2018,
+		2019,
+		2020,
+		2021,
+		2022,
+		2521,
+		2522,
+		2600,
+		2601,
+		2602,
+		2603,
+		2604,
+		2605,
+		2606,
+		2700,
+		2701,
+		2702,
+		2703,
+		2704,
+		2705,
+		2800,
+		2801,
+		2802,
+		2803,
+		3000,
+		3001,
+		3002,
+		3003,
+		3004,
+		3005,
+		3006,
+		3007,
+		3008,
+		3009,
+		3010,
+		3011,
+		3012,
+		3013,
+		3014,
+		3015,
+		3017,
+		3018,
+		3019,
+		3020,
+		3021,
+		3022,
+		3023,
+		3024,
+		3025,
+		3026,
+		3028,
+		3029,
+		3030,
+		3032,
+		3033,
+		3034,
+		3035,
+		3036,
+		3037,
+		3038,
+		3039,
+		3040,
+		3041,
+		3042,
+		3043,
+		3044,
+		3045,
+		3046,
+		3047,
+		3048,
+		3049,
+		3050,
+		3051,
+		3052,
+		3053,
+		3054,
+		3055,
+		3056,
+		3059,
+		3101,
+		3102,
+		3103,
+		3104,
+		3105,
+		3106,
+		3107,
+		3108,
+		3109,
+		3110,
+		3111,
+		3112,
+		3113,
+		3114,
+		3115,
+		3116,
+		3117,
+		3118,
+		3119,
+		3120,
+		4001,
+		4002,
+		4003,
+		4004,
+		4005,
+		4006,
+		4007,
+		4008,
+		4009,
+		4010,
+		4011,
+		4012,
+		4013,
+		4014,
+		4015,
+		4016,
+		4017,
+		4018,
+		4019,
+		4020,
+		4021,
+		4022,
+		4023,
+		4024,
+		4025,
+		4026,
+		4027,
+		4028,
+		5001,
+		5002,
+		5003,
+		5004,
+		5005,
+		5006,
+		5007,
+		5008,
+		5101,
+		5102,
+		5103,
+		5104,
+		5105,
+		5106,
+		5107,
+		5108,
+		9900
+	},
+	{
+		3,
+		4,
+		100011,
+		100012,
+		100013,
+		100021,
+		100022,
+		100023,
+		100031,
+		100032,
+		100033,
+		100041,
+		100042,
+		100043,
+		100051,
+		100052,
+		100053,
+		100061,
+		100062,
+		100063,
+		100101,
+		100102,
+		100103,
+		100201,
 		110001,
 		110002,
 		110003,
@@ -853,11 +831,36 @@ pg.island_item_data_template = setmetatable({
 		300004,
 		300005,
 		300006
-	}
-}, confHX)
-pg.base = pg.base or {}
-pg.base.island_item_data_template = {
+	},
 	{
+		1,
+		5,
+		6,
+		7,
+		8,
+		9,
+		11,
+		12,
+		13,
+		1500,
+		1501,
+		1502,
+		1503
+	},
+	{
+		2
+	},
+	{
+		100001,
+		100002,
+		100003
+	}
+}
+pg.base = pg.base or {}
+pg.base.island_item_data_template = {}
+
+(function ()
+	pg.base.island_item_data_template[1] = {
 		name = "Development Funds",
 		desc = "Currency used around the development area. The foundation of continued development.",
 		type = 3,
@@ -891,8 +894,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	{
+	}
+	pg.base.island_item_data_template[2] = {
 		name = "Development EXP",
 		desc = "Island development experience. Accumulate it to increase your development level.",
 		type = 4,
@@ -926,8 +929,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	{
+	}
+	pg.base.island_item_data_template[3] = {
 		name = "Outfit Colors",
 		desc = "A palette containing various dyes. Allows you to recolor outfits and give yourself a truly unique look!",
 		type = 2,
@@ -961,8 +964,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	{
+	}
+	pg.base.island_item_data_template[4] = {
 		name = "Building Permit",
 		desc = "A building permit for Get-Together Island. Use it to rebuild the island just the way you like it.",
 		type = 2,
@@ -987,8 +990,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[5] = {
 		name = "Map Fragment - 1",
 		desc = "A mysterious piece of paper. Its crooked lines seem to conceal some sort of secret.",
 		type = 3,
@@ -1013,8 +1016,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[6] = {
 		name = "Map Fragment - 2",
 		desc = "A mysterious piece of paper. Its crooked lines seem to conceal some sort of secret.",
 		type = 3,
@@ -1039,8 +1042,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[7] = {
 		name = "Map Fragment - 3",
 		desc = "A mysterious piece of paper. Its crooked lines seem to conceal some sort of secret.",
 		type = 3,
@@ -1065,8 +1068,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[8] = {
 		name = "Map Fragment - 4",
 		desc = "A mysterious piece of paper. Its crooked lines seem to conceal some sort of secret.",
 		type = 3,
@@ -1091,8 +1094,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[9] = {
 		name = "Map Fragment - 5",
 		desc = "A mysterious piece of paper. Its crooked lines seem to conceal some sort of secret.",
 		type = 3,
@@ -1117,8 +1120,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[10] = {
 		name = "Island Seasonal PT Exchange Ticket",
 		desc = "A ticket that can be exchanged for Island Dev. Points. Will be automatically converted into Island Dev. Points when a season ends, but can also be used manually in your Warehouse.",
 		type = 1,
@@ -1143,8 +1146,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[11] = {
 		name = "Oceana",
 		desc = "Oceana",
 		type = 3,
@@ -1167,8 +1170,8 @@ pg.base.island_item_data_template = {
 		filter = {},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[12] = {
 		name = "TB",
 		desc = "TB",
 		type = 3,
@@ -1191,8 +1194,8 @@ pg.base.island_item_data_template = {
 		filter = {},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[13] = {
 		name = "Explorer",
 		desc = "Explorer",
 		type = 3,
@@ -1215,8 +1218,8 @@ pg.base.island_item_data_template = {
 		filter = {},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[14] = {
 		name = "Island Development Points",
 		desc = "A currency that corresponds to your development progress in Island Planner. Can be used to obtain a variety of rewards.",
 		type = 1,
@@ -1241,8 +1244,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[1000] = {
+	}
+	pg.base.island_item_data_template[1000] = {
 		name = "Wheat Seeds",
 		desc = "A bunch of the port's premium wheat seeds. Can be used to grow quality wheat.",
 		type = 1,
@@ -1285,8 +1288,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1001] = {
+	}
+	pg.base.island_item_data_template[1001] = {
 		name = "Corn Seeds",
 		desc = "A bunch of the port's premium corn seeds. They're filled with the power of a bountiful harvest.",
 		type = 1,
@@ -1329,8 +1332,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1002] = {
+	}
+	pg.base.island_item_data_template[1002] = {
 		name = "Upland Rice Seeds",
 		desc = "A bunch of the port's premium upland rice seeds. Just plant and wait for the harvest.",
 		type = 1,
@@ -1373,8 +1376,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1003] = {
+	}
+	pg.base.island_item_data_template[1003] = {
 		name = "Napa Cabbage Seeds",
 		desc = "A bunch of the port's premium napa cabbage seeds. Can be used to grow crisp and large cabbages.",
 		type = 1,
@@ -1417,8 +1420,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1004] = {
+	}
+	pg.base.island_item_data_template[1004] = {
 		name = "Carrot Seeds",
 		desc = "A bunch of the port's premium carrot seeds. Can be used to grow sweet carrots.",
 		type = 1,
@@ -1461,8 +1464,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1005] = {
+	}
+	pg.base.island_item_data_template[1005] = {
 		name = "Potato Seeds",
 		desc = "A bunch of the port's premium potato seeds. Can be used to grow a large harvest of potatoes.",
 		type = 1,
@@ -1505,8 +1508,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1006] = {
+	}
+	pg.base.island_item_data_template[1006] = {
 		name = "Soy Bean Seeds",
 		desc = "A bunch of the port's premium soy bean seeds. Can be used to grow quality soy beans.",
 		type = 1,
@@ -1549,8 +1552,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1007] = {
+	}
+	pg.base.island_item_data_template[1007] = {
 		name = "Onion Seeds",
 		desc = "A bunch of the port's premium onion seeds. Can be used to grow luscious onions.",
 		type = 1,
@@ -1593,8 +1596,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1008] = {
+	}
+	pg.base.island_item_data_template[1008] = {
 		name = "Grass Seeds",
 		desc = "A bunch of the port's premium grass seeds. Can be used to grow loads of grass.",
 		type = 1,
@@ -1637,8 +1640,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1009] = {
+	}
+	pg.base.island_item_data_template[1009] = {
 		name = "Coffee Tree Seeds",
 		desc = "A bunch of the port's premium coffee tree seeds. Can be used to grow flavorful coffee beans.",
 		type = 1,
@@ -1681,8 +1684,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1010] = {
+	}
+	pg.base.island_item_data_template[1010] = {
 		name = "Flax Seeds",
 		desc = "A bunch of the port's premium flax seeds. Grows fast and yields long, sturdy fibers. A great material for spinning thread.",
 		type = 1,
@@ -1725,8 +1728,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1011] = {
+	}
+	pg.base.island_item_data_template[1011] = {
 		name = "Strawberry Seeds",
 		desc = "A bunch of the port's premium strawberry seeds. Can be used to grow brilliantly red strawberries.",
 		type = 1,
@@ -1769,8 +1772,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1012] = {
+	}
+	pg.base.island_item_data_template[1012] = {
 		name = "Cotton Seeds",
 		desc = "A bunch of the port's premium cotton seeds. Can be used to grow soft cotton.",
 		type = 1,
@@ -1813,8 +1816,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1014] = {
+	}
+	pg.base.island_item_data_template[1014] = {
 		name = "Tea Tree Seeds",
 		desc = "A bunch of the port's premium tea tree seeds. Can be used to grow quality tea leaves.",
 		type = 1,
@@ -1857,8 +1860,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1015] = {
+	}
+	pg.base.island_item_data_template[1015] = {
 		name = "Lavender Seeds",
 		desc = "A bunch of the port's premium lavender seeds. Can be used to grow purple flowers.",
 		type = 1,
@@ -1901,8 +1904,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1016] = {
+	}
+	pg.base.island_item_data_template[1016] = {
 		name = "Apple Tree Seeds",
 		desc = "Seeds from the excellent apple trees grown at the port. Can be used to grow crisp and delicious apples.",
 		type = 1,
@@ -1945,8 +1948,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1017] = {
+	}
+	pg.base.island_item_data_template[1017] = {
 		name = "Citrus Fruit Tree Seeds",
 		desc = "Seeds from the excellent citrus trees grown at the port. Can be used to grow sweet and juicy citrus fruits.",
 		type = 1,
@@ -1989,8 +1992,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1018] = {
+	}
+	pg.base.island_item_data_template[1018] = {
 		name = "Banana Tree Seed",
 		desc = "Seeds from the excellent banana trees grown at the port. Can be used to grow tender bananas.",
 		type = 1,
@@ -2033,8 +2036,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1019] = {
+	}
+	pg.base.island_item_data_template[1019] = {
 		name = "Mango Tree Seeds",
 		desc = "Seeds from the excellent mango trees grown at the port. Can be used to grow sweet mangos.",
 		type = 1,
@@ -2077,8 +2080,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1020] = {
+	}
+	pg.base.island_item_data_template[1020] = {
 		name = "Lemon Tree Seed",
 		desc = "Seeds from the excellent lemon trees grown at the port. Can be used to grow refreshing lemons.",
 		type = 1,
@@ -2121,8 +2124,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1021] = {
+	}
+	pg.base.island_item_data_template[1021] = {
 		name = "Avocado Tree Seeds",
 		desc = "Seeds from the excellent avocado trees grown at the port. Can be used to grow nutritious avocados.",
 		type = 1,
@@ -2165,8 +2168,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1022] = {
+	}
+	pg.base.island_item_data_template[1022] = {
 		name = "Rubber Tree Seeds",
 		desc = "A bunch of the port's premium rubber tree seeds. Can be used to grow quality rubber.",
 		type = 1,
@@ -2209,8 +2212,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1101] = {
+	}
+	pg.base.island_item_data_template[1101] = {
 		name = "Shellfish Spat",
 		desc = "A juvenile bivalve. It exhibits stable growth, with good cultivation techniques in place.",
 		type = 1,
@@ -2253,8 +2256,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1102] = {
+	}
+	pg.base.island_item_data_template[1102] = {
 		name = "Catfish Fry",
 		desc = "A juvenile benthic freshwater fish. It's resilient to low-oxygen environments and is suited for high-density cultivation in fish pens with muddy bottoms.",
 		type = 1,
@@ -2297,8 +2300,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1103] = {
+	}
+	pg.base.island_item_data_template[1103] = {
 		name = "Koi Carp Fry",
 		desc = "A juvenile omnivorous freshwater fish. It's highly adaptable to its environment, and exhibits stable growth in all kinds of water conditions.",
 		type = 1,
@@ -2341,8 +2344,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1104] = {
+	}
+	pg.base.island_item_data_template[1104] = {
 		name = "Common Carp Fry",
 		desc = "A juvenile freshwater fish. It mainly eats algae and organic matter, contributing to the ecosystem's maintenance.",
 		type = 1,
@@ -2385,8 +2388,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1105] = {
+	}
+	pg.base.island_item_data_template[1105] = {
 		name = "Freshwater Shrimp Fry",
 		desc = "A juvenile freshwater shrimp. It eats leftover feed and some species of algae, functioning as a natural cleaner.",
 		type = 1,
@@ -2429,8 +2432,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1106] = {
+	}
+	pg.base.island_item_data_template[1106] = {
 		name = "Crayfish Fry",
 		desc = "A juvenile crustacean. Its shell turns red and becomes hard as it grows. Its mature form is traded as a popular marine product.",
 		type = 1,
@@ -2473,8 +2476,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1107] = {
+	}
+	pg.base.island_item_data_template[1107] = {
 		name = "Sea Bass Fry",
 		desc = "A juvenile carnivorous fish. Its meat is tender, and it's cultivated as a high-quality edible fish.",
 		type = 1,
@@ -2517,8 +2520,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1108] = {
+	}
+	pg.base.island_item_data_template[1108] = {
 		name = "Juvenile Crab",
 		desc = "A juvenile crab that frequently molts. It needs to be raised in a clean water environment.",
 		type = 1,
@@ -2561,8 +2564,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1201] = {
+	}
+	pg.base.island_item_data_template[1201] = {
 		name = "Squid Fry",
 		desc = "A juvenile cephalopod. After undergoing several transformations during its growth process, it develops tender flesh.",
 		type = 1,
@@ -2605,8 +2608,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1202] = {
+	}
+	pg.base.island_item_data_template[1202] = {
 		name = "Mackerel Fry",
 		desc = "A juvenile carnivorous fish. It's often found in the middle water layers and boasts good growth potential.",
 		type = 1,
@@ -2649,8 +2652,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1203] = {
+	}
+	pg.base.island_item_data_template[1203] = {
 		name = "Tuna Fry",
 		desc = "A juvenile large palegic fish. It grows quickly and demands an aquatic environment with ample oxygen supply.",
 		type = 1,
@@ -2693,8 +2696,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1204] = {
+	}
+	pg.base.island_item_data_template[1204] = {
 		name = "Salmon Fry",
 		desc = "A juvenile migratory fish. It loves cooler waters and develops a delectable flesh through gentle care.",
 		type = 1,
@@ -2737,8 +2740,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1205] = {
+	}
+	pg.base.island_item_data_template[1205] = {
 		name = "Red Sea Bream Fry",
 		desc = "A juvenile warm saltwater fish. It gains a vibrant body color after finishing its growth, making it a prized ornamental fish.",
 		type = 1,
@@ -2781,8 +2784,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1206] = {
+	}
+	pg.base.island_item_data_template[1206] = {
 		name = "Black Porgy Fry",
 		desc = "A juvenile fish that lives in coral reefs. Its robust constitution makes it easy to cultivate.",
 		type = 1,
@@ -2825,8 +2828,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1207] = {
+	}
+	pg.base.island_item_data_template[1207] = {
 		name = "Yellowfin Tuna Fry",
 		desc = "A juvenile yellowfin tuna. It's a quick swimmer and demands oxygen-rich waters for successful cultivation.",
 		type = 1,
@@ -2869,8 +2872,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1208] = {
+	}
+	pg.base.island_item_data_template[1208] = {
 		name = "Sea Cucumber Fry",
 		desc = "A juvenile benthic echinoderm. It subsists on accumulated organic matter, so it cleans the bottom of the fish pen efficiently.",
 		type = 1,
@@ -2913,8 +2916,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1500] = {
+	}
+	pg.base.island_item_data_template[1500] = {
 		name = "Earthworm",
 		desc = "A lure shaped like an earthworm. Fish are likely to go for it on account of its realistic appearance.",
 		type = 3,
@@ -2944,8 +2947,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[1501] = {
+	}
+	pg.base.island_item_data_template[1501] = {
 		name = "Corn",
 		desc = "A lure shaped like corn with a unique flavor. Its golden color appeals to omnivorous fish.",
 		type = 3,
@@ -2970,8 +2973,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[1502] = {
+	}
+	pg.base.island_item_data_template[1502] = {
 		name = "Shelled Shrimp",
 		desc = "A lure carefully made to look like a shelled shrimp. Its natural form and movements entice many carnivorous species.",
 		type = 3,
@@ -3001,8 +3004,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[1503] = {
+	}
+	pg.base.island_item_data_template[1503] = {
 		name = "Octopus Arm",
 		desc = "A lure with a distinctive shape. Its lively motions in the water are irresistible to larger fish.",
 		type = 3,
@@ -3032,8 +3035,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2000] = {
+	}
+	pg.base.island_item_data_template[2000] = {
 		name = "Wheat",
 		desc = "Fresh wheat straight from the fields. The base ingredient needed to make flour.",
 		type = 1,
@@ -3064,8 +3067,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2001] = {
+	}
+	pg.base.island_item_data_template[2001] = {
 		name = "Corn",
 		desc = "Ripe, golden corn. It lends a sweet smell to the fields.",
 		type = 1,
@@ -3096,8 +3099,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2002] = {
+	}
+	pg.base.island_item_data_template[2002] = {
 		name = "Rice",
 		desc = "White, high-quality rice. Contains plentiful starch and granular protein.",
 		type = 1,
@@ -3128,8 +3131,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2003] = {
+	}
+	pg.base.island_item_data_template[2003] = {
 		name = "Napa Cabbage",
 		desc = "Crisp and delicious napa cabbage. It's straight from the farm!",
 		type = 1,
@@ -3160,8 +3163,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2004] = {
+	}
+	pg.base.island_item_data_template[2004] = {
 		name = "Carrot",
 		desc = "A common household vegetable. Sweet and full of nutrients.",
 		type = 1,
@@ -3192,8 +3195,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2005] = {
+	}
+	pg.base.island_item_data_template[2005] = {
 		name = "Potato",
 		desc = "The king of starch in the vegetable world. Can be prepared in all kinds of ways.",
 		type = 1,
@@ -3224,8 +3227,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2006] = {
+	}
+	pg.base.island_item_data_template[2006] = {
 		name = "Soy Beans",
 		desc = "Round, fluffy, and filled with protein. Has all sorts of uses, not just in cooking, but in manufacturing as well.",
 		type = 1,
@@ -3256,8 +3259,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2007] = {
+	}
+	pg.base.island_item_data_template[2007] = {
 		name = "Onion",
 		desc = "Try not to cry when you peel it!",
 		type = 1,
@@ -3288,8 +3291,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2008] = {
+	}
+	pg.base.island_item_data_template[2008] = {
 		name = "Grass",
 		desc = "High-quality grass. Provides life in abundance to the farm!",
 		type = 1,
@@ -3320,8 +3323,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2009] = {
+	}
+	pg.base.island_item_data_template[2009] = {
 		name = "Coffee Beans",
 		desc = "Fragrant and reinvigorating. Care for a cup?",
 		type = 1,
@@ -3352,8 +3355,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2010] = {
+	}
+	pg.base.island_item_data_template[2010] = {
 		name = "Flax",
 		desc = "A flower with long fibers suited for making threads and textiles. Perfect for your workshop!",
 		type = 1,
@@ -3384,8 +3387,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2011] = {
+	}
+	pg.base.island_item_data_template[2011] = {
 		name = "Strawberries",
 		desc = "Deep red, juicy, and sweet and sour at the same time. Pairs wonderfully with desserts.",
 		type = 1,
@@ -3416,8 +3419,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2012] = {
+	}
+	pg.base.island_item_data_template[2012] = {
 		name = "Cotton",
 		desc = "White and soft cotton. An essential ingredient in thread-spinning.",
 		type = 1,
@@ -3448,8 +3451,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2014] = {
+	}
+	pg.base.island_item_data_template[2014] = {
 		name = "Tea Leaves",
 		desc = "They give off a bitter yet clean aroma. Savor a taste of nature.",
 		type = 1,
@@ -3480,8 +3483,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2015] = {
+	}
+	pg.base.island_item_data_template[2015] = {
 		name = "Lavender",
 		desc = "Not only do these aromatic flowers add color to your garden, but you can also extract essential oils from them.",
 		type = 1,
@@ -3512,8 +3515,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2016] = {
+	}
+	pg.base.island_item_data_template[2016] = {
 		name = "Apple",
 		desc = "Sour, juicy, and loaded with all kinds of vitamins, it can be turned into juice or eaten as it is.",
 		type = 1,
@@ -3544,8 +3547,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2017] = {
+	}
+	pg.base.island_item_data_template[2017] = {
 		name = "Citrus Fruit",
 		desc = "Cheap and long-lasting fruit with a fresh fragrance.",
 		type = 1,
@@ -3576,8 +3579,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2018] = {
+	}
+	pg.base.island_item_data_template[2018] = {
 		name = "Banana",
 		desc = "A tropical fruit that's sweet, soft, and rich in dietary fiber.",
 		type = 1,
@@ -3608,8 +3611,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2019] = {
+	}
+	pg.base.island_item_data_template[2019] = {
 		name = "Mango",
 		desc = "A summer fruit with smooth flesh. Very sweet, juicy, and delicious.",
 		type = 1,
@@ -3640,8 +3643,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2020] = {
+	}
+	pg.base.island_item_data_template[2020] = {
 		name = "Lemon",
 		desc = "Its skin has a fresh aroma and its flesh is perfectly sour. Used in cooking to adjust the flavor.",
 		type = 1,
@@ -3672,8 +3675,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2021] = {
+	}
+	pg.base.island_item_data_template[2021] = {
 		name = "Avocado",
 		desc = "Its flesh is smooth and creamy. Being low in calories, it's both tasty and healthy.",
 		type = 1,
@@ -3704,8 +3707,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2022] = {
+	}
+	pg.base.island_item_data_template[2022] = {
 		name = "Rubber",
 		desc = "A highly elastic ingredient commonly used in manufacturing. Its uses are many!",
 		type = 1,
@@ -3736,8 +3739,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2521] = {
+	}
+	pg.base.island_item_data_template[2521] = {
 		name = "Freshwater Fish Meat",
 		desc = "Processed freshwater fish meat. A versatile ingredient that's foundational to home cooking.",
 		type = 1,
@@ -3768,8 +3771,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2522] = {
+	}
+	pg.base.island_item_data_template[2522] = {
 		name = "Saltwater Fish Meat",
 		desc = "Processed saltwater fish meat. It faintly gives off the smell of the sea.",
 		type = 1,
@@ -3800,8 +3803,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2600] = {
+	}
+	pg.base.island_item_data_template[2600] = {
 		name = "Fresh Meat",
 		desc = "Meat freshly harvested from an animal. It's a high-quality source of protein.",
 		type = 1,
@@ -3832,8 +3835,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2601] = {
+	}
+	pg.base.island_item_data_template[2601] = {
 		name = "Eggs",
 		desc = "Brown eggs. Often used in cooking.",
 		type = 1,
@@ -3864,8 +3867,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2602] = {
+	}
+	pg.base.island_item_data_template[2602] = {
 		name = "Poultry",
 		desc = "Meat high in protein and low in fat. Suited for all kinds of dishes.",
 		type = 1,
@@ -3896,8 +3899,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2603] = {
+	}
+	pg.base.island_item_data_template[2603] = {
 		name = "Milk",
 		desc = "An all-natural drink. Can be processed into yogurt or cheese.",
 		type = 1,
@@ -3928,8 +3931,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2604] = {
+	}
+	pg.base.island_item_data_template[2604] = {
 		name = "Pelt",
 		desc = "Simply prepared animal pelt. Can be tanned and turned into leather.",
 		type = 1,
@@ -3960,8 +3963,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2605] = {
+	}
+	pg.base.island_item_data_template[2605] = {
 		name = "Wool",
 		desc = "Harvested animal hair. A core ingredient in the production of fabrics.",
 		type = 1,
@@ -3992,8 +3995,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2606] = {
+	}
+	pg.base.island_item_data_template[2606] = {
 		name = "Fresh Honey",
 		desc = "Honey straight from the hive. It's full of natural, rich aroma.",
 		type = 1,
@@ -4024,8 +4027,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2700] = {
+	}
+	pg.base.island_item_data_template[2700] = {
 		name = "Coal",
 		desc = "A fundamental type of fuel. It burns very efficiently and is often used in heating and manufacturing.",
 		type = 1,
@@ -4056,8 +4059,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2701] = {
+	}
+	pg.base.island_item_data_template[2701] = {
 		name = "Copper Ore",
 		desc = "Ore that's rich in copper. Once refined, it's often used in the production of electronics.",
 		type = 1,
@@ -4088,8 +4091,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2702] = {
+	}
+	pg.base.island_item_data_template[2702] = {
 		name = "Bauxite Ore",
 		desc = "Ore that's rich in aluminum. Once refined, it's often used in the manufacturing of aircraft and ships.",
 		type = 1,
@@ -4120,8 +4123,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2703] = {
+	}
+	pg.base.island_item_data_template[2703] = {
 		name = "Iron Ore",
 		desc = "Ore that's rich in iron. Once refined, it's often used in the construction of buildings and structures.",
 		type = 1,
@@ -4152,8 +4155,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2704] = {
+	}
+	pg.base.island_item_data_template[2704] = {
 		name = "Sulfur",
 		desc = "A deposit that's rich in sulfur. Once refined, it's often used in the manufacturing of fertilizers and insecticides.",
 		type = 1,
@@ -4184,8 +4187,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2705] = {
+	}
+	pg.base.island_item_data_template[2705] = {
 		name = "Silver Ore",
 		desc = "Ore that's rich in silver. Once refined, it's often used in the manufacturing of alloys and chemical instruments.",
 		type = 1,
@@ -4216,8 +4219,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2800] = {
+	}
+	pg.base.island_item_data_template[2800] = {
 		name = "Raw Timber",
 		desc = "A basic material. It has many applications, ranging from construction to making paper.",
 		type = 1,
@@ -4248,8 +4251,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2801] = {
+	}
+	pg.base.island_item_data_template[2801] = {
 		name = "Workable Wood",
 		desc = "With its beautiful grain, it's perfect for creating furniture or flooring.",
 		type = 1,
@@ -4280,8 +4283,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2802] = {
+	}
+	pg.base.island_item_data_template[2802] = {
 		name = "Premium Wood",
 		desc = "Solid and durable, it's used in the making of high-end furniture and traditional shipbuilding.",
 		type = 1,
@@ -4312,8 +4315,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2803] = {
+	}
+	pg.base.island_item_data_template[2803] = {
 		name = "Elegant Wood",
 		desc = "Pretty and durable. Suited for making luxury decorations and furniture.",
 		type = 1,
@@ -4344,8 +4347,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3000] = {
+	}
+	pg.base.island_item_data_template[3000] = {
 		name = "Clucky Clucky Bird Feed",
 		desc = "High-protein feed for the clucky clucky bird. Provides it with all the energy it needs.",
 		type = 1,
@@ -4388,8 +4391,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[3001] = {
+	}
+	pg.base.island_item_data_template[3001] = {
 		name = "Oinky Oinky Pig Feed",
 		desc = "Fattening feed for the oinky oinky pig. Perfect for a growing animal.",
 		type = 1,
@@ -4432,8 +4435,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[3002] = {
+	}
+	pg.base.island_item_data_template[3002] = {
 		name = "Moo Moo Cow Feed",
 		desc = "Nutritional feed for the moo moo cow. Fragrant and aids in the production of rich milk.",
 		type = 1,
@@ -4476,8 +4479,10 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[3003] = {
+	}
+end)()
+(function ()
+	pg.base.island_item_data_template[3003] = {
 		name = "Baa Baa Sheep Feed",
 		desc = "Cornmeal feed for the baa baa sheep. Helps promote the growth of softer wool.",
 		type = 1,
@@ -4520,8 +4525,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[3004] = {
+	}
+	pg.base.island_item_data_template[3004] = {
 		name = "Flour",
 		desc = "White flour made from grinding wheat. Needed to make bread, cakes, and pizzas.",
 		type = 1,
@@ -4552,8 +4557,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3005] = {
+	}
+	pg.base.island_item_data_template[3005] = {
 		name = "Iced Coffee",
 		desc = "A refreshing flavor that's sure to top up your batteries!",
 		type = 1,
@@ -4587,8 +4592,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3006] = {
+	}
+	pg.base.island_item_data_template[3006] = {
 		name = "Cheese",
 		desc = "Made from milk, it contains loads of protein and fat. Frequently combined with bread.",
 		type = 1,
@@ -4622,8 +4627,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3007] = {
+	}
+	pg.base.island_item_data_template[3007] = {
 		name = "Latte",
 		desc = "An espresso combined with milk. Very aromatic and smooth, it's a favorite among coffee lovers.",
 		type = 1,
@@ -4657,8 +4662,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3008] = {
+	}
+	pg.base.island_item_data_template[3008] = {
 		name = "Citrus Coffee",
 		desc = "A coffee beverage with citrus juice added. Its pleasant acidity and fruity smell are its standout traits.",
 		type = 1,
@@ -4692,8 +4697,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3009] = {
+	}
+	pg.base.island_item_data_template[3009] = {
 		name = "Apple Pie",
 		desc = "A sweet pie consisting of candied apples put inside the crust. A commonplace dessert.",
 		type = 1,
@@ -4727,8 +4732,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3010] = {
+	}
+	pg.base.island_item_data_template[3010] = {
 		name = "Strawberry Milkshake",
 		desc = "It's smooth as velvet, cool, and airy, with a rich flavor.",
 		type = 1,
@@ -4762,8 +4767,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3011] = {
+	}
+	pg.base.island_item_data_template[3011] = {
 		name = "Tofu",
 		desc = "White and soft. Made from soy beans, it contains plant-based proteins in abundance.",
 		type = 1,
@@ -4797,8 +4802,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3012] = {
+	}
+	pg.base.island_item_data_template[3012] = {
 		name = "Tofu with Minced Meat",
 		desc = "A traditional Dragon Empery dish. The texture is silky-smooth, and the sauce is rich and delicious.",
 		type = 1,
@@ -4832,8 +4837,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3013] = {
+	}
+	pg.base.island_item_data_template[3013] = {
 		name = "Omurice",
 		desc = "Fluffy rice wrapped in a thin, golden omelette. A surprise awaits in each bite!",
 		type = 1,
@@ -4867,8 +4872,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3014] = {
+	}
+	pg.base.island_item_data_template[3014] = {
 		name = "Cabbage and Tofu Soup",
 		desc = "The sweetness of napa cabbage and the umami flavor of tofu. A light and healthy dish.",
 		type = 1,
@@ -4902,8 +4907,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3015] = {
+	}
+	pg.base.island_item_data_template[3015] = {
 		name = "Vegetable Salad",
 		desc = "Fresh veggies combined with a nice dressing. Crisp and delicious!",
 		type = 1,
@@ -4937,8 +4942,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3017] = {
+	}
+	pg.base.island_item_data_template[3017] = {
 		name = "Apple Juice",
 		desc = "Freshly squeezed juice with a pronounced fruity aroma. A popular and healthy drink!",
 		type = 1,
@@ -4972,8 +4977,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3018] = {
+	}
+	pg.base.island_item_data_template[3018] = {
 		name = "Banana and Mango Juice",
 		desc = "The perfect combination of banana and mango. It's pure, concentrated tropical flavor!",
 		type = 1,
@@ -5007,8 +5012,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3019] = {
+	}
+	pg.base.island_item_data_template[3019] = {
 		name = "Honey and Lemon Water",
 		desc = "A sublime pairing of sweet honey and refreshing lemon. A good source of vitamin C.",
 		type = 1,
@@ -5042,8 +5047,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3020] = {
+	}
+	pg.base.island_item_data_template[3020] = {
 		name = "Strawberry Lemon Drink",
 		desc = "A fruity combination of strawberries and lemons. Cooling and great for blowing off the summer heat!",
 		type = 1,
@@ -5077,8 +5082,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3021] = {
+	}
+	pg.base.island_item_data_template[3021] = {
 		name = "Lavender Tea",
 		desc = "It soothes your heart, relieves stress, and clears your mind and body.",
 		type = 1,
@@ -5112,8 +5117,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3022] = {
+	}
+	pg.base.island_item_data_template[3022] = {
 		name = "Strawberry Honey Frappé",
 		desc = "A sweet coffee. The sweet and sour flavor of the strawberries melds perfectly with the mellowness of the honey.",
 		type = 1,
@@ -5147,8 +5152,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3023] = {
+	}
+	pg.base.island_item_data_template[3023] = {
 		name = "Corn Cup",
 		desc = "Lightly steamed, golden corn kernels put into a cup. A common and yummy snack.",
 		type = 1,
@@ -5182,8 +5187,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3024] = {
+	}
+	pg.base.island_item_data_template[3024] = {
 		name = "Orange Pie",
 		desc = "A classic dessert. Tastes even better when you have it with afternoon tea.",
 		type = 1,
@@ -5217,8 +5222,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3025] = {
+	}
+	pg.base.island_item_data_template[3025] = {
 		name = "Sticky Rice with Mango",
 		desc = "A homely dish brimming with tropical taste. Great for when you don't have an appetite.",
 		type = 1,
@@ -5252,8 +5257,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3026] = {
+	}
+	pg.base.island_item_data_template[3026] = {
 		name = "Banana Crêpe",
 		desc = "A classic breakfast item. It's crunchy and loved by men and women of all ages.",
 		type = 1,
@@ -5287,8 +5292,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3028] = {
+	}
+	pg.base.island_item_data_template[3028] = {
 		name = "Strawberry Charlotte",
 		desc = "A beloved food among dessert lovers, this cake is made with crispy meringue dough and sweet strawberry mousse.",
 		type = 1,
@@ -5322,8 +5327,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3029] = {
+	}
+	pg.base.island_item_data_template[3029] = {
 		name = "Coal-Roasted Skewer",
 		desc = "Crispy on the outside and tender on the inside, with a fragrant aroma. An indispensable dish at barbecue parties!",
 		type = 1,
@@ -5357,8 +5362,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3030] = {
+	}
+	pg.base.island_item_data_template[3030] = {
 		name = "Chicken and Potato Hors d'Oeuvre",
 		desc = "A straightforward and delicious meal that's often seen on the dinner table at home!",
 		type = 1,
@@ -5392,8 +5397,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3032] = {
+	}
+	pg.base.island_item_data_template[3032] = {
 		name = "Stir-Fried Chicken",
 		desc = "A dish of chicken stir-fried with spices. Its fragrance makes you hungry!",
 		type = 1,
@@ -5427,8 +5432,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3033] = {
+	}
+	pg.base.island_item_data_template[3033] = {
 		name = "Rolled Carrot Omelette",
 		desc = "A thin omelette wrapped with sweet carrots resulting in a complex flavor. A great choice for breakfast or as an afternoon snack!",
 		type = 1,
@@ -5462,8 +5467,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3034] = {
+	}
+	pg.base.island_item_data_template[3034] = {
 		name = "Steak Bowl",
 		desc = "Filling and quick to prepare, this is a dish for those who like to be efficient!",
 		type = 1,
@@ -5497,8 +5502,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3035] = {
+	}
+	pg.base.island_item_data_template[3035] = {
 		name = "Cloth",
 		desc = "Basic cloth made from material containing fiber. A base material in many day-to-day products and industrial goods.",
 		type = 1,
@@ -5529,8 +5534,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3036] = {
+	}
+	pg.base.island_item_data_template[3036] = {
 		name = "Leather",
 		desc = "Processed animal pelts. Often used in the production of clothing and furniture.",
 		type = 1,
@@ -5561,8 +5566,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3037] = {
+	}
+	pg.base.island_item_data_template[3037] = {
 		name = "Rope",
 		desc = "Firm and strong. Can be used to tie things up, of course, but also helps to hold scaffoldings in place.",
 		type = 1,
@@ -5593,8 +5598,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3038] = {
+	}
+	pg.base.island_item_data_template[3038] = {
 		name = "Gloves",
 		desc = "An essential household item for keeping warm. You don't want to go out on a cold day without these.",
 		type = 1,
@@ -5625,8 +5630,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3039] = {
+	}
+	pg.base.island_item_data_template[3039] = {
 		name = "Aroma Sachet",
 		desc = "A sachet filled with herbs and spices. Bring the freshness with you wherever you go!",
 		type = 1,
@@ -5657,8 +5662,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3040] = {
+	}
+	pg.base.island_item_data_template[3040] = {
 		name = "Shoes",
 		desc = "A leather product. Worn to protect your feet.",
 		type = 1,
@@ -5689,8 +5694,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3041] = {
+	}
+	pg.base.island_item_data_template[3041] = {
 		name = "Wound Dressings",
 		desc = "An indispensable medical item. Whether you have a gash or a bruise, this provides immediate treatment.",
 		type = 1,
@@ -5721,8 +5726,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3042] = {
+	}
+	pg.base.island_item_data_template[3042] = {
 		name = "Charcoal Brush",
 		desc = "An art product often used for sketching and designing on paper.",
 		type = 1,
@@ -5753,8 +5758,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3043] = {
+	}
+	pg.base.island_item_data_template[3043] = {
 		name = "Cable",
 		desc = "A symbol of modernity used to provide electricity to lots of machinery.",
 		type = 1,
@@ -5785,8 +5790,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3044] = {
+	}
+	pg.base.island_item_data_template[3044] = {
 		name = "Nails",
 		desc = "An item commonly seen in construction, often being used to fix signs in place or construct furniture.",
 		type = 1,
@@ -5817,8 +5822,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3045] = {
+	}
+	pg.base.island_item_data_template[3045] = {
 		name = "Chemicals",
 		desc = "Chemicals that are highly corrosive. Used in herbicides and detergents.",
 		type = 1,
@@ -5849,8 +5854,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3046] = {
+	}
+	pg.base.island_item_data_template[3046] = {
 		name = "Gunpowder",
 		desc = "An essential component in modern weaponry. Must be handled with care.",
 		type = 1,
@@ -5881,8 +5886,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3047] = {
+	}
+	pg.base.island_item_data_template[3047] = {
 		name = "Utensils",
 		desc = "Tableware that's a must-have in any home.",
 		type = 1,
@@ -5913,8 +5918,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3048] = {
+	}
+	pg.base.island_item_data_template[3048] = {
 		name = "Paper",
 		desc = "Often made out of cheap plant fiber. Easy to preserve and write on.",
 		type = 1,
@@ -5945,8 +5950,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3049] = {
+	}
+	pg.base.island_item_data_template[3049] = {
 		name = "Notebook",
 		desc = "A book filled with descriptions of daily tasks and errands. Can also be used as a diary.",
 		type = 1,
@@ -5977,8 +5982,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3050] = {
+	}
+	pg.base.island_item_data_template[3050] = {
 		name = "Chair and Desk",
 		desc = "The most common types of furniture. They provide a place to stop and rest.",
 		type = 1,
@@ -6009,8 +6014,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3051] = {
+	}
+	pg.base.island_item_data_template[3051] = {
 		name = "Choice Wooden Barrel",
 		desc = "A multipurpose barrel used for storing wine, honey, and the like.",
 		type = 1,
@@ -6041,8 +6046,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3052] = {
+	}
+	pg.base.island_item_data_template[3052] = {
 		name = "Filing Cabinet",
 		desc = "Every self-respecting office has some of these. Nice to have for storing and managing documents of all kinds.",
 		type = 1,
@@ -6073,8 +6078,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3053] = {
+	}
+	pg.base.island_item_data_template[3053] = {
 		name = "Ink Cartridge",
 		desc = "Stores printing ink. A core part of any printer.",
 		type = 1,
@@ -6105,8 +6110,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3054] = {
+	}
+	pg.base.island_item_data_template[3054] = {
 		name = "Clock",
 		desc = "Used to tell the time. Usually hung on walls.",
 		type = 1,
@@ -6137,8 +6142,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3055] = {
+	}
+	pg.base.island_item_data_template[3055] = {
 		name = "Battery",
 		desc = "A reusable and stable power source for motors, lights, and things like that.",
 		type = 1,
@@ -6169,8 +6174,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3056] = {
+	}
+	pg.base.island_item_data_template[3056] = {
 		name = "Water Filter",
 		desc = "Removes impurities from water and makes it clean!",
 		type = 1,
@@ -6201,8 +6206,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3059] = {
+	}
+	pg.base.island_item_data_template[3059] = {
 		name = "Omelette",
 		desc = "Tender filling covered with a fluffy egg skin. Golden and tempting, it's a simple but satisfying delicacy.",
 		type = 1,
@@ -6236,8 +6241,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3101] = {
+	}
+	pg.base.island_item_data_template[3101] = {
 		name = "Classic Tofu Combo",
 		desc = "A serving of minced meat with tofu and a soup with napa cabbage and tofu. Straightforward and tasty.",
 		type = 1,
@@ -6271,8 +6276,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3102] = {
+	}
+	pg.base.island_item_data_template[3102] = {
 		name = "Hearty Meal",
 		desc = "Hearty in more ways than one, this meal consists of fluffy omurice and some warm and smooth tofu. Simple but satisfying flavors.",
 		type = 1,
@@ -6306,8 +6311,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3103] = {
+	}
+	pg.base.island_item_data_template[3103] = {
 		name = "Floral and Fruity",
 		desc = "The soothing scent of the lavender and the fresh sweetness of the apple come together exquisitely, providing a double-layered kind of enjoyment.",
 		type = 1,
@@ -6341,8 +6346,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3104] = {
+	}
+	pg.base.island_item_data_template[3104] = {
 		name = "Colorful Fruit Paradise",
 		desc = "A shaved ice set with banana and mango juice and strawberry honey flavor. A fresh and fruity experience you won't forget.",
 		type = 1,
@@ -6376,8 +6381,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3105] = {
+	}
+	pg.base.island_item_data_template[3105] = {
 		name = "Sunny Honey",
 		desc = "A combination of sweet strawberry honey and honey-lemon water. Its sunny flavor will fill you with energy.",
 		type = 1,
@@ -6411,8 +6416,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3106] = {
+	}
+	pg.base.island_item_data_template[3106] = {
 		name = "Succulently Sweet",
 		desc = "Fragrant and tropical mango meets a sweet and crispy corn cup. It lets you taste two types of happiness at once.",
 		type = 1,
@@ -6446,8 +6451,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3107] = {
+	}
+	pg.base.island_item_data_template[3107] = {
 		name = "Orchard Duo",
 		desc = "The softness of the banana crêpe combines with the crunchiness of the golden apple pie into a layered, fruity sweetness.",
 		type = 1,
@@ -6481,8 +6486,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3108] = {
+	}
+	pg.base.island_item_data_template[3108] = {
 		name = "Berry and Orange Dessert",
 		desc = "The romantic encounter of strawberry and the sunny scent of orange come together for an ecstatic dessert time.",
 		type = 1,
@@ -6516,8 +6521,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3109] = {
+	}
+	pg.base.island_item_data_template[3109] = {
 		name = "The Carne-val",
 		desc = "Fragrant skewers, soft chicken, and crunchy fries. There's enough here to satisfy anyone's stomach.",
 		type = 1,
@@ -6551,8 +6556,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3110] = {
+	}
+	pg.base.island_item_data_template[3110] = {
 		name = "Double Energy Combo",
 		desc = "A steak bowl with spicy, stir-fried chicken. If this won't provide you with enough energy and protein for a whole day, nothing will.",
 		type = 1,
@@ -6586,8 +6591,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3111] = {
+	}
+	pg.base.island_item_data_template[3111] = {
 		name = "Morning Light Energy Combo",
 		desc = "Fluffy omurice and a luxury latte. The perfect start to your day.",
 		type = 1,
@@ -6621,8 +6626,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3112] = {
+	}
+	pg.base.island_item_data_template[3112] = {
 		name = "The Wake-Up Call",
 		desc = "Iced coffee and rich cheese. This mix of sweet and bitter will give you a classic wake-up call of a breakfast.",
 		type = 1,
@@ -6656,8 +6661,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3113] = {
+	}
+	pg.base.island_item_data_template[3113] = {
 		name = "Fruity & Fruitier",
 		desc = "Citrus coffee and a strawberry milkshake. This one-two punch of delicious drinks is sure to satisfy you.",
 		type = 1,
@@ -6691,8 +6696,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3114] = {
+	}
+	pg.base.island_item_data_template[3114] = {
 		name = "Fish & Chips",
 		desc = "Fried fish that's crunchy on the outside and soft on the inside, paired with appetizing fries. A combination loved by everyone.",
 		type = 1,
@@ -6726,8 +6731,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3115] = {
+	}
+	pg.base.island_item_data_template[3115] = {
 		name = "Lemon Shrimp",
 		desc = "A combination of the sweet tenderness of shrimp meat and the refreshing zing of lemon. It stirs the appetite.",
 		type = 1,
@@ -6761,8 +6766,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3116] = {
+	}
+	pg.base.island_item_data_template[3116] = {
 		name = "Steamed Fish with Onions",
 		desc = "Steamed fish paired with finely chopped sweet onions. It brings out the fish's inherent flavor to the greatest extent.",
 		type = 1,
@@ -6796,8 +6801,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3117] = {
+	}
+	pg.base.island_item_data_template[3117] = {
 		name = "Ornamental Painting",
 		desc = "A delicate painting to decorate your wall with. It adds a bit of artistic flair to any room.",
 		type = 1,
@@ -6828,8 +6833,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3118] = {
+	}
+	pg.base.island_item_data_template[3118] = {
 		name = "Paella",
 		desc = "A dish made with the ocean's bounties. The flavors of the sea are mixed in with every grain of rice.",
 		type = 1,
@@ -6863,8 +6868,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3119] = {
+	}
+	pg.base.island_item_data_template[3119] = {
 		name = "Crayfish Stir-Fry",
 		desc = "A crayfish that has been quickly fried on high heat. Its brilliant red color makes your mouth water, and it pairs well with rice.",
 		type = 1,
@@ -6898,8 +6903,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3120] = {
+	}
+	pg.base.island_item_data_template[3120] = {
 		name = "Buddha's Temptation",
 		desc = "A delicacy that's been carefully boiled for several hours. It's often served as the pièce de résistance at banquets.",
 		type = 1,
@@ -6933,8 +6938,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4001] = {
+	}
+	pg.base.island_item_data_template[4001] = {
 		name = "Autumn Chrysanthemum",
 		desc = "Golden autumn chrysanthemums that sway in the wind. They can be relished both in tea and as ornamental flowers.",
 		type = 1,
@@ -6964,8 +6969,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4002] = {
+	}
+	pg.base.island_item_data_template[4002] = {
 		name = "Reed Flowers",
 		desc = "The light, pure white flowers of the common reed, which grow in abundance near water. Often dried and used as an ornament.",
 		type = 1,
@@ -6995,8 +7000,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4003] = {
+	}
+	pg.base.island_item_data_template[4003] = {
 		name = "Peanuts",
 		desc = "Peanut seeds are fragrant and delicious, and they're rich in protein and healthy fats.",
 		type = 1,
@@ -7026,8 +7031,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4004] = {
+	}
+	pg.base.island_item_data_template[4004] = {
 		name = "Matsutake",
 		desc = "Fresh matsutake mushrooms. A rare treat from the mountains. They have a unique aroma, and are often used as a top-tier flavor enhancer in soups.",
 		type = 1,
@@ -7057,8 +7062,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4005] = {
+	}
+	pg.base.island_item_data_template[4005] = {
 		name = "Yoizuki Pear",
 		desc = "A sweet and juicy pear. Its texture is very smooth, and it has the thirst-quenching taste of autumn.",
 		type = 1,
@@ -7089,8 +7094,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4006] = {
+	}
+	pg.base.island_item_data_template[4006] = {
 		name = "Yoizuki Pear Seeds",
 		desc = "Yoizuki pear seeds that hold a sweet future in them. Can be used to grow a high-quality pear tree.",
 		type = 1,
@@ -7132,8 +7137,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[4007] = {
+	}
+	pg.base.island_item_data_template[4007] = {
 		name = "Kaki Persimmon",
 		desc = "Kaki persimmon that's ripened into a vivid red color. This autumn fruit is soft, sweet, and full of vitamins.",
 		type = 1,
@@ -7164,8 +7169,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4008] = {
+	}
+	pg.base.island_item_data_template[4008] = {
 		name = "Kaki Persimmon Seeds",
 		desc = "Plant these seeds and pray for a life so healthy, your doctor will be left pale with awe.",
 		type = 1,
@@ -7207,8 +7212,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[4009] = {
+	}
+	pg.base.island_item_data_template[4009] = {
 		name = "Dried Persimmon",
 		desc = "Sweet and doughy dried persimmon. Made from fresh persimmon.",
 		type = 1,
@@ -7242,8 +7247,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4010] = {
+	}
+	pg.base.island_item_data_template[4010] = {
 		name = "Matsutake and Chicken Soup",
 		desc = "A soup made with highly fragrant and rich matsutake and chicken that have been slowly simmered together. It's warming and nutritious.",
 		type = 1,
@@ -7277,8 +7282,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4011] = {
+	}
+	pg.base.island_item_data_template[4011] = {
 		name = "Autumn Bouquet",
 		desc = "A bouquet with warm, orange colors. Consisting of the finest seasonal flowers, like reed and chrysanthemum, it presents the essence of autumn.",
 		type = 1,
@@ -7312,8 +7317,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4012] = {
+	}
+	pg.base.island_item_data_template[4012] = {
 		name = "Peanut Oil",
 		desc = "A healthy, mild cooking oil extracted from high-quality peanuts.",
 		type = 1,
@@ -7347,8 +7352,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4013] = {
+	}
+	pg.base.island_item_data_template[4013] = {
 		name = "Carrot and Pear Juice",
 		desc = "A fresh and sweet juice made with carrots and pears. The nutrients from the carrots and the sour flavor of the pears come together into an invigorating drink.",
 		type = 1,
@@ -7382,8 +7387,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4014] = {
+	}
+	pg.base.island_item_data_template[4014] = {
 		name = "Chrysanthemum Tea",
 		desc = "A tea with a refined, clean aroma. Made with the petals of the chrysanthemum flower, it has a mild aftertaste that clears your head.",
 		type = 1,
@@ -7417,8 +7422,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4015] = {
+	}
+	pg.base.island_item_data_template[4015] = {
 		name = "Spring Bamboo Shoots",
 		desc = "Fresh bamboo shoots harvested from spring soil. They're chewy and known for being a famous seasonal ingredient.",
 		type = 1,
@@ -7448,8 +7453,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4016] = {
+	}
+	pg.base.island_item_data_template[4016] = {
 		name = "Shepherd's Purse",
 		desc = "A refreshing spring flower. It possesses a distinctive aroma and often sees use as a garnish in some dishes.",
 		type = 1,
@@ -7479,8 +7484,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4017] = {
+	}
+	pg.base.island_item_data_template[4017] = {
 		name = "Winter Jasmine",
 		desc = "A vibrant-yellow flower that blooms during the early spring. In addition to appreciating it for its looks, you can also dry and make a tea out of it.",
 		type = 1,
@@ -7510,8 +7515,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4018] = {
+	}
+	pg.base.island_item_data_template[4018] = {
 		name = "Hyacinth",
 		desc = "An aromatic, ornamental early spring flower. Often planted in flower beds and gardens.",
 		type = 1,
@@ -7541,8 +7546,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4019] = {
+	}
+	pg.base.island_item_data_template[4019] = {
 		name = "Asparagus",
 		desc = "A delectable vegetable harvested in the spring. It has a crisp texture and can simply be cooked or used as a side dish.",
 		type = 1,
@@ -7573,8 +7578,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4020] = {
+	}
+	pg.base.island_item_data_template[4020] = {
 		name = "Asparagus Seeds",
 		desc = "Plant them in soil and you'll soon have a field of asparagus sprouts.",
 		type = 1,
@@ -7616,8 +7621,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[4021] = {
+	}
+	pg.base.island_item_data_template[4021] = {
 		name = "Pineapple",
 		desc = "A tropical fruit filled with sweet and acidic juice. It can be eaten as it is or further processed.",
 		type = 1,
@@ -7648,8 +7653,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4022] = {
+	}
+	pg.base.island_item_data_template[4022] = {
 		name = "Pineapple Seeds",
 		desc = "Seeds teeming with the blessings of the tropical sun. Once grown, they'll turn into delicious pineapples.",
 		type = 1,
@@ -7691,8 +7696,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[4023] = {
+	}
+	pg.base.island_item_data_template[4023] = {
 		name = "Fresh Pineapple Juice",
 		desc = "Juice squeezed out of freshly harvested pineapples. It has a refreshing, tropical flavor.",
 		type = 1,
@@ -7726,8 +7731,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4024] = {
+	}
+	pg.base.island_item_data_template[4024] = {
 		name = "Winter Jasmine Tea",
 		desc = "Herbal tea made from the dried buds of winter jasmine. Its faint aroma has a soothing effect on the mind.",
 		type = 1,
@@ -7761,8 +7766,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4025] = {
+	}
+	pg.base.island_item_data_template[4025] = {
 		name = "Cold Mixed Bamboo Shoots and Asparagus",
 		desc = "A fresh spring dish made with asparagus and bamboo shoots. It's pleasantly chewy, and the flavors come together perfectly.",
 		type = 1,
@@ -7796,8 +7801,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4026] = {
+	}
+	pg.base.island_item_data_template[4026] = {
 		name = "Shrimp and Asparagus Stir-Fry",
 		desc = "A dish consisting of asparagus and fresh shrimp, quickly stirred together. The umami flavor of the shrimp and the crispiness of the asparagus make it a common sight at the family dinner table.",
 		type = 1,
@@ -7831,8 +7836,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4027] = {
+	}
+	pg.base.island_item_data_template[4027] = {
 		name = "Dried Shepherd's Purse",
 		desc = "Shepherd's purse flowers that have been dried in the sun. They store well and can be used in soups or soaked and added to stuffings.",
 		type = 1,
@@ -7863,8 +7868,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4028] = {
+	}
+	pg.base.island_item_data_template[4028] = {
 		name = "Spring Bouquet",
 		desc = "A bouquet of winter jasmine and hyacinth flowers. Their bright colors add a spring mood to the room.",
 		type = 1,
@@ -7895,8 +7900,10 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5001] = {
+	}
+end)()
+(function ()
+	pg.base.island_item_data_template[5001] = {
 		name = "Shellfish",
 		desc = "Shellfish shells are often used as a material in ornaments and handicrafts.",
 		type = 1,
@@ -7927,8 +7934,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5002] = {
+	}
+	pg.base.island_item_data_template[5002] = {
 		name = "Catfish",
 		desc = "A plump catfish. It's suited for dishes with heavy seasoning.",
 		type = 1,
@@ -7959,8 +7966,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5003] = {
+	}
+	pg.base.island_item_data_template[5003] = {
 		name = "Koi Carp",
 		desc = "A representative of the taste of freshwater seafood. It's featured as the chef's special in some restaurants.",
 		type = 1,
@@ -7991,8 +7998,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5004] = {
+	}
+	pg.base.island_item_data_template[5004] = {
 		name = "Common Carp",
 		desc = "A type of edible fish. Its flesh is smooth and highly nutritious.",
 		type = 1,
@@ -8023,8 +8030,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5005] = {
+	}
+	pg.base.island_item_data_template[5005] = {
 		name = "Freshwater Shrimp",
 		desc = "An example of quality seafood that is high in protein, low in fat, and low in calories.",
 		type = 1,
@@ -8055,8 +8062,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5006] = {
+	}
+	pg.base.island_item_data_template[5006] = {
 		name = "Crayfish",
 		desc = "A crayfish commonly found in rivers and similar bodies of water. It has a very rustic texture.",
 		type = 1,
@@ -8087,8 +8094,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5007] = {
+	}
+	pg.base.island_item_data_template[5007] = {
 		name = "Sea Bass",
 		desc = "A fresh sea bass. Its white and tender flesh is perfect for steamed and sauted dishes.",
 		type = 1,
@@ -8119,8 +8126,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5008] = {
+	}
+	pg.base.island_item_data_template[5008] = {
 		name = "Crab",
 		desc = "A fresh and tasty crab. Its somewhat sweet flesh is full of nutrients and flavor.",
 		type = 1,
@@ -8151,8 +8158,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5101] = {
+	}
+	pg.base.island_item_data_template[5101] = {
 		name = "Squid",
 		desc = "A chewy squid. Tastes good both grilled and roasted.",
 		type = 1,
@@ -8183,8 +8190,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5102] = {
+	}
+	pg.base.island_item_data_template[5102] = {
 		name = "Mackerel",
 		desc = "A speedy fish with an aerodynamic body. Its flesh is firm and perfect for pan-frying with aromatics.",
 		type = 1,
@@ -8215,8 +8222,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5103] = {
+	}
+	pg.base.island_item_data_template[5103] = {
 		name = "Tuna",
 		desc = "Tuna that's high in protein, low in fat. It's one of the top targets of fishermen.",
 		type = 1,
@@ -8247,8 +8254,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5104] = {
+	}
+	pg.base.island_item_data_template[5104] = {
 		name = "Salmon",
 		desc = "A popular fish used in seafood. Its flesh with its beautiful patterns and abundant umami flavor are its standout features.",
 		type = 1,
@@ -8279,8 +8286,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5105] = {
+	}
+	pg.base.island_item_data_template[5105] = {
 		name = "Red Sea Bream",
 		desc = "An omnivorous fish. They like to swim in groups and move quickly. They're also widely adored for being high in nutrients.",
 		type = 1,
@@ -8311,8 +8318,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5106] = {
+	}
+	pg.base.island_item_data_template[5106] = {
 		name = "Black Porgy",
 		desc = "It's a quick and crafty little creature. It takes considerable skill to catch.",
 		type = 1,
@@ -8343,8 +8350,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5107] = {
+	}
+	pg.base.island_item_data_template[5107] = {
 		name = "Yellowfin Tuna",
 		desc = "Fine-quality yellowfin tuna. It's low in fat and often ends up inside cans.",
 		type = 1,
@@ -8375,8 +8382,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5108] = {
+	}
+	pg.base.island_item_data_template[5108] = {
 		name = "Sea Cucumber",
 		desc = "A nourishing sea cucumber. It requires a bit of patience and luck to get your hands on.",
 		type = 1,
@@ -8407,8 +8414,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[9900] = {
+	}
+	pg.base.island_item_data_template[9900] = {
 		name = "Pearl",
 		desc = "Natural jewelry with a warm color. It has a flourishing market of sellers and buyers.",
 		type = 1,
@@ -8438,8 +8445,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100001] = {
+	}
+	pg.base.island_item_data_template[100001] = {
 		name = "Island EXP Textbook T1",
 		desc = "A book containing fundamental knowledge on island living. Used to slightly increase a character's Island EXP.",
 		type = 5,
@@ -8477,8 +8484,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100002] = {
+	}
+	pg.base.island_item_data_template[100002] = {
 		name = "Island EXP Textbook T2",
 		desc = "A book containing detailed knowledge on island living. Used to moderately increase a character's Island EXP.",
 		type = 5,
@@ -8516,8 +8523,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100003] = {
+	}
+	pg.base.island_item_data_template[100003] = {
 		name = "Island EXP Textbook T3",
 		desc = "A book containing abundant knowledge on island living. Used to greatly increase a character's Island EXP.",
 		type = 5,
@@ -8555,8 +8562,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100011] = {
+	}
+	pg.base.island_item_data_template[100011] = {
 		name = "Management Textbook T1",
 		desc = "A book containing fundamental knowledge on management techniques. Used to slightly increase a character's Management stat.",
 		type = 2,
@@ -8594,8 +8601,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100012] = {
+	}
+	pg.base.island_item_data_template[100012] = {
 		name = "Management Textbook T2",
 		desc = "A book containing detailed knowledge on management techniques. Used to moderately increase a character's Management stat.",
 		type = 2,
@@ -8625,8 +8632,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100013] = {
+	}
+	pg.base.island_item_data_template[100013] = {
 		name = "Management Textbook T3",
 		desc = "A book containing abundant knowledge on management techniques. Used to greatly increase a character's Management stat.",
 		type = 2,
@@ -8651,8 +8658,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[100021] = {
+	}
+	pg.base.island_item_data_template[100021] = {
 		name = "Farming Textbook T1",
 		desc = "A book containing fundamental knowledge on farming techniques. Used to slightly increase a character's Farming stat.",
 		type = 2,
@@ -8690,8 +8697,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100022] = {
+	}
+	pg.base.island_item_data_template[100022] = {
 		name = "Farming Textbook T2",
 		desc = "A book containing detailed knowledge on farming techniques. Used to moderately increase a character's Farming stat.",
 		type = 2,
@@ -8721,8 +8728,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100023] = {
+	}
+	pg.base.island_item_data_template[100023] = {
 		name = "Farming Textbook T3",
 		desc = "A book containing abundant knowledge on farming techniques. Used to greatly increase a character's Farming stat.",
 		type = 2,
@@ -8747,8 +8754,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[100031] = {
+	}
+	pg.base.island_item_data_template[100031] = {
 		name = "Manufacturing Textbook T1",
 		desc = "A book containing fundamental knowledge on manufacturing techniques. Used to slightly increase a character's Manufacturing stat.",
 		type = 2,
@@ -8786,8 +8793,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100032] = {
+	}
+	pg.base.island_item_data_template[100032] = {
 		name = "Manufacturing Textbook T2",
 		desc = "A book containing detailed knowledge on manufacturing techniques. Used to moderately increase a character's Manufacturing stat.",
 		type = 2,
@@ -8817,8 +8824,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100033] = {
+	}
+	pg.base.island_item_data_template[100033] = {
 		name = "Manufacturing Textbook T3",
 		desc = "A book containing abundant knowledge on manufacturing techniques. Used to greatly increase a character's Manufacturing stat.",
 		type = 2,
@@ -8843,8 +8850,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[100041] = {
+	}
+	pg.base.island_item_data_template[100041] = {
 		name = "Gathering Textbook T1",
 		desc = "A book containing fundamental knowledge on gathering techniques. Used to slightly increase a character's Gathering stat.",
 		type = 2,
@@ -8882,8 +8889,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100042] = {
+	}
+	pg.base.island_item_data_template[100042] = {
 		name = "Gathering Textbook T2",
 		desc = "A book containing detailed knowledge on gathering techniques. Used to moderately increase a character's Gathering stat.",
 		type = 2,
@@ -8913,8 +8920,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100043] = {
+	}
+	pg.base.island_item_data_template[100043] = {
 		name = "Gathering Textbook T3",
 		desc = "A book containing abundant knowledge on gathering techniques. Used to greatly increase a character's Gathering stat.",
 		type = 2,
@@ -8939,8 +8946,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[100051] = {
+	}
+	pg.base.island_item_data_template[100051] = {
 		name = "Husbandry Textbook T1",
 		desc = "A book containing fundamental knowledge on husbandry techniques. Used to slightly increase a character's Husbandry stat.",
 		type = 2,
@@ -8978,8 +8985,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100052] = {
+	}
+	pg.base.island_item_data_template[100052] = {
 		name = "Husbandry Textbook T2",
 		desc = "A book containing detailed knowledge on husbandry techniques. Used to moderately increase a character's Husbandry stat.",
 		type = 2,
@@ -9009,8 +9016,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100053] = {
+	}
+	pg.base.island_item_data_template[100053] = {
 		name = "Husbandry Textbook T3",
 		desc = "A book containing abundant knowledge on husbandry techniques. Used to greatly increase a character's Husbandry stat.",
 		type = 2,
@@ -9035,8 +9042,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[100061] = {
+	}
+	pg.base.island_item_data_template[100061] = {
 		name = "Cooking Textbook T1",
 		desc = "A book containing fundamental knowledge on cooking techniques. Used to slightly increase a character's Cooking stat.",
 		type = 2,
@@ -9074,8 +9081,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100062] = {
+	}
+	pg.base.island_item_data_template[100062] = {
 		name = "Cooking Textbook T2",
 		desc = "A book containing detailed knowledge on cooking techniques. Used to moderately increase a character's Cooking stat.",
 		type = 2,
@@ -9105,8 +9112,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100063] = {
+	}
+	pg.base.island_item_data_template[100063] = {
 		name = "Cooking Textbook T3",
 		desc = "A book containing abundant knowledge on cooking techniques. Used to greatly increase a character's Cooking stat.",
 		type = 2,
@@ -9131,8 +9138,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[100101] = {
+	}
+	pg.base.island_item_data_template[100101] = {
 		name = "Production Textbook T1",
 		desc = "A book containing fundamental knowledge on production techniques. Used to slightly increase a character's Production stats.",
 		type = 2,
@@ -9170,8 +9177,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100102] = {
+	}
+	pg.base.island_item_data_template[100102] = {
 		name = "Production Textbook T2",
 		desc = "A book containing detailed knowledge on production techniques. Used to moderately increase a character's Production stats.",
 		type = 2,
@@ -9209,8 +9216,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100103] = {
+	}
+	pg.base.island_item_data_template[100103] = {
 		name = "Production Textbook T3",
 		desc = "A book containing abundant knowledge on production techniques. Used to greatly increase a character's Production stats.",
 		type = 2,
@@ -9248,8 +9255,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100201] = {
+	}
+	pg.base.island_item_data_template[100201] = {
 		name = "Island Development Gem",
 		desc = "A crystal of island development experience. Required to Limit Break characters.",
 		type = 2,
@@ -9279,8 +9286,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[110001] = {
+	}
+	pg.base.island_item_data_template[110001] = {
 		name = "Sea Salt Drink",
 		desc = "Recovers 50 stamina. A basic energy drink. This drink feels like a salty breeze rolling over the tip of your tongue. It's salty, sweet, and unique.",
 		type = 2,
@@ -9323,8 +9330,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[110002] = {
+	}
+	pg.base.island_item_data_template[110002] = {
 		name = "Green Verdure Drink",
 		desc = "Recovers 50 stamina. Character also gains a buff: all stats increase by 3% for 8 hours. This drink's verdant, fresh aroma clears your head.",
 		type = 2,
@@ -9365,8 +9372,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[110003] = {
+	}
+	pg.base.island_item_data_template[110003] = {
 		name = "Strawberry Drink",
 		desc = "Recovers 50 stamina and grants a buff: for 8 hours, when producing basic resources, increases working speed by 5%. Its sweet strawberry fragrance fills you with joy and energy.",
 		type = 2,
@@ -9407,8 +9414,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[110004] = {
+	}
+	pg.base.island_item_data_template[110004] = {
 		name = "Kumquat Drink",
 		desc = "Recovers 50 stamina and grants a buff: for 8 hours, when manufacturing items at the Base Factory, increases working speed by 5%. While the kumquat is a bit sour, its aftertaste is sweet and uplifting.",
 		type = 2,
@@ -9449,8 +9456,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[110005] = {
+	}
+	pg.base.island_item_data_template[110005] = {
 		name = "Berry Drink",
 		desc = "Recovers 50 stamina and grants a buff: for 8 hours, when cooking food, working speed increases by 5%. Sweet and sour, it's brimming with the joyful and fruity flavor of berries.",
 		type = 2,
@@ -9491,8 +9498,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[110006] = {
+	}
+	pg.base.island_item_data_template[110006] = {
 		name = "Grape Drink",
 		desc = "Recovers 50 stamina. Character also gains a buff: when assigned to manage a food store, food sales are increased by 5% for 8 hours. Its smooth and sweet flavor is impossible to get enough of.",
 		type = 2,
@@ -9533,8 +9540,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200001] = {
+	}
+	pg.base.island_item_data_template[200001] = {
 		name = "Island Authority Permit: Cheshire",
 		desc = "An Island Authority Permit for Cheshire. Use it to give the character the credentials to visit the island freely.",
 		type = 2,
@@ -9564,8 +9571,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200002] = {
+	}
+	pg.base.island_item_data_template[200002] = {
 		name = "Island Authority Permit: Saratoga",
 		desc = "An Island Authority Permit for Saratoga. Use it to give the character credentials to visit the island freely.",
 		type = 2,
@@ -9590,8 +9597,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[200003] = {
+	}
+	pg.base.island_item_data_template[200003] = {
 		name = "Island Authority Permit: Akashi",
 		desc = "An Island Authority Permit for Akashi. Use it to give the character the credentials to visit the island freely.",
 		type = 2,
@@ -9621,8 +9628,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200004] = {
+	}
+	pg.base.island_item_data_template[200004] = {
 		name = "Island Authority Permit: Taihou",
 		desc = "An Island Authority Permit for Taihou. Use it to give the character the credentials to visit the island freely.",
 		type = 2,
@@ -9647,8 +9654,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[200005] = {
+	}
+	pg.base.island_item_data_template[200005] = {
 		name = "Island Authority Permit: New Jersey",
 		desc = "An Island Authority Permit for New Jersey. Use it to give the character the credentials to visit the island freely.",
 		type = 2,
@@ -9678,8 +9685,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200006] = {
+	}
+	pg.base.island_item_data_template[200006] = {
 		name = "Island Authority Permit: Shimakaze",
 		desc = "An Island Authority Permit for Shimakaze. Use it to give the character the credentials to visit the island freely.",
 		type = 2,
@@ -9709,8 +9716,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200007] = {
+	}
+	pg.base.island_item_data_template[200007] = {
 		name = "Island Authority Permit: Ying Swei",
 		desc = "An Island Authority Permit for Ying Swei. Use it to give the character the credentials to visit the island freely.",
 		type = 2,
@@ -9740,8 +9747,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200008] = {
+	}
+	pg.base.island_item_data_template[200008] = {
 		name = "Island Authority Permit: Le Malin",
 		desc = "An Island Authority Permit for Le Malin. Use it to give the character the credentials to visit the island freely.",
 		type = 2,
@@ -9771,8 +9778,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200009] = {
+	}
+	pg.base.island_item_data_template[200009] = {
 		name = "Island Authority Permit: Unicorn",
 		desc = "An Island Authority Permit for Unicorn. Use it to give the character the credentials to visit the island freely.",
 		type = 2,
@@ -9802,8 +9809,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200010] = {
+	}
+	pg.base.island_item_data_template[200010] = {
 		name = "Island Authority Permit: Tashkent",
 		desc = "An Island Authority Permit for Tashkent. Use it to give the character the credentials to visit the island freely.",
 		type = 2,
@@ -9833,8 +9840,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200011] = {
+	}
+	pg.base.island_item_data_template[200011] = {
 		name = "Island Authority Permit: Hood",
 		desc = "An Island Authority Permit for Hood. Use it to give the character the credentials to visit the island freely.",
 		type = 2,
@@ -9864,8 +9871,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200012] = {
+	}
+	pg.base.island_item_data_template[200012] = {
 		name = "Island Authority Permit: Amagi-chan",
 		desc = "An Island Authority Permit for Amagi-chan. Use it to give the character the credentials to visit the island freely.",
 		type = 2,
@@ -9895,8 +9902,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200013] = {
+	}
+	pg.base.island_item_data_template[200013] = {
 		name = "Island Authority Permit: Prinz Eugen",
 		desc = "An Island Authority Permit for Prinz Eugen. Use it to give the character the credentials to visit the island freely.",
 		type = 2,
@@ -9926,8 +9933,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200014] = {
+	}
+	pg.base.island_item_data_template[200014] = {
 		name = "Island Authority Permit: Chao Ho",
 		desc = "An Island Authority Permit for Chao Ho. Use it to give the character the credentials to visit the island freely.",
 		type = 2,
@@ -9957,8 +9964,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200015] = {
+	}
+	pg.base.island_item_data_template[200015] = {
 		name = "Island Authority Permit: Leonardo da Vinci",
 		desc = "An Island Authority Permit for Leonardo da Vinci. Use it to give the character the credentials to visit the island freely.",
 		type = 2,
@@ -9988,8 +9995,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200016] = {
+	}
+	pg.base.island_item_data_template[200016] = {
 		name = "Island Authority Permit: William D. Porter",
 		desc = "An Island Authority Permit for William D. Porter. Use it to give the character the credentials to visit the island freely.",
 		type = 2,
@@ -10019,8 +10026,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200017] = {
+	}
+	pg.base.island_item_data_template[200017] = {
 		name = "Island Authority Permit: Chen Hai",
 		desc = "An Island Authority Permit for Chen Hai. Use it to give the character the credentials to visit the island freely.",
 		type = 2,
@@ -10050,8 +10057,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200018] = {
+	}
+	pg.base.island_item_data_template[200018] = {
 		name = "Island Authority Permit: Atago",
 		desc = "An Island Authority Permit for Atago. Use it to give the character the credentials to visit the island freely.",
 		type = 2,
@@ -10081,8 +10088,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200019] = {
+	}
+	pg.base.island_item_data_template[200019] = {
 		name = "Island Authority Permit: Helena",
 		desc = "An Island Authority Permit for Helena. Use it to give the character the credentials to visit the island freely.",
 		type = 2,
@@ -10112,8 +10119,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200020] = {
+	}
+	pg.base.island_item_data_template[200020] = {
 		name = "Island Authority Permit: Friedrich der Große",
 		desc = "An Island Authority Permit for Friedrich der Große. Use it to give the character the credentials to visit the island freely.",
 		type = 2,
@@ -10143,8 +10150,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200021] = {
+	}
+	pg.base.island_item_data_template[200021] = {
 		name = "Island Authority Permit: Oceana",
 		desc = "An Island Authority Permit for Oceana. Use it to give the character the credentials to visit the island freely.",
 		type = 2,
@@ -10174,8 +10181,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200022] = {
+	}
+	pg.base.island_item_data_template[200022] = {
 		name = "Island Authority Permit: TB",
 		desc = "An Island Authority Permit for TB. Use it to give the character the credentials to visit the island freely.",
 		type = 2,
@@ -10205,8 +10212,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200023] = {
+	}
+	pg.base.island_item_data_template[200023] = {
 		name = "Island Authority Permit: Explorer",
 		desc = "An Island Authority Permit for Explorer. Use it to give the character the credentials to visit the island freely.",
 		type = 2,
@@ -10236,8 +10243,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[300001] = {
+	}
+	pg.base.island_item_data_template[300001] = {
 		name = "Working Efficiency at Faircrop Fields +4%",
 		desc = "When obtained, Working Efficiency at Faircrop Fields +4%",
 		type = 2,
@@ -10265,8 +10272,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[300002] = {
+	}
+	pg.base.island_item_data_template[300002] = {
 		name = "Working Efficiency at Sweetscent Orchard +4%",
 		desc = "When obtained, Working Efficiency at Sweetscent Orchard +4%",
 		type = 2,
@@ -10294,8 +10301,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[300003] = {
+	}
+	pg.base.island_item_data_template[300003] = {
 		name = "Working Efficiency at Newsprout Nursery +4%",
 		desc = "When obtained, Working Efficiency at Newsprout Nursery +4%",
 		type = 2,
@@ -10323,8 +10330,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[300004] = {
+	}
+	pg.base.island_item_data_template[300004] = {
 		name = "Working Efficiency at Faircrop Fields +8%",
 		desc = "When obtained, Working Efficiency at Faircrop Fields +8%",
 		type = 2,
@@ -10352,8 +10359,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[300005] = {
+	}
+	pg.base.island_item_data_template[300005] = {
 		name = "Working Efficiency at Sweetscent Orchard +8%",
 		desc = "When obtained, Working Efficiency at Sweetscent Orchard +8%",
 		type = 2,
@@ -10381,8 +10388,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[300006] = {
+	}
+	pg.base.island_item_data_template[300006] = {
 		name = "Working Efficiency at Newsprout Nursery +8%",
 		desc = "When obtained, Working Efficiency at Newsprout Nursery +8%",
 		type = 2,
@@ -10411,4 +10418,4 @@ pg.base.island_item_data_template = {
 			}
 		}
 	}
-}
+end)()

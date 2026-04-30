@@ -1,6 +1,42 @@
 pg = pg or {}
-pg.battlepass_event_pt = {
-	[7001] = {
+pg.battlepass_event_pt = rawget(pg, "battlepass_event_pt") or setmetatable({
+	__name = "battlepass_event_pt"
+}, confNEO)
+pg.battlepass_event_pt.all = {
+	7001,
+	7002,
+	7003,
+	7004,
+	7005,
+	7006,
+	7007,
+	7008,
+	7009,
+	7010,
+	7011,
+	7012,
+	7013,
+	7014,
+	7015,
+	7016,
+	7017,
+	7018,
+	7019,
+	7020,
+	7021,
+	7022,
+	7023,
+	7024,
+	7025,
+	7026,
+	7027,
+	7028
+}
+pg.base = pg.base or {}
+pg.base.battlepass_event_pt = {}
+
+(function ()
+	pg.base.battlepass_event_pt[7001] = {
 		map_name = "2110",
 		type = 1,
 		equip_skin = "",
@@ -328,8 +364,8 @@ pg.battlepass_event_pt = {
 			90,
 			100
 		}
-	},
-	[7002] = {
+	}
+	pg.base.battlepass_event_pt[7002] = {
 		map_name = "2112",
 		type = 1,
 		equip_skin = "",
@@ -657,8 +693,8 @@ pg.battlepass_event_pt = {
 			90,
 			100
 		}
-	},
-	[7003] = {
+	}
+	pg.base.battlepass_event_pt[7003] = {
 		map_name = "2202",
 		type = 1,
 		equip_skin = "",
@@ -986,8 +1022,8 @@ pg.battlepass_event_pt = {
 			90,
 			100
 		}
-	},
-	[7004] = {
+	}
+	pg.base.battlepass_event_pt[7004] = {
 		map_name = "2204",
 		type = 1,
 		equip_skin = "",
@@ -1315,8 +1351,8 @@ pg.battlepass_event_pt = {
 			90,
 			100
 		}
-	},
-	[7005] = {
+	}
+	pg.base.battlepass_event_pt[7005] = {
 		map_name = "2206",
 		type = 1,
 		equip_skin = "",
@@ -1644,8 +1680,8 @@ pg.battlepass_event_pt = {
 			90,
 			100
 		}
-	},
-	[7006] = {
+	}
+	pg.base.battlepass_event_pt[7006] = {
 		map_name = "2208",
 		type = 1,
 		bg = "bg_worldcruise_1",
@@ -1994,8 +2030,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7007] = {
+	}
+	pg.base.battlepass_event_pt[7007] = {
 		map_name = "2210",
 		type = 1,
 		bg = "bg_worldcruise_1",
@@ -2344,8 +2380,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7008] = {
+	}
+	pg.base.battlepass_event_pt[7008] = {
 		map_name = "2212",
 		type = 1,
 		bg = "bg_worldcruise_1",
@@ -2694,8 +2730,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7009] = {
+	}
+	pg.base.battlepass_event_pt[7009] = {
 		map_name = "2302",
 		type = 1,
 		bg = "bg_worldcruise_1",
@@ -3044,8 +3080,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7010] = {
+	}
+	pg.base.battlepass_event_pt[7010] = {
 		map_name = "2304",
 		type = 1,
 		bg = "bg_worldcruise_1",
@@ -3394,8 +3430,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7011] = {
+	}
+	pg.base.battlepass_event_pt[7011] = {
 		map_name = "2306",
 		type = 1,
 		bg = "bg_worldcruise_1",
@@ -3744,8 +3780,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7012] = {
+	}
+	pg.base.battlepass_event_pt[7012] = {
 		map_name = "2308",
 		type = 1,
 		bg = "bg_worldcruise_1",
@@ -4094,8 +4130,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7013] = {
+	}
+	pg.base.battlepass_event_pt[7013] = {
 		map_name = "2310",
 		type = 1,
 		bg = "bg_worldcruise_1",
@@ -4444,8 +4480,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7014] = {
+	}
+	pg.base.battlepass_event_pt[7014] = {
 		map_name = "2312",
 		type = 1,
 		bg = "bg_worldcruise_1",
@@ -4794,8 +4830,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7015] = {
+	}
+	pg.base.battlepass_event_pt[7015] = {
 		map_name = "2402",
 		type = 1,
 		bg = "bg_worldcruise_1",
@@ -5144,8 +5180,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7016] = {
+	}
+	pg.base.battlepass_event_pt[7016] = {
 		map_name = "2404",
 		type = 1,
 		bg = "bg_worldcruise_1",
@@ -5494,8 +5530,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7017] = {
+	}
+	pg.base.battlepass_event_pt[7017] = {
 		map_name = "2406",
 		type = 1,
 		bg = "bg_worldcruise_1",
@@ -5844,8 +5880,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7018] = {
+	}
+	pg.base.battlepass_event_pt[7018] = {
 		map_name = "2408",
 		type = 1,
 		bg = "bg_worldcruise_1",
@@ -6194,8 +6230,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7019] = {
+	}
+	pg.base.battlepass_event_pt[7019] = {
 		map_name = "2410",
 		type = 1,
 		bg = "bg_worldcruise_2",
@@ -6544,8 +6580,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7020] = {
+	}
+	pg.base.battlepass_event_pt[7020] = {
 		map_name = "2412",
 		type = 1,
 		bg = "bg_worldcruise_3",
@@ -6894,8 +6930,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7021] = {
+	}
+	pg.base.battlepass_event_pt[7021] = {
 		map_name = "2502",
 		type = 1,
 		bg = "bg_worldcruise_4",
@@ -7244,8 +7280,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7022] = {
+	}
+	pg.base.battlepass_event_pt[7022] = {
 		map_name = "2504",
 		type = 1,
 		bg = "bg_worldcruise_5",
@@ -7594,8 +7630,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7023] = {
+	}
+	pg.base.battlepass_event_pt[7023] = {
 		map_name = "2506",
 		type = 1,
 		bg = "bg_worldcruise_6",
@@ -7944,8 +7980,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7024] = {
+	}
+	pg.base.battlepass_event_pt[7024] = {
 		map_name = "2508",
 		type = 1,
 		bg = "bg_worldcruise_7",
@@ -8294,8 +8330,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7025] = {
+	}
+	pg.base.battlepass_event_pt[7025] = {
 		map_name = "2510",
 		type = 1,
 		bg = "bg_worldcruise_8",
@@ -8644,8 +8680,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7026] = {
+	}
+	pg.base.battlepass_event_pt[7026] = {
 		map_name = "2512",
 		type = 1,
 		bg = "bg_worldcruise_9",
@@ -8994,8 +9030,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7027] = {
+	}
+	pg.base.battlepass_event_pt[7027] = {
 		map_name = "2602",
 		type = 1,
 		bg = "bg_worldcruise_10",
@@ -9344,8 +9380,8 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	[7028] = {
+	}
+	pg.base.battlepass_event_pt[7028] = {
 		map_name = "2604",
 		type = 1,
 		bg = "bg_worldcruise_11",
@@ -9694,35 +9730,5 @@ pg.battlepass_event_pt = {
 				1
 			}
 		}
-	},
-	all = {
-		7001,
-		7002,
-		7003,
-		7004,
-		7005,
-		7006,
-		7007,
-		7008,
-		7009,
-		7010,
-		7011,
-		7012,
-		7013,
-		7014,
-		7015,
-		7016,
-		7017,
-		7018,
-		7019,
-		7020,
-		7021,
-		7022,
-		7023,
-		7024,
-		7025,
-		7026,
-		7027,
-		7028
 	}
-}
+end)()

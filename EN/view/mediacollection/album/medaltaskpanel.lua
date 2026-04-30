@@ -135,6 +135,7 @@ slot0.updateAwards = function(slot0, slot1, slot2, slot3)
 			onButton(slot0, slot10, function ()
 				uv0._parent:emit(BaseUI.ON_DROP, uv1)
 			end, SFX_PANEL)
+			setActive(findTF(slot10, "got"), Task.OwnSpAward(slot12))
 		end
 	end
 end

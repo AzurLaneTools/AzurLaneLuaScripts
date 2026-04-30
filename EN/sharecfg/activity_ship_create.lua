@@ -1,6 +1,17 @@
 pg = pg or {}
-pg.activity_ship_create = {
-	{
+pg.activity_ship_create = rawget(pg, "activity_ship_create") or setmetatable({
+	__name = "activity_ship_create"
+}, confNEO)
+pg.activity_ship_create.all = {
+	1,
+	2,
+	3
+}
+pg.base = pg.base or {}
+pg.base.activity_ship_create = {}
+
+(function ()
+	pg.base.activity_ship_create[1] = {
 		id = 1,
 		activity_id = 30895,
 		create_id = 7,
@@ -141,8 +152,8 @@ pg.activity_ship_create = {
 			250,
 			200
 		}
-	},
-	{
+	}
+	pg.base.activity_ship_create[2] = {
 		id = 2,
 		activity_id = 30895,
 		create_id = 8,
@@ -225,8 +236,8 @@ pg.activity_ship_create = {
 			200,
 			120
 		}
-	},
-	{
+	}
+	pg.base.activity_ship_create[3] = {
 		id = 3,
 		activity_id = 30895,
 		create_id = 6,
@@ -317,10 +328,5 @@ pg.activity_ship_create = {
 			200,
 			120
 		}
-	},
-	all = {
-		1,
-		2,
-		3
 	}
-}
+end)()

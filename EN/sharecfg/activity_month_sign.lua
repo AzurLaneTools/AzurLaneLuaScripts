@@ -1,6 +1,26 @@
 pg = pg or {}
-pg.activity_month_sign = {
-	{
+pg.activity_month_sign = rawget(pg, "activity_month_sign") or setmetatable({
+	__name = "activity_month_sign"
+}, confNEO)
+pg.activity_month_sign.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12
+}
+pg.base = pg.base or {}
+pg.base.activity_month_sign = {}
+
+(function ()
+	pg.base.activity_month_sign[1] = {
 		id = 1,
 		resign_count = 0,
 		day_and_drop = {
@@ -254,8 +274,8 @@ pg.activity_month_sign = {
 				2100
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_month_sign[2] = {
 		id = 2,
 		resign_count = 0,
 		day_and_drop = {
@@ -509,8 +529,8 @@ pg.activity_month_sign = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_month_sign[3] = {
 		id = 3,
 		resign_count = 0,
 		day_and_drop = {
@@ -764,8 +784,8 @@ pg.activity_month_sign = {
 				2100
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_month_sign[4] = {
 		id = 4,
 		resign_count = 0,
 		day_and_drop = {
@@ -1019,8 +1039,8 @@ pg.activity_month_sign = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_month_sign[5] = {
 		id = 5,
 		resign_count = 0,
 		day_and_drop = {
@@ -1200,7 +1220,7 @@ pg.activity_month_sign = {
 		day21 = {
 			{
 				5,
-				100063,
+				100079,
 				1
 			}
 		},
@@ -1274,8 +1294,8 @@ pg.activity_month_sign = {
 				2100
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_month_sign[6] = {
 		id = 6,
 		resign_count = 0,
 		day_and_drop = {
@@ -1529,8 +1549,8 @@ pg.activity_month_sign = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_month_sign[7] = {
 		id = 7,
 		resign_count = 0,
 		day_and_drop = {
@@ -1784,8 +1804,8 @@ pg.activity_month_sign = {
 				2100
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_month_sign[8] = {
 		id = 8,
 		resign_count = 0,
 		day_and_drop = {
@@ -2039,8 +2059,8 @@ pg.activity_month_sign = {
 				2100
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_month_sign[9] = {
 		id = 9,
 		resign_count = 0,
 		day_and_drop = {
@@ -2294,8 +2314,8 @@ pg.activity_month_sign = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_month_sign[10] = {
 		id = 10,
 		resign_count = 0,
 		day_and_drop = {
@@ -2549,8 +2569,8 @@ pg.activity_month_sign = {
 				2100
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_month_sign[11] = {
 		id = 11,
 		resign_count = 0,
 		day_and_drop = {
@@ -2804,8 +2824,8 @@ pg.activity_month_sign = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_month_sign[12] = {
 		id = 12,
 		resign_count = 0,
 		day_and_drop = {
@@ -3059,19 +3079,5 @@ pg.activity_month_sign = {
 				2100
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12
 	}
-}
+end)()

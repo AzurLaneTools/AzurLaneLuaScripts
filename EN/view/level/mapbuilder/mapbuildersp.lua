@@ -160,6 +160,41 @@ slot0.UpdateMapVO = function(slot0, slot1)
 	slot0:BuildStoryTree()
 end
 
+slot0.UpdateBonusPtIconPath = function(slot0)
+	slot0.bonusPtIconPath = nil
+
+	if not (slot0.data or slot0.contextData.map) then
+		return
+	end
+
+	if not slot1:getConfig("on_activity") or slot2 == 0 then
+		return
+	end
+
+	if not getProxy(ActivityProxy):getActivityById(slot2) or slot4:isEnd() then
+		return
+	end
+
+	if not slot4:GetConfigClientSetting("PTID") then
+		return
+	end
+
+	if not underscore.detect(slot3:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_RANK), function (slot0)
+		return slot0 and not slot0:isEnd() and slot0:getConfig("config_id") == uv0
+	end) then
+		return
+	end
+
+	if not tonumber(slot6:getConfig("config_id")) then
+		return
+	end
+
+	slot0.bonusPtIconPath = Drop.New({
+		type = DROP_TYPE_RESOURCE,
+		id = slot7
+	}):getIcon()
+end
+
 slot0.BuildStoryTree = function(slot0)
 	slot1 = slot0.data
 	slot0.spStoryIDs = slot1:getConfig("story_id")
@@ -268,6 +303,7 @@ slot0.UpdateView = function(slot0)
 	slot0:UpdateStoryTask()
 
 	if slot3 then
+		slot0:UpdateBonusPtIconPath()
 		slot0:UpdateBattle()
 		slot0.sceneParent:SwitchMapBG(slot0.contextData.map)
 		slot0.sceneParent:PlayBGM()
@@ -441,16 +477,33 @@ slot0.UpdateMapItem = function(slot0, slot1, slot2)
 
 	slot27 = slot2:GetDailyBonusQuota()
 	slot28 = findTF(slot4, "mark")
+	slot29 = slot28:Find("bonus")
+	slot31 = findTF(slot29, "icon/Image")
 
-	setActive(slot28:Find("bonus"), slot27)
+	setActive(slot29, slot27)
 	setActive(slot28, slot27)
 
+	if slot29:Find("icon") then
+		setActive(slot30, slot27 and slot0.bonusPtIconPath)
+	end
+
 	if slot27 then
-		slot0.sceneParent.loader:GetSprite("ui/levelmainscene_atlas", slot9 == 3 and "bonus_us_hard" or "bonus_us", slot28:Find("bonus"))
+		slot32 = slot28:GetComponent(typeof(CanvasGroup))
+
+		slot0.sceneParent.loader:GetSprite("ui/levelmainscene_atlas", slot2:GetDailyBonusIconName(), slot29)
+
+		if slot30 and slot0.bonusPtIconPath then
+			if slot31 then
+				GetImageSpriteFromAtlasAsync(slot0.bonusPtIconPath, "", slot31, true)
+			else
+				GetImageSpriteFromAtlasAsync(slot0.bonusPtIconPath, "", slot30, true)
+			end
+		end
+
 		LeanTween.cancel(go(slot28), true)
 
-		slot31 = slot28.anchoredPosition.y
-		slot28:GetComponent(typeof(CanvasGroup)).alpha = 0
+		slot34 = slot28.anchoredPosition.y
+		slot32.alpha = 0
 
 		LeanTween.value(go(slot28), 0, 1, 0.2):setOnUpdate(System.Action_float(function (slot0)
 			uv0.alpha = slot0
@@ -465,7 +518,7 @@ slot0.UpdateMapItem = function(slot0, slot1, slot2)
 		end)):setEase(LeanTweenType.easeOutSine):setDelay(0.7)
 	end
 
-	slot29 = slot2.id
+	slot32 = slot2.id
 
 	onButton(slot0, slot4, function ()
 		uv0:TryOpenChapterInfo(uv1, nil, uv2.list)

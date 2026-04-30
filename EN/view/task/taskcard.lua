@@ -259,6 +259,7 @@ slot0.updateAwards = function(slot0, slot1)
 				id = slot10[2],
 				count = slot10[3]
 			})
+			setActive(findTF(slot8, "got"), Task.OwnSpAward(slot10))
 			onButton(slot0, slot8, function ()
 				uv0.viewComponent:emit(TaskMediator.ON_DROP, uv1)
 			end, SFX_PANEL)

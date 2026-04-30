@@ -1,6 +1,144 @@
 pg = pg or {}
-pg.dorm3d_recall = {
-	{
+pg.dorm3d_recall = rawget(pg, "dorm3d_recall") or setmetatable({
+	__name = "dorm3d_recall"
+}, confNEO)
+pg.dorm3d_recall.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	21,
+	22,
+	23,
+	31,
+	32,
+	41,
+	42,
+	43,
+	51,
+	52,
+	101,
+	102,
+	103,
+	104,
+	105,
+	121,
+	122,
+	123,
+	124,
+	125,
+	141,
+	142,
+	143,
+	144
+}
+pg.dorm3d_recall.get_id_list_by_story_id = {
+	[10010] = {
+		1
+	},
+	[10020] = {
+		2
+	},
+	[10030] = {
+		3
+	},
+	[10040] = {
+		4
+	},
+	[10050] = {
+		5
+	},
+	[10060] = {
+		6
+	},
+	[10070] = {
+		7
+	},
+	[10080] = {
+		8
+	},
+	[20500] = {
+		21
+	},
+	[20510] = {
+		22
+	},
+	[20520] = {
+		23
+	},
+	[20530] = {
+		32
+	},
+	[29991] = {
+		31
+	},
+	[30510] = {
+		51
+	},
+	[30520] = {
+		41
+	},
+	[30530] = {
+		42
+	},
+	[30540] = {
+		43
+	},
+	[30550] = {
+		52
+	},
+	[110510] = {
+		101
+	},
+	[110520] = {
+		102
+	},
+	[110530] = {
+		103
+	},
+	[110541] = {
+		104
+	},
+	[110551] = {
+		105
+	},
+	[120510] = {
+		121
+	},
+	[120520] = {
+		122
+	},
+	[120530] = {
+		123
+	},
+	[120541] = {
+		124
+	},
+	[120551] = {
+		125
+	},
+	[140510] = {
+		141
+	},
+	[140520] = {
+		142
+	},
+	[140530] = {
+		143
+	},
+	[140541] = {
+		144
+	}
+}
+pg.base = pg.base or {}
+pg.base.dorm3d_recall = {}
+
+(function ()
+	pg.base.dorm3d_recall[1] = {
 		story_id = 10010,
 		name = "Welcome to the Quarters",
 		type = 1,
@@ -13,8 +151,8 @@ pg.dorm3d_recall = {
 			20220,
 			1
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_recall[2] = {
 		story_id = 10020,
 		name = "A Moment of Tenderness",
 		type = 1,
@@ -27,8 +165,8 @@ pg.dorm3d_recall = {
 			20220,
 			4
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_recall[3] = {
 		story_id = 10030,
 		name = "Thoughtful Preparations",
 		type = 1,
@@ -41,8 +179,8 @@ pg.dorm3d_recall = {
 			20220,
 			7
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_recall[4] = {
 		story_id = 10040,
 		name = "Gentle Service",
 		type = 1,
@@ -55,8 +193,8 @@ pg.dorm3d_recall = {
 			20220,
 			10
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_recall[5] = {
 		story_id = 10050,
 		name = "Dance With Me",
 		type = 1,
@@ -69,8 +207,8 @@ pg.dorm3d_recall = {
 			20220,
 			13
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_recall[6] = {
 		story_id = 10060,
 		name = "The Trick to Cleaning",
 		type = 1,
@@ -82,8 +220,8 @@ pg.dorm3d_recall = {
 			3,
 			2022001
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_recall[7] = {
 		story_id = 10070,
 		name = "Unforeseen Mistake",
 		type = 1,
@@ -95,8 +233,8 @@ pg.dorm3d_recall = {
 			3,
 			2022002
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_recall[8] = {
 		story_id = 10080,
 		name = "In the Morning",
 		type = 1,
@@ -108,8 +246,8 @@ pg.dorm3d_recall = {
 			3,
 			2022003
 		}
-	},
-	[21] = {
+	}
+	pg.base.dorm3d_recall[21] = {
 		story_id = 20500,
 		name = "Surprise for Sore Eyes",
 		type = 1,
@@ -122,8 +260,8 @@ pg.dorm3d_recall = {
 			30221,
 			4
 		}
-	},
-	[22] = {
+	}
+	pg.base.dorm3d_recall[22] = {
 		story_id = 20510,
 		name = "The Warmth of Her Hand",
 		type = 1,
@@ -136,8 +274,8 @@ pg.dorm3d_recall = {
 			30221,
 			8
 		}
-	},
-	[23] = {
+	}
+	pg.base.dorm3d_recall[23] = {
 		story_id = 20520,
 		name = "Heart-Racing Touch",
 		type = 1,
@@ -150,8 +288,8 @@ pg.dorm3d_recall = {
 			30221,
 			12
 		}
-	},
-	[31] = {
+	}
+	pg.base.dorm3d_recall[31] = {
 		story_id = 29991,
 		name = "Intimate Assistance",
 		type = 1,
@@ -163,8 +301,8 @@ pg.dorm3d_recall = {
 			3,
 			3022101
 		}
-	},
-	[32] = {
+	}
+	pg.base.dorm3d_recall[32] = {
 		story_id = 20530,
 		name = "Foot Massager",
 		type = 1,
@@ -176,8 +314,8 @@ pg.dorm3d_recall = {
 			3,
 			3022102
 		}
-	},
-	[41] = {
+	}
+	pg.base.dorm3d_recall[41] = {
 		story_id = 30520,
 		name = "Let's Play!",
 		type = 1,
@@ -190,8 +328,8 @@ pg.dorm3d_recall = {
 			19903,
 			4
 		}
-	},
-	[42] = {
+	}
+	pg.base.dorm3d_recall[42] = {
 		story_id = 30530,
 		name = "Hide and Seek",
 		type = 1,
@@ -204,8 +342,8 @@ pg.dorm3d_recall = {
 			19903,
 			8
 		}
-	},
-	[43] = {
+	}
+	pg.base.dorm3d_recall[43] = {
 		story_id = 30540,
 		name = "Morning Kiss",
 		type = 1,
@@ -218,8 +356,8 @@ pg.dorm3d_recall = {
 			19903,
 			12
 		}
-	},
-	[51] = {
+	}
+	pg.base.dorm3d_recall[51] = {
 		story_id = 30510,
 		name = "Happiness Drawn to Life",
 		type = 1,
@@ -231,8 +369,8 @@ pg.dorm3d_recall = {
 			3,
 			1990301
 		}
-	},
-	[52] = {
+	}
+	pg.base.dorm3d_recall[52] = {
 		story_id = 30550,
 		name = "Collage",
 		type = 1,
@@ -244,8 +382,8 @@ pg.dorm3d_recall = {
 			3,
 			1990302
 		}
-	},
-	[101] = {
+	}
+	pg.base.dorm3d_recall[101] = {
 		story_id = 110510,
 		name = "Cute Adornment",
 		type = 1,
@@ -258,8 +396,8 @@ pg.dorm3d_recall = {
 			10517,
 			4
 		}
-	},
-	[102] = {
+	}
+	pg.base.dorm3d_recall[102] = {
 		story_id = 110520,
 		name = "Silly Pranks",
 		type = 1,
@@ -272,8 +410,8 @@ pg.dorm3d_recall = {
 			10517,
 			8
 		}
-	},
-	[103] = {
+	}
+	pg.base.dorm3d_recall[103] = {
 		story_id = 110530,
 		name = "Frozen Goodness",
 		type = 1,
@@ -286,8 +424,8 @@ pg.dorm3d_recall = {
 			10517,
 			12
 		}
-	},
-	[104] = {
+	}
+	pg.base.dorm3d_recall[104] = {
 		story_id = 110541,
 		name = "Sparkly Crystal",
 		type = 1,
@@ -299,8 +437,8 @@ pg.dorm3d_recall = {
 			3,
 			1051701
 		}
-	},
-	[105] = {
+	}
+	pg.base.dorm3d_recall[105] = {
 		story_id = 110551,
 		name = "Gaming Duel",
 		type = 1,
@@ -312,8 +450,8 @@ pg.dorm3d_recall = {
 			3,
 			1051702
 		}
-	},
-	[121] = {
+	}
+	pg.base.dorm3d_recall[121] = {
 		story_id = 120510,
 		name = "Hearts Under Lock and Key",
 		type = 1,
@@ -326,8 +464,8 @@ pg.dorm3d_recall = {
 			30707,
 			4
 		}
-	},
-	[122] = {
+	}
+	pg.base.dorm3d_recall[122] = {
 		story_id = 120520,
 		name = "Love Enshackled",
 		type = 1,
@@ -340,8 +478,8 @@ pg.dorm3d_recall = {
 			30707,
 			8
 		}
-	},
-	[123] = {
+	}
+	pg.base.dorm3d_recall[123] = {
 		story_id = 120530,
 		name = "Afternoon Sleeptalking",
 		type = 1,
@@ -354,8 +492,8 @@ pg.dorm3d_recall = {
 			30707,
 			12
 		}
-	},
-	[124] = {
+	}
+	pg.base.dorm3d_recall[124] = {
 		story_id = 120541,
 		name = "The Warmth of Her Lips",
 		type = 1,
@@ -367,8 +505,21 @@ pg.dorm3d_recall = {
 			3,
 			3070701
 		}
-	},
-	[141] = {
+	}
+	pg.base.dorm3d_recall[125] = {
+		story_id = 120551,
+		name = "Silken Affection",
+		type = 1,
+		id = 125,
+		image = "recall_125",
+		unlock_text = "Unlocked by gifting Scarlet Invite.",
+		desc = "Gossamer threads embracing bare skin – a new beginning, or a sweet trap?",
+		unlock = {
+			3,
+			3070702
+		}
+	}
+	pg.base.dorm3d_recall[141] = {
 		story_id = 140510,
 		name = "Nap Time",
 		type = 1,
@@ -381,8 +532,8 @@ pg.dorm3d_recall = {
 			49905,
 			4
 		}
-	},
-	[142] = {
+	}
+	pg.base.dorm3d_recall[142] = {
 		story_id = 140520,
 		name = "Intimate Punishment",
 		type = 1,
@@ -395,8 +546,8 @@ pg.dorm3d_recall = {
 			49905,
 			8
 		}
-	},
-	[143] = {
+	}
+	pg.base.dorm3d_recall[143] = {
 		story_id = 140530,
 		name = "Fingertips and Locks of Hair",
 		type = 1,
@@ -409,8 +560,8 @@ pg.dorm3d_recall = {
 			49905,
 			12
 		}
-	},
-	[144] = {
+	}
+	pg.base.dorm3d_recall[144] = {
 		story_id = 140541,
 		name = "Affection Melted in Glass",
 		type = 1,
@@ -422,133 +573,5 @@ pg.dorm3d_recall = {
 			3,
 			4990501
 		}
-	},
-	get_id_list_by_story_id = {
-		[10010] = {
-			1
-		},
-		[10020] = {
-			2
-		},
-		[10030] = {
-			3
-		},
-		[10040] = {
-			4
-		},
-		[10050] = {
-			5
-		},
-		[10060] = {
-			6
-		},
-		[10070] = {
-			7
-		},
-		[10080] = {
-			8
-		},
-		[20500] = {
-			21
-		},
-		[20510] = {
-			22
-		},
-		[20520] = {
-			23
-		},
-		[29991] = {
-			31
-		},
-		[20530] = {
-			32
-		},
-		[30520] = {
-			41
-		},
-		[30530] = {
-			42
-		},
-		[30540] = {
-			43
-		},
-		[30510] = {
-			51
-		},
-		[30550] = {
-			52
-		},
-		[110510] = {
-			101
-		},
-		[110520] = {
-			102
-		},
-		[110530] = {
-			103
-		},
-		[110541] = {
-			104
-		},
-		[110551] = {
-			105
-		},
-		[120510] = {
-			121
-		},
-		[120520] = {
-			122
-		},
-		[120530] = {
-			123
-		},
-		[120541] = {
-			124
-		},
-		[140510] = {
-			141
-		},
-		[140520] = {
-			142
-		},
-		[140530] = {
-			143
-		},
-		[140541] = {
-			144
-		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		21,
-		22,
-		23,
-		31,
-		32,
-		41,
-		42,
-		43,
-		51,
-		52,
-		101,
-		102,
-		103,
-		104,
-		105,
-		121,
-		122,
-		123,
-		124,
-		141,
-		142,
-		143,
-		144
 	}
-}
+end)()

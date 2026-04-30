@@ -1,6 +1,67 @@
 pg = pg or {}
-pg.activity_town_work_level = {
-	{
+pg.activity_town_work_level = rawget(pg, "activity_town_work_level") or setmetatable({
+	__name = "activity_town_work_level"
+}, confNEO)
+pg.activity_town_work_level.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	111,
+	112,
+	113,
+	114,
+	115,
+	116,
+	121,
+	122,
+	123,
+	124,
+	125,
+	126,
+	131,
+	132,
+	133,
+	134,
+	135,
+	136,
+	137,
+	138,
+	139,
+	140,
+	141
+}
+pg.base = pg.base or {}
+pg.base.activity_town_work_level = {}
+
+(function ()
+	pg.base.activity_town_work_level[1] = {
 		gold = 0,
 		exp_display = 10,
 		name = "Small Ranch Lv. 0",
@@ -11,8 +72,8 @@ pg.activity_town_work_level = {
 		gold_gain = 0,
 		town_level = 1,
 		level = 0
-	},
-	{
+	}
+	pg.base.activity_town_work_level[2] = {
 		gold = 50000,
 		exp_display = 10,
 		name = "Small Ranch Lv. 1",
@@ -23,8 +84,8 @@ pg.activity_town_work_level = {
 		gold_gain = 1000,
 		town_level = 1,
 		level = 1
-	},
-	{
+	}
+	pg.base.activity_town_work_level[3] = {
 		gold = 100000,
 		exp_display = 10,
 		name = "Medium Ranch Lv. 2",
@@ -35,8 +96,8 @@ pg.activity_town_work_level = {
 		gold_gain = 1100,
 		town_level = 1,
 		level = 2
-	},
-	{
+	}
+	pg.base.activity_town_work_level[4] = {
 		gold = 300000,
 		exp_display = 10,
 		name = "Medium Ranch Lv. 3",
@@ -47,8 +108,8 @@ pg.activity_town_work_level = {
 		gold_gain = 1200,
 		town_level = 2,
 		level = 3
-	},
-	{
+	}
+	pg.base.activity_town_work_level[5] = {
 		gold = 600000,
 		exp_display = 20,
 		name = "Large Ranch Lv. 4",
@@ -59,8 +120,8 @@ pg.activity_town_work_level = {
 		gold_gain = 1300,
 		town_level = 2,
 		level = 4
-	},
-	{
+	}
+	pg.base.activity_town_work_level[6] = {
 		gold = 0,
 		exp_display = 0,
 		name = "Large Ranch Lv. 5",
@@ -71,8 +132,8 @@ pg.activity_town_work_level = {
 		gold_gain = 1500,
 		town_level = 0,
 		level = 5
-	},
-	[11] = {
+	}
+	pg.base.activity_town_work_level[11] = {
 		gold = 1200000,
 		exp_display = 15,
 		name = "Small Farm Lv. 0",
@@ -83,8 +144,8 @@ pg.activity_town_work_level = {
 		gold_gain = 0,
 		town_level = 3,
 		level = 0
-	},
-	[12] = {
+	}
+	pg.base.activity_town_work_level[12] = {
 		gold = 800000,
 		exp_display = 15,
 		name = "Small Farm Lv. 1",
@@ -95,8 +156,8 @@ pg.activity_town_work_level = {
 		gold_gain = 500,
 		town_level = 3,
 		level = 1
-	},
-	[13] = {
+	}
+	pg.base.activity_town_work_level[13] = {
 		gold = 1000000,
 		exp_display = 15,
 		name = "Medium Farm Lv. 2",
@@ -107,8 +168,8 @@ pg.activity_town_work_level = {
 		gold_gain = 600,
 		town_level = 3,
 		level = 2
-	},
-	[14] = {
+	}
+	pg.base.activity_town_work_level[14] = {
 		gold = 1200000,
 		exp_display = 15,
 		name = "Medium Farm Lv. 3",
@@ -119,8 +180,8 @@ pg.activity_town_work_level = {
 		gold_gain = 700,
 		town_level = 4,
 		level = 3
-	},
-	[15] = {
+	}
+	pg.base.activity_town_work_level[15] = {
 		gold = 2000000,
 		exp_display = 20,
 		name = "Large Farm Lv. 4",
@@ -131,8 +192,8 @@ pg.activity_town_work_level = {
 		gold_gain = 800,
 		town_level = 4,
 		level = 4
-	},
-	[16] = {
+	}
+	pg.base.activity_town_work_level[16] = {
 		gold = 0,
 		exp_display = 0,
 		name = "Large Farm Lv. 5",
@@ -143,8 +204,8 @@ pg.activity_town_work_level = {
 		gold_gain = 1000,
 		town_level = 0,
 		level = 5
-	},
-	[21] = {
+	}
+	pg.base.activity_town_work_level[21] = {
 		gold = 10000000,
 		exp_display = 20,
 		name = "Small Mine Lv. 0",
@@ -155,8 +216,8 @@ pg.activity_town_work_level = {
 		gold_gain = 0,
 		town_level = 5,
 		level = 0
-	},
-	[22] = {
+	}
+	pg.base.activity_town_work_level[22] = {
 		gold = 8000000,
 		exp_display = 20,
 		name = "Small Mine Lv. 1",
@@ -167,8 +228,8 @@ pg.activity_town_work_level = {
 		gold_gain = 800,
 		town_level = 5,
 		level = 1
-	},
-	[23] = {
+	}
+	pg.base.activity_town_work_level[23] = {
 		gold = 12000000,
 		exp_display = 20,
 		name = "Medium Mine Lv. 2",
@@ -179,8 +240,8 @@ pg.activity_town_work_level = {
 		gold_gain = 1100,
 		town_level = 5,
 		level = 2
-	},
-	[24] = {
+	}
+	pg.base.activity_town_work_level[24] = {
 		gold = 20000000,
 		exp_display = 20,
 		name = "Medium Mine Lv. 3",
@@ -191,8 +252,8 @@ pg.activity_town_work_level = {
 		gold_gain = 1400,
 		town_level = 6,
 		level = 3
-	},
-	[25] = {
+	}
+	pg.base.activity_town_work_level[25] = {
 		gold = 30000000,
 		exp_display = 30,
 		name = "Large Mine Lv. 4",
@@ -203,8 +264,8 @@ pg.activity_town_work_level = {
 		gold_gain = 1700,
 		town_level = 6,
 		level = 4
-	},
-	[26] = {
+	}
+	pg.base.activity_town_work_level[26] = {
 		gold = 0,
 		exp_display = 0,
 		name = "Large Mine Lv. 5",
@@ -215,8 +276,8 @@ pg.activity_town_work_level = {
 		gold_gain = 2000,
 		town_level = 0,
 		level = 5
-	},
-	[31] = {
+	}
+	pg.base.activity_town_work_level[31] = {
 		gold = 90000000,
 		exp_display = 20,
 		name = "Small Studio Lv. 0",
@@ -227,8 +288,8 @@ pg.activity_town_work_level = {
 		gold_gain = 0,
 		town_level = 7,
 		level = 0
-	},
-	[32] = {
+	}
+	pg.base.activity_town_work_level[32] = {
 		gold = 45000000,
 		exp_display = 20,
 		name = "Small Studio Lv. 1",
@@ -239,8 +300,8 @@ pg.activity_town_work_level = {
 		gold_gain = 1000,
 		town_level = 7,
 		level = 1
-	},
-	[33] = {
+	}
+	pg.base.activity_town_work_level[33] = {
 		gold = 60000000,
 		exp_display = 20,
 		name = "Medium Studio Lv. 2",
@@ -251,8 +312,8 @@ pg.activity_town_work_level = {
 		gold_gain = 1500,
 		town_level = 7,
 		level = 2
-	},
-	[34] = {
+	}
+	pg.base.activity_town_work_level[34] = {
 		gold = 75000000,
 		exp_display = 20,
 		name = "Medium Studio Lv. 3",
@@ -263,8 +324,8 @@ pg.activity_town_work_level = {
 		gold_gain = 2000,
 		town_level = 8,
 		level = 3
-	},
-	[35] = {
+	}
+	pg.base.activity_town_work_level[35] = {
 		gold = 180000000,
 		exp_display = 20,
 		name = "Large Studio Lv. 4",
@@ -275,8 +336,8 @@ pg.activity_town_work_level = {
 		gold_gain = 2500,
 		town_level = 8,
 		level = 4
-	},
-	[36] = {
+	}
+	pg.base.activity_town_work_level[36] = {
 		gold = 0,
 		exp_display = 0,
 		name = "Large Studio Lv. 5",
@@ -287,8 +348,8 @@ pg.activity_town_work_level = {
 		gold_gain = 3500,
 		town_level = 0,
 		level = 5
-	},
-	[101] = {
+	}
+	pg.base.activity_town_work_level[101] = {
 		gold = 25000000,
 		exp_display = 40,
 		name = "Train Station Lv. 0",
@@ -299,8 +360,8 @@ pg.activity_town_work_level = {
 		gold_gain = 0,
 		town_level = 4,
 		level = 0
-	},
-	[102] = {
+	}
+	pg.base.activity_town_work_level[102] = {
 		gold = 27000000,
 		exp_display = 40,
 		name = "Train Station Lv. 1",
@@ -311,8 +372,8 @@ pg.activity_town_work_level = {
 		gold_gain = 500,
 		town_level = 4,
 		level = 1
-	},
-	[103] = {
+	}
+	pg.base.activity_town_work_level[103] = {
 		gold = 30000000,
 		exp_display = 40,
 		name = "Train Station Lv. 2",
@@ -323,8 +384,8 @@ pg.activity_town_work_level = {
 		gold_gain = 1000,
 		town_level = 4,
 		level = 2
-	},
-	[104] = {
+	}
+	pg.base.activity_town_work_level[104] = {
 		gold = 35000000,
 		exp_display = 40,
 		name = "Train Station Lv. 3",
@@ -335,8 +396,8 @@ pg.activity_town_work_level = {
 		gold_gain = 1500,
 		town_level = 5,
 		level = 3
-	},
-	[105] = {
+	}
+	pg.base.activity_town_work_level[105] = {
 		gold = 40000000,
 		exp_display = 40,
 		name = "Train Station Lv. 4",
@@ -347,8 +408,8 @@ pg.activity_town_work_level = {
 		gold_gain = 2000,
 		town_level = 5,
 		level = 4
-	},
-	[106] = {
+	}
+	pg.base.activity_town_work_level[106] = {
 		gold = 0,
 		exp_display = 0,
 		name = "Train Station Lv. 5",
@@ -359,8 +420,8 @@ pg.activity_town_work_level = {
 		gold_gain = 2500,
 		town_level = 0,
 		level = 5
-	},
-	[111] = {
+	}
+	pg.base.activity_town_work_level[111] = {
 		gold = 80000000,
 		exp_display = 40,
 		name = "Town Inn Lv. 0",
@@ -371,8 +432,8 @@ pg.activity_town_work_level = {
 		gold_gain = 0,
 		town_level = 6,
 		level = 0
-	},
-	[112] = {
+	}
+	pg.base.activity_town_work_level[112] = {
 		gold = 85000000,
 		exp_display = 40,
 		name = "Town Inn Lv. 1",
@@ -383,8 +444,8 @@ pg.activity_town_work_level = {
 		gold_gain = 1000,
 		town_level = 6,
 		level = 1
-	},
-	[113] = {
+	}
+	pg.base.activity_town_work_level[113] = {
 		gold = 90000000,
 		exp_display = 40,
 		name = "Town Inn Lv. 2",
@@ -395,8 +456,8 @@ pg.activity_town_work_level = {
 		gold_gain = 2000,
 		town_level = 6,
 		level = 2
-	},
-	[114] = {
+	}
+	pg.base.activity_town_work_level[114] = {
 		gold = 100000000,
 		exp_display = 40,
 		name = "Town Inn Lv. 3",
@@ -407,8 +468,8 @@ pg.activity_town_work_level = {
 		gold_gain = 3000,
 		town_level = 7,
 		level = 3
-	},
-	[115] = {
+	}
+	pg.base.activity_town_work_level[115] = {
 		gold = 120000000,
 		exp_display = 40,
 		name = "Town Inn Lv. 4",
@@ -419,8 +480,8 @@ pg.activity_town_work_level = {
 		gold_gain = 4000,
 		town_level = 7,
 		level = 4
-	},
-	[116] = {
+	}
+	pg.base.activity_town_work_level[116] = {
 		gold = 0,
 		exp_display = 0,
 		name = "Town Inn Lv. 5",
@@ -431,8 +492,8 @@ pg.activity_town_work_level = {
 		gold_gain = 5000,
 		town_level = 0,
 		level = 5
-	},
-	[121] = {
+	}
+	pg.base.activity_town_work_level[121] = {
 		gold = 240000000,
 		exp_display = 10,
 		name = "Town Saloon Lv. 0",
@@ -443,8 +504,8 @@ pg.activity_town_work_level = {
 		gold_gain = 0,
 		town_level = 9,
 		level = 0
-	},
-	[122] = {
+	}
+	pg.base.activity_town_work_level[122] = {
 		gold = 250000000,
 		exp_display = 10,
 		name = "Town Saloon Lv. 1",
@@ -455,8 +516,8 @@ pg.activity_town_work_level = {
 		gold_gain = 2000,
 		town_level = 9,
 		level = 1
-	},
-	[123] = {
+	}
+	pg.base.activity_town_work_level[123] = {
 		gold = 260000000,
 		exp_display = 10,
 		name = "Town Saloon Lv. 2",
@@ -467,8 +528,8 @@ pg.activity_town_work_level = {
 		gold_gain = 4000,
 		town_level = 9,
 		level = 2
-	},
-	[124] = {
+	}
+	pg.base.activity_town_work_level[124] = {
 		gold = 280000000,
 		exp_display = 10,
 		name = "Town Saloon Lv. 3",
@@ -479,8 +540,8 @@ pg.activity_town_work_level = {
 		gold_gain = 6000,
 		town_level = 9,
 		level = 3
-	},
-	[125] = {
+	}
+	pg.base.activity_town_work_level[125] = {
 		gold = 300000000,
 		exp_display = 10,
 		name = "Town Saloon Lv. 4",
@@ -491,8 +552,8 @@ pg.activity_town_work_level = {
 		gold_gain = 8000,
 		town_level = 9,
 		level = 4
-	},
-	[126] = {
+	}
+	pg.base.activity_town_work_level[126] = {
 		gold = 0,
 		exp_display = 0,
 		name = "Town Saloon Lv. 5",
@@ -503,8 +564,8 @@ pg.activity_town_work_level = {
 		gold_gain = 10000,
 		town_level = 0,
 		level = 5
-	},
-	[131] = {
+	}
+	pg.base.activity_town_work_level[131] = {
 		gold = 50000000,
 		exp_display = 50,
 		name = "Town Hall Lv. 0",
@@ -515,8 +576,8 @@ pg.activity_town_work_level = {
 		gold_gain = 0,
 		town_level = 8,
 		level = 0
-	},
-	[132] = {
+	}
+	pg.base.activity_town_work_level[132] = {
 		gold = 50000000,
 		exp_display = 50,
 		name = "Town Hall Lv. 1",
@@ -527,8 +588,8 @@ pg.activity_town_work_level = {
 		gold_gain = 0,
 		town_level = 8,
 		level = 1
-	},
-	[133] = {
+	}
+	pg.base.activity_town_work_level[133] = {
 		gold = 100000000,
 		exp_display = 60,
 		name = "Town Hall Lv. 2",
@@ -539,8 +600,8 @@ pg.activity_town_work_level = {
 		gold_gain = 0,
 		town_level = 9,
 		level = 2
-	},
-	[134] = {
+	}
+	pg.base.activity_town_work_level[134] = {
 		gold = 100000000,
 		exp_display = 60,
 		name = "Town Hall Lv. 3",
@@ -551,8 +612,8 @@ pg.activity_town_work_level = {
 		gold_gain = 0,
 		town_level = 9,
 		level = 3
-	},
-	[135] = {
+	}
+	pg.base.activity_town_work_level[135] = {
 		gold = 150000000,
 		exp_display = 70,
 		name = "Town Hall Lv. 4",
@@ -563,8 +624,8 @@ pg.activity_town_work_level = {
 		gold_gain = 0,
 		town_level = 9,
 		level = 4
-	},
-	[136] = {
+	}
+	pg.base.activity_town_work_level[136] = {
 		gold = 200000000,
 		exp_display = 80,
 		name = "Town Hall Lv. 5",
@@ -575,8 +636,8 @@ pg.activity_town_work_level = {
 		gold_gain = 0,
 		town_level = 10,
 		level = 5
-	},
-	[137] = {
+	}
+	pg.base.activity_town_work_level[137] = {
 		gold = 400000000,
 		exp_display = 90,
 		name = "Town Hall Lv. 6",
@@ -587,8 +648,8 @@ pg.activity_town_work_level = {
 		gold_gain = 0,
 		town_level = 10,
 		level = 6
-	},
-	[138] = {
+	}
+	pg.base.activity_town_work_level[138] = {
 		gold = 800000000,
 		exp_display = 100,
 		name = "Town Hall Lv. 7",
@@ -599,8 +660,8 @@ pg.activity_town_work_level = {
 		gold_gain = 0,
 		town_level = 10,
 		level = 7
-	},
-	[139] = {
+	}
+	pg.base.activity_town_work_level[139] = {
 		gold = 1500000000,
 		exp_display = 100,
 		name = "Town Hall Lv. 8",
@@ -611,8 +672,8 @@ pg.activity_town_work_level = {
 		gold_gain = 0,
 		town_level = 10,
 		level = 8
-	},
-	[140] = {
+	}
+	pg.base.activity_town_work_level[140] = {
 		gold = 3000000000.0,
 		exp_display = 100,
 		name = "Town Hall Lv. 9",
@@ -623,8 +684,8 @@ pg.activity_town_work_level = {
 		gold_gain = 0,
 		town_level = 10,
 		level = 9
-	},
-	[141] = {
+	}
+	pg.base.activity_town_work_level[141] = {
 		gold = 0,
 		exp_display = 0,
 		name = "Town Hall Lv. 10",
@@ -635,60 +696,5 @@ pg.activity_town_work_level = {
 		gold_gain = 0,
 		town_level = 0,
 		level = 10
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		111,
-		112,
-		113,
-		114,
-		115,
-		116,
-		121,
-		122,
-		123,
-		124,
-		125,
-		126,
-		131,
-		132,
-		133,
-		134,
-		135,
-		136,
-		137,
-		138,
-		139,
-		140,
-		141
 	}
-}
+end)()

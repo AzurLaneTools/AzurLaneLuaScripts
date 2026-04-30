@@ -1,6 +1,50 @@
 pg = pg or {}
-pg.dorm3d_ins_template = {
-	[20220201] = {
+pg.dorm3d_ins_template = rawget(pg, "dorm3d_ins_template") or setmetatable({
+	__name = "dorm3d_ins_template"
+}, confNEO)
+pg.dorm3d_ins_template.all = {
+	20220201,
+	30221201,
+	19903201,
+	19903202,
+	10517201,
+	10517202,
+	10517203,
+	30707201,
+	30707202,
+	49905201,
+	49905202
+}
+pg.dorm3d_ins_template.get_id_list_by_ship_group = {
+	[10517] = {
+		10517201,
+		10517202,
+		10517203
+	},
+	[19903] = {
+		19903201,
+		19903202
+	},
+	[20220] = {
+		20220201
+	},
+	[30221] = {
+		30221201
+	},
+	[30707] = {
+		30707201,
+		30707202
+	},
+	[49905] = {
+		49905201,
+		49905202
+	}
+}
+pg.base = pg.base or {}
+pg.base.dorm3d_ins_template = {}
+
+(function ()
+	pg.base.dorm3d_ins_template[20220201] = {
 		ship_group = 20220,
 		name = "forMaster_Sirius",
 		sculpture = "tianlangxing_5",
@@ -14,8 +58,8 @@ pg.dorm3d_ins_template = {
 			1,
 			2
 		}
-	},
-	[30221201] = {
+	}
+	pg.base.dorm3d_ins_template[30221201] = {
 		ship_group = 30221,
 		name = "Nshiro",
 		sculpture = "nengdai_idol",
@@ -29,8 +73,8 @@ pg.dorm3d_ins_template = {
 			3,
 			4
 		}
-	},
-	[19903201] = {
+	}
+	pg.base.dorm3d_ins_template[19903201] = {
 		ship_group = 19903,
 		name = "Anchorage",
 		sculpture = "ankeleiqi_3",
@@ -44,8 +88,8 @@ pg.dorm3d_ins_template = {
 			5,
 			6
 		}
-	},
-	[19903202] = {
+	}
+	pg.base.dorm3d_ins_template[19903202] = {
 		ship_group = 19903,
 		name = "Anchorage",
 		sculpture = "ankeleiqi_3",
@@ -59,8 +103,8 @@ pg.dorm3d_ins_template = {
 			7,
 			8
 		}
-	},
-	[10517201] = {
+	}
+	pg.base.dorm3d_ins_template[10517201] = {
 		ship_group = 10517,
 		name = "BlackDragon",
 		sculpture = "xinzexi_4",
@@ -74,8 +118,8 @@ pg.dorm3d_ins_template = {
 			9,
 			10
 		}
-	},
-	[10517202] = {
+	}
+	pg.base.dorm3d_ins_template[10517202] = {
 		ship_group = 10517,
 		name = "BlackDragon",
 		sculpture = "xinzexi_4",
@@ -89,8 +133,8 @@ pg.dorm3d_ins_template = {
 			11,
 			12
 		}
-	},
-	[10517203] = {
+	}
+	pg.base.dorm3d_ins_template[10517203] = {
 		ship_group = 10517,
 		name = "BlackDragon",
 		sculpture = "xinzexi_4",
@@ -104,8 +148,8 @@ pg.dorm3d_ins_template = {
 			13,
 			14
 		}
-	},
-	[30707201] = {
+	}
+	pg.base.dorm3d_ins_template[30707201] = {
 		ship_group = 30707,
 		name = "Taiho",
 		sculpture = "dafeng_2",
@@ -119,8 +163,8 @@ pg.dorm3d_ins_template = {
 			15,
 			16
 		}
-	},
-	[30707202] = {
+	}
+	pg.base.dorm3d_ins_template[30707202] = {
 		ship_group = 30707,
 		name = "Taiho",
 		sculpture = "dafeng_2",
@@ -134,8 +178,8 @@ pg.dorm3d_ins_template = {
 			17,
 			18
 		}
-	},
-	[49905201] = {
+	}
+	pg.base.dorm3d_ins_template[49905201] = {
 		ship_group = 49905,
 		name = "Ägir ",
 		sculpture = "aijier",
@@ -149,8 +193,8 @@ pg.dorm3d_ins_template = {
 			19,
 			20
 		}
-	},
-	[49905202] = {
+	}
+	pg.base.dorm3d_ins_template[49905202] = {
 		ship_group = 49905,
 		name = "Ägir ",
 		sculpture = "aijier",
@@ -164,43 +208,5 @@ pg.dorm3d_ins_template = {
 			21,
 			22
 		}
-	},
-	get_id_list_by_ship_group = {
-		[20220] = {
-			20220201
-		},
-		[30221] = {
-			30221201
-		},
-		[19903] = {
-			19903201,
-			19903202
-		},
-		[10517] = {
-			10517201,
-			10517202,
-			10517203
-		},
-		[30707] = {
-			30707201,
-			30707202
-		},
-		[49905] = {
-			49905201,
-			49905202
-		}
-	},
-	all = {
-		20220201,
-		30221201,
-		19903201,
-		19903202,
-		10517201,
-		10517202,
-		10517203,
-		30707201,
-		30707202,
-		49905201,
-		49905202
 	}
-}
+end)()

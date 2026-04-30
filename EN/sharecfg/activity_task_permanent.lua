@@ -1,36 +1,39 @@
 pg = pg or {}
-pg.activity_task_permanent = setmetatable({
-	__name = "activity_task_permanent",
-	all = {
-		6000,
-		6001,
-		6002,
-		6003,
-		6004,
-		6005,
-		6006,
-		6007,
-		6008,
-		6009,
-		6010,
-		6011,
-		6012,
-		6013,
-		6014,
-		6015,
-		6016,
-		6017,
-		6018,
-		6019,
-		6020,
-		6021,
-		6022,
-		6023
-	}
-}, confHX)
+pg.activity_task_permanent = rawget(pg, "activity_task_permanent") or setmetatable({
+	__name = "activity_task_permanent"
+}, confNEO)
+pg.activity_task_permanent.__namecode__ = true
+pg.activity_task_permanent.all = {
+	6000,
+	6001,
+	6002,
+	6003,
+	6004,
+	6005,
+	6006,
+	6007,
+	6008,
+	6009,
+	6010,
+	6011,
+	6012,
+	6013,
+	6014,
+	6015,
+	6016,
+	6017,
+	6018,
+	6019,
+	6020,
+	6021,
+	6022,
+	6023
+}
 pg.base = pg.base or {}
-pg.base.activity_task_permanent = {
-	[6000] = {
+pg.base.activity_task_permanent = {}
+
+(function ()
+	pg.base.activity_task_permanent[6000] = {
 		gametip = "Get an outfit for Yamashiro! ",
 		banner_route = "permanent_yamashiro",
 		gametip_extra = "Takes at least 7 days to complete",
@@ -48,8 +51,8 @@ pg.base.activity_task_permanent = {
 			35005,
 			35006
 		}
-	},
-	[6001] = {
+	}
+	pg.base.activity_task_permanent[6001] = {
 		gametip = "Get an outfit for Craven!",
 		banner_route = "permanent_craven",
 		gametip_extra = "Takes at least 10 days to complete",
@@ -80,8 +83,8 @@ pg.base.activity_task_permanent = {
 			35025,
 			35026
 		}
-	},
-	[6002] = {
+	}
+	pg.base.activity_task_permanent[6002] = {
 		gametip = "Get an outfit for Vampire!",
 		banner_route = "permanent_xixuegui",
 		gametip_extra = "Takes at least 7 days to complete",
@@ -99,8 +102,8 @@ pg.base.activity_task_permanent = {
 			35032,
 			35033
 		}
-	},
-	[6003] = {
+	}
+	pg.base.activity_task_permanent[6003] = {
 		gametip = "Get an outfit for Cygnet!",
 		banner_route = "permanent_xiaotiane",
 		gametip_extra = "Takes at least 10 days to complete",
@@ -131,8 +134,8 @@ pg.base.activity_task_permanent = {
 			35052,
 			35053
 		}
-	},
-	[6004] = {
+	}
+	pg.base.activity_task_permanent[6004] = {
 		gametip = "Get an outfit for Ooshio! ",
 		banner_route = "permanent_dachaolifu",
 		gametip_extra = "Takes at least 7 days to complete",
@@ -157,8 +160,8 @@ pg.base.activity_task_permanent = {
 			35066,
 			35067
 		}
-	},
-	[6005] = {
+	}
+	pg.base.activity_task_permanent[6005] = {
 		gametip = "Get an outfit for Yamashiro! ",
 		banner_route = "permanent_shanchenglifu",
 		gametip_extra = "Takes at least 7 days to complete",
@@ -183,8 +186,8 @@ pg.base.activity_task_permanent = {
 			35080,
 			35081
 		}
-	},
-	[6006] = {
+	}
+	pg.base.activity_task_permanent[6006] = {
 		gametip = "Get an outfit for Memphis!",
 		banner_route = "permanent_mengfeisi",
 		gametip_extra = "Takes at least 7 days to complete",
@@ -194,8 +197,8 @@ pg.base.activity_task_permanent = {
 		id = 6006,
 		over_task_id = "",
 		eliminate_task_id = {}
-	},
-	[6007] = {
+	}
+	pg.base.activity_task_permanent[6007] = {
 		gametip = "Get an outfit for Wakaba!",
 		banner_route = "permanent_ruoyeshengdan",
 		gametip_extra = "Takes at least 7 days to complete",
@@ -220,8 +223,8 @@ pg.base.activity_task_permanent = {
 			35094,
 			35095
 		}
-	},
-	[6008] = {
+	}
+	pg.base.activity_task_permanent[6008] = {
 		gametip = "Get an outfit for Ooshio!",
 		banner_route = "permanent_dachaoshengdan",
 		gametip_extra = "Takes at least 7 days to complete",
@@ -246,8 +249,8 @@ pg.base.activity_task_permanent = {
 			35108,
 			35109
 		}
-	},
-	[6009] = {
+	}
+	pg.base.activity_task_permanent[6009] = {
 		gametip = "Get an outfit for Gridley!",
 		banner_route = "permanent_gelidelishengdan",
 		gametip_extra = "Takes at least 8 days to complete",
@@ -266,8 +269,8 @@ pg.base.activity_task_permanent = {
 			35116,
 			35117
 		}
-	},
-	[6010] = {
+	}
+	pg.base.activity_task_permanent[6010] = {
 		gametip = "Get an outfit for Saratoga!",
 		banner_route = "permanent_salatuojia",
 		gametip_extra = "Takes at least 9 days to complete",
@@ -277,8 +280,8 @@ pg.base.activity_task_permanent = {
 		id = 6010,
 		over_task_id = "",
 		eliminate_task_id = {}
-	},
-	[6011] = {
+	}
+	pg.base.activity_task_permanent[6011] = {
 		gametip = "Get an outfit for Javelin!",
 		banner_route = "permanent_biaoqiang",
 		gametip_extra = "Takes at least 9 days to complete",
@@ -307,8 +310,8 @@ pg.base.activity_task_permanent = {
 			35134,
 			35135
 		}
-	},
-	[6012] = {
+	}
+	pg.base.activity_task_permanent[6012] = {
 		gametip = "Get an outfit for U-73!",
 		banner_route = "permanent_u73",
 		gametip_extra = "Takes at least 9 days to complete",
@@ -337,8 +340,8 @@ pg.base.activity_task_permanent = {
 			35152,
 			35153
 		}
-	},
-	[6013] = {
+	}
+	pg.base.activity_task_permanent[6013] = {
 		gametip = "Get an outfit for Cavalla!",
 		banner_route = "permanent_jiqi",
 		gametip_extra = "Takes at least 7 days to complete",
@@ -363,8 +366,8 @@ pg.base.activity_task_permanent = {
 			35166,
 			35167
 		}
-	},
-	[6014] = {
+	}
+	pg.base.activity_task_permanent[6014] = {
 		gametip = "Get an outfit for Fubuki!",
 		banner_route = "permanent_chuixue",
 		gametip_extra = "Takes at least 7 days to complete",
@@ -389,8 +392,8 @@ pg.base.activity_task_permanent = {
 			35180,
 			35181
 		}
-	},
-	[6015] = {
+	}
+	pg.base.activity_task_permanent[6015] = {
 		gametip = "Get an outfit for Bailey!",
 		banner_route = "permanent_beili",
 		gametip_extra = "Takes at least 7 days to complete",
@@ -415,8 +418,8 @@ pg.base.activity_task_permanent = {
 			35194,
 			35195
 		}
-	},
-	[6016] = {
+	}
+	pg.base.activity_task_permanent[6016] = {
 		gametip = "Clear them all to get a skin for Z23!",
 		banner_route = "permanent_z23",
 		gametip_extra = "Takes at least 10 days to complete",
@@ -447,8 +450,8 @@ pg.base.activity_task_permanent = {
 			35214,
 			35215
 		}
-	},
-	[6017] = {
+	}
+	pg.base.activity_task_permanent[6017] = {
 		gametip = "Get an outfit for Marblehead!",
 		banner_route = "permanent_mabuerheide",
 		gametip_extra = "Takes at least 7 days to complete",
@@ -458,8 +461,8 @@ pg.base.activity_task_permanent = {
 		id = 6017,
 		over_task_id = "",
 		eliminate_task_id = {}
-	},
-	[6018] = {
+	}
+	pg.base.activity_task_permanent[6018] = {
 		gametip = "Get the limited \"Choco Manjuu\" furniture!",
 		banner_route = "permanent_qiaokelijiu",
 		gametip_extra = "Takes at least 7 days to complete",
@@ -477,8 +480,8 @@ pg.base.activity_task_permanent = {
 			35221,
 			35222
 		}
-	},
-	[6019] = {
+	}
+	pg.base.activity_task_permanent[6019] = {
 		gametip = "Get an outfit for I-56!",
 		banner_route = "permanent_i56",
 		gametip_extra = "Takes at least 7 days to complete",
@@ -503,8 +506,8 @@ pg.base.activity_task_permanent = {
 			35235,
 			35236
 		}
-	},
-	[6020] = {
+	}
+	pg.base.activity_task_permanent[6020] = {
 		gametip = "Get an outfit for Michishio",
 		banner_route = "permanent_manchao",
 		gametip_extra = "Takes at least 7 days to complete",
@@ -529,8 +532,8 @@ pg.base.activity_task_permanent = {
 			35256,
 			35257
 		}
-	},
-	[6021] = {
+	}
+	pg.base.activity_task_permanent[6021] = {
 		gametip = "Get an outfit for Nagara!",
 		banner_route = "permanent_changliang",
 		gametip_extra = "Takes at least 7 days to complete",
@@ -555,8 +558,8 @@ pg.base.activity_task_permanent = {
 			35270,
 			35271
 		}
-	},
-	[6022] = {
+	}
+	pg.base.activity_task_permanent[6022] = {
 		gametip = "Get U-410!",
 		banner_route = "permanent_u410",
 		gametip_extra = "Takes at least 7 days to complete",
@@ -566,8 +569,8 @@ pg.base.activity_task_permanent = {
 		id = 6022,
 		over_task_id = "",
 		eliminate_task_id = {}
-	},
-	[6023] = {
+	}
+	pg.base.activity_task_permanent[6023] = {
 		gametip = "Get an outfit for Hatsuharu!",
 		banner_route = "permanent_chunyaodenghuo",
 		gametip_extra = "Takes at least 7 days to complete",
@@ -593,4 +596,4 @@ pg.base.activity_task_permanent = {
 			35285
 		}
 	}
-}
+end)()

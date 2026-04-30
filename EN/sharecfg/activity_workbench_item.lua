@@ -1,6 +1,28 @@
 pg = pg or {}
-pg.activity_workbench_item = {
-	{
+pg.activity_workbench_item = rawget(pg, "activity_workbench_item") or setmetatable({
+	__name = "activity_workbench_item"
+}, confNEO)
+pg.activity_workbench_item.all = {
+	1,
+	2,
+	3,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15
+}
+pg.base = pg.base or {}
+pg.base.activity_workbench_item = {}
+
+(function ()
+	pg.base.activity_workbench_item[1] = {
 		name = "Unprocessed Wood",
 		rarity = 2,
 		display = "Bits of wood you found around the island. Has many applications even in its unprocessed state.",
@@ -10,8 +32,8 @@ pg.activity_workbench_item = {
 			"Obtained Through: Adventure Map",
 			islandNodes = {}
 		}
-	},
-	{
+	}
+	pg.base.activity_workbench_item[2] = {
 		name = "Quality Wood",
 		rarity = 3,
 		display = "Superior wood that's been polished and pressure-impregnated for increased durability. Its great number of rings speaks of how old it is.",
@@ -21,8 +43,8 @@ pg.activity_workbench_item = {
 			"Obtained Through: Crafting",
 			recipeid = 1
 		}
-	},
-	{
+	}
+	pg.base.activity_workbench_item[3] = {
 		name = "Unprocessed Ore",
 		rarity = 3,
 		display = "Lumps of ore you found around the island. They contain gemstones, but they're full of impurities. With some refining, they could shine brilliantly one day.",
@@ -31,8 +53,8 @@ pg.activity_workbench_item = {
 		get_access = {
 			"Obtained Through: Expedition Squad"
 		}
-	},
-	[5] = {
+	}
+	pg.base.activity_workbench_item[5] = {
 		name = "Shiny Yellow Gemstone",
 		rarity = 4,
 		display = "A yellow gemstone that's been refined. It radiates a cool, gentle light, like the moon. It could fetch a decently good price.",
@@ -42,8 +64,8 @@ pg.activity_workbench_item = {
 			"Obtained Through: Crafting",
 			recipeid = 4
 		}
-	},
-	[6] = {
+	}
+	pg.base.activity_workbench_item[6] = {
 		name = "Shiny Red Gemstone",
 		rarity = 4,
 		display = "A red gemstone that's been refined. It radiates a warm, bright light, like the sun. It could fetch a decently good price.",
@@ -53,8 +75,8 @@ pg.activity_workbench_item = {
 			"Obtained Through: Crafting",
 			recipeid = 3
 		}
-	},
-	[7] = {
+	}
+	pg.base.activity_workbench_item[7] = {
 		name = "Colorful Bouquet",
 		rarity = 2,
 		display = "A bouquet of handpicked flowers. It has a pleasant, subtle fragrance. Can be given as a gift, or be used to spruce up the place.",
@@ -66,8 +88,8 @@ pg.activity_workbench_item = {
 				1056
 			}
 		}
-	},
-	[8] = {
+	}
+	pg.base.activity_workbench_item[8] = {
 		name = "Furniture Blueprints",
 		rarity = 2,
 		display = "The blueprints to some furniture. They list the size and installation method of every part in detail. Every intricate creation begins with a single piece.",
@@ -96,8 +118,8 @@ pg.activity_workbench_item = {
 				18771
 			}
 		}
-	},
-	[9] = {
+	}
+	pg.base.activity_workbench_item[9] = {
 		name = "Hot Springs Interior Decor",
 		rarity = 2,
 		display = "A set of stone flooring needed for the hot springs. It's made of natural stone and feels pleasant to walk on.",
@@ -107,8 +129,8 @@ pg.activity_workbench_item = {
 			"Obtained Through: Crafting",
 			recipeid = 5
 		}
-	},
-	[10] = {
+	}
+	pg.base.activity_workbench_item[10] = {
 		name = "Hot Springs Hydrant",
 		rarity = 3,
 		display = "A device that produces the water needed for the hot springs. The tap is made to look like it's made of bamboo and gives off a strong sense of wabi-sabi.",
@@ -118,8 +140,8 @@ pg.activity_workbench_item = {
 			"Obtained Through: Crafting",
 			recipeid = 6
 		}
-	},
-	[11] = {
+	}
+	pg.base.activity_workbench_item[11] = {
 		name = "Hot Springs Snacks",
 		rarity = 3,
 		display = "Something for the hot springs-goers to enjoy after their dip. Doughy dangos and cold milk hit different when you feel steaming hot.",
@@ -129,8 +151,8 @@ pg.activity_workbench_item = {
 			"Obtained Through: Crafting",
 			recipeid = 7
 		}
-	},
-	[12] = {
+	}
+	pg.base.activity_workbench_item[12] = {
 		name = "Hot Springs Exterior Decor",
 		rarity = 3,
 		display = "A set of bamboo railings. Well, it's not authentic bamboo, but it looks and smells just like the real deal and adds a unique sense of elegance to the place.",
@@ -140,8 +162,8 @@ pg.activity_workbench_item = {
 			"Obtained Through: Crafting",
 			recipeid = 8
 		}
-	},
-	[13] = {
+	}
+	pg.base.activity_workbench_item[13] = {
 		name = "Hot Springs Bathing Set",
 		rarity = 3,
 		display = "Everything you need for a visit to the hot springs; a bucket, towel, and a couple of other items to make your stay as pleasant as possible.",
@@ -151,8 +173,8 @@ pg.activity_workbench_item = {
 			"Obtained Through: Crafting",
 			recipeid = 9
 		}
-	},
-	[14] = {
+	}
+	pg.base.activity_workbench_item[14] = {
 		name = "Special Invitation",
 		rarity = 4,
 		display = "An invitation to the anniversary soirée. Give it to a shipgirl to get great rewards!",
@@ -162,8 +184,8 @@ pg.activity_workbench_item = {
 			"Obtained Through: Castle Clash",
 			minigame = 56
 		}
-	},
-	[15] = {
+	}
+	pg.base.activity_workbench_item[15] = {
 		name = "Soirée Gift",
 		rarity = 4,
 		display = "A commemorative item from the soirée. May the good times last forever.",
@@ -173,21 +195,5 @@ pg.activity_workbench_item = {
 			"Obtained Through: Castle Clash",
 			minigame = 56
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15
 	}
-}
+end)()

@@ -1,6 +1,16 @@
 pg = pg or {}
-pg.chapter_model_multistageboss = {
-	[1503] = {
+pg.chapter_model_multistageboss = rawget(pg, "chapter_model_multistageboss") or setmetatable({
+	__name = "chapter_model_multistageboss"
+}, confNEO)
+pg.chapter_model_multistageboss.all = {
+	1503,
+	1504
+}
+pg.base = pg.base or {}
+pg.base.chapter_model_multistageboss = {}
+
+(function ()
+	pg.base.chapter_model_multistageboss[1503] = {
 		boss_expedition_id = {
 			153013,
 			153014
@@ -12,8 +22,8 @@ pg.chapter_model_multistageboss = {
 		guild_buff = {
 			96
 		}
-	},
-	[1504] = {
+	}
+	pg.base.chapter_model_multistageboss[1504] = {
 		boss_expedition_id = {
 			154013,
 			154014,
@@ -27,9 +37,5 @@ pg.chapter_model_multistageboss = {
 		guild_buff = {
 			96
 		}
-	},
-	all = {
-		1503,
-		1504
 	}
-}
+end)()

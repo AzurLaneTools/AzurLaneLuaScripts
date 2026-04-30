@@ -1,6 +1,20 @@
 pg = pg or {}
-pg.activity_holiday_region = {
-	{
+pg.activity_holiday_region = rawget(pg, "activity_holiday_region") or setmetatable({
+	__name = "activity_holiday_region"
+}, confNEO)
+pg.activity_holiday_region.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6
+}
+pg.base = pg.base or {}
+pg.base.activity_holiday_region = {}
+
+(function ()
+	pg.base.activity_holiday_region[1] = {
 		id = 1,
 		task_id = 23721,
 		site_id = 1,
@@ -12,8 +26,8 @@ pg.activity_holiday_region = {
 			927.5,
 			-206.1
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_region[2] = {
 		id = 2,
 		task_id = 23722,
 		site_id = 2,
@@ -25,8 +39,8 @@ pg.activity_holiday_region = {
 			-276.4,
 			319.1
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_region[3] = {
 		id = 3,
 		task_id = 23723,
 		site_id = 3,
@@ -38,8 +52,8 @@ pg.activity_holiday_region = {
 			-80.2,
 			-253.2
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_region[4] = {
 		id = 4,
 		task_id = 23724,
 		site_id = 4,
@@ -51,8 +65,8 @@ pg.activity_holiday_region = {
 			200.21,
 			263.2
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_region[5] = {
 		id = 5,
 		task_id = 23726,
 		site_id = 5,
@@ -64,8 +78,8 @@ pg.activity_holiday_region = {
 			-861.04,
 			526.7
 		}
-	},
-	{
+	}
+	pg.base.activity_holiday_region[6] = {
 		id = 6,
 		task_id = 23725,
 		site_id = 6,
@@ -77,13 +91,5 @@ pg.activity_holiday_region = {
 			972.9,
 			713
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6
 	}
-}
+end)()

@@ -1,6 +1,34 @@
 pg = pg or {}
-pg.world_stage_template = {
-	{
+pg.world_stage_template = rawget(pg, "world_stage_template") or setmetatable({
+	__name = "world_stage_template"
+}, confNEO)
+pg.world_stage_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20
+}
+pg.base = pg.base or {}
+pg.base.world_stage_template = {}
+
+(function ()
+	pg.base.world_stage_template[1] = {
 		fleet_num = 2,
 		stage_key = 0,
 		id = 1,
@@ -9,8 +37,8 @@ pg.world_stage_template = {
 			{},
 			{}
 		}
-	},
-	{
+	}
+	pg.base.world_stage_template[2] = {
 		fleet_num = 0,
 		stage_key = 3,
 		id = 2,
@@ -22,8 +50,8 @@ pg.world_stage_template = {
 			{},
 			{}
 		}
-	},
-	{
+	}
+	pg.base.world_stage_template[3] = {
 		fleet_num = 0,
 		stage_key = 10,
 		id = 3,
@@ -35,8 +63,8 @@ pg.world_stage_template = {
 			{},
 			{}
 		}
-	},
-	{
+	}
+	pg.base.world_stage_template[4] = {
 		fleet_num = 0,
 		stage_key = 13,
 		id = 4,
@@ -48,8 +76,8 @@ pg.world_stage_template = {
 			{},
 			{}
 		}
-	},
-	{
+	}
+	pg.base.world_stage_template[5] = {
 		fleet_num = 0,
 		stage_key = 13,
 		id = 5,
@@ -58,8 +86,8 @@ pg.world_stage_template = {
 			{},
 			{}
 		}
-	},
-	{
+	}
+	pg.base.world_stage_template[6] = {
 		fleet_num = 0,
 		stage_key = 5,
 		id = 6,
@@ -71,8 +99,8 @@ pg.world_stage_template = {
 			{},
 			{}
 		}
-	},
-	{
+	}
+	pg.base.world_stage_template[7] = {
 		fleet_num = 0,
 		stage_key = 20,
 		id = 7,
@@ -84,8 +112,8 @@ pg.world_stage_template = {
 			{},
 			{}
 		}
-	},
-	{
+	}
+	pg.base.world_stage_template[8] = {
 		fleet_num = 4,
 		stage_key = 30,
 		id = 8,
@@ -94,8 +122,8 @@ pg.world_stage_template = {
 			{},
 			{}
 		}
-	},
-	{
+	}
+	pg.base.world_stage_template[9] = {
 		fleet_num = 0,
 		stage_key = 55,
 		id = 9,
@@ -107,8 +135,8 @@ pg.world_stage_template = {
 			{},
 			{}
 		}
-	},
-	{
+	}
+	pg.base.world_stage_template[10] = {
 		fleet_num = 0,
 		stage_key = 23,
 		id = 10,
@@ -120,8 +148,8 @@ pg.world_stage_template = {
 			{},
 			{}
 		}
-	},
-	{
+	}
+	pg.base.world_stage_template[11] = {
 		fleet_num = 0,
 		stage_key = 23,
 		id = 11,
@@ -133,8 +161,8 @@ pg.world_stage_template = {
 			{},
 			{}
 		}
-	},
-	{
+	}
+	pg.base.world_stage_template[12] = {
 		fleet_num = 0,
 		stage_key = 100,
 		id = 12,
@@ -146,8 +174,8 @@ pg.world_stage_template = {
 			{},
 			{}
 		}
-	},
-	{
+	}
+	pg.base.world_stage_template[13] = {
 		fleet_num = 0,
 		stage_key = 100,
 		id = 13,
@@ -159,8 +187,8 @@ pg.world_stage_template = {
 			{},
 			{}
 		}
-	},
-	{
+	}
+	pg.base.world_stage_template[14] = {
 		fleet_num = 0,
 		stage_key = 100,
 		id = 14,
@@ -172,8 +200,8 @@ pg.world_stage_template = {
 			{},
 			{}
 		}
-	},
-	{
+	}
+	pg.base.world_stage_template[15] = {
 		fleet_num = 0,
 		stage_key = 100,
 		id = 15,
@@ -185,8 +213,8 @@ pg.world_stage_template = {
 			{},
 			{}
 		}
-	},
-	{
+	}
+	pg.base.world_stage_template[16] = {
 		fleet_num = 0,
 		stage_key = 20,
 		id = 16,
@@ -198,8 +226,8 @@ pg.world_stage_template = {
 			{},
 			{}
 		}
-	},
-	{
+	}
+	pg.base.world_stage_template[17] = {
 		fleet_num = 0,
 		stage_key = 9999,
 		id = 17,
@@ -211,8 +239,8 @@ pg.world_stage_template = {
 			{},
 			{}
 		}
-	},
-	{
+	}
+	pg.base.world_stage_template[18] = {
 		fleet_num = 0,
 		stage_key = 9999,
 		id = 18,
@@ -224,8 +252,8 @@ pg.world_stage_template = {
 			{},
 			{}
 		}
-	},
-	{
+	}
+	pg.base.world_stage_template[19] = {
 		fleet_num = 0,
 		stage_key = 100,
 		id = 19,
@@ -237,8 +265,8 @@ pg.world_stage_template = {
 			{},
 			{}
 		}
-	},
-	{
+	}
+	pg.base.world_stage_template[20] = {
 		fleet_num = 0,
 		stage_key = 100,
 		id = 20,
@@ -250,27 +278,5 @@ pg.world_stage_template = {
 			{},
 			{}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20
 	}
-}
+end)()

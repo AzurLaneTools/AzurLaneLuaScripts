@@ -1,6 +1,155 @@
 pg = pg or {}
-pg.child_site_option = {
-	[1102] = {
+pg.child_site_option = rawget(pg, "child_site_option") or setmetatable({
+	__name = "child_site_option"
+}, confNEO)
+pg.child_site_option.all = {
+	1102,
+	1103,
+	11032,
+	11033,
+	1104,
+	1105,
+	1106,
+	1107,
+	1108,
+	1109,
+	1110,
+	1111,
+	11112,
+	11113,
+	1112,
+	11122,
+	11123,
+	1201,
+	1202,
+	1203,
+	1204,
+	12042,
+	12043,
+	1205,
+	1206,
+	1207,
+	1211,
+	12112,
+	12113,
+	1212,
+	12122,
+	12123,
+	1213,
+	12132,
+	12133,
+	1302,
+	13022,
+	13023,
+	1303,
+	1304,
+	13042,
+	13043,
+	1305,
+	1306,
+	1307,
+	1308,
+	1309,
+	1310,
+	1321,
+	1311,
+	1312,
+	1313,
+	1314,
+	1315,
+	1316,
+	1317,
+	1318,
+	1319,
+	1320,
+	13112,
+	13122,
+	13132,
+	13142,
+	13152,
+	13162,
+	13172,
+	13182,
+	13192,
+	13202,
+	1401,
+	1402,
+	1403,
+	14032,
+	14033,
+	1404,
+	1405,
+	1406,
+	1411,
+	1412,
+	1413,
+	1414,
+	1415,
+	1416,
+	1417,
+	1418,
+	1419,
+	1420,
+	14112,
+	14122,
+	14132,
+	14142,
+	14152,
+	14162,
+	14172,
+	14182,
+	14192,
+	14202,
+	1501,
+	1502,
+	1503,
+	1504,
+	1601,
+	16012,
+	16013,
+	1602,
+	16022,
+	16023,
+	1603,
+	1604,
+	1605,
+	1606,
+	1607,
+	1608,
+	1609,
+	1701,
+	17012,
+	17013,
+	1702,
+	17022,
+	17023,
+	1705,
+	17052,
+	17053,
+	1706,
+	1707,
+	1708,
+	1709,
+	1710,
+	1711,
+	1712,
+	1713,
+	1714,
+	1715,
+	1716,
+	1717,
+	1718,
+	1719,
+	1720,
+	1721,
+	1722,
+	1723
+}
+pg.base = pg.base or {}
+pg.base.child_site_option = {}
+
+(function ()
+	pg.base.child_site_option[1102] = {
 		name = "Diner",
 		type = 3,
 		label = "",
@@ -19,8 +168,8 @@ pg.child_site_option = {
 		time_limit = {},
 		count_limit = {},
 		polarid_list = {}
-	},
-	[1103] = {
+	}
+	pg.base.child_site_option[1103] = {
 		name = "Wander Around",
 		type = 2,
 		label = "",
@@ -72,8 +221,8 @@ pg.child_site_option = {
 			121,
 			122
 		}
-	},
-	[11032] = {
+	}
+	pg.base.child_site_option[11032] = {
 		name = "Wander Around",
 		type = 2,
 		label = "",
@@ -125,8 +274,8 @@ pg.child_site_option = {
 			121,
 			122
 		}
-	},
-	[11033] = {
+	}
+	pg.base.child_site_option[11033] = {
 		name = "Wander Around",
 		type = 2,
 		label = "",
@@ -178,8 +327,8 @@ pg.child_site_option = {
 			121,
 			122
 		}
-	},
-	[1104] = {
+	}
+	pg.base.child_site_option[1104] = {
 		name = "Gastronomy District Food Fiesta",
 		type = 2,
 		label = "",
@@ -222,8 +371,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1105] = {
+	}
+	pg.base.child_site_option[1105] = {
 		name = "A cooking competition",
 		type = 2,
 		label = "",
@@ -268,8 +417,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1106] = {
+	}
+	pg.base.child_site_option[1106] = {
 		name = "A cooking competition",
 		type = 2,
 		label = "",
@@ -314,8 +463,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1107] = {
+	}
+	pg.base.child_site_option[1107] = {
 		name = "A cooking competition",
 		type = 2,
 		label = "",
@@ -360,8 +509,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1108] = {
+	}
+	pg.base.child_site_option[1108] = {
 		name = "Gastronomy District Food Fiesta",
 		type = 2,
 		label = "",
@@ -404,8 +553,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1109] = {
+	}
+	pg.base.child_site_option[1109] = {
 		name = "Gastronomy District Food Fiesta",
 		type = 2,
 		label = "",
@@ -448,8 +597,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1110] = {
+	}
+	pg.base.child_site_option[1110] = {
 		name = "Gastronomy District Food Fiesta",
 		type = 2,
 		label = "",
@@ -492,8 +641,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1111] = {
+	}
+	pg.base.child_site_option[1111] = {
 		name = "Order",
 		type = 1,
 		label = "",
@@ -521,8 +670,8 @@ pg.child_site_option = {
 		},
 		count_limit = {},
 		polarid_list = {}
-	},
-	[11112] = {
+	}
+	pg.base.child_site_option[11112] = {
 		name = "Order",
 		type = 1,
 		label = "",
@@ -550,8 +699,8 @@ pg.child_site_option = {
 		},
 		count_limit = {},
 		polarid_list = {}
-	},
-	[11113] = {
+	}
+	pg.base.child_site_option[11113] = {
 		name = "Order",
 		type = 1,
 		label = "",
@@ -579,8 +728,8 @@ pg.child_site_option = {
 		},
 		count_limit = {},
 		polarid_list = {}
-	},
-	[1112] = {
+	}
+	pg.base.child_site_option[1112] = {
 		name = "Work",
 		type = 2,
 		label = "",
@@ -628,8 +777,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[11122] = {
+	}
+	pg.base.child_site_option[11122] = {
 		name = "Work",
 		type = 2,
 		label = "",
@@ -677,8 +826,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[11123] = {
+	}
+	pg.base.child_site_option[11123] = {
 		name = "Work",
 		type = 2,
 		label = "",
@@ -726,8 +875,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1201] = {
+	}
+	pg.base.child_site_option[1201] = {
 		name = "Hardware Store",
 		type = 1,
 		label = "",
@@ -746,8 +895,8 @@ pg.child_site_option = {
 		time_limit = {},
 		count_limit = {},
 		polarid_list = {}
-	},
-	[1202] = {
+	}
+	pg.base.child_site_option[1202] = {
 		name = "用不到",
 		type = 2,
 		label = "",
@@ -780,8 +929,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1203] = {
+	}
+	pg.base.child_site_option[1203] = {
 		name = "Tranquil Summit",
 		type = 3,
 		label = "",
@@ -800,8 +949,8 @@ pg.child_site_option = {
 		time_limit = {},
 		count_limit = {},
 		polarid_list = {}
-	},
-	[1204] = {
+	}
+	pg.base.child_site_option[1204] = {
 		name = "Wander Around",
 		type = 2,
 		label = "",
@@ -852,8 +1001,8 @@ pg.child_site_option = {
 			132,
 			164
 		}
-	},
-	[12042] = {
+	}
+	pg.base.child_site_option[12042] = {
 		name = "Wander Around",
 		type = 2,
 		label = "",
@@ -904,8 +1053,8 @@ pg.child_site_option = {
 			132,
 			164
 		}
-	},
-	[12043] = {
+	}
+	pg.base.child_site_option[12043] = {
 		name = "Wander Around",
 		type = 2,
 		label = "",
@@ -956,8 +1105,8 @@ pg.child_site_option = {
 			132,
 			164
 		}
-	},
-	[1205] = {
+	}
+	pg.base.child_site_option[1205] = {
 		name = "The 1st Angling Competition",
 		type = 2,
 		label = "",
@@ -1002,8 +1151,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1206] = {
+	}
+	pg.base.child_site_option[1206] = {
 		name = "The 2nd Angling Competition",
 		type = 2,
 		label = "",
@@ -1048,8 +1197,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1207] = {
+	}
+	pg.base.child_site_option[1207] = {
 		name = "The 3rd Angling Competition",
 		type = 2,
 		label = "",
@@ -1094,8 +1243,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1211] = {
+	}
+	pg.base.child_site_option[1211] = {
 		name = "Sketch",
 		type = 2,
 		label = "",
@@ -1145,8 +1294,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[12112] = {
+	}
+	pg.base.child_site_option[12112] = {
 		name = "Sketch",
 		type = 2,
 		label = "",
@@ -1196,8 +1345,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[12113] = {
+	}
+	pg.base.child_site_option[12113] = {
 		name = "Sketch",
 		type = 2,
 		label = "",
@@ -1247,8 +1396,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1212] = {
+	}
+	pg.base.child_site_option[1212] = {
 		name = "Go Camping",
 		type = 2,
 		label = "",
@@ -1291,8 +1440,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[12122] = {
+	}
+	pg.base.child_site_option[12122] = {
 		name = "Go Camping",
 		type = 2,
 		label = "",
@@ -1335,8 +1484,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[12123] = {
+	}
+	pg.base.child_site_option[12123] = {
 		name = "Go Camping",
 		type = 2,
 		label = "",
@@ -1379,8 +1528,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1213] = {
+	}
+	pg.base.child_site_option[1213] = {
 		name = "Go Fishing",
 		type = 2,
 		label = "",
@@ -1428,8 +1577,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[12132] = {
+	}
+	pg.base.child_site_option[12132] = {
 		name = "Go Fishing",
 		type = 2,
 		label = "",
@@ -1477,8 +1626,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[12133] = {
+	}
+	pg.base.child_site_option[12133] = {
 		name = "Go Fishing",
 		type = 2,
 		label = "",
@@ -1526,8 +1675,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1302] = {
+	}
+	pg.base.child_site_option[1302] = {
 		name = "Trendy Market",
 		type = 1,
 		label = "",
@@ -1555,8 +1704,8 @@ pg.child_site_option = {
 		},
 		count_limit = {},
 		polarid_list = {}
-	},
-	[13022] = {
+	}
+	pg.base.child_site_option[13022] = {
 		name = "Trendy Market",
 		type = 1,
 		label = "",
@@ -1584,8 +1733,8 @@ pg.child_site_option = {
 		},
 		count_limit = {},
 		polarid_list = {}
-	},
-	[13023] = {
+	}
+	pg.base.child_site_option[13023] = {
 		name = "Trendy Market",
 		type = 1,
 		label = "",
@@ -1613,8 +1762,8 @@ pg.child_site_option = {
 		},
 		count_limit = {},
 		polarid_list = {}
-	},
-	[1303] = {
+	}
+	pg.base.child_site_option[1303] = {
 		name = "Photo Studio",
 		type = 3,
 		label = "",
@@ -1633,8 +1782,8 @@ pg.child_site_option = {
 		time_limit = {},
 		count_limit = {},
 		polarid_list = {}
-	},
-	[1304] = {
+	}
+	pg.base.child_site_option[1304] = {
 		name = "Wander Around",
 		type = 2,
 		label = "",
@@ -1685,8 +1834,8 @@ pg.child_site_option = {
 			161,
 			166
 		}
-	},
-	[13042] = {
+	}
+	pg.base.child_site_option[13042] = {
 		name = "Wander Around",
 		type = 2,
 		label = "",
@@ -1737,8 +1886,8 @@ pg.child_site_option = {
 			161,
 			166
 		}
-	},
-	[13043] = {
+	}
+	pg.base.child_site_option[13043] = {
 		name = "Wander Around",
 		type = 2,
 		label = "",
@@ -1789,8 +1938,8 @@ pg.child_site_option = {
 			161,
 			166
 		}
-	},
-	[1305] = {
+	}
+	pg.base.child_site_option[1305] = {
 		name = "The 1st Photography Contest",
 		type = 2,
 		label = "",
@@ -1835,8 +1984,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1306] = {
+	}
+	pg.base.child_site_option[1306] = {
 		name = "Commercial Area Street Performance",
 		type = 2,
 		label = "",
@@ -1884,8 +2033,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1307] = {
+	}
+	pg.base.child_site_option[1307] = {
 		name = "The 2nd Photography Contest",
 		type = 2,
 		label = "",
@@ -1930,8 +2079,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1308] = {
+	}
+	pg.base.child_site_option[1308] = {
 		name = "The 3rd Photography Contest",
 		type = 2,
 		label = "",
@@ -1976,8 +2125,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1309] = {
+	}
+	pg.base.child_site_option[1309] = {
 		name = "Commercial Area Street Performance",
 		type = 2,
 		label = "",
@@ -2025,8 +2174,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1310] = {
+	}
+	pg.base.child_site_option[1310] = {
 		name = "Commercial Area Street Performance",
 		type = 2,
 		label = "",
@@ -2074,8 +2223,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1321] = {
+	}
+	pg.base.child_site_option[1321] = {
 		name = "Commercial Area Street Performance",
 		type = 2,
 		label = "",
@@ -2123,8 +2272,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1311] = {
+	}
+	pg.base.child_site_option[1311] = {
 		name = "Everyday Life Photo",
 		type = 2,
 		label = "",
@@ -2177,8 +2326,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1312] = {
+	}
+	pg.base.child_site_option[1312] = {
 		name = "Sports Photo",
 		type = 2,
 		label = "",
@@ -2231,8 +2380,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1313] = {
+	}
+	pg.base.child_site_option[1313] = {
 		name = "TB in the Spotlight Photo",
 		type = 2,
 		label = "",
@@ -2285,8 +2434,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1314] = {
+	}
+	pg.base.child_site_option[1314] = {
 		name = "Youth Life Photo",
 		type = 2,
 		label = "",
@@ -2334,8 +2483,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1315] = {
+	}
+	pg.base.child_site_option[1315] = {
 		name = "Pastry Shop-Themed Photo",
 		type = 2,
 		label = "",
@@ -2383,8 +2532,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1316] = {
+	}
+	pg.base.child_site_option[1316] = {
 		name = "Cherry Blossom-Themed Photo",
 		type = 2,
 		label = "",
@@ -2432,8 +2581,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1317] = {
+	}
+	pg.base.child_site_option[1317] = {
 		name = "Old Castle-Themed Photo",
 		type = 2,
 		label = "",
@@ -2481,8 +2630,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1318] = {
+	}
+	pg.base.child_site_option[1318] = {
 		name = "Vacation-Themed Photo",
 		type = 2,
 		label = "",
@@ -2530,8 +2679,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1319] = {
+	}
+	pg.base.child_site_option[1319] = {
 		name = "School-Themed Photo",
 		type = 2,
 		label = "",
@@ -2579,8 +2728,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1320] = {
+	}
+	pg.base.child_site_option[1320] = {
 		name = "Eastern-Themed Photo",
 		type = 2,
 		label = "",
@@ -2628,8 +2777,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[13112] = {
+	}
+	pg.base.child_site_option[13112] = {
 		name = "Everyday Life Photo",
 		type = 2,
 		label = "",
@@ -2682,8 +2831,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[13122] = {
+	}
+	pg.base.child_site_option[13122] = {
 		name = "Sports Photo",
 		type = 2,
 		label = "",
@@ -2736,8 +2885,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[13132] = {
+	}
+	pg.base.child_site_option[13132] = {
 		name = "TB in the Spotlight Photo",
 		type = 2,
 		label = "",
@@ -2790,8 +2939,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[13142] = {
+	}
+	pg.base.child_site_option[13142] = {
 		name = "Youth Life Photo",
 		type = 2,
 		label = "",
@@ -2839,8 +2988,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[13152] = {
+	}
+	pg.base.child_site_option[13152] = {
 		name = "Pastry Shop-Themed Photo",
 		type = 2,
 		label = "",
@@ -2888,8 +3037,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[13162] = {
+	}
+	pg.base.child_site_option[13162] = {
 		name = "Cherry Blossom-Themed Photo",
 		type = 2,
 		label = "",
@@ -2937,8 +3086,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[13172] = {
+	}
+	pg.base.child_site_option[13172] = {
 		name = "Old Castle-Themed Photo",
 		type = 2,
 		label = "",
@@ -2986,8 +3135,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[13182] = {
+	}
+	pg.base.child_site_option[13182] = {
 		name = "Vacation-Themed Photo",
 		type = 2,
 		label = "",
@@ -3035,8 +3184,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[13192] = {
+	}
+	pg.base.child_site_option[13192] = {
 		name = "School-Themed Photo",
 		type = 2,
 		label = "",
@@ -3084,8 +3233,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[13202] = {
+	}
+	pg.base.child_site_option[13202] = {
 		name = "Eastern-Themed Photo",
 		type = 2,
 		label = "",
@@ -3133,8 +3282,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1401] = {
+	}
+	pg.base.child_site_option[1401] = {
 		name = "Souvenir Shop",
 		type = 1,
 		label = "",
@@ -3162,8 +3311,8 @@ pg.child_site_option = {
 		},
 		count_limit = {},
 		polarid_list = {}
-	},
-	[1402] = {
+	}
+	pg.base.child_site_option[1402] = {
 		name = "Stellar Stage",
 		type = 3,
 		label = "",
@@ -3182,8 +3331,8 @@ pg.child_site_option = {
 		time_limit = {},
 		count_limit = {},
 		polarid_list = {}
-	},
-	[1403] = {
+	}
+	pg.base.child_site_option[1403] = {
 		name = "Wander Around",
 		type = 2,
 		label = "",
@@ -3233,8 +3382,8 @@ pg.child_site_option = {
 			159,
 			163
 		}
-	},
-	[14032] = {
+	}
+	pg.base.child_site_option[14032] = {
 		name = "Wander Around",
 		type = 2,
 		label = "",
@@ -3284,8 +3433,8 @@ pg.child_site_option = {
 			159,
 			163
 		}
-	},
-	[14033] = {
+	}
+	pg.base.child_site_option[14033] = {
 		name = "Wander Around",
 		type = 2,
 		label = "",
@@ -3335,8 +3484,8 @@ pg.child_site_option = {
 			159,
 			163
 		}
-	},
-	[1404] = {
+	}
+	pg.base.child_site_option[1404] = {
 		name = "The 1st Star of Tomorrow Awards",
 		type = 2,
 		label = "",
@@ -3381,8 +3530,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1405] = {
+	}
+	pg.base.child_site_option[1405] = {
 		name = "The 2nd Star of Tomorrow Awards",
 		type = 2,
 		label = "",
@@ -3427,8 +3576,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1406] = {
+	}
+	pg.base.child_site_option[1406] = {
 		name = "The 3rd Star of Tomorrow Awards",
 		type = 2,
 		label = "",
@@ -3473,8 +3622,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1411] = {
+	}
+	pg.base.child_site_option[1411] = {
 		name = "Love and Duty",
 		type = 2,
 		label = "",
@@ -3532,8 +3681,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1412] = {
+	}
+	pg.base.child_site_option[1412] = {
 		name = "A Thousand Answers",
 		type = 2,
 		label = "",
@@ -3591,8 +3740,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1413] = {
+	}
+	pg.base.child_site_option[1413] = {
 		name = "A Stolen Loaf of Bread",
 		type = 2,
 		label = "",
@@ -3650,8 +3799,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1414] = {
+	}
+	pg.base.child_site_option[1414] = {
 		name = "Spirited Away, featuring the Youkai Troupe",
 		type = 2,
 		label = "",
@@ -3704,8 +3853,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1415] = {
+	}
+	pg.base.child_site_option[1415] = {
 		name = "When the Cherry Blossoms Bloom",
 		type = 2,
 		label = "",
@@ -3758,8 +3907,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1416] = {
+	}
+	pg.base.child_site_option[1416] = {
 		name = "A Bump in the Rainy Night",
 		type = 2,
 		label = "",
@@ -3812,8 +3961,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1417] = {
+	}
+	pg.base.child_site_option[1417] = {
 		name = "Amazing After-Class Adventures",
 		type = 2,
 		label = "",
@@ -3866,8 +4015,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1418] = {
+	}
+	pg.base.child_site_option[1418] = {
 		name = "The Pirate's Secret Shipyard",
 		type = 2,
 		label = "",
@@ -3920,8 +4069,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1419] = {
+	}
+	pg.base.child_site_option[1419] = {
 		name = "The Smallest Summer Plan",
 		type = 2,
 		label = "",
@@ -3974,8 +4123,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1420] = {
+	}
+	pg.base.child_site_option[1420] = {
 		name = "Feast of Blood",
 		type = 2,
 		label = "",
@@ -4028,8 +4177,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[14112] = {
+	}
+	pg.base.child_site_option[14112] = {
 		name = "Love and Duty",
 		type = 2,
 		label = "",
@@ -4082,8 +4231,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[14122] = {
+	}
+	pg.base.child_site_option[14122] = {
 		name = "A Thousand Answers",
 		type = 2,
 		label = "",
@@ -4136,8 +4285,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[14132] = {
+	}
+	pg.base.child_site_option[14132] = {
 		name = "A Thousand Answers",
 		type = 2,
 		label = "",
@@ -4190,8 +4339,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[14142] = {
+	}
+	pg.base.child_site_option[14142] = {
 		name = "Spirited Away, featuring the Youkai Troupe",
 		type = 2,
 		label = "",
@@ -4244,8 +4393,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[14152] = {
+	}
+	pg.base.child_site_option[14152] = {
 		name = "When the Cherry Blossoms Bloom",
 		type = 2,
 		label = "",
@@ -4298,8 +4447,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[14162] = {
+	}
+	pg.base.child_site_option[14162] = {
 		name = "A Bump in the Rainy Night",
 		type = 2,
 		label = "",
@@ -4352,8 +4501,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[14172] = {
+	}
+	pg.base.child_site_option[14172] = {
 		name = "Amazing After-Class Adventures",
 		type = 2,
 		label = "",
@@ -4406,8 +4555,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[14182] = {
+	}
+	pg.base.child_site_option[14182] = {
 		name = "The Pirate's Secret Shipyard",
 		type = 2,
 		label = "",
@@ -4460,8 +4609,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[14192] = {
+	}
+	pg.base.child_site_option[14192] = {
 		name = "The Smallest Summer Plan",
 		type = 2,
 		label = "",
@@ -4514,8 +4663,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[14202] = {
+	}
+	pg.base.child_site_option[14202] = {
 		name = "Feast of Blood",
 		type = 2,
 		label = "",
@@ -4568,8 +4717,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1501] = {
+	}
+	pg.base.child_site_option[1501] = {
 		name = "Aquarium",
 		type = 2,
 		label = "",
@@ -4633,8 +4782,8 @@ pg.child_site_option = {
 			170,
 			109
 		}
-	},
-	[1502] = {
+	}
+	pg.base.child_site_option[1502] = {
 		name = "Amusement Park",
 		type = 2,
 		label = "",
@@ -4697,8 +4846,8 @@ pg.child_site_option = {
 			170,
 			109
 		}
-	},
-	[1503] = {
+	}
+	pg.base.child_site_option[1503] = {
 		name = "World of Wonder",
 		type = 2,
 		label = "",
@@ -4761,8 +4910,10 @@ pg.child_site_option = {
 			170,
 			109
 		}
-	},
-	[1504] = {
+	}
+end)()
+(function ()
+	pg.base.child_site_option[1504] = {
 		name = "World of Wonder",
 		type = 2,
 		label = "",
@@ -4816,8 +4967,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1601] = {
+	}
+	pg.base.child_site_option[1601] = {
 		name = "Exercise",
 		type = 2,
 		label = "",
@@ -4862,8 +5013,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[16012] = {
+	}
+	pg.base.child_site_option[16012] = {
 		name = "Exercise",
 		type = 2,
 		label = "",
@@ -4908,8 +5059,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[16013] = {
+	}
+	pg.base.child_site_option[16013] = {
 		name = "Exercise",
 		type = 2,
 		label = "",
@@ -4954,8 +5105,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1602] = {
+	}
+	pg.base.child_site_option[1602] = {
 		name = "Wander Around",
 		type = 2,
 		label = "",
@@ -5006,8 +5157,8 @@ pg.child_site_option = {
 			157,
 			158
 		}
-	},
-	[16022] = {
+	}
+	pg.base.child_site_option[16022] = {
 		name = "Wander Around",
 		type = 2,
 		label = "",
@@ -5058,8 +5209,8 @@ pg.child_site_option = {
 			157,
 			158
 		}
-	},
-	[16023] = {
+	}
+	pg.base.child_site_option[16023] = {
 		name = "Wander Around",
 		type = 2,
 		label = "",
@@ -5110,8 +5261,8 @@ pg.child_site_option = {
 			157,
 			158
 		}
-	},
-	[1603] = {
+	}
+	pg.base.child_site_option[1603] = {
 		name = "The 1st Sports Competition",
 		type = 2,
 		label = "",
@@ -5156,8 +5307,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1604] = {
+	}
+	pg.base.child_site_option[1604] = {
 		name = "The 2nd Sports Competition",
 		type = 2,
 		label = "",
@@ -5202,8 +5353,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1605] = {
+	}
+	pg.base.child_site_option[1605] = {
 		name = "The 3rd Sports Competition",
 		type = 2,
 		label = "",
@@ -5248,8 +5399,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1606] = {
+	}
+	pg.base.child_site_option[1606] = {
 		name = "Soccer Match",
 		type = 2,
 		label = "",
@@ -5297,8 +5448,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1607] = {
+	}
+	pg.base.child_site_option[1607] = {
 		name = "Soccer Match",
 		type = 2,
 		label = "",
@@ -5346,8 +5497,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1608] = {
+	}
+	pg.base.child_site_option[1608] = {
 		name = "Soccer Match",
 		type = 2,
 		label = "",
@@ -5395,8 +5546,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1609] = {
+	}
+	pg.base.child_site_option[1609] = {
 		name = "Soccer Match",
 		type = 2,
 		label = "",
@@ -5444,8 +5595,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1701] = {
+	}
+	pg.base.child_site_option[1701] = {
 		name = "Library",
 		type = 2,
 		label = "",
@@ -5488,8 +5639,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[17012] = {
+	}
+	pg.base.child_site_option[17012] = {
 		name = "Library",
 		type = 2,
 		label = "",
@@ -5532,8 +5683,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[17013] = {
+	}
+	pg.base.child_site_option[17013] = {
 		name = "Library",
 		type = 2,
 		label = "",
@@ -5576,8 +5727,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1702] = {
+	}
+	pg.base.child_site_option[1702] = {
 		name = "Basic Performance",
 		type = 2,
 		label = "",
@@ -5625,8 +5776,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[17022] = {
+	}
+	pg.base.child_site_option[17022] = {
 		name = "Basic Performance",
 		type = 2,
 		label = "",
@@ -5674,8 +5825,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[17023] = {
+	}
+	pg.base.child_site_option[17023] = {
 		name = "Basic Performance",
 		type = 2,
 		label = "",
@@ -5723,8 +5874,8 @@ pg.child_site_option = {
 			1
 		},
 		polarid_list = {}
-	},
-	[1705] = {
+	}
+	pg.base.child_site_option[1705] = {
 		name = "Wander Around",
 		type = 2,
 		label = "",
@@ -5777,8 +5928,8 @@ pg.child_site_option = {
 			160,
 			162
 		}
-	},
-	[17052] = {
+	}
+	pg.base.child_site_option[17052] = {
 		name = "Wander Around",
 		type = 2,
 		label = "",
@@ -5833,8 +5984,8 @@ pg.child_site_option = {
 			160,
 			162
 		}
-	},
-	[17053] = {
+	}
+	pg.base.child_site_option[17053] = {
 		name = "Wander Around",
 		type = 2,
 		label = "",
@@ -5887,8 +6038,8 @@ pg.child_site_option = {
 			160,
 			162
 		}
-	},
-	[1706] = {
+	}
+	pg.base.child_site_option[1706] = {
 		name = "The 1st Open Submissions Literary Award",
 		type = 2,
 		label = "",
@@ -5933,8 +6084,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1707] = {
+	}
+	pg.base.child_site_option[1707] = {
 		name = "The 1st Art Contest",
 		type = 2,
 		label = "",
@@ -5979,8 +6130,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1708] = {
+	}
+	pg.base.child_site_option[1708] = {
 		name = "The 1st Singing Competition",
 		type = 2,
 		label = "",
@@ -6025,8 +6176,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1709] = {
+	}
+	pg.base.child_site_option[1709] = {
 		name = "Writing Course at the Library",
 		type = 2,
 		label = "",
@@ -6074,8 +6225,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1710] = {
+	}
+	pg.base.child_site_option[1710] = {
 		name = "Drawing Course at the Art Class",
 		type = 2,
 		label = "",
@@ -6123,8 +6274,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1711] = {
+	}
+	pg.base.child_site_option[1711] = {
 		name = "Singing Course at the Music Class",
 		type = 2,
 		label = "",
@@ -6172,8 +6323,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1712] = {
+	}
+	pg.base.child_site_option[1712] = {
 		name = "The 2nd Open Submissions Literary Award",
 		type = 2,
 		label = "",
@@ -6218,8 +6369,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1713] = {
+	}
+	pg.base.child_site_option[1713] = {
 		name = "The 3rd Open Submissions Literary Award",
 		type = 2,
 		label = "",
@@ -6264,8 +6415,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1714] = {
+	}
+	pg.base.child_site_option[1714] = {
 		name = "The 2nd Art Contest",
 		type = 2,
 		label = "",
@@ -6310,8 +6461,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1715] = {
+	}
+	pg.base.child_site_option[1715] = {
 		name = "The 3rd Art Contest",
 		type = 2,
 		label = "",
@@ -6356,8 +6507,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1716] = {
+	}
+	pg.base.child_site_option[1716] = {
 		name = "The 2nd Singing Competition",
 		type = 2,
 		label = "",
@@ -6402,8 +6553,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1717] = {
+	}
+	pg.base.child_site_option[1717] = {
 		name = "The 3rd Singing Competition",
 		type = 2,
 		label = "",
@@ -6448,8 +6599,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1718] = {
+	}
+	pg.base.child_site_option[1718] = {
 		name = "Writing Course at the Library",
 		type = 2,
 		label = "",
@@ -6497,8 +6648,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1719] = {
+	}
+	pg.base.child_site_option[1719] = {
 		name = "Drawing Course at the Art Class",
 		type = 2,
 		label = "",
@@ -6546,8 +6697,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1720] = {
+	}
+	pg.base.child_site_option[1720] = {
 		name = "Singing Course at the Music Class",
 		type = 2,
 		label = "",
@@ -6595,8 +6746,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1721] = {
+	}
+	pg.base.child_site_option[1721] = {
 		name = "Writing Course at the Library",
 		type = 2,
 		label = "",
@@ -6644,8 +6795,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1722] = {
+	}
+	pg.base.child_site_option[1722] = {
 		name = "Drawing Course at the Art Class",
 		type = 2,
 		label = "",
@@ -6693,8 +6844,8 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	[1723] = {
+	}
+	pg.base.child_site_option[1723] = {
 		name = "Singing Course at the Music Class",
 		type = 2,
 		label = "",
@@ -6742,148 +6893,5 @@ pg.child_site_option = {
 			100
 		},
 		polarid_list = {}
-	},
-	all = {
-		1102,
-		1103,
-		11032,
-		11033,
-		1104,
-		1105,
-		1106,
-		1107,
-		1108,
-		1109,
-		1110,
-		1111,
-		11112,
-		11113,
-		1112,
-		11122,
-		11123,
-		1201,
-		1202,
-		1203,
-		1204,
-		12042,
-		12043,
-		1205,
-		1206,
-		1207,
-		1211,
-		12112,
-		12113,
-		1212,
-		12122,
-		12123,
-		1213,
-		12132,
-		12133,
-		1302,
-		13022,
-		13023,
-		1303,
-		1304,
-		13042,
-		13043,
-		1305,
-		1306,
-		1307,
-		1308,
-		1309,
-		1310,
-		1321,
-		1311,
-		1312,
-		1313,
-		1314,
-		1315,
-		1316,
-		1317,
-		1318,
-		1319,
-		1320,
-		13112,
-		13122,
-		13132,
-		13142,
-		13152,
-		13162,
-		13172,
-		13182,
-		13192,
-		13202,
-		1401,
-		1402,
-		1403,
-		14032,
-		14033,
-		1404,
-		1405,
-		1406,
-		1411,
-		1412,
-		1413,
-		1414,
-		1415,
-		1416,
-		1417,
-		1418,
-		1419,
-		1420,
-		14112,
-		14122,
-		14132,
-		14142,
-		14152,
-		14162,
-		14172,
-		14182,
-		14192,
-		14202,
-		1501,
-		1502,
-		1503,
-		1504,
-		1601,
-		16012,
-		16013,
-		1602,
-		16022,
-		16023,
-		1603,
-		1604,
-		1605,
-		1606,
-		1607,
-		1608,
-		1609,
-		1701,
-		17012,
-		17013,
-		1702,
-		17022,
-		17023,
-		1705,
-		17052,
-		17053,
-		1706,
-		1707,
-		1708,
-		1709,
-		1710,
-		1711,
-		1712,
-		1713,
-		1714,
-		1715,
-		1716,
-		1717,
-		1718,
-		1719,
-		1720,
-		1721,
-		1722,
-		1723
 	}
-}
+end)()

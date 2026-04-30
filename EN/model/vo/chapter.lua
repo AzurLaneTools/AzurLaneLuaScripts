@@ -923,6 +923,24 @@ slot0.GetDailyBonusQuota = function(slot0)
 	return slot0:GetRestDailyBonus() > 0
 end
 
+slot0.GetDailyBonusRate = function(slot0)
+	slot1 = 0
+
+	for slot6, slot7 in ipairs(slot0:getConfig("boss_expedition_id")) do
+		slot1 = math.max(slot1, pg.expedition_activity_template[slot7] and slot8.bonus_rate or 0)
+	end
+
+	if pg.chapter_defense[slot0.id] then
+		slot1 = math.max(slot1, slot3.bonus_rate or 0)
+	end
+
+	return slot1 > 0 and slot1 or nil
+end
+
+slot0.GetDailyBonusIconName = function(slot0)
+	return slot0:GetDailyBonusRate() and "bonusX" .. tostring(slot1) or "bonusX5"
+end
+
 slot0.OPERATION_BUFF_TYPE_COST = "more_oil"
 slot0.OPERATION_BUFF_TYPE_REWARD = "extra_drop"
 slot0.OPERATION_BUFF_TYPE_EXP = "chapter_up"

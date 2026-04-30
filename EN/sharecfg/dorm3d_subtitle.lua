@@ -1,1049 +1,1146 @@
 pg = pg or {}
-pg.dorm3d_subtitle = setmetatable({
-	__name = "dorm3d_subtitle",
-	all = {
-		101,
-		102,
-		103,
-		104,
-		105,
-		201,
-		202,
-		203,
-		301,
-		302,
-		303,
-		401,
-		402,
-		501,
-		601,
-		602,
-		603,
-		604,
-		605,
-		606,
-		701,
-		702,
-		703,
-		801,
-		802,
-		803,
-		804,
-		805,
-		806,
-		807,
-		808,
-		809,
-		901,
-		902,
-		903,
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1007,
-		1008,
-		1101,
-		1102,
-		1103,
-		1104,
-		1105,
-		1106,
-		1107,
-		2101,
-		2102,
-		2103,
-		2201,
-		2202,
-		2301,
-		2302,
-		2303,
-		3401,
-		3402,
-		3403,
-		3404,
-		3405,
-		3406,
-		3407,
-		3101,
-		3102,
-		3103,
-		3104,
-		3105,
-		3106,
-		3301,
-		3302,
-		3303,
-		3304,
-		3305,
-		3201,
-		3202,
-		3501,
-		3502,
-		3503,
-		3504,
-		3505,
-		3506,
-		3507,
-		2401,
-		2402,
-		2403,
-		2404,
-		11001,
-		11002,
-		11003,
-		11004,
-		11005,
-		11006,
-		11007,
-		11008,
-		11009,
-		11010,
-		11011,
-		11012,
-		11013,
-		11014,
-		11015,
-		11016,
-		11017,
-		11018,
-		11019,
-		11020,
-		11021,
-		11022,
-		11023,
-		11024,
-		11025,
-		11026,
-		11027,
-		11028,
-		11029,
-		11030,
-		11031,
-		11040,
-		11041,
-		11042,
-		11043,
-		11044,
-		11045,
-		11046,
-		11047,
-		11048,
-		11049,
-		11050,
-		11051,
-		11052,
-		11053,
-		11054,
-		11055,
-		11056,
-		12001,
-		12002,
-		12003,
-		12004,
-		12005,
-		12006,
-		12007,
-		12008,
-		12009,
-		12010,
-		12011,
-		12021,
-		12022,
-		12023,
-		12024,
-		12025,
-		12026,
-		12027,
-		12028,
-		12029,
-		12030,
-		12031,
-		12032,
-		12033,
-		12034,
-		12035,
-		12036,
-		12037,
-		14001,
-		14002,
-		14003,
-		14004,
-		14005,
-		14006,
-		14007,
-		14008,
-		14009,
-		14010,
-		14011,
-		14012,
-		14013,
-		14014,
-		14015,
-		14016,
-		14021,
-		14022,
-		14023,
-		14024,
-		14025,
-		14026,
-		14027,
-		14028,
-		14029,
-		14030,
-		14031,
-		14032,
-		14033,
-		14034,
-		14035,
-		14036,
-		14037,
-		14038,
-		14039,
-		14040,
-		14041,
-		14042,
-		14043,
-		14044,
-		14045,
-		14046,
-		14047
-	}
-}, confHX)
+pg.dorm3d_subtitle = rawget(pg, "dorm3d_subtitle") or setmetatable({
+	__name = "dorm3d_subtitle"
+}, confNEO)
+pg.dorm3d_subtitle.__namecode__ = true
+pg.dorm3d_subtitle.all = {
+	101,
+	102,
+	103,
+	104,
+	105,
+	201,
+	202,
+	203,
+	301,
+	302,
+	303,
+	401,
+	402,
+	501,
+	601,
+	602,
+	603,
+	604,
+	605,
+	606,
+	701,
+	702,
+	703,
+	801,
+	802,
+	803,
+	804,
+	805,
+	806,
+	807,
+	808,
+	809,
+	901,
+	902,
+	903,
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008,
+	1101,
+	1102,
+	1103,
+	1104,
+	1105,
+	1106,
+	1107,
+	2101,
+	2102,
+	2103,
+	2201,
+	2202,
+	2301,
+	2302,
+	2303,
+	3401,
+	3402,
+	3403,
+	3404,
+	3405,
+	3406,
+	3407,
+	3101,
+	3102,
+	3103,
+	3104,
+	3105,
+	3106,
+	3301,
+	3302,
+	3303,
+	3304,
+	3305,
+	3201,
+	3202,
+	3501,
+	3502,
+	3503,
+	3504,
+	3505,
+	3506,
+	3507,
+	2401,
+	2402,
+	2403,
+	2404,
+	11001,
+	11002,
+	11003,
+	11004,
+	11005,
+	11006,
+	11007,
+	11008,
+	11009,
+	11010,
+	11011,
+	11012,
+	11013,
+	11014,
+	11015,
+	11016,
+	11017,
+	11018,
+	11019,
+	11020,
+	11021,
+	11022,
+	11023,
+	11024,
+	11025,
+	11026,
+	11027,
+	11028,
+	11029,
+	11030,
+	11031,
+	11040,
+	11041,
+	11042,
+	11043,
+	11044,
+	11045,
+	11046,
+	11047,
+	11048,
+	11049,
+	11050,
+	11051,
+	11052,
+	11053,
+	11054,
+	11055,
+	11056,
+	12001,
+	12002,
+	12003,
+	12004,
+	12005,
+	12006,
+	12007,
+	12008,
+	12009,
+	12010,
+	12011,
+	12021,
+	12022,
+	12023,
+	12024,
+	12025,
+	12026,
+	12027,
+	12028,
+	12029,
+	12030,
+	12031,
+	12032,
+	12033,
+	12034,
+	12035,
+	12036,
+	12037,
+	14001,
+	14002,
+	14003,
+	14004,
+	14005,
+	14006,
+	14007,
+	14008,
+	14009,
+	14010,
+	14011,
+	14012,
+	14013,
+	14014,
+	14015,
+	14016,
+	14021,
+	14022,
+	14023,
+	14024,
+	14025,
+	14026,
+	14027,
+	14028,
+	14029,
+	14030,
+	14031,
+	14032,
+	14033,
+	14034,
+	14035,
+	14036,
+	14037,
+	14038,
+	14039,
+	14040,
+	14041,
+	14042,
+	14043,
+	14044,
+	14045,
+	14046,
+	14047,
+	12038,
+	12039,
+	12040,
+	12041,
+	12042,
+	12043,
+	12044,
+	12045,
+	12046,
+	12047,
+	12048,
+	12049,
+	12050,
+	12051,
+	12052,
+	12053,
+	12054,
+	12055
+}
 pg.base = pg.base or {}
-pg.base.dorm3d_subtitle = {
-	[101] = {
+pg.base.dorm3d_subtitle = {}
+
+(function ()
+	pg.base.dorm3d_subtitle[101] = {
 		id = 101,
 		subtitle = "Honourable $dorm3d, allow me to show you how a truly great Royal Maid cleans a vase."
-	},
-	[102] = {
+	}
+	pg.base.dorm3d_subtitle[102] = {
 		id = 102,
 		subtitle = "Hold it with one hand and gently wipe up and down."
-	},
-	[103] = {
+	}
+	pg.base.dorm3d_subtitle[103] = {
 		id = 103,
 		subtitle = "Not too forcefully, but not too gently..."
-	},
-	[104] = {
+	}
+	pg.base.dorm3d_subtitle[104] = {
 		id = 104,
 		subtitle = "It's a delicate item, so one must be careful not to drop it..."
-	},
-	[105] = {
+	}
+	pg.base.dorm3d_subtitle[105] = {
 		id = 105,
 		subtitle = "There! It's all clean now!"
-	},
-	[201] = {
+	}
+	pg.base.dorm3d_subtitle[201] = {
 		id = 201,
 		subtitle = "Eep!"
-	},
-	[202] = {
+	}
+	pg.base.dorm3d_subtitle[202] = {
 		id = 202,
 		subtitle = "I-I mustn't trouble you with such a... Hyah?!"
-	},
-	[203] = {
+	}
+	pg.base.dorm3d_subtitle[203] = {
 		id = 203,
 		subtitle = "Thank you, my sweet, honourable $dorm3d. That will do."
-	},
-	[301] = {
+	}
+	pg.base.dorm3d_subtitle[301] = {
 		id = 301,
 		subtitle = "Honourable $dorm3d, could you help me for a..."
-	},
-	[302] = {
+	}
+	pg.base.dorm3d_subtitle[302] = {
 		id = 302,
 		subtitle = "$dorm3d?"
-	},
-	[303] = {
+	}
+	pg.base.dorm3d_subtitle[303] = {
 		id = 303,
 		subtitle = "Even you have a mischievous side, I see."
-	},
-	[401] = {
+	}
+	pg.base.dorm3d_subtitle[401] = {
 		id = 401,
 		subtitle = "Why, I'm most honoured...!"
-	},
-	[402] = {
+	}
+	pg.base.dorm3d_subtitle[402] = {
 		id = 402,
 		subtitle = "My adored $dorm3d..."
-	},
-	[501] = {
+	}
+	pg.base.dorm3d_subtitle[501] = {
 		id = 501,
 		subtitle = "I've been waiting for you, my honourable $dorm3d. Please, come in."
-	},
-	[601] = {
+	}
+	pg.base.dorm3d_subtitle[601] = {
 		id = 601,
 		subtitle = "Oh? Do you consider this enough?"
-	},
-	[602] = {
+	}
+	pg.base.dorm3d_subtitle[602] = {
 		id = 602,
 		subtitle = "You're always too kind, $dorm3d."
-	},
-	[603] = {
+	}
+	pg.base.dorm3d_subtitle[603] = {
 		id = 603,
 		subtitle = "Still, the honour of being able to serve you in a more... intimate, private setting has me trembling with joy."
-	},
-	[604] = {
+	}
+	pg.base.dorm3d_subtitle[604] = {
 		id = 604,
 		subtitle = "Not at all! I just did what was expected of me as a maid."
-	},
-	[605] = {
+	}
+	pg.base.dorm3d_subtitle[605] = {
 		id = 605,
 		subtitle = "It is a Royal Maid's duty to keep every location frequented by her $dorm3d spotless."
-	},
-	[606] = {
+	}
+	pg.base.dorm3d_subtitle[606] = {
 		id = 606,
 		subtitle = "Umm... Actually, I fully prepared myself in anticipation of your visit today, my honourable $dorm3d!"
-	},
-	[701] = {
+	}
+	pg.base.dorm3d_subtitle[701] = {
 		id = 701,
 		subtitle = "This way, please."
-	},
-	[702] = {
+	}
+	pg.base.dorm3d_subtitle[702] = {
 		id = 702,
 		subtitle = "Please forgive your poor excuse of a maid for the simplicity of her welcome."
-	},
-	[703] = {
+	}
+	pg.base.dorm3d_subtitle[703] = {
 		id = 703,
 		subtitle = "If only I had more time, I could've prepared something more grand. Something more fitting."
-	},
-	[801] = {
+	}
+	pg.base.dorm3d_subtitle[801] = {
 		id = 801,
 		subtitle = "I have prepared delicious tea that's just the temperature, premium refreshments that both taste lovely and are healthy."
-	},
-	[802] = {
+	}
+	pg.base.dorm3d_subtitle[802] = {
 		id = 802,
 		subtitle = "There is also a well-tidied bed, and lastly, me. Everything has been made perfect for you."
-	},
-	[803] = {
+	}
+	pg.base.dorm3d_subtitle[803] = {
 		id = 803,
 		subtitle = "Should you have any requests, I shall do all I can to fulfill them."
-	},
-	[804] = {
+	}
+	pg.base.dorm3d_subtitle[804] = {
 		id = 804,
 		subtitle = "Wait... You're asking me to provide THAT service, are you not?"
-	},
-	[805] = {
+	}
+	pg.base.dorm3d_subtitle[805] = {
 		id = 805,
 		subtitle = "Finally, this day has come! How long I've waited to be with you in..."
-	},
-	[806] = {
+	}
+	pg.base.dorm3d_subtitle[806] = {
 		id = 806,
 		subtitle = "...You just assumed that I must be tired after all that, and wanted me to take a break?"
-	},
-	[807] = {
+	}
+	pg.base.dorm3d_subtitle[807] = {
 		id = 807,
 		subtitle = "Oh, so that's what you meant... Umm..."
-	},
-	[808] = {
+	}
+	pg.base.dorm3d_subtitle[808] = {
 		id = 808,
 		subtitle = "Although I am a little disappointed, I will fulfill your request."
-	},
-	[809] = {
+	}
+	pg.base.dorm3d_subtitle[809] = {
 		id = 809,
 		subtitle = "Now then, please take a seat next to me on the couch, my honourable $dorm3d."
-	},
-	[901] = {
+	}
+	pg.base.dorm3d_subtitle[901] = {
 		id = 901,
 		subtitle = "$dorm3d, I didn't think you'd come here to bathe, too!"
-	},
-	[902] = {
+	}
+	pg.base.dorm3d_subtitle[902] = {
 		id = 902,
 		subtitle = "Aah... Is it getting too hot in here, or is it just because I'm seeing you in a state of undress?"
-	},
-	[903] = {
+	}
+	pg.base.dorm3d_subtitle[903] = {
 		id = 903,
 		subtitle = "Such unbecoming thoughts are coming to mind..."
-	},
-	[1001] = {
+	}
+	pg.base.dorm3d_subtitle[1001] = {
 		id = 1001,
 		subtitle = "I need to clean over here... and over there, too..."
-	},
-	[1002] = {
+	}
+	pg.base.dorm3d_subtitle[1002] = {
 		id = 1002,
 		subtitle = "Scrub... Scrub..."
-	},
-	[1003] = {
+	}
+	pg.base.dorm3d_subtitle[1003] = {
 		id = 1003,
 		subtitle = "Stupid Sirius, spilling so much tea... Causing so much trouble for your poor, honourable Master..."
-	},
-	[1004] = {
+	}
+	pg.base.dorm3d_subtitle[1004] = {
 		id = 1004,
 		subtitle = "Ooh..."
-	},
-	[1005] = {
+	}
+	pg.base.dorm3d_subtitle[1005] = {
 		id = 1005,
 		subtitle = "Master? You're trying to console me...?"
-	},
-	[1006] = {
+	}
+	pg.base.dorm3d_subtitle[1006] = {
 		id = 1006,
 		subtitle = "Th-thank you, my honourable Master!"
-	},
-	[1007] = {
+	}
+	pg.base.dorm3d_subtitle[1007] = {
 		id = 1007,
 		subtitle = "Just a little more..."
-	},
-	[1008] = {
+	}
+	pg.base.dorm3d_subtitle[1008] = {
 		id = 1008,
 		subtitle = "Phew... That should do it!"
-	},
-	[1101] = {
+	}
+	pg.base.dorm3d_subtitle[1101] = {
 		id = 1101,
 		subtitle = "Honourable Master? It's about time to wake up..."
-	},
-	[1102] = {
+	}
+	pg.base.dorm3d_subtitle[1102] = {
 		id = 1102,
 		subtitle = "To think I get to wake up right beside you..."
-	},
-	[1103] = {
+	}
+	pg.base.dorm3d_subtitle[1103] = {
 		id = 1103,
 		subtitle = "Were you able to sleep well, Master?"
-	},
-	[1104] = {
+	}
+	pg.base.dorm3d_subtitle[1104] = {
 		id = 1104,
 		subtitle = "How did you like the bed? And the pillow? I strive to improve!"
-	},
-	[1105] = {
+	}
+	pg.base.dorm3d_subtitle[1105] = {
 		id = 1105,
 		subtitle = "What an embarrassment of a maid I am, flaling asleep before her master did..."
-	},
-	[1106] = {
+	}
+	pg.base.dorm3d_subtitle[1106] = {
 		id = 1106,
 		subtitle = "Oh, I-I'm so sorry... I didn't mean to..."
-	},
-	[1107] = {
+	}
+	pg.base.dorm3d_subtitle[1107] = {
 		id = 1107,
 		subtitle = "Please, punish me for my insolence, my honourable Master!"
-	},
-	[2101] = {
+	}
+	pg.base.dorm3d_subtitle[2101] = {
 		id = 2101,
 		subtitle = "Gueeess who?"
-	},
-	[2102] = {
+	}
+	pg.base.dorm3d_subtitle[2102] = {
 		id = 2102,
 		subtitle = "Hmm... On second thought, I'm not suited for this little tease Sakawa taught me..."
-	},
-	[2103] = {
+	}
+	pg.base.dorm3d_subtitle[2103] = {
 		id = 2103,
 		subtitle = "You thought it was cute? Oh, okay..."
-	},
-	[2201] = {
+	}
+	pg.base.dorm3d_subtitle[2201] = {
 		id = 2201,
 		subtitle = "Alright, that should do it."
-	},
-	[2202] = {
+	}
+	pg.base.dorm3d_subtitle[2202] = {
 		id = 2202,
 		subtitle = "Aren't we leaving yet?"
-	},
-	[2301] = {
+	}
+	pg.base.dorm3d_subtitle[2301] = {
 		id = 2301,
 		subtitle = "$dorm3d, lend me your hand."
-	},
-	[2302] = {
+	}
+	pg.base.dorm3d_subtitle[2302] = {
 		id = 2302,
 		subtitle = "Do you feel how hard my heart is beating?"
-	},
-	[2303] = {
+	}
+	pg.base.dorm3d_subtitle[2303] = {
 		id = 2303,
 		subtitle = "It gets like this when... I'm with you..."
-	},
-	[3401] = {
+	}
+	pg.base.dorm3d_subtitle[3401] = {
 		id = 3401,
 		subtitle = "Teacher...! Paint... Anchorage will make art!"
-	},
-	[3402] = {
+	}
+	pg.base.dorm3d_subtitle[3402] = {
 		id = 3402,
 		subtitle = "Hum hum~"
-	},
-	[3403] = {
+	}
+	pg.base.dorm3d_subtitle[3403] = {
 		id = 3403,
 		subtitle = "Me... and Teacher! And... a heart!"
-	},
-	[3404] = {
+	}
+	pg.base.dorm3d_subtitle[3404] = {
 		id = 3404,
 		subtitle = "Teacher! My paints fell..."
-	},
-	[3405] = {
+	}
+	pg.base.dorm3d_subtitle[3405] = {
 		id = 3405,
 		subtitle = "It's okay...? Okay! Anchorage will... keep drawing!"
-	},
-	[3406] = {
+	}
+	pg.base.dorm3d_subtitle[3406] = {
 		id = 3406,
 		subtitle = "Hmm... Umm..."
-	},
-	[3407] = {
+	}
+	pg.base.dorm3d_subtitle[3407] = {
 		id = 3407,
 		subtitle = "Picture... Anchorage and Teacher, together forever...! Yeah!"
-	},
-	[3101] = {
+	}
+	pg.base.dorm3d_subtitle[3101] = {
 		id = 3101,
 		subtitle = "Help me... Teacher!"
-	},
-	[3102] = {
+	}
+	pg.base.dorm3d_subtitle[3102] = {
 		id = 3102,
 		subtitle = "Hmm... Teach...er...?"
-	},
-	[3103] = {
+	}
+	pg.base.dorm3d_subtitle[3103] = {
 		id = 3103,
 		subtitle = "Hehe... Do you wanna play with Anchorage?"
-	},
-	[3104] = {
+	}
+	pg.base.dorm3d_subtitle[3104] = {
 		id = 3104,
 		subtitle = "Together...!"
-	},
-	[3105] = {
+	}
+	pg.base.dorm3d_subtitle[3105] = {
 		id = 3105,
 		subtitle = "Tap"
-	},
-	[3106] = {
+	}
+	pg.base.dorm3d_subtitle[3106] = {
 		id = 3106,
 		subtitle = "Tap"
-	},
-	[3301] = {
+	}
+	pg.base.dorm3d_subtitle[3301] = {
 		id = 3301,
 		subtitle = "Teacher... Your hands are warm!"
-	},
-	[3302] = {
+	}
+	pg.base.dorm3d_subtitle[3302] = {
 		id = 3302,
 		subtitle = "Teacher! W-wake up!"
-	},
-	[3303] = {
+	}
+	pg.base.dorm3d_subtitle[3303] = {
 		id = 3303,
 		subtitle = "Kissing... learned!"
-	},
-	[3304] = {
+	}
+	pg.base.dorm3d_subtitle[3304] = {
 		id = 3304,
 		subtitle = "Anchorage loves you!"
-	},
-	[3305] = {
+	}
+	pg.base.dorm3d_subtitle[3305] = {
 		id = 3305,
 		subtitle = "Do you love Anchorage, Teacher...?"
-	},
-	[3201] = {
+	}
+	pg.base.dorm3d_subtitle[3201] = {
 		id = 3201,
 		subtitle = "Teacher... Anchorage is here!"
-	},
-	[3202] = {
+	}
+	pg.base.dorm3d_subtitle[3202] = {
 		id = 3202,
 		subtitle = "Give me a hug...!"
-	},
-	[3501] = {
+	}
+	pg.base.dorm3d_subtitle[3501] = {
 		id = 3501,
 		subtitle = "Mmh…"
-	},
-	[3502] = {
+	}
+	pg.base.dorm3d_subtitle[3502] = {
 		id = 3502,
 		subtitle = "Anchorage is... sorting through these!"
-	},
-	[3503] = {
+	}
+	pg.base.dorm3d_subtitle[3503] = {
 		id = 3503,
 		subtitle = "It's tricky... but I'll try to do it myself!"
-	},
-	[3504] = {
+	}
+	pg.base.dorm3d_subtitle[3504] = {
 		id = 3504,
 		subtitle = "A leaf? Stuck to me?"
-	},
-	[3505] = {
+	}
+	pg.base.dorm3d_subtitle[3505] = {
 		id = 3505,
 		subtitle = "Where...? I can't see it!"
-	},
-	[3506] = {
+	}
+	pg.base.dorm3d_subtitle[3506] = {
 		id = 3506,
 		subtitle = "Teacher... help Anchorage!"
-	},
-	[3507] = {
+	}
+	pg.base.dorm3d_subtitle[3507] = {
 		id = 3507,
 		subtitle = "Thank you! I'm so happy!"
-	},
-	[2401] = {
+	}
+	pg.base.dorm3d_subtitle[2401] = {
 		id = 2401,
 		subtitle = "You know, you don't get a foot massage like this every day."
-	},
-	[2402] = {
+	}
+	pg.base.dorm3d_subtitle[2402] = {
 		id = 2402,
 		subtitle = "This will improve my feet's circulation? Okay..."
-	},
-	[2403] = {
+	}
+	pg.base.dorm3d_subtitle[2403] = {
 		id = 2403,
 		subtitle = "Mmh..."
-	},
-	[2404] = {
+	}
+	pg.base.dorm3d_subtitle[2404] = {
 		id = 2404,
 		subtitle = "Feels warm... It's very nice."
-	},
-	[11001] = {
+	}
+	pg.base.dorm3d_subtitle[11001] = {
 		id = 11001,
 		subtitle = "Hmm... Hmmmm…"
-	},
-	[11002] = {
+	}
+	pg.base.dorm3d_subtitle[11002] = {
 		id = 11002,
 		subtitle = "Huh? Oh, honey, you scared me! Are you curious about them?"
-	},
-	[11003] = {
+	}
+	pg.base.dorm3d_subtitle[11003] = {
 		id = 11003,
 		subtitle = "Heheh, then you should try them on too!"
-	},
-	[11004] = {
+	}
+	pg.base.dorm3d_subtitle[11004] = {
 		id = 11004,
 		subtitle = "Wow! They actually suit you super well!"
-	},
-	[11005] = {
+	}
+	pg.base.dorm3d_subtitle[11005] = {
 		id = 11005,
 		subtitle = "That's my honey! You're too charming!"
-	},
-	[11006] = {
+	}
+	pg.base.dorm3d_subtitle[11006] = {
 		id = 11006,
 		subtitle = "Hum dee dum♪ ...Ah!"
-	},
-	[11007] = {
+	}
+	pg.base.dorm3d_subtitle[11007] = {
 		id = 11007,
 		subtitle = "Honey!"
-	},
-	[11008] = {
+	}
+	pg.base.dorm3d_subtitle[11008] = {
 		id = 11008,
 		subtitle = "Haha, this way, silly!"
-	},
-	[11009] = {
+	}
+	pg.base.dorm3d_subtitle[11009] = {
 		id = 11009,
 		subtitle = "You're cute even when you're all sad! Do you feel bad because you couldn't find me?"
-	},
-	[11010] = {
+	}
+	pg.base.dorm3d_subtitle[11010] = {
 		id = 11010,
 		subtitle = "Don't worry! I'm always by your side, honey!"
-	},
-	[11011] = {
+	}
+	pg.base.dorm3d_subtitle[11011] = {
 		id = 11011,
 		subtitle = "Phew... So relaxing! Strawberry flavor is the best♪"
-	},
-	[11012] = {
+	}
+end)()
+(function ()
+	pg.base.dorm3d_subtitle[11012] = {
 		id = 11012,
 		subtitle = "Oh, honey!"
-	},
-	[11013] = {
+	}
+	pg.base.dorm3d_subtitle[11013] = {
 		id = 11013,
 		subtitle = "You gotta guess, honey. Here's a hint: It's sweet!"
-	},
-	[11014] = {
+	}
+	pg.base.dorm3d_subtitle[11014] = {
 		id = 11014,
 		subtitle = "No cheating, now."
-	},
-	[11015] = {
+	}
+	pg.base.dorm3d_subtitle[11015] = {
 		id = 11015,
 		subtitle = "Okay, okay. You can have some, too!"
-	},
-	[11016] = {
+	}
+	pg.base.dorm3d_subtitle[11016] = {
 		id = 11016,
 		subtitle = "Grr, you sneaky candy!"
-	},
-	[11017] = {
+	}
+	pg.base.dorm3d_subtitle[11017] = {
 		id = 11017,
 		subtitle = "Huh? Is it reflecting light onto my chest?"
-	},
-	[11018] = {
+	}
+	pg.base.dorm3d_subtitle[11018] = {
 		id = 11018,
 		subtitle = "Were you staring, honey? That's not good~"
-	},
-	[11019] = {
+	}
+	pg.base.dorm3d_subtitle[11019] = {
 		id = 11019,
 		subtitle = "Ah! You wanted my candy, after all!"
-	},
-	[11020] = {
+	}
+	pg.base.dorm3d_subtitle[11020] = {
 		id = 11020,
 		subtitle = "Nuh-uh! You promised I'd get to try it first!"
-	},
-	[11021] = {
+	}
+	pg.base.dorm3d_subtitle[11021] = {
 		id = 11021,
 		subtitle = "Ooh! Honey, hurry up and feed it to me!"
-	},
-	[11022] = {
+	}
+	pg.base.dorm3d_subtitle[11022] = {
 		id = 11022,
 		subtitle = "Mmm... I love the flavor you picked out!"
-	},
-	[11023] = {
+	}
+	pg.base.dorm3d_subtitle[11023] = {
 		id = 11023,
 		subtitle = "Ah...!"
-	},
-	[11024] = {
+	}
+	pg.base.dorm3d_subtitle[11024] = {
 		id = 11024,
 		subtitle = "Mmm... Thanks to your help, I feel better now. You deserve a reward!"
-	},
-	[11025] = {
+	}
+	pg.base.dorm3d_subtitle[11025] = {
 		id = 11025,
 		subtitle = "Should I be a little more... forward right now, maybe?"
-	},
-	[11026] = {
+	}
+	pg.base.dorm3d_subtitle[11026] = {
 		id = 11026,
 		subtitle = "Okay... Let's taste this sweet crystal candy together... *munch*"
-	},
-	[11027] = {
+	}
+	pg.base.dorm3d_subtitle[11027] = {
 		id = 11027,
 		subtitle = "Tell me... Can you taste the fizzy green apple on my lips? Mwah…"
-	},
-	[11028] = {
+	}
+	pg.base.dorm3d_subtitle[11028] = {
 		id = 11028,
 		subtitle = "Mm... Be a little gentler…"
-	},
-	[11029] = {
+	}
+	pg.base.dorm3d_subtitle[11029] = {
 		id = 11029,
 		subtitle = "I might hit my head again."
-	},
-	[11030] = {
+	}
+	pg.base.dorm3d_subtitle[11030] = {
 		id = 11030,
 		subtitle = "Ouch... That hurts!"
-	},
-	[11031] = {
+	}
+	pg.base.dorm3d_subtitle[11031] = {
 		id = 11031,
 		subtitle = "Honey, that tickles... Ambushes are no fair!"
-	},
-	[11040] = {
+	}
+	pg.base.dorm3d_subtitle[11040] = {
 		id = 11040,
 		subtitle = "Aah! You're too good at this!"
-	},
-	[11041] = {
+	}
+	pg.base.dorm3d_subtitle[11041] = {
 		id = 11041,
 		subtitle = "I gotta get serious!"
-	},
-	[11042] = {
+	}
+	pg.base.dorm3d_subtitle[11042] = {
 		id = 11042,
 		subtitle = "I'm not giving up yet!"
-	},
-	[11043] = {
+	}
+	pg.base.dorm3d_subtitle[11043] = {
 		id = 11043,
 		subtitle = "Urk...! Oh no, I'm gonna lose!"
-	},
-	[11044] = {
+	}
+	pg.base.dorm3d_subtitle[11044] = {
 		id = 11044,
 		subtitle = "If you wanna win, you'll have to get through me!"
-	},
-	[11045] = {
+	}
+	pg.base.dorm3d_subtitle[11045] = {
 		id = 11045,
 		subtitle = "Just you wait! I'm about to catch up!"
-	},
-	[11046] = {
+	}
+	pg.base.dorm3d_subtitle[11046] = {
 		id = 11046,
 		subtitle = "Do you really expect me to play fair against you, honey?"
-	},
-	[11047] = {
+	}
+	pg.base.dorm3d_subtitle[11047] = {
 		id = 11047,
 		subtitle = "Huh? You're gonna try harder?! N-nooo, but I'm so close to winning!"
-	},
-	[11048] = {
+	}
+	pg.base.dorm3d_subtitle[11048] = {
 		id = 11048,
 		subtitle = "Hahaha, don't try so hard, honey."
-	},
-	[11049] = {
+	}
+	pg.base.dorm3d_subtitle[11049] = {
 		id = 11049,
 		subtitle = "I wanna win against you at least once!"
-	},
-	[11050] = {
+	}
+	pg.base.dorm3d_subtitle[11050] = {
 		id = 11050,
 		subtitle = "Careful, honey."
-	},
-	[11051] = {
+	}
+	pg.base.dorm3d_subtitle[11051] = {
 		id = 11051,
 		subtitle = "I'm the only one who gets to break the rules like that..."
-	},
-	[11052] = {
+	}
+	pg.base.dorm3d_subtitle[11052] = {
 		id = 11052,
 		subtitle = "Huh? My hair's in...?"
-	},
-	[11053] = {
+	}
+	pg.base.dorm3d_subtitle[11053] = {
 		id = 11053,
 		subtitle = "Mm... Heheh, you're trying to distract me. It's not gonna work!"
-	},
-	[11054] = {
+	}
+	pg.base.dorm3d_subtitle[11054] = {
 		id = 11054,
 		subtitle = "Huh?! Sneak attacks are no fair!"
-	},
-	[11055] = {
+	}
+	pg.base.dorm3d_subtitle[11055] = {
 		id = 11055,
 		subtitle = "Mm... It's okay. I'm fine with you breaking the rules for now, honey..."
-	},
-	[11056] = {
+	}
+	pg.base.dorm3d_subtitle[11056] = {
 		id = 11056,
 		subtitle = "I'll have to use my backup plan..."
-	},
-	[12001] = {
+	}
+	pg.base.dorm3d_subtitle[12001] = {
 		id = 12001,
 		subtitle = "Nobody! Will disturb! My time with $dorm3d! May this door never open again... Heehee..."
-	},
-	[12002] = {
+	}
+	pg.base.dorm3d_subtitle[12002] = {
 		id = 12002,
 		subtitle = "Hehe, $dorm3d~ The lock seems to have broken. I'm doing my best to repair it."
-	},
-	[12003] = {
+	}
+	pg.base.dorm3d_subtitle[12003] = {
 		id = 12003,
 		subtitle = "But let it be known that we are safe – and more importantly, alone!"
-	},
-	[12004] = {
+	}
+	pg.base.dorm3d_subtitle[12004] = {
 		id = 12004,
 		subtitle = "You'll never leave my sight again♥"
-	},
-	[12005] = {
+	}
+	pg.base.dorm3d_subtitle[12005] = {
 		id = 12005,
 		subtitle = "I have one of those, too."
-	},
-	[12006] = {
+	}
+	pg.base.dorm3d_subtitle[12006] = {
 		id = 12006,
 		subtitle = "$dorm3d, you will only look at Taihou... She will deal with all those pests..."
-	},
-	[12007] = {
+	}
+	pg.base.dorm3d_subtitle[12007] = {
 		id = 12007,
 		subtitle = "Hmm? Mm... Look only at Taihou... You belong to Taihou... Zzz..."
-	},
-	[12008] = {
+	}
+	pg.base.dorm3d_subtitle[12008] = {
 		id = 12008,
 		subtitle = "Umm..."
-	},
-	[12009] = {
+	}
+	pg.base.dorm3d_subtitle[12009] = {
 		id = 12009,
 		subtitle = "Ah, $dorm3d..."
-	},
-	[12010] = {
+	}
+	pg.base.dorm3d_subtitle[12010] = {
 		id = 12010,
 		subtitle = "I really, really want to keep that cup you used. Because..."
-	},
-	[12011] = {
+	}
+	pg.base.dorm3d_subtitle[12011] = {
 		id = 12011,
 		subtitle = "No... As long as you're here, I suppose there is no need for \"indirect\" kisses."
-	},
-	[12021] = {
+	}
+	pg.base.dorm3d_subtitle[12021] = {
 		id = 12021,
 		subtitle = "Huh? Aaaaaah!"
-	},
-	[12022] = {
+	}
+	pg.base.dorm3d_subtitle[12022] = {
 		id = 12022,
 		subtitle = "Urgh, now I've done it... $dorm3d! Help me, please!"
-	},
-	[12023] = {
+	}
+	pg.base.dorm3d_subtitle[12023] = {
 		id = 12023,
 		subtitle = "$dorm3d! Save meeee!"
-	},
-	[12024] = {
+	}
+	pg.base.dorm3d_subtitle[12024] = {
 		id = 12024,
 		subtitle = "$dorm3d... Hehe... There you have it. Are you surprised?"
-	},
-	[12025] = {
+	}
+	pg.base.dorm3d_subtitle[12025] = {
 		id = 12025,
 		subtitle = "Aaahn! $dorm3d, is this what you're into?"
-	},
-	[12026] = {
+	}
+	pg.base.dorm3d_subtitle[12026] = {
 		id = 12026,
 		subtitle = "If it is... come even closer for me~"
-	},
-	[12027] = {
+	}
+	pg.base.dorm3d_subtitle[12027] = {
 		id = 12027,
 		subtitle = "The thing is... I accidentally cuffed my hands, and I can't escape."
-	},
-	[12028] = {
+	}
+	pg.base.dorm3d_subtitle[12028] = {
 		id = 12028,
 		subtitle = "Want to see them, $dorm3d?"
-	},
-	[12029] = {
+	}
+	pg.base.dorm3d_subtitle[12029] = {
 		id = 12029,
 		subtitle = "But first... We'd better find that key!"
-	},
-	[12030] = {
+	}
+	pg.base.dorm3d_subtitle[12030] = {
 		id = 12030,
 		subtitle = "Oh, my... Goodness, Commander...♡"
-	},
-	[12031] = {
+	}
+	pg.base.dorm3d_subtitle[12031] = {
 		id = 12031,
 		subtitle = "$dorm3d~ Don't tell me..."
-	},
-	[12032] = {
+	}
+	pg.base.dorm3d_subtitle[12032] = {
 		id = 12032,
 		subtitle = "Heehee, have I just discovered one of your... proclivities?"
-	},
-	[12033] = {
+	}
+	pg.base.dorm3d_subtitle[12033] = {
 		id = 12033,
 		subtitle = "I'm ready any time~"
-	},
-	[12034] = {
+	}
+	pg.base.dorm3d_subtitle[12034] = {
 		id = 12034,
 		subtitle = "I can't help but think you want it too, heehee♡"
-	},
-	[12035] = {
+	}
+	pg.base.dorm3d_subtitle[12035] = {
 		id = 12035,
 		subtitle = "I can't believe it was right under my butt!"
-	},
-	[12036] = {
+	}
+	pg.base.dorm3d_subtitle[12036] = {
 		id = 12036,
 		subtitle = "Can you tell, $dorm3d?"
-	},
-	[12037] = {
+	}
+	pg.base.dorm3d_subtitle[12037] = {
 		id = 12037,
 		subtitle = "The thing I really want to lock up... is you!"
-	},
-	[14001] = {
+	}
+	pg.base.dorm3d_subtitle[14001] = {
 		id = 14001,
 		subtitle = "Mm... Hmm? Just a little longer..."
-	},
-	[14002] = {
+	}
+	pg.base.dorm3d_subtitle[14002] = {
 		id = 14002,
 		subtitle = "You came all this way, and that's all you're going to do?"
-	},
-	[14003] = {
+	}
+	pg.base.dorm3d_subtitle[14003] = {
 		id = 14003,
 		subtitle = "A blanket? Come on..."
-	},
-	[14004] = {
+	}
+	pg.base.dorm3d_subtitle[14004] = {
 		id = 14004,
 		subtitle = "Don't you think it's plenty warm enough already?"
-	},
-	[14005] = {
+	}
+	pg.base.dorm3d_subtitle[14005] = {
 		id = 14005,
 		subtitle = "If you're still worried about me, then I say..."
-	},
-	[14006] = {
+	}
+	pg.base.dorm3d_subtitle[14006] = {
 		id = 14006,
 		subtitle = "Ugh... Who decided to put this in such a hard-to-reach place?!"
-	},
-	[14007] = {
+	}
+	pg.base.dorm3d_subtitle[14007] = {
 		id = 14007,
 		subtitle = "Gah?! How long have you been there?"
-	},
-	[14008] = {
+	}
+	pg.base.dorm3d_subtitle[14008] = {
 		id = 14008,
 		subtitle = "Hey... Give me that. Right now!"
-	},
-	[14009] = {
+	}
+	pg.base.dorm3d_subtitle[14009] = {
 		id = 14009,
 		subtitle = "Hyah?!"
-	},
-	[14010] = {
+	}
+	pg.base.dorm3d_subtitle[14010] = {
 		id = 14010,
 		subtitle = "$dorm3d？！Are you okay?!$dorm3d？！"
-	},
-	[14011] = {
+	}
+	pg.base.dorm3d_subtitle[14011] = {
 		id = 14011,
 		subtitle = "Perfect timing. Brush my hair for me, would you?"
-	},
-	[14012] = {
+	}
+	pg.base.dorm3d_subtitle[14012] = {
 		id = 14012,
 		subtitle = "Be gentle, now. If you fail to satisfy me..."
-	},
-	[14013] = {
+	}
+	pg.base.dorm3d_subtitle[14013] = {
 		id = 14013,
 		subtitle = "You'll be punished."
-	},
-	[14014] = {
+	}
+	pg.base.dorm3d_subtitle[14014] = {
 		id = 14014,
 		subtitle = "But if you do manage to please me..."
-	},
-	[14015] = {
+	}
+	pg.base.dorm3d_subtitle[14015] = {
 		id = 14015,
 		subtitle = "Well, a handsome reward might be waiting for you."
-	},
-	[14016] = {
+	}
+	pg.base.dorm3d_subtitle[14016] = {
 		id = 14016,
 		subtitle = "I'm waiting, Commander."
-	},
-	[14021] = {
+	}
+	pg.base.dorm3d_subtitle[14021] = {
 		id = 14021,
 		subtitle = "Mmm!"
-	},
-	[14022] = {
+	}
+	pg.base.dorm3d_subtitle[14022] = {
 		id = 14022,
 		subtitle = "Commander? Such fine wine begs to be savored, you know."
-	},
-	[14023] = {
+	}
+	pg.base.dorm3d_subtitle[14023] = {
 		id = 14023,
 		subtitle = "Drunk? Me? Heehee... What about you?"
-	},
-	[14024] = {
+	}
+	pg.base.dorm3d_subtitle[14024] = {
 		id = 14024,
 		subtitle = "This wine is at its best when you're a little tipsy."
-	},
-	[14025] = {
+	}
+	pg.base.dorm3d_subtitle[14025] = {
 		id = 14025,
 		subtitle = "If you're not there yet, let me help you. Mmch..."
-	},
-	[14026] = {
+	}
+	pg.base.dorm3d_subtitle[14026] = {
 		id = 14026,
 		subtitle = "How was that? Did I help make it a little more fun for you?"
-	},
-	[14027] = {
+	}
+	pg.base.dorm3d_subtitle[14027] = {
 		id = 14027,
 		subtitle = "Now, give me your hand..."
-	},
-	[14028] = {
+	}
+	pg.base.dorm3d_subtitle[14028] = {
 		id = 14028,
 		subtitle = "Your face... Isn't it getting just as hot as mine?"
-	},
-	[14029] = {
+	}
+	pg.base.dorm3d_subtitle[14029] = {
 		id = 14029,
 		subtitle = "Hmm? You think it's just my imagination? I dunno... You look awfully red to me."
-	},
-	[14030] = {
+	}
+	pg.base.dorm3d_subtitle[14030] = {
 		id = 14030,
 		subtitle = "Was that our last glass? I guess I'll have to open another bottle..."
-	},
-	[14031] = {
+	}
+	pg.base.dorm3d_subtitle[14031] = {
 		id = 14031,
 		subtitle = "It's a very fine vintage... I think you'll love the flavor."
-	},
-	[14032] = {
+	}
+	pg.base.dorm3d_subtitle[14032] = {
 		id = 14032,
 		subtitle = "Surely you're feeling the buzz now, Commander."
-	},
-	[14033] = {
+	}
+	pg.base.dorm3d_subtitle[14033] = {
 		id = 14033,
 		subtitle = "What? A little?"
-	},
-	[14034] = {
+	}
+	pg.base.dorm3d_subtitle[14034] = {
 		id = 14034,
 		subtitle = "Goodness... You really know how to stimulate my competitive nature."
-	},
-	[14035] = {
+	}
+	pg.base.dorm3d_subtitle[14035] = {
 		id = 14035,
 		subtitle = "Doesn't the aroma of wine just make you swoon?"
-	},
-	[14036] = {
+	}
+	pg.base.dorm3d_subtitle[14036] = {
 		id = 14036,
 		subtitle = "Do you smell it? That rich, full-flavored aroma?"
-	},
-	[14037] = {
+	}
+	pg.base.dorm3d_subtitle[14037] = {
 		id = 14037,
 		subtitle = "Imagine how it must taste."
-	},
-	[14038] = {
+	}
+	pg.base.dorm3d_subtitle[14038] = {
 		id = 14038,
 		subtitle = "Come on. It's your turn to pour."
-	},
-	[14039] = {
+	}
+	pg.base.dorm3d_subtitle[14039] = {
 		id = 14039,
 		subtitle = "First, hold it firmly..."
-	},
-	[14040] = {
+	}
+end)()
+(function ()
+	pg.base.dorm3d_subtitle[14040] = {
 		id = 14040,
 		subtitle = "Oh. I didn't think you'd actually do it."
-	},
-	[14041] = {
+	}
+	pg.base.dorm3d_subtitle[14041] = {
 		id = 14041,
 		subtitle = "Nnh... I'm feeling a little dizzy..."
-	},
-	[14042] = {
+	}
+	pg.base.dorm3d_subtitle[14042] = {
 		id = 14042,
 		subtitle = "I-I can't believe you... You certainly picked a time to be bold."
-	},
-	[14043] = {
+	}
+	pg.base.dorm3d_subtitle[14043] = {
 		id = 14043,
 		subtitle = "I-I expect you to take responsibility and clean up for me."
-	},
-	[14044] = {
+	}
+	pg.base.dorm3d_subtitle[14044] = {
 		id = 14044,
 		subtitle = "Heehee, that ought to get you good and drunk..."
-	},
-	[14045] = {
+	}
+	pg.base.dorm3d_subtitle[14045] = {
 		id = 14045,
 		subtitle = "Hehe... Wasn't that amazing, Commander?"
-	},
-	[14046] = {
+	}
+	pg.base.dorm3d_subtitle[14046] = {
 		id = 14046,
 		subtitle = "The most sublime element of its flavor... as I'm sure you're aware..."
-	},
-	[14047] = {
+	}
+	pg.base.dorm3d_subtitle[14047] = {
 		id = 14047,
 		subtitle = "...Was the addition of our shared warmth."
 	}
-}
+	pg.base.dorm3d_subtitle[12038] = {
+		id = 12038,
+		subtitle = "Now, my Commander... It's time for the big reveal!"
+	}
+	pg.base.dorm3d_subtitle[12039] = {
+		id = 12039,
+		subtitle = "Before I show you, you'll have to see what I look like WITHOUT the pajamas."
+	}
+	pg.base.dorm3d_subtitle[12040] = {
+		id = 12040,
+		subtitle = "Isn't that right?"
+	}
+	pg.base.dorm3d_subtitle[12041] = {
+		id = 12041,
+		subtitle = "Heehee... Someone likes the ceremony, I can tell."
+	}
+	pg.base.dorm3d_subtitle[12042] = {
+		id = 12042,
+		subtitle = "Let me discard the old... and reveal the new before my Commander's eyes..."
+	}
+	pg.base.dorm3d_subtitle[12043] = {
+		id = 12043,
+		subtitle = "Heehee, don't worry. I already locked the door and the windows."
+	}
+	pg.base.dorm3d_subtitle[12044] = {
+		id = 12044,
+		subtitle = "It's our private love nest... Shall we continue the ceremony?"
+	}
+	pg.base.dorm3d_subtitle[12045] = {
+		id = 12045,
+		subtitle = "Hyah?!"
+	}
+	pg.base.dorm3d_subtitle[12046] = {
+		id = 12046,
+		subtitle = "Aah... My Commander, you're so bold today♥"
+	}
+	pg.base.dorm3d_subtitle[12047] = {
+		id = 12047,
+		subtitle = "I'll have to get you back for that one~"
+	}
+	pg.base.dorm3d_subtitle[12048] = {
+		id = 12048,
+		subtitle = "Be more forward if you want, my love~"
+	}
+	pg.base.dorm3d_subtitle[12049] = {
+		id = 12049,
+		subtitle = "I'm ready to accept all you can give♥"
+	}
+	pg.base.dorm3d_subtitle[12050] = {
+		id = 12050,
+		subtitle = "Heehee, I see that look on your face..."
+	}
+	pg.base.dorm3d_subtitle[12051] = {
+		id = 12051,
+		subtitle = "You're thinking of how much you want to pamper me right now, aren't you?"
+	}
+	pg.base.dorm3d_subtitle[12052] = {
+		id = 12052,
+		subtitle = "Heehee... Finally, it's time for the most important part of the ceremony."
+	}
+	pg.base.dorm3d_subtitle[12053] = {
+		id = 12053,
+		subtitle = "The part where I get to enjoy my deliciously bold Commander..."
+	}
+	pg.base.dorm3d_subtitle[12054] = {
+		id = 12054,
+		subtitle = "There's no escape now, my dear."
+	}
+	pg.base.dorm3d_subtitle[12055] = {
+		id = 12055,
+		subtitle = "Let's make tonight... one to remember♥"
+	}
+end)()

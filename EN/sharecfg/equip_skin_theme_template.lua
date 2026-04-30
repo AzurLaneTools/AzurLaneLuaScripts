@@ -1,6 +1,104 @@
 pg = pg or {}
-pg.equip_skin_theme_template = {
-	{
+pg.equip_skin_theme_template = rawget(pg, "equip_skin_theme_template") or setmetatable({
+	__name = "equip_skin_theme_template"
+}, confNEO)
+pg.equip_skin_theme_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	13,
+	14,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	39,
+	40,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	47,
+	48,
+	49,
+	50,
+	51,
+	52,
+	53,
+	54,
+	55,
+	56,
+	57,
+	58,
+	59,
+	60,
+	61,
+	62,
+	63,
+	64,
+	65,
+	66,
+	67,
+	68,
+	69,
+	70,
+	71,
+	72,
+	73,
+	74,
+	75,
+	77,
+	78,
+	79,
+	80,
+	81,
+	82,
+	83,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	199
+}
+pg.base = pg.base or {}
+pg.base.equip_skin_theme_template = {}
+
+(function ()
+	pg.base.equip_skin_theme_template[1] = {
 		id = 1,
 		name = "Seal Series",
 		ids = {
@@ -9,8 +107,8 @@ pg.equip_skin_theme_template = {
 			11,
 			12
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[2] = {
 		id = 2,
 		name = "Salted Fish Series",
 		ids = {
@@ -19,8 +117,8 @@ pg.equip_skin_theme_template = {
 			13,
 			14
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[3] = {
 		id = 3,
 		name = "Happy New Years",
 		ids = {
@@ -30,8 +128,8 @@ pg.equip_skin_theme_template = {
 			16,
 			17
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[4] = {
 		id = 4,
 		name = "Merry Christmas",
 		ids = {
@@ -44,8 +142,8 @@ pg.equip_skin_theme_template = {
 			20,
 			21
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[5] = {
 		id = 5,
 		name = "Gamindustri",
 		ids = {
@@ -65,8 +163,8 @@ pg.equip_skin_theme_template = {
 			1014,
 			1015
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[6] = {
 		id = 6,
 		name = "Spirit Seals",
 		ids = {
@@ -76,8 +174,8 @@ pg.equip_skin_theme_template = {
 			25,
 			26
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[7] = {
 		id = 7,
 		name = "Welcoming the Spring",
 		ids = {
@@ -94,8 +192,8 @@ pg.equip_skin_theme_template = {
 			37,
 			38
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[8] = {
 		id = 8,
 		name = "Back to School",
 		ids = {
@@ -117,8 +215,8 @@ pg.equip_skin_theme_template = {
 			65,
 			66
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[9] = {
 		id = 9,
 		name = "Scorching Summer",
 		ids = {
@@ -141,8 +239,8 @@ pg.equip_skin_theme_template = {
 			117,
 			118
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[10] = {
 		id = 10,
 		name = "Attack on Boars",
 		ids = {
@@ -165,8 +263,8 @@ pg.equip_skin_theme_template = {
 			136,
 			137
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[11] = {
 		id = 11,
 		name = "A Royal Touch",
 		ids = {
@@ -189,8 +287,8 @@ pg.equip_skin_theme_template = {
 			156,
 			157
 		}
-	},
-	[13] = {
+	}
+	pg.base.equip_skin_theme_template[13] = {
 		id = 13,
 		name = "Kizuna AI Collab Series",
 		ids = {
@@ -214,8 +312,8 @@ pg.equip_skin_theme_template = {
 			1118,
 			1119
 		}
-	},
-	[14] = {
+	}
+	pg.base.equip_skin_theme_template[14] = {
 		id = 14,
 		name = "Slice of Sardegna",
 		ids = {
@@ -238,8 +336,8 @@ pg.equip_skin_theme_template = {
 			176,
 			177
 		}
-	},
-	[16] = {
+	}
+	pg.base.equip_skin_theme_template[16] = {
 		id = 16,
 		name = "Hololive Collab Series",
 		ids = {
@@ -262,8 +360,8 @@ pg.equip_skin_theme_template = {
 			216,
 			217
 		}
-	},
-	[17] = {
+	}
+	pg.base.equip_skin_theme_template[17] = {
 		id = 17,
 		name = "Northern Parliament Style",
 		ids = {
@@ -286,8 +384,8 @@ pg.equip_skin_theme_template = {
 			236,
 			237
 		}
-	},
-	[18] = {
+	}
+	pg.base.equip_skin_theme_template[18] = {
 		id = 18,
 		name = "Eagle Union Staples",
 		ids = {
@@ -310,8 +408,8 @@ pg.equip_skin_theme_template = {
 			256,
 			257
 		}
-	},
-	[19] = {
+	}
+	pg.base.equip_skin_theme_template[19] = {
 		id = 19,
 		name = "Iris Libre Specialties",
 		ids = {
@@ -334,8 +432,8 @@ pg.equip_skin_theme_template = {
 			276,
 			277
 		}
-	},
-	[20] = {
+	}
+	pg.base.equip_skin_theme_template[20] = {
 		id = 20,
 		name = "Medical Supplies",
 		ids = {
@@ -358,8 +456,8 @@ pg.equip_skin_theme_template = {
 			296,
 			297
 		}
-	},
-	[21] = {
+	}
+	pg.base.equip_skin_theme_template[21] = {
 		id = 21,
 		name = "Sakura Empire Classics",
 		ids = {
@@ -382,8 +480,8 @@ pg.equip_skin_theme_template = {
 			316,
 			317
 		}
-	},
-	[22] = {
+	}
+	pg.base.equip_skin_theme_template[22] = {
 		id = 22,
 		name = "Universe in Unison",
 		ids = {
@@ -406,8 +504,8 @@ pg.equip_skin_theme_template = {
 			336,
 			337
 		}
-	},
-	[23] = {
+	}
+	pg.base.equip_skin_theme_template[23] = {
 		id = 23,
 		name = "Venus Vacation",
 		ids = {
@@ -430,8 +528,8 @@ pg.equip_skin_theme_template = {
 			356,
 			357
 		}
-	},
-	[24] = {
+	}
+	pg.base.equip_skin_theme_template[24] = {
 		id = 24,
 		name = "Iron Blood Essentials",
 		ids = {
@@ -454,8 +552,8 @@ pg.equip_skin_theme_template = {
 			376,
 			377
 		}
-	},
-	[25] = {
+	}
+	pg.base.equip_skin_theme_template[25] = {
 		id = 25,
 		name = "Lunar New Year",
 		ids = {
@@ -478,8 +576,8 @@ pg.equip_skin_theme_template = {
 			396,
 			397
 		}
-	},
-	[26] = {
+	}
+	pg.base.equip_skin_theme_template[26] = {
 		id = 26,
 		name = "Manjuuland ",
 		ids = {
@@ -502,8 +600,8 @@ pg.equip_skin_theme_template = {
 			416,
 			417
 		}
-	},
-	[27] = {
+	}
+	pg.base.equip_skin_theme_template[27] = {
 		id = 27,
 		name = "The Idolmaster",
 		ids = {
@@ -526,8 +624,8 @@ pg.equip_skin_theme_template = {
 			436,
 			437
 		}
-	},
-	[28] = {
+	}
+	pg.base.equip_skin_theme_template[28] = {
 		id = 28,
 		name = "Wild West",
 		ids = {
@@ -550,8 +648,8 @@ pg.equip_skin_theme_template = {
 			456,
 			457
 		}
-	},
-	[29] = {
+	}
+	pg.base.equip_skin_theme_template[29] = {
 		id = 29,
 		name = "Floating Funland",
 		ids = {
@@ -574,8 +672,8 @@ pg.equip_skin_theme_template = {
 			476,
 			477
 		}
-	},
-	[30] = {
+	}
+	pg.base.equip_skin_theme_template[30] = {
 		id = 30,
 		name = "SSSS ",
 		ids = {
@@ -605,8 +703,8 @@ pg.equip_skin_theme_template = {
 			805,
 			806
 		}
-	},
-	[31] = {
+	}
+	pg.base.equip_skin_theme_template[31] = {
 		id = 31,
 		name = "Port Café",
 		ids = {
@@ -629,8 +727,8 @@ pg.equip_skin_theme_template = {
 			516,
 			517
 		}
-	},
-	[32] = {
+	}
+	pg.base.equip_skin_theme_template[32] = {
 		id = 32,
 		name = "Dragon Empery Icons",
 		ids = {
@@ -653,8 +751,8 @@ pg.equip_skin_theme_template = {
 			536,
 			537
 		}
-	},
-	[33] = {
+	}
+	pg.base.equip_skin_theme_template[33] = {
 		id = 33,
 		name = "Blood Moon",
 		ids = {
@@ -677,8 +775,8 @@ pg.equip_skin_theme_template = {
 			556,
 			557
 		}
-	},
-	[34] = {
+	}
+	pg.base.equip_skin_theme_template[34] = {
 		id = 34,
 		name = "Empery Chic",
 		ids = {
@@ -701,8 +799,8 @@ pg.equip_skin_theme_template = {
 			576,
 			577
 		}
-	},
-	[35] = {
+	}
+	pg.base.equip_skin_theme_template[35] = {
 		id = 35,
 		name = "Fairy Tale",
 		ids = {
@@ -725,8 +823,8 @@ pg.equip_skin_theme_template = {
 			596,
 			597
 		}
-	},
-	[36] = {
+	}
+	pg.base.equip_skin_theme_template[36] = {
 		id = 36,
 		name = "Stage Dance",
 		ids = {
@@ -749,8 +847,8 @@ pg.equip_skin_theme_template = {
 			616,
 			617
 		}
-	},
-	[37] = {
+	}
+	pg.base.equip_skin_theme_template[37] = {
 		id = 37,
 		name = "Iron Blood Icons",
 		ids = {
@@ -773,8 +871,8 @@ pg.equip_skin_theme_template = {
 			636,
 			637
 		}
-	},
-	[38] = {
+	}
+	pg.base.equip_skin_theme_template[38] = {
 		id = 38,
 		name = "Academy Festival",
 		ids = {
@@ -797,8 +895,8 @@ pg.equip_skin_theme_template = {
 			654,
 			655
 		}
-	},
-	[39] = {
+	}
+	pg.base.equip_skin_theme_template[39] = {
 		id = 39,
 		name = "RPG Adventure",
 		ids = {
@@ -828,8 +926,8 @@ pg.equip_skin_theme_template = {
 			946,
 			947
 		}
-	},
-	[40] = {
+	}
+	pg.base.equip_skin_theme_template[40] = {
 		id = 40,
 		name = "Spectral Festival",
 		ids = {
@@ -852,8 +950,8 @@ pg.equip_skin_theme_template = {
 			686,
 			687
 		}
-	},
-	[41] = {
+	}
+	pg.base.equip_skin_theme_template[41] = {
 		id = 41,
 		name = "Alchemist's Workshop",
 		ids = {
@@ -877,8 +975,8 @@ pg.equip_skin_theme_template = {
 			1217,
 			1218
 		}
-	},
-	[42] = {
+	}
+	pg.base.equip_skin_theme_template[42] = {
 		id = 42,
 		name = "Beach Holiday",
 		ids = {
@@ -901,8 +999,8 @@ pg.equip_skin_theme_template = {
 			706,
 			707
 		}
-	},
-	[43] = {
+	}
+	pg.base.equip_skin_theme_template[43] = {
 		id = 43,
 		name = "Empery Gourmet",
 		ids = {
@@ -925,15 +1023,15 @@ pg.equip_skin_theme_template = {
 			726,
 			727
 		}
-	},
-	[44] = {
+	}
+	pg.base.equip_skin_theme_template[44] = {
 		id = 44,
 		name = "Sweet Presents",
 		ids = {
 			1300
 		}
-	},
-	[45] = {
+	}
+	pg.base.equip_skin_theme_template[45] = {
 		id = 45,
 		name = "Royal Academy",
 		ids = {
@@ -956,8 +1054,8 @@ pg.equip_skin_theme_template = {
 			746,
 			747
 		}
-	},
-	[46] = {
+	}
+	pg.base.equip_skin_theme_template[46] = {
 		id = 46,
 		name = "Deserted Island",
 		ids = {
@@ -980,8 +1078,8 @@ pg.equip_skin_theme_template = {
 			766,
 			767
 		}
-	},
-	[47] = {
+	}
+	pg.base.equip_skin_theme_template[47] = {
 		id = 47,
 		name = "Faerie Forest",
 		ids = {
@@ -991,8 +1089,8 @@ pg.equip_skin_theme_template = {
 			774,
 			775
 		}
-	},
-	[48] = {
+	}
+	pg.base.equip_skin_theme_template[48] = {
 		id = 48,
 		name = "On the Job",
 		ids = {
@@ -1015,8 +1113,8 @@ pg.equip_skin_theme_template = {
 			796,
 			797
 		}
-	},
-	[49] = {
+	}
+	pg.base.equip_skin_theme_template[49] = {
 		id = 49,
 		name = "Midsummer Night Dreamin'",
 		ids = {
@@ -1039,8 +1137,8 @@ pg.equip_skin_theme_template = {
 			826,
 			827
 		}
-	},
-	[50] = {
+	}
+	pg.base.equip_skin_theme_template[50] = {
 		id = 50,
 		name = "Spirits Eve",
 		ids = {
@@ -1063,8 +1161,8 @@ pg.equip_skin_theme_template = {
 			846,
 			847
 		}
-	},
-	[51] = {
+	}
+	pg.base.equip_skin_theme_template[51] = {
 		id = 51,
 		name = "Pirate Gathering",
 		ids = {
@@ -1087,8 +1185,8 @@ pg.equip_skin_theme_template = {
 			866,
 			867
 		}
-	},
-	[52] = {
+	}
+	pg.base.equip_skin_theme_template[52] = {
 		id = 52,
 		name = "Senran Kagura",
 		ids = {
@@ -1111,8 +1209,8 @@ pg.equip_skin_theme_template = {
 			1416,
 			1417
 		}
-	},
-	[53] = {
+	}
+	pg.base.equip_skin_theme_template[53] = {
 		id = 53,
 		name = "Night Club",
 		ids = {
@@ -1135,8 +1233,8 @@ pg.equip_skin_theme_template = {
 			886,
 			887
 		}
-	},
-	[54] = {
+	}
+	pg.base.equip_skin_theme_template[54] = {
 		id = 54,
 		name = "Mythical Trove",
 		ids = {
@@ -1160,8 +1258,8 @@ pg.equip_skin_theme_template = {
 			907,
 			908
 		}
-	},
-	[55] = {
+	}
+	pg.base.equip_skin_theme_template[55] = {
 		id = 55,
 		name = "Thieville",
 		ids = {
@@ -1184,8 +1282,8 @@ pg.equip_skin_theme_template = {
 			926,
 			927
 		}
-	},
-	[56] = {
+	}
+	pg.base.equip_skin_theme_template[56] = {
 		id = 56,
 		name = "Heart-Linking Harmony",
 		ids = {
@@ -1208,8 +1306,8 @@ pg.equip_skin_theme_template = {
 			966,
 			967
 		}
-	},
-	[57] = {
+	}
+	pg.base.equip_skin_theme_template[57] = {
 		id = 57,
 		name = "Pleasure Cruise",
 		ids = {
@@ -1232,8 +1330,8 @@ pg.equip_skin_theme_template = {
 			986,
 			987
 		}
-	},
-	[58] = {
+	}
+	pg.base.equip_skin_theme_template[58] = {
 		id = 58,
 		name = "Little Academy",
 		ids = {
@@ -1257,8 +1355,8 @@ pg.equip_skin_theme_template = {
 			4018,
 			4019
 		}
-	},
-	[59] = {
+	}
+	pg.base.equip_skin_theme_template[59] = {
 		id = 59,
 		name = "Wild West",
 		ids = {
@@ -1281,8 +1379,8 @@ pg.equip_skin_theme_template = {
 			4037,
 			4038
 		}
-	},
-	[60] = {
+	}
+	pg.base.equip_skin_theme_template[60] = {
 		id = 60,
 		name = "Dream Park",
 		ids = {
@@ -1305,8 +1403,8 @@ pg.equip_skin_theme_template = {
 			4057,
 			4058
 		}
-	},
-	[61] = {
+	}
+	pg.base.equip_skin_theme_template[61] = {
 		id = 61,
 		name = "Halloween Horrors",
 		ids = {
@@ -1329,8 +1427,8 @@ pg.equip_skin_theme_template = {
 			4075,
 			4076
 		}
-	},
-	[62] = {
+	}
+	pg.base.equip_skin_theme_template[62] = {
 		id = 62,
 		name = "To LOVE-Ru",
 		ids = {
@@ -1353,8 +1451,8 @@ pg.equip_skin_theme_template = {
 			1466,
 			1467
 		}
-	},
-	[63] = {
+	}
+	pg.base.equip_skin_theme_template[63] = {
 		id = 63,
 		name = "Wilderness Force",
 		ids = {
@@ -1377,8 +1475,8 @@ pg.equip_skin_theme_template = {
 			4093,
 			4094
 		}
-	},
-	[64] = {
+	}
+	pg.base.equip_skin_theme_template[64] = {
 		id = 64,
 		name = "Spring Auspices",
 		ids = {
@@ -1401,8 +1499,8 @@ pg.equip_skin_theme_template = {
 			4111,
 			4112
 		}
-	},
-	[65] = {
+	}
+	pg.base.equip_skin_theme_template[65] = {
 		id = 65,
 		name = "Pharaoh's Golden Treasures",
 		ids = {
@@ -1425,8 +1523,8 @@ pg.equip_skin_theme_template = {
 			4129,
 			4130
 		}
-	},
-	[66] = {
+	}
+	pg.base.equip_skin_theme_template[66] = {
 		id = 66,
 		name = "Medical Adventures",
 		ids = {
@@ -1449,8 +1547,8 @@ pg.equip_skin_theme_template = {
 			4147,
 			4148
 		}
-	},
-	[67] = {
+	}
+	pg.base.equip_skin_theme_template[67] = {
 		id = 67,
 		name = "Tulipan Poems",
 		ids = {
@@ -1473,8 +1571,8 @@ pg.equip_skin_theme_template = {
 			4165,
 			4166
 		}
-	},
-	[68] = {
+	}
+	pg.base.equip_skin_theme_template[68] = {
 		id = 68,
 		name = "Seaside",
 		ids = {
@@ -1497,8 +1595,8 @@ pg.equip_skin_theme_template = {
 			4183,
 			4184
 		}
-	},
-	[69] = {
+	}
+	pg.base.equip_skin_theme_template[69] = {
 		id = 69,
 		name = "BLACK★ROCK SHOOTER",
 		ids = {
@@ -1513,8 +1611,8 @@ pg.equip_skin_theme_template = {
 			1479,
 			1480
 		}
-	},
-	[70] = {
+	}
+	pg.base.equip_skin_theme_template[70] = {
 		id = 70,
 		name = "Journey by Rail",
 		ids = {
@@ -1537,8 +1635,8 @@ pg.equip_skin_theme_template = {
 			4202,
 			4203
 		}
-	},
-	[71] = {
+	}
+	pg.base.equip_skin_theme_template[71] = {
 		id = 71,
 		name = "Alchemist's Workshop (Yumia)",
 		ids = {
@@ -1562,8 +1660,8 @@ pg.equip_skin_theme_template = {
 			1498,
 			1499
 		}
-	},
-	[72] = {
+	}
+	pg.base.equip_skin_theme_template[72] = {
 		id = 72,
 		name = "Illusions of Aberrinth",
 		ids = {
@@ -1586,8 +1684,8 @@ pg.equip_skin_theme_template = {
 			4220,
 			4221
 		}
-	},
-	[73] = {
+	}
+	pg.base.equip_skin_theme_template[73] = {
 		id = 73,
 		name = "Dreams of Amahara",
 		ids = {
@@ -1610,8 +1708,8 @@ pg.equip_skin_theme_template = {
 			4238,
 			4239
 		}
-	},
-	[74] = {
+	}
+	pg.base.equip_skin_theme_template[74] = {
 		id = 74,
 		name = "Danmachi",
 		ids = {
@@ -1623,8 +1721,8 @@ pg.equip_skin_theme_template = {
 			1506,
 			1507
 		}
-	},
-	[75] = {
+	}
+	pg.base.equip_skin_theme_template[75] = {
 		id = 75,
 		name = "Deep-Sea Treasure Hunt",
 		ids = {
@@ -1647,8 +1745,8 @@ pg.equip_skin_theme_template = {
 			4256,
 			4257
 		}
-	},
-	[77] = {
+	}
+	pg.base.equip_skin_theme_template[77] = {
 		id = 77,
 		name = "Date A Live",
 		ids = {
@@ -1671,8 +1769,8 @@ pg.equip_skin_theme_template = {
 			1527,
 			1528
 		}
-	},
-	[78] = {
+	}
+	pg.base.equip_skin_theme_template[78] = {
 		id = 78,
 		name = "Maid's Bar",
 		ids = {
@@ -1695,8 +1793,8 @@ pg.equip_skin_theme_template = {
 			4274,
 			4275
 		}
-	},
-	[79] = {
+	}
+	pg.base.equip_skin_theme_template[79] = {
 		id = 79,
 		name = "Photo Vision",
 		ids = {
@@ -1719,8 +1817,8 @@ pg.equip_skin_theme_template = {
 			4292,
 			4293
 		}
-	},
-	[80] = {
+	}
+	pg.base.equip_skin_theme_template[80] = {
 		id = 80,
 		name = "Spring Festival Auction",
 		ids = {
@@ -1743,8 +1841,8 @@ pg.equip_skin_theme_template = {
 			4310,
 			4311
 		}
-	},
-	[81] = {
+	}
+	pg.base.equip_skin_theme_template[81] = {
 		id = 81,
 		name = "Springtide Inn",
 		ids = {
@@ -1767,8 +1865,8 @@ pg.equip_skin_theme_template = {
 			4328,
 			4329
 		}
-	},
-	[82] = {
+	}
+	pg.base.equip_skin_theme_template[82] = {
 		id = 82,
 		name = "Night Agents",
 		ids = {
@@ -1791,8 +1889,8 @@ pg.equip_skin_theme_template = {
 			4346,
 			4347
 		}
-	},
-	[83] = {
+	}
+	pg.base.equip_skin_theme_template[83] = {
 		id = 83,
 		name = "Beachside Brilliance",
 		ids = {
@@ -1815,8 +1913,8 @@ pg.equip_skin_theme_template = {
 			4364,
 			4365
 		}
-	},
-	[101] = {
+	}
+	pg.base.equip_skin_theme_template[101] = {
 		id = 101,
 		name = "Power of the Stars",
 		ids = {
@@ -1834,8 +1932,8 @@ pg.equip_skin_theme_template = {
 			2012,
 			2013
 		}
-	},
-	[102] = {
+	}
+	pg.base.equip_skin_theme_template[102] = {
 		id = 102,
 		name = "Magic Show",
 		ids = {
@@ -1855,8 +1953,8 @@ pg.equip_skin_theme_template = {
 			2027,
 			2028
 		}
-	},
-	[103] = {
+	}
+	pg.base.equip_skin_theme_template[103] = {
 		id = 103,
 		name = "Call of the Elements",
 		ids = {
@@ -1875,8 +1973,8 @@ pg.equip_skin_theme_template = {
 			2041,
 			2042
 		}
-	},
-	[104] = {
+	}
+	pg.base.equip_skin_theme_template[104] = {
 		id = 104,
 		name = "Retro Style",
 		ids = {
@@ -1895,8 +1993,8 @@ pg.equip_skin_theme_template = {
 			2055,
 			2056
 		}
-	},
-	[105] = {
+	}
+	pg.base.equip_skin_theme_template[105] = {
 		id = 105,
 		name = "Magic Era",
 		ids = {
@@ -1915,8 +2013,8 @@ pg.equip_skin_theme_template = {
 			2073,
 			2074
 		}
-	},
-	[106] = {
+	}
+	pg.base.equip_skin_theme_template[106] = {
 		id = 106,
 		name = "Cyber Era",
 		ids = {
@@ -1935,8 +2033,8 @@ pg.equip_skin_theme_template = {
 			2087,
 			2088
 		}
-	},
-	[107] = {
+	}
+	pg.base.equip_skin_theme_template[107] = {
 		id = 107,
 		name = "Flame and Fulminance",
 		ids = {
@@ -1953,8 +2051,8 @@ pg.equip_skin_theme_template = {
 			2099,
 			2100
 		}
-	},
-	[108] = {
+	}
+	pg.base.equip_skin_theme_template[108] = {
 		id = 108,
 		name = "Calligraphic Essence",
 		ids = {
@@ -1971,8 +2069,8 @@ pg.equip_skin_theme_template = {
 			2111,
 			2112
 		}
-	},
-	[109] = {
+	}
+	pg.base.equip_skin_theme_template[109] = {
 		id = 109,
 		name = "Lost Ruins",
 		ids = {
@@ -1985,8 +2083,8 @@ pg.equip_skin_theme_template = {
 			2119,
 			2120
 		}
-	},
-	[199] = {
+	}
+	pg.base.equip_skin_theme_template[199] = {
 		id = 199,
 		name = "Misc",
 		ids = {
@@ -2073,97 +2171,5 @@ pg.equip_skin_theme_template = {
 			3075,
 			3076
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		13,
-		14,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		39,
-		40,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46,
-		47,
-		48,
-		49,
-		50,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56,
-		57,
-		58,
-		59,
-		60,
-		61,
-		62,
-		63,
-		64,
-		65,
-		66,
-		67,
-		68,
-		69,
-		70,
-		71,
-		72,
-		73,
-		74,
-		75,
-		77,
-		78,
-		79,
-		80,
-		81,
-		82,
-		83,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		199
 	}
-}
+end)()

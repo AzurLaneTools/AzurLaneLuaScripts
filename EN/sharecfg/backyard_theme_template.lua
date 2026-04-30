@@ -1,6 +1,138 @@
 pg = pg or {}
-pg.backyard_theme_template = {
-	{
+pg.backyard_theme_template = rawget(pg, "backyard_theme_template") or setmetatable({
+	__name = "backyard_theme_template"
+}, confNEO)
+pg.backyard_theme_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	7,
+	8,
+	11,
+	13,
+	14,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	27,
+	28,
+	29,
+	30,
+	31,
+	33,
+	35,
+	37,
+	38,
+	39,
+	40,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	47,
+	48,
+	49,
+	50,
+	51,
+	52,
+	53,
+	54,
+	55,
+	56,
+	57,
+	58,
+	59,
+	60,
+	61,
+	62,
+	63,
+	65,
+	66,
+	68,
+	69,
+	70,
+	71,
+	72,
+	73,
+	74,
+	75,
+	76,
+	77,
+	78,
+	79,
+	80,
+	81,
+	82,
+	83,
+	84,
+	85,
+	86,
+	87,
+	88,
+	89,
+	90,
+	91,
+	92,
+	93,
+	94,
+	95,
+	96,
+	97,
+	98,
+	99,
+	100,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	110,
+	111,
+	112,
+	113,
+	114,
+	115,
+	116,
+	117,
+	118,
+	119,
+	120,
+	121,
+	122,
+	123,
+	124,
+	125,
+	126,
+	127,
+	129,
+	130,
+	131,
+	132,
+	133,
+	134,
+	135,
+	136,
+	137
+}
+pg.base = pg.base or {}
+pg.base.backyard_theme_template = {}
+
+(function ()
+	pg.base.backyard_theme_template[1] = {
 		Cfg_1 = 5,
 		name = "Run-down",
 		desc = "It's hard to start from nothing with a moaning belly...",
@@ -32,8 +164,8 @@ pg.backyard_theme_template = {
 			1308,
 			1309
 		}
-	},
-	{
+	}
+	pg.base.backyard_theme_template[2] = {
 		Cfg_1 = 5,
 		name = "Autumn Breath",
 		desc = "Fluttering cherry blossoms are always a delight to see",
@@ -72,8 +204,8 @@ pg.backyard_theme_template = {
 			2304,
 			2305
 		}
-	},
-	{
+	}
+	pg.base.backyard_theme_template[3] = {
 		Cfg_1 = 5,
 		name = "Blue Eagles",
 		desc = "Even eagles need rest from time to time",
@@ -112,8 +244,8 @@ pg.backyard_theme_template = {
 			3305,
 			3306
 		}
-	},
-	{
+	}
+	pg.base.backyard_theme_template[4] = {
 		Cfg_1 = 5,
 		name = "Royal Teahouse",
 		desc = "An afternoon without tea is like a spring without flowers",
@@ -154,8 +286,8 @@ pg.backyard_theme_template = {
 			4306,
 			4307
 		}
-	},
-	{
+	}
+	pg.base.backyard_theme_template[5] = {
 		Cfg_1 = 5,
 		name = "Iron Blood HQ",
 		desc = "Iron Blood HQ - world's best tech!",
@@ -196,8 +328,8 @@ pg.backyard_theme_template = {
 			5306,
 			5307
 		}
-	},
-	[7] = {
+	}
+	pg.base.backyard_theme_template[7] = {
 		Cfg_1 = 5,
 		name = "Summer Fun",
 		desc = "Have some watermelon and chill out during your summer vacation.",
@@ -257,8 +389,8 @@ pg.backyard_theme_template = {
 			7303,
 			7304
 		}
-	},
-	[8] = {
+	}
+	pg.base.backyard_theme_template[8] = {
 		Cfg_1 = 5,
 		name = "Ironblood Winery",
 		desc = "Now that you're here, why not have a drink?",
@@ -304,8 +436,8 @@ pg.backyard_theme_template = {
 			8306,
 			8307
 		}
-	},
-	[11] = {
+	}
+	pg.base.backyard_theme_template[11] = {
 		Cfg_1 = 5,
 		name = "Afternoon Tea",
 		desc = "Let's share our secrets about the Commander after tea!",
@@ -360,8 +492,8 @@ pg.backyard_theme_template = {
 			11306,
 			11307
 		}
-	},
-	[13] = {
+	}
+	pg.base.backyard_theme_template[13] = {
 		Cfg_1 = 5,
 		name = "Spooky Mansion ",
 		desc = "No tricks, just treats!",
@@ -416,8 +548,8 @@ pg.backyard_theme_template = {
 			13305,
 			13306
 		}
-	},
-	[14] = {
+	}
+	pg.base.backyard_theme_template[14] = {
 		Cfg_1 = 5,
 		name = "Stars Above",
 		desc = "What secrets could be concealed in the endless expanses of the universe?",
@@ -460,8 +592,8 @@ pg.backyard_theme_template = {
 			14303,
 			14304
 		}
-	},
-	[16] = {
+	}
+	pg.base.backyard_theme_template[16] = {
 		Cfg_1 = 5,
 		name = "Christmas",
 		desc = "Merry Christmas, everyone!",
@@ -531,8 +663,8 @@ pg.backyard_theme_template = {
 				}
 			}
 		}
-	},
-	[17] = {
+	}
+	pg.base.backyard_theme_template[17] = {
 		Cfg_1 = 5,
 		name = "Sakura Empire Shougatsu",
 		desc = "Happy New Year, girls!",
@@ -599,8 +731,8 @@ pg.backyard_theme_template = {
 				}
 			}
 		}
-	},
-	[18] = {
+	}
+	pg.base.backyard_theme_template[18] = {
 		Cfg_1 = 5,
 		name = "Gaming Industry",
 		desc = "Who wants to make some games together?",
@@ -641,8 +773,8 @@ pg.backyard_theme_template = {
 			18305,
 			18306
 		}
-	},
-	[19] = {
+	}
+	pg.base.backyard_theme_template[19] = {
 		Cfg_1 = 5,
 		name = "Lunar New Year ",
 		desc = "Happy (Lunar) New Year! ",
@@ -714,8 +846,8 @@ pg.backyard_theme_template = {
 				}
 			}
 		}
-	},
-	[20] = {
+	}
+	pg.base.backyard_theme_template[20] = {
 		Cfg_1 = 5,
 		name = "Manjuu Park",
 		desc = "Welcome to Manjuu Park!",
@@ -748,8 +880,8 @@ pg.backyard_theme_template = {
 			20113,
 			20114
 		}
-	},
-	[21] = {
+	}
+	pg.base.backyard_theme_template[21] = {
 		Cfg_1 = 5,
 		name = "Mariage d'Amour",
 		desc = "May this be the happiest day of your lives.",
@@ -791,8 +923,8 @@ pg.backyard_theme_template = {
 			21301,
 			21302
 		}
-	},
-	[22] = {
+	}
+	pg.base.backyard_theme_template[22] = {
 		Cfg_1 = 5,
 		name = "Royal Metropolis",
 		desc = "Natural, elegant, and refined - this is the capital city that the Royal Navy dreams of.",
@@ -833,8 +965,8 @@ pg.backyard_theme_template = {
 			22304,
 			22305
 		}
-	},
-	[23] = {
+	}
+	pg.base.backyard_theme_template[23] = {
 		Cfg_1 = 5,
 		name = "Playground",
 		desc = "Let's have some fun on the slide!",
@@ -873,8 +1005,8 @@ pg.backyard_theme_template = {
 			23306,
 			23307
 		}
-	},
-	[24] = {
+	}
+	pg.base.backyard_theme_template[24] = {
 		Cfg_1 = 5,
 		name = "Cat Café",
 		desc = "Cuddly cats, creamy coffee, paw-ful puns; you name it, we've got it here at the Cat Café!",
@@ -921,8 +1053,8 @@ pg.backyard_theme_template = {
 			24305,
 			24306
 		}
-	},
-	[27] = {
+	}
+	pg.base.backyard_theme_template[27] = {
 		Cfg_1 = 5,
 		name = "Summer Water Park",
 		desc = "It's time to take a cool, refreshing dip!",
@@ -968,8 +1100,8 @@ pg.backyard_theme_template = {
 			27202,
 			27301
 		}
-	},
-	[28] = {
+	}
+	pg.base.backyard_theme_template[28] = {
 		Cfg_1 = 5,
 		name = "Forest House",
 		desc = "Embrace tradition and live in harmony with nature.",
@@ -1033,8 +1165,8 @@ pg.backyard_theme_template = {
 			28306,
 			28307
 		}
-	},
-	[29] = {
+	}
+	pg.base.backyard_theme_template[29] = {
 		Cfg_1 = 5,
 		name = "Under the Sea",
 		desc = "Come see the aquatic wonders that await you beneath the surface!",
@@ -1078,8 +1210,8 @@ pg.backyard_theme_template = {
 			29301,
 			29302
 		}
-	},
-	[30] = {
+	}
+	pg.base.backyard_theme_template[30] = {
 		Cfg_1 = 5,
 		name = "Rainbow Room",
 		desc = "Never before has there been this much color in one place!",
@@ -1124,8 +1256,8 @@ pg.backyard_theme_template = {
 			30302,
 			30303
 		}
-	},
-	[31] = {
+	}
+	pg.base.backyard_theme_template[31] = {
 		Cfg_1 = 5,
 		name = "Atré Akihabara",
 		desc = "Atré Series",
@@ -1146,8 +1278,8 @@ pg.backyard_theme_template = {
 			31103,
 			31104
 		}
-	},
-	[33] = {
+	}
+	pg.base.backyard_theme_template[33] = {
 		Cfg_1 = 5,
 		name = "Spooky Monster Festival",
 		desc = "Bwahahah! Welcome to the Spooky Monster Festival!",
@@ -1194,8 +1326,8 @@ pg.backyard_theme_template = {
 			33305,
 			33306
 		}
-	},
-	[35] = {
+	}
+	pg.base.backyard_theme_template[35] = {
 		Cfg_1 = 5,
 		name = "Ghostly Witch House ",
 		desc = "Welcome to the Halloween Park! ",
@@ -1274,8 +1406,8 @@ pg.backyard_theme_template = {
 				}
 			}
 		}
-	},
-	[37] = {
+	}
+	pg.base.backyard_theme_template[37] = {
 		Cfg_1 = 5,
 		name = "Christmas Town",
 		desc = "Enjoy Christmas in this snowy shopping district!",
@@ -1339,8 +1471,8 @@ pg.backyard_theme_template = {
 				}
 			}
 		}
-	},
-	[38] = {
+	}
+	pg.base.backyard_theme_template[38] = {
 		Cfg_1 = 5,
 		name = "Boar Feast",
 		desc = "You'll never be BOARed with furniture like this! ",
@@ -1423,8 +1555,8 @@ pg.backyard_theme_template = {
 				}
 			}
 		}
-	},
-	[39] = {
+	}
+	pg.base.backyard_theme_template[39] = {
 		Cfg_1 = 5,
 		name = "Year of The Boar ",
 		desc = "Some traditional furniture from the Dragon Empery! This set is sure to welcome good luck and prosperity for the upcoming year! ",
@@ -1478,8 +1610,8 @@ pg.backyard_theme_template = {
 			39306,
 			39307
 		}
-	},
-	[40] = {
+	}
+	pg.base.backyard_theme_template[40] = {
 		Cfg_1 = 5,
 		name = "Ski Resort",
 		desc = "Pack your ski gear and thermos, because we're going up in the mountains!",
@@ -1521,8 +1653,8 @@ pg.backyard_theme_template = {
 			40123,
 			40124
 		}
-	},
-	[41] = {
+	}
+	pg.base.backyard_theme_template[41] = {
 		Cfg_1 = 5,
 		name = "Manjuu Amusement Park ",
 		desc = "The mystical, magical Manjuu Amusement Park welcomes one and all! ",
@@ -1557,8 +1689,8 @@ pg.backyard_theme_template = {
 			41115,
 			41116
 		}
-	},
-	[42] = {
+	}
+	pg.base.backyard_theme_template[42] = {
 		Cfg_1 = 5,
 		name = "Traditional Style",
 		desc = "Take a journey to a distant land steeped in a wondrous and rich history.",
@@ -1600,8 +1732,8 @@ pg.backyard_theme_template = {
 			42303,
 			42304
 		}
-	},
-	[43] = {
+	}
+	pg.base.backyard_theme_template[43] = {
 		Cfg_1 = 5,
 		name = "Virtual Room",
 		desc = "Now you too can have a virtual room!",
@@ -1644,8 +1776,8 @@ pg.backyard_theme_template = {
 			43304,
 			43307
 		}
-	},
-	[44] = {
+	}
+	pg.base.backyard_theme_template[44] = {
 		Cfg_1 = 5,
 		name = "Rainy Day",
 		desc = "When you feel under the weather, the world invites you to sing in the rain.",
@@ -1688,8 +1820,8 @@ pg.backyard_theme_template = {
 			44301,
 			44302
 		}
-	},
-	[45] = {
+	}
+	pg.base.backyard_theme_template[45] = {
 		Cfg_1 = 5,
 		name = "Das Bismarckhaus ",
 		desc = "Relax and enjoy the moving sounds of the Iron Blood's finest symphonies. ",
@@ -1778,8 +1910,8 @@ pg.backyard_theme_template = {
 				}
 			}
 		}
-	},
-	[46] = {
+	}
+	pg.base.backyard_theme_template[46] = {
 		Cfg_1 = 5,
 		name = "Cyberspace",
 		desc = "Authenticating... Complete. Greetings, User. Welcome to the Cyberspace.",
@@ -1831,8 +1963,8 @@ pg.backyard_theme_template = {
 			46304,
 			46305
 		}
-	},
-	[47] = {
+	}
+	pg.base.backyard_theme_template[47] = {
 		Cfg_1 = 5,
 		name = "The Big Leagues",
 		desc = "If you build it, they will come.",
@@ -1884,8 +2016,8 @@ pg.backyard_theme_template = {
 			47306,
 			47307
 		}
-	},
-	[48] = {
+	}
+	pg.base.backyard_theme_template[48] = {
 		Cfg_1 = 5,
 		name = "Slice of Sardegna",
 		desc = "Experience all the oppressive... er, impressive sights of the Sardegna Empire compressed into a single room.",
@@ -1931,8 +2063,8 @@ pg.backyard_theme_template = {
 			48302,
 			48303
 		}
-	},
-	[49] = {
+	}
+	pg.base.backyard_theme_template[49] = {
 		Cfg_1 = 5,
 		name = "Upgraded Naval Office ",
 		desc = "",
@@ -1978,8 +2110,8 @@ pg.backyard_theme_template = {
 			49304,
 			49305
 		}
-	},
-	[50] = {
+	}
+	pg.base.backyard_theme_template[50] = {
 		Cfg_1 = 5,
 		name = "On The Road",
 		desc = "Get your ride ready and let's go on an Eagle Union road trip!",
@@ -2021,8 +2153,8 @@ pg.backyard_theme_template = {
 			50122,
 			50123
 		}
-	},
-	[51] = {
+	}
+	pg.base.backyard_theme_template[51] = {
 		Cfg_1 = 5,
 		name = "Manjuu Night Market ",
 		desc = "Here, every night's a good night for good eatin'. ",
@@ -2058,8 +2190,8 @@ pg.backyard_theme_template = {
 			51117,
 			51118
 		}
-	},
-	[52] = {
+	}
+	pg.base.backyard_theme_template[52] = {
 		Cfg_1 = 5,
 		name = "Halloween Spirit",
 		desc = "It's Halloween! Time for tricks and treats, thrills and chills, and spooks and zoinks!",
@@ -2096,8 +2228,8 @@ pg.backyard_theme_template = {
 			52117,
 			52118
 		}
-	},
-	[53] = {
+	}
+	pg.base.backyard_theme_template[53] = {
 		Cfg_1 = 5,
 		name = "Passionate Live!",
 		desc = "It's showtime!",
@@ -2134,8 +2266,8 @@ pg.backyard_theme_template = {
 			53303,
 			53304
 		}
-	},
-	[54] = {
+	}
+	pg.base.backyard_theme_template[54] = {
 		Cfg_1 = 5,
 		name = "pocky",
 		desc = "pocky",
@@ -2157,8 +2289,8 @@ pg.backyard_theme_template = {
 			54104,
 			54105
 		}
-	},
-	[55] = {
+	}
+	pg.base.backyard_theme_template[55] = {
 		Cfg_1 = 5,
 		name = "Hololive ",
 		desc = "Hololive Virtual Idol Project. ",
@@ -2214,8 +2346,8 @@ pg.backyard_theme_template = {
 			55306,
 			55307
 		}
-	},
-	[56] = {
+	}
+	pg.base.backyard_theme_template[56] = {
 		Cfg_1 = 5,
 		name = "Fairytale Town",
 		desc = "This snowy town reminds you of warm days immersed in your favorite Christmas tales.",
@@ -2247,8 +2379,8 @@ pg.backyard_theme_template = {
 			56112,
 			56113
 		}
-	},
-	[57] = {
+	}
+	pg.base.backyard_theme_template[57] = {
 		Cfg_1 = 5,
 		name = "Shrine Visit's Eve",
 		desc = "May your new year be auspicious, joyous, and most importantly, delicious.",
@@ -2284,8 +2416,8 @@ pg.backyard_theme_template = {
 			57116,
 			57117
 		}
-	},
-	[58] = {
+	}
+	pg.base.backyard_theme_template[58] = {
 		Cfg_1 = 5,
 		name = "Festive Reunion!",
 		desc = "Cheers to another year of prosperity and good health!",
@@ -2321,8 +2453,8 @@ pg.backyard_theme_template = {
 			58303,
 			58304
 		}
-	},
-	[59] = {
+	}
+	pg.base.backyard_theme_template[59] = {
 		Cfg_1 = 5,
 		name = "Dreamy Memento ",
 		desc = "As long as we're together, every day is a dreamlike journey. ",
@@ -2356,8 +2488,8 @@ pg.backyard_theme_template = {
 			59302,
 			59303
 		}
-	},
-	[60] = {
+	}
+	pg.base.backyard_theme_template[60] = {
 		Cfg_1 = 5,
 		name = "Polar Penitentiary",
 		desc = "Get out your blanket, borscht, and harmonica, because you'll be staying here a while.",
@@ -2403,8 +2535,8 @@ pg.backyard_theme_template = {
 			60304,
 			60305
 		}
-	},
-	[61] = {
+	}
+	pg.base.backyard_theme_template[61] = {
 		Cfg_1 = 5,
 		name = "Manjuu Sports Meet",
 		desc = "Running! Jumping! Ballgames of all kinds! There's something for everyone here.",
@@ -2450,8 +2582,8 @@ pg.backyard_theme_template = {
 			61302,
 			61303
 		}
-	},
-	[62] = {
+	}
+	pg.base.backyard_theme_template[62] = {
 		Cfg_1 = 5,
 		name = "Iris Countryside ",
 		desc = "Bask in the idyllic Iris scenery as you sip from a glass of fine wine. ",
@@ -2486,8 +2618,8 @@ pg.backyard_theme_template = {
 			62115,
 			62116
 		}
-	},
-	[63] = {
+	}
+	pg.base.backyard_theme_template[63] = {
 		Cfg_1 = 5,
 		name = "Manjuu Pizzeria",
 		desc = "Pineapple, pepperoni, and anchovies, oh mamma mia!",
@@ -2524,8 +2656,8 @@ pg.backyard_theme_template = {
 			63303,
 			63304
 		}
-	},
-	[65] = {
+	}
+	pg.base.backyard_theme_template[65] = {
 		Cfg_1 = 5,
 		name = "Sakura Courtyard",
 		desc = "Sit down, meditate, and take in this rich wabi-sabi scenery.",
@@ -2564,8 +2696,8 @@ pg.backyard_theme_template = {
 			65119,
 			65301
 		}
-	},
-	[66] = {
+	}
+	pg.base.backyard_theme_template[66] = {
 		Cfg_1 = 5,
 		name = "Passion for Acceleration",
 		desc = "Pedal to the metal and Eurobeat on the CD player! Hit it, chief!",
@@ -2605,8 +2737,8 @@ pg.backyard_theme_template = {
 			66120,
 			66121
 		}
-	},
-	[68] = {
+	}
+	pg.base.backyard_theme_template[68] = {
 		Cfg_1 = 5,
 		name = "Manjuuversal Studios",
 		desc = "Immerse yourself in the marvelous universe of movies!",
@@ -2636,8 +2768,8 @@ pg.backyard_theme_template = {
 			68110,
 			68111
 		}
-	},
-	[69] = {
+	}
+	pg.base.backyard_theme_template[69] = {
 		Cfg_1 = 5,
 		name = "Manjuu Infirmary",
 		desc = "The latest and greatest in medical science is all in here. Now, turn your head and cough.",
@@ -2682,8 +2814,8 @@ pg.backyard_theme_template = {
 			69308,
 			69309
 		}
-	},
-	[70] = {
+	}
+	pg.base.backyard_theme_template[70] = {
 		Cfg_1 = 5,
 		name = "Unison Stage!",
 		desc = "May our songs be heard from the stars above!",
@@ -2718,8 +2850,8 @@ pg.backyard_theme_template = {
 			70115,
 			70116
 		}
-	},
-	[71] = {
+	}
+	pg.base.backyard_theme_template[71] = {
 		Cfg_1 = 5,
 		name = "Haunted House",
 		desc = "Shh! Hear that? Whatever you do, don't look behind you.",
@@ -2754,8 +2886,8 @@ pg.backyard_theme_template = {
 			71115,
 			71301
 		}
-	},
-	[72] = {
+	}
+	pg.base.backyard_theme_template[72] = {
 		Cfg_1 = 5,
 		name = "Venus Vacation ",
 		desc = "Time to get away from it all and play some beach volleyball. ",
@@ -2797,8 +2929,8 @@ pg.backyard_theme_template = {
 			72122,
 			72123
 		}
-	},
-	[73] = {
+	}
+	pg.base.backyard_theme_template[73] = {
 		Cfg_1 = 5,
 		name = "Cozy Christmas",
 		desc = "Gather 'round, m'dear, for the coziest time of year is here!",
@@ -2843,8 +2975,8 @@ pg.backyard_theme_template = {
 			73304,
 			73305
 		}
-	},
-	[74] = {
+	}
+	pg.base.backyard_theme_template[74] = {
 		Cfg_1 = 5,
 		name = "Snowy New Year Street",
 		desc = "Snow on the streets bodes a year full of glee.",
@@ -2881,8 +3013,8 @@ pg.backyard_theme_template = {
 			74117,
 			74118
 		}
-	},
-	[75] = {
+	}
+	pg.base.backyard_theme_template[75] = {
 		Cfg_1 = 5,
 		name = "Spring Jubilee",
 		desc = "Gather 'round to celebrate the Lunar New Year!",
@@ -2918,8 +3050,8 @@ pg.backyard_theme_template = {
 			75116,
 			75301
 		}
-	},
-	[76] = {
+	}
+	pg.base.backyard_theme_template[76] = {
 		Cfg_1 = 5,
 		name = "Panda Paradise",
 		desc = "Let's welcome our panda friends!",
@@ -2966,8 +3098,8 @@ pg.backyard_theme_template = {
 			76304,
 			76305
 		}
-	},
-	[77] = {
+	}
+	pg.base.backyard_theme_template[77] = {
 		Cfg_1 = 5,
 		name = "Northern Wonderland",
 		desc = "Stay indoors, sip something warm, and task someone else with shoveling the snow.",
@@ -3002,8 +3134,8 @@ pg.backyard_theme_template = {
 			77115,
 			77116
 		}
-	},
-	[78] = {
+	}
+	pg.base.backyard_theme_template[78] = {
 		Cfg_1 = 5,
 		name = "St. Manjuu Chapel",
 		desc = "See the great Sardegnian chapel, built by the most renowned craftsmen of... the Iris Libre, apparently.",
@@ -3037,8 +3169,8 @@ pg.backyard_theme_template = {
 			78114,
 			78115
 		}
-	},
-	[79] = {
+	}
+	pg.base.backyard_theme_template[79] = {
 		Cfg_1 = 5,
 		name = "765 Production ",
 		desc = "Where dreams come true, idols blossom, and the business is managed! ",
@@ -3086,8 +3218,8 @@ pg.backyard_theme_template = {
 			79307,
 			79308
 		}
-	},
-	[80] = {
+	}
+	pg.base.backyard_theme_template[80] = {
 		Cfg_1 = 5,
 		name = "Bunny Girl Bar",
 		desc = "Bunnies, beverages, and billiards – triple B!",
@@ -3120,8 +3252,8 @@ pg.backyard_theme_template = {
 			80305,
 			80306
 		}
-	},
-	[81] = {
+	}
+	pg.base.backyard_theme_template[81] = {
 		Cfg_1 = 5,
 		name = "Manjuu High School",
 		desc = "No thoughts, head empty? Then let's get you educated.",
@@ -3162,8 +3294,8 @@ pg.backyard_theme_template = {
 			81305,
 			81306
 		}
-	},
-	[82] = {
+	}
+	pg.base.backyard_theme_template[82] = {
 		Cfg_1 = 5,
 		name = "Manjuu Frontier Town",
 		desc = "Be rootin', be tootin', and by god be shootin' in this town.",
@@ -3201,8 +3333,8 @@ pg.backyard_theme_template = {
 			82122,
 			82123
 		}
-	},
-	[83] = {
+	}
+	pg.base.backyard_theme_template[83] = {
 		Cfg_1 = 5,
 		name = "Manjuu Summer Festival",
 		desc = "Come experience the food and culture under the summer moonlight.",
@@ -3234,8 +3366,8 @@ pg.backyard_theme_template = {
 			83116,
 			83117
 		}
-	},
-	[84] = {
+	}
+	pg.base.backyard_theme_template[84] = {
 		Cfg_1 = 5,
 		name = "Model City ",
 		desc = "Alert! Kaiju-sized shipgirls are approaching the city! ",
@@ -3290,8 +3422,8 @@ pg.backyard_theme_template = {
 			84177,
 			84178
 		}
-	},
-	[85] = {
+	}
+	pg.base.backyard_theme_template[85] = {
 		Cfg_1 = 5,
 		name = "Port Café",
 		desc = "What'll it be? The usual? Or do you want to get... experimental?",
@@ -3339,8 +3471,8 @@ pg.backyard_theme_template = {
 			85308,
 			85309
 		}
-	},
-	[86] = {
+	}
+	pg.base.backyard_theme_template[86] = {
 		Cfg_1 = 5,
 		name = "Dragon Empery Estate",
 		desc = "An opulent Dragon Empery estate. Slightly out of season, but ever-popular!",
@@ -3378,8 +3510,8 @@ pg.backyard_theme_template = {
 			86119,
 			86301
 		}
-	},
-	[87] = {
+	}
+	pg.base.backyard_theme_template[87] = {
 		Cfg_1 = 5,
 		name = "Manjuu Campus",
 		desc = "Back to school with you! But remember to still do your dailies.",
@@ -3414,8 +3546,8 @@ pg.backyard_theme_template = {
 			87130,
 			87131
 		}
-	},
-	[88] = {
+	}
+	pg.base.backyard_theme_template[88] = {
 		Cfg_1 = 5,
 		name = "The Count's Castle",
 		desc = "\"Won't you stay for dinner? Don't be afraid – I won't bite.\"",
@@ -3455,8 +3587,8 @@ pg.backyard_theme_template = {
 			88304,
 			88305
 		}
-	},
-	[89] = {
+	}
+	pg.base.backyard_theme_template[89] = {
 		Cfg_1 = 5,
 		name = "Empery Chic",
 		desc = "Simple yet sophisticated, elegant yet restrained.",
@@ -3501,8 +3633,8 @@ pg.backyard_theme_template = {
 			89307,
 			89309
 		}
-	},
-	[90] = {
+	}
+	pg.base.backyard_theme_template[90] = {
 		Cfg_1 = 5,
 		name = "Fairy Tale Forest",
 		desc = "♪ Is this the folk tale? Is this just fantasy? ♪",
@@ -3540,8 +3672,8 @@ pg.backyard_theme_template = {
 			90125,
 			90127
 		}
-	},
-	[91] = {
+	}
+	pg.base.backyard_theme_template[91] = {
 		Cfg_1 = 5,
 		name = "Manjuu Ballroom",
 		desc = "It's time to show off the fruits of your dance rehearsals.",
@@ -3590,8 +3722,8 @@ pg.backyard_theme_template = {
 			91304,
 			91305
 		}
-	},
-	[92] = {
+	}
+	pg.base.backyard_theme_template[92] = {
 		Cfg_1 = 5,
 		name = "Fast Food Joint",
 		desc = "Mmm. Delicious, delicious cholesterol.",
@@ -3623,8 +3755,8 @@ pg.backyard_theme_template = {
 			92307,
 			92308
 		}
-	},
-	[93] = {
+	}
+	pg.base.backyard_theme_template[93] = {
 		Cfg_1 = 5,
 		name = "Breezy Summer",
 		desc = "The full outdoor summer experience, but indoors!",
@@ -3662,8 +3794,8 @@ pg.backyard_theme_template = {
 			93119,
 			93120
 		}
-	},
-	[94] = {
+	}
+	pg.base.backyard_theme_template[94] = {
 		Cfg_1 = 5,
 		name = "Manjuu Academy Festival",
 		desc = "Haven't chosen a club to join yet? This festival will help you decide!",
@@ -3703,8 +3835,8 @@ pg.backyard_theme_template = {
 			94305,
 			94306
 		}
-	},
-	[95] = {
+	}
+	pg.base.backyard_theme_template[95] = {
 		Cfg_1 = 5,
 		name = "Alchemist's Atelier",
 		desc = "Welcome to Ryza's atelier!",
@@ -3752,8 +3884,8 @@ pg.backyard_theme_template = {
 			95304,
 			95305
 		}
-	},
-	[96] = {
+	}
+	pg.base.backyard_theme_template[96] = {
 		Cfg_1 = 5,
 		name = "Beach Cabin",
 		desc = "It's summer all year round in here!",
@@ -3792,8 +3924,8 @@ pg.backyard_theme_template = {
 			96306,
 			96307
 		}
-	},
-	[97] = {
+	}
+	pg.base.backyard_theme_template[97] = {
 		Cfg_1 = 5,
 		name = "Gourmet Garden",
 		desc = "A paradise of flavors and colors!",
@@ -3834,8 +3966,8 @@ pg.backyard_theme_template = {
 			97130,
 			97301
 		}
-	},
-	[98] = {
+	}
+	pg.base.backyard_theme_template[98] = {
 		Cfg_1 = 5,
 		name = "Royal Academy",
 		desc = "Experience the most graceful education money can buy.",
@@ -3893,8 +4025,8 @@ pg.backyard_theme_template = {
 			98313,
 			98314
 		}
-	},
-	[99] = {
+	}
+	pg.base.backyard_theme_template[99] = {
 		Cfg_1 = 5,
 		name = "Legendary Bathhouse",
 		desc = "Within plumes of gentle steam, you seem to find the meaning of life.",
@@ -3939,8 +4071,8 @@ pg.backyard_theme_template = {
 			99303,
 			99304
 		}
-	},
-	[100] = {
+	}
+	pg.base.backyard_theme_template[100] = {
 		Cfg_1 = 5,
 		name = "Deserted Island",
 		desc = "We'll build our own island camp, with tents and manjuus!",
@@ -3986,8 +4118,8 @@ pg.backyard_theme_template = {
 			300201,
 			300202
 		}
-	},
-	[101] = {
+	}
+	pg.base.backyard_theme_template[101] = {
 		Cfg_1 = 5,
 		name = "Manjuu Manor",
 		desc = "Tranquil and romantic. A place to get away from it all and smell the roses.",
@@ -4027,8 +4159,8 @@ pg.backyard_theme_template = {
 			301120,
 			301123
 		}
-	},
-	[102] = {
+	}
+	pg.base.backyard_theme_template[102] = {
 		Cfg_1 = 5,
 		name = "Palais Élégant",
 		desc = "Gold, silk, and marble – savor all the splendor of a classical palace!",
@@ -4075,8 +4207,8 @@ pg.backyard_theme_template = {
 			302303,
 			302304
 		}
-	},
-	[103] = {
+	}
+	pg.base.backyard_theme_template[103] = {
 		Cfg_1 = 5,
 		name = "Youkai Resort",
 		desc = "The spirits have gathered tonight not to haunt, but to have a good time!",
@@ -4110,8 +4242,8 @@ pg.backyard_theme_template = {
 			303117,
 			303119
 		}
-	},
-	[104] = {
+	}
+	pg.base.backyard_theme_template[104] = {
 		Cfg_1 = 5,
 		name = "Pirate Cabin",
 		desc = "Hoist sails and weigh anchor! There be booty to be found!",
@@ -4167,8 +4299,8 @@ pg.backyard_theme_template = {
 			304119,
 			304108
 		}
-	},
-	[105] = {
+	}
+	pg.base.backyard_theme_template[105] = {
 		Cfg_1 = 5,
 		name = "Shinobi Mansion",
 		desc = "Do you want to experience the ninja life? Then apply to the Shinobi Mansion today!",
@@ -4206,8 +4338,8 @@ pg.backyard_theme_template = {
 			305305,
 			305306
 		}
-	},
-	[106] = {
+	}
+	pg.base.backyard_theme_template[106] = {
 		Cfg_1 = 5,
 		name = "Port Night Club",
 		desc = "Lights! Music! Come on, people, let's make some noise!",
@@ -4238,8 +4370,8 @@ pg.backyard_theme_template = {
 			306112,
 			306114
 		}
-	},
-	[107] = {
+	}
+	pg.base.backyard_theme_template[107] = {
 		Cfg_1 = 5,
 		name = "Year of the Dragon",
 		desc = "The dragon brings good fortune upon the spring winds!",
@@ -4270,8 +4402,8 @@ pg.backyard_theme_template = {
 			307113,
 			307114
 		}
-	},
-	[108] = {
+	}
+	pg.base.backyard_theme_template[108] = {
 		Cfg_1 = 5,
 		name = "Phantom Thief's Riddle Room",
 		desc = "Welcome to the phantom thief's secret hideout! Try not to get lost!",
@@ -4312,8 +4444,8 @@ pg.backyard_theme_template = {
 			308303,
 			308304
 		}
-	},
-	[109] = {
+	}
+	pg.base.backyard_theme_template[109] = {
 		Cfg_1 = 5,
 		name = "Sorcerer's Magic Cabin",
 		desc = "Come inside the cabin deep in the woods, where hexes and magic fill every nook and cranny!",
@@ -4347,8 +4479,8 @@ pg.backyard_theme_template = {
 			309301,
 			309302
 		}
-	},
-	[110] = {
+	}
+	pg.base.backyard_theme_template[110] = {
 		Cfg_1 = 5,
 		name = "Starlit Backstage",
 		desc = "Powder your nose and check your outfit, then it's showtime!",
@@ -4392,8 +4524,8 @@ pg.backyard_theme_template = {
 			310309,
 			310310
 		}
-	},
-	[111] = {
+	}
+	pg.base.backyard_theme_template[111] = {
 		Cfg_1 = 5,
 		name = "Holiday Cruise",
 		desc = "Take to the sea and feel the breeze, smell the air, and bask in luxury!",
@@ -4427,8 +4559,8 @@ pg.backyard_theme_template = {
 			311114,
 			311115
 		}
-	},
-	[112] = {
+	}
+	pg.base.backyard_theme_template[112] = {
 		Cfg_1 = 5,
 		name = "Racer's Café",
 		desc = "Speed! Thrills! Energy! And a cappuccino to go!",
@@ -4462,8 +4594,10 @@ pg.backyard_theme_template = {
 			312301,
 			312302
 		}
-	},
-	[113] = {
+	}
+end)()
+(function ()
+	pg.base.backyard_theme_template[113] = {
 		Cfg_1 = 5,
 		name = "Frontier Saloon",
 		desc = "Have a good time, but keep the fights outside!",
@@ -4497,8 +4631,8 @@ pg.backyard_theme_template = {
 			313302,
 			313303
 		}
-	},
-	[114] = {
+	}
+	pg.base.backyard_theme_template[114] = {
 		Cfg_1 = 5,
 		name = "Dream Park",
 		desc = "Dream Park, the land of dreams! Where life is fantasy!",
@@ -4527,8 +4661,8 @@ pg.backyard_theme_template = {
 			314110,
 			314111
 		}
-	},
-	[115] = {
+	}
+	pg.base.backyard_theme_template[115] = {
 		Cfg_1 = 5,
 		name = "Shadowy Port",
 		desc = "Steer clear of the shadows, for one knows not what unspeakable terrors hide there!",
@@ -4559,8 +4693,8 @@ pg.backyard_theme_template = {
 			315111,
 			315112
 		}
-	},
-	[116] = {
+	}
+	pg.base.backyard_theme_template[116] = {
 		Cfg_1 = 5,
 		name = "Princess Style ",
 		desc = "Live like a fairy-tale princess! ",
@@ -4596,8 +4730,8 @@ pg.backyard_theme_template = {
 			316304,
 			316305
 		}
-	},
-	[117] = {
+	}
+	pg.base.backyard_theme_template[117] = {
 		Cfg_1 = 5,
 		name = "Wilderness Safehouse",
 		desc = "The one and only place to catch your breath in a wilderness rife with danger.",
@@ -4628,8 +4762,8 @@ pg.backyard_theme_template = {
 			317302,
 			317303
 		}
-	},
-	[118] = {
+	}
+	pg.base.backyard_theme_template[118] = {
 		Cfg_1 = 5,
 		name = "Spring-Seeker in the Snow",
 		desc = "Let us cross the snow, seeking the plum blossoms that arrive on the spring breeze.",
@@ -4665,8 +4799,8 @@ pg.backyard_theme_template = {
 			318303,
 			318304
 		}
-	},
-	[119] = {
+	}
+	pg.base.backyard_theme_template[119] = {
 		Cfg_1 = 5,
 		name = "Pharaoh's Secret Realm",
 		desc = "Setting foot on this golden land, it feels as though you can hear the echoes of ancient times.",
@@ -4705,8 +4839,8 @@ pg.backyard_theme_template = {
 			319303,
 			319304
 		}
-	},
-	[120] = {
+	}
+	pg.base.backyard_theme_template[120] = {
 		Cfg_1 = 5,
 		name = "Interstellar Medical Station",
 		desc = "Bringing speedy and top-of-the-line care to wherever you may be in the universe.",
@@ -4745,8 +4879,8 @@ pg.backyard_theme_template = {
 			320305,
 			320306
 		}
-	},
-	[121] = {
+	}
+	pg.base.backyard_theme_template[121] = {
 		Cfg_1 = 5,
 		name = "Tulipan Countryside",
 		desc = "Gentle breezes and fragrant flowers – these are the delights of life in the countryside!",
@@ -4782,8 +4916,8 @@ pg.backyard_theme_template = {
 			321117,
 			321118
 		}
-	},
-	[122] = {
+	}
+	pg.base.backyard_theme_template[122] = {
 		Cfg_1 = 5,
 		name = "Seaside Splash",
 		desc = "The beach and white-crested waves! Time for a leisurely vacation by the seaside!",
@@ -4817,8 +4951,8 @@ pg.backyard_theme_template = {
 			322114,
 			322115
 		}
-	},
-	[123] = {
+	}
+	pg.base.backyard_theme_template[123] = {
 		Cfg_1 = 5,
 		name = "Journey by Rail",
 		desc = "Hop on the train, feel the rhythm of the rails, and gaze at the wondrous view out the window!",
@@ -4854,8 +4988,8 @@ pg.backyard_theme_template = {
 			324116,
 			324117
 		}
-	},
-	[124] = {
+	}
+	pg.base.backyard_theme_template[124] = {
 		Cfg_1 = 5,
 		name = "Atelier Break Space",
 		desc = "Things may get busy, but don't forget to take some time off every day.",
@@ -4902,8 +5036,8 @@ pg.backyard_theme_template = {
 			325302,
 			325303
 		}
-	},
-	[125] = {
+	}
+	pg.base.backyard_theme_template[125] = {
 		Cfg_1 = 5,
 		name = "Atelier Workspace",
 		desc = "Stand on the green ground and enjoy a day as an alchemist.",
@@ -4933,8 +5067,8 @@ pg.backyard_theme_template = {
 			326110,
 			326111
 		}
-	},
-	[126] = {
+	}
+	pg.base.backyard_theme_template[126] = {
 		Cfg_1 = 5,
 		name = "Atelier Courtyard",
 		desc = "When you have time to spare, take a stroll around the atelier's courtyard.",
@@ -4972,8 +5106,8 @@ pg.backyard_theme_template = {
 			327301,
 			327302
 		}
-	},
-	[127] = {
+	}
+	pg.base.backyard_theme_template[127] = {
 		Cfg_1 = 5,
 		name = "Sylvan Hot Springs",
 		desc = "Soak in the warm water and breathe in the forest air.",
@@ -5009,8 +5143,8 @@ pg.backyard_theme_template = {
 			328116,
 			328117
 		}
-	},
-	[129] = {
+	}
+	pg.base.backyard_theme_template[129] = {
 		Cfg_1 = 5,
 		name = "Ninja Castle",
 		desc = "Enter the Ninja Castle and have yourself a sneaky adventure full of traps and thrills!",
@@ -5048,8 +5182,8 @@ pg.backyard_theme_template = {
 			329118,
 			329119
 		}
-	},
-	[130] = {
+	}
+	pg.base.backyard_theme_template[130] = {
 		Cfg_1 = 5,
 		name = "Labyrinth City",
 		desc = "Enter the Labyrinth City and stand on the stage where heroes embark on adventures.",
@@ -5069,8 +5203,8 @@ pg.backyard_theme_template = {
 			330002,
 			330101
 		}
-	},
-	[131] = {
+	}
+	pg.base.backyard_theme_template[131] = {
 		Cfg_1 = 5,
 		name = "Airship Interior",
 		desc = "Stand on the bridge and conquer the clouds. Look down upon the battlefield as a torrent of data.",
@@ -5114,8 +5248,8 @@ pg.backyard_theme_template = {
 			331307,
 			331308
 		}
-	},
-	[132] = {
+	}
+	pg.base.backyard_theme_template[132] = {
 		Cfg_1 = 5,
 		name = "Temple of Phantom Light",
 		desc = "Open the lost door and search for the secret, ancient words amidst the twinkling light.",
@@ -5147,8 +5281,8 @@ pg.backyard_theme_template = {
 			332112,
 			332301
 		}
-	},
-	[133] = {
+	}
+	pg.base.backyard_theme_template[133] = {
 		Cfg_1 = 5,
 		name = "Meowing Maid's House",
 		desc = "A maid's house with a cake and cat motif. Sweet and comfy!",
@@ -5186,8 +5320,8 @@ pg.backyard_theme_template = {
 			333118,
 			333301
 		}
-	},
-	[134] = {
+	}
+	pg.base.backyard_theme_template[134] = {
 		Cfg_1 = 5,
 		name = "Fashion Studio",
 		desc = "Step into the studio, get in frame, and get ready to become a fashion icon!",
@@ -5229,8 +5363,8 @@ pg.backyard_theme_template = {
 			334301,
 			334302
 		}
-	},
-	[135] = {
+	}
+	pg.base.backyard_theme_template[135] = {
 		Cfg_1 = 5,
 		name = "Spring Festival Auction",
 		desc = "Step inside the pavilion and feel the rush of a bid raised aloft!",
@@ -5269,8 +5403,8 @@ pg.backyard_theme_template = {
 			335301,
 			335302
 		}
-	},
-	[136] = {
+	}
+	pg.base.backyard_theme_template[136] = {
 		Cfg_1 = 5,
 		name = "Data Command Center",
 		desc = "Immerse yourself in the command center's data stream as you gaze down on the city.",
@@ -5305,8 +5439,8 @@ pg.backyard_theme_template = {
 			336301,
 			336302
 		}
-	},
-	[137] = {
+	}
+	pg.base.backyard_theme_template[137] = {
 		Cfg_1 = 5,
 		name = "Beachside Brilliance",
 		desc = "May brilliant waves and shimmering sunlight illuminate your perfect vacation!",
@@ -5340,131 +5474,5 @@ pg.backyard_theme_template = {
 			337115,
 			337116
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		7,
-		8,
-		11,
-		13,
-		14,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		27,
-		28,
-		29,
-		30,
-		31,
-		33,
-		35,
-		37,
-		38,
-		39,
-		40,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46,
-		47,
-		48,
-		49,
-		50,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56,
-		57,
-		58,
-		59,
-		60,
-		61,
-		62,
-		63,
-		65,
-		66,
-		68,
-		69,
-		70,
-		71,
-		72,
-		73,
-		74,
-		75,
-		76,
-		77,
-		78,
-		79,
-		80,
-		81,
-		82,
-		83,
-		84,
-		85,
-		86,
-		87,
-		88,
-		89,
-		90,
-		91,
-		92,
-		93,
-		94,
-		95,
-		96,
-		97,
-		98,
-		99,
-		100,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		110,
-		111,
-		112,
-		113,
-		114,
-		115,
-		116,
-		117,
-		118,
-		119,
-		120,
-		121,
-		122,
-		123,
-		124,
-		125,
-		126,
-		127,
-		129,
-		130,
-		131,
-		132,
-		133,
-		134,
-		135,
-		136,
-		137
 	}
-}
+end)()

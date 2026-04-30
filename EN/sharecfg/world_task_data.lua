@@ -1,6 +1,200 @@
 pg = pg or {}
-pg.world_task_data = {
-	{
+pg.world_task_data = rawget(pg, "world_task_data") or setmetatable({
+	__name = "world_task_data"
+}, confNEO)
+pg.world_task_data.all = {
+	1,
+	2000,
+	2001,
+	2002,
+	2003,
+	2004,
+	2010,
+	2050,
+	2100,
+	2101,
+	2102,
+	2103,
+	2104,
+	2105,
+	2110,
+	2150,
+	2200,
+	2201,
+	2202,
+	2203,
+	2204,
+	2205,
+	2210,
+	2300,
+	2301,
+	2302,
+	2303,
+	2304,
+	2305,
+	2310,
+	2600,
+	2601,
+	2602,
+	2603,
+	2604,
+	2605,
+	2606,
+	2607,
+	3101,
+	3102,
+	3103,
+	3201,
+	3202,
+	3203,
+	3301,
+	3302,
+	3303,
+	3304,
+	3401,
+	3402,
+	4100,
+	4101,
+	4102,
+	4200,
+	4201,
+	10000,
+	10001,
+	10002,
+	10003,
+	10004,
+	10005,
+	10006,
+	10007,
+	10008,
+	10009,
+	10010,
+	10011,
+	10012,
+	10013,
+	10014,
+	10015,
+	10016,
+	10017,
+	10018,
+	10019,
+	10020,
+	10021,
+	10022,
+	10023,
+	10024,
+	10025,
+	10026,
+	10027,
+	10028,
+	10029,
+	10030,
+	10031,
+	10032,
+	10033,
+	10034,
+	10035,
+	10036,
+	10037,
+	10038,
+	10039,
+	10040,
+	10041,
+	10042,
+	10043,
+	10044,
+	10045,
+	10046,
+	10047,
+	10048,
+	10049,
+	10050,
+	10051,
+	10052,
+	10053,
+	10054,
+	10055,
+	10056,
+	10057,
+	10058,
+	10059,
+	10060,
+	10061,
+	10062,
+	10063,
+	10064,
+	10065,
+	10066,
+	10067,
+	10068,
+	10069,
+	10070,
+	10071,
+	10072,
+	10073,
+	10074,
+	10075,
+	10076,
+	10077,
+	10078,
+	10079,
+	10080,
+	10081,
+	10082,
+	10083,
+	10084,
+	10085,
+	10086,
+	10087,
+	10088,
+	10089,
+	210000,
+	210100,
+	210200,
+	210300,
+	210400,
+	210500,
+	210600,
+	210700,
+	210800,
+	210900,
+	211000,
+	211100,
+	213000,
+	213100,
+	213200,
+	213300,
+	213400,
+	213500,
+	213600,
+	213700,
+	213800,
+	213900,
+	216000,
+	216100,
+	216200,
+	216300,
+	216400,
+	216500,
+	216600,
+	216700,
+	216800,
+	216900,
+	217000,
+	217100,
+	219000,
+	219100,
+	219200,
+	219300,
+	219400,
+	219500,
+	219600
+}
+pg.base = pg.base or {}
+pg.base.world_task_data = {}
+
+(function ()
+	pg.base.world_task_data[1] = {
 		server_type = 1,
 		name = "Zone Investigation",
 		need_task_complete = 0,
@@ -57,8 +251,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2000] = {
+	}
+	pg.base.world_task_data[2000] = {
 		server_type = 1,
 		name = "Chapter 1-2 Deja Vu",
 		need_task_complete = 0,
@@ -125,8 +319,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2001] = {
+	}
+	pg.base.world_task_data[2001] = {
 		server_type = 1,
 		name = "Chapter 1-3 Back to Bermuda",
 		need_task_complete = 0,
@@ -193,8 +387,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2002] = {
+	}
+	pg.base.world_task_data[2002] = {
 		server_type = 1,
 		name = "Chapter 1-4 Crimson Shadow",
 		need_task_complete = 0,
@@ -261,8 +455,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2003] = {
+	}
+	pg.base.world_task_data[2003] = {
 		server_type = 1,
 		name = "Chapter 1-5 Ceasefire Agreement",
 		need_task_complete = 0,
@@ -329,8 +523,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2004] = {
+	}
+	pg.base.world_task_data[2004] = {
 		server_type = 1,
 		name = "Chapter 1-6 Outpost",
 		need_task_complete = 0,
@@ -397,8 +591,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2010] = {
+	}
+	pg.base.world_task_data[2010] = {
 		server_type = 1,
 		name = "Chapter 1-SP Establish Control!",
 		need_task_complete = 0,
@@ -469,8 +663,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2050] = {
+	}
+	pg.base.world_task_data[2050] = {
 		server_type = 1,
 		name = "Chapter 1-1 Set Sail",
 		need_task_complete = 0,
@@ -537,8 +731,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2100] = {
+	}
+	pg.base.world_task_data[2100] = {
 		server_type = 1,
 		name = "Chapter 2-1 Assemble!",
 		need_task_complete = 0,
@@ -607,8 +801,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2101] = {
+	}
+	pg.base.world_task_data[2101] = {
 		server_type = 1,
 		name = "Chapter 2-2 Shoulder-to-Shoulder",
 		need_task_complete = 0,
@@ -675,8 +869,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2102] = {
+	}
+	pg.base.world_task_data[2102] = {
 		server_type = 1,
 		name = "Chapter 2-3 Peripheral Sweep",
 		need_task_complete = 0,
@@ -743,8 +937,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2103] = {
+	}
+	pg.base.world_task_data[2103] = {
 		server_type = 1,
 		name = "Chapter 2-4 SOS Signal",
 		need_task_complete = 0,
@@ -811,8 +1005,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2104] = {
+	}
+	pg.base.world_task_data[2104] = {
 		server_type = 1,
 		name = "Chapter 2-5 Queen’s Contact",
 		need_task_complete = 0,
@@ -879,8 +1073,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2105] = {
+	}
+	pg.base.world_task_data[2105] = {
 		server_type = 1,
 		name = "Chapter 2-6 Formidable Foe",
 		need_task_complete = 0,
@@ -947,8 +1141,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2110] = {
+	}
+	pg.base.world_task_data[2110] = {
 		server_type = 1,
 		name = "Chapter 2-SP Establish Control!",
 		need_task_complete = 0,
@@ -1022,8 +1216,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2150] = {
+	}
+	pg.base.world_task_data[2150] = {
 		server_type = 1,
 		name = "Fleet Size Expansion",
 		need_task_complete = 0,
@@ -1076,8 +1270,8 @@ pg.world_task_data = {
 		},
 		show = {},
 		reset_task = {}
-	},
-	[2200] = {
+	}
+	pg.base.world_task_data[2200] = {
 		server_type = 1,
 		name = "Chapter 3-1 Another Assault",
 		need_task_complete = 0,
@@ -1151,8 +1345,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2201] = {
+	}
+	pg.base.world_task_data[2201] = {
 		server_type = 1,
 		name = "Chapter 3-2 Navigator TB",
 		need_task_complete = 0,
@@ -1224,8 +1418,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2202] = {
+	}
+	pg.base.world_task_data[2202] = {
 		server_type = 1,
 		name = "Chapter 3-3 Friendly Signal",
 		need_task_complete = 0,
@@ -1297,8 +1491,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2203] = {
+	}
+	pg.base.world_task_data[2203] = {
 		server_type = 1,
 		name = "Chapter 3-4 Rescue",
 		need_task_complete = 0,
@@ -1370,8 +1564,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2204] = {
+	}
+	pg.base.world_task_data[2204] = {
 		server_type = 1,
 		name = "Chapter 3-5 Afterimage",
 		need_task_complete = 0,
@@ -1443,8 +1637,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2205] = {
+	}
+	pg.base.world_task_data[2205] = {
 		server_type = 1,
 		name = "Chapter 3-6 One Fell Swoop",
 		need_task_complete = 0,
@@ -1516,8 +1710,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2210] = {
+	}
+	pg.base.world_task_data[2210] = {
 		server_type = 1,
 		name = "Chapter 3-SP Establish Control!",
 		need_task_complete = 0,
@@ -1596,8 +1790,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2300] = {
+	}
+	pg.base.world_task_data[2300] = {
 		server_type = 1,
 		name = "Chapter 4-1 Glimpses of Méditerranée",
 		need_task_complete = 0,
@@ -1671,8 +1865,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2301] = {
+	}
+	pg.base.world_task_data[2301] = {
 		server_type = 1,
 		name = "Chapter 4-2 Taranto Harbor",
 		need_task_complete = 0,
@@ -1744,8 +1938,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2302] = {
+	}
+	pg.base.world_task_data[2302] = {
 		server_type = 1,
 		name = "Chapter 4-3 Dakar Port",
 		need_task_complete = 0,
@@ -1819,8 +2013,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2303] = {
+	}
+	pg.base.world_task_data[2303] = {
 		server_type = 1,
 		name = "Chapter 4-4 Penetration",
 		need_task_complete = 0,
@@ -1892,8 +2086,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2304] = {
+	}
+	pg.base.world_task_data[2304] = {
 		server_type = 1,
 		name = "Chapter 4-5 Sea Fog",
 		need_task_complete = 0,
@@ -1965,8 +2159,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2305] = {
+	}
+	pg.base.world_task_data[2305] = {
 		server_type = 1,
 		name = "Chapter 4-6 Strategic Shift",
 		need_task_complete = 0,
@@ -2038,8 +2232,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2310] = {
+	}
+	pg.base.world_task_data[2310] = {
 		server_type = 1,
 		name = "Chapter 4-SP Establish Control!",
 		need_task_complete = 0,
@@ -2114,8 +2308,8 @@ pg.world_task_data = {
 			100,
 			100
 		}
-	},
-	[2600] = {
+	}
+	pg.base.world_task_data[2600] = {
 		server_type = 1,
 		name = "Chapter 5-1 - Bogged Down",
 		need_task_complete = 0,
@@ -2187,8 +2381,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2601] = {
+	}
+	pg.base.world_task_data[2601] = {
 		server_type = 1,
 		name = "Chapter 5-2 - Coordinates",
 		need_task_complete = 0,
@@ -2260,8 +2454,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2602] = {
+	}
+	pg.base.world_task_data[2602] = {
 		server_type = 1,
 		name = "Chapter 5-3 - The Phantom",
 		need_task_complete = 0,
@@ -2333,8 +2527,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2603] = {
+	}
+	pg.base.world_task_data[2603] = {
 		server_type = 1,
 		name = "Chapter 5-4 - Teatime",
 		need_task_complete = 0,
@@ -2406,8 +2600,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2604] = {
+	}
+	pg.base.world_task_data[2604] = {
 		server_type = 1,
 		name = "Chapter 5-5 - All-Out Offensive",
 		need_task_complete = 0,
@@ -2479,8 +2673,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2605] = {
+	}
+	pg.base.world_task_data[2605] = {
 		server_type = 1,
 		name = "Chapter 5-6-0 - Torus",
 		need_task_complete = 0,
@@ -2552,8 +2746,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2606] = {
+	}
+	pg.base.world_task_data[2606] = {
 		server_type = 1,
 		name = "Chapter 5-6-1 - Point of Convergence",
 		need_task_complete = 0,
@@ -2625,8 +2819,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2607] = {
+	}
+	pg.base.world_task_data[2607] = {
 		server_type = 1,
 		name = "Chapter 5-6-2 - Deep Circulation",
 		need_task_complete = 0,
@@ -2703,8 +2897,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[3101] = {
+	}
+	pg.base.world_task_data[3101] = {
 		server_type = 2,
 		name = "Investigate Siren Research Facility No. Q2A7L.",
 		need_task_complete = 0,
@@ -2766,8 +2960,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[3102] = {
+	}
+	pg.base.world_task_data[3102] = {
 		server_type = 2,
 		name = "Investigate Siren Research Facility No. MY4BE.",
 		need_task_complete = 0,
@@ -2829,8 +3023,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[3103] = {
+	}
+	pg.base.world_task_data[3103] = {
 		server_type = 2,
 		name = "Investigate Siren Research Facility No. K8ALD.",
 		need_task_complete = 0,
@@ -2892,8 +3086,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[3201] = {
+	}
+	pg.base.world_task_data[3201] = {
 		server_type = 2,
 		name = "Investigate Siren Research Facility No. EMHOD.",
 		need_task_complete = 0,
@@ -2955,8 +3149,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[3202] = {
+	}
+	pg.base.world_task_data[3202] = {
 		server_type = 2,
 		name = "Investigate Siren Research Facility No. 3PF6Z.",
 		need_task_complete = 0,
@@ -3018,8 +3212,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[3203] = {
+	}
+	pg.base.world_task_data[3203] = {
 		server_type = 2,
 		name = "Investigate Siren Research Facility No. COU42.",
 		need_task_complete = 0,
@@ -3081,8 +3275,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[3301] = {
+	}
+	pg.base.world_task_data[3301] = {
 		server_type = 2,
 		name = "Investigate Siren Research Facility No. E8BIJ.",
 		need_task_complete = 0,
@@ -3144,8 +3338,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[3302] = {
+	}
+	pg.base.world_task_data[3302] = {
 		server_type = 2,
 		name = "Investigate Siren Research Facility No. 9RYH2.",
 		need_task_complete = 0,
@@ -3207,8 +3401,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[3303] = {
+	}
+	pg.base.world_task_data[3303] = {
 		server_type = 2,
 		name = "Investigate Siren Research Facility No. ZKT5G.",
 		need_task_complete = 0,
@@ -3270,8 +3464,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[3304] = {
+	}
+	pg.base.world_task_data[3304] = {
 		server_type = 2,
 		name = "Investigate Siren Research Facility No. YH16W.",
 		need_task_complete = 0,
@@ -3333,8 +3527,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[3401] = {
+	}
+	pg.base.world_task_data[3401] = {
 		server_type = 2,
 		name = "Investigate Siren Research Facility No. SLUIA.",
 		need_task_complete = 0,
@@ -3396,8 +3590,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[3402] = {
+	}
+	pg.base.world_task_data[3402] = {
 		server_type = 2,
 		name = "Investigate Siren Research Facility No. EC57Y.",
 		need_task_complete = 0,
@@ -3459,8 +3653,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[4100] = {
+	}
+	pg.base.world_task_data[4100] = {
 		server_type = 1,
 		name = "Practice Battle: Enforcer XIV",
 		need_task_complete = 0,
@@ -3524,8 +3718,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[4101] = {
+	}
+	pg.base.world_task_data[4101] = {
 		server_type = 1,
 		name = "Practice Battle: Enforcer VIII",
 		need_task_complete = 0,
@@ -3589,8 +3783,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[4102] = {
+	}
+	pg.base.world_task_data[4102] = {
 		server_type = 1,
 		name = "Practice Battle: Enforcer IX",
 		need_task_complete = 0,
@@ -3654,8 +3848,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[4200] = {
+	}
+	pg.base.world_task_data[4200] = {
 		server_type = 3,
 		name = "Arbiter (Normal)",
 		need_task_complete = 0,
@@ -3709,8 +3903,8 @@ pg.world_task_data = {
 			200,
 			300
 		}
-	},
-	[4201] = {
+	}
+	pg.base.world_task_data[4201] = {
 		server_type = 3,
 		name = "Arbiter (Hard)",
 		need_task_complete = 0,
@@ -3759,8 +3953,8 @@ pg.world_task_data = {
 		},
 		show = {},
 		reset_task = {}
-	},
-	[10000] = {
+	}
+	pg.base.world_task_data[10000] = {
 		server_type = 4,
 		name = "File Mission 141-1",
 		need_task_complete = 0,
@@ -3834,8 +4028,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10001] = {
+	}
+	pg.base.world_task_data[10001] = {
 		server_type = 4,
 		name = "File Mission 141-2",
 		need_task_complete = 0,
@@ -3909,8 +4103,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10002] = {
+	}
+	pg.base.world_task_data[10002] = {
 		server_type = 4,
 		name = "File Mission 141-3",
 		need_task_complete = 0,
@@ -3984,8 +4178,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10003] = {
+	}
+	pg.base.world_task_data[10003] = {
 		server_type = 4,
 		name = "File Mission 141-4",
 		need_task_complete = 0,
@@ -4059,8 +4253,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10004] = {
+	}
+	pg.base.world_task_data[10004] = {
 		server_type = 4,
 		name = "File Mission 141-5",
 		need_task_complete = 0,
@@ -4134,8 +4328,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10005] = {
+	}
+	pg.base.world_task_data[10005] = {
 		server_type = 4,
 		name = "File Mission 141-6",
 		need_task_complete = 0,
@@ -4209,8 +4403,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10006] = {
+	}
+	pg.base.world_task_data[10006] = {
 		server_type = 4,
 		name = "File Mission 142-1",
 		need_task_complete = 0,
@@ -4284,8 +4478,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10007] = {
+	}
+	pg.base.world_task_data[10007] = {
 		server_type = 4,
 		name = "File Mission 142-2",
 		need_task_complete = 0,
@@ -4359,8 +4553,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10008] = {
+	}
+	pg.base.world_task_data[10008] = {
 		server_type = 4,
 		name = "File Mission 142-3",
 		need_task_complete = 0,
@@ -4434,8 +4628,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10009] = {
+	}
+	pg.base.world_task_data[10009] = {
 		server_type = 4,
 		name = "File Mission 142-4",
 		need_task_complete = 0,
@@ -4507,8 +4701,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10010] = {
+	}
+	pg.base.world_task_data[10010] = {
 		server_type = 4,
 		name = "File Mission 142-5",
 		need_task_complete = 0,
@@ -4582,8 +4776,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10011] = {
+	}
+	pg.base.world_task_data[10011] = {
 		server_type = 4,
 		name = "File Mission 142-6",
 		need_task_complete = 0,
@@ -4657,8 +4851,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10012] = {
+	}
+	pg.base.world_task_data[10012] = {
 		server_type = 4,
 		name = "File Mission 111-1",
 		need_task_complete = 0,
@@ -4732,8 +4926,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10013] = {
+	}
+	pg.base.world_task_data[10013] = {
 		server_type = 4,
 		name = "File Mission 111-2",
 		need_task_complete = 0,
@@ -4807,8 +5001,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10014] = {
+	}
+	pg.base.world_task_data[10014] = {
 		server_type = 4,
 		name = "File Mission 111-3",
 		need_task_complete = 0,
@@ -4882,8 +5076,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10015] = {
+	}
+	pg.base.world_task_data[10015] = {
 		server_type = 4,
 		name = "File Mission 111-4",
 		need_task_complete = 0,
@@ -4957,8 +5151,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10016] = {
+	}
+	pg.base.world_task_data[10016] = {
 		server_type = 4,
 		name = "File Mission 111-5",
 		need_task_complete = 0,
@@ -5032,8 +5226,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10017] = {
+	}
+	pg.base.world_task_data[10017] = {
 		server_type = 4,
 		name = "File Mission 111-6",
 		need_task_complete = 0,
@@ -5107,8 +5301,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10018] = {
+	}
+	pg.base.world_task_data[10018] = {
 		server_type = 4,
 		name = "File Mission 111-7",
 		need_task_complete = 0,
@@ -5182,8 +5376,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10019] = {
+	}
+	pg.base.world_task_data[10019] = {
 		server_type = 4,
 		name = "File Mission 111-8",
 		need_task_complete = 0,
@@ -5255,8 +5449,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10020] = {
+	}
+	pg.base.world_task_data[10020] = {
 		server_type = 4,
 		name = "File Mission 115-1",
 		need_task_complete = 0,
@@ -5330,8 +5524,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10021] = {
+	}
+	pg.base.world_task_data[10021] = {
 		server_type = 4,
 		name = "File Mission 115-2",
 		need_task_complete = 0,
@@ -5405,8 +5599,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10022] = {
+	}
+	pg.base.world_task_data[10022] = {
 		server_type = 4,
 		name = "File Mission 115-3",
 		need_task_complete = 0,
@@ -5480,8 +5674,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10023] = {
+	}
+	pg.base.world_task_data[10023] = {
 		server_type = 4,
 		name = "File Mission 115-4",
 		need_task_complete = 0,
@@ -5555,8 +5749,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10024] = {
+	}
+	pg.base.world_task_data[10024] = {
 		server_type = 4,
 		name = "File Mission 131-1",
 		need_task_complete = 0,
@@ -5630,8 +5824,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10025] = {
+	}
+	pg.base.world_task_data[10025] = {
 		server_type = 4,
 		name = "File Mission 131-2",
 		need_task_complete = 0,
@@ -5705,8 +5899,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10026] = {
+	}
+	pg.base.world_task_data[10026] = {
 		server_type = 4,
 		name = "File Mission 131-3",
 		need_task_complete = 0,
@@ -5780,8 +5974,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10027] = {
+	}
+	pg.base.world_task_data[10027] = {
 		server_type = 4,
 		name = "File Mission 131-4",
 		need_task_complete = 0,
@@ -5855,8 +6049,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10028] = {
+	}
+	pg.base.world_task_data[10028] = {
 		server_type = 4,
 		name = "File Mission 131-5",
 		need_task_complete = 0,
@@ -5930,8 +6124,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10029] = {
+	}
+	pg.base.world_task_data[10029] = {
 		server_type = 4,
 		name = "File Mission 131-6",
 		need_task_complete = 0,
@@ -6003,8 +6197,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10030] = {
+	}
+	pg.base.world_task_data[10030] = {
 		server_type = 4,
 		name = "File Mission 115-5",
 		need_task_complete = 0,
@@ -6078,8 +6272,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10031] = {
+	}
+	pg.base.world_task_data[10031] = {
 		server_type = 4,
 		name = "File Mission 115-6",
 		need_task_complete = 0,
@@ -6153,8 +6347,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10032] = {
+	}
+	pg.base.world_task_data[10032] = {
 		server_type = 4,
 		name = "File Mission 144-1",
 		need_task_complete = 0,
@@ -6228,8 +6422,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10033] = {
+	}
+	pg.base.world_task_data[10033] = {
 		server_type = 4,
 		name = "File Mission 144-2",
 		need_task_complete = 0,
@@ -6303,8 +6497,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10034] = {
+	}
+	pg.base.world_task_data[10034] = {
 		server_type = 4,
 		name = "File Mission 144-3",
 		need_task_complete = 0,
@@ -6378,8 +6572,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10035] = {
+	}
+	pg.base.world_task_data[10035] = {
 		server_type = 4,
 		name = "File Mission 144-4",
 		need_task_complete = 0,
@@ -6453,8 +6647,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10036] = {
+	}
+	pg.base.world_task_data[10036] = {
 		server_type = 4,
 		name = "File Mission 144-5",
 		need_task_complete = 0,
@@ -6528,8 +6722,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10037] = {
+	}
+	pg.base.world_task_data[10037] = {
 		server_type = 4,
 		name = "File Mission 144-6",
 		need_task_complete = 0,
@@ -6603,8 +6797,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10038] = {
+	}
+	pg.base.world_task_data[10038] = {
 		server_type = 4,
 		name = "File Mission 144-7",
 		need_task_complete = 0,
@@ -6678,8 +6872,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10039] = {
+	}
+	pg.base.world_task_data[10039] = {
 		server_type = 4,
 		name = "File Mission 144-8",
 		need_task_complete = 0,
@@ -6751,8 +6945,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10040] = {
+	}
+	pg.base.world_task_data[10040] = {
 		server_type = 4,
 		name = "File Mission 132-1",
 		need_task_complete = 0,
@@ -6826,8 +7020,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10041] = {
+	}
+	pg.base.world_task_data[10041] = {
 		server_type = 4,
 		name = "File Mission 132-2",
 		need_task_complete = 0,
@@ -6901,8 +7095,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10042] = {
+	}
+	pg.base.world_task_data[10042] = {
 		server_type = 4,
 		name = "File Mission 132-3",
 		need_task_complete = 0,
@@ -6976,8 +7170,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10043] = {
+	}
+	pg.base.world_task_data[10043] = {
 		server_type = 4,
 		name = "File Mission 132-4",
 		need_task_complete = 0,
@@ -7051,8 +7245,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10044] = {
+	}
+	pg.base.world_task_data[10044] = {
 		server_type = 4,
 		name = "File Mission 132-5 132-6",
 		need_task_complete = 0,
@@ -7126,8 +7320,10 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10045] = {
+	}
+end)()
+(function ()
+	pg.base.world_task_data[10045] = {
 		server_type = 4,
 		name = "File Mission 143-1",
 		need_task_complete = 0,
@@ -7201,8 +7397,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10046] = {
+	}
+	pg.base.world_task_data[10046] = {
 		server_type = 4,
 		name = "File Mission 143-2",
 		need_task_complete = 0,
@@ -7276,8 +7472,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10047] = {
+	}
+	pg.base.world_task_data[10047] = {
 		server_type = 4,
 		name = "File Mission 143-3",
 		need_task_complete = 0,
@@ -7351,8 +7547,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10048] = {
+	}
+	pg.base.world_task_data[10048] = {
 		server_type = 4,
 		name = "File Mission 143-4",
 		need_task_complete = 0,
@@ -7426,8 +7622,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10049] = {
+	}
+	pg.base.world_task_data[10049] = {
 		server_type = 4,
 		name = "File Mission 143-5 143-6",
 		need_task_complete = 0,
@@ -7499,8 +7695,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10050] = {
+	}
+	pg.base.world_task_data[10050] = {
 		server_type = 4,
 		name = "File Mission 113-1",
 		need_task_complete = 0,
@@ -7574,8 +7770,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10051] = {
+	}
+	pg.base.world_task_data[10051] = {
 		server_type = 4,
 		name = "File Mission 113-2",
 		need_task_complete = 0,
@@ -7649,8 +7845,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10052] = {
+	}
+	pg.base.world_task_data[10052] = {
 		server_type = 4,
 		name = "File Mission 113-3",
 		need_task_complete = 0,
@@ -7724,8 +7920,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10053] = {
+	}
+	pg.base.world_task_data[10053] = {
 		server_type = 4,
 		name = "File Mission 113-4",
 		need_task_complete = 0,
@@ -7799,8 +7995,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10054] = {
+	}
+	pg.base.world_task_data[10054] = {
 		server_type = 4,
 		name = "File Mission 113-5 113-6",
 		need_task_complete = 0,
@@ -7874,8 +8070,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10055] = {
+	}
+	pg.base.world_task_data[10055] = {
 		server_type = 4,
 		name = "File Mission 133-1",
 		need_task_complete = 0,
@@ -7949,8 +8145,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10056] = {
+	}
+	pg.base.world_task_data[10056] = {
 		server_type = 4,
 		name = "File Mission 133-2",
 		need_task_complete = 0,
@@ -8024,8 +8220,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10057] = {
+	}
+	pg.base.world_task_data[10057] = {
 		server_type = 4,
 		name = "File Mission 133-3",
 		need_task_complete = 0,
@@ -8099,8 +8295,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10058] = {
+	}
+	pg.base.world_task_data[10058] = {
 		server_type = 4,
 		name = "File Mission 133-4",
 		need_task_complete = 0,
@@ -8174,8 +8370,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10059] = {
+	}
+	pg.base.world_task_data[10059] = {
 		server_type = 4,
 		name = "File Mission 133-5 133-6",
 		need_task_complete = 0,
@@ -8247,8 +8443,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10060] = {
+	}
+	pg.base.world_task_data[10060] = {
 		server_type = 4,
 		name = "File Mission 144-9",
 		need_task_complete = 0,
@@ -8322,8 +8518,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10061] = {
+	}
+	pg.base.world_task_data[10061] = {
 		server_type = 4,
 		name = "File Mission 144-10",
 		need_task_complete = 0,
@@ -8397,8 +8593,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10062] = {
+	}
+	pg.base.world_task_data[10062] = {
 		server_type = 4,
 		name = "File Mission 146-1",
 		need_task_complete = 0,
@@ -8472,8 +8668,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10063] = {
+	}
+	pg.base.world_task_data[10063] = {
 		server_type = 4,
 		name = "File Mission 146-2",
 		need_task_complete = 0,
@@ -8547,8 +8743,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10064] = {
+	}
+	pg.base.world_task_data[10064] = {
 		server_type = 4,
 		name = "File Mission 146-3",
 		need_task_complete = 0,
@@ -8622,8 +8818,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10065] = {
+	}
+	pg.base.world_task_data[10065] = {
 		server_type = 4,
 		name = "File Mission 146-4",
 		need_task_complete = 0,
@@ -8697,8 +8893,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10066] = {
+	}
+	pg.base.world_task_data[10066] = {
 		server_type = 4,
 		name = "File Mission 146-5",
 		need_task_complete = 0,
@@ -8772,8 +8968,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10067] = {
+	}
+	pg.base.world_task_data[10067] = {
 		server_type = 4,
 		name = "File Mission 146-6",
 		need_task_complete = 0,
@@ -8847,8 +9043,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10068] = {
+	}
+	pg.base.world_task_data[10068] = {
 		server_type = 4,
 		name = "File Mission 146-7",
 		need_task_complete = 0,
@@ -8922,8 +9118,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10069] = {
+	}
+	pg.base.world_task_data[10069] = {
 		server_type = 4,
 		name = "File Mission 146-8",
 		need_task_complete = 0,
@@ -8995,8 +9191,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10070] = {
+	}
+	pg.base.world_task_data[10070] = {
 		server_type = 4,
 		name = "File Mission 116-1",
 		need_task_complete = 0,
@@ -9070,8 +9266,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10071] = {
+	}
+	pg.base.world_task_data[10071] = {
 		server_type = 4,
 		name = "File Mission 116-2",
 		need_task_complete = 0,
@@ -9145,8 +9341,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10072] = {
+	}
+	pg.base.world_task_data[10072] = {
 		server_type = 4,
 		name = "File Mission 116-3",
 		need_task_complete = 0,
@@ -9220,8 +9416,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10073] = {
+	}
+	pg.base.world_task_data[10073] = {
 		server_type = 4,
 		name = "File Mission 116-4",
 		need_task_complete = 0,
@@ -9295,8 +9491,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10074] = {
+	}
+	pg.base.world_task_data[10074] = {
 		server_type = 4,
 		name = "File Mission 116-5",
 		need_task_complete = 0,
@@ -9370,8 +9566,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10075] = {
+	}
+	pg.base.world_task_data[10075] = {
 		server_type = 4,
 		name = "File Mission 116-6",
 		need_task_complete = 0,
@@ -9445,8 +9641,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10076] = {
+	}
+	pg.base.world_task_data[10076] = {
 		server_type = 4,
 		name = "File Mission 116-7",
 		need_task_complete = 0,
@@ -9520,8 +9716,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10077] = {
+	}
+	pg.base.world_task_data[10077] = {
 		server_type = 4,
 		name = "File Mission 116-8 116-9",
 		need_task_complete = 0,
@@ -9595,8 +9791,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10078] = {
+	}
+	pg.base.world_task_data[10078] = {
 		server_type = 4,
 		name = "File Mission 144-11",
 		need_task_complete = 0,
@@ -9670,8 +9866,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10079] = {
+	}
+	pg.base.world_task_data[10079] = {
 		server_type = 4,
 		name = "File Mission 146-9",
 		need_task_complete = 0,
@@ -9743,8 +9939,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10080] = {
+	}
+	pg.base.world_task_data[10080] = {
 		server_type = 4,
 		name = "File Mission 150-4",
 		need_task_complete = 0,
@@ -9818,8 +10014,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10081] = {
+	}
+	pg.base.world_task_data[10081] = {
 		server_type = 4,
 		name = "File Mission 151-5",
 		need_task_complete = 0,
@@ -9893,8 +10089,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10082] = {
+	}
+	pg.base.world_task_data[10082] = {
 		server_type = 4,
 		name = "File Mission 151-6",
 		need_task_complete = 0,
@@ -9968,8 +10164,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10083] = {
+	}
+	pg.base.world_task_data[10083] = {
 		server_type = 4,
 		name = "File Mission 180-1",
 		need_task_complete = 0,
@@ -10043,8 +10239,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10084] = {
+	}
+	pg.base.world_task_data[10084] = {
 		server_type = 4,
 		name = "File Mission 190-1",
 		need_task_complete = 0,
@@ -10118,8 +10314,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10085] = {
+	}
+	pg.base.world_task_data[10085] = {
 		server_type = 4,
 		name = "File Mission 190-2",
 		need_task_complete = 0,
@@ -10193,8 +10389,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10086] = {
+	}
+	pg.base.world_task_data[10086] = {
 		server_type = 4,
 		name = "File Mission 190-3",
 		need_task_complete = 0,
@@ -10268,8 +10464,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10087] = {
+	}
+	pg.base.world_task_data[10087] = {
 		server_type = 4,
 		name = "File Mission 190-4",
 		need_task_complete = 0,
@@ -10343,8 +10539,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10088] = {
+	}
+	pg.base.world_task_data[10088] = {
 		server_type = 4,
 		name = "File Mission 190-5",
 		need_task_complete = 0,
@@ -10418,8 +10614,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10089] = {
+	}
+	pg.base.world_task_data[10089] = {
 		server_type = 4,
 		name = "File Mission 190-6",
 		need_task_complete = 0,
@@ -10491,8 +10687,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[210000] = {
+	}
+	pg.base.world_task_data[210000] = {
 		server_type = 3,
 		name = "Ocean Cleanup I",
 		need_task_complete = 0,
@@ -10560,8 +10756,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[210100] = {
+	}
+	pg.base.world_task_data[210100] = {
 		server_type = 3,
 		name = "Tech Experiment I",
 		need_task_complete = 0,
@@ -10629,8 +10825,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[210200] = {
+	}
+	pg.base.world_task_data[210200] = {
 		server_type = 3,
 		name = "Port Defense I",
 		need_task_complete = 0,
@@ -10698,8 +10894,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[210300] = {
+	}
+	pg.base.world_task_data[210300] = {
 		server_type = 3,
 		name = "Port Defense II",
 		need_task_complete = 0,
@@ -10767,8 +10963,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[210400] = {
+	}
+	pg.base.world_task_data[210400] = {
 		server_type = 3,
 		name = "Naval Exercise I",
 		need_task_complete = 0,
@@ -10836,8 +11032,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[210500] = {
+	}
+	pg.base.world_task_data[210500] = {
 		server_type = 3,
 		name = "Naval Exercise II",
 		need_task_complete = 0,
@@ -10905,8 +11101,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[210600] = {
+	}
+	pg.base.world_task_data[210600] = {
 		server_type = 3,
 		name = "Ocean Cleanup II",
 		need_task_complete = 0,
@@ -10974,8 +11170,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[210700] = {
+	}
+	pg.base.world_task_data[210700] = {
 		server_type = 3,
 		name = "Ocean Cleanup III",
 		need_task_complete = 0,
@@ -11043,8 +11239,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[210800] = {
+	}
+	pg.base.world_task_data[210800] = {
 		server_type = 3,
 		name = "Tech Experiment II",
 		need_task_complete = 0,
@@ -11112,8 +11308,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[210900] = {
+	}
+	pg.base.world_task_data[210900] = {
 		server_type = 3,
 		name = "Tech Experiment III",
 		need_task_complete = 0,
@@ -11181,8 +11377,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[211000] = {
+	}
+	pg.base.world_task_data[211000] = {
 		server_type = 3,
 		name = "Port Defense III",
 		need_task_complete = 0,
@@ -11250,8 +11446,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[211100] = {
+	}
+	pg.base.world_task_data[211100] = {
 		server_type = 3,
 		name = "Naval Exercise III",
 		need_task_complete = 0,
@@ -11324,8 +11520,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[213000] = {
+	}
+	pg.base.world_task_data[213000] = {
 		server_type = 3,
 		name = "Resource Retrieval I",
 		need_task_complete = 0,
@@ -11424,8 +11620,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[213100] = {
+	}
+	pg.base.world_task_data[213100] = {
 		server_type = 3,
 		name = "Resource Retrieval II",
 		need_task_complete = 0,
@@ -11524,8 +11720,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[213200] = {
+	}
+	pg.base.world_task_data[213200] = {
 		server_type = 3,
 		name = "Supply Recovery I",
 		need_task_complete = 0,
@@ -11624,8 +11820,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[213300] = {
+	}
+	pg.base.world_task_data[213300] = {
 		server_type = 3,
 		name = "Supply Recovery II",
 		need_task_complete = 0,
@@ -11724,8 +11920,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[213400] = {
+	}
+	pg.base.world_task_data[213400] = {
 		server_type = 3,
 		name = "Siren Subjugation I",
 		need_task_complete = 0,
@@ -11824,8 +12020,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[213500] = {
+	}
+	pg.base.world_task_data[213500] = {
 		server_type = 3,
 		name = "Siren Subjugation II",
 		need_task_complete = 0,
@@ -11924,8 +12120,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[213600] = {
+	}
+	pg.base.world_task_data[213600] = {
 		server_type = 3,
 		name = "Transport Convoy I",
 		need_task_complete = 0,
@@ -12024,8 +12220,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[213700] = {
+	}
+	pg.base.world_task_data[213700] = {
 		server_type = 3,
 		name = "Transport Convoy II",
 		need_task_complete = 0,
@@ -12124,8 +12320,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[213800] = {
+	}
+	pg.base.world_task_data[213800] = {
 		server_type = 3,
 		name = "Siren Elimination I",
 		need_task_complete = 0,
@@ -12224,8 +12420,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[213900] = {
+	}
+	pg.base.world_task_data[213900] = {
 		server_type = 3,
 		name = "Siren Elimination II",
 		need_task_complete = 0,
@@ -12324,8 +12520,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[216000] = {
+	}
+	pg.base.world_task_data[216000] = {
 		server_type = 3,
 		name = "Establish Forward Base",
 		need_task_complete = 0,
@@ -12372,8 +12568,8 @@ pg.world_task_data = {
 		},
 		show = {},
 		reset_task = {}
-	},
-	[216100] = {
+	}
+	pg.base.world_task_data[216100] = {
 		server_type = 3,
 		name = "Siren Transference Device",
 		need_task_complete = 0,
@@ -12420,8 +12616,8 @@ pg.world_task_data = {
 		},
 		show = {},
 		reset_task = {}
-	},
-	[216200] = {
+	}
+	pg.base.world_task_data[216200] = {
 		server_type = 3,
 		name = "Siren Reconnaissance",
 		need_task_complete = 0,
@@ -12468,8 +12664,8 @@ pg.world_task_data = {
 		},
 		show = {},
 		reset_task = {}
-	},
-	[216300] = {
+	}
+	pg.base.world_task_data[216300] = {
 		server_type = 3,
 		name = "Open Sea Resource Retrieval I",
 		need_task_complete = 0,
@@ -12560,8 +12756,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[216400] = {
+	}
+	pg.base.world_task_data[216400] = {
 		server_type = 3,
 		name = "Open Sea Resource Retrieval II",
 		need_task_complete = 0,
@@ -12652,8 +12848,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[216500] = {
+	}
+	pg.base.world_task_data[216500] = {
 		server_type = 3,
 		name = "Open Sea Supply Recovery I",
 		need_task_complete = 0,
@@ -12744,8 +12940,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[216600] = {
+	}
+	pg.base.world_task_data[216600] = {
 		server_type = 3,
 		name = "Open Sea Supply Recovery II",
 		need_task_complete = 0,
@@ -12836,8 +13032,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[216700] = {
+	}
+	pg.base.world_task_data[216700] = {
 		server_type = 3,
 		name = "Open Sea Siren Subjugation I",
 		need_task_complete = 0,
@@ -12928,8 +13124,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[216800] = {
+	}
+	pg.base.world_task_data[216800] = {
 		server_type = 3,
 		name = "Open Sea Siren Subjugation II",
 		need_task_complete = 0,
@@ -13010,8 +13206,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[216900] = {
+	}
+	pg.base.world_task_data[216900] = {
 		server_type = 3,
 		name = "Transport Convoy III",
 		need_task_complete = 0,
@@ -13102,8 +13298,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[217000] = {
+	}
+	pg.base.world_task_data[217000] = {
 		server_type = 3,
 		name = "Transport Convoy IV",
 		need_task_complete = 0,
@@ -13194,8 +13390,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[217100] = {
+	}
+	pg.base.world_task_data[217100] = {
 		server_type = 3,
 		name = "Siren Supply Disruption",
 		need_task_complete = 0,
@@ -13242,8 +13438,8 @@ pg.world_task_data = {
 		},
 		show = {},
 		reset_task = {}
-	},
-	[219000] = {
+	}
+	pg.base.world_task_data[219000] = {
 		server_type = 3,
 		name = "Supply Exchange I",
 		need_task_complete = 0,
@@ -13302,8 +13498,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[219100] = {
+	}
+	pg.base.world_task_data[219100] = {
 		server_type = 3,
 		name = "Supply Exchange II",
 		need_task_complete = 0,
@@ -13362,8 +13558,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[219200] = {
+	}
+	pg.base.world_task_data[219200] = {
 		server_type = 3,
 		name = "Siren Research I",
 		need_task_complete = 0,
@@ -13422,8 +13618,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[219300] = {
+	}
+	pg.base.world_task_data[219300] = {
 		server_type = 3,
 		name = "Siren Research II",
 		need_task_complete = 0,
@@ -13482,8 +13678,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[219400] = {
+	}
+	pg.base.world_task_data[219400] = {
 		server_type = 3,
 		name = "Ocean Exploration I",
 		need_task_complete = 0,
@@ -13537,8 +13733,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[219500] = {
+	}
+	pg.base.world_task_data[219500] = {
 		server_type = 3,
 		name = "Ocean Exploration II",
 		need_task_complete = 0,
@@ -13592,8 +13788,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[219600] = {
+	}
+	pg.base.world_task_data[219600] = {
 		server_type = 3,
 		name = "Ocean Exploration III",
 		need_task_complete = 0,
@@ -13652,193 +13848,5 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	all = {
-		1,
-		2000,
-		2001,
-		2002,
-		2003,
-		2004,
-		2010,
-		2050,
-		2100,
-		2101,
-		2102,
-		2103,
-		2104,
-		2105,
-		2110,
-		2150,
-		2200,
-		2201,
-		2202,
-		2203,
-		2204,
-		2205,
-		2210,
-		2300,
-		2301,
-		2302,
-		2303,
-		2304,
-		2305,
-		2310,
-		2600,
-		2601,
-		2602,
-		2603,
-		2604,
-		2605,
-		2606,
-		2607,
-		3101,
-		3102,
-		3103,
-		3201,
-		3202,
-		3203,
-		3301,
-		3302,
-		3303,
-		3304,
-		3401,
-		3402,
-		4100,
-		4101,
-		4102,
-		4200,
-		4201,
-		10000,
-		10001,
-		10002,
-		10003,
-		10004,
-		10005,
-		10006,
-		10007,
-		10008,
-		10009,
-		10010,
-		10011,
-		10012,
-		10013,
-		10014,
-		10015,
-		10016,
-		10017,
-		10018,
-		10019,
-		10020,
-		10021,
-		10022,
-		10023,
-		10024,
-		10025,
-		10026,
-		10027,
-		10028,
-		10029,
-		10030,
-		10031,
-		10032,
-		10033,
-		10034,
-		10035,
-		10036,
-		10037,
-		10038,
-		10039,
-		10040,
-		10041,
-		10042,
-		10043,
-		10044,
-		10045,
-		10046,
-		10047,
-		10048,
-		10049,
-		10050,
-		10051,
-		10052,
-		10053,
-		10054,
-		10055,
-		10056,
-		10057,
-		10058,
-		10059,
-		10060,
-		10061,
-		10062,
-		10063,
-		10064,
-		10065,
-		10066,
-		10067,
-		10068,
-		10069,
-		10070,
-		10071,
-		10072,
-		10073,
-		10074,
-		10075,
-		10076,
-		10077,
-		10078,
-		10079,
-		10080,
-		10081,
-		10082,
-		10083,
-		10084,
-		10085,
-		10086,
-		10087,
-		10088,
-		10089,
-		210000,
-		210100,
-		210200,
-		210300,
-		210400,
-		210500,
-		210600,
-		210700,
-		210800,
-		210900,
-		211000,
-		211100,
-		213000,
-		213100,
-		213200,
-		213300,
-		213400,
-		213500,
-		213600,
-		213700,
-		213800,
-		213900,
-		216000,
-		216100,
-		216200,
-		216300,
-		216400,
-		216500,
-		216600,
-		216700,
-		216800,
-		216900,
-		217000,
-		217100,
-		219000,
-		219100,
-		219200,
-		219300,
-		219400,
-		219500,
-		219600
 	}
-}
+end)()

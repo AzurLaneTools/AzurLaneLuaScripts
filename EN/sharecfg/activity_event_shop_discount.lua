@@ -1,6 +1,22 @@
 pg = pg or {}
-pg.activity_event_shop_discount = {
-	[5080] = {
+pg.activity_event_shop_discount = rawget(pg, "activity_event_shop_discount") or setmetatable({
+	__name = "activity_event_shop_discount"
+}, confNEO)
+pg.activity_event_shop_discount.all = {
+	5080,
+	5652,
+	5850,
+	50034,
+	50142,
+	50241,
+	50243,
+	50500
+}
+pg.base = pg.base or {}
+pg.base.activity_event_shop_discount = {}
+
+(function ()
+	pg.base.activity_event_shop_discount[5080] = {
 		max_count = 0,
 		item_id = 59502,
 		change_resource_type = 0,
@@ -774,8 +790,8 @@ pg.activity_event_shop_discount = {
 			70624,
 			70767
 		}
-	},
-	[5652] = {
+	}
+	pg.base.activity_event_shop_discount[5652] = {
 		max_count = 0,
 		item_id = 65045,
 		change_resource_type = 14,
@@ -1673,8 +1689,8 @@ pg.activity_event_shop_discount = {
 			70935,
 			70364
 		}
-	},
-	[5850] = {
+	}
+	pg.base.activity_event_shop_discount[5850] = {
 		max_count = 0,
 		item_id = 65550,
 		change_resource_type = 0,
@@ -1761,8 +1777,8 @@ pg.activity_event_shop_discount = {
 			70201,
 			70200
 		}
-	},
-	[50034] = {
+	}
+	pg.base.activity_event_shop_discount[50034] = {
 		max_count = 0,
 		item_id = 65551,
 		change_resource_type = 0,
@@ -1800,8 +1816,8 @@ pg.activity_event_shop_discount = {
 			71008,
 			71009
 		}
-	},
-	[50142] = {
+	}
+	pg.base.activity_event_shop_discount[50142] = {
 		max_count = 0,
 		item_id = 65552,
 		change_resource_type = 0,
@@ -1846,8 +1862,8 @@ pg.activity_event_shop_discount = {
 			71032,
 			71036
 		}
-	},
-	[50241] = {
+	}
+	pg.base.activity_event_shop_discount[50241] = {
 		max_count = 0,
 		item_id = 65553,
 		change_resource_type = 0,
@@ -2179,8 +2195,8 @@ pg.activity_event_shop_discount = {
 			71042,
 			70773
 		}
-	},
-	[50243] = {
+	}
+	pg.base.activity_event_shop_discount[50243] = {
 		max_count = 0,
 		item_id = 65554,
 		change_resource_type = 0,
@@ -3348,8 +3364,8 @@ pg.activity_event_shop_discount = {
 			70925,
 			70926
 		}
-	},
-	[50500] = {
+	}
+	pg.base.activity_event_shop_discount[50500] = {
 		max_count = 0,
 		item_id = 65557,
 		change_resource_type = 0,
@@ -3389,15 +3405,5 @@ pg.activity_event_shop_discount = {
 			70143,
 			70185
 		}
-	},
-	all = {
-		5080,
-		5652,
-		5850,
-		50034,
-		50142,
-		50241,
-		50243,
-		50500
 	}
-}
+end)()

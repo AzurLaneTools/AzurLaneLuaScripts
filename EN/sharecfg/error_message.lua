@@ -1,204 +1,210 @@
 pg = pg or {}
-pg.error_message = {
-	{
+pg.error_message = rawget(pg, "error_message") or setmetatable({
+	__name = "error_message"
+}, confNEO)
+pg.base = pg.base or {}
+pg.base.error_message = {}
+
+(function ()
+	pg.base.error_message[1] = {
 		desc = "Invalid Input."
-	},
-	{
+	}
+	pg.base.error_message[2] = {
 		desc = "Missing Configuration."
-	},
-	{
+	}
+	pg.base.error_message[3] = {
 		desc = "Time Out."
-	},
-	{
+	}
+	pg.base.error_message[4] = {
 		desc = "Not Available Now."
-	},
-	{
+	}
+	pg.base.error_message[5] = {
 		desc = "Already Reached Max Level."
-	},
-	{
+	}
+	pg.base.error_message[6] = {
 		desc = "Already Reached Limit."
-	},
-	{
+	}
+	pg.base.error_message[7] = {
 		desc = "Completed."
-	},
-	{
+	}
+	pg.base.error_message[8] = {
 		desc = "Undefined Parameter."
-	},
-	{
+	}
+	pg.base.error_message[9] = {
 		desc = "Error Parameter."
-	},
-	{
+	}
+	pg.base.error_message[10] = {
 		desc = "Not Enough Slots."
-	},
-	{
+	}
+	pg.base.error_message[11] = {
 		desc = "Database Error."
-	},
-	{
+	}
+	pg.base.error_message[12] = {
 		desc = "System Error."
-	},
-	{
+	}
+	pg.base.error_message[13] = {
 		desc = "Disabled Login."
-	},
-	[15] = {
+	}
+	pg.base.error_message[15] = {
 		desc = "Registration has reached limit, thank you for your support."
-	},
-	[19] = {
+	}
+	pg.base.error_message[19] = {
 		desc = "Invalid Repeat Operation."
-	},
-	[20] = {
+	}
+	pg.base.error_message[20] = {
 		desc = "Data Does Not Exist."
-	},
-	[21] = {
+	}
+	pg.base.error_message[21] = {
 		desc = "Player Does Not Exist."
-	},
-	[22] = {
+	}
+	pg.base.error_message[22] = {
 		desc = "Shipgirl Does Not Exist."
-	},
-	[23] = {
+	}
+	pg.base.error_message[23] = {
 		desc = "Item Does Not Exist."
-	},
-	[24] = {
+	}
+	pg.base.error_message[24] = {
 		desc = "Gear Does Not Exist."
-	},
-	[25] = {
+	}
+	pg.base.error_message[25] = {
 		desc = "Mission Does Not Exist."
-	},
-	[26] = {
+	}
+	pg.base.error_message[26] = {
 		desc = "Combat Info Does Not Exist."
-	},
-	[27] = {
+	}
+	pg.base.error_message[27] = {
 		desc = "Collect Point Does Not Exist."
-	},
-	[28] = {
+	}
+	pg.base.error_message[28] = {
 		desc = "Friend Does Not Exist."
-	},
-	[29] = {
+	}
+	pg.base.error_message[29] = {
 		desc = "Mail Does Not Exist."
-	},
-	[30] = {
+	}
+	pg.base.error_message[30] = {
 		desc = "Not Enough Completed Mission Targets."
-	},
-	[31] = {
+	}
+	pg.base.error_message[31] = {
 		desc = "Not Enough Materials."
-	},
-	[32] = {
+	}
+	pg.base.error_message[32] = {
 		desc = "Not Enough Coins."
-	},
-	[33] = {
+	}
+	pg.base.error_message[33] = {
 		desc = "Not Enough Oil."
-	},
-	[34] = {
+	}
+	pg.base.error_message[34] = {
 		desc = "Not Enough Silver Dust."
-	},
-	[35] = {
+	}
+	pg.base.error_message[35] = {
 		desc = "Not Enough Gems."
-	},
-	[36] = {
+	}
+	pg.base.error_message[36] = {
 		desc = "Not Enough Decor Tokens."
-	},
-	[37] = {
+	}
+	pg.base.error_message[37] = {
 		desc = "Not Enough Items."
-	},
-	[38] = {
+	}
+	pg.base.error_message[38] = {
 		desc = "Not Enough Snacks."
-	},
-	[39] = {
+	}
+	pg.base.error_message[39] = {
 		desc = "Not Enough Stamina."
-	},
-	[40] = {
+	}
+	pg.base.error_message[40] = {
 		desc = "Illegal Restriction."
-	},
-	[41] = {
+	}
+	pg.base.error_message[41] = {
 		desc = "Level Does Not Match."
-	},
-	[42] = {
+	}
+	pg.base.error_message[42] = {
 		desc = "Type Does Not Match."
-	},
-	[1010] = {
+	}
+	pg.base.error_message[1010] = {
 		desc = "Incorrect Account."
-	},
-	[1011] = {
+	}
+	pg.base.error_message[1011] = {
 		desc = "The Account Already Exists."
-	},
-	[1012] = {
+	}
+	pg.base.error_message[1012] = {
 		desc = "Pure Digital Account."
-	},
-	[1013] = {
+	}
+	pg.base.error_message[1013] = {
 		desc = "The server is currently busy."
-	},
-	[1020] = {
+	}
+	pg.base.error_message[1020] = {
 		desc = "Incorrect Password."
-	},
-	[1030] = {
+	}
+	pg.base.error_message[1030] = {
 		desc = "MD5 Verification Error."
-	},
-	[1031] = {
+	}
+	pg.base.error_message[1031] = {
 		desc = "MD5 Length Error."
-	},
-	[1040] = {
+	}
+	pg.base.error_message[1040] = {
 		desc = "Server Closed."
-	},
-	[2010] = {
+	}
+	pg.base.error_message[2010] = {
 		desc = "Name Check Error."
-	},
-	[2011] = {
+	}
+	pg.base.error_message[2011] = {
 		desc = "Your name is too long."
-	},
-	[2012] = {
+	}
+	pg.base.error_message[2012] = {
 		desc = "Your name is too short."
-	},
-	[2013] = {
+	}
+	pg.base.error_message[2013] = {
 		desc = "Your name contains restricted words."
-	},
-	[2014] = {
+	}
+	pg.base.error_message[2014] = {
 		desc = "Your name contains illegal character."
-	},
-	[2015] = {
+	}
+	pg.base.error_message[2015] = {
 		desc = "Your name is taken."
-	},
-	[3010] = {
+	}
+	pg.base.error_message[3010] = {
 		desc = "Shipgirl is sunk."
-	},
-	[3020] = {
+	}
+	pg.base.error_message[3020] = {
 		desc = "Previous Stage Incomplete."
-	},
-	[4010] = {
+	}
+	pg.base.error_message[4010] = {
 		desc = "Shipgirl Unavailable."
-	},
-	[4020] = {
+	}
+	pg.base.error_message[4020] = {
 		desc = "Shipgirl is secretary."
-	},
-	[4030] = {
+	}
+	pg.base.error_message[4030] = {
 		desc = "Shipgirl is already in your fleet."
-	},
-	[4040] = {
+	}
+	pg.base.error_message[4040] = {
 		desc = "Shipgirl is not in your fleet."
-	},
-	[4050] = {
+	}
+	pg.base.error_message[4050] = {
 		desc = "Identical Shipgirls."
-	},
-	[4201] = {
+	}
+	pg.base.error_message[4201] = {
 		desc = "Gift code has already expired."
-	},
-	[4202] = {
+	}
+	pg.base.error_message[4202] = {
 		desc = "Unsupported channel."
-	},
-	[4203] = {
+	}
+	pg.base.error_message[4203] = {
 		desc = "Gift code does not exist."
-	},
-	[4204] = {
+	}
+	pg.base.error_message[4204] = {
 		desc = "Gift code has already been used."
-	},
-	[4205] = {
+	}
+	pg.base.error_message[4205] = {
 		desc = "An error has occurred; please try again."
-	},
-	[4206] = {
+	}
+	pg.base.error_message[4206] = {
 		desc = "You can't obtain any more."
-	},
-	[4207] = {
+	}
+	pg.base.error_message[4207] = {
 		desc = "No gift redemption URL."
-	},
-	[9999] = {
+	}
+	pg.base.error_message[9999] = {
 		desc = "Unknown Error."
 	}
-}
+end)()

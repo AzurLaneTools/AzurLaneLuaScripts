@@ -1,6 +1,33 @@
 pg = pg or {}
-pg.formation_template = {
-	[10001] = {
+pg.formation_template = rawget(pg, "formation_template") or setmetatable({
+	__name = "formation_template"
+}, confNEO)
+pg.formation_template.all = {
+	10001,
+	10002,
+	10003,
+	10004,
+	10005,
+	10006,
+	10007,
+	10008,
+	10009,
+	10010,
+	10011,
+	10012,
+	10013,
+	10014,
+	20001,
+	20002,
+	20003,
+	20004,
+	10015
+}
+pg.base = pg.base or {}
+pg.base.formation_template = {}
+
+(function ()
+	pg.base.formation_template[10001] = {
 		id = 10001,
 		name = "Simple line",
 		pos_offset = {
@@ -35,8 +62,8 @@ pg.formation_template = {
 				y = 0
 			}
 		}
-	},
-	[10002] = {
+	}
+	pg.base.formation_template[10002] = {
 		id = 10002,
 		name = "Complex line",
 		pos_offset = {
@@ -71,8 +98,8 @@ pg.formation_template = {
 				y = 0
 			}
 		}
-	},
-	[10003] = {
+	}
+	pg.base.formation_template[10003] = {
 		id = 10003,
 		name = "Wheel",
 		pos_offset = {
@@ -107,8 +134,8 @@ pg.formation_template = {
 				y = 0
 			}
 		}
-	},
-	[10004] = {
+	}
+	pg.base.formation_template[10004] = {
 		id = 10004,
 		name = "Cone",
 		pos_offset = {
@@ -143,8 +170,8 @@ pg.formation_template = {
 				y = 0
 			}
 		}
-	},
-	[10005] = {
+	}
+	pg.base.formation_template[10005] = {
 		id = 10005,
 		name = "Simple row",
 		pos_offset = {
@@ -179,8 +206,8 @@ pg.formation_template = {
 				y = 0
 			}
 		}
-	},
-	[10006] = {
+	}
+	pg.base.formation_template[10006] = {
 		id = 10006,
 		name = "Flying V",
 		pos_offset = {
@@ -215,8 +242,8 @@ pg.formation_template = {
 				y = 0
 			}
 		}
-	},
-	[10007] = {
+	}
+	pg.base.formation_template[10007] = {
 		id = 10007,
 		name = "梯形阵",
 		pos_offset = {
@@ -251,8 +278,8 @@ pg.formation_template = {
 				y = 0
 			}
 		}
-	},
-	[10008] = {
+	}
+	pg.base.formation_template[10008] = {
 		id = 10008,
 		name = "X形阵",
 		pos_offset = {
@@ -287,8 +314,8 @@ pg.formation_template = {
 				y = 0
 			}
 		}
-	},
-	[10009] = {
+	}
+	pg.base.formation_template[10009] = {
 		id = 10009,
 		name = "斜形阵",
 		pos_offset = {
@@ -323,8 +350,8 @@ pg.formation_template = {
 				y = 0
 			}
 		}
-	},
-	[10010] = {
+	}
+	pg.base.formation_template[10010] = {
 		id = 10010,
 		name = "反斜形",
 		pos_offset = {
@@ -359,8 +386,8 @@ pg.formation_template = {
 				y = 0
 			}
 		}
-	},
-	[10011] = {
+	}
+	pg.base.formation_template[10011] = {
 		id = 10011,
 		name = "箭形阵",
 		pos_offset = {
@@ -385,8 +412,8 @@ pg.formation_template = {
 				y = 0
 			}
 		}
-	},
-	[10012] = {
+	}
+	pg.base.formation_template[10012] = {
 		id = 10012,
 		name = "横形阵",
 		pos_offset = {
@@ -411,8 +438,8 @@ pg.formation_template = {
 				y = 0
 			}
 		}
-	},
-	[10013] = {
+	}
+	pg.base.formation_template[10013] = {
 		id = 10013,
 		name = "蛇形阵",
 		pos_offset = {
@@ -442,8 +469,8 @@ pg.formation_template = {
 				y = 0
 			}
 		}
-	},
-	[10014] = {
+	}
+	pg.base.formation_template[10014] = {
 		id = 10014,
 		name = "楔形阵",
 		pos_offset = {
@@ -468,8 +495,8 @@ pg.formation_template = {
 				y = 0
 			}
 		}
-	},
-	[20001] = {
+	}
+	pg.base.formation_template[20001] = {
 		id = 20001,
 		name = "大世界_黑方舟飞机锥形阵",
 		pos_offset = {
@@ -524,8 +551,8 @@ pg.formation_template = {
 				y = 0
 			}
 		}
-	},
-	[20002] = {
+	}
+	pg.base.formation_template[20002] = {
 		id = 20002,
 		name = "大世界_执棋者飞机阵",
 		pos_offset = {
@@ -580,8 +607,8 @@ pg.formation_template = {
 				y = 0
 			}
 		}
-	},
-	[20003] = {
+	}
+	pg.base.formation_template[20003] = {
 		id = 20003,
 		name = "大世界_仲裁机关分散阵",
 		pos_offset = {
@@ -631,8 +658,8 @@ pg.formation_template = {
 				y = 0
 			}
 		}
-	},
-	[20004] = {
+	}
+	pg.base.formation_template[20004] = {
 		id = 20004,
 		name = "大世界_仲裁机关分散阵",
 		pos_offset = {
@@ -677,8 +704,8 @@ pg.formation_template = {
 				y = 0
 			}
 		}
-	},
-	[10015] = {
+	}
+	pg.base.formation_template[10015] = {
 		id = 10015,
 		name = "陆航轰炸编队",
 		pos_offset = {
@@ -698,26 +725,5 @@ pg.formation_template = {
 				y = 0
 			}
 		}
-	},
-	all = {
-		10001,
-		10002,
-		10003,
-		10004,
-		10005,
-		10006,
-		10007,
-		10008,
-		10009,
-		10010,
-		10011,
-		10012,
-		10013,
-		10014,
-		20001,
-		20002,
-		20003,
-		20004,
-		10015
 	}
-}
+end)()

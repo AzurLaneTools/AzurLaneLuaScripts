@@ -1,6 +1,34 @@
 pg = pg or {}
-pg.game_room_template = {
-	{
+pg.game_room_template = rawget(pg, "game_room_template") or setmetatable({
+	__name = "game_room_template"
+}, confNEO)
+pg.game_room_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26
+}
+pg.base = pg.base or {}
+pg.base.game_room_template = {}
+
+(function ()
+	pg.base.game_room_template[1] = {
 		id = 1,
 		type = 11,
 		add_base = 200,
@@ -67,8 +95,8 @@ Over 30 points: 260 Game Tickets
 			0,
 			20
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[2] = {
 		id = 2,
 		type = 11,
 		add_base = 200,
@@ -150,8 +178,8 @@ Over 30 points: 260 Game Tickets
 			157,
 			-153
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[3] = {
 		id = 3,
 		type = 11,
 		add_base = 200,
@@ -219,8 +247,8 @@ Over 30 points: 260 Game Tickets
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[4] = {
 		id = 4,
 		type = 11,
 		add_base = 200,
@@ -291,8 +319,8 @@ Over 20 points: 260 Game Tickets
 			320,
 			-310
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[5] = {
 		id = 5,
 		type = 11,
 		add_base = 200,
@@ -368,8 +396,8 @@ Over 20 points: 260 Game Tickets
 			-411,
 			-441
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[6] = {
 		id = 6,
 		type = 11,
 		add_base = 200,
@@ -444,8 +472,8 @@ Over 6000 points: 260 Game Tickets]]
 			0,
 			-450
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[7] = {
 		id = 7,
 		type = 11,
 		add_base = 200,
@@ -512,8 +540,8 @@ Over 40 points: 260 Game Tickets]]
 			0,
 			-110
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[8] = {
 		id = 8,
 		type = 11,
 		add_base = 200,
@@ -584,8 +612,8 @@ Over 4001 points: 260 Game Tickets]]
 			0,
 			-200
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[9] = {
 		id = 9,
 		type = 11,
 		add_base = 200,
@@ -652,8 +680,8 @@ Over 2001 points: 260 Game Tickets]]
 			150,
 			-180
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[10] = {
 		id = 10,
 		type = 11,
 		add_base = 200,
@@ -721,8 +749,8 @@ Over 1200 points: 260 Game Tickets]]
 			0,
 			-300
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[11] = {
 		id = 11,
 		type = 11,
 		add_base = 200,
@@ -795,8 +823,8 @@ Over 3000 points: 260 Game Tickets]]
 			0,
 			-280
 		}
-	},
-	[18] = {
+	}
+	pg.base.game_room_template[18] = {
 		id = 18,
 		type = 11,
 		add_base = 200,
@@ -869,8 +897,8 @@ Over 3000 points: 260 Game Tickets]]
 			0,
 			-150
 		}
-	},
-	[19] = {
+	}
+	pg.base.game_room_template[19] = {
 		id = 19,
 		type = 11,
 		add_base = 200,
@@ -941,8 +969,8 @@ Over 6000 points: 260 Game Tickets]]
 			0,
 			-200
 		}
-	},
-	[20] = {
+	}
+	pg.base.game_room_template[20] = {
 		id = 20,
 		type = 11,
 		add_base = 200,
@@ -1022,8 +1050,8 @@ Over 6000 points: 260 Game Tickets]]
 			0,
 			-200
 		}
-	},
-	[21] = {
+	}
+	pg.base.game_room_template[21] = {
 		id = 21,
 		type = 11,
 		add_base = 200,
@@ -1103,8 +1131,8 @@ Over 6000 points: 260 Game Tickets]]
 			0,
 			-200
 		}
-	},
-	[22] = {
+	}
+	pg.base.game_room_template[22] = {
 		id = 22,
 		type = 11,
 		add_base = 200,
@@ -1184,8 +1212,8 @@ Over 6000 points: 260 Game Tickets]]
 			0,
 			-200
 		}
-	},
-	[23] = {
+	}
+	pg.base.game_room_template[23] = {
 		id = 23,
 		type = 11,
 		add_base = 200,
@@ -1265,8 +1293,8 @@ Over 6000 points: 260 Game Tickets]]
 			-773,
 			-432
 		}
-	},
-	[24] = {
+	}
+	pg.base.game_room_template[24] = {
 		id = 24,
 		type = 11,
 		add_base = 200,
@@ -1346,8 +1374,8 @@ Over 6000 points: 260 Game Tickets]]
 			0,
 			-200
 		}
-	},
-	[25] = {
+	}
+	pg.base.game_room_template[25] = {
 		id = 25,
 		type = 11,
 		add_base = 200,
@@ -1427,8 +1455,8 @@ Over 6000 points: 260 Game Tickets]]
 			0,
 			0
 		}
-	},
-	[26] = {
+	}
+	pg.base.game_room_template[26] = {
 		id = 26,
 		type = 11,
 		add_base = 200,
@@ -1508,27 +1536,5 @@ Over 6000 points: 260 Game Tickets]]
 			0,
 			-200
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26
 	}
-}
+end)()

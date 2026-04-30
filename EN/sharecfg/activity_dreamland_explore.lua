@@ -1,6 +1,96 @@
 pg = pg or {}
-pg.activity_dreamland_explore = {
+pg.activity_dreamland_explore = rawget(pg, "activity_dreamland_explore") or setmetatable({
+	__name = "activity_dreamland_explore"
+}, confNEO)
+pg.activity_dreamland_explore.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	27,
+	28,
+	29
+}
+pg.activity_dreamland_explore.get_id_list_by_group = {
 	{
+		1,
+		2,
+		3
+	},
+	{
+		4
+	},
+	{
+		5,
+		6,
+		7
+	},
+	{
+		8,
+		9,
+		10,
+		11,
+		12,
+		13
+	},
+	{
+		14,
+		15,
+		16
+	},
+	{
+		17
+	},
+	{
+		18,
+		19,
+		20
+	},
+	{
+		21,
+		22
+	},
+	{
+		23,
+		24,
+		25
+	},
+	{
+		27
+	},
+	{
+		28
+	},
+	{
+		29
+	}
+}
+pg.base = pg.base or {}
+pg.base.activity_dreamland_explore = {}
+
+(function ()
+	pg.base.activity_dreamland_explore[1] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 1,
@@ -29,8 +119,8 @@ You wondered how they made a clock work like that.]],
 				"You wondered how they made a clock work like that."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[2] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 1,
@@ -59,8 +149,8 @@ You wondered how they made a clock work like that.]],
 				"You wondered how they made a clock work like that."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[3] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 1,
@@ -89,8 +179,8 @@ You wondered how they made a clock work like that.]],
 				"You wondered how they made a clock work like that."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[4] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 2,
@@ -114,8 +204,8 @@ You wondered how they made a clock work like that.]],
 				"Amagi explained it thusly: \"Strange things happening in a dream is to be expected. It's nothing to worry about.\""
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[5] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 3,
@@ -137,8 +227,8 @@ You wondered how they made a clock work like that.]],
 				"Liverpool walked by, saw the glittering fountain, and excitedly explained that, \"That must be a sign that your wish is going to come true.\""
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[6] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 3,
@@ -160,8 +250,8 @@ You wondered how they made a clock work like that.]],
 				"Liverpool walked by, saw the glittering fountain, and excitedly explained that, \"That must be a sign that your wish is going to come true.\""
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[7] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 3,
@@ -183,8 +273,8 @@ You wondered how they made a clock work like that.]],
 				"Liverpool walked by, saw the glittering fountain, and excitedly explained that, \"That must be a sign that your wish is going to come true.\""
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[8] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 4,
@@ -213,8 +303,8 @@ You decided to let her have her fun. This is a dream, after all.]],
 				"You decided to let her have her fun. This is a dream, after all."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[9] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 4,
@@ -243,8 +333,8 @@ You decided to let her have her fun. This is a dream, after all.]],
 				"You decided to let her have her fun. This is a dream, after all."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[10] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 4,
@@ -273,8 +363,8 @@ You decided to let her have her fun. This is a dream, after all.]],
 				"You decided to let her have her fun. This is a dream, after all."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[11] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 4,
@@ -303,8 +393,8 @@ You decided to let her have her fun. This is a dream, after all.]],
 				"You decided to let her have her fun. This is a dream, after all."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[12] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 4,
@@ -333,8 +423,8 @@ You decided to let her have her fun. This is a dream, after all.]],
 				"You decided to let her have her fun. This is a dream, after all."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[13] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 4,
@@ -363,8 +453,8 @@ You decided to let her have her fun. This is a dream, after all.]],
 				"You decided to let her have her fun. This is a dream, after all."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[14] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 5,
@@ -393,8 +483,8 @@ After finding out it wasn't the balloon's fault, she chirped happily and gave a 
 				"After finding out it wasn't the balloon's fault, she chirped happily and gave a lucky balloon to Yuubari as thanks."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[15] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 5,
@@ -423,8 +513,8 @@ After finding out it wasn't the balloon's fault, she chirped happily and gave a 
 				"After finding out it wasn't the balloon's fault, she chirped happily and gave a lucky balloon to Yuubari as thanks."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[16] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 5,
@@ -453,8 +543,8 @@ After finding out it wasn't the balloon's fault, she chirped happily and gave a 
 				"After finding out it wasn't the balloon's fault, she chirped happily and gave a lucky balloon to Yuubari as thanks."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[17] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 6,
@@ -483,8 +573,8 @@ You looked all around, but failed to find any traces of a ghost.]],
 				"You looked all around, but failed to find any traces of a ghost."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[18] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 7,
@@ -513,8 +603,8 @@ How much sunscreen does one girl need?]],
 				"How much sunscreen does one girl need?"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[19] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 7,
@@ -543,8 +633,8 @@ How much sunscreen does one girl need?]],
 				"How much sunscreen does one girl need?"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[20] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 7,
@@ -573,8 +663,8 @@ How much sunscreen does one girl need?]],
 				"How much sunscreen does one girl need?"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[21] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 8,
@@ -604,8 +694,8 @@ She was a bit grumpy about this. Still, she insisted on her certainty in what sh
 				"She was a bit grumpy about this. Still, she insisted on her certainty in what she saw."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[22] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 8,
@@ -634,8 +724,8 @@ She was a bit grumpy about this. Still, she insisted on her certainty in what sh
 				"She was a bit grumpy about this. Still, she insisted on her certainty in what she saw."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[23] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 9,
@@ -657,8 +747,8 @@ She was a bit grumpy about this. Still, she insisted on her certainty in what sh
 				"It sounded like she's been watching too many horror movies lately."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[24] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 9,
@@ -680,8 +770,8 @@ She was a bit grumpy about this. Still, she insisted on her certainty in what sh
 				"It sounded like she's been watching too many horror movies lately."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[25] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 9,
@@ -703,8 +793,8 @@ She was a bit grumpy about this. Still, she insisted on her certainty in what sh
 				"It sounded like she's been watching too many horror movies lately."
 			}
 		}
-	},
-	[27] = {
+	}
+	pg.base.activity_dreamland_explore[27] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 10,
@@ -733,8 +823,8 @@ You told her to talk to Amagi about it.]],
 				"You told her to talk to Amagi about it."
 			}
 		}
-	},
-	[28] = {
+	}
+	pg.base.activity_dreamland_explore[28] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 11,
@@ -756,8 +846,8 @@ You told her to talk to Amagi about it.]],
 				"You looked to where she pointed. There was nothing there."
 			}
 		}
-	},
-	[29] = {
+	}
+	pg.base.activity_dreamland_explore[29] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 12,
@@ -786,89 +876,5 @@ Amagi pointed out that the strange sensation Fu Shun felt was simply static elec
 				"Amagi pointed out that the strange sensation Fu Shun felt was simply static electricity."
 			}
 		}
-	},
-	get_id_list_by_group = {
-		{
-			1,
-			2,
-			3
-		},
-		{
-			4
-		},
-		{
-			5,
-			6,
-			7
-		},
-		{
-			8,
-			9,
-			10,
-			11,
-			12,
-			13
-		},
-		{
-			14,
-			15,
-			16
-		},
-		{
-			17
-		},
-		{
-			18,
-			19,
-			20
-		},
-		{
-			21,
-			22
-		},
-		{
-			23,
-			24,
-			25
-		},
-		{
-			27
-		},
-		{
-			28
-		},
-		{
-			29
-		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		27,
-		28,
-		29
 	}
-}
+end)()

@@ -1,6 +1,26 @@
 pg = pg or {}
-pg.oilfield_template = {
-	{
+pg.oilfield_template = rawget(pg, "oilfield_template") or setmetatable({
+	__name = "oilfield_template"
+}, confNEO)
+pg.oilfield_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12
+}
+pg.base = pg.base or {}
+pg.base.oilfield_template = {}
+
+(function ()
+	pg.base.oilfield_template[1] = {
 		store = 300,
 		production = 20,
 		time = 10,
@@ -11,8 +31,8 @@ pg.oilfield_template = {
 			1,
 			60
 		}
-	},
-	{
+	}
+	pg.base.oilfield_template[2] = {
 		store = 600,
 		production = 21,
 		time = 900,
@@ -23,8 +43,8 @@ pg.oilfield_template = {
 			1,
 			300
 		}
-	},
-	{
+	}
+	pg.base.oilfield_template[3] = {
 		store = 900,
 		production = 22,
 		time = 3600,
@@ -35,8 +55,8 @@ pg.oilfield_template = {
 			1,
 			600
 		}
-	},
-	{
+	}
+	pg.base.oilfield_template[4] = {
 		store = 1200,
 		production = 23,
 		time = 7200,
@@ -47,8 +67,8 @@ pg.oilfield_template = {
 			1,
 			1500
 		}
-	},
-	{
+	}
+	pg.base.oilfield_template[5] = {
 		store = 1500,
 		production = 24,
 		time = 14400,
@@ -59,8 +79,8 @@ pg.oilfield_template = {
 			1,
 			3000
 		}
-	},
-	{
+	}
+	pg.base.oilfield_template[6] = {
 		store = 1800,
 		production = 25,
 		time = 28800,
@@ -71,8 +91,8 @@ pg.oilfield_template = {
 			1,
 			4500
 		}
-	},
-	{
+	}
+	pg.base.oilfield_template[7] = {
 		store = 2100,
 		production = 26,
 		time = 43200,
@@ -83,8 +103,8 @@ pg.oilfield_template = {
 			1,
 			6000
 		}
-	},
-	{
+	}
+	pg.base.oilfield_template[8] = {
 		store = 2400,
 		production = 27,
 		time = 64800,
@@ -95,8 +115,8 @@ pg.oilfield_template = {
 			1,
 			7500
 		}
-	},
-	{
+	}
+	pg.base.oilfield_template[9] = {
 		store = 2700,
 		production = 28,
 		time = 86400,
@@ -107,8 +127,8 @@ pg.oilfield_template = {
 			1,
 			15000
 		}
-	},
-	{
+	}
+	pg.base.oilfield_template[10] = {
 		store = 3000,
 		production = 30,
 		time = 7200,
@@ -119,8 +139,8 @@ pg.oilfield_template = {
 			1,
 			9000
 		}
-	},
-	{
+	}
+	pg.base.oilfield_template[11] = {
 		store = 3300,
 		production = 31,
 		time = 7200,
@@ -131,8 +151,8 @@ pg.oilfield_template = {
 			1,
 			10500
 		}
-	},
-	{
+	}
+	pg.base.oilfield_template[12] = {
 		store = 3600,
 		production = 32,
 		time = 0,
@@ -143,19 +163,5 @@ pg.oilfield_template = {
 			1,
 			12000
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12
 	}
-}
+end)()

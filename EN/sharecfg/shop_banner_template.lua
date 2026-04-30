@@ -1,6 +1,60 @@
 pg = pg or {}
-pg.shop_banner_template = {
-	[10] = {
+pg.shop_banner_template = rawget(pg, "shop_banner_template") or setmetatable({
+	__name = "shop_banner_template"
+}, confNEO)
+pg.shop_banner_template.all = {
+	10,
+	11,
+	12,
+	13,
+	14,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	30,
+	31,
+	40,
+	41,
+	50,
+	51
+}
+pg.shop_banner_template.get_id_list_by_name = {
+	banner_big = {
+		10,
+		11,
+		12,
+		13,
+		14
+	},
+	banner_middle = {
+		20,
+		21,
+		22,
+		23,
+		24,
+		25
+	},
+	banner_small1 = {
+		30,
+		31
+	},
+	banner_small2 = {
+		40,
+		41
+	},
+	banner_small3 = {
+		50,
+		51
+	}
+}
+pg.base = pg.base or {}
+pg.base.shop_banner_template = {}
+
+(function ()
+	pg.base.shop_banner_template[10] = {
 		name = "banner_big",
 		type = 2,
 		time_lable = 1,
@@ -38,8 +92,8 @@ pg.shop_banner_template = {
 			"scene skinshop",
 			{}
 		}
-	},
-	[11] = {
+	}
+	pg.base.shop_banner_template[11] = {
 		name = "banner_big",
 		type = 2,
 		time_lable = 1,
@@ -77,8 +131,8 @@ pg.shop_banner_template = {
 			"scene skinshop",
 			{}
 		}
-	},
-	[12] = {
+	}
+	pg.base.shop_banner_template[12] = {
 		name = "banner_big",
 		type = 2,
 		time_lable = 1,
@@ -90,8 +144,8 @@ pg.shop_banner_template = {
 			{
 				{
 					2026,
-					2,
-					12
+					4,
+					30
 				},
 				{
 					0,
@@ -102,8 +156,8 @@ pg.shop_banner_template = {
 			{
 				{
 					2026,
-					3,
-					4
+					5,
+					6
 				},
 				{
 					23,
@@ -116,8 +170,8 @@ pg.shop_banner_template = {
 			"scene skinshop",
 			{}
 		}
-	},
-	[13] = {
+	}
+	pg.base.shop_banner_template[13] = {
 		name = "banner_big",
 		time = "stop",
 		type = 2,
@@ -130,8 +184,8 @@ pg.shop_banner_template = {
 			"scene skinshop",
 			{}
 		}
-	},
-	[14] = {
+	}
+	pg.base.shop_banner_template[14] = {
 		name = "banner_big",
 		time = "always",
 		type = 2,
@@ -144,8 +198,8 @@ pg.shop_banner_template = {
 			"scene skinshop",
 			{}
 		}
-	},
-	[20] = {
+	}
+	pg.base.shop_banner_template[20] = {
 		name = "banner_middle",
 		type = 2,
 		time_lable = 1,
@@ -188,8 +242,8 @@ pg.shop_banner_template = {
 			1,
 			164
 		}
-	},
-	[21] = {
+	}
+	pg.base.shop_banner_template[21] = {
 		name = "banner_middle",
 		type = 2,
 		time_lable = 1,
@@ -232,8 +286,8 @@ pg.shop_banner_template = {
 			1,
 			165
 		}
-	},
-	[22] = {
+	}
+	pg.base.shop_banner_template[22] = {
 		name = "banner_middle",
 		time = "always",
 		type = 2,
@@ -248,8 +302,8 @@ pg.shop_banner_template = {
 				warp = 4
 			}
 		}
-	},
-	[23] = {
+	}
+	pg.base.shop_banner_template[23] = {
 		name = "banner_middle",
 		type = 2,
 		time_lable = 1,
@@ -292,8 +346,8 @@ pg.shop_banner_template = {
 			1,
 			9013
 		}
-	},
-	[24] = {
+	}
+	pg.base.shop_banner_template[24] = {
 		name = "banner_middle",
 		type = 2,
 		time_lable = 1,
@@ -336,8 +390,8 @@ pg.shop_banner_template = {
 			1,
 			9014
 		}
-	},
-	[25] = {
+	}
+	pg.base.shop_banner_template[25] = {
 		name = "banner_middle",
 		time = "stop",
 		type = 2,
@@ -355,8 +409,8 @@ pg.shop_banner_template = {
 			1,
 			9006
 		}
-	},
-	[30] = {
+	}
+	pg.base.shop_banner_template[30] = {
 		name = "banner_small1",
 		time = "always",
 		type = 2,
@@ -371,8 +425,8 @@ pg.shop_banner_template = {
 				warp = 1
 			}
 		}
-	},
-	[31] = {
+	}
+	pg.base.shop_banner_template[31] = {
 		name = "banner_small1",
 		time = "always",
 		type = 2,
@@ -387,8 +441,8 @@ pg.shop_banner_template = {
 				warp = 3
 			}
 		}
-	},
-	[40] = {
+	}
+	pg.base.shop_banner_template[40] = {
 		param = "",
 		name = "banner_small2",
 		time = "stop",
@@ -398,8 +452,8 @@ pg.shop_banner_template = {
 		id = 40,
 		relation_param = "",
 		order = 10
-	},
-	[41] = {
+	}
+	pg.base.shop_banner_template[41] = {
 		name = "banner_small2",
 		time = "always",
 		type = 2,
@@ -417,8 +471,8 @@ pg.shop_banner_template = {
 			1,
 			1
 		}
-	},
-	[50] = {
+	}
+	pg.base.shop_banner_template[50] = {
 		name = "banner_small3",
 		type = 2,
 		time_lable = 1,
@@ -458,8 +512,8 @@ pg.shop_banner_template = {
 				warp = "activity"
 			}
 		}
-	},
-	[51] = {
+	}
+	pg.base.shop_banner_template[51] = {
 		name = "banner_small3",
 		time = "always",
 		type = 2,
@@ -474,53 +528,5 @@ pg.shop_banner_template = {
 				warp = "shopstreet"
 			}
 		}
-	},
-	get_id_list_by_name = {
-		banner_big = {
-			10,
-			11,
-			12,
-			13,
-			14
-		},
-		banner_middle = {
-			20,
-			21,
-			22,
-			23,
-			24,
-			25
-		},
-		banner_small1 = {
-			30,
-			31
-		},
-		banner_small2 = {
-			40,
-			41
-		},
-		banner_small3 = {
-			50,
-			51
-		}
-	},
-	all = {
-		10,
-		11,
-		12,
-		13,
-		14,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		30,
-		31,
-		40,
-		41,
-		50,
-		51
 	}
-}
+end)()

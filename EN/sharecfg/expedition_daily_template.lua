@@ -1,6 +1,22 @@
 pg = pg or {}
-pg.expedition_daily_template = {
-	[101] = {
+pg.expedition_daily_template = rawget(pg, "expedition_daily_template") or setmetatable({
+	__name = "expedition_daily_template"
+}, confNEO)
+pg.expedition_daily_template.all = {
+	101,
+	201,
+	301,
+	401,
+	501,
+	601,
+	701,
+	801
+}
+pg.base = pg.base or {}
+pg.base.expedition_daily_template = {}
+
+(function ()
+	pg.base.expedition_daily_template[101] = {
 		tips = "This stage is not available yet.",
 		limit_type = 0,
 		pic = "daily4",
@@ -14,8 +30,8 @@ pg.expedition_daily_template = {
 		des = "This stage is not available yet.",
 		weekday = {},
 		expedition_and_lv_limit_list = {}
-	},
-	[201] = {
+	}
+	pg.base.expedition_daily_template[201] = {
 		tips = "Escort Mission available on every Monday, Thursday and Sunday",
 		limit_type = 1,
 		pic = "daily1",
@@ -82,8 +98,8 @@ pg.expedition_daily_template = {
 				95
 			}
 		}
-	},
-	[301] = {
+	}
+	pg.base.expedition_daily_template[301] = {
 		tips = "Advance Mission available on every Tuesday, Friday and Sunday",
 		limit_type = 1,
 		pic = "daily2",
@@ -126,8 +142,8 @@ pg.expedition_daily_template = {
 				95
 			}
 		}
-	},
-	[401] = {
+	}
+	pg.base.expedition_daily_template[401] = {
 		tips = "Fierce Assault available on every Wednesday, Saturday and Sunday",
 		limit_type = 1,
 		pic = "daily3",
@@ -170,8 +186,8 @@ pg.expedition_daily_template = {
 				95
 			}
 		}
-	},
-	[501] = {
+	}
+	pg.base.expedition_daily_template[501] = {
 		tips = "4 times per week",
 		limit_type = 2,
 		pic = "daily5",
@@ -218,8 +234,8 @@ pg.expedition_daily_template = {
 				95
 			}
 		}
-	},
-	[601] = {
+	}
+	pg.base.expedition_daily_template[601] = {
 		tips = "Daily",
 		limit_type = 1,
 		pic = "daily6",
@@ -266,8 +282,8 @@ pg.expedition_daily_template = {
 				100
 			}
 		}
-	},
-	[701] = {
+	}
+	pg.base.expedition_daily_template[701] = {
 		tips = "Twice per week",
 		limit_type = 2,
 		pic = "daily7",
@@ -298,8 +314,8 @@ pg.expedition_daily_template = {
 				75
 			}
 		}
-	},
-	[801] = {
+	}
+	pg.base.expedition_daily_template[801] = {
 		tips = "Can be challenged once per day during the available period.",
 		limit_type = 1,
 		pic = "daily8",
@@ -355,15 +371,5 @@ pg.expedition_daily_template = {
 				70
 			}
 		}
-	},
-	all = {
-		101,
-		201,
-		301,
-		401,
-		501,
-		601,
-		701,
-		801
 	}
-}
+end)()

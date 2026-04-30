@@ -1,6 +1,52 @@
 pg = pg or {}
-pg.island_speedup_ticket = {
-	[10001] = {
+pg.island_speedup_ticket = rawget(pg, "island_speedup_ticket") or setmetatable({
+	__name = "island_speedup_ticket"
+}, confNEO)
+pg.island_speedup_ticket.all = {
+	10001,
+	10002,
+	10003,
+	10004,
+	10005,
+	20001,
+	20002,
+	20003,
+	20004,
+	20005,
+	30001,
+	30002,
+	30003,
+	30004,
+	30005
+}
+pg.island_speedup_ticket.get_id_list_by_speedup_time = {
+	[60] = {
+		10001,
+		10002,
+		10003,
+		10004,
+		10005
+	},
+	[600] = {
+		20001,
+		20002,
+		20003,
+		20004,
+		20005
+	},
+	[3600] = {
+		30001,
+		30002,
+		30003,
+		30004,
+		30005
+	}
+}
+pg.base = pg.base or {}
+pg.base.island_speedup_ticket = {}
+
+(function ()
+	pg.base.island_speedup_ticket[10001] = {
 		name = "Express Ticket (1 Min.) ",
 		rarity = 2,
 		type = 1,
@@ -23,8 +69,8 @@ pg.island_speedup_ticket = {
 				0
 			}
 		}
-	},
-	[10002] = {
+	}
+	pg.base.island_speedup_ticket[10002] = {
 		name = "Express Ticket (1 Min.) ",
 		rarity = 2,
 		expiration_time = "",
@@ -36,8 +82,8 @@ pg.island_speedup_ticket = {
 		id = 10002,
 		icon = "islandprops/item_speedup_ticket1",
 		icon_normal = "props/item_speedup_ticket1"
-	},
-	[10003] = {
+	}
+	pg.base.island_speedup_ticket[10003] = {
 		name = "Express Ticket (1 Min.) ",
 		rarity = 2,
 		expiration_time = "",
@@ -49,8 +95,8 @@ pg.island_speedup_ticket = {
 		id = 10003,
 		icon = "islandprops/item_speedup_ticket1",
 		icon_normal = "props/item_speedup_ticket1"
-	},
-	[10004] = {
+	}
+	pg.base.island_speedup_ticket[10004] = {
 		name = "Express Ticket (1 Min.) ",
 		rarity = 2,
 		expiration_time = "",
@@ -62,8 +108,8 @@ pg.island_speedup_ticket = {
 		id = 10004,
 		icon = "islandprops/item_speedup_ticket1",
 		icon_normal = "props/item_speedup_ticket1"
-	},
-	[10005] = {
+	}
+	pg.base.island_speedup_ticket[10005] = {
 		name = "Express Ticket (1 Min.)",
 		rarity = 2,
 		type = 1,
@@ -86,8 +132,8 @@ pg.island_speedup_ticket = {
 				0
 			}
 		}
-	},
-	[20001] = {
+	}
+	pg.base.island_speedup_ticket[20001] = {
 		name = "Express Ticket (10 Min.)",
 		rarity = 3,
 		type = 2,
@@ -110,8 +156,8 @@ pg.island_speedup_ticket = {
 				0
 			}
 		}
-	},
-	[20002] = {
+	}
+	pg.base.island_speedup_ticket[20002] = {
 		name = "Express Ticket (10 Min.)",
 		rarity = 3,
 		expiration_time = "",
@@ -123,8 +169,8 @@ pg.island_speedup_ticket = {
 		id = 20002,
 		icon = "islandprops/item_speedup_ticket2",
 		icon_normal = "props/item_speedup_ticket2"
-	},
-	[20003] = {
+	}
+	pg.base.island_speedup_ticket[20003] = {
 		name = "Express Ticket (10 Min.)",
 		rarity = 3,
 		expiration_time = "",
@@ -136,8 +182,8 @@ pg.island_speedup_ticket = {
 		id = 20003,
 		icon = "islandprops/item_speedup_ticket2",
 		icon_normal = "props/item_speedup_ticket2"
-	},
-	[20004] = {
+	}
+	pg.base.island_speedup_ticket[20004] = {
 		name = "Express Ticket (10 Min.)",
 		rarity = 3,
 		expiration_time = "",
@@ -149,8 +195,8 @@ pg.island_speedup_ticket = {
 		id = 20004,
 		icon = "islandprops/item_speedup_ticket2",
 		icon_normal = "props/item_speedup_ticket2"
-	},
-	[20005] = {
+	}
+	pg.base.island_speedup_ticket[20005] = {
 		name = "Express Ticket (10 Min.)",
 		rarity = 3,
 		type = 2,
@@ -173,8 +219,8 @@ pg.island_speedup_ticket = {
 				0
 			}
 		}
-	},
-	[30001] = {
+	}
+	pg.base.island_speedup_ticket[30001] = {
 		name = "Express Ticket (60 Min.)",
 		rarity = 4,
 		type = 3,
@@ -197,8 +243,8 @@ pg.island_speedup_ticket = {
 				0
 			}
 		}
-	},
-	[30002] = {
+	}
+	pg.base.island_speedup_ticket[30002] = {
 		name = "Express Ticket (60 Min.)",
 		rarity = 4,
 		expiration_time = "",
@@ -210,8 +256,8 @@ pg.island_speedup_ticket = {
 		id = 30002,
 		icon = "islandprops/item_speedup_ticket3",
 		icon_normal = "props/item_speedup_ticket3"
-	},
-	[30003] = {
+	}
+	pg.base.island_speedup_ticket[30003] = {
 		name = "Express Ticket (60 Min.)",
 		rarity = 4,
 		expiration_time = "",
@@ -223,8 +269,8 @@ pg.island_speedup_ticket = {
 		id = 30003,
 		icon = "islandprops/item_speedup_ticket3",
 		icon_normal = "props/item_speedup_ticket3"
-	},
-	[30004] = {
+	}
+	pg.base.island_speedup_ticket[30004] = {
 		name = "Express Ticket (60 Min.)",
 		rarity = 4,
 		expiration_time = "",
@@ -236,8 +282,8 @@ pg.island_speedup_ticket = {
 		id = 30004,
 		icon = "islandprops/item_speedup_ticket3",
 		icon_normal = "props/item_speedup_ticket3"
-	},
-	[30005] = {
+	}
+	pg.base.island_speedup_ticket[30005] = {
 		name = "Express Ticket (60 Min.)",
 		rarity = 4,
 		type = 3,
@@ -260,45 +306,5 @@ pg.island_speedup_ticket = {
 				0
 			}
 		}
-	},
-	get_id_list_by_speedup_time = {
-		[60] = {
-			10001,
-			10002,
-			10003,
-			10004,
-			10005
-		},
-		[600] = {
-			20001,
-			20002,
-			20003,
-			20004,
-			20005
-		},
-		[3600] = {
-			30001,
-			30002,
-			30003,
-			30004,
-			30005
-		}
-	},
-	all = {
-		10001,
-		10002,
-		10003,
-		10004,
-		10005,
-		20001,
-		20002,
-		20003,
-		20004,
-		20005,
-		30001,
-		30002,
-		30003,
-		30004,
-		30005
 	}
-}
+end)()

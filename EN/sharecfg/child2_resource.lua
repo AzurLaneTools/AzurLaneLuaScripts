@@ -1,6 +1,40 @@
 pg = pg or {}
-pg.child2_resource = {
+pg.child2_resource = rawget(pg, "child2_resource") or setmetatable({
+	__name = "child2_resource"
+}, confNEO)
+pg.child2_resource.all = {
+	1,
+	2,
+	3,
+	4,
+	301,
+	302,
+	303,
+	304,
+	305,
+	306
+}
+pg.child2_resource.get_id_list_by_character = {
 	{
+		1,
+		2,
+		3,
+		4
+	},
+	{
+		301,
+		302,
+		303,
+		304,
+		305,
+		306
+	}
+}
+pg.base = pg.base or {}
+pg.base.child2_resource = {}
+
+(function ()
+	pg.base.child2_resource[1] = {
 		item_icon = "res_jinqian2",
 		name = "Funds",
 		min_value = 0,
@@ -11,8 +45,8 @@ pg.child2_resource = {
 		character = 1,
 		id = 1,
 		icon = "res_jinqian"
-	},
-	{
+	}
+	pg.base.child2_resource[2] = {
 		item_icon = "res_xinqing2",
 		name = "Mood",
 		min_value = 0,
@@ -29,8 +63,8 @@ Mood affects how many stats and Funds you get.
 		character = 1,
 		id = 2,
 		icon = "res_xinqing"
-	},
-	{
+	}
+	pg.base.child2_resource[3] = {
 		item_icon = "res_xingdongli2",
 		name = "Action points",
 		min_value = 0,
@@ -41,8 +75,8 @@ Mood affects how many stats and Funds you get.
 		character = 1,
 		id = 3,
 		icon = "res_xingdongli"
-	},
-	{
+	}
+	pg.base.child2_resource[4] = {
 		item_icon = "res_haogandu2",
 		name = "Affection",
 		min_value = 0,
@@ -53,8 +87,8 @@ Mood affects how many stats and Funds you get.
 		character = 1,
 		id = 4,
 		icon = "res_haogandu"
-	},
-	[301] = {
+	}
+	pg.base.child2_resource[301] = {
 		item_icon = "res_jinqian2",
 		name = "Funds",
 		min_value = 0,
@@ -65,8 +99,8 @@ Mood affects how many stats and Funds you get.
 		character = 2,
 		id = 301,
 		icon = "res_jinqian"
-	},
-	[302] = {
+	}
+	pg.base.child2_resource[302] = {
 		item_icon = "res_xinqing2",
 		name = "Mood",
 		min_value = 0,
@@ -83,8 +117,8 @@ Mood affects how many stats and Funds you get.
 		character = 2,
 		id = 302,
 		icon = "res_xinqing"
-	},
-	[303] = {
+	}
+	pg.base.child2_resource[303] = {
 		item_icon = "res_xingdongli2",
 		name = "Action Points",
 		min_value = 0,
@@ -95,8 +129,8 @@ Mood affects how many stats and Funds you get.
 		character = 2,
 		id = 303,
 		icon = "res_xingdongli"
-	},
-	[304] = {
+	}
+	pg.base.child2_resource[304] = {
 		item_icon = "res_haogandu2",
 		name = "Affection",
 		min_value = 0,
@@ -107,8 +141,8 @@ Mood affects how many stats and Funds you get.
 		character = 2,
 		id = 304,
 		icon = "res_haogandu"
-	},
-	[305] = {
+	}
+	pg.base.child2_resource[305] = {
 		item_icon = "res_refresh1",
 		name = "Refreshes",
 		min_value = 0,
@@ -119,8 +153,8 @@ Mood affects how many stats and Funds you get.
 		character = 2,
 		id = 305,
 		icon = "res_refresh1"
-	},
-	[306] = {
+	}
+	pg.base.child2_resource[306] = {
 		item_icon = "res_refresh2",
 		name = "Redraws",
 		min_value = 0,
@@ -131,33 +165,5 @@ Mood affects how many stats and Funds you get.
 		character = 2,
 		id = 306,
 		icon = "res_refresh2"
-	},
-	get_id_list_by_character = {
-		{
-			1,
-			2,
-			3,
-			4
-		},
-		{
-			301,
-			302,
-			303,
-			304,
-			305,
-			306
-		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		301,
-		302,
-		303,
-		304,
-		305,
-		306
 	}
-}
+end)()

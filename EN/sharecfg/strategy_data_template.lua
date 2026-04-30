@@ -1,404 +1,407 @@
 pg = pg or {}
-pg.strategy_data_template = setmetatable({
-	__name = "strategy_data_template",
-	all = {
-		1,
-		2,
-		3,
-		4,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		16,
-		17,
-		18,
-		47,
-		90,
-		91,
-		92,
-		93,
-		94,
-		95,
-		96,
-		97,
-		1000,
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1007,
-		1008,
-		1009,
-		1010,
-		1011,
-		1012,
-		1013,
-		1014,
-		1015,
-		1016,
-		8650,
-		8732,
-		8744,
-		8745,
-		8746,
-		8750,
-		8801,
-		8802,
-		8803,
-		8806,
-		8809,
-		8812,
-		8815,
-		8832,
-		8841,
-		8842,
-		8843,
-		8846,
-		8849,
-		8852,
-		8855,
-		8858,
-		8863,
-		8864,
-		8865,
-		8867,
-		8869,
-		8874,
-		8877,
-		8880,
-		8882,
-		8884,
-		8909,
-		8910,
-		8911,
-		8912,
-		8913,
-		8914,
-		8915,
-		8916,
-		8917,
-		8918,
-		8919,
-		8920,
-		8941,
-		8942,
-		8943,
-		8944,
-		8945,
-		8946,
-		8953,
-		8955,
-		8957,
-		8959,
-		8974,
-		8975,
-		8976,
-		9211,
-		9212,
-		9213,
-		9216,
-		9219,
-		9222,
-		9225,
-		9231,
-		9232,
-		9233,
-		9236,
-		9239,
-		9242,
-		9245,
-		9251,
-		9252,
-		9253,
-		9256,
-		9259,
-		9262,
-		9265,
-		9271,
-		9272,
-		9273,
-		9276,
-		9279,
-		9282,
-		9285,
-		9391,
-		9392,
-		9393,
-		9394,
-		9395,
-		9401,
-		9403,
-		9406,
-		9409,
-		9412,
-		9415,
-		9421,
-		9423,
-		9426,
-		9429,
-		9432,
-		9435,
-		9441,
-		9443,
-		9446,
-		9449,
-		9452,
-		9455,
-		9461,
-		9463,
-		9466,
-		9469,
-		9472,
-		9475,
-		9481,
-		9483,
-		9486,
-		9489,
-		9492,
-		9495,
-		9500,
-		9502,
-		9505,
-		9508,
-		10001,
-		10002,
-		10011,
-		10012,
-		10013,
-		10014,
-		10015,
-		10021,
-		10031,
-		10032,
-		10033,
-		200000,
-		200003,
-		200006,
-		200009,
-		200011,
-		200012,
-		200013,
-		200015,
-		200016,
-		200019,
-		200023,
-		200024,
-		200025,
-		200052,
-		200054,
-		200057,
-		200060,
-		200063,
-		200067,
-		200070,
-		200074,
-		200078,
-		200079,
-		200080,
-		200081,
-		200082,
-		200083,
-		200084,
-		200085,
-		200086,
-		200087,
-		200088,
-		200239,
-		200240,
-		200241,
-		200242,
-		200327,
-		200330,
-		200333,
-		200336,
-		200338,
-		200392,
-		200394,
-		200396,
-		200401,
-		200406,
-		200411,
-		200416,
-		200432,
-		200433,
-		200434,
-		200511,
-		200535,
-		200536,
-		200538,
-		200541,
-		200544,
-		200545,
-		200546,
-		200583,
-		200585,
-		200589,
-		200592,
-		200595,
-		200618,
-		200620,
-		200622,
-		200624,
-		200627,
-		200630,
-		200633,
-		200645,
-		200646,
-		200647,
-		200648,
-		200649,
-		200655,
-		200658,
-		200661,
-		200664,
-		200667,
-		200670,
-		200673,
-		200676,
-		200679,
-		200732,
-		200735,
-		200770,
-		200774,
-		200777,
-		200780,
-		200783,
-		200902,
-		200903,
-		200905,
-		200907,
-		200908,
-		200925,
-		200926,
-		200928,
-		200930,
-		200931,
-		200932,
-		200979,
-		200980,
-		200983,
-		200984,
-		200987,
-		200990,
-		200999,
-		201021,
-		201022,
-		201024,
-		201027,
-		201029,
-		201090,
-		201094,
-		201097,
-		201100,
-		201149,
-		201152,
-		201155,
-		201157,
-		201158,
-		201193,
-		201194,
-		201197,
-		201198,
-		201199,
-		201250,
-		201270,
-		201276,
-		201281,
-		201287,
-		201301,
-		201302,
-		201303,
-		201304,
-		201305,
-		201306,
-		201307,
-		201308,
-		201309,
-		201310,
-		201311,
-		201312,
-		201313,
-		201314,
-		201315,
-		201316,
-		201317,
-		201318,
-		201319,
-		201320,
-		201321,
-		201327,
-		201361,
-		201365,
-		201377,
-		201378,
-		201382,
-		201386,
-		201410,
-		201411,
-		201461,
-		201462,
-		201463,
-		201464,
-		201515,
-		201516,
-		201517,
-		201519,
-		201525,
-		201530,
-		201531,
-		201532,
-		201547,
-		201550,
-		201551,
-		201552,
-		201650,
-		201651,
-		201654,
-		201655,
-		201701,
-		201705,
-		201706,
-		201707,
-		201741,
-		201742,
-		201743,
-		205001,
-		205002,
-		205003,
-		205004,
-		205005,
-		205006,
-		205007,
-		300001,
-		300002,
-		300003,
-		300004,
-		300005,
-		300006,
-		300007,
-		300008,
-		300009,
-		300010,
-		300011,
-		300012,
-		300013,
-		300014,
-		300015,
-		300016,
-		300017,
-		300018,
-		300019,
-		300020
-	}
-}, confHX)
+pg.strategy_data_template = rawget(pg, "strategy_data_template") or setmetatable({
+	__name = "strategy_data_template"
+}, confNEO)
+pg.strategy_data_template.__namecode__ = true
+pg.strategy_data_template.all = {
+	1,
+	2,
+	3,
+	4,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	16,
+	17,
+	18,
+	47,
+	90,
+	91,
+	92,
+	93,
+	94,
+	95,
+	96,
+	97,
+	1000,
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008,
+	1009,
+	1010,
+	1011,
+	1012,
+	1013,
+	1014,
+	1015,
+	1016,
+	8650,
+	8732,
+	8744,
+	8745,
+	8746,
+	8750,
+	8801,
+	8802,
+	8803,
+	8806,
+	8809,
+	8812,
+	8815,
+	8832,
+	8841,
+	8842,
+	8843,
+	8846,
+	8849,
+	8852,
+	8855,
+	8858,
+	8863,
+	8864,
+	8865,
+	8867,
+	8869,
+	8874,
+	8877,
+	8880,
+	8882,
+	8884,
+	8909,
+	8910,
+	8911,
+	8912,
+	8913,
+	8914,
+	8915,
+	8916,
+	8917,
+	8918,
+	8919,
+	8920,
+	8941,
+	8942,
+	8943,
+	8944,
+	8945,
+	8946,
+	8953,
+	8955,
+	8957,
+	8959,
+	8974,
+	8975,
+	8976,
+	9211,
+	9212,
+	9213,
+	9216,
+	9219,
+	9222,
+	9225,
+	9231,
+	9232,
+	9233,
+	9236,
+	9239,
+	9242,
+	9245,
+	9251,
+	9252,
+	9253,
+	9256,
+	9259,
+	9262,
+	9265,
+	9271,
+	9272,
+	9273,
+	9276,
+	9279,
+	9282,
+	9285,
+	9391,
+	9392,
+	9393,
+	9394,
+	9395,
+	9401,
+	9403,
+	9406,
+	9409,
+	9412,
+	9415,
+	9421,
+	9423,
+	9426,
+	9429,
+	9432,
+	9435,
+	9441,
+	9443,
+	9446,
+	9449,
+	9452,
+	9455,
+	9461,
+	9463,
+	9466,
+	9469,
+	9472,
+	9475,
+	9481,
+	9483,
+	9486,
+	9489,
+	9492,
+	9495,
+	9500,
+	9502,
+	9505,
+	9508,
+	10001,
+	10002,
+	10011,
+	10012,
+	10013,
+	10014,
+	10015,
+	10021,
+	10031,
+	10032,
+	10033,
+	200000,
+	200003,
+	200006,
+	200009,
+	200011,
+	200012,
+	200013,
+	200015,
+	200016,
+	200019,
+	200023,
+	200024,
+	200025,
+	200052,
+	200054,
+	200057,
+	200060,
+	200063,
+	200067,
+	200070,
+	200074,
+	200078,
+	200079,
+	200080,
+	200081,
+	200082,
+	200083,
+	200084,
+	200085,
+	200086,
+	200087,
+	200088,
+	200239,
+	200240,
+	200241,
+	200242,
+	200327,
+	200330,
+	200333,
+	200336,
+	200338,
+	200392,
+	200394,
+	200396,
+	200401,
+	200406,
+	200411,
+	200416,
+	200432,
+	200433,
+	200434,
+	200511,
+	200535,
+	200536,
+	200538,
+	200541,
+	200544,
+	200545,
+	200546,
+	200583,
+	200585,
+	200589,
+	200592,
+	200595,
+	200618,
+	200620,
+	200622,
+	200624,
+	200627,
+	200630,
+	200633,
+	200645,
+	200646,
+	200647,
+	200648,
+	200649,
+	200655,
+	200658,
+	200661,
+	200664,
+	200667,
+	200670,
+	200673,
+	200676,
+	200679,
+	200732,
+	200735,
+	200770,
+	200774,
+	200777,
+	200780,
+	200783,
+	200902,
+	200903,
+	200905,
+	200907,
+	200908,
+	200925,
+	200926,
+	200928,
+	200930,
+	200931,
+	200932,
+	200979,
+	200980,
+	200983,
+	200984,
+	200987,
+	200990,
+	200999,
+	201021,
+	201022,
+	201024,
+	201027,
+	201029,
+	201090,
+	201094,
+	201097,
+	201100,
+	201149,
+	201152,
+	201155,
+	201157,
+	201158,
+	201193,
+	201194,
+	201197,
+	201198,
+	201199,
+	201250,
+	201270,
+	201276,
+	201281,
+	201287,
+	201301,
+	201302,
+	201303,
+	201304,
+	201305,
+	201306,
+	201307,
+	201308,
+	201309,
+	201310,
+	201311,
+	201312,
+	201313,
+	201314,
+	201315,
+	201316,
+	201317,
+	201318,
+	201319,
+	201320,
+	201321,
+	201327,
+	201361,
+	201365,
+	201377,
+	201378,
+	201382,
+	201386,
+	201410,
+	201411,
+	201461,
+	201462,
+	201463,
+	201464,
+	201515,
+	201516,
+	201517,
+	201519,
+	201525,
+	201530,
+	201531,
+	201532,
+	201547,
+	201550,
+	201551,
+	201552,
+	201650,
+	201651,
+	201654,
+	201655,
+	201701,
+	201705,
+	201706,
+	201707,
+	201741,
+	201742,
+	201743,
+	205001,
+	205002,
+	205003,
+	205004,
+	205005,
+	205006,
+	205007,
+	300001,
+	300002,
+	300003,
+	300004,
+	300005,
+	300006,
+	300007,
+	300008,
+	300009,
+	300010,
+	300011,
+	300012,
+	300013,
+	300014,
+	300015,
+	300016,
+	300017,
+	300018,
+	300019,
+	300020
+}
 pg.base = pg.base or {}
-pg.base.strategy_data_template = {
-	{
+pg.base.strategy_data_template = {}
+
+(function ()
+	pg.base.strategy_data_template[1] = {
 		buff_id = 100,
 		name = "Single Line Assault",
 		desc = "Your fleet has 15% increased Firepower and Torpedo, and 10% reduced Evasion.",
@@ -408,8 +411,8 @@ pg.base.strategy_data_template = {
 		id = 1,
 		icon = "1",
 		arg = {}
-	},
-	{
+	}
+	pg.base.strategy_data_template[2] = {
 		buff_id = 110,
 		name = "Double Line Advance",
 		desc = "Your fleet Evasion has increased by 30%, while Firepower and Torpedo has reduced by 5%.",
@@ -419,8 +422,8 @@ pg.base.strategy_data_template = {
 		id = 2,
 		icon = "2",
 		arg = {}
-	},
-	{
+	}
+	pg.base.strategy_data_template[3] = {
 		buff_id = 120,
 		name = "Circular Defense",
 		desc = "Your fleet has 20% increased Anti-Air.",
@@ -430,8 +433,8 @@ pg.base.strategy_data_template = {
 		id = 3,
 		icon = "3",
 		arg = {}
-	},
-	{
+	}
+	pg.base.strategy_data_template[4] = {
 		buff_id = 0,
 		name = "Emergency Repair",
 		desc = "Restore 10%  HP to all ships in your current fleet",
@@ -444,8 +447,8 @@ pg.base.strategy_data_template = {
 			healthy,
 			10
 		}
-	},
-	[9] = {
+	}
+	pg.base.strategy_data_template[9] = {
 		buff_id = 0,
 		name = "Exchange location",
 		desc = "Exchange location with friendly team",
@@ -457,8 +460,8 @@ pg.base.strategy_data_template = {
 		arg = {
 			exchange
 		}
-	},
-	[10] = {
+	}
+	pg.base.strategy_data_template[10] = {
 		buff_id = 0,
 		name = "Unrestricted Support",
 		desc = "Submarine Support can be called in beyond the fleet's ASR boundaries.",
@@ -470,8 +473,8 @@ pg.base.strategy_data_template = {
 		arg = {
 			map_call
 		}
-	},
-	[11] = {
+	}
+	pg.base.strategy_data_template[11] = {
 		buff_id = 0,
 		name = "Positional Change",
 		desc = "Changes the Submarine Fleet's position on the map.",
@@ -484,8 +487,8 @@ pg.base.strategy_data_template = {
 			sub_move,
 			1.1
 		}
-	},
-	[12] = {
+	}
+	pg.base.strategy_data_template[12] = {
 		buff_id = 0,
 		name = "Sonar Scan",
 		desc = "Requisition land-based anti-submarine support. Perform an anti-submarine scan of the entire map, marking any submerged submarines.",
@@ -497,8 +500,8 @@ pg.base.strategy_data_template = {
 		arg = {
 			area_scout
 		}
-	},
-	[13] = {
+	}
+	pg.base.strategy_data_template[13] = {
 		buff_id = 9670,
 		name = "Flare Shell",
 		desc = "You currently have flares. The fleet that retrieved them will be able to fire flares during the next $1 battle(s).",
@@ -508,8 +511,8 @@ pg.base.strategy_data_template = {
 		id = 13,
 		icon = "yezhan_zhaomingdan",
 		arg = {}
-	},
-	[14] = {
+	}
+	pg.base.strategy_data_template[14] = {
 		buff_id = 9600,
 		name = "Lighthouse",
 		desc = "You are in control of a lighthouse. Your fleets may receive searchlight support during combat.",
@@ -519,8 +522,8 @@ pg.base.strategy_data_template = {
 		id = 14,
 		icon = "yezhan_dengta",
 		arg = {}
-	},
-	[16] = {
+	}
+	pg.base.strategy_data_template[16] = {
 		buff_id = 0,
 		name = "Poor Visibility",
 		desc = "The turbulent sea at night obscures your visibility. Both your vanguard fleet and the enemies will have Concealment Zones, making it harder to land hits.",
@@ -530,8 +533,8 @@ pg.base.strategy_data_template = {
 		id = 16,
 		icon = "weather_101",
 		arg = {}
-	},
-	[17] = {
+	}
+	pg.base.strategy_data_template[17] = {
 		buff_id = 0,
 		name = "Dense Fog",
 		desc = "Thick fog blankets the battlefield, reducing the rate at which Concealment Zones shrink for both your fleets and enemies.",
@@ -541,8 +544,8 @@ pg.base.strategy_data_template = {
 		id = 17,
 		icon = "Weather_102",
 		arg = {}
-	},
-	[18] = {
+	}
+	pg.base.strategy_data_template[18] = {
 		buff_id = 0,
 		name = "Missile",
 		desc = "Lets you launch a missile strike on the map.",
@@ -554,8 +557,8 @@ pg.base.strategy_data_template = {
 		arg = {
 			missile
 		}
-	},
-	[47] = {
+	}
+	pg.base.strategy_data_template[47] = {
 		buff_id = 0,
 		name = "High-Efficiency Operation",
 		desc = "Increases the Oil spent on this current stage by 100%;\nIn the process, increases the Commander EXP, Meowfficer EXP, and Ship EXP gained by 100%, and grants an additional drop chance. Mood consumption and Affection gain are both increased by 100%. ",
@@ -565,8 +568,8 @@ pg.base.strategy_data_template = {
 		id = 47,
 		icon = "tebiezuozhan",
 		arg = {}
-	},
-	[90] = {
+	}
+	pg.base.strategy_data_template[90] = {
 		buff_id = 90,
 		name = "RED ALERT!",
 		desc = "Kizuna AI is going to harass you during your next battle: Submarine Call, Air Strike, Torpedo Attack, and Main Battery Fire functions will be locked (including manual control mode). Tap her face a bunch to make her go away.",
@@ -576,8 +579,8 @@ pg.base.strategy_data_template = {
 		id = 90,
 		icon = "90",
 		arg = {}
-	},
-	[91] = {
+	}
+	pg.base.strategy_data_template[91] = {
 		buff_id = 91,
 		name = "Crisis Averted~",
 		desc = "Crisis Averted~Nobody is going to harass you this time",
@@ -587,8 +590,8 @@ pg.base.strategy_data_template = {
 		id = 91,
 		icon = "91",
 		arg = {}
-	},
-	[92] = {
+	}
+	pg.base.strategy_data_template[92] = {
 		buff_id = 0,
 		name = "Nightfall",
 		desc = "Enemies will appear on Ambush tiles during nighttime.",
@@ -598,8 +601,8 @@ pg.base.strategy_data_template = {
 		id = 92,
 		icon = "92",
 		arg = {}
-	},
-	[93] = {
+	}
+	pg.base.strategy_data_template[93] = {
 		buff_id = 0,
 		name = "Daybreak",
 		desc = "Enemies won't appear on Ambush tiles during daytime.",
@@ -609,8 +612,8 @@ pg.base.strategy_data_template = {
 		id = 93,
 		icon = "93",
 		arg = {}
-	},
-	[94] = {
+	}
+	pg.base.strategy_data_template[94] = {
 		buff_id = 9727,
 		name = "Enemy Air Support",
 		desc = "The enemy is currently providing air support on this battlefield. Enemy airstrikes will appear during battle.",
@@ -620,8 +623,8 @@ pg.base.strategy_data_template = {
 		id = 94,
 		icon = "94",
 		arg = {}
-	},
-	[95] = {
+	}
+	pg.base.strategy_data_template[95] = {
 		buff_id = 0,
 		name = "Ally Air Support",
 		desc = "Allies are ready to provide your fleet with air support. Allied airstrikes will appear during battle.",
@@ -631,8 +634,8 @@ pg.base.strategy_data_template = {
 		id = 95,
 		icon = "95",
 		arg = {}
-	},
-	[96] = {
+	}
+	pg.base.strategy_data_template[96] = {
 		buff_id = 262,
 		name = "Data Analyzed",
 		desc = "The enemy's flagship fleet has captured critical information about your fleet. During the next battle with the boss, your fleet will deal 30% less damage and take 30% more damage.",
@@ -642,8 +645,8 @@ pg.base.strategy_data_template = {
 		id = 96,
 		icon = "",
 		arg = {}
-	},
-	[97] = {
+	}
+	pg.base.strategy_data_template[97] = {
 		buff_id = 0,
 		name = "Data Analyzed",
 		desc = "The enemy's flagship fleet has captured critical information about your fleet. During the next battle with the boss, your fleet will deal 30% less damage and take 30% more damage.",
@@ -653,8 +656,8 @@ pg.base.strategy_data_template = {
 		id = 97,
 		icon = "96",
 		arg = {}
-	},
-	[1000] = {
+	}
+	pg.base.strategy_data_template[1000] = {
 		buff_id = 0,
 		name = "Airstrike",
 		desc = "Launches 1 airstrike against the enemy fleet.",
@@ -666,8 +669,8 @@ pg.base.strategy_data_template = {
 		arg = {
 			support_missile
 		}
-	},
-	[1001] = {
+	}
+	pg.base.strategy_data_template[1001] = {
 		buff_id = 0,
 		name = "Tactical Isolation",
 		desc = "Move an enemy fleet to an empty tile next to it.",
@@ -679,8 +682,8 @@ pg.base.strategy_data_template = {
 		arg = {
 			expel
 		}
-	},
-	[1002] = {
+	}
+	pg.base.strategy_data_template[1002] = {
 		buff_id = 9729,
 		name = "First-Mover's Advantage",
 		desc = "Greatly increases the Night Battle Concealment effect of allied fleets and greatly decreases the Night Battle Concealment effect of enemy fleets.",
@@ -690,8 +693,8 @@ pg.base.strategy_data_template = {
 		id = 1002,
 		icon = "1002",
 		arg = {}
-	},
-	[1003] = {
+	}
+	pg.base.strategy_data_template[1003] = {
 		buff_id = 9733,
 		name = "Inevitable Clash I",
 		desc = "Increases the Night Battle Concealment effect of allied fleets and decreases the Night Battle Concealment effect of enemy fleets.",
@@ -701,8 +704,8 @@ pg.base.strategy_data_template = {
 		id = 1003,
 		icon = "1003",
 		arg = {}
-	},
-	[1004] = {
+	}
+	pg.base.strategy_data_template[1004] = {
 		buff_id = 9737,
 		name = "Inevitable Clash II",
 		desc = "Slightly increases the Night Battle Concealment effect of allied fleets and slightly decreases the Night Battle Concealment effect of enemy fleets.",
@@ -712,8 +715,8 @@ pg.base.strategy_data_template = {
 		id = 1004,
 		icon = "1003",
 		arg = {}
-	},
-	[1005] = {
+	}
+	pg.base.strategy_data_template[1005] = {
 		buff_id = 9741,
 		name = "Inevitable Clash III",
 		desc = "Minorly increases the Night Battle Concealment effect of allied fleets and minorly decreases the Night Battle Concealment effect of enemy fleets.",
@@ -723,8 +726,8 @@ pg.base.strategy_data_template = {
 		id = 1005,
 		icon = "1003",
 		arg = {}
-	},
-	[1006] = {
+	}
+	pg.base.strategy_data_template[1006] = {
 		buff_id = 9745,
 		name = "Fog of War I",
 		desc = "Increases enemy EVA by 15%.",
@@ -734,8 +737,8 @@ pg.base.strategy_data_template = {
 		id = 1006,
 		icon = "1006",
 		arg = {}
-	},
-	[1007] = {
+	}
+	pg.base.strategy_data_template[1007] = {
 		buff_id = 9748,
 		name = "Fog of War II",
 		desc = "Increases enemy EVA by 10%.",
@@ -745,8 +748,8 @@ pg.base.strategy_data_template = {
 		id = 1007,
 		icon = "1006",
 		arg = {}
-	},
-	[1008] = {
+	}
+	pg.base.strategy_data_template[1008] = {
 		buff_id = 9751,
 		name = "Fog of War III",
 		desc = "Increases enemy EVA by 5%.",
@@ -756,8 +759,8 @@ pg.base.strategy_data_template = {
 		id = 1008,
 		icon = "1006",
 		arg = {}
-	},
-	[1009] = {
+	}
+	pg.base.strategy_data_template[1009] = {
 		buff_id = 9754,
 		name = "Air Support I (Enemy)",
 		desc = "During battle, enemy land bases will provide air support.",
@@ -767,8 +770,8 @@ pg.base.strategy_data_template = {
 		id = 1009,
 		icon = "94",
 		arg = {}
-	},
-	[1010] = {
+	}
+	pg.base.strategy_data_template[1010] = {
 		buff_id = 9755,
 		name = "Air Support II (Enemy)",
 		desc = "During battle, the remaining enemy land bases will provide slightly weakened air support.",
@@ -778,8 +781,8 @@ pg.base.strategy_data_template = {
 		id = 1010,
 		icon = "94",
 		arg = {}
-	},
-	[1011] = {
+	}
+	pg.base.strategy_data_template[1011] = {
 		buff_id = 9756,
 		name = "Air Support III (Enemy)",
 		desc = "All enemy land bases have been destroyed, significantly weakening their air support capabilities.",
@@ -789,8 +792,8 @@ pg.base.strategy_data_template = {
 		id = 1011,
 		icon = "94",
 		arg = {}
-	},
-	[1012] = {
+	}
+	pg.base.strategy_data_template[1012] = {
 		buff_id = 9757,
 		name = "Air Support I (Enemy)",
 		desc = "During battle, enemy land bases will provide air support.",
@@ -800,8 +803,8 @@ pg.base.strategy_data_template = {
 		id = 1012,
 		icon = "94",
 		arg = {}
-	},
-	[1013] = {
+	}
+	pg.base.strategy_data_template[1013] = {
 		buff_id = 9758,
 		name = "Air Support II (Enemy)",
 		desc = "During battle, the remaining enemy land bases will provide slightly weakened air support.",
@@ -811,8 +814,8 @@ pg.base.strategy_data_template = {
 		id = 1013,
 		icon = "94",
 		arg = {}
-	},
-	[1014] = {
+	}
+	pg.base.strategy_data_template[1014] = {
 		buff_id = 9759,
 		name = "Air Support III (Enemy)",
 		desc = "During battle, the remaining enemy land bases will provide weakened air support.",
@@ -822,8 +825,8 @@ pg.base.strategy_data_template = {
 		id = 1014,
 		icon = "94",
 		arg = {}
-	},
-	[1015] = {
+	}
+	pg.base.strategy_data_template[1015] = {
 		buff_id = 9760,
 		name = "Air Support IV (Enemy)",
 		desc = "All enemy land bases have been destroyed, significantly weakening their air support capabilities.",
@@ -833,8 +836,8 @@ pg.base.strategy_data_template = {
 		id = 1015,
 		icon = "94",
 		arg = {}
-	},
-	[1016] = {
+	}
+	pg.base.strategy_data_template[1016] = {
 		buff_id = 9761,
 		name = "制空权较低",
 		desc = "不显示图标及说明",
@@ -844,8 +847,8 @@ pg.base.strategy_data_template = {
 		id = 1016,
 		icon = "",
 		arg = {}
-	},
-	[8650] = {
+	}
+	pg.base.strategy_data_template[8650] = {
 		buff_id = 8650,
 		name = "Searchlight",
 		desc = "Spotlight Buff",
@@ -855,8 +858,8 @@ pg.base.strategy_data_template = {
 		id = 8650,
 		icon = "",
 		arg = {}
-	},
-	[8732] = {
+	}
+	pg.base.strategy_data_template[8732] = {
 		buff_id = 8732,
 		name = "Blessing of the Butterfly",
 		desc = "When activated: Shinano fires 3 rounds of supporting fire and increases your fleet's FP, TRP, and AVI by 5.0%.",
@@ -866,8 +869,8 @@ pg.base.strategy_data_template = {
 		id = 8732,
 		icon = "8732",
 		arg = {}
-	},
-	[8744] = {
+	}
+	pg.base.strategy_data_template[8744] = {
 		buff_id = 8744,
 		name = "Blessing of the Butterfly",
 		desc = "When activated: Shinano fires 3 rounds of supporting fire and increases your fleet's FP, TRP, and AVI by 5.0%.",
@@ -877,8 +880,8 @@ pg.base.strategy_data_template = {
 		id = 8744,
 		icon = "8732",
 		arg = {}
-	},
-	[8745] = {
+	}
+	pg.base.strategy_data_template[8745] = {
 		buff_id = 8745,
 		name = "Blessing of the Butterfly",
 		desc = "When activated: Shinano fires 3 rounds of supporting fire and increases your fleet's FP, TRP, and AVI by 5.0%.",
@@ -888,8 +891,8 @@ pg.base.strategy_data_template = {
 		id = 8745,
 		icon = "8732",
 		arg = {}
-	},
-	[8746] = {
+	}
+	pg.base.strategy_data_template[8746] = {
 		buff_id = 8746,
 		name = "Blessing of the Butterfly",
 		desc = "When activated: Shinano fires 3 rounds of supporting fire and increases your fleet's FP, TRP, and AVI by 5.0%.",
@@ -899,8 +902,8 @@ pg.base.strategy_data_template = {
 		id = 8746,
 		icon = "8732",
 		arg = {}
-	},
-	[8750] = {
+	}
+	pg.base.strategy_data_template[8750] = {
 		buff_id = 8750,
 		name = "Searchlight",
 		desc = "Spotlight Buff",
@@ -910,8 +913,8 @@ pg.base.strategy_data_template = {
 		id = 8750,
 		icon = "",
 		arg = {}
-	},
-	[8801] = {
+	}
+	pg.base.strategy_data_template[8801] = {
 		buff_id = 8801,
 		name = "Control Lost",
 		desc = "You've lost control of the Floating Fortress! During battle, enemy forces will be reinforced by additional aircraft!",
@@ -921,8 +924,8 @@ pg.base.strategy_data_template = {
 		id = 8801,
 		icon = "8801",
 		arg = {}
-	},
-	[8802] = {
+	}
+	pg.base.strategy_data_template[8802] = {
 		buff_id = 8802,
 		name = "Secured Control",
 		desc = "You've secured the Floating Fortress! During battle, allied aircraft will arrive to attack the enemies!",
@@ -932,8 +935,8 @@ pg.base.strategy_data_template = {
 		id = 8802,
 		icon = "8802",
 		arg = {}
-	},
-	[8803] = {
+	}
+	pg.base.strategy_data_template[8803] = {
 		buff_id = 8803,
 		name = "Allied Air Support",
 		desc = "Allied Air Support",
@@ -943,8 +946,8 @@ pg.base.strategy_data_template = {
 		id = 8803,
 		icon = "",
 		arg = {}
-	},
-	[8806] = {
+	}
+	pg.base.strategy_data_template[8806] = {
 		buff_id = 8806,
 		name = "Allied Air Support",
 		desc = "Allied Air Support",
@@ -954,8 +957,8 @@ pg.base.strategy_data_template = {
 		id = 8806,
 		icon = "",
 		arg = {}
-	},
-	[8809] = {
+	}
+	pg.base.strategy_data_template[8809] = {
 		buff_id = 8809,
 		name = "Allied Air Support",
 		desc = "Allied Air Support",
@@ -965,8 +968,8 @@ pg.base.strategy_data_template = {
 		id = 8809,
 		icon = "",
 		arg = {}
-	},
-	[8812] = {
+	}
+	pg.base.strategy_data_template[8812] = {
 		buff_id = 8812,
 		name = "Allied Air Support",
 		desc = "Allied Air Support",
@@ -976,8 +979,8 @@ pg.base.strategy_data_template = {
 		id = 8812,
 		icon = "",
 		arg = {}
-	},
-	[8815] = {
+	}
+	pg.base.strategy_data_template[8815] = {
 		buff_id = 8815,
 		name = "Allied Air Support",
 		desc = "Allied Air Support",
@@ -987,8 +990,8 @@ pg.base.strategy_data_template = {
 		id = 8815,
 		icon = "",
 		arg = {}
-	},
-	[8832] = {
+	}
+	pg.base.strategy_data_template[8832] = {
 		buff_id = 8832,
 		name = "Artillery Support",
 		desc = "Allies provide 1 wave of artillery support, dealing continuous DMG to the enemy for a period of time (DMG increases the longer the META Showdown boss has been active). ",
@@ -998,8 +1001,8 @@ pg.base.strategy_data_template = {
 		id = 8832,
 		icon = "8832",
 		arg = {}
-	},
-	[8841] = {
+	}
+	pg.base.strategy_data_template[8841] = {
 		buff_id = 8841,
 		name = "Radiance",
 		desc = "In battle, your fleet will receive bombardment support.",
@@ -1009,8 +1012,8 @@ pg.base.strategy_data_template = {
 		id = 8841,
 		icon = "8841",
 		arg = {}
-	},
-	[8842] = {
+	}
+	pg.base.strategy_data_template[8842] = {
 		buff_id = 8842,
 		name = "Afterglow",
 		desc = "The light has faded, and a mysterious foe appears in the enemy's fleet.",
@@ -1020,8 +1023,8 @@ pg.base.strategy_data_template = {
 		id = 8842,
 		icon = "8842",
 		arg = {}
-	},
-	[8843] = {
+	}
+	pg.base.strategy_data_template[8843] = {
 		buff_id = 8843,
 		name = "RadianceLV1",
 		desc = "RadianceLV1",
@@ -1031,8 +1034,8 @@ pg.base.strategy_data_template = {
 		id = 8843,
 		icon = "",
 		arg = {}
-	},
-	[8846] = {
+	}
+	pg.base.strategy_data_template[8846] = {
 		buff_id = 8846,
 		name = "RadianceLV2",
 		desc = "RadianceLV2",
@@ -1042,8 +1045,8 @@ pg.base.strategy_data_template = {
 		id = 8846,
 		icon = "",
 		arg = {}
-	},
-	[8849] = {
+	}
+	pg.base.strategy_data_template[8849] = {
 		buff_id = 8849,
 		name = "RadianceLV3",
 		desc = "RadianceLV3",
@@ -1053,8 +1056,8 @@ pg.base.strategy_data_template = {
 		id = 8849,
 		icon = "",
 		arg = {}
-	},
-	[8852] = {
+	}
+	pg.base.strategy_data_template[8852] = {
 		buff_id = 8852,
 		name = "RadianceLV4",
 		desc = "RadianceLV4",
@@ -1064,8 +1067,8 @@ pg.base.strategy_data_template = {
 		id = 8852,
 		icon = "",
 		arg = {}
-	},
-	[8855] = {
+	}
+	pg.base.strategy_data_template[8855] = {
 		buff_id = 8855,
 		name = "RadianceLV5",
 		desc = "RadianceLV5",
@@ -1075,8 +1078,8 @@ pg.base.strategy_data_template = {
 		id = 8855,
 		icon = "",
 		arg = {}
-	},
-	[8858] = {
+	}
+	pg.base.strategy_data_template[8858] = {
 		buff_id = 8858,
 		name = "Confluence of Dawn",
 		desc = "Your fleet will receive bombardment support, but a mysterious foe also appears in the enemy's fleet.",
@@ -1086,8 +1089,8 @@ pg.base.strategy_data_template = {
 		id = 8858,
 		icon = "8858",
 		arg = {}
-	},
-	[8863] = {
+	}
+	pg.base.strategy_data_template[8863] = {
 		buff_id = 0,
 		name = "Labyrinth",
 		desc = "A mysterious Siren labyrinth that spans the area.\nEvery time your fleets move a total of 3 times, the labyrinth will shift.",
@@ -1097,8 +1100,8 @@ pg.base.strategy_data_template = {
 		id = 8863,
 		icon = "8863",
 		arg = {}
-	},
-	[8864] = {
+	}
+	pg.base.strategy_data_template[8864] = {
 		buff_id = 8864,
 		name = "Song of the Sirens",
 		desc = "The Sirens have activated a strong jamming device. During battle, your fleet will be attacked with special barrages with a jamming effect.",
@@ -1108,8 +1111,8 @@ pg.base.strategy_data_template = {
 		id = 8864,
 		icon = "8864",
 		arg = {}
-	},
-	[8865] = {
+	}
+	pg.base.strategy_data_template[8865] = {
 		buff_id = 8865,
 		name = "Aerial Support",
 		desc = "Currently receiving support from Aquila. Support airstrikes will appear in battle.",
@@ -1119,8 +1122,8 @@ pg.base.strategy_data_template = {
 		id = 8865,
 		icon = "8802",
 		arg = {}
-	},
-	[8867] = {
+	}
+	pg.base.strategy_data_template[8867] = {
 		buff_id = 8867,
 		name = "Aerial Support",
 		desc = "Currently receiving support from Aquila. Support airstrikes will appear in battle.",
@@ -1130,8 +1133,8 @@ pg.base.strategy_data_template = {
 		id = 8867,
 		icon = "8802",
 		arg = {}
-	},
-	[8869] = {
+	}
+	pg.base.strategy_data_template[8869] = {
 		buff_id = 8869,
 		name = "Aerial Support",
 		desc = "Currently receiving support from Aquila. Support airstrikes will appear in battle.",
@@ -1141,8 +1144,8 @@ pg.base.strategy_data_template = {
 		id = 8869,
 		icon = "8802",
 		arg = {}
-	},
-	[8874] = {
+	}
+	pg.base.strategy_data_template[8874] = {
 		buff_id = 8874,
 		name = "Reenactment Modulation System",
 		desc = "Your Sakura Empire ships deal 5.0% more DMG, but also take 5.0% more DMG. Your Eagle Union ships deal 5.0% less DMG, but also take 5.0% less DMG. ",
@@ -1152,8 +1155,8 @@ pg.base.strategy_data_template = {
 		id = 8874,
 		icon = "8874",
 		arg = {}
-	},
-	[8877] = {
+	}
+	pg.base.strategy_data_template[8877] = {
 		buff_id = 8877,
 		name = "Siren Sea Fog ",
 		desc = "The battlefield is obscured by a Siren-created haze. The Accuracy of allied fleets is decreased by 5%, and enemy fleet compositions cannot be seen. ",
@@ -1163,8 +1166,8 @@ pg.base.strategy_data_template = {
 		id = 8877,
 		icon = "8877",
 		arg = {}
-	},
-	[8880] = {
+	}
+	pg.base.strategy_data_template[8880] = {
 		buff_id = 8880,
 		name = "Mirror Hacking ",
 		desc = "You're being supported by an unknown ally. During combat, the enemy will be bombarded by a supporting barrage. ",
@@ -1174,8 +1177,8 @@ pg.base.strategy_data_template = {
 		id = 8880,
 		icon = "8880",
 		arg = {}
-	},
-	[8882] = {
+	}
+	pg.base.strategy_data_template[8882] = {
 		buff_id = 8882,
 		name = "Mirror Hacking ",
 		desc = "You're being supported by an unknown ally. During combat, the enemy will be bombarded by a supporting barrage. ",
@@ -1185,8 +1188,8 @@ pg.base.strategy_data_template = {
 		id = 8882,
 		icon = "8880",
 		arg = {}
-	},
-	[8884] = {
+	}
+	pg.base.strategy_data_template[8884] = {
 		buff_id = 8884,
 		name = "Mirror Hacking ",
 		desc = "You're being supported by an unknown ally. During combat, the enemy will be bombarded by a supporting barrage. ",
@@ -1196,8 +1199,8 @@ pg.base.strategy_data_template = {
 		id = 8884,
 		icon = "8880",
 		arg = {}
-	},
-	[8909] = {
+	}
+	pg.base.strategy_data_template[8909] = {
 		buff_id = 0,
 		name = "Search and Destroy Protocol",
 		desc = "All Sirens in the area will reposition to engage your fleets.",
@@ -1207,8 +1210,8 @@ pg.base.strategy_data_template = {
 		id = 8909,
 		icon = "8909",
 		arg = {}
-	},
-	[8910] = {
+	}
+	pg.base.strategy_data_template[8910] = {
 		buff_id = 0,
 		name = "Missile Strike Area",
 		desc = "The entire map is within range of missile attacks. Fleets standing on tiles targeted by missiles will take damage upon impact.\nTurns until impact: 3",
@@ -1218,8 +1221,8 @@ pg.base.strategy_data_template = {
 		id = 8910,
 		icon = "8910",
 		arg = {}
-	},
-	[8911] = {
+	}
+	pg.base.strategy_data_template[8911] = {
 		buff_id = 0,
 		name = "Missile Strike Area",
 		desc = "The entire map is within range of missile attacks. Fleets standing on tiles targeted by missiles will take damage upon impact.\nTurns until impact: 2",
@@ -1229,8 +1232,8 @@ pg.base.strategy_data_template = {
 		id = 8911,
 		icon = "8911",
 		arg = {}
-	},
-	[8912] = {
+	}
+	pg.base.strategy_data_template[8912] = {
 		buff_id = 0,
 		name = "Missile Strike Area",
 		desc = "The entire map is within range of missile attacks. Fleets standing on tiles targeted by missiles will take damage upon impact.\nTurns until impact: 1",
@@ -1240,8 +1243,8 @@ pg.base.strategy_data_template = {
 		id = 8912,
 		icon = "8912",
 		arg = {}
-	},
-	[8913] = {
+	}
+	pg.base.strategy_data_template[8913] = {
 		buff_id = 0,
 		name = "Ground Zero Protocol",
 		desc = "A Siren weather control device is generating a hazardous zone that expands every time your fleets move. Proceed with caution.",
@@ -1251,8 +1254,8 @@ pg.base.strategy_data_template = {
 		id = 8913,
 		icon = "8913",
 		arg = {}
-	},
-	[8914] = {
+	}
+	pg.base.strategy_data_template[8914] = {
 		buff_id = 0,
 		name = "Missile Strike Area",
 		desc = "The entire map is within range of missile attacks. Fleets standing on tiles targeted by missiles will take damage upon impact.\nTurns until impact: 3",
@@ -1262,8 +1265,8 @@ pg.base.strategy_data_template = {
 		id = 8914,
 		icon = "8914",
 		arg = {}
-	},
-	[8915] = {
+	}
+	pg.base.strategy_data_template[8915] = {
 		buff_id = 0,
 		name = "Missile Strike Area",
 		desc = "The entire map is within range of missile attacks. Fleets standing on tiles targeted by missiles will take damage upon impact.\nTurns until impact: 2",
@@ -1273,8 +1276,8 @@ pg.base.strategy_data_template = {
 		id = 8915,
 		icon = "8915",
 		arg = {}
-	},
-	[8916] = {
+	}
+	pg.base.strategy_data_template[8916] = {
 		buff_id = 0,
 		name = "Missile Strike Area",
 		desc = "The entire map is within range of missile attacks. Fleets standing on tiles targeted by missiles will take damage upon impact.\nTurns until impact: 1",
@@ -1284,8 +1287,8 @@ pg.base.strategy_data_template = {
 		id = 8916,
 		icon = "8916",
 		arg = {}
-	},
-	[8917] = {
+	}
+	pg.base.strategy_data_template[8917] = {
 		buff_id = 0,
 		name = "Ice Construct",
 		desc = "Ice constructs in the area block the way forward. Destroy the enemy fleets defending them to proceed.",
@@ -1295,8 +1298,8 @@ pg.base.strategy_data_template = {
 		id = 8917,
 		icon = "8917",
 		arg = {}
-	},
-	[8918] = {
+	}
+	pg.base.strategy_data_template[8918] = {
 		buff_id = 8918,
 		name = "Data Synchronization I",
 		desc = "The synchronization process is causing hallucinations. \nBarrages will spawn during battle which inflict damage to both friends and foes alike.",
@@ -1306,8 +1309,8 @@ pg.base.strategy_data_template = {
 		id = 8918,
 		icon = "8918",
 		arg = {}
-	},
-	[8919] = {
+	}
+	pg.base.strategy_data_template[8919] = {
 		buff_id = 8918,
 		name = "Data Synchronization II",
 		desc = "The synchronization process is causing hallucinations. \nBarrages will spawn during battle which inflict damage to both friends and foes alike.",
@@ -1317,8 +1320,8 @@ pg.base.strategy_data_template = {
 		id = 8919,
 		icon = "8919",
 		arg = {}
-	},
-	[8920] = {
+	}
+	pg.base.strategy_data_template[8920] = {
 		buff_id = 8918,
 		name = "Data Synchronization III",
 		desc = "The synchronization process is causing hallucinations. \nBarrages will spawn during battle which inflict damage to both friends and foes alike.",
@@ -1328,8 +1331,8 @@ pg.base.strategy_data_template = {
 		id = 8920,
 		icon = "8920",
 		arg = {}
-	},
-	[8941] = {
+	}
+	pg.base.strategy_data_template[8941] = {
 		buff_id = 0,
 		name = "Iron Blood Jamming",
 		desc = "The Iron Blood's jamming prevents you from determining the size and type of the enemy's fleets on the tactical map.",
@@ -1339,8 +1342,8 @@ pg.base.strategy_data_template = {
 		id = 8941,
 		icon = "8941",
 		arg = {}
-	},
-	[8942] = {
+	}
+	pg.base.strategy_data_template[8942] = {
 		buff_id = 8942,
 		name = "Singularity Fluctuations",
 		desc = "The Singularity is having strange effects on the battlefield. Your ships deal 20% increased Main Gun DMG, your ships deal 20% decreased Airstrike DMG, and your BBs' Main Gun Spread is increased by 5.",
@@ -1350,8 +1353,8 @@ pg.base.strategy_data_template = {
 		id = 8942,
 		icon = "8942",
 		arg = {}
-	},
-	[8943] = {
+	}
+	pg.base.strategy_data_template[8943] = {
 		buff_id = 0,
 		name = "Siren Jamming",
 		desc = "The Sirens' jamming is having strange effects on the battlefield.",
@@ -1361,8 +1364,8 @@ pg.base.strategy_data_template = {
 		id = 8943,
 		icon = "8943",
 		arg = {}
-	},
-	[8944] = {
+	}
+	pg.base.strategy_data_template[8944] = {
 		buff_id = 8944,
 		name = "Siren Jamming - Volatile Ether",
 		desc = "Your fleet continuously takes Burn DMG during battle.",
@@ -1372,8 +1375,8 @@ pg.base.strategy_data_template = {
 		id = 8944,
 		icon = "8944",
 		arg = {}
-	},
-	[8945] = {
+	}
+	pg.base.strategy_data_template[8945] = {
 		buff_id = 8945,
 		name = "Siren Jamming - Slowing Waves",
 		desc = "Your fleet's SPD is greatly decreased.",
@@ -1383,8 +1386,8 @@ pg.base.strategy_data_template = {
 		id = 8945,
 		icon = "8945",
 		arg = {}
-	},
-	[8946] = {
+	}
+	pg.base.strategy_data_template[8946] = {
 		buff_id = 8946,
 		name = "Siren Jamming - Chaotic Frequency",
 		desc = "Your fleet will experience periodic bursts of electromagnetic interference during battle.",
@@ -1394,8 +1397,8 @@ pg.base.strategy_data_template = {
 		id = 8946,
 		icon = "8946",
 		arg = {}
-	},
-	[8953] = {
+	}
+	pg.base.strategy_data_template[8953] = {
 		buff_id = 8953,
 		name = "Iron Blood Support",
 		desc = "You have the Iron Blood fleet's support. They negate the effects of all hostile jamming and assist you with supporting barrages during battle.",
@@ -1405,8 +1408,8 @@ pg.base.strategy_data_template = {
 		id = 8953,
 		icon = "8953",
 		arg = {}
-	},
-	[8955] = {
+	}
+	pg.base.strategy_data_template[8955] = {
 		buff_id = 8955,
 		name = "Iron Blood Support",
 		desc = "You have the Iron Blood fleet's support. They negate the effects of all hostile jamming and assist you with supporting barrages during battle.",
@@ -1416,8 +1419,8 @@ pg.base.strategy_data_template = {
 		id = 8955,
 		icon = "8953",
 		arg = {}
-	},
-	[8957] = {
+	}
+	pg.base.strategy_data_template[8957] = {
 		buff_id = 8957,
 		name = "Iron Blood Support",
 		desc = "You have the Iron Blood fleet's support. They negate the effects of all hostile jamming and assist you with supporting barrages during battle.",
@@ -1427,8 +1430,8 @@ pg.base.strategy_data_template = {
 		id = 8957,
 		icon = "8953",
 		arg = {}
-	},
-	[8959] = {
+	}
+	pg.base.strategy_data_template[8959] = {
 		buff_id = 8959,
 		name = "Iron Blood Support",
 		desc = "You have the Iron Blood fleet's support. They negate the effects of all hostile jamming and assist you with supporting barrages during battle.",
@@ -1438,8 +1441,8 @@ pg.base.strategy_data_template = {
 		id = 8959,
 		icon = "8953",
 		arg = {}
-	},
-	[8974] = {
+	}
+	pg.base.strategy_data_template[8974] = {
 		buff_id = 8942,
 		name = "Singularity Fluctuations - Type A",
 		desc = "The Singularity is having strange effects on the battlefield. Your ships deal 20% increased cannon DMG, but they also deal 20% decreased Airstrike DMG and your BBs' Main Gun Spread is increased by 5.",
@@ -1449,8 +1452,8 @@ pg.base.strategy_data_template = {
 		id = 8974,
 		icon = "8942",
 		arg = {}
-	},
-	[8975] = {
+	}
+	pg.base.strategy_data_template[8975] = {
 		buff_id = 8975,
 		name = "Singularity Fluctuations - Type B",
 		desc = "The Singularity is having strange effects on the battlefield. Your ships deal 20% increased Airstrike DMG, but they also deal 20% decreased cannon DMG.",
@@ -1460,8 +1463,8 @@ pg.base.strategy_data_template = {
 		id = 8975,
 		icon = "8975",
 		arg = {}
-	},
-	[8976] = {
+	}
+	pg.base.strategy_data_template[8976] = {
 		buff_id = 8918,
 		name = "Synchronization Visions - I",
 		desc = "Visions of unknown origin are appearing on the battlefield. \nBarrages will fire during battle which harm anything in their path, friend or foe.",
@@ -1471,8 +1474,8 @@ pg.base.strategy_data_template = {
 		id = 8976,
 		icon = "8918",
 		arg = {}
-	},
-	[9211] = {
+	}
+	pg.base.strategy_data_template[9211] = {
 		buff_id = 9211,
 		name = "Dragon Palace's Boon - White Waves",
 		desc = "The Dragon Palace grants the enemy supporting fire in battle.",
@@ -1482,8 +1485,8 @@ pg.base.strategy_data_template = {
 		id = 9211,
 		icon = "9211",
 		arg = {}
-	},
-	[9212] = {
+	}
+	pg.base.strategy_data_template[9212] = {
 		buff_id = 9212,
 		name = "Dragon Palace's Boon - White Waves",
 		desc = "The Dragon Palace grants your fleet supporting fire in battle.",
@@ -1493,8 +1496,8 @@ pg.base.strategy_data_template = {
 		id = 9212,
 		icon = "9212",
 		arg = {}
-	},
-	[9213] = {
+	}
+	pg.base.strategy_data_template[9213] = {
 		buff_id = 9213,
 		name = "White Waves Supporting Fire Lv1",
 		desc = "Special Supporting Barrage",
@@ -1504,8 +1507,8 @@ pg.base.strategy_data_template = {
 		id = 9213,
 		icon = "",
 		arg = {}
-	},
-	[9216] = {
+	}
+	pg.base.strategy_data_template[9216] = {
 		buff_id = 9216,
 		name = "White Waves Supporting Fire Lv2",
 		desc = "Special Supporting Barrage",
@@ -1515,8 +1518,10 @@ pg.base.strategy_data_template = {
 		id = 9216,
 		icon = "",
 		arg = {}
-	},
-	[9219] = {
+	}
+end)()
+(function ()
+	pg.base.strategy_data_template[9219] = {
 		buff_id = 9219,
 		name = "White Waves Supporting Fire Lv3",
 		desc = "Special Supporting Barrage",
@@ -1526,8 +1531,8 @@ pg.base.strategy_data_template = {
 		id = 9219,
 		icon = "",
 		arg = {}
-	},
-	[9222] = {
+	}
+	pg.base.strategy_data_template[9222] = {
 		buff_id = 9222,
 		name = "White Waves Supporting Fire Lv4",
 		desc = "Special Supporting Barrage",
@@ -1537,8 +1542,8 @@ pg.base.strategy_data_template = {
 		id = 9222,
 		icon = "",
 		arg = {}
-	},
-	[9225] = {
+	}
+	pg.base.strategy_data_template[9225] = {
 		buff_id = 9225,
 		name = "White Waves Supporting Fire Lv5",
 		desc = "Special Supporting Barrage",
@@ -1548,8 +1553,8 @@ pg.base.strategy_data_template = {
 		id = 9225,
 		icon = "",
 		arg = {}
-	},
-	[9231] = {
+	}
+	pg.base.strategy_data_template[9231] = {
 		buff_id = 9231,
 		name = "Dragon Palace's Boon - Scarlet Flames",
 		desc = "The Dragon Palace grants the enemy supporting fire in battle.",
@@ -1559,8 +1564,8 @@ pg.base.strategy_data_template = {
 		id = 9231,
 		icon = "9231",
 		arg = {}
-	},
-	[9232] = {
+	}
+	pg.base.strategy_data_template[9232] = {
 		buff_id = 9232,
 		name = "Dragon Palace's Boon - Scarlet Flames",
 		desc = "The Dragon Palace grants your fleet supporting fire in battle.",
@@ -1570,8 +1575,8 @@ pg.base.strategy_data_template = {
 		id = 9232,
 		icon = "9232",
 		arg = {}
-	},
-	[9233] = {
+	}
+	pg.base.strategy_data_template[9233] = {
 		buff_id = 9233,
 		name = "Scarlet Flames Supporting Fire Lv1",
 		desc = "Special Supporting Barrage",
@@ -1581,8 +1586,8 @@ pg.base.strategy_data_template = {
 		id = 9233,
 		icon = "",
 		arg = {}
-	},
-	[9236] = {
+	}
+	pg.base.strategy_data_template[9236] = {
 		buff_id = 9236,
 		name = "Scarlet Flames Supporting Fire Lv2",
 		desc = "Special Supporting Barrage",
@@ -1592,8 +1597,8 @@ pg.base.strategy_data_template = {
 		id = 9236,
 		icon = "",
 		arg = {}
-	},
-	[9239] = {
+	}
+	pg.base.strategy_data_template[9239] = {
 		buff_id = 9239,
 		name = "Scarlet Flames Supporting Fire Lv3",
 		desc = "Special Supporting Barrage",
@@ -1603,8 +1608,8 @@ pg.base.strategy_data_template = {
 		id = 9239,
 		icon = "",
 		arg = {}
-	},
-	[9242] = {
+	}
+	pg.base.strategy_data_template[9242] = {
 		buff_id = 9242,
 		name = "Scarlet Flames Supporting Fire Lv4",
 		desc = "Special Supporting Barrage",
@@ -1614,8 +1619,8 @@ pg.base.strategy_data_template = {
 		id = 9242,
 		icon = "",
 		arg = {}
-	},
-	[9245] = {
+	}
+	pg.base.strategy_data_template[9245] = {
 		buff_id = 9245,
 		name = "Scarlet Flames Supporting Fire Lv5",
 		desc = "Special Supporting Barrage",
@@ -1625,8 +1630,8 @@ pg.base.strategy_data_template = {
 		id = 9245,
 		icon = "",
 		arg = {}
-	},
-	[9251] = {
+	}
+	pg.base.strategy_data_template[9251] = {
 		buff_id = 9251,
 		name = "Dragon Palace's Boon - Azure Vortexes",
 		desc = "The Dragon Palace grants the enemy supporting fire in battle as well as protective shields.",
@@ -1636,8 +1641,8 @@ pg.base.strategy_data_template = {
 		id = 9251,
 		icon = "9251",
 		arg = {}
-	},
-	[9252] = {
+	}
+	pg.base.strategy_data_template[9252] = {
 		buff_id = 9252,
 		name = "Dragon Palace's Boon - Azure Vortexes",
 		desc = "The Dragon Palace grants your fleet supporting fire in battle as well as protective shields.",
@@ -1647,8 +1652,8 @@ pg.base.strategy_data_template = {
 		id = 9252,
 		icon = "9252",
 		arg = {}
-	},
-	[9253] = {
+	}
+	pg.base.strategy_data_template[9253] = {
 		buff_id = 9253,
 		name = "Azure Vortexes Supporting Fire Lv1",
 		desc = "Special Supporting Barrage",
@@ -1658,8 +1663,8 @@ pg.base.strategy_data_template = {
 		id = 9253,
 		icon = "",
 		arg = {}
-	},
-	[9256] = {
+	}
+	pg.base.strategy_data_template[9256] = {
 		buff_id = 9256,
 		name = "Azure Vortexes Supporting Fire Lv2",
 		desc = "Special Supporting Barrage",
@@ -1669,8 +1674,8 @@ pg.base.strategy_data_template = {
 		id = 9256,
 		icon = "",
 		arg = {}
-	},
-	[9259] = {
+	}
+	pg.base.strategy_data_template[9259] = {
 		buff_id = 9259,
 		name = "Azure Vortexes Supporting Fire Lv3",
 		desc = "Special Supporting Barrage",
@@ -1680,8 +1685,8 @@ pg.base.strategy_data_template = {
 		id = 9259,
 		icon = "",
 		arg = {}
-	},
-	[9262] = {
+	}
+	pg.base.strategy_data_template[9262] = {
 		buff_id = 9262,
 		name = "Azure Vortexes Supporting Fire Lv4",
 		desc = "Special Supporting Barrage",
@@ -1691,8 +1696,8 @@ pg.base.strategy_data_template = {
 		id = 9262,
 		icon = "",
 		arg = {}
-	},
-	[9265] = {
+	}
+	pg.base.strategy_data_template[9265] = {
 		buff_id = 9265,
 		name = "Azure Vortexes Supporting Fire Lv5",
 		desc = "Special Supporting Barrage",
@@ -1702,8 +1707,8 @@ pg.base.strategy_data_template = {
 		id = 9265,
 		icon = "",
 		arg = {}
-	},
-	[9271] = {
+	}
+	pg.base.strategy_data_template[9271] = {
 		buff_id = 9271,
 		name = "Dragon Palace's Boon - Verdant Gales",
 		desc = "The Dragon Palace grants the enemy supporting fire in battle as well as sporadic healing.",
@@ -1713,8 +1718,8 @@ pg.base.strategy_data_template = {
 		id = 9271,
 		icon = "9271",
 		arg = {}
-	},
-	[9272] = {
+	}
+	pg.base.strategy_data_template[9272] = {
 		buff_id = 9272,
 		name = "Dragon Palace's Boon - Verdant Gales",
 		desc = "The Dragon Palace grants your fleet supporting fire in battle as well as sporadic healing.",
@@ -1724,8 +1729,8 @@ pg.base.strategy_data_template = {
 		id = 9272,
 		icon = "9272",
 		arg = {}
-	},
-	[9273] = {
+	}
+	pg.base.strategy_data_template[9273] = {
 		buff_id = 9273,
 		name = "Verdant Gales Supporting Fire Lv1",
 		desc = "Special Supporting Barrage",
@@ -1735,8 +1740,8 @@ pg.base.strategy_data_template = {
 		id = 9273,
 		icon = "",
 		arg = {}
-	},
-	[9276] = {
+	}
+	pg.base.strategy_data_template[9276] = {
 		buff_id = 9276,
 		name = "Verdant Gales Supporting Fire Lv2",
 		desc = "Special Supporting Barrage",
@@ -1746,8 +1751,8 @@ pg.base.strategy_data_template = {
 		id = 9276,
 		icon = "",
 		arg = {}
-	},
-	[9279] = {
+	}
+	pg.base.strategy_data_template[9279] = {
 		buff_id = 9279,
 		name = "Verdant Gales Supporting Fire Lv3",
 		desc = "Special Supporting Barrage",
@@ -1757,8 +1762,8 @@ pg.base.strategy_data_template = {
 		id = 9279,
 		icon = "",
 		arg = {}
-	},
-	[9282] = {
+	}
+	pg.base.strategy_data_template[9282] = {
 		buff_id = 9282,
 		name = "Verdant Gales Supporting Fire Lv4",
 		desc = "Special Supporting Barrage",
@@ -1768,8 +1773,8 @@ pg.base.strategy_data_template = {
 		id = 9282,
 		icon = "",
 		arg = {}
-	},
-	[9285] = {
+	}
+	pg.base.strategy_data_template[9285] = {
 		buff_id = 9285,
 		name = "Verdant Gales Supporting Fire Lv5",
 		desc = "Special Supporting Barrage",
@@ -1779,8 +1784,8 @@ pg.base.strategy_data_template = {
 		id = 9285,
 		icon = "",
 		arg = {}
-	},
-	[9391] = {
+	}
+	pg.base.strategy_data_template[9391] = {
 		buff_id = 0,
 		name = "Control Acquisition",
 		desc = "Purity has captured 0% of this sea area! Continue the battle and strengthen Purity!",
@@ -1793,8 +1798,8 @@ pg.base.strategy_data_template = {
 			64,
 			84
 		}
-	},
-	[9392] = {
+	}
+	pg.base.strategy_data_template[9392] = {
 		buff_id = 0,
 		name = "Control Acquisition",
 		desc = "Purity has captured 25% of this sea area! Continue the battle and strengthen Purity!",
@@ -1807,8 +1812,8 @@ pg.base.strategy_data_template = {
 			64,
 			84
 		}
-	},
-	[9393] = {
+	}
+	pg.base.strategy_data_template[9393] = {
 		buff_id = 0,
 		name = "Control Acquisition",
 		desc = "Purity has captured 50% of this sea area! Continue the battle and strengthen Purity!",
@@ -1821,8 +1826,8 @@ pg.base.strategy_data_template = {
 			64,
 			84
 		}
-	},
-	[9394] = {
+	}
+	pg.base.strategy_data_template[9394] = {
 		buff_id = 0,
 		name = "Control Acquisition",
 		desc = "Purity has captured 75% of this sea area! Continue the battle and strengthen Purity!",
@@ -1835,8 +1840,8 @@ pg.base.strategy_data_template = {
 			64,
 			84
 		}
-	},
-	[9395] = {
+	}
+	pg.base.strategy_data_template[9395] = {
 		buff_id = 0,
 		name = "Control Acquisition",
 		desc = "Purity has captured 100% of this sea area! Continue the battle and strengthen Purity!",
@@ -1849,8 +1854,8 @@ pg.base.strategy_data_template = {
 			64,
 			84
 		}
-	},
-	[9401] = {
+	}
+	pg.base.strategy_data_template[9401] = {
 		buff_id = 0,
 		name = "Mecha Support",
 		desc = "Mecha support gauge is full! During battle, your fleets will receive Mecha barrage support.",
@@ -1860,8 +1865,8 @@ pg.base.strategy_data_template = {
 		id = 9401,
 		icon = "9401",
 		arg = {}
-	},
-	[9403] = {
+	}
+	pg.base.strategy_data_template[9403] = {
 		buff_id = 9403,
 		name = "Suppor barrage LV1",
 		desc = "Future Content ",
@@ -1871,8 +1876,8 @@ pg.base.strategy_data_template = {
 		id = 9403,
 		icon = "",
 		arg = {}
-	},
-	[9406] = {
+	}
+	pg.base.strategy_data_template[9406] = {
 		buff_id = 9406,
 		name = "Suppor barrage LV2",
 		desc = "Future Content ",
@@ -1882,8 +1887,8 @@ pg.base.strategy_data_template = {
 		id = 9406,
 		icon = "",
 		arg = {}
-	},
-	[9409] = {
+	}
+	pg.base.strategy_data_template[9409] = {
 		buff_id = 9409,
 		name = "Suppor barrage LV3",
 		desc = "Future Content ",
@@ -1893,8 +1898,8 @@ pg.base.strategy_data_template = {
 		id = 9409,
 		icon = "",
 		arg = {}
-	},
-	[9412] = {
+	}
+	pg.base.strategy_data_template[9412] = {
 		buff_id = 9412,
 		name = "Suppor barrage LV4",
 		desc = "Future Content ",
@@ -1904,8 +1909,8 @@ pg.base.strategy_data_template = {
 		id = 9412,
 		icon = "",
 		arg = {}
-	},
-	[9415] = {
+	}
+	pg.base.strategy_data_template[9415] = {
 		buff_id = 9415,
 		name = "Suppor barrage LV5",
 		desc = "Future Content ",
@@ -1915,8 +1920,8 @@ pg.base.strategy_data_template = {
 		id = 9415,
 		icon = "",
 		arg = {}
-	},
-	[9421] = {
+	}
+	pg.base.strategy_data_template[9421] = {
 		buff_id = 0,
 		name = "Mecha Support",
 		desc = "Mecha support gauge is full! During battle, your fleets will receive Mecha barrage support.",
@@ -1926,8 +1931,8 @@ pg.base.strategy_data_template = {
 		id = 9421,
 		icon = "9401",
 		arg = {}
-	},
-	[9423] = {
+	}
+	pg.base.strategy_data_template[9423] = {
 		buff_id = 9423,
 		name = "Suppor barrage LV1",
 		desc = "Future Content ",
@@ -1937,8 +1942,8 @@ pg.base.strategy_data_template = {
 		id = 9423,
 		icon = "",
 		arg = {}
-	},
-	[9426] = {
+	}
+	pg.base.strategy_data_template[9426] = {
 		buff_id = 9426,
 		name = "Suppor barrage LV2",
 		desc = "Future Content ",
@@ -1948,8 +1953,8 @@ pg.base.strategy_data_template = {
 		id = 9426,
 		icon = "",
 		arg = {}
-	},
-	[9429] = {
+	}
+	pg.base.strategy_data_template[9429] = {
 		buff_id = 9429,
 		name = "Suppor barrage LV3",
 		desc = "Future Content ",
@@ -1959,8 +1964,8 @@ pg.base.strategy_data_template = {
 		id = 9429,
 		icon = "",
 		arg = {}
-	},
-	[9432] = {
+	}
+	pg.base.strategy_data_template[9432] = {
 		buff_id = 9432,
 		name = "Suppor barrage LV4",
 		desc = "Future Content ",
@@ -1970,8 +1975,8 @@ pg.base.strategy_data_template = {
 		id = 9432,
 		icon = "",
 		arg = {}
-	},
-	[9435] = {
+	}
+	pg.base.strategy_data_template[9435] = {
 		buff_id = 9435,
 		name = "Suppor barrage LV5",
 		desc = "Future Content ",
@@ -1981,8 +1986,8 @@ pg.base.strategy_data_template = {
 		id = 9435,
 		icon = "",
 		arg = {}
-	},
-	[9441] = {
+	}
+	pg.base.strategy_data_template[9441] = {
 		buff_id = 0,
 		name = "Mecha Support",
 		desc = "Mecha support gauge is full! During battle, your fleets will receive Mecha barrage support.",
@@ -1992,8 +1997,8 @@ pg.base.strategy_data_template = {
 		id = 9441,
 		icon = "9401",
 		arg = {}
-	},
-	[9443] = {
+	}
+	pg.base.strategy_data_template[9443] = {
 		buff_id = 9443,
 		name = "Suppor barrage LV1",
 		desc = "Future Content ",
@@ -2003,8 +2008,8 @@ pg.base.strategy_data_template = {
 		id = 9443,
 		icon = "",
 		arg = {}
-	},
-	[9446] = {
+	}
+	pg.base.strategy_data_template[9446] = {
 		buff_id = 9446,
 		name = "Suppor barrage LV2",
 		desc = "Future Content ",
@@ -2014,8 +2019,8 @@ pg.base.strategy_data_template = {
 		id = 9446,
 		icon = "",
 		arg = {}
-	},
-	[9449] = {
+	}
+	pg.base.strategy_data_template[9449] = {
 		buff_id = 9449,
 		name = "Suppor barrage LV3",
 		desc = "Future Content ",
@@ -2025,8 +2030,8 @@ pg.base.strategy_data_template = {
 		id = 9449,
 		icon = "",
 		arg = {}
-	},
-	[9452] = {
+	}
+	pg.base.strategy_data_template[9452] = {
 		buff_id = 9452,
 		name = "Suppor barrage LV4",
 		desc = "Future Content ",
@@ -2036,8 +2041,8 @@ pg.base.strategy_data_template = {
 		id = 9452,
 		icon = "",
 		arg = {}
-	},
-	[9455] = {
+	}
+	pg.base.strategy_data_template[9455] = {
 		buff_id = 9455,
 		name = "Suppor barrage LV5",
 		desc = "Future Content ",
@@ -2047,8 +2052,8 @@ pg.base.strategy_data_template = {
 		id = 9455,
 		icon = "",
 		arg = {}
-	},
-	[9461] = {
+	}
+	pg.base.strategy_data_template[9461] = {
 		buff_id = 0,
 		name = "Kaiju Support",
 		desc = "Kaiju support gauge is full! During battle, your fleets will receive Kaiju barrage support.",
@@ -2058,8 +2063,8 @@ pg.base.strategy_data_template = {
 		id = 9461,
 		icon = "9461",
 		arg = {}
-	},
-	[9463] = {
+	}
+	pg.base.strategy_data_template[9463] = {
 		buff_id = 9463,
 		name = "Suppor barrage LV1",
 		desc = "Future Content ",
@@ -2069,8 +2074,8 @@ pg.base.strategy_data_template = {
 		id = 9463,
 		icon = "",
 		arg = {}
-	},
-	[9466] = {
+	}
+	pg.base.strategy_data_template[9466] = {
 		buff_id = 9466,
 		name = "Suppor barrage LV2",
 		desc = "Future Content ",
@@ -2080,8 +2085,8 @@ pg.base.strategy_data_template = {
 		id = 9466,
 		icon = "",
 		arg = {}
-	},
-	[9469] = {
+	}
+	pg.base.strategy_data_template[9469] = {
 		buff_id = 9469,
 		name = "Suppor barrage LV3",
 		desc = "Future Content ",
@@ -2091,8 +2096,8 @@ pg.base.strategy_data_template = {
 		id = 9469,
 		icon = "",
 		arg = {}
-	},
-	[9472] = {
+	}
+	pg.base.strategy_data_template[9472] = {
 		buff_id = 9472,
 		name = "Suppor barrage LV4",
 		desc = "Future Content ",
@@ -2102,8 +2107,8 @@ pg.base.strategy_data_template = {
 		id = 9472,
 		icon = "",
 		arg = {}
-	},
-	[9475] = {
+	}
+	pg.base.strategy_data_template[9475] = {
 		buff_id = 9475,
 		name = "Suppor barrage LV5",
 		desc = "Future Content ",
@@ -2113,8 +2118,8 @@ pg.base.strategy_data_template = {
 		id = 9475,
 		icon = "",
 		arg = {}
-	},
-	[9481] = {
+	}
+	pg.base.strategy_data_template[9481] = {
 		buff_id = 0,
 		name = "Kaiju Support",
 		desc = "Kaiju support gauge is full! During battle, your fleets will receive Kaiju barrage support.",
@@ -2124,8 +2129,8 @@ pg.base.strategy_data_template = {
 		id = 9481,
 		icon = "9461",
 		arg = {}
-	},
-	[9483] = {
+	}
+	pg.base.strategy_data_template[9483] = {
 		buff_id = 9483,
 		name = "Suppor barrage LV1",
 		desc = "Future Content ",
@@ -2135,8 +2140,8 @@ pg.base.strategy_data_template = {
 		id = 9483,
 		icon = "",
 		arg = {}
-	},
-	[9486] = {
+	}
+	pg.base.strategy_data_template[9486] = {
 		buff_id = 9486,
 		name = "Suppor barrage LV2",
 		desc = "Future Content ",
@@ -2146,8 +2151,8 @@ pg.base.strategy_data_template = {
 		id = 9486,
 		icon = "",
 		arg = {}
-	},
-	[9489] = {
+	}
+	pg.base.strategy_data_template[9489] = {
 		buff_id = 9489,
 		name = "Suppor barrage LV3",
 		desc = "Future Content ",
@@ -2157,8 +2162,8 @@ pg.base.strategy_data_template = {
 		id = 9489,
 		icon = "",
 		arg = {}
-	},
-	[9492] = {
+	}
+	pg.base.strategy_data_template[9492] = {
 		buff_id = 9492,
 		name = "Suppor barrage LV4",
 		desc = "Future Content ",
@@ -2168,8 +2173,8 @@ pg.base.strategy_data_template = {
 		id = 9492,
 		icon = "",
 		arg = {}
-	},
-	[9495] = {
+	}
+	pg.base.strategy_data_template[9495] = {
 		buff_id = 9495,
 		name = "Suppor barrage LV5",
 		desc = "Future Content ",
@@ -2179,8 +2184,8 @@ pg.base.strategy_data_template = {
 		id = 9495,
 		icon = "",
 		arg = {}
-	},
-	[9500] = {
+	}
+	pg.base.strategy_data_template[9500] = {
 		buff_id = 9500,
 		name = "Wisdom Cube Reactivity",
 		desc = "Due to a highly reactive Wisdom Cube, the entire fleet's DMG increases by 20%, but their DMG taken also increases by 20%.",
@@ -2190,8 +2195,8 @@ pg.base.strategy_data_template = {
 		id = 9500,
 		icon = "9500",
 		arg = {}
-	},
-	[9502] = {
+	}
+	pg.base.strategy_data_template[9502] = {
 		buff_id = 9502,
 		name = "Heavy Mist",
 		desc = "An ominous mist surrounds the battlefield. The Accuracy of all your ships is decreased by 5%.",
@@ -2201,8 +2206,8 @@ pg.base.strategy_data_template = {
 		id = 9502,
 		icon = "9502",
 		arg = {}
-	},
-	[9505] = {
+	}
+	pg.base.strategy_data_template[9505] = {
 		buff_id = 9505,
 		name = "Iron Blood Aerial Support",
 		desc = "Enemy Air Squads will appear on this stage, and your fleets will take 10% more damage from Airstrikes.",
@@ -2212,8 +2217,8 @@ pg.base.strategy_data_template = {
 		id = 9505,
 		icon = "10017",
 		arg = {}
-	},
-	[9508] = {
+	}
+	pg.base.strategy_data_template[9508] = {
 		buff_id = 9508,
 		name = "Endless Night",
 		desc = "Darkness shrouds the battlefield, making it impossible to check the composition of enemy fleets before battle.",
@@ -2223,8 +2228,8 @@ pg.base.strategy_data_template = {
 		id = 9508,
 		icon = "10016",
 		arg = {}
-	},
-	[10001] = {
+	}
+	pg.base.strategy_data_template[10001] = {
 		buff_id = 200,
 		name = "Adequate Ammo",
 		desc = "Your fleet deals 10% increased DMG",
@@ -2234,8 +2239,8 @@ pg.base.strategy_data_template = {
 		id = 10001,
 		icon = "10001",
 		arg = {}
-	},
-	[10002] = {
+	}
+	pg.base.strategy_data_template[10002] = {
 		buff_id = 210,
 		name = "Out of Ammo",
 		desc = "Your fleet deals 50% reduced DMG",
@@ -2245,8 +2250,8 @@ pg.base.strategy_data_template = {
 		id = 10002,
 		icon = "10002",
 		arg = {}
-	},
-	[10011] = {
+	}
+	pg.base.strategy_data_template[10011] = {
 		buff_id = 220,
 		name = "Air Supremacy",
 		desc = "The DMG of your fleets' Airstrikes is increased by 20% and the DMG your fleets take from enemy aircraft is decreased by 10% (Flooding and Burn DMG are unaffected). Your fleets' Accuracy is increased by 10% and your Ambush encounter rate is decreased by 8%.",
@@ -2258,8 +2263,8 @@ pg.base.strategy_data_template = {
 		arg = {
 			800
 		}
-	},
-	[10012] = {
+	}
+	pg.base.strategy_data_template[10012] = {
 		buff_id = 230,
 		name = "Air Superiority",
 		desc = "The DMG of your fleets' Airstrikes is increased by 12% and the DMG your fleets take from enemy aircraft is decreased by 6% (Flooding and Burn DMG are unaffected). Your fleets' Accuracy is increased by 5% and your Ambush encounter rate is decreased by 5%.",
@@ -2271,8 +2276,8 @@ pg.base.strategy_data_template = {
 		arg = {
 			500
 		}
-	},
-	[10013] = {
+	}
+	pg.base.strategy_data_template[10013] = {
 		buff_id = 240,
 		name = "Air Parity",
 		desc = "The DMG of your fleets' Airstrikes is decreased by 6% and the DMG your fleets take from enemy aircraft is increased by 3% (Flooding and Burn DMG are unaffected).",
@@ -2284,8 +2289,8 @@ pg.base.strategy_data_template = {
 		arg = {
 			0
 		}
-	},
-	[10014] = {
+	}
+	pg.base.strategy_data_template[10014] = {
 		buff_id = 250,
 		name = "Air Denial",
 		desc = "The DMG of your fleets' Airstrikes is decreased by 12% and the DMG your fleets take from enemy aircraft is increased by 6% (Flooding and Burn DMG are unaffected). Your fleets' Accuracy and EVA is decreased by 3%.",
@@ -2297,8 +2302,8 @@ pg.base.strategy_data_template = {
 		arg = {
 			0
 		}
-	},
-	[10015] = {
+	}
+	pg.base.strategy_data_template[10015] = {
 		buff_id = 260,
 		name = "Air Incapability",
 		desc = "The DMG of your fleets' Airstrikes is decreased by 20% and the DMG your fleets take from enemy aircraft is increased by 10% (Flooding and Burn DMG are unaffected). Your fleets' Accuracy and EVA is decreased by 8%.",
@@ -2310,8 +2315,8 @@ pg.base.strategy_data_template = {
 		arg = {
 			0
 		}
-	},
-	[10021] = {
+	}
+	pg.base.strategy_data_template[10021] = {
 		buff_id = 8761,
 		name = "Fever Mode",
 		desc = "Your fleet is in Fever Mode, and will restore 2% Max HP at the beginning of battle.",
@@ -2321,8 +2326,8 @@ pg.base.strategy_data_template = {
 		id = 10021,
 		icon = "10021",
 		arg = {}
-	},
-	[10031] = {
+	}
+	pg.base.strategy_data_template[10031] = {
 		buff_id = 8765,
 		name = "Eyes on Me!",
 		desc = "At the start of the battle, your ships heal for 2.0% of their max HP.",
@@ -2332,8 +2337,8 @@ pg.base.strategy_data_template = {
 		id = 10031,
 		icon = "10031",
 		arg = {}
-	},
-	[10032] = {
+	}
+	pg.base.strategy_data_template[10032] = {
 		buff_id = 8767,
 		name = "Eyes on Me!",
 		desc = "Your ships deal 5.0% more DMG to enemies.",
@@ -2343,8 +2348,8 @@ pg.base.strategy_data_template = {
 		id = 10032,
 		icon = "10032",
 		arg = {}
-	},
-	[10033] = {
+	}
+	pg.base.strategy_data_template[10033] = {
 		buff_id = 8769,
 		name = "Eyes on Me!",
 		desc = "Your ships take 5.0% less DMG from enemies.",
@@ -2354,8 +2359,8 @@ pg.base.strategy_data_template = {
 		id = 10033,
 		icon = "10033",
 		arg = {}
-	},
-	[200000] = {
+	}
+	pg.base.strategy_data_template[200000] = {
 		buff_id = 200000,
 		name = "Air Armada Support",
 		desc = "Captain Alfredo's air armada provides supporting fire during battles.",
@@ -2365,8 +2370,8 @@ pg.base.strategy_data_template = {
 		id = 200000,
 		icon = "200000",
 		arg = {}
-	},
-	[200003] = {
+	}
+	pg.base.strategy_data_template[200003] = {
 		buff_id = 200003,
 		name = "Air Armada Support",
 		desc = "Captain Alfredo's air armada provides supporting fire during battles.",
@@ -2376,8 +2381,8 @@ pg.base.strategy_data_template = {
 		id = 200003,
 		icon = "200000",
 		arg = {}
-	},
-	[200006] = {
+	}
+	pg.base.strategy_data_template[200006] = {
 		buff_id = 200006,
 		name = "Air Armada Support",
 		desc = "Captain Alfredo's air armada provides supporting fire during battles.",
@@ -2387,8 +2392,8 @@ pg.base.strategy_data_template = {
 		id = 200006,
 		icon = "200000",
 		arg = {}
-	},
-	[200009] = {
+	}
+	pg.base.strategy_data_template[200009] = {
 		buff_id = 200009,
 		name = "Miniature Mirror Sea",
 		desc = "All your Sardegna Empire ships deal 20% more DMG and take 20% less DMG.",
@@ -2398,8 +2403,8 @@ pg.base.strategy_data_template = {
 		id = 200009,
 		icon = "200009",
 		arg = {}
-	},
-	[200011] = {
+	}
+	pg.base.strategy_data_template[200011] = {
 		buff_id = 200011,
 		name = "Ancient Might",
 		desc = "Strike with all the fury of a storm. Your fleet's FP and AVI are increased by 10%.",
@@ -2409,8 +2414,8 @@ pg.base.strategy_data_template = {
 		id = 200011,
 		icon = "200011",
 		arg = {}
-	},
-	[200012] = {
+	}
+	pg.base.strategy_data_template[200012] = {
 		buff_id = 200012,
 		name = "Ancient Alacrity",
 		desc = "Heed the call of the legion's horn. Your fleet's RLD is increased by 15%.",
@@ -2420,8 +2425,8 @@ pg.base.strategy_data_template = {
 		id = 200012,
 		icon = "200012",
 		arg = {}
-	},
-	[200013] = {
+	}
+	pg.base.strategy_data_template[200013] = {
 		buff_id = 200013,
 		name = "Ancient Splendor",
 		desc = "Bathe in the sun's splendorous light. Your fleet regains 3% HP at the start of each battle.",
@@ -2431,8 +2436,8 @@ pg.base.strategy_data_template = {
 		id = 200013,
 		icon = "200013",
 		arg = {}
-	},
-	[200015] = {
+	}
+	pg.base.strategy_data_template[200015] = {
 		buff_id = 200015,
 		name = "Ancient Conquest",
 		desc = "The world's vastness spreads out before your eyes. Your fleet's EVA is increased by 10%.",
@@ -2442,8 +2447,8 @@ pg.base.strategy_data_template = {
 		id = 200015,
 		icon = "200015",
 		arg = {}
-	},
-	[200016] = {
+	}
+	pg.base.strategy_data_template[200016] = {
 		buff_id = 200016,
 		name = "Ancient Justice",
 		desc = "Behold the turning tides of fate. The enemy takes constant DMG during battle.",
@@ -2453,8 +2458,8 @@ pg.base.strategy_data_template = {
 		id = 200016,
 		icon = "200016",
 		arg = {}
-	},
-	[200019] = {
+	}
+	pg.base.strategy_data_template[200019] = {
 		buff_id = 200019,
 		name = "Ancient Apostasy",
 		desc = "Turn your back on the dying of the light. Your Flagship starts with her first attack pre-loaded.",
@@ -2464,8 +2469,8 @@ pg.base.strategy_data_template = {
 		id = 200019,
 		icon = "200019",
 		arg = {}
-	},
-	[200023] = {
+	}
+	pg.base.strategy_data_template[200023] = {
 		buff_id = 0,
 		name = "Air Raids",
 		desc = "Experiment Condition: you may be hit by air raids while moving on the map. The chance of this happening decreases the higher your recon value is.",
@@ -2475,8 +2480,8 @@ pg.base.strategy_data_template = {
 		id = 200023,
 		icon = "200023",
 		arg = {}
-	},
-	[200024] = {
+	}
+	pg.base.strategy_data_template[200024] = {
 		buff_id = 0,
 		name = "Ambushes",
 		desc = "Experiment Condition: you may encounter ambushes while moving on the map. The chance of this happening decreases the higher your recon value is.",
@@ -2486,8 +2491,8 @@ pg.base.strategy_data_template = {
 		id = 200024,
 		icon = "200024",
 		arg = {}
-	},
-	[200025] = {
+	}
+	pg.base.strategy_data_template[200025] = {
 		buff_id = 0,
 		name = "Pursuits",
 		desc = "Experiment Condition: some enemy fleets may pursue you on the map.",
@@ -2497,8 +2502,8 @@ pg.base.strategy_data_template = {
 		id = 200025,
 		icon = "200025",
 		arg = {}
-	},
-	[200052] = {
+	}
+	pg.base.strategy_data_template[200052] = {
 		buff_id = 200052,
 		name = "Violet Domain",
 		desc = "Increases all stats of the shipgirls participating in this game in the event story by 3.0%.",
@@ -2508,8 +2513,8 @@ pg.base.strategy_data_template = {
 		id = 200052,
 		icon = "200052",
 		arg = {}
-	},
-	[200054] = {
+	}
+	pg.base.strategy_data_template[200054] = {
 		buff_id = 200054,
 		name = "Obscuring Fog",
 		desc = "Reduces the ACC of all ships other than CVs by 5.0%.",
@@ -2519,8 +2524,8 @@ pg.base.strategy_data_template = {
 		id = 200054,
 		icon = "200054",
 		arg = {}
-	},
-	[200057] = {
+	}
+	pg.base.strategy_data_template[200057] = {
 		buff_id = 200057,
 		name = "Vision for a New Path",
 		desc = "Increases the SPD of all ships by 5.0%.",
@@ -2530,8 +2535,8 @@ pg.base.strategy_data_template = {
 		id = 200057,
 		icon = "200057",
 		arg = {}
-	},
-	[200060] = {
+	}
+	pg.base.strategy_data_template[200060] = {
 		buff_id = 200060,
 		name = "Image of a Solitary Future",
 		desc = "Increases DMG taken by all ships by 5.0%.",
@@ -2541,8 +2546,8 @@ pg.base.strategy_data_template = {
 		id = 200060,
 		icon = "200060",
 		arg = {}
-	},
-	[200063] = {
+	}
+	pg.base.strategy_data_template[200063] = {
 		buff_id = 200063,
 		name = "Fair Winds, Fair Fight",
 		desc = "Increases the FP and EVA of all BBs and BCs by 5.0%, but decreases the FP and EVA of all DDs by 5.0%.",
@@ -2552,8 +2557,8 @@ pg.base.strategy_data_template = {
 		id = 200063,
 		icon = "200063",
 		arg = {}
-	},
-	[200067] = {
+	}
+	pg.base.strategy_data_template[200067] = {
 		buff_id = 200067,
 		name = "Overbearing Ambitions",
 		desc = "Increases the Spread Range of all BBs and BCs by 2, and increases their FP by 5.0%.",
@@ -2563,8 +2568,8 @@ pg.base.strategy_data_template = {
 		id = 200067,
 		icon = "200067",
 		arg = {}
-	},
-	[200070] = {
+	}
+	pg.base.strategy_data_template[200070] = {
 		buff_id = 200070,
 		name = "Thunder's Roar",
 		desc = "During battle, lightning bolts periodically strike the battlefield, dealing damage proportional to current HP to both allies and enemies within range.",
@@ -2574,8 +2579,8 @@ pg.base.strategy_data_template = {
 		id = 200070,
 		icon = "200070",
 		arg = {}
-	},
-	[200074] = {
+	}
+	pg.base.strategy_data_template[200074] = {
 		buff_id = 200074,
 		name = "Irreconcilable Promises",
 		desc = "During battle, all ships periodically restore a small amount of HP.",
@@ -2585,8 +2590,8 @@ pg.base.strategy_data_template = {
 		id = 200074,
 		icon = "200074",
 		arg = {}
-	},
-	[200078] = {
+	}
+	pg.base.strategy_data_template[200078] = {
 		buff_id = 200078,
 		name = "Guardian's Determination",
 		desc = "All ships take 3.0% less DMG. At regular intervals, all ships either gain a shield that can block a number of shells, or restore a small amount of HP.",
@@ -2596,8 +2601,8 @@ pg.base.strategy_data_template = {
 		id = 200078,
 		icon = "200078",
 		arg = {}
-	},
-	[200079] = {
+	}
+	pg.base.strategy_data_template[200079] = {
 		buff_id = 0,
 		name = "The Land of Beginnings",
 		desc = "Obtainable materials: Nameless Grass, Wing Plant, Blood Taun (Silent Sickle required).",
@@ -2607,8 +2612,8 @@ pg.base.strategy_data_template = {
 		id = 200079,
 		icon = "200079",
 		arg = {}
-	},
-	[200080] = {
+	}
+	pg.base.strategy_data_template[200080] = {
 		buff_id = 0,
 		name = "The Underworld Grove",
 		desc = "Obtainable materials: Lightning Ore, Star Fragment, Septrin (Golden Axe required).",
@@ -2618,8 +2623,8 @@ pg.base.strategy_data_template = {
 		id = 200080,
 		icon = "200080",
 		arg = {}
-	},
-	[200081] = {
+	}
+	pg.base.strategy_data_template[200081] = {
 		buff_id = 0,
 		name = "The Castle of Strife",
 		desc = "Obtainable materials: Small Crystals, Burning Sand, Magma Powder (Blue Bomb Rod required).",
@@ -2629,8 +2634,8 @@ pg.base.strategy_data_template = {
 		id = 200081,
 		icon = "200081",
 		arg = {}
-	},
-	[200082] = {
+	}
+	pg.base.strategy_data_template[200082] = {
 		buff_id = 0,
 		name = "The Desolate Capital",
 		desc = "Obtainable materials: Pourpremoule, Sardine, Lake Master (Divine Fishing Rod required).",
@@ -2640,8 +2645,10 @@ pg.base.strategy_data_template = {
 		id = 200082,
 		icon = "200082",
 		arg = {}
-	},
-	[200083] = {
+	}
+end)()
+(function ()
+	pg.base.strategy_data_template[200083] = {
 		buff_id = 0,
 		name = "The Central Foundation",
 		desc = "Obtainable materials: Strange Crystal Ore, Strange Armor Plate, Strange Energy Core (Laser Cutter required).",
@@ -2651,8 +2658,8 @@ pg.base.strategy_data_template = {
 		id = 200083,
 		icon = "200083",
 		arg = {}
-	},
-	[200084] = {
+	}
+	pg.base.strategy_data_template[200084] = {
 		buff_id = 0,
 		name = "Silent Sickle",
 		desc = "An improved tool for gathering grass and flowers. It's been modified to make gathering easier, and reaps everything as quietly and lightly as the wind.",
@@ -2662,8 +2669,8 @@ pg.base.strategy_data_template = {
 		id = 200084,
 		icon = "200084",
 		arg = {}
-	},
-	[200085] = {
+	}
+	pg.base.strategy_data_template[200085] = {
 		buff_id = 0,
 		name = "Golden Axe",
 		desc = "An improved tool for splitting firewood and cutting down trees for lumber. It's been modified for better balance and sharpness, making gathering easier than ever.",
@@ -2673,8 +2680,8 @@ pg.base.strategy_data_template = {
 		id = 200085,
 		icon = "200085",
 		arg = {}
-	},
-	[200086] = {
+	}
+	pg.base.strategy_data_template[200086] = {
 		buff_id = 0,
 		name = "Blue Bomb Rod",
 		desc = "A stronger version of the Bomb Rod. The jewel at the tip is blue now, and it can destroy rocks and crystals more easily.",
@@ -2684,8 +2691,8 @@ pg.base.strategy_data_template = {
 		id = 200086,
 		icon = "200086",
 		arg = {}
-	},
-	[200087] = {
+	}
+	pg.base.strategy_data_template[200087] = {
 		buff_id = 0,
 		name = "Divine Fishing Rod",
 		desc = "An improved Fishing Rod. Fish will no longer flee from it, and some will even be more attracted to it than usual.",
@@ -2695,8 +2702,8 @@ pg.base.strategy_data_template = {
 		id = 200087,
 		icon = "200087",
 		arg = {}
-	},
-	[200088] = {
+	}
+	pg.base.strategy_data_template[200088] = {
 		buff_id = 0,
 		name = "Laser Cutter",
 		desc = "A mechanical arm made by the Sirens. It has a crushing grip strength and an extremely powerful mining laser. It might be useful for gathering alchemy materials.",
@@ -2706,8 +2713,8 @@ pg.base.strategy_data_template = {
 		id = 200088,
 		icon = "200088",
 		arg = {}
-	},
-	[200239] = {
+	}
+	pg.base.strategy_data_template[200239] = {
 		buff_id = 200239,
 		name = "Autonomous Support Drones",
 		desc = "The Devil XV's drones are empowering your ships. \nYour fleet has 10.0% increased FP, TRP, and AVI.",
@@ -2717,8 +2724,8 @@ pg.base.strategy_data_template = {
 		id = 200239,
 		icon = "200239",
 		arg = {}
-	},
-	[200240] = {
+	}
+	pg.base.strategy_data_template[200240] = {
 		buff_id = 200240,
 		name = "Category V Threat - Omens",
 		desc = "Something isn't right. \nBarrages will fire during battle which harm anything in their path, friend or foe.",
@@ -2728,8 +2735,8 @@ pg.base.strategy_data_template = {
 		id = 200240,
 		icon = "200240",
 		arg = {}
-	},
-	[200241] = {
+	}
+	pg.base.strategy_data_template[200241] = {
 		buff_id = 200240,
 		name = "Category V Threat - Incursion",
 		desc = "A dark threat looms over the horizon. \nBarrages will fire during battle which harm anything in their path, friend or foe.",
@@ -2739,8 +2746,8 @@ pg.base.strategy_data_template = {
 		id = 200241,
 		icon = "200241",
 		arg = {}
-	},
-	[200242] = {
+	}
+	pg.base.strategy_data_template[200242] = {
 		buff_id = 200242,
 		name = "Reorigination System",
 		desc = "The Tower has come to purge the system. \nAll ships lose a portion of their max HP at regular intervals during battle.",
@@ -2750,8 +2757,8 @@ pg.base.strategy_data_template = {
 		id = 200242,
 		icon = "200242",
 		arg = {}
-	},
-	[200327] = {
+	}
+	pg.base.strategy_data_template[200327] = {
 		buff_id = 200327,
 		name = "Basilica Control Device - Inoperable",
 		desc = "The Basilica's control device is inoperable. \nBarrages will appear during battle, inflicting damage to all targets in proportion to their max HP.",
@@ -2761,8 +2768,8 @@ pg.base.strategy_data_template = {
 		id = 200327,
 		icon = "200327",
 		arg = {}
-	},
-	[200330] = {
+	}
+	pg.base.strategy_data_template[200330] = {
 		buff_id = 200330,
 		name = "Basilica Control Device - Recovering",
 		desc = "The Basilica's control device is recovering. \nBarrages will appear during battle, inflicting damage to all enemies in proportion to their max HP.",
@@ -2772,8 +2779,8 @@ pg.base.strategy_data_template = {
 		id = 200330,
 		icon = "200330",
 		arg = {}
-	},
-	[200333] = {
+	}
+	pg.base.strategy_data_template[200333] = {
 		buff_id = 200333,
 		name = "Basilica Control Device - Stable",
 		desc = "The Basilica's control device is stable. \nBarrages will appear during battle, inflicting damage to all enemies in proportion to their max HP and recovering the HP of your ships.",
@@ -2783,8 +2790,8 @@ pg.base.strategy_data_template = {
 		id = 200333,
 		icon = "200333",
 		arg = {}
-	},
-	[200336] = {
+	}
+	pg.base.strategy_data_template[200336] = {
 		buff_id = 200336,
 		name = "The Blessed Faithful - Iris Orthodoxy",
 		desc = "The Iris has answered your prayers. \nYour Iris Libre and Vichya Dominion ships gain 3.0% FP, TRP, AVI, AA, RLD, ACC, and EVA.",
@@ -2794,8 +2801,8 @@ pg.base.strategy_data_template = {
 		id = 200336,
 		icon = "200336",
 		arg = {}
-	},
-	[200338] = {
+	}
+	pg.base.strategy_data_template[200338] = {
 		buff_id = 200338,
 		name = "The Blessed Faithful - Royal Navy",
 		desc = "Your prayers have been answered... but by whom?\nYour Royal Navy ships gain 3.0% FP, TRP, AVI, AA, RLD, ACC, and EVA.",
@@ -2805,8 +2812,8 @@ pg.base.strategy_data_template = {
 		id = 200338,
 		icon = "200338",
 		arg = {}
-	},
-	[200392] = {
+	}
+	pg.base.strategy_data_template[200392] = {
 		buff_id = 0,
 		name = "Hunter's Tactics",
 		desc = "All enemy fleets in the area will pursue you.",
@@ -2816,8 +2823,8 @@ pg.base.strategy_data_template = {
 		id = 200392,
 		icon = "8909",
 		arg = {}
-	},
-	[200394] = {
+	}
+	pg.base.strategy_data_template[200394] = {
 		buff_id = 200394,
 		name = "Corrupted Space",
 		desc = [[
@@ -2831,8 +2838,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200394,
 		icon = "200394",
 		arg = {}
-	},
-	[200396] = {
+	}
+	pg.base.strategy_data_template[200396] = {
 		buff_id = 200396,
 		name = "Corrupted Space",
 		desc = [[
@@ -2846,8 +2853,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200396,
 		icon = "200394",
 		arg = {}
-	},
-	[200401] = {
+	}
+	pg.base.strategy_data_template[200401] = {
 		buff_id = 200401,
 		name = "Corrupted Space",
 		desc = [[
@@ -2861,8 +2868,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200401,
 		icon = "200394",
 		arg = {}
-	},
-	[200406] = {
+	}
+	pg.base.strategy_data_template[200406] = {
 		buff_id = 200406,
 		name = "Corrupted Space",
 		desc = [[
@@ -2876,8 +2883,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200406,
 		icon = "200394",
 		arg = {}
-	},
-	[200411] = {
+	}
+	pg.base.strategy_data_template[200411] = {
 		buff_id = 200411,
 		name = "Corrupted Space",
 		desc = [[
@@ -2891,8 +2898,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200411,
 		icon = "200394",
 		arg = {}
-	},
-	[200416] = {
+	}
+	pg.base.strategy_data_template[200416] = {
 		buff_id = 200416,
 		name = "Corrupted Space",
 		desc = [[
@@ -2906,8 +2913,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200416,
 		icon = "200394",
 		arg = {}
-	},
-	[200432] = {
+	}
+	pg.base.strategy_data_template[200432] = {
 		buff_id = 200432,
 		name = "Framework of Logic – Support",
 		desc = "Thanks to Vestal META's support, the maximum Corrosion Level of this zone has been reduced. Furthermore, your ships will periodically restore HP and gain improved stats while in battle.\nCurrent Max Corrosion Level: 1",
@@ -2917,8 +2924,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200432,
 		icon = "200432",
 		arg = {}
-	},
-	[200433] = {
+	}
+	pg.base.strategy_data_template[200433] = {
 		buff_id = 200432,
 		name = "Framework of Logic – Support",
 		desc = "Thanks to Vestal META's support, the maximum Corrosion Level of this zone has been reduced. Furthermore, your ships will periodically restore HP and gain improved stats while in battle.\nCurrent Max Corrosion Level: 2",
@@ -2928,8 +2935,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200433,
 		icon = "200432",
 		arg = {}
-	},
-	[200434] = {
+	}
+	pg.base.strategy_data_template[200434] = {
 		buff_id = 200432,
 		name = "Framework of Logic – Support",
 		desc = "Thanks to Vestal META's support, the maximum Corrosion Level of this zone has been reduced. Furthermore, your ships will periodically restore HP and gain improved stats while in battle.\nCurrent Max Corrosion Level: 3",
@@ -2939,8 +2946,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200434,
 		icon = "200432",
 		arg = {}
-	},
-	[200511] = {
+	}
+	pg.base.strategy_data_template[200511] = {
 		buff_id = 200511,
 		name = "古立特联动复刻弹幕支援",
 		desc = "Future Content",
@@ -2950,8 +2957,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200511,
 		icon = "",
 		arg = {}
-	},
-	[200535] = {
+	}
+	pg.base.strategy_data_template[200535] = {
 		buff_id = 200535,
 		name = "Alliance Fleet",
 		desc = "In battle, all ships in your fleet gain +1.0% to all stats for each additional faction present in that fleet beyond the first.",
@@ -2961,8 +2968,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200535,
 		icon = "200535",
 		arg = {}
-	},
-	[200536] = {
+	}
+	pg.base.strategy_data_template[200536] = {
 		buff_id = 0,
 		name = "Corrosive Aberration",
 		desc = "A strange substance seems to permeate this entire world.\nCertain enemies release a strange substance when defeated, restoring the HP of adjacent enemies while damaging your ships.",
@@ -2972,8 +2979,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200536,
 		icon = "200536",
 		arg = {}
-	},
-	[200538] = {
+	}
+	pg.base.strategy_data_template[200538] = {
 		buff_id = 200538,
 		name = "Tribunal's Support",
 		desc = "\"Commander, behold my next move.\"\nIn battle, allied Tribunal mass-produced ships and Mechanicus Confessors will lay down supporting barrages.",
@@ -2983,8 +2990,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200538,
 		icon = "200538",
 		arg = {}
-	},
-	[200541] = {
+	}
+	pg.base.strategy_data_template[200541] = {
 		buff_id = 200541,
 		name = "Tribunal's Support",
 		desc = "\"Commander, behold my next move.\"\nIn battle, allied Tribunal mass-produced ships and Mechanicus Confessors will lay down supporting barrages.",
@@ -2994,8 +3001,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200541,
 		icon = "200538",
 		arg = {}
-	},
-	[200544] = {
+	}
+	pg.base.strategy_data_template[200544] = {
 		buff_id = 200544,
 		name = "False God's Domain I",
 		desc = "\"The Kingdom of God will descend upon the land!\"\nAll ships within the False God's Domain have reduced stats.\nIn battle, enemies will gain supporting barrages.",
@@ -3005,8 +3012,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200544,
 		icon = "200544",
 		arg = {}
-	},
-	[200545] = {
+	}
+	pg.base.strategy_data_template[200545] = {
 		buff_id = 200545,
 		name = "False God's Domain II",
 		desc = "\"Th▇▅gdom of ▅▇ will desc▇▅on th▅▇\"\nAll ships within the False God's Domain have further reduced stats.\nIn battle, enemies will gain stronger supporting barrages.",
@@ -3016,8 +3023,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200545,
 		icon = "200545",
 		arg = {}
-	},
-	[200546] = {
+	}
+	pg.base.strategy_data_template[200546] = {
 		buff_id = 200546,
 		name = "False God's Domain III",
 		desc = "\"▇▆▇▊▇▇▆▅▇▆\"\nAll ships within the False God's Domain have significantly reduced stats.\nIn battle, enemies will gain significantly stronger supporting barrages.",
@@ -3027,8 +3034,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200546,
 		icon = "200546",
 		arg = {}
-	},
-	[200583] = {
+	}
+	pg.base.strategy_data_template[200583] = {
 		buff_id = 200583,
 		name = "Encroaching Dark Mist",
 		desc = "The calamitous dark mist forms a terrifying foe. \nIn battle, barrages which attack your ships appear at regular intervals.",
@@ -3038,8 +3045,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200583,
 		icon = "200583",
 		arg = {}
-	},
-	[200585] = {
+	}
+	pg.base.strategy_data_template[200585] = {
 		buff_id = 200585,
 		name = "Sacred Sakura's Protection",
 		desc = "The Watatsumi's protective seal is weakening the dark mist. \nIn battle, shields spawn around your ships at regular intervals, negating damage equal to a portion of their max HP.",
@@ -3049,8 +3056,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200585,
 		icon = "200585",
 		arg = {}
-	},
-	[200589] = {
+	}
+	pg.base.strategy_data_template[200589] = {
 		buff_id = 200589,
 		name = "Estuary of Faith",
 		desc = "Use the power of prayer to overcome adversity. \nIn battle, barrages that support your ships appear at regular intervals.",
@@ -3060,8 +3067,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200589,
 		icon = "200589",
 		arg = {}
-	},
-	[200592] = {
+	}
+	pg.base.strategy_data_template[200592] = {
 		buff_id = 200592,
 		name = "Estuary of Faith",
 		desc = "Use the power of prayer to overcome adversity. \nIn battle, barrages that support your ships appear at regular intervals.",
@@ -3071,8 +3078,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200592,
 		icon = "200589",
 		arg = {}
-	},
-	[200595] = {
+	}
+	pg.base.strategy_data_template[200595] = {
 		buff_id = 200595,
 		name = "Estuary of Faith",
 		desc = "Use the power of prayer to overcome adversity. \nIn battle, barrages that support your ships appear at regular intervals.",
@@ -3082,8 +3089,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200595,
 		icon = "200589",
 		arg = {}
-	},
-	[200618] = {
+	}
+	pg.base.strategy_data_template[200618] = {
 		buff_id = 200618,
 		name = "Legendary Flagship",
 		desc = "The Great Royal Fortune sails forth! During battle, your fleet will receive supporting fire from the Great Royal Fortune.",
@@ -3093,8 +3100,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200618,
 		icon = "200618",
 		arg = {}
-	},
-	[200620] = {
+	}
+	pg.base.strategy_data_template[200620] = {
 		buff_id = 200620,
 		name = "Legendary Flagship",
 		desc = "The Great Royal Fortune sails forth! During battle, your fleet will receive supporting fire from the Great Royal Fortune.",
@@ -3104,8 +3111,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200620,
 		icon = "200618",
 		arg = {}
-	},
-	[200622] = {
+	}
+	pg.base.strategy_data_template[200622] = {
 		buff_id = 200622,
 		name = "Legendary Flagship",
 		desc = "The Great Royal Fortune sails forth! During battle, your fleet will receive supporting fire from the Great Royal Fortune.",
@@ -3115,8 +3122,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200622,
 		icon = "200618",
 		arg = {}
-	},
-	[200624] = {
+	}
+	pg.base.strategy_data_template[200624] = {
 		buff_id = 200624,
 		name = "Abnormal Weather - Storm",
 		desc = "The battle continues amidst a raging storm. \nAll Tempesta ships take 3.0% less DMG.",
@@ -3126,8 +3133,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200624,
 		icon = "200624",
 		arg = {}
-	},
-	[200627] = {
+	}
+	pg.base.strategy_data_template[200627] = {
 		buff_id = 200627,
 		name = "Abnormal Weather - Eye of the Storm",
 		desc = "The battle continues in the eye of the storm. \nAll Tempesta ships deal 3.0% more DMG.",
@@ -3137,8 +3144,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200627,
 		icon = "200627",
 		arg = {}
-	},
-	[200630] = {
+	}
+	pg.base.strategy_data_template[200630] = {
 		buff_id = 200630,
 		name = "Meteor Missiles",
 		desc = "During battle, Grimoire Terminal will support your fleet with missiles.",
@@ -3148,8 +3155,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200630,
 		icon = "200630",
 		arg = {}
-	},
-	[200633] = {
+	}
+	pg.base.strategy_data_template[200633] = {
 		buff_id = 200633,
 		name = "Meteor Missiles",
 		desc = "During battle, Grimoire Terminal will support your fleet with missiles.",
@@ -3159,8 +3166,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200633,
 		icon = "200630",
 		arg = {}
-	},
-	[200645] = {
+	}
+	pg.base.strategy_data_template[200645] = {
 		buff_id = 200645,
 		name = "Land Pulse Device - Yin",
 		desc = "The Land Pulse Device is under the enemy's control. The enemy gains supporting barrages during battle.",
@@ -3170,8 +3177,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200645,
 		icon = "200645",
 		arg = {}
-	},
-	[200646] = {
+	}
+	pg.base.strategy_data_template[200646] = {
 		buff_id = 200646,
 		name = "Land Pulse Device - Yang",
 		desc = "The Land Pulse Device is under the enemy's control. The enemy gains supporting barrages during battle.",
@@ -3181,8 +3188,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200646,
 		icon = "200646",
 		arg = {}
-	},
-	[200647] = {
+	}
+	pg.base.strategy_data_template[200647] = {
 		buff_id = 200647,
 		name = "Land Pulse Device - Flash",
 		desc = "The Land Pulse Device is under the enemy's control. The enemy gains supporting barrages during battle and barriers that decrease their DMG taken.",
@@ -3192,8 +3199,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200647,
 		icon = "200647",
 		arg = {}
-	},
-	[200648] = {
+	}
+	pg.base.strategy_data_template[200648] = {
 		buff_id = 200648,
 		name = "Land Pulse Device - Ryou",
 		desc = "The Land Pulse Device is under the enemy's control. The enemy gains supporting barrages during battle and an HP recovery effect.",
@@ -3203,8 +3210,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200648,
 		icon = "200648",
 		arg = {}
-	},
-	[200649] = {
+	}
+	pg.base.strategy_data_template[200649] = {
 		buff_id = 200649,
 		name = "Land Pulse Device - Ken",
 		desc = "The Land Pulse Device is under the enemy's control. The enemy gains supporting barrages during battle and inflicts a damage-over-time poison ailment to shipgirls they hit.",
@@ -3214,8 +3221,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200649,
 		icon = "200649",
 		arg = {}
-	},
-	[200655] = {
+	}
+	pg.base.strategy_data_template[200655] = {
 		buff_id = 200655,
 		name = "Land Pulse Device - Yin",
 		desc = "The Land Pulse Device is under your control. Your fleet gains supporting barrages during battle.",
@@ -3225,8 +3232,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200655,
 		icon = "200650",
 		arg = {}
-	},
-	[200658] = {
+	}
+	pg.base.strategy_data_template[200658] = {
 		buff_id = 200658,
 		name = "Land Pulse Device - Yang",
 		desc = "The Land Pulse Device is under your control. Your fleet gains supporting barrages during battle.",
@@ -3236,8 +3243,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200658,
 		icon = "200651",
 		arg = {}
-	},
-	[200661] = {
+	}
+	pg.base.strategy_data_template[200661] = {
 		buff_id = 200661,
 		name = "Land Pulse Device - Flash",
 		desc = "The Land Pulse Device is under your control. Your fleet gains supporting barrages during battle and barriers that decrease its DMG taken.",
@@ -3247,8 +3254,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200661,
 		icon = "200652",
 		arg = {}
-	},
-	[200664] = {
+	}
+	pg.base.strategy_data_template[200664] = {
 		buff_id = 200664,
 		name = "Land Pulse Device - Ryou",
 		desc = "The Land Pulse Device is under your control. Your fleet gains supporting barrages during battle and an HP recovery effect.",
@@ -3258,8 +3265,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200664,
 		icon = "200653",
 		arg = {}
-	},
-	[200667] = {
+	}
+	pg.base.strategy_data_template[200667] = {
 		buff_id = 200667,
 		name = "Land Pulse Device - Yin",
 		desc = "The Land Pulse Device is under your control. Your fleet gains supporting barrages during battle.",
@@ -3269,8 +3276,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200667,
 		icon = "200650",
 		arg = {}
-	},
-	[200670] = {
+	}
+	pg.base.strategy_data_template[200670] = {
 		buff_id = 200670,
 		name = "Land Pulse Device - Yang",
 		desc = "The Land Pulse Device is under your control. Your fleet gains supporting barrages during battle.",
@@ -3280,8 +3287,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200670,
 		icon = "200651",
 		arg = {}
-	},
-	[200673] = {
+	}
+	pg.base.strategy_data_template[200673] = {
 		buff_id = 200673,
 		name = "Land Pulse Device - Flash",
 		desc = "The Land Pulse Device is under your control. Your fleet gains supporting barrages during battle and barriers that decrease its DMG taken.",
@@ -3291,8 +3298,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200673,
 		icon = "200652",
 		arg = {}
-	},
-	[200676] = {
+	}
+	pg.base.strategy_data_template[200676] = {
 		buff_id = 200676,
 		name = "Land Pulse Device - Ryou",
 		desc = "The Land Pulse Device is under your control. Your fleet gains supporting barrages during battle and an HP recovery effect.",
@@ -3302,8 +3309,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200676,
 		icon = "200653",
 		arg = {}
-	},
-	[200679] = {
+	}
+	pg.base.strategy_data_template[200679] = {
 		buff_id = 200679,
 		name = "Land Pulse Device - Ken",
 		desc = "The Land Pulse Device is under your control. Your fleet gains supporting barrages during battle and inflicts a damage-over-time poison ailment to enemies it hits.",
@@ -3313,8 +3320,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200679,
 		icon = "200654",
 		arg = {}
-	},
-	[200732] = {
+	}
+	pg.base.strategy_data_template[200732] = {
 		buff_id = 200732,
 		name = "Hoverfleet's Coercion",
 		desc = "The mysterious enemy is jamming your systems. Your ships have 5.0% decreased ACC and EVA and take 5.0% more DMG.",
@@ -3324,8 +3331,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200732,
 		icon = "200732",
 		arg = {}
-	},
-	[200735] = {
+	}
+	pg.base.strategy_data_template[200735] = {
 		buff_id = 200735,
 		name = "Support from the Council",
 		desc = "The floating fleet is engaging in electronic warfare. All enemies have 5.0% decreased ACC and EVA and take 5.0% more DMG.",
@@ -3335,8 +3342,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200735,
 		icon = "200735",
 		arg = {}
-	},
-	[200770] = {
+	}
+	pg.base.strategy_data_template[200770] = {
 		buff_id = 200770,
 		name = "Antarctic Cold",
 		desc = "The freezing Antarctic environment decreases your fleet's SPD by 3 and EVA by 10.0%. During battle, blizzards appear that hurt both friend and foe.",
@@ -3346,8 +3353,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200770,
 		icon = "200770",
 		arg = {}
-	},
-	[200774] = {
+	}
+	pg.base.strategy_data_template[200774] = {
 		buff_id = 200774,
 		name = "Command Support - Helena META",
 		desc = "Coordination and cooperation between all the fleets has been made possible thanks to Helena META's tactical command network. \nDuring certain battles, your fleet receives supporting barrages from the Azur Lane Combined Fleet.",
@@ -3357,8 +3364,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200774,
 		icon = "200774",
 		arg = {}
-	},
-	[200777] = {
+	}
+	pg.base.strategy_data_template[200777] = {
 		buff_id = 200777,
 		name = "Command Support - Helena META",
 		desc = "Coordination and cooperation between all the fleets has been made possible thanks to Helena META's tactical command network. \nDuring certain battles, your fleet receives supporting barrages from the Azur Lane Combined Fleet.",
@@ -3368,8 +3375,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200777,
 		icon = "200774",
 		arg = {}
-	},
-	[200780] = {
+	}
+	pg.base.strategy_data_template[200780] = {
 		buff_id = 200780,
 		name = "Experimental Bomber Support",
 		desc = "Saratoga is providing support with her secret weapon. During battle, special airstrikes will aid your fleet.",
@@ -3379,8 +3386,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200780,
 		icon = "200780",
 		arg = {}
-	},
-	[200783] = {
+	}
+	pg.base.strategy_data_template[200783] = {
 		buff_id = 200783,
 		name = "Experimental Bomber Support",
 		desc = "Saratoga is providing support with her secret weapon. During battle, special airstrikes will aid your fleet.",
@@ -3390,8 +3397,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200783,
 		icon = "200780",
 		arg = {}
-	},
-	[200902] = {
+	}
+	pg.base.strategy_data_template[200902] = {
 		buff_id = 200902,
 		name = "Song of Alizarin",
 		desc = "It's Alizarin's time to shine! When the battle starts, the passionate music increases all your ships' FP, TRP, AVI, and RLD by 5.0% for 15s.",
@@ -3401,8 +3408,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200902,
 		icon = "200902",
 		arg = {}
-	},
-	[200903] = {
+	}
+	pg.base.strategy_data_template[200903] = {
 		buff_id = 200903,
 		name = "Song of Cyanidin",
 		desc = "The spotlight shines on Cyanidin! When the battle starts, the lovely music deploys a barrier (lasts 15s) around every ship in your fleet, capable of negating up to 2.0% of each respective ship's max HP in DMG, and decreases your ships' DMG taken by 5.0% for 15s.",
@@ -3412,8 +3419,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200903,
 		icon = "200903",
 		arg = {}
-	},
-	[200905] = {
+	}
+	pg.base.strategy_data_template[200905] = {
 		buff_id = 200905,
 		name = "Spotlight - Alizarin",
 		desc = "Spotlight Buff",
@@ -3423,8 +3430,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200905,
 		icon = "",
 		arg = {}
-	},
-	[200907] = {
+	}
+	pg.base.strategy_data_template[200907] = {
 		buff_id = 200907,
 		name = "Spotlight - Cyanidin",
 		desc = "Spotlight Buff",
@@ -3434,8 +3441,8 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		id = 200907,
 		icon = "",
 		arg = {}
-	},
-	[200908] = {
+	}
+	pg.base.strategy_data_template[200908] = {
 		buff_id = 0,
 		name = "Challenge Mode",
 		desc = [[
@@ -3451,8 +3458,8 @@ The battle will initiate in challenge mode if your Vanguard consists of only a s
 		id = 200908,
 		icon = "200908",
 		arg = {}
-	},
-	[200925] = {
+	}
+	pg.base.strategy_data_template[200925] = {
 		buff_id = 200925,
 		name = "Death's Bridge",
 		desc = "Death's Bridge has been activated. \nDuring battle, Death's Bridge will launch supporting attacks against your fleet.",
@@ -3462,8 +3469,8 @@ The battle will initiate in challenge mode if your Vanguard consists of only a s
 		id = 200925,
 		icon = "200925",
 		arg = {}
-	},
-	[200926] = {
+	}
+	pg.base.strategy_data_template[200926] = {
 		buff_id = 0,
 		name = "Mimic Entities",
 		desc = "/*Mimic beasts/* split into smaller segments when destroyed, propping up their ranks. \n\nSo-called */mimic beasts*/ have been sighted. What are these things?",
@@ -3473,8 +3480,8 @@ The battle will initiate in challenge mode if your Vanguard consists of only a s
 		id = 200926,
 		icon = "200926",
 		arg = {}
-	},
-	[200928] = {
+	}
+	pg.base.strategy_data_template[200928] = {
 		buff_id = 200928,
 		name = "Martyrium of Death",
 		desc = "The concept of death has been anchored to the foundation, giving form to the Martyrium. \nDuring battle, whenever a ship in your fleet sinks an enemy, all of her stats increase by 1.0% (can be stacked up to 5 times).",
@@ -3484,8 +3491,8 @@ The battle will initiate in challenge mode if your Vanguard consists of only a s
 		id = 200928,
 		icon = "200928",
 		arg = {}
-	},
-	[200930] = {
+	}
+	pg.base.strategy_data_template[200930] = {
 		buff_id = 200930,
 		name = "Martyrium of Noble Sacrifice",
 		desc = "The concept of death has blossomed, and the Martyrium extols its noble sacrifice. \nDuring battle, whenever a ship in your fleet sinks an enemy, all of her stats increase by 1.0% (can be stacked up to 5 times); when she has sunk 10 enemies, your fleet will receive a supporting barrage.",
@@ -3495,8 +3502,8 @@ The battle will initiate in challenge mode if your Vanguard consists of only a s
 		id = 200930,
 		icon = "200930",
 		arg = {}
-	},
-	[200931] = {
+	}
+	pg.base.strategy_data_template[200931] = {
 		buff_id = 0,
 		name = "Challenge Mode",
 		desc = [[
@@ -3511,8 +3518,8 @@ The battle will initiate in challenge mode if a ship in your fleet has the Enigm
 		id = 200931,
 		icon = "200908",
 		arg = {}
-	},
-	[200932] = {
+	}
+	pg.base.strategy_data_template[200932] = {
 		buff_id = 0,
 		name = "Challenge Mode",
 		desc = [[
@@ -3528,8 +3535,8 @@ The battle will initiate in challenge mode if a ship in your fleet has the Beave
 		id = 200932,
 		icon = "200908",
 		arg = {}
-	},
-	[200979] = {
+	}
+	pg.base.strategy_data_template[200979] = {
 		buff_id = 200979,
 		name = "Crimson Illusion",
 		desc = "A crimson illusion envelops the battlefield. \nWhen the battle starts, for 15s, the efficacy of all your ships' healing effects decreases by 10% and the enemy's DMG dealt increases by 5%.",
@@ -3539,8 +3546,8 @@ The battle will initiate in challenge mode if a ship in your fleet has the Beave
 		id = 200979,
 		icon = "200979",
 		arg = {}
-	},
-	[200980] = {
+	}
+	pg.base.strategy_data_template[200980] = {
 		buff_id = 200980,
 		name = "The Storm",
 		desc = "The Storm is raging. \nBoth sides' Hit Rate decreases by 5% and their SPD decreases by 3.",
@@ -3550,8 +3557,8 @@ The battle will initiate in challenge mode if a ship in your fleet has the Beave
 		id = 200980,
 		icon = "200980",
 		arg = {}
-	},
-	[200983] = {
+	}
+	pg.base.strategy_data_template[200983] = {
 		buff_id = 0,
 		name = "Crimson Shade",
 		desc = "The crimson Shadow of Corruption stares you down. \nDuring battle, the enemy receives supporting barrages at regular intervals.",
@@ -3561,8 +3568,8 @@ The battle will initiate in challenge mode if a ship in your fleet has the Beave
 		id = 200983,
 		icon = "200983",
 		arg = {}
-	},
-	[200984] = {
+	}
+	pg.base.strategy_data_template[200984] = {
 		buff_id = 200984,
 		name = "Freezing Rain Rocket Support",
 		desc = "The Dongyus are providing covering fire! \nDuring battle, your fleet receives special supporting barrages that freeze the enemy at regular intervals.",
@@ -3572,8 +3579,8 @@ The battle will initiate in challenge mode if a ship in your fleet has the Beave
 		id = 200984,
 		icon = "200984",
 		arg = {}
-	},
-	[200987] = {
+	}
+	pg.base.strategy_data_template[200987] = {
 		buff_id = 200987,
 		name = "Freezing Rain Rocket Support",
 		desc = "The Dongyus are providing covering fire! \nDuring battle, your fleet receives special supporting barrages that freeze the enemy at regular intervals.",
@@ -3583,8 +3590,8 @@ The battle will initiate in challenge mode if a ship in your fleet has the Beave
 		id = 200987,
 		icon = "200984",
 		arg = {}
-	},
-	[200990] = {
+	}
+	pg.base.strategy_data_template[200990] = {
 		buff_id = 200990,
 		name = "Freezing Rain Rocket Support",
 		desc = "The Dongyus are providing covering fire! \nDuring battle, your fleet receives special supporting barrages that freeze the enemy at regular intervals.",
@@ -3594,8 +3601,8 @@ The battle will initiate in challenge mode if a ship in your fleet has the Beave
 		id = 200990,
 		icon = "200984",
 		arg = {}
-	},
-	[200999] = {
+	}
+	pg.base.strategy_data_template[200999] = {
 		buff_id = 0,
 		name = "Challenge Mode",
 		desc = [[
@@ -3610,8 +3617,8 @@ The battle will initiate in challenge mode if a ship in your fleet has the Fargo
 		id = 200999,
 		icon = "200908",
 		arg = {}
-	},
-	[201021] = {
+	}
+	pg.base.strategy_data_template[201021] = {
 		buff_id = 201021,
 		name = "Shrouded Crimson Realm",
 		desc = "\"Soon, my dear sister, we will reunite.\" \nWhen the battle starts, for 15s, decreases all your ships' RLD by 5% and increases the enemy's RLD by 10%.",
@@ -3621,8 +3628,8 @@ The battle will initiate in challenge mode if a ship in your fleet has the Fargo
 		id = 201021,
 		icon = "201021",
 		arg = {}
-	},
-	[201022] = {
+	}
+	pg.base.strategy_data_template[201022] = {
 		buff_id = 0,
 		name = "Shrouded Crimson Realm",
 		desc = "\"Soon, my dear sister, we will reunite.\" \nWhen the battle starts, for 15s, decreases all your ships' RLD by 5% and increases the enemy's RLD by 10%.",
@@ -3632,8 +3639,8 @@ The battle will initiate in challenge mode if a ship in your fleet has the Fargo
 		id = 201022,
 		icon = "201021",
 		arg = {}
-	},
-	[201024] = {
+	}
+	pg.base.strategy_data_template[201024] = {
 		buff_id = 201024,
 		name = "Musashi's Thunder",
 		desc = "\"Thunderhead on lake's reflection, by my heavenly blade, unleash thy lightning.\"\nDuring battle, supporting barrages that inflict DMG proportional to the enemy's max HP will appear.",
@@ -3643,8 +3650,8 @@ The battle will initiate in challenge mode if a ship in your fleet has the Fargo
 		id = 201024,
 		icon = "200070",
 		arg = {}
-	},
-	[201027] = {
+	}
+	pg.base.strategy_data_template[201027] = {
 		buff_id = 201027,
 		name = "Mikasa's Resolve",
 		desc = "\"I am the final line of defense! This is as close as you'll get!\" \nIncreases your ship's ACC and EVA by 5%. Supporting barrages will appear at regular intervals.",
@@ -3654,8 +3661,8 @@ The battle will initiate in challenge mode if a ship in your fleet has the Fargo
 		id = 201027,
 		icon = "200057",
 		arg = {}
-	},
-	[201029] = {
+	}
+	pg.base.strategy_data_template[201029] = {
 		buff_id = 201029,
 		name = "Kaga's Duty",
 		desc = "\"Even if it means dooming myself to hell, I will protect you to the bitter end.\"\nSupporting barrages will appear at regular intervals. The effects of the Shrouded Crimson Realm modifier are negated.",
@@ -3665,8 +3672,8 @@ The battle will initiate in challenge mode if a ship in your fleet has the Fargo
 		id = 201029,
 		icon = "201029",
 		arg = {}
-	},
-	[201090] = {
+	}
+	pg.base.strategy_data_template[201090] = {
 		buff_id = 201090,
 		name = "World Segment",
 		desc = "During battle, your Main Fleet ships take 20% less Burn DMG and their EVA increases by 5%.\nIf your fleet consists of 4 or more Sakura Empire ships, supporting barrages will fire 15s after the battle starts.",
@@ -3676,8 +3683,8 @@ The battle will initiate in challenge mode if a ship in your fleet has the Fargo
 		id = 201090,
 		icon = "201090",
 		arg = {}
-	},
-	[201094] = {
+	}
+	pg.base.strategy_data_template[201094] = {
 		buff_id = 201094,
 		name = "Naraka's Depths",
 		desc = "During battle, your META ships deal 10% more DMG and receive 10% additional healing, but all non-META ships take 5% more DMG and receive 8% less healing.",
@@ -3687,8 +3694,8 @@ The battle will initiate in challenge mode if a ship in your fleet has the Fargo
 		id = 201094,
 		icon = "201094",
 		arg = {}
-	},
-	[201097] = {
+	}
+	pg.base.strategy_data_template[201097] = {
 		buff_id = 201097,
 		name = "Twinflamed Inferno",
 		desc = "During battle, supporting barrages will be launched, inflicting all enemies hit with a special Burn ailment that deals DMG based on their max HP.",
@@ -3698,8 +3705,8 @@ The battle will initiate in challenge mode if a ship in your fleet has the Fargo
 		id = 201097,
 		icon = "201097",
 		arg = {}
-	},
-	[201100] = {
+	}
+	pg.base.strategy_data_template[201100] = {
 		buff_id = 0,
 		name = "Challenge Mode",
 		desc = [[
@@ -3714,8 +3721,8 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		id = 201100,
 		icon = "200908",
 		arg = {}
-	},
-	[201149] = {
+	}
+	pg.base.strategy_data_template[201149] = {
 		buff_id = 201149,
 		name = "Howling Storm",
 		desc = "The fleet has entered the storm. All non-Tempesta ships have their SPD decreased by 3 and EVA decreased by 5.0%. Tempesta ships deal 10.0% more DMG.",
@@ -3725,8 +3732,8 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		id = 201149,
 		icon = "200627",
 		arg = {}
-	},
-	[201152] = {
+	}
+	pg.base.strategy_data_template[201152] = {
 		buff_id = 201152,
 		name = "Silent Sea",
 		desc = "The fleet has entered the Sleeping Sea. The HP recovery effects of all non-Tempesta ships are 10.0% less potent. Tempesta ships take 10.0% less DMG.",
@@ -3736,8 +3743,8 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		id = 201152,
 		icon = "201152",
 		arg = {}
-	},
-	[201155] = {
+	}
+	pg.base.strategy_data_template[201155] = {
 		buff_id = 201155,
 		name = "Mercy of the Goddess",
 		desc = "25s after the battle begins: your fleet gains supporting barrages and recovers HP gradually over 15s.",
@@ -3747,8 +3754,8 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		id = 201155,
 		icon = "201155",
 		arg = {}
-	},
-	[201157] = {
+	}
+	pg.base.strategy_data_template[201157] = {
 		buff_id = 201157,
 		name = "Fancy's Might",
 		desc = "Fancy is supporting your fleet. At regular intervals, her tentacles will attack a random enemy and inflict Armor Break.",
@@ -3758,8 +3765,8 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		id = 201157,
 		icon = "201157",
 		arg = {}
-	},
-	[201158] = {
+	}
+	pg.base.strategy_data_template[201158] = {
 		buff_id = 0,
 		name = "Challenge Mode",
 		desc = [[
@@ -3773,8 +3780,8 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		id = 201158,
 		icon = "200908",
 		arg = {}
-	},
-	[201193] = {
+	}
+	pg.base.strategy_data_template[201193] = {
 		buff_id = 201193,
 		name = "Beneath the Stars",
 		desc = "Everything is clear under the starry sky. \nDuring battle, enemy barrages will descend on your fleet from above at irregular intervals.",
@@ -3784,8 +3791,8 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		id = 201193,
 		icon = "201193",
 		arg = {}
-	},
-	[201194] = {
+	}
+	pg.base.strategy_data_template[201194] = {
 		buff_id = 201194,
 		name = "IB-50 Pterosaurs",
 		desc = "During battle, the Resistance HQ provides your fleet with support from Pterosaur ornithopters.",
@@ -3795,8 +3802,10 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		id = 201194,
 		icon = "201194",
 		arg = {}
-	},
-	[201197] = {
+	}
+end)()
+(function ()
+	pg.base.strategy_data_template[201197] = {
 		buff_id = 201197,
 		name = "Eternal Star",
 		desc = "During battle, the Eternal Stars provide support at regular intervals. They inflict DMG and Armor Break to enemies hit.",
@@ -3806,8 +3815,8 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		id = 201197,
 		icon = "201197",
 		arg = {}
-	},
-	[201198] = {
+	}
+	pg.base.strategy_data_template[201198] = {
 		buff_id = 0,
 		name = "Extradimensional Horde",
 		desc = "The horde of extradimensionals has come. Such is their might that the line between sea and sky blurs. \nExtradimensionals cannot take Burning DMG. Outside of Clearing Mode, enemy fleets will pursue you on the map.",
@@ -3817,8 +3826,8 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		id = 201198,
 		icon = "201198",
 		arg = {}
-	},
-	[201199] = {
+	}
+	pg.base.strategy_data_template[201199] = {
 		buff_id = 0,
 		name = "Challenge Mode",
 		desc = [[
@@ -3832,8 +3841,8 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		id = 201199,
 		icon = "200908",
 		arg = {}
-	},
-	[201250] = {
+	}
+	pg.base.strategy_data_template[201250] = {
 		buff_id = 201250,
 		name = "Challenge Mode",
 		desc = [[
@@ -3848,8 +3857,8 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		id = 201250,
 		icon = "200908",
 		arg = {}
-	},
-	[201270] = {
+	}
+	pg.base.strategy_data_template[201270] = {
 		buff_id = 201270,
 		name = "Lattice of God's Light",
 		desc = "Once per battle, God's Light produces a shock wave that affects both foes and allies.\nIf the target is a Sardegna Empire unit: said unit recovers a little HP.\nIf not: said unit's EVA and SPD decreases for a while.",
@@ -3859,8 +3868,8 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		id = 201270,
 		icon = "201270",
 		arg = {}
-	},
-	[201276] = {
+	}
+	pg.base.strategy_data_template[201276] = {
 		buff_id = 201276,
 		name = "Domain of Eternal Night",
 		desc = "During battle, the Banner of Eternal Night affects both foes and allies.\nIf the target is a META unit: said unit's DMG dealt increases.\nIf not: said unit's ACC decreases slightly and their burn DMG taken increases.",
@@ -3870,8 +3879,8 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		id = 201276,
 		icon = "201276",
 		arg = {}
-	},
-	[201281] = {
+	}
+	pg.base.strategy_data_template[201281] = {
 		buff_id = 201281,
 		name = "Mode Change Area of The Chariot",
 		desc = "MECHArbiter: The Chariot VII dominates the battlefield.\nSiren units gain the Overclocked Shooting buff, i.e. RLD increases gradually as time passes.\nOther units have their DMG taken increased slightly.",
@@ -3881,8 +3890,8 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		id = 201281,
 		icon = "201281",
 		arg = {}
-	},
-	[201287] = {
+	}
+	pg.base.strategy_data_template[201287] = {
 		buff_id = 201287,
 		name = "Aerial Support",
 		desc = "During battle, your fleet receives aerial support.",
@@ -3892,8 +3901,8 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		id = 201287,
 		icon = "201287",
 		arg = {}
-	},
-	[201301] = {
+	}
+	pg.base.strategy_data_template[201301] = {
 		buff_id = 201315,
 		name = "Regular Patrols",
 		desc = "Additional enemies will appear during battle.",
@@ -3903,8 +3912,8 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		id = 201301,
 		icon = "201301",
 		arg = {}
-	},
-	[201302] = {
+	}
+	pg.base.strategy_data_template[201302] = {
 		buff_id = 201316,
 		name = "Suspicious Shadows",
 		desc = "Enemy submarines will appear during battle.",
@@ -3914,8 +3923,8 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		id = 201302,
 		icon = "201302",
 		arg = {}
-	},
-	[201303] = {
+	}
+	pg.base.strategy_data_template[201303] = {
 		buff_id = 201317,
 		name = "Strange Noises",
 		desc = "At regular intervals during battle, your fleet's SPD and ACC decreases.",
@@ -3925,8 +3934,8 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		id = 201303,
 		icon = "201303",
 		arg = {}
-	},
-	[201304] = {
+	}
+	pg.base.strategy_data_template[201304] = {
 		buff_id = 201322,
 		name = "Visitor Restrictions",
 		desc = "For 30s after the battle starts, your fleet's DMG dealt decreases slightly.",
@@ -3936,8 +3945,8 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		id = 201304,
 		icon = "201304",
 		arg = {}
-	},
-	[201305] = {
+	}
+	pg.base.strategy_data_template[201305] = {
 		buff_id = 201323,
 		name = "Special Doctor's Interview",
 		desc = "Every 3s during battle, the ship in your fleet with the highest HP percentage loses a little HP.",
@@ -3947,8 +3956,8 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		id = 201305,
 		icon = "201305",
 		arg = {}
-	},
-	[201306] = {
+	}
+	pg.base.strategy_data_template[201306] = {
 		buff_id = 201326,
 		name = "Alluring Cherry Tree",
 		desc = "Enemy supporting barrages will appear during battle.",
@@ -3958,8 +3967,8 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		id = 201306,
 		icon = "201306",
 		arg = {}
-	},
-	[201307] = {
+	}
+	pg.base.strategy_data_template[201307] = {
 		buff_id = 201327,
 		name = "Security Alerts",
 		desc = "Enemy supporting barrages will appear during battle.",
@@ -3969,8 +3978,8 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		id = 201307,
 		icon = "201307",
 		arg = {}
-	},
-	[201308] = {
+	}
+	pg.base.strategy_data_template[201308] = {
 		buff_id = 201328,
 		name = "Endless Corridor",
 		desc = "All enemies except the enemy Flagship restore some of their HP at regular intervals. Exploration Count +1.",
@@ -3980,8 +3989,8 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		id = 201308,
 		icon = "201308",
 		arg = {}
-	},
-	[201309] = {
+	}
+	pg.base.strategy_data_template[201309] = {
 		buff_id = 201332,
 		name = "Underground Area Investigation",
 		desc = "You explored additional areas during your investigation. Exploration Count +1.",
@@ -3991,8 +4000,8 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		id = 201309,
 		icon = "201309",
 		arg = {}
-	},
-	[201310] = {
+	}
+	pg.base.strategy_data_template[201310] = {
 		buff_id = 201401,
 		name = "Nurse Station Investigation",
 		desc = "You explored additional areas during your investigation. Exploration Count +1.",
@@ -4002,8 +4011,8 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		id = 201310,
 		icon = "201310",
 		arg = {}
-	},
-	[201311] = {
+	}
+	pg.base.strategy_data_template[201311] = {
 		buff_id = 201402,
 		name = "Sickroom Investigation",
 		desc = "You explored additional areas during your investigation. Exploration Count +1.",
@@ -4013,8 +4022,8 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		id = 201311,
 		icon = "201311",
 		arg = {}
-	},
-	[201312] = {
+	}
+	pg.base.strategy_data_template[201312] = {
 		buff_id = 201403,
 		name = "Forest Investigation",
 		desc = "You explored additional areas during your investigation. Exploration Count +1.",
@@ -4024,8 +4033,8 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		id = 201312,
 		icon = "201312",
 		arg = {}
-	},
-	[201313] = {
+	}
+	pg.base.strategy_data_template[201313] = {
 		buff_id = 201404,
 		name = "Garden Investigation",
 		desc = "You explored additional areas during your investigation. Exploration Count +1.",
@@ -4035,8 +4044,8 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		id = 201313,
 		icon = "201313",
 		arg = {}
-	},
-	[201314] = {
+	}
+	pg.base.strategy_data_template[201314] = {
 		buff_id = 201332,
 		name = "RC Underground Investigation",
 		desc = "You explored additional areas during your investigation. Exploration Count +1.",
@@ -4046,8 +4055,8 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		id = 201314,
 		icon = "201309",
 		arg = {}
-	},
-	[201315] = {
+	}
+	pg.base.strategy_data_template[201315] = {
 		buff_id = 201405,
 		name = "Main Entrance Investigation",
 		desc = "You explored additional areas during your investigation. Exploration Count +1.",
@@ -4057,8 +4066,8 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		id = 201315,
 		icon = "201315",
 		arg = {}
-	},
-	[201316] = {
+	}
+	pg.base.strategy_data_template[201316] = {
 		buff_id = 201406,
 		name = "Parking Lot Investigation",
 		desc = "You explored additional areas during your investigation. Exploration Count +1.",
@@ -4068,8 +4077,8 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		id = 201316,
 		icon = "201316",
 		arg = {}
-	},
-	[201317] = {
+	}
+	pg.base.strategy_data_template[201317] = {
 		buff_id = 201407,
 		name = "PL Underground Investigation",
 		desc = "You explored additional areas during your investigation. Exploration Count +1.",
@@ -4079,8 +4088,8 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		id = 201317,
 		icon = "201317",
 		arg = {}
-	},
-	[201318] = {
+	}
+	pg.base.strategy_data_template[201318] = {
 		buff_id = 201408,
 		name = "Guard Booth Investigation",
 		desc = "You explored additional areas during your investigation. Exploration Count +1.",
@@ -4090,8 +4099,8 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		id = 201318,
 		icon = "201318",
 		arg = {}
-	},
-	[201319] = {
+	}
+	pg.base.strategy_data_template[201319] = {
 		buff_id = 201409,
 		name = "Doctor's Office Investigation",
 		desc = "You explored additional areas during your investigation. Exploration Count +1.",
@@ -4101,8 +4110,8 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		id = 201319,
 		icon = "201319",
 		arg = {}
-	},
-	[201320] = {
+	}
+	pg.base.strategy_data_template[201320] = {
 		buff_id = 201405,
 		name = "Rear Entrance Investigation",
 		desc = "You explored additional areas during your investigation. Exploration Count +1.",
@@ -4112,8 +4121,8 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		id = 201320,
 		icon = "201315",
 		arg = {}
-	},
-	[201321] = {
+	}
+	pg.base.strategy_data_template[201321] = {
 		buff_id = 0,
 		name = "Area Investigation",
 		desc = [[
@@ -4128,8 +4137,8 @@ The following effects activate based on your Exploration Count on this stage:
 		id = 201321,
 		icon = "201321",
 		arg = {}
-	},
-	[201327] = {
+	}
+	pg.base.strategy_data_template[201327] = {
 		buff_id = 0,
 		name = "Challenge Mode",
 		desc = [[
@@ -4144,8 +4153,8 @@ The following effects activate based on your Exploration Count on this stage:
 		id = 201327,
 		icon = "200908",
 		arg = {}
-	},
-	[201361] = {
+	}
+	pg.base.strategy_data_template[201361] = {
 		buff_id = 201361,
 		name = "Toward Tulipa's Seas",
 		desc = "At regular intervals during battle, your ships will be granted a rotating shield that can block a certain number of enemy shells.\nWhen a Kingdom of Tulipa ship is granted this shield, she will recover a small amount of HP.",
@@ -4155,8 +4164,8 @@ The following effects activate based on your Exploration Count on this stage:
 		id = 201361,
 		icon = "201361",
 		arg = {}
-	},
-	[201365] = {
+	}
+	pg.base.strategy_data_template[201365] = {
 		buff_id = 201365,
 		name = "Dam Defense System",
 		desc = "During battle, coastal artillery located along the embankment will provide supporting fire.",
@@ -4166,8 +4175,8 @@ The following effects activate based on your Exploration Count on this stage:
 		id = 201365,
 		icon = "201365",
 		arg = {}
-	},
-	[201377] = {
+	}
+	pg.base.strategy_data_template[201377] = {
 		buff_id = 0,
 		name = "Class II Mimic Entity",
 		desc = "When ZLJVUKHYF LUAPAPLZ are defeated, ZLJVUKHYF LUAPAPLZ will be released, and provide nearby ZLJVUKHYF LUAPAPLZ with ZLJVUKHYF LUAPAPLZ.\n\nThe ZLJVUKHYF LUAPAPLZ see you. What are ZLJVUKHYF LUAPAPLZ?",
@@ -4177,8 +4186,8 @@ The following effects activate based on your Exploration Count on this stage:
 		id = 201377,
 		icon = "201377",
 		arg = {}
-	},
-	[201378] = {
+	}
+	pg.base.strategy_data_template[201378] = {
 		buff_id = 201378,
 		name = "Support – Luxwing Lion",
 		desc = "During battle, the Luxwing Lion will descend to provide support.",
@@ -4188,8 +4197,8 @@ The following effects activate based on your Exploration Count on this stage:
 		id = 201378,
 		icon = "201378",
 		arg = {}
-	},
-	[201382] = {
+	}
+	pg.base.strategy_data_template[201382] = {
 		buff_id = 201382,
 		name = "Support – Queen's Light",
 		desc = "During battle, the Queen's Light will provide support.",
@@ -4199,8 +4208,8 @@ The following effects activate based on your Exploration Count on this stage:
 		id = 201382,
 		icon = "201382",
 		arg = {}
-	},
-	[201386] = {
+	}
+	pg.base.strategy_data_template[201386] = {
 		buff_id = 201386,
 		name = "Support – Siren",
 		desc = "During battle, a hybrid Siren fleet under Compiler's control will provide support.",
@@ -4210,8 +4219,8 @@ The following effects activate based on your Exploration Count on this stage:
 		id = 201386,
 		icon = "201386",
 		arg = {}
-	},
-	[201410] = {
+	}
+	pg.base.strategy_data_template[201410] = {
 		buff_id = 201410,
 		name = "Support – Rose Tower",
 		desc = "The Rose Tower has deployed a protective barrier. During battle, allied ships will take slightly reduced damage.",
@@ -4221,8 +4230,8 @@ The following effects activate based on your Exploration Count on this stage:
 		id = 201410,
 		icon = "201410",
 		arg = {}
-	},
-	[201411] = {
+	}
+	pg.base.strategy_data_template[201411] = {
 		buff_id = 201411,
 		name = "Dampening – Rose Tower",
 		desc = "The Rose Tower has deployed a dampening barrier. During battle, allied ships will deal slightly reduced damage.",
@@ -4232,8 +4241,8 @@ The following effects activate based on your Exploration Count on this stage:
 		id = 201411,
 		icon = "201411",
 		arg = {}
-	},
-	[201461] = {
+	}
+	pg.base.strategy_data_template[201461] = {
 		buff_id = 0,
 		name = "Challenge Mode",
 		desc = "Note: <color=#ffc038>Adds will continuously spawn</color> until the boss appears. While the boss will appear after a certain amount of time, sinking enemy BBs and CVs early <color=#92fc63>will make the boss appear sooner</color>. Your Main Fleet will not take DMG even if the enemy reaches their side of the screen.",
@@ -4243,8 +4252,8 @@ The following effects activate based on your Exploration Count on this stage:
 		id = 201461,
 		icon = "200908",
 		arg = {}
-	},
-	[201462] = {
+	}
+	pg.base.strategy_data_template[201462] = {
 		buff_id = 0,
 		name = "Challenge Mode",
 		desc = [[
@@ -4263,8 +4272,8 @@ Your ships become briefly invulnerable after taking DMG.
 		id = 201462,
 		icon = "200908",
 		arg = {}
-	},
-	[201463] = {
+	}
+	pg.base.strategy_data_template[201463] = {
 		buff_id = 0,
 		name = "Challenge Conditions",
 		desc = "The boss has <color=#92fc63>2 forms, Black and White,</color> each with its own health and fighting style. In the Black form, <color=#92fc63>her DMG taken is set to 1</color>.\nOnce the boss has performed all her attacks in the current form, and as long as the other form has health remaining, she changes forms. When the boss' HP reaches 0 in the current form, she changes to the other, and upon doing so, she gains the <color=#92fc63>Berserk</color> status, increasing her DMG dealt and taken by 100.0% (in the Black form, her DMG taken is set to 2).",
@@ -4274,8 +4283,8 @@ Your ships become briefly invulnerable after taking DMG.
 		id = 201463,
 		icon = "200908",
 		arg = {}
-	},
-	[201464] = {
+	}
+	pg.base.strategy_data_template[201464] = {
 		buff_id = 0,
 		name = "Challenge Conditions",
 		desc = [[
@@ -4294,8 +4303,8 @@ Your ships become briefly invulnerable after taking DMG.
 		id = 201464,
 		icon = "200908",
 		arg = {}
-	},
-	[201515] = {
+	}
+	pg.base.strategy_data_template[201515] = {
 		buff_id = 201515,
 		name = "Psychotuning 1",
 		desc = "\"███ Removal: 22.8%\" \nIllusions of unknown origin have begun appearing in your field of vision.\nDuring battle, barrages that attack both friend and foe will appear.",
@@ -4305,8 +4314,8 @@ Your ships become briefly invulnerable after taking DMG.
 		id = 201515,
 		icon = "8918",
 		arg = {}
-	},
-	[201516] = {
+	}
+	pg.base.strategy_data_template[201516] = {
 		buff_id = 201515,
 		name = "Psychotuning 2",
 		desc = "\"███ Removal: 37.1%\" \nThe line between reality and fantasy has begun to blur.\nDuring battle, barrages that attack both friend and foe will appear.",
@@ -4316,8 +4325,8 @@ Your ships become briefly invulnerable after taking DMG.
 		id = 201516,
 		icon = "8919",
 		arg = {}
-	},
-	[201517] = {
+	}
+	pg.base.strategy_data_template[201517] = {
 		buff_id = 201515,
 		name = "Psychotuning 3",
 		desc = "\"███ Removal: 89.9%\" \nReality is fantasy, and fantasy is reality.\nDuring battle, barrages that attack both friend and foe will appear.",
@@ -4327,8 +4336,8 @@ Your ships become briefly invulnerable after taking DMG.
 		id = 201517,
 		icon = "8920",
 		arg = {}
-	},
-	[201519] = {
+	}
+	pg.base.strategy_data_template[201519] = {
 		buff_id = 201519,
 		name = "Amahara's Blessing - Chou",
 		desc = "Amahara's Blessed Boundary - Chou\nWhen your ships fire an arcing volley, launch an airstrike, or fire their torpedoes, a special butterfly barrage will be fired.",
@@ -4338,8 +4347,8 @@ Your ships become briefly invulnerable after taking DMG.
 		id = 201519,
 		icon = "201519",
 		arg = {}
-	},
-	[201525] = {
+	}
+	pg.base.strategy_data_template[201525] = {
 		buff_id = 201525,
 		name = "Amahara's Blessing - Hane",
 		desc = "Amahara's Blessed Boundary - Hane\nDuring battle, every 20s, a white phoenix will appear and support your fleet.",
@@ -4349,8 +4358,8 @@ Your ships become briefly invulnerable after taking DMG.
 		id = 201525,
 		icon = "201525",
 		arg = {}
-	},
-	[201530] = {
+	}
+	pg.base.strategy_data_template[201530] = {
 		buff_id = 201530,
 		name = "Amahara's Blessing - Uroko",
 		desc = "Amahara's Blessed Boundary - Uroko\nWhen the battle starts, a dragon will appear and support your fleet, then disappear after a while.",
@@ -4360,8 +4369,8 @@ Your ships become briefly invulnerable after taking DMG.
 		id = 201530,
 		icon = "201530",
 		arg = {}
-	},
-	[201531] = {
+	}
+	pg.base.strategy_data_template[201531] = {
 		buff_id = 0,
 		name = "Challenge Mode",
 		desc = "The Boss is joined in battle by red balls of light. The balls of light cannot inflict DMG, but they do continuously deploy scented smokescreens. As long as a ship is inside the scented smokescreen, it inflicts its effects on her: <color=#92fc63>her SPD will decrease and her DMG taken will increase the longer she remains in it. After being inside the smokescreen for a total of 1 second, she will gain the Woozy status, doubling her DMG taken and rendering her unable to attack or move</color> until the smokescreen vanishes.\nAfter exiting the smokescreen, the affected shipgirl loses its negative effects half as fast.",
@@ -4371,8 +4380,8 @@ Your ships become briefly invulnerable after taking DMG.
 		id = 201531,
 		icon = "200908",
 		arg = {}
-	},
-	[201532] = {
+	}
+	pg.base.strategy_data_template[201532] = {
 		buff_id = 0,
 		name = "Challenge Mode",
 		desc = [[
@@ -4391,8 +4400,8 @@ Your ships become briefly invulnerable after taking DMG.
 		id = 201532,
 		icon = "200908",
 		arg = {}
-	},
-	[201547] = {
+	}
+	pg.base.strategy_data_template[201547] = {
 		buff_id = 201547,
 		name = "Island Ruins Support",
 		desc = "Every 20s, your fleet receives supporting fire from the island ruins.",
@@ -4402,8 +4411,8 @@ Your ships become briefly invulnerable after taking DMG.
 		id = 201547,
 		icon = "201547",
 		arg = {}
-	},
-	[201550] = {
+	}
+	pg.base.strategy_data_template[201550] = {
 		buff_id = 201550,
 		name = "Island Ruins Support",
 		desc = "Every 20s, your fleet receives supporting fire from the island ruins.",
@@ -4413,8 +4422,8 @@ Your ships become briefly invulnerable after taking DMG.
 		id = 201550,
 		icon = "201547",
 		arg = {}
-	},
-	[201551] = {
+	}
+	pg.base.strategy_data_template[201551] = {
 		buff_id = 0,
 		name = "Challenge Mode",
 		desc = [[
@@ -4431,8 +4440,8 @@ Lyme aims to eliminate "unfair" elements from the battle:
 		id = 201551,
 		icon = "200908",
 		arg = {}
-	},
-	[201552] = {
+	}
+	pg.base.strategy_data_template[201552] = {
 		buff_id = 0,
 		name = "Challenge Mode",
 		desc = [[
@@ -4454,8 +4463,8 @@ Your ships become briefly invulnerable after taking DMG.
 		id = 201552,
 		icon = "200908",
 		arg = {}
-	},
-	[201650] = {
+	}
+	pg.base.strategy_data_template[201650] = {
 		buff_id = 0,
 		name = "Star Veil",
 		desc = "Under the Star Veil, some AFWL VUL TPTPJ LUAPAPLZ become AFWL ADV TPTPJ LUAPAPLZ, preventing the AFWL VUL TPTPJ LUAPAPLZ from receiving reinforcements and decreasing the probability of large enemy fleets appearing on the map.",
@@ -4465,8 +4474,8 @@ Your ships become briefly invulnerable after taking DMG.
 		id = 201650,
 		icon = "201650",
 		arg = {}
-	},
-	[201651] = {
+	}
+	pg.base.strategy_data_template[201651] = {
 		buff_id = 201651,
 		name = "Experimental Safety Management",
 		desc = "During the battle, Enforcers from the Arbiters will provide support.",
@@ -4476,8 +4485,8 @@ Your ships become briefly invulnerable after taking DMG.
 		id = 201651,
 		icon = "201651",
 		arg = {}
-	},
-	[201654] = {
+	}
+	pg.base.strategy_data_template[201654] = {
 		buff_id = 0,
 		name = "Challenge Mode",
 		desc = "The boss mimics 3 different types of enemies depending on what the boss' current HP is (<color=#92fc63>above 71%, below 70%, and below 40%</color>). The boss takes <color=#92fc63>50% less DMG</color> while in a mimic state.\nWhile in a mimic state, the boss' max HP is fixed. <color=#92fc63>When their HP is reduced to 0, the mimic state is dispelled, and then they regain it after 8s.</color>\nAdditionally, while in a mimic state, the boss' Armor Type becomes Heavy Armor; while not in this state, it becomes Light Armor.",
@@ -4487,8 +4496,8 @@ Your ships become briefly invulnerable after taking DMG.
 		id = 201654,
 		icon = "200908",
 		arg = {}
-	},
-	[201655] = {
+	}
+	pg.base.strategy_data_template[201655] = {
 		buff_id = 0,
 		name = "Challenge Mode",
 		desc = [[
@@ -4508,8 +4517,8 @@ Your ships become briefly invulnerable after taking DMG.
 		id = 201655,
 		icon = "200908",
 		arg = {}
-	},
-	[201701] = {
+	}
+	pg.base.strategy_data_template[201701] = {
 		buff_id = 201701,
 		name = "Riches Abound",
 		desc = "During battle, you receive supporting barrages with a sycee design.",
@@ -4519,8 +4528,8 @@ Your ships become briefly invulnerable after taking DMG.
 		id = 201701,
 		icon = "201701",
 		arg = {}
-	},
-	[201705] = {
+	}
+	pg.base.strategy_data_template[201705] = {
 		buff_id = 201705,
 		name = "Glowing Dishes!",
 		desc = [[
@@ -4534,8 +4543,8 @@ During battle, you receive the effects of one of three random dishes:
 		id = 201705,
 		icon = "201705",
 		arg = {}
-	},
-	[201706] = {
+	}
+	pg.base.strategy_data_template[201706] = {
 		buff_id = 0,
 		name = "Challenge Mode",
 		desc = "During battle, the boss fires large amounts of Go stones which cannot be destroyed.\nWhite Go stones inflict heavy DMG against ships with Light Armor, while black Go stones inflict heavy DMG against ships with Medium and Heavy Armor.",
@@ -4545,8 +4554,8 @@ During battle, you receive the effects of one of three random dishes:
 		id = 201706,
 		icon = "200908",
 		arg = {}
-	},
-	[201707] = {
+	}
+	pg.base.strategy_data_template[201707] = {
 		buff_id = 0,
 		name = "Challenge Mode",
 		desc = [[
@@ -4566,8 +4575,8 @@ Your ships become briefly invulnerable after taking DMG.
 		id = 201707,
 		icon = "200908",
 		arg = {}
-	},
-	[201741] = {
+	}
+	pg.base.strategy_data_template[201741] = {
 		buff_id = 0,
 		name = "Challenge Mode",
 		desc = [[
@@ -4581,8 +4590,8 @@ The boss is able to shoot down bombers easily.
 		id = 201741,
 		icon = "200908",
 		arg = {}
-	},
-	[201742] = {
+	}
+	pg.base.strategy_data_template[201742] = {
 		buff_id = 0,
 		name = "Challenge Mode",
 		desc = [[
@@ -4604,8 +4613,8 @@ The following gear or skills are rendered ineffective:
 		id = 201742,
 		icon = "200908",
 		arg = {}
-	},
-	[201743] = {
+	}
+	pg.base.strategy_data_template[201743] = {
 		buff_id = 0,
 		name = "Challenge Mode",
 		desc = [[
@@ -4623,8 +4632,8 @@ The following gear or skills are rendered ineffective:
 		id = 201743,
 		icon = "200908",
 		arg = {}
-	},
-	[205001] = {
+	}
+	pg.base.strategy_data_template[205001] = {
 		buff_id = 205001,
 		name = "活动关卡标志A",
 		desc = "仅用作标记",
@@ -4634,8 +4643,8 @@ The following gear or skills are rendered ineffective:
 		id = 205001,
 		icon = "",
 		arg = {}
-	},
-	[205002] = {
+	}
+	pg.base.strategy_data_template[205002] = {
 		buff_id = 205002,
 		name = "活动关卡标志B",
 		desc = "仅用作标记",
@@ -4645,8 +4654,8 @@ The following gear or skills are rendered ineffective:
 		id = 205002,
 		icon = "",
 		arg = {}
-	},
-	[205003] = {
+	}
+	pg.base.strategy_data_template[205003] = {
 		buff_id = 205003,
 		name = "活动关卡标志C",
 		desc = "仅用作标记",
@@ -4656,8 +4665,8 @@ The following gear or skills are rendered ineffective:
 		id = 205003,
 		icon = "",
 		arg = {}
-	},
-	[205004] = {
+	}
+	pg.base.strategy_data_template[205004] = {
 		buff_id = 205004,
 		name = "活动关卡标志D",
 		desc = "仅用作标记",
@@ -4667,8 +4676,8 @@ The following gear or skills are rendered ineffective:
 		id = 205004,
 		icon = "",
 		arg = {}
-	},
-	[205005] = {
+	}
+	pg.base.strategy_data_template[205005] = {
 		buff_id = 205005,
 		name = "活动关卡标志SP",
 		desc = "仅用作标记",
@@ -4678,8 +4687,8 @@ The following gear or skills are rendered ineffective:
 		id = 205005,
 		icon = "",
 		arg = {}
-	},
-	[205006] = {
+	}
+	pg.base.strategy_data_template[205006] = {
 		buff_id = 205006,
 		name = "活动关卡标志B3",
 		desc = "仅用作标记",
@@ -4689,8 +4698,8 @@ The following gear or skills are rendered ineffective:
 		id = 205006,
 		icon = "",
 		arg = {}
-	},
-	[205007] = {
+	}
+	pg.base.strategy_data_template[205007] = {
 		buff_id = 205007,
 		name = "活动关卡标志D3",
 		desc = "仅用作标记",
@@ -4700,8 +4709,8 @@ The following gear or skills are rendered ineffective:
 		id = 205007,
 		icon = "",
 		arg = {}
-	},
-	[300001] = {
+	}
+	pg.base.strategy_data_template[300001] = {
 		buff_id = 0,
 		name = "Core Level 1",
 		desc = "During battle, increases your ships' FP, AVI, and TRP by 3.0%.",
@@ -4711,8 +4720,8 @@ The following gear or skills are rendered ineffective:
 		id = 300001,
 		icon = "buff_yumia_1",
 		arg = {}
-	},
-	[300002] = {
+	}
+	pg.base.strategy_data_template[300002] = {
 		buff_id = 0,
 		name = "Core Level 2",
 		desc = "During battle, the ship with the lowest current HP percentage in your fleet recovers 1.0% HP every 15s.",
@@ -4722,8 +4731,8 @@ The following gear or skills are rendered ineffective:
 		id = 300002,
 		icon = "buff_yumia_2",
 		arg = {}
-	},
-	[300003] = {
+	}
+	pg.base.strategy_data_template[300003] = {
 		buff_id = 0,
 		name = "Core Level 3",
 		desc = "15s after the battle starts, and every 20s after that: your fleet receives supporting barrages; enemies hit by these barrages have their DMG taken increased by 3.0% for 8s.",
@@ -4733,8 +4742,8 @@ The following gear or skills are rendered ineffective:
 		id = 300003,
 		icon = "buff_yumia_3",
 		arg = {}
-	},
-	[300004] = {
+	}
+	pg.base.strategy_data_template[300004] = {
 		buff_id = 0,
 		name = "Core Level 4",
 		desc = "Increases the Affinity your ships earn from battles.",
@@ -4744,8 +4753,8 @@ The following gear or skills are rendered ineffective:
 		id = 300004,
 		icon = "buff_yumia_4",
 		arg = {}
-	},
-	[300005] = {
+	}
+	pg.base.strategy_data_template[300005] = {
 		buff_id = 0,
 		name = "Core Level 1",
 		desc = "During battle, increases your ships' FP, AVI, and TRP by 3.0%.",
@@ -4755,8 +4764,8 @@ The following gear or skills are rendered ineffective:
 		id = 300005,
 		icon = "buff_yumia_1",
 		arg = {}
-	},
-	[300006] = {
+	}
+	pg.base.strategy_data_template[300006] = {
 		buff_id = 0,
 		name = "Core Level 2",
 		desc = "During battle, the ship with the lowest current HP percentage in your fleet recovers 1.0% HP every 15s.",
@@ -4766,8 +4775,8 @@ The following gear or skills are rendered ineffective:
 		id = 300006,
 		icon = "buff_yumia_2",
 		arg = {}
-	},
-	[300007] = {
+	}
+	pg.base.strategy_data_template[300007] = {
 		buff_id = 0,
 		name = "Core Level 3",
 		desc = "15s after the battle starts, and every 20s after that: your fleet receives supporting barrages; enemies hit by these barrages have their DMG taken increased by 3.0% for 8s.",
@@ -4777,8 +4786,8 @@ The following gear or skills are rendered ineffective:
 		id = 300007,
 		icon = "buff_yumia_3",
 		arg = {}
-	},
-	[300008] = {
+	}
+	pg.base.strategy_data_template[300008] = {
 		buff_id = 0,
 		name = "Core Level 4",
 		desc = "Increases the Affinity your ships earn from battles.",
@@ -4788,8 +4797,8 @@ The following gear or skills are rendered ineffective:
 		id = 300008,
 		icon = "buff_yumia_4",
 		arg = {}
-	},
-	[300009] = {
+	}
+	pg.base.strategy_data_template[300009] = {
 		buff_id = 0,
 		name = "Core Level 1",
 		desc = "During battle, increases your ships' FP, AVI, and TRP by 3.0%.",
@@ -4799,8 +4808,8 @@ The following gear or skills are rendered ineffective:
 		id = 300009,
 		icon = "buff_yumia_1",
 		arg = {}
-	},
-	[300010] = {
+	}
+	pg.base.strategy_data_template[300010] = {
 		buff_id = 0,
 		name = "Core Level 2",
 		desc = "During battle, the ship with the lowest current HP percentage in your fleet recovers 1.0% HP every 15s.",
@@ -4810,8 +4819,8 @@ The following gear or skills are rendered ineffective:
 		id = 300010,
 		icon = "buff_yumia_2",
 		arg = {}
-	},
-	[300011] = {
+	}
+	pg.base.strategy_data_template[300011] = {
 		buff_id = 0,
 		name = "Core Level 3",
 		desc = "15s after the battle starts, and every 20s after that: your fleet receives supporting barrages; enemies hit by these barrages have their DMG taken increased by 3.0% for 8s.",
@@ -4821,8 +4830,8 @@ The following gear or skills are rendered ineffective:
 		id = 300011,
 		icon = "buff_yumia_3",
 		arg = {}
-	},
-	[300012] = {
+	}
+	pg.base.strategy_data_template[300012] = {
 		buff_id = 0,
 		name = "Core Level 4",
 		desc = "Increases the Affinity your ships earn from battles.",
@@ -4832,8 +4841,8 @@ The following gear or skills are rendered ineffective:
 		id = 300012,
 		icon = "buff_yumia_4",
 		arg = {}
-	},
-	[300013] = {
+	}
+	pg.base.strategy_data_template[300013] = {
 		buff_id = 0,
 		name = "Core Level 1",
 		desc = "During battle, increases your ships' FP, AVI, and TRP by 3.0%.",
@@ -4843,8 +4852,8 @@ The following gear or skills are rendered ineffective:
 		id = 300013,
 		icon = "buff_yumia_1",
 		arg = {}
-	},
-	[300014] = {
+	}
+	pg.base.strategy_data_template[300014] = {
 		buff_id = 0,
 		name = "Core Level 2",
 		desc = "During battle, the ship with the lowest current HP percentage in your fleet recovers 1.0% HP every 15s.",
@@ -4854,8 +4863,8 @@ The following gear or skills are rendered ineffective:
 		id = 300014,
 		icon = "buff_yumia_2",
 		arg = {}
-	},
-	[300015] = {
+	}
+	pg.base.strategy_data_template[300015] = {
 		buff_id = 0,
 		name = "Core Level 3",
 		desc = "15s after the battle starts, and every 20s after that: your fleet receives supporting barrages; enemies hit by these barrages have their DMG taken increased by 3.0% for 8s.",
@@ -4865,8 +4874,8 @@ The following gear or skills are rendered ineffective:
 		id = 300015,
 		icon = "buff_yumia_3",
 		arg = {}
-	},
-	[300016] = {
+	}
+	pg.base.strategy_data_template[300016] = {
 		buff_id = 0,
 		name = "Core Level 4",
 		desc = "Increases the Affinity your ships earn from battles.",
@@ -4876,8 +4885,8 @@ The following gear or skills are rendered ineffective:
 		id = 300016,
 		icon = "buff_yumia_4",
 		arg = {}
-	},
-	[300017] = {
+	}
+	pg.base.strategy_data_template[300017] = {
 		buff_id = 0,
 		name = "Core Level 1",
 		desc = "During battle, increases your ships' FP, AVI, and TRP by 3.0%.",
@@ -4887,8 +4896,8 @@ The following gear or skills are rendered ineffective:
 		id = 300017,
 		icon = "buff_yumia_1",
 		arg = {}
-	},
-	[300018] = {
+	}
+	pg.base.strategy_data_template[300018] = {
 		buff_id = 0,
 		name = "Core Level 2",
 		desc = "During battle, the ship with the lowest current HP percentage in your fleet recovers 1.0% HP every 15s.",
@@ -4898,8 +4907,8 @@ The following gear or skills are rendered ineffective:
 		id = 300018,
 		icon = "buff_yumia_2",
 		arg = {}
-	},
-	[300019] = {
+	}
+	pg.base.strategy_data_template[300019] = {
 		buff_id = 0,
 		name = "Core Level 3",
 		desc = "15s after the battle starts, and every 20s after that: your fleet receives supporting barrages; enemies hit by these barrages have their DMG taken increased by 3.0% for 8s.",
@@ -4909,8 +4918,8 @@ The following gear or skills are rendered ineffective:
 		id = 300019,
 		icon = "buff_yumia_3",
 		arg = {}
-	},
-	[300020] = {
+	}
+	pg.base.strategy_data_template[300020] = {
 		buff_id = 0,
 		name = "Core Level 4",
 		desc = "Increases the Affinity your ships earn from battles.",
@@ -4921,4 +4930,4 @@ The following gear or skills are rendered ineffective:
 		icon = "buff_yumia_4",
 		arg = {}
 	}
-}
+end)()

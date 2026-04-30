@@ -1,6 +1,39 @@
 pg = pg or {}
-pg.settings_other_template = {
-	{
+pg.settings_other_template = rawget(pg, "settings_other_template") or setmetatable({
+	__name = "settings_other_template"
+}, confNEO)
+pg.settings_other_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25
+}
+pg.base = pg.base or {}
+pg.base.settings_other_template = {}
+
+(function ()
+	pg.base.settings_other_template[1] = {
 		default = 0,
 		name = "",
 		alignment = 0,
@@ -8,8 +41,8 @@ pg.settings_other_template = {
 		id = 1,
 		title = "Custom Ship Names",
 		desc = "When toggled ON, displays the custom names that other commanders have given their ships."
-	},
-	{
+	}
+	pg.base.settings_other_template[2] = {
 		default = 0,
 		name = "AUTO_BATTLE_LABEL",
 		alignment = 0,
@@ -17,8 +50,8 @@ pg.settings_other_template = {
 		id = 2,
 		title = "Combat End Notification",
 		desc = "When toggled ON, your device will vibrate after completing a battle in Auto mode."
-	},
-	{
+	}
+	pg.base.settings_other_template[3] = {
 		default = 1,
 		name = "RARE_SHIP_VIBRATE",
 		alignment = 0,
@@ -26,8 +59,8 @@ pg.settings_other_template = {
 		id = 3,
 		title = "New Ship Notification",
 		desc = "When toggled ON, your device will vibrate when obtaining a ship of SR rarity or higher."
-	},
-	{
+	}
+	pg.base.settings_other_template[4] = {
 		default = 1,
 		name = "DISPLAY_SHIP_GET_EFFECT",
 		alignment = 0,
@@ -35,8 +68,8 @@ pg.settings_other_template = {
 		id = 4,
 		title = "Duplicate Ship Display",
 		desc = "When toggled OFF, skips the acquisition screen when obtaining a Rare or Common ship already registered in your collection."
-	},
-	{
+	}
+	pg.base.settings_other_template[5] = {
 		default = 1,
 		name = "SHOW_TOUCH_EFFECT",
 		alignment = 0,
@@ -44,8 +77,8 @@ pg.settings_other_template = {
 		id = 5,
 		title = "Display Tap Marker",
 		desc = "When toggled ON, displays a sparkle effect when you tap on the screen."
-	},
-	{
+	}
+	pg.base.settings_other_template[6] = {
 		default = 0,
 		name = "BG_FIT_MODE",
 		alignment = 0,
@@ -53,8 +86,8 @@ pg.settings_other_template = {
 		id = 6,
 		title = "Auto-Adjust Load Screen Aspect Ratio",
 		desc = "When toggled ON, your device's aspect ratio will be automatically applied to the display of loading screens."
-	},
-	{
+	}
+	pg.base.settings_other_template[7] = {
 		default = 1,
 		name = "BATTLE_HIDE_BG",
 		alignment = 0,
@@ -62,8 +95,8 @@ pg.settings_other_template = {
 		id = 7,
 		title = "Hide Skin Backgrounds",
 		desc = "When toggled ON, hides the background art of skins during combat."
-	},
-	{
+	}
+	pg.base.settings_other_template[8] = {
 		default = 0,
 		name = "BATTLE_EXPOSE_LINE",
 		alignment = 1,
@@ -96,8 +129,8 @@ Each carrier has a separate Detection Gauge, and the higher their EVA stat, the 
 The Detection Gauge During Exercises:
 The Detection Gauge will not decrease in Exercise Battles. Additionally, once the opponent's fleet gets near enough to your Main Fleet, all of your carriers will enter the Detected state.
 ]]
-	},
-	{
+	}
+	pg.base.settings_other_template[9] = {
 		default = 0,
 		name = "AUTOFIGHT_BATTERY_SAVEMODE",
 		alignment = 0,
@@ -105,8 +138,8 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 		id = 9,
 		title = "Auto-Search Battery Saver",
 		desc = "When toggled ON, reduces screen brightness 20 seconds after starting Auto-Search."
-	},
-	{
+	}
+	pg.base.settings_other_template[10] = {
 		default = 0,
 		name = "AUTOFIGHT_DOWN_FRAME",
 		alignment = 0,
@@ -114,8 +147,8 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 		id = 10,
 		title = "Auto-Search FPS Reduction",
 		desc = "When toggled ON, reduces game FPS when battery saver mode is active."
-	},
-	{
+	}
+	pg.base.settings_other_template[11] = {
 		default = 1,
 		name = "ALLOW_FIREND_VISIT_BACKYARD_FLAG",
 		alignment = 0,
@@ -123,8 +156,8 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 		id = 11,
 		title = "Allow Dorm Visitors",
 		desc = "When toggled ON, your friends will be able to visit your Dorm."
-	},
-	{
+	}
+	pg.base.settings_other_template[12] = {
 		default = 0,
 		name = "SHOW_FIREND_BACKYARD_SHIP_FLAG",
 		alignment = 0,
@@ -132,8 +165,8 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 		id = 12,
 		title = "Display Visitor Secretary",
 		desc = "When toggled ON, displays the secretary of friends visiting your Dorm."
-	},
-	{
+	}
+	pg.base.settings_other_template[13] = {
 		default = 0,
 		name = "SHOW_MY_BACKYARD_SHIP_FLAG",
 		alignment = 0,
@@ -141,8 +174,8 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 		id = 13,
 		title = "Display Secretary when Visiting",
 		desc = "When toggled ON, your friends will be able to see your secretary ship after you visit their Dorm."
-	},
-	{
+	}
+	pg.base.settings_other_template[14] = {
 		default = 0,
 		name = "QUICK_CHANGE_EQUIP",
 		alignment = 0,
@@ -150,8 +183,8 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 		id = 14,
 		title = "Display Quick-Switch Prompt ",
 		desc = "When toggled ON, gives a confirmation prompt when you're quick-switching gear. "
-	},
-	{
+	}
+	pg.base.settings_other_template[15] = {
 		default = 1,
 		name = "GYRO_ENABLE",
 		alignment = 0,
@@ -159,8 +192,8 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 		id = 15,
 		title = "L2D Gyroscope Functionality",
 		desc = "When toggled ON, some L2D animations will react to your device's gyroscopic sensor."
-	},
-	{
+	}
+	pg.base.settings_other_template[16] = {
 		default = 1,
 		name = "SHIP_NAME_COLOR",
 		alignment = 0,
@@ -168,8 +201,8 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 		id = 16,
 		title = "Change Oathed Ship Name Color",
 		desc = "When toggled ON, changes the font color of the names of oathed ships."
-	},
-	{
+	}
+	pg.base.settings_other_template[17] = {
 		default = 1,
 		name = "BATTLERESULT_DISPAY_PAINTING",
 		alignment = 0,
@@ -177,8 +210,8 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 		id = 17,
 		title = "Display Battle Result Cutscene",
 		desc = "When toggled ON, battle result screen will show extra cutscene."
-	},
-	{
+	}
+	pg.base.settings_other_template[18] = {
 		default = 0,
 		name = "LIVE2D_STATUS_SAVE",
 		alignment = 0,
@@ -186,8 +219,8 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 		id = 18,
 		title = "Fixed L2D Settings",
 		desc = "When toggled ON, the display state of L2D skins on the home screen will be set to standby, and the \"Login\" and \"Return to Port\" animations will no longer play when navigating to the home screen."
-	},
-	{
+	}
+	pg.base.settings_other_template[19] = {
 		default = 1,
 		name = "USAGE_NEW_MAINUI",
 		alignment = 0,
@@ -195,8 +228,8 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 		id = 19,
 		title = "Use New Main Menu UI",
 		desc = "When toggled ON, the main menu will use the new user interface."
-	},
-	{
+	}
+	pg.base.settings_other_template[20] = {
 		default = 1,
 		name = "MAINUI_NEVER_SLEEP",
 		alignment = 0,
@@ -204,8 +237,8 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 		id = 20,
 		title = "No Sleep Mode On Main Menu",
 		desc = "When toggled ON, sleep mode will not be triggered while you are on the main menu."
-	},
-	{
+	}
+	pg.base.settings_other_template[21] = {
 		default = 0,
 		name = "MAINUI_RESET_L2D",
 		alignment = 0,
@@ -213,8 +246,8 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 		id = 21,
 		title = "Show L2D Reset Button",
 		desc = "When toggled ON, a L2D reset button will appear on the main menu."
-	},
-	{
+	}
+	pg.base.settings_other_template[22] = {
 		default = 0,
 		name = "LOCK_NEW_SHIP",
 		alignment = 0,
@@ -222,8 +255,8 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 		id = 22,
 		title = "Automatically Lock New Characters",
 		desc = "When enabled, shipgirls who are newly-acquired for the first time will automatically be locked."
-	},
-	{
+	}
+	pg.base.settings_other_template[23] = {
 		default = 1,
 		name = "ISLAND_NOTIFYCATION",
 		alignment = 0,
@@ -231,8 +264,8 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 		id = 23,
 		title = "Island Visitor Notification",
 		desc = "Toggle this setting ON to get push notifications when another player visits your Island."
-	},
-	{
+	}
+	pg.base.settings_other_template[24] = {
 		default = 0,
 		name = "GRAPHI_API_SWITCH_OPTION",
 		alignment = 0,
@@ -240,8 +273,8 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 		id = 24,
 		title = "Rendering Compatibility Mode",
 		desc = "When toggled ON, this can reduce some bugs where the screen turns black under certain circumstances."
-	},
-	{
+	}
+	pg.base.settings_other_template[25] = {
 		default = 1,
 		name = "REMOVE_LOW_MOOD",
 		alignment = 0,
@@ -249,32 +282,5 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 		id = 25,
 		title = "Skip Low Morale Ships in Auto Formation",
 		desc = "When toggled ON, shipgirls at low Morale will be automatically excluded when creating a suggested formation."
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25
 	}
-}
+end)()

@@ -1,6 +1,196 @@
 pg = pg or {}
-pg.world_item_data_template = {
-	[100] = {
+pg.world_item_data_template = rawget(pg, "world_item_data_template") or setmetatable({
+	__name = "world_item_data_template"
+}, confNEO)
+pg.world_item_data_template.all = {
+	100,
+	101,
+	102,
+	103,
+	104,
+	105,
+	110,
+	120,
+	201,
+	202,
+	203,
+	204,
+	205,
+	206,
+	251,
+	252,
+	253,
+	301,
+	302,
+	303,
+	304,
+	305,
+	306,
+	2002,
+	2003,
+	2004,
+	2005,
+	2006,
+	2014,
+	2015,
+	2016,
+	2050,
+	2051,
+	2052,
+	2053,
+	2054,
+	2055,
+	2056,
+	2057,
+	2058,
+	2059,
+	2101,
+	2102,
+	2103,
+	2111,
+	2112,
+	2113,
+	2114,
+	2115,
+	2116,
+	2117,
+	2118,
+	2119,
+	2120,
+	2121,
+	2122,
+	100011,
+	100012,
+	100013,
+	100014,
+	100021,
+	100023,
+	100024,
+	100025,
+	100031,
+	100032,
+	100033,
+	100034,
+	100041,
+	100042,
+	100043,
+	100051,
+	100052,
+	100053,
+	100054,
+	100061,
+	100062,
+	100063,
+	100064,
+	100065,
+	100066,
+	100071,
+	100072,
+	100073,
+	100081,
+	100082,
+	100083,
+	100084,
+	100085,
+	100091,
+	100092,
+	100093,
+	100094,
+	100095,
+	100101,
+	100102,
+	100103,
+	100104,
+	100105,
+	100106,
+	100111,
+	100112,
+	100113,
+	100114,
+	100121,
+	100122,
+	100123,
+	100124,
+	100125,
+	100131,
+	100132,
+	100133,
+	100134,
+	100135,
+	100141,
+	100142,
+	100143,
+	100144,
+	100151,
+	100152,
+	100153,
+	100155,
+	100156,
+	100157,
+	100158,
+	100159,
+	110011,
+	110012,
+	110013,
+	110014,
+	110042,
+	110051,
+	110052,
+	110053,
+	110054,
+	110061,
+	110063,
+	110064,
+	110071,
+	110072,
+	110073,
+	110082,
+	110085,
+	110091,
+	110101,
+	110102,
+	110103,
+	110104,
+	110106,
+	110121,
+	110124,
+	110142,
+	110144,
+	110151,
+	110152,
+	110153,
+	110155,
+	110156,
+	110157,
+	110158,
+	110159,
+	2000000,
+	2000001,
+	2000002,
+	2000003,
+	2000004,
+	2000005,
+	2000006,
+	2000007,
+	2000008,
+	2000009,
+	2100001,
+	2100002,
+	2100003,
+	2100011,
+	2100012,
+	2100013,
+	2100014,
+	2100015,
+	2100021,
+	2100022,
+	2100030
+}
+pg.base = pg.base or {}
+pg.base.world_item_data_template = {}
+
+(function ()
+	pg.base.world_item_data_template[100] = {
 		item_transform_item_type = 1,
 		name = "Operation Supply Coins",
 		item_transform_item_id = 3002,
@@ -26,8 +216,8 @@ pg.world_item_data_template = {
 			6,
 			7
 		}
-	},
-	[101] = {
+	}
+	pg.base.world_item_data_template[101] = {
 		item_transform_item_type = 1,
 		name = "Special Item Tokens",
 		item_transform_item_id = 3002,
@@ -55,8 +245,8 @@ pg.world_item_data_template = {
 			10,
 			11
 		}
-	},
-	[102] = {
+	}
+	pg.base.world_item_data_template[102] = {
 		item_transform_item_type = 0,
 		name = "Operation Siren Data Logger",
 		item_transform_item_id = 0,
@@ -77,8 +267,8 @@ pg.world_item_data_template = {
 		item_origin = {
 			101
 		}
-	},
-	[103] = {
+	}
+	pg.base.world_item_data_template[103] = {
 		item_transform_item_type = 1,
 		name = "Arbiter Battle Reward Crate (S)",
 		item_transform_item_id = 3002,
@@ -99,8 +289,8 @@ pg.world_item_data_template = {
 		item_origin = {
 			12
 		}
-	},
-	[104] = {
+	}
+	pg.base.world_item_data_template[104] = {
 		item_transform_item_type = 1,
 		name = "Arbiter Battle Reward Crate (M)",
 		item_transform_item_id = 3002,
@@ -121,8 +311,8 @@ pg.world_item_data_template = {
 		item_origin = {
 			12
 		}
-	},
-	[105] = {
+	}
+	pg.base.world_item_data_template[105] = {
 		item_transform_item_type = 1,
 		name = "Arbiter Battle Reward Crate (L)",
 		item_transform_item_id = 3002,
@@ -143,8 +333,8 @@ pg.world_item_data_template = {
 		item_origin = {
 			12
 		}
-	},
-	[110] = {
+	}
+	pg.base.world_item_data_template[110] = {
 		item_transform_item_type = 1,
 		name = "Energy Storage Device",
 		item_transform_item_id = 3002,
@@ -168,8 +358,8 @@ pg.world_item_data_template = {
 			4,
 			7
 		}
-	},
-	[120] = {
+	}
+	pg.base.world_item_data_template[120] = {
 		item_transform_item_type = 0,
 		name = "Hidden Zone Data Logger",
 		item_transform_item_id = 0,
@@ -192,8 +382,8 @@ pg.world_item_data_template = {
 		item_origin = {
 			101
 		}
-	},
-	[201] = {
+	}
+	pg.base.world_item_data_template[201] = {
 		item_transform_item_type = 0,
 		name = "Emergency Repair Pack",
 		item_transform_item_id = 0,
@@ -220,8 +410,8 @@ pg.world_item_data_template = {
 			4,
 			7
 		}
-	},
-	[202] = {
+	}
+	pg.base.world_item_data_template[202] = {
 		item_transform_item_type = 0,
 		name = "Complete Repair Pack",
 		item_transform_item_id = 0,
@@ -247,8 +437,8 @@ pg.world_item_data_template = {
 			201,
 			4
 		}
-	},
-	[203] = {
+	}
+	pg.base.world_item_data_template[203] = {
 		item_transform_item_type = 0,
 		name = "Triple Emergency Repair Pack",
 		item_transform_item_id = 0,
@@ -275,8 +465,8 @@ pg.world_item_data_template = {
 			4,
 			7
 		}
-	},
-	[204] = {
+	}
+	pg.base.world_item_data_template[204] = {
 		item_transform_item_type = 0,
 		name = "Triple Complete Repair Pack",
 		item_transform_item_id = 0,
@@ -302,8 +492,8 @@ pg.world_item_data_template = {
 			201,
 			4
 		}
-	},
-	[205] = {
+	}
+	pg.base.world_item_data_template[205] = {
 		item_transform_item_type = 0,
 		name = "Full Emergency Repair Pack",
 		item_transform_item_id = 0,
@@ -330,8 +520,8 @@ pg.world_item_data_template = {
 			4,
 			7
 		}
-	},
-	[206] = {
+	}
+	pg.base.world_item_data_template[206] = {
 		item_transform_item_type = 0,
 		name = "Full Complete Repair Pack",
 		item_transform_item_id = 0,
@@ -358,8 +548,8 @@ pg.world_item_data_template = {
 			4,
 			10
 		}
-	},
-	[251] = {
+	}
+	pg.base.world_item_data_template[251] = {
 		item_transform_item_type = 0,
 		name = "Action Point Refill (S)",
 		item_transform_item_id = 0,
@@ -384,8 +574,8 @@ pg.world_item_data_template = {
 			201,
 			3
 		}
-	},
-	[252] = {
+	}
+	pg.base.world_item_data_template[252] = {
 		item_transform_item_type = 0,
 		name = "Action Point Refill (M)",
 		item_transform_item_id = 0,
@@ -410,8 +600,8 @@ pg.world_item_data_template = {
 			201,
 			3
 		}
-	},
-	[253] = {
+	}
+	pg.base.world_item_data_template[253] = {
 		item_transform_item_type = 0,
 		name = "Action Point Refill (L)",
 		item_transform_item_id = 0,
@@ -435,8 +625,8 @@ pg.world_item_data_template = {
 			100,
 			201
 		}
-	},
-	[301] = {
+	}
+	pg.base.world_item_data_template[301] = {
 		item_transform_item_type = 0,
 		name = "Tuning Sample - Offense",
 		item_transform_item_id = 0,
@@ -460,8 +650,8 @@ pg.world_item_data_template = {
 		item_origin = {
 			100
 		}
-	},
-	[302] = {
+	}
+	pg.base.world_item_data_template[302] = {
 		item_transform_item_type = 0,
 		name = "Tuning Sample - Survivability",
 		item_transform_item_id = 0,
@@ -485,8 +675,8 @@ pg.world_item_data_template = {
 		item_origin = {
 			100
 		}
-	},
-	[303] = {
+	}
+	pg.base.world_item_data_template[303] = {
 		item_transform_item_type = 0,
 		name = "Tuning Sample - Tactics",
 		item_transform_item_id = 0,
@@ -510,8 +700,8 @@ pg.world_item_data_template = {
 		item_origin = {
 			100
 		}
-	},
-	[304] = {
+	}
+	pg.base.world_item_data_template[304] = {
 		item_transform_item_type = 0,
 		name = "Quality Tuning Sample - Offense",
 		item_transform_item_id = 0,
@@ -535,8 +725,8 @@ pg.world_item_data_template = {
 		item_origin = {
 			100
 		}
-	},
-	[305] = {
+	}
+	pg.base.world_item_data_template[305] = {
 		item_transform_item_type = 0,
 		name = "Quality Tuning Sample - Survivability",
 		item_transform_item_id = 0,
@@ -560,8 +750,8 @@ pg.world_item_data_template = {
 		item_origin = {
 			100
 		}
-	},
-	[306] = {
+	}
+	pg.base.world_item_data_template[306] = {
 		item_transform_item_type = 0,
 		name = "Quality Tuning Sample - Tactics",
 		item_transform_item_id = 0,
@@ -585,8 +775,8 @@ pg.world_item_data_template = {
 		item_origin = {
 			100
 		}
-	},
-	[2002] = {
+	}
+	pg.base.world_item_data_template[2002] = {
 		item_transform_item_type = 1,
 		name = "R2 Coordinate Logger",
 		item_transform_item_id = 3002,
@@ -608,8 +798,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[2003] = {
+	}
+	pg.base.world_item_data_template[2003] = {
 		item_transform_item_type = 1,
 		name = "R3 Coordinate Logger",
 		item_transform_item_id = 3002,
@@ -631,8 +821,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[2004] = {
+	}
+	pg.base.world_item_data_template[2004] = {
 		item_transform_item_type = 1,
 		name = "R4 Coordinate Logger",
 		item_transform_item_id = 3002,
@@ -654,8 +844,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[2005] = {
+	}
+	pg.base.world_item_data_template[2005] = {
 		item_transform_item_type = 1,
 		name = "R5 Coordinate Logger",
 		item_transform_item_id = 3002,
@@ -679,8 +869,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[2006] = {
+	}
+	pg.base.world_item_data_template[2006] = {
 		item_transform_item_type = 1,
 		name = "R6 Coordinate Logger",
 		item_transform_item_id = 3002,
@@ -704,8 +894,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[2014] = {
+	}
+	pg.base.world_item_data_template[2014] = {
 		item_transform_item_type = 1,
 		name = "R4 Siren Coordinate Logger",
 		item_transform_item_id = 3002,
@@ -728,8 +918,8 @@ pg.world_item_data_template = {
 			101,
 			7
 		}
-	},
-	[2015] = {
+	}
+	pg.base.world_item_data_template[2015] = {
 		item_transform_item_type = 1,
 		name = "R5 Siren Coordinate Logger",
 		item_transform_item_id = 3002,
@@ -753,8 +943,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[2016] = {
+	}
+	pg.base.world_item_data_template[2016] = {
 		item_transform_item_type = 1,
 		name = "R6 Siren Coordinate Logger",
 		item_transform_item_id = 3002,
@@ -777,8 +967,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[2050] = {
+	}
+	pg.base.world_item_data_template[2050] = {
 		item_transform_item_type = 0,
 		name = "Classified Files Mission Logger X1",
 		item_transform_item_id = 0,
@@ -797,8 +987,8 @@ pg.world_item_data_template = {
 		id = 2050,
 		usage_arg = {},
 		item_origin = {}
-	},
-	[2051] = {
+	}
+	pg.base.world_item_data_template[2051] = {
 		item_transform_item_type = 0,
 		name = "Classified Files Mission Logger X2",
 		item_transform_item_id = 0,
@@ -817,8 +1007,8 @@ pg.world_item_data_template = {
 		id = 2051,
 		usage_arg = {},
 		item_origin = {}
-	},
-	[2052] = {
+	}
+	pg.base.world_item_data_template[2052] = {
 		item_transform_item_type = 0,
 		name = "Classified Files Mission Logger X3",
 		item_transform_item_id = 0,
@@ -837,8 +1027,8 @@ pg.world_item_data_template = {
 		id = 2052,
 		usage_arg = {},
 		item_origin = {}
-	},
-	[2053] = {
+	}
+	pg.base.world_item_data_template[2053] = {
 		item_transform_item_type = 0,
 		name = "Classified Files Mission Logger X4",
 		item_transform_item_id = 0,
@@ -857,8 +1047,8 @@ pg.world_item_data_template = {
 		id = 2053,
 		usage_arg = {},
 		item_origin = {}
-	},
-	[2054] = {
+	}
+	pg.base.world_item_data_template[2054] = {
 		item_transform_item_type = 0,
 		name = "Classified Files Mission Logger X5",
 		item_transform_item_id = 0,
@@ -877,8 +1067,8 @@ pg.world_item_data_template = {
 		id = 2054,
 		usage_arg = {},
 		item_origin = {}
-	},
-	[2055] = {
+	}
+	pg.base.world_item_data_template[2055] = {
 		item_transform_item_type = 0,
 		name = "Classified Files Mission Logger X6",
 		item_transform_item_id = 0,
@@ -897,8 +1087,8 @@ pg.world_item_data_template = {
 		id = 2055,
 		usage_arg = {},
 		item_origin = {}
-	},
-	[2056] = {
+	}
+	pg.base.world_item_data_template[2056] = {
 		item_transform_item_type = 0,
 		name = "Classified Files Mission Logger X7",
 		item_transform_item_id = 0,
@@ -917,8 +1107,8 @@ pg.world_item_data_template = {
 		id = 2056,
 		usage_arg = {},
 		item_origin = {}
-	},
-	[2057] = {
+	}
+	pg.base.world_item_data_template[2057] = {
 		item_transform_item_type = 0,
 		name = "Classified Files Mission Logger X8",
 		item_transform_item_id = 0,
@@ -937,8 +1127,8 @@ pg.world_item_data_template = {
 		id = 2057,
 		usage_arg = {},
 		item_origin = {}
-	},
-	[2058] = {
+	}
+	pg.base.world_item_data_template[2058] = {
 		item_transform_item_type = 0,
 		name = "Classified Files Mission Logger X9",
 		item_transform_item_id = 0,
@@ -957,8 +1147,8 @@ pg.world_item_data_template = {
 		id = 2058,
 		usage_arg = {},
 		item_origin = {}
-	},
-	[2059] = {
+	}
+	pg.base.world_item_data_template[2059] = {
 		item_transform_item_type = 0,
 		name = "Classified Files Mission Logger X10",
 		item_transform_item_id = 0,
@@ -977,8 +1167,8 @@ pg.world_item_data_template = {
 		id = 2059,
 		usage_arg = {},
 		item_origin = {}
-	},
-	[2101] = {
+	}
+	pg.base.world_item_data_template[2101] = {
 		item_transform_item_type = 0,
 		name = "T1 Development Materials Container",
 		item_transform_item_id = 0,
@@ -999,8 +1189,8 @@ pg.world_item_data_template = {
 		item_origin = {
 			100
 		}
-	},
-	[2102] = {
+	}
+	pg.base.world_item_data_template[2102] = {
 		item_transform_item_type = 0,
 		name = "T2 Development Materials Container",
 		item_transform_item_id = 0,
@@ -1021,8 +1211,8 @@ pg.world_item_data_template = {
 		item_origin = {
 			100
 		}
-	},
-	[2103] = {
+	}
+	pg.base.world_item_data_template[2103] = {
 		item_transform_item_type = 0,
 		name = "T3 Development Materials Container",
 		item_transform_item_id = 0,
@@ -1043,8 +1233,8 @@ pg.world_item_data_template = {
 		item_origin = {
 			100
 		}
-	},
-	[2111] = {
+	}
+	pg.base.world_item_data_template[2111] = {
 		item_transform_item_type = 0,
 		name = "T1 Ordnance Testing Report",
 		item_transform_item_id = 0,
@@ -1065,8 +1255,8 @@ pg.world_item_data_template = {
 		item_origin = {
 			100
 		}
-	},
-	[2112] = {
+	}
+	pg.base.world_item_data_template[2112] = {
 		item_transform_item_type = 0,
 		name = "T2 Ordnance Testing Report",
 		item_transform_item_id = 0,
@@ -1087,8 +1277,8 @@ pg.world_item_data_template = {
 		item_origin = {
 			100
 		}
-	},
-	[2113] = {
+	}
+	pg.base.world_item_data_template[2113] = {
 		item_transform_item_type = 0,
 		name = "T4 Random Gear Part",
 		item_transform_item_id = 0,
@@ -1109,8 +1299,8 @@ pg.world_item_data_template = {
 		item_origin = {
 			100
 		}
-	},
-	[2114] = {
+	}
+	pg.base.world_item_data_template[2114] = {
 		item_transform_item_type = 0,
 		name = "Prototype Gear Upgrade Part",
 		item_transform_item_id = 0,
@@ -1131,8 +1321,8 @@ pg.world_item_data_template = {
 		item_origin = {
 			100
 		}
-	},
-	[2115] = {
+	}
+	pg.base.world_item_data_template[2115] = {
 		item_transform_item_type = 0,
 		name = "Specialized Gear Upgrade Part",
 		item_transform_item_id = 0,
@@ -1153,8 +1343,8 @@ pg.world_item_data_template = {
 		item_origin = {
 			100
 		}
-	},
-	[2116] = {
+	}
+	pg.base.world_item_data_template[2116] = {
 		item_transform_item_type = 0,
 		name = "Crystallized Heat-Resistant Steel",
 		item_transform_item_id = 0,
@@ -1173,8 +1363,8 @@ pg.world_item_data_template = {
 		usage_arg = "1030017",
 		id = 2116,
 		item_origin = {}
-	},
-	[2117] = {
+	}
+	pg.base.world_item_data_template[2117] = {
 		item_transform_item_type = 0,
 		name = "Nanoceramic Alloy",
 		item_transform_item_id = 0,
@@ -1193,8 +1383,8 @@ pg.world_item_data_template = {
 		usage_arg = "1030018",
 		id = 2117,
 		item_origin = {}
-	},
-	[2118] = {
+	}
+	pg.base.world_item_data_template[2118] = {
 		item_transform_item_type = 0,
 		name = "Neuroplastic Prosthetic Arm",
 		item_transform_item_id = 0,
@@ -1213,8 +1403,8 @@ pg.world_item_data_template = {
 		usage_arg = "1030019",
 		id = 2118,
 		item_origin = {}
-	},
-	[2119] = {
+	}
+	pg.base.world_item_data_template[2119] = {
 		item_transform_item_type = 0,
 		name = "Supercavitation Generator",
 		item_transform_item_id = 0,
@@ -1233,8 +1423,8 @@ pg.world_item_data_template = {
 		usage_arg = "1030020",
 		id = 2119,
 		item_origin = {}
-	},
-	[2120] = {
+	}
+	pg.base.world_item_data_template[2120] = {
 		item_transform_item_type = 2,
 		name = "SR Gear Design Plans ",
 		item_transform_item_id = 30914,
@@ -1274,8 +1464,8 @@ pg.world_item_data_template = {
 			}
 		},
 		item_origin = {}
-	},
-	[2121] = {
+	}
+	pg.base.world_item_data_template[2121] = {
 		item_transform_item_type = 2,
 		name = "UR Gear Design Plans ",
 		item_transform_item_id = 30915,
@@ -1315,8 +1505,8 @@ pg.world_item_data_template = {
 			}
 		},
 		item_origin = {}
-	},
-	[2122] = {
+	}
+	pg.base.world_item_data_template[2122] = {
 		item_transform_item_type = 0,
 		name = "T3 Ordnance Testing Report",
 		item_transform_item_id = 0,
@@ -1337,8 +1527,8 @@ pg.world_item_data_template = {
 		item_origin = {
 			100
 		}
-	},
-	[100011] = {
+	}
+	pg.base.world_item_data_template[100011] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: Caribbean Sea A",
 		item_transform_item_id = 3002,
@@ -1362,8 +1552,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[100012] = {
+	}
+	pg.base.world_item_data_template[100012] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: Caribbean Sea B",
 		item_transform_item_id = 3002,
@@ -1387,8 +1577,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[100013] = {
+	}
+	pg.base.world_item_data_template[100013] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: Caribbean Sea C",
 		item_transform_item_id = 3002,
@@ -1412,8 +1602,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[100014] = {
+	}
+	pg.base.world_item_data_template[100014] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: Caribbean Sea D",
 		item_transform_item_id = 3002,
@@ -1435,8 +1625,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100021] = {
+	}
+	pg.base.world_item_data_template[100021] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean SW Sector A",
 		item_transform_item_id = 3002,
@@ -1458,8 +1648,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100023] = {
+	}
+	pg.base.world_item_data_template[100023] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean SW Sector C",
 		item_transform_item_id = 3002,
@@ -1481,8 +1671,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100024] = {
+	}
+	pg.base.world_item_data_template[100024] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean SW Sector D",
 		item_transform_item_id = 3002,
@@ -1504,8 +1694,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100025] = {
+	}
+	pg.base.world_item_data_template[100025] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean SW Sector E",
 		item_transform_item_id = 3002,
@@ -1527,8 +1717,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100031] = {
+	}
+	pg.base.world_item_data_template[100031] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: Southwest Ocean Ridge A",
 		item_transform_item_id = 3002,
@@ -1550,8 +1740,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100032] = {
+	}
+	pg.base.world_item_data_template[100032] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: Southwest Ocean Ridge B",
 		item_transform_item_id = 3002,
@@ -1573,8 +1763,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100033] = {
+	}
+	pg.base.world_item_data_template[100033] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: Southwest Ocean Ridge C",
 		item_transform_item_id = 3002,
@@ -1596,8 +1786,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100034] = {
+	}
+	pg.base.world_item_data_template[100034] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: Southwest Ocean Ridge D",
 		item_transform_item_id = 3002,
@@ -1619,8 +1809,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100041] = {
+	}
+	pg.base.world_item_data_template[100041] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: West Continental Shelf A",
 		item_transform_item_id = 3002,
@@ -1642,8 +1832,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100042] = {
+	}
+	pg.base.world_item_data_template[100042] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: West Continental Shelf B",
 		item_transform_item_id = 3002,
@@ -1665,8 +1855,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100043] = {
+	}
+	pg.base.world_item_data_template[100043] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: West Continental Shelf C",
 		item_transform_item_id = 3002,
@@ -1688,8 +1878,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100051] = {
+	}
+	pg.base.world_item_data_template[100051] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: Southeast Ocean Ridge A",
 		item_transform_item_id = 3002,
@@ -1711,8 +1901,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100052] = {
+	}
+	pg.base.world_item_data_template[100052] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: Southeast Ocean Ridge B",
 		item_transform_item_id = 3002,
@@ -1734,8 +1924,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100053] = {
+	}
+	pg.base.world_item_data_template[100053] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: Southeast Ocean Ridge C",
 		item_transform_item_id = 3002,
@@ -1757,8 +1947,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100054] = {
+	}
+	pg.base.world_item_data_template[100054] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: Southeast Ocean Ridge D",
 		item_transform_item_id = 3002,
@@ -1780,8 +1970,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100061] = {
+	}
+	pg.base.world_item_data_template[100061] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean SE Sector A",
 		item_transform_item_id = 3002,
@@ -1803,8 +1993,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100062] = {
+	}
+	pg.base.world_item_data_template[100062] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean SE Sector B",
 		item_transform_item_id = 3002,
@@ -1826,8 +2016,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100063] = {
+	}
+	pg.base.world_item_data_template[100063] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean SE Sector C",
 		item_transform_item_id = 3002,
@@ -1849,8 +2039,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100064] = {
+	}
+	pg.base.world_item_data_template[100064] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean SE Sector D",
 		item_transform_item_id = 3002,
@@ -1872,8 +2062,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100065] = {
+	}
+	pg.base.world_item_data_template[100065] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean SE Sector E",
 		item_transform_item_id = 3002,
@@ -1895,8 +2085,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100066] = {
+	}
+	pg.base.world_item_data_template[100066] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean SE Sector F",
 		item_transform_item_id = 3002,
@@ -1918,8 +2108,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100071] = {
+	}
+	pg.base.world_item_data_template[100071] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: Méditerranée A",
 		item_transform_item_id = 3002,
@@ -1943,8 +2133,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[100072] = {
+	}
+	pg.base.world_item_data_template[100072] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: Méditerranée B",
 		item_transform_item_id = 3002,
@@ -1968,8 +2158,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[100073] = {
+	}
+	pg.base.world_item_data_template[100073] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: Méditerranée C",
 		item_transform_item_id = 3002,
@@ -1993,8 +2183,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[100081] = {
+	}
+	pg.base.world_item_data_template[100081] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean W Sector A",
 		item_transform_item_id = 3002,
@@ -2016,8 +2206,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100082] = {
+	}
+	pg.base.world_item_data_template[100082] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean W Sector B",
 		item_transform_item_id = 3002,
@@ -2039,8 +2229,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100083] = {
+	}
+	pg.base.world_item_data_template[100083] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean W Sector C",
 		item_transform_item_id = 3002,
@@ -2062,8 +2252,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100084] = {
+	}
+	pg.base.world_item_data_template[100084] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean W Sector D",
 		item_transform_item_id = 3002,
@@ -2085,8 +2275,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100085] = {
+	}
+	pg.base.world_item_data_template[100085] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean W Sector E",
 		item_transform_item_id = 3002,
@@ -2108,8 +2298,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100091] = {
+	}
+	pg.base.world_item_data_template[100091] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean NW Sector A",
 		item_transform_item_id = 3002,
@@ -2131,8 +2321,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100092] = {
+	}
+	pg.base.world_item_data_template[100092] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean NW Sector B",
 		item_transform_item_id = 3002,
@@ -2154,8 +2344,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100093] = {
+	}
+	pg.base.world_item_data_template[100093] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean NW Sector C",
 		item_transform_item_id = 3002,
@@ -2177,8 +2367,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100094] = {
+	}
+	pg.base.world_item_data_template[100094] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean NW Sector D",
 		item_transform_item_id = 3002,
@@ -2200,8 +2390,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100095] = {
+	}
+	pg.base.world_item_data_template[100095] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean NW Sector E",
 		item_transform_item_id = 3002,
@@ -2223,8 +2413,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100101] = {
+	}
+	pg.base.world_item_data_template[100101] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: Northwest Passage A",
 		item_transform_item_id = 3002,
@@ -2248,8 +2438,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[100102] = {
+	}
+	pg.base.world_item_data_template[100102] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: Northwest Passage B",
 		item_transform_item_id = 3002,
@@ -2273,8 +2463,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[100103] = {
+	}
+	pg.base.world_item_data_template[100103] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: Northwest Passage C",
 		item_transform_item_id = 3002,
@@ -2296,8 +2486,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100104] = {
+	}
+	pg.base.world_item_data_template[100104] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: Northwest Passage D",
 		item_transform_item_id = 3002,
@@ -2319,8 +2509,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100105] = {
+	}
+	pg.base.world_item_data_template[100105] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: Northwest Passage E",
 		item_transform_item_id = 3002,
@@ -2342,8 +2532,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100106] = {
+	}
+	pg.base.world_item_data_template[100106] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: Northwest Passage F",
 		item_transform_item_id = 3002,
@@ -2367,8 +2557,10 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[100111] = {
+	}
+end)()
+(function ()
+	pg.base.world_item_data_template[100111] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean E Sector A",
 		item_transform_item_id = 3002,
@@ -2390,8 +2582,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100112] = {
+	}
+	pg.base.world_item_data_template[100112] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean E Sector B",
 		item_transform_item_id = 3002,
@@ -2413,8 +2605,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100113] = {
+	}
+	pg.base.world_item_data_template[100113] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean E Sector C",
 		item_transform_item_id = 3002,
@@ -2436,8 +2628,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100114] = {
+	}
+	pg.base.world_item_data_template[100114] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean E Sector D",
 		item_transform_item_id = 3002,
@@ -2459,8 +2651,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100121] = {
+	}
+	pg.base.world_item_data_template[100121] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: East Continental Shelf A",
 		item_transform_item_id = 3002,
@@ -2484,8 +2676,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[100122] = {
+	}
+	pg.base.world_item_data_template[100122] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: East Continental Shelf B",
 		item_transform_item_id = 3002,
@@ -2507,8 +2699,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100123] = {
+	}
+	pg.base.world_item_data_template[100123] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: East Continental Shelf C",
 		item_transform_item_id = 3002,
@@ -2530,8 +2722,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100124] = {
+	}
+	pg.base.world_item_data_template[100124] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: East Continental Shelf D",
 		item_transform_item_id = 3002,
@@ -2555,8 +2747,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[100125] = {
+	}
+	pg.base.world_item_data_template[100125] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: East Continental Shelf E",
 		item_transform_item_id = 3002,
@@ -2578,8 +2770,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100131] = {
+	}
+	pg.base.world_item_data_template[100131] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean NE Sector A",
 		item_transform_item_id = 3002,
@@ -2601,8 +2793,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100132] = {
+	}
+	pg.base.world_item_data_template[100132] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean NE Sector B",
 		item_transform_item_id = 3002,
@@ -2624,8 +2816,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100133] = {
+	}
+	pg.base.world_item_data_template[100133] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean NE Sector C",
 		item_transform_item_id = 3002,
@@ -2647,8 +2839,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100134] = {
+	}
+	pg.base.world_item_data_template[100134] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean NE Sector D",
 		item_transform_item_id = 3002,
@@ -2670,8 +2862,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100135] = {
+	}
+	pg.base.world_item_data_template[100135] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean NE Sector E",
 		item_transform_item_id = 3002,
@@ -2693,8 +2885,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100141] = {
+	}
+	pg.base.world_item_data_template[100141] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: Northeast Passage A",
 		item_transform_item_id = 3002,
@@ -2716,8 +2908,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100142] = {
+	}
+	pg.base.world_item_data_template[100142] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: Northeast Passage B",
 		item_transform_item_id = 3002,
@@ -2739,8 +2931,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100143] = {
+	}
+	pg.base.world_item_data_template[100143] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: Northeast Passage C",
 		item_transform_item_id = 3002,
@@ -2762,8 +2954,8 @@ pg.world_item_data_template = {
 			100,
 			7
 		}
-	},
-	[100144] = {
+	}
+	pg.base.world_item_data_template[100144] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: Northeast Passage D",
 		item_transform_item_id = 3002,
@@ -2787,8 +2979,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[100151] = {
+	}
+	pg.base.world_item_data_template[100151] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean Depths A",
 		item_transform_item_id = 3002,
@@ -2812,8 +3004,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[100152] = {
+	}
+	pg.base.world_item_data_template[100152] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean Depths B",
 		item_transform_item_id = 3002,
@@ -2837,8 +3029,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[100153] = {
+	}
+	pg.base.world_item_data_template[100153] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean Depths C",
 		item_transform_item_id = 3002,
@@ -2862,8 +3054,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[100155] = {
+	}
+	pg.base.world_item_data_template[100155] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean Depths D",
 		item_transform_item_id = 3002,
@@ -2887,8 +3079,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[100156] = {
+	}
+	pg.base.world_item_data_template[100156] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean Depths E",
 		item_transform_item_id = 3002,
@@ -2912,8 +3104,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[100157] = {
+	}
+	pg.base.world_item_data_template[100157] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean Depths F",
 		item_transform_item_id = 3002,
@@ -2937,8 +3129,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[100158] = {
+	}
+	pg.base.world_item_data_template[100158] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean Depths G",
 		item_transform_item_id = 3002,
@@ -2962,8 +3154,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[100159] = {
+	}
+	pg.base.world_item_data_template[100159] = {
 		item_transform_item_type = 1,
 		name = "Map Coordinates: NA Ocean Depths H",
 		item_transform_item_id = 3002,
@@ -2987,8 +3179,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[110011] = {
+	}
+	pg.base.world_item_data_template[110011] = {
 		item_transform_item_type = 1,
 		name = "Siren Coordinates: Caribbean Sea A",
 		item_transform_item_id = 3002,
@@ -3013,8 +3205,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[110012] = {
+	}
+	pg.base.world_item_data_template[110012] = {
 		item_transform_item_type = 1,
 		name = "Siren Coordinates: Caribbean Sea B",
 		item_transform_item_id = 3002,
@@ -3040,8 +3232,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[110013] = {
+	}
+	pg.base.world_item_data_template[110013] = {
 		item_transform_item_type = 1,
 		name = "Siren Coordinates: Caribbean Sea C",
 		item_transform_item_id = 3002,
@@ -3067,8 +3259,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[110014] = {
+	}
+	pg.base.world_item_data_template[110014] = {
 		item_transform_item_type = 1,
 		name = "Siren Coordinates: Caribbean Sea D",
 		item_transform_item_id = 3002,
@@ -3093,8 +3285,8 @@ pg.world_item_data_template = {
 			101,
 			7
 		}
-	},
-	[110042] = {
+	}
+	pg.base.world_item_data_template[110042] = {
 		item_transform_item_type = 1,
 		name = "Siren Coordinates: West Continental Shelf B",
 		item_transform_item_id = 3002,
@@ -3119,8 +3311,8 @@ pg.world_item_data_template = {
 			101,
 			7
 		}
-	},
-	[110051] = {
+	}
+	pg.base.world_item_data_template[110051] = {
 		item_transform_item_type = 1,
 		name = "Siren Coordinates: Southeast Ocean Ridge A",
 		item_transform_item_id = 3002,
@@ -3145,8 +3337,8 @@ pg.world_item_data_template = {
 			101,
 			7
 		}
-	},
-	[110052] = {
+	}
+	pg.base.world_item_data_template[110052] = {
 		item_transform_item_type = 1,
 		name = "Siren Coordinates: Southeast Ocean Ridge B",
 		item_transform_item_id = 3002,
@@ -3171,8 +3363,8 @@ pg.world_item_data_template = {
 			101,
 			7
 		}
-	},
-	[110053] = {
+	}
+	pg.base.world_item_data_template[110053] = {
 		item_transform_item_type = 1,
 		name = "Siren Coordinates: Southeast Ocean Ridge C",
 		item_transform_item_id = 3002,
@@ -3197,8 +3389,8 @@ pg.world_item_data_template = {
 			101,
 			7
 		}
-	},
-	[110054] = {
+	}
+	pg.base.world_item_data_template[110054] = {
 		item_transform_item_type = 1,
 		name = "Siren Coordinates: Southeast Ocean Ridge D",
 		item_transform_item_id = 3002,
@@ -3223,8 +3415,8 @@ pg.world_item_data_template = {
 			101,
 			7
 		}
-	},
-	[110061] = {
+	}
+	pg.base.world_item_data_template[110061] = {
 		item_transform_item_type = 1,
 		name = "Siren Coordinates: NA Ocean SE Sector A",
 		item_transform_item_id = 3002,
@@ -3249,8 +3441,8 @@ pg.world_item_data_template = {
 			101,
 			7
 		}
-	},
-	[110063] = {
+	}
+	pg.base.world_item_data_template[110063] = {
 		item_transform_item_type = 1,
 		name = "Siren Coordinates: NA Ocean SE Sector C",
 		item_transform_item_id = 3002,
@@ -3275,8 +3467,8 @@ pg.world_item_data_template = {
 			101,
 			7
 		}
-	},
-	[110064] = {
+	}
+	pg.base.world_item_data_template[110064] = {
 		item_transform_item_type = 1,
 		name = "Siren Coordinates: NA Ocean SE Sector D",
 		item_transform_item_id = 3002,
@@ -3301,8 +3493,8 @@ pg.world_item_data_template = {
 			101,
 			7
 		}
-	},
-	[110071] = {
+	}
+	pg.base.world_item_data_template[110071] = {
 		item_transform_item_type = 1,
 		name = "Siren Coordinates: Méditerranée A",
 		item_transform_item_id = 3002,
@@ -3328,8 +3520,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[110072] = {
+	}
+	pg.base.world_item_data_template[110072] = {
 		item_transform_item_type = 1,
 		name = "Siren Coordinates: Méditerranée B",
 		item_transform_item_id = 3002,
@@ -3354,8 +3546,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[110073] = {
+	}
+	pg.base.world_item_data_template[110073] = {
 		item_transform_item_type = 1,
 		name = "Siren Coordinates: Méditerranée C",
 		item_transform_item_id = 3002,
@@ -3381,8 +3573,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[110082] = {
+	}
+	pg.base.world_item_data_template[110082] = {
 		item_transform_item_type = 1,
 		name = "Siren Coordinates: NA Ocean W Sector B",
 		item_transform_item_id = 3002,
@@ -3407,8 +3599,8 @@ pg.world_item_data_template = {
 			101,
 			7
 		}
-	},
-	[110085] = {
+	}
+	pg.base.world_item_data_template[110085] = {
 		item_transform_item_type = 1,
 		name = "Siren Coordinates: NA Ocean W Sector E",
 		item_transform_item_id = 3002,
@@ -3433,8 +3625,8 @@ pg.world_item_data_template = {
 			101,
 			7
 		}
-	},
-	[110091] = {
+	}
+	pg.base.world_item_data_template[110091] = {
 		item_transform_item_type = 1,
 		name = "Siren Coordinates: NA Ocean NW Sector A",
 		item_transform_item_id = 3002,
@@ -3459,8 +3651,8 @@ pg.world_item_data_template = {
 			101,
 			7
 		}
-	},
-	[110101] = {
+	}
+	pg.base.world_item_data_template[110101] = {
 		item_transform_item_type = 1,
 		name = "Siren Coordinates: Northwest Passage A",
 		item_transform_item_id = 3002,
@@ -3486,8 +3678,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[110102] = {
+	}
+	pg.base.world_item_data_template[110102] = {
 		item_transform_item_type = 1,
 		name = "Siren Coordinates: Northwest Passage B",
 		item_transform_item_id = 3002,
@@ -3513,8 +3705,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[110103] = {
+	}
+	pg.base.world_item_data_template[110103] = {
 		item_transform_item_type = 1,
 		name = "Siren Coordinates: Northwest Passage C",
 		item_transform_item_id = 3002,
@@ -3539,8 +3731,8 @@ pg.world_item_data_template = {
 			101,
 			7
 		}
-	},
-	[110104] = {
+	}
+	pg.base.world_item_data_template[110104] = {
 		item_transform_item_type = 1,
 		name = "Siren Coordinates: Northwest Passage D",
 		item_transform_item_id = 3002,
@@ -3565,8 +3757,8 @@ pg.world_item_data_template = {
 			101,
 			7
 		}
-	},
-	[110106] = {
+	}
+	pg.base.world_item_data_template[110106] = {
 		item_transform_item_type = 1,
 		name = "Siren Coordinates: Northwest Passage F",
 		item_transform_item_id = 3002,
@@ -3591,8 +3783,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[110121] = {
+	}
+	pg.base.world_item_data_template[110121] = {
 		item_transform_item_type = 1,
 		name = "Siren Coordinates: East Continental Shelf A",
 		item_transform_item_id = 3002,
@@ -3617,8 +3809,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[110124] = {
+	}
+	pg.base.world_item_data_template[110124] = {
 		item_transform_item_type = 1,
 		name = "Siren Coordinates: East Continental Shelf D",
 		item_transform_item_id = 3002,
@@ -3644,8 +3836,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[110142] = {
+	}
+	pg.base.world_item_data_template[110142] = {
 		item_transform_item_type = 1,
 		name = "Siren Coordinates: Northeast Passage B",
 		item_transform_item_id = 3002,
@@ -3670,8 +3862,8 @@ pg.world_item_data_template = {
 			101,
 			7
 		}
-	},
-	[110144] = {
+	}
+	pg.base.world_item_data_template[110144] = {
 		item_transform_item_type = 1,
 		name = "Siren Coordinates: Northeast Passage D",
 		item_transform_item_id = 3002,
@@ -3697,8 +3889,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[110151] = {
+	}
+	pg.base.world_item_data_template[110151] = {
 		item_transform_item_type = 1,
 		name = "Siren Coordinates: NA Ocean Depths A",
 		item_transform_item_id = 3002,
@@ -3724,8 +3916,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[110152] = {
+	}
+	pg.base.world_item_data_template[110152] = {
 		item_transform_item_type = 1,
 		name = "Siren Coordinates: NA Ocean Depths B",
 		item_transform_item_id = 3002,
@@ -3751,8 +3943,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[110153] = {
+	}
+	pg.base.world_item_data_template[110153] = {
 		item_transform_item_type = 1,
 		name = "Siren Coordinates: NA Ocean Depths C",
 		item_transform_item_id = 3002,
@@ -3777,8 +3969,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[110155] = {
+	}
+	pg.base.world_item_data_template[110155] = {
 		item_transform_item_type = 1,
 		name = "Siren Coordinates: NA Ocean Depths D",
 		item_transform_item_id = 3002,
@@ -3803,8 +3995,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[110156] = {
+	}
+	pg.base.world_item_data_template[110156] = {
 		item_transform_item_type = 1,
 		name = "Siren Coordinates: NA Ocean Depths E",
 		item_transform_item_id = 3002,
@@ -3829,8 +4021,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[110157] = {
+	}
+	pg.base.world_item_data_template[110157] = {
 		item_transform_item_type = 1,
 		name = "Siren Coordinates: NA Ocean Depths F",
 		item_transform_item_id = 3002,
@@ -3855,8 +4047,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[110158] = {
+	}
+	pg.base.world_item_data_template[110158] = {
 		item_transform_item_type = 1,
 		name = "Siren Coordinates: NA Ocean Depths G",
 		item_transform_item_id = 3002,
@@ -3882,8 +4074,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[110159] = {
+	}
+	pg.base.world_item_data_template[110159] = {
 		item_transform_item_type = 1,
 		name = "Siren Coordinates: NA Ocean Depths H",
 		item_transform_item_id = 3002,
@@ -3909,8 +4101,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[2000000] = {
+	}
+	pg.base.world_item_data_template[2000000] = {
 		item_transform_item_type = 0,
 		name = "Adaptive Tuning - Offense",
 		item_transform_item_id = 0,
@@ -3932,8 +4124,8 @@ pg.world_item_data_template = {
 			5,
 			6
 		}
-	},
-	[2000001] = {
+	}
+	pg.base.world_item_data_template[2000001] = {
 		item_transform_item_type = 0,
 		name = "Adaptive Tuning - Survivability",
 		item_transform_item_id = 0,
@@ -3955,8 +4147,8 @@ pg.world_item_data_template = {
 			5,
 			6
 		}
-	},
-	[2000002] = {
+	}
+	pg.base.world_item_data_template[2000002] = {
 		item_transform_item_type = 0,
 		name = "Adaptive Tuning - Tactics",
 		item_transform_item_id = 0,
@@ -3978,8 +4170,8 @@ pg.world_item_data_template = {
 			5,
 			6
 		}
-	},
-	[2000003] = {
+	}
+	pg.base.world_item_data_template[2000003] = {
 		item_transform_item_type = 0,
 		name = "Adaptive Tuning - Offense",
 		item_transform_item_id = 0,
@@ -4001,8 +4193,8 @@ pg.world_item_data_template = {
 			5,
 			6
 		}
-	},
-	[2000004] = {
+	}
+	pg.base.world_item_data_template[2000004] = {
 		item_transform_item_type = 0,
 		name = "Adaptive Tuning - Survivability",
 		item_transform_item_id = 0,
@@ -4024,8 +4216,8 @@ pg.world_item_data_template = {
 			5,
 			6
 		}
-	},
-	[2000005] = {
+	}
+	pg.base.world_item_data_template[2000005] = {
 		item_transform_item_type = 0,
 		name = "Adaptive Tuning - Tactics",
 		item_transform_item_id = 0,
@@ -4047,8 +4239,8 @@ pg.world_item_data_template = {
 			5,
 			6
 		}
-	},
-	[2000006] = {
+	}
+	pg.base.world_item_data_template[2000006] = {
 		item_transform_item_type = 0,
 		name = "Operation Supply Coins",
 		item_transform_item_id = 0,
@@ -4074,8 +4266,8 @@ pg.world_item_data_template = {
 			6,
 			7
 		}
-	},
-	[2000007] = {
+	}
+	pg.base.world_item_data_template[2000007] = {
 		item_transform_item_type = 0,
 		name = "Operation Supply Coins",
 		item_transform_item_id = 0,
@@ -4101,8 +4293,8 @@ pg.world_item_data_template = {
 			6,
 			7
 		}
-	},
-	[2000008] = {
+	}
+	pg.base.world_item_data_template[2000008] = {
 		item_transform_item_type = 0,
 		name = "Action Point Refill (S)",
 		item_transform_item_id = 0,
@@ -4126,8 +4318,8 @@ pg.world_item_data_template = {
 			4,
 			7
 		}
-	},
-	[2000009] = {
+	}
+	pg.base.world_item_data_template[2000009] = {
 		item_transform_item_type = 0,
 		name = "Emergency Repair Pack",
 		item_transform_item_id = 0,
@@ -4151,8 +4343,8 @@ pg.world_item_data_template = {
 			3,
 			7
 		}
-	},
-	[2100001] = {
+	}
+	pg.base.world_item_data_template[2100001] = {
 		item_transform_item_type = 1,
 		name = "Coordinate Logger",
 		item_transform_item_id = 3002,
@@ -4176,8 +4368,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[2100002] = {
+	}
+	pg.base.world_item_data_template[2100002] = {
 		item_transform_item_type = 1,
 		name = "Coordinate Logger",
 		item_transform_item_id = 3002,
@@ -4201,8 +4393,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[2100003] = {
+	}
+	pg.base.world_item_data_template[2100003] = {
 		item_transform_item_type = 1,
 		name = "Siren Coordinate Logger",
 		item_transform_item_id = 3002,
@@ -4226,8 +4418,8 @@ pg.world_item_data_template = {
 			201,
 			7
 		}
-	},
-	[2100011] = {
+	}
+	pg.base.world_item_data_template[2100011] = {
 		item_transform_item_type = 0,
 		name = "T1 Development Materials Container",
 		item_transform_item_id = 0,
@@ -4254,8 +4446,8 @@ pg.world_item_data_template = {
 			10,
 			11
 		}
-	},
-	[2100012] = {
+	}
+	pg.base.world_item_data_template[2100012] = {
 		item_transform_item_type = 0,
 		name = "T2 Development Materials Container",
 		item_transform_item_id = 0,
@@ -4282,8 +4474,8 @@ pg.world_item_data_template = {
 			10,
 			11
 		}
-	},
-	[2100013] = {
+	}
+	pg.base.world_item_data_template[2100013] = {
 		item_transform_item_type = 0,
 		name = "T3 Development Materials Container",
 		item_transform_item_id = 0,
@@ -4310,8 +4502,8 @@ pg.world_item_data_template = {
 			10,
 			11
 		}
-	},
-	[2100014] = {
+	}
+	pg.base.world_item_data_template[2100014] = {
 		item_transform_item_type = 0,
 		name = "SR Weapon Design Plans",
 		item_transform_item_id = 0,
@@ -4338,8 +4530,8 @@ pg.world_item_data_template = {
 			10,
 			11
 		}
-	},
-	[2100015] = {
+	}
+	pg.base.world_item_data_template[2100015] = {
 		item_transform_item_type = 0,
 		name = "UR Weapon Design Plans",
 		item_transform_item_id = 0,
@@ -4358,8 +4550,8 @@ pg.world_item_data_template = {
 		id = 2100015,
 		usage_arg = {},
 		item_origin = {}
-	},
-	[2100021] = {
+	}
+	pg.base.world_item_data_template[2100021] = {
 		item_transform_item_type = 0,
 		name = "T4 Random Gear Part",
 		item_transform_item_id = 0,
@@ -4386,8 +4578,8 @@ pg.world_item_data_template = {
 			10,
 			11
 		}
-	},
-	[2100022] = {
+	}
+	pg.base.world_item_data_template[2100022] = {
 		item_transform_item_type = 0,
 		name = "Prototype Gear Upgrade Part",
 		item_transform_item_id = 0,
@@ -4414,8 +4606,8 @@ pg.world_item_data_template = {
 			10,
 			11
 		}
-	},
-	[2100030] = {
+	}
+	pg.base.world_item_data_template[2100030] = {
 		item_transform_item_type = 0,
 		name = "Classified Files",
 		item_transform_item_id = 0,
@@ -4434,189 +4626,5 @@ pg.world_item_data_template = {
 		id = 2100030,
 		usage_arg = {},
 		item_origin = {}
-	},
-	all = {
-		100,
-		101,
-		102,
-		103,
-		104,
-		105,
-		110,
-		120,
-		201,
-		202,
-		203,
-		204,
-		205,
-		206,
-		251,
-		252,
-		253,
-		301,
-		302,
-		303,
-		304,
-		305,
-		306,
-		2002,
-		2003,
-		2004,
-		2005,
-		2006,
-		2014,
-		2015,
-		2016,
-		2050,
-		2051,
-		2052,
-		2053,
-		2054,
-		2055,
-		2056,
-		2057,
-		2058,
-		2059,
-		2101,
-		2102,
-		2103,
-		2111,
-		2112,
-		2113,
-		2114,
-		2115,
-		2116,
-		2117,
-		2118,
-		2119,
-		2120,
-		2121,
-		2122,
-		100011,
-		100012,
-		100013,
-		100014,
-		100021,
-		100023,
-		100024,
-		100025,
-		100031,
-		100032,
-		100033,
-		100034,
-		100041,
-		100042,
-		100043,
-		100051,
-		100052,
-		100053,
-		100054,
-		100061,
-		100062,
-		100063,
-		100064,
-		100065,
-		100066,
-		100071,
-		100072,
-		100073,
-		100081,
-		100082,
-		100083,
-		100084,
-		100085,
-		100091,
-		100092,
-		100093,
-		100094,
-		100095,
-		100101,
-		100102,
-		100103,
-		100104,
-		100105,
-		100106,
-		100111,
-		100112,
-		100113,
-		100114,
-		100121,
-		100122,
-		100123,
-		100124,
-		100125,
-		100131,
-		100132,
-		100133,
-		100134,
-		100135,
-		100141,
-		100142,
-		100143,
-		100144,
-		100151,
-		100152,
-		100153,
-		100155,
-		100156,
-		100157,
-		100158,
-		100159,
-		110011,
-		110012,
-		110013,
-		110014,
-		110042,
-		110051,
-		110052,
-		110053,
-		110054,
-		110061,
-		110063,
-		110064,
-		110071,
-		110072,
-		110073,
-		110082,
-		110085,
-		110091,
-		110101,
-		110102,
-		110103,
-		110104,
-		110106,
-		110121,
-		110124,
-		110142,
-		110144,
-		110151,
-		110152,
-		110153,
-		110155,
-		110156,
-		110157,
-		110158,
-		110159,
-		2000000,
-		2000001,
-		2000002,
-		2000003,
-		2000004,
-		2000005,
-		2000006,
-		2000007,
-		2000008,
-		2000009,
-		2100001,
-		2100002,
-		2100003,
-		2100011,
-		2100012,
-		2100013,
-		2100014,
-		2100015,
-		2100021,
-		2100022,
-		2100030
 	}
-}
+end)()

@@ -1,6 +1,30 @@
 pg = pg or {}
-pg.friendly_data_template = {
-	{
+pg.friendly_data_template = rawget(pg, "friendly_data_template") or setmetatable({
+	__name = "friendly_data_template"
+}, confNEO)
+pg.friendly_data_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16
+}
+pg.base = pg.base or {}
+pg.base.friendly_data_template = {}
+
+(function ()
+	pg.base.friendly_data_template[1] = {
 		ai = 1,
 		name = "商船编队",
 		hp = 20,
@@ -9,8 +33,8 @@ pg.friendly_data_template = {
 		icon = "merchant",
 		scale = 100,
 		ai_mov = 1
-	},
-	{
+	}
+	pg.base.friendly_data_template[2] = {
 		ai = 1,
 		name = "商船编队",
 		hp = 20,
@@ -19,8 +43,8 @@ pg.friendly_data_template = {
 		icon = "merchant",
 		scale = 100,
 		ai_mov = 1
-	},
-	{
+	}
+	pg.base.friendly_data_template[3] = {
 		ai = 1,
 		name = "商船编队",
 		hp = 20,
@@ -29,8 +53,8 @@ pg.friendly_data_template = {
 		icon = "merchant",
 		scale = 100,
 		ai_mov = 1
-	},
-	{
+	}
+	pg.base.friendly_data_template[4] = {
 		ai = 1,
 		name = "商船编队",
 		hp = 20,
@@ -39,8 +63,8 @@ pg.friendly_data_template = {
 		icon = "merchant",
 		scale = 100,
 		ai_mov = 1
-	},
-	{
+	}
+	pg.base.friendly_data_template[5] = {
 		ai = 1,
 		name = "商船编队",
 		hp = 20,
@@ -49,8 +73,8 @@ pg.friendly_data_template = {
 		icon = "merchant",
 		scale = 100,
 		ai_mov = 1
-	},
-	{
+	}
+	pg.base.friendly_data_template[6] = {
 		ai = 1,
 		name = "商船编队",
 		hp = 20,
@@ -59,8 +83,8 @@ pg.friendly_data_template = {
 		icon = "merchant",
 		scale = 100,
 		ai_mov = 1
-	},
-	{
+	}
+	pg.base.friendly_data_template[7] = {
 		ai = 1,
 		name = "商船编队",
 		hp = 20,
@@ -69,8 +93,8 @@ pg.friendly_data_template = {
 		icon = "merchant",
 		scale = 100,
 		ai_mov = 1
-	},
-	{
+	}
+	pg.base.friendly_data_template[8] = {
 		ai = 1,
 		name = "商船编队",
 		hp = 20,
@@ -79,8 +103,8 @@ pg.friendly_data_template = {
 		icon = "merchant",
 		scale = 100,
 		ai_mov = 1
-	},
-	{
+	}
+	pg.base.friendly_data_template[9] = {
 		ai = 1,
 		name = "商船编队",
 		hp = 20,
@@ -89,8 +113,8 @@ pg.friendly_data_template = {
 		icon = "merchant",
 		scale = 100,
 		ai_mov = 1
-	},
-	{
+	}
+	pg.base.friendly_data_template[10] = {
 		ai = 1,
 		name = "商船编队",
 		hp = 20,
@@ -99,8 +123,8 @@ pg.friendly_data_template = {
 		icon = "merchant",
 		scale = 100,
 		ai_mov = 1
-	},
-	{
+	}
+	pg.base.friendly_data_template[11] = {
 		ai = 1,
 		name = "商船编队",
 		hp = 20,
@@ -109,8 +133,8 @@ pg.friendly_data_template = {
 		icon = "merchant",
 		scale = 100,
 		ai_mov = 1
-	},
-	{
+	}
+	pg.base.friendly_data_template[12] = {
 		ai = 1,
 		name = "商船编队",
 		hp = 20,
@@ -119,8 +143,8 @@ pg.friendly_data_template = {
 		icon = "merchant",
 		scale = 100,
 		ai_mov = 1
-	},
-	{
+	}
+	pg.base.friendly_data_template[13] = {
 		ai = 1,
 		name = "商船编队",
 		hp = 20,
@@ -129,8 +153,8 @@ pg.friendly_data_template = {
 		icon = "merchant",
 		scale = 100,
 		ai_mov = 1
-	},
-	{
+	}
+	pg.base.friendly_data_template[14] = {
 		ai = 1,
 		name = "商船编队",
 		hp = 20,
@@ -139,8 +163,8 @@ pg.friendly_data_template = {
 		icon = "merchant",
 		scale = 100,
 		ai_mov = 1
-	},
-	{
+	}
+	pg.base.friendly_data_template[15] = {
 		ai = 1,
 		name = "商船编队",
 		hp = 20,
@@ -149,8 +173,8 @@ pg.friendly_data_template = {
 		icon = "merchant",
 		scale = 100,
 		ai_mov = 1
-	},
-	{
+	}
+	pg.base.friendly_data_template[16] = {
 		ai = 1,
 		name = "商船编队",
 		hp = 20,
@@ -159,23 +183,5 @@ pg.friendly_data_template = {
 		icon = "merchant",
 		scale = 100,
 		ai_mov = 1
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16
 	}
-}
+end)()

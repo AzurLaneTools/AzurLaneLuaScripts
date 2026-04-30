@@ -1,30 +1,33 @@
 pg = pg or {}
-pg.island_card_diy = setmetatable({
-	__name = "island_card_diy",
-	all = {
-		4001,
-		4002,
-		4003,
-		4004,
-		4005,
-		4006,
-		4007,
-		4008,
-		4009,
-		4010,
-		4011,
-		4012,
-		4013,
-		4014,
-		4015,
-		4016,
-		4017,
-		4018
-	}
-}, confHX)
+pg.island_card_diy = rawget(pg, "island_card_diy") or setmetatable({
+	__name = "island_card_diy"
+}, confNEO)
+pg.island_card_diy.__namecode__ = true
+pg.island_card_diy.all = {
+	4001,
+	4002,
+	4003,
+	4004,
+	4005,
+	4006,
+	4007,
+	4008,
+	4009,
+	4010,
+	4011,
+	4012,
+	4013,
+	4014,
+	4015,
+	4016,
+	4017,
+	4018
+}
 pg.base = pg.base or {}
-pg.base.island_card_diy = {
-	[4001] = {
+pg.base.island_card_diy = {}
+
+(function ()
+	pg.base.island_card_diy[4001] = {
 		resource = "islandphoto/4001",
 		name = "Default Model",
 		type = 4,
@@ -33,8 +36,8 @@ pg.base.island_card_diy = {
 		tech_id = 0,
 		desc = "Default Model",
 		jump_page = {}
-	},
-	[4002] = {
+	}
+	pg.base.island_card_diy[4002] = {
 		resource = "islandphoto/4002",
 		name = "New Jersey Model",
 		type = 4,
@@ -43,8 +46,8 @@ pg.base.island_card_diy = {
 		tech_id = 0,
 		desc = "New Jersey Model",
 		jump_page = {}
-	},
-	[4003] = {
+	}
+	pg.base.island_card_diy[4003] = {
 		resource = "islandphoto/4003",
 		name = "Saratoga Model",
 		type = 4,
@@ -53,8 +56,8 @@ pg.base.island_card_diy = {
 		tech_id = 0,
 		desc = "Saratoga Model",
 		jump_page = {}
-	},
-	[4004] = {
+	}
+	pg.base.island_card_diy[4004] = {
 		resource = "islandphoto/4004",
 		name = "Hood Model",
 		type = 4,
@@ -63,8 +66,8 @@ pg.base.island_card_diy = {
 		tech_id = 0,
 		desc = "Hood Model",
 		jump_page = {}
-	},
-	[4005] = {
+	}
+	pg.base.island_card_diy[4005] = {
 		resource = "islandphoto/4005",
 		name = "Unicorn Model",
 		type = 4,
@@ -73,8 +76,8 @@ pg.base.island_card_diy = {
 		tech_id = 0,
 		desc = "Unicorn Model",
 		jump_page = {}
-	},
-	[4006] = {
+	}
+	pg.base.island_card_diy[4006] = {
 		resource = "islandphoto/4006",
 		name = "Cheshire Model",
 		type = 4,
@@ -83,8 +86,8 @@ pg.base.island_card_diy = {
 		tech_id = 0,
 		desc = "Cheshire Model",
 		jump_page = {}
-	},
-	[4007] = {
+	}
+	pg.base.island_card_diy[4007] = {
 		resource = "islandphoto/4007",
 		name = "Shimakaze Model",
 		type = 4,
@@ -93,8 +96,8 @@ pg.base.island_card_diy = {
 		tech_id = 0,
 		desc = "Shimakaze Model",
 		jump_page = {}
-	},
-	[4008] = {
+	}
+	pg.base.island_card_diy[4008] = {
 		resource = "islandphoto/4008",
 		name = "Amagi-chan Model",
 		type = 4,
@@ -103,8 +106,8 @@ pg.base.island_card_diy = {
 		tech_id = 0,
 		desc = "Amagi-chan Model",
 		jump_page = {}
-	},
-	[4009] = {
+	}
+	pg.base.island_card_diy[4009] = {
 		resource = "islandphoto/4009",
 		name = "Taihou Model",
 		type = 4,
@@ -113,8 +116,8 @@ pg.base.island_card_diy = {
 		tech_id = 0,
 		desc = "Taihou Model",
 		jump_page = {}
-	},
-	[4010] = {
+	}
+	pg.base.island_card_diy[4010] = {
 		resource = "islandphoto/4010",
 		name = "Akashi Model",
 		type = 4,
@@ -123,8 +126,8 @@ pg.base.island_card_diy = {
 		tech_id = 0,
 		desc = "Akashi Model",
 		jump_page = {}
-	},
-	[4011] = {
+	}
+	pg.base.island_card_diy[4011] = {
 		resource = "islandphoto/4011",
 		name = "Prinz Eugen Model",
 		type = 4,
@@ -133,8 +136,8 @@ pg.base.island_card_diy = {
 		tech_id = 0,
 		desc = "Prinz Eugen Model",
 		jump_page = {}
-	},
-	[4012] = {
+	}
+	pg.base.island_card_diy[4012] = {
 		resource = "islandphoto/4012",
 		name = "Ying Swei Model",
 		type = 4,
@@ -143,8 +146,8 @@ pg.base.island_card_diy = {
 		tech_id = 0,
 		desc = "Ying Swei Model",
 		jump_page = {}
-	},
-	[4013] = {
+	}
+	pg.base.island_card_diy[4013] = {
 		resource = "islandphoto/4013",
 		name = "Chao Ho Model",
 		type = 4,
@@ -153,8 +156,8 @@ pg.base.island_card_diy = {
 		tech_id = 0,
 		desc = "Chao Ho Model",
 		jump_page = {}
-	},
-	[4014] = {
+	}
+	pg.base.island_card_diy[4014] = {
 		resource = "islandphoto/4014",
 		name = "Leonardo da Vinci Model",
 		type = 4,
@@ -163,8 +166,8 @@ pg.base.island_card_diy = {
 		tech_id = 0,
 		desc = "Leonardo da Vinci Model",
 		jump_page = {}
-	},
-	[4015] = {
+	}
+	pg.base.island_card_diy[4015] = {
 		resource = "islandphoto/4015",
 		name = "Tashkent Model",
 		type = 4,
@@ -173,8 +176,8 @@ pg.base.island_card_diy = {
 		tech_id = 0,
 		desc = "Tashkent Model",
 		jump_page = {}
-	},
-	[4016] = {
+	}
+	pg.base.island_card_diy[4016] = {
 		resource = "islandphoto/4016",
 		name = "Le Malin Model",
 		type = 4,
@@ -183,8 +186,8 @@ pg.base.island_card_diy = {
 		tech_id = 0,
 		desc = "Le Malin Model",
 		jump_page = {}
-	},
-	[4017] = {
+	}
+	pg.base.island_card_diy[4017] = {
 		resource = "islandphoto/4017",
 		name = "Elite Simulationist",
 		type = 4,
@@ -198,8 +201,8 @@ pg.base.island_card_diy = {
 				{}
 			}
 		}
-	},
-	[4018] = {
+	}
+	pg.base.island_card_diy[4018] = {
 		resource = "islandphoto/4018",
 		name = "Ace Simulationist",
 		type = 4,
@@ -214,4 +217,4 @@ pg.base.island_card_diy = {
 			}
 		}
 	}
-}
+end)()

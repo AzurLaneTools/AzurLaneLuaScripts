@@ -1,6 +1,133 @@
 pg = pg or {}
-pg.island_furniture_template = {
-	{
+pg.island_furniture_template = rawget(pg, "island_furniture_template") or setmetatable({
+	__name = "island_furniture_template"
+}, confNEO)
+pg.island_furniture_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	100,
+	101,
+	10101,
+	10201,
+	10301,
+	10302,
+	10303,
+	10304,
+	10305,
+	10306,
+	10401,
+	10402,
+	10403,
+	10404,
+	10405,
+	10406,
+	10407,
+	10408,
+	10409,
+	10410,
+	10411,
+	10412,
+	10413,
+	10414,
+	10415,
+	10416,
+	10417,
+	10418,
+	10419,
+	10420,
+	10421,
+	10801,
+	10802,
+	10803,
+	20101,
+	20201,
+	20301,
+	20302,
+	20303,
+	20304,
+	20305,
+	20306,
+	20401,
+	20402,
+	20403,
+	20404,
+	20405,
+	20406,
+	20407,
+	20408,
+	20409,
+	20410,
+	20411,
+	20412,
+	20413,
+	20414,
+	20415,
+	20801,
+	20802,
+	20803,
+	30001,
+	30002,
+	30003,
+	30004,
+	30005,
+	30006,
+	30007,
+	30008,
+	30009,
+	30010,
+	30101,
+	30201,
+	30301,
+	30302,
+	30303,
+	30304,
+	30305,
+	30401,
+	30402,
+	30403,
+	30404,
+	30405,
+	30406,
+	30407,
+	30408,
+	30409,
+	30410,
+	30411,
+	30412,
+	30413,
+	30414,
+	30415,
+	30416,
+	30801,
+	30802,
+	30803
+}
+pg.base = pg.base or {}
+pg.base.island_furniture_template = {}
+
+(function ()
+	pg.base.island_furniture_template[1] = {
 		setNum = 1,
 		describe = "A quiet home away from home located in the woods. Live in tune with nature.",
 		name = "Forest Cabin",
@@ -20,8 +147,8 @@ pg.island_furniture_template = {
 			22
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[2] = {
 		setNum = 999,
 		describe = "A maple tree with gorgeous leaves as red as flames. It looks all the more beautiful when the wind blows through it.",
 		name = "Red-Leaved Tree",
@@ -41,8 +168,8 @@ pg.island_furniture_template = {
 			3
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[3] = {
 		setNum = 999,
 		describe = "Its wide leaves rustle in the wind and cast spotty shadows.",
 		name = "Broad-Leaved Tree",
@@ -62,8 +189,8 @@ pg.island_furniture_template = {
 			3
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[4] = {
 		setNum = 999,
 		describe = "Its fan-shaped leaves shake in the wind and color the whole scene a golden yellow.",
 		name = "Ginkgo",
@@ -88,8 +215,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	{
+	}
+	pg.base.island_furniture_template[5] = {
 		setNum = 999,
 		describe = "This shrubbery is tightly packed together. A rustling sound sometimes leaks through the foliage.",
 		name = "Green Shrubbery",
@@ -109,8 +236,8 @@ pg.island_furniture_template = {
 			3
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[6] = {
 		setNum = 999,
 		describe = "A shrubbery with little bright yellow flowers in bloom. Butterflies occasionally land on its branches.",
 		name = "Yellow Shrubbery",
@@ -130,8 +257,8 @@ pg.island_furniture_template = {
 			1
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[7] = {
 		setNum = 999,
 		describe = "A bunch of short flowers. They're huddled together and having a chat.",
 		name = "Small Flowers",
@@ -151,8 +278,8 @@ pg.island_furniture_template = {
 			1
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[8] = {
 		setNum = 999,
 		describe = "Its bright, yellow leaves cast dancing shadows on the ground. It's especially eye-catching under the sun.",
 		name = "Bright-Yellow Tree",
@@ -172,8 +299,8 @@ pg.island_furniture_template = {
 			3
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[9] = {
 		setNum = 999,
 		describe = "It has a dense crown that rustles and sways gently as the wind blows.",
 		name = "Green-Capped Tree",
@@ -198,8 +325,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	{
+	}
+	pg.base.island_furniture_template[10] = {
 		setNum = 999,
 		describe = "A young, yellow seedling. Little leaves grow from its slender twigs.",
 		name = "Yellow-Branched Seedling",
@@ -219,8 +346,8 @@ pg.island_furniture_template = {
 			3
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[11] = {
 		setNum = 999,
 		describe = "A young, green seedling. The morning dew lingers on its leaves.",
 		name = "Blue-Green Tree",
@@ -245,8 +372,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	{
+	}
+	pg.base.island_furniture_template[12] = {
 		setNum = 999,
 		describe = "Rustic terracotta tiles that give off a unique, hand-laid impression.",
 		name = "Terracotta Floor Tiles (Small)",
@@ -266,8 +393,8 @@ pg.island_furniture_template = {
 			2
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[13] = {
 		setNum = 999,
 		describe = "Rustic terracotta tiles that give off a unique, hand-laid impression.",
 		name = "Terracotta Floor Tiles (Medium)",
@@ -287,8 +414,8 @@ pg.island_furniture_template = {
 			3
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[14] = {
 		setNum = 999,
 		describe = "Rustic terracotta tiles that give off a unique, hand-laid impression.",
 		name = "Terracotta Floor Tiles (Large)",
@@ -308,8 +435,8 @@ pg.island_furniture_template = {
 			5
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[15] = {
 		setNum = 999,
 		describe = "Smooth, sturdy, and versatile floor tiling. Elegant to boot as well!",
 		name = "Porcelain Floor Tiles (Small)",
@@ -329,8 +456,8 @@ pg.island_furniture_template = {
 			2
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[16] = {
 		setNum = 999,
 		describe = "Smooth, sturdy, and versatile floor tiling. Elegant to boot as well!",
 		name = "Porcelain Floor Tiles (Medium)",
@@ -350,8 +477,8 @@ pg.island_furniture_template = {
 			3
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[17] = {
 		setNum = 999,
 		describe = "Smooth, sturdy, and versatile floor tiling. Elegant to boot as well!",
 		name = "Porcelain Floor Tiles (Large)",
@@ -371,8 +498,8 @@ pg.island_furniture_template = {
 			5
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[18] = {
 		setNum = 999,
 		describe = "Lovely floor tiles featuring asymmetrical patterns.",
 		name = "Mosaic Floor Tiles (Small)",
@@ -392,8 +519,8 @@ pg.island_furniture_template = {
 			2
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[19] = {
 		setNum = 999,
 		describe = "Lovely floor tiles featuring asymmetrical patterns.",
 		name = "Mosaic Floor Tiles (Medium)",
@@ -413,8 +540,8 @@ pg.island_furniture_template = {
 			3
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[20] = {
 		setNum = 999,
 		describe = "Lovely floor tiles featuring asymmetrical patterns.",
 		name = "Mosaic Floor Tiles (Large)",
@@ -434,8 +561,8 @@ pg.island_furniture_template = {
 			5
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[21] = {
 		setNum = 999,
 		describe = "Simple gray-colored floor tiles, durable and easy to match.",
 		name = "Gray Stone Floor Tiles (Small)",
@@ -455,8 +582,8 @@ pg.island_furniture_template = {
 			2
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[22] = {
 		setNum = 999,
 		describe = "Simple gray-colored floor tiles, durable and easy to match.",
 		name = "Gray Stone Floor Tiles (Medium)",
@@ -476,8 +603,8 @@ pg.island_furniture_template = {
 			3
 		},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_furniture_template[23] = {
 		setNum = 999,
 		describe = "Simple gray-colored floor tiles, durable and easy to match.",
 		name = "Gray Stone Floor Tiles (Large)",
@@ -497,8 +624,8 @@ pg.island_furniture_template = {
 			5
 		},
 		jump_page = {}
-	},
-	[100] = {
+	}
+	pg.base.island_furniture_template[100] = {
 		setNum = 1,
 		describe = "Ears of wheat flank this giant maple leaf. You can faintly smell the comforting aroma of maple syrup from it.",
 		name = "Autumnal Development Trophy",
@@ -523,8 +650,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[101] = {
+	}
+	pg.base.island_furniture_template[101] = {
 		setNum = 1,
 		describe = "The three hyacinths bloom together in a bunch, their petals transparent almost like they were sculpted from glass. You can smell a pure fragrance emitting from the trophy.",
 		name = "Spring Development Trophy",
@@ -549,8 +676,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10101] = {
+	}
+	pg.base.island_furniture_template[10101] = {
 		setNum = 1,
 		describe = "A detailed forest cabin. Enjoy a wonderful life in the countryside.",
 		name = "Villa in the Woods",
@@ -575,8 +702,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10201] = {
+	}
+	pg.base.island_furniture_template[10201] = {
 		setNum = 1,
 		describe = "An extra large bear couch set. It meets all your camping needs.",
 		name = "Beary Nice Couch Set",
@@ -600,8 +727,8 @@ pg.island_furniture_template = {
 			3
 		},
 		jump_page = {}
-	},
-	[10301] = {
+	}
+	pg.base.island_furniture_template[10301] = {
 		setNum = 999,
 		describe = "The table and chairs are illuminated by star lamps, creating a wonderful atmosphere.",
 		name = "Outdoor Table and Chairs",
@@ -628,8 +755,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10302] = {
+	}
+	pg.base.island_furniture_template[10302] = {
 		setNum = 999,
 		describe = "For the fishing enthusiasts. You could sit here and fish all day without issue!",
 		name = "Leisurely Fishing Chair",
@@ -651,8 +778,8 @@ pg.island_furniture_template = {
 			5
 		},
 		jump_page = {}
-	},
-	[10303] = {
+	}
+	pg.base.island_furniture_template[10303] = {
 		setNum = 999,
 		describe = "The anchor serves as a doorbell if you knock on it.",
 		name = "Camping Gate",
@@ -677,8 +804,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10304] = {
+	}
+	pg.base.island_furniture_template[10304] = {
 		setNum = 999,
 		describe = "Your villa on wheels is ready to set off at a moment's notice!",
 		name = "Camping Car",
@@ -703,8 +830,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10305] = {
+	}
+	pg.base.island_furniture_template[10305] = {
 		setNum = 999,
 		describe = "A bear cub hammock. Let the stars be your cradle.",
 		name = "Bear Cub Hammock",
@@ -729,8 +856,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10306] = {
+	}
+	pg.base.island_furniture_template[10306] = {
 		setNum = 999,
 		describe = "Portable, practical, and can be set up in a flash!",
 		name = "Camping Tent",
@@ -755,8 +882,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10401] = {
+	}
+	pg.base.island_furniture_template[10401] = {
 		setNum = 999,
 		describe = "The cat's dinner depends on you. Catch some fish!",
 		name = "Small Boat Fishing Spot",
@@ -783,8 +910,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10402] = {
+	}
+	pg.base.island_furniture_template[10402] = {
 		setNum = 999,
 		describe = "The spirit of camping lies in gathering around a campfire, roasting barbecue, and telling stories!",
 		name = "Campfire",
@@ -809,8 +936,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10403] = {
+	}
+	pg.base.island_furniture_template[10403] = {
 		setNum = 999,
 		describe = "There's room for two if you squeeze in!",
 		name = "Camping Bath",
@@ -837,8 +964,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10404] = {
+	}
+	pg.base.island_furniture_template[10404] = {
 		setNum = 999,
 		describe = "An ornament shaped like a bear cub, made of rocks. How adorable.",
 		name = "Beary Nice Stone Ornament",
@@ -863,8 +990,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10405] = {
+	}
+	pg.base.island_furniture_template[10405] = {
 		setNum = 999,
 		describe = "A bus stop with a bear motif. Enjoy your surroundings for a bit while you wait for the bus!",
 		name = "Beary Nice Bus Stop",
@@ -889,8 +1016,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10406] = {
+	}
+	pg.base.island_furniture_template[10406] = {
 		setNum = 999,
 		describe = "The leaves make a rustling sound as the wind blows through them.",
 		name = "Pile of Leaves",
@@ -915,8 +1042,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10407] = {
+	}
+	pg.base.island_furniture_template[10407] = {
 		setNum = 999,
 		describe = "A standard outdoor barbecue set. It has all the basics.",
 		name = "Portable Grill Set",
@@ -941,8 +1068,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10408] = {
+	}
+	pg.base.island_furniture_template[10408] = {
 		setNum = 999,
 		describe = "A seesaw for the little ones. Put on your bear ear hat and come play!",
 		name = "Beary Nice Seesaw",
@@ -969,8 +1096,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10409] = {
+	}
+	pg.base.island_furniture_template[10409] = {
 		setNum = 999,
 		describe = "A pump that's easy to operate. Super convenient and lets you get water anywhere!",
 		name = "Water Pump",
@@ -995,8 +1122,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10410] = {
+	}
+	pg.base.island_furniture_template[10410] = {
 		setNum = 999,
 		describe = "A reminder that you're in a dangerous area. Remember: Safety first!",
 		name = "Warning Board",
@@ -1021,8 +1148,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10411] = {
+	}
+	pg.base.island_furniture_template[10411] = {
 		setNum = 999,
 		describe = "An axe and a tree stump. Lets you chop wood with ease!",
 		name = "Wood-Chopping Set",
@@ -1047,8 +1174,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10412] = {
+	}
+	pg.base.island_furniture_template[10412] = {
 		setNum = 999,
 		describe = "A fence with lights installed. Keeps things bright and safe even at night!",
 		name = "Lit Fence",
@@ -1073,8 +1200,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10413] = {
+	}
+	pg.base.island_furniture_template[10413] = {
 		setNum = 999,
 		describe = "A barricade made of wood. Reliability that you can... well, rely on!",
 		name = "Wooden Barricade",
@@ -1099,8 +1226,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10414] = {
+	}
+	pg.base.island_furniture_template[10414] = {
 		setNum = 999,
 		describe = "A protective fence made of steel. Modest and dependable!",
 		name = "Steel Fence",
@@ -1125,8 +1252,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10415] = {
+	}
+	pg.base.island_furniture_template[10415] = {
 		setNum = 999,
 		describe = "A needle-leaved small tree that's just started growing. It's brimming with vitality.",
 		name = "New Cedar",
@@ -1151,8 +1278,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10416] = {
+	}
+	pg.base.island_furniture_template[10416] = {
 		setNum = 999,
 		describe = "A deep-green giant tree that grows straight upward. Its aroma spreads to its surroundings.",
 		name = "Green Pine",
@@ -1177,8 +1304,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10417] = {
+	}
+	pg.base.island_furniture_template[10417] = {
 		setNum = 999,
 		describe = "A soft stuffed bear. Hugging it brings you comfort.",
 		name = "Stuffed Bear",
@@ -1203,8 +1330,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10418] = {
+	}
+	pg.base.island_furniture_template[10418] = {
 		setNum = 999,
 		describe = "A handmade miniature container. It smells faintly of wood.",
 		name = "Small Wooden barrel",
@@ -1229,8 +1356,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10419] = {
+	}
+	pg.base.island_furniture_template[10419] = {
 		setNum = 999,
 		describe = "It would be a good idea to stock it full of wilderness survival gear!",
 		name = "Forest House",
@@ -1250,8 +1377,8 @@ pg.island_furniture_template = {
 			3
 		},
 		jump_page = {}
-	},
-	[10420] = {
+	}
+	pg.base.island_furniture_template[10420] = {
 		setNum = 999,
 		describe = "A light pole that stands upright. Provides warm light during the night.",
 		name = "Light Pole",
@@ -1276,8 +1403,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10421] = {
+	}
+	pg.base.island_furniture_template[10421] = {
 		setNum = 999,
 		describe = "A high-spec telescope. It'll take you on a journey into outer space.",
 		name = "Deep Space Explorer",
@@ -1302,8 +1429,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[10801] = {
+	}
+	pg.base.island_furniture_template[10801] = {
 		setNum = 999,
 		describe = "A simple walkway surface made with wooden planks, allowing you to enjoy a laid-back stroll.",
 		name = "Wooden Walkway (Small)",
@@ -1323,8 +1450,8 @@ pg.island_furniture_template = {
 			2
 		},
 		jump_page = {}
-	},
-	[10802] = {
+	}
+	pg.base.island_furniture_template[10802] = {
 		setNum = 999,
 		describe = "A simple walkway surface made with wooden planks, allowing you to enjoy a laid-back stroll.",
 		name = "Wooden Walkway (Medium)",
@@ -1344,8 +1471,8 @@ pg.island_furniture_template = {
 			3
 		},
 		jump_page = {}
-	},
-	[10803] = {
+	}
+	pg.base.island_furniture_template[10803] = {
 		setNum = 999,
 		describe = "A simple walkway surface made with wooden planks, allowing you to enjoy a laid-back stroll.",
 		name = "Wooden Walkway (Large)",
@@ -1365,8 +1492,8 @@ pg.island_furniture_template = {
 			5
 		},
 		jump_page = {}
-	},
-	[20101] = {
+	}
+	pg.base.island_furniture_template[20101] = {
 		setNum = 1,
 		describe = "A comfortable house. Come in and feel the calm and wabi-sabi.",
 		name = "Maple Moon House",
@@ -1391,8 +1518,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20201] = {
+	}
+	pg.base.island_furniture_template[20201] = {
 		setNum = 1,
 		describe = "Soak in the hot spring and relax your body and spirit. Enjoy a moment of stillness.",
 		name = "Hot Spring Bath",
@@ -1420,8 +1547,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20301] = {
+	}
+	pg.base.island_furniture_template[20301] = {
 		setNum = 999,
 		describe = "Whether you just want to sit down or drink tea or play with the tanuki, you're welcome to do anything you like.",
 		name = "Tanuki Teahouse",
@@ -1448,8 +1575,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20302] = {
+	}
+	pg.base.island_furniture_template[20302] = {
 		setNum = 999,
 		describe = "Care to show off your skills? Be they dancing, martial arts, or your unique talent.",
 		name = "Loosey-Goosey Stage",
@@ -1474,8 +1601,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20303] = {
+	}
+	pg.base.island_furniture_template[20303] = {
 		setNum = 999,
 		describe = "It wants fried tofu.",
 		name = "Fox Shrine",
@@ -1500,8 +1627,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20304] = {
+	}
+	pg.base.island_furniture_template[20304] = {
 		setNum = 999,
 		describe = "The ingredients are ready! Tonight, we're having a fancy sushi feast!",
 		name = "Sushi Table",
@@ -1526,8 +1653,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20305] = {
+	}
+	pg.base.island_furniture_template[20305] = {
 		setNum = 999,
 		describe = "An elegant folding screen. Can be used as a decoration or as a partition.",
 		name = "Folding Screen",
@@ -1552,8 +1679,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20306] = {
+	}
+	pg.base.island_furniture_template[20306] = {
 		setNum = 999,
 		describe = "An umbrella for outdoor tea ceremonies so you can enjoy a warm drink even in the rain.",
 		name = "Tea Ceremony Umbrella",
@@ -1578,8 +1705,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20401] = {
+	}
+	pg.base.island_furniture_template[20401] = {
 		setNum = 999,
 		describe = "Back and forth and forth and back we go!",
 		name = "Maple Swing",
@@ -1606,8 +1733,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20402] = {
+	}
+	pg.base.island_furniture_template[20402] = {
 		setNum = 999,
 		describe = "A downward cut? A straight cut? A diagonal cut!",
 		name = "Practice Bale",
@@ -1632,8 +1759,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20403] = {
+	}
+	pg.base.island_furniture_template[20403] = {
 		setNum = 999,
 		describe = "The goldfish are having a relaxed swim. Don't disturb them.",
 		name = "Goldfish River",
@@ -1658,8 +1785,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20404] = {
+	}
+	pg.base.island_furniture_template[20404] = {
 		setNum = 999,
 		describe = "Black bunnies, white bunnies, black and white bunnies stacked on top!",
 		name = "Black Bunny",
@@ -1684,8 +1811,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20405] = {
+	}
+	pg.base.island_furniture_template[20405] = {
 		setNum = 999,
 		describe = "Black bunnies, white bunnies, black and white bunnies huddled together!",
 		name = "White Bunny",
@@ -1710,8 +1837,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20406] = {
+	}
+	pg.base.island_furniture_template[20406] = {
 		setNum = 999,
 		describe = "Do you want a present? Then make a wish!",
 		name = "Wishing Tanuki",
@@ -1736,8 +1863,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20407] = {
+	}
+	pg.base.island_furniture_template[20407] = {
 		setNum = 999,
 		describe = "Mega-sized and adorable! Once you're done bathing, get on top of it and relax!",
 		name = "Up-Facing Capybara",
@@ -1764,8 +1891,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20408] = {
+	}
+	pg.base.island_furniture_template[20408] = {
 		setNum = 999,
 		describe = "Can be switched between facing up and down whenever you like. Cuddle with it in your favorite position.",
 		name = "Down-Facing Capybara",
@@ -1790,8 +1917,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20409] = {
+	}
+	pg.base.island_furniture_template[20409] = {
 		setNum = 999,
 		describe = "Like butterflies, the red leaves flutter, making for a romantic autumn.",
 		name = "Lovely Red Maple",
@@ -1816,8 +1943,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20410] = {
+	}
+	pg.base.island_furniture_template[20410] = {
 		setNum = 999,
 		describe = "The falling paulownia leaves add a hint of autumn atmosphere and tranquility.",
 		name = "Paulownia Leaves",
@@ -1842,8 +1969,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20411] = {
+	}
+	pg.base.island_furniture_template[20411] = {
 		setNum = 999,
 		describe = "This pile of golden leaves brings a warm and tranquil vibe to your garden.",
 		name = "Gingko Leaves",
@@ -1868,8 +1995,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20412] = {
+	}
+	pg.base.island_furniture_template[20412] = {
 		setNum = 999,
 		describe = "Sometimes, even mushrooms get together.",
 		name = "Symbiotic Mushrooms",
@@ -1894,8 +2021,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20413] = {
+	}
+	pg.base.island_furniture_template[20413] = {
 		setNum = 999,
 		describe = "A long-lived tree stump, as evidenced by its growth rings. Its rough texture speaks to nature's vicissitudes.",
 		name = "Old Tree Stump",
@@ -1920,8 +2047,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20414] = {
+	}
+	pg.base.island_furniture_template[20414] = {
 		setNum = 999,
 		describe = "An unprocessed pine log. It smells faintly of pine, unsurprisingly.",
 		name = "Pine Log",
@@ -1946,8 +2073,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20415] = {
+	}
+	pg.base.island_furniture_template[20415] = {
 		setNum = 999,
 		describe = "A small collection of tree stumps dotting the landscape. Follow it into the woods.",
 		name = "Group of Stumps",
@@ -1972,8 +2099,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20801] = {
+	}
+	pg.base.island_furniture_template[20801] = {
 		setNum = 999,
 		describe = "An autumn pasture covering the ground. You can sense a faint warmth from it.",
 		name = "Autumn Pasture (Small)",
@@ -1998,8 +2125,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20802] = {
+	}
+	pg.base.island_furniture_template[20802] = {
 		setNum = 999,
 		describe = "An autumn pasture covering the ground. You can sense a faint warmth from it.",
 		name = "Autumn Pasture (Medium)",
@@ -2024,8 +2151,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[20803] = {
+	}
+	pg.base.island_furniture_template[20803] = {
 		setNum = 999,
 		describe = "An autumn pasture covering the ground. You can sense a faint warmth from it.",
 		name = "Autumn Pasture (Large)",
@@ -2050,8 +2177,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30001] = {
+	}
+	pg.base.island_furniture_template[30001] = {
 		setNum = 999,
 		describe = "A traditional stone courtyard lamp that casts warm light across garden paths, creating calmness and tranquility that melts into the evening.",
 		name = "Warm-Hue Stone Pole Lamp",
@@ -2071,8 +2198,8 @@ pg.island_furniture_template = {
 			1
 		},
 		jump_page = {}
-	},
-	[30002] = {
+	}
+	pg.base.island_furniture_template[30002] = {
 		setNum = 999,
 		describe = "A traditional stone courtyard lamp that casts warm light across garden paths, creating calmness and tranquility that melts into the evening.",
 		name = "Warm-Hue Stone Pole Lamp (Medium)",
@@ -2097,8 +2224,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30003] = {
+	}
+	pg.base.island_furniture_template[30003] = {
 		setNum = 999,
 		describe = "This adorable rabbit-themed night light is good for more than just decoration; it also emits a gentle light.",
 		name = "Bunnyrific Night Light",
@@ -2118,8 +2245,8 @@ pg.island_furniture_template = {
 			1
 		},
 		jump_page = {}
-	},
-	[30004] = {
+	}
+	pg.base.island_furniture_template[30004] = {
 		setNum = 999,
 		describe = "A traditional decoration that provides soft area lighting, accenting the tranquility of the night.",
 		name = "Courtyard Paper Lantern",
@@ -2144,8 +2271,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30005] = {
+	}
+	pg.base.island_furniture_template[30005] = {
 		setNum = 999,
 		describe = "A simple arched wooden bridge spanning a pond in the courtyard.",
 		name = "Autumn-Leaf Bridge",
@@ -2170,8 +2297,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30006] = {
+	}
+	pg.base.island_furniture_template[30006] = {
 		setNum = 999,
 		describe = "Garden railing made of sturdy stone. It is cool to the touch.",
 		name = "Stone Railing",
@@ -2196,8 +2323,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30007] = {
+	}
+	pg.base.island_furniture_template[30007] = {
 		setNum = 999,
 		describe = "An iron fence decorated with a floral pattern, providing safety with style.",
 		name = "Iron Fence",
@@ -2222,8 +2349,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30008] = {
+	}
+	pg.base.island_furniture_template[30008] = {
 		setNum = 999,
 		describe = "Trees provide the atmosphere for the garden, always verdant even through the changing seasons.",
 		name = "Spruce Tree",
@@ -2248,8 +2375,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30009] = {
+	}
+	pg.base.island_furniture_template[30009] = {
 		setNum = 999,
 		describe = "A variety of landscape trees carefully pruned into sophisticated shapes.",
 		name = "Ambient Tree",
@@ -2274,8 +2401,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30010] = {
+	}
+	pg.base.island_furniture_template[30010] = {
 		setNum = 999,
 		describe = "Lovely light-blue, star-shaped flowers, perfect for adding a splash of color to a flowerbed's edge or for accenting the garden's perimeters.",
 		name = "Bluestar Flower",
@@ -2300,8 +2427,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30101] = {
+	}
+	pg.base.island_furniture_template[30101] = {
 		setNum = 1,
 		describe = "A courtyard-style building that blends seamlessly with the garden, providing a space perfect for relaxation and enjoying the flowers.",
 		name = "Tranquil Garden",
@@ -2326,8 +2453,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30201] = {
+	}
+	pg.base.island_furniture_template[30201] = {
 		setNum = 1,
 		describe = "Sunlight streams through the glass roof, and the colors of the seasons quietly bloom.",
 		name = "Glass Conservatory",
@@ -2355,8 +2482,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30301] = {
+	}
+	pg.base.island_furniture_template[30301] = {
 		setNum = 999,
 		describe = "Tea set at the ready. Let us welcome our afternoon teatime!",
 		name = "Afternoon Gazebo",
@@ -2383,8 +2510,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30302] = {
+	}
+	pg.base.island_furniture_template[30302] = {
 		setNum = 999,
 		describe = "Legend has it that a shooting star will appear if you stand atop the bridge and make a wish!",
 		name = "Starwisher Bridge",
@@ -2409,8 +2536,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30303] = {
+	}
+	pg.base.island_furniture_template[30303] = {
 		setNum = 999,
 		describe = "An archway, trimmed from verdant greenery, topped with a classical chandelier to illuminate the garden entrance.",
 		name = "Flower Garden Arch",
@@ -2435,8 +2562,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30304] = {
+	}
+	pg.base.island_furniture_template[30304] = {
 		setNum = 999,
 		describe = "A beautiful world open to all!",
 		name = "Flower Garden Gate",
@@ -2461,8 +2588,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30305] = {
+	}
+	pg.base.island_furniture_template[30305] = {
 		setNum = 999,
 		describe = "Enjoy a relaxing afternoon teatime surrounded by the fragrance of sweets.",
 		name = "Flower Garden Table Set",
@@ -2487,8 +2614,10 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30401] = {
+	}
+end)()
+(function ()
+	pg.base.island_furniture_template[30401] = {
 		setNum = 999,
 		describe = "Bathe in the sunshine and sway along with the sunflowers in the gentle breeze.",
 		name = "Flower Garden Swing",
@@ -2515,8 +2644,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30402] = {
+	}
+	pg.base.island_furniture_template[30402] = {
 		setNum = 999,
 		describe = "Toss in a coin and listen to the sound of the water reverberate with the lingering echoes of your wishes.",
 		name = "Wishing Fountain",
@@ -2543,8 +2672,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30403] = {
+	}
+	pg.base.island_furniture_template[30403] = {
 		setNum = 999,
 		describe = "One pat on the head to make your day!",
 		name = "Lucky Manjuu Statue",
@@ -2571,8 +2700,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30404] = {
+	}
+	pg.base.island_furniture_template[30404] = {
 		setNum = 999,
 		describe = "Shh... Guests often come by the water basin, so be careful not to disturb them.",
 		name = "Bird Bath",
@@ -2597,8 +2726,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30405] = {
+	}
+	pg.base.island_furniture_template[30405] = {
 		setNum = 999,
 		describe = "An old-fashioned bathtub, perfect for relaxation. Want to try the temperature?",
 		name = "Classical Bathtub",
@@ -2623,8 +2752,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30406] = {
+	}
+	pg.base.island_furniture_template[30406] = {
 		setNum = 999,
 		describe = "A flowerbed beloved by butterflies, perfectly snapshotting the fleeting beauty of spring.",
 		name = "Butterfly Flowerbed",
@@ -2649,8 +2778,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30407] = {
+	}
+	pg.base.island_furniture_template[30407] = {
 		setNum = 999,
 		describe = "Collect these golden sunflowers, and the sun's warm blessings will come home with you as well!",
 		name = "Sunflower Bouquet",
@@ -2675,8 +2804,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30408] = {
+	}
+	pg.base.island_furniture_template[30408] = {
 		setNum = 999,
 		describe = "Classical patterns are engraved upon these patterns, telling the story of an era bygone.",
 		name = "Classical Stone Column",
@@ -2701,8 +2830,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30409] = {
+	}
+	pg.base.island_furniture_template[30409] = {
 		setNum = 999,
 		describe = "These almost completely-broken ruins stand as yet another silent witness.",
 		name = "Stone Pillar Ruins (Small)",
@@ -2727,8 +2856,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30410] = {
+	}
+	pg.base.island_furniture_template[30410] = {
 		setNum = 999,
 		describe = "A broken stone pillar, only half intact at this point. Only some traces of its former carvings remain.",
 		name = "Stone Pillar Ruins (Medium)",
@@ -2753,8 +2882,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30411] = {
+	}
+	pg.base.island_furniture_template[30411] = {
 		setNum = 999,
 		describe = "These ruined pillars now serve as a makeshift habitat for small animals.",
 		name = "Stone Pillar Ruins (Fallen)",
@@ -2779,8 +2908,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30412] = {
+	}
+	pg.base.island_furniture_template[30412] = {
 		setNum = 999,
 		describe = "Only the frame of this ancient stone gateway remains. It seems to lead to a lost, unexplored realm.",
 		name = "Stone Gate Ruins",
@@ -2805,8 +2934,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30413] = {
+	}
+	pg.base.island_furniture_template[30413] = {
 		setNum = 999,
 		describe = "A mega-sized vase! The most eye-catching sight in the garden!",
 		name = "Decorative Vase",
@@ -2831,8 +2960,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30414] = {
+	}
+	pg.base.island_furniture_template[30414] = {
 		setNum = 999,
 		describe = "Old-fashioned streetlights illuminate the cobblestone path, providing a warm glow for a peaceful night.",
 		name = "Old-Fashioned Garden Lamp",
@@ -2857,8 +2986,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30415] = {
+	}
+	pg.base.island_furniture_template[30415] = {
 		setNum = 999,
 		describe = "Ornamental flowers planted neatly along the garden path.",
 		name = "Ambient Flowers",
@@ -2883,8 +3012,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30416] = {
+	}
+	pg.base.island_furniture_template[30416] = {
 		setNum = 999,
 		describe = "Neat and well-maintained flowerbeds display the beautiful aesthetic garden for your viewing pleasure.",
 		name = "Ambient Flowerbed",
@@ -2909,8 +3038,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30801] = {
+	}
+	pg.base.island_furniture_template[30801] = {
 		setNum = 999,
 		describe = "Garden stone paving made from natural rocks of all shapes and sizes. Strong and durable.",
 		name = "Cobblestone (Small)",
@@ -2935,8 +3064,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30802] = {
+	}
+	pg.base.island_furniture_template[30802] = {
 		setNum = 999,
 		describe = "Garden stone paving made from natural rocks of all shapes and sizes. Strong and durable.",
 		name = "Cobblestone (Medium)",
@@ -2961,8 +3090,8 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	[30803] = {
+	}
+	pg.base.island_furniture_template[30803] = {
 		setNum = 999,
 		describe = "Garden stone paving made from natural rocks of all shapes and sizes. Strong and durable.",
 		name = "Cobblestone (Large)",
@@ -2987,126 +3116,5 @@ pg.island_furniture_template = {
 				{}
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		100,
-		101,
-		10101,
-		10201,
-		10301,
-		10302,
-		10303,
-		10304,
-		10305,
-		10306,
-		10401,
-		10402,
-		10403,
-		10404,
-		10405,
-		10406,
-		10407,
-		10408,
-		10409,
-		10410,
-		10411,
-		10412,
-		10413,
-		10414,
-		10415,
-		10416,
-		10417,
-		10418,
-		10419,
-		10420,
-		10421,
-		10801,
-		10802,
-		10803,
-		20101,
-		20201,
-		20301,
-		20302,
-		20303,
-		20304,
-		20305,
-		20306,
-		20401,
-		20402,
-		20403,
-		20404,
-		20405,
-		20406,
-		20407,
-		20408,
-		20409,
-		20410,
-		20411,
-		20412,
-		20413,
-		20414,
-		20415,
-		20801,
-		20802,
-		20803,
-		30001,
-		30002,
-		30003,
-		30004,
-		30005,
-		30006,
-		30007,
-		30008,
-		30009,
-		30010,
-		30101,
-		30201,
-		30301,
-		30302,
-		30303,
-		30304,
-		30305,
-		30401,
-		30402,
-		30403,
-		30404,
-		30405,
-		30406,
-		30407,
-		30408,
-		30409,
-		30410,
-		30411,
-		30412,
-		30413,
-		30414,
-		30415,
-		30416,
-		30801,
-		30802,
-		30803
 	}
-}
+end)()

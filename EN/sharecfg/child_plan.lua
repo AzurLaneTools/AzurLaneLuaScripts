@@ -1,6 +1,103 @@
 pg = pg or {}
-pg.child_plan = {
-	[1101] = {
+pg.child_plan = rawget(pg, "child_plan") or setmetatable({
+	__name = "child_plan"
+}, confNEO)
+pg.child_plan.all = {
+	1101,
+	1102,
+	1103,
+	1104,
+	1105,
+	1106,
+	1107,
+	1108,
+	1109,
+	1110,
+	1111,
+	1112,
+	1113,
+	1114,
+	1115,
+	1116,
+	1117,
+	1118,
+	1119,
+	1120,
+	1121,
+	1122,
+	1123,
+	1124,
+	1125,
+	1126,
+	1127,
+	1128,
+	1129,
+	1130,
+	1201,
+	1202,
+	1203,
+	1204,
+	1205,
+	1206,
+	1207,
+	1208,
+	1209,
+	1210,
+	1211,
+	1212,
+	1213,
+	1214,
+	1215,
+	1216,
+	1217,
+	1218,
+	1219,
+	1220,
+	1221,
+	1222,
+	1223,
+	1224,
+	1225,
+	1226,
+	1227,
+	1301,
+	1302,
+	1303,
+	1304,
+	1305,
+	1306,
+	1307,
+	1308,
+	1310,
+	1311,
+	1312,
+	1313,
+	1314,
+	1315,
+	1316,
+	1317,
+	1318,
+	1319,
+	1320,
+	1321,
+	1322,
+	1323,
+	1324,
+	1325,
+	1326,
+	1327,
+	1328,
+	1329,
+	1330,
+	1331,
+	1404,
+	1402
+}
+pg.base = pg.base or {}
+pg.base.child_plan = {}
+
+(function ()
+	pg.base.child_plan[1101] = {
 		name = "Cook Food",
 		type = 1,
 		cost_resource2 = 0,
@@ -58,8 +155,8 @@ pg.child_plan = {
 			110101,
 			110102
 		}
-	},
-	[1102] = {
+	}
+	pg.base.child_plan[1102] = {
 		name = "Wash Up",
 		type = 1,
 		cost_resource2 = 0,
@@ -112,8 +209,8 @@ pg.child_plan = {
 			110201,
 			110202
 		}
-	},
-	[1103] = {
+	}
+	pg.base.child_plan[1103] = {
 		name = "Read a Story",
 		type = 1,
 		cost_resource2 = 0,
@@ -166,8 +263,8 @@ pg.child_plan = {
 			110301,
 			110302
 		}
-	},
-	[1104] = {
+	}
+	pg.base.child_plan[1104] = {
 		name = "Play with Wooden Blocks",
 		type = 1,
 		cost_resource2 = 0,
@@ -220,8 +317,8 @@ pg.child_plan = {
 			110401,
 			110402
 		}
-	},
-	[1105] = {
+	}
+	pg.base.child_plan[1105] = {
 		name = "Exercise",
 		type = 1,
 		cost_resource2 = 0,
@@ -274,8 +371,8 @@ pg.child_plan = {
 			110501,
 			110502
 		}
-	},
-	[1106] = {
+	}
+	pg.base.child_plan[1106] = {
 		name = "Bathe",
 		type = 1,
 		cost_resource2 = 0,
@@ -333,8 +430,8 @@ pg.child_plan = {
 			110601,
 			110602
 		}
-	},
-	[1107] = {
+	}
+	pg.base.child_plan[1107] = {
 		name = "Basic Reading",
 		type = 1,
 		cost_resource2 = 1,
@@ -422,8 +519,8 @@ pg.child_plan = {
 			110701,
 			110702
 		}
-	},
-	[1108] = {
+	}
+	pg.base.child_plan[1108] = {
 		name = "Intermediate Reading",
 		type = 1,
 		cost_resource2 = 1,
@@ -520,8 +617,8 @@ pg.child_plan = {
 			110801,
 			110802
 		}
-	},
-	[1109] = {
+	}
+	pg.base.child_plan[1109] = {
 		name = "Advanced Reading",
 		type = 1,
 		cost_resource2 = 2,
@@ -618,8 +715,8 @@ pg.child_plan = {
 			110901,
 			110902
 		}
-	},
-	[1110] = {
+	}
+	pg.base.child_plan[1110] = {
 		name = "Basic Gymnastics",
 		type = 1,
 		cost_resource2 = 0,
@@ -707,8 +804,8 @@ pg.child_plan = {
 			111001,
 			111002
 		}
-	},
-	[1111] = {
+	}
+	pg.base.child_plan[1111] = {
 		name = "Intermediate Gymnastics",
 		type = 1,
 		cost_resource2 = 0,
@@ -805,8 +902,8 @@ pg.child_plan = {
 			111101,
 			111102
 		}
-	},
-	[1112] = {
+	}
+	pg.base.child_plan[1112] = {
 		name = "Advanced Gymnastics",
 		type = 1,
 		cost_resource2 = 2,
@@ -903,8 +1000,8 @@ pg.child_plan = {
 			111201,
 			111202
 		}
-	},
-	[1113] = {
+	}
+	pg.base.child_plan[1113] = {
 		name = "Basic Handicrafts",
 		type = 1,
 		cost_resource2 = 0,
@@ -992,8 +1089,8 @@ pg.child_plan = {
 			111301,
 			111302
 		}
-	},
-	[1114] = {
+	}
+	pg.base.child_plan[1114] = {
 		name = "Intermediate Handicrafts",
 		type = 1,
 		cost_resource2 = 0,
@@ -1090,8 +1187,8 @@ pg.child_plan = {
 			111401,
 			111402
 		}
-	},
-	[1115] = {
+	}
+	pg.base.child_plan[1115] = {
 		name = "Advanced Handicrafts",
 		type = 1,
 		cost_resource2 = 2,
@@ -1188,8 +1285,8 @@ pg.child_plan = {
 			111501,
 			111502
 		}
-	},
-	[1116] = {
+	}
+	pg.base.child_plan[1116] = {
 		name = "Basic Music",
 		type = 1,
 		cost_resource2 = 0,
@@ -1277,8 +1374,8 @@ pg.child_plan = {
 			111601,
 			111602
 		}
-	},
-	[1117] = {
+	}
+	pg.base.child_plan[1117] = {
 		name = "Intermediate Music",
 		type = 1,
 		cost_resource2 = 1,
@@ -1375,8 +1472,8 @@ pg.child_plan = {
 			111701,
 			111702
 		}
-	},
-	[1118] = {
+	}
+	pg.base.child_plan[1118] = {
 		name = "Advanced Music",
 		type = 1,
 		cost_resource2 = 2,
@@ -1473,8 +1570,8 @@ pg.child_plan = {
 			111801,
 			111802
 		}
-	},
-	[1119] = {
+	}
+	pg.base.child_plan[1119] = {
 		name = "Basic Art",
 		type = 1,
 		cost_resource2 = 0,
@@ -1578,8 +1675,8 @@ pg.child_plan = {
 			111901,
 			111902
 		}
-	},
-	[1120] = {
+	}
+	pg.base.child_plan[1120] = {
 		name = "Intermediate Art",
 		type = 1,
 		cost_resource2 = 1,
@@ -1686,8 +1783,8 @@ pg.child_plan = {
 			112001,
 			112002
 		}
-	},
-	[1121] = {
+	}
+	pg.base.child_plan[1121] = {
 		name = "Advanced Art",
 		type = 1,
 		cost_resource2 = 3,
@@ -1794,8 +1891,8 @@ pg.child_plan = {
 			112101,
 			112102
 		}
-	},
-	[1122] = {
+	}
+	pg.base.child_plan[1122] = {
 		name = "Basic Dancing",
 		type = 1,
 		cost_resource2 = 0,
@@ -1899,8 +1996,8 @@ pg.child_plan = {
 			112201,
 			112202
 		}
-	},
-	[1123] = {
+	}
+	pg.base.child_plan[1123] = {
 		name = "Intermediate Dancing",
 		type = 1,
 		cost_resource2 = 1,
@@ -2007,8 +2104,8 @@ pg.child_plan = {
 			112301,
 			112302
 		}
-	},
-	[1124] = {
+	}
+	pg.base.child_plan[1124] = {
 		name = "Advanced Dancing",
 		type = 1,
 		cost_resource2 = 3,
@@ -2115,8 +2212,8 @@ pg.child_plan = {
 			112401,
 			112402
 		}
-	},
-	[1125] = {
+	}
+	pg.base.child_plan[1125] = {
 		name = "Basic Stagecraft",
 		type = 1,
 		cost_resource2 = 0,
@@ -2220,8 +2317,8 @@ pg.child_plan = {
 			112501,
 			112502
 		}
-	},
-	[1126] = {
+	}
+	pg.base.child_plan[1126] = {
 		name = "Intermediate Stagecraft",
 		type = 1,
 		cost_resource2 = 2,
@@ -2328,8 +2425,8 @@ pg.child_plan = {
 			112601,
 			112602
 		}
-	},
-	[1127] = {
+	}
+	pg.base.child_plan[1127] = {
 		name = "Advanced Stagecraft",
 		type = 1,
 		cost_resource2 = 3,
@@ -2436,8 +2533,8 @@ pg.child_plan = {
 			112701,
 			112702
 		}
-	},
-	[1128] = {
+	}
+	pg.base.child_plan[1128] = {
 		name = "Basic Calligraphy",
 		type = 1,
 		cost_resource2 = 1,
@@ -2541,8 +2638,8 @@ pg.child_plan = {
 			112801,
 			112802
 		}
-	},
-	[1129] = {
+	}
+	pg.base.child_plan[1129] = {
 		name = "Intermediate Calligraphy",
 		type = 1,
 		cost_resource2 = 1,
@@ -2649,8 +2746,8 @@ pg.child_plan = {
 			112901,
 			112902
 		}
-	},
-	[1130] = {
+	}
+	pg.base.child_plan[1130] = {
 		name = "Advanced Calligraphy",
 		type = 1,
 		cost_resource2 = 1,
@@ -2757,8 +2854,8 @@ pg.child_plan = {
 			113001,
 			113002
 		}
-	},
-	[1201] = {
+	}
+	pg.base.child_plan[1201] = {
 		name = "Basic Cooking",
 		type = 2,
 		cost_resource2 = 5,
@@ -2856,8 +2953,8 @@ pg.child_plan = {
 			120101,
 			120102
 		}
-	},
-	[1202] = {
+	}
+	pg.base.child_plan[1202] = {
 		name = "Intermediate Cooking",
 		type = 2,
 		cost_resource2 = 6,
@@ -2958,8 +3055,8 @@ pg.child_plan = {
 			120201,
 			120202
 		}
-	},
-	[1203] = {
+	}
+	pg.base.child_plan[1203] = {
 		name = "Advanced Cooking",
 		type = 2,
 		cost_resource2 = 6,
@@ -3060,8 +3157,8 @@ pg.child_plan = {
 			120301,
 			120302
 		}
-	},
-	[1204] = {
+	}
+	pg.base.child_plan[1204] = {
 		name = "Basic Gardening",
 		type = 2,
 		cost_resource2 = 5,
@@ -3159,8 +3256,8 @@ pg.child_plan = {
 			120401,
 			120402
 		}
-	},
-	[1205] = {
+	}
+	pg.base.child_plan[1205] = {
 		name = "Intermediate Gardening",
 		type = 2,
 		cost_resource2 = 6,
@@ -3261,8 +3358,8 @@ pg.child_plan = {
 			120501,
 			120502
 		}
-	},
-	[1206] = {
+	}
+	pg.base.child_plan[1206] = {
 		name = "Advanced Gardening",
 		type = 2,
 		cost_resource2 = 7,
@@ -3363,8 +3460,8 @@ pg.child_plan = {
 			120601,
 			120602
 		}
-	},
-	[1207] = {
+	}
+	pg.base.child_plan[1207] = {
 		name = "Basic Exercise",
 		type = 2,
 		cost_resource2 = 6,
@@ -3457,8 +3554,8 @@ pg.child_plan = {
 			120701,
 			120702
 		}
-	},
-	[1208] = {
+	}
+	pg.base.child_plan[1208] = {
 		name = "Intermediate Exercise",
 		type = 2,
 		cost_resource2 = 7,
@@ -3554,8 +3651,8 @@ pg.child_plan = {
 			120801,
 			120802
 		}
-	},
-	[1209] = {
+	}
+	pg.base.child_plan[1209] = {
 		name = "Advanced Exercise",
 		type = 2,
 		cost_resource2 = 8,
@@ -3651,8 +3748,8 @@ pg.child_plan = {
 			120901,
 			120902
 		}
-	},
-	[1210] = {
+	}
+	pg.base.child_plan[1210] = {
 		name = "Basic Sketching",
 		type = 2,
 		cost_resource2 = 4,
@@ -3750,8 +3847,8 @@ pg.child_plan = {
 			121001,
 			121002
 		}
-	},
-	[1211] = {
+	}
+	pg.base.child_plan[1211] = {
 		name = "Intermediate Sketching",
 		type = 2,
 		cost_resource2 = 5,
@@ -3852,8 +3949,8 @@ pg.child_plan = {
 			121101,
 			121102
 		}
-	},
-	[1212] = {
+	}
+	pg.base.child_plan[1212] = {
 		name = "Advanced Sketching",
 		type = 2,
 		cost_resource2 = 5,
@@ -3954,8 +4051,8 @@ pg.child_plan = {
 			121201,
 			121202
 		}
-	},
-	[1213] = {
+	}
+	pg.base.child_plan[1213] = {
 		name = "Basic Tea Making",
 		type = 2,
 		cost_resource2 = 5,
@@ -4063,8 +4160,8 @@ pg.child_plan = {
 			121301,
 			121302
 		}
-	},
-	[1214] = {
+	}
+	pg.base.child_plan[1214] = {
 		name = "Intermediate Tea Making",
 		type = 2,
 		cost_resource2 = 6,
@@ -4175,8 +4272,8 @@ pg.child_plan = {
 			121401,
 			121402
 		}
-	},
-	[1215] = {
+	}
+	pg.base.child_plan[1215] = {
 		name = "Advanced Tea Making",
 		type = 2,
 		cost_resource2 = 6,
@@ -4287,8 +4384,8 @@ pg.child_plan = {
 			121501,
 			121502
 		}
-	},
-	[1216] = {
+	}
+	pg.base.child_plan[1216] = {
 		name = "Basic Acting",
 		type = 2,
 		cost_resource2 = 5,
@@ -4386,8 +4483,8 @@ pg.child_plan = {
 			121601,
 			121602
 		}
-	},
-	[1217] = {
+	}
+	pg.base.child_plan[1217] = {
 		name = "Intermediate Acting",
 		type = 2,
 		cost_resource2 = 6,
@@ -4488,8 +4585,8 @@ pg.child_plan = {
 			121701,
 			121702
 		}
-	},
-	[1218] = {
+	}
+	pg.base.child_plan[1218] = {
 		name = "Advanced Acting",
 		type = 2,
 		cost_resource2 = 7,
@@ -4590,8 +4687,8 @@ pg.child_plan = {
 			121801,
 			121802
 		}
-	},
-	[1219] = {
+	}
+	pg.base.child_plan[1219] = {
 		name = "Basic Performance",
 		type = 2,
 		cost_resource2 = 5,
@@ -4689,8 +4786,8 @@ pg.child_plan = {
 			121901,
 			121902
 		}
-	},
-	[1220] = {
+	}
+	pg.base.child_plan[1220] = {
 		name = "Intermediate Performance",
 		type = 2,
 		cost_resource2 = 6,
@@ -4791,8 +4888,8 @@ pg.child_plan = {
 			122001,
 			122002
 		}
-	},
-	[1221] = {
+	}
+	pg.base.child_plan[1221] = {
 		name = "Advanced Peformance",
 		type = 2,
 		cost_resource2 = 6,
@@ -4893,8 +4990,8 @@ pg.child_plan = {
 			122101,
 			122102
 		}
-	},
-	[1222] = {
+	}
+	pg.base.child_plan[1222] = {
 		name = "Basic Mending",
 		type = 2,
 		cost_resource2 = 5,
@@ -5002,8 +5099,8 @@ pg.child_plan = {
 			122201,
 			122202
 		}
-	},
-	[1223] = {
+	}
+	pg.base.child_plan[1223] = {
 		name = "Intermediate Mending",
 		type = 2,
 		cost_resource2 = 6,
@@ -5114,8 +5211,8 @@ pg.child_plan = {
 			122301,
 			122302
 		}
-	},
-	[1224] = {
+	}
+	pg.base.child_plan[1224] = {
 		name = "Advanced Mending",
 		type = 2,
 		cost_resource2 = 7,
@@ -5226,8 +5323,8 @@ pg.child_plan = {
 			122401,
 			122402
 		}
-	},
-	[1225] = {
+	}
+	pg.base.child_plan[1225] = {
 		name = "Basic Musical Performance",
 		type = 2,
 		cost_resource2 = 4,
@@ -5335,8 +5432,8 @@ pg.child_plan = {
 			122501,
 			122502
 		}
-	},
-	[1226] = {
+	}
+	pg.base.child_plan[1226] = {
 		name = "Intermediate Musical Performance",
 		type = 2,
 		cost_resource2 = 5,
@@ -5447,8 +5544,8 @@ pg.child_plan = {
 			122601,
 			122602
 		}
-	},
-	[1227] = {
+	}
+	pg.base.child_plan[1227] = {
 		name = "Advanced Musical Performance",
 		type = 2,
 		cost_resource2 = 6,
@@ -5559,8 +5656,8 @@ pg.child_plan = {
 			122701,
 			122702
 		}
-	},
-	[1301] = {
+	}
+	pg.base.child_plan[1301] = {
 		name = "Beginner Street Artist",
 		type = 3,
 		cost_resource2 = 4,
@@ -5658,8 +5755,8 @@ pg.child_plan = {
 			130101,
 			130102
 		}
-	},
-	[1302] = {
+	}
+	pg.base.child_plan[1302] = {
 		name = "Beginner Bookstore Clerk",
 		type = 3,
 		cost_resource2 = 3,
@@ -5752,8 +5849,8 @@ pg.child_plan = {
 			130201,
 			130202
 		}
-	},
-	[1303] = {
+	}
+	pg.base.child_plan[1303] = {
 		name = "Beginner Farmhand",
 		type = 3,
 		cost_resource2 = 4,
@@ -5851,8 +5948,8 @@ pg.child_plan = {
 			130301,
 			130302
 		}
-	},
-	[1304] = {
+	}
+	pg.base.child_plan[1304] = {
 		name = "Beginner Instructor",
 		type = 3,
 		cost_resource2 = 4,
@@ -5945,8 +6042,8 @@ pg.child_plan = {
 			130401,
 			130402
 		}
-	},
-	[1305] = {
+	}
+	pg.base.child_plan[1305] = {
 		name = "Beginner Theater Actor",
 		type = 3,
 		cost_resource2 = 3,
@@ -6044,8 +6141,8 @@ pg.child_plan = {
 			130501,
 			130502
 		}
-	},
-	[1306] = {
+	}
+	pg.base.child_plan[1306] = {
 		name = "Beginner Singer",
 		type = 3,
 		cost_resource2 = 3,
@@ -6138,8 +6235,8 @@ pg.child_plan = {
 			130601,
 			130602
 		}
-	},
-	[1307] = {
+	}
+	pg.base.child_plan[1307] = {
 		name = "Beginner Superhero Actor",
 		type = 3,
 		cost_resource2 = 4,
@@ -6237,8 +6334,8 @@ pg.child_plan = {
 			130701,
 			130702
 		}
-	},
-	[1308] = {
+	}
+	pg.base.child_plan[1308] = {
 		name = "Beginner Promotion Manager",
 		type = 3,
 		cost_resource2 = 5,
@@ -6336,8 +6433,8 @@ pg.child_plan = {
 			130801,
 			130802
 		}
-	},
-	[1310] = {
+	}
+	pg.base.child_plan[1310] = {
 		name = "Beginner Store Clerk",
 		type = 3,
 		cost_resource2 = 3,
@@ -6424,8 +6521,8 @@ pg.child_plan = {
 			131001,
 			131002
 		}
-	},
-	[1311] = {
+	}
+	pg.base.child_plan[1311] = {
 		name = "Beginner Barista",
 		type = 3,
 		cost_resource2 = 3,
@@ -6523,8 +6620,8 @@ pg.child_plan = {
 			131101,
 			131102
 		}
-	},
-	[1312] = {
+	}
+	pg.base.child_plan[1312] = {
 		name = "Intermediate Street Artist",
 		type = 3,
 		cost_resource2 = 4,
@@ -6625,8 +6722,8 @@ pg.child_plan = {
 			130101,
 			130102
 		}
-	},
-	[1313] = {
+	}
+	pg.base.child_plan[1313] = {
 		name = "Intermediate Bookstore Clerk",
 		type = 3,
 		cost_resource2 = 3,
@@ -6722,8 +6819,8 @@ pg.child_plan = {
 			130201,
 			130202
 		}
-	},
-	[1314] = {
+	}
+	pg.base.child_plan[1314] = {
 		name = "Intermediate Farmhand",
 		type = 3,
 		cost_resource2 = 5,
@@ -6824,8 +6921,8 @@ pg.child_plan = {
 			130301,
 			130302
 		}
-	},
-	[1315] = {
+	}
+	pg.base.child_plan[1315] = {
 		name = "Intermediate Instructor",
 		type = 3,
 		cost_resource2 = 5,
@@ -6921,8 +7018,8 @@ pg.child_plan = {
 			130401,
 			130402
 		}
-	},
-	[1316] = {
+	}
+	pg.base.child_plan[1316] = {
 		name = "Intermediate Theater Actor",
 		type = 3,
 		cost_resource2 = 4,
@@ -7023,8 +7120,8 @@ pg.child_plan = {
 			130501,
 			130502
 		}
-	},
-	[1317] = {
+	}
+	pg.base.child_plan[1317] = {
 		name = "Intermediate Singer",
 		type = 3,
 		cost_resource2 = 4,
@@ -7120,8 +7217,8 @@ pg.child_plan = {
 			130601,
 			130602
 		}
-	},
-	[1318] = {
+	}
+	pg.base.child_plan[1318] = {
 		name = "Intermediate Superhero Actor",
 		type = 3,
 		cost_resource2 = 5,
@@ -7222,8 +7319,8 @@ pg.child_plan = {
 			130701,
 			130702
 		}
-	},
-	[1319] = {
+	}
+	pg.base.child_plan[1319] = {
 		name = "Intermediate Promotion Manager",
 		type = 3,
 		cost_resource2 = 6,
@@ -7324,8 +7421,8 @@ pg.child_plan = {
 			130801,
 			130802
 		}
-	},
-	[1320] = {
+	}
+	pg.base.child_plan[1320] = {
 		name = "Intermediate Store Clerk",
 		type = 3,
 		cost_resource2 = 4,
@@ -7415,8 +7512,8 @@ pg.child_plan = {
 			131001,
 			131002
 		}
-	},
-	[1321] = {
+	}
+	pg.base.child_plan[1321] = {
 		name = "Intermediate Barista",
 		type = 3,
 		cost_resource2 = 4,
@@ -7517,8 +7614,8 @@ pg.child_plan = {
 			131101,
 			131102
 		}
-	},
-	[1322] = {
+	}
+	pg.base.child_plan[1322] = {
 		name = "Expert Street Artist",
 		type = 3,
 		cost_resource2 = 5,
@@ -7619,8 +7716,8 @@ pg.child_plan = {
 			130101,
 			130102
 		}
-	},
-	[1323] = {
+	}
+	pg.base.child_plan[1323] = {
 		name = "Expert Bookstore Clerk",
 		type = 3,
 		cost_resource2 = 3,
@@ -7716,8 +7813,8 @@ pg.child_plan = {
 			130201,
 			130202
 		}
-	},
-	[1324] = {
+	}
+	pg.base.child_plan[1324] = {
 		name = "Expert Farmhand",
 		type = 3,
 		cost_resource2 = 5,
@@ -7818,8 +7915,8 @@ pg.child_plan = {
 			130301,
 			130302
 		}
-	},
-	[1325] = {
+	}
+	pg.base.child_plan[1325] = {
 		name = "Expert Instructor",
 		type = 3,
 		cost_resource2 = 6,
@@ -7915,8 +8012,8 @@ pg.child_plan = {
 			130401,
 			130402
 		}
-	},
-	[1326] = {
+	}
+	pg.base.child_plan[1326] = {
 		name = "Expert Theater Actor",
 		type = 3,
 		cost_resource2 = 5,
@@ -8017,8 +8114,8 @@ pg.child_plan = {
 			130501,
 			130502
 		}
-	},
-	[1327] = {
+	}
+	pg.base.child_plan[1327] = {
 		name = "Expert Singer",
 		type = 3,
 		cost_resource2 = 4,
@@ -8114,8 +8211,8 @@ pg.child_plan = {
 			130601,
 			130602
 		}
-	},
-	[1328] = {
+	}
+	pg.base.child_plan[1328] = {
 		name = "Expert Superhero Actor",
 		type = 3,
 		cost_resource2 = 6,
@@ -8216,8 +8313,8 @@ pg.child_plan = {
 			130701,
 			130702
 		}
-	},
-	[1329] = {
+	}
+	pg.base.child_plan[1329] = {
 		name = "Expert Promotion Manager",
 		type = 3,
 		cost_resource2 = 7,
@@ -8318,8 +8415,8 @@ pg.child_plan = {
 			130801,
 			130802
 		}
-	},
-	[1330] = {
+	}
+	pg.base.child_plan[1330] = {
 		name = "Expert Store Clerk",
 		type = 3,
 		cost_resource2 = 5,
@@ -8409,8 +8506,8 @@ pg.child_plan = {
 			131001,
 			131002
 		}
-	},
-	[1331] = {
+	}
+	pg.base.child_plan[1331] = {
 		name = "Expert Barista",
 		type = 3,
 		cost_resource2 = 4,
@@ -8511,8 +8608,8 @@ pg.child_plan = {
 			131101,
 			131102
 		}
-	},
-	[1404] = {
+	}
+	pg.base.child_plan[1404] = {
 		name = "Beginner Housekeeper",
 		type = 5,
 		cost_resource2 = 2,
@@ -8616,8 +8713,8 @@ pg.child_plan = {
 			130901,
 			130902
 		}
-	},
-	[1402] = {
+	}
+	pg.base.child_plan[1402] = {
 		name = "Relax At Home",
 		type = 4,
 		cost_resource2 = 0,
@@ -8721,96 +8818,5 @@ pg.child_plan = {
 			140101,
 			140102
 		}
-	},
-	all = {
-		1101,
-		1102,
-		1103,
-		1104,
-		1105,
-		1106,
-		1107,
-		1108,
-		1109,
-		1110,
-		1111,
-		1112,
-		1113,
-		1114,
-		1115,
-		1116,
-		1117,
-		1118,
-		1119,
-		1120,
-		1121,
-		1122,
-		1123,
-		1124,
-		1125,
-		1126,
-		1127,
-		1128,
-		1129,
-		1130,
-		1201,
-		1202,
-		1203,
-		1204,
-		1205,
-		1206,
-		1207,
-		1208,
-		1209,
-		1210,
-		1211,
-		1212,
-		1213,
-		1214,
-		1215,
-		1216,
-		1217,
-		1218,
-		1219,
-		1220,
-		1221,
-		1222,
-		1223,
-		1224,
-		1225,
-		1226,
-		1227,
-		1301,
-		1302,
-		1303,
-		1304,
-		1305,
-		1306,
-		1307,
-		1308,
-		1310,
-		1311,
-		1312,
-		1313,
-		1314,
-		1315,
-		1316,
-		1317,
-		1318,
-		1319,
-		1320,
-		1321,
-		1322,
-		1323,
-		1324,
-		1325,
-		1326,
-		1327,
-		1328,
-		1329,
-		1330,
-		1331,
-		1404,
-		1402
 	}
-}
+end)()

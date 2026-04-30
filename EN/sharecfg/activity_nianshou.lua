@@ -1,6 +1,15 @@
 pg = pg or {}
-pg.activity_nianshou = {
-	{
+pg.activity_nianshou = rawget(pg, "activity_nianshou") or setmetatable({
+	__name = "activity_nianshou"
+}, confNEO)
+pg.activity_nianshou.all = {
+	1
+}
+pg.base = pg.base or {}
+pg.base.activity_nianshou = {}
+
+(function ()
+	pg.base.activity_nianshou[1] = {
 		first_extra_count = 5,
 		daily_count = 5,
 		hp = 65,
@@ -25,8 +34,5 @@ pg.activity_nianshou = {
 				"FUSHUN04"
 			}
 		}
-	},
-	all = {
-		1
 	}
-}
+end)()

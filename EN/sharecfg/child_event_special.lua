@@ -1,6 +1,111 @@
 pg = pg or {}
-pg.child_event_special = {
-	[101] = {
+pg.child_event_special = rawget(pg, "child_event_special") or setmetatable({
+	__name = "child_event_special"
+}, confNEO)
+pg.child_event_special.all = {
+	101,
+	102,
+	103,
+	104,
+	106,
+	108,
+	109,
+	110,
+	111,
+	112,
+	114,
+	115,
+	116,
+	118,
+	119,
+	120,
+	121,
+	122,
+	123,
+	124,
+	125,
+	126,
+	127,
+	128,
+	129,
+	130,
+	131,
+	132,
+	133,
+	134,
+	135,
+	136,
+	137,
+	138,
+	139,
+	140,
+	141,
+	142,
+	143,
+	144,
+	145,
+	146,
+	147,
+	148,
+	149,
+	150,
+	151,
+	152,
+	153,
+	154,
+	155,
+	156,
+	1101,
+	1102,
+	1103,
+	1104,
+	1105,
+	1106,
+	1107,
+	1201,
+	1202,
+	1203,
+	1301,
+	1302,
+	1303,
+	1304,
+	1305,
+	1306,
+	1307,
+	1401,
+	1402,
+	1403,
+	1601,
+	1602,
+	1603,
+	1604,
+	1605,
+	1606,
+	1607,
+	1701,
+	1702,
+	1703,
+	1704,
+	1705,
+	1706,
+	1707,
+	1708,
+	1709,
+	1710,
+	1711,
+	1712,
+	1713,
+	1714,
+	1715,
+	1716,
+	1717,
+	1718
+}
+pg.base = pg.base or {}
+pg.base.child_event_special = {}
+
+(function ()
+	pg.base.child_event_special[101] = {
 		child_attr2 = 0,
 		type = 1,
 		main_desc = "",
@@ -27,8 +132,8 @@ pg.child_event_special = {
 		performance = {
 			107
 		}
-	},
-	[102] = {
+	}
+	pg.base.child_event_special[102] = {
 		child_attr2 = 0,
 		type = 1,
 		main_desc = "",
@@ -55,8 +160,8 @@ pg.child_event_special = {
 		performance = {
 			108
 		}
-	},
-	[103] = {
+	}
+	pg.base.child_event_special[103] = {
 		child_attr2 = 0,
 		type = 1,
 		main_desc = "",
@@ -83,8 +188,8 @@ pg.child_event_special = {
 		performance = {
 			109
 		}
-	},
-	[104] = {
+	}
+	pg.base.child_event_special[104] = {
 		child_attr2 = 0,
 		type = 1,
 		main_desc = "Aquarium Visit",
@@ -111,8 +216,8 @@ pg.child_event_special = {
 		performance = {
 			110
 		}
-	},
-	[106] = {
+	}
+	pg.base.child_event_special[106] = {
 		child_attr2 = 0,
 		type = 1,
 		main_desc = "Open Day",
@@ -139,8 +244,8 @@ pg.child_event_special = {
 		performance = {
 			112
 		}
-	},
-	[108] = {
+	}
+	pg.base.child_event_special[108] = {
 		child_attr2 = 0,
 		type = 1,
 		main_desc = "Sports Day",
@@ -167,8 +272,8 @@ pg.child_event_special = {
 		performance = {
 			114
 		}
-	},
-	[109] = {
+	}
+	pg.base.child_event_special[109] = {
 		child_attr2 = 0,
 		type = 1,
 		main_desc = "Field Trip",
@@ -195,8 +300,8 @@ pg.child_event_special = {
 		performance = {
 			115
 		}
-	},
-	[110] = {
+	}
+	pg.base.child_event_special[110] = {
 		child_attr2 = 0,
 		type = 1,
 		main_desc = "Summer Festival",
@@ -223,8 +328,8 @@ pg.child_event_special = {
 		performance = {
 			116
 		}
-	},
-	[111] = {
+	}
+	pg.base.child_event_special[111] = {
 		child_attr2 = 0,
 		type = 1,
 		main_desc = "Go Camping",
@@ -251,8 +356,8 @@ pg.child_event_special = {
 		performance = {
 			117
 		}
-	},
-	[112] = {
+	}
+	pg.base.child_event_special[112] = {
 		child_attr2 = 0,
 		type = 1,
 		main_desc = "Exam Reviews",
@@ -279,8 +384,8 @@ pg.child_event_special = {
 		performance = {
 			118
 		}
-	},
-	[114] = {
+	}
+	pg.base.child_event_special[114] = {
 		child_attr2 = 201,
 		type = 1,
 		main_desc = "Amusement Park Visit",
@@ -307,8 +412,8 @@ pg.child_event_special = {
 		performance = {
 			120
 		}
-	},
-	[115] = {
+	}
+	pg.base.child_event_special[115] = {
 		child_attr2 = 203,
 		type = 1,
 		main_desc = "Amusement Park Visit",
@@ -335,8 +440,8 @@ pg.child_event_special = {
 		performance = {
 			121
 		}
-	},
-	[116] = {
+	}
+	pg.base.child_event_special[116] = {
 		child_attr2 = 202,
 		type = 1,
 		main_desc = "Amusement Park Visit",
@@ -363,8 +468,8 @@ pg.child_event_special = {
 		performance = {
 			122
 		}
-	},
-	[118] = {
+	}
+	pg.base.child_event_special[118] = {
 		child_attr2 = 201,
 		type = 1,
 		main_desc = "Christmas",
@@ -391,8 +496,8 @@ pg.child_event_special = {
 		performance = {
 			123
 		}
-	},
-	[119] = {
+	}
+	pg.base.child_event_special[119] = {
 		child_attr2 = 203,
 		type = 1,
 		main_desc = "Christmas",
@@ -419,8 +524,8 @@ pg.child_event_special = {
 		performance = {
 			124
 		}
-	},
-	[120] = {
+	}
+	pg.base.child_event_special[120] = {
 		child_attr2 = 202,
 		type = 1,
 		main_desc = "Christmas",
@@ -447,8 +552,8 @@ pg.child_event_special = {
 		performance = {
 			125
 		}
-	},
-	[121] = {
+	}
+	pg.base.child_event_special[121] = {
 		child_attr2 = 201,
 		type = 1,
 		main_desc = "Hot Spring Visit",
@@ -475,8 +580,8 @@ pg.child_event_special = {
 		performance = {
 			126
 		}
-	},
-	[122] = {
+	}
+	pg.base.child_event_special[122] = {
 		child_attr2 = 203,
 		type = 1,
 		main_desc = "Hot Spring Visit",
@@ -503,8 +608,8 @@ pg.child_event_special = {
 		performance = {
 			127
 		}
-	},
-	[123] = {
+	}
+	pg.base.child_event_special[123] = {
 		child_attr2 = 202,
 		type = 1,
 		main_desc = "Hot Spring Visit",
@@ -531,8 +636,8 @@ pg.child_event_special = {
 		performance = {
 			128
 		}
-	},
-	[124] = {
+	}
+	pg.base.child_event_special[124] = {
 		child_attr2 = 201,
 		type = 1,
 		main_desc = "Graduation Party",
@@ -559,8 +664,8 @@ pg.child_event_special = {
 		performance = {
 			129
 		}
-	},
-	[125] = {
+	}
+	pg.base.child_event_special[125] = {
 		child_attr2 = 203,
 		type = 1,
 		main_desc = "Graduation Party",
@@ -587,8 +692,8 @@ pg.child_event_special = {
 		performance = {
 			130
 		}
-	},
-	[126] = {
+	}
+	pg.base.child_event_special[126] = {
 		child_attr2 = 202,
 		type = 1,
 		main_desc = "Graduation Party",
@@ -615,8 +720,8 @@ pg.child_event_special = {
 		performance = {
 			131
 		}
-	},
-	[127] = {
+	}
+	pg.base.child_event_special[127] = {
 		child_attr2 = 0,
 		type = 3,
 		type_param = "",
@@ -639,8 +744,8 @@ pg.child_event_special = {
 		performance = {
 			153
 		}
-	},
-	[128] = {
+	}
+	pg.base.child_event_special[128] = {
 		child_attr2 = 0,
 		type = 3,
 		type_param = "",
@@ -663,8 +768,8 @@ pg.child_event_special = {
 		performance = {
 			154
 		}
-	},
-	[129] = {
+	}
+	pg.base.child_event_special[129] = {
 		child_attr2 = 0,
 		type = 3,
 		type_param = "",
@@ -687,8 +792,8 @@ pg.child_event_special = {
 		performance = {
 			155
 		}
-	},
-	[130] = {
+	}
+	pg.base.child_event_special[130] = {
 		child_attr2 = 0,
 		type = 3,
 		type_param = "",
@@ -711,8 +816,8 @@ pg.child_event_special = {
 		performance = {
 			156
 		}
-	},
-	[131] = {
+	}
+	pg.base.child_event_special[131] = {
 		child_attr2 = 0,
 		type = 3,
 		type_param = "",
@@ -735,8 +840,8 @@ pg.child_event_special = {
 		performance = {
 			157
 		}
-	},
-	[132] = {
+	}
+	pg.base.child_event_special[132] = {
 		child_attr2 = 0,
 		type = 3,
 		type_param = "",
@@ -759,8 +864,8 @@ pg.child_event_special = {
 		performance = {
 			158
 		}
-	},
-	[133] = {
+	}
+	pg.base.child_event_special[133] = {
 		child_attr2 = 0,
 		type = 3,
 		type_param = "",
@@ -783,8 +888,8 @@ pg.child_event_special = {
 		performance = {
 			159
 		}
-	},
-	[134] = {
+	}
+	pg.base.child_event_special[134] = {
 		child_attr2 = 0,
 		type = 3,
 		type_param = "",
@@ -807,8 +912,8 @@ pg.child_event_special = {
 		performance = {
 			160
 		}
-	},
-	[135] = {
+	}
+	pg.base.child_event_special[135] = {
 		child_attr2 = 201,
 		type = 3,
 		type_param = "",
@@ -831,8 +936,8 @@ pg.child_event_special = {
 		performance = {
 			161
 		}
-	},
-	[136] = {
+	}
+	pg.base.child_event_special[136] = {
 		child_attr2 = 203,
 		type = 3,
 		type_param = "",
@@ -855,8 +960,8 @@ pg.child_event_special = {
 		performance = {
 			162
 		}
-	},
-	[137] = {
+	}
+	pg.base.child_event_special[137] = {
 		child_attr2 = 202,
 		type = 3,
 		type_param = "",
@@ -879,8 +984,8 @@ pg.child_event_special = {
 		performance = {
 			163
 		}
-	},
-	[138] = {
+	}
+	pg.base.child_event_special[138] = {
 		child_attr2 = 201,
 		type = 3,
 		type_param = "",
@@ -903,8 +1008,8 @@ pg.child_event_special = {
 		performance = {
 			164
 		}
-	},
-	[139] = {
+	}
+	pg.base.child_event_special[139] = {
 		child_attr2 = 203,
 		type = 3,
 		type_param = "",
@@ -927,8 +1032,8 @@ pg.child_event_special = {
 		performance = {
 			165
 		}
-	},
-	[140] = {
+	}
+	pg.base.child_event_special[140] = {
 		child_attr2 = 202,
 		type = 3,
 		type_param = "",
@@ -951,8 +1056,8 @@ pg.child_event_special = {
 		performance = {
 			166
 		}
-	},
-	[141] = {
+	}
+	pg.base.child_event_special[141] = {
 		child_attr2 = 201,
 		type = 3,
 		type_param = "",
@@ -975,8 +1080,8 @@ pg.child_event_special = {
 		performance = {
 			167
 		}
-	},
-	[142] = {
+	}
+	pg.base.child_event_special[142] = {
 		child_attr2 = 203,
 		type = 3,
 		type_param = "",
@@ -999,8 +1104,8 @@ pg.child_event_special = {
 		performance = {
 			168
 		}
-	},
-	[143] = {
+	}
+	pg.base.child_event_special[143] = {
 		child_attr2 = 202,
 		type = 3,
 		type_param = "",
@@ -1023,8 +1128,8 @@ pg.child_event_special = {
 		performance = {
 			169
 		}
-	},
-	[144] = {
+	}
+	pg.base.child_event_special[144] = {
 		child_attr2 = 201,
 		type = 3,
 		type_param = "",
@@ -1047,8 +1152,8 @@ pg.child_event_special = {
 		performance = {
 			170
 		}
-	},
-	[145] = {
+	}
+	pg.base.child_event_special[145] = {
 		child_attr2 = 203,
 		type = 3,
 		type_param = "",
@@ -1071,8 +1176,8 @@ pg.child_event_special = {
 		performance = {
 			171
 		}
-	},
-	[146] = {
+	}
+	pg.base.child_event_special[146] = {
 		child_attr2 = 202,
 		type = 3,
 		type_param = "",
@@ -1095,8 +1200,8 @@ pg.child_event_special = {
 		performance = {
 			172
 		}
-	},
-	[147] = {
+	}
+	pg.base.child_event_special[147] = {
 		child_attr2 = 0,
 		type = 3,
 		type_param = "",
@@ -1119,8 +1224,8 @@ pg.child_event_special = {
 		performance = {
 			173
 		}
-	},
-	[148] = {
+	}
+	pg.base.child_event_special[148] = {
 		child_attr2 = 0,
 		type = 3,
 		type_param = "",
@@ -1143,8 +1248,8 @@ pg.child_event_special = {
 		performance = {
 			174
 		}
-	},
-	[149] = {
+	}
+	pg.base.child_event_special[149] = {
 		child_attr2 = 0,
 		type = 3,
 		type_param = "",
@@ -1167,8 +1272,8 @@ pg.child_event_special = {
 		performance = {
 			175
 		}
-	},
-	[150] = {
+	}
+	pg.base.child_event_special[150] = {
 		child_attr2 = 0,
 		type = 3,
 		type_param = "",
@@ -1191,8 +1296,8 @@ pg.child_event_special = {
 		performance = {
 			176
 		}
-	},
-	[151] = {
+	}
+	pg.base.child_event_special[151] = {
 		child_attr2 = 0,
 		type = 3,
 		type_param = "",
@@ -1215,8 +1320,8 @@ pg.child_event_special = {
 		performance = {
 			177
 		}
-	},
-	[152] = {
+	}
+	pg.base.child_event_special[152] = {
 		child_attr2 = 0,
 		type = 3,
 		type_param = "",
@@ -1239,8 +1344,8 @@ pg.child_event_special = {
 		performance = {
 			178
 		}
-	},
-	[153] = {
+	}
+	pg.base.child_event_special[153] = {
 		child_attr2 = 0,
 		type = 3,
 		type_param = "",
@@ -1263,8 +1368,8 @@ pg.child_event_special = {
 		performance = {
 			179
 		}
-	},
-	[154] = {
+	}
+	pg.base.child_event_special[154] = {
 		child_attr2 = 0,
 		type = 3,
 		type_param = "",
@@ -1287,8 +1392,8 @@ pg.child_event_special = {
 		performance = {
 			180
 		}
-	},
-	[155] = {
+	}
+	pg.base.child_event_special[155] = {
 		child_attr2 = 0,
 		type = 3,
 		type_param = "",
@@ -1311,8 +1416,8 @@ pg.child_event_special = {
 		performance = {
 			181
 		}
-	},
-	[156] = {
+	}
+	pg.base.child_event_special[156] = {
 		child_attr2 = 0,
 		type = 3,
 		type_param = "",
@@ -1335,8 +1440,8 @@ pg.child_event_special = {
 		performance = {
 			182
 		}
-	},
-	[1101] = {
+	}
+	pg.base.child_event_special[1101] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "The 1st Great Cook-Off",
@@ -1362,8 +1467,8 @@ pg.child_event_special = {
 			1105002,
 			1105003
 		}
-	},
-	[1102] = {
+	}
+	pg.base.child_event_special[1102] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "The 2nd Great Cook-Off",
@@ -1389,8 +1494,8 @@ pg.child_event_special = {
 			1106002,
 			1106003
 		}
-	},
-	[1103] = {
+	}
+	pg.base.child_event_special[1103] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "The 3rd Great Cook-Off",
@@ -1416,8 +1521,8 @@ pg.child_event_special = {
 			1107002,
 			1107003
 		}
-	},
-	[1104] = {
+	}
+	pg.base.child_event_special[1104] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "Gastronomy District Food Fiesta",
@@ -1442,8 +1547,8 @@ pg.child_event_special = {
 		performance = {
 			1104002
 		}
-	},
-	[1105] = {
+	}
+	pg.base.child_event_special[1105] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "Gastronomy District Food Fiesta",
@@ -1468,8 +1573,8 @@ pg.child_event_special = {
 		performance = {
 			1104002
 		}
-	},
-	[1106] = {
+	}
+	pg.base.child_event_special[1106] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "Gastronomy District Food Fiesta",
@@ -1494,8 +1599,8 @@ pg.child_event_special = {
 		performance = {
 			1104002
 		}
-	},
-	[1107] = {
+	}
+	pg.base.child_event_special[1107] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "Gastronomy District Food Fiesta",
@@ -1520,8 +1625,8 @@ pg.child_event_special = {
 		performance = {
 			1104002
 		}
-	},
-	[1201] = {
+	}
+	pg.base.child_event_special[1201] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "The 1st Angling Competition",
@@ -1547,8 +1652,8 @@ pg.child_event_special = {
 			1205002,
 			1205003
 		}
-	},
-	[1202] = {
+	}
+	pg.base.child_event_special[1202] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "The 2nd Angling Competition",
@@ -1574,8 +1679,8 @@ pg.child_event_special = {
 			1206002,
 			1206003
 		}
-	},
-	[1203] = {
+	}
+	pg.base.child_event_special[1203] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "The 3rd Angling Competition",
@@ -1601,8 +1706,8 @@ pg.child_event_special = {
 			1207002,
 			1207003
 		}
-	},
-	[1301] = {
+	}
+	pg.base.child_event_special[1301] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "The 1st Photography Contest",
@@ -1628,8 +1733,8 @@ pg.child_event_special = {
 			1305002,
 			1305003
 		}
-	},
-	[1302] = {
+	}
+	pg.base.child_event_special[1302] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "Commercial Area Street Performance",
@@ -1654,8 +1759,8 @@ pg.child_event_special = {
 		performance = {
 			1306003
 		}
-	},
-	[1303] = {
+	}
+	pg.base.child_event_special[1303] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "The 2nd Photography Contest",
@@ -1681,8 +1786,8 @@ pg.child_event_special = {
 			1305002,
 			1305003
 		}
-	},
-	[1304] = {
+	}
+	pg.base.child_event_special[1304] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "The 3rd Photography Contest",
@@ -1708,8 +1813,8 @@ pg.child_event_special = {
 			1305002,
 			1305003
 		}
-	},
-	[1305] = {
+	}
+	pg.base.child_event_special[1305] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "Commercial Area Street Performance",
@@ -1734,8 +1839,8 @@ pg.child_event_special = {
 		performance = {
 			1306003
 		}
-	},
-	[1306] = {
+	}
+	pg.base.child_event_special[1306] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "Commercial Area Street Performance",
@@ -1760,8 +1865,8 @@ pg.child_event_special = {
 		performance = {
 			1306003
 		}
-	},
-	[1307] = {
+	}
+	pg.base.child_event_special[1307] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "Commercial Area Street Performance",
@@ -1786,8 +1891,8 @@ pg.child_event_special = {
 		performance = {
 			1306003
 		}
-	},
-	[1401] = {
+	}
+	pg.base.child_event_special[1401] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "The 1st Star of Tomorrow Awards",
@@ -1813,8 +1918,8 @@ pg.child_event_special = {
 			1404002,
 			1404003
 		}
-	},
-	[1402] = {
+	}
+	pg.base.child_event_special[1402] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "The 2nd Star of Tomorrow Awards",
@@ -1840,8 +1945,8 @@ pg.child_event_special = {
 			1405002,
 			1405003
 		}
-	},
-	[1403] = {
+	}
+	pg.base.child_event_special[1403] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "The 3rd Star of Tomorrow Awards",
@@ -1867,8 +1972,8 @@ pg.child_event_special = {
 			1406002,
 			1406003
 		}
-	},
-	[1601] = {
+	}
+	pg.base.child_event_special[1601] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "The 1st Sports Competition",
@@ -1894,8 +1999,8 @@ pg.child_event_special = {
 			1603002,
 			1603003
 		}
-	},
-	[1602] = {
+	}
+	pg.base.child_event_special[1602] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "The 2nd Sports Competition",
@@ -1921,8 +2026,8 @@ pg.child_event_special = {
 			1604002,
 			1604003
 		}
-	},
-	[1603] = {
+	}
+	pg.base.child_event_special[1603] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "The 3rd Sports Competition",
@@ -1948,8 +2053,8 @@ pg.child_event_special = {
 			1605002,
 			1605003
 		}
-	},
-	[1604] = {
+	}
+	pg.base.child_event_special[1604] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "Sports Competitions Underway",
@@ -1974,8 +2079,8 @@ pg.child_event_special = {
 		performance = {
 			1606002
 		}
-	},
-	[1605] = {
+	}
+	pg.base.child_event_special[1605] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "Sports Competitions Underway",
@@ -2000,8 +2105,8 @@ pg.child_event_special = {
 		performance = {
 			1606002
 		}
-	},
-	[1606] = {
+	}
+	pg.base.child_event_special[1606] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "Sports Competitions Underway",
@@ -2026,8 +2131,8 @@ pg.child_event_special = {
 		performance = {
 			1606002
 		}
-	},
-	[1607] = {
+	}
+	pg.base.child_event_special[1607] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "Sports Competitions Underway",
@@ -2052,8 +2157,8 @@ pg.child_event_special = {
 		performance = {
 			1606002
 		}
-	},
-	[1701] = {
+	}
+	pg.base.child_event_special[1701] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "The 1st Open Submissions Literary Award",
@@ -2079,8 +2184,8 @@ pg.child_event_special = {
 			1706102,
 			1706103
 		}
-	},
-	[1702] = {
+	}
+	pg.base.child_event_special[1702] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "The 1st Art Contest",
@@ -2106,8 +2211,8 @@ pg.child_event_special = {
 			1707102,
 			1707103
 		}
-	},
-	[1703] = {
+	}
+	pg.base.child_event_special[1703] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "The 1st Singing Competition",
@@ -2133,8 +2238,8 @@ pg.child_event_special = {
 			1708102,
 			1708103
 		}
-	},
-	[1704] = {
+	}
+	pg.base.child_event_special[1704] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "Writing Course at the Library",
@@ -2159,8 +2264,8 @@ pg.child_event_special = {
 		performance = {
 			1709002
 		}
-	},
-	[1705] = {
+	}
+	pg.base.child_event_special[1705] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "Drawing Course at the Art Class",
@@ -2185,8 +2290,8 @@ pg.child_event_special = {
 		performance = {
 			1710002
 		}
-	},
-	[1706] = {
+	}
+	pg.base.child_event_special[1706] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "Singing Course at the Music Class",
@@ -2211,8 +2316,8 @@ pg.child_event_special = {
 		performance = {
 			1711002
 		}
-	},
-	[1707] = {
+	}
+	pg.base.child_event_special[1707] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "The 2nd Open Submissions Literary Award",
@@ -2238,8 +2343,8 @@ pg.child_event_special = {
 			1706102,
 			1706103
 		}
-	},
-	[1708] = {
+	}
+	pg.base.child_event_special[1708] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "The 3rd Open Submissions Literary Award",
@@ -2265,8 +2370,8 @@ pg.child_event_special = {
 			1706102,
 			1706103
 		}
-	},
-	[1709] = {
+	}
+	pg.base.child_event_special[1709] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "The 2nd Art Contest",
@@ -2292,8 +2397,8 @@ pg.child_event_special = {
 			1707102,
 			1707103
 		}
-	},
-	[1710] = {
+	}
+	pg.base.child_event_special[1710] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "The 3rd Art Contest",
@@ -2319,8 +2424,8 @@ pg.child_event_special = {
 			1707102,
 			1707103
 		}
-	},
-	[1711] = {
+	}
+	pg.base.child_event_special[1711] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "The 2nd Singing Competition",
@@ -2346,8 +2451,8 @@ pg.child_event_special = {
 			1708102,
 			1708103
 		}
-	},
-	[1712] = {
+	}
+	pg.base.child_event_special[1712] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "The 3rd Singing Competition",
@@ -2373,8 +2478,8 @@ pg.child_event_special = {
 			1708102,
 			1708103
 		}
-	},
-	[1713] = {
+	}
+	pg.base.child_event_special[1713] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "Writing Course at the Library",
@@ -2399,8 +2504,8 @@ pg.child_event_special = {
 		performance = {
 			1709002
 		}
-	},
-	[1714] = {
+	}
+	pg.base.child_event_special[1714] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "Drawing Course at the Art Class",
@@ -2425,8 +2530,8 @@ pg.child_event_special = {
 		performance = {
 			1710002
 		}
-	},
-	[1715] = {
+	}
+	pg.base.child_event_special[1715] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "Singing Course at the Music Class",
@@ -2451,8 +2556,8 @@ pg.child_event_special = {
 		performance = {
 			1711002
 		}
-	},
-	[1716] = {
+	}
+	pg.base.child_event_special[1716] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "Writing Course at the Library",
@@ -2477,8 +2582,8 @@ pg.child_event_special = {
 		performance = {
 			1709002
 		}
-	},
-	[1717] = {
+	}
+	pg.base.child_event_special[1717] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "Drawing Course at the Art Class",
@@ -2503,8 +2608,8 @@ pg.child_event_special = {
 		performance = {
 			1710002
 		}
-	},
-	[1718] = {
+	}
+	pg.base.child_event_special[1718] = {
 		child_attr2 = 0,
 		type = 2,
 		main_desc = "Singing Course at the Music Class",
@@ -2529,104 +2634,5 @@ pg.child_event_special = {
 		performance = {
 			1711002
 		}
-	},
-	all = {
-		101,
-		102,
-		103,
-		104,
-		106,
-		108,
-		109,
-		110,
-		111,
-		112,
-		114,
-		115,
-		116,
-		118,
-		119,
-		120,
-		121,
-		122,
-		123,
-		124,
-		125,
-		126,
-		127,
-		128,
-		129,
-		130,
-		131,
-		132,
-		133,
-		134,
-		135,
-		136,
-		137,
-		138,
-		139,
-		140,
-		141,
-		142,
-		143,
-		144,
-		145,
-		146,
-		147,
-		148,
-		149,
-		150,
-		151,
-		152,
-		153,
-		154,
-		155,
-		156,
-		1101,
-		1102,
-		1103,
-		1104,
-		1105,
-		1106,
-		1107,
-		1201,
-		1202,
-		1203,
-		1301,
-		1302,
-		1303,
-		1304,
-		1305,
-		1306,
-		1307,
-		1401,
-		1402,
-		1403,
-		1601,
-		1602,
-		1603,
-		1604,
-		1605,
-		1606,
-		1607,
-		1701,
-		1702,
-		1703,
-		1704,
-		1705,
-		1706,
-		1707,
-		1708,
-		1709,
-		1710,
-		1711,
-		1712,
-		1713,
-		1714,
-		1715,
-		1716,
-		1717,
-		1718
 	}
-}
+end)()

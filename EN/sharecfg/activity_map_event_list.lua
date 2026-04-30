@@ -1,6 +1,69 @@
 pg = pg or {}
-pg.activity_map_event_list = {
-	[1001] = {
+pg.activity_map_event_list = rawget(pg, "activity_map_event_list") or setmetatable({
+	__name = "activity_map_event_list"
+}, confNEO)
+pg.activity_map_event_list.all = {
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008,
+	1009,
+	1010,
+	1011,
+	1012,
+	1013,
+	1014,
+	1015,
+	1016,
+	1017,
+	1018,
+	1019,
+	1020,
+	1021,
+	1022,
+	1024,
+	1025,
+	1026,
+	1027,
+	1028,
+	1029,
+	1030,
+	1050,
+	1051,
+	1052,
+	1053,
+	1054,
+	1055,
+	1056,
+	1101,
+	1102,
+	1103,
+	1201,
+	1202,
+	1203,
+	1204,
+	1205,
+	1301,
+	1302,
+	1303,
+	1304,
+	1305,
+	1306,
+	1401,
+	1402,
+	1403,
+	1404,
+	1405
+}
+pg.base = pg.base or {}
+pg.base.activity_map_event_list = {}
+
+(function ()
+	pg.base.activity_map_event_list[1001] = {
 		node_name = "Lush Jungle",
 		icon_name = "storylv1_1_name",
 		type = 1,
@@ -21,8 +84,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1002] = {
+	}
+	pg.base.activity_map_event_list[1002] = {
 		node_name = "Wharf Construction Site",
 		icon_name = "storylv1_2_name",
 		type = 1,
@@ -43,8 +106,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1003] = {
+	}
+	pg.base.activity_map_event_list[1003] = {
 		node_name = "Seabird Habitat",
 		icon_name = "storylv1_3_name",
 		type = 1,
@@ -65,8 +128,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1004] = {
+	}
+	pg.base.activity_map_event_list[1004] = {
 		node_name = "Foot of the Volcano",
 		icon_name = "storylv1_4_name",
 		type = 1,
@@ -87,8 +150,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1005] = {
+	}
+	pg.base.activity_map_event_list[1005] = {
 		node_name = "Temporary Base",
 		icon_name = "judian_name",
 		type = 1,
@@ -114,8 +177,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1006] = {
+	}
+	pg.base.activity_map_event_list[1006] = {
 		node_name = "Patrol Fleet",
 		icon_name = "storylv2_1_name",
 		type = 1,
@@ -138,8 +201,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1007] = {
+	}
+	pg.base.activity_map_event_list[1007] = {
 		node_name = "Coconut Forest",
 		icon_name = "storylv2_2_name",
 		type = 1,
@@ -162,8 +225,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1008] = {
+	}
+	pg.base.activity_map_event_list[1008] = {
 		node_name = "School of Fish",
 		icon_name = "storylv2_3_name",
 		type = 1,
@@ -186,8 +249,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1009] = {
+	}
+	pg.base.activity_map_event_list[1009] = {
 		node_name = "Leisurely Beach",
 		icon_name = "story_swimsuit1_name",
 		type = 1,
@@ -210,8 +273,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1010] = {
+	}
+	pg.base.activity_map_event_list[1010] = {
 		node_name = "Sea Turtle Habitat",
 		icon_name = "storylv2_4_name",
 		type = 1,
@@ -234,8 +297,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1011] = {
+	}
+	pg.base.activity_map_event_list[1011] = {
 		node_name = "Hot Springs",
 		icon_name = "wenquan_name",
 		type = 1,
@@ -258,8 +321,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1012] = {
+	}
+	pg.base.activity_map_event_list[1012] = {
 		node_name = "BBQ Beach",
 		icon_name = "storylv2_6_name",
 		type = 1,
@@ -287,8 +350,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1013] = {
+	}
+	pg.base.activity_map_event_list[1013] = {
 		node_name = "Blossom Hill",
 		icon_name = "storylv3_1_name",
 		type = 1,
@@ -311,8 +374,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1014] = {
+	}
+	pg.base.activity_map_event_list[1014] = {
 		node_name = "In-Development Garden",
 		icon_name = "storylv3_2_name",
 		type = 1,
@@ -335,8 +398,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1015] = {
+	}
+	pg.base.activity_map_event_list[1015] = {
 		node_name = "Mysterious Woods",
 		icon_name = "storylv3_3_name",
 		type = 1,
@@ -359,8 +422,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1016] = {
+	}
+	pg.base.activity_map_event_list[1016] = {
 		node_name = "In-Development Hot Springs",
 		icon_name = "storylv3_4_name",
 		type = 1,
@@ -383,8 +446,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1017] = {
+	}
+	pg.base.activity_map_event_list[1017] = {
 		node_name = "Sunbathing Beach",
 		icon_name = "story_swimsuit2_name",
 		type = 1,
@@ -407,8 +470,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1018] = {
+	}
+	pg.base.activity_map_event_list[1018] = {
 		node_name = "Seaside Stroll Beach",
 		icon_name = "story_swimsuit3_name",
 		type = 1,
@@ -431,8 +494,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1019] = {
+	}
+	pg.base.activity_map_event_list[1019] = {
 		node_name = "Mountain Ruins",
 		icon_name = "storylv3_5_name",
 		type = 1,
@@ -455,8 +518,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1020] = {
+	}
+	pg.base.activity_map_event_list[1020] = {
 		node_name = "Underground Ruins' Entrance",
 		icon_name = "storylv3_6_name",
 		type = 1,
@@ -479,8 +542,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1021] = {
+	}
+	pg.base.activity_map_event_list[1021] = {
 		node_name = "Deserted Island Ruins",
 		icon_name = "storylv3_7_name",
 		type = 1,
@@ -503,8 +566,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1022] = {
+	}
+	pg.base.activity_map_event_list[1022] = {
 		node_name = "Yacht Course",
 		icon_name = "storylv3_8_name",
 		type = 1,
@@ -535,8 +598,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1024] = {
+	}
+	pg.base.activity_map_event_list[1024] = {
 		node_name = "Coastal Fishing Spot",
 		icon_name = "storylv2_3_name1",
 		type = 1,
@@ -559,8 +622,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1025] = {
+	}
+	pg.base.activity_map_event_list[1025] = {
 		node_name = "Newbie Beach",
 		icon_name = "story_swimsuit4_name",
 		type = 1,
@@ -583,8 +646,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1026] = {
+	}
+	pg.base.activity_map_event_list[1026] = {
 		node_name = "Volcano Summit",
 		icon_name = "storylv4_2_name",
 		type = 1,
@@ -607,8 +670,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1027] = {
+	}
+	pg.base.activity_map_event_list[1027] = {
 		node_name = "Repurposed Garden",
 		icon_name = "storylv4_3_name",
 		type = 1,
@@ -631,8 +694,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1028] = {
+	}
+	pg.base.activity_map_event_list[1028] = {
 		node_name = "Private Pool",
 		icon_name = "story_swimsuit5_name",
 		type = 1,
@@ -655,8 +718,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1029] = {
+	}
+	pg.base.activity_map_event_list[1029] = {
 		node_name = "Golden Sand Beach",
 		icon_name = "storylv4_4_name",
 		type = 1,
@@ -683,8 +746,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1030] = {
+	}
+	pg.base.activity_map_event_list[1030] = {
 		node_name = "Evening Breeze Beach",
 		icon_name = "storylv3_1_name1",
 		type = 1,
@@ -707,8 +770,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1050] = {
+	}
+	pg.base.activity_map_event_list[1050] = {
 		node_name = "Temporary Base",
 		icon_name = "judian_name",
 		type = 5,
@@ -733,8 +796,8 @@ pg.activity_map_event_list = {
 		params = {
 			"island"
 		}
-	},
-	[1051] = {
+	}
+	pg.base.activity_map_event_list[1051] = {
 		node_name = "Temporary Base",
 		icon_name = "judian_name",
 		type = 5,
@@ -759,8 +822,8 @@ pg.activity_map_event_list = {
 		params = {
 			"island"
 		}
-	},
-	[1052] = {
+	}
+	pg.base.activity_map_event_list[1052] = {
 		node_name = "Temporary Base",
 		icon_name = "judian_name",
 		type = 5,
@@ -785,8 +848,8 @@ pg.activity_map_event_list = {
 		params = {
 			"island"
 		}
-	},
-	[1053] = {
+	}
+	pg.base.activity_map_event_list[1053] = {
 		node_name = "Temporary Base",
 		icon_name = "judian_name",
 		type = 5,
@@ -811,8 +874,8 @@ pg.activity_map_event_list = {
 		params = {
 			"island"
 		}
-	},
-	[1054] = {
+	}
+	pg.base.activity_map_event_list[1054] = {
 		node_name = "Hot Springs",
 		icon_name = "wenquan_name",
 		type = 5,
@@ -837,8 +900,8 @@ pg.activity_map_event_list = {
 		params = {
 			"hotspringtask"
 		}
-	},
-	[1055] = {
+	}
+	pg.base.activity_map_event_list[1055] = {
 		node_name = "Open-Air Bath",
 		icon_name = "storylv4_9_name",
 		type = 5,
@@ -867,8 +930,8 @@ pg.activity_map_event_list = {
 		params = {
 			"hotspring"
 		}
-	},
-	[1056] = {
+	}
+	pg.base.activity_map_event_list[1056] = {
 		node_name = "Robust Garden",
 		icon_name = "huatian_name",
 		type = 5,
@@ -893,8 +956,8 @@ pg.activity_map_event_list = {
 		params = {
 			"flowerfield"
 		}
-	},
-	[1101] = {
+	}
+	pg.base.activity_map_event_list[1101] = {
 		node_name = "Manjuu Mining Battle",
 		icon_name = "minigame_1_name",
 		type = 5,
@@ -919,8 +982,8 @@ pg.activity_map_event_list = {
 		params = {
 			"minigame1"
 		}
-	},
-	[1102] = {
+	}
+	pg.base.activity_map_event_list[1102] = {
 		node_name = "Manjuu Salvaging Crew",
 		icon_name = "minigame_2_name",
 		type = 5,
@@ -945,8 +1008,8 @@ pg.activity_map_event_list = {
 		params = {
 			"minigame2"
 		}
-	},
-	[1103] = {
+	}
+	pg.base.activity_map_event_list[1103] = {
 		node_name = "Manjuu Misadventures",
 		icon_name = "minigame_3_name",
 		type = 5,
@@ -971,8 +1034,8 @@ pg.activity_map_event_list = {
 		params = {
 			"minigame3"
 		}
-	},
-	[1201] = {
+	}
+	pg.base.activity_map_event_list[1201] = {
 		node_name = "Seaside Cleanup",
 		icon_name = "Qgame_1_name",
 		type = 2,
@@ -995,8 +1058,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1202] = {
+	}
+	pg.base.activity_map_event_list[1202] = {
 		node_name = "Perilous Jungle Area",
 		icon_name = "Qgame_2_name",
 		type = 2,
@@ -1019,8 +1082,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1203] = {
+	}
+	pg.base.activity_map_event_list[1203] = {
 		node_name = "Cabbajuus",
 		icon_name = "Qgame_3_name",
 		type = 2,
@@ -1043,8 +1106,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1204] = {
+	}
+	pg.base.activity_map_event_list[1204] = {
 		node_name = "Dangerous Cliff",
 		icon_name = "Qgame_4_name",
 		type = 2,
@@ -1067,8 +1130,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1205] = {
+	}
+	pg.base.activity_map_event_list[1205] = {
 		node_name = "Wild Side Barbecue",
 		icon_name = "Qgame_5_name",
 		type = 2,
@@ -1091,8 +1154,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1301] = {
+	}
+	pg.base.activity_map_event_list[1301] = {
 		node_name = "Suspicious Cave",
 		icon_name = "event_1_name",
 		type = 3,
@@ -1115,8 +1178,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1302] = {
+	}
+	pg.base.activity_map_event_list[1302] = {
 		node_name = "Jungle Watering Hole",
 		icon_name = "event_2_name",
 		type = 3,
@@ -1139,8 +1202,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1303] = {
+	}
+	pg.base.activity_map_event_list[1303] = {
 		node_name = "Monster Bird Nest",
 		icon_name = "event_3_name",
 		type = 3,
@@ -1161,8 +1224,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1304] = {
+	}
+	pg.base.activity_map_event_list[1304] = {
 		node_name = "Shroom Colony",
 		icon_name = "event_4_name",
 		type = 3,
@@ -1183,8 +1246,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1305] = {
+	}
+	pg.base.activity_map_event_list[1305] = {
 		node_name = "Who Fell Into the Lake?",
 		icon_name = "event_6_name",
 		type = 3,
@@ -1205,8 +1268,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1306] = {
+	}
+	pg.base.activity_map_event_list[1306] = {
 		node_name = "Encounter in the Rain",
 		icon_name = "event_5_name",
 		type = 3,
@@ -1227,8 +1290,8 @@ pg.activity_map_event_list = {
 		},
 		open_task = {},
 		params = {}
-	},
-	[1401] = {
+	}
+	pg.base.activity_map_event_list[1401] = {
 		node_name = "Base Camp Treasure Chest",
 		icon_name = "",
 		type = 4,
@@ -1258,8 +1321,8 @@ pg.activity_map_event_list = {
 			18708
 		},
 		params = {}
-	},
-	[1402] = {
+	}
+	pg.base.activity_map_event_list[1402] = {
 		node_name = "Eastern Forest Treasure Chest",
 		icon_name = "",
 		type = 4,
@@ -1285,8 +1348,8 @@ pg.activity_map_event_list = {
 			18712
 		},
 		params = {}
-	},
-	[1403] = {
+	}
+	pg.base.activity_map_event_list[1403] = {
 		node_name = "Western Forest Treasure Chest",
 		icon_name = "",
 		type = 4,
@@ -1314,8 +1377,8 @@ pg.activity_map_event_list = {
 			18718
 		},
 		params = {}
-	},
-	[1404] = {
+	}
+	pg.base.activity_map_event_list[1404] = {
 		node_name = "Central Volcano Treasure Chest",
 		icon_name = "",
 		type = 4,
@@ -1341,8 +1404,8 @@ pg.activity_map_event_list = {
 			18722
 		},
 		params = {}
-	},
-	[1405] = {
+	}
+	pg.base.activity_map_event_list[1405] = {
 		node_name = "Northern Ruins Treasure Chest",
 		icon_name = "",
 		type = 4,
@@ -1367,62 +1430,5 @@ pg.activity_map_event_list = {
 			18725
 		},
 		params = {}
-	},
-	all = {
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1007,
-		1008,
-		1009,
-		1010,
-		1011,
-		1012,
-		1013,
-		1014,
-		1015,
-		1016,
-		1017,
-		1018,
-		1019,
-		1020,
-		1021,
-		1022,
-		1024,
-		1025,
-		1026,
-		1027,
-		1028,
-		1029,
-		1030,
-		1050,
-		1051,
-		1052,
-		1053,
-		1054,
-		1055,
-		1056,
-		1101,
-		1102,
-		1103,
-		1201,
-		1202,
-		1203,
-		1204,
-		1205,
-		1301,
-		1302,
-		1303,
-		1304,
-		1305,
-		1306,
-		1401,
-		1402,
-		1403,
-		1404,
-		1405
 	}
-}
+end)()

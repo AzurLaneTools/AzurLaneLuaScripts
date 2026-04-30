@@ -1,6 +1,181 @@
 pg = pg or {}
-pg.world_collection_file_template = {
-	[1101] = {
+pg.world_collection_file_template = rawget(pg, "world_collection_file_template") or setmetatable({
+	__name = "world_collection_file_template"
+}, confNEO)
+pg.world_collection_file_template.all = {
+	1101,
+	1102,
+	1103,
+	1104,
+	1105,
+	1106,
+	2101,
+	2102,
+	2103,
+	2104,
+	2105,
+	2106,
+	3101,
+	3102,
+	3103,
+	3104,
+	3105,
+	3106,
+	3201,
+	3202,
+	3203,
+	3204,
+	3205,
+	3206,
+	3301,
+	3302,
+	3303,
+	3304,
+	3305,
+	3306,
+	4101,
+	4102,
+	4103,
+	4104,
+	4105,
+	4106,
+	5101,
+	5102,
+	5103,
+	5104,
+	5105,
+	5106,
+	6101,
+	6102,
+	6103,
+	6104,
+	6105,
+	6106,
+	7101,
+	7102,
+	7103,
+	7104,
+	7105,
+	7106,
+	8101,
+	8102,
+	8103,
+	8104,
+	8105,
+	8106,
+	9101,
+	9102,
+	9103,
+	9104,
+	9105,
+	9106,
+	10101,
+	10102,
+	10103,
+	10104,
+	10105,
+	10106,
+	11101,
+	11102,
+	11103,
+	11104,
+	11105,
+	11106,
+	11107,
+	11108,
+	11301,
+	11302,
+	11303,
+	11304,
+	11305,
+	11306,
+	11501,
+	11502,
+	11503,
+	11504,
+	11505,
+	11506,
+	11601,
+	11602,
+	11603,
+	11604,
+	11605,
+	11606,
+	11607,
+	11608,
+	11609,
+	13101,
+	13102,
+	13103,
+	13104,
+	13105,
+	13106,
+	13201,
+	13202,
+	13203,
+	13204,
+	13205,
+	13206,
+	13301,
+	13302,
+	13303,
+	13304,
+	13305,
+	13306,
+	14101,
+	14102,
+	14103,
+	14104,
+	14105,
+	14106,
+	14201,
+	14202,
+	14203,
+	14204,
+	14205,
+	14206,
+	14301,
+	14302,
+	14303,
+	14304,
+	14305,
+	14306,
+	14401,
+	14402,
+	14403,
+	14404,
+	14405,
+	14406,
+	14407,
+	14408,
+	14409,
+	14410,
+	14411,
+	14601,
+	14602,
+	14603,
+	14604,
+	14605,
+	14606,
+	14607,
+	14608,
+	14609,
+	15004,
+	15105,
+	15106,
+	18001,
+	19001,
+	19002,
+	19003,
+	19004,
+	19005,
+	19006
+}
+pg.base = pg.base or {}
+pg.base.world_collection_file_template = {}
+
+(function ()
+	pg.base.world_collection_file_template[1101] = {
 		group_ID = 1,
 		name = "Regarding the Aerolith Hypothesis",
 		subTitle = "",
@@ -8,8 +183,8 @@ pg.world_collection_file_template = {
 		id = 1101,
 		is_classified = 0,
 		content = "...In the vast ocean of information recorded in human history, there are countless descriptions of unfathomable mysteries. The truth behind some of these events have forever been sealed within the rushing river of history; some truths have been revealed through archaeology while others remain unascertained, but the advancement of science and technology have brought about new progress. One example is the mysterious ■■■■■■ Explosion that occurred in Northern Parliament territory. \nOn ■■/■■/■■■■ at daybreak, there was a huge explosion comparable to a nuclear detonation in the western part of the Northern Parliament, completely destroying a forested region of greater than 20■■ square kilometers. The cause of this mysterious explosion has attracted the attention of countless scientists and scholars for a century. Though many hypotheses have been proposed, no consensus has been reached by the academic community, and this case remains an unresolved historical mystery. \nJust when the world had begun to slowly forget about it, scientists made shocking progress in recent days by relying on the cutting-edge technology to re-explore the ancient ■■■■■■ area. The latest research has brought forth a famous hypothesis that gets ever closer to the truth behind the explosion: The Aerolith Hypothesis......"
-	},
-	[1102] = {
+	}
+	pg.base.world_collection_file_template[1102] = {
 		group_ID = 2,
 		name = "Meteorite Impact Site Report",
 		subTitle = "Confidentiality：II",
@@ -22,8 +197,8 @@ The most suspicious aspect of the ■■■■■■ Explosion:
 At least three powerful explosions occurred simultaneously, and three craters were identified. However, no meteorite fragments were found at the scene. 
 Though the Aerolith Hypothesis can explain the incident to some extent, this piece of evidence is what prevented this theory from being broadly accepted. However, the latest research finally proposed a reasonable explanation to what happened to the meteorite fragments. 
 Research showed that meteorites that hit the earth first broke up into several pieces due to mesospheric friction, thus forming three separate explosion craters. Additionally, according to calculations, the three impact sites in the ■■■■■■ region may only represent the impact points of some of these fragments; other meteorites whose orbits were changed during atmospheric entry have a high probability of having fallen into the polar regions. Due to the special qualities of these meteorite fragments, they may have quickly “melted” into the surrounding environment. Therefore, the actual fragments have not been found at the impact sites, resulting in the mystery that still persists today...]]
-	},
-	[1103] = {
+	}
+	pg.base.world_collection_file_template[1103] = {
 		group_ID = 3,
 		name = "Press Release",
 		subTitle = "",
@@ -35,8 +210,8 @@ Research showed that meteorites that hit the earth first broke up into several p
 According to customs officials, over the last three months, the number of scientific research entry applications increased more than a hundred times compared to the same period in previous years, with all other types of applications also increasing significantly. 
 Thousands of square kilometers leveled by the explosions have become dense forests once again, including the massive craters left behind by the explosions. Any attempts to search for the remnants of the incident ■ years ago may prove quite disappointing indeed...
 ]]
-	},
-	[1104] = {
+	}
+	pg.base.world_collection_file_template[1104] = {
 		group_ID = 4,
 		name = "Military Blockade Announcement",
 		subTitle = "",
@@ -53,8 +228,8 @@ D. 6■°52′■0″ N, ■01°50′■0″ E
 The time when the Restricted Military Zone will be lifted will be announced in a subsequent notice. 
 Any unauthorized dispatch of military personnel and/or equipment to the Restricted Military Zone will be considered a declaration of hostilities. 
 In such an event...]]
-	},
-	[1105] = {
+	}
+	pg.base.world_collection_file_template[1105] = {
 		group_ID = 5,
 		name = "Independent Journalist Report",
 		subTitle = "",
@@ -68,8 +243,8 @@ Surely, all of you have seen this as well. No matter where you go or what you se
 Did anyone notice the news of what was happening in the Polar region during this time? 
 Surely not. There is no news about the Polar region, not even coverage of the protests from the environmental activist groups that frequently appear on weekdays. “The Polar region” is a phrase that seemed to have disappeared from our lives like thin air. 
 As a reporter who has always been committed to bringing the truth to everyone, I will certainly not be fooled by such a juvenile cover-up! After a difficult field investigation, what do you think I found? The Polar region has actually become a massive offshore construction site...]]
-	},
-	[1106] = {
+	}
+	pg.base.world_collection_file_template[1106] = {
 		group_ID = 6,
 		name = "Undersea Exploration Report",
 		subTitle = "Confidentiality：III",
@@ -77,8 +252,8 @@ As a reporter who has always been committed to bringing the truth to everyone, I
 		id = 1106,
 		is_classified = 0,
 		content = "…Our team has discovered some interesting phenomena from the Polar seabed (depth of over 1500 meters). For example, marine life were appearing at certain depths and temperatures that clearly should not have been possible. Through the exploration of the central area of these deep-sea biomes, we were able to recover samples that are suspected to be from ancient meteorites. As hypothesized, the recovered samples in question have been completely integrated into their surrounding environments and showed no traces of extraterrestrial origin. Had it not been for instruments capable of detecting special bands of energy, these fragments may have been glossed over as ordinary seabed debris. The meteorites that caused the ■■■■■■ Explosion seemed to have certain properties that allow them to blend into the surrounding environment. \nOur \"counterparts\" have also noticed this phenomenon, and conducted a seabed expedition at about the same time we did. By calculating the falling trajectory of the ■■■■■■ meteorite, they have now collected a sample that has a high probability of being the object in question. We recommend setting up a temporary research facility directly on the Polar Sea as soon as possible, in the name of scientific research, so that we may catch up to them..."
-	},
-	[2101] = {
+	}
+	pg.base.world_collection_file_template[2101] = {
 		group_ID = 1,
 		name = "A New Energy Source?",
 		subTitle = "",
@@ -90,8 +265,8 @@ As a reporter who has always been committed to bringing the truth to everyone, I
 In order to verify the authenticity of this rumor, we asked for an interview from the research institute, but received no reply to our inquiries by press time. I’ve heard from media colleagues that they’ve encountered similar challenges, so we can only surmise that the silence indicates the truth of this rumor. 
 Thanks to the tireless efforts of our reporters, we finally made contact with an anonymous energy department official willing to talk to us about this topic through a secret channel. Based on the clues he gave, we finally managed to lift just a corner of the mysterious veil that is this new energy source...
 ——————Subscribe now to read the full article——————]]
-	},
-	[2102] = {
+	}
+	pg.base.world_collection_file_template[2102] = {
 		group_ID = 2,
 		name = "Factory Job Listing",
 		subTitle = "",
@@ -109,8 +284,8 @@ Hiring between the ages of 18-50. We do not discriminate on the basis of race, g
 No work experience requirement for general employees. At least 5 years of relevant work experience required for engineers. At least 5 years of relevant research project experience for researchers. 
 We guarantee a salary significantly higher than the industry standard. Please come by the factory for details (employees must sign a non-disclosure agreement). 
 Résumé delivery method...]]
-	},
-	[2103] = {
+	}
+	pg.base.world_collection_file_template[2103] = {
 		group_ID = 3,
 		name = "Job Applications",
 		subTitle = "",
@@ -126,8 +301,8 @@ Résumé delivery method...]]
 ......
 [No. 11010] 27 years old, male, 3 years of factory work experience. I’ve completed Energy Cube training and am looking for a job in a company that produces Energy Cubes. Please contact me if there are any companies that are willing to...
 ......]]
-	},
-	[2104] = {
+	}
+	pg.base.world_collection_file_template[2104] = {
 		group_ID = 4,
 		name = "Cube Committee to be Established",
 		subTitle = "",
@@ -135,8 +310,8 @@ Résumé delivery method...]]
 		id = 2104,
 		is_classified = 0,
 		content = "...Yesterday, the Northern Parliament's leadership formally established the National Energy Cube Production Management and Application Committee (hereafter referred to as the Cube Committee). The establishment of the Cube Committee signifies the Northern Parliament’s official inclusion of Energy Cube technology into the country’s next five-year plan as part of its development strategy. In its announcement of the establishment of this committee, the Northern Parliament also announced the establishment of three new large-scale state-owned enterprises that will be used for R&D, production, and the application of Energy Cubes. \nToday, at a regular press conference, the Eagle Union continued to levy accusations against the Northern Parliament of stealing the Eagle Union’s Energy Cube research results, and called on their allies to prepare accordingly in the event that the Northern Parliament “applies Energy Cube technology in a malicious way that would bring about the downfall of human society.” The Northern Parliament responded at its own press conference a few hours later, dismissing these claims as conspiratorial nonsense. The spokesperson further stated that they “would focus on using Energy Cube technology to improve the standard of living for all peoples, and towards projects that would bring prosperity to mankind such as combatting global climate change, rather than using Energy Cubes to develop weapons of war like the Eagle Union-led coalition.” As of the time of this report, the Eagle Union has not yet responded to these allegations..."
-	},
-	[2105] = {
+	}
+	pg.base.world_collection_file_template[2105] = {
 		group_ID = 5,
 		name = "Cube Standardization Summit",
 		subTitle = "",
@@ -148,8 +323,8 @@ Résumé delivery method...]]
 The Summit designated the official international name of the Energy Cube as “ε-Cube” and also provided a series of standards for its production and utilization. 
 Unlike with conventional energy sources, the most important thing about producing ε-Cubes is the construction of a complex synthetic container. Differences in specifications during the production process of this container will directly affect the quality of the resulting ε-Cube. At the Summit, scientists carried out extensive discussions of the experimental data published by various countries, finally formulating a series of standards to produce a stable and reliable ε-Cube. These standards will serve as a general specification for the production and utilization of ε-cubes across the world. 
 The birth of international standards has paved the way for widespread application of ε-Cube technology. Very soon, the entire world will be transformed by the possibilities brought about by the ε-Cubes...]]
-	},
-	[2106] = {
+	}
+	pg.base.world_collection_file_template[2106] = {
 		group_ID = 6,
 		name = "New Energy Revolution: Opposition",
 		subTitle = "",
@@ -161,8 +336,8 @@ The birth of international standards has paved the way for widespread applicatio
 Most demonstrators have voiced concerns about the safety of Cube technology, and some have expressed suspicion about the Northern Parliament's role in the research and development of Cube technology. 
 We interviewed a representative of a well-known opposition organization that has recently gained traction. According to the source, who has chosen to stay anonymous, the opposition group is primarily made up of professionals in traditional energy sectors, with a small number of scientific researchers. The purpose of the organization, he says, is to protect traditional energy industries, and to raise awareness of the possible dangers of misusing Cube technology. He urges caution against relying on a black box that even top scientists cannot fully explain, and to return to the development of traditional energy sectors including nuclear energy. 
 It is worth noting that of the many researchers who’ve expressed support for the group's views, several are well-known experts who even participated in the development of Cube technology...]]
-	},
-	[3101] = {
+	}
+	pg.base.world_collection_file_template[3101] = {
 		group_ID = 1,
 		name = "A Leap for Consumerism",
 		subTitle = "",
@@ -170,8 +345,8 @@ It is worth noting that of the many researchers who’ve expressed support for t
 		id = 3101,
 		is_classified = 0,
 		content = "...After a series of experimental transitions into utilizing Cubes in a number of our factories, by Jove... our final production cost has been lowered by 30%! This new energy source’s performance is stable and reliable. Over the last few months, there have been no accidents or cases of energy leakage, showing that our previous worries were overblown. Furthermore, hmm... Indeed, you’ve also chosen a pretty good company. Fair prices, and excellent customer service. We’ll also have to get our other factories up to par... How about this, tomorrow, you’ll meet up with them to add more orders. Then, work with their technicians to rebuild all the production lines, starting from the western factory first. Remember to sign a long-term contract with them. In the future, also have them handle the replacement and equipment maintenance work after a Cube is depleted. Ahaha, many factories are still hesitating about whether or not this new energy source is “reliable.” As long as we finish transitioning our production lines first, we’ll crush them using the savings gained from transitioning to Cube technology! The future has never looked brighter, my friend..."
-	},
-	[3102] = {
+	}
+	pg.base.world_collection_file_template[3102] = {
 		group_ID = 2,
 		name = "Cube or Nuclear I",
 		subTitle = "",
@@ -179,8 +354,8 @@ It is worth noting that of the many researchers who’ve expressed support for t
 		id = 3102,
 		is_classified = 0,
 		content = "...The utilization of ε-Cubes is also very different from that of commonly-used nuclear energy. In the eyes of the layperson, the ε-Cube is similar to a nuclear reactor — an energy source with a nearly unlimited battery life. However, nuclear reactors require fuel to operate, and involve a series of complex control mechanisms and cumbersome energy conversion channels. On the other hand, the ε-Cube is much smaller than even the smallest nuclear reactor currently available. It does not require fuel, is simple and safe to operate, and can directly convert energy in the ε-Cube into usable power. \nThe most important feature of the ε-Cube is its battery-like size with the battery life of a nuclear reactor. Though the output of a single ε-Cube is limited and is not comparable to a small nuclear reactor, ε-Cubes can be used with other cubes in relatively free configurations, and the output efficiency can be increased by arranging them in...\n"
-	},
-	[3103] = {
+	}
+	pg.base.world_collection_file_template[3103] = {
 		group_ID = 3,
 		name = "Cube or Nuclear II",
 		subTitle = "",
@@ -192,8 +367,8 @@ It is worth noting that of the many researchers who’ve expressed support for t
 Currently, major ε-Cube producing countries still have total moratoriums on the export of core ε-Cube technology, and also have imposed many restrictions on the export of ε-Cube products. But countries that have already joined one of the major multinational alliances, have enjoyed the unprecedented development brought about by this new energy source. A country that could not even complete a single fission reactor seems to have solved its energy problem overnight. Energy consumption is gradually becoming less and less of a restriction on the development of productivity. Therefore, the number of countries that have shown willingness to join a major alliance to obtain the benefits of ε-Cube technology has been gradually increasing as well...
 On the other hand, as ε-Cube technology is continuously improved and upgraded, several major ε-Cube manufacturers have introduced their own standards on top of the global general standards, trying to dominate the market through unique specifications and upgraded ε-Cube models. ε-Cubes with smaller and smaller sizes and ever-increasing power output are constantly being created, and we may only have seen the beginning of this global revolution...
 ]]
-	},
-	[3104] = {
+	}
+	pg.base.world_collection_file_template[3104] = {
 		group_ID = 4,
 		name = "Tundra Terraforming",
 		subTitle = "",
@@ -205,8 +380,8 @@ On the other hand, as ε-Cube technology is continuously improved and upgraded, 
 The small-scale temperature control stations are unmanned warming devices driven by a built-in ε-Cube capable of heating the surrounding environment around the clock, year-round. By using hundreds of adjusting, extensible columns, one station can evenly cover one square kilometer of land. 
 Ice floe melting stations are used to maintain and expand sea routes through the Polar region, creating more non-freezing ports across the Polar region and the Far East. 
 It is estimated that tens of millions of temperature regulation stations and tens of thousands of ice floe melting stations will be deployed to fully realize this goal. Major environmental conservation organizations have all recently expressed their concerns and qualms about this development plan.]]
-	},
-	[3105] = {
+	}
+	pg.base.world_collection_file_template[3105] = {
 		group_ID = 5,
 		name = "A New Era of Discovery",
 		subTitle = "",
@@ -214,8 +389,8 @@ It is estimated that tens of millions of temperature regulation stations and ten
 		id = 3105,
 		is_classified = 0,
 		content = "...The ε-Cube, a small, durable, and efficient energy source, will completely change the traditional methods of deep-sea and space exploration. The unreachable abyss of the deep sea and the distant stars above us have always been unknown sources of mystery. Until now, the primary challenge of deep-sea exploration has always been underwater battery life. However, the emergence of the ε-Cube has finally changed this situation. The lightweight ε-Cube conversion device is perfect for unmanned submarines. A submarine equipped with this energy source has almost unlimited endurance that far exceeds its service life, drastically cutting launch and recycling costs. Now, humans are finally able to thoroughly explore every corner of the deep sea. \n...\nEagle Union’s Aeronautics and Space Administration recently announced a new phase of its space exploration program. It is expected that their latest rocket will be powered by a newly-developed ε-Cube. Compared to the rockets commonly used today that rely on nuclear energy, ε-Cube rockets have negligible levels of radiation, and astronauts do not even need the simplest of simplest protective equipment inside the spacecraft. Because the output power of the space-grade ε-Cube energy is vastly greater than that of a nuclear-powered engine occupying the same amount of space, the time required for space flight is further shortened..."
-	},
-	[3106] = {
+	}
+	pg.base.world_collection_file_template[3106] = {
 		group_ID = 6,
 		name = "New Energy Revolution: Societal Changes",
 		subTitle = "",
@@ -223,8 +398,8 @@ It is estimated that tens of millions of temperature regulation stations and ten
 		id = 3106,
 		is_classified = 0,
 		content = "...It took only a few years from its inception to sweep across the globe. In such a short time, Cube technology completely reshaped the face of the entire world. Though discussions regarding the safety of Cubes continue, the number of staunch advocates of Cube technology has gradually increased. Over time, countless organizations and groups worshipping Cubes began to spring forth, some with cult-like characteristics. A common characteristic across members of these organizations is a fanatical belief in Cube technology, and adherents claim that Cubes have a divine power to solve all problems. Similar organizations have even arisen in countries that have not universally adopted Cube technology. \nAccording to publicly available data, many of these groups are involved in the smuggling of Cubes and Cube-powered devices, or fraud related to products using Cube technology. This increasingly serious phenomenon is a major problem that governments all over the world need to pay attention to..."
-	},
-	[3201] = {
+	}
+	pg.base.world_collection_file_template[3201] = {
 		group_ID = 1,
 		name = "Lifestyle: Cube Miniaturization",
 		subTitle = "",
@@ -232,8 +407,8 @@ It is estimated that tens of millions of temperature regulation stations and ten
 		id = 3201,
 		is_classified = 0,
 		content = "...A breakthrough has been made in the miniaturization of the ε-Cube. At their latest product launch press conference held early this morning, the Simons Company caught everyone’s attention with their subminiature ε-Cube M5. According to Simons' R&D personnel, the side length of the M5 cube is only 5mm, much smaller than the 12mm side length of the same type of ε-Cube on the market. By changing the cube’s shell material, the ε-Cube M5 has a volume reduction of 92.8% compared to similar products, while only experiencing a 41.4% decrease in output power. \nIn just a few years, various portable devices equipped with miniature cubes have entered thousands of households. From portable electronics to travel facilities to public-service facilities, all kinds of new commodities have been emerging. Cube technology has spread to all facets of daily life. Further miniaturization will undoubtedly further accelerate the spread of Cube technology into daily necessities, and spawn even more brand-new products designed specifically for usage with cubes..."
-	},
-	[3202] = {
+	}
+	pg.base.world_collection_file_template[3202] = {
 		group_ID = 2,
 		name = "Cube Technology in Personal Vehicles",
 		subTitle = "",
@@ -246,8 +421,8 @@ This permit stipulates 47 parts that can undergo Cube modification. Most of thes
 In any case, please don’t forget to perform the necessary registration procedures to modify your vehicle! 
 Let’s work together to soup up our rides! 
 Finally, if you’re too busy to modify your own vehicle, do not despair! We can refer you to an experienced modification garage that can even provide customized parts...]]
-	},
-	[3203] = {
+	}
+	pg.base.world_collection_file_template[3203] = {
 		group_ID = 3,
 		name = "Reshaping Desert Tourism",
 		subTitle = "",
@@ -259,8 +434,8 @@ Finally, if you’re too busy to modify your own vehicle, do not despair! We can
 In order to solve this perennial problem, the desert tourism drone service system developed by the logistics giant, AMZ, in conjunction with a number of professional travel agencies, has officially been put to use in some desert tourism hotspots. The drone service system uses AMZ’s latest model of Cube-powered drones, capable of carrying loads up to 100kg and conducting all-weather remote hovering or cruising services year-round, featuring strong resistance to wind and sand. 
 Each drone is equipped with food, water, a spare power supply, maintenance equipment, medical supplies, other travel convenience supplies, and also has navigation and lighting functions. For an additional fee, each tourist can also designate up to 3 drones to provide full flight service during the trip...
 ]]
-	},
-	[3204] = {
+	}
+	pg.base.world_collection_file_template[3204] = {
 		group_ID = 4,
 		name = "Portable Charging Cube Product Release!",
 		subTitle = "",
@@ -273,8 +448,8 @@ Whether you're working on a regular screen or building an augmented reality spac
 Plus, the Business Buddy ECII is equipped with the most advanced anti-interference devices, making it a mobile workstation that can weather the harshest of environments!
 But that's not all! The Business Buddy ECII OS has a virtual interface with 18 different personalities to meet the greatest variety of needs!
 Get the Business Buddy ECII today and experience the joy of being able to work anywhere, anytime! Bulk discounts available for purchasing more than ■ Business Buddy ECII units......]]
-	},
-	[3205] = {
+	}
+	pg.base.world_collection_file_template[3205] = {
 		group_ID = 5,
 		name = "Terrorism and Arrest",
 		subTitle = "",
@@ -282,8 +457,8 @@ Get the Business Buddy ECII today and experience the joy of being able to work a
 		id = 3205,
 		is_classified = 0,
 		content = "...After receiving a tip from the administrator, the police quickly arrived at the scene and blocked off the nearby roads. The SWAT team arrived soonafter and dismantled the suspicious abandoned object. Within the dismantled objects, a large amount of explosives were found, along with an already-activated remote-controlled timed detonator. It was judged that this device was an intentionally-made explosive.\nThe active part of the explosive was said to have been made by connecting multiple Cubes of different types and sizes. However, because Cubes cannot be detonated, such an explosive would not have actually yielded any explosive effect.\nThe investigation concluded with the police detaining the individual suspected of creating and planting the explosive device, three hours after the initial tip. The police are currently interrogating the subject for further details..."
-	},
-	[3206] = {
+	}
+	pg.base.world_collection_file_template[3206] = {
 		group_ID = 6,
 		name = "The Recycling Renaissance",
 		subTitle = "",
@@ -298,8 +473,8 @@ Regardless, due to the sheer number of Cube energy farms that have been construc
 
 There is a silver lining, however. Cubes created this conundrum, but they can also solve it. As Cubes are a practically free energy source,
 As Cubes provide a source of practically free, unlimited energy, they have set the stage for energy-intensive, but eco-friendly recycling methods to make a comeback...]]
-	},
-	[3301] = {
+	}
+	pg.base.world_collection_file_template[3301] = {
 		group_ID = 1,
 		name = "Powered Combat Suits: Then and Now",
 		subTitle = "",
@@ -311,8 +486,8 @@ As Cubes provide a source of practically free, unlimited energy, they have set t
 Due to the limitations of last-generation energy supply solutions, old PCS models were semi-open designs created to be as lightweight as possible. As these models were unable to provide their user with full-body protection, they only saw extremely limited usage.
 After the breakthroughs of Cube technology, this fundamental problem became all but a non-issue. PCS design has undergone a complete reversal with the latest generation, with most models favoring a casing that fully encloses the operator. These suits put emphasis on increased firepower and armor, life-support for missions in hazardous environments, and systems that raise the operator's tactical awareness. The PCS, once merely an auxiliary combat aide, has transformed into a literal war machine.
 This rapid development has sparked debate among engineers over the PCS's fundamental design, however. Some argue the bipedal model designed around the human body is here to stay, while others propose switching to wheeled vehicle-type designs featuring superior stability. Others still ponder the feasibility of leveraging the Cubes' almost inexhaustible energy to create suits with "wings"...]]
-	},
-	[3302] = {
+	}
+	pg.base.world_collection_file_template[3302] = {
 		group_ID = 2,
 		name = "Cube Technology Being Integrated into Firearms",
 		subTitle = "",
@@ -330,8 +505,8 @@ The HMG can be further categorized into one of 8 models based on intended use, m
 
 7 out of 8 models cleared all tests; testing of model FNCB4B has been postponed due to a malfunction with the testing platform. The remaining 7 models are all slated to enter mass-production.
 The FNH Group's most high-profile weapons project, a high-energy laser weapon powered by Cube technologies, did not make an appearance at this round of testing. When asked about this, the public relations manager at FNH Group informed us the weapon is still in the testing phase...]]
-	},
-	[3303] = {
+	}
+	pg.base.world_collection_file_template[3303] = {
 		group_ID = 3,
 		name = "Plans to Expand Space Station Emir",
 		subTitle = "",
@@ -346,8 +521,8 @@ The Northern Parliament intends to install additional Cube power units on the st
 Additionally, a Northern Parliament space program representative announced that plans are in the works to construct a new docking platform that would allow the station to store and launch probes into deep-space. These probes are currently under development and will be powered with Cube technology.
 
 Upon review of both nuclear-powered and Cube-powered space shuttles for use in low-Earth orbit, scientists found that Cube-powered shuttles do not have any significant advantages over their older nuclear-powered counterparts. In light of these findings, many organizations have announced plans to invest research into Cube-powered deep-space probes that can take off directly from space station docking platforms instead...]]
-	},
-	[3304] = {
+	}
+	pg.base.world_collection_file_template[3304] = {
 		group_ID = 4,
 		name = "Excerpt from Online Forum on Military Topics",
 		subTitle = "",
@@ -375,8 +550,8 @@ why do i still browse this board
 Anonymous 12:17:54 No. 3218
 [This post has been deleted]
 ...]]
-	},
-	[3305] = {
+	}
+	pg.base.world_collection_file_template[3305] = {
 		group_ID = 5,
 		name = "Energy Extraction Engine",
 		subTitle = "",
@@ -388,8 +563,8 @@ Anonymous 12:17:54 No. 3218
 In the first stage, the Chamber of Commerce will mobilize R&D resources and talent to achieve breakthroughs in Cube technology and applications in the aviation sector. Currently, Cube-powered engines can only be used in large stationary machines and small to medium-sized ground vehicles. If this development goes smoothly, engines for large drones will be developed first, followed by engines for passenger planes and freight, then finally, engines for combat aircraft. Imagine the joys of flying without a need to refuel.
 The completion of the first stage of the plan will revolutionize the traditional aviation industry, leaving tanker aircraft behind in history. In the second phase, following on the success of Cube-powered aircraft engines, the Chamber of Commerce plans to develop Cube-powered rockets for near-Earth orbital transport and deep space exploration.
 Let us look towards the sea of stars for our next conquest...]]
-	},
-	[3306] = {
+	}
+	pg.base.world_collection_file_template[3306] = {
 		group_ID = 6,
 		name = "Coast Guard Unmanned Vessels",
 		subTitle = "",
@@ -397,8 +572,8 @@ Let us look towards the sea of stars for our next conquest...]]
 		id = 3306,
 		is_classified = 0,
 		content = "...Today, the preliminary batch of E-Cube powered unmanned patrol vessels was officially deployed into the Coast Guard. The preliminary batch of vessels this time includes 200 Solar Eclipse-class unmanned surface patrol boats, 200 Moonshade-class underwater patrol boats, 20 Corruptor-class unmanned aviation submarines, and a group of drones for support. According to Coast Guard officials, these vessles of unmanned patrol vessels are divided into several fleets and are primarily responsible for strengthening patrol activity along the East Coast.\nAll near-shore unmanned patrol vessels were designed, developed, and manufactered by the GDS Company. Compared to ships with similar specifications, these latest models have been equipped with smaller E-Cube engines along with the newest joint operations module. As a result, operators do not need to individually issue instructions to each ship, but can control an entire unmanned fleet by delivering commands to the \"mothership.\" Upon receiving the commands, the mothership analyzes the situation at the mission point, gives instructions to vessels in its command network, and can autonomously execute actions such as isolating, encircling, or attacking.\nThe Coast Guard has reiterated that the unmanned patrol fleet would be used to combat the increase in smuggling activity..."
-	},
-	[4101] = {
+	}
+	pg.base.world_collection_file_template[4101] = {
 		group_ID = 1,
 		name = "Engine Replacement for Large Aircraft Carriers",
 		subTitle = "",
@@ -406,8 +581,8 @@ Let us look towards the sea of stars for our next conquest...]]
 		id = 4101,
 		is_classified = 0,
 		content = "...The nuclear aircraft carrier, Enterprise, arrived at the SD Naval Base today, temporarily concluding its naval service. Enterprise is staying at the base to embark of a 36-month-long large-scale maintenance and reconstruction work project. Unlike in previous maintenance projects, Enterprise will completely abandon nuclear power and switch to a brand-new power module.\nThe E-Cube powered energy conversion device, made specifically for use on Enterprise, can directly convert power generated by the E-Cube into usable engine power for the warship, greatly reducing the size of the power system and reducing the rate of energy loss. After the replacement work has concluded, a large amount of space will be freed up inside the aircraft carrier. The specific purpose for this space is currently unknown. Perhaps it will be used as a storage space for conventional weapons?\nAfter all modifications are complete, Enterprise will no longer need to perform a similarly-scaled engine maintenance throughout her operational lifetime, a Navy spokesperson said. After all aircraft carriers have been converted to the new engine, traditional overhauls for refuelling will no longer be necessary..."
-	},
-	[4102] = {
+	}
+	pg.base.world_collection_file_template[4102] = {
 		group_ID = 2,
 		name = "Internet Users Shocked by Military Developments",
 		subTitle = "",
@@ -431,8 +606,8 @@ Anonymous 06:33:01 No. 1130
 >>1129
 If there's 2 things history's taught us it's that humanity is persistent, and war is costly so people wanna avoid it.But if you wanna live in a literal hole in the ground, go ahead. Nobody's stopping you.
 ...]]
-	},
-	[4103] = {
+	}
+	pg.base.world_collection_file_template[4103] = {
 		group_ID = 3,
 		name = "Dangers of Cube Usage",
 		subTitle = "",
@@ -440,8 +615,8 @@ If there's 2 things history's taught us it's that humanity is persistent, and wa
 		id = 4103,
 		is_classified = 0,
 		content = "...The president of the Europa Cube Research Group has publicly reiterated his concern about the Energy Cube, making the following statement in a special interview with the journal:\n\"Currently, humans are far from being able to understand the Energy Cube's power-generating mechanisms. In other words, even if a layperson is able to use the right combination of ingredients to follow a recipe, that person knows nothing about the chemical reactions that occurred to create the final dish. The same is true for our understanding of Energy Cubes. What we are doing now and the things we have been researching are primarily focused on how to make and use Energy Cubes, basically assembling them from random materials through trial and error. Of course, I won't deny the massive contributes that Energy Cubes have made to the development of the world in many areas such as climate change, power shortages, food insecurity, water shortages, and more, but we must be aware that there are major pitfalls to immediately applying a new technology that is still in the infancy of its research stage to society on a large scale. No one, and I mean no one, can predict when, where, or how unknown dangers will strike...\""
-	},
-	[4104] = {
+	}
+	pg.base.world_collection_file_template[4104] = {
 		group_ID = 4,
 		name = "New Ship Retrofitting Plan",
 		subTitle = "",
@@ -453,8 +628,8 @@ If there's 2 things history's taught us it's that humanity is persistent, and wa
 "Hmm, let's see... Unlike us, who solely use Energy Cubes as our power source, the Northern Parliament uses a hybrid system that adds an Energy Cube to traditional power sources. The end result is not as efficient or as clean as a pure E-Cube engine, and it is also harder to maintain. However, the installation process is far simpler and less time-consuming. This greatly reduces the structural hurdles such as having the necessary equipment and technical personnel, and is more compatible with dated fleets. It is possible to modernize an entire fleet in a short period of time."
 "Does the goal of modernizing old ships not pose a threat to us?"
 "It's hard to say. We're trying to push the limits of combat capabilities through technology, but there are differences in how E-Cubes are applied. Of course, our Enterprise, powered solely through E-Cubes, will undoubtedly be the mightiest carrier in the world after retrofitting is finished. However, should the other side use E-Cube technology to quickly outfit a large number of ships at low cost, their overall combat capabilities will be dramatically enhanced as a whole, regardless of how little each individual unit is enhanced."......]]
-	},
-	[4105] = {
+	}
+	pg.base.world_collection_file_template[4105] = {
 		group_ID = 5,
 		name = "The Prelude to In-Depth Cube Research",
 		subTitle = "Confidentiality：V",
@@ -467,8 +642,8 @@ If there's 2 things history's taught us it's that humanity is persistent, and wa
 Although, in exchange for all these favors, they do expect us to produce something of tangible use ASAP. It's a good thing we've already finished work on a prototype Cube engine for land-and-air-based vehicles. There is also the Cube-powered propulsion system for battleships which is past the theoretical stage. With that in mind, I suggest we make our first project to research into the practical application of these innovations.
 
 At long last, we'll finally be able to study how the Energy Cubes function in-depth. As Dr. Anzeel has theorized, I, too, believe Cubes are more than just a convenient source of energy. The hidden potential they hold goes far beyond that...]]
-	},
-	[4106] = {
+	}
+	pg.base.world_collection_file_template[4106] = {
 		group_ID = 6,
 		name = "Speech at an International Summit",
 		subTitle = "",
@@ -484,8 +659,8 @@ An international summit was held at the Royal Navy LD this week. Representatives
 But, as many people have suspected, not all things these Cubes brought into existence have been good. As a matter of fact, we are on the verge of a crisis of an unprecedented scale. Our enemies have weaponised the Energy Cubes. They have set up countless test facilities to conduct research on the Cubes, and they are trying to use the Cubes' vast range of applications as a weapon to destroy us!
 
 Faced with this regretable fact, what other choice do we have but to move forward with an Energy Cube weapons programme of our own? If our enemy intends to strike us, we must be prepared to strike them back"...]]
-	},
-	[5101] = {
+	}
+	pg.base.world_collection_file_template[5101] = {
 		group_ID = 1,
 		name = "Deeper Research into the Energy Cubes - Report #1",
 		subTitle = "Confidentiality：VI",
@@ -502,8 +677,8 @@ I wish to prove my theory to the world. In order to do that, I will need additio
 
 – Dr. Anzeel
 ...]]
-	},
-	[5102] = {
+	}
+	pg.base.world_collection_file_template[5102] = {
 		group_ID = 2,
 		name = "Deeper Research into the Energy Cubes - Report #2",
 		subTitle = "Confidentiality：V",
@@ -528,8 +703,8 @@ May 23rd, 09:00 - Test commences / Testing environment XVI; Objective: perform t
 09:25 - Resonance phenomenon observed in material grouping IX.
 09:30 - Test terminated.
 ...]]
-	},
-	[5103] = {
+	}
+	pg.base.world_collection_file_template[5103] = {
 		group_ID = 3,
 		name = "Requisitioned Items List",
 		subTitle = "Confidentiality：I",
@@ -558,8 +733,8 @@ Additional notes:
 All items in the display pieces box are to be returned in their original condition within 3 months.
 Historical relics are to be handled with care.
 ...]]
-	},
-	[5104] = {
+	}
+	pg.base.world_collection_file_template[5104] = {
 		group_ID = 4,
 		name = "Enterprise Exhibit Postponed",
 		subTitle = "",
@@ -580,8 +755,8 @@ We thank you for your understanding and patience.
 June 1st
 D.C. Navy Museum Management Committee
 ...]]
-	},
-	[5105] = {
+	}
+	pg.base.world_collection_file_template[5105] = {
 		group_ID = 5,
 		name = "New Aircraft Carrier Personnel Missing?",
 		subTitle = "",
@@ -593,8 +768,8 @@ D.C. Navy Museum Management Committee
 The incident began a few days ago. Aircraft carrier Enterprise is slated to undergo extensive maintenance for 36 months at the SD Naval Base, but immediately upon its arrival, the admiral was to leave the base to participate in meetings with the naval leadership.
 Initially, our journalists were planning to ask the admiral about the impact of Cube-powered warships on global affairs and what this maintenance would bring to the Enterprise during a normal press conference. However, even though the press conference was in full swing, the admiral was absent without prior notice despite being scheduled to attend! While the press conference itself concluded without further issue, we followed some suspicious leads and conducted our own investigation for a few days. Ultimately, we came to the conclusion that the admiral had gone missing!
 After entering the Department of Defense building, the admiral seemed to have "disappeared" from the building without a trace, and there were no traces of him leaving. We weren't going to give up, so we contacted the colonel's wife, who unfortunately declined our interview. However, during our brief conversation, the colonel's wife appeared very calm, suggesting that the colonel was probably safe and away conducting a secret military mission...]]
-	},
-	[5106] = {
+	}
+	pg.base.world_collection_file_template[5106] = {
 		group_ID = 6,
 		name = "Code G Spec Assessment",
 		subTitle = "Confidentiality：V",
@@ -613,8 +788,8 @@ As a part of the Project "Dusk" experiment, "Code G" will begin a week-long sea 
 Jam all satellites that pass through the above sea and airspace.
 
 As a countermeasure against "RF" reconnaissance and espionage, fighter planes have been stationed in the above airspace. Surrounding naval bases have been instructed to monitor the situation around the clock. Any targets that enter the area without prior authorization can be shot down on sight——]]
-	},
-	[6101] = {
+	}
+	pg.base.world_collection_file_template[6101] = {
 		group_ID = 1,
 		name = "Cube Analysis Report I",
 		subTitle = "Confidentiality：V",
@@ -633,8 +808,8 @@ To our knowledge, many parties are already carrying out similar lines of researc
 Regardless, we plan to do away with any speculation and return to studying the building blocks of the ε-Cube at a sub-atomic level. However, our current facilities do not meet the conditions that would allow us to advance our research in the way outlined above. Therefore, we would like to apply for two things: First, that a new lab be established in the Somers Isle in the Bermuda Triangle capable of satisfying our equipment, environmental, and confidentiality needs, and second, that permission to view the confidential research materials of "Project Dusk" be granted.
 
 – Dr. Aoste]]
-	},
-	[6102] = {
+	}
+	pg.base.world_collection_file_template[6102] = {
 		group_ID = 2,
 		name = "Cube Analysis Report II",
 		subTitle = "Confidentiality：V",
@@ -651,8 +826,8 @@ In a sense, this phenomenon is similar to the relationship between potential and
 To continue the next phase of research, I would like permission to view all of the research data from the now-frozen "Polar Analysis" project.
 
 – Dr. Aoste]]
-	},
-	[6103] = {
+	}
+	pg.base.world_collection_file_template[6103] = {
 		group_ID = 3,
 		name = "Cube Analysis Report III",
 		subTitle = "Confidentiality：V",
@@ -667,8 +842,8 @@ From our experimental results, should there be some material that can withstand 
 Further evidence exists to support my hypothesis: that the ε-Cube is a device that extracts energy, rather than produces it. Beyond the mechanics of the Cube itself, I do not particularly care what the true origins or nature of this energy are. While I could make some educated guesses, that would fly in the face of scientific principles and common sense itself. All that matters is that we continue our research. For that purpose, it would be very helpful if ALL the data from the "Polar Analysis" project be made available...
 
 – Dr. Aoste]]
-	},
-	[6104] = {
+	}
+	pg.base.world_collection_file_template[6104] = {
 		group_ID = 4,
 		name = "Cube Analysis Report IV",
 		subTitle = "Confidentiality：V",
@@ -683,8 +858,8 @@ All our experiments have pointed to the same conclusion over and over. The energ
 Even though we produced and utilized the ε-Cube, we had no idea how it worked... until now. Though this is a revolutionary breakthrough, I can't help but think about how that higher-dimension space came to exist. If the theory that higher-dimension space can house an infinite number of lower-dimension spaces, and lower-dimension space can be observed, then by applying these theories... ■■■■■■■■■■■■■■■■■■■...
 
 – Dr. Aoste]]
-	},
-	[6105] = {
+	}
+	pg.base.world_collection_file_template[6105] = {
 		group_ID = 5,
 		name = "Cube Analysis Report V",
 		subTitle = "Confidentiality：V",
@@ -701,8 +876,8 @@ Naturally, that belief is common sense in our world. For example, a bowl made of
 The ε-Cube does not inherit the properties of the materials used to make it, but rather changes based upon those materials. Simply put, an ε-Cube is more than the sum of the components used to make it. Whether wood or paper, the properties of the Cube are not completely related to the physical properties of the components. Of course, neither wood nor paper are suitable materials for the construction of an ε-Cube shell, but with this knowledge, we once again open ourselves to countless new possibilities worth trying, such as ■■■■■■■■■■■■■■■■■■■...
 
 – Dr. Aoste]]
-	},
-	[6106] = {
+	}
+	pg.base.world_collection_file_template[6106] = {
 		group_ID = 6,
 		name = "Cube Analysis Report VI",
 		subTitle = "Confidentiality：V",
@@ -721,8 +896,8 @@ As for Phase III... That is, the study of this higher-dimensional space, my team
 I would like to apply for a tour of Project Dusk's testing grounds. Our research will surely prove useful for Project Dusk, and I am curious about the implications that Code G's existence has for our future research...
 
 – Dr. Aoste]]
-	},
-	[7101] = {
+	}
+	pg.base.world_collection_file_template[7101] = {
 		group_ID = 1,
 		name = "Log: SDORGA001",
 		subTitle = "",
@@ -741,8 +916,8 @@ Let's see... Next is... "In a special environment adjusted from the previous ite
 Hmm... I'm not sure "born" is the right word to use here. The materials around the ε-Cube all disappeared, so in other words... "Rather than being created from nothing, the particles of the matter were rearranged and reassembled due to reaching a certain resonance between the ε-Cube and the various materials." ...From an outside perspective, all of this may appear to be encroaching on the realm of God, but as a researcher, and as a director of this project, it's my job to explain this phenomenon in scientific terms...
 
 – Dr. Anzeel]]
-	},
-	[7102] = {
+	}
+	pg.base.world_collection_file_template[7102] = {
 		group_ID = 2,
 		name = "Log: SDORGA007",
 		subTitle = "",
@@ -759,8 +934,8 @@ So from now on, I'll write down some information about Enterprise every day.
 Born with the body of a human female, the intelligent body "Enterprise" has an almost perfect grasp of our world's knowledge and language, as if it had come pre-installed in her head (because of this, everyone in the facility sees her as an overly diligent AI). On the other hand, her ability to live life like a normal human being seems rather lacking, and her mental age appears to also be... around that of a human middle schooler? Considering the rarity of Wisdom Cubes, we'll most likely be limited to simply observing her for the time being...
 
 – Dr. Anzeel]]
-	},
-	[7103] = {
+	}
+	pg.base.world_collection_file_template[7103] = {
 		group_ID = 3,
 		name = "Log: SDORGA025",
 		subTitle = "",
@@ -775,8 +950,8 @@ So, first of all, her physiological characteristics are almost identical to that
 Despite all this data and evidence to suggest that she absolutely is human, there are many staff members who remain convinced that she's nothing more than an advanced AI... Isn't that way of thinking way too rigid? I have to convince them otherwise. Maybe the "Wisdom" part of the Wisdom Cube is a good place to start...
 
 – Dr. Anzeel]]
-	},
-	[7104] = {
+	}
+	pg.base.world_collection_file_template[7104] = {
 		group_ID = 4,
 		name = "Log: SDORGA044",
 		subTitle = "",
@@ -794,8 +969,8 @@ I consulted with the agency, and we came to the joint conclusion to name this sp
 On another topic, I'd like to propose reassigning some staff to research this subject exclusively. I'll also need to bring up the potential military applications of our discovery to Dr. Aoste's team...
 
 – Dr. Anzeel]]
-	},
-	[7105] = {
+	}
+	pg.base.world_collection_file_template[7105] = {
 		group_ID = 5,
 		name = "Log: SDORGA047",
 		subTitle = "",
@@ -817,8 +992,8 @@ If it's not the individual parts that make the ship into what it is, then what d
 More pertinent to the topic at hand, what is it that gives Enterprise her soul?
 
 – Dr. Anzeel]]
-	},
-	[7106] = {
+	}
+	pg.base.world_collection_file_template[7106] = {
 		group_ID = 6,
 		name = "Log: SDORGA069",
 		subTitle = "",
@@ -840,8 +1015,8 @@ Code G's rigging enlarging warrants further investigation. She had not shown thi
 Her power to somehow reconstruct her rigging is also of particular interest. It could, perhaps, lead to an answer to the question of what happened to all the materials that vanished from the test site...
 
 – Code G Performance Test Report]]
-	},
-	[8101] = {
+	}
+	pg.base.world_collection_file_template[8101] = {
 		group_ID = 1,
 		name = "Mysterious Data",
 		subTitle = "",
@@ -849,8 +1024,8 @@ Her power to somehow reconstruct her rigging is also of particular interest. It 
 		id = 8101,
 		is_classified = 0,
 		content = "...In the joint military exercises that began today, the most notable thing was a new weapon which, despite having the appearance of a young woman, has firepower that greatly exceeds that of warships. This completely novel weapon, named \"Code G,\" is considered one of the lines of experimental \"Kinetics Artifactual Navy-Self-regulative En-lore Node (KAN-SEN).\"\nUnlike a warship that has been retrofitted with a Cube-powered energy unit, the use of the E-Cube in this new weapon is groundbreaking. The E-Cube was directly utilized from the time of construction, resulting in complete integration with the cube. Even if its body appears humanoid in form, do not be fooled by its appearance. While its firepower already greatly exceeds that of the same corresponding class of warships, more notable than its combat capabilities is its potential to learn and grow.\nThis breakthrough application of Cube technology will have a massive impact on the future of naval weapon design, ushering in an unprecedented new era of naval battles..."
-	},
-	[8102] = {
+	}
+	pg.base.world_collection_file_template[8102] = {
 		group_ID = 2,
 		name = "Naval Exercise",
 		subTitle = "",
@@ -863,8 +1038,8 @@ However, because the exercises were scheduled several years before the regularly
 Given the number of active warships in the Northern Parliament, experts estimate that over 800 warships will be participating in this exercise, an event of unprecedented scale.
 From the previous exercises held ■ years ago, the world had already been flooded with the advent of Energy Cube technology and its derivative products, resulting in massive leaps in development across every faction. The Northern Parliament adapted in their own way, applying E-Cube technology in a completely different manner than the Eagle Union, successfully converting over 30% of their active fleet into being powered by E-Cubes, and this development will likely be the highlight of these naval exercises...
 Of course, don't write off the possibility of a "surprise." Just as the Eagle Union once unveiled a new type of weapon without warning, the Northern Parliament may have something in store for the world at the end of this year...]]
-	},
-	[8103] = {
+	}
+	pg.base.world_collection_file_template[8103] = {
 		group_ID = 3,
 		name = "Human or Ship?",
 		subTitle = "",
@@ -878,8 +1053,8 @@ The first is widely supported among researchers in academia, including Dr. Anzee
 Meanwhile, high-level government officials and some researchers prefer to define this new weapon as high-performance artificial intelligence. Weapons builts from objects are to be considered as the protected property of the organization they come from, and though they are not programmed, they are still limited by dedicated rules and laws similar to AI, and thus considered "human-created intelligence."
 An Eagle Union spokesperson agreed with the latter argument, saying that "[the KAN-SEN] are merely combat weapons with high-performance artificial intelligence and therefore should be treated in the same manner as weapons in accordance to management regulations."
 As a controversy with no end in sight until some kind of final consensus is reached... Which side do you agree with?]]
-	},
-	[8104] = {
+	}
+	pg.base.world_collection_file_template[8104] = {
 		group_ID = 4,
 		name = "Shipbuilding Plan Follow-Up",
 		subTitle = "",
@@ -887,8 +1062,8 @@ As a controversy with no end in sight until some kind of final consensus is reac
 		id = 8104,
 		is_classified = 0,
 		content = "...the Military Commission announced a new arms race plan at today's press conference: \"Within a decade, we will build a fleet of more than 100 ships of various types, centered on the new weapon, 'KAN-SEN.'\"\nInternationally, this declaration is generally believed to be a tit-for-tat response to the Eagle Union's high-profile unveiling of \"Code G.\" While some believe that the declaration of an arms race necessitates further countermeasures to the Northern Parliament, some experts also believe that the arms race reveals the fact that the Northern Parliament is lagging behind in the technology of constructing KAN-SEN from Wisdom Cubes..."
-	},
-	[8105] = {
+	}
+	pg.base.world_collection_file_template[8105] = {
 		group_ID = 5,
 		name = "A New Conflict",
 		subTitle = "",
@@ -896,8 +1071,8 @@ As a controversy with no end in sight until some kind of final consensus is reac
 		id = 8105,
 		is_classified = 0,
 		content = "...The new arms race between two major powers has cast a shadow across the entire world. A series of dangerous contacts between the two sides across land, sea, and sky has suddenly raised the temperature around the entire globe. In the first two weeks of this month alone, nearly a thousand confrontations of various types have been publicly reported. In the past two months ago, the total number of small and large open sea, land, and air exercises conducted has reached almost 400 on each side.\nThough there haven't been any terrible events leading to the loss of life so far, the increasingly fierce confrontations are undoubtedly pushing the world towards the brink of destruction once more.\nMany groups have grown increasingly concerned about the precariousness of international affairs, issuing a joint statement calling for both sides to lower the temperature through discussions rather than force, and to sign a new disarmament treaty. Some proposed solutions call for limiting fleet expansion, hoping that both sides will be willing to walk back their confrontational positions for the sake of humanity and world peace..."
-	},
-	[8106] = {
+	}
+	pg.base.world_collection_file_template[8106] = {
 		group_ID = 6,
 		name = "About KAN-SEN Rigging",
 		subTitle = "",
@@ -909,8 +1084,8 @@ As a controversy with no end in sight until some kind of final consensus is reac
 Rigging is equipped with modules that have the same functions as normal armament, such as naval artillery, torpedoes, and radars. Most of these modules are, as their name implies, miniature versions of real-life weapons, but some seem like they come straight out of science fiction. Rigging cannot be operated by ordinary humans, but are considered indispensable for KAN-SEN. Only when equipped with rigging do KAN-SEN gain power comparable to a warship.
 The first rigging, like the KAN-SEN, was believed to have been developed from a Wisdom Cube (likely an evolution of a military-grade E-Cube). However, as research progressed, it became clear that certain modules could be separated from the rigging and interchanged freely, and soon after the first KAN-SEN was built, alternative rigging modules and manufacturing techniques were discovered. Currently, the method of manufacturing rigging is kept confidential by each faction, so a civilian researcher like myself can only speculate, but... I can guess that the Wisdom Cube is still involved in the production of these modules.
 Rigging maintenance and modernization play important roles in the upkeep of a KAN-SEN's combat capabilities. Future KAN-SEN technological competition will revolve around the R&D of these equipment modules...]]
-	},
-	[9101] = {
+	}
+	pg.base.world_collection_file_template[9101] = {
 		group_ID = 1,
 		name = "Log: GGORN0001",
 		subTitle = "Confidentiality Level: III",
@@ -929,8 +1104,8 @@ I've never inspected the android in person, but from what I've seen, the android
 What's more, apparently the higher-ups have been talking about weaponizing Code G or something. It's already proved itself extremely capable, so I have a feeling it's only a matter of time before they send it off to fight...
 
 – Note from Observation Team]]
-	},
-	[9102] = {
+	}
+	pg.base.world_collection_file_template[9102] = {
 		group_ID = 2,
 		name = "Log: GGORN0032",
 		subTitle = "Confidentiality Level: III",
@@ -947,8 +1122,8 @@ Personally, I have some qualms about dedicating precious time to making it study
 I do hope we'll get to perform a test of the AI's "rigging," as Dr. Anzeel called it, in the near future. It would be interesting to see what it's capable of...
 
 – Note from Operations Team]]
-	},
-	[9103] = {
+	}
+	pg.base.world_collection_file_template[9103] = {
 		group_ID = 3,
 		name = "Log: GGORN0053",
 		subTitle = "Confidentiality Level: III",
@@ -967,8 +1142,8 @@ Dr. Anzeel asked the android about the purpose behind this behavior today. It re
 We have reason to suspect Dr. Anzeel has become too attached to the android. Will continue monitoring...
 
 – Information Report]]
-	},
-	[9104] = {
+	}
+	pg.base.world_collection_file_template[9104] = {
 		group_ID = 4,
 		name = "Log: GGORN0104",
 		subTitle = "Confidentiality Level: III",
@@ -987,8 +1162,8 @@ One question regarding the combat units arose during their transfer into the nav
 It will likely be long before any kind of verdict on the matter is reached...
 
 – Intel File]]
-	},
-	[9105] = {
+	}
+	pg.base.world_collection_file_template[9105] = {
 		group_ID = 5,
 		name = "Log: GGORN0175",
 		subTitle = "Confidentiality Level: III",
@@ -1007,8 +1182,8 @@ I've been with you on the project since the very start, albeit as observational 
 P.S.: I'm including a document with this message. I sorted out all the relevant information for the committee to review...
 
 – Message from Staff Member]]
-	},
-	[9106] = {
+	}
+	pg.base.world_collection_file_template[9106] = {
 		group_ID = 6,
 		name = "Log: GGORN0296",
 		subTitle = "Confidentiality Level: III",
@@ -1025,8 +1200,8 @@ This event is going to set a historical precedent. Enterprise, and others like h
 Now, of course, they haven't been legally granted universal human rights yet, but this is still a huge leap forward after all the setbacks we've faced. Truly, this is a day worth celebrating, Dr. Anzeel...
 
 – Message from Staff Member]]
-	},
-	[10101] = {
+	}
+	pg.base.world_collection_file_template[10101] = {
 		group_ID = 1,
 		name = "Laying the Groundwork for KAN-SEN-only Fleets",
 		subTitle = "",
@@ -1040,8 +1215,8 @@ Following the main meeting on day 1, a press conference was held where an Eagle 
 
 Additionally, the 2nd day of the conference will be mainly centered around the impact this technological breakthrough has on military logistics.
 Faced with ever-changing geopolitical developments and the threat of hostile factions, the only way we can keep up is by deepening the bonds with our allied nations and fundamentally reshaping the current structure of our military...]]
-	},
-	[10102] = {
+	}
+	pg.base.world_collection_file_template[10102] = {
 		group_ID = 2,
 		name = "Mankind Divided",
 		subTitle = "",
@@ -1058,8 +1233,8 @@ The people behind these sites are terrorists who've been waging an online war on
 
 Fortunately, these cyberterrorists' days are numbered thanks to the precautionary steps taken by our governments. Some of our readers may have already noticed that, as of Friday last week, all of these propaganda sites have been shut down. Trying to connect to them will simply result in an error.
 What's more, new security installations have been set up all along the entire border between Europa and the Northern Parliament. These installations serve as both a physical wall and a firewall between them and us! Finally, we can all live without the fear of a hostile invasion, be it online or out on the street...]]
-	},
-	[10103] = {
+	}
+	pg.base.world_collection_file_template[10103] = {
 		group_ID = 3,
 		name = "Strange Hauls from the Deep Sea",
 		subTitle = "",
@@ -1074,8 +1249,8 @@ Many of the fishermen have claimed that, despite not weighing much and not havin
 Some civilian scholars speculate that the machines are unmanned reconnaissance drones belonging to hostile forces, believing the larger machines to be central control systems for the smaller machines which do the reconnaissance. As for the reason why they were hauled up in Royal Islands waters, some have theorized they may have malfunctioned and simply drifted there, but nobody knows for certain.
 
 Military experts have weighed in too, pointing out that the machines' distinct appearance is unlike any drone known to exist. They have further cited that the material the machines' exterior are made of, as well as the camouflage patterns painted on them, do not match those of any military drones in active service today...]]
-	},
-	[10104] = {
+	}
+	pg.base.world_collection_file_template[10104] = {
 		group_ID = 4,
 		name = "News Channel Broadcast",
 		subTitle = "",
@@ -1083,8 +1258,8 @@ Military experts have weighed in too, pointing out that the machines' distinct a
 		id = 10104,
 		is_classified = 0,
 		content = "...According to a news report, the Northern Parliament just announced that its fleet will conduct a naval exercise in international waters, and proceeded to declare entry to the surrounding areas prohibited for all unassociated vessels. Responding to this unanticipated exercise, an Eagle Union representative went on to criticize the Northern Parliament's move as \"an irresponsible action that causes needless friction between our nations,\" adding that the Eagle Union will \"answer by taking the necessary precautions\"..."
-	},
-	[10105] = {
+	}
+	pg.base.world_collection_file_template[10105] = {
 		group_ID = 5,
 		name = "Large-Scale Joint Exercise",
 		subTitle = "",
@@ -1097,8 +1272,8 @@ This is the third navy-military joint exercise to be held this year, and is the 
 Unlike in the previous exercises, the new KAN-SEN weapons account for over half of the ships in the fleets present, and as a result, the general fleets, which have long been a major source of military might, have now been relegated to a supporting role to the dazzling KAN-SEN. According to the currently available information, the main purpose of this exercise is to familiarize the fleets with the KAN-SEN and to seek out new tactics.
 The exercises are divided into solo exercises for KAN-SEN, joint exercises between general fleets and KAN-SEN, counter exercises between general fleets and KAN-SEN, counter exercises between KAN-SEN, and a final large-scale fleet review.
 According to a spokesperson, this exercise is an annual naval review and has no political implications...]]
-	},
-	[10106] = {
+	}
+	pg.base.world_collection_file_template[10106] = {
 		group_ID = 6,
 		name = "A World Without Coalitions",
 		subTitle = "",
@@ -1106,8 +1281,8 @@ According to a spokesperson, this exercise is an annual naval review and has no 
 		id = 10106,
 		is_classified = 0,
 		content = "...A summit was held between various factions to negotiate a response to mounting geopolitical tensions. The contents of the multi-hour summit were not disclosed. Additionally, there was no questioning period, joint presentations, or press conferences held after the summit. According to people familiar with the matter, the summit was held in silence from beginning to end.\nBecause no substantial content has been made public, we cannot analyze the results of the actual talks. However, the fact that the summit only lasted three hours while attempting to tackle such a crucial topic suggests that there may have been some problems in play. There are only two likely scenarios for why the summit lasted such a short time: First, the opinions of all the parties are quite unified, and the summit ended smoothly; Second, the opinions of the parties are far too different, and the summit would not serve any purpose. Taking into account the silence of the parties' participants following the summit, the second scenario seems more likely..."
-	},
-	[11101] = {
+	}
+	pg.base.world_collection_file_template[11101] = {
 		group_ID = 1,
 		name = "Communication Log: Discussions and Debates",
 		subTitle = "",
@@ -1134,8 +1309,8 @@ If true AI did exist, how do you think it would answer this question?
 Looking forward to your response,
 
 Anzeel]]
-	},
-	[11102] = {
+	}
+	pg.base.world_collection_file_template[11102] = {
 		group_ID = 2,
 		name = "Communication Log: Regarding Memory and Emotion",
 		subTitle = "",
@@ -1156,8 +1331,8 @@ Following this logic, emotions in AI can reliably be created by inputting a spec
 Best,
 
 Aoste]]
-	},
-	[11103] = {
+	}
+	pg.base.world_collection_file_template[11103] = {
 		group_ID = 3,
 		name = "Communication Log: A Small Argument",
 		subTitle = "",
@@ -1178,8 +1353,8 @@ I'd like to discuss this topic with you further over dinner tonight, if you don'
 Best,
 
 Aoste]]
-	},
-	[11104] = {
+	}
+	pg.base.world_collection_file_template[11104] = {
 		group_ID = 4,
 		name = "Communication Log: A Lesser-Seen Side",
 		subTitle = "",
@@ -1209,8 +1384,8 @@ I wonder if I can teach him to do housework and stuff... Maybe there'll be some 
 ————
 Reply to Anzeel (Anzeel_thebest@personal.edu)
 ...Good luck with that.]]
-	},
-	[11105] = {
+	}
+	pg.base.world_collection_file_template[11105] = {
 		group_ID = 5,
 		name = "Communication Log: Across the World",
 		subTitle = "",
@@ -1227,8 +1402,8 @@ As for the information you're interested in, I happen to know someone who might 
 Good luck on your research,
 
 Aoste]]
-	},
-	[11106] = {
+	}
+	pg.base.world_collection_file_template[11106] = {
 		group_ID = 6,
 		name = "Communication Log: Registration",
 		subTitle = "",
@@ -1256,8 +1431,8 @@ No, I just ran a script. I mentioned it before, but I wrote this thing to submit
 ————
 Reply to Aoste (Aoste_mailbox@personal.edu)
 Woohoo! Thankyouthankyouthankyouthankyou! I really owe you big time! Dinner's on me next time, okay?]]
-	},
-	[11107] = {
+	}
+	pg.base.world_collection_file_template[11107] = {
 		group_ID = 7,
 		name = "Communication Log: Research Opportunity",
 		subTitle = "",
@@ -1276,8 +1451,8 @@ I've already submitted my application, so I guess the only thing to do now is to
 Best,
 
 Anzeel]]
-	},
-	[11108] = {
+	}
+	pg.base.world_collection_file_template[11108] = {
 		group_ID = 8,
 		name = "Communication Log: Graduation",
 		subTitle = "",
@@ -1301,8 +1476,8 @@ See you at the entrance at 4 PM.
 Let me know if you're on board.
 
 Anzeel]]
-	},
-	[11301] = {
+	}
+	pg.base.world_collection_file_template[11301] = {
 		group_ID = 1,
 		name = "Greetings from Afar",
 		subTitle = "",
@@ -1325,8 +1500,8 @@ I'm sending you as much nonconfidential info as I can. Give my offer some though
 Hope your mood improves,
 
 Aoste]]
-	},
-	[11302] = {
+	}
+	pg.base.world_collection_file_template[11302] = {
 		group_ID = 2,
 		name = "Business as Usual",
 		subTitle = "",
@@ -1350,8 +1525,8 @@ When that time comes, it won't be too late to invite me again.
 Wish you luck,
 
 Anzeel]]
-	},
-	[11303] = {
+	}
+	pg.base.world_collection_file_template[11303] = {
 		group_ID = 3,
 		name = "At an Impasse",
 		subTitle = "",
@@ -1377,8 +1552,8 @@ Anzeel, please tell me in no uncertain terms: is it possible to create an Antioc
 Waiting to hear back from you,
 
 Aoste]]
-	},
-	[11304] = {
+	}
+	pg.base.world_collection_file_template[11304] = {
 		group_ID = 4,
 		name = "Wisdom Cube Space",
 		subTitle = "",
@@ -1404,8 +1579,8 @@ Finally, remember that there are no silver bullet solutions. Overambition always
 Wish you success,
 
 Anzeel]]
-	},
-	[11305] = {
+	}
+	pg.base.world_collection_file_template[11305] = {
 		group_ID = 5,
 		name = "A Major Breakthrough",
 		subTitle = "",
@@ -1433,8 +1608,8 @@ What do you say? I have a seat and an office ready for you. They're yours if you
 Sincerely,
 
 Aoste]]
-	},
-	[11306] = {
+	}
+	pg.base.world_collection_file_template[11306] = {
 		group_ID = 6,
 		name = "Teaming Up",
 		subTitle = "",
@@ -1454,8 +1629,8 @@ In any case, there's only so much I can say in one letter. I'll visit you in two
 
 Best of luck in your research,
 Anzeel]]
-	},
-	[11501] = {
+	}
+	pg.base.world_collection_file_template[11501] = {
 		group_ID = 1,
 		name = "Communication Log: To the Colonel",
 		subTitle = "",
@@ -1478,8 +1653,8 @@ That is why I want to hear your thoughts about this whole thing. You're the most
 I look forward to hearing from you.
 
 Anzeel]]
-	},
-	[11502] = {
+	}
+	pg.base.world_collection_file_template[11502] = {
 		group_ID = 2,
 		name = "Communication Log: The Military's Plans I",
 		subTitle = "",
@@ -1500,8 +1675,8 @@ Rest assured, Doctor. We will do everything we can to improve the treatment of C
 Best,
 
 John]]
-	},
-	[11503] = {
+	}
+	pg.base.world_collection_file_template[11503] = {
 		group_ID = 3,
 		name = "Communication Log: The Military's Plans II",
 		subTitle = "",
@@ -1520,8 +1695,8 @@ Of course, our work is far from over. This achievement is only the first step of
 But... I'm still worried about the current geopolitical situation. We've been locked in a tense stalemate for quite a long time now... Colonel, is war with the Revolutionary Front inevitable?
 
 Anzeel]]
-	},
-	[11504] = {
+	}
+	pg.base.world_collection_file_template[11504] = {
 		group_ID = 4,
 		name = "Communication Log: Battle Preparations",
 		subTitle = "",
@@ -1546,8 +1721,8 @@ Last but not least, how is Enterprise doing these days? I haven't heard anything
 Best,
 
 John]]
-	},
-	[11505] = {
+	}
+	pg.base.world_collection_file_template[11505] = {
 		group_ID = 5,
 		name = "Communication Log: Investigation Machinery Request",
 		subTitle = "",
@@ -1564,8 +1739,8 @@ I won't have any definitive answers until I get to see the damages to the submar
 Lastly, I would appreciate it if you could nudge the application process forward a bit faster.
 I look forward to hearing from you.
 Anzeel]]
-	},
-	[11506] = {
+	}
+	pg.base.world_collection_file_template[11506] = {
 		group_ID = 6,
 		name = "Communication Log: Out of Time",
 		subTitle = "",
@@ -1582,8 +1757,8 @@ In any case, I will try my best to get you permission for an on-site investigati
 Let's keep our fingers crossed.
 Best,
 John]]
-	},
-	[11601] = {
+	}
+	pg.base.world_collection_file_template[11601] = {
 		group_ID = 1,
 		name = "Breaking the Sound Barrier",
 		subTitle = "",
@@ -1598,8 +1773,8 @@ Just today, the Supernova, a supersonic passenger aircraft developed by the OXS 
 According to Dr. Colette, the deputy chief engineer of the project, the Supernova uses the OXS Aviation Group's prized Echo-series engines, said to be able to reduce noise levels during supersonic flight to a level lower than normal aircraft and suppress aircraft vibrations to the point of being virtually unnoticeable.
 
 In response to market demands, many airlines have already expressed interest in adding this model to their fleet. Though aviation safety experts still express their concerns due to painful lessons from the last century's supersonic aircraft accidents, it seems that there is no force that can prevent the Supernova from becoming a global success.]]
-	},
-	[11602] = {
+	}
+	pg.base.world_collection_file_template[11602] = {
 		group_ID = 2,
 		name = "PMC Commercial",
 		subTitle = "",
@@ -1628,8 +1803,8 @@ In response to market demands, many airlines have already expressed interest in 
 ...And now, we're back with more breaking news.
 
 The chaotic situation unfolding in Africa continues to worsen. According to our local correspondent on the ground there...]]
-	},
-	[11603] = {
+	}
+	pg.base.world_collection_file_template[11603] = {
 		group_ID = 3,
 		name = "Next-Generation Rigging",
 		subTitle = "",
@@ -1644,8 +1819,8 @@ The Croweheed Group announced in a press release that the official name for this
 Military experts point out that should these advancements be realized, the already-powerful KAN-SEN would ride the wave of informatization to ever-greater heights of combat effectiveness.
 
 However, at the present moment, the feasibility of this technology is still hotly contested. According to the Croweheed Group's public documents, rigging modification and upgrade support for the members of the Federal Navy, including KAN-SEN Enterprise, remains one of the company's main business priorities...]]
-	},
-	[11604] = {
+	}
+	pg.base.world_collection_file_template[11604] = {
 		group_ID = 4,
 		name = "Merlin's Orb",
 		subTitle = "",
@@ -1660,8 +1835,8 @@ According to a spokesperson at Lord Military Industries, negotiations have concl
 In response to this news, the stock prices of both Lord Military Industries and the Wesker Group have skyrocketed. According to inside sources, the project is related to the Royal Navy's next-generation aircraft carrier plan, the first of such in half a century since the last Queen Elizabeth-class aircraft carrier. Many analysts point out that this suggests the Royal Navy is strengthening its own naval warfare capabilities as a critical strategic goal amid the trend of the Oceanic Federation's continued decline.
 
 Additionally, some sources have revealed that the Royal Navy itself holds high expectations for this project, and have already given it an internal codename: "Merlin's Orb."]]
-	},
-	[11605] = {
+	}
+	pg.base.world_collection_file_template[11605] = {
 		group_ID = 5,
 		name = "Lineup Renewal",
 		subTitle = "",
@@ -1676,8 +1851,8 @@ Rheinische Heavy Industries has just annouced that it plans to complete the rene
 According to the plans released by Rheinische Heavy Industries, all remaining 120mm smoothbore gun production lines will be shut down, sold, or converted into the more advanced 140mm smoothbore gun production lines.
 
 Additionally, based on materials provided by the company, the 140mm smoothbore gun will be adopted as the main armament of the Leopard IV tank and the Cube-powered Leopard V tank. Military experts point out that the Leopard V, which is about to enter production shortly, completely supersedes the older Leopard III model currently in service in terms of performance, and all Leopard III tanks equipped with 120mm smoothbore guns will also be retired over the next few years.]]
-	},
-	[11606] = {
+	}
+	pg.base.world_collection_file_template[11606] = {
 		group_ID = 6,
 		name = "Flight Accident",
 		subTitle = "",
@@ -1694,8 +1869,8 @@ The test pilot also survived the incident, and it has been confirmed that he esc
 According to materials provided by Zaou Heavy Industries, the new aircraft is still in an experimental phase and uses an innovative Cube-powered system that differs from the existing hybrid systems found throughout the world. However, the occurrence of this accident has once again raised questions regarding the reliability of the Cube-powered fighter jet.
 
 Zaou Heavy Industries has refused to take questions concerning this matter.]]
-	},
-	[11607] = {
+	}
+	pg.base.world_collection_file_template[11607] = {
 		group_ID = 7,
 		name = "Reversal of Fortunes",
 		subTitle = "",
@@ -1710,8 +1885,8 @@ Prukk Technology's performance in each quarter of this last fiscal year, as seen
 Online commentators have pointed out that the company's improved performance tracks with the ongoing "retro" trend. Due to the continued troubles of Cube-powered technology and soaring gas prices, electric cars, which had once been abandoned by the public, are once again increasing in sales. Many people are mocking the "sturdy and conservative" Prukk as being the biggest winner of the era because it was "outdated enough."
 
 However, many investors remain cautious about this shift. The company's CEO has stated that he is "confident that the company will turn its financial results into a profit by Q3 of next year," but at the same time, there are also reports indicating no changes to the planned layoffs.]]
-	},
-	[11608] = {
+	}
+	pg.base.world_collection_file_template[11608] = {
 		group_ID = 8,
 		name = "Restructuring Plan",
 		subTitle = "",
@@ -1724,8 +1899,10 @@ However, many investors remain cautious about this shift. The company's CEO has 
 At the end of the last century, due to a shift in the Northern Parliament's changing national strategic policy, Perun was deemed to be underperforming, and was subjected to business restructuring. Some of its structures were merged into the Zimurya Design Bureau, while the remaining departments were closed down.
 
 However, the reorganization of the Perun Design Bureau is likely not a completely unexpected move by the Northern Parliament of today. With the ever-growing possibility of war on the horizon, the Northern Parliament is also under pressure to regain technological superiority in the fields of aeronautics and deep space...]]
-	},
-	[11609] = {
+	}
+end)()
+(function ()
+	pg.base.world_collection_file_template[11609] = {
 		group_ID = 9,
 		name = "Excerpts from a Cutting-Edge Tech Forum",
 		subTitle = "",
@@ -1766,8 +1943,8 @@ No. 7 Anonymous (ID:LcFjifOpm) 11:05
 [User's post has been blocked]
 
 ......]]
-	},
-	[13101] = {
+	}
+	pg.base.world_collection_file_template[13101] = {
 		group_ID = 1,
 		name = "Communication Log: Tsunami Warning",
 		subTitle = "",
@@ -1787,8 +1964,8 @@ The government is expected to issue an emergency evacuation order soon, so pleas
 Don't forget the emergency kit with our cash and cards!
 Love you!
 ......]]
-	},
-	[13102] = {
+	}
+	pg.base.world_collection_file_template[13102] = {
 		group_ID = 2,
 		name = "Municipal Record: PD's Report and Recommendations",
 		subTitle = "",
@@ -1812,8 +1989,8 @@ We would like to propose several measures to combat the deterioration of public 
 
 Currently, all personnel that otherwise would've been on vacation have returned to their posts to combat this urgent situation.
 ..................]]
-	},
-	[13103] = {
+	}
+	pg.base.world_collection_file_template[13103] = {
 		group_ID = 3,
 		name = "Media Record: Independent Media",
 		subTitle = "",
@@ -1832,8 +2009,8 @@ An anonymous source with knowledge of this experiment informed us that the Feder
 Fortunately, this source has assured us that they will continue to update us with the latest and most important developments!
 
 Stay tuned for more news about these mysterious weapon tests, as well as the latest shocking developments!]]
-	},
-	[13104] = {
+	}
+	pg.base.world_collection_file_template[13104] = {
 		group_ID = 4,
 		name = "Media Record: Official Response",
 		subTitle = "",
@@ -1847,8 +2024,8 @@ At a press conference, an Eagle Union spokesman responded that the Northern Parl
 The spokesman added that monitoring data from this sea area showed radiation levels to be within normal limits following the tsunami's occurrence, and explained that the phenomenon was nothing more than a natural disaster rather than something man-made.
 
 Several geologists made remarks in support of this statement, expressing their view that earthquakes of this sort with a shallow epicenter and extremely strong seismic intensity are rare but not unheard of. The International Marine Environment Protection Organization has also announced that it would closely monitor the impact of the earthquake on the surrounding marine environment...]]
-	},
-	[13105] = {
+	}
+	pg.base.world_collection_file_template[13105] = {
 		group_ID = 5,
 		name = "Media Record: Trends in the Business World",
 		subTitle = "",
@@ -1866,8 +2043,8 @@ According to a notice posted on the official website of the Hercules Ocean Explo
 However, at the time of this article's publication, the Hercules Ocean Exploration Company's stock price has remained stable, and the company's board of directors has already released a public statement that the liquidation for the penalty was already completed at the end of the aforementioned lease agreement. It is unclear at this time how the company managed to raise this amount of money, but according to someone familiar with the company's internal operations, an "unnamed individual" provided crucial assistance in paying off this sum.
 
 The company's fleet featured a new model of salvage ship powered by the E-Cube, and these ships quickly made a major impact on the global salvaging business. However, the company's withdrawal from this sector could be a prime opportunity for other businesses to step in. This need is even more evident, as governments around the world have been dedicating large amounts of time and resources into researching and raising sunken ships...]]
-	},
-	[13106] = {
+	}
+	pg.base.world_collection_file_template[13106] = {
 		group_ID = 6,
 		name = "Board Post: Secret Experiment?",
 		subTitle = "",
@@ -1886,8 +2063,8 @@ This stopped being funny 10 years ago
 4 Anonymous
 Locked. Tired of seeing this shit.
 ......]]
-	},
-	[13201] = {
+	}
+	pg.base.world_collection_file_template[13201] = {
 		group_ID = 1,
 		name = "Confidential Record: Participant's Log",
 		subTitle = "Confidentiality Level: II",
@@ -1902,8 +2079,8 @@ Fortunately, our communication lines were successfully reestablished after a bri
 Experts say this type of earthquake is "exceedingly rare" and the seismic waves were "unprecedented"... Those damn crackpot scientists. I've heard about their weird experiments on the platform, and now look what's happened!
 Those research vessels have something to do with that earthquake, mark my words...
 It's well into the night, and I still haven't gotten a dispatch order. People need rescuing out there, so what are we waiting for? Is the top brass going to let them die?]]
-	},
-	[13202] = {
+	}
+	pg.base.world_collection_file_template[13202] = {
 		group_ID = 2,
 		name = "Confidential Record: Earthquake Investigation Report",
 		subTitle = "Confidentiality Level: III",
@@ -1915,8 +2092,8 @@ In conclusion, the earthquake was indeed not of natural origin.
 While all equipment near the epicenter suffered severe damage, some measuring instruments in the floating dock did manage to survive the event. The data recovered from these instruments show that another earthquake, lower in intensity and with a shallower hypocenter, occurred 90 seconds before the "main" earthquake.
 At present, the most probable scenario is that, prior to the earthquake, there was a tremendous burst of energy at the location believed to be the hypocenter. This immediately destroyed the research platform and subsequently caused the earthquake.
 With our analysis of the recovered data and examination of the affected area, we have identified the cause of the energy burst. The first fluctuations originated from Platform No. ■, which conducts research into ■■■■■■■■ ■■ ■■■ ■■■■■ ■■ ■■■■■ ■■■ ■■■■■ ■■■■■ ■■ ■■■■■ ■■■ ■■■■ ■■■■■■■■■■■ ■■■■■■■...]]
-	},
-	[13203] = {
+	}
+	pg.base.world_collection_file_template[13203] = {
 		group_ID = 3,
 		name = "Confidential Record: Salvage Team Audiotape",
 		subTitle = "Confidentiality Level: II",
@@ -1935,8 +2112,8 @@ With our analysis of the recovered data and examination of the affected area, we
 - You what? You're sending in a diver?
 - [REDACTED] [REDACTED] [REDACTED]
 ......]]
-	},
-	[13204] = {
+	}
+	pg.base.world_collection_file_template[13204] = {
 		group_ID = 4,
 		name = "Confidential Record: Incident Site Audiotape",
 		subTitle = "Confidentiality Level: III",
@@ -1955,8 +2132,8 @@ With our analysis of the recovered data and examination of the affected area, we
 Despite the diver taking every possible safety precaution during this salvage operation, his health monitoring systems triggered an alarm within about ten minutes after entering the wreckage.
 After his rescue, it was discovered that all his electronic equipment was broken, and the diver showed signs of extreme mental disturbance. The diver has since been transferred to the nearest research institute for treatment and observation.
 As stated in the previous report, it is advised to not send in any more divers until the conditions of this site are better understood...]]
-	},
-	[13205] = {
+	}
+	pg.base.world_collection_file_template[13205] = {
 		group_ID = 5,
 		name = "Confidential Record: Salvaged Data Log",
 		subTitle = "Confidentiality Level: V",
@@ -1974,8 +2151,8 @@ As stated in the previous report, it is advised to not send in any more divers u
 ...[DATA CORRUPTED], thus, all the conditions have been met to proceed to the next stage[DATA CORRUPTED]...
 ...[DATA CORRUPTED]experiment to extract more power than has ever been attempted before [DATA CORRUPTED]...
 ...[DATA CORRUPTED]o ascertain the E-Cube's maximum stored energy[DATA CORRUPTED]...]]
-	},
-	[13206] = {
+	}
+	pg.base.world_collection_file_template[13206] = {
 		group_ID = 6,
 		name = "Confidential Record: Postmortem Investigation Report",
 		subTitle = "Confidentiality Level: V",
@@ -1992,8 +2169,8 @@ Thanks to the heroic efforts of the rescue team, one sole survivor was found ins
 A follow-up investigation revealed numerous signs of fighting aboard the salvage ship, suggesting that a riot had broken out immediately before the incident. Findings indicate that a person had set fire to the galley, which then spread throughout the rest of the ship. It is possible that this riot is connected to the outbreaks of mass hysteria reported on the East Coast.
 
 The records gathered from the ship suggest that, just prior to the incident, the crew had managed to recover an object of substantial importance from the sunken platform. As this object was not found aboard the ship during the investigation, it is likely that it sunk to the ocean floor once again...]]
-	},
-	[13301] = {
+	}
+	pg.base.world_collection_file_template[13301] = {
 		group_ID = 1,
 		name = "After the Disaster",
 		subTitle = "",
@@ -2010,8 +2187,8 @@ Leading Eagle Union meteorologists have stated that a once-in-a-century dry spel
 Given the region's economic structure, already weakened by historic drops in oil prices, the occurrence of this sandstorm has the potential to become a "black swan" that impacts the global economy. Economists have warned that the financial risks posed by this disaster should be closely watched by the world's leading economies.
 
 This is a news report from Dragon Empery Worldwide News TV – Disaster in the Gulf Region.]]
-	},
-	[13302] = {
+	}
+	pg.base.world_collection_file_template[13302] = {
 		group_ID = 2,
 		name = "Heated Discussion",
 		subTitle = "",
@@ -2037,8 +2214,8 @@ No.20 Anonymous (ID: kPIwgkDyV) 00:29
 No.946 Anonymous (ID: kOTLafjEvU) 06:15
 Still no updates from Walnut. Guess this isn't going anywhere, so I'm going to sleep.
 ......]]
-	},
-	[13303] = {
+	}
+	pg.base.world_collection_file_template[13303] = {
 		group_ID = 3,
 		name = "Standoff on the Streets",
 		subTitle = "",
@@ -2064,8 +2241,8 @@ Four people are dead and over 200 injured in the wake of fatal clashes that brok
 The city's factory workers' union has announced a general strike in support of the anti-Cube protest, to which city officials have expressed their disappointment, saying that "this decision only adds fuel to the flame." The clashes have plunged the city into a state of disarray, and chaos persists despite repeated calls from the mayor for involved parties to lower the temperature.
 
 Moreover, the fallout from these protests is continuing to spread all over the world. At present, anti-Cube demonstrations have broken out in more than a dozen cities worldwide, and in the most severely affected areas, facilities of Cube-related industries have been targets of violent attacks.]]
-	},
-	[13304] = {
+	}
+	pg.base.world_collection_file_template[13304] = {
 		group_ID = 4,
 		name = "Deflationary Policies",
 		subTitle = "",
@@ -2084,8 +2261,8 @@ When the proposed regulations were announced, shockwaves rippled across the enti
 Experts also add that Cube-adjacent industries may experience a "hard winter" as a result of these regulations. It will be very difficult for companies looking either to enter the Energy Cube industry or to incorporate Energy Cubes into their products to obtain the necessary permits. In the same vein, these regulations also severely restrict the use of Energy Cubes in existing technology, so early entrants to the industry as well as already-licensed companies will face difficulties transforming their businesses in the near future.
 
 As Professor Stanley Lu, an expert in Energy Cube Applied Sciences has pointed out, "the Golden Age may be over."]]
-	},
-	[13305] = {
+	}
+	pg.base.world_collection_file_template[13305] = {
 		group_ID = 5,
 		name = "Steep Expenses",
 		subTitle = "",
@@ -2115,8 +2292,8 @@ Can you tell me why you prefer to drive a traditional-powered vehicle?
 -Wait, why's everyone leaving? ...The gas station's out of fuel and is now closed?
 -No, no, no, NO!! I've been waiting for days!
 ......]]
-	},
-	[13306] = {
+	}
+	pg.base.world_collection_file_template[13306] = {
 		group_ID = 6,
 		name = "Energy Crisis",
 		subTitle = "",
@@ -2135,8 +2312,8 @@ However, CPEC insiders have stated that "such increases are unlikely in the shor
 Taking all these factors into consideration, the CPEC has put forward a very conservative policy, and CPEC+ has signaled that they are satisfied for the time being given CPEC's current concessions.
 
 However, this delicate balance may not last for long. As the energy crisis continues to deepen and energy prices continue to soar, CPEC+ may eventually decide to increase production across the board. But even if this situation eventually arises, even this increased production may not be able to meet such drastic energy demand...]]
-	},
-	[14101] = {
+	}
+	pg.base.world_collection_file_template[14101] = {
 		group_ID = 1,
 		name = "Mysterious Photo",
 		subTitle = "",
@@ -2144,8 +2321,8 @@ However, this delicate balance may not last for long. As the energy crisis conti
 		id = 14101,
 		is_classified = 0,
 		content = "The official account of the Eagle Union's Navy, infamous for basically being inactive, caused a stir recently when it posted a mysterious photo.\nA few days before the Independence Day celebration, the official account on a prominent social media site posted a picture of a young girl with an active-duty aircraft carrier. While the photo didn't get much attention at first, it quickly went viral across multiple platforms, triggering a barrage of speculation and concerns over how taxpayer dollars were being spent. As a result, the account quickly came out with a clarification that the girl was a new \"comrade-in-arms,\" about to officially join the Navy. \nThe account's strange wording only fueled more speculation, and the netizens following the matter came to connect her with the first shipgirl to be officially given a name: Enterprise. However, this uncovered relationship only spawned further rounds of debate, though primarily centered around wild guesses regarding which ship this girl was a \"reincarnation\" of. As with similar discussions, this quickly devolved into pointless speculation and bickering."
-	},
-	[14102] = {
+	}
+	pg.base.world_collection_file_template[14102] = {
 		group_ID = 2,
 		name = "Unexpected Press Conference",
 		subTitle = "",
@@ -2158,8 +2335,8 @@ As you may know, following an award ceremony that was broadcast to the whole wor
 However, that might finally change today! Just now, a spokesperson from the administration confirmed that the information disclosed on the official Navy social media account is true. This ship - or rather, young lady - by the name of Bon Homme Richard, has officially entered the Eagle Union's Navy, and the administration has promised to make more information available at the press conference!
 Currently, the administration spokesperson has just appeared, my friends... By God, the person following the speaker...! Photographer, photographer! Turn the camera to that girl! Yes, that girl, she's the very same person in that photo posted by the Navy's account! Wow, she's even waving at us... Talk about unexpected!
 The spokesperson is introducing us to Miss Richard – wait, am I hearing this right? The official spokesperson of the Eagle Union Navy?! For the viewers back home, this is certainly a surprising turn of events! Miss Richard has disclosed that she indeed will be one of the spokespeople for the Navy..."]]
-	},
-	[14103] = {
+	}
+	pg.base.world_collection_file_template[14103] = {
 		group_ID = 3,
 		name = "A Rising Star",
 		subTitle = "",
@@ -2171,8 +2348,8 @@ The spokesperson is introducing us to Miss Richard – wait, am I hearing this r
 Even though the existence of the shipgirls has come to be widely accepted, and new fleets led by Enterprise have become more and more visible to the public eye, there are still many people - and organizations - skeptical about them. They are convinced that the so-called "shipgirls" are nothing more than a large-scale government propaganda campaign, and the true identity of the "shipgirls" are none other than ordinary human girls. One individual claiming to "expose" the true identity of Bon Homme Richard has published a lengthy article to a personal site, featuring a litany of "evidence" to support these claims. However, judging from the responses, this lengthy article is full of logical fallacies and only serves to strengthen the opposite position.
 We asked Miss Richard herself on what she thought about this article and related claims via her official social media account, and she responded only with this statement: "Many choose to believe that the Earth is flat. Does that make them any more correct?"
 Within minutes of this post being uploaded, these words have become a top trending search across the internet..."]]
-	},
-	[14104] = {
+	}
+	pg.base.world_collection_file_template[14104] = {
 		group_ID = 4,
 		name = "A Mysterious Guest?",
 		subTitle = "",
@@ -2185,8 +2362,8 @@ For a long time, the stark contrast between the city's former glory and its cond
 To celebrate the city's revitalization, the city council decided to once again hold the city fair that had been suspended for many years. While the fair is guaranteed to have a wide range of offerings, the highlight of the event undoubtedly will be the E-Cube vehicle street racing event. The fair organizer previously stated that there would be a mysterious guest who wished to remain anonymous, but will also be participating in the race along with the city's residents."
 "...When the event was held, the organizer's claims proved to be true. Many locals at the scene said that they saw a female racecar driver suspected to be 'Miss Richard,' and a local reporter even took a blurry photo. In the photo, the driver, believed to be Miss Richard, was driving a red sports car through the city's main street.
 Surprisingly, the Navy's social media accounts denied the authenticity of the photo, insisting that Bon Homme Richard was not involved in the fair that day..."]]
-	},
-	[14105] = {
+	}
+	pg.base.world_collection_file_template[14105] = {
 		group_ID = 5,
 		name = "Social Media Frenzy",
 		subTitle = "",
@@ -2241,8 +2418,8 @@ Anonymous (ID: LjWhR7Qk2) 21:10 No.2740
 I... didn't think of that lol.
 Guess I'm going out to buy a leash for my cat.
 ...]]
-	},
-	[14106] = {
+	}
+	pg.base.world_collection_file_template[14106] = {
 		group_ID = 6,
 		name = "NFRD Announces New Exercises",
 		subTitle = "",
@@ -2250,8 +2427,8 @@ Guess I'm going out to buy a leash for my cat.
 		id = 14106,
 		is_classified = 0,
 		content = "...At a press conference today, a Navy representative announced that the New Forces Research Department will participate in an annual military exercise scheduled to take place in the NA Ocean. Interestingly, Navy spokesperson Richard also attended the press conference.\nAt a charity event hosted by Bon Homme Richard last month, she was seen chatting with a Naval officer in charge of the New Forces Research Department; Dr. Anzeel, honorary chairwoman of the Energy Cube Standardization Symposium; and Dr. Aoste, a global pioneer in artificial intelligence research. The fact that she was seen talking to these prominent figures makes the world wonder whether there is some kind of connection to recent developments.\nReaders, if you are interested about new military developments or the New Forces Research Department, please consider subscribing to this magazine. Members will gain exclusive access to in-depth information about the New Forces Research Department, as well as early-access to pictures of Miss Richard's gala dress - something not yet released to the public yet..."
-	},
-	[14201] = {
+	}
+	pg.base.world_collection_file_template[14201] = {
 		group_ID = 1,
 		name = "RFMC's Response",
 		subTitle = "",
@@ -2259,8 +2436,8 @@ Guess I'm going out to buy a leash for my cat.
 		id = 14201,
 		is_classified = 0,
 		content = "...Just an hour ago, the R.F. Military Commission announced that it would hold an additional naval exercise in the open waters of the NA Ocean by the end of next year, and that further details would be provided over the following weeks. Though the spokesperson claimed that the exercise would not be aimed at any country or faction, analysts generally believe that this announcement was a response to the Eagle Union's routine exercises.\nAt the time of this article's publication, we have reached out to the Eagle Union's naval representatives but have not received any comments so far. However, officials have revealed that the 6th Fleet, stationed in the Méditerranée, has been ordered to leave its moored naval port and relocated to a new deployment location..."
-	},
-	[14202] = {
+	}
+	pg.base.world_collection_file_template[14202] = {
 		group_ID = 2,
 		name = "Opinions on Current Affairs",
 		subTitle = "",
@@ -2283,8 +2460,8 @@ LMAO you guys are both psychotic. Nobody's going to war over this.
 Who'd you hear that from? You have a relative who works for the Politburo?
 6. Anonymous Aardvark
 I'm actually a double-agent myself lul]]
-	},
-	[14203] = {
+	}
+	pg.base.world_collection_file_template[14203] = {
 		group_ID = 3,
 		name = "Intensifying Confrontation",
 		subTitle = "",
@@ -2292,8 +2469,8 @@ I'm actually a double-agent myself lul]]
 		id = 14203,
 		is_classified = 0,
 		content = "...Just earlier, Miss Bon Homme Richard, spokesperson for the Eagle Union Navy, announced that she just received transfer orders to temporarily join the New Forces Research Department's parent fleet to participate in a naval exercise. The Northern Parliament, after receiving the announcement, protested fiercely, and the Military Commission declared that it would increase the number of troops it plans to send to their own naval exercises to counterbalance the Eagle Union's buildup of forces. It is clear that the tensions are about to reach a flashpoint.\nThere are rumors that negotiations between the two sides have been ongoing amid intensifying clashes over the exercise area, but experts fear that the entry of the New Forces Research Department will make continued negotiations difficult. Nobody can predict how things will unfold from this point..."
-	},
-	[14204] = {
+	}
+	pg.base.world_collection_file_template[14204] = {
 		group_ID = 4,
 		name = "Closer to the Truth?",
 		subTitle = "",
@@ -2301,8 +2478,8 @@ I'm actually a double-agent myself lul]]
 		id = 14204,
 		is_classified = 0,
 		content = "...Last night, the spokespeople from both sides of the aisle suddenly became silent, a drastic shift following months of posturing and argument. Preliminary evidence shows that a major naval base responsible for the logistical support of the exercises started showing signs of large-scale mobilization of medical supplies overnight. Several submersible salvaging ships formerly moored at the port were also said to be leaving the base one after another. This source said that the two sides may have exchanged fire during the confrontation. Other anonymous sources have stated that while the Eagle Union's fleet did sustain some damage, this was not due to an act of war but rather was an unfortunate tragedy caused by \"technical failures.\" A video of what appeared to be the scene of the confrontation briefly appeared on social media, showing a black tornado passing through a Eagle Union warship, causing it to explode violently. The video has since been taken down.\nIn any case, the only thing that is clear right now is that the Northern Parliament's fleet have gradually begun withdrawing from NA waters. Though neither side has issued any official announcements, we can be sure that the tense confrontation will move towards resolution..."
-	},
-	[14205] = {
+	}
+	pg.base.world_collection_file_template[14205] = {
 		group_ID = 5,
 		name = "Media Record: False Alarm",
 		subTitle = "",
@@ -2321,8 +2498,8 @@ Users on the internet were quick to make fun of this incident, but for the local
 
 Can the gag orders issued by the Oceanic Federation and the Revolutionary Front really prevent the widespread societal unrest from deteriorating further?
 ......]]
-	},
-	[14206] = {
+	}
+	pg.base.world_collection_file_template[14206] = {
 		group_ID = 6,
 		name = "Media Record: Expert Interview",
 		subTitle = "",
@@ -2351,8 +2528,8 @@ Anonymous: For real. What a waste of time.
 Anonymous: Wasn't there some expert on last time who predicted that we'd be seeing the two fleets going at each other on camera by now?
 Anonymous: the only conclusion is, both fleets are toast. the world now belongs to the cats.
 ............]]
-	},
-	[14301] = {
+	}
+	pg.base.world_collection_file_template[14301] = {
 		group_ID = 1,
 		name = "Media Record: Top Articles at Time of Incident",
 		subTitle = "",
@@ -2370,8 +2547,8 @@ Destination number 10...
 Trending article excerpt 2:
 Legendary Rockstar Announces His Return
 ...This rockstar's debut single set the world on fire, but his blaze of glory fizzled out following a big debt scandal. Completely out of nowhere, he announced his comeback today, along with a new album of 5 to-be hit songs. All websites offering preorders are currently down due to the overwhelming amount of people trying to access them. In an interview, his manager blamed the website administrators, saying "Those guys, they have no idea how big he is. They way underestimated how passionate his fans are." Several of these sites have stated they will reopen preorders very soon, after server upgrades and maintenance...]]
-	},
-	[14302] = {
+	}
+	pg.base.world_collection_file_template[14302] = {
 		group_ID = 2,
 		name = "Life and Society: Bulletin Board Regarding KAN-SEN",
 		subTitle = "",
@@ -2402,8 +2579,8 @@ No. 6 Anonymous (ID:jCHklgGsO) 17:28
 No. 7 Anonymous (ID:nUfhvbFmD) 17:28 
 Welp, this thread's getting deleted.
 ......]]
-	},
-	[14303] = {
+	}
+	pg.base.world_collection_file_template[14303] = {
 		group_ID = 3,
 		name = "Life and Society: Deep Web Forum Excerpts",
 		subTitle = "",
@@ -2434,8 +2611,8 @@ Saw them arrest him on the security cam footage. I warned him, but he wouldn't l
 Richy, you're good for now, but keep an eye out anyway.
 I'll hit you up later. There's people on my tail and I'm trying to shake them.
 ......]]
-	},
-	[14304] = {
+	}
+	pg.base.world_collection_file_template[14304] = {
 		group_ID = 4,
 		name = "Confidential Record: Interrogation",
 		subTitle = "Confidentiality Level: I",
@@ -2461,8 +2638,8 @@ I'll hit you up later. There's people on my tail and I'm trying to shake them.
 - (silence)
 - This part of my job makes me sick.
 ......]]
-	},
-	[14305] = {
+	}
+	pg.base.world_collection_file_template[14305] = {
 		group_ID = 5,
 		name = "Media Record: Diplomatic Breakthrough",
 		subTitle = "",
@@ -2479,8 +2656,8 @@ Our reporter was told that the confrontation there ended peacefully, and that th
 A high-ranking Oceanic Federation official confirmed this statement and went on to praise the Northern Parliament for its measured, peace-promoting stance on the matter. This official also said that both parties are fully committed to maintaining world peace, and that a hotline between the two sides has been established to help prevent similar confrontations in the future.
 
 Both the Revolutionary Front and the Oceanic Federation have signed a memorandum concerning this matter. More details will follow later this afternoon...]]
-	},
-	[14306] = {
+	}
+	pg.base.world_collection_file_template[14306] = {
 		group_ID = 6,
 		name = "Media Record: Temporary No-Sail Zone",
 		subTitle = "",
@@ -2513,8 +2690,8 @@ The following sea and air space has been designated for an exercise by the Revol
 The quadrangle enclosed by N 32° 35', W 58° 58; N 32° 18', W 53° 03'; N 30° 41', W 53° 42'; and N 30° 49', W 58° 59'.
 
 All sea and air craft traveling near these forbidden areas should maintain functional transmissions, particularly reception, and retain the following contact in case of emergency...]]
-	},
-	[14401] = {
+	}
+	pg.base.world_collection_file_template[14401] = {
 		group_ID = 1,
 		name = "Archives: Investigation Committee",
 		subTitle = "Confidentiality Level: V",
@@ -2537,8 +2714,8 @@ After the passage of this resolution, leadership of the committee will, on behal
 2. Designate Samos Island and the surrounding region as a control zone and evacuate all except members of the committee.
 3. On a weekly basis...
 ......]]
-	},
-	[14402] = {
+	}
+	pg.base.world_collection_file_template[14402] = {
 		group_ID = 2,
 		name = "Archives: Master Sergeant's Audio Recording",
 		subTitle = "Confidentiality Level: V",
@@ -2567,8 +2744,8 @@ After the passage of this resolution, leadership of the committee will, on behal
 - I'm sorry, sir, but that's not the order I was given. I don't care if the general told you...
 - This is... O-oh, nevermind then.
 - Right this way, Miss Richard. Let's finish up this shift change!]]
-	},
-	[14403] = {
+	}
+	pg.base.world_collection_file_template[14403] = {
 		group_ID = 3,
 		name = "Archives: Bon Homme Richard's Post",
 		subTitle = "Confidentiality Level: V",
@@ -2586,8 +2763,8 @@ I won't be able to post after the exercise starts, so this is my last message un
 P.S., For the next five hours after this post, I'll be on Samos for one last bit of fun in the sun before things get busy! If you happen to run into me, I'll be glad to give out autographs. No photos though!
 
 Remember, everyone: No matter how busy you are, don't forget to enjoy yourself every now and then!]]
-	},
-	[14404] = {
+	}
+	pg.base.world_collection_file_template[14404] = {
 		group_ID = 4,
 		name = "Archives: Survivor's Interrogation Records",
 		subTitle = "Confidentiality Level: V",
@@ -2613,8 +2790,8 @@ As such, it is difficult to confirm the veracity of his testimony.
 -- But then, I fell in the water, and... I don't remember anything after that.
 - Thank you. Get some rest, my friend.
 ......]]
-	},
-	[14405] = {
+	}
+	pg.base.world_collection_file_template[14405] = {
 		group_ID = 5,
 		name = "Archives: Fleet Captain's Statement",
 		subTitle = "Confidentiality Level: V",
@@ -2638,8 +2815,8 @@ A portion of the contents has been bleeped out to protect confidential military 
 -- From there, the black tornado grew into a large-scale hurricane that enveloped the RF's fleet along with us. That was when utter chaos broke out. Everyone started firing on each other until they sank. It was so horrifying that I thought it was the onset of a new world war...
 - Was the sixth fleet you were in affected by the black tornado?
 -- There was enough distance between us and the black tornado to let us get away, but shortly after the tornado appeared, all our gauges and electronics malfunctioned. Then, our communication equipment went down, followed by the power system, and then—[bleep]—]]
-	},
-	[14406] = {
+	}
+	pg.base.world_collection_file_template[14406] = {
 		group_ID = 6,
 		name = "Archives: Relatives' Statements",
 		subTitle = "Confidentiality Level: V",
@@ -2666,8 +2843,8 @@ A portion of the contents has been bleeped out to protect confidential military 
 - It was a necessary precaution to keep everyone safe.
 - Ahem... Hello, young man. You are Colonel Archer's son, yes? I have some questions—
 ......]]
-	},
-	[14407] = {
+	}
+	pg.base.world_collection_file_template[14407] = {
 		group_ID = 7,
 		name = "Archives: Officer's Statement",
 		subTitle = "Confidentiality Level: V",
@@ -2689,8 +2866,8 @@ A portion of the contents has been bleeped out to protect confidential military 
 -- Mr. Investigator... What are you getting at?
 -- If you're trying to get me to incriminate Captain Archer, then I will not answer any more of your questions.
 ......]]
-	},
-	[14408] = {
+	}
+	pg.base.world_collection_file_template[14408] = {
 		group_ID = 8,
 		name = "Archives: Submarine Action Report",
 		subTitle = "Confidentiality Level: V",
@@ -2714,8 +2891,8 @@ A portion of the contents has been bleeped out to protect confidential military 
 1025: Enterprise is picking up speed, course terminus unknown. Will do the same and continue tracking.
 1200: HQ, the Enterprise has left our tracking range. Last recorded speed: 55 knots and still accelerating... Someone please tell me this is all a big joke.
 ......]]
-	},
-	[14409] = {
+	}
+	pg.base.world_collection_file_template[14409] = {
 		group_ID = 9,
 		name = "Bermuda Incident Resolution",
 		subTitle = "Confidentiality Level: V",
@@ -2731,8 +2908,8 @@ Decisions regarding the Incident in the Bermudas (hereafter referred to as the "
 - Ensure the safety of Dr. Anzeel and her research team, but suspend all research on "KAN-SEN" by the team.
 - Per the latest agreement, allow the R.F. to participate in search-and-rescue operations in the Bermuda area. No department or unit is to impede the R.F.'s search-and-rescue efforts.
 Signed: George Frank (Department of Defense)]]
-	},
-	[14410] = {
+	}
+	pg.base.world_collection_file_template[14410] = {
 		group_ID = 10,
 		name = "Investigation Results I",
 		subTitle = "Confidentiality Level: V",
@@ -2757,8 +2934,8 @@ Signature (Investigation Committee): Victor Herbert
 Signature (Investigation Technical Appraisal Mission): Nicholas Lawyer
 Signature (Oceanic Federation Military Advisory Group): Eutopia Savoy
 Signature (Representative of the Eagle Union Nat'l Armed Forces): Shepherd Kingsley]]
-	},
-	[14411] = {
+	}
+	pg.base.world_collection_file_template[14411] = {
 		group_ID = 11,
 		name = "Resolution on the Bermuda Incident",
 		subTitle = "Confidentiality Level: V",
@@ -2784,8 +2961,8 @@ Lieutenant General Herbert:
 Lieutenant General Nicholas:
 - That's not something we can decide on the spot, but...
 - Lieutenant, I've heard that there's going to be a formal meeting later, so let's take care of that first. Adjourned.]]
-	},
-	[14601] = {
+	}
+	pg.base.world_collection_file_template[14601] = {
 		group_ID = 1,
 		name = "Investigation Results II",
 		subTitle = "Confidentiality Level: V",
@@ -2808,8 +2985,8 @@ Per the DHS's request, postmortem investigations will now focus on information s
 Additionally, now that the investigation has entered a new phase, all documents related to the "Richard Incident" will now be centrally managed under the name of "Richard Files." All documents that are a part of the "Richard Archives" are to be kept on paper only.
 ......
 Signature (Investigation Committee): Victor Herbert]]
-	},
-	[14602] = {
+	}
+	pg.base.world_collection_file_template[14602] = {
 		group_ID = 2,
 		name = "Captain's Background and Psych Evaluation",
 		subTitle = "Confidentiality Level: III",
@@ -2841,8 +3018,8 @@ John Archer has passed the routine psychological evaluation and is able to conti
 
 Physician Signature: _______________
 Dermot Lambert]]
-	},
-	[14603] = {
+	}
+	pg.base.world_collection_file_template[14603] = {
 		group_ID = 3,
 		name = "Restored Voice Recording",
 		subTitle = "Confidentiality Level: V",
@@ -2875,8 +3052,8 @@ Dermot Lambert]]
 -To all Federation vessels still able to do battle, this is Captain John Archer of the nuclear aircraft carrier Enterprise.
 -This ship shall fight until the bitter end.
 ......]]
-	},
-	[14604] = {
+	}
+	pg.base.world_collection_file_template[14604] = {
 		group_ID = 4,
 		name = "Wreckage Investigation Report",
 		subTitle = "Confidentiality Level: V",
@@ -2892,8 +3069,8 @@ A small amount of survey data obtained from the wreckage has already been sent t
 
 However, the wreckage of the Enterprise is still in a state that is deemed "harmful to living organisms," and further investigation into the energy radiation phenomenon is unlikely to continue any time soon.
 ......]]
-	},
-	[14605] = {
+	}
+	pg.base.world_collection_file_template[14605] = {
 		group_ID = 5,
 		name = "Carrier-Based Aircraft Damage Assessment",
 		subTitle = "Confidentiality Level: V",
@@ -2911,8 +3088,8 @@ This transformational phenomenon is being referred to as "metamorphosis" for the
 
 Another phenomenon was also observed in addition to "metamorphosis." Timekeeping devices retrieved from the aircraft suggest that there was a noticeable "time dilation" effect around the area of engagement. This may be related to the space-time anomaly that has formed in the waters near Samos, though more evidence is needed to substantiate this claim.
 ......]]
-	},
-	[14606] = {
+	}
+	pg.base.world_collection_file_template[14606] = {
 		group_ID = 6,
 		name = "Bridge Communication Record",
 		subTitle = "Confidentiality Level: V",
@@ -2945,8 +3122,8 @@ Another phenomenon was also observed in addition to "metamorphosis." Timekeeping
 2335: .........
 2336: Yes, it's true, Mr. President... the Enterprise has detonated Code N.
 ......]]
-	},
-	[14607] = {
+	}
+	pg.base.world_collection_file_template[14607] = {
 		group_ID = 7,
 		name = "Survivor's Testimony",
 		subTitle = "Confidentiality Level: V",
@@ -2982,8 +3159,8 @@ Another phenomenon was also observed in addition to "metamorphosis." Timekeeping
 -We survived because... Captain Archer said that someone had to live to tell the tale.
 -Please, do justice to everything I told you today. Please...
 ......]]
-	},
-	[14608] = {
+	}
+	pg.base.world_collection_file_template[14608] = {
 		group_ID = 8,
 		name = "Investigation Results III",
 		subTitle = "Confidentiality Level: V",
@@ -3012,8 +3189,8 @@ Signature (Technical Expertise Advisory Panel): Jonathan Travis
 Signature (Samos Medical Centre): Dermot Lambert
 Signature (Oceanic Federation Military Advisory Group): Eutopia Savoy
 Signature (Representative of the Eagle Union Nat'l Armed Forces): Shepherd Kingsley]]
-	},
-	[14609] = {
+	}
+	pg.base.world_collection_file_template[14609] = {
 		group_ID = 9,
 		name = "Personal Diary of Lieutenant General Nicholas ",
 		subTitle = "Confidentiality Level: V",
@@ -3031,8 +3208,8 @@ We just lost John Archer, damnit.
 I know what Herbert Sr.'s thinking. He won't allow the investigation committee to pin any crimes on Archer's name. But, he's jumping the gun. Frankly, the difference in ability among the members of this investigation team is greater than the difference between the climate of Antarctica and the Sahara Desert.
 Oh wait, there's not much left of the Saharas by now.
 I guess we'll just have to see what happens.]]
-	},
-	[15004] = {
+	}
+	pg.base.world_collection_file_template[15004] = {
 		group_ID = 4,
 		name = "Report: Iron Blood Decommissioning Policy",
 		subTitle = "",
@@ -3057,8 +3234,8 @@ Iron Blood has never released any information pertaining to this matter, but bas
 Note: In my opinion, this information holds important implications. The Iris Orthodoxy could reach a tripartite agreement with Tulipa and Iron Blood just as the Eagle Union has been seeking to relocate sensitive projects to the Royal Isles.
 –––––––––
 Cloud: Backup complete (Node: Iris Strategic Research Institute)]]
-	},
-	[15105] = {
+	}
+	pg.base.world_collection_file_template[15105] = {
 		group_ID = 5,
 		name = "Text Record: I'm Back",
 		subTitle = "",
@@ -3087,8 +3264,8 @@ The Bon Homme Richard situation reeks of conspiracy. Someone has to pay the pric
 Look forward to seeing you soon,
 
 Anzeel]]
-	},
-	[15106] = {
+	}
+	pg.base.world_collection_file_template[15106] = {
 		group_ID = 6,
 		name = "Text Record: Welcome Back",
 		subTitle = "",
@@ -3117,8 +3294,8 @@ Looking forward to seeing you soon,
 Aoste
 
 (PS: Photos of our base are attached.)]]
-	},
-	[18001] = {
+	}
+	pg.base.world_collection_file_template[18001] = {
 		group_ID = 1,
 		name = "Log: Incident Anomaly Investigation 01",
 		subTitle = "",
@@ -3145,8 +3322,8 @@ By the way, Dr. Aoste has regained consciousness after being comatose in the ICU
 –––––––––
 
 Cloud: Backup complete (Node: TORCH Server)]]
-	},
-	[19001] = {
+	}
+	pg.base.world_collection_file_template[19001] = {
 		group_ID = 1,
 		name = "Recording: From a Nurse Station",
 		subTitle = "",
@@ -3174,8 +3351,8 @@ Location: ■■ Hospital Nurse Station Camera
 --Everyone's unconscious! Doctors and nurses alike! You have to get out of here!
 --Hey! Wait, what are you doing?!
 --Damnit, what the hell is going on?!]]
-	},
-	[19002] = {
+	}
+	pg.base.world_collection_file_template[19002] = {
 		group_ID = 2,
 		name = "Societal Notes: Friendship in a Dream",
 		subTitle = "",
@@ -3218,8 +3395,8 @@ No. 17 Anonymous User (ID:CkTsvaOmS) 18:08
 No. 18 Anonymous User (ID:sFklgulHkj) 18:08
 RIP.
 ......]]
-	},
-	[19003] = {
+	}
+	pg.base.world_collection_file_template[19003] = {
 		group_ID = 3,
 		name = "Societal Notes: The \"Post-War\" Era",
 		subTitle = "",
@@ -3233,8 +3410,8 @@ Of course, these doomsday frenzies are hardly alien to us. Before ■■■■, 
 
 Nevertheless, there are many others who hold a negative opinion of such behaviors – a common sentiment echoed by netizens is: "Seeing this play out in the prologue of 'Falldown 4' is good enough. No need to bring it into real life."
 ......]]
-	},
-	[19004] = {
+	}
+	pg.base.world_collection_file_template[19004] = {
 		group_ID = 4,
 		name = "Societal Notes: Beware of Doomsday Cults",
 		subTitle = "",
@@ -3247,8 +3424,8 @@ Nevertheless, there are many others who hold a negative opinion of such behavior
 Police investigations have revealed a common throughline for many of these cults: that the Second Samos Standoff was supposed to be the catalyst for World War ■■■, but the intervention of the "higher power" they now worship changed the future and prevented the end of the world. However, the scientific community continues to insist that the Mass Syncope incident was not supernatural in origin, and that they have the evidence to prove this.
 
 The police once again have emphasized this to the public: "the propaganda of these cults has no scientific backing whatsoever. If you come across such propaganda, do not believe it, and do not engage with it. If possible, please report it to the hotline listed below..."]]
-	},
-	[19005] = {
+	}
+	pg.base.world_collection_file_template[19005] = {
 		group_ID = 5,
 		name = "Societal Notes: Film and TV Craze",
 		subTitle = "",
@@ -3256,8 +3433,8 @@ The police once again have emphasized this to the public: "the propaganda of the
 		id = 19005,
 		is_classified = 0,
 		content = "...\"World War ■■■\" is about to hit theaters near you! As more and more people awaken from the Mass Syncope incident, the apocalyptic story of the next World War within has become clearer and clearer.\nRenowned director and screenwriter ■■■ has announced that production of the World War ■■■-themed film is well underway, declaring that he will bring the nearly-averted calamity to the big screen. Heeding his call, many top actors have lined up to be a part of the film, including several shipgirls who previously disappeared due to public criticism.\nA staff member who wishes to remain anonymous actually revealed to a number of influential bloggers that all the cast members have actually experienced the terrible war while suffering from Syncope. This information undoubtedly has raised expectations for the film, but there are also reports that suggest some of these \"big name\" participants may have forged their medical certificates pertaining to Syncope......"
-	},
-	[19006] = {
+	}
+	pg.base.world_collection_file_template[19006] = {
 		group_ID = 6,
 		name = "Article Excerpt: History or Prophecy?",
 		subTitle = "",
@@ -3274,174 +3451,5 @@ Let us start with what we know as fact. Following the Second Samos Standoff, a g
 Some who have never experienced it may simply write it off as some sort of mass hysteria, but I would like to reject that belief. In reality, the conflict between the Revolutionary Front and Oceanic Federation did not escalate, resulting in no World War ■■■ breaking out. However, despite this, the recollections of Syncope sufferers all corroborate each other, and by organizing the accounts of a large number of patients, we can reconstruct the full picture of what happened during this "Great War".
 
 I do not know whether World War ■■■ should be called history, prophecy, or a glimpse into a parallel dimension. What I can say with confidence, however, is that understanding its full story will be extremely beneficial. As we now know, it was triggered by the Second Samos Standoff, with leaders on both sides pressing the button to ignite the irreversible war between the Revolutionary Front and Oceanic Federation, walking humanity down the path of world war and total ruination......]]
-	},
-	all = {
-		1101,
-		1102,
-		1103,
-		1104,
-		1105,
-		1106,
-		2101,
-		2102,
-		2103,
-		2104,
-		2105,
-		2106,
-		3101,
-		3102,
-		3103,
-		3104,
-		3105,
-		3106,
-		3201,
-		3202,
-		3203,
-		3204,
-		3205,
-		3206,
-		3301,
-		3302,
-		3303,
-		3304,
-		3305,
-		3306,
-		4101,
-		4102,
-		4103,
-		4104,
-		4105,
-		4106,
-		5101,
-		5102,
-		5103,
-		5104,
-		5105,
-		5106,
-		6101,
-		6102,
-		6103,
-		6104,
-		6105,
-		6106,
-		7101,
-		7102,
-		7103,
-		7104,
-		7105,
-		7106,
-		8101,
-		8102,
-		8103,
-		8104,
-		8105,
-		8106,
-		9101,
-		9102,
-		9103,
-		9104,
-		9105,
-		9106,
-		10101,
-		10102,
-		10103,
-		10104,
-		10105,
-		10106,
-		11101,
-		11102,
-		11103,
-		11104,
-		11105,
-		11106,
-		11107,
-		11108,
-		11301,
-		11302,
-		11303,
-		11304,
-		11305,
-		11306,
-		11501,
-		11502,
-		11503,
-		11504,
-		11505,
-		11506,
-		11601,
-		11602,
-		11603,
-		11604,
-		11605,
-		11606,
-		11607,
-		11608,
-		11609,
-		13101,
-		13102,
-		13103,
-		13104,
-		13105,
-		13106,
-		13201,
-		13202,
-		13203,
-		13204,
-		13205,
-		13206,
-		13301,
-		13302,
-		13303,
-		13304,
-		13305,
-		13306,
-		14101,
-		14102,
-		14103,
-		14104,
-		14105,
-		14106,
-		14201,
-		14202,
-		14203,
-		14204,
-		14205,
-		14206,
-		14301,
-		14302,
-		14303,
-		14304,
-		14305,
-		14306,
-		14401,
-		14402,
-		14403,
-		14404,
-		14405,
-		14406,
-		14407,
-		14408,
-		14409,
-		14410,
-		14411,
-		14601,
-		14602,
-		14603,
-		14604,
-		14605,
-		14606,
-		14607,
-		14608,
-		14609,
-		15004,
-		15105,
-		15106,
-		18001,
-		19001,
-		19002,
-		19003,
-		19004,
-		19005,
-		19006
 	}
-}
+end)()

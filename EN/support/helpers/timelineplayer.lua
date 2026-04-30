@@ -74,6 +74,8 @@ end
 
 slot0.RawSetTime = function(slot0, slot1)
 	slot0.comDirector.time = slot1
+
+	slot0.comDirector:Evaluate()
 end
 
 slot0.Dispose = function(slot0)

@@ -1,6 +1,15 @@
 pg = pg or {}
-pg.activity_level_award = {
-	{
+pg.activity_level_award = rawget(pg, "activity_level_award") or setmetatable({
+	__name = "activity_level_award"
+}, confNEO)
+pg.activity_level_award.all = {
+	1
+}
+pg.base = pg.base or {}
+pg.base.activity_level_award = {}
+
+(function ()
+	pg.base.activity_level_award[1] = {
 		id = 1,
 		front_drops = {
 			{
@@ -117,8 +126,5 @@ pg.activity_level_award = {
 				}
 			}
 		}
-	},
-	all = {
-		1
 	}
-}
+end)()

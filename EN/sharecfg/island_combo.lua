@@ -1,6 +1,27 @@
 pg = pg or {}
-pg.island_combo = {
-	[601101] = {
+pg.island_combo = rawget(pg, "island_combo") or setmetatable({
+	__name = "island_combo"
+}, confNEO)
+pg.island_combo.all = {
+	601101,
+	601102,
+	602101,
+	602102,
+	602103,
+	603101,
+	603102,
+	603103,
+	604101,
+	604102,
+	901101,
+	901102,
+	901103
+}
+pg.base = pg.base or {}
+pg.base.island_combo = {}
+
+(function ()
+	pg.base.island_combo[601101] = {
 		id = 601101,
 		is_hide = 0,
 		unlock_condition = {
@@ -13,8 +34,8 @@ pg.island_combo = {
 				5
 			}
 		}
-	},
-	[601102] = {
+	}
+	pg.base.island_combo[601102] = {
 		id = 601102,
 		is_hide = 1,
 		unlock_condition = {
@@ -27,8 +48,8 @@ pg.island_combo = {
 				5
 			}
 		}
-	},
-	[602101] = {
+	}
+	pg.base.island_combo[602101] = {
 		id = 602101,
 		is_hide = 0,
 		unlock_condition = {
@@ -41,8 +62,8 @@ pg.island_combo = {
 				5
 			}
 		}
-	},
-	[602102] = {
+	}
+	pg.base.island_combo[602102] = {
 		id = 602102,
 		is_hide = 0,
 		unlock_condition = {
@@ -55,8 +76,8 @@ pg.island_combo = {
 				5
 			}
 		}
-	},
-	[602103] = {
+	}
+	pg.base.island_combo[602103] = {
 		id = 602103,
 		is_hide = 1,
 		unlock_condition = {
@@ -69,8 +90,8 @@ pg.island_combo = {
 				5
 			}
 		}
-	},
-	[603101] = {
+	}
+	pg.base.island_combo[603101] = {
 		id = 603101,
 		is_hide = 0,
 		unlock_condition = {
@@ -83,8 +104,8 @@ pg.island_combo = {
 				5
 			}
 		}
-	},
-	[603102] = {
+	}
+	pg.base.island_combo[603102] = {
 		id = 603102,
 		is_hide = 0,
 		unlock_condition = {
@@ -97,8 +118,8 @@ pg.island_combo = {
 				5
 			}
 		}
-	},
-	[603103] = {
+	}
+	pg.base.island_combo[603103] = {
 		id = 603103,
 		is_hide = 1,
 		unlock_condition = {
@@ -111,8 +132,8 @@ pg.island_combo = {
 				5
 			}
 		}
-	},
-	[604101] = {
+	}
+	pg.base.island_combo[604101] = {
 		id = 604101,
 		is_hide = 0,
 		unlock_condition = {
@@ -125,8 +146,8 @@ pg.island_combo = {
 				5
 			}
 		}
-	},
-	[604102] = {
+	}
+	pg.base.island_combo[604102] = {
 		id = 604102,
 		is_hide = 1,
 		unlock_condition = {
@@ -139,8 +160,8 @@ pg.island_combo = {
 				5
 			}
 		}
-	},
-	[901101] = {
+	}
+	pg.base.island_combo[901101] = {
 		id = 901101,
 		is_hide = 0,
 		unlock_condition = {
@@ -153,8 +174,8 @@ pg.island_combo = {
 				5
 			}
 		}
-	},
-	[901102] = {
+	}
+	pg.base.island_combo[901102] = {
 		id = 901102,
 		is_hide = 0,
 		unlock_condition = {
@@ -167,8 +188,8 @@ pg.island_combo = {
 				5
 			}
 		}
-	},
-	[901103] = {
+	}
+	pg.base.island_combo[901103] = {
 		id = 901103,
 		is_hide = 1,
 		unlock_condition = {
@@ -181,20 +202,5 @@ pg.island_combo = {
 				5
 			}
 		}
-	},
-	all = {
-		601101,
-		601102,
-		602101,
-		602102,
-		602103,
-		603101,
-		603102,
-		603103,
-		604101,
-		604102,
-		901101,
-		901102,
-		901103
 	}
-}
+end)()

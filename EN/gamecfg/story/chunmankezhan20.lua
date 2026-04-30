@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501090,
-			actorName = "伏波&抚顺",
+			actorName = "Fu Po & Fu Shun",
 			hidePaintObj = true,
 			say = "We're gonna get in trouble!",
 			typewriter = {
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501090,
-			actorName = "伏波&抚顺",
+			actorName = "Fu Po & Fu Shun",
 			hidePaintObj = true,
 			say = "Aaaah! We're sorry!",
 			typewriter = {

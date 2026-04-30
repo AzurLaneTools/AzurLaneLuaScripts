@@ -1,6 +1,23 @@
 pg = pg or {}
-pg.island_camera_photo_frame = {
-	[1001] = {
+pg.island_camera_photo_frame = rawget(pg, "island_camera_photo_frame") or setmetatable({
+	__name = "island_camera_photo_frame"
+}, confNEO)
+pg.island_camera_photo_frame.all = {
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008,
+	1009
+}
+pg.base = pg.base or {}
+pg.base.island_camera_photo_frame = {}
+
+(function ()
+	pg.base.island_camera_photo_frame[1001] = {
 		name = "Default",
 		rarity = 2,
 		farme_path = "photo_frame_default",
@@ -15,8 +32,8 @@ pg.island_camera_photo_frame = {
 			0,
 			0
 		}
-	},
-	[1002] = {
+	}
+	pg.base.island_camera_photo_frame[1002] = {
 		name = "Video",
 		rarity = 2,
 		farme_path = "photo_frame_vcr",
@@ -35,8 +52,8 @@ pg.island_camera_photo_frame = {
 			0,
 			0
 		}
-	},
-	[1003] = {
+	}
+	pg.base.island_camera_photo_frame[1003] = {
 		name = "Stamp",
 		rarity = 2,
 		farme_path = "photo_frame_counterfoil",
@@ -55,8 +72,8 @@ pg.island_camera_photo_frame = {
 			0,
 			0
 		}
-	},
-	[1004] = {
+	}
+	pg.base.island_camera_photo_frame[1004] = {
 		name = "Photograph",
 		rarity = 3,
 		farme_path = "photo_frame_polaroid",
@@ -75,8 +92,8 @@ pg.island_camera_photo_frame = {
 			0,
 			0
 		}
-	},
-	[1005] = {
+	}
+	pg.base.island_camera_photo_frame[1005] = {
 		name = "Card",
 		rarity = 3,
 		farme_path = "photo_frame_card",
@@ -95,8 +112,8 @@ pg.island_camera_photo_frame = {
 			0,
 			0
 		}
-	},
-	[1006] = {
+	}
+	pg.base.island_camera_photo_frame[1006] = {
 		name = "Trends",
 		rarity = 3,
 		farme_path = "photo_frame_ins",
@@ -115,8 +132,8 @@ pg.island_camera_photo_frame = {
 			0,
 			0
 		}
-	},
-	[1007] = {
+	}
+	pg.base.island_camera_photo_frame[1007] = {
 		name = "Film",
 		rarity = 3,
 		farme_path = "photo_frame_film",
@@ -135,8 +152,8 @@ pg.island_camera_photo_frame = {
 			0,
 			0
 		}
-	},
-	[1008] = {
+	}
+	pg.base.island_camera_photo_frame[1008] = {
 		name = "Walnut",
 		rarity = 3,
 		farme_path = "photo_frame_Wood",
@@ -155,8 +172,8 @@ pg.island_camera_photo_frame = {
 			0,
 			0
 		}
-	},
-	[1009] = {
+	}
+	pg.base.island_camera_photo_frame[1009] = {
 		name = "Lens",
 		rarity = 3,
 		farme_path = "photo_frame_Focus",
@@ -175,16 +192,5 @@ pg.island_camera_photo_frame = {
 			0,
 			0
 		}
-	},
-	all = {
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1007,
-		1008,
-		1009
 	}
-}
+end)()

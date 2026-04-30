@@ -1,6 +1,28 @@
 pg = pg or {}
-pg.sham_battle_template = {
-	{
+pg.sham_battle_template = rawget(pg, "sham_battle_template") or setmetatable({
+	__name = "sham_battle_template"
+}, confNEO)
+pg.sham_battle_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	80000,
+	90000
+}
+pg.base = pg.base or {}
+pg.base.sham_battle_template = {}
+
+(function ()
+	pg.base.sham_battle_template[1] = {
 		map = 90000,
 		name = "Simulation",
 		time = 99999999,
@@ -492,8 +514,8 @@ pg.sham_battle_template = {
 				500
 			}
 		}
-	},
-	{
+	}
+	pg.base.sham_battle_template[2] = {
 		map = 90000,
 		name = "Simulation",
 		time = 99999999,
@@ -985,8 +1007,8 @@ pg.sham_battle_template = {
 				500
 			}
 		}
-	},
-	{
+	}
+	pg.base.sham_battle_template[3] = {
 		map = 90000,
 		name = "Simulation",
 		time = 99999999,
@@ -1478,8 +1500,8 @@ pg.sham_battle_template = {
 				500
 			}
 		}
-	},
-	{
+	}
+	pg.base.sham_battle_template[4] = {
 		map = 90000,
 		name = "Simulation",
 		time = 99999999,
@@ -1971,8 +1993,8 @@ pg.sham_battle_template = {
 				500
 			}
 		}
-	},
-	{
+	}
+	pg.base.sham_battle_template[5] = {
 		map = 90000,
 		name = "Simulation",
 		time = 99999999,
@@ -2464,8 +2486,8 @@ pg.sham_battle_template = {
 				500
 			}
 		}
-	},
-	{
+	}
+	pg.base.sham_battle_template[6] = {
 		map = 90000,
 		name = "Simulation",
 		time = 99999999,
@@ -2957,8 +2979,8 @@ pg.sham_battle_template = {
 				500
 			}
 		}
-	},
-	{
+	}
+	pg.base.sham_battle_template[7] = {
 		map = 90000,
 		name = "Simulation",
 		time = 99999999,
@@ -3450,8 +3472,8 @@ pg.sham_battle_template = {
 				500
 			}
 		}
-	},
-	{
+	}
+	pg.base.sham_battle_template[8] = {
 		map = 90000,
 		name = "Simulation",
 		time = 99999999,
@@ -3943,8 +3965,8 @@ pg.sham_battle_template = {
 				500
 			}
 		}
-	},
-	{
+	}
+	pg.base.sham_battle_template[9] = {
 		map = 90000,
 		name = "Simulation",
 		time = 99999999,
@@ -4436,8 +4458,8 @@ pg.sham_battle_template = {
 				500
 			}
 		}
-	},
-	{
+	}
+	pg.base.sham_battle_template[10] = {
 		map = 90000,
 		name = "Simulation",
 		time = 99999999,
@@ -4929,8 +4951,8 @@ pg.sham_battle_template = {
 				500
 			}
 		}
-	},
-	{
+	}
+	pg.base.sham_battle_template[11] = {
 		map = 90000,
 		name = "Simulation",
 		time = 99999999,
@@ -5422,8 +5444,8 @@ pg.sham_battle_template = {
 				500
 			}
 		}
-	},
-	{
+	}
+	pg.base.sham_battle_template[12] = {
 		map = 90000,
 		name = "Simulation",
 		time = 99999999,
@@ -5915,8 +5937,8 @@ pg.sham_battle_template = {
 				500
 			}
 		}
-	},
-	[80000] = {
+	}
+	pg.base.sham_battle_template[80000] = {
 		map = 90000,
 		name = "公会BOSS",
 		time = 99999999,
@@ -6377,8 +6399,8 @@ pg.sham_battle_template = {
 				500
 			}
 		}
-	},
-	[90000] = {
+	}
+	pg.base.sham_battle_template[90000] = {
 		map = 90000,
 		name = "Mirror Sea",
 		time = 99999999,
@@ -6842,21 +6864,5 @@ pg.sham_battle_template = {
 				500
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		80000,
-		90000
 	}
-}
+end)()

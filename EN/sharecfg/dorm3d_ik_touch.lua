@@ -1,6 +1,43 @@
 pg = pg or {}
-pg.dorm3d_ik_touch = {
-	[1002101] = {
+pg.dorm3d_ik_touch = rawget(pg, "dorm3d_ik_touch") or setmetatable({
+	__name = "dorm3d_ik_touch"
+}, confNEO)
+pg.dorm3d_ik_touch.all = {
+	1002101,
+	1003101,
+	1001301,
+	1001302,
+	1004101,
+	1007101,
+	1002801,
+	2002501,
+	2002502,
+	3003321,
+	3003322,
+	3003323,
+	3003324,
+	3004000,
+	3004001,
+	3999991,
+	3999992,
+	3999993,
+	3999994,
+	4000001,
+	4000002,
+	5004001,
+	5004002,
+	5005001,
+	5005002,
+	5005003,
+	5005004,
+	6004001,
+	6004002
+}
+pg.base = pg.base or {}
+pg.base.dorm3d_ik_touch = {}
+
+(function ()
+	pg.base.dorm3d_ik_touch[1002101] = {
 		ik_move = "",
 		char_id = 20220,
 		body = "Chest",
@@ -14,8 +51,8 @@ pg.dorm3d_ik_touch = {
 				0.3
 			}
 		}
-	},
-	[1003101] = {
+	}
+	pg.base.dorm3d_ik_touch[1003101] = {
 		ik_move = "",
 		char_id = 20220,
 		body = "Head",
@@ -29,8 +66,8 @@ pg.dorm3d_ik_touch = {
 				0.3
 			}
 		}
-	},
-	[1001301] = {
+	}
+	pg.base.dorm3d_ik_touch[1001301] = {
 		ik_move = "",
 		char_id = 20220,
 		body = "Head",
@@ -44,8 +81,8 @@ pg.dorm3d_ik_touch = {
 				0.3
 			}
 		}
-	},
-	[1001302] = {
+	}
+	pg.base.dorm3d_ik_touch[1001302] = {
 		ik_move = "",
 		char_id = 20220,
 		body = "Chest",
@@ -59,8 +96,8 @@ pg.dorm3d_ik_touch = {
 				0.3
 			}
 		}
-	},
-	[1004101] = {
+	}
+	pg.base.dorm3d_ik_touch[1004101] = {
 		ik_move = "",
 		char_id = 20220,
 		body = "LeftHand",
@@ -74,8 +111,8 @@ pg.dorm3d_ik_touch = {
 				0.3
 			}
 		}
-	},
-	[1007101] = {
+	}
+	pg.base.dorm3d_ik_touch[1007101] = {
 		ik_move = "",
 		char_id = 20220,
 		body = "LeftFoot",
@@ -89,8 +126,8 @@ pg.dorm3d_ik_touch = {
 				0.3
 			}
 		}
-	},
-	[1002801] = {
+	}
+	pg.base.dorm3d_ik_touch[1002801] = {
 		ik_move = "",
 		char_id = 20220,
 		body = "",
@@ -99,8 +136,8 @@ pg.dorm3d_ik_touch = {
 		scene_item = "FurnitureSlots/100301/pre_db_sp_sh_xmas01(Clone)/pre_db_sp_sh_xmas_decoration02",
 		vibrate = "",
 		tip_offset = ""
-	},
-	[2002501] = {
+	}
+	pg.base.dorm3d_ik_touch[2002501] = {
 		ik_move = "",
 		char_id = 30221,
 		body = "",
@@ -109,8 +146,8 @@ pg.dorm3d_ik_touch = {
 		scene_item = "FurnitureSlots/120303/pre_db_nh_sp_nyd_livingroom01(Clone)/pre_db_nh_sp_nyd_decoration02",
 		vibrate = "",
 		tip_offset = ""
-	},
-	[2002502] = {
+	}
+	pg.base.dorm3d_ik_touch[2002502] = {
 		ik_move = "",
 		char_id = 30221,
 		body = "",
@@ -119,8 +156,8 @@ pg.dorm3d_ik_touch = {
 		scene_item = "FurnitureSlots/120303/pre_db_nh_sp_nyd_livingroom01(Clone)/pre_db_nh_sp_nyd_table/all/pre_db_nh_sp_nyd_food01a",
 		vibrate = "",
 		tip_offset = ""
-	},
-	[3003321] = {
+	}
+	pg.base.dorm3d_ik_touch[3003321] = {
 		ik_move = "",
 		char_id = 19903,
 		body = "Butt",
@@ -134,8 +171,8 @@ pg.dorm3d_ik_touch = {
 				0.2
 			}
 		}
-	},
-	[3003322] = {
+	}
+	pg.base.dorm3d_ik_touch[3003322] = {
 		ik_move = "",
 		char_id = 19903,
 		body = "Chest",
@@ -149,8 +186,8 @@ pg.dorm3d_ik_touch = {
 				0.2
 			}
 		}
-	},
-	[3003323] = {
+	}
+	pg.base.dorm3d_ik_touch[3003323] = {
 		ik_move = "",
 		char_id = 19903,
 		body = "RightThigh",
@@ -164,8 +201,8 @@ pg.dorm3d_ik_touch = {
 				0.2
 			}
 		}
-	},
-	[3003324] = {
+	}
+	pg.base.dorm3d_ik_touch[3003324] = {
 		ik_move = "",
 		char_id = 19903,
 		body = "",
@@ -177,8 +214,8 @@ pg.dorm3d_ik_touch = {
 			0,
 			0
 		}
-	},
-	[3004000] = {
+	}
+	pg.base.dorm3d_ik_touch[3004000] = {
 		ik_move = "",
 		char_id = 19903,
 		body = "Back",
@@ -190,8 +227,8 @@ pg.dorm3d_ik_touch = {
 			0,
 			0
 		}
-	},
-	[3004001] = {
+	}
+	pg.base.dorm3d_ik_touch[3004001] = {
 		ik_move = "",
 		char_id = 19903,
 		body = "",
@@ -203,8 +240,8 @@ pg.dorm3d_ik_touch = {
 			0,
 			0
 		}
-	},
-	[3999991] = {
+	}
+	pg.base.dorm3d_ik_touch[3999991] = {
 		ik_move = "",
 		char_id = 19903,
 		body = "LeftFoot",
@@ -218,8 +255,8 @@ pg.dorm3d_ik_touch = {
 				0.2
 			}
 		}
-	},
-	[3999992] = {
+	}
+	pg.base.dorm3d_ik_touch[3999992] = {
 		ik_move = "",
 		char_id = 19903,
 		body = "RightThigh",
@@ -233,8 +270,8 @@ pg.dorm3d_ik_touch = {
 				0.2
 			}
 		}
-	},
-	[3999993] = {
+	}
+	pg.base.dorm3d_ik_touch[3999993] = {
 		ik_move = "",
 		char_id = 19903,
 		body = "RightThigh",
@@ -248,8 +285,8 @@ pg.dorm3d_ik_touch = {
 				0.2
 			}
 		}
-	},
-	[3999994] = {
+	}
+	pg.base.dorm3d_ik_touch[3999994] = {
 		ik_move = "",
 		char_id = 19903,
 		body = "LeftThigh",
@@ -263,8 +300,8 @@ pg.dorm3d_ik_touch = {
 				0.2
 			}
 		}
-	},
-	[4000001] = {
+	}
+	pg.base.dorm3d_ik_touch[4000001] = {
 		ik_move = "",
 		char_id = 10517,
 		body = "",
@@ -276,8 +313,8 @@ pg.dorm3d_ik_touch = {
 			0,
 			0
 		}
-	},
-	[4000002] = {
+	}
+	pg.base.dorm3d_ik_touch[4000002] = {
 		ik_move = "",
 		char_id = 10517,
 		body = "",
@@ -289,8 +326,8 @@ pg.dorm3d_ik_touch = {
 			-100,
 			0
 		}
-	},
-	[5004001] = {
+	}
+	pg.base.dorm3d_ik_touch[5004001] = {
 		ik_move = "",
 		char_id = 30707,
 		body = "",
@@ -302,8 +339,8 @@ pg.dorm3d_ik_touch = {
 			0,
 			0
 		}
-	},
-	[5004002] = {
+	}
+	pg.base.dorm3d_ik_touch[5004002] = {
 		ik_move = "",
 		char_id = 30707,
 		body = "",
@@ -315,8 +352,8 @@ pg.dorm3d_ik_touch = {
 			0,
 			0
 		}
-	},
-	[5005001] = {
+	}
+	pg.base.dorm3d_ik_touch[5005001] = {
 		ik_move = "",
 		char_id = 30707,
 		body = "RightThigh",
@@ -330,8 +367,8 @@ pg.dorm3d_ik_touch = {
 				0.2
 			}
 		}
-	},
-	[5005002] = {
+	}
+	pg.base.dorm3d_ik_touch[5005002] = {
 		ik_move = "",
 		char_id = 30707,
 		body = "LeftThigh",
@@ -345,8 +382,8 @@ pg.dorm3d_ik_touch = {
 				0.2
 			}
 		}
-	},
-	[5005003] = {
+	}
+	pg.base.dorm3d_ik_touch[5005003] = {
 		ik_move = "",
 		char_id = 30707,
 		body = "LeftThigh",
@@ -360,8 +397,8 @@ pg.dorm3d_ik_touch = {
 				0.2
 			}
 		}
-	},
-	[5005004] = {
+	}
+	pg.base.dorm3d_ik_touch[5005004] = {
 		ik_move = "",
 		char_id = 30707,
 		body = "",
@@ -373,8 +410,8 @@ pg.dorm3d_ik_touch = {
 			0,
 			0
 		}
-	},
-	[6004001] = {
+	}
+	pg.base.dorm3d_ik_touch[6004001] = {
 		ik_move = "",
 		char_id = 49905,
 		body = "",
@@ -383,8 +420,8 @@ pg.dorm3d_ik_touch = {
 		scene_item = "FurnitureSlots/1140101/pre_db_aijier_bed01(Clone)/all/mesh/fbx_db_aje_bed01_1",
 		vibrate = "",
 		tip_offset = ""
-	},
-	[6004002] = {
+	}
+	pg.base.dorm3d_ik_touch[6004002] = {
 		ik_move = "",
 		char_id = 49905,
 		body = "RightHand",
@@ -398,36 +435,5 @@ pg.dorm3d_ik_touch = {
 				0.2
 			}
 		}
-	},
-	all = {
-		1002101,
-		1003101,
-		1001301,
-		1001302,
-		1004101,
-		1007101,
-		1002801,
-		2002501,
-		2002502,
-		3003321,
-		3003322,
-		3003323,
-		3003324,
-		3004000,
-		3004001,
-		3999991,
-		3999992,
-		3999993,
-		3999994,
-		4000001,
-		4000002,
-		5004001,
-		5004002,
-		5005001,
-		5005002,
-		5005003,
-		5005004,
-		6004001,
-		6004002
 	}
-}
+end)()

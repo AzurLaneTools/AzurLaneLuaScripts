@@ -1,6 +1,24 @@
 pg = pg or {}
-pg.island_map = {
-	[1001] = {
+pg.island_map = rawget(pg, "island_map") or setmetatable({
+	__name = "island_map"
+}, confNEO)
+pg.island_map.all = {
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1009,
+	1010,
+	1011
+}
+pg.base = pg.base or {}
+pg.base.island_map = {}
+
+(function ()
+	pg.base.island_map[1001] = {
 		minigame_id = 0,
 		name = "Farm",
 		time = "always",
@@ -16,8 +34,8 @@ pg.island_map = {
 			1,
 			0.5
 		}
-	},
-	[1002] = {
+	}
+	pg.base.island_map[1002] = {
 		minigame_id = 0,
 		name = "Island Harbor",
 		time = "always",
@@ -33,8 +51,8 @@ pg.island_map = {
 			1,
 			0.5
 		}
-	},
-	[1003] = {
+	}
+	pg.base.island_map[1003] = {
 		minigame_id = 0,
 		name = "Get-Together Island",
 		time = "always",
@@ -50,8 +68,8 @@ pg.island_map = {
 			1,
 			0.5
 		}
-	},
-	[1004] = {
+	}
+	pg.base.island_map[1004] = {
 		minigame_id = 0,
 		name = "Plains",
 		time = "always",
@@ -67,8 +85,8 @@ pg.island_map = {
 			1,
 			0.5
 		}
-	},
-	[1005] = {
+	}
+	pg.base.island_map[1005] = {
 		minigame_id = 0,
 		name = "Plantation",
 		time = "always",
@@ -84,8 +102,8 @@ pg.island_map = {
 			1,
 			0.5
 		}
-	},
-	[1006] = {
+	}
+	pg.base.island_map[1006] = {
 		minigame_id = 0,
 		name = "Commercial",
 		time = "always",
@@ -101,8 +119,8 @@ pg.island_map = {
 			1,
 			0.5
 		}
-	},
-	[1007] = {
+	}
+	pg.base.island_map[1007] = {
 		minigame_id = 0,
 		name = "Island Base",
 		time = "always",
@@ -118,8 +136,8 @@ pg.island_map = {
 			1,
 			0.5
 		}
-	},
-	[1009] = {
+	}
+	pg.base.island_map[1009] = {
 		minigame_id = 0,
 		name = "Café Manjuu",
 		time = "always",
@@ -135,8 +153,8 @@ pg.island_map = {
 			0.8,
 			0.5
 		}
-	},
-	[1010] = {
+	}
+	pg.base.island_map[1010] = {
 		minigame_id = 1,
 		name = "Café Manjuu",
 		time = "always",
@@ -152,8 +170,8 @@ pg.island_map = {
 			0.8,
 			0.5
 		}
-	},
-	[1011] = {
+	}
+	pg.base.island_map[1011] = {
 		minigame_id = 0,
 		name = "Tactical Simulation",
 		time = "always",
@@ -169,17 +187,5 @@ pg.island_map = {
 			0.8,
 			0.5
 		}
-	},
-	all = {
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1007,
-		1009,
-		1010,
-		1011
 	}
-}
+end)()

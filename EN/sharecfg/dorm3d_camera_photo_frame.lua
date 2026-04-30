@@ -1,25 +1,28 @@
 pg = pg or {}
-pg.dorm3d_camera_photo_frame = setmetatable({
-	__name = "dorm3d_camera_photo_frame",
-	all = {
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1007,
-		1008,
-		1009,
-		1010,
-		1011,
-		1012,
-		1013
-	}
-}, confHX)
+pg.dorm3d_camera_photo_frame = rawget(pg, "dorm3d_camera_photo_frame") or setmetatable({
+	__name = "dorm3d_camera_photo_frame"
+}, confNEO)
+pg.dorm3d_camera_photo_frame.__namecode__ = true
+pg.dorm3d_camera_photo_frame.all = {
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008,
+	1009,
+	1010,
+	1011,
+	1012,
+	1013
+}
 pg.base = pg.base or {}
-pg.base.dorm3d_camera_photo_frame = {
-	[1001] = {
+pg.base.dorm3d_camera_photo_frame = {}
+
+(function ()
+	pg.base.dorm3d_camera_photo_frame[1001] = {
 		name = "Default",
 		rarity = 2,
 		farme_path = "photo_frame_default",
@@ -38,8 +41,8 @@ pg.base.dorm3d_camera_photo_frame = {
 			0,
 			0
 		}
-	},
-	[1002] = {
+	}
+	pg.base.dorm3d_camera_photo_frame[1002] = {
 		name = "Video",
 		rarity = 2,
 		farme_path = "photo_frame_vcr",
@@ -58,8 +61,8 @@ pg.base.dorm3d_camera_photo_frame = {
 			0,
 			0
 		}
-	},
-	[1003] = {
+	}
+	pg.base.dorm3d_camera_photo_frame[1003] = {
 		name = "Stamp",
 		rarity = 2,
 		farme_path = "photo_frame_counterfoil",
@@ -78,8 +81,8 @@ pg.base.dorm3d_camera_photo_frame = {
 			0,
 			0
 		}
-	},
-	[1004] = {
+	}
+	pg.base.dorm3d_camera_photo_frame[1004] = {
 		name = "Photograph",
 		rarity = 3,
 		farme_path = "photo_frame_polaroid",
@@ -98,8 +101,8 @@ pg.base.dorm3d_camera_photo_frame = {
 			0,
 			0
 		}
-	},
-	[1005] = {
+	}
+	pg.base.dorm3d_camera_photo_frame[1005] = {
 		name = "Card",
 		rarity = 3,
 		farme_path = "photo_frame_card",
@@ -118,8 +121,8 @@ pg.base.dorm3d_camera_photo_frame = {
 			0,
 			0
 		}
-	},
-	[1006] = {
+	}
+	pg.base.dorm3d_camera_photo_frame[1006] = {
 		name = "Trends",
 		rarity = 3,
 		farme_path = "photo_frame_ins",
@@ -138,8 +141,8 @@ pg.base.dorm3d_camera_photo_frame = {
 			0,
 			0
 		}
-	},
-	[1007] = {
+	}
+	pg.base.dorm3d_camera_photo_frame[1007] = {
 		name = "Film",
 		rarity = 3,
 		farme_path = "photo_frame_film",
@@ -158,8 +161,8 @@ pg.base.dorm3d_camera_photo_frame = {
 			0,
 			0
 		}
-	},
-	[1008] = {
+	}
+	pg.base.dorm3d_camera_photo_frame[1008] = {
 		name = "Walnut",
 		rarity = 3,
 		farme_path = "photo_frame_Wood",
@@ -178,8 +181,8 @@ pg.base.dorm3d_camera_photo_frame = {
 			0,
 			0
 		}
-	},
-	[1009] = {
+	}
+	pg.base.dorm3d_camera_photo_frame[1009] = {
 		name = "Lens",
 		rarity = 3,
 		farme_path = "photo_frame_Focus",
@@ -198,8 +201,8 @@ pg.base.dorm3d_camera_photo_frame = {
 			0,
 			0
 		}
-	},
-	[1010] = {
+	}
+	pg.base.dorm3d_camera_photo_frame[1010] = {
 		name = "Audio Player",
 		rarity = 3,
 		farme_path = "photo_frame_player",
@@ -218,8 +221,8 @@ pg.base.dorm3d_camera_photo_frame = {
 			0,
 			0
 		}
-	},
-	[1011] = {
+	}
+	pg.base.dorm3d_camera_photo_frame[1011] = {
 		name = "Chat Window",
 		rarity = 3,
 		farme_path = "photo_frame_phone",
@@ -238,8 +241,8 @@ pg.base.dorm3d_camera_photo_frame = {
 			0,
 			0
 		}
-	},
-	[1012] = {
+	}
+	pg.base.dorm3d_camera_photo_frame[1012] = {
 		name = "Gorgeous Gold",
 		rarity = 3,
 		farme_path = "photo_frame_picture",
@@ -258,8 +261,8 @@ pg.base.dorm3d_camera_photo_frame = {
 			0,
 			0
 		}
-	},
-	[1013] = {
+	}
+	pg.base.dorm3d_camera_photo_frame[1013] = {
 		name = "Garden Memories",
 		rarity = 3,
 		farme_path = "photo_frame_train",
@@ -279,4 +282,4 @@ pg.base.dorm3d_camera_photo_frame = {
 			0
 		}
 	}
-}
+end)()

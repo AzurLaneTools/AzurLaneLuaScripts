@@ -1,6 +1,104 @@
 pg = pg or {}
-pg.skill_world_display = {
-	[3631] = {
+pg.skill_world_display = rawget(pg, "skill_world_display") or setmetatable({
+	__name = "skill_world_display"
+}, confNEO)
+pg.skill_world_display.all = {
+	3631,
+	4161,
+	11460,
+	12440,
+	12610,
+	13030,
+	13080,
+	13120,
+	13170,
+	13430,
+	13590,
+	13650,
+	13670,
+	13840,
+	14160,
+	14330,
+	14440,
+	14630,
+	14980,
+	16190,
+	16220,
+	16450,
+	16510,
+	150760,
+	19260,
+	19510,
+	19980,
+	105010,
+	105020,
+	1019260,
+	800790,
+	800121,
+	800122,
+	800451,
+	800452,
+	800531,
+	800532,
+	800601,
+	800602,
+	800631,
+	800632,
+	800701,
+	800702,
+	800771,
+	800772,
+	800811,
+	800812,
+	800881,
+	800882,
+	800911,
+	800912,
+	800951,
+	800952,
+	801051,
+	801052,
+	801081,
+	801082,
+	801121,
+	801122,
+	801191,
+	801192,
+	801250,
+	801261,
+	801262,
+	801301,
+	801302,
+	801341,
+	801342,
+	801561,
+	801562,
+	801591,
+	801592,
+	801741,
+	801742,
+	801831,
+	801832,
+	801901,
+	801902,
+	801931,
+	801932,
+	801961,
+	801962,
+	802041,
+	802042,
+	802071,
+	802072,
+	802171,
+	802172,
+	802141,
+	802142
+}
+pg.base = pg.base or {}
+pg.base.skill_world_display = {}
+
+(function ()
+	pg.base.skill_world_display[3631] = {
 		desc_get = "",
 		id = 3631,
 		desc = "[Operation Siren only] \nIncreases this boat's OXY by $1. When deploying your Submarine Fleet during Operation Siren: -$2 AP cost.",
@@ -98,8 +196,8 @@ pg.skill_world_display = {
 				}
 			}
 		}
-	},
-	[4161] = {
+	}
+	pg.base.skill_world_display[4161] = {
 		desc_get = "",
 		id = 4161,
 		desc = "[Operation Siren only] \nThe following buffs are active as long as this ship is afloat: 1) At the start of the battle, increases AVI by $1 and RLD by $2 for all CVs and CVLs in the same fleet this ship is in, and decreases the load time of this ship's first Airstrike by $3. 2) At the start of the battle, increases RLD and AVI by $4 for all CVs and CVLs in the fleet this ship is NOT in. Effect does not stack with the same skill.",
@@ -287,8 +385,8 @@ pg.skill_world_display = {
 				}
 			}
 		}
-	},
-	[11460] = {
+	}
+	pg.base.skill_world_display[11460] = {
 		desc_get = "",
 		id = 11460,
 		desc = "[Operation Siren only] \nWhen your Submarine Fleet consists of this boat only: increases this boat's DMG to BBs (does not affect BCs or BBVs) by $1. When deploying your Submarine Fleet during Operation Siren: -$2 AP cost and +2 AMO.",
@@ -386,8 +484,8 @@ pg.skill_world_display = {
 				}
 			}
 		}
-	},
-	[12440] = {
+	}
+	pg.base.skill_world_display[12440] = {
 		desc_get = "",
 		id = 12440,
 		desc = "[Operation Siren only] \nEvery time the fleet this ship is in defeats an enemy fleet during a sortie: increases this ship's FP by $1; also, for every enemy this ship sinks during a battle: increases this ship's FP by $1 until the battle ends (this skill's FP buffs stack up to a total of 7 times). After 5 enemy fleets have been defeated: reduces DMG taken by your Main Fleet by $2. [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
@@ -485,8 +583,8 @@ pg.skill_world_display = {
 				}
 			}
 		}
-	},
-	[12610] = {
+	}
+	pg.base.skill_world_display[12610] = {
 		desc_get = "",
 		id = 12610,
 		desc = "[Operation Siren only] \nAt the start of the battle, deploys 2 shields that can each block up to $1 enemy torpedoes around this ship and the ship in the frontmost position in your Vanguard. Additionally, increases this ship's FP by $2 for its first 3 battles of each sortie. [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
@@ -575,8 +673,8 @@ pg.skill_world_display = {
 				}
 			}
 		}
-	},
-	[13030] = {
+	}
+	pg.base.skill_world_display[13030] = {
 		desc_get = "",
 		id = 13030,
 		desc = "[Operation Siren only] \nFor each Northern Parliament and/or Dragon Empery ship in the same fleet as this ship: increases this ship's FP and Accuracy by $1 (can be stacked up to 4 times.) This skill only works for the first 2 battles of each sortie this ship takes part in. [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
@@ -629,8 +727,8 @@ pg.skill_world_display = {
 				}
 			}
 		}
-	},
-	[13080] = {
+	}
+	pg.base.skill_world_display[13080] = {
 		desc_get = "",
 		id = 13080,
 		desc = "[Operation Siren only] \nOn the 1st, 3rd, and 5th battles of each sortie that this ship takes part in: increases this ship's AVI by $1. On the 2nd, 4th, and 6th battles: decreases this ship's DMG taken by $2. [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
@@ -728,8 +826,8 @@ pg.skill_world_display = {
 				}
 			}
 		}
-	},
-	[13120] = {
+	}
+	pg.base.skill_world_display[13120] = {
 		desc_get = "",
 		id = 13120,
 		desc = "[Operation Siren only] \nAt the start of the battle, if there is a CV or CVL afloat in the same fleet as this ship: increases this ship's Crit Rate by $1. For each CV or CVL in the same fleet: increases this ship's DMG to enemy DDs and CLs by $2. For the 1st and 2nd battles of each sortie that this ship takes part in: decreases DMG taken by $3 for all CVs and CVLs in the same fleet. [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
@@ -872,8 +970,8 @@ pg.skill_world_display = {
 				}
 			}
 		}
-	},
-	[13170] = {
+	}
+	pg.base.skill_world_display[13170] = {
 		desc_get = "",
 		id = 13170,
 		desc = "[Operation Siren only] \n1) When: a) this ship is afloat, b) a fleet this ship is NOT in has a BB as its Flagship, and c) said fleet is engaging in its 3rd or 4th battle: your Tosa fires a covering barrage 20s after said fleet's battle begins. 2) When this ship is in combat and takes DMG or when an enemy comes within close range of this ship: fires a special $1 barrage. Barrage DMG is based on the skill's level and has a cooldown of 15s between activations. [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
@@ -917,8 +1015,8 @@ pg.skill_world_display = {
 				}
 			}
 		}
-	},
-	[13430] = {
+	}
+	pg.base.skill_world_display[13430] = {
 		desc_get = "",
 		id = 13430,
 		desc = "[Operation Siren only] \nIncreases this ship's max Airstrike capacity to 3 (this effect is unaffected by your ship's damage status) and restores 1.0% HP to all ships in the same fleet as this ship once every $2s. 20s after a fleet this ship is NOT in starts a battle: heals said fleet's Vanguard for $1 HP.",
@@ -1016,8 +1114,8 @@ pg.skill_world_display = {
 				}
 			}
 		}
-	},
-	[13590] = {
+	}
+	pg.base.skill_world_display[13590] = {
 		desc_get = "",
 		id = 13590,
 		desc = "[Operation Siren only] \nEvery 15s: fires a $2 special barrage. During the 1st and 2nd battles this ship fights in during a sortie: increases this ship's AVI by $1. When a fleet this ship is NOT in starts its 3rd and 4th battles of a sortie: fires a $2 barrage (DMG is based on the skill's level) 15s after the battle starts. [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
@@ -1106,8 +1204,8 @@ pg.skill_world_display = {
 				}
 			}
 		}
-	},
-	[13650] = {
+	}
+	pg.base.skill_world_display[13650] = {
 		desc_get = "",
 		id = 13650,
 		desc = "[Operation Siren only] \nFor the first 3 battles of a sortie this ship fights in: decreases the Main Gun DMG this ship takes by $1. If there are 2 (or more) Sakura Empire ships in the same fleet as this ship: increases this ship's Speed by 10. [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
@@ -1160,8 +1258,8 @@ pg.skill_world_display = {
 				}
 			}
 		}
-	},
-	[13670] = {
+	}
+	pg.base.skill_world_display[13670] = {
 		desc_get = "",
 		id = 13670,
 		desc = "[Operation Siren only] \nAfter this ship takes DMG 3 times in battle: decreases this ship's DMG taken by $1 until the battle ends. During the 2nd, 4th, and 6th battles of a sortie this ship fights in: heals this ship for $2 HP 60s after the battle starts. If there are 2 (or more) Sakura Empire ships in the same fleet as this ship: improves this ship's All Out Assault. [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
@@ -1259,8 +1357,8 @@ pg.skill_world_display = {
 				}
 			}
 		}
-	},
-	[13840] = {
+	}
+	pg.base.skill_world_display[13840] = {
 		desc_get = "",
 		id = 13840,
 		desc = "[Operation Siren only] \nFor the 1st, 2nd, and 3rd battles fought by the fleet this ship is in: increases this ship's FP by $1; from the 4th battle onwards: instead increases this ship's AA by $1. [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
@@ -1313,8 +1411,8 @@ pg.skill_world_display = {
 				}
 			}
 		}
-	},
-	[14160] = {
+	}
+	pg.base.skill_world_display[14160] = {
 		desc_get = "",
 		id = 14160,
 		desc = "[Operation Siren only] \nIn battle, when this ship's HP is greater than 60.0%: increases FP by $1 and reduces Burn duration by 3s. Twice per battle, when this ship's HP falls below 50.0% as a result of DMG, restores 9.0% of its max HP over 8s. From the third battle of each sortie that this ship participates in: reduces the DMG your vanguard fleet takes by 8.0%. (In Operation Siren, this counter will reset when moving between sectors.)",
@@ -1367,8 +1465,8 @@ pg.skill_world_display = {
 				}
 			}
 		}
-	},
-	[14330] = {
+	}
+	pg.base.skill_world_display[14330] = {
 		desc_get = "",
 		id = 14330,
 		desc = "[Operation Siren only]\nAt the start of the battle, if your fleet contains at least one other Sardegna ship, or if this ship has an AP Main Gun equipped: increases this ship's FP by $1. Additionally, for the first 3 battles of a sortie: the fleet this ship is in takes $2 less DMG from torpedoes. [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
@@ -1466,8 +1564,8 @@ pg.skill_world_display = {
 				}
 			}
 		}
-	},
-	[14440] = {
+	}
+	pg.base.skill_world_display[14440] = {
 		desc_get = "",
 		id = 14440,
 		desc = "[Operation Siren only]\nFor the first 3 battles of a sortie: increases this ship's AA and EVA by $1 and Speed by 5. When the fleet this ship is in defeats an enemy fleet: increases this ship's FP, TRP, and RLD by $2 (can be stacked up to 3 times). [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
@@ -1565,8 +1663,8 @@ pg.skill_world_display = {
 				}
 			}
 		}
-	},
-	[14630] = {
+	}
+	pg.base.skill_world_display[14630] = {
 		desc_get = "",
 		id = 14630,
 		desc = [[
@@ -1758,8 +1856,8 @@ Improves the "Knight of the Sky" TBF Avenger airstrike. Additionally, the follow
 				}
 			}
 		}
-	},
-	[14980] = {
+	}
+	pg.base.skill_world_display[14980] = {
 		desc_get = "",
 		id = 14980,
 		desc = "[Operation Siren only] \nWhen the fleet this ship is in sinks an enemy fleet: increases this ship's DMG dealt by $1 (can be stacked up to 4 times). When this ship sinks an enemy in combat: increases this ship's ACC and EVA by $1 (can be stacked up to 4 times).. [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
@@ -1812,8 +1910,8 @@ Improves the "Knight of the Sky" TBF Avenger airstrike. Additionally, the follow
 				}
 			}
 		}
-	},
-	[16190] = {
+	}
+	pg.base.skill_world_display[16190] = {
 		desc_get = "",
 		id = 16190,
 		desc = "[Operation Siren]\nDecreases this ship's DMG taken by $1 and increases her FP by $2. When this ship enters the battle: restores $3 of this ship's max HP. 5s after this ship's HP falls below 50.0% as a result of DMG taken, or 60s after she enters the battle: this ship leaves the battle (the Tolls of War debuff does not affect when this ship leaves the battle).",
@@ -1956,8 +2054,8 @@ Improves the "Knight of the Sky" TBF Avenger airstrike. Additionally, the follow
 				}
 			}
 		}
-	},
-	[16220] = {
+	}
+	pg.base.skill_world_display[16220] = {
 		desc_get = "",
 		id = 16220,
 		desc = [[
@@ -2140,8 +2238,8 @@ While this ship is afloat, for the first 4 battles another fleet fights during a
 				}
 			}
 		}
-	},
-	[16450] = {
+	}
+	pg.base.skill_world_display[16450] = {
 		desc_get = "",
 		id = 16450,
 		desc = [[
@@ -2246,8 +2344,8 @@ Each sortie, for the first 3 battles fought by a fleet this ship is NOT in: when
 				}
 			}
 		}
-	},
-	[16510] = {
+	}
+	pg.base.skill_world_display[16510] = {
 		desc_get = "",
 		id = 16510,
 		desc = [[
@@ -2439,8 +2537,8 @@ When the HP of a CV or CVL in your fleet falls below 20.0% as a result of DMG ta
 				}
 			}
 		}
-	},
-	[150760] = {
+	}
+	pg.base.skill_world_display[150760] = {
 		desc_get = "",
 		id = 150760,
 		desc = [[
@@ -2533,8 +2631,8 @@ This ship gains a special CA Main Gun. When this CA Main Gun hits the same enemy
 				}
 			}
 		}
-	},
-	[19260] = {
+	}
+	pg.base.skill_world_display[19260] = {
 		desc_get = "",
 		id = 19260,
 		desc = "[Operation Siren only] \nEach Main Gun reload gives this ship 2 Salvoes that can be fired independently (this effect is unaffected by your ship's damage status.) This ship's DMG bonus with manually aimed Salvoes becomes $2. Every 20s: $1 chance to fire a special barrage (barrage DMG is based on the skill's level.) [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
@@ -2632,8 +2730,8 @@ This ship gains a special CA Main Gun. When this CA Main Gun hits the same enemy
 				}
 			}
 		}
-	},
-	[19510] = {
+	}
+	pg.base.skill_world_display[19510] = {
 		desc_get = "",
 		id = 19510,
 		desc = "[Operation Siren only] \nDuring a sortie, whenever the fleet this ship is in sinks an enemy fleet: increases this ship's AA and EVA by $1 (can be stacked up to 3 times). While this ship is afloat: launches a $2 supporting barrage (DMG is based on the skill's level) 20s after a fleet this ship is NOT in starts its 1st and 2nd battles that sortie; for said fleet's 3rd and 4th battles: decreases DMG taken by $3 for your Sardegnian ships.",
@@ -2767,8 +2865,8 @@ This ship gains a special CA Main Gun. When this CA Main Gun hits the same enemy
 				}
 			}
 		}
-	},
-	[19980] = {
+	}
+	pg.base.skill_world_display[19980] = {
 		desc_get = "",
 		id = 19980,
 		desc = [[
@@ -2953,8 +3051,8 @@ When this ship fires her Main Guns: spends all Charge and increases this ship's 
 				}
 			}
 		}
-	},
-	[105010] = {
+	}
+	pg.base.skill_world_display[105010] = {
 		desc_get = "",
 		id = 105010,
 		desc = "[Operation Siren only] \nDive Bombers can be equipped in this ship's third gear slot, and will use the \"Mach 2.42 Bermbew Sprawt\" gear skin, but this ship's Airstrike load time increases by 100.0% (this effect is unaffected by your ship's damage status.) Every 20s: launches a $1 special airstrike (DMG is based on the skill's level and this ship's TRP stat.)",
@@ -2998,8 +3096,8 @@ When this ship fires her Main Guns: spends all Charge and increases this ship's 
 				}
 			}
 		}
-	},
-	[105020] = {
+	}
+	pg.base.skill_world_display[105020] = {
 		desc_get = "",
 		id = 105020,
 		desc = "[Operation Siren only] \nIncreases this ship's FP by $1 at the start of the battle. If the fleet this ship is in has sunk 3 enemy fleets on the map: also increases this ship's TRP by $2. [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
@@ -3097,8 +3195,8 @@ When this ship fires her Main Guns: spends all Charge and increases this ship's 
 				}
 			}
 		}
-	},
-	[1019260] = {
+	}
+	pg.base.skill_world_display[1019260] = {
 		desc_get = "",
 		id = 1019260,
 		desc = "[Operation Siren]\nIncreases this ship's FP and ACC by $1 and Crit Rate by $2. Each Main Gun reload gives this ship 2 Salvoes that can be fired independently, with each Salvo consisting of 1 Volley (this effect is not affected by the Tolls of War debuff). This ship's DMG bonus with manually aimed Salvoes becomes $4. When the battle starts, and every 15s: $3 chance to fire a powerful special barrage (DMG is based on the skill's level).",
@@ -3286,8 +3384,8 @@ When this ship fires her Main Guns: spends all Charge and increases this ship's 
 				}
 			}
 		}
-	},
-	[800790] = {
+	}
+	pg.base.skill_world_display[800790] = {
 		desc_get = "",
 		id = 800790,
 		desc = "[Operation Siren]\nWhen called in as Submarine Support in Operation Siren, AP consumption is decreased by $1. When the battle starts, if there are any other SSs in your fleet: increases this boat's TRP by $2. When this boat resurfaces: fires a $3 torpedo barrage (DMG is based on the skill's level) and this boat recovers 500 HP.",
@@ -3417,218 +3515,218 @@ When this ship fires her Main Guns: spends all Charge and increases this ship's 
 				}
 			}
 		}
-	},
-	[800121] = {
+	}
+	pg.base.skill_world_display[800121] = {
 		desc_get = "",
 		id = 800121,
 		desc = "[Operation Siren only] \nActivates Ashen Might - Helena I once every 15 times the Main Guns are fired. When fighting humanoid Siren fleets or Boss fleets: increases your Vanguard's DMG dealt by 3.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[800122] = {
+	}
+	pg.base.skill_world_display[800122] = {
 		desc_get = "",
 		id = 800122,
 		desc = "[Operation Siren only] \nActivates Ashen Might - Helena II once every 10 times the Main Guns are fired. When fighting humanoid Siren fleets or Boss fleets: increases your Vanguard's DMG dealt by 5.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[800451] = {
+	}
+	pg.base.skill_world_display[800451] = {
 		desc_get = "",
 		id = 800451,
 		desc = "[Operation Siren]\nEvery 12 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: decreases your META ships' DMG taken by 2.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[800452] = {
+	}
+	pg.base.skill_world_display[800452] = {
 		desc_get = "",
 		id = 800452,
 		desc = "[Operation Siren]\nEvery 8 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: decreases your META ships' DMG taken by 5.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[800531] = {
+	}
+	pg.base.skill_world_display[800531] = {
 		desc_get = "",
 		id = 800531,
 		desc = "[Operation Siren]\nEvery 9 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[800532] = {
+	}
+	pg.base.skill_world_display[800532] = {
 		desc_get = "",
 		id = 800532,
 		desc = "[Operation Siren]\nEvery 6 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[800601] = {
+	}
+	pg.base.skill_world_display[800601] = {
 		desc_get = "",
 		id = 800601,
 		desc = "[Operation Siren]\nEvery 15 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[800602] = {
+	}
+	pg.base.skill_world_display[800602] = {
 		desc_get = "",
 		id = 800602,
 		desc = "[Operation Siren]\nEvery 10 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[800631] = {
+	}
+	pg.base.skill_world_display[800631] = {
 		desc_get = "",
 		id = 800631,
 		desc = "[Operation Siren]\nEvery 15 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[800632] = {
+	}
+	pg.base.skill_world_display[800632] = {
 		desc_get = "",
 		id = 800632,
 		desc = "[Operation Siren]\nEvery 10 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[800701] = {
+	}
+	pg.base.skill_world_display[800701] = {
 		desc_get = "",
 		id = 800701,
 		desc = "[Operation Siren]\nEvery 12 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[800702] = {
+	}
+	pg.base.skill_world_display[800702] = {
 		desc_get = "",
 		id = 800702,
 		desc = "[Operation Siren]\nEvery 8 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[800771] = {
+	}
+	pg.base.skill_world_display[800771] = {
 		desc_get = "",
 		id = 800771,
 		desc = "[Operation Siren]\nEvery 12 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[800772] = {
+	}
+	pg.base.skill_world_display[800772] = {
 		desc_get = "",
 		id = 800772,
 		desc = "[Operation Siren]\nEvery 8 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[800811] = {
+	}
+	pg.base.skill_world_display[800811] = {
 		desc_get = "",
 		id = 800811,
 		desc = "[Operation Siren]\nFires a special barrage immediately after entering the battle. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[800812] = {
+	}
+	pg.base.skill_world_display[800812] = {
 		desc_get = "",
 		id = 800812,
 		desc = "[Operation Siren]\nFires a special barrage immediately after entering the battle. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[800881] = {
+	}
+	pg.base.skill_world_display[800881] = {
 		desc_get = "",
 		id = 800881,
 		desc = "[Operation Siren]\nActivates All-Out Assault I every 9 times the Main Guns are fired. When fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 3.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[800882] = {
+	}
+	pg.base.skill_world_display[800882] = {
 		desc_get = "",
 		id = 800882,
 		desc = "[Operation Siren]\nActivates All-Out Assault II every 6 times the Main Guns are fired. When fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 8.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[800911] = {
+	}
+	pg.base.skill_world_display[800911] = {
 		desc_get = "",
 		id = 800911,
 		desc = "[Operation Siren]\nEvery 15 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: decreases your META ships' DMG taken by 2.0%",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[800912] = {
+	}
+	pg.base.skill_world_display[800912] = {
 		desc_get = "",
 		id = 800912,
 		desc = "[Operation Siren]\nEvery 10 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: decreases your META ships' DMG taken by 6.0%",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[800951] = {
+	}
+	pg.base.skill_world_display[800951] = {
 		desc_get = "",
 		id = 800951,
 		desc = "[Operation Siren]\nEvery 12 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: decreases your META ships' DMG taken by 5.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[800952] = {
+	}
+	pg.base.skill_world_display[800952] = {
 		desc_get = "",
 		id = 800952,
 		desc = "[Operation Siren]\nEvery 8 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: decreases your META ships' DMG taken by 8.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[801051] = {
+	}
+	pg.base.skill_world_display[801051] = {
 		desc_get = "",
 		id = 801051,
 		desc = "[Operation Siren]\nEvery 12 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 3.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[801052] = {
+	}
+	pg.base.skill_world_display[801052] = {
 		desc_get = "",
 		id = 801052,
 		desc = "[Operation Siren]\nEvery 8 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 5.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[801081] = {
+	}
+	pg.base.skill_world_display[801081] = {
 		desc_get = "",
 		id = 801081,
 		desc = "[Operation Siren]\nEvery 15 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[801082] = {
+	}
+	pg.base.skill_world_display[801082] = {
 		desc_get = "",
 		id = 801082,
 		desc = "[Operation Siren]\nEvery 10 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[801121] = {
+	}
+	pg.base.skill_world_display[801121] = {
 		desc_get = "",
 		id = 801121,
 		desc = "[Operation Siren]\nEvery 12 times this ship fires her Main Guns: fires a special barrage. If this ship has the Glory of the Past buff: improves this barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 3.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[801122] = {
+	}
+	pg.base.skill_world_display[801122] = {
 		desc_get = "",
 		id = 801122,
 		desc = "[Operation Siren]\nEvery 8 times this ship fires her Main Guns: fires a special barrage. If this ship has the Glory of the Past buff: improves this barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 5.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[801191] = {
+	}
+	pg.base.skill_world_display[801191] = {
 		desc_get = "",
 		id = 801191,
 		desc = "[Operation Siren]\nEvery 15 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[801192] = {
+	}
+	pg.base.skill_world_display[801192] = {
 		desc_get = "",
 		id = 801192,
 		desc = "[Operation Siren]\nEvery 10 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[801250] = {
+	}
+	pg.base.skill_world_display[801250] = {
 		desc_get = "",
 		id = 801250,
 		desc = "[Operation Siren]\nIncreases this ship's FP by $1. When the fleet this ship is in sinks an enemy fleet: decreases this ship's DMG taken by $2 for the rest of the sortie (can be stacked up to 3 times; when moving into a new zone, or if the fleet's composition is changed, the enemies sunk counter will reset). Decreases the DMG penalty on this ship from the Out of Ammo debuff by $3.",
@@ -3771,293 +3869,201 @@ When this ship fires her Main Guns: spends all Charge and increases this ship's 
 				}
 			}
 		}
-	},
-	[801261] = {
+	}
+	pg.base.skill_world_display[801261] = {
 		desc_get = "",
 		id = 801261,
 		desc = "[Operation Siren]\nEvery 9 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[801262] = {
+	}
+	pg.base.skill_world_display[801262] = {
 		desc_get = "",
 		id = 801262,
 		desc = "[Operation Siren]\nEvery 6 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[801301] = {
+	}
+	pg.base.skill_world_display[801301] = {
 		desc_get = "",
 		id = 801301,
 		desc = "[Operation Siren]\nEvery 12 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 3.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[801302] = {
+	}
+	pg.base.skill_world_display[801302] = {
 		desc_get = "",
 		id = 801302,
 		desc = "[Operation Siren]\nWhile this ship's HP is above 50.0%, every 8 times this ship fires her Main Guns: reduces this ship's current HP by 5.0% and fires a special barrage with 20.0% increased Crit Rate; when this ship's HP falls below 50.0%, every 4 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 8.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[801341] = {
+	}
+	pg.base.skill_world_display[801341] = {
 		desc_get = "",
 		id = 801341,
 		desc = "[Operation Siren]\nEvery 15 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[801342] = {
+	}
+	pg.base.skill_world_display[801342] = {
 		desc_get = "",
 		id = 801342,
 		desc = "[Operation Siren]\nEvery 10 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[801561] = {
+	}
+	pg.base.skill_world_display[801561] = {
 		desc_get = "",
 		id = 801561,
 		desc = "[Operation Siren]\nActivates All-Out Assault I every 9 times the Main Guns are fired. When fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 3.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[801562] = {
+	}
+	pg.base.skill_world_display[801562] = {
 		desc_get = "",
 		id = 801562,
 		desc = "[Operation Siren]\nEvery 6 times this ship fires her Main Guns: fires a special barrage. Inflicts the Coiling Flames status to enemies hit by this barrage. When fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 8.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[801591] = {
+	}
+	pg.base.skill_world_display[801591] = {
 		desc_get = "",
 		id = 801591,
 		desc = "[Operation Siren]\nActivates All-Out Assault I every 9 times the Main Guns are fired. When fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 3.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[801592] = {
+	}
+	pg.base.skill_world_display[801592] = {
 		desc_get = "",
 		id = 801592,
 		desc = "[Operation Siren]\nActivates All-Out Assault II every 6 times the Main Guns are fired. When fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 8.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[801741] = {
+	}
+	pg.base.skill_world_display[801741] = {
 		desc_get = "",
 		id = 801741,
 		desc = "[Operation Siren]\nEvery 15 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[801742] = {
+	}
+	pg.base.skill_world_display[801742] = {
 		desc_get = "",
 		id = 801742,
 		desc = "[Operation Siren]\nEvery 10 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[801831] = {
+	}
+	pg.base.skill_world_display[801831] = {
 		desc_get = "",
 		id = 801831,
 		desc = "[Operation Siren]\nEvery 15 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's Crit DMG by 5.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[801832] = {
+	}
+	pg.base.skill_world_display[801832] = {
 		desc_get = "",
 		id = 801832,
 		desc = "[Operation Siren]\nEvery 10 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's Crit DMG by 8.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[801901] = {
+	}
+	pg.base.skill_world_display[801901] = {
 		desc_get = "",
 		id = 801901,
 		desc = "[Operation Siren]\nEvery 24 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 3.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[801902] = {
+	}
+	pg.base.skill_world_display[801902] = {
 		desc_get = "",
 		id = 801902,
 		desc = "[Operation Siren]\nEvery 16 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 8.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[801931] = {
+	}
+	pg.base.skill_world_display[801931] = {
 		desc_get = "",
 		id = 801931,
 		desc = "[Operation Siren]\nEvery 15 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 2.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[801932] = {
+	}
+	pg.base.skill_world_display[801932] = {
 		desc_get = "",
 		id = 801932,
 		desc = "[Operation Siren]\nEvery 10 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 6.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[801961] = {
+	}
+	pg.base.skill_world_display[801961] = {
 		desc_get = "",
 		id = 801961,
 		desc = "[Operation Siren]\nEvery 15 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 2.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[801962] = {
+	}
+	pg.base.skill_world_display[801962] = {
 		desc_get = "",
 		id = 801962,
 		desc = "[Operation Siren]\nEvery 10 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 6.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[802041] = {
+	}
+	pg.base.skill_world_display[802041] = {
 		desc_get = "",
 		id = 802041,
 		desc = "[Operation Siren]\nEvery 15 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 3.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[802042] = {
+	}
+	pg.base.skill_world_display[802042] = {
 		desc_get = "",
 		id = 802042,
 		desc = "[Operation Siren]\nEvery 10 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 8.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[802071] = {
+	}
+	pg.base.skill_world_display[802071] = {
 		desc_get = "",
 		id = 802071,
 		desc = "[Operation Siren]\nEvery 15 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 2.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[802072] = {
+	}
+	pg.base.skill_world_display[802072] = {
 		desc_get = "",
 		id = 802072,
 		desc = "[Operation Siren]\nEvery 10 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 6.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[802171] = {
+	}
+	pg.base.skill_world_display[802171] = {
 		desc_get = "",
 		id = 802171,
 		desc = "[Operation Siren]\nEvery 12 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 2.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[802172] = {
+	}
+	pg.base.skill_world_display[802172] = {
 		desc_get = "",
 		id = 802172,
 		desc = "[Operation Siren]\nEvery 8 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 6.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[802141] = {
+	}
+	pg.base.skill_world_display[802141] = {
 		desc_get = "",
 		id = 802141,
 		desc = "[Operation Siren]\nEvery 12 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 3.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	[802142] = {
+	}
+	pg.base.skill_world_display[802142] = {
 		desc_get = "",
 		id = 802142,
 		desc = "[Operation Siren]\nEvery 8 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 8.0%.",
 		desc_get_add = {},
 		desc_add = {}
-	},
-	all = {
-		3631,
-		4161,
-		11460,
-		12440,
-		12610,
-		13030,
-		13080,
-		13120,
-		13170,
-		13430,
-		13590,
-		13650,
-		13670,
-		13840,
-		14160,
-		14330,
-		14440,
-		14630,
-		14980,
-		16190,
-		16220,
-		16450,
-		16510,
-		150760,
-		19260,
-		19510,
-		19980,
-		105010,
-		105020,
-		1019260,
-		800790,
-		800121,
-		800122,
-		800451,
-		800452,
-		800531,
-		800532,
-		800601,
-		800602,
-		800631,
-		800632,
-		800701,
-		800702,
-		800771,
-		800772,
-		800811,
-		800812,
-		800881,
-		800882,
-		800911,
-		800912,
-		800951,
-		800952,
-		801051,
-		801052,
-		801081,
-		801082,
-		801121,
-		801122,
-		801191,
-		801192,
-		801250,
-		801261,
-		801262,
-		801301,
-		801302,
-		801341,
-		801342,
-		801561,
-		801562,
-		801591,
-		801592,
-		801741,
-		801742,
-		801831,
-		801832,
-		801901,
-		801902,
-		801931,
-		801932,
-		801961,
-		801962,
-		802041,
-		802042,
-		802071,
-		802072,
-		802171,
-		802172,
-		802141,
-		802142
 	}
-}
+end)()

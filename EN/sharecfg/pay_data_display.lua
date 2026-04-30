@@ -1,268 +1,271 @@
 pg = pg or {}
-pg.pay_data_display = setmetatable({
-	__name = "pay_data_display",
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		39,
-		42,
-		43,
-		44,
-		45,
-		46,
-		47,
-		48,
-		49,
-		50,
-		51,
-		52,
-		53,
-		55,
-		56,
-		57,
-		61,
-		62,
-		63,
-		64,
-		65,
-		66,
-		67,
-		68,
-		69,
-		70,
-		71,
-		72,
-		73,
-		74,
-		75,
-		76,
-		77,
-		78,
-		79,
-		82,
-		83,
-		84,
-		85,
-		86,
-		87,
-		88,
-		89,
-		90,
-		91,
-		92,
-		93,
-		94,
-		95,
-		96,
-		97,
-		98,
-		99,
-		9001,
-		9007,
-		9008,
-		9009,
-		9010,
-		9011,
-		9012,
-		9013,
-		9014,
-		9015,
-		100,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		110,
-		111,
-		112,
-		113,
-		114,
-		115,
-		116,
-		117,
-		118,
-		119,
-		120,
-		121,
-		122,
-		123,
-		124,
-		125,
-		126,
-		127,
-		128,
-		129,
-		130,
-		131,
-		132,
-		133,
-		134,
-		135,
-		136,
-		137,
-		138,
-		139,
-		140,
-		141,
-		142,
-		143,
-		144,
-		145,
-		146,
-		147,
-		148,
-		149,
-		150,
-		151,
-		152,
-		153,
-		154,
-		155,
-		156,
-		157,
-		158,
-		159,
-		160,
-		161,
-		162,
-		163,
-		164,
-		165,
-		166,
-		167,
-		1000,
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1007,
-		1008,
-		1009,
-		1010,
-		1011,
-		1012,
-		1013,
-		1014,
-		1015,
-		1016,
-		1017,
-		1018,
-		1019,
-		1020,
-		1021,
-		1022,
-		1023,
-		1024,
-		1025,
-		1026,
-		1027,
-		1301,
-		2001,
-		2002,
-		2003,
-		2004,
-		2005,
-		2006,
-		2007,
-		2008,
-		2009,
-		2010,
-		2011,
-		2014,
-		2015,
-		2016,
-		2017,
-		2018,
-		2019,
-		2020,
-		2022,
-		2023,
-		2024,
-		2025,
-		2026,
-		2027,
-		2028,
-		2029,
-		2030,
-		2031,
-		2032,
-		2033,
-		2034,
-		2035,
-		2036,
-		2037,
-		2038,
-		2039,
-		2040,
-		2041,
-		2042,
-		2043,
-		2044,
-		2045,
-		2046,
-		2047,
-		2048,
-		2049,
-		2050,
-		2051,
-		2052,
-		2053,
-		2054,
-		2055,
-		2056,
-		2057,
-		2058,
-		2059,
-		2063,
-		2064,
-		2068,
-		2069,
-		2070,
-		2071,
-		2074,
-		2075,
-		2076,
-		2078,
-		5011,
-		5012,
-		5013,
-		5014,
-		5015,
-		5016,
-		5017
-	}
-}, confHX)
+pg.pay_data_display = rawget(pg, "pay_data_display") or setmetatable({
+	__name = "pay_data_display"
+}, confNEO)
+pg.pay_data_display.__namecode__ = true
+pg.pay_data_display.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	39,
+	42,
+	43,
+	44,
+	45,
+	46,
+	47,
+	48,
+	49,
+	50,
+	51,
+	52,
+	53,
+	55,
+	56,
+	57,
+	61,
+	62,
+	63,
+	64,
+	65,
+	66,
+	67,
+	68,
+	69,
+	70,
+	71,
+	72,
+	73,
+	74,
+	75,
+	76,
+	77,
+	78,
+	79,
+	82,
+	83,
+	84,
+	85,
+	86,
+	87,
+	88,
+	89,
+	90,
+	91,
+	92,
+	93,
+	94,
+	95,
+	96,
+	97,
+	98,
+	99,
+	9001,
+	9007,
+	9008,
+	9009,
+	9010,
+	9011,
+	9012,
+	9013,
+	9014,
+	9015,
+	100,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	110,
+	111,
+	112,
+	113,
+	114,
+	115,
+	116,
+	117,
+	118,
+	119,
+	120,
+	121,
+	122,
+	123,
+	124,
+	125,
+	126,
+	127,
+	128,
+	129,
+	130,
+	131,
+	132,
+	133,
+	134,
+	135,
+	136,
+	137,
+	138,
+	139,
+	140,
+	141,
+	142,
+	143,
+	144,
+	145,
+	146,
+	147,
+	148,
+	149,
+	150,
+	151,
+	152,
+	153,
+	154,
+	155,
+	156,
+	157,
+	158,
+	159,
+	160,
+	161,
+	162,
+	163,
+	164,
+	165,
+	166,
+	167,
+	1000,
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008,
+	1009,
+	1010,
+	1011,
+	1012,
+	1013,
+	1014,
+	1015,
+	1016,
+	1017,
+	1018,
+	1019,
+	1020,
+	1021,
+	1022,
+	1023,
+	1024,
+	1025,
+	1026,
+	1027,
+	1301,
+	2001,
+	2002,
+	2003,
+	2004,
+	2005,
+	2006,
+	2007,
+	2008,
+	2009,
+	2010,
+	2011,
+	2014,
+	2015,
+	2016,
+	2017,
+	2018,
+	2019,
+	2020,
+	2022,
+	2023,
+	2024,
+	2025,
+	2026,
+	2027,
+	2028,
+	2029,
+	2030,
+	2031,
+	2032,
+	2033,
+	2034,
+	2035,
+	2036,
+	2037,
+	2038,
+	2039,
+	2040,
+	2041,
+	2042,
+	2043,
+	2044,
+	2045,
+	2046,
+	2047,
+	2048,
+	2049,
+	2050,
+	2051,
+	2052,
+	2053,
+	2054,
+	2055,
+	2056,
+	2057,
+	2058,
+	2059,
+	2063,
+	2064,
+	2068,
+	2069,
+	2070,
+	2071,
+	2074,
+	2075,
+	2076,
+	2078,
+	5011,
+	5012,
+	5013,
+	5014,
+	5015,
+	5016,
+	5017
+}
 pg.base = pg.base or {}
-pg.base.pay_data_display = {
-	{
+pg.base.pay_data_display = {}
+
+(function ()
+	pg.base.pay_data_display[1] = {
 		picture = "month",
 		name = "Trade License (30 days)",
 		type = 0,
@@ -355,8 +358,8 @@ pg.base.pay_data_display = {
 				500
 			}
 		}
-	},
-	{
+	}
+	pg.base.pay_data_display[2] = {
 		picture = "boxNewplayer",
 		name = "Novice sailing supplies",
 		type = 0,
@@ -438,8 +441,8 @@ pg.base.pay_data_display = {
 				2
 			}
 		}
-	},
-	{
+	}
+	pg.base.pay_data_display[3] = {
 		picture = "1",
 		name = "Handful of Gems",
 		type = 0,
@@ -478,8 +481,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	{
+	}
+	pg.base.pay_data_display[4] = {
 		picture = "2",
 		name = "Pile of Gems",
 		type = 0,
@@ -518,8 +521,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	{
+	}
+	pg.base.pay_data_display[5] = {
 		picture = "3",
 		name = "Sack of Gems",
 		type = 0,
@@ -558,8 +561,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	{
+	}
+	pg.base.pay_data_display[6] = {
 		picture = "4",
 		name = "Box of Gems",
 		type = 0,
@@ -598,8 +601,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	{
+	}
+	pg.base.pay_data_display[7] = {
 		picture = "5",
 		name = "Chest of Gems",
 		type = 0,
@@ -638,8 +641,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	{
+	}
+	pg.base.pay_data_display[8] = {
 		picture = "6",
 		name = "Ship of Gems",
 		type = 0,
@@ -678,8 +681,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[24] = {
+	}
+	pg.base.pay_data_display[24] = {
 		picture = "lihe3_l",
 		name = "2020 Party Dress Lucky Bag",
 		type = 1,
@@ -801,8 +804,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[25] = {
+	}
+	pg.base.pay_data_display[25] = {
 		picture = "fudai3",
 		name = "Shougatsu Lucky Bag 2021 ",
 		type = 1,
@@ -924,8 +927,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[26] = {
+	}
+	pg.base.pay_data_display[26] = {
 		picture = "fudai1",
 		name = "Shougatsu Lucky Bag 2020 ",
 		type = 1,
@@ -1047,8 +1050,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[27] = {
+	}
+	pg.base.pay_data_display[27] = {
 		picture = "fudai4",
 		name = "Lunar New Year Lucky Bag (2021)",
 		type = 1,
@@ -1170,8 +1173,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[28] = {
+	}
+	pg.base.pay_data_display[28] = {
 		picture = "fudai2",
 		name = "Lunar New Year Lucky Bag (2020)",
 		type = 1,
@@ -1293,8 +1296,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[29] = {
+	}
+	pg.base.pay_data_display[29] = {
 		picture = "lihe6_l",
 		name = "Exquisite Lucky Box 2021 ",
 		type = 1,
@@ -1416,8 +1419,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[30] = {
+	}
+	pg.base.pay_data_display[30] = {
 		picture = "lihe1_l",
 		name = "Exquisite Lucky Bag 2020 ",
 		type = 1,
@@ -1539,8 +1542,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[31] = {
+	}
+	pg.base.pay_data_display[31] = {
 		picture = "support4",
 		name = "New Commanders Support Pack IV ",
 		type = 1,
@@ -1668,8 +1671,8 @@ pg.base.pay_data_display = {
 				1980
 			}
 		}
-	},
-	[32] = {
+	}
+	pg.base.pay_data_display[32] = {
 		picture = "lihe6_l",
 		name = "2021 Party Dress Lucky Box",
 		type = 1,
@@ -1791,8 +1794,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[33] = {
+	}
+	pg.base.pay_data_display[33] = {
 		picture = "lihe3_l",
 		name = "2020 Party Dress Lucky Box",
 		type = 1,
@@ -1914,8 +1917,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[34] = {
+	}
+	pg.base.pay_data_display[34] = {
 		picture = "fudai6",
 		name = "Shougatsu Lucky Box 2022 ",
 		type = 1,
@@ -2037,8 +2040,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[35] = {
+	}
+	pg.base.pay_data_display[35] = {
 		picture = "fudai3",
 		name = "Shougatsu Lucky Bag 2021 ",
 		type = 1,
@@ -2160,8 +2163,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[36] = {
+	}
+	pg.base.pay_data_display[36] = {
 		picture = "fudai7",
 		name = "Lunar New Year Lucky Bag (2022)",
 		type = 1,
@@ -2283,8 +2286,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[37] = {
+	}
+	pg.base.pay_data_display[37] = {
 		picture = "fudai4",
 		name = "Lunar New Year Lucky Bag (2021)",
 		type = 1,
@@ -2406,8 +2409,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[38] = {
+	}
+	pg.base.pay_data_display[38] = {
 		picture = "lihe8_l",
 		name = "Exquisite Lucky Box 2022 ",
 		type = 1,
@@ -2529,8 +2532,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[39] = {
+	}
+	pg.base.pay_data_display[39] = {
 		picture = "lihe6_l",
 		name = "Exquisite Lucky Box 2021 ",
 		type = 1,
@@ -2652,8 +2655,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[42] = {
+	}
+	pg.base.pay_data_display[42] = {
 		picture = "lihe6_l",
 		name = "Party Dress Lucky Box 2021 Rerun",
 		type = 1,
@@ -2775,8 +2778,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[43] = {
+	}
+	pg.base.pay_data_display[43] = {
 		picture = "lihe8_l",
 		name = "Party Dress Lucky Box 2022",
 		type = 1,
@@ -2898,8 +2901,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[44] = {
+	}
+	pg.base.pay_data_display[44] = {
 		picture = "support6",
 		name = "Welcome Back Pack",
 		type = 1,
@@ -3061,8 +3064,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[45] = {
+	}
+	pg.base.pay_data_display[45] = {
 		picture = "lihe10_l",
 		name = "Winter Swimsuit Lucky Bag 2022 A",
 		type = 1,
@@ -3184,8 +3187,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[46] = {
+	}
+	pg.base.pay_data_display[46] = {
 		picture = "lihe11_l",
 		name = "Winter Swimsuit Lucky Bag 2022 B",
 		type = 1,
@@ -3307,8 +3310,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[47] = {
+	}
+	pg.base.pay_data_display[47] = {
 		picture = "fudai6",
 		name = "Shougatsu Lucky Box 2022 Rerun",
 		type = 1,
@@ -3430,8 +3433,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[48] = {
+	}
+	pg.base.pay_data_display[48] = {
 		picture = "fudaiqp1",
 		name = "Spring Lucky Bag 2023 A",
 		type = 1,
@@ -3553,8 +3556,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[49] = {
+	}
+	pg.base.pay_data_display[49] = {
 		picture = "fudaiqp2",
 		name = "Spring Lucky Bag 2023 B",
 		type = 1,
@@ -3676,8 +3679,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[50] = {
+	}
+	pg.base.pay_data_display[50] = {
 		picture = "fudai7",
 		name = "Lunar New Year Lucky Bag 2022 Rerun",
 		type = 1,
@@ -3799,8 +3802,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[51] = {
+	}
+	pg.base.pay_data_display[51] = {
 		picture = "lihecn6ss_l",
 		name = "Swimsuit Lucky Bag 2023",
 		type = 1,
@@ -3933,8 +3936,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[52] = {
+	}
+	pg.base.pay_data_display[52] = {
 		picture = "liheus6lf_l",
 		name = "Exquisite Lucky Box 2023",
 		type = 1,
@@ -4067,8 +4070,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[53] = {
+	}
+	pg.base.pay_data_display[53] = {
 		picture = "lihe8_l",
 		name = "Exquisite Lucky Box 2022 Rerun",
 		type = 1,
@@ -4201,8 +4204,8 @@ pg.base.pay_data_display = {
 				2022
 			}
 		}
-	},
-	[55] = {
+	}
+	pg.base.pay_data_display[55] = {
 		picture = "lihejp6lf_l",
 		name = "Autumn Classics Lucky Box ",
 		type = 1,
@@ -4335,8 +4338,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[56] = {
+	}
+	pg.base.pay_data_display[56] = {
 		picture = "lihe8_l",
 		name = "Party Dress Lucky Box 2022 Rerun ",
 		type = 1,
@@ -4469,8 +4472,8 @@ pg.base.pay_data_display = {
 				2022
 			}
 		}
-	},
-	[57] = {
+	}
+	pg.base.pay_data_display[57] = {
 		picture = "lihejp6ss_l",
 		name = "Fashion Collection Lucky Bag ",
 		type = 1,
@@ -4603,8 +4606,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[61] = {
+	}
+	pg.base.pay_data_display[61] = {
 		picture = "fudai9",
 		name = "Resplendent Night Lucky Bag I",
 		type = 1,
@@ -4737,8 +4740,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[62] = {
+	}
+	pg.base.pay_data_display[62] = {
 		picture = "lihe10_l",
 		name = "Winter Swimsuit Lucky Bag 2022 A Rerun",
 		type = 1,
@@ -4871,8 +4874,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[63] = {
+	}
+	pg.base.pay_data_display[63] = {
 		picture = "fudai10",
 		name = "Resplendent Night Lucky Bag II",
 		type = 1,
@@ -5005,8 +5008,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[64] = {
+	}
+	pg.base.pay_data_display[64] = {
 		picture = "lihe11_l",
 		name = "Winter Swimsuit Lucky Bag 2022 B Rerun",
 		type = 1,
@@ -5139,8 +5142,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[65] = {
+	}
+	pg.base.pay_data_display[65] = {
 		picture = "fudai11",
 		name = "Spring Lucky Box 2024 A",
 		type = 1,
@@ -5273,8 +5276,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[66] = {
+	}
+	pg.base.pay_data_display[66] = {
 		picture = "fudaiqp1",
 		name = "Spring Lucky Bag 2023 A Rerun",
 		type = 1,
@@ -5407,8 +5410,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[67] = {
+	}
+	pg.base.pay_data_display[67] = {
 		picture = "fudai12",
 		name = "Spring Lucky Box 2024 B",
 		type = 1,
@@ -5541,8 +5544,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[68] = {
+	}
+	pg.base.pay_data_display[68] = {
 		picture = "fudaiqp2",
 		name = "Spring Lucky Bag 2023 B Rerun",
 		type = 1,
@@ -5675,8 +5678,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[69] = {
+	}
+	pg.base.pay_data_display[69] = {
 		picture = "fudai13",
 		name = "Swimsuit Lucky Bag 2024",
 		type = 1,
@@ -5809,8 +5812,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[70] = {
+	}
+	pg.base.pay_data_display[70] = {
 		picture = "lihecn6ss_l",
 		name = "Swimsuit Lucky Bag 2023 Rerun",
 		type = 1,
@@ -5943,8 +5946,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[71] = {
+	}
+	pg.base.pay_data_display[71] = {
 		picture = "fudai14",
 		name = "Exquisite Lucky Envelope 2024",
 		type = 1,
@@ -6077,8 +6080,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[72] = {
+	}
+	pg.base.pay_data_display[72] = {
 		picture = "lihecn6lf_l",
 		name = "Exquisite Lucky Box 2023 Rerun",
 		type = 1,
@@ -6211,8 +6214,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[73] = {
+	}
+	pg.base.pay_data_display[73] = {
 		picture = "fudai15",
 		name = "Dreamland Lucky Bag A",
 		type = 1,
@@ -6345,8 +6348,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[74] = {
+	}
+	pg.base.pay_data_display[74] = {
 		picture = "lihejp6ss_l",
 		name = "Fashion Collection Lucky Bag Rerun",
 		type = 1,
@@ -6479,8 +6482,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[75] = {
+	}
+	pg.base.pay_data_display[75] = {
 		picture = "fudai16",
 		name = "Dreamland Lucky Bag B",
 		type = 1,
@@ -6613,8 +6616,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[76] = {
+	}
+	pg.base.pay_data_display[76] = {
 		picture = "lihejp6lf_l",
 		name = "Autumn Classics Lucky Box Rerun",
 		type = 1,
@@ -6747,8 +6750,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[77] = {
+	}
+	pg.base.pay_data_display[77] = {
 		picture = "pack_2024_98",
 		name = "Choose-Your-Own Gift Pack I",
 		type = 0,
@@ -6855,8 +6858,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[78] = {
+	}
+	pg.base.pay_data_display[78] = {
 		picture = "pack_2024_198",
 		name = "Choose-Your-Own Gift Pack II",
 		type = 0,
@@ -6968,8 +6971,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[79] = {
+	}
+	pg.base.pay_data_display[79] = {
 		picture = "pack_2024_328",
 		name = "Choose-Your-Own Gift Pack III",
 		type = 0,
@@ -7096,8 +7099,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[82] = {
+	}
+	pg.base.pay_data_display[82] = {
 		picture = "fudai19",
 		name = "Game Night Lucky Bag A",
 		type = 1,
@@ -7230,8 +7233,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[83] = {
+	}
+	pg.base.pay_data_display[83] = {
 		picture = "fudai9",
 		name = "Resplendent Night Lucky Bag I Rerun",
 		type = 1,
@@ -7364,8 +7367,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[84] = {
+	}
+	pg.base.pay_data_display[84] = {
 		picture = "fudai20",
 		name = "Game Night Lucky Bag B",
 		type = 1,
@@ -7498,8 +7501,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[85] = {
+	}
+	pg.base.pay_data_display[85] = {
 		picture = "fudai10",
 		name = "Resplendent Night Lucky Bag II Rerun",
 		type = 1,
@@ -7632,8 +7635,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[86] = {
+	}
+	pg.base.pay_data_display[86] = {
 		picture = "fudai21",
 		name = "Spring Lucky Bag 2025 A",
 		type = 1,
@@ -7766,8 +7769,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[87] = {
+	}
+	pg.base.pay_data_display[87] = {
 		picture = "fudai22",
 		name = "Spring Lucky Bag 2025 B",
 		type = 1,
@@ -7900,8 +7903,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[88] = {
+	}
+	pg.base.pay_data_display[88] = {
 		picture = "fudai11",
 		name = "Spring Lucky Box 2024 A (Rerun)",
 		type = 1,
@@ -8034,8 +8037,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[89] = {
+	}
+	pg.base.pay_data_display[89] = {
 		picture = "fudai12",
 		name = "Spring Lucky Box 2024 B (Rerun)",
 		type = 1,
@@ -8168,8 +8171,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[90] = {
+	}
+	pg.base.pay_data_display[90] = {
 		picture = "fudai23",
 		name = "School Return Lucky Box",
 		type = 1,
@@ -8282,8 +8285,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[91] = {
+	}
+	pg.base.pay_data_display[91] = {
 		picture = "fudai24",
 		name = "Swimsuit Lucky Bag 2025 A",
 		type = 1,
@@ -8416,8 +8419,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[92] = {
+	}
+	pg.base.pay_data_display[92] = {
 		picture = "fudai13",
 		name = "Swimsuit Lucky Bag 2024 Rerun",
 		type = 1,
@@ -8550,8 +8553,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[93] = {
+	}
+	pg.base.pay_data_display[93] = {
 		picture = "fudai25",
 		name = "Swimsuit Lucky Bag 2025 B",
 		type = 1,
@@ -8684,8 +8687,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[94] = {
+	}
+	pg.base.pay_data_display[94] = {
 		picture = "fudai14",
 		name = "Exquisite Lucky Envelope 2024 Rerun",
 		type = 1,
@@ -8818,8 +8821,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[95] = {
+	}
+	pg.base.pay_data_display[95] = {
 		picture = "fudai26",
 		name = "Bunny Girl Return Lucky Box",
 		type = 1,
@@ -8932,8 +8935,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[96] = {
+	}
+	pg.base.pay_data_display[96] = {
 		picture = "fudai27",
 		name = "Ninja Castle Lucky Box A",
 		type = 1,
@@ -9066,8 +9069,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[97] = {
+	}
+	pg.base.pay_data_display[97] = {
 		picture = "fudai15",
 		name = "Dreamland Lucky Bag A Rerun",
 		type = 1,
@@ -9200,8 +9203,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[98] = {
+	}
+	pg.base.pay_data_display[98] = {
 		picture = "fudai28",
 		name = "Ninja Castle Lucky Box B",
 		type = 1,
@@ -9334,8 +9337,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[99] = {
+	}
+	pg.base.pay_data_display[99] = {
 		picture = "fudai16",
 		name = "Dreamland Lucky Bag B Rerun",
 		type = 1,
@@ -9468,8 +9471,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[9001] = {
+	}
+	pg.base.pay_data_display[9001] = {
 		picture = "fudai29",
 		name = "Sports & Race Return Lucky Box",
 		type = 1,
@@ -9582,8 +9585,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[9007] = {
+	}
+	pg.base.pay_data_display[9007] = {
 		picture = "fudai30",
 		name = "Maidly Service Lucky Box A",
 		type = 1,
@@ -9716,8 +9719,8 @@ pg.base.pay_data_display = {
 				2026
 			}
 		}
-	},
-	[9008] = {
+	}
+	pg.base.pay_data_display[9008] = {
 		picture = "fudai19",
 		name = "Game Night Lucky Bag A Rerun",
 		type = 1,
@@ -9850,8 +9853,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[9009] = {
+	}
+	pg.base.pay_data_display[9009] = {
 		picture = "fudai31",
 		name = "Maidly Service Lucky Box B",
 		type = 1,
@@ -9984,8 +9987,8 @@ pg.base.pay_data_display = {
 				2026
 			}
 		}
-	},
-	[9010] = {
+	}
+	pg.base.pay_data_display[9010] = {
 		picture = "fudai20",
 		name = "Game Night Lucky Bag B Rerun",
 		type = 1,
@@ -10118,8 +10121,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[9011] = {
+	}
+	pg.base.pay_data_display[9011] = {
 		picture = "fudai32",
 		name = "Spring Lucky Box 2026 A",
 		type = 1,
@@ -10252,8 +10255,8 @@ pg.base.pay_data_display = {
 				2026
 			}
 		}
-	},
-	[9012] = {
+	}
+	pg.base.pay_data_display[9012] = {
 		picture = "fudai21",
 		name = "Spring Lucky Bag 2025 A Rerun",
 		type = 1,
@@ -10386,8 +10389,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[9013] = {
+	}
+	pg.base.pay_data_display[9013] = {
 		picture = "fudai33",
 		name = "Spring Lucky Box 2026 B",
 		type = 1,
@@ -10520,8 +10523,8 @@ pg.base.pay_data_display = {
 				2026
 			}
 		}
-	},
-	[9014] = {
+	}
+	pg.base.pay_data_display[9014] = {
 		picture = "fudai22",
 		name = "Spring Lucky Box 2025 B Rerun",
 		type = 1,
@@ -10654,8 +10657,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[9015] = {
+	}
+	pg.base.pay_data_display[9015] = {
 		picture = "fudai34",
 		name = "Party Dress Return Lucky Box",
 		type = 1,
@@ -10768,8 +10771,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[100] = {
+	}
+	pg.base.pay_data_display[100] = {
 		picture = "usfudai1",
 		name = "Nep's Lucky Bag ",
 		type = 1,
@@ -10880,8 +10883,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[101] = {
+	}
+	pg.base.pay_data_display[101] = {
 		picture = "usfudai2",
 		name = "Black Friday Lucky Bag ",
 		type = 1,
@@ -11002,8 +11005,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[102] = {
+	}
+	pg.base.pay_data_display[102] = {
 		picture = "fudai",
 		name = "Christmas Lucky Bag ",
 		type = 1,
@@ -11114,8 +11117,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[103] = {
+	}
+	pg.base.pay_data_display[103] = {
 		picture = "fudai49",
 		name = "Heartthrob Pack",
 		type = 1,
@@ -11216,8 +11219,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[104] = {
+	}
+	pg.base.pay_data_display[104] = {
 		picture = "fudai50",
 		name = "Santa's Lucky Sack (Daily)",
 		type = 1,
@@ -11323,8 +11326,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[105] = {
+	}
+	pg.base.pay_data_display[105] = {
 		picture = "fudai51",
 		name = "Shougatsu Lucky Bag (2019)",
 		type = 1,
@@ -11435,8 +11438,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[106] = {
+	}
+	pg.base.pay_data_display[106] = {
 		picture = "fudai52",
 		name = "Lunar New Year Lucky Bag (2019)",
 		type = 1,
@@ -11552,8 +11555,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[107] = {
+	}
+	pg.base.pay_data_display[107] = {
 		picture = "fudai53",
 		name = "Glacier Blast ",
 		type = 1,
@@ -11664,8 +11667,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[108] = {
+	}
+	pg.base.pay_data_display[108] = {
 		picture = "fudai54",
 		name = "Hanami Lucky Bag ",
 		type = 1,
@@ -11776,8 +11779,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[109] = {
+	}
+	pg.base.pay_data_display[109] = {
 		picture = "fudai55",
 		name = "Research Supply (daily) ",
 		type = 1,
@@ -11883,8 +11886,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[110] = {
+	}
+	pg.base.pay_data_display[110] = {
 		picture = "lihe1_l",
 		name = "Scherzo Lucky Box ",
 		type = 1,
@@ -11995,8 +11998,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[111] = {
+	}
+	pg.base.pay_data_display[111] = {
 		picture = "fudai56",
 		name = "1st Anniversary Lucky Bag ",
 		type = 1,
@@ -12107,8 +12110,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[112] = {
+	}
+	pg.base.pay_data_display[112] = {
 		picture = "fudai57",
 		name = "Yukata Lucky Bag",
 		type = 1,
@@ -12219,8 +12222,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[113] = {
+	}
+	pg.base.pay_data_display[113] = {
 		picture = "fudai58",
 		name = "Full Dress Lucky Bag ",
 		type = 1,
@@ -12331,8 +12334,10 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[114] = {
+	}
+end)()
+(function ()
+	pg.base.pay_data_display[114] = {
 		picture = "fudai59",
 		name = "Black Friday Lucky Box ",
 		type = 1,
@@ -12448,8 +12453,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[115] = {
+	}
+	pg.base.pay_data_display[115] = {
 		picture = "fudai60",
 		name = "Christmas Lucky Bag ",
 		type = 1,
@@ -12560,8 +12565,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[116] = {
+	}
+	pg.base.pay_data_display[116] = {
 		picture = "fudai1",
 		name = "Shougatsu Lucky Bag (2020)",
 		type = 1,
@@ -12677,8 +12682,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[117] = {
+	}
+	pg.base.pay_data_display[117] = {
 		picture = "fudai",
 		name = "Shougatsu Lucky Bag (2019)",
 		type = 1,
@@ -12789,8 +12794,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[118] = {
+	}
+	pg.base.pay_data_display[118] = {
 		picture = "fudai2",
 		name = "Lunar New Year Lucky Bag (2020)",
 		type = 1,
@@ -12906,8 +12911,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[119] = {
+	}
+	pg.base.pay_data_display[119] = {
 		picture = "fudai",
 		name = "Lunar New Year Lucky Bag (2019)",
 		type = 1,
@@ -13018,8 +13023,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[120] = {
+	}
+	pg.base.pay_data_display[120] = {
 		picture = "support1",
 		name = "New Commanders Support Pack I",
 		type = 1,
@@ -13121,8 +13126,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[121] = {
+	}
+	pg.base.pay_data_display[121] = {
 		picture = "support2",
 		name = "New Commanders Support Pack II",
 		type = 1,
@@ -13249,8 +13254,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[122] = {
+	}
+	pg.base.pay_data_display[122] = {
 		picture = "support3",
 		name = "New Commanders Support Pack III",
 		type = 1,
@@ -13382,8 +13387,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[123] = {
+	}
+	pg.base.pay_data_display[123] = {
 		picture = "fudai61",
 		name = "Crimson Echoes' Lucky Bag",
 		type = 1,
@@ -13494,8 +13499,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[124] = {
+	}
+	pg.base.pay_data_display[124] = {
 		picture = "lihe1_l",
 		name = "Night Out Lucky Bag ",
 		type = 1,
@@ -13611,8 +13616,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[125] = {
+	}
+	pg.base.pay_data_display[125] = {
 		picture = "fudai63",
 		name = "Skybound Oratorio Lucky Bag",
 		type = 1,
@@ -13723,8 +13728,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[126] = {
+	}
+	pg.base.pay_data_display[126] = {
 		picture = "fudai64",
 		name = "Aurora Noctis Lucky Bag ",
 		type = 1,
@@ -13835,8 +13840,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[127] = {
+	}
+	pg.base.pay_data_display[127] = {
 		picture = "fudai65",
 		name = "Summer Scherzo Lucky Bag ",
 		type = 1,
@@ -13947,8 +13952,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[128] = {
+	}
+	pg.base.pay_data_display[128] = {
 		picture = "fudai66",
 		name = "Shining Star Lucky Bag ",
 		type = 1,
@@ -14064,8 +14069,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[129] = {
+	}
+	pg.base.pay_data_display[129] = {
 		picture = "fudai67",
 		name = "Azur Black Friday Lucky Box ",
 		type = 1,
@@ -14181,8 +14186,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[130] = {
+	}
+	pg.base.pay_data_display[130] = {
 		picture = "fudai68",
 		name = "Crimson Black Friday Lucky Box ",
 		type = 1,
@@ -14298,8 +14303,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[131] = {
+	}
+	pg.base.pay_data_display[131] = {
 		picture = "fudai69",
 		name = "Dawn's Rime Lucky Pack",
 		type = 1,
@@ -14415,8 +14420,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[132] = {
+	}
+	pg.base.pay_data_display[132] = {
 		picture = "fudai70",
 		name = "Daedalian Hymn's Lucky Bag",
 		type = 1,
@@ -14532,8 +14537,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[133] = {
+	}
+	pg.base.pay_data_display[133] = {
 		picture = "fudai71",
 		name = "Microlayer Medley Lucky Box 2021",
 		type = 1,
@@ -14649,8 +14654,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[134] = {
+	}
+	pg.base.pay_data_display[134] = {
 		picture = "fudai72",
 		name = "Black Friday Lucky Music Box",
 		type = 1,
@@ -14766,8 +14771,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[135] = {
+	}
+	pg.base.pay_data_display[135] = {
 		picture = "fudai73",
 		name = "Abyssal Refrain Lucky Pack",
 		type = 1,
@@ -14883,8 +14888,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[136] = {
+	}
+	pg.base.pay_data_display[136] = {
 		picture = "fudai74",
 		name = "Crimson Offering Lucky Chalice",
 		type = 1,
@@ -15000,8 +15005,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[137] = {
+	}
+	pg.base.pay_data_display[137] = {
 		picture = "fudai75",
 		name = "Aquilifer's Ballade Lucky Box",
 		type = 1,
@@ -15117,8 +15122,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[138] = {
+	}
+	pg.base.pay_data_display[138] = {
 		picture = "fudai76",
 		name = "4th Anniversary Lucky Box",
 		type = 1,
@@ -15234,8 +15239,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[139] = {
+	}
+	pg.base.pay_data_display[139] = {
 		picture = "fudai77",
 		name = "Black Friday Lucky Bag (2022)",
 		type = 1,
@@ -15357,8 +15362,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[140] = {
+	}
+	pg.base.pay_data_display[140] = {
 		picture = "fudai78",
 		name = "New Semester Lucky Pack",
 		type = 1,
@@ -15480,8 +15485,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[141] = {
+	}
+	pg.base.pay_data_display[141] = {
 		picture = "fudai79",
 		name = "Onsen Souvenir Lucky Bag",
 		type = 1,
@@ -15603,8 +15608,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[142] = {
+	}
+	pg.base.pay_data_display[142] = {
 		picture = "fudai80",
 		name = "Office Hour Lucky Box",
 		type = 1,
@@ -15737,8 +15742,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[143] = {
+	}
+	pg.base.pay_data_display[143] = {
 		picture = "fudai81",
 		name = "5th Anniversary Lucky Box",
 		type = 1,
@@ -15871,8 +15876,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[144] = {
+	}
+	pg.base.pay_data_display[144] = {
 		picture = "fudai82",
 		name = "Halloween Lucky Box 2023",
 		type = 1,
@@ -16005,8 +16010,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[145] = {
+	}
+	pg.base.pay_data_display[145] = {
 		picture = "fudai82",
 		name = "Black Friday Lucky Bag (2023)",
 		type = 2,
@@ -16139,8 +16144,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[146] = {
+	}
+	pg.base.pay_data_display[146] = {
 		picture = "fudai84",
 		name = "Cyber City Lucky Box",
 		type = 1,
@@ -16273,8 +16278,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[147] = {
+	}
+	pg.base.pay_data_display[147] = {
 		picture = "fudai85",
 		name = "Adventurer's Lucky Chest",
 		type = 1,
@@ -16407,8 +16412,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[148] = {
+	}
+	pg.base.pay_data_display[148] = {
 		picture = "fudai86",
 		name = "Lavish Lucky Boombox",
 		type = 1,
@@ -16541,8 +16546,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[149] = {
+	}
+	pg.base.pay_data_display[149] = {
 		picture = "fudai87",
 		name = "School Time Lucky Bag",
 		type = 1,
@@ -16675,8 +16680,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[150] = {
+	}
+	pg.base.pay_data_display[150] = {
 		picture = "fudai88",
 		name = "High Speed Lucky Bag",
 		type = 1,
@@ -16809,8 +16814,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[151] = {
+	}
+	pg.base.pay_data_display[151] = {
 		picture = "fudai89",
 		name = "6th Anniversary Lucky Barrel",
 		type = 1,
@@ -16943,8 +16948,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[152] = {
+	}
+	pg.base.pay_data_display[152] = {
 		picture = "fudai90",
 		name = "Halloween Lucky Box 2024",
 		type = 1,
@@ -17077,8 +17082,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[153] = {
+	}
+	pg.base.pay_data_display[153] = {
 		picture = "fudai_L2d_new",
 		name = "Live2D Surprise Lucky Bag (2024)",
 		type = 1,
@@ -17191,8 +17196,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[154] = {
+	}
+	pg.base.pay_data_display[154] = {
 		picture = "fudai92",
 		name = "Black Friday Lucky Bag (2024)",
 		type = 1,
@@ -17325,8 +17330,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[155] = {
+	}
+	pg.base.pay_data_display[155] = {
 		picture = "fudai93",
 		name = "Nile Colors Lucky Box",
 		type = 1,
@@ -17459,8 +17464,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[156] = {
+	}
+	pg.base.pay_data_display[156] = {
 		picture = "fudai94",
 		name = "Hospital Adventure Lucky Bag",
 		type = 1,
@@ -17593,8 +17598,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[157] = {
+	}
+	pg.base.pay_data_display[157] = {
 		picture = "fudai95",
 		name = "Pajama Party Lucky Bag",
 		type = 1,
@@ -17727,8 +17732,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[158] = {
+	}
+	pg.base.pay_data_display[158] = {
 		picture = "fudai96",
 		name = "Office Cabinet Lucky Box",
 		type = 1,
@@ -17861,8 +17866,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[159] = {
+	}
+	pg.base.pay_data_display[159] = {
 		picture = "fudai97",
 		name = "7th Anniversary Lucky bag",
 		type = 1,
@@ -17995,8 +18000,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[160] = {
+	}
+	pg.base.pay_data_display[160] = {
 		picture = "fudai98",
 		name = "Halloween Lucky Box 2025",
 		type = 1,
@@ -18129,8 +18134,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[161] = {
+	}
+	pg.base.pay_data_display[161] = {
 		picture = "pack_2024_98",
 		name = "Choose-Your-Own Gift Pack I 2025",
 		type = 0,
@@ -18237,8 +18242,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[162] = {
+	}
+	pg.base.pay_data_display[162] = {
 		picture = "pack_2024_198",
 		name = "Choose-Your-Own Gift Pack II 2025",
 		type = 0,
@@ -18350,8 +18355,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[163] = {
+	}
+	pg.base.pay_data_display[163] = {
 		picture = "pack_2024_328",
 		name = "Choose-Your-Own Gift Pack III 2025",
 		type = 0,
@@ -18478,8 +18483,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[164] = {
+	}
+	pg.base.pay_data_display[164] = {
 		picture = "fudai99",
 		name = "Black Friday Lucky Bag (2025)",
 		type = 1,
@@ -18612,8 +18617,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[165] = {
+	}
+	pg.base.pay_data_display[165] = {
 		picture = "fudai_L2d_new",
 		name = "Live2D Surprise Lucky Bag (2025)",
 		type = 1,
@@ -18726,8 +18731,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[166] = {
+	}
+	pg.base.pay_data_display[166] = {
 		picture = "fudai100",
 		name = "Photoshoot Lucky Bag",
 		type = 1,
@@ -18860,8 +18865,8 @@ pg.base.pay_data_display = {
 				2026
 			}
 		}
-	},
-	[167] = {
+	}
+	pg.base.pay_data_display[167] = {
 		picture = "fudai101",
 		name = "Night City Lucky Box",
 		type = 1,
@@ -18994,8 +18999,8 @@ pg.base.pay_data_display = {
 				2026
 			}
 		}
-	},
-	[1000] = {
+	}
+	pg.base.pay_data_display[1000] = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass",
 		type = 0,
@@ -19079,8 +19084,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1001] = {
+	}
+	pg.base.pay_data_display[1001] = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass",
 		type = 0,
@@ -19164,8 +19169,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1002] = {
+	}
+	pg.base.pay_data_display[1002] = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass",
 		type = 0,
@@ -19249,8 +19254,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1003] = {
+	}
+	pg.base.pay_data_display[1003] = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass",
 		type = 0,
@@ -19334,8 +19339,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1004] = {
+	}
+	pg.base.pay_data_display[1004] = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass",
 		type = 0,
@@ -19419,8 +19424,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1005] = {
+	}
+	pg.base.pay_data_display[1005] = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass",
 		type = 0,
@@ -19504,8 +19509,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1006] = {
+	}
+	pg.base.pay_data_display[1006] = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass",
 		type = 0,
@@ -19589,8 +19594,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1007] = {
+	}
+	pg.base.pay_data_display[1007] = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass",
 		type = 0,
@@ -19674,8 +19679,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1008] = {
+	}
+	pg.base.pay_data_display[1008] = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass",
 		type = 0,
@@ -19759,8 +19764,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1009] = {
+	}
+	pg.base.pay_data_display[1009] = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass",
 		type = 0,
@@ -19844,8 +19849,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1010] = {
+	}
+	pg.base.pay_data_display[1010] = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass (2023.6)",
 		type = 0,
@@ -19929,8 +19934,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1011] = {
+	}
+	pg.base.pay_data_display[1011] = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass (2023.8)",
 		type = 0,
@@ -20014,8 +20019,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1012] = {
+	}
+	pg.base.pay_data_display[1012] = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass (2023.10)",
 		type = 0,
@@ -20099,8 +20104,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1013] = {
+	}
+	pg.base.pay_data_display[1013] = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass (2023.12)",
 		type = 0,
@@ -20184,8 +20189,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1014] = {
+	}
+	pg.base.pay_data_display[1014] = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass (2024.2)",
 		type = 0,
@@ -20269,8 +20274,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1015] = {
+	}
+	pg.base.pay_data_display[1015] = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass (2024.4)",
 		type = 0,
@@ -20354,8 +20359,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1016] = {
+	}
+	pg.base.pay_data_display[1016] = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass (2024.6)",
 		type = 0,
@@ -20439,8 +20444,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1017] = {
+	}
+	pg.base.pay_data_display[1017] = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass (2024.8)",
 		type = 0,
@@ -20524,8 +20529,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1018] = {
+	}
+	pg.base.pay_data_display[1018] = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass (2024.10)",
 		type = 0,
@@ -20609,8 +20614,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1019] = {
+	}
+	pg.base.pay_data_display[1019] = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass (2024.12)",
 		type = 0,
@@ -20694,8 +20699,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1020] = {
+	}
+	pg.base.pay_data_display[1020] = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass (2025.2)",
 		type = 0,
@@ -20779,8 +20784,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1021] = {
+	}
+	pg.base.pay_data_display[1021] = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass 2025.4",
 		type = 0,
@@ -20864,8 +20869,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1022] = {
+	}
+	pg.base.pay_data_display[1022] = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass (2025.6)",
 		type = 0,
@@ -20949,8 +20954,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1023] = {
+	}
+	pg.base.pay_data_display[1023] = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass (2025.8)",
 		type = 0,
@@ -21034,8 +21039,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1024] = {
+	}
+	pg.base.pay_data_display[1024] = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass (2025.10)",
 		type = 0,
@@ -21119,8 +21124,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1025] = {
+	}
+	pg.base.pay_data_display[1025] = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass (2025.12)",
 		type = 0,
@@ -21204,8 +21209,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1026] = {
+	}
+	pg.base.pay_data_display[1026] = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass (2026.2)",
 		type = 0,
@@ -21289,8 +21294,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1027] = {
+	}
+	pg.base.pay_data_display[1027] = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass (2026.4)",
 		type = 0,
@@ -21374,8 +21379,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1301] = {
+	}
+	pg.base.pay_data_display[1301] = {
 		picture = "battlepass_blackfriday_1",
 		name = "Black Friday Cruise Pass",
 		type = 0,
@@ -21459,8 +21464,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[2001] = {
+	}
+	pg.base.pay_data_display[2001] = {
 		picture = "tech1_display",
 		name = "PR Construction Pack - Series 1",
 		type = 0,
@@ -21527,8 +21532,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2002] = {
+	}
+	pg.base.pay_data_display[2002] = {
 		picture = "tech1_promotion",
 		name = "PR Voucher & Blueprint Bundle - Series 1",
 		type = 0,
@@ -21600,8 +21605,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2003] = {
+	}
+	pg.base.pay_data_display[2003] = {
 		picture = "tech1_normal",
 		name = "PR Voucher - Series 1",
 		type = 0,
@@ -21663,8 +21668,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2004] = {
+	}
+	pg.base.pay_data_display[2004] = {
 		picture = "tech1_promotion",
 		name = "PR Blueprint Pack - Series 1",
 		type = 0,
@@ -21726,8 +21731,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2005] = {
+	}
+	pg.base.pay_data_display[2005] = {
 		picture = "tech2_display",
 		name = "PR Construction Pack - Series 2",
 		type = 0,
@@ -21794,8 +21799,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2006] = {
+	}
+	pg.base.pay_data_display[2006] = {
 		picture = "tech2_promotion",
 		name = "PR Voucher & Blueprint Bundle - Series 2",
 		type = 0,
@@ -21867,8 +21872,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2007] = {
+	}
+	pg.base.pay_data_display[2007] = {
 		picture = "tech2_normal",
 		name = "PR Voucher - Series 2",
 		type = 0,
@@ -21930,8 +21935,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2008] = {
+	}
+	pg.base.pay_data_display[2008] = {
 		picture = "tech2_promotion",
 		name = "PR Blueprint Pack - Series 2",
 		type = 0,
@@ -21993,8 +21998,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2009] = {
+	}
+	pg.base.pay_data_display[2009] = {
 		picture = "lv_70",
 		name = "Commander Level Boost Pack",
 		type = 0,
@@ -22087,8 +22092,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2010] = {
+	}
+	pg.base.pay_data_display[2010] = {
 		picture = "boxSkill",
 		name = "Skill Book Pack",
 		type = 0,
@@ -22205,8 +22210,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2011] = {
+	}
+	pg.base.pay_data_display[2011] = {
 		picture = "boxSkill",
 		name = "Skill Book Pack",
 		type = 0,
@@ -22323,8 +22328,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2014] = {
+	}
+	pg.base.pay_data_display[2014] = {
 		picture = "boxSkill",
 		name = "Skill Book Pack",
 		type = 0,
@@ -22441,8 +22446,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2015] = {
+	}
+	pg.base.pay_data_display[2015] = {
 		picture = "tech3_display",
 		name = "PR Construction Pack - Series 3",
 		type = 0,
@@ -22509,8 +22514,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2016] = {
+	}
+	pg.base.pay_data_display[2016] = {
 		picture = "tech3_promotion",
 		name = "PR Voucher & Blueprint Bundle - Series 3",
 		type = 0,
@@ -22582,8 +22587,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2017] = {
+	}
+	pg.base.pay_data_display[2017] = {
 		picture = "tech3_normal",
 		name = "PR Voucher Pack - Series 3",
 		type = 0,
@@ -22645,8 +22650,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2018] = {
+	}
+	pg.base.pay_data_display[2018] = {
 		picture = "tech3_promotion",
 		name = "PR Blueprint Pack - Series 3",
 		type = 0,
@@ -22708,8 +22713,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2019] = {
+	}
+	pg.base.pay_data_display[2019] = {
 		picture = "boxSkill",
 		name = "Skill Book Pack",
 		type = 0,
@@ -22826,8 +22831,10 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2020] = {
+	}
+end)()
+(function ()
+	pg.base.pay_data_display[2020] = {
 		picture = "dongzhi3",
 		name = "Premium Winter Gift Pack",
 		type = 0,
@@ -22944,8 +22951,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2022] = {
+	}
+	pg.base.pay_data_display[2022] = {
 		picture = "mofangzhiyuan1",
 		name = "Wisdom Cube Supply Pack I",
 		type = 0,
@@ -23027,8 +23034,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2023] = {
+	}
+	pg.base.pay_data_display[2023] = {
 		picture = "mofangzhiyuan2",
 		name = "Wisdom Cube Supply Pack II",
 		type = 0,
@@ -23110,8 +23117,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2024] = {
+	}
+	pg.base.pay_data_display[2024] = {
 		picture = "mofangzhiyuan3",
 		name = "Wisdom Cube Supply Pack III",
 		type = 0,
@@ -23193,8 +23200,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2025] = {
+	}
+	pg.base.pay_data_display[2025] = {
 		picture = "richang",
 		name = "Daily Sortie Refuel Pack",
 		type = 0,
@@ -23261,8 +23268,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2026] = {
+	}
+	pg.base.pay_data_display[2026] = {
 		picture = "boxSkill",
 		name = "Skill Book Pack",
 		type = 0,
@@ -23379,8 +23386,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2027] = {
+	}
+	pg.base.pay_data_display[2027] = {
 		picture = "tech4_display",
 		name = "PR Construction Pack - Series 4",
 		type = 0,
@@ -23447,8 +23454,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2028] = {
+	}
+	pg.base.pay_data_display[2028] = {
 		picture = "tech4_promotion",
 		name = "PR Voucher & Blueprint Bundle - Series 4",
 		type = 0,
@@ -23520,8 +23527,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2029] = {
+	}
+	pg.base.pay_data_display[2029] = {
 		picture = "tech4_normal",
 		name = "PR Voucher - Series 4",
 		type = 0,
@@ -23583,8 +23590,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2030] = {
+	}
+	pg.base.pay_data_display[2030] = {
 		picture = "tech4_promotion",
 		name = "PR Blueprint Pack - Series 4",
 		type = 0,
@@ -23646,8 +23653,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2031] = {
+	}
+	pg.base.pay_data_display[2031] = {
 		picture = "daofeng_package",
 		name = "Outfit Selection Pack (Shimakaze)",
 		type = 0,
@@ -23754,8 +23761,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2032] = {
+	}
+	pg.base.pay_data_display[2032] = {
 		picture = "ui1",
 		name = "Iridescent Fantasy Pack",
 		type = 0,
@@ -23831,8 +23838,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[2033] = {
+	}
+	pg.base.pay_data_display[2033] = {
 		picture = "ui1",
 		name = "Iridescent Fantasy Pack (Basic)",
 		type = 0,
@@ -23914,8 +23921,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2034] = {
+	}
+	pg.base.pay_data_display[2034] = {
 		picture = "ui1",
 		name = "Iridescent Fantasy Pack (Premium)",
 		type = 0,
@@ -24007,8 +24014,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2035] = {
+	}
+	pg.base.pay_data_display[2035] = {
 		picture = "huteng_package",
 		name = "Outfit Selection Pack (Ulrich von Hutten)",
 		type = 0,
@@ -24115,8 +24122,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2036] = {
+	}
+	pg.base.pay_data_display[2036] = {
 		picture = "boxSkill",
 		name = "Skill Book Pack (2024.11)",
 		type = 0,
@@ -24233,8 +24240,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2037] = {
+	}
+	pg.base.pay_data_display[2037] = {
 		picture = "ui2",
 		name = "Battle UI Pack - Christmas",
 		type = 0,
@@ -24310,8 +24317,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[2038] = {
+	}
+	pg.base.pay_data_display[2038] = {
 		picture = "ui2",
 		name = "Battle UI Pack - Christmas (Basic)",
 		type = 0,
@@ -24393,8 +24400,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2039] = {
+	}
+	pg.base.pay_data_display[2039] = {
 		picture = "ui2",
 		name = "Battle UI Pack - Christmas (Premium)",
 		type = 0,
@@ -24486,8 +24493,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2040] = {
+	}
+	pg.base.pay_data_display[2040] = {
 		picture = "dongzhi3",
 		name = "Premium Winter Gift Pack",
 		type = 0,
@@ -24604,8 +24611,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2041] = {
+	}
+	pg.base.pay_data_display[2041] = {
 		picture = "huteng_package",
 		name = "Outfit Pack (Kronshtadt)",
 		type = 0,
@@ -24712,8 +24719,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2042] = {
+	}
+	pg.base.pay_data_display[2042] = {
 		picture = "ui3",
 		name = "Battle UI Pack – Pharaoh",
 		type = 0,
@@ -24789,8 +24796,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[2043] = {
+	}
+	pg.base.pay_data_display[2043] = {
 		picture = "ui3",
 		name = "Battle UI Pack - Pharaoh (Basic)",
 		type = 0,
@@ -24872,8 +24879,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2044] = {
+	}
+	pg.base.pay_data_display[2044] = {
 		picture = "ui3",
 		name = "Battle UI Pack - Pharaoh (Premium)",
 		type = 0,
@@ -24965,8 +24972,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2045] = {
+	}
+	pg.base.pay_data_display[2045] = {
 		picture = "ui4",
 		name = "Battle UI Pack - Genetic Origin",
 		type = 0,
@@ -25042,8 +25049,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[2046] = {
+	}
+	pg.base.pay_data_display[2046] = {
 		picture = "ui4",
 		name = "Battle UI Pack - Genetic Origin (Basic)",
 		type = 0,
@@ -25125,8 +25132,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2047] = {
+	}
+	pg.base.pay_data_display[2047] = {
 		picture = "ui4",
 		name = "Battle UI Pack - Genetic Origin (Premium)",
 		type = 0,
@@ -25218,8 +25225,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2048] = {
+	}
+	pg.base.pay_data_display[2048] = {
 		picture = "huteng_package",
 		name = "Outfit Pack (Vanguard)",
 		type = 0,
@@ -25326,8 +25333,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2049] = {
+	}
+	pg.base.pay_data_display[2049] = {
 		picture = "boxSkill",
 		name = "Skill Book Pack",
 		type = 0,
@@ -25444,8 +25451,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2050] = {
+	}
+	pg.base.pay_data_display[2050] = {
 		picture = "ui5",
 		name = "Battle UI Pack - Seaside Splash",
 		type = 0,
@@ -25521,8 +25528,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[2051] = {
+	}
+	pg.base.pay_data_display[2051] = {
 		picture = "ui5",
 		name = "Battle UI Pack - Seaside Splash (Basic)",
 		type = 0,
@@ -25614,8 +25621,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2052] = {
+	}
+	pg.base.pay_data_display[2052] = {
 		picture = "ui5",
 		name = "Battle UI Pack - Seaside Splash (Premium)",
 		type = 0,
@@ -25707,8 +25714,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2053] = {
+	}
+	pg.base.pay_data_display[2053] = {
 		picture = "tech5_display",
 		name = "PR Construction Pack - Series 5",
 		type = 0,
@@ -25775,8 +25782,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2054] = {
+	}
+	pg.base.pay_data_display[2054] = {
 		picture = "tech5_promotion",
 		name = "PR Voucher & Blueprint Bundle - Series 5",
 		type = 0,
@@ -25848,8 +25855,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2055] = {
+	}
+	pg.base.pay_data_display[2055] = {
 		picture = "tech5_normal",
 		name = "PR Voucher - Series 5",
 		type = 0,
@@ -25911,8 +25918,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2056] = {
+	}
+	pg.base.pay_data_display[2056] = {
 		picture = "tech5_promotion",
 		name = "PR Blueprint Pack - Series 5",
 		type = 0,
@@ -25974,8 +25981,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2057] = {
+	}
+	pg.base.pay_data_display[2057] = {
 		picture = "ui6",
 		name = "Battle UI Pack - Ninja Castle",
 		type = 0,
@@ -26051,8 +26058,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[2058] = {
+	}
+	pg.base.pay_data_display[2058] = {
 		picture = "ui6",
 		name = "Battle UI Pack - Ninja Castle (Basic)",
 		type = 0,
@@ -26144,8 +26151,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2059] = {
+	}
+	pg.base.pay_data_display[2059] = {
 		picture = "ui6",
 		name = "Battle UI Pack - Ninja Castle (Premium)",
 		type = 0,
@@ -26237,8 +26244,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2063] = {
+	}
+	pg.base.pay_data_display[2063] = {
 		picture = "huteng_package",
 		name = "Outfit Selection Pack (Musashi)",
 		type = 0,
@@ -26345,8 +26352,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2064] = {
+	}
+	pg.base.pay_data_display[2064] = {
 		picture = "boxSkill",
 		name = "Skill Book Pack",
 		type = 0,
@@ -26463,8 +26470,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2068] = {
+	}
+	pg.base.pay_data_display[2068] = {
 		picture = "ui7",
 		name = "Battle UI Pack – Maid Café",
 		type = 0,
@@ -26540,8 +26547,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[2069] = {
+	}
+	pg.base.pay_data_display[2069] = {
 		picture = "ui7",
 		name = "Battle UI Pack – Maid Café (Basic)",
 		type = 0,
@@ -26633,8 +26640,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2070] = {
+	}
+	pg.base.pay_data_display[2070] = {
 		picture = "ui7",
 		name = "Battle UI Pack – Maid Café (Premium)",
 		type = 0,
@@ -26726,8 +26733,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2071] = {
+	}
+	pg.base.pay_data_display[2071] = {
 		picture = "dongzhi3",
 		name = "Premium Winter Gift Pack",
 		type = 0,
@@ -26844,8 +26851,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2074] = {
+	}
+	pg.base.pay_data_display[2074] = {
 		picture = "ui8",
 		name = "Battle UI Pack - Springtide Inn",
 		type = 0,
@@ -26921,8 +26928,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[2075] = {
+	}
+	pg.base.pay_data_display[2075] = {
 		picture = "ui8",
 		name = "Battle UI Pack – Springtide Inn (Basic)",
 		type = 0,
@@ -27014,8 +27021,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2076] = {
+	}
+	pg.base.pay_data_display[2076] = {
 		picture = "ui8",
 		name = "Battle UI Pack – Springtide Inn (Premium)",
 		type = 0,
@@ -27107,8 +27114,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2078] = {
+	}
+	pg.base.pay_data_display[2078] = {
 		picture = "boxSkill",
 		name = "Skill Book Pack",
 		type = 0,
@@ -27225,8 +27232,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[5011] = {
+	}
+	pg.base.pay_data_display[5011] = {
 		picture = "pack_day1",
 		name = "Daily Paid Pack (Day 1)",
 		type = 0,
@@ -27318,8 +27325,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[5012] = {
+	}
+	pg.base.pay_data_display[5012] = {
 		picture = "pack_day2",
 		name = "Daily Paid Pack (Day 2)",
 		type = 0,
@@ -27401,8 +27408,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[5013] = {
+	}
+	pg.base.pay_data_display[5013] = {
 		picture = "pack_day3",
 		name = "Daily Paid Pack (Day 3)",
 		type = 0,
@@ -27494,8 +27501,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[5014] = {
+	}
+	pg.base.pay_data_display[5014] = {
 		picture = "pack_day4",
 		name = "Daily Paid Pack (Day 4)",
 		type = 0,
@@ -27587,8 +27594,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[5015] = {
+	}
+	pg.base.pay_data_display[5015] = {
 		picture = "pack_day5",
 		name = "Daily Paid Pack (Day 5)",
 		type = 0,
@@ -27670,8 +27677,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[5016] = {
+	}
+	pg.base.pay_data_display[5016] = {
 		picture = "pack_day6",
 		name = "Daily Paid Pack (Day 6)",
 		type = 0,
@@ -27763,8 +27770,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[5017] = {
+	}
+	pg.base.pay_data_display[5017] = {
 		picture = "pack_day7",
 		name = "Daily Paid Pack (Day 7)",
 		type = 0,
@@ -27857,4 +27864,4 @@ pg.base.pay_data_display = {
 			}
 		}
 	}
-}
+end)()
