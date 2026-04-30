@@ -35,22 +35,6 @@ slot0.Ctor = function(slot0, slot1)
 		[uv14] = IslandPublicAssetPoolSet.New(slot1, 5, 2),
 		[uv15] = IslandBtAssetPoolSet.New(slot1, 5, 2)
 	}
-
-	tolua.loadassembly("FaceControl")
-
-	slot2 = slot0.pools[uv0]
-
-	slot2:SetInstanceDestroyPreProcessor(function (slot0)
-		slot5 = typeof("FacialExpression.FacialExpression")
-		slot6 = true
-
-		for slot5, slot6 in ipairs(slot0:GetComponentsInChildren(slot5, slot6):ToTable()) do
-			slot7 = ReflectionHelp.RefGetField(slot1, "baseParts", slot6)
-
-			ReflectionHelp.RefCallMethodEx(slot7:GetType(), "Clear", slot7, {}, {})
-		end
-	end)
-
 	slot0.loadingIdList = {}
 end
 

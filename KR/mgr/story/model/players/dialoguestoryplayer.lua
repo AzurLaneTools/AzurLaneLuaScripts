@@ -732,7 +732,7 @@ slot8 = function(slot0, slot1, slot2)
 
 		ReflectionHelp.RefSetProperty(typeof("UnityEngine.ParticleSystemRenderer"), "sortingOrder", slot13, slot15)
 
-		if slot15 < slot7 then
+		if slot7 < slot15 then
 			slot7 = slot15
 		end
 	end

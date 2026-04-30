@@ -17,6 +17,8 @@ slot0.InitUI = function(slot0, slot1, slot2)
 	PoolMgr.GetInstance():GetUI(slot1 or "l2dboundsui", true, function (slot0)
 		if uv0._isDispose then
 			Destroy(slot0)
+
+			return
 		end
 
 		uv0:onLoaded(slot0)
@@ -111,6 +113,10 @@ slot0.setUIVisible = function(slot0, slot1, slot2)
 end
 
 slot0.createDrags = function(slot0)
+	if slot0._isDispose or not slot0._boundsTpl then
+		return
+	end
+
 	slot0:clearDrags()
 
 	for slot4 = 1, #slot0._bounds do
@@ -282,6 +288,8 @@ slot0.Dispose = function(slot0)
 
 		slot0._tf = nil
 	end
+
+	slot0._boundsTpl = nil
 
 	slot0:clearDrags()
 end

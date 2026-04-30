@@ -25936,6 +25936,168 @@ pg.activity_ins_template = {
 			6981
 		}
 	},
+	[637] = {
+		ship_group = 10990,
+		name = "Elise",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "yilisi_DOA",
+		id = 637,
+		group_id = 637,
+		time = {
+			{
+				2026,
+				4,
+				30
+			},
+			{
+				15,
+				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[638] = {
+		ship_group = 10991,
+		name = "Shizuku",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "na_DOA",
+		id = 638,
+		group_id = 638,
+		time = {
+			{
+				2026,
+				5,
+				1
+			},
+			{
+				16,
+				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[639] = {
+		ship_group = 10992,
+		name = "Shandy",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "xiangdi_DOA",
+		id = 639,
+		group_id = 639,
+		time = {
+			{
+				2026,
+				5,
+				2
+			},
+			{
+				20,
+				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[640] = {
+		ship_group = 10993,
+		name = "Tsukushi",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "zhuzi_DOA",
+		id = 640,
+		group_id = 640,
+		time = {
+			{
+				2026,
+				5,
+				3
+			},
+			{
+				14,
+				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[641] = {
+		ship_group = 10994,
+		name = "Patty",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "paidi_DOA",
+		id = 641,
+		group_id = 641,
+		time = {
+			{
+				2026,
+				5,
+				4
+			},
+			{
+				11,
+				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[642] = {
+		ship_group = 10995,
+		name = "Yukino",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "qiannai_DOA",
+		id = 642,
+		group_id = 642,
+		time = {
+			{
+				2026,
+				5,
+				5
+			},
+			{
+				13,
+				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	[20001] = {
 		ship_group = 0,
 		name = "",
@@ -26058,6 +26220,33 @@ pg.activity_ins_template = {
 			},
 			{
 				14,
+				0,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[20004] = {
+		ship_group = 0,
+		name = "",
+		type = 2,
+		picture_persist = "",
+		title = "[트렌디 모항] 싱그러운 여름, 옷차림을 바꿀 시간",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "",
+		id = 20004,
+		group_id = 20004,
+		time = {
+			{
+				2026,
+				4,
+				30
+			},
+			{
+				11,
 				0,
 				17
 			}
@@ -26692,8 +26881,15 @@ pg.activity_ins_template = {
 		634,
 		635,
 		636,
+		637,
+		638,
+		639,
+		640,
+		641,
+		642,
 		20001,
 		20002,
-		20003
+		20003,
+		20004
 	}
 }

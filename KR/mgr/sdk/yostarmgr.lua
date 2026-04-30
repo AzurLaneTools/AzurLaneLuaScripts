@@ -352,10 +352,13 @@ return {
 		return uv0.isPretest
 	end,
 	CheckGoogleSimulator = function ()
-		return uv0.isGoogleSimulator
+		return NetConst.getwayType == 2
 	end,
 	CheckRelease = function ()
-		return uv0.isRelease
+		return NetConst.getwayType == 0
+	end,
+	CheckBiz = function ()
+		return NetConst.getwayType == 3
 	end,
 	GetLoginType = function ()
 		return uv0.loginType

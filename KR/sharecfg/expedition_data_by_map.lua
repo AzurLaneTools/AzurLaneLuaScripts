@@ -456,6 +456,9 @@ pg.expedition_data_by_map = setmetatable({
 		2010001,
 		2010002,
 		2010003,
+		2020001,
+		2020002,
+		2020003,
 		2100000,
 		2100001,
 		2100010,
@@ -27387,6 +27390,220 @@ pg.base.expedition_data_by_map = {
 			174,
 			175,
 			176
+		}
+	},
+	[2020001] = {
+		map = 2020001,
+		name = "휴일 항로·빛나는 해변|| ||CHAPTER EX||E.X.",
+		bgm = "doa-az-story-1",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_2020001",
+		ani_controller = "",
+		default_background = "bg_map_doa",
+		on_activity = 6036,
+		map_name = "levelscene_mapselect_normal",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_2020001",
+		destory_icon_suffix = "blue",
+		default_bgm = "doa_guanqia",
+		uifx = "",
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2020001
+			},
+			{
+				2020002
+			},
+			{
+				2020003
+			},
+			{
+				2020004
+			}
+		},
+		story_id = {
+			390,
+			391,
+			392,
+			393,
+			394,
+			395,
+			396,
+			397,
+			398,
+			399,
+			400,
+			401,
+			402
+		}
+	},
+	[2020002] = {
+		map = 2020002,
+		name = "휴일 항로·빛나는 해변·SP|| ||CHAPTER EX||E.X.",
+		bgm = "doa-song-night06",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_2020002",
+		ani_controller = "",
+		default_background = "bg_map_doa",
+		on_activity = 6036,
+		map_name = "levelscene_mapselect_sp",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_2020002",
+		destory_icon_suffix = "blue",
+		default_bgm = "doa_guanqia",
+		uifx = "",
+		bind_map = 2020001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2020041
+			}
+		},
+		story_id = {
+			390,
+			391,
+			392,
+			393,
+			394,
+			395,
+			396,
+			397,
+			398,
+			399,
+			400,
+			401,
+			402
+		}
+	},
+	[2020003] = {
+		map = 2020003,
+		name = "휴일 항로·빛나는 해변·EX|| ||CHAPTER EX||E.X.",
+		bgm = "doa-song-night06",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_2020002",
+		ani_controller = "",
+		default_background = "bg_map_doa",
+		on_activity = 6036,
+		map_name = "levelscene_mapselect_ex",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_2020002",
+		destory_icon_suffix = "blue",
+		default_bgm = "doa_guanqia",
+		uifx = "",
+		bind_map = 2020001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2020051,
+				2020052
+			}
+		},
+		story_id = {
+			390,
+			391,
+			392,
+			393,
+			394,
+			395,
+			396,
+			397,
+			398,
+			399,
+			400,
+			401,
+			402
 		}
 	},
 	[2100000] = {

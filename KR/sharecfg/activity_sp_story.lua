@@ -7399,6 +7399,259 @@ pg.activity_sp_story = {
 			}
 		}
 	},
+	[390] = {
+		story_type = 1,
+		pre_event = "",
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "",
+		change_background = "bg_story_task_2",
+		name = "EPS-1 다시 돌아온 비너스들",
+		story = "SHANYAOHAIBINGUANQIA1",
+		change_bgm = "doa_guanqia",
+		id = 390,
+		lock = ""
+	},
+	[391] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EPS-1 클리어",
+		change_background = "star_level_bg_103",
+		name = "EPS-2 대회 준비",
+		story = "SHANYAOHAIBINGUANQIA2",
+		change_bgm = "doa_story3",
+		id = 391,
+		pre_event = {
+			390
+		},
+		lock = {
+			{
+				4,
+				390
+			}
+		}
+	},
+	[392] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EPS-2 클리어",
+		change_background = "star_level_bg_572",
+		name = "EPS-3 완벽하고 빈틈없이",
+		story = "SHANYAOHAIBINGUANQIA3",
+		change_bgm = "doa_story3",
+		id = 392,
+		pre_event = {
+			391
+		},
+		lock = {
+			{
+				4,
+				391
+			}
+		}
+	},
+	[393] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EPS-3 클리어",
+		change_background = "star_level_bg_145",
+		name = "EPS-4 Cosplayer？",
+		story = "SHANYAOHAIBINGUANQIA4",
+		change_bgm = "doa_huanzhuang",
+		id = 393,
+		pre_event = {
+			392
+		},
+		lock = {
+			{
+				4,
+				392
+			}
+		}
+	},
+	[394] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EPS-4 클리어",
+		change_background = "star_level_bg_106",
+		name = "EPS-5 매력을 무기삼아",
+		story = "SHANYAOHAIBINGUANQIA5",
+		change_bgm = "doa-az-story-1",
+		id = 394,
+		pre_event = {
+			393
+		},
+		lock = {
+			{
+				4,
+				393
+			}
+		}
+	},
+	[395] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EPS-5 클리어",
+		change_background = "star_level_bg_520",
+		name = "EPS-6 자료 수집이 우선",
+		story = "SHANYAOHAIBINGUANQIA6",
+		change_bgm = "doa_guanqia",
+		id = 395,
+		pre_event = {
+			394
+		},
+		lock = {
+			{
+				4,
+				394
+			}
+		}
+	},
+	[396] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EPS-6 클리어",
+		change_background = "star_level_bg_171",
+		name = "EPS-7 보물찾기 대모험",
+		story = "SHANYAOHAIBINGUANQIA7",
+		change_bgm = "doa-az-story-1",
+		id = 396,
+		pre_event = {
+			395
+		},
+		lock = {
+			{
+				4,
+				395
+			}
+		}
+	},
+	[397] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EPS-7 클리어",
+		change_background = "star_level_bg_502",
+		name = "EPS-8 패션 트렌드",
+		story = "SHANYAOHAIBINGUANQIA8",
+		change_bgm = "doa_story1",
+		id = 397,
+		pre_event = {
+			396
+		},
+		lock = {
+			{
+				4,
+				396
+			}
+		}
+	},
+	[398] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EPS-8 클리어",
+		change_background = "star_level_bg_701",
+		name = "EPS-9 트렌디한 코디",
+		story = "SHANYAOHAIBINGUANQIA9",
+		change_bgm = "doa-az-story-1",
+		id = 398,
+		pre_event = {
+			397
+		},
+		lock = {
+			{
+				4,
+				397
+			}
+		}
+	},
+	[399] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EPS-9 클리어",
+		change_background = "star_level_bg_306",
+		name = "EPS-10 온천에 대해",
+		story = "SHANYAOHAIBINGUANQIA10",
+		change_bgm = "doa-az-story-1",
+		id = 399,
+		pre_event = {
+			398
+		},
+		lock = {
+			{
+				4,
+				398
+			}
+		}
+	},
+	[400] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EPS-10 클리어",
+		change_background = "star_level_bg_528",
+		name = "EPS-11 촬영팀에 대해",
+		story = "SHANYAOHAIBINGUANQIA11",
+		change_bgm = "doa_guanqia",
+		id = 400,
+		pre_event = {
+			399
+		},
+		lock = {
+			{
+				4,
+				399
+			}
+		}
+	},
+	[401] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EPS-11 클리어",
+		change_background = "bg_doav3_1",
+		name = "EPS-12 중계팀에 대해",
+		story = "SHANYAOHAIBINGUANQIA12",
+		change_bgm = "doa-az-pv-1",
+		id = 401,
+		pre_event = {
+			400
+		},
+		lock = {
+			{
+				4,
+				400
+			}
+		}
+	},
+	[402] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "map_2020001",
+		unlock_conditions = "EPS-12 클리어",
+		change_background = "bg_doav3_1",
+		name = "EPS-13 대회 개막!",
+		story = "SHANYAOHAIBINGUANQIA13",
+		change_bgm = "doa-az-story-1",
+		id = 402,
+		pre_event = {
+			401
+		},
+		lock = {
+			{
+				4,
+				401
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -7758,6 +8011,19 @@ pg.activity_sp_story = {
 		386,
 		387,
 		388,
-		389
+		389,
+		390,
+		391,
+		392,
+		393,
+		394,
+		395,
+		396,
+		397,
+		398,
+		399,
+		400,
+		401,
+		402
 	}
 }

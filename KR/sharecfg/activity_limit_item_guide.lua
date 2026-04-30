@@ -2710,6 +2710,193 @@ pg.activity_limit_item_guide = {
 			}
 		}
 	},
+	[180] = {
+		is_new = 1,
+		activity = 6032,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 180,
+		drop_id = 15200,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene task"
+				},
+				"이벤트 임무 처리"
+			}
+		}
+	},
+	[181] = {
+		is_new = 1,
+		activity = 6032,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 181,
+		drop_id = 15220,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop",
+					{
+						actId = 6035,
+						warp = 1
+					}
+				},
+				"상점에서 교환"
+			}
+		}
+	},
+	[182] = {
+		is_new = 1,
+		activity = 6032,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 182,
+		drop_id = 15240,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop",
+					{
+						actId = 6035,
+						warp = 1
+					}
+				},
+				"상점에서 교환"
+			}
+		}
+	},
+	[183] = {
+		is_new = 1,
+		activity = 6032,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 183,
+		drop_id = 15260,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop",
+					{
+						actId = 6035,
+						warp = 1
+					}
+				},
+				"상점에서 교환"
+			}
+		}
+	},
+	[184] = {
+		is_new = 1,
+		activity = 6032,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 184,
+		drop_id = 15280,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene level"
+				},
+				"스토리 모드 클리어"
+			}
+		}
+	},
+	[185] = {
+		is_new = 1,
+		activity = 6032,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 185,
+		drop_id = 15300,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop",
+					{
+						actId = 6035,
+						warp = 1
+					}
+				},
+				"상점에서 교환"
+			}
+		}
+	},
+	[186] = {
+		is_new = 1,
+		activity = 6032,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 186,
+		drop_id = 151080,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				6031,
+				"「해변 보급지」 보상"
+			}
+		}
+	},
+	[187] = {
+		is_new = 1,
+		activity = 6032,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 187,
+		drop_id = 151100,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				6031,
+				"「해변 보급지」 보상"
+			}
+		}
+	},
+	[188] = {
+		is_new = 1,
+		activity = 6032,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 188,
+		drop_id = 151120,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop",
+					{
+						actId = 6035,
+						warp = 1
+					}
+				},
+				"상점에서 교환"
+			}
+		}
+	},
 	get_id_list_by_activity = {
 		[4937] = {
 			1,
@@ -2871,6 +3058,17 @@ pg.activity_limit_item_guide = {
 			177,
 			178,
 			179
+		},
+		[6032] = {
+			180,
+			181,
+			182,
+			183,
+			184,
+			185,
+			186,
+			187,
+			188
 		}
 	},
 	all = {
@@ -3020,6 +3218,15 @@ pg.activity_limit_item_guide = {
 		176,
 		177,
 		178,
-		179
+		179,
+		180,
+		181,
+		182,
+		183,
+		184,
+		185,
+		186,
+		187,
+		188
 	}
 }

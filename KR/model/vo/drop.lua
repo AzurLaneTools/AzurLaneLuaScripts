@@ -653,6 +653,17 @@ slot0.InitSwitch = function()
 			end
 
 			return 0
+		end,
+		[DROP_TYPE_ISLAND_CARD_DIY] = function (slot0)
+			if not getProxy(IslandProxy) then
+				return 0
+			end
+
+			if slot1:GetIsland() then
+				return slot2:GetCardDiyAgency():GetIdCount(slot0.id)
+			end
+
+			return 0
 		end
 	}
 

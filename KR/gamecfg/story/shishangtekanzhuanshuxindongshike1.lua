@@ -181,10 +181,10 @@ return {
 			portrait = "zhihuiguan",
 			actorName = "{playername}",
 			optionFlag = 1,
+			hideRecordIco = true,
 			actor = 107161,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			hiderecordico = true,
 			say = "――그럼 같이 청소하자.",
 			typewriter = {
 				speed = 0.05,
@@ -213,10 +213,10 @@ return {
 			portrait = "zhihuiguan",
 			actorName = "{playername}",
 			optionFlag = 2,
+			hideRecordIco = true,
 			actor = 107161,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			hiderecordico = true,
 			say = "좋은 「선생님」이 되도록 노력할게",
 			typewriter = {
 				speed = 0.05,

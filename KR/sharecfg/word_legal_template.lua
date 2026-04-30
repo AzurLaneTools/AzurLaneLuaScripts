@@ -118,6 +118,11 @@ temp = function()
 				this = true
 			}
 		},
+		["즈"] = {
+			["쿠"] = {
+				this = true
+			}
+		},
 		["애"] = {
 			["틀"] = {
 				this = true
@@ -804,6 +809,11 @@ temp = function()
 		},
 		["베"] = {
 			this = true
+		},
+		["리"] = {
+			["제"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -2037,6 +2047,7 @@ temp()
 temp = function()
 	uv0["샌"] = {
 		["디"] = {
+			this = true,
 			["에"] = {
 				["이"] = {
 					["고"] = {
@@ -2815,6 +2826,9 @@ temp = function()
 					this = true
 				}
 			}
+		},
+		["티"] = {
+			this = true
 		}
 	}
 end
@@ -5454,6 +5468,11 @@ temp = function()
 				}
 			}
 		},
+		["키"] = {
+			["노"] = {
+				this = true
+			}
+		},
 		["우"] = {
 			["야"] = {
 				["키"] = {
@@ -7894,6 +7913,18 @@ temp = function()
 	uv0["뇨"] = {
 		["텐"] = {
 			["구"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["츠"] = {
+		["쿠"] = {
+			["시"] = {
 				this = true
 			}
 		}

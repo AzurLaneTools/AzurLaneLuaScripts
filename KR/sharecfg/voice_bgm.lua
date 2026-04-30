@@ -135,15 +135,20 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "idol-BlueSpirit-inst"
 	},
+	ActivityShop6035 = {
+		default_bgm = "doa_story1",
+		special_bgm = "",
+		bgm = "doa_story1"
+	},
 	ActivityShop50486 = {
 		default_bgm = "story-wanderingcity-future",
 		special_bgm = "",
 		bgm = "story-wanderingcity-future"
 	},
 	BuildShipScene = {
-		default_bgm = "main",
+		default_bgm = "doa-song-day05",
 		special_bgm = "",
-		bgm = "main"
+		bgm = "doa-song-day05"
 	},
 	VolleyballGameView = {
 		default_bgm = "doa_minigame",
@@ -2859,6 +2864,46 @@ pg.voice_bgm = {
 		default_bgm = "story-nonightcity",
 		special_bgm = "",
 		bgm = "story-nonightcity"
+	},
+	DOACoreActivityMainPage = {
+		default_bgm = "doa-az-pv-1",
+		special_bgm = "",
+		bgm = "doa-az-pv-1"
+	},
+	DOACoreActivityPtPage = {
+		default_bgm = "doa-song-night03",
+		special_bgm = "",
+		bgm = "doa-song-night03"
+	},
+	DOACoreActivityCollectPage = {
+		default_bgm = "doa_story1",
+		special_bgm = "",
+		bgm = "doa_story1"
+	},
+	DOACharacterGiftPage = {
+		default_bgm = "doa_huanzhuang",
+		special_bgm = "",
+		bgm = "doa_huanzhuang"
+	},
+	DOADailyStoryPage = {
+		default_bgm = "doa-song-day05",
+		special_bgm = "",
+		bgm = "doa-song-day05"
+	},
+	DOAYearHotSpringUI = {
+		default_bgm = "doa_story3",
+		special_bgm = "",
+		bgm = "doa_story3"
+	},
+	DOACoreMiniGamePage = {
+		default_bgm = "doa_minigame",
+		special_bgm = "",
+		bgm = "doa_minigame"
+	},
+	LatestSkinShopLayer = {
+		default_bgm = "doa-az-story-1",
+		special_bgm = "",
+		bgm = "doa-az-story-1"
 	},
 	map_xyd_bar_01 = {
 		default_bgm = "danmachi-az-story ",

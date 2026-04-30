@@ -9031,7 +9031,64 @@ pg.activity_ins_chat_language = setmetatable({
 		9028,
 		9029,
 		9030,
-		9031
+		9031,
+		9110,
+		9111,
+		9112,
+		9113,
+		9114,
+		9115,
+		9116,
+		9117,
+		9118,
+		9119,
+		9120,
+		9121,
+		9122,
+		9123,
+		9124,
+		9125,
+		9126,
+		9127,
+		9128,
+		9129,
+		9130,
+		9131,
+		9132,
+		9133,
+		9134,
+		9135,
+		9136,
+		9137,
+		9138,
+		9139,
+		9140,
+		9141,
+		9142,
+		9143,
+		9144,
+		9145,
+		9146,
+		9147,
+		9148,
+		9149,
+		9150,
+		9151,
+		9152,
+		9153,
+		9154,
+		9155,
+		9156,
+		9157,
+		9158,
+		9159,
+		9160,
+		9161,
+		9162,
+		9163,
+		9164,
+		9165,
+		9166
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -88893,5 +88950,480 @@ pg.base.activity_ins_chat_language = {
 		type = 1,
 		id = 9031,
 		flag = 2
+	},
+	[9110] = {
+		param = "어째서 이런 일이……!",
+		ship_group = 10125,
+		option = "",
+		type = 1,
+		id = 9110,
+		flag = 0
+	},
+	[9111] = {
+		param = "허먼이 어제 냉장고에 넣어둔 아이스크림이 없어졌어!!",
+		ship_group = 10125,
+		option = "",
+		type = 1,
+		id = 9111,
+		flag = 0
+	},
+	[9112] = {
+		param = "뭐라고—!? 이런 대낮에 말도 안 되는 사건이!!?",
+		ship_group = 10149,
+		type = 1,
+		id = 9112,
+		flag = 0,
+		option = {
+			{
+				1,
+				"아이스크림이 사라지다니 큰일이네!"
+			},
+			{
+				2,
+				"사건이라고 할 정도인가?"
+			}
+		}
+	},
+	[9113] = {
+		param = "아이스크림이 사라지다니 큰일이네!",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9113,
+		flag = 1
+	},
+	[9114] = {
+		param = "사건이라고 할 정도인가?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9114,
+		flag = 2
+	},
+	[9115] = {
+		param = "지휘관까지 반응한 걸 보면, 사건은 사건인 것 같은데~?",
+		ship_group = 10806,
+		option = "",
+		type = 1,
+		id = 9115,
+		flag = 0
+	},
+	[9116] = {
+		param = "수수께끼의 아이스크림 실종 사건… 다들 몸을 던져 정의를 관철해야 할 때!",
+		ship_group = 10144,
+		option = "",
+		type = 1,
+		id = 9116,
+		flag = 0
+	},
+	[9117] = {
+		param = "그러고 보니 에식스, 어제 밤늦게까지 여기 있었죠? 뭐 이상한 점은 없었나요?",
+		ship_group = 10738,
+		option = "",
+		type = 1,
+		id = 9117,
+		flag = 0
+	},
+	[9118] = {
+		param = "네? 저요?",
+		ship_group = 10709,
+		option = "",
+		type = 1,
+		id = 9118,
+		flag = 0
+	},
+	[9119] = {
+		param = "어젯밤엔 호넷 일행이랑 밖에서 밥을 먹느라 귀가가 늦어지긴 했지만……",
+		ship_group = 10709,
+		option = "",
+		type = 1,
+		id = 9119,
+		flag = 0
+	},
+	[9120] = {
+		param = "별다른 일은 없었던 것 같은데…",
+		ship_group = 10709,
+		option = "",
+		type = 1,
+		id = 9120,
+		flag = 0
+	},
+	[9121] = {
+		param = "<color=#93e9ff>@허먼</color> 없어진 아이스크림이라는 거, 어제 30분이나 줄 서서 겨우 산 한정판 피스타치오 바닐라 아이스크림 말하는 거야~?",
+		ship_group = 10124,
+		option = "",
+		type = 1,
+		id = 9121,
+		flag = 0
+	},
+	[9122] = {
+		param = "심즈! 웃는 거 다 들리거든! 자꾸 놀리면 네 몫까지 다 먹어버릴 거야!",
+		ship_group = 10125,
+		option = "",
+		type = 1,
+		id = 9122,
+		flag = 0
+	},
+	[9123] = {
+		param = "불쌍하니까 뭐, 먹으려면 먹어~",
+		ship_group = 10124,
+		option = "",
+		type = 1,
+		id = 9123,
+		flag = 0
+	},
+	[9124] = {
+		param = "차가운 디저트라면 여기 아이스크림 말고도 이것저것 많아! 이쪽으로 와!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 9124,
+		flag = 0
+	},
+	[9125] = {
+		param = "하드 아이스크림이면 나도 지원해 줄 수 있어.",
+		ship_group = 10107,
+		option = "",
+		type = 1,
+		id = 9125,
+		flag = 0
+	},
+	[9126] = {
+		param = "요크타운이랑 아이스크림을 5상자를 주문했어. 10분 뒤에 도착할 테니까 공용 공간에 둘게.",
+		ship_group = 10706,
+		option = "",
+		type = 1,
+		id = 9126,
+		flag = 0
+	},
+	[9127] = {
+		param = "허먼이 좋아하는 피스타치오 바닐라도 있으니까 나중에 받으러 와~",
+		ship_group = 10705,
+		option = "",
+		type = 1,
+		id = 9127,
+		flag = 0
+	},
+	[9128] = {
+		param = "다들 고마워! 그래도……",
+		ship_group = 10125,
+		option = "",
+		type = 1,
+		id = 9128,
+		flag = 0
+	},
+	[9129] = {
+		param = "허먼은 자기가 직접 줄 서서 손에 넣은 게 좋은 거지~? 참 까다롭다니까.",
+		ship_group = 10124,
+		option = "",
+		type = 1,
+		id = 9129,
+		flag = 0
+	},
+	[9130] = {
+		param = "누가 실수로 가져간 거 아닐까?",
+		ship_group = 10208,
+		option = "",
+		type = 1,
+		id = 9130,
+		flag = 0
+	},
+	[9131] = {
+		param = "아니면 누군가의 장난이라든가—",
+		ship_group = 10314,
+		option = "",
+		type = 1,
+		id = 9131,
+		flag = 0
+	},
+	[9132] = {
+		param = "난 관계없어! 그때 난 지휘관한테 쌩쌩 나는 걸 보여주고 있었어!",
+		ship_group = 10110,
+		option = "",
+		type = 1,
+		id = 9132,
+		flag = 0
+	},
+	[9133] = {
+		param = "나도 마찬가지야! 지휘관이랑 숨바꼭질하고 있었으니까!",
+		ship_group = 10802,
+		option = "",
+		type = 1,
+		id = 9133,
+		flag = 0
+	},
+	[9134] = {
+		param = "뭐? 지휘관은 분명 나랑…?",
+		ship_group = 10110,
+		option = "",
+		type = 1,
+		id = 9134,
+		flag = 0
+	},
+	[9135] = {
+		param = "뭐? 지휘관은 분명 나랑…?",
+		ship_group = 10802,
+		option = "",
+		type = 1,
+		id = 9135,
+		flag = 0
+	},
+	[9136] = {
+		param = "미리 입을 맞추지는 않았나 보네……",
+		ship_group = 10155,
+		type = 1,
+		id = 9136,
+		flag = 0,
+		option = {
+			{
+				3,
+				"불렀어?"
+			}
+		}
+	},
+	[9137] = {
+		param = "불렀어?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9137,
+		flag = 3
+	},
+	[9138] = {
+		param = "으아! 지휘관도 여기 있었지!",
+		ship_group = 10110,
+		option = "",
+		type = 1,
+		id = 9138,
+		flag = 3
+	},
+	[9139] = {
+		param = "미안~! 아무것도 안 했다고 하면 오히려 의심받을까 봐 그랬어…!",
+		ship_group = 10110,
+		option = "",
+		type = 1,
+		id = 9139,
+		flag = 3
+	},
+	[9140] = {
+		param = "맞아 맞아! 나도♪",
+		ship_group = 10802,
+		option = "",
+		type = 1,
+		id = 9140,
+		flag = 3
+	},
+	[9141] = {
+		param = "뭔가 분위기가 뜨거운데, 대체 무슨 이야기야?",
+		ship_group = 10707,
+		option = "",
+		type = 1,
+		id = 9141,
+		flag = 3
+	},
+	[9142] = {
+		param = "허먼의 아이스크림 실종 사건에 대한 단서를 찾는 중이야!",
+		ship_group = 10149,
+		option = "",
+		type = 1,
+		id = 9142,
+		flag = 3
+	},
+	[9143] = {
+		param = "아이스크림? 혹시 피스타치오 바닐라 맛?",
+		ship_group = 10707,
+		option = "",
+		type = 1,
+		id = 9143,
+		flag = 3
+	},
+	[9144] = {
+		param = "맞아…!",
+		ship_group = 10125,
+		option = "",
+		type = 1,
+		id = 9144,
+		flag = 3
+	},
+	[9145] = {
+		param = "호넷, 설마 네가……",
+		ship_group = 19902,
+		option = "",
+		type = 1,
+		id = 9145,
+		flag = 3
+	},
+	[9146] = {
+		param = "201",
+		ship_group = 10709,
+		option = "",
+		type = 4,
+		id = 9146,
+		flag = 3
+	},
+	[9147] = {
+		param = "뭐? 아냐, 아냐! 나 아니야!",
+		ship_group = 10707,
+		option = "",
+		type = 1,
+		id = 9147,
+		flag = 3
+	},
+	[9148] = {
+		param = "에식스, 너 엄청 취했었던 거 기억 나? 돌아와서 디저트 먹고 술 깬다면서 냉장고 뒤졌었지?",
+		ship_group = 10707,
+		option = "",
+		type = 1,
+		id = 9148,
+		flag = 3
+	},
+	[9149] = {
+		param = "다들 자길 멍청이 취급이나 한다며 울면서 피스타치오 바닐라 아이스크림 먹었던 거, 기억 안 나?",
+		ship_group = 10707,
+		option = "",
+		type = 1,
+		id = 9149,
+		flag = 3
+	},
+	[9150] = {
+		param = "…………",
+		ship_group = 10709,
+		option = "",
+		type = 1,
+		id = 9150,
+		flag = 3
+	},
+	[9151] = {
+		param = "그러고 보니 확실히 방에 기억에 없는 빈 아이스크림 상자가…………",
+		ship_group = 10709,
+		option = "",
+		type = 1,
+		id = 9151,
+		flag = 3
+	},
+	[9152] = {
+		param = "눈 깜짝할 새에 해결! 역시 호넷이야!",
+		ship_group = 10208,
+		option = "",
+		type = 1,
+		id = 9152,
+		flag = 3
+	},
+	[9153] = {
+		param = "고마워! 근데 이런 걸로 칭찬받아도, 뭐랄까……",
+		ship_group = 10707,
+		type = 1,
+		id = 9153,
+		flag = 3,
+		option = {
+			{
+				4,
+				"취했다면 어쩔 수 없지"
+			}
+		}
+	},
+	[9154] = {
+		param = "취했다면 기억하지 못하는 것도 무리는 아니지.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9154,
+		flag = 4
+	},
+	[9155] = {
+		param = "게다가 일부러 그런 것도 아니잖아.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9155,
+		flag = 4
+	},
+	[9156] = {
+		param = "취했었다고는 해도 정말 죄송해요! 사과의 의미로 앞으로 1년 치 아이스크림은 제가 책임질게요!",
+		ship_group = 10709,
+		option = "",
+		type = 1,
+		id = 9156,
+		flag = 4
+	},
+	[9157] = {
+		param = "1년 치라니, 그건 너무 과해……!",
+		ship_group = 10125,
+		option = "",
+		type = 1,
+		id = 9157,
+		flag = 4
+	},
+	[9158] = {
+		param = "그러니까 「염치 불고하고 받겠다」는 거지?",
+		ship_group = 10124,
+		option = "",
+		type = 1,
+		id = 9158,
+		flag = 4
+	},
+	[9159] = {
+		param = "아니거든!",
+		ship_group = 10125,
+		option = "",
+		type = 1,
+		id = 9159,
+		flag = 4
+	},
+	[9160] = {
+		param = "다행이다~! 이제 안심이야. 봐, 난 관계 없다고 했지?",
+		ship_group = 10110,
+		option = "",
+		type = 1,
+		id = 9160,
+		flag = 4
+	},
+	[9161] = {
+		param = "그런 식으로 말하면 더 의심 받는다고.",
+		ship_group = 10112,
+		option = "",
+		type = 1,
+		id = 9161,
+		flag = 4
+	},
+	[9162] = {
+		param = "그나저나 술기운에 먹는 아이스크림이라, 왠지 맛있을 것 같지 않아?",
+		ship_group = 10139,
+		option = "",
+		type = 1,
+		id = 9162,
+		flag = 4
+	},
+	[9163] = {
+		param = "「나쁜 아이의 음료」를 마셔보고 싶다면 이 밀러 님이 도와줄 수도 있지~",
+		ship_group = 10153,
+		option = "",
+		type = 1,
+		id = 9163,
+		flag = 4
+	},
+	[9164] = {
+		param = "마셔보고 싶어!",
+		ship_group = 10110,
+		option = "",
+		type = 1,
+		id = 9164,
+		flag = 4
+	},
+	[9165] = {
+		param = "마셔보고 싶어!",
+		ship_group = 10802,
+		option = "",
+		type = 1,
+		id = 9165,
+		flag = 4
+	},
+	[9166] = {
+		param = "30",
+		ship_group = 10802,
+		option = "",
+		type = 4,
+		id = 9166,
+		flag = 4
 	}
 }

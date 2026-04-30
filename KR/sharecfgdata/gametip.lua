@@ -11014,7 +11014,7 @@ _G.pg.base.gametip.activity_switch_award_pool_failed = {
 
 
 _G.pg.base.gametip.shop_street_activity_tip = {
-	tip = "*이벤트 기간 동안(<color=#539b2c>04.09-04.22</COLOR>) 갱신 시마다 반드시 <color=#539b2c>장비스킨 상자</color>가 출현합니다. "
+	tip = "*이벤트 기간 동안(<color=#539b2c>$1</COLOR>) 갱신 시마다 반드시 <color=#539b2c>장비스킨 상자</color>가 출현합니다."
 }
 
 
@@ -12537,7 +12537,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "기간 한정 건조를 총 200회 실시하면, 「소비에츠키 소유즈」 100% 획득 가능! (최대 4척까지)"
+	tip = "「엘리제」, 「샌디」, 「유키노」 등장 확률 UP!"
 }
 
 
@@ -28514,18 +28514,18 @@ _G.pg.base.gametip.hotspring_help = {
 		{
 			info = [[
 플레이 방법:
-뒷산 이벤트에서 '쥬쥬 온천'이 <color=#92fc63>9.28 ~ 10.18 23:59</color>까지 오픈됩니다!
+뒷산 이벤트 「쥬쥬 온천」이 <color=#92fc63>4.30 ~ 5.14 점검</color>까지 오픈됩니다! 
 1. 쥬쥬 온천의 입욕칸을 탭하면, 함선을 배치하여 컨디션 회복 속도를 높일 수 있습니다.
 2. 배치한 함선을 드래그앤드롭하면 온천에서의 위치를 조정할 수 있습니다.
-3. 미니 게임 '리조트 신비 사건 조사'를 플레이하면, 아이템 <color=#92fc63>온천 손팻말</color>을 최대 4장까지 획득할 수 있습니다.
-4. '증축' 버튼을 탭하면, <color=#92fc63>온천 손팻말</color>을 소비하여 입욕칸을 추가할 수 있습니다.]]
+3. 미니 게임 「휴일 항로·빛나는 해변」을 플레이하면, 아이템 <color=#92fc63>온천 코인</color>을 최대 4개까지 획득할 수 있습니다.
+4. 「증축」 버튼을 탭하면, <color=#92fc63>온천 코인</color>을 소비하여 입욕칸을 추가할 수 있습니다.]]
 		}
 	}
 }
 
 
 _G.pg.base.gametip.hotspring_expand = {
-	tip = "온천 코인*$1을 소모하여 온천을 확장하시겠습니까?"
+	tip = "온천 코인<icon name=wenquanshoupai w=0.7 h=0.7/>을 $1 소모하여 온천을 확장하시겠습니까?"
 }
 
 
@@ -47777,6 +47777,56 @@ _G.pg.base.gametip.juusoa_title = {
 }
 
 
+_G.pg.base.gametip.doa3_activityPageUI_1 = {
+	tip = "빛나는 추억"
+}
+
+
+_G.pg.base.gametip.doa3_activityPageUI_2 = {
+	tip = "스토리 클리어 시\n보상 획득"
+}
+
+
+_G.pg.base.gametip.doa3_activityPageUI_3 = {
+	tip = "확인하기"
+}
+
+
+_G.pg.base.gametip.doa3_activityPageUI_4 = {
+	tip = "스토리 클리어 시 한정 스킨 획득!"
+}
+
+
+_G.pg.base.gametip.doa3_activityPageUI_5 = {
+	tip = "스토리 클리어 시\n획득"
+}
+
+
+_G.pg.base.gametip.doa3_activityPageUI_6 = {
+	tip = "보상\n확인"
+}
+
+
+_G.pg.base.gametip.doa3_activityPageUI_7 = {
+	tip = "호감도"
+}
+
+
+_G.pg.base.gametip.cut_fruit_minigame_help = {
+	tip = {
+		{
+			info = [[
+플레이 방법:
+1. 매일 0시마다 게임 횟수가 <color=#92fc63>1</color>회 오픈됩니다(총 <color=#92fc63>7</color>회). 7일 동안 미니 게임을 플레이하면 보상을 획득할 수 있습니다. 
+규칙:
+1. 60초 동안 제시된 힌트에 맞게 입력하면, 수박 깨기를 진행할 수 있습니다. 
+2. 잘못 입력하면 캐릭터의 움직임이 멈춥니다. 
+3. 수박 깨기에 성공하거나, 제한 시간이 0이 되면 게임 클리어로 처리됩니다.]]
+		}
+	}
+}
+
+
 _G.pg.base.gametip.story_recrewed = {
 	tip = "모집 완료"
 }
@@ -48177,5 +48227,5 @@ _G.pg.base.gametip.bar_tips_game6 = {
 
 
 _G.pg.base.gametip.bar_tips_game7 = {
-	tip = ""
+	tip = "게임을 중단하시겠습니까?"
 }

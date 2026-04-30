@@ -13,7 +13,7 @@ pg.activity_banner = {
 				{
 					2026,
 					4,
-					23
+					30
 				},
 				{
 					0,
@@ -24,8 +24,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					4,
-					29
+					5,
+					13
 				},
 				{
 					23,
@@ -36,7 +36,6 @@ pg.activity_banner = {
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 2,
 		pic = "temp2",
@@ -46,17 +45,68 @@ pg.activity_banner = {
 				projectName = "new",
 				page = 1
 			}
+		},
+		time = {
+			{
+				{
+					2026,
+					4,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					14
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 3,
 		pic = "temp3",
 		param = {
 			"scene core activity",
 			{
-				coreName = "YunLongSPCoreActivityUI"
+				coreName = "DOACoreActivityUI"
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					4,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					14
+				},
+				{
+					12,
+					0,
+					0
+				}
 			}
 		}
 	},
@@ -75,7 +125,7 @@ pg.activity_banner = {
 				{
 					2026,
 					4,
-					23
+					30
 				},
 				{
 					0,
@@ -86,19 +136,18 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					4,
-					29
+					5,
+					14
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 5,
 		pic = "temp5",
@@ -107,15 +156,66 @@ pg.activity_banner = {
 			{
 				warp = "shopstreet"
 			}
+		},
+		time = {
+			{
+				{
+					2026,
+					4,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					14
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 6,
 		pic = "temp6",
 		param = {
 			"scene court yard"
+		},
+		time = {
+			{
+				{
+					2026,
+					4,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					14
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
 		}
 	},
 	{
@@ -128,41 +228,12 @@ pg.activity_banner = {
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 8,
 		pic = "temp8",
 		param = {
-			"scene equip",
-			{
-				designPage = 2,
-				warp = "WARP_TO_DESIGN"
-			}
-		},
-		time = {
-			{
-				{
-					2026,
-					4,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					4,
-					29
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
+			"crusing"
 		}
 	},
 	{
@@ -170,10 +241,9 @@ pg.activity_banner = {
 		id = 9,
 		pic = "temp9",
 		param = {
-			"scene level",
+			"scene core activity",
 			{
-				open_remaster = true,
-				isSP = true
+				coreName = "DOACoreActivityUI"
 			}
 		},
 		time = {
@@ -181,7 +251,7 @@ pg.activity_banner = {
 				{
 					2026,
 					4,
-					23
+					30
 				},
 				{
 					0,
@@ -192,13 +262,13 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					4,
-					29
+					5,
+					14
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		}
@@ -226,10 +296,35 @@ pg.activity_banner = {
 	},
 	[99] = {
 		param = "",
-		time = "stop",
 		type = 12,
 		id = 99,
-		pic = "limit_skin"
+		pic = "limit_skin",
+		time = {
+			{
+				{
+					2026,
+					4,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[100] = {
 		param = "饺子|广受欢迎的传统特色食物！<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",

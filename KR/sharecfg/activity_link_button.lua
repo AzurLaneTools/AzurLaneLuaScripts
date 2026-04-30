@@ -47,7 +47,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50481
+			6036
 		}
 	},
 	[11] = {
@@ -359,8 +359,8 @@ pg.activity_link_button = {
 		type = 16,
 		pic = "event_core3",
 		id = 110,
-		group_id = 1,
-		order = 1,
+		group_id = 2,
+		order = 2,
 		time = {
 			"default",
 			50493
@@ -401,11 +401,11 @@ pg.activity_link_button = {
 		type = 16,
 		pic = "event_special",
 		id = 113,
-		group_id = 2,
-		order = 2,
+		group_id = 1,
+		order = 1,
 		time = {
 			"default",
-			21011
+			50118
 		}
 	},
 	[114] = {
@@ -420,6 +420,20 @@ pg.activity_link_button = {
 		time = {
 			"default",
 			50298
+		}
+	},
+	[115] = {
+		param = "DOACoreActivityUI",
+		name = "event_core",
+		text_pic = "text_event_core3",
+		type = 16,
+		pic = "event_DOA3",
+		id = 115,
+		group_id = 1,
+		order = 1,
+		time = {
+			"default",
+			6025
 		}
 	},
 	get_id_list_by_name = {
@@ -491,7 +505,8 @@ pg.activity_link_button = {
 		},
 		event_core = {
 			109,
-			114
+			114,
+			115
 		},
 		event_core_2 = {
 			110,
@@ -534,6 +549,7 @@ pg.activity_link_button = {
 		111,
 		112,
 		113,
-		114
+		114,
+		115
 	}
 }
