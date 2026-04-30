@@ -223,7 +223,7 @@ return {
 		return IsUnityEditor or uv0.CheckPreAudit()
 	end,
 	CheckGoogleSimulator = function ()
-		return NetConst.GATEWAY_PORT == 50001 and NetConst.GATEWAY_HOST == "audit.us.yo-star.com"
+		return NetConst.getwayType == 2
 	end,
 	GoSDkLoginScene = function ()
 		uv0:GoLoginScene()

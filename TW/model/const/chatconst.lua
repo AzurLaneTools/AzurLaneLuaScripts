@@ -8,6 +8,7 @@ slot0.ChannelFriend = 4
 slot0.ChannelGuild = 5
 slot0.ChannelWorldBoss = 6
 slot0.ChannelIsland = 7
+slot0.ChannelPlayRoom = 8
 slot0.SendChannels = {
 	slot0.ChannelWorld,
 	slot0.ChannelGuild
@@ -26,23 +27,34 @@ slot0.GetChannelName = function(slot0)
 end
 
 slot0.GetChannelSprite = function(slot0)
-	if slot0 == uv0.ChannelWorld then
-		return "world"
-	elseif slot0 == uv0.ChannelPublic then
-		return "public"
-	elseif slot0 == uv0.ChannelFriend then
-		return "friend"
-	elseif slot0 == uv0.ChannelGuild then
-		return "guild"
-	elseif slot0 == uv0.ChannelAll then
-		return "total"
-	elseif slot0 == uv0.ChannelWorldBoss then
-		return "worldboss"
-	elseif slot0 == uv0.ChannelIsland then
-		return "island"
-	end
-
-	assert(false)
+	return switch(slot0, {
+		[uv0.ChannelWorld] = function ()
+			return "world"
+		end,
+		[uv0.ChannelPublic] = function ()
+			return "public"
+		end,
+		[uv0.ChannelFriend] = function ()
+			return "friend"
+		end,
+		[uv0.ChannelGuild] = function ()
+			return "guild"
+		end,
+		[uv0.ChannelAll] = function ()
+			return "total"
+		end,
+		[uv0.ChannelWorldBoss] = function ()
+			return "worldboss"
+		end,
+		[uv0.ChannelIsland] = function ()
+			return "island"
+		end,
+		[uv0.ChannelPlayRoom] = function ()
+			return "room"
+		end
+	}, function ()
+		assert(false)
+	end)
 end
 
 slot0.EmojiCommon = 0

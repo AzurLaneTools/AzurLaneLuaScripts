@@ -3113,6 +3113,9 @@ temp = function()
 				}
 			}
 		},
+		["迪"] = {
+			this = true
+		},
 		["檳"] = {
 			this = true
 		}
@@ -3511,6 +3514,9 @@ temp = function()
 						}
 					}
 				}
+			},
+			["丝"] = {
+				this = true
 			}
 		},
 		["勢"] = {
@@ -3794,6 +3800,9 @@ temp = function()
 			["田"] = {
 				this = true
 			}
+		},
+		["乃"] = {
+			this = true
 		}
 	}
 end
@@ -7535,6 +7544,53 @@ end
 temp()
 
 temp = function()
+	uv0["雫"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["筑"] = {
+		["紫"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["派"] = {
+		["蒂"] = {
+			this = true
+		},
+		["翠"] = {
+			["夏"] = {
+				["‧"] = {
+					["阿"] = {
+						["貝"] = {
+							["爾"] = {
+								["海"] = {
+									["姆"] = {
+										this = true
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["秋"] = {
 		["月"] = {
 			["律"] = {
@@ -7619,30 +7675,6 @@ temp = function()
 	uv0["公"] = {
 		["主"] = {
 			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["派"] = {
-		["翠"] = {
-			["夏"] = {
-				["‧"] = {
-					["阿"] = {
-						["貝"] = {
-							["爾"] = {
-								["海"] = {
-									["姆"] = {
-										this = true
-									}
-								}
-							}
-						}
-					}
-				}
-			}
 		}
 	}
 end

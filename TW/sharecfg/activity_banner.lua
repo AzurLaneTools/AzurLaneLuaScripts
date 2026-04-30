@@ -13,7 +13,7 @@ pg.activity_banner = {
 				{
 					2026,
 					4,
-					23
+					30
 				},
 				{
 					0,
@@ -24,11 +24,11 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					4,
-					30
+					5,
+					13
 				},
 				{
-					14,
+					23,
 					59,
 					59
 				}
@@ -40,10 +40,10 @@ pg.activity_banner = {
 		id = 2,
 		pic = "temp2",
 		param = {
-			"scene level",
+			"scene get boat",
 			{
-				open_remaster = true,
-				isSP = false
+				projectName = "new",
+				page = 1
 			}
 		},
 		time = {
@@ -51,7 +51,7 @@ pg.activity_banner = {
 				{
 					2026,
 					4,
-					23
+					30
 				},
 				{
 					0,
@@ -62,8 +62,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					4,
-					30
+					5,
+					14
 				},
 				{
 					14,
@@ -74,16 +74,21 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5641",
-		type = 3,
+		type = 2,
 		id = 3,
 		pic = "temp3",
+		param = {
+			"scene core activity",
+			{
+				coreName = "DOACoreActivityUI"
+			}
+		},
 		time = {
 			{
 				{
 					2026,
 					4,
-					16
+					30
 				},
 				{
 					0,
@@ -94,8 +99,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					4,
-					23
+					5,
+					14
 				},
 				{
 					14,
@@ -120,7 +125,7 @@ pg.activity_banner = {
 				{
 					2026,
 					4,
-					23
+					30
 				},
 				{
 					0,
@@ -131,11 +136,11 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					4,
-					30
+					5,
+					13
 				},
 				{
-					14,
+					23,
 					59,
 					59
 				}
@@ -143,7 +148,6 @@ pg.activity_banner = {
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 5,
 		pic = "temp5",
@@ -152,15 +156,66 @@ pg.activity_banner = {
 			{
 				warp = "shopstreet"
 			}
+		},
+		time = {
+			{
+				{
+					2026,
+					4,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 6,
 		pic = "temp6",
 		param = {
 			"scene court yard"
+		},
+		time = {
+			{
+				{
+					2026,
+					4,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	{
@@ -241,10 +296,10 @@ pg.activity_banner = {
 		id = 9,
 		pic = "temp9",
 		param = {
-			"scene level",
+			"scene equip",
 			{
-				open_remaster = true,
-				isSP = false
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
 			}
 		},
 		time = {
@@ -252,7 +307,7 @@ pg.activity_banner = {
 				{
 					2026,
 					4,
-					16
+					30
 				},
 				{
 					0,
@@ -263,8 +318,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					4,
-					23
+					5,
+					14
 				},
 				{
 					14,
@@ -324,7 +379,7 @@ pg.activity_banner = {
 				{
 					2026,
 					4,
-					16
+					30
 				},
 				{
 					0,
@@ -335,8 +390,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					4,
-					22
+					5,
+					13
 				},
 				{
 					23,
@@ -734,6 +789,7 @@ pg.activity_banner = {
 		[2] = {
 			1,
 			2,
+			3,
 			4,
 			5,
 			6,
@@ -766,7 +822,6 @@ pg.activity_banner = {
 			1024
 		},
 		[3] = {
-			3,
 			10,
 			1003
 		},

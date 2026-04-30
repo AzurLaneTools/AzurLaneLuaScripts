@@ -50,18 +50,25 @@ slot0.Entrance = function(slot0, slot1)
 			end
 		end
 
-		slot1 = uv6
+		uv6:updatePlayer(uv1)
 
-		slot1:updatePlayer(uv1)
-		uv10:sendNotification(GAME.BEGIN_STAGE_DONE, {
+		slot1 = {
 			prefabFleet = {},
 			stageId = uv7,
 			system = SYSTEM_BOSS_RUSH,
 			actId = uv8,
 			token = slot0.key,
 			continuousBattleTimes = uv9.continuousBattleTimes,
-			totalBattleTimes = uv9.totalBattleTimes
-		})
+			totalBattleTimes = uv9.totalBattleTimes,
+			curIndex = uv9.curIndex,
+			maxIndex = uv9.maxIndex
+		}
+
+		if uv9.curIndex then
+			uv10:sendNotification(GAME.CONTINUE_STAGE_DONE, slot1)
+		else
+			uv10:sendNotification(GAME.BEGIN_STAGE_DONE, slot1)
+		end
 	end, function (slot0)
 		uv0:RequestFailStandardProcess(slot0)
 	end)
@@ -165,6 +172,8 @@ slot0.GetPreloadList = function(slot0)
 	for slot22, slot23 in ipairs(slot4.GetCommanderBuffRes(slot2)) do
 		table.insert(slot17, slot23)
 	end
+
+	return slot17, slot18
 end
 
 return slot0

@@ -42,11 +42,11 @@ slot0.Interactable = function(slot0)
 end
 
 slot0.IsNpcType = function(slot0)
-	return slot0.type == IslandConst.UNIT_TYPE_CHAR or slot0.type == IslandConst.UNIT_TYPE_PLAYER or slot0.type == IslandConst.UNIT_TYPE_VISITOR or slot0.type == IslandConst.UNIT_TYPE_SYSTEM or slot0.type == IslandConst.UNIT_TYPE_STROLL or slot0.type == IslandConst.UNIT_TYPE_MANAGE_CHARA or slot0.type == IslandConst.UNIT_TYPE_MANAGE_CUSTOMER or slot0.type == IslandConst.UNIT_TYPE_SYSTEM_DELEAGTION or slot0.type == IslandConst.UNIT_TYPE_SYSTEM_DELEAGTION_ANIMATION or slot0.type == IslandConst.UNIT_TYPE_FOLLOWER or slot0.type == IslandConst.UNIT_TYPE_DELEGATE_FISH
+	return slot0.type == IslandConst.UNIT_TYPE_CHAR or slot0.type == IslandConst.UNIT_TYPE_PLAYER or slot0.type == IslandConst.UNIT_TYPE_VISITOR or slot0.type == IslandConst.UNIT_TYPE_SYSTEM or slot0.type == IslandConst.UNIT_TYPE_STROLL or slot0.type == IslandConst.UNIT_TYPE_MANAGE_CHARA or slot0.type == IslandConst.UNIT_TYPE_MANAGE_CUSTOMER or slot0.type == IslandConst.UNIT_TYPE_SYSTEM_DELEAGTION or slot0.type == IslandConst.UNIT_TYPE_SYSTEM_DELEAGTION_ANIMATION or slot0.type == IslandConst.UNIT_TYPE_FOLLOWER or slot0.type == IslandConst.UNIT_TYPE_DELEGATE_FISH or slot0.type == IslandConst.UNIT_TYPE_CHEATERTAVERN_PLAYER
 end
 
 slot0.IsItemType = function(slot0)
-	return slot0.type == IslandConst.UNIT_TYPE_ITEM or slot0.type == IslandConst.UNIT_TYPE_ITEM_HANDLE_COLLECT or slot0.type == IslandConst.UNIT_TYPE_ITEM_HANDLE_PLANTING or slot0.type == IslandConst.UNIT_TYPE_ITEM_PRODUCT_ITEM or slot0.type == IslandConst.UNIT_TYPE_ITEM_GATHER_ITEM or slot0.type == IslandConst.UNIT_TYPE_ITEM_WILD_COLLECT_ITEM or slot0.type == IslandConst.UNIT_TYPE_MANAGE_ITEM or slot0.type == IslandConst.UNIT_TYPE_ITEM_DELAY_RECYCLE or slot0.type == IslandConst.UNIT_TYPE_FIRST_TAKE_PHOTO_ITEM or slot0.type == IslandConst.UNIT_TYPE_FISH_POINT
+	return slot0.type == IslandConst.UNIT_TYPE_ITEM or slot0.type == IslandConst.UNIT_TYPE_ITEM_HANDLE_COLLECT or slot0.type == IslandConst.UNIT_TYPE_ITEM_HANDLE_PLANTING or slot0.type == IslandConst.UNIT_TYPE_ITEM_PRODUCT_ITEM or slot0.type == IslandConst.UNIT_TYPE_ITEM_GATHER_ITEM or slot0.type == IslandConst.UNIT_TYPE_ITEM_WILD_COLLECT_ITEM or slot0.type == IslandConst.UNIT_TYPE_MANAGE_ITEM or slot0.type == IslandConst.UNIT_TYPE_ITEM_DELAY_RECYCLE or slot0.type == IslandConst.UNIT_TYPE_FIRST_TAKE_PHOTO_ITEM or slot0.type == IslandConst.UNIT_TYPE_CHEATERTAVERN_TABLE or slot0.type == IslandConst.UNIT_TYPE_CHEATERTAVERN_CHAIR or slot0.type == IslandConst.UNIT_TYPE_FISH_POINT
 end
 
 slot0.GetPersonality = function(slot0)
@@ -65,6 +65,7 @@ slot0.GetAssetPath = function(slot0)
 	slot1 = nil
 
 	if slot0:IsNpcType() then
+		warning(slot0.type)
 		assert(pg.island_unit_character[slot0.modelId], slot0.modelId)
 
 		slot1 = pg.island_unit_character[slot0.modelId].model
@@ -88,6 +89,8 @@ slot0.GetAnimator = function(slot0)
 		return pg.island_unit_character[slot0.modelId].animator
 	elseif slot0.type == IslandConst.UNIT_TYPE_SYSTEM then
 		return pg.island_unit_character[slot0.modelId].animator
+	elseif slot0.type == IslandConst.UNIT_TYPE_CHEATERTAVERN_PLAYER then
+		return "island/animator/ani_role_all_cheatertavern_01"
 	end
 
 	warning("目前只有角色需要动态获取动画状态机")

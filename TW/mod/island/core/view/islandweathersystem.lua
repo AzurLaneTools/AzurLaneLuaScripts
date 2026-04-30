@@ -4,6 +4,8 @@ slot2 = 240
 slot3 = 86400
 
 slot0.Ctor = function(slot0, slot1)
+	warning(tostring(slot0) .. "weatehr init")
+
 	slot0.view = slot1
 	slot0.TOD = GameObject.Find("/[MainBlock]/[Climat]/day/[Settings]/TOD_Timeline")
 	slot0._inited = false
@@ -48,7 +50,13 @@ slot0.Play = function(slot0)
 		return
 	end
 
-	slot0.director.time = slot0:GetFrame() / uv0
+	slot1 = slot0:GetFrame()
+
+	if IsNil(slot0.director) then
+		return
+	end
+
+	slot0.director.time = slot1 / uv0
 
 	slot0.director:Play()
 	slot0.speedComp:SetTimelineSpeed(uv1 / uv0 / slot0.gameDaySec)

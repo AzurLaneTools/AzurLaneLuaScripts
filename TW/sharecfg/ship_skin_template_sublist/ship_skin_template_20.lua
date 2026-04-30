@@ -1,580 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_20 = {
-	[11300041] = {
-		name = "夏日假期",
-		shop_offset = "",
-		change_skin = "",
-		illustrator2 = -1,
-		desc = "那個……這種事情，蕾妮雅還是第一次體驗……所以……沒錯！難得的機會，一定要大家一起享受才行！！",
-		group_index = 1,
-		purchase_offset = "",
-		painting = "leiniya_2",
-		lover_hand = "hand_2_01",
-		bg_sp = "",
-		shop_type_id = 20,
-		l2d_ignore_drag = 0,
-		hand_id = 16,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		lover_kiss = "lip02",
-		ship_group = 1130004,
-		bg = "106",
-		bgm = "yumia-az-story",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		special_effects = "",
-		id = 11300041,
-		voice_actor_2 = -1,
-		gyro = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		prefab = "leiniya_2",
-		l2d_se = "",
-		no_showing = "0",
-		part_scale = "",
-		main_UI_FX = "",
-		shop_id = 71161,
-		voice_actor = 371,
-		illustrator = -1,
-		rarity_bg = "",
-		shop_dynamic_hx = 0,
-		double_char = 0,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			6,
-			2,
-			5
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		spine_offset_profile = {
-			72.5,
-			-714.7,
-			0,
-			0.85
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.344,
-					1.07,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.747,
-					2.206,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.681,
-							2.382,
-							0
-						}
-					}
-				}
-			}
-		},
-		spine_offset = {
-			-246.4,
-			-834.3,
-			0,
-			0.93
-		},
-		get_showing = {
-			show = 1,
-			data = {
-				{
-					-1195,
-					-533,
-					2,
-					0,
-					200,
-					2
-				},
-				{
-					-695,
-					188,
-					2,
-					200,
-					0,
-					2
-				},
-				{
-					44,
-					-310,
-					2,
-					180,
-					-60,
-					2
-				}
-			}
-		}
-	},
-	[11400010] = {
-		name = "赫斯緹雅 ",
-		shop_offset = "",
-		change_skin = "",
-		illustrator2 = -1,
-		desc = "我是赫斯緹雅。是赫斯緹雅眷族的主神哦。別看我這樣，我可是神明大人呢！……咦？居然一點都不驚訝嗎？唔~你們跟我認識的那些孩子們，好像完全不一樣呢…… ",
-		group_index = 0,
-		purchase_offset = "",
-		painting = "hesitiya",
-		lover_hand = "hand_2_02",
-		bg_sp = "",
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		lover_kiss = "lip02",
-		ship_group = 1140001,
-		bg = "",
-		bgm = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = -1,
-		special_effects = "",
-		id = 11400010,
-		voice_actor_2 = -1,
-		gyro = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		prefab = "hesitiya",
-		l2d_se = "",
-		no_showing = "0",
-		part_scale = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 157,
-		get_showing = "",
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		shop_dynamic_hx = 0,
-		double_char = 0,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.184,
-					0.745,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.826,
-					2.389,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.718,
-							2.57,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.711,
-							2.524,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[11400011] = {
-		name = "God Vacation！",
-		change_skin = "",
-		illustrator2 = -1,
-		desc = "啊呀指揮官！你終於來了呢。等得我都有些不耐煩了呢！雖然我已經充分體驗到在海邊遊玩的樂趣了……不過我可還沒玩夠呢！接下來也要陪我一起玩哦！",
-		group_index = 1,
-		purchase_offset = "",
-		painting = "hesitiya_2",
-		lover_hand = "hand_2_02",
-		bg_sp = "",
-		shop_type_id = 6,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		lover_kiss = "lip02",
-		ship_group = 1140001,
-		bg = "539",
-		bgm = "danmachi-az-story",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		special_effects = "",
-		id = 11400011,
-		voice_actor_2 = -1,
-		gyro = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		prefab = "hesitiya_2",
-		l2d_se = "",
-		no_showing = "0",
-		part_scale = "",
-		main_UI_FX = "",
-		shop_id = 71224,
-		voice_actor = 157,
-		illustrator = -1,
-		rarity_bg = "",
-		shop_dynamic_hx = 0,
-		double_char = 0,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			6,
-			2,
-			5
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		shop_offset = {
-			-148.9,
-			-728.4,
-			0,
-			0.47
-		},
-		spine_offset_profile = {
-			-68.6,
-			-696.2,
-			0,
-			0.45
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.036,
-					0.842,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.054,
-					2.106,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.795,
-							2.503,
-							0
-						}
-					}
-				}
-			}
-		},
-		spine_offset = {
-			-24.9,
-			-761.6,
-			0,
-			0.5
-		},
-		get_showing = {
-			show = 1,
-			data = {
-				{
-					-1874,
-					91,
-					2,
-					120,
-					0,
-					2
-				},
-				{
-					486,
-					598,
-					2,
-					0,
-					-120,
-					2
-				},
-				{
-					-315,
-					-433,
-					2,
-					-120,
-					0,
-					2
-				}
-			}
-		}
-	},
-	[11400020] = {
-		name = "琉·璃昂",
-		shop_offset = "",
-		change_skin = "",
-		illustrator2 = -1,
-		desc = "請問您是？不，比起這個，這裡是……？看來這裡似乎不是歐拉麗呢。這麼說來，是您救了我吧。非常感謝。我叫琉‧璃昂，是歐拉麗酒館「豐饒的女主人」的一名服務生。",
-		group_index = 0,
-		purchase_offset = "",
-		painting = "liuliang",
-		lover_hand = "hand_2_02",
-		bg_sp = "",
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		lover_kiss = "lip02",
-		ship_group = 1140002,
-		bg = "",
-		bgm = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = -1,
-		special_effects = "",
-		id = 11400020,
-		voice_actor_2 = -1,
-		gyro = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		prefab = "liuliang",
-		l2d_se = "",
-		no_showing = "0",
-		part_scale = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 284,
-		get_showing = "",
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		shop_dynamic_hx = 0,
-		double_char = 0,
-		skeleton_default_skin = "",
-		voice_lang = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.76,
-					0.783,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.831,
-					0.715,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.727,
-					2.322,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.609,
-							2.334,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[11400021] = {
 		name = "在夜晚的酒館中 ",
 		change_skin = "",
@@ -4304,6 +3730,170 @@ pg.base.ship_skin_template_20 = {
 							0
 						}
 					}
+				}
+			}
+		}
+	},
+	[399015] = {
+		name = "夏日戀跡",
+		change_skin = "",
+		illustrator2 = -1,
+		desc = "主上，感謝您應邀前來……海風正好消暑，我還為您準備了冰冰涼涼的彈珠汽水，請試試吧？啊，我身後沙灘的那個是……沒、沒什麼///……",
+		group_index = 5,
+		purchase_offset = "",
+		painting = "yichui_7",
+		lover_hand = "hand_1_02",
+		bg_sp = "",
+		shop_type_id = 6,
+		l2d_ignore_drag = 0,
+		hand_id = 2,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		lover_kiss = "lip03",
+		ship_group = 39901,
+		bg = "164",
+		bgm = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		special_effects = "",
+		id = 399015,
+		voice_actor_2 = -1,
+		gyro = 0,
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		prefab = "yichui_7",
+		l2d_se = "",
+		no_showing = "0",
+		part_scale = "",
+		main_UI_FX = "",
+		shop_id = 71334,
+		voice_actor = 107,
+		illustrator = 1,
+		rarity_bg = "",
+		shop_dynamic_hx = 0,
+		double_char = 0,
+		skeleton_default_skin = "",
+		voice_lang = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			6,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		shop_offset = {
+			88,
+			-774,
+			0,
+			0.47
+		},
+		spine_offset_profile = {
+			152.8,
+			-778.1,
+			0,
+			0.468
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.99,
+					0.7,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.006,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.803,
+					2.184,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.446,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			4.8,
+			-719.62,
+			0,
+			0.455
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-1408,
+					65,
+					2,
+					0,
+					149,
+					2
+				},
+				{
+					-1002,
+					748,
+					2,
+					112,
+					0,
+					2
+				},
+				{
+					26,
+					-253,
+					2,
+					0,
+					-135,
+					2
 				}
 			}
 		}

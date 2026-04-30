@@ -326,7 +326,7 @@ end
 
 slot0.RefreshCanStart = function(slot0)
 	slot2 = function()
-		if uv0.selectedShip:GetCurrentEnergy() < uv0.formulaCfg.stamina_cost * (uv0.addDelegateFormulaTimes and uv0.curSelectCount - uv0.addDelegateFormulaTimes or uv0.curSelectCount) then
+		if uv0.selectedShip:GetCurrentEnergy() < math.floor(uv0.formulaCfg.stamina_cost * (1 - IslandProductCostHelper.GetReducePercentInPlace(uv0.selectedShipId, uv0.placeId))) * (uv0.addDelegateFormulaTimes and uv0.curSelectCount - uv0.addDelegateFormulaTimes or uv0.curSelectCount) then
 			return false
 		end
 

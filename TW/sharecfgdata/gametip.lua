@@ -12110,7 +12110,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "羅馬、李奧納多·達·文西等角色 建造機率UP！"
+	tip = "伊莉絲、香蒂、千乃 建造機率UP！"
 }
 
 
@@ -27886,7 +27886,7 @@ _G.pg.base.gametip.hotspring_tip1 = {
 
 
 _G.pg.base.gametip.hotspring_tip2 = {
-	tip = "溫泉幣不足~"
+	tip = "溫泉手牌不足~"
 }
 
 
@@ -27895,19 +27895,17 @@ _G.pg.base.gametip.hotspring_help = {
 		{
 			info = [[
 活動規則：
-<color=#92fc63>2023.12.21-2024.1.4維護</color>期間開啟限時活動「露天溫泉館」
-1.2023.12月28日為止，每日0點解鎖一個新任務，完成任務可獲取「溫泉幣」在內的獎勵
-2.「溫泉幣」可用於溫泉擴建，每次擴建消耗100溫泉幣
-3.幫助明石擴建溫泉可獲得報酬「溫泉券」  ，「溫泉券」可在「溫泉商店」兌換豐厚獎勵
-4.指揮官可以邀請艦船泡溫泉，溫泉可以提高入浴艦船的心情回復速度
-5.長按入浴艦船可拖動調整入浴位置]]
+<color=#92fc63>4.30-5.14 維護</color>期間開啟限時活動「啾啾溫泉」
+1.指揮官可以邀請角色泡溫泉，溫泉可以提高入浴角色的心情回復速度
+2.長按入浴角色可拖動調整入浴位置
+3.指揮官可依次通關「假日航線・閃耀海濱」SP1至SP4，取得最多4個<color=#92fc63>溫泉手牌</color>，最多可使用4個<color=#92fc63>溫泉手牌</color>擴建4個入浴位置~]]
 		}
 	}
 }
 
 
 _G.pg.base.gametip.hotspring_expand = {
-	tip = "是否消耗$1溫泉幣<icon name=wenquanbi w=0.7 h=0.7/>擴展溫泉"
+	tip = "是否消耗$1溫泉手牌<icon name=wenquanshoupai w=0.7 h=0.7/>擴展溫泉"
 }
 
 
@@ -41364,6 +41362,26 @@ _G.pg.base.gametip.spring_present_tips3 = {
 }
 
 
+_G.pg.base.gametip.aprilfool_2026_cd = {
+	tip = "冷却时间"
+}
+
+
+_G.pg.base.gametip.purplebulin_help_2026 = {
+	tip = {
+		{
+			info = [[
+活动说明：
+1.活动期间，在特定界面或关卡中可收集相应的线索
+2.当收集线索遇到困难时，可以点击线索格解锁提示
+注意：10分钟内只能解锁一个提示哦
+3.线索收集完成可以开启特别关卡，挑战特别关卡并取
+得胜利可以获得特殊奖励]]
+		}
+	}
+}
+
+
 _G.pg.base.gametip.add_friend_fail_tip9 = {
 	tip = "好友申請發送失敗，內容包含受限詞彙。"
 }
@@ -41371,6 +41389,56 @@ _G.pg.base.gametip.add_friend_fail_tip9 = {
 
 _G.pg.base.gametip.juusoa_title = {
 	tip = "啾啾熱點頻道"
+}
+
+
+_G.pg.base.gametip.doa3_activityPageUI_1 = {
+	tip = "累計假日閃耀回憶"
+}
+
+
+_G.pg.base.gametip.doa3_activityPageUI_2 = {
+	tip = "解鎖劇情並閱讀後\n可獲得獎勵"
+}
+
+
+_G.pg.base.gametip.doa3_activityPageUI_3 = {
+	tip = "前往解鎖"
+}
+
+
+_G.pg.base.gametip.doa3_activityPageUI_4 = {
+	tip = "閱讀角色故事獲得活動限定外觀獎勵"
+}
+
+
+_G.pg.base.gametip.doa3_activityPageUI_5 = {
+	tip = "閱讀劇情後獲得"
+}
+
+
+_G.pg.base.gametip.doa3_activityPageUI_6 = {
+	tip = "查看\n獎勵"
+}
+
+
+_G.pg.base.gametip.doa3_activityPageUI_7 = {
+	tip = "友好度"
+}
+
+
+_G.pg.base.gametip.cut_fruit_minigame_help = {
+	tip = {
+		{
+			info = [[
+活動規則：
+1.每日0點開放<color=#92fc63>1</color>回新遊戲，總計<color=#92fc63>7</color>回，可累計。完成7回遊戲可以獲得豐富獎勵。
+遊戲規則：
+1.每局遊戲限時60秒，輸出正確指令可靠近西瓜進行打擊。
+2.輸入錯誤指令原地等待。
+3.打擊到西瓜後，完成遊戲~]]
+		}
+	}
 }
 
 

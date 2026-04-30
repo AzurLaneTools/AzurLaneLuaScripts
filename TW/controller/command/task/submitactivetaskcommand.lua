@@ -87,17 +87,24 @@ slot0.submitActivity = function(slot0, slot1, slot2, slot3, slot4)
 					awards = slot1
 				})
 			elseif table.contains(TotalTaskProxy.activity_task_type, uv0) then
-				slot1 = PlayerConst.addTranDrop(slot0.award_list, {})
-
 				for slot5, slot6 in ipairs(uv3) do
 					uv2:updateTaskActivityData(slot6.id, uv1.act_id)
 					uv2:updateTaskBagData(slot6.id, uv1.act_id)
 					SubmitTaskCommand.OnSubmitSuccess(slot6)
 				end
 
-				uv2:sendNotification(uv2:GetSubmitActivityTaskDone(), {
-					awards = slot1
-				}, uv1.task_ids)
+				if uv1.inIsland then
+					uv2:sendNotification(GAME.SUBMIT_ACTIVITY_TASK_IN_ISLAND_DONE, {
+						dropData = IslandDropHelper.AddItems({
+							drop_list = slot0.award_list
+						}),
+						actId = uv1.act_id
+					})
+				else
+					uv2:sendNotification(uv2:GetSubmitActivityTaskDone(), {
+						awards = PlayerConst.addTranDrop(slot0.award_list, {})
+					}, uv1.task_ids)
+				end
 			elseif table.contains(TotalTaskProxy.normal_task_type, uv0) then
 				for slot5 = #PlayerConst.addTranDrop(slot0.award_list, {}), 1, -1 do
 					if table.contains(uv4, slot1[slot5].id) then
@@ -136,6 +143,7 @@ end
 slot0.updateTaskActivityData = function(slot0, slot1, slot2)
 	if getProxy(ActivityProxy):getActivityById(slot2) then
 		getProxy(ActivityTaskProxy):finishActTask(slot2, slot1)
+		slot0:sendNotification(ActivityProxy.ACTIVITY_UPDATED, slot3)
 	end
 end
 

@@ -18,6 +18,7 @@ slot0.Init = function(slot0)
 	slot0:RegisterUnitList(IslandConst.UNIT_LIST_FISH_POINT)
 	slot0:RegisterUnitList(IslandConst.UNIT_LIST_DELEGATE_UNIT)
 	slot0:RegisterUnitList(IslandConst.UNIT_LIST_PRODUCT_SYSTEM)
+	slot0:RegisterUnitList(IslandConst.UNIT_LIST_CHEATER_ITEM)
 
 	slot0.unitBuilders = {
 		[IslandConst.UNIT_TYPE_ITEM] = IslandStaticUnitBuilder.New(slot0, IslandConst.UNIT_LIST_OBJ),
@@ -41,7 +42,10 @@ slot0.Init = function(slot0)
 		[IslandConst.UNIT_TYPE_ITEM_DELAY_RECYCLE] = IslandDelayRecycleUnitBuilder.New(slot0, IslandConst.UNIT_LIST_DELAY),
 		[IslandConst.UNIT_TYPE_FIRST_TAKE_PHOTO_ITEM] = IslandTakePhotoBuilder.New(slot0, IslandConst.UNIT_LIST_PHOTO),
 		[IslandConst.UNIT_TYPE_FISH_POINT] = IslandStaticUnitBuilder.New(slot0, IslandConst.UNIT_LIST_FISH_POINT),
-		[IslandConst.UNIT_TYPE_DELEGATE_FISH] = IslandDelegationFishBuilder.New(slot0, IslandConst.UNIT_LIST_DELEGATE_UNIT)
+		[IslandConst.UNIT_TYPE_DELEGATE_FISH] = IslandDelegationFishBuilder.New(slot0, IslandConst.UNIT_LIST_DELEGATE_UNIT),
+		[IslandConst.UNIT_TYPE_CHEATERTAVERN_PLAYER] = IslandCheaterTavernPlayerBuilder.New(slot0, IslandConst.UNIT_LIST_PLAYER),
+		[IslandConst.UNIT_TYPE_CHEATERTAVERN_TABLE] = IslandCheaterTavernTableBuilder.New(slot0, IslandConst.UNIT_LIST_CHEATER_ITEM),
+		[IslandConst.UNIT_TYPE_CHEATERTAVERN_CHAIR] = IslandCheaterTavernChairBuilder.New(slot0, IslandConst.UNIT_LIST_CHEATER_ITEM)
 	}
 	slot0.systemBuilders = {
 		[IslandConst.SYSTEM_TYPE_CHARACTER] = IslandSystemBuilder.New(slot0, IslandCharacterSystem),
@@ -60,6 +64,11 @@ slot0.Init = function(slot0)
 	slot0.coupleNpcWordPlayer = IslandCoupleNpcWordPlayer.New(slot0)
 	slot0.pathfinders = {}
 	slot0.fishingSynPlayers = {}
+
+	slot0:CreateViews()
+end
+
+slot0.CreateViews = function(slot0)
 	slot0.views = {
 		slot0:CreateInteractionView(),
 		slot0:CreateDistanceView(),
@@ -1711,6 +1720,7 @@ slot0.OnDispose = function(slot0)
 	slot0.detectionSystem = nil
 	slot0.effectMgr = nil
 	slot0.coupleNpcWordPlayer = nil
+	slot0.weatherSystem = nil
 end
 
 return slot0

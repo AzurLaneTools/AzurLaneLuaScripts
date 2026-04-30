@@ -11,13 +11,13 @@ slot0.GEN_RECYCLEITEM = "IslandProxy:GEN_RECYCLEITEM"
 slot0.LOCK_NPC_REFRESH = "IslandProxy:LOCK_NPC_REFRESH"
 slot0.RELEASE_NPC_REFRESH = "IslandProxy:RELEASE_NPC_REFRESH"
 slot0.RESET_SP = "IslandProxy:RESET_SP"
+slot0.PRESS_BACK = "IslandProxy:PRESS_BACK"
 slot0.CHAT_MSG_UPDATE = "IslandProxy:CHAT_MSG_UPDATE"
 
 slot0.register = function(slot0)
 	slot0.cahce = {}
 	slot0.giftCache = {}
 	slot0.chatMsgs = {}
-	slot0.reconnectProcessing = false
 	slot0.islandHeartBeatMgr = IslandHearBeatMgr.New()
 
 	slot0:on(21216, function (slot0)
@@ -32,16 +32,6 @@ slot0.register = function(slot0)
 			end
 		end
 	end)
-end
-
-slot0.SetReconnectProcessing = function(slot0, slot1)
-	slot0.reconnectProcessing = slot1 and true or false
-
-	warning("IslandProxy:SetReconnectProcessing", slot0.reconnectProcessing)
-end
-
-slot0.IsReconnectProcessing = function(slot0)
-	return slot0.reconnectProcessing == true
 end
 
 slot0.AddChatMsg = function(slot0, slot1, slot2)

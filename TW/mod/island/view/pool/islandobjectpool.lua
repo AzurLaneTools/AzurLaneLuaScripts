@@ -12,6 +12,10 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.insIdList = {}
 end
 
+slot0.SetInstanceDestroyPreProcessor = function(slot0, slot1)
+	slot0.instanceDestroyPreProcessor = slot1
+end
+
 slot0.Isloaded = function(slot0)
 	return slot0.asset ~= nil
 end
@@ -94,6 +98,7 @@ slot0.Enqueue = function(slot0, slot1)
 	assert(slot1, "item is nil")
 
 	if slot0.capacity <= #slot0.items then
+		existCall(slot0.instanceDestroyPreProcessor, slot1)
 		Object.Destroy(slot1)
 
 		return
@@ -109,6 +114,7 @@ end
 
 slot0.Clear = function(slot0)
 	for slot4, slot5 in ipairs(slot0.items) do
+		existCall(slot0.instanceDestroyPreProcessor, slot5)
 		Object.Destroy(slot5)
 	end
 

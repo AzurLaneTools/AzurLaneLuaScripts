@@ -93,6 +93,14 @@ slot0.REFRESH_SHIP_ORDER = "IslandMediator:REFRESH_SHIP_ORDER"
 slot0.EXCHANGE_SHIP_ORDER = "IslandMediator:EXCHANGE_SHIP_ORDER"
 slot0.RESET_SHIP_ORDER = "IslandMediator:RESET_SHIP_ORDER"
 slot0.GET_AUTO_COLLECTION_DATA = "IslandMediator:GET_AUTO_COLLECTION_DATA"
+slot0.PLAY_ROOM_INVITE_AGREE = "IslandMediator:PLAY_ROOM_INVITE_AGREE"
+slot0.PLAY_ROOM_INVITE_REFUSE = "IslandMediator:PLAY_ROOM_INVITE_REFUSE"
+slot0.PLAY_ROOM_MATCH_STOP = "IslandMediator:PLAY_ROOM_MATCH_STOP"
+slot0.CHEATER_TAVERN_OPERATE = "IslandMediator:CHEATER_TAVERN_OPERATE"
+slot0.CHEATER_TAVERN_CANCEL_DELEGATE = "IslandMediator:CHEATER_TAVERN_CANCEL_DELEGATE"
+slot0.CHEATER_TAVERN_START_SOLO_GAME = "IslandMediator:CHEATER_TAVERN_START_SOLO_GAME"
+slot0.CHEATER_TAVERN_END_SOLO_GAME = "IslandMediator:CHEATER_TAVERN_END_SOLO_GAME"
+slot0.SHOW_MSG_BOX = "IslandMediator:SHOW_MSG_BOX"
 
 slot0._register = function(slot0)
 	slot0:bind(uv0.RESET_SHIP_ORDER, function (slot0)
@@ -631,6 +639,39 @@ slot0._register = function(slot0)
 			type = slot1
 		})
 	end)
+	slot0:bind(uv0.PLAY_ROOM_INVITE_AGREE, function (slot0, slot1)
+		uv0:sendNotification(GAME.PLAY_ROOM_JOIN_ROOM, slot1)
+	end)
+	slot0:bind(uv0.PLAY_ROOM_INVITE_REFUSE, function (slot0, slot1)
+		uv0:sendNotification(GAME.PLAY_ROOM_INVITE_REFUSE, slot1)
+	end)
+	slot0:bind(uv0.PLAY_ROOM_MATCH_STOP, function (slot0)
+		uv0:sendNotification(GAME.PLAY_ROOM_EXIT_ROOM, {
+			arg = 0
+		})
+	end)
+	slot0:bind(uv0.CHEATER_TAVERN_OPERATE, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.ISLAND_PLAYER_CHEATER_OPERATE, {
+			type = slot1,
+			arg_list = slot2
+		})
+	end)
+	slot0:bind(uv0.CHEATER_TAVERN_CANCEL_DELEGATE, function (slot0, slot1)
+		uv0:sendNotification(GAME.ISLAND_PLAYER_CHEATER_CANCEL_DELEGATE, {
+			type = 1
+		})
+	end)
+	slot0:bind(uv0.CHEATER_TAVERN_START_SOLO_GAME, function (slot0)
+		uv0:sendNotification(GAME.ISLAND_CHEATER_START_SOLO_GAME, {
+			bot_num = 3
+		})
+	end)
+	slot0:bind(uv0.CHEATER_TAVERN_END_SOLO_GAME, function (slot0)
+		uv0:sendNotification(GAME.ISLAND_CHEATER_END_SOLO_GAME)
+	end)
+	slot0:bind(uv0.SHOW_MSG_BOX, function (slot0, slot1)
+		uv0.viewComponent:ShowMsgbox(slot1)
+	end)
 end
 
 slot0._listNotificationInterests = function(slot0)
@@ -648,6 +689,7 @@ slot0._listNotificationInterests = function(slot0)
 		GAME.ISLAND_UPDATE_TASK_DONE,
 		GAME.ISLAND_SUBMIT_TASK_DONE,
 		GAME.ISLAND_SUBMIT_TASK_ONE_STEP_DONE,
+		GAME.SUBMIT_ACTIVITY_TASK_IN_ISLAND_DONE,
 		GAME.ISLAND_SET_TRACE_TASK_DONE,
 		GAME.ISLAND_GET_ACHV_AWARD_DONE,
 		GAME.ISLAND_SETTING_FLAG_DONE,
@@ -715,14 +757,33 @@ slot0._listNotificationInterests = function(slot0)
 		NotificationProxy.FRIEND_REQUEST_REMOVED,
 		NotificationProxy.FRIEND_REQUEST_ADDED,
 		ActivityProxy.ACTIVITY_UPDATED,
-		IslandShipOrderCard.EVENT_CD_END
+		IslandShipOrderCard.EVENT_CD_END,
+		GAME.PLAY_ROOM_JOIN_ROOM_DONE,
+		GAME.PLAY_ROOM_MATCH_ENTER_READY_ROOM,
+		GAME.ISLAND_CHEATER_FIRSTROND_START,
+		GAME.ISLAND_PLAYER_CHEATER_OPERATE_DONE,
+		GAME.ISLAND_CHEATER_OPERATE_DONE_NOTIFY,
+		GAME.ISLAND_CHEATER_END_SCORE_NOTIFY,
+		GAME.ISLAND_CHEATER_REAL_END_NOTIFY,
+		GAME.ISLAND_CHEATER_START_SOLO_GAME_DONE,
+		GAME.ISLAND_CHEATER_END_SOLO_GAME_DONE,
+		GAME.ISLAND_CHEATER_RECONNECT,
+		CheaterTavernEvent.PLAY_ROOM_LOAD_ROOM_SCENE,
+		GAME.LOAD_LAYERS,
+		CheaterTavernEvent.OPEN_SELECT_SHIP,
+		GAME.PLAY_ROOM_ALL_LOAD_OVER,
+		GAME.PLAY_ROOM_REDAY_ROOM_REFRESH,
+		GAME.PLAY_ROOM_MATCH_REDAY_ROOM_REFRESH,
+		GAME.ISLAND_CHEATER_DELEGATE_NOTIFY,
+		CheaterTavernEvent.CLOSE_SHIP_SELECT_PAGE,
+		IslandProxy.PRESS_BACK
 	}
 end
 
 slot0._handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
-	if slot1:getName() == GAME.ISLAND_PROSPERITY_AWARD_DONE or slot2 == GAME.ISLAND_CONVERT_SEASON_PT_DONE or slot2 == GAME.ISLAND_GET_SEASON_PT_AWARD_DONE or slot2 == GAME.ISLAND_GET_ACHV_AWARD_DONE or slot2 == GAME.ISLAND_FINISH_TECH_DONE or slot2 == GAME.ISLAND_FINISH_TECH_IMMD_DONE or slot2 == GAME.ISLAND_SUBMIT_TASK_ONE_STEP_DONE or slot2 == GAME.ISLAND_GET_POINT_AWARD_DONE or slot2 == GAME.ISLAND_UNLOCK_ILLUSTRATION_DONE or slot2 == GAME.ISLAND_EXCHANGE_ITEM_DONE or slot2 == GAME.ISLAND_SHIP_ORDER_OP_DONE or slot2 == GAME.ISLAND_GET_DELEGATION_AWARD_DONE or slot2 == GAME.ISLAND_GET_NPC_ACTION_AWARD_DONE then
+	if slot1:getName() == GAME.ISLAND_PROSPERITY_AWARD_DONE or slot2 == GAME.ISLAND_CONVERT_SEASON_PT_DONE or slot2 == GAME.ISLAND_GET_SEASON_PT_AWARD_DONE or slot2 == GAME.ISLAND_GET_ACHV_AWARD_DONE or slot2 == GAME.ISLAND_FINISH_TECH_DONE or slot2 == GAME.ISLAND_FINISH_TECH_IMMD_DONE or slot2 == GAME.ISLAND_SUBMIT_TASK_ONE_STEP_DONE or slot2 == GAME.SUBMIT_ACTIVITY_TASK_IN_ISLAND_DONE or slot2 == GAME.ISLAND_GET_POINT_AWARD_DONE or slot2 == GAME.ISLAND_UNLOCK_ILLUSTRATION_DONE or slot2 == GAME.ISLAND_EXCHANGE_ITEM_DONE or slot2 == GAME.ISLAND_SHIP_ORDER_OP_DONE or slot2 == GAME.ISLAND_GET_DELEGATION_AWARD_DONE or slot2 == GAME.ISLAND_GET_NPC_ACTION_AWARD_DONE then
 		slot0.viewComponent:HandleAwardDisplay(slot3.dropData, slot3.callback)
 	elseif slot2 == GAME.ISLAND_INVITE_SHIP_DONE then
 		slot0:HandleShipDisplay(slot3.ship)
@@ -843,6 +904,20 @@ slot0._handleNotification = function(slot0, slot1)
 				uv0.viewComponent:emitCoreController(IslandProxy.RESET_SP)
 			end
 		})
+	elseif slot2 == GAME.PLAY_ROOM_JOIN_ROOM_DONE then
+		if getProxy(ContextProxy):getCurrentContext():getContextByMediator(PlayRoomMainMediator) == nil then
+			if slot0.viewComponent:GetPage(IslandCheaterTavernPrepareMainPage) then
+				slot0:sendNotification(CheaterTavernEvent.PLAY_ROOM_LOAD_ROOM_SCENE, IslandCheaterTavernConst.SceneRoomType.CustomRoom)
+			else
+				slot0.viewComponent:OpenPage(_G.IslandCheaterTavernPrepareMainPage, true, IslandCheaterTavernConst.SceneRoomType.CustomRoom)
+			end
+		end
+	elseif slot2 == GAME.PLAY_ROOM_MATCH_ENTER_READY_ROOM then
+		if slot0.viewComponent:GetPage(IslandCheaterTavernPrepareMainPage) then
+			slot0:sendNotification(CheaterTavernEvent.PLAY_ROOM_LOAD_ROOM_SCENE, IslandCheaterTavernConst.SceneRoomType.MatchInfoRoom)
+		else
+			slot0.viewComponent:OpenPage(_G.IslandCheaterTavernPrepareMainPage, true, IslandCheaterTavernConst.SceneRoomType.MatchInfoRoom)
+		end
 	end
 end
 

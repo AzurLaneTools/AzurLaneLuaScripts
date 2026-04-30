@@ -6,8 +6,6 @@ end
 
 slot0.UpdateData = function(slot0, slot1)
 	slot0.ship_id = slot1.ship_id
-	slot0.max_times = slot1.max_times
-	slot0.get_times = slot1.get_times
 	slot0.formula_id = slot1.formula_id
 	slot0.start_time = slot1.start_time
 
@@ -20,10 +18,6 @@ slot0.UpdateData = function(slot0, slot1)
 	slot0:SetIsSend(false)
 end
 
-slot0.ResetGetTimes = function(slot0, slot1)
-	slot0.get_times = slot0.get_times + slot1
-end
-
 slot0.AddExtraList = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
 		table.insert(slot0.extraList, slot6)
@@ -31,33 +25,15 @@ slot0.AddExtraList = function(slot0, slot1)
 end
 
 slot0.GetExtraMainProduct = function(slot0, slot1)
-	for slot5, slot6 in ipairs(slot0.extraList) do
-		if slot6.num == slot1 then
-			return slot6.main_extra
-		end
-	end
-
-	return 0
+	return slot0.extraList[slot1] and slot0.extraList[slot1].main_extra or 0
 end
 
 slot0.GetExtraExtraProduct = function(slot0, slot1)
-	for slot5, slot6 in ipairs(slot0.extraList) do
-		if slot6.num == slot1 then
-			return slot6.other_extra
-		end
-	end
-
-	return 0
+	return slot0.extraList[slot1] and slot0.extraList[slot1].other_extra or 0
 end
 
 slot0.GetExtraExtraCost = function(slot0, slot1)
-	for slot5, slot6 in ipairs(slot0.extraList) do
-		if slot6.num == slot1 then
-			return slot6.cost_extra
-		end
-	end
-
-	return 0
+	return slot0.extraList[slot1] and slot0.extraList[slot1].cost_extra or 0
 end
 
 slot0.AddCostList = function(slot0, slot1)
@@ -163,17 +139,21 @@ slot0.CheckDelegationIsEnd = function(slot0)
 end
 
 slot0.CanRewardTimes = function(slot0)
-	return slot0:InCurrentTime() - 1 - slot0.get_times
+	if slot0.end_time <= pg.TimeMgr.GetInstance():GetServerTime() then
+		return #slot0.cost_time_list
+	end
+
+	return slot0:InCurrentTime() - 1
 end
 
 slot0.GetCurrentCanRewardExtraMainNum = function(slot0)
-	slot3 = 0
+	slot2 = 0
 
-	for slot7 = slot0:InCurrentTime() - 1, slot0.get_times + 1, -1 do
-		slot3 = slot3 + slot0:GetExtraMainProduct(slot7)
+	for slot6 = 1, slot0:InCurrentTime() - 1 do
+		slot2 = slot2 + slot0:GetExtraMainProduct(slot6)
 	end
 
-	return slot3
+	return slot2
 end
 
 slot0.GetReturnExtraNum = function(slot0, slot1)
@@ -188,6 +168,16 @@ end
 
 slot0.LastTimes = function(slot0)
 	return #slot0.cost_time_list - (slot0:InCurrentTime() - 1)
+end
+
+slot0.OnGetAwardMidway = function(slot0, slot1, slot2, slot3)
+	slot0.start_time = slot1
+
+	slot0:SetCostList(slot2)
+
+	for slot7 = 1, slot3 do
+		table.remove(slot0.extraList, 1)
+	end
 end
 
 return slot0

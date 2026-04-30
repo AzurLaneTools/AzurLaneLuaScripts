@@ -7018,7 +7018,64 @@ pg.activity_ins_chat_language = setmetatable({
 		8944,
 		8945,
 		8946,
-		8947
+		8947,
+		9110,
+		9111,
+		9112,
+		9113,
+		9114,
+		9115,
+		9116,
+		9117,
+		9118,
+		9119,
+		9120,
+		9121,
+		9122,
+		9123,
+		9124,
+		9125,
+		9126,
+		9127,
+		9128,
+		9129,
+		9130,
+		9131,
+		9132,
+		9133,
+		9134,
+		9135,
+		9136,
+		9137,
+		9138,
+		9139,
+		9140,
+		9141,
+		9142,
+		9143,
+		9144,
+		9145,
+		9146,
+		9147,
+		9148,
+		9149,
+		9150,
+		9151,
+		9152,
+		9153,
+		9154,
+		9155,
+		9156,
+		9157,
+		9158,
+		9159,
+		9160,
+		9161,
+		9162,
+		9163,
+		9164,
+		9165,
+		9166
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -68988,5 +69045,480 @@ pg.base.activity_ins_chat_language = {
 		type = 1,
 		id = 8947,
 		flag = 2
+	},
+	[9110] = {
+		param = "嗚……怎麼會這樣……！",
+		ship_group = 10125,
+		option = "",
+		type = 1,
+		id = 9110,
+		flag = 0
+	},
+	[9111] = {
+		param = "哈曼昨晚放在冰箱裡的冰棒，不見了……！！",
+		ship_group = 10125,
+		option = "",
+		type = 1,
+		id = 9111,
+		flag = 0
+	},
+	[9112] = {
+		param = "什麼什麼？！光天化日！朗朗乾坤！宿舍內竟有重大案件發生？！！",
+		ship_group = 10149,
+		type = 1,
+		id = 9112,
+		flag = 0,
+		option = {
+			{
+				1,
+				"冰棒失蹤，確實是一件大事！"
+			},
+			{
+				2,
+				"不算「重大案件」吧……？"
+			}
+		}
+	},
+	[9113] = {
+		param = "雪糕失蹤，確實是一件大事！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9113,
+		flag = 1
+	},
+	[9114] = {
+		param = "不算「重大案件」吧……？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9114,
+		flag = 2
+	},
+	[9115] = {
+		param = "連指揮官都被吸引來了，看來確實很重大嘛~",
+		ship_group = 10806,
+		option = "",
+		type = 1,
+		id = 9115,
+		flag = 0
+	},
+	[9116] = {
+		param = "冰棒神祕失蹤事件……人人都應該挺身而出，執行正義！",
+		ship_group = 10144,
+		option = "",
+		type = 1,
+		id = 9116,
+		flag = 0
+	},
+	[9117] = {
+		param = "艾塞克斯昨晚挺晚回來的，有注意到什麼異常情況嗎？",
+		ship_group = 10738,
+		option = "",
+		type = 1,
+		id = 9117,
+		flag = 0
+	},
+	[9118] = {
+		param = "唔？",
+		ship_group = 10709,
+		option = "",
+		type = 1,
+		id = 9118,
+		flag = 0
+	},
+	[9119] = {
+		param = "我昨晚是和大黃蜂她們一起在外面聚餐吃飯，才剛睡醒……",
+		ship_group = 10709,
+		option = "",
+		type = 1,
+		id = 9119,
+		flag = 0
+	},
+	[9120] = {
+		param = "要說異常的話……似乎沒有？",
+		ship_group = 10709,
+		option = "",
+		type = 1,
+		id = 9120,
+		flag = 0
+	},
+	[9121] = {
+		param = "欸~<color=#93e9ff>@DD_Hammann</color> 妳說的是妳昨天排了半小時的隊，才買到的限定款開心果香草冰棒嗎~",
+		ship_group = 10124,
+		option = "",
+		type = 1,
+		id = 9121,
+		flag = 0
+	},
+	[9122] = {
+		param = "西姆斯！我聽到妳的笑聲了！再笑……我就把妳買的那份吃掉！",
+		ship_group = 10125,
+		option = "",
+		type = 1,
+		id = 9122,
+		flag = 0
+	},
+	[9123] = {
+		param = "嘻嘻，看在妳這麼可憐的份上，就隨妳啦~",
+		ship_group = 10124,
+		option = "",
+		type = 1,
+		id = 9123,
+		flag = 0
+	},
+	[9124] = {
+		param = "如果想吃冰的甜點，我這裡還有不少冰淇淋，要來選選看嘛？",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 9124,
+		flag = 0
+	},
+	[9125] = {
+		param = "冰棒的話……我也可以支援",
+		ship_group = 10107,
+		option = "",
+		type = 1,
+		id = 9125,
+		flag = 0
+	},
+	[9126] = {
+		param = "我和約克鎮剛訂購了五箱冰棒，十分鐘後送到，就放在公共區域",
+		ship_group = 10706,
+		option = "",
+		type = 1,
+		id = 9126,
+		flag = 0
+	},
+	[9127] = {
+		param = "哈曼，選了妳想吃的開心果香草口味，記得來拿哦",
+		ship_group = 10705,
+		option = "",
+		type = 1,
+		id = 9127,
+		flag = 0
+	},
+	[9128] = {
+		param = "……謝謝大家！但是……但是……",
+		ship_group = 10125,
+		option = "",
+		type = 1,
+		id = 9128,
+		flag = 0
+	},
+	[9129] = {
+		param = "哈曼的話，肯定還是想吃自己努力排隊買回來的雪糕吧~真傷腦筋呢",
+		ship_group = 10124,
+		option = "",
+		type = 1,
+		id = 9129,
+		flag = 0
+	},
+	[9130] = {
+		param = "那會不會是被哪個同伴誤拿啦？",
+		ship_group = 10208,
+		option = "",
+		type = 1,
+		id = 9130,
+		flag = 0
+	},
+	[9131] = {
+		param = "或者是有人在惡作劇——",
+		ship_group = 10314,
+		option = "",
+		type = 1,
+		id = 9131,
+		flag = 0
+	},
+	[9132] = {
+		param = "欸欸欸！不是我不是我！我那時候正在表演一飛沖天給指揮官看呢！",
+		ship_group = 10110,
+		option = "",
+		type = 1,
+		id = 9132,
+		flag = 0
+	},
+	[9133] = {
+		param = "欸欸欸！也不是我！我那時候正在跟指揮官玩捉迷藏呢！",
+		ship_group = 10802,
+		option = "",
+		type = 1,
+		id = 9133,
+		flag = 0
+	},
+	[9134] = {
+		param = "……欸？妳也在找指揮官？",
+		ship_group = 10110,
+		option = "",
+		type = 1,
+		id = 9134,
+		flag = 0
+	},
+	[9135] = {
+		param = "……欸？妳也在找指揮官？",
+		ship_group = 10802,
+		option = "",
+		type = 1,
+		id = 9135,
+		flag = 0
+	},
+	[9136] = {
+		param = "妳們倆，事前沒對過口徑嗎",
+		ship_group = 10155,
+		type = 1,
+		id = 9136,
+		flag = 0,
+		option = {
+			{
+				3,
+				"找我嗎？"
+			}
+		}
+	},
+	[9137] = {
+		param = "找我嗎？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9137,
+		flag = 3
+	},
+	[9138] = {
+		param = "糟糕！忘記指揮官也在！",
+		ship_group = 10110,
+		option = "",
+		type = 1,
+		id = 9138,
+		flag = 3
+	},
+	[9139] = {
+		param = "對不起~但是說自己在這段時間裡什麼禍都沒闖，不是顯得很可疑嘛——",
+		ship_group = 10110,
+		option = "",
+		type = 1,
+		id = 9139,
+		flag = 3
+	},
+	[9140] = {
+		param = "就是就是！",
+		ship_group = 10802,
+		option = "",
+		type = 1,
+		id = 9140,
+		flag = 3
+	},
+	[9141] = {
+		param = "喲！大家聊什麼呢，這麼熱鬧？",
+		ship_group = 10707,
+		option = "",
+		type = 1,
+		id = 9141,
+		flag = 3
+	},
+	[9142] = {
+		param = "正在破解哈曼的冰棒神秘失蹤之謎！",
+		ship_group = 10149,
+		option = "",
+		type = 1,
+		id = 9142,
+		flag = 3
+	},
+	[9143] = {
+		param = "冰棒……？難不成剛好是……開心果香草口味的？",
+		ship_group = 10707,
+		option = "",
+		type = 1,
+		id = 9143,
+		flag = 3
+	},
+	[9144] = {
+		param = "！！沒錯……！",
+		ship_group = 10125,
+		option = "",
+		type = 1,
+		id = 9144,
+		flag = 3
+	},
+	[9145] = {
+		param = "大黃蜂，妳這個戴牛仔帽的傢伙竟然也……",
+		ship_group = 19902,
+		option = "",
+		type = 1,
+		id = 9145,
+		flag = 3
+	},
+	[9146] = {
+		param = "201",
+		ship_group = 10709,
+		option = "",
+		type = 4,
+		id = 9146,
+		flag = 3
+	},
+	[9147] = {
+		param = "啊？不是！不是我幹的啊！",
+		ship_group = 10707,
+		option = "",
+		type = 1,
+		id = 9147,
+		flag = 3
+	},
+	[9148] = {
+		param = "艾塞克斯妳昨晚聚餐上多喝了幾杯酒，回來之後非要去冰箱裡找點能解酒的點心",
+		ship_group = 10707,
+		option = "",
+		type = 1,
+		id = 9148,
+		flag = 3
+	},
+	[9149] = {
+		param = "然後就抱著哈曼的冰棒盒子邊吃邊哭著喊「被小看了！真是被小看了！」，你都忘了嗎！",
+		ship_group = 10707,
+		option = "",
+		type = 1,
+		id = 9149,
+		flag = 3
+	},
+	[9150] = {
+		param = "…………",
+		ship_group = 10709,
+		option = "",
+		type = 1,
+		id = 9150,
+		flag = 3
+	},
+	[9151] = {
+		param = "房間裡確實有昨晚帶回來的冰棒盒…………",
+		ship_group = 10709,
+		option = "",
+		type = 1,
+		id = 9151,
+		flag = 3
+	},
+	[9152] = {
+		param = "這麼快就破案了！大黃蜂真是太聰明！",
+		ship_group = 10208,
+		option = "",
+		type = 1,
+		id = 9152,
+		flag = 3
+	},
+	[9153] = {
+		param = "哈哈謝謝誇獎——怎麼感覺哪裡不太對勁……",
+		ship_group = 10707,
+		type = 1,
+		id = 9153,
+		flag = 3,
+		option = {
+			{
+				4,
+				"喝醉的艾塞克斯……"
+			}
+		}
+	},
+	[9154] = {
+		param = "喝醉的艾塞克斯，確實不記得自己做了什麼",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9154,
+		flag = 4
+	},
+	[9155] = {
+		param = "也是情有可原",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9155,
+		flag = 4
+	},
+	[9156] = {
+		param = "話雖如此……哈曼對不起！作為補償，我來承包你之後一年的冰棒！",
+		ship_group = 10709,
+		option = "",
+		type = 1,
+		id = 9156,
+		flag = 4
+	},
+	[9157] = {
+		param = "一年什麼的也太誇張啦……！",
+		ship_group = 10125,
+		option = "",
+		type = 1,
+		id = 9157,
+		flag = 4
+	},
+	[9158] = {
+		param = "嘻嘻，她這是接受了的意思哦",
+		ship_group = 10124,
+		option = "",
+		type = 1,
+		id = 9158,
+		flag = 4
+	},
+	[9159] = {
+		param = "喂——！",
+		ship_group = 10125,
+		option = "",
+		type = 1,
+		id = 9159,
+		flag = 4
+	},
+	[9160] = {
+		param = "太好了~我也鬆了一口氣，果然不是我幹的嘛~",
+		ship_group = 10110,
+		option = "",
+		type = 1,
+		id = 9160,
+		flag = 4
+	},
+	[9161] = {
+		param = "這麼不確定的口吻，很可疑~",
+		ship_group = 10112,
+		option = "",
+		type = 1,
+		id = 9161,
+		flag = 4
+	},
+	[9162] = {
+		param = "說起來，微醺後的冰棒，聽起來也很美味呢？",
+		ship_group = 10139,
+		option = "",
+		type = 1,
+		id = 9162,
+		flag = 4
+	},
+	[9163] = {
+		param = "如果有人想試試壞孩子的飲料，米勒大人不吝幫忙哦——",
+		ship_group = 10153,
+		option = "",
+		type = 1,
+		id = 9163,
+		flag = 4
+	},
+	[9164] = {
+		param = "我要我要！",
+		ship_group = 10110,
+		option = "",
+		type = 1,
+		id = 9164,
+		flag = 4
+	},
+	[9165] = {
+		param = "我要我要！",
+		ship_group = 10802,
+		option = "",
+		type = 1,
+		id = 9165,
+		flag = 4
+	},
+	[9166] = {
+		param = "30",
+		ship_group = 10802,
+		option = "",
+		type = 4,
+		id = 9166,
+		flag = 4
 	}
 }

@@ -34899,3 +34899,978 @@ _G.pg.base.spweapon_data_statistics[14870] = {
 		}
 	}
 }
+
+
+_G.pg.base.spweapon_data_statistics[15200] = {
+	attribute_1 = "air",
+	name = "史多倫麵包",
+	type = 7,
+	tech = 0,
+	value_1_random = 0,
+	rarity = 4,
+	effect_id_display = 106520,
+	value_2_random = 0,
+	effect_id = 106520,
+	attribute_2 = "hit",
+	next = 15201,
+	upgrade_id = 10001,
+	value_2 = 16,
+	icon = "15200",
+	value_1 = 27,
+	level = 1,
+	descrip = "伊莉絲的專屬兵裝",
+	uncraftable = 1,
+	unique = 1060010,
+	important = 2,
+	prev = 0,
+	id = 15200,
+	usability = {
+		7
+	},
+	skill_upgrade = {
+		{
+			0,
+			106510
+		}
+	},
+	hide_buff_upgrade = {},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[15201] = {
+	upgrade_id = 10002,
+	prev = 15200,
+	next = 15202,
+	base = 15200,
+	id = 15201,
+	value_2 = 17,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[15202] = {
+	upgrade_id = 10003,
+	prev = 15201,
+	next = 15203,
+	base = 15200,
+	id = 15202,
+	value_2 = 17,
+	value_1 = 28,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[15203] = {
+	upgrade_id = 10004,
+	prev = 15202,
+	next = 15204,
+	base = 15200,
+	id = 15203,
+	value_2 = 18,
+	value_1 = 28,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[15204] = {
+	upgrade_id = 10005,
+	prev = 15203,
+	next = 15205,
+	base = 15200,
+	id = 15204,
+	value_2 = 18,
+	value_1 = 29,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[15205] = {
+	upgrade_id = 10006,
+	prev = 15204,
+	next = 15206,
+	base = 15200,
+	id = 15205,
+	value_2 = 19,
+	value_1 = 30,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[15206] = {
+	upgrade_id = 10007,
+	prev = 15205,
+	next = 15207,
+	base = 15200,
+	id = 15206,
+	value_2 = 19,
+	value_1 = 31,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[15207] = {
+	upgrade_id = 10008,
+	prev = 15206,
+	next = 15208,
+	base = 15200,
+	id = 15207,
+	value_2 = 20,
+	value_1 = 32,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[15208] = {
+	upgrade_id = 10009,
+	prev = 15207,
+	next = 15209,
+	base = 15200,
+	id = 15208,
+	value_2 = 20,
+	value_1 = 33,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[15209] = {
+	upgrade_id = 10010,
+	prev = 15208,
+	next = 15210,
+	base = 15200,
+	id = 15209,
+	value_2 = 21,
+	value_1 = 34,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[15210] = {
+	id = 15210,
+	upgrade_id = 10011,
+	base = 15200,
+	next = 0,
+	prev = 15209,
+	value_2 = 22,
+	value_1 = 35,
+	level = 11,
+	skill_upgrade = {
+		{
+			106500,
+			106510
+		}
+	}
+}
+
+
+_G.pg.base.spweapon_data_statistics[15220] = {
+	attribute_1 = "cannon",
+	name = "柳葉魚天婦羅",
+	type = 6,
+	tech = 0,
+	value_1_random = 0,
+	rarity = 4,
+	effect_id_display = 106400,
+	value_2_random = 0,
+	effect_id = 106400,
+	attribute_2 = "hit",
+	next = 15221,
+	upgrade_id = 10001,
+	value_2 = 7,
+	icon = "15220",
+	value_1 = 25,
+	level = 1,
+	descrip = "雫的專屬特殊兵裝",
+	uncraftable = 1,
+	unique = 1060011,
+	important = 2,
+	prev = 0,
+	id = 15220,
+	usability = {
+		5
+	},
+	skill_upgrade = {
+		{
+			0,
+			106390
+		}
+	},
+	hide_buff_upgrade = {},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[15221] = {
+	upgrade_id = 10002,
+	prev = 15220,
+	next = 15222,
+	base = 15220,
+	id = 15221,
+	value_2 = 8,
+	value_1 = 26,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[15222] = {
+	upgrade_id = 10003,
+	prev = 15221,
+	next = 15223,
+	base = 15220,
+	id = 15222,
+	value_2 = 9,
+	value_1 = 27,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[15223] = {
+	upgrade_id = 10004,
+	prev = 15222,
+	next = 15224,
+	base = 15220,
+	id = 15223,
+	value_2 = 9,
+	value_1 = 28,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[15224] = {
+	upgrade_id = 10005,
+	prev = 15223,
+	next = 15225,
+	base = 15220,
+	id = 15224,
+	value_2 = 10,
+	value_1 = 29,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[15225] = {
+	upgrade_id = 10006,
+	prev = 15224,
+	next = 15226,
+	base = 15220,
+	id = 15225,
+	value_2 = 10,
+	value_1 = 30,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[15226] = {
+	upgrade_id = 10007,
+	prev = 15225,
+	next = 15227,
+	base = 15220,
+	id = 15226,
+	value_2 = 11,
+	value_1 = 31,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[15227] = {
+	upgrade_id = 10008,
+	prev = 15226,
+	next = 15228,
+	base = 15220,
+	id = 15227,
+	value_2 = 11,
+	value_1 = 32,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[15228] = {
+	upgrade_id = 10009,
+	prev = 15227,
+	next = 15229,
+	base = 15220,
+	id = 15228,
+	value_2 = 11,
+	value_1 = 33,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[15229] = {
+	upgrade_id = 10010,
+	prev = 15228,
+	next = 15230,
+	base = 15220,
+	id = 15229,
+	value_2 = 12,
+	value_1 = 34,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[15230] = {
+	id = 15230,
+	upgrade_id = 10011,
+	base = 15220,
+	next = 0,
+	prev = 15229,
+	value_2 = 12,
+	value_1 = 35,
+	level = 11,
+	skill_upgrade = {
+		{
+			106380,
+			106390
+		}
+	}
+}
+
+
+_G.pg.base.spweapon_data_statistics[15240] = {
+	attribute_1 = "cannon",
+	name = "辣椒蟹",
+	type = 4,
+	tech = 0,
+	value_1_random = 0,
+	rarity = 4,
+	effect_id_display = 106560,
+	value_2_random = 0,
+	effect_id = 106560,
+	attribute_2 = "hit",
+	next = 15241,
+	upgrade_id = 10001,
+	value_2 = 5,
+	icon = "15240",
+	value_1 = 25,
+	level = 1,
+	descrip = "香蒂的專屬特殊兵裝",
+	uncraftable = 1,
+	unique = 1060012,
+	important = 2,
+	prev = 0,
+	id = 15240,
+	usability = {
+		3
+	},
+	skill_upgrade = {
+		{
+			0,
+			106550
+		}
+	},
+	hide_buff_upgrade = {},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[15241] = {
+	upgrade_id = 10002,
+	prev = 15240,
+	next = 15242,
+	base = 15240,
+	id = 15241,
+	value_2 = 6,
+	value_1 = 26,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[15242] = {
+	upgrade_id = 10003,
+	prev = 15241,
+	next = 15243,
+	base = 15240,
+	id = 15242,
+	value_2 = 7,
+	value_1 = 27,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[15243] = {
+	upgrade_id = 10004,
+	prev = 15242,
+	next = 15244,
+	base = 15240,
+	id = 15243,
+	value_2 = 8,
+	value_1 = 28,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[15244] = {
+	upgrade_id = 10005,
+	prev = 15243,
+	next = 15245,
+	base = 15240,
+	id = 15244,
+	value_2 = 9,
+	value_1 = 29,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[15245] = {
+	upgrade_id = 10006,
+	prev = 15244,
+	next = 15246,
+	base = 15240,
+	id = 15245,
+	value_2 = 10,
+	value_1 = 30,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[15246] = {
+	upgrade_id = 10007,
+	prev = 15245,
+	next = 15247,
+	base = 15240,
+	id = 15246,
+	value_2 = 11,
+	value_1 = 31,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[15247] = {
+	upgrade_id = 10008,
+	prev = 15246,
+	next = 15248,
+	base = 15240,
+	id = 15247,
+	value_2 = 12,
+	value_1 = 32,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[15248] = {
+	upgrade_id = 10009,
+	prev = 15247,
+	next = 15249,
+	base = 15240,
+	id = 15248,
+	value_2 = 13,
+	value_1 = 33,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[15249] = {
+	upgrade_id = 10010,
+	prev = 15248,
+	next = 15250,
+	base = 15240,
+	id = 15249,
+	value_2 = 14,
+	value_1 = 34,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[15250] = {
+	id = 15250,
+	upgrade_id = 10011,
+	base = 15240,
+	next = 0,
+	prev = 15249,
+	value_2 = 15,
+	value_1 = 35,
+	level = 11,
+	skill_upgrade = {
+		{
+			106540,
+			106550
+		}
+	}
+}
+
+
+_G.pg.base.spweapon_data_statistics[15260] = {
+	attribute_1 = "torpedo",
+	name = "杯麵",
+	type = 1,
+	tech = 0,
+	value_1_random = 0,
+	rarity = 4,
+	effect_id_display = 106600,
+	value_2_random = 0,
+	effect_id = 106600,
+	attribute_2 = "cannon",
+	next = 15261,
+	upgrade_id = 10001,
+	value_2 = 8,
+	icon = "15260",
+	value_1 = 20,
+	level = 1,
+	descrip = "筑紫的專屬特殊兵裝",
+	uncraftable = 1,
+	unique = 1060013,
+	important = 2,
+	prev = 0,
+	id = 15260,
+	usability = {
+		1
+	},
+	skill_upgrade = {
+		{
+			0,
+			106580
+		}
+	},
+	hide_buff_upgrade = {},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[15261] = {
+	upgrade_id = 10002,
+	prev = 15260,
+	next = 15262,
+	base = 15260,
+	id = 15261,
+	value_2 = 9,
+	value_1 = 22,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[15262] = {
+	upgrade_id = 10003,
+	prev = 15261,
+	next = 15263,
+	base = 15260,
+	id = 15262,
+	value_2 = 10,
+	value_1 = 24,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[15263] = {
+	upgrade_id = 10004,
+	prev = 15262,
+	next = 15264,
+	base = 15260,
+	id = 15263,
+	value_2 = 11,
+	value_1 = 26,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[15264] = {
+	upgrade_id = 10005,
+	prev = 15263,
+	next = 15265,
+	base = 15260,
+	id = 15264,
+	value_2 = 12,
+	value_1 = 28,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[15265] = {
+	upgrade_id = 10006,
+	prev = 15264,
+	next = 15266,
+	base = 15260,
+	id = 15265,
+	value_2 = 13,
+	value_1 = 30,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[15266] = {
+	upgrade_id = 10007,
+	prev = 15265,
+	next = 15267,
+	base = 15260,
+	id = 15266,
+	value_2 = 14,
+	value_1 = 32,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[15267] = {
+	upgrade_id = 10008,
+	prev = 15266,
+	next = 15268,
+	base = 15260,
+	id = 15267,
+	value_2 = 15,
+	value_1 = 34,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[15268] = {
+	upgrade_id = 10009,
+	prev = 15267,
+	next = 15269,
+	base = 15260,
+	id = 15268,
+	value_2 = 16,
+	value_1 = 36,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[15269] = {
+	upgrade_id = 10010,
+	prev = 15268,
+	next = 15270,
+	base = 15260,
+	id = 15269,
+	value_2 = 17,
+	value_1 = 38,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[15270] = {
+	id = 15270,
+	upgrade_id = 10011,
+	base = 15260,
+	next = 0,
+	prev = 15269,
+	value_2 = 18,
+	value_1 = 40,
+	level = 11,
+	skill_upgrade = {
+		{
+			106570,
+			106580
+		}
+	}
+}
+
+
+_G.pg.base.spweapon_data_statistics[15280] = {
+	attribute_1 = "torpedo",
+	name = "漢堡",
+	type = 8,
+	tech = 0,
+	value_1_random = 0,
+	rarity = 4,
+	effect_id_display = 106480,
+	value_2_random = 0,
+	effect_id = 106480,
+	attribute_2 = "hit",
+	next = 15281,
+	upgrade_id = 10001,
+	value_2 = 10,
+	icon = "15280",
+	value_1 = 27,
+	level = 1,
+	descrip = "派蒂的專屬特殊兵裝",
+	uncraftable = 1,
+	unique = 1060014,
+	important = 2,
+	prev = 0,
+	id = 15280,
+	usability = {
+		8
+	},
+	skill_upgrade = {
+		{
+			0,
+			106460
+		}
+	},
+	hide_buff_upgrade = {},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[15281] = {
+	upgrade_id = 10002,
+	prev = 15280,
+	next = 15282,
+	base = 15280,
+	id = 15281,
+	value_2 = 11,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[15282] = {
+	upgrade_id = 10003,
+	prev = 15281,
+	next = 15283,
+	base = 15280,
+	id = 15282,
+	value_2 = 12,
+	value_1 = 28,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[15283] = {
+	upgrade_id = 10004,
+	prev = 15282,
+	next = 15284,
+	base = 15280,
+	id = 15283,
+	value_2 = 13,
+	value_1 = 28,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[15284] = {
+	upgrade_id = 10005,
+	prev = 15283,
+	next = 15285,
+	base = 15280,
+	id = 15284,
+	value_2 = 14,
+	value_1 = 29,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[15285] = {
+	upgrade_id = 10006,
+	prev = 15284,
+	next = 15286,
+	base = 15280,
+	id = 15285,
+	value_2 = 15,
+	value_1 = 30,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[15286] = {
+	upgrade_id = 10007,
+	prev = 15285,
+	next = 15287,
+	base = 15280,
+	id = 15286,
+	value_2 = 16,
+	value_1 = 31,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[15287] = {
+	upgrade_id = 10008,
+	prev = 15286,
+	next = 15288,
+	base = 15280,
+	id = 15287,
+	value_2 = 17,
+	value_1 = 32,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[15288] = {
+	upgrade_id = 10009,
+	prev = 15287,
+	next = 15289,
+	base = 15280,
+	id = 15288,
+	value_2 = 18,
+	value_1 = 33,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[15289] = {
+	upgrade_id = 10010,
+	prev = 15288,
+	next = 15290,
+	base = 15280,
+	id = 15289,
+	value_2 = 19,
+	value_1 = 34,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[15290] = {
+	id = 15290,
+	upgrade_id = 10011,
+	base = 15280,
+	next = 0,
+	prev = 15289,
+	value_2 = 20,
+	value_1 = 35,
+	level = 11,
+	skill_upgrade = {
+		{
+			106450,
+			106460
+		}
+	}
+}
+
+
+_G.pg.base.spweapon_data_statistics[15300] = {
+	attribute_1 = "cannon",
+	name = "抹茶冰淇淋",
+	type = 2,
+	tech = 0,
+	value_1_random = 0,
+	rarity = 4,
+	effect_id_display = 106440,
+	value_2_random = 0,
+	effect_id = 106440,
+	attribute_2 = "antiaircraft",
+	next = 15301,
+	upgrade_id = 10001,
+	value_2 = 13,
+	icon = "15300",
+	value_1 = 27,
+	level = 1,
+	descrip = "千乃的專屬特殊兵裝",
+	uncraftable = 1,
+	unique = 1060015,
+	important = 2,
+	prev = 0,
+	id = 15300,
+	usability = {
+		2
+	},
+	skill_upgrade = {
+		{
+			0,
+			106420
+		}
+	},
+	hide_buff_upgrade = {},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[15301] = {
+	upgrade_id = 10002,
+	prev = 15300,
+	next = 15302,
+	base = 15300,
+	id = 15301,
+	value_2 = 14,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[15302] = {
+	upgrade_id = 10003,
+	prev = 15301,
+	next = 15303,
+	base = 15300,
+	id = 15302,
+	value_2 = 14,
+	value_1 = 28,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[15303] = {
+	upgrade_id = 10004,
+	prev = 15302,
+	next = 15304,
+	base = 15300,
+	id = 15303,
+	value_2 = 15,
+	value_1 = 28,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[15304] = {
+	upgrade_id = 10005,
+	prev = 15303,
+	next = 15305,
+	base = 15300,
+	id = 15304,
+	value_2 = 15,
+	value_1 = 29,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[15305] = {
+	upgrade_id = 10006,
+	prev = 15304,
+	next = 15306,
+	base = 15300,
+	id = 15305,
+	value_2 = 16,
+	value_1 = 30,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[15306] = {
+	upgrade_id = 10007,
+	prev = 15305,
+	next = 15307,
+	base = 15300,
+	id = 15306,
+	value_2 = 16,
+	value_1 = 31,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[15307] = {
+	upgrade_id = 10008,
+	prev = 15306,
+	next = 15308,
+	base = 15300,
+	id = 15307,
+	value_2 = 17,
+	value_1 = 32,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[15308] = {
+	upgrade_id = 10009,
+	prev = 15307,
+	next = 15309,
+	base = 15300,
+	id = 15308,
+	value_2 = 18,
+	value_1 = 33,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[15309] = {
+	upgrade_id = 10010,
+	prev = 15308,
+	next = 15310,
+	base = 15300,
+	id = 15309,
+	value_2 = 19,
+	value_1 = 34,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[15310] = {
+	id = 15310,
+	upgrade_id = 10011,
+	base = 15300,
+	next = 0,
+	prev = 15309,
+	value_2 = 20,
+	value_1 = 35,
+	level = 11,
+	skill_upgrade = {
+		{
+			106410,
+			106420
+		}
+	}
+}

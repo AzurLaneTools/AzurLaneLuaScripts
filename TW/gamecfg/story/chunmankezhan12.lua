@@ -189,7 +189,7 @@ return {
 			hideRecordIco = true,
 			actor = 702101,
 			nameColor = "#A9F548FF",
-			say = "低頭看去，博加特里那雙水藍色的眼眸正在緩緩睜開。",
+			say = "低頭看去，博加特里的眼眸正在緩緩睜開。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

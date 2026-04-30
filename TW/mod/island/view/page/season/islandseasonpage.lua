@@ -86,12 +86,17 @@ slot0.OnLoaded = function(slot0)
 	slot3(slot0.togglesTF:Find("shop"), i18n("island_season_shop"))
 	slot3(slot0.togglesTF:Find("rank"), i18n("island_season_charts"))
 	slot3(slot0.togglesTF:Find("review"), i18n("island_season_review"))
+
+	slot0.playRoomPop = PlayRoomPop.New(slot0.blurTF:Find("playRoomPop"), slot0)
+
+	slot0.playRoomPop:didEnter()
 end
 
 slot0.OnInit = function(slot0)
 	slot3 = slot0.blurTF
 
 	onButton(slot0, slot3:Find("top/back"), function ()
+		uv0:emit(IslandMediator.PLAY_ROOM_MATCH_STOP)
 		uv0:Hide()
 	end, SFX_PANEL)
 
@@ -118,8 +123,8 @@ slot0.AddListeners = function(slot0)
 	slot0:AddListener(ActivityProxy.ACTIVITY_UPDATED, slot0.FlushActivityPage)
 	slot0:AddListener(IslandSeasonAgency.ADD_PT, slot0.FlushPtPage)
 	slot0:AddListener(GAME.ISLAND_GET_SEASON_PT_AWARD_DONE, slot0.FlushPtPage)
-	slot0:AddListener(GAME.ISLAND_SUBMIT_TASK_DONE, slot0.FlushTaskPage)
-	slot0:AddListener(GAME.ISLAND_SUBMIT_TASK_ONE_STEP_DONE, slot0.FlushTaskPage)
+	slot0:AddListener(GAME.ISLAND_SUBMIT_TASK_DONE, slot0.OnSubmitTaskDone)
+	slot0:AddListener(GAME.ISLAND_SUBMIT_TASK_ONE_STEP_DONE, slot0.OnSubmitTaskDone)
 	slot0:AddListener(GAME.ISLAND_SHOP_OP_DONE, slot0.FlushShopPage)
 	slot0:AddListener(GAME.ISLAND_GET_SEASON_RANK_DONE, slot0.OnGetRankData)
 end
@@ -128,8 +133,8 @@ slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(ActivityProxy.ACTIVITY_UPDATED, slot0.FlushActivityPage)
 	slot0:RemoveListener(IslandSeasonAgency.ADD_PT, slot0.FlushPtPage)
 	slot0:RemoveListener(GAME.ISLAND_GET_SEASON_PT_AWARD_DONE, slot0.FlushPtPage)
-	slot0:RemoveListener(GAME.ISLAND_SUBMIT_TASK_DONE, slot0.FlushTaskPage)
-	slot0:RemoveListener(GAME.ISLAND_SUBMIT_TASK_ONE_STEP_DONE, slot0.FlushTaskPage)
+	slot0:RemoveListener(GAME.ISLAND_SUBMIT_TASK_DONE, slot0.OnSubmitTaskDone)
+	slot0:RemoveListener(GAME.ISLAND_SUBMIT_TASK_ONE_STEP_DONE, slot0.OnSubmitTaskDone)
 	slot0:RemoveListener(GAME.ISLAND_SHOP_OP_DONE, slot0.FlushShopPage)
 	slot0:RemoveListener(GAME.ISLAND_GET_SEASON_RANK_DONE, slot0.OnGetRankData)
 end
@@ -144,6 +149,8 @@ slot0.OnShow = function(slot0, slot1)
 	else
 		triggerToggle(slot0.togglesTF:Find(uv0.PAGE_ACTIVITY), true)
 	end
+
+	slot0.playRoomPop:Show(true)
 end
 
 slot1 = {
@@ -189,6 +196,11 @@ slot0.FlushPtPage = function(slot0)
 	slot0.pages[uv0.PAGE_PT]:ExecuteAction("Flush")
 end
 
+slot0.OnSubmitTaskDone = function(slot0)
+	slot0:FlushTaskPage()
+	slot0.pages[uv0.PAGE_ACTIVITY]:ExecuteAction("flushTabs")
+end
+
 slot0.FlushTaskPage = function(slot0)
 	slot0.pages[uv0.PAGE_TASK]:ExecuteAction("Flush")
 end
@@ -212,10 +224,10 @@ slot0.OnGetRankData = function(slot0, slot1)
 end
 
 slot0.OnHide = function(slot0)
+	slot0.playRoomPop:Show(false)
 	slot0:UnOverlayPanel(slot0.blurTF, slot0._tf)
 	slot0.pages[uv0.PAGE_PT]:OnHide()
-	slot0.pages[uv0.PAGE_ACTIVITY]:Destroy()
-	slot0.pages[uv0.PAGE_ACTIVITY]:Reset()
+	slot0.pages[uv0.PAGE_ACTIVITY]:OnHide()
 
 	if slot0.pages[uv0.PAGE_REVIEW] then
 		slot0.pages[uv0.PAGE_REVIEW]:Hide()
@@ -228,6 +240,9 @@ end
 
 slot0.OnDestroy = function(slot0)
 	slot0:OnHide()
+	slot0.playRoomPop:willExit()
+
+	slot0.playRoomPop = nil
 
 	for slot4, slot5 in pairs(slot0.pages) do
 		if slot5 then
@@ -236,6 +251,10 @@ slot0.OnDestroy = function(slot0)
 			slot5 = nil
 		end
 	end
+end
+
+slot0.OnEnable = function(slot0)
+	slot0:OnShow()
 end
 
 return slot0

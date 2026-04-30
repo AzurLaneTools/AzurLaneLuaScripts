@@ -785,6 +785,56 @@ pg.island_unit_item = {
 		navAgentParam = "",
 		model = "island/item/collider/1005/prefab/pre_collider"
 	},
+	[101001] = {
+		id = 101001,
+		navAgentParam = "",
+		model = "Island/Item/02/20500/Prefab/pre_item_02_20500a"
+	},
+	[101002] = {
+		id = 101002,
+		navAgentParam = "",
+		model = "Island/Item/02/20500/Prefab/pre_item_02_20500b"
+	},
+	[101003] = {
+		id = 101003,
+		navAgentParam = "",
+		model = "Island/Item/02/20500/Prefab/pre_item_02_20500c"
+	},
+	[101004] = {
+		id = 101004,
+		navAgentParam = "",
+		model = "Island/Item/02/20502/Prefab/pre_item_02_20502"
+	},
+	[101005] = {
+		id = 101005,
+		navAgentParam = "",
+		model = "Island/Item/02/20501/Prefab/pre_item_02_20501_feiji"
+	},
+	[101006] = {
+		id = 101006,
+		navAgentParam = "",
+		model = "Island/Item/02/20501/Prefab/pre_item_02_20501_jianpao"
+	},
+	[101007] = {
+		id = 101007,
+		navAgentParam = "",
+		model = "Island/Item/02/20501/Prefab/pre_item_02_20501_yulei"
+	},
+	[101008] = {
+		id = 101008,
+		navAgentParam = "",
+		model = "Island/Item/02/20501/Prefab/pre_item_02_20501_mofang"
+	},
+	[101009] = {
+		id = 101009,
+		navAgentParam = "",
+		model = "island/effect/prefab/game/bar/vfx_bar_pai01"
+	},
+	[101010] = {
+		id = 101010,
+		navAgentParam = "",
+		model = "island/item/02/20501/prefab/pre_item_02_20501_huangji"
+	},
 	all = {
 		1001,
 		1002,
@@ -942,6 +992,16 @@ pg.island_unit_item = {
 		100703,
 		100901,
 		100902,
-		100501
+		100501,
+		101001,
+		101002,
+		101003,
+		101004,
+		101005,
+		101006,
+		101007,
+		101008,
+		101009,
+		101010
 	}
 }

@@ -97,7 +97,7 @@ slot0.Nation2Side = function(slot0)
 			[107.0] = "Imas",
 			[115.0] = "West",
 			[98.0] = "West",
-			[106.0] = "Jp",
+			[106.0] = "West",
 			[114.0] = "West",
 			[105.0] = "Jp"
 		}

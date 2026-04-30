@@ -3802,6 +3802,26 @@ pg.memory_template = setmetatable({
 		5055,
 		5056,
 		5057,
+		5081,
+		5082,
+		5083,
+		5084,
+		5085,
+		5086,
+		5087,
+		5088,
+		5089,
+		5090,
+		5091,
+		5092,
+		5093,
+		5101,
+		5102,
+		5103,
+		5104,
+		5105,
+		5106,
+		5107,
 		10011,
 		10012,
 		10013,
@@ -60702,8 +60722,8 @@ pg.base.memory_template = {
 		subtitle = "",
 		type = 1,
 		number = 0,
-		title = "萬能魔方",
-		condition = "開始「閃耀★布里★大作戰」活動",
+		title = "万能魔方",
+		condition = "开始「闪耀★布里★大作战」活动",
 		story = "SHANYAOBULIDAZUOZHAN1",
 		id = 5061,
 		icon = "memory_shanyaobulidazuozhan",
@@ -60717,8 +60737,8 @@ pg.base.memory_template = {
 		subtitle = "",
 		type = 1,
 		number = 0,
-		title = "正義聯盟",
-		condition = "收集完全部密碼",
+		title = "正义联盟",
+		condition = "收集完全部密码",
 		story = "SHANYAOBULIDAZUOZHAN2",
 		id = 5062,
 		icon = "memory_shanyaobulidazuozhan",
@@ -60732,7 +60752,7 @@ pg.base.memory_template = {
 		subtitle = "",
 		type = 2,
 		number = 0,
-		title = "閃耀大作戰",
+		title = "闪耀大作战",
 		condition = "進入特殊戰鬥",
 		story = "1360007",
 		id = 5063,
@@ -60995,6 +61015,306 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"MANYOUZHEZHAOMUJIHUA17"
+		}
+	},
+	[5081] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "再次到來的女神們",
+		condition = "進入 EPS-1",
+		story = "SHANYAOHAIBINGUANQIA1",
+		id = 5081,
+		icon = "memory_shanyaohaibin1",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINGUANQIA1"
+		}
+	},
+	[5082] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "大賽準備",
+		condition = "進入 EPS-2",
+		story = "SHANYAOHAIBINGUANQIA2",
+		id = 5082,
+		icon = "memory_shanyaohaibin1",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINGUANQIA2"
+		}
+	},
+	[5083] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "按部就班",
+		condition = "進入 EPS-3",
+		story = "SHANYAOHAIBINGUANQIA3",
+		id = 5083,
+		icon = "memory_shanyaohaibin1",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINGUANQIA3"
+		}
+	},
+	[5084] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Cosplayer？",
+		condition = "進入 EPS-4",
+		story = "SHANYAOHAIBINGUANQIA4",
+		id = 5084,
+		icon = "memory_shanyaohaibin1",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINGUANQIA4"
+		}
+	},
+	[5085] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "以魅力為武器",
+		condition = "進入 EPS-5",
+		story = "SHANYAOHAIBINGUANQIA5",
+		id = 5085,
+		icon = "memory_shanyaohaibin1",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINGUANQIA5"
+		}
+	},
+	[5086] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "取材第一",
+		condition = "進入 EPS-6",
+		story = "SHANYAOHAIBINGUANQIA6",
+		id = 5086,
+		icon = "memory_shanyaohaibin1",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINGUANQIA6"
+		}
+	},
+	[5087] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "尋寶大冒險",
+		condition = "進入 EPS-7",
+		story = "SHANYAOHAIBINGUANQIA7",
+		id = 5087,
+		icon = "memory_shanyaohaibin1",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINGUANQIA7"
+		}
+	},
+	[5088] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "時尚風潮",
+		condition = "進入 EPS-8",
+		story = "SHANYAOHAIBINGUANQIA8",
+		id = 5088,
+		icon = "memory_shanyaohaibin1",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINGUANQIA8"
+		}
+	},
+	[5089] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "關於流行服飾",
+		condition = "進入 EPS-9",
+		story = "SHANYAOHAIBINGUANQIA9",
+		id = 5089,
+		icon = "memory_shanyaohaibin1",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINGUANQIA9"
+		}
+	},
+	[5090] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "關於溫泉",
+		condition = "進入 EPS-10",
+		story = "SHANYAOHAIBINGUANQIA10",
+		id = 5090,
+		icon = "memory_shanyaohaibin1",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINGUANQIA10"
+		}
+	},
+	[5091] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "關於攝影團隊",
+		condition = "進入 EPS-11",
+		story = "SHANYAOHAIBINGUANQIA11",
+		id = 5091,
+		icon = "memory_shanyaohaibin1",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINGUANQIA11"
+		}
+	},
+	[5092] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "關於直播團隊",
+		condition = "進入 EPS-12",
+		story = "SHANYAOHAIBINGUANQIA12",
+		id = 5092,
+		icon = "memory_shanyaohaibin1",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINGUANQIA12"
+		}
+	},
+	[5093] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "大賽開幕！",
+		condition = "進入 EPS-13",
+		story = "SHANYAOHAIBINGUANQIA13",
+		id = 5093,
+		icon = "memory_shanyaohaibin1",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINGUANQIA13"
+		}
+	},
+	[5101] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "這是為了更好地工作",
+		condition = "解鎖「假日航線·閃耀海濱-維納斯篇」伊莉絲的劇情",
+		story = "SHANYAOHAIBINRICHANG1",
+		id = 5101,
+		icon = "memory_shanyaohaibin2",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINRICHANG1"
+		}
+	},
+	[5102] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "海濱的午憩",
+		condition = "解鎖「假日航線·閃耀海濱-維納斯篇」雫的劇情",
+		story = "SHANYAOHAIBINRICHANG2",
+		id = 5102,
+		icon = "memory_shanyaohaibin2",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINRICHANG2"
+		}
+	},
+	[5103] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "沉浸式配方",
+		condition = "解鎖「假日航線·閃耀海濱-維納斯篇」香蒂的劇情",
+		story = "SHANYAOHAIBINRICHANG3",
+		id = 5103,
+		icon = "memory_shanyaohaibin2",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINRICHANG3"
+		}
+	},
+	[5104] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "身臨其境的漫畫家",
+		condition = "解鎖「假日航線·閃耀海濱-維納斯篇」筑紫的劇情",
+		story = "SHANYAOHAIBINRICHANG4",
+		id = 5104,
+		icon = "memory_shanyaohaibin2",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINRICHANG4"
+		}
+	},
+	[5105] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "為你帶來幸運的兔兔",
+		condition = "解鎖「假日航線·閃耀海濱-維納斯篇」派蒂的劇情",
+		story = "SHANYAOHAIBINRICHANG5",
+		id = 5105,
+		icon = "memory_shanyaohaibin2",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINRICHANG5"
+		}
+	},
+	[5106] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "危險野獸狩獵中！",
+		condition = "解鎖「假日航線·閃耀海濱-維納斯篇」千乃的劇情",
+		story = "SHANYAOHAIBINRICHANG6",
+		id = 5106,
+		icon = "memory_shanyaohaibin2",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINRICHANG6"
+		}
+	},
+	[5107] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "升空的焰火",
+		condition = "解鎖「假日航線·閃耀海濱-維納斯篇」海咲的劇情",
+		story = "SHANYAOHAIBINRICHANG7",
+		id = 5107,
+		icon = "memory_shanyaohaibin2",
+		is_open = 0,
+		unlock_pre = {
+			"SHANYAOHAIBINRICHANG7"
 		}
 	},
 	[10011] = {
