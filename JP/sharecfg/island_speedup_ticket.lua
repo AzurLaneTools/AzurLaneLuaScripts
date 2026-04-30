@@ -64,7 +64,7 @@ pg.base.island_speedup_ticket = {}
 				5
 			},
 			{
-				12,
+				16,
 				0,
 				0
 			}
@@ -127,7 +127,7 @@ pg.base.island_speedup_ticket = {}
 				7
 			},
 			{
-				12,
+				16,
 				0,
 				0
 			}
@@ -151,7 +151,7 @@ pg.base.island_speedup_ticket = {}
 				5
 			},
 			{
-				12,
+				16,
 				0,
 				0
 			}
@@ -214,7 +214,7 @@ pg.base.island_speedup_ticket = {}
 				7
 			},
 			{
-				12,
+				16,
 				0,
 				0
 			}
@@ -238,7 +238,7 @@ pg.base.island_speedup_ticket = {}
 				5
 			},
 			{
-				12,
+				16,
 				0,
 				0
 			}
@@ -301,7 +301,7 @@ pg.base.island_speedup_ticket = {}
 				7
 			},
 			{
-				12,
+				16,
 				0,
 				0
 			}
