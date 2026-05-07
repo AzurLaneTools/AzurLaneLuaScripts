@@ -24,14 +24,16 @@ pg.activity_banner.all = {
 	202
 }
 pg.activity_banner.get_id_list_by_type = {
-	[2] = {
+	{
+		7
+	},
+	{
 		1,
 		2,
 		3,
 		4,
 		5,
 		6,
-		7,
 		8,
 		9
 	},
@@ -154,13 +156,11 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[7] = {
+		param = "https://game.bilibili.com/blhx/2026-ninth-anniversary/h5",
 		time = "stop",
-		type = 2,
+		type = 1,
 		id = 7,
-		pic = "temp7",
-		param = {
-			"dorm 3d select"
-		}
+		pic = "temp7"
 	}
 	pg.base.activity_banner[8] = {
 		type = 2,
