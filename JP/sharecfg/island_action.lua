@@ -450,7 +450,7 @@ pg.base.island_action = {}
 		},
 		jump_page = {
 			{
-				"开发季III-开发商店",
+				"シーズンⅢ-開発ショップ",
 				{}
 			}
 		}
@@ -472,7 +472,7 @@ pg.base.island_action = {}
 		},
 		jump_page = {
 			{
-				"开发季III-开发商店",
+				"シーズンⅢ-開発ショップ",
 				{}
 			}
 		}
@@ -493,7 +493,7 @@ pg.base.island_action = {}
 		},
 		jump_page = {
 			{
-				"开发季III-开发商店",
+				"シーズンⅢ-開発ショップ",
 				{}
 			}
 		}
@@ -515,7 +515,7 @@ pg.base.island_action = {}
 		},
 		jump_page = {
 			{
-				"开发季III-开发商店",
+				"シーズンⅢ-開発ショップ",
 				{}
 			}
 		}
@@ -537,7 +537,7 @@ pg.base.island_action = {}
 		},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩賞",
 				{}
 			}
 		}
@@ -560,7 +560,7 @@ pg.base.island_action = {}
 		},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩賞",
 				{}
 			}
 		}
@@ -693,7 +693,7 @@ pg.base.island_action = {}
 		},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩賞",
 				{}
 			}
 		}
