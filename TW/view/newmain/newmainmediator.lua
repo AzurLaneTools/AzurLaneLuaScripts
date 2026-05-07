@@ -25,15 +25,6 @@ slot0.FOLD_PANEL = "NewMainMediator:FOLD_PANEL"
 slot0.HIDE_PANEL = "NewMainMediator:HIDE_PANEL"
 
 slot0.register = function(slot0)
-	slot0:bind(uv0.GO_SINGLE_ACTIVITY, function (slot0, slot1)
-		uv0:addSubLayers(Context.New({
-			mediator = ActivitySingleMediator,
-			viewComponent = ActivitySingleScene,
-			data = {
-				id = slot1
-			}
-		}))
-	end)
 	slot0:bind(uv0.SKIP_LOTTERY, function (slot0, slot1)
 		uv0:addSubLayers(Context.New({
 			viewComponent = LotteryLayer,

@@ -60,17 +60,19 @@ slot0.CollectFirends = function(slot0)
 end
 
 slot0.Send = function(slot0, slot1, slot2)
-	slot3 = pg.ConnectionMgr.GetInstance()
+	slot3 = pg.TimeMgr.GetInstance()
+	slot3 = slot3:GetServerTime()
+	slot4 = pg.ConnectionMgr.GetInstance()
 
-	slot3:Send(21243, {
+	slot4:Send(21243, {
 		island_id = slot1
 	}, 21244, function (slot0)
-		uv1(IslandTradeRank.New({
-			id = uv0,
-			value = slot0.today_price.price,
-			skinId = getProxy(FriendProxy):getFriend(uv0) and slot2.skinId or 100000,
+		uv2(IslandTradeRank.New({
+			id = uv1,
+			value = slot0.today_price.timestamp <= uv0 and 0 or slot0.today_price.price,
+			skinId = getProxy(FriendProxy):getFriend(uv1) and slot3.skinId or 100000,
 			islandLevel = slot0.island_lv,
-			name = slot2 and slot2.name or ""
+			name = slot3 and slot3.name or ""
 		}))
 	end)
 end

@@ -31,7 +31,7 @@ slot0.willExit = function(slot0)
 end
 
 slot0.getBGM = function(slot0)
-	return math.random() > 0.5 and "doa_main_day" or "doa_main_night"
+	return "doa-az-story-1"
 end
 
 slot0.initData = function(slot0)

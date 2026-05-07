@@ -219,23 +219,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "50804",
+		type = 3,
 		id = 7,
 		pic = "temp7",
-		param = {
-			"scene core activity",
-			{
-				actID = 7305,
-				openPass = true,
-				coreName = "WinterFestival2025CoreActivityUI"
-			}
-		},
 		time = {
 			{
 				{
 					2026,
-					4,
-					23
+					5,
+					7
 				},
 				{
 					0,
@@ -246,8 +239,8 @@ pg.activity_banner = {
 			{
 				{
 					2026,
-					4,
-					30
+					5,
+					14
 				},
 				{
 					14,
@@ -258,12 +251,10 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "50806",
+		type = 3,
 		id = 8,
 		pic = "temp8",
-		param = {
-			"crusing"
-		},
 		time = {
 			{
 				{
@@ -793,8 +784,6 @@ pg.activity_banner = {
 			4,
 			5,
 			6,
-			7,
-			8,
 			9,
 			11,
 			1000,
@@ -822,6 +811,8 @@ pg.activity_banner = {
 			1024
 		},
 		[3] = {
+			7,
+			8,
 			10,
 			1003
 		},

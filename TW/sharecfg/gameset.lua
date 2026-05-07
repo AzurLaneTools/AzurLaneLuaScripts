@@ -4051,6 +4051,26 @@ pg.gameset = {
 		description = "",
 		key_value = 31201
 	},
+	child_cg_add_price = {
+		description = "",
+		key_value = 0
+	},
+	child_cg_max_price = {
+		description = "",
+		key_value = 2000
+	},
+	child_polaroid_basic_price = {
+		description = "",
+		key_value = 1000
+	},
+	child_polaroid_add_price = {
+		description = "",
+		key_value = 0
+	},
+	child_polaroid_max_price = {
+		description = "",
+		key_value = 1000
+	},
 	l2d_tips_default_icon = {
 		description = "L2DUI",
 		key_value = 0

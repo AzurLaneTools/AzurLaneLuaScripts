@@ -140,25 +140,10 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "doa_story1"
 	},
-	ActivityShop50486 = {
-		default_bgm = "story-wanderingcity-future",
+	ActivityShop50807 = {
+		default_bgm = "doa_huanzhuang",
 		special_bgm = "",
-		bgm = "story-wanderingcity-future"
-	},
-	ActivityShop50430 = {
-		default_bgm = "story-china-0226-pv",
-		special_bgm = "",
-		bgm = "story-china-0226-pv"
-	},
-	ActivityShop50464 = {
-		default_bgm = "theme-merkuriameta",
-		special_bgm = "",
-		bgm = "theme-merkuriameta"
-	},
-	ActivityShop50287 = {
-		default_bgm = "theme-weimu",
-		special_bgm = "",
-		bgm = "theme-weimu"
+		bgm = "doa_huanzhuang"
 	},
 	BuildShipScene = {
 		default_bgm = "doa-song-day05",
@@ -166,7 +151,7 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	VolleyballGameView = {
-		default_bgm = "doa_minigame",
+		default_bgm = "doa_story1",
 		special_bgm = "",
 		bgm = "doa_minigame"
 	},
@@ -2654,5 +2639,25 @@ pg.voice_bgm = {
 		default_bgm = "votefes-up",
 		special_bgm = "",
 		bgm = "votefes-up"
+	},
+	DOALinkIslandReScene = {
+		default_bgm = "doa_guanqia",
+		special_bgm = "",
+		bgm = "doa_guanqia"
+	},
+	DoaMainRePage = {
+		default_bgm = "doa_story3",
+		special_bgm = "",
+		bgm = "doa_story3"
+	},
+	DOAPtPage = {
+		default_bgm = "doa_story3",
+		special_bgm = "",
+		bgm = "doa_story3"
+	},
+	LoginSignRe3Page = {
+		default_bgm = "doa_story3",
+		special_bgm = "",
+		bgm = "doa_story3"
 	}
 }

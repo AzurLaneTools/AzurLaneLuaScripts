@@ -376,13 +376,13 @@ return {
 		banner = "activity_boss",
 		event = ActivityMediator.EVENT_GO_SCENE,
 		data = {
-			SCENE.ACTIVITY,
+			SCENE.DOALINK_ISLAND,
 			{
-				id = 50205
+				id = 50811
 			}
 		},
 		isShow = function ()
-			return getProxy(ActivityProxy):getActivityById(50205) and not slot0:isEnd()
+			return getProxy(ActivityProxy):getActivityById(50811) and not slot0:isEnd()
 		end
 	},
 	{

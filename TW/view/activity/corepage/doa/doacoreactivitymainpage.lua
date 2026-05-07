@@ -54,7 +54,7 @@ slot0.updateUI = function(slot0)
 		})
 	end)
 	onButton(slot0, slot0.fight, function ()
-		uv0:emit(ActivityMediator.SPECIAL_BATTLE_OPERA)
+		uv0:emit(ActivityMediator.SKIP_ACTIVITY_MAP, 6036)
 	end)
 end
 

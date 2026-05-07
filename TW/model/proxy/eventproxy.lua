@@ -52,11 +52,9 @@ slot0.updateAll = function(slot0, slot1)
 			return uv0.eventDic[slot0].finishTime
 		end
 	}))
-
-	if not slot0:CheckAddActivityEvent() then
-		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inEvent")
-		slot0.facade:sendNotification(GAME.EVENT_LIST_UPDATE)
-	end
+	slot0:CheckAddActivityEvent()
+	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inEvent")
+	slot0.facade:sendNotification(GAME.EVENT_LIST_UPDATE)
 end
 
 slot0.updateInfoList = function(slot0, slot1)
@@ -314,27 +312,23 @@ slot0.CheckAddActivityEvent = function(slot0)
 
 	for slot5, slot6 in pairs(slot0.eventDic) do
 		if slot6:IsActivityType() then
-			slot1[slot6.activityId] = slot1[slot6.activityId] or {}
-
-			table.insert(slot1[slot6.activityId], {
+			table.insert(slot1, {
 				id = slot6.id
 			})
 		end
 	end
 
-	slot2 = {}
-	slot6 = ActivityConst.ACTIVITY_TYPE_COLLECTION_EVENT
+	slot5 = ActivityConst.ACTIVITY_TYPE_COLLECTION_EVENT
 
-	for slot6, slot7 in ipairs(getProxy(ActivityProxy):getActivitiesByType(slot6)) do
-		if slot7 and not slot7:isEnd() then
-			table.insertto(slot2, slot1[slot7.id] or {})
-			table.insertto(slot2, slot7:GetCollectionList())
+	for slot5, slot6 in ipairs(getProxy(ActivityProxy):getActivitiesByType(slot5)) do
+		if slot6 and not slot6:isEnd() then
+			table.insertto(slot1, slot6:GetCollectionList())
 		end
 	end
 
-	slot0:updateInfoList(slot2)
+	slot0:updateInfoList(slot1)
 
-	return #slot2 > 0
+	return #slot1 > 0
 end
 
 slot0.CanStartEvent = function(slot0)

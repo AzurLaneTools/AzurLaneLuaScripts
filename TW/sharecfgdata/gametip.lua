@@ -12115,12 +12115,12 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "前衛、復仇 建造追加！"
+	tip = "呂措、塞德利茨、約克 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "賈維斯 建造追加！"
+	tip = "埃姆登、埃爾賓 建造追加！"
 }
 
 
@@ -15755,7 +15755,7 @@ _G.pg.base.gametip.music_juus = {
 _G.pg.base.gametip.doa_collection = {
 	tip = {
 		{
-			info = "活動時間：<color=#92fc63>4.27-5.11維護</color>\n1.活動期間，參與活動收集「角色喜好」，收集全部<color=#92fc63>18</color>個後可獲得限定傢俱<color=#92fc63>「維納斯假期紀念像」、「外觀裝備箱(維納斯假期)*3」</color>\n※「維納斯假期紀念像」無法重複獲取"
+			info = "活動時間：<color=#92fc63>5.7-5.14 維護</color>\n1.活動期間，參與活動收集「角色喜好」，收集全部<color=#92fc63>18</color>個後可獲得限定傢俱<color=#92fc63>「維納斯假期紀念像」、「外觀裝備箱(維納斯假期)*3」</color>\n※「維納斯假期紀念像」無法重複獲得"
 		},
 		{
 			info = [[
@@ -15767,7 +15767,7 @@ _G.pg.base.gametip.doa_collection = {
 ⑤完成砰砰咚挑戰賽]]
 		},
 		{
-			info = "3.領取時間截止5月17日23點59分"
+			info = "3.領取時間截止5月20日24時"
 		}
 	}
 }
@@ -19754,12 +19754,10 @@ _G.pg.base.gametip.venusvolleyball_help = {
 		{
 			info = [[
 活動規則：
-1.<color=#92fc63>5月3日</color>為止每日0點開放<color=#92fc63>1</color>場新的比賽，總計<color=#92fc63>7</color>場，可累計。全部完成後可以獲得限定裝備<color=#92fc63>「覺醒寶珠」</color>以及角色喜好道具-<color=#92fc63>「喜好食物(莫妮卡)」</color>
-2.點擊開始遊戲，選擇兩名角色後開始比賽，任意一方獲得<color=#92fc63>5</color>分後即可完成遊戲
-3.指揮官在接球和擊球時會出現判定圈，點擊螢幕任意位置完成判定
-4.判定圈縮至外圈與內圈之間時點擊視為good，判定圈縮至內圈後點擊視為perfect，未進行點擊或判定圈未縮到外圈時點擊視為miss
-接球時：判定miss為失分，判定good和perfect成功接球
-擊球時：判定miss擊球但不得分，判定good和perfect擊球得分
+1.總計<color=#92fc63>7</color>場比賽，全部完成後可以獲得限定裝備<color=#92fc63>「覺醒寶珠」</color>以及角色喜好道具-<color=#92fc63>「喜好飲品(莫妮卡)」</color>
+2.擊開始遊戲，選擇兩名角色後開始比賽，任意一方獲得<color=#92fc63>5</color>分後即可完成遊戲
+3.揮官在接球和擊球時會出現判定圈，點擊螢幕任意位置完成判定
+4.判定圈縮至外圈與內圈之間時點擊視為good，判定圈縮至內圈後點擊視為perfect，未進行點擊或判定圈未縮到外圈時點擊視為miss接球時：判定miss為失分，判定good和perfect成功接球擊球時：判定miss擊球但不得分，判定good和perfect擊球得分
 5.未開放全部比賽前，可重複挑戰當日比賽，在完成全部比賽後開啟自由挑戰，指揮官可自由選擇角色進行比賽]]
 		}
 	}
@@ -19786,16 +19784,15 @@ _G.pg.base.gametip.doa_main = {
 		{
 			info = [[
 活動規則：
-<color=#92fc63>4.27-5.11維護</color>期間開啟限時活動「假日航線」
-1.通過特別作戰獲取「維納斯點數」，在「累計獎勵」和「補給商店」處兌換豐厚獎勵
-2.完成「砰砰咚挑戰賽」可獲得露娜特殊兵裝<color=#92fc63>「烤番薯」</color>、環特殊兵裝<color=#92fc63>「馬卡龍」</color>等獎勵
-3.完成「排球練習賽」小遊戲第七戰可以獲得限定裝備<color=#92fc63>「覺醒寶珠」</color>
+<color=#92fc63>5.7-5.14維護</color>期間開啟限時活動「假日航線」
+1.透過特別作戰取得「維納斯點數」，在「累計獎勵」和「補給商店」處兌換豐厚獎勵
+2.完成「砰砰咚挑戰賽」可獲得露娜特殊兵裝<color=# 92fc63>「烤白薯」</color>、環特殊兵裝<color=#92fc63>「馬卡龍」</color>等獎勵
+3.完成「排球練習賽」小遊戲第七戰可以獲得限定裝備<color=#92fc 63>「覺醒寶珠」</color>
 注意：每日開放1場新的比賽，總計7場
-4.在活動中收集18個「角色喜好」道具後，可在「紀念章」處獲取<color=#92fc63>「維納斯假期紀念像」</color>等獎勵
-詳細獲取條件可在「紀念章」界面查看
-5.點擊「限時建造」可以前往建造界面
-6.點擊「換裝商店」可以前往換裝商店界面
-7.<color=#92fc63>4.27-5.10</color> 每日刷新一個活動特殊委託，該委託不佔用可派出艦隊上限，完成委託可獲取活動獎勵未進行的委託將於次日消失，進行中的委託可於次日領取獎勵，領取獎勵後可刷新次日的活動特殊委託]]
+4.在活動中收集18個「角色喜好」道具後，可在「紀念章」處獲得<color=#92fc63>「維納斯假期紀念像」< /color>等獎勵詳細獲取條件可在「紀念章」介面查看
+5.點擊「限時建造」可以前往建造介面
+6.點擊「換裝商店」可以前往換裝商店介面
+7.<color=#92fc63>5.7-5.14維護</color> 每日刷新一個活動特殊委託，該委託不佔用可派出艦隊上限，完成委託可獲取活動獎勵未進行的委託將於次日消失，進行中的委託可於次日領取獎勵，領取獎勵後可刷新次日​​的活動特殊委託]]
 		}
 	}
 }
@@ -23444,7 +23441,7 @@ _G.pg.base.gametip.Settings_title_Redeem_input_submit = {
 
 
 _G.pg.base.gametip.Settings_title_Redeem_input_placeholder = {
-	tip = "僅限英語數字組合"
+	tip = "請輸入兌換碼"
 }
 
 
@@ -25708,7 +25705,7 @@ _G.pg.base.gametip.blackfriday_help = {
 
 
 _G.pg.base.gametip.eventshop_time_hint = {
-	tip = "兌換時間截止至$1維護 "
+	tip = "兌換時間截止至$1 24時"
 }
 
 
@@ -41120,6 +41117,31 @@ _G.pg.base.gametip.help_chunjie_jiulou_2026 = {
 }
 
 
+_G.pg.base.gametip.child_plan_skip_event = {
+	tip = "跳过随机事件动画"
+}
+
+
+_G.pg.base.gametip.child_buy_memory_tip = {
+	tip = "一週目通關後可使用物資解鎖記憶"
+}
+
+
+_G.pg.base.gametip.child_buy_polaroid_tip = {
+	tip = "一週目通關後可使用物資解鎖瞬間"
+}
+
+
+_G.pg.base.gametip.child_buy_ending_tip = {
+	tip = "一週目通關後可使用物資解鎖結局"
+}
+
+
+_G.pg.base.gametip.child_buy_collect_success = {
+	tip = "购买成功！"
+}
+
+
 _G.pg.base.gametip.LiquorFloor_title = {
 	tip = "春滿客棧Online"
 }
@@ -41468,4 +41490,59 @@ _G.pg.base.gametip.l2d_tip_on = {
 
 _G.pg.base.gametip.l2d_tip_off = {
 	tip = "Live2D互動提示已關閉"
+}
+
+
+_G.pg.base.gametip.exchange_code_tip = {
+	tip = "即將兌換以下物品\n"
+}
+
+
+_G.pg.base.gametip.exchange_code_skin = {
+	tip = "<color=#FF4A45>偵測到您已經擁有該換裝，繼續兌換將轉換為鑽石</color>"
+}
+
+
+_G.pg.base.gametip.exchange_code_error_16 = {
+	tip = "目前帳號已達到該禮包碼兌換上限，無法再次兌換。"
+}
+
+
+_G.pg.base.gametip.exchange_code_error_12 = {
+	tip = "目前系統出現異常，請稍後重試"
+}
+
+
+_G.pg.base.gametip.exchange_code_error_9 = {
+	tip = "無效的兌換碼"
+}
+
+
+_G.pg.base.gametip.exchange_code_error_20 = {
+	tip = "兌換碼錯誤"
+}
+
+
+_G.pg.base.gametip.exchange_code_error_6 = {
+	tip = "兌換次數已用完"
+}
+
+
+_G.pg.base.gametip.exchange_code_error_7 = {
+	tip = "該兌換碼已被使用"
+}
+
+
+_G.pg.base.gametip.exchange_code_before_time = {
+	tip = "未到該兌換碼生效時間，請在兌換開放時間內使用。"
+}
+
+
+_G.pg.base.gametip.exchange_code_after_time = {
+	tip = "兌換碼已過期"
+}
+
+
+_G.pg.base.gametip.exchange_code_skin_tip = {
+	tip = "換裝"
 }

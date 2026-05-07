@@ -7325,7 +7325,7 @@ pg.collection_template = {
 			},
 			{
 				id = 59189,
-				nums = "150",
+				nums = "300",
 				type = 2
 			}
 		},
@@ -7386,7 +7386,7 @@ pg.collection_template = {
 			},
 			{
 				id = 59189,
-				nums = "150",
+				nums = "300",
 				type = 2
 			}
 		},
@@ -7447,7 +7447,7 @@ pg.collection_template = {
 			},
 			{
 				id = 59189,
-				nums = "150",
+				nums = "300",
 				type = 2
 			}
 		},
@@ -7508,7 +7508,7 @@ pg.collection_template = {
 			},
 			{
 				id = 30323,
-				nums = "1",
+				nums = "2",
 				type = 2
 			}
 		},
@@ -7569,7 +7569,7 @@ pg.collection_template = {
 			},
 			{
 				id = 30323,
-				nums = "1",
+				nums = "2",
 				type = 2
 			}
 		},
@@ -7630,7 +7630,7 @@ pg.collection_template = {
 			},
 			{
 				id = 30323,
-				nums = "1",
+				nums = "2",
 				type = 2
 			}
 		},
@@ -7691,7 +7691,7 @@ pg.collection_template = {
 			},
 			{
 				id = 59189,
-				nums = "150",
+				nums = "300",
 				type = 2
 			}
 		},
@@ -7752,7 +7752,7 @@ pg.collection_template = {
 			},
 			{
 				id = 59189,
-				nums = "150",
+				nums = "300",
 				type = 2
 			}
 		},
@@ -7996,7 +7996,7 @@ pg.collection_template = {
 			},
 			{
 				id = 30323,
-				nums = "1",
+				nums = "2",
 				type = 2
 			}
 		},

@@ -507,6 +507,10 @@ pg.expedition_data_by_map = setmetatable({
 		2100462,
 		2100471,
 		2100472,
+		2100501,
+		2100502,
+		2100511,
+		2100512,
 		2200000,
 		2200010,
 		2200020,
@@ -8929,7 +8933,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1450001] = {
 		map = 1450001,
-		name = "假日航線|| ||CHAPTER EX||E.X.",
+		name = "假日航線：再現|| ||CHAPTER EX||E.X.",
 		bgm = "doa_guanqia",
 		type = 4,
 		anchor = "",
@@ -8942,7 +8946,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1380001",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 4773,
+		on_activity = 50804,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -8979,7 +8983,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1450002] = {
 		map = 1450002,
-		name = "假日航線·SP|| ||CHAPTER EX||E.X.",
+		name = "假日航線：再現·SP|| ||CHAPTER EX||E.X.",
 		bgm = "doa_guanqia",
 		type = 8,
 		anchor = "",
@@ -8992,7 +8996,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1380001",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 4773,
+		on_activity = 50804,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -9029,7 +9033,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1450003] = {
 		map = 1450003,
-		name = "假日航線·EX|| ||CHAPTER EX||E.X.",
+		name = "假日航線：再現·EX|| ||CHAPTER EX||E.X.",
 		bgm = "doa_guanqia",
 		type = 8,
 		anchor = "",
@@ -9042,7 +9046,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1380001",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 4773,
+		on_activity = 50804,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -29999,6 +30003,218 @@ pg.base.expedition_data_by_map = {
 					"map_1650003"
 				}
 			}
+		}
+	},
+	[2100501] = {
+		map = 2100501,
+		name = "虹彩的終幕曲·上篇|| ||CHAPTER EX||E.X.",
+		bgm = "theme-highseasfleet",
+		type = 4,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "HONGCAIDEZHONGMUQU1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1640001",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1630001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100511,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		anchor = {
+			0.5,
+			0.5
+		}
+	},
+	[2100502] = {
+		map = 2100502,
+		name = "虹彩的終幕曲·下篇|| ||CHAPTER EX||E.X.",
+		bgm = "battle-highseasfleet-reborn",
+		type = 4,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "HONGCAIDEZHONGMUQU17",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1640002",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1630002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100512,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		anchor = {
+			0.5,
+			0.5
+		}
+	},
+	[2100511] = {
+		map = 2100511,
+		name = "虹彩的終幕曲·上篇|| ||CHAPTER EX||E.X.",
+		bgm = "theme-highseasfleet",
+		type = 5,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "HONGCAIDEZHONGMUQU1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1640003",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1630003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100501,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		anchor = {
+			0.5,
+			0.5
+		}
+	},
+	[2100512] = {
+		map = 2100512,
+		name = "虹彩的終幕曲·下篇|| ||CHAPTER EX||E.X.",
+		bgm = "battle-highseasfleet-reborn",
+		type = 5,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "HONGCAIDEZHONGMUQU17",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1640004",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1630004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100502,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		anchor = {
+			0.5,
+			0.5
 		}
 	},
 	[2200000] = {

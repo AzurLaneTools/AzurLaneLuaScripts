@@ -239,6 +239,25 @@ pg.ship_data_create_material = {
 			"<color=#3dc6ff>科爾克</color>：5%(<color=#92fc63>up!</color>)"
 		}
 	},
+	{
+		use_gold = 1500,
+		name = "限時建造",
+		build_anim = "building",
+		type = 2,
+		ship_icon = "1",
+		build_voice = "",
+		use_item = 20001,
+		number_1 = 2,
+		id = 12,
+		icon = "build_12",
+		exchange_count = 2,
+		rate_tip = {
+			"<color=#ffde38>超稀有艦船</color>：7%",
+			"<color=#d797ff>精銳艦船</color>：12%",
+			"<color=#3dc6ff>稀有艦船</color>：51%",
+			"普通艦船：30%"
+		}
+	},
 	all = {
 		1,
 		2,
@@ -250,6 +269,7 @@ pg.ship_data_create_material = {
 		8,
 		9,
 		10,
-		11
+		11,
+		12
 	}
 }

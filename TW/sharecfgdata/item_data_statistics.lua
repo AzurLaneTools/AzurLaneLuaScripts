@@ -89348,6 +89348,99 @@ _G.pg.base.item_data_statistics[70052] = {
 }
 
 
+_G.pg.base.item_data_statistics[70219] = {
+	open_directly = 0,
+	name = "「假日航線」角色自選",
+	type = 13,
+	display = "<color=#ff5c5c>5月21日維護後道具將會刪除。 </color>可從「瑪莉蘿絲」、「穗香」、「霞」、「海咲」、「凪咲」與「莫妮卡」中自行選擇一位角色兌換。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/70144",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 70219,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			4,
+			10600011,
+			1
+		},
+		{
+			4,
+			10600021,
+			1
+		},
+		{
+			4,
+			10600031,
+			1
+		},
+		{
+			4,
+			10600041,
+			1
+		},
+		{
+			4,
+			10600051,
+			1
+		},
+		{
+			4,
+			10600071,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			4,
+			10600011,
+			1
+		},
+		{
+			4,
+			10600021,
+			1
+		},
+		{
+			4,
+			10600031,
+			1
+		},
+		{
+			4,
+			10600041,
+			1
+		},
+		{
+			4,
+			10600051,
+			1
+		},
+		{
+			4,
+			10600071,
+			1
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[80002] = {
 	open_directly = 0,
 	name = "隨機教材T2",

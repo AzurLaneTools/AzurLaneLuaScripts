@@ -649,7 +649,7 @@ pg.activity_const = {
 		act_id = 40424
 	},
 	DOA_MEDAL_ACT_ID = {
-		act_id = 4779
+		act_id = 50810
 	},
 	MUSIC_FESTIVAL_MEDALCOLLECTION_2020 = {
 		act_id = 40714
@@ -757,7 +757,7 @@ pg.activity_const = {
 		act_id = 4773
 	},
 	DOA_PT_ID = {
-		act_id = 41146
+		act_id = 50806
 	},
 	ELITE_AWARD_ACTIVITY_ID = {
 		act_id = 40030
@@ -928,13 +928,13 @@ pg.activity_const = {
 		act_id = 4637
 	},
 	DOA2_MEDAL_ACT_ID = {
-		act_id = 4779
+		act_id = 50810
 	},
 	MINIGAME_VOLLEYBALL = {
-		act_id = 4780
+		act_id = 50811
 	},
 	MINIGAME_PENGPENGDONG = {
-		act_id = 4781
+		act_id = 50812
 	},
 	ISLAND_TASK_ID = {
 		act_id = 4867

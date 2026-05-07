@@ -41,13 +41,38 @@ pg.shop_banner_template = {
 	},
 	[11] = {
 		name = "banner_big",
-		time = "stop",
 		type = 2,
 		time_lable = 1,
 		pic = "shopbanner/shop_skin2",
 		id = 11,
 		relation_param = "",
 		order = 9,
+		time = {
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
 		param = {
 			"scene skinshop",
 			{}
