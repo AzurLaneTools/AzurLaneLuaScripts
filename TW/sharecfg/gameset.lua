@@ -4075,6 +4075,14 @@ pg.gameset = {
 		description = "L2DUI",
 		key_value = 0
 	},
+	child2_shop_refresh_price = {
+		description = "",
+		key_value = 150
+	},
+	child2_shop_refresh_count = {
+		description = "",
+		key_value = 1
+	},
 	child2_rank_switch = {
 		description = "",
 		key_value = 1

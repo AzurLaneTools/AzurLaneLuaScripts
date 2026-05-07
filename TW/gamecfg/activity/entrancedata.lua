@@ -376,7 +376,7 @@ return {
 		banner = "activity_boss",
 		event = ActivityMediator.EVENT_GO_SCENE,
 		data = {
-			SCENE.DOALINK_ISLAND,
+			SCENE.DOAReLINK_ISLAND,
 			{
 				id = 50811
 			}
