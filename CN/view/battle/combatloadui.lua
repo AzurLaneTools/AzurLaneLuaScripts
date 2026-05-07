@@ -6,6 +6,20 @@ slot0.getUIName = function(slot0)
 	return "CombatLoadUI"
 end
 
+slot0.preload = function(slot0, slot1)
+	slot0._preloadBGSprite = nil
+
+	if slot0.contextData.system == SYSTEM_BOSS_RUSH_COLLABRATE and "bg/star_level_bg_211" or uv0.GetRandomBGPath() then
+		LoadSpriteAsync(slot2, function (slot0)
+			uv0._preloadBGSprite = slot0
+
+			uv1()
+		end)
+	else
+		slot1()
+	end
+end
+
 slot0.init = function(slot0)
 	slot1 = slot0._tf:Find("loading")
 	slot0._loadingProgress = slot1:Find("loading_bar"):GetComponent(typeof(Slider))
@@ -27,9 +41,10 @@ slot0.init = function(slot0)
 
 	SetActive(slot3, slot5 ~= 1)
 	SetActive(slot4, slot5 == 1)
-	LoadSpriteAsync(uv0.GetRandomBGPath(), function (slot0)
-		setImageSprite(uv0.bg, slot0)
-	end)
+
+	if slot0._preloadBGSprite then
+		setImageSprite(slot0.bg, slot0._preloadBGSprite)
+	end
 
 	slot0._tipsText = slot1:Find("tipsText"):GetComponent(typeof(Text))
 end
@@ -50,11 +65,6 @@ slot0.Preload = function(slot0)
 	ys.Battle.BattleResourceManager.GetInstance():Init()
 
 	slot2 = getProxy(BayProxy)
-
-	if slot0.contextData.system == SYSTEM_BOSS_RUSH_COLLABRATE then
-		setImageSprite(slot0.bg, LoadSprite("bg/star_level_bg_211"))
-	end
-
 	slot3, slot4 = uv0.GetTotalResourceList(slot0.contextData)
 
 	for slot8, slot9 in ipairs(slot3) do

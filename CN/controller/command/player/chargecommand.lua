@@ -1,13 +1,7 @@
 slot0 = class("ChargeCommand", pm.SimpleCommand)
 
 slot0.execute = function(slot0, slot1)
-	if PLATFORM_CODE == PLATFORM_JP then
-		if not pg.SdkMgr.GetInstance():YoStarCheckCanBuy() then
-			originalPrint("wait for a second, Do not click quickly~")
-
-			return
-		end
-	elseif PLATFORM_CODE == PLATFORM_US and not pg.SdkMgr.GetInstance():CheckAiriCanBuy() then
+	if (PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US) and not pg.SdkMgr.GetInstance():YoStarCheckCanBuy() then
 		originalPrint("wait for a second, Do not click quickly~")
 
 		return
