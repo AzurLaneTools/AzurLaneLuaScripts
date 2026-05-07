@@ -3944,6 +3944,8 @@ pg.skill_data_display.all = {
 	1019261,
 	1019262,
 	1019263,
+	1014170,
+	1014171,
 	1090020,
 	1090042,
 	1090043,
@@ -4024,7 +4026,8 @@ pg.skill_data_display.all = {
 	1090442,
 	1090451,
 	1090452,
-	1090453
+	1090453,
+	1090462
 }
 pg.base = pg.base or {}
 pg.base.skill_data_display = {}
@@ -19868,6 +19871,14 @@ end)()
 		id = 1019263,
 		name = "Precision Salvo Protocol+"
 	}
+	pg.base.skill_data_display[1014170] = {
+		id = 1014170,
+		name = "Kirov Reporting! +"
+	}
+	pg.base.skill_data_display[1014171] = {
+		id = 1014171,
+		name = "Kirov Reporting! +"
+	}
 	pg.base.skill_data_display[1090020] = {
 		id = 1090020,
 		name = "Full Firepower - Karlsruhe"
@@ -20100,6 +20111,8 @@ end)()
 		id = 1090380,
 		name = "Double Torpedo - Atago"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1090381] = {
 		id = 1090381,
 		name = "Double Torpedo - Atago"
@@ -20108,8 +20121,6 @@ end)()
 		id = 1090390,
 		name = "Anti-Air Mode - Columbia"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1090391] = {
 		id = 1090391,
 		name = "Anti-Air Mode - Columbia"
@@ -20193,5 +20204,9 @@ end)()
 	pg.base.skill_data_display[1090453] = {
 		id = 1090453,
 		name = "Target Designator: Torpedo - Matchless"
+	}
+	pg.base.skill_data_display[1090462] = {
+		id = 1090462,
+		name = "Artillery Command: Grenville"
 	}
 end)()

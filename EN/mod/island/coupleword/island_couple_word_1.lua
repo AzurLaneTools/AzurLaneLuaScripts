@@ -1,6 +1,6 @@
 return {
 	{
-		say = "指挥官，今天的工作，就让萨拉托加来帮你吧！",
+		say = "Commander, Sister Sara has come to help with your work!",
 		characterId = 10703
 	},
 	{

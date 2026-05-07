@@ -28,6 +28,10 @@ slot0.GetTargetRoot = function(slot0)
 	return slot0._go.transform
 end
 
+slot0.GetPlayerParent = function(slot0)
+	return slot0:GetTargetRoot()
+end
+
 slot0.StartInteract = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 	if slot6 then
 		slot0.director:Stop()
@@ -43,7 +47,7 @@ slot0.StartInteract = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, 
 		slot0.ignoreSignal = true
 	end
 
-	slot0:SetPlayerTransform(slot1, slot0:GetTargetRoot())
+	slot0:SetPlayerTransform(slot1, slot0:GetPlayerParent())
 
 	if slot5 and #slot5 > 1 then
 		slot0.behaviourTreeOwner.graph.blackboard:SetVariableValue(slot5[1], slot5[2])

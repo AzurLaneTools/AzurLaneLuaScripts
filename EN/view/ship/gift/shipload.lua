@@ -17,7 +17,7 @@ slot0.LoadShip = function(slot0, slot1, slot2, slot3)
 			slot0.live2dClass = nil
 		end
 
-		slot0.live2dClass = Live2D.New(Live2D.GenerateData(slot2), function (slot0)
+		slot0.live2dClass = Live2DPainting.New(Live2DPainting.GenerateData(slot2), function (slot0)
 			if uv0.exit == true then
 				return
 			end

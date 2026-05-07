@@ -1,10 +1,10 @@
 return {
 	{
-		say = "Honey！正准备去找你呢~",
+		say = "Hoooney! I was just about to go see you~!",
 		characterId = 10517
 	},
 	{
-		say = "想和最大最强的“Black Dragon”来场约会吗？",
+		say = "Wanna go on a date with the indomitable Black Dragon?",
 		characterId = 10517
 	},
 	{

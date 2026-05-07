@@ -1,6 +1,6 @@
 return {
 	{
-		say = "辛苦指挥官了，今天的工作~要分我一半吗？",
+		say = "You've been hard at work, Commander. How about leaving me with half your workload today?",
 		characterId = 40303
 	},
 	{

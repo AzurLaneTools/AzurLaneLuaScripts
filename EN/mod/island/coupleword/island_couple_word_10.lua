@@ -1,10 +1,10 @@
 return {
 	{
-		say = "撒丁的海鲜烩饭……确实让人有些怀念呢~",
+		say = "Sardegnian paella, huh... It sure brings back old memories.",
 		characterId = 70104
 	},
 	{
-		say = "要我设计台全自动烹饪机吗？三分钟还原撒丁风味哦~",
+		say = "Want me to make a Cooking Machine? It can recreate the tastes of Sardegna in three minutes flat!",
 		characterId = 60802
 	}
 }

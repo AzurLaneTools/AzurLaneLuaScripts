@@ -1,10 +1,10 @@
 return {
 	{
-		say = "塔什干，要来比比看谁先跑到海边吗？",
+		say = "Lady Tashkent, I would like to propose a race to the seashore.",
 		characterId = 30129
 	},
 	{
-		say = "那就让你见识一下塔什干的实力吧！",
+		say = "Is that so? Then, I'll show you what I'm capable of.",
 		characterId = 70104
 	}
 }

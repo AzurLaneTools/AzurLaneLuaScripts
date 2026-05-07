@@ -12979,7 +12979,7 @@ _G.pg.base.gametip.buildship_heavy_tip = {
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "Z16 added to standard build pool!"
+	tip = "Marseillaise added to standard build pool!"
 }
 
 
@@ -23958,7 +23958,7 @@ _G.pg.base.gametip.Settings_title_Other = {
 
 
 _G.pg.base.gametip.Settings_title_LoginJP = {
-	tip = "Transfer Code"
+	tip = "Account "
 }
 
 
@@ -26597,7 +26597,7 @@ Event Rules:
 
 
 _G.pg.base.gametip.eventshop_time_hint = {
-	tip = "Exchange available until $1, 11:59 PM."
+	tip = "Exchange available until $1, 11:59 PM. "
 }
 
 
@@ -44439,6 +44439,56 @@ _G.pg.base.gametip.island_spoperation_item_2602_3 = {
 
 _G.pg.base.gametip.island_spoperation_item_2602_4 = {
 	tip = "Hyacinth"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2605_1 = {
+	tip = "During the event, Peary will issue requests for specialty products. Complete these orders to earn rewards such as Island Development Points.\nNote: Specialty products do not count toward your request completion limit, and they do not affect your rating level."
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2605_2 = {
+	tip = "During the event, unique items will appear within specific areas. Search the areas and gather the items quickly!"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2605_3 = {
+	tip = "During the event, you can produce corresponding specialty products at Newsprout Nursery, the Golden Koi Restaurant, the Polar Bear Teahouse, and the Base Factory."
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2605_1 = {
+	tip = "Gather Specialty Products"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2605_2 = {
+	tip = "Make Specialty Products"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2605_3 = {
+	tip = "Event Manager"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2605_1 = {
+	tip = "Jasmine"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2605_2 = {
+	tip = "Sunflower"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2605_3 = {
+	tip = "Watermelon"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2605_4 = {
+	tip = "Amaranth Greens"
 }
 
 

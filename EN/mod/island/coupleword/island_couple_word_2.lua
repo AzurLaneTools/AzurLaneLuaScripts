@@ -1,10 +1,10 @@
 return {
 	{
-		say = "把你的发明都授权给我怎么样？能赚大钱喵~",
+		say = "Wouldn't it be nice if I could get patents for all of da Vinci's inventions? I'd be able to make a huge fortune for sure, nya~♪",
 		characterId = 31201
 	},
 	{
-		say = "好啊！我刚好有一个绝妙的灵感！",
+		say = "You bet! Aaand, I've just come up with the most splendiferous idea!",
 		characterId = 60802
 	}
 }

@@ -27,7 +27,8 @@ slot0.FlushRightPanel = function(slot0)
 
 	slot3 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(slot0.showIllustration:GetLinkConfigID())
 
-	setText(slot0.rightNameTF:Find("level"), slot0.showIllustration:GetStatus() == IslandIllustration.STATUS.UNLOCK and " - Lv." .. slot3:GetLevel() or "")
+	setText(slot0.rightTF:Find("level"), slot0.showIllustration:GetStatus() == IslandIllustration.STATUS.UNLOCK and "Lv." .. slot3:GetLevel() or "")
+	setScrollTextWithSize(slot0.rightNameTF, slot0.rightTF:Find("scroll_name/Text"), slot0.showIllustration:GetName(), 11)
 
 	slot4 = slot3 and slot3:GetBreakLevel() or 0
 

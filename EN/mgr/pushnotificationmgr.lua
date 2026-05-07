@@ -18,8 +18,9 @@ slot3 = false
 slot1.Init = function(slot0)
 	uv0 = {}
 
-	for slot4, slot5 in ipairs(uv1.push_data_template) do
-		uv0[slot5.id] = PlayerPrefs.GetInt("push_setting_" .. slot5.id) == 0
+	for slot4, slot5 in ipairs(uv1.push_data_template.all) do
+		slot6 = uv1.push_data_template[slot5]
+		uv0[slot6.id] = PlayerPrefs.GetInt("push_setting_" .. slot6.id) == 0
 	end
 
 	uv2 = PlayerPrefs.GetInt("setting_ship_name") == 1
@@ -28,10 +29,12 @@ end
 slot1.Reset = function(slot0)
 	uv0 = {}
 
-	for slot4, slot5 in ipairs(uv1.push_data_template) do
-		PlayerPrefs.SetInt("push_setting_" .. slot5.id, 0)
+	for slot4, slot5 in ipairs(uv1.push_data_template.all) do
+		slot6 = uv1.push_data_template[slot5]
 
-		uv0[slot5.id] = true
+		PlayerPrefs.SetInt("push_setting_" .. slot6.id, 0)
+
+		uv0[slot6.id] = true
 	end
 
 	PlayerPrefs.SetInt("setting_ship_name", 0)

@@ -1,10 +1,10 @@
 return {
 	{
-		say = "啊，好可爱的耳朵！让柴郡摸摸好不好？",
+		say = "*gasp*! What ADORABLE earsies! Can Cheshire touch them?!",
 		characterId = 29903
 	},
 	{
-		say = "这可不行！咳咳，我是说……得加钱喵~",
+		say = "Heck nyo! I mean, *ahem*... For a price, you can, nya!",
 		characterId = 31201
 	}
 }

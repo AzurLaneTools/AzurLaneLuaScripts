@@ -171,7 +171,8 @@ slot0.listNotificationInterests = function(slot0)
 		GAME.SERVER_LOGIN_WAIT,
 		GAME.BEGIN_STAGE_DONE,
 		GAME.SERVER_LOGIN_FAILED_USER_BANNED,
-		GAME.ON_SOCIAL_LINKED
+		GAME.ON_SOCIAL_LINKED,
+		GAME.PLATFORM_LOGIN_WAIT_DONE
 	}
 end
 
@@ -298,6 +299,8 @@ slot0.handleNotification = function(slot0, slot1)
 		end
 	elseif slot2 == GAME.ON_SOCIAL_LINKED then
 		slot0.viewComponent:closeYostarAlertView()
+	elseif slot2 == GAME.PLATFORM_LOGIN_WAIT_DONE then
+		slot0.viewComponent:onLoginWait(slot3.isLoginSuccess)
 	end
 end
 

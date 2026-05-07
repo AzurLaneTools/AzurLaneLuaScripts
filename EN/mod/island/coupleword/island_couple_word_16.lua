@@ -1,10 +1,10 @@
 return {
 	{
-		say = "闲暇时分，不妨共赏此间风月……",
+		say = "There's something quite sublime about... simply soaking in the scenery.",
 		characterId = 50601
 	},
 	{
-		say = "指挥官，你意下如何？",
+		say = "Wouldn't you agree, Commander?",
 		characterId = 50601
 	}
 }

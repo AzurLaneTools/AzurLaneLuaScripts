@@ -1,6 +1,6 @@
 return {
 	{
-		say = "主上……今天，能多陪{namecode:161}一会儿吗？",
+		say = "Commander... would you mind keeping me company a bit longer?",
 		characterId = 30407
 	},
 	{

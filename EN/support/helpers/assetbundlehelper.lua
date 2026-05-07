@@ -131,4 +131,20 @@ slot0.BuildAssetNameDic = function(slot0, slot1)
 	uv0.bundleDic[slot0] = slot2
 end
 
+slot0.GetTotalRefList = function(slot0)
+	if not slot0 or #slot0 == 0 then
+		return {}
+	end
+
+	slot2 = {}
+
+	for slot6 = 0, ResourceMgr.Inst:GetFullDependencies(slot0).Length - 1 do
+		if not table.contains(slot2, slot1[slot6]) then
+			table.insert(slot2, slot1[slot6])
+		end
+	end
+
+	return slot2
+end
+
 return slot0

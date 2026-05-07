@@ -28,6 +28,7 @@ pg.island_furniture_template.all = {
 	23,
 	100,
 	101,
+	102,
 	10101,
 	10201,
 	10301,
@@ -121,7 +122,41 @@ pg.island_furniture_template.all = {
 	30416,
 	30801,
 	30802,
-	30803
+	30803,
+	40002,
+	40004,
+	40005,
+	40006,
+	40007,
+	40101,
+	40201,
+	40301,
+	40302,
+	40303,
+	40304,
+	40401,
+	40402,
+	40403,
+	40404,
+	40405,
+	40406,
+	40407,
+	40408,
+	40409,
+	40410,
+	40411,
+	40412,
+	40413,
+	40414,
+	40415,
+	40416,
+	40417,
+	40418,
+	40419,
+	40420,
+	40801,
+	40802,
+	40803
 }
 pg.base = pg.base or {}
 pg.base.island_furniture_template = {}
@@ -676,6 +711,27 @@ pg.base.island_furniture_template = {}
 				{}
 			}
 		}
+	}
+	pg.base.island_furniture_template[102] = {
+		setNum = 1,
+		describe = "A trophy adorned with sunflowers and jasmine, capturing the radiance of summer.",
+		name = "Summer Development Trophy",
+		type = 7,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_102",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50283/prefab/pre_item_05_50283",
+		bt = "",
+		id = 102,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {}
 	}
 	pg.base.island_furniture_template[10101] = {
 		setNum = 1,
@@ -2589,6 +2645,8 @@ pg.base.island_furniture_template = {}
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.island_furniture_template[30305] = {
 		setNum = 999,
 		describe = "Enjoy a relaxing afternoon teatime surrounded by the fragrance of sweets.",
@@ -2615,8 +2673,6 @@ pg.base.island_furniture_template = {}
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.island_furniture_template[30401] = {
 		setNum = 999,
 		describe = "Bathe in the sunshine and sway along with the sunflowers in the gentle breeze.",
@@ -3116,5 +3172,857 @@ end)()
 				{}
 			}
 		}
+	}
+	pg.base.island_furniture_template[40002] = {
+		setNum = 999,
+		describe = "A long bamboo bench. Keeping you cool, it's perfect for enjoying the summer night's refreshing air.",
+		name = "Bamboo Bench",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40002",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50226/prefab/pre_item_05_50226",
+		bt = "",
+		id = 40002,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {}
+	}
+	pg.base.island_furniture_template[40004] = {
+		setNum = 999,
+		describe = "A simple wooden gate. A humble barrier between the hustle and bustle outside and the tranquility within.",
+		name = "Wooden Gate",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40004",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50214/prefab/pre_item_05_50214",
+		bt = "",
+		id = 40004,
+		tech_id = 0,
+		size = {
+			6,
+			1
+		},
+		jump_page = {}
+	}
+	pg.base.island_furniture_template[40005] = {
+		setNum = 999,
+		describe = "Look within, and listen to the sounds of the water that has flowed since time immemorial.",
+		name = "Stone Well",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40005",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50221/prefab/pre_item_05_50221",
+		bt = "",
+		id = 40005,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {}
+	}
+	pg.base.island_furniture_template[40006] = {
+		setNum = 999,
+		describe = "A low wall crafted from natural stone. It divides neatly and cleanly, while still giving a sense of openness.",
+		name = "Low Stone Wall",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40006",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50223/prefab/pre_item_05_50223",
+		bt = "",
+		id = 40006,
+		tech_id = 0,
+		size = {
+			2,
+			1
+		},
+		jump_page = {}
+	}
+	pg.base.island_furniture_template[40007] = {
+		setNum = 999,
+		describe = "A fence made from thin pieces of wood, giving off a simple and natural feel.",
+		name = "Wooden Fence",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40007",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50224/prefab/pre_item_05_50224",
+		bt = "",
+		id = 40007,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {}
+	}
+	pg.base.island_furniture_template[40101] = {
+		setNum = 1,
+		describe = "A fairytale castle, towering above the center of the park. The final destination of every magical journey.",
+		name = "Fairy-Tale Castle",
+		type = 1,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_40101",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50150/prefab/pre_item_05_50150",
+		bt = "",
+		id = 40101,
+		tech_id = 0,
+		size = {
+			22,
+			22
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40201] = {
+		setNum = 1,
+		describe = "Experience the exhilarating thrill of weightlessness as you leap from the clouds.",
+		name = "Tower in the Clouds",
+		type = 2,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_40201",
+		prosperity = 0,
+		capacityCost = 0,
+		model = "island/item/05/50153/prefab/pre_item_05_50153",
+		bt = "",
+		id = 40201,
+		tech_id = 0,
+		size = {
+			20,
+			20
+		},
+		interact_point = {
+			20
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40301] = {
+		setNum = 999,
+		describe = "A dreamlike, colorful archway. Beyond it lies the realm of fairytales.",
+		name = "Rainbow Arch",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40301",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50166/prefab/pre_item_05_50166",
+		bt = "",
+		id = 40301,
+		tech_id = 0,
+		size = {
+			12,
+			2
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40302] = {
+		setNum = 999,
+		describe = "Welcome to this dreamland paradise – it's time to leave all your worries outside.",
+		name = "Amusement Park Gate",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40302",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50151/prefab/pre_item_05_50151",
+		bt = "",
+		id = 40302,
+		tech_id = 0,
+		size = {
+			5,
+			2
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40303] = {
+		setNum = 999,
+		describe = "White benches that can be seen just about everywhere. Decorated with delicate patterns, they're perfect for a break when you need one.",
+		name = "Garden Bench",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40303",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50171/prefab/pre_item_05_50171",
+		bt = "",
+		id = 40303,
+		tech_id = 0,
+		size = {
+			2,
+			1
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40304] = {
+		setNum = 999,
+		describe = "A crescent-shaped chair. Perfect for daydreaming or stargazing.",
+		name = "Crescent Nook",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40304",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50164/prefab/pre_item_05_50164",
+		bt = "",
+		id = 40304,
+		tech_id = 0,
+		size = {
+			3,
+			2
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40401] = {
+		setNum = 999,
+		describe = "Colorful wooden ponies spin and gallop to the sound of rustic music. A classic amusement park memory.",
+		name = "Merry-Go-Round",
+		type = 4,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_40401",
+		prosperity = 0,
+		capacityCost = 60,
+		model = "island/item/05/50159/prefab/pre_item_05_50159",
+		bt = "",
+		id = 40401,
+		tech_id = 0,
+		size = {
+			7,
+			5
+		},
+		interact_point = {
+			21
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40402] = {
+		setNum = 999,
+		describe = "Go 'round and 'round in these colorful teacups. Don't worry about getting dizzy – that's part of the fun.",
+		name = "Teacup Ride",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40402",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50160/prefab/pre_item_05_50160",
+		bt = "",
+		id = 40402,
+		tech_id = 0,
+		size = {
+			5,
+			5
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40403] = {
+		setNum = 999,
+		describe = "Glide down, and make a splash! Nothing beats the excitement of a satisfying cannonball!",
+		name = "Water Slide",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40403",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50154/prefab/pre_item_05_50154",
+		bt = "",
+		id = 40403,
+		tech_id = 0,
+		size = {
+			7,
+			11
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40404] = {
+		setNum = 999,
+		describe = "Giant coffee cups scoop up the clouds, adorning everyone's laughter.",
+		name = "Ferris Wheel",
+		type = 4,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_40404",
+		prosperity = 0,
+		capacityCost = 60,
+		model = "island/item/05/50152/prefab/pre_item_05_50152",
+		bt = "",
+		id = 40404,
+		tech_id = 0,
+		size = {
+			6,
+			3
+		},
+		interact_point = {
+			22
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40405] = {
+		setNum = 999,
+		describe = "A floatie in the shape of a big white duck. A waterpark classic that brings out your inner child.",
+		name = "Duck Floatie",
+		type = 4,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_40405",
+		prosperity = 0,
+		capacityCost = 50,
+		model = "island/item/05/50170/prefab/pre_item_05_50170",
+		bt = "",
+		id = 40405,
+		tech_id = 0,
+		size = {
+			3,
+			3
+		},
+		interact_point = {
+			23
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40406] = {
+		setNum = 999,
+		describe = "An ornament that looks like a star plucked straight from the heavens.",
+		name = "Star Ornament",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40406",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50165/prefab/pre_item_05_50165",
+		bt = "",
+		id = 40406,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40407] = {
+		setNum = 999,
+		describe = "Cute plushies are snuggling soundly inside this bubble!",
+		name = "Plushie Bubble",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40407",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50175/prefab/pre_item_05_50175",
+		bt = "",
+		id = 40407,
+		tech_id = 0,
+		size = {
+			3,
+			3
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40408] = {
+		setNum = 999,
+		describe = "Legends say that touching a unicorn's wings will make your dreams come true.",
+		name = "Unicorn Ornament",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40408",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50177/prefab/pre_item_05_50177",
+		bt = "",
+		id = 40408,
+		tech_id = 0,
+		size = {
+			3,
+			2
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40409] = {
+		setNum = 999,
+		describe = "Hurry up and hop on! Your journey to the clouds is about to begin!",
+		name = "Unicorn Balloon",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40409",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50174/prefab/pre_item_05_50174",
+		bt = "",
+		id = 40409,
+		tech_id = 0,
+		size = {
+			5,
+			2
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40410] = {
+		setNum = 999,
+		describe = "The streetlights cycle through stellar colors, adding a dreamy touch to the nighttime streets.",
+		name = "Star Streetlight",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40410",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50162/prefab/pre_item_05_50162",
+		bt = "",
+		id = 40410,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40411] = {
+		setNum = 999,
+		describe = "Castle's to the right, and the floaties are to the left. Follow the sign and nobody gets lost, y'hear?",
+		name = "Park Signpost",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40411",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50167/prefab/pre_item_05_50167",
+		bt = "",
+		id = 40411,
+		tech_id = 0,
+		size = {
+			2,
+			1
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40412] = {
+		setNum = 999,
+		describe = "A great spot for a photo. Strike a pose and capture your best smile.",
+		name = "Photo Station",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40412",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50161/prefab/pre_item_05_50161",
+		bt = "",
+		id = 40412,
+		tech_id = 0,
+		size = {
+			4,
+			1
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40413] = {
+		setNum = 999,
+		describe = "Up, and down, and up, and down~",
+		name = "Seesaw",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40413",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50163/prefab/pre_item_05_50163",
+		bt = "",
+		id = 40413,
+		tech_id = 0,
+		size = {
+			4,
+			1
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40414] = {
+		setNum = 999,
+		describe = "Pink roses adorn this white fence, welcoming your approach with a sweet fragrance.",
+		name = "Garden Fence",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40414",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50172/prefab/pre_item_05_50172",
+		bt = "",
+		id = 40414,
+		tech_id = 0,
+		size = {
+			2,
+			1
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40415] = {
+		setNum = 999,
+		describe = "Colorful balloons are tied to the fence, awaiting the arrival of guests.",
+		name = "Balloon Fence",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40415",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50169/prefab/pre_item_05_50169",
+		bt = "",
+		id = 40415,
+		tech_id = 0,
+		size = {
+			2,
+			1
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40416] = {
+		setNum = 999,
+		describe = "Maple trees with pink leaves add a dreamlike atmosphere to the park.",
+		name = "Pink Maple Tree",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40416",
+		prosperity = 0,
+		capacityCost = 150,
+		interact_point = "",
+		model = "island/item/05/50178/prefab/pre_item_05_50178",
+		bt = "",
+		id = 40416,
+		tech_id = 0,
+		size = {
+			3,
+			3
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40417] = {
+		setNum = 999,
+		describe = "A pink tree decorated with candy and stars. A sweet sight to behold.",
+		name = "Star Candy Tree",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40417",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50155/prefab/pre_item_05_50155",
+		bt = "",
+		id = 40417,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40418] = {
+		setNum = 999,
+		describe = "A candy tree that looks like it sprouted right out of a fairytale tome. The moon shines brightly from the treetop.",
+		name = "Moon Candy Tree",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40418",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50156/prefab/pre_item_05_50156",
+		bt = "",
+		id = 40418,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40419] = {
+		setNum = 999,
+		describe = "A patch of pink tulips surrounded by a white decorative fence. It's almost like a delicate oil painting.",
+		name = "Tulip Garden",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40419",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50157/prefab/pre_item_05_50157",
+		bt = "",
+		id = 40419,
+		tech_id = 0,
+		size = {
+			1,
+			3
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40420] = {
+		setNum = 999,
+		describe = "A flowerbed shaped like little bunnies. Sow the seeds of cuteness!",
+		name = "Bunny Garden",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40420",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50158/prefab/pre_item_05_50158",
+		bt = "",
+		id = 40420,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40801] = {
+		setNum = 999,
+		describe = "Colors dot the floor like sprinkles on a cake.",
+		name = "Colored Tile (Small)",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_40801",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50194/prefab/pre_item_05_50194",
+		bt = "",
+		id = 40801,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {}
+	}
+	pg.base.island_furniture_template[40802] = {
+		setNum = 999,
+		describe = "Colors dot the floor like sprinkles on a cake.",
+		name = "Colored Tile (Medium)",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_40802",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50195/prefab/pre_item_05_50195",
+		bt = "",
+		id = 40802,
+		tech_id = 0,
+		size = {
+			3,
+			3
+		},
+		jump_page = {}
+	}
+	pg.base.island_furniture_template[40803] = {
+		setNum = 999,
+		describe = "Colors dot the floor like sprinkles on a cake.",
+		name = "Colored Tile (Large)",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_40803",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50196/prefab/pre_item_05_50196",
+		bt = "",
+		id = 40803,
+		tech_id = 0,
+		size = {
+			5,
+			5
+		},
+		jump_page = {}
 	}
 end)()

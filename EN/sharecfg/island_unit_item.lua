@@ -68,6 +68,10 @@ pg.island_unit_item.all = {
 	20063,
 	20064,
 	20065,
+	20066,
+	20067,
+	20068,
+	20069,
 	20100,
 	20101,
 	20102,
@@ -120,6 +124,10 @@ pg.island_unit_item.all = {
 	20162,
 	20163,
 	20164,
+	20165,
+	20166,
+	20167,
+	20168,
 	60001,
 	60002,
 	60003,
@@ -500,6 +508,26 @@ pg.base.island_unit_item = {}
 		navAgentParam = "",
 		model = "island/item/02/20065/prefab/pre_item_02_20065"
 	}
+	pg.base.island_unit_item[20066] = {
+		id = 20066,
+		navAgentParam = "",
+		model = "island/item/02/20066/prefab/pre_item_02_20066"
+	}
+	pg.base.island_unit_item[20067] = {
+		id = 20067,
+		navAgentParam = "",
+		model = "island/item/02/20067/prefab/pre_item_02_20067"
+	}
+	pg.base.island_unit_item[20068] = {
+		id = 20068,
+		navAgentParam = "",
+		model = "island/item/02/20068/prefab/pre_item_02_20068"
+	}
+	pg.base.island_unit_item[20069] = {
+		id = 20069,
+		navAgentParam = "",
+		model = "island/item/02/20069/prefab/pre_item_02_20069"
+	}
 	pg.base.island_unit_item[20100] = {
 		id = 20100,
 		navAgentParam = "",
@@ -655,6 +683,8 @@ pg.base.island_unit_item = {}
 		navAgentParam = "",
 		model = "island/item/02/20130/prefab/pre_item_02_20130"
 	}
+end)()
+(function ()
 	pg.base.island_unit_item[20131] = {
 		id = 20131,
 		navAgentParam = "",
@@ -675,8 +705,6 @@ pg.base.island_unit_item = {}
 		navAgentParam = "",
 		model = "island/item/02/20136/prefab/pre_item_02_20136"
 	}
-end)()
-(function ()
 	pg.base.island_unit_item[20137] = {
 		id = 20137,
 		navAgentParam = "",
@@ -761,6 +789,26 @@ end)()
 		id = 20164,
 		navAgentParam = "",
 		model = "island/item/02/20164/prefab/pre_item_02_20164"
+	}
+	pg.base.island_unit_item[20165] = {
+		id = 20165,
+		navAgentParam = "",
+		model = "island/item/02/20165/prefab/pre_item_02_20165"
+	}
+	pg.base.island_unit_item[20166] = {
+		id = 20166,
+		navAgentParam = "",
+		model = "island/item/02/20166/prefab/pre_item_02_20166"
+	}
+	pg.base.island_unit_item[20167] = {
+		id = 20167,
+		navAgentParam = "",
+		model = "island/item/02/20167/prefab/pre_item_02_20167"
+	}
+	pg.base.island_unit_item[20168] = {
+		id = 20168,
+		navAgentParam = "",
+		model = "island/item/02/20168/prefab/pre_item_02_20168"
 	}
 	pg.base.island_unit_item[60001] = {
 		id = 60001,

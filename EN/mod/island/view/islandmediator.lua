@@ -126,10 +126,11 @@ slot0._register = function(slot0)
 			op = IslandConst.FOLLOWER_OP_ADD
 		})
 	end)
-	slot0:bind(uv0.DEL_FOLLOWER, function (slot0, slot1)
+	slot0:bind(uv0.DEL_FOLLOWER, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.ISLAND_FOLLOWER_OP, {
 			shipId = slot1,
-			op = IslandConst.FOLLOWER_OP_DEL
+			op = IslandConst.FOLLOWER_OP_DEL,
+			callback = slot2
 		})
 	end)
 	slot0:bind(uv0.NPC_ACTION_AWARD, function (slot0, slot1, slot2)

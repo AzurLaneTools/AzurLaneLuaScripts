@@ -1,8 +1,6 @@
 slot0 = class("Live2dDrag")
 slot1 = 4
-slot2 = {
-	Live2D.DRAG_DOWN_ACTION
-}
+slot2 = {}
 slot3 = 1
 slot4 = 2
 slot5 = 3
@@ -15,6 +13,9 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0.live2dData = slot2
 	slot0.commonData = slot3
 	slot0.frameRate = Application.targetFrameRate or 60
+	uv0 = {
+		Live2DPainting.DRAG_DOWN_ACTION
+	}
 	slot0.id = slot1.id
 	slot0.drawAbleName = slot1.draw_able_name or ""
 	slot0.parameterName = slot1.parameter
@@ -54,7 +55,7 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0.actionTriggerActive = slot1.action_trigger_active
 	slot0.relationParameter = slot1.relation_parameter
 	slot0.relationParts = slot0.relationParameter.parts
-	slot0.limitTime = slot1.limit_time > 0 and slot1.limit_time or uv0
+	slot0.limitTime = slot1.limit_time > 0 and slot1.limit_time or uv1
 	slot0.offsetCircle = slot1.offset_circle or ""
 	slot0.offsetCirclePos = slot0.offsetCircle.pos and slot0.offsetCircle.pos or nil
 	slot0.offsetCircleStart = slot0.offsetCircle.start and slot0.offsetCircle.start or nil
@@ -189,7 +190,7 @@ slot0.onListenerEvent = function(slot0, slot1, slot2)
 				end
 
 				if slot13 and slot0.l2dIdleIndex ~= slot13 then
-					slot0:onEventCallback(Live2D.EVENT_CHANGE_IDLE_INDEX, {
+					slot0:onEventCallback(Live2DPainting.EVENT_CHANGE_IDLE_INDEX, {
 						id = slot0.id,
 						idle = slot13,
 						activeData = slot0.actionTriggerActive
@@ -201,29 +202,29 @@ slot0.onListenerEvent = function(slot0, slot1, slot2)
 end
 
 slot0.onListenerTrigger = function(slot0, slot1, slot2)
-	if slot1 == Live2D.ON_ACTION_DRAG_CLICK then
+	if slot1 == Live2DPainting.ON_ACTION_DRAG_CLICK then
 		if slot0.actionTrigger.click_cd and table.contains(slot0.actionTrigger.click_cd, slot2.draw_able_name) then
 			slot0.nextTriggerTime = slot0.limitTime
 		end
-	elseif slot1 == Live2D.ON_ACTION_PLAY then
+	elseif slot1 == Live2DPainting.ON_ACTION_PLAY then
 		slot0.nextTriggerTime = slot0.limitTime <= 1 and slot0.limitTime or 1
 	end
 end
 
 slot0.getChangeCheckName = function(slot0, slot1, slot2)
-	if slot1 == Live2D.ON_ACTION_PLAY then
+	if slot1 == Live2DPainting.ON_ACTION_PLAY then
 		return slot2.action
-	elseif slot1 == Live2D.ON_ACTION_DRAG_CLICK then
+	elseif slot1 == Live2DPainting.ON_ACTION_DRAG_CLICK then
 		return slot2.draw_able_name
-	elseif slot1 == Live2D.ON_ACTION_CHANGE_IDLE then
+	elseif slot1 == Live2DPainting.ON_ACTION_CHANGE_IDLE then
 		return slot2.idle
-	elseif slot1 == Live2D.ON_ACTION_PARAMETER then
+	elseif slot1 == Live2DPainting.ON_ACTION_PARAMETER then
 		-- Nothing
-	elseif slot1 == Live2D.ON_ACTION_DOWN then
+	elseif slot1 == Live2DPainting.ON_ACTION_DOWN then
 		-- Nothing
-	elseif slot1 == Live2D.ON_ACTION_XY_TRIGGER then
+	elseif slot1 == Live2DPainting.ON_ACTION_XY_TRIGGER then
 		-- Nothing
-	elseif slot1 == Live2D.ON_ACTION_DRAG_TRIGGER then
+	elseif slot1 == Live2DPainting.ON_ACTION_DRAG_TRIGGER then
 		-- Nothing
 	end
 
@@ -291,7 +292,7 @@ end
 slot0.checkResetTriggerTime = function(slot0)
 	slot1 = false
 
-	if slot0.actionTrigger.type == Live2D.DRAG_DOWN_ACTION and slot0.actionTrigger.last then
+	if slot0.actionTrigger.type == Live2DPainting.DRAG_DOWN_ACTION and slot0.actionTrigger.last then
 		slot1 = true
 	end
 
@@ -312,7 +313,7 @@ slot0.updatePartsParameter = function(slot0)
 
 		if slot0.offsetX or slot0.offsetY then
 			slot3 = true
-		elseif slot0.actionTrigger and slot0.actionTrigger.type == Live2D.DRAG_DOWN_TOUCH then
+		elseif slot0.actionTrigger and slot0.actionTrigger.type == Live2DPainting.DRAG_DOWN_TOUCH then
 			slot3 = true
 		elseif slot0.offsetCirclePos then
 			slot3 = true
@@ -404,7 +405,7 @@ slot0.setEventCallback = function(slot0, slot1)
 end
 
 slot0.onEventCallback = function(slot0, slot1, slot2, slot3)
-	if slot1 == Live2D.EVENT_ACTION_APPLY then
+	if slot1 == Live2DPainting.EVENT_ACTION_APPLY then
 		slot4 = {}
 		slot5 = nil
 		slot6 = false
@@ -513,17 +514,17 @@ slot0.onEventCallback = function(slot0, slot1, slot2, slot3)
 				uv0:actionApplyFinish()
 			end
 		}
-	elseif slot1 == Live2D.EVENT_ACTION_ABLE then
+	elseif slot1 == Live2DPainting.EVENT_ACTION_ABLE then
 		-- Nothing
-	elseif slot1 == Live2D.EVENT_CHANGE_IDLE_INDEX then
+	elseif slot1 == Live2DPainting.EVENT_CHANGE_IDLE_INDEX then
 		print("change idle")
-	elseif slot1 == Live2D.EVENT_GET_PARAMETER then
+	elseif slot1 == Live2DPainting.EVENT_GET_PARAMETER then
 		slot2.callback = slot3
-	elseif slot1 == Live2D.EVENT_GET_DRAG_PARAMETER then
+	elseif slot1 == Live2DPainting.EVENT_GET_DRAG_PARAMETER then
 		slot2.callback = slot3
-	elseif slot1 == Live2D.EVENT_GET_WORLD_POSITION then
+	elseif slot1 == Live2DPainting.EVENT_GET_WORLD_POSITION then
 		slot2.callback = slot3
-	elseif slot1 == Live2D.EVENT_GAME_XIAQI then
+	elseif slot1 == Live2DPainting.EVENT_GAME_XIAQI then
 		slot2.callback = slot3
 	end
 
@@ -531,7 +532,7 @@ slot0.onEventCallback = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.isApplyStopDrag = function(slot0)
-	if slot0.actionTrigger and slot0.actionTrigger.type == Live2D.DRAG_MOVE_DOWN_UP then
+	if slot0.actionTrigger and slot0.actionTrigger.type == Live2DPainting.DRAG_MOVE_DOWN_UP then
 		return false
 	end
 
@@ -617,9 +618,9 @@ slot0.updateStepData = function(slot0, slot1)
 end
 
 slot0.updateParameterUpdateFlag = function(slot0)
-	if slot0.actionTrigger.type == Live2D.DRAG_CLICK_ACTION then
+	if slot0.actionTrigger.type == Live2DPainting.DRAG_CLICK_ACTION then
 		slot0._parameterUpdateFlag = true
-	elseif slot0.actionTrigger.type == Live2D.DRAG_RELATION_IDLE then
+	elseif slot0.actionTrigger.type == Live2DPainting.DRAG_RELATION_IDLE then
 		if not slot0._parameterUpdateFlag then
 			if not slot0.l2dIsPlaying then
 				slot0._parameterUpdateFlag = true
@@ -635,17 +636,17 @@ slot0.updateParameterUpdateFlag = function(slot0)
 
 			slot0:changeParameComAble(false)
 		end
-	elseif slot0.actionTrigger.type == Live2D.DRAG_DOWN_TOUCH then
+	elseif slot0.actionTrigger.type == Live2DPainting.DRAG_DOWN_TOUCH then
 		slot0._parameterUpdateFlag = true
-	elseif slot0.actionTrigger.type == Live2D.DRAG_LISTENER_EVENT then
+	elseif slot0.actionTrigger.type == Live2DPainting.DRAG_LISTENER_EVENT then
 		slot0._parameterUpdateFlag = true
-	elseif slot0.actionTrigger.type == Live2D.DRAG_ANIMATION_PLAY then
+	elseif slot0.actionTrigger.type == Live2DPainting.DRAG_ANIMATION_PLAY then
 		slot0._parameterUpdateFlag = true
-	elseif slot0.actionTrigger.type == Live2D.DRAG_WITH_PARAMETER_MOVE then
+	elseif slot0.actionTrigger.type == Live2DPainting.DRAG_WITH_PARAMETER_MOVE then
 		slot0._parameterUpdateFlag = true
-	elseif slot0.actionTrigger.type == Live2D.DRAG_MOVE_DOWN_UP then
+	elseif slot0.actionTrigger.type == Live2DPainting.DRAG_MOVE_DOWN_UP then
 		slot0._parameterUpdateFlag = true
-	elseif slot0.actionTrigger.type == Live2D.DRAG_GAME_XIAQI then
+	elseif slot0.actionTrigger.type == Live2DPainting.DRAG_GAME_XIAQI then
 		slot0._parameterUpdateFlag = true
 	else
 		slot0._parameterUpdateFlag = false
@@ -660,13 +661,13 @@ slot0.changeParameComAble = function(slot0, slot1)
 	slot0.parameterComAdd = slot1
 
 	if slot1 then
-		slot0:onEventCallback(Live2D.EVENT_ADD_PARAMETER_COM, {
+		slot0:onEventCallback(Live2DPainting.EVENT_ADD_PARAMETER_COM, {
 			com = slot0._parameterCom,
 			start = slot0.startValue,
 			mode = slot0.mode
 		})
 	else
-		slot0:onEventCallback(Live2D.EVENT_REMOVE_PARAMETER_COM, {
+		slot0:onEventCallback(Live2DPainting.EVENT_REMOVE_PARAMETER_COM, {
 			com = slot0._parameterCom,
 			mode = slot0.mode
 		})
@@ -706,7 +707,7 @@ slot0.updateCircleDrag = function(slot0)
 
 	if slot0._active and slot0.mouseWorld ~= nil then
 		if not slot0.circleDragWorld then
-			slot0:onEventCallback(Live2D.EVENT_GET_WORLD_POSITION, {
+			slot0:onEventCallback(Live2DPainting.EVENT_GET_WORLD_POSITION, {
 				pos = slot0.offsetCirclePos,
 				name = slot0.drawAbleName
 			}, function (slot0)
@@ -834,16 +835,16 @@ slot0.updateRelationValue = function(slot0)
 		slot9 = slot6.target
 		slot10, slot11 = nil
 
-		if slot6.type == Live2D.relation_type_drag_x then
+		if slot6.type == Live2DPainting.relation_type_drag_x then
 			slot10 = slot0.offsetDragX or slot5.start or slot0.startValue or 0
 			slot11 = true
-		elseif slot7 == Live2D.relation_type_drag_y then
+		elseif slot7 == Live2DPainting.relation_type_drag_y then
 			slot10 = slot0.offsetDragY or slot5.start or slot0.startValue or 0
 			slot11 = true
-		elseif slot7 == Live2D.relation_type_action_index then
+		elseif slot7 == Live2DPainting.relation_type_action_index then
 			slot10 = slot8[slot0.actionListIndex] or 0
 			slot11 = true
-		elseif slot7 == Live2D.relation_type_idle then
+		elseif slot7 == Live2DPainting.relation_type_idle then
 			if slot0.loadL2dStep and slot0.l2dIdleIndex == slot6.idle then
 				slot11 = true
 			end
@@ -992,15 +993,15 @@ slot0.updateTrigger = function(slot0)
 		slot4 = slot0.actionTrigger.action_list[slot0.actionListIndex].num
 	end
 
-	if slot1 == Live2D.DRAG_TIME_ACTION then
+	if slot1 == Live2DPainting.DRAG_TIME_ACTION then
 		if slot0._active then
 			if slot4 and math.abs(slot0.parameterValue - slot4) < math.abs(slot4) * 0.25 then
 				slot0.triggerActionTime = slot0.triggerActionTime + Time.deltaTime
 
 				if slot3 < slot0.triggerActionTime and not slot0.l2dIsPlaying then
-					slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY, nil, function (slot0)
+					slot0:onEventCallback(Live2DPainting.EVENT_ACTION_APPLY, nil, function (slot0)
 						if slot0 then
-							uv0:onEventNotice(Live2D.ON_ACTION_DRAG_TRIGGER)
+							uv0:onEventNotice(Live2DPainting.ON_ACTION_DRAG_TRIGGER)
 						end
 					end)
 				end
@@ -1008,39 +1009,39 @@ slot0.updateTrigger = function(slot0)
 				print("配置id = " .. slot0.id .. " 缺少参数 num")
 			end
 		end
-	elseif slot1 == Live2D.DRAG_CLICK_ACTION then
+	elseif slot1 == Live2DPainting.DRAG_CLICK_ACTION then
 		if slot0:checkClickAction() then
-			slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY, nil, function (slot0)
-				uv0:onEventNotice(Live2D.ON_ACTION_DRAG_CLICK)
+			slot0:onEventCallback(Live2DPainting.EVENT_ACTION_APPLY, nil, function (slot0)
+				uv0:onEventNotice(Live2DPainting.ON_ACTION_DRAG_CLICK)
 			end)
 		end
-	elseif slot1 == Live2D.DRAG_CLICK_RANGE then
+	elseif slot1 == Live2DPainting.DRAG_CLICK_RANGE then
 		if slot0:checkClickAction() then
 			slot7 = slot4
 
-			slot0:onEventCallback(Live2D.EVENT_GET_PARAMETER, {
+			slot0:onEventCallback(Live2DPainting.EVENT_GET_PARAMETER, {
 				name = slot0.actionTrigger.parameter and slot0.actionTrigger.parameter or slot0.parameterName
 			}, function (slot0)
 				print("获取到数值 " .. uv0 .. " = " .. slot0)
 
 				if uv1[1] <= slot0 and slot0 < uv1[2] then
 					print("数值范围内，开始触发动作  = " .. tostring(uv2.id))
-					uv2:onEventCallback(Live2D.EVENT_ACTION_APPLY, nil, function (slot0)
-						uv0:onEventNotice(Live2D.ON_ACTION_DRAG_CLICK)
+					uv2:onEventCallback(Live2DPainting.EVENT_ACTION_APPLY, nil, function (slot0)
+						uv0:onEventNotice(Live2DPainting.ON_ACTION_DRAG_CLICK)
 					end)
 				end
 			end)
 		end
-	elseif slot1 == Live2D.DRAG_DOWN_ACTION then
+	elseif slot1 == Live2DPainting.DRAG_DOWN_ACTION then
 		if slot0._active then
 			slot0:setAbleWithFlag(true)
 
 			if slot3 <= Time.time - slot0.mouseInputDownTime and not slot0.l2dIsPlaying then
 				print("触发按压动作")
 				slot0:setAbleWithFlag(false)
-				slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY, nil, function (slot0)
+				slot0:onEventCallback(Live2DPainting.EVENT_ACTION_APPLY, nil, function (slot0)
 					if slot0 then
-						uv0:onEventNotice(Live2D.ON_ACTION_DOWN)
+						uv0:onEventNotice(Live2DPainting.ON_ACTION_DOWN)
 					end
 				end)
 
@@ -1056,14 +1057,14 @@ slot0.updateTrigger = function(slot0)
 			slot0.actionListIndex = #slot0.actionTrigger.action_list
 
 			slot0:setAbleWithFlag(false)
-			slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY, nil, function (slot0)
+			slot0:onEventCallback(Live2DPainting.EVENT_ACTION_APPLY, nil, function (slot0)
 			end)
 			slot0:resetNextTriggerTime()
 			slot0:setTriggerActionFlag(false)
 		else
 			slot0:setAbleWithFlag(false)
 		end
-	elseif slot1 == Live2D.DRAG_RELATION_XY then
+	elseif slot1 == Live2DPainting.DRAG_RELATION_XY then
 		if slot0._active then
 			slot6 = slot0:fixParameterTargetValue(slot0.offsetDragY, slot0.range, slot0.rangeAbs, slot0.dragDirect)
 			slot7 = slot4[1]
@@ -1073,9 +1074,9 @@ slot0.updateTrigger = function(slot0)
 				slot0.triggerActionTime = slot0.triggerActionTime + Time.deltaTime
 
 				if slot3 < slot0.triggerActionTime and not slot0.l2dIsPlaying then
-					slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY, nil, function (slot0)
+					slot0:onEventCallback(Live2DPainting.EVENT_ACTION_APPLY, nil, function (slot0)
 						if slot0 then
-							uv0:onEventNotice(Live2D.ON_ACTION_XY_TRIGGER)
+							uv0:onEventNotice(Live2DPainting.ON_ACTION_XY_TRIGGER)
 						end
 					end)
 				end
@@ -1083,7 +1084,7 @@ slot0.updateTrigger = function(slot0)
 				slot0.triggerActionTime = slot0.triggerActionTime + 0
 			end
 		end
-	elseif slot1 == Live2D.DRAG_RELATION_IDLE then
+	elseif slot1 == Live2DPainting.DRAG_RELATION_IDLE then
 		if slot0.actionTrigger.const_fit then
 			for slot8 = 1, #slot0.actionTrigger.const_fit do
 				if slot0.l2dIdleIndex == slot0.actionTrigger.const_fit[slot8].idle and not slot0.l2dIsPlaying then
@@ -1091,25 +1092,25 @@ slot0.updateTrigger = function(slot0)
 				end
 			end
 		end
-	elseif slot1 == Live2D.DRAG_CLICK_MANY then
+	elseif slot1 == Live2DPainting.DRAG_CLICK_MANY then
 		if slot0:checkClickAction() then
-			slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY)
+			slot0:onEventCallback(Live2DPainting.EVENT_ACTION_APPLY)
 		end
-	elseif slot1 == Live2D.DRAG_LISTENER_EVENT then
+	elseif slot1 == Live2DPainting.DRAG_LISTENER_EVENT then
 		if slot0._listenerTrigger then
-			slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY)
+			slot0:onEventCallback(Live2DPainting.EVENT_ACTION_APPLY)
 		end
-	elseif slot1 == Live2D.DRAG_DOWN_TOUCH then
+	elseif slot1 == Live2DPainting.DRAG_DOWN_TOUCH then
 		slot0:setAbleWithFlag(slot0._active)
 
 		if slot0._active then
 			slot0:setTargetValue(slot0:fixParameterTargetValue(slot0.parameterTargetValue + Time.deltaTime / slot0.actionTrigger.delta, slot0.range, slot0.rangeAbs, slot0.dragDirect))
 		end
-	elseif slot1 == Live2D.DRAG_CLICK_PARAMETER then
+	elseif slot1 == Live2DPainting.DRAG_CLICK_PARAMETER then
 		if slot0:checkClickAction() then
 			slot6 = slot4
 
-			slot0:onEventCallback(Live2D.EVENT_GET_PARAMETER, {
+			slot0:onEventCallback(Live2DPainting.EVENT_GET_PARAMETER, {
 				name = slot0.actionTrigger.parameter
 			}, function (slot0)
 				if math.abs(uv0 - slot0) <= 0.05 then
@@ -1117,13 +1118,13 @@ slot0.updateTrigger = function(slot0)
 
 					slot1 = uv1
 
-					slot1:onEventCallback(Live2D.EVENT_ACTION_APPLY, nil, function (slot0)
-						uv0:onEventNotice(Live2D.ON_ACTION_DRAG_CLICK)
+					slot1:onEventCallback(Live2DPainting.EVENT_ACTION_APPLY, nil, function (slot0)
+						uv0:onEventNotice(Live2DPainting.ON_ACTION_DRAG_CLICK)
 					end)
 				end
 			end)
 		end
-	elseif slot1 == Live2D.DRAG_ANIMATION_PLAY then
+	elseif slot1 == Live2DPainting.DRAG_ANIMATION_PLAY then
 		slot5 = slot0.actionTrigger.trigger_name
 
 		if slot0.actionTrigger.trigger_name == "idle" and slot0.actionTrigger.trigger_index and slot0.actionTrigger.trigger_index > 0 then
@@ -1136,7 +1137,7 @@ slot0.updateTrigger = function(slot0)
 			if slot0.actionTrigger.parameter_range then
 				slot9 = slot7[2]
 
-				slot0:onEventCallback(Live2D.EVENT_GET_PARAMETER, {
+				slot0:onEventCallback(Live2DPainting.EVENT_GET_PARAMETER, {
 					name = slot7[1]
 				}, function (slot0)
 					if slot0 and uv0[1] <= slot0 and slot0 < uv0[2] then
@@ -1148,7 +1149,7 @@ slot0.updateTrigger = function(slot0)
 			end
 
 			if slot6 and slot0.actionTrigger.trigger_rate <= slot0.normalTime and not slot0.animationPlayApply then
-				slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY, nil, function ()
+				slot0:onEventCallback(Live2DPainting.EVENT_ACTION_APPLY, nil, function ()
 				end)
 				slot0:setTriggerActionFlag(false)
 
@@ -1161,11 +1162,11 @@ slot0.updateTrigger = function(slot0)
 		if slot0.animationPlayApply then
 			slot0.animationPlayApply = false
 		end
-	elseif slot1 == Live2D.DRAG_EXTEND_ACTION_RULE then
+	elseif slot1 == Live2DPainting.DRAG_EXTEND_ACTION_RULE then
 		if not slot0.extendActionFlag then
 			slot0.extendActionFlag = true
 		end
-	elseif slot1 == Live2D.DRAG_WITH_PARAMETER_MOVE then
+	elseif slot1 == Live2DPainting.DRAG_WITH_PARAMETER_MOVE then
 		if not slot0.l2dIsPlaying then
 			slot5, slot6 = nil
 
@@ -1177,7 +1178,7 @@ slot0.updateTrigger = function(slot0)
 			if slot4 and slot5 <= slot6 and not slot0.parameterMoveTrigger then
 				slot0.parameterMoveTrigger = true
 
-				slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY, nil, function (slot0)
+				slot0:onEventCallback(Live2DPainting.EVENT_ACTION_APPLY, nil, function (slot0)
 				end)
 			else
 				if not slot0.moveCheckStep then
@@ -1197,7 +1198,7 @@ slot0.updateTrigger = function(slot0)
 					slot0.moveCheckStep = 10
 					slot0.lastParameterMove = slot0.parameterMove
 
-					slot0:onEventCallback(Live2D.EVENT_GET_PARAMETER, {
+					slot0:onEventCallback(Live2DPainting.EVENT_GET_PARAMETER, {
 						name = slot0.actionTrigger.parameter
 					}, function (slot0)
 						uv0.parameterMove = slot0
@@ -1210,33 +1211,33 @@ slot0.updateTrigger = function(slot0)
 				end
 			end
 		end
-	elseif slot1 == Live2D.DRAG_MOVE_DOWN_UP then
+	elseif slot1 == Live2DPainting.DRAG_MOVE_DOWN_UP then
 		slot5 = slot0.actionTrigger.range
 
 		if slot0._active and slot0.actionTrigger.active == 1 then
 			if not slot0.dragMoveUp and slot5[1] < slot0.parameterValue and slot0.parameterValue <= slot5[2] then
 				slot0.dragMoveUp = true
 
-				slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY, nil, function (slot0)
+				slot0:onEventCallback(Live2DPainting.EVENT_ACTION_APPLY, nil, function (slot0)
 				end)
 			end
 		elseif slot0.firstStop and slot0.actionTrigger.active == 0 then
-			slot0:onEventCallback(Live2D.EVENT_GET_PARAMETER, {
+			slot0:onEventCallback(Live2DPainting.EVENT_GET_PARAMETER, {
 				name = slot0.actionTrigger.parameter
 			}, function (slot0)
 				if uv0[1] < slot0 and slot0 <= uv0[2] then
 					slot1 = uv1
 
-					slot1:onEventCallback(Live2D.EVENT_ACTION_APPLY, nil, function (slot0)
+					slot1:onEventCallback(Live2DPainting.EVENT_ACTION_APPLY, nil, function (slot0)
 					end)
 				end
 			end)
 		elseif slot0._active == false and slot0.dragMoveUp then
 			slot0.dragMoveUp = false
 		end
-	elseif slot1 == Live2D.DRAG_GAME_XIAQI then
+	elseif slot1 == Live2DPainting.DRAG_GAME_XIAQI then
 		if slot0:checkClickAction() then
-			slot0:onEventCallback(Live2D.EVENT_GAME_XIAQI, {
+			slot0:onEventCallback(Live2DPainting.EVENT_GAME_XIAQI, {
 				parameter_value = slot0.parameterValue
 			}, function (slot0)
 				if slot0 and slot0.target then
@@ -1245,11 +1246,11 @@ slot0.updateTrigger = function(slot0)
 				end
 			end)
 		end
-	elseif slot1 == Live2D.DRAG_GAME_XIAQI_RESULT and slot0.commonData and slot0.commonData[Live2D.COMMON_XIAQI_RESULT] ~= nil and (slot0.actionTrigger.win == 1 and true or false) == slot0.commonData[Live2D.COMMON_XIAQI_RESULT] then
-		slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY, nil, function (slot0)
+	elseif slot1 == Live2DPainting.DRAG_GAME_XIAQI_RESULT and slot0.commonData and slot0.commonData[Live2DPainting.COMMON_XIAQI_RESULT] ~= nil and (slot0.actionTrigger.win == 1 and true or false) == slot0.commonData[Live2DPainting.COMMON_XIAQI_RESULT] then
+		slot0:onEventCallback(Live2DPainting.EVENT_ACTION_APPLY, nil, function (slot0)
 			if slot0 then
 				uv0:setTriggerActionFlag(false)
-				uv0:setCommonData(Live2D.COMMON_XIAQI_RESULT, nil)
+				uv0:setCommonData(Live2DPainting.COMMON_XIAQI_RESULT, nil)
 			end
 		end)
 	end
@@ -1277,7 +1278,7 @@ slot0.checkActionInExtendFlag = function(slot0, slot1)
 
 	slot5 = slot0.actionTrigger.num
 
-	slot0:onEventCallback(Live2D.EVENT_GET_DRAG_PARAMETER, {
+	slot0:onEventCallback(Live2DPainting.EVENT_GET_DRAG_PARAMETER, {
 		name = slot0.actionTrigger.parameter
 	}, function (slot0)
 		if uv0[1] < slot0 and slot0 <= uv0[2] then
@@ -1306,7 +1307,7 @@ slot0.setAbleWithFlag = function(slot0, slot1)
 	if slot0.ableFlag ~= slot1 then
 		slot0.ableFlag = slot1
 
-		slot0:onEventCallback(Live2D.EVENT_ACTION_ABLE, {
+		slot0:onEventCallback(Live2DPainting.EVENT_ACTION_ABLE, {
 			ableFlag = slot1
 		})
 	end
@@ -1427,7 +1428,7 @@ slot0.saveData = function(slot0)
 		Live2dConst.SaveDragData(slot1, slot2, slot3, slot0.parameterTargetValue)
 	end
 
-	if slot0.actionTrigger.type == Live2D.DRAG_CLICK_MANY then
+	if slot0.actionTrigger.type == Live2DPainting.DRAG_CLICK_MANY then
 		Live2dConst.SetDragActionIndex(slot1, slot2, slot3, slot0.actionListIndex)
 	end
 
@@ -1460,7 +1461,7 @@ slot0.loadData = function(slot0)
 		end
 	end
 
-	if slot0.actionTrigger.type == Live2D.DRAG_CLICK_MANY then
+	if slot0.actionTrigger.type == Live2DPainting.DRAG_CLICK_MANY then
 		slot0.actionListIndex = Live2dConst.GetDragActionIndex(slot0.id, slot0.live2dData:GetShipSkinConfig().id, slot0.live2dData.ship.id) or 1
 	end
 
@@ -1480,7 +1481,7 @@ end
 slot0.clearRelationValue = function(slot0)
 	if slot0._relationParameterList and #slot0._relationParameterList > 0 then
 		for slot4 = 1, #slot0._relationParameterList do
-			if slot0._relationParameterList[slot4].data.type == Live2D.relation_type_drag_x or slot5.data.type == Live2D.relation_type_drag_y then
+			if slot0._relationParameterList[slot4].data.type == Live2DPainting.relation_type_drag_x or slot5.data.type == Live2DPainting.relation_type_drag_y then
 				slot5.value = slot5.start or slot0.startValue or 0
 				slot5.enable = true
 			end

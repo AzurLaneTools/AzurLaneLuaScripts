@@ -204,6 +204,20 @@ pg.island_item_data_template.all = {
 	4026,
 	4027,
 	4028,
+	4029,
+	4030,
+	4031,
+	4032,
+	4033,
+	4034,
+	4035,
+	4036,
+	4037,
+	4038,
+	4039,
+	4040,
+	4041,
+	4042,
 	5001,
 	5002,
 	5003,
@@ -275,6 +289,12 @@ pg.island_item_data_template.all = {
 	200021,
 	200022,
 	200023,
+	200024,
+	200025,
+	200026,
+	200027,
+	200028,
+	200029,
 	300001,
 	300002,
 	300003,
@@ -494,6 +514,20 @@ pg.island_item_data_template.get_id_list_by_usage = {
 		4026,
 		4027,
 		4028,
+		4029,
+		4030,
+		4031,
+		4032,
+		4033,
+		4034,
+		4035,
+		4036,
+		4037,
+		4038,
+		4039,
+		4040,
+		4041,
+		4042,
 		5001,
 		5002,
 		5003,
@@ -559,6 +593,12 @@ pg.island_item_data_template.get_id_list_by_usage = {
 		200021,
 		200022,
 		200023,
+		200024,
+		200025,
+		200026,
+		200027,
+		200028,
+		200029,
 		300001,
 		300002,
 		300003,
@@ -753,6 +793,20 @@ pg.island_item_data_template.get_id_list_by_type = {
 		4026,
 		4027,
 		4028,
+		4029,
+		4030,
+		4031,
+		4032,
+		4033,
+		4034,
+		4035,
+		4036,
+		4037,
+		4038,
+		4039,
+		4040,
+		4041,
+		4042,
 		5001,
 		5002,
 		5003,
@@ -825,6 +879,12 @@ pg.island_item_data_template.get_id_list_by_type = {
 		200021,
 		200022,
 		200023,
+		200024,
+		200025,
+		200026,
+		200027,
+		200028,
+		200029,
 		300001,
 		300002,
 		300003,
@@ -7903,6 +7963,484 @@ end)()
 	}
 end)()
 (function ()
+	pg.base.island_item_data_template[4029] = {
+		name = "Jasmine",
+		desc = "Small white flowers that bloom in the summer twilight. Their pure fragrance, wafting far and wide, is often used in teas and perfumes.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 32,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 315,
+		tech_id = 0,
+		icon = "IslandProps/item_4029",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		convert = 1,
+		resource_type = 1,
+		id = 4029,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Summer Specialties - Map Collection",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4030] = {
+		name = "Sunflower",
+		desc = "A golden flower that chases the sun. When mature, they bear a dense cluster of seeds within their core.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 27,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 270,
+		tech_id = 0,
+		icon = "IslandProps/item_4030",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4030,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Summer Specialties - Map Collection",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4031] = {
+		name = "Watermelon",
+		desc = "Green on the outside, red on the inside. This sweet and juicy fruit is perfect for beating the summer heat.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 54,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 540,
+		tech_id = 0,
+		icon = "IslandProps/item_4031",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4031,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Summer Specialties - Map Collection",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4032] = {
+		name = "Amaranth Greens",
+		desc = "A nutritious vegetable with purplish-red leaves. It also has medicinal properties.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 2,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 225,
+		tech_id = 0,
+		icon = "IslandProps/item_4032",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 4032,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Summer Specialties - Map Collection",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4033] = {
+		name = "Tomato",
+		desc = "The fresh, ripe tomato is sweet, tangy, and juicy. Foundational for many recipes, but also delicious when eaten raw.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 3,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 30,
+		tech_id = 0,
+		icon = "IslandProps/item_4033",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4033,
+		have_max = 0,
+		filter = {
+			10111,
+			10132
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Summer Specialties - Newsprout Nursery",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4034] = {
+		name = "Tomato Seeds",
+		desc = "Just plant the seeds and add water. Soon, you'll be able to harvest plump, juicy tomatoes.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4034",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 4034,
+		have_max = 0,
+		filter = {
+			10114
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Summer Specialties - Buy in the Shop",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
+				}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4035] = {
+		name = "Cucumber",
+		desc = "This vibrant green summer veggie has a pleasant crunch and a refreshing taste, making it perfect for cooking or just for eating on its own.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 20,
+		tech_id = 0,
+		icon = "IslandProps/item_4035",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 4035,
+		have_max = 0,
+		filter = {
+			10111,
+			10132
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Summer Specialties - Newsprout Nursery",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4036] = {
+		name = "Cucumber Seeds",
+		desc = "Just plant these flat seeds and wait for the vines to sprout. Soon, you'll be able to harvest crisp, refreshing cucumbers.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4036",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 4036,
+		have_max = 0,
+		filter = {
+			10114
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Summer Specialties - Buy in the Shop",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
+				}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4037] = {
+		name = "Cucumber Juice",
+		desc = "A light, refreshing juice squeezed from fresh cucumbers. A thirst-quenching summer treat.",
+		type = 1,
+		manage_influence = 250,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 100,
+		tech_id = 0,
+		icon = "IslandProps/item_4037",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 4037,
+		have_max = 0,
+		filter = {
+			10113,
+			10128
+		},
+		sub_attribute = {
+			1,
+			35
+		},
+		jump_page = {
+			{
+				"Summer Specialties - Polar Bear Teahouse",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4038] = {
+		name = "Watermelon Juice",
+		desc = "A ruby-red juice squeezed from the flesh of a watermelon. When chilled, it packs a sweetness that makes the soul sing.",
+		type = 1,
+		manage_influence = 250,
+		pt_num = 60,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 600,
+		tech_id = 0,
+		icon = "IslandProps/item_4038",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4038,
+		have_max = 0,
+		filter = {
+			10113,
+			10128
+		},
+		sub_attribute = {
+			2,
+			35
+		},
+		jump_page = {
+			{
+				"Summer Specialties - Polar Bear Teahouse",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4039] = {
+		name = "Amaranth Onigiri",
+		desc = "The reddish color of the amaranth leaves has gone right into the grains of rice. A rustic, homely taste.",
+		type = 1,
+		manage_influence = 250,
+		pt_num = 8,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 800,
+		tech_id = 0,
+		icon = "IslandProps/item_4039",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 4039,
+		have_max = 0,
+		filter = {
+			10113,
+			10127
+		},
+		sub_attribute = {
+			6,
+			35
+		},
+		jump_page = {
+			{
+				"Summer Specialties - Golden Koi Restaurant",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4040] = {
+		name = "Tomato and Egg Stir-Fry",
+		desc = "A popular homestyle dish made with eggs and tomato, striking a perfect harmony between sweet, tangy, and savory.",
+		type = 1,
+		manage_influence = 250,
+		pt_num = 20,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 200,
+		tech_id = 0,
+		icon = "IslandProps/item_4040",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4040,
+		have_max = 0,
+		filter = {
+			10113,
+			10127
+		},
+		sub_attribute = {
+			3,
+			35
+		},
+		jump_page = {
+			{
+				"Summer Specialties - Golden Koi Restaurant",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4041] = {
+		name = "Jasmine Essential Oil",
+		desc = "An essential oil distilled from fresh jasmine. Can be used for aromatherapy, massage, or skincare.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 165,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1100,
+		tech_id = 0,
+		icon = "IslandProps/item_4041",
+		price = 1,
+		icon_normal = "",
+		rarity = 4,
+		convert = 1,
+		resource_type = 1,
+		id = 4041,
+		have_max = 0,
+		filter = {
+			10113,
+			10131
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Summer Specialties - Base Factory",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4042] = {
+		name = "Summery Bouquet",
+		desc = "A bouquet of golden sunflowers with white jasmine, juxtaposing the splendor of the summer sun with the tranquility of the summer night.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 90,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 900,
+		tech_id = 0,
+		icon = "IslandProps/item_4042",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4042,
+		have_max = 0,
+		filter = {
+			10113,
+			10131
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Summer Specialties - Base Factory",
+				{}
+			}
+		}
+	}
 	pg.base.island_item_data_template[5001] = {
 		name = "Shellfish",
 		desc = "Shellfish shells are often used as a material in ornaments and handicrafts.",
@@ -10240,6 +10778,192 @@ end)()
 		jump_page = {
 			{
 				"Obtained from an Event",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200024] = {
+		name = "Island Authority Permit: Javelin",
+		desc = "An Island Authority Permit for Javelin. Use it to give the character the credentials to visit the island freely.",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200024",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200024,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Season Ⅲ - Island Seasonal Shop",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200025] = {
+		name = "Island Authority Permit: Laffey",
+		desc = "An Island Authority Permit for Laffey. Use it to give the character the credentials to visit the island freely.",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200025",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200025,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Shop",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200026] = {
+		name = "Island Authority Permit: Yat Sen",
+		desc = "An Island Authority Permit for Yat Sen. Use it to give the character the credentials to visit the island freely.",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200026",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200026,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200027] = {
+		name = "Island Authority Permit: Fei Yuen",
+		desc = "An Island Authority Permit for Fei Yuen. Use it to give the character the credentials to visit the island freely.",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200027",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200027,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200028] = {
+		name = "Island Authority Permit: August von Parseval",
+		desc = "An Island Authority Permit for August von Parseval. Use it to give the character the credentials to visit the island freely.",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200028",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200028,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200029] = {
+		name = "Island Authority Permit: Takao",
+		desc = "An Island Authority Permit for Takao. Use it to give the character the credentials to visit the island freely.",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200029",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200029,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Island Tech",
 				{}
 			}
 		}

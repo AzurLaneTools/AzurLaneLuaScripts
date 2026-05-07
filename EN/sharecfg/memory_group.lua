@@ -381,6 +381,7 @@ pg.memory_group.all = {
 	619,
 	620,
 	621,
+	622,
 	1000,
 	1001,
 	1002,
@@ -9229,6 +9230,27 @@ end)()
 			5075,
 			5076,
 			5077
+		},
+		group_id = {
+			10000
+		}
+	}
+	pg.base.memory_group[622] = {
+		icon = "title_chara_meikelunbao",
+		type = 3,
+		link_event = 0,
+		title = "The Eternal Night's Oath Under the Blood Moon",
+		auto_unlock = "",
+		subtype = 0,
+		id = 622,
+		memories = {
+			5111,
+			5112,
+			5113,
+			5114,
+			5115,
+			5116,
+			5117
 		},
 		group_id = {
 			10000

@@ -1,19 +1,5 @@
 slot0 = class("SettingsOtherPage", import(".SettingsOptionPage"))
 
-slot0.OnShowTranscode = function(slot0, slot1)
-	if PLATFORM_CODE == PLATFORM_JP then
-		-- Nothing
-	end
-end
-
-slot0.OnCheckAllAccountState = function(slot0)
-	if PLATFORM_CODE == PLATFORM_JP then
-		-- Nothing
-	elseif PLATFORM_CODE == PLATFORM_US then
-		slot0:GetPanel(SettingsAccountUSPanle):checkAllAccountState_US()
-	end
-end
-
 slot0.OnClearExchangeCode = function(slot0)
 	if slot0:GetPanel(SettingsRedeemPanel) then
 		slot1:ClearExchangeCode()
@@ -68,10 +54,6 @@ slot0.GetPanels = function(slot0)
 		if slot2 == 1 and OPEN_EXCEPTION_TEST then
 			table.insert(slot1, SettingsTestUploadExceptionPanle)
 		end
-	end
-
-	if PLATFORM_CODE == PLATFORM_US then
-		table.insert(slot1, SettingsAccountSpecialPanel)
 	end
 
 	return slot1

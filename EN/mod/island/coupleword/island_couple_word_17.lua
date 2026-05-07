@@ -1,10 +1,10 @@
 return {
 	{
-		say = "指挥官，今天就由姐姐我来照顾你吧~",
+		say = "Commander, won't you let your big sis look after you today?",
 		characterId = 30312
 	},
 	{
-		say = "呵呵~无论是三餐还是散步的路线，我都安排好了哦~",
+		say = "Heehee. I've gone ahead and planned eeeverything. From your three meals, to our long stroll along the beach...",
 		characterId = 30312
 	}
 }

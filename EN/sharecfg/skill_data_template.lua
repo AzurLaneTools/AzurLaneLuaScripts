@@ -2982,6 +2982,7 @@ pg.skill_data_template.all = {
 	1012910,
 	1014140,
 	1019260,
+	1014170,
 	1090010,
 	1090020,
 	1090030,
@@ -3023,7 +3024,8 @@ pg.skill_data_template.all = {
 	1090420,
 	1090430,
 	1090450,
-	1090440
+	1090440,
+	1090460
 }
 pg.base = pg.base or {}
 pg.base.skill_data_template = {}
@@ -205818,6 +205820,157 @@ Increases this ship's AVI and ACC by $2. When this ship has Royal Navy gear equi
 			}
 		}
 	}
+	pg.base.skill_data_template[1014170] = {
+		desc_get = "",
+		name = "Kirov, Reporting!+",
+		type = 1,
+		max_level = 10,
+		desc = "During battle, increases this ship's Main Gun efficiency and FP by $3; every 15s: $1 chance to fire an improved $2 special barrage (DMG and pattern are based on the skill's level). The first time this barrage is triggered each battle: applies a special Burn debuff that increases the target's DMG taken by 15.0% for 8s.",
+		id = 1014170,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"50.0%",
+				"100.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"50.0%",
+					"+5.0%"
+				},
+				{
+					"55.0%",
+					"+5.0%"
+				},
+				{
+					"60.0%",
+					"+5.0%"
+				},
+				{
+					"65.0%",
+					"+5.0%"
+				},
+				{
+					"70.0%",
+					"+5.0%"
+				},
+				{
+					"75.0%",
+					"+5.0%"
+				},
+				{
+					"80.0%",
+					"+5.0%"
+				},
+				{
+					"85.0%",
+					"+5.0%"
+				},
+				{
+					"90.0%",
+					"+10.0%"
+				},
+				{
+					"100%"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	}
 	pg.base.skill_data_template[1090010] = {
 		desc_get = "",
 		name = "Fleet Carrier - Glorious",
@@ -208327,6 +208480,8 @@ Increases this ship's AVI and ACC by $2. When this ship has Royal Navy gear equi
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1090220] = {
 		desc_get = "",
 		name = "Reload Command - Königsberg",
@@ -208424,8 +208579,6 @@ Increases this ship's AVI and ACC by $2. When this ship has Royal Navy gear equi
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1090230] = {
 		desc_get = "",
 		name = "Piercing Shells - Z18",
@@ -211272,6 +211425,103 @@ end)()
 				},
 				{
 					"25.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[1090460] = {
+		desc_get = "",
+		name = "Artillery Command: Grenville",
+		type = 3,
+		max_level = 10,
+		desc = "Increases the Vanguard's FP by $1 (does not stack with other command skills that have a similar effect). During battle, increases this ship's TRP and ACC by $1; whenever this ship fires her torpedoes: launches a $2 special barrage (DMG is based on the skill's level).",
+		id = 1090460,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
 				}
 			}
 		}

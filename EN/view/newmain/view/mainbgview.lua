@@ -195,7 +195,7 @@ slot0.AdjustMapEffect = function(slot0, slot1)
 	end
 
 	for slot8, slot9 in ipairs(slot1:GetComponentsInChildren(typeof("UnityEngine.ParticleSystemRenderer")):ToTable()) do
-		if slot2 < ReflectionHelp.RefGetProperty(typeof("UnityEngine.ParticleSystemRenderer"), "sortingOrder", slot9) then
+		if slot2 < slot9.sortingOrder then
 			slot2 = slot10
 		end
 	end

@@ -177,6 +177,8 @@ slot1.CheckFModeEvent = function(slot0, slot1, slot2, slot3)
 	else
 		slot3(string.gsub(string.gsub(slot1, "event:/(battle)/(.+)", "%1-%2"), "event:/(ui)/(.+)", "%1-%2"))
 	end
+
+	return slot4
 end
 
 slot1.CheckHasCue = function(slot0, slot1, slot2)

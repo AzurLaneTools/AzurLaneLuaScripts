@@ -1,10 +1,10 @@
 return {
 	{
-		say = "哼哼~这次可是我赢了呢！快叫姐姐~",
+		say = "Mweheheh... Victory is mine! Now, call me Big Sis~♪",
 		characterId = 50205
 	},
 	{
-		say = "……只是凑巧罢了。",
+		say = "...You just got lucky.",
 		characterId = 50204
 	}
 }

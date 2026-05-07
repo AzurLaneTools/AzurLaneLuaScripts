@@ -100,12 +100,7 @@ slot0.didEnter = function(slot0)
 		})
 	end, SFX_PANEL)
 
-	if PLATFORM_CODE == PLATFORM_US then
-		setActive(slot0.helpBtn, true)
-		onButton(slot0, slot0.helpBtn, function ()
-			pg.SdkMgr.GetInstance():OpenYostarHelp()
-		end, SFX_PANEL)
-	elseif PLATFORM_CODE == PLATFORM_KR then
+	if PLATFORM_CODE == PLATFORM_KR then
 		setActive(slot0.helpBtn, true)
 		onButton(slot0, slot0.helpBtn, function ()
 			pg.SdkMgr.GetInstance():BugReport()

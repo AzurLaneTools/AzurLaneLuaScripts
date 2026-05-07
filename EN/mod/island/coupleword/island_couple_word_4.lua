@@ -1,6 +1,6 @@
 return {
 	{
-		say = "指挥官大人~今天就让{namecode:97}一直陪在您身边吧~",
+		say = "My Commander~ You're not allowed to stray from my side today~",
 		characterId = 30707
 	},
 	{

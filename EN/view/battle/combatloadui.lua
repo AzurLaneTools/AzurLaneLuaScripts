@@ -6,6 +6,20 @@ slot0.getUIName = function(slot0)
 	return "CombatLoadUI"
 end
 
+slot0.preload = function(slot0, slot1)
+	slot0._preloadBGSprite = nil
+
+	if slot0.contextData.system == SYSTEM_BOSS_RUSH_COLLABRATE and "bg/star_level_bg_211" or uv0.GetRandomBGPath() then
+		LoadSpriteAsync(slot2, function (slot0)
+			uv0._preloadBGSprite = slot0
+
+			uv1()
+		end)
+	else
+		slot1()
+	end
+end
+
 slot0.init = function(slot0)
 	slot1 = slot0._tf:Find("loading")
 	slot0._loadingProgress = slot1:Find("loading_bar"):GetComponent(typeof(Slider))
@@ -27,7 +41,10 @@ slot0.init = function(slot0)
 
 	SetActive(slot3, slot5 ~= 1)
 	SetActive(slot4, slot5 == 1)
-	setImageSprite(slot0.bg, LoadSprite((LOADING_HX and PlayerProxy.GetDeviceMaxPlayerLevel() <= pg.gameset.LOADING_HX_LV.key_value and "loadingbg_hx/bg_" or "loadingbg/bg_") .. math.random(1, BG_RANDOM_RANGE)))
+
+	if slot0._preloadBGSprite then
+		setImageSprite(slot0.bg, slot0._preloadBGSprite)
+	end
 
 	slot0._tipsText = slot1:Find("tipsText"):GetComponent(typeof(Text))
 end
@@ -48,11 +65,6 @@ slot0.Preload = function(slot0)
 	ys.Battle.BattleResourceManager.GetInstance():Init()
 
 	slot2 = getProxy(BayProxy)
-
-	if slot0.contextData.system == SYSTEM_BOSS_RUSH_COLLABRATE then
-		setImageSprite(slot0.bg, LoadSprite("bg/star_level_bg_211"))
-	end
-
 	slot3, slot4 = uv0.GetTotalResourceList(slot0.contextData)
 
 	for slot8, slot9 in ipairs(slot3) do
@@ -113,12 +125,30 @@ slot0.Preload = function(slot0)
 		uv0.addCommanderBuffRes(slot7:buildBattleBuffList())
 	end
 
-	slot6 = 0
-	slot8 = pg.UIMgr.GetInstance()
+	slot5, slot6 = uv0.GetTotalResourceList(slot0.contextData)
 
-	setActive(slot8:GetMainCamera(), true)
+	for slot10, slot11 in ipairs(slot5) do
+		slot1:AddPreloadResource(slot11)
+	end
 
-	slot6 = slot1:StartPreload(function ()
+	for slot10, slot11 in ipairs(slot6) do
+		slot1:AddPreloadCV(slot11)
+	end
+
+	if BATTLE_DEBUG and BATTLE_FREE_SUBMARINE then
+		for slot13, slot14 in ipairs(getProxy(FleetProxy):getFleetById(11):getTeamByName(TeamType.Submarine)) do
+			table.insert(loadShip, slot2:getShipById(slot14))
+		end
+
+		uv0.addCommanderBuffRes(slot8:buildBattleBuffList())
+	end
+
+	slot8 = 0
+	slot10 = pg.UIMgr.GetInstance()
+
+	setActive(slot10:GetMainCamera(), true)
+
+	slot8 = slot1:StartPreload(function ()
 		SetActive(uv0._loadingAnima, false)
 		SetActive(uv0._finishAnima, true)
 
@@ -224,7 +254,7 @@ slot0.GetTotalResourceList = function(slot0)
 		end
 	end
 
-	return slot1, slot2
+	return slot1, slot2, slot5.GetStageBGM(slot8)
 end
 
 slot0.generatePrefabShipData = function(slot0)
@@ -256,6 +286,36 @@ slot0.addCommanderBuffRes = function(slot0)
 			slot1:AddPreloadResource(slot12)
 		end
 	end
+end
+
+slot0.GetExistBGList = function()
+	slot1 = LOADING_HX and PlayerProxy.GetDeviceMaxPlayerLevel() <= pg.gameset.LOADING_HX_LV.key_value and "loadingbg_hx/bg_" or "loadingbg/bg_"
+	slot2 = {}
+
+	for slot6 = 1, BG_RANDOM_RANGE do
+		if checkABExist(slot1 .. slot6) then
+			table.insert(slot2, slot7)
+		end
+	end
+
+	return slot2
+end
+
+slot0.GetRandomBGPath = function()
+	slot0 = uv0.GetExistBGList()
+
+	return slot0[math.random(1, #slot0)]
+end
+
+slot0.EnsureBaseBGList = function()
+	slot0 = {}
+
+	if #uv0.GetExistBGList() <= 0 then
+		table.insert(slot0, "loadingbg_hx/bg_1")
+		table.insert(slot0, "loadingbg/bg_1")
+	end
+
+	return slot0
 end
 
 return slot0

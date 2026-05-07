@@ -1221,7 +1221,7 @@ slot0.LoadL2dPainting = function(slot0, slot1)
 		configId = ShipGroup.getDefaultShipConfig(pg.ship_skin_template[slot2].ship_group).id,
 		skin_id = slot2
 	})
-	slot5 = Live2D.GenerateData({
+	slot5 = Live2DPainting.GenerateData({
 		ship = slot4,
 		position = Vector3(0, 0, -1),
 		parent = slot0.live2dContainer,
@@ -1231,7 +1231,7 @@ slot0.LoadL2dPainting = function(slot0, slot1)
 
 	pg.UIMgr.GetInstance():LoadingOn()
 
-	slot0.live2dChar = Live2D.New(slot5, function (slot0)
+	slot0.live2dChar = Live2DPainting.New(slot5, function (slot0)
 		slot0:IgonreReactPos(true)
 		uv0:CheckShowShopHxForL2d(slot0, uv1)
 

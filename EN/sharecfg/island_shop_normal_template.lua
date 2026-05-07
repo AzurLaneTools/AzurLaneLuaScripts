@@ -68,8 +68,8 @@ pg.base.island_shop_normal_template = {}
 			{
 				{
 					2026,
-					2,
-					5
+					5,
+					7
 				},
 				{
 					0,
@@ -80,8 +80,8 @@ pg.base.island_shop_normal_template = {}
 			{
 				{
 					2026,
-					5,
-					6
+					8,
+					5
 				},
 				{
 					23,
@@ -102,8 +102,8 @@ pg.base.island_shop_normal_template = {}
 			{
 				{
 					2026,
-					3,
-					12
+					6,
+					5
 				},
 				{
 					0,
@@ -114,8 +114,8 @@ pg.base.island_shop_normal_template = {}
 			{
 				{
 					2026,
-					5,
-					6
+					8,
+					5
 				},
 				{
 					23,
@@ -136,7 +136,7 @@ pg.base.island_shop_normal_template = {}
 			{
 				{
 					2026,
-					4,
+					7,
 					9
 				},
 				{
@@ -148,8 +148,8 @@ pg.base.island_shop_normal_template = {}
 			{
 				{
 					2026,
-					5,
-					6
+					8,
+					5
 				},
 				{
 					23,

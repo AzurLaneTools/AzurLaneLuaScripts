@@ -1,6 +1,6 @@
 return {
 	{
-		say = "欸？已经到工作时间了吗？好困……",
+		say = "Fweh? Time for work already? But I wanna sleep...",
 		characterId = 90111
 	},
 	{
