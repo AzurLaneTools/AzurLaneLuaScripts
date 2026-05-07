@@ -943,6 +943,36 @@ pg.activity_event_picturepuzzle = {
 			"BuildShipScene"
 		}
 	},
+	[50810] = {
+		id = 50810,
+		cd = 0,
+		pickup_views = "",
+		chapter = 0,
+		pickup_picturepuzzle = {},
+		drop_picturepuzzle = {
+			70213,
+			70214,
+			70207,
+			70208,
+			70211,
+			70212,
+			70203,
+			70204,
+			70209,
+			70210,
+			70205,
+			70206,
+			70201,
+			70202,
+			70217,
+			70218,
+			70215,
+			70216
+		},
+		story = {},
+		awards = {},
+		auto_finish_args = {}
+	},
 	[20433] = {
 		id = 20433,
 		cd = 1200,
@@ -1193,6 +1223,7 @@ pg.activity_event_picturepuzzle = {
 		41270,
 		50422,
 		50493,
+		50810,
 		20433,
 		20586,
 		20610,

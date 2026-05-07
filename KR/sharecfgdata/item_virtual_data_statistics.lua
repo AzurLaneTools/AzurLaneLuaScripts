@@ -154472,31 +154472,6 @@ _G.pg.base.item_virtual_data_statistics[59179] = {
 }
 
 
-_G.pg.base.item_virtual_data_statistics[59180] = {
-	drop_gold_max = 0,
-	name = "훈련 PT",
-	display = "「시작의 꿈」 보상 교환용 아이템. 이벤트 종료 후에 제거됩니다.",
-	type = 98,
-	is_world = 0,
-	shop_id = -1,
-	replace_item = 0,
-	time_limit = 0,
-	link_id = 0,
-	icon = "Props/xunliandianshu_s",
-	order = 0,
-	rarity = 2,
-	max_num = 0,
-	drop_oil_max = 0,
-	virtual_type = 0,
-	id = 59180,
-	display_icon = {},
-	price = {},
-	index = {},
-	shiptrans_id = {},
-	combination_display = {}
-}
-
-
 _G.pg.base.item_virtual_data_statistics[59181] = {
 	drop_gold_max = 0,
 	name = "스킨 체험권",
@@ -154539,6 +154514,31 @@ _G.pg.base.item_virtual_data_statistics[59182] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 59182,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[59180] = {
+	drop_gold_max = 0,
+	name = "훈련 PT",
+	display = "「시작의 꿈」 보상 교환용 아이템. 이벤트 종료 후에 제거됩니다.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xunliandianshu_s",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 59180,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -154747,31 +154747,6 @@ _G.pg.base.item_virtual_data_statistics[59190] = {
 }
 
 
-_G.pg.base.item_virtual_data_statistics[59191] = {
-	drop_gold_max = 0,
-	name = "훈련 PT",
-	display = "「작전 준비·메탈 블러드」 보상 교환용 아이템. 이벤트 종료 후에 제거됩니다.",
-	type = 98,
-	is_world = 0,
-	shop_id = -1,
-	replace_item = 0,
-	time_limit = 0,
-	link_id = 0,
-	icon = "Props/xunliandianshu_t",
-	order = 0,
-	rarity = 2,
-	max_num = 0,
-	drop_oil_max = 0,
-	virtual_type = 0,
-	id = 59191,
-	display_icon = {},
-	price = {},
-	index = {},
-	shiptrans_id = {},
-	combination_display = {}
-}
-
-
 _G.pg.base.item_virtual_data_statistics[59192] = {
 	drop_gold_max = 0,
 	name = "철혈의 열쇠",
@@ -154839,6 +154814,31 @@ _G.pg.base.item_virtual_data_statistics[59194] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 59194,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[59191] = {
+	drop_gold_max = 0,
+	name = "훈련 PT",
+	display = "테두리 이벤트 보상 교환용 아이템. 이벤트 종료 후에 제거됩니다.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xunliandianshu_t",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 59191,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -159501,6 +159501,56 @@ _G.pg.base.item_virtual_data_statistics[59411] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[59420] = {
+	drop_gold_max = 0,
+	name = "비너스 Pt",
+	display = "「휴일 항로·재연」 보상 교환용 아이템. 이벤트 종료 후에 제거됩니다.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/DOA_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 59420,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[59421] = {
+	drop_gold_max = 0,
+	name = "스킨 체험권",
+	display = "「스킨 체험」 대상의 스킨을 일정 시간 동안 사용할 수 있는 티켓. 이벤트 종료 시 제거됩니다.",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 59421,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[59412] = {
 	drop_gold_max = 0,
 	name = "호감도 - 꼬마 프린츠 오이겐",
@@ -159543,56 +159593,6 @@ _G.pg.base.item_virtual_data_statistics[59413] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 59413,
-	display_icon = {},
-	price = {},
-	index = {},
-	shiptrans_id = {},
-	combination_display = {}
-}
-
-
-_G.pg.base.item_virtual_data_statistics[59420] = {
-	drop_gold_max = 0,
-	name = "비너스 포인트",
-	display = "「휴일 항로·재연」 이벤트 교환용. 이벤트 종료 후 사라짐.",
-	type = 98,
-	is_world = 0,
-	shop_id = -1,
-	replace_item = 0,
-	time_limit = 0,
-	link_id = 0,
-	icon = "Props/DOA_pt",
-	order = 0,
-	rarity = 2,
-	max_num = 0,
-	drop_oil_max = 0,
-	virtual_type = 0,
-	id = 59420,
-	display_icon = {},
-	price = {},
-	index = {},
-	shiptrans_id = {},
-	combination_display = {}
-}
-
-
-_G.pg.base.item_virtual_data_statistics[59421] = {
-	drop_gold_max = 0,
-	name = "스킨 체험권",
-	display = "「한정 스킨 상점」에서 한정 스킨으로 교환가능합니다.",
-	type = 98,
-	is_world = 0,
-	shop_id = 1,
-	replace_item = 0,
-	time_limit = 0,
-	link_id = 0,
-	icon = "Props/skinTicket",
-	order = 0,
-	rarity = 4,
-	max_num = 0,
-	drop_oil_max = 0,
-	virtual_type = 0,
-	id = 59421,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -179705,6 +179705,31 @@ _G.pg.base.item_virtual_data_statistics[65887] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65901] = {
+	drop_gold_max = 0,
+	name = "스킨 체험권",
+	display = "「스킨 체험」 대상의 스킨을 일정 시간 동안 사용할 수 있는 티켓. 이벤트 종료 시 제거됩니다.",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65901,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[66001] = {
 	drop_gold_max = 0,
 	name = "목재",
@@ -179947,6 +179972,56 @@ _G.pg.base.item_virtual_data_statistics[66014] = {
 	drop_oil_max = 0,
 	virtual_type = 17,
 	id = 66014,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66018] = {
+	drop_gold_max = 0,
+	name = "비너스 Pt",
+	display = "「휴일 항로·재연」의 교환 Pt 아이템. 이벤트 종료 시에 삭제됩니다.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/DOA_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66018,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66019] = {
+	drop_gold_max = 0,
+	name = "건조권",
+	display = "「휴일 항로·재연」에서 획득 가능. 「휴일 항로·재연」 특별 건조를 1회 실시할 수 있다(이벤트 종료 시 제거됨).",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50813,
+	icon = "Props/buildTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 22,
+	id = 66019,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -187213,6 +187288,456 @@ _G.pg.base.item_virtual_data_statistics[70192] = {
 	drop_oil_max = 0,
 	virtual_type = 1,
 	id = 70192,
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[70201] = {
+	drop_gold_max = 0,
+	name = "좋아하는 음식 (마리 로즈)",
+	display = "마리 로즈가 좋아하는 음식: 프린세스 바켈세. 캐릭터의 선호 정보 오픈 가능.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50810,
+	icon = "Props/doa_collect",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 70201,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[70202] = {
+	drop_gold_max = 0,
+	name = "좋아하는 음료 (마리 로즈)",
+	display = "마리 로즈가 좋아하는 음료: 트로피컬 주스. 캐릭터의 선호 정보 오픈 가능.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50810,
+	icon = "Props/doa_collect",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 70202,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[70203] = {
+	drop_gold_max = 0,
+	name = "좋아하는 음식 (호노카)",
+	display = "호노카가 좋아하는 음식: 휘핑 슈크림. 캐릭터의 선호 정보 오픈 가능.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50810,
+	icon = "Props/doa_collect",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 70203,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[70204] = {
+	drop_gold_max = 0,
+	name = "좋아하는 음료 (호노카)",
+	display = "호노카가 좋아하는 음료: 레몬 스쿼시. 캐릭터의 선호 정보 오픈 가능.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50810,
+	icon = "Props/doa_collect",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 70204,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[70205] = {
+	drop_gold_max = 0,
+	name = "좋아하는 음식 (카스미)",
+	display = "카스미가 좋아하는 음식: 딸기 밀푀유. 캐릭터의 선호 정보 오픈 가능.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50810,
+	icon = "Props/doa_collect",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 70205,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[70206] = {
+	drop_gold_max = 0,
+	name = "좋아하는 음료 (카스미)",
+	display = "카스미가 좋아하는 음료: 아이스 커피. 캐릭터의 선호 정보 오픈 가능.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50810,
+	icon = "Props/doa_collect",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 70206,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[70207] = {
+	drop_gold_max = 0,
+	name = "좋아하는 음식 (미사키)",
+	display = "미사키가 좋아하는 음식: 망고 바닐라 크레페. 캐릭터의 선호 정보 오픈 가능.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50810,
+	icon = "Props/doa_collect",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 70207,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[70208] = {
+	drop_gold_max = 0,
+	name = "좋아하는 음료 (미사키)",
+	display = "미사키가 좋아하는 음료: 타피오카 밀크티. 캐릭터의 선호 정보 오픈 가능.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50810,
+	icon = "Props/doa_collect",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 70208,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[70209] = {
+	drop_gold_max = 0,
+	name = "좋아하는 음식 (나기사)",
+	display = "나기사가 좋아하는 음식: 수플레 팬케이크. 캐릭터의 선호 정보 오픈 가능.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50810,
+	icon = "Props/doa_collect",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 70209,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[70210] = {
+	drop_gold_max = 0,
+	name = "좋아하는 음료 (나기사)",
+	display = "나기사가 좋아하는 음료: 딸기 쉐이크. 캐릭터의 선호 정보 오픈 가능.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50810,
+	icon = "Props/doa_collect",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 70210,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[70211] = {
+	drop_gold_max = 0,
+	name = "좋아하는 음식 (뇨텐구)",
+	display = "뇨텐구가 좋아하는 음식: 만쥬 캐릭터의 선호 정보 오픈 가능.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50810,
+	icon = "Props/doa_collect",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 70211,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[70212] = {
+	drop_gold_max = 0,
+	name = "좋아하는 음료 (뇨텐구)",
+	display = "뇨텐구가 좋아하는 음료: 말차. 캐릭터의 선호 정보 오픈 가능.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50810,
+	icon = "Props/doa_collect",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 70212,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[70213] = {
+	drop_gold_max = 0,
+	name = "좋아하는 음식 (모니카)",
+	display = "모니카가 좋아하는 음식: 파파나시. 캐릭터의 선호 정보 오픈 가능.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50810,
+	icon = "Props/doa_collect",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 70213,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[70214] = {
+	drop_gold_max = 0,
+	name = "좋아하는 음료 (모니카)",
+	display = "모니카가 좋아하는 음료: 메이플 휘핑 라떼. 캐릭터의 선호 정보 오픈 가능.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50810,
+	icon = "Props/doa_collect",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 70214,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[70215] = {
+	drop_gold_max = 0,
+	name = "좋아하는 음식 (타마키)",
+	display = "타마키가 좋아하는 음식: 마카롱. 캐릭터의 선호 정보 오픈 가능.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50810,
+	icon = "Props/doa_collect",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 70215,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[70216] = {
+	drop_gold_max = 0,
+	name = "좋아하는 음료 (타마키)",
+	display = "타마키가 좋아하는 음료: 탄산수. 캐릭터의 선호 정보 오픈 가능.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50810,
+	icon = "Props/doa_collect",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 70216,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[70217] = {
+	drop_gold_max = 0,
+	name = "좋아하는 음식 (루나)",
+	display = "루나가 좋아하는 음식: 군고구마. 캐릭터의 선호 정보 오픈 가능.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50810,
+	icon = "Props/doa_collect",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 70217,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[70218] = {
+	drop_gold_max = 0,
+	name = "좋아하는 음료 (루나)",
+	display = "루나가 좋아하는 음료: 그린 스무디. 캐릭터의 선호 정보 오픈 가능.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50810,
+	icon = "Props/doa_collect",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 70218,
+	display_icon = {},
+	price = {},
 	index = {},
 	shiptrans_id = {},
 	combination_display = {}

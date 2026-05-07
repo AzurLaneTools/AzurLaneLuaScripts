@@ -237,6 +237,25 @@ pg.ship_data_create_material = {
 			"N：30%"
 		}
 	},
+	{
+		use_gold = 1500,
+		name = "기간 한정",
+		build_anim = "building",
+		type = 2,
+		ship_icon = "1",
+		build_voice = "",
+		use_item = 20001,
+		number_1 = 2,
+		id = 12,
+		icon = "build_12",
+		exchange_count = 2,
+		rate_tip = {
+			"<color=#ffde38>SSR</color>: 7%",
+			"<color=#d797ff>SR</color>: 12%",
+			"<color=#3dc6ff>R</color>: 51%",
+			"N: 30%"
+		}
+	},
 	all = {
 		1,
 		2,
@@ -248,6 +267,7 @@ pg.ship_data_create_material = {
 		8,
 		9,
 		10,
-		11
+		11,
+		12
 	}
 }

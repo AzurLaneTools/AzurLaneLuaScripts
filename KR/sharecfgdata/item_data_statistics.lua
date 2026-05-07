@@ -107142,6 +107142,99 @@ _G.pg.base.item_data_statistics[70145] = {
 }
 
 
+_G.pg.base.item_data_statistics[70219] = {
+	open_directly = 0,
+	name = "비너스 교환 티켓",
+	type = 13,
+	display = "<color=#ff5c5c>「교환 티켓」은 5월 28일(목) 점검까지 사용할 수 있습니다. </color>「마리 로즈」, 「호노카」, 「카스미」, 「미사키」, 「나기사」, 「모니카」 중 하나를 골라 획득 가능.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/70144",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 70219,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			4,
+			10600011,
+			1
+		},
+		{
+			4,
+			10600021,
+			1
+		},
+		{
+			4,
+			10600031,
+			1
+		},
+		{
+			4,
+			10600041,
+			1
+		},
+		{
+			4,
+			10600051,
+			1
+		},
+		{
+			4,
+			10600071,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			4,
+			10600011,
+			1
+		},
+		{
+			4,
+			10600021,
+			1
+		},
+		{
+			4,
+			10600031,
+			1
+		},
+		{
+			4,
+			10600041,
+			1
+		},
+		{
+			4,
+			10600051,
+			1
+		},
+		{
+			4,
+			10600071,
+			1
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[81200] = {
 	open_directly = 1,
 	name = "현란한 밤 패키지·I",

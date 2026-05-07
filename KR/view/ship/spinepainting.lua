@@ -287,6 +287,7 @@ slot0.SetVisible = function(slot0, slot1)
 
 	slot0:playPaintingInitIdle()
 	slot0:playPaintingInitSkin()
+	slot0:updateLink()
 end
 
 slot0.getInitFlag = function(slot0)

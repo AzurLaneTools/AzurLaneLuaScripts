@@ -128,6 +128,8 @@ slot0.init = function(slot0)
 	slot0.winTag = slot0.endUI:Find("score_panel/score/win")
 	slot0.loseTag = slot0.endUI:Find("score_panel/score/lose")
 	slot0.helpUI = slot0._tf:Find("help_ui")
+	slot0.miniGameHudId = slot0:GetMiniGameHudId(ActivityConst.MINIGAME_VOLLEYBALL)
+	slot0.miniGameId = slot0:GetDOA2MiniGameId(ActivityConst.MINIGAME_VOLLEYBALL)
 end
 
 slot0.initPos = function(slot0)
@@ -149,6 +151,34 @@ slot0.resetPos = function(slot0)
 	slot0.anchoredPos.our2 = slot0:getRandomPos("our2")
 	slot0.anchoredPos.enemy1 = slot0:getRandomPos("enemy1")
 	slot0.anchoredPos.enemy2 = slot0:getRandomPos("enemy2")
+end
+
+slot0.GetMiniGameHudId = function(slot0, slot1)
+	if not pg.activity_template[slot1] then
+		return nil
+	end
+
+	return slot2.config_id
+end
+
+slot0.GetDOA2MiniGameId = function(slot0, slot1)
+	if not pg.activity_template[slot1] then
+		error("未找到对应DOA活动ID")
+
+		return nil
+	end
+
+	slot3 = slot2.config_id
+
+	for slot7 = #pg.mini_game.all, 1, -1 do
+		if pg.mini_game[pg.mini_game.all[slot7]] and slot9.hub_id == slot3 then
+			return slot8
+		end
+	end
+
+	error("未找到对应DOA活动的miniGameID")
+
+	return nil
 end
 
 slot0.didEnter = function(slot0)
@@ -278,11 +308,11 @@ end
 
 slot0.getGameData = function(slot0)
 	slot0.mgProxy = getProxy(MiniGameProxy)
-	slot0.hubData = slot0.mgProxy:GetHubByHubId(13)
+	slot0.hubData = slot0.mgProxy:GetHubByHubId(slot0.miniGameHudId)
 	slot0.curDay = slot0.hubData.ultimate == 0 and slot0.hubData.usedtime + 1 or 8
 	slot0.unlockDay = slot0.hubData.usedtime + slot0.hubData.count
 	slot0.curDay = slot0.curDay <= slot0.unlockDay and slot0.curDay or slot0.unlockDay
-	slot0.mgData = slot0.mgProxy:GetMiniGameData(17)
+	slot0.mgData = slot0.mgProxy:GetMiniGameData(slot0.miniGameId)
 	slot0.endScore = slot0.mgData:GetSimpleValue("endScore")[slot0.curDay]
 	slot0.storylist = slot0.mgData:GetSimpleValue("story")
 	slot0.isFirstgame = PlayerPrefs.GetInt("volleyballgame_first_" .. getProxy(PlayerProxy):getData().id)

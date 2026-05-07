@@ -9032,6 +9032,84 @@ pg.activity_ins_chat_language = setmetatable({
 		9029,
 		9030,
 		9031,
+		9032,
+		9033,
+		9034,
+		9035,
+		9036,
+		9037,
+		9038,
+		9039,
+		9040,
+		9041,
+		9042,
+		9043,
+		9044,
+		9045,
+		9046,
+		9047,
+		9048,
+		9049,
+		9050,
+		9051,
+		9052,
+		9053,
+		9054,
+		9055,
+		9056,
+		9057,
+		9058,
+		9059,
+		9060,
+		9061,
+		9062,
+		9063,
+		9064,
+		9065,
+		9066,
+		9067,
+		9068,
+		9069,
+		9070,
+		9071,
+		9072,
+		9073,
+		9074,
+		9075,
+		9076,
+		9077,
+		9078,
+		9079,
+		9080,
+		9081,
+		9082,
+		9083,
+		9084,
+		9085,
+		9086,
+		9087,
+		9088,
+		9089,
+		9090,
+		9091,
+		9092,
+		9093,
+		9094,
+		9095,
+		9096,
+		9097,
+		9098,
+		9099,
+		9100,
+		9101,
+		9102,
+		9103,
+		9104,
+		9105,
+		9106,
+		9107,
+		9108,
+		9109,
 		9110,
 		9111,
 		9112,
@@ -88950,6 +89028,680 @@ pg.base.activity_ins_chat_language = {
 		type = 1,
 		id = 9031,
 		flag = 2
+	},
+	[9032] = {
+		param = "지휘관 씨~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9032,
+		flag = 0
+	},
+	[9033] = {
+		param = "책상 서류들 전부 분류해 뒀어~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9033,
+		flag = 0
+	},
+	[9034] = {
+		param = "게다가 집무실 청소도 아주 완벽하게 해뒀다구.",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9034,
+		flag = 0
+	},
+	[9035] = {
+		param = "그래서 완전히 기진맥진이야~",
+		ship_group = 10601,
+		type = 1,
+		id = 9035,
+		flag = 0,
+		option = {
+			{
+				1,
+				"웬일이야"
+			}
+		}
+	},
+	[9036] = {
+		param = "웬일이야. 롱 아일랜드가 성실하게 일을 다 하고.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9036,
+		flag = 1
+	},
+	[9037] = {
+		param = "그뿐만이 아니야~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9037,
+		flag = 1
+	},
+	[9038] = {
+		param = "지휘관 씨한테 최대한 어필하기 위해",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9038,
+		flag = 1
+	},
+	[9039] = {
+		param = "지금 집에 있는 콜라랑 감자칩이랑 컵라면이랑 게임 같은 걸 다 챙겨서",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9039,
+		flag = 1
+	},
+	[9040] = {
+		param = "이따가 전부 집무실로 가지고 들어올 거야~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9040,
+		flag = 1
+	},
+	[9041] = {
+		param = "유령 씨는 말이지, 당분간은 집무실에 눌러앉아 있을 거야~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9041,
+		flag = 1
+	},
+	[9042] = {
+		param = "지휘관 씨가 밤새도록 야근하라고 해도 끄떡없어~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9042,
+		flag = 1
+	},
+	[9043] = {
+		param = "유령 씨가 보인다면 말이지만~",
+		ship_group = 10601,
+		type = 1,
+		id = 9043,
+		flag = 1,
+		option = {
+			{
+				2,
+				"마음은 고맙지만"
+			}
+		}
+	},
+	[9044] = {
+		param = "마음은 고맙지만…… 왠지 좀 걸리는데.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9044,
+		flag = 2
+	},
+	[9045] = {
+		param = "그렇지 않아!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9045,
+		flag = 2
+	},
+	[9046] = {
+		param = "유령 씨는 상냥하니까, 이렇게 가끔 잘해주는 건 극히 자연스러운 거야~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9046,
+		flag = 2
+	},
+	[9047] = {
+		param = "딱히, 엄청 기대하던 신작 게임이 발표돼서 그런 건 아니구…",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9047,
+		flag = 2
+	},
+	[9048] = {
+		param = "초고화질로 플레이하려고 성능 강화된 게임기를 같이 장만하려는 속셈도 아니야!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9048,
+		flag = 2
+	},
+	[9049] = {
+		param = "에효.. 초회 한정판을 구하려니 이번 달 예산이 꽤 빠듯하긴 한데……",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9049,
+		flag = 2
+	},
+	[9050] = {
+		param = "지휘관 씨도 관심 있으면 지금이 제대로 입덕할 찬스야~!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9050,
+		flag = 2
+	},
+	[9051] = {
+		param = "이 불후의 명작에 대해서 자세히 가르쳐 줄게~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9051,
+		flag = 2
+	},
+	[9052] = {
+		param = "지휘관 씨도 마음에 들면…… 같이 세트로 살 수 있잖아!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9052,
+		flag = 2
+	},
+	[9053] = {
+		param = "그럼 예산이 초과될 걱정도 사라지겠지~",
+		ship_group = 10601,
+		type = 1,
+		id = 9053,
+		flag = 2,
+		option = {
+			{
+				3,
+				"좋긴 한데, 일은……?"
+			}
+		}
+	},
+	[9054] = {
+		param = "좋긴 한데, 일은……?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9054,
+		flag = 3
+	},
+	[9055] = {
+		param = "그런 건 나중에 해도 돼~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9055,
+		flag = 3
+	},
+	[9056] = {
+		param = "준비 다 됐으니까 지금 거기로 갈게~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9056,
+		flag = 3
+	},
+	[9057] = {
+		param = "당분간은 지휘관 씨한테 착 달라붙어 있을 거야~!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9057,
+		flag = 3
+	},
+	[9058] = {
+		param = "졸려……",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9058,
+		flag = 0
+	},
+	[9059] = {
+		param = "요즘은 자고 있어도 머릿속이 지휘관 씨 생각으로 가득해……",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9059,
+		flag = 0
+	},
+	[9060] = {
+		param = "확실히 책임져……",
+		ship_group = 10601,
+		type = 1,
+		id = 9060,
+		flag = 0,
+		option = {
+			{
+				1,
+				"왜?"
+			}
+		}
+	},
+	[9061] = {
+		param = "왜?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9061,
+		flag = 1
+	},
+	[9062] = {
+		param = "요전에 게임에서 지휘관 씨랑 비겼으니까 그런 거잖아!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9062,
+		flag = 1
+	},
+	[9063] = {
+		param = "유령 씨는 게이머들 사이에서도 이름 좀 날리는 「L.I.」라는 플레이어거든.",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9063,
+		flag = 1
+	},
+	[9064] = {
+		param = "저번에 같이 했던 게임 랭킹 상위 5개는 전부 유령 씨가 차지했었단 말이야!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9064,
+		flag = 1
+	},
+	[9065] = {
+		param = "지휘관 씨는 그냥 평범한 초보인 줄 알았는데",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9065,
+		flag = 1
+	},
+	[9066] = {
+		param = "설마 가볍게 해본 것만으로 그렇게 실력이 늘 줄이야……",
+		ship_group = 10601,
+		type = 1,
+		id = 9066,
+		flag = 1,
+		option = {
+			{
+				2,
+				"전략이 중요한 게임이라서 그런가……"
+			}
+		}
+	},
+	[9067] = {
+		param = "전략이 중요한 게임이라서 그런가……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9067,
+		flag = 2
+	},
+	[9068] = {
+		param = "아무리 지휘관 씨라고 해도, 시작한 지 30분 만에 동급이 되다니……",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9068,
+		flag = 2
+	},
+	[9069] = {
+		param = "고인물 플레이어로서 자존심이 엄청나게 상했어!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9069,
+		flag = 2
+	},
+	[9070] = {
+		param = "그래서 그동안 지휘관 씨 곁에서 약점을 찾았고…",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9070,
+		flag = 2
+	},
+	[9071] = {
+		param = "매일 성실하게 포석을 두는 법이나 타이밍 잡는 법도 연구해 왔지.",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9071,
+		flag = 2
+	},
+	[9072] = {
+		param = "그렇게 완벽한 테크닉을 익혔어!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9072,
+		flag = 2
+	},
+	[9073] = {
+		param = "다음번엔 절대 안 질 거야!",
+		ship_group = 10601,
+		type = 1,
+		id = 9073,
+		flag = 2,
+		option = {
+			{
+				3,
+				"정말로?"
+			}
+		}
+	},
+	[9074] = {
+		param = "정말로? 그럼 얼마나 대단해졌는지 말해줄래?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9074,
+		flag = 3
+	},
+	[9075] = {
+		param = "듣고 놀라지 마.",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9075,
+		flag = 3
+	},
+	[9076] = {
+		param = "순서가 복잡해서 컨트롤에 얼마나 익숙해지느냐가 관건이거든.",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9076,
+		flag = 3
+	},
+	[9077] = {
+		param = "예를 들어, 공격할 때는 주변에 한꺼번에 병력을 강하시키고……",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9077,
+		flag = 3
+	},
+	[9078] = {
+		param = "잠깐, 지휘관 씨 혹시 유령 씨를 떠보는 건 아니지?",
+		ship_group = 10601,
+		type = 1,
+		id = 9078,
+		flag = 3,
+		option = {
+			{
+				4,
+				"들켰나"
+			}
+		}
+	},
+	[9079] = {
+		param = "들켰나.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9079,
+		flag = 4
+	},
+	[9080] = {
+		param = "우와! 역시 한시도 방심할 수가 없다니까!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9080,
+		flag = 4
+	},
+	[9081] = {
+		param = "하지만 이걸 들켰다고 해서 유령 씨의 승리가 흔들리진 않아!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9081,
+		flag = 4
+	},
+	[9082] = {
+		param = "이 테크닉이 얼마나 대단한지는 다음 대전 때 직접 몸으로 겪게 해줄게!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9082,
+		flag = 4
+	},
+	[9083] = {
+		param = "다음 쉬는 날, 기다리고 있을게~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9083,
+		flag = 4
+	},
+	[9084] = {
+		param = "66",
+		ship_group = 10601,
+		option = "",
+		type = 4,
+		id = 9084,
+		flag = 4
+	},
+	[9085] = {
+		param = "자금난에 빠지지 않기 위해서",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9085,
+		flag = 0
+	},
+	[9086] = {
+		param = "장대한 계획을 세웠어~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9086,
+		flag = 0
+	},
+	[9087] = {
+		param = "그건 말이지~ 시리즈물의 프라모델을 만들어서 파는 거야!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9087,
+		flag = 0
+	},
+	[9088] = {
+		param = "인기 시리즈로 밀고 나가면 돈 문제는 한 방에 해결될 거야!",
+		ship_group = 10601,
+		type = 1,
+		id = 9088,
+		flag = 0,
+		option = {
+			{
+				1,
+				"좋은 아이디어네"
+			}
+		}
+	},
+	[9089] = {
+		param = "좋은 아이디어네. 도와줄까?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9089,
+		flag = 1
+	},
+	[9090] = {
+		param = "유령 씨는 오랜 경험을 가진 업계 전문가라서",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9090,
+		flag = 1
+	},
+	[9091] = {
+		param = "양산 계획은 이미 완벽하게 세워뒀어~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9091,
+		flag = 1
+	},
+	[9092] = {
+		param = "하지만……",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9092,
+		flag = 1
+	},
+	[9093] = {
+		param = "디자인은 전혀 모르겠어!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9093,
+		flag = 1
+	},
+	[9094] = {
+		param = "어떤 프라모델이 먹힐지……",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9094,
+		flag = 1
+	},
+	[9095] = {
+		param = "전혀 짐작이 안 가!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9095,
+		flag = 1
+	},
+	[9096] = {
+		param = "322",
+		ship_group = 10601,
+		type = 4,
+		id = 9096,
+		flag = 1,
+		option = {
+			{
+				2,
+				"우선 참고부터……"
+			}
+		}
+	},
+	[9097] = {
+		param = "우선 인기 있는 걸 참고해서 수요나 취향을 분석해 보자.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9097,
+		flag = 2
+	},
+	[9098] = {
+		param = "먼저 디자인 방향성부터 정한다는 거지?",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9098,
+		flag = 2
+	},
+	[9099] = {
+		param = "의외로 괜찮을지도!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9099,
+		flag = 2
+	},
+	[9100] = {
+		param = "모항의 지금 트렌드는……",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9100,
+		flag = 2
+	},
+	[9101] = {
+		param = "엄청난 아이디어가 떠올랐어!",
+		ship_group = 10601,
+		type = 1,
+		id = 9101,
+		flag = 2,
+		option = {
+			{
+				3,
+				"오?"
+			}
+		}
+	},
+	[9102] = {
+		param = "오? 뭔데?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9102,
+		flag = 3
+	},
+	[9103] = {
+		param = "그건 바로 「지휘관 메카 시리즈」!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9103,
+		flag = 3
+	},
+	[9104] = {
+		param = "메인은 멋진 메카고, 파일럿은 지휘관 씨인 거지.",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9104,
+		flag = 3
+	},
+	[9105] = {
+		param = "메카 디자인은 대기업을 못 이길지도 모르지만",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9105,
+		flag = 3
+	},
+	[9106] = {
+		param = "파일럿 버전의 지휘관 씨 피규어가 들어있다고 홍보하면 분명 대박 날 게 뻔해!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9106,
+		flag = 3
+	},
+	[9107] = {
+		param = "분명 인기 폭발일 거야!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9107,
+		flag = 3
+	},
+	[9108] = {
+		param = "지휘관 씨, 지금 시간 돼? 같이 자세하게 이야기를 나눴으면 하는데.",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9108,
+		flag = 3
+	},
+	[9109] = {
+		param = "변신 기믹을 넣는 것도 괜찮을지도……",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9109,
+		flag = 3
 	},
 	[9110] = {
 		param = "어째서 이런 일이……!",

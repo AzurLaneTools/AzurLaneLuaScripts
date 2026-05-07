@@ -117,8 +117,13 @@ slot0.UpdataBtnInv = function(slot0, slot1, slot2)
 		slot0 = pg.NewStoryMgr.GetInstance()
 
 		slot0:Play(uv0.config_client[uv1][1], function ()
-			uv0:emit(ActivityMediator.ON_TASK_SUBMIT, uv1)
-			uv0:OnUpdata(uv2)
+			slot0 = uv0
+
+			slot0:emit(ActivityMediator.ON_TASK_SUBMIT, uv1, function (slot0)
+				if slot0 then
+					uv0:OnUpdata(uv1)
+				end
+			end)
 		end, true)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.playClose, function ()
@@ -136,13 +141,10 @@ slot0.UpdateUI = function(slot0, slot1, slot2)
 	slot0.lockTxt.text = string.format("%s<icon name=%s /> %d/%d", i18n("doa3_activityPageUI_1"), uv0, slot2:getProgress(), slot2:getConfig("target_num"))
 
 	setActive(slot0.playShow, slot3 ~= 0)
-
-	slot6 = pg.NewStoryMgr.GetInstance():IsPlayed(slot0.config_client[slot1][1])
-
-	setActive(slot0.playShowBtn, slot3 == 1 and not slot6)
+	setActive(slot0.playShowBtn, slot3 == 1)
 	setActive(slot0.playClose, slot3 == 0)
 	setText(slot0.titleTxt1, "0" .. slot1 .. slot2:getConfig("name"))
-	setActive(slot0.gotAward, slot3 == 2 or slot6)
+	setActive(slot0.gotAward, slot3 == 2 or pg.NewStoryMgr.GetInstance():IsPlayed(slot0.config_client[slot1][1]))
 	setActive(slot0.lockAward, slot3 == 0)
 end
 

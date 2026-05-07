@@ -5,8 +5,8 @@ return {
 		{
 			stageIndex = 1,
 			failCondition = 1,
-			timeCount = 300,
 			backGroundStageID = 1,
+			timeCount = 300,
 			passCondition = 1,
 			totalArea = {
 				-80,
@@ -17,7 +17,7 @@ return {
 			playerArea = {
 				-80,
 				20,
-				45,
+				50,
 				68
 			},
 			enemyArea = {},
@@ -25,6 +25,16 @@ return {
 				-80,
 				0,
 				75
+			},
+			stageBuff = {
+				{
+					id = 201250,
+					level = 1
+				},
+				{
+					id = 295023,
+					level = 1
+				}
 			},
 			waves = {
 				{

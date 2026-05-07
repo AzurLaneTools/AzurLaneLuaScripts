@@ -39,6 +39,12 @@ slot0.OnFirstFlush = function(slot0)
 			slot1 = getProxy(ActivityProxy):getActivityById(slot0)
 		end
 
+		if slot2.fightLinkActID and getProxy(ActivityProxy):getActivityById(slot3) then
+			uv0:emit(ActivityMediator.SKIP_ACTIVITY_MAP, slot3)
+
+			return
+		end
+
 		if not slot0 then
 			uv0:emit(ActivityMediator.BATTLE_OPERA)
 		elseif slot1 and not slot1:isEnd() then
