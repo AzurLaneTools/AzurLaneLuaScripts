@@ -8,7 +8,7 @@ return {
 			side = 2,
 			option_force_center = true,
 			dir = 1,
-			say = "投入特定材料使设施运作，可以探测到海域中更加隐蔽的调查点……",
+			say = "By expending certain items, you might be able to discover hidden investigation points in the area...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -19,23 +19,23 @@ return {
 			},
 			options = {
 				{
-					content = "消耗1个[塞壬能源存储器]，尝试探测隐藏的敌人",
+					content = "Use 1 Energy Storage Device to locate hidden enemies.",
 					flag = 2
 				},
 				{
-					content = "消耗2个[特别兑换凭证]，尝试探测隐藏的资源",
+					content = "Use 2 Special Item Tokens to locate hidden supplies.",
 					flag = 1
 				},
 				{
-					content = "反复尝试探测隐藏的敌人，每次消耗1个[塞壬能源存储器]",
+					content = "Repeatedly scans to find hidden enemies. Consumes 1 Energy Storage Device per scan.",
 					flag = 4
 				},
 				{
-					content = "反复尝试探测隐藏的资源，每次消耗2个[特别兑换凭证]",
+					content = "Repeatedly scans to find hidden supplies. Consumes 2 Special Item Tokens per scan.",
 					flag = 3
 				},
 				{
-					content = "离开",
+					content = "Leave",
 					flag = 0
 				}
 			}

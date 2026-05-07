@@ -40,6 +40,7 @@ end
 
 slot0.GetSpecailBtns = function()
 	return {
+		MainActInsBtn,
 		MainActTraingCampBtn,
 		MainActRefluxBtn,
 		MainActNewServerBtn,
