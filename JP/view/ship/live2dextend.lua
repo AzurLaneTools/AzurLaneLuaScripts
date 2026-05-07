@@ -70,7 +70,7 @@ slot0.GetXiaQiDrags = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6 = 1, #slot0.drags do
-		if slot0.drags[slot6] and slot7.actionTrigger and slot7.actionTrigger.type == Live2D.DRAG_GAME_XIAQI then
+		if slot0.drags[slot6] and slot7.actionTrigger and slot7.actionTrigger.type == Live2DPainting.DRAG_GAME_XIAQI then
 			if slot1 then
 				if table.contains(slot1, slot7:getParameterTarget()) then
 					table.insert(slot2, slot7)

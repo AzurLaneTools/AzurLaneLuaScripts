@@ -71,16 +71,8 @@ slot0.init = function(slot0, ...)
 end
 
 slot0.UpdateAdapt = function(slot0)
-	slot1 = 1.3333333333333333
-	slot2 = 2.1666666666666665
 	slot3 = pg.CameraFixMgr.GetInstance()
-	slot0._tf:GetComponent(typeof(AspectRatioFitter)).aspectRatio = math.clamp(slot3.currentWidth / slot3.currentHeight, slot1, slot2)
-
-	setSizeDelta(slot0._tf:Find("adapt"), {
-		x = 0,
-		y = 0
-	})
-	SetComponentEnabled(slot0._tf:Find("adapt"), "NotchAdapt", NotchAdapt.CheckNotchRatio == math.clamp(NotchAdapt.CheckNotchRatio, slot1, slot2))
+	slot0._tf:GetComponent(typeof(AspectRatioFitter)).aspectRatio = math.clamp(slot3.currentWidth / slot3.currentHeight, 1.3333333333333333, 2.1666666666666665)
 end
 
 slot0.willExit = function(slot0)

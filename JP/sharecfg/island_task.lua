@@ -93,6 +93,7 @@ pg.island_task.all = {
 	10019999,
 	50000001,
 	50000002,
+	50000003,
 	51001000,
 	51001001,
 	51001002,
@@ -119,6 +120,13 @@ pg.island_task.all = {
 	50001012,
 	50001013,
 	50001014,
+	50001015,
+	50001016,
+	50001017,
+	50001018,
+	50001019,
+	50001020,
+	50001021,
 	50002001,
 	50002002,
 	50002003,
@@ -133,6 +141,13 @@ pg.island_task.all = {
 	50002012,
 	50002013,
 	50002014,
+	50002015,
+	50002016,
+	50002017,
+	50002018,
+	50002019,
+	50002020,
+	50002021,
 	50003001,
 	50003002,
 	50003003,
@@ -141,6 +156,10 @@ pg.island_task.all = {
 	50003006,
 	50003007,
 	50003008,
+	50003009,
+	50003010,
+	50003011,
+	50003012,
 	80001001,
 	80001002,
 	80001003,
@@ -231,6 +250,36 @@ pg.island_task.all = {
 	80001228,
 	80001229,
 	80001230,
+	80001301,
+	80001302,
+	80001303,
+	80001304,
+	80001305,
+	80001306,
+	80001307,
+	80001308,
+	80001309,
+	80001310,
+	80001311,
+	80001312,
+	80001313,
+	80001314,
+	80001315,
+	80001316,
+	80001317,
+	80001318,
+	80001319,
+	80001320,
+	80001321,
+	80001322,
+	80001323,
+	80001324,
+	80001325,
+	80001326,
+	80001327,
+	80001328,
+	80001329,
+	80001330,
 	20001001,
 	20001002,
 	20001003,
@@ -382,6 +431,7 @@ pg.island_task.all = {
 	40108001,
 	40109001,
 	40110001,
+	40111001,
 	40201001,
 	40301001,
 	40401001,
@@ -646,6 +696,7 @@ pg.island_task.get_id_list_by_type = {
 		40108001,
 		40109001,
 		40110001,
+		40111001,
 		40201001,
 		40301001,
 		40401001,
@@ -655,6 +706,7 @@ pg.island_task.get_id_list_by_type = {
 	{
 		50000001,
 		50000002,
+		50000003,
 		51001001,
 		51001002,
 		51001003,
@@ -678,6 +730,13 @@ pg.island_task.get_id_list_by_type = {
 		50001012,
 		50001013,
 		50001014,
+		50001015,
+		50001016,
+		50001017,
+		50001018,
+		50001019,
+		50001020,
+		50001021,
 		50002001,
 		50002002,
 		50002003,
@@ -692,6 +751,13 @@ pg.island_task.get_id_list_by_type = {
 		50002012,
 		50002013,
 		50002014,
+		50002015,
+		50002016,
+		50002017,
+		50002018,
+		50002019,
+		50002020,
+		50002021,
 		50003001,
 		50003002,
 		50003003,
@@ -699,7 +765,11 @@ pg.island_task.get_id_list_by_type = {
 		50003005,
 		50003006,
 		50003007,
-		50003008
+		50003008,
+		50003009,
+		50003010,
+		50003011,
+		50003012
 	},
 	[8] = {
 		80001001,
@@ -791,7 +861,37 @@ pg.island_task.get_id_list_by_type = {
 		80001227,
 		80001228,
 		80001229,
-		80001230
+		80001230,
+		80001301,
+		80001302,
+		80001303,
+		80001304,
+		80001305,
+		80001306,
+		80001307,
+		80001308,
+		80001309,
+		80001310,
+		80001311,
+		80001312,
+		80001313,
+		80001314,
+		80001315,
+		80001316,
+		80001317,
+		80001318,
+		80001319,
+		80001320,
+		80001321,
+		80001322,
+		80001323,
+		80001324,
+		80001325,
+		80001326,
+		80001327,
+		80001328,
+		80001329,
+		80001330
 	},
 	[9] = {
 		51001000,
@@ -4603,6 +4703,72 @@ pg.base.island_task = {}
 			}
 		}
 	}
+	pg.base.island_task[50000003] = {
+		trigger_data = 0,
+		trigger_tips = 1,
+		name = "夏の出会い",
+		type = 5,
+		task_desc = "ピアリは何かを発見したようだ。会いに行こう",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "離島シーズン",
+		id = 50000003,
+		unlock_condition = {
+			{
+				2,
+				20015002
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					16,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {},
+		target_id = {
+			500000031
+		},
+		reward_show = {
+			{
+				41,
+				1,
+				2000
+			}
+		}
+	}
 	pg.base.island_task[51001000] = {
 		trigger_data = 0,
 		trigger_tips = 0,
@@ -4994,6 +5160,8 @@ pg.base.island_task = {}
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.island_task[51003002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
@@ -5035,8 +5203,6 @@ pg.base.island_task = {}
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.island_task[51003003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
@@ -5639,7 +5805,7 @@ end)()
 					5
 				},
 				{
-					12,
+					16,
 					0,
 					1
 				}
@@ -5710,7 +5876,7 @@ end)()
 					5
 				},
 				{
-					12,
+					16,
 					0,
 					1
 				}
@@ -5783,7 +5949,7 @@ end)()
 					5
 				},
 				{
-					12,
+					16,
 					0,
 					1
 				}
@@ -5856,7 +6022,7 @@ end)()
 					5
 				},
 				{
-					12,
+					16,
 					0,
 					1
 				}
@@ -5929,7 +6095,7 @@ end)()
 					5
 				},
 				{
-					12,
+					16,
 					0,
 					1
 				}
@@ -6007,7 +6173,7 @@ end)()
 					5
 				},
 				{
-					12,
+					16,
 					0,
 					1
 				}
@@ -6085,7 +6251,7 @@ end)()
 					5
 				},
 				{
-					12,
+					16,
 					0,
 					1
 				}
@@ -6108,6 +6274,530 @@ end)()
 		},
 		target_id = {
 			50001014
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				2
+			},
+			{
+				41,
+				100103,
+				3
+			},
+			{
+				41,
+				100031,
+				2
+			}
+		}
+	}
+	pg.base.island_task[50001015] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "夏の土産採集（1/7）",
+		type = 5,
+		task_desc = "夏の離島に旬の採集物がたくさんあるようで……指揮官、手伝ってもらえますか？\n<採集可能な特産品>\n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4029}>ジャスミン</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4030}>ヒマワリ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4031}>スイカ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4032}>ヒユナ</material></color>",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "ピアリのところへ行こう(0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "【夏の特産経営】",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "限定採集",
+		id = 50001015,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					16,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {},
+		target_id = {
+			50001015
+		},
+		reward_show = {
+			{
+				41,
+				100001,
+				5
+			},
+			{
+				41,
+				100101,
+				1
+			}
+		}
+	}
+	pg.base.island_task[50001016] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "夏の土産採集（2/7）",
+		type = 5,
+		task_desc = "夏の離島に旬の採集物がたくさんあるようで……指揮官、手伝ってもらえますか？\n<採集可能な特産品>\n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4029}>ジャスミン</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4030}>ヒマワリ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4031}>スイカ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4032}>ヒユナ</material></color>",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "ピアリのところへ行こう(0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "【夏の特産経営】",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "限定採集",
+		id = 50001016,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					16,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50001015
+		},
+		target_id = {
+			50001016
+		},
+		reward_show = {
+			{
+				41,
+				100001,
+				6
+			},
+			{
+				41,
+				100101,
+				2
+			}
+		}
+	}
+	pg.base.island_task[50001017] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "夏の土産採集（3/7）",
+		type = 5,
+		task_desc = "夏の離島に旬の採集物がたくさんあるようで……指揮官、手伝ってもらえますか？\n<採集可能な特産品>\n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4029}>ジャスミン</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4030}>ヒマワリ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4031}>スイカ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4032}>ヒユナ</material></color>",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "ピアリのところへ行こう(0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "【夏の特産経営】",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "限定採集",
+		id = 50001017,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					16,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50001016
+		},
+		target_id = {
+			50001017
+		},
+		reward_show = {
+			{
+				41,
+				100001,
+				6
+			},
+			{
+				41,
+				100102,
+				1
+			}
+		}
+	}
+	pg.base.island_task[50001018] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "夏の土産採集（4/7）",
+		type = 5,
+		task_desc = "夏の離島に旬の採集物がたくさんあるようで……指揮官、手伝ってもらえますか？\n<採集可能な特産品>\n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4029}>ジャスミン</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4030}>ヒマワリ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4031}>スイカ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4032}>ヒユナ</material></color>",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "ピアリのところへ行こう(0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "【夏の特産経営】",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "限定採集",
+		id = 50001018,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					16,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50001017
+		},
+		target_id = {
+			50001018
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				3
+			},
+			{
+				41,
+				100102,
+				2
+			}
+		}
+	}
+	pg.base.island_task[50001019] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "夏の土産採集（5/7）",
+		type = 5,
+		task_desc = "夏の離島に旬の採集物がたくさんあるようで……指揮官、手伝ってもらえますか？\n<採集可能な特産品>\n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4029}>ジャスミン</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4030}>ヒマワリ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4031}>スイカ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4032}>ヒユナ</material></color>",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "ピアリのところへ行こう(0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "【夏の特産経営】",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "限定採集",
+		id = 50001019,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					16,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50001018
+		},
+		target_id = {
+			50001019
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				3
+			},
+			{
+				41,
+				100103,
+				1
+			},
+			{
+				41,
+				100011,
+				2
+			}
+		}
+	}
+	pg.base.island_task[50001020] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "夏の土産採集（6/7）",
+		type = 5,
+		task_desc = "夏の離島に旬の採集物がたくさんあるようで……指揮官、手伝ってもらえますか？\n<採集可能な特産品>\n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4029}>ジャスミン</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4030}>ヒマワリ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4031}>スイカ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4032}>ヒユナ</material></color>",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "ピアリのところへ行こう(0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "【夏の特産経営】",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "限定採集",
+		id = 50001020,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					16,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50001019
+		},
+		target_id = {
+			50001020
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				2
+			},
+			{
+				41,
+				100103,
+				1
+			},
+			{
+				41,
+				100021,
+				2
+			}
+		}
+	}
+	pg.base.island_task[50001021] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "夏の土産採集（7/7）",
+		type = 5,
+		task_desc = "夏の離島に旬の採集物がたくさんあるようで……指揮官、手伝ってもらえますか？\n<採集可能な特産品>\n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4029}>ジャスミン</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4030}>ヒマワリ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4031}>スイカ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4032}>ヒユナ</material></color>",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "ピアリのところへ行こう(0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "【夏の特産経営】",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "限定採集",
+		id = 50001021,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					16,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50001020
+		},
+		target_id = {
+			50001021
 		},
 		reward_show = {
 			{
@@ -6715,7 +7405,7 @@ end)()
 					5
 				},
 				{
-					12,
+					16,
 					0,
 					1
 				}
@@ -6786,7 +7476,7 @@ end)()
 					5
 				},
 				{
-					12,
+					16,
 					0,
 					1
 				}
@@ -6859,7 +7549,7 @@ end)()
 					5
 				},
 				{
-					12,
+					16,
 					0,
 					1
 				}
@@ -6932,7 +7622,7 @@ end)()
 					5
 				},
 				{
-					12,
+					16,
 					0,
 					1
 				}
@@ -7005,7 +7695,7 @@ end)()
 					5
 				},
 				{
-					12,
+					16,
 					0,
 					1
 				}
@@ -7083,7 +7773,7 @@ end)()
 					5
 				},
 				{
-					12,
+					16,
 					0,
 					1
 				}
@@ -7161,7 +7851,7 @@ end)()
 					5
 				},
 				{
-					12,
+					16,
 					0,
 					1
 				}
@@ -7184,6 +7874,558 @@ end)()
 		},
 		target_id = {
 			50002014
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				2
+			},
+			{
+				41,
+				100103,
+				3
+			},
+			{
+				41,
+				100061,
+				2
+			}
+		}
+	}
+	pg.base.island_task[50002015] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "夏の特産品制作（1/7）",
+		type = 5,
+		task_desc = [[
+夏の土産は経済的な価値を生み出してくれそう…離島の発展のために指揮官、お願いします！。
+<制作・栽培可能な特産品> 
+<color=#3E7EFF><material=underline event=dropDesHandle args={41,4033}>トマト</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4035}>キュウリ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4037}>キュウリジュース</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4038}>スイカジュース</material></color>、
+<color=#3E7EFF><material=underline event=dropDesHandle args={41,4039}>ヒユナ入りおにぎり</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4040}>トマトと卵の炒め</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4041}>ジャスミン精油</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4042}>夏の花束</material></color>]],
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "ピアリのところへ行こう(0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "【夏の特産経営】",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "限定レシピ",
+		id = 50002015,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					16,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {},
+		target_id = {
+			50002015
+		},
+		reward_show = {
+			{
+				41,
+				100001,
+				5
+			},
+			{
+				41,
+				100101,
+				1
+			}
+		}
+	}
+	pg.base.island_task[50002016] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "夏の特産品制作（2/7）",
+		type = 5,
+		task_desc = [[
+夏の土産は経済的な価値を生み出してくれそう…離島の発展のために指揮官、お願いします！。
+<制作・栽培可能な特産品> 
+<color=#3E7EFF><material=underline event=dropDesHandle args={41,4033}>トマト</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4035}>キュウリ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4037}>キュウリジュース</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4038}>スイカジュース</material></color>、
+<color=#3E7EFF><material=underline event=dropDesHandle args={41,4039}>ヒユナ入りおにぎり</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4040}>トマトと卵の炒め</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4041}>ジャスミン精油</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4042}>夏の花束</material></color>]],
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "ピアリのところへ行こう(0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "【夏の特産経営】",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "限定レシピ",
+		id = 50002016,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					16,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50002015
+		},
+		target_id = {
+			50002016
+		},
+		reward_show = {
+			{
+				41,
+				100001,
+				6
+			},
+			{
+				41,
+				100101,
+				2
+			}
+		}
+	}
+	pg.base.island_task[50002017] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "夏の特産品制作（3/7）",
+		type = 5,
+		task_desc = [[
+夏の土産は経済的な価値を生み出してくれそう…離島の発展のために指揮官、お願いします！。
+<制作・栽培可能な特産品> 
+<color=#3E7EFF><material=underline event=dropDesHandle args={41,4033}>トマト</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4035}>キュウリ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4037}>キュウリジュース</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4038}>スイカジュース</material></color>、
+<color=#3E7EFF><material=underline event=dropDesHandle args={41,4039}>ヒユナ入りおにぎり</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4040}>トマトと卵の炒め</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4041}>ジャスミン精油</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4042}>夏の花束</material></color>]],
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "ピアリのところへ行こう(0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "【夏の特産経営】",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "限定レシピ",
+		id = 50002017,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					16,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50002016
+		},
+		target_id = {
+			50002017
+		},
+		reward_show = {
+			{
+				41,
+				100001,
+				6
+			},
+			{
+				41,
+				100102,
+				1
+			}
+		}
+	}
+	pg.base.island_task[50002018] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "夏の特産品制作（4/7）",
+		type = 5,
+		task_desc = [[
+夏の土産は経済的な価値を生み出してくれそう…離島の発展のために指揮官、お願いします！。
+<制作・栽培可能な特産品> 
+<color=#3E7EFF><material=underline event=dropDesHandle args={41,4033}>トマト</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4035}>キュウリ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4037}>キュウリジュース</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4038}>スイカジュース</material></color>、
+<color=#3E7EFF><material=underline event=dropDesHandle args={41,4039}>ヒユナ入りおにぎり</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4040}>トマトと卵の炒め</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4041}>ジャスミン精油</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4042}>夏の花束</material></color>]],
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "ピアリのところへ行こう(0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "【夏の特産経営】",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "限定レシピ",
+		id = 50002018,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					16,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50002017
+		},
+		target_id = {
+			50002018
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				3
+			},
+			{
+				41,
+				100102,
+				2
+			}
+		}
+	}
+	pg.base.island_task[50002019] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "夏の特産品制作（5/7）",
+		type = 5,
+		task_desc = [[
+夏の土産は経済的な価値を生み出してくれそう…離島の発展のために指揮官、お願いします！。
+<制作・栽培可能な特産品> 
+<color=#3E7EFF><material=underline event=dropDesHandle args={41,4033}>トマト</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4035}>キュウリ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4037}>キュウリジュース</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4038}>スイカジュース</material></color>、
+<color=#3E7EFF><material=underline event=dropDesHandle args={41,4039}>ヒユナ入りおにぎり</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4040}>トマトと卵の炒め</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4041}>ジャスミン精油</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4042}>夏の花束</material></color>]],
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "ピアリのところへ行こう(0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "【夏の特産経営】",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "限定レシピ",
+		id = 50002019,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					16,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50002018
+		},
+		target_id = {
+			50002019
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				3
+			},
+			{
+				41,
+				100103,
+				1
+			},
+			{
+				41,
+				100041,
+				2
+			}
+		}
+	}
+	pg.base.island_task[50002020] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "夏の特産品制作（6/7）",
+		type = 5,
+		task_desc = [[
+夏の土産は経済的な価値を生み出してくれそう…離島の発展のために指揮官、お願いします！。
+<制作・栽培可能な特産品> 
+<color=#3E7EFF><material=underline event=dropDesHandle args={41,4033}>トマト</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4035}>キュウリ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4037}>キュウリジュース</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4038}>スイカジュース</material></color>、
+<color=#3E7EFF><material=underline event=dropDesHandle args={41,4039}>ヒユナ入りおにぎり</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4040}>トマトと卵の炒め</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4041}>ジャスミン精油</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4042}>夏の花束</material></color>]],
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "ピアリのところへ行こう(0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "【夏の特産経営】",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "限定レシピ",
+		id = 50002020,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					16,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50002019
+		},
+		target_id = {
+			50002020
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				2
+			},
+			{
+				41,
+				100103,
+				1
+			},
+			{
+				41,
+				100051,
+				2
+			}
+		}
+	}
+	pg.base.island_task[50002021] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "夏の特産品制作（7/7）",
+		type = 5,
+		task_desc = [[
+夏の土産は経済的な価値を生み出してくれそう…離島の発展のために指揮官、お願いします！。
+<制作・栽培可能な特産品> 
+<color=#3E7EFF><material=underline event=dropDesHandle args={41,4033}>トマト</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4035}>キュウリ</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4037}>キュウリジュース</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4038}>スイカジュース</material></color>、
+<color=#3E7EFF><material=underline event=dropDesHandle args={41,4039}>ヒユナ入りおにぎり</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4040}>トマトと卵の炒め</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4041}>ジャスミン精油</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4042}>夏の花束</material></color>]],
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "ピアリのところへ行こう(0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "【夏の特産経営】",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "限定レシピ",
+		id = 50002021,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					16,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50002020
+		},
+		target_id = {
+			50002021
 		},
 		reward_show = {
 			{
@@ -7529,7 +8771,7 @@ end)()
 					5
 				},
 				{
-					12,
+					16,
 					0,
 					1
 				}
@@ -7600,7 +8842,7 @@ end)()
 					5
 				},
 				{
-					12,
+					16,
 					0,
 					1
 				}
@@ -7673,7 +8915,7 @@ end)()
 					5
 				},
 				{
-					12,
+					16,
 					0,
 					1
 				}
@@ -7746,7 +8988,7 @@ end)()
 					5
 				},
 				{
-					12,
+					16,
 					0,
 					1
 				}
@@ -7779,6 +9021,296 @@ end)()
 			{
 				45,
 				101,
+				1
+			}
+		}
+	}
+	pg.base.island_task[50003009] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "夏の特産依頼（1/4）",
+		type = 5,
+		task_desc = "指揮官が提供してくれる夏の特産品を離島建設に活用します！引き続き堅実に開発を進めましょう！",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "ピアリのところへ行こう(0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "【夏の特産経営】",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "限定依頼",
+		id = 50003009,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					16,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {},
+		target_id = {
+			50003009
+		},
+		reward_show = {
+			{
+				41,
+				100001,
+				6
+			},
+			{
+				41,
+				100201,
+				1
+			}
+		}
+	}
+	pg.base.island_task[50003010] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "夏の特産依頼（2/4）",
+		type = 5,
+		task_desc = "指揮官が提供してくれる夏の特産品を離島建設に活用します！引き続き堅実に開発を進めましょう！",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "ピアリのところへ行こう(0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "【夏の特産経営】",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "限定依頼",
+		id = 50003010,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					16,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50003009
+		},
+		target_id = {
+			50003010
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				3
+			},
+			{
+				41,
+				100201,
+				1
+			}
+		}
+	}
+	pg.base.island_task[50003011] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "夏の特産依頼（3/4）",
+		type = 5,
+		task_desc = "指揮官が提供してくれる夏の特産品を離島建設に活用します！引き続き堅実に開発を進めましょう！",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "ピアリのところへ行こう(0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "【夏の特産経営】",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "限定依頼",
+		id = 50003011,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					16,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50003010
+		},
+		target_id = {
+			50003011
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				3
+			},
+			{
+				41,
+				100201,
+				3
+			}
+		}
+	}
+	pg.base.island_task[50003012] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "夏の特産依頼（4/4）",
+		type = 5,
+		task_desc = "指揮官が提供してくれる夏の特産品を離島建設に活用します！引き続き堅実に開発を進めましょう！",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "ピアリのところへ行こう(0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "【夏の特産経営】",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "限定依頼",
+		id = 50003012,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					7
+				},
+				{
+					16,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50003011
+		},
+		target_id = {
+			50003012
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				2
+			},
+			{
+				45,
+				102,
 				1
 			}
 		}
@@ -9742,6 +11274,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.island_task[80001115] = {
 		trigger_data = 0,
 		trigger_tips = 0,
@@ -10551,8 +12085,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.island_task[80001204] = {
 		trigger_data = 0,
 		trigger_tips = 0,
@@ -11730,6 +13262,1321 @@ end)()
 			}
 		}
 	}
+	pg.base.island_task[80001301] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "主食備蓄",
+		type = 8,
+		task_desc = "安定供給できる主食を提供し、離島開発チームの日々のエネルギー需要を支える。\n米×500を提出",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001301,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013001
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001302] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "栄養タンパク",
+		type = 8,
+		task_desc = "良質な植物性タンパク質を提供し、離島開発エリアの栄養バランスを整える。\n大豆×500を提出",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001302,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013002
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001303] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "原野の支え",
+		type = 8,
+		task_desc = "信頼できる主食を備蓄し、離島開発におけるエネルギー供給基盤を固めよう。\nとうもろこし×500を提出",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001303,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013003
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001304] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "工業のルーツ",
+		type = 8,
+		task_desc = "天然ゴムを納品し、工業設備および部品の正常稼働を支える。\nゴム×250を提出",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001304,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013004
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001305] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "甘い活力",
+		type = 8,
+		task_desc = "甘くてやわらかいバナナを供給し、ドリンク作りや料理の風味向上に貢献しよう。\nバナナ×250を提出",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001305,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013005
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001306] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "繊維補給",
+		type = 8,
+		task_desc = "良質な亜麻を供給し、織物のバラエティを豊かにし、着心地も快適に。\n亜麻×250を提出",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001306,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013006
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001307] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "香り豊かな癒し",
+		type = 8,
+		task_desc = "香りが長く続くラベンダー製品は、天然芳香剤として長期保存できる。\nラベンダー×250を提出",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001307,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013007
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001308] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "タイパ食事",
+		type = 8,
+		task_desc = "手軽な定番料理を提供し、素早くエネルギーを補給してハードワークを支える。\nニンジン厚焼き玉子×250を提出",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001308,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013008
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001309] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "南国ツイン",
+		type = 8,
+		task_desc = "甘酸っぱく濃厚な南国果実ドリンクは、爽やかな活力と楽しい気分をお届け。\nバナナマンゴージュース×100を提出",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001309,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013009
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001310] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "甘さはモチベ",
+		type = 8,
+		task_desc = "甘くおいしいバナナクレープは、効率的な作業への甘いご褒美になる。\nバナナクレープ×100を提出",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001310,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013010
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001311] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "まろやかピンク",
+		type = 8,
+		task_desc = "甘い風味のいちごミルクシェイクは、緊張をほぐし心も体も癒やしてくれる。\nいちごミルクシェイク×100を提出",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001311,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013011
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001312] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "定番な食事",
+		type = 8,
+		task_desc = "おいしいオムライスは、開発チームの体力と栄養を補充してくれる。\nオムライス×50を提出",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001312,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013012
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001313] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "白玉豆腐",
+		type = 8,
+		task_desc = "新鮮な豆腐は、料理メニューの幅を広げつつ、やさしいタンパク源を提供してくれる。\n豆腐×50を提出",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001313,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013013
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001314] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "炭火の嬉しみ",
+		type = 8,
+		task_desc = "炭火串焼きは、夜食時に開発意欲へ火をつける。\n炭火串焼き×50を提出",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001314,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013014
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001315] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "落ち着いたお茶",
+		type = 8,
+		task_desc = "ノンカフェインのラベンダーティーは、ナチュラルなリラックス飲料として活用できる。\nラベンダーティー×25を提出",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001315,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013015
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001316] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "浄水の消耗品",
+		type = 8,
+		task_desc = "高性能な浄水フィルターを供給し、不純物をろ過して清潔な水源を守ろう。\n浄水フィルター×10を提出",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001316,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013016
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001317] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "初めての接収",
+		type = 8,
+		task_desc = "初めての定期補給を受け取ろう。\n定期補給を1回受け取る",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001317,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013017
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001318] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "安心納品",
+		type = 8,
+		task_desc = "3回の定期補給で倉庫がだんだん豊かに。\n定期補給を5回受け取る",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001318,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013018
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100201,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001319] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "定期補充",
+		type = 8,
+		task_desc = "定期補給の受領はもはや日々の習慣だ。\n定期補給を10回受け取る",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001319,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013019
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100201,
+				2
+			}
+		}
+	}
+	pg.base.island_task[80001320] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "高効率納品",
+		type = 8,
+		task_desc = "補給受領が効率的に、スムーズに！\n定期補給を20回受け取る",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001320,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013020
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100101,
+				5
+			}
+		}
+	}
+	pg.base.island_task[80001321] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "在庫は余裕",
+		type = 8,
+		task_desc = "備蓄が豊かで余裕ができている。\n定期補給を30回受け取る",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001321,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013021
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100102,
+				2
+			}
+		}
+	}
+	pg.base.island_task[80001322] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "備蓄は永久的",
+		type = 8,
+		task_desc = "絶えない物資補給が離島の重要な物資リソースとなる。\n定期補給を45回受け取る",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001322,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013022
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100102,
+				3
+			}
+		}
+	}
+	pg.base.island_task[80001323] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "発展の礎",
+		type = 8,
+		task_desc = "日々の積み重ねが離島開発の基盤になっている。\n定期補給を60回受け取る",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001323,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013023
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100103,
+				5
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001324] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "初めての依頼",
+		type = 8,
+		task_desc = "離島依頼を初歩的に理解した。\n離島依頼を10回完了する",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001324,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013024
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001325] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "安心依頼",
+		type = 8,
+		task_desc = "安定して依頼をこなし続けている。\n離島依頼を30回完了する",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001325,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013025
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100201,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001326] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "堅実なサポート",
+		type = 8,
+		task_desc = "離島開発にとって不可欠な戦力になっている。\n離島依頼を50回完了する",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001326,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013026
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100201,
+				2
+			}
+		}
+	}
+	pg.base.island_task[80001327] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "依頼のプロ",
+		type = 8,
+		task_desc = "仲間たちのニーズを把握し、正確に応えている。\n離島依頼を100回完了する",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001327,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013027
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100101,
+				5
+			}
+		}
+	}
+	pg.base.island_task[80001328] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "発展の柱",
+		type = 8,
+		task_desc = "継続的な支援が開発の原動力に。\n離島依頼を150回完了する",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001328,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013028
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100102,
+				5
+			}
+		}
+	}
+	pg.base.island_task[80001329] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "発展の中心",
+		type = 8,
+		task_desc = "皆にとって一番大事で、一番信頼できる存在に。\n離島依頼を200回完了する",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001329,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013029
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100103,
+				5
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001330] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "繁栄の礎",
+		type = 8,
+		task_desc = "開発の責任を支え、繁栄の未来を築く。\n離島依頼を300回完了する",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001330,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013030
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100103,
+				5
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
 	pg.base.island_task[20001001] = {
 		trigger_data = 10040002,
 		trigger_tips = 1,
@@ -12726,6 +15573,8 @@ end)()
 		},
 		reward_show = {}
 	}
+end)()
+(function ()
 	pg.base.island_task[20005002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
@@ -14699,8 +17548,6 @@ end)()
 		},
 		reward_show = {}
 	}
-end)()
-(function ()
 	pg.base.island_task[20012002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
@@ -16825,6 +19672,8 @@ end)()
 		},
 		reward_show = {}
 	}
+end)()
+(function ()
 	pg.base.island_task[30502002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
@@ -18081,6 +20930,55 @@ end)()
 		link_task = {},
 		target_id = {
 			401100011
+		},
+		reward_show = {
+			{
+				41,
+				100001,
+				20
+			}
+		}
+	}
+	pg.base.island_task[40111001] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "饅頭いけすで水産養殖",
+		type = 4,
+		task_desc = "開発エリアの豊富な水産資源を放っておくのは勿体ない！水の中のものも開発に活用しよう！",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 500,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "離島での日々",
+		id = 40111001,
+		unlock_condition = {
+			{
+				3,
+				2017
+			},
+			{
+				2,
+				10001160
+			},
+			{
+				3,
+				30001
+			}
+		},
+		link_task = {},
+		target_id = {
+			401110011
 		},
 		reward_show = {
 			{

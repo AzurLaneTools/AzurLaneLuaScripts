@@ -101,6 +101,7 @@ slot0.EffectEventMapClearFlag = 45
 slot0.EffectEventBrokenClean = 48
 slot0.EffectEventCatSalvage = 49
 slot0.EffectEventAddWorldBossFreeCount = 50
+slot0.EffectSideText = 52
 slot0.EffectEventFOV = 1001
 slot0.EffectEventCameraMove = 1002
 slot0.EffectEventShakePlane = 1003
@@ -132,37 +133,42 @@ slot0.SpEventConsumeItem = 4
 slot0.DebugPrint = function(slot0)
 	if slot0.type == uv0.TypeEvent then
 		slot1 = {}
+		slot2 = pg.world_event_data[slot0.id].effect
 		slot3 = ""
+		slot4 = {}
+		slot5 = 1
+		slot6 = 1
 
-		if #slot0.effects > #pg.world_event_data[slot0.id].effect then
-			slot3 = setColorStr("effect error !!!: " .. table.concat(slot0.effects, ", "), COLOR_RED)
-		else
-			slot4 = {}
+		while slot6 <= #slot2 do
+			if slot0.effects[#slot0.effects - slot5 + 1] == slot2[#slot2 - slot6 + 1] then
+				table.insert(slot4, 1, slot7)
 
-			for slot8 = #slot2, 1, -1 do
-				slot10 = slot2[slot8]
+				slot6 = slot6 + 1
+				slot5 = slot5 + 1
+			elseif not slot7 then
+				table.insert(slot4, 1, setColorStr(slot8, COLOR_GREEN))
 
-				if not slot0.effects[#slot0.effects - #slot2 + slot8] then
-					table.insert(slot4, 1, setColorStr(slot10, COLOR_GREEN))
-				elseif slot9 ~= slot10 then
-					if pg.world_effect_data[slot10].effect_type == 27 or slot11 == 35 or slot11 == 36 then
-						table.insert(slot4, 1, setColorStr(slot9, COLOR_BLUE))
-					else
-						table.insert(slot4, 1, setColorStr(slot9, COLOR_RED))
-					end
-				else
-					table.insert(slot4, 1, slot9)
-				end
+				slot6 = slot6 + 1
+			elseif pg.world_effect_data[slot8].effect_type == 27 or slot9 == 35 or slot9 == 36 or slot9 == 53 then
+				table.insert(slot4, 1, setColorStr(slot7, COLOR_BLUE))
+
+				slot5 = slot5 + 1
+			else
+				table.insert(slot4, 1, setColorStr(slot7, COLOR_RED))
+
+				slot6 = slot6 + 1
+				slot5 = slot5 + 1
 			end
-
-			slot3 = slot3 .. table.concat(slot4, ", ")
 		end
 
-		for slot7, slot8 in ipairs(slot0.config.event_op) do
-			if slot7 <= #slot0.config.event_op - slot0.dataop then
-				table.insert(slot1, setColorStr(slot8, COLOR_GREEN))
+		slot10 = ", "
+		slot3 = slot3 .. table.concat(slot4, slot10)
+
+		for slot10, slot11 in ipairs(slot0.config.event_op) do
+			if slot10 <= #slot0.config.event_op - slot0.dataop then
+				table.insert(slot1, setColorStr(slot11, COLOR_GREEN))
 			else
-				table.insert(slot1, slot8)
+				table.insert(slot1, slot11)
 			end
 		end
 

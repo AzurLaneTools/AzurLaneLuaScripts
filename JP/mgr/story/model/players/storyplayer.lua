@@ -97,7 +97,7 @@ slot0.GetOptionContainer = function(slot0, slot1)
 		return slot0.optionLUIlist, true
 	end
 
-	if slot2 <= 3 then
+	if slot2 <= 3 or slot1:IsOptionForceCenter() then
 		setActive(slot0.optionLUIlist.container, false)
 		setActive(slot0.optionCUIlist.container, true)
 
@@ -734,14 +734,14 @@ slot0.InitBranches = function(slot0, slot1, slot2, slot3, slot4)
 
 						uv1.blocksRaycasts = true
 
-						uv2(uv3)
+						uv0:HideBranchesWithoutSelected(uv2)
+						uv3(uv4)
 					end)
 				else
 					setActive(uv0.optionsCg.gameObject, false)
+					uv0:HideBranchesWithoutSelected(uv4)
 					uv9(uv10)
 				end
-
-				uv0:HideBranchesWithoutSelected(uv4)
 			end, SFX_PANEL)
 			setButtonEnabled(slot3, not slot8)
 

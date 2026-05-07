@@ -24,6 +24,115 @@ slot0.getUIName = function(slot0)
 	return "NewMainUI"
 end
 
+slot0.getResource = function(slot0)
+	return ResPathSupport.MergeLuaArr({
+		"ui/newmainui",
+		"commonbg/bg_main_night",
+		"commonbg/bg_main_twilight",
+		"commonbg/bg_main_day",
+		"ui/mainbgview",
+		"ui/lihui_qiehuan01",
+		"ui/lihui_qiehuan02",
+		"spinematerials",
+		"effect/jiehuntexiao",
+		"ui/mainuibuffdescwindow",
+		"ui/maincalibrationui",
+		"clutter/mainui_calibration",
+		"clutter/mainui_calibration_mellow",
+		"ui/mainsilentviewui",
+		"ui/mainui_atlas",
+		"ui/exskinlistui",
+		"ui/mainliveareaoldui",
+		"ui/mainliveareaui",
+		"ui/livingareacoverui",
+		"ui/newmainclassictheme",
+		"clutter/mainui_calibration",
+		"ui/mainui_atlas",
+		"ui/newmainmellowtheme",
+		"clutter/mainui_calibration_mellow",
+		"ui/respanel",
+		"ui/goldexchangewindow"
+	}, (function ()
+		slot1, slot2 = MainBGView.GetBgAndBgm()
+
+		return ResPathSupport.MergeLuaArr({}, ResPathSupport.GetSoundResList(slot2), ResPathSupport.GetSoundResList(uv0.super.getBGM(uv1)))
+	end)(), (function ()
+		slot1, slot2 = MainBGView.GetBgAndBgm()
+
+		return ResPathSupport.MergeLuaArr({}, {
+			ResPathSupport.CombinePath(ResPathSupport.ConstPath.BG.CommonBG, slot1)
+		})
+	end)(), (function ()
+		slot1 = getProxy(LivingAreaCoverProxy)
+		slot4 = ResPathSupport.ConstPath.UI.LivingAreaCover
+
+		_.each(slot1:GetUnlockList(), function (slot0)
+			table.insert(uv0, ResPathSupport.CombinePath(uv1, slot0:GetIcon()))
+		end)
+		_.each(slot1:GetLockList(), function (slot0)
+			table.insert(uv0, ResPathSupport.CombinePath(uv1, slot0:GetIcon()))
+		end)
+
+		return {}
+	end)(), (function ()
+		slot1 = getProxy(ActivityProxy)
+
+		_.each(slot1:getBannerDisplays(), function (slot0)
+			table.insert(uv1, ResPathSupport.CombinePath(uv0.ConstPath.UI.ActivityBanner, slot0.pic))
+		end)
+
+		return {}
+	end)(), (function ()
+		_.each(MainActivityBtnView.GetActivityBtnList(), function (slot0)
+			slot1 = slot0.New()
+			slot2 = slot1:ResPath()
+
+			if slot1:GetLinkConfig() then
+				if slot3.pic and #slot4 > 0 then
+					table.insert(uv0, string.lower(ResPathSupport.CombinePath(slot2, slot4)))
+				end
+
+				if slot3.text_pic and #slot4 > 0 then
+					table.insert(uv0, string.lower(ResPathSupport.CombinePath(slot2, slot4)))
+				end
+			end
+
+			slot4 = ResPathSupport.ConstPath.UI.LinkButton
+
+			if slot1:GetTipImage() and #slot5 > 0 then
+				table.insert(uv0, string.lower(ResPathSupport.CombinePath(slot4, slot5)))
+			end
+		end)
+		_.each(MainActivityBtnView.GetSpecailBtns(), function (slot0)
+			slot2 = ResPathSupport.ConstPath.UI.Base
+
+			if slot0.New():GetUIName() and #slot3 > 0 then
+				slot4 = string.lower(ResPathSupport.CombinePath(slot2, slot3))
+
+				table.insert(uv0, slot4)
+				table.insert(uv0, slot4 .. "4mellow")
+			end
+		end)
+
+		return {}
+	end)(), (function ()
+		_.each(MainBuffView.CollectBuffs(), function (slot0)
+			table.insert(uv0, string.lower(slot0:getConfig("icon")))
+		end)
+
+		return {}
+	end)(), (function ()
+		slot0 = {}
+		slot1 = getProxy(PlayerProxy):getData()
+
+		for slot6 = 1, PlayerVitaeShipsPage.GetAllUnlockSlotCnt() do
+			table.insert(slot0, ResPathSupport.GetShipAllRes(slot1:GetFlagShip()))
+		end
+
+		return _.flatten(slot0)
+	end)())
+end
+
 slot0.needCache = function(slot0)
 	return true
 end

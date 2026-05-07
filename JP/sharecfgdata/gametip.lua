@@ -12887,7 +12887,7 @@ _G.pg.base.gametip.buildship_heavy_tip = {
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「Z16」常設実装！"
+	tip = "「マルセイエーズ」常設実装！"
 }
 
 
@@ -26833,7 +26833,7 @@ _G.pg.base.gametip.blackfriday_help = {
 
 
 _G.pg.base.gametip.eventshop_time_hint = {
-	tip = "$1 23:59まで交換可能"
+	tip = "$1 メンテまで交換可能"
 }
 
 
@@ -44623,6 +44623,56 @@ _G.pg.base.gametip.island_spoperation_item_2602_3 = {
 
 _G.pg.base.gametip.island_spoperation_item_2602_4 = {
 	tip = "ヒヤシンス"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2605_1 = {
+	tip = "イベント期間中、ピアリの特産品依頼が出現します。特産品依頼をこなすとシーズンPTなどの報酬を入手可能。\n*特産品依頼は依頼完成上限に影響せず、評価レベルを上昇させられません"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2605_2 = {
+	tip = "イベント期間中、特定の区域内に毎日イベント採集アイテムが出現します。早く探しに行きましょう！"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2605_3 = {
+	tip = "イベント期間内、【青々苗場】【有魚飯店】【白クマ茶房】【基地工場】で対応の特産品を生産可能"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2605_1 = {
+	tip = "特産品採集"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2605_2 = {
+	tip = "特産品制作"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2605_3 = {
+	tip = "イベント管理者"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2605_1 = {
+	tip = "ジャスミン"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2605_2 = {
+	tip = "ヒマワリ"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2605_3 = {
+	tip = "スイカ"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2605_4 = {
+	tip = "ヒユナ"
 }
 
 

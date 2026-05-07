@@ -40,6 +40,7 @@ pg.island_technology_template.all = {
 	110310,
 	120006,
 	120007,
+	120008,
 	210101,
 	220101,
 	220501,
@@ -242,7 +243,8 @@ pg.island_technology_template.get_id_list_by_tech_belong = {
 		120005,
 		110310,
 		120006,
-		120007
+		120007,
+		120008
 	},
 	{
 		210101,
@@ -1594,6 +1596,40 @@ pg.base.island_technology_template = {}
 		axis = {
 			28,
 			2
+		}
+	}
+	pg.base.island_technology_template[120008] = {
+		complete_title = "<color=#1E8FFE>離島権限認証装置</color>で仲間を加入させることができます",
+		tech_level = "1",
+		tech_chara = 1,
+		complete_character_id = "",
+		auto_finish = 1,
+		complete_tips = "<color=#1E8FFE>離島権限認証装置</color>で仲間を加入させることができます",
+		island_level = 50,
+		tech_desc = "高雄の離島権限認証装置を生産する。もっと仲間を招待しよう！",
+		tech_icon = "tech_120001",
+		tech_belong = 1,
+		tech_name = "認証追加",
+		formula_id = 7120008,
+		id = 120008,
+		complete_map_id = 1007,
+		sys_unlock = {
+			{
+				3,
+				110310
+			},
+			{
+				3,
+				120007
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		axis = {
+			28,
+			3
 		}
 	}
 	pg.base.island_technology_template[210101] = {
@@ -3572,6 +3608,8 @@ pg.base.island_technology_template = {}
 			6
 		}
 	}
+end)()
+(function ()
 	pg.base.island_technology_template[440302] = {
 		complete_title = "<color=#1E8FFE>朝露農場のアメリゴ</color>でのメェメーヒツジの最大飼養数が増えました",
 		tech_level = "1",
@@ -3604,8 +3642,6 @@ pg.base.island_technology_template = {}
 			6
 		}
 	}
-end)()
-(function ()
 	pg.base.island_technology_template[420303] = {
 		complete_title = "<color=#1E8FFE>朝露農場のアメリゴ</color>でのブーブーブタの最大飼養数が増えました",
 		tech_level = "2",
@@ -6859,6 +6895,8 @@ end)()
 			9
 		}
 	}
+end)()
+(function ()
 	pg.base.island_technology_template[650203] = {
 		complete_title = "<color=#1E8FFE>港の基地工場でラッセル</color>のところの<color=#1E8FFE>電子部品加工</color>で製作可能",
 		tech_level = "1",

@@ -19,7 +19,7 @@ slot0.Init = function(slot0, slot1)
 
 	setActive(slot0.live2dContainer, true)
 
-	slot0.live2dChar = Live2D.New(Live2D.GenerateData({
+	slot0.live2dChar = Live2DPainting.New(Live2DPainting.GenerateData({
 		ship = slot2,
 		position = Vector3(0, 0, -100),
 		parent = slot0.live2dContainer,
@@ -50,7 +50,7 @@ end
 slot0.OnClick = function(slot0)
 	slot1 = nil
 
-	if slot0.live2dChar and slot0.live2dChar.state == Live2D.STATE_INITED then
+	if slot0.live2dChar and slot0.live2dChar.state == Live2DPainting.STATE_INITED then
 		if not Input.mousePosition then
 			return
 		end

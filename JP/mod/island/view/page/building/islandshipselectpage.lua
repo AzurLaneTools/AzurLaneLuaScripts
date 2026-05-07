@@ -84,6 +84,22 @@ slot0.OnLoaded = function(slot0)
 	setText(slot0.recoveryTimeTips, i18n("island_ship_energy_recoverytips"))
 end
 
+slot0.AddListeners = function(slot0)
+	slot0:AddListener(GAME.ISLAND_FOLLOWER_OP_DONE, slot0.OnFollowerOp)
+end
+
+slot0.RemoveListeners = function(slot0)
+	slot0:RemoveListener(GAME.ISLAND_FOLLOWER_OP_DONE, slot0.OnFollowerOp)
+end
+
+slot0.OnFollowerOp = function(slot0, slot1)
+	for slot5, slot6 in pairs(slot0.cards) do
+		if slot6.id == slot1 then
+			slot6:UpdateFollowMask()
+		end
+	end
+end
+
 slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:Hide()
@@ -113,14 +129,18 @@ slot0.OnInit = function(slot0)
 				type = IslandMsgBox.TYPE_COMMON,
 				content = i18n("island_cancel_follow_tip"),
 				onYes = function ()
-					for slot3, slot4 in ipairs(uv0) do
-						uv1:emitCore(ISLAND_EVT.WILL_DEL_FOLLOWER, slot4)
+					slot0 = {}
+
+					for slot4, slot5 in ipairs(uv0) do
+						table.insert(slot0, function (slot0)
+							uv0:emit(IslandMediator.DEL_FOLLOWER, uv1, slot0)
+						end)
 					end
 
-					uv1:Hide()
-					existCall(uv1.confirmFunc, uv1.selectedIds)
-				end,
-				onNo = function ()
+					seriesAsync(slot0, function ()
+						uv0:Hide()
+						existCall(uv0.confirmFunc, uv0.selectedIds)
+					end)
 				end
 			})
 
@@ -311,35 +331,50 @@ slot0.OnUpdateShip = function(slot0, slot1, slot2)
 	slot5 = slot0.characterAgency:GetShipById(slot4)
 
 	onButton(slot0, slot3.go, function ()
-		if not uv0:IsDelegable() or uv1:CheckHasSelected(uv2) then
+		if uv0:CheckHasSelected(uv1) then
 			return
 		end
 
-		if uv1.showId == uv3.id then
-			uv1.showId = nil
-		else
-			uv1.showId = uv3.id
+		if getProxy(IslandProxy):GetIsland():GetFollowerAgency():Following(uv1) then
+			uv0:ShowMsgBox({
+				content = i18n("island_cancel_follow_tip"),
+				onYes = function ()
+					uv0:emit(IslandMediator.DEL_FOLLOWER, uv1)
+				end
+			})
+
+			return
 		end
 
-		if table.contains(uv1.selectedIds, uv3.id) then
-			table.removebyvalue(uv1.selectedIds, uv3.id)
-		elseif uv1.selectNum == 1 then
-			uv1.selectedIds = {
+		if not uv2:IsDelegable() then
+			return
+		end
+
+		if uv0.showId == uv3.id then
+			uv0.showId = nil
+		else
+			uv0.showId = uv3.id
+		end
+
+		if table.contains(uv0.selectedIds, uv3.id) then
+			table.removebyvalue(uv0.selectedIds, uv3.id)
+		elseif uv0.selectNum == 1 then
+			uv0.selectedIds = {
 				uv3.id
 			}
 		else
-			if uv1.selectNum <= #uv1.selectedIds then
+			if uv0.selectNum <= #uv0.selectedIds then
 				return
 			end
 
-			table.insert(uv1.selectedIds, uv3.id)
+			table.insert(uv0.selectedIds, uv3.id)
 		end
 
-		for slot3, slot4 in pairs(uv1.cards) do
-			slot4:UpdateSelected(uv1.selectedIds)
+		for slot3, slot4 in pairs(uv0.cards) do
+			slot4:UpdateSelected(uv0.selectedIds)
 		end
 
-		uv1:FlushInfo()
+		uv0:FlushInfo()
 	end, SFX_PANEL)
 	slot3:Update(slot4, slot0.attrType, slot0.placeId, slot0.selectedIds, slot0.autoCollectionSelectShip)
 end

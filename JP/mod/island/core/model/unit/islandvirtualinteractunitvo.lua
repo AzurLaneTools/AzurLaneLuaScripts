@@ -18,4 +18,12 @@ slot0.GetAssetPath = function(slot0)
 	return nil
 end
 
+slot0.GetPlayerParentPath = function(slot0, slot1)
+	if slot0.config.player_parent_path == "" or slot1 > #slot0.config.player_parent_path then
+		return nil
+	end
+
+	return slot0.config.player_parent_path[slot1]
+end
+
 return slot0

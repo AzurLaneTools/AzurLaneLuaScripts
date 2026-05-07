@@ -3977,6 +3977,8 @@ pg.skill_data_display.all = {
 	1019261,
 	1019262,
 	1019263,
+	1014170,
+	1014171,
 	1090020,
 	1090042,
 	1090043,
@@ -4057,7 +4059,8 @@ pg.skill_data_display.all = {
 	1090442,
 	1090451,
 	1090452,
-	1090453
+	1090453,
+	1090462
 }
 pg.base = pg.base or {}
 pg.base.skill_data_display = {}
@@ -20033,6 +20036,14 @@ end)()
 		id = 1019263,
 		name = "精密射撃プロトコル +"
 	}
+	pg.base.skill_data_display[1014170] = {
+		id = 1014170,
+		name = "キーロフ、レポーティング！ +"
+	}
+	pg.base.skill_data_display[1014171] = {
+		id = 1014171,
+		name = "キーロフ、レポーティング！ +"
+	}
 	pg.base.skill_data_display[1090020] = {
 		id = 1090020,
 		name = "火力全開・カールスルーエ"
@@ -20133,6 +20144,8 @@ end)()
 		id = 1090221,
 		name = "装填指揮・ケーニヒスベルク"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1090230] = {
 		id = 1090230,
 		name = "徹甲弾専門·Z18"
@@ -20141,8 +20154,6 @@ end)()
 		id = 1090231,
 		name = "徹甲弾専門·Z18"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1090240] = {
 		id = 1090240,
 		name = "水雷戦隊·川内"
@@ -20358,5 +20369,9 @@ end)()
 	pg.base.skill_data_display[1090453] = {
 		id = 1090453,
 		name = "目標指示・魚雷-マッチレス"
+	}
+	pg.base.skill_data_display[1090462] = {
+		id = 1090462,
+		name = "砲術指揮・グレンヴィル"
 	}
 end)()

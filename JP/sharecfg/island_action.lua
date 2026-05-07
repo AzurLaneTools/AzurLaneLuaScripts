@@ -21,11 +21,18 @@ pg.island_action.all = {
 	1016,
 	1017,
 	1018,
+	1019,
+	1020,
+	1021,
+	1022,
+	1023,
+	1024,
 	2000,
 	2001,
 	2002,
 	2003,
-	2004
+	2004,
+	2005
 }
 pg.island_action.get_id_list_by_type = {
 	{
@@ -46,14 +53,21 @@ pg.island_action.get_id_list_by_type = {
 		1015,
 		1016,
 		1017,
-		1018
+		1018,
+		1019,
+		1020,
+		1021,
+		1022,
+		1023,
+		1024
 	},
 	{
 		2000,
 		2001,
 		2002,
 		2003,
-		2004
+		2004,
+		2005
 	}
 }
 pg.base = pg.base or {}
@@ -419,6 +433,138 @@ pg.base.island_action = {}
 			}
 		}
 	}
+	pg.base.island_action[1019] = {
+		name = "断る",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "refuse",
+		desc = "インタラクション「断る」",
+		tech_id = 0,
+		id = 1019,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			204,
+			207
+		},
+		jump_page = {
+			{
+				"开发季III-开发商店",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1020] = {
+		name = "あくび",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "yawn",
+		desc = "インタラクション「あくび」",
+		tech_id = 0,
+		id = 1020,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			108,
+			207
+		},
+		jump_page = {
+			{
+				"开发季III-开发商店",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1021] = {
+		name = "汗を拭く",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "wipingsweat",
+		desc = "インタラクション「汗を拭く」",
+		tech_id = 0,
+		id = 1021,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			204
+		},
+		jump_page = {
+			{
+				"开发季III-开发商店",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1022] = {
+		name = "頭をかく",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "scratchinghead",
+		desc = "インタラクション「頭をかく」",
+		tech_id = 0,
+		id = 1022,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			105,
+			106
+		},
+		jump_page = {
+			{
+				"开发季III-开发商店",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1023] = {
+		name = "シュート",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "shootingbasketball",
+		desc = "インタラクション「シュート」",
+		tech_id = 0,
+		id = 1023,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			102,
+			106
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1024] = {
+		name = "投げキス",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "blowkisses",
+		desc = "インタラクション「投げキス」",
+		tech_id = 0,
+		id = 1024,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			102,
+			104,
+			105
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
 	pg.base.island_action[2000] = {
 		chara_sigle_action_reply = "",
 		name = "ハイタッチ",
@@ -525,6 +671,29 @@ pg.base.island_action = {}
 		jump_page = {
 			{
 				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[2005] = {
+		chara_sigle_action_reply = "",
+		name = "カーテンコール",
+		type = 2,
+		feedback_type = 0,
+		sigle_action_reply_type = 0,
+		resource = "curtaincall",
+		desc = "インタラクション「カーテンコール」",
+		tech_id = 0,
+		id = 2005,
+		responder_feedback = "curtaincall_end_sp",
+		respond_point = {
+			0,
+			0,
+			2
+		},
+		jump_page = {
+			{
+				"星彩奖",
 				{}
 			}
 		}

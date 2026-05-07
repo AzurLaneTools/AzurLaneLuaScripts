@@ -25,6 +25,11 @@ pg.island_animation_attachments.all = {
 	40008,
 	40009,
 	40010,
+	40011,
+	40012,
+	40013,
+	40014,
+	40015,
 	100011,
 	100012,
 	100013,
@@ -32,7 +37,10 @@ pg.island_animation_attachments.all = {
 	100042,
 	100051,
 	100052,
-	200000
+	200000,
+	200001,
+	200002,
+	300001
 }
 pg.base = pg.base or {}
 pg.base.island_animation_attachments = {}
@@ -192,6 +200,41 @@ pg.base.island_animation_attachments = {}
 		animator = "island/animator/ani_item_4_40010",
 		unlock = 0
 	}
+	pg.base.island_animation_attachments[40011] = {
+		id = 40011,
+		model = "island/item/04/40011/prefab/pre_item_04_40011",
+		attack = 0,
+		animator = "island/animator/ani_item_4_40011",
+		unlock = 0
+	}
+	pg.base.island_animation_attachments[40012] = {
+		id = 40012,
+		model = "island/item/04/40012/prefab/pre_item_04_40012",
+		attack = 0,
+		animator = "island/animator/ani_item_4_40012",
+		unlock = 0
+	}
+	pg.base.island_animation_attachments[40013] = {
+		id = 40013,
+		model = "island/item/04/40013/prefab/fbx_item_04_40013",
+		attack = 0,
+		animator = "island/animator/ani_item_4_40013",
+		unlock = 0
+	}
+	pg.base.island_animation_attachments[40014] = {
+		id = 40014,
+		model = "island/item/04/40014/prefab/pre_item_04_40014",
+		attack = 0,
+		animator = "island/animator/ani_item_4_40014",
+		unlock = 0
+	}
+	pg.base.island_animation_attachments[40015] = {
+		id = 40015,
+		model = "island/item/04/40015/prefab/pre_item_04_40015",
+		attack = 0,
+		animator = "island/animator/ani_item_4_40015",
+		unlock = 0
+	}
 	pg.base.island_animation_attachments[100011] = {
 		id = 100011,
 		model = "island/item/01/10001/prefab/pre_item_01_10001",
@@ -244,6 +287,27 @@ pg.base.island_animation_attachments = {}
 	pg.base.island_animation_attachments[200000] = {
 		id = 200000,
 		model = "island/effect/prefab/timeline/juqing/vfx_chuchang01",
+		attack = 0,
+		animator = "",
+		unlock = 0
+	}
+	pg.base.island_animation_attachments[200001] = {
+		id = 200001,
+		model = "island/effect/prefab/jiaohu/vfx_hanshui",
+		attack = 0,
+		animator = "",
+		unlock = 0
+	}
+	pg.base.island_animation_attachments[200002] = {
+		id = 200002,
+		model = "island/effect/prefab/jiaohu/vfx_quanquan01",
+		attack = 0,
+		animator = "",
+		unlock = 0
+	}
+	pg.base.island_animation_attachments[300001] = {
+		id = 300001,
+		model = "island/effect/prefab/jiaohu/vfx_char_30311_01",
 		attack = 0,
 		animator = "",
 		unlock = 0

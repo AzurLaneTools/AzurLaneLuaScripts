@@ -26,7 +26,11 @@ pg.island_item_timeline.all = {
 	21,
 	22,
 	23,
-	24
+	24,
+	25,
+	26,
+	27,
+	28
 }
 pg.base = pg.base or {}
 pg.base.island_item_timeline = {}
@@ -300,6 +304,74 @@ pg.base.island_item_timeline = {}
 		binding_path = {
 			"fbx_item_05_50257",
 			"vfx_item_05_50257_c"
+		},
+		binding_track = {
+			1,
+			2
+		}
+	}
+	pg.base.island_item_timeline[25] = {
+		is_loop = 1,
+		name = "island/timeline/04/interactive_50153/pla_interactive_50153_01",
+		model = "Assets/Island/Item/05/50153/Prefab/pre_item_05_50153.prefab",
+		id = 25,
+		binding_path = {
+			"hudong_pre/pre_item_05_50153",
+			"hudong_pre/pre_item_05_50153/all/50153_Bone001/50153_Bone002/1",
+			"hudong_pre/pre_item_05_50153/all/50153_Bone001/50153_Bone002/2",
+			"hudong_pre/pre_item_05_50153/all/50153_Bone001/50153_Bone002/3",
+			"hudong_pre/pre_item_05_50153/all/50153_Bone001/50153_Bone002/4"
+		},
+		binding_track = {
+			1,
+			2,
+			3,
+			4,
+			5
+		}
+	}
+	pg.base.island_item_timeline[26] = {
+		is_loop = 1,
+		name = "island/timeline/04/interactive_50159/pla_interactive_50159_01",
+		model = "Assets/Island/Item/05/50159/Prefab/pre_item_05_50159.prefab",
+		id = 26,
+		binding_path = {
+			"pos/item_05_50159/all/bone_50159_000/bone_50159_001/bone_50159_002/1",
+			"pos/item_05_50159/all/bone_50159_000/bone_50159_001/bone_50159_003/2",
+			"pos/item_05_50159/all/bone_50159_000/bone_50159_001/bone_50159_004/3",
+			"pos/item_05_50159/all/bone_50159_000/bone_50159_001/bone_50159_005/4"
+		},
+		binding_track = {
+			1,
+			2,
+			3,
+			4
+		}
+	}
+	pg.base.island_item_timeline[27] = {
+		is_loop = 1,
+		name = "island/timeline/04/interactive_50152/pla_interactive_50152_01",
+		model = "Assets/Island/Item/05/50152/Prefab/pre_item_05_50152.prefab",
+		id = 27,
+		binding_path = {
+			"all/Bone003/Bone001/Bone002/1",
+			"all/Bone003/Bone001/Bone007/2",
+			"all/Bone003/Bone001/Bone006/3"
+		},
+		binding_track = {
+			1,
+			2,
+			3
+		}
+	}
+	pg.base.island_item_timeline[28] = {
+		is_loop = 1,
+		name = "island/timeline/04/interactive_50170/pla_interactive_50170_01",
+		model = "Assets/Island/Item/05/50170/Prefab/pre_item_05_50170.prefab",
+		id = 28,
+		binding_path = {
+			"fbx_item_05_50170",
+			"fbx_item_05_50170/all/Bone001/Bone003/1"
 		},
 		binding_track = {
 			1,

@@ -4078,6 +4078,13 @@ pg.memory_template.all = {
 	5105,
 	5106,
 	5107,
+	5111,
+	5112,
+	5113,
+	5114,
+	5115,
+	5116,
+	5117,
 	10000,
 	10001,
 	10002,
@@ -65574,6 +65581,111 @@ end)()
 			"SHANYAOHAIBINRICHANG7"
 		}
 	}
+	pg.base.memory_template[5111] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "ヘクセの契約宣言",
+		condition = "「紅月の輝きは永夜の契り1」開始",
+		story = "MEIKELUNBAO1",
+		id = 5111,
+		icon = "memory_meikelunbao",
+		is_open = 0,
+		unlock_pre = {
+			"MEIKELUNBAO1"
+		}
+	}
+	pg.base.memory_template[5112] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "闇の森の唸り声",
+		condition = "「紅月の輝きは永夜の契り2」開始",
+		story = "MEIKELUNBAO2",
+		id = 5112,
+		icon = "memory_meikelunbao",
+		is_open = 0,
+		unlock_pre = {
+			"MEIKELUNBAO2"
+		}
+	}
+	pg.base.memory_template[5113] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "行き交う星々のホール",
+		condition = "「紅月の輝きは永夜の契り3」開始",
+		story = "MEIKELUNBAO3",
+		id = 5113,
+		icon = "memory_meikelunbao",
+		is_open = 0,
+		unlock_pre = {
+			"MEIKELUNBAO3"
+		}
+	}
+	pg.base.memory_template[5114] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "魂の薬を共に飲み干そう",
+		condition = "「紅月の輝きは永夜の契り4」開始",
+		story = "MEIKELUNBAO4",
+		id = 5114,
+		icon = "memory_meikelunbao",
+		is_open = 0,
+		unlock_pre = {
+			"MEIKELUNBAO4"
+		}
+	}
+	pg.base.memory_template[5115] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "絆の枷をかけよう",
+		condition = "「紅月の輝きは永夜の契り5」開始",
+		story = "MEIKELUNBAO5",
+		id = 5115,
+		icon = "memory_meikelunbao",
+		is_open = 0,
+		unlock_pre = {
+			"MEIKELUNBAO5"
+		}
+	}
+	pg.base.memory_template[5116] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "紅月の空を翔けよ",
+		condition = "「紅月の輝きは永夜の契り6」開始",
+		story = "MEIKELUNBAO6",
+		id = 5116,
+		icon = "memory_meikelunbao",
+		is_open = 0,
+		unlock_pre = {
+			"MEIKELUNBAO6"
+		}
+	}
+	pg.base.memory_template[5117] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "永夜の比翼",
+		condition = "「紅月の輝きは永夜の契り7」開始",
+		story = "MEIKELUNBAO7",
+		id = 5117,
+		icon = "memory_meikelunbao",
+		is_open = 0,
+		unlock_pre = {
+			"MEIKELUNBAO7"
+		}
+	}
 	pg.base.memory_template[10000] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -65859,6 +65971,8 @@ end)()
 			"1060000"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[10019] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -65964,8 +66078,6 @@ end)()
 			"NICONICO4"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[10026] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -67361,6 +67473,8 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA38"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20038] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -67466,8 +67580,6 @@ end)()
 			"LINGHANGYUANHAOGANDU1"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20045] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -68863,6 +68975,8 @@ end)()
 			"LINGYANGZHELAIFANGJISHI1"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20139] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -68968,8 +69082,6 @@ end)()
 			"LINGYANGZHELAIFANGJISHI8"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20146] = {
 		mask = "bg/bg_memory",
 		subtitle = "",

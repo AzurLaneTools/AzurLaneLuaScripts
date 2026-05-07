@@ -8,11 +8,13 @@ slot0.Fields = {
 	rtTime = "userdata",
 	cmdSkills = "table",
 	rtFleetBuffs = "userdata",
-	rtCmdSkills = "userdata",
-	rtMapName = "userdata",
+	flashTimer = "table",
 	entrance = "table",
-	rtPoisonRate = "userdata",
+	rtCmdSkills = "userdata",
 	fleet = "table",
+	rtPoisonRate = "userdata",
+	rtMapName = "userdata",
+	rtFlashTipWord = "userdata",
 	cmdSkillFunc = "function",
 	fleetBuffItemList = "table",
 	world = "table",
@@ -27,6 +29,7 @@ slot0.Fields = {
 slot0.Listeners = {
 	onUpdateFleetBuff = "OnUpdateFleetBuff",
 	onUpdateGlobalBuff = "OnUpdateGlobalBuff",
+	onUpdateFlashTips = "OnUpdateFlashTips",
 	onUpdateCmdSkill = "OnUpdateCmdSkill",
 	onUpdateSelectedFleet = "OnUpdateSelectedFleet"
 }
@@ -41,6 +44,10 @@ slot0.Setup = function(slot0)
 end
 
 slot0.Dispose = function(slot0)
+	if slot0.flashTimer then
+		slot0.flashTimer.func()
+	end
+
 	slot1 = nowWorld()
 
 	slot1:RemoveListener(World.EventUpdateGlobalBuff, slot0.onUpdateGlobalBuff)
@@ -91,7 +98,9 @@ slot0.Init = function(slot0)
 	slot0.rtPoisonRate = slot1:Find("features/status_field/poison_rate")
 	slot0.rtFleetBuffs = slot1:Find("features/fleet_field/fleet_buffs")
 	slot0.rtCmdSkills = slot1:Find("features/fleet_field/cmd_skills")
+	slot0.rtFlashTipWord = slot1:Find("flash_tip_word")
 
+	setActive(slot0.rtFlashTipWord, false)
 	setText(slot0.rtMapName, "")
 	setText(slot0.rtTime, "")
 
@@ -168,6 +177,7 @@ slot0.AddFleetListener = function(slot0, slot1)
 		slot1:AddListener(WorldMapFleet.EventUpdateBuff, slot0.onUpdateFleetBuff)
 		slot1:AddListener(WorldMapFleet.EventUpdateDamageLevel, slot0.onUpdateFleetBuff)
 		slot1:AddListener(WorldMapFleet.EventUpdateCatSalvage, slot0.onUpdateCmdSkill)
+		slot1:AddListener(WorldMapFleet.EventUpdateFlashTips, slot0.onUpdateFlashTips)
 	end
 end
 
@@ -176,6 +186,7 @@ slot0.RemoveFleetListener = function(slot0, slot1)
 		slot1:RemoveListener(WorldMapFleet.EventUpdateBuff, slot0.onUpdateFleetBuff)
 		slot1:RemoveListener(WorldMapFleet.EventUpdateDamageLevel, slot0.onUpdateFleetBuff)
 		slot1:RemoveListener(WorldMapFleet.EventUpdateCatSalvage, slot0.onUpdateCmdSkill)
+		slot1:RemoveListener(WorldMapFleet.EventUpdateFlashTips, slot0.onUpdateFlashTips)
 	end
 end
 
@@ -271,6 +282,47 @@ slot0.OnUpdateCmdSkill = function(slot0)
 
 	slot0.cmdSkillItemList:align(#slot0.cmdSkills)
 	setActive(slot0.rtCmdSkills, #slot0.cmdSkills > 0)
+end
+
+slot0.OnUpdateFlashTips = function(slot0, slot1, slot2, slot3)
+	if slot0.flashTimer then
+		slot0.flashTimer.func()
+	end
+
+	setActive(slot0.rtFlashTipWord, true)
+	quickPlayAnimation(slot0.rtFlashTipWord, "anim_flash_tip_word_in")
+	setText(slot0.rtFlashTipWord:Find("Text"), HXSet.hxLan(slot3))
+
+	slot4 = GetOrAddComponent(slot0.rtFlashTipWord:Find("Text"), typeof(Typewriter))
+	slot0.flashTimer = Timer.New(function ()
+		if uv0.flashTimer then
+			uv0.flashTimer:Stop()
+
+			uv0.flashTimer = nil
+		end
+
+		slot0 = nil
+
+		slot0 = function()
+			uv0 = nil
+
+			setActive(uv1.rtFlashTipWord, false)
+		end
+
+		uv0.rtFlashTipWord:GetComponent(typeof(DftAniEvent)):SetEndEvent(function ()
+			existCall(uv0)
+		end)
+		quickPlayAnimation(uv0.rtFlashTipWord, "anim_flash_tip_word_out")
+	end, getGameset("world_tip_last")[1])
+
+	slot4.endFunc = function()
+		if uv0.flashTimer then
+			uv0.flashTimer:Start()
+		end
+	end
+
+	slot4:setSpeed(getGameset("world_tip_typewriter")[2][1])
+	slot4:Play()
 end
 
 return slot0

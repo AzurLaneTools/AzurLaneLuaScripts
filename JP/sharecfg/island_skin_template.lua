@@ -4,16 +4,22 @@ pg.island_skin_template = rawget(pg, "island_skin_template") or setmetatable({
 }, confNEO)
 pg.island_skin_template.all = {
 	1011001,
+	1011701,
 	1020501,
 	1051701,
 	1070301,
+	2012101,
 	2060301,
 	2990301,
+	3031101,
 	3031201,
 	3040701,
 	3120101,
 	4030301,
 	4990201,
+	4990601,
+	5010701,
+	5020101,
 	5060101,
 	99000201,
 	99000202,
@@ -26,6 +32,9 @@ pg.island_skin_template.get_id_list_by_ship_group = {
 	[10110] = {
 		1011001
 	},
+	[10117] = {
+		1011701
+	},
 	[10205] = {
 		1020501
 	},
@@ -35,11 +44,17 @@ pg.island_skin_template.get_id_list_by_ship_group = {
 	[10703] = {
 		1070301
 	},
+	[20121] = {
+		2012101
+	},
 	[20603] = {
 		2060301
 	},
 	[29903] = {
 		2990301
+	},
+	[30311] = {
+		3031101
 	},
 	[30312] = {
 		3031201
@@ -55,6 +70,15 @@ pg.island_skin_template.get_id_list_by_ship_group = {
 	},
 	[49902] = {
 		4990201
+	},
+	[49906] = {
+		4990601
+	},
+	[50107] = {
+		5010701
+	},
+	[50201] = {
+		5020101
 	},
 	[50601] = {
 		5060101
@@ -87,6 +111,19 @@ pg.base.island_skin_template = {}
 		model = 1011001,
 		id = 1011001,
 		icon = "skin_1011001",
+		icon_normal = ""
+	}
+	pg.base.island_skin_template[1011701] = {
+		ship_group = 10117,
+		name = "ウサウサのお休み",
+		jump_page = "",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "ふかふかパジャマはぬくもりを包み込み、不揃いの靴下で愛嬌をアピール。ウサウサは今にも夢の世界に飛び込むよ",
+		shop_goods_id = 0,
+		model = 1011701,
+		id = 1011701,
+		icon = "skin_1011701",
 		icon_normal = ""
 	}
 	pg.base.island_skin_template[1020501] = {
@@ -128,6 +165,19 @@ pg.base.island_skin_template = {}
 		icon_normal = "props/skin_1070301",
 		jump_page = {}
 	}
+	pg.base.island_skin_template[2012101] = {
+		ship_group = 20121,
+		name = "枕投げ大会",
+		jump_page = "",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "爽やかなノースリーブに可愛らしい紫・白のストライプ。軽やかな身動きで枕投げ大戦で勝利を目指そう！",
+		shop_goods_id = 0,
+		model = 2012101,
+		id = 2012101,
+		icon = "skin_2012101",
+		icon_normal = ""
+	}
 	pg.base.island_skin_template[2060301] = {
 		ship_group = 20603,
 		name = "憧れの星光",
@@ -153,6 +203,19 @@ pg.base.island_skin_template = {}
 		icon = "skin_2990301",
 		icon_normal = "props/skin_2990301",
 		jump_page = {}
+	}
+	pg.base.island_skin_template[3031101] = {
+		ship_group = 30311,
+		name = "素直な夜会話",
+		jump_page = "",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "初雪のように清らかな印象を与える、純白色の長袖シャツ。シンプルながらもゆったりとした美を湛える",
+		shop_goods_id = 0,
+		model = 3031101,
+		id = 3031101,
+		icon = "skin_3031101",
+		icon_normal = ""
 	}
 	pg.base.island_skin_template[3031201] = {
 		ship_group = 30312,
@@ -217,6 +280,45 @@ pg.base.island_skin_template = {}
 		model = 4990201,
 		id = 4990201,
 		icon = "skin_4990201",
+		icon_normal = ""
+	}
+	pg.base.island_skin_template[4990601] = {
+		ship_group = 49906,
+		name = "雲上の夢遊",
+		jump_page = "",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "アイマスクをして、雲と月に抱きしめられながら夢へと旅立つ。優しい夜の世界が、甘い色に包まれますように",
+		shop_goods_id = 0,
+		model = 4990601,
+		id = 4990601,
+		icon = "skin_4990601",
+		icon_normal = ""
+	}
+	pg.base.island_skin_template[5010701] = {
+		ship_group = 50107,
+		name = "パンダ団子",
+		jump_page = "",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "白黒のパンダパジャマ。丸っこくて柔らかく、思わず指でツンツンしたくなる可愛らしさ",
+		shop_goods_id = 0,
+		model = 5010701,
+		id = 5010701,
+		icon = "skin_5010701",
+		icon_normal = ""
+	}
+	pg.base.island_skin_template[5020101] = {
+		ship_group = 50201,
+		name = "月下の茶香",
+		jump_page = "",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "白のキャミソールと、軽く羽織ったベージュの上着。月の明かりに照らされた茶の花のように、清楚にして雅を感じさせる麗しさ",
+		shop_goods_id = 0,
+		model = 5020101,
+		id = 5020101,
+		icon = "skin_5020101",
 		icon_normal = ""
 	}
 	pg.base.island_skin_template[5060101] = {

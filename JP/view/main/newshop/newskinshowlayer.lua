@@ -494,7 +494,7 @@ slot0.LoadL2dPainting = function(slot0)
 
 	pg.UIMgr.GetInstance():LoadingOn()
 
-	slot0.live2dChar = Live2D.New(Live2D.GenerateData({
+	slot0.live2dChar = Live2DPainting.New(Live2DPainting.GenerateData({
 		ship = slot3,
 		position = Vector3(0, 0, -1),
 		parent = slot0.live2dContainer,

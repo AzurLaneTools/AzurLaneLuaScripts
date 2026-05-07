@@ -8,16 +8,19 @@ pg.island_speedup_ticket.all = {
 	10003,
 	10004,
 	10005,
+	10006,
 	20001,
 	20002,
 	20003,
 	20004,
 	20005,
+	20006,
 	30001,
 	30002,
 	30003,
 	30004,
-	30005
+	30005,
+	30006
 }
 pg.island_speedup_ticket.get_id_list_by_speedup_time = {
 	[60] = {
@@ -25,21 +28,24 @@ pg.island_speedup_ticket.get_id_list_by_speedup_time = {
 		10002,
 		10003,
 		10004,
-		10005
+		10005,
+		10006
 	},
 	[600] = {
 		20001,
 		20002,
 		20003,
 		20004,
-		20005
+		20005,
+		20006
 	},
 	[3600] = {
 		30001,
 		30002,
 		30003,
 		30004,
-		30005
+		30005,
+		30006
 	}
 }
 pg.base = pg.base or {}
@@ -125,6 +131,30 @@ pg.base.island_speedup_ticket = {}
 				2026,
 				5,
 				7
+			},
+			{
+				16,
+				0,
+				0
+			}
+		}
+	}
+	pg.base.island_speedup_ticket[10006] = {
+		name = "加速券（1分）",
+		rarity = 2,
+		type = 1,
+		duration = 0,
+		speedup_time = 60,
+		desc = "進行中のタスクを1分間短縮できる。開発をもっとスピーディーに！",
+		expiration_type = 2,
+		id = 10006,
+		icon = "islandprops/item_speedup_ticket1",
+		icon_normal = "props/item_speedup_ticket1",
+		expiration_time = {
+			{
+				2026,
+				8,
+				6
 			},
 			{
 				16,
@@ -220,6 +250,30 @@ pg.base.island_speedup_ticket = {}
 			}
 		}
 	}
+	pg.base.island_speedup_ticket[20006] = {
+		name = "加速券（10分）",
+		rarity = 3,
+		type = 2,
+		duration = 0,
+		speedup_time = 600,
+		desc = "進行中のタスクを10分間短縮できる。開発をもっとスピーディーに！",
+		expiration_type = 2,
+		id = 20006,
+		icon = "islandprops/item_speedup_ticket2",
+		icon_normal = "props/item_speedup_ticket2",
+		expiration_time = {
+			{
+				2026,
+				8,
+				6
+			},
+			{
+				16,
+				0,
+				0
+			}
+		}
+	}
 	pg.base.island_speedup_ticket[30001] = {
 		name = "加速券（60分）",
 		rarity = 4,
@@ -299,6 +353,30 @@ pg.base.island_speedup_ticket = {}
 				2026,
 				5,
 				7
+			},
+			{
+				16,
+				0,
+				0
+			}
+		}
+	}
+	pg.base.island_speedup_ticket[30006] = {
+		name = "加速券（60分）",
+		rarity = 4,
+		type = 3,
+		duration = 0,
+		speedup_time = 3600,
+		desc = "進行中のタスクを60分間短縮できる。開発をもっとスピーディーに！",
+		expiration_type = 2,
+		id = 30006,
+		icon = "islandprops/item_speedup_ticket3",
+		icon_normal = "props/item_speedup_ticket3",
+		expiration_time = {
+			{
+				2026,
+				8,
+				6
 			},
 			{
 				16,
