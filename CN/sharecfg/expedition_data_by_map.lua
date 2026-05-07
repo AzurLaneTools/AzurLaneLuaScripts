@@ -338,7 +338,8 @@ pg.expedition_data_by_map.all = {
 	2200130,
 	2200140,
 	2200141,
-	2200150
+	2200150,
+	2200160
 }
 pg.base = pg.base or {}
 pg.base.expedition_data_by_map = {}
@@ -21428,6 +21429,56 @@ end)()
 		story_inactive_color = "",
 		ui_type = 1,
 		bg = "Map_1670001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	}
+	pg.base.expedition_data_by_map[2200160] = {
+		map = 2200160,
+		name = "奏响鸢尾之歌|| ||CHAPTER SP||S.P.",
+		bgm = "level-french2",
+		type = 3,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "ZOUXIANGYUANWEIZHIGE1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1730001",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1730001",
 		story_id = "",
 		chapterGroups = "",
 		destory_icon_suffix = "blue",

@@ -238,9 +238,70 @@ pg.island_buff_template.all = {
 	10227,
 	10228,
 	10229,
+	10230,
+	10231,
+	10232,
+	10233,
+	10234,
+	10235,
+	10236,
+	10237,
+	10238,
+	10239,
+	10240,
+	10241,
+	10242,
+	10243,
+	10244,
+	10245,
+	10246,
+	10247,
+	10248,
+	10249,
+	10250,
+	10251,
+	10252,
+	10253,
+	10254,
+	10255,
+	10256,
+	10257,
+	10258,
+	10259,
+	10260,
+	10261,
+	10262,
+	10263,
+	10264,
+	10265,
+	10266,
+	10267,
+	10268,
+	10269,
+	10270,
+	10271,
+	10272,
+	10273,
+	10274,
+	10275,
+	10276,
+	10277,
+	10278,
+	10279,
 	100001,
 	100002,
 	100003,
+	100004,
+	100010,
+	100011,
+	100012,
+	100013,
+	100014,
+	100015,
+	100016,
+	100017,
+	100018,
+	100019,
 	999990
 }
 pg.base = pg.base or {}
@@ -5008,6 +5069,996 @@ end)()
 		},
 		buff_duel = {}
 	}
+	pg.base.island_buff_template[10230] = {
+		name = "全力专注",
+		buff_group = 1023,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 2,
+		buff_time = 0,
+		buff_level = 1,
+		id = 10230,
+		type_use = {
+			-10
+		},
+		type_duel = {
+			1023
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10231] = {
+		name = "全力专注",
+		buff_group = 1023,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 2,
+		buff_time = 0,
+		buff_level = 2,
+		id = 10231,
+		type_use = {
+			-9.5
+		},
+		type_duel = {
+			1023
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10232] = {
+		name = "全力专注",
+		buff_group = 1023,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 2,
+		buff_time = 0,
+		buff_level = 3,
+		id = 10232,
+		type_use = {
+			-9
+		},
+		type_duel = {
+			1023
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10233] = {
+		name = "全力专注",
+		buff_group = 1023,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 2,
+		buff_time = 0,
+		buff_level = 4,
+		id = 10233,
+		type_use = {
+			-8.5
+		},
+		type_duel = {
+			1023
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10234] = {
+		name = "全力专注",
+		buff_group = 1023,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 2,
+		buff_time = 0,
+		buff_level = 5,
+		id = 10234,
+		type_use = {
+			-8
+		},
+		type_duel = {
+			1023
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10235] = {
+		name = "全力专注",
+		buff_group = 1023,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 2,
+		buff_time = 0,
+		buff_level = 6,
+		id = 10235,
+		type_use = {
+			-7.5
+		},
+		type_duel = {
+			1023
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10236] = {
+		name = "全力专注",
+		buff_group = 1023,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 2,
+		buff_time = 0,
+		buff_level = 7,
+		id = 10236,
+		type_use = {
+			-7
+		},
+		type_duel = {
+			1023
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10237] = {
+		name = "全力专注",
+		buff_group = 1023,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 2,
+		buff_time = 0,
+		buff_level = 8,
+		id = 10237,
+		type_use = {
+			-6.5
+		},
+		type_duel = {
+			1023
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10238] = {
+		name = "全力专注",
+		buff_group = 1023,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 2,
+		buff_time = 0,
+		buff_level = 9,
+		id = 10238,
+		type_use = {
+			-6
+		},
+		type_duel = {
+			1023
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10239] = {
+		name = "全力专注",
+		buff_group = 1023,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 2,
+		buff_time = 0,
+		buff_level = 10,
+		id = 10239,
+		type_use = {
+			-5
+		},
+		type_duel = {
+			1023
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10240] = {
+		name = "采收技艺",
+		buff_group = 1024,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 1,
+		id = 10240,
+		type_use = {
+			{
+				502
+			},
+			1,
+			6
+		},
+		type_duel = {
+			1024
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10241] = {
+		name = "采收技艺",
+		buff_group = 1024,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 2,
+		id = 10241,
+		type_use = {
+			{
+				502
+			},
+			1,
+			6.5
+		},
+		type_duel = {
+			1024
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10242] = {
+		name = "采收技艺",
+		buff_group = 1024,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 3,
+		id = 10242,
+		type_use = {
+			{
+				502
+			},
+			1,
+			7
+		},
+		type_duel = {
+			1024
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10243] = {
+		name = "采收技艺",
+		buff_group = 1024,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 4,
+		id = 10243,
+		type_use = {
+			{
+				502
+			},
+			1,
+			7.5
+		},
+		type_duel = {
+			1024
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10244] = {
+		name = "采收技艺",
+		buff_group = 1024,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 5,
+		id = 10244,
+		type_use = {
+			{
+				502
+			},
+			1,
+			8
+		},
+		type_duel = {
+			1024
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10245] = {
+		name = "采收技艺",
+		buff_group = 1024,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 6,
+		id = 10245,
+		type_use = {
+			{
+				502
+			},
+			1,
+			8.5
+		},
+		type_duel = {
+			1024
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10246] = {
+		name = "采收技艺",
+		buff_group = 1024,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 7,
+		id = 10246,
+		type_use = {
+			{
+				502
+			},
+			1,
+			9
+		},
+		type_duel = {
+			1024
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10247] = {
+		name = "采收技艺",
+		buff_group = 1024,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 8,
+		id = 10247,
+		type_use = {
+			{
+				502
+			},
+			1,
+			10
+		},
+		type_duel = {
+			1024
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10248] = {
+		name = "采收技艺",
+		buff_group = 1024,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 9,
+		id = 10248,
+		type_use = {
+			{
+				502
+			},
+			1,
+			11
+		},
+		type_duel = {
+			1024
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10249] = {
+		name = "采收技艺",
+		buff_group = 1024,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 10,
+		id = 10249,
+		type_use = {
+			{
+				502
+			},
+			1,
+			12
+		},
+		type_duel = {
+			1024
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10250] = {
+		name = "爆破技艺",
+		buff_group = 1025,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 1,
+		id = 10250,
+		type_use = {
+			{
+				401
+			},
+			1,
+			6
+		},
+		type_duel = {
+			1025
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10251] = {
+		name = "爆破技艺",
+		buff_group = 1025,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 2,
+		id = 10251,
+		type_use = {
+			{
+				401
+			},
+			1,
+			6.5
+		},
+		type_duel = {
+			1025
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10252] = {
+		name = "爆破技艺",
+		buff_group = 1025,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 3,
+		id = 10252,
+		type_use = {
+			{
+				401
+			},
+			1,
+			7
+		},
+		type_duel = {
+			1025
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10253] = {
+		name = "爆破技艺",
+		buff_group = 1025,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 4,
+		id = 10253,
+		type_use = {
+			{
+				401
+			},
+			1,
+			7.5
+		},
+		type_duel = {
+			1025
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10254] = {
+		name = "爆破技艺",
+		buff_group = 1025,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 5,
+		id = 10254,
+		type_use = {
+			{
+				401
+			},
+			1,
+			8
+		},
+		type_duel = {
+			1025
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10255] = {
+		name = "爆破技艺",
+		buff_group = 1025,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 6,
+		id = 10255,
+		type_use = {
+			{
+				401
+			},
+			1,
+			8.5
+		},
+		type_duel = {
+			1025
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10256] = {
+		name = "爆破技艺",
+		buff_group = 1025,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 7,
+		id = 10256,
+		type_use = {
+			{
+				401
+			},
+			1,
+			9
+		},
+		type_duel = {
+			1025
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10257] = {
+		name = "爆破技艺",
+		buff_group = 1025,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 8,
+		id = 10257,
+		type_use = {
+			{
+				401
+			},
+			1,
+			10
+		},
+		type_duel = {
+			1025
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10258] = {
+		name = "爆破技艺",
+		buff_group = 1025,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 9,
+		id = 10258,
+		type_use = {
+			{
+				401
+			},
+			1,
+			11
+		},
+		type_duel = {
+			1025
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10259] = {
+		name = "爆破技艺",
+		buff_group = 1025,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 10,
+		id = 10259,
+		type_use = {
+			{
+				401
+			},
+			1,
+			12
+		},
+		type_duel = {
+			1025
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10260] = {
+		name = "烧烤精通",
+		buff_group = 1026,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 601,
+		buff_time = 0,
+		buff_level = 1,
+		id = 10260,
+		type_use = {
+			{
+				604
+			},
+			4
+		},
+		type_duel = {
+			1026
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10261] = {
+		name = "烧烤精通",
+		buff_group = 1026,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 601,
+		buff_time = 0,
+		buff_level = 2,
+		id = 10261,
+		type_use = {
+			{
+				604
+			},
+			4.5
+		},
+		type_duel = {
+			1026
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10262] = {
+		name = "烧烤精通",
+		buff_group = 1026,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 601,
+		buff_time = 0,
+		buff_level = 3,
+		id = 10262,
+		type_use = {
+			{
+				604
+			},
+			5
+		},
+		type_duel = {
+			1026
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10263] = {
+		name = "烧烤精通",
+		buff_group = 1026,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 601,
+		buff_time = 0,
+		buff_level = 4,
+		id = 10263,
+		type_use = {
+			{
+				604
+			},
+			5.5
+		},
+		type_duel = {
+			1026
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10264] = {
+		name = "烧烤精通",
+		buff_group = 1026,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 601,
+		buff_time = 0,
+		buff_level = 5,
+		id = 10264,
+		type_use = {
+			{
+				604
+			},
+			6
+		},
+		type_duel = {
+			1026
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10265] = {
+		name = "烧烤精通",
+		buff_group = 1026,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 601,
+		buff_time = 0,
+		buff_level = 6,
+		id = 10265,
+		type_use = {
+			{
+				604
+			},
+			6.5
+		},
+		type_duel = {
+			1026
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10266] = {
+		name = "烧烤精通",
+		buff_group = 1026,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 601,
+		buff_time = 0,
+		buff_level = 7,
+		id = 10266,
+		type_use = {
+			{
+				604
+			},
+			7
+		},
+		type_duel = {
+			1026
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10267] = {
+		name = "烧烤精通",
+		buff_group = 1026,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 601,
+		buff_time = 0,
+		buff_level = 8,
+		id = 10267,
+		type_use = {
+			{
+				604
+			},
+			8
+		},
+		type_duel = {
+			1026
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10268] = {
+		name = "烧烤精通",
+		buff_group = 1026,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 601,
+		buff_time = 0,
+		buff_level = 9,
+		id = 10268,
+		type_use = {
+			{
+				604
+			},
+			9
+		},
+		type_duel = {
+			1026
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10269] = {
+		name = "烧烤精通",
+		buff_group = 1026,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 601,
+		buff_time = 0,
+		buff_level = 10,
+		id = 10269,
+		type_use = {
+			{
+				604
+			},
+			10
+		},
+		type_duel = {
+			1026
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10270] = {
+		name = "木工技艺",
+		buff_group = 1027,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 1,
+		id = 10270,
+		type_use = {
+			{
+				703
+			},
+			6
+		},
+		type_duel = {
+			1027
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10271] = {
+		name = "木工技艺",
+		buff_group = 1027,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 2,
+		id = 10271,
+		type_use = {
+			{
+				703
+			},
+			6.5
+		},
+		type_duel = {
+			1027
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10272] = {
+		name = "木工技艺",
+		buff_group = 1027,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 3,
+		id = 10272,
+		type_use = {
+			{
+				703
+			},
+			7
+		},
+		type_duel = {
+			1027
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10273] = {
+		name = "木工技艺",
+		buff_group = 1027,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 4,
+		id = 10273,
+		type_use = {
+			{
+				703
+			},
+			7.5
+		},
+		type_duel = {
+			1027
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10274] = {
+		name = "木工技艺",
+		buff_group = 1027,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 5,
+		id = 10274,
+		type_use = {
+			{
+				703
+			},
+			8
+		},
+		type_duel = {
+			1027
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10275] = {
+		name = "木工技艺",
+		buff_group = 1027,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 6,
+		id = 10275,
+		type_use = {
+			{
+				703
+			},
+			8.5
+		},
+		type_duel = {
+			1027
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10276] = {
+		name = "木工技艺",
+		buff_group = 1027,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 7,
+		id = 10276,
+		type_use = {
+			{
+				703
+			},
+			9
+		},
+		type_duel = {
+			1027
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10277] = {
+		name = "木工技艺",
+		buff_group = 1027,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 8,
+		id = 10277,
+		type_use = {
+			{
+				703
+			},
+			10
+		},
+		type_duel = {
+			1027
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10278] = {
+		name = "木工技艺",
+		buff_group = 1027,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 9,
+		id = 10278,
+		type_use = {
+			{
+				703
+			},
+			11
+		},
+		type_duel = {
+			1027
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10279] = {
+		name = "木工技艺",
+		buff_group = 1027,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 10,
+		id = 10279,
+		type_use = {
+			{
+				703
+			},
+			12
+		},
+		type_duel = {
+			1027
+		},
+		buff_duel = {}
+	}
 	pg.base.island_buff_template[100001] = {
 		name = "饮品销售",
 		buff_group = 100001,
@@ -5061,6 +6112,384 @@ end)()
 			1
 		},
 		type_duel = {},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[100004] = {
+		name = "烧烤精通",
+		buff_group = 100004,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 602,
+		buff_time = 0,
+		buff_level = 1,
+		id = 100004,
+		type_use = {
+			{
+				604
+			},
+			1
+		},
+		type_duel = {},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[100010] = {
+		name = "拉菲技能效率1",
+		buff_group = 100010,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 1,
+		id = 100010,
+		type_use = {
+			{
+				101,
+				102,
+				201,
+				401,
+				402,
+				501,
+				502,
+				601,
+				602,
+				603,
+				604,
+				702,
+				703,
+				704,
+				705,
+				706,
+				901
+			},
+			5
+		},
+		type_duel = {
+			100010
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[100011] = {
+		name = "拉菲技能效率2",
+		buff_group = 100010,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 1,
+		id = 100011,
+		type_use = {
+			{
+				101,
+				102,
+				201,
+				401,
+				402,
+				501,
+				502,
+				601,
+				602,
+				603,
+				604,
+				702,
+				703,
+				704,
+				705,
+				706,
+				901
+			},
+			5.5
+		},
+		type_duel = {
+			100010
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[100012] = {
+		name = "拉菲技能效率3",
+		buff_group = 100010,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 1,
+		id = 100012,
+		type_use = {
+			{
+				101,
+				102,
+				201,
+				401,
+				402,
+				501,
+				502,
+				601,
+				602,
+				603,
+				604,
+				702,
+				703,
+				704,
+				705,
+				706,
+				901
+			},
+			6
+		},
+		type_duel = {
+			100010
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[100013] = {
+		name = "拉菲技能效率4",
+		buff_group = 100010,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 1,
+		id = 100013,
+		type_use = {
+			{
+				101,
+				102,
+				201,
+				401,
+				402,
+				501,
+				502,
+				601,
+				602,
+				603,
+				604,
+				702,
+				703,
+				704,
+				705,
+				706,
+				901
+			},
+			6.5
+		},
+		type_duel = {
+			100010
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[100014] = {
+		name = "拉菲技能效率5",
+		buff_group = 100010,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 1,
+		id = 100014,
+		type_use = {
+			{
+				101,
+				102,
+				201,
+				401,
+				402,
+				501,
+				502,
+				601,
+				602,
+				603,
+				604,
+				702,
+				703,
+				704,
+				705,
+				706,
+				901
+			},
+			7
+		},
+		type_duel = {
+			100010
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[100015] = {
+		name = "拉菲技能效率6",
+		buff_group = 100010,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 1,
+		id = 100015,
+		type_use = {
+			{
+				101,
+				102,
+				201,
+				401,
+				402,
+				501,
+				502,
+				601,
+				602,
+				603,
+				604,
+				702,
+				703,
+				704,
+				705,
+				706,
+				901
+			},
+			7.5
+		},
+		type_duel = {
+			100010
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[100016] = {
+		name = "拉菲技能效率7",
+		buff_group = 100010,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 1,
+		id = 100016,
+		type_use = {
+			{
+				101,
+				102,
+				201,
+				401,
+				402,
+				501,
+				502,
+				601,
+				602,
+				603,
+				604,
+				702,
+				703,
+				704,
+				705,
+				706,
+				901
+			},
+			8
+		},
+		type_duel = {
+			100010
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[100017] = {
+		name = "拉菲技能效率8",
+		buff_group = 100010,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 1,
+		id = 100017,
+		type_use = {
+			{
+				101,
+				102,
+				201,
+				401,
+				402,
+				501,
+				502,
+				601,
+				602,
+				603,
+				604,
+				702,
+				703,
+				704,
+				705,
+				706,
+				901
+			},
+			8.5
+		},
+		type_duel = {
+			100010
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[100018] = {
+		name = "拉菲技能效率9",
+		buff_group = 100010,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 1,
+		id = 100018,
+		type_use = {
+			{
+				101,
+				102,
+				201,
+				401,
+				402,
+				501,
+				502,
+				601,
+				602,
+				603,
+				604,
+				702,
+				703,
+				704,
+				705,
+				706,
+				901
+			},
+			9
+		},
+		type_duel = {
+			100010
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[100019] = {
+		name = "拉菲技能效率10",
+		buff_group = 100010,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 1,
+		id = 100019,
+		type_use = {
+			{
+				101,
+				102,
+				201,
+				401,
+				402,
+				501,
+				502,
+				601,
+				602,
+				603,
+				604,
+				702,
+				703,
+				704,
+				705,
+				706,
+				901
+			},
+			10
+		},
+		type_duel = {
+			100010
+		},
 		buff_duel = {}
 	}
 	pg.base.island_buff_template[999990] = {

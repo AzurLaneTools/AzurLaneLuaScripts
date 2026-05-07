@@ -268,4 +268,15 @@ slot0.getFinishTasks = function(slot0)
 	return {}
 end
 
+slot0.GetActivityTasks = function(slot0, slot1)
+	_.each(slot0:getTaskById(slot1), function (slot0)
+		uv0[slot0.id] = slot0
+	end)
+	_.each(slot0:getFinishTaskById(slot1), function (slot0)
+		uv0[slot0.id] = slot0
+	end)
+
+	return {}
+end
+
 return slot0

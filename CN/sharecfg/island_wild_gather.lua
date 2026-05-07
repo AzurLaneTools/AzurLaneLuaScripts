@@ -24,7 +24,15 @@ pg.island_wild_gather.all = {
 	1013,
 	1014,
 	1015,
-	1016
+	1016,
+	1017,
+	1018,
+	1019,
+	1020,
+	1021,
+	1022,
+	1023,
+	1024
 }
 pg.base = pg.base or {}
 pg.base.island_wild_gather = {}
@@ -446,6 +454,158 @@ pg.base.island_wild_gather = {}
 		show = 1,
 		object_list = {
 			10040091
+		},
+		auto_parameters = {
+			100,
+			10,
+			50
+		}
+	}
+	pg.base.island_wild_gather[1017] = {
+		name = "茉莉花",
+		refresh = 1,
+		type = 2,
+		time_taked = 3,
+		ability_id = 0,
+		activity_id = 990018,
+		id = 1017,
+		icon = "IslandProps/item_4029",
+		show = 1,
+		object_list = {
+			10040087
+		},
+		auto_parameters = {
+			100,
+			10,
+			50
+		}
+	}
+	pg.base.island_wild_gather[1018] = {
+		name = "茉莉花",
+		refresh = 1,
+		type = 2,
+		time_taked = 3,
+		ability_id = 0,
+		activity_id = 990018,
+		id = 1018,
+		icon = "IslandProps/item_4029",
+		show = 1,
+		object_list = {
+			10040092
+		},
+		auto_parameters = {
+			100,
+			10,
+			50
+		}
+	}
+	pg.base.island_wild_gather[1019] = {
+		name = "向日葵",
+		refresh = 1,
+		type = 2,
+		time_taked = 3,
+		ability_id = 0,
+		activity_id = 990018,
+		id = 1019,
+		icon = "IslandProps/item_4030",
+		show = 1,
+		object_list = {
+			10040093
+		},
+		auto_parameters = {
+			100,
+			10,
+			50
+		}
+	}
+	pg.base.island_wild_gather[1020] = {
+		name = "向日葵",
+		refresh = 1,
+		type = 2,
+		time_taked = 3,
+		ability_id = 0,
+		activity_id = 990018,
+		id = 1020,
+		icon = "IslandProps/item_4030",
+		show = 1,
+		object_list = {
+			10040094
+		},
+		auto_parameters = {
+			100,
+			10,
+			50
+		}
+	}
+	pg.base.island_wild_gather[1021] = {
+		name = "西瓜",
+		refresh = 1,
+		type = 2,
+		time_taked = 3,
+		ability_id = 0,
+		activity_id = 990018,
+		id = 1021,
+		icon = "IslandProps/item_4031",
+		show = 1,
+		object_list = {
+			10010090
+		},
+		auto_parameters = {
+			100,
+			10,
+			50
+		}
+	}
+	pg.base.island_wild_gather[1022] = {
+		name = "西瓜",
+		refresh = 1,
+		type = 2,
+		time_taked = 3,
+		ability_id = 0,
+		activity_id = 990018,
+		id = 1022,
+		icon = "IslandProps/item_4031",
+		show = 1,
+		object_list = {
+			10010095
+		},
+		auto_parameters = {
+			100,
+			10,
+			50
+		}
+	}
+	pg.base.island_wild_gather[1023] = {
+		name = "红米苋",
+		refresh = 1,
+		type = 2,
+		time_taked = 3,
+		ability_id = 0,
+		activity_id = 990018,
+		id = 1023,
+		icon = "IslandProps/item_4032",
+		show = 1,
+		object_list = {
+			10010096
+		},
+		auto_parameters = {
+			100,
+			10,
+			50
+		}
+	}
+	pg.base.island_wild_gather[1024] = {
+		name = "红米苋",
+		refresh = 1,
+		type = 2,
+		time_taked = 3,
+		ability_id = 0,
+		activity_id = 990018,
+		id = 1024,
+		icon = "IslandProps/item_4032",
+		show = 1,
+		object_list = {
+			10010097
 		},
 		auto_parameters = {
 			100,

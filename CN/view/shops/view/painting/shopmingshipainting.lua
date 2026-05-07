@@ -8,7 +8,7 @@ slot0.Ctor = function(slot0, slot1)
 end
 
 slot0.Load = function(slot0, slot1, slot2, slot3)
-	Live2D.New(Live2D.GenerateData({
+	Live2DPainting.New(Live2DPainting.GenerateData({
 		ship = Ship.New({
 			configId = 312011
 		}),

@@ -27,14 +27,12 @@ pg.activity_banner.get_id_list_by_type = {
 	[2] = {
 		1,
 		2,
+		3,
 		4,
 		5,
 		6,
 		7,
-		8
-	},
-	[3] = {
-		3,
+		8,
 		9
 	},
 	[9] = {
@@ -74,8 +72,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					4,
-					30
+					5,
+					7
 				},
 				{
 					0,
@@ -86,8 +84,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					4,
-					30
+					5,
+					13
 				},
 				{
 					23,
@@ -98,6 +96,7 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[2] = {
+		time = "stop",
 		type = 2,
 		id = 2,
 		pic = "temp2",
@@ -107,67 +106,22 @@ pg.base.activity_banner = {}
 				projectName = "new",
 				page = 1
 			}
-		},
-		time = {
-			{
-				{
-					2026,
-					4,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					5,
-					7
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
 		}
 	}
 	pg.base.activity_banner[3] = {
-		param = "50825",
-		type = 3,
+		time = "stop",
+		type = 2,
 		id = 3,
 		pic = "temp3",
-		time = {
+		param = {
+			"scene core activity",
 			{
-				{
-					2026,
-					4,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					5,
-					7
-				},
-				{
-					12,
-					0,
-					0
-				}
+				coreName = "YunLongSPCoreActivityUI"
 			}
 		}
 	}
 	pg.base.activity_banner[4] = {
+		time = "stop",
 		type = 2,
 		id = 4,
 		pic = "temp4",
@@ -176,35 +130,10 @@ pg.base.activity_banner = {}
 			{
 				wrap = 4
 			}
-		},
-		time = {
-			{
-				{
-					2026,
-					4,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					5,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.activity_banner[5] = {
+		time = "stop",
 		type = 2,
 		id = 5,
 		pic = "temp5",
@@ -213,81 +142,43 @@ pg.base.activity_banner = {}
 			{
 				warp = "shopstreet"
 			}
-		},
-		time = {
-			{
-				{
-					2026,
-					4,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					5,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.activity_banner[6] = {
+		time = "stop",
 		type = 2,
 		id = 6,
 		pic = "temp6",
 		param = {
 			"scene court yard"
-		},
-		time = {
-			{
-				{
-					2026,
-					4,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					5,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.activity_banner[7] = {
+		time = "stop",
 		type = 2,
 		id = 7,
 		pic = "temp7",
 		param = {
 			"dorm 3d select"
+		}
+	}
+	pg.base.activity_banner[8] = {
+		type = 2,
+		id = 8,
+		pic = "temp8",
+		param = {
+			"scene equip",
+			{
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
+			}
 		},
 		time = {
 			{
 				{
 					2026,
-					4,
-					30
+					5,
+					7
 				},
 				{
 					0,
@@ -299,7 +190,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					5,
-					7
+					14
 				},
 				{
 					12,
@@ -309,64 +200,35 @@ pg.base.activity_banner = {}
 			}
 		}
 	}
-	pg.base.activity_banner[8] = {
+	pg.base.activity_banner[9] = {
 		type = 2,
-		id = 8,
-		pic = "temp8",
+		id = 9,
+		pic = "temp9",
 		param = {
-			"scene Cryptolalia",
-			{}
+			"scene level",
+			{
+				open_remaster = true,
+				isSP = true
+			}
 		},
 		time = {
 			{
 				{
 					2026,
-					4,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					5,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	}
-	pg.base.activity_banner[9] = {
-		param = "50833",
-		type = 3,
-		id = 9,
-		pic = "temp9",
-		time = {
-			{
-				{
-					2026,
-					4,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
 					5,
 					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					14
 				},
 				{
 					12,

@@ -28,6 +28,7 @@ pg.island_furniture_template.all = {
 	23,
 	100,
 	101,
+	102,
 	10101,
 	10201,
 	10301,
@@ -121,7 +122,41 @@ pg.island_furniture_template.all = {
 	30416,
 	30801,
 	30802,
-	30803
+	30803,
+	40002,
+	40004,
+	40005,
+	40006,
+	40007,
+	40101,
+	40201,
+	40301,
+	40302,
+	40303,
+	40304,
+	40401,
+	40402,
+	40403,
+	40404,
+	40405,
+	40406,
+	40407,
+	40408,
+	40409,
+	40410,
+	40411,
+	40412,
+	40413,
+	40414,
+	40415,
+	40416,
+	40417,
+	40418,
+	40419,
+	40420,
+	40801,
+	40802,
+	40803
 }
 pg.base = pg.base or {}
 pg.base.island_furniture_template = {}
@@ -676,6 +711,27 @@ pg.base.island_furniture_template = {}
 				{}
 			}
 		}
+	}
+	pg.base.island_furniture_template[102] = {
+		setNum = 1,
+		describe = "奖杯上缀着向日葵与茉莉花，金黄与素白交织，定格了整季的灿烂。",
+		name = "夏季开发奖杯",
+		type = 7,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_102",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50283/prefab/pre_item_05_50283",
+		bt = "",
+		id = 102,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {}
 	}
 	pg.base.island_furniture_template[10101] = {
 		setNum = 1,
@@ -2589,6 +2645,8 @@ pg.base.island_furniture_template = {}
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.island_furniture_template[30305] = {
 		setNum = 999,
 		describe = "等待一场充满点心香气的午后茶话~",
@@ -2615,8 +2673,6 @@ pg.base.island_furniture_template = {}
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.island_furniture_template[30401] = {
 		setNum = 999,
 		describe = "沐浴阳光，在向日葵丛中随风轻轻摇摆吧~",
@@ -3116,5 +3172,857 @@ end)()
 				{}
 			}
 		}
+	}
+	pg.base.island_furniture_template[40002] = {
+		setNum = 999,
+		describe = "用竹子制成的长凳，清凉透气，适合夏夜纳凉小坐。",
+		name = "竹子长凳",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40002",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50226/prefab/pre_item_05_50226",
+		bt = "",
+		id = 40002,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {}
+	}
+	pg.base.island_furniture_template[40004] = {
+		setNum = 999,
+		describe = "简朴的木制院门，热闹与安静的分界线。",
+		name = "木制院门",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40004",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50214/prefab/pre_item_05_50214",
+		bt = "",
+		id = 40004,
+		tech_id = 0,
+		size = {
+			6,
+			1
+		},
+		jump_page = {}
+	}
+	pg.base.island_furniture_template[40005] = {
+		setNum = 999,
+		describe = "探头往里看，好像能听见很久以前的水声。",
+		name = "石制古井",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40005",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50221/prefab/pre_item_05_50221",
+		bt = "",
+		id = 40005,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {}
+	}
+	pg.base.island_furniture_template[40006] = {
+		setNum = 999,
+		describe = "天然石材堆砌的矮墙，既分隔空间，又保持通透。",
+		name = "石制矮墙",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40006",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50223/prefab/pre_item_05_50223",
+		bt = "",
+		id = 40006,
+		tech_id = 0,
+		size = {
+			2,
+			1
+		},
+		jump_page = {}
+	}
+	pg.base.island_furniture_template[40007] = {
+		setNum = 999,
+		describe = "细木条编成的栅栏，质朴自然。",
+		name = "木制栅栏",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40007",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50224/prefab/pre_item_05_50224",
+		bt = "",
+		id = 40007,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {}
+	}
+	pg.base.island_furniture_template[40101] = {
+		setNum = 1,
+		describe = "矗立于乐园中央的童话城堡，是每段奇妙旅程的目的地。",
+		name = "童话城堡",
+		type = 1,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_40101",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50150/prefab/pre_item_05_50150",
+		bt = "",
+		id = 40101,
+		tech_id = 0,
+		size = {
+			22,
+			22
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40201] = {
+		setNum = 1,
+		describe = "感受云端坠落的快感，体验失重瞬间的刺激。",
+		name = "云端坠落塔",
+		type = 2,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_40201",
+		prosperity = 0,
+		capacityCost = 0,
+		model = "island/item/05/50153/prefab/pre_item_05_50153",
+		bt = "",
+		id = 40201,
+		tech_id = 0,
+		size = {
+			20,
+			20
+		},
+		interact_point = {
+			20
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40301] = {
+		setNum = 999,
+		describe = "充满童话风趣的彩色拱门，穿过它就像是走进了童话世界。",
+		name = "彩虹拱门",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40301",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50166/prefab/pre_item_05_50166",
+		bt = "",
+		id = 40301,
+		tech_id = 0,
+		size = {
+			12,
+			2
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40302] = {
+		setNum = 999,
+		describe = "进入梦幻游乐园，烦恼通通扔外面~",
+		name = "游乐园大门",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40302",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50151/prefab/pre_item_05_50151",
+		bt = "",
+		id = 40302,
+		tech_id = 0,
+		size = {
+			5,
+			2
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40303] = {
+		setNum = 999,
+		describe = "随处可见的白色铸铁长椅，花纹精致，方便游客随时坐下休息。",
+		name = "休憩时光",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40303",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50171/prefab/pre_item_05_50171",
+		bt = "",
+		id = 40303,
+		tech_id = 0,
+		size = {
+			2,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40304] = {
+		setNum = 999,
+		describe = "弯月造型的座椅，适合躺着看星星，或坐着发呆。",
+		name = "弯月小憩",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40304",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50164/prefab/pre_item_05_50164",
+		bt = "",
+		id = 40304,
+		tech_id = 0,
+		size = {
+			3,
+			2
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40401] = {
+		setNum = 999,
+		describe = "色彩斑斓的木马随音乐旋转升降，承载着最经典的游园记忆。",
+		name = "旋转木马",
+		type = 4,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_40401",
+		prosperity = 0,
+		capacityCost = 60,
+		model = "island/item/05/50159/prefab/pre_item_05_50159",
+		bt = "",
+		id = 40401,
+		tech_id = 0,
+		size = {
+			7,
+			5
+		},
+		interact_point = {
+			21
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40402] = {
+		setNum = 999,
+		describe = "坐进彩色咖啡杯里自由旋转，晕乎乎也是快乐的一部分~",
+		name = "旋转咖啡杯",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40402",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50160/prefab/pre_item_05_50160",
+		bt = "",
+		id = 40402,
+		tech_id = 0,
+		size = {
+			5,
+			5
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40403] = {
+		setNum = 999,
+		describe = "从高处滑入清凉的海浪，水花四溅的快乐无与伦比。",
+		name = "浪花滑梯",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40403",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50154/prefab/pre_item_05_50154",
+		bt = "",
+		id = 40403,
+		tech_id = 0,
+		size = {
+			7,
+			11
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40404] = {
+		setNum = 999,
+		describe = "巨大的咖啡杯升至云端，将众人的欢笑带向整片天空。",
+		name = "咖啡摩天轮",
+		type = 4,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_40404",
+		prosperity = 0,
+		capacityCost = 60,
+		model = "island/item/05/50152/prefab/pre_item_05_50152",
+		bt = "",
+		id = 40404,
+		tech_id = 0,
+		size = {
+			6,
+			3
+		},
+		interact_point = {
+			22
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40405] = {
+		setNum = 999,
+		describe = "白色小鸭造型的游船，在水面晃晃悠悠，童趣十足。",
+		name = "鸭鸭游船",
+		type = 4,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_40405",
+		prosperity = 0,
+		capacityCost = 50,
+		model = "island/item/05/50170/prefab/pre_item_05_50170",
+		bt = "",
+		id = 40405,
+		tech_id = 0,
+		size = {
+			3,
+			3
+		},
+		interact_point = {
+			23
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40406] = {
+		setNum = 999,
+		describe = "星星造型的装饰摆件，像一颗从天空坠落的星辰。",
+		name = "星星摆件",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40406",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50165/prefab/pre_item_05_50165",
+		bt = "",
+		id = 40406,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40407] = {
+		setNum = 999,
+		describe = "圆滚滚的充气泡泡里，可爱的小玩偶们正安静地睡着觉呢~",
+		name = "玩偶泡泡",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40407",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50175/prefab/pre_item_05_50175",
+		bt = "",
+		id = 40407,
+		tech_id = 0,
+		size = {
+			3,
+			3
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40408] = {
+		setNum = 999,
+		describe = "听说摸摸小马的翅膀，愿望就会实现哦~",
+		name = "小马摆件",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40408",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50177/prefab/pre_item_05_50177",
+		bt = "",
+		id = 40408,
+		tech_id = 0,
+		size = {
+			3,
+			2
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40409] = {
+		setNum = 999,
+		describe = "快上来，云端专线就要出发了~",
+		name = "小马热气球",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40409",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50174/prefab/pre_item_05_50174",
+		bt = "",
+		id = 40409,
+		tech_id = 0,
+		size = {
+			5,
+			2
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40410] = {
+		setNum = 999,
+		describe = "路灯上的星星变换着颜色，为夜路增添一抹梦幻色彩。",
+		name = "星星路灯",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40410",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50162/prefab/pre_item_05_50162",
+		bt = "",
+		id = 40410,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40411] = {
+		setNum = 999,
+		describe = "城堡向右，游船向左，跟随指示，不会迷路~",
+		name = "乐园指示牌",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40411",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50167/prefab/pre_item_05_50167",
+		bt = "",
+		id = 40411,
+		tech_id = 0,
+		size = {
+			2,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40412] = {
+		setNum = 999,
+		describe = "该景点转为拍照设计，摆个pose，将笑容定格在大头贴里吧~",
+		name = "咔嚓驿站",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40412",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50161/prefab/pre_item_05_50161",
+		bt = "",
+		id = 40412,
+		tech_id = 0,
+		size = {
+			4,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40413] = {
+		setNum = 999,
+		describe = "高高~低低~起起~落落~",
+		name = "跷跷板",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40413",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50163/prefab/pre_item_05_50163",
+		bt = "",
+		id = 40413,
+		tech_id = 0,
+		size = {
+			4,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40414] = {
+		setNum = 999,
+		describe = "粉色玫瑰缠绕着白色栅栏，靠近便能闻到甜蜜的玫瑰花香。",
+		name = "玫瑰栅栏",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40414",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50172/prefab/pre_item_05_50172",
+		bt = "",
+		id = 40414,
+		tech_id = 0,
+		size = {
+			2,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40415] = {
+		setNum = 999,
+		describe = "五颜六色的气球系在栏杆上，像是在列队欢迎游人一般。",
+		name = "气球栏杆",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40415",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50169/prefab/pre_item_05_50169",
+		bt = "",
+		id = 40415,
+		tech_id = 0,
+		size = {
+			2,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40416] = {
+		setNum = 999,
+		describe = "叶片呈粉色的枫树，为乐园增添了一抹梦幻色彩",
+		name = "乐园粉枫",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40416",
+		prosperity = 0,
+		capacityCost = 150,
+		interact_point = "",
+		model = "island/item/05/50178/prefab/pre_item_05_50178",
+		bt = "",
+		id = 40416,
+		tech_id = 0,
+		size = {
+			3,
+			3
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40417] = {
+		setNum = 999,
+		describe = "挂着糖果与星星的粉色松树，是乐园里最甜的风景线。",
+		name = "星冠糖果树",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40417",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50155/prefab/pre_item_05_50155",
+		bt = "",
+		id = 40417,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40418] = {
+		setNum = 999,
+		describe = "像是从童话书里长出来的糖果树，树顶的月亮正微微泛着暖光。",
+		name = "月亮糖果树",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40418",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50156/prefab/pre_item_05_50156",
+		bt = "",
+		id = 40418,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40419] = {
+		setNum = 999,
+		describe = "白色雕花围栏环绕着成片粉色的郁金香，如一幅精致的油画。",
+		name = "郁金香花圃",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40419",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50157/prefab/pre_item_05_50157",
+		bt = "",
+		id = 40419,
+		tech_id = 0,
+		size = {
+			1,
+			3
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40420] = {
+		setNum = 999,
+		describe = "被修剪成兔兔造型的花圃，种的是花，长出来的是可爱~",
+		name = "兔兔花圃",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40420",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50158/prefab/pre_item_05_50158",
+		bt = "",
+		id = 40420,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40801] = {
+		setNum = 999,
+		describe = "彩色地砖拼出格子图案，每一步都像是踩在棋盘上移动~",
+		name = "花格地砖（小）",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_40801",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50194/prefab/pre_item_05_50194",
+		bt = "",
+		id = 40801,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {}
+	}
+	pg.base.island_furniture_template[40802] = {
+		setNum = 999,
+		describe = "彩色地砖拼出格子图案，每一步都像是踩在棋盘上移动~",
+		name = "花格地砖（中）",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_40802",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50195/prefab/pre_item_05_50195",
+		bt = "",
+		id = 40802,
+		tech_id = 0,
+		size = {
+			3,
+			3
+		},
+		jump_page = {}
+	}
+	pg.base.island_furniture_template[40803] = {
+		setNum = 999,
+		describe = "彩色地砖拼出格子图案，每一步都像是踩在棋盘上移动~",
+		name = "花格地砖（大）",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_40803",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50196/prefab/pre_item_05_50196",
+		bt = "",
+		id = 40803,
+		tech_id = 0,
+		size = {
+			5,
+			5
+		},
+		jump_page = {}
 	}
 end)()

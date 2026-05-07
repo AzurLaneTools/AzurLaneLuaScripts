@@ -12515,7 +12515,7 @@ _G.pg.base.gametip.buildship_heavy_tip = {
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "{namecode:442} 建造追加！"
+	tip = "马赛曲 建造追加！"
 }
 
 
@@ -26578,7 +26578,7 @@ _G.pg.base.gametip.blackfriday_help = {
 
 
 _G.pg.base.gametip.eventshop_time_hint = {
-	tip = "兑换时间截止至$1 24时"
+	tip = "兑换时间截止至$1维护"
 }
 
 
@@ -44127,6 +44127,56 @@ _G.pg.base.gametip.island_spoperation_item_2602_3 = {
 
 _G.pg.base.gametip.island_spoperation_item_2602_4 = {
 	tip = "风信子"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2605_1 = {
+	tip = "活动期间，佩芮会连续发布特产订单，完成特产订单可获得开发季PT等奖励。\n*特产订单不占用岛屿订单完成上限、也不提升好评等级"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2605_2 = {
+	tip = "活动期间，岛屿特定区域中每天都会生长出新的活动采集物，快去寻找吧！"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2605_3 = {
+	tip = "活动期间，在【青芽苗圃】【有鱼餐馆】【手工制作设备】【白熊饮品】中可生产对应特产"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2605_1 = {
+	tip = "特产采集"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2605_2 = {
+	tip = "特产制作"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2605_3 = {
+	tip = "活动管理员"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2605_1 = {
+	tip = "茉莉花"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2605_2 = {
+	tip = "向日葵"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2605_3 = {
+	tip = "西瓜"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2605_4 = {
+	tip = "红米苋"
 }
 
 

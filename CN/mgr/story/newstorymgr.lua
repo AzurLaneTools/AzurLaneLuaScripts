@@ -515,21 +515,7 @@ slot0.SendNotification = function(slot0, slot1, slot2)
 end
 
 slot0.CheckResDownload = function(slot0, slot1, slot2)
-	slot3 = slot0:_GetStoryPaintingsByName(slot1)
-
-	originalPrint("start download res " .. table.concat(slot3, ","))
-
-	slot5 = {}
-
-	for slot9, slot10 in ipairs(slot3) do
-		PaintingGroupConst.AddPaintingNameWithFilteMap(slot5, slot10)
-	end
-
-	PaintingGroupConst.PaintingDownload({
-		isShowBox = true,
-		paintingNameList = slot5,
-		finishFunc = slot2
-	})
+	SplitPackConst.DownloadByLuaArr(slot0:_GetResList(slot1), slot2)
 end
 
 slot15 = function(slot0, slot1)
@@ -1060,4 +1046,28 @@ slot0.Fix = function(slot0)
 			end
 		end
 	end
+end
+
+slot0._GetResList = function(slot0, slot1)
+	slot6 = slot0:_GetStoryPaintingsByName(slot1)
+
+	_.each(slot6, function (slot0)
+		PaintingGroupConst.AddPaintingNameWithFilteMap(uv0, slot0)
+	end)
+	_.each(slot6, function (slot0)
+		table.insert(uv0, "paintingface/" .. slot0)
+	end)
+	_.each(slot1.steps, function (slot0)
+		_.each(slot0:GetResList(), function (slot0)
+			table.insert(uv0, slot0)
+		end)
+	end)
+
+	slot10 = SplitPackMediatorResMap.MergeLuaArr({}, {}, {})
+
+	table.insert(slot10, "ui/newstoryui")
+	table.insert(slot10, "ui/newstorydialogue" .. slot1:GetDialogueStyleName())
+	table.insert(slot10, "ui/newstoryrecordui")
+
+	return slot10
 end

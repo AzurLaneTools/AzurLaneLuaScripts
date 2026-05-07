@@ -82193,7 +82193,7 @@ _G.pg.base.shop_template[70874] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 5,
+	order = 10,
 	akashi_pick = 0,
 	group = 0,
 	num = 1,
@@ -82211,9 +82211,9 @@ _G.pg.base.shop_template[70874] = {
 	time = {
 		{
 			{
-				2025,
-				11,
-				6
+				2026,
+				5,
+				7
 			},
 			{
 				0,
@@ -82223,9 +82223,9 @@ _G.pg.base.shop_template[70874] = {
 		},
 		{
 			{
-				2025,
-				11,
-				12
+				2026,
+				5,
+				13
 			},
 			{
 				23,
@@ -131915,6 +131915,41 @@ _G.pg.base.shop_template[500001] = {
 	limit_args = {},
 	effect_args = {
 		170003
+	}
+}
+
+
+_G.pg.base.shop_template[500002] = {
+	group_type = 0,
+	package_sort_id = 0,
+	time_second = 0,
+	type = 8,
+	second_text = "",
+	package_tag_open = 0,
+	first_icon = "",
+	desc = "一番赏抽卡券钻石购买",
+	group_limit = 0,
+	resource_num = 30,
+	first_text = "",
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 1,
+	akashi_pick = 0,
+	time = "always",
+	group = 0,
+	num = 1,
+	package_tag = "",
+	type_order = 0,
+	discount = 0,
+	resource_type = 14,
+	id = 500002,
+	genre = "",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		170005
 	}
 }
 

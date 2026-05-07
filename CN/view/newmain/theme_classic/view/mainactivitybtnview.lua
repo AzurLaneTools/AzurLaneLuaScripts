@@ -13,41 +13,62 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0:Register()
 end
 
+slot0.GetActivityBtnList = function()
+	return {
+		MainActSummaryBtn,
+		MainCoreActivityBtn,
+		MainActEscortBtn,
+		MainActMapBtn,
+		MainActBossBtn,
+		MainActBackHillBtn,
+		MainActAtelierBtn,
+		MainLanternFestivalBtn,
+		MainActBossRushBtn,
+		MainActAprilFoolBtn,
+		MainActMedalCollectionBtn,
+		MainActSenranBtn,
+		MainActBossSingleBtn,
+		MainActLayerBtn,
+		MainActDreamlandBtn,
+		MainActBoatAdBtn,
+		MainActBlackFridaySalesBtn,
+		MainActToLoveBtn,
+		MainActHolidayVillaBtn,
+		MainCoreActivityBtn2
+	}
+end
+
+slot0.GetSpecailBtns = function()
+	return {
+		MainActInsBtn,
+		MainActTraingCampBtn,
+		MainActRefluxBtn,
+		MainActNewServerBtn,
+		MainActDelegationBtn,
+		MainIslandActDelegationBtn,
+		MainVoteEntranceBtn,
+		MainActCompensatBtn
+	}
+end
+
 slot0.InitBtns = function(slot0)
-	slot0.activityBtns = {
-		MainActSummaryBtn.New(slot0.actBtnTpl, slot0.event, true),
-		MainCoreActivityBtn.New(slot0.actBtnTpl, slot0.event, false),
-		MainActEscortBtn.New(slot0.actBtnTpl, slot0.event),
-		MainActMapBtn.New(slot0.actBtnTpl, slot0.event),
-		MainActBossBtn.New(slot0.actBtnTpl, slot0.event),
-		MainActBackHillBtn.New(slot0.actBtnTpl, slot0.event),
-		MainActAtelierBtn.New(slot0.actBtnTpl, slot0.event),
-		MainLanternFestivalBtn.New(slot0.actBtnTpl, slot0.event),
-		MainActBossRushBtn.New(slot0.actBtnTpl, slot0.event),
-		MainActAprilFoolBtn.New(slot0.actBtnTpl, slot0.event),
-		MainActMedalCollectionBtn.New(slot0.actBtnTpl, slot0.event),
-		MainActSenranBtn.New(slot0.actBtnTpl, slot0.event),
-		MainActBossSingleBtn.New(slot0.actBtnTpl, slot0.event),
-		MainActLayerBtn.New(slot0.actBtnTpl, slot0.event),
-		MainActDreamlandBtn.New(slot0.actBtnTpl, slot0.event),
-		MainActBoatAdBtn.New(slot0.actBtnTpl, slot0.event),
-		MainActBlackFridaySalesBtn.New(slot0.actBtnTpl, slot0.event),
-		MainActToLoveBtn.New(slot0.actBtnTpl, slot0.event),
-		MainActHolidayVillaBtn.New(slot0.actBtnTpl, slot0.event),
-		MainCoreActivityBtn2.New(slot0.actBtnTpl, slot0.event)
-	}
-	slot0.specailBtns = {
-		MainActInsBtn.New(slot0._tf, slot0.event),
-		MainActTraingCampBtn.New(slot0._tf, slot0.event),
-		MainActRefluxBtn.New(slot0._tf, slot0.event),
-		MainActNewServerBtn.New(slot0._tf, slot0.event),
-		MainActDelegationBtn.New(slot0._tf, slot0.event),
-		MainIslandActDelegationBtn.New(slot0._tf, slot0.event),
-		MainVoteEntranceBtn.New(slot0._tf, slot0.event),
-		MainActCompensatBtn.New(slot0._tf, slot0.event),
-		MainLoveLetterDelegationBtn.New(slot0._tf, slot0.event),
-		MainCommonActDelegationBtn.New(slot0._tf, slot0.event)
-	}
+	slot0.activityBtns = {}
+
+	for slot4, slot5 in ipairs(uv0.GetActivityBtnList()) do
+		if slot4 == 1 then
+			table.insert(slot0.activityBtns, slot5.New(slot0.actBtnTpl, slot0.event, true))
+		elseif slot4 == 2 then
+			table.insert(slot0.activityBtns, slot5.New(slot0.actBtnTpl, slot0.event, false))
+		else
+			table.insert(slot0.activityBtns, slot5.New(slot0.actBtnTpl, slot0.event))
+		end
+	end
+
+	slot0.specailBtns = {}
+
+	for slot4, slot5 in ipairs(uv0.GetSpecailBtns()) do
+		table.insert(slot0.specailBtns, slot5.New(slot0._tf, slot0.event))
+	end
 
 	if pg.SdkMgr.GetInstance():CheckAudit() then
 		slot0.specailBtns = {

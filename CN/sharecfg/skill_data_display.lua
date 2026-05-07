@@ -3984,6 +3984,8 @@ pg.skill_data_display.all = {
 	1019261,
 	1019262,
 	1019263,
+	1014170,
+	1014171,
 	1090020,
 	1090042,
 	1090043,
@@ -4064,7 +4066,8 @@ pg.skill_data_display.all = {
 	1090442,
 	1090451,
 	1090452,
-	1090453
+	1090453,
+	1090462
 }
 pg.base = pg.base or {}
 pg.base.skill_data_display = {}
@@ -20068,6 +20071,14 @@ end)()
 		id = 1019263,
 		name = "精密操作协议 +"
 	}
+	pg.base.skill_data_display[1014170] = {
+		id = 1014170,
+		name = "Kirov Reporting! +"
+	}
+	pg.base.skill_data_display[1014171] = {
+		id = 1014171,
+		name = "Kirov Reporting! +"
+	}
 	pg.base.skill_data_display[1090020] = {
 		id = 1090020,
 		name = "火力全开·{namecode:422}"
@@ -20140,6 +20151,8 @@ end)()
 		id = 1090170,
 		name = "穿甲防护·{namecode:57}"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1090171] = {
 		id = 1090171,
 		name = "穿甲防护·{namecode:57}"
@@ -20148,8 +20161,6 @@ end)()
 		id = 1090172,
 		name = "穿甲防护·{namecode:57}"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1090191] = {
 		id = 1090191,
 		name = "重点打击·{namecode:66}"
@@ -20393,5 +20404,9 @@ end)()
 	pg.base.skill_data_display[1090453] = {
 		id = 1090453,
 		name = "集火信号-鱼雷·无敌"
+	}
+	pg.base.skill_data_display[1090462] = {
+		id = 1090462,
+		name = "炮术指挥·格伦维尔"
 	}
 end)()

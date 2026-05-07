@@ -72,6 +72,14 @@ pg.base.island_manage_restaurant = {}
 			{
 				4026,
 				9900014
+			},
+			{
+				4039,
+				9900021
+			},
+			{
+				4040,
+				9900022
 			}
 		},
 		assistant_slot = {
@@ -144,6 +152,14 @@ pg.base.island_manage_restaurant = {}
 			{
 				4024,
 				9900012
+			},
+			{
+				4037,
+				9900019
+			},
+			{
+				4038,
+				9900020
 			}
 		},
 		assistant_slot = {

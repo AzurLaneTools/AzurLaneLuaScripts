@@ -508,7 +508,7 @@ slot0.updateSkin = function(slot0)
 				end
 			end
 
-			Live2D.SetL2dSortingLayer(slot0, LayerWeightConst.L2D_DEFAULT_LAYER)
+			Live2DPainting.SetL2dSortingLayer(slot0, LayerWeightConst.L2D_DEFAULT_LAYER)
 
 			uv0.live2dCom = slot2
 			uv0.live2dCom.name = uv0.paintSkin
