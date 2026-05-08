@@ -22484,7 +22484,7 @@ _G.pg.base.gametip.story_autoplay_setting_label = {
 
 
 _G.pg.base.gametip.story_autoplay_setting_1 = {
-	tip = "Back"
+	tip = "Disabled"
 }
 
 
@@ -24581,7 +24581,7 @@ _G.pg.base.gametip.settings_battle_Btn_cancel = {
 
 
 _G.pg.base.gametip.settings_pwd_label_close = {
-	tip = "Back"
+	tip = "Disabled"
 }
 
 
