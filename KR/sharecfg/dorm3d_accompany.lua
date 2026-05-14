@@ -1,6 +1,54 @@
 pg = pg or {}
-pg.dorm3d_accompany = {
-	{
+pg.dorm3d_accompany = rawget(pg, "dorm3d_accompany") or setmetatable({
+	__name = "dorm3d_accompany"
+}, confNEO)
+pg.dorm3d_accompany.all = {
+	1,
+	2,
+	3,
+	21,
+	22,
+	31,
+	32,
+	111,
+	112,
+	121,
+	122,
+	141,
+	142
+}
+pg.dorm3d_accompany.get_id_list_by_ship_id = {
+	[10517] = {
+		111,
+		112
+	},
+	[19903] = {
+		31,
+		32
+	},
+	[20220] = {
+		1,
+		2,
+		3
+	},
+	[30221] = {
+		21,
+		22
+	},
+	[30707] = {
+		121,
+		122
+	},
+	[49905] = {
+		141,
+		142
+	}
+}
+pg.base = pg.base or {}
+pg.base.dorm3d_accompany = {}
+
+(function ()
+	pg.base.dorm3d_accompany[1] = {
 		sceneInfo = "map_siriushostel_01|Tianlangxing_DB/SiriusHostel",
 		name = "日常相伴",
 		performance_time = 20,
@@ -19,8 +67,8 @@ pg.dorm3d_accompany = {
 		},
 		jump_trigger = {},
 		unlock = {}
-	},
-	{
+	}
+	pg.base.dorm3d_accompany[2] = {
 		sceneInfo = "map_beach_01|Beach",
 		name = "休闲相伴",
 		performance_time = 20,
@@ -43,8 +91,8 @@ pg.dorm3d_accompany = {
 			4,
 			20220
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_accompany[3] = {
 		sceneInfo = "map_publiccafe_01|Publiccafe",
 		name = "캐주얼 동반",
 		performance_time = 20,
@@ -67,8 +115,8 @@ pg.dorm3d_accompany = {
 			16,
 			20220
 		}
-	},
-	[21] = {
+	}
+	pg.base.dorm3d_accompany[21] = {
 		sceneInfo = "map_noshirohostel_01|Nengdai_DB/NoshiroHostel",
 		name = "日常相伴",
 		performance_time = 20,
@@ -87,8 +135,8 @@ pg.dorm3d_accompany = {
 		},
 		jump_trigger = {},
 		unlock = {}
-	},
-	[22] = {
+	}
+	pg.base.dorm3d_accompany[22] = {
 		sceneInfo = "map_beach_01|Beach",
 		name = "休闲相伴",
 		performance_time = 20,
@@ -111,8 +159,8 @@ pg.dorm3d_accompany = {
 			4,
 			30221
 		}
-	},
-	[31] = {
+	}
+	pg.base.dorm3d_accompany[31] = {
 		sceneInfo = "map_anchoragehostel_01|Ankeleiqi_DB/Anchoragehostel",
 		name = "일상 동반",
 		performance_time = 20,
@@ -131,8 +179,8 @@ pg.dorm3d_accompany = {
 		},
 		jump_trigger = {},
 		unlock = {}
-	},
-	[32] = {
+	}
+	pg.base.dorm3d_accompany[32] = {
 		sceneInfo = "map_beach_01|Beach",
 		name = "캐주얼 동반",
 		performance_time = 20,
@@ -155,8 +203,8 @@ pg.dorm3d_accompany = {
 			4,
 			19903
 		}
-	},
-	[111] = {
+	}
+	pg.base.dorm3d_accompany[111] = {
 		sceneInfo = "map_newjerseyhostel_01|Xinzexi_DB/Newjerseyhostel",
 		name = "일상 동반",
 		performance_time = 20,
@@ -175,8 +223,8 @@ pg.dorm3d_accompany = {
 		},
 		jump_trigger = {},
 		unlock = {}
-	},
-	[112] = {
+	}
+	pg.base.dorm3d_accompany[112] = {
 		sceneInfo = "map_publiccafe_01|Publiccafe",
 		name = "캐주얼 동반",
 		performance_time = 20,
@@ -199,8 +247,8 @@ pg.dorm3d_accompany = {
 			16,
 			10517
 		}
-	},
-	[121] = {
+	}
+	pg.base.dorm3d_accompany[121] = {
 		sceneInfo = "map_dafeng_01|Dafeng_DB/Dafenghostel",
 		name = "일상 동반",
 		performance_time = 20,
@@ -219,8 +267,8 @@ pg.dorm3d_accompany = {
 		},
 		jump_trigger = {},
 		unlock = {}
-	},
-	[122] = {
+	}
+	pg.base.dorm3d_accompany[122] = {
 		sceneInfo = "map_publiccafe_01|Publiccafe",
 		name = "캐주얼 동반",
 		performance_time = 20,
@@ -243,8 +291,8 @@ pg.dorm3d_accompany = {
 			16,
 			30707
 		}
-	},
-	[141] = {
+	}
+	pg.base.dorm3d_accompany[141] = {
 		sceneInfo = "map_aijier_01|Aijier_DB/Aijierhostel",
 		name = "일상 동반",
 		performance_time = 20,
@@ -263,8 +311,8 @@ pg.dorm3d_accompany = {
 		},
 		jump_trigger = {},
 		unlock = {}
-	},
-	[142] = {
+	}
+	pg.base.dorm3d_accompany[142] = {
 		sceneInfo = "map_publiccafe_01|Publiccafe",
 		name = "캐주얼 동반",
 		performance_time = 20,
@@ -287,47 +335,5 @@ pg.dorm3d_accompany = {
 			16,
 			49905
 		}
-	},
-	get_id_list_by_ship_id = {
-		[20220] = {
-			1,
-			2,
-			3
-		},
-		[30221] = {
-			21,
-			22
-		},
-		[19903] = {
-			31,
-			32
-		},
-		[10517] = {
-			111,
-			112
-		},
-		[30707] = {
-			121,
-			122
-		},
-		[49905] = {
-			141,
-			142
-		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		21,
-		22,
-		31,
-		32,
-		111,
-		112,
-		121,
-		122,
-		141,
-		142
 	}
-}
+end)()

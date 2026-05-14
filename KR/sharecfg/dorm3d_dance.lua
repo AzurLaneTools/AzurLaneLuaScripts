@@ -1,6 +1,18 @@
 pg = pg or {}
-pg.dorm3d_dance = {
-	[10517] = {
+pg.dorm3d_dance = rawget(pg, "dorm3d_dance") or setmetatable({
+	__name = "dorm3d_dance"
+}, confNEO)
+pg.dorm3d_dance.all = {
+	10517,
+	30707,
+	49905,
+	20220
+}
+pg.base = pg.base or {}
+pg.base.dorm3d_dance = {}
+
+(function ()
+	pg.base.dorm3d_dance[10517] = {
 		default_camera = "dance_camera1",
 		song_name = "매혹적인 만남",
 		director_name = "[sequence]",
@@ -34,8 +46,8 @@ pg.dorm3d_dance = {
 			"컷2",
 			"컷3"
 		}
-	},
-	[30707] = {
+	}
+	pg.base.dorm3d_dance[30707] = {
 		default_camera = "dance_camera1",
 		song_name = "오늘의 기분_shade",
 		director_name = "[sequence]",
@@ -69,8 +81,8 @@ pg.dorm3d_dance = {
 			"컷2",
 			"컷3"
 		}
-	},
-	[49905] = {
+	}
+	pg.base.dorm3d_dance[49905] = {
 		default_camera = "dance_camera1",
 		song_name = "심연의 기대",
 		director_name = "[sequence]",
@@ -104,8 +116,8 @@ pg.dorm3d_dance = {
 			"컷2",
 			"컷3"
 		}
-	},
-	[20220] = {
+	}
+	pg.base.dorm3d_dance[20220] = {
 		default_camera = "dance_camera1",
 		song_name = "풀 리듬",
 		director_name = "[sequence]",
@@ -139,11 +151,5 @@ pg.dorm3d_dance = {
 			"컷2",
 			"컷3"
 		}
-	},
-	all = {
-		10517,
-		30707,
-		49905,
-		20220
 	}
-}
+end)()

@@ -1,6 +1,15 @@
 pg = pg or {}
-pg.arena_data_shop = {
-	{
+pg.arena_data_shop = rawget(pg, "arena_data_shop") or setmetatable({
+	__name = "arena_data_shop"
+}, confNEO)
+pg.arena_data_shop.all = {
+	1
+}
+pg.base = pg.base or {}
+pg.base.arena_data_shop = {}
+
+(function ()
+	pg.base.arena_data_shop[1] = {
 		id = 1,
 		commodity_list_1 = {
 			{
@@ -339,8 +348,5 @@ pg.arena_data_shop = {
 			100,
 			200
 		}
-	},
-	all = {
-		1
 	}
-}
+end)()

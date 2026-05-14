@@ -1,273 +1,276 @@
 pg = pg or {}
-pg.island_shop_goods = setmetatable({
-	__name = "island_shop_goods",
-	all = {
-		10000,
-		10001,
-		10002,
-		10003,
-		10004,
-		10005,
-		10006,
-		10007,
-		10008,
-		10009,
-		10010,
-		10011,
-		10012,
-		10013,
-		10014,
-		10015,
-		10016,
-		10017,
-		10018,
-		10019,
-		10020,
-		10021,
-		10022,
-		10023,
-		10024,
-		10025,
-		10026,
-		10027,
-		10028,
-		10029,
-		10030,
-		10031,
-		10032,
-		10033,
-		10034,
-		10035,
-		10036,
-		10037,
-		10038,
-		10039,
-		10040,
-		10041,
-		10042,
-		10043,
-		10044,
-		10045,
-		10046,
-		10047,
-		10048,
-		10049,
-		10050,
-		10051,
-		10052,
-		10053,
-		10054,
-		10055,
-		10056,
-		10057,
-		10058,
-		10102,
-		10103,
-		10104,
-		10105,
-		10106,
-		10107,
-		10108,
-		10109,
-		10110,
-		10111,
-		10112,
-		10113,
-		10114,
-		10115,
-		10116,
-		10117,
-		10118,
-		10119,
-		10120,
-		10121,
-		10122,
-		10123,
-		10124,
-		10125,
-		10126,
-		10127,
-		10128,
-		10129,
-		10130,
-		10131,
-		10132,
-		10133,
-		10134,
-		10135,
-		10136,
-		10137,
-		10138,
-		10139,
-		10140,
-		10141,
-		10142,
-		10143,
-		10144,
-		10145,
-		10146,
-		10147,
-		10148,
-		10149,
-		10150,
-		10151,
-		10152,
-		10153,
-		10154,
-		10155,
-		10156,
-		10157,
-		10158,
-		10201,
-		10202,
-		10203,
-		10204,
-		10205,
-		10206,
-		10207,
-		10208,
-		10209,
-		10210,
-		10211,
-		10212,
-		10213,
-		10214,
-		10215,
-		10216,
-		10217,
-		10218,
-		10219,
-		10220,
-		10221,
-		10222,
-		10223,
-		10224,
-		10225,
-		10226,
-		10227,
-		10228,
-		10229,
-		10230,
-		10231,
-		10232,
-		10233,
-		10234,
-		10235,
-		10236,
-		10237,
-		10238,
-		10239,
-		10240,
-		10241,
-		10242,
-		10243,
-		10244,
-		10245,
-		10246,
-		10247,
-		10248,
-		10249,
-		10250,
-		10251,
-		10252,
-		10253,
-		10254,
-		10255,
-		10256,
-		10257,
-		10258,
-		10259,
-		10260,
-		10261,
-		10262,
-		10263,
-		10264,
-		10265,
-		10266,
-		10267,
-		10268,
-		10269,
-		103000,
-		103001,
-		103002,
-		103003,
-		103004,
-		111500,
-		111502,
-		111503,
-		111101,
-		111102,
-		111103,
-		111104,
-		111105,
-		111106,
-		111107,
-		111108,
-		111201,
-		111202,
-		111203,
-		111204,
-		111205,
-		111206,
-		111207,
-		111208,
-		411000,
-		411001,
-		411002,
-		411003,
-		411004,
-		411005,
-		411006,
-		411007,
-		411008,
-		411009,
-		411010,
-		411011,
-		411012,
-		411014,
-		411015,
-		411016,
-		411017,
-		411018,
-		411019,
-		411020,
-		411021,
-		411022,
-		411023,
-		411024,
-		411025,
-		411026,
-		412000,
-		412001,
-		4600001,
-		4600002,
-		4600003,
-		4620004,
-		4630005,
-		4610003,
-		5010001,
-		5020001,
-		5030001,
-		5010002,
-		5020002,
-		5030002,
-		471070301,
-		473120101,
-		471051701,
-		471011001,
-		475060101,
-		474030301,
-		99000101,
-		99000102,
-		99000201,
-		99000202,
-		99000301,
-		99000302
-	}
-}, confHX)
+pg.island_shop_goods = rawget(pg, "island_shop_goods") or setmetatable({
+	__name = "island_shop_goods"
+}, confNEO)
+pg.island_shop_goods.__namecode__ = true
+pg.island_shop_goods.all = {
+	10000,
+	10001,
+	10002,
+	10003,
+	10004,
+	10005,
+	10006,
+	10007,
+	10008,
+	10009,
+	10010,
+	10011,
+	10012,
+	10013,
+	10014,
+	10015,
+	10016,
+	10017,
+	10018,
+	10019,
+	10020,
+	10021,
+	10022,
+	10023,
+	10024,
+	10025,
+	10026,
+	10027,
+	10028,
+	10029,
+	10030,
+	10031,
+	10032,
+	10033,
+	10034,
+	10035,
+	10036,
+	10037,
+	10038,
+	10039,
+	10040,
+	10041,
+	10042,
+	10043,
+	10044,
+	10045,
+	10046,
+	10047,
+	10048,
+	10049,
+	10050,
+	10051,
+	10052,
+	10053,
+	10054,
+	10055,
+	10056,
+	10057,
+	10058,
+	10102,
+	10103,
+	10104,
+	10105,
+	10106,
+	10107,
+	10108,
+	10109,
+	10110,
+	10111,
+	10112,
+	10113,
+	10114,
+	10115,
+	10116,
+	10117,
+	10118,
+	10119,
+	10120,
+	10121,
+	10122,
+	10123,
+	10124,
+	10125,
+	10126,
+	10127,
+	10128,
+	10129,
+	10130,
+	10131,
+	10132,
+	10133,
+	10134,
+	10135,
+	10136,
+	10137,
+	10138,
+	10139,
+	10140,
+	10141,
+	10142,
+	10143,
+	10144,
+	10145,
+	10146,
+	10147,
+	10148,
+	10149,
+	10150,
+	10151,
+	10152,
+	10153,
+	10154,
+	10155,
+	10156,
+	10157,
+	10158,
+	10201,
+	10202,
+	10203,
+	10204,
+	10205,
+	10206,
+	10207,
+	10208,
+	10209,
+	10210,
+	10211,
+	10212,
+	10213,
+	10214,
+	10215,
+	10216,
+	10217,
+	10218,
+	10219,
+	10220,
+	10221,
+	10222,
+	10223,
+	10224,
+	10225,
+	10226,
+	10227,
+	10228,
+	10229,
+	10230,
+	10231,
+	10232,
+	10233,
+	10234,
+	10235,
+	10236,
+	10237,
+	10238,
+	10239,
+	10240,
+	10241,
+	10242,
+	10243,
+	10244,
+	10245,
+	10246,
+	10247,
+	10248,
+	10249,
+	10250,
+	10251,
+	10252,
+	10253,
+	10254,
+	10255,
+	10256,
+	10257,
+	10258,
+	10259,
+	10260,
+	10261,
+	10262,
+	10263,
+	10264,
+	10265,
+	10266,
+	10267,
+	10268,
+	10269,
+	103000,
+	103001,
+	103002,
+	103003,
+	103004,
+	111500,
+	111502,
+	111503,
+	111101,
+	111102,
+	111103,
+	111104,
+	111105,
+	111106,
+	111107,
+	111108,
+	111201,
+	111202,
+	111203,
+	111204,
+	111205,
+	111206,
+	111207,
+	111208,
+	411000,
+	411001,
+	411002,
+	411003,
+	411004,
+	411005,
+	411006,
+	411007,
+	411008,
+	411009,
+	411010,
+	411011,
+	411012,
+	411014,
+	411015,
+	411016,
+	411017,
+	411018,
+	411019,
+	411020,
+	411021,
+	411022,
+	411023,
+	411024,
+	411025,
+	411026,
+	412000,
+	412001,
+	4600001,
+	4600002,
+	4600003,
+	4620004,
+	4630005,
+	4610003,
+	5010001,
+	5020001,
+	5030001,
+	5010002,
+	5020002,
+	5030002,
+	471070301,
+	473120101,
+	471051701,
+	471011001,
+	475060101,
+	474030301,
+	99000101,
+	99000102,
+	99000201,
+	99000202,
+	99000301,
+	99000302
+}
 pg.base = pg.base or {}
-pg.base.island_shop_goods = {
-	[10000] = {
+pg.base.island_shop_goods = {}
+
+(function ()
+	pg.base.island_shop_goods[10000] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 2,
@@ -307,8 +310,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10001] = {
+	}
+	pg.base.island_shop_goods[10001] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -348,8 +351,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10002] = {
+	}
+	pg.base.island_shop_goods[10002] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -389,8 +392,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10003] = {
+	}
+	pg.base.island_shop_goods[10003] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -430,8 +433,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10004] = {
+	}
+	pg.base.island_shop_goods[10004] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -471,8 +474,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10005] = {
+	}
+	pg.base.island_shop_goods[10005] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -512,8 +515,8 @@ pg.base.island_shop_goods = {
 				10
 			}
 		}
-	},
-	[10006] = {
+	}
+	pg.base.island_shop_goods[10006] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -553,8 +556,8 @@ pg.base.island_shop_goods = {
 				10
 			}
 		}
-	},
-	[10007] = {
+	}
+	pg.base.island_shop_goods[10007] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -594,8 +597,8 @@ pg.base.island_shop_goods = {
 				10
 			}
 		}
-	},
-	[10008] = {
+	}
+	pg.base.island_shop_goods[10008] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -635,8 +638,8 @@ pg.base.island_shop_goods = {
 				10
 			}
 		}
-	},
-	[10009] = {
+	}
+	pg.base.island_shop_goods[10009] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -676,8 +679,8 @@ pg.base.island_shop_goods = {
 				10
 			}
 		}
-	},
-	[10010] = {
+	}
+	pg.base.island_shop_goods[10010] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -717,8 +720,8 @@ pg.base.island_shop_goods = {
 				10
 			}
 		}
-	},
-	[10011] = {
+	}
+	pg.base.island_shop_goods[10011] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -758,8 +761,8 @@ pg.base.island_shop_goods = {
 				10
 			}
 		}
-	},
-	[10012] = {
+	}
+	pg.base.island_shop_goods[10012] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -799,8 +802,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10013] = {
+	}
+	pg.base.island_shop_goods[10013] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -840,8 +843,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10014] = {
+	}
+	pg.base.island_shop_goods[10014] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -881,8 +884,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10015] = {
+	}
+	pg.base.island_shop_goods[10015] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -922,8 +925,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10016] = {
+	}
+	pg.base.island_shop_goods[10016] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -963,8 +966,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10017] = {
+	}
+	pg.base.island_shop_goods[10017] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -1004,8 +1007,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10018] = {
+	}
+	pg.base.island_shop_goods[10018] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -1045,8 +1048,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10019] = {
+	}
+	pg.base.island_shop_goods[10019] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -1086,8 +1089,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10020] = {
+	}
+	pg.base.island_shop_goods[10020] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -1127,8 +1130,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10021] = {
+	}
+	pg.base.island_shop_goods[10021] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -1168,8 +1171,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10022] = {
+	}
+	pg.base.island_shop_goods[10022] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -1209,8 +1212,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10023] = {
+	}
+	pg.base.island_shop_goods[10023] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -1250,8 +1253,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10024] = {
+	}
+	pg.base.island_shop_goods[10024] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -1291,8 +1294,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10025] = {
+	}
+	pg.base.island_shop_goods[10025] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -1332,8 +1335,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10026] = {
+	}
+	pg.base.island_shop_goods[10026] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -1373,8 +1376,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10027] = {
+	}
+	pg.base.island_shop_goods[10027] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -1414,8 +1417,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10028] = {
+	}
+	pg.base.island_shop_goods[10028] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -1455,8 +1458,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10029] = {
+	}
+	pg.base.island_shop_goods[10029] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -1496,8 +1499,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10030] = {
+	}
+	pg.base.island_shop_goods[10030] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -1537,8 +1540,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10031] = {
+	}
+	pg.base.island_shop_goods[10031] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -1578,8 +1581,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10032] = {
+	}
+	pg.base.island_shop_goods[10032] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -1619,8 +1622,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10033] = {
+	}
+	pg.base.island_shop_goods[10033] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -1660,8 +1663,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10034] = {
+	}
+	pg.base.island_shop_goods[10034] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -1701,8 +1704,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10035] = {
+	}
+	pg.base.island_shop_goods[10035] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -1742,8 +1745,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10036] = {
+	}
+	pg.base.island_shop_goods[10036] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -1783,8 +1786,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10037] = {
+	}
+	pg.base.island_shop_goods[10037] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -1824,8 +1827,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10038] = {
+	}
+	pg.base.island_shop_goods[10038] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -1865,8 +1868,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10039] = {
+	}
+	pg.base.island_shop_goods[10039] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -1906,8 +1909,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10040] = {
+	}
+	pg.base.island_shop_goods[10040] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -1947,8 +1950,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10041] = {
+	}
+	pg.base.island_shop_goods[10041] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -1988,8 +1991,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10042] = {
+	}
+	pg.base.island_shop_goods[10042] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -2029,8 +2032,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10043] = {
+	}
+	pg.base.island_shop_goods[10043] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -2070,8 +2073,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10044] = {
+	}
+	pg.base.island_shop_goods[10044] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -2111,8 +2114,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10045] = {
+	}
+	pg.base.island_shop_goods[10045] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -2152,8 +2155,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10046] = {
+	}
+	pg.base.island_shop_goods[10046] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -2193,8 +2196,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10047] = {
+	}
+	pg.base.island_shop_goods[10047] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -2234,8 +2237,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10048] = {
+	}
+	pg.base.island_shop_goods[10048] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -2275,8 +2278,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10049] = {
+	}
+	pg.base.island_shop_goods[10049] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -2316,8 +2319,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10050] = {
+	}
+	pg.base.island_shop_goods[10050] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -2357,8 +2360,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10051] = {
+	}
+	pg.base.island_shop_goods[10051] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -2398,8 +2401,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10052] = {
+	}
+	pg.base.island_shop_goods[10052] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -2439,8 +2442,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10053] = {
+	}
+	pg.base.island_shop_goods[10053] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -2480,8 +2483,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10054] = {
+	}
+	pg.base.island_shop_goods[10054] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -2521,8 +2524,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10055] = {
+	}
+	pg.base.island_shop_goods[10055] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -2562,8 +2565,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10056] = {
+	}
+	pg.base.island_shop_goods[10056] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -2603,8 +2606,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10057] = {
+	}
+	pg.base.island_shop_goods[10057] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -2644,8 +2647,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10058] = {
+	}
+	pg.base.island_shop_goods[10058] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -2685,8 +2688,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10102] = {
+	}
+	pg.base.island_shop_goods[10102] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 2,
@@ -2726,8 +2729,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10103] = {
+	}
+	pg.base.island_shop_goods[10103] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -2767,8 +2770,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10104] = {
+	}
+	pg.base.island_shop_goods[10104] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -2808,8 +2811,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10105] = {
+	}
+	pg.base.island_shop_goods[10105] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -2849,8 +2852,8 @@ pg.base.island_shop_goods = {
 				10
 			}
 		}
-	},
-	[10106] = {
+	}
+	pg.base.island_shop_goods[10106] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -2890,8 +2893,8 @@ pg.base.island_shop_goods = {
 				10
 			}
 		}
-	},
-	[10107] = {
+	}
+	pg.base.island_shop_goods[10107] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -2931,8 +2934,8 @@ pg.base.island_shop_goods = {
 				10
 			}
 		}
-	},
-	[10108] = {
+	}
+	pg.base.island_shop_goods[10108] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -2972,8 +2975,8 @@ pg.base.island_shop_goods = {
 				10
 			}
 		}
-	},
-	[10109] = {
+	}
+	pg.base.island_shop_goods[10109] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -3013,8 +3016,8 @@ pg.base.island_shop_goods = {
 				10
 			}
 		}
-	},
-	[10110] = {
+	}
+	pg.base.island_shop_goods[10110] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -3054,8 +3057,8 @@ pg.base.island_shop_goods = {
 				10
 			}
 		}
-	},
-	[10111] = {
+	}
+	pg.base.island_shop_goods[10111] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -3095,8 +3098,8 @@ pg.base.island_shop_goods = {
 				10
 			}
 		}
-	},
-	[10112] = {
+	}
+	pg.base.island_shop_goods[10112] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -3136,8 +3139,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10113] = {
+	}
+	pg.base.island_shop_goods[10113] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -3177,8 +3180,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10114] = {
+	}
+	pg.base.island_shop_goods[10114] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -3218,8 +3221,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10115] = {
+	}
+	pg.base.island_shop_goods[10115] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -3259,8 +3262,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10116] = {
+	}
+	pg.base.island_shop_goods[10116] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -3300,8 +3303,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10117] = {
+	}
+	pg.base.island_shop_goods[10117] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -3341,8 +3344,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10118] = {
+	}
+	pg.base.island_shop_goods[10118] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -3382,8 +3385,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10119] = {
+	}
+	pg.base.island_shop_goods[10119] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -3423,8 +3426,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10120] = {
+	}
+	pg.base.island_shop_goods[10120] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -3464,8 +3467,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10121] = {
+	}
+	pg.base.island_shop_goods[10121] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -3505,8 +3508,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10122] = {
+	}
+	pg.base.island_shop_goods[10122] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -3546,8 +3549,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10123] = {
+	}
+	pg.base.island_shop_goods[10123] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -3587,8 +3590,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10124] = {
+	}
+	pg.base.island_shop_goods[10124] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -3628,8 +3631,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10125] = {
+	}
+	pg.base.island_shop_goods[10125] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -3669,8 +3672,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10126] = {
+	}
+	pg.base.island_shop_goods[10126] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -3710,8 +3713,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10127] = {
+	}
+	pg.base.island_shop_goods[10127] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -3751,8 +3754,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10128] = {
+	}
+	pg.base.island_shop_goods[10128] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -3792,8 +3795,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10129] = {
+	}
+	pg.base.island_shop_goods[10129] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -3833,8 +3836,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10130] = {
+	}
+	pg.base.island_shop_goods[10130] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -3874,8 +3877,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10131] = {
+	}
+	pg.base.island_shop_goods[10131] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -3915,8 +3918,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10132] = {
+	}
+	pg.base.island_shop_goods[10132] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -3956,8 +3959,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10133] = {
+	}
+	pg.base.island_shop_goods[10133] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -3997,8 +4000,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10134] = {
+	}
+	pg.base.island_shop_goods[10134] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -4038,8 +4041,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10135] = {
+	}
+	pg.base.island_shop_goods[10135] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -4079,8 +4082,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10136] = {
+	}
+	pg.base.island_shop_goods[10136] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -4120,8 +4123,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10137] = {
+	}
+	pg.base.island_shop_goods[10137] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -4161,8 +4164,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10138] = {
+	}
+	pg.base.island_shop_goods[10138] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -4202,8 +4205,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10139] = {
+	}
+	pg.base.island_shop_goods[10139] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -4243,8 +4246,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10140] = {
+	}
+	pg.base.island_shop_goods[10140] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -4284,8 +4287,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10141] = {
+	}
+	pg.base.island_shop_goods[10141] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -4325,8 +4328,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10142] = {
+	}
+	pg.base.island_shop_goods[10142] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -4366,8 +4369,10 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10143] = {
+	}
+end)()
+(function ()
+	pg.base.island_shop_goods[10143] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -4407,8 +4412,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10144] = {
+	}
+	pg.base.island_shop_goods[10144] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -4448,8 +4453,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10145] = {
+	}
+	pg.base.island_shop_goods[10145] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -4489,8 +4494,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10146] = {
+	}
+	pg.base.island_shop_goods[10146] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -4530,8 +4535,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10147] = {
+	}
+	pg.base.island_shop_goods[10147] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -4571,8 +4576,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10148] = {
+	}
+	pg.base.island_shop_goods[10148] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -4612,8 +4617,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10149] = {
+	}
+	pg.base.island_shop_goods[10149] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -4653,8 +4658,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10150] = {
+	}
+	pg.base.island_shop_goods[10150] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -4694,8 +4699,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10151] = {
+	}
+	pg.base.island_shop_goods[10151] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -4735,8 +4740,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10152] = {
+	}
+	pg.base.island_shop_goods[10152] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -4776,8 +4781,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10153] = {
+	}
+	pg.base.island_shop_goods[10153] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -4817,8 +4822,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10154] = {
+	}
+	pg.base.island_shop_goods[10154] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -4858,8 +4863,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10155] = {
+	}
+	pg.base.island_shop_goods[10155] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -4899,8 +4904,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10156] = {
+	}
+	pg.base.island_shop_goods[10156] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -4940,8 +4945,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10157] = {
+	}
+	pg.base.island_shop_goods[10157] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -4981,8 +4986,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10158] = {
+	}
+	pg.base.island_shop_goods[10158] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -5022,8 +5027,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10201] = {
+	}
+	pg.base.island_shop_goods[10201] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 2,
@@ -5063,8 +5068,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10202] = {
+	}
+	pg.base.island_shop_goods[10202] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 2,
@@ -5104,8 +5109,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10203] = {
+	}
+	pg.base.island_shop_goods[10203] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 2,
@@ -5145,8 +5150,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10204] = {
+	}
+	pg.base.island_shop_goods[10204] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -5186,8 +5191,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10205] = {
+	}
+	pg.base.island_shop_goods[10205] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -5227,8 +5232,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10206] = {
+	}
+	pg.base.island_shop_goods[10206] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -5268,8 +5273,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10207] = {
+	}
+	pg.base.island_shop_goods[10207] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -5309,8 +5314,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10208] = {
+	}
+	pg.base.island_shop_goods[10208] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -5350,8 +5355,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10209] = {
+	}
+	pg.base.island_shop_goods[10209] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -5391,8 +5396,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10210] = {
+	}
+	pg.base.island_shop_goods[10210] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -5432,8 +5437,8 @@ pg.base.island_shop_goods = {
 				10
 			}
 		}
-	},
-	[10211] = {
+	}
+	pg.base.island_shop_goods[10211] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -5473,8 +5478,8 @@ pg.base.island_shop_goods = {
 				10
 			}
 		}
-	},
-	[10212] = {
+	}
+	pg.base.island_shop_goods[10212] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -5514,8 +5519,8 @@ pg.base.island_shop_goods = {
 				10
 			}
 		}
-	},
-	[10213] = {
+	}
+	pg.base.island_shop_goods[10213] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -5555,8 +5560,8 @@ pg.base.island_shop_goods = {
 				10
 			}
 		}
-	},
-	[10214] = {
+	}
+	pg.base.island_shop_goods[10214] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -5596,8 +5601,8 @@ pg.base.island_shop_goods = {
 				10
 			}
 		}
-	},
-	[10215] = {
+	}
+	pg.base.island_shop_goods[10215] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -5637,8 +5642,8 @@ pg.base.island_shop_goods = {
 				10
 			}
 		}
-	},
-	[10216] = {
+	}
+	pg.base.island_shop_goods[10216] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -5678,8 +5683,8 @@ pg.base.island_shop_goods = {
 				10
 			}
 		}
-	},
-	[10217] = {
+	}
+	pg.base.island_shop_goods[10217] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -5719,8 +5724,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10218] = {
+	}
+	pg.base.island_shop_goods[10218] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -5760,8 +5765,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10219] = {
+	}
+	pg.base.island_shop_goods[10219] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -5801,8 +5806,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10220] = {
+	}
+	pg.base.island_shop_goods[10220] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -5842,8 +5847,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10221] = {
+	}
+	pg.base.island_shop_goods[10221] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -5883,8 +5888,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10222] = {
+	}
+	pg.base.island_shop_goods[10222] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -5924,8 +5929,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10223] = {
+	}
+	pg.base.island_shop_goods[10223] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -5965,8 +5970,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10224] = {
+	}
+	pg.base.island_shop_goods[10224] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -6006,8 +6011,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10225] = {
+	}
+	pg.base.island_shop_goods[10225] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -6047,8 +6052,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10226] = {
+	}
+	pg.base.island_shop_goods[10226] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -6088,8 +6093,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10227] = {
+	}
+	pg.base.island_shop_goods[10227] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -6129,8 +6134,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10228] = {
+	}
+	pg.base.island_shop_goods[10228] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -6170,8 +6175,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10229] = {
+	}
+	pg.base.island_shop_goods[10229] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -6211,8 +6216,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10230] = {
+	}
+	pg.base.island_shop_goods[10230] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -6252,8 +6257,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10231] = {
+	}
+	pg.base.island_shop_goods[10231] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -6293,8 +6298,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10232] = {
+	}
+	pg.base.island_shop_goods[10232] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -6334,8 +6339,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10233] = {
+	}
+	pg.base.island_shop_goods[10233] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -6375,8 +6380,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10234] = {
+	}
+	pg.base.island_shop_goods[10234] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -6416,8 +6421,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10235] = {
+	}
+	pg.base.island_shop_goods[10235] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -6457,8 +6462,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10236] = {
+	}
+	pg.base.island_shop_goods[10236] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -6498,8 +6503,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10237] = {
+	}
+	pg.base.island_shop_goods[10237] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -6539,8 +6544,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10238] = {
+	}
+	pg.base.island_shop_goods[10238] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -6580,8 +6585,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10239] = {
+	}
+	pg.base.island_shop_goods[10239] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -6621,8 +6626,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10240] = {
+	}
+	pg.base.island_shop_goods[10240] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -6662,8 +6667,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10241] = {
+	}
+	pg.base.island_shop_goods[10241] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -6703,8 +6708,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10242] = {
+	}
+	pg.base.island_shop_goods[10242] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -6744,8 +6749,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10243] = {
+	}
+	pg.base.island_shop_goods[10243] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -6785,8 +6790,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10244] = {
+	}
+	pg.base.island_shop_goods[10244] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -6826,8 +6831,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10245] = {
+	}
+	pg.base.island_shop_goods[10245] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -6867,8 +6872,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10246] = {
+	}
+	pg.base.island_shop_goods[10246] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -6908,8 +6913,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10247] = {
+	}
+	pg.base.island_shop_goods[10247] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -6949,8 +6954,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10248] = {
+	}
+	pg.base.island_shop_goods[10248] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -6990,8 +6995,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10249] = {
+	}
+	pg.base.island_shop_goods[10249] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -7031,8 +7036,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10250] = {
+	}
+	pg.base.island_shop_goods[10250] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -7072,8 +7077,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10251] = {
+	}
+	pg.base.island_shop_goods[10251] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -7113,8 +7118,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10252] = {
+	}
+	pg.base.island_shop_goods[10252] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -7154,8 +7159,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10253] = {
+	}
+	pg.base.island_shop_goods[10253] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -7195,8 +7200,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10254] = {
+	}
+	pg.base.island_shop_goods[10254] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -7236,8 +7241,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10255] = {
+	}
+	pg.base.island_shop_goods[10255] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -7277,8 +7282,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10256] = {
+	}
+	pg.base.island_shop_goods[10256] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -7318,8 +7323,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10257] = {
+	}
+	pg.base.island_shop_goods[10257] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -7359,8 +7364,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10258] = {
+	}
+	pg.base.island_shop_goods[10258] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -7400,8 +7405,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10259] = {
+	}
+	pg.base.island_shop_goods[10259] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -7441,8 +7446,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10260] = {
+	}
+	pg.base.island_shop_goods[10260] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -7482,8 +7487,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10261] = {
+	}
+	pg.base.island_shop_goods[10261] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -7523,8 +7528,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10262] = {
+	}
+	pg.base.island_shop_goods[10262] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -7564,8 +7569,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10263] = {
+	}
+	pg.base.island_shop_goods[10263] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -7605,8 +7610,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10264] = {
+	}
+	pg.base.island_shop_goods[10264] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -7646,8 +7651,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10265] = {
+	}
+	pg.base.island_shop_goods[10265] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -7687,8 +7692,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10266] = {
+	}
+	pg.base.island_shop_goods[10266] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -7728,8 +7733,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10267] = {
+	}
+	pg.base.island_shop_goods[10267] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -7769,8 +7774,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10268] = {
+	}
+	pg.base.island_shop_goods[10268] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -7810,8 +7815,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[10269] = {
+	}
+	pg.base.island_shop_goods[10269] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -7851,8 +7856,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[103000] = {
+	}
+	pg.base.island_shop_goods[103000] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -7892,8 +7897,8 @@ pg.base.island_shop_goods = {
 				10
 			}
 		}
-	},
-	[103001] = {
+	}
+	pg.base.island_shop_goods[103001] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -7933,8 +7938,8 @@ pg.base.island_shop_goods = {
 				10
 			}
 		}
-	},
-	[103002] = {
+	}
+	pg.base.island_shop_goods[103002] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -7974,8 +7979,8 @@ pg.base.island_shop_goods = {
 				10
 			}
 		}
-	},
-	[103003] = {
+	}
+	pg.base.island_shop_goods[103003] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -8015,8 +8020,8 @@ pg.base.island_shop_goods = {
 				10
 			}
 		}
-	},
-	[103004] = {
+	}
+	pg.base.island_shop_goods[103004] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -8056,8 +8061,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[111500] = {
+	}
+	pg.base.island_shop_goods[111500] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -8097,8 +8102,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[111502] = {
+	}
+	pg.base.island_shop_goods[111502] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -8138,8 +8143,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[111503] = {
+	}
+	pg.base.island_shop_goods[111503] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -8179,8 +8184,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[111101] = {
+	}
+	pg.base.island_shop_goods[111101] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -8222,8 +8227,8 @@ pg.base.island_shop_goods = {
 		unlock = {
 			3201003
 		}
-	},
-	[111102] = {
+	}
+	pg.base.island_shop_goods[111102] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -8265,8 +8270,8 @@ pg.base.island_shop_goods = {
 		unlock = {
 			3201012
 		}
-	},
-	[111103] = {
+	}
+	pg.base.island_shop_goods[111103] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -8308,8 +8313,8 @@ pg.base.island_shop_goods = {
 		unlock = {
 			3201002
 		}
-	},
-	[111104] = {
+	}
+	pg.base.island_shop_goods[111104] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -8351,8 +8356,8 @@ pg.base.island_shop_goods = {
 		unlock = {
 			3201013
 		}
-	},
-	[111105] = {
+	}
+	pg.base.island_shop_goods[111105] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -8394,8 +8399,8 @@ pg.base.island_shop_goods = {
 		unlock = {
 			3201001
 		}
-	},
-	[111106] = {
+	}
+	pg.base.island_shop_goods[111106] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -8437,8 +8442,8 @@ pg.base.island_shop_goods = {
 		unlock = {
 			3201004
 		}
-	},
-	[111107] = {
+	}
+	pg.base.island_shop_goods[111107] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -8480,8 +8485,10 @@ pg.base.island_shop_goods = {
 		unlock = {
 			3201014
 		}
-	},
-	[111108] = {
+	}
+end)()
+(function ()
+	pg.base.island_shop_goods[111108] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -8523,8 +8530,8 @@ pg.base.island_shop_goods = {
 		unlock = {
 			3201008
 		}
-	},
-	[111201] = {
+	}
+	pg.base.island_shop_goods[111201] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -8566,8 +8573,8 @@ pg.base.island_shop_goods = {
 		unlock = {
 			3201007
 		}
-	},
-	[111202] = {
+	}
+	pg.base.island_shop_goods[111202] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -8609,8 +8616,8 @@ pg.base.island_shop_goods = {
 		unlock = {
 			3201009
 		}
-	},
-	[111203] = {
+	}
+	pg.base.island_shop_goods[111203] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -8652,8 +8659,8 @@ pg.base.island_shop_goods = {
 		unlock = {
 			3201010
 		}
-	},
-	[111204] = {
+	}
+	pg.base.island_shop_goods[111204] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -8695,8 +8702,8 @@ pg.base.island_shop_goods = {
 		unlock = {
 			3201005
 		}
-	},
-	[111205] = {
+	}
+	pg.base.island_shop_goods[111205] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -8738,8 +8745,8 @@ pg.base.island_shop_goods = {
 		unlock = {
 			3201015
 		}
-	},
-	[111206] = {
+	}
+	pg.base.island_shop_goods[111206] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -8781,8 +8788,8 @@ pg.base.island_shop_goods = {
 		unlock = {
 			3201016
 		}
-	},
-	[111207] = {
+	}
+	pg.base.island_shop_goods[111207] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -8824,8 +8831,8 @@ pg.base.island_shop_goods = {
 		unlock = {
 			3201011
 		}
-	},
-	[111208] = {
+	}
+	pg.base.island_shop_goods[111208] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -8867,8 +8874,8 @@ pg.base.island_shop_goods = {
 		unlock = {
 			3201006
 		}
-	},
-	[411000] = {
+	}
+	pg.base.island_shop_goods[411000] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -8908,8 +8915,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[411001] = {
+	}
+	pg.base.island_shop_goods[411001] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -8951,8 +8958,8 @@ pg.base.island_shop_goods = {
 		unlock = {
 			3101002
 		}
-	},
-	[411002] = {
+	}
+	pg.base.island_shop_goods[411002] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -8994,8 +9001,8 @@ pg.base.island_shop_goods = {
 		unlock = {
 			3101005
 		}
-	},
-	[411003] = {
+	}
+	pg.base.island_shop_goods[411003] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -9037,8 +9044,8 @@ pg.base.island_shop_goods = {
 		unlock = {
 			3101006
 		}
-	},
-	[411004] = {
+	}
+	pg.base.island_shop_goods[411004] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -9080,8 +9087,8 @@ pg.base.island_shop_goods = {
 		unlock = {
 			3502006
 		}
-	},
-	[411005] = {
+	}
+	pg.base.island_shop_goods[411005] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -9123,8 +9130,8 @@ pg.base.island_shop_goods = {
 		unlock = {
 			3101008
 		}
-	},
-	[411006] = {
+	}
+	pg.base.island_shop_goods[411006] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -9166,8 +9173,8 @@ pg.base.island_shop_goods = {
 		unlock = {
 			3101007
 		}
-	},
-	[411007] = {
+	}
+	pg.base.island_shop_goods[411007] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -9209,8 +9216,8 @@ pg.base.island_shop_goods = {
 		unlock = {
 			3502007
 		}
-	},
-	[411008] = {
+	}
+	pg.base.island_shop_goods[411008] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -9252,8 +9259,8 @@ pg.base.island_shop_goods = {
 		unlock = {
 			3101003
 		}
-	},
-	[411009] = {
+	}
+	pg.base.island_shop_goods[411009] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -9295,8 +9302,8 @@ pg.base.island_shop_goods = {
 		unlock = {
 			3101004
 		}
-	},
-	[411010] = {
+	}
+	pg.base.island_shop_goods[411010] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -9336,8 +9343,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[411011] = {
+	}
+	pg.base.island_shop_goods[411011] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -9379,8 +9386,8 @@ pg.base.island_shop_goods = {
 		unlock = {
 			3502002
 		}
-	},
-	[411012] = {
+	}
+	pg.base.island_shop_goods[411012] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -9422,8 +9429,8 @@ pg.base.island_shop_goods = {
 		unlock = {
 			3502003
 		}
-	},
-	[411014] = {
+	}
+	pg.base.island_shop_goods[411014] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -9465,8 +9472,8 @@ pg.base.island_shop_goods = {
 		unlock = {
 			3502004
 		}
-	},
-	[411015] = {
+	}
+	pg.base.island_shop_goods[411015] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -9508,8 +9515,8 @@ pg.base.island_shop_goods = {
 		unlock = {
 			3502005
 		}
-	},
-	[411016] = {
+	}
+	pg.base.island_shop_goods[411016] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -9551,8 +9558,8 @@ pg.base.island_shop_goods = {
 		unlock = {
 			3501001
 		}
-	},
-	[411017] = {
+	}
+	pg.base.island_shop_goods[411017] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -9594,8 +9601,8 @@ pg.base.island_shop_goods = {
 		unlock = {
 			3501002
 		}
-	},
-	[411018] = {
+	}
+	pg.base.island_shop_goods[411018] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -9637,8 +9644,8 @@ pg.base.island_shop_goods = {
 		unlock = {
 			3501003
 		}
-	},
-	[411019] = {
+	}
+	pg.base.island_shop_goods[411019] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -9680,8 +9687,8 @@ pg.base.island_shop_goods = {
 		unlock = {
 			3501004
 		}
-	},
-	[411020] = {
+	}
+	pg.base.island_shop_goods[411020] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -9723,8 +9730,8 @@ pg.base.island_shop_goods = {
 		unlock = {
 			3501005
 		}
-	},
-	[411021] = {
+	}
+	pg.base.island_shop_goods[411021] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -9766,8 +9773,8 @@ pg.base.island_shop_goods = {
 		unlock = {
 			3501006
 		}
-	},
-	[411022] = {
+	}
+	pg.base.island_shop_goods[411022] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -9809,8 +9816,8 @@ pg.base.island_shop_goods = {
 		unlock = {
 			3501007
 		}
-	},
-	[411023] = {
+	}
+	pg.base.island_shop_goods[411023] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -9875,8 +9882,8 @@ pg.base.island_shop_goods = {
 				}
 			}
 		}
-	},
-	[411024] = {
+	}
+	pg.base.island_shop_goods[411024] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -9941,8 +9948,8 @@ pg.base.island_shop_goods = {
 				}
 			}
 		}
-	},
-	[411025] = {
+	}
+	pg.base.island_shop_goods[411025] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -10007,8 +10014,8 @@ pg.base.island_shop_goods = {
 				}
 			}
 		}
-	},
-	[411026] = {
+	}
+	pg.base.island_shop_goods[411026] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -10073,8 +10080,8 @@ pg.base.island_shop_goods = {
 				}
 			}
 		}
-	},
-	[412000] = {
+	}
+	pg.base.island_shop_goods[412000] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -10114,8 +10121,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[412001] = {
+	}
+	pg.base.island_shop_goods[412001] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -10155,8 +10162,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[4600001] = {
+	}
+	pg.base.island_shop_goods[4600001] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 2,
@@ -10196,8 +10203,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[4600002] = {
+	}
+	pg.base.island_shop_goods[4600002] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 2,
@@ -10237,8 +10244,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[4600003] = {
+	}
+	pg.base.island_shop_goods[4600003] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 2,
@@ -10278,8 +10285,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[4620004] = {
+	}
+	pg.base.island_shop_goods[4620004] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 2,
@@ -10319,8 +10326,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[4630005] = {
+	}
+	pg.base.island_shop_goods[4630005] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 2,
@@ -10360,8 +10367,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[4610003] = {
+	}
+	pg.base.island_shop_goods[4610003] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 2,
@@ -10401,8 +10408,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[5010001] = {
+	}
+	pg.base.island_shop_goods[5010001] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -10467,8 +10474,8 @@ pg.base.island_shop_goods = {
 				}
 			}
 		}
-	},
-	[5020001] = {
+	}
+	pg.base.island_shop_goods[5020001] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -10533,8 +10540,8 @@ pg.base.island_shop_goods = {
 				}
 			}
 		}
-	},
-	[5030001] = {
+	}
+	pg.base.island_shop_goods[5030001] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -10599,8 +10606,8 @@ pg.base.island_shop_goods = {
 				}
 			}
 		}
-	},
-	[5010002] = {
+	}
+	pg.base.island_shop_goods[5010002] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -10656,7 +10663,7 @@ pg.base.island_shop_goods = {
 				{
 					2026,
 					5,
-					20
+					21
 				},
 				{
 					12,
@@ -10665,8 +10672,8 @@ pg.base.island_shop_goods = {
 				}
 			}
 		}
-	},
-	[5020002] = {
+	}
+	pg.base.island_shop_goods[5020002] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -10722,7 +10729,7 @@ pg.base.island_shop_goods = {
 				{
 					2026,
 					5,
-					20
+					21
 				},
 				{
 					12,
@@ -10731,8 +10738,8 @@ pg.base.island_shop_goods = {
 				}
 			}
 		}
-	},
-	[5030002] = {
+	}
+	pg.base.island_shop_goods[5030002] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 1,
@@ -10788,7 +10795,7 @@ pg.base.island_shop_goods = {
 				{
 					2026,
 					5,
-					20
+					21
 				},
 				{
 					12,
@@ -10797,8 +10804,8 @@ pg.base.island_shop_goods = {
 				}
 			}
 		}
-	},
-	[471070301] = {
+	}
+	pg.base.island_shop_goods[471070301] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 4,
@@ -10838,8 +10845,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[473120101] = {
+	}
+	pg.base.island_shop_goods[473120101] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 4,
@@ -10879,8 +10886,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[471051701] = {
+	}
+	pg.base.island_shop_goods[471051701] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 4,
@@ -10920,8 +10927,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[471011001] = {
+	}
+	pg.base.island_shop_goods[471011001] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 4,
@@ -10961,8 +10968,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[475060101] = {
+	}
+	pg.base.island_shop_goods[475060101] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 4,
@@ -11002,8 +11009,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[474030301] = {
+	}
+	pg.base.island_shop_goods[474030301] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 4,
@@ -11043,8 +11050,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[99000101] = {
+	}
+	pg.base.island_shop_goods[99000101] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 4,
@@ -11084,8 +11091,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[99000102] = {
+	}
+	pg.base.island_shop_goods[99000102] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 4,
@@ -11125,8 +11132,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[99000201] = {
+	}
+	pg.base.island_shop_goods[99000201] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 4,
@@ -11166,8 +11173,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[99000202] = {
+	}
+	pg.base.island_shop_goods[99000202] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 4,
@@ -11207,8 +11214,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[99000301] = {
+	}
+	pg.base.island_shop_goods[99000301] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 4,
@@ -11248,8 +11255,8 @@ pg.base.island_shop_goods = {
 				1
 			}
 		}
-	},
-	[99000302] = {
+	}
+	pg.base.island_shop_goods[99000302] = {
 		goods_have = 0,
 		items_model = "",
 		goods_detail_type = 4,
@@ -11290,4 +11297,4 @@ pg.base.island_shop_goods = {
 			}
 		}
 	}
-}
+end)()

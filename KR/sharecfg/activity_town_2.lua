@@ -1,6 +1,15 @@
 pg = pg or {}
-pg.activity_town_2 = {
-	[50434] = {
+pg.activity_town_2 = rawget(pg, "activity_town_2") or setmetatable({
+	__name = "activity_town_2"
+}, confNEO)
+pg.activity_town_2.all = {
+	50434
+}
+pg.base = pg.base or {}
+pg.base.activity_town_2 = {}
+
+(function ()
+	pg.base.activity_town_2[50434] = {
 		gold_time_limit = 21600,
 		id = 50434,
 		favor = 1,
@@ -45,8 +54,5 @@ pg.activity_town_2 = {
 			62000000,
 			72000000
 		}
-	},
-	all = {
-		50434
 	}
-}
+end)()

@@ -1,1691 +1,138 @@
 pg = pg or {}
-pg.activity_medal_template = {
-	[571101] = {
-		activity_medal_desc = "꼼꼼한 성격의 메탈 저항의 리더. \"우리는 항상 당신을 보고 있다고도.\"",
-		next_medal = 0,
-		item = 65501,
-		remake_task_id = 0,
-		group = 5711,
-		prefab_node = "1",
-		task_id = 21035,
-		activity_medal_name = "스티커 : 루메이",
-		id = 571101,
-		medal_asset = "ActivityMedal/571101"
-	},
-	[571102] = {
-		activity_medal_desc = "아득한 별빛 하늘에서 나온 것. 그 정체는 수수께끼에 싸여 있습니다.",
-		next_medal = 0,
-		item = 65502,
-		remake_task_id = 0,
-		group = 5711,
-		prefab_node = "2",
-		task_id = 21036,
-		activity_medal_name = "스티커: 별의 짐승",
-		id = 571102,
-		medal_asset = "ActivityMedal/571102"
-	},
-	[571103] = {
-		activity_medal_desc = "별의 짐승이 나타나 밤, 은은한 밤하늘은 어느 때보다 빛나 보였습니다.",
-		next_medal = 0,
-		item = 65503,
-		remake_task_id = 0,
-		group = 5711,
-		prefab_node = "3",
-		task_id = 21037,
-		activity_medal_name = "스티커: 별하늘",
-		id = 571103,
-		medal_asset = "ActivityMedal/571103"
-	},
-	[571104] = {
-		activity_medal_desc = "외부 짐승의 잔해에서 수집한 샘플. 화학원료로 취급되기 때문에 식용으로 사용되지 않습니다.",
-		next_medal = 0,
-		item = 65504,
-		remake_task_id = 0,
-		group = 5711,
-		prefab_node = "4",
-		task_id = 21038,
-		activity_medal_name = "스티커 : 샘플",
-		id = 571104,
-		medal_asset = "ActivityMedal/571104"
-	},
-	[571105] = {
-		activity_medal_desc = "경면해역과 이터널 스타가 지키고 있는 저항 기지. 거주성이 좋다고는 할 수 없지만 방어가 튼튼합니다.",
-		next_medal = 0,
-		item = 65505,
-		remake_task_id = 0,
-		group = 5711,
-		prefab_node = "5",
-		task_id = 21039,
-		activity_medal_name = "스티커 : 석양의 기지",
-		id = 571105,
-		medal_asset = "ActivityMedal/571105"
-	},
-	[571106] = {
-		activity_medal_desc = "외부 짐승의 세력은 막강하지만 이쪽도 충분히 준비했습니다. 난전의 밤만 넘기면 희망의 서광이 보일 겁니다.",
-		next_medal = 0,
-		item = 65506,
-		remake_task_id = 0,
-		group = 5711,
-		prefab_node = "6",
-		task_id = 21040,
-		activity_medal_name = "스티커 : 난전의 밤",
-		id = 571106,
-		medal_asset = "ActivityMedal/571106"
-	},
-	[571107] = {
-		activity_medal_desc = "——ÎáÄËĐÇÖŽĘŢŇýĐÇśřŔ´ĐŻĐÇśřČĽłźˇţÓÚÎáÔŢÎáÖŽĂű×ńÎáëˇĂü",
-		next_medal = 0,
-		item = 65507,
-		remake_task_id = 0,
-		group = 5711,
-		prefab_node = "7",
-		task_id = 21041,
-		activity_medal_name = "스티커 : 별에서 가져온 물건",
-		id = 571107,
-		medal_asset = "ActivityMedal/571107"
-	},
-	[571108] = {
-		activity_medal_desc = "이쪽은 하우스다 표! 스톤은 하우스를 노리는 표!",
-		next_medal = 0,
-		item = 65508,
-		remake_task_id = 0,
-		group = 5711,
-		prefab_node = "8",
-		task_id = 21042,
-		activity_medal_name = "스티커 : 쥬쥬 컬링",
-		id = 571108,
-		medal_asset = "ActivityMedal/571108"
-	},
-	[576901] = {
-		activity_medal_desc = "「옷에 새겨진 섬세한 자수가 늦봄을 비추고, 금공작에 은기린이 빛나네.」",
-		next_medal = 0,
-		item = 65511,
-		remake_task_id = 0,
-		group = 5769,
-		prefab_node = "1",
-		task_id = 21118,
-		activity_medal_name = "스티커: 풍화예상",
-		id = 576901,
-		medal_asset = "ActivityMedal/576901"
-	},
-	[576902] = {
-		activity_medal_desc = "「하늘을 나는 기러기 우짖고, 아침 해가 처음으로 솟아오르네. 아내를 맞아 들여도, 얼음은 아직도 녹지 않았네.",
-		next_medal = 0,
-		item = 65512,
-		remake_task_id = 0,
-		group = 5769,
-		prefab_node = "2",
-		task_id = 21119,
-		activity_medal_name = "스티커: 욱일동천",
-		id = 576902,
-		medal_asset = "ActivityMedal/576902"
-	},
-	[576903] = {
-		activity_medal_desc = "「시를 퇴고하는 눈 내리는 달밤, 그림에 담긴 것은 강호의 이슬비 내리는 하늘이리니.」",
-		next_medal = 0,
-		item = 65513,
-		remake_task_id = 0,
-		group = 5769,
-		prefab_node = "3",
-		task_id = 21120,
-		activity_medal_name = "스티커: 족자",
-		id = 576903,
-		medal_asset = "ActivityMedal/576903"
-	},
-	[576904] = {
-		activity_medal_desc = "「매화는 눈꽃의 반짝임에 미치지 못한다며 겸손하지만, 눈꽃은 매화의 향기를 이겨낼 수 없네.」",
-		next_medal = 0,
-		item = 65514,
-		remake_task_id = 0,
-		group = 5769,
-		prefab_node = "4",
-		task_id = 21121,
-		activity_medal_name = "스티커: 답설심매",
-		id = 576904,
-		medal_asset = "ActivityMedal/576904"
-	},
-	[576905] = {
-		activity_medal_desc = "대모험은 역시 더 화려하고! 더 뜨겁게!",
-		next_medal = 0,
-		item = 65515,
-		remake_task_id = 0,
-		group = 5769,
-		prefab_node = "5",
-		task_id = 21122,
-		activity_medal_name = "스티커: 주작승풍",
-		id = 576905,
-		medal_asset = "ActivityMedal/576905"
-	},
-	[576906] = {
-		activity_medal_desc = "「물길이 끝나는 곳에 다다르면, 가만히 앉아서 구름이 일어나는 것을 보네」",
-		next_medal = 0,
-		item = 65516,
-		remake_task_id = 0,
-		group = 5769,
-		prefab_node = "6",
-		task_id = 21123,
-		activity_medal_name = "스티커: 뭉게구름",
-		id = 576906,
-		medal_asset = "ActivityMedal/576906"
-	},
-	[576907] = {
-		activity_medal_desc = "「제철에 수확하는 동심의 연꽃, 인연의 끈은 길고 기나니」",
-		next_medal = 0,
-		item = 65517,
-		remake_task_id = 0,
-		group = 5769,
-		prefab_node = "7",
-		task_id = 21124,
-		activity_medal_name = "스티커: 인연의 끈",
-		id = 576907,
-		medal_asset = "ActivityMedal/576907"
-	},
-	[576908] = {
-		activity_medal_desc = "지엔우 대마왕을 타도하고(취소선이 그려져 있음), 봄맞이 대모험을 축하하는 계획서!",
-		next_medal = 0,
-		item = 65518,
-		remake_task_id = 0,
-		group = 5769,
-		prefab_node = "8",
-		task_id = 21125,
-		activity_medal_name = "스티커: 비밀 계획서",
-		id = 576908,
-		medal_asset = "ActivityMedal/576908"
-	},
-	[581201] = {
-		activity_medal_desc = "「영원한 대지, 사르데냐. 신의 빛이 빛나는 한, 그 번영은 영원히 계속되리.」",
-		next_medal = 0,
-		item = 65541,
-		remake_task_id = 0,
-		group = 5812,
-		prefab_node = "1",
-		task_id = 21278,
-		activity_medal_name = "스티커: 성스러운 날개의 심상",
-		id = 581201,
-		medal_asset = "ActivityMedal/581201"
-	},
-	[581202] = {
-		activity_medal_desc = "「신상의 심상이야말로 우리를 하나로 이어주는 것.」",
-		next_medal = 0,
-		item = 65542,
-		remake_task_id = 0,
-		group = 5812,
-		prefab_node = "2",
-		task_id = 21279,
-		activity_medal_name = "스티커: 신광의 그물",
-		id = 581202,
-		medal_asset = "ActivityMedal/581202"
-	},
-	[581203] = {
-		activity_medal_desc = "「저게 위신기 드로이드야. 지금 널 응시하고 있어.」",
-		next_medal = 0,
-		item = 65543,
-		remake_task_id = 0,
-		group = 5812,
-		prefab_node = "3",
-		task_id = 21280,
-		activity_medal_name = "스티커: 위신기의 응시",
-		id = 581203,
-		medal_asset = "ActivityMedal/581203"
-	},
-	[581204] = {
-		activity_medal_desc = "「난 그림 그리는 게 제일 좋아☆」",
-		next_medal = 0,
-		item = 65544,
-		remake_task_id = 0,
-		group = 5812,
-		prefab_node = "4",
-		task_id = 21281,
-		activity_medal_name = "스티커: 낙서 스케치",
-		id = 581204,
-		medal_asset = "ActivityMedal/581204"
-	},
-	[581205] = {
-		activity_medal_desc = "「시간이 시시각각 지나고 있어. 대체 언제쯤 새장에서 탈출할 수 있을까?」",
-		next_medal = 0,
-		item = 65545,
-		remake_task_id = 0,
-		group = 5812,
-		prefab_node = "5",
-		task_id = 21282,
-		activity_medal_name = "스티커: 카운트 다운",
-		id = 581205,
-		medal_asset = "ActivityMedal/581205"
-	},
-	[581206] = {
-		activity_medal_desc = "「힘과 압박감. 그것이 바로 메카 아비트레이터 전차.」",
-		next_medal = 0,
-		item = 65546,
-		remake_task_id = 0,
-		group = 5812,
-		prefab_node = "6",
-		task_id = 21283,
-		activity_medal_name = "스티커: 전차 심판기",
-		id = 581206,
-		medal_asset = "ActivityMedal/581206"
-	},
-	[581207] = {
-		activity_medal_desc = "「왕관을 쓰는 자는 그 무게를 견뎌야 한다.」",
-		next_medal = 0,
-		item = 65547,
-		remake_task_id = 0,
-		group = 5812,
-		prefab_node = "7",
-		task_id = 21284,
-		activity_medal_name = "스티커: 영야의 왕관",
-		id = 581207,
-		medal_asset = "ActivityMedal/581207"
-	},
-	[581208] = {
-		activity_medal_desc = "「넓고도 긴, 미역 같은 촉수. 식용 금지.」",
-		next_medal = 0,
-		item = 65548,
-		remake_task_id = 0,
-		group = 5812,
-		prefab_node = "8",
-		task_id = 21285,
-		activity_medal_name = "스티커: 위신기의 촉수",
-		id = 581208,
-		medal_asset = "ActivityMedal/581208"
-	},
-	[587501] = {
-		activity_medal_desc = "밸리 병원이란…… (중략)",
-		next_medal = 0,
-		item = 65571,
-		remake_task_id = 0,
-		group = 5875,
-		prefab_node = "1",
-		task_id = 21651,
-		activity_medal_name = "스티커: 밸리 병원",
-		id = 587501,
-		medal_asset = "ActivityMedal/587501"
-	},
-	[587502] = {
-		activity_medal_desc = "세상에서 가장 날카로운 펀치야. 한 번 맞아볼래?",
-		next_medal = 0,
-		item = 65572,
-		remake_task_id = 0,
-		group = 5875,
-		prefab_node = "2",
-		task_id = 21652,
-		activity_medal_name = "스티커: 고양이 펀치!",
-		id = 587502,
-		medal_asset = "ActivityMedal/587502"
-	},
-	[587503] = {
-		activity_medal_desc = "수상한 알약. 병에 걸린 사람만 사용 가능.",
-		next_medal = 0,
-		item = 65573,
-		remake_task_id = 0,
-		group = 5875,
-		prefab_node = "3",
-		task_id = 21653,
-		activity_medal_name = "스티커: 수상한 알약",
-		id = 587503,
-		medal_asset = "ActivityMedal/587503"
-	},
-	[587504] = {
-		activity_medal_desc = "밸리 병원의 비밀을 알고 싶어?",
-		next_medal = 0,
-		item = 65574,
-		remake_task_id = 0,
-		group = 5875,
-		prefab_node = "4",
-		task_id = 21654,
-		activity_medal_name = "스티커: 병원의 비밀",
-		id = 587504,
-		medal_asset = "ActivityMedal/587504"
-	},
-	[587505] = {
-		activity_medal_desc = "과연 당신은 이 장식의 무게를 감당할 수 있을까?",
-		next_medal = 0,
-		item = 65575,
-		remake_task_id = 0,
-		group = 5875,
-		prefab_node = "5",
-		task_id = 21655,
-		activity_medal_name = "스티커: 여우의 머리 장식",
-		id = 587505,
-		medal_asset = "ActivityMedal/587505"
-	},
-	[587506] = {
-		activity_medal_desc = "얽힌 정보에서 사건의 진상을 캐낼 수 있을까?",
-		next_medal = 0,
-		item = 65576,
-		remake_task_id = 0,
-		group = 5875,
-		prefab_node = "6",
-		task_id = 21656,
-		activity_medal_name = "스티커: 단서",
-		id = 587506,
-		medal_asset = "ActivityMedal/587506"
-	},
-	[587507] = {
-		activity_medal_desc = "잠깐 따끔~ 할 거예요.",
-		next_medal = 0,
-		item = 65577,
-		remake_task_id = 0,
-		group = 5875,
-		prefab_node = "7",
-		task_id = 21657,
-		activity_medal_name = "스티커: 주사 맞을 시간",
-		id = 587507,
-		medal_asset = "ActivityMedal/587507"
-	},
-	[587508] = {
-		activity_medal_desc = "열심히 하지 않으면 일족의 인형으로 만들어 버린다고 한다. 무서워...",
-		next_medal = 0,
-		item = 65578,
-		remake_task_id = 0,
-		group = 5875,
-		prefab_node = "8",
-		task_id = 21658,
-		activity_medal_name = "스티커: 일족의 인형",
-		id = 587508,
-		medal_asset = "ActivityMedal/587508"
-	},
-	[591301] = {
-		activity_medal_desc = "자연의 힘을 지팡이를 순환시켜요. 오래된 잎을 떼어내면 새로운 싹이 절로 돋아난답니다.",
-		next_medal = 0,
-		item = 65594,
-		remake_task_id = 0,
-		group = 5913,
-		prefab_node = "8",
-		task_id = 21703,
-		activity_medal_name = "스티커: 신록의 지팡이",
-		id = 591301,
-		medal_asset = "ActivityMedal/591301"
-	},
-	[591302] = {
-		activity_medal_desc = "튤리퍼 왕국의 새로운 미래는 지금부터 시작한다.",
-		next_medal = 0,
-		item = 65595,
-		remake_task_id = 0,
-		group = 5913,
-		prefab_node = "8",
-		task_id = 21704,
-		activity_medal_name = "스티커: 미래의 꽃다발",
-		id = 591302,
-		medal_asset = "ActivityMedal/591302"
-	},
-	[591303] = {
-		activity_medal_desc = "두려워 하지 마. 이 날카로운 송곳니와 발톱은 다 너를 지키기 위한 거란다.",
-		next_medal = 0,
-		item = 65596,
-		remake_task_id = 0,
-		group = 5913,
-		prefab_node = "8",
-		task_id = 21705,
-		activity_medal_name = "스티커: 곰의 수호",
-		id = 591303,
-		medal_asset = "ActivityMedal/591303"
-	},
-	[591304] = {
-		activity_medal_desc = "자연을 엮고, 그 생명으로 터전을 재건하는 덩굴.",
-		next_medal = 0,
-		item = 65597,
-		remake_task_id = 0,
-		group = 5913,
-		prefab_node = "8",
-		task_id = 21706,
-		activity_medal_name = "스티커: 덩굴 마법",
-		id = 591304,
-		medal_asset = "ActivityMedal/591304"
-	},
-	[591305] = {
-		activity_medal_desc = "그냥 장식이 아니라, 암시야에 무선 통신, 광필터에 폭탄 발사 기능까지 갖춘 천재적인 발명품입니다!",
-		next_medal = 0,
-		item = 65598,
-		remake_task_id = 0,
-		group = 5913,
-		prefab_node = "8",
-		task_id = 21707,
-		activity_medal_name = "스티커: 전 영역 강습 코르시카 고글",
-		id = 591305,
-		medal_asset = "ActivityMedal/591305"
-	},
-	[591306] = {
-		activity_medal_desc = "이제 막 돋아난 새싹이지만, 바위 못지않은 강인한 힘이 깃들어 있다.",
-		next_medal = 0,
-		item = 65599,
-		remake_task_id = 0,
-		group = 5913,
-		prefab_node = "8",
-		task_id = 21708,
-		activity_medal_name = "스티커: 엽맥 공생",
-		id = 591306,
-		medal_asset = "ActivityMedal/591306"
-	},
-	[591307] = {
-		activity_medal_desc = "흉악하기 짝이 없는 잔챙이… 아니, 상어를 닮은 슈퍼 드레드노트급 절멸 병기 「스피르니데」다!",
-		next_medal = 0,
-		item = 65600,
-		remake_task_id = 0,
-		group = 5913,
-		prefab_node = "8",
-		task_id = 21709,
-		activity_medal_name = "스티커: 신형 전투 병기 「스피르니데」",
-		id = 591307,
-		medal_asset = "ActivityMedal/591307"
-	},
-	[591308] = {
-		activity_medal_desc = "튤립 향기가 나는 정교한 서표. 마법으로 신선함을 영원히 유지하고 있다.",
-		next_medal = 0,
-		item = 65601,
-		remake_task_id = 0,
-		group = 5913,
-		prefab_node = "8",
-		task_id = 21710,
-		activity_medal_name = "스티커: 튤리퍼 책갈피",
-		id = 591308,
-		medal_asset = "ActivityMedal/591308"
-	},
-	[597001] = {
-		activity_medal_desc = "장미 덩굴이 얽힌 탑에는 로열 네이비의 마지막 영광이 담겨 있다.",
-		next_medal = 0,
-		item = 65603,
-		remake_task_id = 0,
-		group = 5970,
-		prefab_node = "8",
-		task_id = 21715,
-		activity_medal_name = "스티커: 장미의 탑",
-		id = 597001,
-		medal_asset = "ActivityMedal/597001"
-	},
-	[597002] = {
-		activity_medal_desc = "「딱딱하고 아프기만 하잖아! 」 - 미스 D",
-		next_medal = 0,
-		item = 65604,
-		remake_task_id = 0,
-		group = 5970,
-		prefab_node = "8",
-		task_id = 21716,
-		activity_medal_name = "스티커: 광익의 사자",
-		id = 597002,
-		medal_asset = "ActivityMedal/597002"
-	},
-	[597003] = {
-		activity_medal_desc = "사자를 타고 특이점을 넘어, 미지의 세상으로 출항하라!",
-		next_medal = 0,
-		item = 65605,
-		remake_task_id = 0,
-		group = 5970,
-		prefab_node = "8",
-		task_id = 21717,
-		activity_medal_name = "스티커: 메세케테트",
-		id = 597003,
-		medal_asset = "ActivityMedal/597003"
-	},
-	[597004] = {
-		activity_medal_desc = "「기적 재현 - 알렉산드리아 대등대」에 탑재된 항로 비콘. 참고로 디자인은 클레오파트라가 특별 주문한 것이라고 한다.",
-		next_medal = 0,
-		item = 65606,
-		remake_task_id = 0,
-		group = 5970,
-		prefab_node = "8",
-		task_id = 21718,
-		activity_medal_name = "스티커: 항로 비콘",
-		id = 597004,
-		medal_asset = "ActivityMedal/597004"
-	},
-	[597005] = {
-		activity_medal_desc = "로열 네이비는 적을 만나면 반드시 멸한다!",
-		next_medal = 0,
-		item = 65607,
-		remake_task_id = 0,
-		group = 5970,
-		prefab_node = "8",
-		task_id = 21719,
-		activity_medal_name = "스티커: 일전불사",
-		id = 597005,
-		medal_asset = "ActivityMedal/597005"
-	},
-	[597006] = {
-		activity_medal_desc = "대체 누가 만든 걸까? 무얼 위해서?",
-		next_medal = 0,
-		item = 65608,
-		remake_task_id = 0,
-		group = 5970,
-		prefab_node = "8",
-		task_id = 21720,
-		activity_medal_name = "스티커: 만월의 꽃봉오리",
-		id = 597006,
-		medal_asset = "ActivityMedal/597006"
-	},
-	[597007] = {
-		activity_medal_desc = "장미의 탑, 성벽, 그리고 이와 이어진 통로. 이 모든 것이 장미의 요새를 이루고 있다.",
-		next_medal = 0,
-		item = 65609,
-		remake_task_id = 0,
-		group = 5970,
-		prefab_node = "8",
-		task_id = 21721,
-		activity_medal_name = "스티커: 장미의 요새",
-		id = 597007,
-		medal_asset = "ActivityMedal/597007"
-	},
-	[597008] = {
-		activity_medal_desc = "붉기도, 하얗기도 한 장미.",
-		next_medal = 0,
-		item = 65610,
-		remake_task_id = 0,
-		group = 5970,
-		prefab_node = "8",
-		task_id = 21722,
-		activity_medal_name = "스티커: 두 가지 색의 장미",
-		id = 597008,
-		medal_asset = "ActivityMedal/597008"
-	},
-	[597101] = {
-		activity_medal_desc = "오늘 하루도 알찼어…… 내일도, 모레도, 글피도! 힘내보자!",
-		next_medal = 0,
-		item = 65612,
-		remake_task_id = 0,
-		group = 5971,
-		prefab_node = "8",
-		task_id = 21724,
-		activity_medal_name = "스티커: 알찬 하루",
-		id = 597101,
-		medal_asset = "ActivityMedal/597101"
-	},
-	[597102] = {
-		activity_medal_desc = "40… 80… 120… 160…",
-		next_medal = 0,
-		item = 65613,
-		remake_task_id = 0,
-		group = 5971,
-		prefab_node = "8",
-		task_id = 21725,
-		activity_medal_name = "스티커: 리틀 해머",
-		id = 597102,
-		medal_asset = "ActivityMedal/597102"
-	},
-	[597103] = {
-		activity_medal_desc = "내가 대어를 낚은 건 어떻게 알았어?",
-		next_medal = 0,
-		item = 65614,
-		remake_task_id = 0,
-		group = 5971,
-		prefab_node = "8",
-		task_id = 21726,
-		activity_medal_name = "스티커: 대어 발견",
-		id = 597103,
-		medal_asset = "ActivityMedal/597103"
-	},
-	[597104] = {
-		activity_medal_desc = "으앗! 튜브를 바다에 떨어뜨렸어! 빠지기 전에 튜브 좀…… 응?",
-		next_medal = 0,
-		item = 65615,
-		remake_task_id = 0,
-		group = 5971,
-		prefab_node = "8",
-		task_id = 21727,
-		activity_medal_name = "스티커: 구조용 튜브",
-		id = 597104,
-		medal_asset = "ActivityMedal/597104"
-	},
-	[597105] = {
-		activity_medal_desc = "1등 축하합니다! ID를 입력하고 보상을 수령하세요!",
-		next_medal = 0,
-		item = 65616,
-		remake_task_id = 0,
-		group = 5971,
-		prefab_node = "8",
-		task_id = 21728,
-		activity_medal_name = "스티커: 넘버원 플레이어",
-		id = 597105,
-		medal_asset = "ActivityMedal/597105"
-	},
-	[597106] = {
-		activity_medal_desc = "야생의 포획자가 야생의 보물 상자를 낚아채는 귀중한 순간.",
-		next_medal = 0,
-		item = 65617,
-		remake_task_id = 0,
-		group = 5971,
-		prefab_node = "8",
-		task_id = 21729,
-		activity_medal_name = "스티커: 포획의 순간",
-		id = 597106,
-		medal_asset = "ActivityMedal/597106"
-	},
-	[597107] = {
-		activity_medal_desc = "한 척만 더… 딱 한 척만큼만 물자를 더 줘……",
-		next_medal = 0,
-		item = 65618,
-		remake_task_id = 0,
-		group = 5971,
-		prefab_node = "8",
-		task_id = 21730,
-		activity_medal_name = "스티커: 한 척 더",
-		id = 597107,
-		medal_asset = "ActivityMedal/597107"
-	},
-	[5002101] = {
-		activity_medal_desc = "밤이 깊어지면 검은 옷을 입은 자가 움직인다. 다음 타깃은 과연 누구일까?",
-		next_medal = 0,
-		item = 65632,
-		remake_task_id = 0,
-		group = 50021,
-		prefab_node = "1",
-		task_id = 21777,
-		activity_medal_name = "스티커: 수수께끼의 검은 옷",
-		id = 5002101,
-		medal_asset = "ActivityMedal/5002101"
-	},
-	[5002102] = {
-		activity_medal_desc = "저쪽이다! 용의자 발견!",
-		next_medal = 0,
-		item = 65633,
-		remake_task_id = 0,
-		group = 50021,
-		prefab_node = "2",
-		task_id = 21778,
-		activity_medal_name = "스티커: 체포 영장",
-		id = 5002102,
-		medal_asset = "ActivityMedal/5002102"
-	},
-	[5002103] = {
-		activity_medal_desc = "이 깃발만 따라와! 다른 관광객의 질문에는 대답하면 안 돼! 절대로!",
-		next_medal = 0,
-		item = 65634,
-		remake_task_id = 0,
-		group = 50021,
-		prefab_node = "3",
-		task_id = 21779,
-		activity_medal_name = "스티커: 가이드 깃발",
-		id = 5002103,
-		medal_asset = "ActivityMedal/5002103"
-	},
-	[5002104] = {
-		activity_medal_desc = "이 녀석이랑 속도를 겨루고 싶다고?",
-		next_medal = 0,
-		item = 65635,
-		remake_task_id = 0,
-		group = 50021,
-		prefab_node = "4",
-		task_id = 21780,
-		activity_medal_name = "스티커: 순찰용 차량",
-		id = 5002104,
-		medal_asset = "ActivityMedal/5002104"
-	},
-	[5002105] = {
-		activity_medal_desc = "토끼 경찰이 현장에 도착했답니다♪ 수사를 지원하러 왔으니 다들 조심하세요~",
-		next_medal = 0,
-		item = 65636,
-		remake_task_id = 0,
-		group = 50021,
-		prefab_node = "5",
-		task_id = 21781,
-		activity_medal_name = "스티커: 토끼 순경",
-		id = 5002105,
-		medal_asset = "ActivityMedal/5002105"
-	},
-	[5002106] = {
-		activity_medal_desc = "모자를 쓰고 조례를 복창하라! 까먹었으면 10번 받아쓰기 시킬 거야!",
-		next_medal = 0,
-		item = 65637,
-		remake_task_id = 0,
-		group = 50021,
-		prefab_node = "6",
-		task_id = 21782,
-		activity_medal_name = "스티커: 제복 모자",
-		id = 5002106,
-		medal_asset = "ActivityMedal/5002106"
-	},
-	[5002107] = {
-		activity_medal_desc = "계속 지켜보고 있어…… 계속…… 계속 말이야……",
-		next_medal = 0,
-		item = 65638,
-		remake_task_id = 0,
-		group = 50021,
-		prefab_node = "7",
-		task_id = 21783,
-		activity_medal_name = "스티커: 도망칠 수 없어",
-		id = 5002107,
-		medal_asset = "ActivityMedal/5002107"
-	},
-	[5002108] = {
-		activity_medal_desc = "진실은 언제나 하나뿐! 범인은…… 바로 너야!",
-		next_medal = 0,
-		item = 65639,
-		remake_task_id = 0,
-		group = 50021,
-		prefab_node = "8",
-		task_id = 21784,
-		activity_medal_name = "기념 스티커: 조사 영상",
-		id = 5002108,
-		medal_asset = "ActivityMedal/5002108"
-	},
-	[5008701] = {
-		activity_medal_desc = "유성이 떨어져 심연이 형성되고, 재앙이 찾아올 때 성전이 현현하리라.",
-		next_medal = 0,
-		item = 65666,
-		remake_task_id = 0,
-		group = 50087,
-		prefab_node = "1",
-		task_id = 21803,
-		activity_medal_name = "스티커: 심연에서",
-		id = 5008701,
-		medal_asset = "ActivityMedal/5008701"
-	},
-	[5008702] = {
-		activity_medal_desc = "우로보로스 마법학교가 있는 곳. 심연과 관련된 다양한 활동이 이뤄지고 있다.",
-		next_medal = 0,
-		item = 65667,
-		remake_task_id = 0,
-		group = 50087,
-		prefab_node = "2",
-		task_id = 21804,
-		activity_medal_name = "스티커: 아질 성",
-		id = 5008702,
-		medal_asset = "ActivityMedal/5008702"
-	},
-	[5008703] = {
-		activity_medal_desc = "이 정도쯤은 플루즈한테 맡기면 아무것도 아니야♪",
-		next_medal = 0,
-		item = 65668,
-		remake_task_id = 0,
-		group = 50087,
-		prefab_node = "3",
-		task_id = 21805,
-		activity_medal_name = "스티커: 무장 제어 팩터",
-		id = 5008703,
-		medal_asset = "ActivityMedal/5008703"
-	},
-	[5008704] = {
-		activity_medal_desc = "적을 굴복시키는 최선의 방법은 화력을 미친듯이 쏟아 붓는 것이지!",
-		next_medal = 0,
-		item = 65669,
-		remake_task_id = 0,
-		group = 50087,
-		prefab_node = "4",
-		task_id = 21806,
-		activity_medal_name = "스티커: 고대 골렘",
-		id = 5008704,
-		medal_asset = "ActivityMedal/5008704"
-	},
-	[5008705] = {
-		activity_medal_desc = "마른 가지가 필사적으로 하늘을 향해 그 잎을 드리우며, 마치 빛바랜 신의 왕관처럼 엘프의 마지막 혈통을 지켜내고 있다.",
-		next_medal = 0,
-		item = 65670,
-		remake_task_id = 0,
-		group = 50087,
-		prefab_node = "5",
-		task_id = 21807,
-		activity_medal_name = "스티커: 어머니 정령의 나무",
-		id = 5008705,
-		medal_asset = "ActivityMedal/5008705"
-	},
-	[5008706] = {
-		activity_medal_desc = "마희는 늘 당신을 지켜보고 있어――",
-		next_medal = 0,
-		item = 65671,
-		remake_task_id = 0,
-		group = 50087,
-		prefab_node = "6",
-		task_id = 21808,
-		activity_medal_name = "스티커: 악마의 눈",
-		id = 5008706,
-		medal_asset = "ActivityMedal/5008706"
-	},
-	[5008707] = {
-		activity_medal_desc = "하늘을 찌르던 오래된 거목은 이제 잊혀져 그루터기만 덩그러니 남았다.",
-		next_medal = 0,
-		item = 65672,
-		remake_task_id = 0,
-		group = 50087,
-		prefab_node = "7",
-		task_id = 21809,
-		activity_medal_name = "스티커: 썩은 나무",
-		id = 5008707,
-		medal_asset = "ActivityMedal/5008707"
-	},
-	[5008708] = {
-		activity_medal_desc = "한겨울의 요새여, 겨울 장군이 돌아왔다!",
-		next_medal = 0,
-		item = 65673,
-		remake_task_id = 0,
-		group = 50087,
-		prefab_node = "8",
-		task_id = 21810,
-		activity_medal_name = "스티커: 빙설의 왕관",
-		id = 5008708,
-		medal_asset = "ActivityMedal/5008708"
-	},
-	[5013601] = {
-		activity_medal_desc = "「천역은 곧 외부의 담이니, 아마하라는 천역으로 말미암아 그 존재가 정해진다. 설령 땅이 부서지고 산이 무너져도, 대격변이 찾아오더라도… 천역 아마하라는 영원히 존재해야 한다.」",
-		next_medal = 0,
-		item = 65686,
-		remake_task_id = 0,
-		group = 50136,
-		prefab_node = "1",
-		task_id = 21836,
-		activity_medal_name = "스티커: 천역 아마하라",
-		id = 5013601,
-		medal_asset = "ActivityMedal/5013601"
-	},
-	[5013602] = {
-		activity_medal_desc = "봉황이 춤추는 아름다운 그림자, 그 울음소리는 아마하라 전역에 울려 퍼진다.",
-		next_medal = 0,
-		item = 65687,
-		remake_task_id = 0,
-		group = 50136,
-		prefab_node = "2",
-		task_id = 21837,
-		activity_medal_name = "스티커: 봉황의 그림자",
-		id = 5013602,
-		medal_asset = "ActivityMedal/5013602"
-	},
-	[5013603] = {
-		activity_medal_desc = "구름을 타고 아마하라에 춤을 바쳐라.",
-		next_medal = 0,
-		item = 65688,
-		remake_task_id = 0,
-		group = 50136,
-		prefab_node = "3",
-		task_id = 21838,
-		activity_medal_name = "스티커: 아마하라의 춤",
-		id = 5013603,
-		medal_asset = "ActivityMedal/5013603"
-	},
-	[5013604] = {
-		activity_medal_desc = "두루마리에 그려진 것은 아마하라의 풍경이리니.",
-		next_medal = 0,
-		item = 65689,
-		remake_task_id = 0,
-		group = 50136,
-		prefab_node = "4",
-		task_id = 21839,
-		activity_medal_name = "스티커: 아마하라 두루마리",
-		id = 5013604,
-		medal_asset = "ActivityMedal/5013604"
-	},
-	[5013605] = {
-		activity_medal_desc = "먼곳에서 찾아온 손님이여, 이 술을 드시옵소서.",
-		next_medal = 0,
-		item = 65690,
-		remake_task_id = 0,
-		group = 50136,
-		prefab_node = "5",
-		task_id = 21840,
-		activity_medal_name = "스티커: 운해의 명주",
-		id = 5013605,
-		medal_asset = "ActivityMedal/5013605"
-	},
-	[5013606] = {
-		activity_medal_desc = "▂▃▆▂▃▆▇▂▃▇█▆▆▇▇▆▇",
-		next_medal = 0,
-		item = 65691,
-		remake_task_id = 0,
-		group = 50136,
-		prefab_node = "6",
-		task_id = 21841,
-		activity_medal_name = "스티커: 염마의 숨결",
-		id = 5013606,
-		medal_asset = "ActivityMedal/5013606"
-	},
-	[5013607] = {
-		activity_medal_desc = "보들보들 폭신폭신하지만 절대 손댈 수 없다……",
-		next_medal = 0,
-		item = 65692,
-		remake_task_id = 0,
-		group = 50136,
-		prefab_node = "7",
-		task_id = 21842,
-		activity_medal_name = "스티커: 영묘한 여우",
-		id = 5013607,
-		medal_asset = "ActivityMedal/5013607"
-	},
-	[5013608] = {
-		activity_medal_desc = "이마에 대면 환상이 현실이 된다.",
-		next_medal = 0,
-		item = 65693,
-		remake_task_id = 0,
-		group = 50136,
-		prefab_node = "8",
-		task_id = 21843,
-		activity_medal_name = "스티커: 환몽석",
-		id = 5013608,
-		medal_asset = "ActivityMedal/5013608"
-	},
-	[5020901] = {
-		activity_medal_desc = "자유 군도. 자유를 추구하는 사람들의 군도.",
-		next_medal = 0,
-		item = 65723,
-		remake_task_id = 0,
-		group = 50209,
-		prefab_node = "1",
-		task_id = 21850,
-		activity_medal_name = "스티커: 자유 군도",
-		id = 5020901,
-		medal_asset = "ActivityMedal/5020901"
-	},
-	[5020902] = {
-		activity_medal_desc = "복수의 여왕 선단의 스티커!",
-		next_medal = 0,
-		item = 65724,
-		remake_task_id = 0,
-		group = 50209,
-		prefab_node = "2",
-		task_id = 21851,
-		activity_medal_name = "스티커: 복수의 여왕 선단",
-		id = 5020902,
-		medal_asset = "ActivityMedal/5020902"
-	},
-	[5020903] = {
-		activity_medal_desc = "템페스타 선단의 스티커!",
-		next_medal = 0,
-		item = 65725,
-		remake_task_id = 0,
-		group = 50209,
-		prefab_node = "3",
-		task_id = 21852,
-		activity_medal_name = "스티커: 템페스타 선단",
-		id = 5020903,
-		medal_asset = "ActivityMedal/5020903"
-	},
-	[5020904] = {
-		activity_medal_desc = "벽운의 수호자의 스티커!",
-		next_medal = 0,
-		item = 65726,
-		remake_task_id = 0,
-		group = 50209,
-		prefab_node = "4",
-		task_id = 21853,
-		activity_medal_name = "스티커: 벽운의 수호자",
-		id = 5020904,
-		medal_asset = "ActivityMedal/5020904"
-	},
-	[5020905] = {
-		activity_medal_desc = "자유 군도에 위치한 유적 등대. 비밀이 숨겨져 있다.",
-		next_medal = 0,
-		item = 65727,
-		remake_task_id = 0,
-		group = 50209,
-		prefab_node = "5",
-		task_id = 21854,
-		activity_medal_name = "스티커: 유적 등대",
-		id = 5020905,
-		medal_asset = "ActivityMedal/5020905"
-	},
-	[5020906] = {
-		activity_medal_desc = "여신 교회의 스티커!",
-		next_medal = 0,
-		item = 65728,
-		remake_task_id = 0,
-		group = 50209,
-		prefab_node = "6",
-		task_id = 21855,
-		activity_medal_name = "스티커: 여신 교회",
-		id = 5020906,
-		medal_asset = "ActivityMedal/5020906"
-	},
-	[5020907] = {
-		activity_medal_desc = "로열 포춘이 직접 만든 목제 나침반. 누가 봐도 진짜처럼 보인다.",
-		next_medal = 0,
-		item = 65729,
-		remake_task_id = 0,
-		group = 50209,
-		prefab_node = "7",
-		task_id = 21856,
-		activity_medal_name = "스티커: 목제 나침반",
-		id = 5020907,
-		medal_asset = "ActivityMedal/5020907"
-	},
-	[5020908] = {
-		activity_medal_desc = "트레저 헌터의 스티커!",
-		next_medal = 0,
-		item = 65730,
-		remake_task_id = 0,
-		group = 50209,
-		prefab_node = "8",
-		task_id = 21857,
-		activity_medal_name = "스티커: 트레저 헌터",
-		id = 5020908,
-		medal_asset = "ActivityMedal/5020908"
-	},
-	[5029501] = {
-		activity_medal_desc = "베일 아래, 창공의 별들이 지금도 눈부시게 빛나고 있다.",
-		next_medal = 0,
-		item = 65786,
-		remake_task_id = 0,
-		group = 50295,
-		prefab_node = "1",
-		task_id = 21874,
-		activity_medal_name = "스티커: 창공의 별",
-		id = 5029501,
-		medal_asset = "ActivityMedal/5029501"
-	},
-	[5029502] = {
-		activity_medal_desc = "기나긴 꿈을 꾼 것 같은 느낌……",
-		next_medal = 0,
-		item = 65787,
-		remake_task_id = 0,
-		group = 50295,
-		prefab_node = "2",
-		task_id = 21875,
-		activity_medal_name = "스티커: 블루 고스트",
-		id = 5029502,
-		medal_asset = "ActivityMedal/5029502"
-	},
-	[5029503] = {
-		activity_medal_desc = "여기서 별들의 목소리에 귀를 기울이자.",
-		next_medal = 0,
-		item = 65788,
-		remake_task_id = 0,
-		group = 50295,
-		prefab_node = "3",
-		task_id = 21876,
-		activity_medal_name = "스티커: 은하의 별",
-		id = 5029503,
-		medal_asset = "ActivityMedal/5029503"
-	},
-	[5029504] = {
-		activity_medal_desc = "사신이자, 사신이 아닌 자.",
-		next_medal = 0,
-		item = 65789,
-		remake_task_id = 0,
-		group = 50295,
-		prefab_node = "4",
-		task_id = 21877,
-		activity_medal_name = "스티커: 사신",
-		id = 5029504,
-		medal_asset = "ActivityMedal/5029504"
-	},
-	[5029505] = {
-		activity_medal_desc = "「지금 사람은 보지 못하는 옛 시절의 달, 지금 달은 이미 지나 옛 사람을 비추나니」",
-		next_medal = 0,
-		item = 65790,
-		remake_task_id = 0,
-		group = 50295,
-		prefab_node = "5",
-		task_id = 21878,
-		activity_medal_name = "스티커: 달과 옥륜",
-		id = 5029505,
-		medal_asset = "ActivityMedal/5029505"
-	},
-	[5029506] = {
-		activity_medal_desc = "처음 뵙겠습니다. 벽람항로의 지휘관님. 저는 「은빛 여우」라고 부르시면 됩니다.",
-		next_medal = 0,
-		item = 65791,
-		remake_task_id = 0,
-		group = 50295,
-		prefab_node = "6",
-		task_id = 21879,
-		activity_medal_name = "스티커: 은빛 여우",
-		id = 5029506,
-		medal_asset = "ActivityMedal/5029506"
-	},
-	[5029507] = {
-		activity_medal_desc = "언젠가는 꼭 만날 수 있을 거야.",
-		next_medal = 0,
-		item = 65792,
-		remake_task_id = 0,
-		group = 50295,
-		prefab_node = "7",
-		task_id = 21880,
-		activity_medal_name = "스티커: 헬레나",
-		id = 5029507,
-		medal_asset = "ActivityMedal/5029507"
-	},
-	[5029508] = {
-		activity_medal_desc = "여기 미사일이 떨어지기라도 하면……",
-		next_medal = 0,
-		item = 65793,
-		remake_task_id = 0,
-		group = 50295,
-		prefab_node = "8",
-		task_id = 21881,
-		activity_medal_name = "스티커: 연합 이사회",
-		id = 5029508,
-		medal_asset = "ActivityMedal/5029508"
-	},
-	[5035901] = {
-		activity_medal_desc = "지금 가장 핫한 건 누구? 그래, 바로 나야!",
-		next_medal = 0,
-		item = 65803,
-		remake_task_id = 0,
-		group = 50359,
-		prefab_node = "1",
-		task_id = 21884,
-		activity_medal_name = "스티커: 촬영 진행 중!",
-		id = 5035901,
-		medal_asset = "ActivityMedal/5035901"
-	},
-	[5035902] = {
-		activity_medal_desc = "3, 2, 1! 치즈~",
-		next_medal = 0,
-		item = 65804,
-		remake_task_id = 0,
-		group = 50359,
-		prefab_node = "2",
-		task_id = 21885,
-		activity_medal_name = "스티커: 카메라",
-		id = 5035902,
-		medal_asset = "ActivityMedal/5035902"
-	},
-	[5035903] = {
-		activity_medal_desc = "행거는 의상을 걸 때 쓰는 것…",
-		next_medal = 0,
-		item = 65805,
-		remake_task_id = 0,
-		group = 50359,
-		prefab_node = "3",
-		task_id = 21886,
-		activity_medal_name = "스티커: 행거",
-		id = 5035903,
-		medal_asset = "ActivityMedal/5035903"
-	},
-	[5035904] = {
-		activity_medal_desc = "조금만 더…… 조금만 더하면 잡을 수 있어……!",
-		next_medal = 0,
-		item = 65806,
-		remake_task_id = 0,
-		group = 50359,
-		prefab_node = "4",
-		task_id = 21887,
-		activity_medal_name = "스티커: 뽑기 기계",
-		id = 5035904,
-		medal_asset = "ActivityMedal/5035904"
-	},
-	[5035905] = {
-		activity_medal_desc = "주목을 한몸에 받을 준비는 됐어?",
-		next_medal = 0,
-		item = 65807,
-		remake_task_id = 0,
-		group = 50359,
-		prefab_node = "5",
-		task_id = 21888,
-		activity_medal_name = "스티커: 스포트라이트",
-		id = 5035905,
-		medal_asset = "ActivityMedal/5035905"
-	},
-	[5035906] = {
-		activity_medal_desc = "지금부터… 패션 란제리 특집 촬영 시간!",
-		next_medal = 0,
-		item = 65808,
-		remake_task_id = 0,
-		group = 50359,
-		prefab_node = "6",
-		task_id = 21889,
-		activity_medal_name = "스티커: 패션",
-		id = 5035906,
-		medal_asset = "ActivityMedal/5035906"
-	},
-	[5035907] = {
-		activity_medal_desc = "같은 과일이라도 촬영할 방법은 100가지나 있거든?",
-		next_medal = 0,
-		item = 65809,
-		remake_task_id = 0,
-		group = 50359,
-		prefab_node = "7",
-		task_id = 21890,
-		activity_medal_name = "스티커: 프루트 앨범",
-		id = 5035907,
-		medal_asset = "ActivityMedal/5035907"
-	},
-	[5035908] = {
-		activity_medal_desc = "카메라를 안 보는 순간도 포함해 모든 걸 기록할 거야!",
-		next_medal = 0,
-		item = 65810,
-		remake_task_id = 0,
-		group = 50359,
-		prefab_node = "8",
-		task_id = 21891,
-		activity_medal_name = "스티커: 필름",
-		id = 5035908,
-		medal_asset = "ActivityMedal/5035908"
-	},
-	[5040501] = {
-		activity_medal_desc = "군자의 옥패에 담긴 그 마음은 누구와 이어질까?",
-		next_medal = 0,
-		item = 65849,
-		remake_task_id = 0,
-		group = 50405,
-		prefab_node = "1",
-		task_id = 21893,
-		activity_medal_name = "스티커: 봄의 회옥",
-		id = 5040501,
-		medal_asset = "ActivityMedal/5040501"
-	},
-	[5040502] = {
-		activity_medal_desc = "자, 행사장에 모인 모든 이의 시선이 내게 쏟아진다.",
-		next_medal = 0,
-		item = 65850,
-		remake_task_id = 0,
-		group = 50405,
-		prefab_node = "2",
-		task_id = 21894,
-		activity_medal_name = "스티커: 날아오르는 등롱",
-		id = 5040502,
-		medal_asset = "ActivityMedal/5040502"
-	},
-	[5040503] = {
-		activity_medal_desc = "산자락을 감싼 달빛의 은은한 향기가 마음의 현을 울린다.",
-		next_medal = 0,
-		item = 65851,
-		remake_task_id = 0,
-		group = 50405,
-		prefab_node = "3",
-		task_id = 21895,
-		activity_medal_name = "스티커: 달의 향기",
-		id = 5040503,
-		medal_asset = "ActivityMedal/5040503"
-	},
-	[5040504] = {
-		activity_medal_desc = "쾅! 낙찰!",
-		next_medal = 0,
-		item = 65852,
-		remake_task_id = 0,
-		group = 50405,
-		prefab_node = "4",
-		task_id = 21896,
-		activity_medal_name = "스티커: 경매 망치",
-		id = 5040504,
-		medal_asset = "ActivityMedal/5040504"
-	},
-	[5040505] = {
-		activity_medal_desc = "한 줄기 잔향이 조용히 답을 속삭인다.",
-		next_medal = 0,
-		item = 65853,
-		remake_task_id = 0,
-		group = 50405,
-		prefab_node = "5",
-		task_id = 21897,
-		activity_medal_name = "스티커: 향로",
-		id = 5040505,
-		medal_asset = "ActivityMedal/5040505"
-	},
-	[5040506] = {
-		activity_medal_desc = "자, 함께 대모험을 떠나자!",
-		next_medal = 0,
-		item = 65854,
-		remake_task_id = 0,
-		group = 50405,
-		prefab_node = "6",
-		task_id = 21898,
-		activity_medal_name = "스티커: 트리오",
-		id = 5040506,
-		medal_asset = "ActivityMedal/5040506"
-	},
-	[5040507] = {
-		activity_medal_desc = "새콤달콤한 맛이 먹고 난 다음에도 계속 생각나게 한다.",
-		next_medal = 0,
-		item = 65855,
-		remake_task_id = 0,
-		group = 50405,
-		prefab_node = "7",
-		task_id = 21899,
-		activity_medal_name = "스티커: 탕후루",
-		id = 5040507,
-		medal_asset = "ActivityMedal/5040507"
-	},
-	[5040508] = {
-		activity_medal_desc = "군자가 품은 옥의 빛은 온화하면서도 윤기롭다.",
-		next_medal = 0,
-		item = 65856,
-		remake_task_id = 0,
-		group = 50405,
-		prefab_node = "8",
-		task_id = 21900,
-		activity_medal_name = "스티커: 영롱한 옥패",
-		id = 5040508,
-		medal_asset = "ActivityMedal/5040508"
-	},
-	[5044101] = {
-		activity_medal_desc = "손님, 이쪽으로 오세요! 봄의 활기를 모두 모아두었답니다!",
-		next_medal = 0,
-		item = 65861,
-		remake_task_id = 0,
-		group = 50441,
-		prefab_node = "1",
-		task_id = 21902,
-		activity_medal_name = "스티커: 봄빛 여관",
-		id = 5044101,
-		medal_asset = "ActivityMedal/5044101"
-	},
-	[5044102] = {
-		activity_medal_desc = "맵 데이터 로딩 중……",
-		next_medal = 0,
-		item = 65862,
-		remake_task_id = 0,
-		group = 50441,
-		prefab_node = "2",
-		task_id = 21903,
-		activity_medal_name = "스티커: 로딩 중……",
-		id = 5044102,
-		medal_asset = "ActivityMedal/5044102"
-	},
-	[5044103] = {
-		activity_medal_desc = "우린 귀여움 담당이니까 일 안 해!",
-		next_medal = 0,
-		item = 65863,
-		remake_task_id = 0,
-		group = 50441,
-		prefab_node = "3",
-		task_id = 21904,
-		activity_medal_name = "스티커: 다바오와 아바오",
-		id = 5044103,
-		medal_asset = "ActivityMedal/5044103"
-	},
-	[5044104] = {
-		activity_medal_desc = "언제 어디든 QC 개시 가능. 당신에게 가장 필요한 선택지!",
-		next_medal = 0,
-		item = 65864,
-		remake_task_id = 0,
-		group = 50441,
-		prefab_node = "4",
-		task_id = 21905,
-		activity_medal_name = "스티커: 품질 모니터링",
-		id = 5044104,
-		medal_asset = "ActivityMedal/5044104"
-	},
-	[5044105] = {
-		activity_medal_desc = "짤랑짤랑짤랑~ 돈이 사방팔방에서 굴러들어오네♪",
-		next_medal = 0,
-		item = 65865,
-		remake_task_id = 0,
-		group = 50441,
-		prefab_node = "5",
-		task_id = 21906,
-		activity_medal_name = "스티커: 젠하이의 주판",
-		id = 5044105,
-		medal_asset = "ActivityMedal/5044105"
-	},
-	[5044106] = {
-		activity_medal_desc = "뜨거워~ 데이지 않게 조심해!",
-		next_medal = 0,
-		item = 65866,
-		remake_task_id = 0,
-		group = 50441,
-		prefab_node = "6",
-		task_id = 21907,
-		activity_medal_name = "스티커: 맛있는 탕바오",
-		id = 5044106,
-		medal_asset = "ActivityMedal/5044106"
-	},
-	[5044107] = {
-		activity_medal_desc = "한 번 부치면 봄바람이 마음을 전해준다.",
-		next_medal = 0,
-		item = 65867,
-		remake_task_id = 0,
-		group = 50441,
-		prefab_node = "7",
-		task_id = 21908,
-		activity_medal_name = "스티커: 봄맞이 부채",
-		id = 5044107,
-		medal_asset = "ActivityMedal/5044107"
-	},
-	[5044108] = {
-		activity_medal_desc = "등불 하나에 불을 밝히면 정원에 넘치는 복이 찾아오리니.",
-		next_medal = 0,
-		item = 65868,
-		remake_task_id = 0,
-		group = 50441,
-		prefab_node = "8",
-		task_id = 21909,
-		activity_medal_name = "스티커: 여의 초롱",
-		id = 5044108,
-		medal_asset = "ActivityMedal/5044108"
-	},
-	[5048201] = {
-		activity_medal_desc = "네온사인이 빛나는 도시는 잠들지 않는다.",
-		next_medal = 0,
-		item = 65876,
-		remake_task_id = 0,
-		group = 50482,
-		prefab_node = "1",
-		task_id = 21915,
-		activity_medal_name = "스티커: 네온 시티",
-		id = 5048201,
-		medal_asset = "ActivityMedal/5048201"
-	},
-	[5048202] = {
-		activity_medal_desc = "Catch 'er By Surprise!",
-		next_medal = 0,
-		item = 65877,
-		remake_task_id = 0,
-		group = 50482,
-		prefab_node = "2",
-		task_id = 21916,
-		activity_medal_name = "스티커: 탈출",
-		id = 5048202,
-		medal_asset = "ActivityMedal/5048202"
-	},
-	[5048203] = {
-		activity_medal_desc = "방대한 데이터를 실시간으로 분석한다.",
-		next_medal = 0,
-		item = 65878,
-		remake_task_id = 0,
-		group = 50482,
-		prefab_node = "3",
-		task_id = 21917,
-		activity_medal_name = "스티커: 프로젝션",
-		id = 5048203,
-		medal_asset = "ActivityMedal/5048203"
-	},
-	[5048204] = {
-		activity_medal_desc = "묶여있는 것처럼 위장한 다음에…… 어라? 안 풀리잖아……! ?",
-		next_medal = 0,
-		item = 65879,
-		remake_task_id = 0,
-		group = 50482,
-		prefab_node = "4",
-		task_id = 21918,
-		activity_medal_name = "스티커: 셀프 포박",
-		id = 5048204,
-		medal_asset = "ActivityMedal/5048204"
-	},
-	[5048205] = {
-		activity_medal_desc = "네 정체는 이미 탄로났다. 더는 도망칠 수 없어!",
-		next_medal = 0,
-		item = 65880,
-		remake_task_id = 0,
-		group = 50482,
-		prefab_node = "5",
-		task_id = 21919,
-		activity_medal_name = "스티커: 전 지역 지명 수배",
-		id = 5048205,
-		medal_asset = "ActivityMedal/5048205"
-	},
-	[5048206] = {
-		activity_medal_desc = "못 잡으면…… 보물은 내 것이야.",
-		next_medal = 0,
-		item = 65881,
-		remake_task_id = 0,
-		group = 50482,
-		prefab_node = "6",
-		task_id = 21920,
-		activity_medal_name = "스티커: 예고장",
-		id = 5048206,
-		medal_asset = "ActivityMedal/5048206"
-	},
-	[5048207] = {
-		activity_medal_desc = "헤드폰을 쓰고 나만의 세상으로 다이빙",
-		next_medal = 0,
-		item = 65882,
-		remake_task_id = 0,
-		group = 50482,
-		prefab_node = "7",
-		task_id = 21921,
-		activity_medal_name = "스티커: 딥 타입",
-		id = 5048207,
-		medal_asset = "ActivityMedal/5048207"
-	},
-	[5048208] = {
-		activity_medal_desc = "유람자들이여, 모여라!",
-		next_medal = 0,
-		item = 65883,
-		remake_task_id = 0,
-		group = 50482,
-		prefab_node = "8",
-		task_id = 21922,
-		activity_medal_name = "스티커: 엠블럼",
-		id = 5048208,
-		medal_asset = "ActivityMedal/5048208"
-	},
-	get_id_list_by_group = {
-		[5711] = {
-			571101,
-			571102,
-			571103,
-			571104,
-			571105,
-			571106,
-			571107,
-			571108
-		},
-		[5769] = {
-			576901,
-			576902,
-			576903,
-			576904,
-			576905,
-			576906,
-			576907,
-			576908
-		},
-		[5812] = {
-			581201,
-			581202,
-			581203,
-			581204,
-			581205,
-			581206,
-			581207,
-			581208
-		},
-		[5875] = {
-			587501,
-			587502,
-			587503,
-			587504,
-			587505,
-			587506,
-			587507,
-			587508
-		},
-		[5913] = {
-			591301,
-			591302,
-			591303,
-			591304,
-			591305,
-			591306,
-			591307,
-			591308
-		},
-		[5970] = {
-			597001,
-			597002,
-			597003,
-			597004,
-			597005,
-			597006,
-			597007,
-			597008
-		},
-		[5971] = {
-			597101,
-			597102,
-			597103,
-			597104,
-			597105,
-			597106,
-			597107
-		},
-		[50021] = {
-			5002101,
-			5002102,
-			5002103,
-			5002104,
-			5002105,
-			5002106,
-			5002107,
-			5002108
-		},
-		[50087] = {
-			5008701,
-			5008702,
-			5008703,
-			5008704,
-			5008705,
-			5008706,
-			5008707,
-			5008708
-		},
-		[50136] = {
-			5013601,
-			5013602,
-			5013603,
-			5013604,
-			5013605,
-			5013606,
-			5013607,
-			5013608
-		},
-		[50209] = {
-			5020901,
-			5020902,
-			5020903,
-			5020904,
-			5020905,
-			5020906,
-			5020907,
-			5020908
-		},
-		[50295] = {
-			5029501,
-			5029502,
-			5029503,
-			5029504,
-			5029505,
-			5029506,
-			5029507,
-			5029508
-		},
-		[50359] = {
-			5035901,
-			5035902,
-			5035903,
-			5035904,
-			5035905,
-			5035906,
-			5035907,
-			5035908
-		},
-		[50405] = {
-			5040501,
-			5040502,
-			5040503,
-			5040504,
-			5040505,
-			5040506,
-			5040507,
-			5040508
-		},
-		[50441] = {
-			5044101,
-			5044102,
-			5044103,
-			5044104,
-			5044105,
-			5044106,
-			5044107,
-			5044108
-		},
-		[50482] = {
-			5048201,
-			5048202,
-			5048203,
-			5048204,
-			5048205,
-			5048206,
-			5048207,
-			5048208
-		}
-	},
-	all = {
+pg.activity_medal_template = rawget(pg, "activity_medal_template") or setmetatable({
+	__name = "activity_medal_template"
+}, confNEO)
+pg.activity_medal_template.all = {
+	571101,
+	571102,
+	571103,
+	571104,
+	571105,
+	571106,
+	571107,
+	571108,
+	576901,
+	576902,
+	576903,
+	576904,
+	576905,
+	576906,
+	576907,
+	576908,
+	581201,
+	581202,
+	581203,
+	581204,
+	581205,
+	581206,
+	581207,
+	581208,
+	587501,
+	587502,
+	587503,
+	587504,
+	587505,
+	587506,
+	587507,
+	587508,
+	591301,
+	591302,
+	591303,
+	591304,
+	591305,
+	591306,
+	591307,
+	591308,
+	597001,
+	597002,
+	597003,
+	597004,
+	597005,
+	597006,
+	597007,
+	597008,
+	597101,
+	597102,
+	597103,
+	597104,
+	597105,
+	597106,
+	597107,
+	5002101,
+	5002102,
+	5002103,
+	5002104,
+	5002105,
+	5002106,
+	5002107,
+	5002108,
+	5008701,
+	5008702,
+	5008703,
+	5008704,
+	5008705,
+	5008706,
+	5008707,
+	5008708,
+	5013601,
+	5013602,
+	5013603,
+	5013604,
+	5013605,
+	5013606,
+	5013607,
+	5013608,
+	5020901,
+	5020902,
+	5020903,
+	5020904,
+	5020905,
+	5020906,
+	5020907,
+	5020908,
+	5029501,
+	5029502,
+	5029503,
+	5029504,
+	5029505,
+	5029506,
+	5029507,
+	5029508,
+	5035901,
+	5035902,
+	5035903,
+	5035904,
+	5035905,
+	5035906,
+	5035907,
+	5035908,
+	5040501,
+	5040502,
+	5040503,
+	5040504,
+	5040505,
+	5040506,
+	5040507,
+	5040508,
+	5044101,
+	5044102,
+	5044103,
+	5044104,
+	5044105,
+	5044106,
+	5044107,
+	5044108,
+	5048201,
+	5048202,
+	5048203,
+	5048204,
+	5048205,
+	5048206,
+	5048207,
+	5048208
+}
+pg.activity_medal_template.get_id_list_by_group = {
+	[5711] = {
 		571101,
 		571102,
 		571103,
@@ -1693,7 +140,9 @@ pg.activity_medal_template = {
 		571105,
 		571106,
 		571107,
-		571108,
+		571108
+	},
+	[5769] = {
 		576901,
 		576902,
 		576903,
@@ -1701,7 +150,9 @@ pg.activity_medal_template = {
 		576905,
 		576906,
 		576907,
-		576908,
+		576908
+	},
+	[5812] = {
 		581201,
 		581202,
 		581203,
@@ -1709,7 +160,9 @@ pg.activity_medal_template = {
 		581205,
 		581206,
 		581207,
-		581208,
+		581208
+	},
+	[5875] = {
 		587501,
 		587502,
 		587503,
@@ -1717,7 +170,9 @@ pg.activity_medal_template = {
 		587505,
 		587506,
 		587507,
-		587508,
+		587508
+	},
+	[5913] = {
 		591301,
 		591302,
 		591303,
@@ -1725,7 +180,9 @@ pg.activity_medal_template = {
 		591305,
 		591306,
 		591307,
-		591308,
+		591308
+	},
+	[5970] = {
 		597001,
 		597002,
 		597003,
@@ -1733,14 +190,18 @@ pg.activity_medal_template = {
 		597005,
 		597006,
 		597007,
-		597008,
+		597008
+	},
+	[5971] = {
 		597101,
 		597102,
 		597103,
 		597104,
 		597105,
 		597106,
-		597107,
+		597107
+	},
+	[50021] = {
 		5002101,
 		5002102,
 		5002103,
@@ -1748,7 +209,9 @@ pg.activity_medal_template = {
 		5002105,
 		5002106,
 		5002107,
-		5002108,
+		5002108
+	},
+	[50087] = {
 		5008701,
 		5008702,
 		5008703,
@@ -1756,7 +219,9 @@ pg.activity_medal_template = {
 		5008705,
 		5008706,
 		5008707,
-		5008708,
+		5008708
+	},
+	[50136] = {
 		5013601,
 		5013602,
 		5013603,
@@ -1764,7 +229,9 @@ pg.activity_medal_template = {
 		5013605,
 		5013606,
 		5013607,
-		5013608,
+		5013608
+	},
+	[50209] = {
 		5020901,
 		5020902,
 		5020903,
@@ -1772,7 +239,9 @@ pg.activity_medal_template = {
 		5020905,
 		5020906,
 		5020907,
-		5020908,
+		5020908
+	},
+	[50295] = {
 		5029501,
 		5029502,
 		5029503,
@@ -1780,7 +249,9 @@ pg.activity_medal_template = {
 		5029505,
 		5029506,
 		5029507,
-		5029508,
+		5029508
+	},
+	[50359] = {
 		5035901,
 		5035902,
 		5035903,
@@ -1788,7 +259,9 @@ pg.activity_medal_template = {
 		5035905,
 		5035906,
 		5035907,
-		5035908,
+		5035908
+	},
+	[50405] = {
 		5040501,
 		5040502,
 		5040503,
@@ -1796,7 +269,9 @@ pg.activity_medal_template = {
 		5040505,
 		5040506,
 		5040507,
-		5040508,
+		5040508
+	},
+	[50441] = {
 		5044101,
 		5044102,
 		5044103,
@@ -1804,7 +279,9 @@ pg.activity_medal_template = {
 		5044105,
 		5044106,
 		5044107,
-		5044108,
+		5044108
+	},
+	[50482] = {
 		5048201,
 		5048202,
 		5048203,
@@ -1815,3 +292,1534 @@ pg.activity_medal_template = {
 		5048208
 	}
 }
+pg.base = pg.base or {}
+pg.base.activity_medal_template = {}
+
+(function ()
+	pg.base.activity_medal_template[571101] = {
+		activity_medal_desc = "꼼꼼한 성격의 메탈 저항의 리더. \"우리는 항상 당신을 보고 있다고도.\"",
+		next_medal = 0,
+		item = 65501,
+		remake_task_id = 0,
+		group = 5711,
+		prefab_node = "1",
+		task_id = 21035,
+		activity_medal_name = "스티커 : 루메이",
+		id = 571101,
+		medal_asset = "ActivityMedal/571101"
+	}
+	pg.base.activity_medal_template[571102] = {
+		activity_medal_desc = "아득한 별빛 하늘에서 나온 것. 그 정체는 수수께끼에 싸여 있습니다.",
+		next_medal = 0,
+		item = 65502,
+		remake_task_id = 0,
+		group = 5711,
+		prefab_node = "2",
+		task_id = 21036,
+		activity_medal_name = "스티커: 별의 짐승",
+		id = 571102,
+		medal_asset = "ActivityMedal/571102"
+	}
+	pg.base.activity_medal_template[571103] = {
+		activity_medal_desc = "별의 짐승이 나타나 밤, 은은한 밤하늘은 어느 때보다 빛나 보였습니다.",
+		next_medal = 0,
+		item = 65503,
+		remake_task_id = 0,
+		group = 5711,
+		prefab_node = "3",
+		task_id = 21037,
+		activity_medal_name = "스티커: 별하늘",
+		id = 571103,
+		medal_asset = "ActivityMedal/571103"
+	}
+	pg.base.activity_medal_template[571104] = {
+		activity_medal_desc = "외부 짐승의 잔해에서 수집한 샘플. 화학원료로 취급되기 때문에 식용으로 사용되지 않습니다.",
+		next_medal = 0,
+		item = 65504,
+		remake_task_id = 0,
+		group = 5711,
+		prefab_node = "4",
+		task_id = 21038,
+		activity_medal_name = "스티커 : 샘플",
+		id = 571104,
+		medal_asset = "ActivityMedal/571104"
+	}
+	pg.base.activity_medal_template[571105] = {
+		activity_medal_desc = "경면해역과 이터널 스타가 지키고 있는 저항 기지. 거주성이 좋다고는 할 수 없지만 방어가 튼튼합니다.",
+		next_medal = 0,
+		item = 65505,
+		remake_task_id = 0,
+		group = 5711,
+		prefab_node = "5",
+		task_id = 21039,
+		activity_medal_name = "스티커 : 석양의 기지",
+		id = 571105,
+		medal_asset = "ActivityMedal/571105"
+	}
+	pg.base.activity_medal_template[571106] = {
+		activity_medal_desc = "외부 짐승의 세력은 막강하지만 이쪽도 충분히 준비했습니다. 난전의 밤만 넘기면 희망의 서광이 보일 겁니다.",
+		next_medal = 0,
+		item = 65506,
+		remake_task_id = 0,
+		group = 5711,
+		prefab_node = "6",
+		task_id = 21040,
+		activity_medal_name = "스티커 : 난전의 밤",
+		id = 571106,
+		medal_asset = "ActivityMedal/571106"
+	}
+	pg.base.activity_medal_template[571107] = {
+		activity_medal_desc = "——ÎáÄËĐÇÖŽĘŢŇýĐÇśřŔ´ĐŻĐÇśřČĽłźˇţÓÚÎáÔŢÎáÖŽĂű×ńÎáëˇĂü",
+		next_medal = 0,
+		item = 65507,
+		remake_task_id = 0,
+		group = 5711,
+		prefab_node = "7",
+		task_id = 21041,
+		activity_medal_name = "스티커 : 별에서 가져온 물건",
+		id = 571107,
+		medal_asset = "ActivityMedal/571107"
+	}
+	pg.base.activity_medal_template[571108] = {
+		activity_medal_desc = "이쪽은 하우스다 표! 스톤은 하우스를 노리는 표!",
+		next_medal = 0,
+		item = 65508,
+		remake_task_id = 0,
+		group = 5711,
+		prefab_node = "8",
+		task_id = 21042,
+		activity_medal_name = "스티커 : 쥬쥬 컬링",
+		id = 571108,
+		medal_asset = "ActivityMedal/571108"
+	}
+	pg.base.activity_medal_template[576901] = {
+		activity_medal_desc = "「옷에 새겨진 섬세한 자수가 늦봄을 비추고, 금공작에 은기린이 빛나네.」",
+		next_medal = 0,
+		item = 65511,
+		remake_task_id = 0,
+		group = 5769,
+		prefab_node = "1",
+		task_id = 21118,
+		activity_medal_name = "스티커: 풍화예상",
+		id = 576901,
+		medal_asset = "ActivityMedal/576901"
+	}
+	pg.base.activity_medal_template[576902] = {
+		activity_medal_desc = "「하늘을 나는 기러기 우짖고, 아침 해가 처음으로 솟아오르네. 아내를 맞아 들여도, 얼음은 아직도 녹지 않았네.",
+		next_medal = 0,
+		item = 65512,
+		remake_task_id = 0,
+		group = 5769,
+		prefab_node = "2",
+		task_id = 21119,
+		activity_medal_name = "스티커: 욱일동천",
+		id = 576902,
+		medal_asset = "ActivityMedal/576902"
+	}
+	pg.base.activity_medal_template[576903] = {
+		activity_medal_desc = "「시를 퇴고하는 눈 내리는 달밤, 그림에 담긴 것은 강호의 이슬비 내리는 하늘이리니.」",
+		next_medal = 0,
+		item = 65513,
+		remake_task_id = 0,
+		group = 5769,
+		prefab_node = "3",
+		task_id = 21120,
+		activity_medal_name = "스티커: 족자",
+		id = 576903,
+		medal_asset = "ActivityMedal/576903"
+	}
+	pg.base.activity_medal_template[576904] = {
+		activity_medal_desc = "「매화는 눈꽃의 반짝임에 미치지 못한다며 겸손하지만, 눈꽃은 매화의 향기를 이겨낼 수 없네.」",
+		next_medal = 0,
+		item = 65514,
+		remake_task_id = 0,
+		group = 5769,
+		prefab_node = "4",
+		task_id = 21121,
+		activity_medal_name = "스티커: 답설심매",
+		id = 576904,
+		medal_asset = "ActivityMedal/576904"
+	}
+	pg.base.activity_medal_template[576905] = {
+		activity_medal_desc = "대모험은 역시 더 화려하고! 더 뜨겁게!",
+		next_medal = 0,
+		item = 65515,
+		remake_task_id = 0,
+		group = 5769,
+		prefab_node = "5",
+		task_id = 21122,
+		activity_medal_name = "스티커: 주작승풍",
+		id = 576905,
+		medal_asset = "ActivityMedal/576905"
+	}
+	pg.base.activity_medal_template[576906] = {
+		activity_medal_desc = "「물길이 끝나는 곳에 다다르면, 가만히 앉아서 구름이 일어나는 것을 보네」",
+		next_medal = 0,
+		item = 65516,
+		remake_task_id = 0,
+		group = 5769,
+		prefab_node = "6",
+		task_id = 21123,
+		activity_medal_name = "스티커: 뭉게구름",
+		id = 576906,
+		medal_asset = "ActivityMedal/576906"
+	}
+	pg.base.activity_medal_template[576907] = {
+		activity_medal_desc = "「제철에 수확하는 동심의 연꽃, 인연의 끈은 길고 기나니」",
+		next_medal = 0,
+		item = 65517,
+		remake_task_id = 0,
+		group = 5769,
+		prefab_node = "7",
+		task_id = 21124,
+		activity_medal_name = "스티커: 인연의 끈",
+		id = 576907,
+		medal_asset = "ActivityMedal/576907"
+	}
+	pg.base.activity_medal_template[576908] = {
+		activity_medal_desc = "지엔우 대마왕을 타도하고(취소선이 그려져 있음), 봄맞이 대모험을 축하하는 계획서!",
+		next_medal = 0,
+		item = 65518,
+		remake_task_id = 0,
+		group = 5769,
+		prefab_node = "8",
+		task_id = 21125,
+		activity_medal_name = "스티커: 비밀 계획서",
+		id = 576908,
+		medal_asset = "ActivityMedal/576908"
+	}
+	pg.base.activity_medal_template[581201] = {
+		activity_medal_desc = "「영원한 대지, 사르데냐. 신의 빛이 빛나는 한, 그 번영은 영원히 계속되리.」",
+		next_medal = 0,
+		item = 65541,
+		remake_task_id = 0,
+		group = 5812,
+		prefab_node = "1",
+		task_id = 21278,
+		activity_medal_name = "스티커: 성스러운 날개의 심상",
+		id = 581201,
+		medal_asset = "ActivityMedal/581201"
+	}
+	pg.base.activity_medal_template[581202] = {
+		activity_medal_desc = "「신상의 심상이야말로 우리를 하나로 이어주는 것.」",
+		next_medal = 0,
+		item = 65542,
+		remake_task_id = 0,
+		group = 5812,
+		prefab_node = "2",
+		task_id = 21279,
+		activity_medal_name = "스티커: 신광의 그물",
+		id = 581202,
+		medal_asset = "ActivityMedal/581202"
+	}
+	pg.base.activity_medal_template[581203] = {
+		activity_medal_desc = "「저게 위신기 드로이드야. 지금 널 응시하고 있어.」",
+		next_medal = 0,
+		item = 65543,
+		remake_task_id = 0,
+		group = 5812,
+		prefab_node = "3",
+		task_id = 21280,
+		activity_medal_name = "스티커: 위신기의 응시",
+		id = 581203,
+		medal_asset = "ActivityMedal/581203"
+	}
+	pg.base.activity_medal_template[581204] = {
+		activity_medal_desc = "「난 그림 그리는 게 제일 좋아☆」",
+		next_medal = 0,
+		item = 65544,
+		remake_task_id = 0,
+		group = 5812,
+		prefab_node = "4",
+		task_id = 21281,
+		activity_medal_name = "스티커: 낙서 스케치",
+		id = 581204,
+		medal_asset = "ActivityMedal/581204"
+	}
+	pg.base.activity_medal_template[581205] = {
+		activity_medal_desc = "「시간이 시시각각 지나고 있어. 대체 언제쯤 새장에서 탈출할 수 있을까?」",
+		next_medal = 0,
+		item = 65545,
+		remake_task_id = 0,
+		group = 5812,
+		prefab_node = "5",
+		task_id = 21282,
+		activity_medal_name = "스티커: 카운트 다운",
+		id = 581205,
+		medal_asset = "ActivityMedal/581205"
+	}
+	pg.base.activity_medal_template[581206] = {
+		activity_medal_desc = "「힘과 압박감. 그것이 바로 메카 아비트레이터 전차.」",
+		next_medal = 0,
+		item = 65546,
+		remake_task_id = 0,
+		group = 5812,
+		prefab_node = "6",
+		task_id = 21283,
+		activity_medal_name = "스티커: 전차 심판기",
+		id = 581206,
+		medal_asset = "ActivityMedal/581206"
+	}
+	pg.base.activity_medal_template[581207] = {
+		activity_medal_desc = "「왕관을 쓰는 자는 그 무게를 견뎌야 한다.」",
+		next_medal = 0,
+		item = 65547,
+		remake_task_id = 0,
+		group = 5812,
+		prefab_node = "7",
+		task_id = 21284,
+		activity_medal_name = "스티커: 영야의 왕관",
+		id = 581207,
+		medal_asset = "ActivityMedal/581207"
+	}
+	pg.base.activity_medal_template[581208] = {
+		activity_medal_desc = "「넓고도 긴, 미역 같은 촉수. 식용 금지.」",
+		next_medal = 0,
+		item = 65548,
+		remake_task_id = 0,
+		group = 5812,
+		prefab_node = "8",
+		task_id = 21285,
+		activity_medal_name = "스티커: 위신기의 촉수",
+		id = 581208,
+		medal_asset = "ActivityMedal/581208"
+	}
+	pg.base.activity_medal_template[587501] = {
+		activity_medal_desc = "밸리 병원이란…… (중략)",
+		next_medal = 0,
+		item = 65571,
+		remake_task_id = 0,
+		group = 5875,
+		prefab_node = "1",
+		task_id = 21651,
+		activity_medal_name = "스티커: 밸리 병원",
+		id = 587501,
+		medal_asset = "ActivityMedal/587501"
+	}
+	pg.base.activity_medal_template[587502] = {
+		activity_medal_desc = "세상에서 가장 날카로운 펀치야. 한 번 맞아볼래?",
+		next_medal = 0,
+		item = 65572,
+		remake_task_id = 0,
+		group = 5875,
+		prefab_node = "2",
+		task_id = 21652,
+		activity_medal_name = "스티커: 고양이 펀치!",
+		id = 587502,
+		medal_asset = "ActivityMedal/587502"
+	}
+	pg.base.activity_medal_template[587503] = {
+		activity_medal_desc = "수상한 알약. 병에 걸린 사람만 사용 가능.",
+		next_medal = 0,
+		item = 65573,
+		remake_task_id = 0,
+		group = 5875,
+		prefab_node = "3",
+		task_id = 21653,
+		activity_medal_name = "스티커: 수상한 알약",
+		id = 587503,
+		medal_asset = "ActivityMedal/587503"
+	}
+	pg.base.activity_medal_template[587504] = {
+		activity_medal_desc = "밸리 병원의 비밀을 알고 싶어?",
+		next_medal = 0,
+		item = 65574,
+		remake_task_id = 0,
+		group = 5875,
+		prefab_node = "4",
+		task_id = 21654,
+		activity_medal_name = "스티커: 병원의 비밀",
+		id = 587504,
+		medal_asset = "ActivityMedal/587504"
+	}
+	pg.base.activity_medal_template[587505] = {
+		activity_medal_desc = "과연 당신은 이 장식의 무게를 감당할 수 있을까?",
+		next_medal = 0,
+		item = 65575,
+		remake_task_id = 0,
+		group = 5875,
+		prefab_node = "5",
+		task_id = 21655,
+		activity_medal_name = "스티커: 여우의 머리 장식",
+		id = 587505,
+		medal_asset = "ActivityMedal/587505"
+	}
+	pg.base.activity_medal_template[587506] = {
+		activity_medal_desc = "얽힌 정보에서 사건의 진상을 캐낼 수 있을까?",
+		next_medal = 0,
+		item = 65576,
+		remake_task_id = 0,
+		group = 5875,
+		prefab_node = "6",
+		task_id = 21656,
+		activity_medal_name = "스티커: 단서",
+		id = 587506,
+		medal_asset = "ActivityMedal/587506"
+	}
+	pg.base.activity_medal_template[587507] = {
+		activity_medal_desc = "잠깐 따끔~ 할 거예요.",
+		next_medal = 0,
+		item = 65577,
+		remake_task_id = 0,
+		group = 5875,
+		prefab_node = "7",
+		task_id = 21657,
+		activity_medal_name = "스티커: 주사 맞을 시간",
+		id = 587507,
+		medal_asset = "ActivityMedal/587507"
+	}
+	pg.base.activity_medal_template[587508] = {
+		activity_medal_desc = "열심히 하지 않으면 일족의 인형으로 만들어 버린다고 한다. 무서워...",
+		next_medal = 0,
+		item = 65578,
+		remake_task_id = 0,
+		group = 5875,
+		prefab_node = "8",
+		task_id = 21658,
+		activity_medal_name = "스티커: 일족의 인형",
+		id = 587508,
+		medal_asset = "ActivityMedal/587508"
+	}
+	pg.base.activity_medal_template[591301] = {
+		activity_medal_desc = "자연의 힘을 지팡이를 순환시켜요. 오래된 잎을 떼어내면 새로운 싹이 절로 돋아난답니다.",
+		next_medal = 0,
+		item = 65594,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21944,
+		activity_medal_name = "스티커: 신록의 지팡이",
+		id = 591301,
+		medal_asset = "ActivityMedal/591301"
+	}
+	pg.base.activity_medal_template[591302] = {
+		activity_medal_desc = "튤리퍼 왕국의 새로운 미래는 지금부터 시작한다.",
+		next_medal = 0,
+		item = 65595,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21945,
+		activity_medal_name = "스티커: 미래의 꽃다발",
+		id = 591302,
+		medal_asset = "ActivityMedal/591302"
+	}
+	pg.base.activity_medal_template[591303] = {
+		activity_medal_desc = "두려워 하지 마. 이 날카로운 송곳니와 발톱은 다 너를 지키기 위한 거란다.",
+		next_medal = 0,
+		item = 65596,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21946,
+		activity_medal_name = "스티커: 곰의 수호",
+		id = 591303,
+		medal_asset = "ActivityMedal/591303"
+	}
+	pg.base.activity_medal_template[591304] = {
+		activity_medal_desc = "자연을 엮고, 그 생명으로 터전을 재건하는 덩굴.",
+		next_medal = 0,
+		item = 65597,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21947,
+		activity_medal_name = "스티커: 덩굴 마법",
+		id = 591304,
+		medal_asset = "ActivityMedal/591304"
+	}
+	pg.base.activity_medal_template[591305] = {
+		activity_medal_desc = "그냥 장식이 아니라, 암시야에 무선 통신, 광필터에 폭탄 발사 기능까지 갖춘 천재적인 발명품입니다!",
+		next_medal = 0,
+		item = 65598,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21948,
+		activity_medal_name = "스티커: 전 영역 강습 코르시카 고글",
+		id = 591305,
+		medal_asset = "ActivityMedal/591305"
+	}
+	pg.base.activity_medal_template[591306] = {
+		activity_medal_desc = "이제 막 돋아난 새싹이지만, 바위 못지않은 강인한 힘이 깃들어 있다.",
+		next_medal = 0,
+		item = 65599,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21949,
+		activity_medal_name = "스티커: 엽맥 공생",
+		id = 591306,
+		medal_asset = "ActivityMedal/591306"
+	}
+	pg.base.activity_medal_template[591307] = {
+		activity_medal_desc = "흉악하기 짝이 없는 잔챙이… 아니, 상어를 닮은 슈퍼 드레드노트급 절멸 병기 「스피르니데」다!",
+		next_medal = 0,
+		item = 65600,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21950,
+		activity_medal_name = "스티커: 신형 전투 병기 「스피르니데」",
+		id = 591307,
+		medal_asset = "ActivityMedal/591307"
+	}
+	pg.base.activity_medal_template[591308] = {
+		activity_medal_desc = "튤립 향기가 나는 정교한 서표. 마법으로 신선함을 영원히 유지하고 있다.",
+		next_medal = 0,
+		item = 65601,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21951,
+		activity_medal_name = "스티커: 튤리퍼 책갈피",
+		id = 591308,
+		medal_asset = "ActivityMedal/591308"
+	}
+	pg.base.activity_medal_template[597001] = {
+		activity_medal_desc = "장미 덩굴이 얽힌 탑에는 로열 네이비의 마지막 영광이 담겨 있다.",
+		next_medal = 0,
+		item = 65603,
+		remake_task_id = 0,
+		group = 5970,
+		prefab_node = "8",
+		task_id = 21715,
+		activity_medal_name = "스티커: 장미의 탑",
+		id = 597001,
+		medal_asset = "ActivityMedal/597001"
+	}
+	pg.base.activity_medal_template[597002] = {
+		activity_medal_desc = "「딱딱하고 아프기만 하잖아! 」 - 미스 D",
+		next_medal = 0,
+		item = 65604,
+		remake_task_id = 0,
+		group = 5970,
+		prefab_node = "8",
+		task_id = 21716,
+		activity_medal_name = "스티커: 광익의 사자",
+		id = 597002,
+		medal_asset = "ActivityMedal/597002"
+	}
+	pg.base.activity_medal_template[597003] = {
+		activity_medal_desc = "사자를 타고 특이점을 넘어, 미지의 세상으로 출항하라!",
+		next_medal = 0,
+		item = 65605,
+		remake_task_id = 0,
+		group = 5970,
+		prefab_node = "8",
+		task_id = 21717,
+		activity_medal_name = "스티커: 메세케테트",
+		id = 597003,
+		medal_asset = "ActivityMedal/597003"
+	}
+	pg.base.activity_medal_template[597004] = {
+		activity_medal_desc = "「기적 재현 - 알렉산드리아 대등대」에 탑재된 항로 비콘. 참고로 디자인은 클레오파트라가 특별 주문한 것이라고 한다.",
+		next_medal = 0,
+		item = 65606,
+		remake_task_id = 0,
+		group = 5970,
+		prefab_node = "8",
+		task_id = 21718,
+		activity_medal_name = "스티커: 항로 비콘",
+		id = 597004,
+		medal_asset = "ActivityMedal/597004"
+	}
+	pg.base.activity_medal_template[597005] = {
+		activity_medal_desc = "로열 네이비는 적을 만나면 반드시 멸한다!",
+		next_medal = 0,
+		item = 65607,
+		remake_task_id = 0,
+		group = 5970,
+		prefab_node = "8",
+		task_id = 21719,
+		activity_medal_name = "스티커: 일전불사",
+		id = 597005,
+		medal_asset = "ActivityMedal/597005"
+	}
+	pg.base.activity_medal_template[597006] = {
+		activity_medal_desc = "대체 누가 만든 걸까? 무얼 위해서?",
+		next_medal = 0,
+		item = 65608,
+		remake_task_id = 0,
+		group = 5970,
+		prefab_node = "8",
+		task_id = 21720,
+		activity_medal_name = "스티커: 만월의 꽃봉오리",
+		id = 597006,
+		medal_asset = "ActivityMedal/597006"
+	}
+	pg.base.activity_medal_template[597007] = {
+		activity_medal_desc = "장미의 탑, 성벽, 그리고 이와 이어진 통로. 이 모든 것이 장미의 요새를 이루고 있다.",
+		next_medal = 0,
+		item = 65609,
+		remake_task_id = 0,
+		group = 5970,
+		prefab_node = "8",
+		task_id = 21721,
+		activity_medal_name = "스티커: 장미의 요새",
+		id = 597007,
+		medal_asset = "ActivityMedal/597007"
+	}
+	pg.base.activity_medal_template[597008] = {
+		activity_medal_desc = "붉기도, 하얗기도 한 장미.",
+		next_medal = 0,
+		item = 65610,
+		remake_task_id = 0,
+		group = 5970,
+		prefab_node = "8",
+		task_id = 21722,
+		activity_medal_name = "스티커: 두 가지 색의 장미",
+		id = 597008,
+		medal_asset = "ActivityMedal/597008"
+	}
+	pg.base.activity_medal_template[597101] = {
+		activity_medal_desc = "오늘 하루도 알찼어…… 내일도, 모레도, 글피도! 힘내보자!",
+		next_medal = 0,
+		item = 65612,
+		remake_task_id = 0,
+		group = 5971,
+		prefab_node = "8",
+		task_id = 21724,
+		activity_medal_name = "스티커: 알찬 하루",
+		id = 597101,
+		medal_asset = "ActivityMedal/597101"
+	}
+	pg.base.activity_medal_template[597102] = {
+		activity_medal_desc = "40… 80… 120… 160…",
+		next_medal = 0,
+		item = 65613,
+		remake_task_id = 0,
+		group = 5971,
+		prefab_node = "8",
+		task_id = 21725,
+		activity_medal_name = "스티커: 리틀 해머",
+		id = 597102,
+		medal_asset = "ActivityMedal/597102"
+	}
+	pg.base.activity_medal_template[597103] = {
+		activity_medal_desc = "내가 대어를 낚은 건 어떻게 알았어?",
+		next_medal = 0,
+		item = 65614,
+		remake_task_id = 0,
+		group = 5971,
+		prefab_node = "8",
+		task_id = 21726,
+		activity_medal_name = "스티커: 대어 발견",
+		id = 597103,
+		medal_asset = "ActivityMedal/597103"
+	}
+	pg.base.activity_medal_template[597104] = {
+		activity_medal_desc = "으앗! 튜브를 바다에 떨어뜨렸어! 빠지기 전에 튜브 좀…… 응?",
+		next_medal = 0,
+		item = 65615,
+		remake_task_id = 0,
+		group = 5971,
+		prefab_node = "8",
+		task_id = 21727,
+		activity_medal_name = "스티커: 구조용 튜브",
+		id = 597104,
+		medal_asset = "ActivityMedal/597104"
+	}
+	pg.base.activity_medal_template[597105] = {
+		activity_medal_desc = "1등 축하합니다! ID를 입력하고 보상을 수령하세요!",
+		next_medal = 0,
+		item = 65616,
+		remake_task_id = 0,
+		group = 5971,
+		prefab_node = "8",
+		task_id = 21728,
+		activity_medal_name = "스티커: 넘버원 플레이어",
+		id = 597105,
+		medal_asset = "ActivityMedal/597105"
+	}
+	pg.base.activity_medal_template[597106] = {
+		activity_medal_desc = "야생의 포획자가 야생의 보물 상자를 낚아채는 귀중한 순간.",
+		next_medal = 0,
+		item = 65617,
+		remake_task_id = 0,
+		group = 5971,
+		prefab_node = "8",
+		task_id = 21729,
+		activity_medal_name = "스티커: 포획의 순간",
+		id = 597106,
+		medal_asset = "ActivityMedal/597106"
+	}
+	pg.base.activity_medal_template[597107] = {
+		activity_medal_desc = "한 척만 더… 딱 한 척만큼만 물자를 더 줘……",
+		next_medal = 0,
+		item = 65618,
+		remake_task_id = 0,
+		group = 5971,
+		prefab_node = "8",
+		task_id = 21730,
+		activity_medal_name = "스티커: 한 척 더",
+		id = 597107,
+		medal_asset = "ActivityMedal/597107"
+	}
+	pg.base.activity_medal_template[5002101] = {
+		activity_medal_desc = "밤이 깊어지면 검은 옷을 입은 자가 움직인다. 다음 타깃은 과연 누구일까?",
+		next_medal = 0,
+		item = 65632,
+		remake_task_id = 0,
+		group = 50021,
+		prefab_node = "1",
+		task_id = 21777,
+		activity_medal_name = "스티커: 수수께끼의 검은 옷",
+		id = 5002101,
+		medal_asset = "ActivityMedal/5002101"
+	}
+	pg.base.activity_medal_template[5002102] = {
+		activity_medal_desc = "저쪽이다! 용의자 발견!",
+		next_medal = 0,
+		item = 65633,
+		remake_task_id = 0,
+		group = 50021,
+		prefab_node = "2",
+		task_id = 21778,
+		activity_medal_name = "스티커: 체포 영장",
+		id = 5002102,
+		medal_asset = "ActivityMedal/5002102"
+	}
+	pg.base.activity_medal_template[5002103] = {
+		activity_medal_desc = "이 깃발만 따라와! 다른 관광객의 질문에는 대답하면 안 돼! 절대로!",
+		next_medal = 0,
+		item = 65634,
+		remake_task_id = 0,
+		group = 50021,
+		prefab_node = "3",
+		task_id = 21779,
+		activity_medal_name = "스티커: 가이드 깃발",
+		id = 5002103,
+		medal_asset = "ActivityMedal/5002103"
+	}
+	pg.base.activity_medal_template[5002104] = {
+		activity_medal_desc = "이 녀석이랑 속도를 겨루고 싶다고?",
+		next_medal = 0,
+		item = 65635,
+		remake_task_id = 0,
+		group = 50021,
+		prefab_node = "4",
+		task_id = 21780,
+		activity_medal_name = "스티커: 순찰용 차량",
+		id = 5002104,
+		medal_asset = "ActivityMedal/5002104"
+	}
+	pg.base.activity_medal_template[5002105] = {
+		activity_medal_desc = "토끼 경찰이 현장에 도착했답니다♪ 수사를 지원하러 왔으니 다들 조심하세요~",
+		next_medal = 0,
+		item = 65636,
+		remake_task_id = 0,
+		group = 50021,
+		prefab_node = "5",
+		task_id = 21781,
+		activity_medal_name = "스티커: 토끼 순경",
+		id = 5002105,
+		medal_asset = "ActivityMedal/5002105"
+	}
+	pg.base.activity_medal_template[5002106] = {
+		activity_medal_desc = "모자를 쓰고 조례를 복창하라! 까먹었으면 10번 받아쓰기 시킬 거야!",
+		next_medal = 0,
+		item = 65637,
+		remake_task_id = 0,
+		group = 50021,
+		prefab_node = "6",
+		task_id = 21782,
+		activity_medal_name = "스티커: 제복 모자",
+		id = 5002106,
+		medal_asset = "ActivityMedal/5002106"
+	}
+	pg.base.activity_medal_template[5002107] = {
+		activity_medal_desc = "계속 지켜보고 있어…… 계속…… 계속 말이야……",
+		next_medal = 0,
+		item = 65638,
+		remake_task_id = 0,
+		group = 50021,
+		prefab_node = "7",
+		task_id = 21783,
+		activity_medal_name = "스티커: 도망칠 수 없어",
+		id = 5002107,
+		medal_asset = "ActivityMedal/5002107"
+	}
+	pg.base.activity_medal_template[5002108] = {
+		activity_medal_desc = "진실은 언제나 하나뿐! 범인은…… 바로 너야!",
+		next_medal = 0,
+		item = 65639,
+		remake_task_id = 0,
+		group = 50021,
+		prefab_node = "8",
+		task_id = 21784,
+		activity_medal_name = "기념 스티커: 조사 영상",
+		id = 5002108,
+		medal_asset = "ActivityMedal/5002108"
+	}
+	pg.base.activity_medal_template[5008701] = {
+		activity_medal_desc = "유성이 떨어져 심연이 형성되고, 재앙이 찾아올 때 성전이 현현하리라.",
+		next_medal = 0,
+		item = 65666,
+		remake_task_id = 0,
+		group = 50087,
+		prefab_node = "1",
+		task_id = 21803,
+		activity_medal_name = "스티커: 심연에서",
+		id = 5008701,
+		medal_asset = "ActivityMedal/5008701"
+	}
+	pg.base.activity_medal_template[5008702] = {
+		activity_medal_desc = "우로보로스 마법학교가 있는 곳. 심연과 관련된 다양한 활동이 이뤄지고 있다.",
+		next_medal = 0,
+		item = 65667,
+		remake_task_id = 0,
+		group = 50087,
+		prefab_node = "2",
+		task_id = 21804,
+		activity_medal_name = "스티커: 아질 성",
+		id = 5008702,
+		medal_asset = "ActivityMedal/5008702"
+	}
+	pg.base.activity_medal_template[5008703] = {
+		activity_medal_desc = "이 정도쯤은 플루즈한테 맡기면 아무것도 아니야♪",
+		next_medal = 0,
+		item = 65668,
+		remake_task_id = 0,
+		group = 50087,
+		prefab_node = "3",
+		task_id = 21805,
+		activity_medal_name = "스티커: 무장 제어 팩터",
+		id = 5008703,
+		medal_asset = "ActivityMedal/5008703"
+	}
+	pg.base.activity_medal_template[5008704] = {
+		activity_medal_desc = "적을 굴복시키는 최선의 방법은 화력을 미친듯이 쏟아 붓는 것이지!",
+		next_medal = 0,
+		item = 65669,
+		remake_task_id = 0,
+		group = 50087,
+		prefab_node = "4",
+		task_id = 21806,
+		activity_medal_name = "스티커: 고대 골렘",
+		id = 5008704,
+		medal_asset = "ActivityMedal/5008704"
+	}
+	pg.base.activity_medal_template[5008705] = {
+		activity_medal_desc = "마른 가지가 필사적으로 하늘을 향해 그 잎을 드리우며, 마치 빛바랜 신의 왕관처럼 엘프의 마지막 혈통을 지켜내고 있다.",
+		next_medal = 0,
+		item = 65670,
+		remake_task_id = 0,
+		group = 50087,
+		prefab_node = "5",
+		task_id = 21807,
+		activity_medal_name = "스티커: 어머니 정령의 나무",
+		id = 5008705,
+		medal_asset = "ActivityMedal/5008705"
+	}
+	pg.base.activity_medal_template[5008706] = {
+		activity_medal_desc = "마희는 늘 당신을 지켜보고 있어――",
+		next_medal = 0,
+		item = 65671,
+		remake_task_id = 0,
+		group = 50087,
+		prefab_node = "6",
+		task_id = 21808,
+		activity_medal_name = "스티커: 악마의 눈",
+		id = 5008706,
+		medal_asset = "ActivityMedal/5008706"
+	}
+	pg.base.activity_medal_template[5008707] = {
+		activity_medal_desc = "하늘을 찌르던 오래된 거목은 이제 잊혀져 그루터기만 덩그러니 남았다.",
+		next_medal = 0,
+		item = 65672,
+		remake_task_id = 0,
+		group = 50087,
+		prefab_node = "7",
+		task_id = 21809,
+		activity_medal_name = "스티커: 썩은 나무",
+		id = 5008707,
+		medal_asset = "ActivityMedal/5008707"
+	}
+	pg.base.activity_medal_template[5008708] = {
+		activity_medal_desc = "한겨울의 요새여, 겨울 장군이 돌아왔다!",
+		next_medal = 0,
+		item = 65673,
+		remake_task_id = 0,
+		group = 50087,
+		prefab_node = "8",
+		task_id = 21810,
+		activity_medal_name = "스티커: 빙설의 왕관",
+		id = 5008708,
+		medal_asset = "ActivityMedal/5008708"
+	}
+	pg.base.activity_medal_template[5013601] = {
+		activity_medal_desc = "「천역은 곧 외부의 담이니, 아마하라는 천역으로 말미암아 그 존재가 정해진다. 설령 땅이 부서지고 산이 무너져도, 대격변이 찾아오더라도… 천역 아마하라는 영원히 존재해야 한다.」",
+		next_medal = 0,
+		item = 65686,
+		remake_task_id = 0,
+		group = 50136,
+		prefab_node = "1",
+		task_id = 21836,
+		activity_medal_name = "스티커: 천역 아마하라",
+		id = 5013601,
+		medal_asset = "ActivityMedal/5013601"
+	}
+	pg.base.activity_medal_template[5013602] = {
+		activity_medal_desc = "봉황이 춤추는 아름다운 그림자, 그 울음소리는 아마하라 전역에 울려 퍼진다.",
+		next_medal = 0,
+		item = 65687,
+		remake_task_id = 0,
+		group = 50136,
+		prefab_node = "2",
+		task_id = 21837,
+		activity_medal_name = "스티커: 봉황의 그림자",
+		id = 5013602,
+		medal_asset = "ActivityMedal/5013602"
+	}
+	pg.base.activity_medal_template[5013603] = {
+		activity_medal_desc = "구름을 타고 아마하라에 춤을 바쳐라.",
+		next_medal = 0,
+		item = 65688,
+		remake_task_id = 0,
+		group = 50136,
+		prefab_node = "3",
+		task_id = 21838,
+		activity_medal_name = "스티커: 아마하라의 춤",
+		id = 5013603,
+		medal_asset = "ActivityMedal/5013603"
+	}
+	pg.base.activity_medal_template[5013604] = {
+		activity_medal_desc = "두루마리에 그려진 것은 아마하라의 풍경이리니.",
+		next_medal = 0,
+		item = 65689,
+		remake_task_id = 0,
+		group = 50136,
+		prefab_node = "4",
+		task_id = 21839,
+		activity_medal_name = "스티커: 아마하라 두루마리",
+		id = 5013604,
+		medal_asset = "ActivityMedal/5013604"
+	}
+	pg.base.activity_medal_template[5013605] = {
+		activity_medal_desc = "먼곳에서 찾아온 손님이여, 이 술을 드시옵소서.",
+		next_medal = 0,
+		item = 65690,
+		remake_task_id = 0,
+		group = 50136,
+		prefab_node = "5",
+		task_id = 21840,
+		activity_medal_name = "스티커: 운해의 명주",
+		id = 5013605,
+		medal_asset = "ActivityMedal/5013605"
+	}
+	pg.base.activity_medal_template[5013606] = {
+		activity_medal_desc = "▂▃▆▂▃▆▇▂▃▇█▆▆▇▇▆▇",
+		next_medal = 0,
+		item = 65691,
+		remake_task_id = 0,
+		group = 50136,
+		prefab_node = "6",
+		task_id = 21841,
+		activity_medal_name = "스티커: 염마의 숨결",
+		id = 5013606,
+		medal_asset = "ActivityMedal/5013606"
+	}
+	pg.base.activity_medal_template[5013607] = {
+		activity_medal_desc = "보들보들 폭신폭신하지만 절대 손댈 수 없다……",
+		next_medal = 0,
+		item = 65692,
+		remake_task_id = 0,
+		group = 50136,
+		prefab_node = "7",
+		task_id = 21842,
+		activity_medal_name = "스티커: 영묘한 여우",
+		id = 5013607,
+		medal_asset = "ActivityMedal/5013607"
+	}
+	pg.base.activity_medal_template[5013608] = {
+		activity_medal_desc = "이마에 대면 환상이 현실이 된다.",
+		next_medal = 0,
+		item = 65693,
+		remake_task_id = 0,
+		group = 50136,
+		prefab_node = "8",
+		task_id = 21843,
+		activity_medal_name = "스티커: 환몽석",
+		id = 5013608,
+		medal_asset = "ActivityMedal/5013608"
+	}
+	pg.base.activity_medal_template[5020901] = {
+		activity_medal_desc = "자유 군도. 자유를 추구하는 사람들의 군도.",
+		next_medal = 0,
+		item = 65723,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "1",
+		task_id = 21850,
+		activity_medal_name = "스티커: 자유 군도",
+		id = 5020901,
+		medal_asset = "ActivityMedal/5020901"
+	}
+	pg.base.activity_medal_template[5020902] = {
+		activity_medal_desc = "복수의 여왕 선단의 스티커!",
+		next_medal = 0,
+		item = 65724,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "2",
+		task_id = 21851,
+		activity_medal_name = "스티커: 복수의 여왕 선단",
+		id = 5020902,
+		medal_asset = "ActivityMedal/5020902"
+	}
+	pg.base.activity_medal_template[5020903] = {
+		activity_medal_desc = "템페스타 선단의 스티커!",
+		next_medal = 0,
+		item = 65725,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "3",
+		task_id = 21852,
+		activity_medal_name = "스티커: 템페스타 선단",
+		id = 5020903,
+		medal_asset = "ActivityMedal/5020903"
+	}
+	pg.base.activity_medal_template[5020904] = {
+		activity_medal_desc = "벽운의 수호자의 스티커!",
+		next_medal = 0,
+		item = 65726,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "4",
+		task_id = 21853,
+		activity_medal_name = "스티커: 벽운의 수호자",
+		id = 5020904,
+		medal_asset = "ActivityMedal/5020904"
+	}
+	pg.base.activity_medal_template[5020905] = {
+		activity_medal_desc = "자유 군도에 위치한 유적 등대. 비밀이 숨겨져 있다.",
+		next_medal = 0,
+		item = 65727,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "5",
+		task_id = 21854,
+		activity_medal_name = "스티커: 유적 등대",
+		id = 5020905,
+		medal_asset = "ActivityMedal/5020905"
+	}
+	pg.base.activity_medal_template[5020906] = {
+		activity_medal_desc = "여신 교회의 스티커!",
+		next_medal = 0,
+		item = 65728,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "6",
+		task_id = 21855,
+		activity_medal_name = "스티커: 여신 교회",
+		id = 5020906,
+		medal_asset = "ActivityMedal/5020906"
+	}
+	pg.base.activity_medal_template[5020907] = {
+		activity_medal_desc = "로열 포춘이 직접 만든 목제 나침반. 누가 봐도 진짜처럼 보인다.",
+		next_medal = 0,
+		item = 65729,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "7",
+		task_id = 21856,
+		activity_medal_name = "스티커: 목제 나침반",
+		id = 5020907,
+		medal_asset = "ActivityMedal/5020907"
+	}
+	pg.base.activity_medal_template[5020908] = {
+		activity_medal_desc = "트레저 헌터의 스티커!",
+		next_medal = 0,
+		item = 65730,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "8",
+		task_id = 21857,
+		activity_medal_name = "스티커: 트레저 헌터",
+		id = 5020908,
+		medal_asset = "ActivityMedal/5020908"
+	}
+	pg.base.activity_medal_template[5029501] = {
+		activity_medal_desc = "베일 아래, 창공의 별들이 지금도 눈부시게 빛나고 있다.",
+		next_medal = 0,
+		item = 65786,
+		remake_task_id = 0,
+		group = 50295,
+		prefab_node = "1",
+		task_id = 21874,
+		activity_medal_name = "스티커: 창공의 별",
+		id = 5029501,
+		medal_asset = "ActivityMedal/5029501"
+	}
+	pg.base.activity_medal_template[5029502] = {
+		activity_medal_desc = "기나긴 꿈을 꾼 것 같은 느낌……",
+		next_medal = 0,
+		item = 65787,
+		remake_task_id = 0,
+		group = 50295,
+		prefab_node = "2",
+		task_id = 21875,
+		activity_medal_name = "스티커: 블루 고스트",
+		id = 5029502,
+		medal_asset = "ActivityMedal/5029502"
+	}
+	pg.base.activity_medal_template[5029503] = {
+		activity_medal_desc = "여기서 별들의 목소리에 귀를 기울이자.",
+		next_medal = 0,
+		item = 65788,
+		remake_task_id = 0,
+		group = 50295,
+		prefab_node = "3",
+		task_id = 21876,
+		activity_medal_name = "스티커: 은하의 별",
+		id = 5029503,
+		medal_asset = "ActivityMedal/5029503"
+	}
+	pg.base.activity_medal_template[5029504] = {
+		activity_medal_desc = "사신이자, 사신이 아닌 자.",
+		next_medal = 0,
+		item = 65789,
+		remake_task_id = 0,
+		group = 50295,
+		prefab_node = "4",
+		task_id = 21877,
+		activity_medal_name = "스티커: 사신",
+		id = 5029504,
+		medal_asset = "ActivityMedal/5029504"
+	}
+	pg.base.activity_medal_template[5029505] = {
+		activity_medal_desc = "「지금 사람은 보지 못하는 옛 시절의 달, 지금 달은 이미 지나 옛 사람을 비추나니」",
+		next_medal = 0,
+		item = 65790,
+		remake_task_id = 0,
+		group = 50295,
+		prefab_node = "5",
+		task_id = 21878,
+		activity_medal_name = "스티커: 달과 옥륜",
+		id = 5029505,
+		medal_asset = "ActivityMedal/5029505"
+	}
+	pg.base.activity_medal_template[5029506] = {
+		activity_medal_desc = "처음 뵙겠습니다. 벽람항로의 지휘관님. 저는 「은빛 여우」라고 부르시면 됩니다.",
+		next_medal = 0,
+		item = 65791,
+		remake_task_id = 0,
+		group = 50295,
+		prefab_node = "6",
+		task_id = 21879,
+		activity_medal_name = "스티커: 은빛 여우",
+		id = 5029506,
+		medal_asset = "ActivityMedal/5029506"
+	}
+	pg.base.activity_medal_template[5029507] = {
+		activity_medal_desc = "언젠가는 꼭 만날 수 있을 거야.",
+		next_medal = 0,
+		item = 65792,
+		remake_task_id = 0,
+		group = 50295,
+		prefab_node = "7",
+		task_id = 21880,
+		activity_medal_name = "스티커: 헬레나",
+		id = 5029507,
+		medal_asset = "ActivityMedal/5029507"
+	}
+	pg.base.activity_medal_template[5029508] = {
+		activity_medal_desc = "여기 미사일이 떨어지기라도 하면……",
+		next_medal = 0,
+		item = 65793,
+		remake_task_id = 0,
+		group = 50295,
+		prefab_node = "8",
+		task_id = 21881,
+		activity_medal_name = "스티커: 연합 이사회",
+		id = 5029508,
+		medal_asset = "ActivityMedal/5029508"
+	}
+	pg.base.activity_medal_template[5035901] = {
+		activity_medal_desc = "지금 가장 핫한 건 누구? 그래, 바로 나야!",
+		next_medal = 0,
+		item = 65803,
+		remake_task_id = 0,
+		group = 50359,
+		prefab_node = "1",
+		task_id = 21884,
+		activity_medal_name = "스티커: 촬영 진행 중!",
+		id = 5035901,
+		medal_asset = "ActivityMedal/5035901"
+	}
+	pg.base.activity_medal_template[5035902] = {
+		activity_medal_desc = "3, 2, 1! 치즈~",
+		next_medal = 0,
+		item = 65804,
+		remake_task_id = 0,
+		group = 50359,
+		prefab_node = "2",
+		task_id = 21885,
+		activity_medal_name = "스티커: 카메라",
+		id = 5035902,
+		medal_asset = "ActivityMedal/5035902"
+	}
+	pg.base.activity_medal_template[5035903] = {
+		activity_medal_desc = "행거는 의상을 걸 때 쓰는 것…",
+		next_medal = 0,
+		item = 65805,
+		remake_task_id = 0,
+		group = 50359,
+		prefab_node = "3",
+		task_id = 21886,
+		activity_medal_name = "스티커: 행거",
+		id = 5035903,
+		medal_asset = "ActivityMedal/5035903"
+	}
+	pg.base.activity_medal_template[5035904] = {
+		activity_medal_desc = "조금만 더…… 조금만 더하면 잡을 수 있어……!",
+		next_medal = 0,
+		item = 65806,
+		remake_task_id = 0,
+		group = 50359,
+		prefab_node = "4",
+		task_id = 21887,
+		activity_medal_name = "스티커: 뽑기 기계",
+		id = 5035904,
+		medal_asset = "ActivityMedal/5035904"
+	}
+	pg.base.activity_medal_template[5035905] = {
+		activity_medal_desc = "주목을 한몸에 받을 준비는 됐어?",
+		next_medal = 0,
+		item = 65807,
+		remake_task_id = 0,
+		group = 50359,
+		prefab_node = "5",
+		task_id = 21888,
+		activity_medal_name = "스티커: 스포트라이트",
+		id = 5035905,
+		medal_asset = "ActivityMedal/5035905"
+	}
+end)()
+(function ()
+	pg.base.activity_medal_template[5035906] = {
+		activity_medal_desc = "지금부터… 패션 란제리 특집 촬영 시간!",
+		next_medal = 0,
+		item = 65808,
+		remake_task_id = 0,
+		group = 50359,
+		prefab_node = "6",
+		task_id = 21889,
+		activity_medal_name = "스티커: 패션",
+		id = 5035906,
+		medal_asset = "ActivityMedal/5035906"
+	}
+	pg.base.activity_medal_template[5035907] = {
+		activity_medal_desc = "같은 과일이라도 촬영할 방법은 100가지나 있거든?",
+		next_medal = 0,
+		item = 65809,
+		remake_task_id = 0,
+		group = 50359,
+		prefab_node = "7",
+		task_id = 21890,
+		activity_medal_name = "스티커: 프루트 앨범",
+		id = 5035907,
+		medal_asset = "ActivityMedal/5035907"
+	}
+	pg.base.activity_medal_template[5035908] = {
+		activity_medal_desc = "카메라를 안 보는 순간도 포함해 모든 걸 기록할 거야!",
+		next_medal = 0,
+		item = 65810,
+		remake_task_id = 0,
+		group = 50359,
+		prefab_node = "8",
+		task_id = 21891,
+		activity_medal_name = "스티커: 필름",
+		id = 5035908,
+		medal_asset = "ActivityMedal/5035908"
+	}
+	pg.base.activity_medal_template[5040501] = {
+		activity_medal_desc = "군자의 옥패에 담긴 그 마음은 누구와 이어질까?",
+		next_medal = 0,
+		item = 65849,
+		remake_task_id = 0,
+		group = 50405,
+		prefab_node = "1",
+		task_id = 21893,
+		activity_medal_name = "스티커: 봄의 회옥",
+		id = 5040501,
+		medal_asset = "ActivityMedal/5040501"
+	}
+	pg.base.activity_medal_template[5040502] = {
+		activity_medal_desc = "자, 행사장에 모인 모든 이의 시선이 내게 쏟아진다.",
+		next_medal = 0,
+		item = 65850,
+		remake_task_id = 0,
+		group = 50405,
+		prefab_node = "2",
+		task_id = 21894,
+		activity_medal_name = "스티커: 날아오르는 등롱",
+		id = 5040502,
+		medal_asset = "ActivityMedal/5040502"
+	}
+	pg.base.activity_medal_template[5040503] = {
+		activity_medal_desc = "산자락을 감싼 달빛의 은은한 향기가 마음의 현을 울린다.",
+		next_medal = 0,
+		item = 65851,
+		remake_task_id = 0,
+		group = 50405,
+		prefab_node = "3",
+		task_id = 21895,
+		activity_medal_name = "스티커: 달의 향기",
+		id = 5040503,
+		medal_asset = "ActivityMedal/5040503"
+	}
+	pg.base.activity_medal_template[5040504] = {
+		activity_medal_desc = "쾅! 낙찰!",
+		next_medal = 0,
+		item = 65852,
+		remake_task_id = 0,
+		group = 50405,
+		prefab_node = "4",
+		task_id = 21896,
+		activity_medal_name = "스티커: 경매 망치",
+		id = 5040504,
+		medal_asset = "ActivityMedal/5040504"
+	}
+	pg.base.activity_medal_template[5040505] = {
+		activity_medal_desc = "한 줄기 잔향이 조용히 답을 속삭인다.",
+		next_medal = 0,
+		item = 65853,
+		remake_task_id = 0,
+		group = 50405,
+		prefab_node = "5",
+		task_id = 21897,
+		activity_medal_name = "스티커: 향로",
+		id = 5040505,
+		medal_asset = "ActivityMedal/5040505"
+	}
+	pg.base.activity_medal_template[5040506] = {
+		activity_medal_desc = "자, 함께 대모험을 떠나자!",
+		next_medal = 0,
+		item = 65854,
+		remake_task_id = 0,
+		group = 50405,
+		prefab_node = "6",
+		task_id = 21898,
+		activity_medal_name = "스티커: 트리오",
+		id = 5040506,
+		medal_asset = "ActivityMedal/5040506"
+	}
+	pg.base.activity_medal_template[5040507] = {
+		activity_medal_desc = "새콤달콤한 맛이 먹고 난 다음에도 계속 생각나게 한다.",
+		next_medal = 0,
+		item = 65855,
+		remake_task_id = 0,
+		group = 50405,
+		prefab_node = "7",
+		task_id = 21899,
+		activity_medal_name = "스티커: 탕후루",
+		id = 5040507,
+		medal_asset = "ActivityMedal/5040507"
+	}
+	pg.base.activity_medal_template[5040508] = {
+		activity_medal_desc = "군자가 품은 옥의 빛은 온화하면서도 윤기롭다.",
+		next_medal = 0,
+		item = 65856,
+		remake_task_id = 0,
+		group = 50405,
+		prefab_node = "8",
+		task_id = 21900,
+		activity_medal_name = "스티커: 영롱한 옥패",
+		id = 5040508,
+		medal_asset = "ActivityMedal/5040508"
+	}
+	pg.base.activity_medal_template[5044101] = {
+		activity_medal_desc = "손님, 이쪽으로 오세요! 봄의 활기를 모두 모아두었답니다!",
+		next_medal = 0,
+		item = 65861,
+		remake_task_id = 0,
+		group = 50441,
+		prefab_node = "1",
+		task_id = 21902,
+		activity_medal_name = "스티커: 봄빛 여관",
+		id = 5044101,
+		medal_asset = "ActivityMedal/5044101"
+	}
+	pg.base.activity_medal_template[5044102] = {
+		activity_medal_desc = "맵 데이터 로딩 중……",
+		next_medal = 0,
+		item = 65862,
+		remake_task_id = 0,
+		group = 50441,
+		prefab_node = "2",
+		task_id = 21903,
+		activity_medal_name = "스티커: 로딩 중……",
+		id = 5044102,
+		medal_asset = "ActivityMedal/5044102"
+	}
+	pg.base.activity_medal_template[5044103] = {
+		activity_medal_desc = "우린 귀여움 담당이니까 일 안 해!",
+		next_medal = 0,
+		item = 65863,
+		remake_task_id = 0,
+		group = 50441,
+		prefab_node = "3",
+		task_id = 21904,
+		activity_medal_name = "스티커: 다바오와 아바오",
+		id = 5044103,
+		medal_asset = "ActivityMedal/5044103"
+	}
+	pg.base.activity_medal_template[5044104] = {
+		activity_medal_desc = "언제 어디든 QC 개시 가능. 당신에게 가장 필요한 선택지!",
+		next_medal = 0,
+		item = 65864,
+		remake_task_id = 0,
+		group = 50441,
+		prefab_node = "4",
+		task_id = 21905,
+		activity_medal_name = "스티커: 품질 모니터링",
+		id = 5044104,
+		medal_asset = "ActivityMedal/5044104"
+	}
+	pg.base.activity_medal_template[5044105] = {
+		activity_medal_desc = "짤랑짤랑짤랑~ 돈이 사방팔방에서 굴러들어오네♪",
+		next_medal = 0,
+		item = 65865,
+		remake_task_id = 0,
+		group = 50441,
+		prefab_node = "5",
+		task_id = 21906,
+		activity_medal_name = "스티커: 젠하이의 주판",
+		id = 5044105,
+		medal_asset = "ActivityMedal/5044105"
+	}
+	pg.base.activity_medal_template[5044106] = {
+		activity_medal_desc = "뜨거워~ 데이지 않게 조심해!",
+		next_medal = 0,
+		item = 65866,
+		remake_task_id = 0,
+		group = 50441,
+		prefab_node = "6",
+		task_id = 21907,
+		activity_medal_name = "스티커: 맛있는 탕바오",
+		id = 5044106,
+		medal_asset = "ActivityMedal/5044106"
+	}
+	pg.base.activity_medal_template[5044107] = {
+		activity_medal_desc = "한 번 부치면 봄바람이 마음을 전해준다.",
+		next_medal = 0,
+		item = 65867,
+		remake_task_id = 0,
+		group = 50441,
+		prefab_node = "7",
+		task_id = 21908,
+		activity_medal_name = "스티커: 봄맞이 부채",
+		id = 5044107,
+		medal_asset = "ActivityMedal/5044107"
+	}
+	pg.base.activity_medal_template[5044108] = {
+		activity_medal_desc = "등불 하나에 불을 밝히면 정원에 넘치는 복이 찾아오리니.",
+		next_medal = 0,
+		item = 65868,
+		remake_task_id = 0,
+		group = 50441,
+		prefab_node = "8",
+		task_id = 21909,
+		activity_medal_name = "스티커: 여의 초롱",
+		id = 5044108,
+		medal_asset = "ActivityMedal/5044108"
+	}
+	pg.base.activity_medal_template[5048201] = {
+		activity_medal_desc = "네온사인이 빛나는 도시는 잠들지 않는다.",
+		next_medal = 0,
+		item = 65876,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "1",
+		task_id = 21915,
+		activity_medal_name = "스티커: 네온 시티",
+		id = 5048201,
+		medal_asset = "ActivityMedal/5048201"
+	}
+	pg.base.activity_medal_template[5048202] = {
+		activity_medal_desc = "Catch 'er By Surprise!",
+		next_medal = 0,
+		item = 65877,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "2",
+		task_id = 21916,
+		activity_medal_name = "스티커: 탈출",
+		id = 5048202,
+		medal_asset = "ActivityMedal/5048202"
+	}
+	pg.base.activity_medal_template[5048203] = {
+		activity_medal_desc = "방대한 데이터를 실시간으로 분석한다.",
+		next_medal = 0,
+		item = 65878,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "3",
+		task_id = 21917,
+		activity_medal_name = "스티커: 프로젝션",
+		id = 5048203,
+		medal_asset = "ActivityMedal/5048203"
+	}
+	pg.base.activity_medal_template[5048204] = {
+		activity_medal_desc = "묶여있는 것처럼 위장한 다음에…… 어라? 안 풀리잖아……! ?",
+		next_medal = 0,
+		item = 65879,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "4",
+		task_id = 21918,
+		activity_medal_name = "스티커: 셀프 포박",
+		id = 5048204,
+		medal_asset = "ActivityMedal/5048204"
+	}
+	pg.base.activity_medal_template[5048205] = {
+		activity_medal_desc = "네 정체는 이미 탄로났다. 더는 도망칠 수 없어!",
+		next_medal = 0,
+		item = 65880,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "5",
+		task_id = 21919,
+		activity_medal_name = "스티커: 전 지역 지명 수배",
+		id = 5048205,
+		medal_asset = "ActivityMedal/5048205"
+	}
+	pg.base.activity_medal_template[5048206] = {
+		activity_medal_desc = "못 잡으면…… 보물은 내 것이야.",
+		next_medal = 0,
+		item = 65881,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "6",
+		task_id = 21920,
+		activity_medal_name = "스티커: 예고장",
+		id = 5048206,
+		medal_asset = "ActivityMedal/5048206"
+	}
+	pg.base.activity_medal_template[5048207] = {
+		activity_medal_desc = "헤드폰을 쓰고 나만의 세상으로 다이빙",
+		next_medal = 0,
+		item = 65882,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "7",
+		task_id = 21921,
+		activity_medal_name = "스티커: 딥 타입",
+		id = 5048207,
+		medal_asset = "ActivityMedal/5048207"
+	}
+	pg.base.activity_medal_template[5048208] = {
+		activity_medal_desc = "유람자들이여, 모여라!",
+		next_medal = 0,
+		item = 65883,
+		remake_task_id = 0,
+		group = 50482,
+		prefab_node = "8",
+		task_id = 21922,
+		activity_medal_name = "스티커: 엠블럼",
+		id = 5048208,
+		medal_asset = "ActivityMedal/5048208"
+	}
+end)()

@@ -1,6 +1,24 @@
 pg = pg or {}
-pg.achievement_data_template = {
-	{
+pg.achievement_data_template = rawget(pg, "achievement_data_template") or setmetatable({
+	__name = "achievement_data_template"
+}, confNEO)
+pg.achievement_data_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10
+}
+pg.base = pg.base or {}
+pg.base.achievement_data_template = {}
+
+(function ()
+	pg.base.achievement_data_template[1] = {
 		award = "[]",
 		condition = "杀怪数量达到30只",
 		action = 1,
@@ -9,8 +27,8 @@ pg.achievement_data_template = {
 		target_num = 30,
 		limit = "[]",
 		target_id = "0"
-	},
-	{
+	}
+	pg.base.achievement_data_template[2] = {
 		award = "[]",
 		condition = "收集10艘不同的驱逐舰",
 		action = 2,
@@ -19,8 +37,8 @@ pg.achievement_data_template = {
 		target_num = 10,
 		limit = "[]",
 		target_id = "1"
-	},
-	{
+	}
+	pg.base.achievement_data_template[3] = {
 		award = "[]",
 		condition = "收集20艘不同的驱逐舰",
 		action = 2,
@@ -29,8 +47,8 @@ pg.achievement_data_template = {
 		target_num = 20,
 		limit = "[]",
 		target_id = "1"
-	},
-	{
+	}
+	pg.base.achievement_data_template[4] = {
 		award = "[]",
 		condition = "收集30艘不同的驱逐舰",
 		action = 2,
@@ -39,8 +57,8 @@ pg.achievement_data_template = {
 		target_num = 30,
 		limit = "[]",
 		target_id = "1"
-	},
-	{
+	}
+	pg.base.achievement_data_template[5] = {
 		award = "[]",
 		condition = "任意舰船升级到30级",
 		action = 2,
@@ -49,8 +67,8 @@ pg.achievement_data_template = {
 		target_num = 30,
 		limit = "[]",
 		target_id = "0"
-	},
-	{
+	}
+	pg.base.achievement_data_template[6] = {
 		award = "[]",
 		condition = "任意驱逐舰升级到30级",
 		action = 2,
@@ -59,8 +77,8 @@ pg.achievement_data_template = {
 		target_num = 30,
 		limit = "[]",
 		target_id = "1"
-	},
-	{
+	}
+	pg.base.achievement_data_template[7] = {
 		award = "[]",
 		condition = "拉菲升级到30级",
 		action = 2,
@@ -69,8 +87,8 @@ pg.achievement_data_template = {
 		target_num = 30,
 		limit = "[]",
 		target_id = "[101,102,103,104]"
-	},
-	{
+	}
+	pg.base.achievement_data_template[8] = {
 		award = "[]",
 		condition = "收集10种不同的主炮装备",
 		action = 2,
@@ -79,8 +97,8 @@ pg.achievement_data_template = {
 		target_num = 10,
 		limit = "[]",
 		target_id = "1"
-	},
-	{
+	}
+	pg.base.achievement_data_template[9] = {
 		award = "[]",
 		condition = "竞技场连胜10场",
 		action = 3,
@@ -89,8 +107,8 @@ pg.achievement_data_template = {
 		target_num = 10,
 		limit = "[]",
 		target_id = "0"
-	},
-	{
+	}
+	pg.base.achievement_data_template[10] = {
 		award = "[]",
 		condition = "获得声望，反击图鉴",
 		action = 4,
@@ -99,17 +117,5 @@ pg.achievement_data_template = {
 		target_num = 1,
 		limit = "[]",
 		target_id = "[1,2]"
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10
 	}
-}
+end)()

@@ -1,6 +1,16 @@
 pg = pg or {}
-pg.island_draw = {
-	[999901] = {
+pg.island_draw = rawget(pg, "island_draw") or setmetatable({
+	__name = "island_draw"
+}, confNEO)
+pg.island_draw.all = {
+	999901,
+	990009
+}
+pg.base = pg.base or {}
+pg.base.island_draw = {}
+
+(function ()
+	pg.base.island_draw[999901] = {
 		id = 999901,
 		shop = 500000,
 		convert_language = "island_draw_convert",
@@ -203,8 +213,8 @@ pg.island_draw = {
 			14,
 			30
 		}
-	},
-	[990009] = {
+	}
+	pg.base.island_draw[990009] = {
 		id = 990009,
 		shop = 500001,
 		convert_language = "island_draw_convert",
@@ -415,9 +425,5 @@ pg.island_draw = {
 			14,
 			30
 		}
-	},
-	all = {
-		999901,
-		990009
 	}
-}
+end)()

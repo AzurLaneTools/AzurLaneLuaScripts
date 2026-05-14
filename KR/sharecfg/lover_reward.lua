@@ -1,6 +1,38 @@
 pg = pg or {}
-pg.lover_reward = {
-	[101] = {
+pg.lover_reward = rawget(pg, "lover_reward") or setmetatable({
+	__name = "lover_reward"
+}, confNEO)
+pg.lover_reward.all = {
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	110,
+	111,
+	112,
+	113,
+	114,
+	115,
+	116,
+	117,
+	118,
+	119,
+	120,
+	121,
+	122,
+	123,
+	124
+}
+pg.base = pg.base or {}
+pg.base.lover_reward = {}
+
+(function ()
+	pg.base.lover_reward[101] = {
 		id = 101,
 		total_level = 5,
 		show_reward = {
@@ -10,8 +42,8 @@ pg.lover_reward = {
 				1
 			}
 		}
-	},
-	[102] = {
+	}
+	pg.base.lover_reward[102] = {
 		id = 102,
 		total_level = 10,
 		show_reward = {
@@ -21,8 +53,8 @@ pg.lover_reward = {
 				1
 			}
 		}
-	},
-	[103] = {
+	}
+	pg.base.lover_reward[103] = {
 		id = 103,
 		total_level = 15,
 		show_reward = {
@@ -32,8 +64,8 @@ pg.lover_reward = {
 				2
 			}
 		}
-	},
-	[104] = {
+	}
+	pg.base.lover_reward[104] = {
 		id = 104,
 		total_level = 20,
 		show_reward = {
@@ -43,8 +75,8 @@ pg.lover_reward = {
 				1
 			}
 		}
-	},
-	[105] = {
+	}
+	pg.base.lover_reward[105] = {
 		id = 105,
 		total_level = 25,
 		show_reward = {
@@ -54,8 +86,8 @@ pg.lover_reward = {
 				2
 			}
 		}
-	},
-	[106] = {
+	}
+	pg.base.lover_reward[106] = {
 		id = 106,
 		total_level = 30,
 		show_reward = {
@@ -65,8 +97,8 @@ pg.lover_reward = {
 				1
 			}
 		}
-	},
-	[107] = {
+	}
+	pg.base.lover_reward[107] = {
 		id = 107,
 		total_level = 35,
 		show_reward = {
@@ -76,8 +108,8 @@ pg.lover_reward = {
 				1
 			}
 		}
-	},
-	[108] = {
+	}
+	pg.base.lover_reward[108] = {
 		id = 108,
 		total_level = 40,
 		show_reward = {
@@ -87,8 +119,8 @@ pg.lover_reward = {
 				2
 			}
 		}
-	},
-	[109] = {
+	}
+	pg.base.lover_reward[109] = {
 		id = 109,
 		total_level = 45,
 		show_reward = {
@@ -98,8 +130,8 @@ pg.lover_reward = {
 				1
 			}
 		}
-	},
-	[110] = {
+	}
+	pg.base.lover_reward[110] = {
 		id = 110,
 		total_level = 50,
 		show_reward = {
@@ -109,8 +141,8 @@ pg.lover_reward = {
 				1
 			}
 		}
-	},
-	[111] = {
+	}
+	pg.base.lover_reward[111] = {
 		id = 111,
 		total_level = 55,
 		show_reward = {
@@ -120,8 +152,8 @@ pg.lover_reward = {
 				2
 			}
 		}
-	},
-	[112] = {
+	}
+	pg.base.lover_reward[112] = {
 		id = 112,
 		total_level = 60,
 		show_reward = {
@@ -131,8 +163,8 @@ pg.lover_reward = {
 				1
 			}
 		}
-	},
-	[113] = {
+	}
+	pg.base.lover_reward[113] = {
 		id = 113,
 		total_level = 65,
 		show_reward = {
@@ -142,8 +174,8 @@ pg.lover_reward = {
 				1
 			}
 		}
-	},
-	[114] = {
+	}
+	pg.base.lover_reward[114] = {
 		id = 114,
 		total_level = 70,
 		show_reward = {
@@ -153,8 +185,8 @@ pg.lover_reward = {
 				2
 			}
 		}
-	},
-	[115] = {
+	}
+	pg.base.lover_reward[115] = {
 		id = 115,
 		total_level = 75,
 		show_reward = {
@@ -164,8 +196,8 @@ pg.lover_reward = {
 				1
 			}
 		}
-	},
-	[116] = {
+	}
+	pg.base.lover_reward[116] = {
 		id = 116,
 		total_level = 80,
 		show_reward = {
@@ -175,8 +207,8 @@ pg.lover_reward = {
 				1
 			}
 		}
-	},
-	[117] = {
+	}
+	pg.base.lover_reward[117] = {
 		id = 117,
 		total_level = 85,
 		show_reward = {
@@ -186,8 +218,8 @@ pg.lover_reward = {
 				2
 			}
 		}
-	},
-	[118] = {
+	}
+	pg.base.lover_reward[118] = {
 		id = 118,
 		total_level = 90,
 		show_reward = {
@@ -197,8 +229,8 @@ pg.lover_reward = {
 				1
 			}
 		}
-	},
-	[119] = {
+	}
+	pg.base.lover_reward[119] = {
 		id = 119,
 		total_level = 95,
 		show_reward = {
@@ -208,8 +240,8 @@ pg.lover_reward = {
 				1
 			}
 		}
-	},
-	[120] = {
+	}
+	pg.base.lover_reward[120] = {
 		id = 120,
 		total_level = 100,
 		show_reward = {
@@ -219,8 +251,8 @@ pg.lover_reward = {
 				2
 			}
 		}
-	},
-	[121] = {
+	}
+	pg.base.lover_reward[121] = {
 		id = 121,
 		total_level = 105,
 		show_reward = {
@@ -230,8 +262,8 @@ pg.lover_reward = {
 				1
 			}
 		}
-	},
-	[122] = {
+	}
+	pg.base.lover_reward[122] = {
 		id = 122,
 		total_level = 110,
 		show_reward = {
@@ -241,8 +273,8 @@ pg.lover_reward = {
 				1
 			}
 		}
-	},
-	[123] = {
+	}
+	pg.base.lover_reward[123] = {
 		id = 123,
 		total_level = 115,
 		show_reward = {
@@ -252,8 +284,8 @@ pg.lover_reward = {
 				2
 			}
 		}
-	},
-	[124] = {
+	}
+	pg.base.lover_reward[124] = {
 		id = 124,
 		total_level = 120,
 		show_reward = {
@@ -263,31 +295,5 @@ pg.lover_reward = {
 				1
 			}
 		}
-	},
-	all = {
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		110,
-		111,
-		112,
-		113,
-		114,
-		115,
-		116,
-		117,
-		118,
-		119,
-		120,
-		121,
-		122,
-		123,
-		124
 	}
-}
+end)()

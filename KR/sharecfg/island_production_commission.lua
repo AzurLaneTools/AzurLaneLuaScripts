@@ -1,6 +1,59 @@
 pg = pg or {}
-pg.island_production_commission = {
-	[10101] = {
+pg.island_production_commission = rawget(pg, "island_production_commission") or setmetatable({
+	__name = "island_production_commission"
+}, confNEO)
+pg.island_production_commission.all = {
+	10101,
+	10102,
+	10103,
+	10104,
+	10201,
+	10202,
+	10203,
+	10204,
+	20101,
+	20102,
+	20103,
+	40101,
+	40102,
+	40103,
+	40104,
+	40201,
+	40202,
+	40203,
+	40204,
+	50101,
+	50102,
+	50103,
+	50104,
+	50201,
+	50202,
+	60101,
+	60102,
+	60201,
+	60202,
+	60301,
+	60302,
+	60401,
+	60402,
+	90101,
+	90102,
+	70201,
+	70202,
+	70301,
+	70302,
+	70401,
+	70402,
+	70501,
+	70502,
+	70601,
+	70602
+}
+pg.base = pg.base or {}
+pg.base.island_production_commission = {}
+
+(function ()
+	pg.base.island_production_commission[10101] = {
 		behavior_tree = "",
 		slot = 9001,
 		name = "배치 A",
@@ -9,8 +62,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 2
-	},
-	[10102] = {
+	}
+	pg.base.island_production_commission[10102] = {
 		behavior_tree = "",
 		slot = 9002,
 		name = "배치 B",
@@ -19,8 +72,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 2
-	},
-	[10103] = {
+	}
+	pg.base.island_production_commission[10103] = {
 		behavior_tree = "",
 		slot = 9003,
 		name = "배치 C",
@@ -29,8 +82,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 2
-	},
-	[10104] = {
+	}
+	pg.base.island_production_commission[10104] = {
 		behavior_tree = "",
 		slot = 9004,
 		name = "배치 D",
@@ -39,8 +92,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 2
-	},
-	[10201] = {
+	}
+	pg.base.island_production_commission[10201] = {
 		behavior_tree = "",
 		slot = 9031,
 		name = "꼬꼬닭",
@@ -49,8 +102,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 3
-	},
-	[10202] = {
+	}
+	pg.base.island_production_commission[10202] = {
 		behavior_tree = "",
 		slot = 9032,
 		name = "꿀꿀이",
@@ -59,8 +112,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 3
-	},
-	[10203] = {
+	}
+	pg.base.island_production_commission[10203] = {
 		behavior_tree = "",
 		slot = 9033,
 		name = "무무소",
@@ -69,8 +122,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 3
-	},
-	[10204] = {
+	}
+	pg.base.island_production_commission[10204] = {
 		behavior_tree = "",
 		slot = 9034,
 		name = "메메양",
@@ -79,8 +132,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 3
-	},
-	[20101] = {
+	}
+	pg.base.island_production_commission[20101] = {
 		behavior_tree = "",
 		slot = 9211,
 		name = "배치 A",
@@ -89,8 +142,8 @@ pg.island_production_commission = {
 		unlockObjid = 10020068,
 		performanceObjid = 10020072,
 		attribute = 3
-	},
-	[20102] = {
+	}
+	pg.base.island_production_commission[20102] = {
 		behavior_tree = "",
 		slot = 9212,
 		name = "배치 B",
@@ -99,8 +152,8 @@ pg.island_production_commission = {
 		unlockObjid = 10020069,
 		performanceObjid = 10020073,
 		attribute = 3
-	},
-	[20103] = {
+	}
+	pg.base.island_production_commission[20103] = {
 		behavior_tree = "",
 		slot = 9213,
 		name = "배치 C",
@@ -109,8 +162,8 @@ pg.island_production_commission = {
 		unlockObjid = 10020070,
 		performanceObjid = 10020074,
 		attribute = 3
-	},
-	[40101] = {
+	}
+	pg.base.island_production_commission[40101] = {
 		behavior_tree = "",
 		slot = 9011,
 		name = "구역 A",
@@ -119,8 +172,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 10040021,
 		attribute = 4
-	},
-	[40102] = {
+	}
+	pg.base.island_production_commission[40102] = {
 		behavior_tree = "",
 		slot = 9012,
 		name = "구역 B",
@@ -129,8 +182,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 10040021,
 		attribute = 4
-	},
-	[40103] = {
+	}
+	pg.base.island_production_commission[40103] = {
 		behavior_tree = "",
 		slot = 9013,
 		name = "구역 C",
@@ -139,8 +192,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 10040021,
 		attribute = 4
-	},
-	[40104] = {
+	}
+	pg.base.island_production_commission[40104] = {
 		behavior_tree = "",
 		slot = 9014,
 		name = "구역 D",
@@ -149,8 +202,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 10040021,
 		attribute = 4
-	},
-	[40201] = {
+	}
+	pg.base.island_production_commission[40201] = {
 		behavior_tree = "",
 		slot = 9021,
 		name = "구역 A",
@@ -159,8 +212,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 10040036,
 		attribute = 4
-	},
-	[40202] = {
+	}
+	pg.base.island_production_commission[40202] = {
 		behavior_tree = "",
 		slot = 9022,
 		name = "구역 B",
@@ -169,8 +222,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 10040037,
 		attribute = 4
-	},
-	[40203] = {
+	}
+	pg.base.island_production_commission[40203] = {
 		behavior_tree = "",
 		slot = 9023,
 		name = "구역 C",
@@ -179,8 +232,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 10040038,
 		attribute = 4
-	},
-	[40204] = {
+	}
+	pg.base.island_production_commission[40204] = {
 		behavior_tree = "",
 		slot = 9024,
 		name = "구역 D",
@@ -189,8 +242,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 10040039,
 		attribute = 4
-	},
-	[50101] = {
+	}
+	pg.base.island_production_commission[50101] = {
 		behavior_tree = "",
 		slot = 9101,
 		name = "구역 A",
@@ -199,8 +252,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 2
-	},
-	[50102] = {
+	}
+	pg.base.island_production_commission[50102] = {
 		behavior_tree = "",
 		slot = 9102,
 		name = "구역 B",
@@ -209,8 +262,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 2
-	},
-	[50103] = {
+	}
+	pg.base.island_production_commission[50103] = {
 		behavior_tree = "",
 		slot = 9103,
 		name = "구역 C",
@@ -219,8 +272,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 2
-	},
-	[50104] = {
+	}
+	pg.base.island_production_commission[50104] = {
 		behavior_tree = "",
 		slot = 9104,
 		name = "구역 D",
@@ -229,8 +282,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 2
-	},
-	[50201] = {
+	}
+	pg.base.island_production_commission[50201] = {
 		behavior_tree = "",
 		slot = 9111,
 		name = "구역 A",
@@ -239,8 +292,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 2
-	},
-	[50202] = {
+	}
+	pg.base.island_production_commission[50202] = {
 		behavior_tree = "",
 		slot = 9112,
 		name = "구역 B",
@@ -249,8 +302,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 2
-	},
-	[60101] = {
+	}
+	pg.base.island_production_commission[60101] = {
 		behavior_tree = "",
 		slot = 9061,
 		name = "배치 A",
@@ -259,8 +312,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 10060015,
 		attribute = 6
-	},
-	[60102] = {
+	}
+	pg.base.island_production_commission[60102] = {
 		behavior_tree = "",
 		slot = 9062,
 		name = "배치 B",
@@ -269,8 +322,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 10060016,
 		attribute = 6
-	},
-	[60201] = {
+	}
+	pg.base.island_production_commission[60201] = {
 		behavior_tree = "",
 		slot = 9071,
 		name = "배치 A",
@@ -279,8 +332,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 6
-	},
-	[60202] = {
+	}
+	pg.base.island_production_commission[60202] = {
 		behavior_tree = "",
 		slot = 9072,
 		name = "배치 B",
@@ -289,8 +342,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 6
-	},
-	[60301] = {
+	}
+	pg.base.island_production_commission[60301] = {
 		behavior_tree = "",
 		slot = 9081,
 		name = "배치 A",
@@ -299,8 +352,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 6
-	},
-	[60302] = {
+	}
+	pg.base.island_production_commission[60302] = {
 		behavior_tree = "",
 		slot = 9082,
 		name = "배치 B",
@@ -309,8 +362,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 6
-	},
-	[60401] = {
+	}
+	pg.base.island_production_commission[60401] = {
 		behavior_tree = "",
 		slot = 9091,
 		name = "배치 A",
@@ -319,8 +372,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 6
-	},
-	[60402] = {
+	}
+	pg.base.island_production_commission[60402] = {
 		behavior_tree = "",
 		slot = 9092,
 		name = "배치 B",
@@ -329,8 +382,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 6
-	},
-	[90101] = {
+	}
+	pg.base.island_production_commission[90101] = {
 		behavior_tree = "",
 		slot = 9041,
 		name = "배치 A",
@@ -339,8 +392,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 6
-	},
-	[90102] = {
+	}
+	pg.base.island_production_commission[90102] = {
 		behavior_tree = "",
 		slot = 9042,
 		name = "배치 B",
@@ -349,8 +402,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 6
-	},
-	[70201] = {
+	}
+	pg.base.island_production_commission[70201] = {
 		behavior_tree = "",
 		slot = 70201,
 		name = "배치 A",
@@ -359,8 +412,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 10070009,
 		attribute = 0
-	},
-	[70202] = {
+	}
+	pg.base.island_production_commission[70202] = {
 		behavior_tree = "",
 		slot = 70202,
 		name = "배치 B",
@@ -369,8 +422,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 10070010,
 		attribute = 0
-	},
-	[70301] = {
+	}
+	pg.base.island_production_commission[70301] = {
 		behavior_tree = "",
 		slot = 9201,
 		name = "배치 A",
@@ -379,8 +432,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 5
-	},
-	[70302] = {
+	}
+	pg.base.island_production_commission[70302] = {
 		behavior_tree = "",
 		slot = 9202,
 		name = "배치 B",
@@ -389,8 +442,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 5
-	},
-	[70401] = {
+	}
+	pg.base.island_production_commission[70401] = {
 		behavior_tree = "",
 		slot = 9203,
 		name = "배치 A",
@@ -399,8 +452,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 5
-	},
-	[70402] = {
+	}
+	pg.base.island_production_commission[70402] = {
 		behavior_tree = "",
 		slot = 9204,
 		name = "배치 B",
@@ -409,8 +462,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 5
-	},
-	[70501] = {
+	}
+	pg.base.island_production_commission[70501] = {
 		behavior_tree = "",
 		slot = 9205,
 		name = "배치 A",
@@ -419,8 +472,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 5
-	},
-	[70502] = {
+	}
+	pg.base.island_production_commission[70502] = {
 		behavior_tree = "",
 		slot = 9206,
 		name = "배치 B",
@@ -429,8 +482,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 5
-	},
-	[70601] = {
+	}
+	pg.base.island_production_commission[70601] = {
 		behavior_tree = "",
 		slot = 9207,
 		name = "배치 A",
@@ -439,8 +492,8 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 5
-	},
-	[70602] = {
+	}
+	pg.base.island_production_commission[70602] = {
 		behavior_tree = "",
 		slot = 9208,
 		name = "배치 B",
@@ -449,52 +502,5 @@ pg.island_production_commission = {
 		unlockObjid = 0,
 		performanceObjid = 0,
 		attribute = 5
-	},
-	all = {
-		10101,
-		10102,
-		10103,
-		10104,
-		10201,
-		10202,
-		10203,
-		10204,
-		20101,
-		20102,
-		20103,
-		40101,
-		40102,
-		40103,
-		40104,
-		40201,
-		40202,
-		40203,
-		40204,
-		50101,
-		50102,
-		50103,
-		50104,
-		50201,
-		50202,
-		60101,
-		60102,
-		60201,
-		60202,
-		60301,
-		60302,
-		60401,
-		60402,
-		90101,
-		90102,
-		70201,
-		70202,
-		70301,
-		70302,
-		70401,
-		70402,
-		70501,
-		70502,
-		70601,
-		70602
 	}
-}
+end)()

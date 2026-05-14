@@ -1,32 +1,35 @@
 pg = pg or {}
-pg.dorm3d_ins_telephone_group = setmetatable({
-	__name = "dorm3d_ins_telephone_group",
-	get_id_list_by_ship_group = {
-		[10517] = {
-			10517301,
-			10517302
-		},
-		[30707] = {
-			30707301,
-			30707302
-		},
-		[49905] = {
-			49905301,
-			49905302
-		}
-	},
-	all = {
+pg.dorm3d_ins_telephone_group = rawget(pg, "dorm3d_ins_telephone_group") or setmetatable({
+	__name = "dorm3d_ins_telephone_group"
+}, confNEO)
+pg.dorm3d_ins_telephone_group.__namecode__ = true
+pg.dorm3d_ins_telephone_group.all = {
+	10517301,
+	10517302,
+	30707301,
+	30707302,
+	49905301,
+	49905302
+}
+pg.dorm3d_ins_telephone_group.get_id_list_by_ship_group = {
+	[10517] = {
 		10517301,
-		10517302,
+		10517302
+	},
+	[30707] = {
 		30707301,
-		30707302,
+		30707302
+	},
+	[49905] = {
 		49905301,
 		49905302
 	}
-}, confHX)
+}
 pg.base = pg.base or {}
-pg.base.dorm3d_ins_telephone_group = {
-	[10517301] = {
+pg.base.dorm3d_ins_telephone_group = {}
+
+(function ()
+	pg.base.dorm3d_ins_telephone_group[10517301] = {
 		ship_group = 10517,
 		name = "영상 통화·뉴저지",
 		background = "voice_placeholder",
@@ -37,8 +40,8 @@ pg.base.dorm3d_ins_telephone_group = {
 			11,
 			110602
 		}
-	},
-	[10517302] = {
+	}
+	pg.base.dorm3d_ins_telephone_group[10517302] = {
 		ship_group = 10517,
 		name = "영상 통화·뉴저지",
 		background = "voice_placeholder",
@@ -49,8 +52,8 @@ pg.base.dorm3d_ins_telephone_group = {
 			11,
 			110603
 		}
-	},
-	[30707301] = {
+	}
+	pg.base.dorm3d_ins_telephone_group[30707301] = {
 		ship_group = 30707,
 		name = "영상 통화·다이호",
 		background = "voice_placeholder",
@@ -61,8 +64,8 @@ pg.base.dorm3d_ins_telephone_group = {
 			12,
 			120601
 		}
-	},
-	[30707302] = {
+	}
+	pg.base.dorm3d_ins_telephone_group[30707302] = {
 		ship_group = 30707,
 		name = "영상 통화·다이호",
 		background = "voice_placeholder",
@@ -73,8 +76,8 @@ pg.base.dorm3d_ins_telephone_group = {
 			12,
 			120602
 		}
-	},
-	[49905301] = {
+	}
+	pg.base.dorm3d_ins_telephone_group[49905301] = {
 		ship_group = 49905,
 		name = "영상 통화·에기르",
 		background = "voice_placeholder",
@@ -85,8 +88,8 @@ pg.base.dorm3d_ins_telephone_group = {
 			14,
 			140601
 		}
-	},
-	[49905302] = {
+	}
+	pg.base.dorm3d_ins_telephone_group[49905302] = {
 		ship_group = 49905,
 		name = "영상 통화·에기르",
 		background = "voice_placeholder",
@@ -98,4 +101,4 @@ pg.base.dorm3d_ins_telephone_group = {
 			140602
 		}
 	}
-}
+end)()

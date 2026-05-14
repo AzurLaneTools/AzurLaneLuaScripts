@@ -1,6 +1,87 @@
 pg = pg or {}
-pg.child_buff = {
-	[1001] = {
+pg.child_buff = rawget(pg, "child_buff") or setmetatable({
+	__name = "child_buff"
+}, confNEO)
+pg.child_buff.all = {
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1011,
+	1012,
+	1013,
+	1014,
+	1015,
+	1016,
+	1021,
+	1022,
+	1023,
+	1024,
+	1025,
+	1026,
+	1031,
+	1032,
+	1033,
+	1034,
+	1035,
+	1036,
+	1041,
+	1042,
+	1043,
+	1044,
+	1045,
+	1046,
+	1051,
+	1052,
+	1053,
+	1054,
+	1055,
+	1056,
+	1061,
+	1062,
+	1063,
+	1064,
+	1065,
+	1066,
+	1071,
+	1072,
+	1073,
+	1074,
+	1075,
+	1076,
+	1081,
+	1082,
+	1083,
+	1084,
+	1085,
+	1086,
+	1091,
+	1092,
+	1093,
+	1094,
+	1095,
+	1096,
+	1101,
+	1102,
+	1103,
+	1104,
+	1105,
+	1106,
+	1111,
+	1112,
+	1113,
+	1114,
+	1115,
+	1116,
+	1121
+}
+pg.base = pg.base or {}
+pg.base.child_buff = {}
+
+(function ()
+	pg.base.child_buff[1001] = {
 		name = "사서 걱정–보통",
 		during_time = 1,
 		id = 1001,
@@ -14,8 +95,8 @@ pg.child_buff = {
 				1
 			}
 		}
-	},
-	[1002] = {
+	}
+	pg.base.child_buff[1002] = {
 		name = "사서 걱정–중간",
 		during_time = 1,
 		id = 1002,
@@ -29,8 +110,8 @@ pg.child_buff = {
 				2
 			}
 		}
-	},
-	[1003] = {
+	}
+	pg.base.child_buff[1003] = {
 		name = "사서 걱정–심함",
 		during_time = 1,
 		id = 1003,
@@ -44,8 +125,8 @@ pg.child_buff = {
 				3
 			}
 		}
-	},
-	[1004] = {
+	}
+	pg.base.child_buff[1004] = {
 		name = "유유자적– 좋음",
 		during_time = 1,
 		id = 1004,
@@ -59,8 +140,8 @@ pg.child_buff = {
 				-1
 			}
 		}
-	},
-	[1005] = {
+	}
+	pg.base.child_buff[1005] = {
 		name = "유유자적– 우수",
 		during_time = 1,
 		id = 1005,
@@ -74,8 +155,8 @@ pg.child_buff = {
 				-2
 			}
 		}
-	},
-	[1006] = {
+	}
+	pg.base.child_buff[1006] = {
 		name = "유유자적– 최고",
 		during_time = 1,
 		id = 1006,
@@ -89,8 +170,8 @@ pg.child_buff = {
 				-3
 			}
 		}
-	},
-	[1011] = {
+	}
+	pg.base.child_buff[1011] = {
 		name = "낭비벽–보통",
 		during_time = 1,
 		id = 1011,
@@ -104,8 +185,8 @@ pg.child_buff = {
 				-1
 			}
 		}
-	},
-	[1012] = {
+	}
+	pg.base.child_buff[1012] = {
 		name = "낭비벽–중간",
 		during_time = 1,
 		id = 1012,
@@ -119,8 +200,8 @@ pg.child_buff = {
 				-2
 			}
 		}
-	},
-	[1013] = {
+	}
+	pg.base.child_buff[1013] = {
 		name = "낭비벽–심함",
 		during_time = 1,
 		id = 1013,
@@ -134,8 +215,8 @@ pg.child_buff = {
 				-3
 			}
 		}
-	},
-	[1014] = {
+	}
+	pg.base.child_buff[1014] = {
 		name = "금운초래– 좋음",
 		during_time = 1,
 		id = 1014,
@@ -149,8 +230,8 @@ pg.child_buff = {
 				1
 			}
 		}
-	},
-	[1015] = {
+	}
+	pg.base.child_buff[1015] = {
 		name = "금운초래– 우수",
 		during_time = 1,
 		id = 1015,
@@ -164,8 +245,8 @@ pg.child_buff = {
 				1
 			}
 		}
-	},
-	[1016] = {
+	}
+	pg.base.child_buff[1016] = {
 		name = "금운초래– 최고",
 		during_time = 1,
 		id = 1016,
@@ -179,8 +260,8 @@ pg.child_buff = {
 				1
 			}
 		}
-	},
-	[1021] = {
+	}
+	pg.base.child_buff[1021] = {
 		name = "허약 체질–보통",
 		during_time = 1,
 		id = 1021,
@@ -194,8 +275,8 @@ pg.child_buff = {
 				-1
 			}
 		}
-	},
-	[1022] = {
+	}
+	pg.base.child_buff[1022] = {
 		name = "허약 체질–중간",
 		during_time = 1,
 		id = 1022,
@@ -209,8 +290,8 @@ pg.child_buff = {
 				-2
 			}
 		}
-	},
-	[1023] = {
+	}
+	pg.base.child_buff[1023] = {
 		name = "허약 체질–심함",
 		during_time = 1,
 		id = 1023,
@@ -224,8 +305,8 @@ pg.child_buff = {
 				-3
 			}
 		}
-	},
-	[1024] = {
+	}
+	pg.base.child_buff[1024] = {
 		name = "질실강건 - 좋음",
 		during_time = 1,
 		id = 1024,
@@ -239,8 +320,8 @@ pg.child_buff = {
 				1
 			}
 		}
-	},
-	[1025] = {
+	}
+	pg.base.child_buff[1025] = {
 		name = "질실강건 – 우수",
 		during_time = 1,
 		id = 1025,
@@ -254,8 +335,8 @@ pg.child_buff = {
 				2
 			}
 		}
-	},
-	[1026] = {
+	}
+	pg.base.child_buff[1026] = {
 		name = "질실강건 – 최고",
 		during_time = 1,
 		id = 1026,
@@ -269,8 +350,8 @@ pg.child_buff = {
 				3
 			}
 		}
-	},
-	[1031] = {
+	}
+	pg.base.child_buff[1031] = {
 		name = "주의산만–보통",
 		during_time = 1,
 		id = 1031,
@@ -284,8 +365,8 @@ pg.child_buff = {
 				-1
 			}
 		}
-	},
-	[1032] = {
+	}
+	pg.base.child_buff[1032] = {
 		name = "주의산만–중간",
 		during_time = 1,
 		id = 1032,
@@ -299,8 +380,8 @@ pg.child_buff = {
 				-2
 			}
 		}
-	},
-	[1033] = {
+	}
+	pg.base.child_buff[1033] = {
 		name = "주의산만–심함",
 		during_time = 1,
 		id = 1033,
@@ -314,8 +395,8 @@ pg.child_buff = {
 				-3
 			}
 		}
-	},
-	[1034] = {
+	}
+	pg.base.child_buff[1034] = {
 		name = "일의전심- 좋음",
 		during_time = 1,
 		id = 1034,
@@ -329,8 +410,8 @@ pg.child_buff = {
 				1
 			}
 		}
-	},
-	[1035] = {
+	}
+	pg.base.child_buff[1035] = {
 		name = "일의전심– 우수",
 		during_time = 1,
 		id = 1035,
@@ -344,8 +425,8 @@ pg.child_buff = {
 				2
 			}
 		}
-	},
-	[1036] = {
+	}
+	pg.base.child_buff[1036] = {
 		name = "일의전심– 최고",
 		during_time = 1,
 		id = 1036,
@@ -359,8 +440,8 @@ pg.child_buff = {
 				3
 			}
 		}
-	},
-	[1041] = {
+	}
+	pg.base.child_buff[1041] = {
 		name = "제멋대로–보통",
 		during_time = 1,
 		id = 1041,
@@ -374,8 +455,8 @@ pg.child_buff = {
 				-1
 			}
 		}
-	},
-	[1042] = {
+	}
+	pg.base.child_buff[1042] = {
 		name = "제멋대로–중간",
 		during_time = 1,
 		id = 1042,
@@ -389,8 +470,8 @@ pg.child_buff = {
 				-2
 			}
 		}
-	},
-	[1043] = {
+	}
+	pg.base.child_buff[1043] = {
 		name = "제멋대로–심함",
 		during_time = 1,
 		id = 1043,
@@ -404,8 +485,8 @@ pg.child_buff = {
 				-3
 			}
 		}
-	},
-	[1044] = {
+	}
+	pg.base.child_buff[1044] = {
 		name = "여유 만만– 좋음",
 		during_time = 1,
 		id = 1044,
@@ -419,8 +500,8 @@ pg.child_buff = {
 				1
 			}
 		}
-	},
-	[1045] = {
+	}
+	pg.base.child_buff[1045] = {
 		name = "여유 만만– 우수",
 		during_time = 1,
 		id = 1045,
@@ -434,8 +515,8 @@ pg.child_buff = {
 				2
 			}
 		}
-	},
-	[1046] = {
+	}
+	pg.base.child_buff[1046] = {
 		name = "여유 만만– 최고",
 		during_time = 1,
 		id = 1046,
@@ -449,8 +530,8 @@ pg.child_buff = {
 				3
 			}
 		}
-	},
-	[1051] = {
+	}
+	pg.base.child_buff[1051] = {
 		name = "고리타분–보통",
 		during_time = 1,
 		id = 1051,
@@ -464,8 +545,8 @@ pg.child_buff = {
 				-1
 			}
 		}
-	},
-	[1052] = {
+	}
+	pg.base.child_buff[1052] = {
 		name = "고리타분–중간",
 		during_time = 1,
 		id = 1052,
@@ -479,8 +560,8 @@ pg.child_buff = {
 				-2
 			}
 		}
-	},
-	[1053] = {
+	}
+	pg.base.child_buff[1053] = {
 		name = "고리타분–심함",
 		during_time = 1,
 		id = 1053,
@@ -494,8 +575,8 @@ pg.child_buff = {
 				-3
 			}
 		}
-	},
-	[1054] = {
+	}
+	pg.base.child_buff[1054] = {
 		name = "영감– 좋음",
 		during_time = 1,
 		id = 1054,
@@ -509,8 +590,8 @@ pg.child_buff = {
 				1
 			}
 		}
-	},
-	[1055] = {
+	}
+	pg.base.child_buff[1055] = {
 		name = "영감– 우수",
 		during_time = 1,
 		id = 1055,
@@ -524,8 +605,8 @@ pg.child_buff = {
 				2
 			}
 		}
-	},
-	[1056] = {
+	}
+	pg.base.child_buff[1056] = {
 		name = "영감– 최고",
 		during_time = 1,
 		id = 1056,
@@ -539,8 +620,8 @@ pg.child_buff = {
 				3
 			}
 		}
-	},
-	[1061] = {
+	}
+	pg.base.child_buff[1061] = {
 		name = "발연기–보통",
 		during_time = 1,
 		id = 1061,
@@ -554,8 +635,8 @@ pg.child_buff = {
 				-1
 			}
 		}
-	},
-	[1062] = {
+	}
+	pg.base.child_buff[1062] = {
 		name = "발연기–중간",
 		during_time = 1,
 		id = 1062,
@@ -569,8 +650,8 @@ pg.child_buff = {
 				-2
 			}
 		}
-	},
-	[1063] = {
+	}
+	pg.base.child_buff[1063] = {
 		name = "발연기–심함",
 		during_time = 1,
 		id = 1063,
@@ -584,8 +665,8 @@ pg.child_buff = {
 				-3
 			}
 		}
-	},
-	[1064] = {
+	}
+	pg.base.child_buff[1064] = {
 		name = "다재다예– 좋음",
 		during_time = 1,
 		id = 1064,
@@ -599,8 +680,8 @@ pg.child_buff = {
 				1
 			}
 		}
-	},
-	[1065] = {
+	}
+	pg.base.child_buff[1065] = {
 		name = "다재다예– 우수",
 		during_time = 1,
 		id = 1065,
@@ -614,8 +695,8 @@ pg.child_buff = {
 				2
 			}
 		}
-	},
-	[1066] = {
+	}
+	pg.base.child_buff[1066] = {
 		name = "다재다예– 최고",
 		during_time = 1,
 		id = 1066,
@@ -629,8 +710,8 @@ pg.child_buff = {
 				3
 			}
 		}
-	},
-	[1071] = {
+	}
+	pg.base.child_buff[1071] = {
 		name = "음치–보통",
 		during_time = 1,
 		id = 1071,
@@ -644,8 +725,8 @@ pg.child_buff = {
 				-1
 			}
 		}
-	},
-	[1072] = {
+	}
+	pg.base.child_buff[1072] = {
 		name = "음치–중간",
 		during_time = 1,
 		id = 1072,
@@ -659,8 +740,8 @@ pg.child_buff = {
 				-2
 			}
 		}
-	},
-	[1073] = {
+	}
+	pg.base.child_buff[1073] = {
 		name = "음치–심함",
 		during_time = 1,
 		id = 1073,
@@ -674,8 +755,8 @@ pg.child_buff = {
 				-3
 			}
 		}
-	},
-	[1074] = {
+	}
+	pg.base.child_buff[1074] = {
 		name = "타고난 미성– 좋음",
 		during_time = 1,
 		id = 1074,
@@ -689,8 +770,8 @@ pg.child_buff = {
 				1
 			}
 		}
-	},
-	[1075] = {
+	}
+	pg.base.child_buff[1075] = {
 		name = "타고난 미성– 우수",
 		during_time = 1,
 		id = 1075,
@@ -704,8 +785,8 @@ pg.child_buff = {
 				2
 			}
 		}
-	},
-	[1076] = {
+	}
+	pg.base.child_buff[1076] = {
 		name = "타고난 미성– 최고",
 		during_time = 1,
 		id = 1076,
@@ -719,8 +800,8 @@ pg.child_buff = {
 				3
 			}
 		}
-	},
-	[1081] = {
+	}
+	pg.base.child_buff[1081] = {
 		name = "무뚝뚝–보통",
 		during_time = 1,
 		id = 1081,
@@ -734,8 +815,8 @@ pg.child_buff = {
 				-1
 			}
 		}
-	},
-	[1082] = {
+	}
+	pg.base.child_buff[1082] = {
 		name = "무뚝뚝–중간",
 		during_time = 1,
 		id = 1082,
@@ -749,8 +830,8 @@ pg.child_buff = {
 				-2
 			}
 		}
-	},
-	[1083] = {
+	}
+	pg.base.child_buff[1083] = {
 		name = "무뚝뚝–심함",
 		during_time = 1,
 		id = 1083,
@@ -764,8 +845,8 @@ pg.child_buff = {
 				-3
 			}
 		}
-	},
-	[1084] = {
+	}
+	pg.base.child_buff[1084] = {
 		name = "우아하고 섬세함– 좋음",
 		during_time = 1,
 		id = 1084,
@@ -779,8 +860,8 @@ pg.child_buff = {
 				1
 			}
 		}
-	},
-	[1085] = {
+	}
+	pg.base.child_buff[1085] = {
 		name = "우아하고 섬세함– 우수",
 		during_time = 1,
 		id = 1085,
@@ -794,8 +875,8 @@ pg.child_buff = {
 				2
 			}
 		}
-	},
-	[1086] = {
+	}
+	pg.base.child_buff[1086] = {
 		name = "우아하고 섬세함– 최고",
 		during_time = 1,
 		id = 1086,
@@ -809,8 +890,8 @@ pg.child_buff = {
 				3
 			}
 		}
-	},
-	[1091] = {
+	}
+	pg.base.child_buff[1091] = {
 		name = "감정 고갈–보통",
 		during_time = 1,
 		id = 1091,
@@ -824,8 +905,8 @@ pg.child_buff = {
 				-1
 			}
 		}
-	},
-	[1092] = {
+	}
+	pg.base.child_buff[1092] = {
 		name = "감정 고갈–중간",
 		during_time = 1,
 		id = 1092,
@@ -839,8 +920,8 @@ pg.child_buff = {
 				-2
 			}
 		}
-	},
-	[1093] = {
+	}
+	pg.base.child_buff[1093] = {
 		name = "감정 고갈–심함",
 		during_time = 1,
 		id = 1093,
@@ -854,8 +935,8 @@ pg.child_buff = {
 				-3
 			}
 		}
-	},
-	[1094] = {
+	}
+	pg.base.child_buff[1094] = {
 		name = "자유분방– 좋음",
 		during_time = 1,
 		id = 1094,
@@ -869,8 +950,8 @@ pg.child_buff = {
 				1
 			}
 		}
-	},
-	[1095] = {
+	}
+	pg.base.child_buff[1095] = {
 		name = "자유분방– 우수",
 		during_time = 1,
 		id = 1095,
@@ -884,8 +965,8 @@ pg.child_buff = {
 				2
 			}
 		}
-	},
-	[1096] = {
+	}
+	pg.base.child_buff[1096] = {
 		name = "자유분방– 최고",
 		during_time = 1,
 		id = 1096,
@@ -899,8 +980,8 @@ pg.child_buff = {
 				3
 			}
 		}
-	},
-	[1101] = {
+	}
+	pg.base.child_buff[1101] = {
 		name = "기진맥진–보통",
 		during_time = 1,
 		id = 1101,
@@ -914,8 +995,8 @@ pg.child_buff = {
 				-1
 			}
 		}
-	},
-	[1102] = {
+	}
+	pg.base.child_buff[1102] = {
 		name = "기진맥진–중간",
 		during_time = 1,
 		id = 1102,
@@ -929,8 +1010,8 @@ pg.child_buff = {
 				-2
 			}
 		}
-	},
-	[1103] = {
+	}
+	pg.base.child_buff[1103] = {
 		name = "기진맥진–심함",
 		during_time = 1,
 		id = 1103,
@@ -944,8 +1025,8 @@ pg.child_buff = {
 				-3
 			}
 		}
-	},
-	[1104] = {
+	}
+	pg.base.child_buff[1104] = {
 		name = "운동 재능- 좋음",
 		during_time = 1,
 		id = 1104,
@@ -959,8 +1040,8 @@ pg.child_buff = {
 				1
 			}
 		}
-	},
-	[1105] = {
+	}
+	pg.base.child_buff[1105] = {
 		name = "운동 재능– 우수",
 		during_time = 1,
 		id = 1105,
@@ -974,8 +1055,8 @@ pg.child_buff = {
 				2
 			}
 		}
-	},
-	[1106] = {
+	}
+	pg.base.child_buff[1106] = {
 		name = "운동 재능– 최고",
 		during_time = 1,
 		id = 1106,
@@ -989,8 +1070,8 @@ pg.child_buff = {
 				3
 			}
 		}
-	},
-	[1111] = {
+	}
+	pg.base.child_buff[1111] = {
 		name = "기량 미숙–보통",
 		during_time = 1,
 		id = 1111,
@@ -1004,8 +1085,8 @@ pg.child_buff = {
 				-1
 			}
 		}
-	},
-	[1112] = {
+	}
+	pg.base.child_buff[1112] = {
 		name = "기량 미숙–중간",
 		during_time = 1,
 		id = 1112,
@@ -1019,8 +1100,8 @@ pg.child_buff = {
 				-2
 			}
 		}
-	},
-	[1113] = {
+	}
+	pg.base.child_buff[1113] = {
 		name = "기량 미숙–심함",
 		during_time = 1,
 		id = 1113,
@@ -1034,8 +1115,8 @@ pg.child_buff = {
 				-3
 			}
 		}
-	},
-	[1114] = {
+	}
+	pg.base.child_buff[1114] = {
 		name = "능수능란– 좋음",
 		during_time = 1,
 		id = 1114,
@@ -1049,8 +1130,8 @@ pg.child_buff = {
 				1
 			}
 		}
-	},
-	[1115] = {
+	}
+	pg.base.child_buff[1115] = {
 		name = "능수능란– 우수",
 		during_time = 1,
 		id = 1115,
@@ -1064,8 +1145,8 @@ pg.child_buff = {
 				2
 			}
 		}
-	},
-	[1116] = {
+	}
+	pg.base.child_buff[1116] = {
 		name = "능수능란– 최고",
 		during_time = 1,
 		id = 1116,
@@ -1079,8 +1160,8 @@ pg.child_buff = {
 				3
 			}
 		}
-	},
-	[1121] = {
+	}
+	pg.base.child_buff[1121] = {
 		name = "全属性增加",
 		during_time = 1,
 		id = 1121,
@@ -1112,80 +1193,5 @@ pg.child_buff = {
 				1
 			}
 		}
-	},
-	all = {
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1011,
-		1012,
-		1013,
-		1014,
-		1015,
-		1016,
-		1021,
-		1022,
-		1023,
-		1024,
-		1025,
-		1026,
-		1031,
-		1032,
-		1033,
-		1034,
-		1035,
-		1036,
-		1041,
-		1042,
-		1043,
-		1044,
-		1045,
-		1046,
-		1051,
-		1052,
-		1053,
-		1054,
-		1055,
-		1056,
-		1061,
-		1062,
-		1063,
-		1064,
-		1065,
-		1066,
-		1071,
-		1072,
-		1073,
-		1074,
-		1075,
-		1076,
-		1081,
-		1082,
-		1083,
-		1084,
-		1085,
-		1086,
-		1091,
-		1092,
-		1093,
-		1094,
-		1095,
-		1096,
-		1101,
-		1102,
-		1103,
-		1104,
-		1105,
-		1106,
-		1111,
-		1112,
-		1113,
-		1114,
-		1115,
-		1116,
-		1121
 	}
-}
+end)()

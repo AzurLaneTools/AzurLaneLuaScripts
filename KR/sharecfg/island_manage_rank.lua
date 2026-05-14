@@ -1,6 +1,18 @@
 pg = pg or {}
-pg.island_manage_rank = {
-	{
+pg.island_manage_rank = rawget(pg, "island_manage_rank") or setmetatable({
+	__name = "island_manage_rank"
+}, confNEO)
+pg.island_manage_rank.all = {
+	1,
+	2,
+	3,
+	4
+}
+pg.base = pg.base or {}
+pg.base.island_manage_rank = {}
+
+(function ()
+	pg.base.island_manage_rank[1] = {
 		name = "브론즈",
 		assistant_num = 1,
 		bonus_coefficient = 90,
@@ -58,8 +70,8 @@ pg.island_manage_rank = {
 			-1,
 			0
 		}
-	},
-	{
+	}
+	pg.base.island_manage_rank[2] = {
 		name = "실버",
 		assistant_num = 1,
 		bonus_coefficient = 100,
@@ -118,8 +130,8 @@ pg.island_manage_rank = {
 			0,
 			1
 		}
-	},
-	{
+	}
+	pg.base.island_manage_rank[3] = {
 		name = "골드",
 		assistant_num = 2,
 		bonus_coefficient = 110,
@@ -179,8 +191,8 @@ pg.island_manage_rank = {
 			1,
 			2
 		}
-	},
-	{
+	}
+	pg.base.island_manage_rank[4] = {
 		name = "다이아",
 		assistant_num = 2,
 		bonus_coefficient = 115,
@@ -240,11 +252,5 @@ pg.island_manage_rank = {
 			1,
 			2
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4
 	}
-}
+end)()

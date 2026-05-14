@@ -1,581 +1,303 @@
 pg = pg or {}
-pg.island_item_data_template = setmetatable({
-	__name = "island_item_data_template",
-	get_id_list_by_usage = {
-		usage_undefined = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			1000,
-			1001,
-			1002,
-			1003,
-			1004,
-			1005,
-			1006,
-			1007,
-			1008,
-			1009,
-			1010,
-			1011,
-			1012,
-			1014,
-			1015,
-			1016,
-			1017,
-			1018,
-			1019,
-			1020,
-			1021,
-			1022,
-			1101,
-			1102,
-			1103,
-			1104,
-			1105,
-			1106,
-			1107,
-			1108,
-			1201,
-			1202,
-			1203,
-			1204,
-			1205,
-			1206,
-			1207,
-			1208,
-			2000,
-			2001,
-			2002,
-			2003,
-			2004,
-			2005,
-			2006,
-			2007,
-			2008,
-			2009,
-			2010,
-			2011,
-			2012,
-			2014,
-			2015,
-			2016,
-			2017,
-			2018,
-			2019,
-			2020,
-			2021,
-			2022,
-			2521,
-			2522,
-			2600,
-			2601,
-			2602,
-			2603,
-			2604,
-			2605,
-			2606,
-			2700,
-			2701,
-			2702,
-			2703,
-			2704,
-			2705,
-			2800,
-			2801,
-			2802,
-			2803,
-			3000,
-			3001,
-			3002,
-			3003,
-			3004,
-			3005,
-			3006,
-			3007,
-			3008,
-			3009,
-			3010,
-			3011,
-			3012,
-			3013,
-			3014,
-			3015,
-			3017,
-			3018,
-			3019,
-			3020,
-			3021,
-			3022,
-			3023,
-			3024,
-			3025,
-			3026,
-			3028,
-			3029,
-			3030,
-			3032,
-			3033,
-			3034,
-			3035,
-			3036,
-			3037,
-			3038,
-			3039,
-			3040,
-			3041,
-			3042,
-			3043,
-			3044,
-			3045,
-			3046,
-			3047,
-			3048,
-			3049,
-			3050,
-			3051,
-			3052,
-			3053,
-			3054,
-			3055,
-			3056,
-			3059,
-			3101,
-			3102,
-			3103,
-			3104,
-			3105,
-			3106,
-			3107,
-			3108,
-			3109,
-			3110,
-			3111,
-			3112,
-			3113,
-			3114,
-			3115,
-			3116,
-			3117,
-			3118,
-			3119,
-			3120,
-			4001,
-			4002,
-			4003,
-			4004,
-			4005,
-			4006,
-			4007,
-			4008,
-			4009,
-			4010,
-			4011,
-			4012,
-			4013,
-			4014,
-			4015,
-			4016,
-			4017,
-			4018,
-			4019,
-			4020,
-			4021,
-			4022,
-			4023,
-			4024,
-			4025,
-			4026,
-			4027,
-			4028,
-			5001,
-			5002,
-			5003,
-			5004,
-			5005,
-			5006,
-			5007,
-			5008,
-			5101,
-			5102,
-			5103,
-			5104,
-			5105,
-			5106,
-			5107,
-			5108,
-			9900,
-			100001,
-			100002,
-			100003,
-			100011,
-			100012,
-			100013,
-			100021,
-			100022,
-			100023,
-			100031,
-			100032,
-			100033,
-			100041,
-			100042,
-			100043,
-			100051,
-			100052,
-			100053,
-			100061,
-			100062,
-			100063,
-			100101,
-			100102,
-			100103,
-			100201,
-			200001,
-			200002,
-			200003,
-			200004,
-			200005,
-			200006,
-			200007,
-			200008,
-			200009,
-			200010,
-			200011,
-			200012,
-			200013,
-			200014,
-			200015,
-			200016,
-			200017,
-			200018,
-			200019,
-			200020,
-			200021,
-			200022,
-			200023,
-			300001,
-			300002,
-			300003,
-			300004,
-			300005,
-			300006
-		},
-		usage_fish = {
-			1500,
-			1501,
-			1502,
-			1503
-		},
-		usage_island_gift = {
-			110001,
-			110002,
-			110003,
-			110004,
-			110005,
-			110006
-		}
+pg.island_item_data_template = rawget(pg, "island_item_data_template") or setmetatable({
+	__name = "island_item_data_template"
+}, confNEO)
+pg.island_item_data_template.__namecode__ = true
+pg.island_item_data_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	1000,
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008,
+	1009,
+	1010,
+	1011,
+	1012,
+	1014,
+	1015,
+	1016,
+	1017,
+	1018,
+	1019,
+	1020,
+	1021,
+	1022,
+	1101,
+	1102,
+	1103,
+	1104,
+	1105,
+	1106,
+	1107,
+	1108,
+	1201,
+	1202,
+	1203,
+	1204,
+	1205,
+	1206,
+	1207,
+	1208,
+	1500,
+	1501,
+	1502,
+	1503,
+	2000,
+	2001,
+	2002,
+	2003,
+	2004,
+	2005,
+	2006,
+	2007,
+	2008,
+	2009,
+	2010,
+	2011,
+	2012,
+	2014,
+	2015,
+	2016,
+	2017,
+	2018,
+	2019,
+	2020,
+	2021,
+	2022,
+	2521,
+	2522,
+	2600,
+	2601,
+	2602,
+	2603,
+	2604,
+	2605,
+	2606,
+	2700,
+	2701,
+	2702,
+	2703,
+	2704,
+	2705,
+	2800,
+	2801,
+	2802,
+	2803,
+	3000,
+	3001,
+	3002,
+	3003,
+	3004,
+	3005,
+	3006,
+	3007,
+	3008,
+	3009,
+	3010,
+	3011,
+	3012,
+	3013,
+	3014,
+	3015,
+	3017,
+	3018,
+	3019,
+	3020,
+	3021,
+	3022,
+	3023,
+	3024,
+	3025,
+	3026,
+	3028,
+	3029,
+	3030,
+	3032,
+	3033,
+	3034,
+	3035,
+	3036,
+	3037,
+	3038,
+	3039,
+	3040,
+	3041,
+	3042,
+	3043,
+	3044,
+	3045,
+	3046,
+	3047,
+	3048,
+	3049,
+	3050,
+	3051,
+	3052,
+	3053,
+	3054,
+	3055,
+	3056,
+	3059,
+	3101,
+	3102,
+	3103,
+	3104,
+	3105,
+	3106,
+	3107,
+	3108,
+	3109,
+	3110,
+	3111,
+	3112,
+	3113,
+	3114,
+	3115,
+	3116,
+	3117,
+	3118,
+	3119,
+	3120,
+	4001,
+	4002,
+	4003,
+	4004,
+	4005,
+	4006,
+	4007,
+	4008,
+	4009,
+	4010,
+	4011,
+	4012,
+	4013,
+	4014,
+	4015,
+	4016,
+	4017,
+	4018,
+	4019,
+	4020,
+	4021,
+	4022,
+	4023,
+	4024,
+	4025,
+	4026,
+	4027,
+	4028,
+	5001,
+	5002,
+	5003,
+	5004,
+	5005,
+	5006,
+	5007,
+	5008,
+	5101,
+	5102,
+	5103,
+	5104,
+	5105,
+	5106,
+	5107,
+	5108,
+	9900,
+	100001,
+	100002,
+	100003,
+	100011,
+	100012,
+	100013,
+	100021,
+	100022,
+	100023,
+	100031,
+	100032,
+	100033,
+	100041,
+	100042,
+	100043,
+	100051,
+	100052,
+	100053,
+	100061,
+	100062,
+	100063,
+	100101,
+	100102,
+	100103,
+	100201,
+	110001,
+	110002,
+	110003,
+	110004,
+	110005,
+	110006,
+	200001,
+	200002,
+	200003,
+	200004,
+	200005,
+	200006,
+	200007,
+	200008,
+	200009,
+	200010,
+	200011,
+	200012,
+	200013,
+	200014,
+	200015,
+	200016,
+	200017,
+	200018,
+	200019,
+	200020,
+	200021,
+	200022,
+	200023,
+	300001,
+	300002,
+	300003,
+	300004,
+	300005,
+	300006
+}
+pg.island_item_data_template.get_id_list_by_usage = {
+	usage_fish = {
+		1500,
+		1501,
+		1502,
+		1503
 	},
-	get_id_list_by_type = {
-		{
-			10,
-			14,
-			1000,
-			1001,
-			1002,
-			1003,
-			1004,
-			1005,
-			1006,
-			1007,
-			1008,
-			1009,
-			1010,
-			1011,
-			1012,
-			1014,
-			1015,
-			1016,
-			1017,
-			1018,
-			1019,
-			1020,
-			1021,
-			1022,
-			1101,
-			1102,
-			1103,
-			1104,
-			1105,
-			1106,
-			1107,
-			1108,
-			1201,
-			1202,
-			1203,
-			1204,
-			1205,
-			1206,
-			1207,
-			1208,
-			2000,
-			2001,
-			2002,
-			2003,
-			2004,
-			2005,
-			2006,
-			2007,
-			2008,
-			2009,
-			2010,
-			2011,
-			2012,
-			2014,
-			2015,
-			2016,
-			2017,
-			2018,
-			2019,
-			2020,
-			2021,
-			2022,
-			2521,
-			2522,
-			2600,
-			2601,
-			2602,
-			2603,
-			2604,
-			2605,
-			2606,
-			2700,
-			2701,
-			2702,
-			2703,
-			2704,
-			2705,
-			2800,
-			2801,
-			2802,
-			2803,
-			3000,
-			3001,
-			3002,
-			3003,
-			3004,
-			3005,
-			3006,
-			3007,
-			3008,
-			3009,
-			3010,
-			3011,
-			3012,
-			3013,
-			3014,
-			3015,
-			3017,
-			3018,
-			3019,
-			3020,
-			3021,
-			3022,
-			3023,
-			3024,
-			3025,
-			3026,
-			3028,
-			3029,
-			3030,
-			3032,
-			3033,
-			3034,
-			3035,
-			3036,
-			3037,
-			3038,
-			3039,
-			3040,
-			3041,
-			3042,
-			3043,
-			3044,
-			3045,
-			3046,
-			3047,
-			3048,
-			3049,
-			3050,
-			3051,
-			3052,
-			3053,
-			3054,
-			3055,
-			3056,
-			3059,
-			3101,
-			3102,
-			3103,
-			3104,
-			3105,
-			3106,
-			3107,
-			3108,
-			3109,
-			3110,
-			3111,
-			3112,
-			3113,
-			3114,
-			3115,
-			3116,
-			3117,
-			3118,
-			3119,
-			3120,
-			4001,
-			4002,
-			4003,
-			4004,
-			4005,
-			4006,
-			4007,
-			4008,
-			4009,
-			4010,
-			4011,
-			4012,
-			4013,
-			4014,
-			4015,
-			4016,
-			4017,
-			4018,
-			4019,
-			4020,
-			4021,
-			4022,
-			4023,
-			4024,
-			4025,
-			4026,
-			4027,
-			4028,
-			5001,
-			5002,
-			5003,
-			5004,
-			5005,
-			5006,
-			5007,
-			5008,
-			5101,
-			5102,
-			5103,
-			5104,
-			5105,
-			5106,
-			5107,
-			5108,
-			9900
-		},
-		[3] = {
-			1,
-			5,
-			6,
-			7,
-			8,
-			9,
-			11,
-			12,
-			13,
-			1500,
-			1501,
-			1502,
-			1503
-		},
-		[4] = {
-			2
-		},
-		[2] = {
-			3,
-			4,
-			100011,
-			100012,
-			100013,
-			100021,
-			100022,
-			100023,
-			100031,
-			100032,
-			100033,
-			100041,
-			100042,
-			100043,
-			100051,
-			100052,
-			100053,
-			100061,
-			100062,
-			100063,
-			100101,
-			100102,
-			100103,
-			100201,
-			110001,
-			110002,
-			110003,
-			110004,
-			110005,
-			110006,
-			200001,
-			200002,
-			200003,
-			200004,
-			200005,
-			200006,
-			200007,
-			200008,
-			200009,
-			200010,
-			200011,
-			200012,
-			200013,
-			200014,
-			200015,
-			200016,
-			200017,
-			200018,
-			200019,
-			200020,
-			200021,
-			200022,
-			200023,
-			300001,
-			300002,
-			300003,
-			300004,
-			300005,
-			300006
-		},
-		[5] = {
-			100001,
-			100002,
-			100003
-		}
+	usage_island_gift = {
+		110001,
+		110002,
+		110003,
+		110004,
+		110005,
+		110006
 	},
-	all = {
+	usage_undefined = {
 		1,
 		2,
 		3,
@@ -628,10 +350,6 @@ pg.island_item_data_template = setmetatable({
 		1206,
 		1207,
 		1208,
-		1500,
-		1501,
-		1502,
-		1503,
 		2000,
 		2001,
 		2002,
@@ -818,6 +536,266 @@ pg.island_item_data_template = setmetatable({
 		100102,
 		100103,
 		100201,
+		200001,
+		200002,
+		200003,
+		200004,
+		200005,
+		200006,
+		200007,
+		200008,
+		200009,
+		200010,
+		200011,
+		200012,
+		200013,
+		200014,
+		200015,
+		200016,
+		200017,
+		200018,
+		200019,
+		200020,
+		200021,
+		200022,
+		200023,
+		300001,
+		300002,
+		300003,
+		300004,
+		300005,
+		300006
+	}
+}
+pg.island_item_data_template.get_id_list_by_type = {
+	{
+		10,
+		14,
+		1000,
+		1001,
+		1002,
+		1003,
+		1004,
+		1005,
+		1006,
+		1007,
+		1008,
+		1009,
+		1010,
+		1011,
+		1012,
+		1014,
+		1015,
+		1016,
+		1017,
+		1018,
+		1019,
+		1020,
+		1021,
+		1022,
+		1101,
+		1102,
+		1103,
+		1104,
+		1105,
+		1106,
+		1107,
+		1108,
+		1201,
+		1202,
+		1203,
+		1204,
+		1205,
+		1206,
+		1207,
+		1208,
+		2000,
+		2001,
+		2002,
+		2003,
+		2004,
+		2005,
+		2006,
+		2007,
+		2008,
+		2009,
+		2010,
+		2011,
+		2012,
+		2014,
+		2015,
+		2016,
+		2017,
+		2018,
+		2019,
+		2020,
+		2021,
+		2022,
+		2521,
+		2522,
+		2600,
+		2601,
+		2602,
+		2603,
+		2604,
+		2605,
+		2606,
+		2700,
+		2701,
+		2702,
+		2703,
+		2704,
+		2705,
+		2800,
+		2801,
+		2802,
+		2803,
+		3000,
+		3001,
+		3002,
+		3003,
+		3004,
+		3005,
+		3006,
+		3007,
+		3008,
+		3009,
+		3010,
+		3011,
+		3012,
+		3013,
+		3014,
+		3015,
+		3017,
+		3018,
+		3019,
+		3020,
+		3021,
+		3022,
+		3023,
+		3024,
+		3025,
+		3026,
+		3028,
+		3029,
+		3030,
+		3032,
+		3033,
+		3034,
+		3035,
+		3036,
+		3037,
+		3038,
+		3039,
+		3040,
+		3041,
+		3042,
+		3043,
+		3044,
+		3045,
+		3046,
+		3047,
+		3048,
+		3049,
+		3050,
+		3051,
+		3052,
+		3053,
+		3054,
+		3055,
+		3056,
+		3059,
+		3101,
+		3102,
+		3103,
+		3104,
+		3105,
+		3106,
+		3107,
+		3108,
+		3109,
+		3110,
+		3111,
+		3112,
+		3113,
+		3114,
+		3115,
+		3116,
+		3117,
+		3118,
+		3119,
+		3120,
+		4001,
+		4002,
+		4003,
+		4004,
+		4005,
+		4006,
+		4007,
+		4008,
+		4009,
+		4010,
+		4011,
+		4012,
+		4013,
+		4014,
+		4015,
+		4016,
+		4017,
+		4018,
+		4019,
+		4020,
+		4021,
+		4022,
+		4023,
+		4024,
+		4025,
+		4026,
+		4027,
+		4028,
+		5001,
+		5002,
+		5003,
+		5004,
+		5005,
+		5006,
+		5007,
+		5008,
+		5101,
+		5102,
+		5103,
+		5104,
+		5105,
+		5106,
+		5107,
+		5108,
+		9900
+	},
+	{
+		3,
+		4,
+		100011,
+		100012,
+		100013,
+		100021,
+		100022,
+		100023,
+		100031,
+		100032,
+		100033,
+		100041,
+		100042,
+		100043,
+		100051,
+		100052,
+		100053,
+		100061,
+		100062,
+		100063,
+		100101,
+		100102,
+		100103,
+		100201,
 		110001,
 		110002,
 		110003,
@@ -853,11 +831,36 @@ pg.island_item_data_template = setmetatable({
 		300004,
 		300005,
 		300006
-	}
-}, confHX)
-pg.base = pg.base or {}
-pg.base.island_item_data_template = {
+	},
 	{
+		1,
+		5,
+		6,
+		7,
+		8,
+		9,
+		11,
+		12,
+		13,
+		1500,
+		1501,
+		1502,
+		1503
+	},
+	{
+		2
+	},
+	{
+		100001,
+		100002,
+		100003
+	}
+}
+pg.base = pg.base or {}
+pg.base.island_item_data_template = {}
+
+(function ()
+	pg.base.island_item_data_template[1] = {
 		name = "개발 자금",
 		desc = "아일랜드 개발 구역에서 유통되는 화폐. 지속적인 발전의 기본이다.",
 		type = 3,
@@ -891,8 +894,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	{
+	}
+	pg.base.island_item_data_template[2] = {
 		name = "개발 EXP",
 		desc = "아일랜드 개발 경험치. 개발 경험치가 쌓이면 개발 등급이 상승한다.",
 		type = 4,
@@ -926,8 +929,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	{
+	}
+	pg.base.island_item_data_template[3] = {
 		name = "스킨 색상",
 		desc = "다양한 염료가 담긴 컬러 팔레트. 스킨 색상을 자유롭게 바꿔 나만의 스타일을 완성할 수 있다!",
 		type = 2,
@@ -961,8 +964,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	{
+	}
+	pg.base.island_item_data_template[4] = {
 		name = "건축 허가증",
 		desc = "하모니섬의 건축 허가증. 이것이 있으면 섬에서 자신만의 공간을 자유롭게 꾸밀 수 있다.",
 		type = 2,
@@ -987,8 +990,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[5] = {
 		name = "지도 조각 - 1",
 		desc = "수수께끼의 종잇조각. 삐뚤빼뚤한 선에 무언가 비밀이 숨어 있는 듯하다.",
 		type = 3,
@@ -1013,8 +1016,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[6] = {
 		name = "지도 조각 - 2",
 		desc = "수수께끼의 종잇조각. 삐뚤빼뚤한 선에 무언가 비밀이 숨어 있는 듯하다.",
 		type = 3,
@@ -1039,8 +1042,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[7] = {
 		name = "지도 조각 - 3",
 		desc = "수수께끼의 종잇조각. 삐뚤빼뚤한 선에 무언가 비밀이 숨어 있는 듯하다.",
 		type = 3,
@@ -1065,8 +1068,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[8] = {
 		name = "지도 조각 - 4",
 		desc = "수수께끼의 종잇조각. 삐뚤빼뚤한 선에 무언가 비밀이 숨어 있는 듯하다.",
 		type = 3,
@@ -1091,8 +1094,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[9] = {
 		name = "지도 조각 - 5",
 		desc = "수수께끼의 종잇조각. 삐뚤빼뚤한 선에 무언가 비밀이 숨어 있는 듯하다.",
 		type = 3,
@@ -1117,8 +1120,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[10] = {
 		name = "아일랜드 시즌 Pt 교환 티켓",
 		desc = "아일랜드 시즌 개발 Pt 교환 티켓. 시즌 종료 시에 자동으로 해당 시즌의 개발 Pt로 변환됩니다(창고에서 수동으로 변환 가능).",
 		type = 1,
@@ -1143,8 +1146,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[11] = {
 		name = "领洋者-娜比娅（特殊）",
 		desc = "领洋者-娜比娅（特殊）",
 		type = 3,
@@ -1167,8 +1170,8 @@ pg.base.island_item_data_template = {
 		filter = {},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[12] = {
 		name = "领航员-TB（特殊）",
 		desc = "领航员-TB（特殊）",
 		type = 3,
@@ -1191,8 +1194,8 @@ pg.base.island_item_data_template = {
 		filter = {},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[13] = {
 		name = "探索者-艾普洛（特殊）",
 		desc = "探索者-艾普洛（特殊）",
 		type = 3,
@@ -1215,8 +1218,8 @@ pg.base.island_item_data_template = {
 		filter = {},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	{
+	}
+	pg.base.island_item_data_template[14] = {
 		name = "아일랜드 개발 Pt",
 		desc = "아일랜드 개발 구역의 발전 정도를 나타내는 Pt 아이템. 각종 보상 획득 가능",
 		type = 1,
@@ -1241,8 +1244,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[1000] = {
+	}
+	pg.base.island_item_data_template[1000] = {
 		name = "밀 씨앗",
 		desc = "모항에서 엄선된 밀 씨앗. 좋은 품질의 밀을 수확할 수 있다.",
 		type = 1,
@@ -1285,8 +1288,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1001] = {
+	}
+	pg.base.island_item_data_template[1001] = {
 		name = "옥수수 씨앗",
 		desc = "모항에서 엄선된 옥수수 씨앗. 농작물의 힘이 담겨져 있다.",
 		type = 1,
@@ -1329,8 +1332,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1002] = {
+	}
+	pg.base.island_item_data_template[1002] = {
 		name = "밭벼 씨앗",
 		desc = "모항에서 엄선된 밭벼 씨앗. 수확할 때를 인내심을 가지고 기다리자.",
 		type = 1,
@@ -1373,8 +1376,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1003] = {
+	}
+	pg.base.island_item_data_template[1003] = {
 		name = "배추 씨앗",
 		desc = "모항에서 엄선된 배추 씨앗. 촉촉하고 커다란 배추를 수확할 수 있다.",
 		type = 1,
@@ -1417,8 +1420,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1004] = {
+	}
+	pg.base.island_item_data_template[1004] = {
 		name = "당근 씨앗",
 		desc = "모항에서 엄선된 당근 씨앗. 달콤한 당근을 수확할 수 있다.",
 		type = 1,
@@ -1461,8 +1464,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1005] = {
+	}
+	pg.base.island_item_data_template[1005] = {
 		name = "감자 씨앗",
 		desc = "모항에서 엄선된 감자 씨앗. 수확량이 많은 감자를 얻을 수 있다.",
 		type = 1,
@@ -1505,8 +1508,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1006] = {
+	}
+	pg.base.island_item_data_template[1006] = {
 		name = "대두 씨앗",
 		desc = "모항에서 엄선된 대두 씨앗. 좋은 품질의 대두를 수확할 수 있다.",
 		type = 1,
@@ -1549,8 +1552,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1007] = {
+	}
+	pg.base.island_item_data_template[1007] = {
 		name = "양파 씨앗",
 		desc = "모항에서 엄선된 양파 씨앗. 매력적인 양파를 수확할 수 있다.",
 		type = 1,
@@ -1593,8 +1596,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1008] = {
+	}
+	pg.base.island_item_data_template[1008] = {
 		name = "목초 씨앗",
 		desc = "모항에서 엄선된 목초 씨앗. 풍부한 목초를 수확할 수 있다.",
 		type = 1,
@@ -1637,8 +1640,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1009] = {
+	}
+	pg.base.island_item_data_template[1009] = {
 		name = "커피나무 씨앗",
 		desc = "모항에서 엄선된 커피나무 씨앗. 풍미가 깊은 커피콩을 수확할 수 있다.",
 		type = 1,
@@ -1681,8 +1684,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1010] = {
+	}
+	pg.base.island_item_data_template[1010] = {
 		name = "아마 씨앗",
 		desc = "모항에서 엄선된 아마 씨앗. 성장 속도가 빠르며, 오래 가는 튼튼한 섬유를 획득할 수 있다. 방적할 때 좋은 재료.",
 		type = 1,
@@ -1725,8 +1728,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1011] = {
+	}
+	pg.base.island_item_data_template[1011] = {
 		name = "딸기 씨앗",
 		desc = "모항에서 엄선된 딸기 씨앗. 빨간 딸기를 수확할 수 있다.",
 		type = 1,
@@ -1769,8 +1772,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1012] = {
+	}
+	pg.base.island_item_data_template[1012] = {
 		name = "목화 씨앗",
 		desc = "모항에서 엄선된 목화 씨앗. 부드러운 목화가 열린다.",
 		type = 1,
@@ -1813,8 +1816,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1014] = {
+	}
+	pg.base.island_item_data_template[1014] = {
 		name = "차나무 씨앗",
 		desc = "모항에서 엄선된 차나무 씨앗. 좋은 품질의 찻잎을 획득할 수 있다.",
 		type = 1,
@@ -1857,8 +1860,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1015] = {
+	}
+	pg.base.island_item_data_template[1015] = {
 		name = "라벤더 씨앗",
 		desc = "모항에서 엄선된 라벤더 씨앗. 보랏빛 꽃밭이 자라난다.",
 		type = 1,
@@ -1901,8 +1904,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1016] = {
+	}
+	pg.base.island_item_data_template[1016] = {
 		name = "사과나무 씨앗",
 		desc = "모항에서 재배한 좋은 품질의 사과나무 씨앗. 과즙이 많고 맛있는 사과를 수확할 수 있다.",
 		type = 1,
@@ -1945,8 +1948,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1017] = {
+	}
+	pg.base.island_item_data_template[1017] = {
 		name = "귤나무 씨앗",
 		desc = "모항에서 재배한 좋은 품질의 귤나무 씨앗. 달콤하고 새콤한 귤나무를 수확할 수 있다.",
 		type = 1,
@@ -1989,8 +1992,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1018] = {
+	}
+	pg.base.island_item_data_template[1018] = {
 		name = "바나나나무 씨앗",
 		desc = "모항에서 재배한 좋은 품질의 바나나나무 씨앗. 부드러운 바나나를 수확할 수 있다.",
 		type = 1,
@@ -2033,8 +2036,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1019] = {
+	}
+	pg.base.island_item_data_template[1019] = {
 		name = "망고나무 씨앗",
 		desc = "모항에서 재배한 좋은 품질의 망고나무 씨앗. 달콤한 망고를 수확할 수 있다.",
 		type = 1,
@@ -2077,8 +2080,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1020] = {
+	}
+	pg.base.island_item_data_template[1020] = {
 		name = "레몬나무 씨앗",
 		desc = "모항에서 재배한 좋은 품질의 레몬나무 씨앗. 상큼한 레몬을 수확할 수 있다.",
 		type = 1,
@@ -2121,8 +2124,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1021] = {
+	}
+	pg.base.island_item_data_template[1021] = {
 		name = "아보카도 나무 씨앗",
 		desc = "모항에서 재배한 좋은 품질의 아보카도나무 씨앗. 영양이 풍부한 아보카도를 수확할 수 있다.",
 		type = 1,
@@ -2165,8 +2168,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1022] = {
+	}
+	pg.base.island_item_data_template[1022] = {
 		name = "고무나무 씨앗",
 		desc = "모항에서 엄선된 고무나무의 씨앗. 좋은 품질의 고무를 획득할 수 있다.",
 		type = 1,
@@ -2209,8 +2212,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1101] = {
+	}
+	pg.base.island_item_data_template[1101] = {
 		name = "치패",
 		desc = "이매패류의 어린 개체. 안정적으로 성장하며, 양식 기술도 확립되어 있다.",
 		type = 1,
@@ -2253,8 +2256,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1102] = {
+	}
+	pg.base.island_item_data_template[1102] = {
 		name = "메기 치어",
 		desc = "저서성 담수어의 치어. 저산소 환경에 강해 진흙 바닥 가두리에서의 고밀도 양식에 적합하다.",
 		type = 1,
@@ -2297,8 +2300,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1103] = {
+	}
+	pg.base.island_item_data_template[1103] = {
 		name = "잉어 치어",
 		desc = "담수성 잡식어의 치어. 환경 적응력이 뛰어나 다양한 수질 조건에서도 안정적으로 성장한다.",
 		type = 1,
@@ -2341,8 +2344,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1104] = {
+	}
+	pg.base.island_item_data_template[1104] = {
 		name = "붕어 치어",
 		desc = "소형 담수어의 치어. 주로 조류나 유기물을 먹으며 생태계 유지에 기여한다.",
 		type = 1,
@@ -2385,8 +2388,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1105] = {
+	}
+	pg.base.island_item_data_template[1105] = {
 		name = "새끼 새우",
 		desc = "민물 새우류의 유생. 남은 먹이나 일부 조류를 섭취해 수역을 정화하는 역할을 한다.",
 		type = 1,
@@ -2429,8 +2432,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1106] = {
+	}
+	pg.base.island_item_data_template[1106] = {
 		name = "새끼 가재",
 		desc = "갑각류의 유생. 성장하면서 껍질이 붉고 단단해지며, 성체는 인기 있는 수산물로 거래된다.",
 		type = 1,
@@ -2473,8 +2476,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1107] = {
+	}
+	pg.base.island_item_data_template[1107] = {
 		name = "농어 치어",
 		desc = "육식성 어류의 치어. 살이 부드러워 고급 식재료로 평가받는다.",
 		type = 1,
@@ -2517,8 +2520,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1108] = {
+	}
+	pg.base.island_item_data_template[1108] = {
 		name = "새끼 게",
 		desc = "잦은 탈피를 반복하는 게의 유생. 깨끗하고 수질이 좋은 환경에서 양식해야 한다.",
 		type = 1,
@@ -2561,8 +2564,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1201] = {
+	}
+	pg.base.island_item_data_template[1201] = {
 		name = "오징어 치어",
 		desc = "두족류의 치어. 성장 과정에서 여러 차례 형태 변화를 거쳐 탱탱한 육질로 자란다.",
 		type = 1,
@@ -2605,8 +2608,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1202] = {
+	}
+	pg.base.island_item_data_template[1202] = {
 		name = "삼치 치어",
 		desc = "육식성 어류의 치어. 중층부터 표층 수역에서 자주 관찰되며 성장 속도가 빠르다.",
 		type = 1,
@@ -2649,8 +2652,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1203] = {
+	}
+	pg.base.island_item_data_template[1203] = {
 		name = "참치 치어",
 		desc = "대형 원해성 어류의 치어. 성장 속도가 빠르며 충분한 산소 공급이 가능한 환경이 요구된다.",
 		type = 1,
@@ -2693,8 +2696,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1204] = {
+	}
+	pg.base.island_item_data_template[1204] = {
 		name = "연어 치어",
 		desc = "회유성 어류의 치어. 낮은 수온을 선호하며 정성껏 키우면 질 좋은 어육을 얻을 수 있다.",
 		type = 1,
@@ -2737,8 +2740,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1205] = {
+	}
+	pg.base.island_item_data_template[1205] = {
 		name = "참돔 치어",
 		desc = "온수성 해수어의 치어. 성장 후에는 선명한 빛깔을 띠어 관상 가치도 높다.",
 		type = 1,
@@ -2781,8 +2784,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1206] = {
+	}
+	pg.base.island_item_data_template[1206] = {
 		name = "감성돔 치어",
 		desc = "암초 지대에 서식하는 어류의 치어. 체질이 강인해 양식 성공률이 높은 편이다.",
 		type = 1,
@@ -2825,8 +2828,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1207] = {
+	}
+	pg.base.island_item_data_template[1207] = {
 		name = "황다랑어 치어",
 		desc = "황다랑어의 치어. 유영 속도가 매우 빨라, 양식 시 수중 산소량을 높은 수준으로 유지해야 한다.",
 		type = 1,
@@ -2869,8 +2872,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1208] = {
+	}
+	pg.base.island_item_data_template[1208] = {
 		name = "새끼 해삼",
 		desc = "저서성 극피동물의 유생. 침전된 유기물을 먹어 가두리 바닥을 효과적으로 정화해준다.",
 		type = 1,
@@ -2913,8 +2916,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[1500] = {
+	}
+	pg.base.island_item_data_template[1500] = {
 		name = "지렁이",
 		desc = "지렁이를 본뜬 루어. 실물과 비슷한 외형 덕분에 물고기가 잘 문다.",
 		type = 3,
@@ -2944,8 +2947,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[1501] = {
+	}
+	pg.base.island_item_data_template[1501] = {
 		name = "옥수수",
 		desc = "특별한 매력을 더한 옥수수 모양 루어. 황금빛 색상으로 잡식성 어류를 강하게 유혹한다.",
 		type = 3,
@@ -2970,8 +2973,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[1502] = {
+	}
+	pg.base.island_item_data_template[1502] = {
 		name = "깐 새우",
 		desc = "정성껏 제작한 깐 새우 형태의 루어. 자연스러운 움직임으로 많은 육식 어종을 끌어당긴다.",
 		type = 3,
@@ -3001,8 +3004,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[1503] = {
+	}
+	pg.base.island_item_data_template[1503] = {
 		name = "문어 다리",
 		desc = "독특한 형태의 루어. 수중에서의 역동적인 움직임이 대형 어종에게 치명적인 매력을 발산한다.",
 		type = 3,
@@ -3032,8 +3035,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2000] = {
+	}
+	pg.base.island_item_data_template[2000] = {
 		name = "밀",
 		desc = "막 수확한 신선한 밀. 밀가루를 만드는데 빼놓을 수 없는 재료.",
 		type = 1,
@@ -3064,8 +3067,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2001] = {
+	}
+	pg.base.island_item_data_template[2001] = {
 		name = "옥수수",
 		desc = "황금빛 열매가 맺힌 옥수수. 밭에 달콤한 향이 감돈다.",
 		type = 1,
@@ -3096,8 +3099,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2002] = {
+	}
+	pg.base.island_item_data_template[2002] = {
 		name = "쌀",
 		desc = "새하얀 양질의 쌀. 풍부한 전분과 곡물 단백질을 포함하고 있다.",
 		type = 1,
@@ -3128,8 +3131,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2003] = {
+	}
+	pg.base.island_item_data_template[2003] = {
 		name = "배추",
 		desc = "촉촉하고 맛있는 배추. 갓 채집해서 신선하다!",
 		type = 1,
@@ -3160,8 +3163,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2004] = {
+	}
+	pg.base.island_item_data_template[2004] = {
 		name = "당근",
 		desc = "가정에서도 흔히 사용하는 채소. 영양이 풍부하고 달콤하다.",
 		type = 1,
@@ -3192,8 +3195,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2005] = {
+	}
+	pg.base.island_item_data_template[2005] = {
 		name = "감자",
 		desc = "전분하면 빼놓을 수 없는 채소. 다양한 모양으로 조리할 수 있다.",
 		type = 1,
@@ -3224,8 +3227,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2006] = {
+	}
+	pg.base.island_item_data_template[2006] = {
 		name = "대두",
 		desc = "동그랗고 풍성하며, 단백질이 풍부하다. 요리뿐만 아니라 공업에서도 쓰임새가 많다.",
 		type = 1,
@@ -3256,8 +3259,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2007] = {
+	}
+	pg.base.island_item_data_template[2007] = {
 		name = "양파",
 		desc = "보랏빛 껍질을 벗기면… 눈물이 나올 수도 있으니 조심!",
 		type = 1,
@@ -3288,8 +3291,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2008] = {
+	}
+	pg.base.island_item_data_template[2008] = {
 		name = "목초",
 		desc = "우수한 품질의 목초. 목장에 넘칠 정도의 활기를 부여한다.",
 		type = 1,
@@ -3320,8 +3323,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2009] = {
+	}
+	pg.base.island_item_data_template[2009] = {
 		name = "커피콩",
 		desc = "향기도 진하고 기분도 상쾌해진다. 한 잔 어떠신지…?",
 		type = 1,
@@ -3352,8 +3355,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2010] = {
+	}
+	pg.base.island_item_data_template[2010] = {
 		name = "아마",
 		desc = "장섬유인 아마. 실을 잣거나 천을 짜기에 안성맞춤이다. 공방 작업에도 제격이다!",
 		type = 1,
@@ -3384,8 +3387,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2011] = {
+	}
+	pg.base.island_item_data_template[2011] = {
 		name = "딸기",
 		desc = "새빨간 열매가 새콤하고 맛있다. 달콤한 디저트와 잘 어우러진다.",
 		type = 1,
@@ -3416,8 +3419,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2012] = {
+	}
+	pg.base.island_item_data_template[2012] = {
 		name = "목화",
 		desc = "부드럽고 하얀 목화. 방적에 중요한 재료.",
 		type = 1,
@@ -3448,8 +3451,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2014] = {
+	}
+	pg.base.island_item_data_template[2014] = {
 		name = "찻잎",
 		desc = "쌉쌀하지만 상쾌한 향이 난다. 자연의 맛을 즐겨보자.",
 		type = 1,
@@ -3480,8 +3483,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2015] = {
+	}
+	pg.base.island_item_data_template[2015] = {
 		name = "라벤더",
 		desc = "풍부한 향으로 정원을 채워줄 뿐만 아니라, 정유를 추출하는 데에도 쓰인다.",
 		type = 1,
@@ -3512,8 +3515,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2016] = {
+	}
+	pg.base.island_item_data_template[2016] = {
 		name = "사과",
 		desc = "새콤하고 맛있다. 각종 비타민이 함유되어 있어, 그대로 먹어도 좋고 주스로 마셔도 좋다.",
 		type = 1,
@@ -3544,8 +3547,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2017] = {
+	}
+	pg.base.island_item_data_template[2017] = {
 		name = "감귤",
 		desc = "저렴하고 보존하기 편하며, 상쾌한 향이 매력적인 과일.",
 		type = 1,
@@ -3576,8 +3579,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2018] = {
+	}
+	pg.base.island_item_data_template[2018] = {
 		name = "바나나",
 		desc = "휴양지 느낌이 물씬 풍기는 과일. 달콤하면서도 부드러우며, 식물 섬유가 풍부하다.",
 		type = 1,
@@ -3608,8 +3611,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2019] = {
+	}
+	pg.base.island_item_data_template[2019] = {
 		name = "망고",
 		desc = "과육이 부드러운 여름 대표 과일. 무척 달콤하면서도 맛있다.",
 		type = 1,
@@ -3640,8 +3643,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2020] = {
+	}
+	pg.base.island_item_data_template[2020] = {
 		name = "레몬",
 		desc = "껍질은 상쾌한 향기가 풍기고, 내용물은 딱 좋을 정도로 새콤하다. 요리의 맛을 잡는 데에도 쓰인다.",
 		type = 1,
@@ -3672,8 +3675,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2021] = {
+	}
+	pg.base.island_item_data_template[2021] = {
 		name = "아보카도",
 		desc = "매끄럽고 크리미한 식감. 칼로리가 적지만 맛있고 건강에 좋다.",
 		type = 1,
@@ -3704,8 +3707,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2022] = {
+	}
+	pg.base.island_item_data_template[2022] = {
 		name = "고무",
 		desc = "높은 탄성을 가진 일반적인 공업 가공 재료. 쓰임새가 많다!",
 		type = 1,
@@ -3736,8 +3739,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2521] = {
+	}
+	pg.base.island_item_data_template[2521] = {
 		name = "담수어 살코기",
 		desc = "가공된 담수어 살코기. 가정 요리에 두루 쓰이는 만능 식재료.",
 		type = 1,
@@ -3768,8 +3771,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2522] = {
+	}
+	pg.base.island_item_data_template[2522] = {
 		name = "해수어 살코기",
 		desc = "가공된 해수어 살코기. 은은한 바다 향이 느껴진다.",
 		type = 1,
@@ -3800,8 +3803,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2600] = {
+	}
+	pg.base.island_item_data_template[2600] = {
 		name = "신선한 고기",
 		desc = "동물에게서 채취할 수 있는 신선한 고기. 최고급 품질의 단백질원이다.",
 		type = 1,
@@ -3832,8 +3835,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2601] = {
+	}
+	pg.base.island_item_data_template[2601] = {
 		name = "달걀",
 		desc = "갈색 달걀. 요리에 자주 쓰이는 식재료.",
 		type = 1,
@@ -3864,8 +3867,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2602] = {
+	}
+	pg.base.island_item_data_template[2602] = {
 		name = "닭고기",
 		desc = "저지방에 고단백인 육류. 다양한 요리에 쓰인다.",
 		type = 1,
@@ -3896,8 +3899,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2603] = {
+	}
+	pg.base.island_item_data_template[2603] = {
 		name = "우유",
 		desc = "천연 음료. 가공하면 요거트나 치즈로도 만들 수 있다.",
 		type = 1,
@@ -3928,8 +3931,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2604] = {
+	}
+	pg.base.island_item_data_template[2604] = {
 		name = "가죽 재료",
 		desc = "가볍게 손질한 동물 가죽. 무두질하면 가죽으로 만들 수 있다.",
 		type = 1,
@@ -3960,8 +3963,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2605] = {
+	}
+	pg.base.island_item_data_template[2605] = {
 		name = "양모",
 		desc = "동물에게서 얻은 털 섬유. 직물 공업에 중요한 원료다.",
 		type = 1,
@@ -3992,8 +3995,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2606] = {
+	}
+	pg.base.island_item_data_template[2606] = {
 		name = "신선한 꿀",
 		desc = "갓 채집한 꿀. 자연의 달콤한 향기가 가득하다.",
 		type = 1,
@@ -4024,8 +4027,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2700] = {
+	}
+	pg.base.island_item_data_template[2700] = {
 		name = "석탄",
 		desc = "기본적인 연료. 연소 효율이 높아 난방이나 공업 생산에 쓰인다.",
 		type = 1,
@@ -4056,8 +4059,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2701] = {
+	}
+	pg.base.island_item_data_template[2701] = {
 		name = "구리 광석",
 		desc = "구리를 풍부하게 함유하고 있는 광석. 제련 후에는 전자 제품 제조에 자주 사용된다.",
 		type = 1,
@@ -4088,8 +4091,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2702] = {
+	}
+	pg.base.island_item_data_template[2702] = {
 		name = "알루미늄 광석",
 		desc = "알루미늄을 풍부하게 함유하고 있는 광석. 제련 후에는 항공기나 함선 제조에 자주 사용된다.",
 		type = 1,
@@ -4120,8 +4123,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2703] = {
+	}
+	pg.base.island_item_data_template[2703] = {
 		name = "철광석",
 		desc = "철을 풍부하게 함유하고 있는 광석. 제련 후에는 시설 건설에 자주 사용된다.",
 		type = 1,
@@ -4152,8 +4155,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2704] = {
+	}
+	pg.base.island_item_data_template[2704] = {
 		name = "황광석",
 		desc = "유황을 풍부하게 함유하고 있는 광석. 제련 후에는 비료나 살충제 제조에 자주 사용된다.",
 		type = 1,
@@ -4184,8 +4187,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2705] = {
+	}
+	pg.base.island_item_data_template[2705] = {
 		name = "은광석",
 		desc = "은을 풍부하게 함유하고 있는 광석. 제련 후에는 합금이나 화학 재료 제조에 자주 사용된다.",
 		type = 1,
@@ -4216,8 +4219,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2800] = {
+	}
+	pg.base.island_item_data_template[2800] = {
 		name = "자연 목재",
 		desc = "기본적인 목재. 제지에서 건축까지 다양한 용도를 가진다.",
 		type = 1,
@@ -4248,8 +4251,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2801] = {
+	}
+	pg.base.island_item_data_template[2801] = {
 		name = "실용 목재",
 		desc = "무늬가 아름다워 가구나 바닥재 제작에 적합하다.",
 		type = 1,
@@ -4280,8 +4283,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2802] = {
+	}
+	pg.base.island_item_data_template[2802] = {
 		name = "엄선 목재",
 		desc = "튼튼하고 내구성이 뛰어나, 전통적인 조선이나 고급 가구 제조에 사용된다.",
 		type = 1,
@@ -4312,8 +4315,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[2803] = {
+	}
+	pg.base.island_item_data_template[2803] = {
 		name = "우아한 목재",
 		desc = "아름답고 튼튼하다. 고급 장식이나 가구 제조에 적합하다.",
 		type = 1,
@@ -4344,8 +4347,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3000] = {
+	}
+	pg.base.island_item_data_template[3000] = {
 		name = "꼬꼬닭의 사료",
 		desc = "꼬꼬닭 전용 고단백 사료. 충분한 에너지를 공급한다.",
 		type = 1,
@@ -4388,8 +4391,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[3001] = {
+	}
+	pg.base.island_item_data_template[3001] = {
 		name = "꿀꿀이 사료",
 		desc = "꿀꿀이 전용 체중 증가용 사료. 많이 먹는 동물에게 적합하다.",
 		type = 1,
@@ -4432,8 +4435,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[3002] = {
+	}
+	pg.base.island_item_data_template[3002] = {
 		name = "무무소 사료",
 		desc = "무무소 전용 영양 사료. 향기가 좋고 고소한 우유가 생산될 수 있게 해준다.",
 		type = 1,
@@ -4476,8 +4479,10 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[3003] = {
+	}
+end)()
+(function ()
+	pg.base.island_item_data_template[3003] = {
 		name = "메메양의 사료",
 		desc = "메메양 전용 옥수수 가루 사료. 더 부드러운 양털을 얻는데 도움을 준다.",
 		type = 1,
@@ -4508,8 +4513,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3004] = {
+	}
+	pg.base.island_item_data_template[3004] = {
 		name = "밀가루",
 		desc = "밀을 갈아 만든 하얀 가루. 빵, 케이크, 피자 등을 만드는데 빼놓을 수 없는 재료다.",
 		type = 1,
@@ -4540,8 +4545,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3005] = {
+	}
+	pg.base.island_item_data_template[3005] = {
 		name = "아이스 커피",
 		desc = "개운한 맛으로 기분을 상쾌하게 해준다!",
 		type = 1,
@@ -4575,8 +4580,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3006] = {
+	}
+	pg.base.island_item_data_template[3006] = {
 		name = "치즈",
 		desc = "우유를 원료로 만들어져, 풍부한 단백질과 지방을 함유하고 있다. 빵에 곁들여 사용할 때가 많다.",
 		type = 1,
@@ -4610,8 +4615,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3007] = {
+	}
+	pg.base.island_item_data_template[3007] = {
 		name = "라떼",
 		desc = "에스프레소와 우유를 섞은 음료. 향기가 좋고 부드러워 커피 애호가들의 사랑을 받고 있다.",
 		type = 1,
@@ -4645,8 +4650,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3008] = {
+	}
+	pg.base.island_item_data_template[3008] = {
 		name = "시트러스 커피",
 		desc = "감귤 과즙을 더한 커피 음료. 상쾌한 산미와 과일 향이 특징이다.",
 		type = 1,
@@ -4680,8 +4685,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3009] = {
+	}
+	pg.base.island_item_data_template[3009] = {
 		name = "애플파이",
 		desc = "설탕으로 졸인 사과를 파이로 감싸 구운 달콤한 음식. 대표적인 디저트이다.",
 		type = 1,
@@ -4715,8 +4720,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3010] = {
+	}
+	pg.base.island_item_data_template[3010] = {
 		name = "딸기 밀크쉐이크",
 		desc = "부드러운 우유 크림과 상쾌하고 부드러운 딸기가 어우러진 음료수.",
 		type = 1,
@@ -4750,8 +4755,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3011] = {
+	}
+	pg.base.island_item_data_template[3011] = {
 		name = "두부",
 		desc = "하얗고 부드럽다. 대두로 만들어 풍부한 식물성 단백질을 함유하고 있다.",
 		type = 1,
@@ -4785,8 +4790,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3012] = {
+	}
+	pg.base.island_item_data_template[3012] = {
 		name = "다진 고기 두부볶음",
 		desc = "이스트 글림의 전통 가정식. 부드러운 식감에 국물이 아주 진하다.",
 		type = 1,
@@ -4820,8 +4825,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3013] = {
+	}
+	pg.base.island_item_data_template[3013] = {
 		name = "오므라이스",
 		desc = "노릇한 달걀 부침으로 부드러운 밥을 감싼 요리. 한 입마다 특별한 맛이 가득하다.",
 		type = 1,
@@ -4855,8 +4860,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3014] = {
+	}
+	pg.base.island_item_data_template[3014] = {
 		name = "배추 두부탕",
 		desc = "배추의 단 맛과 두부의 감칠맛이 어우러진 단백한 건강식.",
 		type = 1,
@@ -4890,8 +4895,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3015] = {
+	}
+	pg.base.island_item_data_template[3015] = {
 		name = "야채 샐러드",
 		desc = "신선한 야채와 드레싱의 조합. 상큼하고 맛있다!",
 		type = 1,
@@ -4925,8 +4930,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3017] = {
+	}
+	pg.base.island_item_data_template[3017] = {
 		name = "사과 주스",
 		desc = "갓 짜낸 주스에 과일 향이 가득하다. 건강한 인기 메뉴다!",
 		type = 1,
@@ -4960,8 +4965,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3018] = {
+	}
+	pg.base.island_item_data_template[3018] = {
 		name = "바나나 망고 주스",
 		desc = "바나나와 망고의 완벽한 조화. 열대 과일의 맛이 응축되어 있다.",
 		type = 1,
@@ -4995,8 +5000,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3019] = {
+	}
+	pg.base.island_item_data_template[3019] = {
 		name = "꿀 레몬 워터",
 		desc = "달콤한 꿀과 상쾌한 레몬의 절묘한 조화. 비타민 C더 섭취할 수 있다.",
 		type = 1,
@@ -5030,8 +5035,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3020] = {
+	}
+	pg.base.island_item_data_template[3020] = {
 		name = "딸기 레몬 드링크",
 		desc = "딸기와 레몬의 절묘한 조합으로 상큼하고도 질리지 않는 과일 풍미의 특제 음료.",
 		type = 1,
@@ -5065,8 +5070,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3021] = {
+	}
+	pg.base.island_item_data_template[3021] = {
 		name = "라벤더 차",
 		desc = "마음을 진정시키고, 스트레스를 해소하여 심신을 달래준다.",
 		type = 1,
@@ -5100,8 +5105,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3022] = {
+	}
+	pg.base.island_item_data_template[3022] = {
 		name = "딸기 꿀 프라페",
 		desc = "딸기의 새콤함과 꿀의 달콤함이 완벽하게 융합된 감미로운 프라페.",
 		type = 1,
@@ -5135,8 +5140,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3023] = {
+	}
+	pg.base.island_item_data_template[3023] = {
 		name = "옥수수 컵",
 		desc = "가볍게 쪄낸 황금빛 옥수수 알을 컵에 담아낸 요리. 흔히 볼 수 있는 맛있는 간식.",
 		type = 1,
@@ -5170,8 +5175,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3024] = {
+	}
+	pg.base.island_item_data_template[3024] = {
 		name = "오렌지 파이",
 		desc = "클래식한 디저트. 오후의 티 타임에 먹으면 맛있다.",
 		type = 1,
@@ -5205,8 +5210,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3025] = {
+	}
+	pg.base.island_item_data_template[3025] = {
 		name = "망고 찹쌀밥",
 		desc = "열대 과일의 매력을 즐길 수 있는 가정 요리. 입맛이 없을 때 먹으면 좋다.",
 		type = 1,
@@ -5240,8 +5245,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3026] = {
+	}
+	pg.base.island_item_data_template[3026] = {
 		name = "바나나 크레페",
 		desc = "클래식한 조식 메뉴. 바삭한 식감으로 남녀노소 가리지 않고 인기가 있다.",
 		type = 1,
@@ -5275,8 +5280,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3028] = {
+	}
+	pg.base.island_item_data_template[3028] = {
 		name = "딸기 샬럿",
 		desc = "바삭바삭한 머랭에 달콤한 딸기 무스를 조합한, 디저트 애호가들의 최애 요리.",
 		type = 1,
@@ -5310,8 +5315,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3029] = {
+	}
+	pg.base.island_item_data_template[3029] = {
 		name = "숯불고기 꼬치",
 		desc = "겉은 바삭하고 속은 촉촉하며, 향긋한 불맛이 가득하다. 바비큐 파티의 필수 요리다.",
 		type = 1,
@@ -5345,8 +5350,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3030] = {
+	}
+	pg.base.island_item_data_template[3030] = {
 		name = "닭고기 감자 플래터",
 		desc = "단순하면서도 맛있다. 가정식에서 빼놓을 수 없는 요리!",
 		type = 1,
@@ -5380,8 +5385,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3032] = {
+	}
+	pg.base.island_item_data_template[3032] = {
 		name = "닭고기 볶음",
 		desc = "닭고기를 조미료와 함께 볶아낸 요리. 고소한 냄새가 식욕을 자극한다.",
 		type = 1,
@@ -5415,8 +5420,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3033] = {
+	}
+	pg.base.island_item_data_template[3033] = {
 		name = "두꺼운 당근 계란말이",
 		desc = "얇은 달걀 부침으로 달콤한 당근을 감싸 풍부한 식감을 자랑한다. 아침이나 오후 티 타임에 어울리는 요리다.",
 		type = 1,
@@ -5450,8 +5455,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3034] = {
+	}
+	pg.base.island_item_data_template[3034] = {
 		name = "햄버그 덮밥",
 		desc = "간편한 조리로 배를 한 가득 채울 수 있다. 시간 절약에 좋은 요리다.",
 		type = 1,
@@ -5485,8 +5490,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3035] = {
+	}
+	pg.base.island_item_data_template[3035] = {
 		name = "천",
 		desc = "섬유가 포함된 재료로 만든 천 재료. 다양한 생활용품과 공업 제품의 원료다.",
 		type = 1,
@@ -5517,8 +5522,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3036] = {
+	}
+	pg.base.island_item_data_template[3036] = {
 		name = "가죽",
 		desc = "동물의 가죽을 가공한 재료. 의류나 가구 제작에도 자주 쓰인다.",
 		type = 1,
@@ -5549,8 +5554,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3037] = {
+	}
+	pg.base.island_item_data_template[3037] = {
 		name = "밧줄",
 		desc = "튼튼하고 질기다. 짐을 묶을 때는 물론이고, 구조물을 세울 때도 자주 쓰인다.",
 		type = 1,
@@ -5581,8 +5586,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3038] = {
+	}
+	pg.base.island_item_data_template[3038] = {
 		name = "장갑",
 		desc = "어느 가정에도 하나씩은 있는 필수 보온용품. 추운 날에 외출하려면 꼭 필요하다.",
 		type = 1,
@@ -5613,8 +5618,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3039] = {
+	}
+	pg.base.island_item_data_template[3039] = {
 		name = "향낭",
 		desc = "허브나 향신료가 담긴 주머니. 가지고 다니면 정신을 맑게 해준다.",
 		type = 1,
@@ -5645,8 +5650,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3040] = {
+	}
+	pg.base.island_item_data_template[3040] = {
 		name = "신발",
 		desc = "가죽 제품. 발을 보호하기 위해 신는다.",
 		type = 1,
@@ -5677,8 +5682,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3041] = {
+	}
+	pg.base.island_item_data_template[3041] = {
 		name = "붕대",
 		desc = "필수 구급용품. 베이거나 긁힌 상처에 즉시 사용할 수 있다.",
 		type = 1,
@@ -5709,8 +5714,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3042] = {
+	}
+	pg.base.island_item_data_template[3042] = {
 		name = "연필",
 		desc = "드로잉이나 스케치에 자주 사용되는 미술 도구.",
 		type = 1,
@@ -5741,8 +5746,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3043] = {
+	}
+	pg.base.island_item_data_template[3043] = {
 		name = "케이블",
 		desc = "많은 시설에 전력을 공급하는 현대 문물의 상징.",
 		type = 1,
@@ -5773,8 +5778,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3044] = {
+	}
+	pg.base.island_item_data_template[3044] = {
 		name = "못",
 		desc = "흔히 보이는 건축 자재. 나무판을 고정하거나, 가구를 제조하는데 사용된다.",
 		type = 1,
@@ -5805,8 +5810,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3045] = {
+	}
+	pg.base.island_item_data_template[3045] = {
 		name = "화학품",
 		desc = "강한 부식성을 가진 화학품.",
 		type = 1,
@@ -5837,8 +5842,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3046] = {
+	}
+	pg.base.island_item_data_template[3046] = {
 		name = "화약",
 		desc = "현대 무기에 자주 쓰인다. 적절한 관리가 이뤄져야 하는 위험한 물품.",
 		type = 1,
@@ -5869,8 +5874,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3047] = {
+	}
+	pg.base.island_item_data_template[3047] = {
 		name = "식기",
 		desc = "어느 가정에도 빼놓을 수 없는 필수품.",
 		type = 1,
@@ -5901,8 +5906,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3048] = {
+	}
+	pg.base.island_item_data_template[3048] = {
 		name = "종이",
 		desc = "저렴한 식물 섬유로 만들어지는 경우가 많다. 보관하기도 쉽고, 무언가를 기록하기 좋다.",
 		type = 1,
@@ -5933,8 +5938,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3049] = {
+	}
+	pg.base.island_item_data_template[3049] = {
 		name = "수첩",
 		desc = "일상적인 업무가 빼곡하게 적힌 노트. 일기장으로도 쓸 수 있다.",
 		type = 1,
@@ -5965,8 +5970,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3050] = {
+	}
+	pg.base.island_item_data_template[3050] = {
 		name = "책상과 의자",
 		desc = "가장 일반적인 가구. 휴식할 곳을 제공해 준다.",
 		type = 1,
@@ -5997,8 +6002,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3051] = {
+	}
+	pg.base.island_item_data_template[3051] = {
 		name = "특선 나무통",
 		desc = "와인이나 꿀을 저장할 때 쓰이는 다기능 통.",
 		type = 1,
@@ -6029,8 +6034,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3052] = {
+	}
+	pg.base.island_item_data_template[3052] = {
 		name = "서류 캐비닛",
 		desc = "사무실의 필수품. 각종 서류를 보관하고 관리하기 편리하다.",
 		type = 1,
@@ -6061,8 +6066,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3053] = {
+	}
+	pg.base.island_item_data_template[3053] = {
 		name = "잉크 카트리지",
 		desc = "인쇄용 잉크가 보관된 용기. 프린터의 핵심 부품이다.",
 		type = 1,
@@ -6093,8 +6098,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3054] = {
+	}
+	pg.base.island_item_data_template[3054] = {
 		name = "시계",
 		desc = "시간을 알려주는 정밀 기기. 보통은 벽에 고정해서 쓴다.",
 		type = 1,
@@ -6125,8 +6130,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3055] = {
+	}
+	pg.base.island_item_data_template[3055] = {
 		name = "축전지",
 		desc = "여러 번 사용할 수 있으며, 모터나 조명 장치 등에 안정적인 전력을 공급한다.",
 		type = 1,
@@ -6157,8 +6162,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3056] = {
+	}
+	pg.base.island_item_data_template[3056] = {
 		name = "정수 필터",
 		desc = "물속의 불순물을 걸러내어 깨끗한 식수를 제공한다.",
 		type = 1,
@@ -6189,8 +6194,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3059] = {
+	}
+	pg.base.island_item_data_template[3059] = {
 		name = "오믈렛",
 		desc = "폭신폭신한 달걀로 부드러운 식재료를 감싼 황금빛의 유혹적인 요리. 단순하면서도 만족감이 느껴지는 맛.",
 		type = 1,
@@ -6224,8 +6229,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3101] = {
+	}
+	pg.base.island_item_data_template[3101] = {
 		name = "정통 두부 세트",
 		desc = "다진 고기 두부볶음과 배추 두부 스프의 조합. 단순하면서도 맛있다.",
 		type = 1,
@@ -6259,8 +6264,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3102] = {
+	}
+	pg.base.island_item_data_template[3102] = {
 		name = "부드러운 한 상",
 		desc = "폭신한 오므라이스와 따뜻하고 부드러운 두부의 조합. 단순하지만 만족스러운 맛.",
 		type = 1,
@@ -6294,8 +6299,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3103] = {
+	}
+	pg.base.island_item_data_template[3103] = {
 		name = "향기로운 과일 세트",
 		desc = "라벤더의 은은한 향기와 사과의 상쾌한 단맛이 절묘하게 어우러져, 즐거움을 이중으로 느낄 수 있다.",
 		type = 1,
@@ -6329,8 +6334,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3104] = {
+	}
+	pg.base.island_item_data_template[3104] = {
 		name = "컬러풀 프루트 파라다이스",
 		desc = "바나나 망고 주스와 꿀 딸기 빙수 세트. 과일의 풍미로 상쾌한 맛을 선사해준다.",
 		type = 1,
@@ -6364,8 +6369,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3105] = {
+	}
+	pg.base.island_item_data_template[3105] = {
 		name = "태양의 꿀물",
 		desc = "꿀 딸기의 달콤함과 레몬 꿀물의 조합. 생기가 넘치는 태양의 맛.",
 		type = 1,
@@ -6399,8 +6404,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3106] = {
+	}
+	pg.base.island_item_data_template[3106] = {
 		name = "스위트 테이스트",
 		desc = "열대 망고의 향이 풍부한 식감과 옥수수 컵의 든든함이 함께 어울려, 한 번에 두 가지 행복을 맛볼 수 있다.",
 		type = 1,
@@ -6434,8 +6439,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3107] = {
+	}
+	pg.base.island_item_data_template[3107] = {
 		name = "과수원의 이중주",
 		desc = "부드러운 바나나 크레페와 황금빛 애플파이의 바삭함이 어우러져, 한 번에 두 과일의 달콤한 풍미를 즐길 수 있다.",
 		type = 1,
@@ -6469,8 +6474,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3108] = {
+	}
+	pg.base.island_item_data_template[3108] = {
 		name = "베리 오렌지 디저트",
 		desc = "딸기의 낭만적인 만남과 오렌지의 태양 같은 향이 융합되어, 황홀한 디저트 시간을 연출해준다.",
 		type = 1,
@@ -6504,8 +6509,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3109] = {
+	}
+	pg.base.island_item_data_template[3109] = {
 		name = "미트 카니발",
 		desc = "고소한 꼬치와 부드러운 닭고기, 바삭한 감자튀김. 마음껏 배불리 먹을 수 있다.",
 		type = 1,
@@ -6539,8 +6544,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3110] = {
+	}
+	pg.base.island_item_data_template[3110] = {
 		name = "에너지 더블 콤보",
 		desc = "햄버그 덮밥과 향신료의 맛을 살린 닭고기 볶음까지, 단백질이 넘치는 구성으로 하루 에너지를 보충해 준다.",
 		type = 1,
@@ -6574,8 +6579,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3111] = {
+	}
+	pg.base.island_item_data_template[3111] = {
 		name = "아침의 활력 콤보",
 		desc = "폭신한 오믈렛과 고급스러운 라떼로 완벽한 아침 식사 시간을 만들어 준다.",
 		type = 1,
@@ -6609,8 +6614,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3112] = {
+	}
+	pg.base.island_item_data_template[3112] = {
 		name = "굿모닝 브렉퍼스트",
 		desc = "아이스 커피와 진한 치즈, 쓴맛과 단맛의 균형이 어우러진 전형적인 아침 식사.",
 		type = 1,
@@ -6644,8 +6649,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3113] = {
+	}
+	pg.base.island_item_data_template[3113] = {
 		name = "프루트 트윈즈",
 		desc = "시트러스 커피와 딸기 밀크쉐이크. 두 가지 특제 음료를 한 번에 마음껏 즐길 수 있다.",
 		type = 1,
@@ -6679,8 +6684,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3114] = {
+	}
+	pg.base.island_item_data_template[3114] = {
 		name = "피시 앤 칩스",
 		desc = "겉은 바삭하고 속은 촉촉한 생선 튀김과 고소한 감자튀김의 조합. 누구나 좋아하는 메뉴.",
 		type = 1,
@@ -6714,8 +6719,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3115] = {
+	}
+	pg.base.island_item_data_template[3115] = {
 		name = "레몬 새우",
 		desc = "탱글한 새우의 단맛과 레몬의 상큼한 산미가 어우러져 식욕을 돋운다.",
 		type = 1,
@@ -6749,8 +6754,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3116] = {
+	}
+	pg.base.island_item_data_template[3116] = {
 		name = "생선 양파찜",
 		desc = "달콤한 양파 채를 곁들인 생선찜. 생선 본연의 풍미를 최대한으로 살려준다.",
 		type = 1,
@@ -6784,8 +6789,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3117] = {
+	}
+	pg.base.island_item_data_template[3117] = {
 		name = "장식용 그림",
 		desc = "벽을 장식하는 섬세한 그림. 공간에 은은하게 예술적 분위기를 더해준다.",
 		type = 1,
@@ -6816,8 +6821,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3118] = {
+	}
+	pg.base.island_item_data_template[3118] = {
 		name = "파에야",
 		desc = "바다의 재료를 아낌없이 사용한 파에야. 밥 한 톨 한 톨에 바다의 풍미가 스며 있다.",
 		type = 1,
@@ -6851,8 +6856,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3119] = {
+	}
+	pg.base.island_item_data_template[3119] = {
 		name = "가재 볶음",
 		desc = "센 불로 빠르게 볶아낸 가재 요리. 선명한 붉은빛이 식욕을 자극해 밥이 술술 넘어간다.",
 		type = 1,
@@ -6886,8 +6891,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[3120] = {
+	}
+	pg.base.island_item_data_template[3120] = {
 		name = "불도장",
 		desc = "여러 시간 정성껏 끓여낸 최고급 요리. 연회의 마무리를 장식하는 진귀한 별미로 제공된다.",
 		type = 1,
@@ -6921,8 +6926,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4001] = {
+	}
+	pg.base.island_item_data_template[4001] = {
 		name = "가을 국화",
 		desc = "바람에 흔들리는 황금빛 가을 국화. 감상용으로도, 차로 우려 마시기에도 좋다.",
 		type = 1,
@@ -6952,8 +6957,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4002] = {
+	}
+	pg.base.island_item_data_template[4002] = {
 		name = "갈대꽃",
 		desc = "물가에서 자라는 가벼운 순백색 갈대 꽃. 드라이 플라워 장식으로 자주 쓰인다.",
 		type = 1,
@@ -6983,8 +6988,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4003] = {
+	}
+	pg.base.island_item_data_template[4003] = {
 		name = "땅콩",
 		desc = "고소하고 맛있는 땅콩에는 단백질과 건강한 지방이 풍부하다.",
 		type = 1,
@@ -7014,8 +7019,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4004] = {
+	}
+	pg.base.island_item_data_template[4004] = {
 		name = "송이버섯",
 		desc = "신선한 산의 진미. 독특한 향취를 지니고 있어, 스프의 육수로도 쓰이는 최고급 식자재.",
 		type = 1,
@@ -7045,8 +7050,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4005] = {
+	}
+	pg.base.island_item_data_template[4005] = {
 		name = "아키즈키 배",
 		desc = "달콤하고 촉촉한 배. 섬세한 감촉으로 목을 적셔주는 가을의 별미.",
 		type = 1,
@@ -7077,8 +7082,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4006] = {
+	}
+	pg.base.island_item_data_template[4006] = {
 		name = "아키즈키 배 씨앗",
 		desc = "달콤한 미래가 담긴 아키즈키 배나무 씨앗. 좋은 품질의 배나무를 재배할 수 있다.",
 		type = 1,
@@ -7120,8 +7125,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[4007] = {
+	}
+	pg.base.island_item_data_template[4007] = {
 		name = "감",
 		desc = "선명한 붉은 빛으로 익은 감. 부드럽고 달콤하며, 비타민이 풍부한 가을 제철 과일.",
 		type = 1,
@@ -7152,8 +7157,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4008] = {
+	}
+	pg.base.island_item_data_template[4008] = {
 		name = "감 씨앗",
 		desc = "씨앗을 심어서 의사의 얼굴이 파랗게 질릴 정도로 건강해지자.",
 		type = 1,
@@ -7195,8 +7200,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[4009] = {
+	}
+	pg.base.island_item_data_template[4009] = {
 		name = "곶감",
 		desc = "달콤하고 쫄깃한 곶감. 신선한 감으로 만든다.",
 		type = 1,
@@ -7230,8 +7235,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4010] = {
+	}
+	pg.base.island_item_data_template[4010] = {
 		name = "송이버섯 닭고기 스프",
 		desc = "향기롭고 진한 송이버섯과 닭고기 수프. 송이버섯과 닭고기를 정성스럽게 끓인, 따뜻한 보양 음식.",
 		type = 1,
@@ -7265,8 +7270,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4011] = {
+	}
+	pg.base.island_item_data_template[4011] = {
 		name = "가을 꽃다발",
 		desc = "따뜻한 오렌지빛 꽃다발. 국화, 갈대 등 제철 꽃 재료를 엄선하여 가을 분위기를 연출한다.",
 		type = 1,
@@ -7300,8 +7305,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4012] = {
+	}
+	pg.base.island_item_data_template[4012] = {
 		name = "땅콩기름",
 		desc = "부드러운 땅콩기름. 좋은 땅콩을 짜서 만든 건강한 조리용 기름.",
 		type = 1,
@@ -7335,8 +7340,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4013] = {
+	}
+	pg.base.island_item_data_template[4013] = {
 		name = "당근과 배 주스",
 		desc = "당근과 배를 사용한 신선하고 달콤한 주스. 당근의 영양과 배의 깔끔한 맛이 어우러진 상쾌한 음료.",
 		type = 1,
@@ -7370,8 +7375,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4014] = {
+	}
+	pg.base.island_item_data_template[4014] = {
 		name = "국화차",
 		desc = "우아하고 맑은 향을 지닌 국화차. 국화 꽃잎을 우려내, 열을 내려주고 담백한 여운을 입안에 남긴다.",
 		type = 1,
@@ -7405,8 +7410,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4015] = {
+	}
+	pg.base.island_item_data_template[4015] = {
 		name = "봄 죽순",
 		desc = "봄을 맞은 땅에서 자라난 신선한 죽순. 아삭한 식감으로 사랑받는 대표적인 제철 식재료다.",
 		type = 1,
@@ -7436,8 +7441,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4016] = {
+	}
+	pg.base.island_item_data_template[4016] = {
 		name = "냉이",
 		desc = "상쾌한 봄나물. 특유의 향이 있어 무침이나 일부 요리에 자주 사용된다.",
 		type = 1,
@@ -7467,8 +7472,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4017] = {
+	}
+	pg.base.island_item_data_template[4017] = {
 		name = "영춘화",
 		desc = "초봄에 피는 선명한 노란 꽃. 관상용은 물론 말려서 차로도 즐길 수 있다.",
 		type = 1,
@@ -7498,8 +7503,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4018] = {
+	}
+	pg.base.island_item_data_template[4018] = {
 		name = "히아신스",
 		desc = "향이 짙은 초봄의 관상식물. 화단이나 정원에 자주 심는다.",
 		type = 1,
@@ -7529,8 +7534,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4019] = {
+	}
+	pg.base.island_item_data_template[4019] = {
 		name = "아스파라거스",
 		desc = "봄에 수확하는 싱그러운 채소. 아삭한 식감으로 간단한 조리나 곁들이는 용도에 적합하다.",
 		type = 1,
@@ -7561,8 +7566,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4020] = {
+	}
+	pg.base.island_item_data_template[4020] = {
 		name = "아스파라거스 씨앗",
 		desc = "땅에 심어두면 아스파라거스 새순이 빠르게 올라온다.",
 		type = 1,
@@ -7604,8 +7609,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[4021] = {
+	}
+	pg.base.island_item_data_template[4021] = {
 		name = "파인애플",
 		desc = "새콤달콤하고 과즙이 풍부한 열대 과일. 그대로 먹어도 좋지만, 가공해도 먹어도 맛있다.",
 		type = 1,
@@ -7636,8 +7641,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4022] = {
+	}
+	pg.base.island_item_data_template[4022] = {
 		name = "파인애플 씨앗",
 		desc = "열대 지방의 햇살을 듬뿍 머금은 씨앗. 심으면 맛있는 파인애플을 수확할 수 있다.",
 		type = 1,
@@ -7679,8 +7684,8 @@ pg.base.island_item_data_template = {
 				}
 			}
 		}
-	},
-	[4023] = {
+	}
+	pg.base.island_item_data_template[4023] = {
 		name = "갓 짜낸 파인애플 주스",
 		desc = "신선한 파인애플을 즉석에서 짜낸 주스. 상큼한 열대 지방의 풍미가 가득하다.",
 		type = 1,
@@ -7714,8 +7719,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4024] = {
+	}
+	pg.base.island_item_data_template[4024] = {
 		name = "영춘화차",
 		desc = "말린 영춘화 꽃봉오리로 만든 허브티. 은은한 향으로 마음을 편안하게 해준다.",
 		type = 1,
@@ -7749,8 +7754,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4025] = {
+	}
+	pg.base.island_item_data_template[4025] = {
 		name = "죽순과 아스파라거스 냉채",
 		desc = "아스파라거스와 죽순을 산뜻하게 버무린 봄철 반찬. 식감이 좋고 풍미의 조화 또한 뛰어나다.",
 		type = 1,
@@ -7784,8 +7789,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4026] = {
+	}
+	pg.base.island_item_data_template[4026] = {
 		name = "새우 아스파라거스 볶음",
 		desc = "아스파라거스와 신선한 새우를 빠르게 볶아낸 요리. 새우의 감칠맛과 아삭한 식감을 즐길 수 있는 대표적인 가정식.",
 		type = 1,
@@ -7819,8 +7824,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4027] = {
+	}
+	pg.base.island_item_data_template[4027] = {
 		name = "말린 냉이",
 		desc = "햇볕에 말려 보관한 냉이. 저장성이 뛰어나 국물 요리에 쓰거나, 불려서 소로 사용한다.",
 		type = 1,
@@ -7851,8 +7856,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[4028] = {
+	}
+	pg.base.island_item_data_template[4028] = {
 		name = "봄의 꽃다발",
 		desc = "영춘화와 히아신스를 엮은 꽃다발. 밝은 색감이 공간에 봄기운을 불어넣는다.",
 		type = 1,
@@ -7883,8 +7888,10 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5001] = {
+	}
+end)()
+(function ()
+	pg.base.island_item_data_template[5001] = {
 		name = "조개",
 		desc = "조개껍질은 장식품이나 정교한 공예품의 재료로 자주 사용된다.",
 		type = 1,
@@ -7915,8 +7922,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5002] = {
+	}
+	pg.base.island_item_data_template[5002] = {
 		name = "메기",
 		desc = "살이 오른 메기. 진한 양념 요리에 잘 어울린다.",
 		type = 1,
@@ -7947,8 +7954,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5003] = {
+	}
+	pg.base.island_item_data_template[5003] = {
 		name = "잉어",
 		desc = "민물고기의 맛을 대표하는 존재. 일부 식당에서는 간판 메뉴로 쓰인다.",
 		type = 1,
@@ -7979,8 +7986,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5004] = {
+	}
+	pg.base.island_item_data_template[5004] = {
 		name = "붕어",
 		desc = "식용 어종의 하나. 살결이 고우며 영양가도 높다.",
 		type = 1,
@@ -8011,8 +8018,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5005] = {
+	}
+	pg.base.island_item_data_template[5005] = {
 		name = "민물 새우",
 		desc = "고단백·저지방·저칼로리의 특징을 가진 우수한 수산 식재료의 대명사.",
 		type = 1,
@@ -8043,8 +8050,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5006] = {
+	}
+	pg.base.island_item_data_template[5006] = {
 		name = "가재",
 		desc = "하천에서 흔히 볼 수 있는 가재. 정겨운 식감을 지녔다.",
 		type = 1,
@@ -8075,8 +8082,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5007] = {
+	}
+	pg.base.island_item_data_template[5007] = {
 		name = "농어",
 		desc = "신선한 농어. 희고 부드러운 살이 찜이나 소테에 안성맞춤이다.",
 		type = 1,
@@ -8107,8 +8114,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5008] = {
+	}
+	pg.base.island_item_data_template[5008] = {
 		name = "게",
 		desc = "신선하고 맛있는 게. 감칠맛이 풍부하고 영양도 가득하다.",
 		type = 1,
@@ -8139,8 +8146,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5101] = {
+	}
+	pg.base.island_item_data_template[5101] = {
 		name = "오징어",
 		desc = "탱글한 식감의 오징어. 구워도 좋고 살짝 익혀도 맛있다.",
 		type = 1,
@@ -8171,8 +8178,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5102] = {
+	}
+	pg.base.island_item_data_template[5102] = {
 		name = "삼치",
 		desc = "유선형 몸매를 가진 바다의 스피드스타. 살이 단단해 구이 요리로 만들면 풍미가 좋다.",
 		type = 1,
@@ -8203,8 +8210,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5103] = {
+	}
+	pg.base.island_item_data_template[5103] = {
 		name = "참치",
 		desc = "고단백·저지방의 참치. 바다낚시의 최고 목표 중 하나로 꼽힌다.",
 		type = 1,
@@ -8235,8 +8242,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5104] = {
+	}
+	pg.base.island_item_data_template[5104] = {
 		name = "연어",
 		desc = "인기 있는 해산물. 아름다운 살결과 깊은 감칠맛이 특징이다.",
 		type = 1,
@@ -8267,8 +8274,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5105] = {
+	}
+	pg.base.island_item_data_template[5105] = {
 		name = "참돔",
 		desc = "잡식성 어류. 떼를 지어 빠르게 헤엄치는 습성이 있으며, 영양가가 높아 널리 사랑받는다.",
 		type = 1,
@@ -8299,8 +8306,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5106] = {
+	}
+	pg.base.island_item_data_template[5106] = {
 		name = "감성돔",
 		desc = "민첩하고 교활한 어종으로 낚아 올리려면 상당한 실력이 필요하다.",
 		type = 1,
@@ -8331,8 +8338,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5107] = {
+	}
+	pg.base.island_item_data_template[5107] = {
 		name = "황다랑어",
 		desc = "고급 황다랑어. 지방이 적어 통조림 재료로도 자주 사용된다.",
 		type = 1,
@@ -8363,8 +8370,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[5108] = {
+	}
+	pg.base.island_item_data_template[5108] = {
 		name = "해삼",
 		desc = "자양강장 효과가 있는 해삼. 얻기 위해서는 어느 정도의 인내와 운이 필요하다.",
 		type = 1,
@@ -8395,8 +8402,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[9900] = {
+	}
+	pg.base.island_item_data_template[9900] = {
 		name = "진주",
 		desc = "색감이 따뜻한 천연 보석. 시장에서 거래가 활발하게 이루어지고 있다.",
 		type = 1,
@@ -8426,8 +8433,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100001] = {
+	}
+	pg.base.island_item_data_template[100001] = {
 		name = "아일랜드 EXP 교본 T1",
 		desc = "아일랜드 생활의 기초 지식을 정리한 지침서. 사용하면 캐릭터의 아일랜드 EXP가 조금 증가한다.",
 		type = 5,
@@ -8465,8 +8472,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100002] = {
+	}
+	pg.base.island_item_data_template[100002] = {
 		name = "아일랜드 EXP 교본 T2",
 		desc = "아일랜드 생활 경험을 자세히 정리한 지침서. 사용하면 캐릭터의 아일랜드 EXP가 어느 정도 증가한다.",
 		type = 5,
@@ -8504,8 +8511,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100003] = {
+	}
+	pg.base.island_item_data_template[100003] = {
 		name = "아일랜드 EXP 교본 T3",
 		desc = "아일랜드 생활에 대한 풍부한 노하우가 가득 담긴 지침서. 사용하면 캐릭터의 아일랜드 EXP가 대폭 증가한다.",
 		type = 5,
@@ -8543,8 +8550,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100011] = {
+	}
+	pg.base.island_item_data_template[100011] = {
 		name = "경영 교본 T1",
 		desc = "경영 테크닉의 기초 지식을 정리한 지침서. 사용하면 캐릭터의 경영 능력치가 조금 상승한다.",
 		type = 2,
@@ -8578,8 +8585,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100012] = {
+	}
+	pg.base.island_item_data_template[100012] = {
 		name = "경영 교본 T2",
 		desc = "경영 테크닉을 자세하게 해설한 지침서. 사용하면 캐릭터의 경영 능력치가 어느 정도 상승한다.",
 		type = 2,
@@ -8609,8 +8616,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100013] = {
+	}
+	pg.base.island_item_data_template[100013] = {
 		name = "경영 교본 T3",
 		desc = "경영 테크닉을 풍부하게 수록한 지침서. 사용하면 캐릭터의 경영 능력치가 대폭 상승한다.",
 		type = 2,
@@ -8635,8 +8642,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[100021] = {
+	}
+	pg.base.island_item_data_template[100021] = {
 		name = "농업 교본 T1",
 		desc = "농업 테크닉의 기초 지식을 정리한 지침서. 사용하면 캐릭터의 농업 능력치가 조금 상승한다.",
 		type = 2,
@@ -8670,8 +8677,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100022] = {
+	}
+	pg.base.island_item_data_template[100022] = {
 		name = "농업 교본 T2",
 		desc = "농업 테크닉을 자세하게 해설한 지침서. 사용하면 캐릭터의 농업 능력치가 어느 정도 상승한다.",
 		type = 2,
@@ -8701,8 +8708,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100023] = {
+	}
+	pg.base.island_item_data_template[100023] = {
 		name = "농업 교본 T3",
 		desc = "농업 테크닉을 풍부하게 수록한 지침서. 사용하면 캐릭터의 농업 능력치가 대폭 상승한다.",
 		type = 2,
@@ -8727,8 +8734,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[100031] = {
+	}
+	pg.base.island_item_data_template[100031] = {
 		name = "제작 교본 T1",
 		desc = "제작 테크닉의 기초 지식을 정리한 지침서. 사용하면 캐릭터의 제작 능력치가 조금 상승한다.",
 		type = 2,
@@ -8762,8 +8769,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100032] = {
+	}
+	pg.base.island_item_data_template[100032] = {
 		name = "제작 교본 T2",
 		desc = "제작 테크닉을 자세하게 해설한 지침서. 사용하면 캐릭터의 제작 능력치가 어느 정도 상승한다.",
 		type = 2,
@@ -8793,8 +8800,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100033] = {
+	}
+	pg.base.island_item_data_template[100033] = {
 		name = "제작 교본 T3",
 		desc = "제작 테크닉을 풍부하게 수록한 지침서. 사용하면 캐릭터의 제작 능력치가 대폭 상승한다.",
 		type = 2,
@@ -8819,8 +8826,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[100041] = {
+	}
+	pg.base.island_item_data_template[100041] = {
 		name = "채집 교본 T1",
 		desc = "채집 테크닉의 기초 지식을 정리한 지침서. 사용하면 캐릭터의 채집 능력치가 조금 상승한다.",
 		type = 2,
@@ -8854,8 +8861,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100042] = {
+	}
+	pg.base.island_item_data_template[100042] = {
 		name = "채집 교본 T2",
 		desc = "채집 테크닉을 자세하게 해설한 지침서. 사용하면 캐릭터의 채집 능력치가 어느 정도 상승한다.",
 		type = 2,
@@ -8885,8 +8892,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100043] = {
+	}
+	pg.base.island_item_data_template[100043] = {
 		name = "채집 교본 T3",
 		desc = "채집 테크닉을 풍부하게 수록한 지침서. 사용하면 캐릭터의 채집 능력치가 대폭 상승한다.",
 		type = 2,
@@ -8911,8 +8918,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[100051] = {
+	}
+	pg.base.island_item_data_template[100051] = {
 		name = "사육 교본 T1",
 		desc = "사육 테크닉의 기초 지식을 정리한 지침서. 사용하면 캐릭터의 사육 능력치가 조금 상승한다.",
 		type = 2,
@@ -8946,8 +8953,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100052] = {
+	}
+	pg.base.island_item_data_template[100052] = {
 		name = "사육 교본 T2",
 		desc = "사육 테크닉을 자세하게 해설한 지침서. 사용하면 캐릭터의 사육 능력치가 어느 정도 상승한다.",
 		type = 2,
@@ -8977,8 +8984,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100053] = {
+	}
+	pg.base.island_item_data_template[100053] = {
 		name = "사육 교본 T3",
 		desc = "사육 테크닉을 풍부하게 수록한 지침서. 사용하면 캐릭터의 사육 능력치가 대폭 상승한다.",
 		type = 2,
@@ -9003,8 +9010,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[100061] = {
+	}
+	pg.base.island_item_data_template[100061] = {
 		name = "요리 교본 T1",
 		desc = "요리 테크닉의 기초 지식을 정리한 지침서. 사용하면 캐릭터의 요리 능력치가 조금 상승한다.",
 		type = 2,
@@ -9038,8 +9045,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100062] = {
+	}
+	pg.base.island_item_data_template[100062] = {
 		name = "요리 교본 T2",
 		desc = "요리 테크닉을 자세하게 해설한 지침서. 사용하면 캐릭터의 요리 능력치가 어느 정도 상승한다.",
 		type = 2,
@@ -9069,8 +9076,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100063] = {
+	}
+	pg.base.island_item_data_template[100063] = {
 		name = "요리 교본 T3",
 		desc = "요리 테크닉을 풍부하게 수록한 지침서. 사용하면 캐릭터의 요리 능력치가 대폭 상승한다.",
 		type = 2,
@@ -9095,8 +9102,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[100101] = {
+	}
+	pg.base.island_item_data_template[100101] = {
 		name = "생산 기술 교본 T1",
 		desc = "생산 기술에 대한 기초 지식이 정리된 지침서. 사용하면 캐릭터의 아일랜드 개발 생산 기술 레벨이 조금 향상된다.",
 		type = 2,
@@ -9134,8 +9141,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100102] = {
+	}
+	pg.base.island_item_data_template[100102] = {
 		name = "생산 기술 교본 T2",
 		desc = "생산 기술에 대한 지식이 자세히 정리된 지침서. 사용하면 캐릭터의 아일랜드 개발 생산 기술 레벨이 어느 정도 향상된다.",
 		type = 2,
@@ -9173,8 +9180,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100103] = {
+	}
+	pg.base.island_item_data_template[100103] = {
 		name = "생산 기술 교본 T3",
 		desc = "생산 기술에 대한 지식이 풍부하게 정리된 지침서. 사용하면 캐릭터의 아일랜드 개발 생산 기술 레벨이 대폭 향상된다.",
 		type = 2,
@@ -9212,8 +9219,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[100201] = {
+	}
+	pg.base.island_item_data_template[100201] = {
 		name = "아일랜드 개발 결정",
 		desc = "아일랜드 개발 경험의 결정체. 캐릭터 돌파에 필요한 재료.",
 		type = 2,
@@ -9243,8 +9250,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[110001] = {
+	}
+	pg.base.island_item_data_template[110001] = {
 		name = "씨솔트 드링크",
 		desc = "체력 50 회복. 이를 좋아하는 캐릭터는 추가로 버프 효과를 얻는다. 마치 바닷바람이 혀끝을 스친 것처럼 짭짤하고도 달콤한 독특한 맛이 느껴진다.",
 		type = 2,
@@ -9287,8 +9294,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[110002] = {
+	}
+	pg.base.island_item_data_template[110002] = {
 		name = "신록 드링크",
 		desc = "체력 50 회복. 마치 바닷바람이 혀끝을 스친 것처럼 짭짤하고도 달콤한 독특한 맛이 느껴진다.",
 		type = 2,
@@ -9329,8 +9336,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[110003] = {
+	}
+	pg.base.island_item_data_template[110003] = {
 		name = "딸기 드링크",
 		desc = "체력을 50 회복하고, 8시간 동안 기본 자원 생산 시 작업 속도가 5% 상승한다. 딸기의 달콤한 향이 활기찬 하루를 만들어 준다.",
 		type = 2,
@@ -9371,8 +9378,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[110004] = {
+	}
+	pg.base.island_item_data_template[110004] = {
 		name = "금귤 드링크",
 		desc = "체력을 50 회복하고, 8시간 동안 기지 공장에서 아이템 제작 시 작업 속도가 5% 상승한다. 금귤의 쌉쌀한 맛 뒤에 따라오는 달콤한 여운이 기분을 상쾌하게 해준다.",
 		type = 2,
@@ -9413,8 +9420,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[110005] = {
+	}
+	pg.base.island_item_data_template[110005] = {
 		name = "베리 드링크",
 		desc = "체력을 50 회복하고, 8시간 동안 가게에서 요리 아이템 제작 시 작업 속도가 5% 상승한다. 상큼하고 달콤한, 프루티한 베리의 즐거운 맛.",
 		type = 2,
@@ -9455,8 +9462,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[110006] = {
+	}
+	pg.base.island_item_data_template[110006] = {
 		name = "포도 드링크",
 		desc = "체력을 50 회복하고, 8시간 동안 가게에서 점원 담당 시 가게 매상이 5% 오른다. 부드럽고도 달콤한 풍미가 매력적이다.",
 		type = 2,
@@ -9497,8 +9504,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200001] = {
+	}
+	pg.base.island_item_data_template[200001] = {
 		name = "체셔 - 아일랜드 권한 인증",
 		desc = "체셔의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
 		type = 2,
@@ -9528,8 +9535,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200002] = {
+	}
+	pg.base.island_item_data_template[200002] = {
 		name = "새러토가 - 아일랜드 권한 인증",
 		desc = "새러토가의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
 		type = 2,
@@ -9554,8 +9561,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[200003] = {
+	}
+	pg.base.island_item_data_template[200003] = {
 		name = "아카시 - 아일랜드 권한 인증",
 		desc = "아카시의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
 		type = 2,
@@ -9585,8 +9592,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200004] = {
+	}
+	pg.base.island_item_data_template[200004] = {
 		name = "다이호 - 아일랜드 권한 인증",
 		desc = "다이호의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
 		type = 2,
@@ -9611,8 +9618,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[200005] = {
+	}
+	pg.base.island_item_data_template[200005] = {
 		name = "뉴저지 - 아일랜드 권한 인증",
 		desc = "뉴저지의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
 		type = 2,
@@ -9642,8 +9649,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200006] = {
+	}
+	pg.base.island_item_data_template[200006] = {
 		name = "시마카제 - 아일랜드 권한 인증",
 		desc = "시마카제의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
 		type = 2,
@@ -9673,8 +9680,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200007] = {
+	}
+	pg.base.island_item_data_template[200007] = {
 		name = "잉 루이 - 아일랜드 권한 인증",
 		desc = "잉 루이의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
 		type = 2,
@@ -9704,8 +9711,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200008] = {
+	}
+	pg.base.island_item_data_template[200008] = {
 		name = "르 말랭 - 아일랜드 권한 인증",
 		desc = "르 말랭의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
 		type = 2,
@@ -9735,8 +9742,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200009] = {
+	}
+	pg.base.island_item_data_template[200009] = {
 		name = "유니콘 - 아일랜드 권한 인증",
 		desc = "유니콘의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
 		type = 2,
@@ -9766,8 +9773,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200010] = {
+	}
+	pg.base.island_item_data_template[200010] = {
 		name = "타슈켄트 - 아일랜드 권한 인증",
 		desc = "타슈켄트의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
 		type = 2,
@@ -9797,8 +9804,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200011] = {
+	}
+	pg.base.island_item_data_template[200011] = {
 		name = "후드 - 아일랜드 권한 인증",
 		desc = "후드의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
 		type = 2,
@@ -9828,8 +9835,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200012] = {
+	}
+	pg.base.island_item_data_template[200012] = {
 		name = "꼬마 아마기 - 아일랜드 권한 인증",
 		desc = "꼬마 아마기의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
 		type = 2,
@@ -9859,8 +9866,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200013] = {
+	}
+	pg.base.island_item_data_template[200013] = {
 		name = "프린츠 오이겐 - 아일랜드 권한 인증",
 		desc = "프린츠 오이겐의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
 		type = 2,
@@ -9885,8 +9892,8 @@ pg.base.island_item_data_template = {
 		},
 		sub_attribute = {},
 		jump_page = {}
-	},
-	[200014] = {
+	}
+	pg.base.island_item_data_template[200014] = {
 		name = "차오 호 - 아일랜드 권한 인증",
 		desc = "차오 호의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
 		type = 2,
@@ -9916,8 +9923,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200015] = {
+	}
+	pg.base.island_item_data_template[200015] = {
 		name = "레오나르도 다 빈치 - 아일랜드 권한 인증",
 		desc = "레오나르도 다 빈치의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
 		type = 2,
@@ -9947,8 +9954,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200016] = {
+	}
+	pg.base.island_item_data_template[200016] = {
 		name = "윌리엄 D 포터 - 아일랜드 권한 인증",
 		desc = "윌리엄 D 포터의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
 		type = 2,
@@ -9978,8 +9985,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200017] = {
+	}
+	pg.base.island_item_data_template[200017] = {
 		name = "젠하이 - 아일랜드 권한 인증",
 		desc = "젠하이의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
 		type = 2,
@@ -10009,8 +10016,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200018] = {
+	}
+	pg.base.island_item_data_template[200018] = {
 		name = "아타고 - 아일랜드 권한 인증",
 		desc = "아타고의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
 		type = 2,
@@ -10040,8 +10047,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200019] = {
+	}
+	pg.base.island_item_data_template[200019] = {
 		name = "헬레나 - 아일랜드 권한 인증",
 		desc = "헬레나의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
 		type = 2,
@@ -10071,8 +10078,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200020] = {
+	}
+	pg.base.island_item_data_template[200020] = {
 		name = "프리드리히 데어 그로세 - 아일랜드 권한 인증",
 		desc = "프리드리히 데어 그로세의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
 		type = 2,
@@ -10102,8 +10109,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200021] = {
+	}
+	pg.base.island_item_data_template[200021] = {
 		name = "领洋者-娜比娅岛屿权限认证函",
 		desc = "领洋者-娜比娅的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
 		type = 2,
@@ -10133,8 +10140,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200022] = {
+	}
+	pg.base.island_item_data_template[200022] = {
 		name = "领航员-TB岛屿权限认证函",
 		desc = "领航员-TB的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
 		type = 2,
@@ -10164,8 +10171,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[200023] = {
+	}
+	pg.base.island_item_data_template[200023] = {
 		name = "探索者-艾普洛岛屿权限认证函",
 		desc = "探索者-艾普洛的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
 		type = 2,
@@ -10195,8 +10202,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[300001] = {
+	}
+	pg.base.island_item_data_template[300001] = {
 		name = "비옥한 농지 배치 작업 효율 4% 상승",
 		desc = "획득 후 비옥한 농지 배치 작업 효율 4% 상승",
 		type = 2,
@@ -10224,8 +10231,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[300002] = {
+	}
+	pg.base.island_item_data_template[300002] = {
 		name = "향기로운 과수원 배치 작업 효율 4% 상승",
 		desc = "획득 후 향기로운 과수원 배치 작업 효율 4% 상승",
 		type = 2,
@@ -10253,8 +10260,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[300003] = {
+	}
+	pg.base.island_item_data_template[300003] = {
 		name = "초록색 모밭 배치 작업 효율 4% 상승",
 		desc = "획득 후 초록색 모밭 배치 작업 효율 4% 상승",
 		type = 2,
@@ -10282,8 +10289,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[300004] = {
+	}
+	pg.base.island_item_data_template[300004] = {
 		name = "비옥한 농지 배치 작업 효율 8% 상승",
 		desc = "획득 후 비옥한 농지 배치 작업 효율 8% 상승",
 		type = 2,
@@ -10311,8 +10318,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[300005] = {
+	}
+	pg.base.island_item_data_template[300005] = {
 		name = "향기로운 과수원 배치 작업 효율 8% 상승",
 		desc = "획득 후 향기로운 과수원 배치 작업 효율 8% 상승",
 		type = 2,
@@ -10340,8 +10347,8 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		}
-	},
-	[300006] = {
+	}
+	pg.base.island_item_data_template[300006] = {
 		name = "초록색 모밭 배치 작업 효율 8% 상승",
 		desc = "획득 후 초록색 모밭 배치 작업 효율 8% 상승",
 		type = 2,
@@ -10370,4 +10377,4 @@ pg.base.island_item_data_template = {
 			}
 		}
 	}
-}
+end)()

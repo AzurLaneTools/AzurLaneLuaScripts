@@ -1,6 +1,656 @@
 pg = pg or {}
-pg.child_task = {
-	[101] = {
+pg.child_task = rawget(pg, "child_task") or setmetatable({
+	__name = "child_task"
+}, confNEO)
+pg.child_task.all = {
+	101,
+	102,
+	103,
+	104,
+	105,
+	201,
+	202,
+	203,
+	204,
+	205,
+	206,
+	207,
+	208,
+	209,
+	210,
+	211,
+	212,
+	213,
+	214,
+	215,
+	216,
+	217,
+	218,
+	219,
+	220,
+	221,
+	222,
+	223,
+	224,
+	225,
+	226,
+	227,
+	228,
+	229,
+	230,
+	231,
+	232,
+	233,
+	234,
+	235,
+	236,
+	237,
+	238,
+	239,
+	240,
+	241,
+	242,
+	243,
+	244,
+	245,
+	246,
+	247,
+	248,
+	249,
+	250,
+	251,
+	252,
+	253,
+	254,
+	255,
+	256,
+	257,
+	258,
+	259,
+	260,
+	261,
+	262,
+	263,
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1011,
+	1012,
+	1013,
+	1014,
+	1015,
+	1016,
+	1017,
+	1021,
+	1022,
+	1023,
+	1024,
+	1025,
+	1026,
+	1027,
+	1031,
+	1032,
+	1033,
+	1034,
+	1035,
+	1036,
+	1037,
+	2001,
+	2002,
+	2003,
+	2004,
+	2005,
+	2006,
+	2007,
+	2011,
+	2012,
+	2013,
+	2014,
+	2015,
+	2016,
+	2017,
+	2021,
+	2022,
+	2023,
+	2024,
+	2025,
+	2026,
+	2027,
+	2031,
+	2032,
+	2033,
+	2034,
+	2035,
+	2036,
+	2037,
+	3001,
+	3002,
+	3003,
+	3004,
+	3005,
+	3006,
+	3007,
+	3008,
+	3009,
+	3010,
+	3011,
+	3012,
+	3013,
+	3014,
+	3015,
+	3016,
+	3017,
+	3018,
+	3019,
+	3020,
+	3021,
+	3022,
+	3023,
+	3024,
+	3025,
+	3026,
+	3027,
+	3028,
+	3029,
+	3030,
+	3031,
+	3032,
+	3033,
+	3034,
+	3035,
+	3036,
+	3037,
+	3038,
+	3039,
+	3040,
+	4001,
+	4002,
+	4003,
+	4004,
+	4005,
+	4006,
+	4007,
+	4008,
+	4009,
+	4010,
+	4011,
+	4012,
+	4021,
+	4022,
+	4023,
+	4024,
+	4025,
+	4026,
+	4027,
+	4028,
+	4029,
+	4030,
+	4031,
+	4032,
+	4033,
+	4041,
+	4042,
+	4043,
+	4044,
+	4045,
+	4046,
+	4047,
+	4048,
+	4049,
+	4050,
+	4051,
+	4052,
+	4053,
+	4061,
+	4062,
+	4063,
+	4064,
+	4065,
+	4066,
+	4067,
+	4068,
+	4069,
+	4070,
+	4071,
+	4072,
+	4073,
+	4081,
+	4082,
+	4083,
+	4084,
+	4085,
+	4086,
+	4087,
+	4088,
+	4089,
+	4090,
+	4091,
+	4092,
+	4093,
+	4101,
+	4102,
+	4103,
+	4104,
+	4105,
+	4106,
+	4107,
+	4108,
+	4109,
+	4110,
+	4111,
+	4112,
+	4113,
+	10000,
+	10001,
+	10002,
+	10003,
+	10004,
+	10011,
+	10012,
+	10013,
+	10014,
+	10015,
+	10016,
+	10017,
+	10021,
+	10022,
+	10023,
+	10024,
+	10025,
+	10026,
+	10027,
+	10031,
+	10032,
+	10033,
+	10034,
+	10035,
+	10036,
+	10037,
+	10038,
+	10041,
+	10042,
+	10043,
+	10044,
+	10045,
+	10046,
+	10047,
+	10048,
+	10051,
+	10052,
+	10053,
+	10054,
+	10055,
+	10056,
+	10057,
+	10058,
+	10059,
+	10061,
+	10062,
+	10063,
+	10064,
+	10065,
+	10066,
+	10067,
+	10068,
+	10069,
+	10071,
+	10072,
+	10073,
+	10074,
+	10075,
+	10076,
+	10077,
+	10078,
+	10079,
+	10080,
+	10081,
+	10082,
+	10083,
+	10084,
+	10085,
+	10086,
+	10087,
+	10088,
+	10089,
+	10090,
+	10091,
+	10092,
+	10093,
+	10094,
+	10095,
+	10096,
+	10097,
+	10098,
+	10099,
+	10111,
+	10112,
+	10113,
+	10114,
+	10115,
+	10116,
+	10117,
+	10118,
+	10119,
+	10121,
+	10122,
+	10123,
+	10124,
+	10125,
+	10126,
+	10127,
+	10128,
+	10129,
+	10131,
+	10132,
+	10133,
+	10134,
+	10135,
+	10136,
+	10137,
+	10138,
+	10139,
+	10141,
+	10142,
+	10143,
+	10144,
+	10145,
+	10146,
+	10147,
+	10148,
+	10149,
+	10151,
+	10152,
+	10153,
+	10154,
+	10155,
+	10156,
+	10157,
+	10158,
+	10159,
+	10161,
+	10162,
+	10163,
+	10164,
+	10165,
+	10166,
+	10167,
+	10168,
+	10169,
+	10171,
+	10172,
+	10173,
+	10174,
+	10175,
+	10176,
+	10177,
+	10178,
+	10179,
+	10181,
+	10182,
+	10183,
+	10184,
+	10185,
+	10186,
+	10187,
+	10188,
+	10189,
+	10191,
+	10192,
+	10193,
+	10194,
+	10195,
+	10196,
+	10197,
+	10198,
+	10199,
+	10221,
+	10222,
+	10223,
+	10224,
+	10225,
+	10226,
+	10227,
+	10228,
+	10229,
+	10231,
+	10232,
+	10233,
+	10234,
+	10235,
+	10236,
+	10237,
+	10238,
+	10239,
+	10241,
+	10242,
+	10243,
+	10244,
+	10245,
+	10246,
+	10247,
+	10248,
+	10249,
+	10251,
+	10252,
+	10253,
+	10254,
+	10255,
+	10256,
+	10257,
+	10258,
+	10259,
+	10261,
+	10262,
+	10263,
+	10264,
+	10265,
+	10266,
+	10267,
+	10268,
+	10269,
+	10271,
+	10272,
+	10273,
+	10274,
+	10275,
+	10276,
+	10277,
+	10278,
+	10279,
+	10281,
+	10282,
+	10283,
+	10284,
+	10285,
+	10286,
+	10287,
+	10288,
+	10289,
+	10291,
+	10292,
+	10293,
+	10294,
+	10295,
+	10296,
+	10297,
+	10298,
+	10299,
+	10301,
+	10302,
+	10303,
+	10304,
+	10305,
+	10306,
+	10307,
+	10308,
+	10309,
+	10311,
+	10312,
+	10313,
+	10314,
+	10315,
+	10316,
+	10317,
+	10318,
+	10319,
+	10321,
+	10322,
+	10323,
+	10324,
+	10325,
+	10326,
+	10327,
+	10328,
+	10329,
+	10331,
+	10332,
+	10333,
+	10334,
+	10335,
+	10336,
+	10337,
+	10338,
+	10339,
+	10341,
+	10342,
+	10343,
+	10344,
+	10345,
+	10346,
+	10347,
+	10348,
+	10349,
+	10351,
+	10352,
+	10353,
+	10354,
+	10355,
+	10356,
+	10357,
+	10358,
+	10359,
+	10361,
+	10362,
+	10363,
+	10364,
+	10365,
+	10366,
+	10367,
+	10368,
+	10369,
+	10371,
+	10372,
+	10373,
+	10374,
+	10375,
+	10376,
+	10377,
+	10378,
+	10379,
+	10381,
+	10382,
+	10383,
+	10384,
+	10385,
+	10386,
+	10387,
+	10388,
+	10389,
+	10391,
+	10392,
+	10393,
+	10394,
+	10395,
+	10396,
+	10397,
+	10398,
+	10399,
+	10401,
+	10402,
+	10403,
+	10404,
+	10405,
+	10406,
+	10407,
+	10408,
+	10409,
+	10411,
+	10412,
+	10413,
+	10414,
+	10415,
+	10416,
+	10417,
+	10418,
+	10419,
+	10421,
+	10422,
+	10423,
+	10424,
+	10425,
+	10426,
+	10427,
+	10428,
+	10429,
+	10431,
+	10432,
+	10433,
+	10434,
+	10435,
+	10436,
+	10437,
+	10438,
+	10439,
+	10441,
+	10442,
+	10443,
+	10444,
+	10445,
+	10446,
+	10447,
+	10448,
+	10449,
+	10451,
+	10452,
+	10453,
+	10454,
+	10455,
+	10456,
+	10457,
+	10458,
+	10459,
+	10461,
+	10462,
+	10463,
+	10464,
+	10465,
+	10466,
+	10467,
+	10468,
+	10469,
+	10471,
+	10472,
+	10473,
+	10474,
+	10475,
+	10476,
+	10477,
+	10478,
+	10479,
+	10481,
+	10482,
+	10483,
+	10484
+}
+pg.base = pg.base or {}
+pg.base.child_task = {}
+
+(function ()
+	pg.base.child_task[101] = {
 		group = 1,
 		name = "TB를 맞이하자",
 		task_target_progress = 1,
@@ -28,8 +678,8 @@ pg.child_task = {
 			301,
 			5
 		}
-	},
-	[102] = {
+	}
+	pg.base.child_task[102] = {
 		group = 1,
 		name = "육성 목표를 설정하자",
 		task_target_progress = 1,
@@ -57,8 +707,8 @@ pg.child_task = {
 			301,
 			2
 		}
-	},
-	[103] = {
+	}
+	pg.base.child_task[103] = {
 		group = 1,
 		name = "스케줄을 1개 진행하자",
 		task_target_progress = 1,
@@ -86,8 +736,8 @@ pg.child_task = {
 			301,
 			2
 		}
-	},
-	[104] = {
+	}
+	pg.base.child_task[104] = {
 		group = 1,
 		name = "스케줄을 2개 진행하자",
 		task_target_progress = 1,
@@ -115,8 +765,8 @@ pg.child_task = {
 			301,
 			2
 		}
-	},
-	[105] = {
+	}
+	pg.base.child_task[105] = {
 		group = 1,
 		name = "스케줄을 3개 진행하자",
 		task_target_progress = 1,
@@ -144,8 +794,8 @@ pg.child_task = {
 			301,
 			4
 		}
-	},
-	[201] = {
+	}
+	pg.base.child_task[201] = {
 		group = 1,
 		name = "TB와 함께 학교에 가자",
 		task_target_progress = 1,
@@ -173,8 +823,8 @@ pg.child_task = {
 			301,
 			5
 		}
-	},
-	[202] = {
+	}
+	pg.base.child_task[202] = {
 		group = 1,
 		name = "TB의 스케줄 1회 편성",
 		task_target_progress = 1,
@@ -202,8 +852,8 @@ pg.child_task = {
 			301,
 			3
 		}
-	},
-	[203] = {
+	}
+	pg.base.child_task[203] = {
 		group = 1,
 		name = "외출로 유원지로 이동",
 		task_target_progress = 1,
@@ -236,8 +886,8 @@ pg.child_task = {
 			301,
 			3
 		}
-	},
-	[204] = {
+	}
+	pg.base.child_task[204] = {
 		group = 1,
 		name = "외출로 맛집 거리로 이동해서 \"아르바이트\" 실시",
 		task_target_progress = 1,
@@ -269,8 +919,8 @@ pg.child_task = {
 			301,
 			3
 		}
-	},
-	[205] = {
+	}
+	pg.base.child_task[205] = {
 		group = 1,
 		name = "스케줄 2회 진행",
 		task_target_progress = 1,
@@ -298,8 +948,8 @@ pg.child_task = {
 			301,
 			3
 		}
-	},
-	[206] = {
+	}
+	pg.base.child_task[206] = {
 		group = 1,
 		name = "외출로 리조트로 이동해서 \"적당히 돌아다닌다\" 선택",
 		task_target_progress = 1,
@@ -331,8 +981,8 @@ pg.child_task = {
 			301,
 			3
 		}
-	},
-	[207] = {
+	}
+	pg.base.child_task[207] = {
 		group = 1,
 		name = "아이템 1개 구매",
 		task_target_progress = 1,
@@ -360,8 +1010,8 @@ pg.child_task = {
 			301,
 			3
 		}
-	},
-	[208] = {
+	}
+	pg.base.child_task[208] = {
 		group = 1,
 		name = "스케줄을 2개 진행하자",
 		task_target_progress = 1,
@@ -389,8 +1039,8 @@ pg.child_task = {
 			301,
 			3
 		}
-	},
-	[209] = {
+	}
+	pg.base.child_task[209] = {
 		group = 1,
 		name = "외출로 학교로 이동해서 \"도서관\" 선택",
 		task_target_progress = 1,
@@ -422,8 +1072,8 @@ pg.child_task = {
 			301,
 			3
 		}
-	},
-	[210] = {
+	}
+	pg.base.child_task[210] = {
 		group = 1,
 		name = "스케줄을 2개 진행하자",
 		task_target_progress = 1,
@@ -451,8 +1101,8 @@ pg.child_task = {
 			301,
 			3
 		}
-	},
-	[211] = {
+	}
+	pg.base.child_task[211] = {
 		group = 1,
 		name = "외출로 운동장으로 이동해서 \"트레이닝\" 실시",
 		task_target_progress = 1,
@@ -484,8 +1134,8 @@ pg.child_task = {
 			301,
 			3
 		}
-	},
-	[212] = {
+	}
+	pg.base.child_task[212] = {
 		group = 1,
 		name = "스케줄을 1개 진행하자",
 		task_target_progress = 1,
@@ -513,8 +1163,8 @@ pg.child_task = {
 			301,
 			3
 		}
-	},
-	[213] = {
+	}
+	pg.base.child_task[213] = {
 		group = 1,
 		name = "육성 단계 추가 진행",
 		task_target_progress = 1,
@@ -542,8 +1192,8 @@ pg.child_task = {
 			301,
 			20
 		}
-	},
-	[214] = {
+	}
+	pg.base.child_task[214] = {
 		group = 1,
 		name = "스케줄을 1개 진행하자",
 		task_target_progress = 1,
@@ -571,8 +1221,8 @@ pg.child_task = {
 			301,
 			4
 		}
-	},
-	[215] = {
+	}
+	pg.base.child_task[215] = {
 		group = 1,
 		name = "외출로 맛집 거리로 이동해서 \"적당히 돌아다닌다\" 선택",
 		task_target_progress = 1,
@@ -604,8 +1254,8 @@ pg.child_task = {
 			301,
 			4
 		}
-	},
-	[216] = {
+	}
+	pg.base.child_task[216] = {
 		group = 1,
 		name = "스케줄을 2개 진행하자",
 		task_target_progress = 1,
@@ -633,8 +1283,8 @@ pg.child_task = {
 			301,
 			4
 		}
-	},
-	[217] = {
+	}
+	pg.base.child_task[217] = {
 		group = 1,
 		name = "외출로 해변의 공원으로 이동해서 \"적당히 돌아다닌다\" 선택",
 		task_target_progress = 1,
@@ -666,8 +1316,8 @@ pg.child_task = {
 			301,
 			4
 		}
-	},
-	[218] = {
+	}
+	pg.base.child_task[218] = {
 		group = 1,
 		name = "아이템 2개 구매",
 		task_target_progress = 1,
@@ -695,8 +1345,8 @@ pg.child_task = {
 			301,
 			4
 		}
-	},
-	[219] = {
+	}
+	pg.base.child_task[219] = {
 		group = 1,
 		name = "이번 주 스케줄 3회 편성",
 		task_target_progress = 1,
@@ -724,8 +1374,8 @@ pg.child_task = {
 			301,
 			4
 		}
-	},
-	[220] = {
+	}
+	pg.base.child_task[220] = {
 		group = 1,
 		name = "외출로 맛집 거리로 이동해서 \"아르바이트\" 실시",
 		task_target_progress = 1,
@@ -757,8 +1407,8 @@ pg.child_task = {
 			301,
 			4
 		}
-	},
-	[221] = {
+	}
+	pg.base.child_task[221] = {
 		group = 1,
 		name = "외출로 리조트로 이동해서 \"스케치한다\" 선택",
 		task_target_progress = 1,
@@ -790,8 +1440,8 @@ pg.child_task = {
 			301,
 			4
 		}
-	},
-	[222] = {
+	}
+	pg.base.child_task[222] = {
 		group = 1,
 		name = "이번 주 스케줄 3회 편성",
 		task_target_progress = 1,
@@ -819,8 +1469,8 @@ pg.child_task = {
 			301,
 			4
 		}
-	},
-	[223] = {
+	}
+	pg.base.child_task[223] = {
 		group = 1,
 		name = "외출로 리조트로 이동해서 \"적당히 돌아다닌다\" 선택",
 		task_target_progress = 1,
@@ -852,8 +1502,8 @@ pg.child_task = {
 			301,
 			4
 		}
-	},
-	[224] = {
+	}
+	pg.base.child_task[224] = {
 		group = 1,
 		name = "스케줄 3회 진행",
 		task_target_progress = 1,
@@ -881,8 +1531,8 @@ pg.child_task = {
 			301,
 			4
 		}
-	},
-	[225] = {
+	}
+	pg.base.child_task[225] = {
 		group = 1,
 		name = "스케줄 3회 진행",
 		task_target_progress = 1,
@@ -910,8 +1560,8 @@ pg.child_task = {
 			301,
 			5
 		}
-	},
-	[226] = {
+	}
+	pg.base.child_task[226] = {
 		group = 1,
 		name = "외출로 맛집 거리로 이동해서 \"적당히 돌아다닌다\" 선택",
 		task_target_progress = 1,
@@ -943,8 +1593,8 @@ pg.child_task = {
 			301,
 			5
 		}
-	},
-	[227] = {
+	}
+	pg.base.child_task[227] = {
 		group = 1,
 		name = "스케줄을 1개 진행하자",
 		task_target_progress = 1,
@@ -972,8 +1622,8 @@ pg.child_task = {
 			301,
 			5
 		}
-	},
-	[228] = {
+	}
+	pg.base.child_task[228] = {
 		group = 1,
 		name = "아이템 3개 구매",
 		task_target_progress = 1,
@@ -1001,8 +1651,8 @@ pg.child_task = {
 			301,
 			6
 		}
-	},
-	[229] = {
+	}
+	pg.base.child_task[229] = {
 		group = 1,
 		name = "외출로 리조트로 이동해서 \"캠프하러 GO!\" 선택",
 		task_target_progress = 1,
@@ -1034,8 +1684,8 @@ pg.child_task = {
 			301,
 			6
 		}
-	},
-	[230] = {
+	}
+	pg.base.child_task[230] = {
 		group = 1,
 		name = "이번 주 스케줄 3회 편성",
 		task_target_progress = 1,
@@ -1063,8 +1713,8 @@ pg.child_task = {
 			301,
 			6
 		}
-	},
-	[231] = {
+	}
+	pg.base.child_task[231] = {
 		group = 1,
 		name = "외출로 운동장으로 이동해서 \"트레이닝\" 실시",
 		task_target_progress = 1,
@@ -1096,8 +1746,8 @@ pg.child_task = {
 			301,
 			6
 		}
-	},
-	[232] = {
+	}
+	pg.base.child_task[232] = {
 		group = 1,
 		name = "외출로 유원지로 2회 이동",
 		task_target_progress = 1,
@@ -1130,8 +1780,8 @@ pg.child_task = {
 			301,
 			6
 		}
-	},
-	[233] = {
+	}
+	pg.base.child_task[233] = {
 		group = 1,
 		name = "외출로 맛집 거리로 이동해서 \"적당히 돌아다닌다\" 선택",
 		task_target_progress = 1,
@@ -1163,8 +1813,8 @@ pg.child_task = {
 			301,
 			6
 		}
-	},
-	[234] = {
+	}
+	pg.base.child_task[234] = {
 		group = 1,
 		name = "스케줄을 1개 진행하자",
 		task_target_progress = 1,
@@ -1192,8 +1842,8 @@ pg.child_task = {
 			301,
 			5
 		}
-	},
-	[235] = {
+	}
+	pg.base.child_task[235] = {
 		group = 1,
 		name = "육성 단계 진행",
 		task_target_progress = 1,
@@ -1221,8 +1871,8 @@ pg.child_task = {
 			301,
 			40
 		}
-	},
-	[236] = {
+	}
+	pg.base.child_task[236] = {
 		group = 1,
 		name = "외출로 맛집 거리로 이동해서 \"아르바이트\" 실시",
 		task_target_progress = 1,
@@ -1254,8 +1904,8 @@ pg.child_task = {
 			301,
 			8
 		}
-	},
-	[237] = {
+	}
+	pg.base.child_task[237] = {
 		group = 1,
 		name = "아이템 3개 구매",
 		task_target_progress = 1,
@@ -1283,8 +1933,8 @@ pg.child_task = {
 			301,
 			8
 		}
-	},
-	[238] = {
+	}
+	pg.base.child_task[238] = {
 		group = 1,
 		name = "스케줄을 1개 진행하자",
 		task_target_progress = 1,
@@ -1312,8 +1962,8 @@ pg.child_task = {
 			301,
 			8
 		}
-	},
-	[239] = {
+	}
+	pg.base.child_task[239] = {
 		group = 1,
 		name = "외출로 리조트로 이동해서 \"적당히 돌아다닌다\" 선택",
 		task_target_progress = 1,
@@ -1345,8 +1995,8 @@ pg.child_task = {
 			301,
 			8
 		}
-	},
-	[240] = {
+	}
+	pg.base.child_task[240] = {
 		group = 1,
 		name = "이번 주 스케줄 4회 편성",
 		task_target_progress = 1,
@@ -1374,8 +2024,8 @@ pg.child_task = {
 			301,
 			8
 		}
-	},
-	[241] = {
+	}
+	pg.base.child_task[241] = {
 		group = 1,
 		name = "외출로 유원지로 이동",
 		task_target_progress = 1,
@@ -1408,8 +2058,8 @@ pg.child_task = {
 			301,
 			8
 		}
-	},
-	[242] = {
+	}
+	pg.base.child_task[242] = {
 		group = 1,
 		name = "외출로 상점가로 이동해서 \"적당히 돌아다닌다\" 선택",
 		task_target_progress = 1,
@@ -1441,8 +2091,8 @@ pg.child_task = {
 			301,
 			8
 		}
-	},
-	[243] = {
+	}
+	pg.base.child_task[243] = {
 		group = 1,
 		name = "이번 주 스케줄 4회 편성",
 		task_target_progress = 1,
@@ -1470,8 +2120,8 @@ pg.child_task = {
 			301,
 			8
 		}
-	},
-	[244] = {
+	}
+	pg.base.child_task[244] = {
 		group = 1,
 		name = "외출로 해변의 공원으로 이동해서 \"적당히 돌아다닌다\" 선택",
 		task_target_progress = 1,
@@ -1503,8 +2153,8 @@ pg.child_task = {
 			301,
 			8
 		}
-	},
-	[245] = {
+	}
+	pg.base.child_task[245] = {
 		group = 1,
 		name = "아이템 2개 구매",
 		task_target_progress = 1,
@@ -1532,8 +2182,8 @@ pg.child_task = {
 			301,
 			8
 		}
-	},
-	[246] = {
+	}
+	pg.base.child_task[246] = {
 		group = 1,
 		name = "스케줄을 2개 진행하자",
 		task_target_progress = 1,
@@ -1561,8 +2211,8 @@ pg.child_task = {
 			301,
 			8
 		}
-	},
-	[247] = {
+	}
+	pg.base.child_task[247] = {
 		group = 1,
 		name = "외출로 해변의 공원으로 이동해서 \"적당히 돌아다닌다\" 선택",
 		task_target_progress = 1,
@@ -1594,8 +2244,8 @@ pg.child_task = {
 			301,
 			8
 		}
-	},
-	[248] = {
+	}
+	pg.base.child_task[248] = {
 		group = 1,
 		name = "스케줄을 2개 진행하자",
 		task_target_progress = 1,
@@ -1623,8 +2273,8 @@ pg.child_task = {
 			301,
 			8
 		}
-	},
-	[249] = {
+	}
+	pg.base.child_task[249] = {
 		group = 1,
 		name = "아이템 3개 구매",
 		task_target_progress = 1,
@@ -1652,8 +2302,8 @@ pg.child_task = {
 			301,
 			8
 		}
-	},
-	[250] = {
+	}
+	pg.base.child_task[250] = {
 		group = 1,
 		name = "이번 주 스케줄 4회 편성",
 		task_target_progress = 1,
@@ -1681,8 +2331,8 @@ pg.child_task = {
 			301,
 			8
 		}
-	},
-	[251] = {
+	}
+	pg.base.child_task[251] = {
 		group = 1,
 		name = "외출로 맛집 거리로 이동해서 \"적당히 돌아다닌다\" 선택",
 		task_target_progress = 1,
@@ -1714,8 +2364,8 @@ pg.child_task = {
 			301,
 			8
 		}
-	},
-	[252] = {
+	}
+	pg.base.child_task[252] = {
 		group = 1,
 		name = "아이템 3개 구매",
 		task_target_progress = 1,
@@ -1743,8 +2393,8 @@ pg.child_task = {
 			301,
 			8
 		}
-	},
-	[253] = {
+	}
+	pg.base.child_task[253] = {
 		group = 1,
 		name = "이번 주 스케줄 4회 편성",
 		task_target_progress = 1,
@@ -1772,8 +2422,8 @@ pg.child_task = {
 			301,
 			8
 		}
-	},
-	[254] = {
+	}
+	pg.base.child_task[254] = {
 		group = 1,
 		name = "외출로 리조트로 이동해서 \"적당히 돌아다닌다\" 선택",
 		task_target_progress = 1,
@@ -1805,8 +2455,8 @@ pg.child_task = {
 			301,
 			8
 		}
-	},
-	[255] = {
+	}
+	pg.base.child_task[255] = {
 		group = 1,
 		name = "이번 주 스케줄 1회 편성",
 		task_target_progress = 1,
@@ -1834,8 +2484,8 @@ pg.child_task = {
 			301,
 			8
 		}
-	},
-	[256] = {
+	}
+	pg.base.child_task[256] = {
 		group = 1,
 		name = "외출로 상점가로 이동해서 \"적당히 돌아다닌다\" 선택",
 		task_target_progress = 1,
@@ -1867,8 +2517,8 @@ pg.child_task = {
 			301,
 			8
 		}
-	},
-	[257] = {
+	}
+	pg.base.child_task[257] = {
 		group = 1,
 		name = "스케줄 3회 진행",
 		task_target_progress = 1,
@@ -1896,8 +2546,8 @@ pg.child_task = {
 			301,
 			8
 		}
-	},
-	[258] = {
+	}
+	pg.base.child_task[258] = {
 		group = 1,
 		name = "아이템 3개 구매",
 		task_target_progress = 1,
@@ -1925,8 +2575,8 @@ pg.child_task = {
 			301,
 			8
 		}
-	},
-	[259] = {
+	}
+	pg.base.child_task[259] = {
 		group = 1,
 		name = "외출로 맛집 거리로 이동해서 \"아르바이트\" 실시",
 		task_target_progress = 1,
@@ -1958,8 +2608,8 @@ pg.child_task = {
 			301,
 			8
 		}
-	},
-	[260] = {
+	}
+	pg.base.child_task[260] = {
 		group = 1,
 		name = "이번 주 스케줄 4회 편성",
 		task_target_progress = 1,
@@ -1987,8 +2637,8 @@ pg.child_task = {
 			301,
 			8
 		}
-	},
-	[261] = {
+	}
+	pg.base.child_task[261] = {
 		group = 1,
 		name = "외출로 리조트로 이동해서 \"적당히 돌아다닌다\" 선택",
 		task_target_progress = 1,
@@ -2020,8 +2670,8 @@ pg.child_task = {
 			301,
 			8
 		}
-	},
-	[262] = {
+	}
+	pg.base.child_task[262] = {
 		group = 1,
 		name = "이번 주 스케줄 2회 편성",
 		task_target_progress = 1,
@@ -2049,8 +2699,8 @@ pg.child_task = {
 			301,
 			8
 		}
-	},
-	[263] = {
+	}
+	pg.base.child_task[263] = {
 		group = 1,
 		name = "임의의 엔딩에 도달",
 		task_target_progress = 1,
@@ -2078,8 +2728,8 @@ pg.child_task = {
 			301,
 			8
 		}
-	},
-	[1001] = {
+	}
+	pg.base.child_task[1001] = {
 		group = 2,
 		name = "체력 30 달성",
 		task_target_progress = 1,
@@ -2107,8 +2757,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[1002] = {
+	}
+	pg.base.child_task[1002] = {
 		group = 3,
 		name = "체력 60 달성",
 		task_target_progress = 1,
@@ -2136,8 +2786,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[1003] = {
+	}
+	pg.base.child_task[1003] = {
 		group = 6,
 		name = "지식 15 달성",
 		task_target_progress = 1,
@@ -2165,8 +2815,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[1004] = {
+	}
+	pg.base.child_task[1004] = {
 		group = 7,
 		name = "매력 15 달성",
 		task_target_progress = 1,
@@ -2194,8 +2844,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[1005] = {
+	}
+	pg.base.child_task[1005] = {
 		group = 8,
 		name = "감수성 15 달성",
 		task_target_progress = 1,
@@ -2223,8 +2873,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[1006] = {
+	}
+	pg.base.child_task[1006] = {
 		group = 4,
 		name = "이번 주 스케줄에서 \"운동\" 5회 실시",
 		task_target_progress = 1,
@@ -2252,8 +2902,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[1007] = {
+	}
+	pg.base.child_task[1007] = {
 		group = 5,
 		name = "이번 주 스케줄에서 \"가사 도우미\" 1회 실시",
 		task_target_progress = 1,
@@ -2281,8 +2931,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[1011] = {
+	}
+	pg.base.child_task[1011] = {
 		group = 2,
 		name = "지식 30 달성",
 		task_target_progress = 1,
@@ -2310,8 +2960,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[1012] = {
+	}
+	pg.base.child_task[1012] = {
 		group = 3,
 		name = "지식 60 달성",
 		task_target_progress = 1,
@@ -2339,8 +2989,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[1013] = {
+	}
+	pg.base.child_task[1013] = {
 		group = 6,
 		name = "체력 15 달성",
 		task_target_progress = 1,
@@ -2368,8 +3018,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[1014] = {
+	}
+	pg.base.child_task[1014] = {
 		group = 7,
 		name = "매력 15 달성",
 		task_target_progress = 1,
@@ -2397,8 +3047,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[1015] = {
+	}
+	pg.base.child_task[1015] = {
 		group = 8,
 		name = "감수성 15 달성",
 		task_target_progress = 1,
@@ -2426,8 +3076,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[1016] = {
+	}
+	pg.base.child_task[1016] = {
 		group = 4,
 		name = "이번 주 스케줄에서 \"책 읽어주기\" 5회 실시",
 		task_target_progress = 1,
@@ -2455,8 +3105,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[1017] = {
+	}
+	pg.base.child_task[1017] = {
 		group = 5,
 		name = "이번 주 스케줄에서 \"집에서 쉼\" 1회 실시",
 		task_target_progress = 1,
@@ -2484,8 +3134,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[1021] = {
+	}
+	pg.base.child_task[1021] = {
 		group = 2,
 		name = "매력 30 달성",
 		task_target_progress = 1,
@@ -2513,8 +3163,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[1022] = {
+	}
+	pg.base.child_task[1022] = {
 		group = 3,
 		name = "매력 60 달성",
 		task_target_progress = 1,
@@ -2542,8 +3192,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[1023] = {
+	}
+	pg.base.child_task[1023] = {
 		group = 6,
 		name = "체력 15 달성",
 		task_target_progress = 1,
@@ -2571,8 +3221,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[1024] = {
+	}
+	pg.base.child_task[1024] = {
 		group = 7,
 		name = "지식 15 달성",
 		task_target_progress = 1,
@@ -2600,8 +3250,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[1025] = {
+	}
+	pg.base.child_task[1025] = {
 		group = 8,
 		name = "감수성 15 달성",
 		task_target_progress = 1,
@@ -2629,8 +3279,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[1026] = {
+	}
+	pg.base.child_task[1026] = {
 		group = 4,
 		name = "이번 주 스케줄에서 \"세수\" 5회 실시",
 		task_target_progress = 1,
@@ -2658,8 +3308,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[1027] = {
+	}
+	pg.base.child_task[1027] = {
 		group = 5,
 		name = "이번 주 스케줄에서 \"집에서 쉼\" 1회 실시",
 		task_target_progress = 1,
@@ -2687,8 +3337,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[1031] = {
+	}
+	pg.base.child_task[1031] = {
 		group = 2,
 		name = "감수성 30 달성",
 		task_target_progress = 1,
@@ -2716,8 +3366,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[1032] = {
+	}
+	pg.base.child_task[1032] = {
 		group = 3,
 		name = "감수성 60 달성",
 		task_target_progress = 1,
@@ -2745,8 +3395,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[1033] = {
+	}
+	pg.base.child_task[1033] = {
 		group = 6,
 		name = "체력 15 달성",
 		task_target_progress = 1,
@@ -2774,8 +3424,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[1034] = {
+	}
+	pg.base.child_task[1034] = {
 		group = 7,
 		name = "지식 15 달성",
 		task_target_progress = 1,
@@ -2803,8 +3453,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[1035] = {
+	}
+	pg.base.child_task[1035] = {
 		group = 8,
 		name = "매력 15 달성",
 		task_target_progress = 1,
@@ -2832,8 +3482,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[1036] = {
+	}
+	pg.base.child_task[1036] = {
 		group = 4,
 		name = "이번 주 스케줄에서 \"블록쌓기\" 5회 실시",
 		task_target_progress = 1,
@@ -2861,8 +3511,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[1037] = {
+	}
+	pg.base.child_task[1037] = {
 		group = 5,
 		name = "이번 주 스케줄에서 \"가사 도우미\" 1회 실시",
 		task_target_progress = 1,
@@ -2890,8 +3540,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[2001] = {
+	}
+	pg.base.child_task[2001] = {
 		group = 2,
 		name = "체력 200 달성",
 		task_target_progress = 1,
@@ -2919,8 +3569,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[2002] = {
+	}
+	pg.base.child_task[2002] = {
 		group = 3,
 		name = "체력 400 달성",
 		task_target_progress = 1,
@@ -2948,8 +3598,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[2003] = {
+	}
+	pg.base.child_task[2003] = {
 		group = 6,
 		name = "지식 150 달성",
 		task_target_progress = 1,
@@ -2977,8 +3627,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[2004] = {
+	}
+	pg.base.child_task[2004] = {
 		group = 7,
 		name = "매력 150 달성",
 		task_target_progress = 1,
@@ -3006,8 +3656,10 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[2005] = {
+	}
+end)()
+(function ()
+	pg.base.child_task[2005] = {
 		group = 8,
 		name = "감수성 150 달성",
 		task_target_progress = 1,
@@ -3035,8 +3687,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[2006] = {
+	}
+	pg.base.child_task[2006] = {
 		group = 4,
 		name = "이번 주 스케줄에서 \"초급 체력\" 10회 실시",
 		task_target_progress = 1,
@@ -3064,8 +3716,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[2007] = {
+	}
+	pg.base.child_task[2007] = {
 		group = 5,
 		name = "이번 주 스케줄에서 \"중급 체력\" 5회 실시",
 		task_target_progress = 1,
@@ -3093,8 +3745,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[2011] = {
+	}
+	pg.base.child_task[2011] = {
 		group = 2,
 		name = "지식 200 달성",
 		task_target_progress = 1,
@@ -3122,8 +3774,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[2012] = {
+	}
+	pg.base.child_task[2012] = {
 		group = 3,
 		name = "지식 400 달성",
 		task_target_progress = 1,
@@ -3151,8 +3803,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[2013] = {
+	}
+	pg.base.child_task[2013] = {
 		group = 6,
 		name = "체력 150 달성",
 		task_target_progress = 1,
@@ -3180,8 +3832,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[2014] = {
+	}
+	pg.base.child_task[2014] = {
 		group = 7,
 		name = "매력 150 달성",
 		task_target_progress = 1,
@@ -3209,8 +3861,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[2015] = {
+	}
+	pg.base.child_task[2015] = {
 		group = 8,
 		name = "감수성 150 달성",
 		task_target_progress = 1,
@@ -3238,8 +3890,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[2016] = {
+	}
+	pg.base.child_task[2016] = {
 		group = 4,
 		name = "이번 주 스케줄에서 \"초급 공부\" 10회 실시",
 		task_target_progress = 1,
@@ -3267,8 +3919,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[2017] = {
+	}
+	pg.base.child_task[2017] = {
 		group = 5,
 		name = "이번 주 스케줄에서 \"중급 공부\" 5회 실시",
 		task_target_progress = 1,
@@ -3296,8 +3948,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[2021] = {
+	}
+	pg.base.child_task[2021] = {
 		group = 2,
 		name = "감수성 200 달성",
 		task_target_progress = 1,
@@ -3325,8 +3977,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[2022] = {
+	}
+	pg.base.child_task[2022] = {
 		group = 3,
 		name = "감수성 400 달성",
 		task_target_progress = 1,
@@ -3354,8 +4006,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[2023] = {
+	}
+	pg.base.child_task[2023] = {
 		group = 6,
 		name = "체력 150 달성",
 		task_target_progress = 1,
@@ -3383,8 +4035,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[2024] = {
+	}
+	pg.base.child_task[2024] = {
 		group = 7,
 		name = "지식 150 달성",
 		task_target_progress = 1,
@@ -3412,8 +4064,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[2025] = {
+	}
+	pg.base.child_task[2025] = {
 		group = 8,
 		name = "매력 150 달성",
 		task_target_progress = 1,
@@ -3441,8 +4093,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[2026] = {
+	}
+	pg.base.child_task[2026] = {
 		group = 4,
 		name = "이번 주 스케줄에서 \"초급 수공예\" 10회 실시",
 		task_target_progress = 1,
@@ -3470,8 +4122,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[2027] = {
+	}
+	pg.base.child_task[2027] = {
 		group = 5,
 		name = "이번 주 스케줄에서 \"중급 수공예\" 5회 실시",
 		task_target_progress = 1,
@@ -3499,8 +4151,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[2031] = {
+	}
+	pg.base.child_task[2031] = {
 		group = 2,
 		name = "매력 200 달성",
 		task_target_progress = 1,
@@ -3528,8 +4180,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[2032] = {
+	}
+	pg.base.child_task[2032] = {
 		group = 3,
 		name = "매력 400 달성",
 		task_target_progress = 1,
@@ -3557,8 +4209,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[2033] = {
+	}
+	pg.base.child_task[2033] = {
 		group = 6,
 		name = "체력 150 달성",
 		task_target_progress = 1,
@@ -3586,8 +4238,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[2034] = {
+	}
+	pg.base.child_task[2034] = {
 		group = 7,
 		name = "지식 150 달성",
 		task_target_progress = 1,
@@ -3615,8 +4267,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[2035] = {
+	}
+	pg.base.child_task[2035] = {
 		group = 8,
 		name = "감수성 150 달성",
 		task_target_progress = 1,
@@ -3644,8 +4296,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[2036] = {
+	}
+	pg.base.child_task[2036] = {
 		group = 4,
 		name = "이번 주 스케줄에서 \"초급 음악\" 10회 실시",
 		task_target_progress = 1,
@@ -3673,8 +4325,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[2037] = {
+	}
+	pg.base.child_task[2037] = {
 		group = 5,
 		name = "이번 주 스케줄에서 \"중급 음악\" 5회 실시",
 		task_target_progress = 1,
@@ -3702,8 +4354,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3001] = {
+	}
+	pg.base.child_task[3001] = {
 		group = 3,
 		name = "체력 900 달성",
 		task_target_progress = 1,
@@ -3731,8 +4383,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3002] = {
+	}
+	pg.base.child_task[3002] = {
 		group = 10,
 		name = "지식 500 달성",
 		task_target_progress = 1,
@@ -3760,8 +4412,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3003] = {
+	}
+	pg.base.child_task[3003] = {
 		group = 11,
 		name = "감수성 500 달성",
 		task_target_progress = 1,
@@ -3789,8 +4441,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3004] = {
+	}
+	pg.base.child_task[3004] = {
 		group = 12,
 		name = "매력 500 달성",
 		task_target_progress = 1,
@@ -3818,8 +4470,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3005] = {
+	}
+	pg.base.child_task[3005] = {
 		group = 4,
 		name = "체력 1,600 달성",
 		task_target_progress = 1,
@@ -3847,8 +4499,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3006] = {
+	}
+	pg.base.child_task[3006] = {
 		group = 5,
 		name = "이번 주 스케줄에서 \"중급 체력\" 5회 실시",
 		task_target_progress = 1,
@@ -3876,8 +4528,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3007] = {
+	}
+	pg.base.child_task[3007] = {
 		group = 6,
 		name = "이번 주 스케줄에서 \"상급 체력\" 1회 실시",
 		task_target_progress = 1,
@@ -3905,8 +4557,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3008] = {
+	}
+	pg.base.child_task[3008] = {
 		group = 7,
 		name = "외출로 운동장으로 이동해서 임의 행동 4회 실시",
 		task_target_progress = 1,
@@ -3948,8 +4600,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3009] = {
+	}
+	pg.base.child_task[3009] = {
 		group = 8,
 		name = "운동이나 손재주 20 달성",
 		task_target_progress = 1,
@@ -3980,8 +4632,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3010] = {
+	}
+	pg.base.child_task[3010] = {
 		group = 9,
 		name = "지식이나 감수성, 또는 매력 800 달성",
 		task_target_progress = 1,
@@ -4013,8 +4665,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3011] = {
+	}
+	pg.base.child_task[3011] = {
 		group = 3,
 		name = "지식 900 달성",
 		task_target_progress = 1,
@@ -4042,8 +4694,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3012] = {
+	}
+	pg.base.child_task[3012] = {
 		group = 10,
 		name = "체력 500 달성",
 		task_target_progress = 1,
@@ -4071,8 +4723,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3013] = {
+	}
+	pg.base.child_task[3013] = {
 		group = 11,
 		name = "감수성 500 달성",
 		task_target_progress = 1,
@@ -4100,8 +4752,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3014] = {
+	}
+	pg.base.child_task[3014] = {
 		group = 12,
 		name = "감수성 500 달성",
 		task_target_progress = 1,
@@ -4129,8 +4781,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3015] = {
+	}
+	pg.base.child_task[3015] = {
 		group = 4,
 		name = "지식 1,600 달성",
 		task_target_progress = 1,
@@ -4158,8 +4810,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3016] = {
+	}
+	pg.base.child_task[3016] = {
 		group = 5,
 		name = "이번 주 스케줄에서 \"중급 공부\" 5회 실시",
 		task_target_progress = 1,
@@ -4187,8 +4839,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3017] = {
+	}
+	pg.base.child_task[3017] = {
 		group = 6,
 		name = "이번 주 스케줄에서 \"상급 공부\" 1회 실시",
 		task_target_progress = 1,
@@ -4216,8 +4868,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3018] = {
+	}
+	pg.base.child_task[3018] = {
 		group = 7,
 		name = "외출로 학교로 이동해서 임의 행동 4회 실시",
 		task_target_progress = 1,
@@ -4273,8 +4925,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3019] = {
+	}
+	pg.base.child_task[3019] = {
 		group = 8,
 		name = "손재주나 상상력 20 달성",
 		task_target_progress = 1,
@@ -4305,8 +4957,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3020] = {
+	}
+	pg.base.child_task[3020] = {
 		group = 9,
 		name = "체력이나 감수성, 또는 매력 800 달성",
 		task_target_progress = 1,
@@ -4338,8 +4990,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3021] = {
+	}
+	pg.base.child_task[3021] = {
 		group = 3,
 		name = "매력 900 달성",
 		task_target_progress = 1,
@@ -4367,8 +5019,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3022] = {
+	}
+	pg.base.child_task[3022] = {
 		group = 10,
 		name = "체력 500 달성",
 		task_target_progress = 1,
@@ -4396,8 +5048,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3023] = {
+	}
+	pg.base.child_task[3023] = {
 		group = 11,
 		name = "지식 500 달성",
 		task_target_progress = 1,
@@ -4425,8 +5077,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3024] = {
+	}
+	pg.base.child_task[3024] = {
 		group = 12,
 		name = "감수성 500 달성",
 		task_target_progress = 1,
@@ -4454,8 +5106,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3025] = {
+	}
+	pg.base.child_task[3025] = {
 		group = 4,
 		name = "매력 1,600 달성",
 		task_target_progress = 1,
@@ -4483,8 +5135,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3026] = {
+	}
+	pg.base.child_task[3026] = {
 		group = 5,
 		name = "이번 주 스케줄에서 \"중급 음악\" 5회 실시",
 		task_target_progress = 1,
@@ -4512,8 +5164,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3027] = {
+	}
+	pg.base.child_task[3027] = {
 		group = 6,
 		name = "이번 주 스케줄에서 \"상급 음악\" 1회 실시",
 		task_target_progress = 1,
@@ -4541,8 +5193,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3028] = {
+	}
+	pg.base.child_task[3028] = {
 		group = 7,
 		name = "외출로 해변의 공원으로 이동해서 임의 행동 4회 실시",
 		task_target_progress = 1,
@@ -4597,8 +5249,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3029] = {
+	}
+	pg.base.child_task[3029] = {
 		group = 8,
 		name = "표현력이나 음악 20 달성",
 		task_target_progress = 1,
@@ -4629,8 +5281,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3030] = {
+	}
+	pg.base.child_task[3030] = {
 		group = 9,
 		name = "지식이나 감수성, 또는 체력 800 달성",
 		task_target_progress = 1,
@@ -4662,8 +5314,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3031] = {
+	}
+	pg.base.child_task[3031] = {
 		group = 3,
 		name = "감수성 900 달성",
 		task_target_progress = 1,
@@ -4691,8 +5343,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3032] = {
+	}
+	pg.base.child_task[3032] = {
 		group = 10,
 		name = "체력 500 달성",
 		task_target_progress = 1,
@@ -4720,8 +5372,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3033] = {
+	}
+	pg.base.child_task[3033] = {
 		group = 11,
 		name = "지식 500 달성",
 		task_target_progress = 1,
@@ -4749,8 +5401,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3034] = {
+	}
+	pg.base.child_task[3034] = {
 		group = 12,
 		name = "매력 500 달성",
 		task_target_progress = 1,
@@ -4778,8 +5430,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3035] = {
+	}
+	pg.base.child_task[3035] = {
 		group = 4,
 		name = "감수성 1,600 달성",
 		task_target_progress = 1,
@@ -4807,8 +5459,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3036] = {
+	}
+	pg.base.child_task[3036] = {
 		group = 5,
 		name = "이번 주 스케줄에서 \"중급 수공예\" 5회 실시",
 		task_target_progress = 1,
@@ -4836,8 +5488,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3037] = {
+	}
+	pg.base.child_task[3037] = {
 		group = 6,
 		name = "이번 주 스케줄에서 \"상급 수공예\" 1회 실시",
 		task_target_progress = 1,
@@ -4865,8 +5517,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3038] = {
+	}
+	pg.base.child_task[3038] = {
 		group = 7,
 		name = "외출로 리조트로 이동해서 임의 행동 4회 실시",
 		task_target_progress = 1,
@@ -4911,8 +5563,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3039] = {
+	}
+	pg.base.child_task[3039] = {
 		group = 8,
 		name = "섬세함이나 상상력, 또는 음악 20 달성",
 		task_target_progress = 1,
@@ -4944,8 +5596,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[3040] = {
+	}
+	pg.base.child_task[3040] = {
 		group = 9,
 		name = "지식이나 매력, 또는 체력 800 달성",
 		task_target_progress = 1,
@@ -4977,8 +5629,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4001] = {
+	}
+	pg.base.child_task[4001] = {
 		group = 1,
 		name = "운동 100 달성",
 		task_target_progress = 1,
@@ -5006,8 +5658,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4002] = {
+	}
+	pg.base.child_task[4002] = {
 		group = 2,
 		name = "운동 160 달성",
 		task_target_progress = 1,
@@ -5035,8 +5687,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4003] = {
+	}
+	pg.base.child_task[4003] = {
 		group = 3,
 		name = "운동 240 달성",
 		task_target_progress = 1,
@@ -5064,8 +5716,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4004] = {
+	}
+	pg.base.child_task[4004] = {
 		group = 4,
 		name = "지식 1,600 달성",
 		task_target_progress = 1,
@@ -5093,8 +5745,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4005] = {
+	}
+	pg.base.child_task[4005] = {
 		group = 5,
 		name = "체력 2,500 달성",
 		task_target_progress = 1,
@@ -5122,8 +5774,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4006] = {
+	}
+	pg.base.child_task[4006] = {
 		group = 6,
 		name = "체력 4,000 달성",
 		task_target_progress = 1,
@@ -5151,8 +5803,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4007] = {
+	}
+	pg.base.child_task[4007] = {
 		group = 7,
 		name = "이번 주 스케줄에서 \"상급 체력\" 10회 실시",
 		task_target_progress = 1,
@@ -5180,8 +5832,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4008] = {
+	}
+	pg.base.child_task[4008] = {
 		group = 8,
 		name = "이번 주 스케줄에서 \"상급 운동\" 10회 실시",
 		task_target_progress = 1,
@@ -5209,8 +5861,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4009] = {
+	}
+	pg.base.child_task[4009] = {
 		group = 9,
 		name = "이번 주 스케줄에서 \"인스트럭터Ⅲ\" 1회 실시",
 		task_target_progress = 1,
@@ -5238,8 +5890,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4010] = {
+	}
+	pg.base.child_task[4010] = {
 		group = 10,
 		name = "외출로 운동장으로 이동해서 임의 행동 4회 실시",
 		task_target_progress = 1,
@@ -5281,8 +5933,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4011] = {
+	}
+	pg.base.child_task[4011] = {
 		group = 11,
 		name = "대운동회에서 1회 수상",
 		task_target_progress = 1,
@@ -5310,8 +5962,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4012] = {
+	}
+	pg.base.child_task[4012] = {
 		group = 12,
 		name = "시합 1회 관전",
 		task_target_progress = 1,
@@ -5344,8 +5996,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4021] = {
+	}
+	pg.base.child_task[4021] = {
 		group = 1,
 		name = "상상력 100 달성",
 		task_target_progress = 1,
@@ -5373,8 +6025,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4022] = {
+	}
+	pg.base.child_task[4022] = {
 		group = 2,
 		name = "상상력 160 달성",
 		task_target_progress = 1,
@@ -5402,8 +6054,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4023] = {
+	}
+	pg.base.child_task[4023] = {
 		group = 3,
 		name = "상상력 240 달성",
 		task_target_progress = 1,
@@ -5431,8 +6083,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4024] = {
+	}
+	pg.base.child_task[4024] = {
 		group = 4,
 		name = "감수성 2,000 달성",
 		task_target_progress = 1,
@@ -5460,8 +6112,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4025] = {
+	}
+	pg.base.child_task[4025] = {
 		group = 5,
 		name = "지식 2,000 달성",
 		task_target_progress = 1,
@@ -5489,8 +6141,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4026] = {
+	}
+	pg.base.child_task[4026] = {
 		group = 6,
 		name = "감수성 3,000 달성",
 		task_target_progress = 1,
@@ -5518,8 +6170,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4027] = {
+	}
+	pg.base.child_task[4027] = {
 		group = 7,
 		name = "지식 3,000 달성",
 		task_target_progress = 1,
@@ -5547,8 +6199,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4028] = {
+	}
+	pg.base.child_task[4028] = {
 		group = 8,
 		name = "이번 주 스케줄에서 \"상급 미술\" 10회 실시",
 		task_target_progress = 1,
@@ -5576,8 +6228,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4029] = {
+	}
+	pg.base.child_task[4029] = {
 		group = 9,
 		name = "이번 주 예정에서 \"상급 예술\" 10회 실시",
 		task_target_progress = 1,
@@ -5605,8 +6257,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4030] = {
+	}
+	pg.base.child_task[4030] = {
 		group = 10,
 		name = "이번 주 스케줄에서 \"길거리 예술가Ⅲ\" 10회 실시",
 		task_target_progress = 1,
@@ -5634,8 +6286,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4031] = {
+	}
+	pg.base.child_task[4031] = {
 		group = 11,
 		name = "외출로 리조트로 이동해서 임의 행동 4회 실시",
 		task_target_progress = 1,
@@ -5680,8 +6332,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4032] = {
+	}
+	pg.base.child_task[4032] = {
 		group = 12,
 		name = "그림 콘테스트에서 1회 수상",
 		task_target_progress = 1,
@@ -5709,8 +6361,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4033] = {
+	}
+	pg.base.child_task[4033] = {
 		group = 13,
 		name = "미술실 그림 강좌 수강",
 		task_target_progress = 1,
@@ -5742,8 +6394,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4041] = {
+	}
+	pg.base.child_task[4041] = {
 		group = 1,
 		name = "섬세함 100 달성",
 		task_target_progress = 1,
@@ -5771,8 +6423,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4042] = {
+	}
+	pg.base.child_task[4042] = {
 		group = 2,
 		name = "섬세함 160 달성",
 		task_target_progress = 1,
@@ -5800,8 +6452,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4043] = {
+	}
+	pg.base.child_task[4043] = {
 		group = 3,
 		name = "섬세함 240 달성",
 		task_target_progress = 1,
@@ -5829,8 +6481,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4044] = {
+	}
+	pg.base.child_task[4044] = {
 		group = 4,
 		name = "체력 1,600 달성",
 		task_target_progress = 1,
@@ -5858,8 +6510,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4045] = {
+	}
+	pg.base.child_task[4045] = {
 		group = 5,
 		name = "지식 1,600 달성",
 		task_target_progress = 1,
@@ -5887,8 +6539,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4046] = {
+	}
+	pg.base.child_task[4046] = {
 		group = 6,
 		name = "감수성 2,000 달성",
 		task_target_progress = 1,
@@ -5916,8 +6568,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4047] = {
+	}
+	pg.base.child_task[4047] = {
 		group = 7,
 		name = "감수성 3,000 달성",
 		task_target_progress = 1,
@@ -5945,8 +6597,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4048] = {
+	}
+	pg.base.child_task[4048] = {
 		group = 8,
 		name = "이번 주 스케줄에서 \"상급 수공예\" 10회 실시",
 		task_target_progress = 1,
@@ -5974,8 +6626,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4049] = {
+	}
+	pg.base.child_task[4049] = {
 		group = 9,
 		name = "이번 주 스케줄에서 \"상급 요리\" 10회 실시",
 		task_target_progress = 1,
@@ -6003,8 +6655,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4050] = {
+	}
+	pg.base.child_task[4050] = {
 		group = 10,
 		name = "이번 주 스케줄에서 \"서점 점원Ⅲ\" 10회 실시",
 		task_target_progress = 1,
@@ -6032,8 +6684,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4051] = {
+	}
+	pg.base.child_task[4051] = {
 		group = 11,
 		name = "외출로 맛집 거리로 이동해서 임의 행동 4회 실시",
 		task_target_progress = 1,
@@ -6078,8 +6730,10 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4052] = {
+	}
+end)()
+(function ()
+	pg.base.child_task[4052] = {
 		group = 12,
 		name = "공모 문학상 1회 수상",
 		task_target_progress = 1,
@@ -6107,8 +6761,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4053] = {
+	}
+	pg.base.child_task[4053] = {
 		group = 13,
 		name = "맛집 거리 페스티벌 참가",
 		task_target_progress = 1,
@@ -6141,8 +6795,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4061] = {
+	}
+	pg.base.child_task[4061] = {
 		group = 1,
 		name = "손재주 100 달성",
 		task_target_progress = 1,
@@ -6170,8 +6824,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4062] = {
+	}
+	pg.base.child_task[4062] = {
 		group = 2,
 		name = "손재주 160 달성",
 		task_target_progress = 1,
@@ -6199,8 +6853,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4063] = {
+	}
+	pg.base.child_task[4063] = {
 		group = 3,
 		name = "손재주 240 달성",
 		task_target_progress = 1,
@@ -6228,8 +6882,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4064] = {
+	}
+	pg.base.child_task[4064] = {
 		group = 4,
 		name = "매력 1,600 달성",
 		task_target_progress = 1,
@@ -6257,8 +6911,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4065] = {
+	}
+	pg.base.child_task[4065] = {
 		group = 5,
 		name = "감수성 1,600 달성",
 		task_target_progress = 1,
@@ -6286,8 +6940,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4066] = {
+	}
+	pg.base.child_task[4066] = {
 		group = 6,
 		name = "지식 2,500 달성",
 		task_target_progress = 1,
@@ -6315,8 +6969,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4067] = {
+	}
+	pg.base.child_task[4067] = {
 		group = 7,
 		name = "지식 4,000 달성",
 		task_target_progress = 1,
@@ -6344,8 +6998,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4068] = {
+	}
+	pg.base.child_task[4068] = {
 		group = 8,
 		name = "이번 주 스케줄에서 \"상급 공부\" 10회 실시",
 		task_target_progress = 1,
@@ -6373,8 +7027,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4069] = {
+	}
+	pg.base.child_task[4069] = {
 		group = 9,
 		name = "이번 주 스케줄에서 \"상급 원예\" 10회 실시",
 		task_target_progress = 1,
@@ -6402,8 +7056,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4070] = {
+	}
+	pg.base.child_task[4070] = {
 		group = 10,
 		name = "이번 주 스케줄에서 \"농장 도우미Ⅲ\" 1회 실시",
 		task_target_progress = 1,
@@ -6431,8 +7085,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4071] = {
+	}
+	pg.base.child_task[4071] = {
 		group = 11,
 		name = "외출로 학교로 이동해서 임의 행동 4회 실시",
 		task_target_progress = 1,
@@ -6488,8 +7142,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4072] = {
+	}
+	pg.base.child_task[4072] = {
 		group = 12,
 		name = "낚시 대회에서 1회 수상",
 		task_target_progress = 1,
@@ -6517,8 +7171,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4073] = {
+	}
+	pg.base.child_task[4073] = {
 		group = 13,
 		name = "촬영 스튜디오에서 일상 사진을 1회 촬영",
 		task_target_progress = 1,
@@ -6549,8 +7203,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4081] = {
+	}
+	pg.base.child_task[4081] = {
 		group = 1,
 		name = "음악 100 달성",
 		task_target_progress = 1,
@@ -6578,8 +7232,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4082] = {
+	}
+	pg.base.child_task[4082] = {
 		group = 2,
 		name = "음악 160 달성",
 		task_target_progress = 1,
@@ -6607,8 +7261,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4083] = {
+	}
+	pg.base.child_task[4083] = {
 		group = 3,
 		name = "음악 240 달성",
 		task_target_progress = 1,
@@ -6636,8 +7290,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4084] = {
+	}
+	pg.base.child_task[4084] = {
 		group = 4,
 		name = "매력 2,000 달성",
 		task_target_progress = 1,
@@ -6665,8 +7319,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4085] = {
+	}
+	pg.base.child_task[4085] = {
 		group = 5,
 		name = "감수성 2,500 달성",
 		task_target_progress = 1,
@@ -6694,8 +7348,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4086] = {
+	}
+	pg.base.child_task[4086] = {
 		group = 6,
 		name = "매력 3,000 달성",
 		task_target_progress = 1,
@@ -6723,8 +7377,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4087] = {
+	}
+	pg.base.child_task[4087] = {
 		group = 7,
 		name = "감수성 4,000 달성",
 		task_target_progress = 1,
@@ -6752,8 +7406,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4088] = {
+	}
+	pg.base.child_task[4088] = {
 		group = 8,
 		name = "이번 주 스케줄에서 \"상급 음악\" 10회 실시",
 		task_target_progress = 1,
@@ -6781,8 +7435,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4089] = {
+	}
+	pg.base.child_task[4089] = {
 		group = 9,
 		name = "이번 주 스케줄에서 \"상급 연주\" 10회 실시",
 		task_target_progress = 1,
@@ -6810,8 +7464,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4090] = {
+	}
+	pg.base.child_task[4090] = {
 		group = 10,
 		name = "이번 주 스케줄에서 \"가수Ⅲ\" 10회 실시",
 		task_target_progress = 1,
@@ -6839,8 +7493,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4091] = {
+	}
+	pg.base.child_task[4091] = {
 		group = 11,
 		name = "외출로 학교로 이동해서 임의 행동 4회 실시",
 		task_target_progress = 1,
@@ -6896,8 +7550,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4092] = {
+	}
+	pg.base.child_task[4092] = {
 		group = 12,
 		name = "노래자랑에서 1회 수상",
 		task_target_progress = 1,
@@ -6925,8 +7579,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4093] = {
+	}
+	pg.base.child_task[4093] = {
 		group = 13,
 		name = "음악실 노래 강좌 수강",
 		task_target_progress = 1,
@@ -6958,8 +7612,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4101] = {
+	}
+	pg.base.child_task[4101] = {
 		group = 1,
 		name = "표현력 100 달성",
 		task_target_progress = 1,
@@ -6987,8 +7641,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4102] = {
+	}
+	pg.base.child_task[4102] = {
 		group = 2,
 		name = "표현력 160 달성",
 		task_target_progress = 1,
@@ -7016,8 +7670,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4103] = {
+	}
+	pg.base.child_task[4103] = {
 		group = 3,
 		name = "표현력 240 달성",
 		task_target_progress = 1,
@@ -7045,8 +7699,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4104] = {
+	}
+	pg.base.child_task[4104] = {
 		group = 4,
 		name = "체력 1,600 달성",
 		task_target_progress = 1,
@@ -7074,8 +7728,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4105] = {
+	}
+	pg.base.child_task[4105] = {
 		group = 5,
 		name = "감수성 1,600 달성",
 		task_target_progress = 1,
@@ -7103,8 +7757,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4106] = {
+	}
+	pg.base.child_task[4106] = {
 		group = 6,
 		name = "매력 2,000 달성",
 		task_target_progress = 1,
@@ -7132,8 +7786,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4107] = {
+	}
+	pg.base.child_task[4107] = {
 		group = 7,
 		name = "매력 3,000 달성",
 		task_target_progress = 1,
@@ -7161,8 +7815,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4108] = {
+	}
+	pg.base.child_task[4108] = {
 		group = 8,
 		name = "이번 주 스케줄에서 \"상급 음악\" 10회 실시",
 		task_target_progress = 1,
@@ -7190,8 +7844,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4109] = {
+	}
+	pg.base.child_task[4109] = {
 		group = 9,
 		name = "이번 주 스케줄에서 \"상급 연극\" 10회 실시",
 		task_target_progress = 1,
@@ -7219,8 +7873,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4110] = {
+	}
+	pg.base.child_task[4110] = {
 		group = 10,
 		name = "이번 주 스케줄에서 \"극장 배우Ⅲ\" 10회 실시",
 		task_target_progress = 1,
@@ -7248,8 +7902,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4111] = {
+	}
+	pg.base.child_task[4111] = {
 		group = 11,
 		name = "외출로 해변의 공원으로 이동해서 임의 행동 4회 실시",
 		task_target_progress = 1,
@@ -7304,8 +7958,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4112] = {
+	}
+	pg.base.child_task[4112] = {
 		group = 12,
 		name = "내일의 스타상 1회 수상",
 		task_target_progress = 1,
@@ -7333,8 +7987,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[4113] = {
+	}
+	pg.base.child_task[4113] = {
 		group = 13,
 		name = "촬영 스튜디오에서 TB의 사진을 1회 촬영",
 		task_target_progress = 1,
@@ -7365,8 +8019,8 @@ pg.child_task = {
 			302,
 			1
 		}
-	},
-	[10000] = {
+	}
+	pg.base.child_task[10000] = {
 		group = 0,
 		name = "임의 스케줄 수행",
 		task_target_progress = 0,
@@ -7394,8 +8048,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10001] = {
+	}
+	pg.base.child_task[10001] = {
 		group = 0,
 		name = "임의 스케줄 수행",
 		task_target_progress = 0,
@@ -7423,8 +8077,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10002] = {
+	}
+	pg.base.child_task[10002] = {
 		group = 0,
 		name = "임의 스케줄 수행",
 		task_target_progress = 0,
@@ -7452,8 +8106,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10003] = {
+	}
+	pg.base.child_task[10003] = {
 		group = 0,
 		name = "임의 스케줄 수행",
 		task_target_progress = 0,
@@ -7481,8 +8135,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10004] = {
+	}
+	pg.base.child_task[10004] = {
 		group = 0,
 		name = "임의 스케줄 수행",
 		task_target_progress = 0,
@@ -7510,8 +8164,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10011] = {
+	}
+	pg.base.child_task[10011] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -7553,8 +8207,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10012] = {
+	}
+	pg.base.child_task[10012] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -7586,8 +8240,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10013] = {
+	}
+	pg.base.child_task[10013] = {
 		group = 0,
 		name = "외출해서 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -7620,8 +8274,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10014] = {
+	}
+	pg.base.child_task[10014] = {
 		group = 0,
 		name = "스케줄의 \"초급 공부\"나 \"초급 체력\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -7652,8 +8306,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10015] = {
+	}
+	pg.base.child_task[10015] = {
 		group = 0,
 		name = "스케줄의 \"초급 수공예\"나 \"초급 음악\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -7684,8 +8338,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10016] = {
+	}
+	pg.base.child_task[10016] = {
 		group = 0,
 		name = "스케줄의 \"초급 미술\"나 \"초급 무용\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -7716,8 +8370,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10017] = {
+	}
+	pg.base.child_task[10017] = {
 		group = 0,
 		name = "스케줄의 \"초급 연기\"나 \"초급 서예\"를 해보고 싶어…",
 		task_target_progress = 0,
@@ -7748,8 +8402,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10021] = {
+	}
+	pg.base.child_task[10021] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -7791,8 +8445,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10022] = {
+	}
+	pg.base.child_task[10022] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -7834,8 +8488,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10023] = {
+	}
+	pg.base.child_task[10023] = {
 		group = 0,
 		name = "외출해서 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -7868,8 +8522,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10024] = {
+	}
+	pg.base.child_task[10024] = {
 		group = 0,
 		name = "스케줄의 \"초급 공부\"나 \"초급 체력\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -7900,8 +8554,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10025] = {
+	}
+	pg.base.child_task[10025] = {
 		group = 0,
 		name = "스케줄의 \"초급 수공예\"나 \"초급 음악\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -7932,8 +8586,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10026] = {
+	}
+	pg.base.child_task[10026] = {
 		group = 0,
 		name = "스케줄의 \"초급 미술\"나 \"초급 무용\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -7964,8 +8618,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10027] = {
+	}
+	pg.base.child_task[10027] = {
 		group = 0,
 		name = "스케줄의 \"초급 연기\"나 \"초급 서예\"를 해보고 싶어…",
 		task_target_progress = 0,
@@ -7996,8 +8650,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10031] = {
+	}
+	pg.base.child_task[10031] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -8039,8 +8693,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10032] = {
+	}
+	pg.base.child_task[10032] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -8082,8 +8736,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10033] = {
+	}
+	pg.base.child_task[10033] = {
 		group = 0,
 		name = "외출해서 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -8115,8 +8769,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10034] = {
+	}
+	pg.base.child_task[10034] = {
 		group = 0,
 		name = "스케줄의 \"초급 공부\"나 \"초급 체력\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -8147,8 +8801,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10035] = {
+	}
+	pg.base.child_task[10035] = {
 		group = 0,
 		name = "스케줄의 \"초급 수공예\"나 \"초급 음악\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -8179,8 +8833,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10036] = {
+	}
+	pg.base.child_task[10036] = {
 		group = 0,
 		name = "스케줄의 \"초급 미술\"나 \"초급 무용\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -8211,8 +8865,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10037] = {
+	}
+	pg.base.child_task[10037] = {
 		group = 0,
 		name = "스케줄의 \"초급 연기\"나 \"초급 서예\"를 해보고 싶어…",
 		task_target_progress = 0,
@@ -8243,8 +8897,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10038] = {
+	}
+	pg.base.child_task[10038] = {
 		group = 0,
 		name = "외출해서 \"리조트\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -8288,8 +8942,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10041] = {
+	}
+	pg.base.child_task[10041] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -8331,8 +8985,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10042] = {
+	}
+	pg.base.child_task[10042] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -8374,8 +9028,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10043] = {
+	}
+	pg.base.child_task[10043] = {
 		group = 0,
 		name = "외출해서 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -8407,8 +9061,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10044] = {
+	}
+	pg.base.child_task[10044] = {
 		group = 0,
 		name = "스케줄의 \"초급 공부\"나 \"초급 체력\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -8439,8 +9093,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10045] = {
+	}
+	pg.base.child_task[10045] = {
 		group = 0,
 		name = "스케줄의 \"초급 수공예\"나 \"초급 음악\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -8471,8 +9125,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10046] = {
+	}
+	pg.base.child_task[10046] = {
 		group = 0,
 		name = "스케줄의 \"초급 미술\"나 \"초급 무용\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -8503,8 +9157,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10047] = {
+	}
+	pg.base.child_task[10047] = {
 		group = 0,
 		name = "스케줄의 \"초급 연기\"나 \"초급 서예\"를 해보고 싶어…",
 		task_target_progress = 0,
@@ -8535,8 +9189,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10048] = {
+	}
+	pg.base.child_task[10048] = {
 		group = 0,
 		name = "외출해서 \"리조트\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -8580,8 +9234,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10051] = {
+	}
+	pg.base.child_task[10051] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -8623,8 +9277,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10052] = {
+	}
+	pg.base.child_task[10052] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -8666,8 +9320,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10053] = {
+	}
+	pg.base.child_task[10053] = {
 		group = 0,
 		name = "외출해서 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -8699,8 +9353,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10054] = {
+	}
+	pg.base.child_task[10054] = {
 		group = 0,
 		name = "스케줄의 \"초급 공부\"나 \"초급 체력\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -8731,8 +9385,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10055] = {
+	}
+	pg.base.child_task[10055] = {
 		group = 0,
 		name = "스케줄의 \"초급 수공예\"나 \"초급 음악\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -8763,8 +9417,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10056] = {
+	}
+	pg.base.child_task[10056] = {
 		group = 0,
 		name = "스케줄의 \"초급 미술\"나 \"초급 무용\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -8795,8 +9449,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10057] = {
+	}
+	pg.base.child_task[10057] = {
 		group = 0,
 		name = "스케줄의 \"초급 연기\"나 \"초급 서예\"를 해보고 싶어…",
 		task_target_progress = 0,
@@ -8827,8 +9481,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10058] = {
+	}
+	pg.base.child_task[10058] = {
 		group = 0,
 		name = "외출해서 \"리조트\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -8872,8 +9526,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10059] = {
+	}
+	pg.base.child_task[10059] = {
 		group = 0,
 		name = "외출해서 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -8929,8 +9583,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10061] = {
+	}
+	pg.base.child_task[10061] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -8972,8 +9626,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10062] = {
+	}
+	pg.base.child_task[10062] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -9015,8 +9669,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10063] = {
+	}
+	pg.base.child_task[10063] = {
 		group = 0,
 		name = "외출해서 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -9048,8 +9702,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10064] = {
+	}
+	pg.base.child_task[10064] = {
 		group = 0,
 		name = "스케줄의 \"초급 공부\"나 \"초급 체력\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -9080,8 +9734,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10065] = {
+	}
+	pg.base.child_task[10065] = {
 		group = 0,
 		name = "스케줄의 \"초급 수공예\"나 \"초급 음악\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -9112,8 +9766,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10066] = {
+	}
+	pg.base.child_task[10066] = {
 		group = 0,
 		name = "스케줄의 \"초급 미술\"나 \"초급 무용\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -9144,8 +9798,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10067] = {
+	}
+	pg.base.child_task[10067] = {
 		group = 0,
 		name = "스케줄의 \"초급 연기\"나 \"초급 서예\"를 해보고 싶어…",
 		task_target_progress = 0,
@@ -9176,8 +9830,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10068] = {
+	}
+	pg.base.child_task[10068] = {
 		group = 0,
 		name = "외출해서 \"리조트\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -9221,8 +9875,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10069] = {
+	}
+	pg.base.child_task[10069] = {
 		group = 0,
 		name = "외출해서 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -9278,8 +9932,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10071] = {
+	}
+	pg.base.child_task[10071] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -9321,8 +9975,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10072] = {
+	}
+	pg.base.child_task[10072] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -9364,8 +10018,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10073] = {
+	}
+	pg.base.child_task[10073] = {
 		group = 0,
 		name = "외출해서 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -9397,8 +10051,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10074] = {
+	}
+	pg.base.child_task[10074] = {
 		group = 0,
 		name = "스케줄의 \"초급 공부\"나 \"초급 체력\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -9429,8 +10083,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10075] = {
+	}
+	pg.base.child_task[10075] = {
 		group = 0,
 		name = "스케줄의 \"초급 수공예\"나 \"초급 음악\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -9461,8 +10115,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10076] = {
+	}
+	pg.base.child_task[10076] = {
 		group = 0,
 		name = "스케줄의 \"초급 미술\"나 \"초급 무용\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -9493,8 +10147,10 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10077] = {
+	}
+end)()
+(function ()
+	pg.base.child_task[10077] = {
 		group = 0,
 		name = "스케줄의 \"초급 연기\"나 \"초급 서예\"를 해보고 싶어…",
 		task_target_progress = 0,
@@ -9525,8 +10181,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10078] = {
+	}
+	pg.base.child_task[10078] = {
 		group = 0,
 		name = "외출해서 \"리조트\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -9570,8 +10226,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10079] = {
+	}
+	pg.base.child_task[10079] = {
 		group = 0,
 		name = "외출해서 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -9627,8 +10283,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10080] = {
+	}
+	pg.base.child_task[10080] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -9670,8 +10326,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10081] = {
+	}
+	pg.base.child_task[10081] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -9713,8 +10369,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10082] = {
+	}
+	pg.base.child_task[10082] = {
 		group = 0,
 		name = "외출해서 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -9746,8 +10402,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10083] = {
+	}
+	pg.base.child_task[10083] = {
 		group = 0,
 		name = "스케줄의 \"초급 공부\"나 \"초급 체력\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -9778,8 +10434,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10084] = {
+	}
+	pg.base.child_task[10084] = {
 		group = 0,
 		name = "스케줄의 \"초급 수공예\"나 \"초급 음악\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -9810,8 +10466,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10085] = {
+	}
+	pg.base.child_task[10085] = {
 		group = 0,
 		name = "스케줄의 \"초급 미술\"나 \"초급 무용\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -9842,8 +10498,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10086] = {
+	}
+	pg.base.child_task[10086] = {
 		group = 0,
 		name = "스케줄의 \"초급 연기\"나 \"초급 서예\"를 해보고 싶어…",
 		task_target_progress = 0,
@@ -9874,8 +10530,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10087] = {
+	}
+	pg.base.child_task[10087] = {
 		group = 0,
 		name = "외출해서 \"리조트\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -9919,8 +10575,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10088] = {
+	}
+	pg.base.child_task[10088] = {
 		group = 0,
 		name = "외출해서 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -9976,8 +10632,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10089] = {
+	}
+	pg.base.child_task[10089] = {
 		group = 0,
 		name = "외출해서 \"운동장\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -10019,8 +10675,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10090] = {
+	}
+	pg.base.child_task[10090] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -10062,8 +10718,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10091] = {
+	}
+	pg.base.child_task[10091] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -10105,8 +10761,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10092] = {
+	}
+	pg.base.child_task[10092] = {
 		group = 0,
 		name = "외출해서 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -10138,8 +10794,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10093] = {
+	}
+	pg.base.child_task[10093] = {
 		group = 0,
 		name = "스케줄의 \"초급 공부\"나 \"초급 체력\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -10170,8 +10826,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10094] = {
+	}
+	pg.base.child_task[10094] = {
 		group = 0,
 		name = "스케줄의 \"초급 수공예\"나 \"초급 음악\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -10202,8 +10858,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10095] = {
+	}
+	pg.base.child_task[10095] = {
 		group = 0,
 		name = "스케줄의 \"초급 미술\"나 \"초급 무용\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -10234,8 +10890,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10096] = {
+	}
+	pg.base.child_task[10096] = {
 		group = 0,
 		name = "스케줄의 \"초급 연기\"나 \"초급 서예\"를 해보고 싶어…",
 		task_target_progress = 0,
@@ -10266,8 +10922,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10097] = {
+	}
+	pg.base.child_task[10097] = {
 		group = 0,
 		name = "외출해서 \"리조트\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -10311,8 +10967,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10098] = {
+	}
+	pg.base.child_task[10098] = {
 		group = 0,
 		name = "외출해서 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -10368,8 +11024,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10099] = {
+	}
+	pg.base.child_task[10099] = {
 		group = 0,
 		name = "외출해서 \"운동장\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -10411,8 +11067,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10111] = {
+	}
+	pg.base.child_task[10111] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -10454,8 +11110,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10112] = {
+	}
+	pg.base.child_task[10112] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -10500,8 +11156,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10113] = {
+	}
+	pg.base.child_task[10113] = {
 		group = 0,
 		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -10572,8 +11228,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10114] = {
+	}
+	pg.base.child_task[10114] = {
 		group = 0,
 		name = "초급 수업을 수강하고 싶어…",
 		task_target_progress = 0,
@@ -10610,8 +11266,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10115] = {
+	}
+	pg.base.child_task[10115] = {
 		group = 0,
 		name = "스케줄의 \"초급 요리\"나 \"초급 원예\", \"초급 운동\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -10643,8 +11299,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10116] = {
+	}
+	pg.base.child_task[10116] = {
 		group = 0,
 		name = "예정의 \"초급 예술\"이나 \"초급 다도\", \"초급 연극\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -10676,8 +11332,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10117] = {
+	}
+	pg.base.child_task[10117] = {
 		group = 0,
 		name = "스케줄의 \"초급 연주\"나 \"초급 보습\", \"초급 뮤지컬\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -10709,8 +11365,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10118] = {
+	}
+	pg.base.child_task[10118] = {
 		group = 0,
 		name = "사회 공부Ⅰ을 해보고 싶어…",
 		task_target_progress = 0,
@@ -10749,8 +11405,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10119] = {
+	}
+	pg.base.child_task[10119] = {
 		group = 0,
 		name = "외출해서 \"운동장\"이나 \"상점가\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -10822,8 +11478,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10121] = {
+	}
+	pg.base.child_task[10121] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -10865,8 +11521,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10122] = {
+	}
+	pg.base.child_task[10122] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -10911,8 +11567,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10123] = {
+	}
+	pg.base.child_task[10123] = {
 		group = 0,
 		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -10983,8 +11639,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10124] = {
+	}
+	pg.base.child_task[10124] = {
 		group = 0,
 		name = "초급 수업을 수강하고 싶어…",
 		task_target_progress = 0,
@@ -11021,8 +11677,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10125] = {
+	}
+	pg.base.child_task[10125] = {
 		group = 0,
 		name = "스케줄의 \"초급 요리\"나 \"초급 원예\", \"초급 운동\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -11054,8 +11710,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10126] = {
+	}
+	pg.base.child_task[10126] = {
 		group = 0,
 		name = "스케줄의 \"초급 예술\"이나 \"초급 다도\", \"초급 연극\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -11087,8 +11743,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10127] = {
+	}
+	pg.base.child_task[10127] = {
 		group = 0,
 		name = "스케줄의 \"초급 연주\"나 \"초급 보습\", \"초급 뮤지컬\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -11120,8 +11776,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10128] = {
+	}
+	pg.base.child_task[10128] = {
 		group = 0,
 		name = "사회 공부Ⅰ을 해보고 싶어…",
 		task_target_progress = 0,
@@ -11160,8 +11816,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10129] = {
+	}
+	pg.base.child_task[10129] = {
 		group = 0,
 		name = "외출해서 \"운동장\"이나 \"상점가\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -11233,8 +11889,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10131] = {
+	}
+	pg.base.child_task[10131] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -11276,8 +11932,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10132] = {
+	}
+	pg.base.child_task[10132] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -11322,8 +11978,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10133] = {
+	}
+	pg.base.child_task[10133] = {
 		group = 0,
 		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -11394,8 +12050,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10134] = {
+	}
+	pg.base.child_task[10134] = {
 		group = 0,
 		name = "초급 수업을 수강하고 싶어…",
 		task_target_progress = 0,
@@ -11432,8 +12088,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10135] = {
+	}
+	pg.base.child_task[10135] = {
 		group = 0,
 		name = "스케줄의 \"초급 요리\"나 \"초급 원예\", \"초급 운동\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -11465,8 +12121,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10136] = {
+	}
+	pg.base.child_task[10136] = {
 		group = 0,
 		name = "스케줄의 \"초급 예술\"이나 \"초급 다도\", \"초급 연극\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -11498,8 +12154,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10137] = {
+	}
+	pg.base.child_task[10137] = {
 		group = 0,
 		name = "스케줄의 \"초급 연주\"나 \"초급 보습\", \"초급 뮤지컬\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -11531,8 +12187,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10138] = {
+	}
+	pg.base.child_task[10138] = {
 		group = 0,
 		name = "사회 공부Ⅰ을 해보고 싶어…",
 		task_target_progress = 0,
@@ -11571,8 +12227,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10139] = {
+	}
+	pg.base.child_task[10139] = {
 		group = 0,
 		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -11670,8 +12326,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10141] = {
+	}
+	pg.base.child_task[10141] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -11713,8 +12369,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10142] = {
+	}
+	pg.base.child_task[10142] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -11759,8 +12415,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10143] = {
+	}
+	pg.base.child_task[10143] = {
 		group = 0,
 		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -11831,8 +12487,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10144] = {
+	}
+	pg.base.child_task[10144] = {
 		group = 0,
 		name = "초급 수업을 수강하고 싶어…",
 		task_target_progress = 0,
@@ -11869,8 +12525,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10145] = {
+	}
+	pg.base.child_task[10145] = {
 		group = 0,
 		name = "스케줄의 \"초급 요리\"나 \"초급 원예\", \"초급 운동\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -11902,8 +12558,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10146] = {
+	}
+	pg.base.child_task[10146] = {
 		group = 0,
 		name = "스케줄의 \"초급 예술\"이나 \"초급 다도\", \"초급 연극\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -11935,8 +12591,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10147] = {
+	}
+	pg.base.child_task[10147] = {
 		group = 0,
 		name = "스케줄의 \"초급 연주\"나 \"초급 보습\", \"초급 뮤지컬\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -11968,8 +12624,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10148] = {
+	}
+	pg.base.child_task[10148] = {
 		group = 0,
 		name = "사회 공부Ⅰ을 해보고 싶어…",
 		task_target_progress = 0,
@@ -12008,8 +12664,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10149] = {
+	}
+	pg.base.child_task[10149] = {
 		group = 0,
 		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -12107,8 +12763,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10151] = {
+	}
+	pg.base.child_task[10151] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -12150,8 +12806,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10152] = {
+	}
+	pg.base.child_task[10152] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -12196,8 +12852,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10153] = {
+	}
+	pg.base.child_task[10153] = {
 		group = 0,
 		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -12268,8 +12924,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10154] = {
+	}
+	pg.base.child_task[10154] = {
 		group = 0,
 		name = "초급 수업을 수강하고 싶어…",
 		task_target_progress = 0,
@@ -12306,8 +12962,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10155] = {
+	}
+	pg.base.child_task[10155] = {
 		group = 0,
 		name = "스케줄의 \"초급 요리\"나 \"초급 원예\", \"초급 운동\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -12339,8 +12995,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10156] = {
+	}
+	pg.base.child_task[10156] = {
 		group = 0,
 		name = "스케줄의 \"초급 예술\"이나 \"초급 다도\", \"초급 연극\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -12372,8 +13028,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10157] = {
+	}
+	pg.base.child_task[10157] = {
 		group = 0,
 		name = "스케줄의 \"초급 연주\"나 \"초급 보습\", \"초급 뮤지컬\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -12405,8 +13061,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10158] = {
+	}
+	pg.base.child_task[10158] = {
 		group = 0,
 		name = "사회 공부Ⅰ을 해보고 싶어…",
 		task_target_progress = 0,
@@ -12445,8 +13101,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10159] = {
+	}
+	pg.base.child_task[10159] = {
 		group = 0,
 		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -12544,8 +13200,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10161] = {
+	}
+	pg.base.child_task[10161] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -12587,8 +13243,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10162] = {
+	}
+	pg.base.child_task[10162] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -12633,8 +13289,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10163] = {
+	}
+	pg.base.child_task[10163] = {
 		group = 0,
 		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -12705,8 +13361,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10164] = {
+	}
+	pg.base.child_task[10164] = {
 		group = 0,
 		name = "초급 수업을 수강하고 싶어…",
 		task_target_progress = 0,
@@ -12743,8 +13399,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10165] = {
+	}
+	pg.base.child_task[10165] = {
 		group = 0,
 		name = "스케줄의 \"초급 요리\"나 \"초급 원예\", \"초급 운동\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -12776,8 +13432,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10166] = {
+	}
+	pg.base.child_task[10166] = {
 		group = 0,
 		name = "스케줄의 \"초급 예술\"이나 \"초급 다도\", \"초급 연극\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -12809,8 +13465,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10167] = {
+	}
+	pg.base.child_task[10167] = {
 		group = 0,
 		name = "스케줄의 \"초급 연주\"나 \"초급 보습\", \"초급 뮤지컬\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -12842,8 +13498,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10168] = {
+	}
+	pg.base.child_task[10168] = {
 		group = 0,
 		name = "사회 공부Ⅰ을 해보고 싶어…",
 		task_target_progress = 0,
@@ -12882,8 +13538,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10169] = {
+	}
+	pg.base.child_task[10169] = {
 		group = 0,
 		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -12981,8 +13637,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10171] = {
+	}
+	pg.base.child_task[10171] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -13024,8 +13680,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10172] = {
+	}
+	pg.base.child_task[10172] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -13070,8 +13726,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10173] = {
+	}
+	pg.base.child_task[10173] = {
 		group = 0,
 		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -13142,8 +13798,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10174] = {
+	}
+	pg.base.child_task[10174] = {
 		group = 0,
 		name = "초급 수업을 수강하고 싶어…",
 		task_target_progress = 0,
@@ -13180,8 +13836,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10175] = {
+	}
+	pg.base.child_task[10175] = {
 		group = 0,
 		name = "스케줄의 \"초급 요리\"나 \"초급 원예\", \"초급 운동\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -13213,8 +13869,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10176] = {
+	}
+	pg.base.child_task[10176] = {
 		group = 0,
 		name = "스케줄의 \"초급 예술\"이나 \"초급 다도\", \"초급 연극\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -13246,8 +13902,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10177] = {
+	}
+	pg.base.child_task[10177] = {
 		group = 0,
 		name = "스케줄의 \"초급 연주\"나 \"초급 보습\", \"초급 뮤지컬\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -13279,8 +13935,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10178] = {
+	}
+	pg.base.child_task[10178] = {
 		group = 0,
 		name = "사회 공부Ⅰ을 해보고 싶어…",
 		task_target_progress = 0,
@@ -13319,8 +13975,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10179] = {
+	}
+	pg.base.child_task[10179] = {
 		group = 0,
 		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -13418,8 +14074,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10181] = {
+	}
+	pg.base.child_task[10181] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -13461,8 +14117,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10182] = {
+	}
+	pg.base.child_task[10182] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -13507,8 +14163,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10183] = {
+	}
+	pg.base.child_task[10183] = {
 		group = 0,
 		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -13579,8 +14235,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10184] = {
+	}
+	pg.base.child_task[10184] = {
 		group = 0,
 		name = "초급 수업을 수강하고 싶어…",
 		task_target_progress = 0,
@@ -13617,8 +14273,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10185] = {
+	}
+	pg.base.child_task[10185] = {
 		group = 0,
 		name = "스케줄의 \"초급 요리\"나 \"초급 원예\", \"초급 운동\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -13650,8 +14306,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10186] = {
+	}
+	pg.base.child_task[10186] = {
 		group = 0,
 		name = "스케줄의 \"초급 예술\"이나 \"초급 다도\", \"초급 연극\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -13683,8 +14339,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10187] = {
+	}
+	pg.base.child_task[10187] = {
 		group = 0,
 		name = "스케줄의 \"초급 연주\"나 \"초급 보습\", \"초급 뮤지컬\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -13716,8 +14372,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10188] = {
+	}
+	pg.base.child_task[10188] = {
 		group = 0,
 		name = "사회 공부Ⅰ을 해보고 싶어…",
 		task_target_progress = 0,
@@ -13756,8 +14412,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10189] = {
+	}
+	pg.base.child_task[10189] = {
 		group = 0,
 		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -13855,8 +14511,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10191] = {
+	}
+	pg.base.child_task[10191] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -13898,8 +14554,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10192] = {
+	}
+	pg.base.child_task[10192] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -13944,8 +14600,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10193] = {
+	}
+	pg.base.child_task[10193] = {
 		group = 0,
 		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -14016,8 +14672,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10194] = {
+	}
+	pg.base.child_task[10194] = {
 		group = 0,
 		name = "초급 수업을 수강하고 싶어…",
 		task_target_progress = 0,
@@ -14054,8 +14710,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10195] = {
+	}
+	pg.base.child_task[10195] = {
 		group = 0,
 		name = "스케줄의 \"초급 요리\"나 \"초급 원예\", \"초급 운동\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -14087,8 +14743,10 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10196] = {
+	}
+end)()
+(function ()
+	pg.base.child_task[10196] = {
 		group = 0,
 		name = "스케줄의 \"초급 예술\"이나 \"초급 다도\", \"초급 연극\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -14120,8 +14778,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10197] = {
+	}
+	pg.base.child_task[10197] = {
 		group = 0,
 		name = "스케줄의 \"초급 연주\"나 \"초급 보습\", \"초급 뮤지컬\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -14153,8 +14811,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10198] = {
+	}
+	pg.base.child_task[10198] = {
 		group = 0,
 		name = "사회 공부Ⅰ을 해보고 싶어…",
 		task_target_progress = 0,
@@ -14193,8 +14851,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10199] = {
+	}
+	pg.base.child_task[10199] = {
 		group = 0,
 		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -14292,8 +14950,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10221] = {
+	}
+	pg.base.child_task[10221] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -14335,8 +14993,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10222] = {
+	}
+	pg.base.child_task[10222] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -14381,8 +15039,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10223] = {
+	}
+	pg.base.child_task[10223] = {
 		group = 0,
 		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -14453,8 +15111,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10224] = {
+	}
+	pg.base.child_task[10224] = {
 		group = 0,
 		name = "초급 수업을 수강하고 싶어…",
 		task_target_progress = 0,
@@ -14491,8 +15149,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10225] = {
+	}
+	pg.base.child_task[10225] = {
 		group = 0,
 		name = "스케줄의 \"초급 요리\"나 \"초급 원예\", \"초급 운동\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -14524,8 +15182,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10226] = {
+	}
+	pg.base.child_task[10226] = {
 		group = 0,
 		name = "스케줄의 \"초급 예술\"이나 \"초급 다도\", \"초급 연극\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -14557,8 +15215,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10227] = {
+	}
+	pg.base.child_task[10227] = {
 		group = 0,
 		name = "스케줄의 \"초급 연주\"나 \"초급 보습\", \"초급 뮤지컬\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -14590,8 +15248,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10228] = {
+	}
+	pg.base.child_task[10228] = {
 		group = 0,
 		name = "사회 공부Ⅰ을 해보고 싶어…",
 		task_target_progress = 0,
@@ -14630,8 +15288,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10229] = {
+	}
+	pg.base.child_task[10229] = {
 		group = 0,
 		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -14729,8 +15387,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10231] = {
+	}
+	pg.base.child_task[10231] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -14772,8 +15430,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10232] = {
+	}
+	pg.base.child_task[10232] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -14818,8 +15476,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10233] = {
+	}
+	pg.base.child_task[10233] = {
 		group = 0,
 		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -14890,8 +15548,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10234] = {
+	}
+	pg.base.child_task[10234] = {
 		group = 0,
 		name = "초급 수업을 수강하고 싶어…",
 		task_target_progress = 0,
@@ -14928,8 +15586,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10235] = {
+	}
+	pg.base.child_task[10235] = {
 		group = 0,
 		name = "스케줄의 \"초급 요리\"나 \"초급 원예\", \"초급 운동\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -14961,8 +15619,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10236] = {
+	}
+	pg.base.child_task[10236] = {
 		group = 0,
 		name = "스케줄의 \"초급 예술\"이나 \"초급 다도\", \"초급 연극\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -14994,8 +15652,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10237] = {
+	}
+	pg.base.child_task[10237] = {
 		group = 0,
 		name = "스케줄의 \"초급 연주\"나 \"초급 보습\", \"초급 뮤지컬\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -15027,8 +15685,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10238] = {
+	}
+	pg.base.child_task[10238] = {
 		group = 0,
 		name = "사회 공부Ⅰ을 해보고 싶어…",
 		task_target_progress = 0,
@@ -15067,8 +15725,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10239] = {
+	}
+	pg.base.child_task[10239] = {
 		group = 0,
 		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -15166,8 +15824,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10241] = {
+	}
+	pg.base.child_task[10241] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -15209,8 +15867,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10242] = {
+	}
+	pg.base.child_task[10242] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -15255,8 +15913,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10243] = {
+	}
+	pg.base.child_task[10243] = {
 		group = 0,
 		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -15327,8 +15985,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10244] = {
+	}
+	pg.base.child_task[10244] = {
 		group = 0,
 		name = "초급 수업을 수강하고 싶어…",
 		task_target_progress = 0,
@@ -15365,8 +16023,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10245] = {
+	}
+	pg.base.child_task[10245] = {
 		group = 0,
 		name = "스케줄의 \"초급 요리\"나 \"초급 원예\", \"초급 운동\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -15398,8 +16056,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10246] = {
+	}
+	pg.base.child_task[10246] = {
 		group = 0,
 		name = "스케줄의 \"초급 예술\"이나 \"초급 다도\", \"초급 연극\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -15431,8 +16089,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10247] = {
+	}
+	pg.base.child_task[10247] = {
 		group = 0,
 		name = "스케줄의 \"초급 연주\"나 \"초급 보습\", \"초급 뮤지컬\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -15464,8 +16122,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10248] = {
+	}
+	pg.base.child_task[10248] = {
 		group = 0,
 		name = "사회 공부Ⅰ을 해보고 싶어…",
 		task_target_progress = 0,
@@ -15504,8 +16162,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10249] = {
+	}
+	pg.base.child_task[10249] = {
 		group = 0,
 		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -15603,8 +16261,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10251] = {
+	}
+	pg.base.child_task[10251] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -15646,8 +16304,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10252] = {
+	}
+	pg.base.child_task[10252] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -15692,8 +16350,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10253] = {
+	}
+	pg.base.child_task[10253] = {
 		group = 0,
 		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -15764,8 +16422,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10254] = {
+	}
+	pg.base.child_task[10254] = {
 		group = 0,
 		name = "초급 수업을 수강하고 싶어…",
 		task_target_progress = 0,
@@ -15802,8 +16460,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10255] = {
+	}
+	pg.base.child_task[10255] = {
 		group = 0,
 		name = "스케줄의 \"초급 요리\"나 \"초급 원예\", \"초급 운동\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -15835,8 +16493,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10256] = {
+	}
+	pg.base.child_task[10256] = {
 		group = 0,
 		name = "스케줄의 \"초급 예술\"이나 \"초급 다도\", \"초급 연극\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -15868,8 +16526,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10257] = {
+	}
+	pg.base.child_task[10257] = {
 		group = 0,
 		name = "스케줄의 \"초급 연주\"나 \"초급 보습\", \"초급 뮤지컬\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -15901,8 +16559,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10258] = {
+	}
+	pg.base.child_task[10258] = {
 		group = 0,
 		name = "사회 공부Ⅰ을 해보고 싶어…",
 		task_target_progress = 0,
@@ -15941,8 +16599,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10259] = {
+	}
+	pg.base.child_task[10259] = {
 		group = 0,
 		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -16040,8 +16698,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10261] = {
+	}
+	pg.base.child_task[10261] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -16083,8 +16741,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10262] = {
+	}
+	pg.base.child_task[10262] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -16129,8 +16787,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10263] = {
+	}
+	pg.base.child_task[10263] = {
 		group = 0,
 		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -16201,8 +16859,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10264] = {
+	}
+	pg.base.child_task[10264] = {
 		group = 0,
 		name = "초급 수업을 수강하고 싶어…",
 		task_target_progress = 0,
@@ -16239,8 +16897,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10265] = {
+	}
+	pg.base.child_task[10265] = {
 		group = 0,
 		name = "스케줄의 \"초급 요리\"나 \"초급 원예\", \"초급 운동\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -16272,8 +16930,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10266] = {
+	}
+	pg.base.child_task[10266] = {
 		group = 0,
 		name = "스케줄의 \"초급 예술\"이나 \"초급 다도\", \"초급 연극\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -16305,8 +16963,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10267] = {
+	}
+	pg.base.child_task[10267] = {
 		group = 0,
 		name = "스케줄의 \"초급 연주\"나 \"초급 보습\", \"초급 뮤지컬\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -16338,8 +16996,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10268] = {
+	}
+	pg.base.child_task[10268] = {
 		group = 0,
 		name = "사회 공부Ⅰ을 해보고 싶어…",
 		task_target_progress = 0,
@@ -16378,8 +17036,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10269] = {
+	}
+	pg.base.child_task[10269] = {
 		group = 0,
 		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -16477,8 +17135,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10271] = {
+	}
+	pg.base.child_task[10271] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -16520,8 +17178,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10272] = {
+	}
+	pg.base.child_task[10272] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -16566,8 +17224,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10273] = {
+	}
+	pg.base.child_task[10273] = {
 		group = 0,
 		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -16638,8 +17296,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10274] = {
+	}
+	pg.base.child_task[10274] = {
 		group = 0,
 		name = "초급 수업을 수강하고 싶어…",
 		task_target_progress = 0,
@@ -16676,8 +17334,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10275] = {
+	}
+	pg.base.child_task[10275] = {
 		group = 0,
 		name = "스케줄의 \"초급 요리\"나 \"초급 원예\", \"초급 운동\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -16709,8 +17367,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10276] = {
+	}
+	pg.base.child_task[10276] = {
 		group = 0,
 		name = "스케줄의 \"초급 예술\"이나 \"초급 다도\", \"초급 연극\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -16742,8 +17400,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10277] = {
+	}
+	pg.base.child_task[10277] = {
 		group = 0,
 		name = "스케줄의 \"초급 연주\"나 \"초급 보습\", \"초급 뮤지컬\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -16775,8 +17433,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10278] = {
+	}
+	pg.base.child_task[10278] = {
 		group = 0,
 		name = "사회 공부Ⅰ을 해보고 싶어…",
 		task_target_progress = 0,
@@ -16815,8 +17473,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10279] = {
+	}
+	pg.base.child_task[10279] = {
 		group = 0,
 		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -16914,8 +17572,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10281] = {
+	}
+	pg.base.child_task[10281] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -16957,8 +17615,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10282] = {
+	}
+	pg.base.child_task[10282] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -17003,8 +17661,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10283] = {
+	}
+	pg.base.child_task[10283] = {
 		group = 0,
 		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -17075,8 +17733,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10284] = {
+	}
+	pg.base.child_task[10284] = {
 		group = 0,
 		name = "초급 수업을 수강하고 싶어…",
 		task_target_progress = 0,
@@ -17113,8 +17771,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10285] = {
+	}
+	pg.base.child_task[10285] = {
 		group = 0,
 		name = "스케줄의 \"초급 요리\"나 \"초급 원예\", \"초급 운동\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -17146,8 +17804,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10286] = {
+	}
+	pg.base.child_task[10286] = {
 		group = 0,
 		name = "스케줄의 \"초급 예술\"이나 \"초급 다도\", \"초급 연극\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -17179,8 +17837,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10287] = {
+	}
+	pg.base.child_task[10287] = {
 		group = 0,
 		name = "스케줄의 \"초급 연주\"나 \"초급 보습\", \"초급 뮤지컬\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -17212,8 +17870,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10288] = {
+	}
+	pg.base.child_task[10288] = {
 		group = 0,
 		name = "사회 공부Ⅰ을 해보고 싶어…",
 		task_target_progress = 0,
@@ -17252,8 +17910,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10289] = {
+	}
+	pg.base.child_task[10289] = {
 		group = 0,
 		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -17351,8 +18009,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10291] = {
+	}
+	pg.base.child_task[10291] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -17394,8 +18052,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10292] = {
+	}
+	pg.base.child_task[10292] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -17440,8 +18098,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10293] = {
+	}
+	pg.base.child_task[10293] = {
 		group = 0,
 		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -17512,8 +18170,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10294] = {
+	}
+	pg.base.child_task[10294] = {
 		group = 0,
 		name = "중급 수업을 수강하고 싶어…",
 		task_target_progress = 0,
@@ -17550,8 +18208,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10295] = {
+	}
+	pg.base.child_task[10295] = {
 		group = 0,
 		name = "스케줄의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -17583,8 +18241,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10296] = {
+	}
+	pg.base.child_task[10296] = {
 		group = 0,
 		name = "예정의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -17616,8 +18274,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10297] = {
+	}
+	pg.base.child_task[10297] = {
 		group = 0,
 		name = "스케줄의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -17649,8 +18307,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10298] = {
+	}
+	pg.base.child_task[10298] = {
 		group = 0,
 		name = "사회 공부Ⅱ를 해보고 싶어…",
 		task_target_progress = 0,
@@ -17689,8 +18347,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10299] = {
+	}
+	pg.base.child_task[10299] = {
 		group = 0,
 		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -17788,8 +18446,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10301] = {
+	}
+	pg.base.child_task[10301] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -17831,8 +18489,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10302] = {
+	}
+	pg.base.child_task[10302] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -17877,8 +18535,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10303] = {
+	}
+	pg.base.child_task[10303] = {
 		group = 0,
 		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -17949,8 +18607,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10304] = {
+	}
+	pg.base.child_task[10304] = {
 		group = 0,
 		name = "중급 수업을 수강하고 싶어…",
 		task_target_progress = 0,
@@ -17987,8 +18645,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10305] = {
+	}
+	pg.base.child_task[10305] = {
 		group = 0,
 		name = "스케줄의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -18020,8 +18678,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10306] = {
+	}
+	pg.base.child_task[10306] = {
 		group = 0,
 		name = "스케줄의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -18053,8 +18711,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10307] = {
+	}
+	pg.base.child_task[10307] = {
 		group = 0,
 		name = "스케줄의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -18086,8 +18744,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10308] = {
+	}
+	pg.base.child_task[10308] = {
 		group = 0,
 		name = "사회 공부Ⅱ를 해보고 싶어…",
 		task_target_progress = 0,
@@ -18126,8 +18784,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10309] = {
+	}
+	pg.base.child_task[10309] = {
 		group = 0,
 		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -18225,8 +18883,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10311] = {
+	}
+	pg.base.child_task[10311] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -18268,8 +18926,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10312] = {
+	}
+	pg.base.child_task[10312] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -18314,8 +18972,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10313] = {
+	}
+	pg.base.child_task[10313] = {
 		group = 0,
 		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -18386,8 +19044,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10314] = {
+	}
+	pg.base.child_task[10314] = {
 		group = 0,
 		name = "중급 수업을 수강하고 싶어…",
 		task_target_progress = 0,
@@ -18424,8 +19082,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10315] = {
+	}
+	pg.base.child_task[10315] = {
 		group = 0,
 		name = "스케줄의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -18457,8 +19115,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10316] = {
+	}
+	pg.base.child_task[10316] = {
 		group = 0,
 		name = "스케줄의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -18490,8 +19148,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10317] = {
+	}
+	pg.base.child_task[10317] = {
 		group = 0,
 		name = "스케줄의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -18523,8 +19181,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10318] = {
+	}
+	pg.base.child_task[10318] = {
 		group = 0,
 		name = "사회 공부Ⅱ를 해보고 싶어…",
 		task_target_progress = 0,
@@ -18563,8 +19221,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10319] = {
+	}
+	pg.base.child_task[10319] = {
 		group = 0,
 		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -18662,8 +19320,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10321] = {
+	}
+	pg.base.child_task[10321] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -18705,8 +19363,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10322] = {
+	}
+	pg.base.child_task[10322] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -18751,8 +19409,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10323] = {
+	}
+	pg.base.child_task[10323] = {
 		group = 0,
 		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -18823,8 +19481,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10324] = {
+	}
+	pg.base.child_task[10324] = {
 		group = 0,
 		name = "중급 수업을 수강하고 싶어…",
 		task_target_progress = 0,
@@ -18861,8 +19519,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10325] = {
+	}
+	pg.base.child_task[10325] = {
 		group = 0,
 		name = "스케줄의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -18894,8 +19552,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10326] = {
+	}
+	pg.base.child_task[10326] = {
 		group = 0,
 		name = "스케줄의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -18927,8 +19585,10 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10327] = {
+	}
+end)()
+(function ()
+	pg.base.child_task[10327] = {
 		group = 0,
 		name = "스케줄의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -18960,8 +19620,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10328] = {
+	}
+	pg.base.child_task[10328] = {
 		group = 0,
 		name = "사회 공부Ⅱ를 해보고 싶어…",
 		task_target_progress = 0,
@@ -19000,8 +19660,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10329] = {
+	}
+	pg.base.child_task[10329] = {
 		group = 0,
 		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -19099,8 +19759,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10331] = {
+	}
+	pg.base.child_task[10331] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -19142,8 +19802,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10332] = {
+	}
+	pg.base.child_task[10332] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -19188,8 +19848,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10333] = {
+	}
+	pg.base.child_task[10333] = {
 		group = 0,
 		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -19260,8 +19920,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10334] = {
+	}
+	pg.base.child_task[10334] = {
 		group = 0,
 		name = "중급 수업을 수강하고 싶어…",
 		task_target_progress = 0,
@@ -19298,8 +19958,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10335] = {
+	}
+	pg.base.child_task[10335] = {
 		group = 0,
 		name = "스케줄의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -19331,8 +19991,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10336] = {
+	}
+	pg.base.child_task[10336] = {
 		group = 0,
 		name = "스케줄의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -19364,8 +20024,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10337] = {
+	}
+	pg.base.child_task[10337] = {
 		group = 0,
 		name = "스케줄의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -19397,8 +20057,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10338] = {
+	}
+	pg.base.child_task[10338] = {
 		group = 0,
 		name = "사회 공부Ⅱ를 해보고 싶어…",
 		task_target_progress = 0,
@@ -19437,8 +20097,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10339] = {
+	}
+	pg.base.child_task[10339] = {
 		group = 0,
 		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -19536,8 +20196,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10341] = {
+	}
+	pg.base.child_task[10341] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -19579,8 +20239,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10342] = {
+	}
+	pg.base.child_task[10342] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -19625,8 +20285,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10343] = {
+	}
+	pg.base.child_task[10343] = {
 		group = 0,
 		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -19697,8 +20357,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10344] = {
+	}
+	pg.base.child_task[10344] = {
 		group = 0,
 		name = "중급 수업을 수강하고 싶어…",
 		task_target_progress = 0,
@@ -19735,8 +20395,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10345] = {
+	}
+	pg.base.child_task[10345] = {
 		group = 0,
 		name = "스케줄의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -19768,8 +20428,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10346] = {
+	}
+	pg.base.child_task[10346] = {
 		group = 0,
 		name = "스케줄의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -19801,8 +20461,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10347] = {
+	}
+	pg.base.child_task[10347] = {
 		group = 0,
 		name = "스케줄의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -19834,8 +20494,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10348] = {
+	}
+	pg.base.child_task[10348] = {
 		group = 0,
 		name = "사회 공부Ⅱ를 해보고 싶어…",
 		task_target_progress = 0,
@@ -19874,8 +20534,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10349] = {
+	}
+	pg.base.child_task[10349] = {
 		group = 0,
 		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -19973,8 +20633,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10351] = {
+	}
+	pg.base.child_task[10351] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -20016,8 +20676,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10352] = {
+	}
+	pg.base.child_task[10352] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -20062,8 +20722,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10353] = {
+	}
+	pg.base.child_task[10353] = {
 		group = 0,
 		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -20134,8 +20794,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10354] = {
+	}
+	pg.base.child_task[10354] = {
 		group = 0,
 		name = "중급 수업을 수강하고 싶어…",
 		task_target_progress = 0,
@@ -20172,8 +20832,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10355] = {
+	}
+	pg.base.child_task[10355] = {
 		group = 0,
 		name = "스케줄의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -20205,8 +20865,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10356] = {
+	}
+	pg.base.child_task[10356] = {
 		group = 0,
 		name = "스케줄의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -20238,8 +20898,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10357] = {
+	}
+	pg.base.child_task[10357] = {
 		group = 0,
 		name = "스케줄의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -20271,8 +20931,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10358] = {
+	}
+	pg.base.child_task[10358] = {
 		group = 0,
 		name = "사회 공부Ⅱ를 해보고 싶어…",
 		task_target_progress = 0,
@@ -20311,8 +20971,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10359] = {
+	}
+	pg.base.child_task[10359] = {
 		group = 0,
 		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -20410,8 +21070,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10361] = {
+	}
+	pg.base.child_task[10361] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -20453,8 +21113,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10362] = {
+	}
+	pg.base.child_task[10362] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -20499,8 +21159,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10363] = {
+	}
+	pg.base.child_task[10363] = {
 		group = 0,
 		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -20571,8 +21231,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10364] = {
+	}
+	pg.base.child_task[10364] = {
 		group = 0,
 		name = "중급 수업을 수강하고 싶어…",
 		task_target_progress = 0,
@@ -20609,8 +21269,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10365] = {
+	}
+	pg.base.child_task[10365] = {
 		group = 0,
 		name = "스케줄의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -20642,8 +21302,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10366] = {
+	}
+	pg.base.child_task[10366] = {
 		group = 0,
 		name = "스케줄의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -20675,8 +21335,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10367] = {
+	}
+	pg.base.child_task[10367] = {
 		group = 0,
 		name = "스케줄의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -20708,8 +21368,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10368] = {
+	}
+	pg.base.child_task[10368] = {
 		group = 0,
 		name = "사회 공부Ⅱ를 해보고 싶어…",
 		task_target_progress = 0,
@@ -20748,8 +21408,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10369] = {
+	}
+	pg.base.child_task[10369] = {
 		group = 0,
 		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -20847,8 +21507,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10371] = {
+	}
+	pg.base.child_task[10371] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -20890,8 +21550,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10372] = {
+	}
+	pg.base.child_task[10372] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -20936,8 +21596,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10373] = {
+	}
+	pg.base.child_task[10373] = {
 		group = 0,
 		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -21008,8 +21668,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10374] = {
+	}
+	pg.base.child_task[10374] = {
 		group = 0,
 		name = "중급 수업을 수강하고 싶어…",
 		task_target_progress = 0,
@@ -21046,8 +21706,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10375] = {
+	}
+	pg.base.child_task[10375] = {
 		group = 0,
 		name = "스케줄의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -21079,8 +21739,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10376] = {
+	}
+	pg.base.child_task[10376] = {
 		group = 0,
 		name = "스케줄의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -21112,8 +21772,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10377] = {
+	}
+	pg.base.child_task[10377] = {
 		group = 0,
 		name = "스케줄의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -21145,8 +21805,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10378] = {
+	}
+	pg.base.child_task[10378] = {
 		group = 0,
 		name = "사회 공부Ⅱ를 해보고 싶어…",
 		task_target_progress = 0,
@@ -21185,8 +21845,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10379] = {
+	}
+	pg.base.child_task[10379] = {
 		group = 0,
 		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -21284,8 +21944,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10381] = {
+	}
+	pg.base.child_task[10381] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -21327,8 +21987,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10382] = {
+	}
+	pg.base.child_task[10382] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -21373,8 +22033,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10383] = {
+	}
+	pg.base.child_task[10383] = {
 		group = 0,
 		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -21445,8 +22105,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10384] = {
+	}
+	pg.base.child_task[10384] = {
 		group = 0,
 		name = "중급 수업을 수강하고 싶어…",
 		task_target_progress = 0,
@@ -21483,8 +22143,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10385] = {
+	}
+	pg.base.child_task[10385] = {
 		group = 0,
 		name = "스케줄의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -21516,8 +22176,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10386] = {
+	}
+	pg.base.child_task[10386] = {
 		group = 0,
 		name = "스케줄의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -21549,8 +22209,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10387] = {
+	}
+	pg.base.child_task[10387] = {
 		group = 0,
 		name = "스케줄의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -21582,8 +22242,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10388] = {
+	}
+	pg.base.child_task[10388] = {
 		group = 0,
 		name = "사회 공부Ⅱ를 해보고 싶어…",
 		task_target_progress = 0,
@@ -21622,8 +22282,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10389] = {
+	}
+	pg.base.child_task[10389] = {
 		group = 0,
 		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -21721,8 +22381,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10391] = {
+	}
+	pg.base.child_task[10391] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -21764,8 +22424,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10392] = {
+	}
+	pg.base.child_task[10392] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -21810,8 +22470,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10393] = {
+	}
+	pg.base.child_task[10393] = {
 		group = 0,
 		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -21882,8 +22542,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10394] = {
+	}
+	pg.base.child_task[10394] = {
 		group = 0,
 		name = "중급 수업을 수강하고 싶어…",
 		task_target_progress = 0,
@@ -21920,8 +22580,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10395] = {
+	}
+	pg.base.child_task[10395] = {
 		group = 0,
 		name = "스케줄의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -21953,8 +22613,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10396] = {
+	}
+	pg.base.child_task[10396] = {
 		group = 0,
 		name = "스케줄의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -21986,8 +22646,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10397] = {
+	}
+	pg.base.child_task[10397] = {
 		group = 0,
 		name = "스케줄의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -22019,8 +22679,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10398] = {
+	}
+	pg.base.child_task[10398] = {
 		group = 0,
 		name = "사회 공부Ⅱ를 해보고 싶어…",
 		task_target_progress = 0,
@@ -22059,8 +22719,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10399] = {
+	}
+	pg.base.child_task[10399] = {
 		group = 0,
 		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -22158,8 +22818,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10401] = {
+	}
+	pg.base.child_task[10401] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -22201,8 +22861,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10402] = {
+	}
+	pg.base.child_task[10402] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -22247,8 +22907,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10403] = {
+	}
+	pg.base.child_task[10403] = {
 		group = 0,
 		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -22319,8 +22979,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10404] = {
+	}
+	pg.base.child_task[10404] = {
 		group = 0,
 		name = "중급 수업을 수강하고 싶어…",
 		task_target_progress = 0,
@@ -22357,8 +23017,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10405] = {
+	}
+	pg.base.child_task[10405] = {
 		group = 0,
 		name = "스케줄의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -22390,8 +23050,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10406] = {
+	}
+	pg.base.child_task[10406] = {
 		group = 0,
 		name = "스케줄의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -22423,8 +23083,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10407] = {
+	}
+	pg.base.child_task[10407] = {
 		group = 0,
 		name = "스케줄의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -22456,8 +23116,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10408] = {
+	}
+	pg.base.child_task[10408] = {
 		group = 0,
 		name = "사회 공부Ⅱ를 해보고 싶어…",
 		task_target_progress = 0,
@@ -22496,8 +23156,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10409] = {
+	}
+	pg.base.child_task[10409] = {
 		group = 0,
 		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -22595,8 +23255,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10411] = {
+	}
+	pg.base.child_task[10411] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -22638,8 +23298,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10412] = {
+	}
+	pg.base.child_task[10412] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -22684,8 +23344,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10413] = {
+	}
+	pg.base.child_task[10413] = {
 		group = 0,
 		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -22756,8 +23416,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10414] = {
+	}
+	pg.base.child_task[10414] = {
 		group = 0,
 		name = "중급 수업을 수강하고 싶어…",
 		task_target_progress = 0,
@@ -22794,8 +23454,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10415] = {
+	}
+	pg.base.child_task[10415] = {
 		group = 0,
 		name = "스케줄의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -22827,8 +23487,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10416] = {
+	}
+	pg.base.child_task[10416] = {
 		group = 0,
 		name = "스케줄의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -22860,8 +23520,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10417] = {
+	}
+	pg.base.child_task[10417] = {
 		group = 0,
 		name = "스케줄의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -22893,8 +23553,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10418] = {
+	}
+	pg.base.child_task[10418] = {
 		group = 0,
 		name = "사회 공부Ⅱ를 해보고 싶어…",
 		task_target_progress = 0,
@@ -22933,8 +23593,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10419] = {
+	}
+	pg.base.child_task[10419] = {
 		group = 0,
 		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -23032,8 +23692,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10421] = {
+	}
+	pg.base.child_task[10421] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -23075,8 +23735,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10422] = {
+	}
+	pg.base.child_task[10422] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -23121,8 +23781,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10423] = {
+	}
+	pg.base.child_task[10423] = {
 		group = 0,
 		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -23193,8 +23853,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10424] = {
+	}
+	pg.base.child_task[10424] = {
 		group = 0,
 		name = "중급 수업을 수강하고 싶어…",
 		task_target_progress = 0,
@@ -23231,8 +23891,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10425] = {
+	}
+	pg.base.child_task[10425] = {
 		group = 0,
 		name = "스케줄의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -23264,8 +23924,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10426] = {
+	}
+	pg.base.child_task[10426] = {
 		group = 0,
 		name = "스케줄의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -23297,8 +23957,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10427] = {
+	}
+	pg.base.child_task[10427] = {
 		group = 0,
 		name = "스케줄의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -23330,8 +23990,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10428] = {
+	}
+	pg.base.child_task[10428] = {
 		group = 0,
 		name = "사회 공부Ⅱ를 해보고 싶어…",
 		task_target_progress = 0,
@@ -23370,8 +24030,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10429] = {
+	}
+	pg.base.child_task[10429] = {
 		group = 0,
 		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -23469,8 +24129,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10431] = {
+	}
+	pg.base.child_task[10431] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -23512,8 +24172,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10432] = {
+	}
+	pg.base.child_task[10432] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -23558,8 +24218,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10433] = {
+	}
+	pg.base.child_task[10433] = {
 		group = 0,
 		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -23630,8 +24290,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10434] = {
+	}
+	pg.base.child_task[10434] = {
 		group = 0,
 		name = "중급 수업을 수강하고 싶어…",
 		task_target_progress = 0,
@@ -23668,8 +24328,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10435] = {
+	}
+	pg.base.child_task[10435] = {
 		group = 0,
 		name = "스케줄의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -23701,8 +24361,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10436] = {
+	}
+	pg.base.child_task[10436] = {
 		group = 0,
 		name = "스케줄의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -23734,8 +24394,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10437] = {
+	}
+	pg.base.child_task[10437] = {
 		group = 0,
 		name = "스케줄의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -23767,8 +24427,10 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10438] = {
+	}
+end)()
+(function ()
+	pg.base.child_task[10438] = {
 		group = 0,
 		name = "사회 공부Ⅱ를 해보고 싶어…",
 		task_target_progress = 0,
@@ -23807,8 +24469,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10439] = {
+	}
+	pg.base.child_task[10439] = {
 		group = 0,
 		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -23906,8 +24568,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10441] = {
+	}
+	pg.base.child_task[10441] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -23949,8 +24611,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10442] = {
+	}
+	pg.base.child_task[10442] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -23995,8 +24657,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10443] = {
+	}
+	pg.base.child_task[10443] = {
 		group = 0,
 		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -24067,8 +24729,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10444] = {
+	}
+	pg.base.child_task[10444] = {
 		group = 0,
 		name = "중급 수업을 수강하고 싶어…",
 		task_target_progress = 0,
@@ -24105,8 +24767,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10445] = {
+	}
+	pg.base.child_task[10445] = {
 		group = 0,
 		name = "스케줄의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -24138,8 +24800,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10446] = {
+	}
+	pg.base.child_task[10446] = {
 		group = 0,
 		name = "스케줄의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -24171,8 +24833,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10447] = {
+	}
+	pg.base.child_task[10447] = {
 		group = 0,
 		name = "스케줄의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -24204,8 +24866,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10448] = {
+	}
+	pg.base.child_task[10448] = {
 		group = 0,
 		name = "사회 공부Ⅱ를 해보고 싶어…",
 		task_target_progress = 0,
@@ -24244,8 +24906,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10449] = {
+	}
+	pg.base.child_task[10449] = {
 		group = 0,
 		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -24343,8 +25005,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10451] = {
+	}
+	pg.base.child_task[10451] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -24386,8 +25048,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10452] = {
+	}
+	pg.base.child_task[10452] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -24432,8 +25094,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10453] = {
+	}
+	pg.base.child_task[10453] = {
 		group = 0,
 		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -24504,8 +25166,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10454] = {
+	}
+	pg.base.child_task[10454] = {
 		group = 0,
 		name = "중급 수업을 수강하고 싶어…",
 		task_target_progress = 0,
@@ -24542,8 +25204,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10455] = {
+	}
+	pg.base.child_task[10455] = {
 		group = 0,
 		name = "스케줄의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -24575,8 +25237,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10456] = {
+	}
+	pg.base.child_task[10456] = {
 		group = 0,
 		name = "스케줄의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -24608,8 +25270,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10457] = {
+	}
+	pg.base.child_task[10457] = {
 		group = 0,
 		name = "스케줄의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -24641,8 +25303,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10458] = {
+	}
+	pg.base.child_task[10458] = {
 		group = 0,
 		name = "사회 공부Ⅱ를 해보고 싶어…",
 		task_target_progress = 0,
@@ -24681,8 +25343,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10459] = {
+	}
+	pg.base.child_task[10459] = {
 		group = 0,
 		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -24780,8 +25442,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10461] = {
+	}
+	pg.base.child_task[10461] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -24823,8 +25485,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10462] = {
+	}
+	pg.base.child_task[10462] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -24869,8 +25531,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10463] = {
+	}
+	pg.base.child_task[10463] = {
 		group = 0,
 		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -24941,8 +25603,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10464] = {
+	}
+	pg.base.child_task[10464] = {
 		group = 0,
 		name = "중급 수업을 수강하고 싶어…",
 		task_target_progress = 0,
@@ -24979,8 +25641,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10465] = {
+	}
+	pg.base.child_task[10465] = {
 		group = 0,
 		name = "스케줄의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -25012,8 +25674,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10466] = {
+	}
+	pg.base.child_task[10466] = {
 		group = 0,
 		name = "스케줄의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -25045,8 +25707,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10467] = {
+	}
+	pg.base.child_task[10467] = {
 		group = 0,
 		name = "스케줄의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -25078,8 +25740,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10468] = {
+	}
+	pg.base.child_task[10468] = {
 		group = 0,
 		name = "사회 공부Ⅱ를 해보고 싶어…",
 		task_target_progress = 0,
@@ -25118,8 +25780,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10469] = {
+	}
+	pg.base.child_task[10469] = {
 		group = 0,
 		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -25217,8 +25879,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10471] = {
+	}
+	pg.base.child_task[10471] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -25260,8 +25922,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10472] = {
+	}
+	pg.base.child_task[10472] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -25306,8 +25968,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10473] = {
+	}
+	pg.base.child_task[10473] = {
 		group = 0,
 		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -25378,8 +26040,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10474] = {
+	}
+	pg.base.child_task[10474] = {
 		group = 0,
 		name = "중급 수업을 수강하고 싶어…",
 		task_target_progress = 0,
@@ -25416,8 +26078,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10475] = {
+	}
+	pg.base.child_task[10475] = {
 		group = 0,
 		name = "스케줄의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -25449,8 +26111,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10476] = {
+	}
+	pg.base.child_task[10476] = {
 		group = 0,
 		name = "스케줄의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -25482,8 +26144,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10477] = {
+	}
+	pg.base.child_task[10477] = {
 		group = 0,
 		name = "스케줄의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		task_target_progress = 0,
@@ -25515,8 +26177,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10478] = {
+	}
+	pg.base.child_task[10478] = {
 		group = 0,
 		name = "사회 공부Ⅱ를 해보고 싶어…",
 		task_target_progress = 0,
@@ -25555,8 +26217,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10479] = {
+	}
+	pg.base.child_task[10479] = {
 		group = 0,
 		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -25654,8 +26316,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10481] = {
+	}
+	pg.base.child_task[10481] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		task_target_progress = 0,
@@ -25697,8 +26359,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10482] = {
+	}
+	pg.base.child_task[10482] = {
 		group = 0,
 		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -25743,8 +26405,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10483] = {
+	}
+	pg.base.child_task[10483] = {
 		group = 0,
 		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -25815,8 +26477,8 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	[10484] = {
+	}
+	pg.base.child_task[10484] = {
 		group = 0,
 		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		task_target_progress = 0,
@@ -25914,649 +26576,5 @@ pg.child_task = {
 			4,
 			10
 		}
-	},
-	all = {
-		101,
-		102,
-		103,
-		104,
-		105,
-		201,
-		202,
-		203,
-		204,
-		205,
-		206,
-		207,
-		208,
-		209,
-		210,
-		211,
-		212,
-		213,
-		214,
-		215,
-		216,
-		217,
-		218,
-		219,
-		220,
-		221,
-		222,
-		223,
-		224,
-		225,
-		226,
-		227,
-		228,
-		229,
-		230,
-		231,
-		232,
-		233,
-		234,
-		235,
-		236,
-		237,
-		238,
-		239,
-		240,
-		241,
-		242,
-		243,
-		244,
-		245,
-		246,
-		247,
-		248,
-		249,
-		250,
-		251,
-		252,
-		253,
-		254,
-		255,
-		256,
-		257,
-		258,
-		259,
-		260,
-		261,
-		262,
-		263,
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1007,
-		1011,
-		1012,
-		1013,
-		1014,
-		1015,
-		1016,
-		1017,
-		1021,
-		1022,
-		1023,
-		1024,
-		1025,
-		1026,
-		1027,
-		1031,
-		1032,
-		1033,
-		1034,
-		1035,
-		1036,
-		1037,
-		2001,
-		2002,
-		2003,
-		2004,
-		2005,
-		2006,
-		2007,
-		2011,
-		2012,
-		2013,
-		2014,
-		2015,
-		2016,
-		2017,
-		2021,
-		2022,
-		2023,
-		2024,
-		2025,
-		2026,
-		2027,
-		2031,
-		2032,
-		2033,
-		2034,
-		2035,
-		2036,
-		2037,
-		3001,
-		3002,
-		3003,
-		3004,
-		3005,
-		3006,
-		3007,
-		3008,
-		3009,
-		3010,
-		3011,
-		3012,
-		3013,
-		3014,
-		3015,
-		3016,
-		3017,
-		3018,
-		3019,
-		3020,
-		3021,
-		3022,
-		3023,
-		3024,
-		3025,
-		3026,
-		3027,
-		3028,
-		3029,
-		3030,
-		3031,
-		3032,
-		3033,
-		3034,
-		3035,
-		3036,
-		3037,
-		3038,
-		3039,
-		3040,
-		4001,
-		4002,
-		4003,
-		4004,
-		4005,
-		4006,
-		4007,
-		4008,
-		4009,
-		4010,
-		4011,
-		4012,
-		4021,
-		4022,
-		4023,
-		4024,
-		4025,
-		4026,
-		4027,
-		4028,
-		4029,
-		4030,
-		4031,
-		4032,
-		4033,
-		4041,
-		4042,
-		4043,
-		4044,
-		4045,
-		4046,
-		4047,
-		4048,
-		4049,
-		4050,
-		4051,
-		4052,
-		4053,
-		4061,
-		4062,
-		4063,
-		4064,
-		4065,
-		4066,
-		4067,
-		4068,
-		4069,
-		4070,
-		4071,
-		4072,
-		4073,
-		4081,
-		4082,
-		4083,
-		4084,
-		4085,
-		4086,
-		4087,
-		4088,
-		4089,
-		4090,
-		4091,
-		4092,
-		4093,
-		4101,
-		4102,
-		4103,
-		4104,
-		4105,
-		4106,
-		4107,
-		4108,
-		4109,
-		4110,
-		4111,
-		4112,
-		4113,
-		10000,
-		10001,
-		10002,
-		10003,
-		10004,
-		10011,
-		10012,
-		10013,
-		10014,
-		10015,
-		10016,
-		10017,
-		10021,
-		10022,
-		10023,
-		10024,
-		10025,
-		10026,
-		10027,
-		10031,
-		10032,
-		10033,
-		10034,
-		10035,
-		10036,
-		10037,
-		10038,
-		10041,
-		10042,
-		10043,
-		10044,
-		10045,
-		10046,
-		10047,
-		10048,
-		10051,
-		10052,
-		10053,
-		10054,
-		10055,
-		10056,
-		10057,
-		10058,
-		10059,
-		10061,
-		10062,
-		10063,
-		10064,
-		10065,
-		10066,
-		10067,
-		10068,
-		10069,
-		10071,
-		10072,
-		10073,
-		10074,
-		10075,
-		10076,
-		10077,
-		10078,
-		10079,
-		10080,
-		10081,
-		10082,
-		10083,
-		10084,
-		10085,
-		10086,
-		10087,
-		10088,
-		10089,
-		10090,
-		10091,
-		10092,
-		10093,
-		10094,
-		10095,
-		10096,
-		10097,
-		10098,
-		10099,
-		10111,
-		10112,
-		10113,
-		10114,
-		10115,
-		10116,
-		10117,
-		10118,
-		10119,
-		10121,
-		10122,
-		10123,
-		10124,
-		10125,
-		10126,
-		10127,
-		10128,
-		10129,
-		10131,
-		10132,
-		10133,
-		10134,
-		10135,
-		10136,
-		10137,
-		10138,
-		10139,
-		10141,
-		10142,
-		10143,
-		10144,
-		10145,
-		10146,
-		10147,
-		10148,
-		10149,
-		10151,
-		10152,
-		10153,
-		10154,
-		10155,
-		10156,
-		10157,
-		10158,
-		10159,
-		10161,
-		10162,
-		10163,
-		10164,
-		10165,
-		10166,
-		10167,
-		10168,
-		10169,
-		10171,
-		10172,
-		10173,
-		10174,
-		10175,
-		10176,
-		10177,
-		10178,
-		10179,
-		10181,
-		10182,
-		10183,
-		10184,
-		10185,
-		10186,
-		10187,
-		10188,
-		10189,
-		10191,
-		10192,
-		10193,
-		10194,
-		10195,
-		10196,
-		10197,
-		10198,
-		10199,
-		10221,
-		10222,
-		10223,
-		10224,
-		10225,
-		10226,
-		10227,
-		10228,
-		10229,
-		10231,
-		10232,
-		10233,
-		10234,
-		10235,
-		10236,
-		10237,
-		10238,
-		10239,
-		10241,
-		10242,
-		10243,
-		10244,
-		10245,
-		10246,
-		10247,
-		10248,
-		10249,
-		10251,
-		10252,
-		10253,
-		10254,
-		10255,
-		10256,
-		10257,
-		10258,
-		10259,
-		10261,
-		10262,
-		10263,
-		10264,
-		10265,
-		10266,
-		10267,
-		10268,
-		10269,
-		10271,
-		10272,
-		10273,
-		10274,
-		10275,
-		10276,
-		10277,
-		10278,
-		10279,
-		10281,
-		10282,
-		10283,
-		10284,
-		10285,
-		10286,
-		10287,
-		10288,
-		10289,
-		10291,
-		10292,
-		10293,
-		10294,
-		10295,
-		10296,
-		10297,
-		10298,
-		10299,
-		10301,
-		10302,
-		10303,
-		10304,
-		10305,
-		10306,
-		10307,
-		10308,
-		10309,
-		10311,
-		10312,
-		10313,
-		10314,
-		10315,
-		10316,
-		10317,
-		10318,
-		10319,
-		10321,
-		10322,
-		10323,
-		10324,
-		10325,
-		10326,
-		10327,
-		10328,
-		10329,
-		10331,
-		10332,
-		10333,
-		10334,
-		10335,
-		10336,
-		10337,
-		10338,
-		10339,
-		10341,
-		10342,
-		10343,
-		10344,
-		10345,
-		10346,
-		10347,
-		10348,
-		10349,
-		10351,
-		10352,
-		10353,
-		10354,
-		10355,
-		10356,
-		10357,
-		10358,
-		10359,
-		10361,
-		10362,
-		10363,
-		10364,
-		10365,
-		10366,
-		10367,
-		10368,
-		10369,
-		10371,
-		10372,
-		10373,
-		10374,
-		10375,
-		10376,
-		10377,
-		10378,
-		10379,
-		10381,
-		10382,
-		10383,
-		10384,
-		10385,
-		10386,
-		10387,
-		10388,
-		10389,
-		10391,
-		10392,
-		10393,
-		10394,
-		10395,
-		10396,
-		10397,
-		10398,
-		10399,
-		10401,
-		10402,
-		10403,
-		10404,
-		10405,
-		10406,
-		10407,
-		10408,
-		10409,
-		10411,
-		10412,
-		10413,
-		10414,
-		10415,
-		10416,
-		10417,
-		10418,
-		10419,
-		10421,
-		10422,
-		10423,
-		10424,
-		10425,
-		10426,
-		10427,
-		10428,
-		10429,
-		10431,
-		10432,
-		10433,
-		10434,
-		10435,
-		10436,
-		10437,
-		10438,
-		10439,
-		10441,
-		10442,
-		10443,
-		10444,
-		10445,
-		10446,
-		10447,
-		10448,
-		10449,
-		10451,
-		10452,
-		10453,
-		10454,
-		10455,
-		10456,
-		10457,
-		10458,
-		10459,
-		10461,
-		10462,
-		10463,
-		10464,
-		10465,
-		10466,
-		10467,
-		10468,
-		10469,
-		10471,
-		10472,
-		10473,
-		10474,
-		10475,
-		10476,
-		10477,
-		10478,
-		10479,
-		10481,
-		10482,
-		10483,
-		10484
 	}
-}
+end)()

@@ -1,6 +1,650 @@
 pg = pg or {}
-pg.activity_ins_template = {
-	{
+pg.activity_ins_template = rawget(pg, "activity_ins_template") or setmetatable({
+	__name = "activity_ins_template"
+}, confNEO)
+pg.activity_ins_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	39,
+	40,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	47,
+	48,
+	49,
+	50,
+	51,
+	52,
+	53,
+	54,
+	55,
+	56,
+	57,
+	58,
+	59,
+	60,
+	61,
+	62,
+	63,
+	64,
+	65,
+	66,
+	67,
+	68,
+	69,
+	70,
+	71,
+	72,
+	73,
+	74,
+	75,
+	76,
+	77,
+	78,
+	79,
+	80,
+	81,
+	82,
+	83,
+	84,
+	85,
+	86,
+	87,
+	88,
+	89,
+	90,
+	91,
+	92,
+	93,
+	94,
+	95,
+	96,
+	97,
+	98,
+	99,
+	100,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	110,
+	111,
+	112,
+	113,
+	114,
+	115,
+	116,
+	117,
+	118,
+	119,
+	120,
+	121,
+	122,
+	123,
+	124,
+	125,
+	126,
+	127,
+	128,
+	129,
+	130,
+	131,
+	132,
+	133,
+	134,
+	135,
+	136,
+	137,
+	138,
+	139,
+	140,
+	141,
+	142,
+	143,
+	144,
+	145,
+	146,
+	147,
+	148,
+	149,
+	150,
+	151,
+	152,
+	153,
+	154,
+	155,
+	156,
+	157,
+	158,
+	159,
+	160,
+	161,
+	162,
+	163,
+	164,
+	165,
+	166,
+	167,
+	168,
+	169,
+	170,
+	171,
+	172,
+	173,
+	174,
+	175,
+	176,
+	177,
+	178,
+	179,
+	180,
+	181,
+	182,
+	183,
+	184,
+	185,
+	186,
+	187,
+	188,
+	189,
+	190,
+	191,
+	192,
+	193,
+	194,
+	195,
+	196,
+	197,
+	198,
+	199,
+	200,
+	201,
+	202,
+	203,
+	204,
+	205,
+	206,
+	207,
+	208,
+	209,
+	210,
+	211,
+	212,
+	213,
+	214,
+	215,
+	216,
+	217,
+	218,
+	219,
+	220,
+	221,
+	222,
+	223,
+	224,
+	225,
+	226,
+	227,
+	228,
+	229,
+	230,
+	231,
+	232,
+	233,
+	234,
+	235,
+	236,
+	237,
+	238,
+	239,
+	240,
+	241,
+	242,
+	243,
+	244,
+	245,
+	246,
+	247,
+	248,
+	249,
+	250,
+	251,
+	252,
+	253,
+	254,
+	255,
+	256,
+	257,
+	258,
+	259,
+	260,
+	261,
+	262,
+	263,
+	264,
+	265,
+	266,
+	267,
+	268,
+	269,
+	270,
+	271,
+	272,
+	273,
+	274,
+	275,
+	276,
+	277,
+	278,
+	279,
+	280,
+	281,
+	282,
+	283,
+	284,
+	285,
+	286,
+	287,
+	288,
+	289,
+	290,
+	291,
+	292,
+	293,
+	294,
+	295,
+	296,
+	297,
+	298,
+	299,
+	300,
+	301,
+	302,
+	303,
+	304,
+	305,
+	306,
+	307,
+	308,
+	309,
+	310,
+	311,
+	312,
+	313,
+	314,
+	315,
+	316,
+	317,
+	318,
+	319,
+	320,
+	321,
+	322,
+	323,
+	324,
+	325,
+	326,
+	327,
+	328,
+	329,
+	330,
+	331,
+	332,
+	333,
+	334,
+	335,
+	336,
+	337,
+	338,
+	339,
+	340,
+	341,
+	342,
+	343,
+	344,
+	345,
+	346,
+	347,
+	348,
+	349,
+	350,
+	351,
+	352,
+	353,
+	354,
+	355,
+	356,
+	357,
+	358,
+	359,
+	360,
+	361,
+	362,
+	363,
+	364,
+	365,
+	366,
+	367,
+	368,
+	369,
+	370,
+	371,
+	372,
+	375,
+	376,
+	377,
+	378,
+	379,
+	380,
+	381,
+	382,
+	390,
+	391,
+	392,
+	393,
+	394,
+	395,
+	396,
+	397,
+	398,
+	399,
+	400,
+	401,
+	402,
+	403,
+	404,
+	405,
+	406,
+	407,
+	408,
+	409,
+	410,
+	411,
+	412,
+	413,
+	414,
+	415,
+	416,
+	417,
+	418,
+	419,
+	420,
+	421,
+	422,
+	423,
+	424,
+	425,
+	426,
+	427,
+	428,
+	429,
+	430,
+	431,
+	432,
+	433,
+	434,
+	435,
+	436,
+	437,
+	438,
+	439,
+	440,
+	441,
+	442,
+	443,
+	444,
+	445,
+	446,
+	447,
+	448,
+	449,
+	450,
+	451,
+	452,
+	453,
+	454,
+	455,
+	457,
+	458,
+	459,
+	460,
+	461,
+	462,
+	463,
+	464,
+	465,
+	466,
+	467,
+	468,
+	469,
+	470,
+	471,
+	472,
+	473,
+	474,
+	475,
+	476,
+	477,
+	478,
+	479,
+	480,
+	481,
+	482,
+	483,
+	484,
+	485,
+	486,
+	487,
+	488,
+	489,
+	490,
+	491,
+	492,
+	493,
+	494,
+	495,
+	496,
+	497,
+	498,
+	499,
+	500,
+	501,
+	502,
+	503,
+	504,
+	505,
+	506,
+	507,
+	508,
+	509,
+	510,
+	511,
+	512,
+	513,
+	514,
+	515,
+	516,
+	517,
+	518,
+	519,
+	520,
+	521,
+	522,
+	523,
+	524,
+	525,
+	526,
+	527,
+	528,
+	529,
+	530,
+	531,
+	532,
+	533,
+	534,
+	535,
+	536,
+	537,
+	538,
+	539,
+	540,
+	541,
+	542,
+	543,
+	544,
+	545,
+	546,
+	547,
+	548,
+	549,
+	550,
+	551,
+	552,
+	553,
+	554,
+	555,
+	556,
+	557,
+	558,
+	559,
+	560,
+	561,
+	562,
+	563,
+	564,
+	565,
+	566,
+	567,
+	568,
+	569,
+	570,
+	571,
+	572,
+	573,
+	574,
+	575,
+	576,
+	577,
+	578,
+	579,
+	580,
+	581,
+	582,
+	583,
+	584,
+	585,
+	586,
+	587,
+	588,
+	589,
+	590,
+	591,
+	592,
+	593,
+	594,
+	595,
+	596,
+	597,
+	598,
+	599,
+	600,
+	601,
+	602,
+	603,
+	604,
+	605,
+	606,
+	607,
+	608,
+	609,
+	610,
+	611,
+	612,
+	613,
+	614,
+	615,
+	616,
+	617,
+	618,
+	619,
+	620,
+	621,
+	622,
+	623,
+	624,
+	625,
+	626,
+	627,
+	628,
+	629,
+	630,
+	631,
+	632,
+	633,
+	634,
+	635,
+	636,
+	637,
+	638,
+	639,
+	640,
+	641,
+	642,
+	20001,
+	20002,
+	20003,
+	20004
+}
+pg.base = pg.base or {}
+pg.base.activity_ins_template = {}
+
+(function ()
+	pg.base.activity_ins_template[1] = {
 		ship_group = 30701,
 		name = "Ootori_Shikikan",
 		type = 1,
@@ -41,8 +685,8 @@ pg.activity_ins_template = {
 			2,
 			3
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[2] = {
 		ship_group = 99901,
 		name = "GascogneT8",
 		type = 1,
@@ -82,8 +726,8 @@ pg.activity_ins_template = {
 			31,
 			35
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[3] = {
 		ship_group = 99901,
 		name = "GascogneT8",
 		type = 1,
@@ -123,8 +767,8 @@ pg.activity_ins_template = {
 			40,
 			43
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[4] = {
 		ship_group = 10209,
 		name = "Cleveland☆Knight",
 		type = 1,
@@ -166,8 +810,8 @@ pg.activity_ins_template = {
 			61,
 			62
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[5] = {
 		ship_group = 20208,
 		name = "ShiningS",
 		type = 1,
@@ -207,8 +851,8 @@ pg.activity_ins_template = {
 			93,
 			96
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[6] = {
 		ship_group = 40301,
 		name = "R-Guitarist",
 		type = 1,
@@ -249,8 +893,8 @@ pg.activity_ins_template = {
 			113,
 			114
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[7] = {
 		ship_group = 30701,
 		name = "Ootori_Shikikan",
 		type = 1,
@@ -292,8 +936,8 @@ pg.activity_ins_template = {
 			27,
 			28
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[8] = {
 		ship_group = 10209,
 		name = "Cleveland☆Knight",
 		type = 1,
@@ -334,8 +978,8 @@ pg.activity_ins_template = {
 			75,
 			77
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[9] = {
 		ship_group = 20208,
 		name = "ShiningS",
 		type = 1,
@@ -375,8 +1019,8 @@ pg.activity_ins_template = {
 			103,
 			105
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[10] = {
 		ship_group = 40301,
 		name = "R-Guitarist",
 		type = 1,
@@ -417,8 +1061,8 @@ pg.activity_ins_template = {
 			130,
 			132
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[11] = {
 		ship_group = 99901,
 		name = "GascogneT8",
 		type = 1,
@@ -459,8 +1103,8 @@ pg.activity_ins_template = {
 			51,
 			52
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[12] = {
 		ship_group = 30701,
 		name = "Ootori_Shikikan",
 		type = 1,
@@ -501,8 +1145,8 @@ pg.activity_ins_template = {
 			11,
 			13
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[13] = {
 		ship_group = 40301,
 		name = "R-Guitarist",
 		type = 1,
@@ -543,8 +1187,8 @@ pg.activity_ins_template = {
 			119,
 			120
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[14] = {
 		ship_group = 10209,
 		name = "Cleveland☆Knight",
 		type = 1,
@@ -585,8 +1229,8 @@ pg.activity_ins_template = {
 			66,
 			67
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[15] = {
 		ship_group = 20208,
 		name = "ShiningS",
 		type = 1,
@@ -626,8 +1270,8 @@ pg.activity_ins_template = {
 			88,
 			89
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[16] = {
 		ship_group = 40301,
 		name = "R-Guitarist",
 		type = 1,
@@ -667,8 +1311,8 @@ pg.activity_ins_template = {
 			122,
 			123
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[17] = {
 		ship_group = 10209,
 		name = "Cleveland☆Knight",
 		type = 1,
@@ -709,8 +1353,8 @@ pg.activity_ins_template = {
 			82,
 			84
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[18] = {
 		ship_group = 99901,
 		name = "GascogneT8",
 		type = 1,
@@ -751,8 +1395,8 @@ pg.activity_ins_template = {
 			56,
 			57
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[19] = {
 		ship_group = 30701,
 		name = "Ootori_Shikikan",
 		type = 1,
@@ -792,8 +1436,8 @@ pg.activity_ins_template = {
 			15,
 			18
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[20] = {
 		ship_group = 20208,
 		name = "ShiningS",
 		type = 1,
@@ -834,8 +1478,8 @@ pg.activity_ins_template = {
 			99,
 			100
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[21] = {
 		ship_group = 30514,
 		name = "S8u6r6ug8A",
 		type = 1,
@@ -875,8 +1519,8 @@ pg.activity_ins_template = {
 			139,
 			143
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[22] = {
 		ship_group = 30505,
 		name = "SakuraCombinedFleet",
 		type = 1,
@@ -917,8 +1561,8 @@ pg.activity_ins_template = {
 			149,
 			151
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[23] = {
 		ship_group = 30105,
 		name = "AYANAMIN",
 		type = 1,
@@ -958,8 +1602,8 @@ pg.activity_ins_template = {
 			155,
 			159
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[24] = {
 		ship_group = 30110,
 		name = "HibikiChannel",
 		type = 1,
@@ -999,8 +1643,8 @@ pg.activity_ins_template = {
 			163,
 			167
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[25] = {
 		ship_group = 30221,
 		name = "Nshiro",
 		type = 1,
@@ -1041,8 +1685,8 @@ pg.activity_ins_template = {
 			174,
 			176
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[26] = {
 		ship_group = 20603,
 		name = "UnicornI72",
 		type = 1,
@@ -1082,8 +1726,8 @@ pg.activity_ins_template = {
 			180,
 			182
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[27] = {
 		ship_group = 49902,
 		name = "SymphonicStigma",
 		type = 1,
@@ -1125,8 +1769,8 @@ pg.activity_ins_template = {
 			189,
 			190
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[28] = {
 		ship_group = 30505,
 		name = "SakuraCombinedFleet",
 		type = 1,
@@ -1165,8 +1809,8 @@ pg.activity_ins_template = {
 		npc_discuss_persist = {
 			193
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[29] = {
 		ship_group = 30404,
 		name = "KirinnKS",
 		type = 1,
@@ -1206,8 +1850,8 @@ pg.activity_ins_template = {
 			200,
 			202
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[30] = {
 		ship_group = 30607,
 		name = "PhoenixWhale",
 		type = 1,
@@ -1248,8 +1892,8 @@ pg.activity_ins_template = {
 			208,
 			210
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[31] = {
 		ship_group = 40135,
 		name = "Funf♡3536",
 		type = 1,
@@ -1289,8 +1933,8 @@ pg.activity_ins_template = {
 			213,
 			216
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[32] = {
 		ship_group = 30181,
 		name = "fuwarin1118",
 		type = 1,
@@ -1330,8 +1974,8 @@ pg.activity_ins_template = {
 			222,
 			224
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[33] = {
 		ship_group = 30208,
 		name = "RageofONI",
 		type = 1,
@@ -1371,8 +2015,8 @@ pg.activity_ins_template = {
 			227,
 			230
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[34] = {
 		ship_group = 10209,
 		name = "Cleveland☆Knight",
 		type = 1,
@@ -1412,8 +2056,8 @@ pg.activity_ins_template = {
 			234,
 			235
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[35] = {
 		ship_group = 20603,
 		name = "UnicornI72",
 		type = 1,
@@ -1453,8 +2097,8 @@ pg.activity_ins_template = {
 			241,
 			243
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[36] = {
 		ship_group = 20207,
 		name = "MINAMIpton",
 		type = 1,
@@ -1494,8 +2138,8 @@ pg.activity_ins_template = {
 			247,
 			250
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[37] = {
 		ship_group = 20702,
 		name = "ArkRoyal_Defense",
 		type = 1,
@@ -1535,8 +2179,8 @@ pg.activity_ins_template = {
 			254,
 			256
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[38] = {
 		ship_group = 20121,
 		name = "Javelin☆",
 		type = 1,
@@ -1577,8 +2221,8 @@ pg.activity_ins_template = {
 			333,
 			335
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[39] = {
 		ship_group = 40304,
 		name = "SPEE_FIGHT",
 		type = 1,
@@ -1618,8 +2262,8 @@ pg.activity_ins_template = {
 			299,
 			301
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[40] = {
 		ship_group = 20101,
 		name = "ThornyA",
 		type = 1,
@@ -1659,8 +2303,8 @@ pg.activity_ins_template = {
 			434,
 			436
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[41] = {
 		ship_group = 10209,
 		name = "Cleveland☆Knight",
 		type = 1,
@@ -1701,8 +2345,8 @@ pg.activity_ins_template = {
 			265,
 			267
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[42] = {
 		ship_group = 30705,
 		name = "KADEKURU",
 		type = 1,
@@ -1743,8 +2387,8 @@ pg.activity_ins_template = {
 			273,
 			275
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[43] = {
 		ship_group = 20603,
 		name = "UnicornI72",
 		type = 1,
@@ -1784,8 +2428,8 @@ pg.activity_ins_template = {
 			414,
 			416
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[44] = {
 		ship_group = 10601,
 		name = "L.I.",
 		type = 1,
@@ -1825,8 +2469,8 @@ pg.activity_ins_template = {
 			440,
 			442
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[45] = {
 		ship_group = 10125,
 		name = "DD_Hammann",
 		type = 1,
@@ -1866,8 +2510,8 @@ pg.activity_ins_template = {
 			422,
 			424
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[46] = {
 		ship_group = 40123,
 		name = "Zerstorer23",
 		type = 1,
@@ -1908,8 +2552,8 @@ pg.activity_ins_template = {
 			390,
 			391
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[47] = {
 		ship_group = 20220,
 		name = "forMaster_Sirius",
 		type = 1,
@@ -1949,8 +2593,8 @@ pg.activity_ins_template = {
 			370,
 			374
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[48] = {
 		ship_group = 30707,
 		name = "OutrangeTH",
 		type = 1,
@@ -1990,8 +2634,8 @@ pg.activity_ins_template = {
 			408,
 			410
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[49] = {
 		ship_group = 10709,
 		name = "EssexG1",
 		type = 1,
@@ -2031,8 +2675,8 @@ pg.activity_ins_template = {
 			446,
 			448
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[50] = {
 		ship_group = 50201,
 		name = "Yi Xian",
 		type = 1,
@@ -2073,8 +2717,8 @@ pg.activity_ins_template = {
 			360,
 			363
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[51] = {
 		ship_group = 30132,
 		name = "Mutsuki",
 		type = 1,
@@ -2114,8 +2758,8 @@ pg.activity_ins_template = {
 			321,
 			325
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[52] = {
 		ship_group = 40303,
 		name = "P.Eugen",
 		type = 1,
@@ -2156,8 +2800,8 @@ pg.activity_ins_template = {
 			313,
 			315
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[53] = {
 		ship_group = 10706,
 		name = "Enterprise",
 		type = 1,
@@ -2198,8 +2842,8 @@ pg.activity_ins_template = {
 			283,
 			285
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[54] = {
 		ship_group = 20212,
 		name = "Belfast_inService",
 		type = 1,
@@ -2240,8 +2884,8 @@ pg.activity_ins_template = {
 			294,
 			460
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[55] = {
 		ship_group = 30701,
 		name = "Ootori_Shikikan",
 		type = 1,
@@ -2282,8 +2926,8 @@ pg.activity_ins_template = {
 			351,
 			353
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[56] = {
 		ship_group = 10706,
 		name = "Enterprise",
 		type = 1,
@@ -2323,8 +2967,8 @@ pg.activity_ins_template = {
 			339,
 			342
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[57] = {
 		ship_group = 40303,
 		name = "P.Eugen",
 		type = 1,
@@ -2365,8 +3009,8 @@ pg.activity_ins_template = {
 			380,
 			383
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[58] = {
 		ship_group = 31201,
 		name = "akashi_TUUHAN",
 		type = 1,
@@ -2406,8 +3050,8 @@ pg.activity_ins_template = {
 			402,
 			404
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[59] = {
 		ship_group = 30109,
 		name = "NINJA-AKATSUKI",
 		type = 1,
@@ -2447,8 +3091,8 @@ pg.activity_ins_template = {
 			394,
 			396
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[60] = {
 		ship_group = 40123,
 		name = "Zerstorer23",
 		type = 1,
@@ -2490,8 +3134,8 @@ pg.activity_ins_template = {
 			430,
 			431
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[61] = {
 		ship_group = 50201,
 		name = "Yi Xian",
 		type = 1,
@@ -2531,8 +3175,8 @@ pg.activity_ins_template = {
 			466,
 			470
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[62] = {
 		ship_group = 40303,
 		name = "P.Eugen",
 		type = 1,
@@ -2572,8 +3216,8 @@ pg.activity_ins_template = {
 			476,
 			480
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[63] = {
 		ship_group = 10703,
 		name = "SisterSara",
 		type = 1,
@@ -2613,8 +3257,8 @@ pg.activity_ins_template = {
 			486,
 			489
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[64] = {
 		ship_group = 30405,
 		name = "Amagi",
 		type = 1,
@@ -2654,8 +3298,8 @@ pg.activity_ins_template = {
 			494,
 			496
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[65] = {
 		ship_group = 50203,
 		name = "PINGHAI",
 		type = 1,
@@ -2695,8 +3339,8 @@ pg.activity_ins_template = {
 			500,
 			502
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[66] = {
 		ship_group = 80101,
 		name = "Le.Triomphant",
 		type = 1,
@@ -2736,8 +3380,8 @@ pg.activity_ins_template = {
 			507,
 			511
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[67] = {
 		ship_group = 20603,
 		name = "UnicornI72",
 		type = 1,
@@ -2777,8 +3421,8 @@ pg.activity_ins_template = {
 			515,
 			519
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[68] = {
 		ship_group = 30505,
 		name = "SakuraCombinedFleet",
 		type = 1,
@@ -2818,8 +3462,8 @@ pg.activity_ins_template = {
 			523,
 			526
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[69] = {
 		ship_group = 99901,
 		name = "GascogneT8",
 		type = 1,
@@ -2860,8 +3504,8 @@ pg.activity_ins_template = {
 			534,
 			536
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[70] = {
 		ship_group = 49902,
 		name = "SymphonicStigma",
 		type = 1,
@@ -2901,8 +3545,8 @@ pg.activity_ins_template = {
 			540,
 			544
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[71] = {
 		ship_group = 10519,
 		name = "2700P.Justice",
 		type = 1,
@@ -2942,8 +3586,8 @@ pg.activity_ins_template = {
 			548,
 			552
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[72] = {
 		ship_group = 20215,
 		name = "AuroraRose",
 		type = 1,
@@ -2983,8 +3627,8 @@ pg.activity_ins_template = {
 			560,
 			563
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[73] = {
 		ship_group = 30115,
 		name = "LuckyShigure",
 		type = 1,
@@ -3024,8 +3668,8 @@ pg.activity_ins_template = {
 			568,
 			574
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[74] = {
 		ship_group = 40501,
 		name = "Bismarck",
 		type = 1,
@@ -3065,8 +3709,8 @@ pg.activity_ins_template = {
 			578,
 			581
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[75] = {
 		ship_group = 10212,
 		name = "Honolulu",
 		type = 1,
@@ -3106,8 +3750,8 @@ pg.activity_ins_template = {
 			585,
 			587
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[76] = {
 		ship_group = 39904,
 		name = "AzumaB65",
 		type = 1,
@@ -3148,8 +3792,8 @@ pg.activity_ins_template = {
 			595,
 			597
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[77] = {
 		ship_group = 29902,
 		name = "Monarch",
 		type = 1,
@@ -3189,8 +3833,8 @@ pg.activity_ins_template = {
 			601,
 			603
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[78] = {
 		ship_group = 20220,
 		name = "forMaster_Sirius",
 		type = 1,
@@ -3230,8 +3874,8 @@ pg.activity_ins_template = {
 			610,
 			614
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[79] = {
 		ship_group = 10205,
 		name = "HelenaSG",
 		type = 1,
@@ -3272,8 +3916,8 @@ pg.activity_ins_template = {
 			622,
 			623
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[80] = {
 		ship_group = 10117,
 		name = "Lafite.82",
 		type = 1,
@@ -3313,8 +3957,8 @@ pg.activity_ins_template = {
 			633,
 			637
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[81] = {
 		ship_group = 30312,
 		name = "Atago",
 		type = 1,
@@ -3354,8 +3998,8 @@ pg.activity_ins_template = {
 			645,
 			647
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[82] = {
 		ship_group = 20604,
 		name = "CenAlpha",
 		type = 1,
@@ -3395,8 +4039,8 @@ pg.activity_ins_template = {
 			651,
 			655
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[83] = {
 		ship_group = 20703,
 		name = "Illustrious",
 		type = 1,
@@ -3436,8 +4080,8 @@ pg.activity_ins_template = {
 			659,
 			662
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[84] = {
 		ship_group = 30105,
 		name = "AYANAMIN",
 		type = 1,
@@ -3478,8 +4122,8 @@ pg.activity_ins_template = {
 			670,
 			673
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[85] = {
 		ship_group = 30701,
 		name = "Ootori_Shikikan",
 		type = 1,
@@ -3519,8 +4163,8 @@ pg.activity_ins_template = {
 			677,
 			679
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[86] = {
 		ship_group = 49901,
 		name = "RoonDESU",
 		type = 1,
@@ -3560,8 +4204,8 @@ pg.activity_ins_template = {
 			696,
 			700
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[87] = {
 		ship_group = 40123,
 		name = "Zerstorer23",
 		type = 1,
@@ -3602,8 +4246,8 @@ pg.activity_ins_template = {
 			688,
 			690
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[88] = {
 		ship_group = 20227,
 		name = "Howe_Cookies",
 		type = 1,
@@ -3643,8 +4287,8 @@ pg.activity_ins_template = {
 			742,
 			745
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[89] = {
 		ship_group = 20606,
 		name = "Per",
 		type = 1,
@@ -3684,8 +4328,8 @@ pg.activity_ins_template = {
 			711,
 			714
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[90] = {
 		ship_group = 20510,
 		name = "Hermione",
 		type = 1,
@@ -3725,8 +4369,8 @@ pg.activity_ins_template = {
 			704,
 			707
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[91] = {
 		ship_group = 20133,
 		name = "Cmdr_Valiant",
 		type = 1,
@@ -3767,8 +4411,8 @@ pg.activity_ins_template = {
 			721,
 			724
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[92] = {
 		ship_group = 20701,
 		name = "Icarus_Wing",
 		type = 1,
@@ -3808,8 +4452,8 @@ pg.activity_ins_template = {
 			727,
 			731
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[93] = {
 		ship_group = 20509,
 		name = "Eagle",
 		type = 1,
@@ -3849,8 +4493,8 @@ pg.activity_ins_template = {
 			735,
 			740
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[94] = {
 		ship_group = 20509,
 		name = "Per",
 		type = 1,
@@ -3890,8 +4534,8 @@ pg.activity_ins_template = {
 			760,
 			764
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[95] = {
 		ship_group = 20606,
 		name = "Eagle",
 		type = 1,
@@ -3932,8 +4576,8 @@ pg.activity_ins_template = {
 			773,
 			775
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[96] = {
 		ship_group = 20701,
 		name = "Hermione",
 		type = 1,
@@ -3973,8 +4617,8 @@ pg.activity_ins_template = {
 			779,
 			783
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[97] = {
 		ship_group = 20227,
 		name = "Icarus_Wing",
 		type = 1,
@@ -4015,8 +4659,8 @@ pg.activity_ins_template = {
 			789,
 			791
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[98] = {
 		ship_group = 20133,
 		name = "Cmdr_Valiant",
 		type = 1,
@@ -4056,8 +4700,8 @@ pg.activity_ins_template = {
 			794,
 			799
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[99] = {
 		ship_group = 20510,
 		name = "Howe_Cookies",
 		type = 1,
@@ -4097,8 +4741,8 @@ pg.activity_ins_template = {
 			750,
 			755
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[100] = {
 		ship_group = 30505,
 		name = "SakuraCombinedFleet",
 		type = 1,
@@ -4138,8 +4782,10 @@ pg.activity_ins_template = {
 			861,
 			864
 		}
-	},
-	{
+	}
+end)()
+(function ()
+	pg.base.activity_ins_template[101] = {
 		ship_group = 29901,
 		name = "Neptune",
 		type = 1,
@@ -4179,8 +4825,8 @@ pg.activity_ins_template = {
 			827,
 			830
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[102] = {
 		ship_group = 10738,
 		name = "Shangri-La",
 		type = 1,
@@ -4221,8 +4867,8 @@ pg.activity_ins_template = {
 			838,
 			839
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[103] = {
 		ship_group = 10738,
 		name = "Shangri-La",
 		type = 1,
@@ -4262,8 +4908,8 @@ pg.activity_ins_template = {
 			841,
 			844
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[104] = {
 		ship_group = 10213,
 		name = "Lucky Lou",
 		type = 1,
@@ -4303,8 +4949,8 @@ pg.activity_ins_template = {
 			851,
 			856
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[105] = {
 		ship_group = 30702,
 		name = "Ran_mew",
 		type = 1,
@@ -4344,8 +4990,8 @@ pg.activity_ins_template = {
 			874,
 			880
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[106] = {
 		ship_group = 20220,
 		name = "forMaster_Sirius",
 		type = 1,
@@ -4385,8 +5031,8 @@ pg.activity_ins_template = {
 			886,
 			890
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[107] = {
 		ship_group = 10316,
 		name = "Justice_B",
 		type = 1,
@@ -4426,8 +5072,8 @@ pg.activity_ins_template = {
 			896,
 			899
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[108] = {
 		ship_group = 90111,
 		name = "VivaLaze",
 		type = 1,
@@ -4467,8 +5113,8 @@ pg.activity_ins_template = {
 			905,
 			907
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[109] = {
 		ship_group = 30317,
 		name = "Suzu✩",
 		type = 1,
@@ -4508,8 +5154,8 @@ pg.activity_ins_template = {
 			913,
 			917
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[110] = {
 		ship_group = 39904,
 		name = "AzumaB65",
 		type = 1,
@@ -4549,8 +5195,8 @@ pg.activity_ins_template = {
 			921,
 			925
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[111] = {
 		ship_group = 30116,
 		name = "SnowStorm",
 		type = 1,
@@ -4591,8 +5237,8 @@ pg.activity_ins_template = {
 			932,
 			934
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[112] = {
 		ship_group = 30114,
 		name = "NikuSuki",
 		type = 1,
@@ -4632,8 +5278,8 @@ pg.activity_ins_template = {
 			939,
 			944
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[113] = {
 		ship_group = 30707,
 		name = "OutrangeTH",
 		type = 1,
@@ -4673,8 +5319,8 @@ pg.activity_ins_template = {
 			950,
 			954
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[114] = {
 		ship_group = 30511,
 		name = "Mikasa",
 		type = 1,
@@ -4714,8 +5360,8 @@ pg.activity_ins_template = {
 			959,
 			962
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[115] = {
 		ship_group = 10212,
 		name = "Honolulu",
 		type = 1,
@@ -4755,8 +5401,8 @@ pg.activity_ins_template = {
 			968,
 			970
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[116] = {
 		ship_group = 20704,
 		name = "Victorious",
 		type = 1,
@@ -4796,8 +5442,8 @@ pg.activity_ins_template = {
 			977,
 			980
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[117] = {
 		ship_group = 60502,
 		name = "VV_Littorio",
 		type = 1,
@@ -4837,8 +5483,8 @@ pg.activity_ins_template = {
 			985,
 			988
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[118] = {
 		ship_group = 89902,
 		name = "Champagne",
 		type = 1,
@@ -4878,8 +5524,8 @@ pg.activity_ins_template = {
 			994,
 			998
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[119] = {
 		ship_group = 20705,
 		name = "Formidable",
 		type = 1,
@@ -4919,8 +5565,8 @@ pg.activity_ins_template = {
 			1001,
 			1005
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[120] = {
 		ship_group = 40146,
 		name = "viersech",
 		type = 1,
@@ -4960,8 +5606,8 @@ pg.activity_ins_template = {
 			1011,
 			1014
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[121] = {
 		ship_group = 40305,
 		name = "GRAFSPEE",
 		type = 1,
@@ -5001,8 +5647,8 @@ pg.activity_ins_template = {
 			1020,
 			1025
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[122] = {
 		ship_group = 20204,
 		name = "Dido_Doll",
 		type = 1,
@@ -5042,8 +5688,8 @@ pg.activity_ins_template = {
 			1032,
 			1035
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[123] = {
 		ship_group = 10324,
 		name = "Bremerton",
 		type = 1,
@@ -5083,8 +5729,8 @@ pg.activity_ins_template = {
 			1040,
 			1043
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[124] = {
 		ship_group = 10209,
 		name = "Cleveland☆Knight",
 		type = 1,
@@ -5124,8 +5770,8 @@ pg.activity_ins_template = {
 			1049,
 			1053
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[125] = {
 		ship_group = 89901,
 		name = "S.Louis",
 		type = 1,
@@ -5165,8 +5811,8 @@ pg.activity_ins_template = {
 			1057,
 			1059
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[126] = {
 		ship_group = 80801,
 		name = "P.P.O",
 		type = 1,
@@ -5207,8 +5853,8 @@ pg.activity_ins_template = {
 			1066,
 			1068
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[127] = {
 		ship_group = 70505,
 		name = "Proj23.Ros",
 		type = 1,
@@ -5248,8 +5894,8 @@ pg.activity_ins_template = {
 			1072,
 			1076
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[128] = {
 		ship_group = 30221,
 		name = "Nshiro",
 		type = 1,
@@ -5289,8 +5935,8 @@ pg.activity_ins_template = {
 			1080,
 			1084
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[129] = {
 		ship_group = 20703,
 		name = "Illustrious",
 		type = 1,
@@ -5330,8 +5976,8 @@ pg.activity_ins_template = {
 			1091,
 			1096
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[130] = {
 		ship_group = 30707,
 		name = "OutrangeTH",
 		type = 1,
@@ -5371,8 +6017,8 @@ pg.activity_ins_template = {
 			1101,
 			1105
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[131] = {
 		ship_group = 80101,
 		name = "Le.Triomphant",
 		type = 1,
@@ -5412,8 +6058,8 @@ pg.activity_ins_template = {
 			1111,
 			1116
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[132] = {
 		ship_group = 90112,
 		name = "VivaLaze",
 		type = 1,
@@ -5454,8 +6100,8 @@ pg.activity_ins_template = {
 			1126,
 			1128
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[133] = {
 		ship_group = 20204,
 		name = "Dido_Doll",
 		type = 1,
@@ -5495,8 +6141,8 @@ pg.activity_ins_template = {
 			1132,
 			1135
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[134] = {
 		ship_group = 10316,
 		name = "Justice_B",
 		type = 1,
@@ -5537,8 +6183,8 @@ pg.activity_ins_template = {
 			1143,
 			1146
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[135] = {
 		ship_group = 49901,
 		name = "RoonDESU",
 		type = 1,
@@ -5579,8 +6225,8 @@ pg.activity_ins_template = {
 			1156,
 			1158
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[136] = {
 		ship_group = 70104,
 		name = "Ташкент",
 		type = 1,
@@ -5620,8 +6266,8 @@ pg.activity_ins_template = {
 			1162,
 			1168
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[137] = {
 		ship_group = 10802,
 		name = "G_Albacore",
 		type = 1,
@@ -5661,8 +6307,8 @@ pg.activity_ins_template = {
 			1174,
 			1178
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[138] = {
 		ship_group = 30707,
 		name = "OutrangeTH",
 		type = 1,
@@ -5702,8 +6348,8 @@ pg.activity_ins_template = {
 			1184,
 			1188
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[139] = {
 		ship_group = 49901,
 		name = "RoonDESU",
 		type = 1,
@@ -5744,8 +6390,8 @@ pg.activity_ins_template = {
 			1200,
 			1202
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[140] = {
 		ship_group = 10316,
 		name = "Justice_B",
 		type = 1,
@@ -5785,8 +6431,8 @@ pg.activity_ins_template = {
 			1208,
 			1213
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[141] = {
 		ship_group = 20703,
 		name = "Formidable",
 		type = 1,
@@ -5826,8 +6472,8 @@ pg.activity_ins_template = {
 			1218,
 			1222
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[142] = {
 		ship_group = 70104,
 		name = "Ташкент",
 		type = 1,
@@ -5867,8 +6513,8 @@ pg.activity_ins_template = {
 			1227,
 			1230
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[143] = {
 		ship_group = 20204,
 		name = "Dido_Doll",
 		type = 1,
@@ -5909,8 +6555,8 @@ pg.activity_ins_template = {
 			1239,
 			1243
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[144] = {
 		ship_group = 10802,
 		name = "G_Albacore",
 		type = 1,
@@ -5950,8 +6596,8 @@ pg.activity_ins_template = {
 			1248,
 			1253
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[145] = {
 		ship_group = 1060004,
 		name = "Misaki",
 		type = 1,
@@ -5992,8 +6638,8 @@ pg.activity_ins_template = {
 			1260,
 			1263
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[146] = {
 		ship_group = 1060005,
 		name = "Nagisa",
 		type = 1,
@@ -6033,8 +6679,8 @@ pg.activity_ins_template = {
 			1271,
 			1275
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[147] = {
 		ship_group = 1060001,
 		name = "Marie",
 		type = 1,
@@ -6075,8 +6721,8 @@ pg.activity_ins_template = {
 			1284,
 			1287
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[148] = {
 		ship_group = 1060002,
 		name = "Honoka",
 		type = 1,
@@ -6116,8 +6762,8 @@ pg.activity_ins_template = {
 			1309,
 			1312
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[149] = {
 		ship_group = 30303,
 		name = "REPORTER_AOBA",
 		type = 1,
@@ -6157,8 +6803,8 @@ pg.activity_ins_template = {
 			1294,
 			1297
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[150] = {
 		ship_group = 1060006,
 		name = "Nyotengu",
 		type = 1,
@@ -6198,8 +6844,8 @@ pg.activity_ins_template = {
 			1303,
 			1305
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[151] = {
 		ship_group = 1060007,
 		name = "Monica",
 		type = 1,
@@ -6240,8 +6886,8 @@ pg.activity_ins_template = {
 			1353,
 			1355
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[152] = {
 		ship_group = 1060001,
 		name = "Marie",
 		type = 1,
@@ -6282,8 +6928,8 @@ pg.activity_ins_template = {
 			1333,
 			1337
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[153] = {
 		ship_group = 30127,
 		name = "Nin_Kuroshio",
 		type = 1,
@@ -6324,8 +6970,8 @@ pg.activity_ins_template = {
 			1321,
 			1323
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[154] = {
 		ship_group = 1060002,
 		name = "Honoka",
 		type = 1,
@@ -6366,8 +7012,8 @@ pg.activity_ins_template = {
 			1378,
 			1381
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[155] = {
 		ship_group = 1060004,
 		name = "Misaki",
 		type = 1,
@@ -6407,8 +7053,8 @@ pg.activity_ins_template = {
 			1341,
 			1344
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[156] = {
 		ship_group = 1060006,
 		name = "Nyotengu",
 		type = 1,
@@ -6448,8 +7094,8 @@ pg.activity_ins_template = {
 			1359,
 			1363
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[157] = {
 		ship_group = 1060003,
 		name = "Kasumi",
 		type = 1,
@@ -6489,8 +7135,8 @@ pg.activity_ins_template = {
 			1368,
 			1371
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[158] = {
 		ship_group = 1060004,
 		name = "Misaki",
 		type = 1,
@@ -6530,8 +7176,8 @@ pg.activity_ins_template = {
 			1385,
 			1388
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[159] = {
 		ship_group = 10227,
 		name = "Marblehead",
 		type = 1,
@@ -6572,8 +7218,8 @@ pg.activity_ins_template = {
 			1398,
 			1402
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[160] = {
 		ship_group = 10144,
 		name = "BlackCat",
 		type = 1,
@@ -6613,8 +7259,8 @@ pg.activity_ins_template = {
 			1407,
 			1411
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[161] = {
 		ship_group = 10124,
 		name = "Sims",
 		type = 1,
@@ -6654,8 +7300,8 @@ pg.activity_ins_template = {
 			1416,
 			1420
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[162] = {
 		ship_group = 30114,
 		name = "NikuSuki",
 		type = 1,
@@ -6695,8 +7341,8 @@ pg.activity_ins_template = {
 			1426,
 			1429
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[163] = {
 		ship_group = 10313,
 		name = "Minnie.Hunter",
 		type = 1,
@@ -6736,8 +7382,8 @@ pg.activity_ins_template = {
 			1433,
 			1437
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[164] = {
 		ship_group = 10130,
 		name = "DD.Jenkins",
 		type = 1,
@@ -6777,8 +7423,8 @@ pg.activity_ins_template = {
 			1443,
 			1446
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[165] = {
 		ship_group = 40502,
 		name = "Tirpitz",
 		type = 1,
@@ -6819,8 +7465,8 @@ pg.activity_ins_template = {
 			1454,
 			1456
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[166] = {
 		ship_group = 20212,
 		name = "Belfast_inService",
 		type = 1,
@@ -6861,8 +7507,8 @@ pg.activity_ins_template = {
 			1463,
 			1466
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[167] = {
 		ship_group = 30405,
 		name = "Amagi",
 		type = 1,
@@ -6902,8 +7548,8 @@ pg.activity_ins_template = {
 			1469,
 			1471
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[168] = {
 		ship_group = 40808,
 		name = "HAI_110 ",
 		type = 1,
@@ -6943,8 +7589,8 @@ pg.activity_ins_template = {
 			1475,
 			1477
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[169] = {
 		ship_group = 30184,
 		name = "Puuta",
 		type = 1,
@@ -6985,8 +7631,8 @@ pg.activity_ins_template = {
 			1485,
 			1487
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[170] = {
 		ship_group = 49903,
 		name = "Mainz",
 		type = 1,
@@ -7026,8 +7672,8 @@ pg.activity_ins_template = {
 			1492,
 			1496
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[171] = {
 		ship_group = 30708,
 		name = "Shinano",
 		type = 1,
@@ -7068,8 +7714,8 @@ pg.activity_ins_template = {
 			1504,
 			1508
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[172] = {
 		ship_group = 40128,
 		name = "Zerstörer28",
 		type = 1,
@@ -7109,8 +7755,8 @@ pg.activity_ins_template = {
 			1512,
 			1516
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[173] = {
 		ship_group = 10225,
 		name = "Biloxi",
 		type = 1,
@@ -7151,8 +7797,8 @@ pg.activity_ins_template = {
 			1524,
 			1526
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[174] = {
 		ship_group = 30609,
 		name = "Chiyoda",
 		type = 1,
@@ -7193,8 +7839,8 @@ pg.activity_ins_template = {
 			1534,
 			1536
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[175] = {
 		ship_group = 80801,
 		name = "P.P.O",
 		type = 1,
@@ -7234,8 +7880,8 @@ pg.activity_ins_template = {
 			1541,
 			1545
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[176] = {
 		ship_group = 30508,
 		name = "Tosa",
 		type = 1,
@@ -7275,8 +7921,8 @@ pg.activity_ins_template = {
 			1551,
 			1553
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[177] = {
 		ship_group = 30403,
 		name = "Haruna",
 		type = 1,
@@ -7317,8 +7963,8 @@ pg.activity_ins_template = {
 			1561,
 			1563
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[178] = {
 		ship_group = 39903,
 		name = "Kitakaze",
 		type = 1,
@@ -7358,8 +8004,8 @@ pg.activity_ins_template = {
 			1567,
 			1570
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[179] = {
 		ship_group = 70102,
 		name = "Grozny",
 		type = 1,
@@ -7399,8 +8045,8 @@ pg.activity_ins_template = {
 			1575,
 			1578
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[180] = {
 		ship_group = 30512,
 		name = "Kii",
 		type = 1,
@@ -7441,8 +8087,8 @@ pg.activity_ins_template = {
 			1585,
 			1588
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[181] = {
 		ship_group = 30111,
 		name = "RAI",
 		type = 1,
@@ -7482,8 +8128,8 @@ pg.activity_ins_template = {
 			1592,
 			1595
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[182] = {
 		ship_group = 10601,
 		name = "L.I.",
 		type = 1,
@@ -7524,8 +8170,8 @@ pg.activity_ins_template = {
 			1603,
 			1607
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[183] = {
 		ship_group = 49904,
 		name = "Odin",
 		type = 1,
@@ -7566,8 +8212,8 @@ pg.activity_ins_template = {
 			1616,
 			1618
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[184] = {
 		ship_group = 39902,
 		name = "Izumo",
 		type = 1,
@@ -7607,8 +8253,8 @@ pg.activity_ins_template = {
 			1623,
 			1627
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[185] = {
 		ship_group = 50203,
 		name = "PINGHAI",
 		type = 1,
@@ -7648,8 +8294,8 @@ pg.activity_ins_template = {
 			1631,
 			1633
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[186] = {
 		ship_group = 29903,
 		name = "CaitSith",
 		type = 1,
@@ -7689,8 +8335,8 @@ pg.activity_ins_template = {
 			1638,
 			1642
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[187] = {
 		ship_group = 70203,
 		name = "Chapaev",
 		type = 1,
@@ -7731,8 +8377,8 @@ pg.activity_ins_template = {
 			1650,
 			1652
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[188] = {
 		ship_group = 10324,
 		name = "Bremerton",
 		type = 1,
@@ -7772,8 +8418,8 @@ pg.activity_ins_template = {
 			1655,
 			1658
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[189] = {
 		ship_group = 60303,
 		name = "Pola",
 		type = 1,
@@ -7813,8 +8459,8 @@ pg.activity_ins_template = {
 			1665,
 			1668
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[190] = {
 		ship_group = 10226,
 		name = "HerosAides",
 		type = 1,
@@ -7855,8 +8501,8 @@ pg.activity_ins_template = {
 			1675,
 			1679
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[191] = {
 		ship_group = 80501,
 		name = "Richelieu",
 		type = 1,
@@ -7896,8 +8542,8 @@ pg.activity_ins_template = {
 			1683,
 			1685
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[192] = {
 		ship_group = 90401,
 		name = "gateaumistress",
 		type = 1,
@@ -7937,8 +8583,8 @@ pg.activity_ins_template = {
 			1690,
 			1694
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[193] = {
 		ship_group = 50201,
 		name = "Yi Xian",
 		type = 1,
@@ -7979,8 +8625,8 @@ pg.activity_ins_template = {
 			1701,
 			1704
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[194] = {
 		ship_group = 89902,
 		name = "ChangChun",
 		type = 1,
@@ -8020,8 +8666,8 @@ pg.activity_ins_template = {
 			1715,
 			1719
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[195] = {
 		ship_group = 50103,
 		name = "Champagne",
 		type = 1,
@@ -8061,8 +8707,8 @@ pg.activity_ins_template = {
 			1708,
 			1711
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[196] = {
 		ship_group = 20132,
 		name = "Eskimo",
 		type = 1,
@@ -8103,8 +8749,8 @@ pg.activity_ins_template = {
 			1726,
 			1728
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[197] = {
 		ship_group = 20204,
 		name = "Dido_Doll",
 		type = 1,
@@ -8145,8 +8791,8 @@ pg.activity_ins_template = {
 			1735,
 			1737
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[198] = {
 		ship_group = 29904,
 		name = "Drake",
 		type = 1,
@@ -8187,8 +8833,8 @@ pg.activity_ins_template = {
 			1743,
 			1745
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[199] = {
 		ship_group = 31901,
 		name = "Kashino",
 		type = 1,
@@ -8229,8 +8875,8 @@ pg.activity_ins_template = {
 			1751,
 			1753
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[200] = {
 		ship_group = 30318,
 		name = "Kuma✩",
 		type = 1,
@@ -8270,8 +8916,10 @@ pg.activity_ins_template = {
 			1756,
 			1760
 		}
-	},
-	{
+	}
+end)()
+(function ()
+	pg.base.activity_ins_template[201] = {
 		ship_group = 60502,
 		name = "VV_Littorio",
 		type = 1,
@@ -8311,8 +8959,8 @@ pg.activity_ins_template = {
 			1764,
 			1766
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[202] = {
 		ship_group = 70504,
 		name = "Proj23.Bel",
 		type = 1,
@@ -8353,8 +9001,8 @@ pg.activity_ins_template = {
 			1774,
 			1776
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[203] = {
 		ship_group = 70301,
 		name = "Tallinn",
 		type = 1,
@@ -8395,8 +9043,8 @@ pg.activity_ins_template = {
 			1784,
 			1786
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[204] = {
 		ship_group = 70206,
 		name = "Мурманск",
 		type = 1,
@@ -8437,8 +9085,8 @@ pg.activity_ins_template = {
 			1792,
 			1794
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[205] = {
 		ship_group = 70108,
 		name = "Громкий",
 		type = 1,
@@ -8479,8 +9127,8 @@ pg.activity_ins_template = {
 			1802,
 			1804
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[206] = {
 		ship_group = 70107,
 		name = "ремящий",
 		type = 1,
@@ -8521,8 +9169,8 @@ pg.activity_ins_template = {
 			1812,
 			1814
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[207] = {
 		ship_group = 70204,
 		name = "Киров",
 		type = 1,
@@ -8563,8 +9211,8 @@ pg.activity_ins_template = {
 			1820,
 			1823
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[208] = {
 		ship_group = 60106,
 		name = "Captain.Da.Recco",
 		type = 1,
@@ -8604,8 +9252,8 @@ pg.activity_ins_template = {
 			1827,
 			1831
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[209] = {
 		ship_group = 60501,
 		name = "VV_Veneto",
 		type = 1,
@@ -8647,8 +9295,8 @@ pg.activity_ins_template = {
 			1840,
 			1842
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[210] = {
 		ship_group = 60201,
 		name = "C_Abruzzi",
 		type = 1,
@@ -8689,8 +9337,8 @@ pg.activity_ins_template = {
 			1848,
 			1850
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[211] = {
 		ship_group = 60701,
 		name = "Aquila",
 		type = 1,
@@ -8730,8 +9378,8 @@ pg.activity_ins_template = {
 			1853,
 			1856
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[212] = {
 		ship_group = 60801,
 		name = "Torricelli",
 		type = 1,
@@ -8772,8 +9420,8 @@ pg.activity_ins_template = {
 			1863,
 			1866
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[213] = {
 		ship_group = 60104,
 		name = "Maestrale",
 		type = 1,
@@ -8813,8 +9461,8 @@ pg.activity_ins_template = {
 			1869,
 			1872
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[214] = {
 		ship_group = 60105,
 		name = "Libeccio",
 		type = 1,
@@ -8855,8 +9503,8 @@ pg.activity_ins_template = {
 			1879,
 			1881
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[215] = {
 		ship_group = 10714,
 		name = "Ticonderoga",
 		type = 1,
@@ -8896,8 +9544,8 @@ pg.activity_ins_template = {
 			1934,
 			1937
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[216] = {
 		ship_group = 10517,
 		name = "BlackDragon",
 		type = 1,
@@ -8938,8 +9586,8 @@ pg.activity_ins_template = {
 			1944,
 			1946
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[217] = {
 		ship_group = 10806,
 		name = "CharmArcher",
 		type = 1,
@@ -8980,8 +9628,8 @@ pg.activity_ins_template = {
 			1909,
 			1913
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[218] = {
 		ship_group = 30801,
 		name = "I19_sensuisenntai",
 		type = 1,
@@ -9022,8 +9670,8 @@ pg.activity_ins_template = {
 			1918,
 			1920
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[219] = {
 		ship_group = 10314,
 		name = "HappyEveryDay!",
 		type = 1,
@@ -9064,8 +9712,8 @@ pg.activity_ins_template = {
 			1926,
 			1929
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[220] = {
 		ship_group = 10229,
 		name = "USSBOISE",
 		type = 1,
@@ -9106,8 +9754,8 @@ pg.activity_ins_template = {
 			1899,
 			1901
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[221] = {
 		ship_group = 10147,
 		name = "Bear-MKII",
 		type = 1,
@@ -9148,8 +9796,8 @@ pg.activity_ins_template = {
 			1888,
 			1891
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[222] = {
 		ship_group = 50204,
 		name = "Yingrui",
 		type = 1,
@@ -9190,8 +9838,8 @@ pg.activity_ins_template = {
 			1953,
 			1955
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[223] = {
 		ship_group = 20705,
 		name = "Formidable",
 		type = 1,
@@ -9232,8 +9880,8 @@ pg.activity_ins_template = {
 			1964,
 			1967
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[224] = {
 		ship_group = 89902,
 		name = "Isuzuzu",
 		type = 1,
@@ -9274,8 +9922,8 @@ pg.activity_ins_template = {
 			1975,
 			1977
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[225] = {
 		ship_group = 30205,
 		name = "Champagne",
 		type = 1,
@@ -9315,8 +9963,8 @@ pg.activity_ins_template = {
 			1980,
 			1983
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[226] = {
 		ship_group = 40601,
 		name = "Weser",
 		type = 1,
@@ -9357,8 +10005,8 @@ pg.activity_ins_template = {
 			1991,
 			1995
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[227] = {
 		ship_group = 10112,
 		name = "L.B.Thatcher",
 		type = 1,
@@ -9398,8 +10046,8 @@ pg.activity_ins_template = {
 			1998,
 			2003
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[228] = {
 		ship_group = 70104,
 		name = "Ташкент",
 		type = 1,
@@ -9439,8 +10087,8 @@ pg.activity_ins_template = {
 			2008,
 			2012
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[229] = {
 		ship_group = 10209,
 		name = "Cleveland☆Knight",
 		type = 1,
@@ -9481,8 +10129,8 @@ pg.activity_ins_template = {
 			2018,
 			2021
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[230] = {
 		ship_group = 40703,
 		name = "FlugzeugträgerB ",
 		type = 1,
@@ -9522,8 +10170,8 @@ pg.activity_ins_template = {
 			2025,
 			2029
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[231] = {
 		ship_group = 10214,
 		name = "Cleve-FC.1",
 		type = 1,
@@ -9564,8 +10212,8 @@ pg.activity_ins_template = {
 			2036,
 			2039
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[232] = {
 		ship_group = 20224,
 		name = "White Princess",
 		type = 1,
@@ -9605,8 +10253,8 @@ pg.activity_ins_template = {
 			2042,
 			2044
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[233] = {
 		ship_group = 20703,
 		name = "Illustrious",
 		type = 1,
@@ -9646,8 +10294,8 @@ pg.activity_ins_template = {
 			2048,
 			2051
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[234] = {
 		ship_group = 49902,
 		name = "SymphonicStigma",
 		type = 1,
@@ -9687,8 +10335,8 @@ pg.activity_ins_template = {
 			2057,
 			2060
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[235] = {
 		ship_group = 1070004,
 		name = "Azusa_Miura",
 		type = 1,
@@ -9728,8 +10376,8 @@ pg.activity_ins_template = {
 			2066,
 			2070
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[236] = {
 		ship_group = 1070001,
 		name = "Haruka_Amami",
 		type = 1,
@@ -9770,8 +10418,8 @@ pg.activity_ins_template = {
 			2080,
 			2082
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[237] = {
 		ship_group = 1070002,
 		name = "Chihaya_Kisaragi",
 		type = 1,
@@ -9813,8 +10461,8 @@ pg.activity_ins_template = {
 			2094,
 			2097
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[238] = {
 		ship_group = 1070003,
 		name = "Iori_Minase",
 		type = 1,
@@ -9854,8 +10502,8 @@ pg.activity_ins_template = {
 			2102,
 			2105
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[239] = {
 		ship_group = 1070005,
 		name = "Ritsuko_Akizuki",
 		type = 1,
@@ -9896,8 +10544,8 @@ pg.activity_ins_template = {
 			2115,
 			2117
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[240] = {
 		ship_group = 1070006,
 		name = "Ami_Futami",
 		type = 1,
@@ -9937,8 +10585,8 @@ pg.activity_ins_template = {
 			2122,
 			2125
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[241] = {
 		ship_group = 1070007,
 		name = "Mami_Futami",
 		type = 1,
@@ -9978,8 +10626,8 @@ pg.activity_ins_template = {
 			2131,
 			2134
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[242] = {
 		ship_group = 30207,
 		name = "Yura",
 		type = 1,
@@ -10019,8 +10667,8 @@ pg.activity_ins_template = {
 			2140,
 			2142
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[243] = {
 		ship_group = 30129,
 		name = "Hayaizo",
 		type = 1,
@@ -10061,8 +10709,8 @@ pg.activity_ins_template = {
 			2150,
 			2152
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[244] = {
 		ship_group = 30712,
 		name = "Misato",
 		type = 1,
@@ -10102,8 +10750,8 @@ pg.activity_ins_template = {
 			2158,
 			2160
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[245] = {
 		ship_group = 30306,
 		name = "ChiKUMA",
 		type = 1,
@@ -10143,8 +10791,8 @@ pg.activity_ins_template = {
 			2166,
 			2169
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[246] = {
 		ship_group = 30147,
 		name = "Umikaze",
 		type = 1,
@@ -10184,8 +10832,8 @@ pg.activity_ins_template = {
 			2177,
 			2180
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[247] = {
 		ship_group = 30148,
 		name = "Yamakaze",
 		type = 1,
@@ -10225,8 +10873,8 @@ pg.activity_ins_template = {
 			2185,
 			2187
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[248] = {
 		ship_group = 30114,
 		name = "NikuSuki",
 		type = 1,
@@ -10266,8 +10914,8 @@ pg.activity_ins_template = {
 			2193,
 			2195
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[249] = {
 		ship_group = 30707,
 		name = "OutrangeTH",
 		type = 1,
@@ -10308,8 +10956,8 @@ pg.activity_ins_template = {
 			2203,
 			2205
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[250] = {
 		ship_group = 80201,
 		name = "DancerEmile",
 		type = 1,
@@ -10349,8 +10997,8 @@ pg.activity_ins_template = {
 			2211,
 			2214
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[251] = {
 		ship_group = 30165,
 		name = "Michishio ",
 		type = 1,
@@ -10391,8 +11039,8 @@ pg.activity_ins_template = {
 			2222,
 			2224
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[252] = {
 		ship_group = 20112,
 		name = "Fortune",
 		type = 1,
@@ -10432,8 +11080,8 @@ pg.activity_ins_template = {
 			2232,
 			2237
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[253] = {
 		ship_group = 90111,
 		name = "VivaLaze",
 		type = 1,
@@ -10473,8 +11121,8 @@ pg.activity_ins_template = {
 			2242,
 			2245
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[254] = {
 		ship_group = 10519,
 		name = "2700P.Justice",
 		type = 1,
@@ -10515,8 +11163,8 @@ pg.activity_ins_template = {
 			2252,
 			2254
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[255] = {
 		ship_group = 10306,
 		name = "INDI_LOVE",
 		type = 1,
@@ -10556,8 +11204,8 @@ pg.activity_ins_template = {
 			2260,
 			2262
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[256] = {
 		ship_group = 40205,
 		name = "Nürnberg",
 		type = 1,
@@ -10597,8 +11245,8 @@ pg.activity_ins_template = {
 			2268,
 			2270
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[257] = {
 		ship_group = 1080001,
 		name = "Rikka",
 		type = 1,
@@ -10638,8 +11286,8 @@ pg.activity_ins_template = {
 			2276,
 			2278
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[258] = {
 		ship_group = 1080002,
 		name = "Akane",
 		type = 1,
@@ -10679,8 +11327,8 @@ pg.activity_ins_template = {
 			2285,
 			2288
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[259] = {
 		ship_group = 1080004,
 		name = "Namiko",
 		type = 1,
@@ -10721,8 +11369,8 @@ pg.activity_ins_template = {
 			2296,
 			2299
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[260] = {
 		ship_group = 1080003,
 		name = "Hass",
 		type = 1,
@@ -10763,8 +11411,8 @@ pg.activity_ins_template = {
 			2306,
 			2308
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[261] = {
 		ship_group = 1080005,
 		name = "Yume",
 		type = 1,
@@ -10804,8 +11452,8 @@ pg.activity_ins_template = {
 			2313,
 			2316
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[262] = {
 		ship_group = 1080006,
 		name = "Chise",
 		type = 1,
@@ -10845,8 +11493,8 @@ pg.activity_ins_template = {
 			2322,
 			2325
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[263] = {
 		ship_group = 1080007,
 		name = "Mujina",
 		type = 1,
@@ -10886,8 +11534,8 @@ pg.activity_ins_template = {
 			2330,
 			2333
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[264] = {
 		ship_group = 40503,
 		name = "U.V.Hutten",
 		type = 1,
@@ -10928,8 +11576,8 @@ pg.activity_ins_template = {
 			2340,
 			2343
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[265] = {
 		ship_group = 40310,
 		name = "PrinzAdalbert",
 		type = 1,
@@ -10969,8 +11617,8 @@ pg.activity_ins_template = {
 			2348,
 			2352
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[266] = {
 		ship_group = 40206,
 		name = "Magdeburg",
 		type = 1,
@@ -11011,8 +11659,8 @@ pg.activity_ins_template = {
 			2361,
 			2363
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[267] = {
 		ship_group = 40602,
 		name = "Elbe",
 		type = 1,
@@ -11052,8 +11700,8 @@ pg.activity_ins_template = {
 			2368,
 			2372
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[268] = {
 		ship_group = 40812,
 		name = "U.B.1206",
 		type = 1,
@@ -11094,8 +11742,8 @@ pg.activity_ins_template = {
 			2381,
 			2384
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[269] = {
 		ship_group = 39905,
 		name = "Hakuryū",
 		type = 1,
@@ -11135,8 +11783,8 @@ pg.activity_ins_template = {
 			2390,
 			2393
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[270] = {
 		ship_group = 20229,
 		name = "Penelope",
 		type = 1,
@@ -11176,8 +11824,8 @@ pg.activity_ins_template = {
 			2399,
 			2402
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[271] = {
 		ship_group = 10802,
 		name = "G_Albacore",
 		type = 1,
@@ -11218,8 +11866,8 @@ pg.activity_ins_template = {
 			2411,
 			2413
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[272] = {
 		ship_group = 20133,
 		name = "Icarus_Wing",
 		type = 1,
@@ -11260,8 +11908,8 @@ pg.activity_ins_template = {
 			2423,
 			2425
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[273] = {
 		ship_group = 30314,
 		name = "ToriUmi",
 		type = 1,
@@ -11301,8 +11949,8 @@ pg.activity_ins_template = {
 			2430,
 			2434
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[274] = {
 		ship_group = 50601,
 		name = "ChenHai",
 		type = 1,
@@ -11343,8 +11991,8 @@ pg.activity_ins_template = {
 			2442,
 			2444
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[275] = {
 		ship_group = 10149,
 		name = "Bristol",
 		type = 1,
@@ -11385,8 +12033,8 @@ pg.activity_ins_template = {
 			2451,
 			2453
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[276] = {
 		ship_group = 20230,
 		name = "Charybdis",
 		type = 1,
@@ -11427,8 +12075,8 @@ pg.activity_ins_template = {
 			2461,
 			2463
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[277] = {
 		ship_group = 30163,
 		name = "Asashio",
 		type = 1,
@@ -11469,8 +12117,8 @@ pg.activity_ins_template = {
 			2470,
 			2472
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[278] = {
 		ship_group = 50207,
 		name = "HaiTien",
 		type = 1,
@@ -11511,8 +12159,8 @@ pg.activity_ins_template = {
 			2481,
 			2484
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[279] = {
 		ship_group = 30182,
 		name = "FlowerMoon",
 		type = 1,
@@ -11552,8 +12200,8 @@ pg.activity_ins_template = {
 			2489,
 			2492
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[280] = {
 		ship_group = 20227,
 		name = "Hermione",
 		type = 1,
@@ -11593,8 +12241,8 @@ pg.activity_ins_template = {
 			2498,
 			2500
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[281] = {
 		ship_group = 30105,
 		name = "AYANAMIN",
 		type = 1,
@@ -11634,8 +12282,8 @@ pg.activity_ins_template = {
 			2510,
 			2515
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[282] = {
 		ship_group = 10503,
 		name = "Pennsylvania",
 		type = 1,
@@ -11676,8 +12324,8 @@ pg.activity_ins_template = {
 			2524,
 			2526
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[283] = {
 		ship_group = 50208,
 		name = "HaiChi",
 		type = 1,
@@ -11718,8 +12366,8 @@ pg.activity_ins_template = {
 			2535,
 			2537
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[284] = {
 		ship_group = 71801,
 		name = "Кронштадт",
 		type = 1,
@@ -11759,8 +12407,8 @@ pg.activity_ins_template = {
 			2542,
 			2545
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[285] = {
 		ship_group = 70110,
 		name = "Киев",
 		type = 1,
@@ -11800,8 +12448,8 @@ pg.activity_ins_template = {
 			2555,
 			2557
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[286] = {
 		ship_group = 70701,
 		name = "Волга",
 		type = 1,
@@ -11841,8 +12489,8 @@ pg.activity_ins_template = {
 			2564,
 			2566
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[287] = {
 		ship_group = 70109,
 		name = "Сообразительный",
 		type = 1,
@@ -11883,8 +12531,8 @@ pg.activity_ins_template = {
 			2574,
 			2576
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[288] = {
 		ship_group = 70506,
 		name = "Архангельск",
 		type = 1,
@@ -11924,8 +12572,8 @@ pg.activity_ins_template = {
 			2581,
 			2584
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[289] = {
 		ship_group = 60107,
 		name = "PompeyTheGreat",
 		type = 1,
@@ -11965,8 +12613,8 @@ pg.activity_ins_template = {
 			2589,
 			2592
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[290] = {
 		ship_group = 60304,
 		name = "Trieste",
 		type = 1,
@@ -12006,8 +12654,8 @@ pg.activity_ins_template = {
 			2598,
 			2601
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[291] = {
 		ship_group = 60702,
 		name = "orepmI",
 		type = 1,
@@ -12047,8 +12695,8 @@ pg.activity_ins_template = {
 			2607,
 			2611
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[292] = {
 		ship_group = 30401,
 		name = "BarrowYoko",
 		type = 1,
@@ -12089,8 +12737,8 @@ pg.activity_ins_template = {
 			2618,
 			2622
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[293] = {
 		ship_group = 30164,
 		name = "Ooshio",
 		type = 1,
@@ -12131,8 +12779,8 @@ pg.activity_ins_template = {
 			2629,
 			2631
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[294] = {
 		ship_group = 10806,
 		name = "CharmArcher",
 		type = 1,
@@ -12172,8 +12820,8 @@ pg.activity_ins_template = {
 			2639,
 			2643
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[295] = {
 		ship_group = 40207,
 		name = "Emden ",
 		type = 1,
@@ -12214,8 +12862,8 @@ pg.activity_ins_template = {
 			2653,
 			2655
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[296] = {
 		ship_group = 40404,
 		name = "Lützow ",
 		type = 1,
@@ -12255,8 +12903,8 @@ pg.activity_ins_template = {
 			2660,
 			2664
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[297] = {
 		ship_group = 40208,
 		name = "Elbing ",
 		type = 1,
@@ -12297,8 +12945,8 @@ pg.activity_ins_template = {
 			2672,
 			2674
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[298] = {
 		ship_group = 40311,
 		name = "Yorck ",
 		type = 1,
@@ -12338,8 +12986,8 @@ pg.activity_ins_template = {
 			2679,
 			2682
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[299] = {
 		ship_group = 40504,
 		name = "Thüringen ",
 		type = 1,
@@ -12380,8 +13028,8 @@ pg.activity_ins_template = {
 			2689,
 			2691
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[300] = {
 		ship_group = 40403,
 		name = "Seydlitz ",
 		type = 1,
@@ -12422,8 +13070,10 @@ pg.activity_ins_template = {
 			2700,
 			2702
 		}
-	},
-	{
+	}
+end)()
+(function ()
+	pg.base.activity_ins_template[301] = {
 		ship_group = 20513,
 		name = "Vanguard",
 		type = 1,
@@ -12463,8 +13113,8 @@ pg.activity_ins_template = {
 			2710,
 			2712
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[302] = {
 		ship_group = 20712,
 		name = "Indomitable",
 		type = 1,
@@ -12505,8 +13155,8 @@ pg.activity_ins_template = {
 			2723,
 			2726
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[303] = {
 		ship_group = 20134,
 		name = "Jervis",
 		type = 1,
@@ -12547,8 +13197,8 @@ pg.activity_ins_template = {
 			2733,
 			2735
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[304] = {
 		ship_group = 20231,
 		name = "Bellona",
 		type = 1,
@@ -12589,8 +13239,8 @@ pg.activity_ins_template = {
 			2745,
 			2749
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[305] = {
 		ship_group = 20510,
 		name = "Cmdr_Valiant",
 		type = 1,
@@ -12630,8 +13280,8 @@ pg.activity_ins_template = {
 			2756,
 			2758
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[306] = {
 		ship_group = 40303,
 		name = "P.Eugen",
 		type = 1,
@@ -12671,8 +13321,8 @@ pg.activity_ins_template = {
 			2765,
 			2769
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[307] = {
 		ship_group = 49905,
 		name = "Aegir",
 		type = 1,
@@ -12712,8 +13362,8 @@ pg.activity_ins_template = {
 			2775,
 			2778
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[308] = {
 		ship_group = 20509,
 		name = "Howe_Cookies",
 		type = 1,
@@ -12754,8 +13404,8 @@ pg.activity_ins_template = {
 			2786,
 			2788
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[309] = {
 		ship_group = 70102,
 		name = "Grozny",
 		type = 1,
@@ -12795,8 +13445,8 @@ pg.activity_ins_template = {
 			2793,
 			2797
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[310] = {
 		ship_group = 30608,
 		name = "Chitose",
 		type = 1,
@@ -12836,8 +13486,8 @@ pg.activity_ins_template = {
 			2805,
 			2808
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[311] = {
 		ship_group = 40502,
 		name = "Tirpitz",
 		type = 1,
@@ -12877,8 +13527,8 @@ pg.activity_ins_template = {
 			2815,
 			2818
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[312] = {
 		ship_group = 49901,
 		name = "RoonDESU",
 		type = 1,
@@ -12918,8 +13568,8 @@ pg.activity_ins_template = {
 			2824,
 			2826
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[313] = {
 		ship_group = 10229,
 		name = "USSBOISE",
 		type = 1,
@@ -12960,8 +13610,8 @@ pg.activity_ins_template = {
 			2835,
 			2837
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[314] = {
 		ship_group = 90101,
 		name = "LeMars ",
 		type = 1,
@@ -13001,8 +13651,8 @@ pg.activity_ins_template = {
 			2844,
 			2846
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[315] = {
 		ship_group = 30129,
 		name = "Hayaizo",
 		type = 1,
@@ -13043,8 +13693,8 @@ pg.activity_ins_template = {
 			2858,
 			2860
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[316] = {
 		ship_group = 90113,
 		name = "L'Indomptable",
 		type = 1,
@@ -13085,8 +13735,8 @@ pg.activity_ins_template = {
 			2867,
 			2869
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[317] = {
 		ship_group = 90701,
 		name = "Joffre",
 		type = 1,
@@ -13126,8 +13776,8 @@ pg.activity_ins_template = {
 			2875,
 			2878
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[318] = {
 		ship_group = 30213,
 		name = "Jintuu",
 		type = 1,
@@ -13168,8 +13818,8 @@ pg.activity_ins_template = {
 			2887,
 			2889
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[319] = {
 		ship_group = 10225,
 		name = "Biloxi",
 		type = 1,
@@ -13209,8 +13859,8 @@ pg.activity_ins_template = {
 			2895,
 			2897
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[320] = {
 		ship_group = 20232,
 		name = "RoyalMaid.E",
 		type = 1,
@@ -13251,8 +13901,8 @@ pg.activity_ins_template = {
 			2907,
 			2909
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[321] = {
 		ship_group = 60503,
 		name = "Roma ",
 		type = 1,
@@ -13293,8 +13943,8 @@ pg.activity_ins_template = {
 			2917,
 			2920
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[322] = {
 		ship_group = 60802,
 		name = "DaVinci ",
 		type = 1,
@@ -13335,8 +13985,8 @@ pg.activity_ins_template = {
 			2930,
 			2933
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[323] = {
 		ship_group = 60202,
 		name = "Giuseppe ",
 		type = 1,
@@ -13376,8 +14026,8 @@ pg.activity_ins_template = {
 			2940,
 			2944
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[324] = {
 		ship_group = 60109,
 		name = "Emanuele ",
 		type = 1,
@@ -13417,8 +14067,8 @@ pg.activity_ins_template = {
 			2951,
 			2953
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[325] = {
 		ship_group = 60108,
 		name = "Alfredo ",
 		type = 1,
@@ -13459,8 +14109,8 @@ pg.activity_ins_template = {
 			2962,
 			2967
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[326] = {
 		ship_group = 60305,
 		name = "Bolzano ",
 		type = 1,
@@ -13500,8 +14150,8 @@ pg.activity_ins_template = {
 			2972,
 			2974
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[327] = {
 		ship_group = 30510,
 		name = "Musashi",
 		type = 1,
@@ -13542,8 +14192,8 @@ pg.activity_ins_template = {
 			2983,
 			2986
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[328] = {
 		ship_group = 30223,
 		name = "Sakawa ",
 		type = 1,
@@ -13584,8 +14234,8 @@ pg.activity_ins_template = {
 			2994,
 			2997
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[329] = {
 		ship_group = 30187,
 		name = "Wakatsuki",
 		type = 1,
@@ -13626,8 +14276,8 @@ pg.activity_ins_template = {
 			3005,
 			3008
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[330] = {
 		ship_group = 30104,
 		name = "Miyuki ",
 		type = 1,
@@ -13667,8 +14317,8 @@ pg.activity_ins_template = {
 			3013,
 			3015
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[331] = {
 		ship_group = 30310,
 		name = "Haguro ",
 		type = 1,
@@ -13708,8 +14358,8 @@ pg.activity_ins_template = {
 			3022,
 			3026
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[332] = {
 		ship_group = 50601,
 		name = "ChenHai",
 		type = 1,
@@ -13750,8 +14400,8 @@ pg.activity_ins_template = {
 			3035,
 			3039
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[333] = {
 		ship_group = 80108,
 		name = "Brézé",
 		type = 1,
@@ -13791,8 +14441,8 @@ pg.activity_ins_template = {
 			3045,
 			3050
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[334] = {
 		ship_group = 10501,
 		name = "Nevada",
 		type = 1,
@@ -13833,8 +14483,8 @@ pg.activity_ins_template = {
 			3059,
 			3061
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[335] = {
 		ship_group = 30505,
 		name = "SakuraCombinedFleet",
 		type = 1,
@@ -13874,8 +14524,8 @@ pg.activity_ins_template = {
 			3067,
 			3071
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[336] = {
 		ship_group = 29901,
 		name = "Neptune",
 		type = 1,
@@ -13915,8 +14565,8 @@ pg.activity_ins_template = {
 			3078,
 			3080
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[337] = {
 		ship_group = 10207,
 		name = "Juneau",
 		type = 1,
@@ -13956,8 +14606,8 @@ pg.activity_ins_template = {
 			3086,
 			3090
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[338] = {
 		ship_group = 20135,
 		name = "Janus",
 		type = 1,
@@ -13998,8 +14648,8 @@ pg.activity_ins_template = {
 			3099,
 			3101
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[339] = {
 		ship_group = 20607,
 		name = "Albion",
 		type = 1,
@@ -14039,8 +14689,8 @@ pg.activity_ins_template = {
 			3106,
 			3110
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[340] = {
 		ship_group = 20209,
 		name = "Manchester",
 		type = 1,
@@ -14080,8 +14730,8 @@ pg.activity_ins_template = {
 			3116,
 			3120
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[341] = {
 		ship_group = 10502,
 		name = "Oklahoma",
 		type = 1,
@@ -14122,8 +14772,8 @@ pg.activity_ins_template = {
 			3129,
 			3131
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[342] = {
 		ship_group = 1090001,
 		name = "Reisalin Stout",
 		type = 1,
@@ -14164,8 +14814,8 @@ pg.activity_ins_template = {
 			3141,
 			3143
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[343] = {
 		ship_group = 1090002,
 		name = "Klaudia Valentz",
 		type = 1,
@@ -14206,8 +14856,8 @@ pg.activity_ins_template = {
 			3150,
 			3152
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[344] = {
 		ship_group = 1090003,
 		name = "Patricia Abelheim",
 		type = 1,
@@ -14247,8 +14897,8 @@ pg.activity_ins_template = {
 			3157,
 			3159
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[345] = {
 		ship_group = 1090005,
 		name = "Serri Glaus",
 		type = 1,
@@ -14288,8 +14938,8 @@ pg.activity_ins_template = {
 			3165,
 			3168
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[346] = {
 		ship_group = 1090004,
 		name = "Lila Decyrus",
 		type = 1,
@@ -14330,8 +14980,8 @@ pg.activity_ins_template = {
 			3176,
 			3178
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[347] = {
 		ship_group = 10707,
 		name = "CarVesGAL6",
 		type = 1,
@@ -14372,8 +15022,8 @@ pg.activity_ins_template = {
 			3186,
 			3188
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[348] = {
 		ship_group = 10705,
 		name = "YorkTown",
 		type = 1,
@@ -14414,8 +15064,8 @@ pg.activity_ins_template = {
 			3195,
 			3197
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[349] = {
 		ship_group = 10125,
 		name = "DD_Hammann",
 		type = 1,
@@ -14456,8 +15106,8 @@ pg.activity_ins_template = {
 			3208,
 			3210
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[350] = {
 		ship_group = 10303,
 		name = "Northampton",
 		type = 1,
@@ -14497,8 +15147,8 @@ pg.activity_ins_template = {
 			3215,
 			3217
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[351] = {
 		ship_group = 10701,
 		name = "Langley",
 		type = 1,
@@ -14538,8 +15188,8 @@ pg.activity_ins_template = {
 			3225,
 			3228
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[352] = {
 		ship_group = 51901,
 		name = "Ting An",
 		type = 1,
@@ -14580,8 +15230,8 @@ pg.activity_ins_template = {
 			3236,
 			3239
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[353] = {
 		ship_group = 20608,
 		name = "Theseus",
 		type = 1,
@@ -14622,8 +15272,8 @@ pg.activity_ins_template = {
 			3246,
 			3248
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[354] = {
 		ship_group = 70205,
 		name = "Kuybyshev",
 		type = 1,
@@ -14663,8 +15313,8 @@ pg.activity_ins_template = {
 			3253,
 			3256
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[355] = {
 		ship_group = 50602,
 		name = "Hua Jia",
 		type = 1,
@@ -14704,8 +15354,8 @@ pg.activity_ins_template = {
 			3262,
 			3264
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[356] = {
 		ship_group = 50201,
 		name = "Yi Xian",
 		type = 1,
@@ -14746,8 +15396,8 @@ pg.activity_ins_template = {
 			3273,
 			3277
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[357] = {
 		ship_group = 89903,
 		name = "Brest",
 		type = 1,
@@ -14787,8 +15437,8 @@ pg.activity_ins_template = {
 			3282,
 			3284
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[358] = {
 		ship_group = 29905,
 		name = "Plymouth",
 		type = 1,
@@ -14828,8 +15478,8 @@ pg.activity_ins_template = {
 			3291,
 			3295
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[359] = {
 		ship_group = 59901,
 		name = "Bin Jiang",
 		type = 1,
@@ -14870,8 +15520,8 @@ pg.activity_ins_template = {
 			3303,
 			3305
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[360] = {
 		ship_group = 79901,
 		name = "Chkalov",
 		type = 1,
@@ -14912,8 +15562,8 @@ pg.activity_ins_template = {
 			3314,
 			3317
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[361] = {
 		ship_group = 49907,
 		name = "Prinz-Rupprecht",
 		type = 1,
@@ -14954,8 +15604,8 @@ pg.activity_ins_template = {
 			3324,
 			3326
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[362] = {
 		ship_group = 20707,
 		name = "Implacable",
 		type = 1,
@@ -14996,8 +15646,8 @@ pg.activity_ins_template = {
 			3335,
 			3337
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[363] = {
 		ship_group = 20233,
 		name = "Scylla",
 		type = 1,
@@ -15038,8 +15688,8 @@ pg.activity_ins_template = {
 			3344,
 			3346
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[364] = {
 		ship_group = 20602,
 		name = "Argus",
 		type = 1,
@@ -15079,8 +15729,8 @@ pg.activity_ins_template = {
 			3351,
 			3354
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[365] = {
 		ship_group = 20514,
 		name = "RoyalOak",
 		type = 1,
@@ -15121,8 +15771,8 @@ pg.activity_ins_template = {
 			3361,
 			3364
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[366] = {
 		ship_group = 20136,
 		name = "Hero",
 		type = 1,
@@ -15162,8 +15812,8 @@ pg.activity_ins_template = {
 			3369,
 			3372
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[367] = {
 		ship_group = 70207,
 		name = "Voroshilov",
 		type = 1,
@@ -15204,8 +15854,8 @@ pg.activity_ins_template = {
 			3380,
 			3383
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[368] = {
 		ship_group = 70302,
 		name = "Kursk",
 		type = 1,
@@ -15247,8 +15897,8 @@ pg.activity_ins_template = {
 			3393,
 			3395
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[369] = {
 		ship_group = 70507,
 		name = "Sevastopol",
 		type = 1,
@@ -15289,8 +15939,8 @@ pg.activity_ins_template = {
 			3403,
 			3406
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[370] = {
 		ship_group = 40501,
 		name = "Bismarck",
 		type = 1,
@@ -15331,8 +15981,8 @@ pg.activity_ins_template = {
 			3414,
 			3416
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[371] = {
 		ship_group = 40210,
 		name = "Regensburg",
 		type = 1,
@@ -15373,8 +16023,8 @@ pg.activity_ins_template = {
 			3424,
 			3428
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_template[372] = {
 		ship_group = 40603,
 		name = "Jade",
 		type = 1,
@@ -15414,8 +16064,8 @@ pg.activity_ins_template = {
 			3433,
 			3438
 		}
-	},
-	[375] = {
+	}
+	pg.base.activity_ins_template[375] = {
 		ship_group = 20603,
 		name = "UnicornI72",
 		type = 1,
@@ -15456,8 +16106,8 @@ pg.activity_ins_template = {
 			3456,
 			3458
 		}
-	},
-	[376] = {
+	}
+	pg.base.activity_ins_template[376] = {
 		ship_group = 40309,
 		name = "Eisen_Fight",
 		type = 1,
@@ -15497,8 +16147,8 @@ pg.activity_ins_template = {
 			3463,
 			3467
 		}
-	},
-	[377] = {
+	}
+	pg.base.activity_ins_template[377] = {
 		ship_group = 30105,
 		name = "AYANAMIN",
 		type = 1,
@@ -15539,8 +16189,8 @@ pg.activity_ins_template = {
 			3475,
 			3478
 		}
-	},
-	[378] = {
+	}
+	pg.base.activity_ins_template[378] = {
 		ship_group = 30405,
 		name = "Amagi",
 		type = 1,
@@ -15581,8 +16231,8 @@ pg.activity_ins_template = {
 			3487,
 			3490
 		}
-	},
-	[379] = {
+	}
+	pg.base.activity_ins_template[379] = {
 		ship_group = 70203,
 		name = "Chapaev",
 		type = 1,
@@ -15622,8 +16272,8 @@ pg.activity_ins_template = {
 			3496,
 			3500
 		}
-	},
-	[380] = {
+	}
+	pg.base.activity_ins_template[380] = {
 		ship_group = 60306,
 		name = "Gorizia",
 		type = 1,
@@ -15664,8 +16314,8 @@ pg.activity_ins_template = {
 			3508,
 			3510
 		}
-	},
-	[381] = {
+	}
+	pg.base.activity_ins_template[381] = {
 		ship_group = 60110,
 		name = "Attilio",
 		type = 1,
@@ -15706,8 +16356,8 @@ pg.activity_ins_template = {
 			3519,
 			3521
 		}
-	},
-	[382] = {
+	}
+	pg.base.activity_ins_template[382] = {
 		ship_group = 60507,
 		name = "Andrea",
 		type = 1,
@@ -15748,8 +16398,8 @@ pg.activity_ins_template = {
 			3530,
 			3532
 		}
-	},
-	[390] = {
+	}
+	pg.base.activity_ins_template[390] = {
 		ship_group = 90502,
 		name = "Clemenceau",
 		type = 1,
@@ -15790,8 +16440,8 @@ pg.activity_ins_template = {
 			3541,
 			3543
 		}
-	},
-	[391] = {
+	}
+	pg.base.activity_ins_template[391] = {
 		ship_group = 80702,
 		name = "Painlevé",
 		type = 1,
@@ -15832,8 +16482,8 @@ pg.activity_ins_template = {
 			3550,
 			3552
 		}
-	},
-	[392] = {
+	}
+	pg.base.activity_ins_template[392] = {
 		ship_group = 80203,
 		name = "Guichen",
 		type = 1,
@@ -15873,8 +16523,8 @@ pg.activity_ins_template = {
 			3556,
 			3558
 		}
-	},
-	[393] = {
+	}
+	pg.base.activity_ins_template[393] = {
 		ship_group = 80301,
 		name = "Suffren",
 		type = 1,
@@ -15915,8 +16565,8 @@ pg.activity_ins_template = {
 			3566,
 			3570
 		}
-	},
-	[394] = {
+	}
+	pg.base.activity_ins_template[394] = {
 		ship_group = 80502,
 		name = "Lyon",
 		type = 1,
@@ -15957,8 +16607,8 @@ pg.activity_ins_template = {
 			3577,
 			3579
 		}
-	},
-	[395] = {
+	}
+	pg.base.activity_ins_template[395] = {
 		ship_group = 90104,
 		name = "Kersaint",
 		type = 1,
@@ -15998,8 +16648,8 @@ pg.activity_ins_template = {
 			3584,
 			3589
 		}
-	},
-	[396] = {
+	}
+	pg.base.activity_ins_template[396] = {
 		ship_group = 30319,
 		name = "Unzen",
 		type = 1,
@@ -16040,8 +16690,8 @@ pg.activity_ins_template = {
 			3596,
 			3599
 		}
-	},
-	[397] = {
+	}
+	pg.base.activity_ins_template[397] = {
 		ship_group = 30513,
 		name = "owari",
 		type = 1,
@@ -16082,8 +16732,8 @@ pg.activity_ins_template = {
 			3605,
 			3610
 		}
-	},
-	[398] = {
+	}
+	pg.base.activity_ins_template[398] = {
 		ship_group = 30189,
 		name = "Hatsuzuki",
 		type = 1,
@@ -16124,8 +16774,8 @@ pg.activity_ins_template = {
 			3620,
 			3624
 		}
-	},
-	[399] = {
+	}
+	pg.base.activity_ins_template[399] = {
 		ship_group = 30206,
 		name = "Natori ",
 		type = 1,
@@ -16165,8 +16815,8 @@ pg.activity_ins_template = {
 			3629,
 			3633
 		}
-	},
-	[400] = {
+	}
+	pg.base.activity_ins_template[400] = {
 		ship_group = 30190,
 		name = "Asanagi",
 		type = 1,
@@ -16207,8 +16857,8 @@ pg.activity_ins_template = {
 			3639,
 			3641
 		}
-	},
-	[401] = {
+	}
+	pg.base.activity_ins_template[401] = {
 		ship_group = 31901,
 		name = "Kashino",
 		type = 1,
@@ -16249,8 +16899,8 @@ pg.activity_ins_template = {
 			3648,
 			3652
 		}
-	},
-	[402] = {
+	}
+	pg.base.activity_ins_template[402] = {
 		ship_group = 39905,
 		name = "Hakuryū",
 		type = 1,
@@ -16291,8 +16941,8 @@ pg.activity_ins_template = {
 			3658,
 			3661
 		}
-	},
-	[403] = {
+	}
+	pg.base.activity_ins_template[403] = {
 		ship_group = 30708,
 		name = "Shinano",
 		type = 1,
@@ -16332,8 +16982,8 @@ pg.activity_ins_template = {
 			3664,
 			3668
 		}
-	},
-	[404] = {
+	}
+	pg.base.activity_ins_template[404] = {
 		ship_group = 20506,
 		name = "TywysogWales",
 		type = 1,
@@ -16373,8 +17023,8 @@ pg.activity_ins_template = {
 			3673,
 			3675
 		}
-	},
-	[405] = {
+	}
+	pg.base.activity_ins_template[405] = {
 		ship_group = 20602,
 		name = "Argus",
 		type = 1,
@@ -16414,8 +17064,8 @@ pg.activity_ins_template = {
 			3680,
 			3685
 		}
-	},
-	[406] = {
+	}
+	pg.base.activity_ins_template[406] = {
 		ship_group = 20121,
 		name = "Javelin☆",
 		type = 1,
@@ -16455,8 +17105,8 @@ pg.activity_ins_template = {
 			3690,
 			3693
 		}
-	},
-	[407] = {
+	}
+	pg.base.activity_ins_template[407] = {
 		ship_group = 40123,
 		name = "Zerstörer.23",
 		type = 1,
@@ -16497,8 +17147,8 @@ pg.activity_ins_template = {
 			3701,
 			3705
 		}
-	},
-	[408] = {
+	}
+	pg.base.activity_ins_template[408] = {
 		ship_group = 30223,
 		name = "Sakawa ",
 		type = 1,
@@ -16538,8 +17188,8 @@ pg.activity_ins_template = {
 			3711,
 			3713
 		}
-	},
-	[409] = {
+	}
+	pg.base.activity_ins_template[409] = {
 		ship_group = 40503,
 		name = "U.V.Hutten",
 		type = 1,
@@ -16579,8 +17229,10 @@ pg.activity_ins_template = {
 			3717,
 			3721
 		}
-	},
-	[410] = {
+	}
+end)()
+(function ()
+	pg.base.activity_ins_template[410] = {
 		ship_group = 10709,
 		name = "EssexG1",
 		type = 1,
@@ -16621,8 +17273,8 @@ pg.activity_ins_template = {
 			3729,
 			3732
 		}
-	},
-	[411] = {
+	}
+	pg.base.activity_ins_template[411] = {
 		ship_group = 960002,
 		name = "São Martinho",
 		type = 1,
@@ -16663,8 +17315,8 @@ pg.activity_ins_template = {
 			3739,
 			3742
 		}
-	},
-	[412] = {
+	}
+	pg.base.activity_ins_template[412] = {
 		ship_group = 960001,
 		name = "Royal Fortune",
 		type = 1,
@@ -16705,8 +17357,8 @@ pg.activity_ins_template = {
 			3754,
 			3757
 		}
-	},
-	[413] = {
+	}
+	pg.base.activity_ins_template[413] = {
 		ship_group = 960004,
 		name = "Mary Celeste",
 		type = 1,
@@ -16747,8 +17399,8 @@ pg.activity_ins_template = {
 			3768,
 			3771
 		}
-	},
-	[414] = {
+	}
+	pg.base.activity_ins_template[414] = {
 		ship_group = 50207,
 		name = "HaiTien",
 		type = 1,
@@ -16789,8 +17441,8 @@ pg.activity_ins_template = {
 			3783,
 			3785
 		}
-	},
-	[415] = {
+	}
+	pg.base.activity_ins_template[415] = {
 		ship_group = 960005,
 		name = "Whydah",
 		type = 1,
@@ -16830,8 +17482,8 @@ pg.activity_ins_template = {
 			3791,
 			3795
 		}
-	},
-	[416] = {
+	}
+	pg.base.activity_ins_template[416] = {
 		ship_group = 960003,
 		name = "Golden Hind",
 		type = 1,
@@ -16873,8 +17525,8 @@ pg.activity_ins_template = {
 			3807,
 			3809
 		}
-	},
-	[417] = {
+	}
+	pg.base.activity_ins_template[417] = {
 		ship_group = 960006,
 		name = "Adventure Galley",
 		type = 1,
@@ -16914,8 +17566,8 @@ pg.activity_ins_template = {
 			3816,
 			3820
 		}
-	},
-	[418] = {
+	}
+	pg.base.activity_ins_template[418] = {
 		ship_group = 1100001,
 		name = "Asuka",
 		type = 1,
@@ -16956,8 +17608,8 @@ pg.activity_ins_template = {
 			3832,
 			3835
 		}
-	},
-	[419] = {
+	}
+	pg.base.activity_ins_template[419] = {
 		ship_group = 1100007,
 		name = "Yūyaki",
 		type = 1,
@@ -16997,8 +17649,8 @@ pg.activity_ins_template = {
 			3842,
 			3845
 		}
-	},
-	[420] = {
+	}
+	pg.base.activity_ins_template[420] = {
 		ship_group = 1100006,
 		name = "Murasaki",
 		type = 1,
@@ -17038,8 +17690,8 @@ pg.activity_ins_template = {
 			3853,
 			3856
 		}
-	},
-	[421] = {
+	}
+	pg.base.activity_ins_template[421] = {
 		ship_group = 1100003,
 		name = "Homura",
 		type = 1,
@@ -17080,8 +17732,8 @@ pg.activity_ins_template = {
 			3868,
 			3871
 		}
-	},
-	[422] = {
+	}
+	pg.base.activity_ins_template[422] = {
 		ship_group = 1100005,
 		name = "Fubuki",
 		type = 1,
@@ -17121,8 +17773,8 @@ pg.activity_ins_template = {
 			3877,
 			3880
 		}
-	},
-	[423] = {
+	}
+	pg.base.activity_ins_template[423] = {
 		ship_group = 1100004,
 		name = "Yumi",
 		type = 1,
@@ -17162,8 +17814,8 @@ pg.activity_ins_template = {
 			3886,
 			3890
 		}
-	},
-	[424] = {
+	}
+	pg.base.activity_ins_template[424] = {
 		ship_group = 1100002,
 		name = "Ikaruga",
 		type = 1,
@@ -17203,8 +17855,8 @@ pg.activity_ins_template = {
 			3896,
 			3899
 		}
-	},
-	[425] = {
+	}
+	pg.base.activity_ins_template[425] = {
 		ship_group = 11802,
 		name = "Guam",
 		type = 1,
@@ -17244,8 +17896,8 @@ pg.activity_ins_template = {
 			3906,
 			3909
 		}
-	},
-	[426] = {
+	}
+	pg.base.activity_ins_template[426] = {
 		ship_group = 10117,
 		name = "Lafite.82",
 		type = 1,
@@ -17286,8 +17938,8 @@ pg.activity_ins_template = {
 			3920,
 			3923
 		}
-	},
-	[427] = {
+	}
+	pg.base.activity_ins_template[427] = {
 		ship_group = 10401,
 		name = "Constellation",
 		type = 1,
@@ -17328,8 +17980,8 @@ pg.activity_ins_template = {
 			3934,
 			3937
 		}
-	},
-	[428] = {
+	}
+	pg.base.activity_ins_template[428] = {
 		ship_group = 10808,
 		name = "Flasher",
 		type = 1,
@@ -17369,8 +18021,8 @@ pg.activity_ins_template = {
 			3946,
 			3949
 		}
-	},
-	[429] = {
+	}
+	pg.base.activity_ins_template[429] = {
 		ship_group = 10730,
 		name = "San Jacinto",
 		type = 1,
@@ -17410,8 +18062,8 @@ pg.activity_ins_template = {
 			3957,
 			3962
 		}
-	},
-	[430] = {
+	}
+	pg.base.activity_ins_template[430] = {
 		ship_group = 10327,
 		name = "Louisville",
 		type = 1,
@@ -17452,8 +18104,8 @@ pg.activity_ins_template = {
 			3972,
 			3974
 		}
-	},
-	[431] = {
+	}
+	pg.base.activity_ins_template[431] = {
 		ship_group = 10305,
 		name = "Houston",
 		type = 1,
@@ -17493,8 +18145,8 @@ pg.activity_ins_template = {
 			3982,
 			3984
 		}
-	},
-	[432] = {
+	}
+	pg.base.activity_ins_template[432] = {
 		ship_group = 19904,
 		name = "Kearsarge",
 		type = 1,
@@ -17535,8 +18187,8 @@ pg.activity_ins_template = {
 			3994,
 			3997
 		}
-	},
-	[433] = {
+	}
+	pg.base.activity_ins_template[433] = {
 		ship_group = 49909,
 		name = "Hindenburg",
 		type = 1,
@@ -17576,8 +18228,8 @@ pg.activity_ins_template = {
 			4005,
 			4007
 		}
-	},
-	[434] = {
+	}
+	pg.base.activity_ins_template[434] = {
 		ship_group = 39906,
 		name = "Shimanto",
 		type = 1,
@@ -17617,8 +18269,8 @@ pg.activity_ins_template = {
 			4015,
 			4018
 		}
-	},
-	[435] = {
+	}
+	pg.base.activity_ins_template[435] = {
 		ship_group = 49908,
 		name = "Felix Schultz",
 		type = 1,
@@ -17659,8 +18311,8 @@ pg.activity_ins_template = {
 			4029,
 			4031
 		}
-	},
-	[436] = {
+	}
+	pg.base.activity_ins_template[436] = {
 		ship_group = 99902,
 		name = "Flandre",
 		type = 1,
@@ -17701,8 +18353,8 @@ pg.activity_ins_template = {
 			4041,
 			4043
 		}
-	},
-	[437] = {
+	}
+	pg.base.activity_ins_template[437] = {
 		ship_group = 30186,
 		name = "Kazagumo",
 		type = 1,
@@ -17742,8 +18394,8 @@ pg.activity_ins_template = {
 			4050,
 			4053
 		}
-	},
-	[438] = {
+	}
+	pg.base.activity_ins_template[438] = {
 		ship_group = 20135,
 		name = "Janus",
 		type = 1,
@@ -17784,8 +18436,8 @@ pg.activity_ins_template = {
 			4063,
 			4065
 		}
-	},
-	[439] = {
+	}
+	pg.base.activity_ins_template[439] = {
 		ship_group = 50401,
 		name = "Huan Ch'ang",
 		type = 1,
@@ -17826,8 +18478,8 @@ pg.activity_ins_template = {
 			4075,
 			4078
 		}
-	},
-	[440] = {
+	}
+	pg.base.activity_ins_template[440] = {
 		ship_group = 50209,
 		name = "Chi An",
 		type = 1,
@@ -17867,8 +18519,8 @@ pg.activity_ins_template = {
 			4087,
 			4090
 		}
-	},
-	[441] = {
+	}
+	pg.base.activity_ins_template[441] = {
 		ship_group = 50105,
 		name = "Lung Wu",
 		type = 1,
@@ -17909,8 +18561,8 @@ pg.activity_ins_template = {
 			4101,
 			4106
 		}
-	},
-	[442] = {
+	}
+	pg.base.activity_ins_template[442] = {
 		ship_group = 50106,
 		name = "Hu Pen",
 		type = 1,
@@ -17951,8 +18603,8 @@ pg.activity_ins_template = {
 			4118,
 			4122
 		}
-	},
-	[443] = {
+	}
+	pg.base.activity_ins_template[443] = {
 		ship_group = 50107,
 		name = "Fei Yuen",
 		type = 1,
@@ -17993,8 +18645,8 @@ pg.activity_ins_template = {
 			4132,
 			4135
 		}
-	},
-	[444] = {
+	}
+	pg.base.activity_ins_template[444] = {
 		ship_group = 40208,
 		name = "Elbing ",
 		type = 1,
@@ -18034,8 +18686,8 @@ pg.activity_ins_template = {
 			4142,
 			4145
 		}
-	},
-	[445] = {
+	}
+	pg.base.activity_ins_template[445] = {
 		ship_group = 20606,
 		name = "Per",
 		type = 1,
@@ -18075,8 +18727,8 @@ pg.activity_ins_template = {
 			4152,
 			4156
 		}
-	},
-	[446] = {
+	}
+	pg.base.activity_ins_template[446] = {
 		ship_group = 20607,
 		name = "Albion",
 		type = 1,
@@ -18116,8 +18768,8 @@ pg.activity_ins_template = {
 			4165,
 			4168
 		}
-	},
-	[447] = {
+	}
+	pg.base.activity_ins_template[447] = {
 		ship_group = 19903,
 		name = "Anchorage",
 		type = 1,
@@ -18157,8 +18809,8 @@ pg.activity_ins_template = {
 			4176,
 			4179
 		}
-	},
-	[448] = {
+	}
+	pg.base.activity_ins_template[448] = {
 		ship_group = 20401,
 		name = "Renown",
 		type = 1,
@@ -18199,8 +18851,8 @@ pg.activity_ins_template = {
 			4190,
 			4192
 		}
-	},
-	[449] = {
+	}
+	pg.base.activity_ins_template[449] = {
 		ship_group = 70502,
 		name = "Sovetsky Soyuz",
 		type = 1,
@@ -18241,8 +18893,8 @@ pg.activity_ins_template = {
 			4202,
 			4206
 		}
-	},
-	[450] = {
+	}
+	pg.base.activity_ins_template[450] = {
 		ship_group = 70111,
 		name = "Ognevoy",
 		type = 1,
@@ -18283,8 +18935,8 @@ pg.activity_ins_template = {
 			4222,
 			4226
 		}
-	},
-	[451] = {
+	}
+	pg.base.activity_ins_template[451] = {
 		ship_group = 70508,
 		name = "Poltava",
 		type = 1,
@@ -18325,8 +18977,8 @@ pg.activity_ins_template = {
 			4237,
 			4241
 		}
-	},
-	[452] = {
+	}
+	pg.base.activity_ins_template[452] = {
 		ship_group = 70112,
 		name = "Svirepy",
 		type = 1,
@@ -18367,8 +19019,8 @@ pg.activity_ins_template = {
 			4252,
 			4257
 		}
-	},
-	[453] = {
+	}
+	pg.base.activity_ins_template[453] = {
 		ship_group = 21304,
 		name = "Abercrombie",
 		type = 1,
@@ -18408,8 +19060,8 @@ pg.activity_ins_template = {
 			4267,
 			4270
 		}
-	},
-	[454] = {
+	}
+	pg.base.activity_ins_template[454] = {
 		ship_group = 10145,
 		name = "A.M.Sumner",
 		type = 1,
@@ -18450,8 +19102,8 @@ pg.activity_ins_template = {
 			4284,
 			4288
 		}
-	},
-	[455] = {
+	}
+	pg.base.activity_ins_template[455] = {
 		ship_group = 29902,
 		name = "Monarch",
 		type = 1,
@@ -18492,8 +19144,8 @@ pg.activity_ins_template = {
 			4302,
 			4305
 		}
-	},
-	[457] = {
+	}
+	pg.base.activity_ins_template[457] = {
 		ship_group = 20137,
 		name = "Nubian",
 		type = 1,
@@ -18533,8 +19185,8 @@ pg.activity_ins_template = {
 			4326,
 			4331
 		}
-	},
-	[458] = {
+	}
+	pg.base.activity_ins_template[458] = {
 		ship_group = 20234,
 		name = "Liverpool",
 		type = 1,
@@ -18574,8 +19226,8 @@ pg.activity_ins_template = {
 			4341,
 			4345
 		}
-	},
-	[459] = {
+	}
+	pg.base.activity_ins_template[459] = {
 		ship_group = 20313,
 		name = "Devonshire",
 		type = 1,
@@ -18615,8 +19267,8 @@ pg.activity_ins_template = {
 			4355,
 			4359
 		}
-	},
-	[460] = {
+	}
+	pg.base.activity_ins_template[460] = {
 		ship_group = 20703,
 		name = "Illustrious",
 		type = 1,
@@ -18656,8 +19308,8 @@ pg.activity_ins_template = {
 			4370,
 			4374
 		}
-	},
-	[461] = {
+	}
+	pg.base.activity_ins_template[461] = {
 		ship_group = 30221,
 		name = "Nshiro",
 		type = 1,
@@ -18697,8 +19349,8 @@ pg.activity_ins_template = {
 			4383,
 			4386
 		}
-	},
-	[462] = {
+	}
+	pg.base.activity_ins_template[462] = {
 		ship_group = 40303,
 		name = "P.Eugen",
 		type = 1,
@@ -18739,8 +19391,8 @@ pg.activity_ins_template = {
 			4400,
 			4404
 		}
-	},
-	[463] = {
+	}
+	pg.base.activity_ins_template[463] = {
 		ship_group = 30401,
 		name = "BarrowYoko",
 		type = 1,
@@ -18781,8 +19433,8 @@ pg.activity_ins_template = {
 			4417,
 			4420
 		}
-	},
-	[464] = {
+	}
+	pg.base.activity_ins_template[464] = {
 		ship_group = 80103,
 		name = "L.Téméraire",
 		type = 1,
@@ -18823,8 +19475,8 @@ pg.activity_ins_template = {
 			4431,
 			4433
 		}
-	},
-	[465] = {
+	}
+	pg.base.activity_ins_template[465] = {
 		ship_group = 10229,
 		name = "USSBOISE",
 		type = 1,
@@ -18865,8 +19517,8 @@ pg.activity_ins_template = {
 			4442,
 			4446
 		}
-	},
-	[466] = {
+	}
+	pg.base.activity_ins_template[466] = {
 		ship_group = 10601,
 		name = "L.I.",
 		type = 1,
@@ -18906,8 +19558,8 @@ pg.activity_ins_template = {
 			4454,
 			4458
 		}
-	},
-	[467] = {
+	}
+	pg.base.activity_ins_template[467] = {
 		ship_group = 40207,
 		name = "Emden ",
 		type = 1,
@@ -18947,8 +19599,8 @@ pg.activity_ins_template = {
 			4467,
 			4470
 		}
-	},
-	[468] = {
+	}
+	pg.base.activity_ins_template[468] = {
 		ship_group = 80503,
 		name = "Alsace",
 		type = 1,
@@ -18988,8 +19640,8 @@ pg.activity_ins_template = {
 			4477,
 			4480
 		}
-	},
-	[469] = {
+	}
+	pg.base.activity_ins_template[469] = {
 		ship_group = 80302,
 		name = "Brennus",
 		type = 1,
@@ -19029,8 +19681,8 @@ pg.activity_ins_template = {
 			4487,
 			4489
 		}
-	},
-	[470] = {
+	}
+	pg.base.activity_ins_template[470] = {
 		ship_group = 90105,
 		name = "Fleuret",
 		type = 1,
@@ -19070,8 +19722,8 @@ pg.activity_ins_template = {
 			4496,
 			4498
 		}
-	},
-	[471] = {
+	}
+	pg.base.activity_ins_template[471] = {
 		ship_group = 90106,
 		name = "Épée",
 		type = 1,
@@ -19111,8 +19763,8 @@ pg.activity_ins_template = {
 			4505,
 			4507
 		}
-	},
-	[472] = {
+	}
+	pg.base.activity_ins_template[472] = {
 		ship_group = 59901,
 		name = "Bin Jiang",
 		type = 1,
@@ -19153,8 +19805,8 @@ pg.activity_ins_template = {
 			4518,
 			4520
 		}
-	},
-	[473] = {
+	}
+	pg.base.activity_ins_template[473] = {
 		ship_group = 90107,
 		name = "Mogador",
 		type = 1,
@@ -19194,8 +19846,8 @@ pg.activity_ins_template = {
 			4527,
 			4531
 		}
-	},
-	[474] = {
+	}
+	pg.base.activity_ins_template[474] = {
 		ship_group = 20233,
 		name = "Scylla",
 		type = 1,
@@ -19235,8 +19887,8 @@ pg.activity_ins_template = {
 			4539,
 			4543
 		}
-	},
-	[475] = {
+	}
+	pg.base.activity_ins_template[475] = {
 		ship_group = 70104,
 		name = "Ташкент",
 		type = 1,
@@ -19277,8 +19929,8 @@ pg.activity_ins_template = {
 			4557,
 			4561
 		}
-	},
-	[476] = {
+	}
+	pg.base.activity_ins_template[476] = {
 		ship_group = 29903,
 		name = "CaitSith",
 		type = 1,
@@ -19319,8 +19971,8 @@ pg.activity_ins_template = {
 			4572,
 			4576
 		}
-	},
-	[477] = {
+	}
+	pg.base.activity_ins_template[477] = {
 		ship_group = 70302,
 		name = "Kursk",
 		type = 1,
@@ -19361,8 +20013,8 @@ pg.activity_ins_template = {
 			4589,
 			4591
 		}
-	},
-	[478] = {
+	}
+	pg.base.activity_ins_template[478] = {
 		ship_group = 30508,
 		name = "Tosa",
 		type = 1,
@@ -19403,8 +20055,8 @@ pg.activity_ins_template = {
 			4601,
 			4604
 		}
-	},
-	[479] = {
+	}
+	pg.base.activity_ins_template[479] = {
 		ship_group = 40406,
 		name = "Hervör alvitr",
 		type = 1,
@@ -19445,8 +20097,8 @@ pg.activity_ins_template = {
 			4617,
 			4620
 		}
-	},
-	[480] = {
+	}
+	pg.base.activity_ins_template[480] = {
 		ship_group = 40147,
 		name = "☆WildeKatze47☆",
 		type = 1,
@@ -19487,8 +20139,8 @@ pg.activity_ins_template = {
 			4632,
 			4635
 		}
-	},
-	[481] = {
+	}
+	pg.base.activity_ins_template[481] = {
 		ship_group = 40813,
 		name = "Unbeschwert31",
 		type = 1,
@@ -19528,8 +20180,8 @@ pg.activity_ins_template = {
 			4644,
 			4647
 		}
-	},
-	[482] = {
+	}
+	pg.base.activity_ins_template[482] = {
 		ship_group = 40143,
 		name = "Z·DEVIL·43",
 		type = 1,
@@ -19569,8 +20221,8 @@ pg.activity_ins_template = {
 			4655,
 			4660
 		}
-	},
-	[483] = {
+	}
+	pg.base.activity_ins_template[483] = {
 		ship_group = 90402,
 		name = "Strasbourg",
 		type = 1,
@@ -19611,8 +20263,8 @@ pg.activity_ins_template = {
 			4673,
 			4676
 		}
-	},
-	[484] = {
+	}
+	pg.base.activity_ins_template[484] = {
 		ship_group = 90303,
 		name = "Dupleix",
 		type = 1,
@@ -19653,8 +20305,8 @@ pg.activity_ins_template = {
 			4691,
 			4694
 		}
-	},
-	[485] = {
+	}
+	pg.base.activity_ins_template[485] = {
 		ship_group = 60108,
 		name = "Alfredo ",
 		type = 1,
@@ -19695,8 +20347,8 @@ pg.activity_ins_template = {
 			4707,
 			4712
 		}
-	},
-	[486] = {
+	}
+	pg.base.activity_ins_template[486] = {
 		ship_group = 10233,
 		name = "Fargo",
 		type = 1,
@@ -19737,8 +20389,8 @@ pg.activity_ins_template = {
 			4727,
 			4732
 		}
-	},
-	[487] = {
+	}
+	pg.base.activity_ins_template[487] = {
 		ship_group = 10328,
 		name = "Pittsburgh",
 		type = 1,
@@ -19778,8 +20430,8 @@ pg.activity_ins_template = {
 			4742,
 			4746
 		}
-	},
-	[488] = {
+	}
+	pg.base.activity_ins_template[488] = {
 		ship_group = 10515,
 		name = "Indiana",
 		type = 1,
@@ -19819,8 +20471,8 @@ pg.activity_ins_template = {
 			4756,
 			4760
 		}
-	},
-	[489] = {
+	}
+	pg.base.activity_ins_template[489] = {
 		ship_group = 10809,
 		name = "Herring",
 		type = 1,
@@ -19861,8 +20513,8 @@ pg.activity_ins_template = {
 			4775,
 			4779
 		}
-	},
-	[490] = {
+	}
+	pg.base.activity_ins_template[490] = {
 		ship_group = 10152,
 		name = "Bell",
 		type = 1,
@@ -19902,8 +20554,8 @@ pg.activity_ins_template = {
 			4790,
 			4794
 		}
-	},
-	[491] = {
+	}
+	pg.base.activity_ins_template[491] = {
 		ship_group = 30604,
 		name = "Zuihō",
 		type = 1,
@@ -19944,8 +20596,8 @@ pg.activity_ins_template = {
 			4808,
 			4812
 		}
-	},
-	[492] = {
+	}
+	pg.base.activity_ins_template[492] = {
 		ship_group = 20702,
 		name = "ArkRoyal_Defense",
 		type = 1,
@@ -19986,8 +20638,8 @@ pg.activity_ins_template = {
 			4824,
 			4826
 		}
-	},
-	[493] = {
+	}
+	pg.base.activity_ins_template[493] = {
 		ship_group = 30132,
 		name = "Mutsuki",
 		type = 1,
@@ -20028,8 +20680,8 @@ pg.activity_ins_template = {
 			4838,
 			4841
 		}
-	},
-	[494] = {
+	}
+	pg.base.activity_ins_template[494] = {
 		ship_group = 30405,
 		name = "Amagi",
 		type = 1,
@@ -20069,8 +20721,8 @@ pg.activity_ins_template = {
 			4848,
 			4852
 		}
-	},
-	[495] = {
+	}
+	pg.base.activity_ins_template[495] = {
 		ship_group = 30701,
 		name = "Ootori_Shikikan",
 		type = 1,
@@ -20111,8 +20763,8 @@ pg.activity_ins_template = {
 			4866,
 			4869
 		}
-	},
-	[496] = {
+	}
+	pg.base.activity_ins_template[496] = {
 		ship_group = 30225,
 		name = "Watarase",
 		type = 1,
@@ -20153,8 +20805,8 @@ pg.activity_ins_template = {
 			4880,
 			4883
 		}
-	},
-	[497] = {
+	}
+	pg.base.activity_ins_template[497] = {
 		ship_group = 30226,
 		name = "Ayase",
 		type = 1,
@@ -20195,8 +20847,8 @@ pg.activity_ins_template = {
 			4895,
 			4898
 		}
-	},
-	[498] = {
+	}
+	pg.base.activity_ins_template[498] = {
 		ship_group = 30191,
 		name = "Suzunami",
 		type = 1,
@@ -20237,8 +20889,8 @@ pg.activity_ins_template = {
 			4912,
 			4914
 		}
-	},
-	[499] = {
+	}
+	pg.base.activity_ins_template[499] = {
 		ship_group = 20208,
 		name = "ShiningS",
 		type = 1,
@@ -20278,8 +20930,8 @@ pg.activity_ins_template = {
 			4923,
 			4927
 		}
-	},
-	[500] = {
+	}
+	pg.base.activity_ins_template[500] = {
 		ship_group = 20220,
 		name = "forMaster_Sirius",
 		type = 1,
@@ -20319,8 +20971,8 @@ pg.activity_ins_template = {
 			4936,
 			4941
 		}
-	},
-	[501] = {
+	}
+	pg.base.activity_ins_template[501] = {
 		ship_group = 31901,
 		name = "Kashino",
 		type = 1,
@@ -20361,8 +21013,8 @@ pg.activity_ins_template = {
 			4956,
 			4959
 		}
-	},
-	[502] = {
+	}
+	pg.base.activity_ins_template[502] = {
 		ship_group = 30606,
 		name = "Ryūjō",
 		type = 1,
@@ -20402,8 +21054,8 @@ pg.activity_ins_template = {
 			4967,
 			4971
 		}
-	},
-	[503] = {
+	}
+	pg.base.activity_ins_template[503] = {
 		ship_group = 30510,
 		name = "Musashi",
 		type = 1,
@@ -20443,8 +21095,8 @@ pg.activity_ins_template = {
 			4981,
 			4987
 		}
-	},
-	[504] = {
+	}
+	pg.base.activity_ins_template[504] = {
 		ship_group = 39905,
 		name = "Hakuryū",
 		type = 1,
@@ -20485,8 +21137,8 @@ pg.activity_ins_template = {
 			5001,
 			5006
 		}
-	},
-	[505] = {
+	}
+	pg.base.activity_ins_template[505] = {
 		ship_group = 960007,
 		name = "Ganj-i-sawai",
 		type = 1,
@@ -20527,8 +21179,8 @@ pg.activity_ins_template = {
 			5019,
 			5022
 		}
-	},
-	[506] = {
+	}
+	pg.base.activity_ins_template[506] = {
 		ship_group = 960008,
 		name = "Fancy",
 		type = 1,
@@ -20568,8 +21220,8 @@ pg.activity_ins_template = {
 			5030,
 			5035
 		}
-	},
-	[507] = {
+	}
+	pg.base.activity_ins_template[507] = {
 		ship_group = 960009,
 		name = "Amity",
 		type = 1,
@@ -20609,8 +21261,8 @@ pg.activity_ins_template = {
 			5044,
 			5048
 		}
-	},
-	[508] = {
+	}
+	pg.base.activity_ins_template[508] = {
 		ship_group = 960010,
 		name = "Portsmouth Adventure",
 		type = 1,
@@ -20650,8 +21302,8 @@ pg.activity_ins_template = {
 			5057,
 			5062
 		}
-	},
-	[509] = {
+	}
+	pg.base.activity_ins_template[509] = {
 		ship_group = 960011,
 		name = "Dolphin",
 		type = 1,
@@ -20691,8 +21343,8 @@ pg.activity_ins_template = {
 			5071,
 			5077
 		}
-	},
-	[510] = {
+	}
+	pg.base.activity_ins_template[510] = {
 		ship_group = 30513,
 		name = "owari",
 		type = 1,
@@ -20732,8 +21384,10 @@ pg.activity_ins_template = {
 			5087,
 			5091
 		}
-	},
-	[511] = {
+	}
+end)()
+(function ()
+	pg.base.activity_ins_template[511] = {
 		ship_group = 10149,
 		name = "Bristol",
 		type = 1,
@@ -20774,8 +21428,8 @@ pg.activity_ins_template = {
 			5104,
 			5109
 		}
-	},
-	[512] = {
+	}
+	pg.base.activity_ins_template[512] = {
 		ship_group = 1110001,
 		name = "Lala Satalin Deviluke",
 		type = 1,
@@ -20816,8 +21470,8 @@ pg.activity_ins_template = {
 			5125,
 			5128
 		}
-	},
-	[513] = {
+	}
+	pg.base.activity_ins_template[513] = {
 		ship_group = 1110002,
 		name = "Nana Asta Deviluke",
 		type = 1,
@@ -20857,8 +21511,8 @@ pg.activity_ins_template = {
 			5138,
 			5143
 		}
-	},
-	[514] = {
+	}
+	pg.base.activity_ins_template[514] = {
 		ship_group = 1110003,
 		name = "Momo Belia Deviluke",
 		type = 1,
@@ -20899,8 +21553,8 @@ pg.activity_ins_template = {
 			5158,
 			5162
 		}
-	},
-	[515] = {
+	}
+	pg.base.activity_ins_template[515] = {
 		ship_group = 1110005,
 		name = "Sairenji Haruna",
 		type = 1,
@@ -20940,8 +21594,8 @@ pg.activity_ins_template = {
 			5172,
 			5178
 		}
-	},
-	[516] = {
+	}
+	pg.base.activity_ins_template[516] = {
 		ship_group = 1110004,
 		name = "Konjiki no Yami",
 		type = 1,
@@ -20981,8 +21635,8 @@ pg.activity_ins_template = {
 			5188,
 			5193
 		}
-	},
-	[517] = {
+	}
+	pg.base.activity_ins_template[517] = {
 		ship_group = 1110006,
 		name = "Kotegawa Yui",
 		type = 1,
@@ -21022,8 +21676,8 @@ pg.activity_ins_template = {
 			5205,
 			5210
 		}
-	},
-	[518] = {
+	}
+	pg.base.activity_ins_template[518] = {
 		ship_group = 40704,
 		name = "Fritz Rumey",
 		type = 1,
@@ -21064,8 +21718,8 @@ pg.activity_ins_template = {
 			5224,
 			5226
 		}
-	},
-	[519] = {
+	}
+	pg.base.activity_ins_template[519] = {
 		ship_group = 40211,
 		name = "Duisburg",
 		type = 1,
@@ -21106,8 +21760,8 @@ pg.activity_ins_template = {
 			5243,
 			5248
 		}
-	},
-	[520] = {
+	}
+	pg.base.activity_ins_template[520] = {
 		ship_group = 40152,
 		name = "Blitz-Z52",
 		type = 1,
@@ -21148,8 +21802,8 @@ pg.activity_ins_template = {
 			5262,
 			5265
 		}
-	},
-	[521] = {
+	}
+	pg.base.activity_ins_template[521] = {
 		ship_group = 40109,
 		name = "Wolke9",
 		type = 1,
@@ -21190,8 +21844,8 @@ pg.activity_ins_template = {
 			5279,
 			5282
 		}
-	},
-	[522] = {
+	}
+	pg.base.activity_ins_template[522] = {
 		ship_group = 40111,
 		name = "Z11_Spielefan",
 		type = 1,
@@ -21232,8 +21886,8 @@ pg.activity_ins_template = {
 			5294,
 			5299
 		}
-	},
-	[523] = {
+	}
+	pg.base.activity_ins_template[523] = {
 		ship_group = 40501,
 		name = "Bismarck",
 		type = 1,
@@ -21275,8 +21929,8 @@ pg.activity_ins_template = {
 			5315,
 			5317
 		}
-	},
-	[524] = {
+	}
+	pg.base.activity_ins_template[524] = {
 		ship_group = 49905,
 		name = "Aegir",
 		type = 1,
@@ -21317,8 +21971,8 @@ pg.activity_ins_template = {
 			5327,
 			5331
 		}
-	},
-	[525] = {
+	}
+	pg.base.activity_ins_template[525] = {
 		ship_group = 20135,
 		name = "Janus",
 		type = 1,
@@ -21359,8 +22013,8 @@ pg.activity_ins_template = {
 			5344,
 			5347
 		}
-	},
-	[526] = {
+	}
+	pg.base.activity_ins_template[526] = {
 		ship_group = 69902,
 		name = "Napoli",
 		type = 1,
@@ -21401,8 +22055,8 @@ pg.activity_ins_template = {
 			5360,
 			5363
 		}
-	},
-	[527] = {
+	}
+	pg.base.activity_ins_template[527] = {
 		ship_group = 79902,
 		name = "Admiral Nakhimov",
 		type = 1,
@@ -21443,8 +22097,8 @@ pg.activity_ins_template = {
 			5376,
 			5381
 		}
-	},
-	[528] = {
+	}
+	pg.base.activity_ins_template[528] = {
 		ship_group = 19905,
 		name = "Halford",
 		type = 1,
@@ -21485,8 +22139,8 @@ pg.activity_ins_template = {
 			5395,
 			5401
 		}
-	},
-	[529] = {
+	}
+	pg.base.activity_ins_template[529] = {
 		ship_group = 89904,
 		name = "Bayard",
 		type = 1,
@@ -21526,8 +22180,8 @@ pg.activity_ins_template = {
 			5411,
 			5416
 		}
-	},
-	[530] = {
+	}
+	pg.base.activity_ins_template[530] = {
 		ship_group = 39907,
 		name = "Daisen",
 		type = 1,
@@ -21567,8 +22221,8 @@ pg.activity_ins_template = {
 			5426,
 			5429
 		}
-	},
-	[531] = {
+	}
+	pg.base.activity_ins_template[531] = {
 		ship_group = 50210,
 		name = "Hai Yung",
 		type = 1,
@@ -21608,8 +22262,8 @@ pg.activity_ins_template = {
 			5440,
 			5444
 		}
-	},
-	[532] = {
+	}
+	pg.base.activity_ins_template[532] = {
 		ship_group = 50301,
 		name = "Chien Wu",
 		type = 1,
@@ -21649,8 +22303,8 @@ pg.activity_ins_template = {
 			5453,
 			5459
 		}
-	},
-	[533] = {
+	}
+	pg.base.activity_ins_template[533] = {
 		ship_group = 50108,
 		name = "Chang Feng",
 		type = 1,
@@ -21691,8 +22345,8 @@ pg.activity_ins_template = {
 			5474,
 			5480
 		}
-	},
-	[534] = {
+	}
+	pg.base.activity_ins_template[534] = {
 		ship_group = 50109,
 		name = "Fu Po",
 		type = 1,
@@ -21732,8 +22386,8 @@ pg.activity_ins_template = {
 			5489,
 			5494
 		}
-	},
-	[535] = {
+	}
+	pg.base.activity_ins_template[535] = {
 		ship_group = 50102,
 		name = "Fushun2",
 		type = 1,
@@ -21774,8 +22428,8 @@ pg.activity_ins_template = {
 			5507,
 			5511
 		}
-	},
-	[536] = {
+	}
+	pg.base.activity_ins_template[536] = {
 		ship_group = 49903,
 		name = "Mainz",
 		type = 1,
@@ -21816,8 +22470,8 @@ pg.activity_ins_template = {
 			5524,
 			5530
 		}
-	},
-	[537] = {
+	}
+	pg.base.activity_ins_template[537] = {
 		ship_group = 10517,
 		name = "BlackDragon",
 		type = 1,
@@ -21858,8 +22512,8 @@ pg.activity_ins_template = {
 			5542,
 			5549
 		}
-	},
-	[538] = {
+	}
+	pg.base.activity_ins_template[538] = {
 		ship_group = 70206,
 		name = "Мурманск",
 		type = 1,
@@ -21899,8 +22553,8 @@ pg.activity_ins_template = {
 			5559,
 			5565
 		}
-	},
-	[539] = {
+	}
+	pg.base.activity_ins_template[539] = {
 		ship_group = 80202,
 		name = "Jeanne d'Arc",
 		type = 1,
@@ -21940,8 +22594,8 @@ pg.activity_ins_template = {
 			5574,
 			5578
 		}
-	},
-	[540] = {
+	}
+	pg.base.activity_ins_template[540] = {
 		ship_group = 19904,
 		name = "Kearsarge",
 		type = 1,
@@ -21981,8 +22635,8 @@ pg.activity_ins_template = {
 			5588,
 			5593
 		}
-	},
-	[541] = {
+	}
+	pg.base.activity_ins_template[541] = {
 		ship_group = 60508,
 		name = "Raffaello",
 		type = 1,
@@ -22022,8 +22676,8 @@ pg.activity_ins_template = {
 			5602,
 			5607
 		}
-	},
-	[542] = {
+	}
+	pg.base.activity_ins_template[542] = {
 		ship_group = 60803,
 		name = "Maggiore Baracca",
 		type = 1,
@@ -22064,8 +22718,8 @@ pg.activity_ins_template = {
 			5621,
 			5627
 		}
-	},
-	[543] = {
+	}
+	pg.base.activity_ins_template[543] = {
 		ship_group = 60111,
 		name = "Giosuè Carducci",
 		type = 1,
@@ -22106,8 +22760,8 @@ pg.activity_ins_template = {
 			5641,
 			5647
 		}
-	},
-	[544] = {
+	}
+	pg.base.activity_ins_template[544] = {
 		ship_group = 60203,
 		name = "Bartolomeo Colleoni",
 		type = 1,
@@ -22147,8 +22801,8 @@ pg.activity_ins_template = {
 			5657,
 			5662
 		}
-	},
-	[545] = {
+	}
+	pg.base.activity_ins_template[545] = {
 		ship_group = 50209,
 		name = "Chi An",
 		type = 1,
@@ -22189,8 +22843,8 @@ pg.activity_ins_template = {
 			5677,
 			5680
 		}
-	},
-	[546] = {
+	}
+	pg.base.activity_ins_template[546] = {
 		ship_group = 20233,
 		name = "Scylla",
 		type = 1,
@@ -22231,8 +22885,8 @@ pg.activity_ins_template = {
 			5693,
 			5697
 		}
-	},
-	[547] = {
+	}
+	pg.base.activity_ins_template[547] = {
 		ship_group = 10713,
 		name = "Franklin",
 		type = 1,
@@ -22273,8 +22927,8 @@ pg.activity_ins_template = {
 			5710,
 			5715
 		}
-	},
-	[548] = {
+	}
+	pg.base.activity_ins_template[548] = {
 		ship_group = 10234,
 		name = "Santa Fe",
 		type = 1,
@@ -22315,8 +22969,8 @@ pg.activity_ins_template = {
 			5729,
 			5736
 		}
-	},
-	[549] = {
+	}
+	pg.base.activity_ins_template[549] = {
 		ship_group = 10153,
 		name = "Miller",
 		type = 1,
@@ -22357,8 +23011,8 @@ pg.activity_ins_template = {
 			5747,
 			5751
 		}
-	},
-	[550] = {
+	}
+	pg.base.activity_ins_template[550] = {
 		ship_group = 70207,
 		name = "Voroshilov",
 		type = 1,
@@ -22399,8 +23053,8 @@ pg.activity_ins_template = {
 			5764,
 			5771
 		}
-	},
-	[551] = {
+	}
+	pg.base.activity_ins_template[551] = {
 		ship_group = 30317,
 		name = "Suzu?",
 		type = 1,
@@ -22441,8 +23095,8 @@ pg.activity_ins_template = {
 			5783,
 			5785
 		}
-	},
-	[552] = {
+	}
+	pg.base.activity_ins_template[552] = {
 		ship_group = 110201,
 		name = "De Zeven Provinci?n",
 		type = 1,
@@ -22482,8 +23136,8 @@ pg.activity_ins_template = {
 			5795,
 			5802
 		}
-	},
-	[553] = {
+	}
+	pg.base.activity_ins_template[553] = {
 		ship_group = 110101,
 		name = "Evertsen",
 		type = 1,
@@ -22524,8 +23178,8 @@ pg.activity_ins_template = {
 			5819,
 			5823
 		}
-	},
-	[554] = {
+	}
+	pg.base.activity_ins_template[554] = {
 		ship_group = 70208,
 		name = "Oleg",
 		type = 1,
@@ -22566,8 +23220,8 @@ pg.activity_ins_template = {
 			5839,
 			5845
 		}
-	},
-	[555] = {
+	}
+	pg.base.activity_ins_template[555] = {
 		ship_group = 70509,
 		name = "Kazan ",
 		type = 1,
@@ -22607,8 +23261,8 @@ pg.activity_ins_template = {
 			5855,
 			5860
 		}
-	},
-	[556] = {
+	}
+	pg.base.activity_ins_template[556] = {
 		ship_group = 70202,
 		name = "Pamiat' Merkuria",
 		type = 1,
@@ -22649,8 +23303,8 @@ pg.activity_ins_template = {
 			5875,
 			5880
 		}
-	},
-	[557] = {
+	}
+	pg.base.activity_ins_template[557] = {
 		ship_group = 20516,
 		name = "Lion",
 		type = 1,
@@ -22690,8 +23344,8 @@ pg.activity_ins_template = {
 			5891,
 			5896
 		}
-	},
-	[558] = {
+	}
+	pg.base.activity_ins_template[558] = {
 		ship_group = 20138,
 		name = "Trafalgar",
 		type = 1,
@@ -22731,8 +23385,8 @@ pg.activity_ins_template = {
 			5906,
 			5910
 		}
-	},
-	[559] = {
+	}
+	pg.base.activity_ins_template[559] = {
 		ship_group = 20235,
 		name = "Cleopatra",
 		type = 1,
@@ -22772,8 +23426,8 @@ pg.activity_ins_template = {
 			5919,
 			5924
 		}
-	},
-	[560] = {
+	}
+	pg.base.activity_ins_template[560] = {
 		ship_group = 20139,
 		name = "Gallant",
 		type = 1,
@@ -22813,8 +23467,8 @@ pg.activity_ins_template = {
 			5933,
 			5939
 		}
-	},
-	[561] = {
+	}
+	pg.base.activity_ins_template[561] = {
 		ship_group = 20236,
 		name = "Trinidad",
 		type = 1,
@@ -22854,8 +23508,8 @@ pg.activity_ins_template = {
 			5949,
 			5957
 		}
-	},
-	[562] = {
+	}
+	pg.base.activity_ins_template[562] = {
 		ship_group = 39906,
 		name = "Shimanto",
 		type = 1,
@@ -22895,8 +23549,8 @@ pg.activity_ins_template = {
 			5967,
 			5971
 		}
-	},
-	[563] = {
+	}
+	pg.base.activity_ins_template[563] = {
 		ship_group = 70504,
 		name = "Proj23.Bel",
 		type = 1,
@@ -22936,8 +23590,8 @@ pg.activity_ins_template = {
 			5981,
 			5987
 		}
-	},
-	[564] = {
+	}
+	pg.base.activity_ins_template[564] = {
 		ship_group = 20705,
 		name = "Formidable",
 		type = 1,
@@ -22977,8 +23631,8 @@ pg.activity_ins_template = {
 			5999,
 			6004
 		}
-	},
-	[565] = {
+	}
+	pg.base.activity_ins_template[565] = {
 		ship_group = 40314,
 		name = "Friedrich Carl",
 		type = 1,
@@ -23018,8 +23672,8 @@ pg.activity_ins_template = {
 			6015,
 			6021
 		}
-	},
-	[566] = {
+	}
+	pg.base.activity_ins_template[566] = {
 		ship_group = 30189,
 		name = "Hatsuzuki",
 		type = 1,
@@ -23059,8 +23713,8 @@ pg.activity_ins_template = {
 			6030,
 			6035
 		}
-	},
-	[567] = {
+	}
+	pg.base.activity_ins_template[567] = {
 		ship_group = 10509,
 		name = "Colorado",
 		type = 1,
@@ -23101,8 +23755,8 @@ pg.activity_ins_template = {
 			6049,
 			6052
 		}
-	},
-	[568] = {
+	}
+	pg.base.activity_ins_template[568] = {
 		ship_group = 10121,
 		name = "BLACK★ROCK SHOOTER",
 		type = 1,
@@ -23142,8 +23796,8 @@ pg.activity_ins_template = {
 			6063,
 			6070
 		}
-	},
-	[569] = {
+	}
+	pg.base.activity_ins_template[569] = {
 		ship_group = 10122,
 		name = "DEAD MASTER",
 		type = 1,
@@ -23183,8 +23837,8 @@ pg.activity_ins_template = {
 			6080,
 			6085
 		}
-	},
-	[570] = {
+	}
+	pg.base.activity_ins_template[570] = {
 		ship_group = 40407,
 		name = "Admiral Zenker",
 		type = 1,
@@ -23224,8 +23878,8 @@ pg.activity_ins_template = {
 			6096,
 			6101
 		}
-	},
-	[571] = {
+	}
+	pg.base.activity_ins_template[571] = {
 		ship_group = 40814,
 		name = "U.B.552",
 		type = 1,
@@ -23265,8 +23919,8 @@ pg.activity_ins_template = {
 			6111,
 			6118
 		}
-	},
-	[572] = {
+	}
+	pg.base.activity_ins_template[572] = {
 		ship_group = 40113,
 		name = "AAAZielplanerin13",
 		type = 1,
@@ -23306,8 +23960,8 @@ pg.activity_ins_template = {
 			6128,
 			6134
 		}
-	},
-	[573] = {
+	}
+	pg.base.activity_ins_template[573] = {
 		ship_group = 29901,
 		name = "Neptune",
 		type = 1,
@@ -23347,8 +24001,8 @@ pg.activity_ins_template = {
 			6147,
 			6153
 		}
-	},
-	[574] = {
+	}
+	pg.base.activity_ins_template[574] = {
 		ship_group = 1130001,
 		name = "Yumia Liessfeldt",
 		type = 1,
@@ -23388,8 +24042,8 @@ pg.activity_ins_template = {
 			6162,
 			6167
 		}
-	},
-	[575] = {
+	}
+	pg.base.activity_ins_template[575] = {
 		ship_group = 1130002,
 		name = "Isla von Duerer",
 		type = 1,
@@ -23429,8 +24083,8 @@ pg.activity_ins_template = {
 			6177,
 			6182
 		}
-	},
-	[576] = {
+	}
+	pg.base.activity_ins_template[576] = {
 		ship_group = 1130003,
 		name = "Nina Friede",
 		type = 1,
@@ -23470,8 +24124,8 @@ pg.activity_ins_template = {
 			6192,
 			6196
 		}
-	},
-	[577] = {
+	}
+	pg.base.activity_ins_template[577] = {
 		ship_group = 1130004,
 		name = "Lenja",
 		type = 1,
@@ -23511,8 +24165,8 @@ pg.activity_ins_template = {
 			6206,
 			6210
 		}
-	},
-	[578] = {
+	}
+	pg.base.activity_ins_template[578] = {
 		ship_group = 80401,
 		name = "Masséna",
 		type = 1,
@@ -23552,8 +24206,8 @@ pg.activity_ins_template = {
 			6220,
 			6223
 		}
-	},
-	[579] = {
+	}
+	pg.base.activity_ins_template[579] = {
 		ship_group = 80601,
 		name = "Bois Belleau",
 		type = 1,
@@ -23593,8 +24247,8 @@ pg.activity_ins_template = {
 			6233,
 			6236
 		}
-	},
-	[580] = {
+	}
+	pg.base.activity_ins_template[580] = {
 		ship_group = 80105,
 		name = "Le hardi",
 		type = 1,
@@ -23634,8 +24288,8 @@ pg.activity_ins_template = {
 			6246,
 			6250
 		}
-	},
-	[581] = {
+	}
+	pg.base.activity_ins_template[581] = {
 		ship_group = 80303,
 		name = "Duquesne ",
 		type = 1,
@@ -23675,8 +24329,8 @@ pg.activity_ins_template = {
 			6259,
 			6263
 		}
-	},
-	[582] = {
+	}
+	pg.base.activity_ins_template[582] = {
 		ship_group = 80204,
 		name = "Duguay-Trouin ",
 		type = 1,
@@ -23716,8 +24370,8 @@ pg.activity_ins_template = {
 			6272,
 			6275
 		}
-	},
-	[583] = {
+	}
+	pg.base.activity_ins_template[583] = {
 		ship_group = 10709,
 		name = "EssexG1",
 		type = 1,
@@ -23758,8 +24412,8 @@ pg.activity_ins_template = {
 			6285,
 			6288
 		}
-	},
-	[584] = {
+	}
+	pg.base.activity_ins_template[584] = {
 		ship_group = 30716,
 		name = "Hakuhō ",
 		type = 1,
@@ -23799,8 +24453,8 @@ pg.activity_ins_template = {
 			6297,
 			6299
 		}
-	},
-	[585] = {
+	}
+	pg.base.activity_ins_template[585] = {
 		ship_group = 31702,
 		name = "I404 ",
 		type = 1,
@@ -23840,8 +24494,8 @@ pg.activity_ins_template = {
 			6309,
 			6311
 		}
-	},
-	[586] = {
+	}
+	pg.base.activity_ins_template[586] = {
 		ship_group = 30516,
 		name = "Omi",
 		type = 1,
@@ -23882,8 +24536,8 @@ pg.activity_ins_template = {
 			6321,
 			6324
 		}
-	},
-	[587] = {
+	}
+	pg.base.activity_ins_template[587] = {
 		ship_group = 30320,
 		name = "Asama ",
 		type = 1,
@@ -23923,8 +24577,8 @@ pg.activity_ins_template = {
 			6332,
 			6336
 		}
-	},
-	[588] = {
+	}
+	pg.base.activity_ins_template[588] = {
 		ship_group = 30227,
 		name = "Minase",
 		type = 1,
@@ -23964,8 +24618,8 @@ pg.activity_ins_template = {
 			6346,
 			6349
 		}
-	},
-	[589] = {
+	}
+	pg.base.activity_ins_template[589] = {
 		ship_group = 30192,
 		name = "Taekaze",
 		type = 1,
@@ -24005,8 +24659,8 @@ pg.activity_ins_template = {
 			6357,
 			6361
 		}
-	},
-	[590] = {
+	}
+	pg.base.activity_ins_template[590] = {
 		ship_group = 30319,
 		name = "Unzen",
 		type = 1,
@@ -24046,8 +24700,8 @@ pg.activity_ins_template = {
 			6369,
 			6372
 		}
-	},
-	[591] = {
+	}
+	pg.base.activity_ins_template[591] = {
 		ship_group = 70301,
 		name = "Tallinn",
 		type = 1,
@@ -24087,8 +24741,8 @@ pg.activity_ins_template = {
 			6380,
 			6384
 		}
-	},
-	[592] = {
+	}
+	pg.base.activity_ins_template[592] = {
 		ship_group = 11802,
 		name = "Guam",
 		type = 1,
@@ -24128,8 +24782,8 @@ pg.activity_ins_template = {
 			6393,
 			6398
 		}
-	},
-	[593] = {
+	}
+	pg.base.activity_ins_template[593] = {
 		ship_group = 70502,
 		name = "Sovetsky Soyuz",
 		type = 1,
@@ -24169,8 +24823,8 @@ pg.activity_ins_template = {
 			6409,
 			6414
 		}
-	},
-	[594] = {
+	}
+	pg.base.activity_ins_template[594] = {
 		ship_group = 80302,
 		name = "Brennus",
 		type = 1,
@@ -24210,8 +24864,8 @@ pg.activity_ins_template = {
 			6424,
 			6428
 		}
-	},
-	[595] = {
+	}
+	pg.base.activity_ins_template[595] = {
 		ship_group = 99901,
 		name = "GascogneT8",
 		type = 1,
@@ -24251,8 +24905,8 @@ pg.activity_ins_template = {
 			6439,
 			6445
 		}
-	},
-	[596] = {
+	}
+	pg.base.activity_ins_template[596] = {
 		ship_group = 80503,
 		name = "Alsace",
 		type = 1,
@@ -24292,8 +24946,8 @@ pg.activity_ins_template = {
 			6453,
 			6457
 		}
-	},
-	[597] = {
+	}
+	pg.base.activity_ins_template[597] = {
 		ship_group = 1140001,
 		name = "Hestia",
 		type = 1,
@@ -24333,8 +24987,8 @@ pg.activity_ins_template = {
 			6467,
 			6471
 		}
-	},
-	[598] = {
+	}
+	pg.base.activity_ins_template[598] = {
 		ship_group = 1140002,
 		name = "Ryu Lion",
 		type = 1,
@@ -24374,8 +25028,8 @@ pg.activity_ins_template = {
 			6480,
 			6482
 		}
-	},
-	[599] = {
+	}
+	pg.base.activity_ins_template[599] = {
 		ship_group = 960012,
 		name = "Queen Anne's Revenge",
 		type = 1,
@@ -24415,8 +25069,8 @@ pg.activity_ins_template = {
 			6494,
 			6498
 		}
-	},
-	[600] = {
+	}
+	pg.base.activity_ins_template[600] = {
 		ship_group = 960014,
 		name = "Pearl",
 		type = 1,
@@ -24456,8 +25110,8 @@ pg.activity_ins_template = {
 			6507,
 			6512
 		}
-	},
-	[601] = {
+	}
+	pg.base.activity_ins_template[601] = {
 		ship_group = 960013,
 		name = "Lyme",
 		type = 1,
@@ -24497,8 +25151,8 @@ pg.activity_ins_template = {
 			6521,
 			6526
 		}
-	},
-	[602] = {
+	}
+	pg.base.activity_ins_template[602] = {
 		ship_group = 960015,
 		name = "Royal James",
 		type = 1,
@@ -24538,8 +25192,8 @@ pg.activity_ins_template = {
 			6535,
 			6538
 		}
-	},
-	[603] = {
+	}
+	pg.base.activity_ins_template[603] = {
 		ship_group = 960016,
 		name = "Adventure",
 		type = 1,
@@ -24579,8 +25233,8 @@ pg.activity_ins_template = {
 			6546,
 			6550
 		}
-	},
-	[604] = {
+	}
+	pg.base.activity_ins_template[604] = {
 		ship_group = 1150002,
 		name = "Tobiichi Origami",
 		type = 1,
@@ -24620,8 +25274,8 @@ pg.activity_ins_template = {
 			6560,
 			6566
 		}
-	},
-	[605] = {
+	}
+	pg.base.activity_ins_template[605] = {
 		ship_group = 1150005,
 		name = "Kurumi Tokisaki ",
 		type = 1,
@@ -24661,8 +25315,8 @@ pg.activity_ins_template = {
 			6576,
 			6580
 		}
-	},
-	[606] = {
+	}
+	pg.base.activity_ins_template[606] = {
 		ship_group = 1150004,
 		name = "Yoshino",
 		type = 1,
@@ -24702,8 +25356,8 @@ pg.activity_ins_template = {
 			6592,
 			6597
 		}
-	},
-	[607] = {
+	}
+	pg.base.activity_ins_template[607] = {
 		ship_group = 1150003,
 		name = "Itsuka Kotori",
 		type = 1,
@@ -24743,8 +25397,8 @@ pg.activity_ins_template = {
 			6606,
 			6611
 		}
-	},
-	[608] = {
+	}
+	pg.base.activity_ins_template[608] = {
 		ship_group = 1150006,
 		name = "Yamai Kguya Yamai Yuzuru",
 		type = 1,
@@ -24784,8 +25438,8 @@ pg.activity_ins_template = {
 			6619,
 			6623
 		}
-	},
-	[609] = {
+	}
+	pg.base.activity_ins_template[609] = {
 		ship_group = 1150001,
 		name = "Yatogami Tōka",
 		type = 1,
@@ -24825,8 +25479,8 @@ pg.activity_ins_template = {
 			6632,
 			6636
 		}
-	},
-	[610] = {
+	}
+	pg.base.activity_ins_template[610] = {
 		ship_group = 10235,
 		name = "Pasadena",
 		type = 1,
@@ -24866,8 +25520,10 @@ pg.activity_ins_template = {
 			6645,
 			6649
 		}
-	},
-	[611] = {
+	}
+end)()
+(function ()
+	pg.base.activity_ins_template[611] = {
 		ship_group = 10110,
 		name = "William D. Porter",
 		type = 1,
@@ -24907,8 +25563,8 @@ pg.activity_ins_template = {
 			6656,
 			6659
 		}
-	},
-	[612] = {
+	}
+	pg.base.activity_ins_template[612] = {
 		ship_group = 10716,
 		name = "Lexington II",
 		type = 1,
@@ -24949,8 +25605,8 @@ pg.activity_ins_template = {
 			6670,
 			6675
 		}
-	},
-	[613] = {
+	}
+	pg.base.activity_ins_template[613] = {
 		ship_group = 10725,
 		name = "Cowpens",
 		type = 1,
@@ -24990,8 +25646,8 @@ pg.activity_ins_template = {
 			6682,
 			6687
 		}
-	},
-	[614] = {
+	}
+	pg.base.activity_ins_template[614] = {
 		ship_group = 10155,
 		name = "Clarence K. Bronson",
 		type = 1,
@@ -25031,8 +25687,8 @@ pg.activity_ins_template = {
 			6696,
 			6699
 		}
-	},
-	[615] = {
+	}
+	pg.base.activity_ins_template[615] = {
 		ship_group = 119901,
 		name = "Gouden leeuw",
 		type = 1,
@@ -25072,8 +25728,8 @@ pg.activity_ins_template = {
 			6706,
 			6709
 		}
-	},
-	[616] = {
+	}
+	pg.base.activity_ins_template[616] = {
 		ship_group = 49910,
 		name = "Mecklenburg",
 		type = 1,
@@ -25113,8 +25769,8 @@ pg.activity_ins_template = {
 			6718,
 			6723
 		}
-	},
-	[617] = {
+	}
+	pg.base.activity_ins_template[617] = {
 		ship_group = 79903,
 		name = "Dmitri Donskoi",
 		type = 1,
@@ -25154,8 +25810,8 @@ pg.activity_ins_template = {
 			6730,
 			6733
 		}
-	},
-	[618] = {
+	}
+	pg.base.activity_ins_template[618] = {
 		ship_group = 19906,
 		name = "Kansas",
 		type = 1,
@@ -25195,8 +25851,8 @@ pg.activity_ins_template = {
 			6744,
 			6748
 		}
-	},
-	[619] = {
+	}
+	pg.base.activity_ins_template[619] = {
 		ship_group = 69903,
 		name = "Cuniberti",
 		type = 1,
@@ -25236,8 +25892,8 @@ pg.activity_ins_template = {
 			6755,
 			6760
 		}
-	},
-	[620] = {
+	}
+	pg.base.activity_ins_template[620] = {
 		ship_group = 30311,
 		name = "Takao",
 		type = 1,
@@ -25278,8 +25934,8 @@ pg.activity_ins_template = {
 			6772,
 			6775
 		}
-	},
-	[621] = {
+	}
+	pg.base.activity_ins_template[621] = {
 		ship_group = 60509,
 		name = "Francesco Caracciolo",
 		type = 1,
@@ -25319,8 +25975,8 @@ pg.activity_ins_template = {
 			6783,
 			6786
 		}
-	},
-	[622] = {
+	}
+	pg.base.activity_ins_template[622] = {
 		ship_group = 60204,
 		name = "Alberto di Giussano",
 		type = 1,
@@ -25360,8 +26016,8 @@ pg.activity_ins_template = {
 			6794,
 			6797
 		}
-	},
-	[623] = {
+	}
+	pg.base.activity_ins_template[623] = {
 		ship_group = 60112,
 		name = "Ugolino Vivaldi",
 		type = 1,
@@ -25401,8 +26057,8 @@ pg.activity_ins_template = {
 			6805,
 			6807
 		}
-	},
-	[624] = {
+	}
+	pg.base.activity_ins_template[624] = {
 		ship_group = 10520,
 		name = "Alabama",
 		type = 1,
@@ -25442,8 +26098,8 @@ pg.activity_ins_template = {
 			6818,
 			6822
 		}
-	},
-	[625] = {
+	}
+	pg.base.activity_ins_template[625] = {
 		ship_group = 50302,
 		name = "Chang Wu",
 		type = 1,
@@ -25484,8 +26140,8 @@ pg.activity_ins_template = {
 			6834,
 			6836
 		}
-	},
-	[626] = {
+	}
+	pg.base.activity_ins_template[626] = {
 		ship_group = 50212,
 		name = "Hai Chou",
 		type = 1,
@@ -25525,8 +26181,8 @@ pg.activity_ins_template = {
 			6845,
 			6850
 		}
-	},
-	[627] = {
+	}
+	pg.base.activity_ins_template[627] = {
 		ship_group = 30708,
 		name = "Shinano",
 		type = 1,
@@ -25566,8 +26222,8 @@ pg.activity_ins_template = {
 			6858,
 			6862
 		}
-	},
-	[628] = {
+	}
+	pg.base.activity_ins_template[628] = {
 		ship_group = 50107,
 		name = "Fei Yuen",
 		type = 1,
@@ -25607,8 +26263,8 @@ pg.activity_ins_template = {
 			6872,
 			6874
 		}
-	},
-	[629] = {
+	}
+	pg.base.activity_ins_template[629] = {
 		ship_group = 49902,
 		name = "SymphonicStigma",
 		type = 1,
@@ -25648,8 +26304,8 @@ pg.activity_ins_template = {
 			6884,
 			6889
 		}
-	},
-	[630] = {
+	}
+	pg.base.activity_ins_template[630] = {
 		ship_group = 70303,
 		name = "Moskva",
 		type = 1,
@@ -25689,8 +26345,8 @@ pg.activity_ins_template = {
 			6903,
 			6907
 		}
-	},
-	[631] = {
+	}
+	pg.base.activity_ins_template[631] = {
 		ship_group = 70113,
 		name = "Ozornoy",
 		type = 1,
@@ -25730,8 +26386,8 @@ pg.activity_ins_template = {
 			6914,
 			6918
 		}
-	},
-	[632] = {
+	}
+	pg.base.activity_ins_template[632] = {
 		ship_group = 70209,
 		name = "Krasny Kavkaz",
 		type = 1,
@@ -25771,8 +26427,8 @@ pg.activity_ins_template = {
 			6927,
 			6929
 		}
-	},
-	[633] = {
+	}
+	pg.base.activity_ins_template[633] = {
 		ship_group = 70210,
 		name = "Bogatyr",
 		type = 1,
@@ -25812,8 +26468,8 @@ pg.activity_ins_template = {
 			6937,
 			6941
 		}
-	},
-	[634] = {
+	}
+	pg.base.activity_ins_template[634] = {
 		ship_group = 30717,
 		name = "Unryū",
 		type = 1,
@@ -25853,8 +26509,8 @@ pg.activity_ins_template = {
 			6950,
 			6955
 		}
-	},
-	[635] = {
+	}
+	pg.base.activity_ins_template[635] = {
 		ship_group = 30228,
 		name = "Kizu",
 		type = 1,
@@ -25894,8 +26550,8 @@ pg.activity_ins_template = {
 			6963,
 			6966
 		}
-	},
-	[636] = {
+	}
+	pg.base.activity_ins_template[636] = {
 		ship_group = 30229,
 		name = "Nayoro",
 		type = 1,
@@ -25935,8 +26591,8 @@ pg.activity_ins_template = {
 			6976,
 			6981
 		}
-	},
-	[637] = {
+	}
+	pg.base.activity_ins_template[637] = {
 		ship_group = 10990,
 		name = "Elise",
 		type = 1,
@@ -25962,8 +26618,8 @@ pg.activity_ins_template = {
 		},
 		time_persist = {},
 		npc_discuss_persist = {}
-	},
-	[638] = {
+	}
+	pg.base.activity_ins_template[638] = {
 		ship_group = 10991,
 		name = "Shizuku",
 		type = 1,
@@ -25989,8 +26645,8 @@ pg.activity_ins_template = {
 		},
 		time_persist = {},
 		npc_discuss_persist = {}
-	},
-	[639] = {
+	}
+	pg.base.activity_ins_template[639] = {
 		ship_group = 10992,
 		name = "Shandy",
 		type = 1,
@@ -26016,8 +26672,8 @@ pg.activity_ins_template = {
 		},
 		time_persist = {},
 		npc_discuss_persist = {}
-	},
-	[640] = {
+	}
+	pg.base.activity_ins_template[640] = {
 		ship_group = 10993,
 		name = "Tsukushi",
 		type = 1,
@@ -26043,8 +26699,8 @@ pg.activity_ins_template = {
 		},
 		time_persist = {},
 		npc_discuss_persist = {}
-	},
-	[641] = {
+	}
+	pg.base.activity_ins_template[641] = {
 		ship_group = 10994,
 		name = "Patty",
 		type = 1,
@@ -26070,8 +26726,8 @@ pg.activity_ins_template = {
 		},
 		time_persist = {},
 		npc_discuss_persist = {}
-	},
-	[642] = {
+	}
+	pg.base.activity_ins_template[642] = {
 		ship_group = 10995,
 		name = "Yukino",
 		type = 1,
@@ -26097,8 +26753,8 @@ pg.activity_ins_template = {
 		},
 		time_persist = {},
 		npc_discuss_persist = {}
-	},
-	[20001] = {
+	}
+	pg.base.activity_ins_template[20001] = {
 		ship_group = 0,
 		name = "",
 		type = 2,
@@ -26151,8 +26807,8 @@ pg.activity_ins_template = {
 			100019,
 			100020
 		}
-	},
-	[20002] = {
+	}
+	pg.base.activity_ins_template[20002] = {
 		ship_group = 0,
 		name = "",
 		type = 2,
@@ -26199,8 +26855,8 @@ pg.activity_ins_template = {
 			100044,
 			100046
 		}
-	},
-	[20003] = {
+	}
+	pg.base.activity_ins_template[20003] = {
 		ship_group = 0,
 		name = "",
 		type = 2,
@@ -26226,8 +26882,8 @@ pg.activity_ins_template = {
 		},
 		time_persist = {},
 		npc_discuss_persist = {}
-	},
-	[20004] = {
+	}
+	pg.base.activity_ins_template[20004] = {
 		ship_group = 0,
 		name = "",
 		type = 2,
@@ -26253,643 +26909,5 @@ pg.activity_ins_template = {
 		},
 		time_persist = {},
 		npc_discuss_persist = {}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		39,
-		40,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46,
-		47,
-		48,
-		49,
-		50,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56,
-		57,
-		58,
-		59,
-		60,
-		61,
-		62,
-		63,
-		64,
-		65,
-		66,
-		67,
-		68,
-		69,
-		70,
-		71,
-		72,
-		73,
-		74,
-		75,
-		76,
-		77,
-		78,
-		79,
-		80,
-		81,
-		82,
-		83,
-		84,
-		85,
-		86,
-		87,
-		88,
-		89,
-		90,
-		91,
-		92,
-		93,
-		94,
-		95,
-		96,
-		97,
-		98,
-		99,
-		100,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		110,
-		111,
-		112,
-		113,
-		114,
-		115,
-		116,
-		117,
-		118,
-		119,
-		120,
-		121,
-		122,
-		123,
-		124,
-		125,
-		126,
-		127,
-		128,
-		129,
-		130,
-		131,
-		132,
-		133,
-		134,
-		135,
-		136,
-		137,
-		138,
-		139,
-		140,
-		141,
-		142,
-		143,
-		144,
-		145,
-		146,
-		147,
-		148,
-		149,
-		150,
-		151,
-		152,
-		153,
-		154,
-		155,
-		156,
-		157,
-		158,
-		159,
-		160,
-		161,
-		162,
-		163,
-		164,
-		165,
-		166,
-		167,
-		168,
-		169,
-		170,
-		171,
-		172,
-		173,
-		174,
-		175,
-		176,
-		177,
-		178,
-		179,
-		180,
-		181,
-		182,
-		183,
-		184,
-		185,
-		186,
-		187,
-		188,
-		189,
-		190,
-		191,
-		192,
-		193,
-		194,
-		195,
-		196,
-		197,
-		198,
-		199,
-		200,
-		201,
-		202,
-		203,
-		204,
-		205,
-		206,
-		207,
-		208,
-		209,
-		210,
-		211,
-		212,
-		213,
-		214,
-		215,
-		216,
-		217,
-		218,
-		219,
-		220,
-		221,
-		222,
-		223,
-		224,
-		225,
-		226,
-		227,
-		228,
-		229,
-		230,
-		231,
-		232,
-		233,
-		234,
-		235,
-		236,
-		237,
-		238,
-		239,
-		240,
-		241,
-		242,
-		243,
-		244,
-		245,
-		246,
-		247,
-		248,
-		249,
-		250,
-		251,
-		252,
-		253,
-		254,
-		255,
-		256,
-		257,
-		258,
-		259,
-		260,
-		261,
-		262,
-		263,
-		264,
-		265,
-		266,
-		267,
-		268,
-		269,
-		270,
-		271,
-		272,
-		273,
-		274,
-		275,
-		276,
-		277,
-		278,
-		279,
-		280,
-		281,
-		282,
-		283,
-		284,
-		285,
-		286,
-		287,
-		288,
-		289,
-		290,
-		291,
-		292,
-		293,
-		294,
-		295,
-		296,
-		297,
-		298,
-		299,
-		300,
-		301,
-		302,
-		303,
-		304,
-		305,
-		306,
-		307,
-		308,
-		309,
-		310,
-		311,
-		312,
-		313,
-		314,
-		315,
-		316,
-		317,
-		318,
-		319,
-		320,
-		321,
-		322,
-		323,
-		324,
-		325,
-		326,
-		327,
-		328,
-		329,
-		330,
-		331,
-		332,
-		333,
-		334,
-		335,
-		336,
-		337,
-		338,
-		339,
-		340,
-		341,
-		342,
-		343,
-		344,
-		345,
-		346,
-		347,
-		348,
-		349,
-		350,
-		351,
-		352,
-		353,
-		354,
-		355,
-		356,
-		357,
-		358,
-		359,
-		360,
-		361,
-		362,
-		363,
-		364,
-		365,
-		366,
-		367,
-		368,
-		369,
-		370,
-		371,
-		372,
-		375,
-		376,
-		377,
-		378,
-		379,
-		380,
-		381,
-		382,
-		390,
-		391,
-		392,
-		393,
-		394,
-		395,
-		396,
-		397,
-		398,
-		399,
-		400,
-		401,
-		402,
-		403,
-		404,
-		405,
-		406,
-		407,
-		408,
-		409,
-		410,
-		411,
-		412,
-		413,
-		414,
-		415,
-		416,
-		417,
-		418,
-		419,
-		420,
-		421,
-		422,
-		423,
-		424,
-		425,
-		426,
-		427,
-		428,
-		429,
-		430,
-		431,
-		432,
-		433,
-		434,
-		435,
-		436,
-		437,
-		438,
-		439,
-		440,
-		441,
-		442,
-		443,
-		444,
-		445,
-		446,
-		447,
-		448,
-		449,
-		450,
-		451,
-		452,
-		453,
-		454,
-		455,
-		457,
-		458,
-		459,
-		460,
-		461,
-		462,
-		463,
-		464,
-		465,
-		466,
-		467,
-		468,
-		469,
-		470,
-		471,
-		472,
-		473,
-		474,
-		475,
-		476,
-		477,
-		478,
-		479,
-		480,
-		481,
-		482,
-		483,
-		484,
-		485,
-		486,
-		487,
-		488,
-		489,
-		490,
-		491,
-		492,
-		493,
-		494,
-		495,
-		496,
-		497,
-		498,
-		499,
-		500,
-		501,
-		502,
-		503,
-		504,
-		505,
-		506,
-		507,
-		508,
-		509,
-		510,
-		511,
-		512,
-		513,
-		514,
-		515,
-		516,
-		517,
-		518,
-		519,
-		520,
-		521,
-		522,
-		523,
-		524,
-		525,
-		526,
-		527,
-		528,
-		529,
-		530,
-		531,
-		532,
-		533,
-		534,
-		535,
-		536,
-		537,
-		538,
-		539,
-		540,
-		541,
-		542,
-		543,
-		544,
-		545,
-		546,
-		547,
-		548,
-		549,
-		550,
-		551,
-		552,
-		553,
-		554,
-		555,
-		556,
-		557,
-		558,
-		559,
-		560,
-		561,
-		562,
-		563,
-		564,
-		565,
-		566,
-		567,
-		568,
-		569,
-		570,
-		571,
-		572,
-		573,
-		574,
-		575,
-		576,
-		577,
-		578,
-		579,
-		580,
-		581,
-		582,
-		583,
-		584,
-		585,
-		586,
-		587,
-		588,
-		589,
-		590,
-		591,
-		592,
-		593,
-		594,
-		595,
-		596,
-		597,
-		598,
-		599,
-		600,
-		601,
-		602,
-		603,
-		604,
-		605,
-		606,
-		607,
-		608,
-		609,
-		610,
-		611,
-		612,
-		613,
-		614,
-		615,
-		616,
-		617,
-		618,
-		619,
-		620,
-		621,
-		622,
-		623,
-		624,
-		625,
-		626,
-		627,
-		628,
-		629,
-		630,
-		631,
-		632,
-		633,
-		634,
-		635,
-		636,
-		637,
-		638,
-		639,
-		640,
-		641,
-		642,
-		20001,
-		20002,
-		20003,
-		20004
 	}
-}
+end)()

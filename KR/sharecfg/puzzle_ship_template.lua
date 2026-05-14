@@ -1,6 +1,16 @@
 pg = pg or {}
-pg.puzzle_ship_template = {
-	[202124] = {
+pg.puzzle_ship_template = rawget(pg, "puzzle_ship_template") or setmetatable({
+	__name = "puzzle_ship_template"
+}, confNEO)
+pg.puzzle_ship_template.all = {
+	202124,
+	905014
+}
+pg.base = pg.base or {}
+pg.base.puzzle_ship_template = {}
+
+(function ()
+	pg.base.puzzle_ship_template[202124] = {
 		cannon = 100,
 		name = "贝尔法斯特",
 		antisub = 0,
@@ -70,8 +80,8 @@ pg.puzzle_ship_template = {
 		default_equip = {},
 		default_relics = {},
 		default_card = {}
-	},
-	[905014] = {
+	}
+	pg.base.puzzle_ship_template[905014] = {
 		cannon = 400,
 		name = "让巴尔",
 		antisub = 0,
@@ -141,9 +151,5 @@ pg.puzzle_ship_template = {
 		default_equip = {},
 		default_relics = {},
 		default_card = {}
-	},
-	all = {
-		202124,
-		905014
 	}
-}
+end)()

@@ -1,6 +1,74 @@
 pg = pg or {}
-pg.activity_ryza_recipe = {
-	[10] = {
+pg.activity_ryza_recipe = rawget(pg, "activity_ryza_recipe") or setmetatable({
+	__name = "activity_ryza_recipe"
+}, confNEO)
+pg.activity_ryza_recipe.all = {
+	10,
+	20,
+	30,
+	40,
+	50,
+	60,
+	70,
+	80,
+	90,
+	100,
+	110,
+	120,
+	130,
+	140,
+	150,
+	160,
+	170,
+	180,
+	190,
+	200,
+	210,
+	220,
+	230,
+	240,
+	250,
+	260,
+	270,
+	280,
+	290,
+	300,
+	310,
+	320,
+	330,
+	340,
+	350,
+	1001,
+	1002,
+	1003,
+	1004,
+	1011,
+	1012,
+	1013,
+	1014,
+	1015,
+	1016,
+	1017,
+	1018,
+	1019,
+	1020,
+	1021,
+	1022,
+	1023,
+	1024,
+	1025,
+	1026,
+	1027,
+	1028,
+	1029,
+	1030,
+	1031
+}
+pg.base = pg.base or {}
+pg.base.activity_ryza_recipe = {}
+
+(function ()
+	pg.base.activity_ryza_recipe[10] = {
 		rarity = 4,
 		display = "라이잘린 슈타우트가 사용하는 무기.\n강한 빛을 발하는 지팡이. 아무것도 하지 않아도 눈부신 빛을 유지한다. 그 빛을 받으면 착용자와 주위 사람들까지 마음이 밝아지는 것 같다고 한다.",
 		prop_type = "",
@@ -28,8 +96,8 @@ pg.activity_ryza_recipe = {
 			103,
 			104
 		}
-	},
-	[20] = {
+	}
+	pg.base.activity_ryza_recipe[20] = {
 		rarity = 4,
 		display = "클라우디아 발렌츠가 사용하는 무기.\n쏜 화살이 어둠 속에서 별처럼 빛난다고 해서 붙여진 이름이다. 어둠 속에서 이 활로 쏜 화살이 날아오면 간담이 서늘해질 것이다.",
 		prop_type = "",
@@ -57,8 +125,8 @@ pg.activity_ryza_recipe = {
 			204,
 			206
 		}
-	},
-	[30] = {
+	}
+	pg.base.activity_ryza_recipe[30] = {
 		rarity = 4,
 		display = "파트리샤 아벨하임이 사용하는 무기.\n검이 의지를 가지고 스스로 사용자를 선택한다고 한다. 고결한 혼을 지니고 있지 않으면, 아무리 뛰어난 실력자라도 다룰 수 없다.",
 		prop_type = "",
@@ -87,8 +155,8 @@ pg.activity_ryza_recipe = {
 			310,
 			311
 		}
-	},
-	[40] = {
+	}
+	pg.base.activity_ryza_recipe[40] = {
 		rarity = 4,
 		display = "릴라 디자이어스가 사용하는 무기.\n일찍이 오렌족이 사용하던 전통 무기 중 하나. 장비 시 주위 자연에 깃든 정령들이 힘을 준다고 한다.",
 		prop_type = "",
@@ -119,8 +187,8 @@ pg.activity_ryza_recipe = {
 			413,
 			411
 		}
-	},
-	[50] = {
+	}
+	pg.base.activity_ryza_recipe[50] = {
 		rarity = 4,
 		display = "세리 글로스가 사용하는 무기.\n”꽃의 현자”라 불렸던 인물이 착용했다는 팔찌. 착용자가 길을 걷기만 해도 주위의 꽃이 만개하기 때문에”꽃의 현자”의 주변은 언제나 꽃밭이었다고 한다.",
 		prop_type = "",
@@ -149,8 +217,8 @@ pg.activity_ryza_recipe = {
 			509,
 			511
 		}
-	},
-	[60] = {
+	}
+	pg.base.activity_ryza_recipe[60] = {
 		rarity = 4,
 		display = "칼라 이데아스가 사용하는 무기.\n괴상한 모양의 전투용 망치. 평평한 부분 반대쪽의 조형물은 순전히 멋을 내기 위한 것이다.",
 		prop_type = "",
@@ -181,8 +249,8 @@ pg.activity_ryza_recipe = {
 			608,
 			610
 		}
-	},
-	[70] = {
+	}
+	pg.base.activity_ryza_recipe[70] = {
 		rarity = 4,
 		display = "강력한 위력의 화속성 폭탄. 사용 시 적에게 대미지를 입힐 수 있다.",
 		prop_type = "",
@@ -214,8 +282,8 @@ pg.activity_ryza_recipe = {
 			710,
 			714
 		}
-	},
-	[80] = {
+	}
+	pg.base.activity_ryza_recipe[80] = {
 		rarity = 4,
 		display = "강력한 위력의 빙속성 폭탄. 사용 시 적에게 대미지를 입힐 수 있다.",
 		prop_type = "",
@@ -247,8 +315,8 @@ pg.activity_ryza_recipe = {
 			814,
 			812
 		}
-	},
-	[90] = {
+	}
+	pg.base.activity_ryza_recipe[90] = {
 		rarity = 4,
 		display = "강력한 위력의 뇌속성 폭탄. 사용 시 적에게 대미지를 입힐 수 있다.",
 		prop_type = "",
@@ -280,8 +348,8 @@ pg.activity_ryza_recipe = {
 			904,
 			905
 		}
-	},
-	[100] = {
+	}
+	pg.base.activity_ryza_recipe[100] = {
 		rarity = 4,
 		display = "강력한 위력의 풍속성 폭탄. 사용 시 적에게 대미지를 입힐 수 있다.",
 		prop_type = "",
@@ -312,8 +380,8 @@ pg.activity_ryza_recipe = {
 			1012,
 			1013
 		}
-	},
-	[110] = {
+	}
+	pg.base.activity_ryza_recipe[110] = {
 		rarity = 4,
 		display = "세게 두드리면 대지도 심하게 흔들리게 하는 망치. 땅이 흔들릴 때 공기의 진동과 하늘에서 울리는 소리가 창세의 모습을 연상시킨다고 해서 붙여진 이름이다.",
 		prop_type = "",
@@ -346,8 +414,8 @@ pg.activity_ryza_recipe = {
 			1106,
 			1107
 		}
-	},
-	[120] = {
+	}
+	pg.base.activity_ryza_recipe[120] = {
 		rarity = 4,
 		display = "총신이 필요 없는 탄환. 표적을 향해 발사하면 탄알이 상공에서 선회하다가 곧장 전진하여 적중하는 순간 폭발한다.",
 		prop_type = "",
@@ -383,8 +451,8 @@ pg.activity_ryza_recipe = {
 			1209,
 			1210
 		}
-	},
-	[130] = {
+	}
+	pg.base.activity_ryza_recipe[130] = {
 		rarity = 4,
 		display = "사용 후 적의 방어력을 떨어뜨릴 수 있는 강력한 폭탄.",
 		prop_type = "",
@@ -417,8 +485,8 @@ pg.activity_ryza_recipe = {
 			1306,
 			1307
 		}
-	},
-	[140] = {
+	}
+	pg.base.activity_ryza_recipe[140] = {
 		rarity = 4,
 		display = "강력한 위력의 아이템. 사용 시 적의 속성을 낮출 수 있지만, 사용자의 체력이 차감된다.",
 		prop_type = "",
@@ -459,8 +527,8 @@ pg.activity_ryza_recipe = {
 			1415,
 			1416
 		}
-	},
-	[150] = {
+	}
+	pg.base.activity_ryza_recipe[150] = {
 		rarity = 4,
 		display = "엷고 신비로운 색깔 천으로 된 우의. 펼치면 모든 공격으로부터 몸을 보호할 수 있다.",
 		prop_type = "",
@@ -499,8 +567,8 @@ pg.activity_ryza_recipe = {
 			1506,
 			1507
 		}
-	},
-	[160] = {
+	}
+	pg.base.activity_ryza_recipe[160] = {
 		rarity = 4,
 		display = "온갖 병과 상처를 치료해, 죽은 사람조차 소생시킬 정도라는 초강력 약. 연금술사 중에서도 만들 수 있는 사람은 극히 소수이며, 연금술의 정점 중 하나라 불린다.",
 		prop_type = "",
@@ -537,8 +605,8 @@ pg.activity_ryza_recipe = {
 			1611,
 			1612
 		}
-	},
-	[170] = {
+	}
+	pg.base.activity_ryza_recipe[170] = {
 		rarity = 4,
 		display = "생각이 음의 형태로 표현되는 하모니카. 듣는 이에게 다양한 힘을 부여할 수 있다.",
 		prop_type = "",
@@ -565,8 +633,8 @@ pg.activity_ryza_recipe = {
 			1704,
 			1705
 		}
-	},
-	[180] = {
+	}
+	pg.base.activity_ryza_recipe[180] = {
 		rarity = 4,
 		display = "아틀리에 스타일 장비스킨 1가지 랜덤 획득 가능",
 		prop_type = "",
@@ -599,8 +667,8 @@ pg.activity_ryza_recipe = {
 			1807,
 			1808
 		}
-	},
-	[190] = {
+	}
+	pg.base.activity_ryza_recipe[190] = {
 		rarity = 3,
 		display = "연금술에 의해 네 개의 열쇠가 융합되어 형성된 도어 카드와 같은 장치. 코어 구역 대문의 홈과 완벽하게 맞아드는 것 같다.",
 		prop_type = "",
@@ -622,8 +690,8 @@ pg.activity_ryza_recipe = {
 			1903,
 			1902
 		}
-	},
-	[200] = {
+	}
+	pg.base.activity_ryza_recipe[200] = {
 		rarity = 4,
 		display = "유적에서 회수한 소재로 제작한 정교한 조형물. 놀라움으로 가득한 비밀 유적 군도에서의 모험——「연금술사와 비밀 유적 군도」 이벤트 기념\n「……음, 이것도 나무통이네!」",
 		prop_type = "",
@@ -658,8 +726,8 @@ pg.activity_ryza_recipe = {
 			2011,
 			2012
 		}
-	},
-	[210] = {
+	}
+	pg.base.activity_ryza_recipe[210] = {
 		rarity = 2,
 		display = "작은 병에 연금술로 인공 제작한 만든 요정의 힘이 봉인되어 있다. 모든 속성에 적응할 수 있지만 사용하기 쉽지 않다.",
 		prop_type = "",
@@ -679,8 +747,8 @@ pg.activity_ryza_recipe = {
 			2101,
 			2102
 		}
-	},
-	[220] = {
+	}
+	pg.base.activity_ryza_recipe[220] = {
 		rarity = 3,
 		display = "연금술 조합에 자주 나타나는 기본 시약. 붉은색 액체이며 화속성 소재와 궁합이 좋다.",
 		prop_type = "",
@@ -701,8 +769,8 @@ pg.activity_ryza_recipe = {
 			2201,
 			2202
 		}
-	},
-	[230] = {
+	}
+	pg.base.activity_ryza_recipe[230] = {
 		rarity = 3,
 		display = "연금술 조합에 자주 나타나는 기본 시약. 푸른색 액체이며 빙속성 소재와 궁합이 좋다.",
 		prop_type = "",
@@ -723,8 +791,8 @@ pg.activity_ryza_recipe = {
 			2301,
 			2302
 		}
-	},
-	[240] = {
+	}
+	pg.base.activity_ryza_recipe[240] = {
 		rarity = 3,
 		display = "연금술 조합에 자주 나타나는 기본 시약. 노란색 액체이며 뇌속성 소재와 궁합이 좋다.",
 		prop_type = "",
@@ -745,8 +813,8 @@ pg.activity_ryza_recipe = {
 			2401,
 			2402
 		}
-	},
-	[250] = {
+	}
+	pg.base.activity_ryza_recipe[250] = {
 		rarity = 3,
 		display = "연금술 조합에 자주 나타나는 기본 시약. 초록색 액체이며 풍속성 소재와 궁합이 좋다.",
 		prop_type = "",
@@ -767,8 +835,8 @@ pg.activity_ryza_recipe = {
 			2501,
 			2502
 		}
-	},
-	[260] = {
+	}
+	pg.base.activity_ryza_recipe[260] = {
 		rarity = 4,
 		display = "네 가지 엘리먼트 코어로 만들어진 최고 수준의 소재 중 하나. 조합을 실시할 때 필요한 속성 적성이 뛰어나 고도의 조합 시 유용하다.",
 		prop_type = "",
@@ -790,8 +858,8 @@ pg.activity_ryza_recipe = {
 			2602,
 			2604
 		}
-	},
-	[270] = {
+	}
+	pg.base.activity_ryza_recipe[270] = {
 		rarity = 4,
 		display = "[연금술사와 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 포격, 항공, 뇌장 속성 증가 효과 획득",
 		prop_type = "",
@@ -817,8 +885,8 @@ pg.activity_ryza_recipe = {
 			2707,
 			2708
 		}
-	},
-	[280] = {
+	}
+	pg.base.activity_ryza_recipe[280] = {
 		rarity = 4,
 		display = "[연금술사와 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 대미지 감소 효과 획득",
 		prop_type = "",
@@ -844,8 +912,8 @@ pg.activity_ryza_recipe = {
 			2807,
 			2808
 		}
-	},
-	[290] = {
+	}
+	pg.base.activity_ryza_recipe[290] = {
 		rarity = 4,
 		display = "[연금술사와 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 내구도 회복 효과 획득",
 		prop_type = "",
@@ -871,8 +939,8 @@ pg.activity_ryza_recipe = {
 			2907,
 			2908
 		}
-	},
-	[300] = {
+	}
+	pg.base.activity_ryza_recipe[300] = {
 		rarity = 4,
 		display = "[연금술사와 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 함선의 내구도가 20% 이하일 경우 회복 효과 획득",
 		prop_type = "",
@@ -898,8 +966,8 @@ pg.activity_ryza_recipe = {
 			3007,
 			3008
 		}
-	},
-	[310] = {
+	}
+	pg.base.activity_ryza_recipe[310] = {
 		rarity = 4,
 		display = "[연금술사와 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 공격 탄막 지원 효과 획득",
 		prop_type = "",
@@ -925,8 +993,8 @@ pg.activity_ryza_recipe = {
 			3107,
 			3108
 		}
-	},
-	[320] = {
+	}
+	pg.base.activity_ryza_recipe[320] = {
 		rarity = 4,
 		display = "[연금술사와 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 부상 탄막 지원 효과 획득",
 		prop_type = "",
@@ -952,8 +1020,8 @@ pg.activity_ryza_recipe = {
 			3207,
 			3208
 		}
-	},
-	[330] = {
+	}
+	pg.base.activity_ryza_recipe[330] = {
 		rarity = 4,
 		display = "[연금술사와 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 경험치 상승 효과 획득",
 		prop_type = "",
@@ -979,8 +1047,8 @@ pg.activity_ryza_recipe = {
 			3307,
 			3308
 		}
-	},
-	[340] = {
+	}
+	pg.base.activity_ryza_recipe[340] = {
 		rarity = 4,
 		display = "[연금술사와 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 호감도 상승 효과 획득",
 		prop_type = "",
@@ -1006,8 +1074,8 @@ pg.activity_ryza_recipe = {
 			3407,
 			3408
 		}
-	},
-	[350] = {
+	}
+	pg.base.activity_ryza_recipe[350] = {
 		rarity = 3,
 		display = "특수 장비 강화석, 주로 특수 장비의 제작, 강화, 돌파에 사용된다.",
 		prop_type = "",
@@ -1027,8 +1095,8 @@ pg.activity_ryza_recipe = {
 			3502,
 			3503
 		}
-	},
-	[1001] = {
+	}
+	pg.base.activity_ryza_recipe[1001] = {
 		rarity = 3,
 		display = "총격과 타격의 위력을 최대한으로 이끌어 내기 위해 만들어진 장총. 응축된 마나가 광원인 램프가 달려 있다.",
 		prop_type = "",
@@ -1052,8 +1120,8 @@ pg.activity_ryza_recipe = {
 			10006,
 			10007
 		}
-	},
-	[1002] = {
+	}
+	pg.base.activity_ryza_recipe[1002] = {
 		rarity = 3,
 		display = "칼날 끝이 보석으로 이루어진 창. 칼날 끝이 부러져도 언제든 교환할 수 있게 만들어져 있다.",
 		prop_type = "",
@@ -1077,8 +1145,8 @@ pg.activity_ryza_recipe = {
 			10016,
 			10017
 		}
-	},
-	[1003] = {
+	}
+	pg.base.activity_ryza_recipe[1003] = {
 		rarity = 3,
 		display = "사용하기 편한 사이즈의 단총과 단검. 단검은 가벼우면서도 날카롭고, 단총은 위력은 있으나 반동이 제법 강하다.",
 		prop_type = "",
@@ -1102,8 +1170,8 @@ pg.activity_ryza_recipe = {
 			10026,
 			10027
 		}
-	},
-	[1004] = {
+	}
+	pg.base.activity_ryza_recipe[1004] = {
 		rarity = 3,
 		display = "베기보다는 톱처럼 찢는 무기. 베인 상처는 잘 아물지 않을 뿐더러, 흉터를 남기기 쉽다.",
 		prop_type = "",
@@ -1127,8 +1195,8 @@ pg.activity_ryza_recipe = {
 			10036,
 			10037
 		}
-	},
-	[1011] = {
+	}
+	pg.base.activity_ryza_recipe[1011] = {
 		rarity = 3,
 		display = "불과 번개의 힘을 지닌 쌍두검. 익숙해지면 두 가지 힘을 바로 휘두를 수 있다.",
 		prop_type = "",
@@ -1152,8 +1220,8 @@ pg.activity_ryza_recipe = {
 			10046,
 			10047
 		}
-	},
-	[1012] = {
+	}
+	pg.base.activity_ryza_recipe[1012] = {
 		rarity = 3,
 		display = "강력한 바람의 힘이 봉인된 마도서. 책을 펼치면 그 힘이 해방된다.",
 		prop_type = "",
@@ -1177,8 +1245,8 @@ pg.activity_ryza_recipe = {
 			10056,
 			10057
 		}
-	},
-	[1013] = {
+	}
+	pg.base.activity_ryza_recipe[1013] = {
 		rarity = 3,
 		display = "무지갯빛 광채를 내뿜는 대검. 다양한 힘을 겸비하고 있다.",
 		prop_type = "",
@@ -1202,8 +1270,8 @@ pg.activity_ryza_recipe = {
 			10066,
 			10067
 		}
-	},
-	[1014] = {
+	}
+	pg.base.activity_ryza_recipe[1014] = {
 		rarity = 3,
 		display = "아름다운 꽃밭과 푸른 하늘을 비추는 수정 구슬. 모든 상처를 치유하는 효과를 지닌다.",
 		prop_type = "",
@@ -1227,8 +1295,8 @@ pg.activity_ryza_recipe = {
 			10076,
 			10077
 		}
-	},
-	[1015] = {
+	}
+	pg.base.activity_ryza_recipe[1015] = {
 		rarity = 3,
 		display = "재생의 힘을 지닌 천구의. 중심에 위치한 보석에는 치유의 힘이 깃들어 있다.",
 		prop_type = "",
@@ -1252,8 +1320,8 @@ pg.activity_ryza_recipe = {
 			10086,
 			10087
 		}
-	},
-	[1016] = {
+	}
+	pg.base.activity_ryza_recipe[1016] = {
 		rarity = 3,
 		display = "태고의 무시무시한 마물이 봉인된 큐브. 봉인을 풀 생각은 접도록 하자.",
 		prop_type = "",
@@ -1277,8 +1345,8 @@ pg.activity_ryza_recipe = {
 			10096,
 			10097
 		}
-	},
-	[1017] = {
+	}
+	pg.base.activity_ryza_recipe[1017] = {
 		rarity = 3,
 		display = "하늘의 탑의 에너지를 조정하기 위한 전용 설비. 레벨 1.",
 		prop_type = "",
@@ -1303,8 +1371,8 @@ pg.activity_ryza_recipe = {
 			10107,
 			10108
 		}
-	},
-	[1018] = {
+	}
+	pg.base.activity_ryza_recipe[1018] = {
 		rarity = 3,
 		display = "하늘의 탑의 에너지를 조정하기 위한 전용 설비. 레벨 2.",
 		prop_type = "",
@@ -1329,8 +1397,8 @@ pg.activity_ryza_recipe = {
 			10117,
 			10118
 		}
-	},
-	[1019] = {
+	}
+	pg.base.activity_ryza_recipe[1019] = {
 		rarity = 3,
 		display = "하늘의 탑의 에너지를 조정하기 위한 전용 설비. 레벨 3.",
 		prop_type = "",
@@ -1355,8 +1423,8 @@ pg.activity_ryza_recipe = {
 			10127,
 			10128
 		}
-	},
-	[1020] = {
+	}
+	pg.base.activity_ryza_recipe[1020] = {
 		rarity = 3,
 		display = "하늘의 탑의 에너지를 조정하기 위한 전용 설비. 레벨 4.",
 		prop_type = "",
@@ -1381,8 +1449,8 @@ pg.activity_ryza_recipe = {
 			10137,
 			10138
 		}
-	},
-	[1021] = {
+	}
+	pg.base.activity_ryza_recipe[1021] = {
 		rarity = 3,
 		display = "연금술에서 자주 사용하는 기본 약제. 붉은 중화제는 불 속성과 상성이 좋다.",
 		prop_type = "",
@@ -1402,8 +1470,8 @@ pg.activity_ryza_recipe = {
 			10142,
 			10143
 		}
-	},
-	[1022] = {
+	}
+	pg.base.activity_ryza_recipe[1022] = {
 		rarity = 3,
 		display = "연금술에서 자주 사용하는 기본 약제. 푸른 중화제는 얼음 속성과 상성이 좋다.",
 		prop_type = "",
@@ -1423,8 +1491,8 @@ pg.activity_ryza_recipe = {
 			10152,
 			10153
 		}
-	},
-	[1023] = {
+	}
+	pg.base.activity_ryza_recipe[1023] = {
 		rarity = 3,
 		display = "연금술에서 자주 사용하는 기본 약제. 황색 중화제는 전기 속성과 상성이 좋다.",
 		prop_type = "",
@@ -1444,8 +1512,8 @@ pg.activity_ryza_recipe = {
 			10162,
 			10163
 		}
-	},
-	[1024] = {
+	}
+	pg.base.activity_ryza_recipe[1024] = {
 		rarity = 3,
 		display = "연금술에서 자주 사용하는 기본 약제. 녹색 중화제는 바람 속성과 상성이 좋다.",
 		prop_type = "",
@@ -1465,8 +1533,8 @@ pg.activity_ryza_recipe = {
 			10172,
 			10173
 		}
-	},
-	[1025] = {
+	}
+	pg.base.activity_ryza_recipe[1025] = {
 		rarity = 3,
 		display = "연금술에서 자주 사용하는 기본 약제. 개량하여 다양한 재료와 상성이 좋아지도록 만든 만능 중화제다.",
 		prop_type = "",
@@ -1488,8 +1556,8 @@ pg.activity_ryza_recipe = {
 			10184,
 			10185
 		}
-	},
-	[1026] = {
+	}
+	pg.base.activity_ryza_recipe[1026] = {
 		rarity = 3,
 		display = "랜덤으로 장비 스킨 획득 가능",
 		prop_type = "",
@@ -1510,8 +1578,8 @@ pg.activity_ryza_recipe = {
 			10193,
 			10194
 		}
-	},
-	[1027] = {
+	}
+	pg.base.activity_ryza_recipe[1027] = {
 		rarity = 3,
 		display = "특수 장비를 제조하고 변화(강화)할 때 사용하는 재료",
 		prop_type = "",
@@ -1532,8 +1600,8 @@ pg.activity_ryza_recipe = {
 			10203,
 			10204
 		}
-	},
-	[1028] = {
+	}
+	pg.base.activity_ryza_recipe[1028] = {
 		rarity = 3,
 		display = "거점 건설에 사용되는 범용 재료. 목재 오브젝트 설치에 사용된다.",
 		prop_type = "",
@@ -1553,8 +1621,8 @@ pg.activity_ryza_recipe = {
 			10212,
 			10213
 		}
-	},
-	[1029] = {
+	}
+	pg.base.activity_ryza_recipe[1029] = {
 		rarity = 3,
 		display = "거점 건설에 사용되는 범용 재료. 석재 오브젝트 설치에 사용된다.",
 		prop_type = "",
@@ -1574,8 +1642,8 @@ pg.activity_ryza_recipe = {
 			10222,
 			10223
 		}
-	},
-	[1030] = {
+	}
+	pg.base.activity_ryza_recipe[1030] = {
 		rarity = 3,
 		display = "거점 건설에 사용되는 범용 재료. 금속재 오브젝트 설치에 사용된다.",
 		prop_type = "",
@@ -1595,8 +1663,8 @@ pg.activity_ryza_recipe = {
 			10232,
 			10233
 		}
-	},
-	[1031] = {
+	}
+	pg.base.activity_ryza_recipe[1031] = {
 		rarity = 3,
 		display = "거점 건설에 사용되는 범용 재료. 식물 오브젝트 설치에 사용된다.",
 		prop_type = "",
@@ -1616,67 +1684,5 @@ pg.activity_ryza_recipe = {
 			10242,
 			10243
 		}
-	},
-	all = {
-		10,
-		20,
-		30,
-		40,
-		50,
-		60,
-		70,
-		80,
-		90,
-		100,
-		110,
-		120,
-		130,
-		140,
-		150,
-		160,
-		170,
-		180,
-		190,
-		200,
-		210,
-		220,
-		230,
-		240,
-		250,
-		260,
-		270,
-		280,
-		290,
-		300,
-		310,
-		320,
-		330,
-		340,
-		350,
-		1001,
-		1002,
-		1003,
-		1004,
-		1011,
-		1012,
-		1013,
-		1014,
-		1015,
-		1016,
-		1017,
-		1018,
-		1019,
-		1020,
-		1021,
-		1022,
-		1023,
-		1024,
-		1025,
-		1026,
-		1027,
-		1028,
-		1029,
-		1030,
-		1031
 	}
-}
+end)()

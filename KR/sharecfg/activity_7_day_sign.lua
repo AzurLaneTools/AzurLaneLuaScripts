@@ -1,6 +1,86 @@
 pg = pg or {}
-pg.activity_7_day_sign = {
-	{
+pg.activity_7_day_sign = rawget(pg, "activity_7_day_sign") or setmetatable({
+	__name = "activity_7_day_sign"
+}, confNEO)
+pg.activity_7_day_sign.all = {
+	1,
+	3,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	20,
+	22,
+	23,
+	24,
+	25,
+	27,
+	28,
+	30,
+	31,
+	32,
+	35,
+	36,
+	38,
+	39,
+	40,
+	42,
+	43,
+	47,
+	48,
+	49,
+	50,
+	51,
+	52,
+	53,
+	54,
+	55,
+	56,
+	57,
+	59,
+	60,
+	62,
+	63,
+	64,
+	65,
+	66,
+	67,
+	68,
+	69,
+	70,
+	71,
+	72,
+	74,
+	75,
+	77,
+	78,
+	79,
+	80,
+	81,
+	82,
+	83,
+	84,
+	85,
+	86,
+	92,
+	93,
+	94,
+	901
+}
+pg.base = pg.base or {}
+pg.base.activity_7_day_sign = {}
+
+(function ()
+	pg.base.activity_7_day_sign[1] = {
 		id = 1,
 		front_drops = {
 			{
@@ -44,8 +124,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[3] = {
+	}
+	pg.base.activity_7_day_sign[3] = {
 		id = 3,
 		front_drops = {
 			{
@@ -64,8 +144,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[5] = {
+	}
+	pg.base.activity_7_day_sign[5] = {
 		id = 5,
 		front_drops = {
 			{
@@ -109,8 +189,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[6] = {
+	}
+	pg.base.activity_7_day_sign[6] = {
 		id = 6,
 		front_drops = {
 			{
@@ -149,8 +229,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[7] = {
+	}
+	pg.base.activity_7_day_sign[7] = {
 		id = 7,
 		front_drops = {
 			{
@@ -224,8 +304,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[8] = {
+	}
+	pg.base.activity_7_day_sign[8] = {
 		id = 8,
 		front_drops = {
 			{
@@ -254,8 +334,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[9] = {
+	}
+	pg.base.activity_7_day_sign[9] = {
 		id = 9,
 		front_drops = {
 			{
@@ -294,8 +374,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[10] = {
+	}
+	pg.base.activity_7_day_sign[10] = {
 		id = 10,
 		front_drops = {
 			{
@@ -369,8 +449,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[11] = {
+	}
+	pg.base.activity_7_day_sign[11] = {
 		id = 11,
 		front_drops = {
 			{
@@ -414,8 +494,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[13] = {
+	}
+	pg.base.activity_7_day_sign[13] = {
 		id = 13,
 		front_drops = {
 			{
@@ -439,8 +519,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[14] = {
+	}
+	pg.base.activity_7_day_sign[14] = {
 		id = 14,
 		front_drops = {
 			{
@@ -479,8 +559,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[15] = {
+	}
+	pg.base.activity_7_day_sign[15] = {
 		id = 15,
 		front_drops = {
 			{
@@ -504,8 +584,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[16] = {
+	}
+	pg.base.activity_7_day_sign[16] = {
 		id = 16,
 		front_drops = {
 			{
@@ -544,8 +624,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[17] = {
+	}
+	pg.base.activity_7_day_sign[17] = {
 		id = 17,
 		front_drops = {
 			{
@@ -584,8 +664,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[18] = {
+	}
+	pg.base.activity_7_day_sign[18] = {
 		id = 18,
 		front_drops = {
 			{
@@ -609,8 +689,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[20] = {
+	}
+	pg.base.activity_7_day_sign[20] = {
 		id = 20,
 		front_drops = {
 			{
@@ -649,8 +729,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[22] = {
+	}
+	pg.base.activity_7_day_sign[22] = {
 		id = 22,
 		front_drops = {
 			{
@@ -669,8 +749,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[23] = {
+	}
+	pg.base.activity_7_day_sign[23] = {
 		id = 23,
 		front_drops = {
 			{
@@ -709,8 +789,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[24] = {
+	}
+	pg.base.activity_7_day_sign[24] = {
 		id = 24,
 		front_drops = {
 			{
@@ -739,8 +819,8 @@ pg.activity_7_day_sign = {
 				5
 			}
 		}
-	},
-	[25] = {
+	}
+	pg.base.activity_7_day_sign[25] = {
 		id = 25,
 		front_drops = {
 			{
@@ -759,8 +839,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[27] = {
+	}
+	pg.base.activity_7_day_sign[27] = {
 		id = 27,
 		front_drops = {
 			{
@@ -799,8 +879,8 @@ pg.activity_7_day_sign = {
 				2
 			}
 		}
-	},
-	[28] = {
+	}
+	pg.base.activity_7_day_sign[28] = {
 		id = 28,
 		front_drops = {
 			{
@@ -819,8 +899,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[30] = {
+	}
+	pg.base.activity_7_day_sign[30] = {
 		id = 30,
 		front_drops = {
 			{
@@ -859,8 +939,8 @@ pg.activity_7_day_sign = {
 				2
 			}
 		}
-	},
-	[31] = {
+	}
+	pg.base.activity_7_day_sign[31] = {
 		id = 31,
 		front_drops = {
 			{
@@ -889,8 +969,8 @@ pg.activity_7_day_sign = {
 				5
 			}
 		}
-	},
-	[32] = {
+	}
+	pg.base.activity_7_day_sign[32] = {
 		id = 32,
 		front_drops = {
 			{
@@ -909,8 +989,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[35] = {
+	}
+	pg.base.activity_7_day_sign[35] = {
 		id = 35,
 		front_drops = {
 			{
@@ -939,8 +1019,8 @@ pg.activity_7_day_sign = {
 				150
 			}
 		}
-	},
-	[36] = {
+	}
+	pg.base.activity_7_day_sign[36] = {
 		id = 36,
 		front_drops = {
 			{
@@ -959,8 +1039,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[38] = {
+	}
+	pg.base.activity_7_day_sign[38] = {
 		id = 38,
 		front_drops = {
 			{
@@ -979,8 +1059,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[39] = {
+	}
+	pg.base.activity_7_day_sign[39] = {
 		id = 39,
 		front_drops = {
 			{
@@ -1019,8 +1099,8 @@ pg.activity_7_day_sign = {
 				2
 			}
 		}
-	},
-	[40] = {
+	}
+	pg.base.activity_7_day_sign[40] = {
 		id = 40,
 		front_drops = {
 			{
@@ -1049,8 +1129,8 @@ pg.activity_7_day_sign = {
 				5
 			}
 		}
-	},
-	[42] = {
+	}
+	pg.base.activity_7_day_sign[42] = {
 		id = 42,
 		front_drops = {
 			{
@@ -1079,8 +1159,8 @@ pg.activity_7_day_sign = {
 				150
 			}
 		}
-	},
-	[43] = {
+	}
+	pg.base.activity_7_day_sign[43] = {
 		id = 43,
 		front_drops = {
 			{
@@ -1099,8 +1179,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[47] = {
+	}
+	pg.base.activity_7_day_sign[47] = {
 		id = 47,
 		front_drops = {
 			{
@@ -1139,8 +1219,8 @@ pg.activity_7_day_sign = {
 				2
 			}
 		}
-	},
-	[48] = {
+	}
+	pg.base.activity_7_day_sign[48] = {
 		id = 48,
 		front_drops = {
 			{
@@ -1159,8 +1239,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[49] = {
+	}
+	pg.base.activity_7_day_sign[49] = {
 		id = 49,
 		front_drops = {
 			{
@@ -1189,8 +1269,8 @@ pg.activity_7_day_sign = {
 				5
 			}
 		}
-	},
-	[50] = {
+	}
+	pg.base.activity_7_day_sign[50] = {
 		id = 50,
 		front_drops = {
 			{
@@ -1219,8 +1299,8 @@ pg.activity_7_day_sign = {
 				2
 			}
 		}
-	},
-	[51] = {
+	}
+	pg.base.activity_7_day_sign[51] = {
 		id = 51,
 		front_drops = {
 			{
@@ -1239,8 +1319,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[52] = {
+	}
+	pg.base.activity_7_day_sign[52] = {
 		id = 52,
 		front_drops = {
 			{
@@ -1269,8 +1349,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[53] = {
+	}
+	pg.base.activity_7_day_sign[53] = {
 		id = 53,
 		front_drops = {
 			{
@@ -1289,8 +1369,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[54] = {
+	}
+	pg.base.activity_7_day_sign[54] = {
 		id = 54,
 		front_drops = {
 			{
@@ -1329,8 +1409,8 @@ pg.activity_7_day_sign = {
 				2
 			}
 		}
-	},
-	[55] = {
+	}
+	pg.base.activity_7_day_sign[55] = {
 		id = 55,
 		front_drops = {
 			{
@@ -1359,8 +1439,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[56] = {
+	}
+	pg.base.activity_7_day_sign[56] = {
 		id = 56,
 		front_drops = {
 			{
@@ -1379,8 +1459,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[57] = {
+	}
+	pg.base.activity_7_day_sign[57] = {
 		id = 57,
 		front_drops = {
 			{
@@ -1409,8 +1489,8 @@ pg.activity_7_day_sign = {
 				5
 			}
 		}
-	},
-	[59] = {
+	}
+	pg.base.activity_7_day_sign[59] = {
 		id = 59,
 		front_drops = {
 			{
@@ -1429,8 +1509,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[60] = {
+	}
+	pg.base.activity_7_day_sign[60] = {
 		id = 60,
 		front_drops = {
 			{
@@ -1449,8 +1529,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[62] = {
+	}
+	pg.base.activity_7_day_sign[62] = {
 		id = 62,
 		front_drops = {
 			{
@@ -1489,8 +1569,8 @@ pg.activity_7_day_sign = {
 				2
 			}
 		}
-	},
-	[63] = {
+	}
+	pg.base.activity_7_day_sign[63] = {
 		id = 63,
 		front_drops = {
 			{
@@ -1509,8 +1589,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[64] = {
+	}
+	pg.base.activity_7_day_sign[64] = {
 		id = 64,
 		front_drops = {
 			{
@@ -1529,8 +1609,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[65] = {
+	}
+	pg.base.activity_7_day_sign[65] = {
 		id = 65,
 		front_drops = {
 			{
@@ -1559,8 +1639,8 @@ pg.activity_7_day_sign = {
 				5
 			}
 		}
-	},
-	[66] = {
+	}
+	pg.base.activity_7_day_sign[66] = {
 		id = 66,
 		front_drops = {
 			{
@@ -1579,8 +1659,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[67] = {
+	}
+	pg.base.activity_7_day_sign[67] = {
 		id = 67,
 		front_drops = {
 			{
@@ -1609,8 +1689,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[68] = {
+	}
+	pg.base.activity_7_day_sign[68] = {
 		id = 68,
 		front_drops = {
 			{
@@ -1629,8 +1709,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[69] = {
+	}
+	pg.base.activity_7_day_sign[69] = {
 		id = 69,
 		front_drops = {
 			{
@@ -1669,8 +1749,8 @@ pg.activity_7_day_sign = {
 				2
 			}
 		}
-	},
-	[70] = {
+	}
+	pg.base.activity_7_day_sign[70] = {
 		id = 70,
 		front_drops = {
 			{
@@ -1689,8 +1769,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[71] = {
+	}
+	pg.base.activity_7_day_sign[71] = {
 		id = 71,
 		front_drops = {
 			{
@@ -1709,8 +1789,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[72] = {
+	}
+	pg.base.activity_7_day_sign[72] = {
 		id = 72,
 		front_drops = {
 			{
@@ -1739,8 +1819,8 @@ pg.activity_7_day_sign = {
 				5
 			}
 		}
-	},
-	[74] = {
+	}
+	pg.base.activity_7_day_sign[74] = {
 		id = 74,
 		front_drops = {
 			{
@@ -1759,8 +1839,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[75] = {
+	}
+	pg.base.activity_7_day_sign[75] = {
 		id = 75,
 		front_drops = {
 			{
@@ -1789,8 +1869,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[77] = {
+	}
+	pg.base.activity_7_day_sign[77] = {
 		id = 77,
 		front_drops = {
 			{
@@ -1829,8 +1909,8 @@ pg.activity_7_day_sign = {
 				2
 			}
 		}
-	},
-	[78] = {
+	}
+	pg.base.activity_7_day_sign[78] = {
 		id = 78,
 		front_drops = {
 			{
@@ -1849,8 +1929,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[79] = {
+	}
+	pg.base.activity_7_day_sign[79] = {
 		id = 79,
 		front_drops = {
 			{
@@ -1869,8 +1949,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[80] = {
+	}
+	pg.base.activity_7_day_sign[80] = {
 		id = 80,
 		front_drops = {
 			{
@@ -1899,8 +1979,8 @@ pg.activity_7_day_sign = {
 				5
 			}
 		}
-	},
-	[81] = {
+	}
+	pg.base.activity_7_day_sign[81] = {
 		id = 81,
 		front_drops = {
 			{
@@ -1919,8 +1999,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[82] = {
+	}
+	pg.base.activity_7_day_sign[82] = {
 		id = 82,
 		front_drops = {
 			{
@@ -1939,8 +2019,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[83] = {
+	}
+	pg.base.activity_7_day_sign[83] = {
 		id = 83,
 		front_drops = {
 			{
@@ -1949,8 +2029,8 @@ pg.activity_7_day_sign = {
 				100
 			}
 		}
-	},
-	[84] = {
+	}
+	pg.base.activity_7_day_sign[84] = {
 		id = 84,
 		front_drops = {
 			{
@@ -1979,8 +2059,8 @@ pg.activity_7_day_sign = {
 				1
 			}
 		}
-	},
-	[85] = {
+	}
+	pg.base.activity_7_day_sign[85] = {
 		id = 85,
 		front_drops = {
 			{
@@ -1999,8 +2079,8 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[86] = {
+	}
+	pg.base.activity_7_day_sign[86] = {
 		id = 86,
 		front_drops = {
 			{
@@ -2039,8 +2119,8 @@ pg.activity_7_day_sign = {
 				2
 			}
 		}
-	},
-	[92] = {
+	}
+	pg.base.activity_7_day_sign[92] = {
 		id = 92,
 		front_drops = {
 			{
@@ -2059,8 +2139,38 @@ pg.activity_7_day_sign = {
 				3
 			}
 		}
-	},
-	[901] = {
+	}
+	pg.base.activity_7_day_sign[93] = {
+		id = 93,
+		front_drops = {
+			{
+				8,
+				65903,
+				3
+			},
+			{
+				1,
+				691,
+				1000
+			},
+			{
+				8,
+				65903,
+				3
+			}
+		}
+	}
+	pg.base.activity_7_day_sign[94] = {
+		id = 94,
+		front_drops = {
+			{
+				2,
+				60535,
+				1
+			}
+		}
+	}
+	pg.base.activity_7_day_sign[901] = {
 		id = 901,
 		front_drops = {
 			{
@@ -2099,77 +2209,5 @@ pg.activity_7_day_sign = {
 				2
 			}
 		}
-	},
-	all = {
-		1,
-		3,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		20,
-		22,
-		23,
-		24,
-		25,
-		27,
-		28,
-		30,
-		31,
-		32,
-		35,
-		36,
-		38,
-		39,
-		40,
-		42,
-		43,
-		47,
-		48,
-		49,
-		50,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56,
-		57,
-		59,
-		60,
-		62,
-		63,
-		64,
-		65,
-		66,
-		67,
-		68,
-		69,
-		70,
-		71,
-		72,
-		74,
-		75,
-		77,
-		78,
-		79,
-		80,
-		81,
-		82,
-		83,
-		84,
-		85,
-		86,
-		92,
-		901
 	}
-}
+end)()

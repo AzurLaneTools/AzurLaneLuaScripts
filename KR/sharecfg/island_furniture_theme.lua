@@ -1,6 +1,17 @@
 pg = pg or {}
-pg.island_furniture_theme = {
-	{
+pg.island_furniture_theme = rawget(pg, "island_furniture_theme") or setmetatable({
+	__name = "island_furniture_theme"
+}, confNEO)
+pg.island_furniture_theme.all = {
+	1,
+	2,
+	3
+}
+pg.base = pg.base or {}
+pg.base.island_furniture_theme = {}
+
+(function ()
+	pg.base.island_furniture_theme[1] = {
 		name = "백곰 캠프",
 		id = 1,
 		icon = "",
@@ -37,8 +48,8 @@ pg.island_furniture_theme = {
 			10421,
 			10801
 		}
-	},
-	{
+	}
+	pg.base.island_furniture_theme[2] = {
 		name = "가을 단풍 정원",
 		id = 2,
 		icon = "",
@@ -71,8 +82,8 @@ pg.island_furniture_theme = {
 			20802,
 			20803
 		}
-	},
-	{
+	}
+	pg.base.island_furniture_theme[3] = {
 		name = "클래식 가든",
 		id = 3,
 		icon = "",
@@ -105,10 +116,5 @@ pg.island_furniture_theme = {
 			30802,
 			30803
 		}
-	},
-	all = {
-		1,
-		2,
-		3
 	}
-}
+end)()

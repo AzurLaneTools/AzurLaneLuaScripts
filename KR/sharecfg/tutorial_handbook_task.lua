@@ -1,6 +1,57 @@
 pg = pg or {}
-pg.tutorial_handbook_task = {
-	[100101] = {
+pg.tutorial_handbook_task = rawget(pg, "tutorial_handbook_task") or setmetatable({
+	__name = "tutorial_handbook_task"
+}, confNEO)
+pg.tutorial_handbook_task.all = {
+	100101,
+	100201,
+	100301,
+	100401,
+	100501,
+	100601,
+	100701,
+	100801,
+	100901,
+	200101,
+	200201,
+	200301,
+	200401,
+	200501,
+	200601,
+	200701,
+	200801,
+	200901,
+	201001,
+	201101,
+	201201,
+	201301,
+	201401,
+	201501,
+	201601,
+	201701,
+	201801,
+	201901,
+	202001,
+	202101,
+	202201,
+	202301,
+	202401,
+	202501,
+	202601,
+	202701,
+	202801,
+	202901,
+	203001,
+	203101,
+	203201,
+	203301,
+	203401
+}
+pg.base = pg.base or {}
+pg.base.tutorial_handbook_task = {}
+
+(function ()
+	pg.base.tutorial_handbook_task[100101] = {
 		name = "단계1",
 		type = 1,
 		lock_name = "",
@@ -35,8 +86,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[100201] = {
+	}
+	pg.base.tutorial_handbook_task[100201] = {
 		name = "단계2",
 		type = 1,
 		lock_name = "미오픈",
@@ -73,8 +124,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[100301] = {
+	}
+	pg.base.tutorial_handbook_task[100301] = {
 		name = "단계3",
 		type = 1,
 		lock_name = "미오픈",
@@ -111,8 +162,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[100401] = {
+	}
+	pg.base.tutorial_handbook_task[100401] = {
 		name = "단계4",
 		type = 1,
 		lock_name = "미오픈",
@@ -149,8 +200,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[100501] = {
+	}
+	pg.base.tutorial_handbook_task[100501] = {
 		name = "단계5",
 		type = 1,
 		lock_name = "미오픈",
@@ -187,8 +238,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[100601] = {
+	}
+	pg.base.tutorial_handbook_task[100601] = {
 		name = "단계6",
 		type = 1,
 		lock_name = "미오픈",
@@ -225,8 +276,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[100701] = {
+	}
+	pg.base.tutorial_handbook_task[100701] = {
 		name = "단계7",
 		type = 1,
 		lock_name = "미오픈",
@@ -263,8 +314,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[100801] = {
+	}
+	pg.base.tutorial_handbook_task[100801] = {
 		name = "단계8",
 		type = 1,
 		lock_name = "미오픈",
@@ -301,8 +352,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[100901] = {
+	}
+	pg.base.tutorial_handbook_task[100901] = {
 		name = "단계9",
 		type = 1,
 		lock_name = "미오픈",
@@ -340,8 +391,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[200101] = {
+	}
+	pg.base.tutorial_handbook_task[200101] = {
 		name = "레벨",
 		type = 2,
 		lock_name = "",
@@ -370,8 +421,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[200201] = {
+	}
+	pg.base.tutorial_handbook_task[200201] = {
 		name = "건조",
 		type = 2,
 		lock_name = "",
@@ -403,8 +454,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[200301] = {
+	}
+	pg.base.tutorial_handbook_task[200301] = {
 		name = "편성",
 		type = 2,
 		lock_name = "",
@@ -439,8 +490,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[200401] = {
+	}
+	pg.base.tutorial_handbook_task[200401] = {
 		name = "출격",
 		type = 2,
 		lock_name = "",
@@ -477,8 +528,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[200501] = {
+	}
+	pg.base.tutorial_handbook_task[200501] = {
 		name = "이벤트",
 		type = 2,
 		lock_name = "",
@@ -507,8 +558,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[200601] = {
+	}
+	pg.base.tutorial_handbook_task[200601] = {
 		name = "육성",
 		type = 2,
 		lock_name = "",
@@ -544,8 +595,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[200701] = {
+	}
+	pg.base.tutorial_handbook_task[200701] = {
 		name = "주간",
 		type = 2,
 		lock_name = "",
@@ -573,8 +624,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[200801] = {
+	}
+	pg.base.tutorial_handbook_task[200801] = {
 		name = "상점",
 		type = 2,
 		lock_name = "",
@@ -603,8 +654,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[200901] = {
+	}
+	pg.base.tutorial_handbook_task[200901] = {
 		name = "보급 상점",
 		type = 2,
 		lock_name = "",
@@ -632,8 +683,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[201001] = {
+	}
+	pg.base.tutorial_handbook_task[201001] = {
 		name = "전술학원",
 		type = 2,
 		lock_name = "",
@@ -662,8 +713,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[201101] = {
+	}
+	pg.base.tutorial_handbook_task[201101] = {
 		name = "해군 식당",
 		type = 2,
 		lock_name = "",
@@ -691,8 +742,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[201201] = {
+	}
+	pg.base.tutorial_handbook_task[201201] = {
 		name = "훈장",
 		type = 2,
 		lock_name = "",
@@ -721,8 +772,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[201301] = {
+	}
+	pg.base.tutorial_handbook_task[201301] = {
 		name = "월드 투어",
 		type = 2,
 		lock_name = "",
@@ -751,8 +802,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[201401] = {
+	}
+	pg.base.tutorial_handbook_task[201401] = {
 		name = "우편",
 		type = 2,
 		lock_name = "",
@@ -780,8 +831,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[201501] = {
+	}
+	pg.base.tutorial_handbook_task[201501] = {
 		name = "장비",
 		type = 2,
 		lock_name = "",
@@ -815,8 +866,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[201601] = {
+	}
+	pg.base.tutorial_handbook_task[201601] = {
 		name = "함대기술",
 		type = 2,
 		lock_name = "",
@@ -844,8 +895,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[201701] = {
+	}
+	pg.base.tutorial_handbook_task[201701] = {
 		name = "숙소",
 		type = 2,
 		lock_name = "Lv.8",
@@ -877,8 +928,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[201801] = {
+	}
+	pg.base.tutorial_handbook_task[201801] = {
 		name = "데일리",
 		type = 2,
 		lock_name = "Lv.10",
@@ -913,8 +964,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[201901] = {
+	}
+	pg.base.tutorial_handbook_task[201901] = {
 		name = "코어 상점",
 		type = 2,
 		lock_name = "Lv.10",
@@ -944,8 +995,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[202001] = {
+	}
+	pg.base.tutorial_handbook_task[202001] = {
 		name = "의뢰",
 		type = 2,
 		lock_name = "Lv.11",
@@ -976,8 +1027,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[202101] = {
+	}
+	pg.base.tutorial_handbook_task[202101] = {
 		name = "대함대",
 		type = 2,
 		lock_name = "Lv.11",
@@ -1011,8 +1062,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[202201] = {
+	}
+	pg.base.tutorial_handbook_task[202201] = {
 		name = "연습",
 		type = 2,
 		lock_name = "Lv.15",
@@ -1045,8 +1096,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[202301] = {
+	}
+	pg.base.tutorial_handbook_task[202301] = {
 		name = "원형 상점",
 		type = 2,
 		lock_name = "Lv.30",
@@ -1077,8 +1128,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[202401] = {
+	}
+	pg.base.tutorial_handbook_task[202401] = {
 		name = "게임 센터",
 		type = 2,
 		lock_name = "Lv.30",
@@ -1108,8 +1159,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[202501] = {
+	}
+	pg.base.tutorial_handbook_task[202501] = {
 		name = "과학 연구",
 		type = 2,
 		lock_name = "Lv.30",
@@ -1142,8 +1193,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[202601] = {
+	}
+	pg.base.tutorial_handbook_task[202601] = {
 		name = "개발도크",
 		type = 2,
 		lock_name = "Lv.30",
@@ -1176,8 +1227,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[202701] = {
+	}
+	pg.base.tutorial_handbook_task[202701] = {
 		name = "TB 육성",
 		type = 2,
 		lock_name = "Lv.30",
@@ -1208,8 +1259,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[202801] = {
+	}
+	pg.base.tutorial_handbook_task[202801] = {
 		name = "지휘냥",
 		type = 2,
 		lock_name = "Lv.40",
@@ -1241,8 +1292,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[202901] = {
+	}
+	pg.base.tutorial_handbook_task[202901] = {
 		name = "대강당",
 		type = 2,
 		lock_name = "Lv.50",
@@ -1273,8 +1324,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[203001] = {
+	}
+	pg.base.tutorial_handbook_task[203001] = {
 		name = "장비 개발",
 		type = 2,
 		lock_name = "Lv.60",
@@ -1304,8 +1355,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[203101] = {
+	}
+	pg.base.tutorial_handbook_task[203101] = {
 		name = "한계 챌린지",
 		type = 2,
 		lock_name = "Lv.80",
@@ -1335,8 +1386,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[203201] = {
+	}
+	pg.base.tutorial_handbook_task[203201] = {
 		name = "대형 작전",
 		type = 2,
 		lock_name = "Lv.80",
@@ -1375,8 +1426,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[203301] = {
+	}
+	pg.base.tutorial_handbook_task[203301] = {
 		name = "META 연구실",
 		type = 2,
 		lock_name = "Lv.80",
@@ -1406,8 +1457,8 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	[203401] = {
+	}
+	pg.base.tutorial_handbook_task[203401] = {
 		name = "교류 숙소",
 		type = 2,
 		lock_name = "Lv.80",
@@ -1437,50 +1488,5 @@ pg.tutorial_handbook_task = {
 				}
 			}
 		}
-	},
-	all = {
-		100101,
-		100201,
-		100301,
-		100401,
-		100501,
-		100601,
-		100701,
-		100801,
-		100901,
-		200101,
-		200201,
-		200301,
-		200401,
-		200501,
-		200601,
-		200701,
-		200801,
-		200901,
-		201001,
-		201101,
-		201201,
-		201301,
-		201401,
-		201501,
-		201601,
-		201701,
-		201801,
-		201901,
-		202001,
-		202101,
-		202201,
-		202301,
-		202401,
-		202501,
-		202601,
-		202701,
-		202801,
-		202901,
-		203001,
-		203101,
-		203201,
-		203301,
-		203401
 	}
-}
+end)()

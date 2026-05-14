@@ -1,202 +1,208 @@
 pg = pg or {}
-pg.gameset = {
-	version_major = {
+pg.gameset = rawget(pg, "gameset") or setmetatable({
+	__name = "gameset"
+}, confNEO)
+pg.base = pg.base or {}
+pg.base.gameset = {}
+
+(function ()
+	pg.base.gameset.version_major = {
 		description = "",
 		key_value = 1
-	},
-	version_minor = {
+	}
+	pg.base.gameset.version_minor = {
 		description = "",
 		key_value = 1
-	},
-	version_build = {
+	}
+	pg.base.gameset.version_build = {
 		description = "",
 		key_value = 0
-	},
-	voice_version = {
+	}
+	pg.base.gameset.voice_version = {
 		description = "",
 		key_value = 1
-	},
-	code_switch = {
+	}
+	pg.base.gameset.code_switch = {
 		description = "AF可能缺少淡水",
 		key_value = 0
-	},
-	flagship_exp_percent = {
+	}
+	pg.base.gameset.flagship_exp_percent = {
 		description = "",
 		key_value = 150
-	},
-	mvp_exp_percent = {
+	}
+	pg.base.gameset.mvp_exp_percent = {
 		description = "",
 		key_value = 200
-	},
-	shipyard_capacity = {
+	}
+	pg.base.gameset.shipyard_capacity = {
 		description = "",
 		key_value = 150
-	},
-	equip_capacity = {
+	}
+	pg.base.gameset.equip_capacity = {
 		description = "",
 		key_value = 300
-	},
-	catnest_expand_capacity = {
+	}
+	pg.base.gameset.catnest_expand_capacity = {
 		description = "",
 		key_value = 400
-	},
-	dorm_exp_ratio_by_1 = {
+	}
+	pg.base.gameset.dorm_exp_ratio_by_1 = {
 		description = "",
 		key_value = 100
-	},
-	dorm_exp_ratio_by_2 = {
+	}
+	pg.base.gameset.dorm_exp_ratio_by_2 = {
 		description = "",
 		key_value = 90
-	},
-	dorm_exp_ratio_by_3 = {
+	}
+	pg.base.gameset.dorm_exp_ratio_by_3 = {
 		description = "",
 		key_value = 80
-	},
-	dorm_exp_ratio_by_4 = {
+	}
+	pg.base.gameset.dorm_exp_ratio_by_4 = {
 		description = "",
 		key_value = 70
-	},
-	dorm_exp_ratio_by_5 = {
+	}
+	pg.base.gameset.dorm_exp_ratio_by_5 = {
 		description = "",
 		key_value = 64
-	},
-	dorm_exp_ratio_by_6 = {
+	}
+	pg.base.gameset.dorm_exp_ratio_by_6 = {
 		description = "",
 		key_value = 60
-	},
-	dorm_food_ratio_by_1 = {
+	}
+	pg.base.gameset.dorm_food_ratio_by_1 = {
 		description = "",
 		key_value = 100
-	},
-	dorm_food_ratio_by_2 = {
+	}
+	pg.base.gameset.dorm_food_ratio_by_2 = {
 		description = "",
 		key_value = 180
-	},
-	dorm_food_ratio_by_3 = {
+	}
+	pg.base.gameset.dorm_food_ratio_by_3 = {
 		description = "",
 		key_value = 240
-	},
-	dorm_food_ratio_by_4 = {
+	}
+	pg.base.gameset.dorm_food_ratio_by_4 = {
 		description = "",
 		key_value = 280
-	},
-	dorm_food_ratio_by_5 = {
+	}
+	pg.base.gameset.dorm_food_ratio_by_5 = {
 		description = "",
 		key_value = 320
-	},
-	dorm_food_ratio_by_6 = {
+	}
+	pg.base.gameset.dorm_food_ratio_by_6 = {
 		description = "",
 		key_value = 360
-	},
-	dorm_exp_base = {
+	}
+	pg.base.gameset.dorm_exp_base = {
 		description = "",
 		key_value = 1
-	},
-	dorm_exp_ratio_comfort_degree = {
+	}
+	pg.base.gameset.dorm_exp_ratio_comfort_degree = {
 		description = "",
 		key_value = 100
-	},
-	dorm_pop_time = {
+	}
+	pg.base.gameset.dorm_pop_time = {
 		description = "",
 		key_value = 1800
-	},
-	dorm_dorm_pop_rant = {
+	}
+	pg.base.gameset.dorm_dorm_pop_rant = {
 		description = "",
 		key_value = 500
-	},
-	dorm_dorm_pop_min = {
+	}
+	pg.base.gameset.dorm_dorm_pop_min = {
 		description = "",
 		key_value = 1
-	},
-	dorm_dorm_pop_max = {
+	}
+	pg.base.gameset.dorm_dorm_pop_max = {
 		description = "",
 		key_value = 3
-	},
-	dorm_intimacy_pop_rant = {
+	}
+	pg.base.gameset.dorm_intimacy_pop_rant = {
 		description = "",
 		key_value = 500
-	},
-	dorm_intimacy_pop_min = {
+	}
+	pg.base.gameset.dorm_intimacy_pop_min = {
 		description = "",
 		key_value = 1
-	},
-	dorm_intimacy_pop_max = {
+	}
+	pg.base.gameset.dorm_intimacy_pop_max = {
 		description = "",
 		key_value = 2
-	},
-	dorm_exp_once_limit_base = {
+	}
+	pg.base.gameset.dorm_exp_once_limit_base = {
 		description = "",
 		key_value = 30000
-	},
-	dorm_exp_once_limit_by_level = {
+	}
+	pg.base.gameset.dorm_exp_once_limit_by_level = {
 		description = "",
 		key_value = 800
-	},
-	exp_admiral_a = {
+	}
+	pg.base.gameset.exp_admiral_a = {
 		description = "",
 		key_value = 50
-	},
-	exp_admiral_b = {
+	}
+	pg.base.gameset.exp_admiral_b = {
 		description = "",
 		key_value = 25
-	},
-	exp_admiral_c = {
+	}
+	pg.base.gameset.exp_admiral_c = {
 		description = "",
 		key_value = 5
-	},
-	task_first_daily_pre_id = {
+	}
+	pg.base.gameset.task_first_daily_pre_id = {
 		description = "",
 		key_value = 4
-	},
-	task_first_weekly_pre_id = {
+	}
+	pg.base.gameset.task_first_weekly_pre_id = {
 		description = "",
 		key_value = 4
-	},
-	each_attrib_need_exp = {
+	}
+	pg.base.gameset.each_attrib_need_exp = {
 		description = "",
 		key_value = 10
-	},
-	strength_cost_gold = {
+	}
+	pg.base.gameset.strength_cost_gold = {
 		description = "",
 		key_value = 0
-	},
-	battle_consume_energy = {
+	}
+	pg.base.gameset.battle_consume_energy = {
 		description = "",
 		key_value = 2
-	},
-	battle_dead_energy = {
+	}
+	pg.base.gameset.battle_dead_energy = {
 		description = "",
 		key_value = 10
-	},
-	test_ship_config_1 = {
+	}
+	pg.base.gameset.test_ship_config_1 = {
 		description = "",
 		key_value = 100001
-	},
-	test_ship_config_2 = {
+	}
+	pg.base.gameset.test_ship_config_2 = {
 		description = "",
 		key_value = 100011
-	},
-	test_ship_config_3 = {
+	}
+	pg.base.gameset.test_ship_config_3 = {
 		description = "",
 		key_value = 100021
-	},
-	buy_oil_limit = {
+	}
+	pg.base.gameset.buy_oil_limit = {
 		description = "",
 		key_value = 16
-	},
-	equip_select_limit = {
+	}
+	pg.base.gameset.equip_select_limit = {
 		description = "",
 		key_value = 0
-	},
-	ship_select_limit = {
+	}
+	pg.base.gameset.ship_select_limit = {
 		description = "",
 		key_value = 0
-	},
-	exchange_character_id = {
+	}
+	pg.base.gameset.exchange_character_id = {
 		description = "",
 		key_value = 100001
-	},
-	first_pay_drop = {
+	}
+	pg.base.gameset.first_pay_drop = {
 		key_value = 4000,
 		description = {
 			{
@@ -220,24 +226,24 @@ pg.gameset = {
 				3
 			}
 		}
-	},
-	create_guild_cost = {
+	}
+	pg.base.gameset.create_guild_cost = {
 		description = "",
 		key_value = 300
-	},
-	modify_guild_cost = {
+	}
+	pg.base.gameset.modify_guild_cost = {
 		description = "",
 		key_value = 100
-	},
-	max_oil = {
+	}
+	pg.base.gameset.max_oil = {
 		description = "",
 		key_value = 25000
-	},
-	max_gold = {
+	}
+	pg.base.gameset.max_gold = {
 		description = "",
 		key_value = 600000
-	},
-	z_project_award = {
+	}
+	pg.base.gameset.z_project_award = {
 		key_value = 0,
 		description = {
 			{
@@ -246,8 +252,8 @@ pg.gameset = {
 				1
 			}
 		}
-	},
-	tip_unlock_shipIds = {
+	}
+	pg.base.gameset.tip_unlock_shipIds = {
 		key_value = 0,
 		description = {
 			{
@@ -258,12 +264,12 @@ pg.gameset = {
 				402041
 			}
 		}
-	},
-	sham_battle_para = {
+	}
+	pg.base.gameset.sham_battle_para = {
 		description = "",
 		key_value = 60000
-	},
-	bb_front_awards = {
+	}
+	pg.base.gameset.bb_front_awards = {
 		key_value = 0,
 		description = {
 			{
@@ -319,8 +325,8 @@ pg.gameset = {
 				}
 			}
 		}
-	},
-	bobing_memory = {
+	}
+	pg.base.gameset.bobing_memory = {
 		key_value = 0,
 		description = {
 			"ZHONGQIU1",
@@ -332,48 +338,48 @@ pg.gameset = {
 			"",
 			"ZHONGQIU7"
 		}
-	},
-	level_get_proficency = {
+	}
+	pg.base.gameset.level_get_proficency = {
 		description = "",
 		key_value = 100
-	},
-	exp_overflow_max = {
+	}
+	pg.base.gameset.exp_overflow_max = {
 		description = "",
 		key_value = 3000000
-	},
-	activity_res_id = {
+	}
+	pg.base.gameset.activity_res_id = {
 		description = "",
 		key_value = 643
-	},
-	chapter_move_speed_1 = {
+	}
+	pg.base.gameset.chapter_move_speed_1 = {
 		description = "",
 		key_value = 25
-	},
-	chapter_move_speed_2 = {
+	}
+	pg.base.gameset.chapter_move_speed_2 = {
 		description = "",
 		key_value = 36
-	},
-	commander_exp_retio = {
+	}
+	pg.base.gameset.commander_exp_retio = {
 		description = "",
 		key_value = 100
-	},
-	elite_quota = {
+	}
+	pg.base.gameset.elite_quota = {
 		description = "",
 		key_value = 3
-	},
-	submarine_move_speed_1 = {
+	}
+	pg.base.gameset.submarine_move_speed_1 = {
 		description = "",
 		key_value = 10
-	},
-	submarine_move_speed_2 = {
+	}
+	pg.base.gameset.submarine_move_speed_2 = {
 		description = "",
 		key_value = 25
-	},
-	submarine_round = {
+	}
+	pg.base.gameset.submarine_round = {
 		description = "",
 		key_value = 2
-	},
-	coloring_story = {
+	}
+	pg.base.gameset.coloring_story = {
 		key_value = 0,
 		description = {
 			"ANSHAN01",
@@ -385,8 +391,8 @@ pg.gameset = {
 			"ANSHAN04",
 			"ANSHAN05"
 		}
-	},
-	card_pairs_story = {
+	}
+	pg.base.gameset.card_pairs_story = {
 		key_value = 0,
 		description = {
 			"ZHONGQIU1",
@@ -398,48 +404,48 @@ pg.gameset = {
 			"ZHONGQIU7",
 			"ANSHAN05"
 		}
-	},
-	card_pairs_param = {
+	}
+	pg.base.gameset.card_pairs_param = {
 		key_value = 0,
 		description = {
 			showingTime = 0.5,
 			aniTime = 0.2,
 			firstShowingTime = 3
 		}
-	},
-	extra_attr_level_limit = {
+	}
+	pg.base.gameset.extra_attr_level_limit = {
 		description = "",
 		key_value = 100
-	},
-	player_name_change_cost = {
+	}
+	pg.base.gameset.player_name_change_cost = {
 		key_value = 0,
 		description = {
 			2,
 			15009,
 			1
 		}
-	},
-	player_name_change_lv_limit = {
+	}
+	pg.base.gameset.player_name_change_lv_limit = {
 		description = "",
 		key_value = 25
-	},
-	player_name_cold_time = {
+	}
+	pg.base.gameset.player_name_cold_time = {
 		description = "",
 		key_value = 2592000
-	},
-	sos_signal_interval = {
+	}
+	pg.base.gameset.sos_signal_interval = {
 		description = "",
 		key_value = 1800
-	},
-	sos_signal_rate = {
+	}
+	pg.base.gameset.sos_signal_rate = {
 		description = "",
 		key_value = 600
-	},
-	sos_signal_max = {
+	}
+	pg.base.gameset.sos_signal_max = {
 		description = "",
 		key_value = 16
-	},
-	login_extra_voice = {
+	}
+	pg.base.gameset.login_extra_voice = {
 		key_value = 0,
 		description = {
 			40101,
@@ -463,28 +469,28 @@ pg.gameset = {
 			10117,
 			30105
 		}
-	},
-	world_starting_story = {
+	}
+	pg.base.gameset.world_starting_story = {
 		key_value = 0,
 		description = {
 			"WORLD100A"
 		}
-	},
-	world_resetting_stage = {
+	}
+	pg.base.gameset.world_resetting_stage = {
 		description = "",
 		key_value = 100
-	},
-	world_resetting_sairen_chapter = {
+	}
+	pg.base.gameset.world_resetting_sairen_chapter = {
 		description = "",
 		key_value = 1
-	},
-	world_resetting_story = {
+	}
+	pg.base.gameset.world_resetting_story = {
 		key_value = 0,
 		description = {
 			"GWORLDS07"
 		}
-	},
-	world_default_entrance = {
+	}
+	pg.base.gameset.world_default_entrance = {
 		key_value = 0,
 		description = {
 			{
@@ -496,62 +502,62 @@ pg.gameset = {
 				1
 			}
 		}
-	},
-	world_currency_initial_num = {
+	}
+	pg.base.gameset.world_currency_initial_num = {
 		description = "",
 		key_value = 2000
-	},
-	world_fleet_redeploy_cost = {
+	}
+	pg.base.gameset.world_fleet_redeploy_cost = {
 		key_value = 0,
 		description = {
 			100,
 			86400
 		}
-	},
-	world_guide_enemy_id = {
+	}
+	pg.base.gameset.world_guide_enemy_id = {
 		key_value = 0,
 		description = {
 			314001,
 			314002
 		}
-	},
-	world_move_initial_step = {
+	}
+	pg.base.gameset.world_move_initial_step = {
 		description = "",
 		key_value = 3
-	},
-	world_move_initial_view = {
+	}
+	pg.base.gameset.world_move_initial_view = {
 		description = "",
 		key_value = 3
-	},
-	world_buff_morale = {
+	}
+	pg.base.gameset.world_buff_morale = {
 		key_value = 0,
 		description = {
 			200,
 			201,
 			202
 		}
-	},
-	world_buff_morale_cost = {
+	}
+	pg.base.gameset.world_buff_morale_cost = {
 		key_value = 0,
 		description = {
 			5,
 			10,
 			15
 		}
-	},
-	world_mapbuff_list = {
+	}
+	pg.base.gameset.world_mapbuff_list = {
 		key_value = 0,
 		description = {
 			401,
 			402,
 			403
 		}
-	},
-	world_mapbuff_tips = {
+	}
+	pg.base.gameset.world_mapbuff_tips = {
 		description = "",
 		key_value = 8000
-	},
-	world_difficult_value = {
+	}
+	pg.base.gameset.world_difficult_value = {
 		key_value = 0,
 		description = {
 			{
@@ -590,8 +596,8 @@ pg.gameset = {
 				120
 			}
 		}
-	},
-	world_transfer_eventlist = {
+	}
+	pg.base.gameset.world_transfer_eventlist = {
 		key_value = 0,
 		description = {
 			10110301,
@@ -667,54 +673,56 @@ pg.gameset = {
 			11580301,
 			11590301
 		}
-	},
-	world_transfer_eventstory = {
+	}
+	pg.base.gameset.world_transfer_eventstory = {
 		key_value = 0,
 		description = {
 			"W1014"
 		}
-	},
-	world_target_obtain = {
+	}
+	pg.base.gameset.world_target_obtain = {
 		description = "",
 		key_value = 3
-	},
-	attr_world_damage_fix = {
+	}
+	pg.base.gameset.attr_world_damage_fix = {
 		description = "",
 		key_value = 1000
-	},
-	attr_world_value_X1 = {
+	}
+	pg.base.gameset.attr_world_value_X1 = {
 		description = "",
 		key_value = 7000
-	},
-	attr_world_value_X2 = {
+	}
+end)()
+(function ()
+	pg.base.gameset.attr_world_value_X2 = {
 		description = "",
 		key_value = 13000
-	},
-	attr_world_value_Y1 = {
+	}
+	pg.base.gameset.attr_world_value_Y1 = {
 		description = "",
 		key_value = 7000
-	},
-	attr_world_value_Y2 = {
+	}
+	pg.base.gameset.attr_world_value_Y2 = {
 		description = "",
 		key_value = 13000
-	},
-	attr_world_value_Z1 = {
+	}
+	pg.base.gameset.attr_world_value_Z1 = {
 		description = "",
 		key_value = 10000
-	},
-	attr_world_value_Z2 = {
+	}
+	pg.base.gameset.attr_world_value_Z2 = {
 		description = "",
 		key_value = 10000
-	},
-	attr_world_value_H1 = {
+	}
+	pg.base.gameset.attr_world_value_H1 = {
 		description = "",
 		key_value = 7000
-	},
-	attr_world_value_H2 = {
+	}
+	pg.base.gameset.attr_world_value_H2 = {
 		description = "",
 		key_value = 10000
-	},
-	world_rank_min = {
+	}
+	pg.base.gameset.world_rank_min = {
 		key_value = 0,
 		description = {
 			0,
@@ -727,8 +735,8 @@ pg.gameset = {
 			1500,
 			2400
 		}
-	},
-	world_rank_unlocked_expedition = {
+	}
+	pg.base.gameset.world_rank_unlocked_expedition = {
 		key_value = 0,
 		description = {
 			10,
@@ -741,8 +749,8 @@ pg.gameset = {
 			10,
 			10
 		}
-	},
-	world_port_service_1_interval = {
+	}
+	pg.base.gameset.world_port_service_1_interval = {
 		key_value = 0,
 		description = {
 			{
@@ -762,8 +770,8 @@ pg.gameset = {
 				1.5
 			}
 		}
-	},
-	world_port_service_1_price = {
+	}
+	pg.base.gameset.world_port_service_1_price = {
 		key_value = 0,
 		description = {
 			{
@@ -787,8 +795,8 @@ pg.gameset = {
 				50
 			}
 		}
-	},
-	world_port_service_2_interval = {
+	}
+	pg.base.gameset.world_port_service_2_interval = {
 		key_value = 0,
 		description = {
 			{
@@ -800,36 +808,36 @@ pg.gameset = {
 				1
 			}
 		}
-	},
-	world_port_service_2_price = {
+	}
+	pg.base.gameset.world_port_service_2_price = {
 		description = "",
 		key_value = 600
-	},
-	world_port_taskmax = {
+	}
+	pg.base.gameset.world_port_taskmax = {
 		description = "",
 		key_value = 7
-	},
-	world_newshop_date = {
+	}
+	pg.base.gameset.world_newshop_date = {
 		key_value = 0,
 		description = {
 			2023,
 			9,
 			1
 		}
-	},
-	world_movepower_maxvalue = {
+	}
+	pg.base.gameset.world_movepower_maxvalue = {
 		description = "",
 		key_value = 200
-	},
-	world_cell_cost_movepower = {
+	}
+	pg.base.gameset.world_cell_cost_movepower = {
 		description = "",
 		key_value = 1
-	},
-	world_movepower_recovery_interval = {
+	}
+	pg.base.gameset.world_movepower_recovery_interval = {
 		description = "",
 		key_value = 600
-	},
-	world_supply_value = {
+	}
+	pg.base.gameset.world_supply_value = {
 		key_value = 0,
 		description = {
 			{
@@ -848,8 +856,8 @@ pg.gameset = {
 				400
 			}
 		}
-	},
-	world_supply_price = {
+	}
+	pg.base.gameset.world_supply_price = {
 		key_value = 0,
 		description = {
 			{
@@ -878,16 +886,16 @@ pg.gameset = {
 				4000
 			}
 		}
-	},
-	world_supply_itemlist = {
+	}
+	pg.base.gameset.world_supply_itemlist = {
 		key_value = 0,
 		description = {
 			251,
 			252,
 			253
 		}
-	},
-	world_stage_help = {
+	}
+	pg.base.gameset.world_stage_help = {
 		key_value = 0,
 		description = {
 			{
@@ -903,32 +911,32 @@ pg.gameset = {
 				"helpbg/level_ui_help_3"
 			}
 		}
-	},
-	world_story_special_1 = {
+	}
+	pg.base.gameset.world_story_special_1 = {
 		key_value = 0,
 		description = {
 			"WNX01"
 		}
-	},
-	world_story_special_2 = {
+	}
+	pg.base.gameset.world_story_special_2 = {
 		key_value = 0,
 		description = {
 			"GWORLDS05"
 		}
-	},
-	world_story_recycle_item = {
+	}
+	pg.base.gameset.world_story_recycle_item = {
 		key_value = 0,
 		description = {
 			"GWORLDS06"
 		}
-	},
-	world_story_treasure_item = {
+	}
+	pg.base.gameset.world_story_treasure_item = {
 		key_value = 0,
 		description = {
 			"GWORLDS08"
 		}
-	},
-	world_expedition_level = {
+	}
+	pg.base.gameset.world_expedition_level = {
 		key_value = 0,
 		description = {
 			{
@@ -966,112 +974,112 @@ pg.gameset = {
 				8
 			}
 		}
-	},
-	world_log_max_count = {
+	}
+	pg.base.gameset.world_log_max_count = {
 		description = "",
 		key_value = 100
-	},
-	world_infection_level = {
+	}
+	pg.base.gameset.world_infection_level = {
 		key_value = 0,
 		description = {
 			500,
 			800
 		}
-	},
-	world_instruction_submarine = {
+	}
+	pg.base.gameset.world_instruction_submarine = {
 		key_value = 0,
 		description = {
 			40,
 			3600
 		}
-	},
-	world_instruction_detect = {
+	}
+	pg.base.gameset.world_instruction_detect = {
 		key_value = 0,
 		description = {
 			10,
 			1800
 		}
-	},
-	world_instruction_supply = {
+	}
+	pg.base.gameset.world_instruction_supply = {
 		key_value = 0,
 		description = {
 			20,
 			1800,
 			310
 		}
-	},
-	world_instruction_maintenance = {
+	}
+	pg.base.gameset.world_instruction_maintenance = {
 		key_value = 0,
 		description = {
 			50,
 			21600,
 			310
 		}
-	},
-	world_sairen_infection = {
+	}
+	pg.base.gameset.world_sairen_infection = {
 		key_value = 0,
 		description = {
 			40,
 			80
 		}
-	},
-	world_sairen_weekly = {
+	}
+	pg.base.gameset.world_sairen_weekly = {
 		key_value = 0,
 		description = {
 			1,
 			1
 		}
-	},
-	world_sairen_max1 = {
+	}
+	pg.base.gameset.world_sairen_max1 = {
 		description = "",
 		key_value = 1
-	},
-	world_sairen_max2 = {
+	}
+	pg.base.gameset.world_sairen_max2 = {
 		description = "",
 		key_value = 3
-	},
-	world_sairen_openstage = {
+	}
+	pg.base.gameset.world_sairen_openstage = {
 		description = "",
 		key_value = 100
-	},
-	world_death_buff = {
+	}
+	pg.base.gameset.world_death_buff = {
 		description = "",
 		key_value = 1
-	},
-	world_death_hpfix = {
+	}
+	pg.base.gameset.world_death_hpfix = {
 		description = "",
 		key_value = 1000
-	},
-	world_resource_max = {
+	}
+	pg.base.gameset.world_resource_max = {
 		description = "",
 		key_value = 1000000
-	},
-	world_catsearch_failure = {
+	}
+	pg.base.gameset.world_catsearch_failure = {
 		key_value = 0,
 		description = {
 			"W1251"
 		}
-	},
-	world_catsearch_raritytip = {
+	}
+	pg.base.gameset.world_catsearch_raritytip = {
 		key_value = 0,
 		description = {
 			"W1252"
 		}
-	},
-	world_catsearch_completed = {
+	}
+	pg.base.gameset.world_catsearch_completed = {
 		key_value = 0,
 		description = {
 			"W1253",
 			"W1255"
 		}
-	},
-	world_catsearch_special = {
+	}
+	pg.base.gameset.world_catsearch_special = {
 		key_value = 0,
 		description = {
 			"W1254"
 		}
-	},
-	world_catsearchdrop_show = {
+	}
+	pg.base.gameset.world_catsearchdrop_show = {
 		key_value = 0,
 		description = {
 			{
@@ -1165,16 +1173,16 @@ pg.gameset = {
 				0
 			}
 		}
-	},
-	world_catsearch_score = {
+	}
+	pg.base.gameset.world_catsearch_score = {
 		key_value = 0,
 		description = {
 			0,
 			29,
 			69
 		}
-	},
-	world_guide_event = {
+	}
+	pg.base.gameset.world_guide_event = {
 		key_value = 0,
 		description = {
 			{
@@ -1206,8 +1214,8 @@ pg.gameset = {
 				"WorldG110"
 			}
 		}
-	},
-	world_guide_map_list = {
+	}
+	pg.base.gameset.world_guide_map_list = {
 		key_value = 0,
 		description = {
 			200,
@@ -1217,12 +1225,12 @@ pg.gameset = {
 			401,
 			500
 		}
-	},
-	world_move_buff_desc = {
+	}
+	pg.base.gameset.world_move_buff_desc = {
 		description = "",
 		key_value = 2
-	},
-	world_level_correct = {
+	}
+	pg.base.gameset.world_level_correct = {
 		key_value = 0,
 		description = {
 			1,
@@ -1231,8 +1239,8 @@ pg.gameset = {
 			0.2,
 			0.5
 		}
-	},
-	world_suggest_level = {
+	}
+	pg.base.gameset.world_suggest_level = {
 		key_value = 0,
 		description = {
 			0,
@@ -1243,12 +1251,12 @@ pg.gameset = {
 			35640,
 			51840
 		}
-	},
-	world_strength_correct = {
+	}
+	pg.base.gameset.world_strength_correct = {
 		description = "",
 		key_value = 333
-	},
-	world_movelimit_event = {
+	}
+	pg.base.gameset.world_movelimit_event = {
 		key_value = 0,
 		description = {
 			20740,
@@ -1256,8 +1264,8 @@ pg.gameset = {
 			21530,
 			22520
 		}
-	},
-	world_quickmode_skiplua = {
+	}
+	pg.base.gameset.world_quickmode_skiplua = {
 		key_value = 0,
 		description = {
 			"W1000",
@@ -1411,16 +1419,16 @@ pg.gameset = {
 			"W400004",
 			"W300000"
 		}
-	},
-	world_sairenbuff_fleeticon = {
+	}
+	pg.base.gameset.world_sairenbuff_fleeticon = {
 		key_value = 0,
 		description = {
 			610,
 			620,
 			630
 		}
-	},
-	world_planning_stop_event = {
+	}
+	pg.base.gameset.world_planning_stop_event = {
 		key_value = 0,
 		description = {
 			1901,
@@ -1432,8 +1440,8 @@ pg.gameset = {
 			1002004,
 			1002005
 		}
-	},
-	world_planning_stop_event2 = {
+	}
+	pg.base.gameset.world_planning_stop_event2 = {
 		key_value = 0,
 		description = {
 			1101,
@@ -1446,8 +1454,8 @@ pg.gameset = {
 			1407,
 			1408
 		}
-	},
-	world_planning_stop_event3 = {
+	}
+	pg.base.gameset.world_planning_stop_event3 = {
 		key_value = 0,
 		description = {
 			1000090,
@@ -1460,8 +1468,8 @@ pg.gameset = {
 			1000400,
 			1000404
 		}
-	},
-	world_daily_task_pool = {
+	}
+	pg.base.gameset.world_daily_task_pool = {
 		key_value = 0,
 		description = {
 			{
@@ -1687,8 +1695,8 @@ pg.gameset = {
 				1000
 			}
 		}
-	},
-	world_daily_task_num = {
+	}
+	pg.base.gameset.world_daily_task_num = {
 		key_value = 0,
 		description = {
 			5,
@@ -1699,76 +1707,76 @@ pg.gameset = {
 			6,
 			6
 		}
-	},
-	world_daily_task_limit = {
+	}
+	pg.base.gameset.world_daily_task_limit = {
 		description = "",
 		key_value = 12
-	},
-	world_daily_task_stage = {
+	}
+	pg.base.gameset.world_daily_task_stage = {
 		description = "",
 		key_value = 100
-	},
-	commander_exp_a = {
+	}
+	pg.base.gameset.commander_exp_a = {
 		description = "",
 		key_value = 7000
-	},
-	commander_exp_same_rate = {
+	}
+	pg.base.gameset.commander_exp_same_rate = {
 		description = "",
 		key_value = 12000
-	},
-	commander_skill_exp = {
+	}
+	pg.base.gameset.commander_skill_exp = {
 		description = "",
 		key_value = 1
-	},
-	commander_ability_reset_coldtime = {
+	}
+	pg.base.gameset.commander_ability_reset_coldtime = {
 		description = "",
 		key_value = 86400
-	},
-	commander_ability_reset_time = {
+	}
+	pg.base.gameset.commander_ability_reset_time = {
 		description = "",
 		key_value = 1
-	},
-	commander_learn_ability_total = {
+	}
+	pg.base.gameset.commander_learn_ability_total = {
 		description = "",
 		key_value = 4
-	},
-	commander_learn_ability_own = {
+	}
+	pg.base.gameset.commander_learn_ability_own = {
 		description = "",
 		key_value = 2
-	},
-	commander_ability_limit = {
+	}
+	pg.base.gameset.commander_ability_limit = {
 		description = "",
 		key_value = 5
-	},
-	commander_capacity = {
+	}
+	pg.base.gameset.commander_capacity = {
 		description = "",
 		key_value = 40
-	},
-	commander_form_a = {
+	}
+	pg.base.gameset.commander_form_a = {
 		description = "",
 		key_value = 6
-	},
-	commander_form_b = {
+	}
+	pg.base.gameset.commander_form_b = {
 		description = "",
 		key_value = 1500
-	},
-	commander_form_c = {
+	}
+	pg.base.gameset.commander_form_c = {
 		description = "",
 		key_value = 250
-	},
-	commander_form_n = {
+	}
+	pg.base.gameset.commander_form_n = {
 		description = "",
 		key_value = 1
-	},
-	commander_grow_form_a = {
+	}
+	pg.base.gameset.commander_grow_form_a = {
 		description = "",
 		key_value = 24
-	},
-	commander_grow_form_b = {
+	}
+	pg.base.gameset.commander_grow_form_b = {
 		description = "",
 		key_value = 304
-	},
-	commander_skill_reset_cost = {
+	}
+	pg.base.gameset.commander_skill_reset_cost = {
 		key_value = 0,
 		description = {
 			{
@@ -1780,12 +1788,12 @@ pg.gameset = {
 				12000
 			}
 		}
-	},
-	commander_box_count = {
+	}
+	pg.base.gameset.commander_box_count = {
 		description = "",
 		key_value = 10
-	},
-	commander_get_cost = {
+	}
+	pg.base.gameset.commander_get_cost = {
 		key_value = 0,
 		description = {
 			{
@@ -1799,131 +1807,133 @@ pg.gameset = {
 				14
 			}
 		}
-	},
-	commander_home_number = {
+	}
+	pg.base.gameset.commander_home_number = {
 		description = "",
 		key_value = 8
-	},
-	academy_random_ship_count = {
+	}
+	pg.base.gameset.academy_random_ship_count = {
 		description = "",
 		key_value = 5
-	},
-	academy_random_ship_coldtime = {
+	}
+	pg.base.gameset.academy_random_ship_coldtime = {
 		description = "",
 		key_value = 600
-	},
-	reactivity_time = {
+	}
+	pg.base.gameset.reactivity_time = {
 		description = "",
 		key_value = 900
-	},
-	reactivity_ticket_max = {
+	}
+	pg.base.gameset.reactivity_ticket_max = {
 		description = "",
 		key_value = 60
-	},
-	reactivity_ticket_daily = {
+	}
+	pg.base.gameset.reactivity_ticket_daily = {
 		description = "",
 		key_value = 4
-	},
-	max_commander_bag = {
+	}
+	pg.base.gameset.max_commander_bag = {
 		description = "",
 		key_value = 200
-	},
-	commander_rename_open = {
+	}
+	pg.base.gameset.commander_rename_open = {
 		description = "",
 		key_value = 1
-	},
-	commander_rename_coldtime = {
+	}
+	pg.base.gameset.commander_rename_coldtime = {
 		description = "",
 		key_value = 86400
-	},
-	big_seven_old_skin_timestamp = {
+	}
+	pg.base.gameset.big_seven_old_skin_timestamp = {
 		description = "",
 		key_value = 1540396800
-	},
-	language_default = {
+	}
+	pg.base.gameset.language_default = {
 		description = "",
 		key_value = 1
-	},
-	event_tips = {
+	}
+	pg.base.gameset.event_tips = {
 		description = "",
 		key_value = 1
-	},
-	air_dominance_level_1 = {
+	}
+	pg.base.gameset.air_dominance_level_1 = {
 		description = "",
 		key_value = 10011
-	},
-	air_dominance_level_2 = {
+	}
+	pg.base.gameset.air_dominance_level_2 = {
 		description = "",
 		key_value = 10012
-	},
-	air_dominance_level_3 = {
+	}
+	pg.base.gameset.air_dominance_level_3 = {
 		description = "",
 		key_value = 10013
-	},
-	air_dominance_level_4 = {
+	}
+	pg.base.gameset.air_dominance_level_4 = {
 		description = "",
 		key_value = 10014
-	},
-	air_dominance_level_5 = {
+	}
+	pg.base.gameset.air_dominance_level_5 = {
 		description = "",
 		key_value = 10015
-	},
-	air_dominance_p = {
+	}
+	pg.base.gameset.air_dominance_p = {
 		description = "",
 		key_value = 10
-	},
-	air_dominance_q = {
+	}
+	pg.base.gameset.air_dominance_q = {
 		description = "",
 		key_value = 5
-	},
-	air_dominance_s = {
+	}
+end)()
+(function ()
+	pg.base.gameset.air_dominance_s = {
 		description = "",
 		key_value = 6
-	},
-	air_dominance_t = {
+	}
+	pg.base.gameset.air_dominance_t = {
 		description = "",
 		key_value = 4
-	},
-	air_dominance_r = {
+	}
+	pg.base.gameset.air_dominance_r = {
 		description = "",
 		key_value = 1
-	},
-	air_dominance_a = {
+	}
+	pg.base.gameset.air_dominance_a = {
 		description = "",
 		key_value = 8000
-	},
-	air_dominance_x = {
+	}
+	pg.base.gameset.air_dominance_x = {
 		description = "",
 		key_value = 153
-	},
-	air_dominance_y = {
+	}
+	pg.base.gameset.air_dominance_y = {
 		description = "",
 		key_value = 450
-	},
-	technology_protect_num = {
+	}
+	pg.base.gameset.technology_protect_num = {
 		description = "",
 		key_value = 10
-	},
-	technology_daily_limit = {
+	}
+	pg.base.gameset.technology_daily_limit = {
 		description = "",
 		key_value = 3
-	},
-	technology_once_limit = {
+	}
+	pg.base.gameset.technology_once_limit = {
 		description = "",
 		key_value = 1
-	},
-	skin_ticket = {
+	}
+	pg.base.gameset.skin_ticket = {
 		description = "",
 		key_value = 659
-	},
-	order_pt_max = {
+	}
+	pg.base.gameset.order_pt_max = {
 		key_value = 0,
 		description = {
 			1001,
 			25000
 		}
-	},
-	secretary_group_unlock = {
+	}
+	pg.base.gameset.secretary_group_unlock = {
 		key_value = 0,
 		description = {
 			{
@@ -1943,28 +1953,28 @@ pg.gameset = {
 				5
 			}
 		}
-	},
-	award_ship_limit = {
+	}
+	pg.base.gameset.award_ship_limit = {
 		description = "奖励超过20只就不一个一个展示获得界面，直接显示全部获得",
 		key_value = 20
-	},
-	night_collection_begin = {
+	}
+	pg.base.gameset.night_collection_begin = {
 		description = "",
 		key_value = 21
-	},
-	night_collection_end = {
+	}
+	pg.base.gameset.night_collection_end = {
 		description = "",
 		key_value = 3
-	},
-	fate_sim_ssr = {
+	}
+	pg.base.gameset.fate_sim_ssr = {
 		description = "",
 		key_value = 165
-	},
-	fate_sim_ur = {
+	}
+	pg.base.gameset.fate_sim_ur = {
 		description = "",
 		key_value = 215
-	},
-	technology_catchup_itemid = {
+	}
+	pg.base.gameset.technology_catchup_itemid = {
 		key_value = 0,
 		description = {
 			{
@@ -1996,43 +2006,43 @@ pg.gameset = {
 				10000
 			}
 		}
-	},
-	urpt_chapter_max = {
+	}
+	pg.base.gameset.urpt_chapter_max = {
 		key_value = 0,
 		description = {
 			59010,
 			5000
 		}
-	},
-	doa_fever_count = {
+	}
+	pg.base.gameset.doa_fever_count = {
 		description = "",
 		key_value = 4
-	},
-	doa_fever_buff = {
+	}
+	pg.base.gameset.doa_fever_buff = {
 		key_value = 8761,
 		description = {
 			8761
 		}
-	},
-	doa_fever_recover = {
+	}
+	pg.base.gameset.doa_fever_recover = {
 		description = "",
 		key_value = 0
-	},
-	doa_fever_strategy = {
+	}
+	pg.base.gameset.doa_fever_strategy = {
 		key_value = 10021,
 		description = {
 			10021
 		}
-	},
-	meta_skill_exp_double = {
+	}
+	pg.base.gameset.meta_skill_exp_double = {
 		description = "",
 		key_value = 9000
-	},
-	meta_skill_exp_max = {
+	}
+	pg.base.gameset.meta_skill_exp_max = {
 		description = "",
 		key_value = 30000
-	},
-	meta_tech_sort = {
+	}
+	pg.base.gameset.meta_tech_sort = {
 		key_value = 0,
 		description = {
 			1,
@@ -2041,12 +2051,12 @@ pg.gameset = {
 			3,
 			4
 		}
-	},
-	world_boss_stage = {
+	}
+	pg.base.gameset.world_boss_stage = {
 		description = "",
 		key_value = 23
-	},
-	joint_boss_oil_consume = {
+	}
+	pg.base.gameset.joint_boss_oil_consume = {
 		key_value = 0,
 		description = {
 			0,
@@ -2107,64 +2117,64 @@ pg.gameset = {
 			1,
 			0
 		}
-	},
-	joint_boss_ap_recove_cnt_pre_day = {
+	}
+	pg.base.gameset.joint_boss_ap_recove_cnt_pre_day = {
 		description = "",
 		key_value = 3
-	},
-	world_boss_resfresh = {
+	}
+	pg.base.gameset.world_boss_resfresh = {
 		description = "",
 		key_value = 5
-	},
-	joint_boss_ap_max = {
+	}
+	pg.base.gameset.joint_boss_ap_max = {
 		description = "",
 		key_value = 3
-	},
-	joint_boss_world_time = {
+	}
+	pg.base.gameset.joint_boss_world_time = {
 		description = "",
 		key_value = 1800
-	},
-	joint_boss_bonus_time = {
+	}
+	pg.base.gameset.joint_boss_bonus_time = {
 		description = "",
 		key_value = 86400
-	},
-	joint_boss_fighter_max = {
+	}
+	pg.base.gameset.joint_boss_fighter_max = {
 		description = "",
 		key_value = 30
-	},
-	joint_boss_ticket = {
+	}
+	pg.base.gameset.joint_boss_ticket = {
 		key_value = 0,
 		description = {
 			100,
 			100,
 			200
 		}
-	},
-	curr_boss_ticket = {
+	}
+	pg.base.gameset.curr_boss_ticket = {
 		key_value = 0,
 		description = {
 			100,
 			200,
 			200
 		}
-	},
-	past_joint_boss_ticket = {
+	}
+	pg.base.gameset.past_joint_boss_ticket = {
 		key_value = 0,
 		description = {
 			100,
 			200,
 			1400
 		}
-	},
-	past_joint_boss_autofight_time = {
+	}
+	pg.base.gameset.past_joint_boss_autofight_time = {
 		description = "",
 		key_value = 900
-	},
-	world_boss_joindamage = {
+	}
+	pg.base.gameset.world_boss_joindamage = {
 		description = "",
 		key_value = 200
-	},
-	boss_cnt_limit = {
+	}
+	pg.base.gameset.boss_cnt_limit = {
 		key_value = 0,
 		description = {
 			30,
@@ -2172,8 +2182,8 @@ pg.gameset = {
 			10,
 			10
 		}
-	},
-	world_fleet_unlock_level = {
+	}
+	pg.base.gameset.world_fleet_unlock_level = {
 		key_value = 0,
 		description = {
 			{
@@ -2183,8 +2193,8 @@ pg.gameset = {
 				480
 			}
 		}
-	},
-	world_metaboss_supportattack = {
+	}
+	pg.base.gameset.world_metaboss_supportattack = {
 		key_value = 0,
 		description = {
 			31,
@@ -2194,8 +2204,8 @@ pg.gameset = {
 			15,
 			8832
 		}
-	},
-	weekly_target = {
+	}
+	pg.base.gameset.weekly_target = {
 		key_value = 0,
 		description = {
 			50,
@@ -2219,8 +2229,8 @@ pg.gameset = {
 			950,
 			1000
 		}
-	},
-	weekly_drop = {
+	}
+	pg.base.gameset.weekly_drop = {
 		key_value = 0,
 		description = {
 			7400,
@@ -2244,8 +2254,8 @@ pg.gameset = {
 			7418,
 			7419
 		}
-	},
-	weekly_drop_client = {
+	}
+	pg.base.gameset.weekly_drop_client = {
 		key_value = 0,
 		description = {
 			{
@@ -2489,12 +2499,12 @@ pg.gameset = {
 				}
 			}
 		}
-	},
-	weekly_bonus_task = {
+	}
+	pg.base.gameset.weekly_bonus_task = {
 		description = "",
 		key_value = 2
-	},
-	daily_task_new = {
+	}
+	pg.base.gameset.daily_task_new = {
 		key_value = 0,
 		description = {
 			7201,
@@ -2507,27 +2517,27 @@ pg.gameset = {
 			7208,
 			7209
 		}
-	},
-	main_normal_chapter_list = {
+	}
+	pg.base.gameset.main_normal_chapter_list = {
 		description = "[101,102,103,104,201,202,203,204,301,302,303,304,401,402,403,404,501,502,503,504,601,602,603,604,701,702,703,704,801,802,803,804,901,902,903,904,1001,1002,1003,1004,1101,1102,1103,1104,1201,1202,1203,1204,1301,1302,1303,1304,1401,1402,1403,1404,1501,1502,1503,1504,1601,1602,1603,1604]",
 		key_value = 0
-	},
-	main_hard_chapter_list = {
+	}
+	pg.base.gameset.main_hard_chapter_list = {
 		description = "[10101,10102,10103,10104,10201,10202,10203,10204,10301,10302,10303,10304,10401,10402,10403,10404,10501,10502,10503,10504,10601,10602,10603,10604,10701,10702,10703,10704,10801,10802,10803,10804,10901,10902,10903,10904,11001,11002,11003,11004,11101,11102,11103,11104,11201,11202,11203,11204,11301,11302,11303,11304,11401,11402,11403,11404]",
 		key_value = 0
-	},
-	permanent_mark = {
+	}
+	pg.base.gameset.permanent_mark = {
 		description = "20220513",
 		key_value = 0
-	},
-	vow_prop_conversion = {
+	}
+	pg.base.gameset.vow_prop_conversion = {
 		key_value = 0,
 		description = {
 			15006,
 			15011
 		}
-	},
-	blueprint_pursue_discount_ssr = {
+	}
+	pg.base.gameset.blueprint_pursue_discount_ssr = {
 		key_value = 0,
 		description = {
 			{
@@ -2555,8 +2565,8 @@ pg.gameset = {
 				100
 			}
 		}
-	},
-	blueprint_pursue_discount_ur = {
+	}
+	pg.base.gameset.blueprint_pursue_discount_ur = {
 		key_value = 0,
 		description = {
 			{
@@ -2580,8 +2590,8 @@ pg.gameset = {
 				100
 			}
 		}
-	},
-	dayandnight_bgm = {
+	}
+	pg.base.gameset.dayandnight_bgm = {
 		key_value = 6025,
 		description = {
 			{
@@ -2625,8 +2635,8 @@ pg.gameset = {
 				"doa-song-night06"
 			}
 		}
-	},
-	class_upgrade_reset_time = {
+	}
+	pg.base.gameset.class_upgrade_reset_time = {
 		key_value = 0,
 		description = {
 			{
@@ -2640,20 +2650,20 @@ pg.gameset = {
 				0
 			}
 		}
-	},
-	ship_exp_books = {
+	}
+	pg.base.gameset.ship_exp_books = {
 		key_value = 0,
 		description = {
 			16501,
 			16502,
 			16503
 		}
-	},
-	vote_enlarge = {
+	}
+	pg.base.gameset.vote_enlarge = {
 		description = "",
 		key_value = 23025
-	},
-	general_blueprint_list = {
+	}
+	pg.base.gameset.general_blueprint_list = {
 		key_value = 0,
 		description = {
 			42000,
@@ -2672,16 +2682,16 @@ pg.gameset = {
 			42070,
 			42076
 		}
-	},
-	submarine_chapter_activate_time = {
+	}
+	pg.base.gameset.submarine_chapter_activate_time = {
 		description = "",
 		key_value = 43200
-	},
-	naval_academy_theme = {
+	}
+	pg.base.gameset.naval_academy_theme = {
 		description = "winter",
 		key_value = 0
-	},
-	package_lv = {
+	}
+	pg.base.gameset.package_lv = {
 		key_value = 0,
 		description = {
 			{
@@ -2689,8 +2699,8 @@ pg.gameset = {
 				70
 			}
 		}
-	},
-	supports_config = {
+	}
+	pg.base.gameset.supports_config = {
 		key_value = 0,
 		description = {
 			6,
@@ -2714,18 +2724,18 @@ pg.gameset = {
 			},
 			999
 		}
-	},
-	player_name_illegal = {
+	}
+	pg.base.gameset.player_name_illegal = {
 		key_value = 0,
 		description = {
 			"违规用户名"
 		}
-	},
-	report_level_limit = {
+	}
+	pg.base.gameset.report_level_limit = {
 		description = "",
 		key_value = 75
-	},
-	return_player_set = {
+	}
+	pg.base.gameset.return_player_set = {
 		key_value = 0,
 		description = {
 			10,
@@ -2733,67 +2743,67 @@ pg.gameset = {
 			90,
 			14
 		}
-	},
-	series_enemy_story_reward = {
+	}
+	pg.base.gameset.series_enemy_story_reward = {
 		key_value = 0,
 		description = {
 			16,
 			99365
 		}
-	},
-	series_enemy_mood_limit = {
+	}
+	pg.base.gameset.series_enemy_mood_limit = {
 		description = "",
 		key_value = 30
-	},
-	series_enemy_story_Pttrigger = {
+	}
+	pg.base.gameset.series_enemy_story_Pttrigger = {
 		description = "",
 		key_value = 489
-	},
-	series_enemy_multiple_limit = {
+	}
+	pg.base.gameset.series_enemy_multiple_limit = {
 		description = "",
 		key_value = 5
-	},
-	main_level_multiple_sorties_times = {
+	}
+	pg.base.gameset.main_level_multiple_sorties_times = {
 		description = "",
 		key_value = 3
-	},
-	hard_level_multiple_sorties_times = {
+	}
+	pg.base.gameset.hard_level_multiple_sorties_times = {
 		description = "",
 		key_value = 3
-	},
-	activity_level_multiple_sorties_times = {
+	}
+	pg.base.gameset.activity_level_multiple_sorties_times = {
 		description = "",
 		key_value = 3
-	},
-	archives_level_multiple_sorties_times = {
+	}
+	pg.base.gameset.archives_level_multiple_sorties_times = {
 		description = "",
 		key_value = 4
-	},
-	game_room_remax = {
+	}
+	pg.base.gameset.game_room_remax = {
 		description = "",
 		key_value = 50000
-	},
-	game_coin_week = {
+	}
+	pg.base.gameset.game_coin_week = {
 		description = "",
 		key_value = 10
-	},
-	game_coin_max = {
+	}
+	pg.base.gameset.game_coin_max = {
 		description = "",
 		key_value = 40
-	},
-	game_ticket_month = {
+	}
+	pg.base.gameset.game_ticket_month = {
 		description = "",
 		key_value = 10000
-	},
-	package_view_display = {
+	}
+	pg.base.gameset.package_view_display = {
 		description = "",
 		key_value = 1
-	},
-	game_coin_initial = {
+	}
+	pg.base.gameset.game_coin_initial = {
 		description = "",
 		key_value = 10
-	},
-	game_coin_gold = {
+	}
+	pg.base.gameset.game_coin_gold = {
 		key_value = 0,
 		description = {
 			{
@@ -2809,23 +2819,23 @@ pg.gameset = {
 				2000
 			}
 		}
-	},
-	tech_sort_mot = {
+	}
+	pg.base.gameset.tech_sort_mot = {
 		key_value = 0,
 		description = {
 			1,
 			2
 		}
-	},
-	child_end_data = {
+	}
+	pg.base.gameset.child_end_data = {
 		key_value = 0,
 		description = {
 			14,
 			4,
 			7
 		}
-	},
-	child_event_number_weekly = {
+	}
+	pg.base.gameset.child_event_number_weekly = {
 		key_value = 0,
 		description = {
 			{
@@ -2845,8 +2855,8 @@ pg.gameset = {
 				3
 			}
 		}
-	},
-	child_emotion = {
+	}
+	pg.base.gameset.child_emotion = {
 		key_value = 0,
 		description = {
 			{
@@ -2878,8 +2888,8 @@ pg.gameset = {
 				4000
 			}
 		}
-	},
-	child_emotion_attr = {
+	}
+	pg.base.gameset.child_emotion_attr = {
 		key_value = 0,
 		description = {
 			101,
@@ -2893,14 +2903,14 @@ pg.gameset = {
 			305,
 			306
 		}
-	},
-	child_emotion_resource = {
+	}
+	pg.base.gameset.child_emotion_resource = {
 		key_value = 0,
 		description = {
 			1
 		}
-	},
-	child_intimacy_task_first = {
+	}
+	pg.base.gameset.child_intimacy_task_first = {
 		key_value = 0,
 		description = {
 			{
@@ -2912,8 +2922,8 @@ pg.gameset = {
 				7
 			}
 		}
-	},
-	child_child_polaroid = {
+	}
+	pg.base.gameset.child_child_polaroid = {
 		key_value = 0,
 		description = {
 			{
@@ -2923,8 +2933,8 @@ pg.gameset = {
 				1204
 			}
 		}
-	},
-	child_task_number_weekly = {
+	}
+	pg.base.gameset.child_task_number_weekly = {
 		key_value = 0,
 		description = {
 			1,
@@ -2932,8 +2942,8 @@ pg.gameset = {
 			1,
 			1
 		}
-	},
-	child_task_group = {
+	}
+	pg.base.gameset.child_task_group = {
 		key_value = 0,
 		description = {
 			{
@@ -3431,8 +3441,8 @@ pg.gameset = {
 				10479
 			}
 		}
-	},
-	child_target_set_date = {
+	}
+	pg.base.gameset.child_target_set_date = {
 		key_value = 0,
 		description = {
 			{
@@ -3456,90 +3466,92 @@ pg.gameset = {
 				7
 			}
 		}
-	},
-	child_attr_2_add = {
+	}
+	pg.base.gameset.child_attr_2_add = {
 		key_value = 0,
 		description = {}
-	},
-	child_out_unlock = {
+	}
+	pg.base.gameset.child_out_unlock = {
 		key_value = 0,
 		description = {
 			4,
 			1,
 			7
 		}
-	},
-	child_memory_unlock = {
+	}
+	pg.base.gameset.child_memory_unlock = {
 		key_value = 0,
 		description = {
 			2,
 			4,
 			7
 		}
-	},
-	child_polaroid_unlock = {
+	}
+	pg.base.gameset.child_polaroid_unlock = {
 		key_value = 0,
 		description = {
 			4,
 			3,
 			7
 		}
-	},
-	child_ending_unlock = {
+	}
+	pg.base.gameset.child_ending_unlock = {
 		key_value = 0,
 		description = {
 			14,
 			4,
 			7
 		}
-	},
-	child_intimacy_unlock = {
+	}
+	pg.base.gameset.child_intimacy_unlock = {
 		key_value = 0,
 		description = {
 			3,
 			3,
 			1
 		}
-	},
-	child_buff_unlock = {
+	}
+	pg.base.gameset.child_buff_unlock = {
 		key_value = 0,
 		description = {
 			3,
 			4,
 			7
 		}
-	},
-	child_attr2_unlock = {
+	}
+	pg.base.gameset.child_attr2_unlock = {
 		key_value = 0,
 		description = {
 			3,
 			4,
 			7
 		}
-	},
-	child_attr3_unlock = {
+	}
+	pg.base.gameset.child_attr3_unlock = {
 		key_value = 0,
 		description = {
 			3,
 			4,
 			7
 		}
-	},
-	child_item_unlock = {
+	}
+end)()
+(function ()
+	pg.base.gameset.child_item_unlock = {
 		key_value = 0,
 		description = {
 			3,
 			2,
 			7
 		}
-	},
-	secretary_special_ship_event_type = {
+	}
+	pg.base.gameset.secretary_special_ship_event_type = {
 		key_value = 0,
 		description = {
 			12
 		}
-	},
-	main_live_area_time = {
+	}
+	pg.base.gameset.main_live_area_time = {
 		key_value = 0,
 		description = {
 			{
@@ -3564,8 +3576,8 @@ pg.gameset = {
 				"night"
 			}
 		}
-	},
-	child_charactor_time = {
+	}
+	pg.base.gameset.child_charactor_time = {
 		key_value = 0,
 		description = {
 			{
@@ -3579,8 +3591,8 @@ pg.gameset = {
 				7
 			}
 		}
-	},
-	food_shop_id = {
+	}
+	pg.base.gameset.food_shop_id = {
 		key_value = 0,
 		description = {
 			{
@@ -3608,25 +3620,25 @@ pg.gameset = {
 				50009
 			}
 		}
-	},
-	boss_single_daily = {
+	}
+	pg.base.gameset.boss_single_daily = {
 		key_value = 0,
 		description = {
 			5261,
 			3
 		}
-	},
-	main_scene_silent_time = {
+	}
+	pg.base.gameset.main_scene_silent_time = {
 		description = "",
 		key_value = 60
-	},
-	unoccupied_ship_nationality = {
+	}
+	pg.base.gameset.unoccupied_ship_nationality = {
 		key_value = 0,
 		description = {
 			97
 		}
-	},
-	loveletter_item_new = {
+	}
+	pg.base.gameset.loveletter_item_new = {
 		key_value = 0,
 		description = {
 			{
@@ -3665,8 +3677,8 @@ pg.gameset = {
 				5201
 			}
 		}
-	},
-	loveletter_item_old_year = {
+	}
+	pg.base.gameset.loveletter_item_old_year = {
 		key_value = 0,
 		description = {
 			{
@@ -3681,18 +3693,18 @@ pg.gameset = {
 				2024
 			}
 		}
-	},
-	loveletter2018_item = {
+	}
+	pg.base.gameset.loveletter2018_item = {
 		key_value = 0,
 		description = {
 			41001
 		}
-	},
-	monopoly2024_bubble_time = {
+	}
+	pg.base.gameset.monopoly2024_bubble_time = {
 		description = "",
 		key_value = 5
-	},
-	activity_town_bubble = {
+	}
+	pg.base.gameset.activity_town_bubble = {
 		key_value = 0,
 		description = {
 			{
@@ -3708,12 +3720,12 @@ pg.gameset = {
 				}
 			}
 		}
-	},
-	activity_town_favor = {
+	}
+	pg.base.gameset.activity_town_favor = {
 		description = "",
 		key_value = 1
-	},
-	activity_town_param = {
+	}
+	pg.base.gameset.activity_town_param = {
 		key_value = 0,
 		description = {
 			{
@@ -3723,18 +3735,18 @@ pg.gameset = {
 			1000000,
 			4
 		}
-	},
-	activity_town_special_work = {
+	}
+	pg.base.gameset.activity_town_special_work = {
 		description = "",
 		key_value = 8
-	},
-	weekly_fixed_task = {
+	}
+	pg.base.gameset.weekly_fixed_task = {
 		key_value = 0,
 		description = {
 			7311
 		}
-	},
-	no_share_skin_tip = {
+	}
+	pg.base.gameset.no_share_skin_tip = {
 		key_value = 0,
 		description = {
 			{
@@ -3758,20 +3770,20 @@ pg.gameset = {
 				}
 			}
 		}
-	},
-	new_auto_unlock_combat_ui = {
+	}
+	pg.base.gameset.new_auto_unlock_combat_ui = {
 		description = "101|103",
 		key_value = 0
-	},
-	cuise_shop_type2_limit_num = {
+	}
+	pg.base.gameset.cuise_shop_type2_limit_num = {
 		description = "",
 		key_value = 4
-	},
-	battlepass_level = {
+	}
+	pg.base.gameset.battlepass_level = {
 		description = "",
 		key_value = 50
-	},
-	child_buff_exclusion = {
+	}
+	pg.base.gameset.child_buff_exclusion = {
 		key_value = 0,
 		description = {
 			{
@@ -3783,8 +3795,8 @@ pg.gameset = {
 				8
 			}
 		}
-	},
-	child_buff_continue = {
+	}
+	pg.base.gameset.child_buff_continue = {
 		key_value = 0,
 		description = {
 			{
@@ -3792,16 +3804,16 @@ pg.gameset = {
 				8
 			}
 		}
-	},
-	juuschat_entering_time = {
+	}
+	pg.base.gameset.juuschat_entering_time = {
 		description = "",
 		key_value = 2000
-	},
-	juuschat_dialogue_trigger_time = {
+	}
+	pg.base.gameset.juuschat_dialogue_trigger_time = {
 		description = "",
 		key_value = 3000
-	},
-	maintenance_message = {
+	}
+	pg.base.gameset.maintenance_message = {
 		key_value = 0,
 		description = {
 			{
@@ -3821,34 +3833,34 @@ pg.gameset = {
 			},
 			10
 		}
-	},
-	technology_shadow_num = {
+	}
+	pg.base.gameset.technology_shadow_num = {
 		description = "",
 		key_value = 6
-	},
-	technology_shadow_unlock_lv = {
+	}
+	pg.base.gameset.technology_shadow_unlock_lv = {
 		description = "",
 		key_value = 100
-	},
-	act_npc_ship_id = {
+	}
+	pg.base.gameset.act_npc_ship_id = {
 		key_value = 0,
 		description = {
 			50501
 		}
-	},
-	music_Version = {
+	}
+	pg.base.gameset.music_Version = {
 		description = "",
 		key_value = 4
-	},
-	music_AutoScrollIndex = {
+	}
+	pg.base.gameset.music_AutoScrollIndex = {
 		description = "",
 		key_value = 1
-	},
-	music_NewCount = {
+	}
+	pg.base.gameset.music_NewCount = {
 		description = "",
 		key_value = 21
-	},
-	live_streaming26_data1 = {
+	}
+	pg.base.gameset.live_streaming26_data1 = {
 		key_value = 0,
 		description = {
 			21,
@@ -3856,31 +3868,31 @@ pg.gameset = {
 			73,
 			1001
 		}
-	},
-	live_streaming26_data2 = {
+	}
+	pg.base.gameset.live_streaming26_data2 = {
 		key_value = 0,
 		description = {
 			5913,
 			9999
 		}
-	},
-	levellimit_skintype = {
+	}
+	pg.base.gameset.levellimit_skintype = {
 		key_value = 15,
 		description = {
 			9,
 			19,
 			9999
 		}
-	},
-	levellimit_skinentrance = {
+	}
+	pg.base.gameset.levellimit_skinentrance = {
 		description = "",
 		key_value = 15
-	},
-	levellimit_skinstory = {
+	}
+	pg.base.gameset.levellimit_skinstory = {
 		key_value = 15,
 		description = {}
-	},
-	yumia_buff_mapping = {
+	}
+	pg.base.gameset.yumia_buff_mapping = {
 		key_value = 0,
 		description = {
 			{
@@ -3928,74 +3940,74 @@ pg.gameset = {
 				300020
 			}
 		}
-	},
-	shop_banner_capacity = {
+	}
+	pg.base.gameset.shop_banner_capacity = {
 		description = "",
 		key_value = 9
-	},
-	ninja_Param1 = {
+	}
+	pg.base.gameset.ninja_Param1 = {
 		description = "1.15",
 		key_value = 0
-	},
-	ninja_Param2 = {
+	}
+	pg.base.gameset.ninja_Param2 = {
 		description = "",
 		key_value = 6
-	},
-	ninja_Param3 = {
+	}
+	pg.base.gameset.ninja_Param3 = {
 		description = "1.1",
 		key_value = 0
-	},
-	ninja_Param4 = {
+	}
+	pg.base.gameset.ninja_Param4 = {
 		description = "",
 		key_value = 20
-	},
-	ninja_Param5 = {
+	}
+	pg.base.gameset.ninja_Param5 = {
 		description = "1.12",
 		key_value = 0
-	},
-	ninja_Param6 = {
+	}
+	pg.base.gameset.ninja_Param6 = {
 		description = "",
 		key_value = 20
-	},
-	ninja_Param7 = {
+	}
+	pg.base.gameset.ninja_Param7 = {
 		description = "0.008",
 		key_value = 0
-	},
-	ninja_Param9 = {
+	}
+	pg.base.gameset.ninja_Param9 = {
 		description = "1.085",
 		key_value = 0
-	},
-	ninja_Param10 = {
+	}
+	pg.base.gameset.ninja_Param10 = {
 		description = "",
 		key_value = 2
-	},
-	ninja_Param11 = {
+	}
+	pg.base.gameset.ninja_Param11 = {
 		description = "0.985",
 		key_value = 0
-	},
-	ninja_Param13 = {
+	}
+	pg.base.gameset.ninja_Param13 = {
 		description = "1.105",
 		key_value = 0
-	},
-	ninja_Param14 = {
+	}
+	pg.base.gameset.ninja_Param14 = {
 		description = "1.095",
 		key_value = 0
-	},
-	ninja_Param15 = {
+	}
+	pg.base.gameset.ninja_Param15 = {
 		description = "1.035",
 		key_value = 0
-	},
-	ninja_Param16 = {
+	}
+	pg.base.gameset.ninja_Param16 = {
 		description = "",
 		key_value = 60
-	},
-	changeskin_switch_block = {
+	}
+	pg.base.gameset.changeskin_switch_block = {
 		key_value = 0,
 		description = {
 			70502
 		}
-	},
-	random_skin_tag = {
+	}
+	pg.base.gameset.random_skin_tag = {
 		key_value = 0,
 		description = {
 			{
@@ -4015,8 +4027,8 @@ pg.gameset = {
 				"Live 2d+"
 			}
 		}
-	},
-	payshop_pack_red_dot = {
+	}
+	pg.base.gameset.payshop_pack_red_dot = {
 		key_value = 20251113,
 		description = {
 			{
@@ -4024,8 +4036,8 @@ pg.gameset = {
 			},
 			{}
 		}
-	},
-	gemshop_pack_red_dot = {
+	}
+	pg.base.gameset.gemshop_pack_red_dot = {
 		key_value = 20251113,
 		description = {
 			{
@@ -4033,68 +4045,68 @@ pg.gameset = {
 			},
 			{}
 		}
-	},
-	profile_cvchange_button_block = {
+	}
+	pg.base.gameset.profile_cvchange_button_block = {
 		key_value = 0,
 		description = {}
-	},
-	report_level_limit_all = {
+	}
+	pg.base.gameset.report_level_limit_all = {
 		description = "",
 		key_value = 0
-	},
-	submarine_support_oil_consume = {
+	}
+	pg.base.gameset.submarine_support_oil_consume = {
 		description = "",
 		key_value = 10
-	},
-	love_base_id = {
+	}
+	pg.base.gameset.love_base_id = {
 		description = "",
 		key_value = 31201
-	},
-	child_cg_add_price = {
+	}
+	pg.base.gameset.child_cg_add_price = {
 		description = "",
 		key_value = 0
-	},
-	child_cg_max_price = {
+	}
+	pg.base.gameset.child_cg_max_price = {
 		description = "",
 		key_value = 2000
-	},
-	child_polaroid_basic_price = {
+	}
+	pg.base.gameset.child_polaroid_basic_price = {
 		description = "",
 		key_value = 1000
-	},
-	child_polaroid_add_price = {
+	}
+	pg.base.gameset.child_polaroid_add_price = {
 		description = "",
 		key_value = 0
-	},
-	child_polaroid_max_price = {
+	}
+	pg.base.gameset.child_polaroid_max_price = {
 		description = "",
 		key_value = 1000
-	},
-	l2d_tips_default_icon = {
+	}
+	pg.base.gameset.l2d_tips_default_icon = {
 		description = "L2DUI",
 		key_value = 0
-	},
-	child2_tarot_refresh_limit = {
+	}
+	pg.base.gameset.child2_tarot_refresh_limit = {
 		description = "",
 		key_value = 1
-	},
-	child2_effect_refresh_limit = {
+	}
+	pg.base.gameset.child2_effect_refresh_limit = {
 		description = "",
 		key_value = 999
-	},
-	child2_draw_factor = {
+	}
+	pg.base.gameset.child2_draw_factor = {
 		description = "",
 		key_value = 500
-	},
-	child2_shop_refresh_price = {
+	}
+	pg.base.gameset.child2_shop_refresh_price = {
 		description = "",
 		key_value = 150
-	},
-	child2_shop_refresh_count = {
+	}
+	pg.base.gameset.child2_shop_refresh_count = {
 		description = "",
 		key_value = 1
-	},
-	child2_endless_loop_extra_factor = {
+	}
+	pg.base.gameset.child2_endless_loop_extra_factor = {
 		key_value = 0,
 		description = {
 			{
@@ -4128,8 +4140,8 @@ pg.gameset = {
 				759375
 			}
 		}
-	},
-	child2_endless_loop_extra_factor_hard = {
+	}
+	pg.base.gameset.child2_endless_loop_extra_factor_hard = {
 		key_value = 0,
 		description = {
 			{
@@ -4163,32 +4175,32 @@ pg.gameset = {
 				759375
 			}
 		}
-	},
-	child2_rank_switch = {
+	}
+	pg.base.gameset.child2_rank_switch = {
 		description = "",
 		key_value = 1
-	},
-	child2_pool_exhausted_token = {
+	}
+	pg.base.gameset.child2_pool_exhausted_token = {
 		key_value = 0,
 		description = {
 			3839997,
 			3839998,
 			3839999
 		}
-	},
-	child2_select_sleep_time = {
+	}
+	pg.base.gameset.child2_select_sleep_time = {
 		description = "0.85",
 		key_value = 0
-	},
-	match_refuseCD = {
+	}
+	pg.base.gameset.match_refuseCD = {
 		description = "",
 		key_value = 10
-	},
-	match_expand = {
+	}
+	pg.base.gameset.match_expand = {
 		description = "",
 		key_value = 100
-	},
-	match_time_expand = {
+	}
+	pg.base.gameset.match_time_expand = {
 		key_value = 0,
 		description = {
 			{
@@ -4204,16 +4216,16 @@ pg.gameset = {
 				300
 			}
 		}
-	},
-	match_time_limit = {
+	}
+	pg.base.gameset.match_time_limit = {
 		description = "",
 		key_value = 50
-	},
-	bar_punishment_limit = {
+	}
+	pg.base.gameset.bar_punishment_limit = {
 		description = "",
 		key_value = 6
-	},
-	bar_card = {
+	}
+	pg.base.gameset.bar_card = {
 		key_value = 0,
 		description = {
 			{
@@ -4233,115 +4245,117 @@ pg.gameset = {
 				2
 			}
 		}
-	},
-	bar_card_time = {
+	}
+	pg.base.gameset.bar_card_time = {
 		description = "",
 		key_value = 15
-	},
-	bar_punishment_rotate_time = {
+	}
+	pg.base.gameset.bar_punishment_rotate_time = {
 		description = "",
 		key_value = 5
-	},
-	bar_punishment_turntable_time = {
+	}
+	pg.base.gameset.bar_punishment_turntable_time = {
 		description = "",
 		key_value = 5
-	},
-	bar_punishment_eliminate_time = {
+	}
+	pg.base.gameset.bar_punishment_eliminate_time = {
 		description = "",
 		key_value = 4
-	},
-	bar_question_time = {
+	}
+	pg.base.gameset.bar_question_time = {
 		description = "",
 		key_value = 6
-	},
-	barbot_card1_weight = {
+	}
+	pg.base.gameset.barbot_card1_weight = {
 		description = "",
 		key_value = 5
-	},
-	barbot_card2_weight = {
+	}
+	pg.base.gameset.barbot_card2_weight = {
 		description = "",
 		key_value = 5
-	},
-	barbot_card3_weight = {
+	}
+	pg.base.gameset.barbot_card3_weight = {
 		description = "",
 		key_value = 5
-	},
-	barbot_initial_probability_X = {
+	}
+	pg.base.gameset.barbot_initial_probability_X = {
 		description = "",
 		key_value = 10
-	},
-	barbot_increase_probability_Y = {
+	}
+	pg.base.gameset.barbot_increase_probability_Y = {
 		description = "",
 		key_value = 5
-	},
-	barbot_increase_probability_Z = {
+	}
+	pg.base.gameset.barbot_increase_probability_Z = {
 		description = "",
 		key_value = 1
-	},
-	barbot_increase_probability_M = {
+	}
+	pg.base.gameset.barbot_increase_probability_M = {
 		key_value = 0,
 		description = {
 			5,
 			10,
 			15
 		}
-	},
-	barbot_card_time = {
+	}
+	pg.base.gameset.barbot_card_time = {
 		key_value = 0,
 		description = {
 			2,
 			2
 		}
-	},
-	barbot_punishment_rotate_time = {
+	}
+	pg.base.gameset.barbot_punishment_rotate_time = {
 		key_value = 0,
 		description = {
 			1,
 			2
 		}
-	},
-	barbot_ranktime = {
+	}
+	pg.base.gameset.barbot_ranktime = {
 		key_value = 0,
 		description = {
 			20,
 			25
 		}
-	},
-	bar_refreshcard_time = {
+	}
+	pg.base.gameset.bar_refreshcard_time = {
 		description = "",
 		key_value = 4
-	},
-	bar_showcard_time = {
+	}
+	pg.base.gameset.bar_showcard_time = {
 		description = "",
 		key_value = 3
-	},
-	barbot_automatic_hosting = {
+	}
+end)()
+(function ()
+	pg.base.gameset.barbot_automatic_hosting = {
 		description = "",
 		key_value = 3
-	},
-	integral_consecutive_victories = {
+	}
+	pg.base.gameset.integral_consecutive_victories = {
 		description = "",
 		key_value = 20
-	},
-	bar_default_character = {
+	}
+	pg.base.gameset.bar_default_character = {
 		description = "",
 		key_value = 10703
-	},
-	bar_not_display_dress_type = {
+	}
+	pg.base.gameset.bar_not_display_dress_type = {
 		key_value = 0,
 		description = {
 			3
 		}
-	},
-	barbot_dress_type = {
+	}
+	pg.base.gameset.barbot_dress_type = {
 		key_value = 0,
 		description = {
 			1,
 			2,
 			6
 		}
-	},
-	barbot_match_waittime = {
+	}
+	pg.base.gameset.barbot_match_waittime = {
 		key_value = 0,
 		description = {
 			{
@@ -4370,12 +4384,12 @@ pg.gameset = {
 				40
 			}
 		}
-	},
-	bar_runaway_time = {
+	}
+	pg.base.gameset.bar_runaway_time = {
 		description = "",
 		key_value = 3
-	},
-	["3disland_score_limit"] = {
+	}
+	pg.base.gameset["3disland_score_limit"] = {
 		key_value = 0,
 		description = {
 			{
@@ -4383,9 +4397,9 @@ pg.gameset = {
 				9999
 			}
 		}
-	},
-	bar_match_wait_time = {
+	}
+	pg.base.gameset.bar_match_wait_time = {
 		description = "",
 		key_value = 300
 	}
-}
+end)()

@@ -1,6 +1,22 @@
 pg = pg or {}
-pg.survey_data_template = {
-	[1001] = {
+pg.survey_data_template = rawget(pg, "survey_data_template") or setmetatable({
+	__name = "survey_data_template"
+}, confNEO)
+pg.survey_data_template.all = {
+	1001,
+	1002,
+	1004,
+	1009,
+	1010,
+	1005,
+	1007,
+	1012
+}
+pg.base = pg.base or {}
+pg.base.survey_data_template = {}
+
+(function ()
+	pg.base.survey_data_template[1001] = {
 		ios_url = "https://usersurvey.biligame.com/vm/eMNHTBq.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6",
 		uo_url = "https://usersurvey.biligame.com/vm/OtgEluc.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6",
 		main_url = "https://usersurvey.biligame.com/vm/mxYPRez.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6",
@@ -16,8 +32,8 @@ pg.survey_data_template = {
 				5
 			}
 		}
-	},
-	[1002] = {
+	}
+	pg.base.survey_data_template[1002] = {
 		ios_url = "https://usersurvey.wjx.cn/vm/wFx2bAQ.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
 		uo_url = "https://usersurvey.wjx.cn/vm/twi78ax.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
 		main_url = "https://usersurvey.wjx.cn/vm/OKyoiqf.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
@@ -33,8 +49,8 @@ pg.survey_data_template = {
 				5
 			}
 		}
-	},
-	[1004] = {
+	}
+	pg.base.survey_data_template[1004] = {
 		ios_url = "https://usersurvey.biligame.com/vm/w7z60Lu.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
 		uo_url = "https://usersurvey.biligame.com/vm/OQzoQgi.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
 		main_url = "https://usersurvey.biligame.com/vm/Ps01cq1.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
@@ -50,8 +66,8 @@ pg.survey_data_template = {
 				5
 			}
 		}
-	},
-	[1009] = {
+	}
+	pg.base.survey_data_template[1009] = {
 		ios_url = "https://usersurvey.wjx.cn/vm/e7O30Lm.aspxq1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
 		uo_url = "https://usersurvey.wjx.cn/vm/YfeZWPA.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
 		main_url = "https://usersurvey.wjx.cn/vm/tg5pwdS.aspxq1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
@@ -67,8 +83,8 @@ pg.survey_data_template = {
 				30
 			}
 		}
-	},
-	[1010] = {
+	}
+	pg.base.survey_data_template[1010] = {
 		ios_url = "https://usersurvey.wjx.cn/vm/Pz4fXxz.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
 		uo_url = "https://usersurvey.wjx.cn/vm/PpslfXd.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&## ",
 		main_url = "https://usersurvey.wjx.cn/vm/rjAKHK5.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
@@ -84,8 +100,8 @@ pg.survey_data_template = {
 				5
 			}
 		}
-	},
-	[1005] = {
+	}
+	pg.base.survey_data_template[1005] = {
 		ios_url = "https://usersurvey.wjx.cn/vm/w1ynMPE.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
 		uo_url = "https://usersurvey.wjx.cn/vm/w1ynMPE.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
 		main_url = "https://usersurvey.wjx.cn/vm/w1ynMPE.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
@@ -101,8 +117,8 @@ pg.survey_data_template = {
 				5
 			}
 		}
-	},
-	[1007] = {
+	}
+	pg.base.survey_data_template[1007] = {
 		ios_url = "https://haoplay.wjx.cn/vm/hTDN0qo.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
 		uo_url = "https://haoplay.wjx.cn/vm/hTDN0qo.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
 		main_url = "https://haoplay.wjx.cn/vm/hTDN0qo.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
@@ -128,8 +144,8 @@ pg.survey_data_template = {
 				2
 			}
 		}
-	},
-	[1012] = {
+	}
+	pg.base.survey_data_template[1012] = {
 		ios_url = "https://haoplay.wjx.cn/vm/rAmTAGJ.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
 		uo_url = "https://haoplay.wjx.cn/vm/rAmTAGJ.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
 		main_url = "https://haoplay.wjx.cn/vm/rAmTAGJ.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
@@ -145,15 +161,5 @@ pg.survey_data_template = {
 				5
 			}
 		}
-	},
-	all = {
-		1001,
-		1002,
-		1004,
-		1009,
-		1010,
-		1005,
-		1007,
-		1012
 	}
-}
+end)()

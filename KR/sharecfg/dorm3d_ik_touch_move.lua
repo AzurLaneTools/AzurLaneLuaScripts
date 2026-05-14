@@ -1,6 +1,20 @@
 pg = pg or {}
-pg.dorm3d_ik_touch_move = {
-	[1003101] = {
+pg.dorm3d_ik_touch_move = rawget(pg, "dorm3d_ik_touch_move") or setmetatable({
+	__name = "dorm3d_ik_touch_move"
+}, confNEO)
+pg.dorm3d_ik_touch_move.all = {
+	1003101,
+	1990311,
+	1990312,
+	1990313,
+	1990314,
+	1990315
+}
+pg.base = pg.base or {}
+pg.base.dorm3d_ik_touch_move = {}
+
+(function ()
+	pg.base.dorm3d_ik_touch_move[1003101] = {
 		target_ik = 10013001,
 		trigger_dialogue = 0,
 		back_time = 0.5,
@@ -17,8 +31,8 @@ pg.dorm3d_ik_touch_move = {
 			1,
 			1
 		}
-	},
-	[1990311] = {
+	}
+	pg.base.dorm3d_ik_touch_move[1990311] = {
 		target_ik = 30031200,
 		trigger_dialogue = 0,
 		back_time = 0.1,
@@ -36,8 +50,8 @@ pg.dorm3d_ik_touch_move = {
 			0,
 			0
 		}
-	},
-	[1990312] = {
+	}
+	pg.base.dorm3d_ik_touch_move[1990312] = {
 		target_ik = 31031200,
 		trigger_dialogue = 0,
 		back_time = 0.1,
@@ -55,8 +69,8 @@ pg.dorm3d_ik_touch_move = {
 			0,
 			0
 		}
-	},
-	[1990313] = {
+	}
+	pg.base.dorm3d_ik_touch_move[1990313] = {
 		target_ik = 30031000,
 		trigger_dialogue = 0,
 		back_time = 0.15,
@@ -72,8 +86,8 @@ pg.dorm3d_ik_touch_move = {
 			0,
 			0
 		}
-	},
-	[1990314] = {
+	}
+	pg.base.dorm3d_ik_touch_move[1990314] = {
 		target_ik = 30031000,
 		trigger_dialogue = 0,
 		back_time = 0.15,
@@ -89,8 +103,8 @@ pg.dorm3d_ik_touch_move = {
 			0,
 			0
 		}
-	},
-	[1990315] = {
+	}
+	pg.base.dorm3d_ik_touch_move[1990315] = {
 		target_ik = 30051201,
 		trigger_dialogue = 0,
 		back_time = 0.15,
@@ -106,13 +120,5 @@ pg.dorm3d_ik_touch_move = {
 			1,
 			0
 		}
-	},
-	all = {
-		1003101,
-		1990311,
-		1990312,
-		1990313,
-		1990314,
-		1990315
 	}
-}
+end)()

@@ -1,6 +1,134 @@
 pg = pg or {}
-pg.activity_ninja_enemy = {
-	{
+pg.activity_ninja_enemy = rawget(pg, "activity_ninja_enemy") or setmetatable({
+	__name = "activity_ninja_enemy"
+}, confNEO)
+pg.activity_ninja_enemy.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	39,
+	40,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	47,
+	48,
+	49,
+	50,
+	51,
+	52,
+	53,
+	54,
+	55,
+	56,
+	57,
+	58,
+	59,
+	60,
+	61,
+	62,
+	63,
+	64,
+	65,
+	66,
+	67,
+	68,
+	69,
+	70,
+	71,
+	72,
+	73,
+	74,
+	75,
+	76,
+	77,
+	78,
+	79,
+	80,
+	81,
+	82,
+	83,
+	84,
+	85,
+	86,
+	87,
+	88,
+	89,
+	90,
+	91,
+	92,
+	93,
+	94,
+	95,
+	96,
+	97,
+	98,
+	99,
+	100,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	110,
+	111,
+	112,
+	113,
+	114,
+	115,
+	116,
+	117,
+	118,
+	119,
+	120
+}
+pg.base = pg.base or {}
+pg.base.activity_ninja_enemy = {}
+
+(function ()
+	pg.base.activity_ninja_enemy[1] = {
 		drop = 545,
 		name = "헬 데몬 슬라임 만쥬",
 		model = "jiulaimu_emo",
@@ -25,8 +153,8 @@ pg.activity_ninja_enemy = {
 				200
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[2] = {
 		drop = 545,
 		name = "유령 만쥬 슬라임",
 		model = "jiulaimu_qingxun",
@@ -51,8 +179,8 @@ pg.activity_ninja_enemy = {
 				400
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[3] = {
 		drop = 545,
 		name = "미믹 만쥬 슬라임",
 		model = "jiulaimu_quzhu",
@@ -77,8 +205,8 @@ pg.activity_ninja_enemy = {
 				600
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[4] = {
 		drop = 545,
 		name = "다크 만쥬 슬라임 기사",
 		model = "jiulaimu_zhanlie",
@@ -103,8 +231,8 @@ pg.activity_ninja_enemy = {
 				800
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[5] = {
 		drop = 545,
 		name = "고요한 수호자 - 크라켄 텐터클",
 		model = "fengfan_haigu_boss01",
@@ -134,8 +262,8 @@ pg.activity_ninja_enemy = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[6] = {
 		drop = 545,
 		name = "광전사 만쥬 슬라임 나이트",
 		model = "jiulaimu_zhongxun",
@@ -160,8 +288,8 @@ pg.activity_ninja_enemy = {
 				1200
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[7] = {
 		drop = 545,
 		name = "가고일 슬라임 만쥬",
 		model = "jiulaimu_shixianggui",
@@ -186,8 +314,8 @@ pg.activity_ninja_enemy = {
 				1400
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[8] = {
 		drop = 545,
 		name = "미믹 만쥬 슬라임",
 		model = "jiulaimu_quzhu",
@@ -212,8 +340,8 @@ pg.activity_ninja_enemy = {
 				1600
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[9] = {
 		drop = 545,
 		name = "유령 만쥬 슬라임",
 		model = "jiulaimu_qingxun",
@@ -238,8 +366,8 @@ pg.activity_ninja_enemy = {
 				1800
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[10] = {
 		drop = 545,
 		name = "심판자 오니 - 알자스",
 		model = "aersasi_3",
@@ -269,8 +397,8 @@ pg.activity_ninja_enemy = {
 				4000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[11] = {
 		drop = 545,
 		name = "유령 만쥬 슬라임",
 		model = "jiulaimu_qingxun",
@@ -295,8 +423,8 @@ pg.activity_ninja_enemy = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[12] = {
 		drop = 545,
 		name = "폭탄 만쥬 슬라임",
 		model = "jiulaimu_zibao",
@@ -321,8 +449,8 @@ pg.activity_ninja_enemy = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[13] = {
 		drop = 545,
 		name = "고요한 영혼 - 잠자는 상어",
 		model = "fengfan_lingti_zhongxun",
@@ -347,8 +475,8 @@ pg.activity_ninja_enemy = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[14] = {
 		drop = 545,
 		name = "헬 데몬 슬라임 만쥬",
 		model = "jiulaimu_emo",
@@ -373,8 +501,8 @@ pg.activity_ninja_enemy = {
 				2000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[15] = {
 		drop = 545,
 		name = "닌자 5인방 - 소비에츠키 소유즈",
 		model = "suweiaitongmeng_3",
@@ -404,8 +532,8 @@ pg.activity_ninja_enemy = {
 				6000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[16] = {
 		drop = 545,
 		name = "브라이트 머드 슬라임 만쥬",
 		model = "jiulaimu_ruanniguai",
@@ -430,8 +558,8 @@ pg.activity_ninja_enemy = {
 				3000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[17] = {
 		drop = 545,
 		name = "미믹 만쥬 슬라임",
 		model = "jiulaimu_quzhu",
@@ -456,8 +584,8 @@ pg.activity_ninja_enemy = {
 				3000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[18] = {
 		drop = 545,
 		name = "고요한 수호자 - 잠자는 상어",
 		model = "fengfan_haigu_zhongxun",
@@ -482,8 +610,8 @@ pg.activity_ninja_enemy = {
 				3000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[19] = {
 		drop = 545,
 		name = "헬 데몬 슬라임 만쥬",
 		model = "jiulaimu_emo",
@@ -508,8 +636,8 @@ pg.activity_ninja_enemy = {
 				3000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[20] = {
 		drop = 545,
 		name = "닌자 5인방 - 하쿠호",
 		model = "baifeng_2",
@@ -539,8 +667,8 @@ pg.activity_ninja_enemy = {
 				8000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[21] = {
 		drop = 545,
 		name = "다크 만쥬 슬라임 기사",
 		model = "jiulaimu_zhanlie",
@@ -560,8 +688,8 @@ pg.activity_ninja_enemy = {
 				4000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[22] = {
 		drop = 545,
 		name = "유령 만쥬 슬라임",
 		model = "jiulaimu_qingxun",
@@ -581,8 +709,8 @@ pg.activity_ninja_enemy = {
 				4000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[23] = {
 		drop = 545,
 		name = "가고일 슬라임 만쥬",
 		model = "jiulaimu_shixianggui",
@@ -602,8 +730,8 @@ pg.activity_ninja_enemy = {
 				4000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[24] = {
 		drop = 545,
 		name = "마법 만쥬 슬라임 포탄",
 		model = "jiulaimu_hangmu",
@@ -623,8 +751,8 @@ pg.activity_ninja_enemy = {
 				4000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[25] = {
 		drop = 545,
 		name = "닌자 5인방 - 괌",
 		model = "guandao_3",
@@ -644,8 +772,8 @@ pg.activity_ninja_enemy = {
 				10000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[26] = {
 		drop = 545,
 		name = "폭탄 만쥬 슬라임",
 		model = "jiulaimu_zibao",
@@ -665,8 +793,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[27] = {
 		drop = 545,
 		name = "유령 만쥬 슬라임",
 		model = "jiulaimu_qingxun",
@@ -686,8 +814,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[28] = {
 		drop = 545,
 		name = "고요한 영혼 - 초롱아귀",
 		model = "fengfan_lingti_quzhu",
@@ -707,8 +835,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[29] = {
 		drop = 545,
 		name = "고요한 수호자 - 초롱아귀",
 		model = "fengfan_haigu_quzhu",
@@ -728,8 +856,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[30] = {
 		drop = 545,
 		name = "닌자 5인방 - 운젠",
 		model = "yunxian_3",
@@ -749,8 +877,8 @@ pg.activity_ninja_enemy = {
 				10000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[31] = {
 		drop = 545,
 		name = "가고일 슬라임 만쥬",
 		model = "jiulaimu_shixianggui",
@@ -770,8 +898,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[32] = {
 		drop = 545,
 		name = "마법 만쥬 슬라임 포탄",
 		model = "jiulaimu_hangmu",
@@ -791,8 +919,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[33] = {
 		drop = 545,
 		name = "다크 만쥬 슬라임 기사",
 		model = "jiulaimu_zhanlie",
@@ -812,8 +940,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[34] = {
 		drop = 545,
 		name = "폭탄 만쥬 슬라임",
 		model = "jiulaimu_zibao",
@@ -833,8 +961,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[35] = {
 		drop = 545,
 		name = "닌자 5인방 - 이404",
 		model = "i404_2",
@@ -854,8 +982,8 @@ pg.activity_ninja_enemy = {
 				10000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[36] = {
 		drop = 545,
 		name = "가고일 슬라임 만쥬",
 		model = "jiulaimu_shixianggui",
@@ -875,8 +1003,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[37] = {
 		drop = 545,
 		name = "마법 만쥬 슬라임 포탄",
 		model = "jiulaimu_hangmu",
@@ -896,8 +1024,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[38] = {
 		drop = 545,
 		name = "고요한 수호자 - 잠자는 상어",
 		model = "fengfan_haigu_zhongxun",
@@ -917,8 +1045,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[39] = {
 		drop = 545,
 		name = "마법 만쥬 슬라임 포탄",
 		model = "jiulaimu_hangmu",
@@ -938,8 +1066,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[40] = {
 		drop = 545,
 		name = "닌자 5인방 - 괌",
 		model = "guandao_3",
@@ -959,8 +1087,8 @@ pg.activity_ninja_enemy = {
 				10000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[41] = {
 		drop = 545,
 		name = "고요한 영혼 - 잠자는 상어",
 		model = "fengfan_lingti_zhongxun",
@@ -980,8 +1108,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[42] = {
 		drop = 545,
 		name = "브라이트 머드 슬라임 만쥬",
 		model = "jiulaimu_ruanniguai",
@@ -1001,8 +1129,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[43] = {
 		drop = 545,
 		name = "다크 만쥬 슬라임 기사",
 		model = "jiulaimu_zhanlie",
@@ -1022,8 +1150,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[44] = {
 		drop = 545,
 		name = "헬 데몬 슬라임 만쥬",
 		model = "jiulaimu_emo",
@@ -1043,8 +1171,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[45] = {
 		drop = 545,
 		name = "화려한 차림의 오니 - 아사마",
 		model = "qianjian_2",
@@ -1064,8 +1192,8 @@ pg.activity_ninja_enemy = {
 				10000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[46] = {
 		drop = 545,
 		name = "광전사 만쥬 슬라임 나이트",
 		model = "jiulaimu_zhongxun",
@@ -1085,8 +1213,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[47] = {
 		drop = 545,
 		name = "가고일 슬라임 만쥬",
 		model = "jiulaimu_shixianggui",
@@ -1106,8 +1234,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[48] = {
 		drop = 545,
 		name = "가고일 슬라임 만쥬",
 		model = "jiulaimu_shixianggui",
@@ -1127,8 +1255,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[49] = {
 		drop = 545,
 		name = "유령 만쥬 슬라임",
 		model = "jiulaimu_qingxun",
@@ -1148,8 +1276,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[50] = {
 		drop = 545,
 		name = "물가의 오니 - 오미",
 		model = "jinjiang_2",
@@ -1169,8 +1297,8 @@ pg.activity_ninja_enemy = {
 				10000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[51] = {
 		drop = 545,
 		name = "가고일 슬라임 만쥬",
 		model = "jiulaimu_shixianggui",
@@ -1190,8 +1318,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[52] = {
 		drop = 545,
 		name = "고요한 수호자 - 잠자는 상어",
 		model = "fengfan_haigu_zhongxun",
@@ -1211,8 +1339,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[53] = {
 		drop = 545,
 		name = "다크 만쥬 슬라임 기사",
 		model = "jiulaimu_zhanlie",
@@ -1232,8 +1360,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[54] = {
 		drop = 545,
 		name = "가고일 슬라임 만쥬",
 		model = "jiulaimu_shixianggui",
@@ -1253,8 +1381,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[55] = {
 		drop = 545,
 		name = "화려한 차림의 오니 - 아사마",
 		model = "qianjian_2",
@@ -1274,8 +1402,8 @@ pg.activity_ninja_enemy = {
 				10000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[56] = {
 		drop = 545,
 		name = "헬 데몬 슬라임 만쥬",
 		model = "jiulaimu_emo",
@@ -1295,8 +1423,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[57] = {
 		drop = 545,
 		name = "유령 만쥬 슬라임",
 		model = "jiulaimu_qingxun",
@@ -1316,8 +1444,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[58] = {
 		drop = 545,
 		name = "고요한 영혼 - 잠자는 상어",
 		model = "fengfan_lingti_zhongxun",
@@ -1337,8 +1465,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[59] = {
 		drop = 545,
 		name = "마법 만쥬 슬라임 포탄",
 		model = "jiulaimu_hangmu",
@@ -1358,8 +1486,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[60] = {
 		drop = 545,
 		name = "닌자 5인방 - 이404",
 		model = "i404_2",
@@ -1379,8 +1507,8 @@ pg.activity_ninja_enemy = {
 				10000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[61] = {
 		drop = 545,
 		name = "브라이트 머드 슬라임 만쥬",
 		model = "jiulaimu_ruanniguai",
@@ -1400,8 +1528,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[62] = {
 		drop = 545,
 		name = "미믹 만쥬 슬라임",
 		model = "jiulaimu_quzhu",
@@ -1421,8 +1549,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[63] = {
 		drop = 545,
 		name = "가고일 슬라임 만쥬",
 		model = "jiulaimu_shixianggui",
@@ -1442,8 +1570,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[64] = {
 		drop = 545,
 		name = "유령 만쥬 슬라임",
 		model = "jiulaimu_qingxun",
@@ -1463,8 +1591,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[65] = {
 		drop = 545,
 		name = "어린 여우 - 미나세",
 		model = "shuiwulai_2",
@@ -1484,8 +1612,8 @@ pg.activity_ninja_enemy = {
 				10000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[66] = {
 		drop = 545,
 		name = "고요한 영혼 - 초롱아귀",
 		model = "fengfan_lingti_quzhu",
@@ -1505,8 +1633,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[67] = {
 		drop = 545,
 		name = "광전사 만쥬 슬라임 나이트",
 		model = "jiulaimu_zhongxun",
@@ -1526,8 +1654,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[68] = {
 		drop = 545,
 		name = "미믹 만쥬 슬라임",
 		model = "jiulaimu_quzhu",
@@ -1547,8 +1675,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[69] = {
 		drop = 545,
 		name = "마법 만쥬 슬라임 포탄",
 		model = "jiulaimu_hangmu",
@@ -1568,8 +1696,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[70] = {
 		drop = 545,
 		name = "닌자 5인방 - 소비에츠키 소유즈",
 		model = "suweiaitongmeng_3",
@@ -1589,8 +1717,8 @@ pg.activity_ninja_enemy = {
 				10000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[71] = {
 		drop = 545,
 		name = "광전사 만쥬 슬라임 나이트",
 		model = "jiulaimu_zhongxun",
@@ -1610,8 +1738,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[72] = {
 		drop = 545,
 		name = "다크 만쥬 슬라임 기사",
 		model = "jiulaimu_zhanlie",
@@ -1631,8 +1759,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[73] = {
 		drop = 545,
 		name = "킹 만쥬 슬라임",
 		model = "jiulaimu_guowang",
@@ -1652,8 +1780,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[74] = {
 		drop = 545,
 		name = "고요한 수호자 - 초롱아귀",
 		model = "fengfan_haigu_quzhu",
@@ -1673,8 +1801,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[75] = {
 		drop = 545,
 		name = "닌자 5인방 - 모리슨",
 		model = "molisen_3",
@@ -1694,8 +1822,8 @@ pg.activity_ninja_enemy = {
 				10000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[76] = {
 		drop = 545,
 		name = "마법 만쥬 슬라임 포탄",
 		model = "jiulaimu_hangmu",
@@ -1715,8 +1843,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[77] = {
 		drop = 545,
 		name = "헬 데몬 슬라임 만쥬",
 		model = "jiulaimu_emo",
@@ -1736,8 +1864,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[78] = {
 		drop = 545,
 		name = "고요한 영혼 - 초롱아귀",
 		model = "fengfan_lingti_quzhu",
@@ -1757,8 +1885,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[79] = {
 		drop = 545,
 		name = "고요한 영혼 - 잠자는 상어",
 		model = "fengfan_lingti_zhongxun",
@@ -1778,8 +1906,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[80] = {
 		drop = 545,
 		name = "심판자 오니 - 알자스",
 		model = "aersasi_3",
@@ -1799,8 +1927,8 @@ pg.activity_ninja_enemy = {
 				10000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[81] = {
 		drop = 545,
 		name = "광전사 만쥬 슬라임 나이트",
 		model = "jiulaimu_zhongxun",
@@ -1820,8 +1948,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[82] = {
 		drop = 545,
 		name = "가고일 슬라임 만쥬",
 		model = "jiulaimu_shixianggui",
@@ -1841,8 +1969,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[83] = {
 		drop = 545,
 		name = "미믹 만쥬 슬라임",
 		model = "jiulaimu_quzhu",
@@ -1862,8 +1990,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[84] = {
 		drop = 545,
 		name = "폭탄 만쥬 슬라임",
 		model = "jiulaimu_zibao",
@@ -1883,8 +2011,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[85] = {
 		drop = 545,
 		name = "어린 여우 - 미나세",
 		model = "shuiwulai_2",
@@ -1904,8 +2032,8 @@ pg.activity_ninja_enemy = {
 				10000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[86] = {
 		drop = 545,
 		name = "브라이트 머드 슬라임 만쥬",
 		model = "jiulaimu_ruanniguai",
@@ -1925,8 +2053,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[87] = {
 		drop = 545,
 		name = "고요한 수호자 - 잠자는 상어",
 		model = "fengfan_haigu_zhongxun",
@@ -1946,8 +2074,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[88] = {
 		drop = 545,
 		name = "킹 만쥬 슬라임",
 		model = "jiulaimu_guowang",
@@ -1967,8 +2095,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[89] = {
 		drop = 545,
 		name = "폭탄 만쥬 슬라임",
 		model = "jiulaimu_zibao",
@@ -1988,8 +2116,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[90] = {
 		drop = 545,
 		name = "고요한 거대 괴수 - 크라켄",
 		model = "fengfan_lingti_boss01",
@@ -2009,8 +2137,8 @@ pg.activity_ninja_enemy = {
 				10000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[91] = {
 		drop = 545,
 		name = "광전사 만쥬 슬라임 나이트",
 		model = "jiulaimu_zhongxun",
@@ -2030,8 +2158,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[92] = {
 		drop = 545,
 		name = "고요한 수호자 - 초롱아귀",
 		model = "fengfan_haigu_quzhu",
@@ -2051,8 +2179,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[93] = {
 		drop = 545,
 		name = "헬 데몬 슬라임 만쥬",
 		model = "jiulaimu_emo",
@@ -2072,8 +2200,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[94] = {
 		drop = 545,
 		name = "고요한 영혼 - 잠자는 상어",
 		model = "fengfan_lingti_zhongxun",
@@ -2093,8 +2221,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[95] = {
 		drop = 545,
 		name = "닌자 5인방 - 모리슨",
 		model = "molisen_3",
@@ -2114,8 +2242,8 @@ pg.activity_ninja_enemy = {
 				10000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[96] = {
 		drop = 545,
 		name = "고요한 수호자 - 잠자는 상어",
 		model = "fengfan_haigu_zhongxun",
@@ -2135,8 +2263,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[97] = {
 		drop = 545,
 		name = "마법 만쥬 슬라임 포탄",
 		model = "jiulaimu_hangmu",
@@ -2156,8 +2284,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[98] = {
 		drop = 545,
 		name = "고요한 수호자 - 초롱아귀",
 		model = "fengfan_haigu_quzhu",
@@ -2177,8 +2305,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[99] = {
 		drop = 545,
 		name = "광전사 만쥬 슬라임 나이트",
 		model = "jiulaimu_zhongxun",
@@ -2198,8 +2326,8 @@ pg.activity_ninja_enemy = {
 				5000
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[100] = {
 		drop = 545,
 		name = "고요한 수호자 - 크라켄 텐터클",
 		model = "fengfan_haigu_boss01",
@@ -2219,8 +2347,10 @@ pg.activity_ninja_enemy = {
 				10000
 			}
 		}
-	},
-	{
+	}
+end)()
+(function ()
+	pg.base.activity_ninja_enemy[101] = {
 		drop = 545,
 		name = "광전사 만쥬 슬라임 나이트",
 		model = "jiulaimu_zhongxun",
@@ -2229,8 +2359,8 @@ pg.activity_ninja_enemy = {
 		scale = "1.4",
 		basic = 1500,
 		first_drop_show = {}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[102] = {
 		drop = 545,
 		name = "폭탄 만쥬 슬라임",
 		model = "jiulaimu_zibao",
@@ -2239,8 +2369,8 @@ pg.activity_ninja_enemy = {
 		scale = "1.4",
 		basic = 2000,
 		first_drop_show = {}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[103] = {
 		drop = 545,
 		name = "광전사 만쥬 슬라임 나이트",
 		model = "jiulaimu_zhongxun",
@@ -2249,8 +2379,8 @@ pg.activity_ninja_enemy = {
 		scale = "1.4",
 		basic = 2500,
 		first_drop_show = {}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[104] = {
 		drop = 545,
 		name = "다크 만쥬 슬라임 기사",
 		model = "jiulaimu_zhanlie",
@@ -2259,8 +2389,8 @@ pg.activity_ninja_enemy = {
 		scale = "1.4",
 		basic = 3000,
 		first_drop_show = {}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[105] = {
 		drop = 545,
 		name = "닌자 5인방 - 하쿠호",
 		model = "baifeng_2",
@@ -2269,8 +2399,8 @@ pg.activity_ninja_enemy = {
 		scale = "1.4",
 		basic = 3500,
 		first_drop_show = {}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[106] = {
 		drop = 545,
 		name = "고요한 영혼 - 잠자는 상어",
 		model = "fengfan_lingti_zhongxun",
@@ -2279,8 +2409,8 @@ pg.activity_ninja_enemy = {
 		scale = "1.4",
 		basic = 4000,
 		first_drop_show = {}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[107] = {
 		drop = 545,
 		name = "가고일 슬라임 만쥬",
 		model = "jiulaimu_shixianggui",
@@ -2289,8 +2419,8 @@ pg.activity_ninja_enemy = {
 		scale = "1.4",
 		basic = 4500,
 		first_drop_show = {}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[108] = {
 		drop = 545,
 		name = "광전사 만쥬 슬라임 나이트",
 		model = "jiulaimu_zhongxun",
@@ -2299,8 +2429,8 @@ pg.activity_ninja_enemy = {
 		scale = "1.4",
 		basic = 5000,
 		first_drop_show = {}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[109] = {
 		drop = 545,
 		name = "킹 만쥬 슬라임",
 		model = "jiulaimu_guowang",
@@ -2309,8 +2439,8 @@ pg.activity_ninja_enemy = {
 		scale = "1.4",
 		basic = 5500,
 		first_drop_show = {}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[110] = {
 		drop = 545,
 		name = "고요한 거대 괴수 - 크라켄",
 		model = "fengfan_lingti_boss01",
@@ -2319,8 +2449,8 @@ pg.activity_ninja_enemy = {
 		scale = "1.4",
 		basic = 6000,
 		first_drop_show = {}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[111] = {
 		drop = 545,
 		name = "고요한 수호자 - 초롱아귀",
 		model = "fengfan_haigu_quzhu",
@@ -2329,8 +2459,8 @@ pg.activity_ninja_enemy = {
 		scale = "1.4",
 		basic = 7000,
 		first_drop_show = {}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[112] = {
 		drop = 545,
 		name = "유령 만쥬 슬라임",
 		model = "jiulaimu_qingxun",
@@ -2339,8 +2469,8 @@ pg.activity_ninja_enemy = {
 		scale = "1.4",
 		basic = 8000,
 		first_drop_show = {}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[113] = {
 		drop = 545,
 		name = "고요한 영혼 - 잠자는 상어",
 		model = "fengfan_lingti_zhongxun",
@@ -2349,8 +2479,8 @@ pg.activity_ninja_enemy = {
 		scale = "1.4",
 		basic = 9000,
 		first_drop_show = {}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[114] = {
 		drop = 545,
 		name = "고요한 영혼 - 잠자는 상어",
 		model = "fengfan_lingti_zhongxun",
@@ -2359,8 +2489,8 @@ pg.activity_ninja_enemy = {
 		scale = "1.4",
 		basic = 10000,
 		first_drop_show = {}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[115] = {
 		drop = 545,
 		name = "작은 닌자 - 타에카제",
 		model = "miaofeng_2",
@@ -2369,8 +2499,8 @@ pg.activity_ninja_enemy = {
 		scale = "1.4",
 		basic = 11000,
 		first_drop_show = {}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[116] = {
 		drop = 545,
 		name = "폭탄 만쥬 슬라임",
 		model = "jiulaimu_zibao",
@@ -2379,8 +2509,8 @@ pg.activity_ninja_enemy = {
 		scale = "1.4",
 		basic = 14000,
 		first_drop_show = {}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[117] = {
 		drop = 545,
 		name = "유령 만쥬 슬라임",
 		model = "jiulaimu_qingxun",
@@ -2389,8 +2519,8 @@ pg.activity_ninja_enemy = {
 		scale = "1.4",
 		basic = 17000,
 		first_drop_show = {}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[118] = {
 		drop = 545,
 		name = "광전사 만쥬 슬라임 나이트",
 		model = "jiulaimu_zhongxun",
@@ -2399,8 +2529,8 @@ pg.activity_ninja_enemy = {
 		scale = "1.4",
 		basic = 20000,
 		first_drop_show = {}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[119] = {
 		drop = 545,
 		name = "고요한 수호자 - 잠자는 상어",
 		model = "fengfan_haigu_zhongxun",
@@ -2409,8 +2539,8 @@ pg.activity_ninja_enemy = {
 		scale = "1.4",
 		basic = 23000,
 		first_drop_show = {}
-	},
-	{
+	}
+	pg.base.activity_ninja_enemy[120] = {
 		drop = 545,
 		name = "작은 닌자 - 타에카제",
 		model = "miaofeng_2",
@@ -2419,127 +2549,5 @@ pg.activity_ninja_enemy = {
 		scale = "1.4",
 		basic = 26000,
 		first_drop_show = {}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		39,
-		40,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46,
-		47,
-		48,
-		49,
-		50,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56,
-		57,
-		58,
-		59,
-		60,
-		61,
-		62,
-		63,
-		64,
-		65,
-		66,
-		67,
-		68,
-		69,
-		70,
-		71,
-		72,
-		73,
-		74,
-		75,
-		76,
-		77,
-		78,
-		79,
-		80,
-		81,
-		82,
-		83,
-		84,
-		85,
-		86,
-		87,
-		88,
-		89,
-		90,
-		91,
-		92,
-		93,
-		94,
-		95,
-		96,
-		97,
-		98,
-		99,
-		100,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		110,
-		111,
-		112,
-		113,
-		114,
-		115,
-		116,
-		117,
-		118,
-		119,
-		120
 	}
-}
+end)()

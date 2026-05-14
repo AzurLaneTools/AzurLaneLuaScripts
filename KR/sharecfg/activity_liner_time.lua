@@ -1,6 +1,69 @@
 pg = pg or {}
-pg.activity_liner_time = {
-	{
+pg.activity_liner_time = rawget(pg, "activity_liner_time") or setmetatable({
+	__name = "activity_liner_time"
+}, confNEO)
+pg.activity_liner_time.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	39,
+	40,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	47,
+	48,
+	49,
+	50,
+	51,
+	52,
+	53,
+	54,
+	55
+}
+pg.base = pg.base or {}
+pg.base.activity_liner_time = {}
+
+(function ()
+	pg.base.activity_liner_time[1] = {
 		desc_before = "크루즈선에 오르자",
 		type = 4,
 		id = 1,
@@ -14,8 +77,8 @@ pg.activity_liner_time = {
 			4,
 			"JIARIXINTIAODAYOULUN2"
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[2] = {
 		desc_before = "출항 연회에 참석하자",
 		type = 1,
 		id = 2,
@@ -29,8 +92,8 @@ pg.activity_liner_time = {
 			10,
 			"JIARIXINTIAODAYOULUN17"
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[3] = {
 		desc_before = "체육관으로 가서 운동한다",
 		type = 1,
 		id = 3,
@@ -44,8 +107,8 @@ pg.activity_liner_time = {
 			8,
 			"JIARIXINTIAODAYOULUN25"
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[4] = {
 		desc_before = "수족관에 가보자",
 		type = 1,
 		id = 4,
@@ -59,8 +122,8 @@ pg.activity_liner_time = {
 			22,
 			"JIARIXINTIAODAYOULUN26"
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[5] = {
 		desc_before = "테라스 바에서 한 잔 하자",
 		type = 1,
 		id = 5,
@@ -74,8 +137,8 @@ pg.activity_liner_time = {
 			12,
 			"JIARIXINTIAODAYOULUN38"
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[6] = {
 		param = "4",
 		desc_before = "자유 시간",
 		type = 2,
@@ -86,8 +149,8 @@ pg.activity_liner_time = {
 			20,
 			1
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[7] = {
 		desc_before = "수수께끼의 방에 가보자",
 		type = 3,
 		id = 7,
@@ -105,8 +168,8 @@ pg.activity_liner_time = {
 				{}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[8] = {
 		desc_before = "휴식 시간",
 		type = 4,
 		id = 8,
@@ -120,8 +183,8 @@ pg.activity_liner_time = {
 			4,
 			"JIARIXINTIAODAYOULUN3"
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[9] = {
 		desc_before = "갑판 수영장에 가보자",
 		type = 1,
 		id = 9,
@@ -135,8 +198,8 @@ pg.activity_liner_time = {
 			2,
 			"JIARIXINTIAODAYOULUN39"
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[10] = {
 		desc_before = "객실 구역을 산책하자",
 		type = 1,
 		id = 10,
@@ -150,8 +213,8 @@ pg.activity_liner_time = {
 			17,
 			"JIARIXINTIAODAYOULUN28"
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[11] = {
 		desc_before = "레저 토너먼트에 참가하자",
 		type = 1,
 		id = 11,
@@ -165,8 +228,8 @@ pg.activity_liner_time = {
 			14,
 			"JIARIXINTIAODAYOULUN18"
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[12] = {
 		desc_before = "교실 상태가 신경 쓰인다",
 		type = 1,
 		id = 12,
@@ -180,8 +243,8 @@ pg.activity_liner_time = {
 			16,
 			"JIARIXINTIAODAYOULUN27"
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[13] = {
 		param = "4",
 		desc_before = "자유 시간",
 		type = 2,
@@ -192,8 +255,8 @@ pg.activity_liner_time = {
 			20,
 			1
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[14] = {
 		desc_before = "신비 사건 조사",
 		type = 3,
 		id = 14,
@@ -229,8 +292,8 @@ pg.activity_liner_time = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[15] = {
 		desc_before = "휴식 시간",
 		type = 4,
 		id = 15,
@@ -244,8 +307,8 @@ pg.activity_liner_time = {
 			4,
 			"JIARIXINTIAODAYOULUN4"
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[16] = {
 		desc_before = "갑판 정원에서 기분 전환",
 		type = 1,
 		id = 16,
@@ -259,8 +322,8 @@ pg.activity_liner_time = {
 			6,
 			"JIARIXINTIAODAYOULUN29"
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[17] = {
 		type = 1,
 		id = 17,
 		bg_name = "day",
@@ -298,8 +361,8 @@ pg.activity_liner_time = {
 			{},
 			{}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[18] = {
 		desc_before = "대욕장에서 모가도르의 냄새가…?",
 		type = 1,
 		id = 18,
@@ -313,8 +376,8 @@ pg.activity_liner_time = {
 			21,
 			"JIARIXINTIAODAYOULUN40"
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[19] = {
 		param = "4",
 		desc_before = "자유 시간",
 		type = 2,
@@ -325,8 +388,8 @@ pg.activity_liner_time = {
 			20,
 			1
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[20] = {
 		desc_before = "신비 사건 조사",
 		type = 3,
 		id = 20,
@@ -368,8 +431,8 @@ pg.activity_liner_time = {
 				{}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[21] = {
 		desc_before = "휴식 시간",
 		type = 4,
 		id = 21,
@@ -383,8 +446,8 @@ pg.activity_liner_time = {
 			4,
 			"JIARIXINTIAODAYOULUN5"
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[22] = {
 		desc_before = "보안 훈련에 참가하자",
 		type = 1,
 		id = 22,
@@ -398,8 +461,8 @@ pg.activity_liner_time = {
 			27,
 			"JIARIXINTIAODAYOULUN20"
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[23] = {
 		desc_before = "하역 통로에서 소란이…?",
 		type = 1,
 		id = 23,
@@ -413,8 +476,8 @@ pg.activity_liner_time = {
 			13,
 			"JIARIXINTIAODAYOULUN30"
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[24] = {
 		desc_before = "갑판 수영장에서 세인트루이스와",
 		type = 1,
 		id = 24,
@@ -428,8 +491,8 @@ pg.activity_liner_time = {
 			2,
 			"JIARIXINTIAODAYOULUN41"
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[25] = {
 		desc_before = "중앙 주방을 견학하자",
 		type = 1,
 		id = 25,
@@ -443,8 +506,8 @@ pg.activity_liner_time = {
 			25,
 			"JIARIXINTIAODAYOULUN31"
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[26] = {
 		param = "4",
 		desc_before = "자유 시간",
 		type = 2,
@@ -455,8 +518,8 @@ pg.activity_liner_time = {
 			20,
 			1
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[27] = {
 		desc_before = "휴식 시간",
 		type = 3,
 		id = 27,
@@ -492,8 +555,8 @@ pg.activity_liner_time = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[28] = {
 		type = 4,
 		id = 28,
 		bg_name = "night",
@@ -551,8 +614,8 @@ pg.activity_liner_time = {
 				"해적선에 「납치」 당했다"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[29] = {
 		desc_before = "휴식 시간",
 		type = 4,
 		id = 29,
@@ -566,8 +629,8 @@ pg.activity_liner_time = {
 			4,
 			"JIARIXINTIAODAYOULUN7"
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[30] = {
 		desc_before = "햇볕 쬐기 좋은 날이다",
 		type = 1,
 		id = 30,
@@ -581,8 +644,8 @@ pg.activity_liner_time = {
 			2,
 			"JIARIXINTIAODAYOULUN43"
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[31] = {
 		desc_before = "템페스타 거점에서 관광",
 		type = 1,
 		id = 31,
@@ -596,8 +659,8 @@ pg.activity_liner_time = {
 			13,
 			"JIARIXINTIAODAYOULUN32"
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[32] = {
 		desc_before = "토사는 객실 구역에…?",
 		type = 1,
 		id = 32,
@@ -611,8 +674,8 @@ pg.activity_liner_time = {
 			19,
 			"JIARIXINTIAODAYOULUN42"
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[33] = {
 		desc_before = "코스튬 파티에 참가한다",
 		type = 1,
 		id = 33,
@@ -626,8 +689,8 @@ pg.activity_liner_time = {
 			9,
 			"JIARIXINTIAODAYOULUN21"
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[34] = {
 		param = "4",
 		desc_before = "자유 시간",
 		type = 2,
@@ -638,8 +701,8 @@ pg.activity_liner_time = {
 			20,
 			1
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[35] = {
 		desc_before = "저장고에 가보자",
 		type = 3,
 		id = 35,
@@ -657,8 +720,8 @@ pg.activity_liner_time = {
 				{}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[36] = {
 		desc_before = "휴식 시간",
 		type = 4,
 		id = 36,
@@ -672,8 +735,8 @@ pg.activity_liner_time = {
 			4,
 			"JIARIXINTIAODAYOULUN8"
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[37] = {
 		desc_before = "조타실에서 유빙 확인",
 		type = 1,
 		id = 37,
@@ -687,8 +750,8 @@ pg.activity_liner_time = {
 			1,
 			"JIARIXINTIAODAYOULUN33"
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[38] = {
 		desc_before = "메이드 콩쿠르란…?",
 		type = 1,
 		id = 38,
@@ -702,8 +765,8 @@ pg.activity_liner_time = {
 			7,
 			"JIARIXINTIAODAYOULUN22"
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[39] = {
 		desc_before = "캣 하우스에 힐링하러 가자",
 		type = 1,
 		id = 39,
@@ -717,8 +780,8 @@ pg.activity_liner_time = {
 			20,
 			"JIARIXINTIAODAYOULUN34"
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[40] = {
 		desc_before = "아달베르트의 방에서…",
 		type = 1,
 		id = 40,
@@ -732,8 +795,8 @@ pg.activity_liner_time = {
 			18,
 			"JIARIXINTIAODAYOULUN44"
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[41] = {
 		param = "4",
 		desc_before = "자유 시간",
 		type = 2,
@@ -744,8 +807,8 @@ pg.activity_liner_time = {
 			20,
 			1
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[42] = {
 		desc_before = "수수께끼의 방에 집합하자",
 		type = 3,
 		id = 42,
@@ -763,8 +826,8 @@ pg.activity_liner_time = {
 				{}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[43] = {
 		desc_before = "휴식 시간",
 		type = 4,
 		id = 43,
@@ -778,8 +841,8 @@ pg.activity_liner_time = {
 			4,
 			"JIARIXINTIAODAYOULUN9"
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[44] = {
 		desc_before = "쇼핑몰에서 쇼핑",
 		type = 1,
 		id = 44,
@@ -793,8 +856,8 @@ pg.activity_liner_time = {
 			24,
 			"JIARIXINTIAODAYOULUN35"
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[45] = {
 		desc_before = "객실 구역을 산책하자",
 		type = 1,
 		id = 45,
@@ -808,8 +871,8 @@ pg.activity_liner_time = {
 			18,
 			"JIARIXINTIAODAYOULUN36"
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[46] = {
 		desc_before = "게임 코너에서 연습",
 		type = 1,
 		id = 46,
@@ -823,8 +886,8 @@ pg.activity_liner_time = {
 			11,
 			"JIARIXINTIAODAYOULUN45"
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[47] = {
 		desc_before = "게임☆나이트 시간이다",
 		type = 1,
 		id = 47,
@@ -838,8 +901,8 @@ pg.activity_liner_time = {
 			11,
 			"JIARIXINTIAODAYOULUN23"
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[48] = {
 		param = "4",
 		desc_before = "자유 시간",
 		type = 2,
@@ -850,8 +913,8 @@ pg.activity_liner_time = {
 			20,
 			1
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[49] = {
 		desc_before = "신비 사건 조사",
 		type = 3,
 		id = 49,
@@ -887,8 +950,8 @@ pg.activity_liner_time = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[50] = {
 		desc_before = "휴식 시간",
 		type = 4,
 		id = 50,
@@ -902,8 +965,8 @@ pg.activity_liner_time = {
 			4,
 			"JIARIXINTIAODAYOULUN10"
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[51] = {
 		desc_before = "발코니에서 기분 전환",
 		type = 1,
 		id = 51,
@@ -917,8 +980,8 @@ pg.activity_liner_time = {
 			5,
 			"JIARIXINTIAODAYOULUN46"
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[52] = {
 		desc_before = "야외 바비큐 파티에 참가하자",
 		type = 1,
 		id = 52,
@@ -932,8 +995,8 @@ pg.activity_liner_time = {
 			6,
 			"JIARIXINTIAODAYOULUN24"
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[53] = {
 		type = 1,
 		id = 53,
 		bg_name = "aurora",
@@ -971,8 +1034,8 @@ pg.activity_liner_time = {
 			{},
 			{}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[54] = {
 		param = "3",
 		desc_before = "자유 시간",
 		type = 2,
@@ -983,8 +1046,8 @@ pg.activity_liner_time = {
 			20,
 			1
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_time[55] = {
 		desc_before = "신비 사건 조사",
 		type = 3,
 		id = 55,
@@ -1002,62 +1065,5 @@ pg.activity_liner_time = {
 				{}
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		39,
-		40,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46,
-		47,
-		48,
-		49,
-		50,
-		51,
-		52,
-		53,
-		54,
-		55
 	}
-}
+end)()

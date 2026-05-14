@@ -1,6 +1,22 @@
 pg = pg or {}
-pg.island_chara_att = {
-	{
+pg.island_chara_att = rawget(pg, "island_chara_att") or setmetatable({
+	__name = "island_chara_att"
+}, confNEO)
+pg.island_chara_att.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8
+}
+pg.base = pg.base or {}
+pg.base.island_chara_att = {}
+
+(function ()
+	pg.base.island_chara_att[1] = {
 		effect = 25,
 		name = "SSS",
 		gather_effect = 7,
@@ -10,8 +26,8 @@ pg.island_chara_att = {
 			500,
 			999
 		}
-	},
-	{
+	}
+	pg.base.island_chara_att[2] = {
 		effect = 23,
 		name = "SS",
 		gather_effect = 6,
@@ -21,8 +37,8 @@ pg.island_chara_att = {
 			320,
 			499
 		}
-	},
-	{
+	}
+	pg.base.island_chara_att[3] = {
 		effect = 20,
 		name = "S",
 		gather_effect = 5,
@@ -32,8 +48,8 @@ pg.island_chara_att = {
 			200,
 			319
 		}
-	},
-	{
+	}
+	pg.base.island_chara_att[4] = {
 		effect = 15,
 		name = "A",
 		gather_effect = 4,
@@ -43,8 +59,8 @@ pg.island_chara_att = {
 			120,
 			199
 		}
-	},
-	{
+	}
+	pg.base.island_chara_att[5] = {
 		effect = 10,
 		name = "B",
 		gather_effect = 3,
@@ -54,8 +70,8 @@ pg.island_chara_att = {
 			80,
 			119
 		}
-	},
-	{
+	}
+	pg.base.island_chara_att[6] = {
 		effect = 5,
 		name = "C",
 		gather_effect = 2,
@@ -65,8 +81,8 @@ pg.island_chara_att = {
 			50,
 			79
 		}
-	},
-	{
+	}
+	pg.base.island_chara_att[7] = {
 		effect = 2,
 		name = "D",
 		gather_effect = 1,
@@ -76,8 +92,8 @@ pg.island_chara_att = {
 			25,
 			49
 		}
-	},
-	{
+	}
+	pg.base.island_chara_att[8] = {
 		effect = 0,
 		name = "E",
 		gather_effect = 0,
@@ -87,15 +103,5 @@ pg.island_chara_att = {
 			0,
 			24
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8
 	}
-}
+end)()

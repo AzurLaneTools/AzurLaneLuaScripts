@@ -1,6 +1,56 @@
 pg = pg or {}
-pg.ship_data_blueprint = {
-	[29901] = {
+pg.ship_data_blueprint = rawget(pg, "ship_data_blueprint") or setmetatable({
+	__name = "ship_data_blueprint"
+}, confNEO)
+pg.ship_data_blueprint.all = {
+	29901,
+	29902,
+	39901,
+	39902,
+	49901,
+	89901,
+	19901,
+	19902,
+	39903,
+	39904,
+	49902,
+	99901,
+	29903,
+	29904,
+	49903,
+	49904,
+	89902,
+	19903,
+	39905,
+	49905,
+	49906,
+	69901,
+	29905,
+	49907,
+	59901,
+	79901,
+	89903,
+	19904,
+	39906,
+	49908,
+	49909,
+	99902,
+	19905,
+	39907,
+	69902,
+	79902,
+	89904,
+	19906,
+	49910,
+	69903,
+	79903,
+	119901
+}
+pg.base = pg.base or {}
+pg.base.ship_data_blueprint = {}
+
+(function ()
+	pg.base.ship_data_blueprint[29901] = {
 		unlock_word = "도감의 로열 네이비 선봉함대 함선 등록 갯수 <color=#92fc63>20</color> 이상",
 		name = "海王星",
 		normal_display = "",
@@ -103,8 +153,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40124
 		}
-	},
-	[29902] = {
+	}
+	pg.base.ship_data_blueprint[29902] = {
 		unlock_word = "도감의 로열 네이비 주력함대 함선 등록 갯수 <color=#92fc63>10</color> 이상",
 		name = "君主",
 		normal_display = "",
@@ -207,8 +257,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40124
 		}
-	},
-	[39901] = {
+	}
+	pg.base.ship_data_blueprint[39901] = {
 		unlock_word = "도감의 사쿠라 엠파이어 선봉함대 함선 등록 갯수 <color=#92fc63>20</color> 이상",
 		name = "伊吹",
 		normal_display = "",
@@ -311,8 +361,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40124
 		}
-	},
-	[39902] = {
+	}
+	pg.base.ship_data_blueprint[39902] = {
 		unlock_word = "도감의 사쿠라 엠파이어 주력함대 함선 등록 갯수 <color=#92fc63>10</color> 이상",
 		name = "出云",
 		normal_display = "",
@@ -415,8 +465,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40124
 		}
-	},
-	[49901] = {
+	}
+	pg.base.ship_data_blueprint[49901] = {
 		unlock_word = "도감의 메탈 블러드 선봉함대 함선 등록 갯수 <color=#92fc63>7</color> 이상",
 		name = "罗恩",
 		normal_display = "",
@@ -519,8 +569,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40124
 		}
-	},
-	[89901] = {
+	}
+	pg.base.ship_data_blueprint[89901] = {
 		unlock_word = "도감의 이글 유니온 선봉함대 함선 등록 갯수 <color=#92fc63>20</color> 이상",
 		name = "路易九世",
 		normal_display = "",
@@ -623,8 +673,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40124
 		}
-	},
-	[19901] = {
+	}
+	pg.base.ship_data_blueprint[19901] = {
 		unlock_word = "이글 유니온 진영 기술Pt<color=#92fc63>760</color>이상",
 		name = "西雅图",
 		normal_display = "",
@@ -727,8 +777,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40125
 		}
-	},
-	[19902] = {
+	}
+	pg.base.ship_data_blueprint[19902] = {
 		unlock_word = "이글 유니온 진영 기술Pt<color=#92fc63>810</color>이상",
 		name = "佐治亚",
 		normal_display = "",
@@ -831,8 +881,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40125
 		}
-	},
-	[39903] = {
+	}
+	pg.base.ship_data_blueprint[39903] = {
 		unlock_word = "사쿠라 엠파이어 진영 기술Pt<color=#92fc63>780</color>이상",
 		name = "北风",
 		normal_display = "",
@@ -935,8 +985,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40125
 		}
-	},
-	[39904] = {
+	}
+	pg.base.ship_data_blueprint[39904] = {
 		unlock_word = "사쿠라 엠파이어 진영 기술Pt<color=#92fc63>900</color>이상",
 		name = "吾妻",
 		normal_display = "",
@@ -1041,8 +1091,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[49902] = {
+	}
+	pg.base.ship_data_blueprint[49902] = {
 		unlock_word = "메탈 블러드 진영 기술Pt<color=#92fc63>630</color>이상",
 		name = "腓特烈大帝",
 		normal_display = "",
@@ -1147,8 +1197,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[99901] = {
+	}
+	pg.base.ship_data_blueprint[99901] = {
 		unlock_word = "이글 유니온 진영 기술Pt<color=#92fc63>760</color>이상、메탈 블러드 진영 기술Pt<color=#92fc63>420</color>이상",
 		name = "加斯科涅",
 		normal_display = "",
@@ -1252,8 +1302,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40125
 		}
-	},
-	[29903] = {
+	}
+	pg.base.ship_data_blueprint[29903] = {
 		unlock_word = "로열 네이비 진영 과학 기술 포인트 <color=#92fc63>700</color> 달성",
 		name = "柴郡",
 		normal_display = "",
@@ -1356,8 +1406,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40130
 		}
-	},
-	[29904] = {
+	}
+	pg.base.ship_data_blueprint[29904] = {
 		unlock_word = "로열 네이비 진영 과학 기술 포인트 <color=#92fc63>820</color> 달성",
 		name = "德雷克",
 		normal_display = "",
@@ -1462,8 +1512,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[49903] = {
+	}
+	pg.base.ship_data_blueprint[49903] = {
 		unlock_word = "메탈 블러드 진영 과학 기술 포인트 <color=#92fc63>550</color> 달성",
 		name = "美因茨",
 		normal_display = "",
@@ -1566,8 +1616,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40130
 		}
-	},
-	[49904] = {
+	}
+	pg.base.ship_data_blueprint[49904] = {
 		unlock_word = "메탈 블러드 진영 과학 기술 포인트 <color=#92fc63>600</color> 달성",
 		name = "奥丁",
 		normal_display = "",
@@ -1670,8 +1720,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40130
 		}
-	},
-	[89902] = {
+	}
+	pg.base.ship_data_blueprint[89902] = {
 		unlock_word = "이글 유니온 진영 과학 기술 포인트 <color=#92fc63>760</color> 달성, 로열 네이비 진영 과학 기술 포인트<color=#92fc63>700</color> 달성",
 		name = "香槟",
 		normal_display = "",
@@ -1775,8 +1825,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40130
 		}
-	},
-	[19903] = {
+	}
+	pg.base.ship_data_blueprint[19903] = {
 		unlock_word = "이글 유니온 진영 기술Pt<color=#92fc63>850</color>이상",
 		name = "安克雷奇",
 		normal_display = "",
@@ -1879,8 +1929,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40139
 		}
-	},
-	[39905] = {
+	}
+	pg.base.ship_data_blueprint[39905] = {
 		unlock_word = "사쿠라 엠파이어 진영 기술Pt<color=#92fc63>950</color>이상",
 		name = "白龙",
 		normal_display = "",
@@ -1985,8 +2035,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[49905] = {
+	}
+	pg.base.ship_data_blueprint[49905] = {
 		unlock_word = "메탈 블러드 진영 기술Pt<color=#92fc63>700</color>이상",
 		name = "埃吉尔",
 		normal_display = "",
@@ -2076,8 +2126,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[49906] = {
+	}
+	pg.base.ship_data_blueprint[49906] = {
 		unlock_word = "메탈 블러드 진영 기술Pt<color=#92fc63>600</color>이상",
 		name = "奥古斯特·冯·帕塞瓦尔",
 		normal_display = "",
@@ -2180,8 +2230,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40139
 		}
-	},
-	[69901] = {
+	}
+	pg.base.ship_data_blueprint[69901] = {
 		unlock_word = "메탈 블러드 진영 기술Pt<color=#92fc63>600</color>이상, 로열 네이비 진영 과학 기술 포인트<color=#92fc63>700</color> 달성",
 		name = "马可波罗",
 		normal_display = "",
@@ -2285,8 +2335,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40139
 		}
-	},
-	[29905] = {
+	}
+	pg.base.ship_data_blueprint[29905] = {
 		unlock_word = "로열 네이비 진영 기술PT <color=#92fc63>900</color> 도달",
 		name = "普利茅斯",
 		normal_display = "",
@@ -2376,8 +2426,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[49907] = {
+	}
+	pg.base.ship_data_blueprint[49907] = {
 		unlock_word = "메탈 블러드 진영 기술PT <color=#92fc63>700</color> 도달",
 		name = "鲁普雷希特亲王",
 		normal_display = "",
@@ -2480,8 +2530,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40140
 		}
-	},
-	[59901] = {
+	}
+	pg.base.ship_data_blueprint[59901] = {
 		unlock_word = "이스트 글림 진영 기술PT <color=#92fc63>160</color> 도달",
 		name = "哈尔滨",
 		normal_display = "",
@@ -2584,8 +2634,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40140
 		}
-	},
-	[79901] = {
+	}
+	pg.base.ship_data_blueprint[79901] = {
 		unlock_word = "이글 유니온 진영 기술PT <color=#92fc63>760</color> 도달, 사르데냐 엠파이어 진영 기술PT <color=#92fc63>300</color> 도달",
 		name = "契卡洛夫",
 		normal_display = "",
@@ -2689,8 +2739,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {
 			40140
 		}
-	},
-	[89903] = {
+	}
+	pg.base.ship_data_blueprint[89903] = {
 		unlock_word = "아이리스 리브레 진영 기술PT <color=#92fc63>250</color> 도달",
 		name = "布雷斯特",
 		normal_display = "",
@@ -2780,8 +2830,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[19904] = {
+	}
+	pg.base.ship_data_blueprint[19904] = {
 		unlock_word = "이글 유니온 진영 기술 Pt <color=#92fc63>1,000</color> 이상",
 		name = "奇尔沙治",
 		normal_display = "",
@@ -2871,8 +2921,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[39906] = {
+	}
+	pg.base.ship_data_blueprint[39906] = {
 		unlock_word = "사쿠라 엠파이어 진영 기술 Pt <color=#92fc63>900</color> 이상",
 		name = "四万十",
 		normal_display = "",
@@ -2973,8 +3023,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[49908] = {
+	}
+	pg.base.ship_data_blueprint[49908] = {
 		unlock_word = "메탈 블러드 진영 기술 Pt <color=#92fc63>850</color> 이상",
 		name = "菲利克斯·舒尔茨",
 		normal_display = "",
@@ -3075,8 +3125,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[49909] = {
+	}
+	pg.base.ship_data_blueprint[49909] = {
 		unlock_word = "메탈 블러드 진영 기술 Pt <color=#92fc63>950</color> 이상",
 		name = "兴登堡",
 		normal_display = "",
@@ -3166,8 +3216,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[99902] = {
+	}
+	pg.base.ship_data_blueprint[99902] = {
 		unlock_word = "비시아 성좌 진영 기술 Pt <color=#92fc63>180</color> 이상, 메탈 블러드 진영 기술 Pt <color=#92fc63>800</color> 이상",
 		name = "弗兰德尔",
 		normal_display = "",
@@ -3269,8 +3319,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[19905] = {
+	}
+	pg.base.ship_data_blueprint[19905] = {
 		unlock_word = "이글 유니온 기술 Pt <color=#92fc63>950</color> 이상",
 		name = "哈尔福德",
 		normal_display = "",
@@ -3371,8 +3421,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[39907] = {
+	}
+	pg.base.ship_data_blueprint[39907] = {
 		unlock_word = "사쿠라 엠파이어 기술 Pt <color=#92fc63>950</color> 이상",
 		name = "大山",
 		normal_display = "",
@@ -3473,8 +3523,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[69902] = {
+	}
+	pg.base.ship_data_blueprint[69902] = {
 		unlock_word = "사르데냐 엠파이어 기술 Pt <color=#92fc63>300</color> 이상, 노스 유니온 기술 Pt <color=#92fc63>200</color> 이상",
 		name = "那不勒斯",
 		normal_display = "",
@@ -3565,8 +3615,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[79902] = {
+	}
+	pg.base.ship_data_blueprint[79902] = {
 		unlock_word = "노스 유니온 기술 Pt <color=#92fc63>300</color> 이상, 사르데냐 엠파이어 기술 Pt <color=#92fc63>200</color> 이상",
 		name = "纳希莫夫",
 		normal_display = "",
@@ -3657,8 +3707,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[89904] = {
+	}
+	pg.base.ship_data_blueprint[89904] = {
 		unlock_word = "아이리스 리브레 기술 Pt <color=#92fc63>230</color> 이상",
 		name = "贝亚德",
 		normal_display = "",
@@ -3759,8 +3809,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[19906] = {
+	}
+	pg.base.ship_data_blueprint[19906] = {
 		unlock_word = "유니온 기술Pt<color=#92fc63>950</color>이상",
 		name = "堪萨斯",
 		price = 1500,
@@ -3852,8 +3902,8 @@ pg.ship_data_blueprint = {
 		normal_display = {
 			"주포 포좌+1"
 		}
-	},
-	[49910] = {
+	}
+	pg.base.ship_data_blueprint[49910] = {
 		unlock_word = "메탈 블러드 기술Pt<color=#92fc63>950</color>이상",
 		name = "梅克伦堡",
 		normal_display = "",
@@ -3943,8 +3993,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[69903] = {
+	}
+	pg.base.ship_data_blueprint[69903] = {
 		unlock_word = "사르데냐 기술Pt<color=#92fc63>300</color>이상",
 		name = "维托里奥·库尼贝尔蒂",
 		normal_display = "",
@@ -4034,8 +4084,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[79903] = {
+	}
+	pg.base.ship_data_blueprint[79903] = {
 		unlock_word = "노스 유니온 기술Pt<color=#92fc63>300</color>이상",
 		name = "迪米特里·顿斯科伊",
 		normal_display = "",
@@ -4125,8 +4175,8 @@ pg.ship_data_blueprint = {
 			100
 		},
 		gain_item_id = {}
-	},
-	[119901] = {
+	}
+	pg.base.ship_data_blueprint[119901] = {
 		unlock_word = "메탈 블러드 기술Pt<color=#92fc63>800</color>이상, 사르데냐 기술Pt<color=#92fc63>200</color>이상",
 		name = "金狮",
 		price = 6000,
@@ -4219,49 +4269,5 @@ pg.ship_data_blueprint = {
 		normal_display = {
 			"폭탄 공습Lv.1"
 		}
-	},
-	all = {
-		29901,
-		29902,
-		39901,
-		39902,
-		49901,
-		89901,
-		19901,
-		19902,
-		39903,
-		39904,
-		49902,
-		99901,
-		29903,
-		29904,
-		49903,
-		49904,
-		89902,
-		19903,
-		39905,
-		49905,
-		49906,
-		69901,
-		29905,
-		49907,
-		59901,
-		79901,
-		89903,
-		19904,
-		39906,
-		49908,
-		49909,
-		99902,
-		19905,
-		39907,
-		69902,
-		79902,
-		89904,
-		19906,
-		49910,
-		69903,
-		79903,
-		119901
 	}
-}
+end)()

@@ -1,6 +1,17 @@
 pg = pg or {}
-pg.island_manage_event = {
-	{
+pg.island_manage_event = rawget(pg, "island_manage_event") or setmetatable({
+	__name = "island_manage_event"
+}, confNEO)
+pg.island_manage_event.all = {
+	1,
+	2,
+	3
+}
+pg.base = pg.base or {}
+pg.base.island_manage_event = {}
+
+(function ()
+	pg.base.island_manage_event[1] = {
 		name = "단체 관광객 만쥬",
 		influence_bonus = 10,
 		id = 1,
@@ -12,8 +23,8 @@ pg.island_manage_event = {
 				3
 			}
 		}
-	},
-	{
+	}
+	pg.base.island_manage_event[2] = {
 		name = "메탈 블러드 사절 방문",
 		influence_bonus = 20,
 		id = 2,
@@ -25,8 +36,8 @@ pg.island_manage_event = {
 				2
 			}
 		}
-	},
-	{
+	}
+	pg.base.island_manage_event[3] = {
 		name = "메탈 블러드 사절 방문",
 		influence_bonus = 30,
 		id = 3,
@@ -38,10 +49,5 @@ pg.island_manage_event = {
 				1
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3
 	}
-}
+end)()

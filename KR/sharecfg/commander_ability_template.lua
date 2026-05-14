@@ -1,6 +1,178 @@
 pg = pg or {}
-pg.commander_ability_template = {
-	[101] = {
+pg.commander_ability_template = rawget(pg, "commander_ability_template") or setmetatable({
+	__name = "commander_ability_template"
+}, confNEO)
+pg.commander_ability_template.all = {
+	101,
+	102,
+	103,
+	111,
+	112,
+	113,
+	121,
+	122,
+	123,
+	131,
+	132,
+	141,
+	142,
+	151,
+	152,
+	201,
+	202,
+	203,
+	211,
+	212,
+	213,
+	221,
+	222,
+	223,
+	301,
+	302,
+	303,
+	311,
+	312,
+	313,
+	321,
+	322,
+	401,
+	402,
+	403,
+	411,
+	412,
+	413,
+	501,
+	502,
+	503,
+	511,
+	512,
+	513,
+	601,
+	602,
+	603,
+	611,
+	612,
+	613,
+	621,
+	622,
+	623,
+	631,
+	632,
+	633,
+	641,
+	642,
+	643,
+	651,
+	652,
+	653,
+	701,
+	702,
+	703,
+	711,
+	712,
+	713,
+	721,
+	722,
+	723,
+	731,
+	732,
+	733,
+	741,
+	742,
+	743,
+	751,
+	752,
+	753,
+	761,
+	762,
+	763,
+	771,
+	772,
+	773,
+	801,
+	802,
+	803,
+	811,
+	812,
+	813,
+	821,
+	822,
+	823,
+	831,
+	832,
+	833,
+	901,
+	902,
+	903,
+	911,
+	912,
+	913,
+	921,
+	922,
+	923,
+	2001,
+	2002,
+	2003,
+	2011,
+	2012,
+	2013,
+	2021,
+	2022,
+	2023,
+	2031,
+	2032,
+	2033,
+	2041,
+	2042,
+	2043,
+	2111,
+	2112,
+	2113,
+	2121,
+	2122,
+	2123,
+	2131,
+	2132,
+	2133,
+	2141,
+	2142,
+	2143,
+	2151,
+	2152,
+	2153,
+	2171,
+	2172,
+	2173,
+	2181,
+	2182,
+	2183,
+	2191,
+	2192,
+	2193,
+	5011,
+	5021,
+	5031,
+	5041,
+	5051,
+	5061,
+	5071,
+	5081,
+	5091,
+	5101,
+	5111,
+	5121,
+	5131,
+	5141,
+	5151,
+	5161,
+	5171,
+	5181
+}
+pg.base = pg.base or {}
+pg.base.commander_ability_template = {}
+
+(function ()
+	pg.base.commander_ability_template[101] = {
 		cost = 0,
 		name = "루키의 포격술 (구축)",
 		group_id = 10,
@@ -28,8 +200,8 @@ pg.commander_ability_template = {
 				3
 			}
 		}
-	},
-	[102] = {
+	}
+	pg.base.commander_ability_template[102] = {
 		cost = 0,
 		name = "숙련된 포격술 (구축)",
 		group_id = 10,
@@ -57,8 +229,8 @@ pg.commander_ability_template = {
 				4
 			}
 		}
-	},
-	[103] = {
+	}
+	pg.base.commander_ability_template[103] = {
 		cost = 0,
 		name = "포격 마스터 (구축)",
 		group_id = 10,
@@ -86,8 +258,8 @@ pg.commander_ability_template = {
 				6
 			}
 		}
-	},
-	[111] = {
+	}
+	pg.base.commander_ability_template[111] = {
 		cost = 0,
 		name = "루키의 포격술 (순양)",
 		group_id = 11,
@@ -123,8 +295,8 @@ pg.commander_ability_template = {
 				5
 			}
 		}
-	},
-	[112] = {
+	}
+	pg.base.commander_ability_template[112] = {
 		cost = 0,
 		name = "숙련된 포격술 (순양)",
 		group_id = 11,
@@ -160,8 +332,8 @@ pg.commander_ability_template = {
 				7
 			}
 		}
-	},
-	[113] = {
+	}
+	pg.base.commander_ability_template[113] = {
 		cost = 0,
 		name = "포격 마스터 (순양)",
 		group_id = 11,
@@ -197,8 +369,8 @@ pg.commander_ability_template = {
 				10
 			}
 		}
-	},
-	[121] = {
+	}
+	pg.base.commander_ability_template[121] = {
 		cost = 0,
 		name = " 루키의 포격술(주력)",
 		group_id = 12,
@@ -244,8 +416,8 @@ pg.commander_ability_template = {
 				8
 			}
 		}
-	},
-	[122] = {
+	}
+	pg.base.commander_ability_template[122] = {
 		cost = 0,
 		name = "숙련된 포격술(주력)",
 		group_id = 12,
@@ -291,8 +463,8 @@ pg.commander_ability_template = {
 				11
 			}
 		}
-	},
-	[123] = {
+	}
+	pg.base.commander_ability_template[123] = {
 		cost = 0,
 		name = "포격 마스터(주력)",
 		group_id = 12,
@@ -338,8 +510,8 @@ pg.commander_ability_template = {
 				16
 			}
 		}
-	},
-	[131] = {
+	}
+	pg.base.commander_ability_template[131] = {
 		cost = 0,
 		name = "포격 강화·주력",
 		group_id = 13,
@@ -387,8 +559,8 @@ pg.commander_ability_template = {
 				10
 			}
 		}
-	},
-	[132] = {
+	}
+	pg.base.commander_ability_template[132] = {
 		cost = 0,
 		name = "포격 제압·주력",
 		group_id = 13,
@@ -436,8 +608,8 @@ pg.commander_ability_template = {
 				14
 			}
 		}
-	},
-	[141] = {
+	}
+	pg.base.commander_ability_template[141] = {
 		cost = 0,
 		name = "루키의 포격술(선봉)",
 		group_id = 14,
@@ -480,8 +652,8 @@ pg.commander_ability_template = {
 				6
 			}
 		}
-	},
-	[142] = {
+	}
+	pg.base.commander_ability_template[142] = {
 		cost = 0,
 		name = "숙련된 포격술(선봉)",
 		group_id = 14,
@@ -524,8 +696,8 @@ pg.commander_ability_template = {
 				8
 			}
 		}
-	},
-	[151] = {
+	}
+	pg.base.commander_ability_template[151] = {
 		cost = 0,
 		name = "푸른 바다의 친화성·신참",
 		group_id = 15,
@@ -571,8 +743,8 @@ pg.commander_ability_template = {
 				3
 			}
 		}
-	},
-	[152] = {
+	}
+	pg.base.commander_ability_template[152] = {
 		cost = 0,
 		name = "푸른 바다의 친화성·달인",
 		group_id = 15,
@@ -618,8 +790,8 @@ pg.commander_ability_template = {
 				6
 			}
 		}
-	},
-	[201] = {
+	}
+	pg.base.commander_ability_template[201] = {
 		cost = 0,
 		name = "루키의 뇌격술 (잠수)",
 		group_id = 20,
@@ -646,8 +818,8 @@ pg.commander_ability_template = {
 				10
 			}
 		}
-	},
-	[202] = {
+	}
+	pg.base.commander_ability_template[202] = {
 		cost = 0,
 		name = "숙련된 뇌격술 (잠수)",
 		group_id = 20,
@@ -674,8 +846,8 @@ pg.commander_ability_template = {
 				14
 			}
 		}
-	},
-	[203] = {
+	}
+	pg.base.commander_ability_template[203] = {
 		cost = 0,
 		name = "뇌격 마스터 (잠수)",
 		group_id = 20,
@@ -702,8 +874,8 @@ pg.commander_ability_template = {
 				20
 			}
 		}
-	},
-	[211] = {
+	}
+	pg.base.commander_ability_template[211] = {
 		cost = 0,
 		name = "루키의 뇌격술 (구축)",
 		group_id = 21,
@@ -731,8 +903,8 @@ pg.commander_ability_template = {
 				10
 			}
 		}
-	},
-	[212] = {
+	}
+	pg.base.commander_ability_template[212] = {
 		cost = 0,
 		name = "숙련된 뇌격술 (구축)",
 		group_id = 21,
@@ -760,8 +932,8 @@ pg.commander_ability_template = {
 				14
 			}
 		}
-	},
-	[213] = {
+	}
+	pg.base.commander_ability_template[213] = {
 		cost = 0,
 		name = "뇌격 마스터 (구축)",
 		group_id = 21,
@@ -789,8 +961,8 @@ pg.commander_ability_template = {
 				20
 			}
 		}
-	},
-	[221] = {
+	}
+	pg.base.commander_ability_template[221] = {
 		cost = 0,
 		name = "루키의 뇌격술 (순양)",
 		group_id = 22,
@@ -821,8 +993,8 @@ pg.commander_ability_template = {
 				6
 			}
 		}
-	},
-	[222] = {
+	}
+	pg.base.commander_ability_template[222] = {
 		cost = 0,
 		name = "숙련된 뇌격술 (순양)",
 		group_id = 22,
@@ -853,8 +1025,8 @@ pg.commander_ability_template = {
 				8
 			}
 		}
-	},
-	[223] = {
+	}
+	pg.base.commander_ability_template[223] = {
 		cost = 0,
 		name = "뇌격 마스터 (순양)",
 		group_id = 22,
@@ -885,8 +1057,8 @@ pg.commander_ability_template = {
 				12
 			}
 		}
-	},
-	[301] = {
+	}
+	pg.base.commander_ability_template[301] = {
 		cost = 0,
 		name = "루키의 항공지휘 (항모)",
 		group_id = 30,
@@ -917,8 +1089,8 @@ pg.commander_ability_template = {
 				10
 			}
 		}
-	},
-	[302] = {
+	}
+	pg.base.commander_ability_template[302] = {
 		cost = 0,
 		name = "숙련된 항공지휘 (항모)",
 		group_id = 30,
@@ -949,8 +1121,8 @@ pg.commander_ability_template = {
 				14
 			}
 		}
-	},
-	[303] = {
+	}
+	pg.base.commander_ability_template[303] = {
 		cost = 0,
 		name = "항공지휘 마스터 (항모)",
 		group_id = 30,
@@ -981,8 +1153,8 @@ pg.commander_ability_template = {
 				20
 			}
 		}
-	},
-	[311] = {
+	}
+	pg.base.commander_ability_template[311] = {
 		cost = 0,
 		name = "루키의 항공지휘 (특수)",
 		group_id = 31,
@@ -1008,8 +1180,8 @@ pg.commander_ability_template = {
 				5
 			}
 		}
-	},
-	[312] = {
+	}
+	pg.base.commander_ability_template[312] = {
 		cost = 0,
 		name = "숙련된 항공지휘 (특수)",
 		group_id = 31,
@@ -1035,8 +1207,8 @@ pg.commander_ability_template = {
 				7
 			}
 		}
-	},
-	[313] = {
+	}
+	pg.base.commander_ability_template[313] = {
 		cost = 0,
 		name = "항공지휘 마스터 (특수)",
 		group_id = 31,
@@ -1062,8 +1234,8 @@ pg.commander_ability_template = {
 				10
 			}
 		}
-	},
-	[321] = {
+	}
+	pg.base.commander_ability_template[321] = {
 		cost = 0,
 		name = "푸른 하늘의 친화성·신참",
 		group_id = 32,
@@ -1103,8 +1275,8 @@ pg.commander_ability_template = {
 				7
 			}
 		}
-	},
-	[322] = {
+	}
+	pg.base.commander_ability_template[322] = {
 		cost = 0,
 		name = "푸른 하늘의 친화성·달인",
 		group_id = 32,
@@ -1144,8 +1316,8 @@ pg.commander_ability_template = {
 				10
 			}
 		}
-	},
-	[401] = {
+	}
+	pg.base.commander_ability_template[401] = {
 		cost = 0,
 		name = "루키의 대공 포격술 (선봉)",
 		group_id = 40,
@@ -1176,8 +1348,8 @@ pg.commander_ability_template = {
 				8
 			}
 		}
-	},
-	[402] = {
+	}
+	pg.base.commander_ability_template[402] = {
 		cost = 0,
 		name = "숙련된 대공 포격술 (선봉)",
 		group_id = 40,
@@ -1208,8 +1380,8 @@ pg.commander_ability_template = {
 				11
 			}
 		}
-	},
-	[403] = {
+	}
+	pg.base.commander_ability_template[403] = {
 		cost = 0,
 		name = "대공 포격 마스터 (선봉)",
 		group_id = 40,
@@ -1240,8 +1412,8 @@ pg.commander_ability_template = {
 				16
 			}
 		}
-	},
-	[411] = {
+	}
+	pg.base.commander_ability_template[411] = {
 		cost = 0,
 		name = "루키의 대공 포격술 (주력)",
 		group_id = 41,
@@ -1275,8 +1447,8 @@ pg.commander_ability_template = {
 				10
 			}
 		}
-	},
-	[412] = {
+	}
+	pg.base.commander_ability_template[412] = {
 		cost = 0,
 		name = "숙련된 대공 포격술 (주력)",
 		group_id = 41,
@@ -1310,8 +1482,8 @@ pg.commander_ability_template = {
 				14
 			}
 		}
-	},
-	[413] = {
+	}
+	pg.base.commander_ability_template[413] = {
 		cost = 0,
 		name = "대공 포격 마스터 (주력)",
 		group_id = 41,
@@ -1345,8 +1517,8 @@ pg.commander_ability_template = {
 				20
 			}
 		}
-	},
-	[501] = {
+	}
+	pg.base.commander_ability_template[501] = {
 		cost = 0,
 		name = "루키의 청음 능력 (선봉)",
 		group_id = 50,
@@ -1377,8 +1549,8 @@ pg.commander_ability_template = {
 				4
 			}
 		}
-	},
-	[502] = {
+	}
+	pg.base.commander_ability_template[502] = {
 		cost = 0,
 		name = "숙련된 청음 능력 (선봉)",
 		group_id = 50,
@@ -1409,8 +1581,8 @@ pg.commander_ability_template = {
 				5
 			}
 		}
-	},
-	[503] = {
+	}
+	pg.base.commander_ability_template[503] = {
 		cost = 0,
 		name = "청음 마스터 (선봉)",
 		group_id = 50,
@@ -1441,8 +1613,8 @@ pg.commander_ability_template = {
 				8
 			}
 		}
-	},
-	[511] = {
+	}
+	pg.base.commander_ability_template[511] = {
 		cost = 0,
 		name = "루키의 청음 능력 (주력)",
 		group_id = 51,
@@ -1476,8 +1648,8 @@ pg.commander_ability_template = {
 				3
 			}
 		}
-	},
-	[512] = {
+	}
+	pg.base.commander_ability_template[512] = {
 		cost = 0,
 		name = "숙련된 청음 능력 (주력)",
 		group_id = 51,
@@ -1511,8 +1683,8 @@ pg.commander_ability_template = {
 				4
 			}
 		}
-	},
-	[513] = {
+	}
+	pg.base.commander_ability_template[513] = {
 		cost = 0,
 		name = "청음 마스터 (주력)",
 		group_id = 51,
@@ -1546,8 +1718,8 @@ pg.commander_ability_template = {
 				6
 			}
 		}
-	},
-	[601] = {
+	}
+	pg.base.commander_ability_template[601] = {
 		cost = 0,
 		name = "루키의 장전술 (잠수)",
 		group_id = 60,
@@ -1574,8 +1746,8 @@ pg.commander_ability_template = {
 				3
 			}
 		}
-	},
-	[602] = {
+	}
+	pg.base.commander_ability_template[602] = {
 		cost = 0,
 		name = "숙련된 장전술 (잠수)",
 		group_id = 60,
@@ -1602,8 +1774,8 @@ pg.commander_ability_template = {
 				4
 			}
 		}
-	},
-	[603] = {
+	}
+	pg.base.commander_ability_template[603] = {
 		cost = 0,
 		name = "장전 마스터 (잠수)",
 		group_id = 60,
@@ -1630,8 +1802,8 @@ pg.commander_ability_template = {
 				6
 			}
 		}
-	},
-	[611] = {
+	}
+	pg.base.commander_ability_template[611] = {
 		cost = 0,
 		name = "루키의 장전술 (구축)",
 		group_id = 61,
@@ -1659,8 +1831,8 @@ pg.commander_ability_template = {
 				5
 			}
 		}
-	},
-	[612] = {
+	}
+	pg.base.commander_ability_template[612] = {
 		cost = 0,
 		name = "숙련된 장전술 (구축)",
 		group_id = 61,
@@ -1688,8 +1860,8 @@ pg.commander_ability_template = {
 				7
 			}
 		}
-	},
-	[613] = {
+	}
+	pg.base.commander_ability_template[613] = {
 		cost = 0,
 		name = "장전 마스터 (구축)",
 		group_id = 61,
@@ -1717,8 +1889,8 @@ pg.commander_ability_template = {
 				10
 			}
 		}
-	},
-	[621] = {
+	}
+	pg.base.commander_ability_template[621] = {
 		cost = 0,
 		name = "루키의 장전술 (순양)",
 		group_id = 62,
@@ -1754,8 +1926,8 @@ pg.commander_ability_template = {
 				4
 			}
 		}
-	},
-	[622] = {
+	}
+	pg.base.commander_ability_template[622] = {
 		cost = 0,
 		name = "숙련된 장전술 (순양)",
 		group_id = 62,
@@ -1791,8 +1963,8 @@ pg.commander_ability_template = {
 				5
 			}
 		}
-	},
-	[623] = {
+	}
+	pg.base.commander_ability_template[623] = {
 		cost = 0,
 		name = "장전 마스터 (순양)",
 		group_id = 62,
@@ -1828,8 +2000,8 @@ pg.commander_ability_template = {
 				8
 			}
 		}
-	},
-	[631] = {
+	}
+	pg.base.commander_ability_template[631] = {
 		cost = 0,
 		name = "루키의 장전술 (전함)",
 		group_id = 63,
@@ -1865,8 +2037,8 @@ pg.commander_ability_template = {
 				3
 			}
 		}
-	},
-	[632] = {
+	}
+	pg.base.commander_ability_template[632] = {
 		cost = 0,
 		name = "숙련된 장전술 (전함)",
 		group_id = 63,
@@ -1902,8 +2074,8 @@ pg.commander_ability_template = {
 				4
 			}
 		}
-	},
-	[633] = {
+	}
+	pg.base.commander_ability_template[633] = {
 		cost = 0,
 		name = "장전 마스터 (전함)",
 		group_id = 63,
@@ -1939,8 +2111,8 @@ pg.commander_ability_template = {
 				6
 			}
 		}
-	},
-	[641] = {
+	}
+	pg.base.commander_ability_template[641] = {
 		cost = 0,
 		name = "루키의 정비 능력",
 		group_id = 64,
@@ -1971,8 +2143,8 @@ pg.commander_ability_template = {
 				3
 			}
 		}
-	},
-	[642] = {
+	}
+	pg.base.commander_ability_template[642] = {
 		cost = 0,
 		name = "숙련된 정비 능력",
 		group_id = 64,
@@ -2003,8 +2175,8 @@ pg.commander_ability_template = {
 				4
 			}
 		}
-	},
-	[643] = {
+	}
+	pg.base.commander_ability_template[643] = {
 		cost = 0,
 		name = "정비 마스터",
 		group_id = 64,
@@ -2035,8 +2207,8 @@ pg.commander_ability_template = {
 				6
 			}
 		}
-	},
-	[651] = {
+	}
+	pg.base.commander_ability_template[651] = {
 		cost = 0,
 		name = "신참 장전수·특수",
 		group_id = 65,
@@ -2079,8 +2251,8 @@ pg.commander_ability_template = {
 				3
 			}
 		}
-	},
-	[652] = {
+	}
+	pg.base.commander_ability_template[652] = {
 		cost = 0,
 		name = "고참 장전수·특수",
 		group_id = 65,
@@ -2123,8 +2295,8 @@ pg.commander_ability_template = {
 				4
 			}
 		}
-	},
-	[653] = {
+	}
+	pg.base.commander_ability_template[653] = {
 		cost = 0,
 		name = "달인 장전수·특수",
 		group_id = 65,
@@ -2167,8 +2339,8 @@ pg.commander_ability_template = {
 				6
 			}
 		}
-	},
-	[701] = {
+	}
+	pg.base.commander_ability_template[701] = {
 		cost = 0,
 		name = "기관사 루키 (잠수)",
 		group_id = 70,
@@ -2195,8 +2367,8 @@ pg.commander_ability_template = {
 				25
 			}
 		}
-	},
-	[702] = {
+	}
+	pg.base.commander_ability_template[702] = {
 		cost = 0,
 		name = "숙련된 기관사 (잠수)",
 		group_id = 70,
@@ -2223,8 +2395,8 @@ pg.commander_ability_template = {
 				35
 			}
 		}
-	},
-	[703] = {
+	}
+	pg.base.commander_ability_template[703] = {
 		cost = 0,
 		name = "기관장 (잠수)",
 		group_id = 70,
@@ -2251,8 +2423,8 @@ pg.commander_ability_template = {
 				50
 			}
 		}
-	},
-	[711] = {
+	}
+	pg.base.commander_ability_template[711] = {
 		cost = 0,
 		name = "기관사 루키 (구축)",
 		group_id = 71,
@@ -2280,8 +2452,8 @@ pg.commander_ability_template = {
 				30
 			}
 		}
-	},
-	[712] = {
+	}
+	pg.base.commander_ability_template[712] = {
 		cost = 0,
 		name = "숙련된 기관사 (구축)",
 		group_id = 71,
@@ -2309,8 +2481,8 @@ pg.commander_ability_template = {
 				42
 			}
 		}
-	},
-	[713] = {
+	}
+	pg.base.commander_ability_template[713] = {
 		cost = 0,
 		name = "기관장 (구축)",
 		group_id = 71,
@@ -2338,8 +2510,8 @@ pg.commander_ability_template = {
 				60
 			}
 		}
-	},
-	[721] = {
+	}
+	pg.base.commander_ability_template[721] = {
 		cost = 0,
 		name = "기관사 루키 (순양)",
 		group_id = 72,
@@ -2375,8 +2547,8 @@ pg.commander_ability_template = {
 				50
 			}
 		}
-	},
-	[722] = {
+	}
+	pg.base.commander_ability_template[722] = {
 		cost = 0,
 		name = "숙련된 기관사 (순양)",
 		group_id = 72,
@@ -2412,8 +2584,8 @@ pg.commander_ability_template = {
 				70
 			}
 		}
-	},
-	[723] = {
+	}
+	pg.base.commander_ability_template[723] = {
 		cost = 0,
 		name = "기관장 (순양)",
 		group_id = 72,
@@ -2449,8 +2621,8 @@ pg.commander_ability_template = {
 				100
 			}
 		}
-	},
-	[731] = {
+	}
+	pg.base.commander_ability_template[731] = {
 		cost = 0,
 		name = "기관사 루키 (전함)",
 		group_id = 73,
@@ -2486,8 +2658,8 @@ pg.commander_ability_template = {
 				75
 			}
 		}
-	},
-	[732] = {
+	}
+	pg.base.commander_ability_template[732] = {
 		cost = 0,
 		name = "숙련된 기관사 (전함)",
 		group_id = 73,
@@ -2523,8 +2695,8 @@ pg.commander_ability_template = {
 				105
 			}
 		}
-	},
-	[733] = {
+	}
+	pg.base.commander_ability_template[733] = {
 		cost = 0,
 		name = "기관장 (전함)",
 		group_id = 73,
@@ -2560,8 +2732,8 @@ pg.commander_ability_template = {
 				150
 			}
 		}
-	},
-	[741] = {
+	}
+	pg.base.commander_ability_template[741] = {
 		cost = 0,
 		name = "기관사 루키 (항모)",
 		group_id = 74,
@@ -2592,8 +2764,8 @@ pg.commander_ability_template = {
 				50
 			}
 		}
-	},
-	[742] = {
+	}
+	pg.base.commander_ability_template[742] = {
 		cost = 0,
 		name = "숙련된 기관사 (항모)",
 		group_id = 74,
@@ -2624,8 +2796,8 @@ pg.commander_ability_template = {
 				70
 			}
 		}
-	},
-	[743] = {
+	}
+	pg.base.commander_ability_template[743] = {
 		cost = 0,
 		name = "기관장 (항모)",
 		group_id = 74,
@@ -2656,8 +2828,8 @@ pg.commander_ability_template = {
 				100
 			}
 		}
-	},
-	[751] = {
+	}
+	pg.base.commander_ability_template[751] = {
 		cost = 0,
 		name = "신참 기관사·특수",
 		group_id = 75,
@@ -2700,8 +2872,8 @@ pg.commander_ability_template = {
 				40
 			}
 		}
-	},
-	[752] = {
+	}
+	pg.base.commander_ability_template[752] = {
 		cost = 0,
 		name = "고참 기관사·특수",
 		group_id = 75,
@@ -2744,8 +2916,8 @@ pg.commander_ability_template = {
 				56
 			}
 		}
-	},
-	[753] = {
+	}
+	pg.base.commander_ability_template[753] = {
 		cost = 0,
 		name = "달인 기관사·특수",
 		group_id = 75,
@@ -2788,8 +2960,8 @@ pg.commander_ability_template = {
 				80
 			}
 		}
-	},
-	[761] = {
+	}
+	pg.base.commander_ability_template[761] = {
 		cost = 0,
 		name = "기관사 루키(소형)",
 		group_id = 76,
@@ -2830,8 +3002,8 @@ pg.commander_ability_template = {
 				30
 			}
 		}
-	},
-	[762] = {
+	}
+	pg.base.commander_ability_template[762] = {
 		cost = 0,
 		name = "숙련된 기관사(소형)",
 		group_id = 76,
@@ -2872,8 +3044,8 @@ pg.commander_ability_template = {
 				42
 			}
 		}
-	},
-	[763] = {
+	}
+	pg.base.commander_ability_template[763] = {
 		cost = 0,
 		name = "기관장(소형)",
 		group_id = 76,
@@ -2914,8 +3086,8 @@ pg.commander_ability_template = {
 				60
 			}
 		}
-	},
-	[771] = {
+	}
+	pg.base.commander_ability_template[771] = {
 		cost = 0,
 		name = "신참 기관사·선봉",
 		group_id = 77,
@@ -2946,8 +3118,8 @@ pg.commander_ability_template = {
 				30
 			}
 		}
-	},
-	[772] = {
+	}
+	pg.base.commander_ability_template[772] = {
 		cost = 0,
 		name = "고참 기관사·선봉",
 		group_id = 77,
@@ -2978,8 +3150,8 @@ pg.commander_ability_template = {
 				42
 			}
 		}
-	},
-	[773] = {
+	}
+	pg.base.commander_ability_template[773] = {
 		cost = 0,
 		name = "기관장·선봉",
 		group_id = 77,
@@ -3010,8 +3182,8 @@ pg.commander_ability_template = {
 				60
 			}
 		}
-	},
-	[801] = {
+	}
+	pg.base.commander_ability_template[801] = {
 		cost = 0,
 		name = "견시원 루키 (잠수)",
 		group_id = 80,
@@ -3038,8 +3210,8 @@ pg.commander_ability_template = {
 				2
 			}
 		}
-	},
-	[802] = {
+	}
+	pg.base.commander_ability_template[802] = {
 		cost = 0,
 		name = "숙련된 견시원 (잠수)",
 		group_id = 80,
@@ -3066,8 +3238,8 @@ pg.commander_ability_template = {
 				3
 			}
 		}
-	},
-	[803] = {
+	}
+	pg.base.commander_ability_template[803] = {
 		cost = 0,
 		name = "매의 눈을 가진 견시원 (잠수)",
 		group_id = 80,
@@ -3094,8 +3266,8 @@ pg.commander_ability_template = {
 				5
 			}
 		}
-	},
-	[811] = {
+	}
+	pg.base.commander_ability_template[811] = {
 		cost = 0,
 		name = "견시원 루키 (선봉)",
 		group_id = 81,
@@ -3126,8 +3298,8 @@ pg.commander_ability_template = {
 				3
 			}
 		}
-	},
-	[812] = {
+	}
+	pg.base.commander_ability_template[812] = {
 		cost = 0,
 		name = "숙련된 견시원 (선봉)",
 		group_id = 81,
@@ -3158,8 +3330,8 @@ pg.commander_ability_template = {
 				4
 			}
 		}
-	},
-	[813] = {
+	}
+	pg.base.commander_ability_template[813] = {
 		cost = 0,
 		name = "매의 눈을 가진 견시원 (선봉)",
 		group_id = 81,
@@ -3190,8 +3362,8 @@ pg.commander_ability_template = {
 				6
 			}
 		}
-	},
-	[821] = {
+	}
+	pg.base.commander_ability_template[821] = {
 		cost = 0,
 		name = "견시원 루키 (주력)",
 		group_id = 82,
@@ -3225,8 +3397,8 @@ pg.commander_ability_template = {
 				1
 			}
 		}
-	},
-	[822] = {
+	}
+	pg.base.commander_ability_template[822] = {
 		cost = 0,
 		name = "숙련된 견시원 (주력)",
 		group_id = 82,
@@ -3260,8 +3432,8 @@ pg.commander_ability_template = {
 				2
 			}
 		}
-	},
-	[823] = {
+	}
+	pg.base.commander_ability_template[823] = {
 		cost = 0,
 		name = "매의 눈을 가진 견시원 (주력)",
 		group_id = 82,
@@ -3295,8 +3467,8 @@ pg.commander_ability_template = {
 				3
 			}
 		}
-	},
-	[831] = {
+	}
+	pg.base.commander_ability_template[831] = {
 		cost = 0,
 		name = "템페스타 감시원·신참",
 		group_id = 83,
@@ -3320,8 +3492,8 @@ pg.commander_ability_template = {
 				1
 			}
 		}
-	},
-	[832] = {
+	}
+	pg.base.commander_ability_template[832] = {
 		cost = 0,
 		name = "템페스타 감시원·숙련",
 		group_id = 83,
@@ -3345,8 +3517,8 @@ pg.commander_ability_template = {
 				2
 			}
 		}
-	},
-	[833] = {
+	}
+	pg.base.commander_ability_template[833] = {
 		cost = 0,
 		name = "템페스타 아이",
 		group_id = 83,
@@ -3370,8 +3542,8 @@ pg.commander_ability_template = {
 				3
 			}
 		}
-	},
-	[901] = {
+	}
+	pg.base.commander_ability_template[901] = {
 		cost = 0,
 		name = "조타수 루키(소형)",
 		group_id = 90,
@@ -3412,8 +3584,8 @@ pg.commander_ability_template = {
 				5
 			}
 		}
-	},
-	[902] = {
+	}
+	pg.base.commander_ability_template[902] = {
 		cost = 0,
 		name = "숙련된 조타수(소형)",
 		group_id = 90,
@@ -3454,8 +3626,10 @@ pg.commander_ability_template = {
 				7
 			}
 		}
-	},
-	[903] = {
+	}
+end)()
+(function ()
+	pg.base.commander_ability_template[903] = {
 		cost = 0,
 		name = "항해사(소형)",
 		group_id = 90,
@@ -3496,8 +3670,8 @@ pg.commander_ability_template = {
 				10
 			}
 		}
-	},
-	[911] = {
+	}
+	pg.base.commander_ability_template[911] = {
 		cost = 0,
 		name = "조타수 루키 (중형함)",
 		group_id = 91,
@@ -3544,8 +3718,8 @@ pg.commander_ability_template = {
 				3
 			}
 		}
-	},
-	[912] = {
+	}
+	pg.base.commander_ability_template[912] = {
 		cost = 0,
 		name = "숙련된 조타수 (중형함)",
 		group_id = 91,
@@ -3592,8 +3766,8 @@ pg.commander_ability_template = {
 				4
 			}
 		}
-	},
-	[913] = {
+	}
+	pg.base.commander_ability_template[913] = {
 		cost = 0,
 		name = "항해사 (중형함)",
 		group_id = 91,
@@ -3640,8 +3814,8 @@ pg.commander_ability_template = {
 				6
 			}
 		}
-	},
-	[921] = {
+	}
+	pg.base.commander_ability_template[921] = {
 		cost = 0,
 		name = "조타수 루키 (대형함)",
 		group_id = 92,
@@ -3683,8 +3857,8 @@ pg.commander_ability_template = {
 				1
 			}
 		}
-	},
-	[922] = {
+	}
+	pg.base.commander_ability_template[922] = {
 		cost = 0,
 		name = "숙련된 조타수 (대형함)",
 		group_id = 92,
@@ -3726,8 +3900,8 @@ pg.commander_ability_template = {
 				2
 			}
 		}
-	},
-	[923] = {
+	}
+	pg.base.commander_ability_template[923] = {
 		cost = 0,
 		name = "항해사 (대형함)",
 		group_id = 92,
@@ -3769,8 +3943,8 @@ pg.commander_ability_template = {
 				3
 			}
 		}
-	},
-	[2001] = {
+	}
+	pg.base.commander_ability_template[2001] = {
 		cost = 0,
 		name = "루키의 참모 능력 (구축)",
 		group_id = 200,
@@ -3813,8 +3987,8 @@ pg.commander_ability_template = {
 				4
 			}
 		}
-	},
-	[2002] = {
+	}
+	pg.base.commander_ability_template[2002] = {
 		cost = 0,
 		name = "숙련된 참모 능력 (구축)",
 		group_id = 200,
@@ -3857,8 +4031,8 @@ pg.commander_ability_template = {
 				5
 			}
 		}
-	},
-	[2003] = {
+	}
+	pg.base.commander_ability_template[2003] = {
 		cost = 0,
 		name = "참모 마스터 (구축)",
 		group_id = 200,
@@ -3901,8 +4075,8 @@ pg.commander_ability_template = {
 				8
 			}
 		}
-	},
-	[2011] = {
+	}
+	pg.base.commander_ability_template[2011] = {
 		cost = 0,
 		name = "루키의 참모 능력 (순양)",
 		group_id = 201,
@@ -3957,8 +4131,8 @@ pg.commander_ability_template = {
 				5
 			}
 		}
-	},
-	[2012] = {
+	}
+	pg.base.commander_ability_template[2012] = {
 		cost = 0,
 		name = "숙련된 참모 능력 (순양)",
 		group_id = 201,
@@ -4013,8 +4187,8 @@ pg.commander_ability_template = {
 				7
 			}
 		}
-	},
-	[2013] = {
+	}
+	pg.base.commander_ability_template[2013] = {
 		cost = 0,
 		name = "참모 마스터 (순양)",
 		group_id = 201,
@@ -4069,8 +4243,8 @@ pg.commander_ability_template = {
 				10
 			}
 		}
-	},
-	[2021] = {
+	}
+	pg.base.commander_ability_template[2021] = {
 		cost = 0,
 		name = "루키의 참모 능력 (전함)",
 		group_id = 202,
@@ -4119,8 +4293,8 @@ pg.commander_ability_template = {
 				8
 			}
 		}
-	},
-	[2022] = {
+	}
+	pg.base.commander_ability_template[2022] = {
 		cost = 0,
 		name = "숙련된 참모 능력 (전함)",
 		group_id = 202,
@@ -4169,8 +4343,8 @@ pg.commander_ability_template = {
 				11
 			}
 		}
-	},
-	[2023] = {
+	}
+	pg.base.commander_ability_template[2023] = {
 		cost = 0,
 		name = "참모 마스터 (전함)",
 		group_id = 202,
@@ -4219,8 +4393,8 @@ pg.commander_ability_template = {
 				16
 			}
 		}
-	},
-	[2031] = {
+	}
+	pg.base.commander_ability_template[2031] = {
 		cost = 0,
 		name = "루키의 참모 능력 (항모)",
 		group_id = 203,
@@ -4259,8 +4433,8 @@ pg.commander_ability_template = {
 				3
 			}
 		}
-	},
-	[2032] = {
+	}
+	pg.base.commander_ability_template[2032] = {
 		cost = 0,
 		name = "숙련된 참모 능력 (항모)",
 		group_id = 203,
@@ -4299,8 +4473,8 @@ pg.commander_ability_template = {
 				4
 			}
 		}
-	},
-	[2033] = {
+	}
+	pg.base.commander_ability_template[2033] = {
 		cost = 0,
 		name = "참모 마스터 (항모)",
 		group_id = 203,
@@ -4339,8 +4513,8 @@ pg.commander_ability_template = {
 				6
 			}
 		}
-	},
-	[2041] = {
+	}
+	pg.base.commander_ability_template[2041] = {
 		cost = 0,
 		name = "루키의 참모 능력 (잠수)",
 		group_id = 204,
@@ -4381,8 +4555,8 @@ pg.commander_ability_template = {
 				3
 			}
 		}
-	},
-	[2042] = {
+	}
+	pg.base.commander_ability_template[2042] = {
 		cost = 0,
 		name = "숙련된 참모 능력 (잠수)",
 		group_id = 204,
@@ -4423,8 +4597,8 @@ pg.commander_ability_template = {
 				4
 			}
 		}
-	},
-	[2043] = {
+	}
+	pg.base.commander_ability_template[2043] = {
 		cost = 0,
 		name = "참모 마스터 (잠수)",
 		group_id = 204,
@@ -4465,8 +4639,8 @@ pg.commander_ability_template = {
 				6
 			}
 		}
-	},
-	[2111] = {
+	}
+	pg.base.commander_ability_template[2111] = {
 		cost = 0,
 		name = "루키의 참모 능력 (USS)",
 		group_id = 211,
@@ -4518,8 +4692,8 @@ pg.commander_ability_template = {
 				3
 			}
 		}
-	},
-	[2112] = {
+	}
+	pg.base.commander_ability_template[2112] = {
 		cost = 0,
 		name = "숙련된 참모 능력 (USS)",
 		group_id = 211,
@@ -4571,8 +4745,8 @@ pg.commander_ability_template = {
 				4
 			}
 		}
-	},
-	[2113] = {
+	}
+	pg.base.commander_ability_template[2113] = {
 		cost = 0,
 		name = "참모 마스터 (USS)",
 		group_id = 211,
@@ -4624,8 +4798,8 @@ pg.commander_ability_template = {
 				6
 			}
 		}
-	},
-	[2121] = {
+	}
+	pg.base.commander_ability_template[2121] = {
 		cost = 0,
 		name = "루키의 참모 능력 (HMS)",
 		group_id = 212,
@@ -4677,8 +4851,8 @@ pg.commander_ability_template = {
 				1
 			}
 		}
-	},
-	[2122] = {
+	}
+	pg.base.commander_ability_template[2122] = {
 		cost = 0,
 		name = "숙련된 참모 능력 (HMS)",
 		group_id = 212,
@@ -4730,8 +4904,8 @@ pg.commander_ability_template = {
 				2
 			}
 		}
-	},
-	[2123] = {
+	}
+	pg.base.commander_ability_template[2123] = {
 		cost = 0,
 		name = "참모 마스터 (HMS)",
 		group_id = 212,
@@ -4783,8 +4957,8 @@ pg.commander_ability_template = {
 				3
 			}
 		}
-	},
-	[2131] = {
+	}
+	pg.base.commander_ability_template[2131] = {
 		cost = 0,
 		name = "루키의 참모 능력 (IJN)",
 		group_id = 213,
@@ -4836,8 +5010,8 @@ pg.commander_ability_template = {
 				1
 			}
 		}
-	},
-	[2132] = {
+	}
+	pg.base.commander_ability_template[2132] = {
 		cost = 0,
 		name = "숙련된 참모 능력 (IJN)",
 		group_id = 213,
@@ -4889,8 +5063,8 @@ pg.commander_ability_template = {
 				2
 			}
 		}
-	},
-	[2133] = {
+	}
+	pg.base.commander_ability_template[2133] = {
 		cost = 0,
 		name = "참모 마스터 (IJN)",
 		group_id = 213,
@@ -4942,8 +5116,8 @@ pg.commander_ability_template = {
 				3
 			}
 		}
-	},
-	[2141] = {
+	}
+	pg.base.commander_ability_template[2141] = {
 		cost = 0,
 		name = "루키의 참모 능력 (KMS)",
 		group_id = 214,
@@ -4993,8 +5167,8 @@ pg.commander_ability_template = {
 				1
 			}
 		}
-	},
-	[2142] = {
+	}
+	pg.base.commander_ability_template[2142] = {
 		cost = 0,
 		name = "숙련된 참모 능력 (KMS)",
 		group_id = 214,
@@ -5044,8 +5218,8 @@ pg.commander_ability_template = {
 				2
 			}
 		}
-	},
-	[2143] = {
+	}
+	pg.base.commander_ability_template[2143] = {
 		cost = 0,
 		name = "참모 마스터 (KMS)",
 		group_id = 214,
@@ -5095,8 +5269,8 @@ pg.commander_ability_template = {
 				3
 			}
 		}
-	},
-	[2151] = {
+	}
+	pg.base.commander_ability_template[2151] = {
 		cost = 0,
 		name = "루키의 참모 능력 (ROC)",
 		group_id = 215,
@@ -5148,8 +5322,8 @@ pg.commander_ability_template = {
 				3
 			}
 		}
-	},
-	[2152] = {
+	}
+	pg.base.commander_ability_template[2152] = {
 		cost = 0,
 		name = "숙련된 참모 능력 (ROC)",
 		group_id = 215,
@@ -5201,8 +5375,8 @@ pg.commander_ability_template = {
 				4
 			}
 		}
-	},
-	[2153] = {
+	}
+	pg.base.commander_ability_template[2153] = {
 		cost = 0,
 		name = "참모 마스터 (ROC)",
 		group_id = 215,
@@ -5254,8 +5428,8 @@ pg.commander_ability_template = {
 				6
 			}
 		}
-	},
-	[2171] = {
+	}
+	pg.base.commander_ability_template[2171] = {
 		cost = 0,
 		name = "루키의 참모 능력 (SN)",
 		group_id = 217,
@@ -5307,8 +5481,8 @@ pg.commander_ability_template = {
 				1
 			}
 		}
-	},
-	[2172] = {
+	}
+	pg.base.commander_ability_template[2172] = {
 		cost = 0,
 		name = "숙련된 참모 능력 (SN)",
 		group_id = 217,
@@ -5360,8 +5534,8 @@ pg.commander_ability_template = {
 				2
 			}
 		}
-	},
-	[2173] = {
+	}
+	pg.base.commander_ability_template[2173] = {
 		cost = 0,
 		name = "참모 마스터 (SN)",
 		group_id = 217,
@@ -5413,8 +5587,8 @@ pg.commander_ability_template = {
 				3
 			}
 		}
-	},
-	[2181] = {
+	}
+	pg.base.commander_ability_template[2181] = {
 		cost = 0,
 		name = "루키의 참모 능력 (FFNF)",
 		group_id = 218,
@@ -5466,8 +5640,8 @@ pg.commander_ability_template = {
 				2
 			}
 		}
-	},
-	[2182] = {
+	}
+	pg.base.commander_ability_template[2182] = {
 		cost = 0,
 		name = "숙련된 참모 능력 (FFNF)",
 		group_id = 218,
@@ -5519,8 +5693,8 @@ pg.commander_ability_template = {
 				3
 			}
 		}
-	},
-	[2183] = {
+	}
+	pg.base.commander_ability_template[2183] = {
 		cost = 0,
 		name = "참모 마스터 (FFNF)",
 		group_id = 218,
@@ -5572,8 +5746,8 @@ pg.commander_ability_template = {
 				5
 			}
 		}
-	},
-	[2191] = {
+	}
+	pg.base.commander_ability_template[2191] = {
 		cost = 0,
 		name = "루키의 참모 능력 (MNF)",
 		group_id = 219,
@@ -5625,8 +5799,8 @@ pg.commander_ability_template = {
 				2
 			}
 		}
-	},
-	[2192] = {
+	}
+	pg.base.commander_ability_template[2192] = {
 		cost = 0,
 		name = "숙련된 참모 능력 (MNF)",
 		group_id = 219,
@@ -5678,8 +5852,8 @@ pg.commander_ability_template = {
 				3
 			}
 		}
-	},
-	[2193] = {
+	}
+	pg.base.commander_ability_template[2193] = {
 		cost = 0,
 		name = "참모 마스터 (MNF)",
 		group_id = 219,
@@ -5731,8 +5905,8 @@ pg.commander_ability_template = {
 				5
 			}
 		}
-	},
-	[5011] = {
+	}
+	pg.base.commander_ability_template[5011] = {
 		cost = 0,
 		name = "임전무퇴",
 		group_id = 501,
@@ -5791,8 +5965,8 @@ pg.commander_ability_template = {
 				12
 			}
 		}
-	},
-	[5021] = {
+	}
+	pg.base.commander_ability_template[5021] = {
 		cost = 0,
 		name = "생즉사 사즉생",
 		group_id = 502,
@@ -5840,8 +6014,8 @@ pg.commander_ability_template = {
 				"%"
 			}
 		}
-	},
-	[5031] = {
+	}
+	pg.base.commander_ability_template[5031] = {
 		cost = 0,
 		name = "회심의 어뢰",
 		group_id = 503,
@@ -5891,8 +6065,8 @@ pg.commander_ability_template = {
 				"%"
 			}
 		}
-	},
-	[5041] = {
+	}
+	pg.base.commander_ability_template[5041] = {
 		cost = 0,
 		name = "하늘의 에이스",
 		group_id = 504,
@@ -5931,8 +6105,8 @@ pg.commander_ability_template = {
 				8
 			}
 		}
-	},
-	[5051] = {
+	}
+	pg.base.commander_ability_template[5051] = {
 		cost = 0,
 		name = "울프 하운드",
 		group_id = 505,
@@ -5973,8 +6147,8 @@ pg.commander_ability_template = {
 				8
 			}
 		}
-	},
-	[5061] = {
+	}
+	pg.base.commander_ability_template[5061] = {
 		cost = 0,
 		name = "주목받는 샛별",
 		group_id = 506,
@@ -5993,8 +6167,8 @@ pg.commander_ability_template = {
 			}
 		},
 		add_desc = {}
-	},
-	[5071] = {
+	}
+	pg.base.commander_ability_template[5071] = {
 		cost = 0,
 		name = "베스트 프렌드",
 		group_id = 507,
@@ -6013,8 +6187,8 @@ pg.commander_ability_template = {
 			}
 		},
 		add_desc = {}
-	},
-	[5081] = {
+	}
+	pg.base.commander_ability_template[5081] = {
 		cost = 0,
 		name = "빠르기는 바람과 같이",
 		group_id = 508,
@@ -6038,8 +6212,8 @@ pg.commander_ability_template = {
 				3
 			}
 		}
-	},
-	[5091] = {
+	}
+	pg.base.commander_ability_template[5091] = {
 		cost = 0,
 		name = "차분하기는 숲과 같이",
 		group_id = 509,
@@ -6096,8 +6270,8 @@ pg.commander_ability_template = {
 				3
 			}
 		}
-	},
-	[5101] = {
+	}
+	pg.base.commander_ability_template[5101] = {
 		cost = 0,
 		name = "돌진은 불과 같이",
 		group_id = 510,
@@ -6122,8 +6296,8 @@ pg.commander_ability_template = {
 				"%"
 			}
 		}
-	},
-	[5111] = {
+	}
+	pg.base.commander_ability_template[5111] = {
 		cost = 0,
 		name = "흔들리지 않기는 산과 같이",
 		group_id = 511,
@@ -6148,8 +6322,8 @@ pg.commander_ability_template = {
 				"%"
 			}
 		}
-	},
-	[5121] = {
+	}
+	pg.base.commander_ability_template[5121] = {
 		cost = 0,
 		name = "미라클",
 		group_id = 512,
@@ -6173,8 +6347,8 @@ pg.commander_ability_template = {
 				5
 			}
 		}
-	},
-	[5131] = {
+	}
+	pg.base.commander_ability_template[5131] = {
 		cost = 0,
 		name = "데스티니",
 		group_id = 513,
@@ -6231,8 +6405,8 @@ pg.commander_ability_template = {
 				-3
 			}
 		}
-	},
-	[5141] = {
+	}
+	pg.base.commander_ability_template[5141] = {
 		cost = 0,
 		name = "전투 준비",
 		group_id = 514,
@@ -6269,8 +6443,8 @@ pg.commander_ability_template = {
 				25
 			}
 		}
-	},
-	[5151] = {
+	}
+	pg.base.commander_ability_template[5151] = {
 		cost = 0,
 		name = "돛을 내려라!",
 		group_id = 515,
@@ -6339,8 +6513,8 @@ pg.commander_ability_template = {
 				5
 			}
 		}
-	},
-	[5161] = {
+	}
+	pg.base.commander_ability_template[5161] = {
 		cost = 0,
 		name = "공수 예비",
 		group_id = 516,
@@ -6389,8 +6563,8 @@ pg.commander_ability_template = {
 				20
 			}
 		}
-	},
-	[5171] = {
+	}
+	pg.base.commander_ability_template[5171] = {
 		cost = 0,
 		name = "대담한 도전",
 		group_id = 517,
@@ -6444,8 +6618,8 @@ pg.commander_ability_template = {
 				15
 			}
 		}
-	},
-	[5181] = {
+	}
+	pg.base.commander_ability_template[5181] = {
 		cost = 0,
 		name = "다시 깃발을 걸고",
 		group_id = 518,
@@ -6504,171 +6678,5 @@ pg.commander_ability_template = {
 				10
 			}
 		}
-	},
-	all = {
-		101,
-		102,
-		103,
-		111,
-		112,
-		113,
-		121,
-		122,
-		123,
-		131,
-		132,
-		141,
-		142,
-		151,
-		152,
-		201,
-		202,
-		203,
-		211,
-		212,
-		213,
-		221,
-		222,
-		223,
-		301,
-		302,
-		303,
-		311,
-		312,
-		313,
-		321,
-		322,
-		401,
-		402,
-		403,
-		411,
-		412,
-		413,
-		501,
-		502,
-		503,
-		511,
-		512,
-		513,
-		601,
-		602,
-		603,
-		611,
-		612,
-		613,
-		621,
-		622,
-		623,
-		631,
-		632,
-		633,
-		641,
-		642,
-		643,
-		651,
-		652,
-		653,
-		701,
-		702,
-		703,
-		711,
-		712,
-		713,
-		721,
-		722,
-		723,
-		731,
-		732,
-		733,
-		741,
-		742,
-		743,
-		751,
-		752,
-		753,
-		761,
-		762,
-		763,
-		771,
-		772,
-		773,
-		801,
-		802,
-		803,
-		811,
-		812,
-		813,
-		821,
-		822,
-		823,
-		831,
-		832,
-		833,
-		901,
-		902,
-		903,
-		911,
-		912,
-		913,
-		921,
-		922,
-		923,
-		2001,
-		2002,
-		2003,
-		2011,
-		2012,
-		2013,
-		2021,
-		2022,
-		2023,
-		2031,
-		2032,
-		2033,
-		2041,
-		2042,
-		2043,
-		2111,
-		2112,
-		2113,
-		2121,
-		2122,
-		2123,
-		2131,
-		2132,
-		2133,
-		2141,
-		2142,
-		2143,
-		2151,
-		2152,
-		2153,
-		2171,
-		2172,
-		2173,
-		2181,
-		2182,
-		2183,
-		2191,
-		2192,
-		2193,
-		5011,
-		5021,
-		5031,
-		5041,
-		5051,
-		5061,
-		5071,
-		5081,
-		5091,
-		5101,
-		5111,
-		5121,
-		5131,
-		5141,
-		5151,
-		5161,
-		5171,
-		5181
 	}
-}
+end)()

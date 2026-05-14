@@ -1,6 +1,106 @@
 pg = pg or {}
-pg.equip_skin_theme_template = {
-	{
+pg.equip_skin_theme_template = rawget(pg, "equip_skin_theme_template") or setmetatable({
+	__name = "equip_skin_theme_template"
+}, confNEO)
+pg.equip_skin_theme_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	39,
+	40,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	47,
+	48,
+	49,
+	50,
+	51,
+	52,
+	53,
+	54,
+	55,
+	56,
+	57,
+	58,
+	59,
+	60,
+	61,
+	62,
+	63,
+	64,
+	65,
+	66,
+	67,
+	68,
+	69,
+	70,
+	71,
+	72,
+	73,
+	74,
+	75,
+	77,
+	78,
+	79,
+	80,
+	81,
+	82,
+	83,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	199
+}
+pg.base = pg.base or {}
+pg.base.equip_skin_theme_template = {}
+
+(function ()
+	pg.base.equip_skin_theme_template[1] = {
 		id = 1,
 		name = "바다표범 시리즈",
 		ids = {
@@ -9,8 +109,8 @@ pg.equip_skin_theme_template = {
 			11,
 			12
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[2] = {
 		id = 2,
 		name = "어시장 시리즈",
 		ids = {
@@ -19,8 +119,8 @@ pg.equip_skin_theme_template = {
 			13,
 			14
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[3] = {
 		id = 3,
 		name = "해피 뉴이어",
 		ids = {
@@ -30,8 +130,8 @@ pg.equip_skin_theme_template = {
 			16,
 			17
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[4] = {
 		id = 4,
 		name = "메리 크리스마스",
 		ids = {
@@ -44,8 +144,8 @@ pg.equip_skin_theme_template = {
 			20,
 			21
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[5] = {
 		id = 5,
 		name = "게임업계",
 		ids = {
@@ -65,8 +165,8 @@ pg.equip_skin_theme_template = {
 			1014,
 			1015
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[6] = {
 		id = 6,
 		name = "해봄이",
 		ids = {
@@ -76,8 +176,8 @@ pg.equip_skin_theme_template = {
 			25,
 			26
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[7] = {
 		id = 7,
 		name = "근하신년",
 		ids = {
@@ -94,8 +194,8 @@ pg.equip_skin_theme_template = {
 			37,
 			38
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[8] = {
 		id = 8,
 		name = "학교 시리즈",
 		ids = {
@@ -117,8 +217,8 @@ pg.equip_skin_theme_template = {
 			65,
 			66
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[9] = {
 		id = 9,
 		name = "여름 시리즈",
 		ids = {
@@ -141,8 +241,8 @@ pg.equip_skin_theme_template = {
 			117,
 			118
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[10] = {
 		id = 10,
 		name = "저돌맹진",
 		ids = {
@@ -165,8 +265,8 @@ pg.equip_skin_theme_template = {
 			136,
 			137
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[11] = {
 		id = 11,
 		name = "로열 풍격",
 		ids = {
@@ -189,8 +289,8 @@ pg.equip_skin_theme_template = {
 			156,
 			157
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[12] = {
 		id = 12,
 		name = "칭송받는 자 ",
 		ids = {
@@ -213,8 +313,8 @@ pg.equip_skin_theme_template = {
 			1067,
 			1068
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[13] = {
 		id = 13,
 		name = "키즈나 아이 시리즈",
 		ids = {
@@ -238,8 +338,8 @@ pg.equip_skin_theme_template = {
 			1118,
 			1119
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[14] = {
 		id = 14,
 		name = "사르데냐 시리즈",
 		ids = {
@@ -262,8 +362,8 @@ pg.equip_skin_theme_template = {
 			176,
 			177
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[15] = {
 		id = 15,
 		name = "격주 라이브",
 		ids = {
@@ -286,8 +386,8 @@ pg.equip_skin_theme_template = {
 			196,
 			197
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[16] = {
 		id = 16,
 		name = "hololive",
 		ids = {
@@ -310,8 +410,8 @@ pg.equip_skin_theme_template = {
 			216,
 			217
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[17] = {
 		id = 17,
 		name = "노스 유니온 수용소 ",
 		ids = {
@@ -334,8 +434,8 @@ pg.equip_skin_theme_template = {
 			236,
 			237
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[18] = {
 		id = 18,
 		name = "이글 유니온 스타일 ",
 		ids = {
@@ -358,8 +458,8 @@ pg.equip_skin_theme_template = {
 			256,
 			257
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[19] = {
 		id = 19,
 		name = "아이리스의 흔적 ",
 		ids = {
@@ -382,8 +482,8 @@ pg.equip_skin_theme_template = {
 			276,
 			277
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[20] = {
 		id = 20,
 		name = "쥬쥬 야전 병원 ",
 		ids = {
@@ -406,8 +506,8 @@ pg.equip_skin_theme_template = {
 			296,
 			297
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[21] = {
 		id = 21,
 		name = "사쿠라 엠파이어 유니크",
 		ids = {
@@ -430,8 +530,8 @@ pg.equip_skin_theme_template = {
 			316,
 			317
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[22] = {
 		id = 22,
 		name = "격창 유니버스",
 		ids = {
@@ -454,8 +554,8 @@ pg.equip_skin_theme_template = {
 			336,
 			337
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[23] = {
 		id = 23,
 		name = "여신 바캉스",
 		ids = {
@@ -478,8 +578,8 @@ pg.equip_skin_theme_template = {
 			356,
 			357
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[24] = {
 		id = 24,
 		name = "메탈 블러드 스타일",
 		ids = {
@@ -502,8 +602,8 @@ pg.equip_skin_theme_template = {
 			376,
 			377
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[25] = {
 		id = 25,
 		name = "경하신년",
 		ids = {
@@ -526,8 +626,8 @@ pg.equip_skin_theme_template = {
 			396,
 			397
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[26] = {
 		id = 26,
 		name = "쥬쥬랜드",
 		ids = {
@@ -550,8 +650,8 @@ pg.equip_skin_theme_template = {
 			416,
 			417
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[27] = {
 		id = 27,
 		name = "아이돌 마스터",
 		ids = {
@@ -574,8 +674,8 @@ pg.equip_skin_theme_template = {
 			436,
 			437
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[28] = {
 		id = 28,
 		name = "웨스턴 스타일",
 		ids = {
@@ -598,8 +698,8 @@ pg.equip_skin_theme_template = {
 			456,
 			457
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[29] = {
 		id = 29,
 		name = "쥬쥬 워터파크",
 		ids = {
@@ -622,8 +722,8 @@ pg.equip_skin_theme_template = {
 			476,
 			477
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[30] = {
 		id = 30,
 		name = "SSSS",
 		ids = {
@@ -653,8 +753,8 @@ pg.equip_skin_theme_template = {
 			805,
 			806
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[31] = {
 		id = 31,
 		name = "메이드 카페",
 		ids = {
@@ -677,8 +777,8 @@ pg.equip_skin_theme_template = {
 			516,
 			517
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[32] = {
 		id = 32,
 		name = "이스트 글림 경지",
 		ids = {
@@ -701,8 +801,8 @@ pg.equip_skin_theme_template = {
 			536,
 			537
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[33] = {
 		id = 33,
 		name = "붉은 달의 밤",
 		ids = {
@@ -725,8 +825,8 @@ pg.equip_skin_theme_template = {
 			556,
 			557
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[34] = {
 		id = 34,
 		name = "이스트 글림 패션",
 		ids = {
@@ -749,8 +849,8 @@ pg.equip_skin_theme_template = {
 			576,
 			577
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[35] = {
 		id = 35,
 		name = "동화 세계",
 		ids = {
@@ -773,8 +873,8 @@ pg.equip_skin_theme_template = {
 			596,
 			597
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[36] = {
 		id = 36,
 		name = "댄스 공간",
 		ids = {
@@ -797,8 +897,8 @@ pg.equip_skin_theme_template = {
 			616,
 			617
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[37] = {
 		id = 37,
 		name = "메탈 블러드의 의지",
 		ids = {
@@ -821,8 +921,8 @@ pg.equip_skin_theme_template = {
 			636,
 			637
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[38] = {
 		id = 38,
 		name = "쥬쥬 학원 축제",
 		ids = {
@@ -845,8 +945,8 @@ pg.equip_skin_theme_template = {
 			654,
 			655
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[39] = {
 		id = 39,
 		name = "용자의 대모험",
 		ids = {
@@ -876,8 +976,8 @@ pg.equip_skin_theme_template = {
 			946,
 			947
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[40] = {
 		id = 40,
 		name = "유령 파티",
 		ids = {
@@ -900,8 +1000,8 @@ pg.equip_skin_theme_template = {
 			686,
 			687
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[41] = {
 		id = 41,
 		name = "아틀리에",
 		ids = {
@@ -925,8 +1025,8 @@ pg.equip_skin_theme_template = {
 			1217,
 			1218
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[42] = {
 		id = 42,
 		name = "남방 휴일",
 		ids = {
@@ -949,8 +1049,8 @@ pg.equip_skin_theme_template = {
 			706,
 			707
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[43] = {
 		id = 43,
 		name = "이스트 글림 음식",
 		ids = {
@@ -973,15 +1073,15 @@ pg.equip_skin_theme_template = {
 			726,
 			727
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[44] = {
 		id = 44,
 		name = "스윗 선물",
 		ids = {
 			1300
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[45] = {
 		id = 45,
 		name = "로열 교실",
 		ids = {
@@ -1004,8 +1104,8 @@ pg.equip_skin_theme_template = {
 			746,
 			747
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[46] = {
 		id = 46,
 		name = "쥬쥬 무인도",
 		ids = {
@@ -1028,8 +1128,8 @@ pg.equip_skin_theme_template = {
 			766,
 			767
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[47] = {
 		id = 47,
 		name = "정령의 숲",
 		ids = {
@@ -1039,8 +1139,8 @@ pg.equip_skin_theme_template = {
 			774,
 			775
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[48] = {
 		id = 48,
 		name = "애니멀 오피스",
 		ids = {
@@ -1063,8 +1163,8 @@ pg.equip_skin_theme_template = {
 			796,
 			797
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[49] = {
 		id = 49,
 		name = "여름 판타지",
 		ids = {
@@ -1087,8 +1187,8 @@ pg.equip_skin_theme_template = {
 			826,
 			827
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[50] = {
 		id = 50,
 		name = "백귀야행",
 		ids = {
@@ -1111,8 +1211,8 @@ pg.equip_skin_theme_template = {
 			846,
 			847
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[51] = {
 		id = 51,
 		name = "파이러트 대집결!",
 		ids = {
@@ -1135,8 +1235,8 @@ pg.equip_skin_theme_template = {
 			866,
 			867
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[52] = {
 		id = 52,
 		name = "섬란 카구라",
 		ids = {
@@ -1159,8 +1259,8 @@ pg.equip_skin_theme_template = {
 			1416,
 			1417
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[53] = {
 		id = 53,
 		name = "모항 나이트 클럽",
 		ids = {
@@ -1183,8 +1283,8 @@ pg.equip_skin_theme_template = {
 			886,
 			887
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[54] = {
 		id = 54,
 		name = "헌원비보",
 		ids = {
@@ -1208,8 +1308,8 @@ pg.equip_skin_theme_template = {
 			907,
 			908
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[55] = {
 		id = 55,
 		name = "괴도 도시",
 		ids = {
@@ -1232,8 +1332,8 @@ pg.equip_skin_theme_template = {
 			926,
 			927
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[56] = {
 		id = 56,
 		name = "공명의 Passion",
 		ids = {
@@ -1256,8 +1356,8 @@ pg.equip_skin_theme_template = {
 			966,
 			967
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[57] = {
 		id = 57,
 		name = "크루즈 베케이션!",
 		ids = {
@@ -1280,8 +1380,8 @@ pg.equip_skin_theme_template = {
 			986,
 			987
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[58] = {
 		id = 58,
 		name = "동심 학원",
 		ids = {
@@ -1305,8 +1405,8 @@ pg.equip_skin_theme_template = {
 			4018,
 			4019
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[59] = {
 		id = 59,
 		name = "웨스턴 스토리",
 		ids = {
@@ -1329,8 +1429,8 @@ pg.equip_skin_theme_template = {
 			4037,
 			4038
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[60] = {
 		id = 60,
 		name = "드림 랜드",
 		ids = {
@@ -1353,8 +1453,8 @@ pg.equip_skin_theme_template = {
 			4057,
 			4058
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[61] = {
 		id = 61,
 		name = "공포광조",
 		ids = {
@@ -1377,8 +1477,8 @@ pg.equip_skin_theme_template = {
 			4075,
 			4076
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[62] = {
 		id = 62,
 		name = "To LOVE-Ru ",
 		ids = {
@@ -1401,8 +1501,8 @@ pg.equip_skin_theme_template = {
 			1466,
 			1467
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[63] = {
 		id = 63,
 		name = "황야의 힘",
 		ids = {
@@ -1425,8 +1525,8 @@ pg.equip_skin_theme_template = {
 			4093,
 			4094
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[64] = {
 		id = 64,
 		name = "서광영춘",
 		ids = {
@@ -1449,8 +1549,8 @@ pg.equip_skin_theme_template = {
 			4111,
 			4112
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[65] = {
 		id = 65,
 		name = "파라오의 천년 비보",
 		ids = {
@@ -1473,8 +1573,8 @@ pg.equip_skin_theme_template = {
 			4129,
 			4130
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[66] = {
 		id = 66,
 		name = "병원 모험",
 		ids = {
@@ -1497,8 +1597,8 @@ pg.equip_skin_theme_template = {
 			4147,
 			4148
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[67] = {
 		id = 67,
 		name = "튤리퍼의 목가",
 		ids = {
@@ -1521,8 +1621,8 @@ pg.equip_skin_theme_template = {
 			4165,
 			4166
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[68] = {
 		id = 68,
 		name = "시사이드",
 		ids = {
@@ -1545,8 +1645,8 @@ pg.equip_skin_theme_template = {
 			4183,
 			4184
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[69] = {
 		id = 69,
 		name = "BLACK★ROCK SHOOTER",
 		ids = {
@@ -1561,8 +1661,8 @@ pg.equip_skin_theme_template = {
 			1479,
 			1480
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[70] = {
 		id = 70,
 		name = "철도 여행",
 		ids = {
@@ -1585,8 +1685,8 @@ pg.equip_skin_theme_template = {
 			4202,
 			4203
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[71] = {
 		id = 71,
 		name = "콜라보 (유미아의 아틀리에)",
 		ids = {
@@ -1610,8 +1710,8 @@ pg.equip_skin_theme_template = {
 			1498,
 			1499
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[72] = {
 		id = 72,
 		name = "심연의 환상",
 		ids = {
@@ -1634,8 +1734,8 @@ pg.equip_skin_theme_template = {
 			4220,
 			4221
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[73] = {
 		id = 73,
 		name = "환몽 아마하라",
 		ids = {
@@ -1658,8 +1758,8 @@ pg.equip_skin_theme_template = {
 			4238,
 			4239
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[74] = {
 		id = 74,
 		name = "danmachi",
 		ids = {
@@ -1671,8 +1771,8 @@ pg.equip_skin_theme_template = {
 			1506,
 			1507
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[75] = {
 		id = 75,
 		name = "심해 보물찾기",
 		ids = {
@@ -1695,8 +1795,8 @@ pg.equip_skin_theme_template = {
 			4256,
 			4257
 		}
-	},
-	[77] = {
+	}
+	pg.base.equip_skin_theme_template[77] = {
 		id = 77,
 		name = "Date A Live",
 		ids = {
@@ -1719,8 +1819,8 @@ pg.equip_skin_theme_template = {
 			1527,
 			1528
 		}
-	},
-	[78] = {
+	}
+	pg.base.equip_skin_theme_template[78] = {
 		id = 78,
 		name = "메이드 하우스",
 		ids = {
@@ -1743,8 +1843,8 @@ pg.equip_skin_theme_template = {
 			4274,
 			4275
 		}
-	},
-	[79] = {
+	}
+	pg.base.equip_skin_theme_template[79] = {
 		id = 79,
 		name = "카메라 사이트",
 		ids = {
@@ -1767,8 +1867,8 @@ pg.equip_skin_theme_template = {
 			4292,
 			4293
 		}
-	},
-	[80] = {
+	}
+	pg.base.equip_skin_theme_template[80] = {
 		id = 80,
 		name = "신춘 옥션",
 		ids = {
@@ -1791,8 +1891,8 @@ pg.equip_skin_theme_template = {
 			4310,
 			4311
 		}
-	},
-	[81] = {
+	}
+	pg.base.equip_skin_theme_template[81] = {
 		id = 81,
 		name = "봄빛 여관",
 		ids = {
@@ -1815,8 +1915,8 @@ pg.equip_skin_theme_template = {
 			4328,
 			4329
 		}
-	},
-	[82] = {
+	}
+	pg.base.equip_skin_theme_template[82] = {
 		id = 82,
 		name = "나이트 에이전트",
 		ids = {
@@ -1839,8 +1939,8 @@ pg.equip_skin_theme_template = {
 			4346,
 			4347
 		}
-	},
-	[83] = {
+	}
+	pg.base.equip_skin_theme_template[83] = {
 		id = 83,
 		name = "빛나는 해변",
 		ids = {
@@ -1863,8 +1963,8 @@ pg.equip_skin_theme_template = {
 			4364,
 			4365
 		}
-	},
-	[101] = {
+	}
+	pg.base.equip_skin_theme_template[101] = {
 		id = 101,
 		name = "무한한 별",
 		ids = {
@@ -1882,8 +1982,8 @@ pg.equip_skin_theme_template = {
 			2012,
 			2013
 		}
-	},
-	[102] = {
+	}
+	pg.base.equip_skin_theme_template[102] = {
 		id = 102,
 		name = "마술 극장",
 		ids = {
@@ -1903,8 +2003,8 @@ pg.equip_skin_theme_template = {
 			2027,
 			2028
 		}
-	},
-	[103] = {
+	}
+	pg.base.equip_skin_theme_template[103] = {
 		id = 103,
 		name = "풍운만상",
 		ids = {
@@ -1923,8 +2023,8 @@ pg.equip_skin_theme_template = {
 			2041,
 			2042
 		}
-	},
-	[104] = {
+	}
+	pg.base.equip_skin_theme_template[104] = {
 		id = 104,
 		name = "레트로 게이머",
 		ids = {
@@ -1943,8 +2043,8 @@ pg.equip_skin_theme_template = {
 			2055,
 			2056
 		}
-	},
-	[105] = {
+	}
+	pg.base.equip_skin_theme_template[105] = {
 		id = 105,
 		name = "매직 제너레이션",
 		ids = {
@@ -1963,8 +2063,8 @@ pg.equip_skin_theme_template = {
 			2073,
 			2074
 		}
-	},
-	[106] = {
+	}
+	pg.base.equip_skin_theme_template[106] = {
 		id = 106,
 		name = "사이버 시대",
 		ids = {
@@ -1983,8 +2083,8 @@ pg.equip_skin_theme_template = {
 			2087,
 			2088
 		}
-	},
-	[107] = {
+	}
+	pg.base.equip_skin_theme_template[107] = {
 		id = 107,
 		name = "빛과 어둠",
 		ids = {
@@ -2001,8 +2101,8 @@ pg.equip_skin_theme_template = {
 			2099,
 			2100
 		}
-	},
-	[108] = {
+	}
+	pg.base.equip_skin_theme_template[108] = {
 		id = 108,
 		name = "먹빛의 산과 강",
 		ids = {
@@ -2019,8 +2119,8 @@ pg.equip_skin_theme_template = {
 			2111,
 			2112
 		}
-	},
-	[109] = {
+	}
+	pg.base.equip_skin_theme_template[109] = {
 		id = 109,
 		name = "잃어버린 유적",
 		ids = {
@@ -2033,8 +2133,8 @@ pg.equip_skin_theme_template = {
 			2119,
 			2120
 		}
-	},
-	[199] = {
+	}
+	pg.base.equip_skin_theme_template[199] = {
 		id = 199,
 		name = "기타",
 		ids = {
@@ -2121,99 +2221,5 @@ pg.equip_skin_theme_template = {
 			3075,
 			3076
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		39,
-		40,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46,
-		47,
-		48,
-		49,
-		50,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56,
-		57,
-		58,
-		59,
-		60,
-		61,
-		62,
-		63,
-		64,
-		65,
-		66,
-		67,
-		68,
-		69,
-		70,
-		71,
-		72,
-		73,
-		74,
-		75,
-		77,
-		78,
-		79,
-		80,
-		81,
-		82,
-		83,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		199
 	}
-}
+end)()

@@ -13,7 +13,7 @@ slot5 = function(slot0, slot1, slot2, slot3)
 	slot5 = function()
 		slot1 = nil
 
-		if uv0[uv1] and slot0 ~= "" then
+		if (uv0 and uv1[uv0] or nil) and slot0 ~= "" then
 			for slot5, slot6 in ipairs(slot0) do
 				if slot6[1] <= uv2 then
 					slot1 = slot6[2]
@@ -70,7 +70,7 @@ slot0.GetExpression = function(slot0, slot1, slot2, slot3)
 		return nil
 	end
 
-	slot5 = slot4[slot1]
+	slot5 = slot1 and slot4[slot1] or nil
 
 	if slot2 and uv2(slot0, slot1, slot2, slot3) then
 		uv0("get expression form ex:", slot6)

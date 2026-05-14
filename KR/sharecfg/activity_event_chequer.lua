@@ -1,6 +1,21 @@
 pg = pg or {}
-pg.activity_event_chequer = {
-	{
+pg.activity_event_chequer = rawget(pg, "activity_event_chequer") or setmetatable({
+	__name = "activity_event_chequer"
+}, confNEO)
+pg.activity_event_chequer.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7
+}
+pg.base = pg.base or {}
+pg.base.activity_event_chequer = {}
+
+(function ()
+	pg.base.activity_event_chequer[1] = {
 		drop_normal = 93803,
 		chequer_normal = 24,
 		difficult = 1,
@@ -35,8 +50,8 @@ pg.activity_event_chequer = {
 				7
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_chequer[2] = {
 		drop_normal = 93803,
 		chequer_normal = 24,
 		difficult = 1,
@@ -71,8 +86,8 @@ pg.activity_event_chequer = {
 				7
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_chequer[3] = {
 		drop_normal = 93803,
 		chequer_normal = 24,
 		difficult = 1,
@@ -107,8 +122,8 @@ pg.activity_event_chequer = {
 				7
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_chequer[4] = {
 		drop_normal = 93803,
 		chequer_normal = 24,
 		difficult = 2,
@@ -143,8 +158,8 @@ pg.activity_event_chequer = {
 				7
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_chequer[5] = {
 		drop_normal = 93803,
 		chequer_normal = 24,
 		difficult = 2,
@@ -179,8 +194,8 @@ pg.activity_event_chequer = {
 				7
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_chequer[6] = {
 		drop_normal = 93803,
 		chequer_normal = 24,
 		difficult = 3,
@@ -215,8 +230,8 @@ pg.activity_event_chequer = {
 				7
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_chequer[7] = {
 		drop_normal = 93803,
 		chequer_normal = 23,
 		difficult = 3,
@@ -252,14 +267,5 @@ pg.activity_event_chequer = {
 				7
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7
 	}
-}
+end)()

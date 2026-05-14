@@ -1,6 +1,18 @@
 pg = pg or {}
-pg.child2_minigame = {
-	{
+pg.child2_minigame = rawget(pg, "child2_minigame") or setmetatable({
+	__name = "child2_minigame"
+}, confNEO)
+pg.child2_minigame.all = {
+	1,
+	2,
+	3,
+	4
+}
+pg.base = pg.base or {}
+pg.base.child2_minigame = {}
+
+(function ()
+	pg.base.child2_minigame[1] = {
 		id = 1,
 		view_name = "NewEducateScratchGame",
 		config_data = {
@@ -17,8 +29,8 @@ pg.child2_minigame = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.child2_minigame[2] = {
 		id = 2,
 		view_name = "NewEducateNailingGame",
 		config_data = {
@@ -58,8 +70,8 @@ pg.child2_minigame = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.child2_minigame[3] = {
 		id = 3,
 		view_name = "NewEducateNailingGame",
 		config_data = {
@@ -99,8 +111,8 @@ pg.child2_minigame = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.child2_minigame[4] = {
 		id = 4,
 		view_name = "NewEducateNailingGame",
 		config_data = {
@@ -140,11 +152,5 @@ pg.child2_minigame = {
 				}
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4
 	}
-}
+end)()

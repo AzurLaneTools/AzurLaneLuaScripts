@@ -1,6 +1,187 @@
 pg = pg or {}
-pg.collection_template = {
-	[101] = {
+pg.collection_template = rawget(pg, "collection_template") or setmetatable({
+	__name = "collection_template"
+}, confNEO)
+pg.collection_template.all = {
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	110,
+	201,
+	202,
+	203,
+	204,
+	205,
+	206,
+	207,
+	208,
+	209,
+	210,
+	301,
+	302,
+	303,
+	304,
+	305,
+	306,
+	307,
+	308,
+	309,
+	310,
+	10101,
+	10102,
+	10103,
+	10104,
+	10105,
+	10106,
+	10201,
+	10202,
+	10203,
+	10204,
+	10205,
+	10206,
+	10207,
+	10301,
+	10302,
+	10303,
+	10304,
+	10305,
+	10306,
+	10401,
+	10402,
+	10403,
+	10404,
+	10405,
+	10406,
+	10407,
+	10501,
+	10502,
+	10503,
+	10504,
+	10505,
+	10506,
+	10601,
+	10602,
+	10603,
+	10604,
+	10605,
+	10606,
+	10607,
+	20101,
+	20102,
+	20103,
+	20104,
+	20105,
+	20106,
+	20107,
+	20108,
+	20109,
+	20110,
+	20111,
+	20112,
+	20113,
+	20114,
+	20115,
+	20116,
+	20117,
+	20118,
+	30101,
+	30102,
+	30103,
+	30104,
+	30105,
+	30106,
+	30107,
+	30108,
+	30109,
+	30110,
+	30201,
+	30202,
+	30203,
+	30204,
+	30205,
+	30206,
+	30207,
+	30208,
+	30209,
+	30210,
+	30301,
+	30302,
+	30303,
+	30304,
+	30305,
+	30306,
+	30307,
+	30308,
+	30309,
+	30310,
+	30401,
+	30402,
+	30403,
+	30404,
+	30405,
+	30406,
+	30407,
+	30408,
+	30409,
+	30410,
+	40101,
+	40102,
+	40103,
+	40104,
+	40105,
+	40106,
+	40201,
+	40202,
+	40203,
+	40204,
+	40205,
+	40206,
+	40301,
+	40302,
+	40303,
+	40304,
+	40305,
+	40306,
+	50001,
+	50002,
+	50003,
+	50004,
+	50005,
+	50006,
+	50007,
+	50008,
+	50009,
+	50010,
+	50011,
+	50012,
+	50013,
+	50014,
+	50015,
+	50016,
+	50017,
+	50018,
+	50019,
+	50020,
+	50021,
+	50022,
+	50023,
+	50024,
+	50025,
+	50026,
+	50027,
+	50028
+}
+pg.base = pg.base or {}
+pg.base.collection_template = {}
+
+(function ()
+	pg.base.collection_template[101] = {
 		ship_num = 2,
 		time = 0,
 		type = 1,
@@ -44,8 +225,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[102] = {
+	}
+	pg.base.collection_template[102] = {
 		ship_num = 2,
 		time = 0,
 		type = 1,
@@ -88,8 +269,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[103] = {
+	}
+	pg.base.collection_template[103] = {
 		ship_num = 3,
 		time = 0,
 		type = 1,
@@ -132,8 +313,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[104] = {
+	}
+	pg.base.collection_template[104] = {
 		ship_num = 1,
 		time = 0,
 		type = 1,
@@ -176,8 +357,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[105] = {
+	}
+	pg.base.collection_template[105] = {
 		ship_num = 1,
 		time = 0,
 		type = 1,
@@ -211,8 +392,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[106] = {
+	}
+	pg.base.collection_template[106] = {
 		ship_num = 2,
 		time = 0,
 		type = 1,
@@ -256,8 +437,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[107] = {
+	}
+	pg.base.collection_template[107] = {
 		ship_num = 2,
 		time = 0,
 		type = 1,
@@ -293,8 +474,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[108] = {
+	}
+	pg.base.collection_template[108] = {
 		ship_num = 3,
 		time = 0,
 		type = 1,
@@ -335,8 +516,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[109] = {
+	}
+	pg.base.collection_template[109] = {
 		ship_num = 3,
 		time = 0,
 		type = 1,
@@ -377,8 +558,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[110] = {
+	}
+	pg.base.collection_template[110] = {
 		ship_num = 3,
 		time = 0,
 		type = 1,
@@ -419,8 +600,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[201] = {
+	}
+	pg.base.collection_template[201] = {
 		ship_num = 3,
 		time = 0,
 		type = 1,
@@ -464,8 +645,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[202] = {
+	}
+	pg.base.collection_template[202] = {
 		ship_num = 3,
 		time = 0,
 		type = 1,
@@ -508,8 +689,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[203] = {
+	}
+	pg.base.collection_template[203] = {
 		ship_num = 4,
 		time = 0,
 		type = 1,
@@ -553,8 +734,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[204] = {
+	}
+	pg.base.collection_template[204] = {
 		ship_num = 3,
 		time = 0,
 		type = 1,
@@ -598,8 +779,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[205] = {
+	}
+	pg.base.collection_template[205] = {
 		ship_num = 3,
 		time = 0,
 		type = 1,
@@ -633,8 +814,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[206] = {
+	}
+	pg.base.collection_template[206] = {
 		ship_num = 4,
 		time = 0,
 		type = 1,
@@ -678,8 +859,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[207] = {
+	}
+	pg.base.collection_template[207] = {
 		ship_num = 4,
 		time = 0,
 		type = 1,
@@ -713,8 +894,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[208] = {
+	}
+	pg.base.collection_template[208] = {
 		ship_num = 4,
 		time = 0,
 		type = 1,
@@ -755,8 +936,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[209] = {
+	}
+	pg.base.collection_template[209] = {
 		ship_num = 4,
 		time = 0,
 		type = 1,
@@ -794,8 +975,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[210] = {
+	}
+	pg.base.collection_template[210] = {
 		ship_num = 4,
 		time = 0,
 		type = 1,
@@ -833,8 +1014,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[301] = {
+	}
+	pg.base.collection_template[301] = {
 		ship_num = 4,
 		time = 0,
 		type = 1,
@@ -878,8 +1059,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[302] = {
+	}
+	pg.base.collection_template[302] = {
 		ship_num = 4,
 		time = 0,
 		type = 1,
@@ -922,8 +1103,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[303] = {
+	}
+	pg.base.collection_template[303] = {
 		ship_num = 5,
 		time = 0,
 		type = 1,
@@ -968,8 +1149,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[304] = {
+	}
+	pg.base.collection_template[304] = {
 		ship_num = 4,
 		time = 0,
 		type = 1,
@@ -1011,8 +1192,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[305] = {
+	}
+	pg.base.collection_template[305] = {
 		ship_num = 4,
 		time = 0,
 		type = 1,
@@ -1047,8 +1228,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[306] = {
+	}
+	pg.base.collection_template[306] = {
 		ship_num = 5,
 		time = 0,
 		type = 1,
@@ -1094,8 +1275,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[307] = {
+	}
+	pg.base.collection_template[307] = {
 		ship_num = 5,
 		time = 0,
 		type = 1,
@@ -1127,8 +1308,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[308] = {
+	}
+	pg.base.collection_template[308] = {
 		ship_num = 5,
 		time = 0,
 		type = 1,
@@ -1170,8 +1351,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[309] = {
+	}
+	pg.base.collection_template[309] = {
 		ship_num = 5,
 		time = 0,
 		type = 1,
@@ -1208,8 +1389,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[310] = {
+	}
+	pg.base.collection_template[310] = {
 		ship_num = 5,
 		time = 0,
 		type = 1,
@@ -1247,8 +1428,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[10101] = {
+	}
+	pg.base.collection_template[10101] = {
 		ship_num = 3,
 		time = 7200,
 		type = 2,
@@ -1292,8 +1473,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10102] = {
+	}
+	pg.base.collection_template[10102] = {
 		ship_num = 3,
 		time = 7200,
 		type = 2,
@@ -1337,8 +1518,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10103] = {
+	}
+	pg.base.collection_template[10103] = {
 		ship_num = 3,
 		time = 10800,
 		type = 2,
@@ -1383,8 +1564,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10104] = {
+	}
+	pg.base.collection_template[10104] = {
 		ship_num = 3,
 		time = 10800,
 		type = 2,
@@ -1419,8 +1600,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10105] = {
+	}
+	pg.base.collection_template[10105] = {
 		ship_num = 3,
 		time = 19200,
 		type = 2,
@@ -1463,8 +1644,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10106] = {
+	}
+	pg.base.collection_template[10106] = {
 		ship_num = 3,
 		time = 19200,
 		type = 2,
@@ -1508,8 +1689,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10201] = {
+	}
+	pg.base.collection_template[10201] = {
 		ship_num = 3,
 		time = 7200,
 		type = 2,
@@ -1554,8 +1735,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10202] = {
+	}
+	pg.base.collection_template[10202] = {
 		ship_num = 3,
 		time = 7200,
 		type = 2,
@@ -1600,8 +1781,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10203] = {
+	}
+	pg.base.collection_template[10203] = {
 		ship_num = 3,
 		time = 8400,
 		type = 2,
@@ -1646,8 +1827,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10204] = {
+	}
+	pg.base.collection_template[10204] = {
 		ship_num = 3,
 		time = 8400,
 		type = 2,
@@ -1681,8 +1862,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10205] = {
+	}
+	pg.base.collection_template[10205] = {
 		ship_num = 3,
 		time = 19200,
 		type = 2,
@@ -1723,8 +1904,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10206] = {
+	}
+	pg.base.collection_template[10206] = {
 		ship_num = 3,
 		time = 19200,
 		type = 2,
@@ -1764,8 +1945,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10207] = {
+	}
+	pg.base.collection_template[10207] = {
 		ship_num = 3,
 		time = 21600,
 		type = 2,
@@ -1809,8 +1990,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10301] = {
+	}
+	pg.base.collection_template[10301] = {
 		ship_num = 4,
 		time = 18000,
 		type = 2,
@@ -1854,8 +2035,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10302] = {
+	}
+	pg.base.collection_template[10302] = {
 		ship_num = 4,
 		time = 18000,
 		type = 2,
@@ -1899,8 +2080,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10303] = {
+	}
+	pg.base.collection_template[10303] = {
 		ship_num = 4,
 		time = 12000,
 		type = 2,
@@ -1945,8 +2126,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10304] = {
+	}
+	pg.base.collection_template[10304] = {
 		ship_num = 4,
 		time = 12000,
 		type = 2,
@@ -1981,8 +2162,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10305] = {
+	}
+	pg.base.collection_template[10305] = {
 		ship_num = 4,
 		time = 40800,
 		type = 2,
@@ -2024,8 +2205,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10306] = {
+	}
+	pg.base.collection_template[10306] = {
 		ship_num = 4,
 		time = 40800,
 		type = 2,
@@ -2065,8 +2246,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10401] = {
+	}
+	pg.base.collection_template[10401] = {
 		ship_num = 4,
 		time = 18000,
 		type = 2,
@@ -2111,8 +2292,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10402] = {
+	}
+	pg.base.collection_template[10402] = {
 		ship_num = 4,
 		time = 18000,
 		type = 2,
@@ -2157,8 +2338,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10403] = {
+	}
+	pg.base.collection_template[10403] = {
 		ship_num = 4,
 		time = 40800,
 		type = 2,
@@ -2203,8 +2384,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10404] = {
+	}
+	pg.base.collection_template[10404] = {
 		ship_num = 4,
 		time = 40800,
 		type = 2,
@@ -2238,8 +2419,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10405] = {
+	}
+	pg.base.collection_template[10405] = {
 		ship_num = 4,
 		time = 32400,
 		type = 2,
@@ -2280,8 +2461,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10406] = {
+	}
+	pg.base.collection_template[10406] = {
 		ship_num = 4,
 		time = 32400,
 		type = 2,
@@ -2321,8 +2502,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10407] = {
+	}
+	pg.base.collection_template[10407] = {
 		ship_num = 4,
 		time = 43200,
 		type = 2,
@@ -2364,8 +2545,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10501] = {
+	}
+	pg.base.collection_template[10501] = {
 		ship_num = 5,
 		time = 36000,
 		type = 2,
@@ -2407,8 +2588,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10502] = {
+	}
+	pg.base.collection_template[10502] = {
 		ship_num = 5,
 		time = 36000,
 		type = 2,
@@ -2450,8 +2631,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10503] = {
+	}
+	pg.base.collection_template[10503] = {
 		ship_num = 5,
 		time = 62400,
 		type = 2,
@@ -2496,8 +2677,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10504] = {
+	}
+	pg.base.collection_template[10504] = {
 		ship_num = 5,
 		time = 62400,
 		type = 2,
@@ -2532,8 +2713,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10505] = {
+	}
+	pg.base.collection_template[10505] = {
 		ship_num = 5,
 		time = 24000,
 		type = 2,
@@ -2574,8 +2755,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10506] = {
+	}
+	pg.base.collection_template[10506] = {
 		ship_num = 5,
 		time = 24000,
 		type = 2,
@@ -2616,8 +2797,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10601] = {
+	}
+	pg.base.collection_template[10601] = {
 		ship_num = 5,
 		time = 36000,
 		type = 2,
@@ -2659,8 +2840,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10602] = {
+	}
+	pg.base.collection_template[10602] = {
 		ship_num = 5,
 		time = 36000,
 		type = 2,
@@ -2702,8 +2883,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10603] = {
+	}
+	pg.base.collection_template[10603] = {
 		ship_num = 5,
 		time = 62400,
 		type = 2,
@@ -2748,8 +2929,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10604] = {
+	}
+	pg.base.collection_template[10604] = {
 		ship_num = 5,
 		time = 62400,
 		type = 2,
@@ -2783,8 +2964,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10605] = {
+	}
+	pg.base.collection_template[10605] = {
 		ship_num = 5,
 		time = 64800,
 		type = 2,
@@ -2824,8 +3005,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10606] = {
+	}
+	pg.base.collection_template[10606] = {
 		ship_num = 5,
 		time = 64800,
 		type = 2,
@@ -2866,8 +3047,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[10607] = {
+	}
+	pg.base.collection_template[10607] = {
 		ship_num = 5,
 		time = 86400,
 		type = 2,
@@ -2909,8 +3090,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[20101] = {
+	}
+	pg.base.collection_template[20101] = {
 		ship_num = 3,
 		time = 0,
 		type = 3,
@@ -2965,8 +3146,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[20102] = {
+	}
+	pg.base.collection_template[20102] = {
 		ship_num = 4,
 		time = 0,
 		type = 3,
@@ -3021,8 +3202,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[20103] = {
+	}
+	pg.base.collection_template[20103] = {
 		ship_num = 5,
 		time = 0,
 		type = 3,
@@ -3077,8 +3258,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[20104] = {
+	}
+	pg.base.collection_template[20104] = {
 		ship_num = 3,
 		time = 0,
 		type = 3,
@@ -3133,8 +3314,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[20105] = {
+	}
+	pg.base.collection_template[20105] = {
 		ship_num = 4,
 		time = 0,
 		type = 3,
@@ -3189,8 +3370,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[20106] = {
+	}
+	pg.base.collection_template[20106] = {
 		ship_num = 5,
 		time = 0,
 		type = 3,
@@ -3245,8 +3426,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[20107] = {
+	}
+	pg.base.collection_template[20107] = {
 		ship_num = 3,
 		time = 0,
 		type = 3,
@@ -3301,8 +3482,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[20108] = {
+	}
+	pg.base.collection_template[20108] = {
 		ship_num = 4,
 		time = 0,
 		type = 3,
@@ -3357,8 +3538,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[20109] = {
+	}
+	pg.base.collection_template[20109] = {
 		ship_num = 5,
 		time = 0,
 		type = 3,
@@ -3413,8 +3594,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[20110] = {
+	}
+	pg.base.collection_template[20110] = {
 		ship_num = 3,
 		time = 0,
 		type = 3,
@@ -3469,8 +3650,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[20111] = {
+	}
+	pg.base.collection_template[20111] = {
 		ship_num = 4,
 		time = 0,
 		type = 3,
@@ -3525,8 +3706,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[20112] = {
+	}
+	pg.base.collection_template[20112] = {
 		ship_num = 5,
 		time = 0,
 		type = 3,
@@ -3581,8 +3762,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[20113] = {
+	}
+	pg.base.collection_template[20113] = {
 		ship_num = 3,
 		time = 0,
 		type = 3,
@@ -3637,8 +3818,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[20114] = {
+	}
+	pg.base.collection_template[20114] = {
 		ship_num = 4,
 		time = 0,
 		type = 3,
@@ -3693,8 +3874,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[20115] = {
+	}
+	pg.base.collection_template[20115] = {
 		ship_num = 5,
 		time = 0,
 		type = 3,
@@ -3749,8 +3930,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[20116] = {
+	}
+	pg.base.collection_template[20116] = {
 		ship_num = 3,
 		time = 0,
 		type = 3,
@@ -3805,8 +3986,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[20117] = {
+	}
+	pg.base.collection_template[20117] = {
 		ship_num = 4,
 		time = 0,
 		type = 3,
@@ -3861,8 +4042,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[20118] = {
+	}
+	pg.base.collection_template[20118] = {
 		ship_num = 5,
 		time = 0,
 		type = 3,
@@ -3917,8 +4098,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[30101] = {
+	}
+	pg.base.collection_template[30101] = {
 		ship_num = 2,
 		time = 0,
 		type = 4,
@@ -3982,8 +4163,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30102] = {
+	}
+	pg.base.collection_template[30102] = {
 		ship_num = 2,
 		time = 0,
 		type = 4,
@@ -4047,8 +4228,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30103] = {
+	}
+	pg.base.collection_template[30103] = {
 		ship_num = 2,
 		time = 0,
 		type = 4,
@@ -4112,8 +4293,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30104] = {
+	}
+	pg.base.collection_template[30104] = {
 		ship_num = 2,
 		time = 0,
 		type = 4,
@@ -4177,8 +4358,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30105] = {
+	}
+	pg.base.collection_template[30105] = {
 		ship_num = 2,
 		time = 0,
 		type = 4,
@@ -4242,8 +4423,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30106] = {
+	}
+	pg.base.collection_template[30106] = {
 		ship_num = 2,
 		time = 0,
 		type = 4,
@@ -4307,8 +4488,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30107] = {
+	}
+	pg.base.collection_template[30107] = {
 		ship_num = 2,
 		time = 0,
 		type = 4,
@@ -4372,8 +4553,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30108] = {
+	}
+	pg.base.collection_template[30108] = {
 		ship_num = 2,
 		time = 0,
 		type = 4,
@@ -4437,8 +4618,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30109] = {
+	}
+	pg.base.collection_template[30109] = {
 		ship_num = 2,
 		time = 0,
 		type = 4,
@@ -4502,8 +4683,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30110] = {
+	}
+	pg.base.collection_template[30110] = {
 		ship_num = 2,
 		time = 0,
 		type = 4,
@@ -4567,8 +4748,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30201] = {
+	}
+	pg.base.collection_template[30201] = {
 		ship_num = 3,
 		time = 0,
 		type = 4,
@@ -4632,8 +4813,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30202] = {
+	}
+	pg.base.collection_template[30202] = {
 		ship_num = 3,
 		time = 0,
 		type = 4,
@@ -4697,8 +4878,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30203] = {
+	}
+	pg.base.collection_template[30203] = {
 		ship_num = 3,
 		time = 0,
 		type = 4,
@@ -4762,8 +4943,10 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30204] = {
+	}
+end)()
+(function ()
+	pg.base.collection_template[30204] = {
 		ship_num = 3,
 		time = 0,
 		type = 4,
@@ -4827,8 +5010,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30205] = {
+	}
+	pg.base.collection_template[30205] = {
 		ship_num = 3,
 		time = 0,
 		type = 4,
@@ -4892,8 +5075,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30206] = {
+	}
+	pg.base.collection_template[30206] = {
 		ship_num = 3,
 		time = 0,
 		type = 4,
@@ -4957,8 +5140,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30207] = {
+	}
+	pg.base.collection_template[30207] = {
 		ship_num = 3,
 		time = 0,
 		type = 4,
@@ -5022,8 +5205,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30208] = {
+	}
+	pg.base.collection_template[30208] = {
 		ship_num = 3,
 		time = 0,
 		type = 4,
@@ -5087,8 +5270,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30209] = {
+	}
+	pg.base.collection_template[30209] = {
 		ship_num = 3,
 		time = 0,
 		type = 4,
@@ -5152,8 +5335,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30210] = {
+	}
+	pg.base.collection_template[30210] = {
 		ship_num = 3,
 		time = 0,
 		type = 4,
@@ -5217,8 +5400,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30301] = {
+	}
+	pg.base.collection_template[30301] = {
 		ship_num = 4,
 		time = 0,
 		type = 4,
@@ -5282,8 +5465,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30302] = {
+	}
+	pg.base.collection_template[30302] = {
 		ship_num = 4,
 		time = 0,
 		type = 4,
@@ -5347,8 +5530,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30303] = {
+	}
+	pg.base.collection_template[30303] = {
 		ship_num = 4,
 		time = 0,
 		type = 4,
@@ -5412,8 +5595,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30304] = {
+	}
+	pg.base.collection_template[30304] = {
 		ship_num = 4,
 		time = 0,
 		type = 4,
@@ -5477,8 +5660,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30305] = {
+	}
+	pg.base.collection_template[30305] = {
 		ship_num = 4,
 		time = 0,
 		type = 4,
@@ -5542,8 +5725,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30306] = {
+	}
+	pg.base.collection_template[30306] = {
 		ship_num = 4,
 		time = 0,
 		type = 4,
@@ -5607,8 +5790,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30307] = {
+	}
+	pg.base.collection_template[30307] = {
 		ship_num = 4,
 		time = 0,
 		type = 4,
@@ -5672,8 +5855,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30308] = {
+	}
+	pg.base.collection_template[30308] = {
 		ship_num = 4,
 		time = 0,
 		type = 4,
@@ -5737,8 +5920,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30309] = {
+	}
+	pg.base.collection_template[30309] = {
 		ship_num = 4,
 		time = 0,
 		type = 4,
@@ -5802,8 +5985,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30310] = {
+	}
+	pg.base.collection_template[30310] = {
 		ship_num = 4,
 		time = 0,
 		type = 4,
@@ -5867,8 +6050,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30401] = {
+	}
+	pg.base.collection_template[30401] = {
 		ship_num = 5,
 		time = 0,
 		type = 6,
@@ -5932,8 +6115,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30402] = {
+	}
+	pg.base.collection_template[30402] = {
 		ship_num = 5,
 		time = 0,
 		type = 6,
@@ -5997,8 +6180,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30403] = {
+	}
+	pg.base.collection_template[30403] = {
 		ship_num = 5,
 		time = 0,
 		type = 6,
@@ -6062,8 +6245,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30404] = {
+	}
+	pg.base.collection_template[30404] = {
 		ship_num = 5,
 		time = 0,
 		type = 6,
@@ -6127,8 +6310,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30405] = {
+	}
+	pg.base.collection_template[30405] = {
 		ship_num = 5,
 		time = 0,
 		type = 6,
@@ -6192,8 +6375,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30406] = {
+	}
+	pg.base.collection_template[30406] = {
 		ship_num = 5,
 		time = 0,
 		type = 6,
@@ -6257,8 +6440,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30407] = {
+	}
+	pg.base.collection_template[30407] = {
 		ship_num = 5,
 		time = 0,
 		type = 6,
@@ -6322,8 +6505,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30408] = {
+	}
+	pg.base.collection_template[30408] = {
 		ship_num = 5,
 		time = 0,
 		type = 6,
@@ -6387,8 +6570,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30409] = {
+	}
+	pg.base.collection_template[30409] = {
 		ship_num = 5,
 		time = 0,
 		type = 6,
@@ -6452,8 +6635,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[30410] = {
+	}
+	pg.base.collection_template[30410] = {
 		ship_num = 5,
 		time = 0,
 		type = 6,
@@ -6517,8 +6700,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[40101] = {
+	}
+	pg.base.collection_template[40101] = {
 		ship_num = 3,
 		time = 0,
 		type = 5,
@@ -6561,8 +6744,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[40102] = {
+	}
+	pg.base.collection_template[40102] = {
 		ship_num = 2,
 		time = 0,
 		type = 5,
@@ -6606,8 +6789,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[40103] = {
+	}
+	pg.base.collection_template[40103] = {
 		ship_num = 2,
 		time = 0,
 		type = 5,
@@ -6643,8 +6826,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[40104] = {
+	}
+	pg.base.collection_template[40104] = {
 		ship_num = 3,
 		time = 0,
 		type = 5,
@@ -6685,8 +6868,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[40105] = {
+	}
+	pg.base.collection_template[40105] = {
 		ship_num = 3,
 		time = 0,
 		type = 5,
@@ -6729,8 +6912,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[40106] = {
+	}
+	pg.base.collection_template[40106] = {
 		ship_num = 3,
 		time = 0,
 		type = 5,
@@ -6771,8 +6954,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[40201] = {
+	}
+	pg.base.collection_template[40201] = {
 		ship_num = 4,
 		time = 0,
 		type = 5,
@@ -6816,8 +6999,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[40202] = {
+	}
+	pg.base.collection_template[40202] = {
 		ship_num = 4,
 		time = 0,
 		type = 5,
@@ -6861,8 +7044,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[40203] = {
+	}
+	pg.base.collection_template[40203] = {
 		ship_num = 4,
 		time = 0,
 		type = 5,
@@ -6896,8 +7079,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[40204] = {
+	}
+	pg.base.collection_template[40204] = {
 		ship_num = 4,
 		time = 0,
 		type = 5,
@@ -6935,8 +7118,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[40205] = {
+	}
+	pg.base.collection_template[40205] = {
 		ship_num = 4,
 		time = 0,
 		type = 5,
@@ -6980,8 +7163,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[40206] = {
+	}
+	pg.base.collection_template[40206] = {
 		ship_num = 4,
 		time = 0,
 		type = 5,
@@ -7019,8 +7202,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[40301] = {
+	}
+	pg.base.collection_template[40301] = {
 		ship_num = 5,
 		time = 0,
 		type = 5,
@@ -7065,8 +7248,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[40302] = {
+	}
+	pg.base.collection_template[40302] = {
 		ship_num = 5,
 		time = 0,
 		type = 5,
@@ -7112,8 +7295,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[40303] = {
+	}
+	pg.base.collection_template[40303] = {
 		ship_num = 5,
 		time = 0,
 		type = 5,
@@ -7145,8 +7328,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[40304] = {
+	}
+	pg.base.collection_template[40304] = {
 		ship_num = 5,
 		time = 0,
 		type = 5,
@@ -7184,8 +7367,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[40305] = {
+	}
+	pg.base.collection_template[40305] = {
 		ship_num = 5,
 		time = 0,
 		type = 5,
@@ -7230,8 +7413,8 @@ pg.collection_template = {
 			nums = "일정확률",
 			type = 2
 		}
-	},
-	[40306] = {
+	}
+	pg.base.collection_template[40306] = {
 		ship_num = 5,
 		time = 0,
 		type = 5,
@@ -7269,8 +7452,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[50001] = {
+	}
+	pg.base.collection_template[50001] = {
 		ship_num = 2,
 		time = 0,
 		type = 0,
@@ -7330,8 +7513,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[50002] = {
+	}
+	pg.base.collection_template[50002] = {
 		ship_num = 3,
 		time = 0,
 		type = 0,
@@ -7391,8 +7574,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[50003] = {
+	}
+	pg.base.collection_template[50003] = {
 		ship_num = 4,
 		time = 0,
 		type = 0,
@@ -7452,8 +7635,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[50004] = {
+	}
+	pg.base.collection_template[50004] = {
 		ship_num = 4,
 		time = 0,
 		type = 0,
@@ -7513,8 +7696,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[50005] = {
+	}
+	pg.base.collection_template[50005] = {
 		ship_num = 4,
 		time = 0,
 		type = 0,
@@ -7574,8 +7757,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[50006] = {
+	}
+	pg.base.collection_template[50006] = {
 		ship_num = 5,
 		time = 0,
 		type = 0,
@@ -7635,8 +7818,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[50007] = {
+	}
+	pg.base.collection_template[50007] = {
 		ship_num = 2,
 		time = 0,
 		type = 0,
@@ -7696,8 +7879,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[50008] = {
+	}
+	pg.base.collection_template[50008] = {
 		ship_num = 3,
 		time = 0,
 		type = 0,
@@ -7757,8 +7940,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[50009] = {
+	}
+	pg.base.collection_template[50009] = {
 		ship_num = 4,
 		time = 0,
 		type = 0,
@@ -7818,8 +8001,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[50010] = {
+	}
+	pg.base.collection_template[50010] = {
 		ship_num = 4,
 		time = 0,
 		type = 0,
@@ -7879,8 +8062,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[50011] = {
+	}
+	pg.base.collection_template[50011] = {
 		ship_num = 4,
 		time = 0,
 		type = 0,
@@ -7940,8 +8123,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[50012] = {
+	}
+	pg.base.collection_template[50012] = {
 		ship_num = 5,
 		time = 0,
 		type = 0,
@@ -8001,8 +8184,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[50013] = {
+	}
+	pg.base.collection_template[50013] = {
 		ship_num = 3,
 		time = 0,
 		type = 0,
@@ -8062,8 +8245,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[50014] = {
+	}
+	pg.base.collection_template[50014] = {
 		ship_num = 4,
 		time = 0,
 		type = 0,
@@ -8123,8 +8306,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[50015] = {
+	}
+	pg.base.collection_template[50015] = {
 		ship_num = 2,
 		time = 0,
 		type = 0,
@@ -8184,8 +8367,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[50016] = {
+	}
+	pg.base.collection_template[50016] = {
 		ship_num = 3,
 		time = 0,
 		type = 0,
@@ -8245,8 +8428,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[50017] = {
+	}
+	pg.base.collection_template[50017] = {
 		ship_num = 4,
 		time = 0,
 		type = 0,
@@ -8306,8 +8489,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[50018] = {
+	}
+	pg.base.collection_template[50018] = {
 		ship_num = 4,
 		time = 0,
 		type = 0,
@@ -8367,8 +8550,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[50019] = {
+	}
+	pg.base.collection_template[50019] = {
 		ship_num = 4,
 		time = 0,
 		type = 0,
@@ -8428,8 +8611,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[50020] = {
+	}
+	pg.base.collection_template[50020] = {
 		ship_num = 5,
 		time = 0,
 		type = 0,
@@ -8489,8 +8672,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[50021] = {
+	}
+	pg.base.collection_template[50021] = {
 		ship_num = 2,
 		time = 0,
 		type = 0,
@@ -8550,8 +8733,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[50022] = {
+	}
+	pg.base.collection_template[50022] = {
 		ship_num = 3,
 		time = 0,
 		type = 0,
@@ -8611,8 +8794,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[50023] = {
+	}
+	pg.base.collection_template[50023] = {
 		ship_num = 4,
 		time = 0,
 		type = 0,
@@ -8672,8 +8855,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[50024] = {
+	}
+	pg.base.collection_template[50024] = {
 		ship_num = 4,
 		time = 0,
 		type = 0,
@@ -8733,8 +8916,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[50025] = {
+	}
+	pg.base.collection_template[50025] = {
 		ship_num = 4,
 		time = 0,
 		type = 0,
@@ -8794,8 +8977,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[50026] = {
+	}
+	pg.base.collection_template[50026] = {
 		ship_num = 5,
 		time = 0,
 		type = 0,
@@ -8855,8 +9038,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[50027] = {
+	}
+	pg.base.collection_template[50027] = {
 		ship_num = 3,
 		time = 0,
 		type = 0,
@@ -8916,8 +9099,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	[50028] = {
+	}
+	pg.base.collection_template[50028] = {
 		ship_num = 4,
 		time = 0,
 		type = 0,
@@ -8977,180 +9160,5 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {}
-	},
-	all = {
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		110,
-		201,
-		202,
-		203,
-		204,
-		205,
-		206,
-		207,
-		208,
-		209,
-		210,
-		301,
-		302,
-		303,
-		304,
-		305,
-		306,
-		307,
-		308,
-		309,
-		310,
-		10101,
-		10102,
-		10103,
-		10104,
-		10105,
-		10106,
-		10201,
-		10202,
-		10203,
-		10204,
-		10205,
-		10206,
-		10207,
-		10301,
-		10302,
-		10303,
-		10304,
-		10305,
-		10306,
-		10401,
-		10402,
-		10403,
-		10404,
-		10405,
-		10406,
-		10407,
-		10501,
-		10502,
-		10503,
-		10504,
-		10505,
-		10506,
-		10601,
-		10602,
-		10603,
-		10604,
-		10605,
-		10606,
-		10607,
-		20101,
-		20102,
-		20103,
-		20104,
-		20105,
-		20106,
-		20107,
-		20108,
-		20109,
-		20110,
-		20111,
-		20112,
-		20113,
-		20114,
-		20115,
-		20116,
-		20117,
-		20118,
-		30101,
-		30102,
-		30103,
-		30104,
-		30105,
-		30106,
-		30107,
-		30108,
-		30109,
-		30110,
-		30201,
-		30202,
-		30203,
-		30204,
-		30205,
-		30206,
-		30207,
-		30208,
-		30209,
-		30210,
-		30301,
-		30302,
-		30303,
-		30304,
-		30305,
-		30306,
-		30307,
-		30308,
-		30309,
-		30310,
-		30401,
-		30402,
-		30403,
-		30404,
-		30405,
-		30406,
-		30407,
-		30408,
-		30409,
-		30410,
-		40101,
-		40102,
-		40103,
-		40104,
-		40105,
-		40106,
-		40201,
-		40202,
-		40203,
-		40204,
-		40205,
-		40206,
-		40301,
-		40302,
-		40303,
-		40304,
-		40305,
-		40306,
-		50001,
-		50002,
-		50003,
-		50004,
-		50005,
-		50006,
-		50007,
-		50008,
-		50009,
-		50010,
-		50011,
-		50012,
-		50013,
-		50014,
-		50015,
-		50016,
-		50017,
-		50018,
-		50019,
-		50020,
-		50021,
-		50022,
-		50023,
-		50024,
-		50025,
-		50026,
-		50027,
-		50028
 	}
-}
+end)()

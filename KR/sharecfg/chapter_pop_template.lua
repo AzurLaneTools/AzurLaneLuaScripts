@@ -1,6 +1,46 @@
 pg = pg or {}
-pg.chapter_pop_template = {
-	[1280001] = {
+pg.chapter_pop_template = rawget(pg, "chapter_pop_template") or setmetatable({
+	__name = "chapter_pop_template"
+}, confNEO)
+pg.chapter_pop_template.all = {
+	1280001,
+	1280002,
+	1280003,
+	1280004,
+	1280005,
+	1430001,
+	1430002,
+	1430003,
+	1430004,
+	1430005,
+	1800001,
+	1800002,
+	1800003,
+	1800004,
+	1800005,
+	1800021,
+	1800022,
+	1800023,
+	1800024,
+	1800025,
+	1800026,
+	1800041,
+	2200041,
+	2200042,
+	2200043,
+	2200044,
+	2200045,
+	2200071,
+	2200072,
+	2200073,
+	2200074,
+	2200075
+}
+pg.base = pg.base or {}
+pg.base.chapter_pop_template = {}
+
+(function ()
+	pg.base.chapter_pop_template[1280001] = {
 		id = 1280001,
 		combo_on = 1,
 		sd_location = {
@@ -20,8 +60,8 @@ pg.chapter_pop_template = {
 				}
 			}
 		}
-	},
-	[1280002] = {
+	}
+	pg.base.chapter_pop_template[1280002] = {
 		id = 1280002,
 		combo_on = 1,
 		sd_location = {
@@ -41,8 +81,8 @@ pg.chapter_pop_template = {
 				}
 			}
 		}
-	},
-	[1280003] = {
+	}
+	pg.base.chapter_pop_template[1280003] = {
 		id = 1280003,
 		combo_on = 1,
 		sd_location = {
@@ -62,8 +102,8 @@ pg.chapter_pop_template = {
 				}
 			}
 		}
-	},
-	[1280004] = {
+	}
+	pg.base.chapter_pop_template[1280004] = {
 		id = 1280004,
 		combo_on = 1,
 		sd_location = {
@@ -83,8 +123,8 @@ pg.chapter_pop_template = {
 				}
 			}
 		}
-	},
-	[1280005] = {
+	}
+	pg.base.chapter_pop_template[1280005] = {
 		id = 1280005,
 		combo_on = 1,
 		sd_location = {
@@ -104,8 +144,8 @@ pg.chapter_pop_template = {
 				}
 			}
 		}
-	},
-	[1430001] = {
+	}
+	pg.base.chapter_pop_template[1430001] = {
 		id = 1430001,
 		combo_on = 1,
 		sd_location = {
@@ -125,8 +165,8 @@ pg.chapter_pop_template = {
 				}
 			}
 		}
-	},
-	[1430002] = {
+	}
+	pg.base.chapter_pop_template[1430002] = {
 		id = 1430002,
 		combo_on = 1,
 		sd_location = {
@@ -146,8 +186,8 @@ pg.chapter_pop_template = {
 				}
 			}
 		}
-	},
-	[1430003] = {
+	}
+	pg.base.chapter_pop_template[1430003] = {
 		id = 1430003,
 		combo_on = 1,
 		sd_location = {
@@ -167,8 +207,8 @@ pg.chapter_pop_template = {
 				}
 			}
 		}
-	},
-	[1430004] = {
+	}
+	pg.base.chapter_pop_template[1430004] = {
 		id = 1430004,
 		combo_on = 1,
 		sd_location = {
@@ -188,8 +228,8 @@ pg.chapter_pop_template = {
 				}
 			}
 		}
-	},
-	[1430005] = {
+	}
+	pg.base.chapter_pop_template[1430005] = {
 		id = 1430005,
 		combo_on = 1,
 		sd_location = {
@@ -222,8 +262,8 @@ pg.chapter_pop_template = {
 				}
 			}
 		}
-	},
-	[1800001] = {
+	}
+	pg.base.chapter_pop_template[1800001] = {
 		id = 1800001,
 		combo_on = 1,
 		sd_location = {
@@ -243,8 +283,8 @@ pg.chapter_pop_template = {
 				}
 			}
 		}
-	},
-	[1800002] = {
+	}
+	pg.base.chapter_pop_template[1800002] = {
 		id = 1800002,
 		combo_on = 1,
 		sd_location = {
@@ -264,8 +304,8 @@ pg.chapter_pop_template = {
 				}
 			}
 		}
-	},
-	[1800003] = {
+	}
+	pg.base.chapter_pop_template[1800003] = {
 		id = 1800003,
 		combo_on = 1,
 		sd_location = {
@@ -285,8 +325,8 @@ pg.chapter_pop_template = {
 				}
 			}
 		}
-	},
-	[1800004] = {
+	}
+	pg.base.chapter_pop_template[1800004] = {
 		id = 1800004,
 		combo_on = 1,
 		sd_location = {
@@ -306,8 +346,8 @@ pg.chapter_pop_template = {
 				}
 			}
 		}
-	},
-	[1800005] = {
+	}
+	pg.base.chapter_pop_template[1800005] = {
 		id = 1800005,
 		combo_on = 1,
 		sd_location = {
@@ -327,8 +367,8 @@ pg.chapter_pop_template = {
 				}
 			}
 		}
-	},
-	[1800021] = {
+	}
+	pg.base.chapter_pop_template[1800021] = {
 		id = 1800021,
 		combo_on = 1,
 		sd_location = {
@@ -348,8 +388,8 @@ pg.chapter_pop_template = {
 				}
 			}
 		}
-	},
-	[1800022] = {
+	}
+	pg.base.chapter_pop_template[1800022] = {
 		id = 1800022,
 		combo_on = 1,
 		sd_location = {
@@ -369,8 +409,8 @@ pg.chapter_pop_template = {
 				}
 			}
 		}
-	},
-	[1800023] = {
+	}
+	pg.base.chapter_pop_template[1800023] = {
 		id = 1800023,
 		combo_on = 1,
 		sd_location = {
@@ -390,8 +430,8 @@ pg.chapter_pop_template = {
 				}
 			}
 		}
-	},
-	[1800024] = {
+	}
+	pg.base.chapter_pop_template[1800024] = {
 		id = 1800024,
 		combo_on = 1,
 		sd_location = {
@@ -411,8 +451,8 @@ pg.chapter_pop_template = {
 				}
 			}
 		}
-	},
-	[1800025] = {
+	}
+	pg.base.chapter_pop_template[1800025] = {
 		id = 1800025,
 		combo_on = 1,
 		sd_location = {
@@ -432,8 +472,8 @@ pg.chapter_pop_template = {
 				}
 			}
 		}
-	},
-	[1800026] = {
+	}
+	pg.base.chapter_pop_template[1800026] = {
 		id = 1800026,
 		combo_on = 1,
 		sd_location = {
@@ -453,8 +493,8 @@ pg.chapter_pop_template = {
 				}
 			}
 		}
-	},
-	[1800041] = {
+	}
+	pg.base.chapter_pop_template[1800041] = {
 		id = 1800041,
 		combo_on = 1,
 		sd_location = {
@@ -487,8 +527,8 @@ pg.chapter_pop_template = {
 				}
 			}
 		}
-	},
-	[2200041] = {
+	}
+	pg.base.chapter_pop_template[2200041] = {
 		id = 2200041,
 		combo_on = 1,
 		sd_location = {
@@ -508,8 +548,8 @@ pg.chapter_pop_template = {
 				}
 			}
 		}
-	},
-	[2200042] = {
+	}
+	pg.base.chapter_pop_template[2200042] = {
 		id = 2200042,
 		combo_on = 1,
 		sd_location = {
@@ -529,8 +569,8 @@ pg.chapter_pop_template = {
 				}
 			}
 		}
-	},
-	[2200043] = {
+	}
+	pg.base.chapter_pop_template[2200043] = {
 		id = 2200043,
 		combo_on = 1,
 		sd_location = {
@@ -550,8 +590,8 @@ pg.chapter_pop_template = {
 				}
 			}
 		}
-	},
-	[2200044] = {
+	}
+	pg.base.chapter_pop_template[2200044] = {
 		id = 2200044,
 		combo_on = 1,
 		sd_location = {
@@ -571,8 +611,8 @@ pg.chapter_pop_template = {
 				}
 			}
 		}
-	},
-	[2200045] = {
+	}
+	pg.base.chapter_pop_template[2200045] = {
 		id = 2200045,
 		combo_on = 1,
 		sd_location = {
@@ -592,8 +632,8 @@ pg.chapter_pop_template = {
 				}
 			}
 		}
-	},
-	[2200071] = {
+	}
+	pg.base.chapter_pop_template[2200071] = {
 		id = 2200071,
 		combo_on = 1,
 		sd_location = {
@@ -613,8 +653,8 @@ pg.chapter_pop_template = {
 				}
 			}
 		}
-	},
-	[2200072] = {
+	}
+	pg.base.chapter_pop_template[2200072] = {
 		id = 2200072,
 		combo_on = 1,
 		sd_location = {
@@ -634,8 +674,8 @@ pg.chapter_pop_template = {
 				}
 			}
 		}
-	},
-	[2200073] = {
+	}
+	pg.base.chapter_pop_template[2200073] = {
 		id = 2200073,
 		combo_on = 1,
 		sd_location = {
@@ -655,8 +695,8 @@ pg.chapter_pop_template = {
 				}
 			}
 		}
-	},
-	[2200074] = {
+	}
+	pg.base.chapter_pop_template[2200074] = {
 		id = 2200074,
 		combo_on = 1,
 		sd_location = {
@@ -676,8 +716,8 @@ pg.chapter_pop_template = {
 				}
 			}
 		}
-	},
-	[2200075] = {
+	}
+	pg.base.chapter_pop_template[2200075] = {
 		id = 2200075,
 		combo_on = 1,
 		sd_location = {
@@ -710,39 +750,5 @@ pg.chapter_pop_template = {
 				}
 			}
 		}
-	},
-	all = {
-		1280001,
-		1280002,
-		1280003,
-		1280004,
-		1280005,
-		1430001,
-		1430002,
-		1430003,
-		1430004,
-		1430005,
-		1800001,
-		1800002,
-		1800003,
-		1800004,
-		1800005,
-		1800021,
-		1800022,
-		1800023,
-		1800024,
-		1800025,
-		1800026,
-		1800041,
-		2200041,
-		2200042,
-		2200043,
-		2200044,
-		2200045,
-		2200071,
-		2200072,
-		2200073,
-		2200074,
-		2200075
 	}
-}
+end)()

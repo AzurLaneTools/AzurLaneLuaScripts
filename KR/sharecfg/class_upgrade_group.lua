@@ -1,6 +1,21 @@
 pg = pg or {}
-pg.class_upgrade_group = {
-	{
+pg.class_upgrade_group = rawget(pg, "class_upgrade_group") or setmetatable({
+	__name = "class_upgrade_group"
+}, confNEO)
+pg.class_upgrade_group.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7
+}
+pg.base = pg.base or {}
+pg.base.class_upgrade_group = {}
+
+(function ()
+	pg.base.class_upgrade_group[1] = {
 		id = 201011,
 		name_show = "구축함 및 잠수함 코스",
 		day = 1,
@@ -12,8 +27,8 @@ pg.class_upgrade_group = {
 			17,
 			19
 		}
-	},
-	{
+	}
+	pg.base.class_upgrade_group[2] = {
 		id = 302011,
 		name_show = "순양함 코스",
 		day = 2,
@@ -26,8 +41,8 @@ pg.class_upgrade_group = {
 			18,
 			19
 		}
-	},
-	{
+	}
+	pg.base.class_upgrade_group[3] = {
 		id = 105031,
 		name_show = "전함 코스",
 		day = 3,
@@ -37,8 +52,8 @@ pg.class_upgrade_group = {
 			10,
 			13
 		}
-	},
-	{
+	}
+	pg.base.class_upgrade_group[4] = {
 		id = 107011,
 		name_show = "항공모함 코스",
 		day = 4,
@@ -47,8 +62,8 @@ pg.class_upgrade_group = {
 			7,
 			10
 		}
-	},
-	{
+	}
+	pg.base.class_upgrade_group[5] = {
 		id = 201011,
 		name_show = "구축함 및 잠수함 코스",
 		day = 5,
@@ -60,8 +75,8 @@ pg.class_upgrade_group = {
 			17,
 			19
 		}
-	},
-	{
+	}
+	pg.base.class_upgrade_group[6] = {
 		id = 302011,
 		name_show = "순양함 코스",
 		day = 6,
@@ -74,8 +89,8 @@ pg.class_upgrade_group = {
 			18,
 			19
 		}
-	},
-	{
+	}
+	pg.base.class_upgrade_group[7] = {
 		id = 105031,
 		name_show = "",
 		day = 7,
@@ -100,14 +115,5 @@ pg.class_upgrade_group = {
 			18,
 			19
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7
 	}
-}
+end)()

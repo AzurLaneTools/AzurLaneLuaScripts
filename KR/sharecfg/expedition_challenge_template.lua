@@ -1,6 +1,31 @@
 pg = pg or {}
-pg.expedition_challenge_template = {
-	[10001] = {
+pg.expedition_challenge_template = rawget(pg, "expedition_challenge_template") or setmetatable({
+	__name = "expedition_challenge_template"
+}, confNEO)
+pg.expedition_challenge_template.all = {
+	10001,
+	10002,
+	10003,
+	10004,
+	10005,
+	10006,
+	10007,
+	10008,
+	10009,
+	10010,
+	10011,
+	10012,
+	10013,
+	10014,
+	10015,
+	10016,
+	10017
+}
+pg.base = pg.base or {}
+pg.base.expedition_challenge_template = {}
+
+(function ()
+	pg.base.expedition_challenge_template[10001] = {
 		challenge = 10000,
 		index = 1,
 		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
@@ -17,8 +42,8 @@ pg.expedition_challenge_template = {
 			""
 		},
 		bufficon = {}
-	},
-	[10002] = {
+	}
+	pg.base.expedition_challenge_template[10002] = {
 		challenge = 10000,
 		index = 2,
 		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
@@ -35,8 +60,8 @@ pg.expedition_challenge_template = {
 			""
 		},
 		bufficon = {}
-	},
-	[10003] = {
+	}
+	pg.base.expedition_challenge_template[10003] = {
 		challenge = 10000,
 		index = 3,
 		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
@@ -53,8 +78,8 @@ pg.expedition_challenge_template = {
 			""
 		},
 		bufficon = {}
-	},
-	[10004] = {
+	}
+	pg.base.expedition_challenge_template[10004] = {
 		challenge = 10000,
 		index = 4,
 		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
@@ -71,8 +96,8 @@ pg.expedition_challenge_template = {
 			""
 		},
 		bufficon = {}
-	},
-	[10005] = {
+	}
+	pg.base.expedition_challenge_template[10005] = {
 		challenge = 10000,
 		index = 5,
 		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
@@ -89,8 +114,8 @@ pg.expedition_challenge_template = {
 			""
 		},
 		bufficon = {}
-	},
-	[10006] = {
+	}
+	pg.base.expedition_challenge_template[10006] = {
 		challenge = 10000,
 		index = 6,
 		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
@@ -107,8 +132,8 @@ pg.expedition_challenge_template = {
 			""
 		},
 		bufficon = {}
-	},
-	[10007] = {
+	}
+	pg.base.expedition_challenge_template[10007] = {
 		challenge = 10000,
 		index = 7,
 		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
@@ -125,8 +150,8 @@ pg.expedition_challenge_template = {
 			""
 		},
 		bufficon = {}
-	},
-	[10008] = {
+	}
+	pg.base.expedition_challenge_template[10008] = {
 		challenge = 10000,
 		index = 8,
 		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
@@ -143,8 +168,8 @@ pg.expedition_challenge_template = {
 			""
 		},
 		bufficon = {}
-	},
-	[10009] = {
+	}
+	pg.base.expedition_challenge_template[10009] = {
 		challenge = 10000,
 		index = 9,
 		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
@@ -161,8 +186,8 @@ pg.expedition_challenge_template = {
 			""
 		},
 		bufficon = {}
-	},
-	[10010] = {
+	}
+	pg.base.expedition_challenge_template[10010] = {
 		challenge = 10000,
 		index = 10,
 		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
@@ -179,8 +204,8 @@ pg.expedition_challenge_template = {
 			""
 		},
 		bufficon = {}
-	},
-	[10011] = {
+	}
+	pg.base.expedition_challenge_template[10011] = {
 		challenge = 10000,
 		index = 11,
 		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
@@ -197,8 +222,8 @@ pg.expedition_challenge_template = {
 			""
 		},
 		bufficon = {}
-	},
-	[10012] = {
+	}
+	pg.base.expedition_challenge_template[10012] = {
 		challenge = 10000,
 		index = 12,
 		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
@@ -215,8 +240,8 @@ pg.expedition_challenge_template = {
 			""
 		},
 		bufficon = {}
-	},
-	[10013] = {
+	}
+	pg.base.expedition_challenge_template[10013] = {
 		challenge = 10000,
 		index = 13,
 		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
@@ -233,8 +258,8 @@ pg.expedition_challenge_template = {
 			""
 		},
 		bufficon = {}
-	},
-	[10014] = {
+	}
+	pg.base.expedition_challenge_template[10014] = {
 		challenge = 10000,
 		index = 14,
 		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
@@ -251,8 +276,8 @@ pg.expedition_challenge_template = {
 			""
 		},
 		bufficon = {}
-	},
-	[10015] = {
+	}
+	pg.base.expedition_challenge_template[10015] = {
 		challenge = 10000,
 		index = 15,
 		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
@@ -269,8 +294,8 @@ pg.expedition_challenge_template = {
 			""
 		},
 		bufficon = {}
-	},
-	[10016] = {
+	}
+	pg.base.expedition_challenge_template[10016] = {
 		challenge = 10000,
 		index = 16,
 		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
@@ -287,8 +312,8 @@ pg.expedition_challenge_template = {
 			""
 		},
 		bufficon = {}
-	},
-	[10017] = {
+	}
+	pg.base.expedition_challenge_template[10017] = {
 		challenge = 10000,
 		index = 17,
 		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
@@ -305,24 +330,5 @@ pg.expedition_challenge_template = {
 			""
 		},
 		bufficon = {}
-	},
-	all = {
-		10001,
-		10002,
-		10003,
-		10004,
-		10005,
-		10006,
-		10007,
-		10008,
-		10009,
-		10010,
-		10011,
-		10012,
-		10013,
-		10014,
-		10015,
-		10016,
-		10017
 	}
-}
+end)()

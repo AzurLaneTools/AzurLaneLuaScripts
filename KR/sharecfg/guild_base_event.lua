@@ -1,211 +1,214 @@
 pg = pg or {}
-pg.guild_base_event = setmetatable({
-	__name = "guild_base_event",
-	all = {
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1007,
-		1008,
-		1009,
-		1010,
-		1011,
-		1012,
-		1013,
-		1014,
-		1015,
-		1101,
-		1102,
-		1103,
-		1104,
-		1105,
-		1106,
-		1107,
-		1108,
-		1109,
-		1110,
-		1111,
-		1112,
-		1113,
-		1114,
-		1201,
-		1202,
-		1203,
-		1204,
-		1205,
-		1206,
-		1207,
-		1208,
-		1209,
-		2001,
-		2002,
-		2003,
-		2004,
-		2005,
-		2006,
-		2007,
-		2008,
-		2009,
-		2010,
-		2011,
-		2012,
-		2013,
-		2014,
-		2015,
-		2016,
-		2017,
-		2018,
-		2019,
-		2020,
-		2021,
-		2101,
-		2102,
-		2103,
-		2104,
-		2105,
-		2106,
-		2107,
-		2108,
-		2109,
-		2110,
-		2111,
-		2112,
-		2113,
-		2114,
-		2115,
-		2116,
-		2201,
-		2202,
-		2203,
-		2204,
-		2205,
-		2206,
-		2207,
-		3001,
-		3002,
-		3003,
-		3004,
-		3005,
-		3006,
-		3007,
-		3008,
-		3009,
-		3010,
-		3011,
-		3012,
-		3013,
-		3014,
-		3015,
-		3016,
-		3017,
-		3018,
-		3019,
-		3020,
-		3021,
-		3022,
-		3023,
-		3024,
-		3101,
-		3102,
-		3103,
-		3104,
-		3105,
-		3106,
-		3107,
-		3108,
-		3109,
-		3110,
-		3111,
-		3112,
-		3113,
-		3114,
-		3115,
-		3201,
-		3202,
-		3203,
-		3204,
-		3205,
-		3206,
-		3207,
-		3208,
-		3209,
-		3210,
-		3211,
-		3212,
-		3213,
-		3214,
-		3215,
-		3216,
-		4001,
-		4002,
-		4003,
-		4004,
-		4005,
-		4006,
-		4007,
-		4008,
-		4009,
-		4010,
-		4011,
-		4012,
-		4013,
-		4014,
-		4015,
-		4018,
-		4019,
-		4020,
-		4021,
-		4022,
-		4023,
-		4024,
-		4025,
-		4026,
-		4027,
-		4028,
-		4101,
-		4102,
-		4103,
-		4104,
-		4105,
-		4106,
-		4107,
-		4108,
-		4109,
-		4110,
-		4111,
-		4112,
-		4113,
-		4114,
-		4115,
-		4116,
-		4117,
-		4118,
-		4120,
-		4121,
-		4122,
-		4123,
-		4201,
-		4202,
-		4203,
-		4204,
-		4205,
-		4206,
-		4207,
-		4208,
-		4209,
-		4210,
-		4211,
-		4212,
-		4213,
-		4214
-	}
-}, confHX)
+pg.guild_base_event = rawget(pg, "guild_base_event") or setmetatable({
+	__name = "guild_base_event"
+}, confNEO)
+pg.guild_base_event.__namecode__ = true
+pg.guild_base_event.all = {
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008,
+	1009,
+	1010,
+	1011,
+	1012,
+	1013,
+	1014,
+	1015,
+	1101,
+	1102,
+	1103,
+	1104,
+	1105,
+	1106,
+	1107,
+	1108,
+	1109,
+	1110,
+	1111,
+	1112,
+	1113,
+	1114,
+	1201,
+	1202,
+	1203,
+	1204,
+	1205,
+	1206,
+	1207,
+	1208,
+	1209,
+	2001,
+	2002,
+	2003,
+	2004,
+	2005,
+	2006,
+	2007,
+	2008,
+	2009,
+	2010,
+	2011,
+	2012,
+	2013,
+	2014,
+	2015,
+	2016,
+	2017,
+	2018,
+	2019,
+	2020,
+	2021,
+	2101,
+	2102,
+	2103,
+	2104,
+	2105,
+	2106,
+	2107,
+	2108,
+	2109,
+	2110,
+	2111,
+	2112,
+	2113,
+	2114,
+	2115,
+	2116,
+	2201,
+	2202,
+	2203,
+	2204,
+	2205,
+	2206,
+	2207,
+	3001,
+	3002,
+	3003,
+	3004,
+	3005,
+	3006,
+	3007,
+	3008,
+	3009,
+	3010,
+	3011,
+	3012,
+	3013,
+	3014,
+	3015,
+	3016,
+	3017,
+	3018,
+	3019,
+	3020,
+	3021,
+	3022,
+	3023,
+	3024,
+	3101,
+	3102,
+	3103,
+	3104,
+	3105,
+	3106,
+	3107,
+	3108,
+	3109,
+	3110,
+	3111,
+	3112,
+	3113,
+	3114,
+	3115,
+	3201,
+	3202,
+	3203,
+	3204,
+	3205,
+	3206,
+	3207,
+	3208,
+	3209,
+	3210,
+	3211,
+	3212,
+	3213,
+	3214,
+	3215,
+	3216,
+	4001,
+	4002,
+	4003,
+	4004,
+	4005,
+	4006,
+	4007,
+	4008,
+	4009,
+	4010,
+	4011,
+	4012,
+	4013,
+	4014,
+	4015,
+	4018,
+	4019,
+	4020,
+	4021,
+	4022,
+	4023,
+	4024,
+	4025,
+	4026,
+	4027,
+	4028,
+	4101,
+	4102,
+	4103,
+	4104,
+	4105,
+	4106,
+	4107,
+	4108,
+	4109,
+	4110,
+	4111,
+	4112,
+	4113,
+	4114,
+	4115,
+	4116,
+	4117,
+	4118,
+	4120,
+	4121,
+	4122,
+	4123,
+	4201,
+	4202,
+	4203,
+	4204,
+	4205,
+	4206,
+	4207,
+	4208,
+	4209,
+	4210,
+	4211,
+	4212,
+	4213,
+	4214
+}
 pg.base = pg.base or {}
-pg.base.guild_base_event = {
-	[1001] = {
+pg.base.guild_base_event = {}
+
+(function ()
+	pg.base.guild_base_event[1001] = {
 		extra_squedron_ratio = 0,
 		name = "북방 해역 소탕 작전",
 		extra_squadron = "",
@@ -271,8 +274,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[1002] = {
+	}
+	pg.base.guild_base_event[1002] = {
 		extra_squedron_ratio = 0,
 		name = "남방 해역 소탕 작전",
 		extra_squadron = "",
@@ -338,8 +341,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[1003] = {
+	}
+	pg.base.guild_base_event[1003] = {
 		extra_squedron_ratio = 0,
 		name = "진주만 항로 소탕",
 		extra_squadron = "",
@@ -406,8 +409,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[1004] = {
+	}
+	pg.base.guild_base_event[1004] = {
 		extra_squedron_ratio = 0,
 		name = "웨이크섬 항로 소탕",
 		extra_squadron = "",
@@ -474,8 +477,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[1005] = {
+	}
+	pg.base.guild_base_event[1005] = {
 		extra_squedron_ratio = 0,
 		name = "진주만 물자 인수 호위",
 		extra_squadron = "",
@@ -537,8 +540,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[1006] = {
+	}
+	pg.base.guild_base_event[1006] = {
 		extra_squedron_ratio = 0,
 		name = "웨이크섬 물자 수송 호위",
 		extra_squadron = "",
@@ -600,8 +603,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[1007] = {
+	}
+	pg.base.guild_base_event[1007] = {
 		extra_squedron_ratio = 0,
 		name = "진주만 항공 기재 인수 호위",
 		extra_squadron = "",
@@ -667,8 +670,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[1008] = {
+	}
+	pg.base.guild_base_event[1008] = {
 		extra_squedron_ratio = 0,
 		name = "웨이크섬 항공 기재 수송 호위",
 		extra_squadron = "",
@@ -734,8 +737,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[1009] = {
+	}
+	pg.base.guild_base_event[1009] = {
 		extra_squedron_ratio = 0,
 		name = "미드웨이 근해 순찰",
 		extra_squadron = "",
@@ -796,8 +799,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[1010] = {
+	}
+	pg.base.guild_base_event[1010] = {
 		extra_squedron_ratio = 0,
 		name = "진주만 근해 순찰",
 		extra_squadron = "",
@@ -858,8 +861,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[1011] = {
+	}
+	pg.base.guild_base_event[1011] = {
 		extra_squedron_ratio = 0,
 		name = "존스턴 환초 해역 순찰",
 		extra_squadron = "",
@@ -920,8 +923,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[1012] = {
+	}
+	pg.base.guild_base_event[1012] = {
 		extra_squedron_ratio = 0,
 		name = "웨이크섬 해역 순찰",
 		extra_squadron = "",
@@ -982,8 +985,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[1013] = {
+	}
+	pg.base.guild_base_event[1013] = {
 		extra_squedron_ratio = 0,
 		name = "북마리아나 제도 정찰",
 		extra_squadron = "",
@@ -1050,8 +1053,8 @@ pg.base.guild_base_event = {
 			"조사 성공・단서 발견・다음 보상 획득",
 			"조사 실패・다음 보상 획득"
 		}
-	},
-	[1014] = {
+	}
+	pg.base.guild_base_event[1014] = {
 		extra_squedron_ratio = 0,
 		name = "미드웨이섬 남부 해역 정찰",
 		extra_squadron = "",
@@ -1117,8 +1120,8 @@ pg.base.guild_base_event = {
 			"조사 성공・단서 발견・다음 보상 획득",
 			"조사 실패・다음 보상 획득"
 		}
-	},
-	[1015] = {
+	}
+	pg.base.guild_base_event[1015] = {
 		extra_squedron_ratio = 0,
 		name = "마셜 제도 정찰",
 		extra_squadron = "",
@@ -1185,8 +1188,8 @@ pg.base.guild_base_event = {
 			"조사 성공・단서 발견・다음 보상 획득",
 			"조사 실패・다음 보상 획득"
 		}
-	},
-	[1101] = {
+	}
+	pg.base.guild_base_event[1101] = {
 		extra_squedron_ratio = 200,
 		name = "베이커섬 항로 소탕",
 		extra_squadron = "Brooklyn-Class",
@@ -1261,8 +1264,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[1102] = {
+	}
+	pg.base.guild_base_event[1102] = {
 		extra_squedron_ratio = 200,
 		name = "존스턴 환초 항로 소탕",
 		extra_squadron = "Northampton-Class",
@@ -1337,8 +1340,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[1103] = {
+	}
+	pg.base.guild_base_event[1103] = {
 		extra_squedron_ratio = 200,
 		name = "괌섬 호위 임무",
 		extra_squadron = "Fletcher-Class",
@@ -1412,8 +1415,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[1104] = {
+	}
+	pg.base.guild_base_event[1104] = {
 		extra_squedron_ratio = 200,
 		name = "베이커섬 호위 임무",
 		extra_squadron = "Cleveland-Class",
@@ -1487,8 +1490,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[1105] = {
+	}
+	pg.base.guild_base_event[1105] = {
 		extra_squedron_ratio = 200,
 		name = "존스턴 환초 호위 임무",
 		extra_squadron = "Benson-Class",
@@ -1561,8 +1564,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[1106] = {
+	}
+	pg.base.guild_base_event[1106] = {
 		extra_squedron_ratio = 200,
 		name = "서부 해안 호위 임무",
 		extra_squadron = "Omaha-Class",
@@ -1635,8 +1638,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[1107] = {
+	}
+	pg.base.guild_base_event[1107] = {
 		extra_squedron_ratio = 200,
 		name = "리시안스키섬 해역 경계",
 		extra_squadron = "Sims-Class",
@@ -1709,8 +1712,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[1108] = {
+	}
+	pg.base.guild_base_event[1108] = {
 		extra_squedron_ratio = 200,
 		name = "레이잔섬 해역 경계",
 		extra_squadron = "Gridley-Class",
@@ -1784,8 +1787,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[1109] = {
+	}
+	pg.base.guild_base_event[1109] = {
 		extra_squedron_ratio = 200,
 		name = "구레 환초 해역 경계",
 		extra_squadron = "Pensacola-Class",
@@ -1859,8 +1862,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[1110] = {
+	}
+	pg.base.guild_base_event[1110] = {
 		extra_squedron_ratio = 200,
 		name = "네커섬 해역 경계",
 		extra_squadron = "Farragut-Class",
@@ -1934,8 +1937,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[1111] = {
+	}
+	pg.base.guild_base_event[1111] = {
 		extra_squedron_ratio = 200,
 		name = "니호아섬 해역 경계",
 		extra_squadron = "Mahan-Class",
@@ -2008,8 +2011,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[1112] = {
+	}
+	pg.base.guild_base_event[1112] = {
 		extra_squedron_ratio = 200,
 		name = "북방 해역 정찰",
 		extra_squadron = "Fletcher-Class",
@@ -2078,8 +2081,8 @@ pg.base.guild_base_event = {
 			"조사 성공・단서 발견・다음 보상 획득",
 			"조사 실패・다음 보상 획득"
 		}
-	},
-	[1113] = {
+	}
+	pg.base.guild_base_event[1113] = {
 		extra_squedron_ratio = 200,
 		name = "존스턴 환초 남부 해역 정찰",
 		extra_squadron = "Benson-Class",
@@ -2148,8 +2151,8 @@ pg.base.guild_base_event = {
 			"조사 성공・단서 발견・다음 보상 획득",
 			"조사 실패・다음 보상 획득"
 		}
-	},
-	[1114] = {
+	}
+	pg.base.guild_base_event[1114] = {
 		extra_squedron_ratio = 200,
 		name = "베이커섬 해역 정찰",
 		extra_squadron = "Lexington-Class",
@@ -2223,8 +2226,8 @@ pg.base.guild_base_event = {
 			"조사 성공・단서 발견・다음 보상 획득",
 			"조사 실패・다음 보상 획득"
 		}
-	},
-	[1201] = {
+	}
+	pg.base.guild_base_event[1201] = {
 		extra_squedron_ratio = 0,
 		name = "미드웨이 근해 야간 경계",
 		extra_squadron = "",
@@ -2285,8 +2288,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[1202] = {
+	}
+	pg.base.guild_base_event[1202] = {
 		extra_squedron_ratio = 0,
 		name = "진주만 근해 야간 경계",
 		extra_squadron = "",
@@ -2347,8 +2350,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[1203] = {
+	}
+	pg.base.guild_base_event[1203] = {
 		extra_squedron_ratio = 0,
 		name = "환초 해역 야간 경계",
 		extra_squadron = "",
@@ -2409,8 +2412,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[1204] = {
+	}
+	pg.base.guild_base_event[1204] = {
 		extra_squedron_ratio = 0,
 		name = "웨이크섬 해역 야간 경계",
 		extra_squadron = "",
@@ -2471,8 +2474,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[1205] = {
+	}
+	pg.base.guild_base_event[1205] = {
 		extra_squedron_ratio = 0,
 		name = "미드웨이섬 보급 정비",
 		extra_squadron = "",
@@ -2533,8 +2536,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[1206] = {
+	}
+	pg.base.guild_base_event[1206] = {
 		extra_squedron_ratio = 0,
 		name = "진주만 보급 정비",
 		extra_squadron = "",
@@ -2596,8 +2599,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[1207] = {
+	}
+	pg.base.guild_base_event[1207] = {
 		extra_squedron_ratio = 0,
 		name = "진주만 선체 보수",
 		extra_squadron = "",
@@ -2660,8 +2663,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[1208] = {
+	}
+	pg.base.guild_base_event[1208] = {
 		extra_squedron_ratio = 0,
 		name = "미드웨이섬 물자 정비",
 		extra_squadron = "",
@@ -2722,8 +2725,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[1209] = {
+	}
+	pg.base.guild_base_event[1209] = {
 		extra_squedron_ratio = 0,
 		name = "진주만 물자 정비",
 		extra_squadron = "",
@@ -2785,8 +2788,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[2001] = {
+	}
+	pg.base.guild_base_event[2001] = {
 		extra_squedron_ratio = 0,
 		name = "북대서양 해역 서남 호위전",
 		extra_squadron = "",
@@ -2853,8 +2856,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[2002] = {
+	}
+	pg.base.guild_base_event[2002] = {
 		extra_squedron_ratio = 0,
 		name = "북대서양 해역 남동 호위전",
 		extra_squadron = "",
@@ -2921,8 +2924,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[2003] = {
+	}
+	pg.base.guild_base_event[2003] = {
 		extra_squedron_ratio = 0,
 		name = "북대서양 해역 북서 호위전",
 		extra_squadron = "",
@@ -2989,8 +2992,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[2004] = {
+	}
+	pg.base.guild_base_event[2004] = {
 		extra_squedron_ratio = 0,
 		name = "북대서양 해역 북동 호위전",
 		extra_squadron = "",
@@ -3057,8 +3060,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[2005] = {
+	}
+	pg.base.guild_base_event[2005] = {
 		extra_squedron_ratio = 0,
 		name = "북대서양 해역 서부 호위전",
 		extra_squadron = "",
@@ -3125,8 +3128,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[2006] = {
+	}
+	pg.base.guild_base_event[2006] = {
 		extra_squedron_ratio = 0,
 		name = "북대서양 해역 동부 호위전",
 		extra_squadron = "",
@@ -3193,8 +3196,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[2007] = {
+	}
+	pg.base.guild_base_event[2007] = {
 		extra_squedron_ratio = 0,
 		name = "북대서양 해역 북부 호위전",
 		extra_squadron = "",
@@ -3261,8 +3264,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[2008] = {
+	}
+	pg.base.guild_base_event[2008] = {
 		extra_squedron_ratio = 0,
 		name = "극지방 항로 서부 호위",
 		extra_squadron = "",
@@ -3329,8 +3332,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[2009] = {
+	}
+	pg.base.guild_base_event[2009] = {
 		extra_squedron_ratio = 0,
 		name = "LD－SP 항로 서부 호위",
 		extra_squadron = "",
@@ -3392,8 +3395,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[2010] = {
+	}
+	pg.base.guild_base_event[2010] = {
 		extra_squedron_ratio = 0,
 		name = "NY－LD 항로 서부 호위",
 		extra_squadron = "",
@@ -3455,8 +3458,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[2011] = {
+	}
+	pg.base.guild_base_event[2011] = {
 		extra_squedron_ratio = 0,
 		name = "극지방 항로 동부 호위",
 		extra_squadron = "",
@@ -3523,8 +3526,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[2012] = {
+	}
+	pg.base.guild_base_event[2012] = {
 		extra_squedron_ratio = 0,
 		name = "LD－SP 항로 동부 호위",
 		extra_squadron = "",
@@ -3586,8 +3589,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[2013] = {
+	}
+	pg.base.guild_base_event[2013] = {
 		extra_squedron_ratio = 0,
 		name = "NY－LD 항로 동부 호위",
 		extra_squadron = "",
@@ -3649,8 +3652,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[2014] = {
+	}
+	pg.base.guild_base_event[2014] = {
 		extra_squedron_ratio = 0,
 		name = "뉴욕 근해 순찰",
 		extra_squadron = "",
@@ -3711,8 +3714,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[2015] = {
+	}
+	pg.base.guild_base_event[2015] = {
 		extra_squedron_ratio = 0,
 		name = "영국 해협 순찰",
 		extra_squadron = "",
@@ -3773,8 +3776,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[2016] = {
+	}
+	pg.base.guild_base_event[2016] = {
 		extra_squedron_ratio = 0,
 		name = "무르만스크 근해 순찰",
 		extra_squadron = "",
@@ -3835,8 +3838,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[2017] = {
+	}
+	pg.base.guild_base_event[2017] = {
 		extra_squedron_ratio = 0,
 		name = "버뮤다해 정찰",
 		extra_squadron = "",
@@ -3902,8 +3905,8 @@ pg.base.guild_base_event = {
 			"조사 성공・단서 발견・다음 보상 획득",
 			"조사 실패・다음 보상 획득"
 		}
-	},
-	[2018] = {
+	}
+	pg.base.guild_base_event[2018] = {
 		extra_squedron_ratio = 0,
 		name = "얀마옌섬 정찰",
 		extra_squadron = "",
@@ -3969,8 +3972,8 @@ pg.base.guild_base_event = {
 			"조사 성공・단서 발견・다음 보상 획득",
 			"조사 실패・다음 보상 획득"
 		}
-	},
-	[2019] = {
+	}
+	pg.base.guild_base_event[2019] = {
 		extra_squedron_ratio = 0,
 		name = "래브라도해 정찰",
 		extra_squadron = "",
@@ -4032,8 +4035,8 @@ pg.base.guild_base_event = {
 			"조사 성공・단서 발견・다음 보상 획득",
 			"조사 실패・다음 보상 획득"
 		}
-	},
-	[2020] = {
+	}
+	pg.base.guild_base_event[2020] = {
 		extra_squedron_ratio = 0,
 		name = "바렌츠해정찰",
 		extra_squadron = "",
@@ -4095,8 +4098,8 @@ pg.base.guild_base_event = {
 			"조사 성공・단서 발견・다음 보상 획득",
 			"조사 실패・다음 보상 획득"
 		}
-	},
-	[2021] = {
+	}
+	pg.base.guild_base_event[2021] = {
 		extra_squedron_ratio = 0,
 		name = "노르웨이해 정찰",
 		extra_squadron = "",
@@ -4158,8 +4161,8 @@ pg.base.guild_base_event = {
 			"조사 성공・단서 발견・다음 보상 획득",
 			"조사 실패・다음 보상 획득"
 		}
-	},
-	[2101] = {
+	}
+	pg.base.guild_base_event[2101] = {
 		extra_squedron_ratio = 200,
 		name = "래브라도 호위전",
 		extra_squadron = "Leander-Class",
@@ -4234,8 +4237,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[2102] = {
+	}
+	pg.base.guild_base_event[2102] = {
 		extra_squedron_ratio = 200,
 		name = "노르웨이해 호위전",
 		extra_squadron = "Nelson-Class",
@@ -4310,8 +4313,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[2103] = {
+	}
+	pg.base.guild_base_event[2103] = {
 		extra_squedron_ratio = 200,
 		name = "바렌츠해 호위전",
 		extra_squadron = "Northern Union-DD",
@@ -4390,8 +4393,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[2104] = {
+	}
+	pg.base.guild_base_event[2104] = {
 		extra_squedron_ratio = 200,
 		name = "세인트 로랑스만 호위전",
 		extra_squadron = "County-Class",
@@ -4466,8 +4469,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[2105] = {
+	}
+	pg.base.guild_base_event[2105] = {
 		extra_squedron_ratio = 200,
 		name = "극지방 항로 중부 호위",
 		extra_squadron = "Northern Union-DD",
@@ -4541,8 +4544,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[2106] = {
+	}
+	pg.base.guild_base_event[2106] = {
 		extra_squedron_ratio = 200,
 		name = "LD－SP 항로 중부 호위",
 		extra_squadron = "C-Class",
@@ -4611,8 +4614,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[2107] = {
+	}
+	pg.base.guild_base_event[2107] = {
 		extra_squedron_ratio = 200,
 		name = "NY－LD 항로 중부 호위",
 		extra_squadron = "B-Class",
@@ -4681,8 +4684,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[2108] = {
+	}
+	pg.base.guild_base_event[2108] = {
 		extra_squedron_ratio = 200,
 		name = "아소르스 제도 경계",
 		extra_squadron = "J-Class",
@@ -4756,8 +4759,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[2109] = {
+	}
+	pg.base.guild_base_event[2109] = {
 		extra_squedron_ratio = 200,
 		name = "켈트해 경계",
 		extra_squadron = "F-Class",
@@ -4831,8 +4834,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[2110] = {
+	}
+	pg.base.guild_base_event[2110] = {
 		extra_squedron_ratio = 200,
 		name = "북방 해역 경계",
 		extra_squadron = "County-Class",
@@ -4906,8 +4909,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[2111] = {
+	}
+	pg.base.guild_base_event[2111] = {
 		extra_squedron_ratio = 200,
 		name = "백해 경계",
 		extra_squadron = "Town-Class",
@@ -4981,8 +4984,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[2112] = {
+	}
+	pg.base.guild_base_event[2112] = {
 		extra_squedron_ratio = 200,
 		name = "체시스카야만 경계",
 		extra_squadron = "Northern Union-CL",
@@ -5060,8 +5063,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[2113] = {
+	}
+	pg.base.guild_base_event[2113] = {
 		extra_squedron_ratio = 200,
 		name = "페초라만 경계",
 		extra_squadron = "Northern Union-CL",
@@ -5139,8 +5142,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[2114] = {
+	}
+	pg.base.guild_base_event[2114] = {
 		extra_squedron_ratio = 200,
 		name = "그린란드해 심층부 정찰",
 		extra_squadron = "Royal Fleet-CVL",
@@ -5215,8 +5218,8 @@ pg.base.guild_base_event = {
 			"조사 성공・단서 발견・다음 보상 획득",
 			"조사 실패・다음 보상 획득"
 		}
-	},
-	[2115] = {
+	}
+	pg.base.guild_base_event[2115] = {
 		extra_squedron_ratio = 200,
 		name = "북대서양 해역 심층부 정찰",
 		extra_squadron = "F-Class",
@@ -5291,8 +5294,8 @@ pg.base.guild_base_event = {
 			"조사 성공・단서 발견・다음 보상 획득",
 			"조사 실패・다음 보상 획득"
 		}
-	},
-	[2116] = {
+	}
+	pg.base.guild_base_event[2116] = {
 		extra_squedron_ratio = 200,
 		name = "배핀만 정찰",
 		extra_squadron = "Eagle Union-CVL",
@@ -5371,8 +5374,8 @@ pg.base.guild_base_event = {
 			"조사 성공・단서 발견・다음 보상 획득",
 			"조사 실패・다음 보상 획득"
 		}
-	},
-	[2201] = {
+	}
+	pg.base.guild_base_event[2201] = {
 		extra_squedron_ratio = 0,
 		name = "뉴욕 근해 야간 경계",
 		extra_squadron = "",
@@ -5433,8 +5436,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[2202] = {
+	}
+	pg.base.guild_base_event[2202] = {
 		extra_squedron_ratio = 0,
 		name = "영국 해협 야간 경계",
 		extra_squadron = "",
@@ -5495,8 +5498,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[2203] = {
+	}
+	pg.base.guild_base_event[2203] = {
 		extra_squedron_ratio = 0,
 		name = "무르만스크 야간 경계",
 		extra_squadron = "",
@@ -5557,8 +5560,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[2204] = {
+	}
+	pg.base.guild_base_event[2204] = {
 		extra_squedron_ratio = 0,
 		name = "베어섬 정찰",
 		extra_squadron = "",
@@ -5624,8 +5627,8 @@ pg.base.guild_base_event = {
 			"조사 성공・단서 발견・다음 보상 획득",
 			"조사 실패・다음 보상 획득"
 		}
-	},
-	[2205] = {
+	}
+	pg.base.guild_base_event[2205] = {
 		extra_squedron_ratio = 0,
 		name = "호펜섬 정찰",
 		extra_squadron = "",
@@ -5691,8 +5694,8 @@ pg.base.guild_base_event = {
 			"조사 성공・단서 발견・다음 보상 획득",
 			"조사 실패・다음 보상 획득"
 		}
-	},
-	[2206] = {
+	}
+	pg.base.guild_base_event[2206] = {
 		extra_squedron_ratio = 0,
 		name = "세인트 로랑스만 정찰",
 		extra_squadron = "",
@@ -5754,8 +5757,8 @@ pg.base.guild_base_event = {
 			"조사 성공・단서 발견・다음 보상 획득",
 			"조사 실패・다음 보상 획득"
 		}
-	},
-	[2207] = {
+	}
+	pg.base.guild_base_event[2207] = {
 		extra_squedron_ratio = 0,
 		name = "칸타브리아해 정찰",
 		extra_squadron = "",
@@ -5817,8 +5820,8 @@ pg.base.guild_base_event = {
 			"조사 성공・단서 발견・다음 보상 획득",
 			"조사 실패・다음 보상 획득"
 		}
-	},
-	[3001] = {
+	}
+	pg.base.guild_base_event[3001] = {
 		extra_squedron_ratio = 0,
 		name = "베스트 피오르 해전",
 		extra_squadron = "",
@@ -5888,8 +5891,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[3002] = {
+	}
+	pg.base.guild_base_event[3002] = {
 		extra_squedron_ratio = 0,
 		name = "히트라섬 조우전",
 		extra_squadron = "",
@@ -5959,8 +5962,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[3003] = {
+	}
+	pg.base.guild_base_event[3003] = {
 		extra_squedron_ratio = 0,
 		name = "보크나 피오르 해전",
 		extra_squadron = "",
@@ -6030,8 +6033,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[3004] = {
+	}
+	pg.base.guild_base_event[3004] = {
 		extra_squedron_ratio = 0,
 		name = "북해 해전",
 		extra_squadron = "",
@@ -6101,8 +6104,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[3005] = {
+	}
+	pg.base.guild_base_event[3005] = {
 		extra_squedron_ratio = 0,
 		name = "나르비크 수송로 파괴",
 		extra_squadron = "",
@@ -6168,8 +6171,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[3006] = {
+	}
+	pg.base.guild_base_event[3006] = {
 		extra_squedron_ratio = 0,
 		name = "남소스 수송로 파괴",
 		extra_squadron = "",
@@ -6235,8 +6238,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[3007] = {
+	}
+	pg.base.guild_base_event[3007] = {
 		extra_squedron_ratio = 0,
 		name = "크리스티안산 수송로 파괴",
 		extra_squadron = "",
@@ -6302,8 +6305,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[3008] = {
+	}
+	pg.base.guild_base_event[3008] = {
 		extra_squedron_ratio = 0,
 		name = "스타방에르 수송로 파괴",
 		extra_squadron = "",
@@ -6369,8 +6372,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[3009] = {
+	}
+	pg.base.guild_base_event[3009] = {
 		extra_squedron_ratio = 0,
 		name = "나르비크항 제해권 확보",
 		extra_squadron = "",
@@ -6440,8 +6443,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[3010] = {
+	}
+	pg.base.guild_base_event[3010] = {
 		extra_squedron_ratio = 0,
 		name = "남소스항 제해권 확보",
 		extra_squadron = "",
@@ -6511,8 +6514,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[3011] = {
+	}
+	pg.base.guild_base_event[3011] = {
 		extra_squedron_ratio = 0,
 		name = "크리스티안산항 제해권 확보",
 		extra_squadron = "",
@@ -6582,8 +6585,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[3012] = {
+	}
+	pg.base.guild_base_event[3012] = {
 		extra_squedron_ratio = 0,
 		name = "스타방에르항 제해권 확보",
 		extra_squadron = "",
@@ -6653,8 +6656,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[3013] = {
+	}
+	pg.base.guild_base_event[3013] = {
 		extra_squedron_ratio = 0,
 		name = "나르비크항 제공권 확보",
 		extra_squadron = "",
@@ -6716,8 +6719,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[3014] = {
+	}
+	pg.base.guild_base_event[3014] = {
 		extra_squedron_ratio = 0,
 		name = "남소스항 제공권 확보",
 		extra_squadron = "",
@@ -6779,8 +6782,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[3015] = {
+	}
+	pg.base.guild_base_event[3015] = {
 		extra_squedron_ratio = 0,
 		name = "크리스티안산항 제공권 확보",
 		extra_squadron = "",
@@ -6842,8 +6845,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[3016] = {
+	}
+	pg.base.guild_base_event[3016] = {
 		extra_squedron_ratio = 0,
 		name = "스타방에르항 제공권 확보",
 		extra_squadron = "",
@@ -6905,8 +6908,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[3017] = {
+	}
+	pg.base.guild_base_event[3017] = {
 		extra_squedron_ratio = 0,
 		name = "오포트 피오르 정찰",
 		extra_squadron = "",
@@ -6977,8 +6980,8 @@ pg.base.guild_base_event = {
 			"조사 성공・단서 발견・다음 보상 획득",
 			"조사 실패・다음 보상 획득"
 		}
-	},
-	[3018] = {
+	}
+	pg.base.guild_base_event[3018] = {
 		extra_squedron_ratio = 0,
 		name = "스카게라크 해협 정찰",
 		extra_squadron = "",
@@ -7049,8 +7052,10 @@ pg.base.guild_base_event = {
 			"조사 성공・단서 발견・다음 보상 획득",
 			"조사 실패・다음 보상 획득"
 		}
-	},
-	[3019] = {
+	}
+end)()
+(function ()
+	pg.base.guild_base_event[3019] = {
 		extra_squedron_ratio = 0,
 		name = "보크나 피오르 정찰",
 		extra_squadron = "",
@@ -7121,8 +7126,8 @@ pg.base.guild_base_event = {
 			"조사 성공・단서 발견・다음 보상 획득",
 			"조사 실패・다음 보상 획득"
 		}
-	},
-	[3020] = {
+	}
+	pg.base.guild_base_event[3020] = {
 		extra_squedron_ratio = 0,
 		name = "마스트라 피오르 정찰",
 		extra_squadron = "",
@@ -7193,8 +7198,8 @@ pg.base.guild_base_event = {
 			"조사 성공・단서 발견・다음 보상 획득",
 			"조사 실패・다음 보상 획득"
 		}
-	},
-	[3021] = {
+	}
+	pg.base.guild_base_event[3021] = {
 		extra_squedron_ratio = 0,
 		name = "브레스트 선체 보수",
 		extra_squadron = "",
@@ -7256,8 +7261,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[3022] = {
+	}
+	pg.base.guild_base_event[3022] = {
 		extra_squedron_ratio = 0,
 		name = "빌헬름스하펜항 선체 보수",
 		extra_squadron = "",
@@ -7319,8 +7324,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[3023] = {
+	}
+	pg.base.guild_base_event[3023] = {
 		extra_squedron_ratio = 0,
 		name = "브레스트 물자 정비",
 		extra_squadron = "",
@@ -7382,8 +7387,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[3024] = {
+	}
+	pg.base.guild_base_event[3024] = {
 		extra_squedron_ratio = 0,
 		name = "빌헬름스하펜항 물자 정비",
 		extra_squadron = "",
@@ -7445,8 +7450,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[3101] = {
+	}
+	pg.base.guild_base_event[3101] = {
 		extra_squedron_ratio = 200,
 		name = "지브롤터 해역 조우전",
 		extra_squadron = "H-Class",
@@ -7524,8 +7529,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[3102] = {
+	}
+	pg.base.guild_base_event[3102] = {
 		extra_squedron_ratio = 200,
 		name = "스카게라크 해협 해전",
 		extra_squadron = "Nelson-Class",
@@ -7603,8 +7608,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[3103] = {
+	}
+	pg.base.guild_base_event[3103] = {
 		extra_squedron_ratio = 200,
 		name = "트론헤임 수송로 파괴",
 		extra_squadron = "U-boat",
@@ -7678,8 +7683,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[3104] = {
+	}
+	pg.base.guild_base_event[3104] = {
 		extra_squedron_ratio = 200,
 		name = "베르겐 수송로 파괴",
 		extra_squadron = "U-boat",
@@ -7753,8 +7758,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[3105] = {
+	}
+	pg.base.guild_base_event[3105] = {
 		extra_squedron_ratio = 200,
 		name = "오슬로 수송로 파괴",
 		extra_squadron = "Admiral Hipper-Class",
@@ -7828,8 +7833,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[3106] = {
+	}
+	pg.base.guild_base_event[3106] = {
 		extra_squedron_ratio = 200,
 		name = "트론헤임항 제해권 확보",
 		extra_squadron = "Leander-Class",
@@ -7907,8 +7912,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[3107] = {
+	}
+	pg.base.guild_base_event[3107] = {
 		extra_squedron_ratio = 200,
 		name = "베르겐항 제해권 확보",
 		extra_squadron = "Konigsberg-Class",
@@ -7986,8 +7991,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[3108] = {
+	}
+	pg.base.guild_base_event[3108] = {
 		extra_squedron_ratio = 200,
 		name = "오슬로항 제해권 확보",
 		extra_squadron = "Admiral Hipper-Class",
@@ -8065,8 +8070,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[3109] = {
+	}
+	pg.base.guild_base_event[3109] = {
 		extra_squedron_ratio = 200,
 		name = "트론헤임항 제공권 확보",
 		extra_squadron = "Illustrious-Class",
@@ -8136,8 +8141,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[3110] = {
+	}
+	pg.base.guild_base_event[3110] = {
 		extra_squedron_ratio = 200,
 		name = "베르겐항 제공권 확보",
 		extra_squadron = "Illustrious-Class",
@@ -8207,8 +8212,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[3111] = {
+	}
+	pg.base.guild_base_event[3111] = {
 		extra_squedron_ratio = 200,
 		name = "오슬로항 제공권 확보",
 		extra_squadron = "Illustrious-Class",
@@ -8278,8 +8283,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[3112] = {
+	}
+	pg.base.guild_base_event[3112] = {
 		extra_squedron_ratio = 200,
 		name = "트론헤임 피오르 정찰",
 		extra_squadron = "Royal Fleet-CVL",
@@ -8358,8 +8363,8 @@ pg.base.guild_base_event = {
 			"조사 성공・단서 발견・다음 보상 획득",
 			"조사 실패・다음 보상 획득"
 		}
-	},
-	[3113] = {
+	}
+	pg.base.guild_base_event[3113] = {
 		extra_squedron_ratio = 200,
 		name = "펜즈 피오르 정찰",
 		extra_squadron = "F-Class",
@@ -8438,8 +8443,8 @@ pg.base.guild_base_event = {
 			"조사 성공・단서 발견・다음 보상 획득",
 			"조사 실패・다음 보상 획득"
 		}
-	},
-	[3114] = {
+	}
+	pg.base.guild_base_event[3114] = {
 		extra_squedron_ratio = 200,
 		name = "비요나 피오르 정찰",
 		extra_squadron = "C-Class",
@@ -8518,8 +8523,8 @@ pg.base.guild_base_event = {
 			"조사 성공・단서 발견・다음 보상 획득",
 			"조사 실패・다음 보상 획득"
 		}
-	},
-	[3115] = {
+	}
+	pg.base.guild_base_event[3115] = {
 		extra_squedron_ratio = 200,
 		name = "오슬로 피오르 정찰",
 		extra_squadron = "Royal Fleet-CVL",
@@ -8598,8 +8603,8 @@ pg.base.guild_base_event = {
 			"조사 성공・단서 발견・다음 보상 획득",
 			"조사 실패・다음 보상 획득"
 		}
-	},
-	[3201] = {
+	}
+	pg.base.guild_base_event[3201] = {
 		extra_squedron_ratio = 0,
 		name = "브레스트 수송 호위",
 		extra_squadron = "",
@@ -8665,8 +8670,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[3202] = {
+	}
+	pg.base.guild_base_event[3202] = {
 		extra_squedron_ratio = 0,
 		name = "빌헬름스하펜항 수송 호위",
 		extra_squadron = "",
@@ -8732,8 +8737,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[3203] = {
+	}
+	pg.base.guild_base_event[3203] = {
 		extra_squedron_ratio = 0,
 		name = "리버풀 수송 호위",
 		extra_squadron = "",
@@ -8800,8 +8805,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[3204] = {
+	}
+	pg.base.guild_base_event[3204] = {
 		extra_squedron_ratio = 0,
 		name = "킬항 수송 호위",
 		extra_squadron = "",
@@ -8868,8 +8873,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[3205] = {
+	}
+	pg.base.guild_base_event[3205] = {
 		extra_squedron_ratio = 0,
 		name = "나르비크 수송 봉쇄",
 		extra_squadron = "",
@@ -8934,8 +8939,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[3206] = {
+	}
+	pg.base.guild_base_event[3206] = {
 		extra_squedron_ratio = 0,
 		name = "남소스 수송 봉쇄",
 		extra_squadron = "",
@@ -9000,8 +9005,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[3207] = {
+	}
+	pg.base.guild_base_event[3207] = {
 		extra_squedron_ratio = 0,
 		name = "스타방에르 수송 봉쇄",
 		extra_squadron = "",
@@ -9067,8 +9072,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[3208] = {
+	}
+	pg.base.guild_base_event[3208] = {
 		extra_squedron_ratio = 0,
 		name = "크리스티안산 수송 봉쇄",
 		extra_squadron = "",
@@ -9134,8 +9139,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[3209] = {
+	}
+	pg.base.guild_base_event[3209] = {
 		extra_squedron_ratio = 0,
 		name = "나르비크항 거점 확보",
 		extra_squadron = "",
@@ -9201,8 +9206,8 @@ pg.base.guild_base_event = {
 			"임무 성공・단서 발견・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[3210] = {
+	}
+	pg.base.guild_base_event[3210] = {
 		extra_squedron_ratio = 0,
 		name = "남소스항 거점 확보",
 		extra_squadron = "",
@@ -9268,8 +9273,8 @@ pg.base.guild_base_event = {
 			"임무 성공・단서 발견・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[3211] = {
+	}
+	pg.base.guild_base_event[3211] = {
 		extra_squedron_ratio = 0,
 		name = "스타방에르항 거점 확보",
 		extra_squadron = "",
@@ -9331,8 +9336,8 @@ pg.base.guild_base_event = {
 			"임무 성공・단서 발견・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[3212] = {
+	}
+	pg.base.guild_base_event[3212] = {
 		extra_squedron_ratio = 0,
 		name = "크리스티안산항 거점 확보",
 		extra_squadron = "",
@@ -9394,8 +9399,8 @@ pg.base.guild_base_event = {
 			"임무 성공・단서 발견・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[3213] = {
+	}
+	pg.base.guild_base_event[3213] = {
 		extra_squedron_ratio = 0,
 		name = "리버풀 선체 보수",
 		extra_squadron = "",
@@ -9458,8 +9463,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[3214] = {
+	}
+	pg.base.guild_base_event[3214] = {
 		extra_squedron_ratio = 0,
 		name = "킬항 선체 보수",
 		extra_squadron = "",
@@ -9522,8 +9527,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[3215] = {
+	}
+	pg.base.guild_base_event[3215] = {
 		extra_squedron_ratio = 0,
 		name = "리버풀 물자 정비",
 		extra_squadron = "",
@@ -9586,8 +9591,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[3216] = {
+	}
+	pg.base.guild_base_event[3216] = {
 		extra_squedron_ratio = 0,
 		name = "킬항 물자 정비",
 		extra_squadron = "",
@@ -9650,8 +9655,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[4001] = {
+	}
+	pg.base.guild_base_event[4001] = {
 		extra_squedron_ratio = 0,
 		name = "북방 해역 세이렌 소탕",
 		extra_squadron = "",
@@ -9721,8 +9726,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[4002] = {
+	}
+	pg.base.guild_base_event[4002] = {
 		extra_squedron_ratio = 0,
 		name = "코럴해 세이렌 소탕",
 		extra_squadron = "",
@@ -9792,8 +9797,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[4003] = {
+	}
+	pg.base.guild_base_event[4003] = {
 		extra_squedron_ratio = 0,
 		name = "누쿠마누 환초 세이렌 섬멸",
 		extra_squadron = "",
@@ -9863,8 +9868,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[4004] = {
+	}
+	pg.base.guild_base_event[4004] = {
 		extra_squedron_ratio = 0,
 		name = "인디스펜서블 해협 거점 확보",
 		extra_squadron = "",
@@ -9930,8 +9935,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[4005] = {
+	}
+	pg.base.guild_base_event[4005] = {
 		extra_squedron_ratio = 0,
 		name = "벨라 걸프 거점 확보",
 		extra_squadron = "",
@@ -9997,8 +10002,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[4006] = {
+	}
+	pg.base.guild_base_event[4006] = {
 		extra_squedron_ratio = 0,
 		name = "블랑쉬 해협 저지전",
 		extra_squadron = "",
@@ -10069,8 +10074,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[4007] = {
+	}
+	pg.base.guild_base_event[4007] = {
 		extra_squedron_ratio = 0,
 		name = "블랙켓 해협 조우전",
 		extra_squadron = "",
@@ -10141,8 +10146,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[4008] = {
+	}
+	pg.base.guild_base_event[4008] = {
 		extra_squedron_ratio = 0,
 		name = "매닝 해협 조우전",
 		extra_squadron = "",
@@ -10213,8 +10218,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[4009] = {
+	}
+	pg.base.guild_base_event[4009] = {
 		extra_squedron_ratio = 0,
 		name = "북방 해역 제공권 확보",
 		extra_squadron = "",
@@ -10284,8 +10289,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[4010] = {
+	}
+	pg.base.guild_base_event[4010] = {
 		extra_squedron_ratio = 0,
 		name = "남방 해역 제공권 확보",
 		extra_squadron = "",
@@ -10355,8 +10360,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[4011] = {
+	}
+	pg.base.guild_base_event[4011] = {
 		extra_squedron_ratio = 0,
 		name = "과달카날 제공권 확보",
 		extra_squadron = "",
@@ -10426,8 +10431,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[4012] = {
+	}
+	pg.base.guild_base_event[4012] = {
 		extra_squedron_ratio = 0,
 		name = "북방 해역 대공 호위",
 		extra_squadron = "",
@@ -10497,8 +10502,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[4013] = {
+	}
+	pg.base.guild_base_event[4013] = {
 		extra_squedron_ratio = 0,
 		name = "남방 해역 대공 호위",
 		extra_squadron = "",
@@ -10568,8 +10573,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[4014] = {
+	}
+	pg.base.guild_base_event[4014] = {
 		extra_squedron_ratio = 0,
 		name = "과달카날 대공 호위",
 		extra_squadron = "",
@@ -10639,8 +10644,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[4015] = {
+	}
+	pg.base.guild_base_event[4015] = {
 		extra_squedron_ratio = 0,
 		name = "툴라기섬 항공 지원",
 		extra_squadron = "",
@@ -10710,8 +10715,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[4018] = {
+	}
+	pg.base.guild_base_event[4018] = {
 		extra_squedron_ratio = 0,
 		name = "툴라기섬 작전 지원",
 		extra_squadron = "",
@@ -10777,8 +10782,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[4019] = {
+	}
+	pg.base.guild_base_event[4019] = {
 		extra_squedron_ratio = 0,
 		name = "툴라기섬 제해권 확보",
 		extra_squadron = "",
@@ -10848,8 +10853,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[4020] = {
+	}
+	pg.base.guild_base_event[4020] = {
 		extra_squedron_ratio = 0,
 		name = "툴라기섬 제공권 확보",
 		extra_squadron = "",
@@ -10915,8 +10920,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[4021] = {
+	}
+	pg.base.guild_base_event[4021] = {
 		extra_squedron_ratio = 0,
 		name = "산타크루즈 제도 경계",
 		extra_squadron = "",
@@ -10986,8 +10991,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[4022] = {
+	}
+	pg.base.guild_base_event[4022] = {
 		extra_squedron_ratio = 0,
 		name = "산토페코아 비행장 경계",
 		extra_squadron = "",
@@ -11053,8 +11058,8 @@ pg.base.guild_base_event = {
 			"임무 성공・단서 발견・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[4023] = {
+	}
+	pg.base.guild_base_event[4023] = {
 		extra_squedron_ratio = 0,
 		name = "빌라만 경계",
 		extra_squadron = "",
@@ -11120,8 +11125,8 @@ pg.base.guild_base_event = {
 			"임무 성공・단서 발견・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[4024] = {
+	}
+	pg.base.guild_base_event[4024] = {
 		extra_squedron_ratio = 0,
 		name = "누메아항 경계",
 		extra_squadron = "",
@@ -11187,8 +11192,8 @@ pg.base.guild_base_event = {
 			"임무 성공・단서 발견・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[4025] = {
+	}
+	pg.base.guild_base_event[4025] = {
 		extra_squedron_ratio = 0,
 		name = "라바울항 경계",
 		extra_squadron = "",
@@ -11254,8 +11259,8 @@ pg.base.guild_base_event = {
 			"임무 성공・단서 발견・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[4026] = {
+	}
+	pg.base.guild_base_event[4026] = {
 		extra_squedron_ratio = 0,
 		name = "추크 경계",
 		extra_squadron = "",
@@ -11321,8 +11326,8 @@ pg.base.guild_base_event = {
 			"임무 성공・단서 발견・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[4027] = {
+	}
+	pg.base.guild_base_event[4027] = {
 		extra_squedron_ratio = 0,
 		name = "라모스섬 수로 경계",
 		extra_squadron = "",
@@ -11393,8 +11398,8 @@ pg.base.guild_base_event = {
 			"조사 성공・단서 발견・다음 보상 획득",
 			"조사 실패・다음 보상 획득"
 		}
-	},
-	[4028] = {
+	}
+	pg.base.guild_base_event[4028] = {
 		extra_squedron_ratio = 0,
 		name = "밸푸어 해협 경계",
 		extra_squadron = "",
@@ -11465,8 +11470,8 @@ pg.base.guild_base_event = {
 			"조사 성공・단서 발견・다음 보상 획득",
 			"조사 실패・다음 보상 획득"
 		}
-	},
-	[4101] = {
+	}
+	pg.base.guild_base_event[4101] = {
 		extra_squedron_ratio = 200,
 		name = "뉴조지아 사운드 세이렌 소탕",
 		extra_squadron = "Gato-Class",
@@ -11544,8 +11549,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[4102] = {
+	}
+	pg.base.guild_base_event[4102] = {
 		extra_squedron_ratio = 200,
 		name = "렌넬섬 남부 암초 세이렌 소탕",
 		extra_squadron = "Brooklyn-Class",
@@ -11623,8 +11628,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[4103] = {
+	}
+	pg.base.guild_base_event[4103] = {
 		extra_squedron_ratio = 200,
 		name = "카터렛 제도 세이렌 섬멸",
 		extra_squadron = "Cleveland-Class",
@@ -11702,8 +11707,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[4104] = {
+	}
+	pg.base.guild_base_event[4104] = {
 		extra_squedron_ratio = 200,
 		name = "사보섬 해전",
 		extra_squadron = "Northampton-Class",
@@ -11782,8 +11787,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[4105] = {
+	}
+	pg.base.guild_base_event[4105] = {
 		extra_squedron_ratio = 200,
 		name = "테나루만 결전",
 		extra_squadron = "Furutaka-Class",
@@ -11862,8 +11867,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[4106] = {
+	}
+	pg.base.guild_base_event[4106] = {
 		extra_squedron_ratio = 200,
 		name = "아이언 바텀 사운드 포격전",
 		extra_squadron = "Kongo-Class",
@@ -11938,8 +11943,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[4107] = {
+	}
+	pg.base.guild_base_event[4107] = {
 		extra_squedron_ratio = 200,
 		name = "타사파롱가 조우전",
 		extra_squadron = "Kagero-Class",
@@ -12018,8 +12023,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[4108] = {
+	}
+	pg.base.guild_base_event[4108] = {
 		extra_squedron_ratio = 200,
 		name = "아이언 바텀 사운드 야전",
 		extra_squadron = "Special Type",
@@ -12093,8 +12098,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[4109] = {
+	}
+	pg.base.guild_base_event[4109] = {
 		extra_squedron_ratio = 200,
 		name = "쿨라만 야전",
 		extra_squadron = "Special Type",
@@ -12168,8 +12173,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[4110] = {
+	}
+	pg.base.guild_base_event[4110] = {
 		extra_squedron_ratio = 200,
 		name = "타사파롱가 야전",
 		extra_squadron = "Kongo-Class",
@@ -12247,8 +12252,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[4111] = {
+	}
+	pg.base.guild_base_event[4111] = {
 		extra_squedron_ratio = 200,
 		name = "테나루만 제공권 확보",
 		extra_squadron = "Eagle Union-CVL",
@@ -12322,8 +12327,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[4112] = {
+	}
+	pg.base.guild_base_event[4112] = {
 		extra_squedron_ratio = 200,
 		name = "스튜어트섬 제공권 확보",
 		extra_squadron = "Essex-Class",
@@ -12401,8 +12406,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[4113] = {
+	}
+	pg.base.guild_base_event[4113] = {
 		extra_squedron_ratio = 200,
 		name = "인디스펜서블 해협 제공권 확보",
 		extra_squadron = "Independence-Class",
@@ -12476,8 +12481,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[4114] = {
+	}
+	pg.base.guild_base_event[4114] = {
 		extra_squedron_ratio = 200,
 		name = "산타크루즈 제도 제공권 확보",
 		extra_squadron = "Yorktown-Class",
@@ -12551,8 +12556,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[4115] = {
+	}
+	pg.base.guild_base_event[4115] = {
 		extra_squedron_ratio = 200,
 		name = "렌넬섬 대공 호위",
 		extra_squadron = "Atlanta-Class",
@@ -12630,8 +12635,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[4116] = {
+	}
+	pg.base.guild_base_event[4116] = {
 		extra_squedron_ratio = 200,
 		name = "룽가곶 항공 지원",
 		extra_squadron = "5th-airfleet",
@@ -12709,8 +12714,8 @@ pg.base.guild_base_event = {
 			"임무 성공・단서 발견・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[4117] = {
+	}
+	pg.base.guild_base_event[4117] = {
 		extra_squedron_ratio = 200,
 		name = "엠프레스 오거스타만 해전",
 		extra_squadron = "Essex-Class",
@@ -12788,8 +12793,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[4118] = {
+	}
+	pg.base.guild_base_event[4118] = {
 		extra_squedron_ratio = 200,
 		name = "콜롬방가라 해전 해전",
 		extra_squadron = "Yorktown-Class",
@@ -12863,8 +12868,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[4120] = {
+	}
+	pg.base.guild_base_event[4120] = {
 		extra_squedron_ratio = 200,
 		name = "룽가곶 작전 지원",
 		extra_squadron = "Astoria-Class",
@@ -12941,8 +12946,8 @@ pg.base.guild_base_event = {
 			"임무 성공・단서 발견・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[4121] = {
+	}
+	pg.base.guild_base_event[4121] = {
 		extra_squedron_ratio = 200,
 		name = "룽가곶 제해권 확보",
 		extra_squadron = "Kongo-Class",
@@ -13019,8 +13024,8 @@ pg.base.guild_base_event = {
 			"임무 성공・단서 발견・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[4122] = {
+	}
+	pg.base.guild_base_event[4122] = {
 		extra_squedron_ratio = 200,
 		name = "룽가곶 제공권 확보",
 		extra_squadron = "Essex-Class",
@@ -13089,8 +13094,8 @@ pg.base.guild_base_event = {
 			"임무 성공・단서 발견・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[4123] = {
+	}
+	pg.base.guild_base_event[4123] = {
 		extra_squedron_ratio = 200,
 		name = "뉴조지아 사운드 경계",
 		extra_squadron = "Fletcher-Class",
@@ -13169,8 +13174,8 @@ pg.base.guild_base_event = {
 			"조사 성공・단서 발견・다음 보상 획득",
 			"조사 실패・다음 보상 획득"
 		}
-	},
-	[4201] = {
+	}
+	pg.base.guild_base_event[4201] = {
 		extra_squedron_ratio = 0,
 		name = "윌슨 해협 거점 확보",
 		extra_squadron = "",
@@ -13241,8 +13246,8 @@ pg.base.guild_base_event = {
 			"작전 성공・단서 발견・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[4202] = {
+	}
+	pg.base.guild_base_event[4202] = {
 		extra_squedron_ratio = 0,
 		name = "할리우나만 잠복",
 		extra_squadron = "",
@@ -13312,8 +13317,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[4203] = {
+	}
+	pg.base.guild_base_event[4203] = {
 		extra_squedron_ratio = 0,
 		name = "루티만 잠복",
 		extra_squadron = "",
@@ -13379,8 +13384,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[4204] = {
+	}
+	pg.base.guild_base_event[4204] = {
 		extra_squedron_ratio = 0,
 		name = "마로우만 세이렌 섬멸",
 		extra_squadron = "",
@@ -13445,8 +13450,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[4205] = {
+	}
+	pg.base.guild_base_event[4205] = {
 		extra_squedron_ratio = 0,
 		name = "와이라하만 세이렌 섬멸",
 		extra_squadron = "",
@@ -13515,8 +13520,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[4206] = {
+	}
+	pg.base.guild_base_event[4206] = {
 		extra_squedron_ratio = 0,
 		name = "수피네만 세이렌 섬멸",
 		extra_squadron = "",
@@ -13585,8 +13590,8 @@ pg.base.guild_base_event = {
 			"작전 성공・다음 보상 획득",
 			"간신히 작전 성공・다음 보상 획득"
 		}
-	},
-	[4207] = {
+	}
+	pg.base.guild_base_event[4207] = {
 		extra_squedron_ratio = 0,
 		name = "근해 제공권 확보",
 		extra_squadron = "",
@@ -13651,8 +13656,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[4208] = {
+	}
+	pg.base.guild_base_event[4208] = {
 		extra_squedron_ratio = 0,
 		name = "근해 제공권 확보",
 		extra_squadron = "",
@@ -13717,8 +13722,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[4209] = {
+	}
+	pg.base.guild_base_event[4209] = {
 		extra_squedron_ratio = 0,
 		name = "근해 대공 호위",
 		extra_squadron = "",
@@ -13783,8 +13788,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[4210] = {
+	}
+	pg.base.guild_base_event[4210] = {
 		extra_squedron_ratio = 0,
 		name = "근해 대공 호위",
 		extra_squadron = "",
@@ -13849,8 +13854,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[4211] = {
+	}
+	pg.base.guild_base_event[4211] = {
 		extra_squedron_ratio = 0,
 		name = "산토페코아 비행장 보급 수송",
 		extra_squadron = "",
@@ -13912,8 +13917,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[4212] = {
+	}
+	pg.base.guild_base_event[4212] = {
 		extra_squedron_ratio = 0,
 		name = "라바울항 보급 수송",
 		extra_squadron = "",
@@ -13975,8 +13980,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[4213] = {
+	}
+	pg.base.guild_base_event[4213] = {
 		extra_squedron_ratio = 0,
 		name = "누메아항 보급 정비",
 		extra_squadron = "",
@@ -14039,8 +14044,8 @@ pg.base.guild_base_event = {
 			"임무 성공・다음 보상 획득",
 			"간신히 임무 성공・다음 보상 획득"
 		}
-	},
-	[4214] = {
+	}
+	pg.base.guild_base_event[4214] = {
 		extra_squedron_ratio = 0,
 		name = "라바울항 보급 정비",
 		extra_squadron = "",
@@ -14104,4 +14109,4 @@ pg.base.guild_base_event = {
 			"간신히 임무 성공・다음 보상 획득"
 		}
 	}
-}
+end)()

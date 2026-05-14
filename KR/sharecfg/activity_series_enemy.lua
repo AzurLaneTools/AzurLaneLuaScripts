@@ -1,6 +1,46 @@
 pg = pg or {}
-pg.activity_series_enemy = {
-	[1001] = {
+pg.activity_series_enemy = rawget(pg, "activity_series_enemy") or setmetatable({
+	__name = "activity_series_enemy"
+}, confNEO)
+pg.activity_series_enemy.all = {
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	2001,
+	2002,
+	2003,
+	2004,
+	2005,
+	3001,
+	3002,
+	3003,
+	3004,
+	3005,
+	4001,
+	4002,
+	4011,
+	4012,
+	4021,
+	4022,
+	4031,
+	4032,
+	4041,
+	4042,
+	4051,
+	4052,
+	5001,
+	5002,
+	5003,
+	5004,
+	5005
+}
+pg.base = pg.base or {}
+pg.base.activity_series_enemy = {}
+
+(function ()
+	pg.base.activity_series_enemy[1001] = {
 		oil = 0,
 		name = "제압: 그린란드",
 		type = 1,
@@ -55,8 +95,8 @@ pg.activity_series_enemy = {
 			0,
 			0
 		}
-	},
-	[1002] = {
+	}
+	pg.base.activity_series_enemy[1002] = {
 		oil = 0,
 		name = "돌파: 축치해",
 		type = 1,
@@ -126,8 +166,8 @@ pg.activity_series_enemy = {
 			0,
 			0
 		}
-	},
-	[1003] = {
+	}
+	pg.base.activity_series_enemy[1003] = {
 		oil = 0,
 		name = "탈환: 세베르나야젬랴 제도",
 		type = 1,
@@ -202,8 +242,8 @@ pg.activity_series_enemy = {
 			25,
 			16
 		}
-	},
-	[1004] = {
+	}
+	pg.base.activity_series_enemy[1004] = {
 		oil = 0,
 		name = "정찰: 북극",
 		type = 2,
@@ -273,8 +313,8 @@ pg.activity_series_enemy = {
 			40,
 			16
 		}
-	},
-	[1005] = {
+	}
+	pg.base.activity_series_enemy[1005] = {
 		oil = 0,
 		name = "견제: 왕관",
 		type = 3,
@@ -332,8 +372,8 @@ pg.activity_series_enemy = {
 			1000,
 			0.8
 		}
-	},
-	[2001] = {
+	}
+	pg.base.activity_series_enemy[2001] = {
 		oil = 0,
 		name = "사무동",
 		type = 1,
@@ -390,8 +430,8 @@ pg.activity_series_enemy = {
 			0,
 			0
 		}
-	},
-	[2002] = {
+	}
+	pg.base.activity_series_enemy[2002] = {
 		oil = 0,
 		name = "교실동",
 		type = 1,
@@ -464,8 +504,8 @@ pg.activity_series_enemy = {
 			0,
 			0
 		}
-	},
-	[2003] = {
+	}
+	pg.base.activity_series_enemy[2003] = {
 		oil = 0,
 		name = "예술동",
 		type = 1,
@@ -543,8 +583,8 @@ pg.activity_series_enemy = {
 			25,
 			16
 		}
-	},
-	[2004] = {
+	}
+	pg.base.activity_series_enemy[2004] = {
 		oil = 0,
 		name = "운동장",
 		type = 2,
@@ -627,8 +667,8 @@ pg.activity_series_enemy = {
 			40,
 			16
 		}
-	},
-	[2005] = {
+	}
+	pg.base.activity_series_enemy[2005] = {
 		oil = 0,
 		name = "뒷산 숲",
 		type = 3,
@@ -690,8 +730,8 @@ pg.activity_series_enemy = {
 			1000,
 			0.8
 		}
-	},
-	[3001] = {
+	}
+	pg.base.activity_series_enemy[3001] = {
 		oil = 0,
 		name = "촬영지: 간선 도로",
 		type = 1,
@@ -744,8 +784,8 @@ pg.activity_series_enemy = {
 			0,
 			0
 		}
-	},
-	[3002] = {
+	}
+	pg.base.activity_series_enemy[3002] = {
 		oil = 0,
 		name = "촬영지: 상점가",
 		type = 1,
@@ -814,8 +854,8 @@ pg.activity_series_enemy = {
 			0,
 			0
 		}
-	},
-	[3003] = {
+	}
+	pg.base.activity_series_enemy[3003] = {
 		oil = 0,
 		name = "촬영지: 열차",
 		type = 1,
@@ -889,8 +929,8 @@ pg.activity_series_enemy = {
 			25,
 			16
 		}
-	},
-	[3004] = {
+	}
+	pg.base.activity_series_enemy[3004] = {
 		oil = 0,
 		name = "촬영지: 번화가",
 		type = 2,
@@ -958,8 +998,8 @@ pg.activity_series_enemy = {
 			40,
 			16
 		}
-	},
-	[3005] = {
+	}
+	pg.base.activity_series_enemy[3005] = {
 		oil = 0,
 		name = "촬영지: 경찰기구",
 		type = 3,
@@ -1017,8 +1057,8 @@ pg.activity_series_enemy = {
 			1000,
 			0.8
 		}
-	},
-	[4001] = {
+	}
+	pg.base.activity_series_enemy[4001] = {
 		oil = 0,
 		name = "보통（LV 20）",
 		type = 1,
@@ -1097,8 +1137,8 @@ pg.activity_series_enemy = {
 			0,
 			0
 		}
-	},
-	[4002] = {
+	}
+	pg.base.activity_series_enemy[4002] = {
 		oil = 0,
 		name = "어려움（LV 35）",
 		type = 1,
@@ -1177,8 +1217,8 @@ pg.activity_series_enemy = {
 			0,
 			0
 		}
-	},
-	[4011] = {
+	}
+	pg.base.activity_series_enemy[4011] = {
 		oil = 0,
 		name = "보통（LV 50）",
 		type = 1,
@@ -1262,8 +1302,8 @@ pg.activity_series_enemy = {
 			0,
 			0
 		}
-	},
-	[4012] = {
+	}
+	pg.base.activity_series_enemy[4012] = {
 		oil = 0,
 		name = "어려움（LV 65）",
 		type = 1,
@@ -1347,8 +1387,8 @@ pg.activity_series_enemy = {
 			0,
 			0
 		}
-	},
-	[4021] = {
+	}
+	pg.base.activity_series_enemy[4021] = {
 		oil = 0,
 		name = "보통（LV 50）",
 		type = 1,
@@ -1432,8 +1472,8 @@ pg.activity_series_enemy = {
 			0,
 			0
 		}
-	},
-	[4022] = {
+	}
+	pg.base.activity_series_enemy[4022] = {
 		oil = 0,
 		name = "어려움（LV 65）",
 		type = 1,
@@ -1517,8 +1557,8 @@ pg.activity_series_enemy = {
 			0,
 			0
 		}
-	},
-	[4031] = {
+	}
+	pg.base.activity_series_enemy[4031] = {
 		oil = 0,
 		name = "보통（LV 50）",
 		type = 1,
@@ -1602,8 +1642,8 @@ pg.activity_series_enemy = {
 			0,
 			0
 		}
-	},
-	[4032] = {
+	}
+	pg.base.activity_series_enemy[4032] = {
 		oil = 0,
 		name = "어려움（LV 65）",
 		type = 1,
@@ -1687,8 +1727,8 @@ pg.activity_series_enemy = {
 			0,
 			0
 		}
-	},
-	[4041] = {
+	}
+	pg.base.activity_series_enemy[4041] = {
 		oil = 0,
 		name = "보통（LV 50）",
 		type = 1,
@@ -1772,8 +1812,8 @@ pg.activity_series_enemy = {
 			0,
 			0
 		}
-	},
-	[4042] = {
+	}
+	pg.base.activity_series_enemy[4042] = {
 		oil = 0,
 		name = "어려움（LV 65）",
 		type = 1,
@@ -1857,8 +1897,8 @@ pg.activity_series_enemy = {
 			0,
 			0
 		}
-	},
-	[4051] = {
+	}
+	pg.base.activity_series_enemy[4051] = {
 		oil = 0,
 		name = "보통（LV 80）",
 		type = 1,
@@ -1947,8 +1987,8 @@ pg.activity_series_enemy = {
 			22,
 			15
 		}
-	},
-	[4052] = {
+	}
+	pg.base.activity_series_enemy[4052] = {
 		oil = 0,
 		name = "어려움（LV 100）",
 		type = 1,
@@ -2037,8 +2077,8 @@ pg.activity_series_enemy = {
 			25,
 			16
 		}
-	},
-	[5001] = {
+	}
+	pg.base.activity_series_enemy[5001] = {
 		oil = 0,
 		name = "나비춤의 약속",
 		type = 1,
@@ -2095,8 +2135,8 @@ pg.activity_series_enemy = {
 			0,
 			0
 		}
-	},
-	[5002] = {
+	}
+	pg.base.activity_series_enemy[5002] = {
 		oil = 0,
 		name = "포근한 벨벳 판타지",
 		type = 1,
@@ -2169,8 +2209,8 @@ pg.activity_series_enemy = {
 			0,
 			0
 		}
-	},
-	[5003] = {
+	}
+	pg.base.activity_series_enemy[5003] = {
 		oil = 0,
 		name = "마음의 창",
 		type = 1,
@@ -2248,8 +2288,8 @@ pg.activity_series_enemy = {
 			25,
 			16
 		}
-	},
-	[5004] = {
+	}
+	pg.base.activity_series_enemy[5004] = {
 		oil = 0,
 		name = "순백의 마음",
 		type = 2,
@@ -2321,8 +2361,8 @@ pg.activity_series_enemy = {
 			40,
 			16
 		}
-	},
-	[5005] = {
+	}
+	pg.base.activity_series_enemy[5005] = {
 		oil = 0,
 		name = "깊은 밤의 속삭임",
 		type = 3,
@@ -2384,39 +2424,5 @@ pg.activity_series_enemy = {
 			1000,
 			0.8
 		}
-	},
-	all = {
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		2001,
-		2002,
-		2003,
-		2004,
-		2005,
-		3001,
-		3002,
-		3003,
-		3004,
-		3005,
-		4001,
-		4002,
-		4011,
-		4012,
-		4021,
-		4022,
-		4031,
-		4032,
-		4041,
-		4042,
-		4051,
-		4052,
-		5001,
-		5002,
-		5003,
-		5004,
-		5005
 	}
-}
+end)()

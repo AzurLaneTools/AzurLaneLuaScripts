@@ -1,6 +1,107 @@
 pg = pg or {}
-pg.activity_ryza_item = {
-	{
+pg.activity_ryza_item = rawget(pg, "activity_ryza_item") or setmetatable({
+	__name = "activity_ryza_item"
+}, confNEO)
+pg.activity_ryza_item.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	39,
+	40,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	47,
+	48,
+	49,
+	50,
+	51,
+	52,
+	53,
+	54,
+	55,
+	56,
+	57,
+	58,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	110,
+	111,
+	112,
+	116,
+	117,
+	118,
+	119,
+	120,
+	121,
+	122,
+	126,
+	127,
+	128,
+	129,
+	130,
+	131,
+	132,
+	133,
+	134,
+	135,
+	136,
+	137,
+	138,
+	139,
+	140,
+	141
+}
+pg.base = pg.base or {}
+pg.base.activity_ryza_item = {}
+
+(function ()
+	pg.base.activity_ryza_item[1] = {
 		icon = "ryza_item_1",
 		display = "낚싯대의 강화 버전. 강화를 거쳐 물고기들이 경계심을 풀고 접근한다.",
 		prop_type = 0,
@@ -23,8 +124,8 @@ pg.activity_ryza_item = {
 			"획득 경로: 아틀리에",
 			recipeid = 4
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[2] = {
 		icon = "ryza_item_2",
 		display = "밤 로드의 강화 버전. 앞쪽 보옥이 푸른색으로 바뀌어 암석과 수정을 더 효율적으로 파괴할 수 있다.",
 		prop_type = 0,
@@ -46,8 +147,8 @@ pg.activity_ryza_item = {
 			"획득 경로: 아틀리에",
 			recipeid = 3
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[3] = {
 		icon = "ryza_item_3",
 		display = "개조을 거쳐 예리함과 무게를 꼼꼼히 조절했다. 목재와 장작 채집 시 일반 도끼보다 수월하다.",
 		prop_type = 0,
@@ -70,8 +171,8 @@ pg.activity_ryza_item = {
 			"획득 경로: 아틀리에",
 			recipeid = 2
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[4] = {
 		icon = "ryza_item_4",
 		display = "채집하기 더 편리하게 개조된 낫. 바람처럼 조용하고 가볍게 풀을 벨 수 있다.",
 		prop_type = 0,
@@ -94,8 +195,8 @@ pg.activity_ryza_item = {
 			"획득 경로: 아틀리에",
 			recipeid = 1
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[5] = {
 		icon = "ryza_item_5",
 		display = "강력한 악력과 추력을 지닌 세이렌 기계팔. 강렬한 레이저도 발사할 수 있다——연금술 소재를 채취하는 데 사용하면 좋을 것 같은데?",
 		prop_type = 0,
@@ -120,8 +221,8 @@ pg.activity_ryza_item = {
 			"획득 경로: 아틀리에",
 			recipeid = 5
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[6] = {
 		icon = "ryza_item_6",
 		display = "모래사장에서 쉽게 발견되는 조개. 소금기가 있어 그대로 구워서 익히면 아주 맛있다.",
 		prop_type = 0,
@@ -166,8 +267,8 @@ pg.activity_ryza_item = {
 			0.85,
 			0.85
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[7] = {
 		icon = "ryza_item_7",
 		display = "하천과 호수에 서식하는 민물고기. 흔한 물고기 중 하나.",
 		prop_type = 0,
@@ -212,8 +313,8 @@ pg.activity_ryza_item = {
 			2.3,
 			-1
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[8] = {
 		icon = "ryza_item_8",
 		display = "호수 바닥의 가장 깊은 곳에 서식한다고 하는 물고기들의 지배자.",
 		prop_type = 0,
@@ -263,8 +364,8 @@ pg.activity_ryza_item = {
 			0,
 			-1.5
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[9] = {
 		icon = "ryza_item_9",
 		display = "결정처럼 투명한 돌조각. 여러 종류가 있으며 일부 고급 보석이 섞여 있을 수도 있다.",
 		prop_type = 0,
@@ -308,8 +409,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[10] = {
 		icon = "ryza_item_10",
 		display = "바위를 부숴 채취할 수 있는 모래. 자극적인 냄새를 풍기며 불을 가까이하면 불타는 성질이 있다.",
 		prop_type = 0,
@@ -354,8 +455,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[11] = {
 		icon = "ryza_item_11",
 		display = "용암을 잘게 부수어 만든 물질. 가루이지만 용암의 성질은 여전하여 방치하면 스스로 발열 및 발화하는 위험물. 바람에 날리면 비극이 일어날 수도 있다.",
 		prop_type = 0,
@@ -400,8 +501,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[12] = {
 		icon = "ryza_item_12",
 		display = "잡초. 아무 곳에서나 자란다는 것외에 특징이 없어 이름조차 없다. 매우 흔한 풀이며 연금술의 레시피에도 종종 쓰인다.",
 		prop_type = 0,
@@ -440,8 +541,8 @@ pg.activity_ryza_item = {
 			2,
 			-1.5
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[13] = {
 		icon = "ryza_item_13",
 		display = "새의 날개 같은 모양의 식물. 매우 가벼워 바람을 타고 날아오르기도 한다.",
 		prop_type = 0,
@@ -486,8 +587,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[14] = {
 		icon = "ryza_item_14",
 		display = "일반적인 덩굴과 달리 적흑색이다. 흔히 철분이 함유된 토양에서 자라기 때문에 이러한 색이 되었다고 여겨진다.잘라낸 지 얼마 안 되어 마르지 않았을 때 불에 가까이하면 매우 잘 붙는다.",
 		prop_type = 0,
@@ -537,8 +638,8 @@ pg.activity_ryza_item = {
 			0,
 			0.46
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[15] = {
 		icon = "ryza_item_15",
 		display = "번개의 힘을 품고 있는 광석. 번개가 자주 치는 곳, 언덕 등 높은 곳에서 자주 발굴된다. 낙뢰로 암석이 변질돼 이런 광석이 생겼다고 한다.",
 		prop_type = 0,
@@ -577,8 +678,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[16] = {
 		icon = "ryza_item_16",
 		display = "거대한 운석의 파편. 반드시 한 쌍으로 존재하며, 둘 사이에는 아무리 멀리 떨어져 있어도 공간을 초월할 수 있는 연결고리가 있다. 이 특징을 이용하면 공간 이동을 할 수 도…… 있지 않을까.",
 		prop_type = 0,
@@ -628,8 +729,8 @@ pg.activity_ryza_item = {
 			-1.15,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[17] = {
 		icon = "ryza_item_17",
 		display = "내부에 빛이 깃든 투명감이 느껴지는 광석. 너무 단단하여 평범한 방법으로 가공할 수 없다고 한다.",
 		prop_type = 0,
@@ -674,8 +775,8 @@ pg.activity_ryza_item = {
 			-0.5,
 			3
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[18] = {
 		icon = "ryza_item_18",
 		display = "핵심 구역에서 발굴해낸 정체불명의 결정. 단단한 재질에 다양한 엘리먼트의 에너지가 녹아 있다. 괜찮은 연금 소재일지도?",
 		prop_type = 0,
@@ -738,8 +839,8 @@ pg.activity_ryza_item = {
 			3.97,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[19] = {
 		icon = "ryza_item_19",
 		display = "핵심 구역의 잔해를 해체해 획득한 신비한 장갑판. 강인하고 매끄러운 흰색 표면은 다양한 엘리먼트로 담금질 한 것 같다.고급 연금 소재로 활용할 수 있을 것 같다.",
 		prop_type = 0,
@@ -802,8 +903,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[20] = {
 		icon = "ryza_item_20",
 		display = "고대 유적 수호자의 동력원. 수호자의 몸에서 분리되었어도 끝없는 에너지를 뿜어낸다.",
 		prop_type = 0,
@@ -866,8 +967,8 @@ pg.activity_ryza_item = {
 			-0.74,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[21] = {
 		icon = "ryza_item_21",
 		display = "작은 병에 연금술로 인공 제작한 만든 요정의 힘이 봉인되어 있다. 모든 속성에 적응할 수 있지만 사용하기 쉽지 않다.",
 		prop_type = 0,
@@ -898,8 +999,8 @@ pg.activity_ryza_item = {
 			-1.5,
 			1
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[22] = {
 		icon = "ryza_item_22",
 		display = "연금술 조합에 자주 나타나는 기본 시약. 붉은색 액체이며 화속성 소재와 궁합이 좋다.",
 		prop_type = 0,
@@ -927,8 +1028,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[23] = {
 		icon = "ryza_item_23",
 		display = "연금술 조합에 자주 나타나는 기본 시약. 푸른색 액체이며 빙속성 소재와 궁합이 좋다.",
 		prop_type = 0,
@@ -956,8 +1057,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[24] = {
 		icon = "ryza_item_25",
 		display = "연금술 조합에 자주 나타나는 기본 시약. 노란색 액체이며 뇌속성 소재와 궁합이 좋다.",
 		prop_type = 0,
@@ -985,8 +1086,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[25] = {
 		icon = "ryza_item_24",
 		display = "연금술 조합에 자주 나타나는 기본 시약. 초록색 액체이며 풍속성 소재와 궁합이 좋다.",
 		prop_type = 0,
@@ -1014,8 +1115,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[26] = {
 		icon = "ryza_item_26",
 		display = "네 가지 엘리먼트 코어로 만들어진 최고 수준의 소재 중 하나. 조합을 실시할 때 필요한 속성 적성이 뛰어나 고도의 조합 시 유용하다.",
 		prop_type = 0,
@@ -1046,8 +1147,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[27] = {
 		icon = "ryza_item_27",
 		display = "이계의 숲을 대표하는 유적 열쇠. 손잡이에 분홍색 토파즈가 박혀있다. 손에 쥐면 과거 무성했던 숲의 세월을 떠올리게 한다.",
 		prop_type = 0,
@@ -1069,8 +1170,8 @@ pg.activity_ryza_item = {
 			"획득 경로: 모항 의뢰판 임무 보상",
 			taskid = 56202
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[28] = {
 		icon = "ryza_item_28",
 		display = "시작의 땅을 대표하는 유적 열쇠. 손잡이에 흠집 없는 다이아몬드가 박혀있다. 모험가의 본심은 언제나 다이아몬드처럼 하얗고 티가 없기를.",
 		prop_type = 0,
@@ -1092,8 +1193,8 @@ pg.activity_ryza_item = {
 			"획득 경로: 모항 의뢰판 임무 보상",
 			taskid = 56201
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[29] = {
 		icon = "ryza_item_29",
 		display = "잃어버린 도시를 대표하는 유적 열쇠. 손잡이에 푸른 에메랄드가 박혀있다. 보물 그 자체보다 그 보물을 찾는 과정이 모험자의 진정한 자산이다.",
 		prop_type = 0,
@@ -1115,8 +1216,8 @@ pg.activity_ryza_item = {
 			"획득 경로: 모항 의뢰판 임무 보상",
 			taskid = 56204
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[30] = {
 		icon = "ryza_item_30",
 		display = "투쟁의 성을 대표하는 유적 열쇠. 손잡이에 찬란한 보석이 박혀있다. 과거의 잔혹한 진실은 이미 시간과 함께 녹아들었을지도 모른다.",
 		prop_type = 0,
@@ -1138,8 +1239,8 @@ pg.activity_ryza_item = {
 			"획득 경로: 모항 의뢰판 임무 보상",
 			taskid = 56203
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[31] = {
 		icon = "ryza_item_31",
 		display = "연금술에 의해 네 개의 열쇠가 융합되어 형성된 도어 카드와 같은 장치. 코어 구역 대문의 홈과 완벽하게 맞아드는 것 같다.",
 		prop_type = 0,
@@ -1164,8 +1265,8 @@ pg.activity_ryza_item = {
 			"획득 경로: 아틀리에",
 			recipeid = 190
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[32] = {
 		icon = "ryza_item_32",
 		display = "「수정 클러스터」*10000 수집 후 획득하는 기념 휘장. 「유적 모험의 증명」 조합의 필수 소재.",
 		prop_type = 0,
@@ -1188,8 +1289,8 @@ pg.activity_ryza_item = {
 			"획득 경로: 모항 의뢰판 임무 보상",
 			taskid = 56217
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[33] = {
 		icon = "ryza_item_33",
 		display = "온천을 성공적으로 개발 후 획득하는 기념 휘장. 「유적 모험의 증명」 조합의 필수 소재.",
 		prop_type = 0,
@@ -1212,8 +1313,8 @@ pg.activity_ryza_item = {
 			"획득 경로: 모항 의뢰판 임무 보상",
 			taskid = 56228
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[34] = {
 		icon = "300001",
 		display = "[연금술사와 비밀 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 포격, 항공, 뇌장 속성 증가 효과 획득",
 		prop_type = 0,
@@ -1242,8 +1343,8 @@ pg.activity_ryza_item = {
 			300002,
 			300003
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[35] = {
 		icon = "300011",
 		display = "[연금술사와 비밀 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 대미지 감소 효과 획득",
 		prop_type = 0,
@@ -1272,8 +1373,8 @@ pg.activity_ryza_item = {
 			300012,
 			300013
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[36] = {
 		icon = "300021",
 		display = "[연금술사와 비밀 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 내구도 회복 효과 획득",
 		prop_type = 0,
@@ -1302,8 +1403,8 @@ pg.activity_ryza_item = {
 			300022,
 			300023
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[37] = {
 		icon = "300031",
 		display = "[연금술사와 비밀 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 함선의 내구도가 20% 이하일 경우 회복 효과 획득",
 		prop_type = 0,
@@ -1332,8 +1433,8 @@ pg.activity_ryza_item = {
 			300032,
 			300033
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[38] = {
 		icon = "300041",
 		display = "[연금술사와 비밀 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 공격 탄막 지원 효과 획득",
 		prop_type = 0,
@@ -1362,8 +1463,8 @@ pg.activity_ryza_item = {
 			300042,
 			300043
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[39] = {
 		icon = "300051",
 		display = "[연금술사와 비밀 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 부상 탄막 지원 효과 획득",
 		prop_type = 0,
@@ -1392,8 +1493,8 @@ pg.activity_ryza_item = {
 			300052,
 			300053
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[40] = {
 		icon = "300061",
 		display = "[연금술사와 비밀 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 경험치 상승 효과 획득",
 		prop_type = 0,
@@ -1422,8 +1523,8 @@ pg.activity_ryza_item = {
 			300062,
 			300063
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[41] = {
 		icon = "300071",
 		display = "[연금술사와 비밀 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 호감도 상승 효과 획득",
 		prop_type = 0,
@@ -1450,8 +1551,8 @@ pg.activity_ryza_item = {
 		benefit_buff = {
 			300071
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[42] = {
 		icon = "ryza_item_42",
 		display = "특수 무기 [스파클 레버리에]의 코어 모듈. 빠질 수 없는 소재로, 아틀리에에서 [스파클 레버리에]의 조합에 사용할 수 있다.",
 		prop_type = 0,
@@ -1480,8 +1581,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[43] = {
 		icon = "ryza_item_43",
 		display = "특수 무기 「아스트룸 녹스」의 코어 모듈. 빠질 수 없는 소재로, 아틀리에에서 「아스트룸 녹스」의 조합에 사용할 수 있다.",
 		prop_type = 0,
@@ -1510,8 +1611,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[44] = {
 		icon = "ryza_item_44",
 		display = "특수 무기 「그랜 플로라시온」의 코어 모듈. 빠질 수 없는 소재로, 아틀리에에서 「그랜 플로라시온」의 조합에 사용할 수 있다.",
 		prop_type = 0,
@@ -1540,8 +1641,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[45] = {
 		icon = "ryza_item_45",
 		display = "특수 무기 「에델 슈발트」의 코어 모듈. 빠질 수 없는 소재로, 아틀리에에서 「에델 슈발트」의 조합에 사용할 수 있다.",
 		prop_type = 0,
@@ -1570,8 +1671,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[46] = {
 		icon = "ryza_item_46",
 		display = "특수 무기 「엘더 릴리」의 코어 모듈. 빠질 수 없는 소재로, 아틀리에에서 「엘더 릴리」의 조합에 사용할 수 있다.",
 		prop_type = 0,
@@ -1600,8 +1701,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[47] = {
 		icon = "ryza_item_47",
 		display = "특수 무기 「오렌 헬딘」의 코어 모듈. 빠질 수 없는 소재로, 아틀리에에서 「오렌 헬딘」의 조합에 사용할 수 있다.",
 		prop_type = 0,
@@ -1630,8 +1731,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[48] = {
 		icon = "ryza_item_48",
 		display = "특수 무기 「프람」의 코어 모듈. 빠질 수 없는 소재로, 아틀리에에서 「프람」의 조합에 사용할 수 있다.",
 		prop_type = 0,
@@ -1659,8 +1760,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[49] = {
 		icon = "ryza_item_49",
 		display = "특수 무기 「레헤른」의 코어 모듈. 빠질 수 없는 소재로, 아틀리에에서 「레헤른」의 조합에 사용할 수 있다.",
 		prop_type = 0,
@@ -1688,8 +1789,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[50] = {
 		icon = "ryza_item_50",
 		display = "특수 무기 「플래직」의 코어 모듈. 빠질 수 없는 소재로, 아틀리에에서 「플래직」의 조합에 사용할 수 있다.",
 		prop_type = 0,
@@ -1717,8 +1818,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[51] = {
 		icon = "ryza_item_51",
 		display = "특수 무기 「루프트」의 코어 모듈. 빠질 수 없는 소재로, 아틀리에에서 「루프트」의 조합에 사용할 수 있다.",
 		prop_type = 0,
@@ -1746,8 +1847,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[52] = {
 		icon = "ryza_item_52",
 		display = "특수 무기 「창세의 망치」의 코어 모듈. 빠질 수 없는 소재로, 아틀리에에서 「창세의 망치」의 조합에 사용할 수 있다.",
 		prop_type = 0,
@@ -1776,8 +1877,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[53] = {
 		icon = "ryza_item_53",
 		display = "특수 무기 「버블 탄환」의 코어 모듈. 빠질 수 없는 소재로, 아틀리에에서 「버블 탄환」의 조합에 사용할 수 있다.",
 		prop_type = 0,
@@ -1806,8 +1907,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[54] = {
 		icon = "ryza_item_54",
 		display = "특수 무기 「N/A」의 코어 모듈. 빠질 수 없는 소재로, 아틀리에에서 「N/A」의 조합에 사용할 수 있다.",
 		prop_type = 0,
@@ -1836,8 +1937,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[55] = {
 		icon = "ryza_item_55",
 		display = "특수 무기 「아포칼립스」의 코어 모듈. 빠질 수 없는 소재로, 아틀리에에서 「아포칼립스」의 조합에 사용할 수 있다.",
 		prop_type = 0,
@@ -1868,8 +1969,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[56] = {
 		icon = "ryza_item_56",
 		display = "특수 무기 「신비한 우의」의 코어 모듈. 빠질 수 없는 소재로, 아틀리에에서 「신비한 우의」의 조합에 사용할 수 있다.",
 		prop_type = 0,
@@ -1898,8 +1999,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[57] = {
 		icon = "ryza_item_57",
 		display = "특수 무기 「엘릭시르제」의 코어 모듈. 빠질 수 없는 소재로, 아틀리에에서 「엘릭시르제」의 조합에 사용할 수 있다.",
 		prop_type = 0,
@@ -1928,8 +2029,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_ryza_item[58] = {
 		icon = "ryza_item_58",
 		display = "특수 무기 「에너지아니카」의 코어 모듈. 빠질 수 없는 소재로, 아틀리에에서 「에너지아니카」의 조합에 사용할 수 있다.",
 		prop_type = 0,
@@ -1958,8 +2059,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	[101] = {
+	}
+	pg.base.activity_ryza_item[101] = {
 		icon = "yumia_item_1",
 		display = "갓 부분에 결정화된 포자를 가지고 있는 버섯. 이를 가공하여 만든 장식품이 유통되고 있는 듯하다. 당연히 식용 버섯은 아니다.",
 		prop_type = 1,
@@ -1987,8 +2088,8 @@ pg.activity_ryza_item = {
 				"youmiya"
 			}
 		}
-	},
-	[102] = {
+	}
+	pg.base.activity_ryza_item[102] = {
 		icon = "yumia_item_2",
 		display = "버섯을 짊어진 듯한 모습의 벌레. 버섯 부분을 포함한 벌레이므로 식용으로 적합하다고는 할 수 없다.",
 		prop_type = 1,
@@ -2016,8 +2117,8 @@ pg.activity_ryza_item = {
 				"youmiya"
 			}
 		}
-	},
-	[103] = {
+	}
+	pg.base.activity_ryza_item[103] = {
 		icon = "yumia_item_3",
 		display = "가시로 덮인 식물의 열매. 투척용 무기로 사용된다. 열면 안에서 맛있는 속살이 나온다.",
 		prop_type = 2,
@@ -2057,8 +2158,8 @@ pg.activity_ryza_item = {
 			0.85,
 			0.85
 		}
-	},
-	[104] = {
+	}
+	pg.base.activity_ryza_item[104] = {
 		icon = "yumia_item_4",
 		display = "열매가 대부분 결정화된 성게. 결정화되지 않은 부분은 먹을 수 있지만, 그다지 맛있지는 않다.",
 		prop_type = 2,
@@ -2098,8 +2199,8 @@ pg.activity_ryza_item = {
 			2.3,
 			-1
 		}
-	},
-	[105] = {
+	}
+	pg.base.activity_ryza_item[105] = {
 		icon = "yumia_item_5",
 		display = "강한 독성의 기체를 계속해서 내뿜는 부패한 나무에서 채취한 독안개. 기체의 독성은 매우 강해 흡입하면 며칠 동안은 꼼짝할 수 없게 된다.",
 		prop_type = 3,
@@ -2139,8 +2240,8 @@ pg.activity_ryza_item = {
 			0,
 			-1.5
 		}
-	},
-	[106] = {
+	}
+	pg.base.activity_ryza_item[106] = {
 		icon = "yumia_item_6",
 		display = "공중을 둥둥 떠다니는 초미립자 상태의 금속. 금속보다는 기체라고 부르는 편이 더 바람직하다.",
 		prop_type = 3,
@@ -2174,8 +2275,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	[107] = {
+	}
+	pg.base.activity_ryza_item[107] = {
 		icon = "yumia_item_7",
 		display = "주변의 열을 냉기로 바꾸는 힘을 지닌 광석. 식재료의 신선도를 유지할 때 쓰면 딱 좋다.",
 		prop_type = 4,
@@ -2215,8 +2316,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	[108] = {
+	}
+	pg.base.activity_ryza_item[108] = {
 		icon = "yumia_item_8",
 		display = "각진 꽃잎이 피어나는 히비스커스의 아종. 식물 그 자체로뿐만 아니라 금속 재료로도 활용된다.",
 		prop_type = 4,
@@ -2256,8 +2357,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	[109] = {
+	}
+	pg.base.activity_ryza_item[109] = {
 		icon = "yumia_item_9",
 		display = "표면에는 닿는 것을 손쉽게 꿰뚫는 날카로운 가시가 돋아 있다. 공처럼 둥근 모양 때문에 마리모의 일종으로 오해받지만, 성게의 아종이다.",
 		prop_type = 5,
@@ -2291,8 +2392,8 @@ pg.activity_ryza_item = {
 			2,
 			-1.5
 		}
-	},
-	[110] = {
+	}
+	pg.base.activity_ryza_item[110] = {
 		icon = "yumia_item_10",
 		display = "독 가시를 지닌 물고기. 습격 당하면 온몸에서 독가시를 뻗어 자신을 방어한다.",
 		prop_type = 5,
@@ -2332,8 +2433,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	[111] = {
+	}
+	pg.base.activity_ryza_item[111] = {
 		icon = "yumia_item_11",
 		display = "하늘의 탑 주변에서 자라나는 결정 광물. 물질 에너지를 지니고 있다.",
 		prop_type = 6,
@@ -2376,8 +2477,8 @@ pg.activity_ryza_item = {
 			0,
 			0.46
 		}
-	},
-	[112] = {
+	}
+	pg.base.activity_ryza_item[112] = {
 		icon = "yumia_item_12",
 		display = "하늘의 탑의 에너지가 응축된 핵심 코어. 방대한 양의 에너지를 품고 있다.",
 		prop_type = 6,
@@ -2414,8 +2515,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	[116] = {
+	}
+	pg.base.activity_ryza_item[116] = {
 		icon = "yumia_item_13",
 		display = "전용 장비 「이페머럴 레코드」의 핵심 모듈. 레시피에 필수적인 재료로, 아틀리에에서 「이페머럴 레코드」를 조합할 때 사용된다.",
 		prop_type = 0,
@@ -2475,8 +2576,8 @@ pg.activity_ryza_item = {
 			-1.15,
 			0
 		}
-	},
-	[117] = {
+	}
+	pg.base.activity_ryza_item[117] = {
 		icon = "yumia_item_14",
 		display = "전용 장비 「비창 트리아이나」의 핵심 모듈. 레시피에 필수적인 재료로, 아틀리에에서 「비창 트리아이나」를 조합할 때 사용된다.",
 		prop_type = 0,
@@ -2536,8 +2637,8 @@ pg.activity_ryza_item = {
 			-0.5,
 			3
 		}
-	},
-	[118] = {
+	}
+	pg.base.activity_ryza_item[118] = {
 		icon = "yumia_item_15",
 		display = "전용 장비 「헌트레스」의 핵심 모듈. 레시피에 필수적인 재료로, 아틀리에에서 「헌트레스」를 조합할 때 사용된다.",
 		prop_type = 0,
@@ -2597,8 +2698,8 @@ pg.activity_ryza_item = {
 			3.97,
 			0
 		}
-	},
-	[119] = {
+	}
+	pg.base.activity_ryza_item[119] = {
 		icon = "yumia_item_16",
 		display = "전용 장비 「황천의 사마귀」의 핵심 모듈. 레시피에 필수적인 재료로, 아틀리에에서 「황천의 사마귀」를 조합할 때 사용된다.",
 		prop_type = 0,
@@ -2632,8 +2733,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[120] = {
+	}
+	pg.base.activity_ryza_item[120] = {
 		icon = "yumia_item_17",
 		display = "특수 설비 「엔데 미티어」의 핵심 모듈. 레시피에 필수적인 재료로, 아틀리에에서 「엔데 미티어」를 조합할 때 사용된다.",
 		prop_type = 0,
@@ -2668,8 +2769,8 @@ pg.activity_ryza_item = {
 			-0.74,
 			0
 		}
-	},
-	[121] = {
+	}
+	pg.base.activity_ryza_item[121] = {
 		icon = "yumia_item_18",
 		display = "특수 설비 「슈피리어 그리모어」의 핵심 모듈. 레시피에 필수적인 재료로, 아틀리에에서 「슈피리어 그리모어」를 조합할 때 사용된다.",
 		prop_type = 0,
@@ -2703,8 +2804,8 @@ pg.activity_ryza_item = {
 			-1.5,
 			1
 		}
-	},
-	[122] = {
+	}
+	pg.base.activity_ryza_item[122] = {
 		icon = "yumia_item_19",
 		display = "특수 설비 「그랑샤인」의 핵심 모듈. 레시피에 필수적인 재료로, 아틀리에에서 「그랑샤인」을 조합할 때 사용된다.",
 		prop_type = 0,
@@ -2741,8 +2842,8 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
-	},
-	[126] = {
+	}
+	pg.base.activity_ryza_item[126] = {
 		icon = "yumia_item_20",
 		display = "특수 설비 「패너시어 스피어」의 핵심 모듈. 레시피에 필수적인 재료로, 아틀리에에서 「패너시어 스피어」를 조합할 때 사용된다.",
 		prop_type = 0,
@@ -2776,8 +2877,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[127] = {
+	}
+	pg.base.activity_ryza_item[127] = {
 		icon = "yumia_item_21",
 		display = "특수 설비 「천상의 천구의」의 핵심 모듈. 레시피에 필수적인 재료로, 아틀리에에서 「천상의 천구의」를 조합할 때 사용된다.",
 		prop_type = 0,
@@ -2811,8 +2912,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[128] = {
+	}
+	pg.base.activity_ryza_item[128] = {
 		icon = "yumia_item_22",
 		display = "특수 설비 「지옥의 큐브」의 핵심 모듈. 레시피에 필수적인 재료로, 아틀리에에서 「지옥의 큐브」를 조합할 때 사용된다.",
 		prop_type = 0,
@@ -2846,8 +2947,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[129] = {
+	}
+	pg.base.activity_ryza_item[129] = {
 		icon = "yumia_item_23",
 		display = "연금술에서 자주 사용하는 기본 약제. 붉은 중화제는 불 속성과 상성이 좋다.",
 		prop_type = 7,
@@ -2881,8 +2982,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[130] = {
+	}
+	pg.base.activity_ryza_item[130] = {
 		icon = "yumia_item_24",
 		display = "연금술에서 자주 사용하는 기본 약제. 푸른 중화제는 얼음 속성과 상성이 좋다.",
 		prop_type = 7,
@@ -2916,8 +3017,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[131] = {
+	}
+	pg.base.activity_ryza_item[131] = {
 		icon = "yumia_item_25",
 		display = "연금술에서 자주 사용하는 기본 약제. 황색 중화제는 전기 속성과 상성이 좋다.",
 		prop_type = 7,
@@ -2951,8 +3052,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[132] = {
+	}
+	pg.base.activity_ryza_item[132] = {
 		icon = "yumia_item_26",
 		display = "연금술에서 자주 사용하는 기본 약제. 녹색 중화제는 바람 속성과 상성이 좋다.",
 		prop_type = 7,
@@ -2986,8 +3087,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[133] = {
+	}
+	pg.base.activity_ryza_item[133] = {
 		icon = "yumia_item_27",
 		display = "연금술에서 자주 사용하는 기본 약제. 개량하여 다양한 재료와 상성이 좋아지도록 만든 만능 중화제다.",
 		prop_type = 7,
@@ -3024,8 +3125,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[134] = {
+	}
+	pg.base.activity_ryza_item[134] = {
 		icon = "yumia_item_28",
 		display = "하늘의 탑의 에너지를 조정하기 위한 전용 설비. 레벨 1.",
 		prop_type = 0,
@@ -3057,8 +3158,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[135] = {
+	}
+	pg.base.activity_ryza_item[135] = {
 		icon = "yumia_item_29",
 		display = "하늘의 탑의 에너지를 조정하기 위한 전용 설비. 레벨 2.",
 		prop_type = 0,
@@ -3090,8 +3191,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[136] = {
+	}
+	pg.base.activity_ryza_item[136] = {
 		icon = "yumia_item_30",
 		display = "하늘의 탑의 에너지를 조정하기 위한 전용 설비. 레벨 3.",
 		prop_type = 0,
@@ -3123,8 +3224,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[137] = {
+	}
+	pg.base.activity_ryza_item[137] = {
 		icon = "yumia_item_31",
 		display = "하늘의 탑의 에너지를 조정하기 위한 전용 설비. 레벨 4.",
 		prop_type = 0,
@@ -3156,8 +3257,8 @@ pg.activity_ryza_item = {
 			-0.8,
 			0
 		}
-	},
-	[138] = {
+	}
+	pg.base.activity_ryza_item[138] = {
 		icon = "65653",
 		display = "거점 건설에 사용되는 범용 재료. 목재 오브젝트 설치에 사용된다.",
 		prop_type = 0,
@@ -3174,8 +3275,8 @@ pg.activity_ryza_item = {
 		name = "범용 건설 목재",
 		normal_circle = "",
 		prop = {}
-	},
-	[139] = {
+	}
+	pg.base.activity_ryza_item[139] = {
 		icon = "65654",
 		display = "거점 건설에 사용되는 범용 재료. 석재 오브젝트 설치에 사용된다.",
 		prop_type = 0,
@@ -3192,8 +3293,8 @@ pg.activity_ryza_item = {
 		name = "범용 건설 석재",
 		normal_circle = "",
 		prop = {}
-	},
-	[140] = {
+	}
+	pg.base.activity_ryza_item[140] = {
 		icon = "65655",
 		display = "거점 건설에 사용되는 범용 재료. 금속재 오브젝트 설치에 사용된다.",
 		prop_type = 0,
@@ -3210,8 +3311,8 @@ pg.activity_ryza_item = {
 		name = "범용 건설 금속",
 		normal_circle = "",
 		prop = {}
-	},
-	[141] = {
+	}
+	pg.base.activity_ryza_item[141] = {
 		icon = "65656",
 		display = "거점 건설에 사용되는 범용 재료. 식물 오브젝트 설치에 사용된다.",
 		prop_type = 0,
@@ -3228,100 +3329,5 @@ pg.activity_ryza_item = {
 		name = "범용 건설 식물",
 		normal_circle = "",
 		prop = {}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		39,
-		40,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46,
-		47,
-		48,
-		49,
-		50,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56,
-		57,
-		58,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		110,
-		111,
-		112,
-		116,
-		117,
-		118,
-		119,
-		120,
-		121,
-		122,
-		126,
-		127,
-		128,
-		129,
-		130,
-		131,
-		132,
-		133,
-		134,
-		135,
-		136,
-		137,
-		138,
-		139,
-		140,
-		141
 	}
-}
+end)()

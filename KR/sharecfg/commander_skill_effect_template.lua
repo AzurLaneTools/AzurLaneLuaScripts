@@ -1,6 +1,151 @@
 pg = pg or {}
-pg.commander_skill_effect_template = {
-	{
+pg.commander_skill_effect_template = rawget(pg, "commander_skill_effect_template") or setmetatable({
+	__name = "commander_skill_effect_template"
+}, confNEO)
+pg.commander_skill_effect_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	100111,
+	100112,
+	100113,
+	100211,
+	100212,
+	100213,
+	110111,
+	110112,
+	110113,
+	110211,
+	110212,
+	110213,
+	120111,
+	120112,
+	120113,
+	120121,
+	120122,
+	120123,
+	200111,
+	200112,
+	200113,
+	200211,
+	200212,
+	200213,
+	210111,
+	210112,
+	210113,
+	210211,
+	210212,
+	210213,
+	210311,
+	210312,
+	210313,
+	210411,
+	210412,
+	210413,
+	220111,
+	220112,
+	220113,
+	220211,
+	220212,
+	220213,
+	300111,
+	300112,
+	300113,
+	300211,
+	300212,
+	300213,
+	310111,
+	310112,
+	310113,
+	310211,
+	310212,
+	310213,
+	320111,
+	320112,
+	320113,
+	320211,
+	320212,
+	320213,
+	400111,
+	400112,
+	400113,
+	400211,
+	400212,
+	400213,
+	410111,
+	410112,
+	410113,
+	410211,
+	410212,
+	410213,
+	410311,
+	410312,
+	410313,
+	420111,
+	420112,
+	420113,
+	420211,
+	420212,
+	420213,
+	9600111,
+	9600112,
+	9600113,
+	9600211,
+	9600212,
+	9600213,
+	9600311,
+	9600312,
+	9600313,
+	9600411,
+	9600412,
+	9600413,
+	9600414,
+	9600511,
+	9600512,
+	9600513,
+	9600611,
+	9600612,
+	9600613,
+	9600711,
+	9600712,
+	9600713,
+	9100111,
+	9100112,
+	9100113,
+	9110111,
+	9110212,
+	9120121,
+	9200112,
+	9210213,
+	9210312,
+	9210411,
+	9300112,
+	9310113,
+	9400112,
+	9400113,
+	9400212,
+	9410213,
+	99600212,
+	99600311,
+	99600511,
+	99600711
+}
+pg.base = pg.base or {}
+pg.base.commander_skill_effect_template = {}
+
+(function ()
+	pg.base.commander_skill_effect_template[1] = {
 		id = 1,
 		name = "技能模板",
 		effect_type = "move_speed",
@@ -19,8 +164,8 @@ pg.commander_skill_effect_template = {
 				6
 			}
 		}
-	},
-	{
+	}
+	pg.base.commander_skill_effect_template[2] = {
 		id = 2,
 		name = "技能模板",
 		effect_type = "attack",
@@ -41,8 +186,8 @@ pg.commander_skill_effect_template = {
 				6
 			}
 		}
-	},
-	{
+	}
+	pg.base.commander_skill_effect_template[3] = {
 		id = 3,
 		name = "技能模板",
 		effect_type = "strategy",
@@ -66,8 +211,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.commander_skill_effect_template[4] = {
 		id = 4,
 		name = "技能模板",
 		effect_type = "battle_buff",
@@ -79,8 +224,8 @@ pg.commander_skill_effect_template = {
 				"dd_head"
 			}
 		}
-	},
-	{
+	}
+	pg.base.commander_skill_effect_template[5] = {
 		id = 5,
 		name = "技能模板",
 		effect_type = "airfight_doge",
@@ -88,8 +233,8 @@ pg.commander_skill_effect_template = {
 			5000
 		},
 		condition = {}
-	},
-	{
+	}
+	pg.base.commander_skill_effect_template[6] = {
 		id = 6,
 		name = "技能模板",
 		effect_type = "ambush_doge",
@@ -97,8 +242,8 @@ pg.commander_skill_effect_template = {
 			5000
 		},
 		condition = {}
-	},
-	{
+	}
+	pg.base.commander_skill_effect_template[7] = {
 		id = 7,
 		name = "技能模板",
 		effect_type = "move_speed",
@@ -112,8 +257,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.commander_skill_effect_template[8] = {
 		id = 8,
 		name = "技能模板",
 		effect_type = "battle_buff",
@@ -126,8 +271,8 @@ pg.commander_skill_effect_template = {
 				20003
 			}
 		}
-	},
-	{
+	}
+	pg.base.commander_skill_effect_template[9] = {
 		id = 9,
 		name = "技能模板",
 		effect_type = "attack",
@@ -137,8 +282,8 @@ pg.commander_skill_effect_template = {
 			200
 		},
 		condition = {}
-	},
-	{
+	}
+	pg.base.commander_skill_effect_template[10] = {
 		id = 10,
 		name = "技能模板",
 		effect_type = "battle_buff",
@@ -161,8 +306,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.commander_skill_effect_template[11] = {
 		id = 11,
 		name = "技能模板",
 		effect_type = "hunt_lv",
@@ -170,8 +315,8 @@ pg.commander_skill_effect_template = {
 			1
 		},
 		condition = {}
-	},
-	{
+	}
+	pg.base.commander_skill_effect_template[12] = {
 		id = 12,
 		name = "技能模板",
 		effect_type = "torpedo_power_up",
@@ -185,8 +330,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.commander_skill_effect_template[13] = {
 		id = 13,
 		name = "技能模板",
 		effect_type = "battle_buff",
@@ -200,8 +345,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	{
+	}
+	pg.base.commander_skill_effect_template[14] = {
 		id = 14,
 		name = "技能模板",
 		effect_type = "battle_buff",
@@ -210,8 +355,8 @@ pg.commander_skill_effect_template = {
 			5000
 		},
 		condition = {}
-	},
-	[100111] = {
+	}
+	pg.base.commander_skill_effect_template[100111] = {
 		id = 100111,
 		name = "31节的正义",
 		effect_type = "move_speed",
@@ -230,8 +375,8 @@ pg.commander_skill_effect_template = {
 				6
 			}
 		}
-	},
-	[100112] = {
+	}
+	pg.base.commander_skill_effect_template[100112] = {
 		id = 100112,
 		name = "31节的正义",
 		effect_type = "attack",
@@ -258,8 +403,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	[100113] = {
+	}
+	pg.base.commander_skill_effect_template[100113] = {
 		id = 100113,
 		name = "31节的正义",
 		effect_type = "strategy",
@@ -287,8 +432,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	[100211] = {
+	}
+	pg.base.commander_skill_effect_template[100211] = {
 		id = 100211,
 		name = "王牌射手",
 		effect_type = "battle_buff",
@@ -309,8 +454,8 @@ pg.commander_skill_effect_template = {
 				}
 			}
 		}
-	},
-	[100212] = {
+	}
+	pg.base.commander_skill_effect_template[100212] = {
 		id = 100212,
 		name = "王牌射手",
 		effect_type = "battle_buff",
@@ -318,8 +463,8 @@ pg.commander_skill_effect_template = {
 			40220
 		},
 		condition = {}
-	},
-	[100213] = {
+	}
+	pg.base.commander_skill_effect_template[100213] = {
 		id = 100213,
 		name = "王牌射手",
 		effect_type = "battle_buff",
@@ -327,8 +472,8 @@ pg.commander_skill_effect_template = {
 			40230
 		},
 		condition = {}
-	},
-	[110111] = {
+	}
+	pg.base.commander_skill_effect_template[110111] = {
 		id = 110111,
 		name = "5英寸的勇气",
 		effect_type = "attack",
@@ -355,8 +500,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	[110112] = {
+	}
+	pg.base.commander_skill_effect_template[110112] = {
 		id = 110112,
 		name = "5英寸的勇气",
 		effect_type = "battle_buff",
@@ -368,8 +513,8 @@ pg.commander_skill_effect_template = {
 				"dd_head"
 			}
 		}
-	},
-	[110113] = {
+	}
+	pg.base.commander_skill_effect_template[110113] = {
 		id = 110113,
 		name = "5英寸的勇气",
 		effect_type = "battle_buff",
@@ -381,8 +526,8 @@ pg.commander_skill_effect_template = {
 				"dd_head"
 			}
 		}
-	},
-	[110211] = {
+	}
+	pg.base.commander_skill_effect_template[110211] = {
 		id = 110211,
 		name = "幸运之翼",
 		effect_type = "battle_buff",
@@ -395,8 +540,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[110212] = {
+	}
+	pg.base.commander_skill_effect_template[110212] = {
 		id = 110212,
 		name = "幸运之翼",
 		effect_type = "airfight_doge",
@@ -407,8 +552,8 @@ pg.commander_skill_effect_template = {
 			250
 		},
 		condition = {}
-	},
-	[110213] = {
+	}
+	pg.base.commander_skill_effect_template[110213] = {
 		id = 110213,
 		name = "幸运之翼",
 		effect_type = "battle_buff",
@@ -421,8 +566,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[120111] = {
+	}
+	pg.base.commander_skill_effect_template[120111] = {
 		id = 120111,
 		name = "空母后勤",
 		effect_type = "battle_buff",
@@ -435,8 +580,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[120112] = {
+	}
+	pg.base.commander_skill_effect_template[120112] = {
 		id = 120112,
 		name = "空母后勤",
 		effect_type = "battle_buff",
@@ -449,8 +594,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[120113] = {
+	}
+	pg.base.commander_skill_effect_template[120113] = {
 		id = 120113,
 		name = "空母后勤",
 		effect_type = "battle_buff",
@@ -463,8 +608,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[120121] = {
+	}
+	pg.base.commander_skill_effect_template[120121] = {
 		id = 120121,
 		name = "雷达侦察",
 		effect_type = "ambush_doge",
@@ -475,8 +620,8 @@ pg.commander_skill_effect_template = {
 			250
 		},
 		condition = {}
-	},
-	[120122] = {
+	}
+	pg.base.commander_skill_effect_template[120122] = {
 		id = 120122,
 		name = "雷达侦察",
 		effect_type = "battle_buff",
@@ -489,8 +634,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[120123] = {
+	}
+	pg.base.commander_skill_effect_template[120123] = {
 		id = 120123,
 		name = "雷达侦察",
 		effect_type = "battle_buff",
@@ -503,8 +648,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[200111] = {
+	}
+	pg.base.commander_skill_effect_template[200111] = {
 		id = 200111,
 		name = "尽忠职守",
 		effect_type = "battle_buff",
@@ -517,8 +662,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[200112] = {
+	}
+	pg.base.commander_skill_effect_template[200112] = {
 		id = 200112,
 		name = "尽忠职守",
 		effect_type = "battle_buff",
@@ -535,8 +680,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	[200113] = {
+	}
+	pg.base.commander_skill_effect_template[200113] = {
 		id = 200113,
 		name = "尽忠职守",
 		effect_type = "battle_buff",
@@ -544,8 +689,8 @@ pg.commander_skill_effect_template = {
 			40030
 		},
 		condition = {}
-	},
-	[200211] = {
+	}
+	pg.base.commander_skill_effect_template[200211] = {
 		id = 200211,
 		name = "狡黠之灌",
 		effect_type = "battle_buff",
@@ -558,8 +703,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	[200212] = {
+	}
+	pg.base.commander_skill_effect_template[200212] = {
 		id = 200212,
 		name = "狡黠之灌",
 		effect_type = "battle_buff",
@@ -572,8 +717,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	[200213] = {
+	}
+	pg.base.commander_skill_effect_template[200213] = {
 		id = 200213,
 		name = "狡黠之灌",
 		effect_type = "battle_buff",
@@ -586,8 +731,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	[210111] = {
+	}
+	pg.base.commander_skill_effect_template[210111] = {
 		id = 210111,
 		name = "物资拦截者",
 		effect_type = "battle_buff",
@@ -600,8 +745,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[210112] = {
+	}
+	pg.base.commander_skill_effect_template[210112] = {
 		id = 210112,
 		name = "物资拦截者",
 		effect_type = "battle_buff",
@@ -623,8 +768,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[210113] = {
+	}
+	pg.base.commander_skill_effect_template[210113] = {
 		id = 210113,
 		name = "物资拦截者",
 		effect_type = "battle_buff",
@@ -637,8 +782,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[210211] = {
+	}
+	pg.base.commander_skill_effect_template[210211] = {
 		id = 210211,
 		name = "斥候猎手",
 		effect_type = "battle_buff",
@@ -660,8 +805,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[210212] = {
+	}
+	pg.base.commander_skill_effect_template[210212] = {
 		id = 210212,
 		name = "斥候猎手",
 		effect_type = "battle_buff",
@@ -674,8 +819,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[210213] = {
+	}
+	pg.base.commander_skill_effect_template[210213] = {
 		id = 210213,
 		name = "斥候猎手",
 		effect_type = "move_speed",
@@ -693,8 +838,8 @@ pg.commander_skill_effect_template = {
 				}
 			}
 		}
-	},
-	[210311] = {
+	}
+	pg.base.commander_skill_effect_template[210311] = {
 		id = 210311,
 		name = "守望者",
 		effect_type = "battle_buff",
@@ -707,8 +852,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[210312] = {
+	}
+	pg.base.commander_skill_effect_template[210312] = {
 		id = 210312,
 		name = "守望者",
 		effect_type = "move_speed",
@@ -726,8 +871,8 @@ pg.commander_skill_effect_template = {
 				}
 			}
 		}
-	},
-	[210313] = {
+	}
+	pg.base.commander_skill_effect_template[210313] = {
 		id = 210313,
 		name = "守望者",
 		effect_type = "battle_buff",
@@ -740,8 +885,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[210411] = {
+	}
+	pg.base.commander_skill_effect_template[210411] = {
 		id = 210411,
 		name = "无畏的骑士",
 		effect_type = "ambush_doge",
@@ -752,8 +897,8 @@ pg.commander_skill_effect_template = {
 			250
 		},
 		condition = {}
-	},
-	[210412] = {
+	}
+	pg.base.commander_skill_effect_template[210412] = {
 		id = 210412,
 		name = "无畏的骑士",
 		effect_type = "battle_buff",
@@ -766,8 +911,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[210413] = {
+	}
+	pg.base.commander_skill_effect_template[210413] = {
 		id = 210413,
 		name = "无畏的骑士",
 		effect_type = "battle_buff",
@@ -780,8 +925,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[220111] = {
+	}
+	pg.base.commander_skill_effect_template[220111] = {
 		id = 220111,
 		name = "战列后勤",
 		effect_type = "battle_buff",
@@ -794,8 +939,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[220112] = {
+	}
+	pg.base.commander_skill_effect_template[220112] = {
 		id = 220112,
 		name = "战列后勤",
 		effect_type = "battle_buff",
@@ -808,8 +953,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[220113] = {
+	}
+	pg.base.commander_skill_effect_template[220113] = {
 		id = 220113,
 		name = "战列后勤",
 		effect_type = "battle_buff",
@@ -822,8 +967,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[220211] = {
+	}
+	pg.base.commander_skill_effect_template[220211] = {
 		id = 220211,
 		name = "巡洋战术",
 		effect_type = "battle_buff",
@@ -836,8 +981,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[220212] = {
+	}
+	pg.base.commander_skill_effect_template[220212] = {
 		id = 220212,
 		name = "巡洋战术",
 		effect_type = "battle_buff",
@@ -850,8 +995,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[220213] = {
+	}
+	pg.base.commander_skill_effect_template[220213] = {
 		id = 220213,
 		name = "巡洋战术",
 		effect_type = "battle_buff",
@@ -864,8 +1009,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[300111] = {
+	}
+	pg.base.commander_skill_effect_template[300111] = {
 		id = 300111,
 		name = "反击的一拳",
 		effect_type = "battle_buff",
@@ -878,8 +1023,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[300112] = {
+	}
+	pg.base.commander_skill_effect_template[300112] = {
 		id = 300112,
 		name = "反击的一拳",
 		effect_type = "ambush_doge",
@@ -890,8 +1035,8 @@ pg.commander_skill_effect_template = {
 			250
 		},
 		condition = {}
-	},
-	[300113] = {
+	}
+	pg.base.commander_skill_effect_template[300113] = {
 		id = 300113,
 		name = "反击的一拳",
 		effect_type = "battle_buff",
@@ -909,8 +1054,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	[300211] = {
+	}
+	pg.base.commander_skill_effect_template[300211] = {
 		id = 300211,
 		name = "敢勇当先",
 		effect_type = "battle_buff",
@@ -923,8 +1068,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	[300212] = {
+	}
+	pg.base.commander_skill_effect_template[300212] = {
 		id = 300212,
 		name = "敢勇当先",
 		effect_type = "battle_buff",
@@ -946,8 +1091,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	[300213] = {
+	}
+	pg.base.commander_skill_effect_template[300213] = {
 		id = 300213,
 		name = "敢勇当先",
 		effect_type = "battle_buff",
@@ -969,8 +1114,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	[310111] = {
+	}
+	pg.base.commander_skill_effect_template[310111] = {
 		id = 310111,
 		name = "必杀·三段击",
 		effect_type = "battle_buff",
@@ -983,8 +1128,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[310112] = {
+	}
+	pg.base.commander_skill_effect_template[310112] = {
 		id = 310112,
 		name = "必杀·三段击",
 		effect_type = "battle_buff",
@@ -997,8 +1142,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[310113] = {
+	}
+	pg.base.commander_skill_effect_template[310113] = {
 		id = 310113,
 		name = "必杀·三段击",
 		effect_type = "attack",
@@ -1020,8 +1165,8 @@ pg.commander_skill_effect_template = {
 				3
 			}
 		}
-	},
-	[310211] = {
+	}
+	pg.base.commander_skill_effect_template[310211] = {
 		id = 310211,
 		name = "野性的直觉",
 		effect_type = "battle_buff",
@@ -1034,8 +1179,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[310212] = {
+	}
+	pg.base.commander_skill_effect_template[310212] = {
 		id = 310212,
 		name = "野性的直觉",
 		effect_type = "battle_buff",
@@ -1048,8 +1193,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[310213] = {
+	}
+	pg.base.commander_skill_effect_template[310213] = {
 		id = 310213,
 		name = "野性的直觉",
 		effect_type = "battle_buff",
@@ -1076,8 +1221,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[320111] = {
+	}
+	pg.base.commander_skill_effect_template[320111] = {
 		id = 320111,
 		name = "巡洋指挥",
 		effect_type = "battle_buff",
@@ -1090,8 +1235,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[320112] = {
+	}
+	pg.base.commander_skill_effect_template[320112] = {
 		id = 320112,
 		name = "巡洋指挥",
 		effect_type = "battle_buff",
@@ -1104,8 +1249,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[320113] = {
+	}
+	pg.base.commander_skill_effect_template[320113] = {
 		id = 320113,
 		name = "巡洋指挥",
 		effect_type = "battle_buff",
@@ -1118,8 +1263,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[320211] = {
+	}
+	pg.base.commander_skill_effect_template[320211] = {
 		id = 320211,
 		name = "战列后勤",
 		effect_type = "battle_buff",
@@ -1132,8 +1277,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[320212] = {
+	}
+	pg.base.commander_skill_effect_template[320212] = {
 		id = 320212,
 		name = "战列后勤",
 		effect_type = "battle_buff",
@@ -1146,8 +1291,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[320213] = {
+	}
+	pg.base.commander_skill_effect_template[320213] = {
 		id = 320213,
 		name = "战列后勤",
 		effect_type = "battle_buff",
@@ -1160,8 +1305,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[400111] = {
+	}
+	pg.base.commander_skill_effect_template[400111] = {
 		id = 400111,
 		name = "静寂的狩猎者",
 		effect_type = "battle_buff",
@@ -1174,8 +1319,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	[400112] = {
+	}
+	pg.base.commander_skill_effect_template[400112] = {
 		id = 400112,
 		name = "静寂的狩猎者",
 		effect_type = "hunt_lv",
@@ -1188,8 +1333,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	[400113] = {
+	}
+	pg.base.commander_skill_effect_template[400113] = {
 		id = 400113,
 		name = "静寂的狩猎者",
 		effect_type = "torpedo_power_up",
@@ -1205,8 +1350,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	[400211] = {
+	}
+	pg.base.commander_skill_effect_template[400211] = {
 		id = 400211,
 		name = "不屈的意志",
 		effect_type = "battle_buff",
@@ -1219,8 +1364,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[400212] = {
+	}
+	pg.base.commander_skill_effect_template[400212] = {
 		id = 400212,
 		name = "不屈的意志",
 		effect_type = "attack",
@@ -1246,8 +1391,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[400213] = {
+	}
+	pg.base.commander_skill_effect_template[400213] = {
 		id = 400213,
 		name = "不屈的意志",
 		effect_type = "battle_buff",
@@ -1269,8 +1414,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[410111] = {
+	}
+	pg.base.commander_skill_effect_template[410111] = {
 		id = 410111,
 		name = "海之铁骑士",
 		effect_type = "battle_buff",
@@ -1283,8 +1428,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[410112] = {
+	}
+	pg.base.commander_skill_effect_template[410112] = {
 		id = 410112,
 		name = "海之铁骑士",
 		effect_type = "battle_buff",
@@ -1297,8 +1442,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[410113] = {
+	}
+	pg.base.commander_skill_effect_template[410113] = {
 		id = 410113,
 		name = "海之铁骑士",
 		effect_type = "battle_buff",
@@ -1316,8 +1461,8 @@ pg.commander_skill_effect_template = {
 				}
 			}
 		}
-	},
-	[410211] = {
+	}
+	pg.base.commander_skill_effect_template[410211] = {
 		id = 410211,
 		name = "海之勇者",
 		effect_type = "battle_buff",
@@ -1334,8 +1479,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	[410212] = {
+	}
+	pg.base.commander_skill_effect_template[410212] = {
 		id = 410212,
 		name = "海之勇者",
 		effect_type = "battle_buff",
@@ -1352,8 +1497,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	[410213] = {
+	}
+	pg.base.commander_skill_effect_template[410213] = {
 		id = 410213,
 		name = "海之勇者",
 		effect_type = "hunt_lv",
@@ -1366,8 +1511,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	[410311] = {
+	}
+	pg.base.commander_skill_effect_template[410311] = {
 		id = 410311,
 		name = "守护之心",
 		effect_type = "battle_buff",
@@ -1384,8 +1529,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	[410312] = {
+	}
+	pg.base.commander_skill_effect_template[410312] = {
 		id = 410312,
 		name = "守护之心",
 		effect_type = "battle_buff",
@@ -1402,8 +1547,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	[410313] = {
+	}
+	pg.base.commander_skill_effect_template[410313] = {
 		id = 410313,
 		name = "守护之心",
 		effect_type = "battle_buff",
@@ -1420,8 +1565,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	[420111] = {
+	}
+	pg.base.commander_skill_effect_template[420111] = {
 		id = 420111,
 		name = "巡洋后勤",
 		effect_type = "battle_buff",
@@ -1434,8 +1579,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[420112] = {
+	}
+	pg.base.commander_skill_effect_template[420112] = {
 		id = 420112,
 		name = "巡洋后勤",
 		effect_type = "battle_buff",
@@ -1448,8 +1593,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[420113] = {
+	}
+	pg.base.commander_skill_effect_template[420113] = {
 		id = 420113,
 		name = "巡洋后勤",
 		effect_type = "battle_buff",
@@ -1462,8 +1607,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[420211] = {
+	}
+	pg.base.commander_skill_effect_template[420211] = {
 		id = 420211,
 		name = "驱逐指挥",
 		effect_type = "battle_buff",
@@ -1476,8 +1621,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[420212] = {
+	}
+	pg.base.commander_skill_effect_template[420212] = {
 		id = 420212,
 		name = "驱逐指挥",
 		effect_type = "battle_buff",
@@ -1490,8 +1635,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[420213] = {
+	}
+	pg.base.commander_skill_effect_template[420213] = {
 		id = 420213,
 		name = "驱逐指挥",
 		effect_type = "battle_buff",
@@ -1504,8 +1649,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[9600111] = {
+	}
+	pg.base.commander_skill_effect_template[9600111] = {
 		id = 9600111,
 		name = "环球航行",
 		effect_type = "battle_buff",
@@ -1513,8 +1658,8 @@ pg.commander_skill_effect_template = {
 			40400
 		},
 		condition = {}
-	},
-	[9600112] = {
+	}
+	pg.base.commander_skill_effect_template[9600112] = {
 		id = 9600112,
 		name = "环球航行",
 		effect_type = "battle_buff",
@@ -1533,8 +1678,8 @@ pg.commander_skill_effect_template = {
 				6
 			}
 		}
-	},
-	[9600113] = {
+	}
+	pg.base.commander_skill_effect_template[9600113] = {
 		id = 9600113,
 		name = "环球航行",
 		effect_type = "battle_buff",
@@ -1542,8 +1687,8 @@ pg.commander_skill_effect_template = {
 			40420
 		},
 		condition = {}
-	},
-	[9600211] = {
+	}
+	pg.base.commander_skill_effect_template[9600211] = {
 		id = 9600211,
 		name = "私掠者的是与非",
 		effect_type = "battle_buff",
@@ -1551,8 +1696,8 @@ pg.commander_skill_effect_template = {
 			40430
 		},
 		condition = {}
-	},
-	[9600212] = {
+	}
+	pg.base.commander_skill_effect_template[9600212] = {
 		id = 9600212,
 		name = "私掠者的是与非",
 		effect_type = "move_speed",
@@ -1570,8 +1715,10 @@ pg.commander_skill_effect_template = {
 				}
 			}
 		}
-	},
-	[9600213] = {
+	}
+end)()
+(function ()
+	pg.base.commander_skill_effect_template[9600213] = {
 		id = 9600213,
 		name = "私掠者的是与非",
 		effect_type = "battle_buff",
@@ -1590,8 +1737,8 @@ pg.commander_skill_effect_template = {
 				6
 			}
 		}
-	},
-	[9600311] = {
+	}
+	pg.base.commander_skill_effect_template[9600311] = {
 		id = 9600311,
 		name = "“高速”的山姆",
 		effect_type = "hunt_lv",
@@ -1604,8 +1751,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	[9600312] = {
+	}
+	pg.base.commander_skill_effect_template[9600312] = {
 		id = 9600312,
 		name = "“高速”的山姆",
 		effect_type = "battle_buff",
@@ -1618,8 +1765,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	[9600313] = {
+	}
+	pg.base.commander_skill_effect_template[9600313] = {
 		id = 9600313,
 		name = "“高速”的山姆",
 		effect_type = "battle_buff",
@@ -1632,8 +1779,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	[9600411] = {
+	}
+	pg.base.commander_skill_effect_template[9600411] = {
 		id = 9600411,
 		name = "攻夺与幻想",
 		effect_type = "battle_buff",
@@ -1652,8 +1799,8 @@ pg.commander_skill_effect_template = {
 				6
 			}
 		}
-	},
-	[9600412] = {
+	}
+	pg.base.commander_skill_effect_template[9600412] = {
 		id = 9600412,
 		name = "攻夺与幻想",
 		effect_type = "battle_buff",
@@ -1666,8 +1813,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	[9600413] = {
+	}
+	pg.base.commander_skill_effect_template[9600413] = {
 		id = 9600413,
 		name = "攻夺与幻想",
 		effect_type = "battle_buff",
@@ -1675,8 +1822,8 @@ pg.commander_skill_effect_template = {
 			40510
 		},
 		condition = {}
-	},
-	[9600414] = {
+	}
+	pg.base.commander_skill_effect_template[9600414] = {
 		id = 9600414,
 		name = "攻夺与幻想",
 		effect_type = "battle_buff",
@@ -1689,8 +1836,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	[9600511] = {
+	}
+	pg.base.commander_skill_effect_template[9600511] = {
 		id = 9600511,
 		name = "戒律的订立者",
 		effect_type = "hunt_lv",
@@ -1703,8 +1850,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	[9600512] = {
+	}
+	pg.base.commander_skill_effect_template[9600512] = {
 		id = 9600512,
 		name = "戒律的订立者",
 		effect_type = "battle_buff",
@@ -1717,8 +1864,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	[9600513] = {
+	}
+	pg.base.commander_skill_effect_template[9600513] = {
 		id = 9600513,
 		name = "戒律的订立者",
 		effect_type = "battle_buff",
@@ -1731,8 +1878,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	[9600611] = {
+	}
+	pg.base.commander_skill_effect_template[9600611] = {
 		id = 9600611,
 		name = "未了的传奇",
 		effect_type = "battle_buff",
@@ -1740,8 +1887,8 @@ pg.commander_skill_effect_template = {
 			40550
 		},
 		condition = {}
-	},
-	[9600612] = {
+	}
+	pg.base.commander_skill_effect_template[9600612] = {
 		id = 9600612,
 		name = "未了的传奇",
 		effect_type = "battle_buff",
@@ -1759,8 +1906,8 @@ pg.commander_skill_effect_template = {
 				}
 			}
 		}
-	},
-	[9600613] = {
+	}
+	pg.base.commander_skill_effect_template[9600613] = {
 		id = 9600613,
 		name = "未了的传奇",
 		effect_type = "battle_buff",
@@ -1768,8 +1915,8 @@ pg.commander_skill_effect_template = {
 			40570
 		},
 		condition = {}
-	},
-	[9600711] = {
+	}
+	pg.base.commander_skill_effect_template[9600711] = {
 		id = 9600711,
 		name = "绅士海盗的传说",
 		effect_type = "ambush_doge",
@@ -1780,8 +1927,8 @@ pg.commander_skill_effect_template = {
 			250
 		},
 		condition = {}
-	},
-	[9600712] = {
+	}
+	pg.base.commander_skill_effect_template[9600712] = {
 		id = 9600712,
 		name = "绅士海盗的传说",
 		effect_type = "battle_buff",
@@ -1794,8 +1941,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[9600713] = {
+	}
+	pg.base.commander_skill_effect_template[9600713] = {
 		id = 9600713,
 		name = "绅士海盗的传说",
 		effect_type = "battle_buff",
@@ -1803,8 +1950,8 @@ pg.commander_skill_effect_template = {
 			40600
 		},
 		condition = {}
-	},
-	[9100111] = {
+	}
+	pg.base.commander_skill_effect_template[9100111] = {
 		id = 9100111,
 		name = "31节的正义",
 		effect_type = "battle_buff",
@@ -1823,8 +1970,8 @@ pg.commander_skill_effect_template = {
 				6
 			}
 		}
-	},
-	[9100112] = {
+	}
+	pg.base.commander_skill_effect_template[9100112] = {
 		id = 9100112,
 		name = "31节的正义",
 		effect_type = "battle_buff",
@@ -1837,8 +1984,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	[9100113] = {
+	}
+	pg.base.commander_skill_effect_template[9100113] = {
 		id = 9100113,
 		name = "31节的正义",
 		effect_type = "battle_buff",
@@ -1851,8 +1998,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	[9110111] = {
+	}
+	pg.base.commander_skill_effect_template[9110111] = {
 		id = 9110111,
 		name = "5英寸的勇气",
 		effect_type = "battle_buff",
@@ -1865,8 +2012,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	[9110212] = {
+	}
+	pg.base.commander_skill_effect_template[9110212] = {
 		id = 9110212,
 		name = "幸运之翼",
 		effect_type = "battle_buff",
@@ -1879,8 +2026,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[9120121] = {
+	}
+	pg.base.commander_skill_effect_template[9120121] = {
 		id = 9120121,
 		name = "雷达侦察",
 		effect_type = "battle_buff",
@@ -1893,8 +2040,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[9200112] = {
+	}
+	pg.base.commander_skill_effect_template[9200112] = {
 		id = 9200112,
 		name = "尽忠职守",
 		effect_type = "battle_buff",
@@ -1907,8 +2054,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[9210213] = {
+	}
+	pg.base.commander_skill_effect_template[9210213] = {
 		id = 9210213,
 		name = "斥候猎手",
 		effect_type = "battle_buff",
@@ -1926,8 +2073,8 @@ pg.commander_skill_effect_template = {
 				}
 			}
 		}
-	},
-	[9210312] = {
+	}
+	pg.base.commander_skill_effect_template[9210312] = {
 		id = 9210312,
 		name = "守望者",
 		effect_type = "battle_buff",
@@ -1945,8 +2092,8 @@ pg.commander_skill_effect_template = {
 				}
 			}
 		}
-	},
-	[9210411] = {
+	}
+	pg.base.commander_skill_effect_template[9210411] = {
 		id = 9210411,
 		name = "无畏的骑士",
 		effect_type = "battle_buff",
@@ -1959,8 +2106,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[9300112] = {
+	}
+	pg.base.commander_skill_effect_template[9300112] = {
 		id = 9300112,
 		name = "反击的一拳",
 		effect_type = "battle_buff",
@@ -1973,8 +2120,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[9310113] = {
+	}
+	pg.base.commander_skill_effect_template[9310113] = {
 		id = 9310113,
 		name = "必杀·三段击",
 		effect_type = "battle_buff",
@@ -1982,8 +2129,8 @@ pg.commander_skill_effect_template = {
 			40350
 		},
 		condition = {}
-	},
-	[9400112] = {
+	}
+	pg.base.commander_skill_effect_template[9400112] = {
 		id = 9400112,
 		name = "静寂的狩猎者",
 		effect_type = "battle_buff",
@@ -2000,8 +2147,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	[9400113] = {
+	}
+	pg.base.commander_skill_effect_template[9400113] = {
 		id = 9400113,
 		name = "静寂的狩猎者",
 		effect_type = "battle_buff",
@@ -2018,8 +2165,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	[9400212] = {
+	}
+	pg.base.commander_skill_effect_template[9400212] = {
 		id = 9400212,
 		name = "不屈的意志",
 		effect_type = "battle_buff",
@@ -2032,8 +2179,8 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	[9410213] = {
+	}
+	pg.base.commander_skill_effect_template[9410213] = {
 		id = 9410213,
 		name = "海之勇者",
 		effect_type = "battle_buff",
@@ -2050,8 +2197,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	[99600212] = {
+	}
+	pg.base.commander_skill_effect_template[99600212] = {
 		id = 99600212,
 		name = "私掠者的是非",
 		effect_type = "battle_buff",
@@ -2069,8 +2216,8 @@ pg.commander_skill_effect_template = {
 				}
 			}
 		}
-	},
-	[99600311] = {
+	}
+	pg.base.commander_skill_effect_template[99600311] = {
 		id = 99600311,
 		name = "“高速”的山姆",
 		effect_type = "battle_buff",
@@ -2083,8 +2230,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	[99600511] = {
+	}
+	pg.base.commander_skill_effect_template[99600511] = {
 		id = 99600511,
 		name = "戒律的订立者",
 		effect_type = "battle_buff",
@@ -2097,8 +2244,8 @@ pg.commander_skill_effect_template = {
 				1
 			}
 		}
-	},
-	[99600711] = {
+	}
+	pg.base.commander_skill_effect_template[99600711] = {
 		id = 99600711,
 		name = "绅士海盗的传说",
 		effect_type = "battle_buff",
@@ -2111,144 +2258,5 @@ pg.commander_skill_effect_template = {
 				2
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		100111,
-		100112,
-		100113,
-		100211,
-		100212,
-		100213,
-		110111,
-		110112,
-		110113,
-		110211,
-		110212,
-		110213,
-		120111,
-		120112,
-		120113,
-		120121,
-		120122,
-		120123,
-		200111,
-		200112,
-		200113,
-		200211,
-		200212,
-		200213,
-		210111,
-		210112,
-		210113,
-		210211,
-		210212,
-		210213,
-		210311,
-		210312,
-		210313,
-		210411,
-		210412,
-		210413,
-		220111,
-		220112,
-		220113,
-		220211,
-		220212,
-		220213,
-		300111,
-		300112,
-		300113,
-		300211,
-		300212,
-		300213,
-		310111,
-		310112,
-		310113,
-		310211,
-		310212,
-		310213,
-		320111,
-		320112,
-		320113,
-		320211,
-		320212,
-		320213,
-		400111,
-		400112,
-		400113,
-		400211,
-		400212,
-		400213,
-		410111,
-		410112,
-		410113,
-		410211,
-		410212,
-		410213,
-		410311,
-		410312,
-		410313,
-		420111,
-		420112,
-		420113,
-		420211,
-		420212,
-		420213,
-		9600111,
-		9600112,
-		9600113,
-		9600211,
-		9600212,
-		9600213,
-		9600311,
-		9600312,
-		9600313,
-		9600411,
-		9600412,
-		9600413,
-		9600414,
-		9600511,
-		9600512,
-		9600513,
-		9600611,
-		9600612,
-		9600613,
-		9600711,
-		9600712,
-		9600713,
-		9100111,
-		9100112,
-		9100113,
-		9110111,
-		9110212,
-		9120121,
-		9200112,
-		9210213,
-		9210312,
-		9210411,
-		9300112,
-		9310113,
-		9400112,
-		9400113,
-		9400212,
-		9410213,
-		99600212,
-		99600311,
-		99600511,
-		99600711
 	}
-}
+end)()

@@ -5,10 +5,10 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.nextFlashTime = slot1.next_flash_time
 	slot0.goods = {}
 
-	for slot5, slot6 in ipairs(pg.gameroom_shop_template) do
-		slot7 = Goods.Create(slot6, Goods.TYPE_MINI_GAME)
+	for slot5, slot6 in ipairs(pg.gameroom_shop_template.all) do
+		slot7 = Goods.Create(pg.gameroom_shop_template[slot6], Goods.TYPE_MINI_GAME)
 
-		slot7:UpdateCnt(slot0:getGoodData(slot6.id) or 0)
+		slot7:UpdateCnt(slot0:getGoodData(slot6) or 0)
 
 		slot0.goods[slot7:getId()] = slot7
 	end

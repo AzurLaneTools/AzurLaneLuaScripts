@@ -1,6 +1,43 @@
 pg = pg or {}
-pg.soundstory_template = {
-	{
+pg.soundstory_template = rawget(pg, "soundstory_template") or setmetatable({
+	__name = "soundstory_template"
+}, confNEO)
+pg.soundstory_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29
+}
+pg.base = pg.base or {}
+pg.base.soundstory_template = {}
+
+(function ()
+	pg.base.soundstory_template[1] = {
 		story_pic = "",
 		name = "여유로운 다실",
 		story_resource_JP = "soundStory1_JP",
@@ -26,8 +63,8 @@ pg.soundstory_template = {
 			15,
 			3
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[2] = {
 		story_pic = "",
 		name = "해변에서 카시노와",
 		story_resource_JP = "soundStory2_JP",
@@ -35,9 +72,10 @@ pg.soundstory_template = {
 		audition_resource_CN = "",
 		CV_JP = "콘도 레이나",
 		audition_resource_JP = "ss-31901-1",
-		overview = "「지휘관님은 바다 좋아하세요? 카시노는 엄청 좋아해요.」\n햇살 속에서 카시노와 즐기는 바다\n차가운 바닷물로도 숨길 수 없는 뜨거운 마음",
+		overview = "「지휘관님은 바다 좋아하세요? 카시노는 엄청 좋아해요.」\n햇살 속에서 카시노와 즐기는 바다.\n차가운 바닷물로도 숨길 수 없는 뜨거운 마음.",
 		order = 2,
-		audition_text = "휴우~ 재밌었다♪ 후훗, 너무 들떴나봐요. 이렇게 바다에서 놀아본 게 대체 얼마 만일까요…?",
+		audition_text = "후우, 재밌었다♪ 후후, 열심히 했네요. 이렇게 바다에서 노는 게 대체 얼마만인지…",
+		time = "always",
 		ship_id = 31901,
 		id = 2,
 		captions_color = "#2e78d0",
@@ -51,36 +89,9 @@ pg.soundstory_template = {
 			1,
 			15,
 			3
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					2,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					2,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[3] = {
 		story_pic = "",
 		name = "양호실에서 재너스와",
 		story_resource_JP = "soundStory3_JP",
@@ -106,8 +117,8 @@ pg.soundstory_template = {
 			15,
 			3
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[4] = {
 		story_pic = "",
 		name = "혀끝에서 녹는 달콤함",
 		story_resource_JP = "soundStory4_JP",
@@ -133,8 +144,8 @@ pg.soundstory_template = {
 			15,
 			3
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[5] = {
 		story_pic = "",
 		name = "최고의 포상",
 		story_resource_JP = "soundStory5_JP",
@@ -186,8 +197,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[6] = {
 		story_pic = "",
 		name = "특별 선물?!",
 		story_resource_JP = "soundStory6_JP",
@@ -239,8 +250,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[7] = {
 		story_pic = "",
 		name = "독점의 욕망",
 		story_resource_JP = "soundStory7_JP",
@@ -292,8 +303,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[8] = {
 		story_pic = "",
 		name = "두근두근 심포니",
 		story_resource_JP = "soundStory8_JP",
@@ -319,8 +330,8 @@ pg.soundstory_template = {
 			15,
 			3
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[9] = {
 		story_pic = "",
 		name = "미열의 부엌",
 		story_resource_JP = "soundStory9_JP",
@@ -372,8 +383,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[10] = {
 		story_pic = "",
 		name = "소녀의 작은 마음",
 		story_resource_JP = "soundStory10_JP",
@@ -381,9 +392,9 @@ pg.soundstory_template = {
 		audition_resource_CN = "",
 		CV_JP = "요리타 나츠",
 		audition_resource_JP = "ss-10730-1",
-		overview = "샌 재신토의 부탁으로 그녀에게 수영을 가르쳐 주게 된 당신. 그녀의 웃음소리와 물보라, 그리고 단둘이서 있는 이 상황… 이 두근거리는 계략은 결실을 맺을는지…?",
+		overview = "샌 재신토의 초청을 받아, 그녀에게 수영 레슨을 받기로 한다. 그녀의 웃음소리, 사방으로 튀는 물보라, 단둘이 있는 이 상황… 두근두근 대작전은 결실을 맺을 것인가…?",
 		order = 1,
-		audition_text = "후후후… 그렇네요. 이거 녹초가 돼서 움직일 수 없게 될지도 모르겠는걸요?",
+		audition_text = "후후후… 그러게요. 어쩌면 너무 지쳐서 움직일 수 없게 될지도 모르겠네요.",
 		ship_id = 10730,
 		id = 10,
 		captions_color = "#1b3e80",
@@ -402,9 +413,9 @@ pg.soundstory_template = {
 			"timer",
 			{
 				{
-					2024,
+					2026,
 					5,
-					9
+					14
 				},
 				{
 					0,
@@ -414,9 +425,9 @@ pg.soundstory_template = {
 			},
 			{
 				{
-					2024,
+					2026,
 					5,
-					15
+					20
 				},
 				{
 					23,
@@ -425,8 +436,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[11] = {
 		story_pic = "",
 		name = "행간의 여운에 취해",
 		story_resource_JP = "soundStory11_JP",
@@ -478,8 +489,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[12] = {
 		story_pic = "",
 		name = "비밀스레 즐기는 둘만의 시간",
 		story_resource_JP = "soundStory12_JP",
@@ -531,8 +542,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[13] = {
 		story_pic = "",
 		name = "취기 어린 여름의 랑데부",
 		story_resource_JP = "soundStory13_JP",
@@ -584,8 +595,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[14] = {
 		story_pic = "",
 		name = "달콤한 함정에 빠져",
 		story_resource_JP = "soundStory14_JP",
@@ -637,8 +648,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[15] = {
 		story_pic = "",
 		name = "비 피하기",
 		story_resource_JP = "soundStory15_JP",
@@ -664,8 +675,8 @@ pg.soundstory_template = {
 			15,
 			3
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[16] = {
 		story_pic = "",
 		name = "침대 옆 메리",
 		story_resource_JP = "soundStory16_JP",
@@ -717,8 +728,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[17] = {
 		story_pic = "",
 		name = "상대와 가까워지는 비결",
 		story_resource_JP = "soundStory17_JP",
@@ -770,8 +781,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[18] = {
 		story_pic = "",
 		name = "크리스마스 서프라이즈",
 		story_resource_JP = "soundStory18_JP",
@@ -823,8 +834,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[19] = {
 		story_pic = "",
 		name = "용신님의 귀한 우동?",
 		story_resource_JP = "soundStory19_JP",
@@ -876,8 +887,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[20] = {
 		story_pic = "",
 		name = "둘만의 해변 데이트",
 		story_resource_JP = "soundStory20_JP",
@@ -929,8 +940,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[21] = {
 		story_pic = "",
 		name = "금단의 고해성사실",
 		story_resource_JP = "soundStory21_JP",
@@ -982,8 +993,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[22] = {
 		story_pic = "",
 		name = "달콤함 속에 담긴 마음",
 		story_resource_JP = "soundStory22_JP",
@@ -1035,8 +1046,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[23] = {
 		story_pic = "",
 		name = "사우나에서의 내구 훈련",
 		story_resource_JP = "soundStory23_JP",
@@ -1088,8 +1099,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[24] = {
 		story_pic = "",
 		name = "「컬렉션」 케어 방법",
 		story_resource_JP = "soundStory24_JP",
@@ -1141,8 +1152,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[25] = {
 		story_pic = "",
 		name = "다음에도 데이트하자!",
 		story_resource_JP = "soundStory25_JP",
@@ -1194,8 +1205,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[26] = {
 		story_pic = "",
 		name = "마물의 섭취 활동",
 		story_resource_JP = "soundStory26_JP",
@@ -1247,8 +1258,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[27] = {
 		story_pic = "",
 		name = "마음이 쉬는 곳",
 		story_resource_JP = "soundStory27_JP",
@@ -1300,8 +1311,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[28] = {
 		story_pic = "",
 		name = "포근한 잠자리",
 		story_resource_JP = "soundStory28_JP",
@@ -1353,35 +1364,58 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28
 	}
-}
+	pg.base.soundstory_template[29] = {
+		story_pic = "",
+		name = "샤워 부스와 포츠",
+		story_resource_JP = "soundStory29_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "주니 료코",
+		audition_resource_JP = "ss-960010-1",
+		overview = "수영을 마치고 샤워 부스에 오니, 안에서 누군가의 즐거운 콧노래가 들려온다…… 도망치기에는 이미 늦었다!",
+		order = 2,
+		audition_text = "으으… 설명을 잘 못 하겠어!",
+		ship_id = 960010,
+		id = 29,
+		captions_color = "#5d2528",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					5,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+end)()

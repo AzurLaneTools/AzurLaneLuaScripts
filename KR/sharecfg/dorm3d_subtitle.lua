@@ -1,1049 +1,1146 @@
 pg = pg or {}
-pg.dorm3d_subtitle = setmetatable({
-	__name = "dorm3d_subtitle",
-	all = {
-		101,
-		102,
-		103,
-		104,
-		105,
-		201,
-		202,
-		203,
-		301,
-		302,
-		303,
-		401,
-		402,
-		501,
-		601,
-		602,
-		603,
-		604,
-		605,
-		606,
-		701,
-		702,
-		703,
-		801,
-		802,
-		803,
-		804,
-		805,
-		806,
-		807,
-		808,
-		809,
-		901,
-		902,
-		903,
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1007,
-		1008,
-		1101,
-		1102,
-		1103,
-		1104,
-		1105,
-		1106,
-		1107,
-		2101,
-		2102,
-		2103,
-		2201,
-		2202,
-		2301,
-		2302,
-		2303,
-		3401,
-		3402,
-		3403,
-		3404,
-		3405,
-		3406,
-		3407,
-		3101,
-		3102,
-		3103,
-		3104,
-		3105,
-		3106,
-		3301,
-		3302,
-		3303,
-		3304,
-		3305,
-		3201,
-		3202,
-		3501,
-		3502,
-		3503,
-		3504,
-		3505,
-		3506,
-		3507,
-		2401,
-		2402,
-		2403,
-		2404,
-		11001,
-		11002,
-		11003,
-		11004,
-		11005,
-		11006,
-		11007,
-		11008,
-		11009,
-		11010,
-		11011,
-		11012,
-		11013,
-		11014,
-		11015,
-		11016,
-		11017,
-		11018,
-		11019,
-		11020,
-		11021,
-		11022,
-		11023,
-		11024,
-		11025,
-		11026,
-		11027,
-		11028,
-		11029,
-		11030,
-		11031,
-		11040,
-		11041,
-		11042,
-		11043,
-		11044,
-		11045,
-		11046,
-		11047,
-		11048,
-		11049,
-		11050,
-		11051,
-		11052,
-		11053,
-		11054,
-		11055,
-		11056,
-		12001,
-		12002,
-		12003,
-		12004,
-		12005,
-		12006,
-		12007,
-		12008,
-		12009,
-		12010,
-		12011,
-		12021,
-		12022,
-		12023,
-		12024,
-		12025,
-		12026,
-		12027,
-		12028,
-		12029,
-		12030,
-		12031,
-		12032,
-		12033,
-		12034,
-		12035,
-		12036,
-		12037,
-		14001,
-		14002,
-		14003,
-		14004,
-		14005,
-		14006,
-		14007,
-		14008,
-		14009,
-		14010,
-		14011,
-		14012,
-		14013,
-		14014,
-		14015,
-		14016,
-		14021,
-		14022,
-		14023,
-		14024,
-		14025,
-		14026,
-		14027,
-		14028,
-		14029,
-		14030,
-		14031,
-		14032,
-		14033,
-		14034,
-		14035,
-		14036,
-		14037,
-		14038,
-		14039,
-		14040,
-		14041,
-		14042,
-		14043,
-		14044,
-		14045,
-		14046,
-		14047
-	}
-}, confHX)
+pg.dorm3d_subtitle = rawget(pg, "dorm3d_subtitle") or setmetatable({
+	__name = "dorm3d_subtitle"
+}, confNEO)
+pg.dorm3d_subtitle.__namecode__ = true
+pg.dorm3d_subtitle.all = {
+	101,
+	102,
+	103,
+	104,
+	105,
+	201,
+	202,
+	203,
+	301,
+	302,
+	303,
+	401,
+	402,
+	501,
+	601,
+	602,
+	603,
+	604,
+	605,
+	606,
+	701,
+	702,
+	703,
+	801,
+	802,
+	803,
+	804,
+	805,
+	806,
+	807,
+	808,
+	809,
+	901,
+	902,
+	903,
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008,
+	1101,
+	1102,
+	1103,
+	1104,
+	1105,
+	1106,
+	1107,
+	2101,
+	2102,
+	2103,
+	2201,
+	2202,
+	2301,
+	2302,
+	2303,
+	3401,
+	3402,
+	3403,
+	3404,
+	3405,
+	3406,
+	3407,
+	3101,
+	3102,
+	3103,
+	3104,
+	3105,
+	3106,
+	3301,
+	3302,
+	3303,
+	3304,
+	3305,
+	3201,
+	3202,
+	3501,
+	3502,
+	3503,
+	3504,
+	3505,
+	3506,
+	3507,
+	2401,
+	2402,
+	2403,
+	2404,
+	11001,
+	11002,
+	11003,
+	11004,
+	11005,
+	11006,
+	11007,
+	11008,
+	11009,
+	11010,
+	11011,
+	11012,
+	11013,
+	11014,
+	11015,
+	11016,
+	11017,
+	11018,
+	11019,
+	11020,
+	11021,
+	11022,
+	11023,
+	11024,
+	11025,
+	11026,
+	11027,
+	11028,
+	11029,
+	11030,
+	11031,
+	11040,
+	11041,
+	11042,
+	11043,
+	11044,
+	11045,
+	11046,
+	11047,
+	11048,
+	11049,
+	11050,
+	11051,
+	11052,
+	11053,
+	11054,
+	11055,
+	11056,
+	12001,
+	12002,
+	12003,
+	12004,
+	12005,
+	12006,
+	12007,
+	12008,
+	12009,
+	12010,
+	12011,
+	12021,
+	12022,
+	12023,
+	12024,
+	12025,
+	12026,
+	12027,
+	12028,
+	12029,
+	12030,
+	12031,
+	12032,
+	12033,
+	12034,
+	12035,
+	12036,
+	12037,
+	14001,
+	14002,
+	14003,
+	14004,
+	14005,
+	14006,
+	14007,
+	14008,
+	14009,
+	14010,
+	14011,
+	14012,
+	14013,
+	14014,
+	14015,
+	14016,
+	14021,
+	14022,
+	14023,
+	14024,
+	14025,
+	14026,
+	14027,
+	14028,
+	14029,
+	14030,
+	14031,
+	14032,
+	14033,
+	14034,
+	14035,
+	14036,
+	14037,
+	14038,
+	14039,
+	14040,
+	14041,
+	14042,
+	14043,
+	14044,
+	14045,
+	14046,
+	14047,
+	12038,
+	12039,
+	12040,
+	12041,
+	12042,
+	12043,
+	12044,
+	12045,
+	12046,
+	12047,
+	12048,
+	12049,
+	12050,
+	12051,
+	12052,
+	12053,
+	12054,
+	12055
+}
 pg.base = pg.base or {}
-pg.base.dorm3d_subtitle = {
-	[101] = {
+pg.base.dorm3d_subtitle = {}
+
+(function ()
+	pg.base.dorm3d_subtitle[101] = {
 		id = 101,
 		subtitle = "한 사람 몫을 다하는 어엿한 로열 메이드가 어떻게 꽃병을 깨끗하게 닦는지, 자랑스러운 $dorm3d께 보여드리겠습니다."
-	},
-	[102] = {
+	}
+	pg.base.dorm3d_subtitle[102] = {
 		id = 102,
 		subtitle = "이렇게 한 손으로 꽃병을 들고, 부드럽게 위아래로 닦습니다."
-	},
-	[103] = {
+	}
+	pg.base.dorm3d_subtitle[103] = {
 		id = 103,
 		subtitle = "강하지도, 약하지도 않게…"
-	},
-	[104] = {
+	}
+	pg.base.dorm3d_subtitle[104] = {
 		id = 104,
 		subtitle = "너무 힘을 주다 떨어뜨리지 않도록… 섬세하게 만들어져서 조심해야 해요."
-	},
-	[105] = {
+	}
+	pg.base.dorm3d_subtitle[105] = {
 		id = 105,
 		subtitle = "…자! 이제 깨끗해졌습니다…!"
-	},
-	[201] = {
+	}
+	pg.base.dorm3d_subtitle[201] = {
 		id = 201,
 		subtitle = "……꺅!"
-	},
-	[202] = {
+	}
+	pg.base.dorm3d_subtitle[202] = {
 		id = 202,
 		subtitle = "이, 이런 걸로…… $dorm3d을 번거롭게 해드릴 수는…… 꺅!?"
-	},
-	[203] = {
+	}
+	pg.base.dorm3d_subtitle[203] = {
 		id = 203,
 		subtitle = "이제 괜찮아요. 자상하신 $dorm3d."
-	},
-	[301] = {
+	}
+	pg.base.dorm3d_subtitle[301] = {
 		id = 301,
 		subtitle = "$dorm3d, 괜찮으시면 손을 좀 빌릴 수 있을까요…?"
-	},
-	[302] = {
+	}
+	pg.base.dorm3d_subtitle[302] = {
 		id = 302,
 		subtitle = "$dorm3d…?"
-	},
-	[303] = {
+	}
+	pg.base.dorm3d_subtitle[303] = {
 		id = 303,
 		subtitle = "$dorm3d도 장난을 치실 때가 있네요."
-	},
-	[401] = {
+	}
+	pg.base.dorm3d_subtitle[401] = {
 		id = 401,
 		subtitle = "정말 영광입니다……!"
-	},
-	[402] = {
+	}
+	pg.base.dorm3d_subtitle[402] = {
 		id = 402,
 		subtitle = "시리우스가 푹 빠진 $dorm3d……"
-	},
-	[501] = {
+	}
+	pg.base.dorm3d_subtitle[501] = {
 		id = 501,
 		subtitle = "자랑스러운 $dorm3d, 기다리고 있었습니다. 이쪽으로 오시지요."
-	},
-	[601] = {
+	}
+	pg.base.dorm3d_subtitle[601] = {
 		id = 601,
 		subtitle = "어, 이걸로 충분하니까... 사과할 필요는 없지 않을까요?"
-	},
-	[602] = {
+	}
+	pg.base.dorm3d_subtitle[602] = {
 		id = 602,
 		subtitle = "자랑스러운 $dorm3d, 여전히 상냥하시군요."
-	},
-	[603] = {
+	}
+	pg.base.dorm3d_subtitle[603] = {
 		id = 603,
 		subtitle = "하지만 이렇게… 프라이빗한, 더 가까운 곳에서 자랑스러운 $dorm3d을 섬길 수 있어서… 시리우스가 정말 기쁩니다."
-	},
-	[604] = {
+	}
+	pg.base.dorm3d_subtitle[604] = {
 		id = 604,
 		subtitle = "천만에요! 시리우스는 그저 하녀로서 해야 할 일을 했을 뿐입니다."
-	},
-	[605] = {
+	}
+	pg.base.dorm3d_subtitle[605] = {
 		id = 605,
 		subtitle = "로열 메이드로서, 자랑스러운 $dorm3d이 지나다니는 어느 장소를 미리 깨끗하게 해두는 것이 책무이기 때문이죠. "
-	},
-	[606] = {
+	}
+	pg.base.dorm3d_subtitle[606] = {
 		id = 606,
 		subtitle = "사실… $dorm3d을 맞이할 준비를 성심성의껏, 열과 성을 다해서 하고 있었답니다…!"
-	},
-	[701] = {
+	}
+	pg.base.dorm3d_subtitle[701] = {
 		id = 701,
 		subtitle = "어서오세요."
-	},
-	[702] = {
+	}
+	pg.base.dorm3d_subtitle[702] = {
 		id = 702,
 		subtitle = "검소한 영접을 하게 된 점, 부디 천한 시리아를 용서해 주십시오."
-	},
-	[703] = {
+	}
+	pg.base.dorm3d_subtitle[703] = {
 		id = 703,
 		subtitle = "시간만 있으면 좀 더 제대로 된 성대한 것을 준비할 수 있었습니다만…"
-	},
-	[801] = {
+	}
+	pg.base.dorm3d_subtitle[801] = {
 		id = 801,
 		subtitle = "입맛도 온도도 딱 좋은 홍차에, 맛있고 영양이 풍부한 프리미엄 리프레시먼트..."
-	},
-	[802] = {
+	}
+	pg.base.dorm3d_subtitle[802] = {
 		id = 802,
 		subtitle = "깔끔하게 메이킹한 침구, 그리고 이 시리우스도... 모두 완벽한 상태로 정리해드렸습니다."
-	},
-	[803] = {
+	}
+	pg.base.dorm3d_subtitle[803] = {
 		id = 803,
 		subtitle = "어떤 요청이든 자랑스러운 $dorm3d께서 만족하실 거라고 생각합니다."
-	},
-	[804] = {
+	}
+	pg.base.dorm3d_subtitle[804] = {
 		id = 804,
 		subtitle = "이것은…시리어스에 「봉사」해 달라는 것이군요…!"
-	},
-	[805] = {
+	}
+	pg.base.dorm3d_subtitle[805] = {
 		id = 805,
 		subtitle = "하… 드디어… 자랑스러운 $dorm3d과 함께… 시리우스가 바라던 날이 드디어…"
-	},
-	[806] = {
+	}
+	pg.base.dorm3d_subtitle[806] = {
 		id = 806,
 		subtitle = "그냥 앉아서 한숨 돌리고 싶을 뿐? 시리우스도 여러가지로 피곤했을테니까?"
-	},
-	[807] = {
+	}
+	pg.base.dorm3d_subtitle[807] = {
 		id = 807,
 		subtitle = "그, 그런 거였군요… 음…"
-	},
-	[808] = {
+	}
+	pg.base.dorm3d_subtitle[808] = {
 		id = 808,
 		subtitle = "다소 어깨가 으쓱하기는 하지만... 자랑스러운 $dorm3d이 원하신다면, 시리우스, 전력으로 보답하겠습니다."
-	},
-	[809] = {
+	}
+	pg.base.dorm3d_subtitle[809] = {
 		id = 809,
 		subtitle = "그럼 시리우스와 함께 이 쪽 소파에서 휴식을 취해 주시기 바랍니다. 자랑스러운 $dorm3d."
-	},
-	[901] = {
+	}
+	pg.base.dorm3d_subtitle[901] = {
 		id = 901,
 		subtitle = "설마 $dorm3d도 목욕하러 오실 줄은…!"
-	},
-	[902] = {
+	}
+	pg.base.dorm3d_subtitle[902] = {
 		id = 902,
 		subtitle = "하아… $dorm3d의 그런 모습을 봐서 그런 걸까요…? 아니면 여기 온도가 너무 높아서 그런 걸까요…?"
-	},
-	[903] = {
+	}
+	pg.base.dorm3d_subtitle[903] = {
 		id = 903,
 		subtitle = "이상한 생각이… 떠오를 정도로……"
-	},
-	[1001] = {
+	}
+	pg.base.dorm3d_subtitle[1001] = {
 		id = 1001,
 		subtitle = "여기뿐만 아니라… 구석구석 잘 닦아야……"
-	},
-	[1002] = {
+	}
+	pg.base.dorm3d_subtitle[1002] = {
 		id = 1002,
 		subtitle = "영차, 영차."
-	},
-	[1003] = {
+	}
+	pg.base.dorm3d_subtitle[1003] = {
 		id = 1003,
 		subtitle = "시리우스가 우둔한 탓에 차를 쏟아 버려… 자랑스러운 주인님께 엄청난 폐를 끼쳤습니다."
-	},
-	[1004] = {
+	}
+	pg.base.dorm3d_subtitle[1004] = {
 		id = 1004,
 		subtitle = "하아…"
-	},
-	[1005] = {
+	}
+	pg.base.dorm3d_subtitle[1005] = {
 		id = 1005,
 		subtitle = "주인님… 시리우스를 위로해 주시는 건가요…?"
-	},
-	[1006] = {
+	}
+	pg.base.dorm3d_subtitle[1006] = {
 		id = 1006,
 		subtitle = "가, 감사합니다! 자랑스러운 주인님."
-	},
-	[1007] = {
+	}
+	pg.base.dorm3d_subtitle[1007] = {
 		id = 1007,
 		subtitle = "조금만 더……"
-	},
-	[1008] = {
+	}
+	pg.base.dorm3d_subtitle[1008] = {
 		id = 1008,
 		subtitle = "후우… 이제 괜찮…습니다!"
-	},
-	[1101] = {
+	}
+	pg.base.dorm3d_subtitle[1101] = {
 		id = 1101,
 		subtitle = "주인님? 슬슬 일어나실 시간이에요."
-	},
-	[1102] = {
+	}
+	pg.base.dorm3d_subtitle[1102] = {
 		id = 1102,
 		subtitle = "주인님 곁에서 눈을 뜨다니… 정말…"
-	},
-	[1103] = {
+	}
+	pg.base.dorm3d_subtitle[1103] = {
 		id = 1103,
 		subtitle = "주인님, 푹 쉬셨나요?"
-	},
-	[1104] = {
+	}
+	pg.base.dorm3d_subtitle[1104] = {
 		id = 1104,
 		subtitle = "침대는 편안했나요? 베개는? 시리우스, 더 노력하겠습니다!"
-	},
-	[1105] = {
+	}
+	pg.base.dorm3d_subtitle[1105] = {
 		id = 1105,
 		subtitle = "주인님보다 먼저 자다니, 시리우스는 정말 미천하고 모자란 메이드입니다…"
-	},
-	[1106] = {
+	}
+	pg.base.dorm3d_subtitle[1106] = {
 		id = 1106,
 		subtitle = "아, 죄송합니다… 시리우스, 일부러 그런 건……///"
-	},
-	[1107] = {
+	}
+	pg.base.dorm3d_subtitle[1107] = {
 		id = 1107,
 		subtitle = "부디 꾸짖어 주시길! 자랑스러운 주인님!"
-	},
-	[2101] = {
+	}
+	pg.base.dorm3d_subtitle[2101] = {
 		id = 2101,
 		subtitle = "누구게요~?"
-	},
-	[2102] = {
+	}
+	pg.base.dorm3d_subtitle[2102] = {
 		id = 2102,
 		subtitle = "음… 사카와가 알려준 장난인데, 저랑은 역시 어울리지 않네요…"
-	},
-	[2103] = {
+	}
+	pg.base.dorm3d_subtitle[2103] = {
 		id = 2103,
 		subtitle = "귀엽다고…요? 그, 그렇군요…"
-	},
-	[2201] = {
+	}
+	pg.base.dorm3d_subtitle[2201] = {
 		id = 2201,
 		subtitle = "음… 이걸로 됐어…"
-	},
-	[2202] = {
+	}
+	pg.base.dorm3d_subtitle[2202] = {
 		id = 2202,
 		subtitle = "아직 출발하지 않는 건가요?"
-	},
-	[2301] = {
+	}
+	pg.base.dorm3d_subtitle[2301] = {
 		id = 2301,
 		subtitle = "$dorm3d, 잠깐만 도와주시겠어요?"
-	},
-	[2302] = {
+	}
+	pg.base.dorm3d_subtitle[2302] = {
 		id = 2302,
 		subtitle = "심장이 자꾸만 빠르게 뛰어요…"
-	},
-	[2303] = {
+	}
+	pg.base.dorm3d_subtitle[2303] = {
 		id = 2303,
 		subtitle = "당신 앞에 서면… 늘 이렇게 되고 말아요…"
-	},
-	[3401] = {
+	}
+	pg.base.dorm3d_subtitle[3401] = {
 		id = 3401,
 		subtitle = "$dorm3d...! 그림그... 앵커리지, 그림을 그리다!"
-	},
-	[3402] = {
+	}
+	pg.base.dorm3d_subtitle[3402] = {
 		id = 3402,
 		subtitle = "♪～"
-	},
-	[3403] = {
+	}
+	pg.base.dorm3d_subtitle[3403] = {
 		id = 3403,
 		subtitle = "앵커리지...... $dorm3d! 그리고...... 하트......!"
-	},
-	[3404] = {
+	}
+	pg.base.dorm3d_subtitle[3404] = {
 		id = 3404,
 		subtitle = "$dorm3d......! 물감...... 떨어졌다......"
-	},
-	[3405] = {
+	}
+	pg.base.dorm3d_subtitle[3405] = {
 		id = 3405,
 		subtitle = "괜찮아......? 응~! 앵커리지..... 계속 그려라!"
-	},
-	[3406] = {
+	}
+	pg.base.dorm3d_subtitle[3406] = {
 		id = 3406,
 		subtitle = "응응...... 음......"
-	},
-	[3407] = {
+	}
+	pg.base.dorm3d_subtitle[3407] = {
 		id = 3407,
 		subtitle = "그렸어...... $dorm3d...... 앵커리지, 영원히 함께! ......응!"
-	},
-	[3101] = {
+	}
+	pg.base.dorm3d_subtitle[3101] = {
 		id = 3101,
 		subtitle = "도와줘...... 앵커리지, $dorm3d!"
-	},
-	[3102] = {
+	}
+	pg.base.dorm3d_subtitle[3102] = {
 		id = 3102,
 		subtitle = "음...... 선, 생님......?"
-	},
-	[3103] = {
+	}
+	pg.base.dorm3d_subtitle[3103] = {
 		id = 3103,
 		subtitle = "에헤헷, $dorm3d...... 같이 놀래......?"
-	},
-	[3104] = {
+	}
+	pg.base.dorm3d_subtitle[3104] = {
 		id = 3104,
 		subtitle = "앵커리지랑...... 같이......!"
-	},
-	[3105] = {
+	}
+	pg.base.dorm3d_subtitle[3105] = {
 		id = 3105,
 		subtitle = "클릭"
-	},
-	[3106] = {
+	}
+	pg.base.dorm3d_subtitle[3106] = {
 		id = 3106,
 		subtitle = "클릭"
-	},
-	[3301] = {
+	}
+	pg.base.dorm3d_subtitle[3301] = {
 		id = 3301,
 		subtitle = "$dorm3d......! 일어날...... 시간이야!"
-	},
-	[3302] = {
+	}
+	pg.base.dorm3d_subtitle[3302] = {
 		id = 3302,
 		subtitle = "$dorm3d...... 따뜻한...... 손!"
-	},
-	[3303] = {
+	}
+	pg.base.dorm3d_subtitle[3303] = {
 		id = 3303,
 		subtitle = "키스...... 배웠어!"
-	},
-	[3304] = {
+	}
+	pg.base.dorm3d_subtitle[3304] = {
 		id = 3304,
 		subtitle = "앵커리지...... 좋아해!"
-	},
-	[3305] = {
+	}
+	pg.base.dorm3d_subtitle[3305] = {
 		id = 3305,
 		subtitle = "$dorm3d...... 도 좋아해......?"
-	},
-	[3201] = {
+	}
+	pg.base.dorm3d_subtitle[3201] = {
 		id = 3201,
 		subtitle = "$dorm3d....... 앵커리지....... 여기!"
-	},
-	[3202] = {
+	}
+	pg.base.dorm3d_subtitle[3202] = {
 		id = 3202,
 		subtitle = "$dorm3d...... 안아줘......!"
-	},
-	[3501] = {
+	}
+	pg.base.dorm3d_subtitle[3501] = {
 		id = 3501,
 		subtitle = "으음……"
-	},
-	[3502] = {
+	}
+	pg.base.dorm3d_subtitle[3502] = {
 		id = 3502,
 		subtitle = "앵커리지…… 열심히… 정리할게! 응!"
-	},
-	[3503] = {
+	}
+	pg.base.dorm3d_subtitle[3503] = {
 		id = 3503,
 		subtitle = "어렵지만… 앵커리지, 열심히 할 거야!"
-	},
-	[3504] = {
+	}
+	pg.base.dorm3d_subtitle[3504] = {
 		id = 3504,
 		subtitle = "앵커리지…… 몸에 붙어 있어?"
-	},
-	[3505] = {
+	}
+	pg.base.dorm3d_subtitle[3505] = {
 		id = 3505,
 		subtitle = "어디……? 앵커리지…… 안 보여……!"
-	},
-	[3506] = {
+	}
+	pg.base.dorm3d_subtitle[3506] = {
 		id = 3506,
 		subtitle = "선생님…… 앵커리지…… 도와줘!"
-	},
-	[3507] = {
+	}
+	pg.base.dorm3d_subtitle[3507] = {
 		id = 3507,
 		subtitle = "고마워……! 앵커리지…… 기뻐!"
-	},
-	[2401] = {
+	}
+	pg.base.dorm3d_subtitle[2401] = {
 		id = 2401,
 		subtitle = "그나저나… 이렇게 생긴 발 마사지기는 처음 보네요."
-	},
-	[2402] = {
+	}
+	pg.base.dorm3d_subtitle[2402] = {
 		id = 2402,
 		subtitle = "이러면 발의 혈액 순환이 좋아진다고요? 그렇군요…"
-	},
-	[2403] = {
+	}
+	pg.base.dorm3d_subtitle[2403] = {
 		id = 2403,
 		subtitle = "으음……"
-	},
-	[2404] = {
+	}
+	pg.base.dorm3d_subtitle[2404] = {
 		id = 2404,
 		subtitle = "따끈따끈해서…… 기분이 좋아……"
-	},
-	[11001] = {
+	}
+	pg.base.dorm3d_subtitle[11001] = {
 		id = 11001,
 		subtitle = "음…… 으음……"
-	},
-	[11002] = {
+	}
+	pg.base.dorm3d_subtitle[11002] = {
 		id = 11002,
 		subtitle = "응? 허니! 깜짝 놀랐네! 이게 신경 쓰여서 그래?"
-	},
-	[11003] = {
+	}
+	pg.base.dorm3d_subtitle[11003] = {
 		id = 11003,
 		subtitle = "후훗, 그럼 허니도 한번 써 봐!"
-	},
-	[11004] = {
+	}
+	pg.base.dorm3d_subtitle[11004] = {
 		id = 11004,
 		subtitle = "와아~ 이렇게 잘 어울릴 줄 몰랐어!"
-	},
-	[11005] = {
+	}
+	pg.base.dorm3d_subtitle[11005] = {
 		id = 11005,
 		subtitle = "역시 허니야~ 정말 매력적이라니까!"
-	},
-	[11006] = {
+	}
+	pg.base.dorm3d_subtitle[11006] = {
 		id = 11006,
 		subtitle = "음흠~♪ ……아!"
-	},
-	[11007] = {
+	}
+	pg.base.dorm3d_subtitle[11007] = {
 		id = 11007,
 		subtitle = "Honey！"
-	},
-	[11008] = {
+	}
+	pg.base.dorm3d_subtitle[11008] = {
 		id = 11008,
 		subtitle = "하하하, 여기야, 허니♪"
-	},
-	[11009] = {
+	}
+	pg.base.dorm3d_subtitle[11009] = {
 		id = 11009,
 		subtitle = "허니는 풀이 죽은 모습도 어쩜 그렇게 귀여운지~ 날 못 찾아서 그런 거야?"
-	},
-	[11010] = {
+	}
+	pg.base.dorm3d_subtitle[11010] = {
 		id = 11010,
 		subtitle = "걱정하지 마! 난 언제나 허니 곁에 있을 거니까♪"
-	},
-	[11011] = {
+	}
+	pg.base.dorm3d_subtitle[11011] = {
 		id = 11011,
 		subtitle = "후우… 좋다~! 딸기 냄새가 진짜 향기로워♪"
-	},
-	[11012] = {
+	}
+end)()
+(function ()
+	pg.base.dorm3d_subtitle[11012] = {
 		id = 11012,
 		subtitle = "♪~ 아, 허니!"
-	},
-	[11013] = {
+	}
+	pg.base.dorm3d_subtitle[11013] = {
 		id = 11013,
 		subtitle = "자, 허니. 맞혀봐! 힌트는… 달콤한 맛이야!"
-	},
-	[11014] = {
+	}
+	pg.base.dorm3d_subtitle[11014] = {
 		id = 11014,
 		subtitle = "반칙하면 안 돼, 허니~"
-	},
-	[11015] = {
+	}
+	pg.base.dorm3d_subtitle[11015] = {
 		id = 11015,
 		subtitle = "알았어~ 허니도 한 입~♪"
-	},
-	[11016] = {
+	}
+	pg.base.dorm3d_subtitle[11016] = {
 		id = 11016,
 		subtitle = "정말… 짓궂은 캔디네!"
-	},
-	[11017] = {
+	}
+	pg.base.dorm3d_subtitle[11017] = {
 		id = 11017,
 		subtitle = "어라? 캔디에서 비친 빛이 내 가슴에…?"
-	},
-	[11018] = {
+	}
+	pg.base.dorm3d_subtitle[11018] = {
 		id = 11018,
 		subtitle = "허니… 지금 어딜 보는 거야? ……그러면 못 써~"
-	},
-	[11019] = {
+	}
+	pg.base.dorm3d_subtitle[11019] = {
 		id = 11019,
 		subtitle = "아! 내 캔디를 노리는 거구나!"
-	},
-	[11020] = {
+	}
+	pg.base.dorm3d_subtitle[11020] = {
 		id = 11020,
 		subtitle = "안 돼! 내가 먼저 맛보기로 약속했잖아!"
-	},
-	[11021] = {
+	}
+	pg.base.dorm3d_subtitle[11021] = {
 		id = 11021,
 		subtitle = "앗! 허니! 빨리 맛보게 해줘!"
-	},
-	[11022] = {
+	}
+	pg.base.dorm3d_subtitle[11022] = {
 		id = 11022,
 		subtitle = "음~ 허니가 고른 맛이라 그런지 너무 맛있어!"
-	},
-	[11023] = {
+	}
+	pg.base.dorm3d_subtitle[11023] = {
 		id = 11023,
 		subtitle = "아……!"
-	},
-	[11024] = {
+	}
+	pg.base.dorm3d_subtitle[11024] = {
 		id = 11024,
 		subtitle = "음~ 허니가 걱정해줘서 이제 별로 안 아픈 것 같아. 보답하는 의미로 상을 줄게♥"
-	},
-	[11025] = {
+	}
+	pg.base.dorm3d_subtitle[11025] = {
 		id = 11025,
 		subtitle = "지금은… 조금 더 적극적으로 나오는 편이 좋겠지?"
-	},
-	[11026] = {
+	}
+	pg.base.dorm3d_subtitle[11026] = {
 		id = 11026,
 		subtitle = "그럼, 같이 달콤한 크리스털 맛을…… 냠~"
-	},
-	[11027] = {
+	}
+	pg.base.dorm3d_subtitle[11027] = {
 		id = 11027,
 		subtitle = "허니, 어때? 청사과 맛 탄산이야… 쪽."
-	},
-	[11028] = {
+	}
+	pg.base.dorm3d_subtitle[11028] = {
 		id = 11028,
 		subtitle = "음…… 조금만 살살~"
-	},
-	[11029] = {
+	}
+	pg.base.dorm3d_subtitle[11029] = {
 		id = 11029,
 		subtitle = "이러다 머리 부딪히겠어."
-	},
-	[11030] = {
+	}
+	pg.base.dorm3d_subtitle[11030] = {
 		id = 11030,
 		subtitle = "으으…… 아야야……"
-	},
-	[11031] = {
+	}
+	pg.base.dorm3d_subtitle[11031] = {
 		id = 11031,
 		subtitle = "간지러워~ 허니, 갑자기 그러면 반칙이야!"
-	},
-	[11040] = {
+	}
+	pg.base.dorm3d_subtitle[11040] = {
 		id = 11040,
 		subtitle = "오오! 허니, 이렇게 강했구나! ?"
-	},
-	[11041] = {
+	}
+	pg.base.dorm3d_subtitle[11041] = {
 		id = 11041,
 		subtitle = "나도 진심으로 임해야겠어!"
-	},
-	[11042] = {
+	}
+	pg.base.dorm3d_subtitle[11042] = {
 		id = 11042,
 		subtitle = "절대 질 수는 없지~!"
-	},
-	[11043] = {
+	}
+	pg.base.dorm3d_subtitle[11043] = {
 		id = 11043,
 		subtitle = "윽……! 이런, 이러다 지겠어!"
-	},
-	[11044] = {
+	}
+	pg.base.dorm3d_subtitle[11044] = {
 		id = 11044,
 		subtitle = "이기고 싶으면, 우선 날 어떻게든 해야 할 걸♪"
-	},
-	[11045] = {
+	}
+	pg.base.dorm3d_subtitle[11045] = {
 		id = 11045,
 		subtitle = "기다려, 지금 따라잡을 테니까!"
-	},
-	[11046] = {
+	}
+	pg.base.dorm3d_subtitle[11046] = {
 		id = 11046,
 		subtitle = "허니, 날 상대로 정말 페어플레이를 추구하려는 거야?"
-	},
-	[11047] = {
+	}
+	pg.base.dorm3d_subtitle[11047] = {
 		id = 11047,
 		subtitle = "어? 더 열심히 하겠다고? ! 아, 안 돼~! 조금만 더하면 내가 이기는데!"
-	},
-	[11048] = {
+	}
+	pg.base.dorm3d_subtitle[11048] = {
 		id = 11048,
 		subtitle = "아하하, 그렇게 무리하지는 마~"
-	},
-	[11049] = {
+	}
+	pg.base.dorm3d_subtitle[11049] = {
 		id = 11049,
 		subtitle = "나도 허니한테 한번쯤은 이기고 싶단 말이야!"
-	},
-	[11050] = {
+	}
+	pg.base.dorm3d_subtitle[11050] = {
 		id = 11050,
 		subtitle = "안 돼, 허니."
-	},
-	[11051] = {
+	}
+	pg.base.dorm3d_subtitle[11051] = {
 		id = 11051,
 		subtitle = "반칙 기술은…… 나만 쓸 수 있는 거야♡"
-	},
-	[11052] = {
+	}
+	pg.base.dorm3d_subtitle[11052] = {
 		id = 11052,
 		subtitle = "어? 머리카락이 끼었어…?"
-	},
-	[11053] = {
+	}
+	pg.base.dorm3d_subtitle[11053] = {
 		id = 11053,
 		subtitle = "읏… 후훗, 내 집중력을 흐트리려고 해도 소용없어!"
-	},
-	[11054] = {
+	}
+	pg.base.dorm3d_subtitle[11054] = {
 		id = 11054,
 		subtitle = "앗! ? 허니, 치사하게 기습을…!"
-	},
-	[11055] = {
+	}
+	pg.base.dorm3d_subtitle[11055] = {
 		id = 11055,
 		subtitle = "……뭐, 됐어~ 허니라면 반칙해도 봐줄 수 있을 것 같기도……"
-	},
-	[11056] = {
+	}
+	pg.base.dorm3d_subtitle[11056] = {
 		id = 11056,
 		subtitle = "비장의 수를 쓰는 수밖에……"
-	},
-	[12001] = {
+	}
+	pg.base.dorm3d_subtitle[12001] = {
 		id = 12001,
 		subtitle = "그 누구도! 지휘관님과 다이호를! 방해하게 두지 않아요! ……이 문은 이제 두 번 다시 열리지 않을 거예요… 후후후……"
-	},
-	[12002] = {
+	}
+	pg.base.dorm3d_subtitle[12002] = {
 		id = 12002,
 		subtitle = "후후, 지휘관님~ 이건 자물쇠가 고장 나 있어서, 다이호가 열심히 고치고 있던 거랍니다."
-	},
-	[12003] = {
+	}
+	pg.base.dorm3d_subtitle[12003] = {
 		id = 12003,
 		subtitle = "아무튼 지휘관님과 둘만 있는 이 공간은 무척이나 안전해요♪"
-	},
-	[12004] = {
+	}
+	pg.base.dorm3d_subtitle[12004] = {
 		id = 12004,
 		subtitle = "이제는 지휘관님도 다이호에게서 떨어질 수 없을 거예요♥"
-	},
-	[12005] = {
+	}
+	pg.base.dorm3d_subtitle[12005] = {
 		id = 12005,
 		subtitle = "다이호도… 가지고 있답니다?"
-	},
-	[12006] = {
+	}
+	pg.base.dorm3d_subtitle[12006] = {
 		id = 12006,
 		subtitle = "지휘관님은 다이호만 보고 계시면 돼요…… 다이호가 반드시 그 아이들은 없애줄……"
-	},
-	[12007] = {
+	}
+	pg.base.dorm3d_subtitle[12007] = {
 		id = 12007,
 		subtitle = "음? 으음…… 다이호만 바라봐 주세요… 지휘관님은 다이호만의 것이니까요…… 쿨쿨……"
-	},
-	[12008] = {
+	}
+	pg.base.dorm3d_subtitle[12008] = {
 		id = 12008,
 		subtitle = "……으음……"
-	},
-	[12009] = {
+	}
+	pg.base.dorm3d_subtitle[12009] = {
 		id = 12009,
 		subtitle = "아아…… 지휘관님……"
-	},
-	[12010] = {
+	}
+	pg.base.dorm3d_subtitle[12010] = {
 		id = 12010,
 		subtitle = "다이호, 지휘관님이 쓰셨던 컵을 꼭 갖고 싶어서…… 그래서…"
-	},
-	[12011] = {
+	}
+	pg.base.dorm3d_subtitle[12011] = {
 		id = 12011,
 		subtitle = "아니에요… 지휘관님이 여기 계셨으면 「간접 키스」 같은 건 전혀 필요 없었을 텐데요."
-	},
-	[12021] = {
+	}
+	pg.base.dorm3d_subtitle[12021] = {
 		id = 12021,
 		subtitle = "응? 꺄아아악—!"
-	},
-	[12022] = {
+	}
+	pg.base.dorm3d_subtitle[12022] = {
 		id = 12022,
 		subtitle = "으아… 큰일났어요… 지휘관님~ 다이호 좀 도와 주세요~!"
-	},
-	[12023] = {
+	}
+	pg.base.dorm3d_subtitle[12023] = {
 		id = 12023,
 		subtitle = "지휘관님! 살려주세요—!"
-	},
-	[12024] = {
+	}
+	pg.base.dorm3d_subtitle[12024] = {
 		id = 12024,
 		subtitle = "지휘관님… 후후… 어때요~? 꽤 놀랐죠~?"
-	},
-	[12025] = {
+	}
+	pg.base.dorm3d_subtitle[12025] = {
 		id = 12025,
 		subtitle = "아앙~♪ 지휘관님, 이런 거 좋아하시죠?"
-	},
-	[12026] = {
+	}
+	pg.base.dorm3d_subtitle[12026] = {
 		id = 12026,
 		subtitle = "좋으시면 더, 더, 가까이 와 주세요~♡"
-	},
-	[12027] = {
+	}
+	pg.base.dorm3d_subtitle[12027] = {
 		id = 12027,
 		subtitle = "사실… 실수로 손목이 묶여 버려서… 아무리 해도 못 풀겠어요♡"
-	},
-	[12028] = {
+	}
+	pg.base.dorm3d_subtitle[12028] = {
 		id = 12028,
 		subtitle = "지휘관님, 다이호의 손 좀 봐 주실래요~?"
-	},
-	[12029] = {
+	}
+	pg.base.dorm3d_subtitle[12029] = {
 		id = 12029,
 		subtitle = "하지만 그 전에… 열쇠부터 찾아야겠네요~♡"
-	},
-	[12030] = {
+	}
+	pg.base.dorm3d_subtitle[12030] = {
 		id = 12030,
 		subtitle = "어머… 지휘관님도 참…♡"
-	},
-	[12031] = {
+	}
+	pg.base.dorm3d_subtitle[12031] = {
 		id = 12031,
 		subtitle = "지휘관님~ 설마 그렇진 않겠죠~"
-	},
-	[12032] = {
+	}
+	pg.base.dorm3d_subtitle[12032] = {
 		id = 12032,
 		subtitle = "후후♪ 다이호, 지휘관님의 취향을 알아 버린 것 같아요~"
-	},
-	[12033] = {
+	}
+	pg.base.dorm3d_subtitle[12033] = {
 		id = 12033,
 		subtitle = "다이호는 언제든 준비되어 있답니다~"
-	},
-	[12034] = {
+	}
+	pg.base.dorm3d_subtitle[12034] = {
 		id = 12034,
 		subtitle = "지휘관님도 기대하고 계시죠? 후후♡"
-	},
-	[12035] = {
+	}
+	pg.base.dorm3d_subtitle[12035] = {
 		id = 12035,
 		subtitle = "다이호 엉덩이 밑에 숨겨져 있다니~"
-	},
-	[12036] = {
+	}
+	pg.base.dorm3d_subtitle[12036] = {
 		id = 12036,
 		subtitle = "지휘관님… 그거 아세요?"
-	},
-	[12037] = {
+	}
+	pg.base.dorm3d_subtitle[12037] = {
 		id = 12037,
 		subtitle = "다이호가 진짜로 붙잡고 싶은 건… 바로 지휘관님 자신이라는 걸요~♥"
-	},
-	[14001] = {
+	}
+	pg.base.dorm3d_subtitle[14001] = {
 		id = 14001,
 		subtitle = "그래, 같이…… 이 소중한 오후 시간을 같이 즐기자고."
-	},
-	[14002] = {
+	}
+	pg.base.dorm3d_subtitle[14002] = {
 		id = 14002,
 		subtitle = "으음…… 음? 조금만 더……"
-	},
-	[14003] = {
+	}
+	pg.base.dorm3d_subtitle[14003] = {
 		id = 14003,
 		subtitle = "있잖아, 모처럼 왔는데 그게 다야……?"
-	},
-	[14004] = {
+	}
+	pg.base.dorm3d_subtitle[14004] = {
 		id = 14004,
 		subtitle = "뭐? 담요? 너 말이야……"
-	},
-	[14005] = {
+	}
+	pg.base.dorm3d_subtitle[14005] = {
 		id = 14005,
 		subtitle = "여기, 이미 충분히 따뜻하지 않아?"
-	},
-	[14006] = {
+	}
+	pg.base.dorm3d_subtitle[14006] = {
 		id = 14006,
 		subtitle = "그래도 걱정되면… 차라리…"
-	},
-	[14007] = {
+	}
+	pg.base.dorm3d_subtitle[14007] = {
 		id = 14007,
 		subtitle = "정말… 왜 하필 이렇게 손이 안 닿는 곳에…!"
-	},
-	[14008] = {
+	}
+	pg.base.dorm3d_subtitle[14008] = {
 		id = 14008,
 		subtitle = "앗?! 어, 언제부터 거기 있었어……?"
-	},
-	[14009] = {
+	}
+	pg.base.dorm3d_subtitle[14009] = {
 		id = 14009,
 		subtitle = "잠깐, 그건…… 당장 내놔!"
-	},
-	[14010] = {
+	}
+	pg.base.dorm3d_subtitle[14010] = {
 		id = 14010,
 		subtitle = "꺅?!"
-	},
-	[14011] = {
+	}
+	pg.base.dorm3d_subtitle[14011] = {
 		id = 14011,
 		subtitle = "지휘관? 정신 차려!"
-	},
-	[14012] = {
+	}
+	pg.base.dorm3d_subtitle[14012] = {
 		id = 14012,
 		subtitle = "마침 잘 왔어. 머리 좀 빗겨줄래?"
-	},
-	[14013] = {
+	}
+	pg.base.dorm3d_subtitle[14013] = {
 		id = 14013,
 		subtitle = "부드럽게 해. 만약 날 만족시키지 못하면……"
-	},
-	[14014] = {
+	}
+	pg.base.dorm3d_subtitle[14014] = {
 		id = 14014,
 		subtitle = "벌을 내릴 거야."
-	},
-	[14015] = {
+	}
+	pg.base.dorm3d_subtitle[14015] = {
 		id = 14015,
 		subtitle = "반대로 날 즐겁게 해준다면……"
-	},
-	[14016] = {
+	}
+	pg.base.dorm3d_subtitle[14016] = {
 		id = 14016,
 		subtitle = "그에 걸맞는 보상을 내려주지."
-	},
-	[14021] = {
+	}
+	pg.base.dorm3d_subtitle[14021] = {
 		id = 14021,
 		subtitle = "자, 어서 시작해."
-	},
-	[14022] = {
+	}
+	pg.base.dorm3d_subtitle[14022] = {
 		id = 14022,
 		subtitle = "음~ 캬아!"
-	},
-	[14023] = {
+	}
+	pg.base.dorm3d_subtitle[14023] = {
 		id = 14023,
 		subtitle = "지휘관? 이런 귀한 걸 두고 뭐하는 거야? 더 제대로 즐겨야지♪"
-	},
-	[14024] = {
+	}
+	pg.base.dorm3d_subtitle[14024] = {
 		id = 14024,
 		subtitle = "취했다고? 후후후… 지휘관은 어떤데?"
-	},
-	[14025] = {
+	}
+	pg.base.dorm3d_subtitle[14025] = {
 		id = 14025,
 		subtitle = "이 술은 말이지, 취기가 돌기 시작할 때부터 맛이 깊어지거든."
-	},
-	[14026] = {
+	}
+	pg.base.dorm3d_subtitle[14026] = {
 		id = 14026,
 		subtitle = "아직 덜 취했으면, 내가 좀 도와줄까? ……쪽."
-	},
-	[14027] = {
+	}
+	pg.base.dorm3d_subtitle[14027] = {
 		id = 14027,
 		subtitle = "어때? 이제 좀 즐거워졌어?"
-	},
-	[14028] = {
+	}
+	pg.base.dorm3d_subtitle[14028] = {
 		id = 14028,
 		subtitle = "자, 손 좀 줘 봐……"
-	},
-	[14029] = {
+	}
+	pg.base.dorm3d_subtitle[14029] = {
 		id = 14029,
 		subtitle = "네 얼굴…… 나만큼이나 뜨거워진 것 같은데?"
-	},
-	[14030] = {
+	}
+	pg.base.dorm3d_subtitle[14030] = {
 		id = 14030,
 		subtitle = "흐음… 기분 탓인가? 너, 왠지 갑자기…… 달아오른 것 같은데."
-	},
-	[14031] = {
+	}
+	pg.base.dorm3d_subtitle[14031] = {
 		id = 14031,
 		subtitle = "방금 게 마지막 잔이었어? 그럼 또 새로 하나 따야겠네……"
-	},
-	[14032] = {
+	}
+	pg.base.dorm3d_subtitle[14032] = {
 		id = 14032,
 		subtitle = "꽤 훌륭한 빈티지라 그런지… 맛이 끝내주네……"
-	},
-	[14033] = {
+	}
+	pg.base.dorm3d_subtitle[14033] = {
 		id = 14033,
 		subtitle = "지휘관, 아무리 그래도 지금쯤이면… 조금은 취했겠지?"
-	},
-	[14034] = {
+	}
+	pg.base.dorm3d_subtitle[14034] = {
 		id = 14034,
 		subtitle = "뭐? 그런 것 같기도…?"
-	},
-	[14035] = {
+	}
+	pg.base.dorm3d_subtitle[14035] = {
 		id = 14035,
 		subtitle = "정말… 사람을 자극하는 데 소질이 있다니까."
-	},
-	[14036] = {
+	}
+	pg.base.dorm3d_subtitle[14036] = {
 		id = 14036,
 		subtitle = "지휘관, 술 향기로도 취할 것 같지 않아?"
-	},
-	[14037] = {
+	}
+	pg.base.dorm3d_subtitle[14037] = {
 		id = 14037,
 		subtitle = "봐… 어때? 아주 농후하고 향도 깊지?"
-	},
-	[14038] = {
+	}
+	pg.base.dorm3d_subtitle[14038] = {
 		id = 14038,
 		subtitle = "입에 머금으면 또 훌륭한 맛이야."
-	},
-	[14039] = {
+	}
+	pg.base.dorm3d_subtitle[14039] = {
 		id = 14039,
 		subtitle = "자, 이번에는 네가 따라줄 차례야."
-	},
-	[14040] = {
+	}
+end)()
+(function ()
+	pg.base.dorm3d_subtitle[14040] = {
 		id = 14040,
 		subtitle = "우선 제대로 잡아."
-	},
-	[14041] = {
+	}
+	pg.base.dorm3d_subtitle[14041] = {
 		id = 14041,
 		subtitle = "흥, 정말 해줄 줄이야…"
-	},
-	[14042] = {
+	}
+	pg.base.dorm3d_subtitle[14042] = {
 		id = 14042,
 		subtitle = "으으…… 조금 어지럽네……"
-	},
-	[14043] = {
+	}
+	pg.base.dorm3d_subtitle[14043] = {
 		id = 14043,
 		subtitle = "나 원 참…… 하필이면 이런 타이밍에……"
-	},
-	[14044] = {
+	}
+	pg.base.dorm3d_subtitle[14044] = {
 		id = 14044,
 		subtitle = "이, 이렇게 됐으니… 제대로 책임지고 말끔히 비우도록 해."
-	},
-	[14045] = {
+	}
+	pg.base.dorm3d_subtitle[14045] = {
 		id = 14045,
 		subtitle = "후후후, 그러면 더 취하겠지."
-	},
-	[14046] = {
+	}
+	pg.base.dorm3d_subtitle[14046] = {
 		id = 14046,
 		subtitle = "후후, 지휘관… 방금 거 최고였지?"
-	},
-	[14047] = {
+	}
+	pg.base.dorm3d_subtitle[14047] = {
 		id = 14047,
 		subtitle = "극상의 맛이 뭔지… 이제 알겠어?"
 	}
-}
+	pg.base.dorm3d_subtitle[12038] = {
+		id = 12038,
+		subtitle = "자, 지휘관님…… 새로운 파자마를 보여드릴게요~"
+	}
+	pg.base.dorm3d_subtitle[12039] = {
+		id = 12039,
+		subtitle = "파자마를 보여드리기 전에, 그 파자마를 입을 다이호에 대해 좀 더 아셔야 해요♪"
+	}
+	pg.base.dorm3d_subtitle[12040] = {
+		id = 12040,
+		subtitle = "그게 맞겠죠?"
+	}
+	pg.base.dorm3d_subtitle[12041] = {
+		id = 12041,
+		subtitle = "후후…… 지휘관님도 이 광경이 아주 만족스러우신 모양이네요~"
+	}
+	pg.base.dorm3d_subtitle[12042] = {
+		id = 12042,
+		subtitle = "낡은 것은 벗어 던지고…… 지휘관님 앞에서 직접…… 새로운 것으로 승화시켜서……"
+	}
+	pg.base.dorm3d_subtitle[12043] = {
+		id = 12043,
+		subtitle = "후후후, 걱정하실 거 없답니다~ 문은 이미 단단히 걸어 잠갔으니까요~"
+	}
+	pg.base.dorm3d_subtitle[12044] = {
+		id = 12044,
+		subtitle = "비밀스러운 사랑의 보금자리에서…… 의식의 다음 단계를 진행할까요?"
+	}
+	pg.base.dorm3d_subtitle[12045] = {
+		id = 12045,
+		subtitle = "꺄악……?!"
+	}
+	pg.base.dorm3d_subtitle[12046] = {
+		id = 12046,
+		subtitle = "아앙…… 오늘 지휘관님은 평소보다 더 적극적이시네요♥"
+	}
+	pg.base.dorm3d_subtitle[12047] = {
+		id = 12047,
+		subtitle = "그렇다면 다이호도 제대로 응해드려야겠지요~"
+	}
+	pg.base.dorm3d_subtitle[12048] = {
+		id = 12048,
+		subtitle = "지휘관님, 좀 더 대담해지셔도 좋답니다~"
+	}
+	pg.base.dorm3d_subtitle[12049] = {
+		id = 12049,
+		subtitle = "이 다이호가 지휘관님의 모든 것을 받아들일게요♥"
+	}
+	pg.base.dorm3d_subtitle[12050] = {
+		id = 12050,
+		subtitle = "후후, 지휘관님의 얼굴……"
+	}
+	pg.base.dorm3d_subtitle[12051] = {
+		id = 12051,
+		subtitle = "다이호를 마음껏 예뻐해 주고 싶으신 거죠?"
+	}
+	pg.base.dorm3d_subtitle[12052] = {
+		id = 12052,
+		subtitle = "후후후…… 드디어 의식도 가장 중요한 대목에 접어들었네요~"
+	}
+	pg.base.dorm3d_subtitle[12053] = {
+		id = 12053,
+		subtitle = "군침도는, 적극적인 지휘관님을 다이호가 가지는…"
+	}
+	pg.base.dorm3d_subtitle[12054] = {
+		id = 12054,
+		subtitle = "지휘관님, 이제는 도망칠 수 없답니다."
+	}
+	pg.base.dorm3d_subtitle[12055] = {
+		id = 12055,
+		subtitle = "오늘 밤도…… 잘 부탁드릴게요♥"
+	}
+end)()

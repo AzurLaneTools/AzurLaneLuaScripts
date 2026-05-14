@@ -684,14 +684,6 @@ slot0.GetFlagShip = function(slot0)
 	return (not slot1:IsOpenRandomFlagShip() or slot0:GetRandomFlagShip(slot2)) and slot0:GetNativeFlagShip(slot2)
 end
 
-slot0.GetCurrentFlagShip = function(slot0)
-	slot1 = getProxy(SettingsProxy)
-	slot2 = slot1:getCurrentSecretaryIndex()
-	slot3 = nil
-
-	return (not slot1:IsOpenRandomFlagShip() or slot0:GetRandomFlagShip(slot2)) and slot0:GetNativeFlagShip(slot2, true)
-end
-
 slot5 = function(slot0)
 	slot1 = {}
 	slot2 = {}
@@ -724,36 +716,37 @@ slot5 = function(slot0)
 	return slot1, slot2
 end
 
-slot0.GetNativeFlagShip = function(slot0, slot1, slot2)
-	slot3, slot4 = uv0(slot0:GetShipPhantomMarks())
-	slot5 = getProxy(SettingsProxy)
+slot0.GetNativeFlagShip = function(slot0, slot1)
+	slot2, slot3 = uv0(slot0:GetShipPhantomMarks())
+	slot4 = getProxy(SettingsProxy)
 
-	if getProxy(PlayerProxy):getFlag("battle") and not slot2 then
-		slot6 = math.random(#slot4)
-		slot1 = slot4[slot6]
+	if getProxy(PlayerProxy):getFlag("random_skin") then
+		slot5 = math.random(#slot3)
+		slot1 = slot3[slot5]
 
-		slot5:setCurrentSecretaryIndex(slot6)
+		slot4:setCurrentSecretaryIndex(slot5)
+		getProxy(PlayerProxy):setFlag("random_skin", false)
 	end
 
-	if not slot3[slot1] and table.indexof(PlayerVitaeShipsPage.GetSlotIndexList(), slot1) and slot8 > 0 then
-		for slot12 = slot8 + 1, #slot7 do
-			if slot3[slot7[slot12]] then
-				slot5:setCurrentSecretaryIndex(slot12)
+	if not slot2[slot1] and table.indexof(PlayerVitaeShipsPage.GetSlotIndexList(), slot1) and slot7 > 0 then
+		for slot11 = slot7 + 1, #slot6 do
+			if slot2[slot6[slot11]] then
+				slot4:setCurrentSecretaryIndex(slot11)
 
 				break
 			end
 		end
 	end
 
-	if not slot6 then
+	if not slot5 then
 		slot1 = 1
 
-		slot5:setCurrentSecretaryIndex(slot1)
+		slot4:setCurrentSecretaryIndex(slot1)
 
-		slot6 = slot3[slot1]
+		slot5 = slot2[slot1]
 	end
 
-	return slot6
+	return slot5
 end
 
 slot0.GetRandomFlagShip = function(slot0, slot1)

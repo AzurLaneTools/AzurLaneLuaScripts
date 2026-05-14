@@ -1,6 +1,18 @@
 pg = pg or {}
-pg.dorm_data_template = {
-	{
+pg.dorm_data_template = rawget(pg, "dorm_data_template") or setmetatable({
+	__name = "dorm_data_template"
+}, confNEO)
+pg.dorm_data_template.all = {
+	1,
+	2,
+	3,
+	4
+}
+pg.base = pg.base or {}
+pg.base.dorm_data_template = {}
+
+(function ()
+	pg.base.dorm_data_template[1] = {
 		training_ship_number = 6,
 		name = "숙소 Lv.1",
 		time = 15,
@@ -48,8 +60,8 @@ pg.dorm_data_template = {
 				8
 			}
 		}
-	},
-	{
+	}
+	pg.base.dorm_data_template[2] = {
 		training_ship_number = 6,
 		name = "숙소 Lv.2",
 		time = 15,
@@ -97,8 +109,8 @@ pg.dorm_data_template = {
 				10
 			}
 		}
-	},
-	{
+	}
+	pg.base.dorm_data_template[3] = {
 		training_ship_number = 6,
 		name = "숙소 Lv.3",
 		time = 15,
@@ -146,8 +158,8 @@ pg.dorm_data_template = {
 				12
 			}
 		}
-	},
-	{
+	}
+	pg.base.dorm_data_template[4] = {
 		training_ship_number = 6,
 		name = "숙소 Lv.4",
 		time = 15,
@@ -195,11 +207,5 @@ pg.dorm_data_template = {
 				15
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4
 	}
-}
+end)()

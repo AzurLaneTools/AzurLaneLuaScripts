@@ -1,6 +1,15 @@
 pg = pg or {}
-pg.activity_event_pt_consume = {
-	{
+pg.activity_event_pt_consume = rawget(pg, "activity_event_pt_consume") or setmetatable({
+	__name = "activity_event_pt_consume"
+}, confNEO)
+pg.activity_event_pt_consume.all = {
+	1
+}
+pg.base = pg.base or {}
+pg.base.activity_event_pt_consume = {}
+
+(function ()
+	pg.base.activity_event_pt_consume[1] = {
 		id = 1,
 		pt = 59507,
 		target = {
@@ -119,8 +128,5 @@ pg.activity_event_pt_consume = {
 				1
 			}
 		}
-	},
-	all = {
-		1
 	}
-}
+end)()

@@ -1,6 +1,96 @@
 pg = pg or {}
-pg.activity_dreamland_explore = {
+pg.activity_dreamland_explore = rawget(pg, "activity_dreamland_explore") or setmetatable({
+	__name = "activity_dreamland_explore"
+}, confNEO)
+pg.activity_dreamland_explore.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	27,
+	28,
+	29
+}
+pg.activity_dreamland_explore.get_id_list_by_group = {
 	{
+		1,
+		2,
+		3
+	},
+	{
+		4
+	},
+	{
+		5,
+		6,
+		7
+	},
+	{
+		8,
+		9,
+		10,
+		11,
+		12,
+		13
+	},
+	{
+		14,
+		15,
+		16
+	},
+	{
+		17
+	},
+	{
+		18,
+		19,
+		20
+	},
+	{
+		21,
+		22
+	},
+	{
+		23,
+		24,
+		25
+	},
+	{
+		27
+	},
+	{
+		28
+	},
+	{
+		29
+	}
+}
+pg.base = pg.base or {}
+pg.base.activity_dreamland_explore = {}
+
+(function ()
+	pg.base.activity_dreamland_explore[1] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 1,
@@ -29,8 +119,8 @@ pg.activity_dreamland_explore = {
 				"왜 굳이 이렇게 만든 건지, 도무지 알 수가 없다…"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[2] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 1,
@@ -59,8 +149,8 @@ pg.activity_dreamland_explore = {
 				"왜 굳이 이렇게 만든 건지, 도무지 알 수가 없다…"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[3] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 1,
@@ -89,8 +179,8 @@ pg.activity_dreamland_explore = {
 				"왜 굳이 이렇게 만든 건지, 도무지 알 수가 없다…"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[4] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 2,
@@ -121,8 +211,8 @@ pg.activity_dreamland_explore = {
 				"아마기는 그렇게 내게 설명했다."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[5] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 3,
@@ -144,8 +234,8 @@ pg.activity_dreamland_explore = {
 				"지나가던 리버풀은 다채로운 빛을 반사하는 분수를 보고 「분명 류호 씨의 소원이 이루어진다는 징조야」라며 잔뜩 흥분해서 말했다."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[6] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 3,
@@ -167,8 +257,8 @@ pg.activity_dreamland_explore = {
 				"지나가던 리버풀은 다채로운 빛을 반사하는 분수를 보고 「분명 류호 씨의 소원이 이루어진다는 징조야」라며 잔뜩 흥분해서 말했다."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[7] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 3,
@@ -190,8 +280,8 @@ pg.activity_dreamland_explore = {
 				"지나가던 리버풀은 다채로운 빛을 반사하는 분수를 보고 「분명 류호 씨의 소원이 이루어진다는 징조야」라며 잔뜩 흥분해서 말했다."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[8] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 4,
@@ -224,8 +314,8 @@ pg.activity_dreamland_explore = {
 				"뭐… 꿈이니 마음대로 하게 내버려두자."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[9] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 4,
@@ -258,8 +348,8 @@ pg.activity_dreamland_explore = {
 				"뭐… 꿈이니 마음대로 하게 내버려두자."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[10] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 4,
@@ -292,8 +382,8 @@ pg.activity_dreamland_explore = {
 				"뭐… 꿈이니 마음대로 하게 내버려두자."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[11] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 4,
@@ -326,8 +416,8 @@ pg.activity_dreamland_explore = {
 				"뭐… 꿈이니 마음대로 하게 내버려두자."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[12] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 4,
@@ -360,8 +450,8 @@ pg.activity_dreamland_explore = {
 				"뭐… 꿈이니 마음대로 하게 내버려두자."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[13] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 4,
@@ -394,8 +484,8 @@ pg.activity_dreamland_explore = {
 				"뭐… 꿈이니 마음대로 하게 내버려두자."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[14] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 5,
@@ -417,8 +507,8 @@ pg.activity_dreamland_explore = {
 				"자기 풍선 때문이 아니라는 것을 깨달은 즈이호는 「짹짹♪」하고 기뻐하며, 자신의 행운 풍선을 나와 유바리에게 나누어 주었다."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[15] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 5,
@@ -440,8 +530,8 @@ pg.activity_dreamland_explore = {
 				"자기 풍선 때문이 아니라는 것을 깨달은 즈이호는 「짹짹♪」하고 기뻐하며, 자신의 행운 풍선을 나와 유바리에게 나누어 주었다."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[16] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 5,
@@ -463,8 +553,8 @@ pg.activity_dreamland_explore = {
 				"자기 풍선 때문이 아니라는 것을 깨달은 즈이호는 「짹짹♪」하고 기뻐하며, 자신의 행운 풍선을 나와 유바리에게 나누어 주었다."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[17] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 6,
@@ -493,8 +583,8 @@ pg.activity_dreamland_explore = {
 				"다 같이 열심히 찾았지만 유령의 흔적은 결국 발견하지 못했다."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[18] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 7,
@@ -523,8 +613,8 @@ pg.activity_dreamland_explore = {
 				"대체 얼마나 많이 발랐길래…? "
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[19] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 7,
@@ -553,8 +643,8 @@ pg.activity_dreamland_explore = {
 				"대체 얼마나 많이 발랐길래…? "
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[20] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 7,
@@ -583,8 +673,8 @@ pg.activity_dreamland_explore = {
 				"대체 얼마나 많이 발랐길래…? "
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[21] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 8,
@@ -614,8 +704,8 @@ pg.activity_dreamland_explore = {
 				"알프레도는 풀이 죽었지만, 그래도 끝까지 도전한 그 정신은 칭찬받아 마땅하다."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[22] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 8,
@@ -644,8 +734,8 @@ pg.activity_dreamland_explore = {
 				"알프레도는 풀이 죽었지만, 그래도 끝까지 도전한 그 정신은 칭찬받아 마땅하다."
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[23] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 9,
@@ -667,8 +757,8 @@ pg.activity_dreamland_explore = {
 				"……공포영화를 너무 많이 본 탓 아닐까? "
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[24] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 9,
@@ -690,8 +780,8 @@ pg.activity_dreamland_explore = {
 				"……공포영화를 너무 많이 본 탓 아닐까? "
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_dreamland_explore[25] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 9,
@@ -713,8 +803,8 @@ pg.activity_dreamland_explore = {
 				"……공포영화를 너무 많이 본 탓 아닐까? "
 			}
 		}
-	},
-	[27] = {
+	}
+	pg.base.activity_dreamland_explore[27] = {
 		tip_special_effect = "",
 		type = 2,
 		group = 10,
@@ -747,8 +837,8 @@ pg.activity_dreamland_explore = {
 				""
 			}
 		}
-	},
-	[28] = {
+	}
+	pg.base.activity_dreamland_explore[28] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 11,
@@ -770,8 +860,8 @@ pg.activity_dreamland_explore = {
 				"그녀가 가리키는 방향을 봤지만, 내 눈에는 아무것도 보이지 않았다."
 			}
 		}
-	},
-	[29] = {
+	}
+	pg.base.activity_dreamland_explore[29] = {
 		tip_special_effect = "",
 		type = 1,
 		group = 12,
@@ -800,89 +890,5 @@ pg.activity_dreamland_explore = {
 				"하지만 아마기 말에 따르면 단순한 정전기에 불과한 듯하다."
 			}
 		}
-	},
-	get_id_list_by_group = {
-		{
-			1,
-			2,
-			3
-		},
-		{
-			4
-		},
-		{
-			5,
-			6,
-			7
-		},
-		{
-			8,
-			9,
-			10,
-			11,
-			12,
-			13
-		},
-		{
-			14,
-			15,
-			16
-		},
-		{
-			17
-		},
-		{
-			18,
-			19,
-			20
-		},
-		{
-			21,
-			22
-		},
-		{
-			23,
-			24,
-			25
-		},
-		{
-			27
-		},
-		{
-			28
-		},
-		{
-			29
-		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		27,
-		28,
-		29
 	}
-}
+end)()

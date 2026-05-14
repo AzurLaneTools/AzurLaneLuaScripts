@@ -1,6 +1,34 @@
 pg = pg or {}
-pg.activity_town_collection_2 = {
-	{
+pg.activity_town_collection_2 = rawget(pg, "activity_town_collection_2") or setmetatable({
+	__name = "activity_town_collection_2"
+}, confNEO)
+pg.activity_town_collection_2.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20
+}
+pg.base = pg.base or {}
+pg.base.activity_town_collection_2 = {}
+
+(function ()
+	pg.base.activity_town_collection_2[1] = {
 		id = 1,
 		name = "가득한 봄기운",
 		type = 1,
@@ -11,8 +39,8 @@ pg.activity_town_collection_2 = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[2] = {
 		id = 2,
 		name = "여관 잠입 작전",
 		type = 1,
@@ -23,8 +51,8 @@ pg.activity_town_collection_2 = {
 			0,
 			3
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[3] = {
 		id = 3,
 		name = "테스트는 할 거면 제대로",
 		type = 1,
@@ -35,8 +63,8 @@ pg.activity_town_collection_2 = {
 			0,
 			6
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[4] = {
 		id = 4,
 		name = "기초 기능 수정 로그",
 		type = 1,
@@ -47,8 +75,8 @@ pg.activity_town_collection_2 = {
 			0,
 			9
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[5] = {
 		id = 5,
 		name = "에필로그",
 		type = 1,
@@ -59,8 +87,8 @@ pg.activity_town_collection_2 = {
 			0,
 			12
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[6] = {
 		id = 6,
 		name = "도장 깨기! ? 요리 대결!",
 		type = 2,
@@ -71,8 +99,8 @@ pg.activity_town_collection_2 = {
 			1,
 			6
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[7] = {
 		id = 7,
 		name = "노림수의 대국",
 		type = 2,
@@ -83,8 +111,8 @@ pg.activity_town_collection_2 = {
 			4,
 			10
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[8] = {
 		id = 8,
 		name = "두근두근 객실",
 		type = 2,
@@ -95,8 +123,8 @@ pg.activity_town_collection_2 = {
 			3,
 			5
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[9] = {
 		id = 9,
 		name = "행운아와 행운의 잉어",
 		type = 2,
@@ -107,8 +135,8 @@ pg.activity_town_collection_2 = {
 			5,
 			6
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[10] = {
 		id = 10,
 		name = "스케치 해프닝",
 		type = 2,
@@ -119,8 +147,8 @@ pg.activity_town_collection_2 = {
 			6,
 			6
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[11] = {
 		id = 11,
 		name = "끝나지 않는 기국",
 		type = 3,
@@ -131,8 +159,8 @@ pg.activity_town_collection_2 = {
 			3,
 			3
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[12] = {
 		id = 12,
 		name = "매혹하는 심계의 춤",
 		type = 3,
@@ -143,8 +171,8 @@ pg.activity_town_collection_2 = {
 			3,
 			6
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[13] = {
 		id = 13,
 		name = "유향 머무는 잔",
 		type = 3,
@@ -155,8 +183,8 @@ pg.activity_town_collection_2 = {
 			3,
 			9
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[14] = {
 		id = 14,
 		name = "블라인드♥마작",
 		type = 3,
@@ -167,8 +195,8 @@ pg.activity_town_collection_2 = {
 			4,
 			6
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[15] = {
 		id = 15,
 		name = "봄빛 비치는 휴식",
 		type = 3,
@@ -179,8 +207,8 @@ pg.activity_town_collection_2 = {
 			6,
 			8
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[16] = {
 		id = 16,
 		name = "오조르노이의 호신술 훈련",
 		type = 3,
@@ -191,8 +219,8 @@ pg.activity_town_collection_2 = {
 			1,
 			4
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[17] = {
 		id = 17,
 		name = "서버 점검 중",
 		type = 3,
@@ -203,8 +231,8 @@ pg.activity_town_collection_2 = {
 			2,
 			8
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[18] = {
 		id = 18,
 		name = "요리사의 휴일",
 		type = 3,
@@ -215,8 +243,8 @@ pg.activity_town_collection_2 = {
 			1,
 			8
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[19] = {
 		id = 19,
 		name = "휘파람새의 흰 날개",
 		type = 3,
@@ -227,8 +255,8 @@ pg.activity_town_collection_2 = {
 			1,
 			12
 		}
-	},
-	{
+	}
+	pg.base.activity_town_collection_2[20] = {
 		id = 20,
 		name = "화등과 밤놀이",
 		type = 3,
@@ -239,27 +267,5 @@ pg.activity_town_collection_2 = {
 			5,
 			8
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20
 	}
-}
+end)()

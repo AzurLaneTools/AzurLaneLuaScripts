@@ -1,6 +1,66 @@
 pg = pg or {}
-pg.island_action = {
-	[1000] = {
+pg.island_action = rawget(pg, "island_action") or setmetatable({
+	__name = "island_action"
+}, confNEO)
+pg.island_action.all = {
+	1000,
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008,
+	1009,
+	1011,
+	1012,
+	1013,
+	1014,
+	1015,
+	1016,
+	1017,
+	1018,
+	2000,
+	2001,
+	2002,
+	2003,
+	2004
+}
+pg.island_action.get_id_list_by_type = {
+	{
+		1000,
+		1001,
+		1002,
+		1003,
+		1004,
+		1005,
+		1006,
+		1007,
+		1008,
+		1009,
+		1011,
+		1012,
+		1013,
+		1014,
+		1015,
+		1016,
+		1017,
+		1018
+	},
+	{
+		2000,
+		2001,
+		2002,
+		2003,
+		2004
+	}
+}
+pg.base = pg.base or {}
+pg.base.island_action = {}
+
+(function ()
+	pg.base.island_action[1000] = {
 		name = "인사",
 		respond_point = "",
 		type = 1,
@@ -17,8 +77,8 @@ pg.island_action = {
 			104
 		},
 		jump_page = {}
-	},
-	[1001] = {
+	}
+	pg.base.island_action[1001] = {
 		name = "작별 인사",
 		respond_point = "",
 		type = 1,
@@ -33,8 +93,8 @@ pg.island_action = {
 			101
 		},
 		jump_page = {}
-	},
-	[1002] = {
+	}
+	pg.base.island_action[1002] = {
 		name = "끄덕임",
 		respond_point = "",
 		type = 1,
@@ -50,8 +110,8 @@ pg.island_action = {
 			105
 		},
 		jump_page = {}
-	},
-	[1003] = {
+	}
+	pg.base.island_action[1003] = {
 		name = "머리 흔들기",
 		respond_point = "",
 		type = 1,
@@ -67,8 +127,8 @@ pg.island_action = {
 			207
 		},
 		jump_page = {}
-	},
-	[1004] = {
+	}
+	pg.base.island_action[1004] = {
 		name = "박수",
 		respond_point = "",
 		type = 1,
@@ -84,8 +144,8 @@ pg.island_action = {
 			105
 		},
 		jump_page = {}
-	},
-	[1005] = {
+	}
+	pg.base.island_action[1005] = {
 		name = "태양 포즈",
 		respond_point = "",
 		type = 1,
@@ -101,8 +161,8 @@ pg.island_action = {
 			207
 		},
 		jump_page = {}
-	},
-	[1006] = {
+	}
+	pg.base.island_action[1006] = {
 		name = "양손을 허리에",
 		respond_point = "",
 		type = 1,
@@ -117,8 +177,8 @@ pg.island_action = {
 			106
 		},
 		jump_page = {}
-	},
-	[1007] = {
+	}
+	pg.base.island_action[1007] = {
 		name = "인사",
 		respond_point = "",
 		type = 1,
@@ -139,8 +199,8 @@ pg.island_action = {
 				{}
 			}
 		}
-	},
-	[1008] = {
+	}
+	pg.base.island_action[1008] = {
 		name = "승리의 점프",
 		respond_point = "",
 		type = 1,
@@ -161,8 +221,8 @@ pg.island_action = {
 				{}
 			}
 		}
-	},
-	[1009] = {
+	}
+	pg.base.island_action[1009] = {
 		name = "발 구르기",
 		respond_point = "",
 		type = 1,
@@ -178,8 +238,8 @@ pg.island_action = {
 			207
 		},
 		jump_page = {}
-	},
-	[1011] = {
+	}
+	pg.base.island_action[1011] = {
 		name = "근육 자랑",
 		respond_point = "",
 		type = 1,
@@ -200,8 +260,8 @@ pg.island_action = {
 				{}
 			}
 		}
-	},
-	[1012] = {
+	}
+	pg.base.island_action[1012] = {
 		name = "춤추기",
 		respond_point = "",
 		type = 1,
@@ -217,8 +277,8 @@ pg.island_action = {
 			204
 		},
 		jump_page = {}
-	},
-	[1013] = {
+	}
+	pg.base.island_action[1013] = {
 		name = "히어로 등장",
 		respond_point = "",
 		type = 1,
@@ -239,8 +299,8 @@ pg.island_action = {
 				{}
 			}
 		}
-	},
-	[1014] = {
+	}
+	pg.base.island_action[1014] = {
 		name = "기지개",
 		respond_point = "",
 		type = 1,
@@ -260,8 +320,8 @@ pg.island_action = {
 				{}
 			}
 		}
-	},
-	[1015] = {
+	}
+	pg.base.island_action[1015] = {
 		name = "겁먹음",
 		respond_point = "",
 		type = 1,
@@ -282,8 +342,8 @@ pg.island_action = {
 				{}
 			}
 		}
-	},
-	[1016] = {
+	}
+	pg.base.island_action[1016] = {
 		name = "포권례",
 		respond_point = "",
 		type = 1,
@@ -304,8 +364,8 @@ pg.island_action = {
 				{}
 			}
 		}
-	},
-	[1017] = {
+	}
+	pg.base.island_action[1017] = {
 		name = "으쓱대기",
 		respond_point = "",
 		type = 1,
@@ -326,8 +386,8 @@ pg.island_action = {
 				{}
 			}
 		}
-	},
-	[1018] = {
+	}
+	pg.base.island_action[1018] = {
 		name = "좌선",
 		respond_point = "",
 		type = 1,
@@ -348,8 +408,8 @@ pg.island_action = {
 				{}
 			}
 		}
-	},
-	[2000] = {
+	}
+	pg.base.island_action[2000] = {
 		chara_sigle_action_reply = "",
 		name = "하이파이브",
 		type = 2,
@@ -366,8 +426,8 @@ pg.island_action = {
 			1.28364
 		},
 		jump_page = {}
-	},
-	[2001] = {
+	}
+	pg.base.island_action[2001] = {
 		chara_sigle_action_reply = "",
 		name = "악수",
 		type = 2,
@@ -389,8 +449,8 @@ pg.island_action = {
 				{}
 			}
 		}
-	},
-	[2002] = {
+	}
+	pg.base.island_action[2002] = {
 		chara_sigle_action_reply = "",
 		name = "포옹",
 		type = 2,
@@ -407,8 +467,8 @@ pg.island_action = {
 			0.62654
 		},
 		jump_page = {}
-	},
-	[2003] = {
+	}
+	pg.base.island_action[2003] = {
 		chara_sigle_action_reply = "",
 		name = "축하",
 		type = 2,
@@ -430,8 +490,8 @@ pg.island_action = {
 				{}
 			}
 		}
-	},
-	[2004] = {
+	}
+	pg.base.island_action[2004] = {
 		chara_sigle_action_reply = "",
 		name = "손하트",
 		type = 2,
@@ -453,59 +513,5 @@ pg.island_action = {
 				{}
 			}
 		}
-	},
-	get_id_list_by_type = {
-		{
-			1000,
-			1001,
-			1002,
-			1003,
-			1004,
-			1005,
-			1006,
-			1007,
-			1008,
-			1009,
-			1011,
-			1012,
-			1013,
-			1014,
-			1015,
-			1016,
-			1017,
-			1018
-		},
-		{
-			2000,
-			2001,
-			2002,
-			2003,
-			2004
-		}
-	},
-	all = {
-		1000,
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1007,
-		1008,
-		1009,
-		1011,
-		1012,
-		1013,
-		1014,
-		1015,
-		1016,
-		1017,
-		1018,
-		2000,
-		2001,
-		2002,
-		2003,
-		2004
 	}
-}
+end)()

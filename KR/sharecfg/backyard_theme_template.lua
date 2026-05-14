@@ -1,6 +1,136 @@
 pg = pg or {}
-pg.backyard_theme_template = {
-	{
+pg.backyard_theme_template = rawget(pg, "backyard_theme_template") or setmetatable({
+	__name = "backyard_theme_template"
+}, confNEO)
+pg.backyard_theme_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	8,
+	10,
+	11,
+	13,
+	14,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	27,
+	28,
+	29,
+	30,
+	33,
+	35,
+	36,
+	37,
+	38,
+	39,
+	40,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	48,
+	49,
+	50,
+	51,
+	52,
+	53,
+	54,
+	55,
+	56,
+	57,
+	58,
+	59,
+	60,
+	61,
+	62,
+	63,
+	65,
+	66,
+	69,
+	70,
+	71,
+	72,
+	73,
+	74,
+	75,
+	76,
+	77,
+	78,
+	79,
+	80,
+	81,
+	82,
+	83,
+	84,
+	85,
+	86,
+	87,
+	88,
+	89,
+	90,
+	91,
+	92,
+	93,
+	94,
+	95,
+	96,
+	97,
+	98,
+	99,
+	100,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	110,
+	111,
+	112,
+	113,
+	114,
+	115,
+	116,
+	117,
+	118,
+	119,
+	120,
+	121,
+	122,
+	123,
+	124,
+	125,
+	126,
+	127,
+	129,
+	130,
+	131,
+	132,
+	133,
+	134,
+	135,
+	136,
+	137
+}
+pg.base = pg.base or {}
+pg.base.backyard_theme_template = {}
+
+(function ()
+	pg.base.backyard_theme_template[1] = {
 		Cfg_1 = 5,
 		name = "가난뱅이 라이프",
 		desc = "가난뱅이 전용 세트. 빈털터리보단 나을지도...",
@@ -32,8 +162,8 @@ pg.backyard_theme_template = {
 			1308,
 			1309
 		}
-	},
-	{
+	}
+	pg.base.backyard_theme_template[2] = {
 		Cfg_1 = 5,
 		name = "사쿠라 엠파이어의 가을",
 		desc = "사쿠라 엠파이어 도구 세트. 유유자적하게 보내는 진수부의 가을.",
@@ -72,8 +202,8 @@ pg.backyard_theme_template = {
 			2304,
 			2305
 		}
-	},
-	{
+	}
+	pg.base.backyard_theme_template[3] = {
 		Cfg_1 = 5,
 		name = "이글 유니온의 일상",
 		desc = "이글 유니온 일상 풍 가구 세트. 편안하게 Enjoy!",
@@ -112,8 +242,8 @@ pg.backyard_theme_template = {
 			3305,
 			3306
 		}
-	},
-	{
+	}
+	pg.base.backyard_theme_template[4] = {
 		Cfg_1 = 5,
 		name = "로열 네이비의 오후",
 		desc = "로열 네이비 풍 인테리어 세트. 오후에 차 한잔하는 건 상식이라고?",
@@ -154,8 +284,8 @@ pg.backyard_theme_template = {
 			4306,
 			4307
 		}
-	},
-	{
+	}
+	pg.base.backyard_theme_template[5] = {
 		Cfg_1 = 5,
 		name = "메탈 블러드 지휘소",
 		desc = "메탈 블러드 지휘소 풍 기자재 세트. 메탈 블러드의 기술은 세계 제에이이이일!",
@@ -196,8 +326,8 @@ pg.backyard_theme_template = {
 			5306,
 			5307
 		}
-	},
-	[8] = {
+	}
+	pg.base.backyard_theme_template[8] = {
 		Cfg_1 = 5,
 		name = "메탈 블러드 와이너리",
 		desc = "이왕 왔으니까, 한잔하고 가는 게 어때.",
@@ -243,8 +373,8 @@ pg.backyard_theme_template = {
 			8306,
 			8307
 		}
-	},
-	[10] = {
+	}
+	pg.base.backyard_theme_template[10] = {
 		Cfg_1 = 5,
 		name = "이스트 글림 고풍 ",
 		desc = "동방의 나라에서 온 전통 스타일.",
@@ -302,8 +432,8 @@ pg.backyard_theme_template = {
 			10302,
 			10303
 		}
-	},
-	[11] = {
+	}
+	pg.base.backyard_theme_template[11] = {
 		Cfg_1 = 5,
 		name = "오후의 다과회",
 		desc = "지휘관에겐 말 못할 걸즈 토크를 해볼까요?",
@@ -358,8 +488,8 @@ pg.backyard_theme_template = {
 			11306,
 			11307
 		}
-	},
-	[13] = {
+	}
+	pg.base.backyard_theme_template[13] = {
 		Cfg_1 = 5,
 		name = "핼러윈",
 		desc = "Trick or Treat！",
@@ -414,8 +544,8 @@ pg.backyard_theme_template = {
 			13305,
 			13306
 		}
-	},
-	[14] = {
+	}
+	pg.base.backyard_theme_template[14] = {
 		Cfg_1 = 5,
 		name = "별들과의 만남",
 		desc = "심오한 우주에는 무수한 비밀이 숨겨져 있다.",
@@ -458,8 +588,8 @@ pg.backyard_theme_template = {
 			14303,
 			14304
 		}
-	},
-	[16] = {
+	}
+	pg.base.backyard_theme_template[16] = {
 		Cfg_1 = 5,
 		name = "크리스마스",
 		desc = "Merry Christmas!",
@@ -529,8 +659,8 @@ pg.backyard_theme_template = {
 				}
 			}
 		}
-	},
-	[17] = {
+	}
+	pg.base.backyard_theme_template[17] = {
 		Cfg_1 = 5,
 		name = "사쿠라 엠파이어의 새해",
 		desc = "새해에도 좋은 일만 있기를!",
@@ -572,8 +702,8 @@ pg.backyard_theme_template = {
 			17203,
 			17301
 		}
-	},
-	[18] = {
+	}
+	pg.base.backyard_theme_template[18] = {
 		Cfg_1 = 5,
 		name = "게임업계",
 		desc = "넵푸네푸~ 게임업계에 어서오세요!",
@@ -614,8 +744,8 @@ pg.backyard_theme_template = {
 			18305,
 			18306
 		}
-	},
-	[19] = {
+	}
+	pg.base.backyard_theme_template[19] = {
 		Cfg_1 = 5,
 		name = "근하신년",
 		desc = "새해 복 많이 받으세요!",
@@ -687,8 +817,8 @@ pg.backyard_theme_template = {
 				}
 			}
 		}
-	},
-	[20] = {
+	}
+	pg.base.backyard_theme_template[20] = {
 		Cfg_1 = 5,
 		name = "쥬쥬 파크 ",
 		desc = "쥬쥬 파크에 어서 오세요!",
@@ -721,8 +851,8 @@ pg.backyard_theme_template = {
 			20113,
 			20114
 		}
-	},
-	[21] = {
+	}
+	pg.base.backyard_theme_template[21] = {
 		Cfg_1 = 5,
 		name = "MARIAGE D'AMOUR",
 		desc = "꿈속의 결혼식!",
@@ -764,8 +894,8 @@ pg.backyard_theme_template = {
 			21301,
 			21302
 		}
-	},
-	[22] = {
+	}
+	pg.base.backyard_theme_template[22] = {
 		Cfg_1 = 5,
 		name = "어번 로열",
 		desc = "자연스레 흐르는 우아함과 기품이 바로 로열 네이비 왕도의 품격",
@@ -806,8 +936,8 @@ pg.backyard_theme_template = {
 			22304,
 			22305
 		}
-	},
-	[23] = {
+	}
+	pg.base.backyard_theme_template[23] = {
 		Cfg_1 = 5,
 		name = "쥬쥬 유치원",
 		desc = "유치원 개원! 이제 쥬쥬 수용은 걱정 없겠어!",
@@ -846,8 +976,8 @@ pg.backyard_theme_template = {
 			23306,
 			23307
 		}
-	},
-	[24] = {
+	}
+	pg.base.backyard_theme_template[24] = {
 		Cfg_1 = 5,
 		name = "고양이 카페",
 		desc = "「고양이 카페에 오신 걸 환영한다냥! 」",
@@ -894,8 +1024,8 @@ pg.backyard_theme_template = {
 			24305,
 			24306
 		}
-	},
-	[27] = {
+	}
+	pg.base.backyard_theme_template[27] = {
 		Cfg_1 = 5,
 		name = "서머 파크",
 		desc = "물놀이 하자!",
@@ -941,8 +1071,8 @@ pg.backyard_theme_template = {
 			27202,
 			27301
 		}
-	},
-	[28] = {
+	}
+	pg.base.backyard_theme_template[28] = {
 		Cfg_1 = 5,
 		name = "포레스트 가든",
 		desc = "숲 속에서의 레저 산촌생활.",
@@ -1006,8 +1136,8 @@ pg.backyard_theme_template = {
 			28306,
 			28307
 		}
-	},
-	[29] = {
+	}
+	pg.base.backyard_theme_template[29] = {
 		Cfg_1 = 5,
 		name = "딥 블루 씨",
 		desc = "깊고 푸른 바닷속에서 당신을 기다리는 것은 과연?",
@@ -1051,8 +1181,8 @@ pg.backyard_theme_template = {
 			29301,
 			29302
 		}
-	},
-	[30] = {
+	}
+	pg.base.backyard_theme_template[30] = {
 		Cfg_1 = 5,
 		name = "레인보우 헤븐",
 		desc = "멋진 레인보우 헤븐!",
@@ -1097,8 +1227,8 @@ pg.backyard_theme_template = {
 			30302,
 			30303
 		}
-	},
-	[33] = {
+	}
+	pg.base.backyard_theme_template[33] = {
 		Cfg_1 = 5,
 		name = "도깨비집의 밤 ",
 		desc = "히히히~ 도깨비들의 축제에 온 걸 환영해! ",
@@ -1145,8 +1275,8 @@ pg.backyard_theme_template = {
 			33305,
 			33306
 		}
-	},
-	[35] = {
+	}
+	pg.base.backyard_theme_template[35] = {
 		Cfg_1 = 5,
 		name = "핼러윈 나이트 ",
 		desc = "핼러윈 파크에 어서오세요! ",
@@ -1225,8 +1355,8 @@ pg.backyard_theme_template = {
 				}
 			}
 		}
-	},
-	[36] = {
+	}
+	pg.base.backyard_theme_template[36] = {
 		Cfg_1 = 5,
 		name = "칭송받는 자 콜라보레이션 ",
 		desc = "뜻하시는 대로 ",
@@ -1265,8 +1395,8 @@ pg.backyard_theme_template = {
 			36304,
 			36305
 		}
-	},
-	[37] = {
+	}
+	pg.base.backyard_theme_template[37] = {
 		Cfg_1 = 5,
 		name = "거리의 크리스마스 풍경",
 		desc = "눈 내린 상점가에서 크리스마스를 즐기자!",
@@ -1305,8 +1435,8 @@ pg.backyard_theme_template = {
 			37119,
 			37120
 		}
-	},
-	[38] = {
+	}
+	pg.base.backyard_theme_template[38] = {
 		Cfg_1 = 5,
 		name = "저돌맹진!",
 		desc = "2019년 한 해는 멧돼지처럼 힘차게 고고고~!",
@@ -1364,8 +1494,8 @@ pg.backyard_theme_template = {
 			38304,
 			38305
 		}
-	},
-	[39] = {
+	}
+	pg.base.backyard_theme_template[39] = {
 		Cfg_1 = 5,
 		name = "돼지해 페스티벌",
 		desc = "이스트 글림 풍의 전통 가구로 모항을 떠들썩하게!",
@@ -1444,8 +1574,8 @@ pg.backyard_theme_template = {
 				}
 			}
 		}
-	},
-	[40] = {
+	}
+	pg.base.backyard_theme_template[40] = {
 		Cfg_1 = 5,
 		name = "설산 홀리데이",
 		desc = "홀리데이엔 스키장에 가자구!",
@@ -1487,8 +1617,8 @@ pg.backyard_theme_template = {
 			40123,
 			40124
 		}
-	},
-	[41] = {
+	}
+	pg.base.backyard_theme_template[41] = {
 		Cfg_1 = 5,
 		name = "만쥬 랜드",
 		desc = "꿈과 환상의 나라, 만쥬 랜드에 온 여러분을 환영한다쥬!",
@@ -1523,8 +1653,8 @@ pg.backyard_theme_template = {
 			41115,
 			41116
 		}
-	},
-	[42] = {
+	}
+	pg.base.backyard_theme_template[42] = {
 		Cfg_1 = 5,
 		name = "전통 양식 ",
 		desc = "동방국가의 전통 가구, 역사가 깃들어져 있어요~ ",
@@ -1566,8 +1696,8 @@ pg.backyard_theme_template = {
 			42303,
 			42304
 		}
-	},
-	[43] = {
+	}
+	pg.base.backyard_theme_template[43] = {
 		Cfg_1 = 5,
 		name = "버츄얼 공간",
 		desc = "이렇게 하면 지휘관의 방도 버츄얼 공간이 될 수 있습니다!",
@@ -1610,8 +1740,8 @@ pg.backyard_theme_template = {
 			43304,
 			43307
 		}
-	},
-	[44] = {
+	}
+	pg.base.backyard_theme_template[44] = {
 		Cfg_1 = 5,
 		name = "비 오는 날",
 		desc = "주룩주룩~비가 와요!",
@@ -1654,8 +1784,8 @@ pg.backyard_theme_template = {
 			44301,
 			44302
 		}
-	},
-	[45] = {
+	}
+	pg.base.backyard_theme_template[45] = {
 		Cfg_1 = 5,
 		name = "메탈 블러드 악장",
 		desc = "메탈 블러드를 위한 이 아름다운 악장에 귀 기울여 들어봐요.",
@@ -1719,8 +1849,8 @@ pg.backyard_theme_template = {
 			45309,
 			45310
 		}
-	},
-	[46] = {
+	}
+	pg.base.backyard_theme_template[46] = {
 		Cfg_1 = 5,
 		name = "사이버펑크",
 		desc = "사이버 펑크 세계에 온 걸 환영해요!",
@@ -1772,8 +1902,8 @@ pg.backyard_theme_template = {
 			46304,
 			46305
 		}
-	},
-	[48] = {
+	}
+	pg.base.backyard_theme_template[48] = {
 		Cfg_1 = 5,
 		name = "사르데냐의 풍경",
 		desc = "매력적인 사르데냐의 풍경과 문화를 즐겨보세요~",
@@ -1819,8 +1949,8 @@ pg.backyard_theme_template = {
 			48302,
 			48303
 		}
-	},
-	[49] = {
+	}
+	pg.base.backyard_theme_template[49] = {
 		Cfg_1 = 5,
 		name = "모항 지휘실 ",
 		desc = "",
@@ -1866,8 +1996,8 @@ pg.backyard_theme_template = {
 			49304,
 			49305
 		}
-	},
-	[50] = {
+	}
+	pg.base.backyard_theme_template[50] = {
 		Cfg_1 = 5,
 		name = "하이웨이 투어",
 		desc = "바이크와 배낭을 준비하고 하이웨이 투어를 시작하자~",
@@ -1909,8 +2039,8 @@ pg.backyard_theme_template = {
 			50122,
 			50123
 		}
-	},
-	[51] = {
+	}
+	pg.base.backyard_theme_template[51] = {
 		Cfg_1 = 5,
 		name = "시끌벅적 야시장",
 		desc = "야시장 구경하면서 맛있는 것도 먹고 놀아봐요~",
@@ -1946,8 +2076,8 @@ pg.backyard_theme_template = {
 			51117,
 			51118
 		}
-	},
-	[52] = {
+	}
+	pg.base.backyard_theme_template[52] = {
 		Cfg_1 = 5,
 		name = "스크리밍 타운 ",
 		desc = "Happy Halloween！",
@@ -1984,8 +2114,8 @@ pg.backyard_theme_template = {
 			52117,
 			52118
 		}
-	},
-	[53] = {
+	}
+	pg.base.backyard_theme_template[53] = {
 		Cfg_1 = 5,
 		name = "격주 라이브!",
 		desc = "It's show time~",
@@ -2022,8 +2152,8 @@ pg.backyard_theme_template = {
 			53303,
 			53304
 		}
-	},
-	[54] = {
+	}
+	pg.base.backyard_theme_template[54] = {
 		Cfg_1 = 5,
 		name = "pocky联动",
 		desc = "pocky联动",
@@ -2045,8 +2175,8 @@ pg.backyard_theme_template = {
 			54104,
 			54105
 		}
-	},
-	[55] = {
+	}
+	pg.base.backyard_theme_template[55] = {
 		Cfg_1 = 5,
 		name = "hololive",
 		desc = "hololive-virtual idol project",
@@ -2102,8 +2232,8 @@ pg.backyard_theme_template = {
 			55306,
 			55307
 		}
-	},
-	[56] = {
+	}
+	pg.base.backyard_theme_template[56] = {
 		Cfg_1 = 5,
 		name = "동화 마을",
 		desc = "착한 어린이만 산타클로스에게 선물을 받을 수 있어요~",
@@ -2135,8 +2265,8 @@ pg.backyard_theme_template = {
 			56112,
 			56113
 		}
-	},
-	[57] = {
+	}
+	pg.base.backyard_theme_template[57] = {
 		Cfg_1 = 5,
 		name = "새해의 밤",
 		desc = "새로운 한 해도 평안무탈하기를.",
@@ -2172,8 +2302,8 @@ pg.backyard_theme_template = {
 			57116,
 			57117
 		}
-	},
-	[58] = {
+	}
+	pg.base.backyard_theme_template[58] = {
 		Cfg_1 = 5,
 		name = "화목한 명절!",
 		desc = "순조로운 한 해 되세요!",
@@ -2209,8 +2339,8 @@ pg.backyard_theme_template = {
 			58303,
 			58304
 		}
-	},
-	[59] = {
+	}
+	pg.base.backyard_theme_template[59] = {
 		Cfg_1 = 5,
 		name = "꿈의 시간 ",
 		desc = "너와 함께할 수만 있다면, 매일이 꿈같은 기념일일거야~ ",
@@ -2244,8 +2374,8 @@ pg.backyard_theme_template = {
 			59302,
 			59303
 		}
-	},
-	[60] = {
+	}
+	pg.base.backyard_theme_template[60] = {
 		Cfg_1 = 5,
 		name = "쥬옥풍운",
 		desc = "후후후. 탈출할 생각은 마시지!",
@@ -2291,8 +2421,8 @@ pg.backyard_theme_template = {
 			60304,
 			60305
 		}
-	},
-	[61] = {
+	}
+	pg.base.backyard_theme_template[61] = {
 		Cfg_1 = 5,
 		name = "쥬쥬 운동회",
 		desc = "청춘과 열정의 땀을 흘리자!",
@@ -2338,8 +2468,8 @@ pg.backyard_theme_template = {
 			61302,
 			61303
 		}
-	},
-	[62] = {
+	}
+	pg.base.backyard_theme_template[62] = {
 		Cfg_1 = 5,
 		name = "아이리스의 흔적",
 		desc = "조용하고 평화롭다. 이상적 생활이란 이런 것.",
@@ -2374,8 +2504,8 @@ pg.backyard_theme_template = {
 			62115,
 			62116
 		}
-	},
-	[63] = {
+	}
+	pg.base.backyard_theme_template[63] = {
 		Cfg_1 = 5,
 		name = "쥬쥬 피자헛",
 		desc = "「너무 맛있다쥬쥬! 」",
@@ -2412,8 +2542,8 @@ pg.backyard_theme_template = {
 			63303,
 			63304
 		}
-	},
-	[65] = {
+	}
+	pg.base.backyard_theme_template[65] = {
 		Cfg_1 = 5,
 		name = "화풍 정원",
 		desc = "사쿠라 엠파이어의 장인 정신이 응집된 정원. 자연의 미를 느낄 수 있다.",
@@ -2452,8 +2582,8 @@ pg.backyard_theme_template = {
 			65119,
 			65301
 		}
-	},
-	[66] = {
+	}
+	pg.base.backyard_theme_template[66] = {
 		Cfg_1 = 5,
 		name = "레이싱 패션",
 		desc = "즐겨! 야호! 난 아직도 더 달릴 수 있어!",
@@ -2493,8 +2623,8 @@ pg.backyard_theme_template = {
 			66120,
 			66121
 		}
-	},
-	[69] = {
+	}
+	pg.base.backyard_theme_template[69] = {
 		Cfg_1 = 5,
 		name = "쥬쥬 진료소",
 		desc = "환영한다쥬! 먼저 검사를 할까쥬? ",
@@ -2539,8 +2669,8 @@ pg.backyard_theme_template = {
 			69308,
 			69309
 		}
-	},
-	[70] = {
+	}
+	pg.base.backyard_theme_template[70] = {
 		Cfg_1 = 5,
 		name = "격창 라이브!",
 		desc = "우리의 노랫소리가 우주에 울려 퍼지도록!",
@@ -2575,8 +2705,8 @@ pg.backyard_theme_template = {
 			70115,
 			70116
 		}
-	},
-	[71] = {
+	}
+	pg.base.backyard_theme_template[71] = {
 		Cfg_1 = 5,
 		name = "깜짝 핼러윈",
 		desc = "핼러윈의 밤을 \"즐길\" 준비되셨나요~?",
@@ -2611,8 +2741,8 @@ pg.backyard_theme_template = {
 			71115,
 			71301
 		}
-	},
-	[72] = {
+	}
+	pg.base.backyard_theme_template[72] = {
 		Cfg_1 = 5,
 		name = "여신 바캉스",
 		desc = "함께 색다른 바캉스를 즐기자쥬!",
@@ -2654,8 +2784,8 @@ pg.backyard_theme_template = {
 			72122,
 			72123
 		}
-	},
-	[73] = {
+	}
+	pg.base.backyard_theme_template[73] = {
 		Cfg_1 = 5,
 		name = "따뜻한 성야",
 		desc = "따스하고 포근한 크리스마스 이브를 즐겨요~",
@@ -2700,8 +2830,8 @@ pg.backyard_theme_template = {
 			73304,
 			73305
 		}
-	},
-	[74] = {
+	}
+	pg.base.backyard_theme_template[74] = {
 		Cfg_1 = 5,
 		name = "새해의 눈길",
 		desc = "말하자면... 서설은 풍년이 징조다?",
@@ -2738,8 +2868,8 @@ pg.backyard_theme_template = {
 			74117,
 			74118
 		}
-	},
-	[75] = {
+	}
+	pg.base.backyard_theme_template[75] = {
 		Cfg_1 = 5,
 		name = "경하신년",
 		desc = "단란하고 시끌벅적한 새해가 또 왔다쥬~",
@@ -2775,8 +2905,8 @@ pg.backyard_theme_template = {
 			75116,
 			75301
 		}
-	},
-	[76] = {
+	}
+	pg.base.backyard_theme_template[76] = {
 		Cfg_1 = 5,
 		name = "판다 랜드",
 		desc = "같이 놀아요!",
@@ -2823,8 +2953,8 @@ pg.backyard_theme_template = {
 			76304,
 			76305
 		}
-	},
-	[77] = {
+	}
+	pg.base.backyard_theme_template[77] = {
 		Cfg_1 = 5,
 		name = "스노우 타운",
 		desc = "은빛으로 단장된 마을에서 특별한 밤을 보내요!",
@@ -2859,8 +2989,8 @@ pg.backyard_theme_template = {
 			77115,
 			77116
 		}
-	},
-	[78] = {
+	}
+	pg.base.backyard_theme_template[78] = {
 		Cfg_1 = 5,
 		name = "쥬쥬 성당",
 		desc = "사르데냐 유명 관광지——「거룩한 위광이 당신을 보우해요~」",
@@ -2894,8 +3024,8 @@ pg.backyard_theme_template = {
 			78114,
 			78115
 		}
-	},
-	[79] = {
+	}
+	pg.base.backyard_theme_template[79] = {
 		Cfg_1 = 5,
 		name = "765 사무실",
 		desc = "765 사무실에 오신 것을 환영합니다!",
@@ -2943,8 +3073,8 @@ pg.backyard_theme_template = {
 			79307,
 			79308
 		}
-	},
-	[80] = {
+	}
+	pg.base.backyard_theme_template[80] = {
 		Cfg_1 = 5,
 		name = "쥬쥬 게임바",
 		desc = "신나는 게임의 밤을 즐겨봐요~",
@@ -2977,8 +3107,8 @@ pg.backyard_theme_template = {
 			80305,
 			80306
 		}
-	},
-	[81] = {
+	}
+	pg.base.backyard_theme_template[81] = {
 		Cfg_1 = 5,
 		name = "만쥬 학교",
 		desc = "스쿨 라이프를 만끽하자쥬쥬!",
@@ -3019,8 +3149,8 @@ pg.backyard_theme_template = {
 			81305,
 			81306
 		}
-	},
-	[82] = {
+	}
+	pg.base.backyard_theme_template[82] = {
 		Cfg_1 = 5,
 		name = "웨스턴 스타일",
 		desc = "꿈, 우정, 재물. 여기는 희망찬 웨스턴 타운!",
@@ -3058,8 +3188,8 @@ pg.backyard_theme_template = {
 			82122,
 			82123
 		}
-	},
-	[83] = {
+	}
+	pg.base.backyard_theme_template[83] = {
 		Cfg_1 = 5,
 		name = "축제의 밤",
 		desc = "축제다~ 이 밤을 더욱 뜨겁게쥬!",
@@ -3091,8 +3221,8 @@ pg.backyard_theme_template = {
 			83116,
 			83117
 		}
-	},
-	[84] = {
+	}
+	pg.base.backyard_theme_template[84] = {
 		Cfg_1 = 5,
 		name = "모델 시티",
 		desc = "\"경고— 경고—— 거대 괴수 접근 중!\"",
@@ -3147,8 +3277,8 @@ pg.backyard_theme_template = {
 			84177,
 			84178
 		}
-	},
-	[85] = {
+	}
+	pg.base.backyard_theme_template[85] = {
 		Cfg_1 = 5,
 		name = "Café in 모항",
 		desc = "어서 오세요! 주문은… 원래 드시던 걸로요?",
@@ -3196,8 +3326,8 @@ pg.backyard_theme_template = {
 			85308,
 			85309
 		}
-	},
-	[86] = {
+	}
+	pg.base.backyard_theme_template[86] = {
 		Cfg_1 = 5,
 		name = "이스트 글림 정원",
 		desc = "이스트 글림 스타일의 정원 세트. 비성수기에도 대인기!",
@@ -3235,8 +3365,8 @@ pg.backyard_theme_template = {
 			86119,
 			86301
 		}
-	},
-	[87] = {
+	}
+	pg.base.backyard_theme_template[87] = {
 		Cfg_1 = 5,
 		name = "쥬쥬 학교2",
 		desc = "신학기가 시작된다쥬쥬!",
@@ -3271,8 +3401,8 @@ pg.backyard_theme_template = {
 			87130,
 			87131
 		}
-	},
-	[88] = {
+	}
+	pg.base.backyard_theme_template[88] = {
 		Cfg_1 = 5,
 		name = "뱀파이어 성",
 		desc = "크크크… 성에 온 걸 환영한다쥬쥬…",
@@ -3312,8 +3442,8 @@ pg.backyard_theme_template = {
 			88304,
 			88305
 		}
-	},
-	[89] = {
+	}
+	pg.base.backyard_theme_template[89] = {
 		Cfg_1 = 5,
 		name = "이스트 글림 모던",
 		desc = "심플하지만 궁색하지 않고, 고저스하지만 요란하지 않게",
@@ -3358,8 +3488,8 @@ pg.backyard_theme_template = {
 			89307,
 			89309
 		}
-	},
-	[90] = {
+	}
+	pg.base.backyard_theme_template[90] = {
 		Cfg_1 = 5,
 		name = "동화 속 숲",
 		desc = "환상적인 풍경으로 가득한 기묘한 숲",
@@ -3397,8 +3527,8 @@ pg.backyard_theme_template = {
 			90125,
 			90127
 		}
-	},
-	[91] = {
+	}
+	pg.base.backyard_theme_template[91] = {
 		Cfg_1 = 5,
 		name = "쥬쥬 댄스실",
 		desc = "음악에 맞춰 춤추는 거다쥬쥬!",
@@ -3447,8 +3577,8 @@ pg.backyard_theme_template = {
 			91304,
 			91305
 		}
-	},
-	[92] = {
+	}
+	pg.base.backyard_theme_template[92] = {
 		Cfg_1 = 5,
 		name = "쥬쥬 패스트푸드",
 		desc = "마음껏 맛있는 음식을 즐겨요~",
@@ -3480,8 +3610,8 @@ pg.backyard_theme_template = {
 			92307,
 			92308
 		}
-	},
-	[93] = {
+	}
+	pg.base.backyard_theme_template[93] = {
 		Cfg_1 = 5,
 		name = "시원한 한여름",
 		desc = "뜨거운 여름에는 역시 서머 파크!",
@@ -3519,8 +3649,8 @@ pg.backyard_theme_template = {
 			93119,
 			93120
 		}
-	},
-	[94] = {
+	}
+	pg.base.backyard_theme_template[94] = {
 		Cfg_1 = 5,
 		name = "쥬쥬 학교 축제",
 		desc = "즐거운 쥬쥬들의 학교 축제, 지금 개최 중!",
@@ -3560,8 +3690,8 @@ pg.backyard_theme_template = {
 			94305,
 			94306
 		}
-	},
-	[95] = {
+	}
+	pg.base.backyard_theme_template[95] = {
 		Cfg_1 = 5,
 		name = "아틀리에",
 		desc = "신비한 아틀리에에서 함께 탐구해요!",
@@ -3609,8 +3739,8 @@ pg.backyard_theme_template = {
 			95304,
 			95305
 		}
-	},
-	[96] = {
+	}
+	pg.base.backyard_theme_template[96] = {
 		Cfg_1 = 5,
 		name = "만쥬 비치 하우스",
 		desc = "만쥬 비치 하우스에서 해변을 만끽해라쥬쥬!",
@@ -3649,8 +3779,8 @@ pg.backyard_theme_template = {
 			96306,
 			96307
 		}
-	},
-	[97] = {
+	}
+	pg.base.backyard_theme_template[97] = {
 		Cfg_1 = 5,
 		name = "이스트 글림 미식 파라다이스",
 		desc = "「색,향,맛」세 박자를 갖춘 미식 파라다이스!",
@@ -3691,8 +3821,8 @@ pg.backyard_theme_template = {
 			97130,
 			97301
 		}
-	},
-	[98] = {
+	}
+	pg.base.backyard_theme_template[98] = {
 		Cfg_1 = 5,
 		name = "로열 네이비 학교",
 		desc = "우아하고 유쾌한 스쿨 라이프♪",
@@ -3750,8 +3880,8 @@ pg.backyard_theme_template = {
 			98313,
 			98314
 		}
-	},
-	[99] = {
+	}
+	pg.base.backyard_theme_template[99] = {
 		Cfg_1 = 5,
 		name = "쥬쥬의 숨겨진 온천",
 		desc = "피어오르는 김이 왠지 철학적",
@@ -3796,8 +3926,8 @@ pg.backyard_theme_template = {
 			99303,
 			99304
 		}
-	},
-	[100] = {
+	}
+	pg.base.backyard_theme_template[100] = {
 		Cfg_1 = 5,
 		name = "쥬쥬 무인도",
 		desc = "여기에 거점을 세우자!",
@@ -3843,8 +3973,8 @@ pg.backyard_theme_template = {
 			300201,
 			300202
 		}
-	},
-	[101] = {
+	}
+	pg.base.backyard_theme_template[101] = {
 		Cfg_1 = 5,
 		name = "꽃밭",
 		desc = "고요하고 낭만적인 정원에서 꽃과 식물과 함께 호흡해 보세요!",
@@ -3884,8 +4014,8 @@ pg.backyard_theme_template = {
 			301120,
 			301123
 		}
-	},
-	[102] = {
+	}
+	pg.base.backyard_theme_template[102] = {
 		Cfg_1 = 5,
 		name = "쥬쥬 팰리스",
 		desc = "고풍스럽고 특별한 쥬쥬 팰리스. 이렇게 우아할수가!",
@@ -3932,8 +4062,8 @@ pg.backyard_theme_template = {
 			302303,
 			302304
 		}
-	},
-	[103] = {
+	}
+	pg.base.backyard_theme_template[103] = {
 		Cfg_1 = 5,
 		name = "요괴 온천 마을",
 		desc = "땅거미 질 무렵 온천 마을에서 대모험…!?",
@@ -3967,8 +4097,8 @@ pg.backyard_theme_template = {
 			303117,
 			303119
 		}
-	},
-	[104] = {
+	}
+	pg.base.backyard_theme_template[104] = {
 		Cfg_1 = 5,
 		name = "해적 오두막",
 		desc = "원양선이여, 자유와 보물을 위해 출항하라!",
@@ -4024,8 +4154,8 @@ pg.backyard_theme_template = {
 			304119,
 			304108
 		}
-	},
-	[105] = {
+	}
+	pg.base.backyard_theme_template[105] = {
 		Cfg_1 = 5,
 		name = "시노비 저택",
 		desc = "시노비의 일상을 체험해 보고 싶다고? 지금 바로 시노비 저택에 신청을!",
@@ -4063,8 +4193,8 @@ pg.backyard_theme_template = {
 			305305,
 			305306
 		}
-	},
-	[106] = {
+	}
+	pg.base.backyard_theme_template[106] = {
 		Cfg_1 = 5,
 		name = "모항 나이트클럽",
 		desc = "조명에 신나는 음악까지! 같이 신나게 놀자!",
@@ -4095,8 +4225,8 @@ pg.backyard_theme_template = {
 			306112,
 			306114
 		}
-	},
-	[107] = {
+	}
+	pg.base.backyard_theme_template[107] = {
 		Cfg_1 = 5,
 		name = "용이 춤추는 새해",
 		desc = "용의 해! 입춘대길!",
@@ -4127,8 +4257,8 @@ pg.backyard_theme_template = {
 			307113,
 			307114
 		}
-	},
-	[108] = {
+	}
+	pg.base.backyard_theme_template[108] = {
 		Cfg_1 = 5,
 		name = "괴도 리들",
 		desc = "미스터리한 괴도의 세계에 오신 것을 환영합니다!",
@@ -4169,8 +4299,8 @@ pg.backyard_theme_template = {
 			308303,
 			308304
 		}
-	},
-	[109] = {
+	}
+	pg.base.backyard_theme_template[109] = {
 		Cfg_1 = 5,
 		name = "마법사의 숲 오두막",
 		desc = "판타지와 마법이 가득한 숲의 오두막에 오신 것을 환영합니다!",
@@ -4204,8 +4334,8 @@ pg.backyard_theme_template = {
 			309301,
 			309302
 		}
-	},
-	[110] = {
+	}
+	pg.base.backyard_theme_template[110] = {
 		Cfg_1 = 5,
 		name = "스타 대기실",
 		desc = "빛나는 무대가 이제 곧 시작됩니다!",
@@ -4249,8 +4379,8 @@ pg.backyard_theme_template = {
 			310309,
 			310310
 		}
-	},
-	[111] = {
+	}
+	pg.base.backyard_theme_template[111] = {
 		Cfg_1 = 5,
 		name = "홀리데이 크루즈",
 		desc = "크루즈선을 타고 바다 너머를 항해하자!",
@@ -4284,8 +4414,8 @@ pg.backyard_theme_template = {
 			311114,
 			311115
 		}
-	},
-	[112] = {
+	}
+	pg.base.backyard_theme_template[112] = {
 		Cfg_1 = 5,
 		name = "레이싱 카페",
 		desc = "스피드! 열정! 전속력으로 발진!",
@@ -4319,8 +4449,8 @@ pg.backyard_theme_template = {
 			312301,
 			312302
 		}
-	},
-	[113] = {
+	}
+	pg.base.backyard_theme_template[113] = {
 		Cfg_1 = 5,
 		name = "웨스턴 여관",
 		desc = "숙소에서는 싸움 금지다쥬쥬!",
@@ -4354,8 +4484,8 @@ pg.backyard_theme_template = {
 			313302,
 			313303
 		}
-	},
-	[114] = {
+	}
+	pg.base.backyard_theme_template[114] = {
 		Cfg_1 = 5,
 		name = "낙원 드림",
 		desc = "낙원의 꿈, 드림랜드!",
@@ -4384,8 +4514,10 @@ pg.backyard_theme_template = {
 			314110,
 			314111
 		}
-	},
-	[115] = {
+	}
+end)()
+(function ()
+	pg.base.backyard_theme_template[115] = {
 		Cfg_1 = 5,
 		name = "그림자 항구",
 		desc = "그림자 항구에서 벌벌 떨어라!",
@@ -4416,8 +4548,8 @@ pg.backyard_theme_template = {
 			315111,
 			315112
 		}
-	},
-	[116] = {
+	}
+	pg.base.backyard_theme_template[116] = {
 		Cfg_1 = 5,
 		name = "공주 스타일",
 		desc = "동화 속 공주 같은 느낌!",
@@ -4453,8 +4585,8 @@ pg.backyard_theme_template = {
 			316304,
 			316305
 		}
-	},
-	[117] = {
+	}
+	pg.base.backyard_theme_template[117] = {
 		Cfg_1 = 5,
 		name = "러프 셸터",
 		desc = "위험천만한 황야에서 마음 편히 쉴 수 있는 단 한 곳.",
@@ -4485,8 +4617,8 @@ pg.backyard_theme_template = {
 			317302,
 			317303
 		}
-	},
-	[118] = {
+	}
+	pg.base.backyard_theme_template[118] = {
 		Cfg_1 = 5,
 		name = "설중탐매",
 		desc = "눈을 밟고 매화를 찾으며, 봄의 숨결을 만끽하자.",
@@ -4522,8 +4654,8 @@ pg.backyard_theme_template = {
 			318303,
 			318304
 		}
-	},
-	[119] = {
+	}
+	pg.base.backyard_theme_template[119] = {
 		Cfg_1 = 5,
 		name = "파라오의 비경",
 		desc = "금빛 대지에 발을 들이면, 먼 옛날의 잔향이 들려온다… 온다… 온다…",
@@ -4562,8 +4694,8 @@ pg.backyard_theme_template = {
 			319303,
 			319304
 		}
-	},
-	[120] = {
+	}
+	pg.base.backyard_theme_template[120] = {
 		Cfg_1 = 5,
 		name = "스페이스 메디컬",
 		desc = "스페이스 메디컬 스테이션. 당신만을 위한 색다른 의료 서비스.",
@@ -4602,8 +4734,8 @@ pg.backyard_theme_template = {
 			320305,
 			320306
 		}
-	},
-	[121] = {
+	}
+	pg.base.backyard_theme_template[121] = {
 		Cfg_1 = 5,
 		name = "튤리퍼 전원",
 		desc = "부드러운 바람에 실려오는 향긋한 꽃내음, 이것이야말로 전원 생활의 참맛!",
@@ -4639,8 +4771,8 @@ pg.backyard_theme_template = {
 			321117,
 			321118
 		}
-	},
-	[122] = {
+	}
+	pg.base.backyard_theme_template[122] = {
 		Cfg_1 = 5,
 		name = "시사이드",
 		desc = "백사장과 하얀 파도를 만끽하며 시사이드 바캉스를 느긋하게 즐기자!",
@@ -4674,8 +4806,8 @@ pg.backyard_theme_template = {
 			322114,
 			322115
 		}
-	},
-	[123] = {
+	}
+	pg.base.backyard_theme_template[123] = {
 		Cfg_1 = 5,
 		name = "철도 여행",
 		desc = "열차에 몸을 싣고 선로에서 울리는 리듬과 창밖 풍경을 만끽하자.",
@@ -4711,8 +4843,8 @@ pg.backyard_theme_template = {
 			324116,
 			324117
 		}
-	},
-	[124] = {
+	}
+	pg.base.backyard_theme_template[124] = {
 		Cfg_1 = 5,
 		name = "아틀리에 휴게실",
 		desc = "바쁠 때라도 일상의 여유를 잊지 말자.",
@@ -4759,8 +4891,8 @@ pg.backyard_theme_template = {
 			325302,
 			325303
 		}
-	},
-	[125] = {
+	}
+	pg.base.backyard_theme_template[125] = {
 		Cfg_1 = 5,
 		name = "아틀리에 작업실",
 		desc = "푸른 대지 위에 서서 연금술사의 하루를 체감해 보자.",
@@ -4790,8 +4922,8 @@ pg.backyard_theme_template = {
 			326110,
 			326111
 		}
-	},
-	[126] = {
+	}
+	pg.base.backyard_theme_template[126] = {
 		Cfg_1 = 5,
 		name = "아틀리에 정원",
 		desc = "한가할 때는 아틀리에의 정원을 산책하자.",
@@ -4829,8 +4961,8 @@ pg.backyard_theme_template = {
 			327301,
 			327302
 		}
-	},
-	[127] = {
+	}
+	pg.base.backyard_theme_template[127] = {
 		Cfg_1 = 5,
 		name = "임간 온천",
 		desc = "탕에 몸을 담그고 여유로운 시간을 즐기자.",
@@ -4866,8 +4998,8 @@ pg.backyard_theme_template = {
 			328116,
 			328117
 		}
-	},
-	[129] = {
+	}
+	pg.base.backyard_theme_template[129] = {
 		Cfg_1 = 5,
 		name = "닌자의 성",
 		desc = "닌자의 성에서 아슬아슬 짜릿한 닌자 대모험을 즐겨보자!",
@@ -4905,8 +5037,8 @@ pg.backyard_theme_template = {
 			329118,
 			329119
 		}
-	},
-	[130] = {
+	}
+	pg.base.backyard_theme_template[130] = {
 		Cfg_1 = 5,
 		name = "미궁 도시",
 		desc = "미궁 도시에 들어가 영웅돌의 모험 무대에 오르자.",
@@ -4926,8 +5058,8 @@ pg.backyard_theme_template = {
 			330002,
 			330101
 		}
-	},
-	[131] = {
+	}
+	pg.base.backyard_theme_template[131] = {
 		Cfg_1 = 5,
 		name = "공중함",
 		desc = "구름을 가르는 브리지에 서서, 데이터가 소용돌이치는 전장을 온몸으로 느끼자.",
@@ -4971,8 +5103,8 @@ pg.backyard_theme_template = {
 			331307,
 			331308
 		}
-	},
-	[132] = {
+	}
+	pg.base.backyard_theme_template[132] = {
 		Cfg_1 = 5,
 		name = "유광의 신전",
 		desc = "사라진 문을 열고, 눈부신 빛의 흐름 속에서 고대가 남긴 마지막 언어를 찾아라.",
@@ -5004,8 +5136,8 @@ pg.backyard_theme_template = {
 			332112,
 			332301
 		}
-	},
-	[133] = {
+	}
+	pg.base.backyard_theme_template[133] = {
 		Cfg_1 = 5,
 		name = "메이드 야옹 하우스",
 		desc = "케이크와 고양이를 테마로 한 메이드 하우스. 포근하고 달콤한 향기♪",
@@ -5043,8 +5175,8 @@ pg.backyard_theme_template = {
 			333118,
 			333301
 		}
-	},
-	[134] = {
+	}
+	pg.base.backyard_theme_template[134] = {
 		Cfg_1 = 5,
 		name = "패션 스튜디오",
 		desc = "스튜디오에 들어가 렌즈 속의 패션 리더가 되어 보자!",
@@ -5086,8 +5218,8 @@ pg.backyard_theme_template = {
 			334301,
 			334302
 		}
-	},
-	[135] = {
+	}
+	pg.base.backyard_theme_template[135] = {
 		Cfg_1 = 5,
 		name = "신춘 옥션",
 		desc = "옥션에서 패들을 들고 경쟁할 때의 그 두근거리는 긴장감!",
@@ -5126,8 +5258,8 @@ pg.backyard_theme_template = {
 			335301,
 			335302
 		}
-	},
-	[136] = {
+	}
+	pg.base.backyard_theme_template[136] = {
 		Cfg_1 = 5,
 		name = "데이터 지휘 센터",
 		desc = "지휘 센터에서 데이터 스트림에 감싸인 채 도시를 내려다보자.",
@@ -5162,8 +5294,8 @@ pg.backyard_theme_template = {
 			336301,
 			336302
 		}
-	},
-	[137] = {
+	}
+	pg.base.backyard_theme_template[137] = {
 		Cfg_1 = 5,
 		name = "빛나는 해변",
 		desc = "빛나는 물보라와 태양으로 최고로 멋진 휴가를 만들자!",
@@ -5197,129 +5329,5 @@ pg.backyard_theme_template = {
 			337115,
 			337116
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		8,
-		10,
-		11,
-		13,
-		14,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		27,
-		28,
-		29,
-		30,
-		33,
-		35,
-		36,
-		37,
-		38,
-		39,
-		40,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46,
-		48,
-		49,
-		50,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56,
-		57,
-		58,
-		59,
-		60,
-		61,
-		62,
-		63,
-		65,
-		66,
-		69,
-		70,
-		71,
-		72,
-		73,
-		74,
-		75,
-		76,
-		77,
-		78,
-		79,
-		80,
-		81,
-		82,
-		83,
-		84,
-		85,
-		86,
-		87,
-		88,
-		89,
-		90,
-		91,
-		92,
-		93,
-		94,
-		95,
-		96,
-		97,
-		98,
-		99,
-		100,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		110,
-		111,
-		112,
-		113,
-		114,
-		115,
-		116,
-		117,
-		118,
-		119,
-		120,
-		121,
-		122,
-		123,
-		124,
-		125,
-		126,
-		127,
-		129,
-		130,
-		131,
-		132,
-		133,
-		134,
-		135,
-		136,
-		137
 	}
-}
+end)()

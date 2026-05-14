@@ -1,36 +1,39 @@
 pg = pg or {}
-pg.activity_task_permanent = setmetatable({
-	__name = "activity_task_permanent",
-	all = {
-		6000,
-		6001,
-		6002,
-		6003,
-		6004,
-		6005,
-		6006,
-		6007,
-		6008,
-		6009,
-		6010,
-		6011,
-		6012,
-		6013,
-		6014,
-		6015,
-		6016,
-		6017,
-		6018,
-		6019,
-		6020,
-		6021,
-		6022,
-		6023
-	}
-}, confHX)
+pg.activity_task_permanent = rawget(pg, "activity_task_permanent") or setmetatable({
+	__name = "activity_task_permanent"
+}, confNEO)
+pg.activity_task_permanent.__namecode__ = true
+pg.activity_task_permanent.all = {
+	6000,
+	6001,
+	6002,
+	6003,
+	6004,
+	6005,
+	6006,
+	6007,
+	6008,
+	6009,
+	6010,
+	6011,
+	6012,
+	6013,
+	6014,
+	6015,
+	6016,
+	6017,
+	6018,
+	6019,
+	6020,
+	6021,
+	6022,
+	6023
+}
 pg.base = pg.base or {}
-pg.base.activity_task_permanent = {
-	[6000] = {
+pg.base.activity_task_permanent = {}
+
+(function ()
+	pg.base.activity_task_permanent[6000] = {
 		gametip = "야마시로 한정 스킨 「여름의 대작전」 획득 가능",
 		banner_route = "permanent_yamashiro",
 		gametip_extra = "7일만에 획득 가능",
@@ -48,8 +51,8 @@ pg.base.activity_task_permanent = {
 			35005,
 			35006
 		}
-	},
-	[6001] = {
+	}
+	pg.base.activity_task_permanent[6001] = {
 		gametip = "크레이븐 한정 스킨 「장외의 치어리더」 획득 가능",
 		banner_route = "permanent_craven",
 		gametip_extra = "10일만에 획득 가능",
@@ -80,8 +83,8 @@ pg.base.activity_task_permanent = {
 			35025,
 			35026
 		}
-	},
-	[6002] = {
+	}
+	pg.base.activity_task_permanent[6002] = {
 		gametip = "뱀파이어 한정 스킨 「백의의 소악마」 획득 가능",
 		banner_route = "permanent_xixuegui",
 		gametip_extra = "7일만에 획득 가능",
@@ -99,8 +102,8 @@ pg.base.activity_task_permanent = {
 			35032,
 			35033
 		}
-	},
-	[6003] = {
+	}
+	pg.base.activity_task_permanent[6003] = {
 		gametip = "시그넷 한정 스킨 「해변의 십자성」 획득 가능",
 		banner_route = "permanent_xiaotiane",
 		gametip_extra = "10일만에 획득 가능",
@@ -131,8 +134,8 @@ pg.base.activity_task_permanent = {
 			35052,
 			35053
 		}
-	},
-	[6004] = {
+	}
+	pg.base.activity_task_permanent[6004] = {
 		gametip = "오오시오 한정 스킨 「한 잔 마실래?」 획득 가능",
 		banner_route = "permanent_dachaolifu",
 		gametip_extra = "7일만에 획득 가능",
@@ -157,8 +160,8 @@ pg.base.activity_task_permanent = {
 			35066,
 			35067
 		}
-	},
-	[6005] = {
+	}
+	pg.base.activity_task_permanent[6005] = {
 		gametip = "야마시로 한정 스킨 「연회복을 입은 검은 고양이」 획득 가능",
 		banner_route = "permanent_shanchenglifu",
 		gametip_extra = "7일만에 획득 가능",
@@ -183,8 +186,8 @@ pg.base.activity_task_permanent = {
 			35080,
 			35081
 		}
-	},
-	[6006] = {
+	}
+	pg.base.activity_task_permanent[6006] = {
 		gametip = "멤피스 한정 스킨 「Mystical Night」 획득 가능",
 		banner_route = "permanent_mengfeisi",
 		gametip_extra = "7일만에 획득 가능",
@@ -194,8 +197,8 @@ pg.base.activity_task_permanent = {
 		id = 6006,
 		over_task_id = "",
 		eliminate_task_id = {}
-	},
-	[6007] = {
+	}
+	pg.base.activity_task_permanent[6007] = {
 		gametip = "와카바 한정 스킨 「한정 성탄 Wakaba」 획득 가능",
 		banner_route = "permanent_ruoyeshengdan",
 		gametip_extra = "7일만에 획득 가능",
@@ -220,8 +223,8 @@ pg.base.activity_task_permanent = {
 			35094,
 			35095
 		}
-	},
-	[6008] = {
+	}
+	pg.base.activity_task_permanent[6008] = {
 		gametip = "오오시오 한정 스킨 「순록과 성탄 선물」 획득 가능",
 		banner_route = "permanent_dachaoshengdan",
 		gametip_extra = "7일만에 획득 가능",
@@ -246,8 +249,8 @@ pg.base.activity_task_permanent = {
 			35108,
 			35109
 		}
-	},
-	[6009] = {
+	}
+	pg.base.activity_task_permanent[6009] = {
 		gametip = "그리들리 한정 스킨 「성야의 촬영회!」 획득 가능",
 		banner_route = "permanent_gelidelishengdan",
 		gametip_extra = "8일만에 획득 가능",
@@ -266,8 +269,8 @@ pg.base.activity_task_permanent = {
 			35116,
 			35117
 		}
-	},
-	[6010] = {
+	}
+	pg.base.activity_task_permanent[6010] = {
 		gametip = "새러토가 한정 스킨 「이국의 아이돌?」 획득 가능",
 		banner_route = "permanent_salatuojia",
 		gametip_extra = "9일만에 획득 가능",
@@ -277,8 +280,8 @@ pg.base.activity_task_permanent = {
 		id = 6010,
 		over_task_id = "",
 		eliminate_task_id = {}
-	},
-	[6011] = {
+	}
+	pg.base.activity_task_permanent[6011] = {
 		gametip = "재블린 한정 스킨「미속전진」획득 가능",
 		banner_route = "permanent_biaoqiang",
 		gametip_extra = "9일만에 획득 가능",
@@ -307,8 +310,8 @@ pg.base.activity_task_permanent = {
 			35134,
 			35135
 		}
-	},
-	[6012] = {
+	}
+	pg.base.activity_task_permanent[6012] = {
 		gametip = "U-73 한정 스킨「이과 실험 시간!」획득 가능",
 		banner_route = "permanent_u73",
 		gametip_extra = "9일만에 획득 가능",
@@ -337,8 +340,8 @@ pg.base.activity_task_permanent = {
 			35152,
 			35153
 		}
-	},
-	[6013] = {
+	}
+	pg.base.activity_task_permanent[6013] = {
 		gametip = "카발라 한정 스킨「오색찬란한 연회」획득 가능",
 		banner_route = "permanent_jiqi",
 		gametip_extra = "7일만에 획득 가능",
@@ -363,8 +366,8 @@ pg.base.activity_task_permanent = {
 			35166,
 			35167
 		}
-	},
-	[6014] = {
+	}
+	pg.base.activity_task_permanent[6014] = {
 		gametip = "후부키 한정 스킨 「특형 아이돌 Fubuki」 획득 가능",
 		banner_route = "permanent_chuixue",
 		gametip_extra = "7일만에 획득 가능",
@@ -389,8 +392,8 @@ pg.base.activity_task_permanent = {
 			35180,
 			35181
 		}
-	},
-	[6015] = {
+	}
+	pg.base.activity_task_permanent[6015] = {
 		gametip = "베일리 한정 스킨 「장난스러운 베일리」 획득 가능",
 		banner_route = "permanent_beili",
 		gametip_extra = "7일만에 획득 가능",
@@ -415,8 +418,8 @@ pg.base.activity_task_permanent = {
 			35194,
 			35195
 		}
-	},
-	[6016] = {
+	}
+	pg.base.activity_task_permanent[6016] = {
 		gametip = "Z23 한정 스킨 「철학 강사」 획득 가능",
 		banner_route = "permanent_z23",
 		gametip_extra = "10일만에 획득 가능",
@@ -447,8 +450,8 @@ pg.base.activity_task_permanent = {
 			35214,
 			35215
 		}
-	},
-	[6017] = {
+	}
+	pg.base.activity_task_permanent[6017] = {
 		gametip = "마블헤드  한정 스킨 「눈의 차밍 타임」 획득 가능",
 		banner_route = "permanent_mabuerheide",
 		gametip_extra = "7일만에 획득 가능",
@@ -458,8 +461,8 @@ pg.base.activity_task_permanent = {
 		id = 6017,
 		over_task_id = "",
 		eliminate_task_id = {}
-	},
-	[6018] = {
+	}
+	pg.base.activity_task_permanent[6018] = {
 		gametip = "한정 가구 「초콜릿쥬」 획득 가능",
 		banner_route = "permanent_qiaokelijiu",
 		gametip_extra = "7일만에 획득 가능",
@@ -477,8 +480,8 @@ pg.base.activity_task_permanent = {
 			35221,
 			35222
 		}
-	},
-	[6019] = {
+	}
+	pg.base.activity_task_permanent[6019] = {
 		gametip = "이56 한정 스킨 「외톨이 해바라기 」획득 가능",
 		banner_route = "permanent_i56",
 		gametip_extra = "7일 만에 획득 가능",
@@ -503,8 +506,8 @@ pg.base.activity_task_permanent = {
 			35235,
 			35236
 		}
-	},
-	[6020] = {
+	}
+	pg.base.activity_task_permanent[6020] = {
 		gametip = "미치시오 한정 스킨 「하늘하늘 리본」획득 가능 ",
 		banner_route = "permanent_manchao",
 		gametip_extra = "7일 만에 획득 가능",
@@ -529,8 +532,8 @@ pg.base.activity_task_permanent = {
 			35256,
 			35257
 		}
-	},
-	[6021] = {
+	}
+	pg.base.activity_task_permanent[6021] = {
 		gametip = "나가라의 스킨 획득!",
 		banner_route = "permanent_changliang",
 		gametip_extra = "7일 만에 획득 가능",
@@ -555,8 +558,8 @@ pg.base.activity_task_permanent = {
 			35270,
 			35271
 		}
-	},
-	[6022] = {
+	}
+	pg.base.activity_task_permanent[6022] = {
 		gametip = "캐릭터 U-410 획득 가능",
 		banner_route = "permanent_u410",
 		gametip_extra = "7일 만에 획득 가능",
@@ -566,8 +569,8 @@ pg.base.activity_task_permanent = {
 		id = 6022,
 		over_task_id = "",
 		eliminate_task_id = {}
-	},
-	[6023] = {
+	}
+	pg.base.activity_task_permanent[6023] = {
 		gametip = "「하츠하루」 스킨 획득!",
 		banner_route = "permanent_chunyaodenghuo",
 		gametip_extra = "빠르면 7일 후 획득",
@@ -593,4 +596,4 @@ pg.base.activity_task_permanent = {
 			35285
 		}
 	}
-}
+end)()

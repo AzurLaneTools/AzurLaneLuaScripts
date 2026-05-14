@@ -1,6 +1,208 @@
 pg = pg or {}
-pg.dorm3d_favor = {
-	[1001] = {
+pg.dorm3d_favor = rawget(pg, "dorm3d_favor") or setmetatable({
+	__name = "dorm3d_favor"
+}, confNEO)
+pg.dorm3d_favor.all = {
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008,
+	1009,
+	1010,
+	1011,
+	1012,
+	1013,
+	1014,
+	1015,
+	2001,
+	2002,
+	2003,
+	2004,
+	2005,
+	2006,
+	2007,
+	2008,
+	2009,
+	2010,
+	2011,
+	2012,
+	2013,
+	2014,
+	2015,
+	3001,
+	3002,
+	3003,
+	3004,
+	3005,
+	3006,
+	3007,
+	3008,
+	3009,
+	3010,
+	3011,
+	3012,
+	3013,
+	3014,
+	3015,
+	11001,
+	11002,
+	11003,
+	11004,
+	11005,
+	11006,
+	11007,
+	11008,
+	11009,
+	11010,
+	11011,
+	11012,
+	11013,
+	11014,
+	11015,
+	12001,
+	12002,
+	12003,
+	12004,
+	12005,
+	12006,
+	12007,
+	12008,
+	12009,
+	12010,
+	12011,
+	12012,
+	12013,
+	12014,
+	12015,
+	14001,
+	14002,
+	14003,
+	14004,
+	14005,
+	14006,
+	14007,
+	14008,
+	14009,
+	14010,
+	14011,
+	14012,
+	14013,
+	14014,
+	14015
+}
+pg.dorm3d_favor.get_id_list_by_char_id = {
+	[10517] = {
+		11001,
+		11002,
+		11003,
+		11004,
+		11005,
+		11006,
+		11007,
+		11008,
+		11009,
+		11010,
+		11011,
+		11012,
+		11013,
+		11014,
+		11015
+	},
+	[19903] = {
+		3001,
+		3002,
+		3003,
+		3004,
+		3005,
+		3006,
+		3007,
+		3008,
+		3009,
+		3010,
+		3011,
+		3012,
+		3013,
+		3014,
+		3015
+	},
+	[20220] = {
+		1001,
+		1002,
+		1003,
+		1004,
+		1005,
+		1006,
+		1007,
+		1008,
+		1009,
+		1010,
+		1011,
+		1012,
+		1013,
+		1014,
+		1015
+	},
+	[30221] = {
+		2001,
+		2002,
+		2003,
+		2004,
+		2005,
+		2006,
+		2007,
+		2008,
+		2009,
+		2010,
+		2011,
+		2012,
+		2013,
+		2014,
+		2015
+	},
+	[30707] = {
+		12001,
+		12002,
+		12003,
+		12004,
+		12005,
+		12006,
+		12007,
+		12008,
+		12009,
+		12010,
+		12011,
+		12012,
+		12013,
+		12014,
+		12015
+	},
+	[49905] = {
+		14001,
+		14002,
+		14003,
+		14004,
+		14005,
+		14006,
+		14007,
+		14008,
+		14009,
+		14010,
+		14011,
+		14012,
+		14013,
+		14014,
+		14015
+	}
+}
+pg.base = pg.base or {}
+pg.base.dorm3d_favor = {}
+
+(function ()
+	pg.base.dorm3d_favor[1001] = {
 		char_id = 20220,
 		levelup_trigger_type = 1,
 		id = 1001,
@@ -21,8 +223,8 @@ pg.dorm3d_favor = {
 				1
 			}
 		}
-	},
-	[1002] = {
+	}
+	pg.base.dorm3d_favor[1002] = {
 		char_id = 20220,
 		levelup_trigger_type = 2,
 		id = 1002,
@@ -37,8 +239,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[1003] = {
+	}
+	pg.base.dorm3d_favor[1003] = {
 		char_id = 20220,
 		levelup_trigger_type = 2,
 		id = 1003,
@@ -53,8 +255,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[1004] = {
+	}
+	pg.base.dorm3d_favor[1004] = {
 		char_id = 20220,
 		levelup_trigger_type = 2,
 		id = 1004,
@@ -75,8 +277,8 @@ pg.dorm3d_favor = {
 				1
 			}
 		}
-	},
-	[1005] = {
+	}
+	pg.base.dorm3d_favor[1005] = {
 		char_id = 20220,
 		levelup_trigger_type = 1,
 		id = 1005,
@@ -91,8 +293,8 @@ pg.dorm3d_favor = {
 				1
 			}
 		}
-	},
-	[1006] = {
+	}
+	pg.base.dorm3d_favor[1006] = {
 		char_id = 20220,
 		levelup_trigger_type = 2,
 		id = 1006,
@@ -107,8 +309,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[1007] = {
+	}
+	pg.base.dorm3d_favor[1007] = {
 		char_id = 20220,
 		levelup_trigger_type = 1,
 		id = 1007,
@@ -128,8 +330,8 @@ pg.dorm3d_favor = {
 				1
 			}
 		}
-	},
-	[1008] = {
+	}
+	pg.base.dorm3d_favor[1008] = {
 		char_id = 20220,
 		levelup_trigger_type = 1,
 		id = 1008,
@@ -144,8 +346,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[1009] = {
+	}
+	pg.base.dorm3d_favor[1009] = {
 		char_id = 20220,
 		levelup_trigger_type = 3,
 		id = 1009,
@@ -160,8 +362,8 @@ pg.dorm3d_favor = {
 				1
 			}
 		}
-	},
-	[1010] = {
+	}
+	pg.base.dorm3d_favor[1010] = {
 		char_id = 20220,
 		levelup_trigger_type = 3,
 		id = 1010,
@@ -182,8 +384,8 @@ pg.dorm3d_favor = {
 				1
 			}
 		}
-	},
-	[1011] = {
+	}
+	pg.base.dorm3d_favor[1011] = {
 		char_id = 20220,
 		levelup_trigger_type = 3,
 		id = 1011,
@@ -198,8 +400,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[1012] = {
+	}
+	pg.base.dorm3d_favor[1012] = {
 		char_id = 20220,
 		levelup_trigger_type = 1,
 		id = 1012,
@@ -214,8 +416,8 @@ pg.dorm3d_favor = {
 				1
 			}
 		}
-	},
-	[1013] = {
+	}
+	pg.base.dorm3d_favor[1013] = {
 		char_id = 20220,
 		levelup_trigger_type = 1,
 		id = 1013,
@@ -235,8 +437,8 @@ pg.dorm3d_favor = {
 				1
 			}
 		}
-	},
-	[1014] = {
+	}
+	pg.base.dorm3d_favor[1014] = {
 		char_id = 20220,
 		levelup_trigger_type = 4,
 		id = 1014,
@@ -251,8 +453,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[1015] = {
+	}
+	pg.base.dorm3d_favor[1015] = {
 		char_id = 20220,
 		levelup_trigger_type = 3,
 		id = 1015,
@@ -267,8 +469,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[2001] = {
+	}
+	pg.base.dorm3d_favor[2001] = {
 		char_id = 30221,
 		levelup_trigger_type = 1,
 		id = 2001,
@@ -277,8 +479,8 @@ pg.dorm3d_favor = {
 		level = 1,
 		levelup_item = {},
 		levelup_client_item = {}
-	},
-	[2002] = {
+	}
+	pg.base.dorm3d_favor[2002] = {
 		char_id = 30221,
 		levelup_trigger_type = 2,
 		id = 2002,
@@ -298,8 +500,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[2003] = {
+	}
+	pg.base.dorm3d_favor[2003] = {
 		char_id = 30221,
 		levelup_trigger_type = 2,
 		id = 2003,
@@ -314,8 +516,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[2004] = {
+	}
+	pg.base.dorm3d_favor[2004] = {
 		char_id = 30221,
 		levelup_trigger_type = 2,
 		id = 2004,
@@ -336,8 +538,8 @@ pg.dorm3d_favor = {
 				1
 			}
 		}
-	},
-	[2005] = {
+	}
+	pg.base.dorm3d_favor[2005] = {
 		char_id = 30221,
 		levelup_trigger_type = 1,
 		id = 2005,
@@ -352,8 +554,8 @@ pg.dorm3d_favor = {
 				1
 			}
 		}
-	},
-	[2006] = {
+	}
+	pg.base.dorm3d_favor[2006] = {
 		char_id = 30221,
 		levelup_trigger_type = 2,
 		id = 2006,
@@ -368,8 +570,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[2007] = {
+	}
+	pg.base.dorm3d_favor[2007] = {
 		char_id = 30221,
 		levelup_trigger_type = 1,
 		id = 2007,
@@ -384,8 +586,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[2008] = {
+	}
+	pg.base.dorm3d_favor[2008] = {
 		char_id = 30221,
 		levelup_trigger_type = 1,
 		id = 2008,
@@ -406,8 +608,8 @@ pg.dorm3d_favor = {
 				1
 			}
 		}
-	},
-	[2009] = {
+	}
+	pg.base.dorm3d_favor[2009] = {
 		char_id = 30221,
 		levelup_trigger_type = 3,
 		id = 2009,
@@ -422,8 +624,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[2010] = {
+	}
+	pg.base.dorm3d_favor[2010] = {
 		char_id = 30221,
 		levelup_trigger_type = 3,
 		id = 2010,
@@ -438,8 +640,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[2011] = {
+	}
+	pg.base.dorm3d_favor[2011] = {
 		char_id = 30221,
 		levelup_trigger_type = 3,
 		id = 2011,
@@ -454,8 +656,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[2012] = {
+	}
+	pg.base.dorm3d_favor[2012] = {
 		char_id = 30221,
 		levelup_trigger_type = 1,
 		id = 2012,
@@ -476,8 +678,8 @@ pg.dorm3d_favor = {
 				1
 			}
 		}
-	},
-	[2013] = {
+	}
+	pg.base.dorm3d_favor[2013] = {
 		char_id = 30221,
 		levelup_trigger_type = 1,
 		id = 2013,
@@ -492,8 +694,8 @@ pg.dorm3d_favor = {
 				1
 			}
 		}
-	},
-	[2014] = {
+	}
+	pg.base.dorm3d_favor[2014] = {
 		char_id = 30221,
 		levelup_trigger_type = 4,
 		id = 2014,
@@ -508,8 +710,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[2015] = {
+	}
+	pg.base.dorm3d_favor[2015] = {
 		char_id = 30221,
 		levelup_trigger_type = 3,
 		id = 2015,
@@ -524,8 +726,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[3001] = {
+	}
+	pg.base.dorm3d_favor[3001] = {
 		char_id = 19903,
 		levelup_trigger_type = 1,
 		id = 3001,
@@ -534,8 +736,8 @@ pg.dorm3d_favor = {
 		level = 1,
 		levelup_item = {},
 		levelup_client_item = {}
-	},
-	[3002] = {
+	}
+	pg.base.dorm3d_favor[3002] = {
 		char_id = 19903,
 		levelup_trigger_type = 2,
 		id = 3002,
@@ -555,8 +757,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[3003] = {
+	}
+	pg.base.dorm3d_favor[3003] = {
 		char_id = 19903,
 		levelup_trigger_type = 2,
 		id = 3003,
@@ -571,8 +773,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[3004] = {
+	}
+	pg.base.dorm3d_favor[3004] = {
 		char_id = 19903,
 		levelup_trigger_type = 2,
 		id = 3004,
@@ -593,8 +795,8 @@ pg.dorm3d_favor = {
 				1
 			}
 		}
-	},
-	[3005] = {
+	}
+	pg.base.dorm3d_favor[3005] = {
 		char_id = 19903,
 		levelup_trigger_type = 1,
 		id = 3005,
@@ -609,8 +811,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[3006] = {
+	}
+	pg.base.dorm3d_favor[3006] = {
 		char_id = 19903,
 		levelup_trigger_type = 2,
 		id = 3006,
@@ -625,8 +827,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[3007] = {
+	}
+	pg.base.dorm3d_favor[3007] = {
 		char_id = 19903,
 		levelup_trigger_type = 1,
 		id = 3007,
@@ -641,8 +843,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[3008] = {
+	}
+	pg.base.dorm3d_favor[3008] = {
 		char_id = 19903,
 		levelup_trigger_type = 1,
 		id = 3008,
@@ -663,8 +865,8 @@ pg.dorm3d_favor = {
 				1
 			}
 		}
-	},
-	[3009] = {
+	}
+	pg.base.dorm3d_favor[3009] = {
 		char_id = 19903,
 		levelup_trigger_type = 3,
 		id = 3009,
@@ -679,8 +881,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[3010] = {
+	}
+	pg.base.dorm3d_favor[3010] = {
 		char_id = 19903,
 		levelup_trigger_type = 3,
 		id = 3010,
@@ -695,8 +897,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[3011] = {
+	}
+	pg.base.dorm3d_favor[3011] = {
 		char_id = 19903,
 		levelup_trigger_type = 3,
 		id = 3011,
@@ -711,8 +913,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[3012] = {
+	}
+	pg.base.dorm3d_favor[3012] = {
 		char_id = 19903,
 		levelup_trigger_type = 1,
 		id = 3012,
@@ -733,8 +935,8 @@ pg.dorm3d_favor = {
 				1
 			}
 		}
-	},
-	[3013] = {
+	}
+	pg.base.dorm3d_favor[3013] = {
 		char_id = 19903,
 		levelup_trigger_type = 1,
 		id = 3013,
@@ -749,8 +951,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[3014] = {
+	}
+	pg.base.dorm3d_favor[3014] = {
 		char_id = 19903,
 		levelup_trigger_type = 4,
 		id = 3014,
@@ -765,8 +967,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[3015] = {
+	}
+	pg.base.dorm3d_favor[3015] = {
 		char_id = 19903,
 		levelup_trigger_type = 3,
 		id = 3015,
@@ -781,8 +983,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[11001] = {
+	}
+	pg.base.dorm3d_favor[11001] = {
 		char_id = 10517,
 		levelup_trigger_type = 1,
 		id = 11001,
@@ -791,8 +993,8 @@ pg.dorm3d_favor = {
 		level = 1,
 		levelup_item = {},
 		levelup_client_item = {}
-	},
-	[11002] = {
+	}
+	pg.base.dorm3d_favor[11002] = {
 		char_id = 10517,
 		levelup_trigger_type = 2,
 		id = 11002,
@@ -812,8 +1014,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[11003] = {
+	}
+	pg.base.dorm3d_favor[11003] = {
 		char_id = 10517,
 		levelup_trigger_type = 2,
 		id = 11003,
@@ -828,8 +1030,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[11004] = {
+	}
+	pg.base.dorm3d_favor[11004] = {
 		char_id = 10517,
 		levelup_trigger_type = 2,
 		id = 11004,
@@ -850,8 +1052,8 @@ pg.dorm3d_favor = {
 				1
 			}
 		}
-	},
-	[11005] = {
+	}
+	pg.base.dorm3d_favor[11005] = {
 		char_id = 10517,
 		levelup_trigger_type = 1,
 		id = 11005,
@@ -866,8 +1068,8 @@ pg.dorm3d_favor = {
 				1
 			}
 		}
-	},
-	[11006] = {
+	}
+	pg.base.dorm3d_favor[11006] = {
 		char_id = 10517,
 		levelup_trigger_type = 2,
 		id = 11006,
@@ -882,8 +1084,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[11007] = {
+	}
+	pg.base.dorm3d_favor[11007] = {
 		char_id = 10517,
 		levelup_trigger_type = 1,
 		id = 11007,
@@ -898,8 +1100,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[11008] = {
+	}
+	pg.base.dorm3d_favor[11008] = {
 		char_id = 10517,
 		levelup_trigger_type = 1,
 		id = 11008,
@@ -920,8 +1122,8 @@ pg.dorm3d_favor = {
 				1
 			}
 		}
-	},
-	[11009] = {
+	}
+	pg.base.dorm3d_favor[11009] = {
 		char_id = 10517,
 		levelup_trigger_type = 3,
 		id = 11009,
@@ -936,8 +1138,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[11010] = {
+	}
+	pg.base.dorm3d_favor[11010] = {
 		char_id = 10517,
 		levelup_trigger_type = 3,
 		id = 11010,
@@ -952,8 +1154,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[11011] = {
+	}
+	pg.base.dorm3d_favor[11011] = {
 		char_id = 10517,
 		levelup_trigger_type = 3,
 		id = 11011,
@@ -968,8 +1170,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[11012] = {
+	}
+	pg.base.dorm3d_favor[11012] = {
 		char_id = 10517,
 		levelup_trigger_type = 1,
 		id = 11012,
@@ -990,8 +1192,8 @@ pg.dorm3d_favor = {
 				1
 			}
 		}
-	},
-	[11013] = {
+	}
+	pg.base.dorm3d_favor[11013] = {
 		char_id = 10517,
 		levelup_trigger_type = 1,
 		id = 11013,
@@ -1006,8 +1208,8 @@ pg.dorm3d_favor = {
 				1
 			}
 		}
-	},
-	[11014] = {
+	}
+	pg.base.dorm3d_favor[11014] = {
 		char_id = 10517,
 		levelup_trigger_type = 4,
 		id = 11014,
@@ -1022,8 +1224,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[11015] = {
+	}
+	pg.base.dorm3d_favor[11015] = {
 		char_id = 10517,
 		levelup_trigger_type = 3,
 		id = 11015,
@@ -1038,8 +1240,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[12001] = {
+	}
+	pg.base.dorm3d_favor[12001] = {
 		char_id = 30707,
 		levelup_trigger_type = 1,
 		id = 12001,
@@ -1048,8 +1250,8 @@ pg.dorm3d_favor = {
 		level = 1,
 		levelup_item = {},
 		levelup_client_item = {}
-	},
-	[12002] = {
+	}
+	pg.base.dorm3d_favor[12002] = {
 		char_id = 30707,
 		levelup_trigger_type = 2,
 		id = 12002,
@@ -1069,8 +1271,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[12003] = {
+	}
+	pg.base.dorm3d_favor[12003] = {
 		char_id = 30707,
 		levelup_trigger_type = 2,
 		id = 12003,
@@ -1085,8 +1287,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[12004] = {
+	}
+	pg.base.dorm3d_favor[12004] = {
 		char_id = 30707,
 		levelup_trigger_type = 2,
 		id = 12004,
@@ -1107,8 +1309,8 @@ pg.dorm3d_favor = {
 				1
 			}
 		}
-	},
-	[12005] = {
+	}
+	pg.base.dorm3d_favor[12005] = {
 		char_id = 30707,
 		levelup_trigger_type = 1,
 		id = 12005,
@@ -1123,8 +1325,8 @@ pg.dorm3d_favor = {
 				1
 			}
 		}
-	},
-	[12006] = {
+	}
+	pg.base.dorm3d_favor[12006] = {
 		char_id = 30707,
 		levelup_trigger_type = 2,
 		id = 12006,
@@ -1139,8 +1341,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[12007] = {
+	}
+	pg.base.dorm3d_favor[12007] = {
 		char_id = 30707,
 		levelup_trigger_type = 1,
 		id = 12007,
@@ -1155,8 +1357,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[12008] = {
+	}
+	pg.base.dorm3d_favor[12008] = {
 		char_id = 30707,
 		levelup_trigger_type = 1,
 		id = 12008,
@@ -1177,8 +1379,8 @@ pg.dorm3d_favor = {
 				1
 			}
 		}
-	},
-	[12009] = {
+	}
+	pg.base.dorm3d_favor[12009] = {
 		char_id = 30707,
 		levelup_trigger_type = 3,
 		id = 12009,
@@ -1193,8 +1395,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[12010] = {
+	}
+	pg.base.dorm3d_favor[12010] = {
 		char_id = 30707,
 		levelup_trigger_type = 3,
 		id = 12010,
@@ -1209,8 +1411,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[12011] = {
+	}
+	pg.base.dorm3d_favor[12011] = {
 		char_id = 30707,
 		levelup_trigger_type = 3,
 		id = 12011,
@@ -1225,8 +1427,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[12012] = {
+	}
+	pg.base.dorm3d_favor[12012] = {
 		char_id = 30707,
 		levelup_trigger_type = 1,
 		id = 12012,
@@ -1247,8 +1449,8 @@ pg.dorm3d_favor = {
 				1
 			}
 		}
-	},
-	[12013] = {
+	}
+	pg.base.dorm3d_favor[12013] = {
 		char_id = 30707,
 		levelup_trigger_type = 1,
 		id = 12013,
@@ -1263,8 +1465,8 @@ pg.dorm3d_favor = {
 				1
 			}
 		}
-	},
-	[12014] = {
+	}
+	pg.base.dorm3d_favor[12014] = {
 		char_id = 30707,
 		levelup_trigger_type = 4,
 		id = 12014,
@@ -1279,8 +1481,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[12015] = {
+	}
+	pg.base.dorm3d_favor[12015] = {
 		char_id = 30707,
 		levelup_trigger_type = 3,
 		id = 12015,
@@ -1295,8 +1497,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[14001] = {
+	}
+	pg.base.dorm3d_favor[14001] = {
 		char_id = 49905,
 		levelup_trigger_type = 1,
 		id = 14001,
@@ -1305,8 +1507,8 @@ pg.dorm3d_favor = {
 		level = 1,
 		levelup_item = {},
 		levelup_client_item = {}
-	},
-	[14002] = {
+	}
+	pg.base.dorm3d_favor[14002] = {
 		char_id = 49905,
 		levelup_trigger_type = 2,
 		id = 14002,
@@ -1326,8 +1528,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[14003] = {
+	}
+	pg.base.dorm3d_favor[14003] = {
 		char_id = 49905,
 		levelup_trigger_type = 2,
 		id = 14003,
@@ -1342,8 +1544,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[14004] = {
+	}
+	pg.base.dorm3d_favor[14004] = {
 		char_id = 49905,
 		levelup_trigger_type = 2,
 		id = 14004,
@@ -1364,8 +1566,8 @@ pg.dorm3d_favor = {
 				1
 			}
 		}
-	},
-	[14005] = {
+	}
+	pg.base.dorm3d_favor[14005] = {
 		char_id = 49905,
 		levelup_trigger_type = 1,
 		id = 14005,
@@ -1380,8 +1582,8 @@ pg.dorm3d_favor = {
 				1
 			}
 		}
-	},
-	[14006] = {
+	}
+	pg.base.dorm3d_favor[14006] = {
 		char_id = 49905,
 		levelup_trigger_type = 2,
 		id = 14006,
@@ -1396,8 +1598,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[14007] = {
+	}
+	pg.base.dorm3d_favor[14007] = {
 		char_id = 49905,
 		levelup_trigger_type = 1,
 		id = 14007,
@@ -1412,8 +1614,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[14008] = {
+	}
+	pg.base.dorm3d_favor[14008] = {
 		char_id = 49905,
 		levelup_trigger_type = 1,
 		id = 14008,
@@ -1434,8 +1636,8 @@ pg.dorm3d_favor = {
 				1
 			}
 		}
-	},
-	[14009] = {
+	}
+	pg.base.dorm3d_favor[14009] = {
 		char_id = 49905,
 		levelup_trigger_type = 3,
 		id = 14009,
@@ -1450,8 +1652,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[14010] = {
+	}
+	pg.base.dorm3d_favor[14010] = {
 		char_id = 49905,
 		levelup_trigger_type = 3,
 		id = 14010,
@@ -1466,8 +1668,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[14011] = {
+	}
+	pg.base.dorm3d_favor[14011] = {
 		char_id = 49905,
 		levelup_trigger_type = 3,
 		id = 14011,
@@ -1482,8 +1684,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[14012] = {
+	}
+	pg.base.dorm3d_favor[14012] = {
 		char_id = 49905,
 		levelup_trigger_type = 1,
 		id = 14012,
@@ -1504,8 +1706,8 @@ pg.dorm3d_favor = {
 				1
 			}
 		}
-	},
-	[14013] = {
+	}
+	pg.base.dorm3d_favor[14013] = {
 		char_id = 49905,
 		levelup_trigger_type = 1,
 		id = 14013,
@@ -1520,8 +1722,8 @@ pg.dorm3d_favor = {
 				1
 			}
 		}
-	},
-	[14014] = {
+	}
+	pg.base.dorm3d_favor[14014] = {
 		char_id = 49905,
 		levelup_trigger_type = 4,
 		id = 14014,
@@ -1536,8 +1738,8 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	[14015] = {
+	}
+	pg.base.dorm3d_favor[14015] = {
 		char_id = 49905,
 		levelup_trigger_type = 3,
 		id = 14015,
@@ -1552,201 +1754,5 @@ pg.dorm3d_favor = {
 			}
 		},
 		levelup_client_item = {}
-	},
-	get_id_list_by_char_id = {
-		[20220] = {
-			1001,
-			1002,
-			1003,
-			1004,
-			1005,
-			1006,
-			1007,
-			1008,
-			1009,
-			1010,
-			1011,
-			1012,
-			1013,
-			1014,
-			1015
-		},
-		[30221] = {
-			2001,
-			2002,
-			2003,
-			2004,
-			2005,
-			2006,
-			2007,
-			2008,
-			2009,
-			2010,
-			2011,
-			2012,
-			2013,
-			2014,
-			2015
-		},
-		[19903] = {
-			3001,
-			3002,
-			3003,
-			3004,
-			3005,
-			3006,
-			3007,
-			3008,
-			3009,
-			3010,
-			3011,
-			3012,
-			3013,
-			3014,
-			3015
-		},
-		[10517] = {
-			11001,
-			11002,
-			11003,
-			11004,
-			11005,
-			11006,
-			11007,
-			11008,
-			11009,
-			11010,
-			11011,
-			11012,
-			11013,
-			11014,
-			11015
-		},
-		[30707] = {
-			12001,
-			12002,
-			12003,
-			12004,
-			12005,
-			12006,
-			12007,
-			12008,
-			12009,
-			12010,
-			12011,
-			12012,
-			12013,
-			12014,
-			12015
-		},
-		[49905] = {
-			14001,
-			14002,
-			14003,
-			14004,
-			14005,
-			14006,
-			14007,
-			14008,
-			14009,
-			14010,
-			14011,
-			14012,
-			14013,
-			14014,
-			14015
-		}
-	},
-	all = {
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1007,
-		1008,
-		1009,
-		1010,
-		1011,
-		1012,
-		1013,
-		1014,
-		1015,
-		2001,
-		2002,
-		2003,
-		2004,
-		2005,
-		2006,
-		2007,
-		2008,
-		2009,
-		2010,
-		2011,
-		2012,
-		2013,
-		2014,
-		2015,
-		3001,
-		3002,
-		3003,
-		3004,
-		3005,
-		3006,
-		3007,
-		3008,
-		3009,
-		3010,
-		3011,
-		3012,
-		3013,
-		3014,
-		3015,
-		11001,
-		11002,
-		11003,
-		11004,
-		11005,
-		11006,
-		11007,
-		11008,
-		11009,
-		11010,
-		11011,
-		11012,
-		11013,
-		11014,
-		11015,
-		12001,
-		12002,
-		12003,
-		12004,
-		12005,
-		12006,
-		12007,
-		12008,
-		12009,
-		12010,
-		12011,
-		12012,
-		12013,
-		12014,
-		12015,
-		14001,
-		14002,
-		14003,
-		14004,
-		14005,
-		14006,
-		14007,
-		14008,
-		14009,
-		14010,
-		14011,
-		14012,
-		14013,
-		14014,
-		14015
 	}
-}
+end)()

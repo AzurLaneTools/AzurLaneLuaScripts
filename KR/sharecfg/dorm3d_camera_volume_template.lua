@@ -1,6 +1,17 @@
 pg = pg or {}
-pg.dorm3d_camera_volume_template = {
-	[2] = {
+pg.dorm3d_camera_volume_template = rawget(pg, "dorm3d_camera_volume_template") or setmetatable({
+	__name = "dorm3d_camera_volume_template"
+}, confNEO)
+pg.dorm3d_camera_volume_template.all = {
+	2,
+	3,
+	4
+}
+pg.base = pg.base or {}
+pg.base.dorm3d_camera_volume_template = {}
+
+(function ()
+	pg.base.dorm3d_camera_volume_template[2] = {
 		unlock_text = "친밀도 Lv1 달성 시 오픈",
 		name = "콘트라스트",
 		volume = "contrast_volume",
@@ -9,8 +20,8 @@ pg.dorm3d_camera_volume_template = {
 		rarity = 2,
 		desc = "획득하면 카메라 기능에서 「콘트라스트」 필터 적용 가능",
 		unlock = {}
-	},
-	[3] = {
+	}
+	pg.base.dorm3d_camera_volume_template[3] = {
 		unlock_text = "친밀도 Lv9 달성 시 오픈",
 		name = "트와일라잇",
 		volume = "dusk_volume",
@@ -23,8 +34,8 @@ pg.dorm3d_camera_volume_template = {
 			20220,
 			9
 		}
-	},
-	[4] = {
+	}
+	pg.base.dorm3d_camera_volume_template[4] = {
 		unlock_text = "친밀도 Lv13 달성 시 오픈",
 		name = "소프트 라이트",
 		volume = "soft_volume",
@@ -37,10 +48,5 @@ pg.dorm3d_camera_volume_template = {
 			20220,
 			13
 		}
-	},
-	all = {
-		2,
-		3,
-		4
 	}
-}
+end)()

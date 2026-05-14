@@ -1,6 +1,96 @@
 pg = pg or {}
-pg.child_item = {
-	{
+pg.child_item = rawget(pg, "child_item") or setmetatable({
+	__name = "child_item"
+}, confNEO)
+pg.child_item.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	47,
+	51,
+	52,
+	53,
+	54,
+	55,
+	56,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	110,
+	121,
+	131,
+	132,
+	134,
+	135,
+	151,
+	161,
+	162,
+	163,
+	164,
+	165,
+	166,
+	167,
+	168,
+	201,
+	202,
+	203,
+	204,
+	205,
+	206,
+	207,
+	208,
+	209,
+	210,
+	211,
+	212,
+	213,
+	214,
+	215,
+	216,
+	217,
+	218,
+	301,
+	302
+}
+pg.base = pg.base or {}
+pg.base.child_item = {}
+
+(function ()
+	pg.base.child_item[1] = {
 		name = "쥬쥬 밀크티",
 		rarity = 2,
 		type = 4,
@@ -17,8 +107,8 @@ pg.child_item = {
 				2
 			}
 		}
-	},
-	{
+	}
+	pg.base.child_item[2] = {
 		name = "딸기 우유",
 		rarity = 1,
 		type = 4,
@@ -35,8 +125,8 @@ pg.child_item = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.child_item[3] = {
 		name = "레몬 허니 드링크",
 		rarity = 2,
 		type = 4,
@@ -58,8 +148,8 @@ pg.child_item = {
 				10
 			}
 		}
-	},
-	{
+	}
+	pg.base.child_item[4] = {
 		name = "바나나 코코넛 드링크",
 		rarity = 2,
 		type = 4,
@@ -81,8 +171,8 @@ pg.child_item = {
 				10
 			}
 		}
-	},
-	{
+	}
+	pg.base.child_item[5] = {
 		name = "멜론 더블",
 		rarity = 2,
 		type = 4,
@@ -104,8 +194,8 @@ pg.child_item = {
 				10
 			}
 		}
-	},
-	{
+	}
+	pg.base.child_item[6] = {
 		name = "아이스 밀크셰이크",
 		rarity = 3,
 		type = 4,
@@ -122,8 +212,8 @@ pg.child_item = {
 				3
 			}
 		}
-	},
-	[11] = {
+	}
+	pg.base.child_item[11] = {
 		name = "오므라이스",
 		rarity = 2,
 		type = 4,
@@ -145,8 +235,8 @@ pg.child_item = {
 				10
 			}
 		}
-	},
-	[12] = {
+	}
+	pg.base.child_item[12] = {
 		name = "스튜 팟파이",
 		rarity = 3,
 		type = 4,
@@ -163,8 +253,8 @@ pg.child_item = {
 				1
 			}
 		}
-	},
-	[13] = {
+	}
+	pg.base.child_item[13] = {
 		name = "마카롱",
 		rarity = 3,
 		type = 4,
@@ -181,8 +271,8 @@ pg.child_item = {
 				1
 			}
 		}
-	},
-	[14] = {
+	}
+	pg.base.child_item[14] = {
 		name = "수박 크림 피자",
 		rarity = 3,
 		type = 4,
@@ -199,8 +289,8 @@ pg.child_item = {
 				1
 			}
 		}
-	},
-	[15] = {
+	}
+	pg.base.child_item[15] = {
 		name = "바나나 크레페",
 		rarity = 4,
 		type = 4,
@@ -217,8 +307,8 @@ pg.child_item = {
 				2
 			}
 		}
-	},
-	[16] = {
+	}
+	pg.base.child_item[16] = {
 		name = "돈까스 샌드위치",
 		rarity = 4,
 		type = 4,
@@ -235,8 +325,8 @@ pg.child_item = {
 				2
 			}
 		}
-	},
-	[17] = {
+	}
+	pg.base.child_item[17] = {
 		name = "고기 바질 조림",
 		rarity = 4,
 		type = 4,
@@ -253,8 +343,8 @@ pg.child_item = {
 				2
 			}
 		}
-	},
-	[21] = {
+	}
+	pg.base.child_item[21] = {
 		name = "초보자용 낚싯대",
 		rarity = 2,
 		type = 3,
@@ -276,8 +366,8 @@ pg.child_item = {
 				5
 			}
 		}
-	},
-	[22] = {
+	}
+	pg.base.child_item[22] = {
 		name = "쇠도끼",
 		rarity = 2,
 		type = 3,
@@ -294,8 +384,8 @@ pg.child_item = {
 				15
 			}
 		}
-	},
-	[23] = {
+	}
+	pg.base.child_item[23] = {
 		name = "중급자용 낚싯대",
 		rarity = 3,
 		type = 3,
@@ -317,8 +407,8 @@ pg.child_item = {
 				10
 			}
 		}
-	},
-	[24] = {
+	}
+	pg.base.child_item[24] = {
 		name = "은도끼",
 		rarity = 3,
 		type = 3,
@@ -335,8 +425,8 @@ pg.child_item = {
 				30
 			}
 		}
-	},
-	[25] = {
+	}
+	pg.base.child_item[25] = {
 		name = "전문가용 낚싯대",
 		rarity = 4,
 		type = 3,
@@ -353,8 +443,8 @@ pg.child_item = {
 				5
 			}
 		}
-	},
-	[26] = {
+	}
+	pg.base.child_item[26] = {
 		name = "금도끼",
 		rarity = 4,
 		type = 3,
@@ -371,8 +461,8 @@ pg.child_item = {
 				5
 			}
 		}
-	},
-	[31] = {
+	}
+	pg.base.child_item[31] = {
 		name = "<제로부터 시작하는 로열 메이드 생활>",
 		rarity = 1,
 		type = 1,
@@ -394,8 +484,8 @@ pg.child_item = {
 				5
 			}
 		}
-	},
-	[32] = {
+	}
+	pg.base.child_item[32] = {
 		name = "<소넷 15>",
 		rarity = 1,
 		type = 1,
@@ -417,8 +507,8 @@ pg.child_item = {
 				5
 			}
 		}
-	},
-	[33] = {
+	}
+	pg.base.child_item[33] = {
 		name = "<의장 관리 지침서>",
 		rarity = 1,
 		type = 1,
@@ -440,8 +530,8 @@ pg.child_item = {
 				5
 			}
 		}
-	},
-	[34] = {
+	}
+	pg.base.child_item[34] = {
 		name = "<지휘관의 마음을 사로잡는 방법>",
 		rarity = 2,
 		type = 1,
@@ -458,8 +548,8 @@ pg.child_item = {
 				30
 			}
 		}
-	},
-	[35] = {
+	}
+	pg.base.child_item[35] = {
 		name = "<천재의 발명 가이드!>",
 		rarity = 2,
 		type = 1,
@@ -476,8 +566,8 @@ pg.child_item = {
 				30
 			}
 		}
-	},
-	[36] = {
+	}
+	pg.base.child_item[36] = {
 		name = "<두근두근 홀리데이 트래블>",
 		rarity = 2,
 		type = 1,
@@ -494,8 +584,8 @@ pg.child_item = {
 				30
 			}
 		}
-	},
-	[41] = {
+	}
+	pg.base.child_item[41] = {
 		name = "레코드",
 		rarity = 3,
 		type = 2,
@@ -512,8 +602,8 @@ pg.child_item = {
 				3
 			}
 		}
-	},
-	[42] = {
+	}
+	pg.base.child_item[42] = {
 		name = "마이크",
 		rarity = 3,
 		type = 2,
@@ -530,8 +620,8 @@ pg.child_item = {
 				3
 			}
 		}
-	},
-	[43] = {
+	}
+	pg.base.child_item[43] = {
 		name = "클라리넷",
 		rarity = 3,
 		type = 2,
@@ -553,8 +643,8 @@ pg.child_item = {
 				2
 			}
 		}
-	},
-	[44] = {
+	}
+	pg.base.child_item[44] = {
 		name = "하프",
 		rarity = 4,
 		type = 2,
@@ -571,8 +661,8 @@ pg.child_item = {
 				5
 			}
 		}
-	},
-	[45] = {
+	}
+	pg.base.child_item[45] = {
 		name = "바이올린",
 		rarity = 4,
 		type = 2,
@@ -594,8 +684,8 @@ pg.child_item = {
 				5
 			}
 		}
-	},
-	[46] = {
+	}
+	pg.base.child_item[46] = {
 		name = "피아노",
 		rarity = 4,
 		type = 2,
@@ -612,8 +702,8 @@ pg.child_item = {
 				5
 			}
 		}
-	},
-	[47] = {
+	}
+	pg.base.child_item[47] = {
 		name = "트럼펫",
 		rarity = 4,
 		type = 2,
@@ -635,8 +725,8 @@ pg.child_item = {
 				2
 			}
 		}
-	},
-	[51] = {
+	}
+	pg.base.child_item[51] = {
 		name = "하얀 진주",
 		rarity = 3,
 		type = 4,
@@ -653,8 +743,8 @@ pg.child_item = {
 				2
 			}
 		}
-	},
-	[52] = {
+	}
+	pg.base.child_item[52] = {
 		name = "조가비 장식",
 		rarity = 4,
 		type = 4,
@@ -671,8 +761,8 @@ pg.child_item = {
 				5
 			}
 		}
-	},
-	[53] = {
+	}
+	pg.base.child_item[53] = {
 		name = "문어 인형",
 		rarity = 3,
 		type = 4,
@@ -689,8 +779,8 @@ pg.child_item = {
 				2
 			}
 		}
-	},
-	[54] = {
+	}
+	pg.base.child_item[54] = {
 		name = "소원을 담은 병",
 		rarity = 4,
 		type = 4,
@@ -707,8 +797,8 @@ pg.child_item = {
 				5
 			}
 		}
-	},
-	[55] = {
+	}
+	pg.base.child_item[55] = {
 		name = "매직 셸",
 		rarity = 3,
 		type = 4,
@@ -730,8 +820,8 @@ pg.child_item = {
 				1
 			}
 		}
-	},
-	[56] = {
+	}
+	pg.base.child_item[56] = {
 		name = "코코넛",
 		rarity = 3,
 		type = 4,
@@ -753,8 +843,8 @@ pg.child_item = {
 				1
 			}
 		}
-	},
-	[101] = {
+	}
+	pg.base.child_item[101] = {
 		name = "양상추찜",
 		rarity = 2,
 		type = 4,
@@ -771,8 +861,8 @@ pg.child_item = {
 				20
 			}
 		}
-	},
-	[102] = {
+	}
+	pg.base.child_item[102] = {
 		name = "허니 폭찹",
 		rarity = 2,
 		type = 4,
@@ -789,8 +879,8 @@ pg.child_item = {
 				20
 			}
 		}
-	},
-	[103] = {
+	}
+	pg.base.child_item[103] = {
 		name = "스튜 팟파이",
 		rarity = 2,
 		type = 4,
@@ -807,8 +897,8 @@ pg.child_item = {
 				20
 			}
 		}
-	},
-	[104] = {
+	}
+	pg.base.child_item[104] = {
 		name = "만두 모둠",
 		rarity = 2,
 		type = 4,
@@ -825,8 +915,8 @@ pg.child_item = {
 				20
 			}
 		}
-	},
-	[105] = {
+	}
+	pg.base.child_item[105] = {
 		name = "마파두부",
 		rarity = 3,
 		type = 4,
@@ -843,8 +933,8 @@ pg.child_item = {
 				1
 			}
 		}
-	},
-	[106] = {
+	}
+	pg.base.child_item[106] = {
 		name = "바나나 크레페",
 		rarity = 3,
 		type = 4,
@@ -861,8 +951,8 @@ pg.child_item = {
 				1
 			}
 		}
-	},
-	[107] = {
+	}
+	pg.base.child_item[107] = {
 		name = "잡탕",
 		rarity = 3,
 		type = 4,
@@ -879,8 +969,8 @@ pg.child_item = {
 				1
 			}
 		}
-	},
-	[108] = {
+	}
+	pg.base.child_item[108] = {
 		name = "로즈마리맛 램 스페어립",
 		rarity = 3,
 		type = 4,
@@ -897,8 +987,8 @@ pg.child_item = {
 				1
 			}
 		}
-	},
-	[109] = {
+	}
+	pg.base.child_item[109] = {
 		name = "돈까스 샌드위치",
 		rarity = 3,
 		type = 4,
@@ -915,8 +1005,8 @@ pg.child_item = {
 				1
 			}
 		}
-	},
-	[110] = {
+	}
+	pg.base.child_item[110] = {
 		name = "정체불명의 요리",
 		rarity = 3,
 		type = 4,
@@ -933,8 +1023,8 @@ pg.child_item = {
 				1
 			}
 		}
-	},
-	[121] = {
+	}
+	pg.base.child_item[121] = {
 		name = "그림 작품",
 		rarity = 3,
 		type = 4,
@@ -951,8 +1041,8 @@ pg.child_item = {
 				20
 			}
 		}
-	},
-	[131] = {
+	}
+	pg.base.child_item[131] = {
 		name = "민물 새우",
 		rarity = 2,
 		type = 4,
@@ -969,8 +1059,8 @@ pg.child_item = {
 				10
 			}
 		}
-	},
-	[132] = {
+	}
+	pg.base.child_item[132] = {
 		name = "작은 물고기",
 		rarity = 2,
 		type = 4,
@@ -987,8 +1077,8 @@ pg.child_item = {
 				10
 			}
 		}
-	},
-	[134] = {
+	}
+	pg.base.child_item[134] = {
 		name = "커다란 물고기",
 		rarity = 2,
 		type = 4,
@@ -1005,8 +1095,8 @@ pg.child_item = {
 				10
 			}
 		}
-	},
-	[135] = {
+	}
+	pg.base.child_item[135] = {
 		name = "바닷가재",
 		rarity = 2,
 		type = 4,
@@ -1023,8 +1113,8 @@ pg.child_item = {
 				10
 			}
 		}
-	},
-	[151] = {
+	}
+	pg.base.child_item[151] = {
 		name = "사진",
 		rarity = 2,
 		type = 4,
@@ -1041,8 +1131,8 @@ pg.child_item = {
 				20
 			}
 		}
-	},
-	[161] = {
+	}
+	pg.base.child_item[161] = {
 		name = "수상 기념장 - 공모 문학상",
 		rarity = 4,
 		type = 4,
@@ -1053,8 +1143,8 @@ pg.child_item = {
 		id = 161,
 		icon = "161",
 		display = {}
-	},
-	[162] = {
+	}
+	pg.base.child_item[162] = {
 		name = "수상 기념장 - 사진 콘테스트",
 		rarity = 4,
 		type = 4,
@@ -1065,8 +1155,8 @@ pg.child_item = {
 		id = 162,
 		icon = "162",
 		display = {}
-	},
-	[163] = {
+	}
+	pg.base.child_item[163] = {
 		name = "수상 기념장 – 대운동회",
 		rarity = 4,
 		type = 4,
@@ -1077,8 +1167,8 @@ pg.child_item = {
 		id = 163,
 		icon = "163",
 		display = {}
-	},
-	[164] = {
+	}
+	pg.base.child_item[164] = {
 		name = "수상 기념장 - 그림 콘테스트",
 		rarity = 4,
 		type = 4,
@@ -1089,8 +1179,8 @@ pg.child_item = {
 		id = 164,
 		icon = "164",
 		display = {}
-	},
-	[165] = {
+	}
+	pg.base.child_item[165] = {
 		name = "수상 기념장 - 요리 대회",
 		rarity = 4,
 		type = 4,
@@ -1101,8 +1191,8 @@ pg.child_item = {
 		id = 165,
 		icon = "165",
 		display = {}
-	},
-	[166] = {
+	}
+	pg.base.child_item[166] = {
 		name = "수상 기념장 - 낚시 대회",
 		rarity = 4,
 		type = 4,
@@ -1113,8 +1203,8 @@ pg.child_item = {
 		id = 166,
 		icon = "166",
 		display = {}
-	},
-	[167] = {
+	}
+	pg.base.child_item[167] = {
 		name = "수상 기념장 – 노래자랑",
 		rarity = 4,
 		type = 4,
@@ -1125,8 +1215,8 @@ pg.child_item = {
 		id = 167,
 		icon = "167",
 		display = {}
-	},
-	[168] = {
+	}
+	pg.base.child_item[168] = {
 		name = "수상 기념장 - 내일의 스타상",
 		rarity = 4,
 		type = 4,
@@ -1137,8 +1227,8 @@ pg.child_item = {
 		id = 168,
 		icon = "168",
 		display = {}
-	},
-	[201] = {
+	}
+	pg.base.child_item[201] = {
 		name = "육성 목표 달성 기념·Ⅰ",
 		rarity = 3,
 		type = 4,
@@ -1165,8 +1255,8 @@ pg.child_item = {
 				10
 			}
 		}
-	},
-	[202] = {
+	}
+	pg.base.child_item[202] = {
 		name = "육성 목표 달성 기념·Ⅰ",
 		rarity = 3,
 		type = 4,
@@ -1193,8 +1283,8 @@ pg.child_item = {
 				10
 			}
 		}
-	},
-	[203] = {
+	}
+	pg.base.child_item[203] = {
 		name = "육성 목표 달성 기념·Ⅰ",
 		rarity = 3,
 		type = 4,
@@ -1221,8 +1311,8 @@ pg.child_item = {
 				10
 			}
 		}
-	},
-	[204] = {
+	}
+	pg.base.child_item[204] = {
 		name = "육성 목표 달성 기념·Ⅰ",
 		rarity = 3,
 		type = 4,
@@ -1249,8 +1339,8 @@ pg.child_item = {
 				10
 			}
 		}
-	},
-	[205] = {
+	}
+	pg.base.child_item[205] = {
 		name = "육성 목표 달성 기념·Ⅰ",
 		rarity = 3,
 		type = 4,
@@ -1277,8 +1367,8 @@ pg.child_item = {
 				15
 			}
 		}
-	},
-	[206] = {
+	}
+	pg.base.child_item[206] = {
 		name = "육성 목표 달성 기념·Ⅱ",
 		rarity = 3,
 		type = 4,
@@ -1305,8 +1395,8 @@ pg.child_item = {
 				15
 			}
 		}
-	},
-	[207] = {
+	}
+	pg.base.child_item[207] = {
 		name = "육성 목표 달성 기념·Ⅱ",
 		rarity = 3,
 		type = 4,
@@ -1333,8 +1423,8 @@ pg.child_item = {
 				15
 			}
 		}
-	},
-	[208] = {
+	}
+	pg.base.child_item[208] = {
 		name = "육성 목표 달성 기념·Ⅱ",
 		rarity = 3,
 		type = 4,
@@ -1361,8 +1451,8 @@ pg.child_item = {
 				15
 			}
 		}
-	},
-	[209] = {
+	}
+	pg.base.child_item[209] = {
 		name = "육성 목표 달성 기념·Ⅲ",
 		rarity = 3,
 		type = 4,
@@ -1399,8 +1489,8 @@ pg.child_item = {
 				20
 			}
 		}
-	},
-	[210] = {
+	}
+	pg.base.child_item[210] = {
 		name = "육성 목표 달성 기념·Ⅲ",
 		rarity = 3,
 		type = 4,
@@ -1437,8 +1527,8 @@ pg.child_item = {
 				20
 			}
 		}
-	},
-	[211] = {
+	}
+	pg.base.child_item[211] = {
 		name = "육성 목표 달성 기념·Ⅲ",
 		rarity = 3,
 		type = 4,
@@ -1470,8 +1560,8 @@ pg.child_item = {
 				20
 			}
 		}
-	},
-	[212] = {
+	}
+	pg.base.child_item[212] = {
 		name = "육성 목표 달성 기념·Ⅲ",
 		rarity = 3,
 		type = 4,
@@ -1503,8 +1593,8 @@ pg.child_item = {
 				20
 			}
 		}
-	},
-	[213] = {
+	}
+	pg.base.child_item[213] = {
 		name = "육성 목표 달성 기념·Ⅳ",
 		rarity = 4,
 		type = 4,
@@ -1531,8 +1621,8 @@ pg.child_item = {
 				20
 			}
 		}
-	},
-	[214] = {
+	}
+	pg.base.child_item[214] = {
 		name = "육성 목표 달성 기념·Ⅳ",
 		rarity = 4,
 		type = 4,
@@ -1559,8 +1649,8 @@ pg.child_item = {
 				20
 			}
 		}
-	},
-	[215] = {
+	}
+	pg.base.child_item[215] = {
 		name = "육성 목표 달성 기념·Ⅳ",
 		rarity = 4,
 		type = 4,
@@ -1587,8 +1677,8 @@ pg.child_item = {
 				20
 			}
 		}
-	},
-	[216] = {
+	}
+	pg.base.child_item[216] = {
 		name = "육성 목표 달성 기념·Ⅳ",
 		rarity = 4,
 		type = 4,
@@ -1615,8 +1705,8 @@ pg.child_item = {
 				20
 			}
 		}
-	},
-	[217] = {
+	}
+	pg.base.child_item[217] = {
 		name = "육성 목표 달성 기념·Ⅳ",
 		rarity = 4,
 		type = 4,
@@ -1643,8 +1733,8 @@ pg.child_item = {
 				20
 			}
 		}
-	},
-	[218] = {
+	}
+	pg.base.child_item[218] = {
 		name = "육성 목표 달성 기념·Ⅳ",
 		rarity = 4,
 		type = 4,
@@ -1671,8 +1761,8 @@ pg.child_item = {
 				20
 			}
 		}
-	},
-	[301] = {
+	}
+	pg.base.child_item[301] = {
 		name = "주요 목표 달성 기념장",
 		rarity = 1,
 		type = 4,
@@ -1704,8 +1794,8 @@ pg.child_item = {
 				1
 			}
 		}
-	},
-	[302] = {
+	}
+	pg.base.child_item[302] = {
 		name = "육성 목표 진척 Pt",
 		rarity = 1,
 		type = 4,
@@ -1716,89 +1806,5 @@ pg.child_item = {
 		id = 302,
 		icon = "10015",
 		display = {}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46,
-		47,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		110,
-		121,
-		131,
-		132,
-		134,
-		135,
-		151,
-		161,
-		162,
-		163,
-		164,
-		165,
-		166,
-		167,
-		168,
-		201,
-		202,
-		203,
-		204,
-		205,
-		206,
-		207,
-		208,
-		209,
-		210,
-		211,
-		212,
-		213,
-		214,
-		215,
-		216,
-		217,
-		218,
-		301,
-		302
 	}
-}
+end)()

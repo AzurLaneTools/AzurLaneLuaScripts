@@ -1,6 +1,15 @@
 pg = pg or {}
-pg.island_activity_pt_page = {
-	{
+pg.island_activity_pt_page = rawget(pg, "island_activity_pt_page") or setmetatable({
+	__name = "island_activity_pt_page"
+}, confNEO)
+pg.island_activity_pt_page.all = {
+	1
+}
+pg.base = pg.base or {}
+pg.base.island_activity_pt_page = {}
+
+(function ()
+	pg.base.island_activity_pt_page[1] = {
 		activity_id = 990013,
 		point_type = 2,
 		id = 1,
@@ -53,8 +62,5 @@ pg.island_activity_pt_page = {
 				"island_activity_pt_task_reward_tip_4"
 			}
 		}
-	},
-	all = {
-		1
 	}
-}
+end)()

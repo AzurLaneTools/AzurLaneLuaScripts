@@ -28,9 +28,9 @@ slot0.EachGroupTrack = function(slot0, slot1)
 end
 
 slot0.DynamicBinding = function(slot0)
-	slot1 = _.reduce(pg.dorm3d_timeline_dynamic_binding, {}, function (slot0, slot1)
-		if slot1.track_name then
-			slot0[slot1.track_name] = slot1.object_name
+	slot1 = _.reduce(pg.dorm3d_timeline_dynamic_binding.all, {}, function (slot0, slot1)
+		if pg.dorm3d_timeline_dynamic_binding[slot1].track_name then
+			slot0[slot2.track_name] = slot2.object_name
 		end
 
 		return slot0

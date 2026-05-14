@@ -1,218 +1,221 @@
 pg = pg or {}
-pg.pay_data_display = setmetatable({
-	__name = "pay_data_display",
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		39,
-		40,
-		41,
-		44,
-		45,
-		46,
-		47,
-		48,
-		49,
-		50,
-		51,
-		52,
-		53,
-		55,
-		56,
-		57,
-		61,
-		62,
-		63,
-		64,
-		65,
-		66,
-		67,
-		68,
-		69,
-		70,
-		71,
-		72,
-		73,
-		74,
-		75,
-		76,
-		77,
-		78,
-		79,
-		80,
-		81,
-		82,
-		83,
-		84,
-		85,
-		86,
-		87,
-		88,
-		89,
-		90,
-		91,
-		92,
-		93,
-		94,
-		95,
-		96,
-		97,
-		98,
-		99,
-		9001,
-		9002,
-		9003,
-		9004,
-		9005,
-		9006,
-		9007,
-		9008,
-		9009,
-		9010,
-		9011,
-		9012,
-		9013,
-		9014,
-		1000,
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1007,
-		1008,
-		1009,
-		1010,
-		1011,
-		1012,
-		1013,
-		1014,
-		1015,
-		1016,
-		1017,
-		1018,
-		1019,
-		1020,
-		1021,
-		1022,
-		1023,
-		1024,
-		1025,
-		1026,
-		1027,
-		1304,
-		2001,
-		2002,
-		2003,
-		2004,
-		2005,
-		2006,
-		2007,
-		2008,
-		2009,
-		2010,
-		2011,
-		2014,
-		2015,
-		2016,
-		2017,
-		2018,
-		2019,
-		2020,
-		2021,
-		2022,
-		2023,
-		2024,
-		2025,
-		2026,
-		2027,
-		2028,
-		2029,
-		2030,
-		2031,
-		2032,
-		2033,
-		2034,
-		2035,
-		2036,
-		2037,
-		2038,
-		2039,
-		2040,
-		2041,
-		2042,
-		2043,
-		2044,
-		2045,
-		2046,
-		2047,
-		2048,
-		2049,
-		2050,
-		2051,
-		2052,
-		2053,
-		2054,
-		2055,
-		2056,
-		2057,
-		2058,
-		2059,
-		2063,
-		2064,
-		2068,
-		2069,
-		2070,
-		2074,
-		2075,
-		2076,
-		5011,
-		5012,
-		5013,
-		5014,
-		5015,
-		5016,
-		5017
-	}
-}, confHX)
+pg.pay_data_display = rawget(pg, "pay_data_display") or setmetatable({
+	__name = "pay_data_display"
+}, confNEO)
+pg.pay_data_display.__namecode__ = true
+pg.pay_data_display.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	39,
+	40,
+	41,
+	44,
+	45,
+	46,
+	47,
+	48,
+	49,
+	50,
+	51,
+	52,
+	53,
+	55,
+	56,
+	57,
+	61,
+	62,
+	63,
+	64,
+	65,
+	66,
+	67,
+	68,
+	69,
+	70,
+	71,
+	72,
+	73,
+	74,
+	75,
+	76,
+	77,
+	78,
+	79,
+	80,
+	81,
+	82,
+	83,
+	84,
+	85,
+	86,
+	87,
+	88,
+	89,
+	90,
+	91,
+	92,
+	93,
+	94,
+	95,
+	96,
+	97,
+	98,
+	99,
+	9001,
+	9002,
+	9003,
+	9004,
+	9005,
+	9006,
+	9007,
+	9008,
+	9009,
+	9010,
+	9011,
+	9012,
+	9013,
+	9014,
+	1000,
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008,
+	1009,
+	1010,
+	1011,
+	1012,
+	1013,
+	1014,
+	1015,
+	1016,
+	1017,
+	1018,
+	1019,
+	1020,
+	1021,
+	1022,
+	1023,
+	1024,
+	1025,
+	1026,
+	1027,
+	1304,
+	2001,
+	2002,
+	2003,
+	2004,
+	2005,
+	2006,
+	2007,
+	2008,
+	2009,
+	2010,
+	2011,
+	2014,
+	2015,
+	2016,
+	2017,
+	2018,
+	2019,
+	2020,
+	2021,
+	2022,
+	2023,
+	2024,
+	2025,
+	2026,
+	2027,
+	2028,
+	2029,
+	2030,
+	2031,
+	2032,
+	2033,
+	2034,
+	2035,
+	2036,
+	2037,
+	2038,
+	2039,
+	2040,
+	2041,
+	2042,
+	2043,
+	2044,
+	2045,
+	2046,
+	2047,
+	2048,
+	2049,
+	2050,
+	2051,
+	2052,
+	2053,
+	2054,
+	2055,
+	2056,
+	2057,
+	2058,
+	2059,
+	2063,
+	2064,
+	2068,
+	2069,
+	2070,
+	2074,
+	2075,
+	2076,
+	5011,
+	5012,
+	5013,
+	5014,
+	5015,
+	5016,
+	5017
+}
 pg.base = pg.base or {}
-pg.base.pay_data_display = {
-	{
+pg.base.pay_data_display = {}
+
+(function ()
+	pg.base.pay_data_display[1] = {
 		picture = "month",
 		name = "무역 허가증 (30일간)",
 		type = 0,
@@ -289,8 +292,8 @@ pg.base.pay_data_display = {
 				500
 			}
 		}
-	},
-	{
+	}
+	pg.base.pay_data_display[2] = {
 		picture = "box1",
 		name = "신규 지원 팩",
 		type = 0,
@@ -367,8 +370,8 @@ pg.base.pay_data_display = {
 				2
 			}
 		}
-	},
-	{
+	}
+	pg.base.pay_data_display[3] = {
 		picture = "1",
 		name = "다이아 몇 개",
 		type = 0,
@@ -407,8 +410,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	{
+	}
+	pg.base.pay_data_display[4] = {
 		picture = "2",
 		name = "다이아 한 줌",
 		type = 0,
@@ -447,8 +450,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	{
+	}
+	pg.base.pay_data_display[5] = {
 		picture = "3",
 		name = "다이아 한 보따리",
 		type = 0,
@@ -487,8 +490,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	{
+	}
+	pg.base.pay_data_display[6] = {
 		picture = "4",
 		name = "다이아 작은 상자",
 		type = 0,
@@ -527,8 +530,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	{
+	}
+	pg.base.pay_data_display[7] = {
 		picture = "5",
 		name = "다이아 큰 상자",
 		type = 0,
@@ -567,8 +570,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	{
+	}
+	pg.base.pay_data_display[8] = {
 		picture = "6",
 		name = "다이아 무역선",
 		type = 0,
@@ -607,8 +610,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[11] = {
+	}
+	pg.base.pay_data_display[11] = {
 		picture = "fudai",
 		name = "아카시 패키지",
 		type = 1,
@@ -725,8 +728,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[12] = {
+	}
+	pg.base.pay_data_display[12] = {
 		picture = "fudai",
 		name = "2019년 복주머니",
 		type = 1,
@@ -843,8 +846,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[13] = {
+	}
+	pg.base.pay_data_display[13] = {
 		picture = "fudai",
 		name = "복주머니",
 		type = 1,
@@ -961,8 +964,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[14] = {
+	}
+	pg.base.pay_data_display[14] = {
 		picture = "lihe1_l",
 		name = "랜덤 스페셜 스킨",
 		type = 1,
@@ -1079,8 +1082,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[15] = {
+	}
+	pg.base.pay_data_display[15] = {
 		picture = "lihe1_l",
 		name = "2019 가을 스킨 패키지 ",
 		type = 1,
@@ -1197,8 +1200,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[16] = {
+	}
+	pg.base.pay_data_display[16] = {
 		picture = "fudai1",
 		name = "신년 패키지(2020)",
 		type = 1,
@@ -1320,8 +1323,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[17] = {
+	}
+	pg.base.pay_data_display[17] = {
 		picture = "fudai",
 		name = "신년 패키지(2019)",
 		type = 1,
@@ -1438,8 +1441,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[18] = {
+	}
+	pg.base.pay_data_display[18] = {
 		picture = "fudai2",
 		name = "복주머니(2020)",
 		type = 1,
@@ -1561,8 +1564,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[19] = {
+	}
+	pg.base.pay_data_display[19] = {
 		picture = "fudai",
 		name = "복주머니(2019)",
 		type = 1,
@@ -1679,8 +1682,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[20] = {
+	}
+	pg.base.pay_data_display[20] = {
 		picture = "support1",
 		name = "신입 지휘관 지원 패키지·I",
 		type = 0,
@@ -1788,8 +1791,8 @@ pg.base.pay_data_display = {
 				180
 			}
 		}
-	},
-	[21] = {
+	}
+	pg.base.pay_data_display[21] = {
 		picture = "support2",
 		name = "신입 지휘관 지원 패키지·II",
 		type = 0,
@@ -1922,8 +1925,8 @@ pg.base.pay_data_display = {
 				780
 			}
 		}
-	},
-	[22] = {
+	}
+	pg.base.pay_data_display[22] = {
 		picture = "support3",
 		name = "신입 지휘관 지원 패키지·III",
 		type = 0,
@@ -2061,8 +2064,8 @@ pg.base.pay_data_display = {
 				1680
 			}
 		}
-	},
-	[23] = {
+	}
+	pg.base.pay_data_display[23] = {
 		picture = "lihe1_l",
 		name = "연회복 패키지 ",
 		type = 1,
@@ -2184,8 +2187,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[24] = {
+	}
+	pg.base.pay_data_display[24] = {
 		picture = "lihe3_l",
 		name = "2020 가을 연회복 패키지",
 		type = 1,
@@ -2307,8 +2310,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[25] = {
+	}
+	pg.base.pay_data_display[25] = {
 		picture = "fudai3",
 		name = "신년 패키지(2021)",
 		type = 1,
@@ -2430,8 +2433,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[26] = {
+	}
+	pg.base.pay_data_display[26] = {
 		picture = "fudai1",
 		name = "신년 패키지 복각(2020)",
 		type = 1,
@@ -2553,8 +2556,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[27] = {
+	}
+	pg.base.pay_data_display[27] = {
 		picture = "fudai4",
 		name = "복주머니(2021)",
 		type = 1,
@@ -2676,8 +2679,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[28] = {
+	}
+	pg.base.pay_data_display[28] = {
 		picture = "fudai2",
 		name = "복주머니(2020)",
 		type = 1,
@@ -2799,8 +2802,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[29] = {
+	}
+	pg.base.pay_data_display[29] = {
 		picture = "lihe6_l",
 		name = "연회복 패키지(2021)",
 		type = 1,
@@ -2922,8 +2925,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[30] = {
+	}
+	pg.base.pay_data_display[30] = {
 		picture = "lihe1_l",
 		name = "연회복 패키지 복각(2020)",
 		type = 1,
@@ -3045,8 +3048,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[31] = {
+	}
+	pg.base.pay_data_display[31] = {
 		picture = "support4",
 		name = "대형 작전 공략 지원팩",
 		type = 1,
@@ -3174,8 +3177,8 @@ pg.base.pay_data_display = {
 				1980
 			}
 		}
-	},
-	[32] = {
+	}
+	pg.base.pay_data_display[32] = {
 		picture = "lihe6_l",
 		name = "2021 가을 연회복 패키지",
 		type = 1,
@@ -3297,8 +3300,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[33] = {
+	}
+	pg.base.pay_data_display[33] = {
 		picture = "lihe3_l",
 		name = "2020 가을 연회복 패키지 복각",
 		type = 1,
@@ -3420,8 +3423,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[34] = {
+	}
+	pg.base.pay_data_display[34] = {
 		picture = "fudai6",
 		name = "신년 패키지(2022)",
 		type = 1,
@@ -3543,8 +3546,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[35] = {
+	}
+	pg.base.pay_data_display[35] = {
 		picture = "fudai3",
 		name = "신년 패키지 복각(2021)",
 		type = 1,
@@ -3666,8 +3669,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[36] = {
+	}
+	pg.base.pay_data_display[36] = {
 		picture = "fudai7",
 		name = "복주머니2022",
 		type = 1,
@@ -3789,8 +3792,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[37] = {
+	}
+	pg.base.pay_data_display[37] = {
 		picture = "fudai4",
 		name = "복주머니 복각(2021)",
 		type = 1,
@@ -3912,8 +3915,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[38] = {
+	}
+	pg.base.pay_data_display[38] = {
 		picture = "lihe8_l",
 		name = "연회복 패키지(2022)",
 		type = 1,
@@ -4035,8 +4038,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[39] = {
+	}
+	pg.base.pay_data_display[39] = {
 		picture = "lihe6_l",
 		name = "연회복 패키지 복각(2021)",
 		type = 1,
@@ -4158,8 +4161,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[40] = {
+	}
+	pg.base.pay_data_display[40] = {
 		picture = "lihe8_l",
 		name = "가을 연회복 패키지(2022)",
 		type = 1,
@@ -4281,8 +4284,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[41] = {
+	}
+	pg.base.pay_data_display[41] = {
 		picture = "lihe6_l",
 		name = "가을 연회복 패키지(2021)",
 		type = 1,
@@ -4404,8 +4407,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[44] = {
+	}
+	pg.base.pay_data_display[44] = {
 		picture = "support6",
 		name = "복귀 패키지",
 		type = 1,
@@ -4567,8 +4570,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[45] = {
+	}
+	pg.base.pay_data_display[45] = {
 		picture = "lihe10_l",
 		name = "2023 수영복 패키지·I",
 		type = 1,
@@ -4690,8 +4693,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[46] = {
+	}
+	pg.base.pay_data_display[46] = {
 		picture = "lihe11_l",
 		name = "2023 수영복 패키지·II",
 		type = 1,
@@ -4813,8 +4816,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[47] = {
+	}
+	pg.base.pay_data_display[47] = {
 		picture = "fudai6",
 		name = "연회복 패키지 복각(2022)",
 		type = 1,
@@ -4936,8 +4939,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[48] = {
+	}
+	pg.base.pay_data_display[48] = {
 		picture = "fudaiqp1",
 		name = "2023 춘절 복주머니·I",
 		type = 1,
@@ -5059,8 +5062,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[49] = {
+	}
+	pg.base.pay_data_display[49] = {
 		picture = "fudaiqp2",
 		name = "2023 춘절 복주머니·II",
 		type = 1,
@@ -5182,8 +5185,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[50] = {
+	}
+	pg.base.pay_data_display[50] = {
 		picture = "fudai7",
 		name = "복주머니 복각(2022)",
 		type = 1,
@@ -5305,8 +5308,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[51] = {
+	}
+	pg.base.pay_data_display[51] = {
 		picture = "lihecn6ss_l",
 		name = "여름 수영복 패키지",
 		type = 1,
@@ -5439,8 +5442,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[52] = {
+	}
+	pg.base.pay_data_display[52] = {
 		picture = "liheus6lf_l",
 		name = "연회복 패키지(2023)",
 		type = 1,
@@ -5573,8 +5576,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[53] = {
+	}
+	pg.base.pay_data_display[53] = {
 		picture = "lihe8_l",
 		name = "연회복 패키지 복각(2022)",
 		type = 1,
@@ -5707,8 +5710,8 @@ pg.base.pay_data_display = {
 				2022
 			}
 		}
-	},
-	[55] = {
+	}
+	pg.base.pay_data_display[55] = {
 		picture = "lihejp6lf_l",
 		name = "가을 연회복 패키지(2023)",
 		type = 1,
@@ -5841,8 +5844,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[56] = {
+	}
+	pg.base.pay_data_display[56] = {
 		picture = "lihe8_l",
 		name = "가을 연회복 패키지 복각(2022)",
 		type = 1,
@@ -5975,8 +5978,8 @@ pg.base.pay_data_display = {
 				2022
 			}
 		}
-	},
-	[57] = {
+	}
+	pg.base.pay_data_display[57] = {
 		picture = "lihejp6ss_l",
 		name = "가을 패키지2023 ",
 		type = 1,
@@ -6109,8 +6112,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[61] = {
+	}
+	pg.base.pay_data_display[61] = {
 		picture = "fudai9",
 		name = "현란한 밤 패키지·①",
 		type = 1,
@@ -6243,8 +6246,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[62] = {
+	}
+	pg.base.pay_data_display[62] = {
 		picture = "lihe10_l",
 		name = "수영복 스킨 패키지·① 복각",
 		type = 1,
@@ -6377,8 +6380,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[63] = {
+	}
+	pg.base.pay_data_display[63] = {
 		picture = "fudai10",
 		name = "현란한 밤 패키지·II",
 		type = 1,
@@ -6511,8 +6514,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[64] = {
+	}
+	pg.base.pay_data_display[64] = {
 		picture = "lihe11_l",
 		name = "2023 수영복 패키지·II 복각",
 		type = 1,
@@ -6645,8 +6648,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[65] = {
+	}
+	pg.base.pay_data_display[65] = {
 		picture = "fudai11",
 		name = "2024 춘절 복주머니·I",
 		type = 1,
@@ -6779,8 +6782,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[66] = {
+	}
+	pg.base.pay_data_display[66] = {
 		picture = "fudaiqp1",
 		name = "2023 춘절 복주머니·I 복각",
 		type = 1,
@@ -6913,8 +6916,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[67] = {
+	}
+	pg.base.pay_data_display[67] = {
 		picture = "fudai12",
 		name = "2024 춘절 복주머니·II ",
 		type = 1,
@@ -7047,8 +7050,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[68] = {
+	}
+	pg.base.pay_data_display[68] = {
 		picture = "fudaiqp2",
 		name = "2023 춘절 복주머니·II 복각",
 		type = 1,
@@ -7181,8 +7184,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[69] = {
+	}
+	pg.base.pay_data_display[69] = {
 		picture = "fudai13",
 		name = "수영복 패키지 2024",
 		type = 1,
@@ -7315,8 +7318,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[70] = {
+	}
+	pg.base.pay_data_display[70] = {
 		picture = "lihecn6ss_l",
 		name = "수영복 패키지 2023 (복각)",
 		type = 1,
@@ -7449,8 +7452,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[71] = {
+	}
+	pg.base.pay_data_display[71] = {
 		picture = "fudai14",
 		name = "연회복 패키지 (2024)",
 		type = 1,
@@ -7583,8 +7586,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[72] = {
+	}
+	pg.base.pay_data_display[72] = {
 		picture = "liheus6lf_l",
 		name = "연회복 패키지 (2023) 복각",
 		type = 1,
@@ -7717,8 +7720,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[73] = {
+	}
+	pg.base.pay_data_display[73] = {
 		picture = "fudai15",
 		name = "드림 랜드 스킨 패키지 I",
 		type = 1,
@@ -7851,8 +7854,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[74] = {
+	}
+	pg.base.pay_data_display[74] = {
 		picture = "lihejp6ss_l",
 		name = "가을 패키지 2023·복각",
 		type = 1,
@@ -7985,8 +7988,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[75] = {
+	}
+	pg.base.pay_data_display[75] = {
 		picture = "fudai16",
 		name = "드림 랜드 스킨 패키지 II",
 		type = 1,
@@ -8119,8 +8122,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[76] = {
+	}
+	pg.base.pay_data_display[76] = {
 		picture = "lihejp6lf_l",
 		name = "가을 연회복 패키지 2023·복각",
 		type = 1,
@@ -8253,8 +8256,8 @@ pg.base.pay_data_display = {
 				2023
 			}
 		}
-	},
-	[77] = {
+	}
+	pg.base.pay_data_display[77] = {
 		picture = "pack_2024_98",
 		name = "봄날 선택 패키지1",
 		type = 0,
@@ -8361,8 +8364,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[78] = {
+	}
+	pg.base.pay_data_display[78] = {
 		picture = "pack_2024_198",
 		name = "봄날 선택 패키지2",
 		type = 0,
@@ -8474,8 +8477,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[79] = {
+	}
+	pg.base.pay_data_display[79] = {
 		picture = "pack_2024_328",
 		name = "봄날 선택 패키지3",
 		type = 0,
@@ -8602,8 +8605,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[80] = {
+	}
+	pg.base.pay_data_display[80] = {
 		picture = "fudai17",
 		name = "프리미엄 봄날 할인 패키지(2025) ",
 		type = 1,
@@ -8736,8 +8739,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[81] = {
+	}
+	pg.base.pay_data_display[81] = {
 		picture = "fudai18",
 		name = "봄날 할인 패키지(2025)",
 		type = 1,
@@ -8850,8 +8853,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[82] = {
+	}
+	pg.base.pay_data_display[82] = {
 		picture = "fudai19",
 		name = "게임의 밤 패키지·I",
 		type = 1,
@@ -8984,8 +8987,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[83] = {
+	}
+	pg.base.pay_data_display[83] = {
 		picture = "fudai9",
 		name = "현란한 밤 패키지·I 복각",
 		type = 1,
@@ -9118,8 +9121,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[84] = {
+	}
+	pg.base.pay_data_display[84] = {
 		picture = "fudai20",
 		name = "게임의 밤 패키지·II",
 		type = 1,
@@ -9252,8 +9255,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[85] = {
+	}
+	pg.base.pay_data_display[85] = {
 		picture = "fudai10",
 		name = "현란한 밤 패키지·II (복각)",
 		type = 1,
@@ -9386,8 +9389,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[86] = {
+	}
+	pg.base.pay_data_display[86] = {
 		picture = "fudai21",
 		name = "2025 춘절 복주머니·I",
 		type = 1,
@@ -9520,8 +9523,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[87] = {
+	}
+	pg.base.pay_data_display[87] = {
 		picture = "fudai22",
 		name = "2025 춘절 복주머니·II ",
 		type = 1,
@@ -9654,8 +9657,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[88] = {
+	}
+	pg.base.pay_data_display[88] = {
 		picture = "fudai11",
 		name = "2024 춘절 복주머니·I 복각",
 		type = 1,
@@ -9788,8 +9791,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[89] = {
+	}
+	pg.base.pay_data_display[89] = {
 		picture = "fudai12",
 		name = "2024 춘절 복주머니·II 복각",
 		type = 1,
@@ -9922,8 +9925,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[90] = {
+	}
+	pg.base.pay_data_display[90] = {
 		picture = "fudai23",
 		name = "스킨 패키지(학교 생활)",
 		type = 1,
@@ -10036,8 +10039,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[91] = {
+	}
+	pg.base.pay_data_display[91] = {
 		picture = "fudai24",
 		name = "수영복 패키지(2025)·I",
 		type = 1,
@@ -10170,8 +10173,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[92] = {
+	}
+	pg.base.pay_data_display[92] = {
 		picture = "fudai13",
 		name = "수영복 패키지(2024)·I  (복각)",
 		type = 1,
@@ -10304,8 +10307,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[93] = {
+	}
+	pg.base.pay_data_display[93] = {
 		picture = "fudai25",
 		name = "수영복 패키지(2025)·II",
 		type = 1,
@@ -10438,8 +10441,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[94] = {
+	}
+	pg.base.pay_data_display[94] = {
 		picture = "fudai14",
 		name = "연회복 패키지(2024) 복각",
 		type = 1,
@@ -10572,8 +10575,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[95] = {
+	}
+	pg.base.pay_data_display[95] = {
 		picture = "fudai26",
 		name = "스킨 패키지(카니발)",
 		type = 1,
@@ -10686,8 +10689,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[96] = {
+	}
+	pg.base.pay_data_display[96] = {
 		picture = "fudai27",
 		name = "닌자의 성 스킨 패키지 I",
 		type = 1,
@@ -10820,8 +10823,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[97] = {
+	}
+	pg.base.pay_data_display[97] = {
 		picture = "fudai15",
 		name = "드림 랜드 스킨 패키지 I 복각",
 		type = 1,
@@ -10954,8 +10957,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[98] = {
+	}
+	pg.base.pay_data_display[98] = {
 		picture = "fudai28",
 		name = "닌자의 성 스킨 패키지 II",
 		type = 1,
@@ -11088,8 +11091,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[99] = {
+	}
+	pg.base.pay_data_display[99] = {
 		picture = "fudai16",
 		name = "드림 랜드 스킨 패키지 II 복각",
 		type = 1,
@@ -11222,8 +11225,8 @@ pg.base.pay_data_display = {
 				2024
 			}
 		}
-	},
-	[9001] = {
+	}
+	pg.base.pay_data_display[9001] = {
 		picture = "fudai29",
 		name = "스킨 패키지(스포츠, 레이스퀸)",
 		type = 1,
@@ -11336,8 +11339,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[9002] = {
+	}
+	pg.base.pay_data_display[9002] = {
 		picture = "pack_2024_98",
 		name = "봄날 선택 패키지1(2026)",
 		type = 0,
@@ -11444,8 +11447,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[9003] = {
+	}
+	pg.base.pay_data_display[9003] = {
 		picture = "pack_2024_198",
 		name = "봄날 선택 패키지2(2026)",
 		type = 0,
@@ -11557,8 +11560,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[9004] = {
+	}
+	pg.base.pay_data_display[9004] = {
 		picture = "pack_2024_328",
 		name = "봄날 선택 패키지3(2026)",
 		type = 0,
@@ -11685,8 +11688,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[9005] = {
+	}
+	pg.base.pay_data_display[9005] = {
 		picture = "fudai_L2d_new",
 		name = "봄날 할인 패키지(2026)",
 		type = 1,
@@ -11799,8 +11802,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[9006] = {
+	}
+	pg.base.pay_data_display[9006] = {
 		picture = "fudai99",
 		name = "프리미엄 봄날 할인 패키지(2026)",
 		type = 1,
@@ -11933,8 +11936,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[9007] = {
+	}
+	pg.base.pay_data_display[9007] = {
 		picture = "fudai30",
 		name = "축제의 밤 패키지·I",
 		type = 1,
@@ -12067,8 +12070,8 @@ pg.base.pay_data_display = {
 				2026
 			}
 		}
-	},
-	[9008] = {
+	}
+	pg.base.pay_data_display[9008] = {
 		picture = "fudai19",
 		name = "게임의 밤 패키지·I 복각",
 		type = 1,
@@ -12201,8 +12204,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[9009] = {
+	}
+	pg.base.pay_data_display[9009] = {
 		picture = "fudai31",
 		name = "축제의 밤 패키지·II",
 		type = 1,
@@ -12335,8 +12338,10 @@ pg.base.pay_data_display = {
 				2026
 			}
 		}
-	},
-	[9010] = {
+	}
+end)()
+(function ()
+	pg.base.pay_data_display[9010] = {
 		picture = "fudai20",
 		name = "게임의 밤 패키지·II 복각",
 		type = 1,
@@ -12469,8 +12474,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[9011] = {
+	}
+	pg.base.pay_data_display[9011] = {
 		picture = "fudai32",
 		name = "2026 춘절 복주머니·I",
 		type = 1,
@@ -12603,8 +12608,8 @@ pg.base.pay_data_display = {
 				2026
 			}
 		}
-	},
-	[9012] = {
+	}
+	pg.base.pay_data_display[9012] = {
 		picture = "fudai21",
 		name = "2025 춘절 복주머니·I 복각",
 		type = 1,
@@ -12737,8 +12742,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[9013] = {
+	}
+	pg.base.pay_data_display[9013] = {
 		picture = "fudai33",
 		name = "2026 춘절 복주머니·II",
 		type = 1,
@@ -12871,8 +12876,8 @@ pg.base.pay_data_display = {
 				2026
 			}
 		}
-	},
-	[9014] = {
+	}
+	pg.base.pay_data_display[9014] = {
 		picture = "fudai22",
 		name = "2025 춘절 복주머니·II 복각",
 		type = 1,
@@ -13005,8 +13010,8 @@ pg.base.pay_data_display = {
 				2025
 			}
 		}
-	},
-	[1000] = {
+	}
+	pg.base.pay_data_display[1000] = {
 		picture = "battlepass_1",
 		name = "특허 투어 패스",
 		type = 0,
@@ -13090,8 +13095,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1001] = {
+	}
+	pg.base.pay_data_display[1001] = {
 		picture = "battlepass_1",
 		name = "특허 투어 패스(2021.12.1-1.31)",
 		type = 0,
@@ -13175,8 +13180,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1002] = {
+	}
+	pg.base.pay_data_display[1002] = {
 		picture = "battlepass_1",
 		name = "특허 투어 패스(2022.2)",
 		type = 0,
@@ -13260,8 +13265,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1003] = {
+	}
+	pg.base.pay_data_display[1003] = {
 		picture = "battlepass_1",
 		name = "특허 투어 패스(2022.4)",
 		type = 0,
@@ -13345,8 +13350,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1004] = {
+	}
+	pg.base.pay_data_display[1004] = {
 		picture = "battlepass_1",
 		name = "특허 투어 패스(2022.6)",
 		type = 0,
@@ -13430,8 +13435,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1005] = {
+	}
+	pg.base.pay_data_display[1005] = {
 		picture = "battlepass_1",
 		name = "특허 투어 패스(2022.8)",
 		type = 0,
@@ -13515,8 +13520,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1006] = {
+	}
+	pg.base.pay_data_display[1006] = {
 		picture = "battlepass_1",
 		name = "특허 투어 패스(2022.10)",
 		type = 0,
@@ -13600,8 +13605,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1007] = {
+	}
+	pg.base.pay_data_display[1007] = {
 		picture = "battlepass_1",
 		name = "특허 투어 패스(2022.12)",
 		type = 0,
@@ -13685,8 +13690,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1008] = {
+	}
+	pg.base.pay_data_display[1008] = {
 		picture = "battlepass_1",
 		name = "특허 투어 패스(2023.2)",
 		type = 0,
@@ -13770,8 +13775,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1009] = {
+	}
+	pg.base.pay_data_display[1009] = {
 		picture = "battlepass_1",
 		name = "특허 투어 패스(2023.4)",
 		type = 0,
@@ -13855,8 +13860,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1010] = {
+	}
+	pg.base.pay_data_display[1010] = {
 		picture = "battlepass_1",
 		name = "특허 투어 패스(2023.6.8-8.7)",
 		type = 0,
@@ -13940,8 +13945,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1011] = {
+	}
+	pg.base.pay_data_display[1011] = {
 		picture = "battlepass_1",
 		name = "특허 투어 패스(2023.8.8-10.7)",
 		type = 0,
@@ -14025,8 +14030,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1012] = {
+	}
+	pg.base.pay_data_display[1012] = {
 		picture = "battlepass_1",
 		name = "특허 투어 패스(2023.10.8-12.7) ",
 		type = 0,
@@ -14110,8 +14115,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1013] = {
+	}
+	pg.base.pay_data_display[1013] = {
 		picture = "battlepass_1",
 		name = "특허 투어 패스(2023.12)",
 		type = 0,
@@ -14195,8 +14200,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1014] = {
+	}
+	pg.base.pay_data_display[1014] = {
 		picture = "battlepass_1",
 		name = "특허 투어 패스(2024.2.8-2024.4.7)",
 		type = 0,
@@ -14280,8 +14285,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1015] = {
+	}
+	pg.base.pay_data_display[1015] = {
 		picture = "battlepass_1",
 		name = "특허 투어 패스(2024.4.8-2024.6.7)",
 		type = 0,
@@ -14365,8 +14370,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1016] = {
+	}
+	pg.base.pay_data_display[1016] = {
 		picture = "battlepass_1",
 		name = "특허 투어 패스(2024.6.8-2024.8.7)",
 		type = 0,
@@ -14450,8 +14455,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1017] = {
+	}
+	pg.base.pay_data_display[1017] = {
 		picture = "battlepass_1",
 		name = "특허 투어 패스(24 여름)",
 		type = 0,
@@ -14535,8 +14540,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1018] = {
+	}
+	pg.base.pay_data_display[1018] = {
 		picture = "battlepass_1",
 		name = "특허 투어 패스(2024.10.8-2024.12.7)",
 		type = 0,
@@ -14620,8 +14625,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1019] = {
+	}
+	pg.base.pay_data_display[1019] = {
 		picture = "battlepass_1",
 		name = "특허 투어 패스(2024.12)",
 		type = 0,
@@ -14705,8 +14710,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1020] = {
+	}
+	pg.base.pay_data_display[1020] = {
 		picture = "battlepass_1",
 		name = "특허 투어 패스(2025.2)",
 		type = 0,
@@ -14790,8 +14795,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1021] = {
+	}
+	pg.base.pay_data_display[1021] = {
 		picture = "battlepass_1",
 		name = "특허 투어 패스(25 봄)",
 		type = 0,
@@ -14875,8 +14880,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1022] = {
+	}
+	pg.base.pay_data_display[1022] = {
 		picture = "battlepass_1",
 		name = "특허 투어 패스(25 초봄)",
 		type = 0,
@@ -14960,8 +14965,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1023] = {
+	}
+	pg.base.pay_data_display[1023] = {
 		picture = "battlepass_1",
 		name = "특허 투어 패스(25 여름)",
 		type = 0,
@@ -15045,8 +15050,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1024] = {
+	}
+	pg.base.pay_data_display[1024] = {
 		picture = "battlepass_1",
 		name = "특허 투어 패스(25 가을)",
 		type = 0,
@@ -15130,8 +15135,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1025] = {
+	}
+	pg.base.pay_data_display[1025] = {
 		picture = "battlepass_1",
 		name = "특허 투어 패스(2025.12.8-2026.2.7)",
 		type = 0,
@@ -15215,8 +15220,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1026] = {
+	}
+	pg.base.pay_data_display[1026] = {
 		picture = "battlepass_1",
 		name = "특허 투어 패스(26 겨울)",
 		type = 0,
@@ -15300,8 +15305,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1027] = {
+	}
+	pg.base.pay_data_display[1027] = {
 		picture = "battlepass_1",
 		name = "특허 투어 패스(26 봄)",
 		type = 0,
@@ -15385,8 +15390,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[1304] = {
+	}
+	pg.base.pay_data_display[1304] = {
 		picture = "battlepass_winter_1",
 		name = "봄날 특허 투어 패스",
 		type = 0,
@@ -15470,8 +15475,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[2001] = {
+	}
+	pg.base.pay_data_display[2001] = {
 		picture = "tech1_display",
 		name = "PR함 개발 패키지(제1기)",
 		type = 0,
@@ -15538,8 +15543,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2002] = {
+	}
+	pg.base.pay_data_display[2002] = {
 		picture = "tech1_promotion",
 		name = "PR함 개발 패키지(제1기)-고급",
 		type = 0,
@@ -15611,8 +15616,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2003] = {
+	}
+	pg.base.pay_data_display[2003] = {
 		picture = "tech1_normal",
 		name = "PR함 개발 패키지(제1기)-일반",
 		type = 0,
@@ -15674,8 +15679,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2004] = {
+	}
+	pg.base.pay_data_display[2004] = {
 		picture = "tech1_promotion",
 		name = "PR함 개발 패키지(제1기)-업그레이드",
 		type = 0,
@@ -15737,8 +15742,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2005] = {
+	}
+	pg.base.pay_data_display[2005] = {
 		picture = "tech2_display",
 		name = "PR함 개발 패키지(제2기)",
 		type = 0,
@@ -15805,8 +15810,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2006] = {
+	}
+	pg.base.pay_data_display[2006] = {
 		picture = "tech2_promotion",
 		name = "PR함 개발 패키지(제2기)-고급",
 		type = 0,
@@ -15878,8 +15883,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2007] = {
+	}
+	pg.base.pay_data_display[2007] = {
 		picture = "tech2_normal",
 		name = "PR함 개발 패키지(제2기)-일반",
 		type = 0,
@@ -15941,8 +15946,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2008] = {
+	}
+	pg.base.pay_data_display[2008] = {
 		picture = "tech2_promotion",
 		name = "PR함 개발 패키지(제2기)-업그레이드",
 		type = 0,
@@ -16004,8 +16009,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2009] = {
+	}
+	pg.base.pay_data_display[2009] = {
 		picture = "lv_70",
 		name = "즉시 출격 패키지",
 		type = 0,
@@ -16098,8 +16103,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2010] = {
+	}
+	pg.base.pay_data_display[2010] = {
 		picture = "boxSkill",
 		name = "스킬 교본 패키지",
 		type = 0,
@@ -16216,8 +16221,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2011] = {
+	}
+	pg.base.pay_data_display[2011] = {
 		picture = "boxSkill",
 		name = "스킬 교본 패키지(2022가을)",
 		type = 0,
@@ -16334,8 +16339,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2014] = {
+	}
+	pg.base.pay_data_display[2014] = {
 		picture = "boxSkill",
 		name = "스킬 교본 패키지(2023봄)",
 		type = 0,
@@ -16452,8 +16457,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2015] = {
+	}
+	pg.base.pay_data_display[2015] = {
 		picture = "tech3_display",
 		name = "PR함 개발 패키지(제3기)",
 		type = 0,
@@ -16520,8 +16525,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2016] = {
+	}
+	pg.base.pay_data_display[2016] = {
 		picture = "tech3_promotion",
 		name = "PR함 개발 패키지(제3기)-고급",
 		type = 0,
@@ -16593,8 +16598,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2017] = {
+	}
+	pg.base.pay_data_display[2017] = {
 		picture = "tech3_normal",
 		name = "PR함 개발 패키지(제3기)-일반",
 		type = 0,
@@ -16656,8 +16661,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2018] = {
+	}
+	pg.base.pay_data_display[2018] = {
 		picture = "tech3_promotion",
 		name = "PR함 개발 패키지(제3기)-업그레이드",
 		type = 0,
@@ -16719,8 +16724,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2019] = {
+	}
+	pg.base.pay_data_display[2019] = {
 		picture = "boxSkill",
 		name = "스킬 교본 패키지(2023가을)",
 		type = 0,
@@ -16837,8 +16842,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2020] = {
+	}
+	pg.base.pay_data_display[2020] = {
 		picture = "dongzhi3",
 		name = "프리미엄 윈터 패키지",
 		type = 0,
@@ -16955,8 +16960,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2021] = {
+	}
+	pg.base.pay_data_display[2021] = {
 		picture = "haishangchuanqi",
 		name = "UR 지원 패키지",
 		type = 0,
@@ -17063,8 +17068,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2022] = {
+	}
+	pg.base.pay_data_display[2022] = {
 		picture = "mofangzhiyuan1",
 		name = "큐브 지원 패키지1",
 		type = 0,
@@ -17146,8 +17151,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2023] = {
+	}
+	pg.base.pay_data_display[2023] = {
 		picture = "mofangzhiyuan2",
 		name = "큐브 지원 패키지2",
 		type = 0,
@@ -17229,8 +17234,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2024] = {
+	}
+	pg.base.pay_data_display[2024] = {
 		picture = "mofangzhiyuan3",
 		name = "큐브 지원 패키지3",
 		type = 0,
@@ -17312,8 +17317,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2025] = {
+	}
+	pg.base.pay_data_display[2025] = {
 		picture = "richang",
 		name = "데일리 보급 패키지",
 		type = 0,
@@ -17380,8 +17385,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2026] = {
+	}
+	pg.base.pay_data_display[2026] = {
 		picture = "boxSkill",
 		name = "스킬 교본 패키지",
 		type = 0,
@@ -17498,8 +17503,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2027] = {
+	}
+	pg.base.pay_data_display[2027] = {
 		picture = "tech4_display",
 		name = "PR함 개발 패키지(제4기)",
 		type = 0,
@@ -17566,8 +17571,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2028] = {
+	}
+	pg.base.pay_data_display[2028] = {
 		picture = "tech4_promotion",
 		name = "PR함 개발 패키지(제4기)-고급",
 		type = 0,
@@ -17639,8 +17644,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2029] = {
+	}
+	pg.base.pay_data_display[2029] = {
 		picture = "tech4_normal",
 		name = "PR함 개발 패키지(제4기)-일반",
 		type = 0,
@@ -17702,8 +17707,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2030] = {
+	}
+	pg.base.pay_data_display[2030] = {
 		picture = "tech4_promotion",
 		name = "PR함 개발 패키지(제4기)-업그레이드",
 		type = 0,
@@ -17765,8 +17770,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2031] = {
+	}
+	pg.base.pay_data_display[2031] = {
 		picture = "daofeng_package",
 		name = "선택 가능한 UR 스킨 복주머니②",
 		type = 0,
@@ -17873,8 +17878,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2032] = {
+	}
+	pg.base.pay_data_display[2032] = {
 		picture = "ui1",
 		name = "전투 UI·레인보우",
 		type = 0,
@@ -17950,8 +17955,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[2033] = {
+	}
+	pg.base.pay_data_display[2033] = {
 		picture = "ui1",
 		name = "전투 UI·레인보우 (기초)",
 		type = 0,
@@ -18033,8 +18038,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2034] = {
+	}
+	pg.base.pay_data_display[2034] = {
 		picture = "ui1",
 		name = "전투 UI·레인보우 (럭셔리)",
 		type = 0,
@@ -18126,8 +18131,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2035] = {
+	}
+	pg.base.pay_data_display[2035] = {
 		picture = "huteng_package",
 		name = "UR 지원 패키지③",
 		type = 0,
@@ -18234,8 +18239,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2036] = {
+	}
+	pg.base.pay_data_display[2036] = {
 		picture = "boxSkill",
 		name = "스킬 교본 패키지",
 		type = 0,
@@ -18352,8 +18357,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2037] = {
+	}
+	pg.base.pay_data_display[2037] = {
 		picture = "ui2",
 		name = "성탄설경 테마 패키지",
 		type = 0,
@@ -18429,8 +18434,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[2038] = {
+	}
+	pg.base.pay_data_display[2038] = {
 		picture = "ui2",
 		name = "성탄설경 테마 패키지(기초)",
 		type = 0,
@@ -18512,8 +18517,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2039] = {
+	}
+	pg.base.pay_data_display[2039] = {
 		picture = "ui2",
 		name = "성탄설경 테마 패키지(럭셔리)",
 		type = 0,
@@ -18605,8 +18610,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2040] = {
+	}
+	pg.base.pay_data_display[2040] = {
 		picture = "dongzhi3",
 		name = "프리미엄 윈터 패키지・2025",
 		type = 0,
@@ -18723,8 +18728,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2041] = {
+	}
+	pg.base.pay_data_display[2041] = {
 		picture = "huteng_package",
 		name = "UR 지원 패키지",
 		type = 0,
@@ -18831,8 +18836,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2042] = {
+	}
+	pg.base.pay_data_display[2042] = {
 		picture = "ui3",
 		name = "전투 UI·파라오",
 		type = 0,
@@ -18908,8 +18913,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[2043] = {
+	}
+	pg.base.pay_data_display[2043] = {
 		picture = "ui3",
 		name = "전투 UI·파라오 (기초)",
 		type = 0,
@@ -18991,8 +18996,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2044] = {
+	}
+	pg.base.pay_data_display[2044] = {
 		picture = "ui3",
 		name = "전투 UI·파라오 (럭셔리)",
 		type = 0,
@@ -19084,8 +19089,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2045] = {
+	}
+	pg.base.pay_data_display[2045] = {
 		picture = "ui4",
 		name = "전투 UI·유전자의 기원",
 		type = 0,
@@ -19161,8 +19166,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[2046] = {
+	}
+	pg.base.pay_data_display[2046] = {
 		picture = "ui4",
 		name = "전투 UI·유전자의 기원 (기초)",
 		type = 0,
@@ -19244,8 +19249,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2047] = {
+	}
+	pg.base.pay_data_display[2047] = {
 		picture = "ui4",
 		name = "전투 UI·유전자의 기원 (럭셔리)",
 		type = 0,
@@ -19337,8 +19342,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2048] = {
+	}
+	pg.base.pay_data_display[2048] = {
 		picture = "huteng_package",
 		name = "선택 가능한 UR 스킨 복주머니E",
 		type = 0,
@@ -19445,8 +19450,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2049] = {
+	}
+	pg.base.pay_data_display[2049] = {
 		picture = "boxSkill",
 		name = "스킬 교본 패키지",
 		type = 0,
@@ -19563,8 +19568,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2050] = {
+	}
+	pg.base.pay_data_display[2050] = {
 		picture = "ui5",
 		name = "전투 UI·시사이드",
 		type = 0,
@@ -19640,8 +19645,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[2051] = {
+	}
+	pg.base.pay_data_display[2051] = {
 		picture = "ui5",
 		name = "전투 UI·시사이드 (기초)",
 		type = 0,
@@ -19733,8 +19738,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2052] = {
+	}
+	pg.base.pay_data_display[2052] = {
 		picture = "ui5",
 		name = "전투 UI·시사이드 (럭셔리)",
 		type = 0,
@@ -19826,8 +19831,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2053] = {
+	}
+	pg.base.pay_data_display[2053] = {
 		picture = "tech5_display",
 		name = "PR함 개발 패키지(제5기)",
 		type = 0,
@@ -19894,8 +19899,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2054] = {
+	}
+	pg.base.pay_data_display[2054] = {
 		picture = "tech5_promotion",
 		name = "PR함선 Ⅴ기 교환 아이템＋강화 유닛 세트",
 		type = 0,
@@ -19967,8 +19972,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2055] = {
+	}
+	pg.base.pay_data_display[2055] = {
 		picture = "tech5_normal",
 		name = "PR함선 Ⅴ기 교환 아이템",
 		type = 0,
@@ -20030,8 +20035,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2056] = {
+	}
+	pg.base.pay_data_display[2056] = {
 		picture = "tech5_promotion",
 		name = "PR 특별 계획함 Ⅴ기 강화 유닛 세트",
 		type = 0,
@@ -20093,8 +20098,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2057] = {
+	}
+	pg.base.pay_data_display[2057] = {
 		picture = "ui6",
 		name = "전투 UI·닌자",
 		type = 0,
@@ -20170,8 +20175,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[2058] = {
+	}
+	pg.base.pay_data_display[2058] = {
 		picture = "ui6",
 		name = "전투 UI·닌자 (기초)",
 		type = 0,
@@ -20263,8 +20268,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2059] = {
+	}
+	pg.base.pay_data_display[2059] = {
 		picture = "ui6",
 		name = "전투 UI·닌자 (럭셔리)",
 		type = 0,
@@ -20356,8 +20361,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2063] = {
+	}
+	pg.base.pay_data_display[2063] = {
 		picture = "huteng_package",
 		name = "선택 가능한 UR 스킨 복주머니F",
 		type = 0,
@@ -20464,8 +20469,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2064] = {
+	}
+	pg.base.pay_data_display[2064] = {
 		picture = "boxSkill",
 		name = "스킬 교본 패키지",
 		type = 0,
@@ -20582,8 +20587,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2068] = {
+	}
+	pg.base.pay_data_display[2068] = {
 		picture = "ui7",
 		name = "전투 UI·메이드 카페",
 		type = 0,
@@ -20659,8 +20664,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[2069] = {
+	}
+	pg.base.pay_data_display[2069] = {
 		picture = "ui7",
 		name = "전투 UI·메이드 카페(기초)",
 		type = 0,
@@ -20752,8 +20757,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2070] = {
+	}
+	pg.base.pay_data_display[2070] = {
 		picture = "ui7",
 		name = "전투 UI·메이드 카페(럭셔리)",
 		type = 0,
@@ -20845,8 +20850,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2074] = {
+	}
+	pg.base.pay_data_display[2074] = {
 		picture = "ui8",
 		name = "전투 UI·봄빛 여관",
 		type = 0,
@@ -20922,8 +20927,8 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
-	},
-	[2075] = {
+	}
+	pg.base.pay_data_display[2075] = {
 		picture = "ui8",
 		name = "전투 UI·봄빛 여관 (기초)",
 		type = 0,
@@ -21015,8 +21020,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[2076] = {
+	}
+	pg.base.pay_data_display[2076] = {
 		picture = "ui8",
 		name = "전투 UI·봄빛 여관 (럭셔리)",
 		type = 0,
@@ -21108,8 +21113,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[5011] = {
+	}
+	pg.base.pay_data_display[5011] = {
 		picture = "pack_day1",
 		name = "할인 패키지I",
 		type = 0,
@@ -21201,8 +21206,10 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[5012] = {
+	}
+end)()
+(function ()
+	pg.base.pay_data_display[5012] = {
 		picture = "pack_day2",
 		name = "할인 패키지II",
 		type = 0,
@@ -21284,8 +21291,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[5013] = {
+	}
+	pg.base.pay_data_display[5013] = {
 		picture = "pack_day3",
 		name = "할인 패키지III",
 		type = 0,
@@ -21377,8 +21384,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[5014] = {
+	}
+	pg.base.pay_data_display[5014] = {
 		picture = "pack_day4",
 		name = "할인 패키지IV",
 		type = 0,
@@ -21470,8 +21477,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[5015] = {
+	}
+	pg.base.pay_data_display[5015] = {
 		picture = "pack_day5",
 		name = "할인 패키지V",
 		type = 0,
@@ -21553,8 +21560,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[5016] = {
+	}
+	pg.base.pay_data_display[5016] = {
 		picture = "pack_day6",
 		name = "할인 패키지VI",
 		type = 0,
@@ -21646,8 +21653,8 @@ pg.base.pay_data_display = {
 				1
 			}
 		}
-	},
-	[5017] = {
+	}
+	pg.base.pay_data_display[5017] = {
 		picture = "pack_day7",
 		name = "할인 패키지VII",
 		type = 0,
@@ -21740,4 +21747,4 @@ pg.base.pay_data_display = {
 			}
 		}
 	}
-}
+end)()

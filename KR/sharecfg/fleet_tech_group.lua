@@ -1,6 +1,18 @@
 pg = pg or {}
-pg.fleet_tech_group = {
-	{
+pg.fleet_tech_group = rawget(pg, "fleet_tech_group") or setmetatable({
+	__name = "fleet_tech_group"
+}, confNEO)
+pg.fleet_tech_group.all = {
+	1,
+	2,
+	3,
+	4
+}
+pg.base = pg.base or {}
+pg.base.fleet_tech_group = {}
+
+(function ()
+	pg.base.fleet_tech_group[1] = {
 		name = "함대 작전기술-이글 유니온 ",
 		id = 1,
 		nation = {
@@ -18,8 +30,8 @@ pg.fleet_tech_group = {
 			1008,
 			1009
 		}
-	},
-	{
+	}
+	pg.base.fleet_tech_group[2] = {
 		name = "함대 작전기술-로열 네이비",
 		id = 2,
 		nation = {
@@ -37,8 +49,8 @@ pg.fleet_tech_group = {
 			2008,
 			2009
 		}
-	},
-	{
+	}
+	pg.base.fleet_tech_group[3] = {
 		name = "함대 작전기술-사쿠라 엠파이어",
 		id = 3,
 		nation = {
@@ -56,8 +68,8 @@ pg.fleet_tech_group = {
 			3008,
 			3009
 		}
-	},
-	{
+	}
+	pg.base.fleet_tech_group[4] = {
 		name = "함대 작전기술-메탈 블러드",
 		id = 4,
 		nation = {
@@ -75,11 +87,5 @@ pg.fleet_tech_group = {
 			4008,
 			4009
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4
 	}
-}
+end)()

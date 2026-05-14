@@ -1,6 +1,355 @@
 pg = pg or {}
-pg.island_formula = {
-	[101001] = {
+pg.island_formula = rawget(pg, "island_formula") or setmetatable({
+	__name = "island_formula"
+}, confNEO)
+pg.island_formula.all = {
+	101001,
+	101002,
+	101003,
+	101004,
+	101005,
+	101006,
+	101007,
+	101008,
+	101013,
+	101015,
+	101016,
+	101018,
+	201001,
+	201002,
+	201003,
+	201004,
+	201005,
+	201006,
+	201007,
+	201008,
+	201101,
+	201102,
+	201103,
+	201104,
+	201105,
+	201106,
+	201107,
+	201108,
+	401001,
+	401002,
+	401004,
+	401005,
+	401006,
+	401007,
+	402001,
+	402002,
+	402003,
+	402004,
+	501001,
+	501002,
+	501003,
+	501004,
+	501005,
+	501006,
+	501007,
+	502001,
+	502002,
+	502003,
+	502004,
+	502005,
+	502006,
+	502007,
+	601001,
+	601002,
+	601003,
+	601004,
+	601005,
+	601006,
+	601007,
+	601008,
+	601101,
+	601102,
+	602001,
+	602002,
+	602003,
+	602004,
+	602005,
+	602006,
+	602101,
+	602102,
+	602103,
+	603001,
+	603002,
+	603003,
+	603004,
+	603005,
+	603006,
+	603007,
+	603101,
+	603102,
+	603103,
+	604001,
+	604002,
+	604004,
+	604005,
+	604006,
+	604007,
+	604008,
+	604101,
+	604102,
+	701001,
+	701002,
+	701003,
+	701004,
+	701005,
+	701006,
+	701007,
+	701008,
+	701009,
+	701010,
+	701011,
+	701012,
+	701013,
+	701014,
+	701015,
+	701016,
+	701017,
+	701018,
+	701019,
+	701020,
+	701021,
+	701022,
+	701023,
+	901001,
+	901002,
+	901003,
+	901004,
+	901005,
+	901006,
+	901101,
+	901102,
+	901103,
+	7100001,
+	7100002,
+	7100003,
+	7100004,
+	7110001,
+	7110002,
+	7110101,
+	7110102,
+	7110103,
+	7110301,
+	7110302,
+	7110303,
+	7110304,
+	7110305,
+	7110306,
+	7110307,
+	7110308,
+	7110309,
+	7110310,
+	7120001,
+	7120002,
+	7120003,
+	7120004,
+	7120005,
+	7120006,
+	7120007,
+	7100301,
+	7100302,
+	7100303,
+	7100304,
+	7100305,
+	7100306,
+	7100307,
+	7100308,
+	7130301,
+	7130302,
+	7140101,
+	7210101,
+	7210102,
+	7210103,
+	7210104,
+	7210401,
+	7210201,
+	7210202,
+	7210203,
+	7210501,
+	7210502,
+	7210601,
+	7220101,
+	7220102,
+	7220103,
+	7220104,
+	7220201,
+	7220202,
+	7220203,
+	7220204,
+	7220401,
+	7220501,
+	7220502,
+	7220601,
+	7310001,
+	7310002,
+	7310101,
+	7310102,
+	7310103,
+	7310104,
+	7310301,
+	7310302,
+	7310303,
+	7310304,
+	7310305,
+	7310306,
+	7310307,
+	7310308,
+	7310309,
+	7320101,
+	7320102,
+	7320301,
+	7320302,
+	7320303,
+	7320304,
+	7330101,
+	7330102,
+	7330103,
+	7330104,
+	7330301,
+	7330302,
+	7330303,
+	7310201,
+	7310202,
+	7320201,
+	7320202,
+	7320203,
+	7320204,
+	7320205,
+	7320206,
+	7330201,
+	7400001,
+	7410301,
+	7410302,
+	7410303,
+	7410304,
+	7410305,
+	7420301,
+	7420302,
+	7420303,
+	7420304,
+	7430301,
+	7430302,
+	7430303,
+	7430304,
+	7440301,
+	7440302,
+	7440303,
+	7440304,
+	7450301,
+	7450302,
+	7460001,
+	7460002,
+	7460101,
+	7460301,
+	7460102,
+	7460302,
+	7460201,
+	7460202,
+	7460203,
+	7460204,
+	7460205,
+	7460206,
+	7500211,
+	7500212,
+	7500213,
+	7500214,
+	7500215,
+	7500231,
+	7500232,
+	7500233,
+	7500234,
+	7500235,
+	7500236,
+	7500001,
+	7510101,
+	7510201,
+	7510202,
+	7510203,
+	7510204,
+	7520001,
+	7520101,
+	7520201,
+	7520202,
+	7520203,
+	7520204,
+	7520205,
+	7530001,
+	7530101,
+	7530201,
+	7530202,
+	7530203,
+	7530204,
+	7530205,
+	7530206,
+	7540001,
+	7540101,
+	7540201,
+	7540202,
+	7540204,
+	7540205,
+	7550201,
+	7550202,
+	7550203,
+	7550204,
+	7610101,
+	7610102,
+	7610401,
+	7610402,
+	7610403,
+	7620101,
+	7630101,
+	7630201,
+	7630202,
+	7630203,
+	7630204,
+	7630205,
+	7640001,
+	7640101,
+	7640201,
+	7640202,
+	7640203,
+	7640204,
+	7640205,
+	7650001,
+	7650101,
+	7650201,
+	7650202,
+	7650203,
+	7660001,
+	7660101,
+	7660201,
+	7660202,
+	7660203,
+	7660204,
+	7660205,
+	7660206,
+	9900001,
+	9900002,
+	9900003,
+	9900004,
+	9900005,
+	9900006,
+	9900007,
+	9900008,
+	9900009,
+	9900010,
+	9900011,
+	9900012,
+	9900013,
+	9900014,
+	9900015,
+	9900016
+}
+pg.base = pg.base or {}
+pg.base.island_formula = {}
+
+(function ()
+	pg.base.island_formula[101001] = {
 		workload = 24000,
 		name = "밀",
 		vfx_offset = "",
@@ -67,8 +416,8 @@ pg.island_formula = {
 			0,
 			0.21
 		}
-	},
-	[101002] = {
+	}
+	pg.base.island_formula[101002] = {
 		workload = 24000,
 		name = "옥수수",
 		vfx_offset = "",
@@ -131,8 +480,8 @@ pg.island_formula = {
 				20105
 			}
 		}
-	},
-	[101003] = {
+	}
+	pg.base.island_formula[101003] = {
 		workload = 24000,
 		name = "목초",
 		vfx_offset = "",
@@ -195,8 +544,8 @@ pg.island_formula = {
 				20117
 			}
 		}
-	},
-	[101004] = {
+	}
+	pg.base.island_formula[101004] = {
 		workload = 84000,
 		name = "커피콩",
 		vfx_offset = "",
@@ -259,8 +608,8 @@ pg.island_formula = {
 				20121
 			}
 		}
-	},
-	[101005] = {
+	}
+	pg.base.island_formula[101005] = {
 		workload = 48000,
 		name = "쌀",
 		vfx_offset = "",
@@ -323,8 +672,8 @@ pg.island_formula = {
 				20107
 			}
 		}
-	},
-	[101006] = {
+	}
+	pg.base.island_formula[101006] = {
 		workload = 24000,
 		name = "배추",
 		vfx_offset = "",
@@ -387,8 +736,8 @@ pg.island_formula = {
 				20109
 			}
 		}
-	},
-	[101007] = {
+	}
+	pg.base.island_formula[101007] = {
 		workload = 108000,
 		name = "감자",
 		vfx_offset = "",
@@ -451,8 +800,8 @@ pg.island_formula = {
 				20119
 			}
 		}
-	},
-	[101008] = {
+	}
+	pg.base.island_formula[101008] = {
 		workload = 42000,
 		name = "대두",
 		vfx_offset = "",
@@ -515,8 +864,8 @@ pg.island_formula = {
 				20113
 			}
 		}
-	},
-	[101013] = {
+	}
+	pg.base.island_formula[101013] = {
 		workload = 36000,
 		name = "달걀",
 		vfx_offset = "",
@@ -563,8 +912,8 @@ pg.island_formula = {
 				2602
 			}
 		}
-	},
-	[101015] = {
+	}
+	pg.base.island_formula[101015] = {
 		workload = 72000,
 		name = "신선한 고기",
 		vfx_offset = "",
@@ -600,8 +949,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[101016] = {
+	}
+	pg.base.island_formula[101016] = {
 		workload = 54000,
 		name = "우유",
 		vfx_offset = "",
@@ -648,8 +997,8 @@ pg.island_formula = {
 				2604
 			}
 		}
-	},
-	[101018] = {
+	}
+	pg.base.island_formula[101018] = {
 		workload = 180000,
 		name = "양모",
 		vfx_offset = "",
@@ -685,8 +1034,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[201001] = {
+	}
+	pg.base.island_formula[201001] = {
 		workload = 54000,
 		name = "조개",
 		vfx_offset = "",
@@ -731,8 +1080,8 @@ pg.island_formula = {
 				0.2
 			}
 		}
-	},
-	[201002] = {
+	}
+	pg.base.island_formula[201002] = {
 		workload = 72000,
 		name = "메기",
 		vfx_offset = "",
@@ -777,8 +1126,8 @@ pg.island_formula = {
 				0.4
 			}
 		}
-	},
-	[201003] = {
+	}
+	pg.base.island_formula[201003] = {
 		workload = 72000,
 		name = "잉어",
 		vfx_offset = "",
@@ -823,8 +1172,8 @@ pg.island_formula = {
 				0.5
 			}
 		}
-	},
-	[201004] = {
+	}
+	pg.base.island_formula[201004] = {
 		workload = 72000,
 		name = "붕어",
 		vfx_offset = "",
@@ -869,8 +1218,8 @@ pg.island_formula = {
 				0.4
 			}
 		}
-	},
-	[201005] = {
+	}
+	pg.base.island_formula[201005] = {
 		workload = 36000,
 		name = "민물 새우",
 		vfx_offset = "",
@@ -915,8 +1264,8 @@ pg.island_formula = {
 				0.3
 			}
 		}
-	},
-	[201006] = {
+	}
+	pg.base.island_formula[201006] = {
 		workload = 90000,
 		name = "가재",
 		vfx_offset = "",
@@ -961,8 +1310,8 @@ pg.island_formula = {
 				0.35
 			}
 		}
-	},
-	[201007] = {
+	}
+	pg.base.island_formula[201007] = {
 		workload = 72000,
 		name = "농어",
 		vfx_offset = "",
@@ -1007,8 +1356,8 @@ pg.island_formula = {
 				0.6
 			}
 		}
-	},
-	[201008] = {
+	}
+	pg.base.island_formula[201008] = {
 		workload = 144000,
 		name = "게",
 		vfx_offset = "",
@@ -1053,8 +1402,8 @@ pg.island_formula = {
 				0.2
 			}
 		}
-	},
-	[201101] = {
+	}
+	pg.base.island_formula[201101] = {
 		workload = 54000,
 		name = "오징어",
 		vfx_offset = "",
@@ -1099,8 +1448,8 @@ pg.island_formula = {
 				0.7
 			}
 		}
-	},
-	[201102] = {
+	}
+	pg.base.island_formula[201102] = {
 		workload = 144000,
 		name = "삼치",
 		vfx_offset = "",
@@ -1145,8 +1494,8 @@ pg.island_formula = {
 				1
 			}
 		}
-	},
-	[201103] = {
+	}
+	pg.base.island_formula[201103] = {
 		workload = 216000,
 		name = "참치",
 		vfx_offset = "",
@@ -1191,8 +1540,8 @@ pg.island_formula = {
 				1.2
 			}
 		}
-	},
-	[201104] = {
+	}
+	pg.base.island_formula[201104] = {
 		workload = 180000,
 		name = "연어",
 		vfx_offset = "",
@@ -1237,8 +1586,8 @@ pg.island_formula = {
 				0.8
 			}
 		}
-	},
-	[201105] = {
+	}
+	pg.base.island_formula[201105] = {
 		workload = 108000,
 		name = "참돔",
 		vfx_offset = "",
@@ -1283,8 +1632,8 @@ pg.island_formula = {
 				0.5
 			}
 		}
-	},
-	[201106] = {
+	}
+	pg.base.island_formula[201106] = {
 		workload = 126000,
 		name = "감성돔",
 		vfx_offset = "",
@@ -1329,8 +1678,8 @@ pg.island_formula = {
 				0.5
 			}
 		}
-	},
-	[201107] = {
+	}
+	pg.base.island_formula[201107] = {
 		workload = 288000,
 		name = "황다랑어",
 		vfx_offset = "",
@@ -1375,8 +1724,8 @@ pg.island_formula = {
 				1.2
 			}
 		}
-	},
-	[201108] = {
+	}
+	pg.base.island_formula[201108] = {
 		workload = 216000,
 		name = "해삼",
 		vfx_offset = "",
@@ -1421,8 +1770,8 @@ pg.island_formula = {
 				0.05
 			}
 		}
-	},
-	[401001] = {
+	}
+	pg.base.island_formula[401001] = {
 		workload = 12000,
 		name = "석탄",
 		harvest_vfx = 60021,
@@ -1483,8 +1832,8 @@ pg.island_formula = {
 				-23.416
 			}
 		}
-	},
-	[401002] = {
+	}
+	pg.base.island_formula[401002] = {
 		workload = 24000,
 		name = "구리 광석",
 		vfx_offset = "",
@@ -1523,8 +1872,8 @@ pg.island_formula = {
 			60007,
 			1
 		}
-	},
-	[401004] = {
+	}
+	pg.base.island_formula[401004] = {
 		workload = 60000,
 		name = "알루미늄 광석",
 		vfx_offset = "",
@@ -1563,8 +1912,8 @@ pg.island_formula = {
 			60007,
 			1
 		}
-	},
-	[401005] = {
+	}
+	pg.base.island_formula[401005] = {
 		workload = 36000,
 		name = "철광석",
 		vfx_offset = "",
@@ -1603,8 +1952,8 @@ pg.island_formula = {
 			60007,
 			1
 		}
-	},
-	[401006] = {
+	}
+	pg.base.island_formula[401006] = {
 		workload = 120000,
 		name = "황광석",
 		vfx_offset = "",
@@ -1643,8 +1992,8 @@ pg.island_formula = {
 			60007,
 			1
 		}
-	},
-	[401007] = {
+	}
+	pg.base.island_formula[401007] = {
 		workload = 240000,
 		name = "은광석",
 		vfx_offset = "",
@@ -1683,8 +2032,8 @@ pg.island_formula = {
 			60007,
 			1
 		}
-	},
-	[402001] = {
+	}
+	pg.base.island_formula[402001] = {
 		workload = 12000,
 		name = "자연 목재",
 		harvest_vfx = 60021,
@@ -1745,8 +2094,8 @@ pg.island_formula = {
 				0
 			}
 		}
-	},
-	[402002] = {
+	}
+	pg.base.island_formula[402002] = {
 		workload = 30000,
 		name = "실용 목재",
 		vfx_offset = "",
@@ -1785,8 +2134,8 @@ pg.island_formula = {
 			60008,
 			2
 		}
-	},
-	[402003] = {
+	}
+	pg.base.island_formula[402003] = {
 		workload = 72000,
 		name = "엄선 목재",
 		vfx_offset = "",
@@ -1825,8 +2174,8 @@ pg.island_formula = {
 			60008,
 			2
 		}
-	},
-	[402004] = {
+	}
+	pg.base.island_formula[402004] = {
 		workload = 180000,
 		name = "우아한 목재",
 		vfx_offset = "",
@@ -1865,8 +2214,8 @@ pg.island_formula = {
 			60008,
 			2
 		}
-	},
-	[501001] = {
+	}
+	pg.base.island_formula[501001] = {
 		workload = 45000,
 		name = "사과",
 		vfx_offset = "",
@@ -1929,8 +2278,8 @@ pg.island_formula = {
 				20132
 			}
 		}
-	},
-	[501002] = {
+	}
+	pg.base.island_formula[501002] = {
 		workload = 45000,
 		name = "감귤",
 		vfx_offset = "",
@@ -1993,8 +2342,8 @@ pg.island_formula = {
 				20135
 			}
 		}
-	},
-	[501003] = {
+	}
+	pg.base.island_formula[501003] = {
 		workload = 60000,
 		name = "바나나",
 		vfx_offset = "",
@@ -2057,8 +2406,8 @@ pg.island_formula = {
 				20138
 			}
 		}
-	},
-	[501004] = {
+	}
+	pg.base.island_formula[501004] = {
 		workload = 90000,
 		name = "망고",
 		vfx_offset = "",
@@ -2121,8 +2470,8 @@ pg.island_formula = {
 				20141
 			}
 		}
-	},
-	[501005] = {
+	}
+	pg.base.island_formula[501005] = {
 		workload = 36000,
 		name = "레몬",
 		vfx_offset = "",
@@ -2185,8 +2534,8 @@ pg.island_formula = {
 				20144
 			}
 		}
-	},
-	[501006] = {
+	}
+	pg.base.island_formula[501006] = {
 		workload = 120000,
 		name = "아보카도",
 		vfx_offset = "",
@@ -2249,8 +2598,8 @@ pg.island_formula = {
 				20147
 			}
 		}
-	},
-	[501007] = {
+	}
+	pg.base.island_formula[501007] = {
 		workload = 96000,
 		name = "고무",
 		vfx_offset = "",
@@ -2313,8 +2662,8 @@ pg.island_formula = {
 				20150
 			}
 		}
-	},
-	[502001] = {
+	}
+	pg.base.island_formula[502001] = {
 		workload = 24000,
 		name = "아마",
 		vfx_offset = "",
@@ -2377,8 +2726,8 @@ pg.island_formula = {
 				20121
 			}
 		}
-	},
-	[502002] = {
+	}
+	pg.base.island_formula[502002] = {
 		workload = 54000,
 		name = "딸기",
 		vfx_offset = "",
@@ -2441,8 +2790,8 @@ pg.island_formula = {
 				20123
 			}
 		}
-	},
-	[502003] = {
+	}
+	pg.base.island_formula[502003] = {
 		workload = 36000,
 		name = "목화",
 		vfx_offset = "",
@@ -2505,8 +2854,8 @@ pg.island_formula = {
 				20125
 			}
 		}
-	},
-	[502004] = {
+	}
+	pg.base.island_formula[502004] = {
 		workload = 54000,
 		name = "찻잎",
 		vfx_offset = "",
@@ -2569,8 +2918,8 @@ pg.island_formula = {
 				20127
 			}
 		}
-	},
-	[502005] = {
+	}
+	pg.base.island_formula[502005] = {
 		workload = 108000,
 		name = "라벤더",
 		vfx_offset = "",
@@ -2633,8 +2982,8 @@ pg.island_formula = {
 				20129
 			}
 		}
-	},
-	[502006] = {
+	}
+	pg.base.island_formula[502006] = {
 		workload = 24000,
 		name = "당근",
 		vfx_offset = "",
@@ -2697,8 +3046,8 @@ pg.island_formula = {
 				20111
 			}
 		}
-	},
-	[502007] = {
+	}
+	pg.base.island_formula[502007] = {
 		workload = 54000,
 		name = "양파",
 		vfx_offset = "",
@@ -2761,8 +3110,8 @@ pg.island_formula = {
 				20115
 			}
 		}
-	},
-	[601001] = {
+	}
+	pg.base.island_formula[601001] = {
 		workload = 24000,
 		name = "두부",
 		vfx_offset = "",
@@ -2798,8 +3147,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[601002] = {
+	}
+	pg.base.island_formula[601002] = {
 		workload = 18000,
 		name = "다진 고기 두부볶음",
 		vfx_offset = "",
@@ -2839,8 +3188,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[601003] = {
+	}
+	pg.base.island_formula[601003] = {
 		workload = 12000,
 		name = "오므라이스",
 		vfx_offset = "",
@@ -2880,8 +3229,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[601004] = {
+	}
+	pg.base.island_formula[601004] = {
 		workload = 18000,
 		name = "배추 두부탕",
 		vfx_offset = "",
@@ -2921,8 +3270,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[601005] = {
+	}
+	pg.base.island_formula[601005] = {
 		workload = 6000,
 		name = "야채 샐러드",
 		vfx_offset = "",
@@ -2966,8 +3315,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[601006] = {
+	}
+	pg.base.island_formula[601006] = {
 		workload = 3000,
 		name = "피시 앤 칩스",
 		vfx_offset = "",
@@ -3007,8 +3356,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[601007] = {
+	}
+	pg.base.island_formula[601007] = {
 		workload = 18000,
 		name = "생선 양파찜",
 		vfx_offset = "",
@@ -3048,8 +3397,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[601008] = {
+	}
+	pg.base.island_formula[601008] = {
 		workload = 36000,
 		name = "불도장",
 		vfx_offset = "",
@@ -3093,8 +3442,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[601101] = {
+	}
+	pg.base.island_formula[601101] = {
 		workload = 6000,
 		name = "정통 두부 세트",
 		vfx_offset = "",
@@ -3134,8 +3483,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[601102] = {
+	}
+	pg.base.island_formula[601102] = {
 		workload = 6000,
 		name = "부드러운 한 상",
 		vfx_offset = "",
@@ -3175,8 +3524,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[602001] = {
+	}
+	pg.base.island_formula[602001] = {
 		workload = 6000,
 		name = "사과 주스",
 		vfx_offset = "",
@@ -3212,8 +3561,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[602002] = {
+	}
+	pg.base.island_formula[602002] = {
 		workload = 9000,
 		name = "바나나 망고 주스",
 		vfx_offset = "",
@@ -3253,8 +3602,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[602003] = {
+	}
+	pg.base.island_formula[602003] = {
 		workload = 6000,
 		name = "꿀 레몬 워터",
 		vfx_offset = "",
@@ -3294,8 +3643,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[602004] = {
+	}
+	pg.base.island_formula[602004] = {
 		workload = 12000,
 		name = "딸기 레몬 드링크",
 		vfx_offset = "",
@@ -3335,8 +3684,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[602005] = {
+	}
+	pg.base.island_formula[602005] = {
 		workload = 24000,
 		name = "라벤더 차",
 		vfx_offset = "",
@@ -3376,8 +3725,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[602006] = {
+	}
+	pg.base.island_formula[602006] = {
 		workload = 18000,
 		name = "딸기 꿀 프라페",
 		vfx_offset = "",
@@ -3417,8 +3766,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[602101] = {
+	}
+	pg.base.island_formula[602101] = {
 		workload = 3000,
 		name = "향기로운 과일 세트",
 		vfx_offset = "",
@@ -3458,8 +3807,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[602102] = {
+	}
+	pg.base.island_formula[602102] = {
 		workload = 3000,
 		name = "컬러풀 프루트 파라다이스",
 		vfx_offset = "",
@@ -3499,8 +3848,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[602103] = {
+	}
+	pg.base.island_formula[602103] = {
 		workload = 3000,
 		name = "태양의 꿀물",
 		vfx_offset = "",
@@ -3540,8 +3889,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[603001] = {
+	}
+	pg.base.island_formula[603001] = {
 		workload = 3000,
 		name = "옥수수 컵",
 		vfx_offset = "",
@@ -3581,8 +3930,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[603002] = {
+	}
+	pg.base.island_formula[603002] = {
 		workload = 18000,
 		name = "애플파이",
 		vfx_offset = "",
@@ -3622,8 +3971,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[603003] = {
+	}
+	pg.base.island_formula[603003] = {
 		workload = 18000,
 		name = "오렌지 파이",
 		vfx_offset = "",
@@ -3663,8 +4012,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[603004] = {
+	}
+	pg.base.island_formula[603004] = {
 		workload = 12000,
 		name = "망고 찹쌀밥",
 		vfx_offset = "",
@@ -3704,8 +4053,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[603005] = {
+	}
+	pg.base.island_formula[603005] = {
 		workload = 9000,
 		name = "바나나 크레이프",
 		vfx_offset = "",
@@ -3745,8 +4094,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[603006] = {
+	}
+	pg.base.island_formula[603006] = {
 		workload = 21000,
 		name = "딸기 샬럿",
 		vfx_offset = "",
@@ -3790,8 +4139,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[603007] = {
+	}
+	pg.base.island_formula[603007] = {
 		workload = 18000,
 		name = "파에야",
 		vfx_offset = "",
@@ -3835,8 +4184,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[603101] = {
+	}
+	pg.base.island_formula[603101] = {
 		workload = 3000,
 		name = "스위트 테이스트",
 		vfx_offset = "",
@@ -3876,8 +4225,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[603102] = {
+	}
+	pg.base.island_formula[603102] = {
 		workload = 3000,
 		name = "과수원의 이중주",
 		vfx_offset = "",
@@ -3917,8 +4266,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[603103] = {
+	}
+	pg.base.island_formula[603103] = {
 		workload = 3000,
 		name = "베리 오렌지 디저트",
 		vfx_offset = "",
@@ -3958,8 +4307,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[604001] = {
+	}
+	pg.base.island_formula[604001] = {
 		workload = 12000,
 		name = "숯불고기 꼬치",
 		vfx_offset = "",
@@ -3995,8 +4344,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[604002] = {
+	}
+	pg.base.island_formula[604002] = {
 		workload = 18000,
 		name = "닭고기 감자 플래터",
 		vfx_offset = "",
@@ -4036,8 +4385,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[604004] = {
+	}
+	pg.base.island_formula[604004] = {
 		workload = 15000,
 		name = "닭고기 볶음",
 		vfx_offset = "",
@@ -4077,8 +4426,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[604005] = {
+	}
+	pg.base.island_formula[604005] = {
 		workload = 6000,
 		name = "두꺼운 당근 계란말이",
 		vfx_offset = "",
@@ -4118,8 +4467,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[604006] = {
+	}
+	pg.base.island_formula[604006] = {
 		workload = 15000,
 		name = "햄버그 덮밥",
 		vfx_offset = "",
@@ -4163,8 +4512,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[604007] = {
+	}
+	pg.base.island_formula[604007] = {
 		workload = 6000,
 		name = "레몬 새우",
 		vfx_offset = "",
@@ -4204,8 +4553,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[604008] = {
+	}
+	pg.base.island_formula[604008] = {
 		workload = 9000,
 		name = "가재 볶음",
 		vfx_offset = "",
@@ -4241,8 +4590,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[604101] = {
+	}
+	pg.base.island_formula[604101] = {
 		workload = 6000,
 		name = "미트 카니발",
 		vfx_offset = "",
@@ -4282,8 +4631,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[604102] = {
+	}
+	pg.base.island_formula[604102] = {
 		workload = 6000,
 		name = "에너지 더블 콤보",
 		vfx_offset = "",
@@ -4323,8 +4672,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701001] = {
+	}
+	pg.base.island_formula[701001] = {
 		workload = 18000,
 		name = "천",
 		vfx_offset = "",
@@ -4360,8 +4709,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701002] = {
+	}
+	pg.base.island_formula[701002] = {
 		workload = 60000,
 		name = "가죽",
 		vfx_offset = "",
@@ -4397,8 +4746,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701003] = {
+	}
+	pg.base.island_formula[701003] = {
 		workload = 108000,
 		name = "밧줄",
 		vfx_offset = "",
@@ -4438,8 +4787,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701004] = {
+	}
+	pg.base.island_formula[701004] = {
 		workload = 72000,
 		name = "장갑",
 		vfx_offset = "",
@@ -4479,8 +4828,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701005] = {
+	}
+	pg.base.island_formula[701005] = {
 		workload = 108000,
 		name = "향낭",
 		vfx_offset = "",
@@ -4520,8 +4869,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701006] = {
+	}
+	pg.base.island_formula[701006] = {
 		workload = 144000,
 		name = "신발",
 		vfx_offset = "",
@@ -4565,8 +4914,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701007] = {
+	}
+	pg.base.island_formula[701007] = {
 		workload = 48000,
 		name = "붕대",
 		vfx_offset = "",
@@ -4610,8 +4959,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701008] = {
+	}
+	pg.base.island_formula[701008] = {
 		workload = 36000,
 		name = "연필",
 		vfx_offset = "",
@@ -4651,8 +5000,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701009] = {
+	}
+	pg.base.island_formula[701009] = {
 		workload = 108000,
 		name = "케이블",
 		vfx_offset = "",
@@ -4692,8 +5041,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701010] = {
+	}
+	pg.base.island_formula[701010] = {
 		workload = 144000,
 		name = "못",
 		vfx_offset = "",
@@ -4729,8 +5078,10 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701011] = {
+	}
+end)()
+(function ()
+	pg.base.island_formula[701011] = {
 		workload = 72000,
 		name = "화학품",
 		vfx_offset = "",
@@ -4766,8 +5117,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701012] = {
+	}
+	pg.base.island_formula[701012] = {
 		workload = 72000,
 		name = "화약",
 		vfx_offset = "",
@@ -4807,8 +5158,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701013] = {
+	}
+	pg.base.island_formula[701013] = {
 		workload = 216000,
 		name = "식기",
 		vfx_offset = "",
@@ -4844,8 +5195,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701014] = {
+	}
+	pg.base.island_formula[701014] = {
 		workload = 36000,
 		name = "종이",
 		vfx_offset = "",
@@ -4881,8 +5232,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701015] = {
+	}
+	pg.base.island_formula[701015] = {
 		workload = 72000,
 		name = "수첩",
 		vfx_offset = "",
@@ -4922,8 +5273,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701016] = {
+	}
+	pg.base.island_formula[701016] = {
 		workload = 108000,
 		name = "책상과 의자",
 		vfx_offset = "",
@@ -4963,8 +5314,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701017] = {
+	}
+	pg.base.island_formula[701017] = {
 		workload = 108000,
 		name = "특선 나무통",
 		vfx_offset = "",
@@ -5004,8 +5355,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701018] = {
+	}
+	pg.base.island_formula[701018] = {
 		workload = 180000,
 		name = "서류 캐비닛",
 		vfx_offset = "",
@@ -5045,8 +5396,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701019] = {
+	}
+	pg.base.island_formula[701019] = {
 		workload = 72000,
 		name = "잉크 카트리지",
 		vfx_offset = "",
@@ -5086,8 +5437,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701020] = {
+	}
+	pg.base.island_formula[701020] = {
 		workload = 216000,
 		name = "시계",
 		vfx_offset = "",
@@ -5131,8 +5482,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701021] = {
+	}
+	pg.base.island_formula[701021] = {
 		workload = 108000,
 		name = "축전지",
 		vfx_offset = "",
@@ -5176,8 +5527,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701022] = {
+	}
+	pg.base.island_formula[701022] = {
 		workload = 144000,
 		name = "정수 필터",
 		vfx_offset = "",
@@ -5221,8 +5572,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[701023] = {
+	}
+	pg.base.island_formula[701023] = {
 		workload = 36000,
 		name = "장식용 그림",
 		vfx_offset = "",
@@ -5262,8 +5613,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[901001] = {
+	}
+	pg.base.island_formula[901001] = {
 		workload = 3000,
 		name = "오믈렛",
 		vfx_offset = "",
@@ -5299,8 +5650,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[901002] = {
+	}
+	pg.base.island_formula[901002] = {
 		workload = 9000,
 		name = "아이스 커피",
 		vfx_offset = "",
@@ -5336,8 +5687,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[901003] = {
+	}
+	pg.base.island_formula[901003] = {
 		workload = 24000,
 		name = "치즈",
 		vfx_offset = "",
@@ -5373,8 +5724,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[901004] = {
+	}
+	pg.base.island_formula[901004] = {
 		workload = 12000,
 		name = "라떼",
 		vfx_offset = "",
@@ -5414,8 +5765,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[901005] = {
+	}
+	pg.base.island_formula[901005] = {
 		workload = 9000,
 		name = "시트러스 커피",
 		vfx_offset = "",
@@ -5455,8 +5806,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[901006] = {
+	}
+	pg.base.island_formula[901006] = {
 		workload = 12000,
 		name = "딸기 밀크쉐이크",
 		vfx_offset = "",
@@ -5500,8 +5851,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[901101] = {
+	}
+	pg.base.island_formula[901101] = {
 		workload = 6000,
 		name = "아침의 활력 콤보",
 		vfx_offset = "",
@@ -5541,8 +5892,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[901102] = {
+	}
+	pg.base.island_formula[901102] = {
 		workload = 6000,
 		name = "굿모닝 브렉퍼스트",
 		vfx_offset = "",
@@ -5582,8 +5933,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[901103] = {
+	}
+	pg.base.island_formula[901103] = {
 		workload = 6000,
 		name = "프루트 트윈즈",
 		vfx_offset = "",
@@ -5623,8 +5974,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7100001] = {
+	}
+	pg.base.island_formula[7100001] = {
 		workload = 300,
 		name = "아일랜드 권한 인증 장치",
 		vfx_offset = "",
@@ -5660,8 +6011,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7100002] = {
+	}
+	pg.base.island_formula[7100002] = {
 		workload = 300,
 		name = "오픈: 아일랜드 지도",
 		vfx_offset = "",
@@ -5697,8 +6048,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7100003] = {
+	}
+	pg.base.island_formula[7100003] = {
 		workload = 18000,
 		name = "오픈: 경영 이벤트",
 		vfx_offset = "",
@@ -5734,8 +6085,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7100004] = {
+	}
+	pg.base.island_formula[7100004] = {
 		workload = 36000,
 		name = "종합 관리 화면",
 		vfx_offset = "",
@@ -5771,8 +6122,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7110001] = {
+	}
+	pg.base.island_formula[7110001] = {
 		workload = 300,
 		name = "오픈: 긴급 의뢰",
 		vfx_offset = "",
@@ -5808,8 +6159,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7110002] = {
+	}
+	pg.base.island_formula[7110002] = {
 		workload = 300,
 		name = "오픈: 의뢰 평가",
 		vfx_offset = "",
@@ -5845,8 +6196,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7110101] = {
+	}
+	pg.base.island_formula[7110101] = {
 		workload = 300,
 		name = "동시 의뢰 수주 수 1",
 		vfx_offset = "",
@@ -5882,8 +6233,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7110102] = {
+	}
+	pg.base.island_formula[7110102] = {
 		workload = 600,
 		name = "동시 의뢰 수주 수 2",
 		vfx_offset = "",
@@ -5919,8 +6270,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7110103] = {
+	}
+	pg.base.island_formula[7110103] = {
 		workload = 36000,
 		name = "동시 의뢰 수주 수 3",
 		vfx_offset = "",
@@ -5956,8 +6307,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7110301] = {
+	}
+	pg.base.island_formula[7110301] = {
 		workload = 3000,
 		name = "아일랜드 의뢰 한도 +1",
 		vfx_offset = "",
@@ -5993,8 +6344,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7110302] = {
+	}
+	pg.base.island_formula[7110302] = {
 		workload = 3000,
 		name = "아일랜드 의뢰 한도 +2",
 		vfx_offset = "",
@@ -6030,8 +6381,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7110303] = {
+	}
+	pg.base.island_formula[7110303] = {
 		workload = 6000,
 		name = "아일랜드 의뢰 한도 +3",
 		vfx_offset = "",
@@ -6067,8 +6418,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7110304] = {
+	}
+	pg.base.island_formula[7110304] = {
 		workload = 36000,
 		name = "아일랜드 의뢰 한도 +4",
 		vfx_offset = "",
@@ -6104,8 +6455,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7110305] = {
+	}
+	pg.base.island_formula[7110305] = {
 		workload = 72000,
 		name = "아일랜드 의뢰 한도 +5",
 		vfx_offset = "",
@@ -6141,8 +6492,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7110306] = {
+	}
+	pg.base.island_formula[7110306] = {
 		workload = 144000,
 		name = "아일랜드 의뢰 한도 +6",
 		vfx_offset = "",
@@ -6178,8 +6529,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7110307] = {
+	}
+	pg.base.island_formula[7110307] = {
 		workload = 180000,
 		name = "아일랜드 의뢰 한도 +7",
 		vfx_offset = "",
@@ -6215,8 +6566,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7110308] = {
+	}
+	pg.base.island_formula[7110308] = {
 		workload = 216000,
 		name = "아일랜드 의뢰 한도 +8",
 		vfx_offset = "",
@@ -6252,8 +6603,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7110309] = {
+	}
+	pg.base.island_formula[7110309] = {
 		workload = 288000,
 		name = "아일랜드 의뢰 한도 +9",
 		vfx_offset = "",
@@ -6289,8 +6640,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7110310] = {
+	}
+	pg.base.island_formula[7110310] = {
 		workload = 432000,
 		name = "아일랜드 의뢰 한도 +10",
 		vfx_offset = "",
@@ -6326,8 +6677,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7120001] = {
+	}
+	pg.base.island_formula[7120001] = {
 		workload = 6000,
 		name = "인증 추가",
 		vfx_offset = "",
@@ -6363,8 +6714,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7120002] = {
+	}
+	pg.base.island_formula[7120002] = {
 		workload = 999999,
 		name = "인증 추가",
 		vfx_offset = "",
@@ -6390,8 +6741,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7120003] = {
+	}
+	pg.base.island_formula[7120003] = {
 		workload = 72000,
 		name = "인증 추가",
 		vfx_offset = "",
@@ -6427,8 +6778,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7120004] = {
+	}
+	pg.base.island_formula[7120004] = {
 		workload = 180000,
 		name = "인증 추가",
 		vfx_offset = "",
@@ -6464,8 +6815,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7120005] = {
+	}
+	pg.base.island_formula[7120005] = {
 		workload = 360000,
 		name = "인증 추가",
 		vfx_offset = "",
@@ -6501,8 +6852,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7120006] = {
+	}
+	pg.base.island_formula[7120006] = {
 		workload = 432000,
 		name = "인증 추가",
 		vfx_offset = "",
@@ -6538,8 +6889,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7120007] = {
+	}
+	pg.base.island_formula[7120007] = {
 		workload = 432000,
 		name = "인증 추가",
 		vfx_offset = "",
@@ -6575,8 +6926,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7100301] = {
+	}
+	pg.base.island_formula[7100301] = {
 		workload = 6000,
 		name = "창고 용량 +1",
 		vfx_offset = "",
@@ -6612,8 +6963,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7100302] = {
+	}
+	pg.base.island_formula[7100302] = {
 		workload = 36000,
 		name = "창고 용량 +2",
 		vfx_offset = "",
@@ -6649,8 +7000,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7100303] = {
+	}
+	pg.base.island_formula[7100303] = {
 		workload = 36000,
 		name = "창고 용량 +3",
 		vfx_offset = "",
@@ -6686,8 +7037,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7100304] = {
+	}
+	pg.base.island_formula[7100304] = {
 		workload = 72000,
 		name = "창고 용량 +4",
 		vfx_offset = "",
@@ -6723,8 +7074,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7100305] = {
+	}
+	pg.base.island_formula[7100305] = {
 		workload = 144000,
 		name = "창고 용량 +5",
 		vfx_offset = "",
@@ -6760,8 +7111,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7100306] = {
+	}
+	pg.base.island_formula[7100306] = {
 		workload = 180000,
 		name = "창고 용량 +6",
 		vfx_offset = "",
@@ -6797,8 +7148,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7100307] = {
+	}
+	pg.base.island_formula[7100307] = {
 		workload = 216000,
 		name = "창고 용량 +7",
 		vfx_offset = "",
@@ -6834,8 +7185,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7100308] = {
+	}
+	pg.base.island_formula[7100308] = {
 		workload = 288000,
 		name = "창고 용량 +8",
 		vfx_offset = "",
@@ -6871,8 +7222,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7130301] = {
+	}
+	pg.base.island_formula[7130301] = {
 		workload = 72000,
 		name = "일상 보급 수 +1",
 		vfx_offset = "",
@@ -6908,8 +7259,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7130302] = {
+	}
+	pg.base.island_formula[7130302] = {
 		workload = 72000,
 		name = "일상 보급 수 +2",
 		vfx_offset = "",
@@ -6945,8 +7296,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7140101] = {
+	}
+	pg.base.island_formula[7140101] = {
 		workload = 18000,
 		name = "연구 배치 슬롯 +",
 		vfx_offset = "",
@@ -6982,8 +7333,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7210101] = {
+	}
+	pg.base.island_formula[7210101] = {
 		workload = 600,
 		name = "오픈: 벌목 배치 슬롯",
 		vfx_offset = "",
@@ -7019,8 +7370,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7210102] = {
+	}
+	pg.base.island_formula[7210102] = {
 		workload = 18000,
 		name = "벌목 배치 슬롯 +1",
 		vfx_offset = "",
@@ -7064,8 +7415,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7210103] = {
+	}
+	pg.base.island_formula[7210103] = {
 		workload = 144000,
 		name = "벌목 배치 슬롯 +2",
 		vfx_offset = "",
@@ -7109,8 +7460,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7210104] = {
+	}
+	pg.base.island_formula[7210104] = {
 		workload = 144000,
 		name = "벌목 배치 슬롯 +3",
 		vfx_offset = "",
@@ -7154,8 +7505,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7210401] = {
+	}
+	pg.base.island_formula[7210401] = {
 		workload = 3000,
 		name = "수동 벌목 자원 회복 +",
 		vfx_offset = "",
@@ -7191,8 +7542,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7210201] = {
+	}
+	pg.base.island_formula[7210201] = {
 		workload = 18000,
 		name = "실용 목재 벌목",
 		vfx_offset = "",
@@ -7236,8 +7587,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7210202] = {
+	}
+	pg.base.island_formula[7210202] = {
 		workload = 36000,
 		name = "엄선 목재 벌목",
 		vfx_offset = "",
@@ -7281,8 +7632,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7210203] = {
+	}
+	pg.base.island_formula[7210203] = {
 		workload = 144000,
 		name = "우아한 목재 벌목",
 		vfx_offset = "",
@@ -7326,8 +7677,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7210501] = {
+	}
+	pg.base.island_formula[7210501] = {
 		workload = 18000,
 		name = "수동 벌목 효율 +1",
 		vfx_offset = "",
@@ -7371,8 +7722,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7210502] = {
+	}
+	pg.base.island_formula[7210502] = {
 		workload = 36000,
 		name = "수동 벌목 효율 +2",
 		vfx_offset = "",
@@ -7416,8 +7767,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7210601] = {
+	}
+	pg.base.island_formula[7210601] = {
 		workload = 288000,
 		name = "벌목 배치 슬롯 효율 +",
 		vfx_offset = "",
@@ -7461,8 +7812,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7220101] = {
+	}
+	pg.base.island_formula[7220101] = {
 		workload = 600,
 		name = "오픈: 광산 채굴 배치 슬롯",
 		vfx_offset = "",
@@ -7498,8 +7849,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7220102] = {
+	}
+	pg.base.island_formula[7220102] = {
 		workload = 36000,
 		name = "채굴 배치 슬롯 +1",
 		vfx_offset = "",
@@ -7543,8 +7894,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7220103] = {
+	}
+	pg.base.island_formula[7220103] = {
 		workload = 72000,
 		name = "채굴 배치 슬롯 +2",
 		vfx_offset = "",
@@ -7588,8 +7939,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7220104] = {
+	}
+	pg.base.island_formula[7220104] = {
 		workload = 180000,
 		name = "채굴 배치 슬롯 +3",
 		vfx_offset = "",
@@ -7633,8 +7984,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7220201] = {
+	}
+	pg.base.island_formula[7220201] = {
 		workload = 6000,
 		name = "알루미늄 광석 탐사",
 		vfx_offset = "",
@@ -7670,8 +8021,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7220202] = {
+	}
+	pg.base.island_formula[7220202] = {
 		workload = 18000,
 		name = "철광석 탐사",
 		vfx_offset = "",
@@ -7715,8 +8066,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7220203] = {
+	}
+	pg.base.island_formula[7220203] = {
 		workload = 36000,
 		name = "황광석 탐사",
 		vfx_offset = "",
@@ -7760,8 +8111,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7220204] = {
+	}
+	pg.base.island_formula[7220204] = {
 		workload = 72000,
 		name = "은광석 탐사",
 		vfx_offset = "",
@@ -7805,8 +8156,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7220401] = {
+	}
+	pg.base.island_formula[7220401] = {
 		workload = 6000,
 		name = "수동 채굴 자원 회복 +",
 		vfx_offset = "",
@@ -7842,8 +8193,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7220501] = {
+	}
+	pg.base.island_formula[7220501] = {
 		workload = 3000,
 		name = "수동 채굴 효율 +1",
 		vfx_offset = "",
@@ -7879,8 +8230,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7220502] = {
+	}
+	pg.base.island_formula[7220502] = {
 		workload = 36000,
 		name = "수동 채굴 효율 +2",
 		vfx_offset = "",
@@ -7924,8 +8275,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7220601] = {
+	}
+	pg.base.island_formula[7220601] = {
 		workload = 360000,
 		name = "채굴 배치 슬롯 효율 +",
 		vfx_offset = "",
@@ -7969,8 +8320,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7310001] = {
+	}
+	pg.base.island_formula[7310001] = {
 		workload = 72000,
 		name = "수동 파종 범위 +",
 		vfx_offset = "",
@@ -8014,8 +8365,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7310002] = {
+	}
+	pg.base.island_formula[7310002] = {
 		workload = 999999,
 		name = "수동 파종 범위 +",
 		vfx_offset = "",
@@ -8041,8 +8392,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7310101] = {
+	}
+	pg.base.island_formula[7310101] = {
 		workload = 3000,
 		name = "오픈: 농장 배치 슬롯",
 		vfx_offset = "",
@@ -8078,8 +8429,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7310102] = {
+	}
+	pg.base.island_formula[7310102] = {
 		workload = 36000,
 		name = "농장 배치 슬롯 +1",
 		vfx_offset = "",
@@ -8123,8 +8474,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7310103] = {
+	}
+	pg.base.island_formula[7310103] = {
 		workload = 144000,
 		name = "농장 배치 슬롯 +2",
 		vfx_offset = "",
@@ -8168,8 +8519,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7310104] = {
+	}
+	pg.base.island_formula[7310104] = {
 		workload = 360000,
 		name = "농장 배치 슬롯 +3",
 		vfx_offset = "",
@@ -8213,8 +8564,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7310301] = {
+	}
+	pg.base.island_formula[7310301] = {
 		workload = 600,
 		name = "이슬 농장 확장 1",
 		vfx_offset = "",
@@ -8250,8 +8601,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7310302] = {
+	}
+	pg.base.island_formula[7310302] = {
 		workload = 3000,
 		name = "이슬 농장 확장 2",
 		vfx_offset = "",
@@ -8287,8 +8638,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7310303] = {
+	}
+	pg.base.island_formula[7310303] = {
 		workload = 18000,
 		name = "이슬 농장 확장 3",
 		vfx_offset = "",
@@ -8332,8 +8683,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7310304] = {
+	}
+	pg.base.island_formula[7310304] = {
 		workload = 18000,
 		name = "이슬 농장 확장 4",
 		vfx_offset = "",
@@ -8377,8 +8728,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7310305] = {
+	}
+	pg.base.island_formula[7310305] = {
 		workload = 18000,
 		name = "이슬 농장 확장 5",
 		vfx_offset = "",
@@ -8422,8 +8773,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7310306] = {
+	}
+	pg.base.island_formula[7310306] = {
 		workload = 36000,
 		name = "이슬 농장 확장 6",
 		vfx_offset = "",
@@ -8467,8 +8818,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7310307] = {
+	}
+	pg.base.island_formula[7310307] = {
 		workload = 72000,
 		name = "이슬 농장 확장 7",
 		vfx_offset = "",
@@ -8512,8 +8863,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7310308] = {
+	}
+	pg.base.island_formula[7310308] = {
 		workload = 144000,
 		name = "이슬 농장 확장 8",
 		vfx_offset = "",
@@ -8557,8 +8908,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7310309] = {
+	}
+	pg.base.island_formula[7310309] = {
 		workload = 180000,
 		name = "이슬 농장 확장 9",
 		vfx_offset = "",
@@ -8602,8 +8953,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7320101] = {
+	}
+	pg.base.island_formula[7320101] = {
 		workload = 18000,
 		name = "이슬 농장 확장 10",
 		vfx_offset = "",
@@ -8647,8 +8998,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7320102] = {
+	}
+	pg.base.island_formula[7320102] = {
 		workload = 216000,
 		name = "모밭 배치 슬롯 +",
 		vfx_offset = "",
@@ -8692,8 +9043,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7320301] = {
+	}
+	pg.base.island_formula[7320301] = {
 		workload = 3000,
 		name = "초록색 모밭 확장 1",
 		vfx_offset = "",
@@ -8729,8 +9080,10 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7320302] = {
+	}
+end)()
+(function ()
+	pg.base.island_formula[7320302] = {
 		workload = 36000,
 		name = "초록색 모밭 확장 2",
 		vfx_offset = "",
@@ -8774,8 +9127,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7320303] = {
+	}
+	pg.base.island_formula[7320303] = {
 		workload = 72000,
 		name = "초록색 모밭 확장 3",
 		vfx_offset = "",
@@ -8819,8 +9172,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7320304] = {
+	}
+	pg.base.island_formula[7320304] = {
 		workload = 216000,
 		name = "초록색 모밭 확장 4",
 		vfx_offset = "",
@@ -8864,8 +9217,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7330101] = {
+	}
+	pg.base.island_formula[7330101] = {
 		workload = 18000,
 		name = "오픈: 과수원 배치 슬롯",
 		vfx_offset = "",
@@ -8909,8 +9262,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7330102] = {
+	}
+	pg.base.island_formula[7330102] = {
 		workload = 36000,
 		name = "과수원 배치 슬롯 +1",
 		vfx_offset = "",
@@ -8954,8 +9307,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7330103] = {
+	}
+	pg.base.island_formula[7330103] = {
 		workload = 144000,
 		name = "과수원 배치 슬롯 +2",
 		vfx_offset = "",
@@ -8999,8 +9352,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7330104] = {
+	}
+	pg.base.island_formula[7330104] = {
 		workload = 288000,
 		name = "과수원 배치 슬롯 +3",
 		vfx_offset = "",
@@ -9044,8 +9397,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7330301] = {
+	}
+	pg.base.island_formula[7330301] = {
 		workload = 6000,
 		name = "향기로운 과수원 확장 1",
 		vfx_offset = "",
@@ -9081,8 +9434,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7330302] = {
+	}
+	pg.base.island_formula[7330302] = {
 		workload = 36000,
 		name = "향기로운 과수원 확장 2",
 		vfx_offset = "",
@@ -9126,8 +9479,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7330303] = {
+	}
+	pg.base.island_formula[7330303] = {
 		workload = 144000,
 		name = "향기로운 과수원 확장 3",
 		vfx_offset = "",
@@ -9171,8 +9524,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7310201] = {
+	}
+	pg.base.island_formula[7310201] = {
 		workload = 600,
 		name = "목초 재배",
 		vfx_offset = "",
@@ -9208,8 +9561,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7310202] = {
+	}
+	pg.base.island_formula[7310202] = {
 		workload = 3000,
 		name = "밭벼 재배",
 		vfx_offset = "",
@@ -9245,8 +9598,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7320201] = {
+	}
+	pg.base.island_formula[7320201] = {
 		workload = 18000,
 		name = "딸기 재배",
 		vfx_offset = "",
@@ -9290,8 +9643,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7320202] = {
+	}
+	pg.base.island_formula[7320202] = {
 		workload = 18000,
 		name = "목화 재배",
 		vfx_offset = "",
@@ -9335,8 +9688,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7320203] = {
+	}
+	pg.base.island_formula[7320203] = {
 		workload = 36000,
 		name = "차나무 재배",
 		vfx_offset = "",
@@ -9380,8 +9733,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7320204] = {
+	}
+	pg.base.island_formula[7320204] = {
 		workload = 72000,
 		name = "당근 재배",
 		vfx_offset = "",
@@ -9425,8 +9778,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7320205] = {
+	}
+	pg.base.island_formula[7320205] = {
 		workload = 72000,
 		name = "라벤더 재배",
 		vfx_offset = "",
@@ -9470,8 +9823,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7320206] = {
+	}
+	pg.base.island_formula[7320206] = {
 		workload = 144000,
 		name = "양파 재배",
 		vfx_offset = "",
@@ -9515,8 +9868,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7330201] = {
+	}
+	pg.base.island_formula[7330201] = {
 		workload = 72000,
 		name = "고무나무 재배",
 		vfx_offset = "",
@@ -9560,8 +9913,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7400001] = {
+	}
+	pg.base.island_formula[7400001] = {
 		workload = 6000,
 		name = "목장 생산 품목 +",
 		vfx_offset = "",
@@ -9597,8 +9950,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7410301] = {
+	}
+	pg.base.island_formula[7410301] = {
 		workload = 600,
 		name = "닭을 더 키우자! 1",
 		vfx_offset = "",
@@ -9634,8 +9987,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7410302] = {
+	}
+	pg.base.island_formula[7410302] = {
 		workload = 3000,
 		name = "닭을 더 키우자! 2",
 		vfx_offset = "",
@@ -9671,8 +10024,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7410303] = {
+	}
+	pg.base.island_formula[7410303] = {
 		workload = 18000,
 		name = "닭을 더 키우자! 3",
 		vfx_offset = "",
@@ -9716,8 +10069,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7410304] = {
+	}
+	pg.base.island_formula[7410304] = {
 		workload = 36000,
 		name = "닭을 더 키우자! 4",
 		vfx_offset = "",
@@ -9761,8 +10114,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7410305] = {
+	}
+	pg.base.island_formula[7410305] = {
 		workload = 72000,
 		name = "닭을 더 키우자! 5",
 		vfx_offset = "",
@@ -9806,8 +10159,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7420301] = {
+	}
+	pg.base.island_formula[7420301] = {
 		workload = 3000,
 		name = "꿀꿀이 사육",
 		vfx_offset = "",
@@ -9843,8 +10196,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7420302] = {
+	}
+	pg.base.island_formula[7420302] = {
 		workload = 3000,
 		name = "돼지를 더 키우자! 1",
 		vfx_offset = "",
@@ -9880,8 +10233,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7420303] = {
+	}
+	pg.base.island_formula[7420303] = {
 		workload = 18000,
 		name = "돼지를 더 키우자! 2",
 		vfx_offset = "",
@@ -9925,8 +10278,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7420304] = {
+	}
+	pg.base.island_formula[7420304] = {
 		workload = 72000,
 		name = "돼지를 더 키우자! 3",
 		vfx_offset = "",
@@ -9970,8 +10323,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7430301] = {
+	}
+	pg.base.island_formula[7430301] = {
 		workload = 6000,
 		name = "무무소 사육",
 		vfx_offset = "",
@@ -10007,8 +10360,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7430302] = {
+	}
+	pg.base.island_formula[7430302] = {
 		workload = 6000,
 		name = "소를 더 키우자! 1",
 		vfx_offset = "",
@@ -10052,8 +10405,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7430303] = {
+	}
+	pg.base.island_formula[7430303] = {
 		workload = 36000,
 		name = "소를 더 키우자! 2",
 		vfx_offset = "",
@@ -10097,8 +10450,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7430304] = {
+	}
+	pg.base.island_formula[7430304] = {
 		workload = 144000,
 		name = "소를 더 키우자! 3",
 		vfx_offset = "",
@@ -10142,8 +10495,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7440301] = {
+	}
+	pg.base.island_formula[7440301] = {
 		workload = 18000,
 		name = "메메양 사육",
 		vfx_offset = "",
@@ -10187,8 +10540,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7440302] = {
+	}
+	pg.base.island_formula[7440302] = {
 		workload = 18000,
 		name = "양을 더 키우자! 1",
 		vfx_offset = "",
@@ -10232,8 +10585,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7440303] = {
+	}
+	pg.base.island_formula[7440303] = {
 		workload = 36000,
 		name = "양을 더 키우자! 2",
 		vfx_offset = "",
@@ -10277,8 +10630,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7440304] = {
+	}
+	pg.base.island_formula[7440304] = {
 		workload = 180000,
 		name = "양을 더 키우자! 3",
 		vfx_offset = "",
@@ -10322,8 +10675,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7450301] = {
+	}
+	pg.base.island_formula[7450301] = {
 		workload = 144000,
 		name = "꿀 채집지 +1",
 		vfx_offset = "",
@@ -10367,8 +10720,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7450302] = {
+	}
+	pg.base.island_formula[7450302] = {
 		workload = 180000,
 		name = "꿀 채집지 +2",
 		vfx_offset = "",
@@ -10412,8 +10765,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7460001] = {
+	}
+	pg.base.island_formula[7460001] = {
 		workload = 36000,
 		name = "낚싯대 강화+",
 		vfx_offset = "",
@@ -10457,8 +10810,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7460002] = {
+	}
+	pg.base.island_formula[7460002] = {
 		workload = 180000,
 		name = "낚싯대 강화+",
 		vfx_offset = "",
@@ -10502,8 +10855,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7460101] = {
+	}
+	pg.base.island_formula[7460101] = {
 		workload = 72000,
 		name = "양식 슬롯+",
 		vfx_offset = "",
@@ -10547,8 +10900,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7460301] = {
+	}
+	pg.base.island_formula[7460301] = {
 		workload = 180000,
 		name = "양식 속도+",
 		vfx_offset = "",
@@ -10592,8 +10945,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7460102] = {
+	}
+	pg.base.island_formula[7460102] = {
 		workload = 216000,
 		name = "양식 슬롯+",
 		vfx_offset = "",
@@ -10637,8 +10990,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7460302] = {
+	}
+	pg.base.island_formula[7460302] = {
 		workload = 216000,
 		name = "양식 속도+",
 		vfx_offset = "",
@@ -10682,8 +11035,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7460201] = {
+	}
+	pg.base.island_formula[7460201] = {
 		workload = 18000,
 		name = "피시 앤 칩스",
 		vfx_offset = "",
@@ -10727,8 +11080,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7460202] = {
+	}
+	pg.base.island_formula[7460202] = {
 		workload = 36000,
 		name = "생선 양파찜",
 		vfx_offset = "",
@@ -10772,8 +11125,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7460203] = {
+	}
+	pg.base.island_formula[7460203] = {
 		workload = 180000,
 		name = "파에야",
 		vfx_offset = "",
@@ -10817,8 +11170,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7460204] = {
+	}
+	pg.base.island_formula[7460204] = {
 		workload = 288000,
 		name = "불도장",
 		vfx_offset = "",
@@ -10862,8 +11215,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7460205] = {
+	}
+	pg.base.island_formula[7460205] = {
 		workload = 144000,
 		name = "가재 볶음",
 		vfx_offset = "",
@@ -10907,8 +11260,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7460206] = {
+	}
+	pg.base.island_formula[7460206] = {
 		workload = 72000,
 		name = "레몬 새우",
 		vfx_offset = "",
@@ -10952,8 +11305,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7500211] = {
+	}
+	pg.base.island_formula[7500211] = {
 		workload = 600,
 		name = "커피나무 재배",
 		vfx_offset = "",
@@ -10989,8 +11342,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7500212] = {
+	}
+	pg.base.island_formula[7500212] = {
 		workload = 3000,
 		name = "옥수수 재배",
 		vfx_offset = "",
@@ -11026,8 +11379,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7500213] = {
+	}
+	pg.base.island_formula[7500213] = {
 		workload = 6000,
 		name = "대두 재배",
 		vfx_offset = "",
@@ -11063,8 +11416,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7500214] = {
+	}
+	pg.base.island_formula[7500214] = {
 		workload = 6000,
 		name = "감자 재배",
 		vfx_offset = "",
@@ -11108,8 +11461,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7500215] = {
+	}
+	pg.base.island_formula[7500215] = {
 		workload = 6000,
 		name = "배추 재배",
 		vfx_offset = "",
@@ -11145,8 +11498,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7500231] = {
+	}
+	pg.base.island_formula[7500231] = {
 		workload = 3000,
 		name = "사과나무 재배",
 		vfx_offset = "",
@@ -11182,8 +11535,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7500232] = {
+	}
+	pg.base.island_formula[7500232] = {
 		workload = 6000,
 		name = "귤나무 재배",
 		vfx_offset = "",
@@ -11227,8 +11580,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7500233] = {
+	}
+	pg.base.island_formula[7500233] = {
 		workload = 18000,
 		name = "바나나나무 재배",
 		vfx_offset = "",
@@ -11272,8 +11625,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7500234] = {
+	}
+	pg.base.island_formula[7500234] = {
 		workload = 18000,
 		name = "망고나무 재배",
 		vfx_offset = "",
@@ -11317,8 +11670,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7500235] = {
+	}
+	pg.base.island_formula[7500235] = {
 		workload = 36000,
 		name = "레몬나무 재배",
 		vfx_offset = "",
@@ -11362,8 +11715,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7500236] = {
+	}
+	pg.base.island_formula[7500236] = {
 		workload = 36000,
 		name = "아보카도 재배",
 		vfx_offset = "",
@@ -11407,8 +11760,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7500001] = {
+	}
+	pg.base.island_formula[7500001] = {
 		workload = 18000,
 		name = "오픈: 요리 조합",
 		vfx_offset = "",
@@ -11452,8 +11805,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7510101] = {
+	}
+	pg.base.island_formula[7510101] = {
 		workload = 180000,
 		name = "유어 레스토랑 배치 슬롯 +",
 		vfx_offset = "",
@@ -11497,8 +11850,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7510201] = {
+	}
+	pg.base.island_formula[7510201] = {
 		workload = 18000,
 		name = "다진 고기 두부볶음",
 		vfx_offset = "",
@@ -11542,8 +11895,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7510202] = {
+	}
+	pg.base.island_formula[7510202] = {
 		workload = 18000,
 		name = "오므라이스",
 		vfx_offset = "",
@@ -11587,8 +11940,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7510203] = {
+	}
+	pg.base.island_formula[7510203] = {
 		workload = 18000,
 		name = "배추 두부탕",
 		vfx_offset = "",
@@ -11632,8 +11985,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7510204] = {
+	}
+	pg.base.island_formula[7510204] = {
 		workload = 18000,
 		name = "야채 샐러드",
 		vfx_offset = "",
@@ -11677,8 +12030,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7520001] = {
+	}
+	pg.base.island_formula[7520001] = {
 		workload = 6000,
 		name = "오픈: 백곰 음료",
 		vfx_offset = "",
@@ -11714,8 +12067,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7520101] = {
+	}
+	pg.base.island_formula[7520101] = {
 		workload = 288000,
 		name = "백곰 음료 배치 슬롯 +",
 		vfx_offset = "",
@@ -11759,8 +12112,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7520201] = {
+	}
+	pg.base.island_formula[7520201] = {
 		workload = 36000,
 		name = "바나나 망고 주스",
 		vfx_offset = "",
@@ -11804,8 +12157,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7520202] = {
+	}
+	pg.base.island_formula[7520202] = {
 		workload = 36000,
 		name = "꿀 레몬 워터",
 		vfx_offset = "",
@@ -11849,8 +12202,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7520203] = {
+	}
+	pg.base.island_formula[7520203] = {
 		workload = 36000,
 		name = "딸기 꿀 프라페",
 		vfx_offset = "",
@@ -11894,8 +12247,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7520204] = {
+	}
+	pg.base.island_formula[7520204] = {
 		workload = 144000,
 		name = "라벤더 차",
 		vfx_offset = "",
@@ -11939,8 +12292,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7520205] = {
+	}
+	pg.base.island_formula[7520205] = {
 		workload = 72000,
 		name = "딸기 레몬 드링크",
 		vfx_offset = "",
@@ -11984,8 +12337,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7530001] = {
+	}
+	pg.base.island_formula[7530001] = {
 		workload = 36000,
 		name = "오픈: 쥬쥬 간편식",
 		vfx_offset = "",
@@ -12029,8 +12382,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7530101] = {
+	}
+	pg.base.island_formula[7530101] = {
 		workload = 360000,
 		name = "쥬쥬 간편식 배치 슬롯 +",
 		vfx_offset = "",
@@ -12074,8 +12427,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7530201] = {
+	}
+	pg.base.island_formula[7530201] = {
 		workload = 36000,
 		name = "옥수수 컵",
 		vfx_offset = "",
@@ -12119,8 +12472,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7530202] = {
+	}
+	pg.base.island_formula[7530202] = {
 		workload = 72000,
 		name = "망고 찹쌀밥",
 		vfx_offset = "",
@@ -12164,8 +12517,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7530203] = {
+	}
+	pg.base.island_formula[7530203] = {
 		workload = 144000,
 		name = "바나나 크레이프",
 		vfx_offset = "",
@@ -12209,8 +12562,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7530204] = {
+	}
+	pg.base.island_formula[7530204] = {
 		workload = 180000,
 		name = "딸기 샬럿",
 		vfx_offset = "",
@@ -12254,8 +12607,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7530205] = {
+	}
+	pg.base.island_formula[7530205] = {
 		workload = 36000,
 		name = "애플파이",
 		vfx_offset = "",
@@ -12299,8 +12652,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7530206] = {
+	}
+	pg.base.island_formula[7530206] = {
 		workload = 72000,
 		name = "오렌지 파이",
 		vfx_offset = "",
@@ -12344,8 +12697,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7540001] = {
+	}
+	pg.base.island_formula[7540001] = {
 		workload = 72000,
 		name = "오픈: 오징어 구이",
 		vfx_offset = "",
@@ -12389,8 +12742,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7540101] = {
+	}
+	pg.base.island_formula[7540101] = {
 		workload = 432000,
 		name = "오징어 구이 배치 슬롯 +",
 		vfx_offset = "",
@@ -12434,8 +12787,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7540201] = {
+	}
+	pg.base.island_formula[7540201] = {
 		workload = 144000,
 		name = "닭고기 감자 플래터",
 		vfx_offset = "",
@@ -12479,8 +12832,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7540202] = {
+	}
+	pg.base.island_formula[7540202] = {
 		workload = 180000,
 		name = "닭고기 볶음",
 		vfx_offset = "",
@@ -12524,8 +12877,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7540204] = {
+	}
+	pg.base.island_formula[7540204] = {
 		workload = 180000,
 		name = "두꺼운 당근 계란말이",
 		vfx_offset = "",
@@ -12569,8 +12922,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7540205] = {
+	}
+	pg.base.island_formula[7540205] = {
 		workload = 216000,
 		name = "햄버그 덮밥",
 		vfx_offset = "",
@@ -12614,8 +12967,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7550201] = {
+	}
+	pg.base.island_formula[7550201] = {
 		workload = 3000,
 		name = "치즈",
 		vfx_offset = "",
@@ -12651,8 +13004,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7550202] = {
+	}
+	pg.base.island_formula[7550202] = {
 		workload = 6000,
 		name = "라떼",
 		vfx_offset = "",
@@ -12696,8 +13049,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7550203] = {
+	}
+	pg.base.island_formula[7550203] = {
 		workload = 18000,
 		name = "시트러스 커피",
 		vfx_offset = "",
@@ -12741,8 +13094,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7550204] = {
+	}
+	pg.base.island_formula[7550204] = {
 		workload = 72000,
 		name = "딸기 밀크쉐이크",
 		vfx_offset = "",
@@ -12786,8 +13139,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7610101] = {
+	}
+	pg.base.island_formula[7610101] = {
 		workload = 600,
 		name = "운송 의뢰 한도 +1",
 		vfx_offset = "",
@@ -12823,8 +13176,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7610102] = {
+	}
+	pg.base.island_formula[7610102] = {
 		workload = 18000,
 		name = "운송 의뢰 한도 +2",
 		vfx_offset = "",
@@ -12868,8 +13221,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7610401] = {
+	}
+	pg.base.island_formula[7610401] = {
 		workload = 3000,
 		name = "운송 효율 +1",
 		vfx_offset = "",
@@ -12905,8 +13258,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7610402] = {
+	}
+	pg.base.island_formula[7610402] = {
 		workload = 18000,
 		name = "운송 효율 +2",
 		vfx_offset = "",
@@ -12950,8 +13303,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7610403] = {
+	}
+	pg.base.island_formula[7610403] = {
 		workload = 36000,
 		name = "운송 효율 +3",
 		vfx_offset = "",
@@ -12995,8 +13348,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7620101] = {
+	}
+	pg.base.island_formula[7620101] = {
 		workload = 36000,
 		name = "쥬카페 배치 슬롯 +",
 		vfx_offset = "",
@@ -13040,8 +13393,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7630101] = {
+	}
+	pg.base.island_formula[7630101] = {
 		workload = 36000,
 		name = "목재 가공 배치 슬롯 +",
 		vfx_offset = "",
@@ -13085,8 +13438,10 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7630201] = {
+	}
+end)()
+(function ()
+	pg.base.island_formula[7630201] = {
 		workload = 18000,
 		name = "수첩",
 		vfx_offset = "",
@@ -13130,8 +13485,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7630202] = {
+	}
+	pg.base.island_formula[7630202] = {
 		workload = 18000,
 		name = "책상과 의자",
 		vfx_offset = "",
@@ -13175,8 +13530,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7630203] = {
+	}
+	pg.base.island_formula[7630203] = {
 		workload = 72000,
 		name = "오크통",
 		vfx_offset = "",
@@ -13220,8 +13575,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7630204] = {
+	}
+	pg.base.island_formula[7630204] = {
 		workload = 144000,
 		name = "서류 캐비닛",
 		vfx_offset = "",
@@ -13265,8 +13620,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7630205] = {
+	}
+	pg.base.island_formula[7630205] = {
 		workload = 144000,
 		name = "장식용 그림 제작",
 		vfx_offset = "",
@@ -13310,8 +13665,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7640001] = {
+	}
+	pg.base.island_formula[7640001] = {
 		workload = 36000,
 		name = "오픈: 공업 아이템",
 		vfx_offset = "",
@@ -13355,8 +13710,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7640101] = {
+	}
+	pg.base.island_formula[7640101] = {
 		workload = 72000,
 		name = "공업 생산 배치 슬롯 +",
 		vfx_offset = "",
@@ -13400,8 +13755,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7640201] = {
+	}
+	pg.base.island_formula[7640201] = {
 		workload = 36000,
 		name = "못",
 		vfx_offset = "",
@@ -13445,8 +13800,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7640202] = {
+	}
+	pg.base.island_formula[7640202] = {
 		workload = 72000,
 		name = "케이블",
 		vfx_offset = "",
@@ -13490,8 +13845,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7640203] = {
+	}
+	pg.base.island_formula[7640203] = {
 		workload = 72000,
 		name = "화학품",
 		vfx_offset = "",
@@ -13535,8 +13890,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7640204] = {
+	}
+	pg.base.island_formula[7640204] = {
 		workload = 180000,
 		name = "화약",
 		vfx_offset = "",
@@ -13580,8 +13935,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7640205] = {
+	}
+	pg.base.island_formula[7640205] = {
 		workload = 180000,
 		name = "식기",
 		vfx_offset = "",
@@ -13625,8 +13980,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7650001] = {
+	}
+	pg.base.island_formula[7650001] = {
 		workload = 144000,
 		name = "오픈: 전자 가공 아이템",
 		vfx_offset = "",
@@ -13670,8 +14025,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7650101] = {
+	}
+	pg.base.island_formula[7650101] = {
 		workload = 216000,
 		name = "전자 가공 배치 슬롯 +",
 		vfx_offset = "",
@@ -13715,8 +14070,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7650201] = {
+	}
+	pg.base.island_formula[7650201] = {
 		workload = 180000,
 		name = "시계",
 		vfx_offset = "",
@@ -13760,8 +14115,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7650202] = {
+	}
+	pg.base.island_formula[7650202] = {
 		workload = 288000,
 		name = "축전지",
 		vfx_offset = "",
@@ -13805,8 +14160,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7650203] = {
+	}
+	pg.base.island_formula[7650203] = {
 		workload = 360000,
 		name = "정수 필터",
 		vfx_offset = "",
@@ -13850,8 +14205,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7660001] = {
+	}
+	pg.base.island_formula[7660001] = {
 		workload = 72000,
 		name = "오픈: 수공업 아이템",
 		vfx_offset = "",
@@ -13895,8 +14250,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7660101] = {
+	}
+	pg.base.island_formula[7660101] = {
 		workload = 180000,
 		name = "수공제작 배치 슬롯 +",
 		vfx_offset = "",
@@ -13940,8 +14295,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7660201] = {
+	}
+	pg.base.island_formula[7660201] = {
 		workload = 72000,
 		name = "가죽",
 		vfx_offset = "",
@@ -13985,8 +14340,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7660202] = {
+	}
+	pg.base.island_formula[7660202] = {
 		workload = 72000,
 		name = "밧줄",
 		vfx_offset = "",
@@ -14030,8 +14385,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7660203] = {
+	}
+	pg.base.island_formula[7660203] = {
 		workload = 144000,
 		name = "장갑",
 		vfx_offset = "",
@@ -14075,8 +14430,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7660204] = {
+	}
+	pg.base.island_formula[7660204] = {
 		workload = 144000,
 		name = "향낭",
 		vfx_offset = "",
@@ -14120,8 +14475,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7660205] = {
+	}
+	pg.base.island_formula[7660205] = {
 		workload = 216000,
 		name = "신발",
 		vfx_offset = "",
@@ -14165,8 +14520,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[7660206] = {
+	}
+	pg.base.island_formula[7660206] = {
 		workload = 288000,
 		name = "붕대",
 		vfx_offset = "",
@@ -14210,8 +14565,8 @@ pg.island_formula = {
 		commission_product = {},
 		second_product_display = {},
 		second_product = {}
-	},
-	[9900001] = {
+	}
+	pg.base.island_formula[9900001] = {
 		workload = 18000,
 		name = "아키즈키 배",
 		vfx_offset = "",
@@ -14277,8 +14632,8 @@ pg.island_formula = {
 				20144
 			}
 		}
-	},
-	[9900002] = {
+	}
+	pg.base.island_formula[9900002] = {
 		workload = 18000,
 		name = "감",
 		vfx_offset = "",
@@ -14344,8 +14699,8 @@ pg.island_formula = {
 				20147
 			}
 		}
-	},
-	[9900003] = {
+	}
+	pg.base.island_formula[9900003] = {
 		workload = 18000,
 		name = "곶감",
 		vfx_offset = "",
@@ -14384,8 +14739,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[9900004] = {
+	}
+	pg.base.island_formula[9900004] = {
 		workload = 18000,
 		name = "송이버섯 닭고기 스프",
 		vfx_offset = "",
@@ -14428,8 +14783,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[9900005] = {
+	}
+	pg.base.island_formula[9900005] = {
 		workload = 18000,
 		name = "가을 꽃다발",
 		vfx_offset = "",
@@ -14472,8 +14827,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[9900006] = {
+	}
+	pg.base.island_formula[9900006] = {
 		workload = 18000,
 		name = "땅콩기름",
 		vfx_offset = "",
@@ -14512,8 +14867,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[9900007] = {
+	}
+	pg.base.island_formula[9900007] = {
 		workload = 18000,
 		name = "당근과 배 주스",
 		vfx_offset = "",
@@ -14556,8 +14911,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[9900008] = {
+	}
+	pg.base.island_formula[9900008] = {
 		workload = 18000,
 		name = "국화차",
 		vfx_offset = "",
@@ -14596,8 +14951,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[9900009] = {
+	}
+	pg.base.island_formula[9900009] = {
 		workload = 96000,
 		name = "아스파라거스",
 		vfx_offset = "",
@@ -14663,8 +15018,8 @@ pg.island_formula = {
 				20162
 			}
 		}
-	},
-	[9900010] = {
+	}
+	pg.base.island_formula[9900010] = {
 		workload = 54000,
 		name = "파인애플",
 		vfx_offset = "",
@@ -14730,8 +15085,8 @@ pg.island_formula = {
 				20164
 			}
 		}
-	},
-	[9900011] = {
+	}
+	pg.base.island_formula[9900011] = {
 		workload = 6000,
 		name = "갓 짜낸 파인애플 주스",
 		vfx_offset = "",
@@ -14770,8 +15125,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[9900012] = {
+	}
+	pg.base.island_formula[9900012] = {
 		workload = 24000,
 		name = "영춘화차",
 		vfx_offset = "",
@@ -14814,8 +15169,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[9900013] = {
+	}
+	pg.base.island_formula[9900013] = {
 		workload = 9000,
 		name = "죽순과 아스파라거스 냉채",
 		vfx_offset = "",
@@ -14858,8 +15213,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[9900014] = {
+	}
+	pg.base.island_formula[9900014] = {
 		workload = 12000,
 		name = "새우 아스파라거스 볶음",
 		vfx_offset = "",
@@ -14902,8 +15257,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[9900015] = {
+	}
+	pg.base.island_formula[9900015] = {
 		workload = 48000,
 		name = "말린 냉이",
 		vfx_offset = "",
@@ -14942,8 +15297,8 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	[9900016] = {
+	}
+	pg.base.island_formula[9900016] = {
 		workload = 18000,
 		name = "봄의 꽃다발",
 		vfx_offset = "",
@@ -14986,348 +15341,5 @@ pg.island_formula = {
 		},
 		second_product_display = {},
 		second_product = {}
-	},
-	all = {
-		101001,
-		101002,
-		101003,
-		101004,
-		101005,
-		101006,
-		101007,
-		101008,
-		101013,
-		101015,
-		101016,
-		101018,
-		201001,
-		201002,
-		201003,
-		201004,
-		201005,
-		201006,
-		201007,
-		201008,
-		201101,
-		201102,
-		201103,
-		201104,
-		201105,
-		201106,
-		201107,
-		201108,
-		401001,
-		401002,
-		401004,
-		401005,
-		401006,
-		401007,
-		402001,
-		402002,
-		402003,
-		402004,
-		501001,
-		501002,
-		501003,
-		501004,
-		501005,
-		501006,
-		501007,
-		502001,
-		502002,
-		502003,
-		502004,
-		502005,
-		502006,
-		502007,
-		601001,
-		601002,
-		601003,
-		601004,
-		601005,
-		601006,
-		601007,
-		601008,
-		601101,
-		601102,
-		602001,
-		602002,
-		602003,
-		602004,
-		602005,
-		602006,
-		602101,
-		602102,
-		602103,
-		603001,
-		603002,
-		603003,
-		603004,
-		603005,
-		603006,
-		603007,
-		603101,
-		603102,
-		603103,
-		604001,
-		604002,
-		604004,
-		604005,
-		604006,
-		604007,
-		604008,
-		604101,
-		604102,
-		701001,
-		701002,
-		701003,
-		701004,
-		701005,
-		701006,
-		701007,
-		701008,
-		701009,
-		701010,
-		701011,
-		701012,
-		701013,
-		701014,
-		701015,
-		701016,
-		701017,
-		701018,
-		701019,
-		701020,
-		701021,
-		701022,
-		701023,
-		901001,
-		901002,
-		901003,
-		901004,
-		901005,
-		901006,
-		901101,
-		901102,
-		901103,
-		7100001,
-		7100002,
-		7100003,
-		7100004,
-		7110001,
-		7110002,
-		7110101,
-		7110102,
-		7110103,
-		7110301,
-		7110302,
-		7110303,
-		7110304,
-		7110305,
-		7110306,
-		7110307,
-		7110308,
-		7110309,
-		7110310,
-		7120001,
-		7120002,
-		7120003,
-		7120004,
-		7120005,
-		7120006,
-		7120007,
-		7100301,
-		7100302,
-		7100303,
-		7100304,
-		7100305,
-		7100306,
-		7100307,
-		7100308,
-		7130301,
-		7130302,
-		7140101,
-		7210101,
-		7210102,
-		7210103,
-		7210104,
-		7210401,
-		7210201,
-		7210202,
-		7210203,
-		7210501,
-		7210502,
-		7210601,
-		7220101,
-		7220102,
-		7220103,
-		7220104,
-		7220201,
-		7220202,
-		7220203,
-		7220204,
-		7220401,
-		7220501,
-		7220502,
-		7220601,
-		7310001,
-		7310002,
-		7310101,
-		7310102,
-		7310103,
-		7310104,
-		7310301,
-		7310302,
-		7310303,
-		7310304,
-		7310305,
-		7310306,
-		7310307,
-		7310308,
-		7310309,
-		7320101,
-		7320102,
-		7320301,
-		7320302,
-		7320303,
-		7320304,
-		7330101,
-		7330102,
-		7330103,
-		7330104,
-		7330301,
-		7330302,
-		7330303,
-		7310201,
-		7310202,
-		7320201,
-		7320202,
-		7320203,
-		7320204,
-		7320205,
-		7320206,
-		7330201,
-		7400001,
-		7410301,
-		7410302,
-		7410303,
-		7410304,
-		7410305,
-		7420301,
-		7420302,
-		7420303,
-		7420304,
-		7430301,
-		7430302,
-		7430303,
-		7430304,
-		7440301,
-		7440302,
-		7440303,
-		7440304,
-		7450301,
-		7450302,
-		7460001,
-		7460002,
-		7460101,
-		7460301,
-		7460102,
-		7460302,
-		7460201,
-		7460202,
-		7460203,
-		7460204,
-		7460205,
-		7460206,
-		7500211,
-		7500212,
-		7500213,
-		7500214,
-		7500215,
-		7500231,
-		7500232,
-		7500233,
-		7500234,
-		7500235,
-		7500236,
-		7500001,
-		7510101,
-		7510201,
-		7510202,
-		7510203,
-		7510204,
-		7520001,
-		7520101,
-		7520201,
-		7520202,
-		7520203,
-		7520204,
-		7520205,
-		7530001,
-		7530101,
-		7530201,
-		7530202,
-		7530203,
-		7530204,
-		7530205,
-		7530206,
-		7540001,
-		7540101,
-		7540201,
-		7540202,
-		7540204,
-		7540205,
-		7550201,
-		7550202,
-		7550203,
-		7550204,
-		7610101,
-		7610102,
-		7610401,
-		7610402,
-		7610403,
-		7620101,
-		7630101,
-		7630201,
-		7630202,
-		7630203,
-		7630204,
-		7630205,
-		7640001,
-		7640101,
-		7640201,
-		7640202,
-		7640203,
-		7640204,
-		7640205,
-		7650001,
-		7650101,
-		7650201,
-		7650202,
-		7650203,
-		7660001,
-		7660101,
-		7660201,
-		7660202,
-		7660203,
-		7660204,
-		7660205,
-		7660206,
-		9900001,
-		9900002,
-		9900003,
-		9900004,
-		9900005,
-		9900006,
-		9900007,
-		9900008,
-		9900009,
-		9900010,
-		9900011,
-		9900012,
-		9900013,
-		9900014,
-		9900015,
-		9900016
 	}
-}
+end)()

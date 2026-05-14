@@ -1,6 +1,436 @@
 pg = pg or {}
-pg.island_achievement = {
+pg.island_achievement = rawget(pg, "island_achievement") or setmetatable({
+	__name = "island_achievement"
+}, confNEO)
+pg.island_achievement.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	51,
+	52,
+	53,
+	54,
+	55,
+	56,
+	61,
+	62,
+	63,
+	64,
+	65,
+	66,
+	71,
+	72,
+	73,
+	74,
+	75,
+	76,
+	81,
+	82,
+	83,
+	84,
+	85,
+	86,
+	91,
+	92,
+	93,
+	94,
+	95,
+	96,
+	1011,
+	1012,
+	1013,
+	1014,
+	1015,
+	1016,
+	1021,
+	1022,
+	1023,
+	1024,
+	1025,
+	1026,
+	1031,
+	1032,
+	1033,
+	1034,
+	1035,
+	1036,
+	1041,
+	1042,
+	1043,
+	1044,
+	1045,
+	1046,
+	1051,
+	1052,
+	1053,
+	1054,
+	1055,
+	1056,
+	1061,
+	1062,
+	1063,
+	1064,
+	1065,
+	1066,
+	1071,
+	1072,
+	1073,
+	1074,
+	1075,
+	1076,
+	1081,
+	1082,
+	1083,
+	1084,
+	1085,
+	1086,
+	2011,
+	2012,
+	2013,
+	2014,
+	2015,
+	2016,
+	2021,
+	2022,
+	2023,
+	2024,
+	2025,
+	2026,
+	2031,
+	2032,
+	2033,
+	2034,
+	2035,
+	2036,
+	2041,
+	2042,
+	2043,
+	2044,
+	2045,
+	2046,
+	2051,
+	2052,
+	2053,
+	2054,
+	2055,
+	2056,
+	3011,
+	3012,
+	3013,
+	3014,
+	3015,
+	3016,
+	3021,
+	3022,
+	3023,
+	3024,
+	3025,
+	3026,
+	3031,
+	3032,
+	3033,
+	3034,
+	3035,
+	3036,
+	3041,
+	3042,
+	3043,
+	3044,
+	3045,
+	3046,
+	3051,
+	3052,
+	3053,
+	3054,
+	3055,
+	3056,
+	3061,
+	3062,
+	3063,
+	3064,
+	3065,
+	3066,
+	3071,
+	3072,
+	3073,
+	3074,
+	3075,
+	3076,
+	3081,
+	3082,
+	3083,
+	3084,
+	3085,
+	3086
+}
+pg.island_achievement.get_id_list_by_group = {
 	{
+		1,
+		2,
+		3,
+		4,
+		5,
+		6
+	},
+	{
+		21,
+		22,
+		23,
+		24,
+		25,
+		26
+	},
+	{
+		31,
+		32,
+		33,
+		34,
+		35,
+		36
+	},
+	{
+		41,
+		42,
+		43,
+		44,
+		45,
+		46
+	},
+	{
+		51,
+		52,
+		53,
+		54,
+		55,
+		56
+	},
+	{
+		61,
+		62,
+		63,
+		64,
+		65,
+		66
+	},
+	{
+		71,
+		72,
+		73,
+		74,
+		75,
+		76
+	},
+	{
+		81,
+		82,
+		83,
+		84,
+		85,
+		86
+	},
+	{
+		91,
+		92,
+		93,
+		94,
+		95,
+		96
+	},
+	[101] = {
+		1011,
+		1012,
+		1013,
+		1014,
+		1015,
+		1016
+	},
+	[102] = {
+		1021,
+		1022,
+		1023,
+		1024,
+		1025,
+		1026
+	},
+	[103] = {
+		1031,
+		1032,
+		1033,
+		1034,
+		1035,
+		1036
+	},
+	[104] = {
+		1041,
+		1042,
+		1043,
+		1044,
+		1045,
+		1046
+	},
+	[105] = {
+		1051,
+		1052,
+		1053,
+		1054,
+		1055,
+		1056
+	},
+	[106] = {
+		1061,
+		1062,
+		1063,
+		1064,
+		1065,
+		1066
+	},
+	[107] = {
+		1071,
+		1072,
+		1073,
+		1074,
+		1075,
+		1076
+	},
+	[108] = {
+		1081,
+		1082,
+		1083,
+		1084,
+		1085,
+		1086
+	},
+	[201] = {
+		2011,
+		2012,
+		2013,
+		2014,
+		2015,
+		2016
+	},
+	[202] = {
+		2021,
+		2022,
+		2023,
+		2024,
+		2025,
+		2026
+	},
+	[203] = {
+		2031,
+		2032,
+		2033,
+		2034,
+		2035,
+		2036
+	},
+	[204] = {
+		2041,
+		2042,
+		2043,
+		2044,
+		2045,
+		2046
+	},
+	[205] = {
+		2051,
+		2052,
+		2053,
+		2054,
+		2055,
+		2056
+	},
+	[301] = {
+		3011,
+		3012,
+		3013,
+		3014,
+		3015,
+		3016
+	},
+	[302] = {
+		3021,
+		3022,
+		3023,
+		3024,
+		3025,
+		3026
+	},
+	[303] = {
+		3031,
+		3032,
+		3033,
+		3034,
+		3035,
+		3036
+	},
+	[304] = {
+		3041,
+		3042,
+		3043,
+		3044,
+		3045,
+		3046
+	},
+	[305] = {
+		3051,
+		3052,
+		3053,
+		3054,
+		3055,
+		3056
+	},
+	[306] = {
+		3061,
+		3062,
+		3063,
+		3064,
+		3065,
+		3066
+	},
+	[307] = {
+		3071,
+		3072,
+		3073,
+		3074,
+		3075,
+		3076
+	},
+	[308] = {
+		3081,
+		3082,
+		3083,
+		3084,
+		3085,
+		3086
+	}
+}
+pg.base = pg.base or {}
+pg.base.island_achievement = {}
+
+(function ()
+	pg.base.island_achievement[1] = {
 		target_type = 1,
 		name = "제로부터",
 		target_value1 = 0,
@@ -24,8 +454,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.island_achievement[2] = {
 		target_type = 1,
 		name = "제로부터",
 		target_value1 = 0,
@@ -49,8 +479,8 @@ pg.island_achievement = {
 				15000
 			}
 		}
-	},
-	{
+	}
+	pg.base.island_achievement[3] = {
 		target_type = 1,
 		name = "제로부터",
 		target_value1 = 0,
@@ -74,8 +504,8 @@ pg.island_achievement = {
 				10
 			}
 		}
-	},
-	{
+	}
+	pg.base.island_achievement[4] = {
 		target_type = 1,
 		name = "제로부터",
 		target_value1 = 0,
@@ -99,8 +529,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.island_achievement[5] = {
 		target_type = 1,
 		name = "제로부터",
 		target_value1 = 0,
@@ -124,8 +554,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.island_achievement[6] = {
 		target_type = 1,
 		name = "제로부터",
 		target_value1 = 0,
@@ -149,8 +579,8 @@ pg.island_achievement = {
 				40
 			}
 		}
-	},
-	[21] = {
+	}
+	pg.base.island_achievement[21] = {
 		target_type = 27,
 		name = "모범 도민",
 		target_value1 = 0,
@@ -174,8 +604,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[22] = {
+	}
+	pg.base.island_achievement[22] = {
 		target_type = 27,
 		name = "모범 도민",
 		target_value1 = 0,
@@ -199,8 +629,8 @@ pg.island_achievement = {
 				15000
 			}
 		}
-	},
-	[23] = {
+	}
+	pg.base.island_achievement[23] = {
 		target_type = 27,
 		name = "모범 도민",
 		target_value1 = 0,
@@ -224,8 +654,8 @@ pg.island_achievement = {
 				10
 			}
 		}
-	},
-	[24] = {
+	}
+	pg.base.island_achievement[24] = {
 		target_type = 27,
 		name = "모범 도민",
 		target_value1 = 0,
@@ -249,8 +679,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[25] = {
+	}
+	pg.base.island_achievement[25] = {
 		target_type = 27,
 		name = "모범 도민",
 		target_value1 = 0,
@@ -274,8 +704,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[26] = {
+	}
+	pg.base.island_achievement[26] = {
 		target_type = 27,
 		name = "모범 도민",
 		target_value1 = 0,
@@ -299,8 +729,8 @@ pg.island_achievement = {
 				40
 			}
 		}
-	},
-	[31] = {
+	}
+	pg.base.island_achievement[31] = {
 		target_type = 2,
 		name = "합리적인 개발 구역",
 		target_value1 = 3,
@@ -324,8 +754,8 @@ pg.island_achievement = {
 				3
 			}
 		}
-	},
-	[32] = {
+	}
+	pg.base.island_achievement[32] = {
 		target_type = 2,
 		name = "합리적인 개발 구역",
 		target_value1 = 3,
@@ -349,8 +779,8 @@ pg.island_achievement = {
 				10000
 			}
 		}
-	},
-	[33] = {
+	}
+	pg.base.island_achievement[33] = {
 		target_type = 2,
 		name = "합리적인 개발 구역",
 		target_value1 = 3,
@@ -374,8 +804,8 @@ pg.island_achievement = {
 				5
 			}
 		}
-	},
-	[34] = {
+	}
+	pg.base.island_achievement[34] = {
 		target_type = 2,
 		name = "합리적인 개발 구역",
 		target_value1 = 3,
@@ -399,8 +829,8 @@ pg.island_achievement = {
 				10
 			}
 		}
-	},
-	[35] = {
+	}
+	pg.base.island_achievement[35] = {
 		target_type = 2,
 		name = "합리적인 개발 구역",
 		target_value1 = 3,
@@ -424,8 +854,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[36] = {
+	}
+	pg.base.island_achievement[36] = {
 		target_type = 2,
 		name = "합리적인 개발 구역",
 		target_value1 = 3,
@@ -449,8 +879,8 @@ pg.island_achievement = {
 				30
 			}
 		}
-	},
-	[41] = {
+	}
+	pg.base.island_achievement[41] = {
 		target_type = 22,
 		name = "미래를 향해",
 		target_value1 = 1,
@@ -474,8 +904,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[42] = {
+	}
+	pg.base.island_achievement[42] = {
 		target_type = 22,
 		name = "미래를 향해",
 		target_value1 = 1,
@@ -499,8 +929,8 @@ pg.island_achievement = {
 				10000
 			}
 		}
-	},
-	[43] = {
+	}
+	pg.base.island_achievement[43] = {
 		target_type = 22,
 		name = "미래를 향해",
 		target_value1 = 1,
@@ -524,8 +954,8 @@ pg.island_achievement = {
 				5
 			}
 		}
-	},
-	[44] = {
+	}
+	pg.base.island_achievement[44] = {
 		target_type = 22,
 		name = "미래를 향해",
 		target_value1 = 1,
@@ -549,8 +979,8 @@ pg.island_achievement = {
 				10
 			}
 		}
-	},
-	[45] = {
+	}
+	pg.base.island_achievement[45] = {
 		target_type = 22,
 		name = "미래를 향해",
 		target_value1 = 1,
@@ -574,8 +1004,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[46] = {
+	}
+	pg.base.island_achievement[46] = {
 		target_type = 22,
 		name = "미래를 향해",
 		target_value1 = 1,
@@ -599,8 +1029,8 @@ pg.island_achievement = {
 				30
 			}
 		}
-	},
-	[51] = {
+	}
+	pg.base.island_achievement[51] = {
 		target_type = 16,
 		name = "미라클 개발 구역",
 		target_value1 = 6,
@@ -624,8 +1054,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[52] = {
+	}
+	pg.base.island_achievement[52] = {
 		target_type = 16,
 		name = "미라클 개발 구역",
 		target_value1 = 6,
@@ -649,8 +1079,8 @@ pg.island_achievement = {
 				10000
 			}
 		}
-	},
-	[53] = {
+	}
+	pg.base.island_achievement[53] = {
 		target_type = 16,
 		name = "미라클 개발 구역",
 		target_value1 = 6,
@@ -674,8 +1104,8 @@ pg.island_achievement = {
 				5
 			}
 		}
-	},
-	[54] = {
+	}
+	pg.base.island_achievement[54] = {
 		target_type = 16,
 		name = "미라클 개발 구역",
 		target_value1 = 6,
@@ -699,8 +1129,8 @@ pg.island_achievement = {
 				10
 			}
 		}
-	},
-	[55] = {
+	}
+	pg.base.island_achievement[55] = {
 		target_type = 16,
 		name = "미라클 개발 구역",
 		target_value1 = 6,
@@ -724,8 +1154,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[56] = {
+	}
+	pg.base.island_achievement[56] = {
 		target_type = 16,
 		name = "미라클 개발 구역",
 		target_value1 = 6,
@@ -749,8 +1179,8 @@ pg.island_achievement = {
 				30
 			}
 		}
-	},
-	[61] = {
+	}
+	pg.base.island_achievement[61] = {
 		target_type = 16,
 		name = "변화무쌍한 뒷모습",
 		target_value1 = 1,
@@ -774,8 +1204,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[62] = {
+	}
+	pg.base.island_achievement[62] = {
 		target_type = 16,
 		name = "변화무쌍한 뒷모습",
 		target_value1 = 1,
@@ -799,8 +1229,8 @@ pg.island_achievement = {
 				10000
 			}
 		}
-	},
-	[63] = {
+	}
+	pg.base.island_achievement[63] = {
 		target_type = 16,
 		name = "변화무쌍한 뒷모습",
 		target_value1 = 1,
@@ -824,8 +1254,8 @@ pg.island_achievement = {
 				5
 			}
 		}
-	},
-	[64] = {
+	}
+	pg.base.island_achievement[64] = {
 		target_type = 16,
 		name = "변화무쌍한 뒷모습",
 		target_value1 = 1,
@@ -849,8 +1279,8 @@ pg.island_achievement = {
 				10
 			}
 		}
-	},
-	[65] = {
+	}
+	pg.base.island_achievement[65] = {
 		target_type = 16,
 		name = "변화무쌍한 뒷모습",
 		target_value1 = 1,
@@ -874,8 +1304,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[66] = {
+	}
+	pg.base.island_achievement[66] = {
 		target_type = 16,
 		name = "변화무쌍한 뒷모습",
 		target_value1 = 1,
@@ -899,8 +1329,8 @@ pg.island_achievement = {
 				30
 			}
 		}
-	},
-	[71] = {
+	}
+	pg.base.island_achievement[71] = {
 		target_type = 16,
 		name = "내 발자취 밟기",
 		target_value1 = 3,
@@ -924,8 +1354,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[72] = {
+	}
+	pg.base.island_achievement[72] = {
 		target_type = 16,
 		name = "내 발자취 밟기",
 		target_value1 = 3,
@@ -949,8 +1379,8 @@ pg.island_achievement = {
 				10000
 			}
 		}
-	},
-	[73] = {
+	}
+	pg.base.island_achievement[73] = {
 		target_type = 16,
 		name = "내 발자취 밟기",
 		target_value1 = 3,
@@ -974,8 +1404,8 @@ pg.island_achievement = {
 				5
 			}
 		}
-	},
-	[74] = {
+	}
+	pg.base.island_achievement[74] = {
 		target_type = 16,
 		name = "내 발자취 밟기",
 		target_value1 = 3,
@@ -999,8 +1429,8 @@ pg.island_achievement = {
 				10
 			}
 		}
-	},
-	[75] = {
+	}
+	pg.base.island_achievement[75] = {
 		target_type = 16,
 		name = "내 발자취 밟기",
 		target_value1 = 3,
@@ -1024,8 +1454,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[76] = {
+	}
+	pg.base.island_achievement[76] = {
 		target_type = 16,
 		name = "내 발자취 밟기",
 		target_value1 = 3,
@@ -1049,8 +1479,8 @@ pg.island_achievement = {
 				30
 			}
 		}
-	},
-	[81] = {
+	}
+	pg.base.island_achievement[81] = {
 		target_type = 16,
 		name = "날고 있어!",
 		target_value1 = 2,
@@ -1074,8 +1504,8 @@ pg.island_achievement = {
 				3
 			}
 		}
-	},
-	[82] = {
+	}
+	pg.base.island_achievement[82] = {
 		target_type = 16,
 		name = "날고 있어!",
 		target_value1 = 2,
@@ -1099,8 +1529,8 @@ pg.island_achievement = {
 				10000
 			}
 		}
-	},
-	[83] = {
+	}
+	pg.base.island_achievement[83] = {
 		target_type = 16,
 		name = "날고 있어!",
 		target_value1 = 2,
@@ -1124,8 +1554,8 @@ pg.island_achievement = {
 				5
 			}
 		}
-	},
-	[84] = {
+	}
+	pg.base.island_achievement[84] = {
 		target_type = 16,
 		name = "날고 있어!",
 		target_value1 = 2,
@@ -1149,8 +1579,8 @@ pg.island_achievement = {
 				10
 			}
 		}
-	},
-	[85] = {
+	}
+	pg.base.island_achievement[85] = {
 		target_type = 16,
 		name = "날고 있어!",
 		target_value1 = 2,
@@ -1174,8 +1604,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[86] = {
+	}
+	pg.base.island_achievement[86] = {
 		target_type = 16,
 		name = "날고 있어!",
 		target_value1 = 2,
@@ -1199,8 +1629,8 @@ pg.island_achievement = {
 				30
 			}
 		}
-	},
-	[91] = {
+	}
+	pg.base.island_achievement[91] = {
 		target_type = 36,
 		name = "비트 매니아",
 		target_value1 = 0,
@@ -1224,8 +1654,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[92] = {
+	}
+	pg.base.island_achievement[92] = {
 		target_type = 36,
 		name = "비트 매니아",
 		target_value1 = 0,
@@ -1249,8 +1679,8 @@ pg.island_achievement = {
 				10000
 			}
 		}
-	},
-	[93] = {
+	}
+	pg.base.island_achievement[93] = {
 		target_type = 36,
 		name = "비트 매니아",
 		target_value1 = 0,
@@ -1274,8 +1704,8 @@ pg.island_achievement = {
 				5
 			}
 		}
-	},
-	[94] = {
+	}
+	pg.base.island_achievement[94] = {
 		target_type = 36,
 		name = "비트 매니아",
 		target_value1 = 0,
@@ -1299,8 +1729,8 @@ pg.island_achievement = {
 				10
 			}
 		}
-	},
-	[95] = {
+	}
+	pg.base.island_achievement[95] = {
 		target_type = 36,
 		name = "비트 매니아",
 		target_value1 = 0,
@@ -1324,8 +1754,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[96] = {
+	}
+	pg.base.island_achievement[96] = {
 		target_type = 36,
 		name = "비트 매니아",
 		target_value1 = 0,
@@ -1349,8 +1779,8 @@ pg.island_achievement = {
 				30
 			}
 		}
-	},
-	[1011] = {
+	}
+	pg.base.island_achievement[1011] = {
 		target_type = 13,
 		name = "개근상",
 		target_value1 = 0,
@@ -1374,8 +1804,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[1012] = {
+	}
+	pg.base.island_achievement[1012] = {
 		target_type = 13,
 		name = "개근상",
 		target_value1 = 0,
@@ -1399,8 +1829,8 @@ pg.island_achievement = {
 				15000
 			}
 		}
-	},
-	[1013] = {
+	}
+	pg.base.island_achievement[1013] = {
 		target_type = 13,
 		name = "개근상",
 		target_value1 = 0,
@@ -1424,8 +1854,8 @@ pg.island_achievement = {
 				10
 			}
 		}
-	},
-	[1014] = {
+	}
+	pg.base.island_achievement[1014] = {
 		target_type = 13,
 		name = "개근상",
 		target_value1 = 0,
@@ -1449,8 +1879,8 @@ pg.island_achievement = {
 				20
 			}
 		}
-	},
-	[1015] = {
+	}
+	pg.base.island_achievement[1015] = {
 		target_type = 13,
 		name = "개근상",
 		target_value1 = 0,
@@ -1474,8 +1904,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[1016] = {
+	}
+	pg.base.island_achievement[1016] = {
 		target_type = 13,
 		name = "개근상",
 		target_value1 = 0,
@@ -1499,8 +1929,8 @@ pg.island_achievement = {
 				40
 			}
 		}
-	},
-	[1021] = {
+	}
+	pg.base.island_achievement[1021] = {
 		target_type = 21,
 		name = "골드 디거",
 		target_value1 = 401,
@@ -1524,8 +1954,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[1022] = {
+	}
+	pg.base.island_achievement[1022] = {
 		target_type = 21,
 		name = "골드 디거",
 		target_value1 = 401,
@@ -1549,8 +1979,8 @@ pg.island_achievement = {
 				5000
 			}
 		}
-	},
-	[1023] = {
+	}
+	pg.base.island_achievement[1023] = {
 		target_type = 21,
 		name = "골드 디거",
 		target_value1 = 401,
@@ -1574,8 +2004,8 @@ pg.island_achievement = {
 				2
 			}
 		}
-	},
-	[1024] = {
+	}
+	pg.base.island_achievement[1024] = {
 		target_type = 21,
 		name = "골드 디거",
 		target_value1 = 401,
@@ -1599,8 +2029,8 @@ pg.island_achievement = {
 				20000
 			}
 		}
-	},
-	[1025] = {
+	}
+	pg.base.island_achievement[1025] = {
 		target_type = 21,
 		name = "골드 디거",
 		target_value1 = 401,
@@ -1624,8 +2054,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[1026] = {
+	}
+	pg.base.island_achievement[1026] = {
 		target_type = 21,
 		name = "골드 디거",
 		target_value1 = 401,
@@ -1649,8 +2079,8 @@ pg.island_achievement = {
 				20
 			}
 		}
-	},
-	[1031] = {
+	}
+	pg.base.island_achievement[1031] = {
 		target_type = 21,
 		name = "나무 베기",
 		target_value1 = 402,
@@ -1674,8 +2104,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[1032] = {
+	}
+	pg.base.island_achievement[1032] = {
 		target_type = 21,
 		name = "나무 베기",
 		target_value1 = 402,
@@ -1699,8 +2129,8 @@ pg.island_achievement = {
 				5000
 			}
 		}
-	},
-	[1033] = {
+	}
+	pg.base.island_achievement[1033] = {
 		target_type = 21,
 		name = "나무 베기",
 		target_value1 = 402,
@@ -1724,8 +2154,8 @@ pg.island_achievement = {
 				2
 			}
 		}
-	},
-	[1034] = {
+	}
+	pg.base.island_achievement[1034] = {
 		target_type = 21,
 		name = "나무 베기",
 		target_value1 = 402,
@@ -1749,8 +2179,8 @@ pg.island_achievement = {
 				20000
 			}
 		}
-	},
-	[1035] = {
+	}
+	pg.base.island_achievement[1035] = {
 		target_type = 21,
 		name = "나무 베기",
 		target_value1 = 402,
@@ -1774,8 +2204,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[1036] = {
+	}
+	pg.base.island_achievement[1036] = {
 		target_type = 21,
 		name = "나무 베기",
 		target_value1 = 402,
@@ -1799,8 +2229,8 @@ pg.island_achievement = {
 				20
 			}
 		}
-	},
-	[1041] = {
+	}
+	pg.base.island_achievement[1041] = {
 		target_type = 21,
 		name = "식량이 더 필요해!",
 		target_value1 = 101,
@@ -1824,8 +2254,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[1042] = {
+	}
+	pg.base.island_achievement[1042] = {
 		target_type = 21,
 		name = "식량이 더 필요해!",
 		target_value1 = 101,
@@ -1849,8 +2279,8 @@ pg.island_achievement = {
 				5000
 			}
 		}
-	},
-	[1043] = {
+	}
+	pg.base.island_achievement[1043] = {
 		target_type = 21,
 		name = "식량이 더 필요해!",
 		target_value1 = 101,
@@ -1874,8 +2304,8 @@ pg.island_achievement = {
 				2
 			}
 		}
-	},
-	[1044] = {
+	}
+	pg.base.island_achievement[1044] = {
 		target_type = 21,
 		name = "식량이 더 필요해!",
 		target_value1 = 101,
@@ -1899,8 +2329,8 @@ pg.island_achievement = {
 				20000
 			}
 		}
-	},
-	[1045] = {
+	}
+	pg.base.island_achievement[1045] = {
 		target_type = 21,
 		name = "식량이 더 필요해!",
 		target_value1 = 101,
@@ -1924,8 +2354,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[1046] = {
+	}
+	pg.base.island_achievement[1046] = {
 		target_type = 21,
 		name = "식량이 더 필요해!",
 		target_value1 = 101,
@@ -1949,8 +2379,8 @@ pg.island_achievement = {
 				20
 			}
 		}
-	},
-	[1051] = {
+	}
+	pg.base.island_achievement[1051] = {
 		target_type = 21,
 		name = "과일 성배",
 		target_value1 = 501,
@@ -1974,8 +2404,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[1052] = {
+	}
+	pg.base.island_achievement[1052] = {
 		target_type = 21,
 		name = "과일 성배",
 		target_value1 = 501,
@@ -1999,8 +2429,8 @@ pg.island_achievement = {
 				5000
 			}
 		}
-	},
-	[1053] = {
+	}
+	pg.base.island_achievement[1053] = {
 		target_type = 21,
 		name = "과일 성배",
 		target_value1 = 501,
@@ -2024,8 +2454,8 @@ pg.island_achievement = {
 				2
 			}
 		}
-	},
-	[1054] = {
+	}
+	pg.base.island_achievement[1054] = {
 		target_type = 21,
 		name = "과일 성배",
 		target_value1 = 501,
@@ -2049,8 +2479,8 @@ pg.island_achievement = {
 				20000
 			}
 		}
-	},
-	[1055] = {
+	}
+	pg.base.island_achievement[1055] = {
 		target_type = 21,
 		name = "과일 성배",
 		target_value1 = 501,
@@ -2074,8 +2504,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[1056] = {
+	}
+	pg.base.island_achievement[1056] = {
 		target_type = 21,
 		name = "과일 성배",
 		target_value1 = 501,
@@ -2099,8 +2529,8 @@ pg.island_achievement = {
 				20
 			}
 		}
-	},
-	[1061] = {
+	}
+	pg.base.island_achievement[1061] = {
 		target_type = 21,
 		name = "숨겨진 정원",
 		target_value1 = 502,
@@ -2124,8 +2554,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[1062] = {
+	}
+	pg.base.island_achievement[1062] = {
 		target_type = 21,
 		name = "숨겨진 정원",
 		target_value1 = 502,
@@ -2149,8 +2579,8 @@ pg.island_achievement = {
 				5000
 			}
 		}
-	},
-	[1063] = {
+	}
+	pg.base.island_achievement[1063] = {
 		target_type = 21,
 		name = "숨겨진 정원",
 		target_value1 = 502,
@@ -2174,8 +2604,8 @@ pg.island_achievement = {
 				2
 			}
 		}
-	},
-	[1064] = {
+	}
+	pg.base.island_achievement[1064] = {
 		target_type = 21,
 		name = "숨겨진 정원",
 		target_value1 = 502,
@@ -2199,8 +2629,8 @@ pg.island_achievement = {
 				20000
 			}
 		}
-	},
-	[1065] = {
+	}
+	pg.base.island_achievement[1065] = {
 		target_type = 21,
 		name = "숨겨진 정원",
 		target_value1 = 502,
@@ -2224,8 +2654,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[1066] = {
+	}
+	pg.base.island_achievement[1066] = {
 		target_type = 21,
 		name = "숨겨진 정원",
 		target_value1 = 502,
@@ -2249,8 +2679,8 @@ pg.island_achievement = {
 				20
 			}
 		}
-	},
-	[1071] = {
+	}
+	pg.base.island_achievement[1071] = {
 		target_type = 24,
 		name = "아르바이트하자!",
 		target_value1 = 0,
@@ -2274,8 +2704,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[1072] = {
+	}
+	pg.base.island_achievement[1072] = {
 		target_type = 24,
 		name = "아르바이트하자!",
 		target_value1 = 0,
@@ -2299,8 +2729,8 @@ pg.island_achievement = {
 				5000
 			}
 		}
-	},
-	[1073] = {
+	}
+	pg.base.island_achievement[1073] = {
 		target_type = 24,
 		name = "아르바이트하자!",
 		target_value1 = 0,
@@ -2324,8 +2754,8 @@ pg.island_achievement = {
 				2
 			}
 		}
-	},
-	[1074] = {
+	}
+	pg.base.island_achievement[1074] = {
 		target_type = 24,
 		name = "아르바이트하자!",
 		target_value1 = 0,
@@ -2349,8 +2779,8 @@ pg.island_achievement = {
 				20000
 			}
 		}
-	},
-	[1075] = {
+	}
+	pg.base.island_achievement[1075] = {
 		target_type = 24,
 		name = "아르바이트하자!",
 		target_value1 = 0,
@@ -2374,8 +2804,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[1076] = {
+	}
+	pg.base.island_achievement[1076] = {
 		target_type = 24,
 		name = "아르바이트하자!",
 		target_value1 = 0,
@@ -2399,8 +2829,8 @@ pg.island_achievement = {
 				20
 			}
 		}
-	},
-	[1081] = {
+	}
+	pg.base.island_achievement[1081] = {
 		target_type = 33,
 		name = "렛츠 파티!",
 		target_value1 = 0,
@@ -2424,8 +2854,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[1082] = {
+	}
+	pg.base.island_achievement[1082] = {
 		target_type = 33,
 		name = "렛츠 파티!",
 		target_value1 = 0,
@@ -2449,8 +2879,8 @@ pg.island_achievement = {
 				5000
 			}
 		}
-	},
-	[1083] = {
+	}
+	pg.base.island_achievement[1083] = {
 		target_type = 33,
 		name = "렛츠 파티!",
 		target_value1 = 0,
@@ -2474,8 +2904,8 @@ pg.island_achievement = {
 				2
 			}
 		}
-	},
-	[1084] = {
+	}
+	pg.base.island_achievement[1084] = {
 		target_type = 33,
 		name = "렛츠 파티!",
 		target_value1 = 0,
@@ -2499,8 +2929,10 @@ pg.island_achievement = {
 				20000
 			}
 		}
-	},
-	[1085] = {
+	}
+end)()
+(function ()
+	pg.base.island_achievement[1085] = {
 		target_type = 33,
 		name = "렛츠 파티!",
 		target_value1 = 0,
@@ -2524,8 +2956,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[1086] = {
+	}
+	pg.base.island_achievement[1086] = {
 		target_type = 33,
 		name = "렛츠 파티!",
 		target_value1 = 0,
@@ -2549,8 +2981,8 @@ pg.island_achievement = {
 				20
 			}
 		}
-	},
-	[2011] = {
+	}
+	pg.base.island_achievement[2011] = {
 		target_type = 4,
 		name = "도망칠 수 없는 분주함",
 		target_value1 = 1,
@@ -2574,8 +3006,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[2012] = {
+	}
+	pg.base.island_achievement[2012] = {
 		target_type = 4,
 		name = "도망칠 수 없는 분주함",
 		target_value1 = 1,
@@ -2599,8 +3031,8 @@ pg.island_achievement = {
 				15000
 			}
 		}
-	},
-	[2013] = {
+	}
+	pg.base.island_achievement[2013] = {
 		target_type = 4,
 		name = "도망칠 수 없는 분주함",
 		target_value1 = 1,
@@ -2624,8 +3056,8 @@ pg.island_achievement = {
 				10
 			}
 		}
-	},
-	[2014] = {
+	}
+	pg.base.island_achievement[2014] = {
 		target_type = 4,
 		name = "도망칠 수 없는 분주함",
 		target_value1 = 1,
@@ -2649,8 +3081,8 @@ pg.island_achievement = {
 				20
 			}
 		}
-	},
-	[2015] = {
+	}
+	pg.base.island_achievement[2015] = {
 		target_type = 4,
 		name = "도망칠 수 없는 분주함",
 		target_value1 = 1,
@@ -2674,8 +3106,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[2016] = {
+	}
+	pg.base.island_achievement[2016] = {
 		target_type = 4,
 		name = "도망칠 수 없는 분주함",
 		target_value1 = 1,
@@ -2699,8 +3131,8 @@ pg.island_achievement = {
 				40
 			}
 		}
-	},
-	[2021] = {
+	}
+	pg.base.island_achievement[2021] = {
 		target_type = 4,
 		name = "운송 파트너",
 		target_value1 = 3,
@@ -2724,8 +3156,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[2022] = {
+	}
+	pg.base.island_achievement[2022] = {
 		target_type = 4,
 		name = "운송 파트너",
 		target_value1 = 3,
@@ -2749,8 +3181,8 @@ pg.island_achievement = {
 				15000
 			}
 		}
-	},
-	[2023] = {
+	}
+	pg.base.island_achievement[2023] = {
 		target_type = 4,
 		name = "운송 파트너",
 		target_value1 = 3,
@@ -2774,8 +3206,8 @@ pg.island_achievement = {
 				10
 			}
 		}
-	},
-	[2024] = {
+	}
+	pg.base.island_achievement[2024] = {
 		target_type = 4,
 		name = "운송 파트너",
 		target_value1 = 3,
@@ -2799,8 +3231,8 @@ pg.island_achievement = {
 				20
 			}
 		}
-	},
-	[2025] = {
+	}
+	pg.base.island_achievement[2025] = {
 		target_type = 4,
 		name = "운송 파트너",
 		target_value1 = 3,
@@ -2824,8 +3256,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[2026] = {
+	}
+	pg.base.island_achievement[2026] = {
 		target_type = 4,
 		name = "운송 파트너",
 		target_value1 = 3,
@@ -2849,8 +3281,8 @@ pg.island_achievement = {
 				40
 			}
 		}
-	},
-	[2031] = {
+	}
+	pg.base.island_achievement[2031] = {
 		target_type = 17,
 		name = "공짜로 해줘",
 		target_value1 = 1,
@@ -2874,8 +3306,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[2032] = {
+	}
+	pg.base.island_achievement[2032] = {
 		target_type = 17,
 		name = "공짜로 해줘",
 		target_value1 = 1,
@@ -2899,8 +3331,8 @@ pg.island_achievement = {
 				15000
 			}
 		}
-	},
-	[2033] = {
+	}
+	pg.base.island_achievement[2033] = {
 		target_type = 17,
 		name = "공짜로 해줘",
 		target_value1 = 1,
@@ -2924,8 +3356,8 @@ pg.island_achievement = {
 				10
 			}
 		}
-	},
-	[2034] = {
+	}
+	pg.base.island_achievement[2034] = {
 		target_type = 17,
 		name = "공짜로 해줘",
 		target_value1 = 1,
@@ -2949,8 +3381,8 @@ pg.island_achievement = {
 				20
 			}
 		}
-	},
-	[2035] = {
+	}
+	pg.base.island_achievement[2035] = {
 		target_type = 17,
 		name = "공짜로 해줘",
 		target_value1 = 1,
@@ -2974,8 +3406,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[2036] = {
+	}
+	pg.base.island_achievement[2036] = {
 		target_type = 17,
 		name = "공짜로 해줘",
 		target_value1 = 1,
@@ -2999,8 +3431,8 @@ pg.island_achievement = {
 				40
 			}
 		}
-	},
-	[2041] = {
+	}
+	pg.base.island_achievement[2041] = {
 		target_type = 31,
 		name = "인기 점주",
 		target_value1 = 0,
@@ -3024,8 +3456,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[2042] = {
+	}
+	pg.base.island_achievement[2042] = {
 		target_type = 31,
 		name = "인기 점주",
 		target_value1 = 0,
@@ -3049,8 +3481,8 @@ pg.island_achievement = {
 				15000
 			}
 		}
-	},
-	[2043] = {
+	}
+	pg.base.island_achievement[2043] = {
 		target_type = 31,
 		name = "인기 점주",
 		target_value1 = 0,
@@ -3074,8 +3506,8 @@ pg.island_achievement = {
 				10
 			}
 		}
-	},
-	[2044] = {
+	}
+	pg.base.island_achievement[2044] = {
 		target_type = 31,
 		name = "인기 점주",
 		target_value1 = 0,
@@ -3099,8 +3531,8 @@ pg.island_achievement = {
 				20
 			}
 		}
-	},
-	[2045] = {
+	}
+	pg.base.island_achievement[2045] = {
 		target_type = 31,
 		name = "인기 점주",
 		target_value1 = 0,
@@ -3124,8 +3556,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[2046] = {
+	}
+	pg.base.island_achievement[2046] = {
 		target_type = 31,
 		name = "인기 점주",
 		target_value1 = 0,
@@ -3149,8 +3581,8 @@ pg.island_achievement = {
 				40
 			}
 		}
-	},
-	[2051] = {
+	}
+	pg.base.island_achievement[2051] = {
 		target_type = 38,
 		name = "별빛 인생",
 		target_value1 = 0,
@@ -3174,8 +3606,8 @@ pg.island_achievement = {
 				3
 			}
 		}
-	},
-	[2052] = {
+	}
+	pg.base.island_achievement[2052] = {
 		target_type = 38,
 		name = "별빛 인생",
 		target_value1 = 0,
@@ -3199,8 +3631,8 @@ pg.island_achievement = {
 				15000
 			}
 		}
-	},
-	[2053] = {
+	}
+	pg.base.island_achievement[2053] = {
 		target_type = 38,
 		name = "별빛 인생",
 		target_value1 = 0,
@@ -3224,8 +3656,8 @@ pg.island_achievement = {
 				10
 			}
 		}
-	},
-	[2054] = {
+	}
+	pg.base.island_achievement[2054] = {
 		target_type = 38,
 		name = "별빛 인생",
 		target_value1 = 0,
@@ -3249,8 +3681,8 @@ pg.island_achievement = {
 				20
 			}
 		}
-	},
-	[2055] = {
+	}
+	pg.base.island_achievement[2055] = {
 		target_type = 38,
 		name = "별빛 인생",
 		target_value1 = 0,
@@ -3274,8 +3706,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[2056] = {
+	}
+	pg.base.island_achievement[2056] = {
 		target_type = 38,
 		name = "별빛 인생",
 		target_value1 = 0,
@@ -3299,8 +3731,8 @@ pg.island_achievement = {
 				40
 			}
 		}
-	},
-	[3011] = {
+	}
+	pg.base.island_achievement[3011] = {
 		target_type = 5,
 		name = "개발 구역에서의 생활",
 		target_value1 = 50,
@@ -3324,8 +3756,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[3012] = {
+	}
+	pg.base.island_achievement[3012] = {
 		target_type = 5,
 		name = "개발 구역에서의 생활",
 		target_value1 = 50,
@@ -3349,8 +3781,8 @@ pg.island_achievement = {
 				10000
 			}
 		}
-	},
-	[3013] = {
+	}
+	pg.base.island_achievement[3013] = {
 		target_type = 5,
 		name = "개발 구역에서의 생활",
 		target_value1 = 50,
@@ -3374,8 +3806,8 @@ pg.island_achievement = {
 				5
 			}
 		}
-	},
-	[3014] = {
+	}
+	pg.base.island_achievement[3014] = {
 		target_type = 5,
 		name = "개발 구역에서의 생활",
 		target_value1 = 50,
@@ -3399,8 +3831,8 @@ pg.island_achievement = {
 				10
 			}
 		}
-	},
-	[3015] = {
+	}
+	pg.base.island_achievement[3015] = {
 		target_type = 5,
 		name = "개발 구역에서의 생활",
 		target_value1 = 50,
@@ -3424,8 +3856,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[3016] = {
+	}
+	pg.base.island_achievement[3016] = {
 		target_type = 5,
 		name = "개발 구역에서의 생활",
 		target_value1 = 50,
@@ -3449,8 +3881,8 @@ pg.island_achievement = {
 				30
 			}
 		}
-	},
-	[3021] = {
+	}
+	pg.base.island_achievement[3021] = {
 		target_type = 6,
 		name = "생산력 UP!",
 		target_value1 = 10,
@@ -3474,8 +3906,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[3022] = {
+	}
+	pg.base.island_achievement[3022] = {
 		target_type = 6,
 		name = "생산력 UP!",
 		target_value1 = 10,
@@ -3499,8 +3931,8 @@ pg.island_achievement = {
 				10000
 			}
 		}
-	},
-	[3023] = {
+	}
+	pg.base.island_achievement[3023] = {
 		target_type = 6,
 		name = "생산력 UP!",
 		target_value1 = 10,
@@ -3524,8 +3956,8 @@ pg.island_achievement = {
 				5
 			}
 		}
-	},
-	[3024] = {
+	}
+	pg.base.island_achievement[3024] = {
 		target_type = 6,
 		name = "생산력 UP!",
 		target_value1 = 10,
@@ -3549,8 +3981,8 @@ pg.island_achievement = {
 				10
 			}
 		}
-	},
-	[3025] = {
+	}
+	pg.base.island_achievement[3025] = {
 		target_type = 6,
 		name = "생산력 UP!",
 		target_value1 = 10,
@@ -3574,8 +4006,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[3026] = {
+	}
+	pg.base.island_achievement[3026] = {
 		target_type = 6,
 		name = "생산력 UP!",
 		target_value1 = 10,
@@ -3599,8 +4031,8 @@ pg.island_achievement = {
 				30
 			}
 		}
-	},
-	[3031] = {
+	}
+	pg.base.island_achievement[3031] = {
 		target_type = 32,
 		name = "통하는 마음",
 		target_value1 = 0,
@@ -3624,8 +4056,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[3032] = {
+	}
+	pg.base.island_achievement[3032] = {
 		target_type = 32,
 		name = "통하는 마음",
 		target_value1 = 0,
@@ -3649,8 +4081,8 @@ pg.island_achievement = {
 				10000
 			}
 		}
-	},
-	[3033] = {
+	}
+	pg.base.island_achievement[3033] = {
 		target_type = 32,
 		name = "통하는 마음",
 		target_value1 = 0,
@@ -3674,8 +4106,8 @@ pg.island_achievement = {
 				5
 			}
 		}
-	},
-	[3034] = {
+	}
+	pg.base.island_achievement[3034] = {
 		target_type = 32,
 		name = "통하는 마음",
 		target_value1 = 0,
@@ -3699,8 +4131,8 @@ pg.island_achievement = {
 				10
 			}
 		}
-	},
-	[3035] = {
+	}
+	pg.base.island_achievement[3035] = {
 		target_type = 32,
 		name = "통하는 마음",
 		target_value1 = 0,
@@ -3724,8 +4156,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[3036] = {
+	}
+	pg.base.island_achievement[3036] = {
 		target_type = 32,
 		name = "통하는 마음",
 		target_value1 = 0,
@@ -3749,8 +4181,8 @@ pg.island_achievement = {
 				30
 			}
 		}
-	},
-	[3041] = {
+	}
+	pg.base.island_achievement[3041] = {
 		target_type = 23,
 		name = "베스트 프렌드",
 		target_value1 = 0,
@@ -3774,8 +4206,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[3042] = {
+	}
+	pg.base.island_achievement[3042] = {
 		target_type = 23,
 		name = "베스트 프렌드",
 		target_value1 = 0,
@@ -3799,8 +4231,8 @@ pg.island_achievement = {
 				10000
 			}
 		}
-	},
-	[3043] = {
+	}
+	pg.base.island_achievement[3043] = {
 		target_type = 23,
 		name = "베스트 프렌드",
 		target_value1 = 0,
@@ -3824,8 +4256,8 @@ pg.island_achievement = {
 				5
 			}
 		}
-	},
-	[3044] = {
+	}
+	pg.base.island_achievement[3044] = {
 		target_type = 23,
 		name = "베스트 프렌드",
 		target_value1 = 0,
@@ -3849,8 +4281,8 @@ pg.island_achievement = {
 				10
 			}
 		}
-	},
-	[3045] = {
+	}
+	pg.base.island_achievement[3045] = {
 		target_type = 23,
 		name = "베스트 프렌드",
 		target_value1 = 0,
@@ -3874,8 +4306,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[3046] = {
+	}
+	pg.base.island_achievement[3046] = {
 		target_type = 23,
 		name = "베스트 프렌드",
 		target_value1 = 0,
@@ -3899,8 +4331,8 @@ pg.island_achievement = {
 				30
 			}
 		}
-	},
-	[3051] = {
+	}
+	pg.base.island_achievement[3051] = {
 		target_type = 14,
 		name = "패션 어드바이저",
 		target_value1 = 0,
@@ -3924,8 +4356,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[3052] = {
+	}
+	pg.base.island_achievement[3052] = {
 		target_type = 14,
 		name = "패션 어드바이저",
 		target_value1 = 0,
@@ -3949,8 +4381,8 @@ pg.island_achievement = {
 				10000
 			}
 		}
-	},
-	[3053] = {
+	}
+	pg.base.island_achievement[3053] = {
 		target_type = 14,
 		name = "패션 어드바이저",
 		target_value1 = 0,
@@ -3974,8 +4406,8 @@ pg.island_achievement = {
 				5
 			}
 		}
-	},
-	[3054] = {
+	}
+	pg.base.island_achievement[3054] = {
 		target_type = 14,
 		name = "패션 어드바이저",
 		target_value1 = 0,
@@ -3999,8 +4431,8 @@ pg.island_achievement = {
 				10
 			}
 		}
-	},
-	[3055] = {
+	}
+	pg.base.island_achievement[3055] = {
 		target_type = 14,
 		name = "패션 어드바이저",
 		target_value1 = 0,
@@ -4024,8 +4456,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[3056] = {
+	}
+	pg.base.island_achievement[3056] = {
 		target_type = 14,
 		name = "패션 어드바이저",
 		target_value1 = 0,
@@ -4049,8 +4481,8 @@ pg.island_achievement = {
 				30
 			}
 		}
-	},
-	[3061] = {
+	}
+	pg.base.island_achievement[3061] = {
 		target_type = 15,
 		name = "너희는 내 날개야",
 		target_value1 = 1,
@@ -4074,8 +4506,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[3062] = {
+	}
+	pg.base.island_achievement[3062] = {
 		target_type = 15,
 		name = "너희는 내 날개야",
 		target_value1 = 1,
@@ -4099,8 +4531,8 @@ pg.island_achievement = {
 				10000
 			}
 		}
-	},
-	[3063] = {
+	}
+	pg.base.island_achievement[3063] = {
 		target_type = 15,
 		name = "너희는 내 날개야",
 		target_value1 = 1,
@@ -4124,8 +4556,8 @@ pg.island_achievement = {
 				5
 			}
 		}
-	},
-	[3064] = {
+	}
+	pg.base.island_achievement[3064] = {
 		target_type = 15,
 		name = "너희는 내 날개야",
 		target_value1 = 1,
@@ -4149,8 +4581,8 @@ pg.island_achievement = {
 				10
 			}
 		}
-	},
-	[3065] = {
+	}
+	pg.base.island_achievement[3065] = {
 		target_type = 15,
 		name = "너희는 내 날개야",
 		target_value1 = 1,
@@ -4174,8 +4606,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[3066] = {
+	}
+	pg.base.island_achievement[3066] = {
 		target_type = 15,
 		name = "너희는 내 날개야",
 		target_value1 = 1,
@@ -4199,8 +4631,8 @@ pg.island_achievement = {
 				30
 			}
 		}
-	},
-	[3071] = {
+	}
+	pg.base.island_achievement[3071] = {
 		target_type = 15,
 		name = "부유의 미학",
 		target_value1 = 2,
@@ -4224,8 +4656,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[3072] = {
+	}
+	pg.base.island_achievement[3072] = {
 		target_type = 15,
 		name = "부유의 미학",
 		target_value1 = 2,
@@ -4249,8 +4681,8 @@ pg.island_achievement = {
 				10000
 			}
 		}
-	},
-	[3073] = {
+	}
+	pg.base.island_achievement[3073] = {
 		target_type = 15,
 		name = "부유의 미학",
 		target_value1 = 2,
@@ -4274,8 +4706,8 @@ pg.island_achievement = {
 				5
 			}
 		}
-	},
-	[3074] = {
+	}
+	pg.base.island_achievement[3074] = {
 		target_type = 15,
 		name = "부유의 미학",
 		target_value1 = 2,
@@ -4299,8 +4731,8 @@ pg.island_achievement = {
 				10
 			}
 		}
-	},
-	[3075] = {
+	}
+	pg.base.island_achievement[3075] = {
 		target_type = 15,
 		name = "부유의 미학",
 		target_value1 = 2,
@@ -4324,8 +4756,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[3076] = {
+	}
+	pg.base.island_achievement[3076] = {
 		target_type = 15,
 		name = "부유의 미학",
 		target_value1 = 2,
@@ -4349,8 +4781,8 @@ pg.island_achievement = {
 				30
 			}
 		}
-	},
-	[3081] = {
+	}
+	pg.base.island_achievement[3081] = {
 		target_type = 15,
 		name = "한걸음씩",
 		target_value1 = 3,
@@ -4374,8 +4806,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[3082] = {
+	}
+	pg.base.island_achievement[3082] = {
 		target_type = 15,
 		name = "한걸음씩",
 		target_value1 = 3,
@@ -4399,8 +4831,8 @@ pg.island_achievement = {
 				10000
 			}
 		}
-	},
-	[3083] = {
+	}
+	pg.base.island_achievement[3083] = {
 		target_type = 15,
 		name = "한걸음씩",
 		target_value1 = 3,
@@ -4424,8 +4856,8 @@ pg.island_achievement = {
 				5
 			}
 		}
-	},
-	[3084] = {
+	}
+	pg.base.island_achievement[3084] = {
 		target_type = 15,
 		name = "한걸음씩",
 		target_value1 = 3,
@@ -4449,8 +4881,8 @@ pg.island_achievement = {
 				10
 			}
 		}
-	},
-	[3085] = {
+	}
+	pg.base.island_achievement[3085] = {
 		target_type = 15,
 		name = "한걸음씩",
 		target_value1 = 3,
@@ -4474,8 +4906,8 @@ pg.island_achievement = {
 				1
 			}
 		}
-	},
-	[3086] = {
+	}
+	pg.base.island_achievement[3086] = {
 		target_type = 15,
 		name = "한걸음씩",
 		target_value1 = 3,
@@ -4499,429 +4931,5 @@ pg.island_achievement = {
 				30
 			}
 		}
-	},
-	get_id_list_by_group = {
-		{
-			1,
-			2,
-			3,
-			4,
-			5,
-			6
-		},
-		{
-			21,
-			22,
-			23,
-			24,
-			25,
-			26
-		},
-		{
-			31,
-			32,
-			33,
-			34,
-			35,
-			36
-		},
-		{
-			41,
-			42,
-			43,
-			44,
-			45,
-			46
-		},
-		{
-			51,
-			52,
-			53,
-			54,
-			55,
-			56
-		},
-		{
-			61,
-			62,
-			63,
-			64,
-			65,
-			66
-		},
-		{
-			71,
-			72,
-			73,
-			74,
-			75,
-			76
-		},
-		{
-			81,
-			82,
-			83,
-			84,
-			85,
-			86
-		},
-		{
-			91,
-			92,
-			93,
-			94,
-			95,
-			96
-		},
-		[101] = {
-			1011,
-			1012,
-			1013,
-			1014,
-			1015,
-			1016
-		},
-		[102] = {
-			1021,
-			1022,
-			1023,
-			1024,
-			1025,
-			1026
-		},
-		[103] = {
-			1031,
-			1032,
-			1033,
-			1034,
-			1035,
-			1036
-		},
-		[104] = {
-			1041,
-			1042,
-			1043,
-			1044,
-			1045,
-			1046
-		},
-		[105] = {
-			1051,
-			1052,
-			1053,
-			1054,
-			1055,
-			1056
-		},
-		[106] = {
-			1061,
-			1062,
-			1063,
-			1064,
-			1065,
-			1066
-		},
-		[107] = {
-			1071,
-			1072,
-			1073,
-			1074,
-			1075,
-			1076
-		},
-		[108] = {
-			1081,
-			1082,
-			1083,
-			1084,
-			1085,
-			1086
-		},
-		[201] = {
-			2011,
-			2012,
-			2013,
-			2014,
-			2015,
-			2016
-		},
-		[202] = {
-			2021,
-			2022,
-			2023,
-			2024,
-			2025,
-			2026
-		},
-		[203] = {
-			2031,
-			2032,
-			2033,
-			2034,
-			2035,
-			2036
-		},
-		[204] = {
-			2041,
-			2042,
-			2043,
-			2044,
-			2045,
-			2046
-		},
-		[205] = {
-			2051,
-			2052,
-			2053,
-			2054,
-			2055,
-			2056
-		},
-		[301] = {
-			3011,
-			3012,
-			3013,
-			3014,
-			3015,
-			3016
-		},
-		[302] = {
-			3021,
-			3022,
-			3023,
-			3024,
-			3025,
-			3026
-		},
-		[303] = {
-			3031,
-			3032,
-			3033,
-			3034,
-			3035,
-			3036
-		},
-		[304] = {
-			3041,
-			3042,
-			3043,
-			3044,
-			3045,
-			3046
-		},
-		[305] = {
-			3051,
-			3052,
-			3053,
-			3054,
-			3055,
-			3056
-		},
-		[306] = {
-			3061,
-			3062,
-			3063,
-			3064,
-			3065,
-			3066
-		},
-		[307] = {
-			3071,
-			3072,
-			3073,
-			3074,
-			3075,
-			3076
-		},
-		[308] = {
-			3081,
-			3082,
-			3083,
-			3084,
-			3085,
-			3086
-		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56,
-		61,
-		62,
-		63,
-		64,
-		65,
-		66,
-		71,
-		72,
-		73,
-		74,
-		75,
-		76,
-		81,
-		82,
-		83,
-		84,
-		85,
-		86,
-		91,
-		92,
-		93,
-		94,
-		95,
-		96,
-		1011,
-		1012,
-		1013,
-		1014,
-		1015,
-		1016,
-		1021,
-		1022,
-		1023,
-		1024,
-		1025,
-		1026,
-		1031,
-		1032,
-		1033,
-		1034,
-		1035,
-		1036,
-		1041,
-		1042,
-		1043,
-		1044,
-		1045,
-		1046,
-		1051,
-		1052,
-		1053,
-		1054,
-		1055,
-		1056,
-		1061,
-		1062,
-		1063,
-		1064,
-		1065,
-		1066,
-		1071,
-		1072,
-		1073,
-		1074,
-		1075,
-		1076,
-		1081,
-		1082,
-		1083,
-		1084,
-		1085,
-		1086,
-		2011,
-		2012,
-		2013,
-		2014,
-		2015,
-		2016,
-		2021,
-		2022,
-		2023,
-		2024,
-		2025,
-		2026,
-		2031,
-		2032,
-		2033,
-		2034,
-		2035,
-		2036,
-		2041,
-		2042,
-		2043,
-		2044,
-		2045,
-		2046,
-		2051,
-		2052,
-		2053,
-		2054,
-		2055,
-		2056,
-		3011,
-		3012,
-		3013,
-		3014,
-		3015,
-		3016,
-		3021,
-		3022,
-		3023,
-		3024,
-		3025,
-		3026,
-		3031,
-		3032,
-		3033,
-		3034,
-		3035,
-		3036,
-		3041,
-		3042,
-		3043,
-		3044,
-		3045,
-		3046,
-		3051,
-		3052,
-		3053,
-		3054,
-		3055,
-		3056,
-		3061,
-		3062,
-		3063,
-		3064,
-		3065,
-		3066,
-		3071,
-		3072,
-		3073,
-		3074,
-		3075,
-		3076,
-		3081,
-		3082,
-		3083,
-		3084,
-		3085,
-		3086
 	}
-}
+end)()

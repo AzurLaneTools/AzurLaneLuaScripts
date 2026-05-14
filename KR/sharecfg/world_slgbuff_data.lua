@@ -1,6 +1,113 @@
 pg = pg or {}
-pg.world_SLGbuff_data = {
-	{
+pg.world_SLGbuff_data = rawget(pg, "world_SLGbuff_data") or setmetatable({
+	__name = "world_SLGbuff_data"
+}, confNEO)
+pg.world_SLGbuff_data.all = {
+	1,
+	2,
+	200,
+	201,
+	202,
+	301,
+	302,
+	303,
+	304,
+	305,
+	306,
+	307,
+	308,
+	309,
+	310,
+	311,
+	312,
+	313,
+	314,
+	315,
+	316,
+	317,
+	318,
+	320,
+	321,
+	322,
+	323,
+	324,
+	325,
+	326,
+	401,
+	402,
+	403,
+	600,
+	601,
+	602,
+	610,
+	620,
+	630,
+	700,
+	710,
+	1010,
+	1020,
+	1030,
+	1040,
+	1050,
+	1060,
+	1110,
+	1120,
+	1130,
+	1210,
+	1220,
+	1230,
+	1240,
+	1250,
+	1260,
+	1270,
+	1280,
+	1290,
+	1300,
+	1310,
+	1320,
+	1410,
+	1420,
+	1430,
+	1440,
+	1450,
+	1460,
+	1470,
+	1480,
+	1490,
+	1500,
+	1510,
+	1520,
+	1530,
+	1540,
+	1550,
+	1560,
+	2000,
+	2010,
+	2020,
+	2100,
+	2110,
+	2120,
+	2200,
+	2210,
+	2220,
+	2300,
+	2310,
+	2320,
+	2400,
+	2410,
+	2420,
+	2500,
+	2510,
+	2520,
+	4000,
+	4010,
+	4020
+}
+pg.base = pg.base or {}
+pg.base.world_SLGbuff_data = {}
+
+(function ()
+	pg.base.world_SLGbuff_data[1] = {
 		name = "전투 피해",
 		trap_type = 0,
 		lua_id = 0,
@@ -44,8 +151,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	{
+	}
+	pg.base.world_SLGbuff_data[2] = {
 		name = "세이렌의 교란",
 		trap_type = 0,
 		lua_id = 0,
@@ -68,8 +175,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[200] = {
+	}
+	pg.base.world_SLGbuff_data[200] = {
 		name = "사기 저하 LV1",
 		trap_type = 0,
 		lua_id = 0,
@@ -113,8 +220,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[201] = {
+	}
+	pg.base.world_SLGbuff_data[201] = {
 		name = "사기 저하 LV2",
 		trap_type = 0,
 		lua_id = 0,
@@ -158,8 +265,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[202] = {
+	}
+	pg.base.world_SLGbuff_data[202] = {
 		name = "사기 저하 LV3",
 		trap_type = 0,
 		lua_id = 0,
@@ -203,8 +310,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[301] = {
+	}
+	pg.base.world_SLGbuff_data[301] = {
 		name = "이상: 전자 교란",
 		trap_type = 1,
 		lua_id = 0,
@@ -227,8 +334,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[302] = {
+	}
+	pg.base.world_SLGbuff_data[302] = {
 		name = "이상: 소용돌이",
 		trap_type = 2,
 		lua_id = 0,
@@ -253,8 +360,8 @@ pg.world_SLGbuff_data = {
 			30
 		},
 		delete_traptype = {}
-	},
-	[303] = {
+	}
+	pg.base.world_SLGbuff_data[303] = {
 		name = "이상: 연소",
 		trap_type = 3,
 		lua_id = 0,
@@ -281,8 +388,8 @@ pg.world_SLGbuff_data = {
 		delete_traptype = {
 			6
 		}
-	},
-	[304] = {
+	}
+	pg.base.world_SLGbuff_data[304] = {
 		name = "이상: 항해 교란",
 		trap_type = 4,
 		lua_id = 0,
@@ -305,8 +412,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[305] = {
+	}
+	pg.base.world_SLGbuff_data[305] = {
 		name = "이상: 이동 제한",
 		trap_type = 5,
 		lua_id = 0,
@@ -333,8 +440,8 @@ pg.world_SLGbuff_data = {
 			50
 		},
 		delete_traptype = {}
-	},
-	[306] = {
+	}
+	pg.base.world_SLGbuff_data[306] = {
 		name = "이상: 결빙",
 		trap_type = 6,
 		lua_id = 0,
@@ -368,8 +475,8 @@ pg.world_SLGbuff_data = {
 		delete_traptype = {
 			3
 		}
-	},
-	[307] = {
+	}
+	pg.base.world_SLGbuff_data[307] = {
 		name = "이상: 이동 제한",
 		trap_type = 5,
 		lua_id = 0,
@@ -396,8 +503,8 @@ pg.world_SLGbuff_data = {
 			100
 		},
 		delete_traptype = {}
-	},
-	[308] = {
+	}
+	pg.base.world_SLGbuff_data[308] = {
 		name = "이상: 연소",
 		trap_type = 3,
 		lua_id = 0,
@@ -424,8 +531,8 @@ pg.world_SLGbuff_data = {
 		delete_traptype = {
 			6
 		}
-	},
-	[309] = {
+	}
+	pg.base.world_SLGbuff_data[309] = {
 		name = "이상: 항해 교란",
 		trap_type = 4,
 		lua_id = 0,
@@ -448,8 +555,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[310] = {
+	}
+	pg.base.world_SLGbuff_data[310] = {
 		name = "이상: 이동 제한",
 		trap_type = 5,
 		lua_id = 0,
@@ -476,8 +583,8 @@ pg.world_SLGbuff_data = {
 			80
 		},
 		delete_traptype = {}
-	},
-	[311] = {
+	}
+	pg.base.world_SLGbuff_data[311] = {
 		name = "이상: 항해 교란",
 		trap_type = 4,
 		lua_id = 0,
@@ -500,8 +607,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[312] = {
+	}
+	pg.base.world_SLGbuff_data[312] = {
 		name = "이상: 이동 제한",
 		trap_type = 5,
 		lua_id = 0,
@@ -528,8 +635,8 @@ pg.world_SLGbuff_data = {
 			50
 		},
 		delete_traptype = {}
-	},
-	[313] = {
+	}
+	pg.base.world_SLGbuff_data[313] = {
 		name = "이상: 전자 교란",
 		trap_type = 1,
 		lua_id = 0,
@@ -552,8 +659,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[314] = {
+	}
+	pg.base.world_SLGbuff_data[314] = {
 		name = "이상: 강력 전자 교란",
 		trap_type = 1,
 		lua_id = 0,
@@ -576,8 +683,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[315] = {
+	}
+	pg.base.world_SLGbuff_data[315] = {
 		name = "이상: 연소",
 		trap_type = 3,
 		lua_id = 0,
@@ -604,8 +711,8 @@ pg.world_SLGbuff_data = {
 		delete_traptype = {
 			1006
 		}
-	},
-	[316] = {
+	}
+	pg.base.world_SLGbuff_data[316] = {
 		name = "이상: 결빙",
 		trap_type = 6,
 		lua_id = 0,
@@ -639,8 +746,8 @@ pg.world_SLGbuff_data = {
 		delete_traptype = {
 			1003
 		}
-	},
-	[317] = {
+	}
+	pg.base.world_SLGbuff_data[317] = {
 		name = "이상: 소용돌이",
 		trap_type = 2,
 		lua_id = 0,
@@ -665,8 +772,8 @@ pg.world_SLGbuff_data = {
 			30
 		},
 		delete_traptype = {}
-	},
-	[318] = {
+	}
+	pg.base.world_SLGbuff_data[318] = {
 		name = "이상: 강력 항해 교란",
 		trap_type = 4,
 		lua_id = 0,
@@ -689,8 +796,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[320] = {
+	}
+	pg.base.world_SLGbuff_data[320] = {
 		name = "이상: 화상",
 		trap_type = 3,
 		lua_id = 0,
@@ -717,8 +824,8 @@ pg.world_SLGbuff_data = {
 		delete_traptype = {
 			6
 		}
-	},
-	[321] = {
+	}
+	pg.base.world_SLGbuff_data[321] = {
 		name = "이상: 전자 교란",
 		trap_type = 1,
 		lua_id = 0,
@@ -741,8 +848,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[322] = {
+	}
+	pg.base.world_SLGbuff_data[322] = {
 		name = "이상: 소용돌이",
 		trap_type = 2,
 		lua_id = 0,
@@ -767,8 +874,8 @@ pg.world_SLGbuff_data = {
 			30
 		},
 		delete_traptype = {}
-	},
-	[323] = {
+	}
+	pg.base.world_SLGbuff_data[323] = {
 		name = "이상: 연소",
 		trap_type = 3,
 		lua_id = 0,
@@ -795,8 +902,8 @@ pg.world_SLGbuff_data = {
 		delete_traptype = {
 			1016
 		}
-	},
-	[324] = {
+	}
+	pg.base.world_SLGbuff_data[324] = {
 		name = "이상: 항해 교란",
 		trap_type = 4,
 		lua_id = 0,
@@ -819,8 +926,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[325] = {
+	}
+	pg.base.world_SLGbuff_data[325] = {
 		name = "이상: 이동 제한",
 		trap_type = 5,
 		lua_id = 0,
@@ -847,8 +954,8 @@ pg.world_SLGbuff_data = {
 			50
 		},
 		delete_traptype = {}
-	},
-	[326] = {
+	}
+	pg.base.world_SLGbuff_data[326] = {
 		name = "이상: 결빙",
 		trap_type = 6,
 		lua_id = 0,
@@ -882,8 +989,8 @@ pg.world_SLGbuff_data = {
 		delete_traptype = {
 			1013
 		}
-	},
-	[401] = {
+	}
+	pg.base.world_SLGbuff_data[401] = {
 		name = "적응력 조정-공격",
 		trap_type = 0,
 		lua_id = 0,
@@ -906,8 +1013,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[402] = {
+	}
+	pg.base.world_SLGbuff_data[402] = {
 		name = "적응력 조정-내구",
 		trap_type = 0,
 		lua_id = 0,
@@ -930,8 +1037,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[403] = {
+	}
+	pg.base.world_SLGbuff_data[403] = {
 		name = "적응력 조정-회복",
 		trap_type = 0,
 		lua_id = 0,
@@ -954,8 +1061,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[600] = {
+	}
+	pg.base.world_SLGbuff_data[600] = {
 		name = "이상: 이동 제한",
 		trap_type = 5,
 		lua_id = 0,
@@ -982,8 +1089,8 @@ pg.world_SLGbuff_data = {
 			50
 		},
 		delete_traptype = {}
-	},
-	[601] = {
+	}
+	pg.base.world_SLGbuff_data[601] = {
 		name = "이상: 항해 교란",
 		trap_type = 4,
 		lua_id = 0,
@@ -1006,8 +1113,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[602] = {
+	}
+	pg.base.world_SLGbuff_data[602] = {
 		name = "感染地形",
 		trap_type = 8,
 		lua_id = 0,
@@ -1035,8 +1142,8 @@ pg.world_SLGbuff_data = {
 			1
 		},
 		delete_traptype = {}
-	},
-	[610] = {
+	}
+	pg.base.world_SLGbuff_data[610] = {
 		name = "관측·VIII",
 		trap_type = 0,
 		lua_id = 0,
@@ -1059,8 +1166,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[620] = {
+	}
+	pg.base.world_SLGbuff_data[620] = {
 		name = "관측·XIV",
 		trap_type = 7,
 		lua_id = 0,
@@ -1085,8 +1192,8 @@ pg.world_SLGbuff_data = {
 			201
 		},
 		delete_traptype = {}
-	},
-	[630] = {
+	}
+	pg.base.world_SLGbuff_data[630] = {
 		name = "관측·IX",
 		trap_type = 9,
 		lua_id = 0,
@@ -1111,8 +1218,8 @@ pg.world_SLGbuff_data = {
 			202
 		},
 		delete_traptype = {}
-	},
-	[700] = {
+	}
+	pg.base.world_SLGbuff_data[700] = {
 		name = "포격 지원",
 		trap_type = 0,
 		lua_id = 78000,
@@ -1135,8 +1242,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[710] = {
+	}
+	pg.base.world_SLGbuff_data[710] = {
 		name = "공중 지원",
 		trap_type = 0,
 		lua_id = 78010,
@@ -1159,8 +1266,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1010] = {
+	}
+	pg.base.world_SLGbuff_data[1010] = {
 		name = "화력 강화",
 		trap_type = 0,
 		lua_id = 70100,
@@ -1183,8 +1290,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1020] = {
+	}
+	pg.base.world_SLGbuff_data[1020] = {
 		name = "뇌장 강화",
 		trap_type = 0,
 		lua_id = 70200,
@@ -1207,8 +1314,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1030] = {
+	}
+	pg.base.world_SLGbuff_data[1030] = {
 		name = "대공 강화",
 		trap_type = 0,
 		lua_id = 70300,
@@ -1231,8 +1338,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1040] = {
+	}
+	pg.base.world_SLGbuff_data[1040] = {
 		name = "항공 강화",
 		trap_type = 0,
 		lua_id = 70400,
@@ -1255,8 +1362,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1050] = {
+	}
+	pg.base.world_SLGbuff_data[1050] = {
 		name = "장전 강화",
 		trap_type = 0,
 		lua_id = 70500,
@@ -1279,8 +1386,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1060] = {
+	}
+	pg.base.world_SLGbuff_data[1060] = {
 		name = "항속 강화",
 		trap_type = 0,
 		lua_id = 70900,
@@ -1303,8 +1410,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1110] = {
+	}
+	pg.base.world_SLGbuff_data[1110] = {
 		name = "화력 저항",
 		trap_type = 0,
 		lua_id = 71000,
@@ -1327,8 +1434,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1120] = {
+	}
+	pg.base.world_SLGbuff_data[1120] = {
 		name = "뇌장 저항",
 		trap_type = 0,
 		lua_id = 71100,
@@ -1351,8 +1458,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1130] = {
+	}
+	pg.base.world_SLGbuff_data[1130] = {
 		name = "항공 저항",
 		trap_type = 0,
 		lua_id = 71200,
@@ -1375,8 +1482,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1210] = {
+	}
+	pg.base.world_SLGbuff_data[1210] = {
 		name = "화력 부상 LV1",
 		trap_type = 0,
 		lua_id = 71050,
@@ -1399,8 +1506,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1220] = {
+	}
+	pg.base.world_SLGbuff_data[1220] = {
 		name = "화력 부상 LV2",
 		trap_type = 0,
 		lua_id = 71150,
@@ -1423,8 +1530,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1230] = {
+	}
+	pg.base.world_SLGbuff_data[1230] = {
 		name = "화력 부상 LV3",
 		trap_type = 0,
 		lua_id = 71250,
@@ -1447,8 +1554,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1240] = {
+	}
+	pg.base.world_SLGbuff_data[1240] = {
 		name = "뇌장 부상 LV1",
 		trap_type = 0,
 		lua_id = 71350,
@@ -1471,8 +1578,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1250] = {
+	}
+	pg.base.world_SLGbuff_data[1250] = {
 		name = "뇌장 부상 LV2",
 		trap_type = 0,
 		lua_id = 71450,
@@ -1495,8 +1602,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1260] = {
+	}
+	pg.base.world_SLGbuff_data[1260] = {
 		name = "뇌장 부상 LV3",
 		trap_type = 0,
 		lua_id = 71550,
@@ -1519,8 +1626,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1270] = {
+	}
+	pg.base.world_SLGbuff_data[1270] = {
 		name = "항공 부상 LV1",
 		trap_type = 0,
 		lua_id = 71650,
@@ -1543,8 +1650,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1280] = {
+	}
+	pg.base.world_SLGbuff_data[1280] = {
 		name = "항공 부상 LV2",
 		trap_type = 0,
 		lua_id = 71750,
@@ -1567,8 +1674,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1290] = {
+	}
+	pg.base.world_SLGbuff_data[1290] = {
 		name = "항공 부상 LV3",
 		trap_type = 0,
 		lua_id = 71850,
@@ -1591,8 +1698,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1300] = {
+	}
+	pg.base.world_SLGbuff_data[1300] = {
 		name = "사냥꾼",
 		trap_type = 0,
 		lua_id = 72000,
@@ -1615,8 +1722,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1310] = {
+	}
+	pg.base.world_SLGbuff_data[1310] = {
 		name = "선봉 사냥꾼",
 		trap_type = 0,
 		lua_id = 72100,
@@ -1639,8 +1746,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1320] = {
+	}
+	pg.base.world_SLGbuff_data[1320] = {
 		name = "주력 사냥꾼",
 		trap_type = 0,
 		lua_id = 72200,
@@ -1663,8 +1770,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1410] = {
+	}
+	pg.base.world_SLGbuff_data[1410] = {
 		name = "파멸",
 		trap_type = 0,
 		lua_id = 73000,
@@ -1687,8 +1794,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1420] = {
+	}
+	pg.base.world_SLGbuff_data[1420] = {
 		name = "성대한 등장",
 		trap_type = 0,
 		lua_id = 73100,
@@ -1711,8 +1818,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1430] = {
+	}
+	pg.base.world_SLGbuff_data[1430] = {
 		name = "쉴드: 대량 내구",
 		trap_type = 0,
 		lua_id = 73200,
@@ -1735,8 +1842,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1440] = {
+	}
+	pg.base.world_SLGbuff_data[1440] = {
 		name = "쉴드: 중점 방어",
 		trap_type = 0,
 		lua_id = 73300,
@@ -1759,8 +1866,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1450] = {
+	}
+	pg.base.world_SLGbuff_data[1450] = {
 		name = "쉴드: 대미지 미스",
 		trap_type = 0,
 		lua_id = 73400,
@@ -1783,8 +1890,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1460] = {
+	}
+	pg.base.world_SLGbuff_data[1460] = {
 		name = "화력 초과 모듈",
 		trap_type = 0,
 		lua_id = 73500,
@@ -1807,8 +1914,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1470] = {
+	}
+	pg.base.world_SLGbuff_data[1470] = {
 		name = "장갑 초과 모듈",
 		trap_type = 0,
 		lua_id = 73600,
@@ -1831,8 +1938,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1480] = {
+	}
+	pg.base.world_SLGbuff_data[1480] = {
 		name = "수리 초과 모듈",
 		trap_type = 0,
 		lua_id = 73700,
@@ -1855,8 +1962,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1490] = {
+	}
+	pg.base.world_SLGbuff_data[1490] = {
 		name = "쉴드 초과 모듈",
 		trap_type = 0,
 		lua_id = 73800,
@@ -1879,8 +1986,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1500] = {
+	}
+	pg.base.world_SLGbuff_data[1500] = {
 		name = "회복 반전",
 		trap_type = 0,
 		lua_id = 73900,
@@ -1903,8 +2010,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1510] = {
+	}
+	pg.base.world_SLGbuff_data[1510] = {
 		name = "회복 전이",
 		trap_type = 0,
 		lua_id = 74000,
@@ -1927,8 +2034,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1520] = {
+	}
+	pg.base.world_SLGbuff_data[1520] = {
 		name = "크리티컬 전이",
 		trap_type = 0,
 		lua_id = 74100,
@@ -1951,8 +2058,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1530] = {
+	}
+	pg.base.world_SLGbuff_data[1530] = {
 		name = "관통",
 		trap_type = 0,
 		lua_id = 74200,
@@ -1975,8 +2082,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1540] = {
+	}
+	pg.base.world_SLGbuff_data[1540] = {
 		name = "간섭",
 		trap_type = 0,
 		lua_id = 74300,
@@ -1999,8 +2106,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1550] = {
+	}
+	pg.base.world_SLGbuff_data[1550] = {
 		name = "추가 손상",
 		trap_type = 0,
 		lua_id = 74400,
@@ -2023,8 +2130,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[1560] = {
+	}
+	pg.base.world_SLGbuff_data[1560] = {
 		name = "정확",
 		trap_type = 0,
 		lua_id = 70600,
@@ -2047,8 +2154,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[2000] = {
+	}
+	pg.base.world_SLGbuff_data[2000] = {
 		name = "화력 저항",
 		trap_type = 0,
 		lua_id = 70100,
@@ -2071,8 +2178,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[2010] = {
+	}
+	pg.base.world_SLGbuff_data[2010] = {
 		name = "화력 저항",
 		trap_type = 0,
 		lua_id = 70100,
@@ -2095,8 +2202,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[2020] = {
+	}
+	pg.base.world_SLGbuff_data[2020] = {
 		name = "화력 저항",
 		trap_type = 0,
 		lua_id = 70100,
@@ -2119,8 +2226,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[2100] = {
+	}
+	pg.base.world_SLGbuff_data[2100] = {
 		name = "뇌장 저항",
 		trap_type = 0,
 		lua_id = 70200,
@@ -2143,8 +2250,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[2110] = {
+	}
+	pg.base.world_SLGbuff_data[2110] = {
 		name = "뇌장 저항",
 		trap_type = 0,
 		lua_id = 70200,
@@ -2167,8 +2274,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[2120] = {
+	}
+	pg.base.world_SLGbuff_data[2120] = {
 		name = "뇌장 저항",
 		trap_type = 0,
 		lua_id = 70200,
@@ -2191,8 +2298,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[2200] = {
+	}
+	pg.base.world_SLGbuff_data[2200] = {
 		name = "항공 저항",
 		trap_type = 0,
 		lua_id = 70300,
@@ -2215,8 +2322,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[2210] = {
+	}
+	pg.base.world_SLGbuff_data[2210] = {
 		name = "항공 저항",
 		trap_type = 0,
 		lua_id = 70300,
@@ -2239,8 +2346,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[2220] = {
+	}
+	pg.base.world_SLGbuff_data[2220] = {
 		name = "항공 저항",
 		trap_type = 0,
 		lua_id = 70300,
@@ -2263,8 +2370,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[2300] = {
+	}
+	pg.base.world_SLGbuff_data[2300] = {
 		name = "항공 강화",
 		trap_type = 0,
 		lua_id = 70400,
@@ -2287,8 +2394,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[2310] = {
+	}
+	pg.base.world_SLGbuff_data[2310] = {
 		name = "항공 강화",
 		trap_type = 0,
 		lua_id = 70400,
@@ -2311,8 +2418,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[2320] = {
+	}
+	pg.base.world_SLGbuff_data[2320] = {
 		name = "항공 강화",
 		trap_type = 0,
 		lua_id = 70400,
@@ -2335,8 +2442,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[2400] = {
+	}
+	pg.base.world_SLGbuff_data[2400] = {
 		name = "장전 강화",
 		trap_type = 0,
 		lua_id = 70500,
@@ -2359,8 +2466,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[2410] = {
+	}
+	pg.base.world_SLGbuff_data[2410] = {
 		name = "장전 강화",
 		trap_type = 0,
 		lua_id = 70500,
@@ -2383,8 +2490,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[2420] = {
+	}
+	pg.base.world_SLGbuff_data[2420] = {
 		name = "장전 강화",
 		trap_type = 0,
 		lua_id = 70500,
@@ -2407,8 +2514,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[2500] = {
+	}
+	pg.base.world_SLGbuff_data[2500] = {
 		name = "항속 강화",
 		trap_type = 0,
 		lua_id = 70900,
@@ -2431,8 +2538,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[2510] = {
+	}
+	pg.base.world_SLGbuff_data[2510] = {
 		name = "항속 강화",
 		trap_type = 0,
 		lua_id = 70900,
@@ -2455,8 +2562,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[2520] = {
+	}
+	pg.base.world_SLGbuff_data[2520] = {
 		name = "항속 강화",
 		trap_type = 0,
 		lua_id = 70900,
@@ -2479,8 +2586,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[4000] = {
+	}
+	pg.base.world_SLGbuff_data[4000] = {
 		name = "분리식 작전 모듈",
 		trap_type = 0,
 		lua_id = 0,
@@ -2503,8 +2610,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[4010] = {
+	}
+	pg.base.world_SLGbuff_data[4010] = {
 		name = "스트렝스 방어막",
 		trap_type = 0,
 		lua_id = 0,
@@ -2527,8 +2634,8 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	[4020] = {
+	}
+	pg.base.world_SLGbuff_data[4020] = {
 		name = "부식성 해무",
 		trap_type = 0,
 		lua_id = 0,
@@ -2551,106 +2658,5 @@ pg.world_SLGbuff_data = {
 		},
 		trap_parameter = {},
 		delete_traptype = {}
-	},
-	all = {
-		1,
-		2,
-		200,
-		201,
-		202,
-		301,
-		302,
-		303,
-		304,
-		305,
-		306,
-		307,
-		308,
-		309,
-		310,
-		311,
-		312,
-		313,
-		314,
-		315,
-		316,
-		317,
-		318,
-		320,
-		321,
-		322,
-		323,
-		324,
-		325,
-		326,
-		401,
-		402,
-		403,
-		600,
-		601,
-		602,
-		610,
-		620,
-		630,
-		700,
-		710,
-		1010,
-		1020,
-		1030,
-		1040,
-		1050,
-		1060,
-		1110,
-		1120,
-		1130,
-		1210,
-		1220,
-		1230,
-		1240,
-		1250,
-		1260,
-		1270,
-		1280,
-		1290,
-		1300,
-		1310,
-		1320,
-		1410,
-		1420,
-		1430,
-		1440,
-		1450,
-		1460,
-		1470,
-		1480,
-		1490,
-		1500,
-		1510,
-		1520,
-		1530,
-		1540,
-		1550,
-		1560,
-		2000,
-		2010,
-		2020,
-		2100,
-		2110,
-		2120,
-		2200,
-		2210,
-		2220,
-		2300,
-		2310,
-		2320,
-		2400,
-		2410,
-		2420,
-		2500,
-		2510,
-		2520,
-		4000,
-		4010,
-		4020
 	}
-}
+end)()

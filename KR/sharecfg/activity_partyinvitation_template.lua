@@ -1,6 +1,21 @@
 pg = pg or {}
-pg.activity_partyinvitation_template = {
-	{
+pg.activity_partyinvitation_template = rawget(pg, "activity_partyinvitation_template") or setmetatable({
+	__name = "activity_partyinvitation_template"
+}, confNEO)
+pg.activity_partyinvitation_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7
+}
+pg.base = pg.base or {}
+pg.base.activity_partyinvitation_template = {}
+
+(function ()
+	pg.base.activity_partyinvitation_template[1] = {
 		skinId = 107065,
 		groupid = 10706,
 		getletter_story = "YUANWEIFANGXINMIMANSHI2",
@@ -36,8 +51,8 @@ pg.activity_partyinvitation_template = {
 			"춤? 알았다. 그럼 지휘…… 아니, 리드 잘 부탁한다.",
 			"춤 추는 법도 익혀 두는 게 좋겠군."
 		}
-	},
-	{
+	}
+	pg.base.activity_partyinvitation_template[2] = {
 		skinId = 107092,
 		groupid = 10709,
 		getletter_story = "YUANWEIFANGXINMIMANSHI3",
@@ -73,8 +88,8 @@ pg.activity_partyinvitation_template = {
 			"춤 말씀이신가요? 지휘관님은 꽤 자신 있으신 것 같네요~",
 			"하나 둘, 하나 둘… 좋아, 까먹진 않은 것 같아."
 		}
-	},
-	{
+	}
+	pg.base.activity_partyinvitation_template[3] = {
 		skinId = 305101,
 		groupid = 30510,
 		getletter_story = "YUANWEIFANGXINMIMANSHI4",
@@ -110,8 +125,8 @@ pg.activity_partyinvitation_template = {
 			"춤 신청이라면 스텝은 느긋하게 밟는 편이 좋겠구나.",
 			"춤을 출 때 다소의 스킨십은 피할 수 없는 법이지."
 		}
-	},
-	{
+	}
+	pg.base.activity_partyinvitation_template[4] = {
 		skinId = 905011,
 		groupid = 90501,
 		getletter_story = "YUANWEIFANGXINMIMANSHI5",
@@ -147,8 +162,8 @@ pg.activity_partyinvitation_template = {
 			"춤…이라. 네 요청이니 거절할 순 없겠지.",
 			"말해두겠다만, 춤은 내 특기 분야가 아니다. 그러니 발이 밟히더라도..."
 		}
-	},
-	{
+	}
+	pg.base.activity_partyinvitation_template[5] = {
 		skinId = 702010,
 		groupid = 70201,
 		getletter_story = "YUANWEIFANGXINMIMANSHI6",
@@ -184,8 +199,8 @@ pg.activity_partyinvitation_template = {
 			"신청해주셔서 감사합니다. 그럼~",
 			"춤 추는 거니까 더 가까이 오셔도 괜찮아요."
 		}
-	},
-	{
+	}
+	pg.base.activity_partyinvitation_template[6] = {
 		skinId = 205011,
 		groupid = 20501,
 		getletter_story = "YUANWEIFANGXINMIMANSHI8",
@@ -221,8 +236,8 @@ pg.activity_partyinvitation_template = {
 			"흥, 얼마나 늘었는지 어디 한번 보자고.",
 			"하인, 이 여왕님의 스텝을 열심히 따라와 봐!"
 		}
-	},
-	{
+	}
+	pg.base.activity_partyinvitation_template[7] = {
 		skinId = 405011,
 		groupid = 40501,
 		getletter_story = "YUANWEIFANGXINMIMANSHI7",
@@ -258,14 +273,5 @@ pg.activity_partyinvitation_template = {
 			"춤 신청? 후후, 그럼 잠깐만 몸을 맡겨볼까?",
 			"춤 출 때는 평소의 비스마르크가 아닌 것 같다고? 후후후."
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7
 	}
-}
+end)()

@@ -1,6 +1,838 @@
 pg = pg or {}
-pg.activity_ins_chat_group = {
-	{
+pg.activity_ins_chat_group = rawget(pg, "activity_ins_chat_group") or setmetatable({
+	__name = "activity_ins_chat_group"
+}, confNEO)
+pg.activity_ins_chat_group.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	39,
+	40,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	47,
+	48,
+	49,
+	50,
+	51,
+	52,
+	53,
+	54,
+	55,
+	56,
+	57,
+	58,
+	59,
+	60,
+	61,
+	62,
+	63,
+	64,
+	65,
+	66,
+	67,
+	68,
+	69,
+	70,
+	71,
+	72,
+	73,
+	74,
+	75,
+	76,
+	77,
+	78,
+	79,
+	80,
+	81,
+	82,
+	83,
+	84,
+	85,
+	86,
+	87,
+	88,
+	89,
+	90,
+	91,
+	92,
+	93,
+	94,
+	95,
+	96,
+	97,
+	98,
+	99,
+	100,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	110,
+	111,
+	112,
+	113,
+	114,
+	115,
+	116,
+	117,
+	118,
+	119,
+	120,
+	121,
+	122,
+	123,
+	124,
+	125,
+	126,
+	127,
+	128,
+	129,
+	130,
+	131,
+	132,
+	133,
+	134,
+	135,
+	136,
+	137,
+	138,
+	139,
+	140,
+	141,
+	142,
+	143,
+	144,
+	145,
+	146,
+	147,
+	148,
+	149,
+	150,
+	151,
+	152,
+	153,
+	154,
+	155,
+	156,
+	157,
+	158,
+	159,
+	160,
+	161,
+	162,
+	163,
+	164,
+	165,
+	166,
+	167,
+	168,
+	169,
+	170,
+	171,
+	172,
+	173,
+	174,
+	175,
+	176,
+	177,
+	178,
+	179,
+	180,
+	181,
+	182,
+	183,
+	184,
+	185,
+	186,
+	187,
+	188,
+	189,
+	190,
+	191,
+	192,
+	193,
+	194,
+	195,
+	196,
+	197,
+	198,
+	199,
+	200,
+	201,
+	202,
+	203,
+	204,
+	205,
+	206,
+	207,
+	208,
+	209,
+	210,
+	211,
+	212,
+	213,
+	214,
+	215,
+	216,
+	217,
+	218,
+	219,
+	220,
+	221,
+	222,
+	223,
+	224,
+	225,
+	226,
+	227,
+	228,
+	229,
+	230,
+	231,
+	232,
+	233,
+	234,
+	235,
+	236,
+	237,
+	238,
+	239,
+	240,
+	241,
+	242,
+	243,
+	244,
+	245,
+	246,
+	247,
+	248,
+	249,
+	250,
+	251,
+	252,
+	253,
+	254,
+	255,
+	256,
+	257,
+	258,
+	259,
+	260,
+	261,
+	262,
+	263,
+	264,
+	265,
+	266,
+	267,
+	268,
+	269,
+	270,
+	271,
+	272,
+	273,
+	274,
+	275,
+	276,
+	277,
+	278,
+	279,
+	280,
+	281,
+	282,
+	283,
+	284,
+	285,
+	286,
+	287,
+	288,
+	289,
+	290,
+	291,
+	292,
+	293,
+	294,
+	295,
+	296,
+	297,
+	298,
+	299,
+	300,
+	301,
+	302,
+	303,
+	304
+}
+pg.activity_ins_chat_group.get_id_list_by_ship_group = {
+	[101] = {
+		21,
+		304
+	},
+	[102] = {
+		22
+	},
+	[103] = {
+		23,
+		71,
+		262
+	},
+	[104] = {
+		24
+	},
+	[105] = {
+		25
+	},
+	[106] = {
+		26
+	},
+	[107] = {
+		27,
+		287
+	},
+	[108] = {
+		28
+	},
+	[109] = {
+		19
+	},
+	[110] = {
+		210
+	},
+	[200] = {
+		20
+	},
+	[201] = {
+		297
+	},
+	[10110] = {
+		217,
+		218,
+		219
+	},
+	[10153] = {
+		93,
+		94,
+		95
+	},
+	[10155] = {
+		220,
+		221,
+		222
+	},
+	[10233] = {
+		207,
+		208,
+		209
+	},
+	[10234] = {
+		96,
+		97,
+		98
+	},
+	[10235] = {
+		223,
+		224,
+		225
+	},
+	[10324] = {
+		201,
+		202,
+		203
+	},
+	[10601] = {
+		301,
+		302,
+		303
+	},
+	[10702] = {
+		211,
+		212,
+		213,
+		214,
+		215,
+		216
+	},
+	[10709] = {
+		162,
+		163,
+		164
+	},
+	[10713] = {
+		90,
+		91,
+		92
+	},
+	[10725] = {
+		226,
+		227,
+		228
+	},
+	[19906] = {
+		241,
+		242,
+		243
+	},
+	[20138] = {
+		120,
+		121,
+		122
+	},
+	[20139] = {
+		126,
+		127,
+		128
+	},
+	[20235] = {
+		123,
+		124,
+		125
+	},
+	[20236] = {
+		129,
+		130,
+		131
+	},
+	[20313] = {
+		298,
+		299,
+		300
+	},
+	[20509] = {
+		29,
+		30,
+		31
+	},
+	[20516] = {
+		117,
+		118,
+		119
+	},
+	[20607] = {
+		269,
+		270,
+		271
+	},
+	[20712] = {
+		114,
+		115,
+		116
+	},
+	[30116] = {
+		284,
+		285,
+		286
+	},
+	[30192] = {
+		180,
+		181,
+		182
+	},
+	[30194] = {
+		247,
+		248,
+		249
+	},
+	[30225] = {
+		183,
+		184,
+		185
+	},
+	[30227] = {
+		177,
+		178,
+		179
+	},
+	[30228] = {
+		291,
+		292,
+		293
+	},
+	[30229] = {
+		294,
+		295,
+		296
+	},
+	[30320] = {
+		174,
+		175,
+		176
+	},
+	[30516] = {
+		171,
+		172,
+		173
+	},
+	[30716] = {
+		165,
+		166,
+		167
+	},
+	[30717] = {
+		288,
+		289,
+		290
+	},
+	[31702] = {
+		168,
+		169,
+		170
+	},
+	[40109] = {
+		50,
+		51,
+		52
+	},
+	[40111] = {
+		53,
+		54,
+		55
+	},
+	[40113] = {
+		138,
+		139,
+		140
+	},
+	[40152] = {
+		44,
+		45,
+		46
+	},
+	[40211] = {
+		47,
+		48,
+		49
+	},
+	[40404] = {
+		38,
+		39,
+		40
+	},
+	[40407] = {
+		132,
+		133,
+		134
+	},
+	[40503] = {
+		32,
+		33,
+		34
+	},
+	[40704] = {
+		41,
+		42,
+		43
+	},
+	[40814] = {
+		135,
+		136,
+		137
+	},
+	[49906] = {
+		35,
+		36,
+		37
+	},
+	[49910] = {
+		232,
+		233,
+		234
+	},
+	[50105] = {
+		56,
+		57,
+		58
+	},
+	[50108] = {
+		68,
+		69,
+		70
+	},
+	[50109] = {
+		65,
+		66,
+		67
+	},
+	[50209] = {
+		72,
+		73,
+		74
+	},
+	[50210] = {
+		62,
+		63,
+		64
+	},
+	[50212] = {
+		266,
+		267,
+		268
+	},
+	[50301] = {
+		59,
+		60,
+		61
+	},
+	[50302] = {
+		263,
+		264,
+		265
+	},
+	[51901] = {
+		259,
+		260,
+		261
+	},
+	[60111] = {
+		81,
+		82,
+		83
+	},
+	[60112] = {
+		253,
+		254,
+		255
+	},
+	[60203] = {
+		84,
+		85,
+		86
+	},
+	[60204] = {
+		256,
+		257,
+		258
+	},
+	[60501] = {
+		244,
+		245,
+		246
+	},
+	[60508] = {
+		75,
+		76,
+		77
+	},
+	[60509] = {
+		250,
+		251,
+		252
+	},
+	[60803] = {
+		78,
+		79,
+		80
+	},
+	[69903] = {
+		229,
+		230,
+		231
+	},
+	[70113] = {
+		275,
+		276,
+		277
+	},
+	[70203] = {
+		99,
+		100,
+		101
+	},
+	[70208] = {
+		111,
+		112,
+		113
+	},
+	[70209] = {
+		278,
+		279,
+		280
+	},
+	[70210] = {
+		281,
+		282,
+		283
+	},
+	[70303] = {
+		272,
+		273,
+		274
+	},
+	[70509] = {
+		108,
+		109,
+		110
+	},
+	[79903] = {
+		238,
+		239,
+		240
+	},
+	[80105] = {
+		153,
+		154,
+		155
+	},
+	[80204] = {
+		159,
+		160,
+		161
+	},
+	[80303] = {
+		156,
+		157,
+		158
+	},
+	[80401] = {
+		147,
+		148,
+		149
+	},
+	[80503] = {
+		204,
+		205,
+		206
+	},
+	[80601] = {
+		150,
+		151,
+		152
+	},
+	[90105] = {
+		144,
+		145,
+		146
+	},
+	[90107] = {
+		87,
+		88,
+		89
+	},
+	[90401] = {
+		141,
+		142,
+		143
+	},
+	[110101] = {
+		105,
+		106,
+		107
+	},
+	[110201] = {
+		102,
+		103,
+		104
+	},
+	[119901] = {
+		235,
+		236,
+		237
+	},
+	[960005] = {
+		16,
+		17,
+		18
+	},
+	[960007] = {
+		1,
+		2,
+		3
+	},
+	[960008] = {
+		4,
+		5,
+		6
+	},
+	[960009] = {
+		7,
+		8,
+		9
+	},
+	[960010] = {
+		10,
+		11,
+		12
+	},
+	[960011] = {
+		13,
+		14,
+		15
+	},
+	[960012] = {
+		186,
+		187,
+		188
+	},
+	[960013] = {
+		189,
+		190,
+		191
+	},
+	[960014] = {
+		192,
+		193,
+		194
+	},
+	[960015] = {
+		195,
+		196,
+		197
+	},
+	[960016] = {
+		198,
+		199,
+		200
+	}
+}
+pg.base = pg.base or {}
+pg.base.activity_ins_chat_group = {}
+
+(function ()
+	pg.base.activity_ins_chat_group[1] = {
 		ship_group = 960007,
 		name = "작은 여행 계획",
 		group_ii = 0,
@@ -41,8 +873,8 @@ pg.activity_ins_chat_group = {
 			30,
 			31
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[2] = {
 		ship_group = 960007,
 		name = "함께 저녁 식사",
 		group_ii = 0,
@@ -71,8 +903,8 @@ pg.activity_ins_chat_group = {
 			49,
 			50
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[3] = {
 		ship_group = 960007,
 		name = "같이 일출보기",
 		group_ii = 0,
@@ -117,8 +949,8 @@ pg.activity_ins_chat_group = {
 			84,
 			85
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[4] = {
 		ship_group = 960008,
 		name = "바디워시?",
 		group_ii = 0,
@@ -149,8 +981,8 @@ pg.activity_ins_chat_group = {
 			105,
 			106
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[5] = {
 		ship_group = 960008,
 		name = "맛",
 		group_ii = 0,
@@ -188,8 +1020,8 @@ pg.activity_ins_chat_group = {
 			133,
 			134
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[6] = {
 		ship_group = 960008,
 		name = "지루",
 		group_ii = 0,
@@ -220,8 +1052,8 @@ pg.activity_ins_chat_group = {
 			154,
 			155
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[7] = {
 		ship_group = 960009,
 		name = "취미",
 		group_ii = 0,
@@ -278,8 +1110,8 @@ pg.activity_ins_chat_group = {
 			201,
 			202
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[8] = {
 		ship_group = 960009,
 		name = "야식",
 		group_ii = 0,
@@ -314,8 +1146,8 @@ pg.activity_ins_chat_group = {
 			226,
 			227
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[9] = {
 		ship_group = 960009,
 		name = "그리움",
 		group_ii = 0,
@@ -352,8 +1184,8 @@ pg.activity_ins_chat_group = {
 			253,
 			254
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[10] = {
 		ship_group = 960010,
 		name = "등 밟기",
 		group_ii = 0,
@@ -386,8 +1218,8 @@ pg.activity_ins_chat_group = {
 			276,
 			277
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[11] = {
 		ship_group = 960010,
 		name = "술주정꾼",
 		group_ii = 0,
@@ -421,8 +1253,8 @@ pg.activity_ins_chat_group = {
 			300,
 			301
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[12] = {
 		ship_group = 960010,
 		name = "트레이닝",
 		group_ii = 0,
@@ -459,8 +1291,8 @@ pg.activity_ins_chat_group = {
 			327,
 			328
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[13] = {
 		ship_group = 960011,
 		name = "이모티콘",
 		group_ii = 0,
@@ -506,8 +1338,8 @@ pg.activity_ins_chat_group = {
 			363,
 			364
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[14] = {
 		ship_group = 960011,
 		name = "미아",
 		group_ii = 0,
@@ -539,8 +1371,8 @@ pg.activity_ins_chat_group = {
 			385,
 			386
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[15] = {
 		ship_group = 960011,
 		name = "잠들 수 없는 밤",
 		group_ii = 0,
@@ -586,8 +1418,8 @@ pg.activity_ins_chat_group = {
 			421,
 			422
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[16] = {
 		ship_group = 960005,
 		name = "쉬고 싶어.",
 		group_ii = 0,
@@ -650,8 +1482,8 @@ pg.activity_ins_chat_group = {
 			474,
 			475
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[17] = {
 		ship_group = 960005,
 		name = "비오는 날",
 		group_ii = 0,
@@ -708,8 +1540,8 @@ pg.activity_ins_chat_group = {
 			521,
 			522
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[18] = {
 		ship_group = 960005,
 		name = "기상",
 		group_ii = 0,
@@ -738,8 +1570,8 @@ pg.activity_ins_chat_group = {
 			540,
 			541
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[19] = {
 		ship_group = 109,
 		name = "집무실의 보물?",
 		group_ii = 0,
@@ -816,8 +1648,8 @@ pg.activity_ins_chat_group = {
 			594,
 			595
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[20] = {
 		ship_group = 200,
 		name = "지휘관 서프라이즈",
 		group_ii = 0,
@@ -901,8 +1733,8 @@ pg.activity_ins_chat_group = {
 			655,
 			656
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[21] = {
 		ship_group = 101,
 		name = "상영회를 위해",
 		group_ii = 0,
@@ -984,8 +1816,8 @@ pg.activity_ins_chat_group = {
 			714,
 			715
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[22] = {
 		ship_group = 102,
 		name = "규율은 중요해",
 		group_ii = 0,
@@ -1057,8 +1889,8 @@ pg.activity_ins_chat_group = {
 			763,
 			764
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[23] = {
 		ship_group = 103,
 		name = "식사 모임",
 		group_ii = 0,
@@ -1137,8 +1969,8 @@ pg.activity_ins_chat_group = {
 			819,
 			820
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[24] = {
 		ship_group = 104,
 		name = "특별한 배려",
 		group_ii = 0,
@@ -1229,8 +2061,8 @@ pg.activity_ins_chat_group = {
 			887,
 			888
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[25] = {
 		ship_group = 105,
 		name = "훈련 결과",
 		group_ii = 0,
@@ -1303,8 +2135,8 @@ pg.activity_ins_chat_group = {
 			937,
 			938
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[26] = {
 		ship_group = 106,
 		name = "행운의 날",
 		group_ii = 0,
@@ -1387,8 +2219,8 @@ pg.activity_ins_chat_group = {
 			997,
 			998
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[27] = {
 		ship_group = 107,
 		name = "사쿠라 엠파이어의 실력",
 		group_ii = 0,
@@ -1474,8 +2306,8 @@ pg.activity_ins_chat_group = {
 			1060,
 			1061
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[28] = {
 		ship_group = 108,
 		name = "특별한 다과회",
 		group_ii = 0,
@@ -1558,8 +2390,8 @@ pg.activity_ins_chat_group = {
 			1120,
 			1121
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[29] = {
 		ship_group = 20509,
 		name = "디저트 만들기 교실",
 		group_ii = 0,
@@ -1607,8 +2439,8 @@ pg.activity_ins_chat_group = {
 			1158,
 			1159
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[30] = {
 		ship_group = 20509,
 		name = "데이트 코스",
 		group_ii = 0,
@@ -1651,8 +2483,8 @@ pg.activity_ins_chat_group = {
 			1191,
 			1192
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[31] = {
 		ship_group = 20509,
 		name = "세탁 이야기",
 		group_ii = 0,
@@ -1694,8 +2526,8 @@ pg.activity_ins_chat_group = {
 			1223,
 			1224
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[32] = {
 		ship_group = 40503,
 		name = "콘서트",
 		group_ii = 0,
@@ -1736,8 +2568,8 @@ pg.activity_ins_chat_group = {
 			1254,
 			1255
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[33] = {
 		ship_group = 40503,
 		name = "이상한 사건",
 		group_ii = 0,
@@ -1781,8 +2613,8 @@ pg.activity_ins_chat_group = {
 			1289,
 			1290
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[34] = {
 		ship_group = 40503,
 		name = "체력 관리 팁",
 		group_ii = 0,
@@ -1821,8 +2653,8 @@ pg.activity_ins_chat_group = {
 			1318,
 			1319
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[35] = {
 		ship_group = 49906,
 		name = "이모티콘☆매직",
 		group_ii = 0,
@@ -1856,8 +2688,8 @@ pg.activity_ins_chat_group = {
 			1342,
 			1343
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[36] = {
 		ship_group = 49906,
 		name = "마법의 물방울",
 		group_ii = 0,
@@ -1900,8 +2732,8 @@ pg.activity_ins_chat_group = {
 			1375,
 			1376
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[37] = {
 		ship_group = 49906,
 		name = "마녀의 꿈",
 		group_ii = 0,
@@ -1937,8 +2769,8 @@ pg.activity_ins_chat_group = {
 			1401,
 			1402
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[38] = {
 		ship_group = 40404,
 		name = "늦잠",
 		group_ii = 0,
@@ -1972,8 +2804,8 @@ pg.activity_ins_chat_group = {
 			1425,
 			1426
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[39] = {
 		ship_group = 40404,
 		name = "약속 장소",
 		group_ii = 0,
@@ -2016,8 +2848,8 @@ pg.activity_ins_chat_group = {
 			1458,
 			1459
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[40] = {
 		ship_group = 40404,
 		name = "데이트 비법",
 		group_ii = 0,
@@ -2060,8 +2892,8 @@ pg.activity_ins_chat_group = {
 			1491,
 			1492
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[41] = {
 		ship_group = 40704,
 		name = "효율적인 커뮤니케이션",
 		group_ii = 0,
@@ -2109,8 +2941,8 @@ pg.activity_ins_chat_group = {
 			1529,
 			1530
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[42] = {
 		ship_group = 40704,
 		name = "심야의 감독자",
 		group_ii = 0,
@@ -2146,8 +2978,8 @@ pg.activity_ins_chat_group = {
 			1555,
 			1556
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[43] = {
 		ship_group = 40704,
 		name = "루메이와의 저녁 식사",
 		group_ii = 0,
@@ -2183,8 +3015,8 @@ pg.activity_ins_chat_group = {
 			1581,
 			1582
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[44] = {
 		ship_group = 40152,
 		name = "파쿠르 루트",
 		group_ii = 0,
@@ -2218,8 +3050,8 @@ pg.activity_ins_chat_group = {
 			1605,
 			1606
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[45] = {
 		ship_group = 40152,
 		name = "비 오는 날",
 		group_ii = 0,
@@ -2260,8 +3092,8 @@ pg.activity_ins_chat_group = {
 			1636,
 			1637
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[46] = {
 		ship_group = 40152,
 		name = "서류 정리",
 		group_ii = 0,
@@ -2306,8 +3138,8 @@ pg.activity_ins_chat_group = {
 			1671,
 			1672
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[47] = {
 		ship_group = 40211,
 		name = "디저트 가게",
 		group_ii = 0,
@@ -2344,8 +3176,8 @@ pg.activity_ins_chat_group = {
 			1698,
 			1699
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[48] = {
 		ship_group = 40211,
 		name = "립 컬러",
 		group_ii = 0,
@@ -2379,8 +3211,8 @@ pg.activity_ins_chat_group = {
 			1722,
 			1723
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[49] = {
 		ship_group = 40211,
 		name = "언젠가 꼭",
 		group_ii = 0,
@@ -2421,8 +3253,8 @@ pg.activity_ins_chat_group = {
 			1753,
 			1754
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[50] = {
 		ship_group = 40109,
 		name = "서류 정리",
 		group_ii = 0,
@@ -2466,8 +3298,8 @@ pg.activity_ins_chat_group = {
 			1787,
 			1788
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[51] = {
 		ship_group = 40109,
 		name = "그림책 이야기",
 		group_ii = 0,
@@ -2512,8 +3344,8 @@ pg.activity_ins_chat_group = {
 			1822,
 			1823
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[52] = {
 		ship_group = 40109,
 		name = "악몽",
 		group_ii = 0,
@@ -2565,8 +3397,8 @@ pg.activity_ins_chat_group = {
 			1864,
 			1865
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[53] = {
 		ship_group = 40111,
 		name = "신작",
 		group_ii = 0,
@@ -2614,8 +3446,8 @@ pg.activity_ins_chat_group = {
 			1902,
 			1903
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[54] = {
 		ship_group = 40111,
 		name = "요리 연습",
 		group_ii = 0,
@@ -2659,8 +3491,8 @@ pg.activity_ins_chat_group = {
 			1936,
 			1937
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[55] = {
 		ship_group = 40111,
 		name = "밖으로",
 		group_ii = 0,
@@ -2705,8 +3537,8 @@ pg.activity_ins_chat_group = {
 			1971,
 			1972
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[56] = {
 		ship_group = 50105,
 		name = "취향 조사",
 		group_ii = 0,
@@ -2746,8 +3578,8 @@ pg.activity_ins_chat_group = {
 			2001,
 			2002
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[57] = {
 		ship_group = 50105,
 		name = "주방은 전쟁터",
 		group_ii = 0,
@@ -2785,8 +3617,8 @@ pg.activity_ins_chat_group = {
 			2029,
 			2030
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[58] = {
 		ship_group = 50105,
 		name = "달콤한 부드러움?",
 		group_ii = 0,
@@ -2835,8 +3667,8 @@ pg.activity_ins_chat_group = {
 			2068,
 			2069
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[59] = {
 		ship_group = 50301,
 		name = "디테일이란",
 		group_ii = 0,
@@ -2876,8 +3708,8 @@ pg.activity_ins_chat_group = {
 			2098,
 			2099
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[60] = {
 		ship_group = 50301,
 		name = "밤 약속",
 		group_ii = 0,
@@ -2915,8 +3747,8 @@ pg.activity_ins_chat_group = {
 			2126,
 			2127
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[61] = {
 		ship_group = 50301,
 		name = "포멀 데이트",
 		group_ii = 0,
@@ -2956,8 +3788,8 @@ pg.activity_ins_chat_group = {
 			2156,
 			2157
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[62] = {
 		ship_group = 50210,
 		name = "과도한 주목",
 		group_ii = 0,
@@ -2994,8 +3826,8 @@ pg.activity_ins_chat_group = {
 			2183,
 			2184
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[63] = {
 		ship_group = 50210,
 		name = "이벤트 초대",
 		group_ii = 0,
@@ -3035,8 +3867,8 @@ pg.activity_ins_chat_group = {
 			2213,
 			2214
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[64] = {
 		ship_group = 50210,
 		name = "전하고 싶은 마음",
 		group_ii = 0,
@@ -3084,8 +3916,8 @@ pg.activity_ins_chat_group = {
 			2251,
 			2252
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[65] = {
 		ship_group = 50109,
 		name = "메시지 취소 마스터",
 		group_ii = 0,
@@ -3123,8 +3955,8 @@ pg.activity_ins_chat_group = {
 			2279,
 			2280
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[66] = {
 		ship_group = 50109,
 		name = "장난 계획",
 		group_ii = 0,
@@ -3172,8 +4004,8 @@ pg.activity_ins_chat_group = {
 			2317,
 			2318
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[67] = {
 		ship_group = 50109,
 		name = "같이 떠올리는 영감",
 		group_ii = 0,
@@ -3217,8 +4049,8 @@ pg.activity_ins_chat_group = {
 			2351,
 			2352
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[68] = {
 		ship_group = 50108,
 		name = "청결 유지",
 		group_ii = 0,
@@ -3255,8 +4087,8 @@ pg.activity_ins_chat_group = {
 			2378,
 			2379
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[69] = {
 		ship_group = 50108,
 		name = "앞치마 고르기",
 		group_ii = 0,
@@ -3297,8 +4129,8 @@ pg.activity_ins_chat_group = {
 			2409,
 			2410
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[70] = {
 		ship_group = 50108,
 		name = "사전 준비",
 		group_ii = 0,
@@ -3339,8 +4171,8 @@ pg.activity_ins_chat_group = {
 			2440,
 			2441
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[71] = {
 		ship_group = 103,
 		name = "세뱃돈",
 		group_ii = 0,
@@ -3430,8 +4262,8 @@ pg.activity_ins_chat_group = {
 			2507,
 			2508
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[72] = {
 		ship_group = 50209,
 		name = "고민 상담",
 		group_ii = 0,
@@ -3471,8 +4303,8 @@ pg.activity_ins_chat_group = {
 			2537,
 			2538
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[73] = {
 		ship_group = 50209,
 		name = "주방으로",
 		group_ii = 0,
@@ -3515,8 +4347,8 @@ pg.activity_ins_chat_group = {
 			2570,
 			2571
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[74] = {
 		ship_group = 50209,
 		name = "작은 것에서 오는 행복",
 		group_ii = 0,
@@ -3550,8 +4382,8 @@ pg.activity_ins_chat_group = {
 			2594,
 			2595
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[75] = {
 		ship_group = 60508,
 		name = "또 다른 영감",
 		group_ii = 0,
@@ -3611,8 +4443,8 @@ pg.activity_ins_chat_group = {
 			2644,
 			2645
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[76] = {
 		ship_group = 60508,
 		name = "사진 촬영",
 		group_ii = 0,
@@ -3651,8 +4483,8 @@ pg.activity_ins_chat_group = {
 			2673,
 			2674
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[77] = {
 		ship_group = 60508,
 		name = "굶주린 예술가",
 		group_ii = 0,
@@ -3687,8 +4519,8 @@ pg.activity_ins_chat_group = {
 			2698,
 			2699
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[78] = {
 		ship_group = 60803,
 		name = "위험한 루트",
 		group_ii = 0,
@@ -3747,8 +4579,8 @@ pg.activity_ins_chat_group = {
 			2747,
 			2748
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[79] = {
 		ship_group = 60803,
 		name = "서류 정리",
 		group_ii = 0,
@@ -3794,8 +4626,8 @@ pg.activity_ins_chat_group = {
 			2783,
 			2784
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[80] = {
 		ship_group = 60803,
 		name = "심경",
 		group_ii = 0,
@@ -3842,8 +4674,8 @@ pg.activity_ins_chat_group = {
 			2820,
 			2821
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[81] = {
 		ship_group = 60111,
 		name = "편하게 대화하기",
 		group_ii = 0,
@@ -3886,8 +4718,8 @@ pg.activity_ins_chat_group = {
 			2853,
 			2854
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[82] = {
 		ship_group = 60111,
 		name = "독서하기 좋은 곳",
 		group_ii = 0,
@@ -3930,8 +4762,8 @@ pg.activity_ins_chat_group = {
 			2886,
 			2887
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[83] = {
 		ship_group = 60111,
 		name = "시의 영감",
 		group_ii = 0,
@@ -3991,8 +4823,8 @@ pg.activity_ins_chat_group = {
 			2936,
 			2937
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[84] = {
 		ship_group = 60203,
 		name = "특별한 보고서",
 		group_ii = 0,
@@ -4040,8 +4872,8 @@ pg.activity_ins_chat_group = {
 			2974,
 			2975
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[85] = {
 		ship_group = 60203,
 		name = "전략적 음료",
 		group_ii = 0,
@@ -4083,8 +4915,8 @@ pg.activity_ins_chat_group = {
 			3006,
 			3007
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[86] = {
 		ship_group = 60203,
 		name = "잘못된 주소",
 		group_ii = 0,
@@ -4134,8 +4966,8 @@ pg.activity_ins_chat_group = {
 			3046,
 			3047
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[87] = {
 		ship_group = 90107,
 		name = "첫 채팅",
 		group_ii = 0,
@@ -4181,8 +5013,8 @@ pg.activity_ins_chat_group = {
 			3082,
 			3083
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[88] = {
 		ship_group = 90107,
 		name = "야근",
 		group_ii = 0,
@@ -4223,8 +5055,8 @@ pg.activity_ins_chat_group = {
 			3113,
 			3114
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[89] = {
 		ship_group = 90107,
 		name = "뜨거운 밤",
 		group_ii = 0,
@@ -4267,8 +5099,8 @@ pg.activity_ins_chat_group = {
 			3146,
 			3147
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[90] = {
 		ship_group = 10713,
 		name = "탐험 장비",
 		group_ii = 0,
@@ -4299,8 +5131,8 @@ pg.activity_ins_chat_group = {
 			3167,
 			3168
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[91] = {
 		ship_group = 10713,
 		name = "서바이벌 레시피",
 		group_ii = 0,
@@ -4344,8 +5176,8 @@ pg.activity_ins_chat_group = {
 			3201,
 			3202
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[92] = {
 		ship_group = 10713,
 		name = "한밤중의 온천 탐험",
 		group_ii = 0,
@@ -4384,8 +5216,8 @@ pg.activity_ins_chat_group = {
 			3230,
 			3231
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[93] = {
 		ship_group = 10153,
 		name = "밀러 님의 종이비행기",
 		group_ii = 0,
@@ -4414,8 +5246,8 @@ pg.activity_ins_chat_group = {
 			3249,
 			3250
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[94] = {
 		ship_group = 10153,
 		name = "밀러 님의 노트",
 		group_ii = 0,
@@ -4468,8 +5300,8 @@ pg.activity_ins_chat_group = {
 			3292,
 			3293
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[95] = {
 		ship_group = 10153,
 		name = "밀러 님의 커피",
 		group_ii = 0,
@@ -4506,8 +5338,8 @@ pg.activity_ins_chat_group = {
 			3319,
 			3320
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[96] = {
 		ship_group = 10234,
 		name = "지휘관――!!!",
 		group_ii = 0,
@@ -4548,8 +5380,8 @@ pg.activity_ins_chat_group = {
 			3350,
 			3351
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[97] = {
 		ship_group = 10234,
 		name = "일정 조정",
 		group_ii = 0,
@@ -4585,8 +5417,8 @@ pg.activity_ins_chat_group = {
 			3376,
 			3377
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[98] = {
 		ship_group = 10234,
 		name = "모항 타블로이드의 1면 기사",
 		group_ii = 0,
@@ -4636,8 +5468,8 @@ pg.activity_ins_chat_group = {
 			3416,
 			3417
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[99] = {
 		ship_group = 70203,
 		name = "애완동물",
 		group_ii = 0,
@@ -4682,8 +5514,8 @@ pg.activity_ins_chat_group = {
 			3451,
 			3452
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[100] = {
 		ship_group = 70203,
 		name = "서로 관리하기",
 		group_ii = 0,
@@ -4733,8 +5565,10 @@ pg.activity_ins_chat_group = {
 			3491,
 			3492
 		}
-	},
-	{
+	}
+end)()
+(function ()
+	pg.base.activity_ins_chat_group[101] = {
 		ship_group = 70203,
 		name = "새로운 드레스",
 		group_ii = 0,
@@ -4788,8 +5622,8 @@ pg.activity_ins_chat_group = {
 			3535,
 			3536
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[102] = {
 		ship_group = 110201,
 		name = "식물을 통한 교류",
 		group_ii = 0,
@@ -4826,8 +5660,8 @@ pg.activity_ins_chat_group = {
 			3562,
 			3563
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[103] = {
 		ship_group = 110201,
 		name = "주방 대소동",
 		group_ii = 0,
@@ -4879,8 +5713,8 @@ pg.activity_ins_chat_group = {
 			3604,
 			3605
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[104] = {
 		ship_group = 110201,
 		name = "이름 붙이기",
 		group_ii = 0,
@@ -4926,8 +5760,8 @@ pg.activity_ins_chat_group = {
 			3640,
 			3641
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[105] = {
 		ship_group = 110101,
 		name = "푸르름이 어우러진 환경",
 		group_ii = 0,
@@ -4960,8 +5794,8 @@ pg.activity_ins_chat_group = {
 			3663,
 			3664
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[106] = {
 		ship_group = 110101,
 		name = "치유의 마법",
 		group_ii = 0,
@@ -4995,8 +5829,8 @@ pg.activity_ins_chat_group = {
 			3687,
 			3688
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[107] = {
 		ship_group = 110101,
 		name = "로맨틱",
 		group_ii = 0,
@@ -5039,8 +5873,8 @@ pg.activity_ins_chat_group = {
 			3720,
 			3721
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[108] = {
 		ship_group = 70509,
 		name = "식사 배달",
 		group_ii = 0,
@@ -5069,8 +5903,8 @@ pg.activity_ins_chat_group = {
 			3739,
 			3740
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[109] = {
 		ship_group = 70509,
 		name = "안 추워?",
 		group_ii = 0,
@@ -5100,8 +5934,8 @@ pg.activity_ins_chat_group = {
 			3759,
 			3760
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[110] = {
 		ship_group = 70509,
 		name = "따뜻한 밤",
 		group_ii = 0,
@@ -5140,8 +5974,8 @@ pg.activity_ins_chat_group = {
 			3788,
 			3789
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[111] = {
 		ship_group = 70208,
 		name = "졸음 방지 로봇",
 		group_ii = 0,
@@ -5181,8 +6015,8 @@ pg.activity_ins_chat_group = {
 			3818,
 			3819
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[112] = {
 		ship_group = 70208,
 		name = "폭발하는 발명품",
 		group_ii = 0,
@@ -5218,8 +6052,8 @@ pg.activity_ins_chat_group = {
 			3844,
 			3845
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[113] = {
 		ship_group = 70208,
 		name = "전용 발명품",
 		group_ii = 0,
@@ -5269,8 +6103,8 @@ pg.activity_ins_chat_group = {
 			3884,
 			3885
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[114] = {
 		ship_group = 20712,
 		name = "휴식의 예술",
 		group_ii = 0,
@@ -5318,8 +6152,8 @@ pg.activity_ins_chat_group = {
 			3922,
 			3923
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[115] = {
 		ship_group = 20712,
 		name = "점심시간",
 		group_ii = 0,
@@ -5365,8 +6199,8 @@ pg.activity_ins_chat_group = {
 			3958,
 			3959
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[116] = {
 		ship_group = 20712,
 		name = "파자마 근무 혁명",
 		group_ii = 0,
@@ -5412,8 +6246,8 @@ pg.activity_ins_chat_group = {
 			3994,
 			3995
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[117] = {
 		ship_group = 20516,
 		name = "천려일실",
 		group_ii = 0,
@@ -5447,8 +6281,8 @@ pg.activity_ins_chat_group = {
 			4018,
 			4019
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[118] = {
 		ship_group = 20516,
 		name = "네가 원한 벌",
 		group_ii = 0,
@@ -5490,8 +6324,8 @@ pg.activity_ins_chat_group = {
 			4050,
 			4051
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[119] = {
 		ship_group = 20516,
 		name = "둘만의 증표",
 		group_ii = 0,
@@ -5535,8 +6369,8 @@ pg.activity_ins_chat_group = {
 			4084,
 			4085
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[120] = {
 		ship_group = 20138,
 		name = "죄 많은 사람",
 		group_ii = 0,
@@ -5574,8 +6408,8 @@ pg.activity_ins_chat_group = {
 			4112,
 			4113
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[121] = {
 		ship_group = 20138,
 		name = "거리감",
 		group_ii = 0,
@@ -5616,8 +6450,8 @@ pg.activity_ins_chat_group = {
 			4143,
 			4144
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[122] = {
 		ship_group = 20138,
 		name = "지휘관 연구 진행 중",
 		group_ii = 0,
@@ -5661,8 +6495,8 @@ pg.activity_ins_chat_group = {
 			4177,
 			4178
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[123] = {
 		ship_group = 20235,
 		name = "나일강식 쌈 요리",
 		group_ii = 0,
@@ -5699,8 +6533,8 @@ pg.activity_ins_chat_group = {
 			4204,
 			4205
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[124] = {
 		ship_group = 20235,
 		name = "복을 부르는 스핑크스",
 		group_ii = 0,
@@ -5733,8 +6567,8 @@ pg.activity_ins_chat_group = {
 			4227,
 			4228
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[125] = {
 		ship_group = 20235,
 		name = "등잔 밑이 어둡다",
 		group_ii = 0,
@@ -5777,8 +6611,8 @@ pg.activity_ins_chat_group = {
 			4260,
 			4261
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[126] = {
 		ship_group = 20139,
 		name = "서프라이즈",
 		group_ii = 0,
@@ -5818,8 +6652,8 @@ pg.activity_ins_chat_group = {
 			4290,
 			4291
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[127] = {
 		ship_group = 20139,
 		name = "무지갯빛 마사지기",
 		group_ii = 0,
@@ -5858,8 +6692,8 @@ pg.activity_ins_chat_group = {
 			4319,
 			4320
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[128] = {
 		ship_group = 20139,
 		name = "각자의 역할",
 		group_ii = 0,
@@ -5910,8 +6744,8 @@ pg.activity_ins_chat_group = {
 			4360,
 			4361
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[129] = {
 		ship_group = 20236,
 		name = "내 손을 잡아줘",
 		group_ii = 0,
@@ -5951,8 +6785,8 @@ pg.activity_ins_chat_group = {
 			4390,
 			4391
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[130] = {
 		ship_group = 20236,
 		name = "계속 지켜볼게",
 		group_ii = 0,
@@ -5992,8 +6826,8 @@ pg.activity_ins_chat_group = {
 			4420,
 			4421
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[131] = {
 		ship_group = 20236,
 		name = "사냥꾼과 사냥감",
 		group_ii = 0,
@@ -6030,8 +6864,8 @@ pg.activity_ins_chat_group = {
 			4447,
 			4448
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[132] = {
 		ship_group = 40407,
 		name = "에너지 절약 팁",
 		group_ii = 0,
@@ -6066,8 +6900,8 @@ pg.activity_ins_chat_group = {
 			4472,
 			4473
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[133] = {
 		ship_group = 40407,
 		name = "누울 곳",
 		group_ii = 0,
@@ -6099,8 +6933,8 @@ pg.activity_ins_chat_group = {
 			4494,
 			4495
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[134] = {
 		ship_group = 40407,
 		name = "별이 내리는 밤",
 		group_ii = 0,
@@ -6143,8 +6977,8 @@ pg.activity_ins_chat_group = {
 			4527,
 			4528
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[135] = {
 		ship_group = 40814,
 		name = "스케줄 관리는 철저히",
 		group_ii = 0,
@@ -6177,8 +7011,8 @@ pg.activity_ins_chat_group = {
 			4550,
 			4551
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[136] = {
 		ship_group = 40814,
 		name = "쉴 때는 확실히",
 		group_ii = 0,
@@ -6220,8 +7054,8 @@ pg.activity_ins_chat_group = {
 			4582,
 			4583
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[137] = {
 		ship_group = 40814,
 		name = "위기를 기회로",
 		group_ii = 0,
@@ -6260,8 +7094,8 @@ pg.activity_ins_chat_group = {
 			4611,
 			4612
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[138] = {
 		ship_group = 40113,
 		name = "개발 고문",
 		group_ii = 0,
@@ -6302,8 +7136,8 @@ pg.activity_ins_chat_group = {
 			4642,
 			4643
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[139] = {
 		ship_group = 40113,
 		name = "조언 채점기",
 		group_ii = 0,
@@ -6348,8 +7182,8 @@ pg.activity_ins_chat_group = {
 			4677,
 			4678
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[140] = {
 		ship_group = 40113,
 		name = "연애 마스터",
 		group_ii = 0,
@@ -6396,8 +7230,8 @@ pg.activity_ins_chat_group = {
 			4714,
 			4715
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[141] = {
 		ship_group = 90401,
 		name = "과자 배달",
 		group_ii = 0,
@@ -6443,8 +7277,8 @@ pg.activity_ins_chat_group = {
 			4750,
 			4751
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[142] = {
 		ship_group = 90401,
 		name = "잔향",
 		group_ii = 0,
@@ -6494,8 +7328,8 @@ pg.activity_ins_chat_group = {
 			4790,
 			4791
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[143] = {
 		ship_group = 90401,
 		name = "곁잠",
 		group_ii = 0,
@@ -6552,8 +7386,8 @@ pg.activity_ins_chat_group = {
 			4837,
 			4838
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[144] = {
 		ship_group = 90105,
 		name = "수수께끼의 노트",
 		group_ii = 0,
@@ -6592,8 +7426,8 @@ pg.activity_ins_chat_group = {
 			4866,
 			4867
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[145] = {
 		ship_group = 90105,
 		name = "매직 캐비닛",
 		group_ii = 0,
@@ -6634,8 +7468,8 @@ pg.activity_ins_chat_group = {
 			4897,
 			4898
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[146] = {
 		ship_group = 90105,
 		name = "꽃 보내기",
 		group_ii = 0,
@@ -6675,8 +7509,8 @@ pg.activity_ins_chat_group = {
 			4927,
 			4928
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[147] = {
 		ship_group = 80401,
 		name = "공평한 거래",
 		group_ii = 0,
@@ -6705,8 +7539,8 @@ pg.activity_ins_chat_group = {
 			4946,
 			4947
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[148] = {
 		ship_group = 80401,
 		name = "커피 제외",
 		group_ii = 0,
@@ -6746,8 +7580,8 @@ pg.activity_ins_chat_group = {
 			4976,
 			4977
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[149] = {
 		ship_group = 80401,
 		name = "지휘관의 맛",
 		group_ii = 0,
@@ -6782,8 +7616,8 @@ pg.activity_ins_chat_group = {
 			5001,
 			5002
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[150] = {
 		ship_group = 80601,
 		name = "온라인 성무",
 		group_ii = 0,
@@ -6826,8 +7660,8 @@ pg.activity_ins_chat_group = {
 			5034,
 			5035
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[151] = {
 		ship_group = 80601,
 		name = "건강과 음악",
 		group_ii = 0,
@@ -6869,8 +7703,8 @@ pg.activity_ins_chat_group = {
 			5066,
 			5067
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[152] = {
 		ship_group = 80601,
 		name = "꿈 컨트롤",
 		group_ii = 0,
@@ -6908,8 +7742,8 @@ pg.activity_ins_chat_group = {
 			5094,
 			5095
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[153] = {
 		ship_group = 80105,
 		name = "이미지 체인지",
 		group_ii = 0,
@@ -6941,8 +7775,8 @@ pg.activity_ins_chat_group = {
 			5116,
 			5117
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[154] = {
 		ship_group = 80105,
 		name = "움직이는 캐비닛",
 		group_ii = 0,
@@ -6988,8 +7822,8 @@ pg.activity_ins_chat_group = {
 			5152,
 			5153
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[155] = {
 		ship_group = 80105,
 		name = "진실 or 도전",
 		group_ii = 0,
@@ -7032,8 +7866,8 @@ pg.activity_ins_chat_group = {
 			5185,
 			5186
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[156] = {
 		ship_group = 80303,
 		name = "특별한 페스티벌",
 		group_ii = 0,
@@ -7069,8 +7903,8 @@ pg.activity_ins_chat_group = {
 			5211,
 			5212
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[157] = {
 		ship_group = 80303,
 		name = "좋아하는 음식",
 		group_ii = 0,
@@ -7105,8 +7939,8 @@ pg.activity_ins_chat_group = {
 			5236,
 			5237
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[158] = {
 		ship_group = 80303,
 		name = "도전적인 여행",
 		group_ii = 0,
@@ -7144,8 +7978,8 @@ pg.activity_ins_chat_group = {
 			5264,
 			5265
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[159] = {
 		ship_group = 80204,
 		name = "악을 정화하리라",
 		group_ii = 0,
@@ -7182,8 +8016,8 @@ pg.activity_ins_chat_group = {
 			5291,
 			5292
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[160] = {
 		ship_group = 80204,
 		name = "DJ 플레이어와 앨범",
 		group_ii = 0,
@@ -7215,8 +8049,8 @@ pg.activity_ins_chat_group = {
 			5313,
 			5314
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[161] = {
 		ship_group = 80204,
 		name = "일일 지배권",
 		group_ii = 0,
@@ -7252,8 +8086,8 @@ pg.activity_ins_chat_group = {
 			5339,
 			5340
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[162] = {
 		ship_group = 10709,
 		name = "같이 마시자",
 		group_ii = 0,
@@ -7285,8 +8119,8 @@ pg.activity_ins_chat_group = {
 			5361,
 			5362
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[163] = {
 		ship_group = 10709,
 		name = "오리지널 햄버거",
 		group_ii = 0,
@@ -7321,8 +8155,8 @@ pg.activity_ins_chat_group = {
 			5386,
 			5387
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[164] = {
 		ship_group = 10709,
 		name = "호흡이 맞는 데이트",
 		group_ii = 0,
@@ -7355,8 +8189,8 @@ pg.activity_ins_chat_group = {
 			5409,
 			5410
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[165] = {
 		ship_group = 30716,
 		name = "비 오는 날의 향도",
 		group_ii = 0,
@@ -7391,8 +8225,8 @@ pg.activity_ins_chat_group = {
 			5434,
 			5435
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[166] = {
 		ship_group = 30716,
 		name = "거울 속 풍경",
 		group_ii = 0,
@@ -7430,8 +8264,8 @@ pg.activity_ins_chat_group = {
 			5462,
 			5463
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[167] = {
 		ship_group = 30716,
 		name = "함께, 그리고 영원히",
 		group_ii = 0,
@@ -7463,8 +8297,8 @@ pg.activity_ins_chat_group = {
 			5484,
 			5485
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[168] = {
 		ship_group = 31702,
 		name = "아쿠아리움",
 		group_ii = 0,
@@ -7499,8 +8333,8 @@ pg.activity_ins_chat_group = {
 			5509,
 			5510
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[169] = {
 		ship_group = 31702,
 		name = "긴급 소환",
 		group_ii = 0,
@@ -7539,8 +8373,8 @@ pg.activity_ins_chat_group = {
 			5538,
 			5539
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[170] = {
 		ship_group = 31702,
 		name = "심해의 춤",
 		group_ii = 0,
@@ -7570,8 +8404,8 @@ pg.activity_ins_chat_group = {
 			5558,
 			5559
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[171] = {
 		ship_group = 30516,
 		name = "술에 취해 노래하리라",
 		group_ii = 0,
@@ -7611,8 +8445,8 @@ pg.activity_ins_chat_group = {
 			5588,
 			5589
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[172] = {
 		ship_group = 30516,
 		name = "하이쿠에 담은 진심",
 		group_ii = 0,
@@ -7650,8 +8484,8 @@ pg.activity_ins_chat_group = {
 			5616,
 			5617
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[173] = {
 		ship_group = 30516,
 		name = "딱 한 잔만",
 		group_ii = 0,
@@ -7688,8 +8522,8 @@ pg.activity_ins_chat_group = {
 			5643,
 			5644
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[174] = {
 		ship_group = 30320,
 		name = "로즈마리의 향기",
 		group_ii = 0,
@@ -7723,8 +8557,8 @@ pg.activity_ins_chat_group = {
 			5667,
 			5668
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[175] = {
 		ship_group = 30320,
 		name = "온천 테라피 초청",
 		group_ii = 0,
@@ -7758,8 +8592,8 @@ pg.activity_ins_chat_group = {
 			5691,
 			5692
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[176] = {
 		ship_group = 30320,
 		name = "못 다한 이별",
 		group_ii = 0,
@@ -7796,8 +8630,8 @@ pg.activity_ins_chat_group = {
 			5718,
 			5719
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[177] = {
 		ship_group = 30227,
 		name = "조금 특이한 재료",
 		group_ii = 0,
@@ -7830,8 +8664,8 @@ pg.activity_ins_chat_group = {
 			5741,
 			5742
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[178] = {
 		ship_group = 30227,
 		name = "전골 업그레이드",
 		group_ii = 0,
@@ -7869,8 +8703,8 @@ pg.activity_ins_chat_group = {
 			5769,
 			5770
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[179] = {
 		ship_group = 30227,
 		name = "사랑이라는 이름의 전골",
 		group_ii = 0,
@@ -7904,8 +8738,8 @@ pg.activity_ins_chat_group = {
 			5793,
 			5794
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[180] = {
 		ship_group = 30192,
 		name = "말하는 분재",
 		group_ii = 0,
@@ -7940,8 +8774,8 @@ pg.activity_ins_chat_group = {
 			5818,
 			5819
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[181] = {
 		ship_group = 30192,
 		name = "그냥 도구인줄 알았지?",
 		group_ii = 0,
@@ -7973,8 +8807,8 @@ pg.activity_ins_chat_group = {
 			5840,
 			5841
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[182] = {
 		ship_group = 30192,
 		name = "머리 조심",
 		group_ii = 0,
@@ -8003,8 +8837,8 @@ pg.activity_ins_chat_group = {
 			5859,
 			5860
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[183] = {
 		ship_group = 30225,
 		name = "수선 도와주기",
 		group_ii = 0,
@@ -8033,8 +8867,8 @@ pg.activity_ins_chat_group = {
 			5878,
 			5879
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[184] = {
 		ship_group = 30225,
 		name = "무사의 감",
 		group_ii = 0,
@@ -8064,8 +8898,8 @@ pg.activity_ins_chat_group = {
 			5898,
 			5899
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[185] = {
 		ship_group = 30225,
 		name = "서로 하는 일",
 		group_ii = 0,
@@ -8099,8 +8933,8 @@ pg.activity_ins_chat_group = {
 			5922,
 			5923
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[186] = {
 		ship_group = 960012,
 		name = "처형할 거야",
 		group_ii = 0,
@@ -8136,8 +8970,8 @@ pg.activity_ins_chat_group = {
 			5948,
 			5949
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[187] = {
 		ship_group = 960012,
 		name = "지금 가는 중이야",
 		group_ii = 0,
@@ -8174,8 +9008,8 @@ pg.activity_ins_chat_group = {
 			5975,
 			5976
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[188] = {
 		ship_group = 960012,
 		name = "선물은 한꺼번에",
 		group_ii = 0,
@@ -8213,8 +9047,8 @@ pg.activity_ins_chat_group = {
 			6003,
 			6004
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[189] = {
 		ship_group = 960013,
 		name = "다정한 마음",
 		group_ii = 0,
@@ -8253,8 +9087,8 @@ pg.activity_ins_chat_group = {
 			6032,
 			6033
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[190] = {
 		ship_group = 960013,
 		name = "축복의 노래",
 		group_ii = 0,
@@ -8290,8 +9124,8 @@ pg.activity_ins_chat_group = {
 			6058,
 			6059
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[191] = {
 		ship_group = 960013,
 		name = "영원한 사랑",
 		group_ii = 0,
@@ -8324,8 +9158,8 @@ pg.activity_ins_chat_group = {
 			6081,
 			6082
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[192] = {
 		ship_group = 960014,
 		name = "지휘관, 어서 지시를!",
 		group_ii = 0,
@@ -8363,8 +9197,8 @@ pg.activity_ins_chat_group = {
 			6109,
 			6110
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[193] = {
 		ship_group = 960014,
 		name = "칭찬 대결",
 		group_ii = 0,
@@ -8404,8 +9238,8 @@ pg.activity_ins_chat_group = {
 			6139,
 			6140
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[194] = {
 		ship_group = 960014,
 		name = "반죽처럼?",
 		group_ii = 0,
@@ -8441,8 +9275,8 @@ pg.activity_ins_chat_group = {
 			6165,
 			6166
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[195] = {
 		ship_group = 960015,
 		name = "낚시하러 출발!",
 		group_ii = 0,
@@ -8478,8 +9312,8 @@ pg.activity_ins_chat_group = {
 			6191,
 			6192
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[196] = {
 		ship_group = 960015,
 		name = "보물 찾으러 출발!",
 		group_ii = 0,
@@ -8513,8 +9347,8 @@ pg.activity_ins_chat_group = {
 			6215,
 			6216
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[197] = {
 		ship_group = 960015,
 		name = "야근은 이제 그만!",
 		group_ii = 0,
@@ -8550,8 +9384,8 @@ pg.activity_ins_chat_group = {
 			6241,
 			6242
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[198] = {
 		ship_group = 960016,
 		name = "창고의 괴담",
 		group_ii = 0,
@@ -8592,8 +9426,8 @@ pg.activity_ins_chat_group = {
 			6272,
 			6273
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[199] = {
 		ship_group = 960016,
 		name = "서바이벌 게임",
 		group_ii = 0,
@@ -8633,8 +9467,8 @@ pg.activity_ins_chat_group = {
 			6302,
 			6303
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[200] = {
 		ship_group = 960016,
 		name = "수상한 이웃",
 		group_ii = 0,
@@ -8673,8 +9507,10 @@ pg.activity_ins_chat_group = {
 			6331,
 			6332
 		}
-	},
-	{
+	}
+end)()
+(function ()
+	pg.base.activity_ins_chat_group[201] = {
 		ship_group = 10324,
 		name = "고민 상담",
 		group_ii = 0,
@@ -8718,8 +9554,8 @@ pg.activity_ins_chat_group = {
 			6365,
 			6366
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[202] = {
 		ship_group = 10324,
 		name = "설문조사",
 		group_ii = 0,
@@ -8762,8 +9598,8 @@ pg.activity_ins_chat_group = {
 			6398,
 			6399
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[203] = {
 		ship_group = 10324,
 		name = "특별한 운동 계획",
 		group_ii = 0,
@@ -8800,8 +9636,8 @@ pg.activity_ins_chat_group = {
 			6425,
 			6426
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[204] = {
 		ship_group = 80503,
 		name = "채팅방이 만원",
 		group_ii = 0,
@@ -8839,8 +9675,8 @@ pg.activity_ins_chat_group = {
 			6453,
 			6454
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[205] = {
 		ship_group = 80503,
 		name = "히트 업",
 		group_ii = 0,
@@ -8884,8 +9720,8 @@ pg.activity_ins_chat_group = {
 			6487,
 			6488
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[206] = {
 		ship_group = 80503,
 		name = "지휘관의 극초단파",
 		group_ii = 0,
@@ -8923,8 +9759,8 @@ pg.activity_ins_chat_group = {
 			6515,
 			6516
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[207] = {
 		ship_group = 10233,
 		name = "놀랄 만큼 낮은 평가율",
 		group_ii = 0,
@@ -8960,8 +9796,8 @@ pg.activity_ins_chat_group = {
 			6541,
 			6542
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[208] = {
 		ship_group = 10233,
 		name = "스페셜 서비스",
 		group_ii = 0,
@@ -9003,8 +9839,8 @@ pg.activity_ins_chat_group = {
 			6573,
 			6574
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[209] = {
 		ship_group = 10233,
 		name = "덜렁이 서비스",
 		group_ii = 0,
@@ -9042,8 +9878,8 @@ pg.activity_ins_chat_group = {
 			6601,
 			6602
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[210] = {
 		ship_group = 110,
 		name = "식물원 초대",
 		group_ii = 0,
@@ -9111,8 +9947,8 @@ pg.activity_ins_chat_group = {
 			6646,
 			6647
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[211] = {
 		ship_group = 10702,
 		name = "밥은 잘 챙겨먹기",
 		group_ii = 0,
@@ -9147,8 +9983,8 @@ pg.activity_ins_chat_group = {
 			6671,
 			6672
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[212] = {
 		ship_group = 10702,
 		name = "새로운 장르",
 		group_ii = 0,
@@ -9183,8 +10019,8 @@ pg.activity_ins_chat_group = {
 			6696,
 			6697
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[213] = {
 		ship_group = 10702,
 		name = "힘이 되어주는 존재",
 		group_ii = 0,
@@ -9224,8 +10060,8 @@ pg.activity_ins_chat_group = {
 			6726,
 			6727
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[214] = {
 		ship_group = 10702,
 		name = "풍선을 쫓아서",
 		group_ii = 10716,
@@ -9261,8 +10097,8 @@ pg.activity_ins_chat_group = {
 			6752,
 			6753
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[215] = {
 		ship_group = 10702,
 		name = "블루 고스트",
 		group_ii = 10716,
@@ -9297,8 +10133,8 @@ pg.activity_ins_chat_group = {
 			6777,
 			6778
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[216] = {
 		ship_group = 10702,
 		name = "새로운 곡",
 		group_ii = 10716,
@@ -9335,8 +10171,8 @@ pg.activity_ins_chat_group = {
 			6804,
 			6805
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[217] = {
 		ship_group = 10110,
 		name = "폭발하겠어!",
 		group_ii = 0,
@@ -9373,8 +10209,8 @@ pg.activity_ins_chat_group = {
 			6831,
 			6832
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[218] = {
 		ship_group = 10110,
 		name = "부딪히겠어!",
 		group_ii = 0,
@@ -9413,8 +10249,8 @@ pg.activity_ins_chat_group = {
 			6860,
 			6861
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[219] = {
 		ship_group = 10110,
 		name = "추락하겠어……!",
 		group_ii = 0,
@@ -9447,8 +10283,8 @@ pg.activity_ins_chat_group = {
 			6883,
 			6884
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[220] = {
 		ship_group = 10155,
 		name = "풀 테스트",
 		group_ii = 0,
@@ -9488,8 +10324,8 @@ pg.activity_ins_chat_group = {
 			6913,
 			6914
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[221] = {
 		ship_group = 10155,
 		name = "버그 테스트",
 		group_ii = 0,
@@ -9525,8 +10361,8 @@ pg.activity_ins_chat_group = {
 			6939,
 			6940
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[222] = {
 		ship_group = 10155,
 		name = "금단 증상",
 		group_ii = 0,
@@ -9560,8 +10396,8 @@ pg.activity_ins_chat_group = {
 			6963,
 			6964
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[223] = {
 		ship_group = 10235,
 		name = "행복 가이드",
 		group_ii = 0,
@@ -9599,8 +10435,8 @@ pg.activity_ins_chat_group = {
 			6991,
 			6992
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[224] = {
 		ship_group = 10235,
 		name = "페스티벌의 비밀",
 		group_ii = 0,
@@ -9641,8 +10477,8 @@ pg.activity_ins_chat_group = {
 			7022,
 			7023
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[225] = {
 		ship_group = 10235,
 		name = "모든 날이 기념일",
 		group_ii = 0,
@@ -9679,8 +10515,8 @@ pg.activity_ins_chat_group = {
 			7049,
 			7050
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[226] = {
 		ship_group = 10725,
 		name = "영양 배달",
 		group_ii = 0,
@@ -9712,8 +10548,8 @@ pg.activity_ins_chat_group = {
 			7071,
 			7072
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[227] = {
 		ship_group = 10725,
 		name = "완전 영양 계획",
 		group_ii = 0,
@@ -9751,8 +10587,8 @@ pg.activity_ins_chat_group = {
 			7099,
 			7100
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[228] = {
 		ship_group = 10725,
 		name = "숙면용 드링크",
 		group_ii = 0,
@@ -9788,8 +10624,8 @@ pg.activity_ins_chat_group = {
 			7125,
 			7126
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[229] = {
 		ship_group = 69903,
 		name = "과제 선택",
 		group_ii = 0,
@@ -9825,8 +10661,8 @@ pg.activity_ins_chat_group = {
 			7151,
 			7152
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[230] = {
 		ship_group = 69903,
 		name = "고양이에 대한 자투리 지식",
 		group_ii = 0,
@@ -9857,8 +10693,8 @@ pg.activity_ins_chat_group = {
 			7172,
 			7173
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[231] = {
 		ship_group = 69903,
 		name = "쿠니베르티의 미니 강의",
 		group_ii = 0,
@@ -9898,8 +10734,8 @@ pg.activity_ins_chat_group = {
 			7202,
 			7203
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[232] = {
 		ship_group = 49910,
 		name = "마녀의 업무",
 		group_ii = 0,
@@ -9934,8 +10770,8 @@ pg.activity_ins_chat_group = {
 			7227,
 			7228
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[233] = {
 		ship_group = 49910,
 		name = "밤하늘에서의 추락",
 		group_ii = 0,
@@ -9978,8 +10814,8 @@ pg.activity_ins_chat_group = {
 			7260,
 			7261
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[234] = {
 		ship_group = 49910,
 		name = "별빛의 연회",
 		group_ii = 0,
@@ -10014,8 +10850,8 @@ pg.activity_ins_chat_group = {
 			7285,
 			7286
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[235] = {
 		ship_group = 119901,
 		name = "대자연의 소리",
 		group_ii = 0,
@@ -10054,8 +10890,8 @@ pg.activity_ins_chat_group = {
 			7314,
 			7315
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[236] = {
 		ship_group = 119901,
 		name = "말을 안 듣는 아이는",
 		group_ii = 0,
@@ -10089,8 +10925,8 @@ pg.activity_ins_chat_group = {
 			7338,
 			7339
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[237] = {
 		ship_group = 119901,
 		name = "숲속 힐링 여행",
 		group_ii = 0,
@@ -10130,8 +10966,8 @@ pg.activity_ins_chat_group = {
 			7368,
 			7369
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[238] = {
 		ship_group = 79903,
 		name = "인기의 비결",
 		group_ii = 0,
@@ -10162,8 +10998,8 @@ pg.activity_ins_chat_group = {
 			7389,
 			7390
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[239] = {
 		ship_group = 79903,
 		name = "인기 설문조사",
 		group_ii = 0,
@@ -10201,8 +11037,8 @@ pg.activity_ins_chat_group = {
 			7417,
 			7418
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[240] = {
 		ship_group = 79903,
 		name = "특별한 간식",
 		group_ii = 0,
@@ -10237,8 +11073,8 @@ pg.activity_ins_chat_group = {
 			7442,
 			7443
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[241] = {
 		ship_group = 19906,
 		name = "휴가 신청",
 		group_ii = 0,
@@ -10276,8 +11112,8 @@ pg.activity_ins_chat_group = {
 			7470,
 			7471
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[242] = {
 		ship_group = 19906,
 		name = "가장 무서운 것",
 		group_ii = 0,
@@ -10311,8 +11147,8 @@ pg.activity_ins_chat_group = {
 			7494,
 			7495
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[243] = {
 		ship_group = 19906,
 		name = "데이트 시간",
 		group_ii = 0,
@@ -10351,8 +11187,8 @@ pg.activity_ins_chat_group = {
 			7523,
 			7524
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[244] = {
 		ship_group = 60501,
 		name = "사르데냐의 오후",
 		group_ii = 0,
@@ -10386,8 +11222,8 @@ pg.activity_ins_chat_group = {
 			7547,
 			7548
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[245] = {
 		ship_group = 60501,
 		name = "맛있는 시간",
 		group_ii = 0,
@@ -10421,8 +11257,8 @@ pg.activity_ins_chat_group = {
 			7571,
 			7572
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[246] = {
 		ship_group = 60501,
 		name = "휴식의 예술",
 		group_ii = 0,
@@ -10457,8 +11293,8 @@ pg.activity_ins_chat_group = {
 			7596,
 			7597
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[247] = {
 		ship_group = 30194,
 		name = "초단위로 바뀌는 트렌드",
 		group_ii = 0,
@@ -10492,8 +11328,8 @@ pg.activity_ins_chat_group = {
 			7620,
 			7621
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[248] = {
 		ship_group = 30194,
 		name = "오늘의 럭키 컬러",
 		group_ii = 0,
@@ -10526,8 +11362,8 @@ pg.activity_ins_chat_group = {
 			7643,
 			7644
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[249] = {
 		ship_group = 30194,
 		name = "싱크로 코디",
 		group_ii = 0,
@@ -10559,8 +11395,8 @@ pg.activity_ins_chat_group = {
 			7665,
 			7666
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[250] = {
 		ship_group = 60509,
 		name = "미소의 비밀",
 		group_ii = 0,
@@ -10593,8 +11429,8 @@ pg.activity_ins_chat_group = {
 			7688,
 			7689
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[251] = {
 		ship_group = 60509,
 		name = "수수께끼의 조각상",
 		group_ii = 0,
@@ -10632,8 +11468,8 @@ pg.activity_ins_chat_group = {
 			7716,
 			7717
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[252] = {
 		ship_group = 60509,
 		name = "추가 연습",
 		group_ii = 0,
@@ -10667,8 +11503,8 @@ pg.activity_ins_chat_group = {
 			7740,
 			7741
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[253] = {
 		ship_group = 60112,
 		name = "뭐든지 진찰",
 		group_ii = 0,
@@ -10702,8 +11538,8 @@ pg.activity_ins_chat_group = {
 			7764,
 			7765
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[254] = {
 		ship_group = 60112,
 		name = "반창고 수집가",
 		group_ii = 0,
@@ -10735,8 +11571,8 @@ pg.activity_ins_chat_group = {
 			7786,
 			7787
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[255] = {
 		ship_group = 60112,
 		name = "온라인 진찰",
 		group_ii = 0,
@@ -10774,8 +11610,8 @@ pg.activity_ins_chat_group = {
 			7814,
 			7815
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[256] = {
 		ship_group = 60204,
 		name = "화려한 훈련",
 		group_ii = 0,
@@ -10811,8 +11647,8 @@ pg.activity_ins_chat_group = {
 			7840,
 			7841
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[257] = {
 		ship_group = 60204,
 		name = "말실수",
 		group_ii = 0,
@@ -10848,8 +11684,8 @@ pg.activity_ins_chat_group = {
 			7866,
 			7867
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[258] = {
 		ship_group = 60204,
 		name = "이심전심 챌린지",
 		group_ii = 0,
@@ -10883,8 +11719,8 @@ pg.activity_ins_chat_group = {
 			7890,
 			7891
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[259] = {
 		ship_group = 51901,
 		name = "후방 지원",
 		group_ii = 0,
@@ -10917,8 +11753,8 @@ pg.activity_ins_chat_group = {
 			7913,
 			7914
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[260] = {
 		ship_group = 51901,
 		name = "귀중한 정보",
 		group_ii = 0,
@@ -10954,8 +11790,8 @@ pg.activity_ins_chat_group = {
 			7939,
 			7940
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[261] = {
 		ship_group = 51901,
 		name = "상냥한 밤",
 		group_ii = 0,
@@ -10987,8 +11823,8 @@ pg.activity_ins_chat_group = {
 			7961,
 			7962
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[262] = {
 		ship_group = 103,
 		name = "신춘 파티!",
 		group_ii = 0,
@@ -11064,8 +11900,8 @@ pg.activity_ins_chat_group = {
 			8014,
 			8015
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[263] = {
 		ship_group = 50302,
 		name = "옥 다듬기",
 		group_ii = 0,
@@ -11099,8 +11935,8 @@ pg.activity_ins_chat_group = {
 			8038,
 			8039
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[264] = {
 		ship_group = 50302,
 		name = "옥의 인연",
 		group_ii = 0,
@@ -11135,8 +11971,8 @@ pg.activity_ins_chat_group = {
 			8063,
 			8064
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[265] = {
 		ship_group = 50302,
 		name = "옥 구하기",
 		group_ii = 0,
@@ -11170,8 +12006,8 @@ pg.activity_ins_chat_group = {
 			8087,
 			8088
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[266] = {
 		ship_group = 50212,
 		name = "숨은 조향",
 		group_ii = 0,
@@ -11206,8 +12042,8 @@ pg.activity_ins_chat_group = {
 			8112,
 			8113
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[267] = {
 		ship_group = 50212,
 		name = "유혹적인 향기",
 		group_ii = 0,
@@ -11239,8 +12075,8 @@ pg.activity_ins_chat_group = {
 			8134,
 			8135
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[268] = {
 		ship_group = 50212,
 		name = "최고의 향기",
 		group_ii = 0,
@@ -11273,8 +12109,8 @@ pg.activity_ins_chat_group = {
 			8157,
 			8158
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[269] = {
 		ship_group = 20607,
 		name = "호칭에 대해서",
 		group_ii = 0,
@@ -11312,8 +12148,8 @@ pg.activity_ins_chat_group = {
 			8185,
 			8186
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[270] = {
 		ship_group = 20607,
 		name = "또 다른 삼림욕",
 		group_ii = 0,
@@ -11345,8 +12181,8 @@ pg.activity_ins_chat_group = {
 			8207,
 			8208
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[271] = {
 		ship_group = 20607,
 		name = "여름날의 산들바람",
 		group_ii = 0,
@@ -11386,8 +12222,8 @@ pg.activity_ins_chat_group = {
 			8237,
 			8238
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[272] = {
 		ship_group = 70303,
 		name = "동지여, 함께 냉수 수영을 하자!",
 		group_ii = 0,
@@ -11422,8 +12258,8 @@ pg.activity_ins_chat_group = {
 			8262,
 			8263
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[273] = {
 		ship_group = 70303,
 		name = "벗이여, 함께 야근하자!",
 		group_ii = 0,
@@ -11454,8 +12290,8 @@ pg.activity_ins_chat_group = {
 			8283,
 			8284
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[274] = {
 		ship_group = 70303,
 		name = "친우여, 함께 춤추자!",
 		group_ii = 0,
@@ -11489,8 +12325,8 @@ pg.activity_ins_chat_group = {
 			8307,
 			8308
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[275] = {
 		ship_group = 70113,
 		name = "야근 금지!",
 		group_ii = 0,
@@ -11521,8 +12357,8 @@ pg.activity_ins_chat_group = {
 			8328,
 			8329
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[276] = {
 		ship_group = 70113,
 		name = "당장 관심 줘",
 		group_ii = 0,
@@ -11561,8 +12397,8 @@ pg.activity_ins_chat_group = {
 			8357,
 			8358
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[277] = {
 		ship_group = 70113,
 		name = "존재하지 않는 솔직함",
 		group_ii = 0,
@@ -11599,8 +12435,8 @@ pg.activity_ins_chat_group = {
 			8384,
 			8385
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[278] = {
 		ship_group = 70209,
 		name = "슬럼프",
 		group_ii = 0,
@@ -11636,8 +12472,8 @@ pg.activity_ins_chat_group = {
 			8410,
 			8411
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[279] = {
 		ship_group = 70209,
 		name = "촬영 연습",
 		group_ii = 0,
@@ -11670,8 +12506,8 @@ pg.activity_ins_chat_group = {
 			8433,
 			8434
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[280] = {
 		ship_group = 70209,
 		name = "휴식도 예술의 일부",
 		group_ii = 0,
@@ -11704,8 +12540,8 @@ pg.activity_ins_chat_group = {
 			8456,
 			8457
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[281] = {
 		ship_group = 70210,
 		name = "커피 한 잔으로 인한 오버로드",
 		group_ii = 0,
@@ -11739,8 +12575,8 @@ pg.activity_ins_chat_group = {
 			8480,
 			8481
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[282] = {
 		ship_group = 70210,
 		name = "데이트 스케줄 로딩 중",
 		group_ii = 0,
@@ -11779,8 +12615,8 @@ pg.activity_ins_chat_group = {
 			8509,
 			8510
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[283] = {
 		ship_group = 70210,
 		name = "격려 프로그램 실행 중",
 		group_ii = 0,
@@ -11812,8 +12648,8 @@ pg.activity_ins_chat_group = {
 			8531,
 			8532
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[284] = {
 		ship_group = 30116,
 		name = "행운의 고민",
 		group_ii = 0,
@@ -11848,8 +12684,8 @@ pg.activity_ins_chat_group = {
 			8556,
 			8557
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[285] = {
 		ship_group = 30116,
 		name = "나 홀로 온천 여행",
 		group_ii = 0,
@@ -11886,8 +12722,8 @@ pg.activity_ins_chat_group = {
 			8583,
 			8584
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[286] = {
 		ship_group = 30116,
 		name = "다이아몬드를 찾아서",
 		group_ii = 0,
@@ -11922,8 +12758,8 @@ pg.activity_ins_chat_group = {
 			8608,
 			8609
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[287] = {
 		ship_group = 107,
 		name = "한밤중의 이야기",
 		group_ii = 0,
@@ -12003,8 +12839,8 @@ pg.activity_ins_chat_group = {
 			8665,
 			8666
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[288] = {
 		ship_group = 30717,
 		name = "양자택일",
 		group_ii = 0,
@@ -12035,8 +12871,8 @@ pg.activity_ins_chat_group = {
 			8686,
 			8687
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[289] = {
 		ship_group = 30717,
 		name = "고급 레스토랑",
 		group_ii = 0,
@@ -12070,8 +12906,8 @@ pg.activity_ins_chat_group = {
 			8710,
 			8711
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[290] = {
 		ship_group = 30717,
 		name = "새집 고르기",
 		group_ii = 0,
@@ -12111,8 +12947,8 @@ pg.activity_ins_chat_group = {
 			8740,
 			8741
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[291] = {
 		ship_group = 30228,
 		name = "사자의 증표",
 		group_ii = 0,
@@ -12148,8 +12984,8 @@ pg.activity_ins_chat_group = {
 			8766,
 			8767
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[292] = {
 		ship_group = 30228,
 		name = "일기 예보",
 		group_ii = 0,
@@ -12184,8 +13020,8 @@ pg.activity_ins_chat_group = {
 			8791,
 			8792
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[293] = {
 		ship_group = 30228,
 		name = "통하는 마음?",
 		group_ii = 0,
@@ -12219,8 +13055,8 @@ pg.activity_ins_chat_group = {
 			8815,
 			8816
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[294] = {
 		ship_group = 30229,
 		name = "꼬리 관리",
 		group_ii = 0,
@@ -12255,8 +13091,8 @@ pg.activity_ins_chat_group = {
 			8840,
 			8841
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[295] = {
 		ship_group = 30229,
 		name = "특별한 서프라이즈",
 		group_ii = 0,
@@ -12292,8 +13128,8 @@ pg.activity_ins_chat_group = {
 			8866,
 			8867
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[296] = {
 		ship_group = 30229,
 		name = "고민 중",
 		group_ii = 0,
@@ -12324,8 +13160,8 @@ pg.activity_ins_chat_group = {
 			8887,
 			8888
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[297] = {
 		ship_group = 201,
 		name = "애프터눈 티 서비스",
 		group_ii = 0,
@@ -12407,8 +13243,8 @@ pg.activity_ins_chat_group = {
 			8946,
 			8947
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[298] = {
 		ship_group = 20313,
 		name = "설문 모드",
 		group_ii = 0,
@@ -12447,8 +13283,8 @@ pg.activity_ins_chat_group = {
 			8975,
 			8976
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[299] = {
 		ship_group = 20313,
 		name = "애정 전달 모드",
 		group_ii = 0,
@@ -12489,8 +13325,8 @@ pg.activity_ins_chat_group = {
 			9006,
 			9007
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[300] = {
 		ship_group = 20313,
 		name = "서약 추가 모드",
 		group_ii = 0,
@@ -12524,8 +13360,10 @@ pg.activity_ins_chat_group = {
 			9030,
 			9031
 		}
-	},
-	{
+	}
+end)()
+(function ()
+	pg.base.activity_ins_chat_group[301] = {
 		ship_group = 10601,
 		name = "추가 업무",
 		group_ii = 0,
@@ -12561,8 +13399,8 @@ pg.activity_ins_chat_group = {
 			9056,
 			9057
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[302] = {
 		ship_group = 10601,
 		name = "한 번 더!",
 		group_ii = 0,
@@ -12599,8 +13437,8 @@ pg.activity_ins_chat_group = {
 			9083,
 			9084
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[303] = {
 		ship_group = 10601,
 		name = "인기 시리즈",
 		group_ii = 0,
@@ -12635,8 +13473,8 @@ pg.activity_ins_chat_group = {
 			9108,
 			9109
 		}
-	},
-	{
+	}
+	pg.base.activity_ins_chat_group[304] = {
 		ship_group = 101,
 		name = "아이스크림은 어디로?",
 		group_ii = 0,
@@ -12716,831 +13554,5 @@ pg.activity_ins_chat_group = {
 			9165,
 			9166
 		}
-	},
-	get_id_list_by_ship_group = {
-		[960007] = {
-			1,
-			2,
-			3
-		},
-		[960008] = {
-			4,
-			5,
-			6
-		},
-		[960009] = {
-			7,
-			8,
-			9
-		},
-		[960010] = {
-			10,
-			11,
-			12
-		},
-		[960011] = {
-			13,
-			14,
-			15
-		},
-		[960005] = {
-			16,
-			17,
-			18
-		},
-		[109] = {
-			19
-		},
-		[200] = {
-			20
-		},
-		[101] = {
-			21,
-			304
-		},
-		[102] = {
-			22
-		},
-		[103] = {
-			23,
-			71,
-			262
-		},
-		[104] = {
-			24
-		},
-		[105] = {
-			25
-		},
-		[106] = {
-			26
-		},
-		[107] = {
-			27,
-			287
-		},
-		[108] = {
-			28
-		},
-		[20509] = {
-			29,
-			30,
-			31
-		},
-		[40503] = {
-			32,
-			33,
-			34
-		},
-		[49906] = {
-			35,
-			36,
-			37
-		},
-		[40404] = {
-			38,
-			39,
-			40
-		},
-		[40704] = {
-			41,
-			42,
-			43
-		},
-		[40152] = {
-			44,
-			45,
-			46
-		},
-		[40211] = {
-			47,
-			48,
-			49
-		},
-		[40109] = {
-			50,
-			51,
-			52
-		},
-		[40111] = {
-			53,
-			54,
-			55
-		},
-		[50105] = {
-			56,
-			57,
-			58
-		},
-		[50301] = {
-			59,
-			60,
-			61
-		},
-		[50210] = {
-			62,
-			63,
-			64
-		},
-		[50109] = {
-			65,
-			66,
-			67
-		},
-		[50108] = {
-			68,
-			69,
-			70
-		},
-		[50209] = {
-			72,
-			73,
-			74
-		},
-		[60508] = {
-			75,
-			76,
-			77
-		},
-		[60803] = {
-			78,
-			79,
-			80
-		},
-		[60111] = {
-			81,
-			82,
-			83
-		},
-		[60203] = {
-			84,
-			85,
-			86
-		},
-		[90107] = {
-			87,
-			88,
-			89
-		},
-		[10713] = {
-			90,
-			91,
-			92
-		},
-		[10153] = {
-			93,
-			94,
-			95
-		},
-		[10234] = {
-			96,
-			97,
-			98
-		},
-		[70203] = {
-			99,
-			100,
-			101
-		},
-		[110201] = {
-			102,
-			103,
-			104
-		},
-		[110101] = {
-			105,
-			106,
-			107
-		},
-		[70509] = {
-			108,
-			109,
-			110
-		},
-		[70208] = {
-			111,
-			112,
-			113
-		},
-		[20712] = {
-			114,
-			115,
-			116
-		},
-		[20516] = {
-			117,
-			118,
-			119
-		},
-		[20138] = {
-			120,
-			121,
-			122
-		},
-		[20235] = {
-			123,
-			124,
-			125
-		},
-		[20139] = {
-			126,
-			127,
-			128
-		},
-		[20236] = {
-			129,
-			130,
-			131
-		},
-		[40407] = {
-			132,
-			133,
-			134
-		},
-		[40814] = {
-			135,
-			136,
-			137
-		},
-		[40113] = {
-			138,
-			139,
-			140
-		},
-		[90401] = {
-			141,
-			142,
-			143
-		},
-		[90105] = {
-			144,
-			145,
-			146
-		},
-		[80401] = {
-			147,
-			148,
-			149
-		},
-		[80601] = {
-			150,
-			151,
-			152
-		},
-		[80105] = {
-			153,
-			154,
-			155
-		},
-		[80303] = {
-			156,
-			157,
-			158
-		},
-		[80204] = {
-			159,
-			160,
-			161
-		},
-		[10709] = {
-			162,
-			163,
-			164
-		},
-		[30716] = {
-			165,
-			166,
-			167
-		},
-		[31702] = {
-			168,
-			169,
-			170
-		},
-		[30516] = {
-			171,
-			172,
-			173
-		},
-		[30320] = {
-			174,
-			175,
-			176
-		},
-		[30227] = {
-			177,
-			178,
-			179
-		},
-		[30192] = {
-			180,
-			181,
-			182
-		},
-		[30225] = {
-			183,
-			184,
-			185
-		},
-		[960012] = {
-			186,
-			187,
-			188
-		},
-		[960013] = {
-			189,
-			190,
-			191
-		},
-		[960014] = {
-			192,
-			193,
-			194
-		},
-		[960015] = {
-			195,
-			196,
-			197
-		},
-		[960016] = {
-			198,
-			199,
-			200
-		},
-		[10324] = {
-			201,
-			202,
-			203
-		},
-		[80503] = {
-			204,
-			205,
-			206
-		},
-		[10233] = {
-			207,
-			208,
-			209
-		},
-		[110] = {
-			210
-		},
-		[10702] = {
-			211,
-			212,
-			213,
-			214,
-			215,
-			216
-		},
-		[10110] = {
-			217,
-			218,
-			219
-		},
-		[10155] = {
-			220,
-			221,
-			222
-		},
-		[10235] = {
-			223,
-			224,
-			225
-		},
-		[10725] = {
-			226,
-			227,
-			228
-		},
-		[69903] = {
-			229,
-			230,
-			231
-		},
-		[49910] = {
-			232,
-			233,
-			234
-		},
-		[119901] = {
-			235,
-			236,
-			237
-		},
-		[79903] = {
-			238,
-			239,
-			240
-		},
-		[19906] = {
-			241,
-			242,
-			243
-		},
-		[60501] = {
-			244,
-			245,
-			246
-		},
-		[30194] = {
-			247,
-			248,
-			249
-		},
-		[60509] = {
-			250,
-			251,
-			252
-		},
-		[60112] = {
-			253,
-			254,
-			255
-		},
-		[60204] = {
-			256,
-			257,
-			258
-		},
-		[51901] = {
-			259,
-			260,
-			261
-		},
-		[50302] = {
-			263,
-			264,
-			265
-		},
-		[50212] = {
-			266,
-			267,
-			268
-		},
-		[20607] = {
-			269,
-			270,
-			271
-		},
-		[70303] = {
-			272,
-			273,
-			274
-		},
-		[70113] = {
-			275,
-			276,
-			277
-		},
-		[70209] = {
-			278,
-			279,
-			280
-		},
-		[70210] = {
-			281,
-			282,
-			283
-		},
-		[30116] = {
-			284,
-			285,
-			286
-		},
-		[30717] = {
-			288,
-			289,
-			290
-		},
-		[30228] = {
-			291,
-			292,
-			293
-		},
-		[30229] = {
-			294,
-			295,
-			296
-		},
-		[201] = {
-			297
-		},
-		[20313] = {
-			298,
-			299,
-			300
-		},
-		[10601] = {
-			301,
-			302,
-			303
-		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		39,
-		40,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46,
-		47,
-		48,
-		49,
-		50,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56,
-		57,
-		58,
-		59,
-		60,
-		61,
-		62,
-		63,
-		64,
-		65,
-		66,
-		67,
-		68,
-		69,
-		70,
-		71,
-		72,
-		73,
-		74,
-		75,
-		76,
-		77,
-		78,
-		79,
-		80,
-		81,
-		82,
-		83,
-		84,
-		85,
-		86,
-		87,
-		88,
-		89,
-		90,
-		91,
-		92,
-		93,
-		94,
-		95,
-		96,
-		97,
-		98,
-		99,
-		100,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		110,
-		111,
-		112,
-		113,
-		114,
-		115,
-		116,
-		117,
-		118,
-		119,
-		120,
-		121,
-		122,
-		123,
-		124,
-		125,
-		126,
-		127,
-		128,
-		129,
-		130,
-		131,
-		132,
-		133,
-		134,
-		135,
-		136,
-		137,
-		138,
-		139,
-		140,
-		141,
-		142,
-		143,
-		144,
-		145,
-		146,
-		147,
-		148,
-		149,
-		150,
-		151,
-		152,
-		153,
-		154,
-		155,
-		156,
-		157,
-		158,
-		159,
-		160,
-		161,
-		162,
-		163,
-		164,
-		165,
-		166,
-		167,
-		168,
-		169,
-		170,
-		171,
-		172,
-		173,
-		174,
-		175,
-		176,
-		177,
-		178,
-		179,
-		180,
-		181,
-		182,
-		183,
-		184,
-		185,
-		186,
-		187,
-		188,
-		189,
-		190,
-		191,
-		192,
-		193,
-		194,
-		195,
-		196,
-		197,
-		198,
-		199,
-		200,
-		201,
-		202,
-		203,
-		204,
-		205,
-		206,
-		207,
-		208,
-		209,
-		210,
-		211,
-		212,
-		213,
-		214,
-		215,
-		216,
-		217,
-		218,
-		219,
-		220,
-		221,
-		222,
-		223,
-		224,
-		225,
-		226,
-		227,
-		228,
-		229,
-		230,
-		231,
-		232,
-		233,
-		234,
-		235,
-		236,
-		237,
-		238,
-		239,
-		240,
-		241,
-		242,
-		243,
-		244,
-		245,
-		246,
-		247,
-		248,
-		249,
-		250,
-		251,
-		252,
-		253,
-		254,
-		255,
-		256,
-		257,
-		258,
-		259,
-		260,
-		261,
-		262,
-		263,
-		264,
-		265,
-		266,
-		267,
-		268,
-		269,
-		270,
-		271,
-		272,
-		273,
-		274,
-		275,
-		276,
-		277,
-		278,
-		279,
-		280,
-		281,
-		282,
-		283,
-		284,
-		285,
-		286,
-		287,
-		288,
-		289,
-		290,
-		291,
-		292,
-		293,
-		294,
-		295,
-		296,
-		297,
-		298,
-		299,
-		300,
-		301,
-		302,
-		303,
-		304
 	}
-}
+end)()

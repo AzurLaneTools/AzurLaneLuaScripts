@@ -920,7 +920,7 @@ slot5.GetPlayerShipResource = function(slot0, slot1)
 		slot17 = slot1
 		slot18 = slot9.skinId
 
-		for slot17, slot18 in pairs(uv1.GetBuffBulletRes(slot10, slot9.skills, slot17, slot18)) do
+		for slot17, slot18 in pairs(uv1.GetBuffBulletRes(slot10, slot9.skills, slot17, slot18, slot13)) do
 			table.insert(slot2, slot18)
 		end
 

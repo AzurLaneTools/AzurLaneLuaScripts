@@ -1,73 +1,60 @@
 pg = pg or {}
-pg.dorm3d_ins_chat_group = setmetatable({
-	__name = "dorm3d_ins_chat_group",
-	get_id_list_by_ship_group = {
-		[20220] = {
-			20220101,
-			20220102,
-			20220103,
-			20220104,
-			20220105
-		},
-		[30221] = {
-			30221101,
-			30221102,
-			30221103,
-			30221104,
-			30221105
-		},
-		[19903] = {
-			19903101,
-			19903102,
-			19903103,
-			19903104,
-			19903105,
-			19903106,
-			19903107,
-			19903108
-		},
-		[10517] = {
-			10517101,
-			10517102,
-			10517103,
-			10517104
-		},
-		[30707] = {
-			30707101,
-			30707102,
-			30707103,
-			30707104,
-			30707105,
-			30707106,
-			30707107,
-			30707108,
-			30707109,
-			30707110
-		},
-		[49905] = {
-			49905101,
-			49905102,
-			49905103,
-			49905104,
-			49905105,
-			49905106,
-			49905107,
-			49905108,
-			49905109,
-			49905110
-		}
+pg.dorm3d_ins_chat_group = rawget(pg, "dorm3d_ins_chat_group") or setmetatable({
+	__name = "dorm3d_ins_chat_group"
+}, confNEO)
+pg.dorm3d_ins_chat_group.__namecode__ = true
+pg.dorm3d_ins_chat_group.all = {
+	20220101,
+	20220102,
+	20220103,
+	20220104,
+	20220105,
+	30221101,
+	30221102,
+	30221103,
+	30221104,
+	30221105,
+	19903101,
+	19903102,
+	19903103,
+	19903104,
+	19903105,
+	19903106,
+	19903107,
+	19903108,
+	10517101,
+	10517102,
+	10517103,
+	10517104,
+	30707101,
+	30707102,
+	30707103,
+	30707104,
+	30707105,
+	30707106,
+	30707107,
+	30707108,
+	30707109,
+	30707110,
+	49905101,
+	49905102,
+	49905103,
+	49905104,
+	49905105,
+	49905106,
+	49905107,
+	49905108,
+	49905109,
+	49905110
+}
+pg.dorm3d_ins_chat_group.get_id_list_by_ship_group = {
+	[10517] = {
+		10517101,
+		10517102,
+		10517103,
+		10517104
 	},
-	all = {
-		20220101,
-		20220102,
-		20220103,
-		20220104,
-		20220105,
-		30221101,
-		30221102,
-		30221103,
-		30221104,
-		30221105,
+	[19903] = {
 		19903101,
 		19903102,
 		19903103,
@@ -75,11 +62,23 @@ pg.dorm3d_ins_chat_group = setmetatable({
 		19903105,
 		19903106,
 		19903107,
-		19903108,
-		10517101,
-		10517102,
-		10517103,
-		10517104,
+		19903108
+	},
+	[20220] = {
+		20220101,
+		20220102,
+		20220103,
+		20220104,
+		20220105
+	},
+	[30221] = {
+		30221101,
+		30221102,
+		30221103,
+		30221104,
+		30221105
+	},
+	[30707] = {
 		30707101,
 		30707102,
 		30707103,
@@ -89,7 +88,9 @@ pg.dorm3d_ins_chat_group = setmetatable({
 		30707107,
 		30707108,
 		30707109,
-		30707110,
+		30707110
+	},
+	[49905] = {
 		49905101,
 		49905102,
 		49905103,
@@ -101,10 +102,12 @@ pg.dorm3d_ins_chat_group = setmetatable({
 		49905109,
 		49905110
 	}
-}, confHX)
+}
 pg.base = pg.base or {}
-pg.base.dorm3d_ins_chat_group = {
-	[20220101] = {
+pg.base.dorm3d_ins_chat_group = {}
+
+(function ()
+	pg.base.dorm3d_ins_chat_group[20220101] = {
 		ship_group = 20220,
 		name = "편안함",
 		unlock_desc = "시리우스 룸을 1일간 방문하다",
@@ -129,8 +132,8 @@ pg.base.dorm3d_ins_chat_group = {
 			16,
 			17
 		}
-	},
-	[20220102] = {
+	}
+	pg.base.dorm3d_ins_chat_group[20220102] = {
 		ship_group = 20220,
 		name = "두 번째 착각",
 		unlock_desc = "시리우스 룸의 물품 20개를 수집",
@@ -153,8 +156,8 @@ pg.base.dorm3d_ins_chat_group = {
 			31,
 			32
 		}
-	},
-	[20220103] = {
+	}
+	pg.base.dorm3d_ins_chat_group[20220103] = {
 		ship_group = 20220,
 		name = "원기 회복",
 		unlock_desc = "시리우스 터치 모드 10회 진입",
@@ -178,8 +181,8 @@ pg.base.dorm3d_ins_chat_group = {
 			47,
 			48
 		}
-	},
-	[20220104] = {
+	}
+	pg.base.dorm3d_ins_chat_group[20220104] = {
 		ship_group = 20220,
 		name = "기록",
 		unlock_desc = "시리우스에게 사진 2장 찍기",
@@ -200,8 +203,8 @@ pg.base.dorm3d_ins_chat_group = {
 			60,
 			61
 		}
-	},
-	[20220105] = {
+	}
+	pg.base.dorm3d_ins_chat_group[20220105] = {
 		ship_group = 20220,
 		name = "소원",
 		unlock_desc = "(밤) 시리우스 1번 터치",
@@ -224,8 +227,8 @@ pg.base.dorm3d_ins_chat_group = {
 			75,
 			76
 		}
-	},
-	[30221101] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30221101] = {
 		ship_group = 30221,
 		name = "원하신다면……",
 		unlock_desc = "노시로 룸을 1일간 방문하다",
@@ -248,8 +251,8 @@ pg.base.dorm3d_ins_chat_group = {
 			90,
 			91
 		}
-	},
-	[30221102] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30221102] = {
 		ship_group = 30221,
 		name = "의지",
 		unlock_desc = "노시로 룸의 물품 20개를 수집",
@@ -273,8 +276,8 @@ pg.base.dorm3d_ins_chat_group = {
 			106,
 			107
 		}
-	},
-	[30221103] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30221103] = {
 		ship_group = 30221,
 		name = "이야깃거리",
 		unlock_desc = "노시로와 15회 대화",
@@ -298,8 +301,8 @@ pg.base.dorm3d_ins_chat_group = {
 			122,
 			123
 		}
-	},
-	[30221104] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30221104] = {
 		ship_group = 30221,
 		name = "미래",
 		unlock_desc = "노시로 터치 모드 10회 진입",
@@ -322,8 +325,8 @@ pg.base.dorm3d_ins_chat_group = {
 			137,
 			138
 		}
-	},
-	[30221105] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30221105] = {
 		ship_group = 30221,
 		name = "달이 아름답네",
 		unlock_desc = "(밤) 노시로를 1번 사진 찍기",
@@ -347,8 +350,8 @@ pg.base.dorm3d_ins_chat_group = {
 			153,
 			154
 		}
-	},
-	[19903101] = {
+	}
+	pg.base.dorm3d_ins_chat_group[19903101] = {
 		ship_group = 19903,
 		name = "자기 전에",
 		unlock_desc = "앵커리지 룸을 1일간 방문하다",
@@ -374,8 +377,8 @@ pg.base.dorm3d_ins_chat_group = {
 			171,
 			172
 		}
-	},
-	[19903102] = {
+	}
+	pg.base.dorm3d_ins_chat_group[19903102] = {
 		ship_group = 19903,
 		name = "가장 필요한 것",
 		unlock_desc = "앵커리지 룸을 2일간 방문하다",
@@ -402,8 +405,8 @@ pg.base.dorm3d_ins_chat_group = {
 			190,
 			191
 		}
-	},
-	[19903103] = {
+	}
+	pg.base.dorm3d_ins_chat_group[19903103] = {
 		ship_group = 19903,
 		name = "특별한 건……",
 		unlock_desc = "앵커리지 룸을 4일간 방문하다",
@@ -430,8 +433,8 @@ pg.base.dorm3d_ins_chat_group = {
 			209,
 			210
 		}
-	},
-	[19903104] = {
+	}
+	pg.base.dorm3d_ins_chat_group[19903104] = {
 		ship_group = 19903,
 		name = "잃어버린 비밀",
 		unlock_desc = "앵커리지 룸의 물품 20개를 수집",
@@ -462,8 +465,8 @@ pg.base.dorm3d_ins_chat_group = {
 			232,
 			233
 		}
-	},
-	[19903105] = {
+	}
+	pg.base.dorm3d_ins_chat_group[19903105] = {
 		ship_group = 19903,
 		name = "더 필요해",
 		unlock_desc = "앵커리지 터치 모드 10회 진입",
@@ -490,8 +493,8 @@ pg.base.dorm3d_ins_chat_group = {
 			251,
 			252
 		}
-	},
-	[19903106] = {
+	}
+	pg.base.dorm3d_ins_chat_group[19903106] = {
 		ship_group = 19903,
 		name = "「고마워」의 의미",
 		unlock_desc = "앵커리지에게 선물 5회 증정",
@@ -518,8 +521,8 @@ pg.base.dorm3d_ins_chat_group = {
 			270,
 			271
 		}
-	},
-	[19903107] = {
+	}
+	pg.base.dorm3d_ins_chat_group[19903107] = {
 		ship_group = 19903,
 		name = "좋아하는 이유",
 		unlock_desc = "앵커리지 미니 게임에서 3점 획득",
@@ -545,8 +548,8 @@ pg.base.dorm3d_ins_chat_group = {
 			288,
 			289
 		}
-	},
-	[19903108] = {
+	}
+	pg.base.dorm3d_ins_chat_group[19903108] = {
 		ship_group = 19903,
 		name = "답례",
 		unlock_desc = "(밤) 앵커리지에 선물을 보내다",
@@ -573,8 +576,8 @@ pg.base.dorm3d_ins_chat_group = {
 			307,
 			308
 		}
-	},
-	[10517101] = {
+	}
+	pg.base.dorm3d_ins_chat_group[10517101] = {
 		ship_group = 10517,
 		name = "눈을 떴을 때 곁에 있어 줘",
 		unlock_desc = "뉴저지의 방 1일 방문",
@@ -601,8 +604,8 @@ pg.base.dorm3d_ins_chat_group = {
 			326,
 			327
 		}
-	},
-	[10517102] = {
+	}
+	pg.base.dorm3d_ins_chat_group[10517102] = {
 		ship_group = 10517,
 		name = "스케줄 관리",
 		unlock_desc = "뉴저지의 방 4일 방문",
@@ -631,8 +634,8 @@ pg.base.dorm3d_ins_chat_group = {
 			346,
 			347
 		}
-	},
-	[10517103] = {
+	}
+	pg.base.dorm3d_ins_chat_group[10517103] = {
 		ship_group = 10517,
 		name = "액션 영화",
 		unlock_desc = "뉴저지의 방 7일 방문",
@@ -657,8 +660,8 @@ pg.base.dorm3d_ins_chat_group = {
 			363,
 			364
 		}
-	},
-	[10517104] = {
+	}
+	pg.base.dorm3d_ins_chat_group[10517104] = {
 		ship_group = 10517,
 		name = "그녀의 비밀",
 		unlock_desc = "뉴저지의 방에서 아이템 20개 수집",
@@ -687,8 +690,8 @@ pg.base.dorm3d_ins_chat_group = {
 			384,
 			385
 		}
-	},
-	[30707101] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30707101] = {
 		ship_group = 30707,
 		name = "둘만의 세상",
 		unlock_desc = "다이호의 방 1회 방문",
@@ -707,8 +710,8 @@ pg.base.dorm3d_ins_chat_group = {
 			395,
 			396
 		}
-	},
-	[30707102] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30707102] = {
 		ship_group = 30707,
 		name = "느긋하게 흐르는 시간",
 		unlock_desc = "다이호의 방 2일 방문",
@@ -729,8 +732,8 @@ pg.base.dorm3d_ins_chat_group = {
 			408,
 			409
 		}
-	},
-	[30707103] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30707103] = {
 		ship_group = 30707,
 		name = "사랑의 도시락",
 		unlock_desc = "다이호의 방 4일 방문",
@@ -751,8 +754,8 @@ pg.base.dorm3d_ins_chat_group = {
 			421,
 			422
 		}
-	},
-	[30707104] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30707104] = {
 		ship_group = 30707,
 		name = "해충 박멸 계획",
 		unlock_desc = "다이호의 방에서 아이템 20개 수집",
@@ -771,8 +774,8 @@ pg.base.dorm3d_ins_chat_group = {
 			432,
 			433
 		}
-	},
-	[30707105] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30707105] = {
 		ship_group = 30707,
 		name = "투샷",
 		unlock_desc = "다이호의 방에서 다이호와 3회 「터치」 실시",
@@ -791,8 +794,8 @@ pg.base.dorm3d_ins_chat_group = {
 			443,
 			444
 		}
-	},
-	[30707106] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30707106] = {
 		ship_group = 30707,
 		name = "코타츠",
 		unlock_desc = "다이호에게 선물 5회 주기",
@@ -817,8 +820,8 @@ pg.base.dorm3d_ins_chat_group = {
 			460,
 			461
 		}
-	},
-	[30707107] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30707107] = {
 		ship_group = 30707,
 		name = "세탁하는 날",
 		unlock_desc = "다이호의 방 7일 방문",
@@ -839,8 +842,8 @@ pg.base.dorm3d_ins_chat_group = {
 			473,
 			474
 		}
-	},
-	[30707108] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30707108] = {
 		ship_group = 30707,
 		name = "이야깃거리와 차",
 		unlock_desc = "다이호의 방에서 다이호와 15회 「대화」 실시",
@@ -864,8 +867,8 @@ pg.base.dorm3d_ins_chat_group = {
 			489,
 			490
 		}
-	},
-	[30707109] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30707109] = {
 		ship_group = 30707,
 		name = "의존과 마사지",
 		unlock_desc = "다이호의 방에서 다이호와 5회 「터치」 실시",
@@ -888,8 +891,8 @@ pg.base.dorm3d_ins_chat_group = {
 			504,
 			505
 		}
-	},
-	[30707110] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30707110] = {
 		ship_group = 30707,
 		name = "소중한 물건",
 		unlock_desc = "다이호에게 선물 10회 주기",
@@ -912,8 +915,8 @@ pg.base.dorm3d_ins_chat_group = {
 			519,
 			520
 		}
-	},
-	[49905101] = {
+	}
+	pg.base.dorm3d_ins_chat_group[49905101] = {
 		ship_group = 49905,
 		name = "취침 전의 「인사」",
 		unlock_desc = "에기르의 방 1회 방문",
@@ -937,8 +940,8 @@ pg.base.dorm3d_ins_chat_group = {
 			535,
 			536
 		}
-	},
-	[49905102] = {
+	}
+	pg.base.dorm3d_ins_chat_group[49905102] = {
 		ship_group = 49905,
 		name = "아쿠아리움?",
 		unlock_desc = "에기르의 방 2일 방문",
@@ -968,8 +971,8 @@ pg.base.dorm3d_ins_chat_group = {
 			557,
 			558
 		}
-	},
-	[49905103] = {
+	}
+	pg.base.dorm3d_ins_chat_group[49905103] = {
 		ship_group = 49905,
 		name = "행운의 아이템",
 		unlock_desc = "에기르의 방 4일 방문",
@@ -998,8 +1001,8 @@ pg.base.dorm3d_ins_chat_group = {
 			578,
 			579
 		}
-	},
-	[49905104] = {
+	}
+	pg.base.dorm3d_ins_chat_group[49905104] = {
 		ship_group = 49905,
 		name = "아직 찾지 못한 것",
 		unlock_desc = "에기르의 방에서 아이템 20개 수집",
@@ -1027,8 +1030,8 @@ pg.base.dorm3d_ins_chat_group = {
 			598,
 			599
 		}
-	},
-	[49905105] = {
+	}
+	pg.base.dorm3d_ins_chat_group[49905105] = {
 		ship_group = 49905,
 		name = "의존증",
 		unlock_desc = "에기르의 방에서 에기르와 3회 「터치」 실시",
@@ -1055,8 +1058,8 @@ pg.base.dorm3d_ins_chat_group = {
 			617,
 			618
 		}
-	},
-	[49905106] = {
+	}
+	pg.base.dorm3d_ins_chat_group[49905106] = {
 		ship_group = 49905,
 		name = "남겨두면 가져가기 마련",
 		unlock_desc = "에기르에게 선물 5회 주기",
@@ -1077,8 +1080,8 @@ pg.base.dorm3d_ins_chat_group = {
 			630,
 			631
 		}
-	},
-	[49905107] = {
+	}
+	pg.base.dorm3d_ins_chat_group[49905107] = {
 		ship_group = 49905,
 		name = "승부욕",
 		unlock_desc = "에기르의 방 7일 방문",
@@ -1104,8 +1107,8 @@ pg.base.dorm3d_ins_chat_group = {
 			648,
 			649
 		}
-	},
-	[49905108] = {
+	}
+	pg.base.dorm3d_ins_chat_group[49905108] = {
 		ship_group = 49905,
 		name = "별이 지지 않는 밤",
 		unlock_desc = "에기르의 방에서 에기르와 15회 「대화」 실시",
@@ -1138,8 +1141,8 @@ pg.base.dorm3d_ins_chat_group = {
 			673,
 			674
 		}
-	},
-	[49905109] = {
+	}
+	pg.base.dorm3d_ins_chat_group[49905109] = {
 		ship_group = 49905,
 		name = "특별한 보살핌",
 		unlock_desc = "에기르의 방에서 에기르와 5회 「터치」 실시",
@@ -1165,8 +1168,8 @@ pg.base.dorm3d_ins_chat_group = {
 			691,
 			692
 		}
-	},
-	[49905110] = {
+	}
+	pg.base.dorm3d_ins_chat_group[49905110] = {
 		ship_group = 49905,
 		name = "「어긋난」 초점",
 		unlock_desc = "에기르에게 선물 10회 주기",
@@ -1194,4 +1197,4 @@ pg.base.dorm3d_ins_chat_group = {
 			711
 		}
 	}
-}
+end)()

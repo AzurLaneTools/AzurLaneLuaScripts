@@ -1,6 +1,23 @@
 pg = pg or {}
-pg.chapter_model_fog = {
-	{
+pg.chapter_model_fog = rawget(pg, "chapter_model_fog") or setmetatable({
+	__name = "chapter_model_fog"
+}, confNEO)
+pg.chapter_model_fog.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9
+}
+pg.base = pg.base or {}
+pg.base.chapter_model_fog = {}
+
+(function ()
+	pg.base.chapter_model_fog[1] = {
 		id = 1,
 		vision_range = {
 			{
@@ -20,8 +37,8 @@ pg.chapter_model_fog = {
 			0,
 			800
 		}
-	},
-	{
+	}
+	pg.base.chapter_model_fog[2] = {
 		id = 2,
 		vision_range = {
 			{
@@ -49,8 +66,8 @@ pg.chapter_model_fog = {
 			801,
 			1700
 		}
-	},
-	{
+	}
+	pg.base.chapter_model_fog[3] = {
 		id = 3,
 		vision_range = {
 			{
@@ -94,8 +111,8 @@ pg.chapter_model_fog = {
 			1701,
 			99999
 		}
-	},
-	{
+	}
+	pg.base.chapter_model_fog[4] = {
 		id = 4,
 		vision_range = {
 			{
@@ -152,8 +169,8 @@ pg.chapter_model_fog = {
 			}
 		},
 		attr_air = {}
-	},
-	{
+	}
+	pg.base.chapter_model_fog[5] = {
 		id = 5,
 		vision_range = {
 			{
@@ -258,8 +275,8 @@ pg.chapter_model_fog = {
 			}
 		},
 		attr_air = {}
-	},
-	{
+	}
+	pg.base.chapter_model_fog[6] = {
 		id = 6,
 		vision_range = {
 			{
@@ -412,8 +429,8 @@ pg.chapter_model_fog = {
 			}
 		},
 		attr_air = {}
-	},
-	{
+	}
+	pg.base.chapter_model_fog[7] = {
 		id = 7,
 		vision_range = {
 			{
@@ -614,8 +631,8 @@ pg.chapter_model_fog = {
 			}
 		},
 		attr_air = {}
-	},
-	{
+	}
+	pg.base.chapter_model_fog[8] = {
 		id = 8,
 		vision_range = {
 			{
@@ -864,8 +881,8 @@ pg.chapter_model_fog = {
 			}
 		},
 		attr_air = {}
-	},
-	{
+	}
+	pg.base.chapter_model_fog[9] = {
 		id = 9,
 		vision_range = {
 			{
@@ -1194,16 +1211,5 @@ pg.chapter_model_fog = {
 			}
 		},
 		attr_air = {}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9
 	}
-}
+end)()

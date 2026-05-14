@@ -1,6 +1,28 @@
 pg = pg or {}
-pg.arena_data_rank = {
-	{
+pg.arena_data_rank = rawget(pg, "arena_data_rank") or setmetatable({
+	__name = "arena_data_rank"
+}, confNEO)
+pg.arena_data_rank.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14
+}
+pg.base = pg.base or {}
+pg.base.arena_data_rank = {}
+
+(function ()
+	pg.base.arena_data_rank[1] = {
 		name = "이등병",
 		refresh_limit = 5,
 		k_value = 50,
@@ -12,8 +34,8 @@ pg.arena_data_rank = {
 		refresh_price = {
 			0
 		}
-	},
-	{
+	}
+	pg.base.arena_data_rank[2] = {
 		name = "병장",
 		refresh_limit = 5,
 		k_value = 45,
@@ -31,8 +53,8 @@ pg.arena_data_rank = {
 		refresh_price = {
 			0
 		}
-	},
-	{
+	}
+	pg.base.arena_data_rank[3] = {
 		name = "소위",
 		refresh_limit = 5,
 		k_value = 40,
@@ -50,8 +72,8 @@ pg.arena_data_rank = {
 		refresh_price = {
 			0
 		}
-	},
-	{
+	}
+	pg.base.arena_data_rank[4] = {
 		name = "중위",
 		refresh_limit = 5,
 		k_value = 35,
@@ -69,8 +91,8 @@ pg.arena_data_rank = {
 		refresh_price = {
 			0
 		}
-	},
-	{
+	}
+	pg.base.arena_data_rank[5] = {
 		name = "대위",
 		refresh_limit = 5,
 		k_value = 30,
@@ -88,8 +110,8 @@ pg.arena_data_rank = {
 		refresh_price = {
 			0
 		}
-	},
-	{
+	}
+	pg.base.arena_data_rank[6] = {
 		name = "소령",
 		refresh_limit = 5,
 		k_value = 30,
@@ -107,8 +129,8 @@ pg.arena_data_rank = {
 		refresh_price = {
 			0
 		}
-	},
-	{
+	}
+	pg.base.arena_data_rank[7] = {
 		name = "중령",
 		refresh_limit = 5,
 		k_value = 30,
@@ -126,8 +148,8 @@ pg.arena_data_rank = {
 		refresh_price = {
 			0
 		}
-	},
-	{
+	}
+	pg.base.arena_data_rank[8] = {
 		name = "대령",
 		refresh_limit = 5,
 		k_value = 25,
@@ -145,8 +167,8 @@ pg.arena_data_rank = {
 		refresh_price = {
 			0
 		}
-	},
-	{
+	}
+	pg.base.arena_data_rank[9] = {
 		name = "준장",
 		refresh_limit = 5,
 		k_value = 20,
@@ -164,8 +186,8 @@ pg.arena_data_rank = {
 		refresh_price = {
 			0
 		}
-	},
-	{
+	}
+	pg.base.arena_data_rank[10] = {
 		name = "소장",
 		refresh_limit = 5,
 		k_value = 20,
@@ -183,8 +205,8 @@ pg.arena_data_rank = {
 		refresh_price = {
 			0
 		}
-	},
-	{
+	}
+	pg.base.arena_data_rank[11] = {
 		name = "중장",
 		refresh_limit = 5,
 		k_value = 20,
@@ -202,8 +224,8 @@ pg.arena_data_rank = {
 		refresh_price = {
 			0
 		}
-	},
-	{
+	}
+	pg.base.arena_data_rank[12] = {
 		name = "대장",
 		refresh_limit = 5,
 		k_value = 20,
@@ -221,8 +243,8 @@ pg.arena_data_rank = {
 		refresh_price = {
 			0
 		}
-	},
-	{
+	}
+	pg.base.arena_data_rank[13] = {
 		name = "5성대장",
 		refresh_limit = 5,
 		k_value = 20,
@@ -240,8 +262,8 @@ pg.arena_data_rank = {
 		refresh_price = {
 			0
 		}
-	},
-	{
+	}
+	pg.base.arena_data_rank[14] = {
 		name = "원수",
 		refresh_limit = 5,
 		k_value = 20,
@@ -259,21 +281,5 @@ pg.arena_data_rank = {
 		refresh_price = {
 			0
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14
 	}
-}
+end)()

@@ -156,9 +156,9 @@ slot0.SetBossRushNode = function(slot0, slot1, slot2)
 end
 
 slot0.GetActivitySingleEventOption = function(slot0, slot1)
-	for slot5, slot6 in pairs(pg.activity_single_event) do
-		if slot6.story == slot1:getConfig("story") then
-			return slot6.options
+	for slot5, slot6 in ipairs(pg.activity_single_event.all) do
+		if pg.activity_single_event[slot6].story == slot1:getConfig("story") then
+			return slot7.options
 		end
 	end
 end

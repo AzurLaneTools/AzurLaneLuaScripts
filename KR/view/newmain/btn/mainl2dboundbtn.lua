@@ -24,7 +24,7 @@ slot0.IsFixed = function(slot0)
 end
 
 slot0.FlushL2d = function(slot0)
-	slot3 = MainPaintingView.GetAssistantStatus(getProxy(PlayerProxy):getRawData():GetCurrentFlagShip()) == MainPaintingView.STATE_L2D
+	slot3 = MainPaintingView.GetAssistantStatus(getProxy(PlayerProxy):getRawData():GetFlagShip()) == MainPaintingView.STATE_L2D
 	slot5 = slot1:GetSkinConfig().ship_l2d_id
 
 	if pg.ship_l2d_tips[slot1:GetSkinConfig().id] and slot3 and slot5 and type(slot5) == "table" and #slot5 > 0 then

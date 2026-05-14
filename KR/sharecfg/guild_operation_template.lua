@@ -1,6 +1,18 @@
 pg = pg or {}
-pg.guild_operation_template = {
-	{
+pg.guild_operation_template = rawget(pg, "guild_operation_template") or setmetatable({
+	__name = "guild_operation_template"
+}, confNEO)
+pg.guild_operation_template.all = {
+	1,
+	2,
+	3,
+	4
+}
+pg.base = pg.base or {}
+pg.base.guild_operation_template = {}
+
+(function ()
+	pg.base.guild_operation_template[1] = {
 		scale = "소형: (권장 참가 멤버 수) 1~5명",
 		name = "대양 기지 경계 작전",
 		theme = "midway",
@@ -30,8 +42,8 @@ pg.guild_operation_template = {
 				54017
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_operation_template[2] = {
 		scale = "중형: (권장 참가 멤버 수) 3~8명",
 		name = "북방 항로 호위 작전",
 		theme = "northern",
@@ -60,8 +72,8 @@ pg.guild_operation_template = {
 				54017
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_operation_template[3] = {
 		scale = "중대형: (권장 참가 멤버 수) 6~14명",
 		name = "반도 항로 확보 작전",
 		theme = "norskehavet",
@@ -92,8 +104,8 @@ pg.guild_operation_template = {
 				54017
 			}
 		}
-	},
-	{
+	}
+	pg.base.guild_operation_template[4] = {
 		scale = "대형: (권장 참가 멤버 수) 8~20명",
 		name = "낙도 지원 작전",
 		theme = "guadalcanal",
@@ -124,11 +136,5 @@ pg.guild_operation_template = {
 				54017
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4
 	}
-}
+end)()

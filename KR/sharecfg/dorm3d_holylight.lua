@@ -1,6 +1,34 @@
 pg = pg or {}
-pg.dorm3d_holylight = {
-	[49905101] = {
+pg.dorm3d_holylight = rawget(pg, "dorm3d_holylight") or setmetatable({
+	__name = "dorm3d_holylight"
+}, confNEO)
+pg.dorm3d_holylight.all = {
+	49905101,
+	49905301,
+	49905102,
+	20220301,
+	19903101
+}
+pg.dorm3d_holylight.get_id_list_by_skin_id = {
+	[199031] = {
+		19903101
+	},
+	[202203] = {
+		20220301
+	},
+	[499051] = {
+		49905101,
+		49905102
+	},
+	[499053] = {
+		49905301
+	}
+}
+pg.base = pg.base or {}
+pg.base.dorm3d_holylight = {}
+
+(function ()
+	pg.base.dorm3d_holylight[49905101] = {
 		texture = "dorm3dholylight/Eff_smoke_114",
 		id = 49905101,
 		invert = 1,
@@ -27,8 +55,8 @@ pg.dorm3d_holylight = {
 			0,
 			0
 		}
-	},
-	[49905301] = {
+	}
+	pg.base.dorm3d_holylight[49905301] = {
 		texture = "dorm3dholylight/Eff_smoke_114",
 		id = 49905301,
 		invert = 1,
@@ -55,8 +83,8 @@ pg.dorm3d_holylight = {
 			0,
 			0
 		}
-	},
-	[49905102] = {
+	}
+	pg.base.dorm3d_holylight[49905102] = {
 		texture = "dorm3dholylight/Eff_smoke_114",
 		id = 49905102,
 		invert = 1,
@@ -83,8 +111,8 @@ pg.dorm3d_holylight = {
 			0,
 			35
 		}
-	},
-	[20220301] = {
+	}
+	pg.base.dorm3d_holylight[20220301] = {
 		texture = "dorm3dholylight/Eff_smoke_114",
 		id = 20220301,
 		invert = 1,
@@ -111,8 +139,8 @@ pg.dorm3d_holylight = {
 			0,
 			0
 		}
-	},
-	[19903101] = {
+	}
+	pg.base.dorm3d_holylight[19903101] = {
 		texture = "dorm3dholylight/Eff_smoke_114",
 		id = 19903101,
 		invert = 1,
@@ -139,27 +167,5 @@ pg.dorm3d_holylight = {
 			0,
 			0
 		}
-	},
-	get_id_list_by_skin_id = {
-		[499051] = {
-			49905101,
-			49905102
-		},
-		[499053] = {
-			49905301
-		},
-		[202203] = {
-			20220301
-		},
-		[199031] = {
-			19903101
-		}
-	},
-	all = {
-		49905101,
-		49905301,
-		49905102,
-		20220301,
-		19903101
 	}
-}
+end)()

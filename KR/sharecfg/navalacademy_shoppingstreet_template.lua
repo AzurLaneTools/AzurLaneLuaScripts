@@ -1,6 +1,15 @@
 pg = pg or {}
-pg.navalacademy_shoppingstreet_template = {
-	{
+pg.navalacademy_shoppingstreet_template = rawget(pg, "navalacademy_shoppingstreet_template") or setmetatable({
+	__name = "navalacademy_shoppingstreet_template"
+}, confNEO)
+pg.navalacademy_shoppingstreet_template.all = {
+	1
+}
+pg.base = pg.base or {}
+pg.base.navalacademy_shoppingstreet_template = {}
+
+(function ()
+	pg.base.navalacademy_shoppingstreet_template[1] = {
 		special_goods_num = 3,
 		words_enter = "응? 어서 오시어요...|아... 또 오신 건가요...|장비상자라도 어떠신지요......?",
 		goods_num = 10,
@@ -12,8 +21,5 @@ pg.navalacademy_shoppingstreet_template = {
 			1,
 			100
 		}
-	},
-	all = {
-		1
 	}
-}
+end)()

@@ -1,6 +1,35 @@
 pg = pg or {}
-pg.item_data_battleui = {
-	[0] = {
+pg.item_data_battleui = rawget(pg, "item_data_battleui") or setmetatable({
+	__name = "item_data_battleui"
+}, confNEO)
+pg.item_data_battleui.all = {
+	0,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	111,
+	112,
+	113,
+	114,
+	201,
+	202,
+	203,
+	204,
+	205,
+	206,
+	207
+}
+pg.base = pg.base or {}
+pg.base.item_data_battleui = {}
+
+(function ()
+	pg.base.item_data_battleui[0] = {
 		name = "오리지널",
 		key = "Standard",
 		display_icon = "ui_0",
@@ -12,8 +41,8 @@ pg.item_data_battleui = {
 		icon = "0",
 		scene = {},
 		rare_display = {}
-	},
-	[101] = {
+	}
+	pg.base.item_data_battleui[101] = {
 		name = "리메이크",
 		key = "SkinNormal_20240701",
 		display_icon = "ui_101",
@@ -25,8 +54,8 @@ pg.item_data_battleui = {
 		icon = "101",
 		scene = {},
 		rare_display = {}
-	},
-	[102] = {
+	}
+	pg.base.item_data_battleui[102] = {
 		name = "사이버 시대",
 		key = "SkinNormal_20240912",
 		display_icon = "ui_102",
@@ -40,8 +69,8 @@ pg.item_data_battleui = {
 		rare_display = {
 			1
 		}
-	},
-	[103] = {
+	}
+	pg.base.item_data_battleui[103] = {
 		name = "레인보우",
 		key = "SkinNormal_20240913",
 		display_icon = "ui_103",
@@ -57,8 +86,8 @@ pg.item_data_battleui = {
 			2,
 			3
 		}
-	},
-	[104] = {
+	}
+	pg.base.item_data_battleui[104] = {
 		name = "네온",
 		key = "SkinNormal_20241107",
 		display_icon = "ui_104",
@@ -72,8 +101,8 @@ pg.item_data_battleui = {
 		rare_display = {
 			1
 		}
-	},
-	[105] = {
+	}
+	pg.base.item_data_battleui[105] = {
 		name = "라이트",
 		key = "SkinNormal_20250123",
 		display_icon = "ui_105",
@@ -87,8 +116,8 @@ pg.item_data_battleui = {
 		rare_display = {
 			1
 		}
-	},
-	[106] = {
+	}
+	pg.base.item_data_battleui[106] = {
 		name = "데빌",
 		key = "SkinNormal_20250327",
 		display_icon = "ui_106",
@@ -102,8 +131,8 @@ pg.item_data_battleui = {
 		rare_display = {
 			1
 		}
-	},
-	[107] = {
+	}
+	pg.base.item_data_battleui[107] = {
 		name = "스텔라",
 		key = "SkinNormal_20250529",
 		display_icon = "ui_107",
@@ -117,8 +146,8 @@ pg.item_data_battleui = {
 		rare_display = {
 			1
 		}
-	},
-	[108] = {
+	}
+	pg.base.item_data_battleui[108] = {
 		name = "네이처",
 		key = "SkinNormal_20250724",
 		display_icon = "ui_108",
@@ -132,8 +161,8 @@ pg.item_data_battleui = {
 		rare_display = {
 			1
 		}
-	},
-	[109] = {
+	}
+	pg.base.item_data_battleui[109] = {
 		name = "먹과 대나무",
 		key = "SkinNormal_20250925",
 		display_icon = "ui_109",
@@ -147,8 +176,8 @@ pg.item_data_battleui = {
 		rare_display = {
 			1
 		}
-	},
-	[111] = {
+	}
+	pg.base.item_data_battleui[111] = {
 		name = "그림자극",
 		key = "SkinNormal_20251120",
 		display_icon = "ui_111",
@@ -162,8 +191,8 @@ pg.item_data_battleui = {
 		rare_display = {
 			1
 		}
-	},
-	[112] = {
+	}
+	pg.base.item_data_battleui[112] = {
 		name = "봄날 할인",
 		key = "SkinNormal_20251211",
 		display_icon = "ui_112",
@@ -177,8 +206,8 @@ pg.item_data_battleui = {
 		rare_display = {
 			1
 		}
-	},
-	[113] = {
+	}
+	pg.base.item_data_battleui[113] = {
 		name = "고대 왕조",
 		key = "SkinNormal_20260129",
 		display_icon = "ui_113",
@@ -192,8 +221,8 @@ pg.item_data_battleui = {
 		rare_display = {
 			1
 		}
-	},
-	[114] = {
+	}
+	pg.base.item_data_battleui[114] = {
 		name = "아이비",
 		key = "SkinNormal_20260326",
 		display_icon = "ui_114",
@@ -207,8 +236,8 @@ pg.item_data_battleui = {
 		rare_display = {
 			1
 		}
-	},
-	[201] = {
+	}
+	pg.base.item_data_battleui[201] = {
 		name = "크리스마스",
 		key = "SkinNormal_20241209",
 		display_icon = "ui_201",
@@ -224,8 +253,8 @@ pg.item_data_battleui = {
 			2,
 			3
 		}
-	},
-	[202] = {
+	}
+	pg.base.item_data_battleui[202] = {
 		name = "성스러운 모래의 약속",
 		key = "SkinNormal_20250227",
 		display_icon = "ui_202",
@@ -241,8 +270,8 @@ pg.item_data_battleui = {
 			2,
 			3
 		}
-	},
-	[203] = {
+	}
+	pg.base.item_data_battleui[203] = {
 		name = "유전자의 기원",
 		key = "SkinElite_20250327",
 		display_icon = "ui_203",
@@ -258,8 +287,8 @@ pg.item_data_battleui = {
 			2,
 			3
 		}
-	},
-	[204] = {
+	}
+	pg.base.item_data_battleui[204] = {
 		name = "시사이드",
 		key = "SkinElite_20250520",
 		display_icon = "ui_204",
@@ -275,8 +304,8 @@ pg.item_data_battleui = {
 			2,
 			3
 		}
-	},
-	[205] = {
+	}
+	pg.base.item_data_battleui[205] = {
 		name = "닌자",
 		key = "SkinElite_20250912",
 		display_icon = "ui_205",
@@ -292,8 +321,8 @@ pg.item_data_battleui = {
 			2,
 			3
 		}
-	},
-	[206] = {
+	}
+	pg.base.item_data_battleui[206] = {
 		name = "메이드 카페",
 		key = "SkinElite_20251218",
 		display_icon = "ui_206",
@@ -309,8 +338,8 @@ pg.item_data_battleui = {
 			2,
 			3
 		}
-	},
-	[207] = {
+	}
+	pg.base.item_data_battleui[207] = {
 		name = "봄빛 여관",
 		key = "SkinElite_20260226",
 		display_icon = "ui_207",
@@ -326,28 +355,5 @@ pg.item_data_battleui = {
 			2,
 			3
 		}
-	},
-	all = {
-		0,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		111,
-		112,
-		113,
-		114,
-		201,
-		202,
-		203,
-		204,
-		205,
-		206,
-		207
 	}
-}
+end)()
