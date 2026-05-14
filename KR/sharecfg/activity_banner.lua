@@ -28,15 +28,15 @@ pg.activity_banner.get_id_list_by_type = {
 	[2] = {
 		1,
 		2,
-		3,
+		4,
 		5,
 		6,
-		8,
-		9
+		7,
+		8
 	},
 	[3] = {
-		4,
-		7
+		3,
+		9
 	},
 	[9] = {
 		90,
@@ -139,7 +139,7 @@ pg.base.activity_banner = {}
 	}
 	pg.base.activity_banner[3] = {
 		param = "50825",
-		type = 2,
+		type = 3,
 		id = 3,
 		pic = "temp3",
 		time = {
@@ -170,7 +170,7 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[4] = {
-		type = 3,
+		type = 2,
 		id = 4,
 		pic = "temp4",
 		param = {
@@ -278,7 +278,7 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[7] = {
-		type = 3,
+		type = 2,
 		id = 7,
 		pic = "temp7",
 		param = {
@@ -348,7 +348,7 @@ pg.base.activity_banner = {}
 	}
 	pg.base.activity_banner[9] = {
 		param = "50833",
-		type = 2,
+		type = 3,
 		id = 9,
 		pic = "temp9",
 		time = {
