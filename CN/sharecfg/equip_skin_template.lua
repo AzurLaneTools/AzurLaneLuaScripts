@@ -1557,7 +1557,8 @@ pg.equip_skin_template.all = {
 	3069,
 	3071,
 	3072,
-	3075
+	3075,
+	3077
 }
 pg.base = pg.base or {}
 pg.base.equip_skin_template = {}
@@ -64678,6 +64679,46 @@ end)()
 		orbit_hidden_action = {
 			"sleep",
 			"wash"
+		}
+	}
+	pg.base.equip_skin_template[3077] = {
+		hit_sfx = "",
+		bullet_name = "yulei_daliyaofengmishui",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		icon = "99196",
+		name = "达力摇饮料鱼雷",
+		desc = "达力摇摇摇，酸甜炸满屏！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 3077,
+		themeid = 199,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "yulei_daliyaofengmishui_hit",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
 		}
 	}
 end)()

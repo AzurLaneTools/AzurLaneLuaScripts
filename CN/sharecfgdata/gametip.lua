@@ -2456,7 +2456,12 @@ _G.pg.base.gametip.login_game_banned = {
 
 
 _G.pg.base.gametip.login_game_frequence = {
-	tip = "请勿频繁登陆服务器"
+	tip = "请勿频繁登录服务器"
+}
+
+
+_G.pg.base.gametip.login_game_midnightpressure = {
+	tip = "当前登录通道较为拥挤，请稍后再试，避免频繁登录"
 }
 
 
@@ -39197,6 +39202,11 @@ _G.pg.base.gametip.storyline_chapter4 = {
 }
 
 
+_G.pg.base.gametip.storyline_chapter5 = {
+	tip = "间章"
+}
+
+
 _G.pg.base.gametip.storyline_memorysearch1 = {
 	tip = "搜索剧情名"
 }
@@ -48243,6 +48253,46 @@ _G.pg.base.gametip.l2d_tip_off = {
 }
 
 
+_G.pg.base.gametip.YidaliV5FramePage_go = {
+	tip = "前往"
+}
+
+
+_G.pg.base.gametip.YidaliV5FramePage_get = {
+	tip = "领取"
+}
+
+
+_G.pg.base.gametip.YidaliV5FramePage_got = {
+	tip = "已领取"
+}
+
+
+_G.pg.base.gametip["20260514_story_unlock_tip"] = {
+	tip = "5月20日维护后解锁"
+}
+
+
+_G.pg.base.gametip.OutPostCoreActivityUI_subtitle_1 = {
+	tip = "作战准备"
+}
+
+
+_G.pg.base.gametip.OutPostCoreActivityUI_subtitle_2 = {
+	tip = "灰点预兆"
+}
+
+
+_G.pg.base.gametip.OutPostOmenPage_task_tip1 = {
+	tip = "$1月$2日解锁"
+}
+
+
+_G.pg.base.gametip.OutPostOmenPage_task_tip2 = {
+	tip = "领取前一日任务奖励后解锁"
+}
+
+
 _G.pg.base.gametip.play_room_season = {
 	tip = "赛季"
 }
@@ -48700,4 +48750,24 @@ _G.pg.base.gametip.littleMusashi_npc = {
 			info = "7.npc角色无法参与大舰队作战中的事件派遣、攻坚队和首领战。"
 		}
 	}
+}
+
+
+_G.pg.base.gametip["260514_story_title"] = {
+	tip = "灰点预兆"
+}
+
+
+_G.pg.base.gametip["260514_story_title_en"] = {
+	tip = "Omen in dust spot"
+}
+
+
+_G.pg.base.gametip.AnniversaryNineCoreActivityUI_subtitle_6 = {
+	tip = "美好假日"
+}
+
+
+_G.pg.base.gametip.Outpost_20260514_Detail = {
+	tip = "查看详情"
 }

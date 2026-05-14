@@ -78,25 +78,11 @@ slot0.GetPanels = function(slot0)
 end
 
 slot0.NeedRedeem = function(slot0)
-	slot1 = true
-
-	if PLATFORM_CODE == PLATFORM_CH or PLATFORM_CODE == PLATFORM_KR then
-		if PLATFORM == PLATFORM_IPHONEPLAYER then
-			slot1 = false
-		end
-	elseif PLATFORM_CODE == PLATFORM_JP then
-		if PLATFORM == PLATFORM_IPHONEPLAYER then
-			slot1 = false
-		end
-	elseif PLATFORM_CODE == PLATFORM_US then
-		if PLATFORM == PLATFORM_IPHONEPLAYER then
-			slot1 = false
-		end
-	elseif PLATFORM_CODE == PLATFORM_CHT and PLATFORM == PLATFORM_IPHONEPLAYER then
-		slot1 = false
+	if PLATFORM == PLATFORM_IPHONEPLAYER then
+		return SettingsProxy.IsExchangeCodeActive()
+	else
+		return true
 	end
-
-	return slot1
 end
 
 slot0.OnInitPanle = function(slot0)

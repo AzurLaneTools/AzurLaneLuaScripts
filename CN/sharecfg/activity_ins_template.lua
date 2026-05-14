@@ -635,10 +635,12 @@ pg.activity_ins_template.all = {
 	640,
 	641,
 	642,
+	643,
 	20001,
 	20002,
 	20003,
-	20004
+	20004,
+	20005
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_template = {}
@@ -26596,10 +26598,10 @@ end)()
 		ship_group = 10990,
 		name = "Elise",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/260417DOA_yilisivRxdPHqhS625LGo0.png",
 		title = "",
-		message_persist = "",
-		is_active = 1,
+		message_persist = "ins_637",
+		is_active = 0,
 		oalist_pic_persist = "",
 		sculpture = "yilisi_DOA",
 		id = 637,
@@ -26616,17 +26618,31 @@ end)()
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				4,
+				17
+			},
+			{
+				15,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			6988,
+			6993
+		}
 	}
 	pg.base.activity_ins_template[638] = {
 		ship_group = 10991,
 		name = "Shizuku",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/260417DOA_na7VVh5d8tnraRnPvy.png",
 		title = "",
-		message_persist = "",
-		is_active = 1,
+		message_persist = "ins_638",
+		is_active = 0,
 		oalist_pic_persist = "",
 		sculpture = "na_DOA",
 		id = 638,
@@ -26643,17 +26659,31 @@ end)()
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				4,
+				18
+			},
+			{
+				16,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			7002,
+			7005
+		}
 	}
 	pg.base.activity_ins_template[639] = {
 		ship_group = 10992,
 		name = "Shandy",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/260417DOA_xiangdixMvsqnKWndLvty7s.png",
 		title = "",
-		message_persist = "",
-		is_active = 1,
+		message_persist = "ins_639",
+		is_active = 0,
 		oalist_pic_persist = "",
 		sculpture = "xiangdi_DOA",
 		id = 639,
@@ -26670,17 +26700,31 @@ end)()
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				4,
+				19
+			},
+			{
+				20,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			7014,
+			7018
+		}
 	}
 	pg.base.activity_ins_template[640] = {
 		ship_group = 10993,
 		name = "Tsukushi",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/260417DOA_zhuzib6OApJE8uC4SBsec.png",
 		title = "",
-		message_persist = "",
-		is_active = 1,
+		message_persist = "ins_640",
+		is_active = 0,
 		oalist_pic_persist = "",
 		sculpture = "zhuzi_DOA",
 		id = 640,
@@ -26697,17 +26741,31 @@ end)()
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				4,
+				20
+			},
+			{
+				14,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			7027,
+			7031
+		}
 	}
 	pg.base.activity_ins_template[641] = {
 		ship_group = 10994,
 		name = "Patty",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/260417DOA_paidiiqiMsC88yXuOGUr2.png",
 		title = "",
-		message_persist = "",
-		is_active = 1,
+		message_persist = "ins_641",
+		is_active = 0,
 		oalist_pic_persist = "",
 		sculpture = "paidi_DOA",
 		id = 641,
@@ -26724,17 +26782,31 @@ end)()
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				4,
+				21
+			},
+			{
+				11,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			7042,
+			7046
+		}
 	}
 	pg.base.activity_ins_template[642] = {
 		ship_group = 10995,
 		name = "Yukino",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/260417DOA_qiannaiBwyUtrDux7rSrMPg.png",
 		title = "",
-		message_persist = "",
-		is_active = 1,
+		message_persist = "ins_642",
+		is_active = 0,
 		oalist_pic_persist = "",
 		sculpture = "qiannai_DOA",
 		id = 642,
@@ -26747,6 +26819,47 @@ end)()
 			},
 			{
 				13,
+				0,
+				0
+			}
+		},
+		time_persist = {
+			{
+				2026,
+				4,
+				22
+			},
+			{
+				13,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			7056,
+			7059
+		}
+	}
+	pg.base.activity_ins_template[643] = {
+		ship_group = 40152,
+		name = "Blitz-Z52",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "Z52",
+		id = 643,
+		group_id = 643,
+		time = {
+			{
+				2026,
+				5,
+				14
+			},
+			{
+				15,
 				0,
 				0
 			}
@@ -26852,6 +26965,33 @@ end)()
 				2026,
 				4,
 				17
+			},
+			{
+				11,
+				0,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[20005] = {
+		ship_group = 0,
+		name = "",
+		type = 2,
+		picture_persist = "",
+		title = "【港区秘闻】最新度假情报！！",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "",
+		id = 20005,
+		group_id = 20005,
+		time = {
+			{
+				2026,
+				5,
+				14
 			},
 			{
 				11,

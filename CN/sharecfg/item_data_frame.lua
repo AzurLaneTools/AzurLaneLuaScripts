@@ -63,6 +63,7 @@ pg.item_data_frame.all = {
 	335,
 	336,
 	337,
+	341,
 	401,
 	402,
 	404,
@@ -648,6 +649,15 @@ pg.base.item_data_frame = {}
 		desc = "「久疏问候，指挥官——我回来了」\n<color=#A7A7AA>「响彻于天穹之音」活动获取</color>",
 		scene = {}
 	}
+	pg.base.item_data_frame[341] = {
+		name = "神圣盟约",
+		gain_by = "",
+		time_second = 0,
+		id = 341,
+		time_limit_type = 0,
+		desc = "通过后续活动获得",
+		scene = {}
+	}
 	pg.base.item_data_frame[401] = {
 		name = "殿堂纪念：企业",
 		gain_by = "",
@@ -1008,6 +1018,8 @@ pg.base.item_data_frame = {}
 		desc = "结晶之中闪烁着狮子座的光芒，献给勇于挑战极限的指挥官！\n<color=#A7A7AA>通过参与「限界挑战」获取 （23.08.01-23.08.31）</color>",
 		scene = {}
 	}
+end)()
+(function ()
 	pg.base.item_data_frame[10004] = {
 		name = "限界的挑战者·处女座",
 		gain_by = "",
@@ -1017,8 +1029,6 @@ pg.base.item_data_frame = {}
 		desc = "结晶之中闪烁着处女座的光芒，献给勇于挑战极限的指挥官！\n<color=#A7A7AA>通过参与「限界挑战」获取 （23.09.01-23.09.30）</color>",
 		scene = {}
 	}
-end)()
-(function ()
 	pg.base.item_data_frame[10005] = {
 		name = "限界的挑战者·天秤座",
 		gain_by = "",

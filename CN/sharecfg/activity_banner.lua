@@ -30,10 +30,12 @@ pg.activity_banner.get_id_list_by_type = {
 	{
 		1,
 		2,
-		3,
 		4,
 		5,
-		6,
+		6
+	},
+	{
+		3,
 		8,
 		9
 	},
@@ -63,38 +65,13 @@ pg.base.activity_banner = {}
 
 (function ()
 	pg.base.activity_banner[1] = {
+		time = "stop",
 		type = 2,
 		id = 1,
 		pic = "temp1",
 		param = {
 			"scene skinshop",
 			{}
-		},
-		time = {
-			{
-				{
-					2026,
-					5,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					5,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.activity_banner[2] = {
@@ -111,14 +88,34 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[3] = {
-		time = "stop",
-		type = 2,
+		param = "51005",
+		type = 3,
 		id = 3,
 		pic = "temp3",
-		param = {
-			"scene core activity",
+		time = {
 			{
-				coreName = "YunLongSPCoreActivityUI"
+				{
+					2026,
+					5,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					20
+				},
+				{
+					12,
+					0,
+					0
+				}
 			}
 		}
 	}
@@ -147,12 +144,40 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[6] = {
-		time = "stop",
 		type = 2,
 		id = 6,
 		pic = "temp6",
 		param = {
-			"scene court yard"
+			"scene core activity",
+			{
+				coreName = "OutPostCoreActivityUI"
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					5,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					20
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
 		}
 	}
 	pg.base.activity_banner[7] = {
@@ -188,22 +213,16 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[8] = {
-		type = 2,
+		param = "51001",
+		type = 3,
 		id = 8,
 		pic = "temp8",
-		param = {
-			"scene equip",
-			{
-				designPage = 2,
-				warp = "WARP_TO_DESIGN"
-			}
-		},
 		time = {
 			{
 				{
 					2026,
 					5,
-					7
+					14
 				},
 				{
 					0,
@@ -215,7 +234,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					5,
-					14
+					20
 				},
 				{
 					12,
@@ -226,22 +245,16 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[9] = {
-		type = 2,
+		param = "51002",
+		type = 3,
 		id = 9,
 		pic = "temp9",
-		param = {
-			"scene level",
-			{
-				open_remaster = true,
-				isSP = true
-			}
-		},
 		time = {
 			{
 				{
 					2026,
 					5,
-					7
+					14
 				},
 				{
 					0,
@@ -253,7 +266,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					5,
-					14
+					20
 				},
 				{
 					12,

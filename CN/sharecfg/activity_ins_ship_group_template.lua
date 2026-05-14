@@ -655,6 +655,9 @@ pg.activity_ins_ship_group_template.all = {
 	30229,
 	30806,
 	30125,
+	20605,
+	40120,
+	60506,
 	10990,
 	10991,
 	10992,
@@ -6545,6 +6548,33 @@ end)()
 		background = "",
 		sculpture = "youming",
 		nationality = 3,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[20605] = {
+		ship_group = 20605,
+		name = "Chaser",
+		background = "",
+		sculpture = "zhuiganzhe",
+		nationality = 0,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[40120] = {
+		ship_group = 40120,
+		name = "Karl Galster",
+		background = "",
+		sculpture = "Z20",
+		nationality = 0,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[60506] = {
+		ship_group = 60506,
+		name = "Giulio Cesare",
+		background = "",
+		sculpture = "kaisa",
+		nationality = 0,
 		type = 1,
 		sculpture_ii = ""
 	}

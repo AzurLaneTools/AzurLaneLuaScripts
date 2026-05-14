@@ -229,6 +229,7 @@ pg.furniture_data_template.all = {
 	331,
 	332,
 	333,
+	334,
 	100001,
 	100002,
 	100003,
@@ -3934,6 +3935,7 @@ pg.furniture_data_template.get_id_list_by_themeId = {
 		331,
 		332,
 		333,
+		334,
 		100001,
 		100002,
 		100003,
@@ -11005,6 +11007,7 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		328,
 		329,
 		330,
+		334,
 		100001,
 		100002,
 		100003,
@@ -15045,6 +15048,7 @@ pg.furniture_data_template.get_id_list_by_type = {
 		281,
 		282,
 		308,
+		334,
 		100003,
 		100008,
 		100021,
@@ -26456,6 +26460,95 @@ end)()
 		},
 		interAction_group = {}
 	}
+	pg.base.furniture_data_template[334] = {
+		advice = 0,
+		name = "飞行代步机",
+		count = 1,
+		type = 11,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "piaohuawurenjiicon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		id = 334,
+		comfortable = 0,
+		describe = "充电十分钟，飞行十小时！新时代飞行代步机，你值得拥有！",
+		dorm_id = 0,
+		tag = 6,
+		spine_extra = "",
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"piaohuawurenjiB",
+				"normal"
+			},
+			{
+				"piaohuawurenjiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.8
+		},
+		spine_action_replace = {
+			{
+				"tuozhuai2",
+				{
+					20705
+				},
+				"fur_kewei",
+				0,
+				2
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	}
 	pg.base.furniture_data_template[100001] = {
 		advice = 0,
 		name = "本ID禁用，后端固定会删除",
@@ -31751,6 +31844,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[100075] = {
 		can_rotate = 0,
 		describe = "填充有神秘材料的神秘沙漏，倒过来试试看吧~",
@@ -31799,8 +31894,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[100076] = {
 		can_rotate = 0,
 		describe = "bulubulubulu~啾——bulubulubulu~",
@@ -36469,6 +36562,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[4106] = {
 		can_rotate = 0,
 		describe = "一款风靡世界的娱乐活动，但是小心不要捅到人啊！",
@@ -36507,8 +36602,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[4107] = {
 		can_rotate = 0,
 		describe = "厚实的沙发座椅，感觉好像能整个人都陷进去啊。",
@@ -40818,6 +40911,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[7123] = {
 		can_rotate = 0,
 		describe = "西瓜小凳，一张只能坐一个人",
@@ -40869,8 +40964,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[7201] = {
 		can_rotate = 0,
 		describe = "咝~~~~大脑在颤抖！",
@@ -45206,6 +45299,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[10106] = {
 		can_rotate = 0,
 		describe = "窗边的小凳，并不清楚用途",
@@ -45268,8 +45363,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[10107] = {
 		can_rotate = 0,
 		describe = "红纸大灯笼",
@@ -49588,6 +49681,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[13110] = {
 		can_rotate = 0,
 		describe = "来来，进来给你们看个好东西",
@@ -49664,8 +49759,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[13111] = {
 		can_rotate = 0,
 		describe = "兴趣使然的飞行器",
@@ -54027,6 +54120,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[17111] = {
 		can_rotate = 0,
 		describe = "一条长长的石板路",
@@ -54065,8 +54160,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[17112] = {
 		can_rotate = 0,
 		describe = "一条长长的石板路",
@@ -58974,6 +59067,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[21105] = {
 		can_rotate = 0,
 		describe = "粉色的蝴蝶结透出梦幻的气息",
@@ -59012,8 +59107,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[21106] = {
 		can_rotate = 0,
 		describe = "为新人弹奏一曲梦幻的恋歌啾",
@@ -63745,6 +63838,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[24123] = {
 		advice = 0,
 		name = "喵喵吓人箱·褐",
@@ -63827,8 +63922,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[24124] = {
 		advice = 0,
 		name = "喵喵吓人箱·灰",
@@ -68538,6 +68631,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[28122] = {
 		can_rotate = 0,
 		describe = "森林里造木屋必不可少的地板",
@@ -68576,8 +68671,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[28123] = {
 		can_rotate = 0,
 		describe = "单人休息用的小木屋",
@@ -73415,6 +73508,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[33103] = {
 		can_rotate = 0,
 		describe = "看起来似乎…不是很好吃",
@@ -73453,8 +73548,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[33104] = {
 		can_rotate = 1,
 		describe = "要来捞金鱼吗？还是要买个水球呢~",
@@ -77932,6 +78025,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[37102] = {
 		can_rotate = 0,
 		describe = "雪花状的风车似乎带来了寒冷的空气",
@@ -77970,8 +78065,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[37103] = {
 		can_rotate = 0,
 		describe = "圣诞老人也要遵守交通规则哦！",
@@ -82373,6 +82466,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[40001] = {
 		can_rotate = 0,
 		describe = "没法听到呐喊后的回声是唯一的遗憾了吧～",
@@ -82408,8 +82503,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[40002] = {
 		can_rotate = 0,
 		describe = "一起来踩雪吧！",
@@ -86972,6 +87065,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[43201] = {
 		can_rotate = 0,
 		describe = "爱酱演唱会专用荧光棒，让我看到你们的手！",
@@ -87010,8 +87105,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[43202] = {
 		can_rotate = 0,
 		describe = "搭载了超级AI的游戏手柄，再怎么手残的玩家都能变成游戏高手！（预订",
@@ -91151,6 +91244,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[46114] = {
 		can_rotate = 0,
 		describe = "当心不要撞到了哦",
@@ -91189,8 +91284,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[46115] = {
 		can_rotate = 1,
 		describe = "发光的是氦哦~",
@@ -95453,6 +95546,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[50117] = {
 		can_rotate = 0,
 		describe = "茫茫荒野中的一湾水塘~",
@@ -95505,8 +95600,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[50118] = {
 		can_rotate = 0,
 		describe = "停个车，去补充点食物吧~",
@@ -100067,6 +100160,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[55121] = {
 		advice = 0,
 		name = "大海（室内版）",
@@ -100139,8 +100234,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[55201] = {
 		can_rotate = 0,
 		describe = "要多喝热水哦~",
@@ -104340,6 +104433,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[59115] = {
 		can_rotate = 0,
 		describe = "收下吧！我最真实的心意！",
@@ -104388,8 +104483,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[59116] = {
 		advice = 0,
 		name = "甜蜜旋转木马",
@@ -108699,6 +108792,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[63111] = {
 		can_rotate = 0,
 		describe = "为欢乐餐厅点缀上绿意~",
@@ -108737,8 +108832,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[63112] = {
 		can_rotate = 0,
 		describe = "吃着美味，坐着舒适的完美比萨~",
@@ -113123,6 +113216,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[70103] = {
 		can_rotate = 0,
 		describe = "正在努力应援的啾啾们",
@@ -113161,8 +113256,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[70104] = {
 		can_rotate = 0,
 		describe = "记录下每个激动人心的瞬间啾！",
@@ -117771,6 +117864,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[73304] = {
 		can_rotate = 0,
 		describe = "能看到外面圣夜的冰雪。",
@@ -117809,8 +117904,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[73305] = {
 		can_rotate = 0,
 		describe = "散发着温馨暖色光的挂灯",
@@ -122185,6 +122278,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[78104] = {
 		can_rotate = 0,
 		describe = "下面弹奏一首…欢乐颂啾！",
@@ -122223,8 +122318,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[78105] = {
 		can_rotate = 0,
 		describe = "以清水洗涤身心啾！",
@@ -126501,6 +126594,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[82114] = {
 		can_rotate = 0,
 		describe = "烘托出一丝荒凉的气息。",
@@ -126539,8 +126634,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[82115] = {
 		can_rotate = 0,
 		describe = "似乎很容易打烂的木栅栏。",
@@ -131052,6 +131145,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[85202] = {
 		can_rotate = 0,
 		describe = "隔着玻璃都能感觉到的咖啡香气~",
@@ -131090,8 +131185,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[85203] = {
 		can_rotate = 0,
 		describe = "能不靠号码牌记住每桌点单顺序，你就能独当一面了！",
@@ -135191,6 +135284,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[89126] = {
 		advice = 0,
 		name = "传统书桌",
@@ -135275,8 +135370,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[89201] = {
 		can_rotate = 0,
 		describe = "记得给它补充水分哦。",
@@ -139251,6 +139344,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[94001] = {
 		can_rotate = 0,
 		describe = "快乐的学园庆典，开催！",
@@ -139286,8 +139381,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[94002] = {
 		can_rotate = 0,
 		describe = "快乐的学园庆典，开催！",
@@ -143598,6 +143691,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[97103] = {
 		can_rotate = 0,
 		describe = "坐上去不会变臭吧……？",
@@ -143649,8 +143744,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[97104] = {
 		can_rotate = 0,
 		describe = "泡久了会不会变成甜点！？",
@@ -148053,6 +148146,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[300109] = {
 		can_rotate = 0,
 		describe = "用木板铺设的简易道路",
@@ -148091,8 +148186,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[300111] = {
 		can_rotate = 0,
 		describe = "堆放在一起的圆木",
@@ -152965,6 +153058,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[303116] = {
 		can_rotate = 0,
 		describe = "进入温泉前请先清洁哦~",
@@ -153009,8 +153104,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[303117] = {
 		advice = 0,
 		name = "常世温泉",
@@ -157610,6 +157703,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[307110] = {
 		can_rotate = 0,
 		describe = "只要在眼睛上点一笔，就会活过来了！",
@@ -157648,8 +157743,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[307111] = {
 		can_rotate = 0,
 		describe = "除夕夜大餐的绝佳场所！",
@@ -162158,6 +162251,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[312104] = {
 		can_rotate = 0,
 		describe = "只能用来装饰的轮胎，不可以搬到赛场上哦。",
@@ -162196,8 +162291,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[312105] = {
 		can_rotate = 0,
 		describe = "来一场紧张刺激的模拟赛吧！",
@@ -167005,6 +167098,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[317103] = {
 		can_rotate = 0,
 		describe = "这里能创造出拯救世界的武器吗？不过要小心被台灯刺伤眼睛哦！",
@@ -167053,8 +167148,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[317104] = {
 		can_rotate = 0,
 		describe = "看着升起的炊烟，感觉眼皮越来越沉了……",
@@ -171738,6 +171831,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[321118] = {
 		can_rotate = 0,
 		describe = "上面的花饰才是点睛之笔！",
@@ -171776,8 +171871,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[322001] = {
 		can_rotate = 0,
 		describe = "沙滩与浪花，享受海滨假日的悠闲时光吧~",
@@ -176214,6 +176307,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[327112] = {
 		can_rotate = 0,
 		describe = "魔法撑开花蕊，舒展花瓣，让清新的花朵而绽放",
@@ -176262,8 +176357,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[327113] = {
 		can_rotate = 0,
 		describe = "应该算是庭院观赏植物……吧？",
@@ -180920,6 +181013,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[333102] = {
 		can_rotate = 0,
 		describe = "现在是享受鲜花与茶点的时间，一起来吧~",
@@ -180958,8 +181053,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[333103] = {
 		can_rotate = 0,
 		describe = "宽敞舒服的大圆床，像是睡在大蛋糕上一样~",
@@ -185738,6 +185831,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[337112] = {
 		can_rotate = 0,
 		describe = "点燃这盏海滨风的灯笼，让柔和火光温暖你的沙滩夜晚吧~",
@@ -185776,8 +185871,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[337113] = {
 		can_rotate = 0,
 		describe = "摆着鲜花的餐桌和椅子，享用美食的完美角落~",

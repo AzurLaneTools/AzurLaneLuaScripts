@@ -1,6 +1,6 @@
 slot0 = class("UIStrikeAnim", import(".UIAnim"))
 slot0.Fields = {
-	char = "userdata",
+	char = "table",
 	aniEvent = "userdata",
 	painting = "userdata",
 	playing = "boolean",

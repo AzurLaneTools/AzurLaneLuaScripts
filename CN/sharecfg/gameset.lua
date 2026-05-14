@@ -4441,4 +4441,8 @@ end)()
 		description = "2",
 		key_value = 2
 	}
+	pg.base.gameset.exchangecode_ios_on = {
+		description = "",
+		key_value = 1
+	}
 end)()

@@ -435,6 +435,8 @@ pg.name_code.all = {
 	552,
 	553,
 	554,
+	555,
+	556,
 	10000,
 	10001,
 	10002,
@@ -3478,6 +3480,20 @@ end)()
 		type = 1,
 		id = 554,
 		code = "小鳄",
+		nation = 0
+	}
+	pg.base.name_code[555] = {
+		name = "柯尼斯堡·META",
+		type = 1,
+		id = 555,
+		code = "阿尔伯缇娜·META",
+		nation = 0
+	}
+	pg.base.name_code[556] = {
+		name = "易北·META",
+		type = 1,
+		id = 556,
+		code = "埃尔斯贝特·META",
 		nation = 0
 	}
 	pg.base.name_code[10000] = {
