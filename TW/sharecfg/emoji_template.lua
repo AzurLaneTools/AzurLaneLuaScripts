@@ -1,6 +1,197 @@
 pg = pg or {}
-pg.emoji_template = {
-	{
+pg.emoji_template = rawget(pg, "emoji_template") or setmetatable({
+	__name = "emoji_template"
+}, confNEO)
+pg.emoji_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	39,
+	40,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	47,
+	48,
+	49,
+	50,
+	51,
+	52,
+	53,
+	54,
+	55,
+	56,
+	57,
+	58,
+	59,
+	60,
+	61,
+	62,
+	63,
+	64,
+	65,
+	66,
+	67,
+	68,
+	100,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	110,
+	111,
+	112,
+	113,
+	114,
+	201,
+	202,
+	203,
+	204,
+	205,
+	206,
+	207,
+	208,
+	209,
+	210,
+	211,
+	212,
+	213,
+	214,
+	215,
+	216,
+	217,
+	218,
+	219,
+	220,
+	221,
+	222,
+	223,
+	224,
+	225,
+	226,
+	227,
+	228,
+	229,
+	230,
+	231,
+	232,
+	233,
+	234,
+	235,
+	236,
+	237,
+	238,
+	239,
+	240,
+	241,
+	242,
+	243,
+	244,
+	245,
+	246,
+	247,
+	248,
+	301,
+	302,
+	303,
+	304,
+	305,
+	306,
+	307,
+	308,
+	309,
+	310,
+	311,
+	312,
+	313,
+	314,
+	315,
+	316,
+	317,
+	318,
+	319,
+	320,
+	321,
+	322,
+	323,
+	324,
+	351,
+	352,
+	353,
+	354,
+	355,
+	356,
+	357,
+	358,
+	359,
+	360,
+	361,
+	362,
+	363,
+	365,
+	366,
+	367,
+	368,
+	369,
+	370,
+	371,
+	372,
+	373,
+	374,
+	375,
+	1041,
+	1042,
+	1043,
+	1044
+}
+pg.base = pg.base or {}
+pg.base.emoji_template = {}
+
+(function ()
+	pg.base.emoji_template[1] = {
 		achieve = 0,
 		index = 41,
 		pic = "1",
@@ -12,8 +203,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[2] = {
 		achieve = 0,
 		index = 42,
 		pic = "2",
@@ -25,8 +216,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[3] = {
 		achieve = 0,
 		index = 43,
 		pic = "3",
@@ -38,8 +229,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[4] = {
 		achieve = 0,
 		index = 44,
 		pic = "4",
@@ -51,8 +242,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[5] = {
 		achieve = 0,
 		index = 45,
 		pic = "5",
@@ -64,8 +255,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[6] = {
 		achieve = 0,
 		index = 46,
 		pic = "6",
@@ -77,8 +268,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[7] = {
 		achieve = 0,
 		index = 47,
 		pic = "7",
@@ -90,8 +281,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[8] = {
 		achieve = 0,
 		index = 48,
 		pic = "8",
@@ -103,8 +294,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[9] = {
 		achieve = 0,
 		index = 49,
 		pic = "9",
@@ -116,8 +307,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[10] = {
 		achieve = 0,
 		index = 50,
 		pic = "10",
@@ -129,8 +320,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[11] = {
 		achieve = 0,
 		index = 51,
 		pic = "11",
@@ -142,8 +333,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[12] = {
 		achieve = 0,
 		index = 52,
 		pic = "12",
@@ -155,8 +346,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[13] = {
 		achieve = 0,
 		index = 53,
 		pic = "13",
@@ -168,8 +359,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[14] = {
 		achieve = 0,
 		index = 54,
 		pic = "14",
@@ -181,8 +372,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[15] = {
 		achieve = 0,
 		index = 55,
 		pic = "15",
@@ -194,8 +385,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[16] = {
 		achieve = 0,
 		index = 56,
 		pic = "16",
@@ -207,8 +398,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[17] = {
 		achieve = 0,
 		index = 57,
 		pic = "17",
@@ -220,8 +411,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[18] = {
 		achieve = 0,
 		index = 58,
 		pic = "18",
@@ -233,8 +424,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[19] = {
 		achieve = 0,
 		index = 59,
 		pic = "19",
@@ -246,8 +437,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[20] = {
 		achieve = 0,
 		index = 60,
 		pic = "20",
@@ -259,8 +450,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[21] = {
 		achieve = 0,
 		index = 61,
 		pic = "21",
@@ -272,8 +463,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[22] = {
 		achieve = 0,
 		index = 62,
 		pic = "22",
@@ -285,8 +476,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[23] = {
 		achieve = 0,
 		index = 63,
 		pic = "23",
@@ -298,8 +489,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[24] = {
 		achieve = 0,
 		index = 64,
 		pic = "24",
@@ -311,8 +502,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[25] = {
 		achieve = 0,
 		index = 65,
 		pic = "25",
@@ -324,8 +515,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[26] = {
 		achieve = 0,
 		index = 66,
 		pic = "26",
@@ -337,8 +528,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[27] = {
 		achieve = 0,
 		index = 67,
 		pic = "27",
@@ -350,8 +541,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[28] = {
 		achieve = 0,
 		index = 68,
 		pic = "28",
@@ -363,8 +554,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[29] = {
 		achieve = 0,
 		index = 69,
 		pic = "29",
@@ -376,8 +567,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[30] = {
 		achieve = 0,
 		index = 70,
 		pic = "30",
@@ -389,8 +580,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[31] = {
 		achieve = 0,
 		index = 71,
 		pic = "31",
@@ -402,8 +593,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[32] = {
 		achieve = 0,
 		index = 72,
 		pic = "32",
@@ -415,8 +606,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[33] = {
 		achieve = 1,
 		index = 73,
 		pic = "33",
@@ -428,8 +619,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[34] = {
 		achieve = 1,
 		index = 74,
 		pic = "34",
@@ -441,8 +632,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[35] = {
 		achieve = 1,
 		index = 75,
 		pic = "35",
@@ -454,8 +645,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[36] = {
 		achieve = 1,
 		index = 76,
 		pic = "36",
@@ -467,8 +658,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[37] = {
 		achieve = 1,
 		index = 83,
 		pic = "37",
@@ -480,8 +671,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[38] = {
 		achieve = 1,
 		index = 84,
 		pic = "38",
@@ -493,8 +684,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[39] = {
 		achieve = 1,
 		index = 85,
 		pic = "39",
@@ -506,8 +697,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[40] = {
 		achieve = 1,
 		index = 86,
 		pic = "40",
@@ -519,8 +710,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[41] = {
 		achieve = 0,
 		index = 1001,
 		pic = "akk",
@@ -532,8 +723,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[42] = {
 		achieve = 0,
 		index = 1002,
 		pic = "beifa",
@@ -545,8 +736,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[43] = {
 		achieve = 0,
 		index = 1003,
 		pic = "biaoqiang",
@@ -558,8 +749,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[44] = {
 		achieve = 0,
 		index = 1004,
 		pic = "buli",
@@ -571,8 +762,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[45] = {
 		achieve = 0,
 		index = 1005,
 		pic = "dujiaoshou",
@@ -584,8 +775,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[46] = {
 		achieve = 0,
 		index = 1006,
 		pic = "fangzhou",
@@ -597,8 +788,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[47] = {
 		achieve = 0,
 		index = 1007,
 		pic = "gaoxiong",
@@ -610,8 +801,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[48] = {
 		achieve = 0,
 		index = 1008,
 		pic = "haiwangxing",
@@ -623,8 +814,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[49] = {
 		achieve = 0,
 		index = 1009,
 		pic = "haman",
@@ -636,8 +827,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[50] = {
 		achieve = 0,
 		index = 1010,
 		pic = "kedie",
@@ -649,8 +840,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[51] = {
 		achieve = 0,
 		index = 1011,
 		pic = "lafei",
@@ -662,8 +853,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[52] = {
 		achieve = 0,
 		index = 1012,
 		pic = "lingbo",
@@ -675,8 +866,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[53] = {
 		achieve = 0,
 		index = 1013,
 		pic = "logo",
@@ -688,8 +879,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[54] = {
 		achieve = 0,
 		index = 1014,
 		pic = "mingshi",
@@ -701,8 +892,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[55] = {
 		achieve = 0,
 		index = 1015,
 		pic = "muyue",
@@ -714,8 +905,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[56] = {
 		achieve = 0,
 		index = 1016,
 		pic = "naerxun",
@@ -727,8 +918,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[57] = {
 		achieve = 0,
 		index = 1017,
 		pic = "neet",
@@ -740,8 +931,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[58] = {
 		achieve = 0,
 		index = 1018,
 		pic = "ninghai",
@@ -753,8 +944,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[59] = {
 		achieve = 0,
 		index = 1019,
 		pic = "qiye",
@@ -766,8 +957,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[60] = {
 		achieve = 0,
 		index = 1020,
 		pic = "ruihe",
@@ -779,8 +970,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[61] = {
 		achieve = 0,
 		index = 1021,
 		pic = "ruyue",
@@ -792,8 +983,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[62] = {
 		achieve = 0,
 		index = 1022,
 		pic = "shancheng",
@@ -805,8 +996,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[63] = {
 		achieve = 0,
 		index = 1023,
 		pic = "xiefei",
@@ -818,8 +1009,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[64] = {
 		achieve = 0,
 		index = 1024,
 		pic = "xixue",
@@ -831,8 +1022,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[65] = {
 		achieve = 0,
 		index = 1025,
 		pic = "z23",
@@ -844,8 +1035,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[66] = {
 		achieve = 0,
 		index = 1024,
 		pic = "xixue",
@@ -857,8 +1048,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[67] = {
 		achieve = 1,
 		index = 1026,
 		pic = "zhaohe_4",
@@ -870,8 +1061,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.emoji_template[68] = {
 		achieve = 1,
 		index = 1027,
 		pic = "yingrui_4",
@@ -883,8 +1074,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[100] = {
+	}
+	pg.base.emoji_template[100] = {
 		achieve = 0,
 		index = 2001,
 		pic = "imsgSticke_akagi",
@@ -896,8 +1087,8 @@ pg.emoji_template = {
 		type = {
 			3
 		}
-	},
-	[101] = {
+	}
+	pg.base.emoji_template[101] = {
 		achieve = 0,
 		index = 2002,
 		pic = "imsgSticke_akashi",
@@ -909,8 +1100,8 @@ pg.emoji_template = {
 		type = {
 			3
 		}
-	},
-	[102] = {
+	}
+	pg.base.emoji_template[102] = {
 		achieve = 0,
 		index = 2003,
 		pic = "imsgSticke_arkroyal",
@@ -922,8 +1113,8 @@ pg.emoji_template = {
 		type = {
 			3
 		}
-	},
-	[103] = {
+	}
+	pg.base.emoji_template[103] = {
 		achieve = 0,
 		index = 2004,
 		pic = "imsgSticke_enterprise",
@@ -935,8 +1126,8 @@ pg.emoji_template = {
 		type = {
 			3
 		}
-	},
-	[104] = {
+	}
+	pg.base.emoji_template[104] = {
 		achieve = 0,
 		index = 2005,
 		pic = "imsgSticke_hammann",
@@ -948,8 +1139,8 @@ pg.emoji_template = {
 		type = {
 			3
 		}
-	},
-	[105] = {
+	}
+	pg.base.emoji_template[105] = {
 		achieve = 0,
 		index = 2006,
 		pic = "imsgSticke_kaga",
@@ -961,8 +1152,8 @@ pg.emoji_template = {
 		type = {
 			3
 		}
-	},
-	[106] = {
+	}
+	pg.base.emoji_template[106] = {
 		achieve = 0,
 		index = 2007,
 		pic = "imsgSticke_laffey",
@@ -974,8 +1165,8 @@ pg.emoji_template = {
 		type = {
 			3
 		}
-	},
-	[107] = {
+	}
+	pg.base.emoji_template[107] = {
 		achieve = 0,
 		index = 2008,
 		pic = "imsgSticke_longisland",
@@ -987,8 +1178,8 @@ pg.emoji_template = {
 		type = {
 			3
 		}
-	},
-	[108] = {
+	}
+	pg.base.emoji_template[108] = {
 		achieve = 0,
 		index = 2009,
 		pic = "imsgSticke_mutsuki",
@@ -1000,8 +1191,8 @@ pg.emoji_template = {
 		type = {
 			3
 		}
-	},
-	[109] = {
+	}
+	pg.base.emoji_template[109] = {
 		achieve = 0,
 		index = 2010,
 		pic = "imsgSticke_portland",
@@ -1013,8 +1204,8 @@ pg.emoji_template = {
 		type = {
 			3
 		}
-	},
-	[110] = {
+	}
+	pg.base.emoji_template[110] = {
 		achieve = 0,
 		index = 2011,
 		pic = "imsgSticke_sandiego",
@@ -1026,8 +1217,8 @@ pg.emoji_template = {
 		type = {
 			3
 		}
-	},
-	[111] = {
+	}
+	pg.base.emoji_template[111] = {
 		achieve = 0,
 		index = 2012,
 		pic = "imsgSticke_shiratsuyu",
@@ -1039,8 +1230,8 @@ pg.emoji_template = {
 		type = {
 			3
 		}
-	},
-	[112] = {
+	}
+	pg.base.emoji_template[112] = {
 		achieve = 0,
 		index = 2013,
 		pic = "imsgSticke_tirpitz",
@@ -1052,8 +1243,8 @@ pg.emoji_template = {
 		type = {
 			3
 		}
-	},
-	[113] = {
+	}
+	pg.base.emoji_template[113] = {
 		achieve = 0,
 		index = 2014,
 		pic = "imsgSticke_unicorn",
@@ -1065,8 +1256,8 @@ pg.emoji_template = {
 		type = {
 			3
 		}
-	},
-	[114] = {
+	}
+	pg.base.emoji_template[114] = {
 		achieve = 0,
 		index = 2015,
 		pic = "imsgSticke_warspite",
@@ -1078,8 +1269,8 @@ pg.emoji_template = {
 		type = {
 			3
 		}
-	},
-	[201] = {
+	}
+	pg.base.emoji_template[201] = {
 		achieve = 0,
 		index = 1,
 		pic = "line_part2_1",
@@ -1091,8 +1282,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[202] = {
+	}
+	pg.base.emoji_template[202] = {
 		achieve = 0,
 		index = 2,
 		pic = "line_part2_2",
@@ -1104,8 +1295,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[203] = {
+	}
+	pg.base.emoji_template[203] = {
 		achieve = 0,
 		index = 3,
 		pic = "line_part2_3",
@@ -1117,8 +1308,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[204] = {
+	}
+	pg.base.emoji_template[204] = {
 		achieve = 0,
 		index = 4,
 		pic = "line_part2_4",
@@ -1130,8 +1321,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[205] = {
+	}
+	pg.base.emoji_template[205] = {
 		achieve = 0,
 		index = 5,
 		pic = "line_part2_5",
@@ -1143,8 +1334,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[206] = {
+	}
+	pg.base.emoji_template[206] = {
 		achieve = 0,
 		index = 6,
 		pic = "line_part2_6",
@@ -1156,8 +1347,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[207] = {
+	}
+	pg.base.emoji_template[207] = {
 		achieve = 0,
 		index = 7,
 		pic = "line_part2_7",
@@ -1169,8 +1360,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[208] = {
+	}
+	pg.base.emoji_template[208] = {
 		achieve = 0,
 		index = 8,
 		pic = "line_part2_8",
@@ -1182,8 +1373,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[209] = {
+	}
+	pg.base.emoji_template[209] = {
 		achieve = 0,
 		index = 9,
 		pic = "line_part2_9",
@@ -1195,8 +1386,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[210] = {
+	}
+	pg.base.emoji_template[210] = {
 		achieve = 0,
 		index = 10,
 		pic = "line_part2_10",
@@ -1208,8 +1399,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[211] = {
+	}
+	pg.base.emoji_template[211] = {
 		achieve = 0,
 		index = 11,
 		pic = "line_part2_11",
@@ -1221,8 +1412,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[212] = {
+	}
+	pg.base.emoji_template[212] = {
 		achieve = 0,
 		index = 12,
 		pic = "line_part2_12",
@@ -1234,8 +1425,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[213] = {
+	}
+	pg.base.emoji_template[213] = {
 		achieve = 0,
 		index = 13,
 		pic = "line_part2_13",
@@ -1247,8 +1438,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[214] = {
+	}
+	pg.base.emoji_template[214] = {
 		achieve = 0,
 		index = 14,
 		pic = "line_part2_14",
@@ -1260,8 +1451,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[215] = {
+	}
+	pg.base.emoji_template[215] = {
 		achieve = 0,
 		index = 15,
 		pic = "line_part2_15",
@@ -1273,8 +1464,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[216] = {
+	}
+	pg.base.emoji_template[216] = {
 		achieve = 0,
 		index = 16,
 		pic = "line_part2_16",
@@ -1286,8 +1477,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[217] = {
+	}
+	pg.base.emoji_template[217] = {
 		achieve = 0,
 		index = 17,
 		pic = "line_part2_17",
@@ -1299,8 +1490,10 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[218] = {
+	}
+end)()
+(function ()
+	pg.base.emoji_template[218] = {
 		achieve = 0,
 		index = 18,
 		pic = "line_part2_18",
@@ -1312,8 +1505,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[219] = {
+	}
+	pg.base.emoji_template[219] = {
 		achieve = 0,
 		index = 19,
 		pic = "line_part2_19",
@@ -1325,8 +1518,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[220] = {
+	}
+	pg.base.emoji_template[220] = {
 		achieve = 0,
 		index = 20,
 		pic = "line_part2_20",
@@ -1338,8 +1531,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[221] = {
+	}
+	pg.base.emoji_template[221] = {
 		achieve = 0,
 		index = 21,
 		pic = "line_part2_21",
@@ -1351,8 +1544,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[222] = {
+	}
+	pg.base.emoji_template[222] = {
 		achieve = 0,
 		index = 22,
 		pic = "line_part2_22",
@@ -1364,8 +1557,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[223] = {
+	}
+	pg.base.emoji_template[223] = {
 		achieve = 0,
 		index = 23,
 		pic = "line_part2_23",
@@ -1377,8 +1570,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[224] = {
+	}
+	pg.base.emoji_template[224] = {
 		achieve = 0,
 		index = 24,
 		pic = "line_part2_24",
@@ -1390,8 +1583,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[225] = {
+	}
+	pg.base.emoji_template[225] = {
 		achieve = 0,
 		index = 25,
 		pic = "line_part2_25",
@@ -1403,8 +1596,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[226] = {
+	}
+	pg.base.emoji_template[226] = {
 		achieve = 0,
 		index = 26,
 		pic = "line_part2_26",
@@ -1416,8 +1609,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[227] = {
+	}
+	pg.base.emoji_template[227] = {
 		achieve = 0,
 		index = 27,
 		pic = "line_part2_27",
@@ -1429,8 +1622,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[228] = {
+	}
+	pg.base.emoji_template[228] = {
 		achieve = 0,
 		index = 28,
 		pic = "line_part2_28",
@@ -1442,8 +1635,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[229] = {
+	}
+	pg.base.emoji_template[229] = {
 		achieve = 0,
 		index = 29,
 		pic = "line_part2_29",
@@ -1455,8 +1648,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[230] = {
+	}
+	pg.base.emoji_template[230] = {
 		achieve = 0,
 		index = 30,
 		pic = "line_part2_30",
@@ -1468,8 +1661,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[231] = {
+	}
+	pg.base.emoji_template[231] = {
 		achieve = 0,
 		index = 31,
 		pic = "line_part2_31",
@@ -1481,8 +1674,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[232] = {
+	}
+	pg.base.emoji_template[232] = {
 		achieve = 0,
 		index = 32,
 		pic = "line_part2_32",
@@ -1494,8 +1687,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[233] = {
+	}
+	pg.base.emoji_template[233] = {
 		achieve = 0,
 		index = 33,
 		pic = "line_part2_33",
@@ -1507,8 +1700,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[234] = {
+	}
+	pg.base.emoji_template[234] = {
 		achieve = 0,
 		index = 34,
 		pic = "line_part2_34",
@@ -1520,8 +1713,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[235] = {
+	}
+	pg.base.emoji_template[235] = {
 		achieve = 0,
 		index = 35,
 		pic = "line_part2_35",
@@ -1533,8 +1726,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[236] = {
+	}
+	pg.base.emoji_template[236] = {
 		achieve = 0,
 		index = 36,
 		pic = "line_part2_36",
@@ -1546,8 +1739,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[237] = {
+	}
+	pg.base.emoji_template[237] = {
 		achieve = 0,
 		index = 37,
 		pic = "line_part2_37",
@@ -1559,8 +1752,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[238] = {
+	}
+	pg.base.emoji_template[238] = {
 		achieve = 0,
 		index = 38,
 		pic = "line_part2_38",
@@ -1572,8 +1765,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[239] = {
+	}
+	pg.base.emoji_template[239] = {
 		achieve = 0,
 		index = 39,
 		pic = "line_part2_39",
@@ -1585,8 +1778,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[240] = {
+	}
+	pg.base.emoji_template[240] = {
 		achieve = 0,
 		index = 40,
 		pic = "line_part2_40",
@@ -1598,8 +1791,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[241] = {
+	}
+	pg.base.emoji_template[241] = {
 		achieve = 1,
 		index = 77,
 		pic = "241",
@@ -1611,8 +1804,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[242] = {
+	}
+	pg.base.emoji_template[242] = {
 		achieve = 1,
 		index = 78,
 		pic = "242",
@@ -1624,8 +1817,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[243] = {
+	}
+	pg.base.emoji_template[243] = {
 		achieve = 1,
 		index = 79,
 		pic = "243",
@@ -1637,8 +1830,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[244] = {
+	}
+	pg.base.emoji_template[244] = {
 		achieve = 1,
 		index = 80,
 		pic = "244",
@@ -1650,8 +1843,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[245] = {
+	}
+	pg.base.emoji_template[245] = {
 		achieve = 1,
 		index = 81,
 		pic = "245",
@@ -1663,8 +1856,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[246] = {
+	}
+	pg.base.emoji_template[246] = {
 		achieve = 1,
 		index = 82,
 		pic = "246",
@@ -1676,8 +1869,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[247] = {
+	}
+	pg.base.emoji_template[247] = {
 		achieve = 1,
 		index = 83,
 		pic = "247",
@@ -1689,8 +1882,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[248] = {
+	}
+	pg.base.emoji_template[248] = {
 		achieve = 1,
 		index = 84,
 		pic = "248",
@@ -1702,8 +1895,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[301] = {
+	}
+	pg.base.emoji_template[301] = {
 		achieve = 0,
 		index = 970,
 		pic = "part2_abc",
@@ -1715,8 +1908,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[302] = {
+	}
+	pg.base.emoji_template[302] = {
 		achieve = 0,
 		index = 971,
 		pic = "part2_arky",
@@ -1728,8 +1921,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[303] = {
+	}
+	pg.base.emoji_template[303] = {
 		achieve = 0,
 		index = 972,
 		pic = "part2_aks3",
@@ -1741,8 +1934,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[304] = {
+	}
+	pg.base.emoji_template[304] = {
 		achieve = 0,
 		index = 973,
 		pic = "part2_aynm",
@@ -1754,8 +1947,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[305] = {
+	}
+	pg.base.emoji_template[305] = {
 		achieve = 0,
 		index = 974,
 		pic = "part2_bbr",
@@ -1767,8 +1960,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[306] = {
+	}
+	pg.base.emoji_template[306] = {
 		achieve = 0,
 		index = 975,
 		pic = "part2_bil",
@@ -1780,8 +1973,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[307] = {
+	}
+	pg.base.emoji_template[307] = {
 		achieve = 0,
 		index = 976,
 		pic = "part2_brcr",
@@ -1793,8 +1986,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[308] = {
+	}
+	pg.base.emoji_template[308] = {
 		achieve = 0,
 		index = 977,
 		pic = "part2_crb",
@@ -1806,8 +1999,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[309] = {
+	}
+	pg.base.emoji_template[309] = {
 		achieve = 0,
 		index = 978,
 		pic = "part2_dih",
@@ -1819,8 +2012,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[310] = {
+	}
+	pg.base.emoji_template[310] = {
 		achieve = 0,
 		index = 979,
 		pic = "part2_edrj",
@@ -1832,8 +2025,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[311] = {
+	}
+	pg.base.emoji_template[311] = {
 		achieve = 0,
 		index = 980,
 		pic = "part2_etpriz",
@@ -1845,8 +2038,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[312] = {
+	}
+	pg.base.emoji_template[312] = {
 		achieve = 0,
 		index = 981,
 		pic = "part2_flfy",
@@ -1858,8 +2051,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[313] = {
+	}
+	pg.base.emoji_template[313] = {
 		achieve = 0,
 		index = 982,
 		pic = "part2_fs",
@@ -1871,8 +2064,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[314] = {
+	}
+	pg.base.emoji_template[314] = {
 		achieve = 0,
 		index = 983,
 		pic = "part2_hbk",
@@ -1884,8 +2077,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[315] = {
+	}
+	pg.base.emoji_template[315] = {
 		achieve = 0,
 		index = 984,
 		pic = "part2_hnnn",
@@ -1897,8 +2090,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[316] = {
+	}
+	pg.base.emoji_template[316] = {
 		achieve = 0,
 		index = 985,
 		pic = "part2_hp",
@@ -1910,8 +2103,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[317] = {
+	}
+	pg.base.emoji_template[317] = {
 		achieve = 0,
 		index = 986,
 		pic = "part2_jbr",
@@ -1923,8 +2116,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[318] = {
+	}
+	pg.base.emoji_template[318] = {
 		achieve = 0,
 		index = 987,
 		pic = "part2_lp",
@@ -1936,8 +2129,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[319] = {
+	}
+	pg.base.emoji_template[319] = {
 		achieve = 0,
 		index = 988,
 		pic = "part2_mknm",
@@ -1949,8 +2142,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[320] = {
+	}
+	pg.base.emoji_template[320] = {
 		achieve = 0,
 		index = 989,
 		pic = "part2_mks",
@@ -1962,8 +2155,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[321] = {
+	}
+	pg.base.emoji_template[321] = {
 		achieve = 0,
 		index = 990,
 		pic = "part2_sdeig",
@@ -1975,8 +2168,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[322] = {
+	}
+	pg.base.emoji_template[322] = {
 		achieve = 0,
 		index = 991,
 		pic = "part2_srcy",
@@ -1988,8 +2181,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[323] = {
+	}
+	pg.base.emoji_template[323] = {
 		achieve = 0,
 		index = 992,
 		pic = "part2_ync",
@@ -2001,8 +2194,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[324] = {
+	}
+	pg.base.emoji_template[324] = {
 		achieve = 0,
 		index = 993,
 		pic = "part2_z23",
@@ -2014,8 +2207,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[351] = {
+	}
+	pg.base.emoji_template[351] = {
 		achieve = 0,
 		index = 937,
 		pic = "part3_amz",
@@ -2027,8 +2220,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[352] = {
+	}
+	pg.base.emoji_template[352] = {
 		achieve = 0,
 		index = 938,
 		pic = "part3_ynm",
@@ -2040,8 +2233,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[353] = {
+	}
+	pg.base.emoji_template[353] = {
 		achieve = 0,
 		index = 939,
 		pic = "part3_bc2",
@@ -2053,8 +2246,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[354] = {
+	}
+	pg.base.emoji_template[354] = {
 		achieve = 0,
 		index = 940,
 		pic = "part3_cl",
@@ -2066,8 +2259,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[355] = {
+	}
+	pg.base.emoji_template[355] = {
 		achieve = 0,
 		index = 941,
 		pic = "part3_ent",
@@ -2079,8 +2272,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[356] = {
+	}
+	pg.base.emoji_template[356] = {
 		achieve = 0,
 		index = 942,
 		pic = "part3_ess",
@@ -2092,8 +2285,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[357] = {
+	}
+	pg.base.emoji_template[357] = {
 		achieve = 0,
 		index = 943,
 		pic = "part3_fmdb",
@@ -2105,8 +2298,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[358] = {
+	}
+	pg.base.emoji_template[358] = {
 		achieve = 0,
 		index = 944,
 		pic = "part3_gbbb",
@@ -2118,8 +2311,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[359] = {
+	}
+	pg.base.emoji_template[359] = {
 		achieve = 0,
 		index = 945,
 		pic = "part3_gkk",
@@ -2131,8 +2324,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[360] = {
+	}
+	pg.base.emoji_template[360] = {
 		achieve = 0,
 		index = 946,
 		pic = "part3_hd",
@@ -2144,8 +2337,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[361] = {
+	}
+	pg.base.emoji_template[361] = {
 		achieve = 0,
 		index = 947,
 		pic = "part3_hr",
@@ -2157,8 +2350,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[362] = {
+	}
+	pg.base.emoji_template[362] = {
 		achieve = 0,
 		index = 948,
 		pic = "part3_jbr",
@@ -2170,8 +2363,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[363] = {
+	}
+	pg.base.emoji_template[363] = {
 		achieve = 0,
 		index = 949,
 		pic = "part3_lp",
@@ -2183,8 +2376,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[365] = {
+	}
+	pg.base.emoji_template[365] = {
 		achieve = 0,
 		index = 951,
 		pic = "part3_ms",
@@ -2196,8 +2389,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[366] = {
+	}
+	pg.base.emoji_template[366] = {
 		achieve = 0,
 		index = 952,
 		pic = "part3_qer",
@@ -2209,8 +2402,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[367] = {
+	}
+	pg.base.emoji_template[367] = {
 		achieve = 0,
 		index = 953,
 		pic = "part3_ron",
@@ -2222,8 +2415,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[368] = {
+	}
+	pg.base.emoji_template[368] = {
 		achieve = 0,
 		index = 954,
 		pic = "part3_srtg",
@@ -2235,8 +2428,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[369] = {
+	}
+	pg.base.emoji_template[369] = {
 		achieve = 0,
 		index = 955,
 		pic = "part3_tlpc",
@@ -2248,8 +2441,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[370] = {
+	}
+	pg.base.emoji_template[370] = {
 		achieve = 0,
 		index = 956,
 		pic = "part3_ty",
@@ -2261,8 +2454,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[371] = {
+	}
+	pg.base.emoji_template[371] = {
 		achieve = 0,
 		index = 957,
 		pic = "part3_wsfit2",
@@ -2274,8 +2467,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[372] = {
+	}
+	pg.base.emoji_template[372] = {
 		achieve = 0,
 		index = 958,
 		pic = "part3_ykkj",
@@ -2287,8 +2480,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[373] = {
+	}
+	pg.base.emoji_template[373] = {
 		achieve = 0,
 		index = 959,
 		pic = "part3_ynp",
@@ -2300,8 +2493,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[374] = {
+	}
+	pg.base.emoji_template[374] = {
 		achieve = 0,
 		index = 960,
 		pic = "part3_z23",
@@ -2313,8 +2506,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[375] = {
+	}
+	pg.base.emoji_template[375] = {
 		achieve = 0,
 		index = 950,
 		pic = "part3_mnc",
@@ -2326,8 +2519,8 @@ pg.emoji_template = {
 		type = {
 			2
 		}
-	},
-	[1041] = {
+	}
+	pg.base.emoji_template[1041] = {
 		achieve = 1,
 		index = 87,
 		pic = "1041",
@@ -2339,8 +2532,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[1042] = {
+	}
+	pg.base.emoji_template[1042] = {
 		achieve = 1,
 		index = 88,
 		pic = "1042",
@@ -2352,8 +2545,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[1043] = {
+	}
+	pg.base.emoji_template[1043] = {
 		achieve = 1,
 		index = 89,
 		pic = "1043",
@@ -2365,8 +2558,8 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	[1044] = {
+	}
+	pg.base.emoji_template[1044] = {
 		achieve = 1,
 		index = 90,
 		pic = "1044",
@@ -2378,190 +2571,5 @@ pg.emoji_template = {
 		type = {
 			1
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		39,
-		40,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46,
-		47,
-		48,
-		49,
-		50,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56,
-		57,
-		58,
-		59,
-		60,
-		61,
-		62,
-		63,
-		64,
-		65,
-		66,
-		67,
-		68,
-		100,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		110,
-		111,
-		112,
-		113,
-		114,
-		201,
-		202,
-		203,
-		204,
-		205,
-		206,
-		207,
-		208,
-		209,
-		210,
-		211,
-		212,
-		213,
-		214,
-		215,
-		216,
-		217,
-		218,
-		219,
-		220,
-		221,
-		222,
-		223,
-		224,
-		225,
-		226,
-		227,
-		228,
-		229,
-		230,
-		231,
-		232,
-		233,
-		234,
-		235,
-		236,
-		237,
-		238,
-		239,
-		240,
-		241,
-		242,
-		243,
-		244,
-		245,
-		246,
-		247,
-		248,
-		301,
-		302,
-		303,
-		304,
-		305,
-		306,
-		307,
-		308,
-		309,
-		310,
-		311,
-		312,
-		313,
-		314,
-		315,
-		316,
-		317,
-		318,
-		319,
-		320,
-		321,
-		322,
-		323,
-		324,
-		351,
-		352,
-		353,
-		354,
-		355,
-		356,
-		357,
-		358,
-		359,
-		360,
-		361,
-		362,
-		363,
-		365,
-		366,
-		367,
-		368,
-		369,
-		370,
-		371,
-		372,
-		373,
-		374,
-		375,
-		1041,
-		1042,
-		1043,
-		1044
 	}
-}
+end)()

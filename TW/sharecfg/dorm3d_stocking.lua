@@ -1,6 +1,16 @@
 pg = pg or {}
-pg.dorm3d_stocking = {
-	{
+pg.dorm3d_stocking = rawget(pg, "dorm3d_stocking") or setmetatable({
+	__name = "dorm3d_stocking"
+}, confNEO)
+pg.dorm3d_stocking.all = {
+	1,
+	2
+}
+pg.base = pg.base or {}
+pg.base.dorm3d_stocking = {}
+
+(function ()
+	pg.base.dorm3d_stocking[1] = {
 		character_action = "IK_sp01_idle01",
 		character_id = 30707,
 		skin_id = 307071,
@@ -56,8 +66,8 @@ pg.dorm3d_stocking = {
 			0.1,
 			0
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_stocking[2] = {
 		character_action = "IK_sp01_idle03",
 		character_id = 30707,
 		skin_id = 307071,
@@ -113,9 +123,5 @@ pg.dorm3d_stocking = {
 			0.1,
 			0.1
 		}
-	},
-	all = {
-		1,
-		2
 	}
-}
+end)()

@@ -18,7 +18,7 @@ slot0.Update = function(slot0, slot1)
 	end
 
 	slot0.level = slot1
-	slot0.nextLevel = math.min(slot1 + 1, #slot0.config)
+	slot0.nextLevel = math.min(slot1 + 1, #slot0.config.all)
 
 	slot0:ReCalcValue()
 end
@@ -26,7 +26,7 @@ end
 slot0.ReCalcValue = function(slot0)
 	slot0.value = slot0.config[slot0.level][slot0.attrName]
 	slot0.nextValue = slot0.config[slot0.nextLevel][slot0.attrName]
-	slot0.maxValue = slot0.config[#slot0.config][slot0.attrName]
+	slot0.maxValue = slot0.config[#slot0.config.all][slot0.attrName]
 	slot0.addition = slot0.nextValue - slot0.value
 end
 

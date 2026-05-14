@@ -1,6 +1,36 @@
 pg = pg or {}
-pg.island_shop_normal_template = {
-	[10012] = {
+pg.island_shop_normal_template = rawget(pg, "island_shop_normal_template") or setmetatable({
+	__name = "island_shop_normal_template"
+}, confNEO)
+pg.island_shop_normal_template.all = {
+	10012,
+	10013,
+	10014,
+	10015,
+	10016,
+	10017,
+	10021,
+	10111,
+	10112,
+	10113,
+	10132,
+	50131,
+	50132,
+	50133,
+	50123,
+	10024,
+	10027,
+	10030,
+	10033,
+	10034,
+	10035,
+	10037
+}
+pg.base = pg.base or {}
+pg.base.island_shop_normal_template = {}
+
+(function ()
+	pg.base.island_shop_normal_template[10012] = {
 		refresh_player = "",
 		exist_time = "stop",
 		refresh_free = 0,
@@ -8,8 +38,8 @@ pg.island_shop_normal_template = {
 		id = 10012,
 		refresh_time = 0,
 		unlock = ""
-	},
-	[10013] = {
+	}
+	pg.base.island_shop_normal_template[10013] = {
 		refresh_player = "",
 		exist_time = "stop",
 		refresh_free = 0,
@@ -17,8 +47,8 @@ pg.island_shop_normal_template = {
 		id = 10013,
 		refresh_time = 0,
 		unlock = ""
-	},
-	[10014] = {
+	}
+	pg.base.island_shop_normal_template[10014] = {
 		refresh_player = "",
 		exist_time = "stop",
 		refresh_free = 0,
@@ -26,8 +56,8 @@ pg.island_shop_normal_template = {
 		id = 10014,
 		refresh_time = 0,
 		unlock = ""
-	},
-	[10015] = {
+	}
+	pg.base.island_shop_normal_template[10015] = {
 		refresh_player = "",
 		refresh_free = 0,
 		refresh_set = 0,
@@ -60,8 +90,8 @@ pg.island_shop_normal_template = {
 				}
 			}
 		}
-	},
-	[10016] = {
+	}
+	pg.base.island_shop_normal_template[10016] = {
 		refresh_player = "",
 		refresh_free = 0,
 		refresh_set = 0,
@@ -94,8 +124,8 @@ pg.island_shop_normal_template = {
 				}
 			}
 		}
-	},
-	[10017] = {
+	}
+	pg.base.island_shop_normal_template[10017] = {
 		refresh_player = "",
 		refresh_free = 0,
 		refresh_set = 0,
@@ -128,8 +158,8 @@ pg.island_shop_normal_template = {
 				}
 			}
 		}
-	},
-	[10021] = {
+	}
+	pg.base.island_shop_normal_template[10021] = {
 		refresh_player = "",
 		exist_time = "always",
 		refresh_free = 0,
@@ -137,8 +167,8 @@ pg.island_shop_normal_template = {
 		id = 10021,
 		refresh_time = 0,
 		unlock = ""
-	},
-	[10111] = {
+	}
+	pg.base.island_shop_normal_template[10111] = {
 		refresh_player = "",
 		exist_time = "always",
 		refresh_free = 0,
@@ -146,8 +176,8 @@ pg.island_shop_normal_template = {
 		id = 10111,
 		refresh_time = 0,
 		unlock = ""
-	},
-	[10112] = {
+	}
+	pg.base.island_shop_normal_template[10112] = {
 		refresh_player = "",
 		exist_time = "always",
 		refresh_free = 0,
@@ -157,8 +187,8 @@ pg.island_shop_normal_template = {
 		unlock = {
 			404
 		}
-	},
-	[10113] = {
+	}
+	pg.base.island_shop_normal_template[10113] = {
 		refresh_player = "",
 		exist_time = "always",
 		refresh_free = 0,
@@ -168,8 +198,8 @@ pg.island_shop_normal_template = {
 		unlock = {
 			405
 		}
-	},
-	[10132] = {
+	}
+	pg.base.island_shop_normal_template[10132] = {
 		refresh_player = "",
 		exist_time = "always",
 		refresh_free = 0,
@@ -177,8 +207,8 @@ pg.island_shop_normal_template = {
 		id = 10132,
 		refresh_time = 0,
 		unlock = ""
-	},
-	[50131] = {
+	}
+	pg.base.island_shop_normal_template[50131] = {
 		refresh_player = "",
 		exist_time = "always",
 		refresh_free = 0,
@@ -186,8 +216,8 @@ pg.island_shop_normal_template = {
 		id = 50131,
 		refresh_time = 0,
 		unlock = ""
-	},
-	[50132] = {
+	}
+	pg.base.island_shop_normal_template[50132] = {
 		refresh_player = "",
 		exist_time = "always",
 		refresh_free = 0,
@@ -195,8 +225,8 @@ pg.island_shop_normal_template = {
 		id = 50132,
 		refresh_time = 0,
 		unlock = ""
-	},
-	[50133] = {
+	}
+	pg.base.island_shop_normal_template[50133] = {
 		refresh_player = "",
 		exist_time = "always",
 		refresh_free = 0,
@@ -204,8 +234,8 @@ pg.island_shop_normal_template = {
 		id = 50133,
 		refresh_time = 0,
 		unlock = ""
-	},
-	[50123] = {
+	}
+	pg.base.island_shop_normal_template[50123] = {
 		refresh_player = "",
 		exist_time = "always",
 		refresh_free = 0,
@@ -213,8 +243,8 @@ pg.island_shop_normal_template = {
 		id = 50123,
 		refresh_time = 0,
 		unlock = ""
-	},
-	[10024] = {
+	}
+	pg.base.island_shop_normal_template[10024] = {
 		refresh_player = "",
 		exist_time = "always",
 		refresh_free = 0,
@@ -222,8 +252,8 @@ pg.island_shop_normal_template = {
 		id = 10024,
 		refresh_time = 0,
 		unlock = ""
-	},
-	[10027] = {
+	}
+	pg.base.island_shop_normal_template[10027] = {
 		refresh_player = "",
 		exist_time = "always",
 		refresh_free = 0,
@@ -231,8 +261,8 @@ pg.island_shop_normal_template = {
 		id = 10027,
 		refresh_time = 0,
 		unlock = ""
-	},
-	[10030] = {
+	}
+	pg.base.island_shop_normal_template[10030] = {
 		refresh_player = "",
 		exist_time = "always",
 		refresh_free = 0,
@@ -240,8 +270,8 @@ pg.island_shop_normal_template = {
 		id = 10030,
 		refresh_time = 0,
 		unlock = ""
-	},
-	[10033] = {
+	}
+	pg.base.island_shop_normal_template[10033] = {
 		refresh_player = "",
 		exist_time = "always",
 		refresh_free = 0,
@@ -249,8 +279,8 @@ pg.island_shop_normal_template = {
 		id = 10033,
 		refresh_time = 0,
 		unlock = ""
-	},
-	[10034] = {
+	}
+	pg.base.island_shop_normal_template[10034] = {
 		refresh_player = "",
 		exist_time = "always",
 		refresh_free = 0,
@@ -258,8 +288,8 @@ pg.island_shop_normal_template = {
 		id = 10034,
 		refresh_time = 0,
 		unlock = ""
-	},
-	[10035] = {
+	}
+	pg.base.island_shop_normal_template[10035] = {
 		refresh_player = "",
 		exist_time = "always",
 		refresh_free = 0,
@@ -267,8 +297,8 @@ pg.island_shop_normal_template = {
 		id = 10035,
 		refresh_time = 0,
 		unlock = ""
-	},
-	[10037] = {
+	}
+	pg.base.island_shop_normal_template[10037] = {
 		refresh_player = "",
 		exist_time = "always",
 		refresh_free = 0,
@@ -276,29 +306,5 @@ pg.island_shop_normal_template = {
 		id = 10037,
 		refresh_time = 0,
 		unlock = ""
-	},
-	all = {
-		10012,
-		10013,
-		10014,
-		10015,
-		10016,
-		10017,
-		10021,
-		10111,
-		10112,
-		10113,
-		10132,
-		50131,
-		50132,
-		50133,
-		50123,
-		10024,
-		10027,
-		10030,
-		10033,
-		10034,
-		10035,
-		10037
 	}
-}
+end)()

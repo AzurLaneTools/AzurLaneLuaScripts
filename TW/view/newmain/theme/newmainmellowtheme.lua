@@ -41,6 +41,7 @@ end
 
 slot0.Refresh = function(slot0, slot1)
 	uv0.super.Refresh(slot0, slot1)
+	originalPrint(" >>>>>>>>>> run in play open anim")
 	slot0.animationPlayer:Play("anim_newmain_open")
 end
 

@@ -1,6 +1,553 @@
 pg = pg or {}
-pg.world_expedition_data = {
-	[210000] = {
+pg.world_expedition_data = rawget(pg, "world_expedition_data") or setmetatable({
+	__name = "world_expedition_data"
+}, confNEO)
+pg.world_expedition_data.all = {
+	210000,
+	210011,
+	210012,
+	210013,
+	210014,
+	211011,
+	211012,
+	211013,
+	211014,
+	211015,
+	211032,
+	211211,
+	211212,
+	211213,
+	211214,
+	211215,
+	211216,
+	211217,
+	211411,
+	211412,
+	211413,
+	211611,
+	213011,
+	213012,
+	213013,
+	213014,
+	213015,
+	213016,
+	213017,
+	213211,
+	213212,
+	213213,
+	213411,
+	213412,
+	213413,
+	213414,
+	214011,
+	214211,
+	214212,
+	214213,
+	215011,
+	215012,
+	215013,
+	215014,
+	215015,
+	215016,
+	215017,
+	216011,
+	220011,
+	220012,
+	220013,
+	221011,
+	221012,
+	221013,
+	221014,
+	221015,
+	221211,
+	221212,
+	221213,
+	221214,
+	221215,
+	221216,
+	221411,
+	221412,
+	223011,
+	223012,
+	223013,
+	223014,
+	223015,
+	223016,
+	223211,
+	223212,
+	223411,
+	223412,
+	223413,
+	223414,
+	224011,
+	224211,
+	224212,
+	224213,
+	225011,
+	225012,
+	225013,
+	225014,
+	225015,
+	225016,
+	225017,
+	226011,
+	230011,
+	230012,
+	230013,
+	230014,
+	231011,
+	231012,
+	231013,
+	231014,
+	231211,
+	231212,
+	231213,
+	231214,
+	231215,
+	231216,
+	231411,
+	231412,
+	231413,
+	233011,
+	233012,
+	233013,
+	233014,
+	233015,
+	233016,
+	233211,
+	233212,
+	233213,
+	233411,
+	233412,
+	233413,
+	233414,
+	234011,
+	234211,
+	234212,
+	234213,
+	235011,
+	235012,
+	235013,
+	235014,
+	235015,
+	235016,
+	235017,
+	236011,
+	240011,
+	240012,
+	240013,
+	240014,
+	240015,
+	240512,
+	240513,
+	240514,
+	241011,
+	241012,
+	241013,
+	241014,
+	241015,
+	241211,
+	241212,
+	241213,
+	241214,
+	241215,
+	241216,
+	241217,
+	241411,
+	241412,
+	243011,
+	243012,
+	243013,
+	243014,
+	243015,
+	243016,
+	243017,
+	243211,
+	243212,
+	243411,
+	243412,
+	243413,
+	243414,
+	244011,
+	244211,
+	244212,
+	244213,
+	245011,
+	245012,
+	245013,
+	245014,
+	245015,
+	245016,
+	246011,
+	250011,
+	250012,
+	250511,
+	250512,
+	251011,
+	251211,
+	251411,
+	252011,
+	252211,
+	252411,
+	253011,
+	253211,
+	254011,
+	256011,
+	260011,
+	260012,
+	260511,
+	260512,
+	261011,
+	261211,
+	261411,
+	262011,
+	262211,
+	262411,
+	263011,
+	263211,
+	264011,
+	266011,
+	270011,
+	270012,
+	270511,
+	270512,
+	271011,
+	271211,
+	271411,
+	272011,
+	272211,
+	272411,
+	273011,
+	273211,
+	274011,
+	276011,
+	280011,
+	280012,
+	280511,
+	280512,
+	281011,
+	281211,
+	281411,
+	282011,
+	282211,
+	282411,
+	283011,
+	283211,
+	284011,
+	286011,
+	290011,
+	290012,
+	290013,
+	290021,
+	290031,
+	290041,
+	291011,
+	291021,
+	291031,
+	291041,
+	291091,
+	291092,
+	291093,
+	291100,
+	291101,
+	291102,
+	291103,
+	291150,
+	291151,
+	291152,
+	291153,
+	291160,
+	291161,
+	291211,
+	291221,
+	291231,
+	291241,
+	291291,
+	291292,
+	291293,
+	291300,
+	291301,
+	291302,
+	291303,
+	291350,
+	291351,
+	291352,
+	291353,
+	291360,
+	291361,
+	291411,
+	291421,
+	291431,
+	291441,
+	291491,
+	291492,
+	291493,
+	291500,
+	291501,
+	291502,
+	291503,
+	291550,
+	291551,
+	291552,
+	291553,
+	291560,
+	291561,
+	291600,
+	291601,
+	292000,
+	292001,
+	292002,
+	292003,
+	292010,
+	292011,
+	292012,
+	292013,
+	292020,
+	292021,
+	292022,
+	292023,
+	292050,
+	292051,
+	292052,
+	292053,
+	292060,
+	292061,
+	292062,
+	292063,
+	292070,
+	292071,
+	292072,
+	292073,
+	292100,
+	292101,
+	292102,
+	292103,
+	292104,
+	292200,
+	292201,
+	292210,
+	292211,
+	292220,
+	292221,
+	293011,
+	293021,
+	293031,
+	293041,
+	293091,
+	293092,
+	293093,
+	293100,
+	293101,
+	293102,
+	293103,
+	293104,
+	293150,
+	293151,
+	293152,
+	293153,
+	293154,
+	293160,
+	293161,
+	293211,
+	293221,
+	293231,
+	293241,
+	293291,
+	293292,
+	293293,
+	293300,
+	293301,
+	293302,
+	293303,
+	293304,
+	293350,
+	293351,
+	293352,
+	293353,
+	293354,
+	293360,
+	293361,
+	293411,
+	293421,
+	293431,
+	293441,
+	293491,
+	293492,
+	293493,
+	293500,
+	293501,
+	293502,
+	293503,
+	293504,
+	293550,
+	293551,
+	293552,
+	293553,
+	293554,
+	293560,
+	293561,
+	294001,
+	294002,
+	294003,
+	294004,
+	294005,
+	294006,
+	294007,
+	294008,
+	294009,
+	294010,
+	294011,
+	294012,
+	294013,
+	294014,
+	294015,
+	294016,
+	294017,
+	294018,
+	294019,
+	294020,
+	294021,
+	294022,
+	294023,
+	294024,
+	294025,
+	294026,
+	294027,
+	294028,
+	294029,
+	294030,
+	294040,
+	294050,
+	294051,
+	294052,
+	294053,
+	294054,
+	294055,
+	294056,
+	294057,
+	294058,
+	294059,
+	294060,
+	294061,
+	294062,
+	294063,
+	294064,
+	294065,
+	294111,
+	294112,
+	294113,
+	294114,
+	294115,
+	294200,
+	294201,
+	294202,
+	294203,
+	294204,
+	294210,
+	294211,
+	294212,
+	294213,
+	294214,
+	294215,
+	294216,
+	294217,
+	294218,
+	294219,
+	294220,
+	294221,
+	294222,
+	294223,
+	294224,
+	295011,
+	295012,
+	295013,
+	295014,
+	295015,
+	295021,
+	295022,
+	295023,
+	295024,
+	295025,
+	295026,
+	295027,
+	295028,
+	295029,
+	295030,
+	295100,
+	295101,
+	295102,
+	295103,
+	295104,
+	295110,
+	295111,
+	295112,
+	295113,
+	295114,
+	295120,
+	295121,
+	295122,
+	295123,
+	295124,
+	295130,
+	295131,
+	295132,
+	295133,
+	295134,
+	295140,
+	295141,
+	295142,
+	295143,
+	295144,
+	295200,
+	295201,
+	295202,
+	295203,
+	295204,
+	297011,
+	311041,
+	312020,
+	312021,
+	312070,
+	312150,
+	312240,
+	312350,
+	312610,
+	312640,
+	312670,
+	314001,
+	314002,
+	314201,
+	315000,
+	315001,
+	315002,
+	315010,
+	315011,
+	315012,
+	315015,
+	315016,
+	315017,
+	315020,
+	315021,
+	315022,
+	315025,
+	315026,
+	315027,
+	315028,
+	315030,
+	315031,
+	315032,
+	315033,
+	315034,
+	315035,
+	320000,
+	320001,
+	320002
+}
+pg.base = pg.base or {}
+pg.base.world_expedition_data = {}
+
+(function ()
+	pg.base.world_expedition_data[210000] = {
 		id = 210000,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -332,8 +879,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[210011] = {
+	}
+	pg.base.world_expedition_data[210011] = {
 		id = 210011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -665,8 +1212,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[210012] = {
+	}
+	pg.base.world_expedition_data[210012] = {
 		id = 210012,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -998,8 +1545,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[210013] = {
+	}
+	pg.base.world_expedition_data[210013] = {
 		id = 210013,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -1331,8 +1878,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[210014] = {
+	}
+	pg.base.world_expedition_data[210014] = {
 		id = 210014,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -1664,8 +2211,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[211011] = {
+	}
+	pg.base.world_expedition_data[211011] = {
 		id = 211011,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -1997,8 +2544,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[211012] = {
+	}
+	pg.base.world_expedition_data[211012] = {
 		id = 211012,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -2330,8 +2877,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[211013] = {
+	}
+	pg.base.world_expedition_data[211013] = {
 		id = 211013,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -2663,8 +3210,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[211014] = {
+	}
+	pg.base.world_expedition_data[211014] = {
 		id = 211014,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -2996,8 +3543,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[211015] = {
+	}
+	pg.base.world_expedition_data[211015] = {
 		id = 211015,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -3329,8 +3876,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[211032] = {
+	}
+	pg.base.world_expedition_data[211032] = {
 		id = 211032,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -3662,8 +4209,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[211211] = {
+	}
+	pg.base.world_expedition_data[211211] = {
 		id = 211211,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -3995,8 +4542,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[211212] = {
+	}
+	pg.base.world_expedition_data[211212] = {
 		id = 211212,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -4328,8 +4875,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[211213] = {
+	}
+	pg.base.world_expedition_data[211213] = {
 		id = 211213,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -4661,8 +5208,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[211214] = {
+	}
+	pg.base.world_expedition_data[211214] = {
 		id = 211214,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -4994,8 +5541,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[211215] = {
+	}
+	pg.base.world_expedition_data[211215] = {
 		id = 211215,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -5327,8 +5874,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[211216] = {
+	}
+	pg.base.world_expedition_data[211216] = {
 		id = 211216,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -5660,8 +6207,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[211217] = {
+	}
+	pg.base.world_expedition_data[211217] = {
 		id = 211217,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -5993,8 +6540,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[211411] = {
+	}
+	pg.base.world_expedition_data[211411] = {
 		id = 211411,
 		expedition_sairenvalueC = 500,
 		failed_morale = 1,
@@ -6326,8 +6873,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[211412] = {
+	}
+	pg.base.world_expedition_data[211412] = {
 		id = 211412,
 		expedition_sairenvalueC = 500,
 		failed_morale = 1,
@@ -6659,8 +7206,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[211413] = {
+	}
+	pg.base.world_expedition_data[211413] = {
 		id = 211413,
 		expedition_sairenvalueC = 500,
 		failed_morale = 1,
@@ -6992,8 +7539,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[211611] = {
+	}
+	pg.base.world_expedition_data[211611] = {
 		id = 211611,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -7325,8 +7872,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[213011] = {
+	}
+	pg.base.world_expedition_data[213011] = {
 		id = 213011,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -7658,8 +8205,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[213012] = {
+	}
+	pg.base.world_expedition_data[213012] = {
 		id = 213012,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -7991,8 +8538,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[213013] = {
+	}
+	pg.base.world_expedition_data[213013] = {
 		id = 213013,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -8324,8 +8871,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[213014] = {
+	}
+	pg.base.world_expedition_data[213014] = {
 		id = 213014,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -8657,8 +9204,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[213015] = {
+	}
+	pg.base.world_expedition_data[213015] = {
 		id = 213015,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -8990,8 +9537,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[213016] = {
+	}
+	pg.base.world_expedition_data[213016] = {
 		id = 213016,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -9323,8 +9870,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[213017] = {
+	}
+	pg.base.world_expedition_data[213017] = {
 		id = 213017,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -9656,8 +10203,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[213211] = {
+	}
+	pg.base.world_expedition_data[213211] = {
 		id = 213211,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -9989,8 +10536,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[213212] = {
+	}
+	pg.base.world_expedition_data[213212] = {
 		id = 213212,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -10322,8 +10869,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[213213] = {
+	}
+	pg.base.world_expedition_data[213213] = {
 		id = 213213,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -10655,8 +11202,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[213411] = {
+	}
+	pg.base.world_expedition_data[213411] = {
 		id = 213411,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -10988,8 +11535,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[213412] = {
+	}
+	pg.base.world_expedition_data[213412] = {
 		id = 213412,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -11321,8 +11868,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[213413] = {
+	}
+	pg.base.world_expedition_data[213413] = {
 		id = 213413,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -11654,8 +12201,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[213414] = {
+	}
+	pg.base.world_expedition_data[213414] = {
 		id = 213414,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -11987,8 +12534,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[214011] = {
+	}
+	pg.base.world_expedition_data[214011] = {
 		id = 214011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -12320,8 +12867,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[214211] = {
+	}
+	pg.base.world_expedition_data[214211] = {
 		id = 214211,
 		expedition_sairenvalueC = 1500,
 		failed_morale = 1,
@@ -12402,8 +12949,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[214212] = {
+	}
+	pg.base.world_expedition_data[214212] = {
 		id = 214212,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -12484,8 +13031,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[214213] = {
+	}
+	pg.base.world_expedition_data[214213] = {
 		id = 214213,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -12566,8 +13113,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[215011] = {
+	}
+	pg.base.world_expedition_data[215011] = {
 		id = 215011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -12955,8 +13502,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[215012] = {
+	}
+	pg.base.world_expedition_data[215012] = {
 		id = 215012,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -13344,8 +13891,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[215013] = {
+	}
+	pg.base.world_expedition_data[215013] = {
 		id = 215013,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -13733,8 +14280,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[215014] = {
+	}
+	pg.base.world_expedition_data[215014] = {
 		id = 215014,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -14122,8 +14669,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[215015] = {
+	}
+	pg.base.world_expedition_data[215015] = {
 		id = 215015,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -14511,8 +15058,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[215016] = {
+	}
+	pg.base.world_expedition_data[215016] = {
 		id = 215016,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -14900,8 +15447,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[215017] = {
+	}
+	pg.base.world_expedition_data[215017] = {
 		id = 215017,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -15289,8 +15836,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[216011] = {
+	}
+	pg.base.world_expedition_data[216011] = {
 		id = 216011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -15622,8 +16169,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[220011] = {
+	}
+	pg.base.world_expedition_data[220011] = {
 		id = 220011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -15955,8 +16502,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[220012] = {
+	}
+	pg.base.world_expedition_data[220012] = {
 		id = 220012,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -16288,8 +16835,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[220013] = {
+	}
+	pg.base.world_expedition_data[220013] = {
 		id = 220013,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -16621,8 +17168,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[221011] = {
+	}
+	pg.base.world_expedition_data[221011] = {
 		id = 221011,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -16954,8 +17501,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[221012] = {
+	}
+	pg.base.world_expedition_data[221012] = {
 		id = 221012,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -17287,8 +17834,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[221013] = {
+	}
+	pg.base.world_expedition_data[221013] = {
 		id = 221013,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -17620,8 +18167,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[221014] = {
+	}
+	pg.base.world_expedition_data[221014] = {
 		id = 221014,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -17953,8 +18500,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[221015] = {
+	}
+	pg.base.world_expedition_data[221015] = {
 		id = 221015,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -18286,8 +18833,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[221211] = {
+	}
+	pg.base.world_expedition_data[221211] = {
 		id = 221211,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -18619,8 +19166,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[221212] = {
+	}
+	pg.base.world_expedition_data[221212] = {
 		id = 221212,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -18952,8 +19499,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[221213] = {
+	}
+	pg.base.world_expedition_data[221213] = {
 		id = 221213,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -19285,8 +19832,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[221214] = {
+	}
+	pg.base.world_expedition_data[221214] = {
 		id = 221214,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -19618,8 +20165,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[221215] = {
+	}
+	pg.base.world_expedition_data[221215] = {
 		id = 221215,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -19951,8 +20498,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[221216] = {
+	}
+	pg.base.world_expedition_data[221216] = {
 		id = 221216,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -20284,8 +20831,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[221411] = {
+	}
+	pg.base.world_expedition_data[221411] = {
 		id = 221411,
 		expedition_sairenvalueC = 500,
 		failed_morale = 1,
@@ -20617,8 +21164,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[221412] = {
+	}
+	pg.base.world_expedition_data[221412] = {
 		id = 221412,
 		expedition_sairenvalueC = 500,
 		failed_morale = 1,
@@ -20950,8 +21497,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[223011] = {
+	}
+	pg.base.world_expedition_data[223011] = {
 		id = 223011,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -21283,8 +21830,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[223012] = {
+	}
+	pg.base.world_expedition_data[223012] = {
 		id = 223012,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -21616,8 +22163,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[223013] = {
+	}
+	pg.base.world_expedition_data[223013] = {
 		id = 223013,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -21949,8 +22496,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[223014] = {
+	}
+	pg.base.world_expedition_data[223014] = {
 		id = 223014,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -22282,8 +22829,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[223015] = {
+	}
+	pg.base.world_expedition_data[223015] = {
 		id = 223015,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -22615,8 +23162,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[223016] = {
+	}
+	pg.base.world_expedition_data[223016] = {
 		id = 223016,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -22948,8 +23495,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[223211] = {
+	}
+	pg.base.world_expedition_data[223211] = {
 		id = 223211,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -23281,8 +23828,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[223212] = {
+	}
+	pg.base.world_expedition_data[223212] = {
 		id = 223212,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -23614,8 +24161,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[223411] = {
+	}
+	pg.base.world_expedition_data[223411] = {
 		id = 223411,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -23947,8 +24494,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[223412] = {
+	}
+	pg.base.world_expedition_data[223412] = {
 		id = 223412,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -24280,8 +24827,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[223413] = {
+	}
+	pg.base.world_expedition_data[223413] = {
 		id = 223413,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -24613,8 +25160,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[223414] = {
+	}
+	pg.base.world_expedition_data[223414] = {
 		id = 223414,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -24946,8 +25493,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[224011] = {
+	}
+	pg.base.world_expedition_data[224011] = {
 		id = 224011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -25279,8 +25826,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[224211] = {
+	}
+	pg.base.world_expedition_data[224211] = {
 		id = 224211,
 		expedition_sairenvalueC = 1500,
 		failed_morale = 1,
@@ -25612,8 +26159,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[224212] = {
+	}
+	pg.base.world_expedition_data[224212] = {
 		id = 224212,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -25945,8 +26492,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[224213] = {
+	}
+	pg.base.world_expedition_data[224213] = {
 		id = 224213,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -26278,8 +26825,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[225011] = {
+	}
+	pg.base.world_expedition_data[225011] = {
 		id = 225011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -26667,8 +27214,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[225012] = {
+	}
+	pg.base.world_expedition_data[225012] = {
 		id = 225012,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -27056,8 +27603,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[225013] = {
+	}
+	pg.base.world_expedition_data[225013] = {
 		id = 225013,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -27445,8 +27992,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[225014] = {
+	}
+	pg.base.world_expedition_data[225014] = {
 		id = 225014,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -27834,8 +28381,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[225015] = {
+	}
+	pg.base.world_expedition_data[225015] = {
 		id = 225015,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -28223,8 +28770,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[225016] = {
+	}
+	pg.base.world_expedition_data[225016] = {
 		id = 225016,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -28612,8 +29159,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[225017] = {
+	}
+	pg.base.world_expedition_data[225017] = {
 		id = 225017,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -29001,8 +29548,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[226011] = {
+	}
+	pg.base.world_expedition_data[226011] = {
 		id = 226011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -29334,8 +29881,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[230011] = {
+	}
+	pg.base.world_expedition_data[230011] = {
 		id = 230011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -29667,8 +30214,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[230012] = {
+	}
+	pg.base.world_expedition_data[230012] = {
 		id = 230012,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -30000,8 +30547,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[230013] = {
+	}
+	pg.base.world_expedition_data[230013] = {
 		id = 230013,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -30333,8 +30880,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[230014] = {
+	}
+	pg.base.world_expedition_data[230014] = {
 		id = 230014,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -30666,8 +31213,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[231011] = {
+	}
+	pg.base.world_expedition_data[231011] = {
 		id = 231011,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -30999,8 +31546,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[231012] = {
+	}
+	pg.base.world_expedition_data[231012] = {
 		id = 231012,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -31332,8 +31879,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[231013] = {
+	}
+	pg.base.world_expedition_data[231013] = {
 		id = 231013,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -31665,8 +32212,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[231014] = {
+	}
+	pg.base.world_expedition_data[231014] = {
 		id = 231014,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -31998,8 +32545,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[231211] = {
+	}
+	pg.base.world_expedition_data[231211] = {
 		id = 231211,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -32331,8 +32878,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[231212] = {
+	}
+	pg.base.world_expedition_data[231212] = {
 		id = 231212,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -32664,8 +33211,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[231213] = {
+	}
+	pg.base.world_expedition_data[231213] = {
 		id = 231213,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -32997,8 +33544,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[231214] = {
+	}
+	pg.base.world_expedition_data[231214] = {
 		id = 231214,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -33330,8 +33877,10 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[231215] = {
+	}
+end)()
+(function ()
+	pg.base.world_expedition_data[231215] = {
 		id = 231215,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -33663,8 +34212,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[231216] = {
+	}
+	pg.base.world_expedition_data[231216] = {
 		id = 231216,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -33996,8 +34545,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[231411] = {
+	}
+	pg.base.world_expedition_data[231411] = {
 		id = 231411,
 		expedition_sairenvalueC = 500,
 		failed_morale = 1,
@@ -34329,8 +34878,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[231412] = {
+	}
+	pg.base.world_expedition_data[231412] = {
 		id = 231412,
 		expedition_sairenvalueC = 500,
 		failed_morale = 1,
@@ -34662,8 +35211,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[231413] = {
+	}
+	pg.base.world_expedition_data[231413] = {
 		id = 231413,
 		expedition_sairenvalueC = 500,
 		failed_morale = 1,
@@ -34995,8 +35544,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[233011] = {
+	}
+	pg.base.world_expedition_data[233011] = {
 		id = 233011,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -35328,8 +35877,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[233012] = {
+	}
+	pg.base.world_expedition_data[233012] = {
 		id = 233012,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -35661,8 +36210,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[233013] = {
+	}
+	pg.base.world_expedition_data[233013] = {
 		id = 233013,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -35994,8 +36543,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[233014] = {
+	}
+	pg.base.world_expedition_data[233014] = {
 		id = 233014,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -36327,8 +36876,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[233015] = {
+	}
+	pg.base.world_expedition_data[233015] = {
 		id = 233015,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -36660,8 +37209,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[233016] = {
+	}
+	pg.base.world_expedition_data[233016] = {
 		id = 233016,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -36993,8 +37542,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[233211] = {
+	}
+	pg.base.world_expedition_data[233211] = {
 		id = 233211,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -37326,8 +37875,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[233212] = {
+	}
+	pg.base.world_expedition_data[233212] = {
 		id = 233212,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -37659,8 +38208,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[233213] = {
+	}
+	pg.base.world_expedition_data[233213] = {
 		id = 233213,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -37992,8 +38541,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[233411] = {
+	}
+	pg.base.world_expedition_data[233411] = {
 		id = 233411,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -38325,8 +38874,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[233412] = {
+	}
+	pg.base.world_expedition_data[233412] = {
 		id = 233412,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -38658,8 +39207,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[233413] = {
+	}
+	pg.base.world_expedition_data[233413] = {
 		id = 233413,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -38991,8 +39540,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[233414] = {
+	}
+	pg.base.world_expedition_data[233414] = {
 		id = 233414,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -39324,8 +39873,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[234011] = {
+	}
+	pg.base.world_expedition_data[234011] = {
 		id = 234011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -39657,8 +40206,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[234211] = {
+	}
+	pg.base.world_expedition_data[234211] = {
 		id = 234211,
 		expedition_sairenvalueC = 1500,
 		failed_morale = 1,
@@ -39990,8 +40539,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[234212] = {
+	}
+	pg.base.world_expedition_data[234212] = {
 		id = 234212,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -40323,8 +40872,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[234213] = {
+	}
+	pg.base.world_expedition_data[234213] = {
 		id = 234213,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -40656,8 +41205,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[235011] = {
+	}
+	pg.base.world_expedition_data[235011] = {
 		id = 235011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -41045,8 +41594,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[235012] = {
+	}
+	pg.base.world_expedition_data[235012] = {
 		id = 235012,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -41434,8 +41983,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[235013] = {
+	}
+	pg.base.world_expedition_data[235013] = {
 		id = 235013,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -41823,8 +42372,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[235014] = {
+	}
+	pg.base.world_expedition_data[235014] = {
 		id = 235014,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -42212,8 +42761,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[235015] = {
+	}
+	pg.base.world_expedition_data[235015] = {
 		id = 235015,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -42601,8 +43150,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[235016] = {
+	}
+	pg.base.world_expedition_data[235016] = {
 		id = 235016,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -42990,8 +43539,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[235017] = {
+	}
+	pg.base.world_expedition_data[235017] = {
 		id = 235017,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -43379,8 +43928,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[236011] = {
+	}
+	pg.base.world_expedition_data[236011] = {
 		id = 236011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -43712,8 +44261,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[240011] = {
+	}
+	pg.base.world_expedition_data[240011] = {
 		id = 240011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -44045,8 +44594,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[240012] = {
+	}
+	pg.base.world_expedition_data[240012] = {
 		id = 240012,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -44378,8 +44927,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[240013] = {
+	}
+	pg.base.world_expedition_data[240013] = {
 		id = 240013,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -44711,8 +45260,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[240014] = {
+	}
+	pg.base.world_expedition_data[240014] = {
 		id = 240014,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -45044,8 +45593,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[240015] = {
+	}
+	pg.base.world_expedition_data[240015] = {
 		id = 240015,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -45377,8 +45926,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[240512] = {
+	}
+	pg.base.world_expedition_data[240512] = {
 		id = 240512,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -45710,8 +46259,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[240513] = {
+	}
+	pg.base.world_expedition_data[240513] = {
 		id = 240513,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -46043,8 +46592,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[240514] = {
+	}
+	pg.base.world_expedition_data[240514] = {
 		id = 240514,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -46376,8 +46925,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[241011] = {
+	}
+	pg.base.world_expedition_data[241011] = {
 		id = 241011,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -46709,8 +47258,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[241012] = {
+	}
+	pg.base.world_expedition_data[241012] = {
 		id = 241012,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -47042,8 +47591,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[241013] = {
+	}
+	pg.base.world_expedition_data[241013] = {
 		id = 241013,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -47375,8 +47924,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[241014] = {
+	}
+	pg.base.world_expedition_data[241014] = {
 		id = 241014,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -47708,8 +48257,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[241015] = {
+	}
+	pg.base.world_expedition_data[241015] = {
 		id = 241015,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -48041,8 +48590,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[241211] = {
+	}
+	pg.base.world_expedition_data[241211] = {
 		id = 241211,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -48374,8 +48923,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[241212] = {
+	}
+	pg.base.world_expedition_data[241212] = {
 		id = 241212,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -48707,8 +49256,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[241213] = {
+	}
+	pg.base.world_expedition_data[241213] = {
 		id = 241213,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -49040,8 +49589,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[241214] = {
+	}
+	pg.base.world_expedition_data[241214] = {
 		id = 241214,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -49373,8 +49922,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[241215] = {
+	}
+	pg.base.world_expedition_data[241215] = {
 		id = 241215,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -49706,8 +50255,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[241216] = {
+	}
+	pg.base.world_expedition_data[241216] = {
 		id = 241216,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -50039,8 +50588,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[241217] = {
+	}
+	pg.base.world_expedition_data[241217] = {
 		id = 241217,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -50372,8 +50921,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[241411] = {
+	}
+	pg.base.world_expedition_data[241411] = {
 		id = 241411,
 		expedition_sairenvalueC = 500,
 		failed_morale = 1,
@@ -50705,8 +51254,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[241412] = {
+	}
+	pg.base.world_expedition_data[241412] = {
 		id = 241412,
 		expedition_sairenvalueC = 500,
 		failed_morale = 1,
@@ -51038,8 +51587,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[243011] = {
+	}
+	pg.base.world_expedition_data[243011] = {
 		id = 243011,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -51371,8 +51920,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[243012] = {
+	}
+	pg.base.world_expedition_data[243012] = {
 		id = 243012,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -51704,8 +52253,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[243013] = {
+	}
+	pg.base.world_expedition_data[243013] = {
 		id = 243013,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -52037,8 +52586,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[243014] = {
+	}
+	pg.base.world_expedition_data[243014] = {
 		id = 243014,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -52370,8 +52919,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[243015] = {
+	}
+	pg.base.world_expedition_data[243015] = {
 		id = 243015,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -52703,8 +53252,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[243016] = {
+	}
+	pg.base.world_expedition_data[243016] = {
 		id = 243016,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -53036,8 +53585,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[243017] = {
+	}
+	pg.base.world_expedition_data[243017] = {
 		id = 243017,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -53369,8 +53918,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[243211] = {
+	}
+	pg.base.world_expedition_data[243211] = {
 		id = 243211,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -53702,8 +54251,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[243212] = {
+	}
+	pg.base.world_expedition_data[243212] = {
 		id = 243212,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -54035,8 +54584,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[243411] = {
+	}
+	pg.base.world_expedition_data[243411] = {
 		id = 243411,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -54368,8 +54917,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[243412] = {
+	}
+	pg.base.world_expedition_data[243412] = {
 		id = 243412,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -54701,8 +55250,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[243413] = {
+	}
+	pg.base.world_expedition_data[243413] = {
 		id = 243413,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -55034,8 +55583,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[243414] = {
+	}
+	pg.base.world_expedition_data[243414] = {
 		id = 243414,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -55367,8 +55916,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[244011] = {
+	}
+	pg.base.world_expedition_data[244011] = {
 		id = 244011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -55700,8 +56249,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[244211] = {
+	}
+	pg.base.world_expedition_data[244211] = {
 		id = 244211,
 		expedition_sairenvalueC = 1500,
 		failed_morale = 1,
@@ -56033,8 +56582,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[244212] = {
+	}
+	pg.base.world_expedition_data[244212] = {
 		id = 244212,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -56366,8 +56915,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[244213] = {
+	}
+	pg.base.world_expedition_data[244213] = {
 		id = 244213,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -56699,8 +57248,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[245011] = {
+	}
+	pg.base.world_expedition_data[245011] = {
 		id = 245011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -57088,8 +57637,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[245012] = {
+	}
+	pg.base.world_expedition_data[245012] = {
 		id = 245012,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -57477,8 +58026,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[245013] = {
+	}
+	pg.base.world_expedition_data[245013] = {
 		id = 245013,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -57866,8 +58415,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[245014] = {
+	}
+	pg.base.world_expedition_data[245014] = {
 		id = 245014,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -58255,8 +58804,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[245015] = {
+	}
+	pg.base.world_expedition_data[245015] = {
 		id = 245015,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -58644,8 +59193,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[245016] = {
+	}
+	pg.base.world_expedition_data[245016] = {
 		id = 245016,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -59033,8 +59582,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[246011] = {
+	}
+	pg.base.world_expedition_data[246011] = {
 		id = 246011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -59366,8 +59915,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[250011] = {
+	}
+	pg.base.world_expedition_data[250011] = {
 		id = 250011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -59699,8 +60248,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[250012] = {
+	}
+	pg.base.world_expedition_data[250012] = {
 		id = 250012,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -60032,8 +60581,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[250511] = {
+	}
+	pg.base.world_expedition_data[250511] = {
 		id = 250511,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -60365,8 +60914,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[250512] = {
+	}
+	pg.base.world_expedition_data[250512] = {
 		id = 250512,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -60698,8 +61247,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[251011] = {
+	}
+	pg.base.world_expedition_data[251011] = {
 		id = 251011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -61031,8 +61580,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[251211] = {
+	}
+	pg.base.world_expedition_data[251211] = {
 		id = 251211,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -61364,8 +61913,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[251411] = {
+	}
+	pg.base.world_expedition_data[251411] = {
 		id = 251411,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -61697,8 +62246,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[252011] = {
+	}
+	pg.base.world_expedition_data[252011] = {
 		id = 252011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -62030,8 +62579,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[252211] = {
+	}
+	pg.base.world_expedition_data[252211] = {
 		id = 252211,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -62363,8 +62912,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[252411] = {
+	}
+	pg.base.world_expedition_data[252411] = {
 		id = 252411,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -62696,8 +63245,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[253011] = {
+	}
+	pg.base.world_expedition_data[253011] = {
 		id = 253011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -63029,8 +63578,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[253211] = {
+	}
+	pg.base.world_expedition_data[253211] = {
 		id = 253211,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -63362,8 +63911,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[254011] = {
+	}
+	pg.base.world_expedition_data[254011] = {
 		id = 254011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -63695,8 +64244,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[256011] = {
+	}
+	pg.base.world_expedition_data[256011] = {
 		id = 256011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -64028,8 +64577,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[260011] = {
+	}
+	pg.base.world_expedition_data[260011] = {
 		id = 260011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -64361,8 +64910,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[260012] = {
+	}
+	pg.base.world_expedition_data[260012] = {
 		id = 260012,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -64694,8 +65243,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[260511] = {
+	}
+	pg.base.world_expedition_data[260511] = {
 		id = 260511,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -65027,8 +65576,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[260512] = {
+	}
+	pg.base.world_expedition_data[260512] = {
 		id = 260512,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -65360,8 +65909,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[261011] = {
+	}
+	pg.base.world_expedition_data[261011] = {
 		id = 261011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -65693,8 +66242,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[261211] = {
+	}
+	pg.base.world_expedition_data[261211] = {
 		id = 261211,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -66026,8 +66575,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[261411] = {
+	}
+	pg.base.world_expedition_data[261411] = {
 		id = 261411,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -66359,8 +66908,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[262011] = {
+	}
+	pg.base.world_expedition_data[262011] = {
 		id = 262011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -66692,8 +67241,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[262211] = {
+	}
+	pg.base.world_expedition_data[262211] = {
 		id = 262211,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -67025,8 +67574,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[262411] = {
+	}
+	pg.base.world_expedition_data[262411] = {
 		id = 262411,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -67358,8 +67907,10 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[263011] = {
+	}
+end)()
+(function ()
+	pg.base.world_expedition_data[263011] = {
 		id = 263011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -67691,8 +68242,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[263211] = {
+	}
+	pg.base.world_expedition_data[263211] = {
 		id = 263211,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -68024,8 +68575,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[264011] = {
+	}
+	pg.base.world_expedition_data[264011] = {
 		id = 264011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -68357,8 +68908,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[266011] = {
+	}
+	pg.base.world_expedition_data[266011] = {
 		id = 266011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -68690,8 +69241,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[270011] = {
+	}
+	pg.base.world_expedition_data[270011] = {
 		id = 270011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -69023,8 +69574,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[270012] = {
+	}
+	pg.base.world_expedition_data[270012] = {
 		id = 270012,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -69356,8 +69907,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[270511] = {
+	}
+	pg.base.world_expedition_data[270511] = {
 		id = 270511,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -69689,8 +70240,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[270512] = {
+	}
+	pg.base.world_expedition_data[270512] = {
 		id = 270512,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -70022,8 +70573,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[271011] = {
+	}
+	pg.base.world_expedition_data[271011] = {
 		id = 271011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -70355,8 +70906,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[271211] = {
+	}
+	pg.base.world_expedition_data[271211] = {
 		id = 271211,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -70688,8 +71239,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[271411] = {
+	}
+	pg.base.world_expedition_data[271411] = {
 		id = 271411,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -71021,8 +71572,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[272011] = {
+	}
+	pg.base.world_expedition_data[272011] = {
 		id = 272011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -71354,8 +71905,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[272211] = {
+	}
+	pg.base.world_expedition_data[272211] = {
 		id = 272211,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -71687,8 +72238,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[272411] = {
+	}
+	pg.base.world_expedition_data[272411] = {
 		id = 272411,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -72020,8 +72571,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[273011] = {
+	}
+	pg.base.world_expedition_data[273011] = {
 		id = 273011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -72353,8 +72904,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[273211] = {
+	}
+	pg.base.world_expedition_data[273211] = {
 		id = 273211,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -72686,8 +73237,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[274011] = {
+	}
+	pg.base.world_expedition_data[274011] = {
 		id = 274011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -73019,8 +73570,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[276011] = {
+	}
+	pg.base.world_expedition_data[276011] = {
 		id = 276011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -73352,8 +73903,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[280011] = {
+	}
+	pg.base.world_expedition_data[280011] = {
 		id = 280011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -73685,8 +74236,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[280012] = {
+	}
+	pg.base.world_expedition_data[280012] = {
 		id = 280012,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -74018,8 +74569,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[280511] = {
+	}
+	pg.base.world_expedition_data[280511] = {
 		id = 280511,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -74351,8 +74902,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[280512] = {
+	}
+	pg.base.world_expedition_data[280512] = {
 		id = 280512,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -74684,8 +75235,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[281011] = {
+	}
+	pg.base.world_expedition_data[281011] = {
 		id = 281011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -75017,8 +75568,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[281211] = {
+	}
+	pg.base.world_expedition_data[281211] = {
 		id = 281211,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -75350,8 +75901,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[281411] = {
+	}
+	pg.base.world_expedition_data[281411] = {
 		id = 281411,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -75683,8 +76234,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[282011] = {
+	}
+	pg.base.world_expedition_data[282011] = {
 		id = 282011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -76016,8 +76567,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[282211] = {
+	}
+	pg.base.world_expedition_data[282211] = {
 		id = 282211,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -76349,8 +76900,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[282411] = {
+	}
+	pg.base.world_expedition_data[282411] = {
 		id = 282411,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -76682,8 +77233,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[283011] = {
+	}
+	pg.base.world_expedition_data[283011] = {
 		id = 283011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -77015,8 +77566,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[283211] = {
+	}
+	pg.base.world_expedition_data[283211] = {
 		id = 283211,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -77348,8 +77899,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[284011] = {
+	}
+	pg.base.world_expedition_data[284011] = {
 		id = 284011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -77681,8 +78232,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[286011] = {
+	}
+	pg.base.world_expedition_data[286011] = {
 		id = 286011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -78014,8 +78565,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[290011] = {
+	}
+	pg.base.world_expedition_data[290011] = {
 		id = 290011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -78173,8 +78724,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[290012] = {
+	}
+	pg.base.world_expedition_data[290012] = {
 		id = 290012,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -78332,8 +78883,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[290013] = {
+	}
+	pg.base.world_expedition_data[290013] = {
 		id = 290013,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -78491,8 +79042,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[290021] = {
+	}
+	pg.base.world_expedition_data[290021] = {
 		id = 290021,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -78650,8 +79201,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[290031] = {
+	}
+	pg.base.world_expedition_data[290031] = {
 		id = 290031,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -78809,8 +79360,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[290041] = {
+	}
+	pg.base.world_expedition_data[290041] = {
 		id = 290041,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -78968,8 +79519,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291011] = {
+	}
+	pg.base.world_expedition_data[291011] = {
 		id = 291011,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -79127,8 +79678,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291021] = {
+	}
+	pg.base.world_expedition_data[291021] = {
 		id = 291021,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -79286,8 +79837,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291031] = {
+	}
+	pg.base.world_expedition_data[291031] = {
 		id = 291031,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -79445,8 +79996,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291041] = {
+	}
+	pg.base.world_expedition_data[291041] = {
 		id = 291041,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -79604,8 +80155,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291091] = {
+	}
+	pg.base.world_expedition_data[291091] = {
 		id = 291091,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -79763,8 +80314,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291092] = {
+	}
+	pg.base.world_expedition_data[291092] = {
 		id = 291092,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -79922,8 +80473,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291093] = {
+	}
+	pg.base.world_expedition_data[291093] = {
 		id = 291093,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -80081,8 +80632,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291100] = {
+	}
+	pg.base.world_expedition_data[291100] = {
 		id = 291100,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -80163,8 +80714,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291101] = {
+	}
+	pg.base.world_expedition_data[291101] = {
 		id = 291101,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -80245,8 +80796,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291102] = {
+	}
+	pg.base.world_expedition_data[291102] = {
 		id = 291102,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -80327,8 +80878,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291103] = {
+	}
+	pg.base.world_expedition_data[291103] = {
 		id = 291103,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -80409,8 +80960,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291150] = {
+	}
+	pg.base.world_expedition_data[291150] = {
 		id = 291150,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -80632,8 +81183,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291151] = {
+	}
+	pg.base.world_expedition_data[291151] = {
 		id = 291151,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -80855,8 +81406,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291152] = {
+	}
+	pg.base.world_expedition_data[291152] = {
 		id = 291152,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -81078,8 +81629,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291153] = {
+	}
+	pg.base.world_expedition_data[291153] = {
 		id = 291153,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -81301,8 +81852,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291160] = {
+	}
+	pg.base.world_expedition_data[291160] = {
 		id = 291160,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -81524,8 +82075,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291161] = {
+	}
+	pg.base.world_expedition_data[291161] = {
 		id = 291161,
 		expedition_sairenvalueC = -500,
 		failed_morale = 1,
@@ -81747,8 +82298,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291211] = {
+	}
+	pg.base.world_expedition_data[291211] = {
 		id = 291211,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -81906,8 +82457,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291221] = {
+	}
+	pg.base.world_expedition_data[291221] = {
 		id = 291221,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -82065,8 +82616,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291231] = {
+	}
+	pg.base.world_expedition_data[291231] = {
 		id = 291231,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -82224,8 +82775,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291241] = {
+	}
+	pg.base.world_expedition_data[291241] = {
 		id = 291241,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -82383,8 +82934,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291291] = {
+	}
+	pg.base.world_expedition_data[291291] = {
 		id = 291291,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -82542,8 +83093,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291292] = {
+	}
+	pg.base.world_expedition_data[291292] = {
 		id = 291292,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -82701,8 +83252,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291293] = {
+	}
+	pg.base.world_expedition_data[291293] = {
 		id = 291293,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -82860,8 +83411,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291300] = {
+	}
+	pg.base.world_expedition_data[291300] = {
 		id = 291300,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -82942,8 +83493,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291301] = {
+	}
+	pg.base.world_expedition_data[291301] = {
 		id = 291301,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -83024,8 +83575,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291302] = {
+	}
+	pg.base.world_expedition_data[291302] = {
 		id = 291302,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -83106,8 +83657,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291303] = {
+	}
+	pg.base.world_expedition_data[291303] = {
 		id = 291303,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -83188,8 +83739,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291350] = {
+	}
+	pg.base.world_expedition_data[291350] = {
 		id = 291350,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -83411,8 +83962,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291351] = {
+	}
+	pg.base.world_expedition_data[291351] = {
 		id = 291351,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -83634,8 +84185,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291352] = {
+	}
+	pg.base.world_expedition_data[291352] = {
 		id = 291352,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -83857,8 +84408,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291353] = {
+	}
+	pg.base.world_expedition_data[291353] = {
 		id = 291353,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -84080,8 +84631,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291360] = {
+	}
+	pg.base.world_expedition_data[291360] = {
 		id = 291360,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -84303,8 +84854,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291361] = {
+	}
+	pg.base.world_expedition_data[291361] = {
 		id = 291361,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -84526,8 +85077,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291411] = {
+	}
+	pg.base.world_expedition_data[291411] = {
 		id = 291411,
 		expedition_sairenvalueC = 500,
 		failed_morale = 1,
@@ -84685,8 +85236,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291421] = {
+	}
+	pg.base.world_expedition_data[291421] = {
 		id = 291421,
 		expedition_sairenvalueC = 500,
 		failed_morale = 1,
@@ -84844,8 +85395,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291431] = {
+	}
+	pg.base.world_expedition_data[291431] = {
 		id = 291431,
 		expedition_sairenvalueC = 500,
 		failed_morale = 1,
@@ -85003,8 +85554,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291441] = {
+	}
+	pg.base.world_expedition_data[291441] = {
 		id = 291441,
 		expedition_sairenvalueC = 500,
 		failed_morale = 1,
@@ -85162,8 +85713,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291491] = {
+	}
+	pg.base.world_expedition_data[291491] = {
 		id = 291491,
 		expedition_sairenvalueC = 500,
 		failed_morale = 1,
@@ -85321,8 +85872,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291492] = {
+	}
+	pg.base.world_expedition_data[291492] = {
 		id = 291492,
 		expedition_sairenvalueC = 500,
 		failed_morale = 1,
@@ -85480,8 +86031,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291493] = {
+	}
+	pg.base.world_expedition_data[291493] = {
 		id = 291493,
 		expedition_sairenvalueC = 500,
 		failed_morale = 1,
@@ -85639,8 +86190,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291500] = {
+	}
+	pg.base.world_expedition_data[291500] = {
 		id = 291500,
 		expedition_sairenvalueC = 500,
 		failed_morale = 1,
@@ -85721,8 +86272,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291501] = {
+	}
+	pg.base.world_expedition_data[291501] = {
 		id = 291501,
 		expedition_sairenvalueC = 500,
 		failed_morale = 1,
@@ -85803,8 +86354,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291502] = {
+	}
+	pg.base.world_expedition_data[291502] = {
 		id = 291502,
 		expedition_sairenvalueC = 500,
 		failed_morale = 1,
@@ -85885,8 +86436,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291503] = {
+	}
+	pg.base.world_expedition_data[291503] = {
 		id = 291503,
 		expedition_sairenvalueC = 500,
 		failed_morale = 1,
@@ -85967,8 +86518,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291550] = {
+	}
+	pg.base.world_expedition_data[291550] = {
 		id = 291550,
 		expedition_sairenvalueC = 500,
 		failed_morale = 1,
@@ -86190,8 +86741,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291551] = {
+	}
+	pg.base.world_expedition_data[291551] = {
 		id = 291551,
 		expedition_sairenvalueC = 500,
 		failed_morale = 1,
@@ -86413,8 +86964,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291552] = {
+	}
+	pg.base.world_expedition_data[291552] = {
 		id = 291552,
 		expedition_sairenvalueC = 500,
 		failed_morale = 1,
@@ -86636,8 +87187,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291553] = {
+	}
+	pg.base.world_expedition_data[291553] = {
 		id = 291553,
 		expedition_sairenvalueC = 500,
 		failed_morale = 1,
@@ -86859,8 +87410,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291560] = {
+	}
+	pg.base.world_expedition_data[291560] = {
 		id = 291560,
 		expedition_sairenvalueC = 500,
 		failed_morale = 1,
@@ -87082,8 +87633,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291561] = {
+	}
+	pg.base.world_expedition_data[291561] = {
 		id = 291561,
 		expedition_sairenvalueC = 500,
 		failed_morale = 1,
@@ -87305,8 +87856,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291600] = {
+	}
+	pg.base.world_expedition_data[291600] = {
 		id = 291600,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -87464,8 +88015,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[291601] = {
+	}
+	pg.base.world_expedition_data[291601] = {
 		id = 291601,
 		expedition_sairenvalueC = 500,
 		failed_morale = 1,
@@ -87623,8 +88174,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292000] = {
+	}
+	pg.base.world_expedition_data[292000] = {
 		id = 292000,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -87705,8 +88256,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292001] = {
+	}
+	pg.base.world_expedition_data[292001] = {
 		id = 292001,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -87787,8 +88338,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292002] = {
+	}
+	pg.base.world_expedition_data[292002] = {
 		id = 292002,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -87869,8 +88420,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292003] = {
+	}
+	pg.base.world_expedition_data[292003] = {
 		id = 292003,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -87951,8 +88502,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292010] = {
+	}
+	pg.base.world_expedition_data[292010] = {
 		id = 292010,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -88033,8 +88584,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292011] = {
+	}
+	pg.base.world_expedition_data[292011] = {
 		id = 292011,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -88115,8 +88666,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292012] = {
+	}
+	pg.base.world_expedition_data[292012] = {
 		id = 292012,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -88197,8 +88748,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292013] = {
+	}
+	pg.base.world_expedition_data[292013] = {
 		id = 292013,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -88279,8 +88830,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292020] = {
+	}
+	pg.base.world_expedition_data[292020] = {
 		id = 292020,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -88361,8 +88912,10 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292021] = {
+	}
+end)()
+(function ()
+	pg.base.world_expedition_data[292021] = {
 		id = 292021,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -88443,8 +88996,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292022] = {
+	}
+	pg.base.world_expedition_data[292022] = {
 		id = 292022,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -88525,8 +89078,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292023] = {
+	}
+	pg.base.world_expedition_data[292023] = {
 		id = 292023,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -88607,8 +89160,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292050] = {
+	}
+	pg.base.world_expedition_data[292050] = {
 		id = 292050,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -88689,8 +89242,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292051] = {
+	}
+	pg.base.world_expedition_data[292051] = {
 		id = 292051,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -88771,8 +89324,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292052] = {
+	}
+	pg.base.world_expedition_data[292052] = {
 		id = 292052,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -88853,8 +89406,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292053] = {
+	}
+	pg.base.world_expedition_data[292053] = {
 		id = 292053,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -88935,8 +89488,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292060] = {
+	}
+	pg.base.world_expedition_data[292060] = {
 		id = 292060,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -89017,8 +89570,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292061] = {
+	}
+	pg.base.world_expedition_data[292061] = {
 		id = 292061,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -89099,8 +89652,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292062] = {
+	}
+	pg.base.world_expedition_data[292062] = {
 		id = 292062,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -89181,8 +89734,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292063] = {
+	}
+	pg.base.world_expedition_data[292063] = {
 		id = 292063,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -89263,8 +89816,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292070] = {
+	}
+	pg.base.world_expedition_data[292070] = {
 		id = 292070,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -89345,8 +89898,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292071] = {
+	}
+	pg.base.world_expedition_data[292071] = {
 		id = 292071,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -89427,8 +89980,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292072] = {
+	}
+	pg.base.world_expedition_data[292072] = {
 		id = 292072,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -89509,8 +90062,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292073] = {
+	}
+	pg.base.world_expedition_data[292073] = {
 		id = 292073,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -89591,8 +90144,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292100] = {
+	}
+	pg.base.world_expedition_data[292100] = {
 		id = 292100,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -89673,8 +90226,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292101] = {
+	}
+	pg.base.world_expedition_data[292101] = {
 		id = 292101,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -89755,8 +90308,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292102] = {
+	}
+	pg.base.world_expedition_data[292102] = {
 		id = 292102,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -89837,8 +90390,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292103] = {
+	}
+	pg.base.world_expedition_data[292103] = {
 		id = 292103,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -89919,8 +90472,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292104] = {
+	}
+	pg.base.world_expedition_data[292104] = {
 		id = 292104,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -90001,8 +90554,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292200] = {
+	}
+	pg.base.world_expedition_data[292200] = {
 		id = 292200,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -90083,8 +90636,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292201] = {
+	}
+	pg.base.world_expedition_data[292201] = {
 		id = 292201,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -90165,8 +90718,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292210] = {
+	}
+	pg.base.world_expedition_data[292210] = {
 		id = 292210,
 		expedition_sairenvalueC = 500,
 		failed_morale = 1,
@@ -90247,8 +90800,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292211] = {
+	}
+	pg.base.world_expedition_data[292211] = {
 		id = 292211,
 		expedition_sairenvalueC = 500,
 		failed_morale = 1,
@@ -90329,8 +90882,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292220] = {
+	}
+	pg.base.world_expedition_data[292220] = {
 		id = 292220,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -90411,8 +90964,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[292221] = {
+	}
+	pg.base.world_expedition_data[292221] = {
 		id = 292221,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -90493,8 +91046,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293011] = {
+	}
+	pg.base.world_expedition_data[293011] = {
 		id = 293011,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -90652,8 +91205,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293021] = {
+	}
+	pg.base.world_expedition_data[293021] = {
 		id = 293021,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -90811,8 +91364,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293031] = {
+	}
+	pg.base.world_expedition_data[293031] = {
 		id = 293031,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -90970,8 +91523,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293041] = {
+	}
+	pg.base.world_expedition_data[293041] = {
 		id = 293041,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -91129,8 +91682,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293091] = {
+	}
+	pg.base.world_expedition_data[293091] = {
 		id = 293091,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -91288,8 +91841,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293092] = {
+	}
+	pg.base.world_expedition_data[293092] = {
 		id = 293092,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -91447,8 +92000,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293093] = {
+	}
+	pg.base.world_expedition_data[293093] = {
 		id = 293093,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -91606,8 +92159,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293100] = {
+	}
+	pg.base.world_expedition_data[293100] = {
 		id = 293100,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -91688,8 +92241,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293101] = {
+	}
+	pg.base.world_expedition_data[293101] = {
 		id = 293101,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -91770,8 +92323,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293102] = {
+	}
+	pg.base.world_expedition_data[293102] = {
 		id = 293102,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -91852,8 +92405,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293103] = {
+	}
+	pg.base.world_expedition_data[293103] = {
 		id = 293103,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -91934,8 +92487,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293104] = {
+	}
+	pg.base.world_expedition_data[293104] = {
 		id = 293104,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -92016,8 +92569,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293150] = {
+	}
+	pg.base.world_expedition_data[293150] = {
 		id = 293150,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -92239,8 +92792,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293151] = {
+	}
+	pg.base.world_expedition_data[293151] = {
 		id = 293151,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -92462,8 +93015,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293152] = {
+	}
+	pg.base.world_expedition_data[293152] = {
 		id = 293152,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -92685,8 +93238,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293153] = {
+	}
+	pg.base.world_expedition_data[293153] = {
 		id = 293153,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -92908,8 +93461,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293154] = {
+	}
+	pg.base.world_expedition_data[293154] = {
 		id = 293154,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -93131,8 +93684,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293160] = {
+	}
+	pg.base.world_expedition_data[293160] = {
 		id = 293160,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -93354,8 +93907,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293161] = {
+	}
+	pg.base.world_expedition_data[293161] = {
 		id = 293161,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -93577,8 +94130,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293211] = {
+	}
+	pg.base.world_expedition_data[293211] = {
 		id = 293211,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -93736,8 +94289,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293221] = {
+	}
+	pg.base.world_expedition_data[293221] = {
 		id = 293221,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -93895,8 +94448,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293231] = {
+	}
+	pg.base.world_expedition_data[293231] = {
 		id = 293231,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -94054,8 +94607,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293241] = {
+	}
+	pg.base.world_expedition_data[293241] = {
 		id = 293241,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -94213,8 +94766,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293291] = {
+	}
+	pg.base.world_expedition_data[293291] = {
 		id = 293291,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -94372,8 +94925,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293292] = {
+	}
+	pg.base.world_expedition_data[293292] = {
 		id = 293292,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -94531,8 +95084,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293293] = {
+	}
+	pg.base.world_expedition_data[293293] = {
 		id = 293293,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -94690,8 +95243,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293300] = {
+	}
+	pg.base.world_expedition_data[293300] = {
 		id = 293300,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -94772,8 +95325,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293301] = {
+	}
+	pg.base.world_expedition_data[293301] = {
 		id = 293301,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -94854,8 +95407,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293302] = {
+	}
+	pg.base.world_expedition_data[293302] = {
 		id = 293302,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -94936,8 +95489,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293303] = {
+	}
+	pg.base.world_expedition_data[293303] = {
 		id = 293303,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -95018,8 +95571,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293304] = {
+	}
+	pg.base.world_expedition_data[293304] = {
 		id = 293304,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -95100,8 +95653,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293350] = {
+	}
+	pg.base.world_expedition_data[293350] = {
 		id = 293350,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -95323,8 +95876,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293351] = {
+	}
+	pg.base.world_expedition_data[293351] = {
 		id = 293351,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -95546,8 +96099,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293352] = {
+	}
+	pg.base.world_expedition_data[293352] = {
 		id = 293352,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -95769,8 +96322,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293353] = {
+	}
+	pg.base.world_expedition_data[293353] = {
 		id = 293353,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -95992,8 +96545,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293354] = {
+	}
+	pg.base.world_expedition_data[293354] = {
 		id = 293354,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -96215,8 +96768,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293360] = {
+	}
+	pg.base.world_expedition_data[293360] = {
 		id = 293360,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -96438,8 +96991,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293361] = {
+	}
+	pg.base.world_expedition_data[293361] = {
 		id = 293361,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -96661,8 +97214,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293411] = {
+	}
+	pg.base.world_expedition_data[293411] = {
 		id = 293411,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -96820,8 +97373,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293421] = {
+	}
+	pg.base.world_expedition_data[293421] = {
 		id = 293421,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -96979,8 +97532,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293431] = {
+	}
+	pg.base.world_expedition_data[293431] = {
 		id = 293431,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -97138,8 +97691,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293441] = {
+	}
+	pg.base.world_expedition_data[293441] = {
 		id = 293441,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -97297,8 +97850,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293491] = {
+	}
+	pg.base.world_expedition_data[293491] = {
 		id = 293491,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -97456,8 +98009,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293492] = {
+	}
+	pg.base.world_expedition_data[293492] = {
 		id = 293492,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -97615,8 +98168,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293493] = {
+	}
+	pg.base.world_expedition_data[293493] = {
 		id = 293493,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -97774,8 +98327,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293500] = {
+	}
+	pg.base.world_expedition_data[293500] = {
 		id = 293500,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -97856,8 +98409,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293501] = {
+	}
+	pg.base.world_expedition_data[293501] = {
 		id = 293501,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -97938,8 +98491,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293502] = {
+	}
+	pg.base.world_expedition_data[293502] = {
 		id = 293502,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -98020,8 +98573,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293503] = {
+	}
+	pg.base.world_expedition_data[293503] = {
 		id = 293503,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -98102,8 +98655,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293504] = {
+	}
+	pg.base.world_expedition_data[293504] = {
 		id = 293504,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -98184,8 +98737,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293550] = {
+	}
+	pg.base.world_expedition_data[293550] = {
 		id = 293550,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -98407,8 +98960,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293551] = {
+	}
+	pg.base.world_expedition_data[293551] = {
 		id = 293551,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -98630,8 +99183,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293552] = {
+	}
+	pg.base.world_expedition_data[293552] = {
 		id = 293552,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -98853,8 +99406,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293553] = {
+	}
+	pg.base.world_expedition_data[293553] = {
 		id = 293553,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -99076,8 +99629,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293554] = {
+	}
+	pg.base.world_expedition_data[293554] = {
 		id = 293554,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -99299,8 +99852,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293560] = {
+	}
+	pg.base.world_expedition_data[293560] = {
 		id = 293560,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -99522,8 +100075,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[293561] = {
+	}
+	pg.base.world_expedition_data[293561] = {
 		id = 293561,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -99745,8 +100298,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294001] = {
+	}
+	pg.base.world_expedition_data[294001] = {
 		id = 294001,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 2,
@@ -100054,8 +100607,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294002] = {
+	}
+	pg.base.world_expedition_data[294002] = {
 		id = 294002,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 2,
@@ -100363,8 +100916,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294003] = {
+	}
+	pg.base.world_expedition_data[294003] = {
 		id = 294003,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 2,
@@ -100672,8 +101225,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294004] = {
+	}
+	pg.base.world_expedition_data[294004] = {
 		id = 294004,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 2,
@@ -100981,8 +101534,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294005] = {
+	}
+	pg.base.world_expedition_data[294005] = {
 		id = 294005,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 2,
@@ -101290,8 +101843,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294006] = {
+	}
+	pg.base.world_expedition_data[294006] = {
 		id = 294006,
 		expedition_sairenvalueC = 1250,
 		failed_morale = 2,
@@ -101599,8 +102152,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294007] = {
+	}
+	pg.base.world_expedition_data[294007] = {
 		id = 294007,
 		expedition_sairenvalueC = 1250,
 		failed_morale = 2,
@@ -101908,8 +102461,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294008] = {
+	}
+	pg.base.world_expedition_data[294008] = {
 		id = 294008,
 		expedition_sairenvalueC = 1250,
 		failed_morale = 2,
@@ -102217,8 +102770,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294009] = {
+	}
+	pg.base.world_expedition_data[294009] = {
 		id = 294009,
 		expedition_sairenvalueC = 1250,
 		failed_morale = 2,
@@ -102526,8 +103079,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294010] = {
+	}
+	pg.base.world_expedition_data[294010] = {
 		id = 294010,
 		expedition_sairenvalueC = 1250,
 		failed_morale = 2,
@@ -102835,8 +103388,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294011] = {
+	}
+	pg.base.world_expedition_data[294011] = {
 		id = 294011,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 2,
@@ -102917,8 +103470,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294012] = {
+	}
+	pg.base.world_expedition_data[294012] = {
 		id = 294012,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 2,
@@ -102999,8 +103552,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294013] = {
+	}
+	pg.base.world_expedition_data[294013] = {
 		id = 294013,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 2,
@@ -103081,8 +103634,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294014] = {
+	}
+	pg.base.world_expedition_data[294014] = {
 		id = 294014,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 2,
@@ -103163,8 +103716,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294015] = {
+	}
+	pg.base.world_expedition_data[294015] = {
 		id = 294015,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 2,
@@ -103245,8 +103798,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294016] = {
+	}
+	pg.base.world_expedition_data[294016] = {
 		id = 294016,
 		expedition_sairenvalueC = 1250,
 		failed_morale = 2,
@@ -103327,8 +103880,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294017] = {
+	}
+	pg.base.world_expedition_data[294017] = {
 		id = 294017,
 		expedition_sairenvalueC = 1250,
 		failed_morale = 2,
@@ -103409,8 +103962,10 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294018] = {
+	}
+end)()
+(function ()
+	pg.base.world_expedition_data[294018] = {
 		id = 294018,
 		expedition_sairenvalueC = 1250,
 		failed_morale = 2,
@@ -103491,8 +104046,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294019] = {
+	}
+	pg.base.world_expedition_data[294019] = {
 		id = 294019,
 		expedition_sairenvalueC = 1250,
 		failed_morale = 2,
@@ -103573,8 +104128,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294020] = {
+	}
+	pg.base.world_expedition_data[294020] = {
 		id = 294020,
 		expedition_sairenvalueC = 1250,
 		failed_morale = 2,
@@ -103655,8 +104210,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294021] = {
+	}
+	pg.base.world_expedition_data[294021] = {
 		id = 294021,
 		expedition_sairenvalueC = 1500,
 		failed_morale = 1,
@@ -103737,8 +104292,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294022] = {
+	}
+	pg.base.world_expedition_data[294022] = {
 		id = 294022,
 		expedition_sairenvalueC = 1500,
 		failed_morale = 1,
@@ -103819,8 +104374,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294023] = {
+	}
+	pg.base.world_expedition_data[294023] = {
 		id = 294023,
 		expedition_sairenvalueC = 1500,
 		failed_morale = 1,
@@ -103901,8 +104456,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294024] = {
+	}
+	pg.base.world_expedition_data[294024] = {
 		id = 294024,
 		expedition_sairenvalueC = 1500,
 		failed_morale = 1,
@@ -103983,8 +104538,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294025] = {
+	}
+	pg.base.world_expedition_data[294025] = {
 		id = 294025,
 		expedition_sairenvalueC = 1500,
 		failed_morale = 1,
@@ -104065,8 +104620,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294026] = {
+	}
+	pg.base.world_expedition_data[294026] = {
 		id = 294026,
 		expedition_sairenvalueC = 1500,
 		failed_morale = 1,
@@ -104147,8 +104702,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294027] = {
+	}
+	pg.base.world_expedition_data[294027] = {
 		id = 294027,
 		expedition_sairenvalueC = 1500,
 		failed_morale = 1,
@@ -104229,8 +104784,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294028] = {
+	}
+	pg.base.world_expedition_data[294028] = {
 		id = 294028,
 		expedition_sairenvalueC = 1500,
 		failed_morale = 1,
@@ -104311,8 +104866,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294029] = {
+	}
+	pg.base.world_expedition_data[294029] = {
 		id = 294029,
 		expedition_sairenvalueC = 1500,
 		failed_morale = 1,
@@ -104393,8 +104948,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294030] = {
+	}
+	pg.base.world_expedition_data[294030] = {
 		id = 294030,
 		expedition_sairenvalueC = 1500,
 		failed_morale = 1,
@@ -104475,8 +105030,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294040] = {
+	}
+	pg.base.world_expedition_data[294040] = {
 		id = 294040,
 		expedition_sairenvalueC = 1500,
 		failed_morale = 2,
@@ -104557,8 +105112,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294050] = {
+	}
+	pg.base.world_expedition_data[294050] = {
 		id = 294050,
 		expedition_sairenvalueC = 1500,
 		failed_morale = 1,
@@ -104866,8 +105421,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294051] = {
+	}
+	pg.base.world_expedition_data[294051] = {
 		id = 294051,
 		expedition_sairenvalueC = 1500,
 		failed_morale = 1,
@@ -105175,8 +105730,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294052] = {
+	}
+	pg.base.world_expedition_data[294052] = {
 		id = 294052,
 		expedition_sairenvalueC = 1500,
 		failed_morale = 1,
@@ -105484,8 +106039,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294053] = {
+	}
+	pg.base.world_expedition_data[294053] = {
 		id = 294053,
 		expedition_sairenvalueC = 1500,
 		failed_morale = 1,
@@ -105793,8 +106348,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294054] = {
+	}
+	pg.base.world_expedition_data[294054] = {
 		id = 294054,
 		expedition_sairenvalueC = 1500,
 		failed_morale = 1,
@@ -105875,8 +106430,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294055] = {
+	}
+	pg.base.world_expedition_data[294055] = {
 		id = 294055,
 		expedition_sairenvalueC = 1500,
 		failed_morale = 1,
@@ -105957,8 +106512,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294056] = {
+	}
+	pg.base.world_expedition_data[294056] = {
 		id = 294056,
 		expedition_sairenvalueC = 1500,
 		failed_morale = 1,
@@ -106039,8 +106594,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294057] = {
+	}
+	pg.base.world_expedition_data[294057] = {
 		id = 294057,
 		expedition_sairenvalueC = 1500,
 		failed_morale = 1,
@@ -106121,8 +106676,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294058] = {
+	}
+	pg.base.world_expedition_data[294058] = {
 		id = 294058,
 		expedition_sairenvalueC = 1500,
 		failed_morale = 1,
@@ -106203,8 +106758,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294059] = {
+	}
+	pg.base.world_expedition_data[294059] = {
 		id = 294059,
 		expedition_sairenvalueC = 1500,
 		failed_morale = 1,
@@ -106285,8 +106840,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294060] = {
+	}
+	pg.base.world_expedition_data[294060] = {
 		id = 294060,
 		expedition_sairenvalueC = 1500,
 		failed_morale = 1,
@@ -106367,8 +106922,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294061] = {
+	}
+	pg.base.world_expedition_data[294061] = {
 		id = 294061,
 		expedition_sairenvalueC = 1500,
 		failed_morale = 1,
@@ -106449,8 +107004,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294062] = {
+	}
+	pg.base.world_expedition_data[294062] = {
 		id = 294062,
 		expedition_sairenvalueC = 1500,
 		failed_morale = 1,
@@ -106688,8 +107243,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294063] = {
+	}
+	pg.base.world_expedition_data[294063] = {
 		id = 294063,
 		expedition_sairenvalueC = 1500,
 		failed_morale = 1,
@@ -106927,8 +107482,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294064] = {
+	}
+	pg.base.world_expedition_data[294064] = {
 		id = 294064,
 		expedition_sairenvalueC = 1500,
 		failed_morale = 1,
@@ -107166,8 +107721,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294065] = {
+	}
+	pg.base.world_expedition_data[294065] = {
 		id = 294065,
 		expedition_sairenvalueC = 1500,
 		failed_morale = 1,
@@ -107405,8 +107960,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294111] = {
+	}
+	pg.base.world_expedition_data[294111] = {
 		id = 294111,
 		expedition_sairenvalueC = 500,
 		failed_morale = 1,
@@ -107628,8 +108183,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294112] = {
+	}
+	pg.base.world_expedition_data[294112] = {
 		id = 294112,
 		expedition_sairenvalueC = 500,
 		failed_morale = 1,
@@ -107851,8 +108406,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294113] = {
+	}
+	pg.base.world_expedition_data[294113] = {
 		id = 294113,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -108074,8 +108629,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294114] = {
+	}
+	pg.base.world_expedition_data[294114] = {
 		id = 294114,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -108297,8 +108852,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294115] = {
+	}
+	pg.base.world_expedition_data[294115] = {
 		id = 294115,
 		expedition_sairenvalueC = 1500,
 		failed_morale = 1,
@@ -108520,8 +109075,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294200] = {
+	}
+	pg.base.world_expedition_data[294200] = {
 		id = 294200,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 1,
@@ -108829,8 +109384,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294201] = {
+	}
+	pg.base.world_expedition_data[294201] = {
 		id = 294201,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 1,
@@ -109138,8 +109693,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294202] = {
+	}
+	pg.base.world_expedition_data[294202] = {
 		id = 294202,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 1,
@@ -109447,8 +110002,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294203] = {
+	}
+	pg.base.world_expedition_data[294203] = {
 		id = 294203,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 1,
@@ -109756,8 +110311,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294204] = {
+	}
+	pg.base.world_expedition_data[294204] = {
 		id = 294204,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 1,
@@ -110065,8 +110620,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294210] = {
+	}
+	pg.base.world_expedition_data[294210] = {
 		id = 294210,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 1,
@@ -110147,8 +110702,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294211] = {
+	}
+	pg.base.world_expedition_data[294211] = {
 		id = 294211,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 1,
@@ -110229,8 +110784,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294212] = {
+	}
+	pg.base.world_expedition_data[294212] = {
 		id = 294212,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 1,
@@ -110311,8 +110866,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294213] = {
+	}
+	pg.base.world_expedition_data[294213] = {
 		id = 294213,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 1,
@@ -110393,8 +110948,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294214] = {
+	}
+	pg.base.world_expedition_data[294214] = {
 		id = 294214,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 1,
@@ -110475,8 +111030,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294215] = {
+	}
+	pg.base.world_expedition_data[294215] = {
 		id = 294215,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 1,
@@ -110557,8 +111112,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294216] = {
+	}
+	pg.base.world_expedition_data[294216] = {
 		id = 294216,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 1,
@@ -110639,8 +111194,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294217] = {
+	}
+	pg.base.world_expedition_data[294217] = {
 		id = 294217,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 1,
@@ -110721,8 +111276,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294218] = {
+	}
+	pg.base.world_expedition_data[294218] = {
 		id = 294218,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 1,
@@ -110803,8 +111358,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294219] = {
+	}
+	pg.base.world_expedition_data[294219] = {
 		id = 294219,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 1,
@@ -110885,8 +111440,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294220] = {
+	}
+	pg.base.world_expedition_data[294220] = {
 		id = 294220,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 1,
@@ -111124,8 +111679,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294221] = {
+	}
+	pg.base.world_expedition_data[294221] = {
 		id = 294221,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 1,
@@ -111363,8 +111918,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294222] = {
+	}
+	pg.base.world_expedition_data[294222] = {
 		id = 294222,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 1,
@@ -111602,8 +112157,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294223] = {
+	}
+	pg.base.world_expedition_data[294223] = {
 		id = 294223,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 1,
@@ -111841,8 +112396,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[294224] = {
+	}
+	pg.base.world_expedition_data[294224] = {
 		id = 294224,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 1,
@@ -112080,8 +112635,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295011] = {
+	}
+	pg.base.world_expedition_data[295011] = {
 		id = 295011,
 		expedition_sairenvalueC = 2000,
 		failed_morale = 2,
@@ -112319,8 +112874,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295012] = {
+	}
+	pg.base.world_expedition_data[295012] = {
 		id = 295012,
 		expedition_sairenvalueC = 2000,
 		failed_morale = 2,
@@ -112558,8 +113113,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295013] = {
+	}
+	pg.base.world_expedition_data[295013] = {
 		id = 295013,
 		expedition_sairenvalueC = 2000,
 		failed_morale = 2,
@@ -112797,8 +113352,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295014] = {
+	}
+	pg.base.world_expedition_data[295014] = {
 		id = 295014,
 		expedition_sairenvalueC = 2000,
 		failed_morale = 2,
@@ -113036,8 +113591,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295015] = {
+	}
+	pg.base.world_expedition_data[295015] = {
 		id = 295015,
 		expedition_sairenvalueC = 2000,
 		failed_morale = 2,
@@ -113275,8 +113830,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295021] = {
+	}
+	pg.base.world_expedition_data[295021] = {
 		id = 295021,
 		expedition_sairenvalueC = 2500,
 		failed_morale = 1,
@@ -113444,8 +113999,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295022] = {
+	}
+	pg.base.world_expedition_data[295022] = {
 		id = 295022,
 		expedition_sairenvalueC = 2500,
 		failed_morale = 1,
@@ -113613,8 +114168,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295023] = {
+	}
+	pg.base.world_expedition_data[295023] = {
 		id = 295023,
 		expedition_sairenvalueC = 2500,
 		failed_morale = 1,
@@ -113782,8 +114337,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295024] = {
+	}
+	pg.base.world_expedition_data[295024] = {
 		id = 295024,
 		expedition_sairenvalueC = 2500,
 		failed_morale = 1,
@@ -113951,8 +114506,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295025] = {
+	}
+	pg.base.world_expedition_data[295025] = {
 		id = 295025,
 		expedition_sairenvalueC = 2500,
 		failed_morale = 1,
@@ -114072,8 +114627,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295026] = {
+	}
+	pg.base.world_expedition_data[295026] = {
 		id = 295026,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -114241,8 +114796,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295027] = {
+	}
+	pg.base.world_expedition_data[295027] = {
 		id = 295027,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -114410,8 +114965,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295028] = {
+	}
+	pg.base.world_expedition_data[295028] = {
 		id = 295028,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -114579,8 +115134,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295029] = {
+	}
+	pg.base.world_expedition_data[295029] = {
 		id = 295029,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -114748,8 +115303,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295030] = {
+	}
+	pg.base.world_expedition_data[295030] = {
 		id = 295030,
 		expedition_sairenvalueC = 1000,
 		failed_morale = 1,
@@ -114893,8 +115448,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295100] = {
+	}
+	pg.base.world_expedition_data[295100] = {
 		id = 295100,
 		expedition_sairenvalueC = 5000,
 		failed_morale = 3,
@@ -115286,8 +115841,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295101] = {
+	}
+	pg.base.world_expedition_data[295101] = {
 		id = 295101,
 		expedition_sairenvalueC = 5000,
 		failed_morale = 3,
@@ -115679,8 +116234,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295102] = {
+	}
+	pg.base.world_expedition_data[295102] = {
 		id = 295102,
 		expedition_sairenvalueC = 5000,
 		failed_morale = 3,
@@ -116080,8 +116635,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295103] = {
+	}
+	pg.base.world_expedition_data[295103] = {
 		id = 295103,
 		expedition_sairenvalueC = 5000,
 		failed_morale = 3,
@@ -116481,8 +117036,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295104] = {
+	}
+	pg.base.world_expedition_data[295104] = {
 		id = 295104,
 		expedition_sairenvalueC = 5000,
 		failed_morale = 3,
@@ -116882,8 +117437,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295110] = {
+	}
+	pg.base.world_expedition_data[295110] = {
 		id = 295110,
 		expedition_sairenvalueC = 5000,
 		failed_morale = 3,
@@ -117275,8 +117830,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295111] = {
+	}
+	pg.base.world_expedition_data[295111] = {
 		id = 295111,
 		expedition_sairenvalueC = 5000,
 		failed_morale = 3,
@@ -117668,8 +118223,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295112] = {
+	}
+	pg.base.world_expedition_data[295112] = {
 		id = 295112,
 		expedition_sairenvalueC = 5000,
 		failed_morale = 3,
@@ -118069,8 +118624,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295113] = {
+	}
+	pg.base.world_expedition_data[295113] = {
 		id = 295113,
 		expedition_sairenvalueC = 5000,
 		failed_morale = 3,
@@ -118470,8 +119025,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295114] = {
+	}
+	pg.base.world_expedition_data[295114] = {
 		id = 295114,
 		expedition_sairenvalueC = 5000,
 		failed_morale = 3,
@@ -118871,8 +119426,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295120] = {
+	}
+	pg.base.world_expedition_data[295120] = {
 		id = 295120,
 		expedition_sairenvalueC = 5000,
 		failed_morale = 3,
@@ -119264,8 +119819,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295121] = {
+	}
+	pg.base.world_expedition_data[295121] = {
 		id = 295121,
 		expedition_sairenvalueC = 5000,
 		failed_morale = 3,
@@ -119657,8 +120212,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295122] = {
+	}
+	pg.base.world_expedition_data[295122] = {
 		id = 295122,
 		expedition_sairenvalueC = 5000,
 		failed_morale = 3,
@@ -120058,8 +120613,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295123] = {
+	}
+	pg.base.world_expedition_data[295123] = {
 		id = 295123,
 		expedition_sairenvalueC = 5000,
 		failed_morale = 3,
@@ -120459,8 +121014,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295124] = {
+	}
+	pg.base.world_expedition_data[295124] = {
 		id = 295124,
 		expedition_sairenvalueC = 5000,
 		failed_morale = 3,
@@ -120860,8 +121415,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295130] = {
+	}
+	pg.base.world_expedition_data[295130] = {
 		id = 295130,
 		expedition_sairenvalueC = 5000,
 		failed_morale = 3,
@@ -121253,8 +121808,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295131] = {
+	}
+	pg.base.world_expedition_data[295131] = {
 		id = 295131,
 		expedition_sairenvalueC = 5000,
 		failed_morale = 3,
@@ -121646,8 +122201,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295132] = {
+	}
+	pg.base.world_expedition_data[295132] = {
 		id = 295132,
 		expedition_sairenvalueC = 5000,
 		failed_morale = 3,
@@ -122047,8 +122602,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295133] = {
+	}
+	pg.base.world_expedition_data[295133] = {
 		id = 295133,
 		expedition_sairenvalueC = 5000,
 		failed_morale = 3,
@@ -122448,8 +123003,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295134] = {
+	}
+	pg.base.world_expedition_data[295134] = {
 		id = 295134,
 		expedition_sairenvalueC = 5000,
 		failed_morale = 3,
@@ -122849,8 +123404,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295140] = {
+	}
+	pg.base.world_expedition_data[295140] = {
 		id = 295140,
 		expedition_sairenvalueC = 5000,
 		failed_morale = 3,
@@ -123242,8 +123797,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295141] = {
+	}
+	pg.base.world_expedition_data[295141] = {
 		id = 295141,
 		expedition_sairenvalueC = 5000,
 		failed_morale = 3,
@@ -123635,8 +124190,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295142] = {
+	}
+	pg.base.world_expedition_data[295142] = {
 		id = 295142,
 		expedition_sairenvalueC = 5000,
 		failed_morale = 3,
@@ -124036,8 +124591,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295143] = {
+	}
+	pg.base.world_expedition_data[295143] = {
 		id = 295143,
 		expedition_sairenvalueC = 5000,
 		failed_morale = 3,
@@ -124437,8 +124992,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295144] = {
+	}
+	pg.base.world_expedition_data[295144] = {
 		id = 295144,
 		expedition_sairenvalueC = 5000,
 		failed_morale = 3,
@@ -124838,8 +125393,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295200] = {
+	}
+	pg.base.world_expedition_data[295200] = {
 		id = 295200,
 		expedition_sairenvalueC = 5000,
 		failed_morale = 3,
@@ -124926,8 +125481,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295201] = {
+	}
+	pg.base.world_expedition_data[295201] = {
 		id = 295201,
 		expedition_sairenvalueC = 5000,
 		failed_morale = 3,
@@ -125014,8 +125569,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295202] = {
+	}
+	pg.base.world_expedition_data[295202] = {
 		id = 295202,
 		expedition_sairenvalueC = 5000,
 		failed_morale = 3,
@@ -125102,8 +125657,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295203] = {
+	}
+	pg.base.world_expedition_data[295203] = {
 		id = 295203,
 		expedition_sairenvalueC = 5000,
 		failed_morale = 3,
@@ -125190,8 +125745,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[295204] = {
+	}
+	pg.base.world_expedition_data[295204] = {
 		id = 295204,
 		expedition_sairenvalueC = 5000,
 		failed_morale = 3,
@@ -125278,8 +125833,10 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[297011] = {
+	}
+end)()
+(function ()
+	pg.base.world_expedition_data[297011] = {
 		id = 297011,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -125611,8 +126168,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[311041] = {
+	}
+	pg.base.world_expedition_data[311041] = {
 		id = 311041,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -125944,8 +126501,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[312020] = {
+	}
+	pg.base.world_expedition_data[312020] = {
 		id = 312020,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -126026,8 +126583,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[312021] = {
+	}
+	pg.base.world_expedition_data[312021] = {
 		id = 312021,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -126134,8 +126691,8 @@ pg.world_expedition_data = {
 		},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[312070] = {
+	}
+	pg.base.world_expedition_data[312070] = {
 		id = 312070,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -126467,8 +127024,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[312150] = {
+	}
+	pg.base.world_expedition_data[312150] = {
 		id = 312150,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -126821,8 +127378,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[312240] = {
+	}
+	pg.base.world_expedition_data[312240] = {
 		id = 312240,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -127175,8 +127732,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[312350] = {
+	}
+	pg.base.world_expedition_data[312350] = {
 		id = 312350,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -127257,8 +127814,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[312610] = {
+	}
+	pg.base.world_expedition_data[312610] = {
 		id = 312610,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -127339,8 +127896,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[312640] = {
+	}
+	pg.base.world_expedition_data[312640] = {
 		id = 312640,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -127421,8 +127978,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[312670] = {
+	}
+	pg.base.world_expedition_data[312670] = {
 		id = 312670,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -127503,8 +128060,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[314001] = {
+	}
+	pg.base.world_expedition_data[314001] = {
 		id = 314001,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -127585,8 +128142,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[314002] = {
+	}
+	pg.base.world_expedition_data[314002] = {
 		id = 314002,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -127918,8 +128475,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[314201] = {
+	}
+	pg.base.world_expedition_data[314201] = {
 		id = 314201,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -128251,8 +128808,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[315000] = {
+	}
+	pg.base.world_expedition_data[315000] = {
 		id = 315000,
 		expedition_sairenvalueC = 8000,
 		failed_morale = 1,
@@ -128333,8 +128890,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[315001] = {
+	}
+	pg.base.world_expedition_data[315001] = {
 		id = 315001,
 		expedition_sairenvalueC = 8000,
 		failed_morale = 1,
@@ -128415,8 +128972,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[315002] = {
+	}
+	pg.base.world_expedition_data[315002] = {
 		id = 315002,
 		expedition_sairenvalueC = 8000,
 		failed_morale = 1,
@@ -128497,8 +129054,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[315010] = {
+	}
+	pg.base.world_expedition_data[315010] = {
 		id = 315010,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 3,
@@ -128835,8 +129392,8 @@ pg.world_expedition_data = {
 		special_buff_display = {
 			4000
 		}
-	},
-	[315011] = {
+	}
+	pg.base.world_expedition_data[315011] = {
 		id = 315011,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 3,
@@ -129171,8 +129728,8 @@ pg.world_expedition_data = {
 			}
 		},
 		special_buff_display = {}
-	},
-	[315012] = {
+	}
+	pg.base.world_expedition_data[315012] = {
 		id = 315012,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 3,
@@ -129518,8 +130075,8 @@ pg.world_expedition_data = {
 		special_buff_display = {
 			4020
 		}
-	},
-	[315015] = {
+	}
+	pg.base.world_expedition_data[315015] = {
 		id = 315015,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 3,
@@ -129856,8 +130413,8 @@ pg.world_expedition_data = {
 		special_buff_display = {
 			4000
 		}
-	},
-	[315016] = {
+	}
+	pg.base.world_expedition_data[315016] = {
 		id = 315016,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 3,
@@ -130192,8 +130749,8 @@ pg.world_expedition_data = {
 			}
 		},
 		special_buff_display = {}
-	},
-	[315017] = {
+	}
+	pg.base.world_expedition_data[315017] = {
 		id = 315017,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 3,
@@ -130530,8 +131087,8 @@ pg.world_expedition_data = {
 		special_buff_display = {
 			4020
 		}
-	},
-	[315020] = {
+	}
+	pg.base.world_expedition_data[315020] = {
 		id = 315020,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 3,
@@ -130813,8 +131370,8 @@ pg.world_expedition_data = {
 		special_buff_display = {
 			4000
 		}
-	},
-	[315021] = {
+	}
+	pg.base.world_expedition_data[315021] = {
 		id = 315021,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 3,
@@ -131096,8 +131653,8 @@ pg.world_expedition_data = {
 		special_buff_display = {
 			4010
 		}
-	},
-	[315022] = {
+	}
+	pg.base.world_expedition_data[315022] = {
 		id = 315022,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 3,
@@ -131379,8 +131936,8 @@ pg.world_expedition_data = {
 		special_buff_display = {
 			4020
 		}
-	},
-	[315025] = {
+	}
+	pg.base.world_expedition_data[315025] = {
 		id = 315025,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 3,
@@ -131662,8 +132219,8 @@ pg.world_expedition_data = {
 		special_buff_display = {
 			4000
 		}
-	},
-	[315026] = {
+	}
+	pg.base.world_expedition_data[315026] = {
 		id = 315026,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 3,
@@ -131945,8 +132502,8 @@ pg.world_expedition_data = {
 		special_buff_display = {
 			4010
 		}
-	},
-	[315027] = {
+	}
+	pg.base.world_expedition_data[315027] = {
 		id = 315027,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 3,
@@ -132242,8 +132799,8 @@ pg.world_expedition_data = {
 		special_buff_display = {
 			4020
 		}
-	},
-	[315028] = {
+	}
+	pg.base.world_expedition_data[315028] = {
 		id = 315028,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 3,
@@ -132539,8 +133096,8 @@ pg.world_expedition_data = {
 		special_buff_display = {
 			4020
 		}
-	},
-	[315030] = {
+	}
+	pg.base.world_expedition_data[315030] = {
 		id = 315030,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 3,
@@ -132623,8 +133180,8 @@ pg.world_expedition_data = {
 		special_buff_display = {
 			4000
 		}
-	},
-	[315031] = {
+	}
+	pg.base.world_expedition_data[315031] = {
 		id = 315031,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 3,
@@ -132707,8 +133264,8 @@ pg.world_expedition_data = {
 		special_buff_display = {
 			4010
 		}
-	},
-	[315032] = {
+	}
+	pg.base.world_expedition_data[315032] = {
 		id = 315032,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 3,
@@ -132791,8 +133348,8 @@ pg.world_expedition_data = {
 		special_buff_display = {
 			4020
 		}
-	},
-	[315033] = {
+	}
+	pg.base.world_expedition_data[315033] = {
 		id = 315033,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 3,
@@ -132875,8 +133432,8 @@ pg.world_expedition_data = {
 		special_buff_display = {
 			4000
 		}
-	},
-	[315034] = {
+	}
+	pg.base.world_expedition_data[315034] = {
 		id = 315034,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 3,
@@ -132959,8 +133516,8 @@ pg.world_expedition_data = {
 		special_buff_display = {
 			4010
 		}
-	},
-	[315035] = {
+	}
+	pg.base.world_expedition_data[315035] = {
 		id = 315035,
 		expedition_sairenvalueC = 3000,
 		failed_morale = 3,
@@ -133043,8 +133600,8 @@ pg.world_expedition_data = {
 		special_buff_display = {
 			4020
 		}
-	},
-	[320000] = {
+	}
+	pg.base.world_expedition_data[320000] = {
 		id = 320000,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -133376,8 +133933,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[320001] = {
+	}
+	pg.base.world_expedition_data[320001] = {
 		id = 320001,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -133709,8 +134266,8 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	[320002] = {
+	}
+	pg.base.world_expedition_data[320002] = {
 		id = 320002,
 		expedition_sairenvalueC = 0,
 		failed_morale = 1,
@@ -134042,546 +134599,5 @@ pg.world_expedition_data = {
 		phase_drop = {},
 		phase_drop_display = {},
 		special_buff_display = {}
-	},
-	all = {
-		210000,
-		210011,
-		210012,
-		210013,
-		210014,
-		211011,
-		211012,
-		211013,
-		211014,
-		211015,
-		211032,
-		211211,
-		211212,
-		211213,
-		211214,
-		211215,
-		211216,
-		211217,
-		211411,
-		211412,
-		211413,
-		211611,
-		213011,
-		213012,
-		213013,
-		213014,
-		213015,
-		213016,
-		213017,
-		213211,
-		213212,
-		213213,
-		213411,
-		213412,
-		213413,
-		213414,
-		214011,
-		214211,
-		214212,
-		214213,
-		215011,
-		215012,
-		215013,
-		215014,
-		215015,
-		215016,
-		215017,
-		216011,
-		220011,
-		220012,
-		220013,
-		221011,
-		221012,
-		221013,
-		221014,
-		221015,
-		221211,
-		221212,
-		221213,
-		221214,
-		221215,
-		221216,
-		221411,
-		221412,
-		223011,
-		223012,
-		223013,
-		223014,
-		223015,
-		223016,
-		223211,
-		223212,
-		223411,
-		223412,
-		223413,
-		223414,
-		224011,
-		224211,
-		224212,
-		224213,
-		225011,
-		225012,
-		225013,
-		225014,
-		225015,
-		225016,
-		225017,
-		226011,
-		230011,
-		230012,
-		230013,
-		230014,
-		231011,
-		231012,
-		231013,
-		231014,
-		231211,
-		231212,
-		231213,
-		231214,
-		231215,
-		231216,
-		231411,
-		231412,
-		231413,
-		233011,
-		233012,
-		233013,
-		233014,
-		233015,
-		233016,
-		233211,
-		233212,
-		233213,
-		233411,
-		233412,
-		233413,
-		233414,
-		234011,
-		234211,
-		234212,
-		234213,
-		235011,
-		235012,
-		235013,
-		235014,
-		235015,
-		235016,
-		235017,
-		236011,
-		240011,
-		240012,
-		240013,
-		240014,
-		240015,
-		240512,
-		240513,
-		240514,
-		241011,
-		241012,
-		241013,
-		241014,
-		241015,
-		241211,
-		241212,
-		241213,
-		241214,
-		241215,
-		241216,
-		241217,
-		241411,
-		241412,
-		243011,
-		243012,
-		243013,
-		243014,
-		243015,
-		243016,
-		243017,
-		243211,
-		243212,
-		243411,
-		243412,
-		243413,
-		243414,
-		244011,
-		244211,
-		244212,
-		244213,
-		245011,
-		245012,
-		245013,
-		245014,
-		245015,
-		245016,
-		246011,
-		250011,
-		250012,
-		250511,
-		250512,
-		251011,
-		251211,
-		251411,
-		252011,
-		252211,
-		252411,
-		253011,
-		253211,
-		254011,
-		256011,
-		260011,
-		260012,
-		260511,
-		260512,
-		261011,
-		261211,
-		261411,
-		262011,
-		262211,
-		262411,
-		263011,
-		263211,
-		264011,
-		266011,
-		270011,
-		270012,
-		270511,
-		270512,
-		271011,
-		271211,
-		271411,
-		272011,
-		272211,
-		272411,
-		273011,
-		273211,
-		274011,
-		276011,
-		280011,
-		280012,
-		280511,
-		280512,
-		281011,
-		281211,
-		281411,
-		282011,
-		282211,
-		282411,
-		283011,
-		283211,
-		284011,
-		286011,
-		290011,
-		290012,
-		290013,
-		290021,
-		290031,
-		290041,
-		291011,
-		291021,
-		291031,
-		291041,
-		291091,
-		291092,
-		291093,
-		291100,
-		291101,
-		291102,
-		291103,
-		291150,
-		291151,
-		291152,
-		291153,
-		291160,
-		291161,
-		291211,
-		291221,
-		291231,
-		291241,
-		291291,
-		291292,
-		291293,
-		291300,
-		291301,
-		291302,
-		291303,
-		291350,
-		291351,
-		291352,
-		291353,
-		291360,
-		291361,
-		291411,
-		291421,
-		291431,
-		291441,
-		291491,
-		291492,
-		291493,
-		291500,
-		291501,
-		291502,
-		291503,
-		291550,
-		291551,
-		291552,
-		291553,
-		291560,
-		291561,
-		291600,
-		291601,
-		292000,
-		292001,
-		292002,
-		292003,
-		292010,
-		292011,
-		292012,
-		292013,
-		292020,
-		292021,
-		292022,
-		292023,
-		292050,
-		292051,
-		292052,
-		292053,
-		292060,
-		292061,
-		292062,
-		292063,
-		292070,
-		292071,
-		292072,
-		292073,
-		292100,
-		292101,
-		292102,
-		292103,
-		292104,
-		292200,
-		292201,
-		292210,
-		292211,
-		292220,
-		292221,
-		293011,
-		293021,
-		293031,
-		293041,
-		293091,
-		293092,
-		293093,
-		293100,
-		293101,
-		293102,
-		293103,
-		293104,
-		293150,
-		293151,
-		293152,
-		293153,
-		293154,
-		293160,
-		293161,
-		293211,
-		293221,
-		293231,
-		293241,
-		293291,
-		293292,
-		293293,
-		293300,
-		293301,
-		293302,
-		293303,
-		293304,
-		293350,
-		293351,
-		293352,
-		293353,
-		293354,
-		293360,
-		293361,
-		293411,
-		293421,
-		293431,
-		293441,
-		293491,
-		293492,
-		293493,
-		293500,
-		293501,
-		293502,
-		293503,
-		293504,
-		293550,
-		293551,
-		293552,
-		293553,
-		293554,
-		293560,
-		293561,
-		294001,
-		294002,
-		294003,
-		294004,
-		294005,
-		294006,
-		294007,
-		294008,
-		294009,
-		294010,
-		294011,
-		294012,
-		294013,
-		294014,
-		294015,
-		294016,
-		294017,
-		294018,
-		294019,
-		294020,
-		294021,
-		294022,
-		294023,
-		294024,
-		294025,
-		294026,
-		294027,
-		294028,
-		294029,
-		294030,
-		294040,
-		294050,
-		294051,
-		294052,
-		294053,
-		294054,
-		294055,
-		294056,
-		294057,
-		294058,
-		294059,
-		294060,
-		294061,
-		294062,
-		294063,
-		294064,
-		294065,
-		294111,
-		294112,
-		294113,
-		294114,
-		294115,
-		294200,
-		294201,
-		294202,
-		294203,
-		294204,
-		294210,
-		294211,
-		294212,
-		294213,
-		294214,
-		294215,
-		294216,
-		294217,
-		294218,
-		294219,
-		294220,
-		294221,
-		294222,
-		294223,
-		294224,
-		295011,
-		295012,
-		295013,
-		295014,
-		295015,
-		295021,
-		295022,
-		295023,
-		295024,
-		295025,
-		295026,
-		295027,
-		295028,
-		295029,
-		295030,
-		295100,
-		295101,
-		295102,
-		295103,
-		295104,
-		295110,
-		295111,
-		295112,
-		295113,
-		295114,
-		295120,
-		295121,
-		295122,
-		295123,
-		295124,
-		295130,
-		295131,
-		295132,
-		295133,
-		295134,
-		295140,
-		295141,
-		295142,
-		295143,
-		295144,
-		295200,
-		295201,
-		295202,
-		295203,
-		295204,
-		297011,
-		311041,
-		312020,
-		312021,
-		312070,
-		312150,
-		312240,
-		312350,
-		312610,
-		312640,
-		312670,
-		314001,
-		314002,
-		314201,
-		315000,
-		315001,
-		315002,
-		315010,
-		315011,
-		315012,
-		315015,
-		315016,
-		315017,
-		315020,
-		315021,
-		315022,
-		315025,
-		315026,
-		315027,
-		315028,
-		315030,
-		315031,
-		315032,
-		315033,
-		315034,
-		315035,
-		320000,
-		320001,
-		320002
 	}
-}
+end)()

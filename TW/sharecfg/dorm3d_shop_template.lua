@@ -1,47 +1,50 @@
 pg = pg or {}
-pg.dorm3d_shop_template = setmetatable({
-	__name = "dorm3d_shop_template",
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		23,
-		27,
-		28,
-		29,
-		30,
-		31,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		39,
-		40,
-		41
-	}
-}, confHX)
+pg.dorm3d_shop_template = rawget(pg, "dorm3d_shop_template") or setmetatable({
+	__name = "dorm3d_shop_template"
+}, confNEO)
+pg.dorm3d_shop_template.__namecode__ = true
+pg.dorm3d_shop_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	23,
+	27,
+	28,
+	29,
+	30,
+	31,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	39,
+	40,
+	41
+}
 pg.base = pg.base or {}
-pg.base.dorm3d_shop_template = {
-	{
+pg.base.dorm3d_shop_template = {}
+
+(function ()
+	pg.base.dorm3d_shop_template[1] = {
 		rarity = 4,
 		name = "甜蜜心事",
 		type = 1,
@@ -62,8 +65,8 @@ pg.base.dorm3d_shop_template = {
 		banners = {
 			"banner_furniture121"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_shop_template[2] = {
 		rarity = 4,
 		name = "午後遐鄉",
 		type = 1,
@@ -84,8 +87,8 @@ pg.base.dorm3d_shop_template = {
 		banners = {
 			"banner_furniture122"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_shop_template[3] = {
 		rarity = 4,
 		name = "柔軟懷抱",
 		type = 1,
@@ -107,8 +110,8 @@ pg.base.dorm3d_shop_template = {
 		banners = {
 			"banner_furniture221"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_shop_template[4] = {
 		rarity = 4,
 		name = "對坐之談",
 		type = 1,
@@ -130,8 +133,8 @@ pg.base.dorm3d_shop_template = {
 		banners = {
 			"banner_furniture222"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_shop_template[5] = {
 		rarity = 5,
 		name = "聖誕雪橇沙發套組",
 		type = 1,
@@ -150,8 +153,8 @@ pg.base.dorm3d_shop_template = {
 		banners = {
 			"banner_furniture151"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_shop_template[6] = {
 		rarity = 5,
 		name = "暖意入夢",
 		type = 1,
@@ -170,8 +173,8 @@ pg.base.dorm3d_shop_template = {
 		banners = {
 			"banner_furniture251"
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_shop_template[7] = {
 		rarity = 4,
 		name = "童心下午茶",
 		type = 1,
@@ -193,8 +196,8 @@ pg.base.dorm3d_shop_template = {
 		banners = {
 			"banner_furniture321"
 		}
-	},
-	[9] = {
+	}
+	pg.base.dorm3d_shop_template[9] = {
 		rarity = 4,
 		name = "清掃工具箱",
 		type = 2,
@@ -215,8 +218,8 @@ pg.base.dorm3d_shop_template = {
 		banners = {
 			"banner_gift2022001"
 		}
-	},
-	[10] = {
+	}
+	pg.base.dorm3d_shop_template[10] = {
 		rarity = 4,
 		name = "茶享套裝",
 		type = 2,
@@ -237,8 +240,8 @@ pg.base.dorm3d_shop_template = {
 		banners = {
 			"banner_gift2022002"
 		}
-	},
-	[11] = {
+	}
+	pg.base.dorm3d_shop_template[11] = {
 		rarity = 4,
 		name = "素色物語",
 		type = 2,
@@ -259,8 +262,8 @@ pg.base.dorm3d_shop_template = {
 		banners = {
 			"banner_gift3022101"
 		}
-	},
-	[12] = {
+	}
+	pg.base.dorm3d_shop_template[12] = {
 		rarity = 4,
 		name = "彩虹心語",
 		type = 2,
@@ -281,8 +284,8 @@ pg.base.dorm3d_shop_template = {
 		banners = {
 			"banner_gift1990301"
 		}
-	},
-	[13] = {
+	}
+	pg.base.dorm3d_shop_template[13] = {
 		rarity = 3,
 		name = "浪漫滿分",
 		type = 2,
@@ -305,8 +308,8 @@ pg.base.dorm3d_shop_template = {
 		banners = {
 			"banner_test"
 		}
-	},
-	[14] = {
+	}
+	pg.base.dorm3d_shop_template[14] = {
 		rarity = 3,
 		name = "蛋糕禮盒",
 		type = 2,
@@ -326,8 +329,8 @@ pg.base.dorm3d_shop_template = {
 		banners = {
 			"banner_test"
 		}
-	},
-	[15] = {
+	}
+	pg.base.dorm3d_shop_template[15] = {
 		rarity = 4,
 		name = "天狼星沙灘邀請函",
 		type = 3,
@@ -347,8 +350,8 @@ pg.base.dorm3d_shop_template = {
 			"banner_beach1",
 			"banner_beach2"
 		}
-	},
-	[16] = {
+	}
+	pg.base.dorm3d_shop_template[16] = {
 		rarity = 4,
 		name = "{namecode:50}沙灘邀請函",
 		type = 3,
@@ -367,8 +370,8 @@ pg.base.dorm3d_shop_template = {
 		banners = {
 			"banner_beach3"
 		}
-	},
-	[17] = {
+	}
+	pg.base.dorm3d_shop_template[17] = {
 		rarity = 4,
 		name = "安克拉治沙灘邀請函",
 		type = 3,
@@ -387,8 +390,8 @@ pg.base.dorm3d_shop_template = {
 		banners = {
 			"banner_beach4"
 		}
-	},
-	[18] = {
+	}
+	pg.base.dorm3d_shop_template[18] = {
 		rarity = 4,
 		name = "能量修復儀",
 		type = 2,
@@ -409,8 +412,8 @@ pg.base.dorm3d_shop_template = {
 		banners = {
 			"banner_gift3022102"
 		}
-	},
-	[19] = {
+	}
+	pg.base.dorm3d_shop_template[19] = {
 		rarity = 4,
 		name = "星球一隅",
 		type = 1,
@@ -432,8 +435,8 @@ pg.base.dorm3d_shop_template = {
 		banners = {
 			"banner_furniture1151"
 		}
-	},
-	[20] = {
+	}
+	pg.base.dorm3d_shop_template[20] = {
 		rarity = 4,
 		name = "水晶糖",
 		type = 2,
@@ -454,8 +457,8 @@ pg.base.dorm3d_shop_template = {
 		banners = {
 			"banner_gift1051701"
 		}
-	},
-	[21] = {
+	}
+	pg.base.dorm3d_shop_template[21] = {
 		rarity = 4,
 		name = "{namecode:199}咖啡館邀請函",
 		type = 3,
@@ -474,8 +477,8 @@ pg.base.dorm3d_shop_template = {
 		banners = {
 			"banner_cafe1"
 		}
-	},
-	[23] = {
+	}
+	pg.base.dorm3d_shop_template[23] = {
 		rarity = 4,
 		name = "動感飛輪",
 		type = 1,
@@ -497,8 +500,8 @@ pg.base.dorm3d_shop_template = {
 		banners = {
 			"banner_furniture1152"
 		}
-	},
-	[27] = {
+	}
+	pg.base.dorm3d_shop_template[27] = {
 		rarity = 4,
 		name = "愛之巢",
 		type = 1,
@@ -520,8 +523,8 @@ pg.base.dorm3d_shop_template = {
 		banners = {
 			"banner_furniture1221"
 		}
-	},
-	[28] = {
+	}
+	pg.base.dorm3d_shop_template[28] = {
 		rarity = 4,
 		name = "相連的愛意",
 		type = 2,
@@ -542,8 +545,8 @@ pg.base.dorm3d_shop_template = {
 		banners = {
 			"banner_gift3070701"
 		}
-	},
-	[29] = {
+	}
+	pg.base.dorm3d_shop_template[29] = {
 		rarity = 4,
 		name = "{namecode:97}咖啡館邀請函",
 		type = 3,
@@ -562,8 +565,8 @@ pg.base.dorm3d_shop_template = {
 		banners = {
 			"banner_cafe2"
 		}
-	},
-	[30] = {
+	}
+	pg.base.dorm3d_shop_template[30] = {
 		rarity = 4,
 		name = "天外庇所",
 		type = 1,
@@ -585,8 +588,8 @@ pg.base.dorm3d_shop_template = {
 		banners = {
 			"banner_furniture1153"
 		}
-	},
-	[31] = {
+	}
+	pg.base.dorm3d_shop_template[31] = {
 		rarity = 5,
 		name = "花樂留韻",
 		type = 1,
@@ -608,8 +611,8 @@ pg.base.dorm3d_shop_template = {
 		banners = {
 			"banner_furniture1222"
 		}
-	},
-	[33] = {
+	}
+	pg.base.dorm3d_shop_template[33] = {
 		rarity = 4,
 		name = "真紅謐影",
 		type = 1,
@@ -631,8 +634,8 @@ pg.base.dorm3d_shop_template = {
 		banners = {
 			"banner_furniture1461"
 		}
-	},
-	[34] = {
+	}
+	pg.base.dorm3d_shop_template[34] = {
 		rarity = 4,
 		name = "鬱金香杯",
 		type = 2,
@@ -653,8 +656,8 @@ pg.base.dorm3d_shop_template = {
 		banners = {
 			"banner_gift4990501"
 		}
-	},
-	[35] = {
+	}
+	pg.base.dorm3d_shop_template[35] = {
 		rarity = 4,
 		name = "{namecode:480}咖啡館邀請函",
 		type = 3,
@@ -673,8 +676,8 @@ pg.base.dorm3d_shop_template = {
 		banners = {
 			"banner_cafe3"
 		}
-	},
-	[36] = {
+	}
+	pg.base.dorm3d_shop_template[36] = {
 		rarity = 4,
 		name = "天狼星咖啡館邀請函",
 		type = 3,
@@ -693,8 +696,8 @@ pg.base.dorm3d_shop_template = {
 		banners = {
 			"banner_cafe4"
 		}
-	},
-	[37] = {
+	}
+	pg.base.dorm3d_shop_template[37] = {
 		rarity = 4,
 		name = "智慧冰箱IB-7",
 		type = 1,
@@ -703,7 +706,7 @@ pg.base.dorm3d_shop_template = {
 		item_id = 1154,
 		id = 37,
 		realroom_id = 0,
-		order = "4",
+		order = "5",
 		panel = {
 			1,
 			2,
@@ -716,8 +719,8 @@ pg.base.dorm3d_shop_template = {
 		banners = {
 			"banner_furniture1154"
 		}
-	},
-	[38] = {
+	}
+	pg.base.dorm3d_shop_template[38] = {
 		rarity = 4,
 		name = "緋櫻雅席",
 		type = 1,
@@ -726,7 +729,7 @@ pg.base.dorm3d_shop_template = {
 		item_id = 1223,
 		id = 38,
 		realroom_id = 0,
-		order = "4",
+		order = "5",
 		panel = {
 			1,
 			2,
@@ -739,8 +742,8 @@ pg.base.dorm3d_shop_template = {
 		banners = {
 			"banner_furniture1223"
 		}
-	},
-	[39] = {
+	}
+	pg.base.dorm3d_shop_template[39] = {
 		rarity = 4,
 		name = "童心樂園",
 		type = 1,
@@ -749,7 +752,7 @@ pg.base.dorm3d_shop_template = {
 		item_id = 324,
 		id = 39,
 		realroom_id = 0,
-		order = "4",
+		order = "5",
 		panel = {
 			1,
 			2,
@@ -762,8 +765,8 @@ pg.base.dorm3d_shop_template = {
 		banners = {
 			"banner_furniture324"
 		}
-	},
-	[40] = {
+	}
+	pg.base.dorm3d_shop_template[40] = {
 		rarity = 4,
 		name = "知韻沉思",
 		type = 1,
@@ -772,7 +775,7 @@ pg.base.dorm3d_shop_template = {
 		item_id = 1462,
 		id = 40,
 		realroom_id = 0,
-		order = "3",
+		order = "4",
 		panel = {
 			1,
 			2,
@@ -785,8 +788,8 @@ pg.base.dorm3d_shop_template = {
 		banners = {
 			"banner_furniture1462"
 		}
-	},
-	[41] = {
+	}
+	pg.base.dorm3d_shop_template[41] = {
 		rarity = 4,
 		name = "炫彩遊戲手把",
 		type = 2,
@@ -795,7 +798,7 @@ pg.base.dorm3d_shop_template = {
 		item_id = 1051702,
 		id = 41,
 		realroom_id = 0,
-		order = "2",
+		order = "4",
 		panel = {
 			2,
 			3,
@@ -808,4 +811,4 @@ pg.base.dorm3d_shop_template = {
 			"banner_gift1051702"
 		}
 	}
-}
+end)()

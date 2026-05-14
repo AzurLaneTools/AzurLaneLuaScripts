@@ -1,6 +1,30 @@
 pg = pg or {}
-pg.puzzle_card_template = {
-	[20001] = {
+pg.puzzle_card_template = rawget(pg, "puzzle_card_template") or setmetatable({
+	__name = "puzzle_card_template"
+}, confNEO)
+pg.puzzle_card_template.all = {
+	20001,
+	999970,
+	999971,
+	999972,
+	999973,
+	999974,
+	999975,
+	999977,
+	999978,
+	999979,
+	999984,
+	999985,
+	999989,
+	999990,
+	999991,
+	999992
+}
+pg.base = pg.base or {}
+pg.base.puzzle_card_template = {}
+
+(function ()
+	pg.base.puzzle_card_template[20001] = {
 		cost = 0,
 		name = "测试移动单卡",
 		action = "",
@@ -21,8 +45,8 @@ pg.puzzle_card_template = {
 			20001
 		},
 		weapon_ids = {}
-	},
-	[999970] = {
+	}
+	pg.base.puzzle_card_template[999970] = {
 		cost = 2,
 		name = "魚雷攻擊",
 		action = "",
@@ -43,8 +67,8 @@ pg.puzzle_card_template = {
 			999970
 		},
 		weapon_ids = {}
-	},
-	[999971] = {
+	}
+	pg.base.puzzle_card_template[999971] = {
 		cost = 7,
 		name = "強襲雷擊",
 		action = "",
@@ -64,8 +88,8 @@ pg.puzzle_card_template = {
 			999971
 		},
 		weapon_ids = {}
-	},
-	[999972] = {
+	}
+	pg.base.puzzle_card_template[999972] = {
 		cost = 8,
 		name = "火力覆蓋",
 		action = "",
@@ -85,8 +109,8 @@ pg.puzzle_card_template = {
 			999972
 		},
 		weapon_ids = {}
-	},
-	[999973] = {
+	}
+	pg.base.puzzle_card_template[999973] = {
 		cost = 5,
 		name = "自動速射",
 		action = "",
@@ -106,8 +130,8 @@ pg.puzzle_card_template = {
 			999973
 		},
 		weapon_ids = {}
-	},
-	[999974] = {
+	}
+	pg.base.puzzle_card_template[999974] = {
 		cost = 7,
 		name = "自動魚雷",
 		action = "",
@@ -127,8 +151,8 @@ pg.puzzle_card_template = {
 			999974
 		},
 		weapon_ids = {}
-	},
-	[999975] = {
+	}
+	pg.base.puzzle_card_template[999975] = {
 		cost = 10,
 		name = "自動跨射",
 		action = "",
@@ -149,8 +173,8 @@ pg.puzzle_card_template = {
 			999975
 		},
 		weapon_ids = {}
-	},
-	[999977] = {
+	}
+	pg.base.puzzle_card_template[999977] = {
 		cost = 8,
 		name = "強力跨射",
 		action = "",
@@ -171,8 +195,8 @@ pg.puzzle_card_template = {
 			999977
 		},
 		weapon_ids = {}
-	},
-	[999978] = {
+	}
+	pg.base.puzzle_card_template[999978] = {
 		cost = 5,
 		name = "強力射擊",
 		action = "",
@@ -192,8 +216,8 @@ pg.puzzle_card_template = {
 			999978
 		},
 		weapon_ids = {}
-	},
-	[999979] = {
+	}
+	pg.base.puzzle_card_template[999979] = {
 		cost = 5,
 		name = "跨射指令",
 		action = "",
@@ -213,8 +237,8 @@ pg.puzzle_card_template = {
 			999979
 		},
 		weapon_ids = {}
-	},
-	[999984] = {
+	}
+	pg.base.puzzle_card_template[999984] = {
 		cost = 3,
 		name = "維修指示",
 		action = "",
@@ -234,8 +258,8 @@ pg.puzzle_card_template = {
 			999984
 		},
 		weapon_ids = {}
-	},
-	[999985] = {
+	}
+	pg.base.puzzle_card_template[999985] = {
 		cost = 5,
 		name = "緊急維修指令",
 		action = "",
@@ -253,8 +277,8 @@ pg.puzzle_card_template = {
 			999985
 		},
 		weapon_ids = {}
-	},
-	[999989] = {
+	}
+	pg.base.puzzle_card_template[999989] = {
 		cost = 5,
 		name = "破甲跨射",
 		action = "",
@@ -275,8 +299,8 @@ pg.puzzle_card_template = {
 			999989
 		},
 		weapon_ids = {}
-	},
-	[999990] = {
+	}
+	pg.base.puzzle_card_template[999990] = {
 		cost = 2,
 		name = "基礎射擊",
 		action = "",
@@ -296,8 +320,8 @@ pg.puzzle_card_template = {
 			999990
 		},
 		weapon_ids = {}
-	},
-	[999991] = {
+	}
+	pg.base.puzzle_card_template[999991] = {
 		cost = 6,
 		name = "強力護盾",
 		action = "",
@@ -317,8 +341,8 @@ pg.puzzle_card_template = {
 			999991
 		},
 		weapon_ids = {}
-	},
-	[999992] = {
+	}
+	pg.base.puzzle_card_template[999992] = {
 		cost = 8,
 		name = "全炮門齊射",
 		action = "",
@@ -339,23 +363,5 @@ pg.puzzle_card_template = {
 			999992
 		},
 		weapon_ids = {}
-	},
-	all = {
-		20001,
-		999970,
-		999971,
-		999972,
-		999973,
-		999974,
-		999975,
-		999977,
-		999978,
-		999979,
-		999984,
-		999985,
-		999989,
-		999990,
-		999991,
-		999992
 	}
-}
+end)()

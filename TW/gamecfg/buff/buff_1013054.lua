@@ -1,280 +1,300 @@
 return {
 	{
-		{
-			type = "BattleBuffAddBulletAttr",
-			trigger = {
-				"onBulletCreate"
-			},
-			arg_list = {
-				number = 0.05,
-				attr = "damageAmmoToArmorRateEnhance_3",
-				index = {
-					1
+		effect_list = {
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					number = 0.05,
+					attr = "damageAmmoToArmorRateEnhance_3",
+					index = {
+						1
+					}
 				}
-			}
-		},
-		{
-			type = "BattleBuffAddBulletAttr",
-			trigger = {
-				"onBulletCreate"
 			},
-			arg_list = {
-				number = 0.05,
-				attr = "damageAmmoToArmorRateEnhance_2",
-				index = {
-					1
-				}
-			}
-		}
-	},
-	{
-		{
-			type = "BattleBuffAddBulletAttr",
-			trigger = {
-				"onBulletCreate"
-			},
-			arg_list = {
-				number = 0.061,
-				attr = "damageAmmoToArmorRateEnhance_3",
-				index = {
-					1
-				}
-			}
-		},
-		{
-			type = "BattleBuffAddBulletAttr",
-			trigger = {
-				"onBulletCreate"
-			},
-			arg_list = {
-				number = 0.061,
-				attr = "damageAmmoToArmorRateEnhance_2",
-				index = {
-					1
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					number = 0.05,
+					attr = "damageAmmoToArmorRateEnhance_2",
+					index = {
+						1
+					}
 				}
 			}
 		}
 	},
 	{
-		{
-			type = "BattleBuffAddBulletAttr",
-			trigger = {
-				"onBulletCreate"
-			},
-			arg_list = {
-				number = 0.072,
-				attr = "damageAmmoToArmorRateEnhance_3",
-				index = {
-					1
+		effect_list = {
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					number = 0.061,
+					attr = "damageAmmoToArmorRateEnhance_3",
+					index = {
+						1
+					}
 				}
-			}
-		},
-		{
-			type = "BattleBuffAddBulletAttr",
-			trigger = {
-				"onBulletCreate"
 			},
-			arg_list = {
-				number = 0.072,
-				attr = "damageAmmoToArmorRateEnhance_2",
-				index = {
-					1
-				}
-			}
-		}
-	},
-	{
-		{
-			type = "BattleBuffAddBulletAttr",
-			trigger = {
-				"onBulletCreate"
-			},
-			arg_list = {
-				number = 0.083,
-				attr = "damageAmmoToArmorRateEnhance_3",
-				index = {
-					1
-				}
-			}
-		},
-		{
-			type = "BattleBuffAddBulletAttr",
-			trigger = {
-				"onBulletCreate"
-			},
-			arg_list = {
-				number = 0.083,
-				attr = "damageAmmoToArmorRateEnhance_2",
-				index = {
-					1
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					number = 0.061,
+					attr = "damageAmmoToArmorRateEnhance_2",
+					index = {
+						1
+					}
 				}
 			}
 		}
 	},
 	{
-		{
-			type = "BattleBuffAddBulletAttr",
-			trigger = {
-				"onBulletCreate"
-			},
-			arg_list = {
-				number = 0.094,
-				attr = "damageAmmoToArmorRateEnhance_3",
-				index = {
-					1
+		effect_list = {
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					number = 0.072,
+					attr = "damageAmmoToArmorRateEnhance_3",
+					index = {
+						1
+					}
 				}
-			}
-		},
-		{
-			type = "BattleBuffAddBulletAttr",
-			trigger = {
-				"onBulletCreate"
 			},
-			arg_list = {
-				number = 0.094,
-				attr = "damageAmmoToArmorRateEnhance_2",
-				index = {
-					1
-				}
-			}
-		}
-	},
-	{
-		{
-			type = "BattleBuffAddBulletAttr",
-			trigger = {
-				"onBulletCreate"
-			},
-			arg_list = {
-				number = 0.105,
-				attr = "damageAmmoToArmorRateEnhance_3",
-				index = {
-					1
-				}
-			}
-		},
-		{
-			type = "BattleBuffAddBulletAttr",
-			trigger = {
-				"onBulletCreate"
-			},
-			arg_list = {
-				number = 0.105,
-				attr = "damageAmmoToArmorRateEnhance_2",
-				index = {
-					1
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					number = 0.072,
+					attr = "damageAmmoToArmorRateEnhance_2",
+					index = {
+						1
+					}
 				}
 			}
 		}
 	},
 	{
-		{
-			type = "BattleBuffAddBulletAttr",
-			trigger = {
-				"onBulletCreate"
-			},
-			arg_list = {
-				number = 0.116,
-				attr = "damageAmmoToArmorRateEnhance_3",
-				index = {
-					1
+		effect_list = {
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					number = 0.083,
+					attr = "damageAmmoToArmorRateEnhance_3",
+					index = {
+						1
+					}
 				}
-			}
-		},
-		{
-			type = "BattleBuffAddBulletAttr",
-			trigger = {
-				"onBulletCreate"
 			},
-			arg_list = {
-				number = 0.116,
-				attr = "damageAmmoToArmorRateEnhance_2",
-				index = {
-					1
-				}
-			}
-		}
-	},
-	{
-		{
-			type = "BattleBuffAddBulletAttr",
-			trigger = {
-				"onBulletCreate"
-			},
-			arg_list = {
-				number = 0.127,
-				attr = "damageAmmoToArmorRateEnhance_3",
-				index = {
-					1
-				}
-			}
-		},
-		{
-			type = "BattleBuffAddBulletAttr",
-			trigger = {
-				"onBulletCreate"
-			},
-			arg_list = {
-				number = 0.127,
-				attr = "damageAmmoToArmorRateEnhance_2",
-				index = {
-					1
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					number = 0.083,
+					attr = "damageAmmoToArmorRateEnhance_2",
+					index = {
+						1
+					}
 				}
 			}
 		}
 	},
 	{
-		{
-			type = "BattleBuffAddBulletAttr",
-			trigger = {
-				"onBulletCreate"
-			},
-			arg_list = {
-				number = 0.138,
-				attr = "damageAmmoToArmorRateEnhance_3",
-				index = {
-					1
+		effect_list = {
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					number = 0.094,
+					attr = "damageAmmoToArmorRateEnhance_3",
+					index = {
+						1
+					}
 				}
-			}
-		},
-		{
-			type = "BattleBuffAddBulletAttr",
-			trigger = {
-				"onBulletCreate"
 			},
-			arg_list = {
-				number = 0.138,
-				attr = "damageAmmoToArmorRateEnhance_2",
-				index = {
-					1
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					number = 0.094,
+					attr = "damageAmmoToArmorRateEnhance_2",
+					index = {
+						1
+					}
 				}
 			}
 		}
 	},
 	{
-		{
-			type = "BattleBuffAddBulletAttr",
-			trigger = {
-				"onBulletCreate"
+		effect_list = {
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					number = 0.105,
+					attr = "damageAmmoToArmorRateEnhance_3",
+					index = {
+						1
+					}
+				}
 			},
-			arg_list = {
-				number = 0.15,
-				attr = "damageAmmoToArmorRateEnhance_3",
-				index = {
-					1
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					number = 0.105,
+					attr = "damageAmmoToArmorRateEnhance_2",
+					index = {
+						1
+					}
 				}
 			}
-		},
-		{
-			type = "BattleBuffAddBulletAttr",
-			trigger = {
-				"onBulletCreate"
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					number = 0.116,
+					attr = "damageAmmoToArmorRateEnhance_3",
+					index = {
+						1
+					}
+				}
 			},
-			arg_list = {
-				number = 0.15,
-				attr = "damageAmmoToArmorRateEnhance_2",
-				index = {
-					1
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					number = 0.116,
+					attr = "damageAmmoToArmorRateEnhance_2",
+					index = {
+						1
+					}
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					number = 0.127,
+					attr = "damageAmmoToArmorRateEnhance_3",
+					index = {
+						1
+					}
+				}
+			},
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					number = 0.127,
+					attr = "damageAmmoToArmorRateEnhance_2",
+					index = {
+						1
+					}
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					number = 0.138,
+					attr = "damageAmmoToArmorRateEnhance_3",
+					index = {
+						1
+					}
+				}
+			},
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					number = 0.138,
+					attr = "damageAmmoToArmorRateEnhance_2",
+					index = {
+						1
+					}
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					number = 0.15,
+					attr = "damageAmmoToArmorRateEnhance_3",
+					index = {
+						1
+					}
+				}
+			},
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					number = 0.15,
+					attr = "damageAmmoToArmorRateEnhance_2",
+					index = {
+						1
+					}
 				}
 			}
 		}

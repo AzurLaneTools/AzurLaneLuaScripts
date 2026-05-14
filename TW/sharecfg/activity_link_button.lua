@@ -1,7 +1,129 @@
 pg = pg or {}
-pg.activity_link_button = {
-	{
-		param = "0",
+pg.activity_link_button = rawget(pg, "activity_link_button") or setmetatable({
+	__name = "activity_link_button"
+}, confNEO)
+pg.activity_link_button.all = {
+	1,
+	2,
+	9,
+	10,
+	11,
+	12,
+	13,
+	20,
+	21,
+	30,
+	40,
+	60,
+	70,
+	80,
+	90,
+	100,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	110,
+	111,
+	112,
+	113,
+	114,
+	115
+}
+pg.activity_link_button.get_id_list_by_name = {
+	event_Atelier = {
+		80
+	},
+	event_LanternFestival = {
+		60
+	},
+	event_all = {
+		1,
+		2,
+		9
+	},
+	event_aprilFool = {
+		70
+	},
+	event_blackFriday = {
+		106
+	},
+	event_boat_ad_game = {
+		105
+	},
+	event_boss = {
+		30
+	},
+	event_boss_single = {
+		102
+	},
+	event_core = {
+		109,
+		114
+	},
+	event_core_2 = {
+		110,
+		113,
+		115
+	},
+	event_dreamland = {
+		103
+	},
+	event_escort = {
+		40
+	},
+	event_holidayVilla = {
+		21
+	},
+	event_layer = {
+		104
+	},
+	event_map = {
+		10
+	},
+	event_map_2 = {
+		111
+	},
+	event_map_sub = {
+		11
+	},
+	event_medal = {
+		100
+	},
+	event_minigame = {
+		20,
+		108
+	},
+	event_old_act = {
+		13
+	},
+	event_second_map = {
+		112
+	},
+	event_senran = {
+		101
+	},
+	event_series = {
+		90
+	},
+	event_sub_act = {
+		12
+	},
+	event_tolove = {
+		107
+	}
+}
+pg.base = pg.base or {}
+pg.base.activity_link_button = {}
+
+(function ()
+	pg.base.activity_link_button[1] = {
+		param = "5749",
 		name = "event_all",
 		text_pic = "text_event_all",
 		type = 3,
@@ -11,10 +133,10 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50804
+			5749
 		}
-	},
-	{
+	}
+	pg.base.activity_link_button[2] = {
 		param = "5871",
 		name = "event_all",
 		time = "stop",
@@ -24,8 +146,8 @@ pg.activity_link_button = {
 		id = 2,
 		group_id = 1,
 		order = 2
-	},
-	[9] = {
+	}
+	pg.base.activity_link_button[9] = {
 		param = "0",
 		name = "event_all",
 		time = "always",
@@ -35,8 +157,8 @@ pg.activity_link_button = {
 		id = 9,
 		group_id = 1,
 		order = 99
-	},
-	[10] = {
+	}
+	pg.base.activity_link_button[10] = {
 		param = "",
 		name = "event_map",
 		text_pic = "text_event_map",
@@ -49,8 +171,8 @@ pg.activity_link_button = {
 			"default",
 			6036
 		}
-	},
-	[11] = {
+	}
+	pg.base.activity_link_button[11] = {
 		param = "0",
 		name = "event_map_sub",
 		text_pic = "text_event_map_sub",
@@ -63,8 +185,8 @@ pg.activity_link_button = {
 			"default",
 			50804
 		}
-	},
-	[12] = {
+	}
+	pg.base.activity_link_button[12] = {
 		name = "event_sub_act",
 		time = "stop",
 		text_pic = "text_event_map_sub",
@@ -76,8 +198,8 @@ pg.activity_link_button = {
 		param = {
 			"LiquorFloor"
 		}
-	},
-	[13] = {
+	}
+	pg.base.activity_link_button[13] = {
 		name = "event_old_act",
 		text_pic = "",
 		type = 2,
@@ -92,8 +214,8 @@ pg.activity_link_button = {
 		param = {
 			"LiquorFloor"
 		}
-	},
-	[20] = {
+	}
+	pg.base.activity_link_button[20] = {
 		name = "event_minigame",
 		time = "stop",
 		text_pic = "text_event_minigame",
@@ -105,8 +227,8 @@ pg.activity_link_button = {
 		param = {
 			"scene DOAReLink Island"
 		}
-	},
-	[21] = {
+	}
+	pg.base.activity_link_button[21] = {
 		name = "event_holidayVilla",
 		time = "stop",
 		text_pic = "text_event_minigame",
@@ -119,8 +241,8 @@ pg.activity_link_button = {
 			"holiday villa map",
 			5922
 		}
-	},
-	[30] = {
+	}
+	pg.base.activity_link_button[30] = {
 		param = "0",
 		name = "event_boss",
 		time = "stop",
@@ -130,8 +252,8 @@ pg.activity_link_button = {
 		id = 30,
 		group_id = 3,
 		order = 1
-	},
-	[40] = {
+	}
+	pg.base.activity_link_button[40] = {
 		param = "0",
 		name = "event_escort",
 		text_pic = "text_event_escort",
@@ -143,8 +265,8 @@ pg.activity_link_button = {
 		time = {
 			"default"
 		}
-	},
-	[60] = {
+	}
+	pg.base.activity_link_button[60] = {
 		param = "0",
 		name = "event_LanternFestival",
 		text_pic = "text_event_LanternFestival",
@@ -157,8 +279,8 @@ pg.activity_link_button = {
 			"default",
 			5803
 		}
-	},
-	[70] = {
+	}
+	pg.base.activity_link_button[70] = {
 		param = "0",
 		name = "event_aprilFool",
 		text_pic = "text_event_aprilFool",
@@ -171,8 +293,8 @@ pg.activity_link_button = {
 			"default",
 			5267
 		}
-	},
-	[80] = {
+	}
+	pg.base.activity_link_button[80] = {
 		name = "event_Atelier",
 		text_pic = "text_event_Atelier",
 		type = 2,
@@ -187,8 +309,8 @@ pg.activity_link_button = {
 		param = {
 			"ATELIER_COMPOSITE"
 		}
-	},
-	[90] = {
+	}
+	pg.base.activity_link_button[90] = {
 		param = "0",
 		name = "event_series",
 		time = "stop",
@@ -198,8 +320,8 @@ pg.activity_link_button = {
 		id = 90,
 		group_id = 4,
 		order = 1
-	},
-	[100] = {
+	}
+	pg.base.activity_link_button[100] = {
 		name = "event_medal",
 		text_pic = "text_event_medal",
 		type = 2,
@@ -214,8 +336,8 @@ pg.activity_link_button = {
 		param = {
 			"SENRANKAGURA_MEDAL"
 		}
-	},
-	[101] = {
+	}
+	pg.base.activity_link_button[101] = {
 		name = "event_senran",
 		text_pic = "text_event_senran",
 		type = 2,
@@ -230,8 +352,8 @@ pg.activity_link_button = {
 		param = {
 			"SENRANKAGURA_TRAIN"
 		}
-	},
-	[102] = {
+	}
+	pg.base.activity_link_button[102] = {
 		param = "0",
 		name = "event_boss_single",
 		time = "stop",
@@ -241,8 +363,8 @@ pg.activity_link_button = {
 		id = 102,
 		group_id = 4,
 		order = 1
-	},
-	[103] = {
+	}
+	pg.base.activity_link_button[103] = {
 		name = "event_dreamland",
 		time = "stop",
 		text_pic = "text_event_minigame",
@@ -254,8 +376,8 @@ pg.activity_link_button = {
 		param = {
 			"DREAMLAND"
 		}
-	},
-	[104] = {
+	}
+	pg.base.activity_link_button[104] = {
 		name = "event_layer",
 		text_pic = "text_event_layer",
 		type = 14,
@@ -271,8 +393,8 @@ pg.activity_link_button = {
 			mediator = "ChildishnessSchoolPtMediator",
 			view = "ChildishnessSchoolPtPage"
 		}
-	},
-	[105] = {
+	}
+	pg.base.activity_link_button[105] = {
 		name = "event_boat_ad_game",
 		text_pic = "text_event_boat_ad_game",
 		type = 7,
@@ -287,8 +409,8 @@ pg.activity_link_button = {
 		param = {
 			68
 		}
-	},
-	[106] = {
+	}
+	pg.base.activity_link_button[106] = {
 		name = "event_blackFriday",
 		text_pic = "text_event_blackfriday",
 		type = 2,
@@ -303,8 +425,8 @@ pg.activity_link_button = {
 		param = {
 			"BlackFridaySales"
 		}
-	},
-	[107] = {
+	}
+	pg.base.activity_link_button[107] = {
 		name = "event_tolove",
 		text_pic = "text_event_minigame",
 		type = 2,
@@ -319,8 +441,8 @@ pg.activity_link_button = {
 		param = {
 			"TOLOVE_COLLAB_BACKHILL"
 		}
-	},
-	[108] = {
+	}
+	pg.base.activity_link_button[108] = {
 		name = "event_minigame",
 		text_pic = "text_event_minigame",
 		type = 2,
@@ -335,8 +457,8 @@ pg.activity_link_button = {
 		param = {
 			"firework and spring"
 		}
-	},
-	[109] = {
+	}
+	pg.base.activity_link_button[109] = {
 		name = "event_core",
 		text_pic = "text_event_core",
 		type = 16,
@@ -352,8 +474,8 @@ pg.activity_link_button = {
 			"WinterFestival2025CoreActivityUI",
 			"JINNIANDECUXIAOXINGSHISHI1"
 		}
-	},
-	[110] = {
+	}
+	pg.base.activity_link_button[110] = {
 		param = "AprilFoolDiscovery2026UI",
 		name = "event_core_2",
 		text_pic = "text_event_core3",
@@ -366,8 +488,8 @@ pg.activity_link_button = {
 			"default",
 			50493
 		}
-	},
-	[111] = {
+	}
+	pg.base.activity_link_button[111] = {
 		param = "ALYCoreActivityUI",
 		name = "event_map_2",
 		text_pic = "text_event_ryzaAtelierRe",
@@ -380,8 +502,8 @@ pg.activity_link_button = {
 			"default",
 			50042
 		}
-	},
-	[112] = {
+	}
+	pg.base.activity_link_button[112] = {
 		param = "0",
 		name = "event_second_map",
 		text_pic = "text_event_ryza_map",
@@ -394,8 +516,8 @@ pg.activity_link_button = {
 			"default",
 			50042
 		}
-	},
-	[113] = {
+	}
+	pg.base.activity_link_button[113] = {
 		param = "EighthAnniversaryJpCoreActivityUI",
 		name = "event_core_2",
 		text_pic = "text_event_special",
@@ -408,8 +530,8 @@ pg.activity_link_button = {
 			"default",
 			50118
 		}
-	},
-	[114] = {
+	}
+	pg.base.activity_link_button[114] = {
 		param = "WinterFestival2025CoreActivityUI",
 		name = "event_core",
 		text_pic = "text_event_core3",
@@ -422,8 +544,8 @@ pg.activity_link_button = {
 			"default",
 			50298
 		}
-	},
-	[115] = {
+	}
+	pg.base.activity_link_button[115] = {
 		param = "DOACoreActivityUI",
 		name = "event_core_2",
 		text_pic = "text_event_core3",
@@ -436,121 +558,5 @@ pg.activity_link_button = {
 			"default",
 			6031
 		}
-	},
-	get_id_list_by_name = {
-		event_all = {
-			1,
-			2,
-			9
-		},
-		event_map = {
-			10
-		},
-		event_map_sub = {
-			11
-		},
-		event_sub_act = {
-			12
-		},
-		event_old_act = {
-			13
-		},
-		event_minigame = {
-			20,
-			108
-		},
-		event_holidayVilla = {
-			21
-		},
-		event_boss = {
-			30
-		},
-		event_escort = {
-			40
-		},
-		event_LanternFestival = {
-			60
-		},
-		event_aprilFool = {
-			70
-		},
-		event_Atelier = {
-			80
-		},
-		event_series = {
-			90
-		},
-		event_medal = {
-			100
-		},
-		event_senran = {
-			101
-		},
-		event_boss_single = {
-			102
-		},
-		event_dreamland = {
-			103
-		},
-		event_layer = {
-			104
-		},
-		event_boat_ad_game = {
-			105
-		},
-		event_blackFriday = {
-			106
-		},
-		event_tolove = {
-			107
-		},
-		event_core = {
-			109,
-			114
-		},
-		event_core_2 = {
-			110,
-			113,
-			115
-		},
-		event_map_2 = {
-			111
-		},
-		event_second_map = {
-			112
-		}
-	},
-	all = {
-		1,
-		2,
-		9,
-		10,
-		11,
-		12,
-		13,
-		20,
-		21,
-		30,
-		40,
-		60,
-		70,
-		80,
-		90,
-		100,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		110,
-		111,
-		112,
-		113,
-		114,
-		115
 	}
-}
+end)()

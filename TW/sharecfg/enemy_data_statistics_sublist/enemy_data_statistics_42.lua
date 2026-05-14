@@ -1,5 +1,73 @@
 pg = pg or {}
 pg.enemy_data_statistics_42 = {
+	[852] = {
+		cannon = 0,
+		name = "運輸艦",
+		hit_growth = 0,
+		speed_growth = 0,
+		antiaircraft_growth = 0,
+		air = 0,
+		reload = 150,
+		antisub = 0,
+		armor = 0,
+		rarity = 1,
+		antiaircraft = 60,
+		fog_fx = "",
+		dodge_growth = 0,
+		star = 1,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90090,
+		durability = 2700,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 15,
+		luck = 0,
+		id = 852,
+		scale = 150,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20005,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		battle_unit_type = 90,
+		cld_box = {
+			4.125,
+			5.625,
+			6
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				-0.48,
+				0
+			},
+			{
+				0.2,
+				0.006,
+				0.5
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {
+			danchuanlanghuaxiao = 0.75
+		},
+		appear_fx = {
+			"appearsmall"
+		}
+	},
 	[853] = {
 		cannon = 100,
 		antisub = 200,
@@ -1116,46 +1184,6 @@ pg.enemy_data_statistics_42 = {
 		durability_growth = 7800,
 		antiaircraft = 20,
 		antiaircraft_growth = 1638,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			100211,
-			100411
-		}
-	},
-	[1004] = {
-		cannon = 6,
-		hit_growth = 210,
-		luck = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		air = 0,
-		air_growth = 0,
-		antisub = 0,
-		battle_unit_type = 50,
-		fog_fx = "",
-		dodge_growth = 210,
-		star = 3,
-		antisub_growth = 0,
-		rarity = 2,
-		base = 90151,
-		durability = 82,
-		armor_growth = 0,
-		torpedo_growth = 3744,
-		speed = 20,
-		armor = 0,
-		id = 1004,
-		cannon_growth = 468,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 14,
-		reload_growth = 0,
-		hit = 14,
-		torpedo = 45,
-		durability_growth = 7400,
-		antiaircraft = 21,
-		antiaircraft_growth = 1719,
 		appear_fx = {
 			"appearQ"
 		},

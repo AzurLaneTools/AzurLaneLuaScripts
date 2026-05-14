@@ -1,6 +1,17 @@
 pg = pg or {}
-pg.dorm3d_minigame_slide = {
-	[20220] = {
+pg.dorm3d_minigame_slide = rawget(pg, "dorm3d_minigame_slide") or setmetatable({
+	__name = "dorm3d_minigame_slide"
+}, confNEO)
+pg.dorm3d_minigame_slide.all = {
+	20220,
+	30221,
+	19903
+}
+pg.base = pg.base or {}
+pg.base.dorm3d_minigame_slide = {}
+
+(function ()
+	pg.base.dorm3d_minigame_slide[20220] = {
 		perform_success = "pre_beachslide_success_2202",
 		perform_ready = "pre_beachslide_ready_2202",
 		perform_fail = "pre_beachslide_fail_2202",
@@ -52,8 +63,8 @@ pg.dorm3d_minigame_slide = {
 				15
 			}
 		}
-	},
-	[30221] = {
+	}
+	pg.base.dorm3d_minigame_slide[30221] = {
 		perform_success = "pre_beachslide_success_30221",
 		perform_ready = "pre_beachslide_ready_30221",
 		perform_fail = "pre_beachslide_fail_30221",
@@ -105,8 +116,8 @@ pg.dorm3d_minigame_slide = {
 				238
 			}
 		}
-	},
-	[19903] = {
+	}
+	pg.base.dorm3d_minigame_slide[19903] = {
 		perform_success = "pre_beachslide_success_19903",
 		perform_ready = "pre_beachslide_ready_19903",
 		perform_fail = "pre_beachslide_fail_19903",
@@ -158,10 +169,5 @@ pg.dorm3d_minigame_slide = {
 				95
 			}
 		}
-	},
-	all = {
-		20220,
-		30221,
-		19903
 	}
-}
+end)()

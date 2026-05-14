@@ -1,6 +1,23 @@
 pg = pg or {}
-pg.recommend_shop = {
-	{
+pg.recommend_shop = rawget(pg, "recommend_shop") or setmetatable({
+	__name = "recommend_shop"
+}, confNEO)
+pg.recommend_shop.all = {
+	1,
+	2,
+	3,
+	4,
+	6,
+	7,
+	8,
+	9,
+	10
+}
+pg.base = pg.base or {}
+pg.base.recommend_shop = {}
+
+(function ()
+	pg.base.recommend_shop[1] = {
 		pic = "",
 		shop_type = 1,
 		id = 1,
@@ -32,8 +49,8 @@ pg.recommend_shop = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.recommend_shop[2] = {
 		pic = "",
 		shop_type = 1,
 		id = 2,
@@ -65,8 +82,8 @@ pg.recommend_shop = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.recommend_shop[3] = {
 		pic = "",
 		shop_type = 1,
 		id = 3,
@@ -98,8 +115,8 @@ pg.recommend_shop = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.recommend_shop[4] = {
 		pic = "",
 		shop_type = 1,
 		id = 4,
@@ -131,8 +148,8 @@ pg.recommend_shop = {
 				}
 			}
 		}
-	},
-	[6] = {
+	}
+	pg.base.recommend_shop[6] = {
 		pic = "",
 		shop_type = 1,
 		id = 6,
@@ -164,16 +181,16 @@ pg.recommend_shop = {
 				}
 			}
 		}
-	},
-	[7] = {
+	}
+	pg.base.recommend_shop[7] = {
 		pic = "",
 		time = "always",
 		shop_type = 1,
 		id = 7,
 		shop_id = 1,
 		order = 7
-	},
-	[8] = {
+	}
+	pg.base.recommend_shop[8] = {
 		pic = "",
 		shop_type = 2,
 		id = 8,
@@ -205,8 +222,8 @@ pg.recommend_shop = {
 				}
 			}
 		}
-	},
-	[9] = {
+	}
+	pg.base.recommend_shop[9] = {
 		pic = "",
 		shop_type = 2,
 		id = 9,
@@ -238,8 +255,8 @@ pg.recommend_shop = {
 				}
 			}
 		}
-	},
-	[10] = {
+	}
+	pg.base.recommend_shop[10] = {
 		pic = "",
 		shop_type = 1,
 		id = 10,
@@ -271,16 +288,5 @@ pg.recommend_shop = {
 				}
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		6,
-		7,
-		8,
-		9,
-		10
 	}
-}
+end)()

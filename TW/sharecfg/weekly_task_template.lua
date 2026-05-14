@@ -1,6 +1,89 @@
 pg = pg or {}
-pg.weekly_task_template = {
-	[10001] = {
+pg.weekly_task_template = rawget(pg, "weekly_task_template") or setmetatable({
+	__name = "weekly_task_template"
+}, confNEO)
+pg.weekly_task_template.all = {
+	10001,
+	10002,
+	10003,
+	10004,
+	10005,
+	10006,
+	10007,
+	10011,
+	10012,
+	10013,
+	10014,
+	10015,
+	10016,
+	10021,
+	10022,
+	10023,
+	10024,
+	10025,
+	10031,
+	10032,
+	10033,
+	10041,
+	10042,
+	10043,
+	10044,
+	10051,
+	10052,
+	10053,
+	10054,
+	10055,
+	10061,
+	10062,
+	10063,
+	10064,
+	10071,
+	10072,
+	10073,
+	10074,
+	10075,
+	10081,
+	10082,
+	10083,
+	10084,
+	10085,
+	10091,
+	10092,
+	10093,
+	10101,
+	10102,
+	10103,
+	10104,
+	10105,
+	10111,
+	10112,
+	10113,
+	10114,
+	10121,
+	10122,
+	10123,
+	10124,
+	10125,
+	10131,
+	10132,
+	10133,
+	10134,
+	10135,
+	10141,
+	10142,
+	10143,
+	10144,
+	10151,
+	10152,
+	10153,
+	10154,
+	10155
+}
+pg.base = pg.base or {}
+pg.base.weekly_task_template = {}
+
+(function ()
+	pg.base.weekly_task_template[10001] = {
 		level = 1,
 		sub_type = 20,
 		target_id_for_client = 0,
@@ -13,8 +96,8 @@ pg.weekly_task_template = {
 			59012,
 			10
 		}
-	},
-	[10002] = {
+	}
+	pg.base.weekly_task_template[10002] = {
 		level = 1,
 		sub_type = 20,
 		target_id_for_client = 0,
@@ -27,8 +110,8 @@ pg.weekly_task_template = {
 			59012,
 			20
 		}
-	},
-	[10003] = {
+	}
+	pg.base.weekly_task_template[10003] = {
 		level = 1,
 		sub_type = 20,
 		target_id_for_client = 0,
@@ -41,8 +124,8 @@ pg.weekly_task_template = {
 			59012,
 			30
 		}
-	},
-	[10004] = {
+	}
+	pg.base.weekly_task_template[10004] = {
 		level = 1,
 		sub_type = 20,
 		target_id_for_client = 0,
@@ -55,8 +138,8 @@ pg.weekly_task_template = {
 			59012,
 			40
 		}
-	},
-	[10005] = {
+	}
+	pg.base.weekly_task_template[10005] = {
 		level = 1,
 		sub_type = 20,
 		target_id_for_client = 0,
@@ -69,8 +152,8 @@ pg.weekly_task_template = {
 			59012,
 			50
 		}
-	},
-	[10006] = {
+	}
+	pg.base.weekly_task_template[10006] = {
 		level = 1,
 		sub_type = 20,
 		target_id_for_client = 0,
@@ -83,8 +166,8 @@ pg.weekly_task_template = {
 			59012,
 			60
 		}
-	},
-	[10007] = {
+	}
+	pg.base.weekly_task_template[10007] = {
 		level = 1,
 		sub_type = 20,
 		target_id_for_client = 0,
@@ -97,8 +180,8 @@ pg.weekly_task_template = {
 			59012,
 			70
 		}
-	},
-	[10011] = {
+	}
+	pg.base.weekly_task_template[10011] = {
 		level = 1,
 		sub_type = 11,
 		target_id_for_client = 0,
@@ -111,8 +194,8 @@ pg.weekly_task_template = {
 			59012,
 			10
 		}
-	},
-	[10012] = {
+	}
+	pg.base.weekly_task_template[10012] = {
 		level = 1,
 		sub_type = 11,
 		target_id_for_client = 0,
@@ -125,8 +208,8 @@ pg.weekly_task_template = {
 			59012,
 			20
 		}
-	},
-	[10013] = {
+	}
+	pg.base.weekly_task_template[10013] = {
 		level = 1,
 		sub_type = 11,
 		target_id_for_client = 0,
@@ -139,8 +222,8 @@ pg.weekly_task_template = {
 			59012,
 			30
 		}
-	},
-	[10014] = {
+	}
+	pg.base.weekly_task_template[10014] = {
 		level = 1,
 		sub_type = 11,
 		target_id_for_client = 0,
@@ -153,8 +236,8 @@ pg.weekly_task_template = {
 			59012,
 			40
 		}
-	},
-	[10015] = {
+	}
+	pg.base.weekly_task_template[10015] = {
 		level = 1,
 		sub_type = 11,
 		target_id_for_client = 0,
@@ -167,8 +250,8 @@ pg.weekly_task_template = {
 			59012,
 			50
 		}
-	},
-	[10016] = {
+	}
+	pg.base.weekly_task_template[10016] = {
 		level = 1,
 		sub_type = 11,
 		target_id_for_client = 0,
@@ -181,8 +264,8 @@ pg.weekly_task_template = {
 			59012,
 			60
 		}
-	},
-	[10021] = {
+	}
+	pg.base.weekly_task_template[10021] = {
 		level = 8,
 		sub_type = 60,
 		target_id_for_client = 0,
@@ -195,8 +278,8 @@ pg.weekly_task_template = {
 			59012,
 			10
 		}
-	},
-	[10022] = {
+	}
+	pg.base.weekly_task_template[10022] = {
 		level = 8,
 		sub_type = 60,
 		target_id_for_client = 0,
@@ -209,8 +292,8 @@ pg.weekly_task_template = {
 			59012,
 			20
 		}
-	},
-	[10023] = {
+	}
+	pg.base.weekly_task_template[10023] = {
 		level = 8,
 		sub_type = 60,
 		target_id_for_client = 0,
@@ -223,8 +306,8 @@ pg.weekly_task_template = {
 			59012,
 			30
 		}
-	},
-	[10024] = {
+	}
+	pg.base.weekly_task_template[10024] = {
 		level = 8,
 		sub_type = 60,
 		target_id_for_client = 0,
@@ -237,8 +320,8 @@ pg.weekly_task_template = {
 			59012,
 			40
 		}
-	},
-	[10025] = {
+	}
+	pg.base.weekly_task_template[10025] = {
 		level = 8,
 		sub_type = 60,
 		target_id_for_client = 0,
@@ -251,8 +334,8 @@ pg.weekly_task_template = {
 			59012,
 			50
 		}
-	},
-	[10031] = {
+	}
+	pg.base.weekly_task_template[10031] = {
 		level = 40,
 		sub_type = 170,
 		target_id_for_client = 0,
@@ -265,8 +348,8 @@ pg.weekly_task_template = {
 			59012,
 			10
 		}
-	},
-	[10032] = {
+	}
+	pg.base.weekly_task_template[10032] = {
 		level = 40,
 		sub_type = 170,
 		target_id_for_client = 0,
@@ -279,8 +362,8 @@ pg.weekly_task_template = {
 			59012,
 			20
 		}
-	},
-	[10033] = {
+	}
+	pg.base.weekly_task_template[10033] = {
 		level = 40,
 		sub_type = 170,
 		target_id_for_client = 0,
@@ -293,8 +376,8 @@ pg.weekly_task_template = {
 			59012,
 			30
 		}
-	},
-	[10041] = {
+	}
+	pg.base.weekly_task_template[10041] = {
 		level = 1,
 		sub_type = 30,
 		target_id_for_client = 0,
@@ -307,8 +390,8 @@ pg.weekly_task_template = {
 			59012,
 			10
 		}
-	},
-	[10042] = {
+	}
+	pg.base.weekly_task_template[10042] = {
 		level = 1,
 		sub_type = 30,
 		target_id_for_client = 0,
@@ -321,8 +404,8 @@ pg.weekly_task_template = {
 			59012,
 			20
 		}
-	},
-	[10043] = {
+	}
+	pg.base.weekly_task_template[10043] = {
 		level = 1,
 		sub_type = 30,
 		target_id_for_client = 0,
@@ -335,8 +418,8 @@ pg.weekly_task_template = {
 			59012,
 			30
 		}
-	},
-	[10044] = {
+	}
+	pg.base.weekly_task_template[10044] = {
 		level = 1,
 		sub_type = 30,
 		target_id_for_client = 0,
@@ -349,8 +432,8 @@ pg.weekly_task_template = {
 			59012,
 			40
 		}
-	},
-	[10051] = {
+	}
+	pg.base.weekly_task_template[10051] = {
 		level = 1,
 		sub_type = 121,
 		target_id_for_client = 0,
@@ -363,8 +446,8 @@ pg.weekly_task_template = {
 			59012,
 			10
 		}
-	},
-	[10052] = {
+	}
+	pg.base.weekly_task_template[10052] = {
 		level = 1,
 		sub_type = 121,
 		target_id_for_client = 0,
@@ -377,8 +460,8 @@ pg.weekly_task_template = {
 			59012,
 			20
 		}
-	},
-	[10053] = {
+	}
+	pg.base.weekly_task_template[10053] = {
 		level = 1,
 		sub_type = 121,
 		target_id_for_client = 0,
@@ -391,8 +474,8 @@ pg.weekly_task_template = {
 			59012,
 			30
 		}
-	},
-	[10054] = {
+	}
+	pg.base.weekly_task_template[10054] = {
 		level = 1,
 		sub_type = 121,
 		target_id_for_client = 0,
@@ -405,8 +488,8 @@ pg.weekly_task_template = {
 			59012,
 			40
 		}
-	},
-	[10055] = {
+	}
+	pg.base.weekly_task_template[10055] = {
 		level = 1,
 		sub_type = 121,
 		target_id_for_client = 0,
@@ -419,8 +502,8 @@ pg.weekly_task_template = {
 			59012,
 			50
 		}
-	},
-	[10061] = {
+	}
+	pg.base.weekly_task_template[10061] = {
 		level = 1,
 		sub_type = 23,
 		target_id_for_client = 0,
@@ -433,8 +516,8 @@ pg.weekly_task_template = {
 			59012,
 			10
 		}
-	},
-	[10062] = {
+	}
+	pg.base.weekly_task_template[10062] = {
 		level = 1,
 		sub_type = 23,
 		target_id_for_client = 0,
@@ -447,8 +530,8 @@ pg.weekly_task_template = {
 			59012,
 			20
 		}
-	},
-	[10063] = {
+	}
+	pg.base.weekly_task_template[10063] = {
 		level = 1,
 		sub_type = 23,
 		target_id_for_client = 0,
@@ -461,8 +544,8 @@ pg.weekly_task_template = {
 			59012,
 			30
 		}
-	},
-	[10064] = {
+	}
+	pg.base.weekly_task_template[10064] = {
 		level = 1,
 		sub_type = 23,
 		target_id_for_client = 0,
@@ -475,8 +558,8 @@ pg.weekly_task_template = {
 			59012,
 			50
 		}
-	},
-	[10071] = {
+	}
+	pg.base.weekly_task_template[10071] = {
 		level = 30,
 		sub_type = 110,
 		target_id_for_client = 0,
@@ -489,8 +572,8 @@ pg.weekly_task_template = {
 			59012,
 			10
 		}
-	},
-	[10072] = {
+	}
+	pg.base.weekly_task_template[10072] = {
 		level = 30,
 		sub_type = 110,
 		target_id_for_client = 0,
@@ -503,8 +586,8 @@ pg.weekly_task_template = {
 			59012,
 			20
 		}
-	},
-	[10073] = {
+	}
+	pg.base.weekly_task_template[10073] = {
 		level = 30,
 		sub_type = 110,
 		target_id_for_client = 0,
@@ -517,8 +600,8 @@ pg.weekly_task_template = {
 			59012,
 			30
 		}
-	},
-	[10074] = {
+	}
+	pg.base.weekly_task_template[10074] = {
 		level = 30,
 		sub_type = 110,
 		target_id_for_client = 0,
@@ -531,8 +614,8 @@ pg.weekly_task_template = {
 			59012,
 			40
 		}
-	},
-	[10075] = {
+	}
+	pg.base.weekly_task_template[10075] = {
 		level = 30,
 		sub_type = 110,
 		target_id_for_client = 0,
@@ -545,8 +628,8 @@ pg.weekly_task_template = {
 			59012,
 			50
 		}
-	},
-	[10081] = {
+	}
+	pg.base.weekly_task_template[10081] = {
 		level = 1,
 		sub_type = 34,
 		target_id_for_client = 0,
@@ -559,8 +642,8 @@ pg.weekly_task_template = {
 			59012,
 			5
 		}
-	},
-	[10082] = {
+	}
+	pg.base.weekly_task_template[10082] = {
 		level = 1,
 		sub_type = 34,
 		target_id_for_client = 0,
@@ -573,8 +656,8 @@ pg.weekly_task_template = {
 			59012,
 			10
 		}
-	},
-	[10083] = {
+	}
+	pg.base.weekly_task_template[10083] = {
 		level = 1,
 		sub_type = 34,
 		target_id_for_client = 0,
@@ -587,8 +670,8 @@ pg.weekly_task_template = {
 			59012,
 			15
 		}
-	},
-	[10084] = {
+	}
+	pg.base.weekly_task_template[10084] = {
 		level = 1,
 		sub_type = 34,
 		target_id_for_client = 0,
@@ -601,8 +684,8 @@ pg.weekly_task_template = {
 			59012,
 			20
 		}
-	},
-	[10085] = {
+	}
+	pg.base.weekly_task_template[10085] = {
 		level = 1,
 		sub_type = 34,
 		target_id_for_client = 0,
@@ -615,8 +698,8 @@ pg.weekly_task_template = {
 			59012,
 			25
 		}
-	},
-	[10091] = {
+	}
+	pg.base.weekly_task_template[10091] = {
 		level = 1,
 		sub_type = 40,
 		target_id_for_client = 0,
@@ -629,8 +712,8 @@ pg.weekly_task_template = {
 			59012,
 			5
 		}
-	},
-	[10092] = {
+	}
+	pg.base.weekly_task_template[10092] = {
 		level = 1,
 		sub_type = 40,
 		target_id_for_client = 0,
@@ -643,8 +726,8 @@ pg.weekly_task_template = {
 			59012,
 			10
 		}
-	},
-	[10093] = {
+	}
+	pg.base.weekly_task_template[10093] = {
 		level = 1,
 		sub_type = 40,
 		target_id_for_client = 0,
@@ -657,8 +740,8 @@ pg.weekly_task_template = {
 			59012,
 			15
 		}
-	},
-	[10101] = {
+	}
+	pg.base.weekly_task_template[10101] = {
 		level = 10,
 		sub_type = 26,
 		target_id_for_client = 0,
@@ -671,8 +754,8 @@ pg.weekly_task_template = {
 			59012,
 			10
 		}
-	},
-	[10102] = {
+	}
+	pg.base.weekly_task_template[10102] = {
 		level = 10,
 		sub_type = 26,
 		target_id_for_client = 0,
@@ -685,8 +768,8 @@ pg.weekly_task_template = {
 			59012,
 			20
 		}
-	},
-	[10103] = {
+	}
+	pg.base.weekly_task_template[10103] = {
 		level = 10,
 		sub_type = 26,
 		target_id_for_client = 0,
@@ -699,8 +782,8 @@ pg.weekly_task_template = {
 			59012,
 			30
 		}
-	},
-	[10104] = {
+	}
+	pg.base.weekly_task_template[10104] = {
 		level = 10,
 		sub_type = 26,
 		target_id_for_client = 0,
@@ -713,8 +796,8 @@ pg.weekly_task_template = {
 			59012,
 			40
 		}
-	},
-	[10105] = {
+	}
+	pg.base.weekly_task_template[10105] = {
 		level = 10,
 		sub_type = 26,
 		target_id_for_client = 0,
@@ -727,8 +810,8 @@ pg.weekly_task_template = {
 			59012,
 			50
 		}
-	},
-	[10111] = {
+	}
+	pg.base.weekly_task_template[10111] = {
 		level = 1,
 		sub_type = 71,
 		target_id_for_client = 0,
@@ -741,8 +824,8 @@ pg.weekly_task_template = {
 			59012,
 			10
 		}
-	},
-	[10112] = {
+	}
+	pg.base.weekly_task_template[10112] = {
 		level = 1,
 		sub_type = 71,
 		target_id_for_client = 0,
@@ -755,8 +838,8 @@ pg.weekly_task_template = {
 			59012,
 			20
 		}
-	},
-	[10113] = {
+	}
+	pg.base.weekly_task_template[10113] = {
 		level = 1,
 		sub_type = 71,
 		target_id_for_client = 0,
@@ -769,8 +852,8 @@ pg.weekly_task_template = {
 			59012,
 			30
 		}
-	},
-	[10114] = {
+	}
+	pg.base.weekly_task_template[10114] = {
 		level = 1,
 		sub_type = 71,
 		target_id_for_client = 0,
@@ -783,8 +866,8 @@ pg.weekly_task_template = {
 			59012,
 			40
 		}
-	},
-	[10121] = {
+	}
+	pg.base.weekly_task_template[10121] = {
 		level = 12,
 		sub_type = 80,
 		target_id_for_client = 0,
@@ -797,8 +880,8 @@ pg.weekly_task_template = {
 			59012,
 			10
 		}
-	},
-	[10122] = {
+	}
+	pg.base.weekly_task_template[10122] = {
 		level = 12,
 		sub_type = 80,
 		target_id_for_client = 0,
@@ -811,8 +894,8 @@ pg.weekly_task_template = {
 			59012,
 			20
 		}
-	},
-	[10123] = {
+	}
+	pg.base.weekly_task_template[10123] = {
 		level = 12,
 		sub_type = 80,
 		target_id_for_client = 0,
@@ -825,8 +908,8 @@ pg.weekly_task_template = {
 			59012,
 			30
 		}
-	},
-	[10124] = {
+	}
+	pg.base.weekly_task_template[10124] = {
 		level = 12,
 		sub_type = 80,
 		target_id_for_client = 0,
@@ -839,8 +922,8 @@ pg.weekly_task_template = {
 			59012,
 			40
 		}
-	},
-	[10125] = {
+	}
+	pg.base.weekly_task_template[10125] = {
 		level = 12,
 		sub_type = 80,
 		target_id_for_client = 0,
@@ -853,8 +936,8 @@ pg.weekly_task_template = {
 			59012,
 			50
 		}
-	},
-	[10131] = {
+	}
+	pg.base.weekly_task_template[10131] = {
 		level = 15,
 		sub_type = 27,
 		target_id_for_client = 1,
@@ -867,8 +950,8 @@ pg.weekly_task_template = {
 			59012,
 			10
 		}
-	},
-	[10132] = {
+	}
+	pg.base.weekly_task_template[10132] = {
 		level = 15,
 		sub_type = 27,
 		target_id_for_client = 1,
@@ -881,8 +964,8 @@ pg.weekly_task_template = {
 			59012,
 			20
 		}
-	},
-	[10133] = {
+	}
+	pg.base.weekly_task_template[10133] = {
 		level = 15,
 		sub_type = 27,
 		target_id_for_client = 1,
@@ -895,8 +978,8 @@ pg.weekly_task_template = {
 			59012,
 			30
 		}
-	},
-	[10134] = {
+	}
+	pg.base.weekly_task_template[10134] = {
 		level = 15,
 		sub_type = 27,
 		target_id_for_client = 1,
@@ -909,8 +992,8 @@ pg.weekly_task_template = {
 			59012,
 			40
 		}
-	},
-	[10135] = {
+	}
+	pg.base.weekly_task_template[10135] = {
 		level = 15,
 		sub_type = 27,
 		target_id_for_client = 1,
@@ -923,8 +1006,8 @@ pg.weekly_task_template = {
 			59012,
 			50
 		}
-	},
-	[10141] = {
+	}
+	pg.base.weekly_task_template[10141] = {
 		level = 1,
 		sub_type = 31,
 		target_id_for_client = 0,
@@ -937,8 +1020,8 @@ pg.weekly_task_template = {
 			59012,
 			5
 		}
-	},
-	[10142] = {
+	}
+	pg.base.weekly_task_template[10142] = {
 		level = 1,
 		sub_type = 31,
 		target_id_for_client = 0,
@@ -951,8 +1034,8 @@ pg.weekly_task_template = {
 			59012,
 			10
 		}
-	},
-	[10143] = {
+	}
+	pg.base.weekly_task_template[10143] = {
 		level = 1,
 		sub_type = 31,
 		target_id_for_client = 0,
@@ -965,8 +1048,8 @@ pg.weekly_task_template = {
 			59012,
 			15
 		}
-	},
-	[10144] = {
+	}
+	pg.base.weekly_task_template[10144] = {
 		level = 1,
 		sub_type = 31,
 		target_id_for_client = 0,
@@ -979,8 +1062,8 @@ pg.weekly_task_template = {
 			59012,
 			20
 		}
-	},
-	[10151] = {
+	}
+	pg.base.weekly_task_template[10151] = {
 		level = 10,
 		sub_type = 182,
 		target_id_for_client = 0,
@@ -993,8 +1076,8 @@ pg.weekly_task_template = {
 			59012,
 			10
 		}
-	},
-	[10152] = {
+	}
+	pg.base.weekly_task_template[10152] = {
 		level = 10,
 		sub_type = 182,
 		target_id_for_client = 0,
@@ -1007,8 +1090,8 @@ pg.weekly_task_template = {
 			59012,
 			20
 		}
-	},
-	[10153] = {
+	}
+	pg.base.weekly_task_template[10153] = {
 		level = 10,
 		sub_type = 182,
 		target_id_for_client = 0,
@@ -1021,8 +1104,8 @@ pg.weekly_task_template = {
 			59012,
 			30
 		}
-	},
-	[10154] = {
+	}
+	pg.base.weekly_task_template[10154] = {
 		level = 10,
 		sub_type = 182,
 		target_id_for_client = 0,
@@ -1035,8 +1118,8 @@ pg.weekly_task_template = {
 			59012,
 			40
 		}
-	},
-	[10155] = {
+	}
+	pg.base.weekly_task_template[10155] = {
 		level = 10,
 		sub_type = 182,
 		target_id_for_client = 0,
@@ -1049,82 +1132,5 @@ pg.weekly_task_template = {
 			59012,
 			50
 		}
-	},
-	all = {
-		10001,
-		10002,
-		10003,
-		10004,
-		10005,
-		10006,
-		10007,
-		10011,
-		10012,
-		10013,
-		10014,
-		10015,
-		10016,
-		10021,
-		10022,
-		10023,
-		10024,
-		10025,
-		10031,
-		10032,
-		10033,
-		10041,
-		10042,
-		10043,
-		10044,
-		10051,
-		10052,
-		10053,
-		10054,
-		10055,
-		10061,
-		10062,
-		10063,
-		10064,
-		10071,
-		10072,
-		10073,
-		10074,
-		10075,
-		10081,
-		10082,
-		10083,
-		10084,
-		10085,
-		10091,
-		10092,
-		10093,
-		10101,
-		10102,
-		10103,
-		10104,
-		10105,
-		10111,
-		10112,
-		10113,
-		10114,
-		10121,
-		10122,
-		10123,
-		10124,
-		10125,
-		10131,
-		10132,
-		10133,
-		10134,
-		10135,
-		10141,
-		10142,
-		10143,
-		10144,
-		10151,
-		10152,
-		10153,
-		10154,
-		10155
 	}
-}
+end)()

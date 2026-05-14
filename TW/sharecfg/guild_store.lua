@@ -1,6 +1,34 @@
 pg = pg or {}
-pg.guild_store = {
-	{
+pg.guild_store = rawget(pg, "guild_store") or setmetatable({
+	__name = "guild_store"
+}, confNEO)
+pg.guild_store.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	101,
+	102,
+	111,
+	112,
+	113,
+	121,
+	122,
+	131,
+	132,
+	201,
+	202,
+	203,
+	301,
+	302
+}
+pg.base = pg.base or {}
+pg.base.guild_store = {}
+
+(function ()
+	pg.base.guild_store[1] = {
 		goods_icon = "Props/15008",
 		goods_purchase_limit = 1,
 		ensure = 0,
@@ -16,8 +44,8 @@ pg.guild_store = {
 		goods = {
 			15008
 		}
-	},
-	{
+	}
+	pg.base.guild_store[2] = {
 		goods_icon = "Props/20011",
 		goods_purchase_limit = 1,
 		ensure = 0,
@@ -33,8 +61,8 @@ pg.guild_store = {
 		goods = {
 			20011
 		}
-	},
-	{
+	}
+	pg.base.guild_store[3] = {
 		goods_icon = "Props/20012",
 		goods_purchase_limit = 1,
 		ensure = 0,
@@ -50,8 +78,8 @@ pg.guild_store = {
 		goods = {
 			20012
 		}
-	},
-	{
+	}
+	pg.base.guild_store[4] = {
 		goods_icon = "Props/20013",
 		goods_purchase_limit = 1,
 		ensure = 0,
@@ -67,8 +95,8 @@ pg.guild_store = {
 		goods = {
 			20013
 		}
-	},
-	{
+	}
+	pg.base.guild_store[5] = {
 		goods_icon = "Props/huangjialiaoli",
 		goods_purchase_limit = 1,
 		ensure = 0,
@@ -84,8 +112,8 @@ pg.guild_store = {
 		goods = {
 			50005
 		}
-	},
-	{
+	}
+	pg.base.guild_store[6] = {
 		goods_icon = "Props/manhanquanxi",
 		goods_purchase_limit = 1,
 		ensure = 0,
@@ -101,8 +129,8 @@ pg.guild_store = {
 		goods = {
 			50006
 		}
-	},
-	[101] = {
+	}
+	pg.base.guild_store[101] = {
 		goods_icon = "Props/54002",
 		goods_purchase_limit = 3,
 		ensure = 0,
@@ -120,8 +148,8 @@ pg.guild_store = {
 			16012,
 			16022
 		}
-	},
-	[102] = {
+	}
+	pg.base.guild_store[102] = {
 		goods_icon = "Props/54003",
 		goods_purchase_limit = 3,
 		ensure = 0,
@@ -139,8 +167,8 @@ pg.guild_store = {
 			16013,
 			16023
 		}
-	},
-	[111] = {
+	}
+	pg.base.guild_store[111] = {
 		goods_icon = "Props/54012",
 		goods_purchase_limit = 5,
 		ensure = 0,
@@ -160,8 +188,8 @@ pg.guild_store = {
 			17032,
 			17042
 		}
-	},
-	[112] = {
+	}
+	pg.base.guild_store[112] = {
 		goods_icon = "Props/54013",
 		goods_purchase_limit = 5,
 		ensure = 0,
@@ -181,8 +209,8 @@ pg.guild_store = {
 			17033,
 			17043
 		}
-	},
-	[113] = {
+	}
+	pg.base.guild_store[113] = {
 		goods_icon = "Props/54014",
 		goods_purchase_limit = 5,
 		ensure = 1,
@@ -202,8 +230,8 @@ pg.guild_store = {
 			17034,
 			17044
 		}
-	},
-	[121] = {
+	}
+	pg.base.guild_store[121] = {
 		goods_icon = "Props/54032",
 		goods_purchase_limit = 2,
 		ensure = 0,
@@ -222,8 +250,8 @@ pg.guild_store = {
 			18022,
 			18032
 		}
-	},
-	[122] = {
+	}
+	pg.base.guild_store[122] = {
 		goods_icon = "Props/54033",
 		goods_purchase_limit = 2,
 		ensure = 0,
@@ -242,8 +270,8 @@ pg.guild_store = {
 			18023,
 			18033
 		}
-	},
-	[131] = {
+	}
+	pg.base.guild_store[131] = {
 		goods_icon = "Props/30003",
 		goods_purchase_limit = 1,
 		ensure = 0,
@@ -262,8 +290,8 @@ pg.guild_store = {
 			30033,
 			30043
 		}
-	},
-	[132] = {
+	}
+	pg.base.guild_store[132] = {
 		goods_icon = "Props/30004",
 		goods_purchase_limit = 1,
 		ensure = 0,
@@ -282,8 +310,8 @@ pg.guild_store = {
 			30034,
 			30044
 		}
-	},
-	[201] = {
+	}
+	pg.base.guild_store[201] = {
 		goods_icon = "Props/54000",
 		goods_purchase_limit = 1,
 		ensure = 1,
@@ -346,8 +374,8 @@ pg.guild_store = {
 			502051,
 			605061
 		}
-	},
-	[202] = {
+	}
+	pg.base.guild_store[202] = {
 		goods_icon = "Props/54000",
 		goods_purchase_limit = 1,
 		ensure = 1,
@@ -371,8 +399,8 @@ pg.guild_store = {
 			101381,
 			101431
 		}
-	},
-	[203] = {
+	}
+	pg.base.guild_store[203] = {
 		goods_icon = "Props/54000",
 		goods_purchase_limit = 1,
 		ensure = 1,
@@ -406,8 +434,8 @@ pg.guild_store = {
 			101341,
 			301391
 		}
-	},
-	[301] = {
+	}
+	pg.base.guild_store[301] = {
 		goods_icon = "Props/52001",
 		goods_purchase_limit = 1,
 		ensure = 0,
@@ -428,8 +456,8 @@ pg.guild_store = {
 			42005,
 			42006
 		}
-	},
-	[302] = {
+	}
+	pg.base.guild_store[302] = {
 		goods_icon = "Props/52001",
 		goods_purchase_limit = 1,
 		ensure = 0,
@@ -448,27 +476,5 @@ pg.guild_store = {
 			42013,
 			42016
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		101,
-		102,
-		111,
-		112,
-		113,
-		121,
-		122,
-		131,
-		132,
-		201,
-		202,
-		203,
-		301,
-		302
 	}
-}
+end)()

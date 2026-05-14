@@ -1,6 +1,103 @@
 pg = pg or {}
-pg.world_collection_record_template = {
-	[100001] = {
+pg.world_collection_record_template = rawget(pg, "world_collection_record_template") or setmetatable({
+	__name = "world_collection_record_template"
+}, confNEO)
+pg.world_collection_record_template.all = {
+	100001,
+	100002,
+	100003,
+	100004,
+	100005,
+	100006,
+	100007,
+	100008,
+	100009,
+	100010,
+	100011,
+	100012,
+	100013,
+	100014,
+	100015,
+	100016,
+	100017,
+	100018,
+	100019,
+	100020,
+	100021,
+	100022,
+	100023,
+	100024,
+	100025,
+	100026,
+	100027,
+	100028,
+	100029,
+	100030,
+	100031,
+	100032,
+	100033,
+	100034,
+	100035,
+	100036,
+	100037,
+	100038,
+	100039,
+	100040,
+	100041,
+	100042,
+	100043,
+	100044,
+	100045,
+	100046,
+	100047,
+	100048,
+	100049,
+	100050,
+	100051,
+	100052,
+	100053,
+	100054,
+	100055,
+	100056,
+	100057,
+	100058,
+	100059,
+	100060,
+	100061,
+	100062,
+	100063,
+	100064,
+	100065,
+	100066,
+	100071,
+	100076,
+	100077,
+	100078,
+	100079,
+	100080,
+	100081,
+	100082,
+	100083,
+	100084,
+	100085,
+	100086,
+	100087,
+	100088,
+	100089,
+	100090,
+	100091,
+	100092,
+	100093,
+	100094,
+	100095,
+	100096,
+	100097
+}
+pg.base = pg.base or {}
+pg.base.world_collection_record_template = {}
+
+(function ()
+	pg.base.world_collection_record_template[100001] = {
 		group_ID = 1,
 		name = "作戰簡報",
 		mask = "bg/bg_memory",
@@ -9,8 +106,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "開始「大型作戰」",
 		story = "WORLD100A"
-	},
-	[100002] = {
+	}
+	pg.base.world_collection_record_template[100002] = {
 		group_ID = 2,
 		name = "序幕I",
 		mask = "bg/bg_memory",
@@ -19,8 +116,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "開始第一章-序幕",
 		story = "GWORLD101A"
-	},
-	[100003] = {
+	}
+	pg.base.world_collection_record_template[100003] = {
 		group_ID = 3,
 		name = "序幕II",
 		mask = "bg/bg_memory",
@@ -29,8 +126,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "遭遇大黃蜂",
 		story = "GWORLD101B"
-	},
-	[100004] = {
+	}
+	pg.base.world_collection_record_template[100004] = {
 		group_ID = 4,
 		name = "序幕III",
 		mask = "bg/bg_memory",
@@ -39,8 +136,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "擊敗大黃蜂",
 		story = "GWORLD101C"
-	},
-	[100005] = {
+	}
+	pg.base.world_collection_record_template[100005] = {
 		group_ID = 5,
 		name = "序幕IV",
 		mask = "bg/bg_memory",
@@ -49,8 +146,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "成功撤離戰鬥後",
 		story = "GWORLD101D"
-	},
-	[100006] = {
+	}
+	pg.base.world_collection_record_template[100006] = {
 		group_ID = 6,
 		name = "號響",
 		mask = "bg/bg_memory",
@@ -59,8 +156,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "進入演習海域內的NY港",
 		story = "WORLD102A"
-	},
-	[100007] = {
+	}
+	pg.base.world_collection_record_template[100007] = {
 		group_ID = 7,
 		name = "似曾相識",
 		mask = "bg/bg_memory",
@@ -69,8 +166,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "開始第一章-第二節",
 		story = "WORLD105A"
-	},
-	[100008] = {
+	}
+	pg.base.world_collection_record_template[100008] = {
 		group_ID = 8,
 		name = "TB系統",
 		mask = "bg/bg_memory",
@@ -79,8 +176,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第一個探索點",
 		story = "WORLD105B"
-	},
-	[100009] = {
+	}
+	pg.base.world_collection_record_template[100009] = {
 		group_ID = 9,
 		name = "回憶",
 		mask = "bg/bg_memory",
@@ -89,8 +186,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "擊敗一區域所有敵人",
 		story = "WORLD105C"
-	},
-	[100010] = {
+	}
+	pg.base.world_collection_record_template[100010] = {
 		group_ID = 10,
 		name = "火光",
 		mask = "bg/bg_memory",
@@ -99,8 +196,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "擊敗二區域所有敵人",
 		story = "WORLD105D"
-	},
-	[100011] = {
+	}
+	pg.base.world_collection_record_template[100011] = {
 		group_ID = 11,
 		name = "另一個神秘人",
 		mask = "bg/bg_memory",
@@ -109,8 +206,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第二個探索點",
 		story = "WORLD105E"
-	},
-	[100012] = {
+	}
+	pg.base.world_collection_record_template[100012] = {
 		group_ID = 12,
 		name = "敵人的敵人",
 		mask = "bg/bg_memory",
@@ -119,8 +216,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "開始第一章-第三節",
 		story = "WORLD106A"
-	},
-	[100013] = {
+	}
+	pg.base.world_collection_record_template[100013] = {
 		group_ID = 13,
 		name = "探索I",
 		mask = "bg/bg_memory",
@@ -129,8 +226,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第一個探索點",
 		story = "WORLD106B"
-	},
-	[100014] = {
+	}
+	pg.base.world_collection_record_template[100014] = {
 		group_ID = 14,
 		name = "探索II",
 		mask = "bg/bg_memory",
@@ -139,8 +236,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第二個探索點",
 		story = "WORLD106C"
-	},
-	[100015] = {
+	}
+	pg.base.world_collection_record_template[100015] = {
 		group_ID = 15,
 		name = "探索III",
 		mask = "bg/bg_memory",
@@ -149,8 +246,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第三個探索點",
 		story = "WORLD106D"
-	},
-	[100016] = {
+	}
+	pg.base.world_collection_record_template[100016] = {
 		group_ID = 16,
 		name = "階段性進展",
 		mask = "bg/bg_memory",
@@ -159,8 +256,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "擊敗所有敵人",
 		story = "WORLD106E"
-	},
-	[100017] = {
+	}
+	pg.base.world_collection_record_template[100017] = {
 		group_ID = 17,
 		name = "階段性進展",
 		mask = "bg/bg_memory",
@@ -169,8 +266,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "開始第一章-第四節",
 		story = "WORLD107A"
-	},
-	[100018] = {
+	}
+	pg.base.world_collection_record_template[100018] = {
 		group_ID = 18,
 		name = "赤色艦隊",
 		mask = "bg/bg_memory",
@@ -179,8 +276,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "擊敗五隊敵人",
 		story = "WORLD107B"
-	},
-	[100019] = {
+	}
+	pg.base.world_collection_record_template[100019] = {
 		group_ID = 19,
 		name = "通訊",
 		mask = "bg/bg_memory",
@@ -189,8 +286,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第一章-第五節第一個探索點",
 		story = "WORLD108A"
-	},
-	[100020] = {
+	}
+	pg.base.world_collection_record_template[100020] = {
 		group_ID = 20,
 		name = "空戰",
 		mask = "bg/bg_memory",
@@ -199,8 +296,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第二個探索點",
 		story = "WORLD108B"
-	},
-	[100021] = {
+	}
+	pg.base.world_collection_record_template[100021] = {
 		group_ID = 21,
 		name = "停火",
 		mask = "bg/bg_memory",
@@ -209,8 +306,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "擊敗鐵血主力艦隊",
 		story = "WORLD108C"
-	},
-	[100022] = {
+	}
+	pg.base.world_collection_record_template[100022] = {
 		group_ID = 22,
 		name = "準備工作",
 		mask = "bg/bg_memory",
@@ -219,8 +316,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第一章-第六節第一個探索點",
 		story = "WORLD109A"
-	},
-	[100023] = {
+	}
+	pg.base.world_collection_record_template[100023] = {
 		group_ID = 23,
 		name = "準備完成",
 		mask = "bg/bg_memory",
@@ -229,8 +326,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第三個探索點",
 		story = "WORLD109B"
-	},
-	[100024] = {
+	}
+	pg.base.world_collection_record_template[100024] = {
 		group_ID = 24,
 		name = "信標·META",
 		mask = "bg/bg_memory",
@@ -239,8 +336,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "解鎖「信標·META」系統",
 		story = "GWORLD109A"
-	},
-	[100025] = {
+	}
+	pg.base.world_collection_record_template[100025] = {
 		group_ID = 1,
 		name = "女王的職責",
 		mask = "bg/bg_memory",
@@ -249,8 +346,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "進入第二章-第一節內的利物浦港",
 		story = "WORLD200A"
-	},
-	[100026] = {
+	}
+	pg.base.world_collection_record_template[100026] = {
 		group_ID = 2,
 		name = "集結",
 		mask = "bg/bg_memory",
@@ -259,8 +356,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第一個探索點",
 		story = "WORLD200B"
-	},
-	[100027] = {
+	}
+	pg.base.world_collection_record_template[100027] = {
 		group_ID = 3,
 		name = "並肩作戰",
 		mask = "bg/bg_memory",
@@ -269,8 +366,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第二章-第二節第一個探索點",
 		story = "WORLD201A"
-	},
-	[100028] = {
+	}
+	pg.base.world_collection_record_template[100028] = {
 		group_ID = 4,
 		name = "外圍清掃",
 		mask = "bg/bg_memory",
@@ -279,8 +376,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "開始第二章-第三節",
 		story = "WORLD202A"
-	},
-	[100029] = {
+	}
+	pg.base.world_collection_record_template[100029] = {
 		group_ID = 5,
 		name = "求援訊號",
 		mask = "bg/bg_memory",
@@ -289,8 +386,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "擊敗所有敵人",
 		story = "WORLD202B"
-	},
-	[100030] = {
+	}
+	pg.base.world_collection_record_template[100030] = {
 		group_ID = 6,
 		name = "遇難地點",
 		mask = "bg/bg_memory",
@@ -299,8 +396,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "開始第二章-第四節",
 		story = "WORLD203A"
-	},
-	[100031] = {
+	}
+	pg.base.world_collection_record_template[100031] = {
 		group_ID = 7,
 		name = "殘骸",
 		mask = "bg/bg_memory",
@@ -309,8 +406,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第一個探索點",
 		story = "WORLD203B"
-	},
-	[100032] = {
+	}
+	pg.base.world_collection_record_template[100032] = {
 		group_ID = 8,
 		name = "殘影",
 		mask = "bg/bg_memory",
@@ -319,8 +416,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第二個探索點",
 		story = "WORLD203C"
-	},
-	[100033] = {
+	}
+	pg.base.world_collection_record_template[100033] = {
 		group_ID = 9,
 		name = "科研任務",
 		mask = "bg/bg_memory",
@@ -329,8 +426,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第三個探索點",
 		story = "WORLD203D"
-	},
-	[100034] = {
+	}
+	pg.base.world_collection_record_template[100034] = {
 		group_ID = 10,
 		name = "女王的聯絡",
 		mask = "bg/bg_memory",
@@ -339,8 +436,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第二章-第五節第一個探索點",
 		story = "WORLD204A"
-	},
-	[100035] = {
+	}
+	pg.base.world_collection_record_template[100035] = {
 		group_ID = 11,
 		name = "重力異常",
 		mask = "bg/bg_memory",
@@ -349,8 +446,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "開始第二章-第六節",
 		story = "WORLD205A"
-	},
-	[100036] = {
+	}
+	pg.base.world_collection_record_template[100036] = {
 		group_ID = 12,
 		name = "練手",
 		mask = "bg/bg_memory",
@@ -359,8 +456,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "擊敗所有敵人",
 		story = "WORLD205B"
-	},
-	[100037] = {
+	}
+	pg.base.world_collection_record_template[100037] = {
 		group_ID = 13,
 		name = "強敵登場",
 		mask = "bg/bg_memory",
@@ -369,8 +466,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "擊敗第二章-第六節內的敵方特殊單位",
 		story = "WORLD205C"
-	},
-	[100038] = {
+	}
+	pg.base.world_collection_record_template[100038] = {
 		group_ID = 14,
 		name = "第二座前哨",
 		mask = "bg/bg_memory",
@@ -379,8 +476,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "擊敗敵方特殊單位",
 		story = "WORLD205D"
-	},
-	[100039] = {
+	}
+	pg.base.world_collection_record_template[100039] = {
 		group_ID = 1,
 		name = "另一處攻擊",
 		mask = "bg/bg_memory",
@@ -389,8 +486,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "進入第三章-第一節內的港口",
 		story = "WORLD300A"
-	},
-	[100040] = {
+	}
+	pg.base.world_collection_record_template[100040] = {
 		group_ID = 2,
 		name = "TB系統測試",
 		mask = "bg/bg_memory",
@@ -399,8 +496,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第一個探索點",
 		story = "WORLD300B"
-	},
-	[100041] = {
+	}
+	pg.base.world_collection_record_template[100041] = {
 		group_ID = 3,
 		name = "鐵血的動向",
 		mask = "bg/bg_memory",
@@ -409,8 +506,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第三章-第二節第一個探索點",
 		story = "WORLD301A"
-	},
-	[100042] = {
+	}
+	pg.base.world_collection_record_template[100042] = {
 		group_ID = 4,
 		name = "友方訊號",
 		mask = "bg/bg_memory",
@@ -419,8 +516,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第三章-第三節第一個探索點",
 		story = "WORLD302A"
-	},
-	[100043] = {
+	}
+	pg.base.world_collection_record_template[100043] = {
 		group_ID = 5,
 		name = "干擾",
 		mask = "bg/bg_memory",
@@ -429,8 +526,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第二個探索點",
 		story = "WORLD302B"
-	},
-	[100044] = {
+	}
+	pg.base.world_collection_record_template[100044] = {
 		group_ID = 6,
 		name = "救援",
 		mask = "bg/bg_memory",
@@ -439,8 +536,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "開始第三章-第四節",
 		story = "WORLD303A"
-	},
-	[100045] = {
+	}
+	pg.base.world_collection_record_template[100045] = {
 		group_ID = 7,
 		name = "疑惑",
 		mask = "bg/bg_memory",
@@ -449,8 +546,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第一個探索點",
 		story = "WORLD303B"
-	},
-	[100046] = {
+	}
+	pg.base.world_collection_record_template[100046] = {
 		group_ID = 8,
 		name = "分散計劃",
 		mask = "bg/bg_memory",
@@ -459,8 +556,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "開始第三章-第五節",
 		story = "WORLD304A"
-	},
-	[100047] = {
+	}
+	pg.base.world_collection_record_template[100047] = {
 		group_ID = 9,
 		name = "殘影",
 		mask = "bg/bg_memory",
@@ -469,8 +566,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第一個探索點",
 		story = "WORLD304B"
-	},
-	[100048] = {
+	}
+	pg.base.world_collection_record_template[100048] = {
 		group_ID = 10,
 		name = "仲裁機關",
 		mask = "bg/bg_memory",
@@ -479,8 +576,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第二個探索點",
 		story = "WORLD304C"
-	},
-	[100049] = {
+	}
+	pg.base.world_collection_record_template[100049] = {
 		group_ID = 11,
 		name = "增援",
 		mask = "bg/bg_memory",
@@ -489,8 +586,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "擊敗所有敵人",
 		story = "WORLD304D"
-	},
-	[100050] = {
+	}
+	pg.base.world_collection_record_template[100050] = {
 		group_ID = 12,
 		name = "滴水不漏",
 		mask = "bg/bg_memory",
@@ -499,8 +596,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "擊敗敵方特殊單位",
 		story = "WORLD304E"
-	},
-	[100051] = {
+	}
+	pg.base.world_collection_record_template[100051] = {
 		group_ID = 13,
 		name = "一鼓作氣",
 		mask = "bg/bg_memory",
@@ -509,8 +606,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "開始第三章-第六節",
 		story = "WORLD305A"
-	},
-	[100052] = {
+	}
+	pg.base.world_collection_record_template[100052] = {
 		group_ID = 14,
 		name = "修整",
 		mask = "bg/bg_memory",
@@ -519,8 +616,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第一個探索點",
 		story = "WORLD305B"
-	},
-	[100053] = {
+	}
+	pg.base.world_collection_record_template[100053] = {
 		group_ID = 1,
 		name = "初臨陸間海",
 		mask = "bg/bg_memory",
@@ -529,8 +626,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第四章-第一節第一個探索點",
 		story = "WORLD400A"
-	},
-	[100054] = {
+	}
+	pg.base.world_collection_record_template[100054] = {
 		group_ID = 2,
 		name = "薩丁艦隊",
 		mask = "bg/bg_memory",
@@ -539,8 +636,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第二個探索點",
 		story = "WORLD400B"
-	},
-	[100055] = {
+	}
+	pg.base.world_collection_record_template[100055] = {
 		group_ID = 3,
 		name = "塔蘭托港",
 		mask = "bg/bg_memory",
@@ -549,8 +646,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "開始第四章-第二節",
 		story = "WORLD401A"
-	},
-	[100056] = {
+	}
+	pg.base.world_collection_record_template[100056] = {
 		group_ID = 4,
 		name = "中途離席",
 		mask = "bg/bg_memory",
@@ -559,8 +656,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第一個探索點",
 		story = "WORLD401B"
-	},
-	[100057] = {
+	}
+	pg.base.world_collection_record_template[100057] = {
 		group_ID = 5,
 		name = "達卡港",
 		mask = "bg/bg_memory",
@@ -569,8 +666,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "開始第四章-第三節",
 		story = "WORLD402A"
-	},
-	[100058] = {
+	}
+	pg.base.world_collection_record_template[100058] = {
 		group_ID = 6,
 		name = "單獨行動",
 		mask = "bg/bg_memory",
@@ -579,8 +676,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第一個探索點",
 		story = "WORLD402B"
-	},
-	[100059] = {
+	}
+	pg.base.world_collection_record_template[100059] = {
 		group_ID = 7,
 		name = "疑惑",
 		mask = "bg/bg_memory",
@@ -589,8 +686,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "擊敗第四章-第四節所有敵人",
 		story = "WORLD403A"
-	},
-	[100060] = {
+	}
+	pg.base.world_collection_record_template[100060] = {
 		group_ID = 8,
 		name = "突擊",
 		mask = "bg/bg_memory",
@@ -599,8 +696,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "開始第四章-第五節",
 		story = "WORLD404A"
-	},
-	[100061] = {
+	}
+	pg.base.world_collection_record_template[100061] = {
 		group_ID = 9,
 		name = "異樣",
 		mask = "bg/bg_memory",
@@ -609,8 +706,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第一個探索點",
 		story = "WORLD404B"
-	},
-	[100062] = {
+	}
+	pg.base.world_collection_record_template[100062] = {
 		group_ID = 10,
 		name = "AF作戰",
 		mask = "bg/bg_memory",
@@ -619,8 +716,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第二個探索點",
 		story = "WORLD404C"
-	},
-	[100063] = {
+	}
+	pg.base.world_collection_record_template[100063] = {
 		group_ID = 11,
 		name = "替代品",
 		mask = "bg/bg_memory",
@@ -629,8 +726,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第三個探索點",
 		story = "WORLD404D"
-	},
-	[100064] = {
+	}
+	pg.base.world_collection_record_template[100064] = {
 		group_ID = 12,
 		name = "軍師的傳承",
 		mask = "bg/bg_memory",
@@ -639,8 +736,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第四章-第六節第一個探索點",
 		story = "WORLD405A"
-	},
-	[100065] = {
+	}
+	pg.base.world_collection_record_template[100065] = {
 		group_ID = 13,
 		name = "敵影",
 		mask = "bg/bg_memory",
@@ -649,8 +746,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "擊敗所有敵人",
 		story = "WORLD405B"
-	},
-	[100066] = {
+	}
+	pg.base.world_collection_record_template[100066] = {
 		group_ID = 14,
 		name = "修整",
 		mask = "bg/bg_memory",
@@ -659,8 +756,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "擊敗敵方特殊單位",
 		story = "WORLD405C"
-	},
-	[100071] = {
+	}
+	pg.base.world_collection_record_template[100071] = {
 		group_ID = 1,
 		name = "DMRECX074：META",
 		mask = "bg/bg_memory",
@@ -669,8 +766,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第一章-第六節第二個探索點",
 		story = "WORLD9901A"
-	},
-	[100076] = {
+	}
+	pg.base.world_collection_record_template[100076] = {
 		group_ID = 1,
 		name = "泥沼",
 		mask = "bg/bg_memory",
@@ -679,8 +776,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "進入第五章-第一節內的前哨站",
 		story = "WORLD500A"
-	},
-	[100077] = {
+	}
+	pg.base.world_collection_record_template[100077] = {
 		group_ID = 2,
 		name = "分歧",
 		mask = "bg/bg_memory",
@@ -689,8 +786,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第一個探索點",
 		story = "WORLD500B"
-	},
-	[100078] = {
+	}
+	pg.base.world_collection_record_template[100078] = {
 		group_ID = 3,
 		name = "雷霆",
 		mask = "bg/bg_memory",
@@ -699,8 +796,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "再次進入第五章-第一節內的前哨站",
 		story = "WORLD500C"
-	},
-	[100079] = {
+	}
+	pg.base.world_collection_record_template[100079] = {
 		group_ID = 4,
 		name = "英雄",
 		mask = "bg/bg_memory",
@@ -709,8 +806,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "開始第五章-第二節",
 		story = "WORLD501A"
-	},
-	[100080] = {
+	}
+	pg.base.world_collection_record_template[100080] = {
 		group_ID = 5,
 		name = "信標",
 		mask = "bg/bg_memory",
@@ -719,8 +816,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第一個探索點",
 		story = "WORLD501B"
-	},
-	[100081] = {
+	}
+	pg.base.world_collection_record_template[100081] = {
 		group_ID = 6,
 		name = "熟悉感",
 		mask = "bg/bg_memory",
@@ -729,8 +826,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "遭遇飛龍·META",
 		story = "WORLD501C"
-	},
-	[100082] = {
+	}
+	pg.base.world_collection_record_template[100082] = {
 		group_ID = 7,
 		name = "幻影",
 		mask = "bg/bg_memory",
@@ -739,8 +836,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "開始第五章-第三節",
 		story = "WORLD502A"
-	},
-	[100083] = {
+	}
+	pg.base.world_collection_record_template[100083] = {
 		group_ID = 8,
 		name = "下定決心",
 		mask = "bg/bg_memory",
@@ -749,8 +846,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第五章-第四節第一個探索點",
 		story = "WORLD503A"
-	},
-	[100084] = {
+	}
+	pg.base.world_collection_record_template[100084] = {
 		group_ID = 9,
 		name = "茶會",
 		mask = "bg/bg_memory",
@@ -759,8 +856,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "進入第五章-第四節內的前哨站",
 		story = "WORLD503B"
-	},
-	[100085] = {
+	}
+	pg.base.world_collection_record_template[100085] = {
 		group_ID = 10,
 		name = "總攻開始",
 		mask = "bg/bg_memory",
@@ -769,8 +866,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "開始第五章-第五節",
 		story = "WORLD504A"
-	},
-	[100086] = {
+	}
+	pg.base.world_collection_record_template[100086] = {
 		group_ID = 11,
 		name = "炮擊支援群",
 		mask = "bg/bg_memory",
@@ -779,8 +876,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第一個探索點",
 		story = "WORLD504B"
-	},
-	[100087] = {
+	}
+	pg.base.world_collection_record_template[100087] = {
 		group_ID = 12,
 		name = "游擊支援群",
 		mask = "bg/bg_memory",
@@ -789,8 +886,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第二個探索點",
 		story = "WORLD504C"
-	},
-	[100088] = {
+	}
+	pg.base.world_collection_record_template[100088] = {
 		group_ID = 13,
 		name = "航空支援群",
 		mask = "bg/bg_memory",
@@ -799,8 +896,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第三個探索點",
 		story = "WORLD504D"
-	},
-	[100089] = {
+	}
+	pg.base.world_collection_record_template[100089] = {
 		group_ID = 14,
 		name = "測試者量產機",
 		mask = "bg/bg_memory",
@@ -809,8 +906,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第四個探索點",
 		story = "WORLD504E"
-	},
-	[100090] = {
+	}
+	pg.base.world_collection_record_template[100090] = {
 		group_ID = 15,
 		name = "圓環",
 		mask = "bg/bg_memory",
@@ -819,8 +916,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "開始第五章-第六節",
 		story = "WORLD505A"
-	},
-	[100091] = {
+	}
+	pg.base.world_collection_record_template[100091] = {
 		group_ID = 16,
 		name = "另一個奇異點",
 		mask = "bg/bg_memory",
@@ -829,8 +926,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第一個探索點",
 		story = "WORLD505B"
-	},
-	[100092] = {
+	}
+	pg.base.world_collection_record_template[100092] = {
 		group_ID = 17,
 		name = "邀約",
 		mask = "bg/bg_memory",
@@ -839,8 +936,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "開始第五章-第七節",
 		story = "WORLD506A"
-	},
-	[100093] = {
+	}
+	pg.base.world_collection_record_template[100093] = {
 		group_ID = 18,
 		name = "戰場維修艦",
 		mask = "bg/bg_memory",
@@ -849,8 +946,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第一個探索點",
 		story = "WORLD506B"
-	},
-	[100094] = {
+	}
+	pg.base.world_collection_record_template[100094] = {
 		group_ID = 19,
 		name = "排異",
 		mask = "bg/bg_memory",
@@ -859,8 +956,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "開始第五章-第八節",
 		story = "WORLD507A"
-	},
-	[100095] = {
+	}
+	pg.base.world_collection_record_template[100095] = {
 		group_ID = 20,
 		name = "交匯之地",
 		mask = "bg/bg_memory",
@@ -869,8 +966,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第一個探索點",
 		story = "WORLD507E"
-	},
-	[100096] = {
+	}
+	pg.base.world_collection_record_template[100096] = {
 		group_ID = 21,
 		name = "BAD-恍然",
 		mask = "bg/bg_memory",
@@ -879,8 +976,8 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第二個探索點",
 		story = "312671"
-	},
-	[100097] = {
+	}
+	pg.base.world_collection_record_template[100097] = {
 		group_ID = 22,
 		name = "TRUE-新的開端",
 		mask = "bg/bg_memory",
@@ -889,96 +986,5 @@ pg.world_collection_record_template = {
 		icon = "memory_dashijie",
 		condition = "前往第二個探索點",
 		story = "312672"
-	},
-	all = {
-		100001,
-		100002,
-		100003,
-		100004,
-		100005,
-		100006,
-		100007,
-		100008,
-		100009,
-		100010,
-		100011,
-		100012,
-		100013,
-		100014,
-		100015,
-		100016,
-		100017,
-		100018,
-		100019,
-		100020,
-		100021,
-		100022,
-		100023,
-		100024,
-		100025,
-		100026,
-		100027,
-		100028,
-		100029,
-		100030,
-		100031,
-		100032,
-		100033,
-		100034,
-		100035,
-		100036,
-		100037,
-		100038,
-		100039,
-		100040,
-		100041,
-		100042,
-		100043,
-		100044,
-		100045,
-		100046,
-		100047,
-		100048,
-		100049,
-		100050,
-		100051,
-		100052,
-		100053,
-		100054,
-		100055,
-		100056,
-		100057,
-		100058,
-		100059,
-		100060,
-		100061,
-		100062,
-		100063,
-		100064,
-		100065,
-		100066,
-		100071,
-		100076,
-		100077,
-		100078,
-		100079,
-		100080,
-		100081,
-		100082,
-		100083,
-		100084,
-		100085,
-		100086,
-		100087,
-		100088,
-		100089,
-		100090,
-		100091,
-		100092,
-		100093,
-		100094,
-		100095,
-		100096,
-		100097
 	}
-}
+end)()

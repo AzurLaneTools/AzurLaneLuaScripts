@@ -1,6 +1,26 @@
 pg = pg or {}
-pg.beat_game_music = {
-	{
+pg.beat_game_music = rawget(pg, "beat_game_music") or setmetatable({
+	__name = "beat_game_music"
+}, confNEO)
+pg.beat_game_music.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12
+}
+pg.base = pg.base or {}
+pg.base.beat_game_music = {}
+
+(function ()
+	pg.base.beat_game_music[1] = {
 		light = 2,
 		note = 6,
 		content_type = 1,
@@ -46,8 +66,8 @@ pg.beat_game_music = {
 				320880
 			}
 		}
-	},
-	{
+	}
+	pg.base.beat_game_music[2] = {
 		light = 3,
 		note = 8,
 		content_type = 1,
@@ -90,8 +110,8 @@ pg.beat_game_music = {
 				165360
 			}
 		}
-	},
-	{
+	}
+	pg.base.beat_game_music[3] = {
 		light = 1,
 		note = 7,
 		content_type = 1,
@@ -133,8 +153,8 @@ pg.beat_game_music = {
 				136560
 			}
 		}
-	},
-	{
+	}
+	pg.base.beat_game_music[4] = {
 		light = 0,
 		note = 9,
 		content_type = 1,
@@ -180,8 +200,8 @@ pg.beat_game_music = {
 				244080
 			}
 		}
-	},
-	{
+	}
+	pg.base.beat_game_music[5] = {
 		light = 0,
 		note = 10,
 		content_type = 1,
@@ -215,8 +235,8 @@ pg.beat_game_music = {
 				247920
 			}
 		}
-	},
-	{
+	}
+	pg.base.beat_game_music[6] = {
 		light = 0,
 		note = 1,
 		content_type = 1,
@@ -258,8 +278,8 @@ pg.beat_game_music = {
 				223840
 			}
 		}
-	},
-	{
+	}
+	pg.base.beat_game_music[7] = {
 		light = 0,
 		note = 2,
 		content_type = 1,
@@ -293,8 +313,8 @@ pg.beat_game_music = {
 				92320
 			}
 		}
-	},
-	{
+	}
+	pg.base.beat_game_music[8] = {
 		light = 0,
 		note = 3,
 		content_type = 1,
@@ -328,8 +348,8 @@ pg.beat_game_music = {
 				209440
 			}
 		}
-	},
-	{
+	}
+	pg.base.beat_game_music[9] = {
 		light = 0,
 		note = 4,
 		content_type = 1,
@@ -363,8 +383,8 @@ pg.beat_game_music = {
 				221920
 			}
 		}
-	},
-	{
+	}
+	pg.base.beat_game_music[10] = {
 		light = 0,
 		note = 5,
 		content_type = 1,
@@ -398,8 +418,8 @@ pg.beat_game_music = {
 				175840
 			}
 		}
-	},
-	{
+	}
+	pg.base.beat_game_music[11] = {
 		light = 0,
 		note = 11,
 		content_type = 2,
@@ -443,8 +463,8 @@ pg.beat_game_music = {
 				301100
 			}
 		}
-	},
-	{
+	}
+	pg.base.beat_game_music[12] = {
 		light = 0,
 		note = 12,
 		content_type = 3,
@@ -488,19 +508,5 @@ pg.beat_game_music = {
 				315600
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12
 	}
-}
+end)()

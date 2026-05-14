@@ -1,6 +1,77 @@
 pg = pg or {}
-pg.child2_shop = {
-	{
+pg.child2_shop = rawget(pg, "child2_shop") or setmetatable({
+	__name = "child2_shop"
+}, confNEO)
+pg.child2_shop.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	39,
+	40,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	47,
+	48,
+	49,
+	50,
+	51,
+	52,
+	53,
+	54,
+	55,
+	56,
+	57,
+	58,
+	59,
+	60,
+	61,
+	62,
+	63
+}
+pg.base = pg.base or {}
+pg.base.child2_shop = {}
+
+(function ()
+	pg.base.child2_shop[1] = {
 		resource_type = 1,
 		name = "體能+10",
 		icon = "attr_tineng2",
@@ -13,8 +84,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 1,
 		resource_num = 15
-	},
-	{
+	}
+	pg.base.child2_shop[2] = {
 		resource_type = 1,
 		name = "知識+10",
 		icon = "attr_zhishi2",
@@ -27,8 +98,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 2,
 		resource_num = 15
-	},
-	{
+	}
+	pg.base.child2_shop[3] = {
 		resource_type = 1,
 		name = "實踐+10",
 		icon = "attr_shijian2",
@@ -41,8 +112,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 3,
 		resource_num = 15
-	},
-	{
+	}
+	pg.base.child2_shop[4] = {
 		resource_type = 1,
 		name = "感知+10",
 		icon = "attr_ganzhi2",
@@ -55,8 +126,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 4,
 		resource_num = 15
-	},
-	{
+	}
+	pg.base.child2_shop[5] = {
 		resource_type = 1,
 		name = "心情+2",
 		icon = "res_xinqing2",
@@ -69,8 +140,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 5,
 		resource_num = 8
-	},
-	{
+	}
+	pg.base.child2_shop[6] = {
 		resource_type = 1,
 		name = "體能+20",
 		icon = "attr_tineng2",
@@ -83,8 +154,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 6,
 		resource_num = 30
-	},
-	{
+	}
+	pg.base.child2_shop[7] = {
 		resource_type = 1,
 		name = "知識+20",
 		icon = "attr_zhishi2",
@@ -97,8 +168,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 7,
 		resource_num = 30
-	},
-	{
+	}
+	pg.base.child2_shop[8] = {
 		resource_type = 1,
 		name = "實踐+20",
 		icon = "attr_shijian2",
@@ -111,8 +182,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 8,
 		resource_num = 30
-	},
-	{
+	}
+	pg.base.child2_shop[9] = {
 		resource_type = 1,
 		name = "感知+20",
 		icon = "attr_ganzhi2",
@@ -125,8 +196,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 9,
 		resource_num = 30
-	},
-	{
+	}
+	pg.base.child2_shop[10] = {
 		resource_type = 1,
 		name = "心情+4",
 		icon = "res_xinqing2",
@@ -139,8 +210,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 10,
 		resource_num = 12
-	},
-	{
+	}
+	pg.base.child2_shop[11] = {
 		resource_type = 1,
 		name = "體能+40",
 		icon = "attr_tineng2",
@@ -153,8 +224,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 11,
 		resource_num = 50
-	},
-	{
+	}
+	pg.base.child2_shop[12] = {
 		resource_type = 1,
 		name = "知識+40",
 		icon = "attr_zhishi2",
@@ -167,8 +238,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 12,
 		resource_num = 50
-	},
-	{
+	}
+	pg.base.child2_shop[13] = {
 		resource_type = 1,
 		name = "實踐+40",
 		icon = "attr_shijian2",
@@ -181,8 +252,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 13,
 		resource_num = 50
-	},
-	{
+	}
+	pg.base.child2_shop[14] = {
 		resource_type = 1,
 		name = "感知+40",
 		icon = "attr_ganzhi2",
@@ -195,8 +266,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 14,
 		resource_num = 50
-	},
-	{
+	}
+	pg.base.child2_shop[15] = {
 		resource_type = 1,
 		name = "心情+6",
 		icon = "res_xinqing2",
@@ -209,8 +280,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 15,
 		resource_num = 15
-	},
-	{
+	}
+	pg.base.child2_shop[16] = {
 		resource_type = 1,
 		name = "體能增益",
 		icon = "benefit_2_tineng_1",
@@ -223,8 +294,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 16,
 		resource_num = 75
-	},
-	{
+	}
+	pg.base.child2_shop[17] = {
 		resource_type = 1,
 		name = "知識增益",
 		icon = "benefit_2_zhishi_1",
@@ -237,8 +308,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 17,
 		resource_num = 75
-	},
-	{
+	}
+	pg.base.child2_shop[18] = {
 		resource_type = 1,
 		name = "實踐增益",
 		icon = "benefit_2_shijian_1",
@@ -251,8 +322,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 18,
 		resource_num = 75
-	},
-	{
+	}
+	pg.base.child2_shop[19] = {
 		resource_type = 1,
 		name = "感知增益",
 		icon = "benefit_2_ganzhi_1",
@@ -265,8 +336,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 19,
 		resource_num = 75
-	},
-	{
+	}
+	pg.base.child2_shop[20] = {
 		resource_type = 1,
 		name = "幸運獎券",
 		icon = "buff_2005",
@@ -279,8 +350,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 20,
 		resource_num = 50
-	},
-	{
+	}
+	pg.base.child2_shop[21] = {
 		resource_type = 1,
 		name = "體能隨機增益",
 		icon = "benefit_2_tineng_1",
@@ -293,8 +364,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 21,
 		resource_num = 50
-	},
-	{
+	}
+	pg.base.child2_shop[22] = {
 		resource_type = 1,
 		name = "知識隨機增益",
 		icon = "benefit_2_zhishi_1",
@@ -307,8 +378,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 22,
 		resource_num = 50
-	},
-	{
+	}
+	pg.base.child2_shop[23] = {
 		resource_type = 1,
 		name = "實踐隨機增益",
 		icon = "benefit_2_shijian_1",
@@ -321,8 +392,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 23,
 		resource_num = 50
-	},
-	{
+	}
+	pg.base.child2_shop[24] = {
 		resource_type = 1,
 		name = "感知隨機增益",
 		icon = "benefit_2_ganzhi_1",
@@ -335,8 +406,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 24,
 		resource_num = 50
-	},
-	{
+	}
+	pg.base.child2_shop[25] = {
 		resource_type = 1,
 		name = "體能隨機增益+",
 		icon = "benefit_2_tineng_2",
@@ -349,8 +420,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 25,
 		resource_num = 180
-	},
-	{
+	}
+	pg.base.child2_shop[26] = {
 		resource_type = 1,
 		name = "知識隨機增益+",
 		icon = "benefit_2_zhishi_2",
@@ -363,8 +434,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 26,
 		resource_num = 180
-	},
-	{
+	}
+	pg.base.child2_shop[27] = {
 		resource_type = 1,
 		name = "實踐隨機增益+",
 		icon = "benefit_2_shijian_2",
@@ -377,8 +448,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 27,
 		resource_num = 180
-	},
-	{
+	}
+	pg.base.child2_shop[28] = {
 		resource_type = 1,
 		name = "感知隨機增益+",
 		icon = "benefit_2_ganzhi_2",
@@ -391,8 +462,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 28,
 		resource_num = 180
-	},
-	{
+	}
+	pg.base.child2_shop[29] = {
 		resource_type = 1,
 		name = "體能隨機·預增益",
 		icon = "benefit_2_tineng_3",
@@ -405,8 +476,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 29,
 		resource_num = 200
-	},
-	{
+	}
+	pg.base.child2_shop[30] = {
 		resource_type = 1,
 		name = "知識隨機·預增益",
 		icon = "benefit_2_zhishi_3",
@@ -419,8 +490,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 30,
 		resource_num = 200
-	},
-	{
+	}
+	pg.base.child2_shop[31] = {
 		resource_type = 1,
 		name = "實踐隨機·預增益",
 		icon = "benefit_2_shijian_3",
@@ -433,8 +504,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 31,
 		resource_num = 200
-	},
-	{
+	}
+	pg.base.child2_shop[32] = {
 		resource_type = 1,
 		name = "感知隨機·預增益",
 		icon = "benefit_2_ganzhi_3",
@@ -447,8 +518,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 32,
 		resource_num = 200
-	},
-	{
+	}
+	pg.base.child2_shop[33] = {
 		resource_type = 1,
 		name = "心情隨機回復",
 		icon = "benefit_2_xinqing_1",
@@ -461,8 +532,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 33,
 		resource_num = 25
-	},
-	{
+	}
+	pg.base.child2_shop[34] = {
 		resource_type = 1,
 		name = "心情隨機回復+",
 		icon = "benefit_2_xinqing_2",
@@ -475,8 +546,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 34,
 		resource_num = 36
-	},
-	{
+	}
+	pg.base.child2_shop[35] = {
 		resource_type = 1,
 		name = "心情隨機回復++",
 		icon = "benefit_2_xinqing_3",
@@ -489,8 +560,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 35,
 		resource_num = 50
-	},
-	{
+	}
+	pg.base.child2_shop[36] = {
 		resource_type = 1,
 		name = "心情隨機回復（永久）",
 		icon = "benefit_2_xinqing_3",
@@ -503,8 +574,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 36,
 		resource_num = 120
-	},
-	{
+	}
+	pg.base.child2_shop[37] = {
 		resource_type = 1,
 		name = "行動力回復",
 		icon = "res_xingdongli2",
@@ -517,8 +588,8 @@ pg.child2_shop = {
 		goods_type = 3,
 		id = 37,
 		resource_num = 150
-	},
-	{
+	}
+	pg.base.child2_shop[38] = {
 		resource_type = 1,
 		name = "行動力回復+",
 		icon = "res_xingdongli2",
@@ -531,8 +602,8 @@ pg.child2_shop = {
 		goods_type = 3,
 		id = 38,
 		resource_num = 300
-	},
-	{
+	}
+	pg.base.child2_shop[39] = {
 		resource_type = 1,
 		name = "體能轉化·知識",
 		icon = "benefit_2_tinengzhishiz",
@@ -545,8 +616,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 39,
 		resource_num = 150
-	},
-	{
+	}
+	pg.base.child2_shop[40] = {
 		resource_type = 1,
 		name = "知識轉化·體能",
 		icon = "benefit_2_zhishitinengz",
@@ -559,8 +630,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 40,
 		resource_num = 150
-	},
-	{
+	}
+	pg.base.child2_shop[41] = {
 		resource_type = 1,
 		name = "實踐轉化·感知",
 		icon = "benefit_2_shijianganzhiz",
@@ -573,8 +644,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 41,
 		resource_num = 150
-	},
-	{
+	}
+	pg.base.child2_shop[42] = {
 		resource_type = 1,
 		name = "感知轉化·實踐",
 		icon = "benefit_2_ganzhishijianz",
@@ -587,8 +658,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 42,
 		resource_num = 150
-	},
-	{
+	}
+	pg.base.child2_shop[43] = {
 		resource_type = 1,
 		name = "實踐增益（切換）",
 		icon = "benefit_2_shijianq_1",
@@ -601,8 +672,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 43,
 		resource_num = 120
-	},
-	{
+	}
+	pg.base.child2_shop[44] = {
 		resource_type = 1,
 		name = "實踐增益（切換）+",
 		icon = "benefit_2_shijianq_1",
@@ -615,8 +686,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 44,
 		resource_num = 240
-	},
-	{
+	}
+	pg.base.child2_shop[45] = {
 		resource_type = 1,
 		name = "實踐增益（切換）++",
 		icon = "benefit_2_shijianq_1",
@@ -629,8 +700,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 45,
 		resource_num = 400
-	},
-	{
+	}
+	pg.base.child2_shop[46] = {
 		resource_type = 1,
 		name = "體能增益（切換）",
 		icon = "benefit_2_tinengq_1",
@@ -643,8 +714,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 46,
 		resource_num = 120
-	},
-	{
+	}
+	pg.base.child2_shop[47] = {
 		resource_type = 1,
 		name = "體能增益（切換）+",
 		icon = "benefit_2_tinengq_1",
@@ -657,8 +728,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 47,
 		resource_num = 240
-	},
-	{
+	}
+	pg.base.child2_shop[48] = {
 		resource_type = 1,
 		name = "體能增益（切換）++",
 		icon = "benefit_2_tinengq_1",
@@ -671,8 +742,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 48,
 		resource_num = 400
-	},
-	{
+	}
+	pg.base.child2_shop[49] = {
 		resource_type = 1,
 		name = "感知增益（切換）",
 		icon = "benefit_2_ganzhiq_1",
@@ -685,8 +756,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 49,
 		resource_num = 120
-	},
-	{
+	}
+	pg.base.child2_shop[50] = {
 		resource_type = 1,
 		name = "感知增益（切換）+",
 		icon = "benefit_2_ganzhiq_1",
@@ -699,8 +770,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 50,
 		resource_num = 240
-	},
-	{
+	}
+	pg.base.child2_shop[51] = {
 		resource_type = 1,
 		name = "感知增益（切換）++",
 		icon = "benefit_2_ganzhiq_1",
@@ -713,8 +784,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 51,
 		resource_num = 400
-	},
-	{
+	}
+	pg.base.child2_shop[52] = {
 		resource_type = 1,
 		name = "知識增益（切換）",
 		icon = "benefit_2_zhishiq_1",
@@ -727,8 +798,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 52,
 		resource_num = 120
-	},
-	{
+	}
+	pg.base.child2_shop[53] = {
 		resource_type = 1,
 		name = "知識增益（切換）+",
 		icon = "benefit_2_zhishiq_1",
@@ -741,8 +812,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 53,
 		resource_num = 240
-	},
-	{
+	}
+	pg.base.child2_shop[54] = {
 		resource_type = 1,
 		name = "知識增益（切換）++",
 		icon = "benefit_2_zhishiq_1",
@@ -755,8 +826,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 54,
 		resource_num = 400
-	},
-	{
+	}
+	pg.base.child2_shop[55] = {
 		resource_type = 1,
 		name = "特殊行程格·一",
 		icon = "benefit_2_xingcheng1_1",
@@ -769,8 +840,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 55,
 		resource_num = 50
-	},
-	{
+	}
+	pg.base.child2_shop[56] = {
 		resource_type = 1,
 		name = "特殊行程格·一+",
 		icon = "benefit_2_xingcheng1_2",
@@ -783,8 +854,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 56,
 		resource_num = 180
-	},
-	{
+	}
+	pg.base.child2_shop[57] = {
 		resource_type = 1,
 		name = "特殊行程格·一++",
 		icon = "benefit_2_xingcheng1_3",
@@ -797,8 +868,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 57,
 		resource_num = 200
-	},
-	{
+	}
+	pg.base.child2_shop[58] = {
 		resource_type = 1,
 		name = "奇數行程格增益",
 		icon = "benefit_2_xingchengji_1",
@@ -811,8 +882,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 58,
 		resource_num = 50
-	},
-	{
+	}
+	pg.base.child2_shop[59] = {
 		resource_type = 1,
 		name = "奇數行程格增益+",
 		icon = "benefit_2_xingchengji_2",
@@ -825,8 +896,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 59,
 		resource_num = 180
-	},
-	{
+	}
+	pg.base.child2_shop[60] = {
 		resource_type = 1,
 		name = "奇數行程格增益++",
 		icon = "benefit_2_xingchengji_3",
@@ -839,8 +910,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 60,
 		resource_num = 200
-	},
-	{
+	}
+	pg.base.child2_shop[61] = {
 		resource_type = 1,
 		name = "偶數行程格增益",
 		icon = "benefit_2_xingchengou_1",
@@ -853,8 +924,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 61,
 		resource_num = 50
-	},
-	{
+	}
+	pg.base.child2_shop[62] = {
 		resource_type = 1,
 		name = "偶數行程格增益+",
 		icon = "benefit_2_xingchengou_2",
@@ -867,8 +938,8 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 62,
 		resource_num = 180
-	},
-	{
+	}
+	pg.base.child2_shop[63] = {
 		resource_type = 1,
 		name = "偶數行程格增益++",
 		icon = "benefit_2_xingchengou_3",
@@ -881,70 +952,5 @@ pg.child2_shop = {
 		goods_type = 1,
 		id = 63,
 		resource_num = 200
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		39,
-		40,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46,
-		47,
-		48,
-		49,
-		50,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56,
-		57,
-		58,
-		59,
-		60,
-		61,
-		62,
-		63
 	}
-}
+end)()

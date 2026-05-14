@@ -9,7 +9,7 @@ end
 slot0.ReCalcValue = function(slot0)
 	slot0.value = slot0.config[slot0.level][slot0.attrName] * slot0.multiple
 	slot0.nextValue = slot0.config[slot0.nextLevel][slot0.attrName] * slot0.multiple
-	slot0.maxValue = slot0.config[#slot0.config][slot0.attrName] * slot0.multiple
+	slot0.maxValue = slot0.config[#slot0.config.all][slot0.attrName] * slot0.multiple
 	slot0.addition = slot0.nextValue - slot0.value
 end
 

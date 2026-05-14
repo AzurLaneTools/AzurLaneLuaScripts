@@ -1,6 +1,82 @@
 pg = pg or {}
-pg.island_skin_template = {
-	[1011001] = {
+pg.island_skin_template = rawget(pg, "island_skin_template") or setmetatable({
+	__name = "island_skin_template"
+}, confNEO)
+pg.island_skin_template.all = {
+	1011001,
+	1020501,
+	1051701,
+	1070301,
+	2060301,
+	2990301,
+	3031201,
+	3040701,
+	3120101,
+	4030301,
+	4990201,
+	5060101,
+	99000201,
+	99000202,
+	99000101,
+	99000102,
+	99000301,
+	99000302
+}
+pg.island_skin_template.get_id_list_by_ship_group = {
+	[10110] = {
+		1011001
+	},
+	[10205] = {
+		1020501
+	},
+	[10517] = {
+		1051701
+	},
+	[10703] = {
+		1070301
+	},
+	[20603] = {
+		2060301
+	},
+	[29903] = {
+		2990301
+	},
+	[30312] = {
+		3031201
+	},
+	[30407] = {
+		3040701
+	},
+	[31201] = {
+		3120101
+	},
+	[40303] = {
+		4030301
+	},
+	[49902] = {
+		4990201
+	},
+	[50601] = {
+		5060101
+	},
+	[990001] = {
+		99000101,
+		99000102
+	},
+	[990002] = {
+		99000201,
+		99000202
+	},
+	[990003] = {
+		99000301,
+		99000302
+	}
+}
+pg.base = pg.base or {}
+pg.base.island_skin_template = {}
+
+(function ()
+	pg.base.island_skin_template[1011001] = {
 		ship_group = 10110,
 		name = "元气满载！",
 		jump_page = "",
@@ -12,8 +88,8 @@ pg.island_skin_template = {
 		id = 1011001,
 		icon = "skin_1011001",
 		icon_normal = ""
-	},
-	[1020501] = {
+	}
+	pg.base.island_skin_template[1020501] = {
 		ship_group = 10205,
 		name = "湛蓝之心",
 		jump_page = "",
@@ -25,8 +101,8 @@ pg.island_skin_template = {
 		id = 1020501,
 		icon = "skin_1020501",
 		icon_normal = ""
-	},
-	[1051701] = {
+	}
+	pg.base.island_skin_template[1051701] = {
 		ship_group = 10517,
 		name = "轻跃日常",
 		tech_id = 0,
@@ -38,8 +114,8 @@ pg.island_skin_template = {
 		icon = "skin_1051701",
 		icon_normal = "props/skin_1051701",
 		jump_page = {}
-	},
-	[1070301] = {
+	}
+	pg.base.island_skin_template[1070301] = {
 		ship_group = 10703,
 		name = "纯真游学日",
 		tech_id = 0,
@@ -51,8 +127,8 @@ pg.island_skin_template = {
 		icon = "skin_1070301",
 		icon_normal = "props/skin_1070301",
 		jump_page = {}
-	},
-	[2060301] = {
+	}
+	pg.base.island_skin_template[2060301] = {
 		ship_group = 20603,
 		name = "憧憬的星光",
 		tech_id = 0,
@@ -64,8 +140,8 @@ pg.island_skin_template = {
 		icon = "skin_2060301",
 		icon_normal = "props/skin_2060301",
 		jump_page = {}
-	},
-	[2990301] = {
+	}
+	pg.base.island_skin_template[2990301] = {
 		ship_group = 29903,
 		name = "海盐萌趣",
 		tech_id = 0,
@@ -77,8 +153,8 @@ pg.island_skin_template = {
 		icon = "skin_2990301",
 		icon_normal = "props/skin_2990301",
 		jump_page = {}
-	},
-	[3031201] = {
+	}
+	pg.base.island_skin_template[3031201] = {
 		ship_group = 30312,
 		name = "蜜语奉茶",
 		jump_page = "",
@@ -90,8 +166,8 @@ pg.island_skin_template = {
 		id = 3031201,
 		icon = "skin_3031201",
 		icon_normal = ""
-	},
-	[3040701] = {
+	}
+	pg.base.island_skin_template[3040701] = {
 		ship_group = 30407,
 		name = "雏日甜谣 ",
 		tech_id = 0,
@@ -103,8 +179,8 @@ pg.island_skin_template = {
 		icon = "skin_3040701",
 		icon_normal = "props/skin_3040701",
 		jump_page = {}
-	},
-	[3120101] = {
+	}
+	pg.base.island_skin_template[3120101] = {
 		ship_group = 31201,
 		name = "空铃夜褶",
 		tech_id = 0,
@@ -116,8 +192,8 @@ pg.island_skin_template = {
 		icon = "skin_3120101",
 		icon_normal = "props/skin_3120101",
 		jump_page = {}
-	},
-	[4030301] = {
+	}
+	pg.base.island_skin_template[4030301] = {
 		ship_group = 40303,
 		name = "慵懒献纳",
 		jump_page = "",
@@ -129,8 +205,8 @@ pg.island_skin_template = {
 		id = 4030301,
 		icon = "skin_4030301",
 		icon_normal = ""
-	},
-	[4990201] = {
+	}
+	pg.base.island_skin_template[4990201] = {
 		ship_group = 49902,
 		name = "优雅侍奉",
 		jump_page = "",
@@ -142,8 +218,8 @@ pg.island_skin_template = {
 		id = 4990201,
 		icon = "skin_4990201",
 		icon_normal = ""
-	},
-	[5060101] = {
+	}
+	pg.base.island_skin_template[5060101] = {
 		ship_group = 50601,
 		name = "运筹之暇",
 		jump_page = "",
@@ -155,8 +231,8 @@ pg.island_skin_template = {
 		id = 5060101,
 		icon = "skin_5060101",
 		icon_normal = ""
-	},
-	[99000201] = {
+	}
+	pg.base.island_skin_template[99000201] = {
 		ship_group = 990002,
 		name = "懵懂时光",
 		jump_page = "",
@@ -168,8 +244,8 @@ pg.island_skin_template = {
 		id = 99000201,
 		icon = "skin_99000201",
 		icon_normal = ""
-	},
-	[99000202] = {
+	}
+	pg.base.island_skin_template[99000202] = {
 		ship_group = 990002,
 		name = "见习观察员",
 		jump_page = "",
@@ -181,8 +257,8 @@ pg.island_skin_template = {
 		id = 99000202,
 		icon = "skin_99000202",
 		icon_normal = ""
-	},
-	[99000101] = {
+	}
+	pg.base.island_skin_template[99000101] = {
 		ship_group = 990001,
 		name = "元气上学路",
 		jump_page = "",
@@ -194,8 +270,8 @@ pg.island_skin_template = {
 		id = 99000101,
 		icon = "skin_99000101",
 		icon_normal = ""
-	},
-	[99000102] = {
+	}
+	pg.base.island_skin_template[99000102] = {
 		ship_group = 990001,
 		name = "优等生气场",
 		jump_page = "",
@@ -207,8 +283,8 @@ pg.island_skin_template = {
 		id = 99000102,
 		icon = "skin_99000102",
 		icon_normal = ""
-	},
-	[99000301] = {
+	}
+	pg.base.island_skin_template[99000301] = {
 		ship_group = 990003,
 		name = "纯白低语",
 		jump_page = "",
@@ -220,8 +296,8 @@ pg.island_skin_template = {
 		id = 99000301,
 		icon = "skin_99000301",
 		icon_normal = ""
-	},
-	[99000302] = {
+	}
+	pg.base.island_skin_template[99000302] = {
 		ship_group = 990003,
 		name = "沉静礼装",
 		jump_page = "",
@@ -233,75 +309,5 @@ pg.island_skin_template = {
 		id = 99000302,
 		icon = "skin_99000302",
 		icon_normal = ""
-	},
-	get_id_list_by_ship_group = {
-		[10110] = {
-			1011001
-		},
-		[10205] = {
-			1020501
-		},
-		[10517] = {
-			1051701
-		},
-		[10703] = {
-			1070301
-		},
-		[20603] = {
-			2060301
-		},
-		[29903] = {
-			2990301
-		},
-		[30312] = {
-			3031201
-		},
-		[30407] = {
-			3040701
-		},
-		[31201] = {
-			3120101
-		},
-		[40303] = {
-			4030301
-		},
-		[49902] = {
-			4990201
-		},
-		[50601] = {
-			5060101
-		},
-		[990002] = {
-			99000201,
-			99000202
-		},
-		[990001] = {
-			99000101,
-			99000102
-		},
-		[990003] = {
-			99000301,
-			99000302
-		}
-	},
-	all = {
-		1011001,
-		1020501,
-		1051701,
-		1070301,
-		2060301,
-		2990301,
-		3031201,
-		3040701,
-		3120101,
-		4030301,
-		4990201,
-		5060101,
-		99000201,
-		99000202,
-		99000101,
-		99000102,
-		99000301,
-		99000302
 	}
-}
+end)()

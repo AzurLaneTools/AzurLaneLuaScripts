@@ -1,6 +1,16 @@
 pg = pg or {}
-pg.activity_event_chapter_award = {
-	[368] = {
+pg.activity_event_chapter_award = rawget(pg, "activity_event_chapter_award") or setmetatable({
+	__name = "activity_event_chapter_award"
+}, confNEO)
+pg.activity_event_chapter_award.all = {
+	368,
+	40009
+}
+pg.base = pg.base or {}
+pg.base.activity_event_chapter_award = {}
+
+(function ()
+	pg.base.activity_event_chapter_award[368] = {
 		id = 368,
 		lv = 1,
 		chapter = {
@@ -163,8 +173,8 @@ pg.activity_event_chapter_award = {
 				}
 			}
 		}
-	},
-	[40009] = {
+	}
+	pg.base.activity_event_chapter_award[40009] = {
 		id = 40009,
 		lv = 1,
 		chapter = {
@@ -327,9 +337,5 @@ pg.activity_event_chapter_award = {
 				}
 			}
 		}
-	},
-	all = {
-		368,
-		40009
 	}
-}
+end)()

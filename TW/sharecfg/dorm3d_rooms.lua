@@ -1,6 +1,38 @@
 pg = pg or {}
-pg.dorm3d_rooms = {
-	{
+pg.dorm3d_rooms = rawget(pg, "dorm3d_rooms") or setmetatable({
+	__name = "dorm3d_rooms"
+}, confNEO)
+pg.dorm3d_rooms.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	11,
+	12,
+	14,
+	16
+}
+pg.dorm3d_rooms.get_id_list_by_in_map = {
+	floor_1 = {
+		1,
+		2,
+		3,
+		4,
+		5
+	},
+	floor_2 = {
+		11,
+		12,
+		14,
+		16
+	}
+}
+pg.base = pg.base or {}
+pg.base.dorm3d_rooms = {}
+
+(function ()
+	pg.base.dorm3d_rooms[1] = {
 		assets_prefix = "Tianlangxing",
 		resource_name = "Tianlangxing_DB",
 		type = 2,
@@ -79,8 +111,8 @@ pg.dorm3d_rooms = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_rooms[2] = {
 		assets_prefix = "Nengdai",
 		resource_name = "Nengdai_DB",
 		type = 2,
@@ -160,8 +192,8 @@ pg.dorm3d_rooms = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_rooms[3] = {
 		assets_prefix = "Ankeleiqi",
 		resource_name = "Ankeleiqi_DB",
 		type = 2,
@@ -231,8 +263,8 @@ pg.dorm3d_rooms = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_rooms[4] = {
 		assets_prefix = "Beach",
 		resource_name = "Beach",
 		type = 1,
@@ -400,8 +432,8 @@ pg.dorm3d_rooms = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.dorm3d_rooms[5] = {
 		furniture_zones = "",
 		assets_prefix = "Bathroom",
 		default_zone = "",
@@ -442,8 +474,8 @@ pg.dorm3d_rooms = {
 				1
 			}
 		}
-	},
-	[11] = {
+	}
+	pg.base.dorm3d_rooms[11] = {
 		assets_prefix = "Xinzexi",
 		resource_name = "Xinzexi_DB",
 		type = 2,
@@ -512,8 +544,8 @@ pg.dorm3d_rooms = {
 				}
 			}
 		}
-	},
-	[12] = {
+	}
+	pg.base.dorm3d_rooms[12] = {
 		assets_prefix = "Dafeng",
 		resource_name = "Dafeng_DB",
 		type = 2,
@@ -558,7 +590,8 @@ pg.dorm3d_rooms = {
 			121,
 			122,
 			123,
-			124
+			124,
+			125
 		},
 		ar_anim = {
 			{
@@ -586,8 +619,8 @@ pg.dorm3d_rooms = {
 				}
 			}
 		}
-	},
-	[14] = {
+	}
+	pg.base.dorm3d_rooms[14] = {
 		assets_prefix = "Aijier",
 		resource_name = "Aijier_DB",
 		type = 2,
@@ -656,8 +689,8 @@ pg.dorm3d_rooms = {
 				}
 			}
 		}
-	},
-	[16] = {
+	}
+	pg.base.dorm3d_rooms[16] = {
 		assets_prefix = "Publiccafe",
 		resource_name = "Publiccafe",
 		type = 1,
@@ -863,31 +896,5 @@ pg.dorm3d_rooms = {
 				}
 			}
 		}
-	},
-	get_id_list_by_in_map = {
-		floor_1 = {
-			1,
-			2,
-			3,
-			4,
-			5
-		},
-		floor_2 = {
-			11,
-			12,
-			14,
-			16
-		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		11,
-		12,
-		14,
-		16
 	}
-}
+end)()

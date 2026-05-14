@@ -293,19 +293,19 @@ return {
 		end
 	},
 	{
-		banner = "meta_entrance_970108",
+		banner = "meta_entrance_970109",
 		event = ActivityMediator.EVENT_GO_SCENE,
 		data = {
 			SCENE.METACHARACTER,
 			{
-				autoOpenShipConfigID = 970108
+				autoOpenShipConfigID = 970109
 			}
 		},
 		isShow = function ()
-			return getProxy(MetaCharacterProxy):getMetaProgressVOByID(970108) and slot1:isInAct()
+			return getProxy(MetaCharacterProxy):getMetaProgressVOByID(970109) and slot1:isInAct()
 		end,
 		isTip = function ()
-			if getProxy(MetaCharacterProxy):getMetaProgressVOByID(970108):isPassType() then
+			if getProxy(MetaCharacterProxy):getMetaProgressVOByID(970109):isPassType() then
 				return false
 			end
 

@@ -1,6 +1,42 @@
 pg = pg or {}
-pg.soundstory_template = {
-	{
+pg.soundstory_template = rawget(pg, "soundstory_template") or setmetatable({
+	__name = "soundstory_template"
+}, confNEO)
+pg.soundstory_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28
+}
+pg.base = pg.base or {}
+pg.base.soundstory_template = {}
+
+(function ()
+	pg.base.soundstory_template[1] = {
 		story_pic = "",
 		name = "悠然茶室",
 		story_resource_JP = "soundStory1_JP",
@@ -26,8 +62,8 @@ pg.soundstory_template = {
 			15,
 			3
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[2] = {
 		story_pic = "",
 		name = "碧海陽光",
 		story_resource_JP = "soundStory2_JP",
@@ -53,8 +89,8 @@ pg.soundstory_template = {
 			15,
 			3
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[3] = {
 		story_pic = "",
 		name = "枕邊心跳",
 		story_resource_JP = "soundStory3_JP",
@@ -80,8 +116,8 @@ pg.soundstory_template = {
 			15,
 			3
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[4] = {
 		story_pic = "",
 		name = "融化於舌尖的甜美",
 		story_resource_JP = "soundStory4_JP",
@@ -107,8 +143,8 @@ pg.soundstory_template = {
 			15,
 			3
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[5] = {
 		story_pic = "",
 		name = "至高的嘉獎",
 		story_resource_JP = "soundStory5_JP",
@@ -160,8 +196,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[6] = {
 		story_pic = "",
 		name = "匣中贈禮",
 		story_resource_JP = "soundStory6_JP",
@@ -213,8 +249,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[7] = {
 		story_pic = "",
 		name = "獨佔你的渴望",
 		story_resource_JP = "soundStory7_JP",
@@ -266,8 +302,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[8] = {
 		story_pic = "",
 		name = "心跳協奏",
 		story_resource_JP = "soundStory8_JP",
@@ -293,8 +329,8 @@ pg.soundstory_template = {
 			15,
 			3
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[9] = {
 		story_pic = "",
 		name = "微熱的廚房間",
 		story_resource_JP = "soundStory9_JP",
@@ -346,8 +382,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[10] = {
 		story_pic = "",
 		name = "少女的小小心思",
 		story_resource_JP = "soundStory10_JP",
@@ -399,8 +435,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[11] = {
 		story_pic = "",
 		name = "沉醉餘音",
 		story_resource_JP = "soundStory11_JP",
@@ -452,8 +488,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[12] = {
 		story_pic = "",
 		name = "藏匿在暗處的親密",
 		story_resource_JP = "soundStory12_JP",
@@ -505,8 +541,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[13] = {
 		story_pic = "",
 		name = "微醺之愛的夏夜邂逅",
 		story_resource_JP = "soundStory13_JP",
@@ -558,8 +594,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[14] = {
 		story_pic = "",
 		name = "受困於甜蜜陷阱",
 		story_resource_JP = "soundStory14_JP",
@@ -611,8 +647,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[15] = {
 		story_pic = "",
 		name = "雨霧迷濛",
 		story_resource_JP = "soundStory15_JP",
@@ -664,8 +700,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[16] = {
 		story_pic = "",
 		name = "床邊的瑪麗小姐",
 		story_resource_JP = "soundStory16_JP",
@@ -717,8 +753,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[17] = {
 		story_pic = "",
 		name = "拉近關係的秘訣",
 		story_resource_JP = "soundStory17_JP",
@@ -770,8 +806,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[18] = {
 		story_pic = "",
 		name = "聖夜的驚喜",
 		story_resource_JP = "soundStory18_JP",
@@ -823,8 +859,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[19] = {
 		story_pic = "",
 		name = "烏龍麵的製作方法？ ！",
 		story_resource_JP = "soundStory19_JP",
@@ -876,8 +912,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[20] = {
 		story_pic = "",
 		name = "和你的海灘約會",
 		story_resource_JP = "soundStory20_JP",
@@ -903,8 +939,8 @@ pg.soundstory_template = {
 			15,
 			3
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[21] = {
 		story_pic = "",
 		name = "禁忌的午夜告解室",
 		story_resource_JP = "soundStory21_JP",
@@ -930,8 +966,8 @@ pg.soundstory_template = {
 			15,
 			3
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[22] = {
 		story_pic = "",
 		name = "甜湯中的心意",
 		story_resource_JP = "soundStory22_JP",
@@ -983,8 +1019,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[23] = {
 		story_pic = "",
 		name = "桑拿房中的耐力訓練！……？",
 		story_resource_JP = "soundStory23_JP",
@@ -1036,8 +1072,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[24] = {
 		story_pic = "",
 		name = "保養「藏品」的方式",
 		story_resource_JP = "soundStory24_JP",
@@ -1089,8 +1125,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[25] = {
 		story_pic = "",
 		name = "下次也一起約會吧！",
 		story_resource_JP = "soundStory25_JP",
@@ -1142,8 +1178,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[26] = {
 		story_pic = "",
 		name = "「深海魔物」進食觀察",
 		story_resource_JP = "soundStory26_JP",
@@ -1195,8 +1231,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[27] = {
 		story_pic = "",
 		name = "令人著迷的休憩之處",
 		story_resource_JP = "soundStory27_JP",
@@ -1248,8 +1284,8 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.soundstory_template[28] = {
 		story_pic = "",
 		name = "溫柔的安眠時分",
 		story_resource_JP = "soundStory28_JP",
@@ -1301,35 +1337,5 @@ pg.soundstory_template = {
 				}
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28
 	}
-}
+end)()

@@ -1,6 +1,20 @@
 pg = pg or {}
-pg.technology_catchup_template = {
-	{
+pg.technology_catchup_template = rawget(pg, "technology_catchup_template") or setmetatable({
+	__name = "technology_catchup_template"
+}, confNEO)
+pg.technology_catchup_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6
+}
+pg.base = pg.base or {}
+pg.base.technology_catchup_template = {}
+
+(function ()
+	pg.base.technology_catchup_template[1] = {
 		obtain_max = 300,
 		obtain_max_per_ur = 0,
 		id = 1,
@@ -21,8 +35,8 @@ pg.technology_catchup_template = {
 			508
 		},
 		ur_char = {}
-	},
-	{
+	}
+	pg.base.technology_catchup_template[2] = {
 		obtain_max = 300,
 		obtain_max_per_ur = 150,
 		id = 2,
@@ -46,8 +60,8 @@ pg.technology_catchup_template = {
 			39904,
 			49902
 		}
-	},
-	{
+	}
+	pg.base.technology_catchup_template[3] = {
 		obtain_max = 300,
 		obtain_max_per_ur = 150,
 		id = 3,
@@ -68,8 +82,8 @@ pg.technology_catchup_template = {
 		ur_char = {
 			29904
 		}
-	},
-	{
+	}
+	pg.base.technology_catchup_template[4] = {
 		obtain_max = 300,
 		obtain_max_per_ur = 150,
 		id = 4,
@@ -91,8 +105,8 @@ pg.technology_catchup_template = {
 			39905,
 			49905
 		}
-	},
-	{
+	}
+	pg.base.technology_catchup_template[5] = {
 		obtain_max = 300,
 		obtain_max_per_ur = 150,
 		id = 5,
@@ -114,8 +128,8 @@ pg.technology_catchup_template = {
 			29905,
 			89903
 		}
-	},
-	{
+	}
+	pg.base.technology_catchup_template[6] = {
 		obtain_max = 300,
 		obtain_max_per_ur = 150,
 		id = 6,
@@ -137,13 +151,5 @@ pg.technology_catchup_template = {
 			19904,
 			49909
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6
 	}
-}
+end)()

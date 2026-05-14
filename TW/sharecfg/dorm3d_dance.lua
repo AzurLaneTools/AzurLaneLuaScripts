@@ -1,6 +1,18 @@
 pg = pg or {}
-pg.dorm3d_dance = {
-	[10517] = {
+pg.dorm3d_dance = rawget(pg, "dorm3d_dance") or setmetatable({
+	__name = "dorm3d_dance"
+}, confNEO)
+pg.dorm3d_dance.all = {
+	10517,
+	30707,
+	49905,
+	20220
+}
+pg.base = pg.base or {}
+pg.base.dorm3d_dance = {}
+
+(function ()
+	pg.base.dorm3d_dance[10517] = {
 		default_camera = "dance_camera1",
 		song_name = "迷亂奇遇",
 		director_name = "[sequence]",
@@ -34,8 +46,8 @@ pg.dorm3d_dance = {
 			"鏡頭2",
 			"鏡頭3"
 		}
-	},
-	[30707] = {
+	}
+	pg.base.dorm3d_dance[30707] = {
 		default_camera = "dance_camera1",
 		song_name = "今日之鳳_shade",
 		director_name = "[sequence]",
@@ -69,8 +81,8 @@ pg.dorm3d_dance = {
 			"鏡頭2",
 			"鏡頭3"
 		}
-	},
-	[49905] = {
+	}
+	pg.base.dorm3d_dance[49905] = {
 		default_camera = "dance_camera1",
 		song_name = "深淵的期待",
 		director_name = "[sequence]",
@@ -104,8 +116,8 @@ pg.dorm3d_dance = {
 			"鏡頭2",
 			"鏡頭3"
 		}
-	},
-	[20220] = {
+	}
+	pg.base.dorm3d_dance[20220] = {
 		default_camera = "dance_camera1",
 		song_name = "舞池旋律3",
 		director_name = "[sequence]",
@@ -139,11 +151,5 @@ pg.dorm3d_dance = {
 			"鏡頭2",
 			"鏡頭3"
 		}
-	},
-	all = {
-		10517,
-		30707,
-		49905,
-		20220
 	}
-}
+end)()

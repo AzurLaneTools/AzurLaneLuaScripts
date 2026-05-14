@@ -1,6 +1,48 @@
 pg = pg or {}
-pg.child2_ending = {
+pg.child2_ending = rawget(pg, "child2_ending") or setmetatable({
+	__name = "child2_ending"
+}, confNEO)
+pg.child2_ending.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15
+}
+pg.child2_ending.get_id_list_by_character = {
 	{
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		10,
+		11,
+		12,
+		13,
+		14,
+		15
+	}
+}
+pg.base = pg.base or {}
+pg.base.child2_ending = {}
+
+(function ()
+	pg.base.child2_ending[1] = {
 		pic_preview = "oceana_ending1",
 		name = "繼續升學",
 		character = 1,
@@ -21,8 +63,8 @@ pg.child2_ending = {
 				300041
 			}
 		}
-	},
-	{
+	}
+	pg.base.child2_ending[2] = {
 		pic_preview = "oceana_ending2",
 		name = "甜點能手",
 		character = 1,
@@ -50,8 +92,8 @@ pg.child2_ending = {
 				300002
 			}
 		}
-	},
-	{
+	}
+	pg.base.child2_ending[3] = {
 		pic_preview = "oceana_ending3",
 		name = "調酒師",
 		character = 1,
@@ -79,8 +121,8 @@ pg.child2_ending = {
 				300003
 			}
 		}
-	},
-	{
+	}
+	pg.base.child2_ending[4] = {
 		pic_preview = "oceana_ending4",
 		name = "自然攝影",
 		character = 1,
@@ -101,8 +143,8 @@ pg.child2_ending = {
 				300004
 			}
 		}
-	},
-	{
+	}
+	pg.base.child2_ending[5] = {
 		pic_preview = "oceana_ending5",
 		name = "爆破大師",
 		character = 1,
@@ -123,8 +165,8 @@ pg.child2_ending = {
 				300005
 			}
 		}
-	},
-	{
+	}
+	pg.base.child2_ending[6] = {
 		pic_preview = "oceana_ending6",
 		name = "心理諮商師",
 		character = 1,
@@ -152,8 +194,8 @@ pg.child2_ending = {
 				300023
 			}
 		}
-	},
-	{
+	}
+	pg.base.child2_ending[7] = {
 		pic_preview = "oceana_ending7",
 		name = "安全專家",
 		character = 1,
@@ -174,8 +216,8 @@ pg.child2_ending = {
 				300028
 			}
 		}
-	},
-	{
+	}
+	pg.base.child2_ending[8] = {
 		pic_preview = "oceana_ending8",
 		name = "露營指導",
 		character = 1,
@@ -203,8 +245,8 @@ pg.child2_ending = {
 				300024
 			}
 		}
-	},
-	{
+	}
+	pg.base.child2_ending[9] = {
 		pic_preview = "oceana_ending9",
 		name = "摩托車騎士",
 		character = 1,
@@ -232,8 +274,8 @@ pg.child2_ending = {
 				300022
 			}
 		}
-	},
-	{
+	}
+	pg.base.child2_ending[10] = {
 		pic_preview = "oceana_ending10",
 		name = "寵物醫生",
 		character = 1,
@@ -261,8 +303,8 @@ pg.child2_ending = {
 				300031
 			}
 		}
-	},
-	{
+	}
+	pg.base.child2_ending[11] = {
 		pic_preview = "oceana_ending11",
 		name = "搖滾歌手",
 		character = 1,
@@ -290,8 +332,8 @@ pg.child2_ending = {
 				300031
 			}
 		}
-	},
-	{
+	}
+	pg.base.child2_ending[12] = {
 		pic_preview = "oceana_ending12",
 		name = "閃耀明星",
 		character = 1,
@@ -319,8 +361,8 @@ pg.child2_ending = {
 				300031
 			}
 		}
-	},
-	{
+	}
+	pg.base.child2_ending[13] = {
 		pic_preview = "oceana_ending13",
 		name = "見習護士",
 		character = 1,
@@ -355,8 +397,8 @@ pg.child2_ending = {
 				300003
 			}
 		}
-	},
-	{
+	}
+	pg.base.child2_ending[14] = {
 		pic_preview = "oceana_ending14",
 		name = "動物園園長",
 		character = 1,
@@ -384,8 +426,8 @@ pg.child2_ending = {
 				300032
 			}
 		}
-	},
-	{
+	}
+	pg.base.child2_ending[15] = {
 		pic_preview = "oceana_ending15",
 		name = "修理達人",
 		character = 1,
@@ -413,41 +455,5 @@ pg.child2_ending = {
 				300032
 			}
 		}
-	},
-	get_id_list_by_character = {
-		{
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15
-		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15
 	}
-}
+end)()

@@ -1,6 +1,96 @@
 pg = pg or {}
-pg.child_item = {
-	{
+pg.child_item = rawget(pg, "child_item") or setmetatable({
+	__name = "child_item"
+}, confNEO)
+pg.child_item.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	47,
+	51,
+	52,
+	53,
+	54,
+	55,
+	56,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	110,
+	121,
+	131,
+	132,
+	134,
+	135,
+	151,
+	161,
+	162,
+	163,
+	164,
+	165,
+	166,
+	167,
+	168,
+	201,
+	202,
+	203,
+	204,
+	205,
+	206,
+	207,
+	208,
+	209,
+	210,
+	211,
+	212,
+	213,
+	214,
+	215,
+	216,
+	217,
+	218,
+	301,
+	302
+}
+pg.base = pg.base or {}
+pg.base.child_item = {}
+
+(function ()
+	pg.base.child_item[1] = {
 		name = "啾啾奶茶",
 		rarity = 2,
 		type = 4,
@@ -17,8 +107,8 @@ pg.child_item = {
 				2
 			}
 		}
-	},
-	{
+	}
+	pg.base.child_item[2] = {
 		name = "草莓牛奶",
 		rarity = 1,
 		type = 4,
@@ -35,8 +125,8 @@ pg.child_item = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.child_item[3] = {
 		name = "檸檬蜂蜜飲",
 		rarity = 2,
 		type = 4,
@@ -58,8 +148,8 @@ pg.child_item = {
 				10
 			}
 		}
-	},
-	{
+	}
+	pg.base.child_item[4] = {
 		name = "香蕉椰椰",
 		rarity = 2,
 		type = 4,
@@ -81,8 +171,8 @@ pg.child_item = {
 				10
 			}
 		}
-	},
-	{
+	}
+	pg.base.child_item[5] = {
 		name = "蜜瓜雙球",
 		rarity = 2,
 		type = 4,
@@ -104,8 +194,8 @@ pg.child_item = {
 				10
 			}
 		}
-	},
-	{
+	}
+	pg.base.child_item[6] = {
 		name = "雪頂奶昔",
 		rarity = 3,
 		type = 4,
@@ -122,8 +212,8 @@ pg.child_item = {
 				3
 			}
 		}
-	},
-	[11] = {
+	}
+	pg.base.child_item[11] = {
 		name = "蛋包飯",
 		rarity = 2,
 		type = 4,
@@ -145,8 +235,8 @@ pg.child_item = {
 				10
 			}
 		}
-	},
-	[12] = {
+	}
+	pg.base.child_item[12] = {
 		name = "酥皮濃湯",
 		rarity = 3,
 		type = 4,
@@ -163,8 +253,8 @@ pg.child_item = {
 				1
 			}
 		}
-	},
-	[13] = {
+	}
+	pg.base.child_item[13] = {
 		name = "馬卡龍",
 		rarity = 3,
 		type = 4,
@@ -181,8 +271,8 @@ pg.child_item = {
 				1
 			}
 		}
-	},
-	[14] = {
+	}
+	pg.base.child_item[14] = {
 		name = "西瓜奶油披薩",
 		rarity = 3,
 		type = 4,
@@ -199,8 +289,8 @@ pg.child_item = {
 				1
 			}
 		}
-	},
-	[15] = {
+	}
+	pg.base.child_item[15] = {
 		name = "香蕉可麗餅",
 		rarity = 4,
 		type = 4,
@@ -217,8 +307,8 @@ pg.child_item = {
 				2
 			}
 		}
-	},
-	[16] = {
+	}
+	pg.base.child_item[16] = {
 		name = "肉排三明治",
 		rarity = 4,
 		type = 4,
@@ -235,8 +325,8 @@ pg.child_item = {
 				2
 			}
 		}
-	},
-	[17] = {
+	}
+	pg.base.child_item[17] = {
 		name = "羅勒燉肉",
 		rarity = 4,
 		type = 4,
@@ -253,8 +343,8 @@ pg.child_item = {
 				2
 			}
 		}
-	},
-	[21] = {
+	}
+	pg.base.child_item[21] = {
 		name = "初學者釣竿",
 		rarity = 2,
 		type = 3,
@@ -276,8 +366,8 @@ pg.child_item = {
 				5
 			}
 		}
-	},
-	[22] = {
+	}
+	pg.base.child_item[22] = {
 		name = "鐵斧頭",
 		rarity = 2,
 		type = 3,
@@ -294,8 +384,8 @@ pg.child_item = {
 				15
 			}
 		}
-	},
-	[23] = {
+	}
+	pg.base.child_item[23] = {
 		name = "進階者釣竿",
 		rarity = 3,
 		type = 3,
@@ -317,8 +407,8 @@ pg.child_item = {
 				10
 			}
 		}
-	},
-	[24] = {
+	}
+	pg.base.child_item[24] = {
 		name = "銀斧頭",
 		rarity = 3,
 		type = 3,
@@ -335,8 +425,8 @@ pg.child_item = {
 				30
 			}
 		}
-	},
-	[25] = {
+	}
+	pg.base.child_item[25] = {
 		name = "大師級釣竿",
 		rarity = 4,
 		type = 3,
@@ -353,8 +443,8 @@ pg.child_item = {
 				5
 			}
 		}
-	},
-	[26] = {
+	}
+	pg.base.child_item[26] = {
 		name = "金斧頭",
 		rarity = 4,
 		type = 3,
@@ -371,8 +461,8 @@ pg.child_item = {
 				5
 			}
 		}
-	},
-	[31] = {
+	}
+	pg.base.child_item[31] = {
 		name = "《從零開始的皇家女僕生活》",
 		rarity = 1,
 		type = 1,
@@ -394,8 +484,8 @@ pg.child_item = {
 				5
 			}
 		}
-	},
-	[32] = {
+	}
+	pg.base.child_item[32] = {
 		name = "《十五行詩》",
 		rarity = 1,
 		type = 1,
@@ -417,8 +507,8 @@ pg.child_item = {
 				5
 			}
 		}
-	},
-	[33] = {
+	}
+	pg.base.child_item[33] = {
 		name = "《艦裝養護指南》",
 		rarity = 1,
 		type = 1,
@@ -440,8 +530,8 @@ pg.child_item = {
 				5
 			}
 		}
-	},
-	[34] = {
+	}
+	pg.base.child_item[34] = {
 		name = "《如何擄獲指揮官的心？》",
 		rarity = 2,
 		type = 1,
@@ -458,8 +548,8 @@ pg.child_item = {
 				30
 			}
 		}
-	},
-	[35] = {
+	}
+	pg.base.child_item[35] = {
 		name = "《天才創造指北！》",
 		rarity = 2,
 		type = 1,
@@ -476,8 +566,8 @@ pg.child_item = {
 				30
 			}
 		}
-	},
-	[36] = {
+	}
+	pg.base.child_item[36] = {
 		name = "《心動假期旅遊指南》",
 		rarity = 2,
 		type = 1,
@@ -494,8 +584,8 @@ pg.child_item = {
 				30
 			}
 		}
-	},
-	[41] = {
+	}
+	pg.base.child_item[41] = {
 		name = "唱片",
 		rarity = 3,
 		type = 2,
@@ -512,8 +602,8 @@ pg.child_item = {
 				3
 			}
 		}
-	},
-	[42] = {
+	}
+	pg.base.child_item[42] = {
 		name = "麥克風",
 		rarity = 3,
 		type = 2,
@@ -530,8 +620,8 @@ pg.child_item = {
 				3
 			}
 		}
-	},
-	[43] = {
+	}
+	pg.base.child_item[43] = {
 		name = "單簧管",
 		rarity = 3,
 		type = 2,
@@ -553,8 +643,8 @@ pg.child_item = {
 				2
 			}
 		}
-	},
-	[44] = {
+	}
+	pg.base.child_item[44] = {
 		name = "豎琴",
 		rarity = 4,
 		type = 2,
@@ -571,8 +661,8 @@ pg.child_item = {
 				5
 			}
 		}
-	},
-	[45] = {
+	}
+	pg.base.child_item[45] = {
 		name = "小提琴",
 		rarity = 4,
 		type = 2,
@@ -594,8 +684,8 @@ pg.child_item = {
 				5
 			}
 		}
-	},
-	[46] = {
+	}
+	pg.base.child_item[46] = {
 		name = "鋼琴",
 		rarity = 4,
 		type = 2,
@@ -612,8 +702,8 @@ pg.child_item = {
 				5
 			}
 		}
-	},
-	[47] = {
+	}
+	pg.base.child_item[47] = {
 		name = "小號",
 		rarity = 4,
 		type = 2,
@@ -635,8 +725,8 @@ pg.child_item = {
 				2
 			}
 		}
-	},
-	[51] = {
+	}
+	pg.base.child_item[51] = {
 		name = "白珍珠",
 		rarity = 3,
 		type = 4,
@@ -653,8 +743,8 @@ pg.child_item = {
 				2
 			}
 		}
-	},
-	[52] = {
+	}
+	pg.base.child_item[52] = {
 		name = "貝殼擺飾",
 		rarity = 4,
 		type = 4,
@@ -671,8 +761,8 @@ pg.child_item = {
 				5
 			}
 		}
-	},
-	[53] = {
+	}
+	pg.base.child_item[53] = {
 		name = "章魚玩偶",
 		rarity = 3,
 		type = 4,
@@ -689,8 +779,8 @@ pg.child_item = {
 				2
 			}
 		}
-	},
-	[54] = {
+	}
+	pg.base.child_item[54] = {
 		name = "許願瓶",
 		rarity = 4,
 		type = 4,
@@ -707,8 +797,8 @@ pg.child_item = {
 				5
 			}
 		}
-	},
-	[55] = {
+	}
+	pg.base.child_item[55] = {
 		name = "神奇海螺",
 		rarity = 3,
 		type = 4,
@@ -730,8 +820,8 @@ pg.child_item = {
 				1
 			}
 		}
-	},
-	[56] = {
+	}
+	pg.base.child_item[56] = {
 		name = "椰子",
 		rarity = 3,
 		type = 4,
@@ -753,8 +843,8 @@ pg.child_item = {
 				1
 			}
 		}
-	},
-	[101] = {
+	}
+	pg.base.child_item[101] = {
 		name = "白灼生菜",
 		rarity = 2,
 		type = 4,
@@ -771,8 +861,8 @@ pg.child_item = {
 				20
 			}
 		}
-	},
-	[102] = {
+	}
+	pg.base.child_item[102] = {
 		name = "蜜汁豬排",
 		rarity = 2,
 		type = 4,
@@ -789,8 +879,8 @@ pg.child_item = {
 				20
 			}
 		}
-	},
-	[103] = {
+	}
+	pg.base.child_item[103] = {
 		name = "酥皮濃湯",
 		rarity = 2,
 		type = 4,
@@ -807,8 +897,8 @@ pg.child_item = {
 				20
 			}
 		}
-	},
-	[104] = {
+	}
+	pg.base.child_item[104] = {
 		name = "餃子拼盤",
 		rarity = 2,
 		type = 4,
@@ -825,8 +915,8 @@ pg.child_item = {
 				20
 			}
 		}
-	},
-	[105] = {
+	}
+	pg.base.child_item[105] = {
 		name = "麻婆豆腐",
 		rarity = 3,
 		type = 4,
@@ -843,8 +933,8 @@ pg.child_item = {
 				1
 			}
 		}
-	},
-	[106] = {
+	}
+	pg.base.child_item[106] = {
 		name = "香蕉可麗餅",
 		rarity = 3,
 		type = 4,
@@ -861,8 +951,8 @@ pg.child_item = {
 				1
 			}
 		}
-	},
-	[107] = {
+	}
+	pg.base.child_item[107] = {
 		name = "雜煮鍋",
 		rarity = 3,
 		type = 4,
@@ -879,8 +969,8 @@ pg.child_item = {
 				1
 			}
 		}
-	},
-	[108] = {
+	}
+	pg.base.child_item[108] = {
 		name = "迷迭香羊排",
 		rarity = 3,
 		type = 4,
@@ -897,8 +987,8 @@ pg.child_item = {
 				1
 			}
 		}
-	},
-	[109] = {
+	}
+	pg.base.child_item[109] = {
 		name = "肉排三明治",
 		rarity = 3,
 		type = 4,
@@ -915,8 +1005,8 @@ pg.child_item = {
 				1
 			}
 		}
-	},
-	[110] = {
+	}
+	pg.base.child_item[110] = {
 		name = "神秘料理",
 		rarity = 3,
 		type = 4,
@@ -933,8 +1023,8 @@ pg.child_item = {
 				1
 			}
 		}
-	},
-	[121] = {
+	}
+	pg.base.child_item[121] = {
 		name = "畫作",
 		rarity = 3,
 		type = 4,
@@ -951,8 +1041,8 @@ pg.child_item = {
 				20
 			}
 		}
-	},
-	[131] = {
+	}
+	pg.base.child_item[131] = {
 		name = "小河蝦",
 		rarity = 2,
 		type = 4,
@@ -969,8 +1059,8 @@ pg.child_item = {
 				10
 			}
 		}
-	},
-	[132] = {
+	}
+	pg.base.child_item[132] = {
 		name = "小魚",
 		rarity = 2,
 		type = 4,
@@ -987,8 +1077,8 @@ pg.child_item = {
 				10
 			}
 		}
-	},
-	[134] = {
+	}
+	pg.base.child_item[134] = {
 		name = "大魚",
 		rarity = 2,
 		type = 4,
@@ -1005,8 +1095,8 @@ pg.child_item = {
 				10
 			}
 		}
-	},
-	[135] = {
+	}
+	pg.base.child_item[135] = {
 		name = "龍蝦",
 		rarity = 2,
 		type = 4,
@@ -1023,8 +1113,8 @@ pg.child_item = {
 				10
 			}
 		}
-	},
-	[151] = {
+	}
+	pg.base.child_item[151] = {
 		name = "寫真",
 		rarity = 2,
 		type = 4,
@@ -1041,8 +1131,8 @@ pg.child_item = {
 				20
 			}
 		}
-	},
-	[161] = {
+	}
+	pg.base.child_item[161] = {
 		name = "紀念獎章-文學大獎賽",
 		rarity = 4,
 		type = 4,
@@ -1053,8 +1143,8 @@ pg.child_item = {
 		id = 161,
 		icon = "161",
 		display = {}
-	},
-	[162] = {
+	}
+	pg.base.child_item[162] = {
 		name = "紀念獎章-攝影比賽",
 		rarity = 4,
 		type = 4,
@@ -1065,8 +1155,8 @@ pg.child_item = {
 		id = 162,
 		icon = "162",
 		display = {}
-	},
-	[163] = {
+	}
+	pg.base.child_item[163] = {
 		name = "紀念獎章-運動比賽",
 		rarity = 4,
 		type = 4,
@@ -1077,8 +1167,8 @@ pg.child_item = {
 		id = 163,
 		icon = "163",
 		display = {}
-	},
-	[164] = {
+	}
+	pg.base.child_item[164] = {
 		name = "紀念獎章-繪畫大獎賽",
 		rarity = 4,
 		type = 4,
@@ -1089,8 +1179,8 @@ pg.child_item = {
 		id = 164,
 		icon = "164",
 		display = {}
-	},
-	[165] = {
+	}
+	pg.base.child_item[165] = {
 		name = "紀念獎章-廚神大賽",
 		rarity = 4,
 		type = 4,
@@ -1101,8 +1191,8 @@ pg.child_item = {
 		id = 165,
 		icon = "165",
 		display = {}
-	},
-	[166] = {
+	}
+	pg.base.child_item[166] = {
 		name = "紀念獎章-釣魚達人賽",
 		rarity = 4,
 		type = 4,
@@ -1113,8 +1203,8 @@ pg.child_item = {
 		id = 166,
 		icon = "166",
 		display = {}
-	},
-	[167] = {
+	}
+	pg.base.child_item[167] = {
 		name = "紀念獎章-歌手之聲大獎賽",
 		rarity = 4,
 		type = 4,
@@ -1125,8 +1215,8 @@ pg.child_item = {
 		id = 167,
 		icon = "167",
 		display = {}
-	},
-	[168] = {
+	}
+	pg.base.child_item[168] = {
 		name = "紀念獎章-明日之星大賽",
 		rarity = 4,
 		type = 4,
@@ -1137,8 +1227,8 @@ pg.child_item = {
 		id = 168,
 		icon = "168",
 		display = {}
-	},
-	[201] = {
+	}
+	pg.base.child_item[201] = {
 		name = "成長目標完成紀念·Ⅰ",
 		rarity = 3,
 		type = 4,
@@ -1165,8 +1255,8 @@ pg.child_item = {
 				10
 			}
 		}
-	},
-	[202] = {
+	}
+	pg.base.child_item[202] = {
 		name = "成長目標完成紀念·Ⅰ",
 		rarity = 3,
 		type = 4,
@@ -1193,8 +1283,8 @@ pg.child_item = {
 				10
 			}
 		}
-	},
-	[203] = {
+	}
+	pg.base.child_item[203] = {
 		name = "成長目標完成紀念·Ⅰ",
 		rarity = 3,
 		type = 4,
@@ -1221,8 +1311,8 @@ pg.child_item = {
 				10
 			}
 		}
-	},
-	[204] = {
+	}
+	pg.base.child_item[204] = {
 		name = "成長目標完成紀念·Ⅰ",
 		rarity = 3,
 		type = 4,
@@ -1249,8 +1339,8 @@ pg.child_item = {
 				10
 			}
 		}
-	},
-	[205] = {
+	}
+	pg.base.child_item[205] = {
 		name = "成長目標完成紀念·Ⅱ",
 		rarity = 3,
 		type = 4,
@@ -1277,8 +1367,8 @@ pg.child_item = {
 				15
 			}
 		}
-	},
-	[206] = {
+	}
+	pg.base.child_item[206] = {
 		name = "成長目標完成紀念·Ⅱ",
 		rarity = 3,
 		type = 4,
@@ -1305,8 +1395,8 @@ pg.child_item = {
 				15
 			}
 		}
-	},
-	[207] = {
+	}
+	pg.base.child_item[207] = {
 		name = "成長目標完成紀念·Ⅱ",
 		rarity = 3,
 		type = 4,
@@ -1333,8 +1423,8 @@ pg.child_item = {
 				15
 			}
 		}
-	},
-	[208] = {
+	}
+	pg.base.child_item[208] = {
 		name = "成長目標完成紀念·Ⅱ",
 		rarity = 3,
 		type = 4,
@@ -1361,8 +1451,8 @@ pg.child_item = {
 				15
 			}
 		}
-	},
-	[209] = {
+	}
+	pg.base.child_item[209] = {
 		name = "成長目標完成紀念·Ⅲ",
 		rarity = 3,
 		type = 4,
@@ -1399,8 +1489,8 @@ pg.child_item = {
 				20
 			}
 		}
-	},
-	[210] = {
+	}
+	pg.base.child_item[210] = {
 		name = "成長目標完成紀念·Ⅲ",
 		rarity = 3,
 		type = 4,
@@ -1437,8 +1527,8 @@ pg.child_item = {
 				20
 			}
 		}
-	},
-	[211] = {
+	}
+	pg.base.child_item[211] = {
 		name = "成長目標完成紀念·Ⅲ",
 		rarity = 3,
 		type = 4,
@@ -1470,8 +1560,8 @@ pg.child_item = {
 				20
 			}
 		}
-	},
-	[212] = {
+	}
+	pg.base.child_item[212] = {
 		name = "成長目標完成紀念·Ⅲ",
 		rarity = 3,
 		type = 4,
@@ -1503,8 +1593,8 @@ pg.child_item = {
 				20
 			}
 		}
-	},
-	[213] = {
+	}
+	pg.base.child_item[213] = {
 		name = "成長目標完成紀念·Ⅳ",
 		rarity = 4,
 		type = 4,
@@ -1531,8 +1621,8 @@ pg.child_item = {
 				20
 			}
 		}
-	},
-	[214] = {
+	}
+	pg.base.child_item[214] = {
 		name = "成長目標完成紀念·Ⅳ",
 		rarity = 4,
 		type = 4,
@@ -1559,8 +1649,8 @@ pg.child_item = {
 				20
 			}
 		}
-	},
-	[215] = {
+	}
+	pg.base.child_item[215] = {
 		name = "成長目標完成紀念·Ⅳ",
 		rarity = 4,
 		type = 4,
@@ -1587,8 +1677,8 @@ pg.child_item = {
 				20
 			}
 		}
-	},
-	[216] = {
+	}
+	pg.base.child_item[216] = {
 		name = "成長目標完成紀念·Ⅳ",
 		rarity = 4,
 		type = 4,
@@ -1615,8 +1705,8 @@ pg.child_item = {
 				20
 			}
 		}
-	},
-	[217] = {
+	}
+	pg.base.child_item[217] = {
 		name = "成長目標完成紀念·Ⅳ",
 		rarity = 4,
 		type = 4,
@@ -1643,8 +1733,8 @@ pg.child_item = {
 				20
 			}
 		}
-	},
-	[218] = {
+	}
+	pg.base.child_item[218] = {
 		name = "成長目標完成紀念·Ⅳ",
 		rarity = 4,
 		type = 4,
@@ -1671,8 +1761,8 @@ pg.child_item = {
 				20
 			}
 		}
-	},
-	[301] = {
+	}
+	pg.base.child_item[301] = {
 		name = "主線目標獎章",
 		rarity = 1,
 		type = 4,
@@ -1704,8 +1794,8 @@ pg.child_item = {
 				1
 			}
 		}
-	},
-	[302] = {
+	}
+	pg.base.child_item[302] = {
 		name = "成長目標進度點數",
 		rarity = 1,
 		type = 4,
@@ -1716,89 +1806,5 @@ pg.child_item = {
 		id = 302,
 		icon = "10015",
 		display = {}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46,
-		47,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		110,
-		121,
-		131,
-		132,
-		134,
-		135,
-		151,
-		161,
-		162,
-		163,
-		164,
-		165,
-		166,
-		167,
-		168,
-		201,
-		202,
-		203,
-		204,
-		205,
-		206,
-		207,
-		208,
-		209,
-		210,
-		211,
-		212,
-		213,
-		214,
-		215,
-		216,
-		217,
-		218,
-		301,
-		302
 	}
-}
+end)()

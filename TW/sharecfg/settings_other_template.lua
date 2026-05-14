@@ -1,6 +1,38 @@
 pg = pg or {}
-pg.settings_other_template = {
-	{
+pg.settings_other_template = rawget(pg, "settings_other_template") or setmetatable({
+	__name = "settings_other_template"
+}, confNEO)
+pg.settings_other_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	24,
+	25
+}
+pg.base = pg.base or {}
+pg.base.settings_other_template = {}
+
+(function ()
+	pg.base.settings_other_template[1] = {
 		default = 0,
 		name = "",
 		alignment = 0,
@@ -8,8 +40,8 @@ pg.settings_other_template = {
 		id = 1,
 		title = "顯示自定義角色名稱",
 		desc = "功能開啟後，艦船顯示自定義角色名稱"
-	},
-	{
+	}
+	pg.base.settings_other_template[2] = {
 		default = 0,
 		name = "AUTO_BATTLE_LABEL",
 		alignment = 0,
@@ -17,8 +49,8 @@ pg.settings_other_template = {
 		id = 2,
 		title = "自律戰鬥結束時震動提醒",
 		desc = "功能開啟後，自律戰鬥結束時設備震動提示戰鬥結束"
-	},
-	{
+	}
+	pg.base.settings_other_template[3] = {
 		default = 1,
 		name = "RARE_SHIP_VIBRATE",
 		alignment = 0,
@@ -26,8 +58,8 @@ pg.settings_other_template = {
 		id = 3,
 		title = "獲得角色震動",
 		desc = "功能開啟後，獲得超稀有及以上稀有度的艦船時設備震動提示"
-	},
-	{
+	}
+	pg.base.settings_other_template[4] = {
 		default = 1,
 		name = "DISPLAY_SHIP_GET_EFFECT",
 		alignment = 0,
@@ -35,8 +67,8 @@ pg.settings_other_template = {
 		id = 4,
 		title = "重複角色獲得提示",
 		desc = "功能關閉後，重複獲得已擁有的稀有及以下稀有度的艦船時（僅限海域掉落）取消彈出艦船獲得介面"
-	},
-	{
+	}
+	pg.base.settings_other_template[5] = {
 		default = 1,
 		name = "SHOW_TOUCH_EFFECT",
 		alignment = 0,
@@ -44,8 +76,8 @@ pg.settings_other_template = {
 		id = 5,
 		title = "顯示觸控特效",
 		desc = "功能開啟後，點擊遊戲介面可顯示觸控特效"
-	},
-	{
+	}
+	pg.base.settings_other_template[6] = {
 		default = 0,
 		name = "BG_FIT_MODE",
 		alignment = 0,
@@ -53,8 +85,8 @@ pg.settings_other_template = {
 		id = 6,
 		title = "過場圖適應螢幕最小邊",
 		desc = "功能開啟後，過場圖片適應設備最小邊框，不顯示黑邊"
-	},
-	{
+	}
+	pg.base.settings_other_template[7] = {
 		default = 1,
 		name = "BATTLE_HIDE_BG",
 		alignment = 0,
@@ -62,8 +94,8 @@ pg.settings_other_template = {
 		id = 7,
 		title = "戰鬥默認隱藏局部背景",
 		desc = "功能開啟後，戰鬥中會默認隱藏換裝的局部背景"
-	},
-	{
+	}
+	pg.base.settings_other_template[8] = {
 		default = 0,
 		name = "BATTLE_EXPOSE_LINE",
 		alignment = 1,
@@ -87,8 +119,8 @@ pg.settings_other_template = {
 演習中，航母被偵測值不會自動降低
 演習中，增加暴露提示線，敵方角色進入暴露範圍內時，所有航母直接脫離【隱蔽】狀態
 ]]
-	},
-	{
+	}
+	pg.base.settings_other_template[9] = {
 		default = 0,
 		name = "AUTOFIGHT_BATTERY_SAVEMODE",
 		alignment = 0,
@@ -96,8 +128,8 @@ pg.settings_other_template = {
 		id = 9,
 		title = "自律尋敵夜間模式",
 		desc = "開啟後，會在自律尋敵開始的20秒後調低螢幕亮度，節省能耗"
-	},
-	{
+	}
+	pg.base.settings_other_template[10] = {
 		default = 0,
 		name = "AUTOFIGHT_DOWN_FRAME",
 		alignment = 0,
@@ -105,8 +137,8 @@ pg.settings_other_template = {
 		id = 10,
 		title = "夜間模式降幀",
 		desc = "開啟後，會在自律尋敵夜間模式中降低遊戲幀數，節省能耗"
-	},
-	{
+	}
+	pg.base.settings_other_template[11] = {
 		default = 1,
 		name = "ALLOW_FIREND_VISIT_BACKYARD_FLAG",
 		alignment = 0,
@@ -114,8 +146,8 @@ pg.settings_other_template = {
 		id = 11,
 		title = "允許好友拜訪後宅",
 		desc = "功能開啟後，允許我的好友來我的後宅拜訪"
-	},
-	{
+	}
+	pg.base.settings_other_template[12] = {
 		default = 0,
 		name = "SHOW_FIREND_BACKYARD_SHIP_FLAG",
 		alignment = 0,
@@ -123,8 +155,8 @@ pg.settings_other_template = {
 		id = 12,
 		title = "顯示他人拜訪痕跡",
 		desc = "功能開啟後，好友來拜訪我的後宅後，會在我的後宅顯示該好友的秘書艦"
-	},
-	{
+	}
+	pg.base.settings_other_template[13] = {
 		default = 0,
 		name = "SHOW_MY_BACKYARD_SHIP_FLAG",
 		alignment = 0,
@@ -132,8 +164,8 @@ pg.settings_other_template = {
 		id = 13,
 		title = "顯示我的拜訪痕跡",
 		desc = "功能開啟後，我拜訪好友的後宅後，會在好友的後宅顯示我的秘書艦"
-	},
-	{
+	}
+	pg.base.settings_other_template[14] = {
 		default = 0,
 		name = "QUICK_CHANGE_EQUIP",
 		alignment = 0,
@@ -141,8 +173,8 @@ pg.settings_other_template = {
 		id = 14,
 		title = "快速更換二次確認介面",
 		desc = "功能開啟後，使用快速更換功能更換角色裝備時，將跳出裝備詳細訊息確認介"
-	},
-	{
+	}
+	pg.base.settings_other_template[15] = {
 		default = 1,
 		name = "GYRO_ENABLE",
 		alignment = 0,
@@ -150,8 +182,8 @@ pg.settings_other_template = {
 		id = 15,
 		title = "L2D陀螺儀背景控制",
 		desc = "功能開啟後，部分L2D換裝背景將支援由陀螺儀控制"
-	},
-	{
+	}
+	pg.base.settings_other_template[16] = {
 		default = 1,
 		name = "SHIP_NAME_COLOR",
 		alignment = 0,
@@ -159,8 +191,8 @@ pg.settings_other_template = {
 		id = 16,
 		title = "誓約角色名特殊顯示",
 		desc = "功能開啟後，在船塢等介面，已誓約的角色名將使用特殊顏色顯示"
-	},
-	{
+	}
+	pg.base.settings_other_template[17] = {
 		default = 1,
 		name = "BATTLERESULT_DISPAY_PAINTING",
 		alignment = 0,
@@ -168,8 +200,8 @@ pg.settings_other_template = {
 		id = 17,
 		title = "展示結算角色",
 		desc = "功能開啟後，將展示戰鬥結算立繪過場"
-	},
-	{
+	}
+	pg.base.settings_other_template[18] = {
 		default = 0,
 		name = "LIVE2D_STATUS_SAVE",
 		alignment = 0,
@@ -177,8 +209,8 @@ pg.settings_other_template = {
 		id = 18,
 		title = "秘書艦互動狀態固定",
 		desc = "功能開啟後，主介面L2D與特殊動態立繪換裝的互動狀態將固定為主介面待機動作；互動狀態固定後，L2D換裝的【登入】【回港】動畫將不會播放"
-	},
-	{
+	}
+	pg.base.settings_other_template[19] = {
 		default = 1,
 		name = "USAGE_NEW_MAINUI",
 		alignment = 0,
@@ -186,8 +218,8 @@ pg.settings_other_template = {
 		id = 19,
 		title = "使用新版主介面 ",
 		desc = "功能開啟後，顯示新版主介面"
-	},
-	{
+	}
+	pg.base.settings_other_template[20] = {
 		default = 1,
 		name = "MAINUI_NEVER_SLEEP",
 		alignment = 0,
@@ -195,8 +227,8 @@ pg.settings_other_template = {
 		id = 20,
 		title = "位於主介面時螢幕常亮 ",
 		desc = "功能開啟後，主介面不會隨時間自動鎖定螢幕"
-	},
-	{
+	}
+	pg.base.settings_other_template[21] = {
 		default = 0,
 		name = "MAINUI_RESET_L2D",
 		alignment = 0,
@@ -204,8 +236,8 @@ pg.settings_other_template = {
 		id = 21,
 		title = "主介面顯示L2D重置按鈕 ",
 		desc = "功能開啟後，主介面出現L2D重置按鈕"
-	},
-	{
+	}
+	pg.base.settings_other_template[22] = {
 		default = 0,
 		name = "LOCK_NEW_SHIP",
 		alignment = 0,
@@ -213,8 +245,8 @@ pg.settings_other_template = {
 		id = 22,
 		title = "自動鎖定新獲得角色",
 		desc = "功能開啟後，自動鎖定新獲得角色，不再跳出鎖定提示"
-	},
-	[24] = {
+	}
+	pg.base.settings_other_template[24] = {
 		default = 0,
 		name = "GRAPHI_API_SWITCH_OPTION",
 		alignment = 0,
@@ -222,8 +254,8 @@ pg.settings_other_template = {
 		id = 24,
 		title = "渲染相容模式",
 		desc = "功能開啟後，可以解決部分機型在預設模式下會出現黑畫面的問題"
-	},
-	[25] = {
+	}
+	pg.base.settings_other_template[25] = {
 		default = 1,
 		name = "REMOVE_LOW_MOOD",
 		alignment = 0,
@@ -231,31 +263,5 @@ pg.settings_other_template = {
 		id = 25,
 		title = "編隊時不編入低心情角色 ",
 		desc = "功能開啟後，使用推薦功能自動編隊時，不編入低心情角色 "
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		24,
-		25
 	}
-}
+end)()

@@ -1,6 +1,264 @@
 pg = pg or {}
-pg.child2_site_event_group = {
-	[101] = {
+pg.child2_site_event_group = rawget(pg, "child2_site_event_group") or setmetatable({
+	__name = "child2_site_event_group"
+}, confNEO)
+pg.child2_site_event_group.all = {
+	101,
+	201,
+	4101,
+	4102,
+	4103,
+	4104,
+	4105,
+	4106,
+	4107,
+	4108,
+	4109,
+	4110,
+	4111,
+	4112,
+	4113,
+	4114,
+	4115,
+	4116,
+	4117,
+	4118,
+	4119,
+	4120,
+	4121,
+	4122,
+	4123,
+	4124,
+	4125,
+	4126,
+	4127,
+	4128,
+	4129,
+	4130,
+	4131,
+	4132,
+	4133,
+	4134,
+	4135,
+	4136,
+	4137,
+	4138,
+	4139,
+	4140,
+	4141,
+	4142,
+	4143,
+	4144,
+	4145,
+	4146,
+	4160,
+	4161,
+	4162,
+	4163,
+	4164,
+	4165,
+	4166,
+	4167,
+	4168,
+	4169,
+	4170,
+	4171,
+	4172,
+	4173,
+	4174,
+	4175,
+	4201,
+	4202,
+	4203,
+	4204,
+	4205,
+	4206,
+	4207,
+	4208,
+	4209,
+	4210,
+	4211,
+	4212,
+	4213,
+	4214,
+	4215,
+	4216,
+	4217,
+	4218,
+	4219,
+	4220,
+	4221,
+	4222,
+	4223,
+	4224,
+	4225,
+	4226,
+	4227,
+	4228,
+	4229,
+	4230,
+	4231,
+	4232,
+	4233,
+	4234,
+	4235,
+	4236,
+	4237,
+	4238,
+	4239,
+	4240,
+	4241,
+	4242,
+	4243,
+	4244,
+	4245,
+	4246,
+	4260,
+	4261,
+	4262,
+	4263,
+	4264,
+	4265,
+	4266,
+	4267,
+	4268,
+	4269,
+	4270,
+	4271,
+	4272,
+	4273,
+	4274,
+	4275,
+	4301,
+	4302,
+	4303,
+	4304,
+	4305,
+	4306,
+	4307,
+	4308,
+	4309,
+	4310,
+	4311,
+	4312,
+	4313,
+	4314,
+	4315,
+	4316,
+	4317,
+	4318,
+	4319,
+	4320,
+	4321,
+	4322,
+	4323,
+	4324,
+	4325,
+	4326,
+	4327,
+	4328,
+	4329,
+	4330,
+	4331,
+	4332,
+	4333,
+	4334,
+	4335,
+	4336,
+	4337,
+	4338,
+	4339,
+	4340,
+	4341,
+	4342,
+	4343,
+	4344,
+	4345,
+	4346,
+	4360,
+	4361,
+	4362,
+	4363,
+	4364,
+	4365,
+	4366,
+	4367,
+	4368,
+	4369,
+	4370,
+	4371,
+	4372,
+	4373,
+	4374,
+	4375,
+	4401,
+	4402,
+	4403,
+	4404,
+	4405,
+	4406,
+	4407,
+	4408,
+	4409,
+	4410,
+	4411,
+	4412,
+	4413,
+	4414,
+	4415,
+	4416,
+	4417,
+	4418,
+	4419,
+	4420,
+	4421,
+	4422,
+	4423,
+	4424,
+	4425,
+	4426,
+	4427,
+	4428,
+	4429,
+	4430,
+	4431,
+	4432,
+	4433,
+	4434,
+	4435,
+	4436,
+	4437,
+	4438,
+	4439,
+	4440,
+	4441,
+	4442,
+	4443,
+	4444,
+	4445,
+	4446,
+	4460,
+	4461,
+	4462,
+	4463,
+	4464,
+	4465,
+	4466,
+	4467,
+	4468,
+	4469,
+	4470,
+	4471,
+	4472,
+	4473,
+	4474,
+	4475
+}
+pg.base = pg.base or {}
+pg.base.child2_site_event_group = {}
+
+(function ()
+	pg.base.child2_site_event_group[101] = {
 		node_id = 100001,
 		option_word = "測試",
 		id = 101,
@@ -20,8 +278,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[201] = {
+	}
+	pg.base.child2_site_event_group[201] = {
 		node_id = 200001,
 		option_word = "測試",
 		id = 201,
@@ -47,8 +305,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4101] = {
+	}
+	pg.base.child2_site_event_group[4101] = {
 		node_id = 4101001,
 		option_word = "進入隨機事件",
 		id = 4101,
@@ -62,8 +320,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4102] = {
+	}
+	pg.base.child2_site_event_group[4102] = {
 		node_id = 4102001,
 		option_word = "進入隨機事件",
 		id = 4102,
@@ -77,8 +335,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4103] = {
+	}
+	pg.base.child2_site_event_group[4103] = {
 		node_id = 4103001,
 		option_word = "進入隨機事件",
 		id = 4103,
@@ -92,8 +350,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4104] = {
+	}
+	pg.base.child2_site_event_group[4104] = {
 		node_id = 4104001,
 		option_word = "進入隨機事件",
 		id = 4104,
@@ -107,8 +365,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4105] = {
+	}
+	pg.base.child2_site_event_group[4105] = {
 		node_id = 4105001,
 		option_word = "進入隨機事件",
 		id = 4105,
@@ -122,8 +380,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4106] = {
+	}
+	pg.base.child2_site_event_group[4106] = {
 		node_id = 4106001,
 		option_word = "進入隨機事件",
 		id = 4106,
@@ -137,8 +395,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4107] = {
+	}
+	pg.base.child2_site_event_group[4107] = {
 		node_id = 4107001,
 		option_word = "進入隨機事件",
 		id = 4107,
@@ -152,8 +410,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4108] = {
+	}
+	pg.base.child2_site_event_group[4108] = {
 		node_id = 4108001,
 		option_word = "進入隨機事件",
 		id = 4108,
@@ -167,8 +425,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4109] = {
+	}
+	pg.base.child2_site_event_group[4109] = {
 		node_id = 4109001,
 		option_word = "神秘的大冒險（2）",
 		id = 4109,
@@ -182,8 +440,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4110] = {
+	}
+	pg.base.child2_site_event_group[4110] = {
 		node_id = 4110001,
 		option_word = "進入隨機事件",
 		id = 4110,
@@ -197,8 +455,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4111] = {
+	}
+	pg.base.child2_site_event_group[4111] = {
 		node_id = 4111001,
 		option_word = "神秘的大冒險（2）",
 		id = 4111,
@@ -212,8 +470,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4112] = {
+	}
+	pg.base.child2_site_event_group[4112] = {
 		node_id = 4112001,
 		option_word = "進入隨機事件",
 		id = 4112,
@@ -227,8 +485,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4113] = {
+	}
+	pg.base.child2_site_event_group[4113] = {
 		node_id = 4113001,
 		option_word = "神秘的大冒險（2）",
 		id = 4113,
@@ -242,8 +500,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4114] = {
+	}
+	pg.base.child2_site_event_group[4114] = {
 		node_id = 4114001,
 		option_word = "神秘的大冒險（2）",
 		id = 4114,
@@ -257,8 +515,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4115] = {
+	}
+	pg.base.child2_site_event_group[4115] = {
 		node_id = 4115001,
 		option_word = "神秘的大冒險（2）",
 		id = 4115,
@@ -272,8 +530,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4116] = {
+	}
+	pg.base.child2_site_event_group[4116] = {
 		node_id = 4116001,
 		option_word = "進入隨機事件",
 		id = 4116,
@@ -287,8 +545,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4117] = {
+	}
+	pg.base.child2_site_event_group[4117] = {
 		node_id = 4117001,
 		option_word = "練習計畫（2）",
 		id = 4117,
@@ -302,8 +560,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4118] = {
+	}
+	pg.base.child2_site_event_group[4118] = {
 		node_id = 4118001,
 		option_word = "進入隨機事件",
 		id = 4118,
@@ -317,8 +575,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4119] = {
+	}
+	pg.base.child2_site_event_group[4119] = {
 		node_id = 4119001,
 		option_word = "成長挑戰（2）",
 		id = 4119,
@@ -332,8 +590,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4120] = {
+	}
+	pg.base.child2_site_event_group[4120] = {
 		node_id = 4120001,
 		option_word = "進入隨機事件",
 		id = 4120,
@@ -347,8 +605,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4121] = {
+	}
+	pg.base.child2_site_event_group[4121] = {
 		node_id = 4121001,
 		option_word = "進入隨機事件",
 		id = 4121,
@@ -362,8 +620,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4122] = {
+	}
+	pg.base.child2_site_event_group[4122] = {
 		node_id = 4122001,
 		option_word = "進入隨機事件",
 		id = 4122,
@@ -377,8 +635,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4123] = {
+	}
+	pg.base.child2_site_event_group[4123] = {
 		node_id = 4123001,
 		option_word = "進入隨機事件",
 		id = 4123,
@@ -392,8 +650,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4124] = {
+	}
+	pg.base.child2_site_event_group[4124] = {
 		node_id = 4124001,
 		option_word = "進入隨機事件",
 		id = 4124,
@@ -407,8 +665,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4125] = {
+	}
+	pg.base.child2_site_event_group[4125] = {
 		node_id = 4125001,
 		option_word = "進入隨機事件",
 		id = 4125,
@@ -422,8 +680,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4126] = {
+	}
+	pg.base.child2_site_event_group[4126] = {
 		node_id = 4126001,
 		option_word = "進入隨機事件",
 		id = 4126,
@@ -437,8 +695,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4127] = {
+	}
+	pg.base.child2_site_event_group[4127] = {
 		node_id = 4127001,
 		option_word = "進入隨機事件",
 		id = 4127,
@@ -452,8 +710,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4128] = {
+	}
+	pg.base.child2_site_event_group[4128] = {
 		node_id = 4128001,
 		option_word = "外出時光（2）",
 		id = 4128,
@@ -467,8 +725,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4129] = {
+	}
+	pg.base.child2_site_event_group[4129] = {
 		node_id = 4129001,
 		option_word = "外出時光（3）",
 		id = 4129,
@@ -482,8 +740,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4130] = {
+	}
+	pg.base.child2_site_event_group[4130] = {
 		node_id = 4130001,
 		option_word = "進入隨機事件",
 		id = 4130,
@@ -497,8 +755,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4131] = {
+	}
+	pg.base.child2_site_event_group[4131] = {
 		node_id = 4131001,
 		option_word = "微風與遠景（2）",
 		id = 4131,
@@ -512,8 +770,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4132] = {
+	}
+	pg.base.child2_site_event_group[4132] = {
 		node_id = 4132001,
 		option_word = "微風與遠景（3）",
 		id = 4132,
@@ -527,8 +785,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4133] = {
+	}
+	pg.base.child2_site_event_group[4133] = {
 		node_id = 4133001,
 		option_word = "進入隨機事件",
 		id = 4133,
@@ -542,8 +800,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4134] = {
+	}
+	pg.base.child2_site_event_group[4134] = {
 		node_id = 4134001,
 		option_word = "新口味罐頭（2）",
 		id = 4134,
@@ -557,8 +815,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4135] = {
+	}
+	pg.base.child2_site_event_group[4135] = {
 		node_id = 4135001,
 		option_word = "新口味罐頭（3）",
 		id = 4135,
@@ -572,8 +830,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4136] = {
+	}
+	pg.base.child2_site_event_group[4136] = {
 		node_id = 4136001,
 		option_word = "進入隨機事件",
 		id = 4136,
@@ -587,8 +845,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4137] = {
+	}
+	pg.base.child2_site_event_group[4137] = {
 		node_id = 4137001,
 		option_word = "進入隨機事件",
 		id = 4137,
@@ -602,8 +860,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4138] = {
+	}
+	pg.base.child2_site_event_group[4138] = {
 		node_id = 4138001,
 		option_word = "進入隨機事件",
 		id = 4138,
@@ -617,8 +875,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4139] = {
+	}
+	pg.base.child2_site_event_group[4139] = {
 		node_id = 4139001,
 		option_word = "引擎轟鳴：摩托騎士（1）",
 		id = 4139,
@@ -634,8 +892,8 @@ pg.child2_site_event_group = {
 		performance = {
 			6001
 		}
-	},
-	[4140] = {
+	}
+	pg.base.child2_site_event_group[4140] = {
 		node_id = 4140001,
 		option_word = "引擎轟鳴：摩托騎士（2）",
 		id = 4140,
@@ -651,8 +909,8 @@ pg.child2_site_event_group = {
 		performance = {
 			6011
 		}
-	},
-	[4141] = {
+	}
+	pg.base.child2_site_event_group[4141] = {
 		node_id = 4141001,
 		option_word = "引擎轟鳴：摩托騎士（3）",
 		id = 4141,
@@ -668,8 +926,8 @@ pg.child2_site_event_group = {
 		performance = {
 			6021
 		}
-	},
-	[4142] = {
+	}
+	pg.base.child2_site_event_group[4142] = {
 		node_id = 4142001,
 		option_word = "心靈軌跡：心理諮詢師（1）",
 		id = 4142,
@@ -685,8 +943,8 @@ pg.child2_site_event_group = {
 		performance = {
 			6101
 		}
-	},
-	[4143] = {
+	}
+	pg.base.child2_site_event_group[4143] = {
 		node_id = 4143001,
 		option_word = "心靈軌跡：心理諮詢師（2）",
 		id = 4143,
@@ -702,8 +960,8 @@ pg.child2_site_event_group = {
 		performance = {
 			6111
 		}
-	},
-	[4144] = {
+	}
+	pg.base.child2_site_event_group[4144] = {
 		node_id = 4144001,
 		option_word = "心靈軌跡：心理諮詢師（3）",
 		id = 4144,
@@ -719,8 +977,8 @@ pg.child2_site_event_group = {
 		performance = {
 			6121
 		}
-	},
-	[4145] = {
+	}
+	pg.base.child2_site_event_group[4145] = {
 		node_id = 4145001,
 		option_word = "進入隨機事件",
 		id = 4145,
@@ -734,8 +992,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4146] = {
+	}
+	pg.base.child2_site_event_group[4146] = {
 		node_id = 4146001,
 		option_word = "進入隨機事件",
 		id = 4146,
@@ -749,8 +1007,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4160] = {
+	}
+	pg.base.child2_site_event_group[4160] = {
 		node_id = 4101001,
 		option_word = "進入隨機事件",
 		id = 4160,
@@ -764,8 +1022,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4161] = {
+	}
+	pg.base.child2_site_event_group[4161] = {
 		node_id = 4103001,
 		option_word = "進入隨機事件",
 		id = 4161,
@@ -779,8 +1037,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4162] = {
+	}
+	pg.base.child2_site_event_group[4162] = {
 		node_id = 4104001,
 		option_word = "進入隨機事件",
 		id = 4162,
@@ -794,8 +1052,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4163] = {
+	}
+	pg.base.child2_site_event_group[4163] = {
 		node_id = 4105001,
 		option_word = "進入隨機事件",
 		id = 4163,
@@ -809,8 +1067,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4164] = {
+	}
+	pg.base.child2_site_event_group[4164] = {
 		node_id = 4121001,
 		option_word = "進入隨機事件",
 		id = 4164,
@@ -824,8 +1082,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4165] = {
+	}
+	pg.base.child2_site_event_group[4165] = {
 		node_id = 4137001,
 		option_word = "進入隨機事件",
 		id = 4165,
@@ -839,8 +1097,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4166] = {
+	}
+	pg.base.child2_site_event_group[4166] = {
 		node_id = 4145001,
 		option_word = "進入隨機事件",
 		id = 4166,
@@ -854,8 +1112,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4167] = {
+	}
+	pg.base.child2_site_event_group[4167] = {
 		node_id = 4146001,
 		option_word = "進入隨機事件",
 		id = 4167,
@@ -869,8 +1127,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4168] = {
+	}
+	pg.base.child2_site_event_group[4168] = {
 		node_id = 4101001,
 		option_word = "進入隨機事件",
 		id = 4168,
@@ -884,8 +1142,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4169] = {
+	}
+	pg.base.child2_site_event_group[4169] = {
 		node_id = 4103001,
 		option_word = "進入隨機事件",
 		id = 4169,
@@ -899,8 +1157,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4170] = {
+	}
+	pg.base.child2_site_event_group[4170] = {
 		node_id = 4104001,
 		option_word = "進入隨機事件",
 		id = 4170,
@@ -914,8 +1172,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4171] = {
+	}
+	pg.base.child2_site_event_group[4171] = {
 		node_id = 4105001,
 		option_word = "進入隨機事件",
 		id = 4171,
@@ -929,8 +1187,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4172] = {
+	}
+	pg.base.child2_site_event_group[4172] = {
 		node_id = 4121001,
 		option_word = "進入隨機事件",
 		id = 4172,
@@ -944,8 +1202,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4173] = {
+	}
+	pg.base.child2_site_event_group[4173] = {
 		node_id = 4137001,
 		option_word = "進入隨機事件",
 		id = 4173,
@@ -959,8 +1217,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4174] = {
+	}
+	pg.base.child2_site_event_group[4174] = {
 		node_id = 4145001,
 		option_word = "進入隨機事件",
 		id = 4174,
@@ -974,8 +1232,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4175] = {
+	}
+	pg.base.child2_site_event_group[4175] = {
 		node_id = 4146001,
 		option_word = "進入隨機事件",
 		id = 4175,
@@ -989,8 +1247,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4201] = {
+	}
+	pg.base.child2_site_event_group[4201] = {
 		node_id = 4201001,
 		option_word = "進入隨機事件",
 		id = 4201,
@@ -1004,8 +1262,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4202] = {
+	}
+	pg.base.child2_site_event_group[4202] = {
 		node_id = 4202001,
 		option_word = "進入隨機事件",
 		id = 4202,
@@ -1019,8 +1277,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4203] = {
+	}
+	pg.base.child2_site_event_group[4203] = {
 		node_id = 4203001,
 		option_word = "進入隨機事件",
 		id = 4203,
@@ -1034,8 +1292,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4204] = {
+	}
+	pg.base.child2_site_event_group[4204] = {
 		node_id = 4204001,
 		option_word = "進入隨機事件",
 		id = 4204,
@@ -1049,8 +1307,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4205] = {
+	}
+	pg.base.child2_site_event_group[4205] = {
 		node_id = 4205001,
 		option_word = "進入隨機事件",
 		id = 4205,
@@ -1064,8 +1322,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4206] = {
+	}
+	pg.base.child2_site_event_group[4206] = {
 		node_id = 4206001,
 		option_word = "進入隨機事件",
 		id = 4206,
@@ -1079,8 +1337,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4207] = {
+	}
+	pg.base.child2_site_event_group[4207] = {
 		node_id = 4207001,
 		option_word = "進入隨機事件",
 		id = 4207,
@@ -1094,8 +1352,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4208] = {
+	}
+	pg.base.child2_site_event_group[4208] = {
 		node_id = 4208001,
 		option_word = "進入隨機事件",
 		id = 4208,
@@ -1109,8 +1367,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4209] = {
+	}
+	pg.base.child2_site_event_group[4209] = {
 		node_id = 4209001,
 		option_word = "神秘的大冒險（2）",
 		id = 4209,
@@ -1124,8 +1382,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4210] = {
+	}
+	pg.base.child2_site_event_group[4210] = {
 		node_id = 4210001,
 		option_word = "進入隨機事件",
 		id = 4210,
@@ -1139,8 +1397,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4211] = {
+	}
+	pg.base.child2_site_event_group[4211] = {
 		node_id = 4211001,
 		option_word = "神秘的大冒險（2）",
 		id = 4211,
@@ -1154,8 +1412,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4212] = {
+	}
+	pg.base.child2_site_event_group[4212] = {
 		node_id = 4212001,
 		option_word = "進入隨機事件",
 		id = 4212,
@@ -1169,8 +1427,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4213] = {
+	}
+	pg.base.child2_site_event_group[4213] = {
 		node_id = 4213001,
 		option_word = "神秘的大冒險（2）",
 		id = 4213,
@@ -1184,8 +1442,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4214] = {
+	}
+	pg.base.child2_site_event_group[4214] = {
 		node_id = 4214001,
 		option_word = "神秘的大冒險（2）",
 		id = 4214,
@@ -1199,8 +1457,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4215] = {
+	}
+	pg.base.child2_site_event_group[4215] = {
 		node_id = 4215001,
 		option_word = "神秘的大冒險（2）",
 		id = 4215,
@@ -1214,8 +1472,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4216] = {
+	}
+	pg.base.child2_site_event_group[4216] = {
 		node_id = 4216001,
 		option_word = "進入隨機事件",
 		id = 4216,
@@ -1229,8 +1487,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4217] = {
+	}
+	pg.base.child2_site_event_group[4217] = {
 		node_id = 4217001,
 		option_word = "練習計畫（2）",
 		id = 4217,
@@ -1244,8 +1502,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4218] = {
+	}
+	pg.base.child2_site_event_group[4218] = {
 		node_id = 4218001,
 		option_word = "進入隨機事件",
 		id = 4218,
@@ -1259,8 +1517,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4219] = {
+	}
+	pg.base.child2_site_event_group[4219] = {
 		node_id = 4219001,
 		option_word = "成長挑戰（2）",
 		id = 4219,
@@ -1274,8 +1532,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4220] = {
+	}
+	pg.base.child2_site_event_group[4220] = {
 		node_id = 4220001,
 		option_word = "進入隨機事件",
 		id = 4220,
@@ -1289,8 +1547,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4221] = {
+	}
+	pg.base.child2_site_event_group[4221] = {
 		node_id = 4221001,
 		option_word = "進入隨機事件",
 		id = 4221,
@@ -1304,8 +1562,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4222] = {
+	}
+	pg.base.child2_site_event_group[4222] = {
 		node_id = 4222001,
 		option_word = "進入隨機事件",
 		id = 4222,
@@ -1319,8 +1577,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4223] = {
+	}
+	pg.base.child2_site_event_group[4223] = {
 		node_id = 4223001,
 		option_word = "進入隨機事件",
 		id = 4223,
@@ -1334,8 +1592,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4224] = {
+	}
+	pg.base.child2_site_event_group[4224] = {
 		node_id = 4224001,
 		option_word = "進入隨機事件",
 		id = 4224,
@@ -1349,8 +1607,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4225] = {
+	}
+	pg.base.child2_site_event_group[4225] = {
 		node_id = 4225001,
 		option_word = "進入隨機事件",
 		id = 4225,
@@ -1364,8 +1622,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4226] = {
+	}
+	pg.base.child2_site_event_group[4226] = {
 		node_id = 4226001,
 		option_word = "進入隨機事件",
 		id = 4226,
@@ -1379,8 +1637,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4227] = {
+	}
+	pg.base.child2_site_event_group[4227] = {
 		node_id = 4227001,
 		option_word = "進入隨機事件",
 		id = 4227,
@@ -1394,8 +1652,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4228] = {
+	}
+	pg.base.child2_site_event_group[4228] = {
 		node_id = 4228001,
 		option_word = "外出時光（2）",
 		id = 4228,
@@ -1409,8 +1667,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4229] = {
+	}
+	pg.base.child2_site_event_group[4229] = {
 		node_id = 4229001,
 		option_word = "外出時光（3）",
 		id = 4229,
@@ -1424,8 +1682,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4230] = {
+	}
+	pg.base.child2_site_event_group[4230] = {
 		node_id = 4230001,
 		option_word = "進入隨機事件",
 		id = 4230,
@@ -1439,8 +1697,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4231] = {
+	}
+	pg.base.child2_site_event_group[4231] = {
 		node_id = 4231001,
 		option_word = "微風與遠景（2）",
 		id = 4231,
@@ -1454,8 +1712,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4232] = {
+	}
+	pg.base.child2_site_event_group[4232] = {
 		node_id = 4232001,
 		option_word = "微風與遠景（3）",
 		id = 4232,
@@ -1469,8 +1727,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4233] = {
+	}
+	pg.base.child2_site_event_group[4233] = {
 		node_id = 4233001,
 		option_word = "進入隨機事件",
 		id = 4233,
@@ -1484,8 +1742,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4234] = {
+	}
+	pg.base.child2_site_event_group[4234] = {
 		node_id = 4234001,
 		option_word = "新口味罐頭（2）",
 		id = 4234,
@@ -1499,8 +1757,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4235] = {
+	}
+	pg.base.child2_site_event_group[4235] = {
 		node_id = 4235001,
 		option_word = "新口味罐頭（3）",
 		id = 4235,
@@ -1514,8 +1772,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4236] = {
+	}
+	pg.base.child2_site_event_group[4236] = {
 		node_id = 4236001,
 		option_word = "進入隨機事件",
 		id = 4236,
@@ -1529,8 +1787,10 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4237] = {
+	}
+end)()
+(function ()
+	pg.base.child2_site_event_group[4237] = {
 		node_id = 4237001,
 		option_word = "進入隨機事件",
 		id = 4237,
@@ -1544,8 +1804,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4238] = {
+	}
+	pg.base.child2_site_event_group[4238] = {
 		node_id = 4238001,
 		option_word = "進入隨機事件",
 		id = 4238,
@@ -1559,8 +1819,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4239] = {
+	}
+	pg.base.child2_site_event_group[4239] = {
 		node_id = 4239001,
 		option_word = "引擎轟鳴：摩托騎士（1）",
 		id = 4239,
@@ -1576,8 +1836,8 @@ pg.child2_site_event_group = {
 		performance = {
 			6001
 		}
-	},
-	[4240] = {
+	}
+	pg.base.child2_site_event_group[4240] = {
 		node_id = 4240001,
 		option_word = "引擎轟鳴：摩托騎士（2）",
 		id = 4240,
@@ -1593,8 +1853,8 @@ pg.child2_site_event_group = {
 		performance = {
 			6011
 		}
-	},
-	[4241] = {
+	}
+	pg.base.child2_site_event_group[4241] = {
 		node_id = 4241001,
 		option_word = "引擎轟鳴：摩托騎士（3）",
 		id = 4241,
@@ -1610,8 +1870,8 @@ pg.child2_site_event_group = {
 		performance = {
 			6021
 		}
-	},
-	[4242] = {
+	}
+	pg.base.child2_site_event_group[4242] = {
 		node_id = 4242001,
 		option_word = "心靈軌跡：心理諮詢師（1）",
 		id = 4242,
@@ -1627,8 +1887,8 @@ pg.child2_site_event_group = {
 		performance = {
 			6101
 		}
-	},
-	[4243] = {
+	}
+	pg.base.child2_site_event_group[4243] = {
 		node_id = 4243001,
 		option_word = "心靈軌跡：心理諮詢師（2）",
 		id = 4243,
@@ -1644,8 +1904,8 @@ pg.child2_site_event_group = {
 		performance = {
 			6111
 		}
-	},
-	[4244] = {
+	}
+	pg.base.child2_site_event_group[4244] = {
 		node_id = 4244001,
 		option_word = "心靈軌跡：心理諮詢師（3）",
 		id = 4244,
@@ -1661,8 +1921,8 @@ pg.child2_site_event_group = {
 		performance = {
 			6121
 		}
-	},
-	[4245] = {
+	}
+	pg.base.child2_site_event_group[4245] = {
 		node_id = 4245001,
 		option_word = "進入隨機事件",
 		id = 4245,
@@ -1676,8 +1936,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4246] = {
+	}
+	pg.base.child2_site_event_group[4246] = {
 		node_id = 4246001,
 		option_word = "進入隨機事件",
 		id = 4246,
@@ -1691,8 +1951,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4260] = {
+	}
+	pg.base.child2_site_event_group[4260] = {
 		node_id = 4201001,
 		option_word = "進入隨機事件",
 		id = 4260,
@@ -1706,8 +1966,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4261] = {
+	}
+	pg.base.child2_site_event_group[4261] = {
 		node_id = 4203001,
 		option_word = "進入隨機事件",
 		id = 4261,
@@ -1721,8 +1981,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4262] = {
+	}
+	pg.base.child2_site_event_group[4262] = {
 		node_id = 4204001,
 		option_word = "進入隨機事件",
 		id = 4262,
@@ -1736,8 +1996,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4263] = {
+	}
+	pg.base.child2_site_event_group[4263] = {
 		node_id = 4205001,
 		option_word = "進入隨機事件",
 		id = 4263,
@@ -1751,8 +2011,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4264] = {
+	}
+	pg.base.child2_site_event_group[4264] = {
 		node_id = 4221001,
 		option_word = "進入隨機事件",
 		id = 4264,
@@ -1766,8 +2026,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4265] = {
+	}
+	pg.base.child2_site_event_group[4265] = {
 		node_id = 4237001,
 		option_word = "進入隨機事件",
 		id = 4265,
@@ -1781,8 +2041,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4266] = {
+	}
+	pg.base.child2_site_event_group[4266] = {
 		node_id = 4245001,
 		option_word = "進入隨機事件",
 		id = 4266,
@@ -1796,8 +2056,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4267] = {
+	}
+	pg.base.child2_site_event_group[4267] = {
 		node_id = 4246001,
 		option_word = "進入隨機事件",
 		id = 4267,
@@ -1811,8 +2071,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4268] = {
+	}
+	pg.base.child2_site_event_group[4268] = {
 		node_id = 4201001,
 		option_word = "進入隨機事件",
 		id = 4268,
@@ -1826,8 +2086,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4269] = {
+	}
+	pg.base.child2_site_event_group[4269] = {
 		node_id = 4203001,
 		option_word = "進入隨機事件",
 		id = 4269,
@@ -1841,8 +2101,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4270] = {
+	}
+	pg.base.child2_site_event_group[4270] = {
 		node_id = 4204001,
 		option_word = "進入隨機事件",
 		id = 4270,
@@ -1856,8 +2116,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4271] = {
+	}
+	pg.base.child2_site_event_group[4271] = {
 		node_id = 4205001,
 		option_word = "進入隨機事件",
 		id = 4271,
@@ -1871,8 +2131,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4272] = {
+	}
+	pg.base.child2_site_event_group[4272] = {
 		node_id = 4221001,
 		option_word = "進入隨機事件",
 		id = 4272,
@@ -1886,8 +2146,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4273] = {
+	}
+	pg.base.child2_site_event_group[4273] = {
 		node_id = 4237001,
 		option_word = "進入隨機事件",
 		id = 4273,
@@ -1901,8 +2161,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4274] = {
+	}
+	pg.base.child2_site_event_group[4274] = {
 		node_id = 4245001,
 		option_word = "進入隨機事件",
 		id = 4274,
@@ -1916,8 +2176,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4275] = {
+	}
+	pg.base.child2_site_event_group[4275] = {
 		node_id = 4246001,
 		option_word = "進入隨機事件",
 		id = 4275,
@@ -1931,8 +2191,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4301] = {
+	}
+	pg.base.child2_site_event_group[4301] = {
 		node_id = 4301001,
 		option_word = "進入隨機事件",
 		id = 4301,
@@ -1946,8 +2206,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4302] = {
+	}
+	pg.base.child2_site_event_group[4302] = {
 		node_id = 4302001,
 		option_word = "進入隨機事件",
 		id = 4302,
@@ -1961,8 +2221,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4303] = {
+	}
+	pg.base.child2_site_event_group[4303] = {
 		node_id = 4303001,
 		option_word = "進入隨機事件",
 		id = 4303,
@@ -1976,8 +2236,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4304] = {
+	}
+	pg.base.child2_site_event_group[4304] = {
 		node_id = 4304001,
 		option_word = "進入隨機事件",
 		id = 4304,
@@ -1991,8 +2251,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4305] = {
+	}
+	pg.base.child2_site_event_group[4305] = {
 		node_id = 4305001,
 		option_word = "進入隨機事件",
 		id = 4305,
@@ -2006,8 +2266,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4306] = {
+	}
+	pg.base.child2_site_event_group[4306] = {
 		node_id = 4306001,
 		option_word = "進入隨機事件",
 		id = 4306,
@@ -2021,8 +2281,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4307] = {
+	}
+	pg.base.child2_site_event_group[4307] = {
 		node_id = 4307001,
 		option_word = "進入隨機事件",
 		id = 4307,
@@ -2036,8 +2296,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4308] = {
+	}
+	pg.base.child2_site_event_group[4308] = {
 		node_id = 4308001,
 		option_word = "進入隨機事件",
 		id = 4308,
@@ -2051,8 +2311,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4309] = {
+	}
+	pg.base.child2_site_event_group[4309] = {
 		node_id = 4309001,
 		option_word = "神秘的大冒險（2）",
 		id = 4309,
@@ -2066,8 +2326,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4310] = {
+	}
+	pg.base.child2_site_event_group[4310] = {
 		node_id = 4310001,
 		option_word = "進入隨機事件",
 		id = 4310,
@@ -2081,8 +2341,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4311] = {
+	}
+	pg.base.child2_site_event_group[4311] = {
 		node_id = 4311001,
 		option_word = "神秘的大冒險（2）",
 		id = 4311,
@@ -2096,8 +2356,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4312] = {
+	}
+	pg.base.child2_site_event_group[4312] = {
 		node_id = 4312001,
 		option_word = "進入隨機事件",
 		id = 4312,
@@ -2111,8 +2371,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4313] = {
+	}
+	pg.base.child2_site_event_group[4313] = {
 		node_id = 4313001,
 		option_word = "神秘的大冒險（2）",
 		id = 4313,
@@ -2126,8 +2386,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4314] = {
+	}
+	pg.base.child2_site_event_group[4314] = {
 		node_id = 4314001,
 		option_word = "神秘的大冒險（2）",
 		id = 4314,
@@ -2141,8 +2401,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4315] = {
+	}
+	pg.base.child2_site_event_group[4315] = {
 		node_id = 4315001,
 		option_word = "神秘的大冒險（2）",
 		id = 4315,
@@ -2156,8 +2416,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4316] = {
+	}
+	pg.base.child2_site_event_group[4316] = {
 		node_id = 4316001,
 		option_word = "進入隨機事件",
 		id = 4316,
@@ -2171,8 +2431,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4317] = {
+	}
+	pg.base.child2_site_event_group[4317] = {
 		node_id = 4317001,
 		option_word = "練習計畫（2）",
 		id = 4317,
@@ -2186,8 +2446,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4318] = {
+	}
+	pg.base.child2_site_event_group[4318] = {
 		node_id = 4318001,
 		option_word = "進入隨機事件",
 		id = 4318,
@@ -2201,8 +2461,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4319] = {
+	}
+	pg.base.child2_site_event_group[4319] = {
 		node_id = 4319001,
 		option_word = "成長挑戰（2）",
 		id = 4319,
@@ -2216,8 +2476,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4320] = {
+	}
+	pg.base.child2_site_event_group[4320] = {
 		node_id = 4320001,
 		option_word = "進入隨機事件",
 		id = 4320,
@@ -2231,8 +2491,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4321] = {
+	}
+	pg.base.child2_site_event_group[4321] = {
 		node_id = 4321001,
 		option_word = "進入隨機事件",
 		id = 4321,
@@ -2246,8 +2506,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4322] = {
+	}
+	pg.base.child2_site_event_group[4322] = {
 		node_id = 4322001,
 		option_word = "進入隨機事件",
 		id = 4322,
@@ -2261,8 +2521,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4323] = {
+	}
+	pg.base.child2_site_event_group[4323] = {
 		node_id = 4323001,
 		option_word = "進入隨機事件",
 		id = 4323,
@@ -2276,8 +2536,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4324] = {
+	}
+	pg.base.child2_site_event_group[4324] = {
 		node_id = 4324001,
 		option_word = "進入隨機事件",
 		id = 4324,
@@ -2291,8 +2551,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4325] = {
+	}
+	pg.base.child2_site_event_group[4325] = {
 		node_id = 4325001,
 		option_word = "進入隨機事件",
 		id = 4325,
@@ -2306,8 +2566,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4326] = {
+	}
+	pg.base.child2_site_event_group[4326] = {
 		node_id = 4326001,
 		option_word = "進入隨機事件",
 		id = 4326,
@@ -2321,8 +2581,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4327] = {
+	}
+	pg.base.child2_site_event_group[4327] = {
 		node_id = 4327001,
 		option_word = "進入隨機事件",
 		id = 4327,
@@ -2336,8 +2596,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4328] = {
+	}
+	pg.base.child2_site_event_group[4328] = {
 		node_id = 4328001,
 		option_word = "外出時光（2）",
 		id = 4328,
@@ -2351,8 +2611,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4329] = {
+	}
+	pg.base.child2_site_event_group[4329] = {
 		node_id = 4329001,
 		option_word = "外出時光（3）",
 		id = 4329,
@@ -2366,8 +2626,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4330] = {
+	}
+	pg.base.child2_site_event_group[4330] = {
 		node_id = 4330001,
 		option_word = "進入隨機事件",
 		id = 4330,
@@ -2381,8 +2641,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4331] = {
+	}
+	pg.base.child2_site_event_group[4331] = {
 		node_id = 4331001,
 		option_word = "微風與遠景（2）",
 		id = 4331,
@@ -2396,8 +2656,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4332] = {
+	}
+	pg.base.child2_site_event_group[4332] = {
 		node_id = 4332001,
 		option_word = "微風與遠景（3）",
 		id = 4332,
@@ -2411,8 +2671,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4333] = {
+	}
+	pg.base.child2_site_event_group[4333] = {
 		node_id = 4333001,
 		option_word = "進入隨機事件",
 		id = 4333,
@@ -2426,8 +2686,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4334] = {
+	}
+	pg.base.child2_site_event_group[4334] = {
 		node_id = 4334001,
 		option_word = "新口味罐頭（2）",
 		id = 4334,
@@ -2441,8 +2701,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4335] = {
+	}
+	pg.base.child2_site_event_group[4335] = {
 		node_id = 4335001,
 		option_word = "新口味罐頭（3）",
 		id = 4335,
@@ -2456,8 +2716,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4336] = {
+	}
+	pg.base.child2_site_event_group[4336] = {
 		node_id = 4336001,
 		option_word = "進入隨機事件",
 		id = 4336,
@@ -2471,8 +2731,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4337] = {
+	}
+	pg.base.child2_site_event_group[4337] = {
 		node_id = 4337001,
 		option_word = "進入隨機事件",
 		id = 4337,
@@ -2486,8 +2746,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4338] = {
+	}
+	pg.base.child2_site_event_group[4338] = {
 		node_id = 4338001,
 		option_word = "進入隨機事件",
 		id = 4338,
@@ -2501,8 +2761,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4339] = {
+	}
+	pg.base.child2_site_event_group[4339] = {
 		node_id = 4339001,
 		option_word = "引擎轟鳴：摩托騎士（1）",
 		id = 4339,
@@ -2518,8 +2778,8 @@ pg.child2_site_event_group = {
 		performance = {
 			6001
 		}
-	},
-	[4340] = {
+	}
+	pg.base.child2_site_event_group[4340] = {
 		node_id = 4340001,
 		option_word = "引擎轟鳴：摩托騎士（2）",
 		id = 4340,
@@ -2535,8 +2795,8 @@ pg.child2_site_event_group = {
 		performance = {
 			6011
 		}
-	},
-	[4341] = {
+	}
+	pg.base.child2_site_event_group[4341] = {
 		node_id = 4341001,
 		option_word = "引擎轟鳴：摩托騎士（3）",
 		id = 4341,
@@ -2552,8 +2812,8 @@ pg.child2_site_event_group = {
 		performance = {
 			6021
 		}
-	},
-	[4342] = {
+	}
+	pg.base.child2_site_event_group[4342] = {
 		node_id = 4342001,
 		option_word = "心靈軌跡：心理諮詢師（1）",
 		id = 4342,
@@ -2569,8 +2829,8 @@ pg.child2_site_event_group = {
 		performance = {
 			6101
 		}
-	},
-	[4343] = {
+	}
+	pg.base.child2_site_event_group[4343] = {
 		node_id = 4343001,
 		option_word = "心靈軌跡：心理諮詢師（2）",
 		id = 4343,
@@ -2586,8 +2846,8 @@ pg.child2_site_event_group = {
 		performance = {
 			6111
 		}
-	},
-	[4344] = {
+	}
+	pg.base.child2_site_event_group[4344] = {
 		node_id = 4344001,
 		option_word = "心靈軌跡：心理諮詢師（3）",
 		id = 4344,
@@ -2603,8 +2863,8 @@ pg.child2_site_event_group = {
 		performance = {
 			6121
 		}
-	},
-	[4345] = {
+	}
+	pg.base.child2_site_event_group[4345] = {
 		node_id = 4345001,
 		option_word = "進入隨機事件",
 		id = 4345,
@@ -2618,8 +2878,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4346] = {
+	}
+	pg.base.child2_site_event_group[4346] = {
 		node_id = 4346001,
 		option_word = "進入隨機事件",
 		id = 4346,
@@ -2633,8 +2893,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4360] = {
+	}
+	pg.base.child2_site_event_group[4360] = {
 		node_id = 4301001,
 		option_word = "進入隨機事件",
 		id = 4360,
@@ -2648,8 +2908,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4361] = {
+	}
+	pg.base.child2_site_event_group[4361] = {
 		node_id = 4303001,
 		option_word = "進入隨機事件",
 		id = 4361,
@@ -2663,8 +2923,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4362] = {
+	}
+	pg.base.child2_site_event_group[4362] = {
 		node_id = 4304001,
 		option_word = "進入隨機事件",
 		id = 4362,
@@ -2678,8 +2938,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4363] = {
+	}
+	pg.base.child2_site_event_group[4363] = {
 		node_id = 4305001,
 		option_word = "進入隨機事件",
 		id = 4363,
@@ -2693,8 +2953,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4364] = {
+	}
+	pg.base.child2_site_event_group[4364] = {
 		node_id = 4321001,
 		option_word = "進入隨機事件",
 		id = 4364,
@@ -2708,8 +2968,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4365] = {
+	}
+	pg.base.child2_site_event_group[4365] = {
 		node_id = 4337001,
 		option_word = "進入隨機事件",
 		id = 4365,
@@ -2723,8 +2983,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4366] = {
+	}
+	pg.base.child2_site_event_group[4366] = {
 		node_id = 4345001,
 		option_word = "進入隨機事件",
 		id = 4366,
@@ -2738,8 +2998,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4367] = {
+	}
+	pg.base.child2_site_event_group[4367] = {
 		node_id = 4346001,
 		option_word = "進入隨機事件",
 		id = 4367,
@@ -2753,8 +3013,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4368] = {
+	}
+	pg.base.child2_site_event_group[4368] = {
 		node_id = 4301001,
 		option_word = "進入隨機事件",
 		id = 4368,
@@ -2768,8 +3028,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4369] = {
+	}
+	pg.base.child2_site_event_group[4369] = {
 		node_id = 4303001,
 		option_word = "進入隨機事件",
 		id = 4369,
@@ -2783,8 +3043,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4370] = {
+	}
+	pg.base.child2_site_event_group[4370] = {
 		node_id = 4304001,
 		option_word = "進入隨機事件",
 		id = 4370,
@@ -2798,8 +3058,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4371] = {
+	}
+	pg.base.child2_site_event_group[4371] = {
 		node_id = 4305001,
 		option_word = "進入隨機事件",
 		id = 4371,
@@ -2813,8 +3073,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4372] = {
+	}
+	pg.base.child2_site_event_group[4372] = {
 		node_id = 4321001,
 		option_word = "進入隨機事件",
 		id = 4372,
@@ -2828,8 +3088,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4373] = {
+	}
+	pg.base.child2_site_event_group[4373] = {
 		node_id = 4337001,
 		option_word = "進入隨機事件",
 		id = 4373,
@@ -2843,8 +3103,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4374] = {
+	}
+	pg.base.child2_site_event_group[4374] = {
 		node_id = 4345001,
 		option_word = "進入隨機事件",
 		id = 4374,
@@ -2858,8 +3118,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4375] = {
+	}
+	pg.base.child2_site_event_group[4375] = {
 		node_id = 4346001,
 		option_word = "進入隨機事件",
 		id = 4375,
@@ -2873,8 +3133,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4401] = {
+	}
+	pg.base.child2_site_event_group[4401] = {
 		node_id = 4401001,
 		option_word = "進入隨機事件",
 		id = 4401,
@@ -2888,8 +3148,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4402] = {
+	}
+	pg.base.child2_site_event_group[4402] = {
 		node_id = 4402001,
 		option_word = "進入隨機事件",
 		id = 4402,
@@ -2903,8 +3163,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4403] = {
+	}
+	pg.base.child2_site_event_group[4403] = {
 		node_id = 4403001,
 		option_word = "進入隨機事件",
 		id = 4403,
@@ -2918,8 +3178,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4404] = {
+	}
+	pg.base.child2_site_event_group[4404] = {
 		node_id = 4404001,
 		option_word = "進入隨機事件",
 		id = 4404,
@@ -2933,8 +3193,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4405] = {
+	}
+	pg.base.child2_site_event_group[4405] = {
 		node_id = 4405001,
 		option_word = "進入隨機事件",
 		id = 4405,
@@ -2948,8 +3208,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4406] = {
+	}
+	pg.base.child2_site_event_group[4406] = {
 		node_id = 4406001,
 		option_word = "進入隨機事件",
 		id = 4406,
@@ -2963,8 +3223,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4407] = {
+	}
+	pg.base.child2_site_event_group[4407] = {
 		node_id = 4407001,
 		option_word = "進入隨機事件",
 		id = 4407,
@@ -2978,8 +3238,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4408] = {
+	}
+	pg.base.child2_site_event_group[4408] = {
 		node_id = 4408001,
 		option_word = "進入隨機事件",
 		id = 4408,
@@ -2993,8 +3253,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4409] = {
+	}
+	pg.base.child2_site_event_group[4409] = {
 		node_id = 4409001,
 		option_word = "神秘的大冒險（2）",
 		id = 4409,
@@ -3008,8 +3268,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4410] = {
+	}
+	pg.base.child2_site_event_group[4410] = {
 		node_id = 4410001,
 		option_word = "進入隨機事件",
 		id = 4410,
@@ -3023,8 +3283,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4411] = {
+	}
+	pg.base.child2_site_event_group[4411] = {
 		node_id = 4411001,
 		option_word = "神秘的大冒險（2）",
 		id = 4411,
@@ -3038,8 +3298,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4412] = {
+	}
+	pg.base.child2_site_event_group[4412] = {
 		node_id = 4412001,
 		option_word = "進入隨機事件",
 		id = 4412,
@@ -3053,8 +3313,10 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4413] = {
+	}
+end)()
+(function ()
+	pg.base.child2_site_event_group[4413] = {
 		node_id = 4413001,
 		option_word = "神秘的大冒險（2）",
 		id = 4413,
@@ -3068,8 +3330,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4414] = {
+	}
+	pg.base.child2_site_event_group[4414] = {
 		node_id = 4414001,
 		option_word = "神秘的大冒險（2）",
 		id = 4414,
@@ -3083,8 +3345,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4415] = {
+	}
+	pg.base.child2_site_event_group[4415] = {
 		node_id = 4415001,
 		option_word = "神秘的大冒險（2）",
 		id = 4415,
@@ -3098,8 +3360,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4416] = {
+	}
+	pg.base.child2_site_event_group[4416] = {
 		node_id = 4416001,
 		option_word = "進入隨機事件",
 		id = 4416,
@@ -3113,8 +3375,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4417] = {
+	}
+	pg.base.child2_site_event_group[4417] = {
 		node_id = 4417001,
 		option_word = "練習計畫（2）",
 		id = 4417,
@@ -3128,8 +3390,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4418] = {
+	}
+	pg.base.child2_site_event_group[4418] = {
 		node_id = 4418001,
 		option_word = "進入隨機事件",
 		id = 4418,
@@ -3143,8 +3405,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4419] = {
+	}
+	pg.base.child2_site_event_group[4419] = {
 		node_id = 4419001,
 		option_word = "成長挑戰（2）",
 		id = 4419,
@@ -3158,8 +3420,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4420] = {
+	}
+	pg.base.child2_site_event_group[4420] = {
 		node_id = 4420001,
 		option_word = "進入隨機事件",
 		id = 4420,
@@ -3173,8 +3435,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4421] = {
+	}
+	pg.base.child2_site_event_group[4421] = {
 		node_id = 4421001,
 		option_word = "進入隨機事件",
 		id = 4421,
@@ -3188,8 +3450,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4422] = {
+	}
+	pg.base.child2_site_event_group[4422] = {
 		node_id = 4422001,
 		option_word = "進入隨機事件",
 		id = 4422,
@@ -3203,8 +3465,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4423] = {
+	}
+	pg.base.child2_site_event_group[4423] = {
 		node_id = 4423001,
 		option_word = "進入隨機事件",
 		id = 4423,
@@ -3218,8 +3480,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4424] = {
+	}
+	pg.base.child2_site_event_group[4424] = {
 		node_id = 4424001,
 		option_word = "進入隨機事件",
 		id = 4424,
@@ -3233,8 +3495,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4425] = {
+	}
+	pg.base.child2_site_event_group[4425] = {
 		node_id = 4425001,
 		option_word = "進入隨機事件",
 		id = 4425,
@@ -3248,8 +3510,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4426] = {
+	}
+	pg.base.child2_site_event_group[4426] = {
 		node_id = 4426001,
 		option_word = "進入隨機事件",
 		id = 4426,
@@ -3263,8 +3525,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4427] = {
+	}
+	pg.base.child2_site_event_group[4427] = {
 		node_id = 4427001,
 		option_word = "進入隨機事件",
 		id = 4427,
@@ -3278,8 +3540,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4428] = {
+	}
+	pg.base.child2_site_event_group[4428] = {
 		node_id = 4428001,
 		option_word = "外出時光（2）",
 		id = 4428,
@@ -3293,8 +3555,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4429] = {
+	}
+	pg.base.child2_site_event_group[4429] = {
 		node_id = 4429001,
 		option_word = "外出時光（3）",
 		id = 4429,
@@ -3308,8 +3570,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4430] = {
+	}
+	pg.base.child2_site_event_group[4430] = {
 		node_id = 4430001,
 		option_word = "進入隨機事件",
 		id = 4430,
@@ -3323,8 +3585,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4431] = {
+	}
+	pg.base.child2_site_event_group[4431] = {
 		node_id = 4431001,
 		option_word = "微風與遠景（2）",
 		id = 4431,
@@ -3338,8 +3600,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4432] = {
+	}
+	pg.base.child2_site_event_group[4432] = {
 		node_id = 4432001,
 		option_word = "微風與遠景（3）",
 		id = 4432,
@@ -3353,8 +3615,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4433] = {
+	}
+	pg.base.child2_site_event_group[4433] = {
 		node_id = 4433001,
 		option_word = "進入隨機事件",
 		id = 4433,
@@ -3368,8 +3630,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4434] = {
+	}
+	pg.base.child2_site_event_group[4434] = {
 		node_id = 4434001,
 		option_word = "新口味罐頭（2）",
 		id = 4434,
@@ -3383,8 +3645,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4435] = {
+	}
+	pg.base.child2_site_event_group[4435] = {
 		node_id = 4435001,
 		option_word = "新口味罐頭（3）",
 		id = 4435,
@@ -3398,8 +3660,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4436] = {
+	}
+	pg.base.child2_site_event_group[4436] = {
 		node_id = 4436001,
 		option_word = "進入隨機事件",
 		id = 4436,
@@ -3413,8 +3675,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4437] = {
+	}
+	pg.base.child2_site_event_group[4437] = {
 		node_id = 4437001,
 		option_word = "進入隨機事件",
 		id = 4437,
@@ -3428,8 +3690,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4438] = {
+	}
+	pg.base.child2_site_event_group[4438] = {
 		node_id = 4438001,
 		option_word = "進入隨機事件",
 		id = 4438,
@@ -3443,8 +3705,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4439] = {
+	}
+	pg.base.child2_site_event_group[4439] = {
 		node_id = 4439001,
 		option_word = "引擎轟鳴：摩托騎士（1）",
 		id = 4439,
@@ -3460,8 +3722,8 @@ pg.child2_site_event_group = {
 		performance = {
 			6001
 		}
-	},
-	[4440] = {
+	}
+	pg.base.child2_site_event_group[4440] = {
 		node_id = 4440001,
 		option_word = "引擎轟鳴：摩托騎士（2）",
 		id = 4440,
@@ -3477,8 +3739,8 @@ pg.child2_site_event_group = {
 		performance = {
 			6011
 		}
-	},
-	[4441] = {
+	}
+	pg.base.child2_site_event_group[4441] = {
 		node_id = 4441001,
 		option_word = "引擎轟鳴：摩托騎士（3）",
 		id = 4441,
@@ -3494,8 +3756,8 @@ pg.child2_site_event_group = {
 		performance = {
 			6021
 		}
-	},
-	[4442] = {
+	}
+	pg.base.child2_site_event_group[4442] = {
 		node_id = 4442001,
 		option_word = "心靈軌跡：心理諮詢師（1）",
 		id = 4442,
@@ -3511,8 +3773,8 @@ pg.child2_site_event_group = {
 		performance = {
 			6101
 		}
-	},
-	[4443] = {
+	}
+	pg.base.child2_site_event_group[4443] = {
 		node_id = 4443001,
 		option_word = "心靈軌跡：心理諮詢師（2）",
 		id = 4443,
@@ -3528,8 +3790,8 @@ pg.child2_site_event_group = {
 		performance = {
 			6111
 		}
-	},
-	[4444] = {
+	}
+	pg.base.child2_site_event_group[4444] = {
 		node_id = 4444001,
 		option_word = "心靈軌跡：心理諮詢師（3）",
 		id = 4444,
@@ -3545,8 +3807,8 @@ pg.child2_site_event_group = {
 		performance = {
 			6121
 		}
-	},
-	[4445] = {
+	}
+	pg.base.child2_site_event_group[4445] = {
 		node_id = 4445001,
 		option_word = "進入隨機事件",
 		id = 4445,
@@ -3560,8 +3822,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4446] = {
+	}
+	pg.base.child2_site_event_group[4446] = {
 		node_id = 4446001,
 		option_word = "進入隨機事件",
 		id = 4446,
@@ -3575,8 +3837,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4460] = {
+	}
+	pg.base.child2_site_event_group[4460] = {
 		node_id = 4401001,
 		option_word = "進入隨機事件",
 		id = 4460,
@@ -3590,8 +3852,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4461] = {
+	}
+	pg.base.child2_site_event_group[4461] = {
 		node_id = 4403001,
 		option_word = "進入隨機事件",
 		id = 4461,
@@ -3605,8 +3867,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4462] = {
+	}
+	pg.base.child2_site_event_group[4462] = {
 		node_id = 4404001,
 		option_word = "進入隨機事件",
 		id = 4462,
@@ -3620,8 +3882,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4463] = {
+	}
+	pg.base.child2_site_event_group[4463] = {
 		node_id = 4405001,
 		option_word = "進入隨機事件",
 		id = 4463,
@@ -3635,8 +3897,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4464] = {
+	}
+	pg.base.child2_site_event_group[4464] = {
 		node_id = 4421001,
 		option_word = "進入隨機事件",
 		id = 4464,
@@ -3650,8 +3912,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4465] = {
+	}
+	pg.base.child2_site_event_group[4465] = {
 		node_id = 4437001,
 		option_word = "進入隨機事件",
 		id = 4465,
@@ -3665,8 +3927,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4466] = {
+	}
+	pg.base.child2_site_event_group[4466] = {
 		node_id = 4445001,
 		option_word = "進入隨機事件",
 		id = 4466,
@@ -3680,8 +3942,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4467] = {
+	}
+	pg.base.child2_site_event_group[4467] = {
 		node_id = 4446001,
 		option_word = "進入隨機事件",
 		id = 4467,
@@ -3695,8 +3957,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4468] = {
+	}
+	pg.base.child2_site_event_group[4468] = {
 		node_id = 4401001,
 		option_word = "進入隨機事件",
 		id = 4468,
@@ -3710,8 +3972,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4469] = {
+	}
+	pg.base.child2_site_event_group[4469] = {
 		node_id = 4403001,
 		option_word = "進入隨機事件",
 		id = 4469,
@@ -3725,8 +3987,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4470] = {
+	}
+	pg.base.child2_site_event_group[4470] = {
 		node_id = 4404001,
 		option_word = "進入隨機事件",
 		id = 4470,
@@ -3740,8 +4002,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4471] = {
+	}
+	pg.base.child2_site_event_group[4471] = {
 		node_id = 4405001,
 		option_word = "進入隨機事件",
 		id = 4471,
@@ -3755,8 +4017,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4472] = {
+	}
+	pg.base.child2_site_event_group[4472] = {
 		node_id = 4421001,
 		option_word = "進入隨機事件",
 		id = 4472,
@@ -3770,8 +4032,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4473] = {
+	}
+	pg.base.child2_site_event_group[4473] = {
 		node_id = 4437001,
 		option_word = "進入隨機事件",
 		id = 4473,
@@ -3785,8 +4047,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4474] = {
+	}
+	pg.base.child2_site_event_group[4474] = {
 		node_id = 4445001,
 		option_word = "進入隨機事件",
 		id = 4474,
@@ -3800,8 +4062,8 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	[4475] = {
+	}
+	pg.base.child2_site_event_group[4475] = {
 		node_id = 4446001,
 		option_word = "進入隨機事件",
 		id = 4475,
@@ -3815,257 +4077,5 @@ pg.child2_site_event_group = {
 			1
 		},
 		performance = {}
-	},
-	all = {
-		101,
-		201,
-		4101,
-		4102,
-		4103,
-		4104,
-		4105,
-		4106,
-		4107,
-		4108,
-		4109,
-		4110,
-		4111,
-		4112,
-		4113,
-		4114,
-		4115,
-		4116,
-		4117,
-		4118,
-		4119,
-		4120,
-		4121,
-		4122,
-		4123,
-		4124,
-		4125,
-		4126,
-		4127,
-		4128,
-		4129,
-		4130,
-		4131,
-		4132,
-		4133,
-		4134,
-		4135,
-		4136,
-		4137,
-		4138,
-		4139,
-		4140,
-		4141,
-		4142,
-		4143,
-		4144,
-		4145,
-		4146,
-		4160,
-		4161,
-		4162,
-		4163,
-		4164,
-		4165,
-		4166,
-		4167,
-		4168,
-		4169,
-		4170,
-		4171,
-		4172,
-		4173,
-		4174,
-		4175,
-		4201,
-		4202,
-		4203,
-		4204,
-		4205,
-		4206,
-		4207,
-		4208,
-		4209,
-		4210,
-		4211,
-		4212,
-		4213,
-		4214,
-		4215,
-		4216,
-		4217,
-		4218,
-		4219,
-		4220,
-		4221,
-		4222,
-		4223,
-		4224,
-		4225,
-		4226,
-		4227,
-		4228,
-		4229,
-		4230,
-		4231,
-		4232,
-		4233,
-		4234,
-		4235,
-		4236,
-		4237,
-		4238,
-		4239,
-		4240,
-		4241,
-		4242,
-		4243,
-		4244,
-		4245,
-		4246,
-		4260,
-		4261,
-		4262,
-		4263,
-		4264,
-		4265,
-		4266,
-		4267,
-		4268,
-		4269,
-		4270,
-		4271,
-		4272,
-		4273,
-		4274,
-		4275,
-		4301,
-		4302,
-		4303,
-		4304,
-		4305,
-		4306,
-		4307,
-		4308,
-		4309,
-		4310,
-		4311,
-		4312,
-		4313,
-		4314,
-		4315,
-		4316,
-		4317,
-		4318,
-		4319,
-		4320,
-		4321,
-		4322,
-		4323,
-		4324,
-		4325,
-		4326,
-		4327,
-		4328,
-		4329,
-		4330,
-		4331,
-		4332,
-		4333,
-		4334,
-		4335,
-		4336,
-		4337,
-		4338,
-		4339,
-		4340,
-		4341,
-		4342,
-		4343,
-		4344,
-		4345,
-		4346,
-		4360,
-		4361,
-		4362,
-		4363,
-		4364,
-		4365,
-		4366,
-		4367,
-		4368,
-		4369,
-		4370,
-		4371,
-		4372,
-		4373,
-		4374,
-		4375,
-		4401,
-		4402,
-		4403,
-		4404,
-		4405,
-		4406,
-		4407,
-		4408,
-		4409,
-		4410,
-		4411,
-		4412,
-		4413,
-		4414,
-		4415,
-		4416,
-		4417,
-		4418,
-		4419,
-		4420,
-		4421,
-		4422,
-		4423,
-		4424,
-		4425,
-		4426,
-		4427,
-		4428,
-		4429,
-		4430,
-		4431,
-		4432,
-		4433,
-		4434,
-		4435,
-		4436,
-		4437,
-		4438,
-		4439,
-		4440,
-		4441,
-		4442,
-		4443,
-		4444,
-		4445,
-		4446,
-		4460,
-		4461,
-		4462,
-		4463,
-		4464,
-		4465,
-		4466,
-		4467,
-		4468,
-		4469,
-		4470,
-		4471,
-		4472,
-		4473,
-		4474,
-		4475
 	}
-}
+end)()

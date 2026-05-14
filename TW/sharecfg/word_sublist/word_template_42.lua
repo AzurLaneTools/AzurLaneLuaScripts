@@ -4,9 +4,27 @@ slot0.word_template_42 = {}
 slot1 = slot0.word_template_42
 
 temp = function()
-	uv0["转"] = {
-		["法"] = {
-			["轮"] = {
+	uv0["鈐"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["錢"] = {
+		["達"] = {
+			this = true
+		},
+		["國"] = {
+			["梁"] = {
+				this = true
+			}
+		},
+		["其"] = {
+			["琛"] = {
 				this = true
 			}
 		}
@@ -16,204 +34,308 @@ end
 temp()
 
 temp = function()
-	uv0["自"] = {
-		["焚"] = {
-			this = true,
-			["抗"] = {
-				["议"] = {
-					this = true
-				},
-				["議"] = {
-					this = true
-				}
-			}
+	uv0["膁"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["槧"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["錆"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["繰"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["喬"] = {
+		["石"] = {
+			this = true
 		},
-		["慰"] = {
-			this = true,
-			["抠"] = {
-				["穴"] = {
-					this = true
-				}
-			},
-			["摳"] = {
-				["穴"] = {
-					this = true
-				}
-			}
-		},
-		["拍"] = {
-			["美"] = {
-				["穴"] = {
-					this = true
-				}
-			},
-			["写"] = {
-				["真"] = {
-					this = true
-				}
-			},
-			["寫"] = {
-				["真"] = {
-					this = true
-				}
-			},
-			["淫"] = {
-				["照"] = {
+		["伊"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["橋"] = {
+		["侵"] = {
+			["襲"] = {
+				["兵"] = {
 					this = true
 				}
 			}
-		},
-		["插"] = {
-			this = true,
-			["小"] = {
-				["穴"] = {
-					this = true
-				}
-			}
-		},
-		["制"] = {
-			["手"] = {
-				["枪"] = {
-					this = true,
-					["销"] = {
-						["售"] = {
-							this = true
-						}
-					},
-					["出"] = {
-						["售"] = {
-							this = true
-						}
-					}
-				},
-				["狗"] = {
-					this = true
-				}
-			}
-		},
-		["製"] = {
-			["手"] = {
-				["槍"] = {
-					this = true,
-					["销"] = {
-						["售"] = {
-							this = true
-						}
-					},
-					["出"] = {
-						["售"] = {
-							this = true
-						}
-					},
-					["銷"] = {
-						["售"] = {
-							this = true
-						}
-					}
-				},
-				["狗"] = {
-					this = true
-				}
-			},
-			["7"] = {
-				["6"] = {
-					["2"] = {
-						m = {
-							m = {
-								["手"] = {
-									["狗"] = {
-										this = true
-									}
-								}
-							}
-						}
-					}
-				}
-			},
-			["5"] = {
-				["8"] = {
-					m = {
-						m = {
-							["手"] = {
-								["狗"] = {
-									this = true
-								}
-							}
-						}
-					}
-				}
-			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["譙"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["鞽"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["篋"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["親"] = {
+		["美"] = {
+			this = true
 		},
 		["民"] = {
-			["党"] = {
-				this = true
-			},
 			["黨"] = {
 				this = true
 			}
 		},
-		["已"] = {
-			["的"] = {
-				["故"] = {
-					["事"] = {
+		["日"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["欽"] = {
+		["本"] = {
+			["立"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["禽"] = {
+		["獸"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["唚"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["輕"] = {
+		["舟"] = {
+			["快"] = {
+				["訊"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["檾"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["慶"] = {
+		["紅"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["丘"] = {
+		["垂"] = {
+			["貞"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["詘"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["闃"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["犬"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["綣"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["愨"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["讓"] = {
+		["你"] = {
+			["操"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["熱"] = {
+		["比"] = {
+			["婭"] = {
+				this = true
+			}
+		},
+		["站"] = {
+			["政"] = {
+				["論"] = {
+					["網"] = {
 						this = true
 					}
 				}
 			}
 		},
-		["由"] = {
-			["民"] = {
-				["主"] = {
-					["论"] = {
-						["坛"] = {
-							this = true
-						}
-					},
-					["論"] = {
-						["壇"] = {
+		["那"] = {
+			["亞"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["顬"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["瑞"] = {
+		["士"] = {
+			["金"] = {
+				["融"] = {
+					["大"] = {
+						["學"] = {
 							this = true
 						}
 					}
 				}
 			}
-		},
-		["杀"] = {
-			this = true,
-			["手"] = {
-				["册"] = {
-					this = true
-				}
-			},
-			["指"] = {
-				["南"] = {
-					this = true
-				}
-			}
-		},
-		["治"] = {
-			["机"] = {
-				["关"] = {
-					this = true
-				}
-			},
-			["機"] = {
-				["關"] = {
-					this = true
-				}
-			}
-		},
-		["殺"] = {
-			this = true,
-			["手"] = {
-				["冊"] = {
-					this = true
-				}
-			},
-			["指"] = {
-				["南"] = {
-					this = true
-				}
-			}
 		}
 	}
 end
@@ -221,39 +343,18 @@ end
 temp()
 
 temp = function()
-	uv0["苏"] = {
-		["家"] = {
-			["屯"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["基"] = {
-		["地"] = {
-			["组"] = {
-				["织"] = {
-					this = true
-				}
-			},
-			["組"] = {
-				["織"] = {
-					this = true
-				}
-			}
-		},
-		["督"] = {
-			this = true,
-			["教"] = {
+	uv0["薩"] = {
+		["達"] = {
+			["姆"] = {
 				this = true
 			}
 		},
-		["掰"] = {
-			this = true
+		["馬"] = {
+			["蘭"] = {
+				["奇"] = {
+					this = true
+				}
+			}
 		}
 	}
 end

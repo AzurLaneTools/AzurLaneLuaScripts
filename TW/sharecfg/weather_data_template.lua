@@ -1,6 +1,17 @@
 pg = pg or {}
-pg.weather_data_template = {
-	[101] = {
+pg.weather_data_template = rawget(pg, "weather_data_template") or setmetatable({
+	__name = "weather_data_template"
+}, confNEO)
+pg.weather_data_template.all = {
+	101,
+	102,
+	103
+}
+pg.base = pg.base or {}
+pg.base.weather_data_template = {}
+
+(function ()
+	pg.base.weather_data_template[101] = {
 		buff_desc = "蘇里高海峽被黑夜和雷雨籠罩，己方先鋒艦隊與敵方艦隊均獲得「夜戰隱蔽」狀態。被攻擊時，艦隊會依據當前隱蔽強度獲得額外的躲避能力。",
 		name = "夜戰",
 		id = 101,
@@ -9,8 +20,8 @@ pg.weather_data_template = {
 		effect_args = {
 			buff = 9677
 		}
-	},
-	[102] = {
+	}
+	pg.base.weather_data_template[102] = {
 		buff_desc = "處於海霧區域中，戰鬥時己方和敵方的隱蔽強度降低速率減慢。",
 		name = "海霧",
 		id = 102,
@@ -19,18 +30,13 @@ pg.weather_data_template = {
 		effect_args = {
 			buff = 9620
 		}
-	},
-	[103] = {
+	}
+	pg.base.weather_data_template[103] = {
 		buff_desc = "",
 		name = "迷霧",
 		id = 103,
 		buff_icon = "",
 		icon = "visible_fog",
 		effect_args = {}
-	},
-	all = {
-		101,
-		102,
-		103
 	}
-}
+end)()

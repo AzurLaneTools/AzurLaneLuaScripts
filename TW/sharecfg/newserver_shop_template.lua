@@ -1,6 +1,20 @@
 pg = pg or {}
-pg.newserver_shop_template = {
-	[24] = {
+pg.newserver_shop_template = rawget(pg, "newserver_shop_template") or setmetatable({
+	__name = "newserver_shop_template"
+}, confNEO)
+pg.newserver_shop_template.all = {
+	24
+}
+pg.newserver_shop_template.get_id_list_by_unlock_time = {
+	[0] = {
+		24
+	}
+}
+pg.base = pg.base or {}
+pg.base.newserver_shop_template = {}
+
+(function ()
+	pg.base.newserver_shop_template[24] = {
 		unlock_time = 0,
 		resource_category = 1,
 		goods_rarity = 1,
@@ -16,13 +30,5 @@ pg.newserver_shop_template = {
 		goods = {
 			1
 		}
-	},
-	get_id_list_by_unlock_time = {
-		[0] = {
-			24
-		}
-	},
-	all = {
-		24
 	}
-}
+end)()

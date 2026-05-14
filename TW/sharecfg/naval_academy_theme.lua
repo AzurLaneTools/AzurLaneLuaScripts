@@ -1,31 +1,37 @@
 pg = pg or {}
-pg.naval_academy_theme = {
-	spring = {
+pg.naval_academy_theme = rawget(pg, "naval_academy_theme") or setmetatable({
+	__name = "naval_academy_theme"
+}, confNEO)
+pg.base = pg.base or {}
+pg.base.naval_academy_theme = {}
+
+(function ()
+	pg.base.naval_academy_theme.spring = {
 		theme_name = "spring",
 		resource_path = "NavalAcademySpringUI"
-	},
-	summer = {
+	}
+	pg.base.naval_academy_theme.summer = {
 		theme_name = "summer",
 		resource_path = "NavalAcademySummerUI"
-	},
-	autumn = {
+	}
+	pg.base.naval_academy_theme.autumn = {
 		theme_name = "autumn",
 		resource_path = "NavalAcademyAutumnUI"
-	},
-	winter = {
+	}
+	pg.base.naval_academy_theme.winter = {
 		theme_name = "winter",
 		resource_path = "NavalAcademyWinterUI"
-	},
-	christmas = {
+	}
+	pg.base.naval_academy_theme.christmas = {
 		theme_name = "christmas",
 		resource_path = "NavalAcademyChristmasUI"
-	},
-	newyear = {
+	}
+	pg.base.naval_academy_theme.newyear = {
 		theme_name = "newyear",
 		resource_path = "NavalAcademyNewYearUI"
-	},
-	springfes = {
+	}
+	pg.base.naval_academy_theme.springfes = {
 		theme_name = "springfes",
 		resource_path = "NavalAcademySpringFesUI"
 	}
-}
+end)()

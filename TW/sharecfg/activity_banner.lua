@@ -1,6 +1,138 @@
 pg = pg or {}
-pg.activity_banner = {
-	{
+pg.activity_banner = rawget(pg, "activity_banner") or setmetatable({
+	__name = "activity_banner"
+}, confNEO)
+pg.activity_banner.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	90,
+	91,
+	95,
+	99,
+	100,
+	101,
+	102,
+	103,
+	104,
+	105,
+	198,
+	199,
+	200,
+	201,
+	202,
+	203,
+	204,
+	1000,
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008,
+	1009,
+	1010,
+	1011,
+	1012,
+	1013,
+	1014,
+	1015,
+	1016,
+	1017,
+	1018,
+	1019,
+	1020,
+	1021,
+	1022,
+	1023,
+	1024
+}
+pg.activity_banner.get_id_list_by_type = {
+	[2] = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		9,
+		11,
+		1000,
+		1001,
+		1002,
+		1004,
+		1005,
+		1006,
+		1007,
+		1008,
+		1009,
+		1010,
+		1011,
+		1012,
+		1013,
+		1014,
+		1016,
+		1017,
+		1018,
+		1019,
+		1020,
+		1021,
+		1022,
+		1023,
+		1024
+	},
+	[3] = {
+		7,
+		8,
+		10,
+		1003
+	},
+	[8] = {
+		1015
+	},
+	[9] = {
+		90,
+		91
+	},
+	[10] = {
+		100,
+		101,
+		102,
+		103,
+		104,
+		105
+	},
+	[11] = {
+		95
+	},
+	[12] = {
+		99
+	},
+	[13] = {
+		198,
+		199,
+		200,
+		201,
+		202,
+		203,
+		204
+	}
+}
+pg.base = pg.base or {}
+pg.base.activity_banner = {}
+
+(function ()
+	pg.base.activity_banner[1] = {
 		type = 2,
 		id = 1,
 		pic = "temp1",
@@ -34,8 +166,8 @@ pg.activity_banner = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_banner[2] = {
 		type = 2,
 		id = 2,
 		pic = "temp2",
@@ -72,8 +204,8 @@ pg.activity_banner = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_banner[3] = {
 		type = 2,
 		id = 3,
 		pic = "temp3",
@@ -109,8 +241,8 @@ pg.activity_banner = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_banner[4] = {
 		type = 2,
 		id = 4,
 		pic = "temp4",
@@ -146,8 +278,8 @@ pg.activity_banner = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_banner[5] = {
 		type = 2,
 		id = 5,
 		pic = "temp5",
@@ -183,8 +315,8 @@ pg.activity_banner = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_banner[6] = {
 		type = 2,
 		id = 6,
 		pic = "temp6",
@@ -217,8 +349,8 @@ pg.activity_banner = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_banner[7] = {
 		param = "50804",
 		type = 3,
 		id = 7,
@@ -249,8 +381,8 @@ pg.activity_banner = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_banner[8] = {
 		param = "50806",
 		type = 3,
 		id = 8,
@@ -281,8 +413,8 @@ pg.activity_banner = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_banner[9] = {
 		type = 2,
 		id = 9,
 		pic = "temp9",
@@ -319,15 +451,15 @@ pg.activity_banner = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_banner[10] = {
 		param = "50298",
 		time = "stop",
 		type = 3,
 		id = 10,
 		pic = "temp10"
-	},
-	{
+	}
+	pg.base.activity_banner[11] = {
 		time = "stop",
 		type = 2,
 		id = 11,
@@ -338,29 +470,29 @@ pg.activity_banner = {
 				goToPray = true
 			}
 		}
-	},
-	[90] = {
+	}
+	pg.base.activity_banner[90] = {
 		param = "",
 		time = "stop",
 		type = 9,
 		id = 90,
 		pic = "temp99"
-	},
-	[91] = {
+	}
+	pg.base.activity_banner[91] = {
 		param = "",
 		time = "stop",
 		type = 9,
 		id = 91,
 		pic = "temp98"
-	},
-	[95] = {
+	}
+	pg.base.activity_banner[95] = {
 		param = "",
 		time = "stop",
 		type = 11,
 		id = 95,
 		pic = "temp100"
-	},
-	[99] = {
+	}
+	pg.base.activity_banner[99] = {
 		param = "",
 		type = 12,
 		id = 99,
@@ -391,8 +523,8 @@ pg.activity_banner = {
 				}
 			}
 		}
-	},
-	[100] = {
+	}
+	pg.base.activity_banner[100] = {
 		param = "餃子|廣受歡迎的傳統特色食物！<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
 		type = 10,
 		id = 100,
@@ -423,92 +555,92 @@ pg.activity_banner = {
 				}
 			}
 		}
-	},
-	[101] = {
+	}
+	pg.base.activity_banner[101] = {
 		param = "镜饼|要开了才能吃哦？<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
 		time = "stop",
 		type = 10,
 		id = 101,
 		pic = "jingbing"
-	},
-	[102] = {
+	}
+	pg.base.activity_banner[102] = {
 		param = "桂花糕|用相傳從月宮裡摘下來的桂花製成的糕點，香甜可口！<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
 		time = "stop",
 		type = 10,
 		id = 102,
 		pic = "guihuagao"
-	},
-	[103] = {
+	}
+	pg.base.activity_banner[103] = {
 		param = "鏡餅|要開了才能吃哦？<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
 		time = "stop",
 		type = 10,
 		id = 103,
 		pic = "jingbing"
-	},
-	[104] = {
+	}
+	pg.base.activity_banner[104] = {
 		param = "拐杖糖|據說最原始的拐杖糖是白色的呢。<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
 		time = "stop",
 		type = 10,
 		id = 104,
 		pic = "christmas"
-	},
-	[105] = {
+	}
+	pg.base.activity_banner[105] = {
 		param = "餃子|廣受歡迎的傳統特色食物！<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
 		time = "stop",
 		type = 10,
 		id = 105,
 		pic = "dumpling"
-	},
-	[198] = {
+	}
+	pg.base.activity_banner[198] = {
 		param = "",
 		time = "stop",
 		type = 13,
 		id = 198,
 		pic = "christmas"
-	},
-	[199] = {
+	}
+	pg.base.activity_banner[199] = {
 		param = "",
 		time = "stop",
 		type = 13,
 		id = 199,
 		pic = "newyear"
-	},
-	[200] = {
+	}
+	pg.base.activity_banner[200] = {
 		param = "",
 		time = "stop",
 		type = 13,
 		id = 200,
 		pic = "springfes"
-	},
-	[201] = {
+	}
+	pg.base.activity_banner[201] = {
 		param = "",
 		time = "stop",
 		type = 13,
 		id = 201,
 		pic = "autumn"
-	},
-	[202] = {
+	}
+	pg.base.activity_banner[202] = {
 		param = "",
 		time = "stop",
 		type = 13,
 		id = 202,
 		pic = "winter"
-	},
-	[203] = {
+	}
+	pg.base.activity_banner[203] = {
 		param = "",
 		time = "always",
 		type = 13,
 		id = 203,
 		pic = "spring"
-	},
-	[204] = {
+	}
+	pg.base.activity_banner[204] = {
 		param = "",
 		time = "stop",
 		type = 13,
 		id = 204,
 		pic = "summer"
-	},
-	[1000] = {
+	}
+	pg.base.activity_banner[1000] = {
 		time = "stop",
 		type = 2,
 		id = 1000,
@@ -516,8 +648,8 @@ pg.activity_banner = {
 		param = {
 			"scene court yard"
 		}
-	},
-	[1001] = {
+	}
+	pg.base.activity_banner[1001] = {
 		time = "stop",
 		type = 2,
 		id = 1001,
@@ -525,8 +657,8 @@ pg.activity_banner = {
 		param = {
 			"scene shop"
 		}
-	},
-	[1002] = {
+	}
+	pg.base.activity_banner[1002] = {
 		time = "stop",
 		type = 2,
 		id = 1002,
@@ -537,15 +669,15 @@ pg.activity_banner = {
 				wrap = 2
 			}
 		}
-	},
-	[1003] = {
+	}
+	pg.base.activity_banner[1003] = {
 		param = "40341",
 		time = "stop",
 		type = 3,
 		id = 1003,
 		pic = ""
-	},
-	[1004] = {
+	}
+	pg.base.activity_banner[1004] = {
 		time = "stop",
 		type = 2,
 		id = 1004,
@@ -553,8 +685,8 @@ pg.activity_banner = {
 		param = {
 			"scene skinshop"
 		}
-	},
-	[1005] = {
+	}
+	pg.base.activity_banner[1005] = {
 		time = "stop",
 		type = 2,
 		id = 1005,
@@ -565,8 +697,8 @@ pg.activity_banner = {
 				wrap = 2
 			}
 		}
-	},
-	[1006] = {
+	}
+	pg.base.activity_banner[1006] = {
 		time = "stop",
 		type = 2,
 		id = 1006,
@@ -577,8 +709,8 @@ pg.activity_banner = {
 				wrap = 2
 			}
 		}
-	},
-	[1007] = {
+	}
+	pg.base.activity_banner[1007] = {
 		time = "stop",
 		type = 2,
 		id = 1007,
@@ -589,8 +721,8 @@ pg.activity_banner = {
 				wrap = 2
 			}
 		}
-	},
-	[1008] = {
+	}
+	pg.base.activity_banner[1008] = {
 		time = "stop",
 		type = 2,
 		id = 1008,
@@ -602,8 +734,8 @@ pg.activity_banner = {
 				activity = 41366
 			}
 		}
-	},
-	[1009] = {
+	}
+	pg.base.activity_banner[1009] = {
 		time = "stop",
 		type = 2,
 		id = 1009,
@@ -615,8 +747,8 @@ pg.activity_banner = {
 				page = 1
 			}
 		}
-	},
-	[1010] = {
+	}
+	pg.base.activity_banner[1010] = {
 		time = "stop",
 		type = 2,
 		id = 1010,
@@ -627,8 +759,8 @@ pg.activity_banner = {
 				page = BuildShipScene.PAGE_PRAY
 			}
 		}
-	},
-	[1011] = {
+	}
+	pg.base.activity_banner[1011] = {
 		time = "stop",
 		type = 2,
 		id = 1011,
@@ -639,8 +771,8 @@ pg.activity_banner = {
 				projectName = "light"
 			}
 		}
-	},
-	[1012] = {
+	}
+	pg.base.activity_banner[1012] = {
 		time = "stop",
 		type = 2,
 		id = 1012,
@@ -649,8 +781,8 @@ pg.activity_banner = {
 			"act boss battle",
 			{}
 		}
-	},
-	[1013] = {
+	}
+	pg.base.activity_banner[1013] = {
 		time = "stop",
 		type = 2,
 		id = 1013,
@@ -661,8 +793,8 @@ pg.activity_banner = {
 				mapIdx = 14
 			}
 		}
-	},
-	[1014] = {
+	}
+	pg.base.activity_banner[1014] = {
 		time = "stop",
 		type = 2,
 		id = 1014,
@@ -671,15 +803,15 @@ pg.activity_banner = {
 			"scene level",
 			{}
 		}
-	},
-	[1015] = {
+	}
+	pg.base.activity_banner[1015] = {
 		param = "",
 		time = "stop",
 		type = 8,
 		id = 1015,
 		pic = ""
-	},
-	[1016] = {
+	}
+	pg.base.activity_banner[1016] = {
 		time = "stop",
 		type = 2,
 		id = 1016,
@@ -690,8 +822,8 @@ pg.activity_banner = {
 				autoOpenShipConfigID = 9707011
 			}
 		}
-	},
-	[1017] = {
+	}
+	pg.base.activity_banner[1017] = {
 		time = "stop",
 		type = 2,
 		id = 1017,
@@ -700,8 +832,8 @@ pg.activity_banner = {
 			"scene level",
 			{}
 		}
-	},
-	[1018] = {
+	}
+	pg.base.activity_banner[1018] = {
 		time = "stop",
 		type = 2,
 		id = 1018,
@@ -713,8 +845,8 @@ pg.activity_banner = {
 				warp = "WARP_TO_DESIGN"
 			}
 		}
-	},
-	[1019] = {
+	}
+	pg.base.activity_banner[1019] = {
 		time = "stop",
 		type = 2,
 		id = 1019,
@@ -725,8 +857,8 @@ pg.activity_banner = {
 				warp = "shopstreet"
 			}
 		}
-	},
-	[1020] = {
+	}
+	pg.base.activity_banner[1020] = {
 		time = "stop",
 		type = 2,
 		id = 1020,
@@ -734,8 +866,8 @@ pg.activity_banner = {
 		param = {
 			"equip transform"
 		}
-	},
-	[1021] = {
+	}
+	pg.base.activity_banner[1021] = {
 		time = "stop",
 		type = 2,
 		id = 1021,
@@ -747,8 +879,8 @@ pg.activity_banner = {
 				isSP = false
 			}
 		}
-	},
-	[1022] = {
+	}
+	pg.base.activity_banner[1022] = {
 		time = "stop",
 		type = 2,
 		id = 1022,
@@ -756,8 +888,8 @@ pg.activity_banner = {
 		param = {
 			"crusing"
 		}
-	},
-	[1023] = {
+	}
+	pg.base.activity_banner[1023] = {
 		time = "stop",
 		type = 2,
 		id = 1023,
@@ -765,8 +897,8 @@ pg.activity_banner = {
 		param = {
 			"scene vote entrance"
 		}
-	},
-	[1024] = {
+	}
+	pg.base.activity_banner[1024] = {
 		time = "stop",
 		type = 2,
 		id = 1024,
@@ -775,131 +907,5 @@ pg.activity_banner = {
 			"scene Cryptolalia",
 			{}
 		}
-	},
-	get_id_list_by_type = {
-		[2] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			9,
-			11,
-			1000,
-			1001,
-			1002,
-			1004,
-			1005,
-			1006,
-			1007,
-			1008,
-			1009,
-			1010,
-			1011,
-			1012,
-			1013,
-			1014,
-			1016,
-			1017,
-			1018,
-			1019,
-			1020,
-			1021,
-			1022,
-			1023,
-			1024
-		},
-		[3] = {
-			7,
-			8,
-			10,
-			1003
-		},
-		[9] = {
-			90,
-			91
-		},
-		[11] = {
-			95
-		},
-		[12] = {
-			99
-		},
-		[10] = {
-			100,
-			101,
-			102,
-			103,
-			104,
-			105
-		},
-		[13] = {
-			198,
-			199,
-			200,
-			201,
-			202,
-			203,
-			204
-		},
-		[8] = {
-			1015
-		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		90,
-		91,
-		95,
-		99,
-		100,
-		101,
-		102,
-		103,
-		104,
-		105,
-		198,
-		199,
-		200,
-		201,
-		202,
-		203,
-		204,
-		1000,
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1007,
-		1008,
-		1009,
-		1010,
-		1011,
-		1012,
-		1013,
-		1014,
-		1015,
-		1016,
-		1017,
-		1018,
-		1019,
-		1020,
-		1021,
-		1022,
-		1023,
-		1024
 	}
-}
+end)()

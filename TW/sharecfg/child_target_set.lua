@@ -1,6 +1,44 @@
 pg = pg or {}
-pg.child_target_set = {
-	{
+pg.child_target_set = rawget(pg, "child_target_set") or setmetatable({
+	__name = "child_target_set"
+}, confNEO)
+pg.child_target_set.all = {
+	1,
+	2,
+	3,
+	4,
+	11,
+	12,
+	13,
+	14,
+	21,
+	22,
+	23,
+	24,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	51,
+	52,
+	53,
+	54,
+	55,
+	56
+}
+pg.base = pg.base or {}
+pg.base.child_target_set = {}
+
+(function ()
+	pg.base.child_target_set[1] = {
 		target_progress = 5,
 		name = "快樂玩耍",
 		stage = 1,
@@ -31,8 +69,8 @@ pg.child_target_set = {
 			201,
 			1
 		}
-	},
-	{
+	}
+	pg.base.child_target_set[2] = {
 		target_progress = 5,
 		name = "教育啟蒙",
 		stage = 1,
@@ -63,8 +101,8 @@ pg.child_target_set = {
 			202,
 			1
 		}
-	},
-	{
+	}
+	pg.base.child_target_set[3] = {
 		target_progress = 5,
 		name = "舉止優雅",
 		stage = 1,
@@ -95,8 +133,8 @@ pg.child_target_set = {
 			203,
 			1
 		}
-	},
-	{
+	}
+	pg.base.child_target_set[4] = {
 		target_progress = 5,
 		name = "感知世界",
 		stage = 1,
@@ -127,8 +165,8 @@ pg.child_target_set = {
 			204,
 			1
 		}
-	},
-	[11] = {
+	}
+	pg.base.child_target_set[11] = {
 		target_progress = 5,
 		name = "精力充沛",
 		stage = 2,
@@ -162,8 +200,8 @@ pg.child_target_set = {
 			205,
 			1
 		}
-	},
-	[12] = {
+	}
+	pg.base.child_target_set[12] = {
 		target_progress = 5,
 		name = "聰穎過人",
 		stage = 2,
@@ -197,8 +235,8 @@ pg.child_target_set = {
 			206,
 			1
 		}
-	},
-	[13] = {
+	}
+	pg.base.child_target_set[13] = {
 		target_progress = 5,
 		name = "舉止大方",
 		stage = 2,
@@ -232,8 +270,8 @@ pg.child_target_set = {
 			207,
 			1
 		}
-	},
-	[14] = {
+	}
+	pg.base.child_target_set[14] = {
 		target_progress = 5,
 		name = "細緻入微",
 		stage = 2,
@@ -267,8 +305,8 @@ pg.child_target_set = {
 			208,
 			1
 		}
-	},
-	[21] = {
+	}
+	pg.base.child_target_set[21] = {
 		target_progress = 8,
 		name = "身姿矯健",
 		stage = 3,
@@ -297,8 +335,8 @@ pg.child_target_set = {
 			209,
 			1
 		}
-	},
-	[22] = {
+	}
+	pg.base.child_target_set[22] = {
 		target_progress = 8,
 		name = "才思敏捷",
 		stage = 3,
@@ -327,8 +365,8 @@ pg.child_target_set = {
 			210,
 			1
 		}
-	},
-	[23] = {
+	}
+	pg.base.child_target_set[23] = {
 		target_progress = 8,
 		name = "氣質非凡",
 		stage = 3,
@@ -357,8 +395,8 @@ pg.child_target_set = {
 			211,
 			1
 		}
-	},
-	[24] = {
+	}
+	pg.base.child_target_set[24] = {
 		target_progress = 8,
 		name = "敏感細膩",
 		stage = 3,
@@ -387,8 +425,8 @@ pg.child_target_set = {
 			212,
 			1
 		}
-	},
-	[31] = {
+	}
+	pg.base.child_target_set[31] = {
 		target_progress = 10,
 		name = "靈巧機敏",
 		stage = 4,
@@ -426,8 +464,8 @@ pg.child_target_set = {
 				201
 			}
 		}
-	},
-	[32] = {
+	}
+	pg.base.child_target_set[32] = {
 		target_progress = 11,
 		name = "創意無限",
 		stage = 4,
@@ -466,8 +504,8 @@ pg.child_target_set = {
 				201
 			}
 		}
-	},
-	[33] = {
+	}
+	pg.base.child_target_set[33] = {
 		target_progress = 11,
 		name = "注重細節",
 		stage = 4,
@@ -506,8 +544,8 @@ pg.child_target_set = {
 				201
 			}
 		}
-	},
-	[34] = {
+	}
+	pg.base.child_target_set[34] = {
 		target_progress = 11,
 		name = "行動力強",
 		stage = 4,
@@ -546,8 +584,8 @@ pg.child_target_set = {
 				201
 			}
 		}
-	},
-	[35] = {
+	}
+	pg.base.child_target_set[35] = {
 		target_progress = 11,
 		name = "樂感十足",
 		stage = 4,
@@ -586,8 +624,8 @@ pg.child_target_set = {
 				201
 			}
 		}
-	},
-	[36] = {
+	}
+	pg.base.child_target_set[36] = {
 		target_progress = 11,
 		name = "魅力非凡",
 		stage = 4,
@@ -626,8 +664,8 @@ pg.child_target_set = {
 				201
 			}
 		}
-	},
-	[41] = {
+	}
+	pg.base.child_target_set[41] = {
 		target_progress = 10,
 		name = "靈巧機敏",
 		stage = 4,
@@ -665,8 +703,8 @@ pg.child_target_set = {
 				202
 			}
 		}
-	},
-	[42] = {
+	}
+	pg.base.child_target_set[42] = {
 		target_progress = 11,
 		name = "創意無限",
 		stage = 4,
@@ -705,8 +743,8 @@ pg.child_target_set = {
 				202
 			}
 		}
-	},
-	[43] = {
+	}
+	pg.base.child_target_set[43] = {
 		target_progress = 11,
 		name = "注重細節",
 		stage = 4,
@@ -745,8 +783,8 @@ pg.child_target_set = {
 				202
 			}
 		}
-	},
-	[44] = {
+	}
+	pg.base.child_target_set[44] = {
 		target_progress = 11,
 		name = "行動力強",
 		stage = 4,
@@ -785,8 +823,8 @@ pg.child_target_set = {
 				202
 			}
 		}
-	},
-	[45] = {
+	}
+	pg.base.child_target_set[45] = {
 		target_progress = 11,
 		name = "樂感十足",
 		stage = 4,
@@ -825,8 +863,8 @@ pg.child_target_set = {
 				202
 			}
 		}
-	},
-	[46] = {
+	}
+	pg.base.child_target_set[46] = {
 		target_progress = 11,
 		name = "魅力非凡",
 		stage = 4,
@@ -865,8 +903,8 @@ pg.child_target_set = {
 				202
 			}
 		}
-	},
-	[51] = {
+	}
+	pg.base.child_target_set[51] = {
 		target_progress = 10,
 		name = "靈巧機敏",
 		stage = 4,
@@ -904,8 +942,8 @@ pg.child_target_set = {
 				203
 			}
 		}
-	},
-	[52] = {
+	}
+	pg.base.child_target_set[52] = {
 		target_progress = 11,
 		name = "創意無限",
 		stage = 4,
@@ -944,8 +982,8 @@ pg.child_target_set = {
 				203
 			}
 		}
-	},
-	[53] = {
+	}
+	pg.base.child_target_set[53] = {
 		target_progress = 11,
 		name = "注重細節",
 		stage = 4,
@@ -984,8 +1022,8 @@ pg.child_target_set = {
 				203
 			}
 		}
-	},
-	[54] = {
+	}
+	pg.base.child_target_set[54] = {
 		target_progress = 11,
 		name = "行動力強",
 		stage = 4,
@@ -1024,8 +1062,8 @@ pg.child_target_set = {
 				203
 			}
 		}
-	},
-	[55] = {
+	}
+	pg.base.child_target_set[55] = {
 		target_progress = 11,
 		name = "樂感十足",
 		stage = 4,
@@ -1064,8 +1102,8 @@ pg.child_target_set = {
 				203
 			}
 		}
-	},
-	[56] = {
+	}
+	pg.base.child_target_set[56] = {
 		target_progress = 11,
 		name = "魅力非凡",
 		stage = 4,
@@ -1104,37 +1142,5 @@ pg.child_target_set = {
 				203
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		11,
-		12,
-		13,
-		14,
-		21,
-		22,
-		23,
-		24,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56
 	}
-}
+end)()

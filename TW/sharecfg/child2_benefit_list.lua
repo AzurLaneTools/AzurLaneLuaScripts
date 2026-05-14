@@ -1,774 +1,775 @@
 pg = pg or {}
-pg.child2_benefit_list = setmetatable({
-	__name = "child2_benefit_list",
-	get_id_list_by_character = {
-		{
-			40001,
-			40002,
-			40011,
-			40012,
-			40013,
-			40014,
-			40015,
-			40021,
-			40022,
-			40023,
-			40024,
-			40025,
-			40031,
-			40032,
-			40033,
-			40034,
-			40035,
-			40041,
-			40042,
-			40043,
-			40044,
-			40045,
-			41011,
-			41021,
-			41022,
-			41023,
-			41024,
-			41031,
-			41041,
-			41051,
-			41061,
-			41062,
-			41063,
-			41064,
-			41071,
-			41072,
-			41073,
-			41074,
-			41081,
-			41082,
-			41091,
-			41092,
-			41093,
-			41101,
-			41102,
-			41111,
-			41112,
-			41113,
-			41114,
-			41115,
-			41121,
-			41122,
-			41131,
-			41132,
-			41133,
-			41134,
-			41135,
-			41141,
-			41142,
-			41151,
-			41161,
-			41162,
-			41171,
-			41172,
-			41181,
-			41182,
-			41191,
-			41192,
-			41201,
-			41202,
-			41203,
-			41204,
-			41211,
-			41212,
-			41221,
-			41222,
-			41231,
-			41232,
-			41233,
-			41234,
-			41241,
-			41242,
-			41243,
-			41244,
-			41251,
-			41252,
-			41253,
-			41254,
-			41261,
-			41262,
-			41263,
-			41264,
-			41271,
-			41272,
-			41281,
-			41282,
-			41291,
-			41292,
-			41293,
-			41301,
-			41302,
-			41311,
-			41312,
-			41321,
-			41322,
-			41323,
-			41331,
-			41332,
-			41341,
-			41342,
-			41351,
-			41361,
-			41362,
-			41363,
-			41364,
-			41365,
-			41366,
-			41371,
-			41372,
-			41381,
-			41382,
-			41383,
-			41384,
-			41385,
-			41386,
-			41387,
-			41388,
-			41389,
-			41391,
-			41392,
-			41401,
-			41402,
-			41411,
-			41412,
-			41421,
-			41422,
-			41431,
-			41432,
-			41441,
-			41442,
-			41451,
-			41452,
-			41461,
-			41462,
-			41463,
-			41464,
-			41465,
-			41466,
-			41467,
-			41468,
-			41469,
-			41470,
-			41471,
-			41472,
-			41473,
-			41474,
-			42011,
-			42021,
-			42022,
-			42023,
-			42024,
-			42031,
-			42041,
-			42051,
-			42061,
-			42062,
-			42063,
-			42064,
-			42071,
-			42072,
-			42073,
-			42074,
-			42081,
-			42082,
-			42091,
-			42092,
-			42093,
-			42101,
-			42102,
-			42111,
-			42112,
-			42113,
-			42114,
-			42115,
-			42121,
-			42122,
-			42131,
-			42132,
-			42133,
-			42134,
-			42135,
-			42141,
-			42142,
-			42151,
-			42161,
-			42162,
-			42171,
-			42172,
-			42181,
-			42182,
-			42191,
-			42192,
-			42201,
-			42202,
-			42203,
-			42204,
-			42211,
-			42212,
-			42221,
-			42222,
-			42231,
-			42232,
-			42233,
-			42234,
-			42241,
-			42242,
-			42243,
-			42244,
-			42251,
-			42252,
-			42253,
-			42254,
-			42261,
-			42262,
-			42263,
-			42264,
-			42271,
-			42272,
-			42281,
-			42282,
-			42291,
-			42292,
-			42293,
-			42301,
-			42302,
-			42311,
-			42312,
-			42321,
-			42322,
-			42323,
-			42331,
-			42332,
-			42341,
-			42342,
-			42351,
-			42361,
-			42362,
-			42363,
-			42364,
-			42365,
-			42366,
-			42371,
-			42372,
-			42381,
-			42382,
-			42383,
-			42384,
-			42385,
-			42386,
-			42387,
-			42388,
-			42389,
-			42391,
-			42392,
-			42401,
-			42402,
-			42411,
-			42412,
-			42421,
-			42422,
-			42431,
-			42432,
-			42441,
-			42442,
-			42451,
-			42452,
-			42461,
-			42462,
-			42463,
-			42464,
-			42465,
-			42466,
-			42467,
-			42468,
-			42469,
-			42470,
-			42471,
-			42472,
-			42473,
-			42474,
-			43011,
-			43021,
-			43022,
-			43023,
-			43024,
-			43031,
-			43041,
-			43051,
-			43061,
-			43062,
-			43063,
-			43064,
-			43071,
-			43072,
-			43073,
-			43074,
-			43081,
-			43082,
-			43091,
-			43092,
-			43093,
-			43101,
-			43102,
-			43111,
-			43112,
-			43113,
-			43114,
-			43115,
-			43121,
-			43122,
-			43131,
-			43132,
-			43133,
-			43134,
-			43135,
-			43141,
-			43142,
-			43151,
-			43161,
-			43162,
-			43171,
-			43172,
-			43181,
-			43182,
-			43191,
-			43192,
-			43201,
-			43202,
-			43203,
-			43204,
-			43211,
-			43212,
-			43221,
-			43222,
-			43231,
-			43232,
-			43233,
-			43234,
-			43241,
-			43242,
-			43243,
-			43244,
-			43251,
-			43252,
-			43253,
-			43254,
-			43261,
-			43262,
-			43263,
-			43264,
-			43271,
-			43272,
-			43281,
-			43282,
-			43291,
-			43292,
-			43293,
-			43301,
-			43302,
-			43311,
-			43312,
-			43321,
-			43322,
-			43323,
-			43331,
-			43332,
-			43341,
-			43342,
-			43351,
-			43361,
-			43362,
-			43363,
-			43364,
-			43365,
-			43366,
-			43371,
-			43372,
-			43381,
-			43382,
-			43383,
-			43384,
-			43385,
-			43386,
-			43387,
-			43388,
-			43389,
-			43391,
-			43392,
-			43401,
-			43402,
-			43411,
-			43412,
-			43421,
-			43422,
-			43431,
-			43432,
-			43441,
-			43442,
-			43451,
-			43452,
-			43461,
-			43462,
-			43463,
-			43464,
-			43465,
-			43466,
-			43467,
-			43468,
-			43469,
-			43470,
-			43471,
-			43472,
-			43473,
-			43474,
-			44011,
-			44021,
-			44022,
-			44023,
-			44024,
-			44031,
-			44041,
-			44051,
-			44061,
-			44062,
-			44063,
-			44064,
-			44071,
-			44072,
-			44073,
-			44074,
-			44081,
-			44082,
-			44091,
-			44092,
-			44093,
-			44101,
-			44102,
-			44111,
-			44112,
-			44113,
-			44114,
-			44115,
-			44121,
-			44122,
-			44131,
-			44132,
-			44133,
-			44134,
-			44135,
-			44141,
-			44142,
-			44151,
-			44161,
-			44162,
-			44171,
-			44172,
-			44181,
-			44182,
-			44191,
-			44192,
-			44201,
-			44202,
-			44203,
-			44204,
-			44211,
-			44212,
-			44221,
-			44222,
-			44231,
-			44232,
-			44233,
-			44234,
-			44241,
-			44242,
-			44243,
-			44244,
-			44251,
-			44252,
-			44253,
-			44254,
-			44261,
-			44262,
-			44263,
-			44264,
-			44271,
-			44272,
-			44281,
-			44282,
-			44291,
-			44292,
-			44293,
-			44301,
-			44302,
-			44311,
-			44312,
-			44321,
-			44322,
-			44323,
-			44331,
-			44332,
-			44341,
-			44342,
-			44351,
-			44361,
-			44362,
-			44363,
-			44364,
-			44365,
-			44366,
-			44371,
-			44372,
-			44381,
-			44382,
-			44383,
-			44384,
-			44385,
-			44386,
-			44387,
-			44388,
-			44389,
-			44391,
-			44392,
-			44401,
-			44402,
-			44411,
-			44412,
-			44421,
-			44422,
-			44431,
-			44432,
-			44441,
-			44442,
-			44451,
-			44452,
-			44461,
-			44462,
-			44463,
-			44464,
-			44465,
-			44466,
-			44467,
-			44468,
-			44469,
-			44470,
-			44471,
-			44472,
-			44473,
-			44474,
-			1001,
-			1002,
-			1003,
-			1004,
-			1005,
-			1006,
-			1007,
-			1008,
-			1009,
-			1010,
-			1011,
-			1012,
-			1013,
-			1014,
-			1041,
-			1042,
-			1043,
-			1044,
-			1045,
-			1046,
-			1047,
-			1048,
-			1049,
-			1050,
-			1051,
-			1052,
-			1053,
-			1054,
-			1055,
-			1056,
-			1057,
-			1058,
-			1059,
-			1060,
-			1061,
-			1062,
-			1063,
-			1064,
-			1065,
-			1066,
-			1067,
-			1068,
-			1069,
-			1070,
-			1071,
-			1072,
-			1073,
-			1074,
-			1075,
-			1076,
-			1077,
-			1078,
-			1079,
-			1080,
-			1081,
-			1083,
-			1084,
-			1085,
-			1086,
-			1087,
-			1088,
-			1089,
-			1090,
-			1091,
-			1092,
-			1093,
-			1094,
-			1095,
-			1096,
-			1097,
-			1098,
-			1099,
-			1100,
-			1101,
-			1102,
-			2001,
-			2002,
-			2003,
-			2004,
-			2005,
-			2006,
-			2007,
-			2008,
-			2009,
-			2010,
-			2011,
-			2012,
-			2013,
-			2014,
-			2015,
-			2016,
-			2017,
-			2018,
-			2019,
-			2020,
-			2021,
-			2022,
-			2023,
-			2024,
-			2025,
-			2026,
-			2027,
-			2028,
-			2029,
-			2030,
-			2031,
-			2032,
-			2033,
-			2034,
-			2035,
-			2036,
-			2037,
-			2038,
-			2039,
-			2040,
-			2041,
-			2042,
-			2043,
-			2044,
-			2045,
-			2046,
-			2047,
-			2048,
-			2049,
-			2050,
-			2051,
-			2052,
-			2053,
-			2054,
-			2055,
-			2056,
-			2057,
-			2058,
-			2059,
-			2060,
-			2061,
-			2062,
-			2063,
-			2064,
-			2089,
-			2090,
-			2091,
-			2092,
-			2093,
-			2094,
-			2095,
-			2096,
-			2097,
-			2098,
-			2099,
-			2100,
-			2101,
-			3001,
-			3002,
-			3003,
-			3004,
-			3005,
-			3006,
-			3007,
-			3008,
-			3009,
-			3010,
-			3011,
-			3012,
-			3013,
-			3014,
-			3015,
-			3016,
-			3017,
-			3018,
-			3051,
-			3052,
-			3053,
-			3054,
-			3501,
-			3502,
-			3503,
-			3504,
-			3505,
-			3506,
-			3507,
-			3508,
-			3509,
-			3510,
-			3511,
-			3512,
-			3513,
-			3514,
-			3515,
-			3516,
-			3521,
-			3601,
-			3602,
-			3603,
-			3604,
-			41,
-			42,
-			43,
-			44,
-			45,
-			46,
-			60,
-			61,
-			62,
-			10000
-		}
-	},
-	all = {
+pg.child2_benefit_list = rawget(pg, "child2_benefit_list") or setmetatable({
+	__name = "child2_benefit_list"
+}, confNEO)
+pg.child2_benefit_list.__namecode__ = true
+pg.child2_benefit_list.all = {
+	40001,
+	40002,
+	40011,
+	40012,
+	40013,
+	40014,
+	40015,
+	40021,
+	40022,
+	40023,
+	40024,
+	40025,
+	40031,
+	40032,
+	40033,
+	40034,
+	40035,
+	40041,
+	40042,
+	40043,
+	40044,
+	40045,
+	41011,
+	41021,
+	41022,
+	41023,
+	41024,
+	41031,
+	41041,
+	41051,
+	41061,
+	41062,
+	41063,
+	41064,
+	41071,
+	41072,
+	41073,
+	41074,
+	41081,
+	41082,
+	41091,
+	41092,
+	41093,
+	41101,
+	41102,
+	41111,
+	41112,
+	41113,
+	41114,
+	41115,
+	41121,
+	41122,
+	41131,
+	41132,
+	41133,
+	41134,
+	41135,
+	41141,
+	41142,
+	41151,
+	41161,
+	41162,
+	41171,
+	41172,
+	41181,
+	41182,
+	41191,
+	41192,
+	41201,
+	41202,
+	41203,
+	41204,
+	41211,
+	41212,
+	41221,
+	41222,
+	41231,
+	41232,
+	41233,
+	41234,
+	41241,
+	41242,
+	41243,
+	41244,
+	41251,
+	41252,
+	41253,
+	41254,
+	41261,
+	41262,
+	41263,
+	41264,
+	41271,
+	41272,
+	41281,
+	41282,
+	41291,
+	41292,
+	41293,
+	41301,
+	41302,
+	41311,
+	41312,
+	41321,
+	41322,
+	41323,
+	41331,
+	41332,
+	41341,
+	41342,
+	41351,
+	41361,
+	41362,
+	41363,
+	41364,
+	41365,
+	41366,
+	41371,
+	41372,
+	41381,
+	41382,
+	41383,
+	41384,
+	41385,
+	41386,
+	41387,
+	41388,
+	41389,
+	41391,
+	41392,
+	41401,
+	41402,
+	41411,
+	41412,
+	41421,
+	41422,
+	41431,
+	41432,
+	41441,
+	41442,
+	41451,
+	41452,
+	41461,
+	41462,
+	41463,
+	41464,
+	41465,
+	41466,
+	41467,
+	41468,
+	41469,
+	41470,
+	41471,
+	41472,
+	41473,
+	41474,
+	42011,
+	42021,
+	42022,
+	42023,
+	42024,
+	42031,
+	42041,
+	42051,
+	42061,
+	42062,
+	42063,
+	42064,
+	42071,
+	42072,
+	42073,
+	42074,
+	42081,
+	42082,
+	42091,
+	42092,
+	42093,
+	42101,
+	42102,
+	42111,
+	42112,
+	42113,
+	42114,
+	42115,
+	42121,
+	42122,
+	42131,
+	42132,
+	42133,
+	42134,
+	42135,
+	42141,
+	42142,
+	42151,
+	42161,
+	42162,
+	42171,
+	42172,
+	42181,
+	42182,
+	42191,
+	42192,
+	42201,
+	42202,
+	42203,
+	42204,
+	42211,
+	42212,
+	42221,
+	42222,
+	42231,
+	42232,
+	42233,
+	42234,
+	42241,
+	42242,
+	42243,
+	42244,
+	42251,
+	42252,
+	42253,
+	42254,
+	42261,
+	42262,
+	42263,
+	42264,
+	42271,
+	42272,
+	42281,
+	42282,
+	42291,
+	42292,
+	42293,
+	42301,
+	42302,
+	42311,
+	42312,
+	42321,
+	42322,
+	42323,
+	42331,
+	42332,
+	42341,
+	42342,
+	42351,
+	42361,
+	42362,
+	42363,
+	42364,
+	42365,
+	42366,
+	42371,
+	42372,
+	42381,
+	42382,
+	42383,
+	42384,
+	42385,
+	42386,
+	42387,
+	42388,
+	42389,
+	42391,
+	42392,
+	42401,
+	42402,
+	42411,
+	42412,
+	42421,
+	42422,
+	42431,
+	42432,
+	42441,
+	42442,
+	42451,
+	42452,
+	42461,
+	42462,
+	42463,
+	42464,
+	42465,
+	42466,
+	42467,
+	42468,
+	42469,
+	42470,
+	42471,
+	42472,
+	42473,
+	42474,
+	43011,
+	43021,
+	43022,
+	43023,
+	43024,
+	43031,
+	43041,
+	43051,
+	43061,
+	43062,
+	43063,
+	43064,
+	43071,
+	43072,
+	43073,
+	43074,
+	43081,
+	43082,
+	43091,
+	43092,
+	43093,
+	43101,
+	43102,
+	43111,
+	43112,
+	43113,
+	43114,
+	43115,
+	43121,
+	43122,
+	43131,
+	43132,
+	43133,
+	43134,
+	43135,
+	43141,
+	43142,
+	43151,
+	43161,
+	43162,
+	43171,
+	43172,
+	43181,
+	43182,
+	43191,
+	43192,
+	43201,
+	43202,
+	43203,
+	43204,
+	43211,
+	43212,
+	43221,
+	43222,
+	43231,
+	43232,
+	43233,
+	43234,
+	43241,
+	43242,
+	43243,
+	43244,
+	43251,
+	43252,
+	43253,
+	43254,
+	43261,
+	43262,
+	43263,
+	43264,
+	43271,
+	43272,
+	43281,
+	43282,
+	43291,
+	43292,
+	43293,
+	43301,
+	43302,
+	43311,
+	43312,
+	43321,
+	43322,
+	43323,
+	43331,
+	43332,
+	43341,
+	43342,
+	43351,
+	43361,
+	43362,
+	43363,
+	43364,
+	43365,
+	43366,
+	43371,
+	43372,
+	43381,
+	43382,
+	43383,
+	43384,
+	43385,
+	43386,
+	43387,
+	43388,
+	43389,
+	43391,
+	43392,
+	43401,
+	43402,
+	43411,
+	43412,
+	43421,
+	43422,
+	43431,
+	43432,
+	43441,
+	43442,
+	43451,
+	43452,
+	43461,
+	43462,
+	43463,
+	43464,
+	43465,
+	43466,
+	43467,
+	43468,
+	43469,
+	43470,
+	43471,
+	43472,
+	43473,
+	43474,
+	44011,
+	44021,
+	44022,
+	44023,
+	44024,
+	44031,
+	44041,
+	44051,
+	44061,
+	44062,
+	44063,
+	44064,
+	44071,
+	44072,
+	44073,
+	44074,
+	44081,
+	44082,
+	44091,
+	44092,
+	44093,
+	44101,
+	44102,
+	44111,
+	44112,
+	44113,
+	44114,
+	44115,
+	44121,
+	44122,
+	44131,
+	44132,
+	44133,
+	44134,
+	44135,
+	44141,
+	44142,
+	44151,
+	44161,
+	44162,
+	44171,
+	44172,
+	44181,
+	44182,
+	44191,
+	44192,
+	44201,
+	44202,
+	44203,
+	44204,
+	44211,
+	44212,
+	44221,
+	44222,
+	44231,
+	44232,
+	44233,
+	44234,
+	44241,
+	44242,
+	44243,
+	44244,
+	44251,
+	44252,
+	44253,
+	44254,
+	44261,
+	44262,
+	44263,
+	44264,
+	44271,
+	44272,
+	44281,
+	44282,
+	44291,
+	44292,
+	44293,
+	44301,
+	44302,
+	44311,
+	44312,
+	44321,
+	44322,
+	44323,
+	44331,
+	44332,
+	44341,
+	44342,
+	44351,
+	44361,
+	44362,
+	44363,
+	44364,
+	44365,
+	44366,
+	44371,
+	44372,
+	44381,
+	44382,
+	44383,
+	44384,
+	44385,
+	44386,
+	44387,
+	44388,
+	44389,
+	44391,
+	44392,
+	44401,
+	44402,
+	44411,
+	44412,
+	44421,
+	44422,
+	44431,
+	44432,
+	44441,
+	44442,
+	44451,
+	44452,
+	44461,
+	44462,
+	44463,
+	44464,
+	44465,
+	44466,
+	44467,
+	44468,
+	44469,
+	44470,
+	44471,
+	44472,
+	44473,
+	44474,
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008,
+	1009,
+	1010,
+	1011,
+	1012,
+	1013,
+	1014,
+	1041,
+	1042,
+	1043,
+	1044,
+	1045,
+	1046,
+	1047,
+	1048,
+	1049,
+	1050,
+	1051,
+	1052,
+	1053,
+	1054,
+	1055,
+	1056,
+	1057,
+	1058,
+	1059,
+	1060,
+	1061,
+	1062,
+	1063,
+	1064,
+	1065,
+	1066,
+	1067,
+	1068,
+	1069,
+	1070,
+	1071,
+	1072,
+	1073,
+	1074,
+	1075,
+	1076,
+	1077,
+	1078,
+	1079,
+	1080,
+	1081,
+	1083,
+	1084,
+	1085,
+	1086,
+	1087,
+	1088,
+	1089,
+	1090,
+	1091,
+	1092,
+	1093,
+	1094,
+	1095,
+	1096,
+	1097,
+	1098,
+	1099,
+	1100,
+	1101,
+	1102,
+	2001,
+	2002,
+	2003,
+	2004,
+	2005,
+	2006,
+	2007,
+	2008,
+	2009,
+	2010,
+	2011,
+	2012,
+	2013,
+	2014,
+	2015,
+	2016,
+	2017,
+	2018,
+	2019,
+	2020,
+	2021,
+	2022,
+	2023,
+	2024,
+	2025,
+	2026,
+	2027,
+	2028,
+	2029,
+	2030,
+	2031,
+	2032,
+	2033,
+	2034,
+	2035,
+	2036,
+	2037,
+	2038,
+	2039,
+	2040,
+	2041,
+	2042,
+	2043,
+	2044,
+	2045,
+	2046,
+	2047,
+	2048,
+	2049,
+	2050,
+	2051,
+	2052,
+	2053,
+	2054,
+	2055,
+	2056,
+	2057,
+	2058,
+	2059,
+	2060,
+	2061,
+	2062,
+	2063,
+	2064,
+	2089,
+	2090,
+	2091,
+	2092,
+	2093,
+	2094,
+	2095,
+	2096,
+	2097,
+	2098,
+	2099,
+	2100,
+	2101,
+	3001,
+	3002,
+	3003,
+	3004,
+	3005,
+	3006,
+	3007,
+	3008,
+	3009,
+	3010,
+	3011,
+	3012,
+	3013,
+	3014,
+	3015,
+	3016,
+	3017,
+	3018,
+	3051,
+	3052,
+	3053,
+	3054,
+	3501,
+	3502,
+	3503,
+	3504,
+	3505,
+	3506,
+	3507,
+	3508,
+	3509,
+	3510,
+	3511,
+	3512,
+	3513,
+	3514,
+	3515,
+	3516,
+	3521,
+	3601,
+	3602,
+	3603,
+	3604,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	60,
+	61,
+	62,
+	10000
+}
+pg.child2_benefit_list.get_id_list_by_character = {
+	{
 		40001,
 		40002,
 		40011,
@@ -1533,10 +1534,12 @@ pg.child2_benefit_list = setmetatable({
 		62,
 		10000
 	}
-}, confHX)
+}
 pg.base = pg.base or {}
-pg.base.child2_benefit_list = {
-	[40001] = {
+pg.base.child2_benefit_list = {}
+
+(function ()
+	pg.base.child2_benefit_list[40001] = {
 		benefit_level = 0,
 		name = "526",
 		is_show = 0,
@@ -1564,8 +1567,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			400011
 		}
-	},
-	[40002] = {
+	}
+	pg.base.child2_benefit_list[40002] = {
 		benefit_level = 0,
 		name = "621",
 		is_show = 0,
@@ -1593,8 +1596,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			400021
 		}
-	},
-	[40011] = {
+	}
+	pg.base.child2_benefit_list[40011] = {
 		benefit_level = 0,
 		name = "610",
 		is_show = 0,
@@ -1622,8 +1625,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			400111
 		}
-	},
-	[40012] = {
+	}
+	pg.base.child2_benefit_list[40012] = {
 		benefit_level = 0,
 		name = "611",
 		is_show = 0,
@@ -1651,8 +1654,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			400121
 		}
-	},
-	[40013] = {
+	}
+	pg.base.child2_benefit_list[40013] = {
 		benefit_level = 0,
 		name = "612",
 		is_show = 0,
@@ -1680,8 +1683,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			400131
 		}
-	},
-	[40014] = {
+	}
+	pg.base.child2_benefit_list[40014] = {
 		benefit_level = 0,
 		name = "619",
 		is_show = 0,
@@ -1709,8 +1712,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			400141
 		}
-	},
-	[40015] = {
+	}
+	pg.base.child2_benefit_list[40015] = {
 		benefit_level = 0,
 		name = "探索加持",
 		is_show = 1,
@@ -1738,8 +1741,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			400151
 		}
-	},
-	[40021] = {
+	}
+	pg.base.child2_benefit_list[40021] = {
 		benefit_level = 0,
 		name = "610",
 		is_show = 0,
@@ -1767,8 +1770,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			400211
 		}
-	},
-	[40022] = {
+	}
+	pg.base.child2_benefit_list[40022] = {
 		benefit_level = 0,
 		name = "611",
 		is_show = 0,
@@ -1796,8 +1799,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			400221
 		}
-	},
-	[40023] = {
+	}
+	pg.base.child2_benefit_list[40023] = {
 		benefit_level = 0,
 		name = "612",
 		is_show = 0,
@@ -1825,8 +1828,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			400231
 		}
-	},
-	[40024] = {
+	}
+	pg.base.child2_benefit_list[40024] = {
 		benefit_level = 0,
 		name = "619",
 		is_show = 0,
@@ -1854,8 +1857,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			400241
 		}
-	},
-	[40025] = {
+	}
+	pg.base.child2_benefit_list[40025] = {
 		benefit_level = 0,
 		name = "探索加持",
 		is_show = 1,
@@ -1883,8 +1886,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			400251
 		}
-	},
-	[40031] = {
+	}
+	pg.base.child2_benefit_list[40031] = {
 		benefit_level = 0,
 		name = "610",
 		is_show = 0,
@@ -1912,8 +1915,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			400311
 		}
-	},
-	[40032] = {
+	}
+	pg.base.child2_benefit_list[40032] = {
 		benefit_level = 0,
 		name = "611",
 		is_show = 0,
@@ -1941,8 +1944,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			400321
 		}
-	},
-	[40033] = {
+	}
+	pg.base.child2_benefit_list[40033] = {
 		benefit_level = 0,
 		name = "612",
 		is_show = 0,
@@ -1970,8 +1973,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			400331
 		}
-	},
-	[40034] = {
+	}
+	pg.base.child2_benefit_list[40034] = {
 		benefit_level = 0,
 		name = "619",
 		is_show = 0,
@@ -1999,8 +2002,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			400341
 		}
-	},
-	[40035] = {
+	}
+	pg.base.child2_benefit_list[40035] = {
 		benefit_level = 0,
 		name = "探索加持",
 		is_show = 1,
@@ -2028,8 +2031,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			400351
 		}
-	},
-	[40041] = {
+	}
+	pg.base.child2_benefit_list[40041] = {
 		benefit_level = 0,
 		name = "610",
 		is_show = 0,
@@ -2057,8 +2060,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			400411
 		}
-	},
-	[40042] = {
+	}
+	pg.base.child2_benefit_list[40042] = {
 		benefit_level = 0,
 		name = "611",
 		is_show = 0,
@@ -2086,8 +2089,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			400421
 		}
-	},
-	[40043] = {
+	}
+	pg.base.child2_benefit_list[40043] = {
 		benefit_level = 0,
 		name = "612",
 		is_show = 0,
@@ -2115,8 +2118,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			400431
 		}
-	},
-	[40044] = {
+	}
+	pg.base.child2_benefit_list[40044] = {
 		benefit_level = 0,
 		name = "619",
 		is_show = 0,
@@ -2144,8 +2147,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			400441
 		}
-	},
-	[40045] = {
+	}
+	pg.base.child2_benefit_list[40045] = {
 		benefit_level = 0,
 		name = "探索加持",
 		is_show = 1,
@@ -2173,8 +2176,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			400451
 		}
-	},
-	[41011] = {
+	}
+	pg.base.child2_benefit_list[41011] = {
 		benefit_level = 0,
 		name = "不該有",
 		is_show = 0,
@@ -2198,8 +2201,8 @@ pg.base.child2_benefit_list = {
 		upgrade_desc = "",
 		content = {},
 		show_content = {}
-	},
-	[41021] = {
+	}
+	pg.base.child2_benefit_list[41021] = {
 		benefit_level = 0,
 		name = "502",
 		is_show = 0,
@@ -2227,8 +2230,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			410211
 		}
-	},
-	[41022] = {
+	}
+	pg.base.child2_benefit_list[41022] = {
 		benefit_level = 0,
 		name = "503",
 		is_show = 0,
@@ -2256,8 +2259,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			410221
 		}
-	},
-	[41023] = {
+	}
+	pg.base.child2_benefit_list[41023] = {
 		benefit_level = 0,
 		name = "504",
 		is_show = 0,
@@ -2285,8 +2288,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			410231
 		}
-	},
-	[41024] = {
+	}
+	pg.base.child2_benefit_list[41024] = {
 		benefit_level = 0,
 		name = "505",
 		is_show = 0,
@@ -2314,8 +2317,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			410241
 		}
-	},
-	[41031] = {
+	}
+	pg.base.child2_benefit_list[41031] = {
 		benefit_level = 0,
 		name = "不該有",
 		is_show = 0,
@@ -2339,8 +2342,8 @@ pg.base.child2_benefit_list = {
 		upgrade_desc = "",
 		content = {},
 		show_content = {}
-	},
-	[41041] = {
+	}
+	pg.base.child2_benefit_list[41041] = {
 		benefit_level = 0,
 		name = "不該有",
 		is_show = 0,
@@ -2364,8 +2367,8 @@ pg.base.child2_benefit_list = {
 		upgrade_desc = "",
 		content = {},
 		show_content = {}
-	},
-	[41051] = {
+	}
+	pg.base.child2_benefit_list[41051] = {
 		benefit_level = 0,
 		name = "不該有",
 		is_show = 0,
@@ -2389,8 +2392,8 @@ pg.base.child2_benefit_list = {
 		upgrade_desc = "",
 		content = {},
 		show_content = {}
-	},
-	[41061] = {
+	}
+	pg.base.child2_benefit_list[41061] = {
 		benefit_level = 0,
 		name = "509",
 		is_show = 0,
@@ -2418,8 +2421,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			410611
 		}
-	},
-	[41062] = {
+	}
+	pg.base.child2_benefit_list[41062] = {
 		benefit_level = 0,
 		name = "510",
 		is_show = 0,
@@ -2447,8 +2450,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			410621
 		}
-	},
-	[41063] = {
+	}
+	pg.base.child2_benefit_list[41063] = {
 		benefit_level = 0,
 		name = "511",
 		is_show = 0,
@@ -2476,8 +2479,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			410631
 		}
-	},
-	[41064] = {
+	}
+	pg.base.child2_benefit_list[41064] = {
 		benefit_level = 0,
 		name = "512",
 		is_show = 0,
@@ -2505,8 +2508,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			410641
 		}
-	},
-	[41071] = {
+	}
+	pg.base.child2_benefit_list[41071] = {
 		benefit_level = 0,
 		name = "513",
 		is_show = 0,
@@ -2534,8 +2537,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			410711
 		}
-	},
-	[41072] = {
+	}
+	pg.base.child2_benefit_list[41072] = {
 		benefit_level = 0,
 		name = "514",
 		is_show = 0,
@@ -2563,8 +2566,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			410721
 		}
-	},
-	[41073] = {
+	}
+	pg.base.child2_benefit_list[41073] = {
 		benefit_level = 0,
 		name = "515",
 		is_show = 0,
@@ -2592,8 +2595,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			410731
 		}
-	},
-	[41074] = {
+	}
+	pg.base.child2_benefit_list[41074] = {
 		benefit_level = 0,
 		name = "516",
 		is_show = 0,
@@ -2621,8 +2624,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			410741
 		}
-	},
-	[41081] = {
+	}
+	pg.base.child2_benefit_list[41081] = {
 		benefit_level = 0,
 		name = "517",
 		is_show = 0,
@@ -2650,8 +2653,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			410811
 		}
-	},
-	[41082] = {
+	}
+	pg.base.child2_benefit_list[41082] = {
 		benefit_level = 0,
 		name = "613",
 		is_show = 0,
@@ -2679,8 +2682,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			410821
 		}
-	},
-	[41091] = {
+	}
+	pg.base.child2_benefit_list[41091] = {
 		benefit_level = 0,
 		name = "518",
 		is_show = 0,
@@ -2708,8 +2711,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			410911
 		}
-	},
-	[41092] = {
+	}
+	pg.base.child2_benefit_list[41092] = {
 		benefit_level = 0,
 		name = "519",
 		is_show = 0,
@@ -2737,8 +2740,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			410921
 		}
-	},
-	[41093] = {
+	}
+	pg.base.child2_benefit_list[41093] = {
 		benefit_level = 0,
 		name = "520",
 		is_show = 0,
@@ -2766,8 +2769,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			410931
 		}
-	},
-	[41101] = {
+	}
+	pg.base.child2_benefit_list[41101] = {
 		benefit_level = 0,
 		name = "521",
 		is_show = 0,
@@ -2795,8 +2798,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			411011
 		}
-	},
-	[41102] = {
+	}
+	pg.base.child2_benefit_list[41102] = {
 		benefit_level = 0,
 		name = "614",
 		is_show = 0,
@@ -2824,8 +2827,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			411021
 		}
-	},
-	[41111] = {
+	}
+	pg.base.child2_benefit_list[41111] = {
 		benefit_level = 0,
 		name = "522",
 		is_show = 0,
@@ -2853,8 +2856,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			411111
 		}
-	},
-	[41112] = {
+	}
+	pg.base.child2_benefit_list[41112] = {
 		benefit_level = 0,
 		name = "523",
 		is_show = 0,
@@ -2882,8 +2885,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			411121
 		}
-	},
-	[41113] = {
+	}
+	pg.base.child2_benefit_list[41113] = {
 		benefit_level = 0,
 		name = "524",
 		is_show = 0,
@@ -2911,8 +2914,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			411131
 		}
-	},
-	[41114] = {
+	}
+	pg.base.child2_benefit_list[41114] = {
 		benefit_level = 0,
 		name = "525",
 		is_show = 0,
@@ -2940,8 +2943,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			411141
 		}
-	},
-	[41115] = {
+	}
+	pg.base.child2_benefit_list[41115] = {
 		benefit_level = 0,
 		name = "不該有",
 		is_show = 0,
@@ -2965,8 +2968,8 @@ pg.base.child2_benefit_list = {
 		upgrade_desc = "",
 		content = {},
 		show_content = {}
-	},
-	[41121] = {
+	}
+	pg.base.child2_benefit_list[41121] = {
 		benefit_level = 0,
 		name = "527",
 		is_show = 0,
@@ -2994,8 +2997,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			411211
 		}
-	},
-	[41122] = {
+	}
+	pg.base.child2_benefit_list[41122] = {
 		benefit_level = 0,
 		name = "615",
 		is_show = 0,
@@ -3023,8 +3026,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			411221
 		}
-	},
-	[41131] = {
+	}
+	pg.base.child2_benefit_list[41131] = {
 		benefit_level = 0,
 		name = "528",
 		is_show = 0,
@@ -3052,8 +3055,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			411311
 		}
-	},
-	[41132] = {
+	}
+	pg.base.child2_benefit_list[41132] = {
 		benefit_level = 0,
 		name = "529",
 		is_show = 0,
@@ -3081,8 +3084,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			411321
 		}
-	},
-	[41133] = {
+	}
+	pg.base.child2_benefit_list[41133] = {
 		benefit_level = 0,
 		name = "530",
 		is_show = 0,
@@ -3110,8 +3113,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			411331
 		}
-	},
-	[41134] = {
+	}
+	pg.base.child2_benefit_list[41134] = {
 		benefit_level = 0,
 		name = "531",
 		is_show = 0,
@@ -3139,8 +3142,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			411341
 		}
-	},
-	[41135] = {
+	}
+	pg.base.child2_benefit_list[41135] = {
 		benefit_level = 0,
 		name = "不該有",
 		is_show = 0,
@@ -3164,8 +3167,8 @@ pg.base.child2_benefit_list = {
 		upgrade_desc = "",
 		content = {},
 		show_content = {}
-	},
-	[41141] = {
+	}
+	pg.base.child2_benefit_list[41141] = {
 		benefit_level = 0,
 		name = "533",
 		is_show = 0,
@@ -3193,8 +3196,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			411411
 		}
-	},
-	[41142] = {
+	}
+	pg.base.child2_benefit_list[41142] = {
 		benefit_level = 0,
 		name = "534",
 		is_show = 0,
@@ -3222,8 +3225,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			411421
 		}
-	},
-	[41151] = {
+	}
+	pg.base.child2_benefit_list[41151] = {
 		benefit_level = 0,
 		name = "535",
 		is_show = 0,
@@ -3251,8 +3254,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			411511
 		}
-	},
-	[41161] = {
+	}
+	pg.base.child2_benefit_list[41161] = {
 		benefit_level = 0,
 		name = "知識精要·速成",
 		is_show = 1,
@@ -3280,8 +3283,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			411611
 		}
-	},
-	[41162] = {
+	}
+	pg.base.child2_benefit_list[41162] = {
 		benefit_level = 0,
 		name = "616",
 		is_show = 0,
@@ -3309,8 +3312,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			411621
 		}
-	},
-	[41171] = {
+	}
+	pg.base.child2_benefit_list[41171] = {
 		benefit_level = 0,
 		name = "知識精要·持續",
 		is_show = 1,
@@ -3338,8 +3341,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			411711
 		}
-	},
-	[41172] = {
+	}
+	pg.base.child2_benefit_list[41172] = {
 		benefit_level = 0,
 		name = "617",
 		is_show = 0,
@@ -3367,8 +3370,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			411721
 		}
-	},
-	[41181] = {
+	}
+	pg.base.child2_benefit_list[41181] = {
 		benefit_level = 0,
 		name = "突破極限",
 		is_show = 1,
@@ -3396,8 +3399,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			411811
 		}
-	},
-	[41182] = {
+	}
+	pg.base.child2_benefit_list[41182] = {
 		benefit_level = 0,
 		name = "618",
 		is_show = 0,
@@ -3425,8 +3428,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			411821
 		}
-	},
-	[41191] = {
+	}
+	pg.base.child2_benefit_list[41191] = {
 		benefit_level = 0,
 		name = "穩步前行",
 		is_show = 1,
@@ -3454,8 +3457,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			411911
 		}
-	},
-	[41192] = {
+	}
+	pg.base.child2_benefit_list[41192] = {
 		benefit_level = 0,
 		name = "540",
 		is_show = 0,
@@ -3483,8 +3486,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			411921
 		}
-	},
-	[41201] = {
+	}
+	pg.base.child2_benefit_list[41201] = {
 		benefit_level = 0,
 		name = "醍醐灌頂",
 		is_show = 1,
@@ -3512,8 +3515,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			412011
 		}
-	},
-	[41202] = {
+	}
+	pg.base.child2_benefit_list[41202] = {
 		benefit_level = 0,
 		name = "慧眼初開",
 		is_show = 1,
@@ -3541,8 +3544,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			412021
 		}
-	},
-	[41203] = {
+	}
+	pg.base.child2_benefit_list[41203] = {
 		benefit_level = 0,
 		name = "豁然開朗",
 		is_show = 1,
@@ -3570,8 +3573,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			412031
 		}
-	},
-	[41204] = {
+	}
+	pg.base.child2_benefit_list[41204] = {
 		benefit_level = 0,
 		name = "融會貫通",
 		is_show = 1,
@@ -3599,8 +3602,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			412041
 		}
-	},
-	[41211] = {
+	}
+	pg.base.child2_benefit_list[41211] = {
 		benefit_level = 0,
 		name = "超頻模式",
 		is_show = 1,
@@ -3628,8 +3631,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			412111
 		}
-	},
-	[41212] = {
+	}
+	pg.base.child2_benefit_list[41212] = {
 		benefit_level = 0,
 		name = "546",
 		is_show = 0,
@@ -3657,8 +3660,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			412121
 		}
-	},
-	[41221] = {
+	}
+	pg.base.child2_benefit_list[41221] = {
 		benefit_level = 0,
 		name = "547",
 		is_show = 0,
@@ -3686,8 +3689,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			412211
 		}
-	},
-	[41222] = {
+	}
+	pg.base.child2_benefit_list[41222] = {
 		benefit_level = 0,
 		name = "548",
 		is_show = 0,
@@ -3715,8 +3718,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			412221
 		}
-	},
-	[41231] = {
+	}
+	pg.base.child2_benefit_list[41231] = {
 		benefit_level = 0,
 		name = "極限訓練",
 		is_show = 1,
@@ -3744,8 +3747,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			412311
 		}
-	},
-	[41232] = {
+	}
+	pg.base.child2_benefit_list[41232] = {
 		benefit_level = 0,
 		name = "常規訓練",
 		is_show = 0,
@@ -3773,8 +3776,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			412321
 		}
-	},
-	[41233] = {
+	}
+	pg.base.child2_benefit_list[41233] = {
 		benefit_level = 0,
 		name = "基礎訓練",
 		is_show = 0,
@@ -3802,8 +3805,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			412331
 		}
-	},
-	[41234] = {
+	}
+	pg.base.child2_benefit_list[41234] = {
 		benefit_level = 0,
 		name = "505",
 		is_show = 0,
@@ -3831,8 +3834,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			412341
 		}
-	},
-	[41241] = {
+	}
+	pg.base.child2_benefit_list[41241] = {
 		benefit_level = 0,
 		name = "博覽群書",
 		is_show = 1,
@@ -3860,8 +3863,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			412411
 		}
-	},
-	[41242] = {
+	}
+	pg.base.child2_benefit_list[41242] = {
 		benefit_level = 0,
 		name = "深度閱讀",
 		is_show = 0,
@@ -3889,8 +3892,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			412421
 		}
-	},
-	[41243] = {
+	}
+	pg.base.child2_benefit_list[41243] = {
 		benefit_level = 0,
 		name = "略讀速覽",
 		is_show = 0,
@@ -3918,8 +3921,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			412431
 		}
-	},
-	[41244] = {
+	}
+	pg.base.child2_benefit_list[41244] = {
 		benefit_level = 0,
 		name = "502",
 		is_show = 0,
@@ -3947,8 +3950,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			412441
 		}
-	},
-	[41251] = {
+	}
+	pg.base.child2_benefit_list[41251] = {
 		benefit_level = 0,
 		name = "精益求精",
 		is_show = 1,
@@ -3976,8 +3979,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			412511
 		}
-	},
-	[41252] = {
+	}
+	pg.base.child2_benefit_list[41252] = {
 		benefit_level = 0,
 		name = "漸入佳境",
 		is_show = 0,
@@ -4005,8 +4008,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			412521
 		}
-	},
-	[41253] = {
+	}
+	pg.base.child2_benefit_list[41253] = {
 		benefit_level = 0,
 		name = "入門之路",
 		is_show = 0,
@@ -4034,8 +4037,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			412531
 		}
-	},
-	[41254] = {
+	}
+	pg.base.child2_benefit_list[41254] = {
 		benefit_level = 0,
 		name = "503",
 		is_show = 0,
@@ -4063,8 +4066,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			412541
 		}
-	},
-	[41261] = {
+	}
+	pg.base.child2_benefit_list[41261] = {
 		benefit_level = 0,
 		name = "巔峰狀態",
 		is_show = 1,
@@ -4092,8 +4095,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			412611
 		}
-	},
-	[41262] = {
+	}
+	pg.base.child2_benefit_list[41262] = {
 		benefit_level = 0,
 		name = "全神貫注",
 		is_show = 0,
@@ -4121,8 +4124,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			412621
 		}
-	},
-	[41263] = {
+	}
+	pg.base.child2_benefit_list[41263] = {
 		benefit_level = 0,
 		name = "專注時刻",
 		is_show = 0,
@@ -4150,8 +4153,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			412631
 		}
-	},
-	[41264] = {
+	}
+	pg.base.child2_benefit_list[41264] = {
 		benefit_level = 0,
 		name = "504",
 		is_show = 0,
@@ -4179,8 +4182,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			412641
 		}
-	},
-	[41271] = {
+	}
+	pg.base.child2_benefit_list[41271] = {
 		benefit_level = 0,
 		name = "561",
 		is_show = 0,
@@ -4208,8 +4211,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			412711
 		}
-	},
-	[41272] = {
+	}
+	pg.base.child2_benefit_list[41272] = {
 		benefit_level = 0,
 		name = "562",
 		is_show = 0,
@@ -4237,8 +4240,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			412721
 		}
-	},
-	[41281] = {
+	}
+	pg.base.child2_benefit_list[41281] = {
 		benefit_level = 0,
 		name = "漫步收穫",
 		is_show = 1,
@@ -4266,8 +4269,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			412811
 		}
-	},
-	[41282] = {
+	}
+	pg.base.child2_benefit_list[41282] = {
 		benefit_level = 0,
 		name = "564",
 		is_show = 0,
@@ -4295,8 +4298,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			412821
 		}
-	},
-	[41291] = {
+	}
+	pg.base.child2_benefit_list[41291] = {
 		benefit_level = 0,
 		name = "幸運之財",
 		is_show = 1,
@@ -4324,8 +4327,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			412911
 		}
-	},
-	[41292] = {
+	}
+	pg.base.child2_benefit_list[41292] = {
 		benefit_level = 0,
 		name = "幸運饋贈",
 		is_show = 1,
@@ -4353,8 +4356,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			412921
 		}
-	},
-	[41293] = {
+	}
+	pg.base.child2_benefit_list[41293] = {
 		benefit_level = 0,
 		name = "567",
 		is_show = 0,
@@ -4382,8 +4385,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			412931
 		}
-	},
-	[41301] = {
+	}
+	pg.base.child2_benefit_list[41301] = {
 		benefit_level = 0,
 		name = "敏銳感官",
 		is_show = 1,
@@ -4411,8 +4414,10 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			413011
 		}
-	},
-	[41302] = {
+	}
+end)()
+(function ()
+	pg.base.child2_benefit_list[41302] = {
 		benefit_level = 0,
 		name = "569",
 		is_show = 0,
@@ -4440,8 +4445,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			413021
 		}
-	},
-	[41311] = {
+	}
+	pg.base.child2_benefit_list[41311] = {
 		benefit_level = 0,
 		name = "澄明心境",
 		is_show = 1,
@@ -4469,8 +4474,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			413111
 		}
-	},
-	[41312] = {
+	}
+	pg.base.child2_benefit_list[41312] = {
 		benefit_level = 0,
 		name = "571",
 		is_show = 0,
@@ -4498,8 +4503,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			413121
 		}
-	},
-	[41321] = {
+	}
+	pg.base.child2_benefit_list[41321] = {
 		benefit_level = 0,
 		name = "默契時光",
 		is_show = 1,
@@ -4527,8 +4532,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			413211
 		}
-	},
-	[41322] = {
+	}
+	pg.base.child2_benefit_list[41322] = {
 		benefit_level = 0,
 		name = "暢談歡愉",
 		is_show = 1,
@@ -4556,8 +4561,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			413221
 		}
-	},
-	[41323] = {
+	}
+	pg.base.child2_benefit_list[41323] = {
 		benefit_level = 0,
 		name = "574",
 		is_show = 0,
@@ -4585,8 +4590,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			413231
 		}
-	},
-	[41331] = {
+	}
+	pg.base.child2_benefit_list[41331] = {
 		benefit_level = 0,
 		name = "575",
 		is_show = 0,
@@ -4614,8 +4619,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			413311
 		}
-	},
-	[41332] = {
+	}
+	pg.base.child2_benefit_list[41332] = {
 		benefit_level = 0,
 		name = "576",
 		is_show = 0,
@@ -4643,8 +4648,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			413321
 		}
-	},
-	[41341] = {
+	}
+	pg.base.child2_benefit_list[41341] = {
 		benefit_level = 0,
 		name = "577",
 		is_show = 0,
@@ -4672,8 +4677,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			413411
 		}
-	},
-	[41342] = {
+	}
+	pg.base.child2_benefit_list[41342] = {
 		benefit_level = 0,
 		name = "578",
 		is_show = 0,
@@ -4701,8 +4706,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			413421
 		}
-	},
-	[41351] = {
+	}
+	pg.base.child2_benefit_list[41351] = {
 		benefit_level = 0,
 		name = "驚喜口味",
 		is_show = 1,
@@ -4730,8 +4735,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			413511
 		}
-	},
-	[41361] = {
+	}
+	pg.base.child2_benefit_list[41361] = {
 		benefit_level = 0,
 		name = "580",
 		is_show = 0,
@@ -4759,8 +4764,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			413611
 		}
-	},
-	[41362] = {
+	}
+	pg.base.child2_benefit_list[41362] = {
 		benefit_level = 0,
 		name = "581",
 		is_show = 0,
@@ -4788,8 +4793,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			413621
 		}
-	},
-	[41363] = {
+	}
+	pg.base.child2_benefit_list[41363] = {
 		benefit_level = 0,
 		name = "582",
 		is_show = 0,
@@ -4817,8 +4822,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			413631
 		}
-	},
-	[41364] = {
+	}
+	pg.base.child2_benefit_list[41364] = {
 		benefit_level = 0,
 		name = "583",
 		is_show = 0,
@@ -4846,8 +4851,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			413641
 		}
-	},
-	[41365] = {
+	}
+	pg.base.child2_benefit_list[41365] = {
 		benefit_level = 0,
 		name = "迷徑感知",
 		is_show = 1,
@@ -4875,8 +4880,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			413651
 		}
-	},
-	[41366] = {
+	}
+	pg.base.child2_benefit_list[41366] = {
 		benefit_level = 0,
 		name = "585",
 		is_show = 0,
@@ -4904,8 +4909,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			413661
 		}
-	},
-	[41371] = {
+	}
+	pg.base.child2_benefit_list[41371] = {
 		benefit_level = 0,
 		name = "節能模式",
 		is_show = 1,
@@ -4933,8 +4938,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			413711
 		}
-	},
-	[41372] = {
+	}
+	pg.base.child2_benefit_list[41372] = {
 		benefit_level = 0,
 		name = "587",
 		is_show = 0,
@@ -4962,8 +4967,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			413721
 		}
-	},
-	[41381] = {
+	}
+	pg.base.child2_benefit_list[41381] = {
 		benefit_level = 0,
 		name = "實感强化·低",
 		is_show = 1,
@@ -4991,8 +4996,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			413811
 		}
-	},
-	[41382] = {
+	}
+	pg.base.child2_benefit_list[41382] = {
 		benefit_level = 0,
 		name = "體智强化·低",
 		is_show = 1,
@@ -5020,8 +5025,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			413821
 		}
-	},
-	[41383] = {
+	}
+	pg.base.child2_benefit_list[41383] = {
 		benefit_level = 0,
 		name = "實感强化·中",
 		is_show = 1,
@@ -5049,8 +5054,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			413831
 		}
-	},
-	[41384] = {
+	}
+	pg.base.child2_benefit_list[41384] = {
 		benefit_level = 0,
 		name = "體智强化·中",
 		is_show = 1,
@@ -5078,8 +5083,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			413841
 		}
-	},
-	[41385] = {
+	}
+	pg.base.child2_benefit_list[41385] = {
 		benefit_level = 0,
 		name = "實感持續·中",
 		is_show = 1,
@@ -5107,8 +5112,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			413851
 		}
-	},
-	[41386] = {
+	}
+	pg.base.child2_benefit_list[41386] = {
 		benefit_level = 0,
 		name = "體智持續·中",
 		is_show = 1,
@@ -5136,8 +5141,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			413861
 		}
-	},
-	[41387] = {
+	}
+	pg.base.child2_benefit_list[41387] = {
 		benefit_level = 0,
 		name = "實感持續·高",
 		is_show = 1,
@@ -5165,8 +5170,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			413871
 		}
-	},
-	[41388] = {
+	}
+	pg.base.child2_benefit_list[41388] = {
 		benefit_level = 0,
 		name = "實感持續·高",
 		is_show = 1,
@@ -5194,8 +5199,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			413881
 		}
-	},
-	[41389] = {
+	}
+	pg.base.child2_benefit_list[41389] = {
 		benefit_level = 0,
 		name = "幸運祝福",
 		is_show = 1,
@@ -5223,8 +5228,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			413891
 		}
-	},
-	[41391] = {
+	}
+	pg.base.child2_benefit_list[41391] = {
 		benefit_level = 0,
 		name = "598",
 		is_show = 0,
@@ -5252,8 +5257,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			413911
 		}
-	},
-	[41392] = {
+	}
+	pg.base.child2_benefit_list[41392] = {
 		benefit_level = 0,
 		name = "599",
 		is_show = 0,
@@ -5281,8 +5286,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			413921
 		}
-	},
-	[41401] = {
+	}
+	pg.base.child2_benefit_list[41401] = {
 		benefit_level = 0,
 		name = "600",
 		is_show = 0,
@@ -5310,8 +5315,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			414011
 		}
-	},
-	[41402] = {
+	}
+	pg.base.child2_benefit_list[41402] = {
 		benefit_level = 0,
 		name = "601",
 		is_show = 0,
@@ -5339,8 +5344,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			414021
 		}
-	},
-	[41411] = {
+	}
+	pg.base.child2_benefit_list[41411] = {
 		benefit_level = 0,
 		name = "引擎之心",
 		is_show = 1,
@@ -5376,8 +5381,8 @@ pg.base.child2_benefit_list = {
 			414114,
 			414115
 		}
-	},
-	[41412] = {
+	}
+	pg.base.child2_benefit_list[41412] = {
 		benefit_level = 0,
 		name = "603",
 		is_show = 0,
@@ -5405,8 +5410,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			414121
 		}
-	},
-	[41421] = {
+	}
+	pg.base.child2_benefit_list[41421] = {
 		benefit_level = 0,
 		name = "604",
 		is_show = 0,
@@ -5434,8 +5439,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			414211
 		}
-	},
-	[41422] = {
+	}
+	pg.base.child2_benefit_list[41422] = {
 		benefit_level = 0,
 		name = "605",
 		is_show = 0,
@@ -5463,8 +5468,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			414221
 		}
-	},
-	[41431] = {
+	}
+	pg.base.child2_benefit_list[41431] = {
 		benefit_level = 0,
 		name = "606",
 		is_show = 0,
@@ -5492,8 +5497,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			414311
 		}
-	},
-	[41432] = {
+	}
+	pg.base.child2_benefit_list[41432] = {
 		benefit_level = 0,
 		name = "607",
 		is_show = 0,
@@ -5521,8 +5526,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			414321
 		}
-	},
-	[41441] = {
+	}
+	pg.base.child2_benefit_list[41441] = {
 		benefit_level = 0,
 		name = "療愈之語",
 		is_show = 1,
@@ -5558,8 +5563,8 @@ pg.base.child2_benefit_list = {
 			414414,
 			414415
 		}
-	},
-	[41442] = {
+	}
+	pg.base.child2_benefit_list[41442] = {
 		benefit_level = 0,
 		name = "609",
 		is_show = 0,
@@ -5587,8 +5592,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			414421
 		}
-	},
-	[41451] = {
+	}
+	pg.base.child2_benefit_list[41451] = {
 		benefit_level = 0,
 		name = "623",
 		is_show = 0,
@@ -5616,8 +5621,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			414511
 		}
-	},
-	[41452] = {
+	}
+	pg.base.child2_benefit_list[41452] = {
 		benefit_level = 0,
 		name = "622",
 		is_show = 0,
@@ -5645,8 +5650,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			414521
 		}
-	},
-	[41461] = {
+	}
+	pg.base.child2_benefit_list[41461] = {
 		benefit_level = 0,
 		name = "625",
 		is_show = 0,
@@ -5674,8 +5679,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			414611
 		}
-	},
-	[41462] = {
+	}
+	pg.base.child2_benefit_list[41462] = {
 		benefit_level = 0,
 		name = "幸運心情",
 		is_show = 1,
@@ -5703,8 +5708,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			414621
 		}
-	},
-	[41463] = {
+	}
+	pg.base.child2_benefit_list[41463] = {
 		benefit_level = 0,
 		name = "",
 		is_show = 0,
@@ -5732,8 +5737,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			414631
 		}
-	},
-	[41464] = {
+	}
+	pg.base.child2_benefit_list[41464] = {
 		benefit_level = 0,
 		name = "",
 		is_show = 0,
@@ -5761,8 +5766,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			414641
 		}
-	},
-	[41465] = {
+	}
+	pg.base.child2_benefit_list[41465] = {
 		benefit_level = 0,
 		name = "",
 		is_show = 0,
@@ -5790,8 +5795,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			414651
 		}
-	},
-	[41466] = {
+	}
+	pg.base.child2_benefit_list[41466] = {
 		benefit_level = 0,
 		name = "",
 		is_show = 0,
@@ -5819,8 +5824,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			414661
 		}
-	},
-	[41467] = {
+	}
+	pg.base.child2_benefit_list[41467] = {
 		benefit_level = 0,
 		name = "抽王牌懲罰",
 		is_show = 1,
@@ -5848,8 +5853,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			414671
 		}
-	},
-	[41468] = {
+	}
+	pg.base.child2_benefit_list[41468] = {
 		benefit_level = 0,
 		name = "抽王牌懲罰",
 		is_show = 1,
@@ -5877,8 +5882,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			414681
 		}
-	},
-	[41469] = {
+	}
+	pg.base.child2_benefit_list[41469] = {
 		benefit_level = 0,
 		name = "抽王牌懲罰",
 		is_show = 1,
@@ -5906,8 +5911,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			414691
 		}
-	},
-	[41470] = {
+	}
+	pg.base.child2_benefit_list[41470] = {
 		benefit_level = 0,
 		name = "抽王牌懲罰",
 		is_show = 1,
@@ -5935,8 +5940,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			414701
 		}
-	},
-	[41471] = {
+	}
+	pg.base.child2_benefit_list[41471] = {
 		benefit_level = 0,
 		name = "抽王牌懲罰-體能懲罰",
 		is_show = 1,
@@ -5964,8 +5969,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			414711
 		}
-	},
-	[41472] = {
+	}
+	pg.base.child2_benefit_list[41472] = {
 		benefit_level = 0,
 		name = "抽王牌懲罰-知識懲罰",
 		is_show = 1,
@@ -5993,8 +5998,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			414721
 		}
-	},
-	[41473] = {
+	}
+	pg.base.child2_benefit_list[41473] = {
 		benefit_level = 0,
 		name = "抽王牌懲罰-實踐懲罰",
 		is_show = 1,
@@ -6022,8 +6027,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			414731
 		}
-	},
-	[41474] = {
+	}
+	pg.base.child2_benefit_list[41474] = {
 		benefit_level = 0,
 		name = "抽王牌懲罰-感知懲罰",
 		is_show = 1,
@@ -6051,8 +6056,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			414741
 		}
-	},
-	[42011] = {
+	}
+	pg.base.child2_benefit_list[42011] = {
 		benefit_level = 0,
 		name = "不該有",
 		is_show = 0,
@@ -6076,8 +6081,8 @@ pg.base.child2_benefit_list = {
 		upgrade_desc = "",
 		content = {},
 		show_content = {}
-	},
-	[42021] = {
+	}
+	pg.base.child2_benefit_list[42021] = {
 		benefit_level = 0,
 		name = "502",
 		is_show = 0,
@@ -6105,8 +6110,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			420211
 		}
-	},
-	[42022] = {
+	}
+	pg.base.child2_benefit_list[42022] = {
 		benefit_level = 0,
 		name = "503",
 		is_show = 0,
@@ -6134,8 +6139,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			420221
 		}
-	},
-	[42023] = {
+	}
+	pg.base.child2_benefit_list[42023] = {
 		benefit_level = 0,
 		name = "504",
 		is_show = 0,
@@ -6163,8 +6168,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			420231
 		}
-	},
-	[42024] = {
+	}
+	pg.base.child2_benefit_list[42024] = {
 		benefit_level = 0,
 		name = "505",
 		is_show = 0,
@@ -6192,8 +6197,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			420241
 		}
-	},
-	[42031] = {
+	}
+	pg.base.child2_benefit_list[42031] = {
 		benefit_level = 0,
 		name = "不該有",
 		is_show = 0,
@@ -6217,8 +6222,8 @@ pg.base.child2_benefit_list = {
 		upgrade_desc = "",
 		content = {},
 		show_content = {}
-	},
-	[42041] = {
+	}
+	pg.base.child2_benefit_list[42041] = {
 		benefit_level = 0,
 		name = "不該有",
 		is_show = 0,
@@ -6242,8 +6247,8 @@ pg.base.child2_benefit_list = {
 		upgrade_desc = "",
 		content = {},
 		show_content = {}
-	},
-	[42051] = {
+	}
+	pg.base.child2_benefit_list[42051] = {
 		benefit_level = 0,
 		name = "不該有",
 		is_show = 0,
@@ -6267,8 +6272,8 @@ pg.base.child2_benefit_list = {
 		upgrade_desc = "",
 		content = {},
 		show_content = {}
-	},
-	[42061] = {
+	}
+	pg.base.child2_benefit_list[42061] = {
 		benefit_level = 0,
 		name = "509",
 		is_show = 0,
@@ -6296,8 +6301,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			420611
 		}
-	},
-	[42062] = {
+	}
+	pg.base.child2_benefit_list[42062] = {
 		benefit_level = 0,
 		name = "510",
 		is_show = 0,
@@ -6325,8 +6330,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			420621
 		}
-	},
-	[42063] = {
+	}
+	pg.base.child2_benefit_list[42063] = {
 		benefit_level = 0,
 		name = "511",
 		is_show = 0,
@@ -6354,8 +6359,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			420631
 		}
-	},
-	[42064] = {
+	}
+	pg.base.child2_benefit_list[42064] = {
 		benefit_level = 0,
 		name = "512",
 		is_show = 0,
@@ -6383,8 +6388,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			420641
 		}
-	},
-	[42071] = {
+	}
+	pg.base.child2_benefit_list[42071] = {
 		benefit_level = 0,
 		name = "513",
 		is_show = 0,
@@ -6412,8 +6417,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			420711
 		}
-	},
-	[42072] = {
+	}
+	pg.base.child2_benefit_list[42072] = {
 		benefit_level = 0,
 		name = "514",
 		is_show = 0,
@@ -6441,8 +6446,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			420721
 		}
-	},
-	[42073] = {
+	}
+	pg.base.child2_benefit_list[42073] = {
 		benefit_level = 0,
 		name = "515",
 		is_show = 0,
@@ -6470,8 +6475,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			420731
 		}
-	},
-	[42074] = {
+	}
+	pg.base.child2_benefit_list[42074] = {
 		benefit_level = 0,
 		name = "516",
 		is_show = 0,
@@ -6499,8 +6504,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			420741
 		}
-	},
-	[42081] = {
+	}
+	pg.base.child2_benefit_list[42081] = {
 		benefit_level = 0,
 		name = "517",
 		is_show = 0,
@@ -6528,8 +6533,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			420811
 		}
-	},
-	[42082] = {
+	}
+	pg.base.child2_benefit_list[42082] = {
 		benefit_level = 0,
 		name = "613",
 		is_show = 0,
@@ -6557,8 +6562,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			420821
 		}
-	},
-	[42091] = {
+	}
+	pg.base.child2_benefit_list[42091] = {
 		benefit_level = 0,
 		name = "518",
 		is_show = 0,
@@ -6586,8 +6591,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			420911
 		}
-	},
-	[42092] = {
+	}
+	pg.base.child2_benefit_list[42092] = {
 		benefit_level = 0,
 		name = "519",
 		is_show = 0,
@@ -6615,8 +6620,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			420921
 		}
-	},
-	[42093] = {
+	}
+	pg.base.child2_benefit_list[42093] = {
 		benefit_level = 0,
 		name = "520",
 		is_show = 0,
@@ -6644,8 +6649,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			420931
 		}
-	},
-	[42101] = {
+	}
+	pg.base.child2_benefit_list[42101] = {
 		benefit_level = 0,
 		name = "521",
 		is_show = 0,
@@ -6673,8 +6678,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			421011
 		}
-	},
-	[42102] = {
+	}
+	pg.base.child2_benefit_list[42102] = {
 		benefit_level = 0,
 		name = "614",
 		is_show = 0,
@@ -6702,8 +6707,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			421021
 		}
-	},
-	[42111] = {
+	}
+	pg.base.child2_benefit_list[42111] = {
 		benefit_level = 0,
 		name = "522",
 		is_show = 0,
@@ -6731,8 +6736,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			421111
 		}
-	},
-	[42112] = {
+	}
+	pg.base.child2_benefit_list[42112] = {
 		benefit_level = 0,
 		name = "523",
 		is_show = 0,
@@ -6760,8 +6765,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			421121
 		}
-	},
-	[42113] = {
+	}
+	pg.base.child2_benefit_list[42113] = {
 		benefit_level = 0,
 		name = "524",
 		is_show = 0,
@@ -6789,8 +6794,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			421131
 		}
-	},
-	[42114] = {
+	}
+	pg.base.child2_benefit_list[42114] = {
 		benefit_level = 0,
 		name = "525",
 		is_show = 0,
@@ -6818,8 +6823,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			421141
 		}
-	},
-	[42115] = {
+	}
+	pg.base.child2_benefit_list[42115] = {
 		benefit_level = 0,
 		name = "不該有",
 		is_show = 0,
@@ -6843,8 +6848,8 @@ pg.base.child2_benefit_list = {
 		upgrade_desc = "",
 		content = {},
 		show_content = {}
-	},
-	[42121] = {
+	}
+	pg.base.child2_benefit_list[42121] = {
 		benefit_level = 0,
 		name = "527",
 		is_show = 0,
@@ -6872,8 +6877,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			421211
 		}
-	},
-	[42122] = {
+	}
+	pg.base.child2_benefit_list[42122] = {
 		benefit_level = 0,
 		name = "615",
 		is_show = 0,
@@ -6901,8 +6906,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			421221
 		}
-	},
-	[42131] = {
+	}
+	pg.base.child2_benefit_list[42131] = {
 		benefit_level = 0,
 		name = "528",
 		is_show = 0,
@@ -6930,8 +6935,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			421311
 		}
-	},
-	[42132] = {
+	}
+	pg.base.child2_benefit_list[42132] = {
 		benefit_level = 0,
 		name = "529",
 		is_show = 0,
@@ -6959,8 +6964,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			421321
 		}
-	},
-	[42133] = {
+	}
+	pg.base.child2_benefit_list[42133] = {
 		benefit_level = 0,
 		name = "530",
 		is_show = 0,
@@ -6988,8 +6993,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			421331
 		}
-	},
-	[42134] = {
+	}
+	pg.base.child2_benefit_list[42134] = {
 		benefit_level = 0,
 		name = "531",
 		is_show = 0,
@@ -7017,8 +7022,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			421341
 		}
-	},
-	[42135] = {
+	}
+	pg.base.child2_benefit_list[42135] = {
 		benefit_level = 0,
 		name = "不該有",
 		is_show = 0,
@@ -7042,8 +7047,8 @@ pg.base.child2_benefit_list = {
 		upgrade_desc = "",
 		content = {},
 		show_content = {}
-	},
-	[42141] = {
+	}
+	pg.base.child2_benefit_list[42141] = {
 		benefit_level = 0,
 		name = "533",
 		is_show = 0,
@@ -7071,8 +7076,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			421411
 		}
-	},
-	[42142] = {
+	}
+	pg.base.child2_benefit_list[42142] = {
 		benefit_level = 0,
 		name = "534",
 		is_show = 0,
@@ -7100,8 +7105,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			421421
 		}
-	},
-	[42151] = {
+	}
+	pg.base.child2_benefit_list[42151] = {
 		benefit_level = 0,
 		name = "535",
 		is_show = 0,
@@ -7129,8 +7134,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			421511
 		}
-	},
-	[42161] = {
+	}
+	pg.base.child2_benefit_list[42161] = {
 		benefit_level = 0,
 		name = "知識精要·速成",
 		is_show = 1,
@@ -7158,8 +7163,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			421611
 		}
-	},
-	[42162] = {
+	}
+	pg.base.child2_benefit_list[42162] = {
 		benefit_level = 0,
 		name = "616",
 		is_show = 0,
@@ -7187,8 +7192,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			421621
 		}
-	},
-	[42171] = {
+	}
+	pg.base.child2_benefit_list[42171] = {
 		benefit_level = 0,
 		name = "知識精要·持續",
 		is_show = 1,
@@ -7216,8 +7221,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			421711
 		}
-	},
-	[42172] = {
+	}
+	pg.base.child2_benefit_list[42172] = {
 		benefit_level = 0,
 		name = "617",
 		is_show = 0,
@@ -7245,8 +7250,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			421721
 		}
-	},
-	[42181] = {
+	}
+	pg.base.child2_benefit_list[42181] = {
 		benefit_level = 0,
 		name = "突破極限",
 		is_show = 1,
@@ -7274,8 +7279,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			421811
 		}
-	},
-	[42182] = {
+	}
+	pg.base.child2_benefit_list[42182] = {
 		benefit_level = 0,
 		name = "618",
 		is_show = 0,
@@ -7303,8 +7308,10 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			421821
 		}
-	},
-	[42191] = {
+	}
+end)()
+(function ()
+	pg.base.child2_benefit_list[42191] = {
 		benefit_level = 0,
 		name = "穩步前行",
 		is_show = 1,
@@ -7332,8 +7339,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			421911
 		}
-	},
-	[42192] = {
+	}
+	pg.base.child2_benefit_list[42192] = {
 		benefit_level = 0,
 		name = "540",
 		is_show = 0,
@@ -7361,8 +7368,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			421921
 		}
-	},
-	[42201] = {
+	}
+	pg.base.child2_benefit_list[42201] = {
 		benefit_level = 0,
 		name = "醍醐灌頂",
 		is_show = 1,
@@ -7390,8 +7397,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			422011
 		}
-	},
-	[42202] = {
+	}
+	pg.base.child2_benefit_list[42202] = {
 		benefit_level = 0,
 		name = "慧眼初開",
 		is_show = 1,
@@ -7419,8 +7426,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			422021
 		}
-	},
-	[42203] = {
+	}
+	pg.base.child2_benefit_list[42203] = {
 		benefit_level = 0,
 		name = "豁然開朗",
 		is_show = 1,
@@ -7448,8 +7455,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			422031
 		}
-	},
-	[42204] = {
+	}
+	pg.base.child2_benefit_list[42204] = {
 		benefit_level = 0,
 		name = "融會貫通",
 		is_show = 1,
@@ -7477,8 +7484,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			422041
 		}
-	},
-	[42211] = {
+	}
+	pg.base.child2_benefit_list[42211] = {
 		benefit_level = 0,
 		name = "超頻模式",
 		is_show = 1,
@@ -7506,8 +7513,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			422111
 		}
-	},
-	[42212] = {
+	}
+	pg.base.child2_benefit_list[42212] = {
 		benefit_level = 0,
 		name = "546",
 		is_show = 0,
@@ -7535,8 +7542,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			422121
 		}
-	},
-	[42221] = {
+	}
+	pg.base.child2_benefit_list[42221] = {
 		benefit_level = 0,
 		name = "547",
 		is_show = 0,
@@ -7564,8 +7571,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			422211
 		}
-	},
-	[42222] = {
+	}
+	pg.base.child2_benefit_list[42222] = {
 		benefit_level = 0,
 		name = "548",
 		is_show = 0,
@@ -7593,8 +7600,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			422221
 		}
-	},
-	[42231] = {
+	}
+	pg.base.child2_benefit_list[42231] = {
 		benefit_level = 0,
 		name = "極限訓練",
 		is_show = 1,
@@ -7622,8 +7629,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			422311
 		}
-	},
-	[42232] = {
+	}
+	pg.base.child2_benefit_list[42232] = {
 		benefit_level = 0,
 		name = "常規訓練",
 		is_show = 0,
@@ -7651,8 +7658,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			422321
 		}
-	},
-	[42233] = {
+	}
+	pg.base.child2_benefit_list[42233] = {
 		benefit_level = 0,
 		name = "基礎訓練",
 		is_show = 0,
@@ -7680,8 +7687,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			422331
 		}
-	},
-	[42234] = {
+	}
+	pg.base.child2_benefit_list[42234] = {
 		benefit_level = 0,
 		name = "505",
 		is_show = 0,
@@ -7709,8 +7716,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			422341
 		}
-	},
-	[42241] = {
+	}
+	pg.base.child2_benefit_list[42241] = {
 		benefit_level = 0,
 		name = "博覽群書",
 		is_show = 1,
@@ -7738,8 +7745,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			422411
 		}
-	},
-	[42242] = {
+	}
+	pg.base.child2_benefit_list[42242] = {
 		benefit_level = 0,
 		name = "深度閱讀",
 		is_show = 0,
@@ -7767,8 +7774,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			422421
 		}
-	},
-	[42243] = {
+	}
+	pg.base.child2_benefit_list[42243] = {
 		benefit_level = 0,
 		name = "略讀速覽",
 		is_show = 0,
@@ -7796,8 +7803,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			422431
 		}
-	},
-	[42244] = {
+	}
+	pg.base.child2_benefit_list[42244] = {
 		benefit_level = 0,
 		name = "502",
 		is_show = 0,
@@ -7825,8 +7832,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			422441
 		}
-	},
-	[42251] = {
+	}
+	pg.base.child2_benefit_list[42251] = {
 		benefit_level = 0,
 		name = "精益求精",
 		is_show = 1,
@@ -7854,8 +7861,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			422511
 		}
-	},
-	[42252] = {
+	}
+	pg.base.child2_benefit_list[42252] = {
 		benefit_level = 0,
 		name = "漸入佳境",
 		is_show = 0,
@@ -7883,8 +7890,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			422521
 		}
-	},
-	[42253] = {
+	}
+	pg.base.child2_benefit_list[42253] = {
 		benefit_level = 0,
 		name = "入門之路",
 		is_show = 0,
@@ -7912,8 +7919,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			422531
 		}
-	},
-	[42254] = {
+	}
+	pg.base.child2_benefit_list[42254] = {
 		benefit_level = 0,
 		name = "503",
 		is_show = 0,
@@ -7941,8 +7948,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			422541
 		}
-	},
-	[42261] = {
+	}
+	pg.base.child2_benefit_list[42261] = {
 		benefit_level = 0,
 		name = "巔峰狀態",
 		is_show = 1,
@@ -7970,8 +7977,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			422611
 		}
-	},
-	[42262] = {
+	}
+	pg.base.child2_benefit_list[42262] = {
 		benefit_level = 0,
 		name = "全神貫注",
 		is_show = 0,
@@ -7999,8 +8006,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			422621
 		}
-	},
-	[42263] = {
+	}
+	pg.base.child2_benefit_list[42263] = {
 		benefit_level = 0,
 		name = "專注時刻",
 		is_show = 0,
@@ -8028,8 +8035,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			422631
 		}
-	},
-	[42264] = {
+	}
+	pg.base.child2_benefit_list[42264] = {
 		benefit_level = 0,
 		name = "504",
 		is_show = 0,
@@ -8057,8 +8064,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			422641
 		}
-	},
-	[42271] = {
+	}
+	pg.base.child2_benefit_list[42271] = {
 		benefit_level = 0,
 		name = "561",
 		is_show = 0,
@@ -8086,8 +8093,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			422711
 		}
-	},
-	[42272] = {
+	}
+	pg.base.child2_benefit_list[42272] = {
 		benefit_level = 0,
 		name = "562",
 		is_show = 0,
@@ -8115,8 +8122,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			422721
 		}
-	},
-	[42281] = {
+	}
+	pg.base.child2_benefit_list[42281] = {
 		benefit_level = 0,
 		name = "漫步收穫",
 		is_show = 1,
@@ -8144,8 +8151,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			422811
 		}
-	},
-	[42282] = {
+	}
+	pg.base.child2_benefit_list[42282] = {
 		benefit_level = 0,
 		name = "564",
 		is_show = 0,
@@ -8173,8 +8180,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			422821
 		}
-	},
-	[42291] = {
+	}
+	pg.base.child2_benefit_list[42291] = {
 		benefit_level = 0,
 		name = "幸運之財",
 		is_show = 1,
@@ -8202,8 +8209,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			422911
 		}
-	},
-	[42292] = {
+	}
+	pg.base.child2_benefit_list[42292] = {
 		benefit_level = 0,
 		name = "幸運饋贈",
 		is_show = 1,
@@ -8231,8 +8238,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			422921
 		}
-	},
-	[42293] = {
+	}
+	pg.base.child2_benefit_list[42293] = {
 		benefit_level = 0,
 		name = "567",
 		is_show = 0,
@@ -8260,8 +8267,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			422931
 		}
-	},
-	[42301] = {
+	}
+	pg.base.child2_benefit_list[42301] = {
 		benefit_level = 0,
 		name = "敏銳感官",
 		is_show = 1,
@@ -8289,8 +8296,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			423011
 		}
-	},
-	[42302] = {
+	}
+	pg.base.child2_benefit_list[42302] = {
 		benefit_level = 0,
 		name = "569",
 		is_show = 0,
@@ -8318,8 +8325,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			423021
 		}
-	},
-	[42311] = {
+	}
+	pg.base.child2_benefit_list[42311] = {
 		benefit_level = 0,
 		name = "澄明心境",
 		is_show = 1,
@@ -8347,8 +8354,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			423111
 		}
-	},
-	[42312] = {
+	}
+	pg.base.child2_benefit_list[42312] = {
 		benefit_level = 0,
 		name = "571",
 		is_show = 0,
@@ -8376,8 +8383,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			423121
 		}
-	},
-	[42321] = {
+	}
+	pg.base.child2_benefit_list[42321] = {
 		benefit_level = 0,
 		name = "默契時光",
 		is_show = 1,
@@ -8405,8 +8412,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			423211
 		}
-	},
-	[42322] = {
+	}
+	pg.base.child2_benefit_list[42322] = {
 		benefit_level = 0,
 		name = "暢談歡愉",
 		is_show = 1,
@@ -8434,8 +8441,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			423221
 		}
-	},
-	[42323] = {
+	}
+	pg.base.child2_benefit_list[42323] = {
 		benefit_level = 0,
 		name = "574",
 		is_show = 0,
@@ -8463,8 +8470,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			423231
 		}
-	},
-	[42331] = {
+	}
+	pg.base.child2_benefit_list[42331] = {
 		benefit_level = 0,
 		name = "575",
 		is_show = 0,
@@ -8492,8 +8499,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			423311
 		}
-	},
-	[42332] = {
+	}
+	pg.base.child2_benefit_list[42332] = {
 		benefit_level = 0,
 		name = "576",
 		is_show = 0,
@@ -8521,8 +8528,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			423321
 		}
-	},
-	[42341] = {
+	}
+	pg.base.child2_benefit_list[42341] = {
 		benefit_level = 0,
 		name = "577",
 		is_show = 0,
@@ -8550,8 +8557,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			423411
 		}
-	},
-	[42342] = {
+	}
+	pg.base.child2_benefit_list[42342] = {
 		benefit_level = 0,
 		name = "578",
 		is_show = 0,
@@ -8579,8 +8586,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			423421
 		}
-	},
-	[42351] = {
+	}
+	pg.base.child2_benefit_list[42351] = {
 		benefit_level = 0,
 		name = "驚喜口味",
 		is_show = 1,
@@ -8608,8 +8615,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			423511
 		}
-	},
-	[42361] = {
+	}
+	pg.base.child2_benefit_list[42361] = {
 		benefit_level = 0,
 		name = "580",
 		is_show = 0,
@@ -8637,8 +8644,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			423611
 		}
-	},
-	[42362] = {
+	}
+	pg.base.child2_benefit_list[42362] = {
 		benefit_level = 0,
 		name = "581",
 		is_show = 0,
@@ -8666,8 +8673,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			423621
 		}
-	},
-	[42363] = {
+	}
+	pg.base.child2_benefit_list[42363] = {
 		benefit_level = 0,
 		name = "582",
 		is_show = 0,
@@ -8695,8 +8702,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			423631
 		}
-	},
-	[42364] = {
+	}
+	pg.base.child2_benefit_list[42364] = {
 		benefit_level = 0,
 		name = "583",
 		is_show = 0,
@@ -8724,8 +8731,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			423641
 		}
-	},
-	[42365] = {
+	}
+	pg.base.child2_benefit_list[42365] = {
 		benefit_level = 0,
 		name = "迷徑感知",
 		is_show = 1,
@@ -8753,8 +8760,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			423651
 		}
-	},
-	[42366] = {
+	}
+	pg.base.child2_benefit_list[42366] = {
 		benefit_level = 0,
 		name = "585",
 		is_show = 0,
@@ -8782,8 +8789,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			423661
 		}
-	},
-	[42371] = {
+	}
+	pg.base.child2_benefit_list[42371] = {
 		benefit_level = 0,
 		name = "節能模式",
 		is_show = 1,
@@ -8811,8 +8818,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			423711
 		}
-	},
-	[42372] = {
+	}
+	pg.base.child2_benefit_list[42372] = {
 		benefit_level = 0,
 		name = "587",
 		is_show = 0,
@@ -8840,8 +8847,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			423721
 		}
-	},
-	[42381] = {
+	}
+	pg.base.child2_benefit_list[42381] = {
 		benefit_level = 0,
 		name = "實感强化·低",
 		is_show = 1,
@@ -8869,8 +8876,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			423811
 		}
-	},
-	[42382] = {
+	}
+	pg.base.child2_benefit_list[42382] = {
 		benefit_level = 0,
 		name = "體智强化·低",
 		is_show = 1,
@@ -8898,8 +8905,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			423821
 		}
-	},
-	[42383] = {
+	}
+	pg.base.child2_benefit_list[42383] = {
 		benefit_level = 0,
 		name = "實感强化·中",
 		is_show = 1,
@@ -8927,8 +8934,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			423831
 		}
-	},
-	[42384] = {
+	}
+	pg.base.child2_benefit_list[42384] = {
 		benefit_level = 0,
 		name = "體智强化·中",
 		is_show = 1,
@@ -8956,8 +8963,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			423841
 		}
-	},
-	[42385] = {
+	}
+	pg.base.child2_benefit_list[42385] = {
 		benefit_level = 0,
 		name = "實感持續·中",
 		is_show = 1,
@@ -8985,8 +8992,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			423851
 		}
-	},
-	[42386] = {
+	}
+	pg.base.child2_benefit_list[42386] = {
 		benefit_level = 0,
 		name = "體智持續·中",
 		is_show = 1,
@@ -9014,8 +9021,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			423861
 		}
-	},
-	[42387] = {
+	}
+	pg.base.child2_benefit_list[42387] = {
 		benefit_level = 0,
 		name = "實感持續·高",
 		is_show = 1,
@@ -9043,8 +9050,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			423871
 		}
-	},
-	[42388] = {
+	}
+	pg.base.child2_benefit_list[42388] = {
 		benefit_level = 0,
 		name = "實感持續·高",
 		is_show = 1,
@@ -9072,8 +9079,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			423881
 		}
-	},
-	[42389] = {
+	}
+	pg.base.child2_benefit_list[42389] = {
 		benefit_level = 0,
 		name = "幸運祝福",
 		is_show = 1,
@@ -9101,8 +9108,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			423891
 		}
-	},
-	[42391] = {
+	}
+	pg.base.child2_benefit_list[42391] = {
 		benefit_level = 0,
 		name = "598",
 		is_show = 0,
@@ -9130,8 +9137,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			423911
 		}
-	},
-	[42392] = {
+	}
+	pg.base.child2_benefit_list[42392] = {
 		benefit_level = 0,
 		name = "599",
 		is_show = 0,
@@ -9159,8 +9166,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			423921
 		}
-	},
-	[42401] = {
+	}
+	pg.base.child2_benefit_list[42401] = {
 		benefit_level = 0,
 		name = "600",
 		is_show = 0,
@@ -9188,8 +9195,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			424011
 		}
-	},
-	[42402] = {
+	}
+	pg.base.child2_benefit_list[42402] = {
 		benefit_level = 0,
 		name = "601",
 		is_show = 0,
@@ -9217,8 +9224,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			424021
 		}
-	},
-	[42411] = {
+	}
+	pg.base.child2_benefit_list[42411] = {
 		benefit_level = 0,
 		name = "引擎之心",
 		is_show = 1,
@@ -9254,8 +9261,8 @@ pg.base.child2_benefit_list = {
 			424114,
 			424115
 		}
-	},
-	[42412] = {
+	}
+	pg.base.child2_benefit_list[42412] = {
 		benefit_level = 0,
 		name = "603",
 		is_show = 0,
@@ -9283,8 +9290,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			424121
 		}
-	},
-	[42421] = {
+	}
+	pg.base.child2_benefit_list[42421] = {
 		benefit_level = 0,
 		name = "604",
 		is_show = 0,
@@ -9312,8 +9319,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			424211
 		}
-	},
-	[42422] = {
+	}
+	pg.base.child2_benefit_list[42422] = {
 		benefit_level = 0,
 		name = "605",
 		is_show = 0,
@@ -9341,8 +9348,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			424221
 		}
-	},
-	[42431] = {
+	}
+	pg.base.child2_benefit_list[42431] = {
 		benefit_level = 0,
 		name = "606",
 		is_show = 0,
@@ -9370,8 +9377,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			424311
 		}
-	},
-	[42432] = {
+	}
+	pg.base.child2_benefit_list[42432] = {
 		benefit_level = 0,
 		name = "607",
 		is_show = 0,
@@ -9399,8 +9406,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			424321
 		}
-	},
-	[42441] = {
+	}
+	pg.base.child2_benefit_list[42441] = {
 		benefit_level = 0,
 		name = "療愈之語",
 		is_show = 1,
@@ -9436,8 +9443,8 @@ pg.base.child2_benefit_list = {
 			424414,
 			424415
 		}
-	},
-	[42442] = {
+	}
+	pg.base.child2_benefit_list[42442] = {
 		benefit_level = 0,
 		name = "609",
 		is_show = 0,
@@ -9465,8 +9472,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			424421
 		}
-	},
-	[42451] = {
+	}
+	pg.base.child2_benefit_list[42451] = {
 		benefit_level = 0,
 		name = "623",
 		is_show = 0,
@@ -9494,8 +9501,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			424511
 		}
-	},
-	[42452] = {
+	}
+	pg.base.child2_benefit_list[42452] = {
 		benefit_level = 0,
 		name = "622",
 		is_show = 0,
@@ -9523,8 +9530,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			424521
 		}
-	},
-	[42461] = {
+	}
+	pg.base.child2_benefit_list[42461] = {
 		benefit_level = 0,
 		name = "625",
 		is_show = 0,
@@ -9552,8 +9559,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			424611
 		}
-	},
-	[42462] = {
+	}
+	pg.base.child2_benefit_list[42462] = {
 		benefit_level = 0,
 		name = "幸運心情",
 		is_show = 1,
@@ -9581,8 +9588,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			424621
 		}
-	},
-	[42463] = {
+	}
+	pg.base.child2_benefit_list[42463] = {
 		benefit_level = 0,
 		name = "",
 		is_show = 0,
@@ -9610,8 +9617,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			424631
 		}
-	},
-	[42464] = {
+	}
+	pg.base.child2_benefit_list[42464] = {
 		benefit_level = 0,
 		name = "",
 		is_show = 0,
@@ -9639,8 +9646,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			424641
 		}
-	},
-	[42465] = {
+	}
+	pg.base.child2_benefit_list[42465] = {
 		benefit_level = 0,
 		name = "",
 		is_show = 0,
@@ -9668,8 +9675,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			424651
 		}
-	},
-	[42466] = {
+	}
+	pg.base.child2_benefit_list[42466] = {
 		benefit_level = 0,
 		name = "",
 		is_show = 0,
@@ -9697,8 +9704,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			424661
 		}
-	},
-	[42467] = {
+	}
+	pg.base.child2_benefit_list[42467] = {
 		benefit_level = 0,
 		name = "抽王牌懲罰",
 		is_show = 1,
@@ -9726,8 +9733,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			424671
 		}
-	},
-	[42468] = {
+	}
+	pg.base.child2_benefit_list[42468] = {
 		benefit_level = 0,
 		name = "抽王牌懲罰",
 		is_show = 1,
@@ -9755,8 +9762,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			424681
 		}
-	},
-	[42469] = {
+	}
+	pg.base.child2_benefit_list[42469] = {
 		benefit_level = 0,
 		name = "抽王牌懲罰",
 		is_show = 1,
@@ -9784,8 +9791,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			424691
 		}
-	},
-	[42470] = {
+	}
+	pg.base.child2_benefit_list[42470] = {
 		benefit_level = 0,
 		name = "抽王牌懲罰",
 		is_show = 1,
@@ -9813,8 +9820,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			424701
 		}
-	},
-	[42471] = {
+	}
+	pg.base.child2_benefit_list[42471] = {
 		benefit_level = 0,
 		name = "抽王牌懲罰-體能懲罰",
 		is_show = 1,
@@ -9842,8 +9849,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			424711
 		}
-	},
-	[42472] = {
+	}
+	pg.base.child2_benefit_list[42472] = {
 		benefit_level = 0,
 		name = "抽王牌懲罰-知識懲罰",
 		is_show = 1,
@@ -9871,8 +9878,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			424721
 		}
-	},
-	[42473] = {
+	}
+	pg.base.child2_benefit_list[42473] = {
 		benefit_level = 0,
 		name = "抽王牌懲罰-實踐懲罰",
 		is_show = 1,
@@ -9900,8 +9907,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			424731
 		}
-	},
-	[42474] = {
+	}
+	pg.base.child2_benefit_list[42474] = {
 		benefit_level = 0,
 		name = "抽王牌懲罰-感知懲罰",
 		is_show = 1,
@@ -9929,8 +9936,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			424741
 		}
-	},
-	[43011] = {
+	}
+	pg.base.child2_benefit_list[43011] = {
 		benefit_level = 0,
 		name = "不該有",
 		is_show = 0,
@@ -9954,8 +9961,8 @@ pg.base.child2_benefit_list = {
 		upgrade_desc = "",
 		content = {},
 		show_content = {}
-	},
-	[43021] = {
+	}
+	pg.base.child2_benefit_list[43021] = {
 		benefit_level = 0,
 		name = "502",
 		is_show = 0,
@@ -9983,8 +9990,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			430211
 		}
-	},
-	[43022] = {
+	}
+	pg.base.child2_benefit_list[43022] = {
 		benefit_level = 0,
 		name = "503",
 		is_show = 0,
@@ -10012,8 +10019,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			430221
 		}
-	},
-	[43023] = {
+	}
+	pg.base.child2_benefit_list[43023] = {
 		benefit_level = 0,
 		name = "504",
 		is_show = 0,
@@ -10041,8 +10048,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			430231
 		}
-	},
-	[43024] = {
+	}
+	pg.base.child2_benefit_list[43024] = {
 		benefit_level = 0,
 		name = "505",
 		is_show = 0,
@@ -10070,8 +10077,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			430241
 		}
-	},
-	[43031] = {
+	}
+	pg.base.child2_benefit_list[43031] = {
 		benefit_level = 0,
 		name = "不該有",
 		is_show = 0,
@@ -10095,8 +10102,8 @@ pg.base.child2_benefit_list = {
 		upgrade_desc = "",
 		content = {},
 		show_content = {}
-	},
-	[43041] = {
+	}
+	pg.base.child2_benefit_list[43041] = {
 		benefit_level = 0,
 		name = "不該有",
 		is_show = 0,
@@ -10120,8 +10127,8 @@ pg.base.child2_benefit_list = {
 		upgrade_desc = "",
 		content = {},
 		show_content = {}
-	},
-	[43051] = {
+	}
+	pg.base.child2_benefit_list[43051] = {
 		benefit_level = 0,
 		name = "不該有",
 		is_show = 0,
@@ -10145,8 +10152,8 @@ pg.base.child2_benefit_list = {
 		upgrade_desc = "",
 		content = {},
 		show_content = {}
-	},
-	[43061] = {
+	}
+	pg.base.child2_benefit_list[43061] = {
 		benefit_level = 0,
 		name = "509",
 		is_show = 0,
@@ -10174,8 +10181,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			430611
 		}
-	},
-	[43062] = {
+	}
+	pg.base.child2_benefit_list[43062] = {
 		benefit_level = 0,
 		name = "510",
 		is_show = 0,
@@ -10203,8 +10210,10 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			430621
 		}
-	},
-	[43063] = {
+	}
+end)()
+(function ()
+	pg.base.child2_benefit_list[43063] = {
 		benefit_level = 0,
 		name = "511",
 		is_show = 0,
@@ -10232,8 +10241,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			430631
 		}
-	},
-	[43064] = {
+	}
+	pg.base.child2_benefit_list[43064] = {
 		benefit_level = 0,
 		name = "512",
 		is_show = 0,
@@ -10261,8 +10270,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			430641
 		}
-	},
-	[43071] = {
+	}
+	pg.base.child2_benefit_list[43071] = {
 		benefit_level = 0,
 		name = "513",
 		is_show = 0,
@@ -10290,8 +10299,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			430711
 		}
-	},
-	[43072] = {
+	}
+	pg.base.child2_benefit_list[43072] = {
 		benefit_level = 0,
 		name = "514",
 		is_show = 0,
@@ -10319,8 +10328,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			430721
 		}
-	},
-	[43073] = {
+	}
+	pg.base.child2_benefit_list[43073] = {
 		benefit_level = 0,
 		name = "515",
 		is_show = 0,
@@ -10348,8 +10357,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			430731
 		}
-	},
-	[43074] = {
+	}
+	pg.base.child2_benefit_list[43074] = {
 		benefit_level = 0,
 		name = "516",
 		is_show = 0,
@@ -10377,8 +10386,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			430741
 		}
-	},
-	[43081] = {
+	}
+	pg.base.child2_benefit_list[43081] = {
 		benefit_level = 0,
 		name = "517",
 		is_show = 0,
@@ -10406,8 +10415,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			430811
 		}
-	},
-	[43082] = {
+	}
+	pg.base.child2_benefit_list[43082] = {
 		benefit_level = 0,
 		name = "613",
 		is_show = 0,
@@ -10435,8 +10444,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			430821
 		}
-	},
-	[43091] = {
+	}
+	pg.base.child2_benefit_list[43091] = {
 		benefit_level = 0,
 		name = "518",
 		is_show = 0,
@@ -10464,8 +10473,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			430911
 		}
-	},
-	[43092] = {
+	}
+	pg.base.child2_benefit_list[43092] = {
 		benefit_level = 0,
 		name = "519",
 		is_show = 0,
@@ -10493,8 +10502,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			430921
 		}
-	},
-	[43093] = {
+	}
+	pg.base.child2_benefit_list[43093] = {
 		benefit_level = 0,
 		name = "520",
 		is_show = 0,
@@ -10522,8 +10531,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			430931
 		}
-	},
-	[43101] = {
+	}
+	pg.base.child2_benefit_list[43101] = {
 		benefit_level = 0,
 		name = "521",
 		is_show = 0,
@@ -10551,8 +10560,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			431011
 		}
-	},
-	[43102] = {
+	}
+	pg.base.child2_benefit_list[43102] = {
 		benefit_level = 0,
 		name = "614",
 		is_show = 0,
@@ -10580,8 +10589,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			431021
 		}
-	},
-	[43111] = {
+	}
+	pg.base.child2_benefit_list[43111] = {
 		benefit_level = 0,
 		name = "522",
 		is_show = 0,
@@ -10609,8 +10618,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			431111
 		}
-	},
-	[43112] = {
+	}
+	pg.base.child2_benefit_list[43112] = {
 		benefit_level = 0,
 		name = "523",
 		is_show = 0,
@@ -10638,8 +10647,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			431121
 		}
-	},
-	[43113] = {
+	}
+	pg.base.child2_benefit_list[43113] = {
 		benefit_level = 0,
 		name = "524",
 		is_show = 0,
@@ -10667,8 +10676,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			431131
 		}
-	},
-	[43114] = {
+	}
+	pg.base.child2_benefit_list[43114] = {
 		benefit_level = 0,
 		name = "525",
 		is_show = 0,
@@ -10696,8 +10705,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			431141
 		}
-	},
-	[43115] = {
+	}
+	pg.base.child2_benefit_list[43115] = {
 		benefit_level = 0,
 		name = "不該有",
 		is_show = 0,
@@ -10721,8 +10730,8 @@ pg.base.child2_benefit_list = {
 		upgrade_desc = "",
 		content = {},
 		show_content = {}
-	},
-	[43121] = {
+	}
+	pg.base.child2_benefit_list[43121] = {
 		benefit_level = 0,
 		name = "527",
 		is_show = 0,
@@ -10750,8 +10759,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			431211
 		}
-	},
-	[43122] = {
+	}
+	pg.base.child2_benefit_list[43122] = {
 		benefit_level = 0,
 		name = "615",
 		is_show = 0,
@@ -10779,8 +10788,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			431221
 		}
-	},
-	[43131] = {
+	}
+	pg.base.child2_benefit_list[43131] = {
 		benefit_level = 0,
 		name = "528",
 		is_show = 0,
@@ -10808,8 +10817,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			431311
 		}
-	},
-	[43132] = {
+	}
+	pg.base.child2_benefit_list[43132] = {
 		benefit_level = 0,
 		name = "529",
 		is_show = 0,
@@ -10837,8 +10846,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			431321
 		}
-	},
-	[43133] = {
+	}
+	pg.base.child2_benefit_list[43133] = {
 		benefit_level = 0,
 		name = "530",
 		is_show = 0,
@@ -10866,8 +10875,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			431331
 		}
-	},
-	[43134] = {
+	}
+	pg.base.child2_benefit_list[43134] = {
 		benefit_level = 0,
 		name = "531",
 		is_show = 0,
@@ -10895,8 +10904,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			431341
 		}
-	},
-	[43135] = {
+	}
+	pg.base.child2_benefit_list[43135] = {
 		benefit_level = 0,
 		name = "不該有",
 		is_show = 0,
@@ -10920,8 +10929,8 @@ pg.base.child2_benefit_list = {
 		upgrade_desc = "",
 		content = {},
 		show_content = {}
-	},
-	[43141] = {
+	}
+	pg.base.child2_benefit_list[43141] = {
 		benefit_level = 0,
 		name = "533",
 		is_show = 0,
@@ -10949,8 +10958,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			431411
 		}
-	},
-	[43142] = {
+	}
+	pg.base.child2_benefit_list[43142] = {
 		benefit_level = 0,
 		name = "534",
 		is_show = 0,
@@ -10978,8 +10987,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			431421
 		}
-	},
-	[43151] = {
+	}
+	pg.base.child2_benefit_list[43151] = {
 		benefit_level = 0,
 		name = "535",
 		is_show = 0,
@@ -11007,8 +11016,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			431511
 		}
-	},
-	[43161] = {
+	}
+	pg.base.child2_benefit_list[43161] = {
 		benefit_level = 0,
 		name = "知識精要·速成",
 		is_show = 1,
@@ -11036,8 +11045,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			431611
 		}
-	},
-	[43162] = {
+	}
+	pg.base.child2_benefit_list[43162] = {
 		benefit_level = 0,
 		name = "616",
 		is_show = 0,
@@ -11065,8 +11074,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			431621
 		}
-	},
-	[43171] = {
+	}
+	pg.base.child2_benefit_list[43171] = {
 		benefit_level = 0,
 		name = "知識精要·持續",
 		is_show = 1,
@@ -11094,8 +11103,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			431711
 		}
-	},
-	[43172] = {
+	}
+	pg.base.child2_benefit_list[43172] = {
 		benefit_level = 0,
 		name = "617",
 		is_show = 0,
@@ -11123,8 +11132,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			431721
 		}
-	},
-	[43181] = {
+	}
+	pg.base.child2_benefit_list[43181] = {
 		benefit_level = 0,
 		name = "突破極限",
 		is_show = 1,
@@ -11152,8 +11161,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			431811
 		}
-	},
-	[43182] = {
+	}
+	pg.base.child2_benefit_list[43182] = {
 		benefit_level = 0,
 		name = "618",
 		is_show = 0,
@@ -11181,8 +11190,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			431821
 		}
-	},
-	[43191] = {
+	}
+	pg.base.child2_benefit_list[43191] = {
 		benefit_level = 0,
 		name = "穩步前行",
 		is_show = 1,
@@ -11210,8 +11219,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			431911
 		}
-	},
-	[43192] = {
+	}
+	pg.base.child2_benefit_list[43192] = {
 		benefit_level = 0,
 		name = "540",
 		is_show = 0,
@@ -11239,8 +11248,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			431921
 		}
-	},
-	[43201] = {
+	}
+	pg.base.child2_benefit_list[43201] = {
 		benefit_level = 0,
 		name = "醍醐灌頂",
 		is_show = 1,
@@ -11268,8 +11277,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			432011
 		}
-	},
-	[43202] = {
+	}
+	pg.base.child2_benefit_list[43202] = {
 		benefit_level = 0,
 		name = "慧眼初開",
 		is_show = 1,
@@ -11297,8 +11306,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			432021
 		}
-	},
-	[43203] = {
+	}
+	pg.base.child2_benefit_list[43203] = {
 		benefit_level = 0,
 		name = "豁然開朗",
 		is_show = 1,
@@ -11326,8 +11335,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			432031
 		}
-	},
-	[43204] = {
+	}
+	pg.base.child2_benefit_list[43204] = {
 		benefit_level = 0,
 		name = "融會貫通",
 		is_show = 1,
@@ -11355,8 +11364,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			432041
 		}
-	},
-	[43211] = {
+	}
+	pg.base.child2_benefit_list[43211] = {
 		benefit_level = 0,
 		name = "超頻模式",
 		is_show = 1,
@@ -11384,8 +11393,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			432111
 		}
-	},
-	[43212] = {
+	}
+	pg.base.child2_benefit_list[43212] = {
 		benefit_level = 0,
 		name = "546",
 		is_show = 0,
@@ -11413,8 +11422,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			432121
 		}
-	},
-	[43221] = {
+	}
+	pg.base.child2_benefit_list[43221] = {
 		benefit_level = 0,
 		name = "547",
 		is_show = 0,
@@ -11442,8 +11451,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			432211
 		}
-	},
-	[43222] = {
+	}
+	pg.base.child2_benefit_list[43222] = {
 		benefit_level = 0,
 		name = "548",
 		is_show = 0,
@@ -11471,8 +11480,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			432221
 		}
-	},
-	[43231] = {
+	}
+	pg.base.child2_benefit_list[43231] = {
 		benefit_level = 0,
 		name = "極限訓練",
 		is_show = 1,
@@ -11500,8 +11509,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			432311
 		}
-	},
-	[43232] = {
+	}
+	pg.base.child2_benefit_list[43232] = {
 		benefit_level = 0,
 		name = "常規訓練",
 		is_show = 0,
@@ -11529,8 +11538,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			432321
 		}
-	},
-	[43233] = {
+	}
+	pg.base.child2_benefit_list[43233] = {
 		benefit_level = 0,
 		name = "基礎訓練",
 		is_show = 0,
@@ -11558,8 +11567,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			432331
 		}
-	},
-	[43234] = {
+	}
+	pg.base.child2_benefit_list[43234] = {
 		benefit_level = 0,
 		name = "505",
 		is_show = 0,
@@ -11587,8 +11596,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			432341
 		}
-	},
-	[43241] = {
+	}
+	pg.base.child2_benefit_list[43241] = {
 		benefit_level = 0,
 		name = "博覽群書",
 		is_show = 1,
@@ -11616,8 +11625,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			432411
 		}
-	},
-	[43242] = {
+	}
+	pg.base.child2_benefit_list[43242] = {
 		benefit_level = 0,
 		name = "深度閱讀",
 		is_show = 0,
@@ -11645,8 +11654,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			432421
 		}
-	},
-	[43243] = {
+	}
+	pg.base.child2_benefit_list[43243] = {
 		benefit_level = 0,
 		name = "略讀速覽",
 		is_show = 0,
@@ -11674,8 +11683,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			432431
 		}
-	},
-	[43244] = {
+	}
+	pg.base.child2_benefit_list[43244] = {
 		benefit_level = 0,
 		name = "502",
 		is_show = 0,
@@ -11703,8 +11712,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			432441
 		}
-	},
-	[43251] = {
+	}
+	pg.base.child2_benefit_list[43251] = {
 		benefit_level = 0,
 		name = "精益求精",
 		is_show = 1,
@@ -11732,8 +11741,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			432511
 		}
-	},
-	[43252] = {
+	}
+	pg.base.child2_benefit_list[43252] = {
 		benefit_level = 0,
 		name = "漸入佳境",
 		is_show = 0,
@@ -11761,8 +11770,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			432521
 		}
-	},
-	[43253] = {
+	}
+	pg.base.child2_benefit_list[43253] = {
 		benefit_level = 0,
 		name = "入門之路",
 		is_show = 0,
@@ -11790,8 +11799,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			432531
 		}
-	},
-	[43254] = {
+	}
+	pg.base.child2_benefit_list[43254] = {
 		benefit_level = 0,
 		name = "503",
 		is_show = 0,
@@ -11819,8 +11828,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			432541
 		}
-	},
-	[43261] = {
+	}
+	pg.base.child2_benefit_list[43261] = {
 		benefit_level = 0,
 		name = "巔峰狀態",
 		is_show = 1,
@@ -11848,8 +11857,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			432611
 		}
-	},
-	[43262] = {
+	}
+	pg.base.child2_benefit_list[43262] = {
 		benefit_level = 0,
 		name = "全神貫注",
 		is_show = 0,
@@ -11877,8 +11886,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			432621
 		}
-	},
-	[43263] = {
+	}
+	pg.base.child2_benefit_list[43263] = {
 		benefit_level = 0,
 		name = "專注時刻",
 		is_show = 0,
@@ -11906,8 +11915,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			432631
 		}
-	},
-	[43264] = {
+	}
+	pg.base.child2_benefit_list[43264] = {
 		benefit_level = 0,
 		name = "504",
 		is_show = 0,
@@ -11935,8 +11944,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			432641
 		}
-	},
-	[43271] = {
+	}
+	pg.base.child2_benefit_list[43271] = {
 		benefit_level = 0,
 		name = "561",
 		is_show = 0,
@@ -11964,8 +11973,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			432711
 		}
-	},
-	[43272] = {
+	}
+	pg.base.child2_benefit_list[43272] = {
 		benefit_level = 0,
 		name = "562",
 		is_show = 0,
@@ -11993,8 +12002,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			432721
 		}
-	},
-	[43281] = {
+	}
+	pg.base.child2_benefit_list[43281] = {
 		benefit_level = 0,
 		name = "漫步收穫",
 		is_show = 1,
@@ -12022,8 +12031,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			432811
 		}
-	},
-	[43282] = {
+	}
+	pg.base.child2_benefit_list[43282] = {
 		benefit_level = 0,
 		name = "564",
 		is_show = 0,
@@ -12051,8 +12060,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			432821
 		}
-	},
-	[43291] = {
+	}
+	pg.base.child2_benefit_list[43291] = {
 		benefit_level = 0,
 		name = "幸運之財",
 		is_show = 1,
@@ -12080,8 +12089,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			432911
 		}
-	},
-	[43292] = {
+	}
+	pg.base.child2_benefit_list[43292] = {
 		benefit_level = 0,
 		name = "幸運饋贈",
 		is_show = 1,
@@ -12109,8 +12118,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			432921
 		}
-	},
-	[43293] = {
+	}
+	pg.base.child2_benefit_list[43293] = {
 		benefit_level = 0,
 		name = "567",
 		is_show = 0,
@@ -12138,8 +12147,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			432931
 		}
-	},
-	[43301] = {
+	}
+	pg.base.child2_benefit_list[43301] = {
 		benefit_level = 0,
 		name = "敏銳感官",
 		is_show = 1,
@@ -12167,8 +12176,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			433011
 		}
-	},
-	[43302] = {
+	}
+	pg.base.child2_benefit_list[43302] = {
 		benefit_level = 0,
 		name = "569",
 		is_show = 0,
@@ -12196,8 +12205,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			433021
 		}
-	},
-	[43311] = {
+	}
+	pg.base.child2_benefit_list[43311] = {
 		benefit_level = 0,
 		name = "澄明心境",
 		is_show = 1,
@@ -12225,8 +12234,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			433111
 		}
-	},
-	[43312] = {
+	}
+	pg.base.child2_benefit_list[43312] = {
 		benefit_level = 0,
 		name = "571",
 		is_show = 0,
@@ -12254,8 +12263,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			433121
 		}
-	},
-	[43321] = {
+	}
+	pg.base.child2_benefit_list[43321] = {
 		benefit_level = 0,
 		name = "默契時光",
 		is_show = 1,
@@ -12283,8 +12292,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			433211
 		}
-	},
-	[43322] = {
+	}
+	pg.base.child2_benefit_list[43322] = {
 		benefit_level = 0,
 		name = "暢談歡愉",
 		is_show = 1,
@@ -12312,8 +12321,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			433221
 		}
-	},
-	[43323] = {
+	}
+	pg.base.child2_benefit_list[43323] = {
 		benefit_level = 0,
 		name = "574",
 		is_show = 0,
@@ -12341,8 +12350,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			433231
 		}
-	},
-	[43331] = {
+	}
+	pg.base.child2_benefit_list[43331] = {
 		benefit_level = 0,
 		name = "575",
 		is_show = 0,
@@ -12370,8 +12379,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			433311
 		}
-	},
-	[43332] = {
+	}
+	pg.base.child2_benefit_list[43332] = {
 		benefit_level = 0,
 		name = "576",
 		is_show = 0,
@@ -12399,8 +12408,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			433321
 		}
-	},
-	[43341] = {
+	}
+	pg.base.child2_benefit_list[43341] = {
 		benefit_level = 0,
 		name = "577",
 		is_show = 0,
@@ -12428,8 +12437,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			433411
 		}
-	},
-	[43342] = {
+	}
+	pg.base.child2_benefit_list[43342] = {
 		benefit_level = 0,
 		name = "578",
 		is_show = 0,
@@ -12457,8 +12466,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			433421
 		}
-	},
-	[43351] = {
+	}
+	pg.base.child2_benefit_list[43351] = {
 		benefit_level = 0,
 		name = "驚喜口味",
 		is_show = 1,
@@ -12486,8 +12495,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			433511
 		}
-	},
-	[43361] = {
+	}
+	pg.base.child2_benefit_list[43361] = {
 		benefit_level = 0,
 		name = "580",
 		is_show = 0,
@@ -12515,8 +12524,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			433611
 		}
-	},
-	[43362] = {
+	}
+	pg.base.child2_benefit_list[43362] = {
 		benefit_level = 0,
 		name = "581",
 		is_show = 0,
@@ -12544,8 +12553,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			433621
 		}
-	},
-	[43363] = {
+	}
+	pg.base.child2_benefit_list[43363] = {
 		benefit_level = 0,
 		name = "582",
 		is_show = 0,
@@ -12573,8 +12582,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			433631
 		}
-	},
-	[43364] = {
+	}
+	pg.base.child2_benefit_list[43364] = {
 		benefit_level = 0,
 		name = "583",
 		is_show = 0,
@@ -12602,8 +12611,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			433641
 		}
-	},
-	[43365] = {
+	}
+	pg.base.child2_benefit_list[43365] = {
 		benefit_level = 0,
 		name = "迷徑感知",
 		is_show = 1,
@@ -12631,8 +12640,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			433651
 		}
-	},
-	[43366] = {
+	}
+	pg.base.child2_benefit_list[43366] = {
 		benefit_level = 0,
 		name = "585",
 		is_show = 0,
@@ -12660,8 +12669,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			433661
 		}
-	},
-	[43371] = {
+	}
+	pg.base.child2_benefit_list[43371] = {
 		benefit_level = 0,
 		name = "節能模式",
 		is_show = 1,
@@ -12689,8 +12698,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			433711
 		}
-	},
-	[43372] = {
+	}
+	pg.base.child2_benefit_list[43372] = {
 		benefit_level = 0,
 		name = "587",
 		is_show = 0,
@@ -12718,8 +12727,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			433721
 		}
-	},
-	[43381] = {
+	}
+	pg.base.child2_benefit_list[43381] = {
 		benefit_level = 0,
 		name = "實感强化·低",
 		is_show = 1,
@@ -12747,8 +12756,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			433811
 		}
-	},
-	[43382] = {
+	}
+	pg.base.child2_benefit_list[43382] = {
 		benefit_level = 0,
 		name = "體智强化·低",
 		is_show = 1,
@@ -12776,8 +12785,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			433821
 		}
-	},
-	[43383] = {
+	}
+	pg.base.child2_benefit_list[43383] = {
 		benefit_level = 0,
 		name = "實感强化·中",
 		is_show = 1,
@@ -12805,8 +12814,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			433831
 		}
-	},
-	[43384] = {
+	}
+	pg.base.child2_benefit_list[43384] = {
 		benefit_level = 0,
 		name = "體智强化·中",
 		is_show = 1,
@@ -12834,8 +12843,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			433841
 		}
-	},
-	[43385] = {
+	}
+	pg.base.child2_benefit_list[43385] = {
 		benefit_level = 0,
 		name = "實感持續·中",
 		is_show = 1,
@@ -12863,8 +12872,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			433851
 		}
-	},
-	[43386] = {
+	}
+	pg.base.child2_benefit_list[43386] = {
 		benefit_level = 0,
 		name = "體智持續·中",
 		is_show = 1,
@@ -12892,8 +12901,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			433861
 		}
-	},
-	[43387] = {
+	}
+	pg.base.child2_benefit_list[43387] = {
 		benefit_level = 0,
 		name = "實感持續·高",
 		is_show = 1,
@@ -12921,8 +12930,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			433871
 		}
-	},
-	[43388] = {
+	}
+	pg.base.child2_benefit_list[43388] = {
 		benefit_level = 0,
 		name = "實感持續·高",
 		is_show = 1,
@@ -12950,8 +12959,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			433881
 		}
-	},
-	[43389] = {
+	}
+	pg.base.child2_benefit_list[43389] = {
 		benefit_level = 0,
 		name = "幸運祝福",
 		is_show = 1,
@@ -12979,8 +12988,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			433891
 		}
-	},
-	[43391] = {
+	}
+	pg.base.child2_benefit_list[43391] = {
 		benefit_level = 0,
 		name = "598",
 		is_show = 0,
@@ -13008,8 +13017,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			433911
 		}
-	},
-	[43392] = {
+	}
+	pg.base.child2_benefit_list[43392] = {
 		benefit_level = 0,
 		name = "599",
 		is_show = 0,
@@ -13037,8 +13046,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			433921
 		}
-	},
-	[43401] = {
+	}
+	pg.base.child2_benefit_list[43401] = {
 		benefit_level = 0,
 		name = "600",
 		is_show = 0,
@@ -13066,8 +13075,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			434011
 		}
-	},
-	[43402] = {
+	}
+	pg.base.child2_benefit_list[43402] = {
 		benefit_level = 0,
 		name = "601",
 		is_show = 0,
@@ -13095,8 +13104,10 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			434021
 		}
-	},
-	[43411] = {
+	}
+end)()
+(function ()
+	pg.base.child2_benefit_list[43411] = {
 		benefit_level = 0,
 		name = "引擎之心",
 		is_show = 1,
@@ -13132,8 +13143,8 @@ pg.base.child2_benefit_list = {
 			434114,
 			434115
 		}
-	},
-	[43412] = {
+	}
+	pg.base.child2_benefit_list[43412] = {
 		benefit_level = 0,
 		name = "603",
 		is_show = 0,
@@ -13161,8 +13172,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			434121
 		}
-	},
-	[43421] = {
+	}
+	pg.base.child2_benefit_list[43421] = {
 		benefit_level = 0,
 		name = "604",
 		is_show = 0,
@@ -13190,8 +13201,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			434211
 		}
-	},
-	[43422] = {
+	}
+	pg.base.child2_benefit_list[43422] = {
 		benefit_level = 0,
 		name = "605",
 		is_show = 0,
@@ -13219,8 +13230,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			434221
 		}
-	},
-	[43431] = {
+	}
+	pg.base.child2_benefit_list[43431] = {
 		benefit_level = 0,
 		name = "606",
 		is_show = 0,
@@ -13248,8 +13259,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			434311
 		}
-	},
-	[43432] = {
+	}
+	pg.base.child2_benefit_list[43432] = {
 		benefit_level = 0,
 		name = "607",
 		is_show = 0,
@@ -13277,8 +13288,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			434321
 		}
-	},
-	[43441] = {
+	}
+	pg.base.child2_benefit_list[43441] = {
 		benefit_level = 0,
 		name = "療愈之語",
 		is_show = 1,
@@ -13314,8 +13325,8 @@ pg.base.child2_benefit_list = {
 			434414,
 			434415
 		}
-	},
-	[43442] = {
+	}
+	pg.base.child2_benefit_list[43442] = {
 		benefit_level = 0,
 		name = "609",
 		is_show = 0,
@@ -13343,8 +13354,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			434421
 		}
-	},
-	[43451] = {
+	}
+	pg.base.child2_benefit_list[43451] = {
 		benefit_level = 0,
 		name = "623",
 		is_show = 0,
@@ -13372,8 +13383,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			434511
 		}
-	},
-	[43452] = {
+	}
+	pg.base.child2_benefit_list[43452] = {
 		benefit_level = 0,
 		name = "622",
 		is_show = 0,
@@ -13401,8 +13412,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			434521
 		}
-	},
-	[43461] = {
+	}
+	pg.base.child2_benefit_list[43461] = {
 		benefit_level = 0,
 		name = "625",
 		is_show = 0,
@@ -13430,8 +13441,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			434611
 		}
-	},
-	[43462] = {
+	}
+	pg.base.child2_benefit_list[43462] = {
 		benefit_level = 0,
 		name = "幸運心情",
 		is_show = 1,
@@ -13459,8 +13470,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			434621
 		}
-	},
-	[43463] = {
+	}
+	pg.base.child2_benefit_list[43463] = {
 		benefit_level = 0,
 		name = "",
 		is_show = 0,
@@ -13488,8 +13499,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			434631
 		}
-	},
-	[43464] = {
+	}
+	pg.base.child2_benefit_list[43464] = {
 		benefit_level = 0,
 		name = "",
 		is_show = 0,
@@ -13517,8 +13528,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			434641
 		}
-	},
-	[43465] = {
+	}
+	pg.base.child2_benefit_list[43465] = {
 		benefit_level = 0,
 		name = "",
 		is_show = 0,
@@ -13546,8 +13557,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			434651
 		}
-	},
-	[43466] = {
+	}
+	pg.base.child2_benefit_list[43466] = {
 		benefit_level = 0,
 		name = "",
 		is_show = 0,
@@ -13575,8 +13586,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			434661
 		}
-	},
-	[43467] = {
+	}
+	pg.base.child2_benefit_list[43467] = {
 		benefit_level = 0,
 		name = "抽王牌懲罰",
 		is_show = 1,
@@ -13604,8 +13615,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			434671
 		}
-	},
-	[43468] = {
+	}
+	pg.base.child2_benefit_list[43468] = {
 		benefit_level = 0,
 		name = "抽王牌懲罰",
 		is_show = 1,
@@ -13633,8 +13644,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			434681
 		}
-	},
-	[43469] = {
+	}
+	pg.base.child2_benefit_list[43469] = {
 		benefit_level = 0,
 		name = "抽王牌懲罰",
 		is_show = 1,
@@ -13662,8 +13673,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			434691
 		}
-	},
-	[43470] = {
+	}
+	pg.base.child2_benefit_list[43470] = {
 		benefit_level = 0,
 		name = "抽王牌懲罰",
 		is_show = 1,
@@ -13691,8 +13702,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			434701
 		}
-	},
-	[43471] = {
+	}
+	pg.base.child2_benefit_list[43471] = {
 		benefit_level = 0,
 		name = "抽王牌懲罰-體能懲罰",
 		is_show = 1,
@@ -13720,8 +13731,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			434711
 		}
-	},
-	[43472] = {
+	}
+	pg.base.child2_benefit_list[43472] = {
 		benefit_level = 0,
 		name = "抽王牌懲罰-知識懲罰",
 		is_show = 1,
@@ -13749,8 +13760,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			434721
 		}
-	},
-	[43473] = {
+	}
+	pg.base.child2_benefit_list[43473] = {
 		benefit_level = 0,
 		name = "抽王牌懲罰-實踐懲罰",
 		is_show = 1,
@@ -13778,8 +13789,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			434731
 		}
-	},
-	[43474] = {
+	}
+	pg.base.child2_benefit_list[43474] = {
 		benefit_level = 0,
 		name = "抽王牌懲罰-感知懲罰",
 		is_show = 1,
@@ -13807,8 +13818,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			434741
 		}
-	},
-	[44011] = {
+	}
+	pg.base.child2_benefit_list[44011] = {
 		benefit_level = 0,
 		name = "不該有",
 		is_show = 0,
@@ -13832,8 +13843,8 @@ pg.base.child2_benefit_list = {
 		upgrade_desc = "",
 		content = {},
 		show_content = {}
-	},
-	[44021] = {
+	}
+	pg.base.child2_benefit_list[44021] = {
 		benefit_level = 0,
 		name = "502",
 		is_show = 0,
@@ -13861,8 +13872,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			440211
 		}
-	},
-	[44022] = {
+	}
+	pg.base.child2_benefit_list[44022] = {
 		benefit_level = 0,
 		name = "503",
 		is_show = 0,
@@ -13890,8 +13901,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			440221
 		}
-	},
-	[44023] = {
+	}
+	pg.base.child2_benefit_list[44023] = {
 		benefit_level = 0,
 		name = "504",
 		is_show = 0,
@@ -13919,8 +13930,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			440231
 		}
-	},
-	[44024] = {
+	}
+	pg.base.child2_benefit_list[44024] = {
 		benefit_level = 0,
 		name = "505",
 		is_show = 0,
@@ -13948,8 +13959,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			440241
 		}
-	},
-	[44031] = {
+	}
+	pg.base.child2_benefit_list[44031] = {
 		benefit_level = 0,
 		name = "不該有",
 		is_show = 0,
@@ -13973,8 +13984,8 @@ pg.base.child2_benefit_list = {
 		upgrade_desc = "",
 		content = {},
 		show_content = {}
-	},
-	[44041] = {
+	}
+	pg.base.child2_benefit_list[44041] = {
 		benefit_level = 0,
 		name = "不該有",
 		is_show = 0,
@@ -13998,8 +14009,8 @@ pg.base.child2_benefit_list = {
 		upgrade_desc = "",
 		content = {},
 		show_content = {}
-	},
-	[44051] = {
+	}
+	pg.base.child2_benefit_list[44051] = {
 		benefit_level = 0,
 		name = "不該有",
 		is_show = 0,
@@ -14023,8 +14034,8 @@ pg.base.child2_benefit_list = {
 		upgrade_desc = "",
 		content = {},
 		show_content = {}
-	},
-	[44061] = {
+	}
+	pg.base.child2_benefit_list[44061] = {
 		benefit_level = 0,
 		name = "509",
 		is_show = 0,
@@ -14052,8 +14063,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			440611
 		}
-	},
-	[44062] = {
+	}
+	pg.base.child2_benefit_list[44062] = {
 		benefit_level = 0,
 		name = "510",
 		is_show = 0,
@@ -14081,8 +14092,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			440621
 		}
-	},
-	[44063] = {
+	}
+	pg.base.child2_benefit_list[44063] = {
 		benefit_level = 0,
 		name = "511",
 		is_show = 0,
@@ -14110,8 +14121,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			440631
 		}
-	},
-	[44064] = {
+	}
+	pg.base.child2_benefit_list[44064] = {
 		benefit_level = 0,
 		name = "512",
 		is_show = 0,
@@ -14139,8 +14150,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			440641
 		}
-	},
-	[44071] = {
+	}
+	pg.base.child2_benefit_list[44071] = {
 		benefit_level = 0,
 		name = "513",
 		is_show = 0,
@@ -14168,8 +14179,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			440711
 		}
-	},
-	[44072] = {
+	}
+	pg.base.child2_benefit_list[44072] = {
 		benefit_level = 0,
 		name = "514",
 		is_show = 0,
@@ -14197,8 +14208,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			440721
 		}
-	},
-	[44073] = {
+	}
+	pg.base.child2_benefit_list[44073] = {
 		benefit_level = 0,
 		name = "515",
 		is_show = 0,
@@ -14226,8 +14237,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			440731
 		}
-	},
-	[44074] = {
+	}
+	pg.base.child2_benefit_list[44074] = {
 		benefit_level = 0,
 		name = "516",
 		is_show = 0,
@@ -14255,8 +14266,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			440741
 		}
-	},
-	[44081] = {
+	}
+	pg.base.child2_benefit_list[44081] = {
 		benefit_level = 0,
 		name = "517",
 		is_show = 0,
@@ -14284,8 +14295,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			440811
 		}
-	},
-	[44082] = {
+	}
+	pg.base.child2_benefit_list[44082] = {
 		benefit_level = 0,
 		name = "613",
 		is_show = 0,
@@ -14313,8 +14324,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			440821
 		}
-	},
-	[44091] = {
+	}
+	pg.base.child2_benefit_list[44091] = {
 		benefit_level = 0,
 		name = "518",
 		is_show = 0,
@@ -14342,8 +14353,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			440911
 		}
-	},
-	[44092] = {
+	}
+	pg.base.child2_benefit_list[44092] = {
 		benefit_level = 0,
 		name = "519",
 		is_show = 0,
@@ -14371,8 +14382,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			440921
 		}
-	},
-	[44093] = {
+	}
+	pg.base.child2_benefit_list[44093] = {
 		benefit_level = 0,
 		name = "520",
 		is_show = 0,
@@ -14400,8 +14411,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			440931
 		}
-	},
-	[44101] = {
+	}
+	pg.base.child2_benefit_list[44101] = {
 		benefit_level = 0,
 		name = "521",
 		is_show = 0,
@@ -14429,8 +14440,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			441011
 		}
-	},
-	[44102] = {
+	}
+	pg.base.child2_benefit_list[44102] = {
 		benefit_level = 0,
 		name = "614",
 		is_show = 0,
@@ -14458,8 +14469,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			441021
 		}
-	},
-	[44111] = {
+	}
+	pg.base.child2_benefit_list[44111] = {
 		benefit_level = 0,
 		name = "522",
 		is_show = 0,
@@ -14487,8 +14498,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			441111
 		}
-	},
-	[44112] = {
+	}
+	pg.base.child2_benefit_list[44112] = {
 		benefit_level = 0,
 		name = "523",
 		is_show = 0,
@@ -14516,8 +14527,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			441121
 		}
-	},
-	[44113] = {
+	}
+	pg.base.child2_benefit_list[44113] = {
 		benefit_level = 0,
 		name = "524",
 		is_show = 0,
@@ -14545,8 +14556,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			441131
 		}
-	},
-	[44114] = {
+	}
+	pg.base.child2_benefit_list[44114] = {
 		benefit_level = 0,
 		name = "525",
 		is_show = 0,
@@ -14574,8 +14585,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			441141
 		}
-	},
-	[44115] = {
+	}
+	pg.base.child2_benefit_list[44115] = {
 		benefit_level = 0,
 		name = "不該有",
 		is_show = 0,
@@ -14599,8 +14610,8 @@ pg.base.child2_benefit_list = {
 		upgrade_desc = "",
 		content = {},
 		show_content = {}
-	},
-	[44121] = {
+	}
+	pg.base.child2_benefit_list[44121] = {
 		benefit_level = 0,
 		name = "527",
 		is_show = 0,
@@ -14628,8 +14639,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			441211
 		}
-	},
-	[44122] = {
+	}
+	pg.base.child2_benefit_list[44122] = {
 		benefit_level = 0,
 		name = "615",
 		is_show = 0,
@@ -14657,8 +14668,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			441221
 		}
-	},
-	[44131] = {
+	}
+	pg.base.child2_benefit_list[44131] = {
 		benefit_level = 0,
 		name = "528",
 		is_show = 0,
@@ -14686,8 +14697,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			441311
 		}
-	},
-	[44132] = {
+	}
+	pg.base.child2_benefit_list[44132] = {
 		benefit_level = 0,
 		name = "529",
 		is_show = 0,
@@ -14715,8 +14726,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			441321
 		}
-	},
-	[44133] = {
+	}
+	pg.base.child2_benefit_list[44133] = {
 		benefit_level = 0,
 		name = "530",
 		is_show = 0,
@@ -14744,8 +14755,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			441331
 		}
-	},
-	[44134] = {
+	}
+	pg.base.child2_benefit_list[44134] = {
 		benefit_level = 0,
 		name = "531",
 		is_show = 0,
@@ -14773,8 +14784,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			441341
 		}
-	},
-	[44135] = {
+	}
+	pg.base.child2_benefit_list[44135] = {
 		benefit_level = 0,
 		name = "不該有",
 		is_show = 0,
@@ -14798,8 +14809,8 @@ pg.base.child2_benefit_list = {
 		upgrade_desc = "",
 		content = {},
 		show_content = {}
-	},
-	[44141] = {
+	}
+	pg.base.child2_benefit_list[44141] = {
 		benefit_level = 0,
 		name = "533",
 		is_show = 0,
@@ -14827,8 +14838,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			441411
 		}
-	},
-	[44142] = {
+	}
+	pg.base.child2_benefit_list[44142] = {
 		benefit_level = 0,
 		name = "534",
 		is_show = 0,
@@ -14856,8 +14867,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			441421
 		}
-	},
-	[44151] = {
+	}
+	pg.base.child2_benefit_list[44151] = {
 		benefit_level = 0,
 		name = "535",
 		is_show = 0,
@@ -14885,8 +14896,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			441511
 		}
-	},
-	[44161] = {
+	}
+	pg.base.child2_benefit_list[44161] = {
 		benefit_level = 0,
 		name = "知識精要·速成",
 		is_show = 1,
@@ -14914,8 +14925,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			441611
 		}
-	},
-	[44162] = {
+	}
+	pg.base.child2_benefit_list[44162] = {
 		benefit_level = 0,
 		name = "616",
 		is_show = 0,
@@ -14943,8 +14954,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			441621
 		}
-	},
-	[44171] = {
+	}
+	pg.base.child2_benefit_list[44171] = {
 		benefit_level = 0,
 		name = "知識精要·持續",
 		is_show = 1,
@@ -14972,8 +14983,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			441711
 		}
-	},
-	[44172] = {
+	}
+	pg.base.child2_benefit_list[44172] = {
 		benefit_level = 0,
 		name = "617",
 		is_show = 0,
@@ -15001,8 +15012,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			441721
 		}
-	},
-	[44181] = {
+	}
+	pg.base.child2_benefit_list[44181] = {
 		benefit_level = 0,
 		name = "突破極限",
 		is_show = 1,
@@ -15030,8 +15041,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			441811
 		}
-	},
-	[44182] = {
+	}
+	pg.base.child2_benefit_list[44182] = {
 		benefit_level = 0,
 		name = "618",
 		is_show = 0,
@@ -15059,8 +15070,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			441821
 		}
-	},
-	[44191] = {
+	}
+	pg.base.child2_benefit_list[44191] = {
 		benefit_level = 0,
 		name = "穩步前行",
 		is_show = 1,
@@ -15088,8 +15099,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			441911
 		}
-	},
-	[44192] = {
+	}
+	pg.base.child2_benefit_list[44192] = {
 		benefit_level = 0,
 		name = "540",
 		is_show = 0,
@@ -15117,8 +15128,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			441921
 		}
-	},
-	[44201] = {
+	}
+	pg.base.child2_benefit_list[44201] = {
 		benefit_level = 0,
 		name = "醍醐灌頂",
 		is_show = 1,
@@ -15146,8 +15157,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			442011
 		}
-	},
-	[44202] = {
+	}
+	pg.base.child2_benefit_list[44202] = {
 		benefit_level = 0,
 		name = "慧眼初開",
 		is_show = 1,
@@ -15175,8 +15186,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			442021
 		}
-	},
-	[44203] = {
+	}
+	pg.base.child2_benefit_list[44203] = {
 		benefit_level = 0,
 		name = "豁然開朗",
 		is_show = 1,
@@ -15204,8 +15215,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			442031
 		}
-	},
-	[44204] = {
+	}
+	pg.base.child2_benefit_list[44204] = {
 		benefit_level = 0,
 		name = "融會貫通",
 		is_show = 1,
@@ -15233,8 +15244,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			442041
 		}
-	},
-	[44211] = {
+	}
+	pg.base.child2_benefit_list[44211] = {
 		benefit_level = 0,
 		name = "超頻模式",
 		is_show = 1,
@@ -15262,8 +15273,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			442111
 		}
-	},
-	[44212] = {
+	}
+	pg.base.child2_benefit_list[44212] = {
 		benefit_level = 0,
 		name = "546",
 		is_show = 0,
@@ -15291,8 +15302,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			442121
 		}
-	},
-	[44221] = {
+	}
+	pg.base.child2_benefit_list[44221] = {
 		benefit_level = 0,
 		name = "547",
 		is_show = 0,
@@ -15320,8 +15331,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			442211
 		}
-	},
-	[44222] = {
+	}
+	pg.base.child2_benefit_list[44222] = {
 		benefit_level = 0,
 		name = "548",
 		is_show = 0,
@@ -15349,8 +15360,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			442221
 		}
-	},
-	[44231] = {
+	}
+	pg.base.child2_benefit_list[44231] = {
 		benefit_level = 0,
 		name = "極限訓練",
 		is_show = 1,
@@ -15378,8 +15389,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			442311
 		}
-	},
-	[44232] = {
+	}
+	pg.base.child2_benefit_list[44232] = {
 		benefit_level = 0,
 		name = "常規訓練",
 		is_show = 0,
@@ -15407,8 +15418,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			442321
 		}
-	},
-	[44233] = {
+	}
+	pg.base.child2_benefit_list[44233] = {
 		benefit_level = 0,
 		name = "基礎訓練",
 		is_show = 0,
@@ -15436,8 +15447,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			442331
 		}
-	},
-	[44234] = {
+	}
+	pg.base.child2_benefit_list[44234] = {
 		benefit_level = 0,
 		name = "505",
 		is_show = 0,
@@ -15465,8 +15476,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			442341
 		}
-	},
-	[44241] = {
+	}
+	pg.base.child2_benefit_list[44241] = {
 		benefit_level = 0,
 		name = "博覽群書",
 		is_show = 1,
@@ -15494,8 +15505,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			442411
 		}
-	},
-	[44242] = {
+	}
+	pg.base.child2_benefit_list[44242] = {
 		benefit_level = 0,
 		name = "深度閱讀",
 		is_show = 0,
@@ -15523,8 +15534,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			442421
 		}
-	},
-	[44243] = {
+	}
+	pg.base.child2_benefit_list[44243] = {
 		benefit_level = 0,
 		name = "略讀速覽",
 		is_show = 0,
@@ -15552,8 +15563,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			442431
 		}
-	},
-	[44244] = {
+	}
+	pg.base.child2_benefit_list[44244] = {
 		benefit_level = 0,
 		name = "502",
 		is_show = 0,
@@ -15581,8 +15592,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			442441
 		}
-	},
-	[44251] = {
+	}
+	pg.base.child2_benefit_list[44251] = {
 		benefit_level = 0,
 		name = "精益求精",
 		is_show = 1,
@@ -15610,8 +15621,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			442511
 		}
-	},
-	[44252] = {
+	}
+	pg.base.child2_benefit_list[44252] = {
 		benefit_level = 0,
 		name = "漸入佳境",
 		is_show = 0,
@@ -15639,8 +15650,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			442521
 		}
-	},
-	[44253] = {
+	}
+	pg.base.child2_benefit_list[44253] = {
 		benefit_level = 0,
 		name = "入門之路",
 		is_show = 0,
@@ -15668,8 +15679,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			442531
 		}
-	},
-	[44254] = {
+	}
+	pg.base.child2_benefit_list[44254] = {
 		benefit_level = 0,
 		name = "503",
 		is_show = 0,
@@ -15697,8 +15708,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			442541
 		}
-	},
-	[44261] = {
+	}
+	pg.base.child2_benefit_list[44261] = {
 		benefit_level = 0,
 		name = "巔峰狀態",
 		is_show = 1,
@@ -15726,8 +15737,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			442611
 		}
-	},
-	[44262] = {
+	}
+	pg.base.child2_benefit_list[44262] = {
 		benefit_level = 0,
 		name = "全神貫注",
 		is_show = 0,
@@ -15755,8 +15766,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			442621
 		}
-	},
-	[44263] = {
+	}
+	pg.base.child2_benefit_list[44263] = {
 		benefit_level = 0,
 		name = "專注時刻",
 		is_show = 0,
@@ -15784,8 +15795,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			442631
 		}
-	},
-	[44264] = {
+	}
+	pg.base.child2_benefit_list[44264] = {
 		benefit_level = 0,
 		name = "504",
 		is_show = 0,
@@ -15813,8 +15824,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			442641
 		}
-	},
-	[44271] = {
+	}
+	pg.base.child2_benefit_list[44271] = {
 		benefit_level = 0,
 		name = "561",
 		is_show = 0,
@@ -15842,8 +15853,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			442711
 		}
-	},
-	[44272] = {
+	}
+	pg.base.child2_benefit_list[44272] = {
 		benefit_level = 0,
 		name = "562",
 		is_show = 0,
@@ -15871,8 +15882,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			442721
 		}
-	},
-	[44281] = {
+	}
+	pg.base.child2_benefit_list[44281] = {
 		benefit_level = 0,
 		name = "漫步收穫",
 		is_show = 1,
@@ -15900,8 +15911,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			442811
 		}
-	},
-	[44282] = {
+	}
+	pg.base.child2_benefit_list[44282] = {
 		benefit_level = 0,
 		name = "564",
 		is_show = 0,
@@ -15929,8 +15940,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			442821
 		}
-	},
-	[44291] = {
+	}
+	pg.base.child2_benefit_list[44291] = {
 		benefit_level = 0,
 		name = "幸運之財",
 		is_show = 1,
@@ -15958,8 +15969,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			442911
 		}
-	},
-	[44292] = {
+	}
+	pg.base.child2_benefit_list[44292] = {
 		benefit_level = 0,
 		name = "幸運饋贈",
 		is_show = 1,
@@ -15987,8 +15998,10 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			442921
 		}
-	},
-	[44293] = {
+	}
+end)()
+(function ()
+	pg.base.child2_benefit_list[44293] = {
 		benefit_level = 0,
 		name = "567",
 		is_show = 0,
@@ -16016,8 +16029,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			442931
 		}
-	},
-	[44301] = {
+	}
+	pg.base.child2_benefit_list[44301] = {
 		benefit_level = 0,
 		name = "敏銳感官",
 		is_show = 1,
@@ -16045,8 +16058,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			443011
 		}
-	},
-	[44302] = {
+	}
+	pg.base.child2_benefit_list[44302] = {
 		benefit_level = 0,
 		name = "569",
 		is_show = 0,
@@ -16074,8 +16087,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			443021
 		}
-	},
-	[44311] = {
+	}
+	pg.base.child2_benefit_list[44311] = {
 		benefit_level = 0,
 		name = "澄明心境",
 		is_show = 1,
@@ -16103,8 +16116,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			443111
 		}
-	},
-	[44312] = {
+	}
+	pg.base.child2_benefit_list[44312] = {
 		benefit_level = 0,
 		name = "571",
 		is_show = 0,
@@ -16132,8 +16145,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			443121
 		}
-	},
-	[44321] = {
+	}
+	pg.base.child2_benefit_list[44321] = {
 		benefit_level = 0,
 		name = "默契時光",
 		is_show = 1,
@@ -16161,8 +16174,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			443211
 		}
-	},
-	[44322] = {
+	}
+	pg.base.child2_benefit_list[44322] = {
 		benefit_level = 0,
 		name = "暢談歡愉",
 		is_show = 1,
@@ -16190,8 +16203,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			443221
 		}
-	},
-	[44323] = {
+	}
+	pg.base.child2_benefit_list[44323] = {
 		benefit_level = 0,
 		name = "574",
 		is_show = 0,
@@ -16219,8 +16232,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			443231
 		}
-	},
-	[44331] = {
+	}
+	pg.base.child2_benefit_list[44331] = {
 		benefit_level = 0,
 		name = "575",
 		is_show = 0,
@@ -16248,8 +16261,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			443311
 		}
-	},
-	[44332] = {
+	}
+	pg.base.child2_benefit_list[44332] = {
 		benefit_level = 0,
 		name = "576",
 		is_show = 0,
@@ -16277,8 +16290,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			443321
 		}
-	},
-	[44341] = {
+	}
+	pg.base.child2_benefit_list[44341] = {
 		benefit_level = 0,
 		name = "577",
 		is_show = 0,
@@ -16306,8 +16319,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			443411
 		}
-	},
-	[44342] = {
+	}
+	pg.base.child2_benefit_list[44342] = {
 		benefit_level = 0,
 		name = "578",
 		is_show = 0,
@@ -16335,8 +16348,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			443421
 		}
-	},
-	[44351] = {
+	}
+	pg.base.child2_benefit_list[44351] = {
 		benefit_level = 0,
 		name = "驚喜口味",
 		is_show = 1,
@@ -16364,8 +16377,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			443511
 		}
-	},
-	[44361] = {
+	}
+	pg.base.child2_benefit_list[44361] = {
 		benefit_level = 0,
 		name = "580",
 		is_show = 0,
@@ -16393,8 +16406,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			443611
 		}
-	},
-	[44362] = {
+	}
+	pg.base.child2_benefit_list[44362] = {
 		benefit_level = 0,
 		name = "581",
 		is_show = 0,
@@ -16422,8 +16435,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			443621
 		}
-	},
-	[44363] = {
+	}
+	pg.base.child2_benefit_list[44363] = {
 		benefit_level = 0,
 		name = "582",
 		is_show = 0,
@@ -16451,8 +16464,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			443631
 		}
-	},
-	[44364] = {
+	}
+	pg.base.child2_benefit_list[44364] = {
 		benefit_level = 0,
 		name = "583",
 		is_show = 0,
@@ -16480,8 +16493,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			443641
 		}
-	},
-	[44365] = {
+	}
+	pg.base.child2_benefit_list[44365] = {
 		benefit_level = 0,
 		name = "迷徑感知",
 		is_show = 1,
@@ -16509,8 +16522,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			443651
 		}
-	},
-	[44366] = {
+	}
+	pg.base.child2_benefit_list[44366] = {
 		benefit_level = 0,
 		name = "585",
 		is_show = 0,
@@ -16538,8 +16551,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			443661
 		}
-	},
-	[44371] = {
+	}
+	pg.base.child2_benefit_list[44371] = {
 		benefit_level = 0,
 		name = "節能模式",
 		is_show = 1,
@@ -16567,8 +16580,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			443711
 		}
-	},
-	[44372] = {
+	}
+	pg.base.child2_benefit_list[44372] = {
 		benefit_level = 0,
 		name = "587",
 		is_show = 0,
@@ -16596,8 +16609,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			443721
 		}
-	},
-	[44381] = {
+	}
+	pg.base.child2_benefit_list[44381] = {
 		benefit_level = 0,
 		name = "實感强化·低",
 		is_show = 1,
@@ -16625,8 +16638,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			443811
 		}
-	},
-	[44382] = {
+	}
+	pg.base.child2_benefit_list[44382] = {
 		benefit_level = 0,
 		name = "體智强化·低",
 		is_show = 1,
@@ -16654,8 +16667,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			443821
 		}
-	},
-	[44383] = {
+	}
+	pg.base.child2_benefit_list[44383] = {
 		benefit_level = 0,
 		name = "實感强化·中",
 		is_show = 1,
@@ -16683,8 +16696,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			443831
 		}
-	},
-	[44384] = {
+	}
+	pg.base.child2_benefit_list[44384] = {
 		benefit_level = 0,
 		name = "體智强化·中",
 		is_show = 1,
@@ -16712,8 +16725,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			443841
 		}
-	},
-	[44385] = {
+	}
+	pg.base.child2_benefit_list[44385] = {
 		benefit_level = 0,
 		name = "實感持續·中",
 		is_show = 1,
@@ -16741,8 +16754,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			443851
 		}
-	},
-	[44386] = {
+	}
+	pg.base.child2_benefit_list[44386] = {
 		benefit_level = 0,
 		name = "體智持續·中",
 		is_show = 1,
@@ -16770,8 +16783,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			443861
 		}
-	},
-	[44387] = {
+	}
+	pg.base.child2_benefit_list[44387] = {
 		benefit_level = 0,
 		name = "實感持續·高",
 		is_show = 1,
@@ -16799,8 +16812,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			443871
 		}
-	},
-	[44388] = {
+	}
+	pg.base.child2_benefit_list[44388] = {
 		benefit_level = 0,
 		name = "實感持續·高",
 		is_show = 1,
@@ -16828,8 +16841,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			443881
 		}
-	},
-	[44389] = {
+	}
+	pg.base.child2_benefit_list[44389] = {
 		benefit_level = 0,
 		name = "幸運祝福",
 		is_show = 1,
@@ -16857,8 +16870,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			443891
 		}
-	},
-	[44391] = {
+	}
+	pg.base.child2_benefit_list[44391] = {
 		benefit_level = 0,
 		name = "598",
 		is_show = 0,
@@ -16886,8 +16899,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			443911
 		}
-	},
-	[44392] = {
+	}
+	pg.base.child2_benefit_list[44392] = {
 		benefit_level = 0,
 		name = "599",
 		is_show = 0,
@@ -16915,8 +16928,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			443921
 		}
-	},
-	[44401] = {
+	}
+	pg.base.child2_benefit_list[44401] = {
 		benefit_level = 0,
 		name = "600",
 		is_show = 0,
@@ -16944,8 +16957,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			444011
 		}
-	},
-	[44402] = {
+	}
+	pg.base.child2_benefit_list[44402] = {
 		benefit_level = 0,
 		name = "601",
 		is_show = 0,
@@ -16973,8 +16986,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			444021
 		}
-	},
-	[44411] = {
+	}
+	pg.base.child2_benefit_list[44411] = {
 		benefit_level = 0,
 		name = "引擎之心",
 		is_show = 1,
@@ -17010,8 +17023,8 @@ pg.base.child2_benefit_list = {
 			444114,
 			444115
 		}
-	},
-	[44412] = {
+	}
+	pg.base.child2_benefit_list[44412] = {
 		benefit_level = 0,
 		name = "603",
 		is_show = 0,
@@ -17039,8 +17052,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			444121
 		}
-	},
-	[44421] = {
+	}
+	pg.base.child2_benefit_list[44421] = {
 		benefit_level = 0,
 		name = "604",
 		is_show = 0,
@@ -17068,8 +17081,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			444211
 		}
-	},
-	[44422] = {
+	}
+	pg.base.child2_benefit_list[44422] = {
 		benefit_level = 0,
 		name = "605",
 		is_show = 0,
@@ -17097,8 +17110,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			444221
 		}
-	},
-	[44431] = {
+	}
+	pg.base.child2_benefit_list[44431] = {
 		benefit_level = 0,
 		name = "606",
 		is_show = 0,
@@ -17126,8 +17139,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			444311
 		}
-	},
-	[44432] = {
+	}
+	pg.base.child2_benefit_list[44432] = {
 		benefit_level = 0,
 		name = "607",
 		is_show = 0,
@@ -17155,8 +17168,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			444321
 		}
-	},
-	[44441] = {
+	}
+	pg.base.child2_benefit_list[44441] = {
 		benefit_level = 0,
 		name = "療愈之語",
 		is_show = 1,
@@ -17192,8 +17205,8 @@ pg.base.child2_benefit_list = {
 			444414,
 			444415
 		}
-	},
-	[44442] = {
+	}
+	pg.base.child2_benefit_list[44442] = {
 		benefit_level = 0,
 		name = "609",
 		is_show = 0,
@@ -17221,8 +17234,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			444421
 		}
-	},
-	[44451] = {
+	}
+	pg.base.child2_benefit_list[44451] = {
 		benefit_level = 0,
 		name = "623",
 		is_show = 0,
@@ -17250,8 +17263,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			444511
 		}
-	},
-	[44452] = {
+	}
+	pg.base.child2_benefit_list[44452] = {
 		benefit_level = 0,
 		name = "622",
 		is_show = 0,
@@ -17279,8 +17292,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			444521
 		}
-	},
-	[44461] = {
+	}
+	pg.base.child2_benefit_list[44461] = {
 		benefit_level = 0,
 		name = "625",
 		is_show = 0,
@@ -17308,8 +17321,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			444611
 		}
-	},
-	[44462] = {
+	}
+	pg.base.child2_benefit_list[44462] = {
 		benefit_level = 0,
 		name = "幸運心情",
 		is_show = 1,
@@ -17337,8 +17350,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			444621
 		}
-	},
-	[44463] = {
+	}
+	pg.base.child2_benefit_list[44463] = {
 		benefit_level = 0,
 		name = "",
 		is_show = 0,
@@ -17366,8 +17379,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			444631
 		}
-	},
-	[44464] = {
+	}
+	pg.base.child2_benefit_list[44464] = {
 		benefit_level = 0,
 		name = "",
 		is_show = 0,
@@ -17395,8 +17408,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			444641
 		}
-	},
-	[44465] = {
+	}
+	pg.base.child2_benefit_list[44465] = {
 		benefit_level = 0,
 		name = "",
 		is_show = 0,
@@ -17424,8 +17437,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			444651
 		}
-	},
-	[44466] = {
+	}
+	pg.base.child2_benefit_list[44466] = {
 		benefit_level = 0,
 		name = "",
 		is_show = 0,
@@ -17453,8 +17466,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			444661
 		}
-	},
-	[44467] = {
+	}
+	pg.base.child2_benefit_list[44467] = {
 		benefit_level = 0,
 		name = "抽王牌懲罰",
 		is_show = 1,
@@ -17482,8 +17495,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			444671
 		}
-	},
-	[44468] = {
+	}
+	pg.base.child2_benefit_list[44468] = {
 		benefit_level = 0,
 		name = "抽王牌懲罰",
 		is_show = 1,
@@ -17511,8 +17524,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			444681
 		}
-	},
-	[44469] = {
+	}
+	pg.base.child2_benefit_list[44469] = {
 		benefit_level = 0,
 		name = "抽王牌懲罰",
 		is_show = 1,
@@ -17540,8 +17553,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			444691
 		}
-	},
-	[44470] = {
+	}
+	pg.base.child2_benefit_list[44470] = {
 		benefit_level = 0,
 		name = "抽王牌懲罰",
 		is_show = 1,
@@ -17569,8 +17582,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			444701
 		}
-	},
-	[44471] = {
+	}
+	pg.base.child2_benefit_list[44471] = {
 		benefit_level = 0,
 		name = "抽王牌懲罰-體能懲罰",
 		is_show = 1,
@@ -17598,8 +17611,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			444711
 		}
-	},
-	[44472] = {
+	}
+	pg.base.child2_benefit_list[44472] = {
 		benefit_level = 0,
 		name = "抽王牌懲罰-知識懲罰",
 		is_show = 1,
@@ -17627,8 +17640,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			444721
 		}
-	},
-	[44473] = {
+	}
+	pg.base.child2_benefit_list[44473] = {
 		benefit_level = 0,
 		name = "抽王牌懲罰-實踐懲罰",
 		is_show = 1,
@@ -17656,8 +17669,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			444731
 		}
-	},
-	[44474] = {
+	}
+	pg.base.child2_benefit_list[44474] = {
 		benefit_level = 0,
 		name = "抽王牌懲罰-感知懲罰",
 		is_show = 1,
@@ -17685,8 +17698,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			444741
 		}
-	},
-	[1001] = {
+	}
+	pg.base.child2_benefit_list[1001] = {
 		benefit_level = 0,
 		name = "輕鬆一刻",
 		is_show = 1,
@@ -17714,8 +17727,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1001
 		}
-	},
-	[1002] = {
+	}
+	pg.base.child2_benefit_list[1002] = {
 		benefit_level = 0,
 		name = "零花錢",
 		is_show = 1,
@@ -17743,8 +17756,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1002
 		}
-	},
-	[1003] = {
+	}
+	pg.base.child2_benefit_list[1003] = {
 		benefit_level = 0,
 		name = "歡樂加倍",
 		is_show = 1,
@@ -17772,8 +17785,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1003
 		}
-	},
-	[1004] = {
+	}
+	pg.base.child2_benefit_list[1004] = {
 		benefit_level = 0,
 		name = "心想事成",
 		is_show = 1,
@@ -17801,8 +17814,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1004
 		}
-	},
-	[1005] = {
+	}
+	pg.base.child2_benefit_list[1005] = {
 		benefit_level = 0,
 		name = "雙重收穫",
 		is_show = 1,
@@ -17830,8 +17843,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1005
 		}
-	},
-	[1006] = {
+	}
+	pg.base.child2_benefit_list[1006] = {
 		benefit_level = 0,
 		name = "歡愉時刻",
 		is_show = 1,
@@ -17859,8 +17872,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1006
 		}
-	},
-	[1007] = {
+	}
+	pg.base.child2_benefit_list[1007] = {
 		benefit_level = 0,
 		name = "聚財之道",
 		is_show = 1,
@@ -17888,8 +17901,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1007
 		}
-	},
-	[1008] = {
+	}
+	pg.base.child2_benefit_list[1008] = {
 		benefit_level = 0,
 		name = "富貴吉運",
 		is_show = 1,
@@ -17917,8 +17930,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1008
 		}
-	},
-	[1009] = {
+	}
+	pg.base.child2_benefit_list[1009] = {
 		benefit_level = 0,
 		name = "金庫盈滿",
 		is_show = 1,
@@ -17946,8 +17959,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1009
 		}
-	},
-	[1010] = {
+	}
+	pg.base.child2_benefit_list[1010] = {
 		benefit_level = 0,
 		name = "聚寶盆",
 		is_show = 1,
@@ -17975,8 +17988,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1010
 		}
-	},
-	[1011] = {
+	}
+	pg.base.child2_benefit_list[1011] = {
 		benefit_level = 0,
 		name = "熟能生巧",
 		is_show = 1,
@@ -18004,8 +18017,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1011
 		}
-	},
-	[1012] = {
+	}
+	pg.base.child2_benefit_list[1012] = {
 		benefit_level = 0,
 		name = "知識萌芽",
 		is_show = 1,
@@ -18033,8 +18046,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1012
 		}
-	},
-	[1013] = {
+	}
+	pg.base.child2_benefit_list[1013] = {
 		benefit_level = 0,
 		name = "活力起點",
 		is_show = 1,
@@ -18062,8 +18075,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1013
 		}
-	},
-	[1014] = {
+	}
+	pg.base.child2_benefit_list[1014] = {
 		benefit_level = 0,
 		name = "觀察入門",
 		is_show = 1,
@@ -18091,8 +18104,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1014
 		}
-	},
-	[1041] = {
+	}
+	pg.base.child2_benefit_list[1041] = {
 		benefit_level = 0,
 		name = "身心暢悟",
 		is_show = 1,
@@ -18120,8 +18133,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1041
 		}
-	},
-	[1042] = {
+	}
+	pg.base.child2_benefit_list[1042] = {
 		benefit_level = 0,
 		name = "靜心求知",
 		is_show = 1,
@@ -18149,8 +18162,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1042
 		}
-	},
-	[1043] = {
+	}
+	pg.base.child2_benefit_list[1043] = {
 		benefit_level = 0,
 		name = "渾然天成",
 		is_show = 1,
@@ -18178,8 +18191,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1043
 		}
-	},
-	[1044] = {
+	}
+	pg.base.child2_benefit_list[1044] = {
 		benefit_level = 0,
 		name = "知行超越",
 		is_show = 1,
@@ -18207,8 +18220,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1044
 		}
-	},
-	[1045] = {
+	}
+	pg.base.child2_benefit_list[1045] = {
 		benefit_level = 0,
 		name = "精打細算",
 		is_show = 1,
@@ -18236,8 +18249,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1045
 		}
-	},
-	[1046] = {
+	}
+	pg.base.child2_benefit_list[1046] = {
 		benefit_level = 0,
 		name = "明智之選",
 		is_show = 1,
@@ -18265,8 +18278,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1046
 		}
-	},
-	[1047] = {
+	}
+	pg.base.child2_benefit_list[1047] = {
 		benefit_level = 0,
 		name = "樂享生活",
 		is_show = 1,
@@ -18294,8 +18307,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1047
 		}
-	},
-	[1048] = {
+	}
+	pg.base.child2_benefit_list[1048] = {
 		benefit_level = 0,
 		name = "均衡發展",
 		is_show = 1,
@@ -18323,8 +18336,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1048
 		}
-	},
-	[1049] = {
+	}
+	pg.base.child2_benefit_list[1049] = {
 		benefit_level = 0,
 		name = "均衡發展+",
 		is_show = 1,
@@ -18352,8 +18365,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1049
 		}
-	},
-	[1050] = {
+	}
+	pg.base.child2_benefit_list[1050] = {
 		benefit_level = 0,
 		name = "均衡發展++",
 		is_show = 1,
@@ -18381,8 +18394,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1050
 		}
-	},
-	[1051] = {
+	}
+	pg.base.child2_benefit_list[1051] = {
 		benefit_level = 0,
 		name = "均衡發展+++",
 		is_show = 1,
@@ -18410,8 +18423,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1051
 		}
-	},
-	[1052] = {
+	}
+	pg.base.child2_benefit_list[1052] = {
 		benefit_level = 0,
 		name = "歸途補給",
 		is_show = 1,
@@ -18439,8 +18452,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1052
 		}
-	},
-	[1053] = {
+	}
+	pg.base.child2_benefit_list[1053] = {
 		benefit_level = 0,
 		name = "不倦之旅",
 		is_show = 1,
@@ -18468,8 +18481,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1053
 		}
-	},
-	[1054] = {
+	}
+	pg.base.child2_benefit_list[1054] = {
 		benefit_level = 0,
 		name = "靈光眷顧",
 		is_show = 1,
@@ -18497,8 +18510,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1054
 		}
-	},
-	[1055] = {
+	}
+	pg.base.child2_benefit_list[1055] = {
 		benefit_level = 0,
 		name = "機緣之助",
 		is_show = 1,
@@ -18526,8 +18539,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1055
 		}
-	},
-	[1056] = {
+	}
+	pg.base.child2_benefit_list[1056] = {
 		benefit_level = 0,
 		name = "靈光眷顧-體能",
 		is_show = 1,
@@ -18555,8 +18568,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1056
 		}
-	},
-	[1057] = {
+	}
+	pg.base.child2_benefit_list[1057] = {
 		benefit_level = 0,
 		name = "靈光眷顧-實踐",
 		is_show = 1,
@@ -18584,8 +18597,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1057
 		}
-	},
-	[1058] = {
+	}
+	pg.base.child2_benefit_list[1058] = {
 		benefit_level = 0,
 		name = "靈光眷顧-感知",
 		is_show = 1,
@@ -18613,8 +18626,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1058
 		}
-	},
-	[1059] = {
+	}
+	pg.base.child2_benefit_list[1059] = {
 		benefit_level = 0,
 		name = "靈光眷顧-知識",
 		is_show = 1,
@@ -18642,8 +18655,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1059
 		}
-	},
-	[1060] = {
+	}
+	pg.base.child2_benefit_list[1060] = {
 		benefit_level = 0,
 		name = "機緣之助-體能",
 		is_show = 1,
@@ -18671,8 +18684,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1060
 		}
-	},
-	[1061] = {
+	}
+	pg.base.child2_benefit_list[1061] = {
 		benefit_level = 0,
 		name = "機緣之助-實踐",
 		is_show = 1,
@@ -18700,8 +18713,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1061
 		}
-	},
-	[1062] = {
+	}
+	pg.base.child2_benefit_list[1062] = {
 		benefit_level = 0,
 		name = "機緣之助-感知",
 		is_show = 1,
@@ -18729,8 +18742,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1062
 		}
-	},
-	[1063] = {
+	}
+	pg.base.child2_benefit_list[1063] = {
 		benefit_level = 0,
 		name = "機緣之助-知識",
 		is_show = 1,
@@ -18758,8 +18771,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1063
 		}
-	},
-	[1064] = {
+	}
+	pg.base.child2_benefit_list[1064] = {
 		benefit_level = 0,
 		name = "奇比特增益",
 		is_show = 1,
@@ -18787,8 +18800,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1064
 		}
-	},
-	[1065] = {
+	}
+	pg.base.child2_benefit_list[1065] = {
 		benefit_level = 0,
 		name = "偶數飛躍",
 		is_show = 1,
@@ -18816,8 +18829,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1065
 		}
-	},
-	[1066] = {
+	}
+	pg.base.child2_benefit_list[1066] = {
 		benefit_level = 0,
 		name = "奇比特無雙",
 		is_show = 1,
@@ -18845,8 +18858,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1066
 		}
-	},
-	[1067] = {
+	}
+	pg.base.child2_benefit_list[1067] = {
 		benefit_level = 0,
 		name = "偶數巔峰",
 		is_show = 1,
@@ -18874,8 +18887,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1067
 		}
-	},
-	[1068] = {
+	}
+	pg.base.child2_benefit_list[1068] = {
 		benefit_level = 0,
 		name = "好采頭",
 		is_show = 1,
@@ -18903,8 +18916,10 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1068
 		}
-	},
-	[1069] = {
+	}
+end)()
+(function ()
+	pg.base.child2_benefit_list[1069] = {
 		benefit_level = 0,
 		name = "完美開局",
 		is_show = 1,
@@ -18932,8 +18947,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1069
 		}
-	},
-	[1070] = {
+	}
+	pg.base.child2_benefit_list[1070] = {
 		benefit_level = 0,
 		name = "活力充沛",
 		is_show = 1,
@@ -18965,8 +18980,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			10701
 		}
-	},
-	[1071] = {
+	}
+	pg.base.child2_benefit_list[1071] = {
 		benefit_level = 0,
 		name = "得心應手",
 		is_show = 1,
@@ -18998,8 +19013,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			10711
 		}
-	},
-	[1072] = {
+	}
+	pg.base.child2_benefit_list[1072] = {
 		benefit_level = 0,
 		name = "心領神會",
 		is_show = 1,
@@ -19031,8 +19046,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			10721
 		}
-	},
-	[1073] = {
+	}
+	pg.base.child2_benefit_list[1073] = {
 		benefit_level = 0,
 		name = "樂學不倦",
 		is_show = 1,
@@ -19064,8 +19079,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			10731
 		}
-	},
-	[1074] = {
+	}
+	pg.base.child2_benefit_list[1074] = {
 		benefit_level = 0,
 		name = "悅動之心",
 		is_show = 1,
@@ -19097,8 +19112,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			10741
 		}
-	},
-	[1075] = {
+	}
+	pg.base.child2_benefit_list[1075] = {
 		benefit_level = 0,
 		name = "舉重若輕",
 		is_show = 1,
@@ -19130,8 +19145,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			10751
 		}
-	},
-	[1076] = {
+	}
+	pg.base.child2_benefit_list[1076] = {
 		benefit_level = 0,
 		name = "悅然明察",
 		is_show = 1,
@@ -19163,8 +19178,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			10761
 		}
-	},
-	[1077] = {
+	}
+	pg.base.child2_benefit_list[1077] = {
 		benefit_level = 0,
 		name = "學無所憂",
 		is_show = 1,
@@ -19196,8 +19211,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			10771
 		}
-	},
-	[1078] = {
+	}
+	pg.base.child2_benefit_list[1078] = {
 		benefit_level = 0,
 		name = "節約之道",
 		is_show = 1,
@@ -19225,8 +19240,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1078
 		}
-	},
-	[1079] = {
+	}
+	pg.base.child2_benefit_list[1079] = {
 		benefit_level = 0,
 		name = "省錢有道",
 		is_show = 1,
@@ -19254,8 +19269,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1079
 		}
-	},
-	[1080] = {
+	}
+	pg.base.child2_benefit_list[1080] = {
 		benefit_level = 0,
 		name = "省錢聖手",
 		is_show = 1,
@@ -19283,8 +19298,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			1080
 		}
-	},
-	[1081] = {
+	}
+	pg.base.child2_benefit_list[1081] = {
 		benefit_level = 0,
 		name = "奇偶饋贈（奇）",
 		is_show = 1,
@@ -19314,8 +19329,8 @@ pg.base.child2_benefit_list = {
 			1081,
 			1082
 		}
-	},
-	[1083] = {
+	}
+	pg.base.child2_benefit_list[1083] = {
 		benefit_level = 0,
 		name = "奇偶饋贈（偶）",
 		is_show = 1,
@@ -19345,8 +19360,8 @@ pg.base.child2_benefit_list = {
 			1083,
 			1084
 		}
-	},
-	[1084] = {
+	}
+	pg.base.child2_benefit_list[1084] = {
 		benefit_level = 0,
 		name = "1084",
 		is_show = 1,
@@ -19370,8 +19385,8 @@ pg.base.child2_benefit_list = {
 		upgrade_desc = "",
 		content = {},
 		show_content = {}
-	},
-	[1085] = {
+	}
+	pg.base.child2_benefit_list[1085] = {
 		benefit_level = 0,
 		name = "1085",
 		is_show = 1,
@@ -19395,8 +19410,8 @@ pg.base.child2_benefit_list = {
 		upgrade_desc = "",
 		content = {},
 		show_content = {}
-	},
-	[1086] = {
+	}
+	pg.base.child2_benefit_list[1086] = {
 		benefit_level = 0,
 		name = "1086",
 		is_show = 1,
@@ -19420,8 +19435,8 @@ pg.base.child2_benefit_list = {
 		upgrade_desc = "",
 		content = {},
 		show_content = {}
-	},
-	[1087] = {
+	}
+	pg.base.child2_benefit_list[1087] = {
 		benefit_level = 0,
 		name = "1087",
 		is_show = 1,
@@ -19445,8 +19460,8 @@ pg.base.child2_benefit_list = {
 		upgrade_desc = "",
 		content = {},
 		show_content = {}
-	},
-	[1088] = {
+	}
+	pg.base.child2_benefit_list[1088] = {
 		benefit_level = 0,
 		name = "實踐專精",
 		is_show = 1,
@@ -19482,8 +19497,8 @@ pg.base.child2_benefit_list = {
 			10884,
 			10885
 		}
-	},
-	[1089] = {
+	}
+	pg.base.child2_benefit_list[1089] = {
 		benefit_level = 0,
 		name = "求知若渴",
 		is_show = 1,
@@ -19519,8 +19534,8 @@ pg.base.child2_benefit_list = {
 			10894,
 			10895
 		}
-	},
-	[1090] = {
+	}
+	pg.base.child2_benefit_list[1090] = {
 		benefit_level = 0,
 		name = "鍛煉達人",
 		is_show = 1,
@@ -19556,8 +19571,8 @@ pg.base.child2_benefit_list = {
 			10904,
 			10905
 		}
-	},
-	[1091] = {
+	}
+	pg.base.child2_benefit_list[1091] = {
 		benefit_level = 0,
 		name = "慧眼如炬",
 		is_show = 1,
@@ -19593,8 +19608,8 @@ pg.base.child2_benefit_list = {
 			10914,
 			10915
 		}
-	},
-	[1092] = {
+	}
+	pg.base.child2_benefit_list[1092] = {
 		benefit_level = 0,
 		name = "融會貫通",
 		is_show = 1,
@@ -19618,8 +19633,8 @@ pg.base.child2_benefit_list = {
 		upgrade_desc = "",
 		content = {},
 		show_content = {}
-	},
-	[1093] = {
+	}
+	pg.base.child2_benefit_list[1093] = {
 		benefit_level = 0,
 		name = "舉一反三",
 		is_show = 1,
@@ -19643,8 +19658,8 @@ pg.base.child2_benefit_list = {
 		upgrade_desc = "",
 		content = {},
 		show_content = {}
-	},
-	[1094] = {
+	}
+	pg.base.child2_benefit_list[1094] = {
 		benefit_level = 0,
 		name = "超越極限",
 		is_show = 1,
@@ -19668,8 +19683,8 @@ pg.base.child2_benefit_list = {
 		upgrade_desc = "",
 		content = {},
 		show_content = {}
-	},
-	[1095] = {
+	}
+	pg.base.child2_benefit_list[1095] = {
 		benefit_level = 0,
 		name = "全知感應",
 		is_show = 1,
@@ -19693,8 +19708,8 @@ pg.base.child2_benefit_list = {
 		upgrade_desc = "",
 		content = {},
 		show_content = {}
-	},
-	[1096] = {
+	}
+	pg.base.child2_benefit_list[1096] = {
 		benefit_level = 0,
 		name = "實踐出真知",
 		is_show = 1,
@@ -19722,8 +19737,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			10961
 		}
-	},
-	[1097] = {
+	}
+	pg.base.child2_benefit_list[1097] = {
 		benefit_level = 0,
 		name = "學以致用",
 		is_show = 1,
@@ -19751,8 +19766,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			10971
 		}
-	},
-	[1098] = {
+	}
+	pg.base.child2_benefit_list[1098] = {
 		benefit_level = 0,
 		name = "形神合一",
 		is_show = 1,
@@ -19780,8 +19795,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			10981
 		}
-	},
-	[1099] = {
+	}
+	pg.base.child2_benefit_list[1099] = {
 		benefit_level = 0,
 		name = "體察入微",
 		is_show = 1,
@@ -19809,8 +19824,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			10991
 		}
-	},
-	[1100] = {
+	}
+	pg.base.child2_benefit_list[1100] = {
 		benefit_level = 0,
 		name = "愉悅成長",
 		is_show = 1,
@@ -19834,8 +19849,8 @@ pg.base.child2_benefit_list = {
 		upgrade_desc = "",
 		content = {},
 		show_content = {}
-	},
-	[1101] = {
+	}
+	pg.base.child2_benefit_list[1101] = {
 		benefit_level = 0,
 		name = "財智雙收",
 		is_show = 1,
@@ -19859,8 +19874,8 @@ pg.base.child2_benefit_list = {
 		upgrade_desc = "",
 		content = {},
 		show_content = {}
-	},
-	[1102] = {
+	}
+	pg.base.child2_benefit_list[1102] = {
 		benefit_level = 0,
 		name = "滿載而歸",
 		is_show = 1,
@@ -19884,8 +19899,8 @@ pg.base.child2_benefit_list = {
 		upgrade_desc = "",
 		content = {},
 		show_content = {}
-	},
-	[2001] = {
+	}
+	pg.base.child2_benefit_list[2001] = {
 		benefit_level = 0,
 		name = "體能增益",
 		is_show = 1,
@@ -19913,8 +19928,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2001
 		}
-	},
-	[2002] = {
+	}
+	pg.base.child2_benefit_list[2002] = {
 		benefit_level = 0,
 		name = "知識增益",
 		is_show = 1,
@@ -19942,8 +19957,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2002
 		}
-	},
-	[2003] = {
+	}
+	pg.base.child2_benefit_list[2003] = {
 		benefit_level = 0,
 		name = "實踐增益",
 		is_show = 1,
@@ -19971,8 +19986,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2003
 		}
-	},
-	[2004] = {
+	}
+	pg.base.child2_benefit_list[2004] = {
 		benefit_level = 0,
 		name = "感知增益",
 		is_show = 1,
@@ -20000,8 +20015,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2004
 		}
-	},
-	[2005] = {
+	}
+	pg.base.child2_benefit_list[2005] = {
 		benefit_level = 0,
 		name = "幸運獎券",
 		is_show = 0,
@@ -20029,8 +20044,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2005
 		}
-	},
-	[2006] = {
+	}
+	pg.base.child2_benefit_list[2006] = {
 		benefit_level = 0,
 		name = "體能隨機增益",
 		is_show = 1,
@@ -20058,8 +20073,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2006
 		}
-	},
-	[2007] = {
+	}
+	pg.base.child2_benefit_list[2007] = {
 		benefit_level = 0,
 		name = "知識隨機增益",
 		is_show = 1,
@@ -20087,8 +20102,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2007
 		}
-	},
-	[2008] = {
+	}
+	pg.base.child2_benefit_list[2008] = {
 		benefit_level = 0,
 		name = "實踐隨機增益",
 		is_show = 1,
@@ -20116,8 +20131,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2008
 		}
-	},
-	[2009] = {
+	}
+	pg.base.child2_benefit_list[2009] = {
 		benefit_level = 0,
 		name = "感知隨機增益",
 		is_show = 1,
@@ -20145,8 +20160,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2009
 		}
-	},
-	[2010] = {
+	}
+	pg.base.child2_benefit_list[2010] = {
 		benefit_level = 0,
 		name = "體能隨機增益+",
 		is_show = 1,
@@ -20174,8 +20189,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2010
 		}
-	},
-	[2011] = {
+	}
+	pg.base.child2_benefit_list[2011] = {
 		benefit_level = 0,
 		name = "知識隨機增益+",
 		is_show = 1,
@@ -20203,8 +20218,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2011
 		}
-	},
-	[2012] = {
+	}
+	pg.base.child2_benefit_list[2012] = {
 		benefit_level = 0,
 		name = "實踐隨機增益+",
 		is_show = 1,
@@ -20232,8 +20247,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2012
 		}
-	},
-	[2013] = {
+	}
+	pg.base.child2_benefit_list[2013] = {
 		benefit_level = 0,
 		name = "感知隨機增益+",
 		is_show = 1,
@@ -20261,8 +20276,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2013
 		}
-	},
-	[2014] = {
+	}
+	pg.base.child2_benefit_list[2014] = {
 		benefit_level = 0,
 		name = "體能隨機·預增益",
 		is_show = 1,
@@ -20290,8 +20305,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2014
 		}
-	},
-	[2015] = {
+	}
+	pg.base.child2_benefit_list[2015] = {
 		benefit_level = 0,
 		name = "知識隨機·預增益",
 		is_show = 1,
@@ -20319,8 +20334,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2015
 		}
-	},
-	[2016] = {
+	}
+	pg.base.child2_benefit_list[2016] = {
 		benefit_level = 0,
 		name = "實踐隨機·預增益",
 		is_show = 1,
@@ -20348,8 +20363,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2016
 		}
-	},
-	[2017] = {
+	}
+	pg.base.child2_benefit_list[2017] = {
 		benefit_level = 0,
 		name = "感知隨機·預增益",
 		is_show = 1,
@@ -20377,8 +20392,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2017
 		}
-	},
-	[2018] = {
+	}
+	pg.base.child2_benefit_list[2018] = {
 		benefit_level = 0,
 		name = "心情隨機回復",
 		is_show = 1,
@@ -20406,8 +20421,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2018
 		}
-	},
-	[2019] = {
+	}
+	pg.base.child2_benefit_list[2019] = {
 		benefit_level = 0,
 		name = "心情隨機回復+",
 		is_show = 1,
@@ -20435,8 +20450,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2019
 		}
-	},
-	[2020] = {
+	}
+	pg.base.child2_benefit_list[2020] = {
 		benefit_level = 0,
 		name = "心情隨機回復++",
 		is_show = 1,
@@ -20464,8 +20479,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2020
 		}
-	},
-	[2021] = {
+	}
+	pg.base.child2_benefit_list[2021] = {
 		benefit_level = 0,
 		name = "心情隨機回復（永久）",
 		is_show = 1,
@@ -20493,8 +20508,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2021
 		}
-	},
-	[2022] = {
+	}
+	pg.base.child2_benefit_list[2022] = {
 		benefit_level = 0,
 		name = "體能+10",
 		is_show = 0,
@@ -20522,8 +20537,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2022
 		}
-	},
-	[2023] = {
+	}
+	pg.base.child2_benefit_list[2023] = {
 		benefit_level = 0,
 		name = "知識+10",
 		is_show = 0,
@@ -20551,8 +20566,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2023
 		}
-	},
-	[2024] = {
+	}
+	pg.base.child2_benefit_list[2024] = {
 		benefit_level = 0,
 		name = "實踐+10",
 		is_show = 0,
@@ -20580,8 +20595,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2024
 		}
-	},
-	[2025] = {
+	}
+	pg.base.child2_benefit_list[2025] = {
 		benefit_level = 0,
 		name = "感知+10",
 		is_show = 0,
@@ -20609,8 +20624,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2025
 		}
-	},
-	[2026] = {
+	}
+	pg.base.child2_benefit_list[2026] = {
 		benefit_level = 0,
 		name = "心情+2",
 		is_show = 0,
@@ -20638,8 +20653,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2026
 		}
-	},
-	[2027] = {
+	}
+	pg.base.child2_benefit_list[2027] = {
 		benefit_level = 0,
 		name = "體能+20",
 		is_show = 0,
@@ -20667,8 +20682,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2027
 		}
-	},
-	[2028] = {
+	}
+	pg.base.child2_benefit_list[2028] = {
 		benefit_level = 0,
 		name = "知識+20",
 		is_show = 0,
@@ -20696,8 +20711,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2028
 		}
-	},
-	[2029] = {
+	}
+	pg.base.child2_benefit_list[2029] = {
 		benefit_level = 0,
 		name = "實踐+20",
 		is_show = 0,
@@ -20725,8 +20740,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2029
 		}
-	},
-	[2030] = {
+	}
+	pg.base.child2_benefit_list[2030] = {
 		benefit_level = 0,
 		name = "感知+20",
 		is_show = 0,
@@ -20754,8 +20769,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2030
 		}
-	},
-	[2031] = {
+	}
+	pg.base.child2_benefit_list[2031] = {
 		benefit_level = 0,
 		name = "心情+4",
 		is_show = 0,
@@ -20783,8 +20798,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2031
 		}
-	},
-	[2032] = {
+	}
+	pg.base.child2_benefit_list[2032] = {
 		benefit_level = 0,
 		name = "體能+40",
 		is_show = 0,
@@ -20812,8 +20827,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2032
 		}
-	},
-	[2033] = {
+	}
+	pg.base.child2_benefit_list[2033] = {
 		benefit_level = 0,
 		name = "知識+40",
 		is_show = 0,
@@ -20841,8 +20856,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2033
 		}
-	},
-	[2034] = {
+	}
+	pg.base.child2_benefit_list[2034] = {
 		benefit_level = 0,
 		name = "實踐+40",
 		is_show = 0,
@@ -20870,8 +20885,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2034
 		}
-	},
-	[2035] = {
+	}
+	pg.base.child2_benefit_list[2035] = {
 		benefit_level = 0,
 		name = "感知+40",
 		is_show = 0,
@@ -20899,8 +20914,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2035
 		}
-	},
-	[2036] = {
+	}
+	pg.base.child2_benefit_list[2036] = {
 		benefit_level = 0,
 		name = "心情+6",
 		is_show = 0,
@@ -20928,8 +20943,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2036
 		}
-	},
-	[2037] = {
+	}
+	pg.base.child2_benefit_list[2037] = {
 		benefit_level = 0,
 		name = "體能轉化·知識",
 		is_show = 1,
@@ -20957,8 +20972,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2037
 		}
-	},
-	[2038] = {
+	}
+	pg.base.child2_benefit_list[2038] = {
 		benefit_level = 0,
 		name = "知識轉化·體能",
 		is_show = 1,
@@ -20986,8 +21001,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2038
 		}
-	},
-	[2039] = {
+	}
+	pg.base.child2_benefit_list[2039] = {
 		benefit_level = 0,
 		name = "實踐轉化·感知",
 		is_show = 1,
@@ -21015,8 +21030,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2039
 		}
-	},
-	[2040] = {
+	}
+	pg.base.child2_benefit_list[2040] = {
 		benefit_level = 0,
 		name = "感知轉化·實踐",
 		is_show = 1,
@@ -21044,8 +21059,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2040
 		}
-	},
-	[2041] = {
+	}
+	pg.base.child2_benefit_list[2041] = {
 		benefit_level = 0,
 		name = "實踐增益（切換）",
 		is_show = 1,
@@ -21075,8 +21090,8 @@ pg.base.child2_benefit_list = {
 			2041,
 			2065
 		}
-	},
-	[2042] = {
+	}
+	pg.base.child2_benefit_list[2042] = {
 		benefit_level = 0,
 		name = "實踐减益（切換）",
 		is_show = 1,
@@ -21106,8 +21121,8 @@ pg.base.child2_benefit_list = {
 			2042,
 			2066
 		}
-	},
-	[2043] = {
+	}
+	pg.base.child2_benefit_list[2043] = {
 		benefit_level = 0,
 		name = "實踐增益（切換）+",
 		is_show = 1,
@@ -21137,8 +21152,8 @@ pg.base.child2_benefit_list = {
 			2043,
 			2067
 		}
-	},
-	[2044] = {
+	}
+	pg.base.child2_benefit_list[2044] = {
 		benefit_level = 0,
 		name = "實踐减益（切換）+",
 		is_show = 1,
@@ -21168,8 +21183,8 @@ pg.base.child2_benefit_list = {
 			2044,
 			2068
 		}
-	},
-	[2045] = {
+	}
+	pg.base.child2_benefit_list[2045] = {
 		benefit_level = 0,
 		name = "實踐增益（切換）++",
 		is_show = 1,
@@ -21199,8 +21214,8 @@ pg.base.child2_benefit_list = {
 			2045,
 			2069
 		}
-	},
-	[2046] = {
+	}
+	pg.base.child2_benefit_list[2046] = {
 		benefit_level = 0,
 		name = "實踐减益（切換）++",
 		is_show = 1,
@@ -21230,8 +21245,8 @@ pg.base.child2_benefit_list = {
 			2046,
 			2070
 		}
-	},
-	[2047] = {
+	}
+	pg.base.child2_benefit_list[2047] = {
 		benefit_level = 0,
 		name = "體能增益（切換）",
 		is_show = 1,
@@ -21261,8 +21276,8 @@ pg.base.child2_benefit_list = {
 			2047,
 			2071
 		}
-	},
-	[2048] = {
+	}
+	pg.base.child2_benefit_list[2048] = {
 		benefit_level = 0,
 		name = "體能减益（切換）",
 		is_show = 1,
@@ -21292,8 +21307,8 @@ pg.base.child2_benefit_list = {
 			2048,
 			2072
 		}
-	},
-	[2049] = {
+	}
+	pg.base.child2_benefit_list[2049] = {
 		benefit_level = 0,
 		name = "體能增益（切換）+",
 		is_show = 1,
@@ -21323,8 +21338,8 @@ pg.base.child2_benefit_list = {
 			2049,
 			2073
 		}
-	},
-	[2050] = {
+	}
+	pg.base.child2_benefit_list[2050] = {
 		benefit_level = 0,
 		name = "體能减益（切換）+",
 		is_show = 1,
@@ -21354,8 +21369,8 @@ pg.base.child2_benefit_list = {
 			2050,
 			2074
 		}
-	},
-	[2051] = {
+	}
+	pg.base.child2_benefit_list[2051] = {
 		benefit_level = 0,
 		name = "體能增益（切換）++",
 		is_show = 1,
@@ -21385,8 +21400,8 @@ pg.base.child2_benefit_list = {
 			2051,
 			2075
 		}
-	},
-	[2052] = {
+	}
+	pg.base.child2_benefit_list[2052] = {
 		benefit_level = 0,
 		name = "體能减益（切換）++",
 		is_show = 1,
@@ -21416,8 +21431,8 @@ pg.base.child2_benefit_list = {
 			2052,
 			2076
 		}
-	},
-	[2053] = {
+	}
+	pg.base.child2_benefit_list[2053] = {
 		benefit_level = 0,
 		name = "感知增益（切換）",
 		is_show = 1,
@@ -21447,8 +21462,8 @@ pg.base.child2_benefit_list = {
 			2053,
 			2077
 		}
-	},
-	[2054] = {
+	}
+	pg.base.child2_benefit_list[2054] = {
 		benefit_level = 0,
 		name = "感知减益（切換）",
 		is_show = 1,
@@ -21478,8 +21493,8 @@ pg.base.child2_benefit_list = {
 			2054,
 			2078
 		}
-	},
-	[2055] = {
+	}
+	pg.base.child2_benefit_list[2055] = {
 		benefit_level = 0,
 		name = "感知增益（切換）+",
 		is_show = 1,
@@ -21509,8 +21524,8 @@ pg.base.child2_benefit_list = {
 			2055,
 			2079
 		}
-	},
-	[2056] = {
+	}
+	pg.base.child2_benefit_list[2056] = {
 		benefit_level = 0,
 		name = "感知减益（切換）+",
 		is_show = 1,
@@ -21540,8 +21555,8 @@ pg.base.child2_benefit_list = {
 			2056,
 			2080
 		}
-	},
-	[2057] = {
+	}
+	pg.base.child2_benefit_list[2057] = {
 		benefit_level = 0,
 		name = "感知增益（切換）++",
 		is_show = 1,
@@ -21571,8 +21586,8 @@ pg.base.child2_benefit_list = {
 			2057,
 			2081
 		}
-	},
-	[2058] = {
+	}
+	pg.base.child2_benefit_list[2058] = {
 		benefit_level = 0,
 		name = "感知减益（切換）++",
 		is_show = 1,
@@ -21602,8 +21617,8 @@ pg.base.child2_benefit_list = {
 			2058,
 			2082
 		}
-	},
-	[2059] = {
+	}
+	pg.base.child2_benefit_list[2059] = {
 		benefit_level = 0,
 		name = "知識增益（切換）",
 		is_show = 1,
@@ -21633,8 +21648,8 @@ pg.base.child2_benefit_list = {
 			2059,
 			2083
 		}
-	},
-	[2060] = {
+	}
+	pg.base.child2_benefit_list[2060] = {
 		benefit_level = 0,
 		name = "知識减益（切換）",
 		is_show = 1,
@@ -21664,8 +21679,8 @@ pg.base.child2_benefit_list = {
 			2060,
 			2084
 		}
-	},
-	[2061] = {
+	}
+	pg.base.child2_benefit_list[2061] = {
 		benefit_level = 0,
 		name = "知識增益（切換）+",
 		is_show = 1,
@@ -21695,8 +21710,8 @@ pg.base.child2_benefit_list = {
 			2061,
 			2085
 		}
-	},
-	[2062] = {
+	}
+	pg.base.child2_benefit_list[2062] = {
 		benefit_level = 0,
 		name = "知識减益（切換）+",
 		is_show = 1,
@@ -21726,8 +21741,8 @@ pg.base.child2_benefit_list = {
 			2062,
 			2086
 		}
-	},
-	[2063] = {
+	}
+	pg.base.child2_benefit_list[2063] = {
 		benefit_level = 0,
 		name = "知識增益（切換）++",
 		is_show = 1,
@@ -21757,8 +21772,8 @@ pg.base.child2_benefit_list = {
 			2063,
 			2087
 		}
-	},
-	[2064] = {
+	}
+	pg.base.child2_benefit_list[2064] = {
 		benefit_level = 0,
 		name = "知識减益（切換）++",
 		is_show = 1,
@@ -21788,8 +21803,8 @@ pg.base.child2_benefit_list = {
 			2064,
 			2088
 		}
-	},
-	[2089] = {
+	}
+	pg.base.child2_benefit_list[2089] = {
 		benefit_level = 0,
 		name = "特殊行程格·一",
 		is_show = 1,
@@ -21817,8 +21832,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2089
 		}
-	},
-	[2090] = {
+	}
+	pg.base.child2_benefit_list[2090] = {
 		benefit_level = 0,
 		name = "特殊行程格·一+",
 		is_show = 1,
@@ -21846,8 +21861,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2090
 		}
-	},
-	[2091] = {
+	}
+	pg.base.child2_benefit_list[2091] = {
 		benefit_level = 0,
 		name = "特殊行程格·一++",
 		is_show = 1,
@@ -21875,8 +21890,10 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2091
 		}
-	},
-	[2092] = {
+	}
+end)()
+(function ()
+	pg.base.child2_benefit_list[2092] = {
 		benefit_level = 0,
 		name = "奇數行程格增益",
 		is_show = 1,
@@ -21904,8 +21921,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2092
 		}
-	},
-	[2093] = {
+	}
+	pg.base.child2_benefit_list[2093] = {
 		benefit_level = 0,
 		name = "奇數行程格增益+",
 		is_show = 1,
@@ -21933,8 +21950,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2093
 		}
-	},
-	[2094] = {
+	}
+	pg.base.child2_benefit_list[2094] = {
 		benefit_level = 0,
 		name = "奇數行程格增益++",
 		is_show = 1,
@@ -21962,8 +21979,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2094
 		}
-	},
-	[2095] = {
+	}
+	pg.base.child2_benefit_list[2095] = {
 		benefit_level = 0,
 		name = "偶數行程格增益",
 		is_show = 1,
@@ -21991,8 +22008,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2095
 		}
-	},
-	[2096] = {
+	}
+	pg.base.child2_benefit_list[2096] = {
 		benefit_level = 0,
 		name = "偶數行程格增益+",
 		is_show = 1,
@@ -22020,8 +22037,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2096
 		}
-	},
-	[2097] = {
+	}
+	pg.base.child2_benefit_list[2097] = {
 		benefit_level = 0,
 		name = "偶數行程格增益++",
 		is_show = 1,
@@ -22049,8 +22066,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2097
 		}
-	},
-	[2098] = {
+	}
+	pg.base.child2_benefit_list[2098] = {
 		benefit_level = 0,
 		name = "體能隨機·預增益",
 		is_show = 0,
@@ -22078,8 +22095,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2098
 		}
-	},
-	[2099] = {
+	}
+	pg.base.child2_benefit_list[2099] = {
 		benefit_level = 0,
 		name = "知識隨機·預增益",
 		is_show = 0,
@@ -22107,8 +22124,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2099
 		}
-	},
-	[2100] = {
+	}
+	pg.base.child2_benefit_list[2100] = {
 		benefit_level = 0,
 		name = "實踐隨機·預增益",
 		is_show = 0,
@@ -22136,8 +22153,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2100
 		}
-	},
-	[2101] = {
+	}
+	pg.base.child2_benefit_list[2101] = {
 		benefit_level = 0,
 		name = "感知隨機·預增益",
 		is_show = 0,
@@ -22165,8 +22182,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			2101
 		}
-	},
-	[3001] = {
+	}
+	pg.base.child2_benefit_list[3001] = {
 		benefit_level = 0,
 		name = "獨角獸的祝福",
 		is_show = 0,
@@ -22194,8 +22211,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			30011
 		}
-	},
-	[3002] = {
+	}
+	pg.base.child2_benefit_list[3002] = {
 		benefit_level = 0,
 		name = "獨角獸的祝福",
 		is_show = 0,
@@ -22223,8 +22240,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			30021
 		}
-	},
-	[3003] = {
+	}
+	pg.base.child2_benefit_list[3003] = {
 		benefit_level = 0,
 		name = "獨角獸的祝福",
 		is_show = 1,
@@ -22256,8 +22273,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			30031
 		}
-	},
-	[3004] = {
+	}
+	pg.base.child2_benefit_list[3004] = {
 		benefit_level = 0,
 		name = "海天的祝福",
 		is_show = 0,
@@ -22285,8 +22302,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			30041
 		}
-	},
-	[3005] = {
+	}
+	pg.base.child2_benefit_list[3005] = {
 		benefit_level = 0,
 		name = "海天的祝福",
 		is_show = 0,
@@ -22314,8 +22331,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			30051
 		}
-	},
-	[3006] = {
+	}
+	pg.base.child2_benefit_list[3006] = {
 		benefit_level = 0,
 		name = "海天的祝福",
 		is_show = 1,
@@ -22343,8 +22360,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			30061
 		}
-	},
-	[3007] = {
+	}
+	pg.base.child2_benefit_list[3007] = {
 		benefit_level = 0,
 		name = "安克拉治的祝福",
 		is_show = 0,
@@ -22372,8 +22389,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			30071
 		}
-	},
-	[3008] = {
+	}
+	pg.base.child2_benefit_list[3008] = {
 		benefit_level = 0,
 		name = "安克拉治的祝福",
 		is_show = 0,
@@ -22401,8 +22418,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			30081
 		}
-	},
-	[3009] = {
+	}
+	pg.base.child2_benefit_list[3009] = {
 		benefit_level = 0,
 		name = "安克拉治的祝福",
 		is_show = 1,
@@ -22432,8 +22449,8 @@ pg.base.child2_benefit_list = {
 			30091,
 			30092
 		}
-	},
-	[3010] = {
+	}
+	pg.base.child2_benefit_list[3010] = {
 		benefit_level = 0,
 		name = "{namecode:491}的祝福",
 		is_show = 0,
@@ -22461,8 +22478,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			30101
 		}
-	},
-	[3011] = {
+	}
+	pg.base.child2_benefit_list[3011] = {
 		benefit_level = 0,
 		name = "{namecode:491}的祝福",
 		is_show = 0,
@@ -22490,8 +22507,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			30111
 		}
-	},
-	[3012] = {
+	}
+	pg.base.child2_benefit_list[3012] = {
 		benefit_level = 0,
 		name = "{namecode:491}的祝福",
 		is_show = 1,
@@ -22523,8 +22540,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			30121
 		}
-	},
-	[3013] = {
+	}
+	pg.base.child2_benefit_list[3013] = {
 		benefit_level = 0,
 		name = "兇猛的祝福",
 		is_show = 0,
@@ -22552,8 +22569,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			30131
 		}
-	},
-	[3014] = {
+	}
+	pg.base.child2_benefit_list[3014] = {
 		benefit_level = 0,
 		name = "兇猛的祝福",
 		is_show = 0,
@@ -22581,8 +22598,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			30141
 		}
-	},
-	[3015] = {
+	}
+	pg.base.child2_benefit_list[3015] = {
 		benefit_level = 0,
 		name = "兇猛的祝福",
 		is_show = 1,
@@ -22614,8 +22631,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			30151
 		}
-	},
-	[3016] = {
+	}
+	pg.base.child2_benefit_list[3016] = {
 		benefit_level = 0,
 		name = "{namecode:439}的祝福",
 		is_show = 0,
@@ -22643,8 +22660,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			30161
 		}
-	},
-	[3017] = {
+	}
+	pg.base.child2_benefit_list[3017] = {
 		benefit_level = 0,
 		name = "{namecode:439}的祝福",
 		is_show = 0,
@@ -22672,8 +22689,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			30171
 		}
-	},
-	[3018] = {
+	}
+	pg.base.child2_benefit_list[3018] = {
 		benefit_level = 0,
 		name = "{namecode:439}的祝福",
 		is_show = 1,
@@ -22705,8 +22722,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			30181
 		}
-	},
-	[3051] = {
+	}
+	pg.base.child2_benefit_list[3051] = {
 		benefit_level = 0,
 		name = "安克拉治的祝福·三衍生1",
 		is_show = 0,
@@ -22734,8 +22751,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			30511
 		}
-	},
-	[3052] = {
+	}
+	pg.base.child2_benefit_list[3052] = {
 		benefit_level = 0,
 		name = "安克拉治的祝福·三衍生2",
 		is_show = 0,
@@ -22763,8 +22780,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			30521
 		}
-	},
-	[3053] = {
+	}
+	pg.base.child2_benefit_list[3053] = {
 		benefit_level = 0,
 		name = "安克拉治的祝福·三衍生3",
 		is_show = 0,
@@ -22792,8 +22809,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			30531
 		}
-	},
-	[3054] = {
+	}
+	pg.base.child2_benefit_list[3054] = {
 		benefit_level = 0,
 		name = "安克拉治的祝福·三衍生4",
 		is_show = 0,
@@ -22821,8 +22838,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			30541
 		}
-	},
-	[3501] = {
+	}
+	pg.base.child2_benefit_list[3501] = {
 		benefit_level = 0,
 		name = "20回合目標内容獎勵D",
 		is_show = 0,
@@ -22850,8 +22867,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			35011
 		}
-	},
-	[3502] = {
+	}
+	pg.base.child2_benefit_list[3502] = {
 		benefit_level = 0,
 		name = "20回合目標内容獎勵C",
 		is_show = 0,
@@ -22879,8 +22896,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			35021
 		}
-	},
-	[3503] = {
+	}
+	pg.base.child2_benefit_list[3503] = {
 		benefit_level = 0,
 		name = "20回合目標内容獎勵B",
 		is_show = 0,
@@ -22908,8 +22925,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			35031
 		}
-	},
-	[3504] = {
+	}
+	pg.base.child2_benefit_list[3504] = {
 		benefit_level = 0,
 		name = "20回合目標内容獎勵A",
 		is_show = 0,
@@ -22937,8 +22954,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			35041
 		}
-	},
-	[3505] = {
+	}
+	pg.base.child2_benefit_list[3505] = {
 		benefit_level = 0,
 		name = "5回合目標獎勵D",
 		is_show = 0,
@@ -22966,8 +22983,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			35051
 		}
-	},
-	[3506] = {
+	}
+	pg.base.child2_benefit_list[3506] = {
 		benefit_level = 0,
 		name = "5回合目標獎勵C",
 		is_show = 0,
@@ -22995,8 +23012,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			35061
 		}
-	},
-	[3507] = {
+	}
+	pg.base.child2_benefit_list[3507] = {
 		benefit_level = 0,
 		name = "5回合目標獎勵B",
 		is_show = 0,
@@ -23024,8 +23041,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			35071
 		}
-	},
-	[3508] = {
+	}
+	pg.base.child2_benefit_list[3508] = {
 		benefit_level = 0,
 		name = "5回合目標獎勵A",
 		is_show = 0,
@@ -23053,8 +23070,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			35081
 		}
-	},
-	[3509] = {
+	}
+	pg.base.child2_benefit_list[3509] = {
 		benefit_level = 0,
 		name = "10回合目標獎勵D",
 		is_show = 0,
@@ -23082,8 +23099,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			35091
 		}
-	},
-	[3510] = {
+	}
+	pg.base.child2_benefit_list[3510] = {
 		benefit_level = 0,
 		name = "10回合目標獎勵C",
 		is_show = 0,
@@ -23111,8 +23128,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			35101
 		}
-	},
-	[3511] = {
+	}
+	pg.base.child2_benefit_list[3511] = {
 		benefit_level = 0,
 		name = "10回合目標獎勵B",
 		is_show = 0,
@@ -23140,8 +23157,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			35111
 		}
-	},
-	[3512] = {
+	}
+	pg.base.child2_benefit_list[3512] = {
 		benefit_level = 0,
 		name = "10回合目標獎勵A",
 		is_show = 0,
@@ -23169,8 +23186,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			35121
 		}
-	},
-	[3513] = {
+	}
+	pg.base.child2_benefit_list[3513] = {
 		benefit_level = 0,
 		name = "15回合目標獎勵D",
 		is_show = 0,
@@ -23198,8 +23215,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			35131
 		}
-	},
-	[3514] = {
+	}
+	pg.base.child2_benefit_list[3514] = {
 		benefit_level = 0,
 		name = "15回合目標獎勵C",
 		is_show = 0,
@@ -23227,8 +23244,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			35141
 		}
-	},
-	[3515] = {
+	}
+	pg.base.child2_benefit_list[3515] = {
 		benefit_level = 0,
 		name = "15回合目標獎勵B",
 		is_show = 0,
@@ -23256,8 +23273,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			35151
 		}
-	},
-	[3516] = {
+	}
+	pg.base.child2_benefit_list[3516] = {
 		benefit_level = 0,
 		name = "15回合目標獎勵A",
 		is_show = 0,
@@ -23285,8 +23302,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			35161
 		}
-	},
-	[3521] = {
+	}
+	pg.base.child2_benefit_list[3521] = {
 		benefit_level = 0,
 		name = "結局錨點benefit",
 		is_show = 0,
@@ -23310,8 +23327,8 @@ pg.base.child2_benefit_list = {
 		upgrade_desc = "",
 		content = {},
 		show_content = {}
-	},
-	[3601] = {
+	}
+	pg.base.child2_benefit_list[3601] = {
 		benefit_level = 0,
 		name = "好感度掉落1",
 		is_show = 0,
@@ -23339,8 +23356,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			36011
 		}
-	},
-	[3602] = {
+	}
+	pg.base.child2_benefit_list[3602] = {
 		benefit_level = 0,
 		name = "好感度掉落2",
 		is_show = 0,
@@ -23368,8 +23385,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			36021
 		}
-	},
-	[3603] = {
+	}
+	pg.base.child2_benefit_list[3603] = {
 		benefit_level = 0,
 		name = "好感度掉落3",
 		is_show = 0,
@@ -23397,8 +23414,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			36031
 		}
-	},
-	[3604] = {
+	}
+	pg.base.child2_benefit_list[3604] = {
 		benefit_level = 0,
 		name = "好感度掉落4",
 		is_show = 0,
@@ -23426,8 +23443,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			36041
 		}
-	},
-	[41] = {
+	}
+	pg.base.child2_benefit_list[41] = {
 		benefit_level = 0,
 		name = "41",
 		is_show = 1,
@@ -23455,8 +23472,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			41
 		}
-	},
-	[42] = {
+	}
+	pg.base.child2_benefit_list[42] = {
 		benefit_level = 0,
 		name = "42",
 		is_show = 1,
@@ -23484,8 +23501,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			42
 		}
-	},
-	[43] = {
+	}
+	pg.base.child2_benefit_list[43] = {
 		benefit_level = 0,
 		name = "43",
 		is_show = 1,
@@ -23513,8 +23530,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			43
 		}
-	},
-	[44] = {
+	}
+	pg.base.child2_benefit_list[44] = {
 		benefit_level = 0,
 		name = "44",
 		is_show = 1,
@@ -23542,8 +23559,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			44
 		}
-	},
-	[45] = {
+	}
+	pg.base.child2_benefit_list[45] = {
 		benefit_level = 0,
 		name = "45",
 		is_show = 1,
@@ -23571,8 +23588,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			45
 		}
-	},
-	[46] = {
+	}
+	pg.base.child2_benefit_list[46] = {
 		benefit_level = 0,
 		name = "46",
 		is_show = 1,
@@ -23600,8 +23617,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			46
 		}
-	},
-	[60] = {
+	}
+	pg.base.child2_benefit_list[60] = {
 		benefit_level = 0,
 		name = "間隔+心情",
 		is_show = 1,
@@ -23629,8 +23646,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			62
 		}
-	},
-	[61] = {
+	}
+	pg.base.child2_benefit_list[61] = {
 		benefit_level = 0,
 		name = "間隔+心情隱藏1",
 		is_show = 1,
@@ -23660,8 +23677,8 @@ pg.base.child2_benefit_list = {
 			1001,
 			60
 		}
-	},
-	[62] = {
+	}
+	pg.base.child2_benefit_list[62] = {
 		benefit_level = 0,
 		name = "間隔+心情隱藏2",
 		is_show = 1,
@@ -23689,8 +23706,8 @@ pg.base.child2_benefit_list = {
 		show_content = {
 			61
 		}
-	},
-	[10000] = {
+	}
+	pg.base.child2_benefit_list[10000] = {
 		benefit_level = 0,
 		name = "心情用",
 		is_show = 0,
@@ -23725,4 +23742,4 @@ pg.base.child2_benefit_list = {
 			10004
 		}
 	}
-}
+end)()

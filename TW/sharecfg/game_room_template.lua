@@ -1,6 +1,28 @@
 pg = pg or {}
-pg.game_room_template = {
-	{
+pg.game_room_template = rawget(pg, "game_room_template") or setmetatable({
+	__name = "game_room_template"
+}, confNEO)
+pg.game_room_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	18,
+	19,
+	20
+}
+pg.base = pg.base or {}
+pg.base.game_room_template = {}
+
+(function ()
+	pg.base.game_room_template[1] = {
 		id = 1,
 		type = 11,
 		add_base = 200,
@@ -62,8 +84,8 @@ pg.game_room_template = {
 			0,
 			20
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[2] = {
 		id = 2,
 		type = 11,
 		add_base = 200,
@@ -145,8 +167,8 @@ pg.game_room_template = {
 			157,
 			-153
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[3] = {
 		id = 3,
 		type = 11,
 		add_base = 200,
@@ -210,8 +232,8 @@ pg.game_room_template = {
 			0,
 			0
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[4] = {
 		id = 4,
 		type = 11,
 		add_base = 200,
@@ -279,8 +301,8 @@ pg.game_room_template = {
 			320,
 			-310
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[5] = {
 		id = 5,
 		type = 11,
 		add_base = 200,
@@ -356,8 +378,8 @@ pg.game_room_template = {
 			-411,
 			-441
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[6] = {
 		id = 6,
 		type = 11,
 		add_base = 200,
@@ -423,8 +445,8 @@ pg.game_room_template = {
 			0,
 			-450
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[7] = {
 		id = 7,
 		type = 11,
 		add_base = 200,
@@ -485,8 +507,8 @@ pg.game_room_template = {
 			0,
 			-110
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[8] = {
 		id = 8,
 		type = 11,
 		add_base = 200,
@@ -554,8 +576,8 @@ pg.game_room_template = {
 			0,
 			-200
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[9] = {
 		id = 9,
 		type = 11,
 		add_base = 200,
@@ -617,8 +639,8 @@ pg.game_room_template = {
 			150,
 			-180
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[10] = {
 		id = 10,
 		type = 11,
 		add_base = 200,
@@ -681,8 +703,8 @@ pg.game_room_template = {
 			0,
 			-300
 		}
-	},
-	{
+	}
+	pg.base.game_room_template[11] = {
 		id = 11,
 		type = 11,
 		add_base = 200,
@@ -751,8 +773,8 @@ pg.game_room_template = {
 			0,
 			-280
 		}
-	},
-	[18] = {
+	}
+	pg.base.game_room_template[18] = {
 		id = 18,
 		type = 11,
 		add_base = 200,
@@ -818,8 +840,8 @@ pg.game_room_template = {
 			0,
 			-150
 		}
-	},
-	[19] = {
+	}
+	pg.base.game_room_template[19] = {
 		id = 19,
 		type = 11,
 		add_base = 200,
@@ -882,8 +904,8 @@ pg.game_room_template = {
 			0,
 			-200
 		}
-	},
-	[20] = {
+	}
+	pg.base.game_room_template[20] = {
 		id = 20,
 		type = 11,
 		add_base = 200,
@@ -953,21 +975,5 @@ pg.game_room_template = {
 			0,
 			-200
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		18,
-		19,
-		20
 	}
-}
+end)()

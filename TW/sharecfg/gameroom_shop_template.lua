@@ -1,6 +1,44 @@
 pg = pg or {}
-pg.gameroom_shop_template = {
-	{
+pg.gameroom_shop_template = rawget(pg, "gameroom_shop_template") or setmetatable({
+	__name = "gameroom_shop_template"
+}, confNEO)
+pg.gameroom_shop_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30
+}
+pg.base = pg.base or {}
+pg.base.gameroom_shop_template = {}
+
+(function ()
+	pg.base.gameroom_shop_template[1] = {
 		goods_icon = "",
 		goods_purchase_limit = 1,
 		type = 6,
@@ -42,8 +80,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[2] = {
 		goods_icon = "",
 		goods_purchase_limit = 1,
 		type = 6,
@@ -85,8 +123,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[3] = {
 		goods_icon = "",
 		goods_purchase_limit = 10,
 		type = 2,
@@ -128,8 +166,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[4] = {
 		goods_icon = "",
 		goods_purchase_limit = 10,
 		type = 2,
@@ -171,8 +209,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[5] = {
 		goods_icon = "",
 		goods_purchase_limit = 10,
 		type = 2,
@@ -214,8 +252,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[6] = {
 		goods_icon = "",
 		goods_purchase_limit = 10,
 		type = 2,
@@ -257,8 +295,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[7] = {
 		goods_icon = "",
 		goods_purchase_limit = 10,
 		type = 2,
@@ -300,8 +338,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[8] = {
 		goods_icon = "",
 		goods_purchase_limit = 10,
 		type = 2,
@@ -343,8 +381,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[9] = {
 		goods_icon = "",
 		goods_purchase_limit = 10,
 		type = 2,
@@ -386,8 +424,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[10] = {
 		goods_icon = "",
 		goods_purchase_limit = 10,
 		type = 2,
@@ -429,8 +467,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[11] = {
 		goods_icon = "",
 		goods_purchase_limit = 10,
 		type = 2,
@@ -472,8 +510,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[12] = {
 		goods_icon = "",
 		goods_purchase_limit = 10,
 		type = 2,
@@ -515,8 +553,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[13] = {
 		goods_icon = "",
 		goods_purchase_limit = 1,
 		type = 6,
@@ -558,8 +596,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[14] = {
 		goods_icon = "",
 		goods_purchase_limit = 1,
 		type = 6,
@@ -601,8 +639,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[15] = {
 		goods_icon = "",
 		goods_purchase_limit = 10,
 		type = 2,
@@ -644,8 +682,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[16] = {
 		goods_icon = "",
 		goods_purchase_limit = 10,
 		type = 2,
@@ -687,8 +725,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[17] = {
 		goods_icon = "",
 		goods_purchase_limit = 10,
 		type = 2,
@@ -730,8 +768,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[18] = {
 		goods_icon = "",
 		goods_purchase_limit = 10,
 		type = 2,
@@ -773,8 +811,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[19] = {
 		goods_icon = "",
 		goods_purchase_limit = 10,
 		type = 2,
@@ -816,8 +854,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[20] = {
 		goods_icon = "",
 		goods_purchase_limit = 10,
 		type = 2,
@@ -859,8 +897,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[21] = {
 		goods_icon = "",
 		goods_purchase_limit = 10,
 		type = 2,
@@ -902,8 +940,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[22] = {
 		goods_icon = "",
 		goods_purchase_limit = 10,
 		type = 2,
@@ -945,8 +983,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[23] = {
 		goods_icon = "",
 		goods_purchase_limit = 10,
 		type = 2,
@@ -988,8 +1026,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[24] = {
 		goods_icon = "",
 		goods_purchase_limit = 10,
 		type = 2,
@@ -1031,8 +1069,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[25] = {
 		goods_icon = "",
 		goods_purchase_limit = 1,
 		type = 6,
@@ -1074,8 +1112,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[26] = {
 		goods_icon = "",
 		goods_purchase_limit = 10,
 		type = 2,
@@ -1117,8 +1155,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[27] = {
 		goods_icon = "",
 		goods_purchase_limit = 10,
 		type = 2,
@@ -1160,8 +1198,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[28] = {
 		goods_icon = "",
 		goods_purchase_limit = 10,
 		type = 2,
@@ -1203,8 +1241,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[29] = {
 		goods_icon = "",
 		goods_purchase_limit = 10,
 		type = 2,
@@ -1246,8 +1284,8 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.gameroom_shop_template[30] = {
 		goods_icon = "",
 		goods_purchase_limit = 10,
 		type = 2,
@@ -1289,37 +1327,5 @@ pg.gameroom_shop_template = {
 				}
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30
 	}
-}
+end)()

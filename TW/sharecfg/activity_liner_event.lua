@@ -1,6 +1,26 @@
 pg = pg or {}
-pg.activity_liner_event = {
-	{
+pg.activity_liner_event = rawget(pg, "activity_liner_event") or setmetatable({
+	__name = "activity_liner_event"
+}, confNEO)
+pg.activity_liner_event.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12
+}
+pg.base = pg.base or {}
+pg.base.activity_liner_event = {}
+
+(function ()
+	pg.base.activity_liner_event[1] = {
 		option_desc = [[
 收到{namecode:427}的聯絡後來到了女僕咖啡廳。
 據悉，{namecode:446}在本日閉店前，於這張餐桌的餐盤下發現了這張奇怪的字條。
@@ -31,8 +51,8 @@ pg.activity_liner_event = {
 				"除此之外，這裡已經沒有更多線索了，去別處調查吧。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_event[2] = {
 		option_desc = "露天公園中，布里斯托爾似乎在調查著什麼。\n在提燈的光束下仔細觀察，確實在地上發現了明顯的碾壓痕跡。\n布里斯托爾表示，土地的濕度似乎也不太正常，她還需要在這裡深入調查一下。",
 		option_desc_2 = "露天公園中，灌木叢出現了一個三十公分左右被重物碾壓後形成的痕跡。",
 		option = "前去搭話",
@@ -61,8 +81,8 @@ pg.activity_liner_event = {
 				"除此之外，此處暫時沒有更多線索了，去別處調查吧。 "
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_event[3] = {
 		option_desc = [[
 在經過運動場時，聽到了重物拖過地板的聲音。
 正準備離開運動場時，拖曳聲再次出現了。經過辨認，這次聲音是從運動場的室內部分傳出的。
@@ -102,8 +122,8 @@ pg.activity_liner_event = {
 				"今天的時間也差不多了，該去休息了。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_event[4] = {
 		option_desc = [[
 收到龍武的聯絡後來到了中央廚房。
 根據龍武所說，她和其他東煌同伴原本正在為幾個小時後的早餐準備包子，可是盛放包子餡的容器卻不見了。
@@ -136,8 +156,8 @@ pg.activity_liner_event = {
 				"又經過一番調查，於此處沒有發現更多線索。接下來去別處調查吧。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_event[5] = {
 		option_desc = [[
 收到紐卡斯爾的聯絡來到了宴會廳的儲藏室。
 紐卡斯爾表示，皇家女僕隊為明日早茶所預製好的點心在此處遭到了洗劫。
@@ -169,8 +189,8 @@ pg.activity_liner_event = {
 				"又經過一番調查，於此處沒有發現更多線索。接下來去別處調查吧。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_event[6] = {
 		option_desc = [[
 兩起事件都與食物有關，而說到食物保存量最大的地方，無疑就是倉庫了。
 檢查倉庫大門後發現，倉庫的大門緊閉，門上的鎖孔完好，沒有發現任何被人試圖以非正常手段開啟的痕跡。
@@ -200,8 +220,8 @@ pg.activity_liner_event = {
 				"布里斯托爾發來了聯絡，接下來前去神秘角落與調查小隊成員匯合吧。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_event[7] = {
 		option_desc = [[
 根據撫順收集到的情報來到了居住船艙（A區）的某條走廊中。
 據情報所稱，這裡在接近午夜之時總會出現一組規律的腳步聲，可是卻沒人見過過腳步聲的主人。
@@ -239,8 +259,8 @@ pg.activity_liner_event = {
 				"……難道，真的是幽靈？"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_event[8] = {
 		option_desc = [[
 接到記者兼調查員阿爾弗雷多的聯絡，來到了居住船艙（B區）。
 阿爾弗雷多興奮地向我展示了一張照片。照片的背景一片漆黑，唯有在角落處出現了一個慘白的身影。
@@ -271,8 +291,8 @@ pg.activity_liner_event = {
 				"此處已經沒有更多線索了，去別處調查吧。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_event[9] = {
 		option_desc = [[
 路過居住船艙（C區）的走廊時，看見了一個鬼鬼祟祟的身影。——是偵探艾塞克斯。
 根據艾塞克斯所述，她正在調查一個「無法逃離的走廊」的傳聞。據說，只要有兩個人在深夜來到這條走廊內，就再也別想離開了。
@@ -311,8 +331,8 @@ pg.activity_liner_event = {
 				"一段時間後，我與艾塞克斯都成功走出了走廊，看來也沒有傳聞中那麽誇張嘛。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_event[10] = {
 		option_desc = [[
 經過電影院時，聽到了一聲淒慘的尖叫，緊接著是一連串細小的爆炸聲。
 進入後，在電影院中發現了縮成一團瑟瑟發抖的伊莉莎白、在一旁服侍的貝爾法斯特和維持警戒狀態的謝菲爾德。
@@ -350,8 +370,8 @@ pg.activity_liner_event = {
 				"除此之外，沒有在此地發現更多線索，繼續分頭調查吧。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_event[11] = {
 		option_desc = [[
 收到佩薩格諾的聯絡，大浴場中舉行的薩丁派對出現了一場極其嚴重的危機事件。
 推門進入後，身裹浴巾、一臉憤怒的的里雅斯德介紹了事情的經過。
@@ -383,8 +403,8 @@ pg.activity_liner_event = {
 				"在事態進一步升級之前，以繼續調查為名拉著偵探艾塞克斯一起離開了大浴場。"
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_liner_event[12] = {
 		option_desc = [[
 路過大商場時，艾塞克斯突然提出要去商場裡購買紀念品。
 進入商場後，艾塞克斯立刻選好了自己的目標——一個大章魚玩偶。
@@ -415,19 +435,5 @@ pg.activity_liner_event = {
 				"最後，與艾塞克斯一同滿載而歸了。"
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12
 	}
-}
+end)()

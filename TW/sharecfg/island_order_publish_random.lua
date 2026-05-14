@@ -1,1805 +1,1815 @@
 pg = pg or {}
-pg.island_order_publish_random = {
-	{
+pg.island_order_publish_random = rawget(pg, "island_order_publish_random") or setmetatable({
+	__name = "island_order_publish_random"
+}, confNEO)
+pg.island_order_publish_random.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11002,
+	11003,
+	11004,
+	11005,
+	11006,
+	11007,
+	11008,
+	11009,
+	11010,
+	11011,
+	11012,
+	11013,
+	11014,
+	11016,
+	21002,
+	21003,
+	21004,
+	21005,
+	21006,
+	21007,
+	21008,
+	21009,
+	21010,
+	21011,
+	21012,
+	21013,
+	21014,
+	21016,
+	31002,
+	31003,
+	31004,
+	31005,
+	31006,
+	31007,
+	31008,
+	31009,
+	31010,
+	31011,
+	31012,
+	31013,
+	31014,
+	31016,
+	41002,
+	41003,
+	41004,
+	41005,
+	41006,
+	41007,
+	41008,
+	41009,
+	41010,
+	41011,
+	41012,
+	41013,
+	41014,
+	41016,
+	51002,
+	51003,
+	51004,
+	51005,
+	51006,
+	51007,
+	51008,
+	51009,
+	51010,
+	51011,
+	51012,
+	51013,
+	51014,
+	51016,
+	61002,
+	61003,
+	61004,
+	61005,
+	61006,
+	61007,
+	61008,
+	61009,
+	61010,
+	61011,
+	61012,
+	61013,
+	61014,
+	61016,
+	71002,
+	71003,
+	71004,
+	71005,
+	71006,
+	71007,
+	71008,
+	71009,
+	71010,
+	71011,
+	71012,
+	71013,
+	71014,
+	71016,
+	81002,
+	81003,
+	81004,
+	81005,
+	81006,
+	81007,
+	81008,
+	81009,
+	81010,
+	81011,
+	81012,
+	81013,
+	81014,
+	81016,
+	91002,
+	91003,
+	91004,
+	91005,
+	91006,
+	91007,
+	91008,
+	91009,
+	91010,
+	91011,
+	91012,
+	91013,
+	91014,
+	91016,
+	101002,
+	101003,
+	101004,
+	101005,
+	101006,
+	101007,
+	101008,
+	101009,
+	101010,
+	101011,
+	101012,
+	101013,
+	101014,
+	101016,
+	111001,
+	111002,
+	111003,
+	111004,
+	111005,
+	111006,
+	111007,
+	111008,
+	111009,
+	111010,
+	111011,
+	111012,
+	111013,
+	111014,
+	111016,
+	121001,
+	121002,
+	121003,
+	121004,
+	121005,
+	121006,
+	121007,
+	121008,
+	121009,
+	121010,
+	121011,
+	121012,
+	121013,
+	121014,
+	121016,
+	131001,
+	131002,
+	131003,
+	131004,
+	131005,
+	131006,
+	131007,
+	131008,
+	131009,
+	131010,
+	131011,
+	131012,
+	131013,
+	131014,
+	131016,
+	141001,
+	141002,
+	141003,
+	141004,
+	141005,
+	141006,
+	141007,
+	141008,
+	141009,
+	141010,
+	141011,
+	141012,
+	141013,
+	141014,
+	141016,
+	151001,
+	151002,
+	151003,
+	151004,
+	151005,
+	151006,
+	151007,
+	151008,
+	151009,
+	151010,
+	151011,
+	151012,
+	151013,
+	151014,
+	151016,
+	161001,
+	161002,
+	161003,
+	161004,
+	161005,
+	161006,
+	161007,
+	161008,
+	161009,
+	161010,
+	161011,
+	161012,
+	161013,
+	161014,
+	161016,
+	171001,
+	171002,
+	171003,
+	171004,
+	171005,
+	171006,
+	171007,
+	171008,
+	171009,
+	171010,
+	171011,
+	171012,
+	171013,
+	171014,
+	171016,
+	181001,
+	181002,
+	181003,
+	181004,
+	181005,
+	181006,
+	181007,
+	181008,
+	181009,
+	181010,
+	181011,
+	181012,
+	181013,
+	181014,
+	181016,
+	191001,
+	191002,
+	191003,
+	191004,
+	191005,
+	191006,
+	191007,
+	191008,
+	191009,
+	191010,
+	191011,
+	191012,
+	191013,
+	191014,
+	191016,
+	201001,
+	201002,
+	201003,
+	201004,
+	201005,
+	201006,
+	201007,
+	201008,
+	201009,
+	201010,
+	201011,
+	201012,
+	201013,
+	201014,
+	201016
+}
+pg.base = pg.base or {}
+pg.base.island_order_publish_random = {}
+
+(function ()
+	pg.base.island_order_publish_random[1] = {
 		id = 1,
 		npc_id = 100100,
 		desc = "指挥官，您是我唯一的依靠，能为我准备这些吗？"
-	},
-	{
+	}
+	pg.base.island_order_publish_random[2] = {
 		id = 2,
 		npc_id = 100100,
 		desc = "指挥官，您是我唯一的依靠，能为我准备这些吗？"
-	},
-	{
+	}
+	pg.base.island_order_publish_random[3] = {
 		id = 3,
 		npc_id = 100100,
 		desc = "能帮帮我吗？指挥官，这是我最后的请求了。"
-	},
-	{
+	}
+	pg.base.island_order_publish_random[4] = {
 		id = 4,
 		npc_id = 100100,
 		desc = "能帮帮我吗？指挥官，这是我最后的请求了。"
-	},
-	{
+	}
+	pg.base.island_order_publish_random[5] = {
 		id = 5,
 		npc_id = 100100,
 		desc = "就是这些东西，一点点就好！可以吗？"
-	},
-	{
+	}
+	pg.base.island_order_publish_random[6] = {
 		id = 6,
 		npc_id = 100100,
 		desc = "就知道指挥官最好了！一定不会忍心看我为难的对吧？请帮帮我！"
-	},
-	{
+	}
+	pg.base.island_order_publish_random[7] = {
 		id = 7,
 		npc_id = 100100,
 		desc = "就知道指挥官最好了！一定不会忍心看我为难的对吧？请帮帮我！"
-	},
-	{
+	}
+	pg.base.island_order_publish_random[8] = {
 		id = 8,
 		npc_id = 100100,
 		desc = "脑袋空空……完全想不到别的办法了！指挥官，只能靠您了~"
-	},
-	{
+	}
+	pg.base.island_order_publish_random[9] = {
 		id = 9,
 		npc_id = 100100,
 		desc = "脑袋空空……完全想不到别的办法了！指挥官，只能靠您了~"
-	},
-	{
+	}
+	pg.base.island_order_publish_random[10] = {
 		id = 10,
 		npc_id = 100100,
 		desc = "请、请替我准备这些，我会好好报答你的！"
-	},
-	[11002] = {
+	}
+	pg.base.island_order_publish_random[11002] = {
 		id = 11002,
 		npc_id = 100200,
 		desc = "呜哇~又、又用光了……指挥官大人，请再支援我一点点！就一点点好不好？"
-	},
-	[11003] = {
+	}
+	pg.base.island_order_publish_random[11003] = {
 		id = 11003,
 		npc_id = 100300,
 		desc = "呜哇~又、又用光了……指挥官大人，请再支援我一点点！就一点点好不好？"
-	},
-	[11004] = {
+	}
+	pg.base.island_order_publish_random[11004] = {
 		id = 11004,
 		npc_id = 100400,
 		desc = "指挥官，您是我唯一的依靠，能为我准备这些吗？"
-	},
-	[11005] = {
+	}
+	pg.base.island_order_publish_random[11005] = {
 		id = 11005,
 		npc_id = 100500,
 		desc = "呜哇~又、又用光了……指挥官大人，请再支援我一点点！就一点点好不好？"
-	},
-	[11006] = {
+	}
+	pg.base.island_order_publish_random[11006] = {
 		id = 11006,
 		npc_id = 100600,
 		desc = "呜哇~又、又用光了……指挥官大人，请再支援我一点点！就一点点好不好？"
-	},
-	[11007] = {
+	}
+	pg.base.island_order_publish_random[11007] = {
 		id = 11007,
 		npc_id = 100700,
 		desc = "指挥官，您是我唯一的依靠，能为我准备这些吗？"
-	},
-	[11008] = {
+	}
+	pg.base.island_order_publish_random[11008] = {
 		id = 11008,
 		npc_id = 100800,
 		desc = "指挥官，您是我唯一的依靠，能为我准备这些吗？"
-	},
-	[11009] = {
+	}
+	pg.base.island_order_publish_random[11009] = {
 		id = 11009,
 		npc_id = 100900,
 		desc = "呜哇~又、又用光了……指挥官大人，请再支援我一点点！就一点点好不好？"
-	},
-	[11010] = {
+	}
+	pg.base.island_order_publish_random[11010] = {
 		id = 11010,
 		npc_id = 101000,
 		desc = "指挥官，您是我唯一的依靠，能为我准备这些吗？"
-	},
-	[11011] = {
+	}
+	pg.base.island_order_publish_random[11011] = {
 		id = 11011,
 		npc_id = 101100,
 		desc = "呜哇~又、又用光了……指挥官大人，请再支援我一点点！就一点点好不好？"
-	},
-	[11012] = {
+	}
+	pg.base.island_order_publish_random[11012] = {
 		id = 11012,
 		npc_id = 101200,
 		desc = "指挥官，您是我唯一的依靠，能为我准备这些吗？"
-	},
-	[11013] = {
+	}
+	pg.base.island_order_publish_random[11013] = {
 		id = 11013,
 		npc_id = 101300,
 		desc = "呜哇~又、又用光了……指挥官大人，请再支援我一点点！就一点点好不好？"
-	},
-	[11014] = {
+	}
+	pg.base.island_order_publish_random[11014] = {
 		id = 11014,
 		npc_id = 101400,
 		desc = "指挥官，您是我唯一的依靠，能为我准备这些吗？"
-	},
-	[11016] = {
+	}
+	pg.base.island_order_publish_random[11016] = {
 		id = 11016,
 		npc_id = 101600,
 		desc = "指挥官，您是我唯一的依靠，能为我准备这些吗？"
-	},
-	[21002] = {
+	}
+	pg.base.island_order_publish_random[21002] = {
 		id = 21002,
 		npc_id = 100200,
 		desc = "呜哇~又、又用光了……指挥官大人，请再支援我一点点！就一点点好不好？"
-	},
-	[21003] = {
+	}
+	pg.base.island_order_publish_random[21003] = {
 		id = 21003,
 		npc_id = 100300,
 		desc = "呜哇~又、又用光了……指挥官大人，请再支援我一点点！就一点点好不好？"
-	},
-	[21004] = {
+	}
+	pg.base.island_order_publish_random[21004] = {
 		id = 21004,
 		npc_id = 100400,
 		desc = "指挥官，您是我唯一的依靠，能为我准备这些吗？"
-	},
-	[21005] = {
+	}
+	pg.base.island_order_publish_random[21005] = {
 		id = 21005,
 		npc_id = 100500,
 		desc = "呜哇~又、又用光了……指挥官大人，请再支援我一点点！就一点点好不好？"
-	},
-	[21006] = {
+	}
+	pg.base.island_order_publish_random[21006] = {
 		id = 21006,
 		npc_id = 100600,
 		desc = "呜哇~又、又用光了……指挥官大人，请再支援我一点点！就一点点好不好？"
-	},
-	[21007] = {
+	}
+	pg.base.island_order_publish_random[21007] = {
 		id = 21007,
 		npc_id = 100700,
 		desc = "指挥官，您是我唯一的依靠，能为我准备这些吗？"
-	},
-	[21008] = {
+	}
+	pg.base.island_order_publish_random[21008] = {
 		id = 21008,
 		npc_id = 100800,
 		desc = "指挥官，您是我唯一的依靠，能为我准备这些吗？"
-	},
-	[21009] = {
+	}
+	pg.base.island_order_publish_random[21009] = {
 		id = 21009,
 		npc_id = 100900,
 		desc = "呜哇~又、又用光了……指挥官大人，请再支援我一点点！就一点点好不好？"
-	},
-	[21010] = {
+	}
+	pg.base.island_order_publish_random[21010] = {
 		id = 21010,
 		npc_id = 101000,
 		desc = "指挥官，您是我唯一的依靠，能为我准备这些吗？"
-	},
-	[21011] = {
+	}
+	pg.base.island_order_publish_random[21011] = {
 		id = 21011,
 		npc_id = 101100,
 		desc = "呜哇~又、又用光了……指挥官大人，请再支援我一点点！就一点点好不好？"
-	},
-	[21012] = {
+	}
+	pg.base.island_order_publish_random[21012] = {
 		id = 21012,
 		npc_id = 101200,
 		desc = "指挥官，您是我唯一的依靠，能为我准备这些吗？"
-	},
-	[21013] = {
+	}
+	pg.base.island_order_publish_random[21013] = {
 		id = 21013,
 		npc_id = 101300,
 		desc = "呜哇~又、又用光了……指挥官大人，请再支援我一点点！就一点点好不好？"
-	},
-	[21014] = {
+	}
+	pg.base.island_order_publish_random[21014] = {
 		id = 21014,
 		npc_id = 101400,
 		desc = "指挥官，您是我唯一的依靠，能为我准备这些吗？"
-	},
-	[21016] = {
+	}
+	pg.base.island_order_publish_random[21016] = {
 		id = 21016,
 		npc_id = 101600,
 		desc = "指挥官，您是我唯一的依靠，能为我准备这些吗？"
-	},
-	[31002] = {
+	}
+	pg.base.island_order_publish_random[31002] = {
 		id = 31002,
 		npc_id = 100200,
 		desc = "求求您了，这些东西对我来说意义重大。"
-	},
-	[31003] = {
+	}
+	pg.base.island_order_publish_random[31003] = {
 		id = 31003,
 		npc_id = 100300,
 		desc = "求求您了，这些东西对我来说意义重大。"
-	},
-	[31004] = {
+	}
+	pg.base.island_order_publish_random[31004] = {
 		id = 31004,
 		npc_id = 100400,
 		desc = "能帮帮我吗？指挥官，这是我最后的请求了。"
-	},
-	[31005] = {
+	}
+	pg.base.island_order_publish_random[31005] = {
 		id = 31005,
 		npc_id = 100500,
 		desc = "求求您了，这些东西对我来说意义重大。"
-	},
-	[31006] = {
+	}
+	pg.base.island_order_publish_random[31006] = {
 		id = 31006,
 		npc_id = 100600,
 		desc = "求求您了，这些东西对我来说意义重大。"
-	},
-	[31007] = {
+	}
+	pg.base.island_order_publish_random[31007] = {
 		id = 31007,
 		npc_id = 100700,
 		desc = "能帮帮我吗？指挥官，这是我最后的请求了。"
-	},
-	[31008] = {
+	}
+	pg.base.island_order_publish_random[31008] = {
 		id = 31008,
 		npc_id = 100800,
 		desc = "能帮帮我吗？指挥官，这是我最后的请求了。"
-	},
-	[31009] = {
+	}
+	pg.base.island_order_publish_random[31009] = {
 		id = 31009,
 		npc_id = 100900,
 		desc = "求求您了，这些东西对我来说意义重大。"
-	},
-	[31010] = {
+	}
+	pg.base.island_order_publish_random[31010] = {
 		id = 31010,
 		npc_id = 101000,
 		desc = "能帮帮我吗？指挥官，这是我最后的请求了。"
-	},
-	[31011] = {
+	}
+	pg.base.island_order_publish_random[31011] = {
 		id = 31011,
 		npc_id = 101100,
 		desc = "求求您了，这些东西对我来说意义重大。"
-	},
-	[31012] = {
+	}
+	pg.base.island_order_publish_random[31012] = {
 		id = 31012,
 		npc_id = 101200,
 		desc = "能帮帮我吗？指挥官，这是我最后的请求了。"
-	},
-	[31013] = {
+	}
+	pg.base.island_order_publish_random[31013] = {
 		id = 31013,
 		npc_id = 101300,
 		desc = "求求您了，这些东西对我来说意义重大。"
-	},
-	[31014] = {
+	}
+	pg.base.island_order_publish_random[31014] = {
 		id = 31014,
 		npc_id = 101400,
 		desc = "能帮帮我吗？指挥官，这是我最后的请求了。"
-	},
-	[31016] = {
+	}
+	pg.base.island_order_publish_random[31016] = {
 		id = 31016,
 		npc_id = 101600,
 		desc = "能帮帮我吗？指挥官，这是我最后的请求了。"
-	},
-	[41002] = {
+	}
+	pg.base.island_order_publish_random[41002] = {
 		id = 41002,
 		npc_id = 100200,
 		desc = "求求您了，这些东西对我来说意义重大。"
-	},
-	[41003] = {
+	}
+	pg.base.island_order_publish_random[41003] = {
 		id = 41003,
 		npc_id = 100300,
 		desc = "求求您了，这些东西对我来说意义重大。"
-	},
-	[41004] = {
+	}
+	pg.base.island_order_publish_random[41004] = {
 		id = 41004,
 		npc_id = 100400,
 		desc = "能帮帮我吗？指挥官，这是我最后的请求了。"
-	},
-	[41005] = {
+	}
+	pg.base.island_order_publish_random[41005] = {
 		id = 41005,
 		npc_id = 100500,
 		desc = "求求您了，这些东西对我来说意义重大。"
-	},
-	[41006] = {
+	}
+	pg.base.island_order_publish_random[41006] = {
 		id = 41006,
 		npc_id = 100600,
 		desc = "求求您了，这些东西对我来说意义重大。"
-	},
-	[41007] = {
+	}
+	pg.base.island_order_publish_random[41007] = {
 		id = 41007,
 		npc_id = 100700,
 		desc = "能帮帮我吗？指挥官，这是我最后的请求了。"
-	},
-	[41008] = {
+	}
+	pg.base.island_order_publish_random[41008] = {
 		id = 41008,
 		npc_id = 100800,
 		desc = "能帮帮我吗？指挥官，这是我最后的请求了。"
-	},
-	[41009] = {
+	}
+	pg.base.island_order_publish_random[41009] = {
 		id = 41009,
 		npc_id = 100900,
 		desc = "求求您了，这些东西对我来说意义重大。"
-	},
-	[41010] = {
+	}
+	pg.base.island_order_publish_random[41010] = {
 		id = 41010,
 		npc_id = 101000,
 		desc = "能帮帮我吗？指挥官，这是我最后的请求了。"
-	},
-	[41011] = {
+	}
+	pg.base.island_order_publish_random[41011] = {
 		id = 41011,
 		npc_id = 101100,
 		desc = "求求您了，这些东西对我来说意义重大。"
-	},
-	[41012] = {
+	}
+	pg.base.island_order_publish_random[41012] = {
 		id = 41012,
 		npc_id = 101200,
 		desc = "能帮帮我吗？指挥官，这是我最后的请求了。"
-	},
-	[41013] = {
+	}
+	pg.base.island_order_publish_random[41013] = {
 		id = 41013,
 		npc_id = 101300,
 		desc = "求求您了，这些东西对我来说意义重大。"
-	},
-	[41014] = {
+	}
+	pg.base.island_order_publish_random[41014] = {
 		id = 41014,
 		npc_id = 101400,
 		desc = "能帮帮我吗？指挥官，这是我最后的请求了。"
-	},
-	[41016] = {
+	}
+	pg.base.island_order_publish_random[41016] = {
 		id = 41016,
 		npc_id = 101600,
 		desc = "能帮帮我吗？指挥官，这是我最后的请求了。"
-	},
-	[51002] = {
+	}
+	pg.base.island_order_publish_random[51002] = {
 		id = 51002,
 		npc_id = 100200,
 		desc = "拜托了指挥官！没有这些材料的话，我真的寸步难行啊...求求您了！"
-	},
-	[51003] = {
+	}
+	pg.base.island_order_publish_random[51003] = {
 		id = 51003,
 		npc_id = 100300,
 		desc = "拜托了指挥官！没有这些材料的话，我真的寸步难行啊...求求您了！"
-	},
-	[51004] = {
+	}
+	pg.base.island_order_publish_random[51004] = {
 		id = 51004,
 		npc_id = 100400,
 		desc = "就是这些东西，一点点就好！可以吗？"
-	},
-	[51005] = {
+	}
+	pg.base.island_order_publish_random[51005] = {
 		id = 51005,
 		npc_id = 100500,
 		desc = "拜托了指挥官！没有这些材料的话，我真的寸步难行啊...求求您了！"
-	},
-	[51006] = {
+	}
+	pg.base.island_order_publish_random[51006] = {
 		id = 51006,
 		npc_id = 100600,
 		desc = "拜托了指挥官！没有这些材料的话，我真的寸步难行啊...求求您了！"
-	},
-	[51007] = {
+	}
+	pg.base.island_order_publish_random[51007] = {
 		id = 51007,
 		npc_id = 100700,
 		desc = "就是这些东西，一点点就好！可以吗？"
-	},
-	[51008] = {
+	}
+	pg.base.island_order_publish_random[51008] = {
 		id = 51008,
 		npc_id = 100800,
 		desc = "就是这些东西，一点点就好！可以吗？"
-	},
-	[51009] = {
+	}
+	pg.base.island_order_publish_random[51009] = {
 		id = 51009,
 		npc_id = 100900,
 		desc = "拜托了指挥官！没有这些材料的话，我真的寸步难行啊...求求您了！"
-	},
-	[51010] = {
+	}
+	pg.base.island_order_publish_random[51010] = {
 		id = 51010,
 		npc_id = 101000,
 		desc = "就是这些东西，一点点就好！可以吗？"
-	},
-	[51011] = {
+	}
+	pg.base.island_order_publish_random[51011] = {
 		id = 51011,
 		npc_id = 101100,
 		desc = "拜托了指挥官！没有这些材料的话，我真的寸步难行啊...求求您了！"
-	},
-	[51012] = {
+	}
+	pg.base.island_order_publish_random[51012] = {
 		id = 51012,
 		npc_id = 101200,
 		desc = "就是这些东西，一点点就好！可以吗？"
-	},
-	[51013] = {
+	}
+	pg.base.island_order_publish_random[51013] = {
 		id = 51013,
 		npc_id = 101300,
 		desc = "拜托了指挥官！没有这些材料的话，我真的寸步难行啊...求求您了！"
-	},
-	[51014] = {
+	}
+	pg.base.island_order_publish_random[51014] = {
 		id = 51014,
 		npc_id = 101400,
 		desc = "就是这些东西，一点点就好！可以吗？"
-	},
-	[51016] = {
+	}
+	pg.base.island_order_publish_random[51016] = {
 		id = 51016,
 		npc_id = 101600,
 		desc = "就是这些东西，一点点就好！可以吗？"
-	},
-	[61002] = {
+	}
+	pg.base.island_order_publish_random[61002] = {
 		id = 61002,
 		npc_id = 100200,
 		desc = "呜呜...库存又告急了！指挥官大人，请求支援！我、我会加倍努力的！"
-	},
-	[61003] = {
+	}
+	pg.base.island_order_publish_random[61003] = {
 		id = 61003,
 		npc_id = 100300,
 		desc = "呜呜...库存又告急了！指挥官大人，请求支援！我、我会加倍努力的！"
-	},
-	[61004] = {
+	}
+	pg.base.island_order_publish_random[61004] = {
 		id = 61004,
 		npc_id = 100400,
 		desc = "就知道指挥官最好了！一定不会忍心看我为难的对吧？请帮帮我！"
-	},
-	[61005] = {
+	}
+	pg.base.island_order_publish_random[61005] = {
 		id = 61005,
 		npc_id = 100500,
 		desc = "呜呜...库存又告急了！指挥官大人，请求支援！我、我会加倍努力的！"
-	},
-	[61006] = {
+	}
+	pg.base.island_order_publish_random[61006] = {
 		id = 61006,
 		npc_id = 100600,
 		desc = "呜呜...库存又告急了！指挥官大人，请求支援！我、我会加倍努力的！"
-	},
-	[61007] = {
+	}
+	pg.base.island_order_publish_random[61007] = {
 		id = 61007,
 		npc_id = 100700,
 		desc = "就知道指挥官最好了！一定不会忍心看我为难的对吧？请帮帮我！"
-	},
-	[61008] = {
+	}
+	pg.base.island_order_publish_random[61008] = {
 		id = 61008,
 		npc_id = 100800,
 		desc = "就知道指挥官最好了！一定不会忍心看我为难的对吧？请帮帮我！"
-	},
-	[61009] = {
+	}
+	pg.base.island_order_publish_random[61009] = {
 		id = 61009,
 		npc_id = 100900,
 		desc = "呜呜...库存又告急了！指挥官大人，请求支援！我、我会加倍努力的！"
-	},
-	[61010] = {
+	}
+	pg.base.island_order_publish_random[61010] = {
 		id = 61010,
 		npc_id = 101000,
 		desc = "就知道指挥官最好了！一定不会忍心看我为难的对吧？请帮帮我！"
-	},
-	[61011] = {
+	}
+	pg.base.island_order_publish_random[61011] = {
 		id = 61011,
 		npc_id = 101100,
 		desc = "呜呜...库存又告急了！指挥官大人，请求支援！我、我会加倍努力的！"
-	},
-	[61012] = {
+	}
+	pg.base.island_order_publish_random[61012] = {
 		id = 61012,
 		npc_id = 101200,
 		desc = "就知道指挥官最好了！一定不会忍心看我为难的对吧？请帮帮我！"
-	},
-	[61013] = {
+	}
+	pg.base.island_order_publish_random[61013] = {
 		id = 61013,
 		npc_id = 101300,
 		desc = "呜呜...库存又告急了！指挥官大人，请求支援！我、我会加倍努力的！"
-	},
-	[61014] = {
+	}
+	pg.base.island_order_publish_random[61014] = {
 		id = 61014,
 		npc_id = 101400,
 		desc = "就知道指挥官最好了！一定不会忍心看我为难的对吧？请帮帮我！"
-	},
-	[61016] = {
+	}
+	pg.base.island_order_publish_random[61016] = {
 		id = 61016,
 		npc_id = 101600,
 		desc = "就知道指挥官最好了！一定不会忍心看我为难的对吧？请帮帮我！"
-	},
-	[71002] = {
+	}
+	pg.base.island_order_publish_random[71002] = {
 		id = 71002,
 		npc_id = 100200,
 		desc = "呜呜...库存又告急了！指挥官大人，请求支援！我、我会加倍努力的！"
-	},
-	[71003] = {
+	}
+	pg.base.island_order_publish_random[71003] = {
 		id = 71003,
 		npc_id = 100300,
 		desc = "呜呜...库存又告急了！指挥官大人，请求支援！我、我会加倍努力的！"
-	},
-	[71004] = {
+	}
+	pg.base.island_order_publish_random[71004] = {
 		id = 71004,
 		npc_id = 100400,
 		desc = "就知道指挥官最好了！一定不会忍心看我为难的对吧？请帮帮我！"
-	},
-	[71005] = {
+	}
+	pg.base.island_order_publish_random[71005] = {
 		id = 71005,
 		npc_id = 100500,
 		desc = "呜呜...库存又告急了！指挥官大人，请求支援！我、我会加倍努力的！"
-	},
-	[71006] = {
+	}
+	pg.base.island_order_publish_random[71006] = {
 		id = 71006,
 		npc_id = 100600,
 		desc = "呜呜...库存又告急了！指挥官大人，请求支援！我、我会加倍努力的！"
-	},
-	[71007] = {
+	}
+	pg.base.island_order_publish_random[71007] = {
 		id = 71007,
 		npc_id = 100700,
 		desc = "就知道指挥官最好了！一定不会忍心看我为难的对吧？请帮帮我！"
-	},
-	[71008] = {
+	}
+end)()
+(function ()
+	pg.base.island_order_publish_random[71008] = {
 		id = 71008,
 		npc_id = 100800,
 		desc = "就知道指挥官最好了！一定不会忍心看我为难的对吧？请帮帮我！"
-	},
-	[71009] = {
+	}
+	pg.base.island_order_publish_random[71009] = {
 		id = 71009,
 		npc_id = 100900,
 		desc = "呜呜...库存又告急了！指挥官大人，请求支援！我、我会加倍努力的！"
-	},
-	[71010] = {
+	}
+	pg.base.island_order_publish_random[71010] = {
 		id = 71010,
 		npc_id = 101000,
 		desc = "就知道指挥官最好了！一定不会忍心看我为难的对吧？请帮帮我！"
-	},
-	[71011] = {
+	}
+	pg.base.island_order_publish_random[71011] = {
 		id = 71011,
 		npc_id = 101100,
 		desc = "呜呜...库存又告急了！指挥官大人，请求支援！我、我会加倍努力的！"
-	},
-	[71012] = {
+	}
+	pg.base.island_order_publish_random[71012] = {
 		id = 71012,
 		npc_id = 101200,
 		desc = "就知道指挥官最好了！一定不会忍心看我为难的对吧？请帮帮我！"
-	},
-	[71013] = {
+	}
+	pg.base.island_order_publish_random[71013] = {
 		id = 71013,
 		npc_id = 101300,
 		desc = "呜呜...库存又告急了！指挥官大人，请求支援！我、我会加倍努力的！"
-	},
-	[71014] = {
+	}
+	pg.base.island_order_publish_random[71014] = {
 		id = 71014,
 		npc_id = 101400,
 		desc = "就知道指挥官最好了！一定不会忍心看我为难的对吧？请帮帮我！"
-	},
-	[71016] = {
+	}
+	pg.base.island_order_publish_random[71016] = {
 		id = 71016,
 		npc_id = 101600,
 		desc = "就知道指挥官最好了！一定不会忍心看我为难的对吧？请帮帮我！"
-	},
-	[81002] = {
+	}
+	pg.base.island_order_publish_random[81002] = {
 		id = 81002,
 		npc_id = 100200,
 		desc = "救命救命~指挥官就是我最后的救命稻草！我会好好珍惜的！"
-	},
-	[81003] = {
+	}
+	pg.base.island_order_publish_random[81003] = {
 		id = 81003,
 		npc_id = 100300,
 		desc = "救命救命~指挥官就是我最后的救命稻草！我会好好珍惜的！"
-	},
-	[81004] = {
+	}
+	pg.base.island_order_publish_random[81004] = {
 		id = 81004,
 		npc_id = 100400,
 		desc = "脑袋空空……完全想不到别的办法了！指挥官，只能靠您了~"
-	},
-	[81005] = {
+	}
+	pg.base.island_order_publish_random[81005] = {
 		id = 81005,
 		npc_id = 100500,
 		desc = "救命救命~指挥官就是我最后的救命稻草！我会好好珍惜的！"
-	},
-	[81006] = {
+	}
+	pg.base.island_order_publish_random[81006] = {
 		id = 81006,
 		npc_id = 100600,
 		desc = "救命救命~指挥官就是我最后的救命稻草！我会好好珍惜的！"
-	},
-	[81007] = {
+	}
+	pg.base.island_order_publish_random[81007] = {
 		id = 81007,
 		npc_id = 100700,
 		desc = "脑袋空空……完全想不到别的办法了！指挥官，只能靠您了~"
-	},
-	[81008] = {
+	}
+	pg.base.island_order_publish_random[81008] = {
 		id = 81008,
 		npc_id = 100800,
 		desc = "脑袋空空……完全想不到别的办法了！指挥官，只能靠您了~"
-	},
-	[81009] = {
+	}
+	pg.base.island_order_publish_random[81009] = {
 		id = 81009,
 		npc_id = 100900,
 		desc = "救命救命~指挥官就是我最后的救命稻草！我会好好珍惜的！"
-	},
-	[81010] = {
+	}
+	pg.base.island_order_publish_random[81010] = {
 		id = 81010,
 		npc_id = 101000,
 		desc = "脑袋空空……完全想不到别的办法了！指挥官，只能靠您了~"
-	},
-	[81011] = {
+	}
+	pg.base.island_order_publish_random[81011] = {
 		id = 81011,
 		npc_id = 101100,
 		desc = "救命救命~指挥官就是我最后的救命稻草！我会好好珍惜的！"
-	},
-	[81012] = {
+	}
+	pg.base.island_order_publish_random[81012] = {
 		id = 81012,
 		npc_id = 101200,
 		desc = "脑袋空空……完全想不到别的办法了！指挥官，只能靠您了~"
-	},
-	[81013] = {
+	}
+	pg.base.island_order_publish_random[81013] = {
 		id = 81013,
 		npc_id = 101300,
 		desc = "救命救命~指挥官就是我最后的救命稻草！我会好好珍惜的！"
-	},
-	[81014] = {
+	}
+	pg.base.island_order_publish_random[81014] = {
 		id = 81014,
 		npc_id = 101400,
 		desc = "脑袋空空……完全想不到别的办法了！指挥官，只能靠您了~"
-	},
-	[81016] = {
+	}
+	pg.base.island_order_publish_random[81016] = {
 		id = 81016,
 		npc_id = 101600,
 		desc = "脑袋空空……完全想不到别的办法了！指挥官，只能靠您了~"
-	},
-	[91002] = {
+	}
+	pg.base.island_order_publish_random[91002] = {
 		id = 91002,
 		npc_id = 100200,
 		desc = "救命救命~指挥官就是我最后的救命稻草！我会好好珍惜的！"
-	},
-	[91003] = {
+	}
+	pg.base.island_order_publish_random[91003] = {
 		id = 91003,
 		npc_id = 100300,
 		desc = "救命救命~指挥官就是我最后的救命稻草！我会好好珍惜的！"
-	},
-	[91004] = {
+	}
+	pg.base.island_order_publish_random[91004] = {
 		id = 91004,
 		npc_id = 100400,
 		desc = "脑袋空空……完全想不到别的办法了！指挥官，只能靠您了~"
-	},
-	[91005] = {
+	}
+	pg.base.island_order_publish_random[91005] = {
 		id = 91005,
 		npc_id = 100500,
 		desc = "救命救命~指挥官就是我最后的救命稻草！我会好好珍惜的！"
-	},
-	[91006] = {
+	}
+	pg.base.island_order_publish_random[91006] = {
 		id = 91006,
 		npc_id = 100600,
 		desc = "救命救命~指挥官就是我最后的救命稻草！我会好好珍惜的！"
-	},
-	[91007] = {
+	}
+	pg.base.island_order_publish_random[91007] = {
 		id = 91007,
 		npc_id = 100700,
 		desc = "脑袋空空……完全想不到别的办法了！指挥官，只能靠您了~"
-	},
-	[91008] = {
+	}
+	pg.base.island_order_publish_random[91008] = {
 		id = 91008,
 		npc_id = 100800,
 		desc = "脑袋空空……完全想不到别的办法了！指挥官，只能靠您了~"
-	},
-	[91009] = {
+	}
+	pg.base.island_order_publish_random[91009] = {
 		id = 91009,
 		npc_id = 100900,
 		desc = "救命救命~指挥官就是我最后的救命稻草！我会好好珍惜的！"
-	},
-	[91010] = {
+	}
+	pg.base.island_order_publish_random[91010] = {
 		id = 91010,
 		npc_id = 101000,
 		desc = "脑袋空空……完全想不到别的办法了！指挥官，只能靠您了~"
-	},
-	[91011] = {
+	}
+	pg.base.island_order_publish_random[91011] = {
 		id = 91011,
 		npc_id = 101100,
 		desc = "救命救命~指挥官就是我最后的救命稻草！我会好好珍惜的！"
-	},
-	[91012] = {
+	}
+	pg.base.island_order_publish_random[91012] = {
 		id = 91012,
 		npc_id = 101200,
 		desc = "脑袋空空……完全想不到别的办法了！指挥官，只能靠您了~"
-	},
-	[91013] = {
+	}
+	pg.base.island_order_publish_random[91013] = {
 		id = 91013,
 		npc_id = 101300,
 		desc = "救命救命~指挥官就是我最后的救命稻草！我会好好珍惜的！"
-	},
-	[91014] = {
+	}
+	pg.base.island_order_publish_random[91014] = {
 		id = 91014,
 		npc_id = 101400,
 		desc = "脑袋空空……完全想不到别的办法了！指挥官，只能靠您了~"
-	},
-	[91016] = {
+	}
+	pg.base.island_order_publish_random[91016] = {
 		id = 91016,
 		npc_id = 101600,
 		desc = "脑袋空空……完全想不到别的办法了！指挥官，只能靠您了~"
-	},
-	[101002] = {
+	}
+	pg.base.island_order_publish_random[101002] = {
 		id = 101002,
 		npc_id = 100200,
 		desc = "指挥官的心意~我会用一百倍的努力来回报的！所以现在，请满足我的请求吧！拜托啦~！"
-	},
-	[101003] = {
+	}
+	pg.base.island_order_publish_random[101003] = {
 		id = 101003,
 		npc_id = 100300,
 		desc = "指挥官的心意~我会用一百倍的努力来回报的！所以现在，请满足我的请求吧！拜托啦~！"
-	},
-	[101004] = {
+	}
+	pg.base.island_order_publish_random[101004] = {
 		id = 101004,
 		npc_id = 100400,
 		desc = "请、请替我准备这些，我会好好报答你的！"
-	},
-	[101005] = {
+	}
+	pg.base.island_order_publish_random[101005] = {
 		id = 101005,
 		npc_id = 100500,
 		desc = "指挥官的心意~我会用一百倍的努力来回报的！所以现在，请满足我的请求吧！拜托啦~！"
-	},
-	[101006] = {
+	}
+	pg.base.island_order_publish_random[101006] = {
 		id = 101006,
 		npc_id = 100600,
 		desc = "指挥官的心意~我会用一百倍的努力来回报的！所以现在，请满足我的请求吧！拜托啦~！"
-	},
-	[101007] = {
+	}
+	pg.base.island_order_publish_random[101007] = {
 		id = 101007,
 		npc_id = 100700,
 		desc = "请、请替我准备这些，我会好好报答你的！"
-	},
-	[101008] = {
+	}
+	pg.base.island_order_publish_random[101008] = {
 		id = 101008,
 		npc_id = 100800,
 		desc = "请、请替我准备这些，我会好好报答你的！"
-	},
-	[101009] = {
+	}
+	pg.base.island_order_publish_random[101009] = {
 		id = 101009,
 		npc_id = 100900,
 		desc = "指挥官的心意~我会用一百倍的努力来回报的！所以现在，请满足我的请求吧！拜托啦~！"
-	},
-	[101010] = {
+	}
+	pg.base.island_order_publish_random[101010] = {
 		id = 101010,
 		npc_id = 101000,
 		desc = "请、请替我准备这些，我会好好报答你的！"
-	},
-	[101011] = {
+	}
+	pg.base.island_order_publish_random[101011] = {
 		id = 101011,
 		npc_id = 101100,
 		desc = "指挥官的心意~我会用一百倍的努力来回报的！所以现在，请满足我的请求吧！拜托啦~！"
-	},
-	[101012] = {
+	}
+	pg.base.island_order_publish_random[101012] = {
 		id = 101012,
 		npc_id = 101200,
 		desc = "请、请替我准备这些，我会好好报答你的！"
-	},
-	[101013] = {
+	}
+	pg.base.island_order_publish_random[101013] = {
 		id = 101013,
 		npc_id = 101300,
 		desc = "指挥官的心意~我会用一百倍的努力来回报的！所以现在，请满足我的请求吧！拜托啦~！"
-	},
-	[101014] = {
+	}
+	pg.base.island_order_publish_random[101014] = {
 		id = 101014,
 		npc_id = 101400,
 		desc = "请、请替我准备这些，我会好好报答你的！"
-	},
-	[101016] = {
+	}
+	pg.base.island_order_publish_random[101016] = {
 		id = 101016,
 		npc_id = 101600,
 		desc = "请、请替我准备这些，我会好好报答你的！"
-	},
-	[111001] = {
+	}
+	pg.base.island_order_publish_random[111001] = {
 		id = 111001,
 		npc_id = 100100,
 		desc = "呜呜，真是多亏有指挥官了，我自己可收集不到这么多资材。"
-	},
-	[111002] = {
+	}
+	pg.base.island_order_publish_random[111002] = {
 		id = 111002,
 		npc_id = 100200,
 		desc = "嗨~能帮帮我吗？我很需要这些东西~"
-	},
-	[111003] = {
+	}
+	pg.base.island_order_publish_random[111003] = {
 		id = 111003,
 		npc_id = 100300,
 		desc = "嗨~能帮帮我吗？我很需要这些东西~"
-	},
-	[111004] = {
+	}
+	pg.base.island_order_publish_random[111004] = {
 		id = 111004,
 		npc_id = 100400,
 		desc = "呜呜，真是多亏有指挥官了，我自己可收集不到这么多资材。"
-	},
-	[111005] = {
+	}
+	pg.base.island_order_publish_random[111005] = {
 		id = 111005,
 		npc_id = 100500,
 		desc = "嗨~能帮帮我吗？我很需要这些东西~"
-	},
-	[111006] = {
+	}
+	pg.base.island_order_publish_random[111006] = {
 		id = 111006,
 		npc_id = 100600,
 		desc = "嗨~能帮帮我吗？我很需要这些东西~"
-	},
-	[111007] = {
+	}
+	pg.base.island_order_publish_random[111007] = {
 		id = 111007,
 		npc_id = 100700,
 		desc = "呜呜，真是多亏有指挥官了，我自己可收集不到这么多资材。"
-	},
-	[111008] = {
+	}
+	pg.base.island_order_publish_random[111008] = {
 		id = 111008,
 		npc_id = 100800,
 		desc = "呜呜，真是多亏有指挥官了，我自己可收集不到这么多资材。"
-	},
-	[111009] = {
+	}
+	pg.base.island_order_publish_random[111009] = {
 		id = 111009,
 		npc_id = 100900,
 		desc = "嗨~能帮帮我吗？我很需要这些东西~"
-	},
-	[111010] = {
+	}
+	pg.base.island_order_publish_random[111010] = {
 		id = 111010,
 		npc_id = 101000,
 		desc = "呜呜，真是多亏有指挥官了，我自己可收集不到这么多资材。"
-	},
-	[111011] = {
+	}
+	pg.base.island_order_publish_random[111011] = {
 		id = 111011,
 		npc_id = 101100,
 		desc = "嗨~能帮帮我吗？我很需要这些东西~"
-	},
-	[111012] = {
+	}
+	pg.base.island_order_publish_random[111012] = {
 		id = 111012,
 		npc_id = 101200,
 		desc = "呜呜，真是多亏有指挥官了，我自己可收集不到这么多资材。"
-	},
-	[111013] = {
+	}
+	pg.base.island_order_publish_random[111013] = {
 		id = 111013,
 		npc_id = 101300,
 		desc = "嗨~能帮帮我吗？我很需要这些东西~"
-	},
-	[111014] = {
+	}
+	pg.base.island_order_publish_random[111014] = {
 		id = 111014,
 		npc_id = 101400,
 		desc = "呜呜，真是多亏有指挥官了，我自己可收集不到这么多资材。"
-	},
-	[111016] = {
+	}
+	pg.base.island_order_publish_random[111016] = {
 		id = 111016,
 		npc_id = 101600,
 		desc = "呜呜，真是多亏有指挥官了，我自己可收集不到这么多资材。"
-	},
-	[121001] = {
+	}
+	pg.base.island_order_publish_random[121001] = {
 		id = 121001,
 		npc_id = 100100,
 		desc = "呜呜，真是多亏有指挥官了，我自己可收集不到这么多资材。"
-	},
-	[121002] = {
+	}
+	pg.base.island_order_publish_random[121002] = {
 		id = 121002,
 		npc_id = 100200,
 		desc = "嗨~能帮帮我吗？我很需要这些东西~"
-	},
-	[121003] = {
+	}
+	pg.base.island_order_publish_random[121003] = {
 		id = 121003,
 		npc_id = 100300,
 		desc = "嗨~能帮帮我吗？我很需要这些东西~"
-	},
-	[121004] = {
+	}
+	pg.base.island_order_publish_random[121004] = {
 		id = 121004,
 		npc_id = 100400,
 		desc = "呜呜，真是多亏有指挥官了，我自己可收集不到这么多资材。"
-	},
-	[121005] = {
+	}
+	pg.base.island_order_publish_random[121005] = {
 		id = 121005,
 		npc_id = 100500,
 		desc = "嗨~能帮帮我吗？我很需要这些东西~"
-	},
-	[121006] = {
+	}
+	pg.base.island_order_publish_random[121006] = {
 		id = 121006,
 		npc_id = 100600,
 		desc = "嗨~能帮帮我吗？我很需要这些东西~"
-	},
-	[121007] = {
+	}
+	pg.base.island_order_publish_random[121007] = {
 		id = 121007,
 		npc_id = 100700,
 		desc = "呜呜，真是多亏有指挥官了，我自己可收集不到这么多资材。"
-	},
-	[121008] = {
+	}
+	pg.base.island_order_publish_random[121008] = {
 		id = 121008,
 		npc_id = 100800,
 		desc = "呜呜，真是多亏有指挥官了，我自己可收集不到这么多资材。"
-	},
-	[121009] = {
+	}
+	pg.base.island_order_publish_random[121009] = {
 		id = 121009,
 		npc_id = 100900,
 		desc = "嗨~能帮帮我吗？我很需要这些东西~"
-	},
-	[121010] = {
+	}
+	pg.base.island_order_publish_random[121010] = {
 		id = 121010,
 		npc_id = 101000,
 		desc = "呜呜，真是多亏有指挥官了，我自己可收集不到这么多资材。"
-	},
-	[121011] = {
+	}
+	pg.base.island_order_publish_random[121011] = {
 		id = 121011,
 		npc_id = 101100,
 		desc = "嗨~能帮帮我吗？我很需要这些东西~"
-	},
-	[121012] = {
+	}
+	pg.base.island_order_publish_random[121012] = {
 		id = 121012,
 		npc_id = 101200,
 		desc = "呜呜，真是多亏有指挥官了，我自己可收集不到这么多资材。"
-	},
-	[121013] = {
+	}
+	pg.base.island_order_publish_random[121013] = {
 		id = 121013,
 		npc_id = 101300,
 		desc = "嗨~能帮帮我吗？我很需要这些东西~"
-	},
-	[121014] = {
+	}
+	pg.base.island_order_publish_random[121014] = {
 		id = 121014,
 		npc_id = 101400,
 		desc = "呜呜，真是多亏有指挥官了，我自己可收集不到这么多资材。"
-	},
-	[121016] = {
+	}
+	pg.base.island_order_publish_random[121016] = {
 		id = 121016,
 		npc_id = 101600,
 		desc = "呜呜，真是多亏有指挥官了，我自己可收集不到这么多资材。"
-	},
-	[131001] = {
+	}
+	pg.base.island_order_publish_random[131001] = {
 		id = 131001,
 		npc_id = 100100,
 		desc = "万分感谢，这次也全仰仗您了。"
-	},
-	[131002] = {
+	}
+	pg.base.island_order_publish_random[131002] = {
 		id = 131002,
 		npc_id = 100200,
 		desc = "指挥官，救救我~真的是最最最后的申请了~"
-	},
-	[131003] = {
+	}
+	pg.base.island_order_publish_random[131003] = {
 		id = 131003,
 		npc_id = 100300,
 		desc = "指挥官，救救我~真的是最最最后的申请了~"
-	},
-	[131004] = {
+	}
+	pg.base.island_order_publish_random[131004] = {
 		id = 131004,
 		npc_id = 100400,
 		desc = "万分感谢，这次也全仰仗您了。"
-	},
-	[131005] = {
+	}
+	pg.base.island_order_publish_random[131005] = {
 		id = 131005,
 		npc_id = 100500,
 		desc = "指挥官，救救我~真的是最最最后的申请了~"
-	},
-	[131006] = {
+	}
+	pg.base.island_order_publish_random[131006] = {
 		id = 131006,
 		npc_id = 100600,
 		desc = "指挥官，救救我~真的是最最最后的申请了~"
-	},
-	[131007] = {
+	}
+	pg.base.island_order_publish_random[131007] = {
 		id = 131007,
 		npc_id = 100700,
 		desc = "万分感谢，这次也全仰仗您了。"
-	},
-	[131008] = {
+	}
+	pg.base.island_order_publish_random[131008] = {
 		id = 131008,
 		npc_id = 100800,
 		desc = "万分感谢，这次也全仰仗您了。"
-	},
-	[131009] = {
+	}
+	pg.base.island_order_publish_random[131009] = {
 		id = 131009,
 		npc_id = 100900,
 		desc = "指挥官，救救我~真的是最最最后的申请了~"
-	},
-	[131010] = {
+	}
+	pg.base.island_order_publish_random[131010] = {
 		id = 131010,
 		npc_id = 101000,
 		desc = "万分感谢，这次也全仰仗您了。"
-	},
-	[131011] = {
+	}
+	pg.base.island_order_publish_random[131011] = {
 		id = 131011,
 		npc_id = 101100,
 		desc = "指挥官，救救我~真的是最最最后的申请了~"
-	},
-	[131012] = {
+	}
+	pg.base.island_order_publish_random[131012] = {
 		id = 131012,
 		npc_id = 101200,
 		desc = "万分感谢，这次也全仰仗您了。"
-	},
-	[131013] = {
+	}
+	pg.base.island_order_publish_random[131013] = {
 		id = 131013,
 		npc_id = 101300,
 		desc = "指挥官，救救我~真的是最最最后的申请了~"
-	},
-	[131014] = {
+	}
+	pg.base.island_order_publish_random[131014] = {
 		id = 131014,
 		npc_id = 101400,
 		desc = "万分感谢，这次也全仰仗您了。"
-	},
-	[131016] = {
+	}
+	pg.base.island_order_publish_random[131016] = {
 		id = 131016,
 		npc_id = 101600,
 		desc = "万分感谢，这次也全仰仗您了。"
-	},
-	[141001] = {
+	}
+	pg.base.island_order_publish_random[141001] = {
 		id = 141001,
 		npc_id = 100100,
 		desc = "万分感谢，这次也全仰仗您了。"
-	},
-	[141002] = {
+	}
+	pg.base.island_order_publish_random[141002] = {
 		id = 141002,
 		npc_id = 100200,
 		desc = "指挥官，救救我~真的是最最最后的申请了~"
-	},
-	[141003] = {
+	}
+	pg.base.island_order_publish_random[141003] = {
 		id = 141003,
 		npc_id = 100300,
 		desc = "指挥官，救救我~真的是最最最后的申请了~"
-	},
-	[141004] = {
+	}
+	pg.base.island_order_publish_random[141004] = {
 		id = 141004,
 		npc_id = 100400,
 		desc = "万分感谢，这次也全仰仗您了。"
-	},
-	[141005] = {
+	}
+	pg.base.island_order_publish_random[141005] = {
 		id = 141005,
 		npc_id = 100500,
 		desc = "指挥官，救救我~真的是最最最后的申请了~"
-	},
-	[141006] = {
+	}
+end)()
+(function ()
+	pg.base.island_order_publish_random[141006] = {
 		id = 141006,
 		npc_id = 100600,
 		desc = "指挥官，救救我~真的是最最最后的申请了~"
-	},
-	[141007] = {
+	}
+	pg.base.island_order_publish_random[141007] = {
 		id = 141007,
 		npc_id = 100700,
 		desc = "万分感谢，这次也全仰仗您了。"
-	},
-	[141008] = {
+	}
+	pg.base.island_order_publish_random[141008] = {
 		id = 141008,
 		npc_id = 100800,
 		desc = "万分感谢，这次也全仰仗您了。"
-	},
-	[141009] = {
+	}
+	pg.base.island_order_publish_random[141009] = {
 		id = 141009,
 		npc_id = 100900,
 		desc = "指挥官，救救我~真的是最最最后的申请了~"
-	},
-	[141010] = {
+	}
+	pg.base.island_order_publish_random[141010] = {
 		id = 141010,
 		npc_id = 101000,
 		desc = "万分感谢，这次也全仰仗您了。"
-	},
-	[141011] = {
+	}
+	pg.base.island_order_publish_random[141011] = {
 		id = 141011,
 		npc_id = 101100,
 		desc = "指挥官，救救我~真的是最最最后的申请了~"
-	},
-	[141012] = {
+	}
+	pg.base.island_order_publish_random[141012] = {
 		id = 141012,
 		npc_id = 101200,
 		desc = "万分感谢，这次也全仰仗您了。"
-	},
-	[141013] = {
+	}
+	pg.base.island_order_publish_random[141013] = {
 		id = 141013,
 		npc_id = 101300,
 		desc = "指挥官，救救我~真的是最最最后的申请了~"
-	},
-	[141014] = {
+	}
+	pg.base.island_order_publish_random[141014] = {
 		id = 141014,
 		npc_id = 101400,
 		desc = "万分感谢，这次也全仰仗您了。"
-	},
-	[141016] = {
+	}
+	pg.base.island_order_publish_random[141016] = {
 		id = 141016,
 		npc_id = 101600,
 		desc = "万分感谢，这次也全仰仗您了。"
-	},
-	[151001] = {
+	}
+	pg.base.island_order_publish_random[151001] = {
 		id = 151001,
 		npc_id = 100100,
 		desc = "这是相当关键的资材，请帮帮我好吗？"
-	},
-	[151002] = {
+	}
+	pg.base.island_order_publish_random[151002] = {
 		id = 151002,
 		npc_id = 100200,
 		desc = "上次的我又用完了……这是新的物资申请，收到后一定会好好感谢的！！！"
-	},
-	[151003] = {
+	}
+	pg.base.island_order_publish_random[151003] = {
 		id = 151003,
 		npc_id = 100300,
 		desc = "上次的我又用完了……这是新的物资申请，收到后一定会好好感谢的！！！"
-	},
-	[151004] = {
+	}
+	pg.base.island_order_publish_random[151004] = {
 		id = 151004,
 		npc_id = 100400,
 		desc = "这是相当关键的资材，请帮帮我好吗？"
-	},
-	[151005] = {
+	}
+	pg.base.island_order_publish_random[151005] = {
 		id = 151005,
 		npc_id = 100500,
 		desc = "上次的我又用完了……这是新的物资申请，收到后一定会好好感谢的！！！"
-	},
-	[151006] = {
+	}
+	pg.base.island_order_publish_random[151006] = {
 		id = 151006,
 		npc_id = 100600,
 		desc = "上次的我又用完了……这是新的物资申请，收到后一定会好好感谢的！！！"
-	},
-	[151007] = {
+	}
+	pg.base.island_order_publish_random[151007] = {
 		id = 151007,
 		npc_id = 100700,
 		desc = "这是相当关键的资材，请帮帮我好吗？"
-	},
-	[151008] = {
+	}
+	pg.base.island_order_publish_random[151008] = {
 		id = 151008,
 		npc_id = 100800,
 		desc = "这是相当关键的资材，请帮帮我好吗？"
-	},
-	[151009] = {
+	}
+	pg.base.island_order_publish_random[151009] = {
 		id = 151009,
 		npc_id = 100900,
 		desc = "上次的我又用完了……这是新的物资申请，收到后一定会好好感谢的！！！"
-	},
-	[151010] = {
+	}
+	pg.base.island_order_publish_random[151010] = {
 		id = 151010,
 		npc_id = 101000,
 		desc = "这是相当关键的资材，请帮帮我好吗？"
-	},
-	[151011] = {
+	}
+	pg.base.island_order_publish_random[151011] = {
 		id = 151011,
 		npc_id = 101100,
 		desc = "上次的我又用完了……这是新的物资申请，收到后一定会好好感谢的！！！"
-	},
-	[151012] = {
+	}
+	pg.base.island_order_publish_random[151012] = {
 		id = 151012,
 		npc_id = 101200,
 		desc = "这是相当关键的资材，请帮帮我好吗？"
-	},
-	[151013] = {
+	}
+	pg.base.island_order_publish_random[151013] = {
 		id = 151013,
 		npc_id = 101300,
 		desc = "上次的我又用完了……这是新的物资申请，收到后一定会好好感谢的！！！"
-	},
-	[151014] = {
+	}
+	pg.base.island_order_publish_random[151014] = {
 		id = 151014,
 		npc_id = 101400,
 		desc = "这是相当关键的资材，请帮帮我好吗？"
-	},
-	[151016] = {
+	}
+	pg.base.island_order_publish_random[151016] = {
 		id = 151016,
 		npc_id = 101600,
 		desc = "这是相当关键的资材，请帮帮我好吗？"
-	},
-	[161001] = {
+	}
+	pg.base.island_order_publish_random[161001] = {
 		id = 161001,
 		npc_id = 100100,
 		desc = "这是相当关键的资材，请帮帮我好吗？"
-	},
-	[161002] = {
+	}
+	pg.base.island_order_publish_random[161002] = {
 		id = 161002,
 		npc_id = 100200,
 		desc = "上次的我又用完了……这是新的物资申请，收到后一定会好好感谢的！！！"
-	},
-	[161003] = {
+	}
+	pg.base.island_order_publish_random[161003] = {
 		id = 161003,
 		npc_id = 100300,
 		desc = "上次的我又用完了……这是新的物资申请，收到后一定会好好感谢的！！！"
-	},
-	[161004] = {
+	}
+	pg.base.island_order_publish_random[161004] = {
 		id = 161004,
 		npc_id = 100400,
 		desc = "这是相当关键的资材，请帮帮我好吗？"
-	},
-	[161005] = {
+	}
+	pg.base.island_order_publish_random[161005] = {
 		id = 161005,
 		npc_id = 100500,
 		desc = "上次的我又用完了……这是新的物资申请，收到后一定会好好感谢的！！！"
-	},
-	[161006] = {
+	}
+	pg.base.island_order_publish_random[161006] = {
 		id = 161006,
 		npc_id = 100600,
 		desc = "上次的我又用完了……这是新的物资申请，收到后一定会好好感谢的！！！"
-	},
-	[161007] = {
+	}
+	pg.base.island_order_publish_random[161007] = {
 		id = 161007,
 		npc_id = 100700,
 		desc = "这是相当关键的资材，请帮帮我好吗？"
-	},
-	[161008] = {
+	}
+	pg.base.island_order_publish_random[161008] = {
 		id = 161008,
 		npc_id = 100800,
 		desc = "这是相当关键的资材，请帮帮我好吗？"
-	},
-	[161009] = {
+	}
+	pg.base.island_order_publish_random[161009] = {
 		id = 161009,
 		npc_id = 100900,
 		desc = "上次的我又用完了……这是新的物资申请，收到后一定会好好感谢的！！！"
-	},
-	[161010] = {
+	}
+	pg.base.island_order_publish_random[161010] = {
 		id = 161010,
 		npc_id = 101000,
 		desc = "这是相当关键的资材，请帮帮我好吗？"
-	},
-	[161011] = {
+	}
+	pg.base.island_order_publish_random[161011] = {
 		id = 161011,
 		npc_id = 101100,
 		desc = "上次的我又用完了……这是新的物资申请，收到后一定会好好感谢的！！！"
-	},
-	[161012] = {
+	}
+	pg.base.island_order_publish_random[161012] = {
 		id = 161012,
 		npc_id = 101200,
 		desc = "这是相当关键的资材，请帮帮我好吗？"
-	},
-	[161013] = {
+	}
+	pg.base.island_order_publish_random[161013] = {
 		id = 161013,
 		npc_id = 101300,
 		desc = "上次的我又用完了……这是新的物资申请，收到后一定会好好感谢的！！！"
-	},
-	[161014] = {
+	}
+	pg.base.island_order_publish_random[161014] = {
 		id = 161014,
 		npc_id = 101400,
 		desc = "这是相当关键的资材，请帮帮我好吗？"
-	},
-	[161016] = {
+	}
+	pg.base.island_order_publish_random[161016] = {
 		id = 161016,
 		npc_id = 101600,
 		desc = "这是相当关键的资材，请帮帮我好吗？"
-	},
-	[171001] = {
+	}
+	pg.base.island_order_publish_random[171001] = {
 		id = 171001,
 		npc_id = 100100,
 		desc = "指挥官能实现我这个小小的心愿吗？拜托啦！"
-	},
-	[171002] = {
+	}
+	pg.base.island_order_publish_random[171002] = {
 		id = 171002,
 		npc_id = 100200,
 		desc = "谢谢你愿意帮忙！这些东西对我来说很重要！！"
-	},
-	[171003] = {
+	}
+	pg.base.island_order_publish_random[171003] = {
 		id = 171003,
 		npc_id = 100300,
 		desc = "谢谢你愿意帮忙！这些东西对我来说很重要！！"
-	},
-	[171004] = {
+	}
+	pg.base.island_order_publish_random[171004] = {
 		id = 171004,
 		npc_id = 100400,
 		desc = "指挥官能实现我这个小小的心愿吗？拜托啦！"
-	},
-	[171005] = {
+	}
+	pg.base.island_order_publish_random[171005] = {
 		id = 171005,
 		npc_id = 100500,
 		desc = "谢谢你愿意帮忙！这些东西对我来说很重要！！"
-	},
-	[171006] = {
+	}
+	pg.base.island_order_publish_random[171006] = {
 		id = 171006,
 		npc_id = 100600,
 		desc = "谢谢你愿意帮忙！这些东西对我来说很重要！！"
-	},
-	[171007] = {
+	}
+	pg.base.island_order_publish_random[171007] = {
 		id = 171007,
 		npc_id = 100700,
 		desc = "指挥官能实现我这个小小的心愿吗？拜托啦！"
-	},
-	[171008] = {
+	}
+	pg.base.island_order_publish_random[171008] = {
 		id = 171008,
 		npc_id = 100800,
 		desc = "指挥官能实现我这个小小的心愿吗？拜托啦！"
-	},
-	[171009] = {
+	}
+	pg.base.island_order_publish_random[171009] = {
 		id = 171009,
 		npc_id = 100900,
 		desc = "谢谢你愿意帮忙！这些东西对我来说很重要！！"
-	},
-	[171010] = {
+	}
+	pg.base.island_order_publish_random[171010] = {
 		id = 171010,
 		npc_id = 101000,
 		desc = "指挥官能实现我这个小小的心愿吗？拜托啦！"
-	},
-	[171011] = {
+	}
+	pg.base.island_order_publish_random[171011] = {
 		id = 171011,
 		npc_id = 101100,
 		desc = "谢谢你愿意帮忙！这些东西对我来说很重要！！"
-	},
-	[171012] = {
+	}
+	pg.base.island_order_publish_random[171012] = {
 		id = 171012,
 		npc_id = 101200,
 		desc = "指挥官能实现我这个小小的心愿吗？拜托啦！"
-	},
-	[171013] = {
+	}
+	pg.base.island_order_publish_random[171013] = {
 		id = 171013,
 		npc_id = 101300,
 		desc = "谢谢你愿意帮忙！这些东西对我来说很重要！！"
-	},
-	[171014] = {
+	}
+	pg.base.island_order_publish_random[171014] = {
 		id = 171014,
 		npc_id = 101400,
 		desc = "指挥官能实现我这个小小的心愿吗？拜托啦！"
-	},
-	[171016] = {
+	}
+	pg.base.island_order_publish_random[171016] = {
 		id = 171016,
 		npc_id = 101600,
 		desc = "指挥官能实现我这个小小的心愿吗？拜托啦！"
-	},
-	[181001] = {
+	}
+	pg.base.island_order_publish_random[181001] = {
 		id = 181001,
 		npc_id = 100100,
 		desc = "指挥官能实现我这个小小的心愿吗？拜托啦！"
-	},
-	[181002] = {
+	}
+	pg.base.island_order_publish_random[181002] = {
 		id = 181002,
 		npc_id = 100200,
 		desc = "谢谢你愿意帮忙！这些东西对我来说很重要！！"
-	},
-	[181003] = {
+	}
+	pg.base.island_order_publish_random[181003] = {
 		id = 181003,
 		npc_id = 100300,
 		desc = "谢谢你愿意帮忙！这些东西对我来说很重要！！"
-	},
-	[181004] = {
+	}
+	pg.base.island_order_publish_random[181004] = {
 		id = 181004,
 		npc_id = 100400,
 		desc = "指挥官能实现我这个小小的心愿吗？拜托啦！"
-	},
-	[181005] = {
+	}
+	pg.base.island_order_publish_random[181005] = {
 		id = 181005,
 		npc_id = 100500,
 		desc = "谢谢你愿意帮忙！这些东西对我来说很重要！！"
-	},
-	[181006] = {
+	}
+	pg.base.island_order_publish_random[181006] = {
 		id = 181006,
 		npc_id = 100600,
 		desc = "谢谢你愿意帮忙！这些东西对我来说很重要！！"
-	},
-	[181007] = {
+	}
+	pg.base.island_order_publish_random[181007] = {
 		id = 181007,
 		npc_id = 100700,
 		desc = "指挥官能实现我这个小小的心愿吗？拜托啦！"
-	},
-	[181008] = {
+	}
+	pg.base.island_order_publish_random[181008] = {
 		id = 181008,
 		npc_id = 100800,
 		desc = "指挥官能实现我这个小小的心愿吗？拜托啦！"
-	},
-	[181009] = {
+	}
+	pg.base.island_order_publish_random[181009] = {
 		id = 181009,
 		npc_id = 100900,
 		desc = "谢谢你愿意帮忙！这些东西对我来说很重要！！"
-	},
-	[181010] = {
+	}
+	pg.base.island_order_publish_random[181010] = {
 		id = 181010,
 		npc_id = 101000,
 		desc = "指挥官能实现我这个小小的心愿吗？拜托啦！"
-	},
-	[181011] = {
+	}
+	pg.base.island_order_publish_random[181011] = {
 		id = 181011,
 		npc_id = 101100,
 		desc = "谢谢你愿意帮忙！这些东西对我来说很重要！！"
-	},
-	[181012] = {
+	}
+	pg.base.island_order_publish_random[181012] = {
 		id = 181012,
 		npc_id = 101200,
 		desc = "指挥官能实现我这个小小的心愿吗？拜托啦！"
-	},
-	[181013] = {
+	}
+	pg.base.island_order_publish_random[181013] = {
 		id = 181013,
 		npc_id = 101300,
 		desc = "谢谢你愿意帮忙！这些东西对我来说很重要！！"
-	},
-	[181014] = {
+	}
+	pg.base.island_order_publish_random[181014] = {
 		id = 181014,
 		npc_id = 101400,
 		desc = "指挥官能实现我这个小小的心愿吗？拜托啦！"
-	},
-	[181016] = {
+	}
+	pg.base.island_order_publish_random[181016] = {
 		id = 181016,
 		npc_id = 101600,
 		desc = "指挥官能实现我这个小小的心愿吗？拜托啦！"
-	},
-	[191001] = {
+	}
+	pg.base.island_order_publish_random[191001] = {
 		id = 191001,
 		npc_id = 100100,
 		desc = "就是这些东西，一点点就好！可以吗？"
-	},
-	[191002] = {
+	}
+	pg.base.island_order_publish_random[191002] = {
 		id = 191002,
 		npc_id = 100200,
 		desc = "指挥官的心意~我会用一百倍的努力来回报的！所以现在，请满足我的请求吧！拜托啦~！"
-	},
-	[191003] = {
+	}
+	pg.base.island_order_publish_random[191003] = {
 		id = 191003,
 		npc_id = 100300,
 		desc = "指挥官的心意~我会用一百倍的努力来回报的！所以现在，请满足我的请求吧！拜托啦~！"
-	},
-	[191004] = {
+	}
+	pg.base.island_order_publish_random[191004] = {
 		id = 191004,
 		npc_id = 100400,
 		desc = "就是这些东西，一点点就好！可以吗？"
-	},
-	[191005] = {
+	}
+	pg.base.island_order_publish_random[191005] = {
 		id = 191005,
 		npc_id = 100500,
 		desc = "指挥官的心意~我会用一百倍的努力来回报的！所以现在，请满足我的请求吧！拜托啦~！"
-	},
-	[191006] = {
+	}
+	pg.base.island_order_publish_random[191006] = {
 		id = 191006,
 		npc_id = 100600,
 		desc = "指挥官的心意~我会用一百倍的努力来回报的！所以现在，请满足我的请求吧！拜托啦~！"
-	},
-	[191007] = {
+	}
+	pg.base.island_order_publish_random[191007] = {
 		id = 191007,
 		npc_id = 100700,
 		desc = "就是这些东西，一点点就好！可以吗？"
-	},
-	[191008] = {
+	}
+	pg.base.island_order_publish_random[191008] = {
 		id = 191008,
 		npc_id = 100800,
 		desc = "就是这些东西，一点点就好！可以吗？"
-	},
-	[191009] = {
+	}
+	pg.base.island_order_publish_random[191009] = {
 		id = 191009,
 		npc_id = 100900,
 		desc = "指挥官的心意~我会用一百倍的努力来回报的！所以现在，请满足我的请求吧！拜托啦~！"
-	},
-	[191010] = {
+	}
+	pg.base.island_order_publish_random[191010] = {
 		id = 191010,
 		npc_id = 101000,
 		desc = "就是这些东西，一点点就好！可以吗？"
-	},
-	[191011] = {
+	}
+	pg.base.island_order_publish_random[191011] = {
 		id = 191011,
 		npc_id = 101100,
 		desc = "指挥官的心意~我会用一百倍的努力来回报的！所以现在，请满足我的请求吧！拜托啦~！"
-	},
-	[191012] = {
+	}
+	pg.base.island_order_publish_random[191012] = {
 		id = 191012,
 		npc_id = 101200,
 		desc = "就是这些东西，一点点就好！可以吗？"
-	},
-	[191013] = {
+	}
+	pg.base.island_order_publish_random[191013] = {
 		id = 191013,
 		npc_id = 101300,
 		desc = "指挥官的心意~我会用一百倍的努力来回报的！所以现在，请满足我的请求吧！拜托啦~！"
-	},
-	[191014] = {
+	}
+	pg.base.island_order_publish_random[191014] = {
 		id = 191014,
 		npc_id = 101400,
 		desc = "就是这些东西，一点点就好！可以吗？"
-	},
-	[191016] = {
+	}
+	pg.base.island_order_publish_random[191016] = {
 		id = 191016,
 		npc_id = 101600,
 		desc = "就是这些东西，一点点就好！可以吗？"
-	},
-	[201001] = {
+	}
+	pg.base.island_order_publish_random[201001] = {
 		id = 201001,
 		npc_id = 100100,
 		desc = "请、请替我准备这些，我会好好报答你的！"
-	},
-	[201002] = {
+	}
+	pg.base.island_order_publish_random[201002] = {
 		id = 201002,
 		npc_id = 100200,
 		desc = "拜托了指挥官！没有这些材料的话，我真的寸步难行啊...求求您了！"
-	},
-	[201003] = {
+	}
+	pg.base.island_order_publish_random[201003] = {
 		id = 201003,
 		npc_id = 100300,
 		desc = "拜托了指挥官！没有这些材料的话，我真的寸步难行啊...求求您了！"
-	},
-	[201004] = {
+	}
+	pg.base.island_order_publish_random[201004] = {
 		id = 201004,
 		npc_id = 100400,
 		desc = "请、请替我准备这些，我会好好报答你的！"
-	},
-	[201005] = {
+	}
+	pg.base.island_order_publish_random[201005] = {
 		id = 201005,
 		npc_id = 100500,
 		desc = "拜托了指挥官！没有这些材料的话，我真的寸步难行啊...求求您了！"
-	},
-	[201006] = {
+	}
+	pg.base.island_order_publish_random[201006] = {
 		id = 201006,
 		npc_id = 100600,
 		desc = "拜托了指挥官！没有这些材料的话，我真的寸步难行啊...求求您了！"
-	},
-	[201007] = {
+	}
+	pg.base.island_order_publish_random[201007] = {
 		id = 201007,
 		npc_id = 100700,
 		desc = "请、请替我准备这些，我会好好报答你的！"
-	},
-	[201008] = {
+	}
+	pg.base.island_order_publish_random[201008] = {
 		id = 201008,
 		npc_id = 100800,
 		desc = "请、请替我准备这些，我会好好报答你的！"
-	},
-	[201009] = {
+	}
+	pg.base.island_order_publish_random[201009] = {
 		id = 201009,
 		npc_id = 100900,
 		desc = "拜托了指挥官！没有这些材料的话，我真的寸步难行啊...求求您了！"
-	},
-	[201010] = {
+	}
+	pg.base.island_order_publish_random[201010] = {
 		id = 201010,
 		npc_id = 101000,
 		desc = "请、请替我准备这些，我会好好报答你的！"
-	},
-	[201011] = {
+	}
+	pg.base.island_order_publish_random[201011] = {
 		id = 201011,
 		npc_id = 101100,
 		desc = "拜托了指挥官！没有这些材料的话，我真的寸步难行啊...求求您了！"
-	},
-	[201012] = {
+	}
+	pg.base.island_order_publish_random[201012] = {
 		id = 201012,
 		npc_id = 101200,
 		desc = "请、请替我准备这些，我会好好报答你的！"
-	},
-	[201013] = {
+	}
+	pg.base.island_order_publish_random[201013] = {
 		id = 201013,
 		npc_id = 101300,
 		desc = "拜托了指挥官！没有这些材料的话，我真的寸步难行啊...求求您了！"
-	},
-	[201014] = {
+	}
+	pg.base.island_order_publish_random[201014] = {
 		id = 201014,
 		npc_id = 101400,
 		desc = "请、请替我准备这些，我会好好报答你的！"
-	},
-	[201016] = {
+	}
+	pg.base.island_order_publish_random[201016] = {
 		id = 201016,
 		npc_id = 101600,
 		desc = "请、请替我准备这些，我会好好报答你的！"
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11002,
-		11003,
-		11004,
-		11005,
-		11006,
-		11007,
-		11008,
-		11009,
-		11010,
-		11011,
-		11012,
-		11013,
-		11014,
-		11016,
-		21002,
-		21003,
-		21004,
-		21005,
-		21006,
-		21007,
-		21008,
-		21009,
-		21010,
-		21011,
-		21012,
-		21013,
-		21014,
-		21016,
-		31002,
-		31003,
-		31004,
-		31005,
-		31006,
-		31007,
-		31008,
-		31009,
-		31010,
-		31011,
-		31012,
-		31013,
-		31014,
-		31016,
-		41002,
-		41003,
-		41004,
-		41005,
-		41006,
-		41007,
-		41008,
-		41009,
-		41010,
-		41011,
-		41012,
-		41013,
-		41014,
-		41016,
-		51002,
-		51003,
-		51004,
-		51005,
-		51006,
-		51007,
-		51008,
-		51009,
-		51010,
-		51011,
-		51012,
-		51013,
-		51014,
-		51016,
-		61002,
-		61003,
-		61004,
-		61005,
-		61006,
-		61007,
-		61008,
-		61009,
-		61010,
-		61011,
-		61012,
-		61013,
-		61014,
-		61016,
-		71002,
-		71003,
-		71004,
-		71005,
-		71006,
-		71007,
-		71008,
-		71009,
-		71010,
-		71011,
-		71012,
-		71013,
-		71014,
-		71016,
-		81002,
-		81003,
-		81004,
-		81005,
-		81006,
-		81007,
-		81008,
-		81009,
-		81010,
-		81011,
-		81012,
-		81013,
-		81014,
-		81016,
-		91002,
-		91003,
-		91004,
-		91005,
-		91006,
-		91007,
-		91008,
-		91009,
-		91010,
-		91011,
-		91012,
-		91013,
-		91014,
-		91016,
-		101002,
-		101003,
-		101004,
-		101005,
-		101006,
-		101007,
-		101008,
-		101009,
-		101010,
-		101011,
-		101012,
-		101013,
-		101014,
-		101016,
-		111001,
-		111002,
-		111003,
-		111004,
-		111005,
-		111006,
-		111007,
-		111008,
-		111009,
-		111010,
-		111011,
-		111012,
-		111013,
-		111014,
-		111016,
-		121001,
-		121002,
-		121003,
-		121004,
-		121005,
-		121006,
-		121007,
-		121008,
-		121009,
-		121010,
-		121011,
-		121012,
-		121013,
-		121014,
-		121016,
-		131001,
-		131002,
-		131003,
-		131004,
-		131005,
-		131006,
-		131007,
-		131008,
-		131009,
-		131010,
-		131011,
-		131012,
-		131013,
-		131014,
-		131016,
-		141001,
-		141002,
-		141003,
-		141004,
-		141005,
-		141006,
-		141007,
-		141008,
-		141009,
-		141010,
-		141011,
-		141012,
-		141013,
-		141014,
-		141016,
-		151001,
-		151002,
-		151003,
-		151004,
-		151005,
-		151006,
-		151007,
-		151008,
-		151009,
-		151010,
-		151011,
-		151012,
-		151013,
-		151014,
-		151016,
-		161001,
-		161002,
-		161003,
-		161004,
-		161005,
-		161006,
-		161007,
-		161008,
-		161009,
-		161010,
-		161011,
-		161012,
-		161013,
-		161014,
-		161016,
-		171001,
-		171002,
-		171003,
-		171004,
-		171005,
-		171006,
-		171007,
-		171008,
-		171009,
-		171010,
-		171011,
-		171012,
-		171013,
-		171014,
-		171016,
-		181001,
-		181002,
-		181003,
-		181004,
-		181005,
-		181006,
-		181007,
-		181008,
-		181009,
-		181010,
-		181011,
-		181012,
-		181013,
-		181014,
-		181016,
-		191001,
-		191002,
-		191003,
-		191004,
-		191005,
-		191006,
-		191007,
-		191008,
-		191009,
-		191010,
-		191011,
-		191012,
-		191013,
-		191014,
-		191016,
-		201001,
-		201002,
-		201003,
-		201004,
-		201005,
-		201006,
-		201007,
-		201008,
-		201009,
-		201010,
-		201011,
-		201012,
-		201013,
-		201014,
-		201016
 	}
-}
+end)()

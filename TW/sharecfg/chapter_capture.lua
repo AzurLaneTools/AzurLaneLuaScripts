@@ -1,6 +1,38 @@
 pg = pg or {}
-pg.chapter_capture = {
-	[1150001] = {
+pg.chapter_capture = rawget(pg, "chapter_capture") or setmetatable({
+	__name = "chapter_capture"
+}, confNEO)
+pg.chapter_capture.all = {
+	1150001,
+	1150002,
+	1150003,
+	1150004,
+	1150005,
+	1150006,
+	1150011,
+	1150012,
+	1150013,
+	1150014,
+	1150015,
+	1150016,
+	5000301,
+	5000302,
+	5000303,
+	5000304,
+	5000305,
+	5000306,
+	5000311,
+	5000312,
+	5000313,
+	5000314,
+	5000315,
+	5000316
+}
+pg.base = pg.base or {}
+pg.base.chapter_capture = {}
+
+(function ()
+	pg.base.chapter_capture[1150001] = {
 		special_item = 2,
 		special_unit_p = 1500,
 		escape_grid_icon = 0,
@@ -95,8 +127,8 @@ pg.chapter_capture = {
 				3
 			}
 		}
-	},
-	[1150002] = {
+	}
+	pg.base.chapter_capture[1150002] = {
 		special_item = 2,
 		special_unit_p = 1500,
 		escape_grid_icon = 0,
@@ -187,8 +219,8 @@ pg.chapter_capture = {
 				3
 			}
 		}
-	},
-	[1150003] = {
+	}
+	pg.base.chapter_capture[1150003] = {
 		special_item = 2,
 		special_unit_p = 1500,
 		escape_grid_icon = 0,
@@ -307,8 +339,8 @@ pg.chapter_capture = {
 				0
 			}
 		}
-	},
-	[1150004] = {
+	}
+	pg.base.chapter_capture[1150004] = {
 		special_item = 2,
 		special_unit_p = 1500,
 		escape_grid_icon = 0,
@@ -403,8 +435,8 @@ pg.chapter_capture = {
 				0
 			}
 		}
-	},
-	[1150005] = {
+	}
+	pg.base.chapter_capture[1150005] = {
 		special_item = 2,
 		special_unit_p = 1500,
 		escape_grid_icon = 0,
@@ -515,8 +547,8 @@ pg.chapter_capture = {
 				0
 			}
 		}
-	},
-	[1150006] = {
+	}
+	pg.base.chapter_capture[1150006] = {
 		special_item = 2,
 		special_unit_p = 1500,
 		escape_grid_icon = 0,
@@ -663,8 +695,8 @@ pg.chapter_capture = {
 				0
 			}
 		}
-	},
-	[1150011] = {
+	}
+	pg.base.chapter_capture[1150011] = {
 		special_item = 2,
 		special_unit_p = 2000,
 		escape_grid_icon = 0,
@@ -759,8 +791,8 @@ pg.chapter_capture = {
 				3
 			}
 		}
-	},
-	[1150012] = {
+	}
+	pg.base.chapter_capture[1150012] = {
 		special_item = 2,
 		special_unit_p = 2000,
 		escape_grid_icon = 0,
@@ -851,8 +883,8 @@ pg.chapter_capture = {
 				3
 			}
 		}
-	},
-	[1150013] = {
+	}
+	pg.base.chapter_capture[1150013] = {
 		special_item = 2,
 		special_unit_p = 2000,
 		escape_grid_icon = 0,
@@ -971,8 +1003,8 @@ pg.chapter_capture = {
 				0
 			}
 		}
-	},
-	[1150014] = {
+	}
+	pg.base.chapter_capture[1150014] = {
 		special_item = 2,
 		special_unit_p = 2000,
 		escape_grid_icon = 0,
@@ -1067,8 +1099,8 @@ pg.chapter_capture = {
 				0
 			}
 		}
-	},
-	[1150015] = {
+	}
+	pg.base.chapter_capture[1150015] = {
 		special_item = 2,
 		special_unit_p = 2000,
 		escape_grid_icon = 0,
@@ -1179,8 +1211,8 @@ pg.chapter_capture = {
 				0
 			}
 		}
-	},
-	[1150016] = {
+	}
+	pg.base.chapter_capture[1150016] = {
 		special_item = 2,
 		special_unit_p = 2000,
 		escape_grid_icon = 0,
@@ -1327,8 +1359,8 @@ pg.chapter_capture = {
 				0
 			}
 		}
-	},
-	[5000301] = {
+	}
+	pg.base.chapter_capture[5000301] = {
 		special_item = 2,
 		special_unit_p = 2000,
 		escape_grid_icon = 0,
@@ -1443,8 +1475,8 @@ pg.chapter_capture = {
 				1
 			}
 		}
-	},
-	[5000302] = {
+	}
+	pg.base.chapter_capture[5000302] = {
 		special_item = 2,
 		special_unit_p = 2000,
 		escape_grid_icon = 0,
@@ -1535,8 +1567,8 @@ pg.chapter_capture = {
 				4
 			}
 		}
-	},
-	[5000303] = {
+	}
+	pg.base.chapter_capture[5000303] = {
 		special_item = 2,
 		special_unit_p = 2000,
 		escape_grid_icon = 0,
@@ -1635,8 +1667,8 @@ pg.chapter_capture = {
 				2
 			}
 		}
-	},
-	[5000304] = {
+	}
+	pg.base.chapter_capture[5000304] = {
 		special_item = 2,
 		special_unit_p = 2000,
 		escape_grid_icon = 0,
@@ -1711,8 +1743,8 @@ pg.chapter_capture = {
 				6
 			}
 		}
-	},
-	[5000305] = {
+	}
+	pg.base.chapter_capture[5000305] = {
 		special_item = 2,
 		special_unit_p = 2000,
 		escape_grid_icon = 0,
@@ -1795,8 +1827,8 @@ pg.chapter_capture = {
 				7
 			}
 		}
-	},
-	[5000306] = {
+	}
+	pg.base.chapter_capture[5000306] = {
 		special_item = 2,
 		special_unit_p = 2000,
 		escape_grid_icon = 0,
@@ -1923,8 +1955,8 @@ pg.chapter_capture = {
 				1
 			}
 		}
-	},
-	[5000311] = {
+	}
+	pg.base.chapter_capture[5000311] = {
 		special_item = 2,
 		special_unit_p = 2000,
 		escape_grid_icon = 0,
@@ -2039,8 +2071,8 @@ pg.chapter_capture = {
 				1
 			}
 		}
-	},
-	[5000312] = {
+	}
+	pg.base.chapter_capture[5000312] = {
 		special_item = 2,
 		special_unit_p = 2000,
 		escape_grid_icon = 0,
@@ -2131,8 +2163,8 @@ pg.chapter_capture = {
 				4
 			}
 		}
-	},
-	[5000313] = {
+	}
+	pg.base.chapter_capture[5000313] = {
 		special_item = 2,
 		special_unit_p = 2000,
 		escape_grid_icon = 0,
@@ -2231,8 +2263,8 @@ pg.chapter_capture = {
 				2
 			}
 		}
-	},
-	[5000314] = {
+	}
+	pg.base.chapter_capture[5000314] = {
 		special_item = 2,
 		special_unit_p = 2000,
 		escape_grid_icon = 0,
@@ -2307,8 +2339,8 @@ pg.chapter_capture = {
 				6
 			}
 		}
-	},
-	[5000315] = {
+	}
+	pg.base.chapter_capture[5000315] = {
 		special_item = 2,
 		special_unit_p = 2000,
 		escape_grid_icon = 0,
@@ -2391,8 +2423,8 @@ pg.chapter_capture = {
 				7
 			}
 		}
-	},
-	[5000316] = {
+	}
+	pg.base.chapter_capture[5000316] = {
 		special_item = 2,
 		special_unit_p = 2000,
 		escape_grid_icon = 0,
@@ -2519,31 +2551,5 @@ pg.chapter_capture = {
 				1
 			}
 		}
-	},
-	all = {
-		1150001,
-		1150002,
-		1150003,
-		1150004,
-		1150005,
-		1150006,
-		1150011,
-		1150012,
-		1150013,
-		1150014,
-		1150015,
-		1150016,
-		5000301,
-		5000302,
-		5000303,
-		5000304,
-		5000305,
-		5000306,
-		5000311,
-		5000312,
-		5000313,
-		5000314,
-		5000315,
-		5000316
 	}
-}
+end)()

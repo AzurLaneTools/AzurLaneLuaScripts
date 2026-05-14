@@ -1,6 +1,34 @@
 pg = pg or {}
-pg.world_joint_boss_template = {
-	{
+pg.world_joint_boss_template = rawget(pg, "world_joint_boss_template") or setmetatable({
+	__name = "world_joint_boss_template"
+}, confNEO)
+pg.world_joint_boss_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20
+}
+pg.base = pg.base or {}
+pg.base.world_joint_boss_template = {}
+
+(function ()
+	pg.base.world_joint_boss_template[1] = {
 		name = "飛龍·META",
 		boss_level_id = 1,
 		state = "always",
@@ -28,8 +56,8 @@ pg.world_joint_boss_template = {
 			411,
 			777
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[2] = {
 		name = "皇家方舟·META",
 		boss_level_id = 16,
 		state = "always",
@@ -57,8 +85,8 @@ pg.world_joint_boss_template = {
 			411,
 			574
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[3] = {
 		name = "海倫娜·META",
 		boss_level_id = 31,
 		state = "always",
@@ -90,8 +118,8 @@ pg.world_joint_boss_template = {
 			0.95,
 			0.95
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[4] = {
 		name = "蒼龍·META",
 		boss_level_id = 46,
 		state = "always",
@@ -123,8 +151,8 @@ pg.world_joint_boss_template = {
 			0.95,
 			0.95
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[5] = {
 		name = "格奈森瑙·META",
 		boss_level_id = 61,
 		state = "always",
@@ -152,8 +180,8 @@ pg.world_joint_boss_template = {
 			480,
 			635
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[6] = {
 		name = "沙恩霍斯特·META",
 		boss_level_id = 76,
 		state = "always",
@@ -181,8 +209,8 @@ pg.world_joint_boss_template = {
 			480,
 			635
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[7] = {
 		name = "反擊·META",
 		boss_level_id = 91,
 		state = "stop",
@@ -219,8 +247,8 @@ pg.world_joint_boss_template = {
 			0.95,
 			0.95
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[8] = {
 		name = "聲望·META",
 		boss_level_id = 106,
 		state = "always",
@@ -262,8 +290,8 @@ pg.world_joint_boss_template = {
 			0.9,
 			0.9
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[9] = {
 		name = "亞利桑那·META",
 		boss_level_id = 121,
 		state = "always",
@@ -295,8 +323,8 @@ pg.world_joint_boss_template = {
 			0.9,
 			0.9
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[10] = {
 		name = "伊莉莎白女王·META",
 		boss_level_id = 136,
 		state = "stop",
@@ -328,8 +356,8 @@ pg.world_joint_boss_template = {
 			0.9,
 			0.9
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[11] = {
 		name = "阿爾及利亞·META",
 		boss_level_id = 151,
 		state = "stop",
@@ -361,8 +389,8 @@ pg.world_joint_boss_template = {
 			0.9,
 			0.9
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[12] = {
 		name = "神通·META",
 		boss_level_id = 166,
 		state = "stop",
@@ -399,8 +427,8 @@ pg.world_joint_boss_template = {
 			0.8,
 			0.8
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[13] = {
 		name = "基洛夫·META",
 		boss_level_id = 181,
 		state = "stop",
@@ -432,8 +460,8 @@ pg.world_joint_boss_template = {
 			0.8,
 			0.8
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[14] = {
 		name = "羅德尼META",
 		boss_level_id = 196,
 		state = "stop",
@@ -470,8 +498,8 @@ pg.world_joint_boss_template = {
 			1,
 			1
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[15] = {
 		name = "威奇塔·META",
 		boss_level_id = 211,
 		state = "stop",
@@ -508,8 +536,8 @@ pg.world_joint_boss_template = {
 			1,
 			1
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[16] = {
 		name = "長門·META",
 		boss_level_id = 226,
 		state = "stop",
@@ -541,8 +569,8 @@ pg.world_joint_boss_template = {
 			1,
 			1
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[17] = {
 		name = "大鳳·META",
 		boss_level_id = 241,
 		state = "stop",
@@ -574,8 +602,8 @@ pg.world_joint_boss_template = {
 			1,
 			1
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[18] = {
 		name = "大黃蜂·META",
 		boss_level_id = 256,
 		state = "stop",
@@ -607,10 +635,11 @@ pg.world_joint_boss_template = {
 			0.9,
 			0.9
 		}
-	},
-	{
+	}
+	pg.base.world_joint_boss_template[19] = {
 		name = "江風·META",
 		boss_level_id = 271,
+		state = "stop",
 		item_id = 100000,
 		painting = "jiangfeng",
 		meta_id = 970108,
@@ -627,32 +656,6 @@ pg.world_joint_boss_template = {
 				"\n「二刀流·夕照」的斬擊每累計命中並造成傷害10次，或在單次戰鬥中自身每累計損失20%耐久，江風·META都將召喚一隻「血影」，<color=#92fc63>永久提升自身炮擊、雷擊，並降低「二刀流·夕照」的釋放間隔</color>。"
 			}
 		},
-		state = {
-			{
-				{
-					2026,
-					2,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					5,
-					14
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		},
 		p_offset = {
 			-376,
 			465,
@@ -665,26 +668,63 @@ pg.world_joint_boss_template = {
 			0.68,
 			0.68
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19
 	}
-}
+	pg.base.world_joint_boss_template[20] = {
+		name = "夕立·META",
+		boss_level_id = 286,
+		item_id = 100000,
+		painting = "xili",
+		meta_id = 970109,
+		id = 20,
+		description = {
+			{
+				"我搔搔搔搔",
+				2,
+				"夕立·META會持續鎖定我方<color=#92fc63>目前耐久百分比最高</color>的角色，5秒後對其施展爪擊造成大量傷害，並100%附加<color=#92fc63>持續20秒的特殊點燃狀態</color>（無視閃避，每2秒造成一次點燃傷害，重複附加時不疊加而是重置時間），之後技能進入5秒冷卻。 \n若鎖定期間我方耐久百分比最高的角色發生變化，則重新開始鎖定。"
+			},
+			{
+				"我打打打打",
+				3,
+				"夕立·META的魚雷同樣有30%機率造成持續時間6秒的特殊點燃（無視閃避，每1秒造成一次點燃傷害，點燃傷害可與爪擊特殊點燃疊加）。\n夕立·META對<color=#92fc63>點燃狀態下的單位造成的傷害提升30%</color>，每個處於特殊點燃狀態中的我方單位都會使夕立·META<color=#92fc63>受到的傷害降低10%</color>。"
+			}
+		},
+		state = {
+			{
+				{
+					2026,
+					5,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					20
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		p_offset = {
+			-392,
+			457,
+			0.7,
+			0.7
+		},
+		p_offset_other = {
+			240,
+			484,
+			0.68,
+			0.68
+		}
+	}
+end)()

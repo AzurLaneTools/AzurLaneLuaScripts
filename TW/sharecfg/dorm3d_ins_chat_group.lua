@@ -1,73 +1,60 @@
 pg = pg or {}
-pg.dorm3d_ins_chat_group = setmetatable({
-	__name = "dorm3d_ins_chat_group",
-	get_id_list_by_ship_group = {
-		[20220] = {
-			20220101,
-			20220102,
-			20220103,
-			20220104,
-			20220105
-		},
-		[30221] = {
-			30221101,
-			30221102,
-			30221103,
-			30221104,
-			30221105
-		},
-		[19903] = {
-			19903101,
-			19903102,
-			19903103,
-			19903104,
-			19903105,
-			19903106,
-			19903107,
-			19903108
-		},
-		[10517] = {
-			10517101,
-			10517102,
-			10517103,
-			10517104
-		},
-		[30707] = {
-			30707101,
-			30707102,
-			30707103,
-			30707104,
-			30707105,
-			30707106,
-			30707107,
-			30707108,
-			30707109,
-			30707110
-		},
-		[49905] = {
-			49905101,
-			49905102,
-			49905103,
-			49905104,
-			49905105,
-			49905106,
-			49905107,
-			49905108,
-			49905109,
-			49905110
-		}
+pg.dorm3d_ins_chat_group = rawget(pg, "dorm3d_ins_chat_group") or setmetatable({
+	__name = "dorm3d_ins_chat_group"
+}, confNEO)
+pg.dorm3d_ins_chat_group.__namecode__ = true
+pg.dorm3d_ins_chat_group.all = {
+	20220101,
+	20220102,
+	20220103,
+	20220104,
+	20220105,
+	30221101,
+	30221102,
+	30221103,
+	30221104,
+	30221105,
+	19903101,
+	19903102,
+	19903103,
+	19903104,
+	19903105,
+	19903106,
+	19903107,
+	19903108,
+	10517101,
+	10517102,
+	10517103,
+	10517104,
+	30707101,
+	30707102,
+	30707103,
+	30707104,
+	30707105,
+	30707106,
+	30707107,
+	30707108,
+	30707109,
+	30707110,
+	49905101,
+	49905102,
+	49905103,
+	49905104,
+	49905105,
+	49905106,
+	49905107,
+	49905108,
+	49905109,
+	49905110
+}
+pg.dorm3d_ins_chat_group.get_id_list_by_ship_group = {
+	[10517] = {
+		10517101,
+		10517102,
+		10517103,
+		10517104
 	},
-	all = {
-		20220101,
-		20220102,
-		20220103,
-		20220104,
-		20220105,
-		30221101,
-		30221102,
-		30221103,
-		30221104,
-		30221105,
+	[19903] = {
 		19903101,
 		19903102,
 		19903103,
@@ -75,11 +62,23 @@ pg.dorm3d_ins_chat_group = setmetatable({
 		19903105,
 		19903106,
 		19903107,
-		19903108,
-		10517101,
-		10517102,
-		10517103,
-		10517104,
+		19903108
+	},
+	[20220] = {
+		20220101,
+		20220102,
+		20220103,
+		20220104,
+		20220105
+	},
+	[30221] = {
+		30221101,
+		30221102,
+		30221103,
+		30221104,
+		30221105
+	},
+	[30707] = {
 		30707101,
 		30707102,
 		30707103,
@@ -89,7 +88,9 @@ pg.dorm3d_ins_chat_group = setmetatable({
 		30707107,
 		30707108,
 		30707109,
-		30707110,
+		30707110
+	},
+	[49905] = {
 		49905101,
 		49905102,
 		49905103,
@@ -101,10 +102,12 @@ pg.dorm3d_ins_chat_group = setmetatable({
 		49905109,
 		49905110
 	}
-}, confHX)
+}
 pg.base = pg.base or {}
-pg.base.dorm3d_ins_chat_group = {
-	[20220101] = {
+pg.base.dorm3d_ins_chat_group = {}
+
+(function ()
+	pg.base.dorm3d_ins_chat_group[20220101] = {
 		ship_group = 20220,
 		name = "安心",
 		unlock_desc = "累計進入天狼星宿舍1天",
@@ -129,8 +132,8 @@ pg.base.dorm3d_ins_chat_group = {
 			16,
 			17
 		}
-	},
-	[20220102] = {
+	}
+	pg.base.dorm3d_ins_chat_group[20220102] = {
 		ship_group = 20220,
 		name = "再次會錯意",
 		unlock_desc = "在天狼星宿舍收集20件物品",
@@ -153,8 +156,8 @@ pg.base.dorm3d_ins_chat_group = {
 			31,
 			32
 		}
-	},
-	[20220103] = {
+	}
+	pg.base.dorm3d_ins_chat_group[20220103] = {
 		ship_group = 20220,
 		name = "恢復精神",
 		unlock_desc = "進入10次天狼星的觸摸模式",
@@ -178,8 +181,8 @@ pg.base.dorm3d_ins_chat_group = {
 			47,
 			48
 		}
-	},
-	[20220104] = {
+	}
+	pg.base.dorm3d_ins_chat_group[20220104] = {
 		ship_group = 20220,
 		name = "記錄",
 		unlock_desc = "給天狼星拍2張照片",
@@ -200,8 +203,8 @@ pg.base.dorm3d_ins_chat_group = {
 			60,
 			61
 		}
-	},
-	[20220105] = {
+	}
+	pg.base.dorm3d_ins_chat_group[20220105] = {
 		ship_group = 20220,
 		name = "實現願望",
 		unlock_desc = "夜晚觸摸天狼星1次",
@@ -224,8 +227,8 @@ pg.base.dorm3d_ins_chat_group = {
 			75,
 			76
 		}
-	},
-	[30221101] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30221101] = {
 		ship_group = 30221,
 		name = "只要是您所希望的……",
 		unlock_desc = "累計進入{namecode:50}宿舍1天",
@@ -248,8 +251,8 @@ pg.base.dorm3d_ins_chat_group = {
 			90,
 			91
 		}
-	},
-	[30221102] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30221102] = {
 		ship_group = 30221,
 		name = "依賴",
 		unlock_desc = "在{namecode:50}宿舍收集20件物品",
@@ -273,8 +276,8 @@ pg.base.dorm3d_ins_chat_group = {
 			106,
 			107
 		}
-	},
-	[30221103] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30221103] = {
 		ship_group = 30221,
 		name = "話題",
 		unlock_desc = "和{namecode:50}對話15次",
@@ -298,8 +301,8 @@ pg.base.dorm3d_ins_chat_group = {
 			122,
 			123
 		}
-	},
-	[30221104] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30221104] = {
 		ship_group = 30221,
 		name = "向著未來",
 		unlock_desc = "進入10次{namecode:50}的觸控模式",
@@ -322,8 +325,8 @@ pg.base.dorm3d_ins_chat_group = {
 			137,
 			138
 		}
-	},
-	[30221105] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30221105] = {
 		ship_group = 30221,
 		name = "今宵月色真美",
 		unlock_desc = "在夜晚給{namecode:50}拍照",
@@ -347,8 +350,8 @@ pg.base.dorm3d_ins_chat_group = {
 			153,
 			154
 		}
-	},
-	[19903101] = {
+	}
+	pg.base.dorm3d_ins_chat_group[19903101] = {
 		ship_group = 19903,
 		name = "睡前",
 		unlock_desc = "累計進入安克拉治宿舍1天",
@@ -374,8 +377,8 @@ pg.base.dorm3d_ins_chat_group = {
 			171,
 			172
 		}
-	},
-	[19903102] = {
+	}
+	pg.base.dorm3d_ins_chat_group[19903102] = {
 		ship_group = 19903,
 		name = "最需要",
 		unlock_desc = "進入安克拉治宿舍第2天解鎖",
@@ -402,8 +405,8 @@ pg.base.dorm3d_ins_chat_group = {
 			190,
 			191
 		}
-	},
-	[19903103] = {
+	}
+	pg.base.dorm3d_ins_chat_group[19903103] = {
 		ship_group = 19903,
 		name = "特別的是…",
 		unlock_desc = "進入安克拉治宿舍第4天解鎖",
@@ -430,8 +433,8 @@ pg.base.dorm3d_ins_chat_group = {
 			209,
 			210
 		}
-	},
-	[19903104] = {
+	}
+	pg.base.dorm3d_ins_chat_group[19903104] = {
 		ship_group = 19903,
 		name = "遺失的秘密",
 		unlock_desc = "在安克拉治宿舍收集20件物品",
@@ -462,8 +465,8 @@ pg.base.dorm3d_ins_chat_group = {
 			232,
 			233
 		}
-	},
-	[19903105] = {
+	}
+	pg.base.dorm3d_ins_chat_group[19903105] = {
 		ship_group = 19903,
 		name = "需要更多…",
 		unlock_desc = "進入10次安克拉治的觸摸模式",
@@ -490,8 +493,8 @@ pg.base.dorm3d_ins_chat_group = {
 			251,
 			252
 		}
-	},
-	[19903106] = {
+	}
+	pg.base.dorm3d_ins_chat_group[19903106] = {
 		ship_group = 19903,
 		name = "謝謝的意義",
 		unlock_desc = "給安克拉治贈送5次禮物",
@@ -518,8 +521,8 @@ pg.base.dorm3d_ins_chat_group = {
 			270,
 			271
 		}
-	},
-	[19903107] = {
+	}
+	pg.base.dorm3d_ins_chat_group[19903107] = {
 		ship_group = 19903,
 		name = "喜歡的理由…",
 		unlock_desc = "在安克拉治小遊戲中獲得3分",
@@ -545,8 +548,8 @@ pg.base.dorm3d_ins_chat_group = {
 			288,
 			289
 		}
-	},
-	[19903108] = {
+	}
+	pg.base.dorm3d_ins_chat_group[19903108] = {
 		ship_group = 19903,
 		name = "回禮",
 		unlock_desc = "在夜晚給安克拉治送禮",
@@ -573,8 +576,8 @@ pg.base.dorm3d_ins_chat_group = {
 			307,
 			308
 		}
-	},
-	[10517101] = {
+	}
+	pg.base.dorm3d_ins_chat_group[10517101] = {
 		ship_group = 10517,
 		name = "醒來之後，想看到你",
 		unlock_desc = "紐澤西進入宿舍1天",
@@ -601,8 +604,8 @@ pg.base.dorm3d_ins_chat_group = {
 			326,
 			327
 		}
-	},
-	[10517102] = {
+	}
+	pg.base.dorm3d_ins_chat_group[10517102] = {
 		ship_group = 10517,
 		name = "關於行程安排",
 		unlock_desc = "紐澤西解鎖宿舍4天",
@@ -631,8 +634,8 @@ pg.base.dorm3d_ins_chat_group = {
 			346,
 			347
 		}
-	},
-	[10517103] = {
+	}
+	pg.base.dorm3d_ins_chat_group[10517103] = {
 		ship_group = 10517,
 		name = "動作電影",
 		unlock_desc = "紐澤西解鎖宿舍7天",
@@ -657,8 +660,8 @@ pg.base.dorm3d_ins_chat_group = {
 			363,
 			364
 		}
-	},
-	[10517104] = {
+	}
+	pg.base.dorm3d_ins_chat_group[10517104] = {
 		ship_group = 10517,
 		name = "少女的秘密？",
 		unlock_desc = "紐澤西可收集物品達到20個",
@@ -687,8 +690,8 @@ pg.base.dorm3d_ins_chat_group = {
 			384,
 			385
 		}
-	},
-	[30707101] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30707101] = {
 		ship_group = 30707,
 		name = "二人世界",
 		unlock_desc = "累計進入大鳳宿舍1天",
@@ -707,8 +710,8 @@ pg.base.dorm3d_ins_chat_group = {
 			395,
 			396
 		}
-	},
-	[30707102] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30707102] = {
 		ship_group = 30707,
 		name = "變慢的時間",
 		unlock_desc = "進入大鳳宿舍第2天解鎖",
@@ -729,8 +732,8 @@ pg.base.dorm3d_ins_chat_group = {
 			408,
 			409
 		}
-	},
-	[30707103] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30707103] = {
 		ship_group = 30707,
 		name = "愛心便當",
 		unlock_desc = "進入大鳳宿舍第4天解鎖",
@@ -751,8 +754,8 @@ pg.base.dorm3d_ins_chat_group = {
 			421,
 			422
 		}
-	},
-	[30707104] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30707104] = {
 		ship_group = 30707,
 		name = "殺蟲規劃圖",
 		unlock_desc = "在大鳳宿舍中收集20件物品",
@@ -771,8 +774,8 @@ pg.base.dorm3d_ins_chat_group = {
 			432,
 			433
 		}
-	},
-	[30707105] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30707105] = {
 		ship_group = 30707,
 		name = "合照",
 		unlock_desc = "觸摸大鳳3次",
@@ -791,8 +794,8 @@ pg.base.dorm3d_ins_chat_group = {
 			443,
 			444
 		}
-	},
-	[30707106] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30707106] = {
 		ship_group = 30707,
 		name = "被爐",
 		unlock_desc = "給大鳳贈送5次禮物",
@@ -817,8 +820,8 @@ pg.base.dorm3d_ins_chat_group = {
 			460,
 			461
 		}
-	},
-	[30707107] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30707107] = {
 		ship_group = 30707,
 		name = "正常清洗",
 		unlock_desc = "累計進入大鳳宿舍7天",
@@ -839,8 +842,8 @@ pg.base.dorm3d_ins_chat_group = {
 			473,
 			474
 		}
-	},
-	[30707108] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30707108] = {
 		ship_group = 30707,
 		name = "話題與茶",
 		unlock_desc = "和大鳳對話15次",
@@ -864,8 +867,8 @@ pg.base.dorm3d_ins_chat_group = {
 			489,
 			490
 		}
-	},
-	[30707109] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30707109] = {
 		ship_group = 30707,
 		name = "依賴與按摩",
 		unlock_desc = "觸摸大鳳5次",
@@ -888,8 +891,8 @@ pg.base.dorm3d_ins_chat_group = {
 			504,
 			505
 		}
-	},
-	[30707110] = {
+	}
+	pg.base.dorm3d_ins_chat_group[30707110] = {
 		ship_group = 30707,
 		name = "珍貴之物",
 		unlock_desc = "給大鳳贈送10次禮物",
@@ -912,8 +915,8 @@ pg.base.dorm3d_ins_chat_group = {
 			519,
 			520
 		}
-	},
-	[49905101] = {
+	}
+	pg.base.dorm3d_ins_chat_group[49905101] = {
 		ship_group = 49905,
 		name = "睡前「問候」",
 		unlock_desc = "累計進入{namecode:480}宿舍1天",
@@ -937,8 +940,8 @@ pg.base.dorm3d_ins_chat_group = {
 			535,
 			536
 		}
-	},
-	[49905102] = {
+	}
+	pg.base.dorm3d_ins_chat_group[49905102] = {
 		ship_group = 49905,
 		name = "水族箱？",
 		unlock_desc = "進入{namecode:480}宿舍第2天解鎖",
@@ -968,8 +971,8 @@ pg.base.dorm3d_ins_chat_group = {
 			557,
 			558
 		}
-	},
-	[49905103] = {
+	}
+	pg.base.dorm3d_ins_chat_group[49905103] = {
 		ship_group = 49905,
 		name = "幸運物",
 		unlock_desc = "進入{namecode:480}宿舍第4天解鎖",
@@ -998,8 +1001,8 @@ pg.base.dorm3d_ins_chat_group = {
 			578,
 			579
 		}
-	},
-	[49905104] = {
+	}
+	pg.base.dorm3d_ins_chat_group[49905104] = {
 		ship_group = 49905,
 		name = "沒被發現的東西",
 		unlock_desc = "在{namecode:480}宿舍中收集20件物品",
@@ -1027,8 +1030,8 @@ pg.base.dorm3d_ins_chat_group = {
 			598,
 			599
 		}
-	},
-	[49905105] = {
+	}
+	pg.base.dorm3d_ins_chat_group[49905105] = {
 		ship_group = 49905,
 		name = "依存症",
 		unlock_desc = "觸摸{namecode:480}3次",
@@ -1055,8 +1058,8 @@ pg.base.dorm3d_ins_chat_group = {
 			617,
 			618
 		}
-	},
-	[49905106] = {
+	}
+	pg.base.dorm3d_ins_chat_group[49905106] = {
 		ship_group = 49905,
 		name = "被留下的，被帶走的",
 		unlock_desc = "給{namecode:480}贈送5次禮物",
@@ -1077,8 +1080,8 @@ pg.base.dorm3d_ins_chat_group = {
 			630,
 			631
 		}
-	},
-	[49905107] = {
+	}
+	pg.base.dorm3d_ins_chat_group[49905107] = {
 		ship_group = 49905,
 		name = "好勝心",
 		unlock_desc = "累計進入{namecode:480}宿舍7天",
@@ -1104,8 +1107,8 @@ pg.base.dorm3d_ins_chat_group = {
 			648,
 			649
 		}
-	},
-	[49905108] = {
+	}
+	pg.base.dorm3d_ins_chat_group[49905108] = {
 		ship_group = 49905,
 		name = "星不落的夜晚",
 		unlock_desc = "和{namecode:480}對話15次",
@@ -1138,8 +1141,8 @@ pg.base.dorm3d_ins_chat_group = {
 			673,
 			674
 		}
-	},
-	[49905109] = {
+	}
+	pg.base.dorm3d_ins_chat_group[49905109] = {
 		ship_group = 49905,
 		name = "特别款待",
 		unlock_desc = "觸摸{namecode:480}5次",
@@ -1165,8 +1168,8 @@ pg.base.dorm3d_ins_chat_group = {
 			691,
 			692
 		}
-	},
-	[49905110] = {
+	}
+	pg.base.dorm3d_ins_chat_group[49905110] = {
 		ship_group = 49905,
 		name = "焦點「誤入」",
 		unlock_desc = "給{namecode:480}贈送10次禮物",
@@ -1194,4 +1197,4 @@ pg.base.dorm3d_ins_chat_group = {
 			711
 		}
 	}
-}
+end)()

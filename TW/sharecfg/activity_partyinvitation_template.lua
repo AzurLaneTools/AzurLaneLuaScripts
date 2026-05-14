@@ -1,6 +1,21 @@
 pg = pg or {}
-pg.activity_partyinvitation_template = {
-	{
+pg.activity_partyinvitation_template = rawget(pg, "activity_partyinvitation_template") or setmetatable({
+	__name = "activity_partyinvitation_template"
+}, confNEO)
+pg.activity_partyinvitation_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7
+}
+pg.base = pg.base or {}
+pg.base.activity_partyinvitation_template = {}
+
+(function ()
+	pg.base.activity_partyinvitation_template[1] = {
 		skinId = 107065,
 		groupid = 10706,
 		getletter_story = "YUANWEIFANGXINMIMANSHI2",
@@ -36,8 +51,8 @@ pg.activity_partyinvitation_template = {
 			"跳舞？當然沒問題！那就好好指揮——不，指導我吧！",
 			"舞步，也是必須要掌握的技能呢！"
 		}
-	},
-	{
+	}
+	pg.base.activity_partyinvitation_template[2] = {
 		skinId = 107092,
 		groupid = 10709,
 		getletter_story = "YUANWEIFANGXINMIMANSHI3",
@@ -73,8 +88,8 @@ pg.activity_partyinvitation_template = {
 			"跳舞？看來指揮官對自己的舞技很有自信嘛~",
 			"一噠噠~二噠噠~我的舞步應該還沒有生疏。"
 		}
-	},
-	{
+	}
+	pg.base.activity_partyinvitation_template[3] = {
 		skinId = 305101,
 		groupid = 30510,
 		getletter_story = "YUANWEIFANGXINMIMANSHI4",
@@ -110,8 +125,8 @@ pg.activity_partyinvitation_template = {
 			"邀請我跳舞的話，最好是慢板舞呢，呵呵~",
 			"跳舞時的肌膚之親也是不可避免的吧~"
 		}
-	},
-	{
+	}
+	pg.base.activity_partyinvitation_template[4] = {
 		skinId = 905011,
 		groupid = 90501,
 		getletter_story = "YUANWEIFANGXINMIMANSHI5",
@@ -147,8 +162,8 @@ pg.activity_partyinvitation_template = {
 			"跳舞？既然是指揮官你的邀請，我當然會接受。",
 			"先說好，我並不太擅長跳舞，說不定會踩到你哦……"
 		}
-	},
-	{
+	}
+	pg.base.activity_partyinvitation_template[5] = {
 		skinId = 702010,
 		groupid = 70201,
 		getletter_story = "YUANWEIFANGXINMIMANSHI6",
@@ -184,8 +199,8 @@ pg.activity_partyinvitation_template = {
 			"我很樂意接受您的邀請。那我們就開始吧。",
 			"跳舞時兩個人的距離……再靠近一些也沒關係。"
 		}
-	},
-	{
+	}
+	pg.base.activity_partyinvitation_template[6] = {
 		skinId = 205011,
 		groupid = 20501,
 		getletter_story = "YUANWEIFANGXINMIMANSHI8",
@@ -221,8 +236,8 @@ pg.activity_partyinvitation_template = {
 			"正好，就讓本王看看你的舞技進步如何了。",
 			"僕從，你要努力跟上本王的舞步啊。"
 		}
-	},
-	{
+	}
+	pg.base.activity_partyinvitation_template[7] = {
 		skinId = 405011,
 		groupid = 40501,
 		getletter_story = "YUANWEIFANGXINMIMANSHI7",
@@ -258,14 +273,5 @@ pg.activity_partyinvitation_template = {
 			"邀請我共舞？呵呵~我接下來的時間，就交給你了。",
 			"跳舞時，你看到了不一樣的我嗎？呵呵~"
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7
 	}
-}
+end)()

@@ -1,5 +1,41 @@
 pg = pg or {}
 pg.enemy_data_statistics_51 = {
+	[8005] = {
+		cannon = 80,
+		antisub = 0,
+		air = 0,
+		cannon_growth = 576,
+		armor = 0,
+		reload = 150,
+		base = 90163,
+		dodge = 18,
+		torpedo_growth = 4800,
+		air_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 270,
+		speed_growth = 0,
+		star = 4,
+		hit = 14,
+		antisub_growth = 0,
+		rarity = 3,
+		luck_growth = 0,
+		torpedo = 200,
+		durability = 3000,
+		armor_growth = 0,
+		durability_growth = 25000,
+		antiaircraft = 24,
+		speed = 37,
+		luck = 0,
+		hit_growth = 210,
+		battle_unit_type = 50,
+		id = 8005,
+		antiaircraft_growth = 2016,
+		fog_fx = "",
+		equipment_list = {
+			100223,
+			100432
+		}
+	},
 	[8006] = {
 		cannon = 80,
 		antisub = 0,
@@ -1520,48 +1556,6 @@ pg.enemy_data_statistics_51 = {
 		equipment_list = {
 			318042,
 			318043
-		}
-	},
-	[9017] = {
-		cannon = 240,
-		name = "利根",
-		hit_growth = 210,
-		speed_growth = 0,
-		antiaircraft_growth = 2590,
-		air = 0,
-		antisub = 0,
-		armor = 0,
-		rarity = 3,
-		antiaircraft = 135,
-		fog_fx = "",
-		dodge_growth = 102,
-		star = 4,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90206,
-		durability = 7000,
-		armor_growth = 0,
-		torpedo_growth = 2800,
-		speed = 18,
-		luck = 0,
-		id = 9017,
-		cannon_growth = 1600,
-		pilot_ai_template_id = 20004,
-		reload = 150,
-		dodge = 7,
-		reload_growth = 0,
-		hit = 20,
-		torpedo = 280,
-		durability_growth = 55000,
-		luck_growth = 0,
-		battle_unit_type = 60,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			318044,
-			318045,
-			318046
 		}
 	}
 }

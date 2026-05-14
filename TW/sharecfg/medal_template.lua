@@ -1,6 +1,140 @@
 pg = pg or {}
-pg.medal_template = {
-	[10011] = {
+pg.medal_template = rawget(pg, "medal_template") or setmetatable({
+	__name = "medal_template"
+}, confNEO)
+pg.medal_template.all = {
+	10011,
+	10012,
+	10013,
+	10014,
+	10015,
+	10021,
+	10022,
+	10023,
+	10024,
+	10025,
+	10031,
+	10032,
+	10033,
+	10034,
+	10035,
+	10041,
+	10042,
+	10043,
+	10044,
+	10045,
+	10051,
+	10052,
+	10053,
+	10054,
+	10055,
+	10061,
+	10062,
+	10063,
+	10064,
+	10065,
+	10071,
+	10072,
+	10073,
+	10074,
+	10075,
+	10081,
+	10082,
+	10083,
+	10084,
+	10085,
+	10091,
+	10092,
+	10093,
+	10094,
+	10095,
+	10101,
+	10102,
+	10103,
+	10104,
+	10105,
+	100611,
+	100612,
+	100613,
+	100614,
+	100615,
+	100621,
+	100622,
+	100623,
+	100624,
+	100625,
+	100631,
+	100632,
+	100633,
+	100634,
+	100635,
+	100711,
+	100712,
+	100713,
+	100714,
+	100715,
+	100721,
+	100722,
+	100723,
+	100724,
+	100725,
+	100731,
+	100732,
+	100733,
+	100734,
+	100735,
+	100811,
+	100812,
+	100813,
+	100814,
+	100815,
+	100821,
+	100822,
+	100823,
+	100824,
+	100825,
+	100831,
+	100832,
+	100833,
+	100834,
+	100835,
+	100911,
+	100912,
+	100913,
+	100914,
+	100915,
+	100921,
+	100922,
+	100923,
+	100924,
+	100925,
+	100931,
+	100932,
+	100933,
+	100934,
+	100935,
+	200001,
+	200011,
+	200021,
+	200031,
+	200041,
+	200051,
+	200061,
+	200071,
+	200081,
+	200091,
+	200101,
+	200111,
+	200121,
+	200131,
+	200141,
+	200151
+}
+pg.base = pg.base or {}
+pg.base.medal_template = {}
+
+(function ()
+	pg.base.medal_template[10011] = {
 		target_id = "0",
 		name = "海軍優秀服役勳章",
 		target_num = 2000,
@@ -20,8 +154,8 @@ pg.medal_template = {
 		id = 10011,
 		explain1 = "授予在服役期間",
 		explain2 = "表現優秀的指揮官"
-	},
-	[10012] = {
+	}
+	pg.base.medal_template[10012] = {
 		target_id = "0",
 		name = "海軍優秀服役勳章",
 		target_num = 4000,
@@ -41,8 +175,8 @@ pg.medal_template = {
 		id = 10012,
 		explain1 = "授予在服役期間",
 		explain2 = "表現優秀的指揮官"
-	},
-	[10013] = {
+	}
+	pg.base.medal_template[10013] = {
 		target_id = "0",
 		name = "海軍優秀服役勳章",
 		target_num = 10000,
@@ -62,8 +196,8 @@ pg.medal_template = {
 		id = 10013,
 		explain1 = "授予在服役期間",
 		explain2 = "表現優秀的指揮官"
-	},
-	[10014] = {
+	}
+	pg.base.medal_template[10014] = {
 		target_id = "0",
 		name = "海軍優秀服役勳章",
 		target_num = 20000,
@@ -83,8 +217,8 @@ pg.medal_template = {
 		id = 10014,
 		explain1 = "授予在服役期間",
 		explain2 = "表現優秀的指揮官"
-	},
-	[10015] = {
+	}
+	pg.base.medal_template[10015] = {
 		target_id = "0",
 		name = "海軍優秀服役勳章",
 		target_num = 1,
@@ -104,8 +238,8 @@ pg.medal_template = {
 		id = 10015,
 		explain1 = "授予在服役期間",
 		explain2 = "表現優秀的指揮官"
-	},
-	[10021] = {
+	}
+	pg.base.medal_template[10021] = {
 		target_id = "0",
 		name = "恪盡職守勳章",
 		target_num = 100,
@@ -125,8 +259,8 @@ pg.medal_template = {
 		id = 10021,
 		explain1 = "授予在服役期間",
 		explain2 = "恪守職責的指揮官"
-	},
-	[10022] = {
+	}
+	pg.base.medal_template[10022] = {
 		target_id = "0",
 		name = "恪盡職守勳章",
 		target_num = 300,
@@ -146,8 +280,8 @@ pg.medal_template = {
 		id = 10022,
 		explain1 = "授予在服役期間",
 		explain2 = "恪守職責的指揮官"
-	},
-	[10023] = {
+	}
+	pg.base.medal_template[10023] = {
 		target_id = "0",
 		name = "恪盡職守勳章",
 		target_num = 800,
@@ -167,8 +301,8 @@ pg.medal_template = {
 		id = 10023,
 		explain1 = "授予在服役期間",
 		explain2 = "恪守職責的指揮官"
-	},
-	[10024] = {
+	}
+	pg.base.medal_template[10024] = {
 		target_id = "0",
 		name = "恪盡職守勳章",
 		target_num = 1600,
@@ -188,8 +322,8 @@ pg.medal_template = {
 		id = 10024,
 		explain1 = "授予在服役期間",
 		explain2 = "恪守職責的指揮官"
-	},
-	[10025] = {
+	}
+	pg.base.medal_template[10025] = {
 		target_id = "0",
 		name = "恪盡職守勳章",
 		target_num = 3200,
@@ -209,8 +343,8 @@ pg.medal_template = {
 		id = 10025,
 		explain1 = "授予在服役期間",
 		explain2 = "恪守職責的指揮官"
-	},
-	[10031] = {
+	}
+	pg.base.medal_template[10031] = {
 		target_id = "5",
 		name = "海洋探索者勳章",
 		target_num = 1,
@@ -230,8 +364,8 @@ pg.medal_template = {
 		id = 10031,
 		explain1 = "授予在信念堅定",
 		explain2 = "持之以恆的指揮官"
-	},
-	[10032] = {
+	}
+	pg.base.medal_template[10032] = {
 		target_id = "5",
 		name = "海洋探索者勳章",
 		target_num = 3,
@@ -251,8 +385,8 @@ pg.medal_template = {
 		id = 10032,
 		explain1 = "授予在信念堅定",
 		explain2 = "持之以恆的指揮官"
-	},
-	[10033] = {
+	}
+	pg.base.medal_template[10033] = {
 		target_id = "5",
 		name = "海洋探索者勳章",
 		target_num = 10,
@@ -272,8 +406,8 @@ pg.medal_template = {
 		id = 10033,
 		explain1 = "授予在信念堅定",
 		explain2 = "持之以恆的指揮官"
-	},
-	[10034] = {
+	}
+	pg.base.medal_template[10034] = {
 		target_id = "5",
 		name = "海洋探索者勳章",
 		target_num = 20,
@@ -293,8 +427,8 @@ pg.medal_template = {
 		id = 10034,
 		explain1 = "授予在信念堅定",
 		explain2 = "持之以恆的指揮官"
-	},
-	[10035] = {
+	}
+	pg.base.medal_template[10035] = {
 		target_id = "0",
 		name = "海洋探索者勳章",
 		target_num = 1,
@@ -314,8 +448,8 @@ pg.medal_template = {
 		id = 10035,
 		explain1 = "授予在信念堅定",
 		explain2 = "持之以恆的指揮官"
-	},
-	[10041] = {
+	}
+	pg.base.medal_template[10041] = {
 		target_id = "0",
 		name = "傑出服務勳章",
 		target_num = 3000,
@@ -335,8 +469,8 @@ pg.medal_template = {
 		id = 10041,
 		explain1 = "授予為港區建設",
 		explain2 = "貢獻傑出的指揮官"
-	},
-	[10042] = {
+	}
+	pg.base.medal_template[10042] = {
 		target_id = "0",
 		name = "傑出服務勳章",
 		target_num = 7000,
@@ -356,8 +490,8 @@ pg.medal_template = {
 		id = 10042,
 		explain1 = "授予為港區建設",
 		explain2 = "貢獻傑出的指揮官"
-	},
-	[10043] = {
+	}
+	pg.base.medal_template[10043] = {
 		target_id = "0",
 		name = "傑出服務勳章",
 		target_num = 15000,
@@ -377,8 +511,8 @@ pg.medal_template = {
 		id = 10043,
 		explain1 = "授予為港區建設",
 		explain2 = "貢獻傑出的指揮官"
-	},
-	[10044] = {
+	}
+	pg.base.medal_template[10044] = {
 		target_id = "0",
 		name = "傑出服務勳章",
 		target_num = 30000,
@@ -398,8 +532,8 @@ pg.medal_template = {
 		id = 10044,
 		explain1 = "授予為港區建設",
 		explain2 = "貢獻傑出的指揮官"
-	},
-	[10045] = {
+	}
+	pg.base.medal_template[10045] = {
 		target_id = "0",
 		name = "傑出服務勳章",
 		target_num = 60000,
@@ -419,8 +553,8 @@ pg.medal_template = {
 		id = 10045,
 		explain1 = "授予為港區建設",
 		explain2 = "貢獻傑出的指揮官"
-	},
-	[10051] = {
+	}
+	pg.base.medal_template[10051] = {
 		target_id = "10000",
 		name = "玫瑰誓約紀念章",
 		target_num = 10,
@@ -440,8 +574,8 @@ pg.medal_template = {
 		id = 10051,
 		explain1 = "點滴中耕耘的羈絆",
 		explain2 = "如玫瑰般綻放於心間"
-	},
-	[10052] = {
+	}
+	pg.base.medal_template[10052] = {
 		target_id = "10000",
 		name = "玫瑰誓約紀念章",
 		target_num = 20,
@@ -461,8 +595,8 @@ pg.medal_template = {
 		id = 10052,
 		explain1 = "點滴中耕耘的羈絆",
 		explain2 = "如玫瑰般綻放於心間"
-	},
-	[10053] = {
+	}
+	pg.base.medal_template[10053] = {
 		target_id = "10000",
 		name = "玫瑰誓約紀念章",
 		target_num = 50,
@@ -482,8 +616,8 @@ pg.medal_template = {
 		id = 10053,
 		explain1 = "點滴中耕耘的羈絆",
 		explain2 = "如玫瑰般綻放於心間"
-	},
-	[10054] = {
+	}
+	pg.base.medal_template[10054] = {
 		target_id = "10000",
 		name = "玫瑰誓約紀念章",
 		target_num = 100,
@@ -503,8 +637,8 @@ pg.medal_template = {
 		id = 10054,
 		explain1 = "點滴中耕耘的羈絆",
 		explain2 = "如玫瑰般綻放於心間"
-	},
-	[10055] = {
+	}
+	pg.base.medal_template[10055] = {
 		target_id = "10000",
 		name = "玫瑰誓約紀念章",
 		target_num = 200,
@@ -524,8 +658,8 @@ pg.medal_template = {
 		id = 10055,
 		explain1 = "點滴中耕耘的羈絆",
 		explain2 = "如玫瑰般綻放於心間"
-	},
-	[10061] = {
+	}
+	pg.base.medal_template[10061] = {
 		name = "白鷹海軍榮譽勳章",
 		target_num = 3,
 		type = 0,
@@ -549,8 +683,8 @@ pg.medal_template = {
 			100621,
 			100631
 		}
-	},
-	[10062] = {
+	}
+	pg.base.medal_template[10062] = {
 		name = "白鷹海軍榮譽勳章",
 		target_num = 3,
 		type = 0,
@@ -574,8 +708,8 @@ pg.medal_template = {
 			100622,
 			100632
 		}
-	},
-	[10063] = {
+	}
+	pg.base.medal_template[10063] = {
 		target_id = "0",
 		name = "白鷹海軍榮譽勳章",
 		target_num = 1,
@@ -595,8 +729,8 @@ pg.medal_template = {
 		id = 10063,
 		explain1 = "以白鷹之名授予",
 		explain2 = "最傑出的指揮官"
-	},
-	[10064] = {
+	}
+	pg.base.medal_template[10064] = {
 		target_id = "0",
 		name = "白鷹海軍榮譽勳章",
 		target_num = 1,
@@ -616,8 +750,8 @@ pg.medal_template = {
 		id = 10064,
 		explain1 = "以白鷹之名授予",
 		explain2 = "最傑出的指揮官"
-	},
-	[10065] = {
+	}
+	pg.base.medal_template[10065] = {
 		target_id = "0",
 		name = "白鷹海軍榮譽勳章",
 		target_num = 1,
@@ -637,8 +771,8 @@ pg.medal_template = {
 		id = 10065,
 		explain1 = "以白鷹之名授予",
 		explain2 = "最傑出的指揮官"
-	},
-	[10071] = {
+	}
+	pg.base.medal_template[10071] = {
 		name = "皇家海軍十字勳章",
 		target_num = 3,
 		type = 0,
@@ -662,8 +796,8 @@ pg.medal_template = {
 			100721,
 			100731
 		}
-	},
-	[10072] = {
+	}
+	pg.base.medal_template[10072] = {
 		name = "皇家海軍十字勳章",
 		target_num = 3,
 		type = 0,
@@ -687,8 +821,8 @@ pg.medal_template = {
 			100722,
 			100732
 		}
-	},
-	[10073] = {
+	}
+	pg.base.medal_template[10073] = {
 		target_id = "0",
 		name = "皇家海軍十字勳章",
 		target_num = 1,
@@ -708,8 +842,8 @@ pg.medal_template = {
 		id = 10073,
 		explain1 = "以皇家之名贈予",
 		explain2 = "最英勇的指揮官"
-	},
-	[10074] = {
+	}
+	pg.base.medal_template[10074] = {
 		target_id = "0",
 		name = "皇家海軍十字勳章",
 		target_num = 1,
@@ -729,8 +863,8 @@ pg.medal_template = {
 		id = 10074,
 		explain1 = "以皇家之名贈予",
 		explain2 = "最英勇的指揮官"
-	},
-	[10075] = {
+	}
+	pg.base.medal_template[10075] = {
 		target_id = "0",
 		name = "皇家海軍十字勳章",
 		target_num = 1,
@@ -750,8 +884,8 @@ pg.medal_template = {
 		id = 10075,
 		explain1 = "以皇家之名贈予",
 		explain2 = "最英勇的指揮官"
-	},
-	[10081] = {
+	}
+	pg.base.medal_template[10081] = {
 		name = "重櫻勳位大綬章",
 		target_num = 3,
 		type = 0,
@@ -775,8 +909,8 @@ pg.medal_template = {
 			100821,
 			100831
 		}
-	},
-	[10082] = {
+	}
+	pg.base.medal_template[10082] = {
 		name = "重櫻勳位大綬章",
 		target_num = 3,
 		type = 0,
@@ -800,8 +934,8 @@ pg.medal_template = {
 			100822,
 			100832
 		}
-	},
-	[10083] = {
+	}
+	pg.base.medal_template[10083] = {
 		target_id = "0",
 		name = "重櫻勳位大綬章",
 		target_num = 1,
@@ -821,8 +955,8 @@ pg.medal_template = {
 		id = 10083,
 		explain1 = "以重櫻之名授予",
 		explain2 = "最卓越的指揮官"
-	},
-	[10084] = {
+	}
+	pg.base.medal_template[10084] = {
 		target_id = "0",
 		name = "重櫻勳位大綬章",
 		target_num = 1,
@@ -842,8 +976,8 @@ pg.medal_template = {
 		id = 10084,
 		explain1 = "以重櫻之名授予",
 		explain2 = "最卓越的指揮官"
-	},
-	[10085] = {
+	}
+	pg.base.medal_template[10085] = {
 		target_id = "0",
 		name = "重櫻勳位大綬章",
 		target_num = 1,
@@ -863,8 +997,8 @@ pg.medal_template = {
 		id = 10085,
 		explain1 = "以重櫻之名授予",
 		explain2 = "最卓越的指揮官"
-	},
-	[10091] = {
+	}
+	pg.base.medal_template[10091] = {
 		name = "鐵血海軍功勳勳章",
 		target_num = 3,
 		type = 0,
@@ -888,8 +1022,8 @@ pg.medal_template = {
 			100921,
 			100931
 		}
-	},
-	[10092] = {
+	}
+	pg.base.medal_template[10092] = {
 		name = "鐵血海軍功勳勳章",
 		target_num = 3,
 		type = 0,
@@ -913,8 +1047,8 @@ pg.medal_template = {
 			100922,
 			100932
 		}
-	},
-	[10093] = {
+	}
+	pg.base.medal_template[10093] = {
 		target_id = "0",
 		name = "鐵血海軍功勳勳章",
 		target_num = 1,
@@ -934,8 +1068,8 @@ pg.medal_template = {
 		id = 10093,
 		explain1 = "以鐵血之名獎勵",
 		explain2 = "最出色的指揮官"
-	},
-	[10094] = {
+	}
+	pg.base.medal_template[10094] = {
 		target_id = "0",
 		name = "鐵血海軍功勳勳章",
 		target_num = 1,
@@ -955,8 +1089,8 @@ pg.medal_template = {
 		id = 10094,
 		explain1 = "以鐵血之名獎勵",
 		explain2 = "最出色的指揮官"
-	},
-	[10095] = {
+	}
+	pg.base.medal_template[10095] = {
 		target_id = "0",
 		name = "鐵血海軍功勳勳章",
 		target_num = 1,
@@ -976,8 +1110,8 @@ pg.medal_template = {
 		id = 10095,
 		explain1 = "以鐵血之名獎勵",
 		explain2 = "最出色的指揮官"
-	},
-	[10101] = {
+	}
+	pg.base.medal_template[10101] = {
 		target_id = "0",
 		name = "海軍服役成就獎章",
 		target_num = 100,
@@ -997,8 +1131,8 @@ pg.medal_template = {
 		id = 10101,
 		explain1 = "獎勵在艦隊擴大中",
 		explain2 = "有所建樹的指揮官"
-	},
-	[10102] = {
+	}
+	pg.base.medal_template[10102] = {
 		target_id = "0",
 		name = "海軍服役成就獎章",
 		target_num = 200,
@@ -1018,8 +1152,8 @@ pg.medal_template = {
 		id = 10102,
 		explain1 = "獎勵在艦隊擴大中",
 		explain2 = "有所建樹的指揮官"
-	},
-	[10103] = {
+	}
+	pg.base.medal_template[10103] = {
 		target_id = "0",
 		name = "海軍服役成就獎章",
 		target_num = 300,
@@ -1039,8 +1173,8 @@ pg.medal_template = {
 		id = 10103,
 		explain1 = "獎勵在艦隊擴大中",
 		explain2 = "有所建樹的指揮官"
-	},
-	[10104] = {
+	}
+	pg.base.medal_template[10104] = {
 		target_id = "0",
 		name = "海軍服役成就獎章",
 		target_num = 1,
@@ -1060,8 +1194,8 @@ pg.medal_template = {
 		id = 10104,
 		explain1 = "獎勵在艦隊擴大中",
 		explain2 = "有所建樹的指揮官"
-	},
-	[10105] = {
+	}
+	pg.base.medal_template[10105] = {
 		target_id = "0",
 		name = "海軍服役成就獎章",
 		target_num = 1,
@@ -1081,8 +1215,8 @@ pg.medal_template = {
 		id = 10105,
 		explain1 = "獎勵在艦隊擴大中",
 		explain2 = "有所建樹的指揮官"
-	},
-	[100611] = {
+	}
+	pg.base.medal_template[100611] = {
 		name = "白鷹阵营子勋章1",
 		target_num = 12,
 		type = 0,
@@ -1107,8 +1241,8 @@ pg.medal_template = {
 				120
 			}
 		}
-	},
-	[100612] = {
+	}
+	pg.base.medal_template[100612] = {
 		name = "白鷹阵营子勋章1",
 		target_num = 24,
 		type = 0,
@@ -1133,8 +1267,8 @@ pg.medal_template = {
 				120
 			}
 		}
-	},
-	[100613] = {
+	}
+	pg.base.medal_template[100613] = {
 		target_id = "0",
 		name = "白鷹阵营子勋章1",
 		target_num = 1,
@@ -1154,8 +1288,8 @@ pg.medal_template = {
 		id = 100613,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100614] = {
+	}
+	pg.base.medal_template[100614] = {
 		target_id = "0",
 		name = "白鷹阵营子勋章1",
 		target_num = 1,
@@ -1175,8 +1309,8 @@ pg.medal_template = {
 		id = 100614,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100615] = {
+	}
+	pg.base.medal_template[100615] = {
 		target_id = "0",
 		name = "白鷹阵营子勋章1",
 		target_num = 1,
@@ -1196,8 +1330,8 @@ pg.medal_template = {
 		id = 100615,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100621] = {
+	}
+	pg.base.medal_template[100621] = {
 		target_id = "1",
 		name = "白鷹阵营子勋章2",
 		target_num = 200000,
@@ -1217,8 +1351,8 @@ pg.medal_template = {
 		id = 100621,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100622] = {
+	}
+	pg.base.medal_template[100622] = {
 		target_id = "1",
 		name = "白鷹阵营子勋章2",
 		target_num = 400000,
@@ -1238,8 +1372,8 @@ pg.medal_template = {
 		id = 100622,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100623] = {
+	}
+	pg.base.medal_template[100623] = {
 		target_id = "0",
 		name = "白鷹阵营子勋章2",
 		target_num = 1,
@@ -1259,8 +1393,8 @@ pg.medal_template = {
 		id = 100623,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100624] = {
+	}
+	pg.base.medal_template[100624] = {
 		target_id = "0",
 		name = "白鷹阵营子勋章2",
 		target_num = 1,
@@ -1280,8 +1414,8 @@ pg.medal_template = {
 		id = 100624,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100625] = {
+	}
+	pg.base.medal_template[100625] = {
 		target_id = "0",
 		name = "白鷹阵营子勋章2",
 		target_num = 1,
@@ -1301,8 +1435,8 @@ pg.medal_template = {
 		id = 100625,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100631] = {
+	}
+	pg.base.medal_template[100631] = {
 		name = "白鷹阵营子勋章3",
 		target_num = 2000000,
 		type = 0,
@@ -1327,8 +1461,8 @@ pg.medal_template = {
 				0
 			}
 		}
-	},
-	[100632] = {
+	}
+	pg.base.medal_template[100632] = {
 		name = "白鷹阵营子勋章3",
 		target_num = 2000000,
 		type = 0,
@@ -1353,8 +1487,8 @@ pg.medal_template = {
 				0
 			}
 		}
-	},
-	[100633] = {
+	}
+	pg.base.medal_template[100633] = {
 		target_id = "0",
 		name = "白鷹阵营子勋章3",
 		target_num = 1,
@@ -1374,8 +1508,8 @@ pg.medal_template = {
 		id = 100633,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100634] = {
+	}
+	pg.base.medal_template[100634] = {
 		target_id = "0",
 		name = "白鷹阵营子勋章3",
 		target_num = 1,
@@ -1395,8 +1529,8 @@ pg.medal_template = {
 		id = 100634,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100635] = {
+	}
+	pg.base.medal_template[100635] = {
 		target_id = "0",
 		name = "白鷹阵营子勋章3",
 		target_num = 1,
@@ -1416,8 +1550,8 @@ pg.medal_template = {
 		id = 100635,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100711] = {
+	}
+	pg.base.medal_template[100711] = {
 		name = "皇家阵营子勋章1",
 		target_num = 12,
 		type = 0,
@@ -1442,8 +1576,8 @@ pg.medal_template = {
 				120
 			}
 		}
-	},
-	[100712] = {
+	}
+	pg.base.medal_template[100712] = {
 		name = "皇家阵营子勋章1",
 		target_num = 24,
 		type = 0,
@@ -1468,8 +1602,8 @@ pg.medal_template = {
 				120
 			}
 		}
-	},
-	[100713] = {
+	}
+	pg.base.medal_template[100713] = {
 		target_id = "0",
 		name = "皇家阵营子勋章1",
 		target_num = 1,
@@ -1489,8 +1623,8 @@ pg.medal_template = {
 		id = 100713,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100714] = {
+	}
+	pg.base.medal_template[100714] = {
 		target_id = "0",
 		name = "皇家阵营子勋章1",
 		target_num = 1,
@@ -1510,8 +1644,8 @@ pg.medal_template = {
 		id = 100714,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100715] = {
+	}
+	pg.base.medal_template[100715] = {
 		target_id = "0",
 		name = "皇家阵营子勋章1",
 		target_num = 1,
@@ -1531,8 +1665,8 @@ pg.medal_template = {
 		id = 100715,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100721] = {
+	}
+	pg.base.medal_template[100721] = {
 		target_id = "2",
 		name = "皇家阵营子勋章2",
 		target_num = 200000,
@@ -1552,8 +1686,8 @@ pg.medal_template = {
 		id = 100721,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100722] = {
+	}
+	pg.base.medal_template[100722] = {
 		target_id = "2",
 		name = "皇家阵营子勋章2",
 		target_num = 400000,
@@ -1573,8 +1707,8 @@ pg.medal_template = {
 		id = 100722,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100723] = {
+	}
+	pg.base.medal_template[100723] = {
 		target_id = "0",
 		name = "皇家阵营子勋章2",
 		target_num = 1,
@@ -1594,8 +1728,8 @@ pg.medal_template = {
 		id = 100723,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100724] = {
+	}
+	pg.base.medal_template[100724] = {
 		target_id = "0",
 		name = "皇家阵营子勋章2",
 		target_num = 1,
@@ -1615,8 +1749,8 @@ pg.medal_template = {
 		id = 100724,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100725] = {
+	}
+	pg.base.medal_template[100725] = {
 		target_id = "0",
 		name = "皇家阵营子勋章2",
 		target_num = 1,
@@ -1636,8 +1770,8 @@ pg.medal_template = {
 		id = 100725,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100731] = {
+	}
+	pg.base.medal_template[100731] = {
 		name = "皇家阵营子勋章3",
 		target_num = 2000000,
 		type = 0,
@@ -1662,8 +1796,8 @@ pg.medal_template = {
 				0
 			}
 		}
-	},
-	[100732] = {
+	}
+	pg.base.medal_template[100732] = {
 		name = "皇家阵营子勋章3",
 		target_num = 2000000,
 		type = 0,
@@ -1688,8 +1822,8 @@ pg.medal_template = {
 				0
 			}
 		}
-	},
-	[100733] = {
+	}
+	pg.base.medal_template[100733] = {
 		target_id = "0",
 		name = "皇家阵营子勋章3",
 		target_num = 1,
@@ -1709,8 +1843,8 @@ pg.medal_template = {
 		id = 100733,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100734] = {
+	}
+	pg.base.medal_template[100734] = {
 		target_id = "0",
 		name = "皇家阵营子勋章3",
 		target_num = 1,
@@ -1730,8 +1864,8 @@ pg.medal_template = {
 		id = 100734,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100735] = {
+	}
+	pg.base.medal_template[100735] = {
 		target_id = "0",
 		name = "皇家阵营子勋章3",
 		target_num = 1,
@@ -1751,8 +1885,8 @@ pg.medal_template = {
 		id = 100735,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100811] = {
+	}
+	pg.base.medal_template[100811] = {
 		name = "重櫻阵营子勋章1",
 		target_num = 12,
 		type = 0,
@@ -1777,8 +1911,8 @@ pg.medal_template = {
 				120
 			}
 		}
-	},
-	[100812] = {
+	}
+	pg.base.medal_template[100812] = {
 		name = "重櫻阵营子勋章1",
 		target_num = 24,
 		type = 0,
@@ -1803,8 +1937,8 @@ pg.medal_template = {
 				120
 			}
 		}
-	},
-	[100813] = {
+	}
+	pg.base.medal_template[100813] = {
 		target_id = "0",
 		name = "重櫻阵营子勋章1",
 		target_num = 1,
@@ -1824,8 +1958,8 @@ pg.medal_template = {
 		id = 100813,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100814] = {
+	}
+	pg.base.medal_template[100814] = {
 		target_id = "0",
 		name = "重櫻阵营子勋章1",
 		target_num = 1,
@@ -1845,8 +1979,8 @@ pg.medal_template = {
 		id = 100814,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100815] = {
+	}
+	pg.base.medal_template[100815] = {
 		target_id = "0",
 		name = "重櫻阵营子勋章1",
 		target_num = 1,
@@ -1866,8 +2000,8 @@ pg.medal_template = {
 		id = 100815,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100821] = {
+	}
+	pg.base.medal_template[100821] = {
 		target_id = "3",
 		name = "重櫻阵营子勋章2",
 		target_num = 200000,
@@ -1887,8 +2021,8 @@ pg.medal_template = {
 		id = 100821,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100822] = {
+	}
+	pg.base.medal_template[100822] = {
 		target_id = "3",
 		name = "重櫻阵营子勋章2",
 		target_num = 400000,
@@ -1908,8 +2042,8 @@ pg.medal_template = {
 		id = 100822,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100823] = {
+	}
+	pg.base.medal_template[100823] = {
 		target_id = "0",
 		name = "重櫻阵营子勋章2",
 		target_num = 1,
@@ -1929,8 +2063,8 @@ pg.medal_template = {
 		id = 100823,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100824] = {
+	}
+	pg.base.medal_template[100824] = {
 		target_id = "0",
 		name = "重櫻阵营子勋章2",
 		target_num = 1,
@@ -1950,8 +2084,8 @@ pg.medal_template = {
 		id = 100824,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100825] = {
+	}
+	pg.base.medal_template[100825] = {
 		target_id = "0",
 		name = "重櫻阵营子勋章2",
 		target_num = 1,
@@ -1971,8 +2105,8 @@ pg.medal_template = {
 		id = 100825,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100831] = {
+	}
+	pg.base.medal_template[100831] = {
 		name = "重櫻阵营子勋章3",
 		target_num = 2000000,
 		type = 0,
@@ -1997,8 +2131,8 @@ pg.medal_template = {
 				0
 			}
 		}
-	},
-	[100832] = {
+	}
+	pg.base.medal_template[100832] = {
 		name = "重櫻阵营子勋章3",
 		target_num = 2000000,
 		type = 0,
@@ -2023,8 +2157,8 @@ pg.medal_template = {
 				0
 			}
 		}
-	},
-	[100833] = {
+	}
+	pg.base.medal_template[100833] = {
 		target_id = "0",
 		name = "重櫻阵营子勋章3",
 		target_num = 1,
@@ -2044,8 +2178,8 @@ pg.medal_template = {
 		id = 100833,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100834] = {
+	}
+	pg.base.medal_template[100834] = {
 		target_id = "0",
 		name = "重櫻阵营子勋章3",
 		target_num = 1,
@@ -2065,8 +2199,8 @@ pg.medal_template = {
 		id = 100834,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100835] = {
+	}
+	pg.base.medal_template[100835] = {
 		target_id = "0",
 		name = "重櫻阵营子勋章3",
 		target_num = 1,
@@ -2086,8 +2220,8 @@ pg.medal_template = {
 		id = 100835,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100911] = {
+	}
+	pg.base.medal_template[100911] = {
 		name = "鐵血阵营子勋章1",
 		target_num = 12,
 		type = 0,
@@ -2112,8 +2246,8 @@ pg.medal_template = {
 				120
 			}
 		}
-	},
-	[100912] = {
+	}
+	pg.base.medal_template[100912] = {
 		name = "鐵血阵营子勋章1",
 		target_num = 24,
 		type = 0,
@@ -2138,8 +2272,8 @@ pg.medal_template = {
 				120
 			}
 		}
-	},
-	[100913] = {
+	}
+	pg.base.medal_template[100913] = {
 		target_id = "0",
 		name = "鐵血阵营子勋章1",
 		target_num = 1,
@@ -2159,8 +2293,8 @@ pg.medal_template = {
 		id = 100913,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100914] = {
+	}
+	pg.base.medal_template[100914] = {
 		target_id = "0",
 		name = "鐵血阵营子勋章1",
 		target_num = 1,
@@ -2180,8 +2314,8 @@ pg.medal_template = {
 		id = 100914,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100915] = {
+	}
+	pg.base.medal_template[100915] = {
 		target_id = "0",
 		name = "鐵血阵营子勋章1",
 		target_num = 1,
@@ -2201,8 +2335,10 @@ pg.medal_template = {
 		id = 100915,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100921] = {
+	}
+end)()
+(function ()
+	pg.base.medal_template[100921] = {
 		target_id = "4",
 		name = "鐵血阵营子勋章2",
 		target_num = 200000,
@@ -2222,8 +2358,8 @@ pg.medal_template = {
 		id = 100921,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100922] = {
+	}
+	pg.base.medal_template[100922] = {
 		target_id = "4",
 		name = "鐵血阵营子勋章2",
 		target_num = 400000,
@@ -2243,8 +2379,8 @@ pg.medal_template = {
 		id = 100922,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100923] = {
+	}
+	pg.base.medal_template[100923] = {
 		target_id = "0",
 		name = "鐵血阵营子勋章2",
 		target_num = 1,
@@ -2264,8 +2400,8 @@ pg.medal_template = {
 		id = 100923,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100924] = {
+	}
+	pg.base.medal_template[100924] = {
 		target_id = "0",
 		name = "鐵血阵营子勋章2",
 		target_num = 1,
@@ -2285,8 +2421,8 @@ pg.medal_template = {
 		id = 100924,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100925] = {
+	}
+	pg.base.medal_template[100925] = {
 		target_id = "0",
 		name = "鐵血阵营子勋章2",
 		target_num = 1,
@@ -2306,8 +2442,8 @@ pg.medal_template = {
 		id = 100925,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100931] = {
+	}
+	pg.base.medal_template[100931] = {
 		name = "鐵血阵营子勋章3",
 		target_num = 2000000,
 		type = 0,
@@ -2332,8 +2468,8 @@ pg.medal_template = {
 				0
 			}
 		}
-	},
-	[100932] = {
+	}
+	pg.base.medal_template[100932] = {
 		name = "鐵血阵营子勋章3",
 		target_num = 2000000,
 		type = 0,
@@ -2358,8 +2494,8 @@ pg.medal_template = {
 				0
 			}
 		}
-	},
-	[100933] = {
+	}
+	pg.base.medal_template[100933] = {
 		target_id = "0",
 		name = "鐵血阵营子勋章3",
 		target_num = 1,
@@ -2379,8 +2515,8 @@ pg.medal_template = {
 		id = 100933,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100934] = {
+	}
+	pg.base.medal_template[100934] = {
 		target_id = "0",
 		name = "鐵血阵营子勋章3",
 		target_num = 1,
@@ -2400,8 +2536,8 @@ pg.medal_template = {
 		id = 100934,
 		explain1 = "",
 		explain2 = ""
-	},
-	[100935] = {
+	}
+	pg.base.medal_template[100935] = {
 		target_id = "0",
 		name = "鐵血阵营子勋章3",
 		target_num = 1,
@@ -2421,8 +2557,8 @@ pg.medal_template = {
 		id = 100935,
 		explain1 = "",
 		explain2 = ""
-	},
-	[200001] = {
+	}
+	pg.base.medal_template[200001] = {
 		target_id = "5711",
 		name = "抵抗之星紀念勳章",
 		target_num = 8,
@@ -2442,8 +2578,8 @@ pg.medal_template = {
 		id = 200001,
 		explain1 = "「星光下的餘暉」",
 		explain2 = "活動紀念"
-	},
-	[200011] = {
+	}
+	pg.base.medal_template[200011] = {
 		target_id = "5769",
 		name = "華裳巧展紀念勳章",
 		target_num = 8,
@@ -2463,8 +2599,8 @@ pg.medal_template = {
 		id = 200011,
 		explain1 = "「華裳巧展喜事長」",
 		explain2 = "活動紀念"
-	},
-	[200021] = {
+	}
+	pg.base.medal_template[200021] = {
 		target_id = "5812",
 		name = "聖翼神光紀念勳章",
 		target_num = 8,
@@ -2484,8 +2620,8 @@ pg.medal_template = {
 		id = 200021,
 		explain1 = "「樊籠內的神光」",
 		explain2 = "活動紀念"
-	},
-	[200031] = {
+	}
+	pg.base.medal_template[200031] = {
 		target_id = "5875",
 		name = "深谷病院調查紀念勳章",
 		target_num = 8,
@@ -2505,8 +2641,8 @@ pg.medal_template = {
 		id = 200031,
 		explain1 = "「深谷來信」",
 		explain2 = "活動紀念"
-	},
-	[200041] = {
+	}
+	pg.base.medal_template[200041] = {
 		target_id = "5913",
 		name = "鬱金啟航紀念勳章",
 		target_num = 8,
@@ -2526,8 +2662,8 @@ pg.medal_template = {
 		id = 200041,
 		explain1 = "「揚起鬱金之旗」",
 		explain2 = "活動紀念"
-	},
-	[200051] = {
+	}
+	pg.base.medal_template[200051] = {
 		target_id = "5970",
 		name = "高塔薔薇紀念勳章",
 		target_num = 8,
@@ -2547,8 +2683,8 @@ pg.medal_template = {
 		id = 200051,
 		explain1 = "「高塔上的薔薇」",
 		explain2 = "活動紀念"
-	},
-	[200061] = {
+	}
+	pg.base.medal_template[200061] = {
 		target_id = "5971",
 		name = "別墅假日紀念勳章",
 		target_num = 7,
@@ -2568,8 +2704,8 @@ pg.medal_template = {
 		id = 200061,
 		explain1 = "「夏日重建」",
 		explain2 = "活動紀念"
-	},
-	[200071] = {
+	}
+	pg.base.medal_template[200071] = {
 		target_id = "50021",
 		name = "都市尋蹤紀念勳章",
 		target_num = 8,
@@ -2589,8 +2725,8 @@ pg.medal_template = {
 		id = 200071,
 		explain1 = "「迷彩都市的尋蹤者」",
 		explain2 = "活動紀念"
-	},
-	[200081] = {
+	}
+	pg.base.medal_template[200081] = {
 		target_id = "50087",
 		name = "奇淵之下紀念勳章",
 		target_num = 8,
@@ -2610,8 +2746,8 @@ pg.medal_template = {
 		id = 200081,
 		explain1 = "「奇淵下的秘密」",
 		explain2 = "活動紀念"
-	},
-	[200091] = {
+	}
+	pg.base.medal_template[200091] = {
 		target_id = "50136",
 		name = "天域天原紀念勳章",
 		target_num = 8,
@@ -2631,8 +2767,8 @@ pg.medal_template = {
 		id = 200091,
 		explain1 = "「起舞於天原之上」",
 		explain2 = "活動紀念"
-	},
-	[200101] = {
+	}
+	pg.base.medal_template[200101] = {
 		target_id = "50209",
 		name = "自由群島紀念勳章",
 		target_num = 8,
@@ -2652,8 +2788,8 @@ pg.medal_template = {
 		id = 200101,
 		explain1 = "「颶風與自由群島」",
 		explain2 = "活動紀念"
-	},
-	[200111] = {
+	}
+	pg.base.medal_template[200111] = {
 		target_id = "50295",
 		name = "天穹之星紀念勳章",
 		target_num = 8,
@@ -2677,8 +2813,8 @@ pg.medal_template = {
 		id = 200111,
 		explain1 = "「響徹於天穹之音」",
 		explain2 = "活動紀念"
-	},
-	[200121] = {
+	}
+	pg.base.medal_template[200121] = {
 		target_id = "50359",
 		name = "光影風尚紀念勳章",
 		target_num = 8,
@@ -2698,8 +2834,8 @@ pg.medal_template = {
 		id = 200121,
 		explain1 = "「光影風尚，拍攝進行時！」",
 		explain2 = "活動紀念"
-	},
-	[200131] = {
+	}
+	pg.base.medal_template[200131] = {
 		target_id = "50405",
 		name = "春宴懷玉紀念勳章",
 		target_num = 8,
@@ -2719,8 +2855,8 @@ pg.medal_template = {
 		id = 200131,
 		explain1 = "「春宴懷玉香滿庭」",
 		explain2 = "活動紀念"
-	},
-	[200141] = {
+	}
+	pg.base.medal_template[200141] = {
 		target_id = "50441",
 		name = "春滿客棧紀念勳章",
 		target_num = 8,
@@ -2740,8 +2876,8 @@ pg.medal_template = {
 		id = 200141,
 		explain1 = "「春滿客棧online」",
 		explain2 = "活動紀念"
-	},
-	[200151] = {
+	}
+	pg.base.medal_template[200151] = {
 		target_id = "50482",
 		name = "都市漫遊紀念勳章",
 		target_num = 8,
@@ -2761,133 +2897,5 @@ pg.medal_template = {
 		id = 200151,
 		explain1 = "「漫遊者招募計劃」",
 		explain2 = "活動紀念"
-	},
-	all = {
-		10011,
-		10012,
-		10013,
-		10014,
-		10015,
-		10021,
-		10022,
-		10023,
-		10024,
-		10025,
-		10031,
-		10032,
-		10033,
-		10034,
-		10035,
-		10041,
-		10042,
-		10043,
-		10044,
-		10045,
-		10051,
-		10052,
-		10053,
-		10054,
-		10055,
-		10061,
-		10062,
-		10063,
-		10064,
-		10065,
-		10071,
-		10072,
-		10073,
-		10074,
-		10075,
-		10081,
-		10082,
-		10083,
-		10084,
-		10085,
-		10091,
-		10092,
-		10093,
-		10094,
-		10095,
-		10101,
-		10102,
-		10103,
-		10104,
-		10105,
-		100611,
-		100612,
-		100613,
-		100614,
-		100615,
-		100621,
-		100622,
-		100623,
-		100624,
-		100625,
-		100631,
-		100632,
-		100633,
-		100634,
-		100635,
-		100711,
-		100712,
-		100713,
-		100714,
-		100715,
-		100721,
-		100722,
-		100723,
-		100724,
-		100725,
-		100731,
-		100732,
-		100733,
-		100734,
-		100735,
-		100811,
-		100812,
-		100813,
-		100814,
-		100815,
-		100821,
-		100822,
-		100823,
-		100824,
-		100825,
-		100831,
-		100832,
-		100833,
-		100834,
-		100835,
-		100911,
-		100912,
-		100913,
-		100914,
-		100915,
-		100921,
-		100922,
-		100923,
-		100924,
-		100925,
-		100931,
-		100932,
-		100933,
-		100934,
-		100935,
-		200001,
-		200011,
-		200021,
-		200031,
-		200041,
-		200051,
-		200061,
-		200071,
-		200081,
-		200091,
-		200101,
-		200111,
-		200121,
-		200131,
-		200141,
-		200151
 	}
-}
+end)()

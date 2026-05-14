@@ -1,6 +1,23 @@
 pg = pg or {}
-pg.expedition_data_by_chapter = {
-	[101] = {
+pg.expedition_data_by_chapter = rawget(pg, "expedition_data_by_chapter") or setmetatable({
+	__name = "expedition_data_by_chapter"
+}, confNEO)
+pg.expedition_data_by_chapter.all = {
+	101,
+	102,
+	103,
+	104,
+	105,
+	201,
+	202,
+	203,
+	204
+}
+pg.base = pg.base or {}
+pg.base.expedition_data_by_chapter = {}
+
+(function ()
+	pg.base.expedition_data_by_chapter[101] = {
 		map = 1,
 		pos_x = "0.2",
 		chapter_name = "1-1",
@@ -66,8 +83,8 @@ pg.expedition_data_by_chapter = {
 				}
 			}
 		}
-	},
-	[102] = {
+	}
+	pg.base.expedition_data_by_chapter[102] = {
 		map = 1,
 		pos_x = "0.35",
 		chapter_name = "1-2",
@@ -154,8 +171,8 @@ pg.expedition_data_by_chapter = {
 				}
 			}
 		}
-	},
-	[103] = {
+	}
+	pg.base.expedition_data_by_chapter[103] = {
 		map = 1,
 		pos_x = "0.51",
 		chapter_name = "1-3",
@@ -242,8 +259,8 @@ pg.expedition_data_by_chapter = {
 				}
 			}
 		}
-	},
-	[104] = {
+	}
+	pg.base.expedition_data_by_chapter[104] = {
 		map = 1,
 		pos_x = "0.65",
 		chapter_name = "1-4",
@@ -330,8 +347,8 @@ pg.expedition_data_by_chapter = {
 				}
 			}
 		}
-	},
-	[105] = {
+	}
+	pg.base.expedition_data_by_chapter[105] = {
 		map = 1,
 		pos_x = "0.76",
 		chapter_name = "1-5",
@@ -392,8 +409,8 @@ pg.expedition_data_by_chapter = {
 				}
 			}
 		}
-	},
-	[201] = {
+	}
+	pg.base.expedition_data_by_chapter[201] = {
 		map = 2,
 		pos_x = "0.8",
 		chapter_name = "2-1",
@@ -447,8 +464,8 @@ pg.expedition_data_by_chapter = {
 				}
 			}
 		}
-	},
-	[202] = {
+	}
+	pg.base.expedition_data_by_chapter[202] = {
 		map = 2,
 		pos_x = "0.6",
 		chapter_name = "2-2",
@@ -502,8 +519,8 @@ pg.expedition_data_by_chapter = {
 				}
 			}
 		}
-	},
-	[203] = {
+	}
+	pg.base.expedition_data_by_chapter[203] = {
 		map = 2,
 		pos_x = "0.45",
 		chapter_name = "2-3",
@@ -557,8 +574,8 @@ pg.expedition_data_by_chapter = {
 				}
 			}
 		}
-	},
-	[204] = {
+	}
+	pg.base.expedition_data_by_chapter[204] = {
 		map = 2,
 		pos_x = "0.3",
 		chapter_name = "2-4",
@@ -612,16 +629,5 @@ pg.expedition_data_by_chapter = {
 				}
 			}
 		}
-	},
-	all = {
-		101,
-		102,
-		103,
-		104,
-		105,
-		201,
-		202,
-		203,
-		204
 	}
-}
+end)()

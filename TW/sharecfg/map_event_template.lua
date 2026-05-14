@@ -1,6 +1,916 @@
 pg = pg or {}
-pg.map_event_template = {
-	[20] = {
+pg.map_event_template = rawget(pg, "map_event_template") or setmetatable({
+	__name = "map_event_template"
+}, confNEO)
+pg.map_event_template.all = {
+	20,
+	21,
+	22,
+	24,
+	25,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	39,
+	40,
+	41,
+	42,
+	43,
+	44,
+	50,
+	51,
+	52,
+	53,
+	54,
+	55,
+	56,
+	57,
+	58,
+	59,
+	60,
+	61,
+	62,
+	63,
+	64,
+	65,
+	66,
+	67,
+	68,
+	69,
+	70,
+	71,
+	72,
+	73,
+	74,
+	75,
+	76,
+	77,
+	78,
+	79,
+	80,
+	81,
+	82,
+	83,
+	84,
+	85,
+	86,
+	87,
+	88,
+	89,
+	90,
+	91,
+	92,
+	93,
+	94,
+	95,
+	96,
+	97,
+	98,
+	99,
+	100,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	110,
+	111,
+	112,
+	113,
+	114,
+	115,
+	116,
+	117,
+	118,
+	119,
+	120,
+	121,
+	122,
+	123,
+	124,
+	125,
+	126,
+	127,
+	128,
+	129,
+	130,
+	131,
+	132,
+	133,
+	134,
+	135,
+	136,
+	137,
+	138,
+	139,
+	140,
+	141,
+	142,
+	143,
+	144,
+	145,
+	146,
+	147,
+	148,
+	149,
+	150,
+	151,
+	152,
+	153,
+	154,
+	155,
+	156,
+	157,
+	158,
+	159,
+	160,
+	161,
+	162,
+	163,
+	164,
+	165,
+	166,
+	167,
+	168,
+	169,
+	170,
+	171,
+	172,
+	173,
+	174,
+	175,
+	176,
+	177,
+	178,
+	179,
+	180,
+	181,
+	182,
+	183,
+	184,
+	185,
+	186,
+	187,
+	188,
+	189,
+	190,
+	191,
+	192,
+	193,
+	194,
+	195,
+	196,
+	197,
+	198,
+	199,
+	200,
+	201,
+	202,
+	203,
+	204,
+	205,
+	206,
+	207,
+	208,
+	209,
+	210,
+	211,
+	212,
+	213,
+	214,
+	215,
+	216,
+	217,
+	218,
+	219,
+	220,
+	221,
+	222,
+	223,
+	224,
+	225,
+	226,
+	227,
+	228,
+	229,
+	230,
+	231,
+	232,
+	233,
+	234,
+	235,
+	236,
+	237,
+	238,
+	239,
+	240,
+	241,
+	242,
+	243,
+	244,
+	245,
+	246,
+	247,
+	248,
+	249,
+	250,
+	251,
+	252,
+	253,
+	254,
+	255,
+	256,
+	257,
+	258,
+	259,
+	260,
+	261,
+	262,
+	263,
+	264,
+	265,
+	266,
+	267,
+	268,
+	269,
+	270,
+	271,
+	272,
+	273,
+	274,
+	275,
+	276,
+	277,
+	278,
+	279,
+	280,
+	281,
+	282,
+	283,
+	284,
+	285,
+	286,
+	287,
+	288,
+	289,
+	290,
+	291,
+	292,
+	293,
+	294,
+	295,
+	296,
+	297,
+	298,
+	299,
+	300,
+	301,
+	302,
+	303,
+	304,
+	305,
+	306,
+	307,
+	308,
+	309,
+	310,
+	311,
+	312,
+	313,
+	314,
+	315,
+	316,
+	317,
+	318,
+	319,
+	320,
+	321,
+	322,
+	323,
+	324,
+	325,
+	326,
+	327,
+	328,
+	329,
+	330,
+	331,
+	332,
+	333,
+	334,
+	335,
+	336,
+	337,
+	338,
+	339,
+	340,
+	341,
+	342,
+	343,
+	344,
+	345,
+	346,
+	347,
+	348,
+	349,
+	350,
+	351,
+	352,
+	353,
+	354,
+	355,
+	356,
+	357,
+	358,
+	359,
+	360,
+	361,
+	362,
+	363,
+	364,
+	365,
+	366,
+	367,
+	368,
+	369,
+	370,
+	371,
+	372,
+	373,
+	374,
+	375,
+	376,
+	377,
+	378,
+	379,
+	380,
+	381,
+	382,
+	383,
+	384,
+	385,
+	386,
+	387,
+	388,
+	389,
+	390,
+	391,
+	392,
+	393,
+	394,
+	395,
+	396,
+	397,
+	398,
+	399,
+	400,
+	401,
+	402,
+	403,
+	404,
+	405,
+	406,
+	407,
+	408,
+	409,
+	410,
+	411,
+	412,
+	413,
+	414,
+	415,
+	416,
+	417,
+	418,
+	419,
+	420,
+	421,
+	422,
+	423,
+	424,
+	425,
+	426,
+	427,
+	428,
+	429,
+	430,
+	431,
+	432,
+	433,
+	434,
+	435,
+	436,
+	437,
+	438,
+	439,
+	440,
+	441,
+	442,
+	443,
+	444,
+	445,
+	446,
+	447,
+	448,
+	449,
+	450,
+	451,
+	452,
+	453,
+	454,
+	455,
+	456,
+	457,
+	458,
+	459,
+	460,
+	461,
+	462,
+	463,
+	464,
+	465,
+	466,
+	467,
+	468,
+	469,
+	470,
+	471,
+	472,
+	473,
+	474,
+	475,
+	476,
+	477,
+	478,
+	479,
+	480,
+	481,
+	482,
+	483,
+	484,
+	485,
+	486,
+	487,
+	488,
+	489,
+	490,
+	491,
+	492,
+	493,
+	494,
+	495,
+	496,
+	497,
+	498,
+	499,
+	500,
+	501,
+	502,
+	503,
+	504,
+	505,
+	506,
+	507,
+	508,
+	509,
+	510,
+	511,
+	512,
+	513,
+	514,
+	515,
+	516,
+	517,
+	518,
+	519,
+	520,
+	521,
+	522,
+	523,
+	524,
+	525,
+	526,
+	527,
+	528,
+	529,
+	530,
+	531,
+	532,
+	533,
+	534,
+	535,
+	536,
+	537,
+	538,
+	539,
+	540,
+	541,
+	542,
+	543,
+	544,
+	545,
+	546,
+	547,
+	548,
+	549,
+	550,
+	551,
+	552,
+	553,
+	554,
+	555,
+	556,
+	561,
+	562,
+	563,
+	564,
+	565,
+	566,
+	567,
+	568,
+	569,
+	570,
+	571,
+	572,
+	573,
+	574,
+	575,
+	576,
+	577,
+	578,
+	579,
+	580,
+	581,
+	582,
+	583,
+	584,
+	585,
+	586,
+	590,
+	591,
+	592,
+	593,
+	594,
+	595,
+	596,
+	597,
+	598,
+	599,
+	600,
+	601,
+	602,
+	603,
+	604,
+	605,
+	606,
+	607,
+	608,
+	609,
+	610,
+	611,
+	612,
+	613,
+	614,
+	615,
+	616,
+	617,
+	618,
+	619,
+	620,
+	621,
+	622,
+	623,
+	624,
+	625,
+	626,
+	627,
+	628,
+	629,
+	630,
+	631,
+	632,
+	633,
+	634,
+	635,
+	636,
+	637,
+	638,
+	639,
+	640,
+	641,
+	642,
+	643,
+	644,
+	645,
+	646,
+	647,
+	648,
+	649,
+	650,
+	651,
+	652,
+	653,
+	654,
+	655,
+	656,
+	657,
+	658,
+	659,
+	660,
+	661,
+	662,
+	663,
+	664,
+	665,
+	666,
+	667,
+	668,
+	669,
+	670,
+	671,
+	672,
+	673,
+	674,
+	675,
+	676,
+	677,
+	678,
+	679,
+	680,
+	681,
+	682,
+	683,
+	684,
+	685,
+	686,
+	687,
+	688,
+	689,
+	690,
+	691,
+	692,
+	693,
+	694,
+	695,
+	696,
+	697,
+	698,
+	699,
+	700,
+	701,
+	702,
+	703,
+	704,
+	705,
+	706,
+	707,
+	708,
+	709,
+	710,
+	711,
+	712,
+	713,
+	714,
+	715,
+	716,
+	717,
+	718,
+	719,
+	720,
+	721,
+	722,
+	723,
+	724,
+	725,
+	726,
+	727,
+	728,
+	729,
+	730,
+	731,
+	732,
+	733,
+	734,
+	735,
+	736,
+	737,
+	738,
+	739,
+	740,
+	741,
+	742,
+	743,
+	744,
+	745,
+	746,
+	747,
+	748,
+	749,
+	750,
+	751,
+	752,
+	753,
+	754,
+	755,
+	756,
+	757,
+	758,
+	759,
+	760,
+	761,
+	762,
+	763,
+	764,
+	765,
+	766,
+	767,
+	768,
+	769,
+	770,
+	771,
+	772,
+	773,
+	774,
+	775,
+	776,
+	777,
+	778,
+	779,
+	780,
+	781,
+	782,
+	783,
+	784,
+	785,
+	786,
+	787,
+	788,
+	789,
+	790,
+	791,
+	792,
+	793,
+	794,
+	795,
+	796,
+	797,
+	798,
+	799,
+	800,
+	801,
+	802,
+	803,
+	804,
+	805,
+	806,
+	807,
+	808,
+	809,
+	810,
+	811,
+	812,
+	813,
+	814,
+	815,
+	816,
+	817,
+	818,
+	819,
+	820,
+	821,
+	822,
+	823,
+	824,
+	825,
+	826,
+	827,
+	828,
+	829,
+	830,
+	831,
+	832,
+	833,
+	834,
+	835,
+	836,
+	837,
+	838,
+	839,
+	840,
+	841,
+	842,
+	843,
+	844,
+	845,
+	846,
+	847,
+	848,
+	849,
+	850,
+	851,
+	852,
+	853,
+	854,
+	855,
+	856,
+	857,
+	858,
+	859,
+	860,
+	861,
+	862,
+	863,
+	864,
+	865,
+	866,
+	867,
+	868,
+	869,
+	870,
+	871,
+	872,
+	873,
+	874,
+	875,
+	876,
+	877,
+	878,
+	879,
+	880,
+	881,
+	882,
+	883,
+	884,
+	885,
+	886,
+	887,
+	888,
+	889,
+	890,
+	891,
+	892,
+	893,
+	894,
+	895,
+	896,
+	897,
+	898,
+	899,
+	900,
+	901,
+	902,
+	903,
+	904,
+	905,
+	906,
+	907,
+	908,
+	909,
+	910,
+	911,
+	912,
+	913,
+	914,
+	915,
+	916,
+	917,
+	918,
+	919,
+	920,
+	921,
+	922,
+	923,
+	924,
+	925,
+	926,
+	927,
+	928,
+	929,
+	930,
+	931,
+	932,
+	933,
+	934,
+	935
+}
+pg.base = pg.base or {}
+pg.base.map_event_template = {}
+
+(function ()
+	pg.base.map_event_template[20] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -34,8 +944,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[21] = {
+	}
+	pg.base.map_event_template[21] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "maoyin",
@@ -52,8 +962,8 @@ pg.map_event_template = {
 			2
 		},
 		effect = {}
-	},
-	[22] = {
+	}
+	pg.base.map_event_template[22] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "lulutiye",
@@ -70,8 +980,8 @@ pg.map_event_template = {
 			7
 		},
 		effect = {}
-	},
-	[24] = {
+	}
+	pg.base.map_event_template[24] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -89,8 +999,8 @@ pg.map_event_template = {
 				"boss"
 			}
 		}
-	},
-	[25] = {
+	}
+	pg.base.map_event_template[25] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -108,8 +1018,8 @@ pg.map_event_template = {
 				"boss"
 			}
 		}
-	},
-	[27] = {
+	}
+	pg.base.map_event_template[27] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -132,8 +1042,8 @@ pg.map_event_template = {
 				40040
 			}
 		}
-	},
-	[28] = {
+	}
+	pg.base.map_event_template[28] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -150,8 +1060,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[29] = {
+	}
+	pg.base.map_event_template[29] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -168,8 +1078,8 @@ pg.map_event_template = {
 			2
 		},
 		effect = {}
-	},
-	[30] = {
+	}
+	pg.base.map_event_template[30] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -186,8 +1096,8 @@ pg.map_event_template = {
 			1
 		},
 		effect = {}
-	},
-	[31] = {
+	}
+	pg.base.map_event_template[31] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -204,8 +1114,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[32] = {
+	}
+	pg.base.map_event_template[32] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -222,8 +1132,8 @@ pg.map_event_template = {
 			3
 		},
 		effect = {}
-	},
-	[33] = {
+	}
+	pg.base.map_event_template[33] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -240,8 +1150,8 @@ pg.map_event_template = {
 			1
 		},
 		effect = {}
-	},
-	[34] = {
+	}
+	pg.base.map_event_template[34] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -258,8 +1168,8 @@ pg.map_event_template = {
 			1
 		},
 		effect = {}
-	},
-	[35] = {
+	}
+	pg.base.map_event_template[35] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -300,8 +1210,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[36] = {
+	}
+	pg.base.map_event_template[36] = {
 		grid_color = "cell_box",
 		memory = 40045,
 		ship_prefab = "",
@@ -341,8 +1251,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[37] = {
+	}
+	pg.base.map_event_template[37] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -376,8 +1286,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[38] = {
+	}
+	pg.base.map_event_template[38] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -394,8 +1304,8 @@ pg.map_event_template = {
 			5
 		},
 		effect = {}
-	},
-	[39] = {
+	}
+	pg.base.map_event_template[39] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -412,8 +1322,8 @@ pg.map_event_template = {
 			3
 		},
 		effect = {}
-	},
-	[40] = {
+	}
+	pg.base.map_event_template[40] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -430,8 +1340,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[41] = {
+	}
+	pg.base.map_event_template[41] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -448,8 +1358,8 @@ pg.map_event_template = {
 			5
 		},
 		effect = {}
-	},
-	[42] = {
+	}
+	pg.base.map_event_template[42] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -466,8 +1376,8 @@ pg.map_event_template = {
 			6
 		},
 		effect = {}
-	},
-	[43] = {
+	}
+	pg.base.map_event_template[43] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -484,8 +1394,8 @@ pg.map_event_template = {
 			7
 		},
 		effect = {}
-	},
-	[44] = {
+	}
+	pg.base.map_event_template[44] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -512,8 +1422,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[50] = {
+	}
+	pg.base.map_event_template[50] = {
 		grid_color = "cell_box",
 		memory = 40032,
 		ship_prefab = "",
@@ -530,8 +1440,8 @@ pg.map_event_template = {
 			7
 		},
 		effect = {}
-	},
-	[51] = {
+	}
+	pg.base.map_event_template[51] = {
 		grid_color = "cell_box",
 		memory = 40037,
 		ship_prefab = "",
@@ -548,8 +1458,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[52] = {
+	}
+	pg.base.map_event_template[52] = {
 		grid_color = "cell_box",
 		memory = 40033,
 		ship_prefab = "",
@@ -566,8 +1476,8 @@ pg.map_event_template = {
 			8
 		},
 		effect = {}
-	},
-	[53] = {
+	}
+	pg.base.map_event_template[53] = {
 		grid_color = "cell_box",
 		memory = 40039,
 		ship_prefab = "",
@@ -584,8 +1494,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[54] = {
+	}
+	pg.base.map_event_template[54] = {
 		grid_color = "cell_box",
 		memory = 40043,
 		ship_prefab = "",
@@ -602,8 +1512,8 @@ pg.map_event_template = {
 			7
 		},
 		effect = {}
-	},
-	[55] = {
+	}
+	pg.base.map_event_template[55] = {
 		grid_color = "cell_box",
 		memory = 40040,
 		ship_prefab = "",
@@ -620,8 +1530,8 @@ pg.map_event_template = {
 			6
 		},
 		effect = {}
-	},
-	[56] = {
+	}
+	pg.base.map_event_template[56] = {
 		grid_color = "cell_box",
 		memory = 40041,
 		ship_prefab = "",
@@ -638,8 +1548,8 @@ pg.map_event_template = {
 			7
 		},
 		effect = {}
-	},
-	[57] = {
+	}
+	pg.base.map_event_template[57] = {
 		grid_color = "cell_box",
 		memory = 40034,
 		ship_prefab = "",
@@ -656,8 +1566,8 @@ pg.map_event_template = {
 			1
 		},
 		effect = {}
-	},
-	[58] = {
+	}
+	pg.base.map_event_template[58] = {
 		grid_color = "cell_box",
 		memory = 40035,
 		ship_prefab = "",
@@ -674,8 +1584,8 @@ pg.map_event_template = {
 			1
 		},
 		effect = {}
-	},
-	[59] = {
+	}
+	pg.base.map_event_template[59] = {
 		grid_color = "cell_box",
 		memory = 40036,
 		ship_prefab = "",
@@ -692,8 +1602,8 @@ pg.map_event_template = {
 			9
 		},
 		effect = {}
-	},
-	[60] = {
+	}
+	pg.base.map_event_template[60] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -713,8 +1623,8 @@ pg.map_event_template = {
 				40032
 			}
 		}
-	},
-	[61] = {
+	}
+	pg.base.map_event_template[61] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -734,8 +1644,8 @@ pg.map_event_template = {
 				40037
 			}
 		}
-	},
-	[62] = {
+	}
+	pg.base.map_event_template[62] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -755,8 +1665,8 @@ pg.map_event_template = {
 				40033
 			}
 		}
-	},
-	[63] = {
+	}
+	pg.base.map_event_template[63] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -776,8 +1686,8 @@ pg.map_event_template = {
 				40039
 			}
 		}
-	},
-	[64] = {
+	}
+	pg.base.map_event_template[64] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -797,8 +1707,8 @@ pg.map_event_template = {
 				40043
 			}
 		}
-	},
-	[65] = {
+	}
+	pg.base.map_event_template[65] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -823,8 +1733,8 @@ pg.map_event_template = {
 				40040
 			}
 		}
-	},
-	[66] = {
+	}
+	pg.base.map_event_template[66] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -844,8 +1754,8 @@ pg.map_event_template = {
 				40041
 			}
 		}
-	},
-	[67] = {
+	}
+	pg.base.map_event_template[67] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -865,8 +1775,8 @@ pg.map_event_template = {
 				40034
 			}
 		}
-	},
-	[68] = {
+	}
+	pg.base.map_event_template[68] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -886,8 +1796,8 @@ pg.map_event_template = {
 				40035
 			}
 		}
-	},
-	[69] = {
+	}
+	pg.base.map_event_template[69] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -907,8 +1817,8 @@ pg.map_event_template = {
 				40036
 			}
 		}
-	},
-	[70] = {
+	}
+	pg.base.map_event_template[70] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -931,8 +1841,8 @@ pg.map_event_template = {
 				40036
 			}
 		}
-	},
-	[71] = {
+	}
+	pg.base.map_event_template[71] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -955,8 +1865,8 @@ pg.map_event_template = {
 				40036
 			}
 		}
-	},
-	[72] = {
+	}
+	pg.base.map_event_template[72] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -979,8 +1889,8 @@ pg.map_event_template = {
 				40036
 			}
 		}
-	},
-	[73] = {
+	}
+	pg.base.map_event_template[73] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1003,8 +1913,8 @@ pg.map_event_template = {
 				40036
 			}
 		}
-	},
-	[74] = {
+	}
+	pg.base.map_event_template[74] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1027,8 +1937,8 @@ pg.map_event_template = {
 				40039
 			}
 		}
-	},
-	[75] = {
+	}
+	pg.base.map_event_template[75] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1045,8 +1955,8 @@ pg.map_event_template = {
 			1
 		},
 		effect = {}
-	},
-	[76] = {
+	}
+	pg.base.map_event_template[76] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1063,8 +1973,8 @@ pg.map_event_template = {
 			3
 		},
 		effect = {}
-	},
-	[77] = {
+	}
+	pg.base.map_event_template[77] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1080,8 +1990,8 @@ pg.map_event_template = {
 		effect = {
 			2
 		}
-	},
-	[78] = {
+	}
+	pg.base.map_event_template[78] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1098,8 +2008,8 @@ pg.map_event_template = {
 			5
 		},
 		effect = {}
-	},
-	[79] = {
+	}
+	pg.base.map_event_template[79] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1125,8 +2035,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[80] = {
+	}
+	pg.base.map_event_template[80] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1152,8 +2062,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[81] = {
+	}
+	pg.base.map_event_template[81] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1179,8 +2089,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[82] = {
+	}
+	pg.base.map_event_template[82] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1206,8 +2116,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[83] = {
+	}
+	pg.base.map_event_template[83] = {
 		grid_color = "",
 		memory = 6,
 		ship_prefab = "",
@@ -1230,8 +2140,8 @@ pg.map_event_template = {
 				"即将开始收圈"
 			}
 		}
-	},
-	[84] = {
+	}
+	pg.base.map_event_template[84] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1252,8 +2162,8 @@ pg.map_event_template = {
 				4
 			}
 		}
-	},
-	[85] = {
+	}
+	pg.base.map_event_template[85] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1274,8 +2184,8 @@ pg.map_event_template = {
 				4
 			}
 		}
-	},
-	[86] = {
+	}
+	pg.base.map_event_template[86] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1297,8 +2207,8 @@ pg.map_event_template = {
 			1,
 			"electrotherapy_wanning"
 		}
-	},
-	[87] = {
+	}
+	pg.base.map_event_template[87] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1318,8 +2228,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[88] = {
+	}
+	pg.base.map_event_template[88] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1339,8 +2249,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[89] = {
+	}
+	pg.base.map_event_template[89] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1360,8 +2270,8 @@ pg.map_event_template = {
 				2
 			}
 		}
-	},
-	[90] = {
+	}
+	pg.base.map_event_template[90] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1378,8 +2288,8 @@ pg.map_event_template = {
 			6
 		},
 		effect = {}
-	},
-	[91] = {
+	}
+	pg.base.map_event_template[91] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1396,8 +2306,8 @@ pg.map_event_template = {
 			3
 		},
 		effect = {}
-	},
-	[92] = {
+	}
+	pg.base.map_event_template[92] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1414,8 +2324,8 @@ pg.map_event_template = {
 			1
 		},
 		effect = {}
-	},
-	[93] = {
+	}
+	pg.base.map_event_template[93] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1432,8 +2342,8 @@ pg.map_event_template = {
 			6
 		},
 		effect = {}
-	},
-	[94] = {
+	}
+	pg.base.map_event_template[94] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "aijiangCL",
@@ -1450,8 +2360,8 @@ pg.map_event_template = {
 			0
 		},
 		effect = {}
-	},
-	[95] = {
+	}
+	pg.base.map_event_template[95] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1478,8 +2388,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[96] = {
+	}
+	pg.base.map_event_template[96] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1496,8 +2406,8 @@ pg.map_event_template = {
 			2
 		},
 		effect = {}
-	},
-	[97] = {
+	}
+	pg.base.map_event_template[97] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1514,8 +2424,8 @@ pg.map_event_template = {
 			2
 		},
 		effect = {}
-	},
-	[98] = {
+	}
+	pg.base.map_event_template[98] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1532,8 +2442,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[99] = {
+	}
+	pg.base.map_event_template[99] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1550,8 +2460,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[100] = {
+	}
+	pg.base.map_event_template[100] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1568,8 +2478,8 @@ pg.map_event_template = {
 			7
 		},
 		effect = {}
-	},
-	[101] = {
+	}
+	pg.base.map_event_template[101] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1586,8 +2496,8 @@ pg.map_event_template = {
 			5
 		},
 		effect = {}
-	},
-	[102] = {
+	}
+	pg.base.map_event_template[102] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1604,8 +2514,8 @@ pg.map_event_template = {
 			7
 		},
 		effect = {}
-	},
-	[103] = {
+	}
+	pg.base.map_event_template[103] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1622,8 +2532,8 @@ pg.map_event_template = {
 			8
 		},
 		effect = {}
-	},
-	[104] = {
+	}
+	pg.base.map_event_template[104] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1649,8 +2559,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[105] = {
+	}
+	pg.base.map_event_template[105] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1676,8 +2586,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[106] = {
+	}
+	pg.base.map_event_template[106] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1703,8 +2613,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[107] = {
+	}
+	pg.base.map_event_template[107] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1730,8 +2640,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[108] = {
+	}
+	pg.base.map_event_template[108] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1757,8 +2667,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[109] = {
+	}
+	pg.base.map_event_template[109] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1784,8 +2694,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[110] = {
+	}
+	pg.base.map_event_template[110] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1811,8 +2721,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[111] = {
+	}
+	pg.base.map_event_template[111] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1838,8 +2748,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[112] = {
+	}
+	pg.base.map_event_template[112] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1865,8 +2775,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[113] = {
+	}
+	pg.base.map_event_template[113] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1892,8 +2802,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[114] = {
+	}
+	pg.base.map_event_template[114] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1919,8 +2829,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[115] = {
+	}
+	pg.base.map_event_template[115] = {
 		grid_color = "cell_box",
 		memory = 40133,
 		ship_prefab = "",
@@ -1937,8 +2847,8 @@ pg.map_event_template = {
 			9
 		},
 		effect = {}
-	},
-	[116] = {
+	}
+	pg.base.map_event_template[116] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1958,8 +2868,8 @@ pg.map_event_template = {
 				40133
 			}
 		}
-	},
-	[117] = {
+	}
+	pg.base.map_event_template[117] = {
 		grid_color = "cell_box",
 		memory = 40132,
 		ship_prefab = "",
@@ -1976,8 +2886,8 @@ pg.map_event_template = {
 			1
 		},
 		effect = {}
-	},
-	[118] = {
+	}
+	pg.base.map_event_template[118] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -1997,8 +2907,8 @@ pg.map_event_template = {
 				40132
 			}
 		}
-	},
-	[119] = {
+	}
+	pg.base.map_event_template[119] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2015,8 +2925,8 @@ pg.map_event_template = {
 			6
 		},
 		effect = {}
-	},
-	[120] = {
+	}
+	pg.base.map_event_template[120] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2033,8 +2943,8 @@ pg.map_event_template = {
 			8
 		},
 		effect = {}
-	},
-	[121] = {
+	}
+	pg.base.map_event_template[121] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2051,8 +2961,8 @@ pg.map_event_template = {
 			1
 		},
 		effect = {}
-	},
-	[122] = {
+	}
+	pg.base.map_event_template[122] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2069,8 +2979,8 @@ pg.map_event_template = {
 			5
 		},
 		effect = {}
-	},
-	[123] = {
+	}
+	pg.base.map_event_template[123] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2118,8 +3028,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[124] = {
+	}
+	pg.base.map_event_template[124] = {
 		grid_color = "cell_box",
 		memory = 40139,
 		ship_prefab = "",
@@ -2136,8 +3046,8 @@ pg.map_event_template = {
 			7
 		},
 		effect = {}
-	},
-	[125] = {
+	}
+	pg.base.map_event_template[125] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2157,8 +3067,8 @@ pg.map_event_template = {
 				40139
 			}
 		}
-	},
-	[126] = {
+	}
+	pg.base.map_event_template[126] = {
 		grid_color = "cell_box",
 		memory = 40138,
 		ship_prefab = "",
@@ -2175,8 +3085,10 @@ pg.map_event_template = {
 			6
 		},
 		effect = {}
-	},
-	[127] = {
+	}
+end)()
+(function ()
+	pg.base.map_event_template[127] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2196,8 +3108,8 @@ pg.map_event_template = {
 				40138
 			}
 		}
-	},
-	[128] = {
+	}
+	pg.base.map_event_template[128] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2238,8 +3150,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[129] = {
+	}
+	pg.base.map_event_template[129] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2260,8 +3172,8 @@ pg.map_event_template = {
 				4
 			}
 		}
-	},
-	[130] = {
+	}
+	pg.base.map_event_template[130] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2282,8 +3194,8 @@ pg.map_event_template = {
 				4
 			}
 		}
-	},
-	[131] = {
+	}
+	pg.base.map_event_template[131] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2304,8 +3216,8 @@ pg.map_event_template = {
 				4
 			}
 		}
-	},
-	[132] = {
+	}
+	pg.base.map_event_template[132] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2326,8 +3238,8 @@ pg.map_event_template = {
 				4
 			}
 		}
-	},
-	[133] = {
+	}
+	pg.base.map_event_template[133] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2348,8 +3260,8 @@ pg.map_event_template = {
 				4
 			}
 		}
-	},
-	[134] = {
+	}
+	pg.base.map_event_template[134] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2370,8 +3282,8 @@ pg.map_event_template = {
 				4
 			}
 		}
-	},
-	[135] = {
+	}
+	pg.base.map_event_template[135] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2392,8 +3304,8 @@ pg.map_event_template = {
 				4
 			}
 		}
-	},
-	[136] = {
+	}
+	pg.base.map_event_template[136] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2414,8 +3326,8 @@ pg.map_event_template = {
 				4
 			}
 		}
-	},
-	[137] = {
+	}
+	pg.base.map_event_template[137] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2436,8 +3348,8 @@ pg.map_event_template = {
 				4
 			}
 		}
-	},
-	[138] = {
+	}
+	pg.base.map_event_template[138] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2458,8 +3370,8 @@ pg.map_event_template = {
 				4
 			}
 		}
-	},
-	[139] = {
+	}
+	pg.base.map_event_template[139] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2480,8 +3392,8 @@ pg.map_event_template = {
 				4
 			}
 		}
-	},
-	[140] = {
+	}
+	pg.base.map_event_template[140] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2502,8 +3414,8 @@ pg.map_event_template = {
 				4
 			}
 		}
-	},
-	[141] = {
+	}
+	pg.base.map_event_template[141] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2524,8 +3436,8 @@ pg.map_event_template = {
 				4
 			}
 		}
-	},
-	[142] = {
+	}
+	pg.base.map_event_template[142] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2542,8 +3454,8 @@ pg.map_event_template = {
 			3
 		},
 		effect = {}
-	},
-	[143] = {
+	}
+	pg.base.map_event_template[143] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2560,8 +3472,8 @@ pg.map_event_template = {
 			5
 		},
 		effect = {}
-	},
-	[144] = {
+	}
+	pg.base.map_event_template[144] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2581,8 +3493,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[145] = {
+	}
+	pg.base.map_event_template[145] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2602,8 +3514,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[146] = {
+	}
+	pg.base.map_event_template[146] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2623,8 +3535,8 @@ pg.map_event_template = {
 				2
 			}
 		}
-	},
-	[147] = {
+	}
+	pg.base.map_event_template[147] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2644,8 +3556,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[148] = {
+	}
+	pg.base.map_event_template[148] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2665,8 +3577,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[149] = {
+	}
+	pg.base.map_event_template[149] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2686,8 +3598,8 @@ pg.map_event_template = {
 				2
 			}
 		}
-	},
-	[150] = {
+	}
+	pg.base.map_event_template[150] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2707,8 +3619,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[151] = {
+	}
+	pg.base.map_event_template[151] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2728,8 +3640,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[152] = {
+	}
+	pg.base.map_event_template[152] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2749,8 +3661,8 @@ pg.map_event_template = {
 				2
 			}
 		}
-	},
-	[153] = {
+	}
+	pg.base.map_event_template[153] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2770,8 +3682,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[154] = {
+	}
+	pg.base.map_event_template[154] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2791,8 +3703,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[155] = {
+	}
+	pg.base.map_event_template[155] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2812,8 +3724,8 @@ pg.map_event_template = {
 				2
 			}
 		}
-	},
-	[156] = {
+	}
+	pg.base.map_event_template[156] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2834,8 +3746,8 @@ pg.map_event_template = {
 				4
 			}
 		}
-	},
-	[157] = {
+	}
+	pg.base.map_event_template[157] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2856,8 +3768,8 @@ pg.map_event_template = {
 				4
 			}
 		}
-	},
-	[158] = {
+	}
+	pg.base.map_event_template[158] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2878,8 +3790,8 @@ pg.map_event_template = {
 				4
 			}
 		}
-	},
-	[159] = {
+	}
+	pg.base.map_event_template[159] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2900,8 +3812,8 @@ pg.map_event_template = {
 				4
 			}
 		}
-	},
-	[160] = {
+	}
+	pg.base.map_event_template[160] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2922,8 +3834,8 @@ pg.map_event_template = {
 				4
 			}
 		}
-	},
-	[161] = {
+	}
+	pg.base.map_event_template[161] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2944,8 +3856,8 @@ pg.map_event_template = {
 				4
 			}
 		}
-	},
-	[162] = {
+	}
+	pg.base.map_event_template[162] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2966,8 +3878,8 @@ pg.map_event_template = {
 				4
 			}
 		}
-	},
-	[163] = {
+	}
+	pg.base.map_event_template[163] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -2988,8 +3900,8 @@ pg.map_event_template = {
 				4
 			}
 		}
-	},
-	[164] = {
+	}
+	pg.base.map_event_template[164] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3010,8 +3922,8 @@ pg.map_event_template = {
 				4
 			}
 		}
-	},
-	[165] = {
+	}
+	pg.base.map_event_template[165] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3037,8 +3949,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[166] = {
+	}
+	pg.base.map_event_template[166] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3064,8 +3976,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[167] = {
+	}
+	pg.base.map_event_template[167] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3091,8 +4003,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[168] = {
+	}
+	pg.base.map_event_template[168] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3118,8 +4030,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[169] = {
+	}
+	pg.base.map_event_template[169] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3145,8 +4057,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[170] = {
+	}
+	pg.base.map_event_template[170] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3172,8 +4084,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[171] = {
+	}
+	pg.base.map_event_template[171] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3199,8 +4111,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[172] = {
+	}
+	pg.base.map_event_template[172] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3226,8 +4138,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[173] = {
+	}
+	pg.base.map_event_template[173] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3253,8 +4165,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[174] = {
+	}
+	pg.base.map_event_template[174] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3280,8 +4192,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[175] = {
+	}
+	pg.base.map_event_template[175] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3298,8 +4210,8 @@ pg.map_event_template = {
 			5
 		},
 		effect = {}
-	},
-	[176] = {
+	}
+	pg.base.map_event_template[176] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3322,8 +4234,8 @@ pg.map_event_template = {
 				0
 			}
 		}
-	},
-	[177] = {
+	}
+	pg.base.map_event_template[177] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3344,8 +4256,8 @@ pg.map_event_template = {
 				10
 			}
 		}
-	},
-	[178] = {
+	}
+	pg.base.map_event_template[178] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3366,8 +4278,8 @@ pg.map_event_template = {
 				10
 			}
 		}
-	},
-	[179] = {
+	}
+	pg.base.map_event_template[179] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3388,8 +4300,8 @@ pg.map_event_template = {
 				10
 			}
 		}
-	},
-	[180] = {
+	}
+	pg.base.map_event_template[180] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3410,8 +4322,8 @@ pg.map_event_template = {
 				10
 			}
 		}
-	},
-	[181] = {
+	}
+	pg.base.map_event_template[181] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3432,8 +4344,8 @@ pg.map_event_template = {
 				10
 			}
 		}
-	},
-	[182] = {
+	}
+	pg.base.map_event_template[182] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3454,8 +4366,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[183] = {
+	}
+	pg.base.map_event_template[183] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3476,8 +4388,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[184] = {
+	}
+	pg.base.map_event_template[184] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3498,8 +4410,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[185] = {
+	}
+	pg.base.map_event_template[185] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3520,8 +4432,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[186] = {
+	}
+	pg.base.map_event_template[186] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3542,8 +4454,8 @@ pg.map_event_template = {
 				10
 			}
 		}
-	},
-	[187] = {
+	}
+	pg.base.map_event_template[187] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3564,8 +4476,8 @@ pg.map_event_template = {
 				10
 			}
 		}
-	},
-	[188] = {
+	}
+	pg.base.map_event_template[188] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3586,8 +4498,8 @@ pg.map_event_template = {
 				10
 			}
 		}
-	},
-	[189] = {
+	}
+	pg.base.map_event_template[189] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3608,8 +4520,8 @@ pg.map_event_template = {
 				10
 			}
 		}
-	},
-	[190] = {
+	}
+	pg.base.map_event_template[190] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3630,8 +4542,8 @@ pg.map_event_template = {
 				10
 			}
 		}
-	},
-	[191] = {
+	}
+	pg.base.map_event_template[191] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3652,8 +4564,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[192] = {
+	}
+	pg.base.map_event_template[192] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3674,8 +4586,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[193] = {
+	}
+	pg.base.map_event_template[193] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3696,8 +4608,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[194] = {
+	}
+	pg.base.map_event_template[194] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3718,8 +4630,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[195] = {
+	}
+	pg.base.map_event_template[195] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3740,8 +4652,8 @@ pg.map_event_template = {
 				10
 			}
 		}
-	},
-	[196] = {
+	}
+	pg.base.map_event_template[196] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3762,8 +4674,8 @@ pg.map_event_template = {
 				10
 			}
 		}
-	},
-	[197] = {
+	}
+	pg.base.map_event_template[197] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3784,8 +4696,8 @@ pg.map_event_template = {
 				10
 			}
 		}
-	},
-	[198] = {
+	}
+	pg.base.map_event_template[198] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3806,8 +4718,8 @@ pg.map_event_template = {
 				10
 			}
 		}
-	},
-	[199] = {
+	}
+	pg.base.map_event_template[199] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3828,8 +4740,8 @@ pg.map_event_template = {
 				10
 			}
 		}
-	},
-	[200] = {
+	}
+	pg.base.map_event_template[200] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3850,8 +4762,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[201] = {
+	}
+	pg.base.map_event_template[201] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3872,8 +4784,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[202] = {
+	}
+	pg.base.map_event_template[202] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3894,8 +4806,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[203] = {
+	}
+	pg.base.map_event_template[203] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3916,8 +4828,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[204] = {
+	}
+	pg.base.map_event_template[204] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3938,8 +4850,8 @@ pg.map_event_template = {
 				10
 			}
 		}
-	},
-	[205] = {
+	}
+	pg.base.map_event_template[205] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3960,8 +4872,8 @@ pg.map_event_template = {
 				10
 			}
 		}
-	},
-	[206] = {
+	}
+	pg.base.map_event_template[206] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -3982,8 +4894,8 @@ pg.map_event_template = {
 				10
 			}
 		}
-	},
-	[207] = {
+	}
+	pg.base.map_event_template[207] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4004,8 +4916,8 @@ pg.map_event_template = {
 				10
 			}
 		}
-	},
-	[208] = {
+	}
+	pg.base.map_event_template[208] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4026,8 +4938,8 @@ pg.map_event_template = {
 				10
 			}
 		}
-	},
-	[209] = {
+	}
+	pg.base.map_event_template[209] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4048,8 +4960,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[210] = {
+	}
+	pg.base.map_event_template[210] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4070,8 +4982,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[211] = {
+	}
+	pg.base.map_event_template[211] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4092,8 +5004,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[212] = {
+	}
+	pg.base.map_event_template[212] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4114,8 +5026,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[213] = {
+	}
+	pg.base.map_event_template[213] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4136,8 +5048,8 @@ pg.map_event_template = {
 				10
 			}
 		}
-	},
-	[214] = {
+	}
+	pg.base.map_event_template[214] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4158,8 +5070,8 @@ pg.map_event_template = {
 				10
 			}
 		}
-	},
-	[215] = {
+	}
+	pg.base.map_event_template[215] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4180,8 +5092,8 @@ pg.map_event_template = {
 				10
 			}
 		}
-	},
-	[216] = {
+	}
+	pg.base.map_event_template[216] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4202,8 +5114,8 @@ pg.map_event_template = {
 				10
 			}
 		}
-	},
-	[217] = {
+	}
+	pg.base.map_event_template[217] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4224,8 +5136,8 @@ pg.map_event_template = {
 				10
 			}
 		}
-	},
-	[218] = {
+	}
+	pg.base.map_event_template[218] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4246,8 +5158,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[219] = {
+	}
+	pg.base.map_event_template[219] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4268,8 +5180,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[220] = {
+	}
+	pg.base.map_event_template[220] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4290,8 +5202,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[221] = {
+	}
+	pg.base.map_event_template[221] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4312,8 +5224,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[222] = {
+	}
+	pg.base.map_event_template[222] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4330,8 +5242,8 @@ pg.map_event_template = {
 			6
 		},
 		effect = {}
-	},
-	[223] = {
+	}
+	pg.base.map_event_template[223] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4348,8 +5260,8 @@ pg.map_event_template = {
 			7
 		},
 		effect = {}
-	},
-	[224] = {
+	}
+	pg.base.map_event_template[224] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4366,8 +5278,8 @@ pg.map_event_template = {
 			3
 		},
 		effect = {}
-	},
-	[225] = {
+	}
+	pg.base.map_event_template[225] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4384,8 +5296,8 @@ pg.map_event_template = {
 			1
 		},
 		effect = {}
-	},
-	[226] = {
+	}
+	pg.base.map_event_template[226] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4402,8 +5314,10 @@ pg.map_event_template = {
 			3
 		},
 		effect = {}
-	},
-	[227] = {
+	}
+end)()
+(function ()
+	pg.base.map_event_template[227] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4451,8 +5365,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[228] = {
+	}
+	pg.base.map_event_template[228] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4472,8 +5386,8 @@ pg.map_event_template = {
 				4
 			}
 		}
-	},
-	[229] = {
+	}
+	pg.base.map_event_template[229] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4493,8 +5407,8 @@ pg.map_event_template = {
 				3
 			}
 		}
-	},
-	[230] = {
+	}
+	pg.base.map_event_template[230] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4514,8 +5428,8 @@ pg.map_event_template = {
 				4
 			}
 		}
-	},
-	[231] = {
+	}
+	pg.base.map_event_template[231] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4536,8 +5450,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[232] = {
+	}
+	pg.base.map_event_template[232] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4558,8 +5472,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[233] = {
+	}
+	pg.base.map_event_template[233] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4580,8 +5494,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[234] = {
+	}
+	pg.base.map_event_template[234] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4602,8 +5516,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[235] = {
+	}
+	pg.base.map_event_template[235] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4624,8 +5538,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[236] = {
+	}
+	pg.base.map_event_template[236] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4646,8 +5560,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[237] = {
+	}
+	pg.base.map_event_template[237] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4668,8 +5582,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[238] = {
+	}
+	pg.base.map_event_template[238] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4690,8 +5604,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[239] = {
+	}
+	pg.base.map_event_template[239] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4712,8 +5626,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[240] = {
+	}
+	pg.base.map_event_template[240] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4734,8 +5648,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[241] = {
+	}
+	pg.base.map_event_template[241] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4756,8 +5670,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[242] = {
+	}
+	pg.base.map_event_template[242] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4778,8 +5692,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[243] = {
+	}
+	pg.base.map_event_template[243] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4800,8 +5714,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[244] = {
+	}
+	pg.base.map_event_template[244] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4822,8 +5736,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[245] = {
+	}
+	pg.base.map_event_template[245] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4844,8 +5758,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[246] = {
+	}
+	pg.base.map_event_template[246] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4866,8 +5780,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[247] = {
+	}
+	pg.base.map_event_template[247] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4888,8 +5802,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[248] = {
+	}
+	pg.base.map_event_template[248] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4910,8 +5824,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[249] = {
+	}
+	pg.base.map_event_template[249] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4932,8 +5846,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[250] = {
+	}
+	pg.base.map_event_template[250] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4954,8 +5868,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[251] = {
+	}
+	pg.base.map_event_template[251] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4976,8 +5890,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[252] = {
+	}
+	pg.base.map_event_template[252] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -4998,8 +5912,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[253] = {
+	}
+	pg.base.map_event_template[253] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5020,8 +5934,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[254] = {
+	}
+	pg.base.map_event_template[254] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5042,8 +5956,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[255] = {
+	}
+	pg.base.map_event_template[255] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5064,8 +5978,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[256] = {
+	}
+	pg.base.map_event_template[256] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5086,8 +6000,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[257] = {
+	}
+	pg.base.map_event_template[257] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5108,8 +6022,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[258] = {
+	}
+	pg.base.map_event_template[258] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5130,8 +6044,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[259] = {
+	}
+	pg.base.map_event_template[259] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5152,8 +6066,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[260] = {
+	}
+	pg.base.map_event_template[260] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5174,8 +6088,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[261] = {
+	}
+	pg.base.map_event_template[261] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5196,8 +6110,8 @@ pg.map_event_template = {
 				10
 			}
 		}
-	},
-	[262] = {
+	}
+	pg.base.map_event_template[262] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5218,8 +6132,8 @@ pg.map_event_template = {
 				10
 			}
 		}
-	},
-	[263] = {
+	}
+	pg.base.map_event_template[263] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5240,8 +6154,8 @@ pg.map_event_template = {
 				10
 			}
 		}
-	},
-	[264] = {
+	}
+	pg.base.map_event_template[264] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5262,8 +6176,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[265] = {
+	}
+	pg.base.map_event_template[265] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5284,8 +6198,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[266] = {
+	}
+	pg.base.map_event_template[266] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5306,8 +6220,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[267] = {
+	}
+	pg.base.map_event_template[267] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5329,8 +6243,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[268] = {
+	}
+	pg.base.map_event_template[268] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5352,8 +6266,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[269] = {
+	}
+	pg.base.map_event_template[269] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5375,8 +6289,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[270] = {
+	}
+	pg.base.map_event_template[270] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5398,8 +6312,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[271] = {
+	}
+	pg.base.map_event_template[271] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5421,8 +6335,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[272] = {
+	}
+	pg.base.map_event_template[272] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5444,8 +6358,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[273] = {
+	}
+	pg.base.map_event_template[273] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5467,8 +6381,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[274] = {
+	}
+	pg.base.map_event_template[274] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5490,8 +6404,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[275] = {
+	}
+	pg.base.map_event_template[275] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5513,8 +6427,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[276] = {
+	}
+	pg.base.map_event_template[276] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5536,8 +6450,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[277] = {
+	}
+	pg.base.map_event_template[277] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5559,8 +6473,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[278] = {
+	}
+	pg.base.map_event_template[278] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5582,8 +6496,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[279] = {
+	}
+	pg.base.map_event_template[279] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5605,8 +6519,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[280] = {
+	}
+	pg.base.map_event_template[280] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5628,8 +6542,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[281] = {
+	}
+	pg.base.map_event_template[281] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5651,8 +6565,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[282] = {
+	}
+	pg.base.map_event_template[282] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5674,8 +6588,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[283] = {
+	}
+	pg.base.map_event_template[283] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5697,8 +6611,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[284] = {
+	}
+	pg.base.map_event_template[284] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5720,8 +6634,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[285] = {
+	}
+	pg.base.map_event_template[285] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5743,8 +6657,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[286] = {
+	}
+	pg.base.map_event_template[286] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5766,8 +6680,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[287] = {
+	}
+	pg.base.map_event_template[287] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5789,8 +6703,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[288] = {
+	}
+	pg.base.map_event_template[288] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5812,8 +6726,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[289] = {
+	}
+	pg.base.map_event_template[289] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5835,8 +6749,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[290] = {
+	}
+	pg.base.map_event_template[290] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5858,8 +6772,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[291] = {
+	}
+	pg.base.map_event_template[291] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5881,8 +6795,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[292] = {
+	}
+	pg.base.map_event_template[292] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5904,8 +6818,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[293] = {
+	}
+	pg.base.map_event_template[293] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5927,8 +6841,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[294] = {
+	}
+	pg.base.map_event_template[294] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5950,8 +6864,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[295] = {
+	}
+	pg.base.map_event_template[295] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5973,8 +6887,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[296] = {
+	}
+	pg.base.map_event_template[296] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -5996,8 +6910,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[297] = {
+	}
+	pg.base.map_event_template[297] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6019,8 +6933,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[298] = {
+	}
+	pg.base.map_event_template[298] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6042,8 +6956,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[299] = {
+	}
+	pg.base.map_event_template[299] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6065,8 +6979,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[300] = {
+	}
+	pg.base.map_event_template[300] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6088,8 +7002,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[301] = {
+	}
+	pg.base.map_event_template[301] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6111,8 +7025,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[302] = {
+	}
+	pg.base.map_event_template[302] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6134,8 +7048,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[303] = {
+	}
+	pg.base.map_event_template[303] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6157,8 +7071,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[304] = {
+	}
+	pg.base.map_event_template[304] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6180,8 +7094,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[305] = {
+	}
+	pg.base.map_event_template[305] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6203,8 +7117,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[306] = {
+	}
+	pg.base.map_event_template[306] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6226,8 +7140,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[307] = {
+	}
+	pg.base.map_event_template[307] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6249,8 +7163,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[308] = {
+	}
+	pg.base.map_event_template[308] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6272,8 +7186,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[309] = {
+	}
+	pg.base.map_event_template[309] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6295,8 +7209,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[310] = {
+	}
+	pg.base.map_event_template[310] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6318,8 +7232,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[311] = {
+	}
+	pg.base.map_event_template[311] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6341,8 +7255,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[312] = {
+	}
+	pg.base.map_event_template[312] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6364,8 +7278,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[313] = {
+	}
+	pg.base.map_event_template[313] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6387,8 +7301,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[314] = {
+	}
+	pg.base.map_event_template[314] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6410,8 +7324,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[315] = {
+	}
+	pg.base.map_event_template[315] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6433,8 +7347,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[316] = {
+	}
+	pg.base.map_event_template[316] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6456,8 +7370,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[317] = {
+	}
+	pg.base.map_event_template[317] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6479,8 +7393,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[318] = {
+	}
+	pg.base.map_event_template[318] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6502,8 +7416,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[319] = {
+	}
+	pg.base.map_event_template[319] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6525,8 +7439,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[320] = {
+	}
+	pg.base.map_event_template[320] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6548,8 +7462,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[321] = {
+	}
+	pg.base.map_event_template[321] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6571,8 +7485,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[322] = {
+	}
+	pg.base.map_event_template[322] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6594,8 +7508,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[323] = {
+	}
+	pg.base.map_event_template[323] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6617,8 +7531,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[324] = {
+	}
+	pg.base.map_event_template[324] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6640,8 +7554,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[325] = {
+	}
+	pg.base.map_event_template[325] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6663,8 +7577,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[326] = {
+	}
+	pg.base.map_event_template[326] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6686,8 +7600,10 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[327] = {
+	}
+end)()
+(function ()
+	pg.base.map_event_template[327] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6709,8 +7625,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[328] = {
+	}
+	pg.base.map_event_template[328] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6732,8 +7648,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[329] = {
+	}
+	pg.base.map_event_template[329] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6755,8 +7671,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[330] = {
+	}
+	pg.base.map_event_template[330] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6778,8 +7694,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[331] = {
+	}
+	pg.base.map_event_template[331] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6801,8 +7717,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[332] = {
+	}
+	pg.base.map_event_template[332] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6824,8 +7740,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[333] = {
+	}
+	pg.base.map_event_template[333] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6847,8 +7763,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[334] = {
+	}
+	pg.base.map_event_template[334] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6870,8 +7786,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[335] = {
+	}
+	pg.base.map_event_template[335] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6893,8 +7809,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[336] = {
+	}
+	pg.base.map_event_template[336] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6916,8 +7832,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[337] = {
+	}
+	pg.base.map_event_template[337] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6939,8 +7855,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[338] = {
+	}
+	pg.base.map_event_template[338] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6962,8 +7878,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[339] = {
+	}
+	pg.base.map_event_template[339] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -6985,8 +7901,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[340] = {
+	}
+	pg.base.map_event_template[340] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7008,8 +7924,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[341] = {
+	}
+	pg.base.map_event_template[341] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7031,8 +7947,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[342] = {
+	}
+	pg.base.map_event_template[342] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7054,8 +7970,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[343] = {
+	}
+	pg.base.map_event_template[343] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7077,8 +7993,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[344] = {
+	}
+	pg.base.map_event_template[344] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7100,8 +8016,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[345] = {
+	}
+	pg.base.map_event_template[345] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7123,8 +8039,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[346] = {
+	}
+	pg.base.map_event_template[346] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7146,8 +8062,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[347] = {
+	}
+	pg.base.map_event_template[347] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7169,8 +8085,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[348] = {
+	}
+	pg.base.map_event_template[348] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7192,8 +8108,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[349] = {
+	}
+	pg.base.map_event_template[349] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7215,8 +8131,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[350] = {
+	}
+	pg.base.map_event_template[350] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7238,8 +8154,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[351] = {
+	}
+	pg.base.map_event_template[351] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7261,8 +8177,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[352] = {
+	}
+	pg.base.map_event_template[352] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7284,8 +8200,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[353] = {
+	}
+	pg.base.map_event_template[353] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7307,8 +8223,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[354] = {
+	}
+	pg.base.map_event_template[354] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7330,8 +8246,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[355] = {
+	}
+	pg.base.map_event_template[355] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7353,8 +8269,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[356] = {
+	}
+	pg.base.map_event_template[356] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7376,8 +8292,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[357] = {
+	}
+	pg.base.map_event_template[357] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7399,8 +8315,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[358] = {
+	}
+	pg.base.map_event_template[358] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7422,8 +8338,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[359] = {
+	}
+	pg.base.map_event_template[359] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7445,8 +8361,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[360] = {
+	}
+	pg.base.map_event_template[360] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7468,8 +8384,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[361] = {
+	}
+	pg.base.map_event_template[361] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7491,8 +8407,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[362] = {
+	}
+	pg.base.map_event_template[362] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7514,8 +8430,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[363] = {
+	}
+	pg.base.map_event_template[363] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7537,8 +8453,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[364] = {
+	}
+	pg.base.map_event_template[364] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7560,8 +8476,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[365] = {
+	}
+	pg.base.map_event_template[365] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7583,8 +8499,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[366] = {
+	}
+	pg.base.map_event_template[366] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7606,8 +8522,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[367] = {
+	}
+	pg.base.map_event_template[367] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7629,8 +8545,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[368] = {
+	}
+	pg.base.map_event_template[368] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7652,8 +8568,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[369] = {
+	}
+	pg.base.map_event_template[369] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7675,8 +8591,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[370] = {
+	}
+	pg.base.map_event_template[370] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7698,8 +8614,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[371] = {
+	}
+	pg.base.map_event_template[371] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7721,8 +8637,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[372] = {
+	}
+	pg.base.map_event_template[372] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7744,8 +8660,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[373] = {
+	}
+	pg.base.map_event_template[373] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7767,8 +8683,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[374] = {
+	}
+	pg.base.map_event_template[374] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7790,8 +8706,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[375] = {
+	}
+	pg.base.map_event_template[375] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7808,8 +8724,8 @@ pg.map_event_template = {
 			0
 		},
 		effect = {}
-	},
-	[376] = {
+	}
+	pg.base.map_event_template[376] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7826,8 +8742,8 @@ pg.map_event_template = {
 			3
 		},
 		effect = {}
-	},
-	[377] = {
+	}
+	pg.base.map_event_template[377] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7844,8 +8760,8 @@ pg.map_event_template = {
 			6
 		},
 		effect = {}
-	},
-	[378] = {
+	}
+	pg.base.map_event_template[378] = {
 		grid_color = "cell_box",
 		memory = 2757,
 		ship_prefab = "",
@@ -7862,8 +8778,8 @@ pg.map_event_template = {
 			0
 		},
 		effect = {}
-	},
-	[379] = {
+	}
+	pg.base.map_event_template[379] = {
 		grid_color = "cell_box",
 		memory = 2758,
 		ship_prefab = "",
@@ -7880,8 +8796,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[380] = {
+	}
+	pg.base.map_event_template[380] = {
 		grid_color = "cell_box",
 		memory = 2759,
 		ship_prefab = "",
@@ -7898,8 +8814,8 @@ pg.map_event_template = {
 			1
 		},
 		effect = {}
-	},
-	[381] = {
+	}
+	pg.base.map_event_template[381] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7927,8 +8843,8 @@ pg.map_event_template = {
 				4
 			}
 		}
-	},
-	[382] = {
+	}
+	pg.base.map_event_template[382] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7956,8 +8872,8 @@ pg.map_event_template = {
 				4
 			}
 		}
-	},
-	[383] = {
+	}
+	pg.base.map_event_template[383] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -7985,8 +8901,8 @@ pg.map_event_template = {
 				0
 			}
 		}
-	},
-	[384] = {
+	}
+	pg.base.map_event_template[384] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -8014,8 +8930,8 @@ pg.map_event_template = {
 				8
 			}
 		}
-	},
-	[385] = {
+	}
+	pg.base.map_event_template[385] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -8043,8 +8959,8 @@ pg.map_event_template = {
 				7
 			}
 		}
-	},
-	[386] = {
+	}
+	pg.base.map_event_template[386] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -8072,8 +8988,8 @@ pg.map_event_template = {
 				8
 			}
 		}
-	},
-	[387] = {
+	}
+	pg.base.map_event_template[387] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -8101,8 +9017,8 @@ pg.map_event_template = {
 				2
 			}
 		}
-	},
-	[388] = {
+	}
+	pg.base.map_event_template[388] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -8130,8 +9046,8 @@ pg.map_event_template = {
 				8
 			}
 		}
-	},
-	[389] = {
+	}
+	pg.base.map_event_template[389] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -8159,8 +9075,8 @@ pg.map_event_template = {
 				4
 			}
 		}
-	},
-	[390] = {
+	}
+	pg.base.map_event_template[390] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -8188,8 +9104,8 @@ pg.map_event_template = {
 				4
 			}
 		}
-	},
-	[391] = {
+	}
+	pg.base.map_event_template[391] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -8217,8 +9133,8 @@ pg.map_event_template = {
 				6
 			}
 		}
-	},
-	[392] = {
+	}
+	pg.base.map_event_template[392] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -8246,8 +9162,8 @@ pg.map_event_template = {
 				6
 			}
 		}
-	},
-	[393] = {
+	}
+	pg.base.map_event_template[393] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -8275,8 +9191,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[394] = {
+	}
+	pg.base.map_event_template[394] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -8304,8 +9220,8 @@ pg.map_event_template = {
 				6
 			}
 		}
-	},
-	[395] = {
+	}
+	pg.base.map_event_template[395] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -8333,8 +9249,8 @@ pg.map_event_template = {
 				3
 			}
 		}
-	},
-	[396] = {
+	}
+	pg.base.map_event_template[396] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -8362,8 +9278,8 @@ pg.map_event_template = {
 				2
 			}
 		}
-	},
-	[397] = {
+	}
+	pg.base.map_event_template[397] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -8391,8 +9307,8 @@ pg.map_event_template = {
 				10
 			}
 		}
-	},
-	[398] = {
+	}
+	pg.base.map_event_template[398] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -8420,8 +9336,8 @@ pg.map_event_template = {
 				4
 			}
 		}
-	},
-	[399] = {
+	}
+	pg.base.map_event_template[399] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -8449,8 +9365,8 @@ pg.map_event_template = {
 				6
 			}
 		}
-	},
-	[400] = {
+	}
+	pg.base.map_event_template[400] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -8478,8 +9394,8 @@ pg.map_event_template = {
 				0
 			}
 		}
-	},
-	[401] = {
+	}
+	pg.base.map_event_template[401] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -8496,8 +9412,8 @@ pg.map_event_template = {
 			3
 		},
 		effect = {}
-	},
-	[402] = {
+	}
+	pg.base.map_event_template[402] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -8514,8 +9430,8 @@ pg.map_event_template = {
 			7
 		},
 		effect = {}
-	},
-	[403] = {
+	}
+	pg.base.map_event_template[403] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -8532,8 +9448,8 @@ pg.map_event_template = {
 			5
 		},
 		effect = {}
-	},
-	[404] = {
+	}
+	pg.base.map_event_template[404] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -8550,8 +9466,8 @@ pg.map_event_template = {
 			5
 		},
 		effect = {}
-	},
-	[405] = {
+	}
+	pg.base.map_event_template[405] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -8568,8 +9484,8 @@ pg.map_event_template = {
 			6
 		},
 		effect = {}
-	},
-	[406] = {
+	}
+	pg.base.map_event_template[406] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -8603,8 +9519,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[407] = {
+	}
+	pg.base.map_event_template[407] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -8631,8 +9547,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[408] = {
+	}
+	pg.base.map_event_template[408] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -8673,8 +9589,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[409] = {
+	}
+	pg.base.map_event_template[409] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -8715,8 +9631,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[410] = {
+	}
+	pg.base.map_event_template[410] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -8755,8 +9671,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[411] = {
+	}
+	pg.base.map_event_template[411] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -8776,8 +9692,8 @@ pg.map_event_template = {
 				6
 			}
 		}
-	},
-	[412] = {
+	}
+	pg.base.map_event_template[412] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -8816,8 +9732,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[413] = {
+	}
+	pg.base.map_event_template[413] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -8837,8 +9753,8 @@ pg.map_event_template = {
 				6
 			}
 		}
-	},
-	[414] = {
+	}
+	pg.base.map_event_template[414] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -8877,8 +9793,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[415] = {
+	}
+	pg.base.map_event_template[415] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -8898,8 +9814,8 @@ pg.map_event_template = {
 				6
 			}
 		}
-	},
-	[416] = {
+	}
+	pg.base.map_event_template[416] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -8945,8 +9861,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[417] = {
+	}
+	pg.base.map_event_template[417] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -8966,8 +9882,8 @@ pg.map_event_template = {
 				6
 			}
 		}
-	},
-	[418] = {
+	}
+	pg.base.map_event_template[418] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9013,8 +9929,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[419] = {
+	}
+	pg.base.map_event_template[419] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9034,8 +9950,8 @@ pg.map_event_template = {
 				6
 			}
 		}
-	},
-	[420] = {
+	}
+	pg.base.map_event_template[420] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9088,8 +10004,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[421] = {
+	}
+	pg.base.map_event_template[421] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9109,8 +10025,8 @@ pg.map_event_template = {
 				6
 			}
 		}
-	},
-	[422] = {
+	}
+	pg.base.map_event_template[422] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9149,8 +10065,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[423] = {
+	}
+	pg.base.map_event_template[423] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9170,8 +10086,8 @@ pg.map_event_template = {
 				6
 			}
 		}
-	},
-	[424] = {
+	}
+	pg.base.map_event_template[424] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9210,8 +10126,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[425] = {
+	}
+	pg.base.map_event_template[425] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9231,8 +10147,8 @@ pg.map_event_template = {
 				6
 			}
 		}
-	},
-	[426] = {
+	}
+	pg.base.map_event_template[426] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9271,8 +10187,10 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[427] = {
+	}
+end)()
+(function ()
+	pg.base.map_event_template[427] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9292,8 +10210,8 @@ pg.map_event_template = {
 				6
 			}
 		}
-	},
-	[428] = {
+	}
+	pg.base.map_event_template[428] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9339,8 +10257,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[429] = {
+	}
+	pg.base.map_event_template[429] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9360,8 +10278,8 @@ pg.map_event_template = {
 				6
 			}
 		}
-	},
-	[430] = {
+	}
+	pg.base.map_event_template[430] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9407,8 +10325,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[431] = {
+	}
+	pg.base.map_event_template[431] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9428,8 +10346,8 @@ pg.map_event_template = {
 				6
 			}
 		}
-	},
-	[432] = {
+	}
+	pg.base.map_event_template[432] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9482,8 +10400,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[433] = {
+	}
+	pg.base.map_event_template[433] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9503,8 +10421,8 @@ pg.map_event_template = {
 				6
 			}
 		}
-	},
-	[434] = {
+	}
+	pg.base.map_event_template[434] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9543,8 +10461,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[435] = {
+	}
+	pg.base.map_event_template[435] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9564,8 +10482,8 @@ pg.map_event_template = {
 				6
 			}
 		}
-	},
-	[436] = {
+	}
+	pg.base.map_event_template[436] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9585,8 +10503,8 @@ pg.map_event_template = {
 				7
 			}
 		}
-	},
-	[437] = {
+	}
+	pg.base.map_event_template[437] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9606,8 +10524,8 @@ pg.map_event_template = {
 				8
 			}
 		}
-	},
-	[438] = {
+	}
+	pg.base.map_event_template[438] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9627,8 +10545,8 @@ pg.map_event_template = {
 				10
 			}
 		}
-	},
-	[439] = {
+	}
+	pg.base.map_event_template[439] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9648,8 +10566,8 @@ pg.map_event_template = {
 				10
 			}
 		}
-	},
-	[440] = {
+	}
+	pg.base.map_event_template[440] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9669,8 +10587,8 @@ pg.map_event_template = {
 				11
 			}
 		}
-	},
-	[441] = {
+	}
+	pg.base.map_event_template[441] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9690,8 +10608,8 @@ pg.map_event_template = {
 				9
 			}
 		}
-	},
-	[442] = {
+	}
+	pg.base.map_event_template[442] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9708,8 +10626,8 @@ pg.map_event_template = {
 			8
 		},
 		effect = {}
-	},
-	[443] = {
+	}
+	pg.base.map_event_template[443] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9726,8 +10644,8 @@ pg.map_event_template = {
 			3
 		},
 		effect = {}
-	},
-	[444] = {
+	}
+	pg.base.map_event_template[444] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9744,8 +10662,8 @@ pg.map_event_template = {
 			9
 		},
 		effect = {}
-	},
-	[445] = {
+	}
+	pg.base.map_event_template[445] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9762,8 +10680,8 @@ pg.map_event_template = {
 			1
 		},
 		effect = {}
-	},
-	[446] = {
+	}
+	pg.base.map_event_template[446] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9780,8 +10698,8 @@ pg.map_event_template = {
 			3
 		},
 		effect = {}
-	},
-	[447] = {
+	}
+	pg.base.map_event_template[447] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9798,8 +10716,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[448] = {
+	}
+	pg.base.map_event_template[448] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9816,8 +10734,8 @@ pg.map_event_template = {
 			2
 		},
 		effect = {}
-	},
-	[449] = {
+	}
+	pg.base.map_event_template[449] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9834,8 +10752,8 @@ pg.map_event_template = {
 			6
 		},
 		effect = {}
-	},
-	[450] = {
+	}
+	pg.base.map_event_template[450] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9852,8 +10770,8 @@ pg.map_event_template = {
 			6
 		},
 		effect = {}
-	},
-	[451] = {
+	}
+	pg.base.map_event_template[451] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9870,8 +10788,8 @@ pg.map_event_template = {
 			0
 		},
 		effect = {}
-	},
-	[452] = {
+	}
+	pg.base.map_event_template[452] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9888,8 +10806,8 @@ pg.map_event_template = {
 			8
 		},
 		effect = {}
-	},
-	[453] = {
+	}
+	pg.base.map_event_template[453] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9906,8 +10824,8 @@ pg.map_event_template = {
 			3
 		},
 		effect = {}
-	},
-	[454] = {
+	}
+	pg.base.map_event_template[454] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9924,8 +10842,8 @@ pg.map_event_template = {
 			5
 		},
 		effect = {}
-	},
-	[455] = {
+	}
+	pg.base.map_event_template[455] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9942,8 +10860,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[456] = {
+	}
+	pg.base.map_event_template[456] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9960,8 +10878,8 @@ pg.map_event_template = {
 			0
 		},
 		effect = {}
-	},
-	[457] = {
+	}
+	pg.base.map_event_template[457] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9978,8 +10896,8 @@ pg.map_event_template = {
 			2
 		},
 		effect = {}
-	},
-	[458] = {
+	}
+	pg.base.map_event_template[458] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -9996,8 +10914,8 @@ pg.map_event_template = {
 			6
 		},
 		effect = {}
-	},
-	[459] = {
+	}
+	pg.base.map_event_template[459] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10014,8 +10932,8 @@ pg.map_event_template = {
 			8
 		},
 		effect = {}
-	},
-	[460] = {
+	}
+	pg.base.map_event_template[460] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10032,8 +10950,8 @@ pg.map_event_template = {
 			0
 		},
 		effect = {}
-	},
-	[461] = {
+	}
+	pg.base.map_event_template[461] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10050,8 +10968,8 @@ pg.map_event_template = {
 			8
 		},
 		effect = {}
-	},
-	[462] = {
+	}
+	pg.base.map_event_template[462] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10068,8 +10986,8 @@ pg.map_event_template = {
 			2
 		},
 		effect = {}
-	},
-	[463] = {
+	}
+	pg.base.map_event_template[463] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10086,8 +11004,8 @@ pg.map_event_template = {
 			6
 		},
 		effect = {}
-	},
-	[464] = {
+	}
+	pg.base.map_event_template[464] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10104,8 +11022,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[465] = {
+	}
+	pg.base.map_event_template[465] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10122,8 +11040,8 @@ pg.map_event_template = {
 			1
 		},
 		effect = {}
-	},
-	[466] = {
+	}
+	pg.base.map_event_template[466] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10140,8 +11058,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[467] = {
+	}
+	pg.base.map_event_template[467] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10158,8 +11076,8 @@ pg.map_event_template = {
 			7
 		},
 		effect = {}
-	},
-	[468] = {
+	}
+	pg.base.map_event_template[468] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10176,8 +11094,8 @@ pg.map_event_template = {
 			2
 		},
 		effect = {}
-	},
-	[469] = {
+	}
+	pg.base.map_event_template[469] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10194,8 +11112,8 @@ pg.map_event_template = {
 			6
 		},
 		effect = {}
-	},
-	[470] = {
+	}
+	pg.base.map_event_template[470] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10212,8 +11130,8 @@ pg.map_event_template = {
 			0
 		},
 		effect = {}
-	},
-	[471] = {
+	}
+	pg.base.map_event_template[471] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10230,8 +11148,8 @@ pg.map_event_template = {
 			8
 		},
 		effect = {}
-	},
-	[472] = {
+	}
+	pg.base.map_event_template[472] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10248,8 +11166,8 @@ pg.map_event_template = {
 			1
 		},
 		effect = {}
-	},
-	[473] = {
+	}
+	pg.base.map_event_template[473] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10266,8 +11184,8 @@ pg.map_event_template = {
 			5
 		},
 		effect = {}
-	},
-	[474] = {
+	}
+	pg.base.map_event_template[474] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10284,8 +11202,8 @@ pg.map_event_template = {
 			3
 		},
 		effect = {}
-	},
-	[475] = {
+	}
+	pg.base.map_event_template[475] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10302,8 +11220,8 @@ pg.map_event_template = {
 			2
 		},
 		effect = {}
-	},
-	[476] = {
+	}
+	pg.base.map_event_template[476] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10320,8 +11238,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[477] = {
+	}
+	pg.base.map_event_template[477] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10338,8 +11256,8 @@ pg.map_event_template = {
 			3
 		},
 		effect = {}
-	},
-	[478] = {
+	}
+	pg.base.map_event_template[478] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10356,8 +11274,8 @@ pg.map_event_template = {
 			2
 		},
 		effect = {}
-	},
-	[479] = {
+	}
+	pg.base.map_event_template[479] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10374,8 +11292,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[480] = {
+	}
+	pg.base.map_event_template[480] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10392,8 +11310,8 @@ pg.map_event_template = {
 			3
 		},
 		effect = {}
-	},
-	[481] = {
+	}
+	pg.base.map_event_template[481] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10410,8 +11328,8 @@ pg.map_event_template = {
 			3
 		},
 		effect = {}
-	},
-	[482] = {
+	}
+	pg.base.map_event_template[482] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10452,8 +11370,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[483] = {
+	}
+	pg.base.map_event_template[483] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10494,8 +11412,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[484] = {
+	}
+	pg.base.map_event_template[484] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10522,8 +11440,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[485] = {
+	}
+	pg.base.map_event_template[485] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10543,8 +11461,8 @@ pg.map_event_template = {
 				12
 			}
 		}
-	},
-	[486] = {
+	}
+	pg.base.map_event_template[486] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10564,8 +11482,8 @@ pg.map_event_template = {
 				13
 			}
 		}
-	},
-	[487] = {
+	}
+	pg.base.map_event_template[487] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10582,8 +11500,8 @@ pg.map_event_template = {
 			5
 		},
 		effect = {}
-	},
-	[488] = {
+	}
+	pg.base.map_event_template[488] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10600,8 +11518,8 @@ pg.map_event_template = {
 			6
 		},
 		effect = {}
-	},
-	[489] = {
+	}
+	pg.base.map_event_template[489] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10628,8 +11546,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[490] = {
+	}
+	pg.base.map_event_template[490] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10649,8 +11567,8 @@ pg.map_event_template = {
 				14
 			}
 		}
-	},
-	[491] = {
+	}
+	pg.base.map_event_template[491] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10670,8 +11588,8 @@ pg.map_event_template = {
 				15
 			}
 		}
-	},
-	[492] = {
+	}
+	pg.base.map_event_template[492] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10688,8 +11606,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[493] = {
+	}
+	pg.base.map_event_template[493] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10706,8 +11624,8 @@ pg.map_event_template = {
 			1
 		},
 		effect = {}
-	},
-	[494] = {
+	}
+	pg.base.map_event_template[494] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10734,8 +11652,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[495] = {
+	}
+	pg.base.map_event_template[495] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10755,8 +11673,8 @@ pg.map_event_template = {
 				16
 			}
 		}
-	},
-	[496] = {
+	}
+	pg.base.map_event_template[496] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10776,8 +11694,8 @@ pg.map_event_template = {
 				17
 			}
 		}
-	},
-	[497] = {
+	}
+	pg.base.map_event_template[497] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10794,8 +11712,8 @@ pg.map_event_template = {
 			6
 		},
 		effect = {}
-	},
-	[498] = {
+	}
+	pg.base.map_event_template[498] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10812,8 +11730,8 @@ pg.map_event_template = {
 			9
 		},
 		effect = {}
-	},
-	[499] = {
+	}
+	pg.base.map_event_template[499] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10840,8 +11758,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[500] = {
+	}
+	pg.base.map_event_template[500] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10861,8 +11779,8 @@ pg.map_event_template = {
 				18
 			}
 		}
-	},
-	[501] = {
+	}
+	pg.base.map_event_template[501] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10882,8 +11800,8 @@ pg.map_event_template = {
 				19
 			}
 		}
-	},
-	[502] = {
+	}
+	pg.base.map_event_template[502] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10900,8 +11818,8 @@ pg.map_event_template = {
 			8
 		},
 		effect = {}
-	},
-	[503] = {
+	}
+	pg.base.map_event_template[503] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10918,8 +11836,8 @@ pg.map_event_template = {
 			2
 		},
 		effect = {}
-	},
-	[504] = {
+	}
+	pg.base.map_event_template[504] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -10967,8 +11885,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[505] = {
+	}
+	pg.base.map_event_template[505] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11003,8 +11921,8 @@ pg.map_event_template = {
 				18
 			}
 		}
-	},
-	[506] = {
+	}
+	pg.base.map_event_template[506] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11024,8 +11942,8 @@ pg.map_event_template = {
 				13
 			}
 		}
-	},
-	[507] = {
+	}
+	pg.base.map_event_template[507] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11045,8 +11963,8 @@ pg.map_event_template = {
 				15
 			}
 		}
-	},
-	[508] = {
+	}
+	pg.base.map_event_template[508] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11066,8 +11984,8 @@ pg.map_event_template = {
 				17
 			}
 		}
-	},
-	[509] = {
+	}
+	pg.base.map_event_template[509] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11087,8 +12005,8 @@ pg.map_event_template = {
 				19
 			}
 		}
-	},
-	[510] = {
+	}
+	pg.base.map_event_template[510] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11115,8 +12033,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[511] = {
+	}
+	pg.base.map_event_template[511] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11143,8 +12061,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[512] = {
+	}
+	pg.base.map_event_template[512] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11171,8 +12089,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[513] = {
+	}
+	pg.base.map_event_template[513] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11199,8 +12117,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[514] = {
+	}
+	pg.base.map_event_template[514] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11217,8 +12135,8 @@ pg.map_event_template = {
 			6
 		},
 		effect = {}
-	},
-	[515] = {
+	}
+	pg.base.map_event_template[515] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11245,8 +12163,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[516] = {
+	}
+	pg.base.map_event_template[516] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11266,8 +12184,8 @@ pg.map_event_template = {
 				12
 			}
 		}
-	},
-	[517] = {
+	}
+	pg.base.map_event_template[517] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11287,8 +12205,8 @@ pg.map_event_template = {
 				13
 			}
 		}
-	},
-	[518] = {
+	}
+	pg.base.map_event_template[518] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11305,8 +12223,8 @@ pg.map_event_template = {
 			5
 		},
 		effect = {}
-	},
-	[519] = {
+	}
+	pg.base.map_event_template[519] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11323,8 +12241,8 @@ pg.map_event_template = {
 			6
 		},
 		effect = {}
-	},
-	[520] = {
+	}
+	pg.base.map_event_template[520] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11351,8 +12269,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[521] = {
+	}
+	pg.base.map_event_template[521] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11372,8 +12290,8 @@ pg.map_event_template = {
 				14
 			}
 		}
-	},
-	[522] = {
+	}
+	pg.base.map_event_template[522] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11393,8 +12311,8 @@ pg.map_event_template = {
 				15
 			}
 		}
-	},
-	[523] = {
+	}
+	pg.base.map_event_template[523] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11411,8 +12329,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[524] = {
+	}
+	pg.base.map_event_template[524] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11429,8 +12347,8 @@ pg.map_event_template = {
 			1
 		},
 		effect = {}
-	},
-	[525] = {
+	}
+	pg.base.map_event_template[525] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11457,8 +12375,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[526] = {
+	}
+	pg.base.map_event_template[526] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11478,8 +12396,10 @@ pg.map_event_template = {
 				16
 			}
 		}
-	},
-	[527] = {
+	}
+end)()
+(function ()
+	pg.base.map_event_template[527] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11499,8 +12419,8 @@ pg.map_event_template = {
 				17
 			}
 		}
-	},
-	[528] = {
+	}
+	pg.base.map_event_template[528] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11517,8 +12437,8 @@ pg.map_event_template = {
 			6
 		},
 		effect = {}
-	},
-	[529] = {
+	}
+	pg.base.map_event_template[529] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11535,8 +12455,8 @@ pg.map_event_template = {
 			9
 		},
 		effect = {}
-	},
-	[530] = {
+	}
+	pg.base.map_event_template[530] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11563,8 +12483,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[531] = {
+	}
+	pg.base.map_event_template[531] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11584,8 +12504,8 @@ pg.map_event_template = {
 				18
 			}
 		}
-	},
-	[532] = {
+	}
+	pg.base.map_event_template[532] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11605,8 +12525,8 @@ pg.map_event_template = {
 				19
 			}
 		}
-	},
-	[533] = {
+	}
+	pg.base.map_event_template[533] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11623,8 +12543,8 @@ pg.map_event_template = {
 			8
 		},
 		effect = {}
-	},
-	[534] = {
+	}
+	pg.base.map_event_template[534] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11641,8 +12561,8 @@ pg.map_event_template = {
 			2
 		},
 		effect = {}
-	},
-	[535] = {
+	}
+	pg.base.map_event_template[535] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11690,8 +12610,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[536] = {
+	}
+	pg.base.map_event_template[536] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11726,8 +12646,8 @@ pg.map_event_template = {
 				18
 			}
 		}
-	},
-	[537] = {
+	}
+	pg.base.map_event_template[537] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11747,8 +12667,8 @@ pg.map_event_template = {
 				13
 			}
 		}
-	},
-	[538] = {
+	}
+	pg.base.map_event_template[538] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11768,8 +12688,8 @@ pg.map_event_template = {
 				15
 			}
 		}
-	},
-	[539] = {
+	}
+	pg.base.map_event_template[539] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11789,8 +12709,8 @@ pg.map_event_template = {
 				17
 			}
 		}
-	},
-	[540] = {
+	}
+	pg.base.map_event_template[540] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11810,8 +12730,8 @@ pg.map_event_template = {
 				19
 			}
 		}
-	},
-	[541] = {
+	}
+	pg.base.map_event_template[541] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11838,8 +12758,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[542] = {
+	}
+	pg.base.map_event_template[542] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11866,8 +12786,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[543] = {
+	}
+	pg.base.map_event_template[543] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11894,8 +12814,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[544] = {
+	}
+	pg.base.map_event_template[544] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11922,8 +12842,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[545] = {
+	}
+	pg.base.map_event_template[545] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11940,8 +12860,8 @@ pg.map_event_template = {
 			6
 		},
 		effect = {}
-	},
-	[546] = {
+	}
+	pg.base.map_event_template[546] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -11989,8 +12909,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[547] = {
+	}
+	pg.base.map_event_template[547] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -12025,8 +12945,8 @@ pg.map_event_template = {
 				18
 			}
 		}
-	},
-	[548] = {
+	}
+	pg.base.map_event_template[548] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -12046,8 +12966,8 @@ pg.map_event_template = {
 				13
 			}
 		}
-	},
-	[549] = {
+	}
+	pg.base.map_event_template[549] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -12067,8 +12987,8 @@ pg.map_event_template = {
 				15
 			}
 		}
-	},
-	[550] = {
+	}
+	pg.base.map_event_template[550] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -12088,8 +13008,8 @@ pg.map_event_template = {
 				17
 			}
 		}
-	},
-	[551] = {
+	}
+	pg.base.map_event_template[551] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -12109,8 +13029,8 @@ pg.map_event_template = {
 				19
 			}
 		}
-	},
-	[552] = {
+	}
+	pg.base.map_event_template[552] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -12127,8 +13047,8 @@ pg.map_event_template = {
 			3
 		},
 		effect = {}
-	},
-	[553] = {
+	}
+	pg.base.map_event_template[553] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -12145,8 +13065,8 @@ pg.map_event_template = {
 			2
 		},
 		effect = {}
-	},
-	[554] = {
+	}
+	pg.base.map_event_template[554] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -12163,8 +13083,8 @@ pg.map_event_template = {
 			3
 		},
 		effect = {}
-	},
-	[555] = {
+	}
+	pg.base.map_event_template[555] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -12181,8 +13101,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[556] = {
+	}
+	pg.base.map_event_template[556] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -12199,8 +13119,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[561] = {
+	}
+	pg.base.map_event_template[561] = {
 		grid_color = "cell_box",
 		memory = 0,
 		ship_prefab = "",
@@ -12223,8 +13143,8 @@ pg.map_event_template = {
 				20
 			}
 		}
-	},
-	[562] = {
+	}
+	pg.base.map_event_template[562] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -12251,8 +13171,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[563] = {
+	}
+	pg.base.map_event_template[563] = {
 		grid_color = "cell_box",
 		memory = 0,
 		ship_prefab = "",
@@ -12275,8 +13195,8 @@ pg.map_event_template = {
 				20
 			}
 		}
-	},
-	[564] = {
+	}
+	pg.base.map_event_template[564] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -12303,8 +13223,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[565] = {
+	}
+	pg.base.map_event_template[565] = {
 		grid_color = "cell_box",
 		memory = 0,
 		ship_prefab = "",
@@ -12327,8 +13247,8 @@ pg.map_event_template = {
 				20
 			}
 		}
-	},
-	[566] = {
+	}
+	pg.base.map_event_template[566] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -12355,8 +13275,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[567] = {
+	}
+	pg.base.map_event_template[567] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -12383,8 +13303,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[568] = {
+	}
+	pg.base.map_event_template[568] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -12412,8 +13332,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[569] = {
+	}
+	pg.base.map_event_template[569] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -12440,8 +13360,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[570] = {
+	}
+	pg.base.map_event_template[570] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -12461,8 +13381,8 @@ pg.map_event_template = {
 				21
 			}
 		}
-	},
-	[571] = {
+	}
+	pg.base.map_event_template[571] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -12488,8 +13408,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[572] = {
+	}
+	pg.base.map_event_template[572] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -12509,8 +13429,8 @@ pg.map_event_template = {
 				23
 			}
 		}
-	},
-	[573] = {
+	}
+	pg.base.map_event_template[573] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -12536,8 +13456,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[574] = {
+	}
+	pg.base.map_event_template[574] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -12557,8 +13477,8 @@ pg.map_event_template = {
 				21
 			}
 		}
-	},
-	[575] = {
+	}
+	pg.base.map_event_template[575] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -12584,8 +13504,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[576] = {
+	}
+	pg.base.map_event_template[576] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -12605,8 +13525,8 @@ pg.map_event_template = {
 				23
 			}
 		}
-	},
-	[577] = {
+	}
+	pg.base.map_event_template[577] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -12632,8 +13552,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[578] = {
+	}
+	pg.base.map_event_template[578] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -12653,8 +13573,8 @@ pg.map_event_template = {
 				21
 			}
 		}
-	},
-	[579] = {
+	}
+	pg.base.map_event_template[579] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -12680,8 +13600,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[580] = {
+	}
+	pg.base.map_event_template[580] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -12701,8 +13621,8 @@ pg.map_event_template = {
 				23
 			}
 		}
-	},
-	[581] = {
+	}
+	pg.base.map_event_template[581] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -12728,8 +13648,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[582] = {
+	}
+	pg.base.map_event_template[582] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -12749,8 +13669,8 @@ pg.map_event_template = {
 				21
 			}
 		}
-	},
-	[583] = {
+	}
+	pg.base.map_event_template[583] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -12778,8 +13698,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[584] = {
+	}
+	pg.base.map_event_template[584] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -12799,8 +13719,8 @@ pg.map_event_template = {
 				23
 			}
 		}
-	},
-	[585] = {
+	}
+	pg.base.map_event_template[585] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -12827,8 +13747,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[586] = {
+	}
+	pg.base.map_event_template[586] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -12869,8 +13789,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[590] = {
+	}
+	pg.base.map_event_template[590] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -12890,8 +13810,8 @@ pg.map_event_template = {
 				25
 			}
 		}
-	},
-	[591] = {
+	}
+	pg.base.map_event_template[591] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -12908,8 +13828,8 @@ pg.map_event_template = {
 			5
 		},
 		effect = {}
-	},
-	[592] = {
+	}
+	pg.base.map_event_template[592] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -12954,8 +13874,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[593] = {
+	}
+	pg.base.map_event_template[593] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13000,8 +13920,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[594] = {
+	}
+	pg.base.map_event_template[594] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13046,8 +13966,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[595] = {
+	}
+	pg.base.map_event_template[595] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13092,8 +14012,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[596] = {
+	}
+	pg.base.map_event_template[596] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13119,8 +14039,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[597] = {
+	}
+	pg.base.map_event_template[597] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13146,8 +14066,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[598] = {
+	}
+	pg.base.map_event_template[598] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13173,8 +14093,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[599] = {
+	}
+	pg.base.map_event_template[599] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13200,8 +14120,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[600] = {
+	}
+	pg.base.map_event_template[600] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13227,8 +14147,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[601] = {
+	}
+	pg.base.map_event_template[601] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13254,8 +14174,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[602] = {
+	}
+	pg.base.map_event_template[602] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13272,8 +14192,8 @@ pg.map_event_template = {
 			2
 		},
 		effect = {}
-	},
-	[603] = {
+	}
+	pg.base.map_event_template[603] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13290,8 +14210,8 @@ pg.map_event_template = {
 			8
 		},
 		effect = {}
-	},
-	[604] = {
+	}
+	pg.base.map_event_template[604] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13308,8 +14228,8 @@ pg.map_event_template = {
 			2
 		},
 		effect = {}
-	},
-	[605] = {
+	}
+	pg.base.map_event_template[605] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13326,8 +14246,8 @@ pg.map_event_template = {
 			8
 		},
 		effect = {}
-	},
-	[606] = {
+	}
+	pg.base.map_event_template[606] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13353,8 +14273,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[607] = {
+	}
+	pg.base.map_event_template[607] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13380,8 +14300,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[608] = {
+	}
+	pg.base.map_event_template[608] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13407,8 +14327,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[609] = {
+	}
+	pg.base.map_event_template[609] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13434,8 +14354,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[610] = {
+	}
+	pg.base.map_event_template[610] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13461,8 +14381,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[611] = {
+	}
+	pg.base.map_event_template[611] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13488,8 +14408,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[612] = {
+	}
+	pg.base.map_event_template[612] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13515,8 +14435,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[613] = {
+	}
+	pg.base.map_event_template[613] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13542,8 +14462,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[614] = {
+	}
+	pg.base.map_event_template[614] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13569,8 +14489,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[615] = {
+	}
+	pg.base.map_event_template[615] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13596,8 +14516,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[616] = {
+	}
+	pg.base.map_event_template[616] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13623,8 +14543,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[617] = {
+	}
+	pg.base.map_event_template[617] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13644,8 +14564,8 @@ pg.map_event_template = {
 				33
 			}
 		}
-	},
-	[618] = {
+	}
+	pg.base.map_event_template[618] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13670,8 +14590,8 @@ pg.map_event_template = {
 				31
 			}
 		}
-	},
-	[619] = {
+	}
+	pg.base.map_event_template[619] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13691,8 +14611,8 @@ pg.map_event_template = {
 				32
 			}
 		}
-	},
-	[620] = {
+	}
+	pg.base.map_event_template[620] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13712,8 +14632,8 @@ pg.map_event_template = {
 				30
 			}
 		}
-	},
-	[621] = {
+	}
+	pg.base.map_event_template[621] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13731,8 +14651,8 @@ pg.map_event_template = {
 				"fire"
 			}
 		}
-	},
-	[622] = {
+	}
+	pg.base.map_event_template[622] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13758,8 +14678,8 @@ pg.map_event_template = {
 				5
 			}
 		}
-	},
-	[623] = {
+	}
+	pg.base.map_event_template[623] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13800,8 +14720,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[624] = {
+	}
+	pg.base.map_event_template[624] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13842,8 +14762,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[625] = {
+	}
+	pg.base.map_event_template[625] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13860,8 +14780,8 @@ pg.map_event_template = {
 			0
 		},
 		effect = {}
-	},
-	[626] = {
+	}
+	pg.base.map_event_template[626] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13878,8 +14798,8 @@ pg.map_event_template = {
 			1
 		},
 		effect = {}
-	},
-	[627] = {
+	}
+	pg.base.map_event_template[627] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13896,8 +14816,8 @@ pg.map_event_template = {
 			0
 		},
 		effect = {}
-	},
-	[628] = {
+	}
+	pg.base.map_event_template[628] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13914,8 +14834,8 @@ pg.map_event_template = {
 			2
 		},
 		effect = {}
-	},
-	[629] = {
+	}
+	pg.base.map_event_template[629] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13932,8 +14852,8 @@ pg.map_event_template = {
 			3
 		},
 		effect = {}
-	},
-	[630] = {
+	}
+	pg.base.map_event_template[630] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13950,8 +14870,8 @@ pg.map_event_template = {
 			3
 		},
 		effect = {}
-	},
-	[631] = {
+	}
+	pg.base.map_event_template[631] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13968,8 +14888,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[632] = {
+	}
+	pg.base.map_event_template[632] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -13986,8 +14906,8 @@ pg.map_event_template = {
 			5
 		},
 		effect = {}
-	},
-	[633] = {
+	}
+	pg.base.map_event_template[633] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14004,8 +14924,10 @@ pg.map_event_template = {
 			3
 		},
 		effect = {}
-	},
-	[634] = {
+	}
+end)()
+(function ()
+	pg.base.map_event_template[634] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14022,8 +14944,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[635] = {
+	}
+	pg.base.map_event_template[635] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14040,8 +14962,8 @@ pg.map_event_template = {
 			5
 		},
 		effect = {}
-	},
-	[636] = {
+	}
+	pg.base.map_event_template[636] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14058,8 +14980,8 @@ pg.map_event_template = {
 			6
 		},
 		effect = {}
-	},
-	[637] = {
+	}
+	pg.base.map_event_template[637] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14076,8 +14998,8 @@ pg.map_event_template = {
 			6
 		},
 		effect = {}
-	},
-	[638] = {
+	}
+	pg.base.map_event_template[638] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14094,8 +15016,8 @@ pg.map_event_template = {
 			8
 		},
 		effect = {}
-	},
-	[639] = {
+	}
+	pg.base.map_event_template[639] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14112,8 +15034,8 @@ pg.map_event_template = {
 			8
 		},
 		effect = {}
-	},
-	[640] = {
+	}
+	pg.base.map_event_template[640] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14130,8 +15052,8 @@ pg.map_event_template = {
 			9
 		},
 		effect = {}
-	},
-	[641] = {
+	}
+	pg.base.map_event_template[641] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14148,8 +15070,8 @@ pg.map_event_template = {
 			10
 		},
 		effect = {}
-	},
-	[642] = {
+	}
+	pg.base.map_event_template[642] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14166,8 +15088,8 @@ pg.map_event_template = {
 			11
 		},
 		effect = {}
-	},
-	[643] = {
+	}
+	pg.base.map_event_template[643] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14184,8 +15106,8 @@ pg.map_event_template = {
 			10
 		},
 		effect = {}
-	},
-	[644] = {
+	}
+	pg.base.map_event_template[644] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14202,8 +15124,8 @@ pg.map_event_template = {
 			11
 		},
 		effect = {}
-	},
-	[645] = {
+	}
+	pg.base.map_event_template[645] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14220,8 +15142,8 @@ pg.map_event_template = {
 			10
 		},
 		effect = {}
-	},
-	[646] = {
+	}
+	pg.base.map_event_template[646] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14238,8 +15160,8 @@ pg.map_event_template = {
 			11
 		},
 		effect = {}
-	},
-	[647] = {
+	}
+	pg.base.map_event_template[647] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14256,8 +15178,8 @@ pg.map_event_template = {
 			10
 		},
 		effect = {}
-	},
-	[648] = {
+	}
+	pg.base.map_event_template[648] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14274,8 +15196,8 @@ pg.map_event_template = {
 			11
 		},
 		effect = {}
-	},
-	[649] = {
+	}
+	pg.base.map_event_template[649] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14295,8 +15217,8 @@ pg.map_event_template = {
 				37
 			}
 		}
-	},
-	[650] = {
+	}
+	pg.base.map_event_template[650] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14321,8 +15243,8 @@ pg.map_event_template = {
 				35
 			}
 		}
-	},
-	[651] = {
+	}
+	pg.base.map_event_template[651] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14342,8 +15264,8 @@ pg.map_event_template = {
 				36
 			}
 		}
-	},
-	[652] = {
+	}
+	pg.base.map_event_template[652] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14363,8 +15285,8 @@ pg.map_event_template = {
 				34
 			}
 		}
-	},
-	[653] = {
+	}
+	pg.base.map_event_template[653] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14382,8 +15304,8 @@ pg.map_event_template = {
 				"fire"
 			}
 		}
-	},
-	[654] = {
+	}
+	pg.base.map_event_template[654] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14410,8 +15332,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[655] = {
+	}
+	pg.base.map_event_template[655] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14428,8 +15350,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[656] = {
+	}
+	pg.base.map_event_template[656] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14446,8 +15368,8 @@ pg.map_event_template = {
 			5
 		},
 		effect = {}
-	},
-	[657] = {
+	}
+	pg.base.map_event_template[657] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14464,8 +15386,8 @@ pg.map_event_template = {
 			5
 		},
 		effect = {}
-	},
-	[658] = {
+	}
+	pg.base.map_event_template[658] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14482,8 +15404,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[659] = {
+	}
+	pg.base.map_event_template[659] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14500,8 +15422,8 @@ pg.map_event_template = {
 			5
 		},
 		effect = {}
-	},
-	[660] = {
+	}
+	pg.base.map_event_template[660] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14528,8 +15450,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[661] = {
+	}
+	pg.base.map_event_template[661] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14556,8 +15478,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[662] = {
+	}
+	pg.base.map_event_template[662] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14574,8 +15496,8 @@ pg.map_event_template = {
 			2
 		},
 		effect = {}
-	},
-	[663] = {
+	}
+	pg.base.map_event_template[663] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14592,8 +15514,8 @@ pg.map_event_template = {
 			2
 		},
 		effect = {}
-	},
-	[664] = {
+	}
+	pg.base.map_event_template[664] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14610,8 +15532,8 @@ pg.map_event_template = {
 			3
 		},
 		effect = {}
-	},
-	[665] = {
+	}
+	pg.base.map_event_template[665] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14628,8 +15550,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[666] = {
+	}
+	pg.base.map_event_template[666] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14646,8 +15568,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[667] = {
+	}
+	pg.base.map_event_template[667] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14674,8 +15596,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[668] = {
+	}
+	pg.base.map_event_template[668] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14709,8 +15631,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[669] = {
+	}
+	pg.base.map_event_template[669] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14727,8 +15649,8 @@ pg.map_event_template = {
 			2
 		},
 		effect = {}
-	},
-	[670] = {
+	}
+	pg.base.map_event_template[670] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14745,8 +15667,8 @@ pg.map_event_template = {
 			2
 		},
 		effect = {}
-	},
-	[671] = {
+	}
+	pg.base.map_event_template[671] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14763,8 +15685,8 @@ pg.map_event_template = {
 			3
 		},
 		effect = {}
-	},
-	[672] = {
+	}
+	pg.base.map_event_template[672] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14781,8 +15703,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[673] = {
+	}
+	pg.base.map_event_template[673] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14799,8 +15721,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[674] = {
+	}
+	pg.base.map_event_template[674] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14817,8 +15739,8 @@ pg.map_event_template = {
 			5
 		},
 		effect = {}
-	},
-	[675] = {
+	}
+	pg.base.map_event_template[675] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14835,8 +15757,8 @@ pg.map_event_template = {
 			6
 		},
 		effect = {}
-	},
-	[676] = {
+	}
+	pg.base.map_event_template[676] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14853,8 +15775,8 @@ pg.map_event_template = {
 			6
 		},
 		effect = {}
-	},
-	[677] = {
+	}
+	pg.base.map_event_template[677] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14881,8 +15803,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[678] = {
+	}
+	pg.base.map_event_template[678] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14909,8 +15831,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[679] = {
+	}
+	pg.base.map_event_template[679] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14927,8 +15849,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[680] = {
+	}
+	pg.base.map_event_template[680] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14945,8 +15867,8 @@ pg.map_event_template = {
 			5
 		},
 		effect = {}
-	},
-	[681] = {
+	}
+	pg.base.map_event_template[681] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14963,8 +15885,8 @@ pg.map_event_template = {
 			5
 		},
 		effect = {}
-	},
-	[682] = {
+	}
+	pg.base.map_event_template[682] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14981,8 +15903,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[683] = {
+	}
+	pg.base.map_event_template[683] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -14999,8 +15921,8 @@ pg.map_event_template = {
 			5
 		},
 		effect = {}
-	},
-	[684] = {
+	}
+	pg.base.map_event_template[684] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15034,8 +15956,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[685] = {
+	}
+	pg.base.map_event_template[685] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15062,8 +15984,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[686] = {
+	}
+	pg.base.map_event_template[686] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15080,8 +16002,8 @@ pg.map_event_template = {
 			2
 		},
 		effect = {}
-	},
-	[687] = {
+	}
+	pg.base.map_event_template[687] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15098,8 +16020,8 @@ pg.map_event_template = {
 			2
 		},
 		effect = {}
-	},
-	[688] = {
+	}
+	pg.base.map_event_template[688] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15116,8 +16038,8 @@ pg.map_event_template = {
 			3
 		},
 		effect = {}
-	},
-	[689] = {
+	}
+	pg.base.map_event_template[689] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15134,8 +16056,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[690] = {
+	}
+	pg.base.map_event_template[690] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15152,8 +16074,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[691] = {
+	}
+	pg.base.map_event_template[691] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15187,8 +16109,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[692] = {
+	}
+	pg.base.map_event_template[692] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15222,8 +16144,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[693] = {
+	}
+	pg.base.map_event_template[693] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15240,8 +16162,8 @@ pg.map_event_template = {
 			2
 		},
 		effect = {}
-	},
-	[694] = {
+	}
+	pg.base.map_event_template[694] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15258,8 +16180,8 @@ pg.map_event_template = {
 			2
 		},
 		effect = {}
-	},
-	[695] = {
+	}
+	pg.base.map_event_template[695] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15276,8 +16198,8 @@ pg.map_event_template = {
 			3
 		},
 		effect = {}
-	},
-	[696] = {
+	}
+	pg.base.map_event_template[696] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15294,8 +16216,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[697] = {
+	}
+	pg.base.map_event_template[697] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15312,8 +16234,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[698] = {
+	}
+	pg.base.map_event_template[698] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15330,8 +16252,8 @@ pg.map_event_template = {
 			5
 		},
 		effect = {}
-	},
-	[699] = {
+	}
+	pg.base.map_event_template[699] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15348,8 +16270,8 @@ pg.map_event_template = {
 			6
 		},
 		effect = {}
-	},
-	[700] = {
+	}
+	pg.base.map_event_template[700] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15366,8 +16288,8 @@ pg.map_event_template = {
 			6
 		},
 		effect = {}
-	},
-	[701] = {
+	}
+	pg.base.map_event_template[701] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15401,8 +16323,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[702] = {
+	}
+	pg.base.map_event_template[702] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15429,8 +16351,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[703] = {
+	}
+	pg.base.map_event_template[703] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15447,8 +16369,8 @@ pg.map_event_template = {
 			5
 		},
 		effect = {}
-	},
-	[704] = {
+	}
+	pg.base.map_event_template[704] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15465,8 +16387,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[705] = {
+	}
+	pg.base.map_event_template[705] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15483,8 +16405,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[706] = {
+	}
+	pg.base.map_event_template[706] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15501,8 +16423,8 @@ pg.map_event_template = {
 			5
 		},
 		effect = {}
-	},
-	[707] = {
+	}
+	pg.base.map_event_template[707] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15519,8 +16441,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[708] = {
+	}
+	pg.base.map_event_template[708] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15540,8 +16462,8 @@ pg.map_event_template = {
 				38
 			}
 		}
-	},
-	[709] = {
+	}
+	pg.base.map_event_template[709] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15561,8 +16483,8 @@ pg.map_event_template = {
 				39
 			}
 		}
-	},
-	[710] = {
+	}
+	pg.base.map_event_template[710] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15582,8 +16504,8 @@ pg.map_event_template = {
 				40
 			}
 		}
-	},
-	[711] = {
+	}
+	pg.base.map_event_template[711] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15603,8 +16525,8 @@ pg.map_event_template = {
 				41
 			}
 		}
-	},
-	[712] = {
+	}
+	pg.base.map_event_template[712] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15624,8 +16546,8 @@ pg.map_event_template = {
 				39
 			}
 		}
-	},
-	[713] = {
+	}
+	pg.base.map_event_template[713] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15673,8 +16595,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[714] = {
+	}
+	pg.base.map_event_template[714] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15708,8 +16630,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[715] = {
+	}
+	pg.base.map_event_template[715] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15736,8 +16658,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[716] = {
+	}
+	pg.base.map_event_template[716] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15764,8 +16686,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[717] = {
+	}
+	pg.base.map_event_template[717] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15792,8 +16714,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[718] = {
+	}
+	pg.base.map_event_template[718] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15827,8 +16749,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[719] = {
+	}
+	pg.base.map_event_template[719] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15855,8 +16777,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[720] = {
+	}
+	pg.base.map_event_template[720] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15883,8 +16805,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[721] = {
+	}
+	pg.base.map_event_template[721] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15911,8 +16833,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[722] = {
+	}
+	pg.base.map_event_template[722] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15946,8 +16868,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[723] = {
+	}
+	pg.base.map_event_template[723] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -15974,8 +16896,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[724] = {
+	}
+	pg.base.map_event_template[724] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -16002,8 +16924,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[725] = {
+	}
+	pg.base.map_event_template[725] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -16030,8 +16952,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[726] = {
+	}
+	pg.base.map_event_template[726] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -16065,8 +16987,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[727] = {
+	}
+	pg.base.map_event_template[727] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -16093,8 +17015,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[728] = {
+	}
+	pg.base.map_event_template[728] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -16121,8 +17043,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[729] = {
+	}
+	pg.base.map_event_template[729] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -16149,8 +17071,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[730] = {
+	}
+	pg.base.map_event_template[730] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -16198,8 +17120,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[731] = {
+	}
+	pg.base.map_event_template[731] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -16252,8 +17174,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[732] = {
+	}
+	pg.base.map_event_template[732] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -16301,8 +17223,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[733] = {
+	}
+	pg.base.map_event_template[733] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -16327,8 +17249,10 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[734] = {
+	}
+end)()
+(function ()
+	pg.base.map_event_template[734] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -16353,8 +17277,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[735] = {
+	}
+	pg.base.map_event_template[735] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -16383,8 +17307,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[736] = {
+	}
+	pg.base.map_event_template[736] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -16409,8 +17333,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[737] = {
+	}
+	pg.base.map_event_template[737] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -16443,8 +17367,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[738] = {
+	}
+	pg.base.map_event_template[738] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -16469,8 +17393,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[739] = {
+	}
+	pg.base.map_event_template[739] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -16507,8 +17431,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[740] = {
+	}
+	pg.base.map_event_template[740] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -16533,8 +17457,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[741] = {
+	}
+	pg.base.map_event_template[741] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -16579,8 +17503,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[742] = {
+	}
+	pg.base.map_event_template[742] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -16605,8 +17529,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[743] = {
+	}
+	pg.base.map_event_template[743] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -16628,8 +17552,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[744] = {
+	}
+	pg.base.map_event_template[744] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -16651,8 +17575,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[745] = {
+	}
+	pg.base.map_event_template[745] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -16674,8 +17598,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[746] = {
+	}
+	pg.base.map_event_template[746] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -16697,8 +17621,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[747] = {
+	}
+	pg.base.map_event_template[747] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -16720,8 +17644,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[748] = {
+	}
+	pg.base.map_event_template[748] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -16743,8 +17667,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[749] = {
+	}
+	pg.base.map_event_template[749] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -16766,8 +17690,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[750] = {
+	}
+	pg.base.map_event_template[750] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -16789,8 +17713,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[751] = {
+	}
+	pg.base.map_event_template[751] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -16812,8 +17736,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[752] = {
+	}
+	pg.base.map_event_template[752] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -16835,8 +17759,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[753] = {
+	}
+	pg.base.map_event_template[753] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -16858,8 +17782,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[754] = {
+	}
+	pg.base.map_event_template[754] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -16881,8 +17805,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[755] = {
+	}
+	pg.base.map_event_template[755] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -16904,8 +17828,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[756] = {
+	}
+	pg.base.map_event_template[756] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -16927,8 +17851,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[757] = {
+	}
+	pg.base.map_event_template[757] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -16950,8 +17874,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[758] = {
+	}
+	pg.base.map_event_template[758] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -16973,8 +17897,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[759] = {
+	}
+	pg.base.map_event_template[759] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -16996,8 +17920,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[760] = {
+	}
+	pg.base.map_event_template[760] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17019,8 +17943,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[761] = {
+	}
+	pg.base.map_event_template[761] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17042,8 +17966,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[762] = {
+	}
+	pg.base.map_event_template[762] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17065,8 +17989,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[763] = {
+	}
+	pg.base.map_event_template[763] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17088,8 +18012,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[764] = {
+	}
+	pg.base.map_event_template[764] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17111,8 +18035,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[765] = {
+	}
+	pg.base.map_event_template[765] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17134,8 +18058,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[766] = {
+	}
+	pg.base.map_event_template[766] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17157,8 +18081,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[767] = {
+	}
+	pg.base.map_event_template[767] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17180,8 +18104,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[768] = {
+	}
+	pg.base.map_event_template[768] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17203,8 +18127,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[769] = {
+	}
+	pg.base.map_event_template[769] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17226,8 +18150,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[770] = {
+	}
+	pg.base.map_event_template[770] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17249,8 +18173,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[771] = {
+	}
+	pg.base.map_event_template[771] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17272,8 +18196,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[772] = {
+	}
+	pg.base.map_event_template[772] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17295,8 +18219,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[773] = {
+	}
+	pg.base.map_event_template[773] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17318,8 +18242,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[774] = {
+	}
+	pg.base.map_event_template[774] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17341,8 +18265,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[775] = {
+	}
+	pg.base.map_event_template[775] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17364,8 +18288,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[776] = {
+	}
+	pg.base.map_event_template[776] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17387,8 +18311,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[777] = {
+	}
+	pg.base.map_event_template[777] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17410,8 +18334,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[778] = {
+	}
+	pg.base.map_event_template[778] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17433,8 +18357,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[779] = {
+	}
+	pg.base.map_event_template[779] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17456,8 +18380,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[780] = {
+	}
+	pg.base.map_event_template[780] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17479,8 +18403,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[781] = {
+	}
+	pg.base.map_event_template[781] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17502,8 +18426,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[782] = {
+	}
+	pg.base.map_event_template[782] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17525,8 +18449,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[783] = {
+	}
+	pg.base.map_event_template[783] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17548,8 +18472,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[784] = {
+	}
+	pg.base.map_event_template[784] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17571,8 +18495,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[785] = {
+	}
+	pg.base.map_event_template[785] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17600,8 +18524,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[786] = {
+	}
+	pg.base.map_event_template[786] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17629,8 +18553,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[787] = {
+	}
+	pg.base.map_event_template[787] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17658,8 +18582,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[788] = {
+	}
+	pg.base.map_event_template[788] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17687,8 +18611,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[789] = {
+	}
+	pg.base.map_event_template[789] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17716,8 +18640,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[790] = {
+	}
+	pg.base.map_event_template[790] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17745,8 +18669,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[791] = {
+	}
+	pg.base.map_event_template[791] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17774,8 +18698,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[792] = {
+	}
+	pg.base.map_event_template[792] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17803,8 +18727,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[793] = {
+	}
+	pg.base.map_event_template[793] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17832,8 +18756,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[794] = {
+	}
+	pg.base.map_event_template[794] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17861,8 +18785,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[795] = {
+	}
+	pg.base.map_event_template[795] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17882,8 +18806,8 @@ pg.map_event_template = {
 				50
 			}
 		}
-	},
-	[796] = {
+	}
+	pg.base.map_event_template[796] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17903,8 +18827,8 @@ pg.map_event_template = {
 				51
 			}
 		}
-	},
-	[797] = {
+	}
+	pg.base.map_event_template[797] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17924,8 +18848,8 @@ pg.map_event_template = {
 				52
 			}
 		}
-	},
-	[798] = {
+	}
+	pg.base.map_event_template[798] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17945,8 +18869,8 @@ pg.map_event_template = {
 				53
 			}
 		}
-	},
-	[799] = {
+	}
+	pg.base.map_event_template[799] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -17966,8 +18890,8 @@ pg.map_event_template = {
 				54
 			}
 		}
-	},
-	[800] = {
+	}
+	pg.base.map_event_template[800] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -18015,8 +18939,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[801] = {
+	}
+	pg.base.map_event_template[801] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -18036,8 +18960,8 @@ pg.map_event_template = {
 				55
 			}
 		}
-	},
-	[802] = {
+	}
+	pg.base.map_event_template[802] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -18077,8 +19001,8 @@ pg.map_event_template = {
 				56
 			}
 		}
-	},
-	[803] = {
+	}
+	pg.base.map_event_template[803] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -18126,8 +19050,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[804] = {
+	}
+	pg.base.map_event_template[804] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -18147,8 +19071,8 @@ pg.map_event_template = {
 				56
 			}
 		}
-	},
-	[805] = {
+	}
+	pg.base.map_event_template[805] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -18173,8 +19097,8 @@ pg.map_event_template = {
 				56
 			}
 		}
-	},
-	[806] = {
+	}
+	pg.base.map_event_template[806] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -18204,8 +19128,8 @@ pg.map_event_template = {
 				56
 			}
 		}
-	},
-	[807] = {
+	}
+	pg.base.map_event_template[807] = {
 		grid_color = "cell_green",
 		memory = 0,
 		ship_prefab = "",
@@ -18248,8 +19172,8 @@ pg.map_event_template = {
 				55
 			}
 		}
-	},
-	[808] = {
+	}
+	pg.base.map_event_template[808] = {
 		grid_color = "cell_green",
 		memory = 0,
 		ship_prefab = "",
@@ -18292,8 +19216,8 @@ pg.map_event_template = {
 				55
 			}
 		}
-	},
-	[809] = {
+	}
+	pg.base.map_event_template[809] = {
 		grid_color = "cell_green",
 		memory = 0,
 		ship_prefab = "",
@@ -18336,8 +19260,8 @@ pg.map_event_template = {
 				55
 			}
 		}
-	},
-	[810] = {
+	}
+	pg.base.map_event_template[810] = {
 		grid_color = "cell_green",
 		memory = 0,
 		ship_prefab = "",
@@ -18380,8 +19304,8 @@ pg.map_event_template = {
 				55
 			}
 		}
-	},
-	[811] = {
+	}
+	pg.base.map_event_template[811] = {
 		grid_color = "cell_green",
 		memory = 0,
 		ship_prefab = "",
@@ -18424,8 +19348,8 @@ pg.map_event_template = {
 				55
 			}
 		}
-	},
-	[812] = {
+	}
+	pg.base.map_event_template[812] = {
 		grid_color = "cell_green",
 		memory = 0,
 		ship_prefab = "",
@@ -18468,8 +19392,8 @@ pg.map_event_template = {
 				55
 			}
 		}
-	},
-	[813] = {
+	}
+	pg.base.map_event_template[813] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -18486,8 +19410,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[814] = {
+	}
+	pg.base.map_event_template[814] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -18504,8 +19428,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[815] = {
+	}
+	pg.base.map_event_template[815] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -18522,8 +19446,8 @@ pg.map_event_template = {
 			1
 		},
 		effect = {}
-	},
-	[816] = {
+	}
+	pg.base.map_event_template[816] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -18540,8 +19464,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[817] = {
+	}
+	pg.base.map_event_template[817] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -18558,8 +19482,8 @@ pg.map_event_template = {
 			1
 		},
 		effect = {}
-	},
-	[818] = {
+	}
+	pg.base.map_event_template[818] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -18576,8 +19500,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[819] = {
+	}
+	pg.base.map_event_template[819] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -18594,8 +19518,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[820] = {
+	}
+	pg.base.map_event_template[820] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -18612,8 +19536,8 @@ pg.map_event_template = {
 			9
 		},
 		effect = {}
-	},
-	[821] = {
+	}
+	pg.base.map_event_template[821] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -18661,8 +19585,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[822] = {
+	}
+	pg.base.map_event_template[822] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -18684,8 +19608,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[823] = {
+	}
+	pg.base.map_event_template[823] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -18707,8 +19631,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[824] = {
+	}
+	pg.base.map_event_template[824] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -18730,8 +19654,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[825] = {
+	}
+	pg.base.map_event_template[825] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -18753,8 +19677,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[826] = {
+	}
+	pg.base.map_event_template[826] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -18776,8 +19700,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[827] = {
+	}
+	pg.base.map_event_template[827] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -18799,8 +19723,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[828] = {
+	}
+	pg.base.map_event_template[828] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -18822,8 +19746,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[829] = {
+	}
+	pg.base.map_event_template[829] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -18845,8 +19769,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[830] = {
+	}
+	pg.base.map_event_template[830] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -18868,8 +19792,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[831] = {
+	}
+	pg.base.map_event_template[831] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -18891,8 +19815,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[832] = {
+	}
+	pg.base.map_event_template[832] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -18914,8 +19838,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[833] = {
+	}
+	pg.base.map_event_template[833] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -18937,8 +19861,10 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[834] = {
+	}
+end)()
+(function ()
+	pg.base.map_event_template[834] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -18960,8 +19886,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[835] = {
+	}
+	pg.base.map_event_template[835] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -18983,8 +19909,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[836] = {
+	}
+	pg.base.map_event_template[836] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19006,8 +19932,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[837] = {
+	}
+	pg.base.map_event_template[837] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19029,8 +19955,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[838] = {
+	}
+	pg.base.map_event_template[838] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19052,8 +19978,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[839] = {
+	}
+	pg.base.map_event_template[839] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19075,8 +20001,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[840] = {
+	}
+	pg.base.map_event_template[840] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19098,8 +20024,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[841] = {
+	}
+	pg.base.map_event_template[841] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19121,8 +20047,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[842] = {
+	}
+	pg.base.map_event_template[842] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19144,8 +20070,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[843] = {
+	}
+	pg.base.map_event_template[843] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19167,8 +20093,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[844] = {
+	}
+	pg.base.map_event_template[844] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19190,8 +20116,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[845] = {
+	}
+	pg.base.map_event_template[845] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19213,8 +20139,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[846] = {
+	}
+	pg.base.map_event_template[846] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19236,8 +20162,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[847] = {
+	}
+	pg.base.map_event_template[847] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19259,8 +20185,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[848] = {
+	}
+	pg.base.map_event_template[848] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19282,8 +20208,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[849] = {
+	}
+	pg.base.map_event_template[849] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19305,8 +20231,8 @@ pg.map_event_template = {
 				1
 			}
 		}
-	},
-	[850] = {
+	}
+	pg.base.map_event_template[850] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19323,8 +20249,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[851] = {
+	}
+	pg.base.map_event_template[851] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19341,8 +20267,8 @@ pg.map_event_template = {
 			1
 		},
 		effect = {}
-	},
-	[852] = {
+	}
+	pg.base.map_event_template[852] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19383,8 +20309,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[853] = {
+	}
+	pg.base.map_event_template[853] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19411,8 +20337,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[854] = {
+	}
+	pg.base.map_event_template[854] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19439,8 +20365,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[855] = {
+	}
+	pg.base.map_event_template[855] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19472,8 +20398,8 @@ pg.map_event_template = {
 				101
 			}
 		}
-	},
-	[856] = {
+	}
+	pg.base.map_event_template[856] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19500,8 +20426,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[857] = {
+	}
+	pg.base.map_event_template[857] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19528,8 +20454,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[858] = {
+	}
+	pg.base.map_event_template[858] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19561,8 +20487,8 @@ pg.map_event_template = {
 				101
 			}
 		}
-	},
-	[859] = {
+	}
+	pg.base.map_event_template[859] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19589,8 +20515,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[860] = {
+	}
+	pg.base.map_event_template[860] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19622,8 +20548,8 @@ pg.map_event_template = {
 				101
 			}
 		}
-	},
-	[861] = {
+	}
+	pg.base.map_event_template[861] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19650,8 +20576,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[862] = {
+	}
+	pg.base.map_event_template[862] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19690,8 +20616,8 @@ pg.map_event_template = {
 				101
 			}
 		}
-	},
-	[863] = {
+	}
+	pg.base.map_event_template[863] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19711,8 +20637,8 @@ pg.map_event_template = {
 				0
 			}
 		}
-	},
-	[864] = {
+	}
+	pg.base.map_event_template[864] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19732,8 +20658,8 @@ pg.map_event_template = {
 				0
 			}
 		}
-	},
-	[865] = {
+	}
+	pg.base.map_event_template[865] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19753,8 +20679,8 @@ pg.map_event_template = {
 				0
 			}
 		}
-	},
-	[866] = {
+	}
+	pg.base.map_event_template[866] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19779,8 +20705,8 @@ pg.map_event_template = {
 				103
 			}
 		}
-	},
-	[867] = {
+	}
+	pg.base.map_event_template[867] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19800,8 +20726,8 @@ pg.map_event_template = {
 				102
 			}
 		}
-	},
-	[868] = {
+	}
+	pg.base.map_event_template[868] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19821,8 +20747,8 @@ pg.map_event_template = {
 				102
 			}
 		}
-	},
-	[869] = {
+	}
+	pg.base.map_event_template[869] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19854,8 +20780,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[870] = {
+	}
+	pg.base.map_event_template[870] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19875,8 +20801,8 @@ pg.map_event_template = {
 				62
 			}
 		}
-	},
-	[871] = {
+	}
+	pg.base.map_event_template[871] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19908,8 +20834,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[872] = {
+	}
+	pg.base.map_event_template[872] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19929,8 +20855,8 @@ pg.map_event_template = {
 				64
 			}
 		}
-	},
-	[873] = {
+	}
+	pg.base.map_event_template[873] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19962,8 +20888,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[874] = {
+	}
+	pg.base.map_event_template[874] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -19983,8 +20909,8 @@ pg.map_event_template = {
 				66
 			}
 		}
-	},
-	[875] = {
+	}
+	pg.base.map_event_template[875] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20016,8 +20942,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[876] = {
+	}
+	pg.base.map_event_template[876] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20037,8 +20963,8 @@ pg.map_event_template = {
 				68
 			}
 		}
-	},
-	[877] = {
+	}
+	pg.base.map_event_template[877] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20070,8 +20996,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[878] = {
+	}
+	pg.base.map_event_template[878] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20091,8 +21017,8 @@ pg.map_event_template = {
 				74
 			}
 		}
-	},
-	[879] = {
+	}
+	pg.base.map_event_template[879] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20124,8 +21050,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[880] = {
+	}
+	pg.base.map_event_template[880] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20145,8 +21071,8 @@ pg.map_event_template = {
 				70
 			}
 		}
-	},
-	[881] = {
+	}
+	pg.base.map_event_template[881] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20178,8 +21104,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[882] = {
+	}
+	pg.base.map_event_template[882] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20199,8 +21125,8 @@ pg.map_event_template = {
 				71
 			}
 		}
-	},
-	[883] = {
+	}
+	pg.base.map_event_template[883] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20232,8 +21158,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[884] = {
+	}
+	pg.base.map_event_template[884] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20253,8 +21179,8 @@ pg.map_event_template = {
 				72
 			}
 		}
-	},
-	[885] = {
+	}
+	pg.base.map_event_template[885] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20286,8 +21212,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[886] = {
+	}
+	pg.base.map_event_template[886] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20307,8 +21233,8 @@ pg.map_event_template = {
 				73
 			}
 		}
-	},
-	[887] = {
+	}
+	pg.base.map_event_template[887] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20340,8 +21266,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[888] = {
+	}
+	pg.base.map_event_template[888] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20361,8 +21287,8 @@ pg.map_event_template = {
 				74
 			}
 		}
-	},
-	[889] = {
+	}
+	pg.base.map_event_template[889] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20403,8 +21329,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[890] = {
+	}
+	pg.base.map_event_template[890] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20431,8 +21357,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[891] = {
+	}
+	pg.base.map_event_template[891] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20459,8 +21385,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[892] = {
+	}
+	pg.base.map_event_template[892] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20487,8 +21413,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[893] = {
+	}
+	pg.base.map_event_template[893] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20515,8 +21441,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[894] = {
+	}
+	pg.base.map_event_template[894] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20543,8 +21469,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[895] = {
+	}
+	pg.base.map_event_template[895] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20571,8 +21497,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[896] = {
+	}
+	pg.base.map_event_template[896] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20599,8 +21525,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[897] = {
+	}
+	pg.base.map_event_template[897] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20627,8 +21553,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[898] = {
+	}
+	pg.base.map_event_template[898] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20655,8 +21581,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[899] = {
+	}
+	pg.base.map_event_template[899] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20690,8 +21616,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[900] = {
+	}
+	pg.base.map_event_template[900] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20720,8 +21646,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[901] = {
+	}
+	pg.base.map_event_template[901] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20741,8 +21667,8 @@ pg.map_event_template = {
 				0
 			}
 		}
-	},
-	[902] = {
+	}
+	pg.base.map_event_template[902] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20759,8 +21685,8 @@ pg.map_event_template = {
 			19
 		},
 		effect = {}
-	},
-	[903] = {
+	}
+	pg.base.map_event_template[903] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20777,8 +21703,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[904] = {
+	}
+	pg.base.map_event_template[904] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20795,8 +21721,8 @@ pg.map_event_template = {
 			7
 		},
 		effect = {}
-	},
-	[905] = {
+	}
+	pg.base.map_event_template[905] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20813,8 +21739,8 @@ pg.map_event_template = {
 			2
 		},
 		effect = {}
-	},
-	[906] = {
+	}
+	pg.base.map_event_template[906] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20831,8 +21757,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[907] = {
+	}
+	pg.base.map_event_template[907] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20849,8 +21775,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[908] = {
+	}
+	pg.base.map_event_template[908] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20867,8 +21793,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[909] = {
+	}
+	pg.base.map_event_template[909] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20916,8 +21842,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[910] = {
+	}
+	pg.base.map_event_template[910] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20934,8 +21860,8 @@ pg.map_event_template = {
 			0
 		},
 		effect = {}
-	},
-	[911] = {
+	}
+	pg.base.map_event_template[911] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20952,8 +21878,8 @@ pg.map_event_template = {
 			3
 		},
 		effect = {}
-	},
-	[912] = {
+	}
+	pg.base.map_event_template[912] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20970,8 +21896,8 @@ pg.map_event_template = {
 			3
 		},
 		effect = {}
-	},
-	[913] = {
+	}
+	pg.base.map_event_template[913] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -20988,8 +21914,8 @@ pg.map_event_template = {
 			0
 		},
 		effect = {}
-	},
-	[914] = {
+	}
+	pg.base.map_event_template[914] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -21006,8 +21932,8 @@ pg.map_event_template = {
 			0
 		},
 		effect = {}
-	},
-	[915] = {
+	}
+	pg.base.map_event_template[915] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -21024,8 +21950,8 @@ pg.map_event_template = {
 			3
 		},
 		effect = {}
-	},
-	[916] = {
+	}
+	pg.base.map_event_template[916] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -21042,8 +21968,8 @@ pg.map_event_template = {
 			3
 		},
 		effect = {}
-	},
-	[917] = {
+	}
+	pg.base.map_event_template[917] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -21060,8 +21986,8 @@ pg.map_event_template = {
 			0
 		},
 		effect = {}
-	},
-	[918] = {
+	}
+	pg.base.map_event_template[918] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -21078,8 +22004,8 @@ pg.map_event_template = {
 			1
 		},
 		effect = {}
-	},
-	[919] = {
+	}
+	pg.base.map_event_template[919] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -21096,8 +22022,8 @@ pg.map_event_template = {
 			1
 		},
 		effect = {}
-	},
-	[920] = {
+	}
+	pg.base.map_event_template[920] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -21114,8 +22040,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[921] = {
+	}
+	pg.base.map_event_template[921] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -21163,8 +22089,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[922] = {
+	}
+	pg.base.map_event_template[922] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -21181,8 +22107,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[923] = {
+	}
+	pg.base.map_event_template[923] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -21199,8 +22125,8 @@ pg.map_event_template = {
 			4
 		},
 		effect = {}
-	},
-	[924] = {
+	}
+	pg.base.map_event_template[924] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -21217,8 +22143,8 @@ pg.map_event_template = {
 			5
 		},
 		effect = {}
-	},
-	[925] = {
+	}
+	pg.base.map_event_template[925] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -21235,8 +22161,8 @@ pg.map_event_template = {
 			5
 		},
 		effect = {}
-	},
-	[926] = {
+	}
+	pg.base.map_event_template[926] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -21253,8 +22179,8 @@ pg.map_event_template = {
 			5
 		},
 		effect = {}
-	},
-	[927] = {
+	}
+	pg.base.map_event_template[927] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -21271,8 +22197,8 @@ pg.map_event_template = {
 			1
 		},
 		effect = {}
-	},
-	[928] = {
+	}
+	pg.base.map_event_template[928] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -21289,8 +22215,8 @@ pg.map_event_template = {
 			1
 		},
 		effect = {}
-	},
-	[929] = {
+	}
+	pg.base.map_event_template[929] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -21307,8 +22233,8 @@ pg.map_event_template = {
 			1
 		},
 		effect = {}
-	},
-	[930] = {
+	}
+	pg.base.map_event_template[930] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -21349,8 +22275,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[931] = {
+	}
+	pg.base.map_event_template[931] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -21412,8 +22338,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[932] = {
+	}
+	pg.base.map_event_template[932] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -21457,8 +22383,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[933] = {
+	}
+	pg.base.map_event_template[933] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -21513,8 +22439,10 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[934] = {
+	}
+end)()
+(function ()
+	pg.base.map_event_template[934] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -21562,8 +22490,8 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	[935] = {
+	}
+	pg.base.map_event_template[935] = {
 		grid_color = "",
 		memory = 0,
 		ship_prefab = "",
@@ -21627,909 +22555,5 @@ pg.map_event_template = {
 				}
 			}
 		}
-	},
-	all = {
-		20,
-		21,
-		22,
-		24,
-		25,
-		27,
-		28,
-		29,
-		30,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		39,
-		40,
-		41,
-		42,
-		43,
-		44,
-		50,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56,
-		57,
-		58,
-		59,
-		60,
-		61,
-		62,
-		63,
-		64,
-		65,
-		66,
-		67,
-		68,
-		69,
-		70,
-		71,
-		72,
-		73,
-		74,
-		75,
-		76,
-		77,
-		78,
-		79,
-		80,
-		81,
-		82,
-		83,
-		84,
-		85,
-		86,
-		87,
-		88,
-		89,
-		90,
-		91,
-		92,
-		93,
-		94,
-		95,
-		96,
-		97,
-		98,
-		99,
-		100,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		110,
-		111,
-		112,
-		113,
-		114,
-		115,
-		116,
-		117,
-		118,
-		119,
-		120,
-		121,
-		122,
-		123,
-		124,
-		125,
-		126,
-		127,
-		128,
-		129,
-		130,
-		131,
-		132,
-		133,
-		134,
-		135,
-		136,
-		137,
-		138,
-		139,
-		140,
-		141,
-		142,
-		143,
-		144,
-		145,
-		146,
-		147,
-		148,
-		149,
-		150,
-		151,
-		152,
-		153,
-		154,
-		155,
-		156,
-		157,
-		158,
-		159,
-		160,
-		161,
-		162,
-		163,
-		164,
-		165,
-		166,
-		167,
-		168,
-		169,
-		170,
-		171,
-		172,
-		173,
-		174,
-		175,
-		176,
-		177,
-		178,
-		179,
-		180,
-		181,
-		182,
-		183,
-		184,
-		185,
-		186,
-		187,
-		188,
-		189,
-		190,
-		191,
-		192,
-		193,
-		194,
-		195,
-		196,
-		197,
-		198,
-		199,
-		200,
-		201,
-		202,
-		203,
-		204,
-		205,
-		206,
-		207,
-		208,
-		209,
-		210,
-		211,
-		212,
-		213,
-		214,
-		215,
-		216,
-		217,
-		218,
-		219,
-		220,
-		221,
-		222,
-		223,
-		224,
-		225,
-		226,
-		227,
-		228,
-		229,
-		230,
-		231,
-		232,
-		233,
-		234,
-		235,
-		236,
-		237,
-		238,
-		239,
-		240,
-		241,
-		242,
-		243,
-		244,
-		245,
-		246,
-		247,
-		248,
-		249,
-		250,
-		251,
-		252,
-		253,
-		254,
-		255,
-		256,
-		257,
-		258,
-		259,
-		260,
-		261,
-		262,
-		263,
-		264,
-		265,
-		266,
-		267,
-		268,
-		269,
-		270,
-		271,
-		272,
-		273,
-		274,
-		275,
-		276,
-		277,
-		278,
-		279,
-		280,
-		281,
-		282,
-		283,
-		284,
-		285,
-		286,
-		287,
-		288,
-		289,
-		290,
-		291,
-		292,
-		293,
-		294,
-		295,
-		296,
-		297,
-		298,
-		299,
-		300,
-		301,
-		302,
-		303,
-		304,
-		305,
-		306,
-		307,
-		308,
-		309,
-		310,
-		311,
-		312,
-		313,
-		314,
-		315,
-		316,
-		317,
-		318,
-		319,
-		320,
-		321,
-		322,
-		323,
-		324,
-		325,
-		326,
-		327,
-		328,
-		329,
-		330,
-		331,
-		332,
-		333,
-		334,
-		335,
-		336,
-		337,
-		338,
-		339,
-		340,
-		341,
-		342,
-		343,
-		344,
-		345,
-		346,
-		347,
-		348,
-		349,
-		350,
-		351,
-		352,
-		353,
-		354,
-		355,
-		356,
-		357,
-		358,
-		359,
-		360,
-		361,
-		362,
-		363,
-		364,
-		365,
-		366,
-		367,
-		368,
-		369,
-		370,
-		371,
-		372,
-		373,
-		374,
-		375,
-		376,
-		377,
-		378,
-		379,
-		380,
-		381,
-		382,
-		383,
-		384,
-		385,
-		386,
-		387,
-		388,
-		389,
-		390,
-		391,
-		392,
-		393,
-		394,
-		395,
-		396,
-		397,
-		398,
-		399,
-		400,
-		401,
-		402,
-		403,
-		404,
-		405,
-		406,
-		407,
-		408,
-		409,
-		410,
-		411,
-		412,
-		413,
-		414,
-		415,
-		416,
-		417,
-		418,
-		419,
-		420,
-		421,
-		422,
-		423,
-		424,
-		425,
-		426,
-		427,
-		428,
-		429,
-		430,
-		431,
-		432,
-		433,
-		434,
-		435,
-		436,
-		437,
-		438,
-		439,
-		440,
-		441,
-		442,
-		443,
-		444,
-		445,
-		446,
-		447,
-		448,
-		449,
-		450,
-		451,
-		452,
-		453,
-		454,
-		455,
-		456,
-		457,
-		458,
-		459,
-		460,
-		461,
-		462,
-		463,
-		464,
-		465,
-		466,
-		467,
-		468,
-		469,
-		470,
-		471,
-		472,
-		473,
-		474,
-		475,
-		476,
-		477,
-		478,
-		479,
-		480,
-		481,
-		482,
-		483,
-		484,
-		485,
-		486,
-		487,
-		488,
-		489,
-		490,
-		491,
-		492,
-		493,
-		494,
-		495,
-		496,
-		497,
-		498,
-		499,
-		500,
-		501,
-		502,
-		503,
-		504,
-		505,
-		506,
-		507,
-		508,
-		509,
-		510,
-		511,
-		512,
-		513,
-		514,
-		515,
-		516,
-		517,
-		518,
-		519,
-		520,
-		521,
-		522,
-		523,
-		524,
-		525,
-		526,
-		527,
-		528,
-		529,
-		530,
-		531,
-		532,
-		533,
-		534,
-		535,
-		536,
-		537,
-		538,
-		539,
-		540,
-		541,
-		542,
-		543,
-		544,
-		545,
-		546,
-		547,
-		548,
-		549,
-		550,
-		551,
-		552,
-		553,
-		554,
-		555,
-		556,
-		561,
-		562,
-		563,
-		564,
-		565,
-		566,
-		567,
-		568,
-		569,
-		570,
-		571,
-		572,
-		573,
-		574,
-		575,
-		576,
-		577,
-		578,
-		579,
-		580,
-		581,
-		582,
-		583,
-		584,
-		585,
-		586,
-		590,
-		591,
-		592,
-		593,
-		594,
-		595,
-		596,
-		597,
-		598,
-		599,
-		600,
-		601,
-		602,
-		603,
-		604,
-		605,
-		606,
-		607,
-		608,
-		609,
-		610,
-		611,
-		612,
-		613,
-		614,
-		615,
-		616,
-		617,
-		618,
-		619,
-		620,
-		621,
-		622,
-		623,
-		624,
-		625,
-		626,
-		627,
-		628,
-		629,
-		630,
-		631,
-		632,
-		633,
-		634,
-		635,
-		636,
-		637,
-		638,
-		639,
-		640,
-		641,
-		642,
-		643,
-		644,
-		645,
-		646,
-		647,
-		648,
-		649,
-		650,
-		651,
-		652,
-		653,
-		654,
-		655,
-		656,
-		657,
-		658,
-		659,
-		660,
-		661,
-		662,
-		663,
-		664,
-		665,
-		666,
-		667,
-		668,
-		669,
-		670,
-		671,
-		672,
-		673,
-		674,
-		675,
-		676,
-		677,
-		678,
-		679,
-		680,
-		681,
-		682,
-		683,
-		684,
-		685,
-		686,
-		687,
-		688,
-		689,
-		690,
-		691,
-		692,
-		693,
-		694,
-		695,
-		696,
-		697,
-		698,
-		699,
-		700,
-		701,
-		702,
-		703,
-		704,
-		705,
-		706,
-		707,
-		708,
-		709,
-		710,
-		711,
-		712,
-		713,
-		714,
-		715,
-		716,
-		717,
-		718,
-		719,
-		720,
-		721,
-		722,
-		723,
-		724,
-		725,
-		726,
-		727,
-		728,
-		729,
-		730,
-		731,
-		732,
-		733,
-		734,
-		735,
-		736,
-		737,
-		738,
-		739,
-		740,
-		741,
-		742,
-		743,
-		744,
-		745,
-		746,
-		747,
-		748,
-		749,
-		750,
-		751,
-		752,
-		753,
-		754,
-		755,
-		756,
-		757,
-		758,
-		759,
-		760,
-		761,
-		762,
-		763,
-		764,
-		765,
-		766,
-		767,
-		768,
-		769,
-		770,
-		771,
-		772,
-		773,
-		774,
-		775,
-		776,
-		777,
-		778,
-		779,
-		780,
-		781,
-		782,
-		783,
-		784,
-		785,
-		786,
-		787,
-		788,
-		789,
-		790,
-		791,
-		792,
-		793,
-		794,
-		795,
-		796,
-		797,
-		798,
-		799,
-		800,
-		801,
-		802,
-		803,
-		804,
-		805,
-		806,
-		807,
-		808,
-		809,
-		810,
-		811,
-		812,
-		813,
-		814,
-		815,
-		816,
-		817,
-		818,
-		819,
-		820,
-		821,
-		822,
-		823,
-		824,
-		825,
-		826,
-		827,
-		828,
-		829,
-		830,
-		831,
-		832,
-		833,
-		834,
-		835,
-		836,
-		837,
-		838,
-		839,
-		840,
-		841,
-		842,
-		843,
-		844,
-		845,
-		846,
-		847,
-		848,
-		849,
-		850,
-		851,
-		852,
-		853,
-		854,
-		855,
-		856,
-		857,
-		858,
-		859,
-		860,
-		861,
-		862,
-		863,
-		864,
-		865,
-		866,
-		867,
-		868,
-		869,
-		870,
-		871,
-		872,
-		873,
-		874,
-		875,
-		876,
-		877,
-		878,
-		879,
-		880,
-		881,
-		882,
-		883,
-		884,
-		885,
-		886,
-		887,
-		888,
-		889,
-		890,
-		891,
-		892,
-		893,
-		894,
-		895,
-		896,
-		897,
-		898,
-		899,
-		900,
-		901,
-		902,
-		903,
-		904,
-		905,
-		906,
-		907,
-		908,
-		909,
-		910,
-		911,
-		912,
-		913,
-		914,
-		915,
-		916,
-		917,
-		918,
-		919,
-		920,
-		921,
-		922,
-		923,
-		924,
-		925,
-		926,
-		927,
-		928,
-		929,
-		930,
-		931,
-		932,
-		933,
-		934,
-		935
 	}
-}
+end)()

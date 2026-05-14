@@ -335,6 +335,7 @@ slot0.Return2MemoryGroup = function(slot0)
 		end
 	end
 
+	setInputText(slot0.nameSearchInput, "")
 	slot0.memoryGroupList:SetTotalCount(#slot0.memoryGroups, slot0:GetIndexRatio(slot2))
 end
 
@@ -354,6 +355,7 @@ slot0.SwitchReddotMemory = function(slot0)
 		return
 	end
 
+	setInputText(slot0.nameSearchInput, "")
 	slot0.memoryGroupList:SetTotalCount(#slot0.memoryGroups, slot0:GetIndexRatio(slot1))
 end
 
@@ -408,26 +410,15 @@ slot0.GetMatchGroupList = function(slot0, slot1, slot2)
 	end
 
 	if slot0.shipNameSearchFlag then
-		slot4 = {}
+		for slot7, slot8 in pairs(slot0.memoryGroups) do
+			if type(slot8.group_id) == "table" then
+				for slot12, slot13 in ipairs(slot8.group_id) do
+					for slot17, slot18 in ipairs(pg.ship_data_template.get_id_list_by_group_type[slot13]) do
+						if string.find(string.lower(pg.ship_data_statistics[slot18].name), slot1) then
+							table.insert(slot3, slot8)
 
-		for slot8, slot9 in pairs(pg.ship_data_statistics) do
-			if string.find(string.lower(slot9.name), slot1) then
-				table.insert(slot4, slot8)
-			end
-		end
-
-		slot5 = {}
-
-		for slot9, slot10 in ipairs(slot4) do
-			slot11 = tostring(slot10)
-			slot5[tonumber(string.sub(slot11, 1, #slot11 - 1))] = true
-		end
-
-		for slot9, slot10 in pairs(slot0.memoryGroups) do
-			if type(slot10.group_id) == "table" then
-				for slot14, slot15 in ipairs(slot10.group_id) do
-					if slot5[slot15] and not table.contains(slot3, slot10) then
-						table.insert(slot3, slot10)
+							break
+						end
 					end
 				end
 			end

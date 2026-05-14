@@ -1,6 +1,26 @@
 pg = pg or {}
-pg.child2_resource = {
+pg.child2_resource = rawget(pg, "child2_resource") or setmetatable({
+	__name = "child2_resource"
+}, confNEO)
+pg.child2_resource.all = {
+	1,
+	2,
+	3,
+	4
+}
+pg.child2_resource.get_id_list_by_character = {
 	{
+		1,
+		2,
+		3,
+		4
+	}
+}
+pg.base = pg.base or {}
+pg.base.child2_resource = {}
+
+(function ()
+	pg.base.child2_resource[1] = {
 		item_icon = "res_jinqian2",
 		name = "金錢",
 		min_value = 0,
@@ -11,8 +31,8 @@ pg.child2_resource = {
 		character = 1,
 		id = 1,
 		icon = "res_jinqian"
-	},
-	{
+	}
+	pg.base.child2_resource[2] = {
 		item_icon = "res_xinqing2",
 		name = "心情",
 		min_value = 0,
@@ -27,8 +47,8 @@ $1
 		character = 1,
 		id = 2,
 		icon = "res_xinqing"
-	},
-	{
+	}
+	pg.base.child2_resource[3] = {
 		item_icon = "res_xingdongli2",
 		name = "行動力",
 		min_value = 0,
@@ -39,8 +59,8 @@ $1
 		character = 1,
 		id = 3,
 		icon = "res_xingdongli"
-	},
-	{
+	}
+	pg.base.child2_resource[4] = {
 		item_icon = "res_haogandu2",
 		name = "好感度",
 		min_value = 0,
@@ -51,19 +71,5 @@ $1
 		character = 1,
 		id = 4,
 		icon = "res_haogandu"
-	},
-	get_id_list_by_character = {
-		{
-			1,
-			2,
-			3,
-			4
-		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4
 	}
-}
+end)()

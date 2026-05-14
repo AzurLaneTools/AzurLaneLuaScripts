@@ -1,6 +1,28 @@
 pg = pg or {}
-pg.activity_event_worldboss = {
-	{
+pg.activity_event_worldboss = rawget(pg, "activity_event_worldboss") or setmetatable({
+	__name = "activity_event_worldboss"
+}, confNEO)
+pg.activity_event_worldboss.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14
+}
+pg.base = pg.base or {}
+pg.base.activity_event_worldboss = {}
+
+(function ()
+	pg.base.activity_event_worldboss[1] = {
 		group_num = 1,
 		submarine_num = 1,
 		expedition_both_buff = "",
@@ -153,8 +175,8 @@ pg.activity_event_worldboss = {
 				0
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_worldboss[2] = {
 		group_num = 1,
 		submarine_num = 1,
 		time = "stop",
@@ -256,8 +278,8 @@ pg.activity_event_worldboss = {
 				0
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_worldboss[3] = {
 		group_num = 1,
 		submarine_num = 1,
 		time = "stop",
@@ -359,8 +381,8 @@ pg.activity_event_worldboss = {
 				0
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_worldboss[4] = {
 		group_num = 1,
 		submarine_num = 1,
 		time = "stop",
@@ -462,8 +484,8 @@ pg.activity_event_worldboss = {
 				0
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_worldboss[5] = {
 		group_num = 1,
 		submarine_num = 1,
 		time = "stop",
@@ -565,8 +587,8 @@ pg.activity_event_worldboss = {
 				0
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_worldboss[6] = {
 		group_num = 1,
 		submarine_num = 1,
 		time = "stop",
@@ -668,8 +690,8 @@ pg.activity_event_worldboss = {
 				0
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_worldboss[7] = {
 		group_num = 1,
 		submarine_num = 1,
 		time = "stop",
@@ -771,8 +793,8 @@ pg.activity_event_worldboss = {
 				0
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_worldboss[8] = {
 		group_num = 1,
 		submarine_num = 1,
 		time = "stop",
@@ -875,8 +897,8 @@ pg.activity_event_worldboss = {
 				0
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_worldboss[9] = {
 		group_num = 1,
 		submarine_num = 1,
 		time = "stop",
@@ -978,8 +1000,8 @@ pg.activity_event_worldboss = {
 				0
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_worldboss[10] = {
 		group_num = 1,
 		submarine_num = 1,
 		time = "stop",
@@ -1081,8 +1103,8 @@ pg.activity_event_worldboss = {
 				16
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_worldboss[11] = {
 		group_num = 1,
 		submarine_num = 1,
 		time = "stop",
@@ -1184,8 +1206,8 @@ pg.activity_event_worldboss = {
 				16
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_worldboss[12] = {
 		group_num = 1,
 		submarine_num = 1,
 		time = "stop",
@@ -1287,8 +1309,8 @@ pg.activity_event_worldboss = {
 				16
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_worldboss[13] = {
 		group_num = 1,
 		submarine_num = 1,
 		time = "stop",
@@ -1390,8 +1412,8 @@ pg.activity_event_worldboss = {
 				16
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_worldboss[14] = {
 		group_num = 1,
 		submarine_num = 1,
 		ticket = 2025,
@@ -1518,21 +1540,5 @@ pg.activity_event_worldboss = {
 				16
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14
 	}
-}
+end)()

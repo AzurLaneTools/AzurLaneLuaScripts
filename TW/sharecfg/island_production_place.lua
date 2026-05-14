@@ -1,6 +1,64 @@
 pg = pg or {}
-pg.island_production_place = {
-	[101] = {
+pg.island_production_place = rawget(pg, "island_production_place") or setmetatable({
+	__name = "island_production_place"
+}, confNEO)
+pg.island_production_place.all = {
+	101,
+	102,
+	201,
+	401,
+	402,
+	501,
+	502,
+	601,
+	602,
+	603,
+	604,
+	702,
+	703,
+	704,
+	705,
+	706,
+	901
+}
+pg.island_production_place.get_id_list_by_map_id = {
+	[1001] = {
+		101,
+		102
+	},
+	[1002] = {
+		201
+	},
+	[1004] = {
+		401,
+		402
+	},
+	[1005] = {
+		501,
+		502
+	},
+	[1006] = {
+		601,
+		602,
+		603,
+		604
+	},
+	[1007] = {
+		702,
+		703,
+		704,
+		705,
+		706
+	},
+	[1009] = {
+		901
+	}
+}
+pg.base = pg.base or {}
+pg.base.island_production_place = {}
+
+(function ()
+	pg.base.island_production_place[101] = {
 		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_farm",
 		name = "丰壤农田",
 		map_id = 1001,
@@ -31,8 +89,8 @@ pg.island_production_place = {
 			1007,
 			1008
 		}
-	},
-	[102] = {
+	}
+	pg.base.island_production_place[102] = {
 		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_pasture",
 		name = "悠然牧场",
 		map_id = 1001,
@@ -54,8 +112,8 @@ pg.island_production_place = {
 			10203,
 			10204
 		}
-	},
-	[201] = {
+	}
+	pg.base.island_production_place[201] = {
 		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_fish",
 		name = "啾啾渔场",
 		map_id = 1002,
@@ -76,8 +134,8 @@ pg.island_production_place = {
 			20102,
 			20103
 		}
-	},
-	[401] = {
+	}
+	pg.base.island_production_place[401] = {
 		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_mine",
 		name = "沉石矿山",
 		map_id = 1004,
@@ -108,8 +166,8 @@ pg.island_production_place = {
 			10010,
 			10011
 		}
-	},
-	[402] = {
+	}
+	pg.base.island_production_place[402] = {
 		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_felling",
 		name = "翠土林场 ",
 		map_id = 1004,
@@ -140,8 +198,8 @@ pg.island_production_place = {
 			10012,
 			10013
 		}
-	},
-	[501] = {
+	}
+	pg.base.island_production_place[501] = {
 		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_orchard",
 		name = "坠香果园",
 		map_id = 1005,
@@ -173,8 +231,8 @@ pg.island_production_place = {
 			1108,
 			1109
 		}
-	},
-	[502] = {
+	}
+	pg.base.island_production_place[502] = {
 		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_garden",
 		name = "青芽苗圃",
 		map_id = 1005,
@@ -204,8 +262,8 @@ pg.island_production_place = {
 			1208,
 			1209
 		}
-	},
-	[601] = {
+	}
+	pg.base.island_production_place[601] = {
 		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_cook",
 		name = "有鱼餐馆",
 		map_id = 1006,
@@ -225,8 +283,8 @@ pg.island_production_place = {
 			60101,
 			60102
 		}
-	},
-	[602] = {
+	}
+	pg.base.island_production_place[602] = {
 		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_cook",
 		name = "白熊饮品",
 		map_id = 1006,
@@ -246,8 +304,8 @@ pg.island_production_place = {
 			60201,
 			60202
 		}
-	},
-	[603] = {
+	}
+	pg.base.island_production_place[603] = {
 		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_cook",
 		name = "啾啾简餐",
 		map_id = 1006,
@@ -267,8 +325,8 @@ pg.island_production_place = {
 			60301,
 			60302
 		}
-	},
-	[604] = {
+	}
+	pg.base.island_production_place[604] = {
 		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_cook",
 		name = "乌鱼烤肉",
 		map_id = 1006,
@@ -288,8 +346,8 @@ pg.island_production_place = {
 			60401,
 			60402
 		}
-	},
-	[702] = {
+	}
+	pg.base.island_production_place[702] = {
 		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_technology",
 		name = "岛屿科技",
 		map_id = 1007,
@@ -309,8 +367,8 @@ pg.island_production_place = {
 			70201,
 			70202
 		}
-	},
-	[703] = {
+	}
+	pg.base.island_production_place[703] = {
 		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_factory",
 		name = "木料加工设备",
 		map_id = 1007,
@@ -330,8 +388,8 @@ pg.island_production_place = {
 			70301,
 			70302
 		}
-	},
-	[704] = {
+	}
+	pg.base.island_production_place[704] = {
 		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_factory",
 		name = "工业生产设备",
 		map_id = 1007,
@@ -351,8 +409,8 @@ pg.island_production_place = {
 			70401,
 			70402
 		}
-	},
-	[705] = {
+	}
+	pg.base.island_production_place[705] = {
 		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_factory",
 		name = "电子加工设备",
 		map_id = 1007,
@@ -372,8 +430,8 @@ pg.island_production_place = {
 			70501,
 			70502
 		}
-	},
-	[706] = {
+	}
+	pg.base.island_production_place[706] = {
 		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_factory",
 		name = "手工制作设备",
 		map_id = 1007,
@@ -393,8 +451,8 @@ pg.island_production_place = {
 			70601,
 			70602
 		}
-	},
-	[901] = {
+	}
+	pg.base.island_production_place[901] = {
 		chickenbehaviourTree = "island/nodecanvas/system/system_chicken_coffeeshop",
 		name = "啾咖啡",
 		map_id = 1009,
@@ -414,57 +472,5 @@ pg.island_production_place = {
 			90101,
 			90102
 		}
-	},
-	get_id_list_by_map_id = {
-		[1001] = {
-			101,
-			102
-		},
-		[1002] = {
-			201
-		},
-		[1004] = {
-			401,
-			402
-		},
-		[1005] = {
-			501,
-			502
-		},
-		[1006] = {
-			601,
-			602,
-			603,
-			604
-		},
-		[1007] = {
-			702,
-			703,
-			704,
-			705,
-			706
-		},
-		[1009] = {
-			901
-		}
-	},
-	all = {
-		101,
-		102,
-		201,
-		401,
-		402,
-		501,
-		502,
-		601,
-		602,
-		603,
-		604,
-		702,
-		703,
-		704,
-		705,
-		706,
-		901
 	}
-}
+end)()

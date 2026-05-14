@@ -142257,6 +142257,61 @@ _G.pg.base.equip_data_statistics[80522] = {
 }
 
 
+_G.pg.base.equip_data_statistics[80531] = {
+	name = "專屬彈幕-夕立METAI",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 2,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "技能彈幕",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 80531,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		61791
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[80532] = {
+	name = "專屬彈幕-夕立METAII",
+	base = 80531,
+	id = 80532,
+	weapon_id = {
+		61792
+	},
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[80541] = {
 	name = "专属弹幕-莱姆号I",
 	tech = 1,
@@ -186863,13 +186918,3 @@ _G.pg.base.equip_data_statistics[960022] = {
 		"DB"
 	}
 }
-
-
-if rawget(uv0[slot1], "base") ~= nil then
-	rawset(slot2, "base", nil)
-	setmetatable(slot2, {
-		__index = uv0[slot3]
-	})
-end
-
-return slot2

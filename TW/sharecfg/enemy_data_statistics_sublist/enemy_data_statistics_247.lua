@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.enemy_data_statistics_247 = {
+	[16305202] = {
+		cannon = 130,
+		antisub = 0,
+		air = 206,
+		cannon_growth = 0,
+		armor = 0,
+		reload = 150,
+		base = 90715,
+		dodge = 11,
+		torpedo_growth = 0,
+		air_growth = 3500,
+		reload_growth = 0,
+		dodge_growth = 156,
+		speed_growth = 0,
+		star = 4,
+		hit = 20,
+		antisub_growth = 0,
+		rarity = 3,
+		luck_growth = 0,
+		torpedo = 0,
+		durability = 17020,
+		armor_growth = 0,
+		durability_growth = 308000,
+		antiaircraft = 251,
+		speed = 20,
+		luck = 18,
+		hit_growth = 210,
+		battle_unit_type = 90,
+		id = 16305202,
+		antiaircraft_growth = 3200,
+		fog_fx = "",
+		equipment_list = {
+			3035336,
+			3035337,
+			3035338,
+			3035339,
+			3035340,
+			3035346
+		}
+	},
 	[16305301] = {
 		cannon = 362,
 		name = "迷之敵人！",
@@ -1482,50 +1522,6 @@ pg.enemy_data_statistics_247 = {
 			{
 				ID = 50510,
 				LV = 2
-			}
-		}
-	},
-	[16401006] = {
-		cannon = 0,
-		antisub = 0,
-		air = 35,
-		cannon_growth = 0,
-		armor = 0,
-		reload = 150,
-		base = 90724,
-		dodge = 0,
-		torpedo_growth = 0,
-		air_growth = 1800,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		star = 2,
-		hit = 10,
-		antisub_growth = 0,
-		rarity = 2,
-		luck_growth = 0,
-		torpedo = 0,
-		durability = 560,
-		armor_growth = 0,
-		durability_growth = 27200,
-		antiaircraft = 40,
-		speed = 15,
-		luck = 0,
-		hit_growth = 144,
-		battle_unit_type = 65,
-		id = 16401006,
-		antiaircraft_growth = 1200,
-		fog_fx = "",
-		equipment_list = {
-			1006001,
-			1006036,
-			1006081,
-			1006111
-		},
-		buff_list = {
-			{
-				ID = 200236,
-				LV = 1
 			}
 		}
 	}

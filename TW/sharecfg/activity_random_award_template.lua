@@ -1,6 +1,29 @@
 pg = pg or {}
-pg.activity_random_award_template = {
-	{
+pg.activity_random_award_template = rawget(pg, "activity_random_award_template") or setmetatable({
+	__name = "activity_random_award_template"
+}, confNEO)
+pg.activity_random_award_template.all = {
+	1,
+	2,
+	3,
+	4,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19
+}
+pg.base = pg.base or {}
+pg.base.activity_random_award_template = {}
+
+(function ()
+	pg.base.activity_random_award_template[1] = {
 		activity = 0,
 		resource_category = 1,
 		resource_type = 105,
@@ -164,8 +187,8 @@ pg.activity_random_award_template = {
 			100012,
 			100013
 		}
-	},
-	{
+	}
+	pg.base.activity_random_award_template[2] = {
 		activity = 0,
 		resource_category = 1,
 		resource_type = 105,
@@ -320,8 +343,8 @@ pg.activity_random_award_template = {
 		main_item = {
 			100017
 		}
-	},
-	{
+	}
+	pg.base.activity_random_award_template[3] = {
 		activity = 0,
 		resource_category = 1,
 		resource_type = 105,
@@ -481,8 +504,8 @@ pg.activity_random_award_template = {
 			100018,
 			100019
 		}
-	},
-	{
+	}
+	pg.base.activity_random_award_template[4] = {
 		activity = 0,
 		resource_category = 1,
 		resource_type = 105,
@@ -638,8 +661,8 @@ pg.activity_random_award_template = {
 			84,
 			83
 		}
-	},
-	[9] = {
+	}
+	pg.base.activity_random_award_template[9] = {
 		activity = 40080,
 		resource_category = 1,
 		resource_type = 114,
@@ -763,8 +786,8 @@ pg.activity_random_award_template = {
 			100006,
 			100026
 		}
-	},
-	[10] = {
+	}
+	pg.base.activity_random_award_template[10] = {
 		activity = 40080,
 		resource_category = 1,
 		resource_type = 114,
@@ -972,8 +995,8 @@ pg.activity_random_award_template = {
 			100022,
 			100010
 		}
-	},
-	[11] = {
+	}
+	pg.base.activity_random_award_template[11] = {
 		activity = 40080,
 		resource_category = 1,
 		resource_type = 114,
@@ -1169,8 +1192,8 @@ pg.activity_random_award_template = {
 			100011,
 			100007
 		}
-	},
-	[12] = {
+	}
+	pg.base.activity_random_award_template[12] = {
 		activity = 40080,
 		resource_category = 1,
 		resource_type = 114,
@@ -1390,8 +1413,8 @@ pg.activity_random_award_template = {
 			84,
 			83
 		}
-	},
-	[13] = {
+	}
+	pg.base.activity_random_award_template[13] = {
 		activity = 40098,
 		resource_category = 1,
 		resource_type = 119,
@@ -1511,8 +1534,8 @@ pg.activity_random_award_template = {
 			100012,
 			100013
 		}
-	},
-	[14] = {
+	}
+	pg.base.activity_random_award_template[14] = {
 		activity = 40098,
 		resource_category = 1,
 		resource_type = 119,
@@ -1720,8 +1743,8 @@ pg.activity_random_award_template = {
 			900001,
 			100021
 		}
-	},
-	[15] = {
+	}
+	pg.base.activity_random_award_template[15] = {
 		activity = 40098,
 		resource_category = 1,
 		resource_type = 119,
@@ -1913,8 +1936,8 @@ pg.activity_random_award_template = {
 			100017,
 			100014
 		}
-	},
-	[16] = {
+	}
+	pg.base.activity_random_award_template[16] = {
 		activity = 40098,
 		resource_category = 1,
 		resource_type = 119,
@@ -2134,8 +2157,8 @@ pg.activity_random_award_template = {
 			84,
 			83
 		}
-	},
-	[17] = {
+	}
+	pg.base.activity_random_award_template[17] = {
 		activity = 5264,
 		resource_category = 1,
 		resource_type = 625,
@@ -2224,8 +2247,8 @@ pg.activity_random_award_template = {
 			}
 		},
 		main_item = {}
-	},
-	[18] = {
+	}
+	pg.base.activity_random_award_template[18] = {
 		activity = 5264,
 		resource_category = 1,
 		resource_type = 625,
@@ -2302,8 +2325,8 @@ pg.activity_random_award_template = {
 			}
 		},
 		main_item = {}
-	},
-	[19] = {
+	}
+	pg.base.activity_random_award_template[19] = {
 		activity = 5264,
 		resource_category = 1,
 		resource_type = 625,
@@ -2392,22 +2415,5 @@ pg.activity_random_award_template = {
 			}
 		},
 		main_item = {}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19
 	}
-}
+end)()

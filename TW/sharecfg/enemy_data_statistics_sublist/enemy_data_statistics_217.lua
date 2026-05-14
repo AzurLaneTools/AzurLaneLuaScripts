@@ -1,5 +1,58 @@
 pg = pg or {}
 pg.enemy_data_statistics_217 = {
+	[15601207] = {
+		cannon = 55,
+		name = "噩夢投射-「輕巡洋艦」",
+		antiaircraft = 145,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		luck = 4,
+		type = 2,
+		antisub = 0,
+		hit_growth = 210,
+		antiaircraft_growth = 3600,
+		dodge_growth = 156,
+		fog_fx = "",
+		star = 4,
+		antisub_growth = 0,
+		rarity = 4,
+		base = 90619,
+		durability = 1480,
+		armor_growth = 0,
+		torpedo_growth = 2000,
+		speed = 20,
+		armor = 0,
+		id = 15601207,
+		cannon_growth = 1600,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 80,
+		durability_growth = 125600,
+		luck_growth = 0,
+		battle_unit_type = 90,
+		armor_type = 1,
+		specific_fx_scale = {},
+		appear_fx = {
+			"heisewuqi_stg",
+			"appearQ"
+		},
+		equipment_list = {
+			871901,
+			871902,
+			871907,
+			1003122,
+			871905
+		},
+		buff_list = {
+			{
+				ID = 8924,
+				LV = 1
+			}
+		}
+	},
 	[15601208] = {
 		cannon = 61,
 		name = "噩夢投射-「重巡洋艦」",
@@ -1349,49 +1402,6 @@ pg.enemy_data_statistics_217 = {
 			1003064,
 			1003069,
 			1003074
-		},
-		buff_list = {
-			{
-				ID = 8924,
-				LV = 1
-			}
-		}
-	},
-	[15603006] = {
-		cannon = 60,
-		hit_growth = 1200,
-		luck_growth = 0,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		armor = 0,
-		antisub = 0,
-		battle_unit_type = 15,
-		fog_fx = "",
-		dodge_growth = 0,
-		star = 1,
-		antisub_growth = 0,
-		rarity = 1,
-		base = 90464,
-		durability = 80,
-		armor_growth = 0,
-		torpedo_growth = 900,
-		speed = 30,
-		luck = 0,
-		id = 15603006,
-		cannon_growth = 0,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 81,
-		torpedo = 120,
-		durability_growth = 2550,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		specific_fx_scale = {},
-		equipment_list = {
-			1000868,
-			1000903
 		},
 		buff_list = {
 			{

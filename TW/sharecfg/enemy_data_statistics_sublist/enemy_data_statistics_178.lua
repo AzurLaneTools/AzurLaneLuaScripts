@@ -1,5 +1,89 @@
 pg = pg or {}
 pg.enemy_data_statistics_178 = {
+	[14100302] = {
+		cannon = 95,
+		luck_growth = 0,
+		air_growth = 0,
+		speed_growth = 0,
+		antiaircraft_growth = 0,
+		air = 0,
+		armor = 0,
+		dodge = 11,
+		antisub = 0,
+		hit_growth = 210,
+		fog_fx = "",
+		dodge_growth = 132,
+		icon = "miaogaodc",
+		star = 3,
+		antisub_growth = 0,
+		rarity = 2,
+		base = 90113,
+		durability = 5400,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 18,
+		luck = 5,
+		id = 14100302,
+		scale = 240,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20004,
+		reload = 150,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 50,
+		durability_growth = 0,
+		antiaircraft = 115,
+		battle_unit_type = 95,
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-1.35,
+							1.17,
+							0.51
+						}
+					}
+				}
+			},
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							1.39,
+							1.41,
+							0.54
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							0.02,
+							1.82,
+							0.76
+						}
+					}
+				}
+			}
+		},
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			710021,
+			710022,
+			710024
+		}
+	},
 	[14101001] = {
 		cannon = 8,
 		hit_growth = 144,
@@ -1713,47 +1797,6 @@ pg.enemy_data_statistics_178 = {
 			1100040,
 			1100570,
 			1100455
-		}
-	},
-	[14200004] = {
-		cannon = 35,
-		air = 0,
-		torpedo = 0,
-		cannon_growth = 2000,
-		pilot_ai_template_id = 20004,
-		reload = 150,
-		armor = 0,
-		dodge = 0,
-		torpedo_growth = 0,
-		hit_growth = 144,
-		reload_growth = 0,
-		dodge_growth = 0,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 10,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 60,
-		base = 90305,
-		durability = 650,
-		armor_growth = 0,
-		durability_growth = 33600,
-		antiaircraft = 40,
-		speed = 15,
-		luck = 0,
-		antiaircraft_growth = 1200,
-		antisub = 0,
-		id = 14200004,
-		scale = 195,
-		fog_fx = "",
-		appear_fx = {
-			"appearsmall",
-			"music_huanraoyinfu_fusangdanchuan"
-		},
-		equipment_list = {
-			1100250,
-			1100915,
-			1100920
 		}
 	}
 }

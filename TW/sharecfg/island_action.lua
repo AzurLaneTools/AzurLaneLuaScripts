@@ -1,6 +1,66 @@
 pg = pg or {}
-pg.island_action = {
-	[1000] = {
+pg.island_action = rawget(pg, "island_action") or setmetatable({
+	__name = "island_action"
+}, confNEO)
+pg.island_action.all = {
+	1000,
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008,
+	1009,
+	1011,
+	1012,
+	1013,
+	1014,
+	1015,
+	1016,
+	1017,
+	1018,
+	2000,
+	2001,
+	2002,
+	2003,
+	2004
+}
+pg.island_action.get_id_list_by_type = {
+	{
+		1000,
+		1001,
+		1002,
+		1003,
+		1004,
+		1005,
+		1006,
+		1007,
+		1008,
+		1009,
+		1011,
+		1012,
+		1013,
+		1014,
+		1015,
+		1016,
+		1017,
+		1018
+	},
+	{
+		2000,
+		2001,
+		2002,
+		2003,
+		2004
+	}
+}
+pg.base = pg.base or {}
+pg.base.island_action = {}
+
+(function ()
+	pg.base.island_action[1000] = {
 		name = "打招呼",
 		respond_point = "",
 		type = 1,
@@ -17,8 +77,8 @@ pg.island_action = {
 			104
 		},
 		jump_page = {}
-	},
-	[1001] = {
+	}
+	pg.base.island_action[1001] = {
 		name = "道别",
 		respond_point = "",
 		type = 1,
@@ -33,8 +93,8 @@ pg.island_action = {
 			101
 		},
 		jump_page = {}
-	},
-	[1002] = {
+	}
+	pg.base.island_action[1002] = {
 		name = "点头",
 		respond_point = "",
 		type = 1,
@@ -50,8 +110,8 @@ pg.island_action = {
 			105
 		},
 		jump_page = {}
-	},
-	[1003] = {
+	}
+	pg.base.island_action[1003] = {
 		name = "摇头",
 		respond_point = "",
 		type = 1,
@@ -67,8 +127,8 @@ pg.island_action = {
 			207
 		},
 		jump_page = {}
-	},
-	[1004] = {
+	}
+	pg.base.island_action[1004] = {
 		name = "拍手",
 		respond_point = "",
 		type = 1,
@@ -84,8 +144,8 @@ pg.island_action = {
 			105
 		},
 		jump_page = {}
-	},
-	[1005] = {
+	}
+	pg.base.island_action[1005] = {
 		name = "赞美太阳",
 		respond_point = "",
 		type = 1,
@@ -106,8 +166,8 @@ pg.island_action = {
 				{}
 			}
 		}
-	},
-	[1006] = {
+	}
+	pg.base.island_action[1006] = {
 		name = "叉腰",
 		respond_point = "",
 		type = 1,
@@ -122,8 +182,8 @@ pg.island_action = {
 			106
 		},
 		jump_page = {}
-	},
-	[1007] = {
+	}
+	pg.base.island_action[1007] = {
 		name = "鞠躬",
 		respond_point = "",
 		type = 1,
@@ -144,8 +204,8 @@ pg.island_action = {
 				{}
 			}
 		}
-	},
-	[1008] = {
+	}
+	pg.base.island_action[1008] = {
 		name = "胜利起跳",
 		respond_point = "",
 		type = 1,
@@ -166,8 +226,8 @@ pg.island_action = {
 				{}
 			}
 		}
-	},
-	[1009] = {
+	}
+	pg.base.island_action[1009] = {
 		name = "跺脚",
 		respond_point = "",
 		type = 1,
@@ -183,8 +243,8 @@ pg.island_action = {
 			207
 		},
 		jump_page = {}
-	},
-	[1011] = {
+	}
+	pg.base.island_action[1011] = {
 		name = "展示肌肉",
 		respond_point = "",
 		type = 1,
@@ -205,8 +265,8 @@ pg.island_action = {
 				{}
 			}
 		}
-	},
-	[1012] = {
+	}
+	pg.base.island_action[1012] = {
 		name = "跳舞",
 		respond_point = "",
 		type = 1,
@@ -227,8 +287,8 @@ pg.island_action = {
 				{}
 			}
 		}
-	},
-	[1013] = {
+	}
+	pg.base.island_action[1013] = {
 		name = "英雄登场",
 		respond_point = "",
 		type = 1,
@@ -249,8 +309,8 @@ pg.island_action = {
 				{}
 			}
 		}
-	},
-	[1014] = {
+	}
+	pg.base.island_action[1014] = {
 		name = "伸懒腰",
 		respond_point = "",
 		type = 1,
@@ -270,8 +330,8 @@ pg.island_action = {
 				{}
 			}
 		}
-	},
-	[1015] = {
+	}
+	pg.base.island_action[1015] = {
 		name = "害怕",
 		respond_point = "",
 		type = 1,
@@ -292,8 +352,8 @@ pg.island_action = {
 				{}
 			}
 		}
-	},
-	[1016] = {
+	}
+	pg.base.island_action[1016] = {
 		name = "抱拳",
 		respond_point = "",
 		type = 1,
@@ -314,8 +374,8 @@ pg.island_action = {
 				{}
 			}
 		}
-	},
-	[1017] = {
+	}
+	pg.base.island_action[1017] = {
 		name = "自夸",
 		respond_point = "",
 		type = 1,
@@ -336,8 +396,8 @@ pg.island_action = {
 				{}
 			}
 		}
-	},
-	[1018] = {
+	}
+	pg.base.island_action[1018] = {
 		name = "打坐",
 		respond_point = "",
 		type = 1,
@@ -358,8 +418,8 @@ pg.island_action = {
 				{}
 			}
 		}
-	},
-	[2000] = {
+	}
+	pg.base.island_action[2000] = {
 		chara_sigle_action_reply = "",
 		name = "击掌",
 		type = 2,
@@ -376,8 +436,8 @@ pg.island_action = {
 			1.28364
 		},
 		jump_page = {}
-	},
-	[2001] = {
+	}
+	pg.base.island_action[2001] = {
 		chara_sigle_action_reply = "",
 		name = "握手",
 		type = 2,
@@ -399,8 +459,8 @@ pg.island_action = {
 				{}
 			}
 		}
-	},
-	[2002] = {
+	}
+	pg.base.island_action[2002] = {
 		chara_sigle_action_reply = "",
 		name = "拥抱",
 		type = 2,
@@ -422,8 +482,8 @@ pg.island_action = {
 				{}
 			}
 		}
-	},
-	[2003] = {
+	}
+	pg.base.island_action[2003] = {
 		chara_sigle_action_reply = "",
 		name = "庆祝 ",
 		type = 2,
@@ -445,8 +505,8 @@ pg.island_action = {
 				{}
 			}
 		}
-	},
-	[2004] = {
+	}
+	pg.base.island_action[2004] = {
 		chara_sigle_action_reply = "",
 		name = "比心 ",
 		type = 2,
@@ -468,59 +528,5 @@ pg.island_action = {
 				{}
 			}
 		}
-	},
-	get_id_list_by_type = {
-		{
-			1000,
-			1001,
-			1002,
-			1003,
-			1004,
-			1005,
-			1006,
-			1007,
-			1008,
-			1009,
-			1011,
-			1012,
-			1013,
-			1014,
-			1015,
-			1016,
-			1017,
-			1018
-		},
-		{
-			2000,
-			2001,
-			2002,
-			2003,
-			2004
-		}
-	},
-	all = {
-		1000,
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1007,
-		1008,
-		1009,
-		1011,
-		1012,
-		1013,
-		1014,
-		1015,
-		1016,
-		1017,
-		1018,
-		2000,
-		2001,
-		2002,
-		2003,
-		2004
 	}
-}
+end)()

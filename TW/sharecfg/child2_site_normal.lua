@@ -1,6 +1,30 @@
 pg = pg or {}
-pg.child2_site_normal = {
+pg.child2_site_normal = rawget(pg, "child2_site_normal") or setmetatable({
+	__name = "child2_site_normal"
+}, confNEO)
+pg.child2_site_normal.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6
+}
+pg.child2_site_normal.get_id_list_by_character = {
 	{
+		1,
+		2,
+		3,
+		4,
+		5,
+		6
+	}
+}
+pg.base = pg.base or {}
+pg.base.child2_site_normal = {}
+
+(function ()
+	pg.base.child2_site_normal[1] = {
 		site_lv = 1,
 		type = 1,
 		title = "生活體驗LV1（獲得80金錢）",
@@ -30,8 +54,8 @@ pg.child2_site_normal = {
 			"oceana_ditudagong_2",
 			"oceana_ditudagong_3"
 		}
-	},
-	{
+	}
+	pg.base.child2_site_normal[2] = {
 		site_lv = 2,
 		type = 1,
 		title = "生活體驗LV2（獲得120金錢）",
@@ -61,8 +85,8 @@ pg.child2_site_normal = {
 			"oceana_ditudagong_2",
 			"oceana_ditudagong_3"
 		}
-	},
-	{
+	}
+	pg.base.child2_site_normal[3] = {
 		site_lv = 3,
 		type = 1,
 		title = "生活體驗LV3（獲得200金錢）",
@@ -87,8 +111,8 @@ pg.child2_site_normal = {
 			"oceana_ditudagong_2",
 			"oceana_ditudagong_3"
 		}
-	},
-	{
+	}
+	pg.base.child2_site_normal[4] = {
 		site_lv = 1,
 		type = 2,
 		title = "外出旅遊LV1（獲得6心情）",
@@ -118,8 +142,8 @@ pg.child2_site_normal = {
 			"oceana_lvyou_2",
 			"oceana_lvyou_3"
 		}
-	},
-	{
+	}
+	pg.base.child2_site_normal[5] = {
 		site_lv = 2,
 		type = 2,
 		title = "外出旅遊LV2（獲得10心情）",
@@ -149,8 +173,8 @@ pg.child2_site_normal = {
 			"oceana_lvyou_2",
 			"oceana_lvyou_3"
 		}
-	},
-	{
+	}
+	pg.base.child2_site_normal[6] = {
 		site_lv = 3,
 		type = 2,
 		title = "外出旅遊LV3（獲得18心情）",
@@ -175,23 +199,5 @@ pg.child2_site_normal = {
 			"oceana_lvyou_2",
 			"oceana_lvyou_3"
 		}
-	},
-	get_id_list_by_character = {
-		{
-			1,
-			2,
-			3,
-			4,
-			5,
-			6
-		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6
 	}
-}
+end)()

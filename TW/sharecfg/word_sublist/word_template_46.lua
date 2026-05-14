@@ -4,35 +4,29 @@ slot0.word_template_46 = {}
 slot1 = slot0.word_template_46
 
 temp = function()
-	uv0["钓"] = {
-		["鱼"] = {
-			["岛"] = {
-				this = true,
-				["争"] = {
-					["端"] = {
-						this = true
-					}
-				},
-				["国"] = {
-					["有"] = {
-						["化"] = {
-							this = true
-						}
-					}
-				},
-				["不"] = {
-					["属"] = {
-						["于"] = {
-							["中"] = {
-								["国"] = {
-									this = true
-								}
-							}
-						}
-					}
-				}
-			},
-			["台"] = {
+	uv0["許"] = {
+		["財"] = {
+			["利"] = {
+				this = true
+			}
+		},
+		["家"] = {
+			["屯"] = {
+				this = true
+			}
+		},
+		["信"] = {
+			["良"] = {
+				this = true
+			}
+		},
+		["其"] = {
+			["亮"] = {
+				this = true
+			}
+		},
+		["成"] = {
+			["江"] = {
 				this = true
 			}
 		}
@@ -42,106 +36,404 @@ end
 temp()
 
 temp = function()
-	uv0["暴"] = {
-		["力"] = {
-			this = true,
-			["爱"] = {
-				["国"] = {
-					this = true
-				}
+	uv0["諼"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["薛"] = {
+		["偉"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["澩"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["閹"] = {
+		["狗"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["訁"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["嚴"] = {
+		["家"] = {
+			["其"] = {
+				this = true
 			},
-			["虐"] = {
-				["待"] = {
-					this = true
-				}
-			},
-			["愛"] = {
-				["國"] = {
-					this = true
-				}
+			["祺"] = {
+				this = true
 			}
 		},
-		["淫"] = {
-			this = true
-		},
-		["乳"] = {
-			this = true
-		},
-		["奸"] = {
-			this = true
-		},
-		["干"] = {
-			this = true
-		},
-		["風"] = {
-			["亡"] = {
-				["靈"] = {
-					this = true
-				}
+		["方"] = {
+			["軍"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["閻"] = {
+		["明"] = {
+			["複"] = {
+				this = true
 			}
 		},
-		["亂"] = {
+		["王"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["顔"] = {
+		["清"] = {
+			["標"] = {
+				this = true
+			}
+		},
+		["慶"] = {
+			["章"] = {
+				this = true
+			}
+		},
+		["射"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["讞"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["央"] = {
+		["視"] = {
+			["內"] = {
+				["部"] = {
+					["晚"] = {
+						["會"] = {
+							this = true
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["陽"] = {
+		["具"] = {
 			this = true
 		},
-		["熱"] = {
-			["的"] = {
-				["戰"] = {
-					["士"] = {
+		["痿"] = {
+			this = true
+		},
+		["物"] = {
+			this = true
+		},
+		["江"] = {
+			["刀"] = {
+				["具"] = {
+					["網"] = {
 						this = true
 					}
 				}
 			}
 		},
-		["躁"] = {
-			["的"] = {
-				["城"] = {
-					["塔"] = {
-						["野"] = {
-							["獸"] = {
+		["精"] = {
+			this = true
+		},
+		["莖"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["楊"] = {
+		["懷"] = {
+			["安"] = {
+				this = true
+			}
+		},
+		["建"] = {
+			["利"] = {
+				this = true
+			}
+		},
+		["巍"] = {
+			this = true
+		},
+		["月"] = {
+			["清"] = {
+				this = true
+			}
+		},
+		["周"] = {
+			this = true
+		},
+		["尚"] = {
+			["昆"] = {
+				this = true
+			}
+		},
+		["牧"] = {
+			["之"] = {
+				this = true
+			}
+		},
+		["達"] = {
+			["才"] = {
+				this = true
+			}
+		},
+		["晶"] = {
+			this = true
+		},
+		["思"] = {
+			["敏"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["軺"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["搖"] = {
+		["頭"] = {
+			["丸"] = {
+				this = true
+			},
+			["玩"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["藥"] = {
+		["材"] = {
+			["商"] = {
+				["人"] = {
+					["蘇"] = {
+						["耐"] = {
+							["得"] = {
 								this = true
 							}
 						}
 					}
-				},
-				["警"] = {
-					["衛"] = {
-						["兵"] = {
-							["靈"] = {
-								["魂"] = {
-									this = true
-								}
-							}
-						}
-					}
-				},
-				["馬"] = {
-					["杜"] = {
-						["克"] = {
+				}
+			}
+		},
+		["水"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["葉"] = {
+		["菊"] = {
+			["蘭"] = {
+				this = true
+			}
+		},
+		["劍"] = {
+			["英"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["㈠"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["遺"] = {
+		["精"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["議"] = {
+		["長"] = {
+			["阿"] = {
+				["茵"] = {
+					["斯"] = {
+						["塔"] = {
 							this = true
 						}
 					}
 				}
 			}
 		},
-		["动"] = {
-			this = true
+		["員"] = {
+			["斯"] = {
+				["格"] = {
+					["文"] = {
+						["德"] = {
+							this = true
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["异"] = {
+		["見"] = {
+			["人"] = {
+				["士"] = {
+					this = true
+				}
+			}
 		},
-		["乱"] = {
-			this = true
+		["型"] = {
+			["叛"] = {
+				["軍"] = {
+					this = true
+				}
+			}
 		},
-		["徒"] = {
-			this = true
+		["議"] = {
+			["人"] = {
+				["士"] = {
+					this = true
+				}
+			}
 		},
-		["幹"] = {
-			this = true
-		},
-		["動"] = {
-			this = true
-		},
-		["插"] = {
-			this = true
-		},
-		["操"] = {
+		["黄"] = {
+			["樟"] = {
+				["素"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["易"] = {
+		["丹"] = {
+			["軒"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["意"] = {
+		["志"] = {
+			["不"] = {
+				["堅"] = {
+					["的"] = {
+						["圖"] = {
+							["騰"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["瘞"] = {
+		this = {
 			this = true
 		}
 	}
@@ -150,26 +442,55 @@ end
 temp()
 
 temp = function()
-	uv0["购"] = {
-		["买"] = {
-			["钓"] = {
-				["鱼"] = {
-					["岛"] = {
+	uv0["尹"] = {
+		["慶"] = {
+			["民"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["引"] = {
+		["導"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["隱"] = {
+		["者"] = {
+			["之"] = {
+				["路"] = {
+					this = true
+				}
+			}
+		},
+		["窩"] = {
+			["窩"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["鷹"] = {
+		["眼"] = {
+			["派"] = {
+				["氏"] = {
+					["族"] = {
 						this = true
 					}
 				}
-			},
-			["枪"] = {
-				["支"] = {
-					this = true
-				}
-			}
-		},
-		["蒙"] = {
-			["汗"] = {
-				["药"] = {
-					this = true
-				}
 			}
 		}
 	}
@@ -178,11 +499,15 @@ end
 temp()
 
 temp = function()
-	uv0["皇"] = {
-		["军"] = {
-			this = true
+	uv0["硬"] = {
+		["直"] = {
+			["圖"] = {
+				["騰"] = {
+					this = true
+				}
+			}
 		},
-		["軍"] = {
+		["挺"] = {
 			this = true
 		}
 	}

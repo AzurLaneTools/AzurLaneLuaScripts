@@ -1,6 +1,21 @@
 pg = pg or {}
-pg.activity_tolove_jigsaw = {
-	{
+pg.activity_tolove_jigsaw = rawget(pg, "activity_tolove_jigsaw") or setmetatable({
+	__name = "activity_tolove_jigsaw"
+}, confNEO)
+pg.activity_tolove_jigsaw.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7
+}
+pg.base = pg.base or {}
+pg.base.activity_tolove_jigsaw = {}
+
+(function ()
+	pg.base.activity_tolove_jigsaw[1] = {
 		desc_demand = "如果有辦法讓天狼星做的料理變美味的話……",
 		portrait_up = "tianlangxing",
 		portrait_down = "lala_tolove",
@@ -32,8 +47,8 @@ pg.activity_tolove_jigsaw = {
 			"· 拼接所收集到的元件",
 			"·繪製電路（一筆畫聯通所有元件）"
 		}
-	},
-	{
+	}
+	pg.base.activity_tolove_jigsaw[2] = {
 		desc_demand = "想要提高銷售額，無論什麼手段都可以喵。",
 		portrait_up = "mingshi",
 		portrait_down = "lala_tolove",
@@ -65,8 +80,8 @@ pg.activity_tolove_jigsaw = {
 			"· 拼接所收集到的元件",
 			"·繪製電路（一筆畫聯通所有元件）"
 		}
-	},
-	{
+	}
+	pg.base.activity_tolove_jigsaw[3] = {
 		desc_demand = "如果能一直偷懶就好了，欸嘿嘿……這種誇張的要求能滿足嗎？",
 		portrait_up = "changdao",
 		portrait_down = "lala_tolove",
@@ -98,8 +113,8 @@ pg.activity_tolove_jigsaw = {
 			"· 拼接所收集到的元件",
 			"·繪製電路（一筆畫聯通所有元件）"
 		}
-	},
-	{
+	}
+	pg.base.activity_tolove_jigsaw[4] = {
 		desc_demand = "事先聲明……姐姐我不是喜歡加班，但如果無論如何都要加班的話……",
 		portrait_up = "dipulaikesi",
 		portrait_down = "lala_tolove",
@@ -131,8 +146,8 @@ pg.activity_tolove_jigsaw = {
 			"· 拼接所收集到的元件",
 			"·繪製電路（一筆畫聯通所有元件）"
 		}
-	},
-	{
+	}
+	pg.base.activity_tolove_jigsaw[5] = {
 		desc_demand = "我種了很多指揮官喜歡的蔬菜~但是長得有點慢呢，有什麼辦法嗎？",
 		portrait_up = "weizhang",
 		portrait_down = "lala_tolove",
@@ -164,8 +179,8 @@ pg.activity_tolove_jigsaw = {
 			"· 拼接所收集到的元件",
 			"·繪製電路（一筆畫聯通所有元件）"
 		}
-	},
-	{
+	}
+	pg.base.activity_tolove_jigsaw[6] = {
 		desc_demand = "對於喜歡調查不可思議事件的人來說，如果時時刻刻都有強烈的氛圍感就太棒了~！",
 		portrait_up = "bulisituoer",
 		portrait_down = "lala_tolove",
@@ -197,8 +212,8 @@ pg.activity_tolove_jigsaw = {
 			"· 拼接所收集到的元件",
 			"·繪製電路（一筆畫聯通所有元件）"
 		}
-	},
-	{
+	}
+	pg.base.activity_tolove_jigsaw[7] = {
 		desc_demand = "本王貴為皇家女王，當然會希望追求更極致的皇室氣質！",
 		portrait_up = "yilishabai",
 		portrait_down = "lala_tolove",
@@ -230,14 +245,5 @@ pg.activity_tolove_jigsaw = {
 			"· 拼接所收集到的元件",
 			"·繪製電路（一筆畫聯通所有元件）"
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7
 	}
-}
+end)()

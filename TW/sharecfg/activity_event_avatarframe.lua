@@ -1,6 +1,55 @@
 pg = pg or {}
-pg.activity_event_avatarframe = {
-	{
+pg.activity_event_avatarframe = rawget(pg, "activity_event_avatarframe") or setmetatable({
+	__name = "activity_event_avatarframe"
+}, confNEO)
+pg.activity_event_avatarframe.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	29,
+	31,
+	34,
+	40724,
+	40783,
+	40831,
+	40975,
+	41066,
+	41092,
+	41116,
+	41166,
+	41206,
+	41286,
+	41368
+}
+pg.base = pg.base or {}
+pg.base.activity_event_avatarframe = {}
+
+(function ()
+	pg.base.activity_event_avatarframe[1] = {
 		link_event = 41245,
 		icon_frame = 311,
 		target = 3600,
@@ -115,8 +164,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[2] = {
 		link_event = 4471,
 		icon_frame = 321,
 		target = 3000,
@@ -225,8 +274,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[3] = {
 		link_event = 41322,
 		icon_frame = 322,
 		target = 2800,
@@ -329,8 +378,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[4] = {
 		link_event = 41347,
 		icon_frame = 312,
 		target = 3400,
@@ -439,8 +488,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[5] = {
 		link_event = 4607,
 		icon_frame = 323,
 		target = 2800,
@@ -543,8 +592,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[6] = {
 		link_event = 4626,
 		icon_frame = 313,
 		target = 3000,
@@ -653,8 +702,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[7] = {
 		link_event = 4701,
 		icon_frame = 324,
 		target = 2800,
@@ -757,8 +806,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[8] = {
 		link_event = 4718,
 		icon_frame = 314,
 		target = 3400,
@@ -873,8 +922,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[9] = {
 		link_event = 4853,
 		icon_frame = 325,
 		target = 3000,
@@ -977,8 +1026,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[10] = {
 		link_event = 4898,
 		icon_frame = 315,
 		target = 3400,
@@ -1087,8 +1136,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[11] = {
 		link_event = 4967,
 		icon_frame = 326,
 		target = 3000,
@@ -1197,8 +1246,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[12] = {
 		link_event = 5001,
 		icon_frame = 327,
 		target = 2800,
@@ -1301,8 +1350,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[13] = {
 		link_event = 5069,
 		icon_frame = 316,
 		target = 3200,
@@ -1411,8 +1460,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[14] = {
 		link_event = 5131,
 		icon_frame = 328,
 		target = 2800,
@@ -1515,8 +1564,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[15] = {
 		link_event = 5167,
 		icon_frame = 317,
 		target = 2800,
@@ -1619,8 +1668,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[16] = {
 		link_event = 5221,
 		icon_frame = 329,
 		target = 2800,
@@ -1723,8 +1772,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[17] = {
 		link_event = 5287,
 		icon_frame = 318,
 		target = 2800,
@@ -1827,8 +1876,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[18] = {
 		link_event = 5331,
 		icon_frame = 330,
 		target = 2800,
@@ -1942,8 +1991,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[19] = {
 		link_event = 5374,
 		icon_frame = 319,
 		target = 3000,
@@ -2052,8 +2101,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[20] = {
 		link_event = 5427,
 		icon_frame = 320,
 		target = 2800,
@@ -2156,8 +2205,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[21] = {
 		link_event = 5521,
 		icon_frame = 331,
 		target = 2600,
@@ -2282,8 +2331,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[22] = {
 		link_event = 5562,
 		icon_frame = 332,
 		target = 2800,
@@ -2397,8 +2446,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[23] = {
 		link_event = 5597,
 		icon_frame = 321,
 		target = 3000,
@@ -2507,8 +2556,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[24] = {
 		link_event = 5641,
 		icon_frame = 322,
 		target = 2800,
@@ -2611,8 +2660,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.activity_event_avatarframe[25] = {
 		link_event = 5711,
 		icon_frame = 333,
 		target = 2800,
@@ -2737,8 +2786,112 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	[27] = {
+	}
+	pg.base.activity_event_avatarframe[26] = {
+		link_event = 5749,
+		icon_frame = 323,
+		target = 2800,
+		id = 26,
+		pt_id = 65069,
+		start_time = {
+			{
+				2025,
+				1,
+				9
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		task_level = {
+			{
+				1,
+				10216,
+				3,
+				{
+					1700002,
+					1700022
+				},
+				10,
+				100
+			},
+			{
+				2,
+				10205,
+				3,
+				{
+					1700003,
+					1700023
+				},
+				10,
+				200
+			},
+			{
+				3,
+				11201,
+				3,
+				{
+					1700005,
+					1700025
+				},
+				10,
+				200
+			},
+			{
+				4,
+				19903,
+				3,
+				{
+					1700006,
+					1700026
+				},
+				10,
+				300
+			}
+		},
+		task_ship = {
+			{
+				5,
+				10710,
+				1,
+				800
+			},
+			{
+				6,
+				10712,
+				1,
+				600
+			},
+			{
+				7,
+				10326,
+				1,
+				600
+			},
+			{
+				8,
+				10150,
+				1,
+				400
+			},
+			{
+				9,
+				10727,
+				1,
+				400
+			}
+		},
+		award_display = {
+			{
+				8,
+				65069,
+				1
+			}
+		}
+	}
+	pg.base.activity_event_avatarframe[27] = {
 		link_event = 5821,
 		icon_frame = 334,
 		target = 2800,
@@ -2852,8 +3005,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	[29] = {
+	}
+	pg.base.activity_event_avatarframe[29] = {
 		link_event = 5941,
 		icon_frame = 335,
 		target = 2800,
@@ -2956,8 +3109,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	[31] = {
+	}
+	pg.base.activity_event_avatarframe[31] = {
 		link_event = 50114,
 		icon_frame = 336,
 		target = 2800,
@@ -3071,8 +3224,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	[34] = {
+	}
+	pg.base.activity_event_avatarframe[34] = {
 		link_event = 50281,
 		icon_frame = 337,
 		target = 2800,
@@ -3186,8 +3339,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	[40724] = {
+	}
+	pg.base.activity_event_avatarframe[40724] = {
 		link_event = 40734,
 		icon_frame = 308,
 		target = 3000,
@@ -3296,8 +3449,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	[40783] = {
+	}
+	pg.base.activity_event_avatarframe[40783] = {
 		link_event = 40790,
 		icon_frame = 316,
 		target = 3200,
@@ -3406,8 +3559,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	[40831] = {
+	}
+	pg.base.activity_event_avatarframe[40831] = {
 		link_event = 40891,
 		icon_frame = 304,
 		target = 3000,
@@ -3522,8 +3675,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	[40975] = {
+	}
+	pg.base.activity_event_avatarframe[40975] = {
 		link_event = 40976,
 		icon_frame = 317,
 		target = 2800,
@@ -3626,8 +3779,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	[41066] = {
+	}
+	pg.base.activity_event_avatarframe[41066] = {
 		link_event = 41083,
 		icon_frame = 318,
 		target = 2800,
@@ -3730,8 +3883,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	[41092] = {
+	}
+	pg.base.activity_event_avatarframe[41092] = {
 		link_event = 41094,
 		icon_frame = 305,
 		target = 3000,
@@ -3840,8 +3993,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	[41116] = {
+	}
+	pg.base.activity_event_avatarframe[41116] = {
 		link_event = 41126,
 		icon_frame = 307,
 		target = 2800,
@@ -3956,8 +4109,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	[41166] = {
+	}
+	pg.base.activity_event_avatarframe[41166] = {
 		link_event = 41170,
 		icon_frame = 320,
 		target = 2800,
@@ -4060,8 +4213,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	[41206] = {
+	}
+	pg.base.activity_event_avatarframe[41206] = {
 		link_event = 41210,
 		icon_frame = 319,
 		target = 3000,
@@ -4170,8 +4323,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	[41286] = {
+	}
+	pg.base.activity_event_avatarframe[41286] = {
 		link_event = 41283,
 		icon_frame = 309,
 		target = 3000,
@@ -4280,8 +4433,8 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	[41368] = {
+	}
+	pg.base.activity_event_avatarframe[41368] = {
 		link_event = 4240,
 		icon_frame = 306,
 		target = 3400,
@@ -4396,47 +4549,5 @@ pg.activity_event_avatarframe = {
 				1
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		27,
-		29,
-		31,
-		34,
-		40724,
-		40783,
-		40831,
-		40975,
-		41066,
-		41092,
-		41116,
-		41166,
-		41206,
-		41286,
-		41368
 	}
-}
+end)()

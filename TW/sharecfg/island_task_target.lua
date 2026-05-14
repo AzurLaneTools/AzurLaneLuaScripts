@@ -1,464 +1,467 @@
 pg = pg or {}
-pg.island_task_target = setmetatable({
-	__name = "island_task_target",
-	all = {
-		101,
-		201,
-		301,
-		302,
-		401,
-		501,
-		502,
-		601,
-		602,
-		701,
-		702,
-		901,
-		902,
-		903,
-		40005,
-		500000011,
-		500000021,
-		510010001,
-		510010011,
-		510010012,
-		510010013,
-		510010014,
-		510020001,
-		510020011,
-		510020012,
-		510020013,
-		510020014,
-		510030001,
-		510030011,
-		510030012,
-		510030013,
-		510030014,
-		50001001,
-		50001002,
-		50001003,
-		50001004,
-		50001005,
-		50001006,
-		50001007,
-		50001008,
-		50001009,
-		50001010,
-		50001011,
-		50001012,
-		50001013,
-		50001014,
-		50002001,
-		50002002,
-		50002003,
-		50002004,
-		50002005,
-		50002006,
-		50002007,
-		50002008,
-		50002009,
-		50002010,
-		50002011,
-		50002012,
-		50002013,
-		50002014,
-		50003001,
-		50003002,
-		50003003,
-		50003004,
-		50003005,
-		50003006,
-		50003007,
-		50003008,
-		80010001,
-		80010002,
-		80010003,
-		80010004,
-		80010005,
-		80010006,
-		80010007,
-		80010008,
-		80010009,
-		80010010,
-		80010011,
-		80010012,
-		80010013,
-		80010014,
-		80010015,
-		80010016,
-		80010017,
-		80010018,
-		80010019,
-		80010020,
-		80010021,
-		80010022,
-		80010023,
-		80010024,
-		80010025,
-		80010026,
-		80010027,
-		80010028,
-		80010029,
-		80010030,
-		80011001,
-		80011002,
-		80011003,
-		80011004,
-		80011005,
-		80011006,
-		80011007,
-		80011008,
-		80011009,
-		80011010,
-		80011011,
-		80011012,
-		80011013,
-		80011014,
-		80011015,
-		80011016,
-		80011017,
-		80011018,
-		80011019,
-		80011020,
-		80011021,
-		80011022,
-		80011023,
-		80011024,
-		80011025,
-		80011026,
-		80011027,
-		80011028,
-		80011029,
-		80011030,
-		80012001,
-		80012002,
-		80012003,
-		80012004,
-		80012005,
-		80012006,
-		80012007,
-		80012008,
-		80012009,
-		80012010,
-		80012011,
-		80012012,
-		80012013,
-		80012014,
-		80012015,
-		80012016,
-		80012017,
-		80012018,
-		80012019,
-		80012020,
-		80012021,
-		80012022,
-		80012023,
-		80012024,
-		80012025,
-		80012026,
-		80012027,
-		80012028,
-		80012029,
-		80012030,
-		100010001,
-		100010101,
-		100010201,
-		100010301,
-		100010401,
-		100010501,
-		100010601,
-		100010701,
-		100010711,
-		100010801,
-		100010901,
-		100011001,
-		100011101,
-		100011201,
-		100011301,
-		100011401,
-		100011411,
-		100011501,
-		100011511,
-		100011601,
-		100011701,
-		100011801,
-		100020101,
-		100020201,
-		100020301,
-		100020311,
-		100020321,
-		100020401,
-		100020501,
-		100020511,
-		100020601,
-		100020701,
-		100020801,
-		100020811,
-		100020901,
-		100021001,
-		100021101,
-		100021201,
-		100021301,
-		100021311,
-		100021401,
-		100021411,
-		100021501,
-		100021601,
-		100021701,
-		100021801,
-		100021901,
-		100022001,
-		100022101,
-		100022111,
-		100022201,
-		100022301,
-		100022302,
-		100022303,
-		100022401,
-		100022402,
-		100022403,
-		100022404,
-		100022501,
-		100022502,
-		100022503,
-		100022504,
-		100022505,
-		100022511,
-		100022601,
-		100022701,
-		100022711,
-		100022801,
-		100022901,
-		100023001,
-		100023101,
-		100023201,
-		100023301,
-		100023401,
-		100023402,
-		100023501,
-		100023601,
-		100023701,
-		100023801,
-		100030101,
-		100030111,
-		100030201,
-		100030301,
-		100030401,
-		100030501,
-		100030511,
-		100030601,
-		100030701,
-		100030801,
-		100030901,
-		100030911,
-		100031001,
-		100031101,
-		100040101,
-		100040201,
-		100040301,
-		200010011,
-		200010021,
-		200010031,
-		200010041,
-		200010051,
-		200010061,
-		200010071,
-		200010081,
-		200010091,
-		200020011,
-		200020021,
-		200020031,
-		200020041,
-		200020051,
-		200020061,
-		200030011,
-		200030021,
-		200030031,
-		200030041,
-		200040000,
-		200040011,
-		200040021,
-		200040031,
-		200050011,
-		200050021,
-		200050031,
-		200050041,
-		200050051,
-		200050061,
-		200050071,
-		200050081,
-		200050091,
-		200060011,
-		200060021,
-		200060031,
-		200060041,
-		200060051,
-		200060061,
-		200060071,
-		200060072,
-		200060073,
-		200060081,
-		200060091,
-		200070011,
-		200070021,
-		200070031,
-		200070041,
-		200070051,
-		200070061,
-		200070062,
-		200070071,
-		200070081,
-		200070091,
-		200070101,
-		200080011,
-		200080021,
-		200080031,
-		200080041,
-		200090011,
-		200090021,
-		200090031,
-		200090041,
-		200100011,
-		200100021,
-		200100031,
-		200100041,
-		200100051,
-		200100061,
-		200100071,
-		200100081,
-		200110011,
-		200110021,
-		200110031,
-		200110041,
-		200110042,
-		200110051,
-		200110052,
-		200120011,
-		200120021,
-		200120031,
-		200120041,
-		200120051,
-		200120061,
-		200120071,
-		200120081,
-		200120091,
-		200120101,
-		200130000,
-		200130011,
-		200130021,
-		200130031,
-		200130041,
-		200130051,
-		200130061,
-		200130071,
-		200130081,
-		200140011,
-		200140012,
-		200140013,
-		200140014,
-		200140015,
-		200140021,
-		200140031,
-		200150011,
-		200150021,
-		200160011,
-		200160012,
-		200160013,
-		200160041,
-		200160042,
-		200160043,
-		200170011,
-		200170021,
-		200170031,
-		301010011,
-		302010011,
-		303010011,
-		304010011,
-		305010011,
-		305010021,
-		305010022,
-		305010023,
-		305010111,
-		305010121,
-		305010122,
-		305010123,
-		305010211,
-		305010221,
-		305010222,
-		305010223,
-		305010311,
-		305010321,
-		305010322,
-		305010323,
-		305020011,
-		305020021,
-		305020022,
-		305020023,
-		305020111,
-		305020121,
-		305020122,
-		305020123,
-		305020211,
-		305020221,
-		305020222,
-		305020223,
-		305020311,
-		305020321,
-		305020322,
-		305020323,
-		305040011,
-		305050011,
-		305080011,
-		306010011,
-		307010011,
-		307020011,
-		307030011,
-		307040011,
-		307050011,
-		307060011,
-		300000011,
-		300000021,
-		300000031,
-		300000041,
-		300000051,
-		300000061,
-		300000071,
-		300000072,
-		300000073,
-		300000081,
-		401010011,
-		401020011,
-		401030011,
-		401040011,
-		401050011,
-		401060011,
-		401070011,
-		401080011,
-		401090011,
-		401100011,
-		402010011,
-		403010011,
-		404010011,
-		405010011,
-		406010011,
-		900010011,
-		900010021,
-		900010031,
-		900010041,
-		900010051,
-		900010061,
-		900010071,
-		900010081,
-		900010091,
-		900010101,
-		900010111,
-		900010121,
-		900010201
-	}
-}, confHX)
+pg.island_task_target = rawget(pg, "island_task_target") or setmetatable({
+	__name = "island_task_target"
+}, confNEO)
+pg.island_task_target.__namecode__ = true
+pg.island_task_target.all = {
+	101,
+	201,
+	301,
+	302,
+	401,
+	501,
+	502,
+	601,
+	602,
+	701,
+	702,
+	901,
+	902,
+	903,
+	40005,
+	500000011,
+	500000021,
+	510010001,
+	510010011,
+	510010012,
+	510010013,
+	510010014,
+	510020001,
+	510020011,
+	510020012,
+	510020013,
+	510020014,
+	510030001,
+	510030011,
+	510030012,
+	510030013,
+	510030014,
+	50001001,
+	50001002,
+	50001003,
+	50001004,
+	50001005,
+	50001006,
+	50001007,
+	50001008,
+	50001009,
+	50001010,
+	50001011,
+	50001012,
+	50001013,
+	50001014,
+	50002001,
+	50002002,
+	50002003,
+	50002004,
+	50002005,
+	50002006,
+	50002007,
+	50002008,
+	50002009,
+	50002010,
+	50002011,
+	50002012,
+	50002013,
+	50002014,
+	50003001,
+	50003002,
+	50003003,
+	50003004,
+	50003005,
+	50003006,
+	50003007,
+	50003008,
+	80010001,
+	80010002,
+	80010003,
+	80010004,
+	80010005,
+	80010006,
+	80010007,
+	80010008,
+	80010009,
+	80010010,
+	80010011,
+	80010012,
+	80010013,
+	80010014,
+	80010015,
+	80010016,
+	80010017,
+	80010018,
+	80010019,
+	80010020,
+	80010021,
+	80010022,
+	80010023,
+	80010024,
+	80010025,
+	80010026,
+	80010027,
+	80010028,
+	80010029,
+	80010030,
+	80011001,
+	80011002,
+	80011003,
+	80011004,
+	80011005,
+	80011006,
+	80011007,
+	80011008,
+	80011009,
+	80011010,
+	80011011,
+	80011012,
+	80011013,
+	80011014,
+	80011015,
+	80011016,
+	80011017,
+	80011018,
+	80011019,
+	80011020,
+	80011021,
+	80011022,
+	80011023,
+	80011024,
+	80011025,
+	80011026,
+	80011027,
+	80011028,
+	80011029,
+	80011030,
+	80012001,
+	80012002,
+	80012003,
+	80012004,
+	80012005,
+	80012006,
+	80012007,
+	80012008,
+	80012009,
+	80012010,
+	80012011,
+	80012012,
+	80012013,
+	80012014,
+	80012015,
+	80012016,
+	80012017,
+	80012018,
+	80012019,
+	80012020,
+	80012021,
+	80012022,
+	80012023,
+	80012024,
+	80012025,
+	80012026,
+	80012027,
+	80012028,
+	80012029,
+	80012030,
+	100010001,
+	100010101,
+	100010201,
+	100010301,
+	100010401,
+	100010501,
+	100010601,
+	100010701,
+	100010711,
+	100010801,
+	100010901,
+	100011001,
+	100011101,
+	100011201,
+	100011301,
+	100011401,
+	100011411,
+	100011501,
+	100011511,
+	100011601,
+	100011701,
+	100011801,
+	100020101,
+	100020201,
+	100020301,
+	100020311,
+	100020321,
+	100020401,
+	100020501,
+	100020511,
+	100020601,
+	100020701,
+	100020801,
+	100020811,
+	100020901,
+	100021001,
+	100021101,
+	100021201,
+	100021301,
+	100021311,
+	100021401,
+	100021411,
+	100021501,
+	100021601,
+	100021701,
+	100021801,
+	100021901,
+	100022001,
+	100022101,
+	100022111,
+	100022201,
+	100022301,
+	100022302,
+	100022303,
+	100022401,
+	100022402,
+	100022403,
+	100022404,
+	100022501,
+	100022502,
+	100022503,
+	100022504,
+	100022505,
+	100022511,
+	100022601,
+	100022701,
+	100022711,
+	100022801,
+	100022901,
+	100023001,
+	100023101,
+	100023201,
+	100023301,
+	100023401,
+	100023402,
+	100023501,
+	100023601,
+	100023701,
+	100023801,
+	100030101,
+	100030111,
+	100030201,
+	100030301,
+	100030401,
+	100030501,
+	100030511,
+	100030601,
+	100030701,
+	100030801,
+	100030901,
+	100030911,
+	100031001,
+	100031101,
+	100040101,
+	100040201,
+	100040301,
+	200010011,
+	200010021,
+	200010031,
+	200010041,
+	200010051,
+	200010061,
+	200010071,
+	200010081,
+	200010091,
+	200020011,
+	200020021,
+	200020031,
+	200020041,
+	200020051,
+	200020061,
+	200030011,
+	200030021,
+	200030031,
+	200030041,
+	200040000,
+	200040011,
+	200040021,
+	200040031,
+	200050011,
+	200050021,
+	200050031,
+	200050041,
+	200050051,
+	200050061,
+	200050071,
+	200050081,
+	200050091,
+	200060011,
+	200060021,
+	200060031,
+	200060041,
+	200060051,
+	200060061,
+	200060071,
+	200060072,
+	200060073,
+	200060081,
+	200060091,
+	200070011,
+	200070021,
+	200070031,
+	200070041,
+	200070051,
+	200070061,
+	200070062,
+	200070071,
+	200070081,
+	200070091,
+	200070101,
+	200080011,
+	200080021,
+	200080031,
+	200080041,
+	200090011,
+	200090021,
+	200090031,
+	200090041,
+	200100011,
+	200100021,
+	200100031,
+	200100041,
+	200100051,
+	200100061,
+	200100071,
+	200100081,
+	200110011,
+	200110021,
+	200110031,
+	200110041,
+	200110042,
+	200110051,
+	200110052,
+	200120011,
+	200120021,
+	200120031,
+	200120041,
+	200120051,
+	200120061,
+	200120071,
+	200120081,
+	200120091,
+	200120101,
+	200130000,
+	200130011,
+	200130021,
+	200130031,
+	200130041,
+	200130051,
+	200130061,
+	200130071,
+	200130081,
+	200140011,
+	200140012,
+	200140013,
+	200140014,
+	200140015,
+	200140021,
+	200140031,
+	200150011,
+	200150021,
+	200160011,
+	200160012,
+	200160013,
+	200160041,
+	200160042,
+	200160043,
+	200170011,
+	200170021,
+	200170031,
+	301010011,
+	302010011,
+	303010011,
+	304010011,
+	305010011,
+	305010021,
+	305010022,
+	305010023,
+	305010111,
+	305010121,
+	305010122,
+	305010123,
+	305010211,
+	305010221,
+	305010222,
+	305010223,
+	305010311,
+	305010321,
+	305010322,
+	305010323,
+	305020011,
+	305020021,
+	305020022,
+	305020023,
+	305020111,
+	305020121,
+	305020122,
+	305020123,
+	305020211,
+	305020221,
+	305020222,
+	305020223,
+	305020311,
+	305020321,
+	305020322,
+	305020323,
+	305040011,
+	305050011,
+	305080011,
+	306010011,
+	307010011,
+	307020011,
+	307030011,
+	307040011,
+	307050011,
+	307060011,
+	300000011,
+	300000021,
+	300000031,
+	300000041,
+	300000051,
+	300000061,
+	300000071,
+	300000072,
+	300000073,
+	300000081,
+	401010011,
+	401020011,
+	401030011,
+	401040011,
+	401050011,
+	401060011,
+	401070011,
+	401080011,
+	401090011,
+	401100011,
+	402010011,
+	403010011,
+	404010011,
+	405010011,
+	406010011,
+	900010011,
+	900010021,
+	900010031,
+	900010041,
+	900010051,
+	900010061,
+	900010071,
+	900010081,
+	900010091,
+	900010101,
+	900010111,
+	900010121,
+	900010201
+}
 pg.base = pg.base or {}
-pg.base.island_task_target = {
-	[101] = {
+pg.base.island_task_target = {}
+
+(function ()
+	pg.base.island_task_target[101] = {
 		tips = "10040022",
 		jump_ui = "",
 		name = "与{namecode:98:明石}互动",
@@ -468,8 +471,8 @@ pg.base.island_task_target = {
 		target_param = {
 			10030006
 		}
-	},
-	[201] = {
+	}
+	pg.base.island_task_target[201] = {
 		tips = "10040022",
 		jump_ui = "",
 		name = "到达目标区域",
@@ -479,8 +482,8 @@ pg.base.island_task_target = {
 		target_param = {
 			10010021
 		}
-	},
-	[301] = {
+	}
+	pg.base.island_task_target[301] = {
 		tips = "order",
 		jump_ui = "",
 		name = "完成订单1",
@@ -488,8 +491,8 @@ pg.base.island_task_target = {
 		id = 301,
 		target_num = 1,
 		target_param = ""
-	},
-	[302] = {
+	}
+	pg.base.island_task_target[302] = {
 		tips = "order",
 		jump_ui = "",
 		name = "完成订单2",
@@ -499,8 +502,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2
 		}
-	},
-	[401] = {
+	}
+	pg.base.island_task_target[401] = {
 		tips = "",
 		jump_ui = "",
 		name = "回收道具",
@@ -510,8 +513,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1001
 		}
-	},
-	[501] = {
+	}
+	pg.base.island_task_target[501] = {
 		tips = "",
 		jump_ui = "",
 		name = "获得任意道具",
@@ -519,8 +522,8 @@ pg.base.island_task_target = {
 		id = 501,
 		target_num = 20,
 		target_param = ""
-	},
-	[502] = {
+	}
+	pg.base.island_task_target[502] = {
 		tips = "",
 		jump_ui = "",
 		name = "获得指定道具",
@@ -530,8 +533,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1001
 		}
-	},
-	[601] = {
+	}
+	pg.base.island_task_target[601] = {
 		tips = "",
 		jump_ui = "",
 		name = "任意配方手动完成",
@@ -539,8 +542,8 @@ pg.base.island_task_target = {
 		id = 601,
 		target_num = 1,
 		target_param = ""
-	},
-	[602] = {
+	}
+	pg.base.island_task_target[602] = {
 		tips = "",
 		jump_ui = "",
 		name = "指定配方手动完成",
@@ -550,8 +553,8 @@ pg.base.island_task_target = {
 		target_param = {
 			101001
 		}
-	},
-	[701] = {
+	}
+	pg.base.island_task_target[701] = {
 		tips = "",
 		jump_ui = "",
 		name = "任意配方委派完成",
@@ -559,8 +562,8 @@ pg.base.island_task_target = {
 		id = 701,
 		target_num = 1,
 		target_param = ""
-	},
-	[702] = {
+	}
+	pg.base.island_task_target[702] = {
 		tips = "",
 		jump_ui = "",
 		name = "指定配方委派完成",
@@ -570,8 +573,8 @@ pg.base.island_task_target = {
 		target_param = {
 			101001
 		}
-	},
-	[901] = {
+	}
+	pg.base.island_task_target[901] = {
 		tips = "",
 		jump_ui = "",
 		name = "请先达到指定岛屿开发等级",
@@ -579,8 +582,8 @@ pg.base.island_task_target = {
 		id = 901,
 		target_num = 10,
 		target_param = ""
-	},
-	[902] = {
+	}
+	pg.base.island_task_target[902] = {
 		tips = "",
 		jump_ui = "",
 		name = "请先达到指定岛屿开发等级",
@@ -588,8 +591,8 @@ pg.base.island_task_target = {
 		id = 902,
 		target_num = 4,
 		target_param = ""
-	},
-	[903] = {
+	}
+	pg.base.island_task_target[903] = {
 		tips = "",
 		jump_ui = "",
 		name = "请先达到指定岛屿开发等级",
@@ -597,8 +600,8 @@ pg.base.island_task_target = {
 		id = 903,
 		target_num = 8,
 		target_param = ""
-	},
-	[40005] = {
+	}
+	pg.base.island_task_target[40005] = {
 		tips = "",
 		jump_ui = "",
 		name = "偿还贷款",
@@ -608,8 +611,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1
 		}
-	},
-	[500000011] = {
+	}
+	pg.base.island_task_target[500000011] = {
 		tips = "10020025",
 		jump_ui = "",
 		name = "去找佩芮吧",
@@ -619,8 +622,8 @@ pg.base.island_task_target = {
 		target_param = {
 			5822
 		}
-	},
-	[500000021] = {
+	}
+	pg.base.island_task_target[500000021] = {
 		tips = "10020025",
 		jump_ui = "",
 		name = "向佩芮了解情况",
@@ -630,8 +633,8 @@ pg.base.island_task_target = {
 		target_param = {
 			5826
 		}
-	},
-	[510010001] = {
+	}
+	pg.base.island_task_target[510010001] = {
 		tips = "",
 		jump_ui = "",
 		name = "特殊道具-TB",
@@ -641,8 +644,8 @@ pg.base.island_task_target = {
 		target_param = {
 			12
 		}
-	},
-	[510010011] = {
+	}
+	pg.base.island_task_target[510010011] = {
 		tips = "",
 		jump_ui = "",
 		name = "采集任意木材",
@@ -652,8 +655,8 @@ pg.base.island_task_target = {
 		target_param = {
 			402
 		}
-	},
-	[510010012] = {
+	}
+	pg.base.island_task_target[510010012] = {
 		tips = "10090008",
 		jump_ui = "",
 		name = "委派制作欧姆蛋",
@@ -663,8 +666,8 @@ pg.base.island_task_target = {
 		target_param = {
 			901001
 		}
-	},
-	[510010013] = {
+	}
+	pg.base.island_task_target[510010013] = {
 		tips = "10010003",
 		jump_ui = "",
 		name = "委派生产牛奶",
@@ -674,8 +677,8 @@ pg.base.island_task_target = {
 		target_param = {
 			101016
 		}
-	},
-	[510010014] = {
+	}
+	pg.base.island_task_target[510010014] = {
 		tips = "10060002",
 		jump_ui = "",
 		name = "营业收入达到",
@@ -685,8 +688,8 @@ pg.base.island_task_target = {
 		target_param = {
 			0
 		}
-	},
-	[510020001] = {
+	}
+	pg.base.island_task_target[510020001] = {
 		tips = "",
 		jump_ui = "",
 		name = "回收特殊道具-娜比娅",
@@ -696,8 +699,8 @@ pg.base.island_task_target = {
 		target_param = {
 			11
 		}
-	},
-	[510020011] = {
+	}
+	pg.base.island_task_target[510020011] = {
 		tips = "10010040",
 		jump_ui = "",
 		name = "收获任意农田作物",
@@ -707,8 +710,8 @@ pg.base.island_task_target = {
 		target_param = {
 			101
 		}
-	},
-	[510020012] = {
+	}
+	pg.base.island_task_target[510020012] = {
 		tips = "10050003",
 		jump_ui = "",
 		name = "委派生产草莓",
@@ -718,8 +721,8 @@ pg.base.island_task_target = {
 		target_param = {
 			502002
 		}
-	},
-	[510020013] = {
+	}
+	pg.base.island_task_target[510020013] = {
 		tips = "",
 		jump_ui = "",
 		name = "抚摸猫咪",
@@ -729,8 +732,8 @@ pg.base.island_task_target = {
 		target_param = {
 			6201
 		}
-	},
-	[510020014] = {
+	}
+	pg.base.island_task_target[510020014] = {
 		tips = "",
 		jump_ui = "",
 		name = "研发工业生产设备",
@@ -740,8 +743,8 @@ pg.base.island_task_target = {
 		target_param = {
 			640001
 		}
-	},
-	[510030001] = {
+	}
+	pg.base.island_task_target[510030001] = {
 		tips = "",
 		jump_ui = "",
 		name = "道具-艾普洛",
@@ -751,8 +754,8 @@ pg.base.island_task_target = {
 		target_param = {
 			13
 		}
-	},
-	[510030011] = {
+	}
+	pg.base.island_task_target[510030011] = {
 		tips = "10020009",
 		jump_ui = "",
 		name = "交付任意岛屿订单",
@@ -760,8 +763,8 @@ pg.base.island_task_target = {
 		id = 510030011,
 		target_num = 3,
 		target_param = ""
-	},
-	[510030012] = {
+	}
+	pg.base.island_task_target[510030012] = {
 		tips = "10010003",
 		jump_ui = "",
 		name = "委派生产任意牧场产品",
@@ -771,8 +774,8 @@ pg.base.island_task_target = {
 		target_param = {
 			102
 		}
-	},
-	[510030013] = {
+	}
+	pg.base.island_task_target[510030013] = {
 		tips = "10020085",
 		jump_ui = "",
 		name = "完成钓鱼",
@@ -780,8 +783,8 @@ pg.base.island_task_target = {
 		id = 510030013,
 		target_num = 1,
 		target_param = ""
-	},
-	[510030014] = {
+	}
+	pg.base.island_task_target[510030014] = {
 		tips = "10060002",
 		jump_ui = "",
 		name = "完成营业",
@@ -789,8 +792,8 @@ pg.base.island_task_target = {
 		id = 510030014,
 		target_num = 1,
 		target_param = ""
-	},
-	[50001001] = {
+	}
+	pg.base.island_task_target[50001001] = {
 		tips = "",
 		jump_ui = "",
 		name = "累计采集秋季特产",
@@ -800,8 +803,8 @@ pg.base.island_task_target = {
 		target_param = {
 			990003
 		}
-	},
-	[50001002] = {
+	}
+	pg.base.island_task_target[50001002] = {
 		tips = "",
 		jump_ui = "",
 		name = "累计采集秋季特产",
@@ -811,8 +814,8 @@ pg.base.island_task_target = {
 		target_param = {
 			990003
 		}
-	},
-	[50001003] = {
+	}
+	pg.base.island_task_target[50001003] = {
 		tips = "",
 		jump_ui = "",
 		name = "累计采集秋季特产",
@@ -822,8 +825,8 @@ pg.base.island_task_target = {
 		target_param = {
 			990003
 		}
-	},
-	[50001004] = {
+	}
+	pg.base.island_task_target[50001004] = {
 		tips = "",
 		jump_ui = "",
 		name = "累计采集秋季特产",
@@ -833,8 +836,8 @@ pg.base.island_task_target = {
 		target_param = {
 			990003
 		}
-	},
-	[50001005] = {
+	}
+	pg.base.island_task_target[50001005] = {
 		tips = "",
 		jump_ui = "",
 		name = "累计采集秋季特产",
@@ -844,8 +847,8 @@ pg.base.island_task_target = {
 		target_param = {
 			990003
 		}
-	},
-	[50001006] = {
+	}
+	pg.base.island_task_target[50001006] = {
 		tips = "",
 		jump_ui = "",
 		name = "累计采集秋季特产",
@@ -855,8 +858,8 @@ pg.base.island_task_target = {
 		target_param = {
 			990003
 		}
-	},
-	[50001007] = {
+	}
+	pg.base.island_task_target[50001007] = {
 		tips = "",
 		jump_ui = "",
 		name = "累计采集秋季特产",
@@ -866,8 +869,8 @@ pg.base.island_task_target = {
 		target_param = {
 			990003
 		}
-	},
-	[50001008] = {
+	}
+	pg.base.island_task_target[50001008] = {
 		tips = "",
 		jump_ui = "",
 		name = "累计采集春季特产",
@@ -877,8 +880,8 @@ pg.base.island_task_target = {
 		target_param = {
 			990007
 		}
-	},
-	[50001009] = {
+	}
+	pg.base.island_task_target[50001009] = {
 		tips = "",
 		jump_ui = "",
 		name = "累计采集春季特产",
@@ -888,8 +891,8 @@ pg.base.island_task_target = {
 		target_param = {
 			990007
 		}
-	},
-	[50001010] = {
+	}
+	pg.base.island_task_target[50001010] = {
 		tips = "",
 		jump_ui = "",
 		name = "累计采集春季特产",
@@ -899,8 +902,8 @@ pg.base.island_task_target = {
 		target_param = {
 			990007
 		}
-	},
-	[50001011] = {
+	}
+	pg.base.island_task_target[50001011] = {
 		tips = "",
 		jump_ui = "",
 		name = "累计采集春季特产",
@@ -910,8 +913,8 @@ pg.base.island_task_target = {
 		target_param = {
 			990007
 		}
-	},
-	[50001012] = {
+	}
+	pg.base.island_task_target[50001012] = {
 		tips = "",
 		jump_ui = "",
 		name = "累计采集春季特产",
@@ -921,8 +924,8 @@ pg.base.island_task_target = {
 		target_param = {
 			990007
 		}
-	},
-	[50001013] = {
+	}
+	pg.base.island_task_target[50001013] = {
 		tips = "",
 		jump_ui = "",
 		name = "累计采集春季特产",
@@ -932,8 +935,8 @@ pg.base.island_task_target = {
 		target_param = {
 			990007
 		}
-	},
-	[50001014] = {
+	}
+	pg.base.island_task_target[50001014] = {
 		tips = "",
 		jump_ui = "",
 		name = "累计采集春季特产",
@@ -943,8 +946,8 @@ pg.base.island_task_target = {
 		target_param = {
 			990007
 		}
-	},
-	[50002001] = {
+	}
+	pg.base.island_task_target[50002001] = {
 		tips = "",
 		jump_ui = "",
 		name = "累计制作秋季特产",
@@ -961,8 +964,8 @@ pg.base.island_task_target = {
 			4013,
 			4014
 		}
-	},
-	[50002002] = {
+	}
+	pg.base.island_task_target[50002002] = {
 		tips = "",
 		jump_ui = "",
 		name = "累计制作秋季特产",
@@ -979,8 +982,8 @@ pg.base.island_task_target = {
 			4013,
 			4014
 		}
-	},
-	[50002003] = {
+	}
+	pg.base.island_task_target[50002003] = {
 		tips = "",
 		jump_ui = "",
 		name = "累计制作秋季特产",
@@ -997,8 +1000,8 @@ pg.base.island_task_target = {
 			4013,
 			4014
 		}
-	},
-	[50002004] = {
+	}
+	pg.base.island_task_target[50002004] = {
 		tips = "",
 		jump_ui = "",
 		name = "累计制作秋季特产",
@@ -1015,8 +1018,8 @@ pg.base.island_task_target = {
 			4013,
 			4014
 		}
-	},
-	[50002005] = {
+	}
+	pg.base.island_task_target[50002005] = {
 		tips = "",
 		jump_ui = "",
 		name = "累计制作秋季特产",
@@ -1033,8 +1036,8 @@ pg.base.island_task_target = {
 			4013,
 			4014
 		}
-	},
-	[50002006] = {
+	}
+	pg.base.island_task_target[50002006] = {
 		tips = "",
 		jump_ui = "",
 		name = "累计制作秋季特产",
@@ -1051,8 +1054,8 @@ pg.base.island_task_target = {
 			4013,
 			4014
 		}
-	},
-	[50002007] = {
+	}
+	pg.base.island_task_target[50002007] = {
 		tips = "",
 		jump_ui = "",
 		name = "累计制作秋季特产",
@@ -1069,8 +1072,8 @@ pg.base.island_task_target = {
 			4013,
 			4014
 		}
-	},
-	[50002008] = {
+	}
+	pg.base.island_task_target[50002008] = {
 		tips = "",
 		jump_ui = "",
 		name = "累计制作春季特产",
@@ -1087,8 +1090,8 @@ pg.base.island_task_target = {
 			4027,
 			4028
 		}
-	},
-	[50002009] = {
+	}
+	pg.base.island_task_target[50002009] = {
 		tips = "",
 		jump_ui = "",
 		name = "累计制作春季特产",
@@ -1105,8 +1108,8 @@ pg.base.island_task_target = {
 			4027,
 			4028
 		}
-	},
-	[50002010] = {
+	}
+	pg.base.island_task_target[50002010] = {
 		tips = "",
 		jump_ui = "",
 		name = "累计制作春季特产",
@@ -1123,8 +1126,8 @@ pg.base.island_task_target = {
 			4027,
 			4028
 		}
-	},
-	[50002011] = {
+	}
+	pg.base.island_task_target[50002011] = {
 		tips = "",
 		jump_ui = "",
 		name = "累计制作春季特产",
@@ -1141,8 +1144,8 @@ pg.base.island_task_target = {
 			4027,
 			4028
 		}
-	},
-	[50002012] = {
+	}
+	pg.base.island_task_target[50002012] = {
 		tips = "",
 		jump_ui = "",
 		name = "累计制作春季特产",
@@ -1159,8 +1162,8 @@ pg.base.island_task_target = {
 			4027,
 			4028
 		}
-	},
-	[50002013] = {
+	}
+	pg.base.island_task_target[50002013] = {
 		tips = "",
 		jump_ui = "",
 		name = "累计制作春季特产",
@@ -1177,8 +1180,8 @@ pg.base.island_task_target = {
 			4027,
 			4028
 		}
-	},
-	[50002014] = {
+	}
+	pg.base.island_task_target[50002014] = {
 		tips = "",
 		jump_ui = "",
 		name = "累计制作春季特产",
@@ -1195,8 +1198,8 @@ pg.base.island_task_target = {
 			4027,
 			4028
 		}
-	},
-	[50003001] = {
+	}
+	pg.base.island_task_target[50003001] = {
 		tips = "",
 		jump_ui = "",
 		name = "累计完成秋季特产订单",
@@ -1206,8 +1209,8 @@ pg.base.island_task_target = {
 		target_param = {
 			990002
 		}
-	},
-	[50003002] = {
+	}
+	pg.base.island_task_target[50003002] = {
 		tips = "",
 		jump_ui = "",
 		name = "累计完成秋季特产订单",
@@ -1217,8 +1220,8 @@ pg.base.island_task_target = {
 		target_param = {
 			990002
 		}
-	},
-	[50003003] = {
+	}
+	pg.base.island_task_target[50003003] = {
 		tips = "",
 		jump_ui = "",
 		name = "累计完成秋季特产订单",
@@ -1228,8 +1231,8 @@ pg.base.island_task_target = {
 		target_param = {
 			990002
 		}
-	},
-	[50003004] = {
+	}
+	pg.base.island_task_target[50003004] = {
 		tips = "",
 		jump_ui = "",
 		name = "累计完成秋季特产订单",
@@ -1239,8 +1242,8 @@ pg.base.island_task_target = {
 		target_param = {
 			990002
 		}
-	},
-	[50003005] = {
+	}
+	pg.base.island_task_target[50003005] = {
 		tips = "",
 		jump_ui = "",
 		name = "累计完成春季特产订单",
@@ -1250,8 +1253,8 @@ pg.base.island_task_target = {
 		target_param = {
 			990006
 		}
-	},
-	[50003006] = {
+	}
+	pg.base.island_task_target[50003006] = {
 		tips = "",
 		jump_ui = "",
 		name = "累计完成春季特产订单",
@@ -1261,8 +1264,8 @@ pg.base.island_task_target = {
 		target_param = {
 			990006
 		}
-	},
-	[50003007] = {
+	}
+	pg.base.island_task_target[50003007] = {
 		tips = "",
 		jump_ui = "",
 		name = "累计完成春季特产订单",
@@ -1272,8 +1275,8 @@ pg.base.island_task_target = {
 		target_param = {
 			990006
 		}
-	},
-	[50003008] = {
+	}
+	pg.base.island_task_target[50003008] = {
 		tips = "",
 		jump_ui = "",
 		name = "累计完成春季特产订单",
@@ -1283,8 +1286,8 @@ pg.base.island_task_target = {
 		target_param = {
 			990006
 		}
-	},
-	[80010001] = {
+	}
+	pg.base.island_task_target[80010001] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交小麦*500",
@@ -1294,8 +1297,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2000
 		}
-	},
-	[80010002] = {
+	}
+	pg.base.island_task_target[80010002] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交牧草*500",
@@ -1305,8 +1308,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2008
 		}
-	},
-	[80010003] = {
+	}
+	pg.base.island_task_target[80010003] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交大豆*500",
@@ -1316,8 +1319,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2006
 		}
-	},
-	[80010004] = {
+	}
+	pg.base.island_task_target[80010004] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交大米*500",
@@ -1327,8 +1330,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2002
 		}
-	},
-	[80010005] = {
+	}
+	pg.base.island_task_target[80010005] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交玉米*500",
@@ -1338,8 +1341,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2001
 		}
-	},
-	[80010006] = {
+	}
+	pg.base.island_task_target[80010006] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交胡萝卜*250",
@@ -1349,8 +1352,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2004
 		}
-	},
-	[80010007] = {
+	}
+	pg.base.island_task_target[80010007] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交牛奶*250",
@@ -1360,8 +1363,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2603
 		}
-	},
-	[80010008] = {
+	}
+	pg.base.island_task_target[80010008] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交苹果派*250",
@@ -1371,8 +1374,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3009
 		}
-	},
-	[80010009] = {
+	}
+	pg.base.island_task_target[80010009] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交冰咖啡*250",
@@ -1382,8 +1385,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3005
 		}
-	},
-	[80010010] = {
+	}
+	pg.base.island_task_target[80010010] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交炭烤肉串*250",
@@ -1393,8 +1396,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3029
 		}
-	},
-	[80010011] = {
+	}
+	pg.base.island_task_target[80010011] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交洋葱*100",
@@ -1404,8 +1407,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2007
 		}
-	},
-	[80010012] = {
+	}
+	pg.base.island_task_target[80010012] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交蔬菜沙拉*100",
@@ -1415,8 +1418,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3015
 		}
-	},
-	[80010013] = {
+	}
+	pg.base.island_task_target[80010013] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交肉末烧豆腐*100",
@@ -1426,8 +1429,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3012
 		}
-	},
-	[80010014] = {
+	}
+	pg.base.island_task_target[80010014] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交拿铁*100",
@@ -1437,8 +1440,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3007
 		}
-	},
-	[80010015] = {
+	}
+	pg.base.island_task_target[80010015] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交爆炒禽肉*100",
@@ -1448,8 +1451,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3032
 		}
-	},
-	[80010016] = {
+	}
+	pg.base.island_task_target[80010016] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交汉堡肉饭*50",
@@ -1459,8 +1462,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3034
 		}
-	},
-	[80010017] = {
+	}
+	pg.base.island_task_target[80010017] = {
 		tips = "",
 		jump_ui = "",
 		name = "接收1次日常补给",
@@ -1468,8 +1471,8 @@ pg.base.island_task_target = {
 		id = 80010017,
 		target_num = 1,
 		target_param = ""
-	},
-	[80010018] = {
+	}
+	pg.base.island_task_target[80010018] = {
 		tips = "",
 		jump_ui = "",
 		name = "接收5次日常补给",
@@ -1477,8 +1480,8 @@ pg.base.island_task_target = {
 		id = 80010018,
 		target_num = 5,
 		target_param = ""
-	},
-	[80010019] = {
+	}
+	pg.base.island_task_target[80010019] = {
 		tips = "",
 		jump_ui = "",
 		name = "接收10次日常补给",
@@ -1486,8 +1489,8 @@ pg.base.island_task_target = {
 		id = 80010019,
 		target_num = 10,
 		target_param = ""
-	},
-	[80010020] = {
+	}
+	pg.base.island_task_target[80010020] = {
 		tips = "",
 		jump_ui = "",
 		name = "接收20次日常补给",
@@ -1495,8 +1498,8 @@ pg.base.island_task_target = {
 		id = 80010020,
 		target_num = 20,
 		target_param = ""
-	},
-	[80010021] = {
+	}
+	pg.base.island_task_target[80010021] = {
 		tips = "",
 		jump_ui = "",
 		name = "接收30次日常补给",
@@ -1504,8 +1507,8 @@ pg.base.island_task_target = {
 		id = 80010021,
 		target_num = 30,
 		target_param = ""
-	},
-	[80010022] = {
+	}
+	pg.base.island_task_target[80010022] = {
 		tips = "",
 		jump_ui = "",
 		name = "接收45次日常补给",
@@ -1513,8 +1516,8 @@ pg.base.island_task_target = {
 		id = 80010022,
 		target_num = 45,
 		target_param = ""
-	},
-	[80010023] = {
+	}
+	pg.base.island_task_target[80010023] = {
 		tips = "",
 		jump_ui = "",
 		name = "接收60次日常补给",
@@ -1522,8 +1525,8 @@ pg.base.island_task_target = {
 		id = 80010023,
 		target_num = 60,
 		target_param = ""
-	},
-	[80010024] = {
+	}
+	pg.base.island_task_target[80010024] = {
 		tips = "",
 		jump_ui = "",
 		name = "交付10次岛屿订单",
@@ -1531,8 +1534,8 @@ pg.base.island_task_target = {
 		id = 80010024,
 		target_num = 10,
 		target_param = ""
-	},
-	[80010025] = {
+	}
+	pg.base.island_task_target[80010025] = {
 		tips = "",
 		jump_ui = "",
 		name = "交付30次岛屿订单",
@@ -1540,8 +1543,8 @@ pg.base.island_task_target = {
 		id = 80010025,
 		target_num = 30,
 		target_param = ""
-	},
-	[80010026] = {
+	}
+	pg.base.island_task_target[80010026] = {
 		tips = "",
 		jump_ui = "",
 		name = "交付50次岛屿订单",
@@ -1549,8 +1552,8 @@ pg.base.island_task_target = {
 		id = 80010026,
 		target_num = 50,
 		target_param = ""
-	},
-	[80010027] = {
+	}
+	pg.base.island_task_target[80010027] = {
 		tips = "",
 		jump_ui = "",
 		name = "交付100次岛屿订单",
@@ -1558,8 +1561,8 @@ pg.base.island_task_target = {
 		id = 80010027,
 		target_num = 100,
 		target_param = ""
-	},
-	[80010028] = {
+	}
+	pg.base.island_task_target[80010028] = {
 		tips = "",
 		jump_ui = "",
 		name = "交付150次岛屿订单",
@@ -1567,8 +1570,8 @@ pg.base.island_task_target = {
 		id = 80010028,
 		target_num = 150,
 		target_param = ""
-	},
-	[80010029] = {
+	}
+	pg.base.island_task_target[80010029] = {
 		tips = "",
 		jump_ui = "",
 		name = "交付200次岛屿订单",
@@ -1576,8 +1579,8 @@ pg.base.island_task_target = {
 		id = 80010029,
 		target_num = 200,
 		target_param = ""
-	},
-	[80010030] = {
+	}
+	pg.base.island_task_target[80010030] = {
 		tips = "",
 		jump_ui = "",
 		name = "交付300次岛屿订单",
@@ -1585,8 +1588,8 @@ pg.base.island_task_target = {
 		id = 80010030,
 		target_num = 300,
 		target_param = ""
-	},
-	[80011001] = {
+	}
+	pg.base.island_task_target[80011001] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交小麦*500",
@@ -1596,8 +1599,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2000
 		}
-	},
-	[80011002] = {
+	}
+	pg.base.island_task_target[80011002] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交牧草*500",
@@ -1607,8 +1610,10 @@ pg.base.island_task_target = {
 		target_param = {
 			2008
 		}
-	},
-	[80011003] = {
+	}
+end)()
+(function ()
+	pg.base.island_task_target[80011003] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交大豆*500",
@@ -1618,8 +1623,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2006
 		}
-	},
-	[80011004] = {
+	}
+	pg.base.island_task_target[80011004] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交大米*500",
@@ -1629,8 +1634,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2002
 		}
-	},
-	[80011005] = {
+	}
+	pg.base.island_task_target[80011005] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交玉米*500",
@@ -1640,8 +1645,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2001
 		}
-	},
-	[80011006] = {
+	}
+	pg.base.island_task_target[80011006] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交胡萝卜*250",
@@ -1651,8 +1656,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2004
 		}
-	},
-	[80011007] = {
+	}
+	pg.base.island_task_target[80011007] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交牛奶*250",
@@ -1662,8 +1667,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2603
 		}
-	},
-	[80011008] = {
+	}
+	pg.base.island_task_target[80011008] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交苹果汁*250",
@@ -1673,8 +1678,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3017
 		}
-	},
-	[80011009] = {
+	}
+	pg.base.island_task_target[80011009] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交冰咖啡*250",
@@ -1684,8 +1689,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3005
 		}
-	},
-	[80011010] = {
+	}
+	pg.base.island_task_target[80011010] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交炭烤肉串*250",
@@ -1695,8 +1700,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3029
 		}
-	},
-	[80011011] = {
+	}
+	pg.base.island_task_target[80011011] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交洋葱*100",
@@ -1706,8 +1711,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2007
 		}
-	},
-	[80011012] = {
+	}
+	pg.base.island_task_target[80011012] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交蔬菜沙拉*100",
@@ -1717,8 +1722,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3015
 		}
-	},
-	[80011013] = {
+	}
+	pg.base.island_task_target[80011013] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交胡萝卜厚蛋烧*100",
@@ -1728,8 +1733,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3033
 		}
-	},
-	[80011014] = {
+	}
+	pg.base.island_task_target[80011014] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交拿铁*100",
@@ -1739,8 +1744,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3007
 		}
-	},
-	[80011015] = {
+	}
+	pg.base.island_task_target[80011015] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交爆炒禽肉*100",
@@ -1750,8 +1755,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3032
 		}
-	},
-	[80011016] = {
+	}
+	pg.base.island_task_target[80011016] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交汉堡肉饭*50",
@@ -1761,8 +1766,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3034
 		}
-	},
-	[80011017] = {
+	}
+	pg.base.island_task_target[80011017] = {
 		tips = "",
 		jump_ui = "",
 		name = "接收1次日常补给",
@@ -1770,8 +1775,8 @@ pg.base.island_task_target = {
 		id = 80011017,
 		target_num = 1,
 		target_param = ""
-	},
-	[80011018] = {
+	}
+	pg.base.island_task_target[80011018] = {
 		tips = "",
 		jump_ui = "",
 		name = "接收5次日常补给",
@@ -1779,8 +1784,8 @@ pg.base.island_task_target = {
 		id = 80011018,
 		target_num = 5,
 		target_param = ""
-	},
-	[80011019] = {
+	}
+	pg.base.island_task_target[80011019] = {
 		tips = "",
 		jump_ui = "",
 		name = "接收10次日常补给",
@@ -1788,8 +1793,8 @@ pg.base.island_task_target = {
 		id = 80011019,
 		target_num = 10,
 		target_param = ""
-	},
-	[80011020] = {
+	}
+	pg.base.island_task_target[80011020] = {
 		tips = "",
 		jump_ui = "",
 		name = "接收20次日常补给",
@@ -1797,8 +1802,8 @@ pg.base.island_task_target = {
 		id = 80011020,
 		target_num = 20,
 		target_param = ""
-	},
-	[80011021] = {
+	}
+	pg.base.island_task_target[80011021] = {
 		tips = "",
 		jump_ui = "",
 		name = "接收30次日常补给",
@@ -1806,8 +1811,8 @@ pg.base.island_task_target = {
 		id = 80011021,
 		target_num = 30,
 		target_param = ""
-	},
-	[80011022] = {
+	}
+	pg.base.island_task_target[80011022] = {
 		tips = "",
 		jump_ui = "",
 		name = "接收45次日常补给",
@@ -1815,8 +1820,8 @@ pg.base.island_task_target = {
 		id = 80011022,
 		target_num = 45,
 		target_param = ""
-	},
-	[80011023] = {
+	}
+	pg.base.island_task_target[80011023] = {
 		tips = "",
 		jump_ui = "",
 		name = "接收60次日常补给",
@@ -1824,8 +1829,8 @@ pg.base.island_task_target = {
 		id = 80011023,
 		target_num = 60,
 		target_param = ""
-	},
-	[80011024] = {
+	}
+	pg.base.island_task_target[80011024] = {
 		tips = "",
 		jump_ui = "",
 		name = "交付10次岛屿订单",
@@ -1833,8 +1838,8 @@ pg.base.island_task_target = {
 		id = 80011024,
 		target_num = 10,
 		target_param = ""
-	},
-	[80011025] = {
+	}
+	pg.base.island_task_target[80011025] = {
 		tips = "",
 		jump_ui = "",
 		name = "交付30次岛屿订单",
@@ -1842,8 +1847,8 @@ pg.base.island_task_target = {
 		id = 80011025,
 		target_num = 30,
 		target_param = ""
-	},
-	[80011026] = {
+	}
+	pg.base.island_task_target[80011026] = {
 		tips = "",
 		jump_ui = "",
 		name = "交付50次岛屿订单",
@@ -1851,8 +1856,8 @@ pg.base.island_task_target = {
 		id = 80011026,
 		target_num = 50,
 		target_param = ""
-	},
-	[80011027] = {
+	}
+	pg.base.island_task_target[80011027] = {
 		tips = "",
 		jump_ui = "",
 		name = "交付100次岛屿订单",
@@ -1860,8 +1865,8 @@ pg.base.island_task_target = {
 		id = 80011027,
 		target_num = 100,
 		target_param = ""
-	},
-	[80011028] = {
+	}
+	pg.base.island_task_target[80011028] = {
 		tips = "",
 		jump_ui = "",
 		name = "交付150次岛屿订单",
@@ -1869,8 +1874,8 @@ pg.base.island_task_target = {
 		id = 80011028,
 		target_num = 150,
 		target_param = ""
-	},
-	[80011029] = {
+	}
+	pg.base.island_task_target[80011029] = {
 		tips = "",
 		jump_ui = "",
 		name = "交付200次岛屿订单",
@@ -1878,8 +1883,8 @@ pg.base.island_task_target = {
 		id = 80011029,
 		target_num = 200,
 		target_param = ""
-	},
-	[80011030] = {
+	}
+	pg.base.island_task_target[80011030] = {
 		tips = "",
 		jump_ui = "",
 		name = "交付300次岛屿订单",
@@ -1887,8 +1892,8 @@ pg.base.island_task_target = {
 		id = 80011030,
 		target_num = 300,
 		target_param = ""
-	},
-	[80012001] = {
+	}
+	pg.base.island_task_target[80012001] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交土豆*500",
@@ -1898,8 +1903,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2005
 		}
-	},
-	[80012002] = {
+	}
+	pg.base.island_task_target[80012002] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交咖啡豆*500",
@@ -1909,8 +1914,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2009
 		}
-	},
-	[80012003] = {
+	}
+	pg.base.island_task_target[80012003] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交白菜*500",
@@ -1920,8 +1925,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2003
 		}
-	},
-	[80012004] = {
+	}
+	pg.base.island_task_target[80012004] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交草莓*500",
@@ -1931,8 +1936,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2011
 		}
-	},
-	[80012005] = {
+	}
+	pg.base.island_task_target[80012005] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交棉花*500",
@@ -1942,8 +1947,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2012
 		}
-	},
-	[80012006] = {
+	}
+	pg.base.island_task_target[80012006] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交苹果*250",
@@ -1953,8 +1958,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2016
 		}
-	},
-	[80012007] = {
+	}
+	pg.base.island_task_target[80012007] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交柠檬*250",
@@ -1964,8 +1969,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2020
 		}
-	},
-	[80012008] = {
+	}
+	pg.base.island_task_target[80012008] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交炸鱼薯条*100",
@@ -1975,8 +1980,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3114
 		}
-	},
-	[80012009] = {
+	}
+	pg.base.island_task_target[80012009] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交洋葱蒸鱼*100",
@@ -1986,8 +1991,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3116
 		}
-	},
-	[80012010] = {
+	}
+	pg.base.island_task_target[80012010] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交草莓蜜沁*100",
@@ -1997,8 +2002,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3020
 		}
-	},
-	[80012011] = {
+	}
+	pg.base.island_task_target[80012011] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交柑橘咖啡*100",
@@ -2008,8 +2013,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3008
 		}
-	},
-	[80012012] = {
+	}
+	pg.base.island_task_target[80012012] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交柠檬虾*50",
@@ -2019,8 +2024,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3115
 		}
-	},
-	[80012013] = {
+	}
+	pg.base.island_task_target[80012013] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交海鲜饭*25",
@@ -2030,8 +2035,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3118
 		}
-	},
-	[80012014] = {
+	}
+	pg.base.island_task_target[80012014] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交爆炒小龙虾*25",
@@ -2041,8 +2046,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3119
 		}
-	},
-	[80012015] = {
+	}
+	pg.base.island_task_target[80012015] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交装饰画*25",
@@ -2052,8 +2057,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3117
 		}
-	},
-	[80012016] = {
+	}
+	pg.base.island_task_target[80012016] = {
 		tips = "",
 		jump_ui = "",
 		name = "提交佛跳墙*10",
@@ -2063,8 +2068,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3120
 		}
-	},
-	[80012017] = {
+	}
+	pg.base.island_task_target[80012017] = {
 		tips = "",
 		jump_ui = "",
 		name = "接收1次日常补给",
@@ -2072,8 +2077,8 @@ pg.base.island_task_target = {
 		id = 80012017,
 		target_num = 1,
 		target_param = ""
-	},
-	[80012018] = {
+	}
+	pg.base.island_task_target[80012018] = {
 		tips = "",
 		jump_ui = "",
 		name = "接收5次日常补给",
@@ -2081,8 +2086,8 @@ pg.base.island_task_target = {
 		id = 80012018,
 		target_num = 5,
 		target_param = ""
-	},
-	[80012019] = {
+	}
+	pg.base.island_task_target[80012019] = {
 		tips = "",
 		jump_ui = "",
 		name = "接收10次日常补给",
@@ -2090,8 +2095,8 @@ pg.base.island_task_target = {
 		id = 80012019,
 		target_num = 10,
 		target_param = ""
-	},
-	[80012020] = {
+	}
+	pg.base.island_task_target[80012020] = {
 		tips = "",
 		jump_ui = "",
 		name = "接收20次日常补给",
@@ -2099,8 +2104,8 @@ pg.base.island_task_target = {
 		id = 80012020,
 		target_num = 20,
 		target_param = ""
-	},
-	[80012021] = {
+	}
+	pg.base.island_task_target[80012021] = {
 		tips = "",
 		jump_ui = "",
 		name = "接收30次日常补给",
@@ -2108,8 +2113,8 @@ pg.base.island_task_target = {
 		id = 80012021,
 		target_num = 30,
 		target_param = ""
-	},
-	[80012022] = {
+	}
+	pg.base.island_task_target[80012022] = {
 		tips = "",
 		jump_ui = "",
 		name = "接收45次日常补给",
@@ -2117,8 +2122,8 @@ pg.base.island_task_target = {
 		id = 80012022,
 		target_num = 45,
 		target_param = ""
-	},
-	[80012023] = {
+	}
+	pg.base.island_task_target[80012023] = {
 		tips = "",
 		jump_ui = "",
 		name = "接收60次日常补给",
@@ -2126,8 +2131,8 @@ pg.base.island_task_target = {
 		id = 80012023,
 		target_num = 60,
 		target_param = ""
-	},
-	[80012024] = {
+	}
+	pg.base.island_task_target[80012024] = {
 		tips = "",
 		jump_ui = "",
 		name = "交付10次岛屿订单",
@@ -2135,8 +2140,8 @@ pg.base.island_task_target = {
 		id = 80012024,
 		target_num = 10,
 		target_param = ""
-	},
-	[80012025] = {
+	}
+	pg.base.island_task_target[80012025] = {
 		tips = "",
 		jump_ui = "",
 		name = "交付30次岛屿订单",
@@ -2144,8 +2149,8 @@ pg.base.island_task_target = {
 		id = 80012025,
 		target_num = 30,
 		target_param = ""
-	},
-	[80012026] = {
+	}
+	pg.base.island_task_target[80012026] = {
 		tips = "",
 		jump_ui = "",
 		name = "交付50次岛屿订单",
@@ -2153,8 +2158,8 @@ pg.base.island_task_target = {
 		id = 80012026,
 		target_num = 50,
 		target_param = ""
-	},
-	[80012027] = {
+	}
+	pg.base.island_task_target[80012027] = {
 		tips = "",
 		jump_ui = "",
 		name = "交付100次岛屿订单",
@@ -2162,8 +2167,8 @@ pg.base.island_task_target = {
 		id = 80012027,
 		target_num = 100,
 		target_param = ""
-	},
-	[80012028] = {
+	}
+	pg.base.island_task_target[80012028] = {
 		tips = "",
 		jump_ui = "",
 		name = "交付150次岛屿订单",
@@ -2171,8 +2176,8 @@ pg.base.island_task_target = {
 		id = 80012028,
 		target_num = 150,
 		target_param = ""
-	},
-	[80012029] = {
+	}
+	pg.base.island_task_target[80012029] = {
 		tips = "",
 		jump_ui = "",
 		name = "交付200次岛屿订单",
@@ -2180,8 +2185,8 @@ pg.base.island_task_target = {
 		id = 80012029,
 		target_num = 200,
 		target_param = ""
-	},
-	[80012030] = {
+	}
+	pg.base.island_task_target[80012030] = {
 		tips = "",
 		jump_ui = "",
 		name = "交付300次岛屿订单",
@@ -2189,8 +2194,8 @@ pg.base.island_task_target = {
 		id = 80012030,
 		target_num = 300,
 		target_param = ""
-	},
-	[100010001] = {
+	}
+	pg.base.island_task_target[100010001] = {
 		tips = "10040044",
 		jump_ui = "",
 		name = "去前面看看",
@@ -2200,8 +2205,8 @@ pg.base.island_task_target = {
 		target_param = {
 			10040044
 		}
-	},
-	[100010101] = {
+	}
+	pg.base.island_task_target[100010101] = {
 		tips = "10040002",
 		jump_ui = "",
 		name = "寻找奥布莱恩",
@@ -2211,8 +2216,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3100006
 		}
-	},
-	[100010201] = {
+	}
+	pg.base.island_task_target[100010201] = {
 		tips = "10040022",
 		jump_ui = "",
 		name = "寻找乔安",
@@ -2222,8 +2227,8 @@ pg.base.island_task_target = {
 		target_param = {
 			10040022
 		}
-	},
-	[100010301] = {
+	}
+	pg.base.island_task_target[100010301] = {
 		tips = "10040035",
 		jump_ui = "",
 		name = "收集煤炭",
@@ -2233,8 +2238,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2700
 		}
-	},
-	[100010401] = {
+	}
+	pg.base.island_task_target[100010401] = {
 		tips = "10040017",
 		jump_ui = "",
 		name = "收集自然之木",
@@ -2244,8 +2249,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2800
 		}
-	},
-	[100010501] = {
+	}
+	pg.base.island_task_target[100010501] = {
 		tips = "10040066",
 		jump_ui = "",
 		name = "修复受损的车站",
@@ -2255,8 +2260,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3100011
 		}
-	},
-	[100010601] = {
+	}
+	pg.base.island_task_target[100010601] = {
 		tips = "10040032",
 		jump_ui = "",
 		name = "和乔安聊聊吧",
@@ -2266,8 +2271,8 @@ pg.base.island_task_target = {
 		target_param = {
 			10020001
 		}
-	},
-	[100010701] = {
+	}
+	pg.base.island_task_target[100010701] = {
 		tips = "10020009",
 		jump_ui = "",
 		name = "寻找帕特莉",
@@ -2277,8 +2282,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1902
 		}
-	},
-	[100010711] = {
+	}
+	pg.base.island_task_target[100010711] = {
 		tips = "10020009",
 		jump_ui = "",
 		name = "去找帕特莉交付订单吧",
@@ -2288,8 +2293,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2
 		}
-	},
-	[100010801] = {
+	}
+	pg.base.island_task_target[100010801] = {
 		tips = "10020006",
 		jump_ui = "",
 		name = "寻找{namecode:98:明石}的身影",
@@ -2299,8 +2304,8 @@ pg.base.island_task_target = {
 		target_param = {
 			10020006
 		}
-	},
-	[100010901] = {
+	}
+	pg.base.island_task_target[100010901] = {
 		tips = "10020007",
 		jump_ui = "",
 		name = "进入啾咖啡",
@@ -2310,8 +2315,8 @@ pg.base.island_task_target = {
 		target_param = {
 			10100001
 		}
-	},
-	[100011001] = {
+	}
+	pg.base.island_task_target[100011001] = {
 		tips = "10100007",
 		jump_ui = "",
 		name = "避开装置跟上{namecode:98:明石}",
@@ -2321,8 +2326,8 @@ pg.base.island_task_target = {
 		target_param = {
 			10100007
 		}
-	},
-	[100011101] = {
+	}
+	pg.base.island_task_target[100011101] = {
 		tips = "10090011",
 		jump_ui = "",
 		name = "寻找隐藏通道",
@@ -2332,8 +2337,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3601
 		}
-	},
-	[100011201] = {
+	}
+	pg.base.island_task_target[100011201] = {
 		tips = "10070038",
 		jump_ui = "",
 		name = "抓住{namecode:98:明石}",
@@ -2343,8 +2348,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2101
 		}
-	},
-	[100011301] = {
+	}
+	pg.base.island_task_target[100011301] = {
 		tips = "10070027",
 		jump_ui = "",
 		name = "找{namecode:98:明石}转移权限",
@@ -2354,8 +2359,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2102
 		}
-	},
-	[100011401] = {
+	}
+	pg.base.island_task_target[100011401] = {
 		tips = "10070004",
 		jump_ui = "",
 		name = "研发岛屿权限认证函",
@@ -2365,8 +2370,8 @@ pg.base.island_task_target = {
 		target_param = {
 			10070004
 		}
-	},
-	[100011411] = {
+	}
+	pg.base.island_task_target[100011411] = {
 		tips = "10070004",
 		jump_ui = "",
 		name = "研发岛屿权限认证函",
@@ -2376,8 +2381,8 @@ pg.base.island_task_target = {
 		target_param = {
 			100001
 		}
-	},
-	[100011501] = {
+	}
+	pg.base.island_task_target[100011501] = {
 		tips = "10070003",
 		jump_ui = "",
 		name = "去找{namecode:98:明石}",
@@ -2387,8 +2392,8 @@ pg.base.island_task_target = {
 		target_param = {
 			10070003
 		}
-	},
-	[100011511] = {
+	}
+	pg.base.island_task_target[100011511] = {
 		tips = "10070003",
 		jump_ui = "",
 		name = "使用岛屿权限认证装置",
@@ -2398,8 +2403,8 @@ pg.base.island_task_target = {
 		target_param = {
 			10703
 		}
-	},
-	[100011601] = {
+	}
+	pg.base.island_task_target[100011601] = {
 		tips = "10020012",
 		jump_ui = "",
 		name = "和萨拉托加打招呼",
@@ -2409,8 +2414,8 @@ pg.base.island_task_target = {
 		target_param = {
 			4401
 		}
-	},
-	[100011701] = {
+	}
+	pg.base.island_task_target[100011701] = {
 		tips = "",
 		jump_ui = "",
 		name = "完成一项每日计划",
@@ -2420,8 +2425,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3
 		}
-	},
-	[100011801] = {
+	}
+	pg.base.island_task_target[100011801] = {
 		tips = "",
 		jump_ui = "",
 		name = "提升岛屿开发等级",
@@ -2429,8 +2434,8 @@ pg.base.island_task_target = {
 		id = 100011801,
 		target_num = 8,
 		target_param = ""
-	},
-	[100020101] = {
+	}
+	pg.base.island_task_target[100020101] = {
 		tips = "10020009",
 		jump_ui = "",
 		name = "去找帕特莉问问",
@@ -2440,8 +2445,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1903
 		}
-	},
-	[100020201] = {
+	}
+	pg.base.island_task_target[100020201] = {
 		tips = "10020035",
 		jump_ui = "",
 		name = "去找斯蒂芬妮吧",
@@ -2451,8 +2456,8 @@ pg.base.island_task_target = {
 		target_param = {
 			10020035
 		}
-	},
-	[100020301] = {
+	}
+	pg.base.island_task_target[100020301] = {
 		tips = "10020031",
 		jump_ui = "",
 		name = "寻找斯蒂芬妮的踪迹",
@@ -2462,8 +2467,8 @@ pg.base.island_task_target = {
 		target_param = {
 			10020031
 		}
-	},
-	[100020311] = {
+	}
+	pg.base.island_task_target[100020311] = {
 		tips = "10020032",
 		jump_ui = "",
 		name = "寻找斯蒂芬妮的踪迹",
@@ -2473,8 +2478,8 @@ pg.base.island_task_target = {
 		target_param = {
 			10020032
 		}
-	},
-	[100020321] = {
+	}
+	pg.base.island_task_target[100020321] = {
 		tips = "10020033",
 		jump_ui = "",
 		name = "寻找斯蒂芬妮的踪迹",
@@ -2484,8 +2489,8 @@ pg.base.island_task_target = {
 		target_param = {
 			10020033
 		}
-	},
-	[100020401] = {
+	}
+	pg.base.island_task_target[100020401] = {
 		tips = "10020034",
 		jump_ui = "",
 		name = "去找斯蒂芬妮聊聊吧",
@@ -2495,8 +2500,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2302
 		}
-	},
-	[100020501] = {
+	}
+	pg.base.island_task_target[100020501] = {
 		tips = "10020004",
 		jump_ui = "",
 		name = "帮斯蒂芬妮装载资材吧",
@@ -2506,8 +2511,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2304
 		}
-	},
-	[100020511] = {
+	}
+	pg.base.island_task_target[100020511] = {
 		tips = "",
 		jump_ui = "",
 		name = "提升岛屿开发等级",
@@ -2515,8 +2520,8 @@ pg.base.island_task_target = {
 		id = 100020511,
 		target_num = 10,
 		target_param = ""
-	},
-	[100020601] = {
+	}
+	pg.base.island_task_target[100020601] = {
 		tips = "10020005",
 		jump_ui = "",
 		name = "前往晨露农场",
@@ -2526,8 +2531,8 @@ pg.base.island_task_target = {
 		target_param = {
 			10010064
 		}
-	},
-	[100020701] = {
+	}
+	pg.base.island_task_target[100020701] = {
 		tips = "10010068",
 		jump_ui = "",
 		name = "寻找赫莫",
@@ -2537,8 +2542,8 @@ pg.base.island_task_target = {
 		target_param = {
 			5601
 		}
-	},
-	[100020801] = {
+	}
+	pg.base.island_task_target[100020801] = {
 		tips = "10010040",
 		jump_ui = "",
 		name = "购买小麦种子",
@@ -2548,8 +2553,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1000
 		}
-	},
-	[100020811] = {
+	}
+	pg.base.island_task_target[100020811] = {
 		tips = "10010004",
 		jump_ui = "",
 		name = "播种小麦",
@@ -2559,8 +2564,8 @@ pg.base.island_task_target = {
 		target_param = {
 			101001
 		}
-	},
-	[100020901] = {
+	}
+	pg.base.island_task_target[100020901] = {
 		tips = "10010003",
 		jump_ui = "",
 		name = "寻找梅莉",
@@ -2570,8 +2575,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2902
 		}
-	},
-	[100021001] = {
+	}
+	pg.base.island_task_target[100021001] = {
 		tips = "10010046",
 		jump_ui = "",
 		name = "寻回走丢的动物",
@@ -2581,8 +2586,8 @@ pg.base.island_task_target = {
 		target_param = {
 			4201
 		}
-	},
-	[100021101] = {
+	}
+	pg.base.island_task_target[100021101] = {
 		tips = "10010041",
 		jump_ui = "",
 		name = "前往磨坊",
@@ -2592,8 +2597,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2803
 		}
-	},
-	[100021201] = {
+	}
+	pg.base.island_task_target[100021201] = {
 		tips = "10010041",
 		jump_ui = "",
 		name = "制作咯咯鸡饲料",
@@ -2603,8 +2608,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3000
 		}
-	},
-	[100021301] = {
+	}
+	pg.base.island_task_target[100021301] = {
 		tips = "10010003",
 		jump_ui = "",
 		name = "查看牧场",
@@ -2614,8 +2619,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2905
 		}
-	},
-	[100021311] = {
+	}
+	pg.base.island_task_target[100021311] = {
 		tips = "10010003",
 		jump_ui = "",
 		name = "和梅利聊聊",
@@ -2625,8 +2630,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2910
 		}
-	},
-	[100021401] = {
+	}
+	pg.base.island_task_target[100021401] = {
 		tips = "10010040",
 		jump_ui = "",
 		name = "去找赫莫",
@@ -2636,8 +2641,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3004
 		}
-	},
-	[100021411] = {
+	}
+	pg.base.island_task_target[100021411] = {
 		tips = "",
 		jump_ui = "",
 		name = "提升岛屿开发等级",
@@ -2645,8 +2650,10 @@ pg.base.island_task_target = {
 		id = 100021411,
 		target_num = 12,
 		target_param = ""
-	},
-	[100021501] = {
+	}
+end)()
+(function ()
+	pg.base.island_task_target[100021501] = {
 		tips = "10090001",
 		jump_ui = "",
 		name = "前往港口啾咖啡",
@@ -2656,8 +2663,8 @@ pg.base.island_task_target = {
 		target_param = {
 			10090001
 		}
-	},
-	[100021601] = {
+	}
+	pg.base.island_task_target[100021601] = {
 		tips = "10090008",
 		jump_ui = "",
 		name = "寻找布莱梅",
@@ -2667,8 +2674,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1202
 		}
-	},
-	[100021701] = {
+	}
+	pg.base.island_task_target[100021701] = {
 		tips = "10090008",
 		jump_ui = "",
 		name = "制作欧姆蛋",
@@ -2678,8 +2685,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3059
 		}
-	},
-	[100021801] = {
+	}
+	pg.base.island_task_target[100021801] = {
 		tips = "10020004",
 		jump_ui = "",
 		name = "制作欧姆蛋",
@@ -2689,8 +2696,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3059
 		}
-	},
-	[100021901] = {
+	}
+	pg.base.island_task_target[100021901] = {
 		tips = "10090008",
 		jump_ui = "",
 		name = "回去问问布莱梅吧",
@@ -2700,8 +2707,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1221
 		}
-	},
-	[100022001] = {
+	}
+	pg.base.island_task_target[100022001] = {
 		tips = "10090008",
 		jump_ui = "",
 		name = "上架欧姆蛋",
@@ -2711,8 +2718,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3059
 		}
-	},
-	[100022101] = {
+	}
+	pg.base.island_task_target[100022101] = {
 		tips = "10090019",
 		jump_ui = "",
 		name = "去和{namecode:98:明石}聊聊",
@@ -2722,8 +2729,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3902
 		}
-	},
-	[100022111] = {
+	}
+	pg.base.island_task_target[100022111] = {
 		tips = "",
 		jump_ui = "",
 		name = "提升岛屿开发等级",
@@ -2731,8 +2738,8 @@ pg.base.island_task_target = {
 		id = 100022111,
 		target_num = 15,
 		target_param = ""
-	},
-	[100022201] = {
+	}
+	pg.base.island_task_target[100022201] = {
 		tips = "10090020",
 		jump_ui = "",
 		name = "去找{namecode:98:明石}",
@@ -2742,8 +2749,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3903
 		}
-	},
-	[100022301] = {
+	}
+	pg.base.island_task_target[100022301] = {
 		tips = "",
 		jump_ui = "",
 		name = "码头长堤上的碎片",
@@ -2753,8 +2760,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1010
 		}
-	},
-	[100022302] = {
+	}
+	pg.base.island_task_target[100022302] = {
 		tips = "",
 		jump_ui = "",
 		name = "港口钓场里的碎片",
@@ -2764,8 +2771,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1011
 		}
-	},
-	[100022303] = {
+	}
+	pg.base.island_task_target[100022303] = {
 		tips = "",
 		jump_ui = "",
 		name = "货运中心旁的碎片",
@@ -2775,8 +2782,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1012
 		}
-	},
-	[100022401] = {
+	}
+	pg.base.island_task_target[100022401] = {
 		tips = "",
 		jump_ui = "",
 		name = "翠土林场里的碎片",
@@ -2786,8 +2793,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1006
 		}
-	},
-	[100022402] = {
+	}
+	pg.base.island_task_target[100022402] = {
 		tips = "",
 		jump_ui = "",
 		name = "沉石矿山上的碎片",
@@ -2797,8 +2804,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1007
 		}
-	},
-	[100022403] = {
+	}
+	pg.base.island_task_target[100022403] = {
 		tips = "",
 		jump_ui = "",
 		name = "河边小屋旁的碎片",
@@ -2808,8 +2815,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1008
 		}
-	},
-	[100022404] = {
+	}
+	pg.base.island_task_target[100022404] = {
 		tips = "",
 		jump_ui = "",
 		name = "原野站台后的碎片",
@@ -2819,8 +2826,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1009
 		}
-	},
-	[100022501] = {
+	}
+	pg.base.island_task_target[100022501] = {
 		tips = "",
 		jump_ui = "",
 		name = "悠然牧场里的碎片",
@@ -2830,8 +2837,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1001
 		}
-	},
-	[100022502] = {
+	}
+	pg.base.island_task_target[100022502] = {
 		tips = "",
 		jump_ui = "",
 		name = "农场磨坊旁的碎片",
@@ -2841,8 +2848,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1002
 		}
-	},
-	[100022503] = {
+	}
+	pg.base.island_task_target[100022503] = {
 		tips = "",
 		jump_ui = "",
 		name = "悠然牧场外的碎片",
@@ -2852,8 +2859,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1003
 		}
-	},
-	[100022504] = {
+	}
+	pg.base.island_task_target[100022504] = {
 		tips = "",
 		jump_ui = "",
 		name = "丰壤农田里的碎片",
@@ -2863,8 +2870,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1004
 		}
-	},
-	[100022505] = {
+	}
+	pg.base.island_task_target[100022505] = {
 		tips = "",
 		jump_ui = "",
 		name = "牧场侧门外的碎片",
@@ -2874,8 +2881,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1005
 		}
-	},
-	[100022511] = {
+	}
+	pg.base.island_task_target[100022511] = {
 		tips = "10090020",
 		jump_ui = "",
 		name = "去找{namecode:98:明石}吧",
@@ -2885,8 +2892,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3904
 		}
-	},
-	[100022601] = {
+	}
+	pg.base.island_task_target[100022601] = {
 		tips = "10020016",
 		jump_ui = "",
 		name = "寻找{namecode:98:明石}的身影",
@@ -2896,8 +2903,8 @@ pg.base.island_task_target = {
 		target_param = {
 			4702
 		}
-	},
-	[100022701] = {
+	}
+	pg.base.island_task_target[100022701] = {
 		tips = "10030001",
 		jump_ui = "",
 		name = "前往宝藏岛",
@@ -2907,8 +2914,8 @@ pg.base.island_task_target = {
 		target_param = {
 			10030001
 		}
-	},
-	[100022711] = {
+	}
+	pg.base.island_task_target[100022711] = {
 		tips = "10030003",
 		jump_ui = "",
 		name = "去找玛丽吧",
@@ -2918,8 +2925,8 @@ pg.base.island_task_target = {
 		target_param = {
 			7802
 		}
-	},
-	[100022801] = {
+	}
+	pg.base.island_task_target[100022801] = {
 		tips = "",
 		jump_ui = "",
 		name = "快跟上玛丽的脚步",
@@ -2929,8 +2936,8 @@ pg.base.island_task_target = {
 		target_param = {
 			10030006
 		}
-	},
-	[100022901] = {
+	}
+	pg.base.island_task_target[100022901] = {
 		tips = "10030009",
 		jump_ui = "",
 		name = "获取日常补给",
@@ -2938,8 +2945,8 @@ pg.base.island_task_target = {
 		id = 100022901,
 		target_num = 1,
 		target_param = ""
-	},
-	[100023001] = {
+	}
+	pg.base.island_task_target[100023001] = {
 		tips = "10030008",
 		jump_ui = "",
 		name = "寻找莉莎",
@@ -2949,8 +2956,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2702
 		}
-	},
-	[100023101] = {
+	}
+	pg.base.island_task_target[100023101] = {
 		tips = "10030008",
 		jump_ui = "",
 		name = "搭建熊熊候车亭",
@@ -2960,8 +2967,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2704
 		}
-	},
-	[100023201] = {
+	}
+	pg.base.island_task_target[100023201] = {
 		tips = "",
 		jump_ui = "19",
 		name = "拍摄自己的集会岛",
@@ -2971,8 +2978,8 @@ pg.base.island_task_target = {
 		target_param = {
 			0
 		}
-	},
-	[100023301] = {
+	}
+	pg.base.island_task_target[100023301] = {
 		tips = "",
 		jump_ui = "19",
 		name = "拍摄集会岛动物",
@@ -2982,8 +2989,8 @@ pg.base.island_task_target = {
 		target_param = {
 			0
 		}
-	},
-	[100023401] = {
+	}
+	pg.base.island_task_target[100023401] = {
 		tips = "10040022",
 		jump_ui = "",
 		name = "收集煤炭",
@@ -2993,8 +3000,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2700
 		}
-	},
-	[100023402] = {
+	}
+	pg.base.island_task_target[100023402] = {
 		tips = "10040002",
 		jump_ui = "",
 		name = "收集自然之木",
@@ -3004,8 +3011,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2800
 		}
-	},
-	[100023501] = {
+	}
+	pg.base.island_task_target[100023501] = {
 		tips = "10030005",
 		jump_ui = "",
 		name = "寻找神秘专家",
@@ -3015,8 +3022,8 @@ pg.base.island_task_target = {
 		target_param = {
 			5401
 		}
-	},
-	[100023601] = {
+	}
+	pg.base.island_task_target[100023601] = {
 		tips = "10030007",
 		jump_ui = "",
 		name = "乘坐飞行器",
@@ -3026,8 +3033,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2603
 		}
-	},
-	[100023701] = {
+	}
+	pg.base.island_task_target[100023701] = {
 		tips = "10020009",
 		jump_ui = "",
 		name = "去找帕特莉了解一下开发区情况",
@@ -3037,8 +3044,8 @@ pg.base.island_task_target = {
 		target_param = {
 			10020009
 		}
-	},
-	[100023801] = {
+	}
+	pg.base.island_task_target[100023801] = {
 		tips = "",
 		jump_ui = "",
 		name = "提升岛屿开发等级",
@@ -3046,8 +3053,8 @@ pg.base.island_task_target = {
 		id = 100023801,
 		target_num = 18,
 		target_param = ""
-	},
-	[100030101] = {
+	}
+	pg.base.island_task_target[100030101] = {
 		tips = "10020009",
 		jump_ui = "",
 		name = "去找帕特莉",
@@ -3057,8 +3064,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1904
 		}
-	},
-	[100030111] = {
+	}
+	pg.base.island_task_target[100030111] = {
 		tips = "10060001",
 		jump_ui = "",
 		name = "前往港口商区",
@@ -3068,8 +3075,8 @@ pg.base.island_task_target = {
 		target_param = {
 			10060001
 		}
-	},
-	[100030201] = {
+	}
+	pg.base.island_task_target[100030201] = {
 		tips = "10060002",
 		jump_ui = "",
 		name = "寻找阿莫玛",
@@ -3079,8 +3086,8 @@ pg.base.island_task_target = {
 		target_param = {
 			4502
 		}
-	},
-	[100030301] = {
+	}
+	pg.base.island_task_target[100030301] = {
 		tips = "10060002",
 		jump_ui = "",
 		name = "制作豆腐",
@@ -3090,8 +3097,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3011
 		}
-	},
-	[100030401] = {
+	}
+	pg.base.island_task_target[100030401] = {
 		tips = "10060002",
 		jump_ui = "",
 		name = "经营商区店铺",
@@ -3101,8 +3108,8 @@ pg.base.island_task_target = {
 		target_param = {
 			4507
 		}
-	},
-	[100030501] = {
+	}
+	pg.base.island_task_target[100030501] = {
 		tips = "10050001",
 		jump_ui = "",
 		name = "抵达繁荫农圃",
@@ -3112,8 +3119,8 @@ pg.base.island_task_target = {
 		target_param = {
 			10050001
 		}
-	},
-	[100030511] = {
+	}
+	pg.base.island_task_target[100030511] = {
 		tips = "10050003",
 		jump_ui = "",
 		name = "去前面看看",
@@ -3123,8 +3130,8 @@ pg.base.island_task_target = {
 		target_param = {
 			5701
 		}
-	},
-	[100030601] = {
+	}
+	pg.base.island_task_target[100030601] = {
 		tips = "10050034",
 		jump_ui = "",
 		name = "收集蜂巢",
@@ -3134,8 +3141,8 @@ pg.base.island_task_target = {
 		target_param = {
 			6401
 		}
-	},
-	[100030701] = {
+	}
+	pg.base.island_task_target[100030701] = {
 		tips = "",
 		jump_ui = "",
 		name = "收集蜂蜜",
@@ -3145,8 +3152,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2606
 		}
-	},
-	[100030801] = {
+	}
+	pg.base.island_task_target[100030801] = {
 		tips = "10050010",
 		jump_ui = "",
 		name = "种植苹果树",
@@ -3156,8 +3163,8 @@ pg.base.island_task_target = {
 		target_param = {
 			501001
 		}
-	},
-	[100030901] = {
+	}
+	pg.base.island_task_target[100030901] = {
 		tips = "10050010",
 		jump_ui = "",
 		name = "收集苹果",
@@ -3167,8 +3174,8 @@ pg.base.island_task_target = {
 		target_param = {
 			501001
 		}
-	},
-	[100030911] = {
+	}
+	pg.base.island_task_target[100030911] = {
 		tips = "",
 		jump_ui = "",
 		name = "收集苹果",
@@ -3178,8 +3185,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2016
 		}
-	},
-	[100031001] = {
+	}
+	pg.base.island_task_target[100031001] = {
 		tips = "",
 		jump_ui = "12",
 		name = "研发草莓种植技术",
@@ -3189,8 +3196,8 @@ pg.base.island_task_target = {
 		target_param = {
 			320201
 		}
-	},
-	[100031101] = {
+	}
+	pg.base.island_task_target[100031101] = {
 		tips = "",
 		jump_ui = "",
 		name = "提升岛屿开发等级",
@@ -3198,8 +3205,8 @@ pg.base.island_task_target = {
 		id = 100031101,
 		target_num = 20,
 		target_param = ""
-	},
-	[100040101] = {
+	}
+	pg.base.island_task_target[100040101] = {
 		tips = "10070030",
 		jump_ui = "",
 		name = "去找{namecode:98:明石}",
@@ -3209,8 +3216,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2104
 		}
-	},
-	[100040201] = {
+	}
+	pg.base.island_task_target[100040201] = {
 		tips = "10040022",
 		jump_ui = "",
 		name = "收集煤炭",
@@ -3220,8 +3227,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2700
 		}
-	},
-	[100040301] = {
+	}
+	pg.base.island_task_target[100040301] = {
 		tips = "10070031",
 		jump_ui = "",
 		name = "去工厂看看",
@@ -3231,8 +3238,8 @@ pg.base.island_task_target = {
 		target_param = {
 			10070031
 		}
-	},
-	[200010011] = {
+	}
+	pg.base.island_task_target[200010011] = {
 		tips = "10040050",
 		jump_ui = "",
 		name = "寻找会发出声音的东西……",
@@ -3242,8 +3249,8 @@ pg.base.island_task_target = {
 		target_param = {
 			4801
 		}
-	},
-	[200010021] = {
+	}
+	pg.base.island_task_target[200010021] = {
 		tips = "10040080",
 		jump_ui = "",
 		name = "完成伐木",
@@ -3253,8 +3260,8 @@ pg.base.island_task_target = {
 		target_param = {
 			402001
 		}
-	},
-	[200010031] = {
+	}
+	pg.base.island_task_target[200010031] = {
 		tips = "10040002",
 		jump_ui = "",
 		name = "回去告诉奥布莱恩吧",
@@ -3264,8 +3271,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1707
 		}
-	},
-	[200010041] = {
+	}
+	pg.base.island_task_target[200010041] = {
 		tips = "10040022",
 		jump_ui = "",
 		name = "去沉石矿山看看发生了什么",
@@ -3275,8 +3282,8 @@ pg.base.island_task_target = {
 		target_param = {
 			805
 		}
-	},
-	[200010051] = {
+	}
+	pg.base.island_task_target[200010051] = {
 		tips = "10040002",
 		jump_ui = "",
 		name = "寻找适合做临时轨道的木头",
@@ -3286,8 +3293,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1708
 		}
-	},
-	[200010061] = {
+	}
+	pg.base.island_task_target[200010061] = {
 		tips = "10040002",
 		jump_ui = "",
 		name = "收集实用之木",
@@ -3297,8 +3304,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2801
 		}
-	},
-	[200010071] = {
+	}
+	pg.base.island_task_target[200010071] = {
 		tips = "10040022",
 		jump_ui = "",
 		name = "把木轨交给乔安吧",
@@ -3308,8 +3315,8 @@ pg.base.island_task_target = {
 		target_param = {
 			806
 		}
-	},
-	[200010081] = {
+	}
+	pg.base.island_task_target[200010081] = {
 		tips = "10040022",
 		jump_ui = "",
 		name = "收集铁矿 ",
@@ -3319,8 +3326,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2703
 		}
-	},
-	[200010091] = {
+	}
+	pg.base.island_task_target[200010091] = {
 		tips = "10040056",
 		jump_ui = "",
 		name = "寻找唱下工歌曲的神秘朋友",
@@ -3330,8 +3337,8 @@ pg.base.island_task_target = {
 		target_param = {
 			10040056
 		}
-	},
-	[200020011] = {
+	}
+	pg.base.island_task_target[200020011] = {
 		tips = "10020018",
 		jump_ui = "",
 		name = "去港口远点看看",
@@ -3341,8 +3348,8 @@ pg.base.island_task_target = {
 		target_param = {
 			7401
 		}
-	},
-	[200020021] = {
+	}
+	pg.base.island_task_target[200020021] = {
 		tips = "10020004",
 		jump_ui = "",
 		name = "找斯蒂芬妮寻求灵感",
@@ -3352,8 +3359,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2305
 		}
-	},
-	[200020031] = {
+	}
+	pg.base.island_task_target[200020031] = {
 		tips = "10090008",
 		jump_ui = "",
 		name = "向布莱梅寻求建议",
@@ -3363,8 +3370,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1207
 		}
-	},
-	[200020041] = {
+	}
+	pg.base.island_task_target[200020041] = {
 		tips = "10010003",
 		jump_ui = "",
 		name = "收集制作画笔的羊毛",
@@ -3374,8 +3381,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2605
 		}
-	},
-	[200020051] = {
+	}
+	pg.base.island_task_target[200020051] = {
 		tips = "10040002",
 		jump_ui = "",
 		name = "收集制作画框的典雅之木",
@@ -3385,8 +3392,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2803
 		}
-	},
-	[200020061] = {
+	}
+	pg.base.island_task_target[200020061] = {
 		tips = "10020009",
 		jump_ui = "",
 		name = "把画框带给帕特莉吧",
@@ -3396,8 +3403,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1909
 		}
-	},
-	[200030011] = {
+	}
+	pg.base.island_task_target[200030011] = {
 		tips = "10090008",
 		jump_ui = "",
 		name = "去告诉布莱梅吧",
@@ -3407,8 +3414,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1208
 		}
-	},
-	[200030021] = {
+	}
+	pg.base.island_task_target[200030021] = {
 		tips = "10040022",
 		jump_ui = "",
 		name = "收集铝矿",
@@ -3418,8 +3425,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2702
 		}
-	},
-	[200030031] = {
+	}
+	pg.base.island_task_target[200030031] = {
 		tips = "10020019",
 		jump_ui = "",
 		name = "到货运中心寻找订购的零件",
@@ -3429,8 +3436,8 @@ pg.base.island_task_target = {
 		target_param = {
 			4901
 		}
-	},
-	[200030041] = {
+	}
+	pg.base.island_task_target[200030041] = {
 		tips = "10070011",
 		jump_ui = "",
 		name = "将电力系统装到岛屿基地的服务器里",
@@ -3440,8 +3447,8 @@ pg.base.island_task_target = {
 		target_param = {
 			5001
 		}
-	},
-	[200040000] = {
+	}
+	pg.base.island_task_target[200040000] = {
 		tips = "",
 		jump_ui = "",
 		name = "提升岛屿开发等级",
@@ -3449,8 +3456,8 @@ pg.base.island_task_target = {
 		id = 200040000,
 		target_num = 29,
 		target_param = ""
-	},
-	[200040011] = {
+	}
+	pg.base.island_task_target[200040011] = {
 		tips = "10090008",
 		jump_ui = "",
 		name = "去找布莱梅咨询餐品创作要诀吧",
@@ -3460,8 +3467,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1209
 		}
-	},
-	[200040021] = {
+	}
+	pg.base.island_task_target[200040021] = {
 		tips = "10090008",
 		jump_ui = "",
 		name = "研发并制作出胡萝卜厚蛋烧",
@@ -3471,8 +3478,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3033
 		}
-	},
-	[200040031] = {
+	}
+	pg.base.island_task_target[200040031] = {
 		tips = "10060002",
 		jump_ui = "",
 		name = "去找阿莫玛吧",
@@ -3482,8 +3489,8 @@ pg.base.island_task_target = {
 		target_param = {
 			4515
 		}
-	},
-	[200050011] = {
+	}
+	pg.base.island_task_target[200050011] = {
 		tips = "10010040",
 		jump_ui = "",
 		name = "询问农田管理员赫莫",
@@ -3493,8 +3500,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3007
 		}
-	},
-	[200050021] = {
+	}
+	pg.base.island_task_target[200050021] = {
 		tips = "10010069",
 		jump_ui = "",
 		name = "去森林查看情况",
@@ -3504,8 +3511,8 @@ pg.base.island_task_target = {
 		target_param = {
 			10010069
 		}
-	},
-	[200050031] = {
+	}
+	pg.base.island_task_target[200050031] = {
 		tips = "10010040",
 		jump_ui = "",
 		name = "去告诉赫莫吧",
@@ -3515,8 +3522,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3008
 		}
-	},
-	[200050041] = {
+	}
+	pg.base.island_task_target[200050041] = {
 		tips = "10010003",
 		jump_ui = "",
 		name = "询问牧场管理员梅莉",
@@ -3526,8 +3533,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2907
 		}
-	},
-	[200050051] = {
+	}
+	pg.base.island_task_target[200050051] = {
 		tips = "10010070",
 		jump_ui = "",
 		name = "去工具房查看情况",
@@ -3537,8 +3544,8 @@ pg.base.island_task_target = {
 		target_param = {
 			7501
 		}
-	},
-	[200050061] = {
+	}
+	pg.base.island_task_target[200050061] = {
 		tips = "10010041",
 		jump_ui = "",
 		name = "去找奥林匹克吧",
@@ -3548,8 +3555,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2807
 		}
-	},
-	[200050071] = {
+	}
+	pg.base.island_task_target[200050071] = {
 		tips = "10010071",
 		jump_ui = "",
 		name = "巡视牧场查看情况",
@@ -3559,8 +3566,8 @@ pg.base.island_task_target = {
 		target_param = {
 			10010071
 		}
-	},
-	[200050081] = {
+	}
+	pg.base.island_task_target[200050081] = {
 		tips = "10010072",
 		jump_ui = "",
 		name = "巡视牧场查看情况",
@@ -3570,8 +3577,8 @@ pg.base.island_task_target = {
 		target_param = {
 			10010072
 		}
-	},
-	[200050091] = {
+	}
+	pg.base.island_task_target[200050091] = {
 		tips = "10010073",
 		jump_ui = "",
 		name = "巡视牧场查看情况",
@@ -3581,8 +3588,8 @@ pg.base.island_task_target = {
 		target_param = {
 			6501
 		}
-	},
-	[200060011] = {
+	}
+	pg.base.island_task_target[200060011] = {
 		tips = "10010075",
 		jump_ui = "",
 		name = "跟梅莉去咩咩羊喜欢去的地方看看",
@@ -3592,8 +3599,8 @@ pg.base.island_task_target = {
 		target_param = {
 			6601
 		}
-	},
-	[200060021] = {
+	}
+	pg.base.island_task_target[200060021] = {
 		tips = "10010076",
 		jump_ui = "",
 		name = "跟着脚印一路调查下去",
@@ -3603,8 +3610,8 @@ pg.base.island_task_target = {
 		target_param = {
 			6602
 		}
-	},
-	[200060031] = {
+	}
+	pg.base.island_task_target[200060031] = {
 		tips = "10010077",
 		jump_ui = "",
 		name = "跟着痕迹过去看看",
@@ -3614,8 +3621,8 @@ pg.base.island_task_target = {
 		target_param = {
 			10010077
 		}
-	},
-	[200060041] = {
+	}
+	pg.base.island_task_target[200060041] = {
 		tips = "10010074",
 		jump_ui = "",
 		name = "抓住咩咩羊",
@@ -3625,8 +3632,8 @@ pg.base.island_task_target = {
 		target_param = {
 			6603
 		}
-	},
-	[200060051] = {
+	}
+	pg.base.island_task_target[200060051] = {
 		tips = "10010040",
 		jump_ui = "",
 		name = "询问赫莫羊群的位置",
@@ -3636,8 +3643,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3009
 		}
-	},
-	[200060061] = {
+	}
+	pg.base.island_task_target[200060061] = {
 		tips = "10010081",
 		jump_ui = "",
 		name = "去往羊群的方向",
@@ -3647,8 +3654,8 @@ pg.base.island_task_target = {
 		target_param = {
 			10010081
 		}
-	},
-	[200060071] = {
+	}
+	pg.base.island_task_target[200060071] = {
 		tips = "10010078",
 		jump_ui = "",
 		name = "牵上所有羊",
@@ -3658,8 +3665,8 @@ pg.base.island_task_target = {
 		target_param = {
 			6701
 		}
-	},
-	[200060072] = {
+	}
+	pg.base.island_task_target[200060072] = {
 		tips = "10010079",
 		jump_ui = "",
 		name = "牵上所有羊",
@@ -3669,8 +3676,8 @@ pg.base.island_task_target = {
 		target_param = {
 			6801
 		}
-	},
-	[200060073] = {
+	}
+	pg.base.island_task_target[200060073] = {
 		tips = "10010080",
 		jump_ui = "",
 		name = "牵上所有羊",
@@ -3680,8 +3687,8 @@ pg.base.island_task_target = {
 		target_param = {
 			6901
 		}
-	},
-	[200060081] = {
+	}
+	pg.base.island_task_target[200060081] = {
 		tips = "10010003",
 		jump_ui = "",
 		name = "去找梅莉吧",
@@ -3691,8 +3698,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2912
 		}
-	},
-	[200060091] = {
+	}
+	pg.base.island_task_target[200060091] = {
 		tips = "10040002",
 		jump_ui = "",
 		name = "收集自然之木",
@@ -3702,8 +3709,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2800
 		}
-	},
-	[200070011] = {
+	}
+	pg.base.island_task_target[200070011] = {
 		tips = "10040057",
 		jump_ui = "",
 		name = "拆除附近的蜂巢",
@@ -3713,8 +3720,8 @@ pg.base.island_task_target = {
 		target_param = {
 			7001
 		}
-	},
-	[200070021] = {
+	}
+	pg.base.island_task_target[200070021] = {
 		tips = "10020026",
 		jump_ui = "",
 		name = "拆除港口的蜂巢",
@@ -3724,8 +3731,8 @@ pg.base.island_task_target = {
 		target_param = {
 			7002
 		}
-	},
-	[200070031] = {
+	}
+	pg.base.island_task_target[200070031] = {
 		tips = "10010082",
 		jump_ui = "",
 		name = "拆除农场的蜂巢",
@@ -3735,8 +3742,10 @@ pg.base.island_task_target = {
 		target_param = {
 			7003
 		}
-	},
-	[200070041] = {
+	}
+end)()
+(function ()
+	pg.base.island_task_target[200070041] = {
 		tips = "10090008",
 		jump_ui = "",
 		name = "向布莱梅询问蜂蜜水配方",
@@ -3746,8 +3755,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1212
 		}
-	},
-	[200070051] = {
+	}
+	pg.base.island_task_target[200070051] = {
 		tips = "10060030",
 		jump_ui = "",
 		name = "前往商业街，找到配方",
@@ -3757,8 +3766,8 @@ pg.base.island_task_target = {
 		target_param = {
 			7011
 		}
-	},
-	[200070061] = {
+	}
+	pg.base.island_task_target[200070061] = {
 		tips = "10050002",
 		jump_ui = "",
 		name = "收集新鲜的柠檬",
@@ -3768,8 +3777,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2020
 		}
-	},
-	[200070062] = {
+	}
+	pg.base.island_task_target[200070062] = {
 		tips = "",
 		jump_ui = "",
 		name = "收集新鲜的蜂蜜",
@@ -3779,8 +3788,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2606
 		}
-	},
-	[200070071] = {
+	}
+	pg.base.island_task_target[200070071] = {
 		tips = "10060002",
 		jump_ui = "",
 		name = "去问问阿莫玛哪里有迷迭香吧",
@@ -3790,8 +3799,8 @@ pg.base.island_task_target = {
 		target_param = {
 			4516
 		}
-	},
-	[200070081] = {
+	}
+	pg.base.island_task_target[200070081] = {
 		tips = "10060031",
 		jump_ui = "",
 		name = "去有鱼餐馆寻找迷迭香吧",
@@ -3801,8 +3810,8 @@ pg.base.island_task_target = {
 		target_param = {
 			7012
 		}
-	},
-	[200070091] = {
+	}
+	pg.base.island_task_target[200070091] = {
 		tips = "10090008",
 		jump_ui = "",
 		name = "去把食材都交给布莱梅吧",
@@ -3812,8 +3821,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1214
 		}
-	},
-	[200070101] = {
+	}
+	pg.base.island_task_target[200070101] = {
 		tips = "10040057",
 		jump_ui = "",
 		name = "将蜂蜜水送给无名氏",
@@ -3823,8 +3832,8 @@ pg.base.island_task_target = {
 		target_param = {
 			7013
 		}
-	},
-	[200080011] = {
+	}
+	pg.base.island_task_target[200080011] = {
 		tips = "10020004",
 		jump_ui = "",
 		name = "找斯蒂芬妮查看情况",
@@ -3834,8 +3843,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2306
 		}
-	},
-	[200080021] = {
+	}
+	pg.base.island_task_target[200080021] = {
 		tips = "10040002",
 		jump_ui = "",
 		name = "收集自然之木",
@@ -3845,8 +3854,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2800
 		}
-	},
-	[200080031] = {
+	}
+	pg.base.island_task_target[200080031] = {
 		tips = "10040022",
 		jump_ui = "",
 		name = "收集煤炭",
@@ -3856,8 +3865,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2700
 		}
-	},
-	[200080041] = {
+	}
+	pg.base.island_task_target[200080041] = {
 		tips = "10020009",
 		jump_ui = "",
 		name = "找帕特莉完成订单",
@@ -3867,8 +3876,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1911
 		}
-	},
-	[200090011] = {
+	}
+	pg.base.island_task_target[200090011] = {
 		tips = "10040059",
 		jump_ui = "",
 		name = "去矿场旁等待神秘人吧",
@@ -3878,8 +3887,8 @@ pg.base.island_task_target = {
 		target_param = {
 			10040059
 		}
-	},
-	[200090021] = {
+	}
+	pg.base.island_task_target[200090021] = {
 		tips = "10040002",
 		jump_ui = "",
 		name = "把矿石送到奥布莱恩那里吧",
@@ -3889,8 +3898,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1711
 		}
-	},
-	[200090031] = {
+	}
+	pg.base.island_task_target[200090031] = {
 		tips = "10020029",
 		jump_ui = "",
 		name = "把矿石送到{namecode:98:明石}那里吧",
@@ -3900,8 +3909,8 @@ pg.base.island_task_target = {
 		target_param = {
 			7101
 		}
-	},
-	[200090041] = {
+	}
+	pg.base.island_task_target[200090041] = {
 		tips = "10020004",
 		jump_ui = "",
 		name = "回斯蒂芬妮那里完成委托吧",
@@ -3911,8 +3920,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2310
 		}
-	},
-	[200100011] = {
+	}
+	pg.base.island_task_target[200100011] = {
 		tips = "10010041",
 		jump_ui = "",
 		name = "去和奥林匹克一起商量对策",
@@ -3922,8 +3931,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2805
 		}
-	},
-	[200100021] = {
+	}
+	pg.base.island_task_target[200100021] = {
 		tips = "10020004",
 		jump_ui = "",
 		name = "问问斯蒂芬妮吧",
@@ -3933,8 +3942,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2311
 		}
-	},
-	[200100031] = {
+	}
+	pg.base.island_task_target[200100031] = {
 		tips = "10090008",
 		jump_ui = "",
 		name = "找布莱梅帮忙",
@@ -3944,8 +3953,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1217
 		}
-	},
-	[200100041] = {
+	}
+	pg.base.island_task_target[200100041] = {
 		tips = "10090008",
 		jump_ui = "",
 		name = "回去找布莱梅",
@@ -3955,8 +3964,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1218
 		}
-	},
-	[200100051] = {
+	}
+	pg.base.island_task_target[200100051] = {
 		tips = "10010040",
 		jump_ui = "",
 		name = "找赫莫帮忙",
@@ -3966,8 +3975,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3010
 		}
-	},
-	[200100061] = {
+	}
+	pg.base.island_task_target[200100061] = {
 		tips = "10010041",
 		jump_ui = "",
 		name = "找奥林匹克帮忙",
@@ -3977,8 +3986,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2806
 		}
-	},
-	[200100071] = {
+	}
+	pg.base.island_task_target[200100071] = {
 		tips = "10010003",
 		jump_ui = "",
 		name = "收集鸡蛋",
@@ -3988,8 +3997,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2601
 		}
-	},
-	[200100081] = {
+	}
+	pg.base.island_task_target[200100081] = {
 		tips = "10020009",
 		jump_ui = "",
 		name = "将能量特调带给帕特莉",
@@ -3999,8 +4008,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1913
 		}
-	},
-	[200110011] = {
+	}
+	pg.base.island_task_target[200110011] = {
 		tips = "10090008",
 		jump_ui = "",
 		name = "去啾咖啡问问布莱梅吧",
@@ -4010,8 +4019,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1224
 		}
-	},
-	[200110021] = {
+	}
+	pg.base.island_task_target[200110021] = {
 		tips = "10020028",
 		jump_ui = "",
 		name = "去码头看看。",
@@ -4021,8 +4030,8 @@ pg.base.island_task_target = {
 		target_param = {
 			10020028
 		}
-	},
-	[200110031] = {
+	}
+	pg.base.island_task_target[200110031] = {
 		tips = "10060002",
 		jump_ui = "",
 		name = "去找阿莫玛吧。",
@@ -4032,8 +4041,8 @@ pg.base.island_task_target = {
 		target_param = {
 			4518
 		}
-	},
-	[200110041] = {
+	}
+	pg.base.island_task_target[200110041] = {
 		tips = "10040002",
 		jump_ui = "",
 		name = "收集自然之木",
@@ -4043,8 +4052,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2800
 		}
-	},
-	[200110042] = {
+	}
+	pg.base.island_task_target[200110042] = {
 		tips = "10040022",
 		jump_ui = "",
 		name = "收集铁矿",
@@ -4054,8 +4063,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2703
 		}
-	},
-	[200110051] = {
+	}
+	pg.base.island_task_target[200110051] = {
 		tips = "10010003",
 		jump_ui = "",
 		name = "收集禽肉",
@@ -4065,8 +4074,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2602
 		}
-	},
-	[200110052] = {
+	}
+	pg.base.island_task_target[200110052] = {
 		tips = "10010003",
 		jump_ui = "",
 		name = "收集牛奶",
@@ -4076,8 +4085,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2603
 		}
-	},
-	[200120011] = {
+	}
+	pg.base.island_task_target[200120011] = {
 		tips = "10010040",
 		jump_ui = "",
 		name = "向赫莫借一个修枝剪",
@@ -4087,8 +4096,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3011
 		}
-	},
-	[200120021] = {
+	}
+	pg.base.island_task_target[200120021] = {
 		tips = "10050002",
 		jump_ui = "",
 		name = "回去交给露西吧",
@@ -4098,8 +4107,8 @@ pg.base.island_task_target = {
 		target_param = {
 			5306
 		}
-	},
-	[200120031] = {
+	}
+	pg.base.island_task_target[200120031] = {
 		tips = "10050002",
 		jump_ui = "",
 		name = "回去交给露西吧",
@@ -4109,8 +4118,8 @@ pg.base.island_task_target = {
 		target_param = {
 			5307
 		}
-	},
-	[200120041] = {
+	}
+	pg.base.island_task_target[200120041] = {
 		tips = "10050036",
 		jump_ui = "",
 		name = "帮露西给土壤施肥",
@@ -4120,8 +4129,8 @@ pg.base.island_task_target = {
 		target_param = {
 			7201
 		}
-	},
-	[200120051] = {
+	}
+	pg.base.island_task_target[200120051] = {
 		tips = "10050002",
 		jump_ui = "",
 		name = "收获柑橘",
@@ -4131,8 +4140,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2017
 		}
-	},
-	[200120061] = {
+	}
+	pg.base.island_task_target[200120061] = {
 		tips = "10090008",
 		jump_ui = "",
 		name = "将柑橘交给布莱梅吧",
@@ -4142,8 +4151,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1225
 		}
-	},
-	[200120071] = {
+	}
+	pg.base.island_task_target[200120071] = {
 		tips = "10050002",
 		jump_ui = "",
 		name = "将柑橘咖啡带给露西",
@@ -4153,8 +4162,8 @@ pg.base.island_task_target = {
 		target_param = {
 			5310
 		}
-	},
-	[200120081] = {
+	}
+	pg.base.island_task_target[200120081] = {
 		tips = "10020009",
 		jump_ui = "",
 		name = "向帕特莉确认订单数量",
@@ -4164,8 +4173,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1920
 		}
-	},
-	[200120091] = {
+	}
+	pg.base.island_task_target[200120091] = {
 		tips = "10050002",
 		jump_ui = "",
 		name = "将防虫剂带给露西",
@@ -4175,8 +4184,8 @@ pg.base.island_task_target = {
 		target_param = {
 			5311
 		}
-	},
-	[200120101] = {
+	}
+	pg.base.island_task_target[200120101] = {
 		tips = "10050037",
 		jump_ui = "",
 		name = "给果树施加防虫剂",
@@ -4186,8 +4195,8 @@ pg.base.island_task_target = {
 		target_param = {
 			7202
 		}
-	},
-	[200130000] = {
+	}
+	pg.base.island_task_target[200130000] = {
 		tips = "",
 		jump_ui = "",
 		name = "提升岛屿开发等级",
@@ -4195,8 +4204,8 @@ pg.base.island_task_target = {
 		id = 200130000,
 		target_num = 22,
 		target_param = ""
-	},
-	[200130011] = {
+	}
+	pg.base.island_task_target[200130011] = {
 		tips = "10020004",
 		jump_ui = "",
 		name = "询问斯蒂芬妮",
@@ -4206,8 +4215,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2312
 		}
-	},
-	[200130021] = {
+	}
+	pg.base.island_task_target[200130021] = {
 		tips = "10050003",
 		jump_ui = "",
 		name = "回去找拉科尼娅",
@@ -4217,8 +4226,8 @@ pg.base.island_task_target = {
 		target_param = {
 			5711
 		}
-	},
-	[200130031] = {
+	}
+	pg.base.island_task_target[200130031] = {
 		tips = "10020009",
 		jump_ui = "",
 		name = "找帕特莉重新订购肥料",
@@ -4228,8 +4237,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1921
 		}
-	},
-	[200130041] = {
+	}
+	pg.base.island_task_target[200130041] = {
 		tips = "10020030",
 		jump_ui = "",
 		name = "前往港口货运中心寻找肥料",
@@ -4239,8 +4248,8 @@ pg.base.island_task_target = {
 		target_param = {
 			7301
 		}
-	},
-	[200130051] = {
+	}
+	pg.base.island_task_target[200130051] = {
 		tips = "10050003",
 		jump_ui = "",
 		name = "将肥料交给拉科尼娅",
@@ -4250,8 +4259,8 @@ pg.base.island_task_target = {
 		target_param = {
 			5712
 		}
-	},
-	[200130061] = {
+	}
+	pg.base.island_task_target[200130061] = {
 		tips = "10050003",
 		jump_ui = "",
 		name = "在苗圃中委派种植薰衣草",
@@ -4261,8 +4270,8 @@ pg.base.island_task_target = {
 		target_param = {
 			502005
 		}
-	},
-	[200130071] = {
+	}
+	pg.base.island_task_target[200130071] = {
 		tips = "10050003",
 		jump_ui = "",
 		name = "收集薰衣草",
@@ -4272,8 +4281,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2015
 		}
-	},
-	[200130081] = {
+	}
+	pg.base.island_task_target[200130081] = {
 		tips = "10020009",
 		jump_ui = "",
 		name = "将打包好的薰衣草包裹交给帕特莉",
@@ -4283,8 +4292,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1922
 		}
-	},
-	[200140011] = {
+	}
+	pg.base.island_task_target[200140011] = {
 		tips = "",
 		jump_ui = "",
 		name = "寻找岛上各处失落的地图残片-1",
@@ -4294,8 +4303,8 @@ pg.base.island_task_target = {
 		target_param = {
 			5
 		}
-	},
-	[200140012] = {
+	}
+	pg.base.island_task_target[200140012] = {
 		tips = "",
 		jump_ui = "",
 		name = "寻找岛上各处失落的地图残片-2",
@@ -4305,8 +4314,8 @@ pg.base.island_task_target = {
 		target_param = {
 			6
 		}
-	},
-	[200140013] = {
+	}
+	pg.base.island_task_target[200140013] = {
 		tips = "",
 		jump_ui = "",
 		name = "寻找岛上各处失落的地图残片-3",
@@ -4316,8 +4325,8 @@ pg.base.island_task_target = {
 		target_param = {
 			7
 		}
-	},
-	[200140014] = {
+	}
+	pg.base.island_task_target[200140014] = {
 		tips = "",
 		jump_ui = "",
 		name = "寻找岛上各处失落的地图残片-4",
@@ -4327,8 +4336,8 @@ pg.base.island_task_target = {
 		target_param = {
 			8
 		}
-	},
-	[200140015] = {
+	}
+	pg.base.island_task_target[200140015] = {
 		tips = "",
 		jump_ui = "",
 		name = "寻找岛上各处失落的地图残片-5",
@@ -4338,8 +4347,8 @@ pg.base.island_task_target = {
 		target_param = {
 			9
 		}
-	},
-	[200140021] = {
+	}
+	pg.base.island_task_target[200140021] = {
 		tips = "10040051",
 		jump_ui = "",
 		name = "去地图上标记的地方寻找秘宝吧",
@@ -4349,8 +4358,8 @@ pg.base.island_task_target = {
 		target_param = {
 			10040051
 		}
-	},
-	[200140031] = {
+	}
+	pg.base.island_task_target[200140031] = {
 		tips = "10040051",
 		jump_ui = "",
 		name = "将地面挖开看看",
@@ -4360,8 +4369,8 @@ pg.base.island_task_target = {
 		target_param = {
 			5201
 		}
-	},
-	[200150011] = {
+	}
+	pg.base.island_task_target[200150011] = {
 		tips = "",
 		jump_ui = "11",
 		name = "获取开发商店中的装扮",
@@ -4371,8 +4380,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1020001
 		}
-	},
-	[200150021] = {
+	}
+	pg.base.island_task_target[200150021] = {
 		tips = "",
 		jump_ui = "",
 		name = "完成当前开发季开发计划",
@@ -4382,8 +4391,8 @@ pg.base.island_task_target = {
 		target_param = {
 			8
 		}
-	},
-	[200160011] = {
+	}
+	pg.base.island_task_target[200160011] = {
 		tips = "10020071",
 		jump_ui = "",
 		name = "向布莉缇了解情况",
@@ -4393,8 +4402,8 @@ pg.base.island_task_target = {
 		target_param = {
 			8005
 		}
-	},
-	[200160012] = {
+	}
+	pg.base.island_task_target[200160012] = {
 		tips = "10020078",
 		jump_ui = "",
 		name = "钓起任意一条鱼",
@@ -4402,8 +4411,8 @@ pg.base.island_task_target = {
 		id = 200160012,
 		target_num = 1,
 		target_param = ""
-	},
-	[200160013] = {
+	}
+	pg.base.island_task_target[200160013] = {
 		tips = "",
 		jump_ui = "18",
 		name = "查看钓鱼图鉴",
@@ -4413,8 +4422,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3000032
 		}
-	},
-	[200160041] = {
+	}
+	pg.base.island_task_target[200160041] = {
 		tips = "10020071",
 		jump_ui = "",
 		name = "查看啾啾渔场",
@@ -4424,8 +4433,8 @@ pg.base.island_task_target = {
 		target_param = {
 			8002
 		}
-	},
-	[200160042] = {
+	}
+	pg.base.island_task_target[200160042] = {
 		tips = "10020071",
 		jump_ui = "",
 		name = "查看鱼肉加工",
@@ -4435,8 +4444,8 @@ pg.base.island_task_target = {
 		target_param = {
 			8003
 		}
-	},
-	[200160043] = {
+	}
+	pg.base.island_task_target[200160043] = {
 		tips = "10020071",
 		jump_ui = "",
 		name = "查看渔具商店",
@@ -4446,8 +4455,8 @@ pg.base.island_task_target = {
 		target_param = {
 			8004
 		}
-	},
-	[200170011] = {
+	}
+	pg.base.island_task_target[200170011] = {
 		tips = "10020025",
 		jump_ui = "",
 		name = "向佩芮了解情况",
@@ -4457,8 +4466,8 @@ pg.base.island_task_target = {
 		target_param = {
 			5824
 		}
-	},
-	[200170021] = {
+	}
+	pg.base.island_task_target[200170021] = {
 		tips = "",
 		jump_ui = "",
 		name = "提升岛屿开发等级",
@@ -4466,8 +4475,8 @@ pg.base.island_task_target = {
 		id = 200170021,
 		target_num = 22,
 		target_param = ""
-	},
-	[200170031] = {
+	}
+	pg.base.island_task_target[200170031] = {
 		tips = "10030018",
 		jump_ui = "",
 		name = "找到神秘商人珂汀",
@@ -4477,8 +4486,8 @@ pg.base.island_task_target = {
 		target_param = {
 			10030018
 		}
-	},
-	[301010011] = {
+	}
+	pg.base.island_task_target[301010011] = {
 		tips = "",
 		jump_ui = "",
 		name = "获得任意矿石和木材",
@@ -4489,8 +4498,8 @@ pg.base.island_task_target = {
 			10123,
 			10124
 		}
-	},
-	[302010011] = {
+	}
+	pg.base.island_task_target[302010011] = {
 		tips = "",
 		jump_ui = "8",
 		name = "委派生产任意资材",
@@ -4500,8 +4509,8 @@ pg.base.island_task_target = {
 		target_param = {
 			0
 		}
-	},
-	[303010011] = {
+	}
+	pg.base.island_task_target[303010011] = {
 		tips = "",
 		jump_ui = "7",
 		name = "完成任意货运委托",
@@ -4511,8 +4520,8 @@ pg.base.island_task_target = {
 		target_param = {
 			0
 		}
-	},
-	[304010011] = {
+	}
+	pg.base.island_task_target[304010011] = {
 		tips = "",
 		jump_ui = "6",
 		name = "交付任意岛屿订单",
@@ -4522,8 +4531,8 @@ pg.base.island_task_target = {
 		target_param = {
 			0
 		}
-	},
-	[305010011] = {
+	}
+	pg.base.island_task_target[305010011] = {
 		tips = "10020009",
 		jump_ui = "",
 		name = "去找帕特莉吧",
@@ -4533,8 +4542,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1915
 		}
-	},
-	[305010021] = {
+	}
+	pg.base.island_task_target[305010021] = {
 		tips = "10040002",
 		jump_ui = "",
 		name = "去找奥布莱恩吧",
@@ -4544,8 +4553,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1714
 		}
-	},
-	[305010022] = {
+	}
+	pg.base.island_task_target[305010022] = {
 		tips = "10010003",
 		jump_ui = "",
 		name = "去找梅莉吧",
@@ -4555,8 +4564,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2906
 		}
-	},
-	[305010023] = {
+	}
+	pg.base.island_task_target[305010023] = {
 		tips = "10030008",
 		jump_ui = "",
 		name = "去找莉莎吧",
@@ -4566,8 +4575,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2707
 		}
-	},
-	[305010111] = {
+	}
+	pg.base.island_task_target[305010111] = {
 		tips = "10020009",
 		jump_ui = "",
 		name = "去找帕特莉吧",
@@ -4577,8 +4586,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1916
 		}
-	},
-	[305010121] = {
+	}
+	pg.base.island_task_target[305010121] = {
 		tips = "10050003",
 		jump_ui = "",
 		name = "去找拉科尼娅吧",
@@ -4588,8 +4597,8 @@ pg.base.island_task_target = {
 		target_param = {
 			5703
 		}
-	},
-	[305010122] = {
+	}
+	pg.base.island_task_target[305010122] = {
 		tips = "10040022",
 		jump_ui = "",
 		name = "去找乔安吧",
@@ -4599,8 +4608,8 @@ pg.base.island_task_target = {
 		target_param = {
 			814
 		}
-	},
-	[305010123] = {
+	}
+	pg.base.island_task_target[305010123] = {
 		tips = "10010041",
 		jump_ui = "",
 		name = "去找奥利匹克吧",
@@ -4610,8 +4619,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2804
 		}
-	},
-	[305010211] = {
+	}
+	pg.base.island_task_target[305010211] = {
 		tips = "10020009",
 		jump_ui = "",
 		name = "去找帕特莉吧",
@@ -4621,8 +4630,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1917
 		}
-	},
-	[305010221] = {
+	}
+	pg.base.island_task_target[305010221] = {
 		tips = "10060002",
 		jump_ui = "",
 		name = "去找阿莫玛吧",
@@ -4632,8 +4641,8 @@ pg.base.island_task_target = {
 		target_param = {
 			4509
 		}
-	},
-	[305010222] = {
+	}
+	pg.base.island_task_target[305010222] = {
 		tips = "10040022",
 		jump_ui = "",
 		name = "去找乔安吧",
@@ -4643,8 +4652,8 @@ pg.base.island_task_target = {
 		target_param = {
 			815
 		}
-	},
-	[305010223] = {
+	}
+	pg.base.island_task_target[305010223] = {
 		tips = "10050002",
 		jump_ui = "",
 		name = "去找露西吧",
@@ -4654,8 +4663,8 @@ pg.base.island_task_target = {
 		target_param = {
 			5302
 		}
-	},
-	[305010311] = {
+	}
+	pg.base.island_task_target[305010311] = {
 		tips = "10020009",
 		jump_ui = "",
 		name = "去找帕特莉吧",
@@ -4665,8 +4674,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1914
 		}
-	},
-	[305010321] = {
+	}
+	pg.base.island_task_target[305010321] = {
 		tips = "10060002",
 		jump_ui = "",
 		name = "去找阿莫玛吧",
@@ -4676,8 +4685,8 @@ pg.base.island_task_target = {
 		target_param = {
 			4510
 		}
-	},
-	[305010322] = {
+	}
+	pg.base.island_task_target[305010322] = {
 		tips = "10050003",
 		jump_ui = "",
 		name = "去找拉科尼娅吧",
@@ -4687,8 +4696,8 @@ pg.base.island_task_target = {
 		target_param = {
 			5704
 		}
-	},
-	[305010323] = {
+	}
+	pg.base.island_task_target[305010323] = {
 		tips = "10030008",
 		jump_ui = "",
 		name = "去找莉莎吧",
@@ -4698,8 +4707,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2708
 		}
-	},
-	[305020011] = {
+	}
+	pg.base.island_task_target[305020011] = {
 		tips = "10060002",
 		jump_ui = "",
 		name = "去找阿莫玛吧",
@@ -4709,8 +4718,8 @@ pg.base.island_task_target = {
 		target_param = {
 			4511
 		}
-	},
-	[305020021] = {
+	}
+	pg.base.island_task_target[305020021] = {
 		tips = "10050003",
 		jump_ui = "",
 		name = "去找拉科尼娅吧",
@@ -4720,8 +4729,8 @@ pg.base.island_task_target = {
 		target_param = {
 			5705
 		}
-	},
-	[305020022] = {
+	}
+	pg.base.island_task_target[305020022] = {
 		tips = "10020009",
 		jump_ui = "",
 		name = "去找帕特莉吧",
@@ -4731,8 +4740,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1918
 		}
-	},
-	[305020023] = {
+	}
+	pg.base.island_task_target[305020023] = {
 		tips = "10030008",
 		jump_ui = "",
 		name = "去找莉莎吧",
@@ -4742,8 +4751,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2709
 		}
-	},
-	[305020111] = {
+	}
+	pg.base.island_task_target[305020111] = {
 		tips = "10060002",
 		jump_ui = "",
 		name = "去找阿莫玛吧",
@@ -4753,8 +4762,8 @@ pg.base.island_task_target = {
 		target_param = {
 			4512
 		}
-	},
-	[305020121] = {
+	}
+	pg.base.island_task_target[305020121] = {
 		tips = "10040002",
 		jump_ui = "",
 		name = "去找奥布莱恩吧",
@@ -4764,8 +4773,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1715
 		}
-	},
-	[305020122] = {
+	}
+	pg.base.island_task_target[305020122] = {
 		tips = "10030008",
 		jump_ui = "",
 		name = "去找莉莎吧",
@@ -4775,8 +4784,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2710
 		}
-	},
-	[305020123] = {
+	}
+	pg.base.island_task_target[305020123] = {
 		tips = "10090008",
 		jump_ui = "",
 		name = "去找布莱梅吧",
@@ -4786,8 +4795,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1215
 		}
-	},
-	[305020211] = {
+	}
+	pg.base.island_task_target[305020211] = {
 		tips = "10060002",
 		jump_ui = "",
 		name = "去找阿莫玛吧",
@@ -4797,8 +4806,8 @@ pg.base.island_task_target = {
 		target_param = {
 			4513
 		}
-	},
-	[305020221] = {
+	}
+	pg.base.island_task_target[305020221] = {
 		tips = "10010040",
 		jump_ui = "",
 		name = "去找赫莫吧",
@@ -4808,8 +4817,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3006
 		}
-	},
-	[305020222] = {
+	}
+	pg.base.island_task_target[305020222] = {
 		tips = "10030008",
 		jump_ui = "",
 		name = "去找莉莎吧",
@@ -4819,8 +4828,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2711
 		}
-	},
-	[305020223] = {
+	}
+	pg.base.island_task_target[305020223] = {
 		tips = "10050002",
 		jump_ui = "",
 		name = "去找露西吧",
@@ -4830,8 +4839,10 @@ pg.base.island_task_target = {
 		target_param = {
 			5303
 		}
-	},
-	[305020311] = {
+	}
+end)()
+(function ()
+	pg.base.island_task_target[305020311] = {
 		tips = "10060002",
 		jump_ui = "",
 		name = "去找阿莫玛吧",
@@ -4841,8 +4852,8 @@ pg.base.island_task_target = {
 		target_param = {
 			4514
 		}
-	},
-	[305020321] = {
+	}
+	pg.base.island_task_target[305020321] = {
 		tips = "10030008",
 		jump_ui = "",
 		name = "去找莉莎吧",
@@ -4852,8 +4863,8 @@ pg.base.island_task_target = {
 		target_param = {
 			2712
 		}
-	},
-	[305020322] = {
+	}
+	pg.base.island_task_target[305020322] = {
 		tips = "10050002",
 		jump_ui = "",
 		name = "去找露西吧",
@@ -4863,8 +4874,8 @@ pg.base.island_task_target = {
 		target_param = {
 			5304
 		}
-	},
-	[305020323] = {
+	}
+	pg.base.island_task_target[305020323] = {
 		tips = "10040002",
 		jump_ui = "",
 		name = "去找奥布莱恩吧",
@@ -4874,8 +4885,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1716
 		}
-	},
-	[305040011] = {
+	}
+	pg.base.island_task_target[305040011] = {
 		tips = "",
 		jump_ui = "",
 		name = "抚摸猫咪",
@@ -4885,8 +4896,8 @@ pg.base.island_task_target = {
 		target_param = {
 			6201
 		}
-	},
-	[305050011] = {
+	}
+	pg.base.island_task_target[305050011] = {
 		tips = "",
 		jump_ui = "",
 		name = "做出任意动作",
@@ -4896,8 +4907,8 @@ pg.base.island_task_target = {
 		target_param = {
 			0
 		}
-	},
-	[305080011] = {
+	}
+	pg.base.island_task_target[305080011] = {
 		tips = "",
 		jump_ui = "",
 		name = "和角色进行一次互动",
@@ -4905,8 +4916,8 @@ pg.base.island_task_target = {
 		id = 305080011,
 		target_num = 1,
 		target_param = ""
-	},
-	[306010011] = {
+	}
+	pg.base.island_task_target[306010011] = {
 		tips = "10030009",
 		jump_ui = "",
 		name = "接收日常补给",
@@ -4914,8 +4925,8 @@ pg.base.island_task_target = {
 		id = 306010011,
 		target_num = 1,
 		target_param = ""
-	},
-	[307010011] = {
+	}
+	pg.base.island_task_target[307010011] = {
 		tips = "",
 		jump_ui = "5",
 		name = "制作任意餐品",
@@ -4928,8 +4939,8 @@ pg.base.island_task_target = {
 			603,
 			604
 		}
-	},
-	[307020011] = {
+	}
+	pg.base.island_task_target[307020011] = {
 		tips = "10060002",
 		jump_ui = "",
 		name = "制作任意有鱼餐馆的餐品",
@@ -4939,8 +4950,8 @@ pg.base.island_task_target = {
 		target_param = {
 			601
 		}
-	},
-	[307030011] = {
+	}
+	pg.base.island_task_target[307030011] = {
 		tips = "10060002",
 		jump_ui = "",
 		name = "制作任意白熊饮品的餐品",
@@ -4950,8 +4961,8 @@ pg.base.island_task_target = {
 		target_param = {
 			602
 		}
-	},
-	[307040011] = {
+	}
+	pg.base.island_task_target[307040011] = {
 		tips = "10060002",
 		jump_ui = "",
 		name = "制作任意啾啾简餐的餐品",
@@ -4961,8 +4972,8 @@ pg.base.island_task_target = {
 		target_param = {
 			603
 		}
-	},
-	[307050011] = {
+	}
+	pg.base.island_task_target[307050011] = {
 		tips = "10060002",
 		jump_ui = "",
 		name = "制作任意乌鱼烤肉的餐品",
@@ -4972,8 +4983,8 @@ pg.base.island_task_target = {
 		target_param = {
 			604
 		}
-	},
-	[307060011] = {
+	}
+	pg.base.island_task_target[307060011] = {
 		tips = "10090008",
 		jump_ui = "",
 		name = "制作任意啾咖啡的餐品",
@@ -4983,8 +4994,8 @@ pg.base.island_task_target = {
 		target_param = {
 			901
 		}
-	},
-	[300000011] = {
+	}
+	pg.base.island_task_target[300000011] = {
 		tips = "10040079",
 		jump_ui = "",
 		name = "采集任意矿物",
@@ -4994,8 +5005,8 @@ pg.base.island_task_target = {
 		target_param = {
 			401
 		}
-	},
-	[300000021] = {
+	}
+	pg.base.island_task_target[300000021] = {
 		tips = "10040080",
 		jump_ui = "",
 		name = "采集任意木材",
@@ -5005,8 +5016,8 @@ pg.base.island_task_target = {
 		target_param = {
 			402
 		}
-	},
-	[300000031] = {
+	}
+	pg.base.island_task_target[300000031] = {
 		tips = "",
 		jump_ui = "6",
 		name = "交付任意岛屿订单",
@@ -5016,8 +5027,8 @@ pg.base.island_task_target = {
 		target_param = {
 			0
 		}
-	},
-	[300000041] = {
+	}
+	pg.base.island_task_target[300000041] = {
 		tips = "",
 		jump_ui = "12",
 		name = "完成任意科研",
@@ -5027,8 +5038,8 @@ pg.base.island_task_target = {
 		target_param = {
 			702
 		}
-	},
-	[300000051] = {
+	}
+	pg.base.island_task_target[300000051] = {
 		tips = "",
 		jump_ui = "",
 		name = "做出任意动作",
@@ -5038,8 +5049,8 @@ pg.base.island_task_target = {
 		target_param = {
 			0
 		}
-	},
-	[300000061] = {
+	}
+	pg.base.island_task_target[300000061] = {
 		tips = "10020009",
 		jump_ui = "",
 		name = "去找帕特莉吧",
@@ -5049,8 +5060,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1919
 		}
-	},
-	[300000071] = {
+	}
+	pg.base.island_task_target[300000071] = {
 		tips = "10040002",
 		jump_ui = "",
 		name = "去找奥布莱恩吧",
@@ -5060,8 +5071,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1717
 		}
-	},
-	[300000072] = {
+	}
+	pg.base.island_task_target[300000072] = {
 		tips = "10040022",
 		jump_ui = "",
 		name = "去找乔安吧",
@@ -5071,8 +5082,8 @@ pg.base.island_task_target = {
 		target_param = {
 			816
 		}
-	},
-	[300000073] = {
+	}
+	pg.base.island_task_target[300000073] = {
 		tips = "10090008",
 		jump_ui = "",
 		name = "去找布莱梅吧",
@@ -5082,8 +5093,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1216
 		}
-	},
-	[300000081] = {
+	}
+	pg.base.island_task_target[300000081] = {
 		tips = "",
 		jump_ui = "",
 		name = "抚摸猫咪",
@@ -5093,8 +5104,8 @@ pg.base.island_task_target = {
 		target_param = {
 			6201
 		}
-	},
-	[401010011] = {
+	}
+	pg.base.island_task_target[401010011] = {
 		tips = "10040022",
 		jump_ui = "",
 		name = "委派开采任意矿物",
@@ -5104,8 +5115,8 @@ pg.base.island_task_target = {
 		target_param = {
 			401
 		}
-	},
-	[401020011] = {
+	}
+	pg.base.island_task_target[401020011] = {
 		tips = "10040002",
 		jump_ui = "",
 		name = "委派采集任意木材",
@@ -5115,8 +5126,8 @@ pg.base.island_task_target = {
 		target_param = {
 			402
 		}
-	},
-	[401030011] = {
+	}
+	pg.base.island_task_target[401030011] = {
 		tips = "10010040",
 		jump_ui = "",
 		name = "委派种植任意农田作物",
@@ -5126,8 +5137,8 @@ pg.base.island_task_target = {
 		target_param = {
 			101
 		}
-	},
-	[401040011] = {
+	}
+	pg.base.island_task_target[401040011] = {
 		tips = "10050003",
 		jump_ui = "",
 		name = "委派种植任意苗圃作物",
@@ -5137,8 +5148,8 @@ pg.base.island_task_target = {
 		target_param = {
 			502
 		}
-	},
-	[401050011] = {
+	}
+	pg.base.island_task_target[401050011] = {
 		tips = "10050002",
 		jump_ui = "",
 		name = "委派种植任意果园树木",
@@ -5148,8 +5159,8 @@ pg.base.island_task_target = {
 		target_param = {
 			501
 		}
-	},
-	[401060011] = {
+	}
+	pg.base.island_task_target[401060011] = {
 		tips = "10010003",
 		jump_ui = "",
 		name = "委派照顾任意牧场动物",
@@ -5159,8 +5170,8 @@ pg.base.island_task_target = {
 		target_param = {
 			102
 		}
-	},
-	[401070011] = {
+	}
+	pg.base.island_task_target[401070011] = {
 		tips = "10070016",
 		jump_ui = "",
 		name = "生产任意手工产品",
@@ -5170,8 +5181,8 @@ pg.base.island_task_target = {
 		target_param = {
 			706
 		}
-	},
-	[401080011] = {
+	}
+	pg.base.island_task_target[401080011] = {
 		tips = "10070014",
 		jump_ui = "",
 		name = "生产任意工业产品",
@@ -5181,8 +5192,8 @@ pg.base.island_task_target = {
 		target_param = {
 			704
 		}
-	},
-	[401090011] = {
+	}
+	pg.base.island_task_target[401090011] = {
 		tips = "10070013",
 		jump_ui = "",
 		name = "生产任意木料产品",
@@ -5192,8 +5203,8 @@ pg.base.island_task_target = {
 		target_param = {
 			703
 		}
-	},
-	[401100011] = {
+	}
+	pg.base.island_task_target[401100011] = {
 		tips = "10070015",
 		jump_ui = "",
 		name = "生产任意电子产品",
@@ -5203,8 +5214,8 @@ pg.base.island_task_target = {
 		target_param = {
 			705
 		}
-	},
-	[402010011] = {
+	}
+	pg.base.island_task_target[402010011] = {
 		tips = "",
 		jump_ui = "5",
 		name = "制作任意套餐",
@@ -5226,8 +5237,8 @@ pg.base.island_task_target = {
 			901102,
 			901103
 		}
-	},
-	[403010011] = {
+	}
+	pg.base.island_task_target[403010011] = {
 		tips = "",
 		jump_ui = "5",
 		name = "上架任意商品",
@@ -5237,8 +5248,8 @@ pg.base.island_task_target = {
 		target_param = {
 			0
 		}
-	},
-	[404010011] = {
+	}
+	pg.base.island_task_target[404010011] = {
 		tips = "",
 		jump_ui = "19",
 		name = "拍摄任意照片",
@@ -5248,8 +5259,8 @@ pg.base.island_task_target = {
 		target_param = {
 			0
 		}
-	},
-	[405010011] = {
+	}
+	pg.base.island_task_target[405010011] = {
 		tips = "",
 		jump_ui = "",
 		name = "完成每日计划",
@@ -5259,8 +5270,8 @@ pg.base.island_task_target = {
 		target_param = {
 			3
 		}
-	},
-	[406010011] = {
+	}
+	pg.base.island_task_target[406010011] = {
 		tips = "",
 		jump_ui = "",
 		name = "获得岛屿开发资金",
@@ -5270,8 +5281,8 @@ pg.base.island_task_target = {
 		target_param = {
 			1
 		}
-	},
-	[900010011] = {
+	}
+	pg.base.island_task_target[900010011] = {
 		tips = "",
 		jump_ui = "",
 		name = "最高抵达1050推演积分",
@@ -5281,8 +5292,8 @@ pg.base.island_task_target = {
 		target_param = {
 			101
 		}
-	},
-	[900010021] = {
+	}
+	pg.base.island_task_target[900010021] = {
 		tips = "",
 		jump_ui = "",
 		name = "最高抵达1100推演积分",
@@ -5292,8 +5303,8 @@ pg.base.island_task_target = {
 		target_param = {
 			101
 		}
-	},
-	[900010031] = {
+	}
+	pg.base.island_task_target[900010031] = {
 		tips = "",
 		jump_ui = "",
 		name = "最高抵达1150推演积分",
@@ -5303,8 +5314,8 @@ pg.base.island_task_target = {
 		target_param = {
 			101
 		}
-	},
-	[900010041] = {
+	}
+	pg.base.island_task_target[900010041] = {
 		tips = "",
 		jump_ui = "",
 		name = "最高抵达1200推演积分",
@@ -5314,8 +5325,8 @@ pg.base.island_task_target = {
 		target_param = {
 			101
 		}
-	},
-	[900010051] = {
+	}
+	pg.base.island_task_target[900010051] = {
 		tips = "",
 		jump_ui = "",
 		name = "最高抵达1250推演积分",
@@ -5325,8 +5336,8 @@ pg.base.island_task_target = {
 		target_param = {
 			101
 		}
-	},
-	[900010061] = {
+	}
+	pg.base.island_task_target[900010061] = {
 		tips = "",
 		jump_ui = "",
 		name = "最高抵达1300推演积分",
@@ -5336,8 +5347,8 @@ pg.base.island_task_target = {
 		target_param = {
 			101
 		}
-	},
-	[900010071] = {
+	}
+	pg.base.island_task_target[900010071] = {
 		tips = "",
 		jump_ui = "",
 		name = "最高抵达1350推演积分",
@@ -5347,8 +5358,8 @@ pg.base.island_task_target = {
 		target_param = {
 			101
 		}
-	},
-	[900010081] = {
+	}
+	pg.base.island_task_target[900010081] = {
 		tips = "",
 		jump_ui = "",
 		name = "最高抵达1400推演积分",
@@ -5358,8 +5369,8 @@ pg.base.island_task_target = {
 		target_param = {
 			101
 		}
-	},
-	[900010091] = {
+	}
+	pg.base.island_task_target[900010091] = {
 		tips = "",
 		jump_ui = "",
 		name = "最高抵达1450推演积分",
@@ -5369,8 +5380,8 @@ pg.base.island_task_target = {
 		target_param = {
 			101
 		}
-	},
-	[900010101] = {
+	}
+	pg.base.island_task_target[900010101] = {
 		tips = "",
 		jump_ui = "",
 		name = "最高抵达1500推演积分",
@@ -5380,8 +5391,8 @@ pg.base.island_task_target = {
 		target_param = {
 			101
 		}
-	},
-	[900010111] = {
+	}
+	pg.base.island_task_target[900010111] = {
 		tips = "",
 		jump_ui = "",
 		name = "最高抵达1550推演积分",
@@ -5391,8 +5402,8 @@ pg.base.island_task_target = {
 		target_param = {
 			101
 		}
-	},
-	[900010121] = {
+	}
+	pg.base.island_task_target[900010121] = {
 		tips = "",
 		jump_ui = "",
 		name = "最高抵达1600推演积分",
@@ -5402,8 +5413,8 @@ pg.base.island_task_target = {
 		target_param = {
 			101
 		}
-	},
-	[900010201] = {
+	}
+	pg.base.island_task_target[900010201] = {
 		tips = "",
 		jump_ui = "",
 		name = "最高抵达3000推演积分",
@@ -5414,4 +5425,4 @@ pg.base.island_task_target = {
 			101
 		}
 	}
-}
+end)()

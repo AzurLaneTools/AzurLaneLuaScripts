@@ -1,5 +1,47 @@
 pg = pg or {}
 pg.enemy_data_statistics_348 = {
+	[16766203] = {
+		cannon = 200,
+		name = "往昔幻影",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		id = 16766203,
+		air = 200,
+		armor = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		fog_fx = "",
+		dodge_growth = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 91138,
+		durability = 100000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 20,
+		luck = 25,
+		antisub = 0,
+		scale = 180,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 100,
+		torpedo = 0,
+		durability_growth = 0,
+		antiaircraft = 200,
+		battle_unit_type = 95,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			3303101,
+			3303102,
+			3303103
+		}
+	},
 	[16766204] = {
 		cannon = 200,
 		name = "地獄惡魔啾萊姆之王",
@@ -1326,59 +1368,6 @@ pg.enemy_data_statistics_348 = {
 			3316041,
 			3316046,
 			3316206
-		}
-	},
-	[16771104] = {
-		cannon = 35,
-		speed = 15,
-		battle_unit_type = 60,
-		speed_growth = 0,
-		luck_growth = 0,
-		air = 0,
-		armor = 0,
-		id = 16771104,
-		hit_growth = 144,
-		fog_fx = "",
-		dodge_growth = 0,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 91146,
-		durability = 1020,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck = 0,
-		antisub = 0,
-		scale = 260,
-		cannon_growth = 2000,
-		pilot_ai_template_id = 20004,
-		reload = 200,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 10,
-		torpedo = 0,
-		durability_growth = 33600,
-		antiaircraft = 40,
-		antiaircraft_growth = 1200,
-		appear_fx = {
-			"appearsmall",
-			"nuofukedanchuan_buff_01"
-		},
-		hp_bar = {
-			200,
-			6
-		},
-		equipment_list = {
-			3316051,
-			3316061,
-			3316046,
-			3316026,
-			3316211
-		},
-		buff_list = {
-			{
-				ID = 50510,
-				LV = 2
-			}
 		}
 	}
 }

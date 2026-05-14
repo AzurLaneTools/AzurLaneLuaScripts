@@ -1,6 +1,88 @@
 pg = pg or {}
-pg.dorm3d_zone_template = {
-	[1000] = {
+pg.dorm3d_zone_template = rawget(pg, "dorm3d_zone_template") or setmetatable({
+	__name = "dorm3d_zone_template"
+}, confNEO)
+pg.dorm3d_zone_template.all = {
+	1000,
+	1001,
+	1002,
+	1003,
+	2001,
+	2002,
+	2003,
+	3001,
+	3002,
+	3003,
+	4001,
+	4002,
+	4003,
+	4004,
+	4005,
+	11001,
+	11002,
+	11003,
+	12001,
+	12002,
+	12003,
+	14001,
+	14002,
+	14003,
+	16001,
+	16002,
+	16003,
+	16004
+}
+pg.dorm3d_zone_template.get_id_list_by_room_id = {
+	{
+		1000,
+		1001,
+		1002,
+		1003
+	},
+	{
+		2001,
+		2002,
+		2003
+	},
+	{
+		3001,
+		3002,
+		3003
+	},
+	{
+		4001,
+		4002,
+		4003,
+		4004,
+		4005
+	},
+	[11] = {
+		11001,
+		11002,
+		11003
+	},
+	[12] = {
+		12001,
+		12002,
+		12003
+	},
+	[14] = {
+		14001,
+		14002,
+		14003
+	},
+	[16] = {
+		16001,
+		16002,
+		16003,
+		16004
+	}
+}
+pg.base = pg.base or {}
+pg.base.dorm3d_zone_template = {}
+
+(function ()
+	pg.base.dorm3d_zone_template[1000] = {
 		is_global = 1,
 		name = "全局区域",
 		type_prioritys = "",
@@ -9,8 +91,8 @@ pg.dorm3d_zone_template = {
 		room_id = 1,
 		watch_camera = "",
 		special_action = ""
-	},
-	[1001] = {
+	}
+	pg.base.dorm3d_zone_template[1001] = {
 		is_global = 0,
 		name = "臥室",
 		touch_id = "",
@@ -32,8 +114,8 @@ pg.dorm3d_zone_template = {
 				}
 			}
 		}
-	},
-	[1002] = {
+	}
+	pg.base.dorm3d_zone_template[1002] = {
 		is_global = 0,
 		name = "餐廳",
 		type_prioritys = "",
@@ -50,8 +132,8 @@ pg.dorm3d_zone_template = {
 				}
 			}
 		}
-	},
-	[1003] = {
+	}
+	pg.base.dorm3d_zone_template[1003] = {
 		is_global = 0,
 		name = "客廳",
 		type_prioritys = "",
@@ -68,8 +150,8 @@ pg.dorm3d_zone_template = {
 				}
 			}
 		}
-	},
-	[2001] = {
+	}
+	pg.base.dorm3d_zone_template[2001] = {
 		is_global = 0,
 		name = "臥室",
 		type_prioritys = "",
@@ -78,8 +160,8 @@ pg.dorm3d_zone_template = {
 		room_id = 2,
 		watch_camera = "Bed",
 		special_action = ""
-	},
-	[2002] = {
+	}
+	pg.base.dorm3d_zone_template[2002] = {
 		is_global = 0,
 		name = "餐廳",
 		type_prioritys = "",
@@ -88,8 +170,8 @@ pg.dorm3d_zone_template = {
 		room_id = 2,
 		watch_camera = "Table",
 		special_action = ""
-	},
-	[2003] = {
+	}
+	pg.base.dorm3d_zone_template[2003] = {
 		is_global = 0,
 		name = "客廳",
 		type_prioritys = "",
@@ -98,8 +180,8 @@ pg.dorm3d_zone_template = {
 		room_id = 2,
 		watch_camera = "Chair",
 		special_action = ""
-	},
-	[3001] = {
+	}
+	pg.base.dorm3d_zone_template[3001] = {
 		is_global = 0,
 		name = "臥室",
 		type_prioritys = "",
@@ -108,8 +190,8 @@ pg.dorm3d_zone_template = {
 		room_id = 3,
 		watch_camera = "Bed",
 		special_action = ""
-	},
-	[3002] = {
+	}
+	pg.base.dorm3d_zone_template[3002] = {
 		is_global = 0,
 		name = "娛樂區",
 		type_prioritys = "",
@@ -118,8 +200,8 @@ pg.dorm3d_zone_template = {
 		room_id = 3,
 		watch_camera = "Table",
 		special_action = ""
-	},
-	[3003] = {
+	}
+	pg.base.dorm3d_zone_template[3003] = {
 		is_global = 0,
 		name = "客廳",
 		type_prioritys = "",
@@ -128,8 +210,8 @@ pg.dorm3d_zone_template = {
 		room_id = 3,
 		watch_camera = "Chair",
 		special_action = ""
-	},
-	[4001] = {
+	}
+	pg.base.dorm3d_zone_template[4001] = {
 		is_global = 0,
 		name = "入口",
 		type_prioritys = "",
@@ -151,8 +233,8 @@ pg.dorm3d_zone_template = {
 				}
 			}
 		}
-	},
-	[4002] = {
+	}
+	pg.base.dorm3d_zone_template[4002] = {
 		is_global = 0,
 		name = "沙灘椅",
 		type_prioritys = "",
@@ -174,8 +256,8 @@ pg.dorm3d_zone_template = {
 				}
 			}
 		}
-	},
-	[4003] = {
+	}
+	pg.base.dorm3d_zone_template[4003] = {
 		is_global = 0,
 		name = "遮陽傘",
 		type_prioritys = "",
@@ -189,8 +271,8 @@ pg.dorm3d_zone_template = {
 			}
 		},
 		special_action = {}
-	},
-	[4004] = {
+	}
+	pg.base.dorm3d_zone_template[4004] = {
 		is_global = 0,
 		name = "海灘",
 		type_prioritys = "",
@@ -204,8 +286,8 @@ pg.dorm3d_zone_template = {
 			}
 		},
 		special_action = {}
-	},
-	[4005] = {
+	}
+	pg.base.dorm3d_zone_template[4005] = {
 		is_global = 0,
 		name = "溜滑梯",
 		type_prioritys = "",
@@ -219,8 +301,8 @@ pg.dorm3d_zone_template = {
 			}
 		},
 		special_action = {}
-	},
-	[11001] = {
+	}
+	pg.base.dorm3d_zone_template[11001] = {
 		is_global = 0,
 		name = "臥室",
 		type_prioritys = "",
@@ -229,8 +311,8 @@ pg.dorm3d_zone_template = {
 		room_id = 11,
 		watch_camera = "Bed",
 		special_action = ""
-	},
-	[11002] = {
+	}
+	pg.base.dorm3d_zone_template[11002] = {
 		is_global = 0,
 		name = "餐廳",
 		type_prioritys = "",
@@ -239,8 +321,8 @@ pg.dorm3d_zone_template = {
 		room_id = 11,
 		watch_camera = "Table",
 		special_action = ""
-	},
-	[11003] = {
+	}
+	pg.base.dorm3d_zone_template[11003] = {
 		is_global = 0,
 		name = "客廳",
 		type_prioritys = "",
@@ -249,8 +331,8 @@ pg.dorm3d_zone_template = {
 		room_id = 11,
 		watch_camera = "Chair",
 		special_action = ""
-	},
-	[12001] = {
+	}
+	pg.base.dorm3d_zone_template[12001] = {
 		is_global = 0,
 		name = "臥室",
 		type_prioritys = "",
@@ -259,8 +341,8 @@ pg.dorm3d_zone_template = {
 		room_id = 12,
 		watch_camera = "Bed",
 		special_action = ""
-	},
-	[12002] = {
+	}
+	pg.base.dorm3d_zone_template[12002] = {
 		is_global = 0,
 		name = "餐廳",
 		type_prioritys = "",
@@ -269,8 +351,8 @@ pg.dorm3d_zone_template = {
 		room_id = 12,
 		watch_camera = "Table",
 		special_action = ""
-	},
-	[12003] = {
+	}
+	pg.base.dorm3d_zone_template[12003] = {
 		is_global = 0,
 		name = "客廳",
 		type_prioritys = "",
@@ -279,8 +361,8 @@ pg.dorm3d_zone_template = {
 		room_id = 12,
 		watch_camera = "Chair",
 		special_action = ""
-	},
-	[14001] = {
+	}
+	pg.base.dorm3d_zone_template[14001] = {
 		is_global = 0,
 		name = "臥室",
 		type_prioritys = "",
@@ -289,8 +371,8 @@ pg.dorm3d_zone_template = {
 		room_id = 14,
 		watch_camera = "Bed",
 		special_action = ""
-	},
-	[14002] = {
+	}
+	pg.base.dorm3d_zone_template[14002] = {
 		is_global = 0,
 		name = "書房",
 		type_prioritys = "",
@@ -299,8 +381,8 @@ pg.dorm3d_zone_template = {
 		room_id = 14,
 		watch_camera = "Table",
 		special_action = ""
-	},
-	[14003] = {
+	}
+	pg.base.dorm3d_zone_template[14003] = {
 		is_global = 0,
 		name = "客廳",
 		type_prioritys = "",
@@ -309,8 +391,8 @@ pg.dorm3d_zone_template = {
 		room_id = 14,
 		watch_camera = "Chair",
 		special_action = ""
-	},
-	[16001] = {
+	}
+	pg.base.dorm3d_zone_template[16001] = {
 		is_global = 0,
 		name = "舞池",
 		type_prioritys = "",
@@ -324,8 +406,8 @@ pg.dorm3d_zone_template = {
 				1051790
 			}
 		}
-	},
-	[16002] = {
+	}
+	pg.base.dorm3d_zone_template[16002] = {
 		is_global = 0,
 		name = "吧台",
 		type_prioritys = "",
@@ -339,8 +421,8 @@ pg.dorm3d_zone_template = {
 				3070790
 			}
 		}
-	},
-	[16003] = {
+	}
+	pg.base.dorm3d_zone_template[16003] = {
 		is_global = 0,
 		name = "卡座",
 		type_prioritys = "",
@@ -354,8 +436,8 @@ pg.dorm3d_zone_template = {
 				4990590
 			}
 		}
-	},
-	[16004] = {
+	}
+	pg.base.dorm3d_zone_template[16004] = {
 		is_global = 0,
 		name = "休息區",
 		type_prioritys = "",
@@ -369,81 +451,5 @@ pg.dorm3d_zone_template = {
 				10100401
 			}
 		}
-	},
-	get_id_list_by_room_id = {
-		{
-			1000,
-			1001,
-			1002,
-			1003
-		},
-		{
-			2001,
-			2002,
-			2003
-		},
-		{
-			3001,
-			3002,
-			3003
-		},
-		{
-			4001,
-			4002,
-			4003,
-			4004,
-			4005
-		},
-		[11] = {
-			11001,
-			11002,
-			11003
-		},
-		[12] = {
-			12001,
-			12002,
-			12003
-		},
-		[14] = {
-			14001,
-			14002,
-			14003
-		},
-		[16] = {
-			16001,
-			16002,
-			16003,
-			16004
-		}
-	},
-	all = {
-		1000,
-		1001,
-		1002,
-		1003,
-		2001,
-		2002,
-		2003,
-		3001,
-		3002,
-		3003,
-		4001,
-		4002,
-		4003,
-		4004,
-		4005,
-		11001,
-		11002,
-		11003,
-		12001,
-		12002,
-		12003,
-		14001,
-		14002,
-		14003,
-		16001,
-		16002,
-		16003,
-		16004
 	}
-}
+end)()

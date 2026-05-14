@@ -1,6 +1,63 @@
 pg = pg or {}
-pg.dorm3d_touch_data = {
-	[101] = {
+pg.dorm3d_touch_data = rawget(pg, "dorm3d_touch_data") or setmetatable({
+	__name = "dorm3d_touch_data"
+}, confNEO)
+pg.dorm3d_touch_data.all = {
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	201,
+	10100104,
+	10100107,
+	10100201,
+	10100202,
+	10100203,
+	10100303,
+	10100401,
+	2200110,
+	2200210,
+	2200310,
+	2200410,
+	2200510,
+	2200610,
+	2210110,
+	1990310,
+	1990320,
+	1990330,
+	1990340,
+	1990350,
+	1990370,
+	1990390,
+	1051710,
+	1051720,
+	1051730,
+	1051740,
+	1051750,
+	1051760,
+	1051780,
+	1051790,
+	3070710,
+	3070720,
+	3070730,
+	3070740,
+	3070750,
+	3070760,
+	3070790,
+	4990510,
+	4990520,
+	4990530,
+	4990540,
+	4990550,
+	4990590
+}
+pg.base = pg.base or {}
+pg.base.dorm3d_touch_data = {}
+
+(function ()
+	pg.base.dorm3d_touch_data[101] = {
 		default_favor = 1001,
 		finish_action = "",
 		id = 101,
@@ -23,8 +80,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			1
 		}
-	},
-	[102] = {
+	}
+	pg.base.dorm3d_touch_data[102] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 102,
@@ -47,8 +104,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			8
 		}
-	},
-	[103] = {
+	}
+	pg.base.dorm3d_touch_data[103] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 103,
@@ -71,8 +128,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			3
 		}
-	},
-	[104] = {
+	}
+	pg.base.dorm3d_touch_data[104] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 104,
@@ -95,8 +152,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			2
 		}
-	},
-	[105] = {
+	}
+	pg.base.dorm3d_touch_data[105] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 105,
@@ -119,8 +176,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			1
 		}
-	},
-	[106] = {
+	}
+	pg.base.dorm3d_touch_data[106] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 106,
@@ -143,8 +200,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			5
 		}
-	},
-	[201] = {
+	}
+	pg.base.dorm3d_touch_data[201] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 201,
@@ -167,8 +224,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			115010
 		}
-	},
-	[10100104] = {
+	}
+	pg.base.dorm3d_touch_data[10100104] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 10100104,
@@ -191,8 +248,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			100410
 		}
-	},
-	[10100107] = {
+	}
+	pg.base.dorm3d_touch_data[10100107] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 10100107,
@@ -215,8 +272,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			100710
 		}
-	},
-	[10100201] = {
+	}
+	pg.base.dorm3d_touch_data[10100201] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 10100201,
@@ -239,8 +296,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			100110
 		}
-	},
-	[10100202] = {
+	}
+	pg.base.dorm3d_touch_data[10100202] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 10100202,
@@ -263,8 +320,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			100210
 		}
-	},
-	[10100203] = {
+	}
+	pg.base.dorm3d_touch_data[10100203] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 10100203,
@@ -288,8 +345,8 @@ pg.dorm3d_touch_data = {
 			100250,
 			100280
 		}
-	},
-	[10100303] = {
+	}
+	pg.base.dorm3d_touch_data[10100303] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 10100303,
@@ -312,8 +369,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			100310
 		}
-	},
-	[10100401] = {
+	}
+	pg.base.dorm3d_touch_data[10100401] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 10100401,
@@ -336,8 +393,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			120810
 		}
-	},
-	[2200110] = {
+	}
+	pg.base.dorm3d_touch_data[2200110] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 2200110,
@@ -360,8 +417,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			200110
 		}
-	},
-	[2200210] = {
+	}
+	pg.base.dorm3d_touch_data[2200210] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 2200210,
@@ -384,8 +441,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			200310
 		}
-	},
-	[2200310] = {
+	}
+	pg.base.dorm3d_touch_data[2200310] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 2200310,
@@ -408,8 +465,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			200210
 		}
-	},
-	[2200410] = {
+	}
+	pg.base.dorm3d_touch_data[2200410] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 2200410,
@@ -432,8 +489,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			200410
 		}
-	},
-	[2200510] = {
+	}
+	pg.base.dorm3d_touch_data[2200510] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 2200510,
@@ -457,8 +514,8 @@ pg.dorm3d_touch_data = {
 			200510,
 			200540
 		}
-	},
-	[2200610] = {
+	}
+	pg.base.dorm3d_touch_data[2200610] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 2200610,
@@ -481,8 +538,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			200610
 		}
-	},
-	[2210110] = {
+	}
+	pg.base.dorm3d_touch_data[2210110] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 2210110,
@@ -505,8 +562,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			215110
 		}
-	},
-	[1990310] = {
+	}
+	pg.base.dorm3d_touch_data[1990310] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 1990310,
@@ -529,8 +586,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			300210
 		}
-	},
-	[1990320] = {
+	}
+	pg.base.dorm3d_touch_data[1990320] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 1990320,
@@ -553,8 +610,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			300310
 		}
-	},
-	[1990330] = {
+	}
+	pg.base.dorm3d_touch_data[1990330] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 1990330,
@@ -577,8 +634,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			300110
 		}
-	},
-	[1990340] = {
+	}
+	pg.base.dorm3d_touch_data[1990340] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 1990340,
@@ -601,8 +658,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			300410
 		}
-	},
-	[1990350] = {
+	}
+	pg.base.dorm3d_touch_data[1990350] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 1990350,
@@ -625,8 +682,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			300510
 		}
-	},
-	[1990370] = {
+	}
+	pg.base.dorm3d_touch_data[1990370] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 1990370,
@@ -649,8 +706,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			300710
 		}
-	},
-	[1990390] = {
+	}
+	pg.base.dorm3d_touch_data[1990390] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 1990390,
@@ -673,8 +730,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			310910
 		}
-	},
-	[1051710] = {
+	}
+	pg.base.dorm3d_touch_data[1051710] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 1051710,
@@ -697,8 +754,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			400110
 		}
-	},
-	[1051720] = {
+	}
+	pg.base.dorm3d_touch_data[1051720] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 1051720,
@@ -721,8 +778,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			400210
 		}
-	},
-	[1051730] = {
+	}
+	pg.base.dorm3d_touch_data[1051730] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 1051730,
@@ -745,8 +802,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			400310
 		}
-	},
-	[1051740] = {
+	}
+	pg.base.dorm3d_touch_data[1051740] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 1051740,
@@ -769,8 +826,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			400410
 		}
-	},
-	[1051750] = {
+	}
+	pg.base.dorm3d_touch_data[1051750] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 1051750,
@@ -793,8 +850,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			400710
 		}
-	},
-	[1051760] = {
+	}
+	pg.base.dorm3d_touch_data[1051760] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 1051760,
@@ -817,8 +874,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			400510
 		}
-	},
-	[1051780] = {
+	}
+	pg.base.dorm3d_touch_data[1051780] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 1051780,
@@ -841,8 +898,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			400810
 		}
-	},
-	[1051790] = {
+	}
+	pg.base.dorm3d_touch_data[1051790] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 1051790,
@@ -865,8 +922,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			410910
 		}
-	},
-	[3070710] = {
+	}
+	pg.base.dorm3d_touch_data[3070710] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 3070710,
@@ -889,8 +946,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			500110
 		}
-	},
-	[3070720] = {
+	}
+	pg.base.dorm3d_touch_data[3070720] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 3070720,
@@ -913,8 +970,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			500210
 		}
-	},
-	[3070730] = {
+	}
+	pg.base.dorm3d_touch_data[3070730] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 3070730,
@@ -937,8 +994,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			500310
 		}
-	},
-	[3070740] = {
+	}
+	pg.base.dorm3d_touch_data[3070740] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 3070740,
@@ -961,8 +1018,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			500410
 		}
-	},
-	[3070750] = {
+	}
+	pg.base.dorm3d_touch_data[3070750] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 3070750,
@@ -985,8 +1042,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			500510
 		}
-	},
-	[3070760] = {
+	}
+	pg.base.dorm3d_touch_data[3070760] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 3070760,
@@ -1009,8 +1066,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			500610
 		}
-	},
-	[3070790] = {
+	}
+	pg.base.dorm3d_touch_data[3070790] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 3070790,
@@ -1033,8 +1090,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			510910
 		}
-	},
-	[4990510] = {
+	}
+	pg.base.dorm3d_touch_data[4990510] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 4990510,
@@ -1057,8 +1114,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			600110
 		}
-	},
-	[4990520] = {
+	}
+	pg.base.dorm3d_touch_data[4990520] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 4990520,
@@ -1081,8 +1138,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			600210
 		}
-	},
-	[4990530] = {
+	}
+	pg.base.dorm3d_touch_data[4990530] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 4990530,
@@ -1105,8 +1162,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			600310
 		}
-	},
-	[4990540] = {
+	}
+	pg.base.dorm3d_touch_data[4990540] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 4990540,
@@ -1129,8 +1186,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			600410
 		}
-	},
-	[4990550] = {
+	}
+	pg.base.dorm3d_touch_data[4990550] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 4990550,
@@ -1153,8 +1210,8 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			600510
 		}
-	},
-	[4990590] = {
+	}
+	pg.base.dorm3d_touch_data[4990590] = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 4990590,
@@ -1177,56 +1234,5 @@ pg.dorm3d_touch_data = {
 		ik_status = {
 			610910
 		}
-	},
-	all = {
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		201,
-		10100104,
-		10100107,
-		10100201,
-		10100202,
-		10100203,
-		10100303,
-		10100401,
-		2200110,
-		2200210,
-		2200310,
-		2200410,
-		2200510,
-		2200610,
-		2210110,
-		1990310,
-		1990320,
-		1990330,
-		1990340,
-		1990350,
-		1990370,
-		1990390,
-		1051710,
-		1051720,
-		1051730,
-		1051740,
-		1051750,
-		1051760,
-		1051780,
-		1051790,
-		3070710,
-		3070720,
-		3070730,
-		3070740,
-		3070750,
-		3070760,
-		3070790,
-		4990510,
-		4990520,
-		4990530,
-		4990540,
-		4990550,
-		4990590
 	}
-}
+end)()

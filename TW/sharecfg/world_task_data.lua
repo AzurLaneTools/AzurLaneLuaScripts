@@ -1,6 +1,180 @@
 pg = pg or {}
-pg.world_task_data = {
-	{
+pg.world_task_data = rawget(pg, "world_task_data") or setmetatable({
+	__name = "world_task_data"
+}, confNEO)
+pg.world_task_data.all = {
+	1,
+	2000,
+	2001,
+	2002,
+	2003,
+	2004,
+	2010,
+	2050,
+	2100,
+	2101,
+	2102,
+	2103,
+	2104,
+	2105,
+	2110,
+	2150,
+	2200,
+	2201,
+	2202,
+	2203,
+	2204,
+	2205,
+	2210,
+	2300,
+	2301,
+	2302,
+	2303,
+	2304,
+	2305,
+	2310,
+	2600,
+	2601,
+	2602,
+	2603,
+	2604,
+	2605,
+	2606,
+	2607,
+	3101,
+	3102,
+	3103,
+	3201,
+	3202,
+	3203,
+	3301,
+	3302,
+	3303,
+	3304,
+	3401,
+	3402,
+	4100,
+	4101,
+	4102,
+	4200,
+	4201,
+	10000,
+	10001,
+	10002,
+	10003,
+	10004,
+	10005,
+	10006,
+	10007,
+	10008,
+	10009,
+	10010,
+	10011,
+	10012,
+	10013,
+	10014,
+	10015,
+	10016,
+	10017,
+	10018,
+	10019,
+	10020,
+	10021,
+	10022,
+	10023,
+	10024,
+	10025,
+	10026,
+	10027,
+	10028,
+	10029,
+	10030,
+	10031,
+	10032,
+	10033,
+	10034,
+	10035,
+	10036,
+	10037,
+	10038,
+	10039,
+	10040,
+	10041,
+	10042,
+	10043,
+	10044,
+	10045,
+	10046,
+	10047,
+	10048,
+	10049,
+	10050,
+	10051,
+	10052,
+	10053,
+	10054,
+	10055,
+	10056,
+	10057,
+	10058,
+	10059,
+	10060,
+	10061,
+	10062,
+	10063,
+	10064,
+	10065,
+	10066,
+	10067,
+	10068,
+	10069,
+	210000,
+	210100,
+	210200,
+	210300,
+	210400,
+	210500,
+	210600,
+	210700,
+	210800,
+	210900,
+	211000,
+	211100,
+	213000,
+	213100,
+	213200,
+	213300,
+	213400,
+	213500,
+	213600,
+	213700,
+	213800,
+	213900,
+	216000,
+	216100,
+	216200,
+	216300,
+	216400,
+	216500,
+	216600,
+	216700,
+	216800,
+	216900,
+	217000,
+	217100,
+	219000,
+	219100,
+	219200,
+	219300,
+	219400,
+	219500,
+	219600
+}
+pg.base = pg.base or {}
+pg.base.world_task_data = {}
+
+(function ()
+	pg.base.world_task_data[1] = {
 		server_type = 1,
 		name = "調查海域",
 		need_task_complete = 0,
@@ -57,8 +231,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2000] = {
+	}
+	pg.base.world_task_data[2000] = {
 		server_type = 1,
 		name = "Chapter1-2似曾相識",
 		need_task_complete = 0,
@@ -125,8 +299,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2001] = {
+	}
+	pg.base.world_task_data[2001] = {
 		server_type = 1,
 		name = "Chapter1-3重返百慕達",
 		need_task_complete = 0,
@@ -193,8 +367,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2002] = {
+	}
+	pg.base.world_task_data[2002] = {
 		server_type = 1,
 		name = "Chapter1-4赤色之影",
 		need_task_complete = 0,
@@ -261,8 +435,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2003] = {
+	}
+	pg.base.world_task_data[2003] = {
 		server_type = 1,
 		name = "Chapter1-5停火協議",
 		need_task_complete = 0,
@@ -329,8 +503,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2004] = {
+	}
+	pg.base.world_task_data[2004] = {
 		server_type = 1,
 		name = "Chapter1-6前哨站",
 		need_task_complete = 0,
@@ -397,8 +571,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2010] = {
+	}
+	pg.base.world_task_data[2010] = {
 		server_type = 1,
 		name = "Chapter1-SP 海域控制確保",
 		need_task_complete = 0,
@@ -469,8 +643,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2050] = {
+	}
+	pg.base.world_task_data[2050] = {
 		server_type = 1,
 		name = "Chapter1-1起航",
 		need_task_complete = 0,
@@ -537,8 +711,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2100] = {
+	}
+	pg.base.world_task_data[2100] = {
 		server_type = 1,
 		name = "Chapter2-1集結",
 		need_task_complete = 0,
@@ -607,8 +781,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2101] = {
+	}
+	pg.base.world_task_data[2101] = {
 		server_type = 1,
 		name = "Chapter2-2並肩作戰",
 		need_task_complete = 0,
@@ -675,8 +849,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2102] = {
+	}
+	pg.base.world_task_data[2102] = {
 		server_type = 1,
 		name = "Chapter2-3外圍清掃",
 		need_task_complete = 0,
@@ -743,8 +917,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2103] = {
+	}
+	pg.base.world_task_data[2103] = {
 		server_type = 1,
 		name = "Chapter2-4救援訊號",
 		need_task_complete = 0,
@@ -811,8 +985,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2104] = {
+	}
+	pg.base.world_task_data[2104] = {
 		server_type = 1,
 		name = "Chapter2-5女王的聯絡",
 		need_task_complete = 0,
@@ -879,8 +1053,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2105] = {
+	}
+	pg.base.world_task_data[2105] = {
 		server_type = 1,
 		name = "Chapter2-6強敵",
 		need_task_complete = 0,
@@ -947,8 +1121,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2110] = {
+	}
+	pg.base.world_task_data[2110] = {
 		server_type = 1,
 		name = "Chapter2-SP 海域控制確保",
 		need_task_complete = 0,
@@ -1022,8 +1196,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2150] = {
+	}
+	pg.base.world_task_data[2150] = {
 		server_type = 1,
 		name = "擴編艦隊",
 		need_task_complete = 0,
@@ -1076,8 +1250,8 @@ pg.world_task_data = {
 		},
 		show = {},
 		reset_task = {}
-	},
-	[2200] = {
+	}
+	pg.base.world_task_data[2200] = {
 		server_type = 1,
 		name = "Chapter3-1另一處攻擊",
 		need_task_complete = 0,
@@ -1151,8 +1325,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2201] = {
+	}
+	pg.base.world_task_data[2201] = {
 		server_type = 1,
 		name = "Chapter3-2TB系統",
 		need_task_complete = 0,
@@ -1224,8 +1398,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2202] = {
+	}
+	pg.base.world_task_data[2202] = {
 		server_type = 1,
 		name = "Chapter3-3友軍訊號",
 		need_task_complete = 0,
@@ -1297,8 +1471,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2203] = {
+	}
+	pg.base.world_task_data[2203] = {
 		server_type = 1,
 		name = "Chapter3-4救援",
 		need_task_complete = 0,
@@ -1370,8 +1544,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2204] = {
+	}
+	pg.base.world_task_data[2204] = {
 		server_type = 1,
 		name = "Chapter3-5殘影",
 		need_task_complete = 0,
@@ -1443,8 +1617,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2205] = {
+	}
+	pg.base.world_task_data[2205] = {
 		server_type = 1,
 		name = "Chapter3-6一鼓作氣",
 		need_task_complete = 0,
@@ -1516,8 +1690,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2210] = {
+	}
+	pg.base.world_task_data[2210] = {
 		server_type = 1,
 		name = "Chapter3-SP 海域控制確保",
 		need_task_complete = 0,
@@ -1596,8 +1770,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2300] = {
+	}
+	pg.base.world_task_data[2300] = {
 		server_type = 1,
 		name = "Chapter4-1初臨陸間海",
 		need_task_complete = 0,
@@ -1671,8 +1845,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2301] = {
+	}
+	pg.base.world_task_data[2301] = {
 		server_type = 1,
 		name = "Chapter4-2塔蘭托港",
 		need_task_complete = 0,
@@ -1744,8 +1918,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2302] = {
+	}
+	pg.base.world_task_data[2302] = {
 		server_type = 1,
 		name = "Chapter4-3達卡港",
 		need_task_complete = 0,
@@ -1819,8 +1993,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2303] = {
+	}
+	pg.base.world_task_data[2303] = {
 		server_type = 1,
 		name = "Chapter4-4深入",
 		need_task_complete = 0,
@@ -1892,8 +2066,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2304] = {
+	}
+	pg.base.world_task_data[2304] = {
 		server_type = 1,
 		name = "Chapter4-5海霧",
 		need_task_complete = 0,
@@ -1965,8 +2139,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2305] = {
+	}
+	pg.base.world_task_data[2305] = {
 		server_type = 1,
 		name = "Chapter4-6戰略調整",
 		need_task_complete = 0,
@@ -2038,8 +2212,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2310] = {
+	}
+	pg.base.world_task_data[2310] = {
 		server_type = 1,
 		name = "Chapter4-SP 海域控制確保",
 		need_task_complete = 0,
@@ -2114,8 +2288,8 @@ pg.world_task_data = {
 			100,
 			100
 		}
-	},
-	[2600] = {
+	}
+	pg.base.world_task_data[2600] = {
 		server_type = 1,
 		name = "Chapter5-1",
 		need_task_complete = 0,
@@ -2187,8 +2361,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2601] = {
+	}
+	pg.base.world_task_data[2601] = {
 		server_type = 1,
 		name = "Chapter5-2",
 		need_task_complete = 0,
@@ -2260,8 +2434,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2602] = {
+	}
+	pg.base.world_task_data[2602] = {
 		server_type = 1,
 		name = "Chapter5-3",
 		need_task_complete = 0,
@@ -2333,8 +2507,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2603] = {
+	}
+	pg.base.world_task_data[2603] = {
 		server_type = 1,
 		name = "Chapter5-4",
 		need_task_complete = 0,
@@ -2406,8 +2580,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2604] = {
+	}
+	pg.base.world_task_data[2604] = {
 		server_type = 1,
 		name = "Chapter5-5",
 		need_task_complete = 0,
@@ -2479,8 +2653,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2605] = {
+	}
+	pg.base.world_task_data[2605] = {
 		server_type = 1,
 		name = "Chapter5-6 I",
 		need_task_complete = 0,
@@ -2552,8 +2726,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2606] = {
+	}
+	pg.base.world_task_data[2606] = {
 		server_type = 1,
 		name = "Chapter5-6 II",
 		need_task_complete = 0,
@@ -2625,8 +2799,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[2607] = {
+	}
+	pg.base.world_task_data[2607] = {
 		server_type = 1,
 		name = "Chapter5-6 III",
 		need_task_complete = 0,
@@ -2703,8 +2877,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[3101] = {
+	}
+	pg.base.world_task_data[3101] = {
 		server_type = 2,
 		name = "NO.Q2A7L塞壬實驗場調查 ",
 		need_task_complete = 0,
@@ -2766,8 +2940,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[3102] = {
+	}
+	pg.base.world_task_data[3102] = {
 		server_type = 2,
 		name = "NO.MY4BE塞壬實驗場調查 ",
 		need_task_complete = 0,
@@ -2829,8 +3003,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[3103] = {
+	}
+	pg.base.world_task_data[3103] = {
 		server_type = 2,
 		name = "NO.K8ALD塞壬實驗場調查 ",
 		need_task_complete = 0,
@@ -2892,8 +3066,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[3201] = {
+	}
+	pg.base.world_task_data[3201] = {
 		server_type = 2,
 		name = "NO.EMHOD塞壬實驗場調查 ",
 		need_task_complete = 0,
@@ -2955,8 +3129,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[3202] = {
+	}
+	pg.base.world_task_data[3202] = {
 		server_type = 2,
 		name = "NO.3PF6Z塞壬實驗場調查 ",
 		need_task_complete = 0,
@@ -3018,8 +3192,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[3203] = {
+	}
+	pg.base.world_task_data[3203] = {
 		server_type = 2,
 		name = "NO.COU42塞壬實驗場調查 ",
 		need_task_complete = 0,
@@ -3081,8 +3255,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[3301] = {
+	}
+	pg.base.world_task_data[3301] = {
 		server_type = 2,
 		name = "NO.E8BIJ塞壬實驗場調查 ",
 		need_task_complete = 0,
@@ -3144,8 +3318,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[3302] = {
+	}
+	pg.base.world_task_data[3302] = {
 		server_type = 2,
 		name = "NO.9RYH2塞壬實驗場調查 ",
 		need_task_complete = 0,
@@ -3207,8 +3381,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[3303] = {
+	}
+	pg.base.world_task_data[3303] = {
 		server_type = 2,
 		name = "NO.ZKT5G塞壬實驗場調查 ",
 		need_task_complete = 0,
@@ -3270,8 +3444,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[3304] = {
+	}
+	pg.base.world_task_data[3304] = {
 		server_type = 2,
 		name = "NO.YH16W塞壬實驗場調查 ",
 		need_task_complete = 0,
@@ -3333,8 +3507,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[3401] = {
+	}
+	pg.base.world_task_data[3401] = {
 		server_type = 2,
 		name = "NO.SLUIA塞壬實驗場調查 ",
 		need_task_complete = 0,
@@ -3396,8 +3570,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[3402] = {
+	}
+	pg.base.world_task_data[3402] = {
 		server_type = 2,
 		name = "NO.EC57Y塞壬實驗場調查 ",
 		need_task_complete = 0,
@@ -3459,8 +3633,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[4100] = {
+	}
+	pg.base.world_task_data[4100] = {
 		server_type = 1,
 		name = "模擬戰：代行者XIV",
 		need_task_complete = 0,
@@ -3524,8 +3698,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[4101] = {
+	}
+	pg.base.world_task_data[4101] = {
 		server_type = 1,
 		name = "模擬戰：代行者VIII",
 		need_task_complete = 0,
@@ -3589,8 +3763,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[4102] = {
+	}
+	pg.base.world_task_data[4102] = {
 		server_type = 1,
 		name = "模擬戰：代行者IX",
 		need_task_complete = 0,
@@ -3654,8 +3828,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[4200] = {
+	}
+	pg.base.world_task_data[4200] = {
 		server_type = 3,
 		name = "普通作戰：仲裁機關",
 		need_task_complete = 0,
@@ -3709,8 +3883,8 @@ pg.world_task_data = {
 			200,
 			300
 		}
-	},
-	[4201] = {
+	}
+	pg.base.world_task_data[4201] = {
 		server_type = 3,
 		name = "困難作戰：仲裁機關",
 		need_task_complete = 0,
@@ -3759,8 +3933,8 @@ pg.world_task_data = {
 		},
 		show = {},
 		reset_task = {}
-	},
-	[10000] = {
+	}
+	pg.base.world_task_data[10000] = {
 		server_type = 4,
 		name = "檔案任務141-1",
 		need_task_complete = 0,
@@ -3834,8 +4008,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10001] = {
+	}
+	pg.base.world_task_data[10001] = {
 		server_type = 4,
 		name = "檔案任務141-2",
 		need_task_complete = 0,
@@ -3909,8 +4083,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10002] = {
+	}
+	pg.base.world_task_data[10002] = {
 		server_type = 4,
 		name = "檔案任務141-3",
 		need_task_complete = 0,
@@ -3984,8 +4158,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10003] = {
+	}
+	pg.base.world_task_data[10003] = {
 		server_type = 4,
 		name = "檔案任務141-4",
 		need_task_complete = 0,
@@ -4059,8 +4233,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10004] = {
+	}
+	pg.base.world_task_data[10004] = {
 		server_type = 4,
 		name = "檔案任務141-5",
 		need_task_complete = 0,
@@ -4134,8 +4308,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10005] = {
+	}
+	pg.base.world_task_data[10005] = {
 		server_type = 4,
 		name = "檔案任務141-6",
 		need_task_complete = 0,
@@ -4209,8 +4383,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10006] = {
+	}
+	pg.base.world_task_data[10006] = {
 		server_type = 4,
 		name = "檔案任務142-1",
 		need_task_complete = 0,
@@ -4284,8 +4458,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10007] = {
+	}
+	pg.base.world_task_data[10007] = {
 		server_type = 4,
 		name = "檔案任務142-2",
 		need_task_complete = 0,
@@ -4359,8 +4533,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10008] = {
+	}
+	pg.base.world_task_data[10008] = {
 		server_type = 4,
 		name = "檔案任務142-3",
 		need_task_complete = 0,
@@ -4434,8 +4608,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10009] = {
+	}
+	pg.base.world_task_data[10009] = {
 		server_type = 4,
 		name = "檔案任務142-4",
 		need_task_complete = 0,
@@ -4507,8 +4681,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10010] = {
+	}
+	pg.base.world_task_data[10010] = {
 		server_type = 4,
 		name = "檔案任務142-5",
 		need_task_complete = 0,
@@ -4582,8 +4756,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10011] = {
+	}
+	pg.base.world_task_data[10011] = {
 		server_type = 4,
 		name = "檔案任務142-6",
 		need_task_complete = 0,
@@ -4657,8 +4831,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10012] = {
+	}
+	pg.base.world_task_data[10012] = {
 		server_type = 4,
 		name = "檔案任務111-1",
 		need_task_complete = 0,
@@ -4732,8 +4906,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10013] = {
+	}
+	pg.base.world_task_data[10013] = {
 		server_type = 4,
 		name = "檔案任務111-2",
 		need_task_complete = 0,
@@ -4807,8 +4981,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10014] = {
+	}
+	pg.base.world_task_data[10014] = {
 		server_type = 4,
 		name = "檔案任務111-3",
 		need_task_complete = 0,
@@ -4882,8 +5056,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10015] = {
+	}
+	pg.base.world_task_data[10015] = {
 		server_type = 4,
 		name = "檔案任務111-4",
 		need_task_complete = 0,
@@ -4957,8 +5131,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10016] = {
+	}
+	pg.base.world_task_data[10016] = {
 		server_type = 4,
 		name = "檔案任務111-5",
 		need_task_complete = 0,
@@ -5032,8 +5206,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10017] = {
+	}
+	pg.base.world_task_data[10017] = {
 		server_type = 4,
 		name = "檔案任務111-6",
 		need_task_complete = 0,
@@ -5107,8 +5281,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10018] = {
+	}
+	pg.base.world_task_data[10018] = {
 		server_type = 4,
 		name = "檔案任務111-7",
 		need_task_complete = 0,
@@ -5182,8 +5356,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10019] = {
+	}
+	pg.base.world_task_data[10019] = {
 		server_type = 4,
 		name = "檔案任務111-8",
 		need_task_complete = 0,
@@ -5255,8 +5429,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10020] = {
+	}
+	pg.base.world_task_data[10020] = {
 		server_type = 4,
 		name = "檔案任務115-1",
 		need_task_complete = 0,
@@ -5330,8 +5504,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10021] = {
+	}
+	pg.base.world_task_data[10021] = {
 		server_type = 4,
 		name = "檔案任務115-2",
 		need_task_complete = 0,
@@ -5405,8 +5579,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10022] = {
+	}
+	pg.base.world_task_data[10022] = {
 		server_type = 4,
 		name = "檔案任務115-3",
 		need_task_complete = 0,
@@ -5480,8 +5654,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10023] = {
+	}
+	pg.base.world_task_data[10023] = {
 		server_type = 4,
 		name = "檔案任務115-4",
 		need_task_complete = 0,
@@ -5555,8 +5729,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10024] = {
+	}
+	pg.base.world_task_data[10024] = {
 		server_type = 4,
 		name = "檔案任務131-1",
 		need_task_complete = 0,
@@ -5630,8 +5804,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10025] = {
+	}
+	pg.base.world_task_data[10025] = {
 		server_type = 4,
 		name = "檔案任務131-2",
 		need_task_complete = 0,
@@ -5705,8 +5879,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10026] = {
+	}
+	pg.base.world_task_data[10026] = {
 		server_type = 4,
 		name = "檔案任務131-3",
 		need_task_complete = 0,
@@ -5780,8 +5954,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10027] = {
+	}
+	pg.base.world_task_data[10027] = {
 		server_type = 4,
 		name = "檔案任務131-4",
 		need_task_complete = 0,
@@ -5855,8 +6029,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10028] = {
+	}
+	pg.base.world_task_data[10028] = {
 		server_type = 4,
 		name = "檔案任務131-5",
 		need_task_complete = 0,
@@ -5930,8 +6104,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10029] = {
+	}
+	pg.base.world_task_data[10029] = {
 		server_type = 4,
 		name = "檔案任務131-6",
 		need_task_complete = 0,
@@ -6003,8 +6177,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10030] = {
+	}
+	pg.base.world_task_data[10030] = {
 		server_type = 4,
 		name = "檔案任務115-5",
 		need_task_complete = 0,
@@ -6078,8 +6252,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10031] = {
+	}
+	pg.base.world_task_data[10031] = {
 		server_type = 4,
 		name = "檔案任務115-6",
 		need_task_complete = 0,
@@ -6153,8 +6327,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10032] = {
+	}
+	pg.base.world_task_data[10032] = {
 		server_type = 4,
 		name = "檔案任務144-1",
 		need_task_complete = 0,
@@ -6228,8 +6402,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10033] = {
+	}
+	pg.base.world_task_data[10033] = {
 		server_type = 4,
 		name = "檔案任務144-2",
 		need_task_complete = 0,
@@ -6303,8 +6477,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10034] = {
+	}
+	pg.base.world_task_data[10034] = {
 		server_type = 4,
 		name = "檔案任務144-3",
 		need_task_complete = 0,
@@ -6378,8 +6552,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10035] = {
+	}
+	pg.base.world_task_data[10035] = {
 		server_type = 4,
 		name = "檔案任務144-4",
 		need_task_complete = 0,
@@ -6453,8 +6627,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10036] = {
+	}
+	pg.base.world_task_data[10036] = {
 		server_type = 4,
 		name = "檔案任務144-5",
 		need_task_complete = 0,
@@ -6528,8 +6702,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10037] = {
+	}
+	pg.base.world_task_data[10037] = {
 		server_type = 4,
 		name = "檔案任務144-6",
 		need_task_complete = 0,
@@ -6603,8 +6777,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10038] = {
+	}
+	pg.base.world_task_data[10038] = {
 		server_type = 4,
 		name = "檔案任務144-7",
 		need_task_complete = 0,
@@ -6678,8 +6852,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10039] = {
+	}
+	pg.base.world_task_data[10039] = {
 		server_type = 4,
 		name = "檔案任務144-8",
 		need_task_complete = 0,
@@ -6751,8 +6925,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10040] = {
+	}
+	pg.base.world_task_data[10040] = {
 		server_type = 4,
 		name = "檔案任務132-1",
 		need_task_complete = 0,
@@ -6826,8 +7000,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10041] = {
+	}
+	pg.base.world_task_data[10041] = {
 		server_type = 4,
 		name = "檔案任務132-2",
 		need_task_complete = 0,
@@ -6901,8 +7075,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10042] = {
+	}
+	pg.base.world_task_data[10042] = {
 		server_type = 4,
 		name = "檔案任務132-3",
 		need_task_complete = 0,
@@ -6976,8 +7150,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10043] = {
+	}
+	pg.base.world_task_data[10043] = {
 		server_type = 4,
 		name = "檔案任務132-4",
 		need_task_complete = 0,
@@ -7051,8 +7225,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10044] = {
+	}
+	pg.base.world_task_data[10044] = {
 		server_type = 4,
 		name = "檔案任務132-5 132-6",
 		need_task_complete = 0,
@@ -7126,8 +7300,10 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10045] = {
+	}
+end)()
+(function ()
+	pg.base.world_task_data[10045] = {
 		server_type = 4,
 		name = "檔案任務143-1",
 		need_task_complete = 0,
@@ -7201,8 +7377,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10046] = {
+	}
+	pg.base.world_task_data[10046] = {
 		server_type = 4,
 		name = "檔案任務143-2",
 		need_task_complete = 0,
@@ -7276,8 +7452,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10047] = {
+	}
+	pg.base.world_task_data[10047] = {
 		server_type = 4,
 		name = "檔案任務143-3",
 		need_task_complete = 0,
@@ -7351,8 +7527,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10048] = {
+	}
+	pg.base.world_task_data[10048] = {
 		server_type = 4,
 		name = "檔案任務143-4",
 		need_task_complete = 0,
@@ -7426,8 +7602,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10049] = {
+	}
+	pg.base.world_task_data[10049] = {
 		server_type = 4,
 		name = "檔案任務143-5 143-6",
 		need_task_complete = 0,
@@ -7499,8 +7675,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10050] = {
+	}
+	pg.base.world_task_data[10050] = {
 		server_type = 4,
 		name = "檔案任務113-1",
 		need_task_complete = 0,
@@ -7574,8 +7750,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10051] = {
+	}
+	pg.base.world_task_data[10051] = {
 		server_type = 4,
 		name = "檔案任務113-2",
 		need_task_complete = 0,
@@ -7649,8 +7825,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10052] = {
+	}
+	pg.base.world_task_data[10052] = {
 		server_type = 4,
 		name = "檔案任務113-3",
 		need_task_complete = 0,
@@ -7724,8 +7900,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10053] = {
+	}
+	pg.base.world_task_data[10053] = {
 		server_type = 4,
 		name = "檔案任務113-4",
 		need_task_complete = 0,
@@ -7799,8 +7975,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10054] = {
+	}
+	pg.base.world_task_data[10054] = {
 		server_type = 4,
 		name = "檔案任務113-5 113-6",
 		need_task_complete = 0,
@@ -7874,8 +8050,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10055] = {
+	}
+	pg.base.world_task_data[10055] = {
 		server_type = 4,
 		name = "檔案任務133-1",
 		need_task_complete = 0,
@@ -7949,8 +8125,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10056] = {
+	}
+	pg.base.world_task_data[10056] = {
 		server_type = 4,
 		name = "檔案任務133-2",
 		need_task_complete = 0,
@@ -8024,8 +8200,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10057] = {
+	}
+	pg.base.world_task_data[10057] = {
 		server_type = 4,
 		name = "檔案任務133-3",
 		need_task_complete = 0,
@@ -8099,8 +8275,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10058] = {
+	}
+	pg.base.world_task_data[10058] = {
 		server_type = 4,
 		name = "檔案任務133-4",
 		need_task_complete = 0,
@@ -8174,8 +8350,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10059] = {
+	}
+	pg.base.world_task_data[10059] = {
 		server_type = 4,
 		name = "檔案任務133-5 133-6",
 		need_task_complete = 0,
@@ -8247,8 +8423,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10060] = {
+	}
+	pg.base.world_task_data[10060] = {
 		server_type = 4,
 		name = "檔案任務144-9",
 		need_task_complete = 0,
@@ -8322,8 +8498,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10061] = {
+	}
+	pg.base.world_task_data[10061] = {
 		server_type = 4,
 		name = "檔案任務144-10",
 		need_task_complete = 0,
@@ -8397,8 +8573,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10062] = {
+	}
+	pg.base.world_task_data[10062] = {
 		server_type = 4,
 		name = "檔案任務146-1",
 		need_task_complete = 0,
@@ -8472,8 +8648,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10063] = {
+	}
+	pg.base.world_task_data[10063] = {
 		server_type = 4,
 		name = "檔案任務146-2",
 		need_task_complete = 0,
@@ -8547,8 +8723,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10064] = {
+	}
+	pg.base.world_task_data[10064] = {
 		server_type = 4,
 		name = "檔案任務146-3",
 		need_task_complete = 0,
@@ -8622,8 +8798,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10065] = {
+	}
+	pg.base.world_task_data[10065] = {
 		server_type = 4,
 		name = "檔案任務146-4",
 		need_task_complete = 0,
@@ -8697,8 +8873,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10066] = {
+	}
+	pg.base.world_task_data[10066] = {
 		server_type = 4,
 		name = "檔案任務146-5",
 		need_task_complete = 0,
@@ -8772,8 +8948,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10067] = {
+	}
+	pg.base.world_task_data[10067] = {
 		server_type = 4,
 		name = "檔案任務146-6",
 		need_task_complete = 0,
@@ -8847,8 +9023,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10068] = {
+	}
+	pg.base.world_task_data[10068] = {
 		server_type = 4,
 		name = "檔案任務146-7",
 		need_task_complete = 0,
@@ -8922,8 +9098,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[10069] = {
+	}
+	pg.base.world_task_data[10069] = {
 		server_type = 4,
 		name = "檔案任務146-8",
 		need_task_complete = 0,
@@ -8995,8 +9171,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[210000] = {
+	}
+	pg.base.world_task_data[210000] = {
 		server_type = 3,
 		name = "航道維護·I",
 		need_task_complete = 0,
@@ -9064,8 +9240,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[210100] = {
+	}
+	pg.base.world_task_data[210100] = {
 		server_type = 3,
 		name = "實驗測試·I",
 		need_task_complete = 0,
@@ -9133,8 +9309,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[210200] = {
+	}
+	pg.base.world_task_data[210200] = {
 		server_type = 3,
 		name = "港口防禦·I",
 		need_task_complete = 0,
@@ -9202,8 +9378,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[210300] = {
+	}
+	pg.base.world_task_data[210300] = {
 		server_type = 3,
 		name = "港口防禦·II",
 		need_task_complete = 0,
@@ -9271,8 +9447,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[210400] = {
+	}
+	pg.base.world_task_data[210400] = {
 		server_type = 3,
 		name = "艦隊演習·I",
 		need_task_complete = 0,
@@ -9340,8 +9516,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[210500] = {
+	}
+	pg.base.world_task_data[210500] = {
 		server_type = 3,
 		name = "艦隊演習·II",
 		need_task_complete = 0,
@@ -9409,8 +9585,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[210600] = {
+	}
+	pg.base.world_task_data[210600] = {
 		server_type = 3,
 		name = "航道維護·II",
 		need_task_complete = 0,
@@ -9478,8 +9654,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[210700] = {
+	}
+	pg.base.world_task_data[210700] = {
 		server_type = 3,
 		name = "航道維護·III",
 		need_task_complete = 0,
@@ -9547,8 +9723,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[210800] = {
+	}
+	pg.base.world_task_data[210800] = {
 		server_type = 3,
 		name = "實驗測試·II",
 		need_task_complete = 0,
@@ -9616,8 +9792,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[210900] = {
+	}
+	pg.base.world_task_data[210900] = {
 		server_type = 3,
 		name = "實驗測試·III",
 		need_task_complete = 0,
@@ -9685,8 +9861,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[211000] = {
+	}
+	pg.base.world_task_data[211000] = {
 		server_type = 3,
 		name = "港口防禦·III",
 		need_task_complete = 0,
@@ -9754,8 +9930,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[211100] = {
+	}
+	pg.base.world_task_data[211100] = {
 		server_type = 3,
 		name = "艦隊演習·III",
 		need_task_complete = 0,
@@ -9828,8 +10004,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[213000] = {
+	}
+	pg.base.world_task_data[213000] = {
 		server_type = 3,
 		name = "物資回收·I",
 		need_task_complete = 0,
@@ -9928,8 +10104,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[213100] = {
+	}
+	pg.base.world_task_data[213100] = {
 		server_type = 3,
 		name = "物資回收·II",
 		need_task_complete = 0,
@@ -10028,8 +10204,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[213200] = {
+	}
+	pg.base.world_task_data[213200] = {
 		server_type = 3,
 		name = "物資打撈·I",
 		need_task_complete = 0,
@@ -10128,8 +10304,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[213300] = {
+	}
+	pg.base.world_task_data[213300] = {
 		server_type = 3,
 		name = "物資打撈·II",
 		need_task_complete = 0,
@@ -10228,8 +10404,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[213400] = {
+	}
+	pg.base.world_task_data[213400] = {
 		server_type = 3,
 		name = "塞壬殲滅·I",
 		need_task_complete = 0,
@@ -10328,8 +10504,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[213500] = {
+	}
+	pg.base.world_task_data[213500] = {
 		server_type = 3,
 		name = "塞壬殲滅·II",
 		need_task_complete = 0,
@@ -10428,8 +10604,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[213600] = {
+	}
+	pg.base.world_task_data[213600] = {
 		server_type = 3,
 		name = "商船護衛·I",
 		need_task_complete = 0,
@@ -10528,8 +10704,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[213700] = {
+	}
+	pg.base.world_task_data[213700] = {
 		server_type = 3,
 		name = "商船護衛·II",
 		need_task_complete = 0,
@@ -10628,8 +10804,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[213800] = {
+	}
+	pg.base.world_task_data[213800] = {
 		server_type = 3,
 		name = "塞壬清理·I",
 		need_task_complete = 0,
@@ -10728,8 +10904,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[213900] = {
+	}
+	pg.base.world_task_data[213900] = {
 		server_type = 3,
 		name = "塞壬清理·II",
 		need_task_complete = 0,
@@ -10828,8 +11004,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[216000] = {
+	}
+	pg.base.world_task_data[216000] = {
 		server_type = 3,
 		name = "前線據點建立",
 		need_task_complete = 0,
@@ -10876,8 +11052,8 @@ pg.world_task_data = {
 		},
 		show = {},
 		reset_task = {}
-	},
-	[216100] = {
+	}
+	pg.base.world_task_data[216100] = {
 		server_type = 3,
 		name = "塞壬傳送裝置",
 		need_task_complete = 0,
@@ -10924,8 +11100,8 @@ pg.world_task_data = {
 		},
 		show = {},
 		reset_task = {}
-	},
-	[216200] = {
+	}
+	pg.base.world_task_data[216200] = {
 		server_type = 3,
 		name = "塞壬兵力偵查",
 		need_task_complete = 0,
@@ -10972,8 +11148,8 @@ pg.world_task_data = {
 		},
 		show = {},
 		reset_task = {}
-	},
-	[216300] = {
+	}
+	pg.base.world_task_data[216300] = {
 		server_type = 3,
 		name = "遠洋物資回收·I",
 		need_task_complete = 0,
@@ -11064,8 +11240,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[216400] = {
+	}
+	pg.base.world_task_data[216400] = {
 		server_type = 3,
 		name = "遠洋物資回收·II",
 		need_task_complete = 0,
@@ -11156,8 +11332,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[216500] = {
+	}
+	pg.base.world_task_data[216500] = {
 		server_type = 3,
 		name = "遠洋物資打撈·I",
 		need_task_complete = 0,
@@ -11248,8 +11424,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[216600] = {
+	}
+	pg.base.world_task_data[216600] = {
 		server_type = 3,
 		name = "遠洋物資打撈·II",
 		need_task_complete = 0,
@@ -11340,8 +11516,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[216700] = {
+	}
+	pg.base.world_task_data[216700] = {
 		server_type = 3,
 		name = "遠洋塞壬殲滅·I",
 		need_task_complete = 0,
@@ -11432,8 +11608,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[216800] = {
+	}
+	pg.base.world_task_data[216800] = {
 		server_type = 3,
 		name = "遠洋塞壬殲滅·II",
 		need_task_complete = 0,
@@ -11514,8 +11690,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[216900] = {
+	}
+	pg.base.world_task_data[216900] = {
 		server_type = 3,
 		name = "商船護衛·III",
 		need_task_complete = 0,
@@ -11606,8 +11782,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[217000] = {
+	}
+	pg.base.world_task_data[217000] = {
 		server_type = 3,
 		name = "商船護衛·IV",
 		need_task_complete = 0,
@@ -11698,8 +11874,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[217100] = {
+	}
+	pg.base.world_task_data[217100] = {
 		server_type = 3,
 		name = "塞壬補給切斷",
 		need_task_complete = 0,
@@ -11746,8 +11922,8 @@ pg.world_task_data = {
 		},
 		show = {},
 		reset_task = {}
-	},
-	[219000] = {
+	}
+	pg.base.world_task_data[219000] = {
 		server_type = 3,
 		name = "補給兌換·I",
 		need_task_complete = 0,
@@ -11806,8 +11982,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[219100] = {
+	}
+	pg.base.world_task_data[219100] = {
 		server_type = 3,
 		name = "補給兌換·II",
 		need_task_complete = 0,
@@ -11866,8 +12042,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[219200] = {
+	}
+	pg.base.world_task_data[219200] = {
 		server_type = 3,
 		name = "塞壬研究·I",
 		need_task_complete = 0,
@@ -11926,8 +12102,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[219300] = {
+	}
+	pg.base.world_task_data[219300] = {
 		server_type = 3,
 		name = "塞壬研究·II",
 		need_task_complete = 0,
@@ -11986,8 +12162,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[219400] = {
+	}
+	pg.base.world_task_data[219400] = {
 		server_type = 3,
 		name = "海域探索·I",
 		need_task_complete = 0,
@@ -12041,8 +12217,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[219500] = {
+	}
+	pg.base.world_task_data[219500] = {
 		server_type = 3,
 		name = "海域探索·II",
 		need_task_complete = 0,
@@ -12096,8 +12272,8 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	[219600] = {
+	}
+	pg.base.world_task_data[219600] = {
 		server_type = 3,
 		name = "海域探索·III",
 		need_task_complete = 0,
@@ -12156,173 +12332,5 @@ pg.world_task_data = {
 			}
 		},
 		reset_task = {}
-	},
-	all = {
-		1,
-		2000,
-		2001,
-		2002,
-		2003,
-		2004,
-		2010,
-		2050,
-		2100,
-		2101,
-		2102,
-		2103,
-		2104,
-		2105,
-		2110,
-		2150,
-		2200,
-		2201,
-		2202,
-		2203,
-		2204,
-		2205,
-		2210,
-		2300,
-		2301,
-		2302,
-		2303,
-		2304,
-		2305,
-		2310,
-		2600,
-		2601,
-		2602,
-		2603,
-		2604,
-		2605,
-		2606,
-		2607,
-		3101,
-		3102,
-		3103,
-		3201,
-		3202,
-		3203,
-		3301,
-		3302,
-		3303,
-		3304,
-		3401,
-		3402,
-		4100,
-		4101,
-		4102,
-		4200,
-		4201,
-		10000,
-		10001,
-		10002,
-		10003,
-		10004,
-		10005,
-		10006,
-		10007,
-		10008,
-		10009,
-		10010,
-		10011,
-		10012,
-		10013,
-		10014,
-		10015,
-		10016,
-		10017,
-		10018,
-		10019,
-		10020,
-		10021,
-		10022,
-		10023,
-		10024,
-		10025,
-		10026,
-		10027,
-		10028,
-		10029,
-		10030,
-		10031,
-		10032,
-		10033,
-		10034,
-		10035,
-		10036,
-		10037,
-		10038,
-		10039,
-		10040,
-		10041,
-		10042,
-		10043,
-		10044,
-		10045,
-		10046,
-		10047,
-		10048,
-		10049,
-		10050,
-		10051,
-		10052,
-		10053,
-		10054,
-		10055,
-		10056,
-		10057,
-		10058,
-		10059,
-		10060,
-		10061,
-		10062,
-		10063,
-		10064,
-		10065,
-		10066,
-		10067,
-		10068,
-		10069,
-		210000,
-		210100,
-		210200,
-		210300,
-		210400,
-		210500,
-		210600,
-		210700,
-		210800,
-		210900,
-		211000,
-		211100,
-		213000,
-		213100,
-		213200,
-		213300,
-		213400,
-		213500,
-		213600,
-		213700,
-		213800,
-		213900,
-		216000,
-		216100,
-		216200,
-		216300,
-		216400,
-		216500,
-		216600,
-		216700,
-		216800,
-		216900,
-		217000,
-		217100,
-		219000,
-		219100,
-		219200,
-		219300,
-		219400,
-		219500,
-		219600
 	}
-}
+end)()

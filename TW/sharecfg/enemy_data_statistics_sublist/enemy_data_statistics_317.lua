@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.enemy_data_statistics_317 = {
+	[16665015] = {
+		cannon = 60,
+		luck_growth = 0,
+		air_growth = 0,
+		speed_growth = 0,
+		armor = 0,
+		air = 0,
+		antisub = 0,
+		hit_growth = 0,
+		fog_fx = "",
+		dodge_growth = 0,
+		icon = "wuxingzhixi",
+		star = 2,
+		antisub_growth = 0,
+		rarity = 2,
+		base = 90535,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 15,
+		luck = 0,
+		id = 16665015,
+		cannon_growth = 0,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 9999,
+		torpedo = 0,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		specific_fx_scale = {
+			jiejie_tiancheng01 = 0.7
+		},
+		appear_fx = {
+			"jiejie_tiancheng01"
+		},
+		equipment_list = {},
+		buff_list = {}
+	},
 	[16666001] = {
 		cannon = 8,
 		air = 0,
@@ -1269,47 +1309,6 @@ pg.enemy_data_statistics_317 = {
 			3099000,
 			3099060,
 			3099065
-		}
-	},
-	[16670102] = {
-		cannon = 20,
-		air = 0,
-		torpedo = 27,
-		cannon_growth = 936,
-		pilot_ai_template_id = 20004,
-		reload = 150,
-		armor = 0,
-		dodge = 11,
-		torpedo_growth = 3366,
-		hit_growth = 210,
-		reload_growth = 0,
-		dodge_growth = 162,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 55,
-		base = 90833,
-		durability = 630,
-		armor_growth = 0,
-		durability_growth = 23120,
-		antiaircraft = 28,
-		speed = 25,
-		luck = 0,
-		antiaircraft_growth = 3744,
-		antisub = 0,
-		id = 16670102,
-		fog_fx = "",
-		appear_fx = {
-			"appearsmall",
-			"nuofukedanchuan_buff_01"
-		},
-		equipment_list = {
-			3099015,
-			3099060,
-			3099065,
-			3099020
 		}
 	}
 }

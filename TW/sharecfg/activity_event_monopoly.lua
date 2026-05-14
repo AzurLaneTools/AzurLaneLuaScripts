@@ -1,6 +1,22 @@
 pg = pg or {}
-pg.activity_event_monopoly = {
-	{
+pg.activity_event_monopoly = rawget(pg, "activity_event_monopoly") or setmetatable({
+	__name = "activity_event_monopoly"
+}, confNEO)
+pg.activity_event_monopoly.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8
+}
+pg.base = pg.base or {}
+pg.base.activity_event_monopoly = {}
+
+(function ()
+	pg.base.activity_event_monopoly[1] = {
 		daily_time = 4,
 		ship_reward = "",
 		effective_times = 0,
@@ -76,8 +92,8 @@ pg.activity_event_monopoly = {
 			}
 		},
 		drop_times = {}
-	},
-	{
+	}
+	pg.base.activity_event_monopoly[2] = {
 		daily_time = 5,
 		ship_reward = "",
 		effective_times = 0,
@@ -139,8 +155,8 @@ pg.activity_event_monopoly = {
 			}
 		},
 		drop_times = {}
-	},
-	{
+	}
+	pg.base.activity_event_monopoly[3] = {
 		daily_time = 5,
 		ship_reward = "",
 		effective_times = 0,
@@ -173,8 +189,8 @@ pg.activity_event_monopoly = {
 		reward_extra = {},
 		story = {},
 		drop_times = {}
-	},
-	{
+	}
+	pg.base.activity_event_monopoly[4] = {
 		daily_time = 5,
 		ship_reward = "",
 		effective_times = 0,
@@ -209,8 +225,8 @@ pg.activity_event_monopoly = {
 			35,
 			94598
 		}
-	},
-	{
+	}
+	pg.base.activity_event_monopoly[5] = {
 		daily_time = 5,
 		ship_reward = "",
 		effective_times = 0,
@@ -243,8 +259,8 @@ pg.activity_event_monopoly = {
 		reward_extra = {},
 		story = {},
 		drop_times = {}
-	},
-	{
+	}
+	pg.base.activity_event_monopoly[6] = {
 		daily_time = 5,
 		ship_reward = "",
 		effective_times = 35,
@@ -279,8 +295,8 @@ pg.activity_event_monopoly = {
 			35,
 			96859
 		}
-	},
-	{
+	}
+	pg.base.activity_event_monopoly[7] = {
 		daily_time = 5,
 		ship_reward = "",
 		effective_times = 0,
@@ -313,8 +329,8 @@ pg.activity_event_monopoly = {
 		reward_extra = {},
 		story = {},
 		drop_times = {}
-	},
-	{
+	}
+	pg.base.activity_event_monopoly[8] = {
 		daily_time = 3,
 		effective_times = 0,
 		reward_time = 0,
@@ -505,15 +521,5 @@ pg.activity_event_monopoly = {
 				1
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8
 	}
-}
+end)()

@@ -1,6 +1,19 @@
 pg = pg or {}
-pg.puzzle_combat_template = {
-	[100] = {
+pg.puzzle_combat_template = rawget(pg, "puzzle_combat_template") or setmetatable({
+	__name = "puzzle_combat_template"
+}, confNEO)
+pg.puzzle_combat_template.all = {
+	100,
+	103,
+	104,
+	105,
+	106
+}
+pg.base = pg.base or {}
+pg.base.puzzle_combat_template = {}
+
+(function ()
+	pg.base.puzzle_combat_template[100] = {
 		description = "此測試中，可以學習「資訊對抗模擬測試」戰鬥的基本指令操作與介面功能",
 		name = "訓練教學",
 		init_move = 15,
@@ -16,8 +29,8 @@ pg.puzzle_combat_template = {
 			999990
 		},
 		relic = {}
-	},
-	[103] = {
+	}
+	pg.base.puzzle_combat_template[103] = {
 		description = "此測試中，移動指令充能速度會降低\n盡可能的躲開敵方攻擊，擊敗敵方單位吧",
 		name = "機動訓練",
 		init_move = 15,
@@ -36,8 +49,8 @@ pg.puzzle_combat_template = {
 			999989
 		},
 		relic = {}
-	},
-	[104] = {
+	}
+	pg.base.puzzle_combat_template[104] = {
 		description = "此測試中，需要盡可能的阻止敵方自爆船的衝鋒\n堅持60秒，即可完成測試",
 		name = "海域突進·改",
 		init_move = 15,
@@ -57,8 +70,8 @@ pg.puzzle_combat_template = {
 			999991
 		},
 		relic = {}
-	},
-	[105] = {
+	}
+	pg.base.puzzle_combat_template[105] = {
 		description = "此測試中，敵方會交替進入防禦反擊模式，每輪防禦反擊模式持續10秒\n防禦反擊模式：該敵方受到的傷害降低100%，受到攻擊時會觸發反擊攻擊",
 		name = "精準攻擊",
 		init_move = 15,
@@ -76,8 +89,8 @@ pg.puzzle_combat_template = {
 			999978
 		},
 		relic = {}
-	},
-	[106] = {
+	}
+	pg.base.puzzle_combat_template[106] = {
 		description = "此測試中將出現特殊機械裝置，其被攻擊一定次數會切換自身狀態\n機械裝置計時10秒後會自毀，並根據當前狀態對所有單位提供增益",
 		name = "強敵試煉",
 		init_move = 15,
@@ -95,12 +108,5 @@ pg.puzzle_combat_template = {
 			999990
 		},
 		relic = {}
-	},
-	all = {
-		100,
-		103,
-		104,
-		105,
-		106
 	}
-}
+end)()

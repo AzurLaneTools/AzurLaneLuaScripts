@@ -1,6 +1,84 @@
 pg = pg or {}
-pg.island_order = {
-	[2] = {
+pg.island_order = rawget(pg, "island_order") or setmetatable({
+	__name = "island_order"
+}, confNEO)
+pg.island_order.all = {
+	2,
+	100001,
+	100002,
+	100003,
+	100004,
+	100005,
+	100006,
+	100007,
+	100008,
+	100009,
+	100010,
+	100011,
+	100012,
+	100013,
+	100014,
+	100015,
+	100016,
+	100017,
+	100018,
+	100019,
+	100020,
+	100021,
+	100022,
+	100023,
+	100024,
+	100025,
+	100026,
+	100027,
+	100028,
+	100029,
+	100030
+}
+pg.island_order.get_id_list_by_activity_id = {
+	[0] = {
+		2
+	},
+	[990002] = {
+		100001,
+		100002,
+		100003,
+		100004,
+		100005,
+		100006,
+		100007,
+		100008,
+		100009,
+		100010,
+		100011,
+		100012,
+		100013,
+		100014,
+		100015
+	},
+	[990006] = {
+		100016,
+		100017,
+		100018,
+		100019,
+		100020,
+		100021,
+		100022,
+		100023,
+		100024,
+		100025,
+		100026,
+		100027,
+		100028,
+		100029,
+		100030
+	}
+}
+pg.base = pg.base or {}
+pg.base.island_order = {}
+
+(function ()
+	pg.base.island_order[2] = {
 		activity_id = 0,
 		type = 1,
 		effective_time = 0,
@@ -25,8 +103,8 @@ pg.island_order = {
 			50,
 			200
 		}
-	},
-	[100001] = {
+	}
+	pg.base.island_order[100001] = {
 		activity_id = 990002,
 		type = 3,
 		effective_time = 0,
@@ -47,8 +125,8 @@ pg.island_order = {
 			0,
 			4000
 		}
-	},
-	[100002] = {
+	}
+	pg.base.island_order[100002] = {
 		activity_id = 990002,
 		type = 3,
 		effective_time = 0,
@@ -69,8 +147,8 @@ pg.island_order = {
 			0,
 			4000
 		}
-	},
-	[100003] = {
+	}
+	pg.base.island_order[100003] = {
 		activity_id = 990002,
 		type = 3,
 		effective_time = 0,
@@ -91,8 +169,8 @@ pg.island_order = {
 			0,
 			4000
 		}
-	},
-	[100004] = {
+	}
+	pg.base.island_order[100004] = {
 		activity_id = 990002,
 		type = 3,
 		effective_time = 0,
@@ -113,8 +191,8 @@ pg.island_order = {
 			0,
 			4000
 		}
-	},
-	[100005] = {
+	}
+	pg.base.island_order[100005] = {
 		activity_id = 990002,
 		type = 3,
 		effective_time = 0,
@@ -135,8 +213,8 @@ pg.island_order = {
 			0,
 			4000
 		}
-	},
-	[100006] = {
+	}
+	pg.base.island_order[100006] = {
 		activity_id = 990002,
 		type = 3,
 		effective_time = 0,
@@ -157,8 +235,8 @@ pg.island_order = {
 			0,
 			4000
 		}
-	},
-	[100007] = {
+	}
+	pg.base.island_order[100007] = {
 		activity_id = 990002,
 		type = 3,
 		effective_time = 0,
@@ -179,8 +257,8 @@ pg.island_order = {
 			0,
 			10000
 		}
-	},
-	[100008] = {
+	}
+	pg.base.island_order[100008] = {
 		activity_id = 990002,
 		type = 3,
 		effective_time = 0,
@@ -201,8 +279,8 @@ pg.island_order = {
 			0,
 			10000
 		}
-	},
-	[100009] = {
+	}
+	pg.base.island_order[100009] = {
 		activity_id = 990002,
 		type = 3,
 		effective_time = 0,
@@ -223,8 +301,8 @@ pg.island_order = {
 			0,
 			10000
 		}
-	},
-	[100010] = {
+	}
+	pg.base.island_order[100010] = {
 		activity_id = 990002,
 		type = 3,
 		effective_time = 0,
@@ -245,8 +323,8 @@ pg.island_order = {
 			0,
 			10000
 		}
-	},
-	[100011] = {
+	}
+	pg.base.island_order[100011] = {
 		activity_id = 990002,
 		type = 3,
 		effective_time = 0,
@@ -267,8 +345,8 @@ pg.island_order = {
 			0,
 			10000
 		}
-	},
-	[100012] = {
+	}
+	pg.base.island_order[100012] = {
 		activity_id = 990002,
 		type = 3,
 		effective_time = 0,
@@ -289,8 +367,8 @@ pg.island_order = {
 			0,
 			10000
 		}
-	},
-	[100013] = {
+	}
+	pg.base.island_order[100013] = {
 		activity_id = 990002,
 		type = 3,
 		effective_time = 0,
@@ -315,8 +393,8 @@ pg.island_order = {
 			0,
 			32000
 		}
-	},
-	[100014] = {
+	}
+	pg.base.island_order[100014] = {
 		activity_id = 990002,
 		type = 3,
 		effective_time = 0,
@@ -341,8 +419,8 @@ pg.island_order = {
 			0,
 			32000
 		}
-	},
-	[100015] = {
+	}
+	pg.base.island_order[100015] = {
 		activity_id = 990002,
 		type = 3,
 		effective_time = 0,
@@ -367,8 +445,8 @@ pg.island_order = {
 			0,
 			32000
 		}
-	},
-	[100016] = {
+	}
+	pg.base.island_order[100016] = {
 		activity_id = 990006,
 		type = 3,
 		effective_time = 0,
@@ -389,8 +467,8 @@ pg.island_order = {
 			0,
 			4000
 		}
-	},
-	[100017] = {
+	}
+	pg.base.island_order[100017] = {
 		activity_id = 990006,
 		type = 3,
 		effective_time = 0,
@@ -411,8 +489,8 @@ pg.island_order = {
 			0,
 			4000
 		}
-	},
-	[100018] = {
+	}
+	pg.base.island_order[100018] = {
 		activity_id = 990006,
 		type = 3,
 		effective_time = 0,
@@ -433,8 +511,8 @@ pg.island_order = {
 			0,
 			4000
 		}
-	},
-	[100019] = {
+	}
+	pg.base.island_order[100019] = {
 		activity_id = 990006,
 		type = 3,
 		effective_time = 0,
@@ -455,8 +533,8 @@ pg.island_order = {
 			0,
 			4000
 		}
-	},
-	[100020] = {
+	}
+	pg.base.island_order[100020] = {
 		activity_id = 990006,
 		type = 3,
 		effective_time = 0,
@@ -477,8 +555,8 @@ pg.island_order = {
 			0,
 			4000
 		}
-	},
-	[100021] = {
+	}
+	pg.base.island_order[100021] = {
 		activity_id = 990006,
 		type = 3,
 		effective_time = 0,
@@ -499,8 +577,8 @@ pg.island_order = {
 			0,
 			4000
 		}
-	},
-	[100022] = {
+	}
+	pg.base.island_order[100022] = {
 		activity_id = 990006,
 		type = 3,
 		effective_time = 0,
@@ -521,8 +599,8 @@ pg.island_order = {
 			0,
 			10000
 		}
-	},
-	[100023] = {
+	}
+	pg.base.island_order[100023] = {
 		activity_id = 990006,
 		type = 3,
 		effective_time = 0,
@@ -543,8 +621,8 @@ pg.island_order = {
 			0,
 			10000
 		}
-	},
-	[100024] = {
+	}
+	pg.base.island_order[100024] = {
 		activity_id = 990006,
 		type = 3,
 		effective_time = 0,
@@ -565,8 +643,8 @@ pg.island_order = {
 			0,
 			10000
 		}
-	},
-	[100025] = {
+	}
+	pg.base.island_order[100025] = {
 		activity_id = 990006,
 		type = 3,
 		effective_time = 0,
@@ -587,8 +665,8 @@ pg.island_order = {
 			0,
 			10000
 		}
-	},
-	[100026] = {
+	}
+	pg.base.island_order[100026] = {
 		activity_id = 990006,
 		type = 3,
 		effective_time = 0,
@@ -609,8 +687,8 @@ pg.island_order = {
 			0,
 			10000
 		}
-	},
-	[100027] = {
+	}
+	pg.base.island_order[100027] = {
 		activity_id = 990006,
 		type = 3,
 		effective_time = 0,
@@ -631,8 +709,8 @@ pg.island_order = {
 			0,
 			10000
 		}
-	},
-	[100028] = {
+	}
+	pg.base.island_order[100028] = {
 		activity_id = 990006,
 		type = 3,
 		effective_time = 0,
@@ -657,8 +735,8 @@ pg.island_order = {
 			0,
 			32000
 		}
-	},
-	[100029] = {
+	}
+	pg.base.island_order[100029] = {
 		activity_id = 990006,
 		type = 3,
 		effective_time = 0,
@@ -683,8 +761,8 @@ pg.island_order = {
 			0,
 			32000
 		}
-	},
-	[100030] = {
+	}
+	pg.base.island_order[100030] = {
 		activity_id = 990006,
 		type = 3,
 		effective_time = 0,
@@ -709,77 +787,5 @@ pg.island_order = {
 			0,
 			32000
 		}
-	},
-	get_id_list_by_activity_id = {
-		[0] = {
-			2
-		},
-		[990002] = {
-			100001,
-			100002,
-			100003,
-			100004,
-			100005,
-			100006,
-			100007,
-			100008,
-			100009,
-			100010,
-			100011,
-			100012,
-			100013,
-			100014,
-			100015
-		},
-		[990006] = {
-			100016,
-			100017,
-			100018,
-			100019,
-			100020,
-			100021,
-			100022,
-			100023,
-			100024,
-			100025,
-			100026,
-			100027,
-			100028,
-			100029,
-			100030
-		}
-	},
-	all = {
-		2,
-		100001,
-		100002,
-		100003,
-		100004,
-		100005,
-		100006,
-		100007,
-		100008,
-		100009,
-		100010,
-		100011,
-		100012,
-		100013,
-		100014,
-		100015,
-		100016,
-		100017,
-		100018,
-		100019,
-		100020,
-		100021,
-		100022,
-		100023,
-		100024,
-		100025,
-		100026,
-		100027,
-		100028,
-		100029,
-		100030
 	}
-}
+end)()

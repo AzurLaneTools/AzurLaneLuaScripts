@@ -1,294 +1,297 @@
 pg = pg or {}
-pg.activity_clue = setmetatable({
-	__name = "activity_clue",
-	get_id_list_by_group = {
-		{
-			1,
-			2,
-			3
-		},
-		{
-			4,
-			5,
-			6
-		},
-		{
-			7,
-			8,
-			9
-		},
-		{
-			10,
-			11,
-			12
-		},
-		{
-			13,
-			14,
-			15
-		},
-		{
-			16,
-			17,
-			18
-		},
-		{
-			19,
-			20,
-			21
-		},
-		{
-			22,
-			23,
-			24
-		},
-		{
-			25,
-			26,
-			27
-		},
-		{
-			28,
-			29,
-			30
-		},
-		{
-			31,
-			32,
-			33
-		},
-		{
-			34,
-			35,
-			36
-		},
-		{
-			37,
-			38,
-			39
-		},
-		{
-			40,
-			41,
-			42
-		},
-		{
-			43,
-			44,
-			45
-		},
-		{
-			46,
-			47,
-			48
-		},
-		{
-			49,
-			50,
-			51
-		},
-		{
-			52,
-			53,
-			54
-		},
-		{
-			55,
-			56,
-			57
-		},
-		{
-			58,
-			59,
-			60
-		},
-		{
-			61,
-			62,
-			63
-		},
-		{
-			64,
-			65,
-			66
-		},
-		{
-			67,
-			68,
-			69
-		},
-		{
-			70,
-			71,
-			72
-		},
-		{
-			73,
-			74,
-			75
-		},
-		{
-			76,
-			77,
-			78
-		},
-		{
-			79,
-			80,
-			81
-		},
-		{
-			82,
-			83,
-			84
-		},
-		{
-			85,
-			86,
-			87
-		},
-		{
-			88,
-			89,
-			90
-		},
-		{
-			91,
-			92,
-			93
-		},
-		{
-			94,
-			95,
-			96
-		},
-		{
-			97,
-			98,
-			99
-		},
-		{
-			100,
-			101,
-			102
-		},
-		{
-			103,
-			104,
-			105
-		}
-	},
-	all = {
+pg.activity_clue = rawget(pg, "activity_clue") or setmetatable({
+	__name = "activity_clue"
+}, confNEO)
+pg.activity_clue.__namecode__ = true
+pg.activity_clue.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	39,
+	40,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	47,
+	48,
+	49,
+	50,
+	51,
+	52,
+	53,
+	54,
+	55,
+	56,
+	57,
+	58,
+	59,
+	60,
+	61,
+	62,
+	63,
+	64,
+	65,
+	66,
+	67,
+	68,
+	69,
+	70,
+	71,
+	72,
+	73,
+	74,
+	75,
+	76,
+	77,
+	78,
+	79,
+	80,
+	81,
+	82,
+	83,
+	84,
+	85,
+	86,
+	87,
+	88,
+	89,
+	90,
+	91,
+	92,
+	93,
+	94,
+	95,
+	96,
+	97,
+	98,
+	99,
+	100,
+	101,
+	102,
+	103,
+	104,
+	105
+}
+pg.activity_clue.get_id_list_by_group = {
+	{
 		1,
 		2,
-		3,
+		3
+	},
+	{
 		4,
 		5,
-		6,
+		6
+	},
+	{
 		7,
 		8,
-		9,
+		9
+	},
+	{
 		10,
 		11,
-		12,
+		12
+	},
+	{
 		13,
 		14,
-		15,
+		15
+	},
+	{
 		16,
 		17,
-		18,
+		18
+	},
+	{
 		19,
 		20,
-		21,
+		21
+	},
+	{
 		22,
 		23,
-		24,
+		24
+	},
+	{
 		25,
 		26,
-		27,
+		27
+	},
+	{
 		28,
 		29,
-		30,
+		30
+	},
+	{
 		31,
 		32,
-		33,
+		33
+	},
+	{
 		34,
 		35,
-		36,
+		36
+	},
+	{
 		37,
 		38,
-		39,
+		39
+	},
+	{
 		40,
 		41,
-		42,
+		42
+	},
+	{
 		43,
 		44,
-		45,
+		45
+	},
+	{
 		46,
 		47,
-		48,
+		48
+	},
+	{
 		49,
 		50,
-		51,
+		51
+	},
+	{
 		52,
 		53,
-		54,
+		54
+	},
+	{
 		55,
 		56,
-		57,
+		57
+	},
+	{
 		58,
 		59,
-		60,
+		60
+	},
+	{
 		61,
 		62,
-		63,
+		63
+	},
+	{
 		64,
 		65,
-		66,
+		66
+	},
+	{
 		67,
 		68,
-		69,
+		69
+	},
+	{
 		70,
 		71,
-		72,
+		72
+	},
+	{
 		73,
 		74,
-		75,
+		75
+	},
+	{
 		76,
 		77,
-		78,
+		78
+	},
+	{
 		79,
 		80,
-		81,
+		81
+	},
+	{
 		82,
 		83,
-		84,
+		84
+	},
+	{
 		85,
 		86,
-		87,
+		87
+	},
+	{
 		88,
 		89,
-		90,
+		90
+	},
+	{
 		91,
 		92,
-		93,
+		93
+	},
+	{
 		94,
 		95,
-		96,
+		96
+	},
+	{
 		97,
 		98,
-		99,
+		99
+	},
+	{
 		100,
 		101,
-		102,
+		102
+	},
+	{
 		103,
 		104,
 		105
 	}
-}, confHX)
+}
 pg.base = pg.base or {}
-pg.base.activity_clue = {
-	{
+pg.base.activity_clue = {}
+
+(function ()
+	pg.base.activity_clue[1] = {
 		id = 1,
 		unlock_num = "2次",
 		unlock_desc = "時間為正午/黃昏/夜晚時，通關任意關卡",
@@ -296,8 +299,8 @@ pg.base.activity_clue = {
 		group = 1,
 		task_id = "21501",
 		desc = "<size=36>深</size>谷病院，這家歷史悠久的大型綜合醫院坐落在幽靜遠郊，對外提供門診醫療、醫學研究和護理療養業務——也是米勒最後出現的地點。"
-	},
-	{
+	}
+	pg.base.activity_clue[2] = {
 		id = 2,
 		unlock_num = "5次",
 		unlock_desc = "時間為正午/黃昏/夜晚時，通關任意關卡",
@@ -305,8 +308,8 @@ pg.base.activity_clue = {
 		group = 1,
 		task_id = "21502",
 		desc = "<size=36>三</size>年前，一則神秘傳聞曾將深谷病院推上過風口浪尖：多名流浪者在醫院週邊過夜時離奇失蹤，至今杳無音訊。如今，似乎所有人都將這件事遺忘了。"
-	},
-	{
+	}
+	pg.base.activity_clue[3] = {
 		id = 3,
 		unlock_num = "10次",
 		unlock_desc = "時間為正午/黃昏/夜晚時，通關任意關卡",
@@ -314,8 +317,8 @@ pg.base.activity_clue = {
 		group = 1,
 		task_id = "21503",
 		desc = "<size=36>在</size>仔細研究了病院各主建築的外觀設計與管道排布後，我意識到了一件事，深谷病院的地表建築下，大概是隱藏著一片面積可觀的秘密區域。"
-	},
-	{
+	}
+	pg.base.activity_clue[4] = {
 		id = 4,
 		unlock_num = "15次",
 		unlock_desc = "時間為黃昏/夜晚時，通關任意關卡",
@@ -323,8 +326,8 @@ pg.base.activity_clue = {
 		group = 2,
 		task_id = "21504",
 		desc = "<size=36>或</size>許已經有多個國家級情報組織展開了對於醫院內部的調查，特工可能就潛伏在我的身邊。作為一家醫院來說……這裡的護士服與白大褂之下，究竟隱藏了什麼秘密？"
-	},
-	{
+	}
+	pg.base.activity_clue[5] = {
 		id = 5,
 		unlock_num = "30次",
 		unlock_desc = "時間為黃昏/夜晚時，通關任意關卡",
@@ -332,8 +335,8 @@ pg.base.activity_clue = {
 		group = 2,
 		task_id = "21505",
 		desc = "<size=36>我</size>在檔案室的檔案索引中，發現了諸如「血族」、「眷屬化」之類的奇怪字樣。\n難道深谷病院正在暗中進行某種超自然力量的研究？"
-	},
-	{
+	}
+	pg.base.activity_clue[6] = {
 		id = 6,
 		unlock_num = "45次",
 		unlock_desc = "時間為黃昏/夜晚時，通關任意關卡",
@@ -341,8 +344,8 @@ pg.base.activity_clue = {
 		group = 2,
 		task_id = "21506",
 		desc = "<size=36>我</size>終於發現了醫院在收支嚴重失衡的情況下依然能夠長期正常運作的原因——深谷病院自從三年前開始，一直在定期接收重櫻天狐集團代表{namecode:91}的大筆注資，她才是這裡真正的控制人！"
-	},
-	{
+	}
+	pg.base.activity_clue[7] = {
 		id = 7,
 		unlock_num = "3次",
 		unlock_desc = "通關ESP診療中心",
@@ -350,8 +353,8 @@ pg.base.activity_clue = {
 		group = 3,
 		task_id = "21507",
 		desc = "<size=36>診</size>療中心大樓前方道路寬闊，顯然是為人潮眾多的場合設計，如今卻行人渺渺。幾隻慵懶的小貓霸佔了主通道，這似乎是分管護士富蘭克林有意縱容的結果。"
-	},
-	{
+	}
+	pg.base.activity_clue[8] = {
 		id = 8,
 		unlock_num = "6次",
 		unlock_desc = "通關ESP診療中心",
@@ -359,8 +362,8 @@ pg.base.activity_clue = {
 		group = 3,
 		task_id = "21508",
 		desc = "<size=36>在</size>生物樣本庫找到了米勒的體檢資料。\n體脂率，完美；蛋白質代謝，完美；腰臀比，忽略不計……不過，報告中最關鍵的幾頁資訊被撕碎了，還原這個拼圖需要一些時間。"
-	},
-	{
+	}
+	pg.base.activity_clue[9] = {
 		id = 9,
 		unlock_num = "12次",
 		unlock_desc = "通關ESP診療中心",
@@ -368,8 +371,8 @@ pg.base.activity_clue = {
 		group = 3,
 		task_id = "21509",
 		desc = "<size=36>《</size>V-01異能開發報告》\n……第二十一次活化實驗失敗，即將啟動第二十二次實驗。投資人閣下，您的持續投入是必要的。先前的測試數據表明，該實驗的開發潛力接近無限——"
-	},
-	{
+	}
+	pg.base.activity_clue[10] = {
 		id = 10,
 		unlock_num = "1次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「奇怪響聲」「探索醫師辦公室」通關ESP診療中心",
@@ -377,8 +380,8 @@ pg.base.activity_clue = {
 		group = 4,
 		task_id = "21510",
 		desc = "<size=36>不</size>知為何，深谷病院的在職醫生鷹獨享了這間裝潢華麗的辦公室。\n靠牆的上鎖玻璃櫃裡擺放著不同口味的減脂醬汁……這到底是出自特別的保全意識，還是另有隱情？"
-	},
-	{
+	}
+	pg.base.activity_clue[11] = {
 		id = 11,
 		unlock_num = "2次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「奇怪響聲」「探索醫師辦公室」通關ESP診療中心",
@@ -386,8 +389,8 @@ pg.base.activity_clue = {
 		group = 4,
 		task_id = "21511",
 		desc = "<size=36>撬</size>開櫃鎖後，在醬汁瓶背後找到了兩個風格迥異的通訊器。\n其中一台通訊器的外殼貼滿了可愛的雪花貼紙；另一台則以精細的古典紋飾勾勒金屬輪廓，冷冽光澤中透出皇家製造的氣度。"
-	},
-	{
+	}
+	pg.base.activity_clue[12] = {
 		id = 12,
 		unlock_num = "3次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「奇怪響聲」「探索醫師辦公室」通關ESP診療中心",
@@ -395,8 +398,8 @@ pg.base.activity_clue = {
 		group = 4,
 		task_id = "21512",
 		desc = "<size=36>定</size>期通訊紀錄顯示，鷹和神速正在合作調查醫院內的超能力實驗情況。看上去，政府似乎正在準備一場針對醫院內受困者的營救行動。"
-	},
-	{
+	}
+	pg.base.activity_clue[13] = {
 		id = 13,
 		unlock_num = "1次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「奇怪響聲」「探索地下區域」通關ESP診療中心",
@@ -404,8 +407,8 @@ pg.base.activity_clue = {
 		group = 5,
 		task_id = "21513",
 		desc = "<size=36>通</size>往地下的樓梯位於護士站後方，樓梯口醒目地放著一塊立牌，上面寫著「內部整修中」。在潛入之前，必須想辦法調開分管護士富蘭克林。"
-	},
-	{
+	}
+	pg.base.activity_clue[14] = {
 		id = 14,
 		unlock_num = "2次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「奇怪響聲」「探索地下區域」通關ESP診療中心",
@@ -413,8 +416,8 @@ pg.base.activity_clue = {
 		group = 5,
 		task_id = "21514",
 		desc = "<size=36>我</size>知道什麼可以吸引富蘭克林的注意力了——在告知我會在病房等她之後，富蘭克林便愉快地離開了護士站。於是我順利進入了地下區域，找到了儲備藥局。"
-	},
-	{
+	}
+	pg.base.activity_clue[15] = {
 		id = 15,
 		unlock_num = "3次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「奇怪響聲」「探索地下區域」通關ESP診療中心",
@@ -422,8 +425,8 @@ pg.base.activity_clue = {
 		group = 5,
 		task_id = "21515",
 		desc = "<size=36>儲</size>備藥局的監管者是醫生鷹和護士神速。藥房的冷藏櫃裡藏著幾支特製鎮定劑，注射該藥劑，可以有效抑制「眷屬化」傾向。或許，這就是鷹和神速沒有表現出行為異常的原因。"
-	},
-	{
+	}
+	pg.base.activity_clue[16] = {
 		id = 16,
 		unlock_num = "1次",
 		unlock_desc = "使用「定期巡查」「訪客限制令」通關T1住院大樓",
@@ -431,8 +434,8 @@ pg.base.activity_clue = {
 		group = 6,
 		task_id = "21516",
 		desc = "<size=36>沐</size>浴在日光下的住院大樓，是分管護士莫加多爾用心經營的治癒港灣。身心不自覺放鬆的同時，也注意到了那些高懸在頭頂的監視攝影機。"
-	},
-	{
+	}
+	pg.base.activity_clue[17] = {
 		id = 17,
 		unlock_num = "2次",
 		unlock_desc = "使用「定期巡查」「訪客限制令」通關T1住院大樓",
@@ -440,8 +443,8 @@ pg.base.activity_clue = {
 		group = 6,
 		task_id = "21517",
 		desc = "<size=36>住</size>院大樓的監控系統確實強大，具備80K解析度、精準人臉辨識、步態識別，且防水防塵、防隕石撞擊。只是很遺憾，它們的電路被切斷了。"
-	},
-	{
+	}
+	pg.base.activity_clue[18] = {
 		id = 18,
 		unlock_num = "3次",
 		unlock_desc = "使用「定期巡查」「訪客限制令」通關T1住院大樓",
@@ -449,8 +452,8 @@ pg.base.activity_clue = {
 		group = 6,
 		task_id = "21518",
 		desc = "<size=36>我</size>在監視室搜查時，差點撞上前來查看監控離線問題的鷹和神速，好在聖塔菲恰巧出現並叫走了她們。身為病院中為數不多的正常人，看得出來她們關係不錯。"
-	},
-	{
+	}
+	pg.base.activity_clue[19] = {
 		id = 19,
 		unlock_num = "1次",
 		unlock_desc = "使用「定期巡查」「奇怪響聲」「探索護理站」通關T1住院大樓",
@@ -458,8 +461,8 @@ pg.base.activity_clue = {
 		group = 7,
 		task_id = "21519",
 		desc = "<size=36>經</size>過幾天觀察，我摸清了護士們的換班規律。每晚七點，當值護士伏羅希洛夫總會提前離開，營造出穩定的「十分鐘無人區」。"
-	},
-	{
+	}
+	pg.base.activity_clue[20] = {
 		id = 20,
 		unlock_num = "2次",
 		unlock_desc = "使用「定期巡查」「奇怪響聲」「探索護理站」通關T1住院大樓",
@@ -467,8 +470,8 @@ pg.base.activity_clue = {
 		group = 7,
 		task_id = "21520",
 		desc = "<size=36>潛</size>入護士站後，在值班桌上看到了伏羅希洛夫的筆記。筆記被單獨擺放在桌子的正中央，散發出「秘密就在這裡！」的誘人氣息。"
-	},
-	{
+	}
+	pg.base.activity_clue[21] = {
 		id = 21,
 		unlock_num = "3次",
 		unlock_desc = "使用「定期巡查」「奇怪響聲」「探索護理站」通關T1住院大樓",
@@ -476,8 +479,8 @@ pg.base.activity_clue = {
 		group = 7,
 		task_id = "21521",
 		desc = "<size=36>《</size>「眷屬化」人員觀察日記》\n…被觀察者精神高度亢奮，身體機能運作良好。但醫生鷹和護士神速的「眷屬化」進度停滯，後續仍需密切監視。"
-	},
-	{
+	}
+	pg.base.activity_clue[22] = {
 		id = 22,
 		unlock_num = "1次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「探索病房」通關T1住院大樓",
@@ -485,8 +488,8 @@ pg.base.activity_clue = {
 		group = 8,
 		task_id = "21522",
 		desc = "<size=36>聖</size>塔菲的病房亂得別俱生機，嚴格遵循混亂守恆定律，唯有床上的鵝絨枕頭始終收拾得方方正正——難道，枕頭下藏著什麼重要的東西？"
-	},
-	{
+	}
+	pg.base.activity_clue[23] = {
 		id = 23,
 		unlock_num = "2次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「探索病房」通關T1住院大樓",
@@ -494,8 +497,8 @@ pg.base.activity_clue = {
 		group = 8,
 		task_id = "21523",
 		desc = "<size=36>在</size>枕頭下發現了聖塔菲和華盛頓的合照：照片中的她們一起擺出了俏皮的姿勢，華盛頓身著常服，笑容舒展——和我認識的護士華盛頓判若兩人。"
-	},
-	{
+	}
+	pg.base.activity_clue[24] = {
 		id = 24,
 		unlock_num = "3次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「探索病房」通關T1住院大樓",
@@ -503,8 +506,8 @@ pg.base.activity_clue = {
 		group = 8,
 		task_id = "21524",
 		desc = "<size=36>照</size>片的空白處紀錄著聖塔菲的糾結：「怎麼辦喵~！繼續幫政府做事的話，它們會以救助的名義強制抓走所有受害者！華盛頓也逃不掉……執行任務和營救朋友，真的只能二選一嗎……」"
-	},
-	{
+	}
+	pg.base.activity_clue[25] = {
 		id = 25,
 		unlock_num = "1次",
 		unlock_desc = "使用「定期巡查」「奇怪響聲」「探索地下區域」通關T1住院大樓",
@@ -512,8 +515,8 @@ pg.base.activity_clue = {
 		group = 9,
 		task_id = "21525",
 		desc = "<size=36>住</size>院大樓的貨運電梯嚴禁非工作人員使用，想要指揮貨梯、喚醒沉睡的鋼纜，必須先通過啟動頁面的生物辨識面板認證。"
-	},
-	{
+	}
+	pg.base.activity_clue[26] = {
 		id = 26,
 		unlock_num = "2次",
 		unlock_desc = "使用「定期巡查」「奇怪響聲」「探索地下區域」通關T1住院大樓",
@@ -521,8 +524,8 @@ pg.base.activity_clue = {
 		group = 9,
 		task_id = "21526",
 		desc = "<size=36>越</size>是尖端的科技產品，穩健性就越難以保證，在拆開了轎廂頂部的逃生口後，我順利進入了住院部大樓的地下，這裡……似乎是一處廢棄實驗室。"
-	},
-	{
+	}
+	pg.base.activity_clue[27] = {
 		id = 27,
 		unlock_num = "3次",
 		unlock_desc = "使用「定期巡查」「奇怪響聲」「探索地下區域」通關T1住院大樓",
@@ -530,8 +533,8 @@ pg.base.activity_clue = {
 		group = 9,
 		task_id = "21527",
 		desc = "<size=36>《</size>V-01實驗體升格報告》\n……升格失敗，參與實驗的下級個體仍受到上級個體的完全約束，其行為與思想均受控。"
-	},
-	{
+	}
+	pg.base.activity_clue[28] = {
 		id = 28,
 		unlock_num = "1次",
 		unlock_desc = "使用「定期巡查」「保全系統警戒」通關T4研究中心",
@@ -539,8 +542,8 @@ pg.base.activity_clue = {
 		group = 10,
 		task_id = "21528",
 		desc = "<size=36>研</size>究中心——儘管這裡曾進行過一些頗具爭議性的醫學實驗，但是在分管護士伏羅希洛夫的看顧下，此處依然是一處理性與科學的交匯之地……嗎？"
-	},
-	{
+	}
+	pg.base.activity_clue[29] = {
 		id = 29,
 		unlock_num = "2次",
 		unlock_desc = "使用「定期巡查」「保全系統警戒」通關T4研究中心",
@@ -548,8 +551,8 @@ pg.base.activity_clue = {
 		group = 10,
 		task_id = "21529",
 		desc = "<size=36>理</size>性似乎正在被某種衝動性情緒所壓制，在研究中心中停留的時間越長，這種感覺就越明顯……我必須立刻離開。"
-	},
-	{
+	}
+	pg.base.activity_clue[30] = {
 		id = 30,
 		unlock_num = "3次",
 		unlock_desc = "使用「定期巡查」「保全系統警戒」通關T4研究中心",
@@ -557,8 +560,8 @@ pg.base.activity_clue = {
 		group = 10,
 		task_id = "21530",
 		desc = "<size=36>很</size>顯然，深谷病院的研究員正在研究某種非科學、非理性的禁忌力量——這種力量來自於那些傳說中的血族，而其引發的現象則被稱為「眷屬化」。"
-	},
-	{
+	}
+	pg.base.activity_clue[31] = {
 		id = 31,
 		unlock_num = "1次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「奇怪響聲」「探索研究所地下」通關T4研究中心",
@@ -566,8 +569,8 @@ pg.base.activity_clue = {
 		group = 11,
 		task_id = "21531",
 		desc = "<size=36>研</size>究中心接待室內的通風管道中，不知為何持續傳出如同蜂鳴般的震顫聲，難道管道的另一頭通往一個更加廣闊的結構……？"
-	},
-	{
+	}
+	pg.base.activity_clue[32] = {
 		id = 32,
 		unlock_num = "2次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「奇怪響聲」「探索研究所地下」通關T4研究中心",
@@ -575,8 +578,8 @@ pg.base.activity_clue = {
 		group = 11,
 		task_id = "21532",
 		desc = "<size=36>借</size>助管道一路向下，我來到了一處充滿灰塵的配電室。通過調取智慧配電系統，我查詢到研究中心的地下區域內只有監控室和另一間無名房間仍在投入使用。"
-	},
-	{
+	}
+	pg.base.activity_clue[33] = {
 		id = 33,
 		unlock_num = "3次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「奇怪響聲」「探索研究所地下」通關T4研究中心",
@@ -584,8 +587,8 @@ pg.base.activity_clue = {
 		group = 11,
 		task_id = "21533",
 		desc = "<size=36>監</size>控制室內無人值守，數台監視器構成了枯燥的雪花畫面。唯一不同的畫面中，映出了一位獨自蜷縮在封閉艙室裡的少女——那正是失蹤的米勒！"
-	},
-	{
+	}
+	pg.base.activity_clue[34] = {
 		id = 34,
 		unlock_num = "1次",
 		unlock_desc = "使用「定期巡查」「特別問診」通關T2療養中心",
@@ -593,8 +596,8 @@ pg.base.activity_clue = {
 		group = 12,
 		task_id = "21534",
 		desc = "<size=36>療</size>養中心提供的高端理療業務曾為醫院帶來了不小的收益。其中，分管護士華盛頓向我推薦了她最喜歡的區域——縈繞著淡淡薰衣草香的水療區。"
-	},
-	{
+	}
+	pg.base.activity_clue[35] = {
 		id = 35,
 		unlock_num = "2次",
 		unlock_desc = "使用「定期巡查」「特別問診」通關T2療養中心",
@@ -602,8 +605,8 @@ pg.base.activity_clue = {
 		group = 12,
 		task_id = "21535",
 		desc = "<size=36>在</size>接待處的儲物室中找到了不少無人認領的物品，其中的一本八卦日記詳細紀錄了大量院內「秘聞」……或許這就是它無法被實名認領的原因。"
-	},
-	{
+	}
+	pg.base.activity_clue[36] = {
 		id = 36,
 		unlock_num = "3次",
 		unlock_desc = "使用「定期巡查」「特別問診」通關T2療養中心",
@@ -611,8 +614,8 @@ pg.base.activity_clue = {
 		group = 12,
 		task_id = "21536",
 		desc = "<size=36>《</size>八卦日記·伍》\n住在7號房的那位夢遊時會舉著模型劍大喊「吾好夢中殺人」……\n住在13號房的那位在窗簾後藏了不少冒險計劃書……"
-	},
-	{
+	}
+	pg.base.activity_clue[37] = {
 		id = 37,
 		unlock_num = "1次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「奇怪響聲」「探索地下區域」通關T2療養中心",
@@ -620,8 +623,8 @@ pg.base.activity_clue = {
 		group = 13,
 		task_id = "21537",
 		desc = "<size=36>調</size>查13號病房時，在窗簾後找到了一份前往療養中心地下區域的地圖。地圖上用紅筆寫著一句格外醒目的標註：明明過去的收益那麼好，為什麼突然棄用了呢？"
-	},
-	{
+	}
+	pg.base.activity_clue[38] = {
 		id = 38,
 		unlock_num = "2次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「奇怪響聲」「探索地下區域」通關T2療養中心",
@@ -629,8 +632,8 @@ pg.base.activity_clue = {
 		group = 13,
 		task_id = "21538",
 		desc = "<size=36>療</size>養中心的地下區域曾被用作VIP靜養室，如今卻被分隔為多個獨立的房間，再加上一扇又一扇大門……這裡似乎變成了處於嚴密保護下的宿舍區？"
-	},
-	{
+	}
+	pg.base.activity_clue[39] = {
 		id = 39,
 		unlock_num = "3次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「奇怪響聲」「探索地下區域」通關T2療養中心",
@@ -638,8 +641,8 @@ pg.base.activity_clue = {
 		group = 13,
 		task_id = "21539",
 		desc = "<size=36>在</size>一處門牌上寫著「{namecode:59}」的房間外，我撿到了一張SVIP無限額尊享金卡。誰會輕易弄丟這麼貴重的東西？"
-	},
-	{
+	}
+	pg.base.activity_clue[40] = {
 		id = 40,
 		unlock_num = "1次",
 		unlock_desc = "使用「定期巡查」「奇怪響聲」通關T3後勤中心",
@@ -647,8 +650,8 @@ pg.base.activity_clue = {
 		group = 14,
 		task_id = "21540",
 		desc = "<size=36>後</size>勤中心管理醫院流程的起點和終點，雖不起眼，卻極為重要。分管護士{namecode:59}以細緻、耐心的行事風格，維持深谷病院的正常運作。"
-	},
-	{
+	}
+	pg.base.activity_clue[41] = {
 		id = 41,
 		unlock_num = "2次",
 		unlock_desc = "使用「定期巡查」「奇怪響聲」通關T3後勤中心",
@@ -656,8 +659,8 @@ pg.base.activity_clue = {
 		group = 14,
 		task_id = "21541",
 		desc = "<size=36>在</size>後勤中心的數位化檔案庫中，發現了一批蓋章確認等待發送的報告文件。文件的接收方，是遠方的各國情報組織。"
-	},
-	{
+	}
+	pg.base.activity_clue[42] = {
 		id = 42,
 		unlock_num = "3次",
 		unlock_desc = "使用「定期巡查」「奇怪響聲」通關T3後勤中心",
@@ -665,8 +668,8 @@ pg.base.activity_clue = {
 		group = 14,
 		task_id = "21542",
 		desc = "<size=36>《</size>V-01實驗體結局報告》\n實驗體狀態：死亡\n死亡原因：因受到上級個體干預，實驗體選擇自行結束生命。"
-	},
-	{
+	}
+	pg.base.activity_clue[43] = {
 		id = 43,
 		unlock_num = "1次",
 		unlock_desc = "使用「定期巡查」「探索地下區域」通關T3後勤中心",
@@ -674,8 +677,8 @@ pg.base.activity_clue = {
 		group = 15,
 		task_id = "21543",
 		desc = "<size=36>都</size>說後勤中心儲存的秘密比庫存清單還長，實際上也確實如此。然而，最大的秘密其實隱藏在那些被塞的滿滿當當的檔案櫃後面——一條通往未知地下區域的密道。"
-	},
-	{
+	}
+	pg.base.activity_clue[44] = {
 		id = 44,
 		unlock_num = "2次",
 		unlock_desc = "使用「定期巡查」「探索地下區域」通關T3後勤中心",
@@ -683,8 +686,8 @@ pg.base.activity_clue = {
 		group = 15,
 		task_id = "21544",
 		desc = "<size=36>我</size>在後勤中心的地下區域中發現了一處存放有大量現金的庫房，而在庫房外的桌子上，擺放著一份深谷病院資產負債表。"
-	},
-	{
+	}
+	pg.base.activity_clue[45] = {
 		id = 45,
 		unlock_num = "3次",
 		unlock_desc = "使用「定期巡查」「探索地下區域」通關T3後勤中心",
@@ -692,8 +695,8 @@ pg.base.activity_clue = {
 		group = 15,
 		task_id = "21545",
 		desc = "<size=36>《</size>深谷病院季度財務審計報告（內部版）》\n……季度獲利比往年同期下降75%，資產負債率已逼近170%，資金鏈即將在三個月內斷裂。另外，下月底將會有一批30億的貸款到期……"
-	},
-	{
+	}
+	pg.base.activity_clue[46] = {
 		id = 46,
 		unlock_num = "1次",
 		unlock_desc = "使用「定期巡查」「保全系統警戒」「探索停車場」通關T4研究中心",
@@ -701,8 +704,8 @@ pg.base.activity_clue = {
 		group = 16,
 		task_id = "21546",
 		desc = "<size=36>與</size>市區車水馬龍的景像不同，深谷病院停車場的入口標誌永遠顯示「車位充足」，停泊在這裡的車輛比城市夜空中的星星還少。"
-	},
-	{
+	}
+	pg.base.activity_clue[47] = {
 		id = 47,
 		unlock_num = "2次",
 		unlock_desc = "使用「定期巡查」「保全系統警戒」「探索停車場」通關T4研究中心",
@@ -710,8 +713,8 @@ pg.base.activity_clue = {
 		group = 16,
 		task_id = "21547",
 		desc = "<size=36>幾</size>輛前窗落滿灰塵的救護車均購自國際知名品牌，其優越的性能甚至能夠滿足戰地救援的標準，這一切都彰顯著深谷病院曾經雄厚的資金實力。"
-	},
-	{
+	}
+	pg.base.activity_clue[48] = {
 		id = 48,
 		unlock_num = "3次",
 		unlock_desc = "使用「定期巡查」「保全系統警戒」「探索停車場」通關T4研究中心",
@@ -719,8 +722,8 @@ pg.base.activity_clue = {
 		group = 16,
 		task_id = "21548",
 		desc = "<size=36>這</size>些擁有卓越安全保障的車輛堪稱一座座穩固的小型移動堡壘，不但可以用來保護重要目標行動，也可以在必要的時候作為關押可疑人員的移動牢房。"
-	},
-	{
+	}
+	pg.base.activity_clue[49] = {
 		id = 49,
 		unlock_num = "1次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「保全系統警戒」「探索停車場地下」通關T4研究中心",
@@ -728,8 +731,8 @@ pg.base.activity_clue = {
 		group = 17,
 		task_id = "21549",
 		desc = "<size=36>疏</size>於維護的停車場雜草叢生，我在費了一番功夫後，終於在灌木叢後方找到了進入地下區域的下行坡道。"
-	},
-	{
+	}
+	pg.base.activity_clue[50] = {
 		id = 50,
 		unlock_num = "2次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「保全系統警戒」「探索停車場地下」通關T4研究中心",
@@ -737,8 +740,8 @@ pg.base.activity_clue = {
 		group = 17,
 		task_id = "21550",
 		desc = "<size=36>無</size>人使用的地下停車場儼然成為了雜物堆積的倉庫。成箱的醫用紡織品與氧氣罐不加分隔的堆放在一起，牆上還有一張手寫的「嚴禁明火」警示牌。"
-	},
-	{
+	}
+	pg.base.activity_clue[51] = {
 		id = 51,
 		unlock_num = "3次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「保全系統警戒」「探索停車場地下」通關T4研究中心",
@@ -746,8 +749,8 @@ pg.base.activity_clue = {
 		group = 17,
 		task_id = "21551",
 		desc = "<size=36>地</size>下停車場的最深處靜靜擺放著數個密封油罐，儲罐符合API650設計標準，空氣中漂浮著烴類化合物特有的刺鼻氣味——內容物是汽油。"
-	},
-	{
+	}
+	pg.base.activity_clue[52] = {
 		id = 52,
 		unlock_num = "1次",
 		unlock_desc = "使用「定期巡查」「保全系統警戒」「探索門衛亭」通關T4研究中心",
@@ -755,8 +758,8 @@ pg.base.activity_clue = {
 		group = 18,
 		task_id = "21552",
 		desc = "<size=36>門</size>衛亭是醫院與外在資訊互動的中樞要地。它策略意義重大，通過收發快遞的形式，巧妙化解了醫院週邊生活配套設施缺失帶來的不便。"
-	},
-	{
+	}
+	pg.base.activity_clue[53] = {
 		id = 53,
 		unlock_num = "2次",
 		unlock_desc = "使用「定期巡查」「保全系統警戒」「探索門衛亭」通關T4研究中心",
@@ -764,8 +767,8 @@ pg.base.activity_clue = {
 		group = 18,
 		task_id = "21553",
 		desc = "<size=36>看</size>到了一個收件人為伏羅希洛夫的包裹，物品詳情標註著「叛逆少女首選龐克風吸睛JK短裙帶給人小惡魔般biubiu的壞壞心動感」……真是人不可貌相。"
-	},
-	{
+	}
+	pg.base.activity_clue[54] = {
 		id = 54,
 		unlock_num = "3次",
 		unlock_desc = "使用「定期巡查」「保全系統警戒」「探索門衛亭」通關T4研究中心",
@@ -773,8 +776,8 @@ pg.base.activity_clue = {
 		group = 18,
 		task_id = "21554",
 		desc = "<size=36>在</size>多次觀察門衛亭後，我發現伏羅希洛夫每日都會來檢查是否有新包裹送達，而這些隨包裹一同而來的衣服她一次都沒有穿過……衣服都去哪裡了？"
-	},
-	{
+	}
+	pg.base.activity_clue[55] = {
 		id = 55,
 		unlock_num = "1次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「奇怪響聲」「無限循環迴廊」通關ESP診療中心",
@@ -782,8 +785,8 @@ pg.base.activity_clue = {
 		group = 19,
 		task_id = "21555",
 		desc = "<size=36>長</size>廊石柱蒼白如巨人肋骨，撐起繪有天使頌聖光的拱頂壁畫。當陽光漫步過拱門後，我發現了一處隱藏在長廊頂端壁龕中的秘密空間。"
-	},
-	{
+	}
+	pg.base.activity_clue[56] = {
 		id = 56,
 		unlock_num = "2次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「奇怪響聲」「無限循環迴廊」通關ESP診療中心",
@@ -791,8 +794,8 @@ pg.base.activity_clue = {
 		group = 19,
 		task_id = "21556",
 		desc = "<size=36>《</size>血宴》、《夜之女兒的懺悔》、《蒼白新娘的十四行詩》，哥德小說撕裂了理性的桎梏，編制出慾望與奢靡的幻象……是誰將這些小說藏在這裡的呢？"
-	},
-	{
+	}
+	pg.base.activity_clue[57] = {
 		id = 57,
 		unlock_num = "3次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「奇怪響聲」「無限循環迴廊」通關ESP診療中心",
@@ -800,8 +803,8 @@ pg.base.activity_clue = {
 		group = 19,
 		task_id = "21557",
 		desc = "<size=36>留</size>下這些藏書的人同時在秘密空間的牆壁上刻下了一句話，「在吾等嚮往的永恆樂園中，玫瑰永不凋零。日行者統御一切，直至時間化為棺中塵埃。」"
-	},
-	{
+	}
+	pg.base.activity_clue[58] = {
 		id = 58,
 		unlock_num = "1次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「奇怪響聲」「探索庭院」通關T3後勤中心",
@@ -809,8 +812,8 @@ pg.base.activity_clue = {
 		group = 20,
 		task_id = "21558",
 		desc = "<size=36>圍</size>繞庭院生長的高大樹籬構成了複雜的迷宮牆，隔絕了外部的窺探。破解迷宮並不是難事，倒是醫院有意遮掩的態度更令人深思。"
-	},
-	{
+	}
+	pg.base.activity_clue[59] = {
 		id = 59,
 		unlock_num = "2次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「奇怪響聲」「探索庭院」通關T3後勤中心",
@@ -818,8 +821,8 @@ pg.base.activity_clue = {
 		group = 20,
 		task_id = "21559",
 		desc = "<size=36>坐</size>落在迷宮中心的純白色圓亭乾淨異常，新刷的白漆釋放出讓人呼吸不暢的刺鼻氣味，肯定有人近期才整體翻新過這片區域。"
-	},
-	{
+	}
+	pg.base.activity_clue[60] = {
 		id = 60,
 		unlock_num = "3次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「奇怪響聲」「探索庭院」通關T3後勤中心",
@@ -827,8 +830,8 @@ pg.base.activity_clue = {
 		group = 20,
 		task_id = "21560",
 		desc = "<size=36>路</size>過庭院水池時，一張緊緊吸附在排水口上的零食包裝紙引起了我的注意——那正是米勒最愛的零食。她一定曾在這裡停留過，但如今，她在哪裡呢？"
-	},
-	{
+	}
+	pg.base.activity_clue[61] = {
 		id = 61,
 		unlock_num = "1次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「奇怪響聲」「妖豔的櫻花樹」通關T3後勤中心",
@@ -836,8 +839,8 @@ pg.base.activity_clue = {
 		group = 21,
 		task_id = "21561",
 		desc = "<size=36>如</size>今正是櫻花盛開的季節。在深谷病院中流傳著一個故事，櫻花樹下埋藏著血與肉，那是背叛和情慾滋養出的綺麗之花。"
-	},
-	{
+	}
+	pg.base.activity_clue[62] = {
 		id = 62,
 		unlock_num = "2次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「奇怪響聲」「妖豔的櫻花樹」通關T3後勤中心",
@@ -845,8 +848,8 @@ pg.base.activity_clue = {
 		group = 21,
 		task_id = "21562",
 		desc = "<size=36>櫻</size>花樹下看不到一根雜草。仔細調查後，我發現了一處土質地鬆軟的區域，可能在不久前被小心翻整過。可是，櫻花樹下明明沒有一根雜草。"
-	},
-	{
+	}
+	pg.base.activity_clue[63] = {
 		id = 63,
 		unlock_num = "3次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「奇怪響聲」「妖豔的櫻花樹」通關T3後勤中心",
@@ -854,8 +857,8 @@ pg.base.activity_clue = {
 		group = 21,
 		task_id = "21563",
 		desc = "<size=36>用</size>鏟子挖開土質異常的區域後，我發現一枚通信徽章。徽章的外殼印著一隻紅尾的狐狸……天狐集團？"
-	},
-	{
+	}
+	pg.base.activity_clue[64] = {
 		id = 64,
 		unlock_num = "1次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「奇怪響聲」「探索樹林」通關T2療養中心",
@@ -863,8 +866,8 @@ pg.base.activity_clue = {
 		group = 22,
 		task_id = "21564",
 		desc = "<size=36>森</size>林位於療養中心後方，延展向外就是碧藍的海岸線。\n這裡從不拒絕訪客，但喜歡熱鬧場合的人總會下意識避開這裡。"
-	},
-	{
+	}
+	pg.base.activity_clue[65] = {
 		id = 65,
 		unlock_num = "2次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「奇怪響聲」「探索樹林」通關T2療養中心",
@@ -872,8 +875,8 @@ pg.base.activity_clue = {
 		group = 22,
 		task_id = "21565",
 		desc = "<size=36>森</size>林裡沒有發現任何異常情況。即將結束調查時，在森林邊緣看到了聖塔菲的背影。跟上她，說不定會有新發現。"
-	},
-	{
+	}
+	pg.base.activity_clue[66] = {
 		id = 66,
 		unlock_num = "3次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「奇怪響聲」「探索樹林」通關T2療養中心",
@@ -881,8 +884,8 @@ pg.base.activity_clue = {
 		group = 22,
 		task_id = "21566",
 		desc = "<size=36>少</size>女步伐輕盈，跳上樹梢的動作也像貓科動物一般靈巧。\n等聖塔菲離開後，費了些力氣攀上樹梢，發現了她用來和外界聯絡的通訊站。"
-	},
-	{
+	}
+	pg.base.activity_clue[67] = {
 		id = 67,
 		unlock_num = "1次",
 		unlock_desc = "使用「定期巡查」「探索病院正門」通關T4研究中心",
@@ -890,8 +893,8 @@ pg.base.activity_clue = {
 		group = 23,
 		task_id = "21567",
 		desc = "<size=36>醫</size>院正門矗立著兩扇堅固的鑄鐵大門，寬度足以容納四輛大型車輛並行。大門頂部鑲嵌著褪色的院徽，一旁的院牆上則釘著一排醫護人員專用的信報箱。"
-	},
-	{
+	}
+	pg.base.activity_clue[68] = {
 		id = 68,
 		unlock_num = "2次",
 		unlock_desc = "使用「定期巡查」「探索病院正門」通關T4研究中心",
@@ -899,8 +902,8 @@ pg.base.activity_clue = {
 		group = 23,
 		task_id = "21568",
 		desc = "<size=36>這</size>些信報箱經歷了風吹日曬，大部分金屬基體表面的氧化皮已經老化剝落。只有{namecode:59}的個人信箱保養良好，似乎常用。"
-	},
-	{
+	}
+	pg.base.activity_clue[69] = {
 		id = 69,
 		unlock_num = "3次",
 		unlock_desc = "使用「定期巡查」「探索病院正門」通關T4研究中心",
@@ -908,8 +911,8 @@ pg.base.activity_clue = {
 		group = 23,
 		task_id = "21569",
 		desc = "<size=36>在</size>{namecode:59}的信報箱中找到了一份信用卡帳單，帳單上的待還款金額大約是其正常薪資的十倍。除了薪水之外，她一定還有其他收入來維持如此龐大的開銷。"
-	},
-	{
+	}
+	pg.base.activity_clue[70] = {
 		id = 70,
 		unlock_num = "1次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「奇怪響聲」「探索醫院後門」通關ESP診療中心",
@@ -917,8 +920,8 @@ pg.base.activity_clue = {
 		group = 24,
 		task_id = "21570",
 		desc = "<size=36>深</size>谷病院的後門常年封閉，鏽跡斑斑的鐵門旁，「禁止通行」的標誌都已經褪色模糊了。很顯然，落葉都比足跡更常關顧這片被遺忘的角落。"
-	},
-	{
+	}
+	pg.base.activity_clue[71] = {
 		id = 71,
 		unlock_num = "2次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「奇怪響聲」「探索醫院後門」通關ESP診療中心",
@@ -926,8 +929,8 @@ pg.base.activity_clue = {
 		group = 24,
 		task_id = "21571",
 		desc = "<size=36>清</size>理掉堆起在後門前的建築垃圾後，我輕易摘下了早已朽壞的門鎖。眼前是一條延伸至森林深處的小徑，一條絕佳的退路。"
-	},
-	{
+	}
+	pg.base.activity_clue[72] = {
 		id = 72,
 		unlock_num = "3次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「奇怪響聲」「探索醫院後門」通關ESP診療中心",
@@ -935,8 +938,8 @@ pg.base.activity_clue = {
 		group = 24,
 		task_id = "21572",
 		desc = "<size=36>林</size>間小徑直通城市北端的繁忙港口，郵輪、商船與貨輪絡繹不絕，低沉的汽笛聲在耳畔久久迴盪，恍若前往遠方的召喚。"
-	},
-	{
+	}
+	pg.base.activity_clue[73] = {
 		id = 73,
 		unlock_num = "1次",
 		unlock_desc = "時間為黃昏時，通關任意關卡（不含ESP診療中心）",
@@ -944,8 +947,8 @@ pg.base.activity_clue = {
 		group = 25,
 		task_id = "21573",
 		desc = "<size=36>莫</size>加多爾是住院大樓的分管護理師。在辦理入院手續的時候，她提供了相當「熱情」的幫助。"
-	},
-	{
+	}
+	pg.base.activity_clue[74] = {
 		id = 74,
 		unlock_num = "2次",
 		unlock_desc = "時間為黃昏時，通關任意關卡（不含ESP診療中心）",
@@ -953,8 +956,8 @@ pg.base.activity_clue = {
 		group = 25,
 		task_id = "21574",
 		desc = "<size=36>雖</size>然性格率直又可愛，但認真起來的莫加多爾也擁有不容踐踏的信條。一切有違秩序的行為，都會遭到她不留情面的肅清。"
-	},
-	{
+	}
+	pg.base.activity_clue[75] = {
 		id = 75,
 		unlock_num = "3次",
 		unlock_desc = "時間為黃昏時，通關任意關卡（不含ESP診療中心）",
@@ -962,8 +965,8 @@ pg.base.activity_clue = {
 		group = 25,
 		task_id = "21575",
 		desc = "<size=36>遠</size>超常人的體溫，過度敏感的嗅覺，以及在虹膜中流轉的血色……基本上可以確定，莫加多爾已經陷入了「眷屬化」狀態。"
-	},
-	{
+	}
+	pg.base.activity_clue[76] = {
 		id = 76,
 		unlock_num = "2次",
 		unlock_desc = "使用「定期巡查」通關T1住院大樓",
@@ -971,8 +974,8 @@ pg.base.activity_clue = {
 		group = 26,
 		task_id = "21576",
 		desc = "<size=36>如</size>果把護理長富蘭克林這幾年在診療中心的所見所聞出版成書，那大概會是一本相當驚心動魄的「冒險」小說。"
-	},
-	{
+	}
+	pg.base.activity_clue[77] = {
 		id = 77,
 		unlock_num = "4次",
 		unlock_desc = "使用「定期巡查」通關T1住院大樓",
@@ -980,8 +983,8 @@ pg.base.activity_clue = {
 		group = 26,
 		task_id = "21577",
 		desc = "<size=36>友</size>善、包容，充滿創造力和好奇心……作為歷屆醫院年度優秀員工，富蘭克林曾收穫無數榮譽獎狀。她相當珍惜那些已經泛黃褪色的印刷品。"
-	},
-	{
+	}
+	pg.base.activity_clue[78] = {
 		id = 78,
 		unlock_num = "6次",
 		unlock_desc = "使用「定期巡查」通關T1住院大樓",
@@ -989,8 +992,8 @@ pg.base.activity_clue = {
 		group = 26,
 		task_id = "21578",
 		desc = "<size=36>「</size>眷屬化」扭曲了富蘭克林的情感，她將不計代價地確保每名同伴都能生存。\n本該貫徹趣味的冒險，卻落入了名為「控制欲」的陷阱。"
-	},
-	{
+	}
+	pg.base.activity_clue[79] = {
 		id = 79,
 		unlock_num = "1次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「奇怪響聲」「訪客限制令」通關T1住院大樓（夜晚）",
@@ -998,8 +1001,8 @@ pg.base.activity_clue = {
 		group = 27,
 		task_id = "21579",
 		desc = "<size=36>療</size>養中心的分管護士華盛頓是國防夏令營的常客，尤其擅長在30秒內非暴力壓制失控的精神病患。她具備卓越的戰術素養，但對於護理藝術的理解仍需精進。"
-	},
-	{
+	}
+	pg.base.activity_clue[80] = {
 		id = 80,
 		unlock_num = "2次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「奇怪響聲」「訪客限制令」通關T1住院大樓（夜晚）",
@@ -1007,8 +1010,8 @@ pg.base.activity_clue = {
 		group = 27,
 		task_id = "21580",
 		desc = "<size=36>聊</size>到開心的時候，華盛頓偶爾冒出幾句白鷹風味十足的俚語。據說她來自白鷹，在這方面和聖塔菲有不少共同話題。"
-	},
-	{
+	}
+	pg.base.activity_clue[81] = {
 		id = 81,
 		unlock_num = "3次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「奇怪響聲」「訪客限制令」通關T1住院大樓（夜晚）",
@@ -1016,8 +1019,8 @@ pg.base.activity_clue = {
 		group = 27,
 		task_id = "21581",
 		desc = "<size=36>啟</size>動潛能，接受力量——如此便能成為勝利的常客。「眷屬化」帶給了華盛頓她想要的一切，而超凡之力皆需支付代價。"
-	},
-	{
+	}
+	pg.base.activity_clue[82] = {
 		id = 82,
 		unlock_num = "2次",
 		unlock_desc = "使用「定期巡查」通關T2療養中心",
@@ -1025,8 +1028,8 @@ pg.base.activity_clue = {
 		group = 28,
 		task_id = "21582",
 		desc = "<size=36>在</size>成為後勤中心的分管護士之前，{namecode:59}曾是採血室的王牌，據說她連續五年在「世界一針見血大賽」蟬聯冠軍。"
-	},
-	{
+	}
+	pg.base.activity_clue[83] = {
 		id = 83,
 		unlock_num = "4次",
 		unlock_desc = "使用「定期巡查」通關T2療養中心",
@@ -1034,8 +1037,8 @@ pg.base.activity_clue = {
 		group = 28,
 		task_id = "21583",
 		desc = "<size=36>{namecode:59}</size>待人接物的方式友善克制，禮貌中帶著些許距離感。她似乎有意和其他護士保持距離，還在暗中觀察我的行動……難道我入院的目的暴露了？"
-	},
-	{
+	}
+	pg.base.activity_clue[84] = {
 		id = 84,
 		unlock_num = "6次",
 		unlock_desc = "使用「定期巡查」通關T2療養中心",
@@ -1043,8 +1046,8 @@ pg.base.activity_clue = {
 		group = 28,
 		task_id = "21584",
 		desc = "<size=36>「</size>眷屬化」正在影響{namecode:59}的心智，但她拒絕服從於體內的衝動。{namecode:59}似乎有信心能夠重拾失去的日常——是誰給了她這份希望？"
-	},
-	{
+	}
+	pg.base.activity_clue[85] = {
 		id = 85,
 		unlock_num = "1次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「奇怪響聲」「特別問診」通關T2療養中心（夜晚）",
@@ -1052,8 +1055,8 @@ pg.base.activity_clue = {
 		group = 29,
 		task_id = "21585",
 		desc = "<size=36>研</size>究中心分管護士伏羅希洛夫，是北方聯合的臥底特工。比起這份情報，更令我意外的是她主動坦白身分的態度。"
-	},
-	{
+	}
+	pg.base.activity_clue[86] = {
 		id = 86,
 		unlock_num = "2次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「奇怪響聲」「特別問診」通關T2療養中心（夜晚）",
@@ -1061,8 +1064,8 @@ pg.base.activity_clue = {
 		group = 29,
 		task_id = "21586",
 		desc = "<size=36>比</size>起直率地表達想法，伏羅希洛夫更習慣慢熱的相處。如今卻反常地表現出了積極的合作意圖……這會是某個「計劃」的一部分嗎？"
-	},
-	{
+	}
+	pg.base.activity_clue[87] = {
 		id = 87,
 		unlock_num = "3次",
 		unlock_desc = "使用「定期巡查」「幽靈鬼影」「奇怪響聲」「特別問診」通關T2療養中心（夜晚）",
@@ -1070,8 +1073,8 @@ pg.base.activity_clue = {
 		group = 29,
 		task_id = "21587",
 		desc = "<size=36>猩</size>紅的狂熱早已徹底支配了伏羅希洛夫，所有人中，她的「眷屬化」程度是最深的。這股神秘力量為什麼要選擇她當代言人？"
-	},
-	{
+	}
+	pg.base.activity_clue[88] = {
 		id = 88,
 		unlock_num = "2次",
 		unlock_desc = "使用「幽靈鬼影」「奇怪響聲」通關T3後勤中心",
@@ -1079,8 +1082,8 @@ pg.base.activity_clue = {
 		group = 30,
 		task_id = "21588",
 		desc = "<size=36>鷹</size>，深谷病院目前唯一在職骨科醫生，目前精神狀態良好。員工資料顯示，她的入職時間是半年前。從醫院的經營情況來看，這可不是明智的決策。"
-	},
-	{
+	}
+	pg.base.activity_clue[89] = {
 		id = 89,
 		unlock_num = "4次",
 		unlock_desc = "使用「幽靈鬼影」「奇怪響聲」通關T3後勤中心",
@@ -1088,8 +1091,8 @@ pg.base.activity_clue = {
 		group = 30,
 		task_id = "21589",
 		desc = "<size=36>作</size>為醫生，鷹的工作態度相當認真，毫無破綻，但她的專業水平低得驚人……大概沒有病人敢相信X光片都能掛反的醫生吧？"
-	},
-	{
+	}
+	pg.base.activity_clue[90] = {
 		id = 90,
 		unlock_num = "6次",
 		unlock_desc = "使用「幽靈鬼影」「奇怪響聲」通關T3後勤中心",
@@ -1097,8 +1100,8 @@ pg.base.activity_clue = {
 		group = 30,
 		task_id = "21590",
 		desc = "<size=36>鷹</size>的醫生資格證編號在官方資料庫裡查無此人，再加上她對皇家傳統「美食」的偏愛，結論呼之欲出——鷹就是皇家派來的臥底特工。"
-	},
-	{
+	}
+	pg.base.activity_clue[91] = {
 		id = 91,
 		unlock_num = "2次",
 		unlock_desc = "使用「定期巡查」通關T3後勤中心",
@@ -1106,8 +1109,8 @@ pg.base.activity_clue = {
 		group = 31,
 		task_id = "21591",
 		desc = "<size=36>和</size>鷹同期入職的護士神速，目前精神狀態良好。她總是因為自己體型過分嬌小妨礙了工作而煩惱，因此選擇了「大人的高跟鞋」……倒是意外地相稱。"
-	},
-	{
+	}
+	pg.base.activity_clue[92] = {
 		id = 92,
 		unlock_num = "4次",
 		unlock_desc = "使用「定期巡查」通關T3後勤中心",
@@ -1115,8 +1118,8 @@ pg.base.activity_clue = {
 		group = 31,
 		task_id = "21592",
 		desc = "<size=36>神</size>速接受過完善的醫療救助訓練，能夠獨立完成護士的本職工作，但她的救護理念極具地域特色——那是手法純正的伏特加醫療哲學。"
-	},
-	{
+	}
+	pg.base.activity_clue[93] = {
 		id = 93,
 		unlock_num = "6次",
 		unlock_desc = "使用「定期巡查」通關T3後勤中心",
@@ -1124,8 +1127,8 @@ pg.base.activity_clue = {
 		group = 31,
 		task_id = "21593",
 		desc = "<size=36>神</size>速是來自北方聯合的臥底特工，目的是調查醫院和失蹤特工伏羅希洛夫。\n被我猜出身分的時候，她開心得像個孩子，還送了我幾個小雪球作為「獎勵」。"
-	},
-	{
+	}
+	pg.base.activity_clue[94] = {
 		id = 94,
 		unlock_num = "2次",
 		unlock_desc = "使用「保全系統警戒」通關T4研究中心",
@@ -1133,8 +1136,8 @@ pg.base.activity_clue = {
 		group = 32,
 		task_id = "21594",
 		desc = "<size=36>同</size>房病友聖塔菲從不遵循醫囑乖乖臥床靜養，她總能精準地捕獲到別人藏在話裡的八卦，彷彿腦袋裡搭載了高精度八卦雷達。"
-	},
-	{
+	}
+	pg.base.activity_clue[95] = {
 		id = 95,
 		unlock_num = "4次",
 		unlock_desc = "使用「保全系統警戒」通關T4研究中心",
@@ -1142,8 +1145,8 @@ pg.base.activity_clue = {
 		group = 32,
 		task_id = "21595",
 		desc = "<size=36>病</size>號服只會妨礙聖塔菲熱情滿滿的「日行一二三四五六七善」。我從沒見過像她這樣精力充沛的病人——輕度電解質失衡的診斷，外加一張滿是維他命的營養補充品清單，怎麼看都太過正常了。"
-	},
-	{
+	}
+	pg.base.activity_clue[96] = {
 		id = 96,
 		unlock_num = "6次",
 		unlock_desc = "使用「保全系統警戒」通關T4研究中心",
@@ -1151,8 +1154,8 @@ pg.base.activity_clue = {
 		group = 32,
 		task_id = "21596",
 		desc = "<size=36>神</size>經緊繃的夜晚，竟被聖塔菲的夢中囈語奇蹟般治癒。這位「病友」的身份已經呼之欲出——白鷹有必要加強對特工的考核標準了。"
-	},
-	{
+	}
+	pg.base.activity_clue[97] = {
 		id = 97,
 		unlock_num = "1次",
 		unlock_desc = "使用「定期巡查」「保全系統警戒」「幽靈鬼影」「奇怪響聲」通關T4研究中心（夜晚）",
@@ -1160,8 +1163,8 @@ pg.base.activity_clue = {
 		group = 33,
 		task_id = "21597",
 		desc = "<size=36>她</size>是米勒，我的多年好友兼偵探搭檔，也是我見過的最矛盾、最優秀的人。我們曾聯手偵破無數案件，被譽為「最佳搭檔」。"
-	},
-	{
+	}
+	pg.base.activity_clue[98] = {
 		id = 98,
 		unlock_num = "2次",
 		unlock_desc = "使用「定期巡查」「保全系統警戒」「幽靈鬼影」「奇怪響聲」通關T4研究中心（夜晚）",
@@ -1169,8 +1172,8 @@ pg.base.activity_clue = {
 		group = 33,
 		task_id = "21598",
 		desc = "<size=36>米</size>勒叛逆的外表下，是近乎苛刻的完美主義傾向。她渴望證明自己是配得上我的優秀夥伴，才會接見深谷病院所發出的獨立調查邀約。"
-	},
-	{
+	}
+	pg.base.activity_clue[99] = {
 		id = 99,
 		unlock_num = "3次",
 		unlock_desc = "使用「定期巡查」「保全系統警戒」「幽靈鬼影」「奇怪響聲」通關T4研究中心（夜晚）",
@@ -1178,8 +1181,8 @@ pg.base.activity_clue = {
 		group = 33,
 		task_id = "21599",
 		desc = "<size=36>我</size>了解米勒——她晝夜的習慣，紅色的小偏好……我知道她身上藏著不少秘密。終有一天，她會親口告訴我真相——因為我們是「最佳搭檔」。"
-	},
-	{
+	}
+	pg.base.activity_clue[100] = {
 		id = 100,
 		unlock_num = "1次",
 		unlock_desc = "時間為正午時，通關任意關卡（不含ESP診療中心）",
@@ -1187,8 +1190,10 @@ pg.base.activity_clue = {
 		group = 34,
 		task_id = "21600",
 		desc = "<size=36>一</size>個瀕臨破產的古老家族的大小姐，要如何維繫體面的生活？傳聞她以租賃貴族頭銜換取報酬，但這顯然是杯水車薪。"
-	},
-	{
+	}
+end)()
+(function ()
+	pg.base.activity_clue[101] = {
 		id = 101,
 		unlock_num = "2次",
 		unlock_desc = "時間為正午時，通關任意關卡（不含ESP診療中心）",
@@ -1196,8 +1201,8 @@ pg.base.activity_clue = {
 		group = 34,
 		task_id = "21601",
 		desc = "<size=36>令</size>人驚訝的是，哈爾福德的財務狀況並不像外界猜測得那麼糟。情報顯示，米勒曾為哈爾福德提供協助，她們的家族也來自同一地區……但米勒從未對我提起過。"
-	},
-	{
+	}
+	pg.base.activity_clue[102] = {
 		id = 102,
 		unlock_num = "3次",
 		unlock_desc = "時間為正午時，通關任意關卡（不含ESP診療中心）",
@@ -1205,8 +1210,8 @@ pg.base.activity_clue = {
 		group = 34,
 		task_id = "21602",
 		desc = "<size=36>哈</size>爾福德的姓氏相當古老，據稱源自三百年前的某位血族大公……說出這些設定的時候，她的表情不像在開玩笑，姑且相信她吧。"
-	},
-	{
+	}
+	pg.base.activity_clue[103] = {
 		id = 103,
 		unlock_num = "5次",
 		unlock_desc = "時間為夜晚時，通關任意關卡（不含ESP診療中心）",
@@ -1214,8 +1219,8 @@ pg.base.activity_clue = {
 		group = 35,
 		task_id = "21603",
 		desc = "<size=36>來</size>自重櫻的天狐集團代表——{namecode:91}。她的每一次公開活動，都會吸引媒體的全力曝光，但涉及其私人生活的情報卻極為稀少。"
-	},
-	{
+	}
+	pg.base.activity_clue[104] = {
 		id = 104,
 		unlock_num = "10次",
 		unlock_desc = "時間為夜晚時，通關任意關卡（不含ESP診療中心）",
@@ -1223,8 +1228,8 @@ pg.base.activity_clue = {
 		group = 35,
 		task_id = "21604",
 		desc = "<size=36>{namecode:91}</size>個性高傲、強勢且能力卓越。我們生活在不同的世界，但她在看到我的瞬間，眼中迸發出強烈愛意卻足以強行改變世界的運行法則。"
-	},
-	{
+	}
+	pg.base.activity_clue[105] = {
 		id = 105,
 		unlock_num = "15次",
 		unlock_desc = "時間為夜晚時，通關任意關卡（不含ESP診療中心）",
@@ -1233,4 +1238,4 @@ pg.base.activity_clue = {
 		task_id = "21605",
 		desc = "<size=36>{namecode:91}</size>對我坦白了一切，她正在鑄造鮮紅的王座——通過「少數」的痛苦，以及「恰當」的犧牲，世界將開啟全新的篇章……我應該支持她麼？"
 	}
-}
+end)()

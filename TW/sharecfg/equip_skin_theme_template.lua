@@ -1,6 +1,99 @@
 pg = pg or {}
-pg.equip_skin_theme_template = {
-	{
+pg.equip_skin_theme_template = rawget(pg, "equip_skin_theme_template") or setmetatable({
+	__name = "equip_skin_theme_template"
+}, confNEO)
+pg.equip_skin_theme_template.all = {
+	1,
+	2,
+	3,
+	4,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	14,
+	15,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	39,
+	40,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	48,
+	49,
+	50,
+	51,
+	52,
+	53,
+	54,
+	55,
+	56,
+	57,
+	58,
+	59,
+	60,
+	61,
+	62,
+	63,
+	64,
+	65,
+	66,
+	67,
+	68,
+	69,
+	70,
+	71,
+	72,
+	73,
+	74,
+	75,
+	77,
+	78,
+	79,
+	80,
+	81,
+	82,
+	83,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	108,
+	199
+}
+pg.base = pg.base or {}
+pg.base.equip_skin_theme_template = {}
+
+(function ()
+	pg.base.equip_skin_theme_template[1] = {
 		id = 1,
 		name = "海豹系列",
 		ids = {
@@ -9,8 +102,8 @@ pg.equip_skin_theme_template = {
 			11,
 			12
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[2] = {
 		id = 2,
 		name = "鹹魚系列",
 		ids = {
@@ -19,8 +112,8 @@ pg.equip_skin_theme_template = {
 			13,
 			14
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[3] = {
 		id = 3,
 		name = "新年快樂",
 		ids = {
@@ -30,8 +123,8 @@ pg.equip_skin_theme_template = {
 			16,
 			17
 		}
-	},
-	{
+	}
+	pg.base.equip_skin_theme_template[4] = {
 		id = 4,
 		name = "聖誕快樂",
 		ids = {
@@ -44,8 +137,8 @@ pg.equip_skin_theme_template = {
 			20,
 			21
 		}
-	},
-	[6] = {
+	}
+	pg.base.equip_skin_theme_template[6] = {
 		id = 6,
 		name = "小海豹",
 		ids = {
@@ -55,8 +148,8 @@ pg.equip_skin_theme_template = {
 			25,
 			26
 		}
-	},
-	[7] = {
+	}
+	pg.base.equip_skin_theme_template[7] = {
 		id = 7,
 		name = "恭賀新春",
 		ids = {
@@ -73,8 +166,8 @@ pg.equip_skin_theme_template = {
 			37,
 			38
 		}
-	},
-	[8] = {
+	}
+	pg.base.equip_skin_theme_template[8] = {
 		id = 8,
 		name = "開學季",
 		ids = {
@@ -96,8 +189,8 @@ pg.equip_skin_theme_template = {
 			65,
 			66
 		}
-	},
-	[9] = {
+	}
+	pg.base.equip_skin_theme_template[9] = {
 		id = 9,
 		name = "炎炎夏日",
 		ids = {
@@ -120,8 +213,8 @@ pg.equip_skin_theme_template = {
 			117,
 			118
 		}
-	},
-	[10] = {
+	}
+	pg.base.equip_skin_theme_template[10] = {
 		id = 10,
 		name = "豬突猛進",
 		ids = {
@@ -144,8 +237,8 @@ pg.equip_skin_theme_template = {
 			136,
 			137
 		}
-	},
-	[11] = {
+	}
+	pg.base.equip_skin_theme_template[11] = {
 		id = 11,
 		name = "皇家格調",
 		ids = {
@@ -168,8 +261,8 @@ pg.equip_skin_theme_template = {
 			156,
 			157
 		}
-	},
-	[14] = {
+	}
+	pg.base.equip_skin_theme_template[14] = {
 		id = 14,
 		name = "薩丁風情",
 		ids = {
@@ -192,8 +285,8 @@ pg.equip_skin_theme_template = {
 			176,
 			177
 		}
-	},
-	[15] = {
+	}
+	pg.base.equip_skin_theme_template[15] = {
 		id = 15,
 		name = "激奏Live",
 		ids = {
@@ -216,8 +309,8 @@ pg.equip_skin_theme_template = {
 			196,
 			197
 		}
-	},
-	[17] = {
+	}
+	pg.base.equip_skin_theme_template[17] = {
 		id = 17,
 		name = "北聯風雲",
 		ids = {
@@ -240,8 +333,8 @@ pg.equip_skin_theme_template = {
 			236,
 			237
 		}
-	},
-	[18] = {
+	}
+	pg.base.equip_skin_theme_template[18] = {
 		id = 18,
 		name = "白鷹風格 ",
 		ids = {
@@ -264,8 +357,8 @@ pg.equip_skin_theme_template = {
 			256,
 			257
 		}
-	},
-	[19] = {
+	}
+	pg.base.equip_skin_theme_template[19] = {
 		id = 19,
 		name = "鳶尾印象",
 		ids = {
@@ -288,8 +381,8 @@ pg.equip_skin_theme_template = {
 			276,
 			277
 		}
-	},
-	[20] = {
+	}
+	pg.base.equip_skin_theme_template[20] = {
 		id = 20,
 		name = "啾啾野戰醫院",
 		ids = {
@@ -312,8 +405,8 @@ pg.equip_skin_theme_template = {
 			296,
 			297
 		}
-	},
-	[21] = {
+	}
+	pg.base.equip_skin_theme_template[21] = {
 		id = 21,
 		name = "重櫻匠心",
 		ids = {
@@ -336,8 +429,8 @@ pg.equip_skin_theme_template = {
 			316,
 			317
 		}
-	},
-	[22] = {
+	}
+	pg.base.equip_skin_theme_template[22] = {
 		id = 22,
 		name = "激唱Universe",
 		ids = {
@@ -360,8 +453,8 @@ pg.equip_skin_theme_template = {
 			336,
 			337
 		}
-	},
-	[23] = {
+	}
+	pg.base.equip_skin_theme_template[23] = {
 		id = 23,
 		name = "女神假期 ",
 		ids = {
@@ -384,8 +477,8 @@ pg.equip_skin_theme_template = {
 			356,
 			357
 		}
-	},
-	[24] = {
+	}
+	pg.base.equip_skin_theme_template[24] = {
 		id = 24,
 		name = "鐵血風情",
 		ids = {
@@ -408,8 +501,8 @@ pg.equip_skin_theme_template = {
 			376,
 			377
 		}
-	},
-	[25] = {
+	}
+	pg.base.equip_skin_theme_template[25] = {
 		id = 25,
 		name = "敬賀新禧",
 		ids = {
@@ -432,8 +525,8 @@ pg.equip_skin_theme_template = {
 			396,
 			397
 		}
-	},
-	[26] = {
+	}
+	pg.base.equip_skin_theme_template[26] = {
 		id = 26,
 		name = "啾啾樂園",
 		ids = {
@@ -456,8 +549,8 @@ pg.equip_skin_theme_template = {
 			416,
 			417
 		}
-	},
-	[27] = {
+	}
+	pg.base.equip_skin_theme_template[27] = {
 		id = 27,
 		name = "偶像大師",
 		ids = {
@@ -480,8 +573,8 @@ pg.equip_skin_theme_template = {
 			436,
 			437
 		}
-	},
-	[28] = {
+	}
+	pg.base.equip_skin_theme_template[28] = {
 		id = 28,
 		name = "啾啾牛仔",
 		ids = {
@@ -504,8 +597,8 @@ pg.equip_skin_theme_template = {
 			456,
 			457
 		}
-	},
-	[29] = {
+	}
+	pg.base.equip_skin_theme_template[29] = {
 		id = 29,
 		name = "水上樂園",
 		ids = {
@@ -528,8 +621,8 @@ pg.equip_skin_theme_template = {
 			476,
 			477
 		}
-	},
-	[30] = {
+	}
+	pg.base.equip_skin_theme_template[30] = {
 		id = 30,
 		name = "SSSS",
 		ids = {
@@ -559,8 +652,8 @@ pg.equip_skin_theme_template = {
 			805,
 			806
 		}
-	},
-	[31] = {
+	}
+	pg.base.equip_skin_theme_template[31] = {
 		id = 31,
 		name = "女僕咖啡",
 		ids = {
@@ -583,8 +676,8 @@ pg.equip_skin_theme_template = {
 			516,
 			517
 		}
-	},
-	[32] = {
+	}
+	pg.base.equip_skin_theme_template[32] = {
 		id = 32,
 		name = "東煌意境",
 		ids = {
@@ -607,8 +700,8 @@ pg.equip_skin_theme_template = {
 			536,
 			537
 		}
-	},
-	[33] = {
+	}
+	pg.base.equip_skin_theme_template[33] = {
 		id = 33,
 		name = "紅月之夜",
 		ids = {
@@ -631,8 +724,8 @@ pg.equip_skin_theme_template = {
 			556,
 			557
 		}
-	},
-	[34] = {
+	}
+	pg.base.equip_skin_theme_template[34] = {
 		id = 34,
 		name = "東煌時尚",
 		ids = {
@@ -655,8 +748,8 @@ pg.equip_skin_theme_template = {
 			576,
 			577
 		}
-	},
-	[35] = {
+	}
+	pg.base.equip_skin_theme_template[35] = {
 		id = 35,
 		name = "童話世界",
 		ids = {
@@ -679,8 +772,8 @@ pg.equip_skin_theme_template = {
 			596,
 			597
 		}
-	},
-	[36] = {
+	}
+	pg.base.equip_skin_theme_template[36] = {
 		id = 36,
 		name = "舞蹈空間",
 		ids = {
@@ -703,8 +796,8 @@ pg.equip_skin_theme_template = {
 			616,
 			617
 		}
-	},
-	[37] = {
+	}
+	pg.base.equip_skin_theme_template[37] = {
 		id = 37,
 		name = "鐵血之志",
 		ids = {
@@ -727,8 +820,8 @@ pg.equip_skin_theme_template = {
 			636,
 			637
 		}
-	},
-	[38] = {
+	}
+	pg.base.equip_skin_theme_template[38] = {
 		id = 38,
 		name = "啾啾學園慶典",
 		ids = {
@@ -751,8 +844,8 @@ pg.equip_skin_theme_template = {
 			654,
 			655
 		}
-	},
-	[39] = {
+	}
+	pg.base.equip_skin_theme_template[39] = {
 		id = 39,
 		name = "勇者大冒險",
 		ids = {
@@ -782,8 +875,8 @@ pg.equip_skin_theme_template = {
 			946,
 			947
 		}
-	},
-	[40] = {
+	}
+	pg.base.equip_skin_theme_template[40] = {
 		id = 40,
 		name = "幽靈狂歡",
 		ids = {
@@ -806,8 +899,8 @@ pg.equip_skin_theme_template = {
 			686,
 			687
 		}
-	},
-	[41] = {
+	}
+	pg.base.equip_skin_theme_template[41] = {
 		id = 41,
 		name = "鍊金工房",
 		ids = {
@@ -831,8 +924,8 @@ pg.equip_skin_theme_template = {
 			1217,
 			1218
 		}
-	},
-	[42] = {
+	}
+	pg.base.equip_skin_theme_template[42] = {
 		id = 42,
 		name = "南方假日",
 		ids = {
@@ -855,8 +948,8 @@ pg.equip_skin_theme_template = {
 			706,
 			707
 		}
-	},
-	[43] = {
+	}
+	pg.base.equip_skin_theme_template[43] = {
 		id = 43,
 		name = "東煌美食",
 		ids = {
@@ -879,15 +972,15 @@ pg.equip_skin_theme_template = {
 			726,
 			727
 		}
-	},
-	[44] = {
+	}
+	pg.base.equip_skin_theme_template[44] = {
 		id = 44,
 		name = "甜蜜之禮",
 		ids = {
 			1300
 		}
-	},
-	[45] = {
+	}
+	pg.base.equip_skin_theme_template[45] = {
 		id = 45,
 		name = "皇家教室",
 		ids = {
@@ -910,8 +1003,8 @@ pg.equip_skin_theme_template = {
 			746,
 			747
 		}
-	},
-	[46] = {
+	}
+	pg.base.equip_skin_theme_template[46] = {
 		id = 46,
 		name = "海島冒險",
 		ids = {
@@ -934,8 +1027,8 @@ pg.equip_skin_theme_template = {
 			766,
 			767
 		}
-	},
-	[48] = {
+	}
+	pg.base.equip_skin_theme_template[48] = {
 		id = 48,
 		name = "辦公時光",
 		ids = {
@@ -958,8 +1051,8 @@ pg.equip_skin_theme_template = {
 			796,
 			797
 		}
-	},
-	[49] = {
+	}
+	pg.base.equip_skin_theme_template[49] = {
 		id = 49,
 		name = "夏日夢幻",
 		ids = {
@@ -982,8 +1075,8 @@ pg.equip_skin_theme_template = {
 			826,
 			827
 		}
-	},
-	[50] = {
+	}
+	pg.base.equip_skin_theme_template[50] = {
 		id = 50,
 		name = "常世夜遊",
 		ids = {
@@ -1006,8 +1099,8 @@ pg.equip_skin_theme_template = {
 			846,
 			847
 		}
-	},
-	[51] = {
+	}
+	pg.base.equip_skin_theme_template[51] = {
 		id = 51,
 		name = "航海集結",
 		ids = {
@@ -1030,8 +1123,8 @@ pg.equip_skin_theme_template = {
 			866,
 			867
 		}
-	},
-	[52] = {
+	}
+	pg.base.equip_skin_theme_template[52] = {
 		id = 52,
 		name = "閃亂神樂",
 		ids = {
@@ -1054,8 +1147,8 @@ pg.equip_skin_theme_template = {
 			1416,
 			1417
 		}
-	},
-	[53] = {
+	}
+	pg.base.equip_skin_theme_template[53] = {
 		id = 53,
 		name = "港區喧囂夜",
 		ids = {
@@ -1078,8 +1171,8 @@ pg.equip_skin_theme_template = {
 			886,
 			887
 		}
-	},
-	[54] = {
+	}
+	pg.base.equip_skin_theme_template[54] = {
 		id = 54,
 		name = "軒轅秘寶",
 		ids = {
@@ -1103,8 +1196,8 @@ pg.equip_skin_theme_template = {
 			907,
 			908
 		}
-	},
-	[55] = {
+	}
+	pg.base.equip_skin_theme_template[55] = {
 		id = 55,
 		name = "罪惡都市",
 		ids = {
@@ -1127,8 +1220,8 @@ pg.equip_skin_theme_template = {
 			926,
 			927
 		}
-	},
-	[56] = {
+	}
+	pg.base.equip_skin_theme_template[56] = {
 		id = 56,
 		name = "共鳴Passion",
 		ids = {
@@ -1151,8 +1244,8 @@ pg.equip_skin_theme_template = {
 			966,
 			967
 		}
-	},
-	[57] = {
+	}
+	pg.base.equip_skin_theme_template[57] = {
 		id = 57,
 		name = "郵輪假日",
 		ids = {
@@ -1175,8 +1268,8 @@ pg.equip_skin_theme_template = {
 			986,
 			987
 		}
-	},
-	[58] = {
+	}
+	pg.base.equip_skin_theme_template[58] = {
 		id = 58,
 		name = "童心學院",
 		ids = {
@@ -1200,8 +1293,8 @@ pg.equip_skin_theme_template = {
 			4018,
 			4019
 		}
-	},
-	[59] = {
+	}
+	pg.base.equip_skin_theme_template[59] = {
 		id = 59,
 		name = "西部往事",
 		ids = {
@@ -1224,8 +1317,8 @@ pg.equip_skin_theme_template = {
 			4037,
 			4038
 		}
-	},
-	[60] = {
+	}
+	pg.base.equip_skin_theme_template[60] = {
 		id = 60,
 		name = "夢幻樂園",
 		ids = {
@@ -1248,8 +1341,8 @@ pg.equip_skin_theme_template = {
 			4057,
 			4058
 		}
-	},
-	[61] = {
+	}
+	pg.base.equip_skin_theme_template[61] = {
 		id = 61,
 		name = "恐怖狂潮",
 		ids = {
@@ -1272,8 +1365,8 @@ pg.equip_skin_theme_template = {
 			4075,
 			4076
 		}
-	},
-	[62] = {
+	}
+	pg.base.equip_skin_theme_template[62] = {
 		id = 62,
 		name = "To LOVE-Ru",
 		ids = {
@@ -1296,8 +1389,8 @@ pg.equip_skin_theme_template = {
 			1466,
 			1467
 		}
-	},
-	[63] = {
+	}
+	pg.base.equip_skin_theme_template[63] = {
 		id = 63,
 		name = "荒野力量",
 		ids = {
@@ -1320,8 +1413,8 @@ pg.equip_skin_theme_template = {
 			4093,
 			4094
 		}
-	},
-	[64] = {
+	}
+	pg.base.equip_skin_theme_template[64] = {
 		id = 64,
 		name = "瑞光迎歲",
 		ids = {
@@ -1344,8 +1437,8 @@ pg.equip_skin_theme_template = {
 			4111,
 			4112
 		}
-	},
-	[65] = {
+	}
+	pg.base.equip_skin_theme_template[65] = {
 		id = 65,
 		name = "黃金法老的秘器",
 		ids = {
@@ -1368,8 +1461,8 @@ pg.equip_skin_theme_template = {
 			4129,
 			4130
 		}
-	},
-	[66] = {
+	}
+	pg.base.equip_skin_theme_template[66] = {
 		id = 66,
 		name = "病院冒險",
 		ids = {
@@ -1392,8 +1485,8 @@ pg.equip_skin_theme_template = {
 			4147,
 			4148
 		}
-	},
-	[67] = {
+	}
+	pg.base.equip_skin_theme_template[67] = {
 		id = 67,
 		name = "鬱金鄉間",
 		ids = {
@@ -1416,8 +1509,8 @@ pg.equip_skin_theme_template = {
 			4165,
 			4166
 		}
-	},
-	[68] = {
+	}
+	pg.base.equip_skin_theme_template[68] = {
 		id = 68,
 		name = "假日海濱",
 		ids = {
@@ -1440,8 +1533,8 @@ pg.equip_skin_theme_template = {
 			4183,
 			4184
 		}
-	},
-	[69] = {
+	}
+	pg.base.equip_skin_theme_template[69] = {
 		id = 69,
 		name = "BLACK★ROCK SHOOTER",
 		ids = {
@@ -1456,8 +1549,8 @@ pg.equip_skin_theme_template = {
 			1479,
 			1480
 		}
-	},
-	[70] = {
+	}
+	pg.base.equip_skin_theme_template[70] = {
 		id = 70,
 		name = "鐵路之旅",
 		ids = {
@@ -1480,8 +1573,8 @@ pg.equip_skin_theme_template = {
 			4202,
 			4203
 		}
-	},
-	[71] = {
+	}
+	pg.base.equip_skin_theme_template[71] = {
 		id = 71,
 		name = "鍊金工房II",
 		ids = {
@@ -1505,8 +1598,8 @@ pg.equip_skin_theme_template = {
 			1498,
 			1499
 		}
-	},
-	[72] = {
+	}
+	pg.base.equip_skin_theme_template[72] = {
 		id = 72,
 		name = "奇淵奇境",
 		ids = {
@@ -1529,8 +1622,8 @@ pg.equip_skin_theme_template = {
 			4220,
 			4221
 		}
-	},
-	[73] = {
+	}
+	pg.base.equip_skin_theme_template[73] = {
 		id = 73,
 		name = "幻梦天原",
 		ids = {
@@ -1553,8 +1646,8 @@ pg.equip_skin_theme_template = {
 			4238,
 			4239
 		}
-	},
-	[74] = {
+	}
+	pg.base.equip_skin_theme_template[74] = {
 		id = 74,
 		name = "danmachi",
 		ids = {
@@ -1566,8 +1659,8 @@ pg.equip_skin_theme_template = {
 			1506,
 			1507
 		}
-	},
-	[75] = {
+	}
+	pg.base.equip_skin_theme_template[75] = {
 		id = 75,
 		name = "深海尋寶",
 		ids = {
@@ -1590,8 +1683,8 @@ pg.equip_skin_theme_template = {
 			4256,
 			4257
 		}
-	},
-	[77] = {
+	}
+	pg.base.equip_skin_theme_template[77] = {
 		id = 77,
 		name = "Date A Live",
 		ids = {
@@ -1614,8 +1707,8 @@ pg.equip_skin_theme_template = {
 			1527,
 			1528
 		}
-	},
-	[78] = {
+	}
+	pg.base.equip_skin_theme_template[78] = {
 		id = 78,
 		name = "玫粉女僕屋",
 		ids = {
@@ -1638,8 +1731,8 @@ pg.equip_skin_theme_template = {
 			4274,
 			4275
 		}
-	},
-	[79] = {
+	}
+	pg.base.equip_skin_theme_template[79] = {
 		id = 79,
 		name = "攝影視界",
 		ids = {
@@ -1662,8 +1755,8 @@ pg.equip_skin_theme_template = {
 			4292,
 			4293
 		}
-	},
-	[80] = {
+	}
+	pg.base.equip_skin_theme_template[80] = {
 		id = 80,
 		name = "新春拍賣會",
 		ids = {
@@ -1686,8 +1779,8 @@ pg.equip_skin_theme_template = {
 			4310,
 			4311
 		}
-	},
-	[81] = {
+	}
+	pg.base.equip_skin_theme_template[81] = {
 		id = 81,
 		name = "春滿客棧",
 		ids = {
@@ -1710,8 +1803,8 @@ pg.equip_skin_theme_template = {
 			4328,
 			4329
 		}
-	},
-	[82] = {
+	}
+	pg.base.equip_skin_theme_template[82] = {
 		id = 82,
 		name = "夜都漫遊者",
 		ids = {
@@ -1734,8 +1827,8 @@ pg.equip_skin_theme_template = {
 			4346,
 			4347
 		}
-	},
-	[83] = {
+	}
+	pg.base.equip_skin_theme_template[83] = {
 		id = 83,
 		name = "閃耀海濱",
 		ids = {
@@ -1758,8 +1851,8 @@ pg.equip_skin_theme_template = {
 			4364,
 			4365
 		}
-	},
-	[101] = {
+	}
+	pg.base.equip_skin_theme_template[101] = {
 		id = 101,
 		name = "星辰無垠",
 		ids = {
@@ -1777,8 +1870,8 @@ pg.equip_skin_theme_template = {
 			2012,
 			2013
 		}
-	},
-	[102] = {
+	}
+	pg.base.equip_skin_theme_template[102] = {
 		id = 102,
 		name = "魔術劇場",
 		ids = {
@@ -1798,8 +1891,8 @@ pg.equip_skin_theme_template = {
 			2027,
 			2028
 		}
-	},
-	[103] = {
+	}
+	pg.base.equip_skin_theme_template[103] = {
 		id = 103,
 		name = "風雲萬象",
 		ids = {
@@ -1818,8 +1911,8 @@ pg.equip_skin_theme_template = {
 			2041,
 			2042
 		}
-	},
-	[104] = {
+	}
+	pg.base.equip_skin_theme_template[104] = {
 		id = 104,
 		name = "復古電玩",
 		ids = {
@@ -1838,8 +1931,8 @@ pg.equip_skin_theme_template = {
 			2055,
 			2056
 		}
-	},
-	[105] = {
+	}
+	pg.base.equip_skin_theme_template[105] = {
 		id = 105,
 		name = "魔力紀元",
 		ids = {
@@ -1858,8 +1951,8 @@ pg.equip_skin_theme_template = {
 			2073,
 			2074
 		}
-	},
-	[106] = {
+	}
+	pg.base.equip_skin_theme_template[106] = {
 		id = 106,
 		name = "賽博紀元",
 		ids = {
@@ -1878,8 +1971,8 @@ pg.equip_skin_theme_template = {
 			2087,
 			2088
 		}
-	},
-	[108] = {
+	}
+	pg.base.equip_skin_theme_template[108] = {
 		id = 108,
 		name = "墨色山河",
 		ids = {
@@ -1888,8 +1981,8 @@ pg.equip_skin_theme_template = {
 			2103,
 			2104
 		}
-	},
-	[199] = {
+	}
+	pg.base.equip_skin_theme_template[199] = {
 		id = 199,
 		name = "其他",
 		ids = {
@@ -1902,92 +1995,5 @@ pg.equip_skin_theme_template = {
 			3061,
 			3062
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		14,
-		15,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		39,
-		40,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46,
-		48,
-		49,
-		50,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56,
-		57,
-		58,
-		59,
-		60,
-		61,
-		62,
-		63,
-		64,
-		65,
-		66,
-		67,
-		68,
-		69,
-		70,
-		71,
-		72,
-		73,
-		74,
-		75,
-		77,
-		78,
-		79,
-		80,
-		81,
-		82,
-		83,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		108,
-		199
 	}
-}
+end)()

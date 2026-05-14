@@ -1,6 +1,34 @@
 pg = pg or {}
-pg.share_template = {
-	{
+pg.share_template = rawget(pg, "share_template") or setmetatable({
+	__name = "share_template"
+}, confNEO)
+pg.share_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	5000
+}
+pg.base = pg.base or {}
+pg.base.share_template = {}
+
+(function ()
+	pg.base.share_template[1] = {
 		description = "#碧藍航線#",
 		name = "個人訊息界面",
 		deck = 1,
@@ -18,8 +46,8 @@ pg.share_template = {
 			"/UICamera/Canvas/UIMain/PlayerVitaeUI(Clone)/detail/PlayerVitaeDetailPage(Clone)/btn_share",
 			"/UICamera/Canvas/UIMain/PlayerVitaeUI(Clone)/detail/PlayerVitaeDetailPage(Clone)/btn_attire"
 		}
-	},
-	{
+	}
+	pg.base.share_template[2] = {
 		description = "#碧藍航線#",
 		name = "檔案界面",
 		deck = 1,
@@ -37,8 +65,8 @@ pg.share_template = {
 			"/UICamera/Canvas/UIMain/ShipProfileUI(Clone)/profile_panel/share_btn",
 			"/UICamera/Canvas/UIMain/ShipProfileUI(Clone)/profile_panel/view_btn"
 		}
-	},
-	{
+	}
+	pg.base.share_template[3] = {
 		description = "#碧藍航線#",
 		name = "獲得新艦船界面",
 		deck = 2,
@@ -65,8 +93,8 @@ pg.share_template = {
 				path = "/OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/ship_type"
 			}
 		}
-	},
-	{
+	}
+	pg.base.share_template[4] = {
 		description = "#碧藍航線#",
 		name = "後宅",
 		deck = 1,
@@ -83,8 +111,8 @@ pg.share_template = {
 			"/UICamera/Canvas/UIMain/BackYardUI(Clone)/backyardmainui/decorateBtn",
 			"/UICamera/Canvas/UIMain/BackYardUI(Clone)/backyardmainui/back"
 		}
-	},
-	{
+	}
+	pg.base.share_template[5] = {
 		description = "#碧藍航線#",
 		name = "獲得新造型界面",
 		deck = 2,
@@ -103,8 +131,8 @@ pg.share_template = {
 			"/OverlayCamera/Overlay/UIEffect/ClickEffect(Clone)",
 			"/OverlayCamera/Overlay/UIOverlay/TipPanel(Clone)"
 		}
-	},
-	{
+	}
+	pg.base.share_template[6] = {
 		description = "#碧藍航線#",
 		name = "玩家歷程界面",
 		deck = 3,
@@ -119,8 +147,8 @@ pg.share_template = {
 		hidden_comps = {
 			"UICamera/Canvas/UIMain/PlayerSummaryUI(Clone)/bg/main/pages/page5/share"
 		}
-	},
-	{
+	}
+	pg.base.share_template[7] = {
 		description = "#碧藍航線#",
 		name = "拍照分享",
 		deck = 1,
@@ -135,8 +163,8 @@ pg.share_template = {
 		hidden_comps = {
 			"UICamera/Canvas/UIMain/SnapshotShareUI(Clone)/BtnPanel"
 		}
-	},
-	{
+	}
+	pg.base.share_template[8] = {
 		description = "#碧藍航線#",
 		name = "回流紀念信",
 		deck = 1,
@@ -149,8 +177,8 @@ pg.share_template = {
 			373,
 			120
 		}
-	},
-	{
+	}
+	pg.base.share_template[9] = {
 		description = "#碧藍航線#",
 		name = "獲得新指揮喵界面",
 		deck = 1,
@@ -166,8 +194,8 @@ pg.share_template = {
 			"/OverlayCamera/Overlay/UIMain/GetCommanderUI(Clone)/left_panel/btns/lock",
 			"/OverlayCamera/Overlay/UIMain/GetCommanderUI(Clone)/left_panel/btns/share"
 		}
-	},
-	{
+	}
+	pg.base.share_template[10] = {
 		description = "#碧藍航線#",
 		name = "畫圖功能分享",
 		deck = 1,
@@ -180,8 +208,8 @@ pg.share_template = {
 			-592,
 			-381
 		}
-	},
-	{
+	}
+	pg.base.share_template[11] = {
 		description = "#碧藍航線#",
 		name = "挑战分享",
 		deck = 1,
@@ -194,8 +222,8 @@ pg.share_template = {
 			373,
 			120
 		}
-	},
-	{
+	}
+	pg.base.share_template[12] = {
 		description = "#碧藍航線#",
 		name = "ins分享",
 		deck = 1,
@@ -208,8 +236,8 @@ pg.share_template = {
 			373,
 			120
 		}
-	},
-	{
+	}
+	pg.base.share_template[13] = {
 		description = "#碧藍航線#",
 		name = "必胜客分享",
 		deck = 2,
@@ -224,8 +252,8 @@ pg.share_template = {
 		show_comps = {
 			"UICamera/Canvas/UIMain/PizzahutSharePage(Clone)"
 		}
-	},
-	{
+	}
+	pg.base.share_template[14] = {
 		description = "#碧藍航線#",
 		name = "玩家历程MarkII界面分享",
 		deck = 0,
@@ -241,8 +269,8 @@ pg.share_template = {
 			"UICamera/Canvas/UIMain/PlayerSecondSummaryUI(Clone)/bg/main/pages/page5/window_9",
 			"UICamera/Canvas/UIMain/PlayerSecondSummaryUI(Clone)/bg/main/pages/page5/shadow_4"
 		}
-	},
-	{
+	}
+	pg.base.share_template[15] = {
 		description = "#碧藍航線#",
 		name = "POLARIS活动大佬章界面分享",
 		deck = 0,
@@ -257,8 +285,8 @@ pg.share_template = {
 		hidden_comps = {
 			"/OverlayCamera/Overlay/UIEffect/ClickEffect(Clone)"
 		}
-	},
-	{
+	}
+	pg.base.share_template[16] = {
 		description = "#碧藍航線#",
 		name = "熊小白分享",
 		deck = 2,
@@ -273,8 +301,8 @@ pg.share_template = {
 		show_comps = {
 			"UICamera/Canvas/UIMain/IcecreamSharePage(Clone)"
 		}
-	},
-	{
+	}
+	pg.base.share_template[17] = {
 		description = "#碧蓝航线#",
 		name = "情人节qet",
 		deck = 5,
@@ -296,8 +324,8 @@ pg.share_template = {
 		show_comps = {
 			"/OverlayCamera/Overlay/UIMain/result_panel/frame/Text"
 		}
-	},
-	{
+	}
+	pg.base.share_template[18] = {
 		description = "#碧蓝航线#",
 		name = "连战活动 - EX分享界面",
 		deck = 1,
@@ -312,8 +340,8 @@ pg.share_template = {
 		show_comps = {
 			"UICamera/Canvas/UIMain/PizzahutSharePage(Clone)"
 		}
-	},
-	{
+	}
+	pg.base.share_template[19] = {
 		description = "#碧蓝航线#",
 		name = "3d宿舍拍照分享界面",
 		deck = 2,
@@ -334,8 +362,8 @@ pg.share_template = {
 			"/OverlayCamera/Overlay/UIMain/Dorm3dPhotoShareUI(Clone)/ShareBtn",
 			"/OverlayCamera/Overlay/UIOverlay/TipPanel(Clone)"
 		}
-	},
-	[5000] = {
+	}
+	pg.base.share_template[5000] = {
 		description = "#碧藍航線#",
 		name = "台服分享活动（改动过唯一id 原id12）",
 		deck = 1,
@@ -350,27 +378,5 @@ pg.share_template = {
 		show_comps = {
 			"UICamera/Canvas/TWCelebrationShare(Clone)"
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		5000
 	}
-}
+end)()

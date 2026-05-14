@@ -1,6 +1,1409 @@
 pg = pg or {}
-pg.ship_strengthen_blueprint = {
-	[101] = {
+pg.ship_strengthen_blueprint = rawget(pg, "ship_strengthen_blueprint") or setmetatable({
+	__name = "ship_strengthen_blueprint"
+}, confNEO)
+pg.ship_strengthen_blueprint.all = {
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	110,
+	111,
+	112,
+	113,
+	114,
+	115,
+	116,
+	117,
+	118,
+	119,
+	120,
+	121,
+	122,
+	123,
+	124,
+	125,
+	126,
+	127,
+	128,
+	129,
+	130,
+	131,
+	132,
+	133,
+	134,
+	135,
+	201,
+	202,
+	203,
+	204,
+	205,
+	206,
+	207,
+	208,
+	209,
+	210,
+	211,
+	212,
+	213,
+	214,
+	215,
+	216,
+	217,
+	218,
+	219,
+	220,
+	221,
+	222,
+	223,
+	224,
+	225,
+	226,
+	227,
+	228,
+	229,
+	230,
+	231,
+	232,
+	233,
+	234,
+	235,
+	301,
+	302,
+	303,
+	304,
+	305,
+	306,
+	307,
+	308,
+	309,
+	310,
+	311,
+	312,
+	313,
+	314,
+	315,
+	316,
+	317,
+	318,
+	319,
+	320,
+	321,
+	322,
+	323,
+	324,
+	325,
+	326,
+	327,
+	328,
+	329,
+	330,
+	331,
+	332,
+	333,
+	334,
+	335,
+	401,
+	402,
+	403,
+	404,
+	405,
+	406,
+	407,
+	408,
+	409,
+	410,
+	411,
+	412,
+	413,
+	414,
+	415,
+	416,
+	417,
+	418,
+	419,
+	420,
+	421,
+	422,
+	423,
+	424,
+	425,
+	426,
+	427,
+	428,
+	429,
+	430,
+	431,
+	432,
+	433,
+	434,
+	435,
+	501,
+	502,
+	503,
+	504,
+	505,
+	506,
+	507,
+	508,
+	509,
+	510,
+	511,
+	512,
+	513,
+	514,
+	515,
+	516,
+	517,
+	518,
+	519,
+	520,
+	521,
+	522,
+	523,
+	524,
+	525,
+	526,
+	527,
+	528,
+	529,
+	530,
+	531,
+	532,
+	533,
+	534,
+	535,
+	601,
+	602,
+	603,
+	604,
+	605,
+	606,
+	607,
+	608,
+	609,
+	610,
+	611,
+	612,
+	613,
+	614,
+	615,
+	616,
+	617,
+	618,
+	619,
+	620,
+	621,
+	622,
+	623,
+	624,
+	625,
+	626,
+	627,
+	628,
+	629,
+	630,
+	631,
+	632,
+	633,
+	634,
+	635,
+	701,
+	702,
+	703,
+	704,
+	705,
+	706,
+	707,
+	708,
+	709,
+	710,
+	711,
+	712,
+	713,
+	714,
+	715,
+	716,
+	717,
+	718,
+	719,
+	720,
+	721,
+	722,
+	723,
+	724,
+	725,
+	726,
+	727,
+	728,
+	729,
+	730,
+	731,
+	732,
+	733,
+	734,
+	735,
+	801,
+	802,
+	803,
+	804,
+	805,
+	806,
+	807,
+	808,
+	809,
+	810,
+	811,
+	812,
+	813,
+	814,
+	815,
+	816,
+	817,
+	818,
+	819,
+	820,
+	821,
+	822,
+	823,
+	824,
+	825,
+	826,
+	827,
+	828,
+	829,
+	830,
+	831,
+	832,
+	833,
+	834,
+	835,
+	901,
+	902,
+	903,
+	904,
+	905,
+	906,
+	907,
+	908,
+	909,
+	910,
+	911,
+	912,
+	913,
+	914,
+	915,
+	916,
+	917,
+	918,
+	919,
+	920,
+	921,
+	922,
+	923,
+	924,
+	925,
+	926,
+	927,
+	928,
+	929,
+	930,
+	931,
+	932,
+	933,
+	934,
+	935,
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008,
+	1009,
+	1010,
+	1011,
+	1012,
+	1013,
+	1014,
+	1015,
+	1016,
+	1017,
+	1018,
+	1019,
+	1020,
+	1021,
+	1022,
+	1023,
+	1024,
+	1025,
+	1026,
+	1027,
+	1028,
+	1029,
+	1030,
+	1031,
+	1032,
+	1033,
+	1034,
+	1035,
+	1101,
+	1102,
+	1103,
+	1104,
+	1105,
+	1106,
+	1107,
+	1108,
+	1109,
+	1110,
+	1111,
+	1112,
+	1113,
+	1114,
+	1115,
+	1116,
+	1117,
+	1118,
+	1119,
+	1120,
+	1121,
+	1122,
+	1123,
+	1124,
+	1125,
+	1126,
+	1127,
+	1128,
+	1129,
+	1130,
+	1131,
+	1132,
+	1133,
+	1134,
+	1135,
+	1201,
+	1202,
+	1203,
+	1204,
+	1205,
+	1206,
+	1207,
+	1208,
+	1209,
+	1210,
+	1211,
+	1212,
+	1213,
+	1214,
+	1215,
+	1216,
+	1217,
+	1218,
+	1219,
+	1220,
+	1221,
+	1222,
+	1223,
+	1224,
+	1225,
+	1226,
+	1227,
+	1228,
+	1229,
+	1230,
+	1231,
+	1232,
+	1233,
+	1234,
+	1235,
+	1301,
+	1302,
+	1303,
+	1304,
+	1305,
+	1306,
+	1307,
+	1308,
+	1309,
+	1310,
+	1311,
+	1312,
+	1313,
+	1314,
+	1315,
+	1316,
+	1317,
+	1318,
+	1319,
+	1320,
+	1321,
+	1322,
+	1323,
+	1324,
+	1325,
+	1326,
+	1327,
+	1328,
+	1329,
+	1330,
+	1331,
+	1332,
+	1333,
+	1334,
+	1335,
+	1401,
+	1402,
+	1403,
+	1404,
+	1405,
+	1406,
+	1407,
+	1408,
+	1409,
+	1410,
+	1411,
+	1412,
+	1413,
+	1414,
+	1415,
+	1416,
+	1417,
+	1418,
+	1419,
+	1420,
+	1421,
+	1422,
+	1423,
+	1424,
+	1425,
+	1426,
+	1427,
+	1428,
+	1429,
+	1430,
+	1431,
+	1432,
+	1433,
+	1434,
+	1435,
+	1501,
+	1502,
+	1503,
+	1504,
+	1505,
+	1506,
+	1507,
+	1508,
+	1509,
+	1510,
+	1511,
+	1512,
+	1513,
+	1514,
+	1515,
+	1516,
+	1517,
+	1518,
+	1519,
+	1520,
+	1521,
+	1522,
+	1523,
+	1524,
+	1525,
+	1526,
+	1527,
+	1528,
+	1529,
+	1530,
+	1531,
+	1532,
+	1533,
+	1534,
+	1535,
+	1601,
+	1602,
+	1603,
+	1604,
+	1605,
+	1606,
+	1607,
+	1608,
+	1609,
+	1610,
+	1611,
+	1612,
+	1613,
+	1614,
+	1615,
+	1616,
+	1617,
+	1618,
+	1619,
+	1620,
+	1621,
+	1622,
+	1623,
+	1624,
+	1625,
+	1626,
+	1627,
+	1628,
+	1629,
+	1630,
+	1631,
+	1632,
+	1633,
+	1634,
+	1635,
+	1701,
+	1702,
+	1703,
+	1704,
+	1705,
+	1706,
+	1707,
+	1708,
+	1709,
+	1710,
+	1711,
+	1712,
+	1713,
+	1714,
+	1715,
+	1716,
+	1717,
+	1718,
+	1719,
+	1720,
+	1721,
+	1722,
+	1723,
+	1724,
+	1725,
+	1726,
+	1727,
+	1728,
+	1729,
+	1730,
+	1731,
+	1732,
+	1733,
+	1734,
+	1735,
+	1801,
+	1802,
+	1803,
+	1804,
+	1805,
+	1806,
+	1807,
+	1808,
+	1809,
+	1810,
+	1811,
+	1812,
+	1813,
+	1814,
+	1815,
+	1816,
+	1817,
+	1818,
+	1819,
+	1820,
+	1821,
+	1822,
+	1823,
+	1824,
+	1825,
+	1826,
+	1827,
+	1828,
+	1829,
+	1830,
+	1831,
+	1832,
+	1833,
+	1834,
+	1835,
+	1901,
+	1902,
+	1903,
+	1904,
+	1905,
+	1906,
+	1907,
+	1908,
+	1909,
+	1910,
+	1911,
+	1912,
+	1913,
+	1914,
+	1915,
+	1916,
+	1917,
+	1918,
+	1919,
+	1920,
+	1921,
+	1922,
+	1923,
+	1924,
+	1925,
+	1926,
+	1927,
+	1928,
+	1929,
+	1930,
+	1931,
+	1932,
+	1933,
+	1934,
+	1935,
+	2001,
+	2002,
+	2003,
+	2004,
+	2005,
+	2006,
+	2007,
+	2008,
+	2009,
+	2010,
+	2011,
+	2012,
+	2013,
+	2014,
+	2015,
+	2016,
+	2017,
+	2018,
+	2019,
+	2020,
+	2021,
+	2022,
+	2023,
+	2024,
+	2025,
+	2026,
+	2027,
+	2028,
+	2029,
+	2030,
+	2101,
+	2102,
+	2103,
+	2104,
+	2105,
+	2106,
+	2107,
+	2108,
+	2109,
+	2110,
+	2111,
+	2112,
+	2113,
+	2114,
+	2115,
+	2116,
+	2117,
+	2118,
+	2119,
+	2120,
+	2121,
+	2122,
+	2123,
+	2124,
+	2125,
+	2126,
+	2127,
+	2128,
+	2129,
+	2130,
+	2131,
+	2132,
+	2133,
+	2134,
+	2135,
+	2201,
+	2202,
+	2203,
+	2204,
+	2205,
+	2206,
+	2207,
+	2208,
+	2209,
+	2210,
+	2211,
+	2212,
+	2213,
+	2214,
+	2215,
+	2216,
+	2217,
+	2218,
+	2219,
+	2220,
+	2221,
+	2222,
+	2223,
+	2224,
+	2225,
+	2226,
+	2227,
+	2228,
+	2229,
+	2230,
+	2231,
+	2232,
+	2233,
+	2234,
+	2235,
+	2301,
+	2302,
+	2303,
+	2304,
+	2305,
+	2306,
+	2307,
+	2308,
+	2309,
+	2310,
+	2311,
+	2312,
+	2313,
+	2314,
+	2315,
+	2316,
+	2317,
+	2318,
+	2319,
+	2320,
+	2321,
+	2322,
+	2323,
+	2324,
+	2325,
+	2326,
+	2327,
+	2328,
+	2329,
+	2330,
+	2401,
+	2402,
+	2403,
+	2404,
+	2405,
+	2406,
+	2407,
+	2408,
+	2409,
+	2410,
+	2411,
+	2412,
+	2413,
+	2414,
+	2415,
+	2416,
+	2417,
+	2418,
+	2419,
+	2420,
+	2421,
+	2422,
+	2423,
+	2424,
+	2425,
+	2426,
+	2427,
+	2428,
+	2429,
+	2430,
+	2431,
+	2432,
+	2433,
+	2434,
+	2435,
+	2501,
+	2502,
+	2503,
+	2504,
+	2505,
+	2506,
+	2507,
+	2508,
+	2509,
+	2510,
+	2511,
+	2512,
+	2513,
+	2514,
+	2515,
+	2516,
+	2517,
+	2518,
+	2519,
+	2520,
+	2521,
+	2522,
+	2523,
+	2524,
+	2525,
+	2526,
+	2527,
+	2528,
+	2529,
+	2530,
+	2531,
+	2532,
+	2533,
+	2534,
+	2535,
+	2601,
+	2602,
+	2603,
+	2604,
+	2605,
+	2606,
+	2607,
+	2608,
+	2609,
+	2610,
+	2611,
+	2612,
+	2613,
+	2614,
+	2615,
+	2616,
+	2617,
+	2618,
+	2619,
+	2620,
+	2621,
+	2622,
+	2623,
+	2624,
+	2625,
+	2626,
+	2627,
+	2628,
+	2629,
+	2630,
+	2631,
+	2632,
+	2633,
+	2634,
+	2635,
+	2701,
+	2702,
+	2703,
+	2704,
+	2705,
+	2706,
+	2707,
+	2708,
+	2709,
+	2710,
+	2711,
+	2712,
+	2713,
+	2714,
+	2715,
+	2716,
+	2717,
+	2718,
+	2719,
+	2720,
+	2721,
+	2722,
+	2723,
+	2724,
+	2725,
+	2726,
+	2727,
+	2728,
+	2729,
+	2730,
+	2801,
+	2802,
+	2803,
+	2804,
+	2805,
+	2806,
+	2807,
+	2808,
+	2809,
+	2810,
+	2811,
+	2812,
+	2813,
+	2814,
+	2815,
+	2816,
+	2817,
+	2818,
+	2819,
+	2820,
+	2821,
+	2822,
+	2823,
+	2824,
+	2825,
+	2826,
+	2827,
+	2828,
+	2829,
+	2830,
+	2901,
+	2902,
+	2903,
+	2904,
+	2905,
+	2906,
+	2907,
+	2908,
+	2909,
+	2910,
+	2911,
+	2912,
+	2913,
+	2914,
+	2915,
+	2916,
+	2917,
+	2918,
+	2919,
+	2920,
+	2921,
+	2922,
+	2923,
+	2924,
+	2925,
+	2926,
+	2927,
+	2928,
+	2929,
+	2930,
+	2931,
+	2932,
+	2933,
+	2934,
+	2935,
+	3001,
+	3002,
+	3003,
+	3004,
+	3005,
+	3006,
+	3007,
+	3008,
+	3009,
+	3010,
+	3011,
+	3012,
+	3013,
+	3014,
+	3015,
+	3016,
+	3017,
+	3018,
+	3019,
+	3020,
+	3021,
+	3022,
+	3023,
+	3024,
+	3025,
+	3026,
+	3027,
+	3028,
+	3029,
+	3030,
+	3031,
+	3032,
+	3033,
+	3034,
+	3035,
+	3101,
+	3102,
+	3103,
+	3104,
+	3105,
+	3106,
+	3107,
+	3108,
+	3109,
+	3110,
+	3111,
+	3112,
+	3113,
+	3114,
+	3115,
+	3116,
+	3117,
+	3118,
+	3119,
+	3120,
+	3121,
+	3122,
+	3123,
+	3124,
+	3125,
+	3126,
+	3127,
+	3128,
+	3129,
+	3130,
+	3201,
+	3202,
+	3203,
+	3204,
+	3205,
+	3206,
+	3207,
+	3208,
+	3209,
+	3210,
+	3211,
+	3212,
+	3213,
+	3214,
+	3215,
+	3216,
+	3217,
+	3218,
+	3219,
+	3220,
+	3221,
+	3222,
+	3223,
+	3224,
+	3225,
+	3226,
+	3227,
+	3228,
+	3229,
+	3230,
+	3231,
+	3232,
+	3233,
+	3234,
+	3235,
+	3301,
+	3302,
+	3303,
+	3304,
+	3305,
+	3306,
+	3307,
+	3308,
+	3309,
+	3310,
+	3311,
+	3312,
+	3313,
+	3314,
+	3315,
+	3316,
+	3317,
+	3318,
+	3319,
+	3320,
+	3321,
+	3322,
+	3323,
+	3324,
+	3325,
+	3326,
+	3327,
+	3328,
+	3329,
+	3330,
+	3401,
+	3402,
+	3403,
+	3404,
+	3405,
+	3406,
+	3407,
+	3408,
+	3409,
+	3410,
+	3411,
+	3412,
+	3413,
+	3414,
+	3415,
+	3416,
+	3417,
+	3418,
+	3419,
+	3420,
+	3421,
+	3422,
+	3423,
+	3424,
+	3425,
+	3426,
+	3427,
+	3428,
+	3429,
+	3430,
+	3501,
+	3502,
+	3503,
+	3504,
+	3505,
+	3506,
+	3507,
+	3508,
+	3509,
+	3510,
+	3511,
+	3512,
+	3513,
+	3514,
+	3515,
+	3516,
+	3517,
+	3518,
+	3519,
+	3520,
+	3521,
+	3522,
+	3523,
+	3524,
+	3525,
+	3526,
+	3527,
+	3528,
+	3529,
+	3530,
+	3601,
+	3602,
+	3603,
+	3604,
+	3605,
+	3606,
+	3607,
+	3608,
+	3609,
+	3610,
+	3611,
+	3612,
+	3613,
+	3614,
+	3615,
+	3616,
+	3617,
+	3618,
+	3619,
+	3620,
+	3621,
+	3622,
+	3623,
+	3624,
+	3625,
+	3626,
+	3627,
+	3628,
+	3629,
+	3630,
+	3701,
+	3702,
+	3703,
+	3704,
+	3705,
+	3706,
+	3707,
+	3708,
+	3709,
+	3710,
+	3711,
+	3712,
+	3713,
+	3714,
+	3715,
+	3716,
+	3717,
+	3718,
+	3719,
+	3720,
+	3721,
+	3722,
+	3723,
+	3724,
+	3725,
+	3726,
+	3727,
+	3728,
+	3729,
+	3730,
+	3801,
+	3802,
+	3803,
+	3804,
+	3805,
+	3806,
+	3807,
+	3808,
+	3809,
+	3810,
+	3811,
+	3812,
+	3813,
+	3814,
+	3815,
+	3816,
+	3817,
+	3818,
+	3819,
+	3820,
+	3821,
+	3822,
+	3823,
+	3824,
+	3825,
+	3826,
+	3827,
+	3828,
+	3829,
+	3830,
+	3901,
+	3902,
+	3903,
+	3904,
+	3905,
+	3906,
+	3907,
+	3908,
+	3909,
+	3910,
+	3911,
+	3912,
+	3913,
+	3914,
+	3915,
+	3916,
+	3917,
+	3918,
+	3919,
+	3920,
+	3921,
+	3922,
+	3923,
+	3924,
+	3925,
+	3926,
+	3927,
+	3928,
+	3929,
+	3930,
+	4001,
+	4002,
+	4003,
+	4004,
+	4005,
+	4006,
+	4007,
+	4008,
+	4009,
+	4010,
+	4011,
+	4012,
+	4013,
+	4014,
+	4015,
+	4016,
+	4017,
+	4018,
+	4019,
+	4020,
+	4021,
+	4022,
+	4023,
+	4024,
+	4025,
+	4026,
+	4027,
+	4028,
+	4029,
+	4030,
+	4101,
+	4102,
+	4103,
+	4104,
+	4105,
+	4106,
+	4107,
+	4108,
+	4109,
+	4110,
+	4111,
+	4112,
+	4113,
+	4114,
+	4115,
+	4116,
+	4117,
+	4118,
+	4119,
+	4120,
+	4121,
+	4122,
+	4123,
+	4124,
+	4125,
+	4126,
+	4127,
+	4128,
+	4129,
+	4130,
+	4201,
+	4202,
+	4203,
+	4204,
+	4205,
+	4206,
+	4207,
+	4208,
+	4209,
+	4210,
+	4211,
+	4212,
+	4213,
+	4214,
+	4215,
+	4216,
+	4217,
+	4218,
+	4219,
+	4220,
+	4221,
+	4222,
+	4223,
+	4224,
+	4225,
+	4226,
+	4227,
+	4228,
+	4229,
+	4230
+}
+pg.base = pg.base or {}
+pg.base.ship_strengthen_blueprint = {}
+
+(function ()
+	pg.base.ship_strengthen_blueprint[101] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -28,8 +1431,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[102] = {
+	}
+	pg.base.ship_strengthen_blueprint[102] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -53,8 +1456,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			45
 		}
-	},
-	[103] = {
+	}
+	pg.base.ship_strengthen_blueprint[103] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -78,8 +1481,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			45
 		}
-	},
-	[104] = {
+	}
+	pg.base.ship_strengthen_blueprint[104] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -103,8 +1506,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			45
 		}
-	},
-	[105] = {
+	}
+	pg.base.ship_strengthen_blueprint[105] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+199|防空+17|魚雷底座+1|魚雷預裝填+1|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -149,8 +1552,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[106] = {
+	}
+	pg.base.ship_strengthen_blueprint[106] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -174,8 +1577,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			90
 		}
-	},
-	[107] = {
+	}
+	pg.base.ship_strengthen_blueprint[107] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -199,8 +1602,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			90
 		}
-	},
-	[108] = {
+	}
+	pg.base.ship_strengthen_blueprint[108] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -224,8 +1627,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			90
 		}
-	},
-	[109] = {
+	}
+	pg.base.ship_strengthen_blueprint[109] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -249,8 +1652,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			90
 		}
-	},
-	[110] = {
+	}
+	pg.base.ship_strengthen_blueprint[110] = {
 		effect_breakout = 299012,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -282,8 +1685,8 @@ pg.ship_strengthen_blueprint = {
 			"獲得專屬彈幕I",
 			"主炮效率提高5%"
 		}
-	},
-	[111] = {
+	}
+	pg.base.ship_strengthen_blueprint[111] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -307,8 +1710,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			135
 		}
-	},
-	[112] = {
+	}
+	pg.base.ship_strengthen_blueprint[112] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -332,8 +1735,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			135
 		}
-	},
-	[113] = {
+	}
+	pg.base.ship_strengthen_blueprint[113] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -357,8 +1760,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			135
 		}
-	},
-	[114] = {
+	}
+	pg.base.ship_strengthen_blueprint[114] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -382,8 +1785,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			135
 		}
-	},
-	[115] = {
+	}
+	pg.base.ship_strengthen_blueprint[115] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+398|防空+34|主炮效率提高5%|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -423,8 +1826,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[116] = {
+	}
+	pg.base.ship_strengthen_blueprint[116] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -448,8 +1851,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			180
 		}
-	},
-	[117] = {
+	}
+	pg.base.ship_strengthen_blueprint[117] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -473,8 +1876,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			180
 		}
-	},
-	[118] = {
+	}
+	pg.base.ship_strengthen_blueprint[118] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -498,8 +1901,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			180
 		}
-	},
-	[119] = {
+	}
+	pg.base.ship_strengthen_blueprint[119] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -523,8 +1926,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			180
 		}
-	},
-	[120] = {
+	}
+	pg.base.ship_strengthen_blueprint[120] = {
 		effect_breakout = 299013,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -555,8 +1958,8 @@ pg.ship_strengthen_blueprint = {
 			"【塞壬之敵】升級",
 			"魚雷效率提高10%"
 		}
-	},
-	[121] = {
+	}
+	pg.base.ship_strengthen_blueprint[121] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -580,8 +1983,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			225
 		}
-	},
-	[122] = {
+	}
+	pg.base.ship_strengthen_blueprint[122] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -605,8 +2008,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			225
 		}
-	},
-	[123] = {
+	}
+	pg.base.ship_strengthen_blueprint[123] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -630,8 +2033,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			225
 		}
-	},
-	[124] = {
+	}
+	pg.base.ship_strengthen_blueprint[124] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -655,8 +2058,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			225
 		}
-	},
-	[125] = {
+	}
+	pg.base.ship_strengthen_blueprint[125] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+569|防空+51|主炮效率提高5%|鑑賞解鎖：特殊觸摸、血量警報",
 		extra_desc = "",
@@ -695,8 +2098,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[126] = {
+	}
+	pg.base.ship_strengthen_blueprint[126] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -720,8 +2123,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			225
 		}
-	},
-	[127] = {
+	}
+	pg.base.ship_strengthen_blueprint[127] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -745,8 +2148,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			225
 		}
-	},
-	[128] = {
+	}
+	pg.base.ship_strengthen_blueprint[128] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -770,8 +2173,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			225
 		}
-	},
-	[129] = {
+	}
+	pg.base.ship_strengthen_blueprint[129] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -795,8 +2198,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			225
 		}
-	},
-	[130] = {
+	}
+	pg.base.ship_strengthen_blueprint[130] = {
 		effect_breakout = 299014,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -824,8 +2227,8 @@ pg.ship_strengthen_blueprint = {
 			"專屬彈幕升級",
 			"主炮效率提高15%"
 		}
-	},
-	[131] = {
+	}
+	pg.base.ship_strengthen_blueprint[131] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+1",
 		extra_desc = "",
@@ -854,8 +2257,8 @@ pg.ship_strengthen_blueprint = {
 				1
 			}
 		}
-	},
-	[132] = {
+	}
+	pg.base.ship_strengthen_blueprint[132] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+2",
 		extra_desc = "",
@@ -884,8 +2287,8 @@ pg.ship_strengthen_blueprint = {
 				2
 			}
 		}
-	},
-	[133] = {
+	}
+	pg.base.ship_strengthen_blueprint[133] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+3",
 		extra_desc = "",
@@ -914,8 +2317,8 @@ pg.ship_strengthen_blueprint = {
 				3
 			}
 		}
-	},
-	[134] = {
+	}
+	pg.base.ship_strengthen_blueprint[134] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+4",
 		extra_desc = "",
@@ -944,8 +2347,8 @@ pg.ship_strengthen_blueprint = {
 				4
 			}
 		}
-	},
-	[135] = {
+	}
+	pg.base.ship_strengthen_blueprint[135] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+5|【MKV型穿甲彈】技能強化為【MKV型穿甲彈 +】",
 		extra_desc = "",
@@ -977,8 +2380,8 @@ pg.ship_strengthen_blueprint = {
 			19010,
 			18010
 		}
-	},
-	[201] = {
+	}
+	pg.base.ship_strengthen_blueprint[201] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -1006,8 +2409,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[202] = {
+	}
+	pg.base.ship_strengthen_blueprint[202] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -1031,8 +2434,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			46
 		}
-	},
-	[203] = {
+	}
+	pg.base.ship_strengthen_blueprint[203] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -1056,8 +2459,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			46
 		}
-	},
-	[204] = {
+	}
+	pg.base.ship_strengthen_blueprint[204] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -1081,8 +2484,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			46
 		}
-	},
-	[205] = {
+	}
+	pg.base.ship_strengthen_blueprint[205] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+325|防空+11|主炮效率提高5%|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -1122,8 +2525,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[206] = {
+	}
+	pg.base.ship_strengthen_blueprint[206] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -1147,8 +2550,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			92
 		}
-	},
-	[207] = {
+	}
+	pg.base.ship_strengthen_blueprint[207] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -1172,8 +2575,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			92
 		}
-	},
-	[208] = {
+	}
+	pg.base.ship_strengthen_blueprint[208] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -1197,8 +2600,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			92
 		}
-	},
-	[209] = {
+	}
+	pg.base.ship_strengthen_blueprint[209] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -1222,8 +2625,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			92
 		}
-	},
-	[210] = {
+	}
+	pg.base.ship_strengthen_blueprint[210] = {
 		effect_breakout = 299022,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -1255,8 +2658,8 @@ pg.ship_strengthen_blueprint = {
 			"主炮底座+1",
 			"主炮效率提高5%"
 		}
-	},
-	[211] = {
+	}
+	pg.base.ship_strengthen_blueprint[211] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -1280,8 +2683,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			138
 		}
-	},
-	[212] = {
+	}
+	pg.base.ship_strengthen_blueprint[212] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -1305,8 +2708,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			138
 		}
-	},
-	[213] = {
+	}
+	pg.base.ship_strengthen_blueprint[213] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -1330,8 +2733,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			138
 		}
-	},
-	[214] = {
+	}
+	pg.base.ship_strengthen_blueprint[214] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -1355,8 +2758,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			138
 		}
-	},
-	[215] = {
+	}
+	pg.base.ship_strengthen_blueprint[215] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+651|防空+21|防空炮效率提高10%|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -1396,8 +2799,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[216] = {
+	}
+	pg.base.ship_strengthen_blueprint[216] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -1421,8 +2824,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			184
 		}
-	},
-	[217] = {
+	}
+	pg.base.ship_strengthen_blueprint[217] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -1446,8 +2849,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			184
 		}
-	},
-	[218] = {
+	}
+	pg.base.ship_strengthen_blueprint[218] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -1471,8 +2874,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			184
 		}
-	},
-	[219] = {
+	}
+	pg.base.ship_strengthen_blueprint[219] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -1496,8 +2899,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			184
 		}
-	},
-	[220] = {
+	}
+	pg.base.ship_strengthen_blueprint[220] = {
 		effect_breakout = 299023,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -1529,8 +2932,8 @@ pg.ship_strengthen_blueprint = {
 			"副炮底座+2",
 			"主炮效率提高10%"
 		}
-	},
-	[221] = {
+	}
+	pg.base.ship_strengthen_blueprint[221] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -1554,8 +2957,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[222] = {
+	}
+	pg.base.ship_strengthen_blueprint[222] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -1579,8 +2982,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[223] = {
+	}
+	pg.base.ship_strengthen_blueprint[223] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -1604,8 +3007,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[224] = {
+	}
+	pg.base.ship_strengthen_blueprint[224] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -1629,8 +3032,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[225] = {
+	}
+	pg.base.ship_strengthen_blueprint[225] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+976|防空+31|主炮效率提高5%|鑑賞解鎖：特殊觸摸、血量警報",
 		extra_desc = "",
@@ -1669,8 +3072,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[226] = {
+	}
+	pg.base.ship_strengthen_blueprint[226] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -1694,8 +3097,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[227] = {
+	}
+	pg.base.ship_strengthen_blueprint[227] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -1719,8 +3122,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[228] = {
+	}
+	pg.base.ship_strengthen_blueprint[228] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -1744,8 +3147,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[229] = {
+	}
+	pg.base.ship_strengthen_blueprint[229] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -1769,8 +3172,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[230] = {
+	}
+	pg.base.ship_strengthen_blueprint[230] = {
 		effect_breakout = 299024,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -1798,8 +3201,8 @@ pg.ship_strengthen_blueprint = {
 			"主炮底座+1",
 			"主炮效率提高15%"
 		}
-	},
-	[231] = {
+	}
+	pg.base.ship_strengthen_blueprint[231] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+1",
 		extra_desc = "",
@@ -1828,8 +3231,8 @@ pg.ship_strengthen_blueprint = {
 				1
 			}
 		}
-	},
-	[232] = {
+	}
+	pg.base.ship_strengthen_blueprint[232] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+2",
 		extra_desc = "",
@@ -1858,8 +3261,8 @@ pg.ship_strengthen_blueprint = {
 				2
 			}
 		}
-	},
-	[233] = {
+	}
+	pg.base.ship_strengthen_blueprint[233] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+3",
 		extra_desc = "",
@@ -1888,8 +3291,8 @@ pg.ship_strengthen_blueprint = {
 				3
 			}
 		}
-	},
-	[234] = {
+	}
+	pg.base.ship_strengthen_blueprint[234] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+4",
 		extra_desc = "",
@@ -1918,8 +3321,8 @@ pg.ship_strengthen_blueprint = {
 				4
 			}
 		}
-	},
-	[235] = {
+	}
+	pg.base.ship_strengthen_blueprint[235] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+5|【潛力爆發】技能強化為【潛力爆發 +】",
 		extra_desc = "",
@@ -1951,8 +3354,8 @@ pg.ship_strengthen_blueprint = {
 			19040,
 			18040
 		}
-	},
-	[301] = {
+	}
+	pg.base.ship_strengthen_blueprint[301] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -1980,8 +3383,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[302] = {
+	}
+	pg.base.ship_strengthen_blueprint[302] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -2005,8 +3408,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			51
 		}
-	},
-	[303] = {
+	}
+	pg.base.ship_strengthen_blueprint[303] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -2030,8 +3433,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			51
 		}
-	},
-	[304] = {
+	}
+	pg.base.ship_strengthen_blueprint[304] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -2055,8 +3458,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			51
 		}
-	},
-	[305] = {
+	}
+	pg.base.ship_strengthen_blueprint[305] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+201|防空+9|機動+5|魚雷底座+1|魚雷預裝填+1|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -2105,8 +3508,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[306] = {
+	}
+	pg.base.ship_strengthen_blueprint[306] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -2130,8 +3533,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			102
 		}
-	},
-	[307] = {
+	}
+	pg.base.ship_strengthen_blueprint[307] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -2155,8 +3558,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			102
 		}
-	},
-	[308] = {
+	}
+	pg.base.ship_strengthen_blueprint[308] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -2180,8 +3583,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			102
 		}
-	},
-	[309] = {
+	}
+	pg.base.ship_strengthen_blueprint[309] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -2205,8 +3608,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			102
 		}
-	},
-	[310] = {
+	}
+	pg.base.ship_strengthen_blueprint[310] = {
 		effect_breakout = 399012,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -2238,8 +3641,8 @@ pg.ship_strengthen_blueprint = {
 			"獲得專屬彈幕I",
 			"主炮效率提高5%"
 		}
-	},
-	[311] = {
+	}
+	pg.base.ship_strengthen_blueprint[311] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -2263,8 +3666,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			153
 		}
-	},
-	[312] = {
+	}
+	pg.base.ship_strengthen_blueprint[312] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -2288,8 +3691,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			153
 		}
-	},
-	[313] = {
+	}
+	pg.base.ship_strengthen_blueprint[313] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -2313,8 +3716,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			153
 		}
-	},
-	[314] = {
+	}
+	pg.base.ship_strengthen_blueprint[314] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -2338,8 +3741,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			153
 		}
-	},
-	[315] = {
+	}
+	pg.base.ship_strengthen_blueprint[315] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+402|防空+18|主炮效率提高10%|魚雷預裝填+1|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -2383,8 +3786,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[316] = {
+	}
+	pg.base.ship_strengthen_blueprint[316] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -2408,8 +3811,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			204
 		}
-	},
-	[317] = {
+	}
+	pg.base.ship_strengthen_blueprint[317] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -2433,8 +3836,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			204
 		}
-	},
-	[318] = {
+	}
+	pg.base.ship_strengthen_blueprint[318] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -2458,8 +3861,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			204
 		}
-	},
-	[319] = {
+	}
+	pg.base.ship_strengthen_blueprint[319] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -2483,8 +3886,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			204
 		}
-	},
-	[320] = {
+	}
+	pg.base.ship_strengthen_blueprint[320] = {
 		effect_breakout = 399013,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -2515,8 +3918,8 @@ pg.ship_strengthen_blueprint = {
 			"【塞壬之敵】升級",
 			"魚雷效率提高10%"
 		}
-	},
-	[321] = {
+	}
+	pg.base.ship_strengthen_blueprint[321] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -2540,8 +3943,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			255
 		}
-	},
-	[322] = {
+	}
+	pg.base.ship_strengthen_blueprint[322] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -2565,8 +3968,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			255
 		}
-	},
-	[323] = {
+	}
+	pg.base.ship_strengthen_blueprint[323] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -2590,8 +3993,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			255
 		}
-	},
-	[324] = {
+	}
+	pg.base.ship_strengthen_blueprint[324] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -2615,8 +4018,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			255
 		}
-	},
-	[325] = {
+	}
+	pg.base.ship_strengthen_blueprint[325] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+603|防空+26|機動+10|鑑賞解鎖：特殊觸摸、血量警報",
 		extra_desc = "",
@@ -2656,8 +4059,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[326] = {
+	}
+	pg.base.ship_strengthen_blueprint[326] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -2681,8 +4084,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			255
 		}
-	},
-	[327] = {
+	}
+	pg.base.ship_strengthen_blueprint[327] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -2706,8 +4109,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			255
 		}
-	},
-	[328] = {
+	}
+	pg.base.ship_strengthen_blueprint[328] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -2731,8 +4134,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			255
 		}
-	},
-	[329] = {
+	}
+	pg.base.ship_strengthen_blueprint[329] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -2756,8 +4159,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			255
 		}
-	},
-	[330] = {
+	}
+	pg.base.ship_strengthen_blueprint[330] = {
 		effect_breakout = 399014,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -2785,8 +4188,10 @@ pg.ship_strengthen_blueprint = {
 			"專屬彈幕升級",
 			"魚雷效率提高15%"
 		}
-	},
-	[331] = {
+	}
+end)()
+(function ()
+	pg.base.ship_strengthen_blueprint[331] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+1",
 		extra_desc = "",
@@ -2815,8 +4220,8 @@ pg.ship_strengthen_blueprint = {
 				1
 			}
 		}
-	},
-	[332] = {
+	}
+	pg.base.ship_strengthen_blueprint[332] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+2",
 		extra_desc = "",
@@ -2845,8 +4250,8 @@ pg.ship_strengthen_blueprint = {
 				2
 			}
 		}
-	},
-	[333] = {
+	}
+	pg.base.ship_strengthen_blueprint[333] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+3",
 		extra_desc = "",
@@ -2875,8 +4280,8 @@ pg.ship_strengthen_blueprint = {
 				3
 			}
 		}
-	},
-	[334] = {
+	}
+	pg.base.ship_strengthen_blueprint[334] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+4",
 		extra_desc = "",
@@ -2905,8 +4310,8 @@ pg.ship_strengthen_blueprint = {
 				4
 			}
 		}
-	},
-	[335] = {
+	}
+	pg.base.ship_strengthen_blueprint[335] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+5|【心神合一】技能強化為【心神合一 +】",
 		extra_desc = "",
@@ -2938,8 +4343,8 @@ pg.ship_strengthen_blueprint = {
 			19050,
 			18050
 		}
-	},
-	[401] = {
+	}
+	pg.base.ship_strengthen_blueprint[401] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -2967,8 +4372,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[402] = {
+	}
+	pg.base.ship_strengthen_blueprint[402] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -2992,8 +4397,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			40
 		}
-	},
-	[403] = {
+	}
+	pg.base.ship_strengthen_blueprint[403] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -3017,8 +4422,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			40
 		}
-	},
-	[404] = {
+	}
+	pg.base.ship_strengthen_blueprint[404] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -3042,8 +4447,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			40
 		}
-	},
-	[405] = {
+	}
+	pg.base.ship_strengthen_blueprint[405] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+347|防空+11|主炮效率提高5%|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -3083,8 +4488,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[406] = {
+	}
+	pg.base.ship_strengthen_blueprint[406] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -3108,8 +4513,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			80
 		}
-	},
-	[407] = {
+	}
+	pg.base.ship_strengthen_blueprint[407] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -3133,8 +4538,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			80
 		}
-	},
-	[408] = {
+	}
+	pg.base.ship_strengthen_blueprint[408] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -3158,8 +4563,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			80
 		}
-	},
-	[409] = {
+	}
+	pg.base.ship_strengthen_blueprint[409] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -3183,8 +4588,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			80
 		}
-	},
-	[410] = {
+	}
+	pg.base.ship_strengthen_blueprint[410] = {
 		effect_breakout = 399022,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -3216,8 +4621,8 @@ pg.ship_strengthen_blueprint = {
 			"主炮底座+1",
 			"主炮效率提高5%"
 		}
-	},
-	[411] = {
+	}
+	pg.base.ship_strengthen_blueprint[411] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -3241,8 +4646,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			120
 		}
-	},
-	[412] = {
+	}
+	pg.base.ship_strengthen_blueprint[412] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -3266,8 +4671,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			120
 		}
-	},
-	[413] = {
+	}
+	pg.base.ship_strengthen_blueprint[413] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -3291,8 +4696,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			120
 		}
-	},
-	[414] = {
+	}
+	pg.base.ship_strengthen_blueprint[414] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -3316,8 +4721,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			120
 		}
-	},
-	[415] = {
+	}
+	pg.base.ship_strengthen_blueprint[415] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+694|防空+21|防空炮效率提高10%|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -3357,8 +4762,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[416] = {
+	}
+	pg.base.ship_strengthen_blueprint[416] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -3382,8 +4787,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			160
 		}
-	},
-	[417] = {
+	}
+	pg.base.ship_strengthen_blueprint[417] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -3407,8 +4812,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			160
 		}
-	},
-	[418] = {
+	}
+	pg.base.ship_strengthen_blueprint[418] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -3432,8 +4837,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			160
 		}
-	},
-	[419] = {
+	}
+	pg.base.ship_strengthen_blueprint[419] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -3457,8 +4862,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			160
 		}
-	},
-	[420] = {
+	}
+	pg.base.ship_strengthen_blueprint[420] = {
 		effect_breakout = 399023,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -3490,8 +4895,8 @@ pg.ship_strengthen_blueprint = {
 			"副炮底座+2",
 			"主炮效率提高10%"
 		}
-	},
-	[421] = {
+	}
+	pg.base.ship_strengthen_blueprint[421] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -3515,8 +4920,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			200
 		}
-	},
-	[422] = {
+	}
+	pg.base.ship_strengthen_blueprint[422] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -3540,8 +4945,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			200
 		}
-	},
-	[423] = {
+	}
+	pg.base.ship_strengthen_blueprint[423] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -3565,8 +4970,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			200
 		}
-	},
-	[424] = {
+	}
+	pg.base.ship_strengthen_blueprint[424] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -3590,8 +4995,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			200
 		}
-	},
-	[425] = {
+	}
+	pg.base.ship_strengthen_blueprint[425] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+1041|防空+33|主炮效率提高5%|鑑賞解鎖：特殊觸摸、血量警報",
 		extra_desc = "",
@@ -3630,8 +5035,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[426] = {
+	}
+	pg.base.ship_strengthen_blueprint[426] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -3655,8 +5060,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			200
 		}
-	},
-	[427] = {
+	}
+	pg.base.ship_strengthen_blueprint[427] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -3680,8 +5085,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			200
 		}
-	},
-	[428] = {
+	}
+	pg.base.ship_strengthen_blueprint[428] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -3705,8 +5110,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			200
 		}
-	},
-	[429] = {
+	}
+	pg.base.ship_strengthen_blueprint[429] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -3730,8 +5135,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			200
 		}
-	},
-	[430] = {
+	}
+	pg.base.ship_strengthen_blueprint[430] = {
 		effect_breakout = 399024,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -3759,8 +5164,8 @@ pg.ship_strengthen_blueprint = {
 			"主炮底座+1",
 			"主炮效率提高15%"
 		}
-	},
-	[431] = {
+	}
+	pg.base.ship_strengthen_blueprint[431] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+1",
 		extra_desc = "",
@@ -3789,8 +5194,8 @@ pg.ship_strengthen_blueprint = {
 				1
 			}
 		}
-	},
-	[432] = {
+	}
+	pg.base.ship_strengthen_blueprint[432] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+2",
 		extra_desc = "",
@@ -3819,8 +5224,8 @@ pg.ship_strengthen_blueprint = {
 				2
 			}
 		}
-	},
-	[433] = {
+	}
+	pg.base.ship_strengthen_blueprint[433] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+3",
 		extra_desc = "",
@@ -3849,8 +5254,8 @@ pg.ship_strengthen_blueprint = {
 				3
 			}
 		}
-	},
-	[434] = {
+	}
+	pg.base.ship_strengthen_blueprint[434] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+4",
 		extra_desc = "",
@@ -3879,8 +5284,8 @@ pg.ship_strengthen_blueprint = {
 				4
 			}
 		}
-	},
-	[435] = {
+	}
+	pg.base.ship_strengthen_blueprint[435] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+5|【神話之傳承】技能強化為【神話之傳承 +】",
 		extra_desc = "",
@@ -3912,8 +5317,8 @@ pg.ship_strengthen_blueprint = {
 			19070,
 			18070
 		}
-	},
-	[501] = {
+	}
+	pg.base.ship_strengthen_blueprint[501] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -3941,8 +5346,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[502] = {
+	}
+	pg.base.ship_strengthen_blueprint[502] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -3966,8 +5371,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			47
 		}
-	},
-	[503] = {
+	}
+	pg.base.ship_strengthen_blueprint[503] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -3991,8 +5396,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			47
 		}
-	},
-	[504] = {
+	}
+	pg.base.ship_strengthen_blueprint[504] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -4016,8 +5421,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			47
 		}
-	},
-	[505] = {
+	}
+	pg.base.ship_strengthen_blueprint[505] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+254|防空+11|機動+5|主炮底座+1|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -4062,8 +5467,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[506] = {
+	}
+	pg.base.ship_strengthen_blueprint[506] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -4087,8 +5492,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			94
 		}
-	},
-	[507] = {
+	}
+	pg.base.ship_strengthen_blueprint[507] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -4112,8 +5517,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			94
 		}
-	},
-	[508] = {
+	}
+	pg.base.ship_strengthen_blueprint[508] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -4137,8 +5542,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			94
 		}
-	},
-	[509] = {
+	}
+	pg.base.ship_strengthen_blueprint[509] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -4162,8 +5567,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			94
 		}
-	},
-	[510] = {
+	}
+	pg.base.ship_strengthen_blueprint[510] = {
 		effect_breakout = 499012,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -4195,8 +5600,8 @@ pg.ship_strengthen_blueprint = {
 			"獲得專屬彈幕I",
 			"全武器效率提高2%"
 		}
-	},
-	[511] = {
+	}
+	pg.base.ship_strengthen_blueprint[511] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -4220,8 +5625,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			141
 		}
-	},
-	[512] = {
+	}
+	pg.base.ship_strengthen_blueprint[512] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -4245,8 +5650,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			141
 		}
-	},
-	[513] = {
+	}
+	pg.base.ship_strengthen_blueprint[513] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -4270,8 +5675,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			141
 		}
-	},
-	[514] = {
+	}
+	pg.base.ship_strengthen_blueprint[514] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -4295,8 +5700,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			141
 		}
-	},
-	[515] = {
+	}
+	pg.base.ship_strengthen_blueprint[515] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+508|防空+21|主炮效率提高10%|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -4336,8 +5741,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[516] = {
+	}
+	pg.base.ship_strengthen_blueprint[516] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -4361,8 +5766,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			188
 		}
-	},
-	[517] = {
+	}
+	pg.base.ship_strengthen_blueprint[517] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -4386,8 +5791,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			188
 		}
-	},
-	[518] = {
+	}
+	pg.base.ship_strengthen_blueprint[518] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -4411,8 +5816,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			188
 		}
-	},
-	[519] = {
+	}
+	pg.base.ship_strengthen_blueprint[519] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -4436,8 +5841,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			188
 		}
-	},
-	[520] = {
+	}
+	pg.base.ship_strengthen_blueprint[520] = {
 		effect_breakout = 499013,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -4468,8 +5873,8 @@ pg.ship_strengthen_blueprint = {
 			"【塞壬之敵】升級",
 			"全武器效率提高3%"
 		}
-	},
-	[521] = {
+	}
+	pg.base.ship_strengthen_blueprint[521] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -4493,8 +5898,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			235
 		}
-	},
-	[522] = {
+	}
+	pg.base.ship_strengthen_blueprint[522] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -4518,8 +5923,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			235
 		}
-	},
-	[523] = {
+	}
+	pg.base.ship_strengthen_blueprint[523] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -4543,8 +5948,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			235
 		}
-	},
-	[524] = {
+	}
+	pg.base.ship_strengthen_blueprint[524] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -4568,8 +5973,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			235
 		}
-	},
-	[525] = {
+	}
+	pg.base.ship_strengthen_blueprint[525] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+761|防空+32|機動+10|鑑賞解鎖：特殊觸摸、血量警報",
 		extra_desc = "",
@@ -4609,8 +6014,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[526] = {
+	}
+	pg.base.ship_strengthen_blueprint[526] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -4634,8 +6039,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			235
 		}
-	},
-	[527] = {
+	}
+	pg.base.ship_strengthen_blueprint[527] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -4659,8 +6064,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			235
 		}
-	},
-	[528] = {
+	}
+	pg.base.ship_strengthen_blueprint[528] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -4684,8 +6089,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			235
 		}
-	},
-	[529] = {
+	}
+	pg.base.ship_strengthen_blueprint[529] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -4709,8 +6114,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			235
 		}
-	},
-	[530] = {
+	}
+	pg.base.ship_strengthen_blueprint[530] = {
 		effect_breakout = 499014,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -4738,8 +6143,8 @@ pg.ship_strengthen_blueprint = {
 			"全武器效率提高5%",
 			"專屬彈幕升級"
 		}
-	},
-	[531] = {
+	}
+	pg.base.ship_strengthen_blueprint[531] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+1",
 		extra_desc = "",
@@ -4768,8 +6173,8 @@ pg.ship_strengthen_blueprint = {
 				1
 			}
 		}
-	},
-	[532] = {
+	}
+	pg.base.ship_strengthen_blueprint[532] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+2",
 		extra_desc = "",
@@ -4798,8 +6203,8 @@ pg.ship_strengthen_blueprint = {
 				2
 			}
 		}
-	},
-	[533] = {
+	}
+	pg.base.ship_strengthen_blueprint[533] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+3",
 		extra_desc = "",
@@ -4828,8 +6233,8 @@ pg.ship_strengthen_blueprint = {
 				3
 			}
 		}
-	},
-	[534] = {
+	}
+	pg.base.ship_strengthen_blueprint[534] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+4",
 		extra_desc = "",
@@ -4858,8 +6263,8 @@ pg.ship_strengthen_blueprint = {
 				4
 			}
 		}
-	},
-	[535] = {
+	}
+	pg.base.ship_strengthen_blueprint[535] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+5|【全方位裝甲】技能強化為【全方位裝甲 +】",
 		extra_desc = "",
@@ -4891,8 +6296,8 @@ pg.ship_strengthen_blueprint = {
 			19100,
 			18100
 		}
-	},
-	[601] = {
+	}
+	pg.base.ship_strengthen_blueprint[601] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -4920,8 +6325,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[602] = {
+	}
+	pg.base.ship_strengthen_blueprint[602] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -4945,8 +6350,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			52
 		}
-	},
-	[603] = {
+	}
+	pg.base.ship_strengthen_blueprint[603] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -4970,8 +6375,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			52
 		}
-	},
-	[604] = {
+	}
+	pg.base.ship_strengthen_blueprint[604] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -4995,8 +6400,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			52
 		}
-	},
-	[605] = {
+	}
+	pg.base.ship_strengthen_blueprint[605] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+230|防空+11|機動+5|主炮底座+1|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -5041,8 +6446,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[606] = {
+	}
+	pg.base.ship_strengthen_blueprint[606] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -5066,8 +6471,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			104
 		}
-	},
-	[607] = {
+	}
+	pg.base.ship_strengthen_blueprint[607] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -5091,8 +6496,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			104
 		}
-	},
-	[608] = {
+	}
+	pg.base.ship_strengthen_blueprint[608] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -5116,8 +6521,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			104
 		}
-	},
-	[609] = {
+	}
+	pg.base.ship_strengthen_blueprint[609] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -5141,8 +6546,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			104
 		}
-	},
-	[610] = {
+	}
+	pg.base.ship_strengthen_blueprint[610] = {
 		effect_breakout = 899012,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -5174,8 +6579,8 @@ pg.ship_strengthen_blueprint = {
 			"獲得專屬彈幕I",
 			"主炮效率提高5%"
 		}
-	},
-	[611] = {
+	}
+	pg.base.ship_strengthen_blueprint[611] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -5199,8 +6604,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			156
 		}
-	},
-	[612] = {
+	}
+	pg.base.ship_strengthen_blueprint[612] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -5224,8 +6629,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			156
 		}
-	},
-	[613] = {
+	}
+	pg.base.ship_strengthen_blueprint[613] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -5249,8 +6654,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			156
 		}
-	},
-	[614] = {
+	}
+	pg.base.ship_strengthen_blueprint[614] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -5274,8 +6679,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			156
 		}
-	},
-	[615] = {
+	}
+	pg.base.ship_strengthen_blueprint[615] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+460|防空+23|主炮效率提高10%|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -5315,8 +6720,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[616] = {
+	}
+	pg.base.ship_strengthen_blueprint[616] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -5340,8 +6745,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			208
 		}
-	},
-	[617] = {
+	}
+	pg.base.ship_strengthen_blueprint[617] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -5365,8 +6770,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			208
 		}
-	},
-	[618] = {
+	}
+	pg.base.ship_strengthen_blueprint[618] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -5390,8 +6795,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			208
 		}
-	},
-	[619] = {
+	}
+	pg.base.ship_strengthen_blueprint[619] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -5415,8 +6820,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			208
 		}
-	},
-	[620] = {
+	}
+	pg.base.ship_strengthen_blueprint[620] = {
 		effect_breakout = 899013,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -5447,8 +6852,8 @@ pg.ship_strengthen_blueprint = {
 			"【塞壬之敵】升級",
 			"魚雷效率提高10%"
 		}
-	},
-	[621] = {
+	}
+	pg.base.ship_strengthen_blueprint[621] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -5472,8 +6877,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			260
 		}
-	},
-	[622] = {
+	}
+	pg.base.ship_strengthen_blueprint[622] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -5497,8 +6902,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			260
 		}
-	},
-	[623] = {
+	}
+	pg.base.ship_strengthen_blueprint[623] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -5522,8 +6927,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			260
 		}
-	},
-	[624] = {
+	}
+	pg.base.ship_strengthen_blueprint[624] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -5547,8 +6952,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			260
 		}
-	},
-	[625] = {
+	}
+	pg.base.ship_strengthen_blueprint[625] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+690|防空+34|機動+10|鑑賞解鎖：特殊觸摸、血量警報",
 		extra_desc = "",
@@ -5588,8 +6993,10 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[626] = {
+	}
+end)()
+(function ()
+	pg.base.ship_strengthen_blueprint[626] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -5613,8 +7020,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			260
 		}
-	},
-	[627] = {
+	}
+	pg.base.ship_strengthen_blueprint[627] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -5638,8 +7045,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			260
 		}
-	},
-	[628] = {
+	}
+	pg.base.ship_strengthen_blueprint[628] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -5663,8 +7070,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			260
 		}
-	},
-	[629] = {
+	}
+	pg.base.ship_strengthen_blueprint[629] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -5688,8 +7095,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			260
 		}
-	},
-	[630] = {
+	}
+	pg.base.ship_strengthen_blueprint[630] = {
 		effect_breakout = 899014,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -5717,8 +7124,8 @@ pg.ship_strengthen_blueprint = {
 			"專屬彈幕升級",
 			"主炮效率提高15%"
 		}
-	},
-	[631] = {
+	}
+	pg.base.ship_strengthen_blueprint[631] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+1",
 		extra_desc = "",
@@ -5747,8 +7154,8 @@ pg.ship_strengthen_blueprint = {
 				1
 			}
 		}
-	},
-	[632] = {
+	}
+	pg.base.ship_strengthen_blueprint[632] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+2",
 		extra_desc = "",
@@ -5777,8 +7184,8 @@ pg.ship_strengthen_blueprint = {
 				2
 			}
 		}
-	},
-	[633] = {
+	}
+	pg.base.ship_strengthen_blueprint[633] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+3",
 		extra_desc = "",
@@ -5807,8 +7214,8 @@ pg.ship_strengthen_blueprint = {
 				3
 			}
 		}
-	},
-	[634] = {
+	}
+	pg.base.ship_strengthen_blueprint[634] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+4",
 		extra_desc = "",
@@ -5837,8 +7244,8 @@ pg.ship_strengthen_blueprint = {
 				4
 			}
 		}
-	},
-	[635] = {
+	}
+	pg.base.ship_strengthen_blueprint[635] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+5|【Engine boost】技能強化為【Engine boost +】",
 		extra_desc = "",
@@ -5870,8 +7277,8 @@ pg.ship_strengthen_blueprint = {
 			19120,
 			18120
 		}
-	},
-	[701] = {
+	}
+	pg.base.ship_strengthen_blueprint[701] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -5899,8 +7306,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[702] = {
+	}
+	pg.base.ship_strengthen_blueprint[702] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -5924,8 +7331,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			43
 		}
-	},
-	[703] = {
+	}
+	pg.base.ship_strengthen_blueprint[703] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -5949,8 +7356,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			43
 		}
-	},
-	[704] = {
+	}
+	pg.base.ship_strengthen_blueprint[704] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -5974,8 +7381,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			43
 		}
-	},
-	[705] = {
+	}
+	pg.base.ship_strengthen_blueprint[705] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+225|防空+17|主武器底座+1|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -6016,8 +7423,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[706] = {
+	}
+	pg.base.ship_strengthen_blueprint[706] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -6041,8 +7448,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			86
 		}
-	},
-	[707] = {
+	}
+	pg.base.ship_strengthen_blueprint[707] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -6066,8 +7473,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			86
 		}
-	},
-	[708] = {
+	}
+	pg.base.ship_strengthen_blueprint[708] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -6091,8 +7498,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			86
 		}
-	},
-	[709] = {
+	}
+	pg.base.ship_strengthen_blueprint[709] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -6116,8 +7523,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			86
 		}
-	},
-	[710] = {
+	}
+	pg.base.ship_strengthen_blueprint[710] = {
 		effect_breakout = 199012,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -6149,8 +7556,8 @@ pg.ship_strengthen_blueprint = {
 			"獲得專屬彈幕I",
 			"主炮效率提高5%"
 		}
-	},
-	[711] = {
+	}
+	pg.base.ship_strengthen_blueprint[711] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -6174,8 +7581,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			129
 		}
-	},
-	[712] = {
+	}
+	pg.base.ship_strengthen_blueprint[712] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -6199,8 +7606,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			129
 		}
-	},
-	[713] = {
+	}
+	pg.base.ship_strengthen_blueprint[713] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -6224,8 +7631,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			129
 		}
-	},
-	[714] = {
+	}
+	pg.base.ship_strengthen_blueprint[714] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -6249,8 +7656,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			129
 		}
-	},
-	[715] = {
+	}
+	pg.base.ship_strengthen_blueprint[715] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+451|防空+34|主炮效率提高5%|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -6290,8 +7697,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[716] = {
+	}
+	pg.base.ship_strengthen_blueprint[716] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -6315,8 +7722,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			172
 		}
-	},
-	[717] = {
+	}
+	pg.base.ship_strengthen_blueprint[717] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -6340,8 +7747,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			172
 		}
-	},
-	[718] = {
+	}
+	pg.base.ship_strengthen_blueprint[718] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -6365,8 +7772,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			172
 		}
-	},
-	[719] = {
+	}
+	pg.base.ship_strengthen_blueprint[719] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -6390,8 +7797,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			172
 		}
-	},
-	[720] = {
+	}
+	pg.base.ship_strengthen_blueprint[720] = {
 		effect_breakout = 199013,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -6423,8 +7830,8 @@ pg.ship_strengthen_blueprint = {
 			"主炮效率提高10%",
 			"副武器欄位可以裝備主炮"
 		}
-	},
-	[721] = {
+	}
+	pg.base.ship_strengthen_blueprint[721] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -6448,8 +7855,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[722] = {
+	}
+	pg.base.ship_strengthen_blueprint[722] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -6473,8 +7880,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[723] = {
+	}
+	pg.base.ship_strengthen_blueprint[723] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -6498,8 +7905,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[724] = {
+	}
+	pg.base.ship_strengthen_blueprint[724] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -6523,8 +7930,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[725] = {
+	}
+	pg.base.ship_strengthen_blueprint[725] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+677|防空+51|主炮效率提高5%|鑑賞解鎖：特殊觸摸、血量警報",
 		extra_desc = "",
@@ -6563,8 +7970,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[726] = {
+	}
+	pg.base.ship_strengthen_blueprint[726] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -6588,8 +7995,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[727] = {
+	}
+	pg.base.ship_strengthen_blueprint[727] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -6613,8 +8020,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[728] = {
+	}
+	pg.base.ship_strengthen_blueprint[728] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -6638,8 +8045,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[729] = {
+	}
+	pg.base.ship_strengthen_blueprint[729] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -6663,8 +8070,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[730] = {
+	}
+	pg.base.ship_strengthen_blueprint[730] = {
 		effect_breakout = 199014,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -6692,8 +8099,8 @@ pg.ship_strengthen_blueprint = {
 			"專屬彈幕升級",
 			"主炮效率提高15%"
 		}
-	},
-	[731] = {
+	}
+	pg.base.ship_strengthen_blueprint[731] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+1",
 		extra_desc = "",
@@ -6722,8 +8129,8 @@ pg.ship_strengthen_blueprint = {
 				1
 			}
 		}
-	},
-	[732] = {
+	}
+	pg.base.ship_strengthen_blueprint[732] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+2",
 		extra_desc = "",
@@ -6752,8 +8159,8 @@ pg.ship_strengthen_blueprint = {
 				2
 			}
 		}
-	},
-	[733] = {
+	}
+	pg.base.ship_strengthen_blueprint[733] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+3",
 		extra_desc = "",
@@ -6782,8 +8189,8 @@ pg.ship_strengthen_blueprint = {
 				3
 			}
 		}
-	},
-	[734] = {
+	}
+	pg.base.ship_strengthen_blueprint[734] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+4",
 		extra_desc = "",
@@ -6812,8 +8219,8 @@ pg.ship_strengthen_blueprint = {
 				4
 			}
 		}
-	},
-	[735] = {
+	}
+	pg.base.ship_strengthen_blueprint[735] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+5|【飛行NG!】技能強化為【飛行NG! +】",
 		extra_desc = "",
@@ -6845,8 +8252,8 @@ pg.ship_strengthen_blueprint = {
 			19130,
 			18130
 		}
-	},
-	[801] = {
+	}
+	pg.base.ship_strengthen_blueprint[801] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -6874,8 +8281,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[802] = {
+	}
+	pg.base.ship_strengthen_blueprint[802] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -6899,8 +8306,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			45
 		}
-	},
-	[803] = {
+	}
+	pg.base.ship_strengthen_blueprint[803] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -6924,8 +8331,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			45
 		}
-	},
-	[804] = {
+	}
+	pg.base.ship_strengthen_blueprint[804] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -6949,8 +8356,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			45
 		}
-	},
-	[805] = {
+	}
+	pg.base.ship_strengthen_blueprint[805] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+356|防空+19|主炮效率提高5%|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -6990,8 +8397,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[806] = {
+	}
+	pg.base.ship_strengthen_blueprint[806] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -7015,8 +8422,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			90
 		}
-	},
-	[807] = {
+	}
+	pg.base.ship_strengthen_blueprint[807] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -7040,8 +8447,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			90
 		}
-	},
-	[808] = {
+	}
+	pg.base.ship_strengthen_blueprint[808] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -7065,8 +8472,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			90
 		}
-	},
-	[809] = {
+	}
+	pg.base.ship_strengthen_blueprint[809] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -7090,8 +8497,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			90
 		}
-	},
-	[810] = {
+	}
+	pg.base.ship_strengthen_blueprint[810] = {
 		effect_breakout = 199022,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -7123,8 +8530,8 @@ pg.ship_strengthen_blueprint = {
 			"主炮底座+1",
 			"主炮效率提高5%"
 		}
-	},
-	[811] = {
+	}
+	pg.base.ship_strengthen_blueprint[811] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -7148,8 +8555,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			135
 		}
-	},
-	[812] = {
+	}
+	pg.base.ship_strengthen_blueprint[812] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -7173,8 +8580,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			135
 		}
-	},
-	[813] = {
+	}
+	pg.base.ship_strengthen_blueprint[813] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -7198,8 +8605,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			135
 		}
-	},
-	[814] = {
+	}
+	pg.base.ship_strengthen_blueprint[814] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -7223,8 +8630,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			135
 		}
-	},
-	[815] = {
+	}
+	pg.base.ship_strengthen_blueprint[815] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+711|防空+39|防空炮效率提高10%|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -7264,8 +8671,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[816] = {
+	}
+	pg.base.ship_strengthen_blueprint[816] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -7289,8 +8696,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			180
 		}
-	},
-	[817] = {
+	}
+	pg.base.ship_strengthen_blueprint[817] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -7314,8 +8721,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			180
 		}
-	},
-	[818] = {
+	}
+	pg.base.ship_strengthen_blueprint[818] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -7339,8 +8746,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			180
 		}
-	},
-	[819] = {
+	}
+	pg.base.ship_strengthen_blueprint[819] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -7364,8 +8771,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			180
 		}
-	},
-	[820] = {
+	}
+	pg.base.ship_strengthen_blueprint[820] = {
 		effect_breakout = 199023,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -7397,8 +8804,8 @@ pg.ship_strengthen_blueprint = {
 			"副炮底座+2",
 			"主炮效率提高10%"
 		}
-	},
-	[821] = {
+	}
+	pg.base.ship_strengthen_blueprint[821] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -7422,8 +8829,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			225
 		}
-	},
-	[822] = {
+	}
+	pg.base.ship_strengthen_blueprint[822] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -7447,8 +8854,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			225
 		}
-	},
-	[823] = {
+	}
+	pg.base.ship_strengthen_blueprint[823] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -7472,8 +8879,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			225
 		}
-	},
-	[824] = {
+	}
+	pg.base.ship_strengthen_blueprint[824] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -7497,8 +8904,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			225
 		}
-	},
-	[825] = {
+	}
+	pg.base.ship_strengthen_blueprint[825] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+1068|防空+58|主炮效率提高5%|鑑賞解鎖：特殊觸摸、血量警報",
 		extra_desc = "",
@@ -7537,8 +8944,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[826] = {
+	}
+	pg.base.ship_strengthen_blueprint[826] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -7562,8 +8969,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			225
 		}
-	},
-	[827] = {
+	}
+	pg.base.ship_strengthen_blueprint[827] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -7587,8 +8994,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			225
 		}
-	},
-	[828] = {
+	}
+	pg.base.ship_strengthen_blueprint[828] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -7612,8 +9019,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			225
 		}
-	},
-	[829] = {
+	}
+	pg.base.ship_strengthen_blueprint[829] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -7637,8 +9044,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			225
 		}
-	},
-	[830] = {
+	}
+	pg.base.ship_strengthen_blueprint[830] = {
 		effect_breakout = 199024,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -7665,8 +9072,8 @@ pg.ship_strengthen_blueprint = {
 			"【塞壬之敵】升級",
 			"主炮效率提高15%"
 		}
-	},
-	[831] = {
+	}
+	pg.base.ship_strengthen_blueprint[831] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+1",
 		extra_desc = "",
@@ -7695,8 +9102,8 @@ pg.ship_strengthen_blueprint = {
 				1
 			}
 		}
-	},
-	[832] = {
+	}
+	pg.base.ship_strengthen_blueprint[832] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+2",
 		extra_desc = "",
@@ -7725,8 +9132,8 @@ pg.ship_strengthen_blueprint = {
 				2
 			}
 		}
-	},
-	[833] = {
+	}
+	pg.base.ship_strengthen_blueprint[833] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+3",
 		extra_desc = "",
@@ -7755,8 +9162,8 @@ pg.ship_strengthen_blueprint = {
 				3
 			}
 		}
-	},
-	[834] = {
+	}
+	pg.base.ship_strengthen_blueprint[834] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+4",
 		extra_desc = "",
@@ -7785,8 +9192,8 @@ pg.ship_strengthen_blueprint = {
 				4
 			}
 		}
-	},
-	[835] = {
+	}
+	pg.base.ship_strengthen_blueprint[835] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+5|【Iron Sight Caliber】技能強化為【Iron Sight Caliber +】",
 		extra_desc = "",
@@ -7818,8 +9225,8 @@ pg.ship_strengthen_blueprint = {
 			19150,
 			18150
 		}
-	},
-	[901] = {
+	}
+	pg.base.ship_strengthen_blueprint[901] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -7847,8 +9254,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[902] = {
+	}
+	pg.base.ship_strengthen_blueprint[902] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -7872,8 +9279,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			61
 		}
-	},
-	[903] = {
+	}
+	pg.base.ship_strengthen_blueprint[903] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -7897,8 +9304,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			61
 		}
-	},
-	[904] = {
+	}
+	pg.base.ship_strengthen_blueprint[904] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -7922,8 +9329,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			61
 		}
-	},
-	[905] = {
+	}
+	pg.base.ship_strengthen_blueprint[905] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+111|防空+9|主炮底座+1|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -7964,8 +9371,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[906] = {
+	}
+	pg.base.ship_strengthen_blueprint[906] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -7989,8 +9396,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			122
 		}
-	},
-	[907] = {
+	}
+	pg.base.ship_strengthen_blueprint[907] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -8014,8 +9421,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			122
 		}
-	},
-	[908] = {
+	}
+	pg.base.ship_strengthen_blueprint[908] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -8039,8 +9446,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			122
 		}
-	},
-	[909] = {
+	}
+	pg.base.ship_strengthen_blueprint[909] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -8064,8 +9471,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			122
 		}
-	},
-	[910] = {
+	}
+	pg.base.ship_strengthen_blueprint[910] = {
 		effect_breakout = 399032,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -8097,8 +9504,8 @@ pg.ship_strengthen_blueprint = {
 			"獲得專屬彈幕I",
 			"主炮效率提高5%"
 		}
-	},
-	[911] = {
+	}
+	pg.base.ship_strengthen_blueprint[911] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -8122,8 +9529,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			183
 		}
-	},
-	[912] = {
+	}
+	pg.base.ship_strengthen_blueprint[912] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -8147,8 +9554,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			183
 		}
-	},
-	[913] = {
+	}
+	pg.base.ship_strengthen_blueprint[913] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -8172,8 +9579,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			183
 		}
-	},
-	[914] = {
+	}
+	pg.base.ship_strengthen_blueprint[914] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -8197,8 +9604,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			183
 		}
-	},
-	[915] = {
+	}
+	pg.base.ship_strengthen_blueprint[915] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+221|防空+18|主炮效率提高10%|魚雷預裝填+1|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -8242,8 +9649,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[916] = {
+	}
+	pg.base.ship_strengthen_blueprint[916] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -8267,8 +9674,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			244
 		}
-	},
-	[917] = {
+	}
+	pg.base.ship_strengthen_blueprint[917] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -8292,8 +9699,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			244
 		}
-	},
-	[918] = {
+	}
+	pg.base.ship_strengthen_blueprint[918] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -8317,8 +9724,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			244
 		}
-	},
-	[919] = {
+	}
+	pg.base.ship_strengthen_blueprint[919] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -8342,8 +9749,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			244
 		}
-	},
-	[920] = {
+	}
+	pg.base.ship_strengthen_blueprint[920] = {
 		effect_breakout = 399033,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -8374,8 +9781,10 @@ pg.ship_strengthen_blueprint = {
 			"【塞壬之敵】升級",
 			"防空炮效率提高10%"
 		}
-	},
-	[921] = {
+	}
+end)()
+(function ()
+	pg.base.ship_strengthen_blueprint[921] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -8399,8 +9808,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			305
 		}
-	},
-	[922] = {
+	}
+	pg.base.ship_strengthen_blueprint[922] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -8424,8 +9833,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			305
 		}
-	},
-	[923] = {
+	}
+	pg.base.ship_strengthen_blueprint[923] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -8449,8 +9858,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			305
 		}
-	},
-	[924] = {
+	}
+	pg.base.ship_strengthen_blueprint[924] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -8474,8 +9883,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			305
 		}
-	},
-	[925] = {
+	}
+	pg.base.ship_strengthen_blueprint[925] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+333|防空+27|鑑賞解鎖：特殊觸摸、血量警報",
 		extra_desc = "",
@@ -8511,8 +9920,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[926] = {
+	}
+	pg.base.ship_strengthen_blueprint[926] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -8536,8 +9945,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			305
 		}
-	},
-	[927] = {
+	}
+	pg.base.ship_strengthen_blueprint[927] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -8561,8 +9970,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			305
 		}
-	},
-	[928] = {
+	}
+	pg.base.ship_strengthen_blueprint[928] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -8586,8 +9995,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			305
 		}
-	},
-	[929] = {
+	}
+	pg.base.ship_strengthen_blueprint[929] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -8611,8 +10020,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			305
 		}
-	},
-	[930] = {
+	}
+	pg.base.ship_strengthen_blueprint[930] = {
 		effect_breakout = 399034,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -8641,8 +10050,8 @@ pg.ship_strengthen_blueprint = {
 			"全武器效率提高5%",
 			"觸發專屬彈幕所需主炮射擊次數減半"
 		}
-	},
-	[931] = {
+	}
+	pg.base.ship_strengthen_blueprint[931] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+1",
 		extra_desc = "",
@@ -8671,8 +10080,8 @@ pg.ship_strengthen_blueprint = {
 				1
 			}
 		}
-	},
-	[932] = {
+	}
+	pg.base.ship_strengthen_blueprint[932] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+2",
 		extra_desc = "",
@@ -8701,8 +10110,8 @@ pg.ship_strengthen_blueprint = {
 				2
 			}
 		}
-	},
-	[933] = {
+	}
+	pg.base.ship_strengthen_blueprint[933] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+3",
 		extra_desc = "",
@@ -8731,8 +10140,8 @@ pg.ship_strengthen_blueprint = {
 				3
 			}
 		}
-	},
-	[934] = {
+	}
+	pg.base.ship_strengthen_blueprint[934] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+4",
 		extra_desc = "",
@@ -8761,8 +10170,8 @@ pg.ship_strengthen_blueprint = {
 				4
 			}
 		}
-	},
-	[935] = {
+	}
+	pg.base.ship_strengthen_blueprint[935] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+5|【北風流·六蓮雷】技能強化為【北風流·六蓮雷 +】",
 		extra_desc = "",
@@ -8794,8 +10203,8 @@ pg.ship_strengthen_blueprint = {
 			19180,
 			18180
 		}
-	},
-	[1001] = {
+	}
+	pg.base.ship_strengthen_blueprint[1001] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -8823,8 +10232,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[1002] = {
+	}
+	pg.base.ship_strengthen_blueprint[1002] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -8848,8 +10257,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			47
 		}
-	},
-	[1003] = {
+	}
+	pg.base.ship_strengthen_blueprint[1003] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -8873,8 +10282,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			47
 		}
-	},
-	[1004] = {
+	}
+	pg.base.ship_strengthen_blueprint[1004] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -8898,8 +10307,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			47
 		}
-	},
-	[1005] = {
+	}
+	pg.base.ship_strengthen_blueprint[1005] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+315|防空+10|主炮效率提高5%|主炮底座+1|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -8943,8 +10352,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[1006] = {
+	}
+	pg.base.ship_strengthen_blueprint[1006] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -8968,8 +10377,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			94
 		}
-	},
-	[1007] = {
+	}
+	pg.base.ship_strengthen_blueprint[1007] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -8993,8 +10402,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			94
 		}
-	},
-	[1008] = {
+	}
+	pg.base.ship_strengthen_blueprint[1008] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -9018,8 +10427,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			94
 		}
-	},
-	[1009] = {
+	}
+	pg.base.ship_strengthen_blueprint[1009] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -9043,8 +10452,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			94
 		}
-	},
-	[1010] = {
+	}
+	pg.base.ship_strengthen_blueprint[1010] = {
 		effect_breakout = 399042,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -9075,8 +10484,8 @@ pg.ship_strengthen_blueprint = {
 			"習得技能【塞壬之敵】",
 			"主炮效率提高5%"
 		}
-	},
-	[1011] = {
+	}
+	pg.base.ship_strengthen_blueprint[1011] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -9100,8 +10509,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			141
 		}
-	},
-	[1012] = {
+	}
+	pg.base.ship_strengthen_blueprint[1012] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -9125,8 +10534,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			141
 		}
-	},
-	[1013] = {
+	}
+	pg.base.ship_strengthen_blueprint[1013] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -9150,8 +10559,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			141
 		}
-	},
-	[1014] = {
+	}
+	pg.base.ship_strengthen_blueprint[1014] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -9175,8 +10584,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			141
 		}
-	},
-	[1015] = {
+	}
+	pg.base.ship_strengthen_blueprint[1015] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+629|防空+21|防空炮效率提高10%|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -9216,8 +10625,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[1016] = {
+	}
+	pg.base.ship_strengthen_blueprint[1016] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -9241,8 +10650,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			188
 		}
-	},
-	[1017] = {
+	}
+	pg.base.ship_strengthen_blueprint[1017] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -9266,8 +10675,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			188
 		}
-	},
-	[1018] = {
+	}
+	pg.base.ship_strengthen_blueprint[1018] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -9291,8 +10700,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			188
 		}
-	},
-	[1019] = {
+	}
+	pg.base.ship_strengthen_blueprint[1019] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -9316,8 +10725,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			188
 		}
-	},
-	[1020] = {
+	}
+	pg.base.ship_strengthen_blueprint[1020] = {
 		effect_breakout = 399043,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -9348,8 +10757,8 @@ pg.ship_strengthen_blueprint = {
 			"【塞壬之敵】升級",
 			"副炮效率提高10%"
 		}
-	},
-	[1021] = {
+	}
+	pg.base.ship_strengthen_blueprint[1021] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -9373,8 +10782,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			235
 		}
-	},
-	[1022] = {
+	}
+	pg.base.ship_strengthen_blueprint[1022] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -9398,8 +10807,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			235
 		}
-	},
-	[1023] = {
+	}
+	pg.base.ship_strengthen_blueprint[1023] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -9423,8 +10832,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			235
 		}
-	},
-	[1024] = {
+	}
+	pg.base.ship_strengthen_blueprint[1024] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -9448,8 +10857,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			235
 		}
-	},
-	[1025] = {
+	}
+	pg.base.ship_strengthen_blueprint[1025] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+945|防空+31|機動+5|主炮效率提高5%|鑑賞解鎖：特殊觸摸、血量警報",
 		extra_desc = "",
@@ -9492,8 +10901,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[1026] = {
+	}
+	pg.base.ship_strengthen_blueprint[1026] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -9517,8 +10926,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			235
 		}
-	},
-	[1027] = {
+	}
+	pg.base.ship_strengthen_blueprint[1027] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -9542,8 +10951,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			235
 		}
-	},
-	[1028] = {
+	}
+	pg.base.ship_strengthen_blueprint[1028] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -9567,8 +10976,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			235
 		}
-	},
-	[1029] = {
+	}
+	pg.base.ship_strengthen_blueprint[1029] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -9592,8 +11001,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			235
 		}
-	},
-	[1030] = {
+	}
+	pg.base.ship_strengthen_blueprint[1030] = {
 		effect_breakout = 399044,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -9620,8 +11029,8 @@ pg.ship_strengthen_blueprint = {
 			"【塞壬之敵】升級",
 			"主炮效率提高15%"
 		}
-	},
-	[1031] = {
+	}
+	pg.base.ship_strengthen_blueprint[1031] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+3",
 		extra_desc = "",
@@ -9650,8 +11059,8 @@ pg.ship_strengthen_blueprint = {
 				3
 			}
 		}
-	},
-	[1032] = {
+	}
+	pg.base.ship_strengthen_blueprint[1032] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+4",
 		extra_desc = "",
@@ -9680,8 +11089,8 @@ pg.ship_strengthen_blueprint = {
 				4
 			}
 		}
-	},
-	[1033] = {
+	}
+	pg.base.ship_strengthen_blueprint[1033] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+5|【戰場嗅覺】技能強化為【戰場嗅覺 +】",
 		extra_desc = "",
@@ -9713,8 +11122,8 @@ pg.ship_strengthen_blueprint = {
 			19200,
 			18200
 		}
-	},
-	[1034] = {
+	}
+	pg.base.ship_strengthen_blueprint[1034] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+6",
 		extra_desc = "",
@@ -9743,8 +11152,8 @@ pg.ship_strengthen_blueprint = {
 				6
 			}
 		}
-	},
-	[1035] = {
+	}
+	pg.base.ship_strengthen_blueprint[1035] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+7|【特殊炮擊訓練】技能強化為【特殊炮擊訓練 +】",
 		extra_desc = "",
@@ -9776,8 +11185,8 @@ pg.ship_strengthen_blueprint = {
 			19210,
 			18210
 		}
-	},
-	[1101] = {
+	}
+	pg.base.ship_strengthen_blueprint[1101] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -9805,8 +11214,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[1102] = {
+	}
+	pg.base.ship_strengthen_blueprint[1102] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -9830,8 +11239,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			43
 		}
-	},
-	[1103] = {
+	}
+	pg.base.ship_strengthen_blueprint[1103] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -9855,8 +11264,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			43
 		}
-	},
-	[1104] = {
+	}
+	pg.base.ship_strengthen_blueprint[1104] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -9880,8 +11289,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			43
 		}
-	},
-	[1105] = {
+	}
+	pg.base.ship_strengthen_blueprint[1105] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+400|防空+11|主炮效率提高5%|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -9921,8 +11330,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[1106] = {
+	}
+	pg.base.ship_strengthen_blueprint[1106] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -9946,8 +11355,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			86
 		}
-	},
-	[1107] = {
+	}
+	pg.base.ship_strengthen_blueprint[1107] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -9971,8 +11380,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			86
 		}
-	},
-	[1108] = {
+	}
+	pg.base.ship_strengthen_blueprint[1108] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -9996,8 +11405,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			86
 		}
-	},
-	[1109] = {
+	}
+	pg.base.ship_strengthen_blueprint[1109] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -10021,8 +11430,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			86
 		}
-	},
-	[1110] = {
+	}
+	pg.base.ship_strengthen_blueprint[1110] = {
 		effect_breakout = 499022,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -10054,8 +11463,8 @@ pg.ship_strengthen_blueprint = {
 			"主炮底座+1",
 			"主炮效率提高5%"
 		}
-	},
-	[1111] = {
+	}
+	pg.base.ship_strengthen_blueprint[1111] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -10079,8 +11488,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			129
 		}
-	},
-	[1112] = {
+	}
+	pg.base.ship_strengthen_blueprint[1112] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -10104,8 +11513,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			129
 		}
-	},
-	[1113] = {
+	}
+	pg.base.ship_strengthen_blueprint[1113] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -10129,8 +11538,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			129
 		}
-	},
-	[1114] = {
+	}
+	pg.base.ship_strengthen_blueprint[1114] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -10154,8 +11563,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			129
 		}
-	},
-	[1115] = {
+	}
+	pg.base.ship_strengthen_blueprint[1115] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+797|防空+22|防空炮效率提高10%|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -10195,8 +11604,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[1116] = {
+	}
+	pg.base.ship_strengthen_blueprint[1116] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -10220,8 +11629,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			172
 		}
-	},
-	[1117] = {
+	}
+	pg.base.ship_strengthen_blueprint[1117] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -10245,8 +11654,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			172
 		}
-	},
-	[1118] = {
+	}
+	pg.base.ship_strengthen_blueprint[1118] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -10270,8 +11679,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			172
 		}
-	},
-	[1119] = {
+	}
+	pg.base.ship_strengthen_blueprint[1119] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -10295,8 +11704,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			172
 		}
-	},
-	[1120] = {
+	}
+	pg.base.ship_strengthen_blueprint[1120] = {
 		effect_breakout = 499023,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -10328,8 +11737,8 @@ pg.ship_strengthen_blueprint = {
 			"副炮底座+2",
 			"主炮效率提高10%"
 		}
-	},
-	[1121] = {
+	}
+	pg.base.ship_strengthen_blueprint[1121] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -10353,8 +11762,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[1122] = {
+	}
+	pg.base.ship_strengthen_blueprint[1122] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -10378,8 +11787,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[1123] = {
+	}
+	pg.base.ship_strengthen_blueprint[1123] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -10403,8 +11812,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[1124] = {
+	}
+	pg.base.ship_strengthen_blueprint[1124] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -10428,8 +11837,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[1125] = {
+	}
+	pg.base.ship_strengthen_blueprint[1125] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+1195|防空+33|主炮效率提高5%|鑑賞解鎖：特殊觸摸、血量警報",
 		extra_desc = "",
@@ -10468,8 +11877,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[1126] = {
+	}
+	pg.base.ship_strengthen_blueprint[1126] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -10493,8 +11902,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[1127] = {
+	}
+	pg.base.ship_strengthen_blueprint[1127] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -10518,8 +11927,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[1128] = {
+	}
+	pg.base.ship_strengthen_blueprint[1128] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -10543,8 +11952,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[1129] = {
+	}
+	pg.base.ship_strengthen_blueprint[1129] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -10568,8 +11977,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[1130] = {
+	}
+	pg.base.ship_strengthen_blueprint[1130] = {
 		effect_breakout = 499024,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -10597,8 +12006,8 @@ pg.ship_strengthen_blueprint = {
 			"主炮底座+1",
 			"主炮效率提高15%"
 		}
-	},
-	[1131] = {
+	}
+	pg.base.ship_strengthen_blueprint[1131] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+3",
 		extra_desc = "",
@@ -10627,8 +12036,8 @@ pg.ship_strengthen_blueprint = {
 				3
 			}
 		}
-	},
-	[1132] = {
+	}
+	pg.base.ship_strengthen_blueprint[1132] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+4",
 		extra_desc = "",
@@ -10657,8 +12066,8 @@ pg.ship_strengthen_blueprint = {
 				4
 			}
 		}
-	},
-	[1133] = {
+	}
+	pg.base.ship_strengthen_blueprint[1133] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+5|【暗黑的狂想曲】技能強化為【暗黑的狂想曲 +】",
 		extra_desc = "",
@@ -10690,8 +12099,8 @@ pg.ship_strengthen_blueprint = {
 			19240,
 			18240
 		}
-	},
-	[1134] = {
+	}
+	pg.base.ship_strengthen_blueprint[1134] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+6",
 		extra_desc = "",
@@ -10720,8 +12129,8 @@ pg.ship_strengthen_blueprint = {
 				6
 			}
 		}
-	},
-	[1135] = {
+	}
+	pg.base.ship_strengthen_blueprint[1135] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+7|【破壞的交響曲】技能強化為【破壞的交響曲 +】",
 		extra_desc = "",
@@ -10753,8 +12162,8 @@ pg.ship_strengthen_blueprint = {
 			19220,
 			18220
 		}
-	},
-	[1201] = {
+	}
+	pg.base.ship_strengthen_blueprint[1201] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -10782,8 +12191,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[1202] = {
+	}
+	pg.base.ship_strengthen_blueprint[1202] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -10807,8 +12216,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			46
 		}
-	},
-	[1203] = {
+	}
+	pg.base.ship_strengthen_blueprint[1203] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -10832,8 +12241,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			46
 		}
-	},
-	[1204] = {
+	}
+	pg.base.ship_strengthen_blueprint[1204] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -10857,8 +12266,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			46
 		}
-	},
-	[1205] = {
+	}
+	pg.base.ship_strengthen_blueprint[1205] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+325|防空+11|主炮效率提高5%|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -10898,8 +12307,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[1206] = {
+	}
+	pg.base.ship_strengthen_blueprint[1206] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -10923,8 +12332,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			92
 		}
-	},
-	[1207] = {
+	}
+	pg.base.ship_strengthen_blueprint[1207] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -10948,8 +12357,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			92
 		}
-	},
-	[1208] = {
+	}
+	pg.base.ship_strengthen_blueprint[1208] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -10973,8 +12382,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			92
 		}
-	},
-	[1209] = {
+	}
+	pg.base.ship_strengthen_blueprint[1209] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -10998,8 +12407,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			92
 		}
-	},
-	[1210] = {
+	}
+	pg.base.ship_strengthen_blueprint[1210] = {
 		effect_breakout = 999012,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -11030,8 +12439,8 @@ pg.ship_strengthen_blueprint = {
 			"習得技能【塞壬之敵】",
 			"主炮效率提高5%"
 		}
-	},
-	[1211] = {
+	}
+	pg.base.ship_strengthen_blueprint[1211] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -11055,8 +12464,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			138
 		}
-	},
-	[1212] = {
+	}
+	pg.base.ship_strengthen_blueprint[1212] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -11080,8 +12489,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			138
 		}
-	},
-	[1213] = {
+	}
+	pg.base.ship_strengthen_blueprint[1213] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -11105,8 +12514,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			138
 		}
-	},
-	[1214] = {
+	}
+	pg.base.ship_strengthen_blueprint[1214] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -11130,8 +12539,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			138
 		}
-	},
-	[1215] = {
+	}
+	pg.base.ship_strengthen_blueprint[1215] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+651|防空+22|防空炮效率提高10%|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -11171,8 +12580,10 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[1216] = {
+	}
+end)()
+(function ()
+	pg.base.ship_strengthen_blueprint[1216] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -11196,8 +12607,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			184
 		}
-	},
-	[1217] = {
+	}
+	pg.base.ship_strengthen_blueprint[1217] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -11221,8 +12632,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			184
 		}
-	},
-	[1218] = {
+	}
+	pg.base.ship_strengthen_blueprint[1218] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -11246,8 +12657,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			184
 		}
-	},
-	[1219] = {
+	}
+	pg.base.ship_strengthen_blueprint[1219] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -11271,8 +12682,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			184
 		}
-	},
-	[1220] = {
+	}
+	pg.base.ship_strengthen_blueprint[1220] = {
 		effect_breakout = 999013,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -11304,8 +12715,8 @@ pg.ship_strengthen_blueprint = {
 			"副炮底座+2",
 			"主炮效率提高10%"
 		}
-	},
-	[1221] = {
+	}
+	pg.base.ship_strengthen_blueprint[1221] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -11329,8 +12740,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[1222] = {
+	}
+	pg.base.ship_strengthen_blueprint[1222] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -11354,8 +12765,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[1223] = {
+	}
+	pg.base.ship_strengthen_blueprint[1223] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -11379,8 +12790,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[1224] = {
+	}
+	pg.base.ship_strengthen_blueprint[1224] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -11404,8 +12815,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[1225] = {
+	}
+	pg.base.ship_strengthen_blueprint[1225] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+976|防空+33|主炮效率提高5%|鑑賞解鎖：主介面4、特殊觸摸、血量警報",
 		extra_desc = "",
@@ -11445,8 +12856,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[1226] = {
+	}
+	pg.base.ship_strengthen_blueprint[1226] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -11470,8 +12881,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[1227] = {
+	}
+	pg.base.ship_strengthen_blueprint[1227] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -11495,8 +12906,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[1228] = {
+	}
+	pg.base.ship_strengthen_blueprint[1228] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -11520,8 +12931,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[1229] = {
+	}
+	pg.base.ship_strengthen_blueprint[1229] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -11545,8 +12956,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[1230] = {
+	}
+	pg.base.ship_strengthen_blueprint[1230] = {
 		effect_breakout = 999014,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -11573,8 +12984,8 @@ pg.ship_strengthen_blueprint = {
 			"【塞壬之敵】升級",
 			"主炮效率提高15%"
 		}
-	},
-	[1231] = {
+	}
+	pg.base.ship_strengthen_blueprint[1231] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+1",
 		extra_desc = "",
@@ -11603,8 +13014,8 @@ pg.ship_strengthen_blueprint = {
 				1
 			}
 		}
-	},
-	[1232] = {
+	}
+	pg.base.ship_strengthen_blueprint[1232] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+2",
 		extra_desc = "",
@@ -11633,8 +13044,8 @@ pg.ship_strengthen_blueprint = {
 				2
 			}
 		}
-	},
-	[1233] = {
+	}
+	pg.base.ship_strengthen_blueprint[1233] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+3",
 		extra_desc = "",
@@ -11663,8 +13074,8 @@ pg.ship_strengthen_blueprint = {
 				3
 			}
 		}
-	},
-	[1234] = {
+	}
+	pg.base.ship_strengthen_blueprint[1234] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+4",
 		extra_desc = "",
@@ -11693,8 +13104,8 @@ pg.ship_strengthen_blueprint = {
 				4
 			}
 		}
-	},
-	[1235] = {
+	}
+	pg.base.ship_strengthen_blueprint[1235] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+5|【感知抑制模組】技能強化為【感知抑制模組 +】",
 		extra_desc = "",
@@ -11726,8 +13137,8 @@ pg.ship_strengthen_blueprint = {
 			19250,
 			18250
 		}
-	},
-	[1301] = {
+	}
+	pg.base.ship_strengthen_blueprint[1301] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -11755,8 +13166,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[1302] = {
+	}
+	pg.base.ship_strengthen_blueprint[1302] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -11780,8 +13191,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			43
 		}
-	},
-	[1303] = {
+	}
+	pg.base.ship_strengthen_blueprint[1303] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -11805,8 +13216,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			43
 		}
-	},
-	[1304] = {
+	}
+	pg.base.ship_strengthen_blueprint[1304] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -11830,8 +13241,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			43
 		}
-	},
-	[1305] = {
+	}
+	pg.base.ship_strengthen_blueprint[1305] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+217|防空+19|機動+5|防空炮底座+1|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -11876,8 +13287,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[1306] = {
+	}
+	pg.base.ship_strengthen_blueprint[1306] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -11901,8 +13312,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			86
 		}
-	},
-	[1307] = {
+	}
+	pg.base.ship_strengthen_blueprint[1307] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -11926,8 +13337,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			86
 		}
-	},
-	[1308] = {
+	}
+	pg.base.ship_strengthen_blueprint[1308] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -11951,8 +13362,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			86
 		}
-	},
-	[1309] = {
+	}
+	pg.base.ship_strengthen_blueprint[1309] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -11976,8 +13387,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			86
 		}
-	},
-	[1310] = {
+	}
+	pg.base.ship_strengthen_blueprint[1310] = {
 		effect_breakout = 299032,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -12009,8 +13420,8 @@ pg.ship_strengthen_blueprint = {
 			"獲得專屬彈幕I",
 			"主炮效率提高5%"
 		}
-	},
-	[1311] = {
+	}
+	pg.base.ship_strengthen_blueprint[1311] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -12034,8 +13445,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			129
 		}
-	},
-	[1312] = {
+	}
+	pg.base.ship_strengthen_blueprint[1312] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -12059,8 +13470,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			129
 		}
-	},
-	[1313] = {
+	}
+	pg.base.ship_strengthen_blueprint[1313] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -12084,8 +13495,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			129
 		}
-	},
-	[1314] = {
+	}
+	pg.base.ship_strengthen_blueprint[1314] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -12109,8 +13520,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			129
 		}
-	},
-	[1315] = {
+	}
+	pg.base.ship_strengthen_blueprint[1315] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+433|防空+39|主炮效率提高10%|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -12150,8 +13561,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[1316] = {
+	}
+	pg.base.ship_strengthen_blueprint[1316] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -12175,8 +13586,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			172
 		}
-	},
-	[1317] = {
+	}
+	pg.base.ship_strengthen_blueprint[1317] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -12200,8 +13611,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			172
 		}
-	},
-	[1318] = {
+	}
+	pg.base.ship_strengthen_blueprint[1318] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -12225,8 +13636,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			172
 		}
-	},
-	[1319] = {
+	}
+	pg.base.ship_strengthen_blueprint[1319] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -12250,8 +13661,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			172
 		}
-	},
-	[1320] = {
+	}
+	pg.base.ship_strengthen_blueprint[1320] = {
 		effect_breakout = 299033,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -12282,8 +13693,8 @@ pg.ship_strengthen_blueprint = {
 			"【塞壬之敵】升級",
 			"防空炮效率提高10%"
 		}
-	},
-	[1321] = {
+	}
+	pg.base.ship_strengthen_blueprint[1321] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -12307,8 +13718,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[1322] = {
+	}
+	pg.base.ship_strengthen_blueprint[1322] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -12332,8 +13743,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[1323] = {
+	}
+	pg.base.ship_strengthen_blueprint[1323] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -12357,8 +13768,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[1324] = {
+	}
+	pg.base.ship_strengthen_blueprint[1324] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -12382,8 +13793,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[1325] = {
+	}
+	pg.base.ship_strengthen_blueprint[1325] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+649|防空+58|機動+10|鑑賞解鎖：特殊觸摸、血量警報",
 		extra_desc = "",
@@ -12423,8 +13834,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[1326] = {
+	}
+	pg.base.ship_strengthen_blueprint[1326] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -12448,8 +13859,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[1327] = {
+	}
+	pg.base.ship_strengthen_blueprint[1327] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -12473,8 +13884,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[1328] = {
+	}
+	pg.base.ship_strengthen_blueprint[1328] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -12498,8 +13909,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[1329] = {
+	}
+	pg.base.ship_strengthen_blueprint[1329] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -12523,8 +13934,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[1330] = {
+	}
+	pg.base.ship_strengthen_blueprint[1330] = {
 		effect_breakout = 299034,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -12552,8 +13963,8 @@ pg.ship_strengthen_blueprint = {
 			"專屬彈幕升級",
 			"全武器效率提高5%"
 		}
-	},
-	[1331] = {
+	}
+	pg.base.ship_strengthen_blueprint[1331] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+1",
 		extra_desc = "",
@@ -12582,8 +13993,8 @@ pg.ship_strengthen_blueprint = {
 				1
 			}
 		}
-	},
-	[1332] = {
+	}
+	pg.base.ship_strengthen_blueprint[1332] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+2",
 		extra_desc = "",
@@ -12612,8 +14023,8 @@ pg.ship_strengthen_blueprint = {
 				2
 			}
 		}
-	},
-	[1333] = {
+	}
+	pg.base.ship_strengthen_blueprint[1333] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+3",
 		extra_desc = "",
@@ -12642,8 +14053,8 @@ pg.ship_strengthen_blueprint = {
 				3
 			}
 		}
-	},
-	[1334] = {
+	}
+	pg.base.ship_strengthen_blueprint[1334] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+4",
 		extra_desc = "",
@@ -12672,8 +14083,8 @@ pg.ship_strengthen_blueprint = {
 				4
 			}
 		}
-	},
-	[1335] = {
+	}
+	pg.base.ship_strengthen_blueprint[1335] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+5|【柴郡PowerUp！ 】技能強化為【柴郡PowerUp！ +】",
 		extra_desc = "",
@@ -12705,8 +14116,8 @@ pg.ship_strengthen_blueprint = {
 			19270,
 			18270
 		}
-	},
-	[1401] = {
+	}
+	pg.base.ship_strengthen_blueprint[1401] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -12734,8 +14145,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[1402] = {
+	}
+	pg.base.ship_strengthen_blueprint[1402] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -12759,8 +14170,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			38
 		}
-	},
-	[1403] = {
+	}
+	pg.base.ship_strengthen_blueprint[1403] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -12784,8 +14195,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			38
 		}
-	},
-	[1404] = {
+	}
+	pg.base.ship_strengthen_blueprint[1404] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -12809,8 +14220,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			38
 		}
-	},
-	[1405] = {
+	}
+	pg.base.ship_strengthen_blueprint[1405] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+237|防空+13|機動+5|主炮底座+1|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -12855,8 +14266,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[1406] = {
+	}
+	pg.base.ship_strengthen_blueprint[1406] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -12880,8 +14291,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			76
 		}
-	},
-	[1407] = {
+	}
+	pg.base.ship_strengthen_blueprint[1407] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -12905,8 +14316,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			76
 		}
-	},
-	[1408] = {
+	}
+	pg.base.ship_strengthen_blueprint[1408] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -12930,8 +14341,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			76
 		}
-	},
-	[1409] = {
+	}
+	pg.base.ship_strengthen_blueprint[1409] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -12955,8 +14366,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			76
 		}
-	},
-	[1410] = {
+	}
+	pg.base.ship_strengthen_blueprint[1410] = {
 		effect_breakout = 299042,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -12988,8 +14399,8 @@ pg.ship_strengthen_blueprint = {
 			"獲得專屬彈幕I",
 			"主炮效率提高5%"
 		}
-	},
-	[1411] = {
+	}
+	pg.base.ship_strengthen_blueprint[1411] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -13013,8 +14424,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			114
 		}
-	},
-	[1412] = {
+	}
+	pg.base.ship_strengthen_blueprint[1412] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -13038,8 +14449,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			114
 		}
-	},
-	[1413] = {
+	}
+	pg.base.ship_strengthen_blueprint[1413] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -13063,8 +14474,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			114
 		}
-	},
-	[1414] = {
+	}
+	pg.base.ship_strengthen_blueprint[1414] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -13088,8 +14499,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			114
 		}
-	},
-	[1415] = {
+	}
+	pg.base.ship_strengthen_blueprint[1415] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+473|防空+27|魚雷預裝填+1|主炮效率提高10%|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -13133,8 +14544,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[1416] = {
+	}
+	pg.base.ship_strengthen_blueprint[1416] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -13158,8 +14569,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			152
 		}
-	},
-	[1417] = {
+	}
+	pg.base.ship_strengthen_blueprint[1417] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -13183,8 +14594,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			152
 		}
-	},
-	[1418] = {
+	}
+	pg.base.ship_strengthen_blueprint[1418] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -13208,8 +14619,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			152
 		}
-	},
-	[1419] = {
+	}
+	pg.base.ship_strengthen_blueprint[1419] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -13233,8 +14644,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			152
 		}
-	},
-	[1420] = {
+	}
+	pg.base.ship_strengthen_blueprint[1420] = {
 		effect_breakout = 299043,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -13265,8 +14676,8 @@ pg.ship_strengthen_blueprint = {
 			"【塞壬之敵】升級",
 			"魚雷效率提高10%"
 		}
-	},
-	[1421] = {
+	}
+	pg.base.ship_strengthen_blueprint[1421] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -13290,8 +14701,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			190
 		}
-	},
-	[1422] = {
+	}
+	pg.base.ship_strengthen_blueprint[1422] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -13315,8 +14726,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			190
 		}
-	},
-	[1423] = {
+	}
+	pg.base.ship_strengthen_blueprint[1423] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -13340,8 +14751,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			190
 		}
-	},
-	[1424] = {
+	}
+	pg.base.ship_strengthen_blueprint[1424] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -13365,8 +14776,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			190
 		}
-	},
-	[1425] = {
+	}
+	pg.base.ship_strengthen_blueprint[1425] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+710|防空+40|機動+10|鑑賞解鎖：特殊觸摸、血量警報",
 		extra_desc = "",
@@ -13406,8 +14817,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[1426] = {
+	}
+	pg.base.ship_strengthen_blueprint[1426] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -13431,8 +14842,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			190
 		}
-	},
-	[1427] = {
+	}
+	pg.base.ship_strengthen_blueprint[1427] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -13456,8 +14867,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			190
 		}
-	},
-	[1428] = {
+	}
+	pg.base.ship_strengthen_blueprint[1428] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -13481,8 +14892,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			190
 		}
-	},
-	[1429] = {
+	}
+	pg.base.ship_strengthen_blueprint[1429] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -13506,8 +14917,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			190
 		}
-	},
-	[1430] = {
+	}
+	pg.base.ship_strengthen_blueprint[1430] = {
 		effect_breakout = 299044,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -13535,8 +14946,8 @@ pg.ship_strengthen_blueprint = {
 			"專屬彈幕升級",
 			"主炮效率提高15%"
 		}
-	},
-	[1431] = {
+	}
+	pg.base.ship_strengthen_blueprint[1431] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+3",
 		extra_desc = "",
@@ -13565,8 +14976,8 @@ pg.ship_strengthen_blueprint = {
 				3
 			}
 		}
-	},
-	[1432] = {
+	}
+	pg.base.ship_strengthen_blueprint[1432] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+4",
 		extra_desc = "",
@@ -13595,8 +15006,8 @@ pg.ship_strengthen_blueprint = {
 				4
 			}
 		}
-	},
-	[1433] = {
+	}
+	pg.base.ship_strengthen_blueprint[1433] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+5|【斷罪之炎】技能強化為【斷罪之炎 +】",
 		extra_desc = "",
@@ -13628,8 +15039,8 @@ pg.ship_strengthen_blueprint = {
 			19300,
 			18300
 		}
-	},
-	[1434] = {
+	}
+	pg.base.ship_strengthen_blueprint[1434] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+6",
 		extra_desc = "",
@@ -13658,8 +15069,8 @@ pg.ship_strengthen_blueprint = {
 				6
 			}
 		}
-	},
-	[1435] = {
+	}
+	pg.base.ship_strengthen_blueprint[1435] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+7|【勇鬥的Privateer】技能強化為【勇鬥的Privateer +】",
 		extra_desc = "",
@@ -13691,8 +15102,8 @@ pg.ship_strengthen_blueprint = {
 			19290,
 			18290
 		}
-	},
-	[1501] = {
+	}
+	pg.base.ship_strengthen_blueprint[1501] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -13720,8 +15131,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[1502] = {
+	}
+	pg.base.ship_strengthen_blueprint[1502] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -13745,8 +15156,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			50
 		}
-	},
-	[1503] = {
+	}
+	pg.base.ship_strengthen_blueprint[1503] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -13770,8 +15181,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			50
 		}
-	},
-	[1504] = {
+	}
+	pg.base.ship_strengthen_blueprint[1504] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -13795,8 +15206,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			50
 		}
-	},
-	[1505] = {
+	}
+	pg.base.ship_strengthen_blueprint[1505] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+226|防空+17|主炮底座+1|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -13837,8 +15248,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[1506] = {
+	}
+	pg.base.ship_strengthen_blueprint[1506] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -13862,8 +15273,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			100
 		}
-	},
-	[1507] = {
+	}
+	pg.base.ship_strengthen_blueprint[1507] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -13887,8 +15298,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			100
 		}
-	},
-	[1508] = {
+	}
+	pg.base.ship_strengthen_blueprint[1508] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -13912,8 +15323,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			100
 		}
-	},
-	[1509] = {
+	}
+	pg.base.ship_strengthen_blueprint[1509] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -13937,8 +15348,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			100
 		}
-	},
-	[1510] = {
+	}
+	pg.base.ship_strengthen_blueprint[1510] = {
 		effect_breakout = 499032,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -13970,8 +15381,10 @@ pg.ship_strengthen_blueprint = {
 			"獲得專屬彈幕I",
 			"主炮效率提高5%"
 		}
-	},
-	[1511] = {
+	}
+end)()
+(function ()
+	pg.base.ship_strengthen_blueprint[1511] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -13995,8 +15408,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			150
 		}
-	},
-	[1512] = {
+	}
+	pg.base.ship_strengthen_blueprint[1512] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -14020,8 +15433,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			150
 		}
-	},
-	[1513] = {
+	}
+	pg.base.ship_strengthen_blueprint[1513] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -14045,8 +15458,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			150
 		}
-	},
-	[1514] = {
+	}
+	pg.base.ship_strengthen_blueprint[1514] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -14070,8 +15483,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			150
 		}
-	},
-	[1515] = {
+	}
+	pg.base.ship_strengthen_blueprint[1515] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+451|防空+33|主炮效率提高10%|魚雷預裝填+1|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -14115,8 +15528,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[1516] = {
+	}
+	pg.base.ship_strengthen_blueprint[1516] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -14140,8 +15553,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			200
 		}
-	},
-	[1517] = {
+	}
+	pg.base.ship_strengthen_blueprint[1517] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -14165,8 +15578,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			200
 		}
-	},
-	[1518] = {
+	}
+	pg.base.ship_strengthen_blueprint[1518] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -14190,8 +15603,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			200
 		}
-	},
-	[1519] = {
+	}
+	pg.base.ship_strengthen_blueprint[1519] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -14215,8 +15628,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			200
 		}
-	},
-	[1520] = {
+	}
+	pg.base.ship_strengthen_blueprint[1520] = {
 		effect_breakout = 499033,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -14247,8 +15660,8 @@ pg.ship_strengthen_blueprint = {
 			"【塞壬之敵】升級",
 			"魚雷效率提高10%"
 		}
-	},
-	[1521] = {
+	}
+	pg.base.ship_strengthen_blueprint[1521] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -14272,8 +15685,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			250
 		}
-	},
-	[1522] = {
+	}
+	pg.base.ship_strengthen_blueprint[1522] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -14297,8 +15710,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			250
 		}
-	},
-	[1523] = {
+	}
+	pg.base.ship_strengthen_blueprint[1523] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -14322,8 +15735,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			250
 		}
-	},
-	[1524] = {
+	}
+	pg.base.ship_strengthen_blueprint[1524] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -14347,8 +15760,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			250
 		}
-	},
-	[1525] = {
+	}
+	pg.base.ship_strengthen_blueprint[1525] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+677|防空+49|鑑賞解鎖：特殊觸摸、血量警報",
 		extra_desc = "",
@@ -14384,8 +15797,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[1526] = {
+	}
+	pg.base.ship_strengthen_blueprint[1526] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -14409,8 +15822,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			250
 		}
-	},
-	[1527] = {
+	}
+	pg.base.ship_strengthen_blueprint[1527] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -14434,8 +15847,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			250
 		}
-	},
-	[1528] = {
+	}
+	pg.base.ship_strengthen_blueprint[1528] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -14459,8 +15872,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			250
 		}
-	},
-	[1529] = {
+	}
+	pg.base.ship_strengthen_blueprint[1529] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -14484,8 +15897,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			250
 		}
-	},
-	[1530] = {
+	}
+	pg.base.ship_strengthen_blueprint[1530] = {
 		effect_breakout = 499034,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -14513,8 +15926,8 @@ pg.ship_strengthen_blueprint = {
 			"專屬彈幕升級",
 			"主炮效率提高15%"
 		}
-	},
-	[1531] = {
+	}
+	pg.base.ship_strengthen_blueprint[1531] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+1",
 		extra_desc = "",
@@ -14543,8 +15956,8 @@ pg.ship_strengthen_blueprint = {
 				1
 			}
 		}
-	},
-	[1532] = {
+	}
+	pg.base.ship_strengthen_blueprint[1532] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+2",
 		extra_desc = "",
@@ -14573,8 +15986,8 @@ pg.ship_strengthen_blueprint = {
 				2
 			}
 		}
-	},
-	[1533] = {
+	}
+	pg.base.ship_strengthen_blueprint[1533] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+3",
 		extra_desc = "",
@@ -14603,8 +16016,8 @@ pg.ship_strengthen_blueprint = {
 				3
 			}
 		}
-	},
-	[1534] = {
+	}
+	pg.base.ship_strengthen_blueprint[1534] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+4",
 		extra_desc = "",
@@ -14633,8 +16046,8 @@ pg.ship_strengthen_blueprint = {
 				4
 			}
 		}
-	},
-	[1535] = {
+	}
+	pg.base.ship_strengthen_blueprint[1535] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+5|【「Ausgewogen」】技能強化為【「Ausgewogen」 +】",
 		extra_desc = "",
@@ -14666,8 +16079,8 @@ pg.ship_strengthen_blueprint = {
 			19320,
 			18320
 		}
-	},
-	[1601] = {
+	}
+	pg.base.ship_strengthen_blueprint[1601] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -14695,8 +16108,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[1602] = {
+	}
+	pg.base.ship_strengthen_blueprint[1602] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -14720,8 +16133,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			47
 		}
-	},
-	[1603] = {
+	}
+	pg.base.ship_strengthen_blueprint[1603] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -14745,8 +16158,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			47
 		}
-	},
-	[1604] = {
+	}
+	pg.base.ship_strengthen_blueprint[1604] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -14770,8 +16183,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			47
 		}
-	},
-	[1605] = {
+	}
+	pg.base.ship_strengthen_blueprint[1605] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+289|防空+16|主炮效率提高5%|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -14811,8 +16224,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[1606] = {
+	}
+	pg.base.ship_strengthen_blueprint[1606] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -14836,8 +16249,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			94
 		}
-	},
-	[1607] = {
+	}
+	pg.base.ship_strengthen_blueprint[1607] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -14861,8 +16274,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			94
 		}
-	},
-	[1608] = {
+	}
+	pg.base.ship_strengthen_blueprint[1608] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -14886,8 +16299,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			94
 		}
-	},
-	[1609] = {
+	}
+	pg.base.ship_strengthen_blueprint[1609] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -14911,8 +16324,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			94
 		}
-	},
-	[1610] = {
+	}
+	pg.base.ship_strengthen_blueprint[1610] = {
 		effect_breakout = 499042,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -14944,8 +16357,8 @@ pg.ship_strengthen_blueprint = {
 			"主炮底座+1",
 			"裝備特殊副炮"
 		}
-	},
-	[1611] = {
+	}
+	pg.base.ship_strengthen_blueprint[1611] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -14969,8 +16382,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			141
 		}
-	},
-	[1612] = {
+	}
+	pg.base.ship_strengthen_blueprint[1612] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -14994,8 +16407,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			141
 		}
-	},
-	[1613] = {
+	}
+	pg.base.ship_strengthen_blueprint[1613] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -15019,8 +16432,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			141
 		}
-	},
-	[1614] = {
+	}
+	pg.base.ship_strengthen_blueprint[1614] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -15044,8 +16457,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			141
 		}
-	},
-	[1615] = {
+	}
+	pg.base.ship_strengthen_blueprint[1615] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+579|防空+31|防空炮效率提高10%|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -15085,8 +16498,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[1616] = {
+	}
+	pg.base.ship_strengthen_blueprint[1616] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -15110,8 +16523,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			188
 		}
-	},
-	[1617] = {
+	}
+	pg.base.ship_strengthen_blueprint[1617] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -15135,8 +16548,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			188
 		}
-	},
-	[1618] = {
+	}
+	pg.base.ship_strengthen_blueprint[1618] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -15160,8 +16573,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			188
 		}
-	},
-	[1619] = {
+	}
+	pg.base.ship_strengthen_blueprint[1619] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -15185,8 +16598,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			188
 		}
-	},
-	[1620] = {
+	}
+	pg.base.ship_strengthen_blueprint[1620] = {
 		effect_breakout = 499043,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -15217,8 +16630,8 @@ pg.ship_strengthen_blueprint = {
 			"【塞壬之敵】升級",
 			"主炮效率提高15%"
 		}
-	},
-	[1621] = {
+	}
+	pg.base.ship_strengthen_blueprint[1621] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -15242,8 +16655,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			235
 		}
-	},
-	[1622] = {
+	}
+	pg.base.ship_strengthen_blueprint[1622] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -15267,8 +16680,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			235
 		}
-	},
-	[1623] = {
+	}
+	pg.base.ship_strengthen_blueprint[1623] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -15292,8 +16705,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			235
 		}
-	},
-	[1624] = {
+	}
+	pg.base.ship_strengthen_blueprint[1624] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -15317,8 +16730,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			235
 		}
-	},
-	[1625] = {
+	}
+	pg.base.ship_strengthen_blueprint[1625] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+868|防空+47|主炮效率提高5%|鑑賞解鎖：特殊觸摸、血量警報",
 		extra_desc = "",
@@ -15357,8 +16770,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[1626] = {
+	}
+	pg.base.ship_strengthen_blueprint[1626] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -15382,8 +16795,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			235
 		}
-	},
-	[1627] = {
+	}
+	pg.base.ship_strengthen_blueprint[1627] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -15407,8 +16820,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			235
 		}
-	},
-	[1628] = {
+	}
+	pg.base.ship_strengthen_blueprint[1628] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -15432,8 +16845,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			235
 		}
-	},
-	[1629] = {
+	}
+	pg.base.ship_strengthen_blueprint[1629] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -15457,8 +16870,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			235
 		}
-	},
-	[1630] = {
+	}
+	pg.base.ship_strengthen_blueprint[1630] = {
 		effect_breakout = 499044,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -15486,8 +16899,8 @@ pg.ship_strengthen_blueprint = {
 			"主炮底座+1",
 			"主炮效率提高15%"
 		}
-	},
-	[1631] = {
+	}
+	pg.base.ship_strengthen_blueprint[1631] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+1",
 		extra_desc = "",
@@ -15516,8 +16929,8 @@ pg.ship_strengthen_blueprint = {
 				1
 			}
 		}
-	},
-	[1632] = {
+	}
+	pg.base.ship_strengthen_blueprint[1632] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+2",
 		extra_desc = "",
@@ -15546,8 +16959,8 @@ pg.ship_strengthen_blueprint = {
 				2
 			}
 		}
-	},
-	[1633] = {
+	}
+	pg.base.ship_strengthen_blueprint[1633] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+3",
 		extra_desc = "",
@@ -15576,8 +16989,8 @@ pg.ship_strengthen_blueprint = {
 				3
 			}
 		}
-	},
-	[1634] = {
+	}
+	pg.base.ship_strengthen_blueprint[1634] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+4",
 		extra_desc = "",
@@ -15606,8 +17019,8 @@ pg.ship_strengthen_blueprint = {
 				4
 			}
 		}
-	},
-	[1635] = {
+	}
+	pg.base.ship_strengthen_blueprint[1635] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+5|【貫穿之轟雷】技能強化為【貫穿之轟雷 +】",
 		extra_desc = "",
@@ -15639,8 +17052,8 @@ pg.ship_strengthen_blueprint = {
 			19340,
 			18340
 		}
-	},
-	[1701] = {
+	}
+	pg.base.ship_strengthen_blueprint[1701] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -15668,8 +17081,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[1702] = {
+	}
+	pg.base.ship_strengthen_blueprint[1702] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -15693,8 +17106,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			50
 		}
-	},
-	[1703] = {
+	}
+	pg.base.ship_strengthen_blueprint[1703] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -15718,8 +17131,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			50
 		}
-	},
-	[1704] = {
+	}
+	pg.base.ship_strengthen_blueprint[1704] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -15743,8 +17156,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			50
 		}
-	},
-	[1705] = {
+	}
+	pg.base.ship_strengthen_blueprint[1705] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+285|防空+11|主炮效率提高5%|鑑賞解鎖：主介面1、旗艦開戰、任務|主炮預裝填+1",
 		extra_desc = "",
@@ -15788,8 +17201,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[1706] = {
+	}
+	pg.base.ship_strengthen_blueprint[1706] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -15813,8 +17226,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			100
 		}
-	},
-	[1707] = {
+	}
+	pg.base.ship_strengthen_blueprint[1707] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -15838,8 +17251,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			100
 		}
-	},
-	[1708] = {
+	}
+	pg.base.ship_strengthen_blueprint[1708] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -15863,8 +17276,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			100
 		}
-	},
-	[1709] = {
+	}
+	pg.base.ship_strengthen_blueprint[1709] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -15888,8 +17301,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			100
 		}
-	},
-	[1710] = {
+	}
+	pg.base.ship_strengthen_blueprint[1710] = {
 		effect_breakout = 899022,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -15920,8 +17333,8 @@ pg.ship_strengthen_blueprint = {
 			"習得技能【塞壬之敵】",
 			"主炮效率提高5%"
 		}
-	},
-	[1711] = {
+	}
+	pg.base.ship_strengthen_blueprint[1711] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -15945,8 +17358,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			150
 		}
-	},
-	[1712] = {
+	}
+	pg.base.ship_strengthen_blueprint[1712] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -15970,8 +17383,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			150
 		}
-	},
-	[1713] = {
+	}
+	pg.base.ship_strengthen_blueprint[1713] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -15995,8 +17408,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			150
 		}
-	},
-	[1714] = {
+	}
+	pg.base.ship_strengthen_blueprint[1714] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -16020,8 +17433,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			150
 		}
-	},
-	[1715] = {
+	}
+	pg.base.ship_strengthen_blueprint[1715] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+571|防空+22|防空炮效率提高10%|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -16061,8 +17474,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[1716] = {
+	}
+	pg.base.ship_strengthen_blueprint[1716] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -16086,8 +17499,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			200
 		}
-	},
-	[1717] = {
+	}
+	pg.base.ship_strengthen_blueprint[1717] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -16111,8 +17524,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			200
 		}
-	},
-	[1718] = {
+	}
+	pg.base.ship_strengthen_blueprint[1718] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -16136,8 +17549,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			200
 		}
-	},
-	[1719] = {
+	}
+	pg.base.ship_strengthen_blueprint[1719] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -16161,8 +17574,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			200
 		}
-	},
-	[1720] = {
+	}
+	pg.base.ship_strengthen_blueprint[1720] = {
 		effect_breakout = 899023,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -16194,8 +17607,8 @@ pg.ship_strengthen_blueprint = {
 			"副炮底座+2",
 			"主炮效率提高10%"
 		}
-	},
-	[1721] = {
+	}
+	pg.base.ship_strengthen_blueprint[1721] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -16219,8 +17632,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			250
 		}
-	},
-	[1722] = {
+	}
+	pg.base.ship_strengthen_blueprint[1722] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -16244,8 +17657,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			250
 		}
-	},
-	[1723] = {
+	}
+	pg.base.ship_strengthen_blueprint[1723] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -16269,8 +17682,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			250
 		}
-	},
-	[1724] = {
+	}
+	pg.base.ship_strengthen_blueprint[1724] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -16294,8 +17707,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			250
 		}
-	},
-	[1725] = {
+	}
+	pg.base.ship_strengthen_blueprint[1725] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+856|防空+33|主炮效率提高5%|鑑賞解鎖：特殊觸摸、血量警報",
 		extra_desc = "",
@@ -16334,8 +17747,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[1726] = {
+	}
+	pg.base.ship_strengthen_blueprint[1726] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -16359,8 +17772,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			250
 		}
-	},
-	[1727] = {
+	}
+	pg.base.ship_strengthen_blueprint[1727] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -16384,8 +17797,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			250
 		}
-	},
-	[1728] = {
+	}
+	pg.base.ship_strengthen_blueprint[1728] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -16409,8 +17822,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			250
 		}
-	},
-	[1729] = {
+	}
+	pg.base.ship_strengthen_blueprint[1729] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -16434,8 +17847,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			250
 		}
-	},
-	[1730] = {
+	}
+	pg.base.ship_strengthen_blueprint[1730] = {
 		effect_breakout = 899024,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -16462,8 +17875,8 @@ pg.ship_strengthen_blueprint = {
 			"【塞壬之敵】升級",
 			"主炮效率提高15%"
 		}
-	},
-	[1731] = {
+	}
+	pg.base.ship_strengthen_blueprint[1731] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+1",
 		extra_desc = "",
@@ -16492,8 +17905,8 @@ pg.ship_strengthen_blueprint = {
 				1
 			}
 		}
-	},
-	[1732] = {
+	}
+	pg.base.ship_strengthen_blueprint[1732] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+2",
 		extra_desc = "",
@@ -16522,8 +17935,8 @@ pg.ship_strengthen_blueprint = {
 				2
 			}
 		}
-	},
-	[1733] = {
+	}
+	pg.base.ship_strengthen_blueprint[1733] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+3",
 		extra_desc = "",
@@ -16552,8 +17965,8 @@ pg.ship_strengthen_blueprint = {
 				3
 			}
 		}
-	},
-	[1734] = {
+	}
+	pg.base.ship_strengthen_blueprint[1734] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+4",
 		extra_desc = "",
@@ -16582,8 +17995,8 @@ pg.ship_strengthen_blueprint = {
 				4
 			}
 		}
-	},
-	[1735] = {
+	}
+	pg.base.ship_strengthen_blueprint[1735] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+5|【輔助機構「S.P.」】技能強化為【輔助機構「S.P.」 +】",
 		extra_desc = "",
@@ -16615,8 +18028,8 @@ pg.ship_strengthen_blueprint = {
 			19350,
 			18350
 		}
-	},
-	[1801] = {
+	}
+	pg.base.ship_strengthen_blueprint[1801] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -16644,8 +18057,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[1802] = {
+	}
+	pg.base.ship_strengthen_blueprint[1802] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -16669,8 +18082,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			45
 		}
-	},
-	[1803] = {
+	}
+	pg.base.ship_strengthen_blueprint[1803] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -16694,8 +18107,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			45
 		}
-	},
-	[1804] = {
+	}
+	pg.base.ship_strengthen_blueprint[1804] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -16719,8 +18132,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			45
 		}
-	},
-	[1805] = {
+	}
+	pg.base.ship_strengthen_blueprint[1805] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+268|防空+10|機動+5|主炮底座+1|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -16765,8 +18178,10 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[1806] = {
+	}
+end)()
+(function ()
+	pg.base.ship_strengthen_blueprint[1806] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -16790,8 +18205,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			90
 		}
-	},
-	[1807] = {
+	}
+	pg.base.ship_strengthen_blueprint[1807] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -16815,8 +18230,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			90
 		}
-	},
-	[1808] = {
+	}
+	pg.base.ship_strengthen_blueprint[1808] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -16840,8 +18255,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			90
 		}
-	},
-	[1809] = {
+	}
+	pg.base.ship_strengthen_blueprint[1809] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -16865,8 +18280,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			90
 		}
-	},
-	[1810] = {
+	}
+	pg.base.ship_strengthen_blueprint[1810] = {
 		effect_breakout = 199032,
 		effect_desc = "突破至4星|魚雷預裝填+1|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -16898,8 +18313,8 @@ pg.ship_strengthen_blueprint = {
 			"獲得專屬彈幕I",
 			"主炮效率提高5%"
 		}
-	},
-	[1811] = {
+	}
+	pg.base.ship_strengthen_blueprint[1811] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -16923,8 +18338,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			135
 		}
-	},
-	[1812] = {
+	}
+	pg.base.ship_strengthen_blueprint[1812] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -16948,8 +18363,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			135
 		}
-	},
-	[1813] = {
+	}
+	pg.base.ship_strengthen_blueprint[1813] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -16973,8 +18388,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			135
 		}
-	},
-	[1814] = {
+	}
+	pg.base.ship_strengthen_blueprint[1814] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -16998,8 +18413,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			135
 		}
-	},
-	[1815] = {
+	}
+	pg.base.ship_strengthen_blueprint[1815] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+537|防空+21|主炮效率提高10%|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -17039,8 +18454,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[1816] = {
+	}
+	pg.base.ship_strengthen_blueprint[1816] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -17064,8 +18479,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			180
 		}
-	},
-	[1817] = {
+	}
+	pg.base.ship_strengthen_blueprint[1817] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -17089,8 +18504,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			180
 		}
-	},
-	[1818] = {
+	}
+	pg.base.ship_strengthen_blueprint[1818] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -17114,8 +18529,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			180
 		}
-	},
-	[1819] = {
+	}
+	pg.base.ship_strengthen_blueprint[1819] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -17139,8 +18554,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			180
 		}
-	},
-	[1820] = {
+	}
+	pg.base.ship_strengthen_blueprint[1820] = {
 		effect_breakout = 199033,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -17171,8 +18586,8 @@ pg.ship_strengthen_blueprint = {
 			"【塞壬之敵】升級",
 			"魚雷效率提高10%"
 		}
-	},
-	[1821] = {
+	}
+	pg.base.ship_strengthen_blueprint[1821] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -17196,8 +18611,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			225
 		}
-	},
-	[1822] = {
+	}
+	pg.base.ship_strengthen_blueprint[1822] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -17221,8 +18636,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			225
 		}
-	},
-	[1823] = {
+	}
+	pg.base.ship_strengthen_blueprint[1823] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -17246,8 +18661,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			225
 		}
-	},
-	[1824] = {
+	}
+	pg.base.ship_strengthen_blueprint[1824] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -17271,8 +18686,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			225
 		}
-	},
-	[1825] = {
+	}
+	pg.base.ship_strengthen_blueprint[1825] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+805|防空+31|機動+10|鑑賞解鎖：特殊觸摸、血量警報",
 		extra_desc = "",
@@ -17312,8 +18727,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[1826] = {
+	}
+	pg.base.ship_strengthen_blueprint[1826] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -17337,8 +18752,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			225
 		}
-	},
-	[1827] = {
+	}
+	pg.base.ship_strengthen_blueprint[1827] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -17362,8 +18777,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			225
 		}
-	},
-	[1828] = {
+	}
+	pg.base.ship_strengthen_blueprint[1828] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -17387,8 +18802,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			225
 		}
-	},
-	[1829] = {
+	}
+	pg.base.ship_strengthen_blueprint[1829] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -17412,8 +18827,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			225
 		}
-	},
-	[1830] = {
+	}
+	pg.base.ship_strengthen_blueprint[1830] = {
 		effect_breakout = 199034,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -17441,8 +18856,8 @@ pg.ship_strengthen_blueprint = {
 			"專屬彈幕升級",
 			"全武器效率提高5%"
 		}
-	},
-	[1831] = {
+	}
+	pg.base.ship_strengthen_blueprint[1831] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+1",
 		extra_desc = "",
@@ -17471,8 +18886,8 @@ pg.ship_strengthen_blueprint = {
 				1
 			}
 		}
-	},
-	[1832] = {
+	}
+	pg.base.ship_strengthen_blueprint[1832] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+2",
 		extra_desc = "",
@@ -17501,8 +18916,8 @@ pg.ship_strengthen_blueprint = {
 				2
 			}
 		}
-	},
-	[1833] = {
+	}
+	pg.base.ship_strengthen_blueprint[1833] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+3",
 		extra_desc = "",
@@ -17531,8 +18946,8 @@ pg.ship_strengthen_blueprint = {
 				3
 			}
 		}
-	},
-	[1834] = {
+	}
+	pg.base.ship_strengthen_blueprint[1834] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+4",
 		extra_desc = "",
@@ -17561,8 +18976,8 @@ pg.ship_strengthen_blueprint = {
 				4
 			}
 		}
-	},
-	[1835] = {
+	}
+	pg.base.ship_strengthen_blueprint[1835] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+5|【Riddle a riddle】技能強化為【Riddle a riddle +】",
 		extra_desc = "",
@@ -17594,8 +19009,8 @@ pg.ship_strengthen_blueprint = {
 			19440,
 			18440
 		}
-	},
-	[1901] = {
+	}
+	pg.base.ship_strengthen_blueprint[1901] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -17623,8 +19038,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[1902] = {
+	}
+	pg.base.ship_strengthen_blueprint[1902] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -17648,8 +19063,8 @@ pg.ship_strengthen_blueprint = {
 			129,
 			35
 		}
-	},
-	[1903] = {
+	}
+	pg.base.ship_strengthen_blueprint[1903] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -17673,8 +19088,8 @@ pg.ship_strengthen_blueprint = {
 			129,
 			35
 		}
-	},
-	[1904] = {
+	}
+	pg.base.ship_strengthen_blueprint[1904] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -17698,8 +19113,8 @@ pg.ship_strengthen_blueprint = {
 			129,
 			35
 		}
-	},
-	[1905] = {
+	}
+	pg.base.ship_strengthen_blueprint[1905] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+346|防空+15|戰鬥機效率提高5%|所有戰鬥機+1|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -17743,8 +19158,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[1906] = {
+	}
+	pg.base.ship_strengthen_blueprint[1906] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -17768,8 +19183,8 @@ pg.ship_strengthen_blueprint = {
 			258,
 			70
 		}
-	},
-	[1907] = {
+	}
+	pg.base.ship_strengthen_blueprint[1907] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -17793,8 +19208,8 @@ pg.ship_strengthen_blueprint = {
 			258,
 			70
 		}
-	},
-	[1908] = {
+	}
+	pg.base.ship_strengthen_blueprint[1908] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -17818,8 +19233,8 @@ pg.ship_strengthen_blueprint = {
 			258,
 			70
 		}
-	},
-	[1909] = {
+	}
+	pg.base.ship_strengthen_blueprint[1909] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -17843,8 +19258,8 @@ pg.ship_strengthen_blueprint = {
 			258,
 			70
 		}
-	},
-	[1910] = {
+	}
+	pg.base.ship_strengthen_blueprint[1910] = {
 		effect_breakout = 399052,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -17876,8 +19291,8 @@ pg.ship_strengthen_blueprint = {
 			"戰鬥機效率提高5%",
 			"戰鬥機欄位可以裝備魚雷機"
 		}
-	},
-	[1911] = {
+	}
+	pg.base.ship_strengthen_blueprint[1911] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -17901,8 +19316,8 @@ pg.ship_strengthen_blueprint = {
 			387,
 			105
 		}
-	},
-	[1912] = {
+	}
+	pg.base.ship_strengthen_blueprint[1912] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -17926,8 +19341,8 @@ pg.ship_strengthen_blueprint = {
 			387,
 			105
 		}
-	},
-	[1913] = {
+	}
+	pg.base.ship_strengthen_blueprint[1913] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -17951,8 +19366,8 @@ pg.ship_strengthen_blueprint = {
 			387,
 			105
 		}
-	},
-	[1914] = {
+	}
+	pg.base.ship_strengthen_blueprint[1914] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -17976,8 +19391,8 @@ pg.ship_strengthen_blueprint = {
 			387,
 			105
 		}
-	},
-	[1915] = {
+	}
+	pg.base.ship_strengthen_blueprint[1915] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+691|防空+30|所有轟炸機+2|轟炸機效率提高10%|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -18021,8 +19436,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[1916] = {
+	}
+	pg.base.ship_strengthen_blueprint[1916] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -18046,8 +19461,8 @@ pg.ship_strengthen_blueprint = {
 			516,
 			140
 		}
-	},
-	[1917] = {
+	}
+	pg.base.ship_strengthen_blueprint[1917] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -18071,8 +19486,8 @@ pg.ship_strengthen_blueprint = {
 			516,
 			140
 		}
-	},
-	[1918] = {
+	}
+	pg.base.ship_strengthen_blueprint[1918] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -18096,8 +19511,8 @@ pg.ship_strengthen_blueprint = {
 			516,
 			140
 		}
-	},
-	[1919] = {
+	}
+	pg.base.ship_strengthen_blueprint[1919] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -18121,8 +19536,8 @@ pg.ship_strengthen_blueprint = {
 			516,
 			140
 		}
-	},
-	[1920] = {
+	}
+	pg.base.ship_strengthen_blueprint[1920] = {
 		effect_breakout = 399053,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -18154,8 +19569,8 @@ pg.ship_strengthen_blueprint = {
 			"機庫容量+1",
 			"轟炸機效率提高10%"
 		}
-	},
-	[1921] = {
+	}
+	pg.base.ship_strengthen_blueprint[1921] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -18179,8 +19594,8 @@ pg.ship_strengthen_blueprint = {
 			645,
 			175
 		}
-	},
-	[1922] = {
+	}
+	pg.base.ship_strengthen_blueprint[1922] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -18204,8 +19619,8 @@ pg.ship_strengthen_blueprint = {
 			645,
 			175
 		}
-	},
-	[1923] = {
+	}
+	pg.base.ship_strengthen_blueprint[1923] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -18229,8 +19644,8 @@ pg.ship_strengthen_blueprint = {
 			645,
 			175
 		}
-	},
-	[1924] = {
+	}
+	pg.base.ship_strengthen_blueprint[1924] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -18254,8 +19669,8 @@ pg.ship_strengthen_blueprint = {
 			645,
 			175
 		}
-	},
-	[1925] = {
+	}
+	pg.base.ship_strengthen_blueprint[1925] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+1037|防空+45|魚雷機效率提高5%|所有艦載機+1|鑑賞解鎖：特殊觸摸、血量警報",
 		extra_desc = "",
@@ -18298,8 +19713,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[1926] = {
+	}
+	pg.base.ship_strengthen_blueprint[1926] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -18323,8 +19738,8 @@ pg.ship_strengthen_blueprint = {
 			645,
 			175
 		}
-	},
-	[1927] = {
+	}
+	pg.base.ship_strengthen_blueprint[1927] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -18348,8 +19763,8 @@ pg.ship_strengthen_blueprint = {
 			645,
 			175
 		}
-	},
-	[1928] = {
+	}
+	pg.base.ship_strengthen_blueprint[1928] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -18373,8 +19788,8 @@ pg.ship_strengthen_blueprint = {
 			645,
 			175
 		}
-	},
-	[1929] = {
+	}
+	pg.base.ship_strengthen_blueprint[1929] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -18398,8 +19813,8 @@ pg.ship_strengthen_blueprint = {
 			645,
 			175
 		}
-	},
-	[1930] = {
+	}
+	pg.base.ship_strengthen_blueprint[1930] = {
 		effect_breakout = 399054,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -18427,8 +19842,8 @@ pg.ship_strengthen_blueprint = {
 			"艦載機效率提高5%",
 			"魚雷機欄位可以裝備轟炸機"
 		}
-	},
-	[1931] = {
+	}
+	pg.base.ship_strengthen_blueprint[1931] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+3",
 		extra_desc = "",
@@ -18457,8 +19872,8 @@ pg.ship_strengthen_blueprint = {
 				3
 			}
 		}
-	},
-	[1932] = {
+	}
+	pg.base.ship_strengthen_blueprint[1932] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+4",
 		extra_desc = "",
@@ -18487,8 +19902,8 @@ pg.ship_strengthen_blueprint = {
 				4
 			}
 		}
-	},
-	[1933] = {
+	}
+	pg.base.ship_strengthen_blueprint[1933] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+5|【白龍雲影】技能強化為【白龍雲影 +】",
 		extra_desc = "",
@@ -18520,8 +19935,8 @@ pg.ship_strengthen_blueprint = {
 			19400,
 			18400
 		}
-	},
-	[1934] = {
+	}
+	pg.base.ship_strengthen_blueprint[1934] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+6",
 		extra_desc = "",
@@ -18550,8 +19965,8 @@ pg.ship_strengthen_blueprint = {
 				6
 			}
 		}
-	},
-	[1935] = {
+	}
+	pg.base.ship_strengthen_blueprint[1935] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+7|【天雷罪滅】技能強化為【天雷罪滅 +】",
 		extra_desc = "",
@@ -18583,8 +19998,8 @@ pg.ship_strengthen_blueprint = {
 			19380,
 			18380
 		}
-	},
-	[2001] = {
+	}
+	pg.base.ship_strengthen_blueprint[2001] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -18612,8 +20027,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[2002] = {
+	}
+	pg.base.ship_strengthen_blueprint[2002] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -18637,8 +20052,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			46
 		}
-	},
-	[2003] = {
+	}
+	pg.base.ship_strengthen_blueprint[2003] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -18662,8 +20077,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			46
 		}
-	},
-	[2004] = {
+	}
+	pg.base.ship_strengthen_blueprint[2004] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -18687,8 +20102,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			46
 		}
-	},
-	[2005] = {
+	}
+	pg.base.ship_strengthen_blueprint[2005] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+338|防空+12|主炮效率提高5%|主炮底座+1|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -18732,8 +20147,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[2006] = {
+	}
+	pg.base.ship_strengthen_blueprint[2006] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -18757,8 +20172,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			92
 		}
-	},
-	[2007] = {
+	}
+	pg.base.ship_strengthen_blueprint[2007] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -18782,8 +20197,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			92
 		}
-	},
-	[2008] = {
+	}
+	pg.base.ship_strengthen_blueprint[2008] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -18807,8 +20222,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			92
 		}
-	},
-	[2009] = {
+	}
+	pg.base.ship_strengthen_blueprint[2009] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -18832,8 +20247,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			92
 		}
-	},
-	[2010] = {
+	}
+	pg.base.ship_strengthen_blueprint[2010] = {
 		effect_breakout = 499052,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -18865,8 +20280,8 @@ pg.ship_strengthen_blueprint = {
 			"主炮效率提高5%",
 			"裝備特殊副炮"
 		}
-	},
-	[2011] = {
+	}
+	pg.base.ship_strengthen_blueprint[2011] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -18890,8 +20305,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			138
 		}
-	},
-	[2012] = {
+	}
+	pg.base.ship_strengthen_blueprint[2012] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -18915,8 +20330,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			138
 		}
-	},
-	[2013] = {
+	}
+	pg.base.ship_strengthen_blueprint[2013] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -18940,8 +20355,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			138
 		}
-	},
-	[2014] = {
+	}
+	pg.base.ship_strengthen_blueprint[2014] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -18965,8 +20380,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			138
 		}
-	},
-	[2015] = {
+	}
+	pg.base.ship_strengthen_blueprint[2015] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+675|防空+23|防空炮效率提高10%|魚雷預裝填+1|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -19010,8 +20425,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[2016] = {
+	}
+	pg.base.ship_strengthen_blueprint[2016] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -19035,8 +20450,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			184
 		}
-	},
-	[2017] = {
+	}
+	pg.base.ship_strengthen_blueprint[2017] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -19060,8 +20475,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			184
 		}
-	},
-	[2018] = {
+	}
+	pg.base.ship_strengthen_blueprint[2018] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -19085,8 +20500,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			184
 		}
-	},
-	[2019] = {
+	}
+	pg.base.ship_strengthen_blueprint[2019] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -19110,8 +20525,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			184
 		}
-	},
-	[2020] = {
+	}
+	pg.base.ship_strengthen_blueprint[2020] = {
 		effect_breakout = 499053,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -19142,8 +20557,8 @@ pg.ship_strengthen_blueprint = {
 			"【塞壬之敵】升級",
 			"魚雷效率提高10%"
 		}
-	},
-	[2021] = {
+	}
+	pg.base.ship_strengthen_blueprint[2021] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -19167,8 +20582,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[2022] = {
+	}
+	pg.base.ship_strengthen_blueprint[2022] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -19192,8 +20607,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[2023] = {
+	}
+	pg.base.ship_strengthen_blueprint[2023] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -19217,8 +20632,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[2024] = {
+	}
+	pg.base.ship_strengthen_blueprint[2024] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -19242,8 +20657,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[2025] = {
+	}
+	pg.base.ship_strengthen_blueprint[2025] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+1014|防空+34|機動+5|主炮效率提高5%|鑑賞解鎖：特殊觸摸、血量警報",
 		extra_desc = "",
@@ -19286,8 +20701,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[2026] = {
+	}
+	pg.base.ship_strengthen_blueprint[2026] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -19311,8 +20726,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[2027] = {
+	}
+	pg.base.ship_strengthen_blueprint[2027] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -19336,8 +20751,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[2028] = {
+	}
+	pg.base.ship_strengthen_blueprint[2028] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -19361,8 +20776,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[2029] = {
+	}
+	pg.base.ship_strengthen_blueprint[2029] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -19386,8 +20801,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[2030] = {
+	}
+	pg.base.ship_strengthen_blueprint[2030] = {
 		effect_breakout = 499054,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -19414,8 +20829,8 @@ pg.ship_strengthen_blueprint = {
 			"【塞壬之敵】升級",
 			"主炮效率提高15%"
 		}
-	},
-	[2101] = {
+	}
+	pg.base.ship_strengthen_blueprint[2101] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -19443,8 +20858,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[2102] = {
+	}
+	pg.base.ship_strengthen_blueprint[2102] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -19468,8 +20883,8 @@ pg.ship_strengthen_blueprint = {
 			122,
 			33
 		}
-	},
-	[2103] = {
+	}
+	pg.base.ship_strengthen_blueprint[2103] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -19493,8 +20908,8 @@ pg.ship_strengthen_blueprint = {
 			122,
 			33
 		}
-	},
-	[2104] = {
+	}
+	pg.base.ship_strengthen_blueprint[2104] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -19518,8 +20933,8 @@ pg.ship_strengthen_blueprint = {
 			122,
 			33
 		}
-	},
-	[2105] = {
+	}
+	pg.base.ship_strengthen_blueprint[2105] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+310|防空+15|戰鬥機效率提高5%|所有轟炸機+1|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -19563,8 +20978,10 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[2106] = {
+	}
+end)()
+(function ()
+	pg.base.ship_strengthen_blueprint[2106] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -19588,8 +21005,8 @@ pg.ship_strengthen_blueprint = {
 			244,
 			66
 		}
-	},
-	[2107] = {
+	}
+	pg.base.ship_strengthen_blueprint[2107] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -19613,8 +21030,8 @@ pg.ship_strengthen_blueprint = {
 			244,
 			66
 		}
-	},
-	[2108] = {
+	}
+	pg.base.ship_strengthen_blueprint[2108] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -19638,8 +21055,8 @@ pg.ship_strengthen_blueprint = {
 			244,
 			66
 		}
-	},
-	[2109] = {
+	}
+	pg.base.ship_strengthen_blueprint[2109] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -19663,8 +21080,8 @@ pg.ship_strengthen_blueprint = {
 			244,
 			66
 		}
-	},
-	[2110] = {
+	}
+	pg.base.ship_strengthen_blueprint[2110] = {
 		effect_breakout = 499062,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -19695,8 +21112,8 @@ pg.ship_strengthen_blueprint = {
 			"習得技能【塞壬之敵】",
 			"戰鬥機效率提高5%"
 		}
-	},
-	[2111] = {
+	}
+	pg.base.ship_strengthen_blueprint[2111] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -19720,8 +21137,8 @@ pg.ship_strengthen_blueprint = {
 			366,
 			99
 		}
-	},
-	[2112] = {
+	}
+	pg.base.ship_strengthen_blueprint[2112] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -19745,8 +21162,8 @@ pg.ship_strengthen_blueprint = {
 			366,
 			99
 		}
-	},
-	[2113] = {
+	}
+	pg.base.ship_strengthen_blueprint[2113] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -19770,8 +21187,8 @@ pg.ship_strengthen_blueprint = {
 			366,
 			99
 		}
-	},
-	[2114] = {
+	}
+	pg.base.ship_strengthen_blueprint[2114] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -19795,8 +21212,8 @@ pg.ship_strengthen_blueprint = {
 			366,
 			99
 		}
-	},
-	[2115] = {
+	}
+	pg.base.ship_strengthen_blueprint[2115] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+621|防空+30|魚雷機效率提高5%|所有魚雷機+1|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -19840,8 +21257,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[2116] = {
+	}
+	pg.base.ship_strengthen_blueprint[2116] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -19865,8 +21282,8 @@ pg.ship_strengthen_blueprint = {
 			488,
 			132
 		}
-	},
-	[2117] = {
+	}
+	pg.base.ship_strengthen_blueprint[2117] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -19890,8 +21307,8 @@ pg.ship_strengthen_blueprint = {
 			488,
 			132
 		}
-	},
-	[2118] = {
+	}
+	pg.base.ship_strengthen_blueprint[2118] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -19915,8 +21332,8 @@ pg.ship_strengthen_blueprint = {
 			488,
 			132
 		}
-	},
-	[2119] = {
+	}
+	pg.base.ship_strengthen_blueprint[2119] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -19940,8 +21357,8 @@ pg.ship_strengthen_blueprint = {
 			488,
 			132
 		}
-	},
-	[2120] = {
+	}
+	pg.base.ship_strengthen_blueprint[2120] = {
 		effect_breakout = 499063,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -19973,8 +21390,8 @@ pg.ship_strengthen_blueprint = {
 			"機庫容量+1",
 			"魚雷機效率提高10%"
 		}
-	},
-	[2121] = {
+	}
+	pg.base.ship_strengthen_blueprint[2121] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -19998,8 +21415,8 @@ pg.ship_strengthen_blueprint = {
 			610,
 			165
 		}
-	},
-	[2122] = {
+	}
+	pg.base.ship_strengthen_blueprint[2122] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -20023,8 +21440,8 @@ pg.ship_strengthen_blueprint = {
 			610,
 			165
 		}
-	},
-	[2123] = {
+	}
+	pg.base.ship_strengthen_blueprint[2123] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -20048,8 +21465,8 @@ pg.ship_strengthen_blueprint = {
 			610,
 			165
 		}
-	},
-	[2124] = {
+	}
+	pg.base.ship_strengthen_blueprint[2124] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -20073,8 +21490,8 @@ pg.ship_strengthen_blueprint = {
 			610,
 			165
 		}
-	},
-	[2125] = {
+	}
+	pg.base.ship_strengthen_blueprint[2125] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+931|防空+46|所有艦載機+1|戰鬥機效率提高5%|鑑賞解鎖：特殊觸摸、血量警報",
 		extra_desc = "",
@@ -20117,8 +21534,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[2126] = {
+	}
+	pg.base.ship_strengthen_blueprint[2126] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -20142,8 +21559,8 @@ pg.ship_strengthen_blueprint = {
 			610,
 			165
 		}
-	},
-	[2127] = {
+	}
+	pg.base.ship_strengthen_blueprint[2127] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -20167,8 +21584,8 @@ pg.ship_strengthen_blueprint = {
 			610,
 			165
 		}
-	},
-	[2128] = {
+	}
+	pg.base.ship_strengthen_blueprint[2128] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -20192,8 +21609,8 @@ pg.ship_strengthen_blueprint = {
 			610,
 			165
 		}
-	},
-	[2129] = {
+	}
+	pg.base.ship_strengthen_blueprint[2129] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -20217,8 +21634,8 @@ pg.ship_strengthen_blueprint = {
 			610,
 			165
 		}
-	},
-	[2130] = {
+	}
+	pg.base.ship_strengthen_blueprint[2130] = {
 		effect_breakout = 499064,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -20245,8 +21662,8 @@ pg.ship_strengthen_blueprint = {
 			"【塞壬之敵】升級",
 			"艦載機效率提高5%"
 		}
-	},
-	[2131] = {
+	}
+	pg.base.ship_strengthen_blueprint[2131] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+1",
 		extra_desc = "",
@@ -20275,8 +21692,8 @@ pg.ship_strengthen_blueprint = {
 				1
 			}
 		}
-	},
-	[2132] = {
+	}
+	pg.base.ship_strengthen_blueprint[2132] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+2",
 		extra_desc = "",
@@ -20305,8 +21722,8 @@ pg.ship_strengthen_blueprint = {
 				2
 			}
 		}
-	},
-	[2133] = {
+	}
+	pg.base.ship_strengthen_blueprint[2133] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+3",
 		extra_desc = "",
@@ -20335,8 +21752,8 @@ pg.ship_strengthen_blueprint = {
 				3
 			}
 		}
-	},
-	[2134] = {
+	}
+	pg.base.ship_strengthen_blueprint[2134] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+4",
 		extra_desc = "",
@@ -20365,8 +21782,8 @@ pg.ship_strengthen_blueprint = {
 				4
 			}
 		}
-	},
-	[2135] = {
+	}
+	pg.base.ship_strengthen_blueprint[2135] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+5|【洞察技術-思想掌握】技能強化為【洞察技術-思想掌握 +】",
 		extra_desc = "",
@@ -20398,8 +21815,8 @@ pg.ship_strengthen_blueprint = {
 			19460,
 			18460
 		}
-	},
-	[2201] = {
+	}
+	pg.base.ship_strengthen_blueprint[2201] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -20427,8 +21844,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[2202] = {
+	}
+	pg.base.ship_strengthen_blueprint[2202] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -20452,8 +21869,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			43
 		}
-	},
-	[2203] = {
+	}
+	pg.base.ship_strengthen_blueprint[2203] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -20477,8 +21894,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			43
 		}
-	},
-	[2204] = {
+	}
+	pg.base.ship_strengthen_blueprint[2204] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -20502,8 +21919,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			43
 		}
-	},
-	[2205] = {
+	}
+	pg.base.ship_strengthen_blueprint[2205] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+344|防空+12|主炮效率提高5%|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -20543,8 +21960,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[2206] = {
+	}
+	pg.base.ship_strengthen_blueprint[2206] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -20568,8 +21985,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			86
 		}
-	},
-	[2207] = {
+	}
+	pg.base.ship_strengthen_blueprint[2207] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -20593,8 +22010,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			86
 		}
-	},
-	[2208] = {
+	}
+	pg.base.ship_strengthen_blueprint[2208] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -20618,8 +22035,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			86
 		}
-	},
-	[2209] = {
+	}
+	pg.base.ship_strengthen_blueprint[2209] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -20643,8 +22060,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			86
 		}
-	},
-	[2210] = {
+	}
+	pg.base.ship_strengthen_blueprint[2210] = {
 		effect_breakout = 699012,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -20676,8 +22093,8 @@ pg.ship_strengthen_blueprint = {
 			"主炮底座+1",
 			"主炮效率提高5%"
 		}
-	},
-	[2211] = {
+	}
+	pg.base.ship_strengthen_blueprint[2211] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -20701,8 +22118,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			129
 		}
-	},
-	[2212] = {
+	}
+	pg.base.ship_strengthen_blueprint[2212] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -20726,8 +22143,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			129
 		}
-	},
-	[2213] = {
+	}
+	pg.base.ship_strengthen_blueprint[2213] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -20751,8 +22168,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			129
 		}
-	},
-	[2214] = {
+	}
+	pg.base.ship_strengthen_blueprint[2214] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -20776,8 +22193,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			129
 		}
-	},
-	[2215] = {
+	}
+	pg.base.ship_strengthen_blueprint[2215] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+688|防空+24|防空炮效率提高10%|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -20817,8 +22234,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[2216] = {
+	}
+	pg.base.ship_strengthen_blueprint[2216] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -20842,8 +22259,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			172
 		}
-	},
-	[2217] = {
+	}
+	pg.base.ship_strengthen_blueprint[2217] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -20867,8 +22284,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			172
 		}
-	},
-	[2218] = {
+	}
+	pg.base.ship_strengthen_blueprint[2218] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -20892,8 +22309,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			172
 		}
-	},
-	[2219] = {
+	}
+	pg.base.ship_strengthen_blueprint[2219] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -20917,8 +22334,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			172
 		}
-	},
-	[2220] = {
+	}
+	pg.base.ship_strengthen_blueprint[2220] = {
 		effect_breakout = 699013,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -20950,8 +22367,8 @@ pg.ship_strengthen_blueprint = {
 			"副炮底座+2",
 			"主炮效率提高10%"
 		}
-	},
-	[2221] = {
+	}
+	pg.base.ship_strengthen_blueprint[2221] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -20975,8 +22392,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[2222] = {
+	}
+	pg.base.ship_strengthen_blueprint[2222] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -21000,8 +22417,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[2223] = {
+	}
+	pg.base.ship_strengthen_blueprint[2223] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -21025,8 +22442,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[2224] = {
+	}
+	pg.base.ship_strengthen_blueprint[2224] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -21050,8 +22467,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[2225] = {
+	}
+	pg.base.ship_strengthen_blueprint[2225] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+1032|防空+35|主炮效率提高5%|鑑賞解鎖：特殊觸摸、血量警報",
 		extra_desc = "",
@@ -21090,8 +22507,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[2226] = {
+	}
+	pg.base.ship_strengthen_blueprint[2226] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -21115,8 +22532,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[2227] = {
+	}
+	pg.base.ship_strengthen_blueprint[2227] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -21140,8 +22557,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[2228] = {
+	}
+	pg.base.ship_strengthen_blueprint[2228] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -21165,8 +22582,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[2229] = {
+	}
+	pg.base.ship_strengthen_blueprint[2229] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -21190,8 +22607,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[2230] = {
+	}
+	pg.base.ship_strengthen_blueprint[2230] = {
 		effect_breakout = 699014,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -21219,8 +22636,8 @@ pg.ship_strengthen_blueprint = {
 			"主炮底座+1",
 			"主炮效率提高15%"
 		}
-	},
-	[2231] = {
+	}
+	pg.base.ship_strengthen_blueprint[2231] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+1",
 		extra_desc = "",
@@ -21249,8 +22666,8 @@ pg.ship_strengthen_blueprint = {
 				1
 			}
 		}
-	},
-	[2232] = {
+	}
+	pg.base.ship_strengthen_blueprint[2232] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+2",
 		extra_desc = "",
@@ -21279,8 +22696,8 @@ pg.ship_strengthen_blueprint = {
 				2
 			}
 		}
-	},
-	[2233] = {
+	}
+	pg.base.ship_strengthen_blueprint[2233] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+3",
 		extra_desc = "",
@@ -21309,8 +22726,8 @@ pg.ship_strengthen_blueprint = {
 				3
 			}
 		}
-	},
-	[2234] = {
+	}
+	pg.base.ship_strengthen_blueprint[2234] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+4",
 		extra_desc = "",
@@ -21339,8 +22756,8 @@ pg.ship_strengthen_blueprint = {
 				4
 			}
 		}
-	},
-	[2235] = {
+	}
+	pg.base.ship_strengthen_blueprint[2235] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+5|【野心與恩澤之威】技能強化為【野心與恩澤之威 +】",
 		extra_desc = "",
@@ -21372,8 +22789,8 @@ pg.ship_strengthen_blueprint = {
 			19500,
 			18500
 		}
-	},
-	[2301] = {
+	}
+	pg.base.ship_strengthen_blueprint[2301] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -21401,8 +22818,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[2302] = {
+	}
+	pg.base.ship_strengthen_blueprint[2302] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -21426,8 +22843,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			49
 		}
-	},
-	[2303] = {
+	}
+	pg.base.ship_strengthen_blueprint[2303] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -21451,8 +22868,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			49
 		}
-	},
-	[2304] = {
+	}
+	pg.base.ship_strengthen_blueprint[2304] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -21476,8 +22893,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			49
 		}
-	},
-	[2305] = {
+	}
+	pg.base.ship_strengthen_blueprint[2305] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+227|防空+16|主炮底座+1|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -21518,8 +22935,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[2306] = {
+	}
+	pg.base.ship_strengthen_blueprint[2306] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -21543,8 +22960,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			98
 		}
-	},
-	[2307] = {
+	}
+	pg.base.ship_strengthen_blueprint[2307] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -21568,8 +22985,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			98
 		}
-	},
-	[2308] = {
+	}
+	pg.base.ship_strengthen_blueprint[2308] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -21593,8 +23010,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			98
 		}
-	},
-	[2309] = {
+	}
+	pg.base.ship_strengthen_blueprint[2309] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -21618,8 +23035,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			98
 		}
-	},
-	[2310] = {
+	}
+	pg.base.ship_strengthen_blueprint[2310] = {
 		effect_breakout = 299052,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -21651,8 +23068,8 @@ pg.ship_strengthen_blueprint = {
 			"獲得專屬彈幕I",
 			"主炮效率提高5%"
 		}
-	},
-	[2311] = {
+	}
+	pg.base.ship_strengthen_blueprint[2311] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -21676,8 +23093,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			147
 		}
-	},
-	[2312] = {
+	}
+	pg.base.ship_strengthen_blueprint[2312] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -21701,8 +23118,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			147
 		}
-	},
-	[2313] = {
+	}
+	pg.base.ship_strengthen_blueprint[2313] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -21726,8 +23143,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			147
 		}
-	},
-	[2314] = {
+	}
+	pg.base.ship_strengthen_blueprint[2314] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -21751,8 +23168,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			147
 		}
-	},
-	[2315] = {
+	}
+	pg.base.ship_strengthen_blueprint[2315] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+453|防空+31|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -21789,8 +23206,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[2316] = {
+	}
+	pg.base.ship_strengthen_blueprint[2316] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -21814,8 +23231,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			196
 		}
-	},
-	[2317] = {
+	}
+	pg.base.ship_strengthen_blueprint[2317] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -21839,8 +23256,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			196
 		}
-	},
-	[2318] = {
+	}
+	pg.base.ship_strengthen_blueprint[2318] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -21864,8 +23281,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			196
 		}
-	},
-	[2319] = {
+	}
+	pg.base.ship_strengthen_blueprint[2319] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -21889,8 +23306,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			196
 		}
-	},
-	[2320] = {
+	}
+	pg.base.ship_strengthen_blueprint[2320] = {
 		effect_breakout = 299053,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -21921,8 +23338,8 @@ pg.ship_strengthen_blueprint = {
 			"【塞壬之敵】升級",
 			"主炮效率提高10%"
 		}
-	},
-	[2321] = {
+	}
+	pg.base.ship_strengthen_blueprint[2321] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -21946,8 +23363,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			245
 		}
-	},
-	[2322] = {
+	}
+	pg.base.ship_strengthen_blueprint[2322] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -21971,8 +23388,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			245
 		}
-	},
-	[2323] = {
+	}
+	pg.base.ship_strengthen_blueprint[2323] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -21996,8 +23413,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			245
 		}
-	},
-	[2324] = {
+	}
+	pg.base.ship_strengthen_blueprint[2324] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -22021,8 +23438,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			245
 		}
-	},
-	[2325] = {
+	}
+	pg.base.ship_strengthen_blueprint[2325] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+681|防空+46|主炮效率提高15%|鑑賞解鎖：血量警報",
 		extra_desc = "",
@@ -22061,8 +23478,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[2326] = {
+	}
+	pg.base.ship_strengthen_blueprint[2326] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -22086,8 +23503,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			245
 		}
-	},
-	[2327] = {
+	}
+	pg.base.ship_strengthen_blueprint[2327] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -22111,8 +23528,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			245
 		}
-	},
-	[2328] = {
+	}
+	pg.base.ship_strengthen_blueprint[2328] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -22136,8 +23553,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			245
 		}
-	},
-	[2329] = {
+	}
+	pg.base.ship_strengthen_blueprint[2329] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -22161,8 +23578,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			245
 		}
-	},
-	[2330] = {
+	}
+	pg.base.ship_strengthen_blueprint[2330] = {
 		effect_breakout = 299054,
 		effect_desc = "突破至6星|主炮底座+1",
 		effect_attr = "",
@@ -22193,8 +23610,8 @@ pg.ship_strengthen_blueprint = {
 			"【塞壬之敵】升級",
 			"專屬彈幕升級"
 		}
-	},
-	[2401] = {
+	}
+	pg.base.ship_strengthen_blueprint[2401] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -22222,8 +23639,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[2402] = {
+	}
+	pg.base.ship_strengthen_blueprint[2402] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -22247,8 +23664,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			41
 		}
-	},
-	[2403] = {
+	}
+	pg.base.ship_strengthen_blueprint[2403] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -22272,8 +23689,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			41
 		}
-	},
-	[2404] = {
+	}
+	pg.base.ship_strengthen_blueprint[2404] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -22297,8 +23714,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			41
 		}
-	},
-	[2405] = {
+	}
+	pg.base.ship_strengthen_blueprint[2405] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+344|防空+15|主炮效率提高5%|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -22338,8 +23755,10 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[2406] = {
+	}
+end)()
+(function ()
+	pg.base.ship_strengthen_blueprint[2406] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -22363,8 +23782,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			82
 		}
-	},
-	[2407] = {
+	}
+	pg.base.ship_strengthen_blueprint[2407] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -22388,8 +23807,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			82
 		}
-	},
-	[2408] = {
+	}
+	pg.base.ship_strengthen_blueprint[2408] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -22413,8 +23832,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			82
 		}
-	},
-	[2409] = {
+	}
+	pg.base.ship_strengthen_blueprint[2409] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -22438,8 +23857,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			82
 		}
-	},
-	[2410] = {
+	}
+	pg.base.ship_strengthen_blueprint[2410] = {
 		effect_breakout = 499072,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -22470,8 +23889,8 @@ pg.ship_strengthen_blueprint = {
 			"習得技能【塞壬之敵】",
 			"主炮底座+1"
 		}
-	},
-	[2411] = {
+	}
+	pg.base.ship_strengthen_blueprint[2411] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -22495,8 +23914,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			123
 		}
-	},
-	[2412] = {
+	}
+	pg.base.ship_strengthen_blueprint[2412] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -22520,8 +23939,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			123
 		}
-	},
-	[2413] = {
+	}
+	pg.base.ship_strengthen_blueprint[2413] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -22545,8 +23964,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			123
 		}
-	},
-	[2414] = {
+	}
+	pg.base.ship_strengthen_blueprint[2414] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -22570,8 +23989,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			123
 		}
-	},
-	[2415] = {
+	}
+	pg.base.ship_strengthen_blueprint[2415] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+688|防空+29|防空炮效率提高10%|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -22611,8 +24030,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[2416] = {
+	}
+	pg.base.ship_strengthen_blueprint[2416] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -22636,8 +24055,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			164
 		}
-	},
-	[2417] = {
+	}
+	pg.base.ship_strengthen_blueprint[2417] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -22661,8 +24080,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			164
 		}
-	},
-	[2418] = {
+	}
+	pg.base.ship_strengthen_blueprint[2418] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -22686,8 +24105,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			164
 		}
-	},
-	[2419] = {
+	}
+	pg.base.ship_strengthen_blueprint[2419] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -22711,8 +24130,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			164
 		}
-	},
-	[2420] = {
+	}
+	pg.base.ship_strengthen_blueprint[2420] = {
 		effect_breakout = 499073,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -22744,8 +24163,8 @@ pg.ship_strengthen_blueprint = {
 			"副炮底座+1",
 			"主炮效率提高10%"
 		}
-	},
-	[2421] = {
+	}
+	pg.base.ship_strengthen_blueprint[2421] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -22769,8 +24188,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			205
 		}
-	},
-	[2422] = {
+	}
+	pg.base.ship_strengthen_blueprint[2422] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -22794,8 +24213,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			205
 		}
-	},
-	[2423] = {
+	}
+	pg.base.ship_strengthen_blueprint[2423] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -22819,8 +24238,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			205
 		}
-	},
-	[2424] = {
+	}
+	pg.base.ship_strengthen_blueprint[2424] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -22844,8 +24263,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			205
 		}
-	},
-	[2425] = {
+	}
+	pg.base.ship_strengthen_blueprint[2425] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+1032|防空+45|鑑賞解鎖：血量警報",
 		extra_desc = "",
@@ -22881,8 +24300,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[2426] = {
+	}
+	pg.base.ship_strengthen_blueprint[2426] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -22906,8 +24325,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			205
 		}
-	},
-	[2427] = {
+	}
+	pg.base.ship_strengthen_blueprint[2427] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -22931,8 +24350,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			205
 		}
-	},
-	[2428] = {
+	}
+	pg.base.ship_strengthen_blueprint[2428] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -22956,8 +24375,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			205
 		}
-	},
-	[2429] = {
+	}
+	pg.base.ship_strengthen_blueprint[2429] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -22981,8 +24400,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			205
 		}
-	},
-	[2430] = {
+	}
+	pg.base.ship_strengthen_blueprint[2430] = {
 		effect_breakout = 499074,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -23010,8 +24429,8 @@ pg.ship_strengthen_blueprint = {
 			"主炮底座+1",
 			"主炮效率提高15%"
 		}
-	},
-	[2431] = {
+	}
+	pg.base.ship_strengthen_blueprint[2431] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+1",
 		extra_desc = "",
@@ -23040,8 +24459,8 @@ pg.ship_strengthen_blueprint = {
 				1
 			}
 		}
-	},
-	[2432] = {
+	}
+	pg.base.ship_strengthen_blueprint[2432] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+2",
 		extra_desc = "",
@@ -23070,8 +24489,8 @@ pg.ship_strengthen_blueprint = {
 				2
 			}
 		}
-	},
-	[2433] = {
+	}
+	pg.base.ship_strengthen_blueprint[2433] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+3",
 		extra_desc = "",
@@ -23100,8 +24519,8 @@ pg.ship_strengthen_blueprint = {
 				3
 			}
 		}
-	},
-	[2434] = {
+	}
+	pg.base.ship_strengthen_blueprint[2434] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+4",
 		extra_desc = "",
@@ -23130,8 +24549,8 @@ pg.ship_strengthen_blueprint = {
 				4
 			}
 		}
-	},
-	[2435] = {
+	}
+	pg.base.ship_strengthen_blueprint[2435] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+5|【邪龍艦裝·欲求之刃】技能強化為【邪龍艦裝·欲求之刃 +】",
 		extra_desc = "",
@@ -23163,8 +24582,8 @@ pg.ship_strengthen_blueprint = {
 			19550,
 			18550
 		}
-	},
-	[2501] = {
+	}
+	pg.base.ship_strengthen_blueprint[2501] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -23192,8 +24611,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[2502] = {
+	}
+	pg.base.ship_strengthen_blueprint[2502] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -23217,8 +24636,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			53
 		}
-	},
-	[2503] = {
+	}
+	pg.base.ship_strengthen_blueprint[2503] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -23242,8 +24661,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			53
 		}
-	},
-	[2504] = {
+	}
+	pg.base.ship_strengthen_blueprint[2504] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -23267,8 +24686,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			53
 		}
-	},
-	[2505] = {
+	}
+	pg.base.ship_strengthen_blueprint[2505] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+152|防空+19|魚雷底座+1|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -23309,8 +24728,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[2506] = {
+	}
+	pg.base.ship_strengthen_blueprint[2506] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -23334,8 +24753,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			106
 		}
-	},
-	[2507] = {
+	}
+	pg.base.ship_strengthen_blueprint[2507] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -23359,8 +24778,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			106
 		}
-	},
-	[2508] = {
+	}
+	pg.base.ship_strengthen_blueprint[2508] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -23384,8 +24803,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			106
 		}
-	},
-	[2509] = {
+	}
+	pg.base.ship_strengthen_blueprint[2509] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -23409,8 +24828,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			106
 		}
-	},
-	[2510] = {
+	}
+	pg.base.ship_strengthen_blueprint[2510] = {
 		effect_breakout = 599012,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -23443,8 +24862,8 @@ pg.ship_strengthen_blueprint = {
 			"魚雷效率提高5%",
 			"魚雷預裝填+1"
 		}
-	},
-	[2511] = {
+	}
+	pg.base.ship_strengthen_blueprint[2511] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -23468,8 +24887,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			159
 		}
-	},
-	[2512] = {
+	}
+	pg.base.ship_strengthen_blueprint[2512] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -23493,8 +24912,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			159
 		}
-	},
-	[2513] = {
+	}
+	pg.base.ship_strengthen_blueprint[2513] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -23518,8 +24937,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			159
 		}
-	},
-	[2514] = {
+	}
+	pg.base.ship_strengthen_blueprint[2514] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -23543,8 +24962,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			159
 		}
-	},
-	[2515] = {
+	}
+	pg.base.ship_strengthen_blueprint[2515] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+305|防空+38|魚雷效率提高10%|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -23584,8 +25003,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[2516] = {
+	}
+	pg.base.ship_strengthen_blueprint[2516] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -23609,8 +25028,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			212
 		}
-	},
-	[2517] = {
+	}
+	pg.base.ship_strengthen_blueprint[2517] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -23634,8 +25053,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			212
 		}
-	},
-	[2518] = {
+	}
+	pg.base.ship_strengthen_blueprint[2518] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -23659,8 +25078,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			212
 		}
-	},
-	[2519] = {
+	}
+	pg.base.ship_strengthen_blueprint[2519] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -23684,8 +25103,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			212
 		}
-	},
-	[2520] = {
+	}
+	pg.base.ship_strengthen_blueprint[2520] = {
 		effect_breakout = 599013,
 		effect_desc = "突破至5星|主炮底座+1|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -23720,8 +25139,8 @@ pg.ship_strengthen_blueprint = {
 			"【塞壬之敵】升級",
 			"魚雷效率提高10%"
 		}
-	},
-	[2521] = {
+	}
+	pg.base.ship_strengthen_blueprint[2521] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -23745,8 +25164,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			265
 		}
-	},
-	[2522] = {
+	}
+	pg.base.ship_strengthen_blueprint[2522] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -23770,8 +25189,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			265
 		}
-	},
-	[2523] = {
+	}
+	pg.base.ship_strengthen_blueprint[2523] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -23795,8 +25214,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			265
 		}
-	},
-	[2524] = {
+	}
+	pg.base.ship_strengthen_blueprint[2524] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -23820,8 +25239,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			265
 		}
-	},
-	[2525] = {
+	}
+	pg.base.ship_strengthen_blueprint[2525] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+457|防空+58|鑑賞解鎖：血量警報",
 		extra_desc = "",
@@ -23857,8 +25276,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[2526] = {
+	}
+	pg.base.ship_strengthen_blueprint[2526] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -23882,8 +25301,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			265
 		}
-	},
-	[2527] = {
+	}
+	pg.base.ship_strengthen_blueprint[2527] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -23907,8 +25326,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			265
 		}
-	},
-	[2528] = {
+	}
+	pg.base.ship_strengthen_blueprint[2528] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -23932,8 +25351,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			265
 		}
-	},
-	[2529] = {
+	}
+	pg.base.ship_strengthen_blueprint[2529] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -23957,8 +25376,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			265
 		}
-	},
-	[2530] = {
+	}
+	pg.base.ship_strengthen_blueprint[2530] = {
 		effect_breakout = 599014,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -23987,8 +25406,8 @@ pg.ship_strengthen_blueprint = {
 			"魚雷效率提高15%",
 			"自身裝備的魚雷武器散佈角減小"
 		}
-	},
-	[2531] = {
+	}
+	pg.base.ship_strengthen_blueprint[2531] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+1",
 		extra_desc = "",
@@ -24017,8 +25436,8 @@ pg.ship_strengthen_blueprint = {
 				1
 			}
 		}
-	},
-	[2532] = {
+	}
+	pg.base.ship_strengthen_blueprint[2532] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+2",
 		extra_desc = "",
@@ -24047,8 +25466,8 @@ pg.ship_strengthen_blueprint = {
 				2
 			}
 		}
-	},
-	[2533] = {
+	}
+	pg.base.ship_strengthen_blueprint[2533] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+3",
 		extra_desc = "",
@@ -24077,8 +25496,8 @@ pg.ship_strengthen_blueprint = {
 				3
 			}
 		}
-	},
-	[2534] = {
+	}
+	pg.base.ship_strengthen_blueprint[2534] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+4",
 		extra_desc = "",
@@ -24107,8 +25526,8 @@ pg.ship_strengthen_blueprint = {
 				4
 			}
 		}
-	},
-	[2535] = {
+	}
+	pg.base.ship_strengthen_blueprint[2535] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+5|【炮火，傾瀉如瀑！ 】技能強化為【炮火，傾瀉如瀑！ +】",
 		extra_desc = "",
@@ -24140,8 +25559,8 @@ pg.ship_strengthen_blueprint = {
 			19590,
 			18590
 		}
-	},
-	[2601] = {
+	}
+	pg.base.ship_strengthen_blueprint[2601] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -24169,8 +25588,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[2602] = {
+	}
+	pg.base.ship_strengthen_blueprint[2602] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -24194,8 +25613,8 @@ pg.ship_strengthen_blueprint = {
 			124,
 			33
 		}
-	},
-	[2603] = {
+	}
+	pg.base.ship_strengthen_blueprint[2603] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -24219,8 +25638,8 @@ pg.ship_strengthen_blueprint = {
 			124,
 			33
 		}
-	},
-	[2604] = {
+	}
+	pg.base.ship_strengthen_blueprint[2604] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -24244,8 +25663,8 @@ pg.ship_strengthen_blueprint = {
 			124,
 			33
 		}
-	},
-	[2605] = {
+	}
+	pg.base.ship_strengthen_blueprint[2605] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+269|防空+15|所有魚雷機+1|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -24286,8 +25705,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[2606] = {
+	}
+	pg.base.ship_strengthen_blueprint[2606] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -24311,8 +25730,8 @@ pg.ship_strengthen_blueprint = {
 			248,
 			66
 		}
-	},
-	[2607] = {
+	}
+	pg.base.ship_strengthen_blueprint[2607] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -24336,8 +25755,8 @@ pg.ship_strengthen_blueprint = {
 			248,
 			66
 		}
-	},
-	[2608] = {
+	}
+	pg.base.ship_strengthen_blueprint[2608] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -24361,8 +25780,8 @@ pg.ship_strengthen_blueprint = {
 			248,
 			66
 		}
-	},
-	[2609] = {
+	}
+	pg.base.ship_strengthen_blueprint[2609] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -24386,8 +25805,8 @@ pg.ship_strengthen_blueprint = {
 			248,
 			66
 		}
-	},
-	[2610] = {
+	}
+	pg.base.ship_strengthen_blueprint[2610] = {
 		effect_breakout = 799012,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -24418,8 +25837,8 @@ pg.ship_strengthen_blueprint = {
 			"習得技能【塞壬之敵】",
 			"魚雷機效率提高5%"
 		}
-	},
-	[2611] = {
+	}
+	pg.base.ship_strengthen_blueprint[2611] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -24443,8 +25862,8 @@ pg.ship_strengthen_blueprint = {
 			372,
 			99
 		}
-	},
-	[2612] = {
+	}
+	pg.base.ship_strengthen_blueprint[2612] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -24468,8 +25887,8 @@ pg.ship_strengthen_blueprint = {
 			372,
 			99
 		}
-	},
-	[2613] = {
+	}
+	pg.base.ship_strengthen_blueprint[2613] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -24493,8 +25912,8 @@ pg.ship_strengthen_blueprint = {
 			372,
 			99
 		}
-	},
-	[2614] = {
+	}
+	pg.base.ship_strengthen_blueprint[2614] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -24518,8 +25937,8 @@ pg.ship_strengthen_blueprint = {
 			372,
 			99
 		}
-	},
-	[2615] = {
+	}
+	pg.base.ship_strengthen_blueprint[2615] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+539|防空+30|魚雷機效率提高5%|所有艦載機+1|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -24563,8 +25982,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[2616] = {
+	}
+	pg.base.ship_strengthen_blueprint[2616] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -24588,8 +26007,8 @@ pg.ship_strengthen_blueprint = {
 			496,
 			132
 		}
-	},
-	[2617] = {
+	}
+	pg.base.ship_strengthen_blueprint[2617] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -24613,8 +26032,8 @@ pg.ship_strengthen_blueprint = {
 			496,
 			132
 		}
-	},
-	[2618] = {
+	}
+	pg.base.ship_strengthen_blueprint[2618] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -24638,8 +26057,8 @@ pg.ship_strengthen_blueprint = {
 			496,
 			132
 		}
-	},
-	[2619] = {
+	}
+	pg.base.ship_strengthen_blueprint[2619] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -24663,8 +26082,8 @@ pg.ship_strengthen_blueprint = {
 			496,
 			132
 		}
-	},
-	[2620] = {
+	}
+	pg.base.ship_strengthen_blueprint[2620] = {
 		effect_breakout = 799013,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -24696,8 +26115,8 @@ pg.ship_strengthen_blueprint = {
 			"機庫容量+1",
 			"魚雷機效率提高10%"
 		}
-	},
-	[2621] = {
+	}
+	pg.base.ship_strengthen_blueprint[2621] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -24721,8 +26140,8 @@ pg.ship_strengthen_blueprint = {
 			620,
 			165
 		}
-	},
-	[2622] = {
+	}
+	pg.base.ship_strengthen_blueprint[2622] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -24746,8 +26165,8 @@ pg.ship_strengthen_blueprint = {
 			620,
 			165
 		}
-	},
-	[2623] = {
+	}
+	pg.base.ship_strengthen_blueprint[2623] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -24771,8 +26190,8 @@ pg.ship_strengthen_blueprint = {
 			620,
 			165
 		}
-	},
-	[2624] = {
+	}
+	pg.base.ship_strengthen_blueprint[2624] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -24796,8 +26215,8 @@ pg.ship_strengthen_blueprint = {
 			620,
 			165
 		}
-	},
-	[2625] = {
+	}
+	pg.base.ship_strengthen_blueprint[2625] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+809|防空+44|所有魚雷機+1|鑑賞解鎖：血量警報",
 		extra_desc = "",
@@ -24837,8 +26256,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[2626] = {
+	}
+	pg.base.ship_strengthen_blueprint[2626] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -24862,8 +26281,8 @@ pg.ship_strengthen_blueprint = {
 			620,
 			165
 		}
-	},
-	[2627] = {
+	}
+	pg.base.ship_strengthen_blueprint[2627] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -24887,8 +26306,8 @@ pg.ship_strengthen_blueprint = {
 			620,
 			165
 		}
-	},
-	[2628] = {
+	}
+	pg.base.ship_strengthen_blueprint[2628] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -24912,8 +26331,8 @@ pg.ship_strengthen_blueprint = {
 			620,
 			165
 		}
-	},
-	[2629] = {
+	}
+	pg.base.ship_strengthen_blueprint[2629] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -24937,8 +26356,8 @@ pg.ship_strengthen_blueprint = {
 			620,
 			165
 		}
-	},
-	[2630] = {
+	}
+	pg.base.ship_strengthen_blueprint[2630] = {
 		effect_breakout = 799014,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -24965,8 +26384,8 @@ pg.ship_strengthen_blueprint = {
 			"【塞壬之敵】升級",
 			"魚雷機效率提高15%"
 		}
-	},
-	[2631] = {
+	}
+	pg.base.ship_strengthen_blueprint[2631] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+1",
 		extra_desc = "",
@@ -24995,8 +26414,8 @@ pg.ship_strengthen_blueprint = {
 				1
 			}
 		}
-	},
-	[2632] = {
+	}
+	pg.base.ship_strengthen_blueprint[2632] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+2",
 		extra_desc = "",
@@ -25025,8 +26444,8 @@ pg.ship_strengthen_blueprint = {
 				2
 			}
 		}
-	},
-	[2633] = {
+	}
+	pg.base.ship_strengthen_blueprint[2633] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+3",
 		extra_desc = "",
@@ -25055,8 +26474,8 @@ pg.ship_strengthen_blueprint = {
 				3
 			}
 		}
-	},
-	[2634] = {
+	}
+	pg.base.ship_strengthen_blueprint[2634] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+4",
 		extra_desc = "",
@@ -25085,8 +26504,8 @@ pg.ship_strengthen_blueprint = {
 				4
 			}
 		}
-	},
-	[2635] = {
+	}
+	pg.base.ship_strengthen_blueprint[2635] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+5|【輔助試驗·凍結射擊】技能強化為【輔助試驗·凍結射擊 +】",
 		extra_desc = "",
@@ -25118,8 +26537,10 @@ pg.ship_strengthen_blueprint = {
 			19610,
 			18610
 		}
-	},
-	[2701] = {
+	}
+end)()
+(function ()
+	pg.base.ship_strengthen_blueprint[2701] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -25147,8 +26568,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[2702] = {
+	}
+	pg.base.ship_strengthen_blueprint[2702] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -25172,8 +26593,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			52
 		}
-	},
-	[2703] = {
+	}
+	pg.base.ship_strengthen_blueprint[2703] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -25197,8 +26618,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			52
 		}
-	},
-	[2704] = {
+	}
+	pg.base.ship_strengthen_blueprint[2704] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -25222,8 +26643,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			52
 		}
-	},
-	[2705] = {
+	}
+	pg.base.ship_strengthen_blueprint[2705] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+307|防空+12|主炮底座+1|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -25264,8 +26685,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[2706] = {
+	}
+	pg.base.ship_strengthen_blueprint[2706] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -25289,8 +26710,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			104
 		}
-	},
-	[2707] = {
+	}
+	pg.base.ship_strengthen_blueprint[2707] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -25314,8 +26735,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			104
 		}
-	},
-	[2708] = {
+	}
+	pg.base.ship_strengthen_blueprint[2708] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -25339,8 +26760,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			104
 		}
-	},
-	[2709] = {
+	}
+	pg.base.ship_strengthen_blueprint[2709] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -25364,8 +26785,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			104
 		}
-	},
-	[2710] = {
+	}
+	pg.base.ship_strengthen_blueprint[2710] = {
 		effect_breakout = 899032,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -25397,8 +26818,8 @@ pg.ship_strengthen_blueprint = {
 			"主炮效率提高5%",
 			"裝備特殊後向副炮"
 		}
-	},
-	[2711] = {
+	}
+	pg.base.ship_strengthen_blueprint[2711] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -25422,8 +26843,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			156
 		}
-	},
-	[2712] = {
+	}
+	pg.base.ship_strengthen_blueprint[2712] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -25447,8 +26868,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			156
 		}
-	},
-	[2713] = {
+	}
+	pg.base.ship_strengthen_blueprint[2713] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -25472,8 +26893,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			156
 		}
-	},
-	[2714] = {
+	}
+	pg.base.ship_strengthen_blueprint[2714] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -25497,8 +26918,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			156
 		}
-	},
-	[2715] = {
+	}
+	pg.base.ship_strengthen_blueprint[2715] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+614|防空+23|防空炮效率提高10%|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -25538,8 +26959,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[2716] = {
+	}
+	pg.base.ship_strengthen_blueprint[2716] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -25563,8 +26984,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			208
 		}
-	},
-	[2717] = {
+	}
+	pg.base.ship_strengthen_blueprint[2717] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -25588,8 +27009,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			208
 		}
-	},
-	[2718] = {
+	}
+	pg.base.ship_strengthen_blueprint[2718] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -25613,8 +27034,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			208
 		}
-	},
-	[2719] = {
+	}
+	pg.base.ship_strengthen_blueprint[2719] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -25638,8 +27059,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			208
 		}
-	},
-	[2720] = {
+	}
+	pg.base.ship_strengthen_blueprint[2720] = {
 		effect_breakout = 899033,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -25670,8 +27091,8 @@ pg.ship_strengthen_blueprint = {
 			"【塞壬之敵】升級",
 			"副炮效率提高10%"
 		}
-	},
-	[2721] = {
+	}
+	pg.base.ship_strengthen_blueprint[2721] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -25695,8 +27116,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			260
 		}
-	},
-	[2722] = {
+	}
+	pg.base.ship_strengthen_blueprint[2722] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -25720,8 +27141,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			260
 		}
-	},
-	[2723] = {
+	}
+	pg.base.ship_strengthen_blueprint[2723] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -25745,8 +27166,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			260
 		}
-	},
-	[2724] = {
+	}
+	pg.base.ship_strengthen_blueprint[2724] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -25770,8 +27191,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			260
 		}
-	},
-	[2725] = {
+	}
+	pg.base.ship_strengthen_blueprint[2725] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+921|防空+35|機動+5|防空炮效率提高10%|鑑賞解鎖：血量警報",
 		extra_desc = "",
@@ -25814,8 +27235,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[2726] = {
+	}
+	pg.base.ship_strengthen_blueprint[2726] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -25839,8 +27260,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			260
 		}
-	},
-	[2727] = {
+	}
+	pg.base.ship_strengthen_blueprint[2727] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -25864,8 +27285,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			260
 		}
-	},
-	[2728] = {
+	}
+	pg.base.ship_strengthen_blueprint[2728] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -25889,8 +27310,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			260
 		}
-	},
-	[2729] = {
+	}
+	pg.base.ship_strengthen_blueprint[2729] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -25914,8 +27335,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			260
 		}
-	},
-	[2730] = {
+	}
+	pg.base.ship_strengthen_blueprint[2730] = {
 		effect_breakout = 899034,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -25942,8 +27363,8 @@ pg.ship_strengthen_blueprint = {
 			"【塞壬之敵】升級",
 			"主炮效率提高15%"
 		}
-	},
-	[2801] = {
+	}
+	pg.base.ship_strengthen_blueprint[2801] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -25971,8 +27392,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[2802] = {
+	}
+	pg.base.ship_strengthen_blueprint[2802] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -25996,8 +27417,8 @@ pg.ship_strengthen_blueprint = {
 			103,
 			42
 		}
-	},
-	[2803] = {
+	}
+	pg.base.ship_strengthen_blueprint[2803] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -26021,8 +27442,8 @@ pg.ship_strengthen_blueprint = {
 			103,
 			42
 		}
-	},
-	[2804] = {
+	}
+	pg.base.ship_strengthen_blueprint[2804] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -26046,8 +27467,8 @@ pg.ship_strengthen_blueprint = {
 			103,
 			42
 		}
-	},
-	[2805] = {
+	}
+	pg.base.ship_strengthen_blueprint[2805] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+383|防空+15|主炮效率提升5%|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -26087,8 +27508,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[2806] = {
+	}
+	pg.base.ship_strengthen_blueprint[2806] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -26112,8 +27533,8 @@ pg.ship_strengthen_blueprint = {
 			206,
 			84
 		}
-	},
-	[2807] = {
+	}
+	pg.base.ship_strengthen_blueprint[2807] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -26137,8 +27558,8 @@ pg.ship_strengthen_blueprint = {
 			206,
 			84
 		}
-	},
-	[2808] = {
+	}
+	pg.base.ship_strengthen_blueprint[2808] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -26162,8 +27583,8 @@ pg.ship_strengthen_blueprint = {
 			206,
 			84
 		}
-	},
-	[2809] = {
+	}
+	pg.base.ship_strengthen_blueprint[2809] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -26187,8 +27608,8 @@ pg.ship_strengthen_blueprint = {
 			206,
 			84
 		}
-	},
-	[2810] = {
+	}
+	pg.base.ship_strengthen_blueprint[2810] = {
 		effect_breakout = 199042,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -26221,8 +27642,8 @@ pg.ship_strengthen_blueprint = {
 			"主炮效率提高5%",
 			"裝備特殊副炮"
 		}
-	},
-	[2811] = {
+	}
+	pg.base.ship_strengthen_blueprint[2811] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -26246,8 +27667,8 @@ pg.ship_strengthen_blueprint = {
 			309,
 			126
 		}
-	},
-	[2812] = {
+	}
+	pg.base.ship_strengthen_blueprint[2812] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -26271,8 +27692,8 @@ pg.ship_strengthen_blueprint = {
 			309,
 			126
 		}
-	},
-	[2813] = {
+	}
+	pg.base.ship_strengthen_blueprint[2813] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -26296,8 +27717,8 @@ pg.ship_strengthen_blueprint = {
 			309,
 			126
 		}
-	},
-	[2814] = {
+	}
+	pg.base.ship_strengthen_blueprint[2814] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -26321,8 +27742,8 @@ pg.ship_strengthen_blueprint = {
 			309,
 			126
 		}
-	},
-	[2815] = {
+	}
+	pg.base.ship_strengthen_blueprint[2815] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+766|防空+31|戰鬥機效率提升20%|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -26362,8 +27783,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[2816] = {
+	}
+	pg.base.ship_strengthen_blueprint[2816] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -26387,8 +27808,8 @@ pg.ship_strengthen_blueprint = {
 			412,
 			168
 		}
-	},
-	[2817] = {
+	}
+	pg.base.ship_strengthen_blueprint[2817] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -26412,8 +27833,8 @@ pg.ship_strengthen_blueprint = {
 			412,
 			168
 		}
-	},
-	[2818] = {
+	}
+	pg.base.ship_strengthen_blueprint[2818] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -26437,8 +27858,8 @@ pg.ship_strengthen_blueprint = {
 			412,
 			168
 		}
-	},
-	[2819] = {
+	}
+	pg.base.ship_strengthen_blueprint[2819] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -26462,8 +27883,8 @@ pg.ship_strengthen_blueprint = {
 			412,
 			168
 		}
-	},
-	[2820] = {
+	}
+	pg.base.ship_strengthen_blueprint[2820] = {
 		effect_breakout = 199043,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -26496,8 +27917,8 @@ pg.ship_strengthen_blueprint = {
 			"主炮效率提高10%",
 			"戰鬥機效率提高10%"
 		}
-	},
-	[2821] = {
+	}
+	pg.base.ship_strengthen_blueprint[2821] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -26521,8 +27942,8 @@ pg.ship_strengthen_blueprint = {
 			515,
 			210
 		}
-	},
-	[2822] = {
+	}
+	pg.base.ship_strengthen_blueprint[2822] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -26546,8 +27967,8 @@ pg.ship_strengthen_blueprint = {
 			515,
 			210
 		}
-	},
-	[2823] = {
+	}
+	pg.base.ship_strengthen_blueprint[2823] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -26571,8 +27992,8 @@ pg.ship_strengthen_blueprint = {
 			515,
 			210
 		}
-	},
-	[2824] = {
+	}
+	pg.base.ship_strengthen_blueprint[2824] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -26596,8 +28017,8 @@ pg.ship_strengthen_blueprint = {
 			515,
 			210
 		}
-	},
-	[2825] = {
+	}
+	pg.base.ship_strengthen_blueprint[2825] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+1195|防空+33|主炮效率提高5%|所有戰鬥機+1|鑑賞解鎖：血量警報",
 		extra_desc = "",
@@ -26640,8 +28061,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[2826] = {
+	}
+	pg.base.ship_strengthen_blueprint[2826] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -26665,8 +28086,8 @@ pg.ship_strengthen_blueprint = {
 			515,
 			210
 		}
-	},
-	[2827] = {
+	}
+	pg.base.ship_strengthen_blueprint[2827] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -26690,8 +28111,8 @@ pg.ship_strengthen_blueprint = {
 			515,
 			210
 		}
-	},
-	[2828] = {
+	}
+	pg.base.ship_strengthen_blueprint[2828] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -26715,8 +28136,8 @@ pg.ship_strengthen_blueprint = {
 			515,
 			210
 		}
-	},
-	[2829] = {
+	}
+	pg.base.ship_strengthen_blueprint[2829] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -26740,8 +28161,8 @@ pg.ship_strengthen_blueprint = {
 			515,
 			210
 		}
-	},
-	[2830] = {
+	}
+	pg.base.ship_strengthen_blueprint[2830] = {
 		effect_breakout = 199044,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -26770,8 +28191,8 @@ pg.ship_strengthen_blueprint = {
 			"主炮效率提高15%",
 			"戰鬥機效率提高10%"
 		}
-	},
-	[2901] = {
+	}
+	pg.base.ship_strengthen_blueprint[2901] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -26799,8 +28220,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[2902] = {
+	}
+	pg.base.ship_strengthen_blueprint[2902] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -26824,8 +28245,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			43
 		}
-	},
-	[2903] = {
+	}
+	pg.base.ship_strengthen_blueprint[2903] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -26849,8 +28270,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			43
 		}
-	},
-	[2904] = {
+	}
+	pg.base.ship_strengthen_blueprint[2904] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -26874,8 +28295,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			43
 		}
-	},
-	[2905] = {
+	}
+	pg.base.ship_strengthen_blueprint[2905] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+223|防空+21|魚雷底座+1|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -26916,8 +28337,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[2906] = {
+	}
+	pg.base.ship_strengthen_blueprint[2906] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -26941,8 +28362,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			86
 		}
-	},
-	[2907] = {
+	}
+	pg.base.ship_strengthen_blueprint[2907] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -26966,8 +28387,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			86
 		}
-	},
-	[2908] = {
+	}
+	pg.base.ship_strengthen_blueprint[2908] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -26991,8 +28412,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			86
 		}
-	},
-	[2909] = {
+	}
+	pg.base.ship_strengthen_blueprint[2909] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -27016,8 +28437,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			86
 		}
-	},
-	[2910] = {
+	}
+	pg.base.ship_strengthen_blueprint[2910] = {
 		effect_breakout = 399062,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -27049,8 +28470,8 @@ pg.ship_strengthen_blueprint = {
 			"魚雷底座可同時裝填",
 			"魚雷效率提升5%"
 		}
-	},
-	[2911] = {
+	}
+	pg.base.ship_strengthen_blueprint[2911] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -27074,8 +28495,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			129
 		}
-	},
-	[2912] = {
+	}
+	pg.base.ship_strengthen_blueprint[2912] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -27099,8 +28520,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			129
 		}
-	},
-	[2913] = {
+	}
+	pg.base.ship_strengthen_blueprint[2913] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -27124,8 +28545,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			129
 		}
-	},
-	[2914] = {
+	}
+	pg.base.ship_strengthen_blueprint[2914] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -27149,8 +28570,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			129
 		}
-	},
-	[2915] = {
+	}
+	pg.base.ship_strengthen_blueprint[2915] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+447|防空+43|主炮效率提升10%|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -27190,8 +28611,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[2916] = {
+	}
+	pg.base.ship_strengthen_blueprint[2916] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -27215,8 +28636,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			172
 		}
-	},
-	[2917] = {
+	}
+	pg.base.ship_strengthen_blueprint[2917] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -27240,8 +28661,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			172
 		}
-	},
-	[2918] = {
+	}
+	pg.base.ship_strengthen_blueprint[2918] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -27265,8 +28686,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			172
 		}
-	},
-	[2919] = {
+	}
+	pg.base.ship_strengthen_blueprint[2919] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -27290,8 +28711,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			172
 		}
-	},
-	[2920] = {
+	}
+	pg.base.ship_strengthen_blueprint[2920] = {
 		effect_breakout = 399063,
 		effect_desc = "突破至5星|主炮底座+1|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -27326,8 +28747,8 @@ pg.ship_strengthen_blueprint = {
 			"【塞壬之敵】升級",
 			"魚雷效率提高10%"
 		}
-	},
-	[2921] = {
+	}
+	pg.base.ship_strengthen_blueprint[2921] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -27351,8 +28772,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[2922] = {
+	}
+	pg.base.ship_strengthen_blueprint[2922] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -27376,8 +28797,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[2923] = {
+	}
+	pg.base.ship_strengthen_blueprint[2923] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -27401,8 +28822,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[2924] = {
+	}
+	pg.base.ship_strengthen_blueprint[2924] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -27426,8 +28847,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[2925] = {
+	}
+	pg.base.ship_strengthen_blueprint[2925] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+670|防空+63|防空炮效率提高10%|鑑賞解鎖：血量警報",
 		extra_desc = "",
@@ -27466,8 +28887,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[2926] = {
+	}
+	pg.base.ship_strengthen_blueprint[2926] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -27491,8 +28912,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[2927] = {
+	}
+	pg.base.ship_strengthen_blueprint[2927] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -27516,8 +28937,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[2928] = {
+	}
+	pg.base.ship_strengthen_blueprint[2928] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -27541,8 +28962,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[2929] = {
+	}
+	pg.base.ship_strengthen_blueprint[2929] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -27566,8 +28987,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			215
 		}
-	},
-	[2930] = {
+	}
+	pg.base.ship_strengthen_blueprint[2930] = {
 		effect_breakout = 399064,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -27595,8 +29016,8 @@ pg.ship_strengthen_blueprint = {
 			"專屬彈幕升級",
 			"魚雷效率提高15%"
 		}
-	},
-	[2931] = {
+	}
+	pg.base.ship_strengthen_blueprint[2931] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+1",
 		extra_desc = "",
@@ -27625,8 +29046,8 @@ pg.ship_strengthen_blueprint = {
 				1
 			}
 		}
-	},
-	[2932] = {
+	}
+	pg.base.ship_strengthen_blueprint[2932] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+2",
 		extra_desc = "",
@@ -27655,8 +29076,8 @@ pg.ship_strengthen_blueprint = {
 				2
 			}
 		}
-	},
-	[2933] = {
+	}
+	pg.base.ship_strengthen_blueprint[2933] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+3",
 		extra_desc = "",
@@ -27685,8 +29106,8 @@ pg.ship_strengthen_blueprint = {
 				3
 			}
 		}
-	},
-	[2934] = {
+	}
+	pg.base.ship_strengthen_blueprint[2934] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+4",
 		extra_desc = "",
@@ -27715,8 +29136,8 @@ pg.ship_strengthen_blueprint = {
 				4
 			}
 		}
-	},
-	[2935] = {
+	}
+	pg.base.ship_strengthen_blueprint[2935] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+5|【水龍神威】技能強化為【水龍神威+】",
 		extra_desc = "",
@@ -27748,8 +29169,8 @@ pg.ship_strengthen_blueprint = {
 			19760,
 			18760
 		}
-	},
-	[3001] = {
+	}
+	pg.base.ship_strengthen_blueprint[3001] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -27777,8 +29198,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[3002] = {
+	}
+	pg.base.ship_strengthen_blueprint[3002] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -27802,8 +29223,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			59
 		}
-	},
-	[3003] = {
+	}
+	pg.base.ship_strengthen_blueprint[3003] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -27827,8 +29248,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			59
 		}
-	},
-	[3004] = {
+	}
+	pg.base.ship_strengthen_blueprint[3004] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -27852,8 +29273,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			59
 		}
-	},
-	[3005] = {
+	}
+	pg.base.ship_strengthen_blueprint[3005] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+134|防空+7|魚雷底座+1|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -27894,8 +29315,10 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[3006] = {
+	}
+end)()
+(function ()
+	pg.base.ship_strengthen_blueprint[3006] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -27919,8 +29342,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			118
 		}
-	},
-	[3007] = {
+	}
+	pg.base.ship_strengthen_blueprint[3007] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -27944,8 +29367,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			118
 		}
-	},
-	[3008] = {
+	}
+	pg.base.ship_strengthen_blueprint[3008] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -27969,8 +29392,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			118
 		}
-	},
-	[3009] = {
+	}
+	pg.base.ship_strengthen_blueprint[3009] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -27994,8 +29417,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			118
 		}
-	},
-	[3010] = {
+	}
+	pg.base.ship_strengthen_blueprint[3010] = {
 		effect_breakout = 499082,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -28027,8 +29450,8 @@ pg.ship_strengthen_blueprint = {
 			"獲得專屬彈幕I",
 			"主炮效率提升5%"
 		}
-	},
-	[3011] = {
+	}
+	pg.base.ship_strengthen_blueprint[3011] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -28052,8 +29475,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			177
 		}
-	},
-	[3012] = {
+	}
+	pg.base.ship_strengthen_blueprint[3012] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -28077,8 +29500,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			177
 		}
-	},
-	[3013] = {
+	}
+	pg.base.ship_strengthen_blueprint[3013] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -28102,8 +29525,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			177
 		}
-	},
-	[3014] = {
+	}
+	pg.base.ship_strengthen_blueprint[3014] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -28127,8 +29550,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			177
 		}
-	},
-	[3015] = {
+	}
+	pg.base.ship_strengthen_blueprint[3015] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+269|防空+15|主炮效率提高10%|魚雷預裝填+1|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -28172,8 +29595,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[3016] = {
+	}
+	pg.base.ship_strengthen_blueprint[3016] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -28197,8 +29620,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			236
 		}
-	},
-	[3017] = {
+	}
+	pg.base.ship_strengthen_blueprint[3017] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -28222,8 +29645,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			236
 		}
-	},
-	[3018] = {
+	}
+	pg.base.ship_strengthen_blueprint[3018] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -28247,8 +29670,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			236
 		}
-	},
-	[3019] = {
+	}
+	pg.base.ship_strengthen_blueprint[3019] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -28272,8 +29695,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			236
 		}
-	},
-	[3020] = {
+	}
+	pg.base.ship_strengthen_blueprint[3020] = {
 		effect_breakout = 499083,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -28304,8 +29727,8 @@ pg.ship_strengthen_blueprint = {
 			"【塞壬之敵】升級",
 			"防空炮效率提高10%"
 		}
-	},
-	[3021] = {
+	}
+	pg.base.ship_strengthen_blueprint[3021] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -28329,8 +29752,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			295
 		}
-	},
-	[3022] = {
+	}
+	pg.base.ship_strengthen_blueprint[3022] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -28354,8 +29777,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			295
 		}
-	},
-	[3023] = {
+	}
+	pg.base.ship_strengthen_blueprint[3023] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -28379,8 +29802,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			295
 		}
-	},
-	[3024] = {
+	}
+	pg.base.ship_strengthen_blueprint[3024] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -28404,8 +29827,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			295
 		}
-	},
-	[3025] = {
+	}
+	pg.base.ship_strengthen_blueprint[3025] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+403|防空+22|鑑賞解鎖：血量警報",
 		extra_desc = "",
@@ -28441,8 +29864,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[3026] = {
+	}
+	pg.base.ship_strengthen_blueprint[3026] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -28466,8 +29889,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			295
 		}
-	},
-	[3027] = {
+	}
+	pg.base.ship_strengthen_blueprint[3027] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -28491,8 +29914,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			295
 		}
-	},
-	[3028] = {
+	}
+	pg.base.ship_strengthen_blueprint[3028] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -28516,8 +29939,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			295
 		}
-	},
-	[3029] = {
+	}
+	pg.base.ship_strengthen_blueprint[3029] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -28541,8 +29964,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			295
 		}
-	},
-	[3030] = {
+	}
+	pg.base.ship_strengthen_blueprint[3030] = {
 		effect_breakout = 499084,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -28571,8 +29994,8 @@ pg.ship_strengthen_blueprint = {
 			"全武器效率提高5%",
 			"設備提供的基礎屬性額外提高30%"
 		}
-	},
-	[3031] = {
+	}
+	pg.base.ship_strengthen_blueprint[3031] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+1",
 		extra_desc = "",
@@ -28601,8 +30024,8 @@ pg.ship_strengthen_blueprint = {
 				1
 			}
 		}
-	},
-	[3032] = {
+	}
+	pg.base.ship_strengthen_blueprint[3032] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+2",
 		extra_desc = "",
@@ -28631,8 +30054,8 @@ pg.ship_strengthen_blueprint = {
 				2
 			}
 		}
-	},
-	[3033] = {
+	}
+	pg.base.ship_strengthen_blueprint[3033] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+3",
 		extra_desc = "",
@@ -28661,8 +30084,8 @@ pg.ship_strengthen_blueprint = {
 				3
 			}
 		}
-	},
-	[3034] = {
+	}
+	pg.base.ship_strengthen_blueprint[3034] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+4",
 		extra_desc = "",
@@ -28691,8 +30114,8 @@ pg.ship_strengthen_blueprint = {
 				4
 			}
 		}
-	},
-	[3035] = {
+	}
+	pg.base.ship_strengthen_blueprint[3035] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+5|【弱者的苦痛之源】技能強化為【弱者的苦痛之源+】",
 		extra_desc = "",
@@ -28724,8 +30147,8 @@ pg.ship_strengthen_blueprint = {
 			19690,
 			18620
 		}
-	},
-	[3101] = {
+	}
+	pg.base.ship_strengthen_blueprint[3101] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -28753,8 +30176,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[3102] = {
+	}
+	pg.base.ship_strengthen_blueprint[3102] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -28778,8 +30201,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			48
 		}
-	},
-	[3103] = {
+	}
+	pg.base.ship_strengthen_blueprint[3103] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -28803,8 +30226,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			48
 		}
-	},
-	[3104] = {
+	}
+	pg.base.ship_strengthen_blueprint[3104] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -28828,8 +30251,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			48
 		}
-	},
-	[3105] = {
+	}
+	pg.base.ship_strengthen_blueprint[3105] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+253|防空+11|機動+5|主炮底座+1|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -28874,8 +30297,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[3106] = {
+	}
+	pg.base.ship_strengthen_blueprint[3106] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -28899,8 +30322,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			96
 		}
-	},
-	[3107] = {
+	}
+	pg.base.ship_strengthen_blueprint[3107] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -28924,8 +30347,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			96
 		}
-	},
-	[3108] = {
+	}
+	pg.base.ship_strengthen_blueprint[3108] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -28949,8 +30372,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			96
 		}
-	},
-	[3109] = {
+	}
+	pg.base.ship_strengthen_blueprint[3109] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -28974,8 +30397,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			96
 		}
-	},
-	[3110] = {
+	}
+	pg.base.ship_strengthen_blueprint[3110] = {
 		effect_breakout = 499092,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -29007,8 +30430,8 @@ pg.ship_strengthen_blueprint = {
 			"獲得專屬彈幕I",
 			"全武器效率提升2%"
 		}
-	},
-	[3111] = {
+	}
+	pg.base.ship_strengthen_blueprint[3111] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -29032,8 +30455,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			144
 		}
-	},
-	[3112] = {
+	}
+	pg.base.ship_strengthen_blueprint[3112] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -29057,8 +30480,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			144
 		}
-	},
-	[3113] = {
+	}
+	pg.base.ship_strengthen_blueprint[3113] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -29082,8 +30505,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			144
 		}
-	},
-	[3114] = {
+	}
+	pg.base.ship_strengthen_blueprint[3114] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -29107,8 +30530,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			144
 		}
-	},
-	[3115] = {
+	}
+	pg.base.ship_strengthen_blueprint[3115] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+506|防空+21|主炮效率提升10%|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -29148,8 +30571,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[3116] = {
+	}
+	pg.base.ship_strengthen_blueprint[3116] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -29173,8 +30596,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			192
 		}
-	},
-	[3117] = {
+	}
+	pg.base.ship_strengthen_blueprint[3117] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -29198,8 +30621,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			192
 		}
-	},
-	[3118] = {
+	}
+	pg.base.ship_strengthen_blueprint[3118] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -29223,8 +30646,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			192
 		}
-	},
-	[3119] = {
+	}
+	pg.base.ship_strengthen_blueprint[3119] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -29248,8 +30671,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			192
 		}
-	},
-	[3120] = {
+	}
+	pg.base.ship_strengthen_blueprint[3120] = {
 		effect_breakout = 499093,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -29280,8 +30703,8 @@ pg.ship_strengthen_blueprint = {
 			"【塞壬之敵】升級",
 			"全武器效率提升3%"
 		}
-	},
-	[3121] = {
+	}
+	pg.base.ship_strengthen_blueprint[3121] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -29305,8 +30728,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			240
 		}
-	},
-	[3122] = {
+	}
+	pg.base.ship_strengthen_blueprint[3122] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -29330,8 +30753,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			240
 		}
-	},
-	[3123] = {
+	}
+	pg.base.ship_strengthen_blueprint[3123] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -29355,8 +30778,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			240
 		}
-	},
-	[3124] = {
+	}
+	pg.base.ship_strengthen_blueprint[3124] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -29380,8 +30803,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			240
 		}
-	},
-	[3125] = {
+	}
+	pg.base.ship_strengthen_blueprint[3125] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+759|防空+32|機動+10|鑑賞解鎖：血量警報",
 		extra_desc = "",
@@ -29421,8 +30844,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[3126] = {
+	}
+	pg.base.ship_strengthen_blueprint[3126] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -29446,8 +30869,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			240
 		}
-	},
-	[3127] = {
+	}
+	pg.base.ship_strengthen_blueprint[3127] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -29471,8 +30894,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			240
 		}
-	},
-	[3128] = {
+	}
+	pg.base.ship_strengthen_blueprint[3128] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -29496,8 +30919,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			240
 		}
-	},
-	[3129] = {
+	}
+	pg.base.ship_strengthen_blueprint[3129] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -29521,8 +30944,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			240
 		}
-	},
-	[3130] = {
+	}
+	pg.base.ship_strengthen_blueprint[3130] = {
 		effect_breakout = 499094,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -29551,8 +30974,8 @@ pg.ship_strengthen_blueprint = {
 			"專屬彈幕升級",
 			"第三武器欄位可以裝備主炮武器"
 		}
-	},
-	[3201] = {
+	}
+	pg.base.ship_strengthen_blueprint[3201] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -29580,8 +31003,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[3202] = {
+	}
+	pg.base.ship_strengthen_blueprint[3202] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -29605,8 +31028,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			46
 		}
-	},
-	[3203] = {
+	}
+	pg.base.ship_strengthen_blueprint[3203] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -29630,8 +31053,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			46
 		}
-	},
-	[3204] = {
+	}
+	pg.base.ship_strengthen_blueprint[3204] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -29655,8 +31078,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			46
 		}
-	},
-	[3205] = {
+	}
+	pg.base.ship_strengthen_blueprint[3205] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+356|防空+12|主炮效率提升5%|主炮預裝填+1|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -29700,8 +31123,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[3206] = {
+	}
+	pg.base.ship_strengthen_blueprint[3206] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -29725,8 +31148,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			92
 		}
-	},
-	[3207] = {
+	}
+	pg.base.ship_strengthen_blueprint[3207] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -29750,8 +31173,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			92
 		}
-	},
-	[3208] = {
+	}
+	pg.base.ship_strengthen_blueprint[3208] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -29775,8 +31198,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			92
 		}
-	},
-	[3209] = {
+	}
+	pg.base.ship_strengthen_blueprint[3209] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -29800,8 +31223,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			92
 		}
-	},
-	[3210] = {
+	}
+	pg.base.ship_strengthen_blueprint[3210] = {
 		effect_breakout = 999022,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -29833,8 +31256,8 @@ pg.ship_strengthen_blueprint = {
 			"主炮底座+1",
 			"主炮效率提高5%"
 		}
-	},
-	[3211] = {
+	}
+	pg.base.ship_strengthen_blueprint[3211] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -29858,8 +31281,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			138
 		}
-	},
-	[3212] = {
+	}
+	pg.base.ship_strengthen_blueprint[3212] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -29883,8 +31306,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			138
 		}
-	},
-	[3213] = {
+	}
+	pg.base.ship_strengthen_blueprint[3213] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -29908,8 +31331,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			138
 		}
-	},
-	[3214] = {
+	}
+	pg.base.ship_strengthen_blueprint[3214] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -29933,8 +31356,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			138
 		}
-	},
-	[3215] = {
+	}
+	pg.base.ship_strengthen_blueprint[3215] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+712|防空+25|防空炮效率提升10%|鑑賞解鎖：主介面3、觸控1、任務完成",
 		extra_desc = "",
@@ -29974,8 +31397,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[3216] = {
+	}
+	pg.base.ship_strengthen_blueprint[3216] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -29999,8 +31422,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			184
 		}
-	},
-	[3217] = {
+	}
+	pg.base.ship_strengthen_blueprint[3217] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -30024,8 +31447,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			184
 		}
-	},
-	[3218] = {
+	}
+	pg.base.ship_strengthen_blueprint[3218] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -30049,8 +31472,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			184
 		}
-	},
-	[3219] = {
+	}
+	pg.base.ship_strengthen_blueprint[3219] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -30074,8 +31497,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			184
 		}
-	},
-	[3220] = {
+	}
+	pg.base.ship_strengthen_blueprint[3220] = {
 		effect_breakout = 999023,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -30107,8 +31530,8 @@ pg.ship_strengthen_blueprint = {
 			"副炮底座+2",
 			"主炮效率提高10%"
 		}
-	},
-	[3221] = {
+	}
+	pg.base.ship_strengthen_blueprint[3221] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -30132,8 +31555,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[3222] = {
+	}
+	pg.base.ship_strengthen_blueprint[3222] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -30157,8 +31580,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[3223] = {
+	}
+	pg.base.ship_strengthen_blueprint[3223] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -30182,8 +31605,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[3224] = {
+	}
+	pg.base.ship_strengthen_blueprint[3224] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -30207,8 +31630,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[3225] = {
+	}
+	pg.base.ship_strengthen_blueprint[3225] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+1068|防空+37|主炮效率提高5%|鑑賞解鎖：血量警報",
 		extra_desc = "",
@@ -30247,8 +31670,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[3226] = {
+	}
+	pg.base.ship_strengthen_blueprint[3226] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -30272,8 +31695,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[3227] = {
+	}
+	pg.base.ship_strengthen_blueprint[3227] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -30297,8 +31720,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[3228] = {
+	}
+	pg.base.ship_strengthen_blueprint[3228] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -30322,8 +31745,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[3229] = {
+	}
+	pg.base.ship_strengthen_blueprint[3229] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -30347,8 +31770,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[3230] = {
+	}
+	pg.base.ship_strengthen_blueprint[3230] = {
 		effect_breakout = 999024,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -30376,8 +31799,8 @@ pg.ship_strengthen_blueprint = {
 			"主炮底座+1",
 			"主炮效率提高15%"
 		}
-	},
-	[3231] = {
+	}
+	pg.base.ship_strengthen_blueprint[3231] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+1",
 		extra_desc = "",
@@ -30406,8 +31829,8 @@ pg.ship_strengthen_blueprint = {
 				1
 			}
 		}
-	},
-	[3232] = {
+	}
+	pg.base.ship_strengthen_blueprint[3232] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+2",
 		extra_desc = "",
@@ -30436,8 +31859,8 @@ pg.ship_strengthen_blueprint = {
 				2
 			}
 		}
-	},
-	[3233] = {
+	}
+	pg.base.ship_strengthen_blueprint[3233] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+3",
 		extra_desc = "",
@@ -30466,8 +31889,8 @@ pg.ship_strengthen_blueprint = {
 				3
 			}
 		}
-	},
-	[3234] = {
+	}
+	pg.base.ship_strengthen_blueprint[3234] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+4",
 		extra_desc = "",
@@ -30496,8 +31919,8 @@ pg.ship_strengthen_blueprint = {
 				4
 			}
 		}
-	},
-	[3235] = {
+	}
+	pg.base.ship_strengthen_blueprint[3235] = {
 		effect_breakout = 0,
 		effect_desc = "幸運+5|【戰鬥指令「急襲突破」】技能強化為【戰鬥指令「急襲突破」 +】",
 		extra_desc = "",
@@ -30529,8 +31952,8 @@ pg.ship_strengthen_blueprint = {
 			19730,
 			18730
 		}
-	},
-	[3301] = {
+	}
+	pg.base.ship_strengthen_blueprint[3301] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -30558,8 +31981,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[3302] = {
+	}
+	pg.base.ship_strengthen_blueprint[3302] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -30583,8 +32006,8 @@ pg.ship_strengthen_blueprint = {
 			69,
 			61
 		}
-	},
-	[3303] = {
+	}
+	pg.base.ship_strengthen_blueprint[3303] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -30608,8 +32031,8 @@ pg.ship_strengthen_blueprint = {
 			69,
 			61
 		}
-	},
-	[3304] = {
+	}
+	pg.base.ship_strengthen_blueprint[3304] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -30633,8 +32056,8 @@ pg.ship_strengthen_blueprint = {
 			69,
 			61
 		}
-	},
-	[3305] = {
+	}
+	pg.base.ship_strengthen_blueprint[3305] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+100|防空+8|主炮效率提高10%|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -30674,8 +32097,10 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[3306] = {
+	}
+end)()
+(function ()
+	pg.base.ship_strengthen_blueprint[3306] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -30699,8 +32124,8 @@ pg.ship_strengthen_blueprint = {
 			138,
 			122
 		}
-	},
-	[3307] = {
+	}
+	pg.base.ship_strengthen_blueprint[3307] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -30724,8 +32149,8 @@ pg.ship_strengthen_blueprint = {
 			138,
 			122
 		}
-	},
-	[3308] = {
+	}
+	pg.base.ship_strengthen_blueprint[3308] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -30749,8 +32174,8 @@ pg.ship_strengthen_blueprint = {
 			138,
 			122
 		}
-	},
-	[3309] = {
+	}
+	pg.base.ship_strengthen_blueprint[3309] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -30774,8 +32199,8 @@ pg.ship_strengthen_blueprint = {
 			138,
 			122
 		}
-	},
-	[3310] = {
+	}
+	pg.base.ship_strengthen_blueprint[3310] = {
 		effect_breakout = 199052,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -30808,8 +32233,8 @@ pg.ship_strengthen_blueprint = {
 			"全武器效率提高2%",
 			"第三武器欄位可以裝備水上機"
 		}
-	},
-	[3311] = {
+	}
+	pg.base.ship_strengthen_blueprint[3311] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -30833,8 +32258,8 @@ pg.ship_strengthen_blueprint = {
 			207,
 			183
 		}
-	},
-	[3312] = {
+	}
+	pg.base.ship_strengthen_blueprint[3312] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -30858,8 +32283,8 @@ pg.ship_strengthen_blueprint = {
 			207,
 			183
 		}
-	},
-	[3313] = {
+	}
+	pg.base.ship_strengthen_blueprint[3313] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -30883,8 +32308,8 @@ pg.ship_strengthen_blueprint = {
 			207,
 			183
 		}
-	},
-	[3314] = {
+	}
+	pg.base.ship_strengthen_blueprint[3314] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -30908,8 +32333,8 @@ pg.ship_strengthen_blueprint = {
 			207,
 			183
 		}
-	},
-	[3315] = {
+	}
+	pg.base.ship_strengthen_blueprint[3315] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+201|防空+16|魚雷預裝填+1|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -30950,8 +32375,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[3316] = {
+	}
+	pg.base.ship_strengthen_blueprint[3316] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -30975,8 +32400,8 @@ pg.ship_strengthen_blueprint = {
 			276,
 			244
 		}
-	},
-	[3317] = {
+	}
+	pg.base.ship_strengthen_blueprint[3317] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -31000,8 +32425,8 @@ pg.ship_strengthen_blueprint = {
 			276,
 			244
 		}
-	},
-	[3318] = {
+	}
+	pg.base.ship_strengthen_blueprint[3318] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -31025,8 +32450,8 @@ pg.ship_strengthen_blueprint = {
 			276,
 			244
 		}
-	},
-	[3319] = {
+	}
+	pg.base.ship_strengthen_blueprint[3319] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -31050,8 +32475,8 @@ pg.ship_strengthen_blueprint = {
 			276,
 			244
 		}
-	},
-	[3320] = {
+	}
+	pg.base.ship_strengthen_blueprint[3320] = {
 		effect_breakout = 199053,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -31082,8 +32507,8 @@ pg.ship_strengthen_blueprint = {
 			"【塞壬之敵】升級",
 			"全武器效率提升3%"
 		}
-	},
-	[3321] = {
+	}
+	pg.base.ship_strengthen_blueprint[3321] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -31107,8 +32532,8 @@ pg.ship_strengthen_blueprint = {
 			345,
 			305
 		}
-	},
-	[3322] = {
+	}
+	pg.base.ship_strengthen_blueprint[3322] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -31132,8 +32557,8 @@ pg.ship_strengthen_blueprint = {
 			345,
 			305
 		}
-	},
-	[3323] = {
+	}
+	pg.base.ship_strengthen_blueprint[3323] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -31157,8 +32582,8 @@ pg.ship_strengthen_blueprint = {
 			345,
 			305
 		}
-	},
-	[3324] = {
+	}
+	pg.base.ship_strengthen_blueprint[3324] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -31182,8 +32607,8 @@ pg.ship_strengthen_blueprint = {
 			345,
 			305
 		}
-	},
-	[3325] = {
+	}
+	pg.base.ship_strengthen_blueprint[3325] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+301|防空+24|鑑賞解鎖：血量警報",
 		extra_desc = "",
@@ -31219,8 +32644,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[3326] = {
+	}
+	pg.base.ship_strengthen_blueprint[3326] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -31244,8 +32669,8 @@ pg.ship_strengthen_blueprint = {
 			345,
 			305
 		}
-	},
-	[3327] = {
+	}
+	pg.base.ship_strengthen_blueprint[3327] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -31269,8 +32694,8 @@ pg.ship_strengthen_blueprint = {
 			345,
 			305
 		}
-	},
-	[3328] = {
+	}
+	pg.base.ship_strengthen_blueprint[3328] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -31294,8 +32719,8 @@ pg.ship_strengthen_blueprint = {
 			345,
 			305
 		}
-	},
-	[3329] = {
+	}
+	pg.base.ship_strengthen_blueprint[3329] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -31319,8 +32744,8 @@ pg.ship_strengthen_blueprint = {
 			345,
 			305
 		}
-	},
-	[3330] = {
+	}
+	pg.base.ship_strengthen_blueprint[3330] = {
 		effect_breakout = 199054,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -31349,8 +32774,8 @@ pg.ship_strengthen_blueprint = {
 			"全武器效率提高5%",
 			"設備提供的基礎屬性額外提高30%"
 		}
-	},
-	[3401] = {
+	}
+	pg.base.ship_strengthen_blueprint[3401] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -31378,8 +32803,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[3402] = {
+	}
+	pg.base.ship_strengthen_blueprint[3402] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -31403,8 +32828,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			52
 		}
-	},
-	[3403] = {
+	}
+	pg.base.ship_strengthen_blueprint[3403] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -31428,8 +32853,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			52
 		}
-	},
-	[3404] = {
+	}
+	pg.base.ship_strengthen_blueprint[3404] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -31453,8 +32878,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			52
 		}
-	},
-	[3405] = {
+	}
+	pg.base.ship_strengthen_blueprint[3405] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+337|防空+12|主炮效率提高5%|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -31494,8 +32919,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[3406] = {
+	}
+	pg.base.ship_strengthen_blueprint[3406] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -31519,8 +32944,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			104
 		}
-	},
-	[3407] = {
+	}
+	pg.base.ship_strengthen_blueprint[3407] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -31544,8 +32969,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			104
 		}
-	},
-	[3408] = {
+	}
+	pg.base.ship_strengthen_blueprint[3408] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -31569,8 +32994,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			104
 		}
-	},
-	[3409] = {
+	}
+	pg.base.ship_strengthen_blueprint[3409] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -31594,8 +33019,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			104
 		}
-	},
-	[3410] = {
+	}
+	pg.base.ship_strengthen_blueprint[3410] = {
 		effect_breakout = 399072,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -31627,8 +33052,8 @@ pg.ship_strengthen_blueprint = {
 			"主炮底座+1",
 			"主炮效率提高5%"
 		}
-	},
-	[3411] = {
+	}
+	pg.base.ship_strengthen_blueprint[3411] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -31652,8 +33077,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			156
 		}
-	},
-	[3412] = {
+	}
+	pg.base.ship_strengthen_blueprint[3412] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -31677,8 +33102,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			156
 		}
-	},
-	[3413] = {
+	}
+	pg.base.ship_strengthen_blueprint[3413] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -31702,8 +33127,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			156
 		}
-	},
-	[3414] = {
+	}
+	pg.base.ship_strengthen_blueprint[3414] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -31727,8 +33152,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			156
 		}
-	},
-	[3415] = {
+	}
+	pg.base.ship_strengthen_blueprint[3415] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+674|防空+25|防空炮效率提高10%|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -31768,8 +33193,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[3416] = {
+	}
+	pg.base.ship_strengthen_blueprint[3416] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -31793,8 +33218,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			208
 		}
-	},
-	[3417] = {
+	}
+	pg.base.ship_strengthen_blueprint[3417] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -31818,8 +33243,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			208
 		}
-	},
-	[3418] = {
+	}
+	pg.base.ship_strengthen_blueprint[3418] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -31843,8 +33268,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			208
 		}
-	},
-	[3419] = {
+	}
+	pg.base.ship_strengthen_blueprint[3419] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -31868,8 +33293,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			208
 		}
-	},
-	[3420] = {
+	}
+	pg.base.ship_strengthen_blueprint[3420] = {
 		effect_breakout = 399073,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -31901,8 +33326,8 @@ pg.ship_strengthen_blueprint = {
 			"副炮底座+2",
 			"主炮效率提高10%"
 		}
-	},
-	[3421] = {
+	}
+	pg.base.ship_strengthen_blueprint[3421] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -31926,8 +33351,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			260
 		}
-	},
-	[3422] = {
+	}
+	pg.base.ship_strengthen_blueprint[3422] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -31951,8 +33376,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			260
 		}
-	},
-	[3423] = {
+	}
+	pg.base.ship_strengthen_blueprint[3423] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -31976,8 +33401,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			260
 		}
-	},
-	[3424] = {
+	}
+	pg.base.ship_strengthen_blueprint[3424] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -32001,8 +33426,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			260
 		}
-	},
-	[3425] = {
+	}
+	pg.base.ship_strengthen_blueprint[3425] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+1010|防空+35|主炮效率提高5%|鑑賞解鎖：血量警報",
 		extra_desc = "",
@@ -32041,8 +33466,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[3426] = {
+	}
+	pg.base.ship_strengthen_blueprint[3426] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -32066,8 +33491,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			260
 		}
-	},
-	[3427] = {
+	}
+	pg.base.ship_strengthen_blueprint[3427] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -32091,8 +33516,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			260
 		}
-	},
-	[3428] = {
+	}
+	pg.base.ship_strengthen_blueprint[3428] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -32116,8 +33541,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			260
 		}
-	},
-	[3429] = {
+	}
+	pg.base.ship_strengthen_blueprint[3429] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -32141,8 +33566,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			260
 		}
-	},
-	[3430] = {
+	}
+	pg.base.ship_strengthen_blueprint[3430] = {
 		effect_breakout = 399074,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -32170,8 +33595,8 @@ pg.ship_strengthen_blueprint = {
 			"主炮底座+1",
 			"主炮效率提高15%"
 		}
-	},
-	[3501] = {
+	}
+	pg.base.ship_strengthen_blueprint[3501] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -32199,8 +33624,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[3502] = {
+	}
+	pg.base.ship_strengthen_blueprint[3502] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -32224,8 +33649,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			50
 		}
-	},
-	[3503] = {
+	}
+	pg.base.ship_strengthen_blueprint[3503] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -32249,8 +33674,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			50
 		}
-	},
-	[3504] = {
+	}
+	pg.base.ship_strengthen_blueprint[3504] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -32274,8 +33699,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			50
 		}
-	},
-	[3505] = {
+	}
+	pg.base.ship_strengthen_blueprint[3505] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+298|防空+12|機動+5|副炮底座+1|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -32320,8 +33745,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[3506] = {
+	}
+	pg.base.ship_strengthen_blueprint[3506] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -32345,8 +33770,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			100
 		}
-	},
-	[3507] = {
+	}
+	pg.base.ship_strengthen_blueprint[3507] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -32370,8 +33795,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			100
 		}
-	},
-	[3508] = {
+	}
+	pg.base.ship_strengthen_blueprint[3508] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -32395,8 +33820,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			100
 		}
-	},
-	[3509] = {
+	}
+	pg.base.ship_strengthen_blueprint[3509] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -32420,8 +33845,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			100
 		}
-	},
-	[3510] = {
+	}
+	pg.base.ship_strengthen_blueprint[3510] = {
 		effect_breakout = 699022,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -32453,8 +33878,8 @@ pg.ship_strengthen_blueprint = {
 			"獲得專屬彈幕I",
 			"主炮效率提升5%"
 		}
-	},
-	[3511] = {
+	}
+	pg.base.ship_strengthen_blueprint[3511] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -32478,8 +33903,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			150
 		}
-	},
-	[3512] = {
+	}
+	pg.base.ship_strengthen_blueprint[3512] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -32503,8 +33928,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			150
 		}
-	},
-	[3513] = {
+	}
+	pg.base.ship_strengthen_blueprint[3513] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -32528,8 +33953,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			150
 		}
-	},
-	[3514] = {
+	}
+	pg.base.ship_strengthen_blueprint[3514] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -32553,8 +33978,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			150
 		}
-	},
-	[3515] = {
+	}
+	pg.base.ship_strengthen_blueprint[3515] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+597|防空+23|主炮效率提高10%|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -32594,8 +34019,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[3516] = {
+	}
+	pg.base.ship_strengthen_blueprint[3516] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -32619,8 +34044,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			200
 		}
-	},
-	[3517] = {
+	}
+	pg.base.ship_strengthen_blueprint[3517] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -32644,8 +34069,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			200
 		}
-	},
-	[3518] = {
+	}
+	pg.base.ship_strengthen_blueprint[3518] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -32669,8 +34094,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			200
 		}
-	},
-	[3519] = {
+	}
+	pg.base.ship_strengthen_blueprint[3519] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -32694,8 +34119,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			200
 		}
-	},
-	[3520] = {
+	}
+	pg.base.ship_strengthen_blueprint[3520] = {
 		effect_breakout = 699023,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -32726,8 +34151,8 @@ pg.ship_strengthen_blueprint = {
 			"【塞壬之敵】升級",
 			"副炮效率提高10%"
 		}
-	},
-	[3521] = {
+	}
+	pg.base.ship_strengthen_blueprint[3521] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -32751,8 +34176,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			250
 		}
-	},
-	[3522] = {
+	}
+	pg.base.ship_strengthen_blueprint[3522] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -32776,8 +34201,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			250
 		}
-	},
-	[3523] = {
+	}
+	pg.base.ship_strengthen_blueprint[3523] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -32801,8 +34226,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			250
 		}
-	},
-	[3524] = {
+	}
+	pg.base.ship_strengthen_blueprint[3524] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -32826,8 +34251,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			250
 		}
-	},
-	[3525] = {
+	}
+	pg.base.ship_strengthen_blueprint[3525] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+894|防空+36|機動+10|鑑賞解鎖：血量警報",
 		extra_desc = "",
@@ -32867,8 +34292,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[3526] = {
+	}
+	pg.base.ship_strengthen_blueprint[3526] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -32892,8 +34317,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			250
 		}
-	},
-	[3527] = {
+	}
+	pg.base.ship_strengthen_blueprint[3527] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -32917,8 +34342,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			250
 		}
-	},
-	[3528] = {
+	}
+	pg.base.ship_strengthen_blueprint[3528] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -32942,8 +34367,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			250
 		}
-	},
-	[3529] = {
+	}
+	pg.base.ship_strengthen_blueprint[3529] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -32967,8 +34392,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			250
 		}
-	},
-	[3530] = {
+	}
+	pg.base.ship_strengthen_blueprint[3530] = {
 		effect_breakout = 699024,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -32996,8 +34421,8 @@ pg.ship_strengthen_blueprint = {
 			"專屬彈幕升級",
 			"全武器效率提高5%"
 		}
-	},
-	[3601] = {
+	}
+	pg.base.ship_strengthen_blueprint[3601] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -33025,8 +34450,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[3602] = {
+	}
+	pg.base.ship_strengthen_blueprint[3602] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -33050,8 +34475,8 @@ pg.ship_strengthen_blueprint = {
 			131,
 			35
 		}
-	},
-	[3603] = {
+	}
+	pg.base.ship_strengthen_blueprint[3603] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -33075,8 +34500,8 @@ pg.ship_strengthen_blueprint = {
 			131,
 			35
 		}
-	},
-	[3604] = {
+	}
+	pg.base.ship_strengthen_blueprint[3604] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -33100,8 +34525,8 @@ pg.ship_strengthen_blueprint = {
 			131,
 			35
 		}
-	},
-	[3605] = {
+	}
+	pg.base.ship_strengthen_blueprint[3605] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+393|防空+14|所有轟炸機+1|所有魚雷機+1|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -33142,8 +34567,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[3606] = {
+	}
+	pg.base.ship_strengthen_blueprint[3606] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -33167,8 +34592,8 @@ pg.ship_strengthen_blueprint = {
 			262,
 			70
 		}
-	},
-	[3607] = {
+	}
+	pg.base.ship_strengthen_blueprint[3607] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -33192,8 +34617,8 @@ pg.ship_strengthen_blueprint = {
 			262,
 			70
 		}
-	},
-	[3608] = {
+	}
+	pg.base.ship_strengthen_blueprint[3608] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -33217,8 +34642,8 @@ pg.ship_strengthen_blueprint = {
 			262,
 			70
 		}
-	},
-	[3609] = {
+	}
+	pg.base.ship_strengthen_blueprint[3609] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -33242,8 +34667,8 @@ pg.ship_strengthen_blueprint = {
 			262,
 			70
 		}
-	},
-	[3610] = {
+	}
+	pg.base.ship_strengthen_blueprint[3610] = {
 		effect_breakout = 799022,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -33275,8 +34700,8 @@ pg.ship_strengthen_blueprint = {
 			"轟炸機效率提高5%",
 			"魚雷機效率提高5%"
 		}
-	},
-	[3611] = {
+	}
+	pg.base.ship_strengthen_blueprint[3611] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -33300,8 +34725,8 @@ pg.ship_strengthen_blueprint = {
 			393,
 			105
 		}
-	},
-	[3612] = {
+	}
+	pg.base.ship_strengthen_blueprint[3612] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -33325,8 +34750,8 @@ pg.ship_strengthen_blueprint = {
 			393,
 			105
 		}
-	},
-	[3613] = {
+	}
+	pg.base.ship_strengthen_blueprint[3613] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -33350,8 +34775,8 @@ pg.ship_strengthen_blueprint = {
 			393,
 			105
 		}
-	},
-	[3614] = {
+	}
+	pg.base.ship_strengthen_blueprint[3614] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -33375,8 +34800,8 @@ pg.ship_strengthen_blueprint = {
 			393,
 			105
 		}
-	},
-	[3615] = {
+	}
+	pg.base.ship_strengthen_blueprint[3615] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+787|防空+27|所有戰鬥機+1|轟炸機效率提高10%|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -33420,8 +34845,10 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[3616] = {
+	}
+end)()
+(function ()
+	pg.base.ship_strengthen_blueprint[3616] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -33445,8 +34872,8 @@ pg.ship_strengthen_blueprint = {
 			524,
 			140
 		}
-	},
-	[3617] = {
+	}
+	pg.base.ship_strengthen_blueprint[3617] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -33470,8 +34897,8 @@ pg.ship_strengthen_blueprint = {
 			524,
 			140
 		}
-	},
-	[3618] = {
+	}
+	pg.base.ship_strengthen_blueprint[3618] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -33495,8 +34922,8 @@ pg.ship_strengthen_blueprint = {
 			524,
 			140
 		}
-	},
-	[3619] = {
+	}
+	pg.base.ship_strengthen_blueprint[3619] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -33520,8 +34947,8 @@ pg.ship_strengthen_blueprint = {
 			524,
 			140
 		}
-	},
-	[3620] = {
+	}
+	pg.base.ship_strengthen_blueprint[3620] = {
 		effect_breakout = 799023,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -33553,8 +34980,8 @@ pg.ship_strengthen_blueprint = {
 			"機庫容量+1",
 			"戰鬥機效率提高10%"
 		}
-	},
-	[3621] = {
+	}
+	pg.base.ship_strengthen_blueprint[3621] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -33578,8 +35005,8 @@ pg.ship_strengthen_blueprint = {
 			655,
 			175
 		}
-	},
-	[3622] = {
+	}
+	pg.base.ship_strengthen_blueprint[3622] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -33603,8 +35030,8 @@ pg.ship_strengthen_blueprint = {
 			655,
 			175
 		}
-	},
-	[3623] = {
+	}
+	pg.base.ship_strengthen_blueprint[3623] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -33628,8 +35055,8 @@ pg.ship_strengthen_blueprint = {
 			655,
 			175
 		}
-	},
-	[3624] = {
+	}
+	pg.base.ship_strengthen_blueprint[3624] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -33653,8 +35080,8 @@ pg.ship_strengthen_blueprint = {
 			655,
 			175
 		}
-	},
-	[3625] = {
+	}
+	pg.base.ship_strengthen_blueprint[3625] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+1180|防空+41|魚雷機效率提高10%|所有艦載機+1|鑑賞解鎖：血量警報",
 		extra_desc = "",
@@ -33697,8 +35124,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[3626] = {
+	}
+	pg.base.ship_strengthen_blueprint[3626] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -33722,8 +35149,8 @@ pg.ship_strengthen_blueprint = {
 			655,
 			175
 		}
-	},
-	[3627] = {
+	}
+	pg.base.ship_strengthen_blueprint[3627] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -33747,8 +35174,8 @@ pg.ship_strengthen_blueprint = {
 			655,
 			175
 		}
-	},
-	[3628] = {
+	}
+	pg.base.ship_strengthen_blueprint[3628] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -33772,8 +35199,8 @@ pg.ship_strengthen_blueprint = {
 			655,
 			175
 		}
-	},
-	[3629] = {
+	}
+	pg.base.ship_strengthen_blueprint[3629] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -33797,8 +35224,8 @@ pg.ship_strengthen_blueprint = {
 			655,
 			175
 		}
-	},
-	[3630] = {
+	}
+	pg.base.ship_strengthen_blueprint[3630] = {
 		effect_breakout = 799024,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -33826,8 +35253,8 @@ pg.ship_strengthen_blueprint = {
 			"艦載機效率提高5%",
 			"轟炸機欄位可以裝備任意類型艦載機"
 		}
-	},
-	[3701] = {
+	}
+	pg.base.ship_strengthen_blueprint[3701] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -33855,8 +35282,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[3702] = {
+	}
+	pg.base.ship_strengthen_blueprint[3702] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -33880,8 +35307,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			56
 		}
-	},
-	[3703] = {
+	}
+	pg.base.ship_strengthen_blueprint[3703] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -33905,8 +35332,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			56
 		}
-	},
-	[3704] = {
+	}
+	pg.base.ship_strengthen_blueprint[3704] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -33930,8 +35357,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			56
 		}
-	},
-	[3705] = {
+	}
+	pg.base.ship_strengthen_blueprint[3705] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+202|防空+17|魚雷效率提高10%|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -33971,8 +35398,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[3706] = {
+	}
+	pg.base.ship_strengthen_blueprint[3706] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -33996,8 +35423,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			112
 		}
-	},
-	[3707] = {
+	}
+	pg.base.ship_strengthen_blueprint[3707] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -34021,8 +35448,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			112
 		}
-	},
-	[3708] = {
+	}
+	pg.base.ship_strengthen_blueprint[3708] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -34046,8 +35473,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			112
 		}
-	},
-	[3709] = {
+	}
+	pg.base.ship_strengthen_blueprint[3709] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -34071,8 +35498,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			112
 		}
-	},
-	[3710] = {
+	}
+	pg.base.ship_strengthen_blueprint[3710] = {
 		effect_breakout = 899042,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -34104,8 +35531,8 @@ pg.ship_strengthen_blueprint = {
 			"獲得專屬彈幕I",
 			"主炮效率提升5%"
 		}
-	},
-	[3711] = {
+	}
+	pg.base.ship_strengthen_blueprint[3711] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -34129,8 +35556,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			168
 		}
-	},
-	[3712] = {
+	}
+	pg.base.ship_strengthen_blueprint[3712] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -34154,8 +35581,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			168
 		}
-	},
-	[3713] = {
+	}
+	pg.base.ship_strengthen_blueprint[3713] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -34179,8 +35606,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			168
 		}
-	},
-	[3714] = {
+	}
+	pg.base.ship_strengthen_blueprint[3714] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -34204,8 +35631,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			168
 		}
-	},
-	[3715] = {
+	}
+	pg.base.ship_strengthen_blueprint[3715] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+405|防空+35|魚雷底座+1|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -34246,8 +35673,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[3716] = {
+	}
+	pg.base.ship_strengthen_blueprint[3716] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -34271,8 +35698,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			224
 		}
-	},
-	[3717] = {
+	}
+	pg.base.ship_strengthen_blueprint[3717] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -34296,8 +35723,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			224
 		}
-	},
-	[3718] = {
+	}
+	pg.base.ship_strengthen_blueprint[3718] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -34321,8 +35748,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			224
 		}
-	},
-	[3719] = {
+	}
+	pg.base.ship_strengthen_blueprint[3719] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -34346,8 +35773,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			224
 		}
-	},
-	[3720] = {
+	}
+	pg.base.ship_strengthen_blueprint[3720] = {
 		effect_breakout = 899043,
 		effect_desc = "突破至5星|主炮底座+1|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -34382,8 +35809,8 @@ pg.ship_strengthen_blueprint = {
 			"【塞壬之敵】升級",
 			"魚雷效率提高10%"
 		}
-	},
-	[3721] = {
+	}
+	pg.base.ship_strengthen_blueprint[3721] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -34407,8 +35834,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			280
 		}
-	},
-	[3722] = {
+	}
+	pg.base.ship_strengthen_blueprint[3722] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -34432,8 +35859,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			280
 		}
-	},
-	[3723] = {
+	}
+	pg.base.ship_strengthen_blueprint[3723] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -34457,8 +35884,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			280
 		}
-	},
-	[3724] = {
+	}
+	pg.base.ship_strengthen_blueprint[3724] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -34482,8 +35909,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			280
 		}
-	},
-	[3725] = {
+	}
+	pg.base.ship_strengthen_blueprint[3725] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+607|防空+51|鑑賞解鎖：血量警報",
 		extra_desc = "",
@@ -34519,8 +35946,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[3726] = {
+	}
+	pg.base.ship_strengthen_blueprint[3726] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -34544,8 +35971,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			280
 		}
-	},
-	[3727] = {
+	}
+	pg.base.ship_strengthen_blueprint[3727] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -34569,8 +35996,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			280
 		}
-	},
-	[3728] = {
+	}
+	pg.base.ship_strengthen_blueprint[3728] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -34594,8 +36021,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			280
 		}
-	},
-	[3729] = {
+	}
+	pg.base.ship_strengthen_blueprint[3729] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -34619,8 +36046,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			280
 		}
-	},
-	[3730] = {
+	}
+	pg.base.ship_strengthen_blueprint[3730] = {
 		effect_breakout = 899044,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -34648,8 +36075,8 @@ pg.ship_strengthen_blueprint = {
 			"專屬彈幕升級",
 			"主炮效率提高10%"
 		}
-	},
-	[3801] = {
+	}
+	pg.base.ship_strengthen_blueprint[3801] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -34677,8 +36104,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[3802] = {
+	}
+	pg.base.ship_strengthen_blueprint[3802] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -34702,8 +36129,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			40
 		}
-	},
-	[3803] = {
+	}
+	pg.base.ship_strengthen_blueprint[3803] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -34727,8 +36154,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			40
 		}
-	},
-	[3804] = {
+	}
+	pg.base.ship_strengthen_blueprint[3804] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -34752,8 +36179,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			40
 		}
-	},
-	[3805] = {
+	}
+	pg.base.ship_strengthen_blueprint[3805] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+350|防空+19|副炮效率提升10%|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -34793,8 +36220,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[3806] = {
+	}
+	pg.base.ship_strengthen_blueprint[3806] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -34818,8 +36245,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			80
 		}
-	},
-	[3807] = {
+	}
+	pg.base.ship_strengthen_blueprint[3807] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -34843,8 +36270,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			80
 		}
-	},
-	[3808] = {
+	}
+	pg.base.ship_strengthen_blueprint[3808] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -34868,8 +36295,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			80
 		}
-	},
-	[3809] = {
+	}
+	pg.base.ship_strengthen_blueprint[3809] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -34893,8 +36320,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			80
 		}
-	},
-	[3810] = {
+	}
+	pg.base.ship_strengthen_blueprint[3810] = {
 		effect_breakout = 199062,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -34926,8 +36353,8 @@ pg.ship_strengthen_blueprint = {
 			"主炮底座+1",
 			"主炮效率提高5%"
 		}
-	},
-	[3811] = {
+	}
+	pg.base.ship_strengthen_blueprint[3811] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -34951,8 +36378,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			120
 		}
-	},
-	[3812] = {
+	}
+	pg.base.ship_strengthen_blueprint[3812] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -34976,8 +36403,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			120
 		}
-	},
-	[3813] = {
+	}
+	pg.base.ship_strengthen_blueprint[3813] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -35001,8 +36428,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			120
 		}
-	},
-	[3814] = {
+	}
+	pg.base.ship_strengthen_blueprint[3814] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -35026,8 +36453,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			120
 		}
-	},
-	[3815] = {
+	}
+	pg.base.ship_strengthen_blueprint[3815] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+700|防空+37|防空炮效率提升10%|鑑賞解鎖：主介面3、觸控1、任務完成",
 		extra_desc = "",
@@ -35067,8 +36494,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[3816] = {
+	}
+	pg.base.ship_strengthen_blueprint[3816] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -35092,8 +36519,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			160
 		}
-	},
-	[3817] = {
+	}
+	pg.base.ship_strengthen_blueprint[3817] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -35117,8 +36544,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			160
 		}
-	},
-	[3818] = {
+	}
+	pg.base.ship_strengthen_blueprint[3818] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -35142,8 +36569,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			160
 		}
-	},
-	[3819] = {
+	}
+	pg.base.ship_strengthen_blueprint[3819] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -35167,8 +36594,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			160
 		}
-	},
-	[3820] = {
+	}
+	pg.base.ship_strengthen_blueprint[3820] = {
 		effect_breakout = 199063,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -35200,8 +36627,8 @@ pg.ship_strengthen_blueprint = {
 			"副炮底座+2",
 			"主炮效率提高10%"
 		}
-	},
-	[3821] = {
+	}
+	pg.base.ship_strengthen_blueprint[3821] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -35225,8 +36652,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			200
 		}
-	},
-	[3822] = {
+	}
+	pg.base.ship_strengthen_blueprint[3822] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -35250,8 +36677,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			200
 		}
-	},
-	[3823] = {
+	}
+	pg.base.ship_strengthen_blueprint[3823] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -35275,8 +36702,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			200
 		}
-	},
-	[3824] = {
+	}
+	pg.base.ship_strengthen_blueprint[3824] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -35300,8 +36727,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			200
 		}
-	},
-	[3825] = {
+	}
+	pg.base.ship_strengthen_blueprint[3825] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+1049|防空+56|主炮效率提高5%|鑑賞解鎖：血量警報",
 		extra_desc = "",
@@ -35340,8 +36767,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[3826] = {
+	}
+	pg.base.ship_strengthen_blueprint[3826] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -35365,8 +36792,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			200
 		}
-	},
-	[3827] = {
+	}
+	pg.base.ship_strengthen_blueprint[3827] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -35390,8 +36817,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			200
 		}
-	},
-	[3828] = {
+	}
+	pg.base.ship_strengthen_blueprint[3828] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -35415,8 +36842,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			200
 		}
-	},
-	[3829] = {
+	}
+	pg.base.ship_strengthen_blueprint[3829] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -35440,8 +36867,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			200
 		}
-	},
-	[3830] = {
+	}
+	pg.base.ship_strengthen_blueprint[3830] = {
 		effect_breakout = 199064,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -35469,8 +36896,8 @@ pg.ship_strengthen_blueprint = {
 			"主炮底座+1",
 			"主炮效率提高15%"
 		}
-	},
-	[3901] = {
+	}
+	pg.base.ship_strengthen_blueprint[3901] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -35498,8 +36925,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[3902] = {
+	}
+	pg.base.ship_strengthen_blueprint[3902] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -35523,8 +36950,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			46
 		}
-	},
-	[3903] = {
+	}
+	pg.base.ship_strengthen_blueprint[3903] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -35548,8 +36975,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			46
 		}
-	},
-	[3904] = {
+	}
+	pg.base.ship_strengthen_blueprint[3904] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -35573,8 +37000,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			46
 		}
-	},
-	[3905] = {
+	}
+	pg.base.ship_strengthen_blueprint[3905] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+409|防空+12|主炮效率提升5%|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -35614,8 +37041,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[3906] = {
+	}
+	pg.base.ship_strengthen_blueprint[3906] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -35639,8 +37066,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			92
 		}
-	},
-	[3907] = {
+	}
+	pg.base.ship_strengthen_blueprint[3907] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -35664,8 +37091,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			92
 		}
-	},
-	[3908] = {
+	}
+	pg.base.ship_strengthen_blueprint[3908] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -35689,8 +37116,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			92
 		}
-	},
-	[3909] = {
+	}
+	pg.base.ship_strengthen_blueprint[3909] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -35714,8 +37141,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			92
 		}
-	},
-	[3910] = {
+	}
+	pg.base.ship_strengthen_blueprint[3910] = {
 		effect_breakout = 499102,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -35747,8 +37174,8 @@ pg.ship_strengthen_blueprint = {
 			"主炮底座+1",
 			"主炮效率提高5%"
 		}
-	},
-	[3911] = {
+	}
+	pg.base.ship_strengthen_blueprint[3911] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -35772,8 +37199,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			138
 		}
-	},
-	[3912] = {
+	}
+	pg.base.ship_strengthen_blueprint[3912] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -35797,8 +37224,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			138
 		}
-	},
-	[3913] = {
+	}
+	pg.base.ship_strengthen_blueprint[3913] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -35822,8 +37249,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			138
 		}
-	},
-	[3914] = {
+	}
+	pg.base.ship_strengthen_blueprint[3914] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -35847,8 +37274,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			138
 		}
-	},
-	[3915] = {
+	}
+	pg.base.ship_strengthen_blueprint[3915] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+818|防空+24|防空炮效率提升10%|鑑賞解鎖：主介面3、觸控1、任務完成",
 		extra_desc = "",
@@ -35888,8 +37315,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[3916] = {
+	}
+	pg.base.ship_strengthen_blueprint[3916] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -35913,8 +37340,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			184
 		}
-	},
-	[3917] = {
+	}
+	pg.base.ship_strengthen_blueprint[3917] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -35938,8 +37365,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			184
 		}
-	},
-	[3918] = {
+	}
+	pg.base.ship_strengthen_blueprint[3918] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -35963,8 +37390,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			184
 		}
-	},
-	[3919] = {
+	}
+	pg.base.ship_strengthen_blueprint[3919] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -35988,8 +37415,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			184
 		}
-	},
-	[3920] = {
+	}
+	pg.base.ship_strengthen_blueprint[3920] = {
 		effect_breakout = 499103,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -36022,8 +37449,8 @@ pg.ship_strengthen_blueprint = {
 			"副炮底座+2",
 			"主炮效率提高10%"
 		}
-	},
-	[3921] = {
+	}
+	pg.base.ship_strengthen_blueprint[3921] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -36047,8 +37474,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[3922] = {
+	}
+	pg.base.ship_strengthen_blueprint[3922] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -36072,8 +37499,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[3923] = {
+	}
+	pg.base.ship_strengthen_blueprint[3923] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -36097,8 +37524,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[3924] = {
+	}
+	pg.base.ship_strengthen_blueprint[3924] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -36122,8 +37549,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[3925] = {
+	}
+	pg.base.ship_strengthen_blueprint[3925] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+1226|防空+35|主炮效率提高5%|鑑賞解鎖：血量警報",
 		extra_desc = "",
@@ -36162,8 +37589,10 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[3926] = {
+	}
+end)()
+(function ()
+	pg.base.ship_strengthen_blueprint[3926] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -36187,8 +37616,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[3927] = {
+	}
+	pg.base.ship_strengthen_blueprint[3927] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -36212,8 +37641,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[3928] = {
+	}
+	pg.base.ship_strengthen_blueprint[3928] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -36237,8 +37666,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[3929] = {
+	}
+	pg.base.ship_strengthen_blueprint[3929] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -36262,8 +37691,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			230
 		}
-	},
-	[3930] = {
+	}
+	pg.base.ship_strengthen_blueprint[3930] = {
 		effect_breakout = 499104,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -36291,8 +37720,8 @@ pg.ship_strengthen_blueprint = {
 			"主炮底座+1",
 			"主炮效率提高15%"
 		}
-	},
-	[4001] = {
+	}
+	pg.base.ship_strengthen_blueprint[4001] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -36320,8 +37749,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[4002] = {
+	}
+	pg.base.ship_strengthen_blueprint[4002] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -36345,8 +37774,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			59
 		}
-	},
-	[4003] = {
+	}
+	pg.base.ship_strengthen_blueprint[4003] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -36370,8 +37799,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			59
 		}
-	},
-	[4004] = {
+	}
+	pg.base.ship_strengthen_blueprint[4004] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -36395,8 +37824,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			59
 		}
-	},
-	[4005] = {
+	}
+	pg.base.ship_strengthen_blueprint[4005] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+84|防空+9|主炮效率提升5%|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -36436,8 +37865,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[4006] = {
+	}
+	pg.base.ship_strengthen_blueprint[4006] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -36461,8 +37890,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			118
 		}
-	},
-	[4007] = {
+	}
+	pg.base.ship_strengthen_blueprint[4007] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -36486,8 +37915,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			118
 		}
-	},
-	[4008] = {
+	}
+	pg.base.ship_strengthen_blueprint[4008] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -36511,8 +37940,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			118
 		}
-	},
-	[4009] = {
+	}
+	pg.base.ship_strengthen_blueprint[4009] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -36536,8 +37965,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			118
 		}
-	},
-	[4010] = {
+	}
+	pg.base.ship_strengthen_blueprint[4010] = {
 		effect_breakout = 699032,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -36569,8 +37998,8 @@ pg.ship_strengthen_blueprint = {
 			"主炮效率提高5%",
 			"取得專屬彈幕I"
 		}
-	},
-	[4011] = {
+	}
+	pg.base.ship_strengthen_blueprint[4011] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -36594,8 +38023,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			177
 		}
-	},
-	[4012] = {
+	}
+	pg.base.ship_strengthen_blueprint[4012] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -36619,8 +38048,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			177
 		}
-	},
-	[4013] = {
+	}
+	pg.base.ship_strengthen_blueprint[4013] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -36644,8 +38073,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			177
 		}
-	},
-	[4014] = {
+	}
+	pg.base.ship_strengthen_blueprint[4014] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -36669,8 +38098,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			177
 		}
-	},
-	[4015] = {
+	}
+	pg.base.ship_strengthen_blueprint[4015] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+168|防空+17|魚雷預裝填+1|鑑賞解鎖：主介面3、觸碰1、任務完成",
 		extra_desc = "",
@@ -36711,8 +38140,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[4016] = {
+	}
+	pg.base.ship_strengthen_blueprint[4016] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -36736,8 +38165,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			236
 		}
-	},
-	[4017] = {
+	}
+	pg.base.ship_strengthen_blueprint[4017] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -36761,8 +38190,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			236
 		}
-	},
-	[4018] = {
+	}
+	pg.base.ship_strengthen_blueprint[4018] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -36786,8 +38215,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			236
 		}
-	},
-	[4019] = {
+	}
+	pg.base.ship_strengthen_blueprint[4019] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -36811,8 +38240,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			236
 		}
-	},
-	[4020] = {
+	}
+	pg.base.ship_strengthen_blueprint[4020] = {
 		effect_breakout = 699033,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -36843,8 +38272,8 @@ pg.ship_strengthen_blueprint = {
 			"【塞壬之敵】升級",
 			"主炮效率提高10%"
 		}
-	},
-	[4021] = {
+	}
+	pg.base.ship_strengthen_blueprint[4021] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -36868,8 +38297,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			295
 		}
-	},
-	[4022] = {
+	}
+	pg.base.ship_strengthen_blueprint[4022] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -36893,8 +38322,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			295
 		}
-	},
-	[4023] = {
+	}
+	pg.base.ship_strengthen_blueprint[4023] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -36918,8 +38347,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			295
 		}
-	},
-	[4024] = {
+	}
+	pg.base.ship_strengthen_blueprint[4024] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -36943,8 +38372,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			295
 		}
-	},
-	[4025] = {
+	}
+	pg.base.ship_strengthen_blueprint[4025] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+252|防空+26|鑑賞解鎖：血量警報",
 		extra_desc = "",
@@ -36980,8 +38409,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[4026] = {
+	}
+	pg.base.ship_strengthen_blueprint[4026] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -37005,8 +38434,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			295
 		}
-	},
-	[4027] = {
+	}
+	pg.base.ship_strengthen_blueprint[4027] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -37030,8 +38459,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			295
 		}
-	},
-	[4028] = {
+	}
+	pg.base.ship_strengthen_blueprint[4028] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -37055,8 +38484,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			295
 		}
-	},
-	[4029] = {
+	}
+	pg.base.ship_strengthen_blueprint[4029] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -37080,8 +38509,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			295
 		}
-	},
-	[4030] = {
+	}
+	pg.base.ship_strengthen_blueprint[4030] = {
 		effect_breakout = 699034,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -37110,8 +38539,8 @@ pg.ship_strengthen_blueprint = {
 			"全武器效率提高5%",
 			"觸發專屬彈幕所需主炮射擊次數減半"
 		}
-	},
-	[4101] = {
+	}
+	pg.base.ship_strengthen_blueprint[4101] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -37139,8 +38568,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[4102] = {
+	}
+	pg.base.ship_strengthen_blueprint[4102] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -37164,8 +38593,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			53
 		}
-	},
-	[4103] = {
+	}
+	pg.base.ship_strengthen_blueprint[4103] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -37189,8 +38618,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			53
 		}
-	},
-	[4104] = {
+	}
+	pg.base.ship_strengthen_blueprint[4104] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -37214,8 +38643,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			53
 		}
-	},
-	[4105] = {
+	}
+	pg.base.ship_strengthen_blueprint[4105] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+200|防空+18|魚雷效率提升10%|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -37255,8 +38684,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[4106] = {
+	}
+	pg.base.ship_strengthen_blueprint[4106] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -37280,8 +38709,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			106
 		}
-	},
-	[4107] = {
+	}
+	pg.base.ship_strengthen_blueprint[4107] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -37305,8 +38734,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			106
 		}
-	},
-	[4108] = {
+	}
+	pg.base.ship_strengthen_blueprint[4108] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -37330,8 +38759,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			106
 		}
-	},
-	[4109] = {
+	}
+	pg.base.ship_strengthen_blueprint[4109] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -37355,8 +38784,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			106
 		}
-	},
-	[4110] = {
+	}
+	pg.base.ship_strengthen_blueprint[4110] = {
 		effect_breakout = 799032,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -37388,8 +38817,8 @@ pg.ship_strengthen_blueprint = {
 			"取得專屬彈幕I",
 			"主炮效率提升5%"
 		}
-	},
-	[4111] = {
+	}
+	pg.base.ship_strengthen_blueprint[4111] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -37413,8 +38842,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			159
 		}
-	},
-	[4112] = {
+	}
+	pg.base.ship_strengthen_blueprint[4112] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -37438,8 +38867,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			159
 		}
-	},
-	[4113] = {
+	}
+	pg.base.ship_strengthen_blueprint[4113] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -37463,8 +38892,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			159
 		}
-	},
-	[4114] = {
+	}
+	pg.base.ship_strengthen_blueprint[4114] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -37488,8 +38917,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			159
 		}
-	},
-	[4115] = {
+	}
+	pg.base.ship_strengthen_blueprint[4115] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+400|防空+35|魚雷底座+1|鑑賞解鎖：主介面3、觸摸1、任務完成",
 		extra_desc = "",
@@ -37530,8 +38959,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[4116] = {
+	}
+	pg.base.ship_strengthen_blueprint[4116] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -37555,8 +38984,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			212
 		}
-	},
-	[4117] = {
+	}
+	pg.base.ship_strengthen_blueprint[4117] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -37580,8 +39009,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			212
 		}
-	},
-	[4118] = {
+	}
+	pg.base.ship_strengthen_blueprint[4118] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -37605,8 +39034,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			212
 		}
-	},
-	[4119] = {
+	}
+	pg.base.ship_strengthen_blueprint[4119] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -37630,8 +39059,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			212
 		}
-	},
-	[4120] = {
+	}
+	pg.base.ship_strengthen_blueprint[4120] = {
 		effect_breakout = 799033,
 		effect_desc = "突破至5星|主炮底座+1|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -37666,8 +39095,8 @@ pg.ship_strengthen_blueprint = {
 			"【塞壬之敵】升級",
 			"魚雷效率提高10%"
 		}
-	},
-	[4121] = {
+	}
+	pg.base.ship_strengthen_blueprint[4121] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -37691,8 +39120,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			265
 		}
-	},
-	[4122] = {
+	}
+	pg.base.ship_strengthen_blueprint[4122] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -37716,8 +39145,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			265
 		}
-	},
-	[4123] = {
+	}
+	pg.base.ship_strengthen_blueprint[4123] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -37741,8 +39170,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			265
 		}
-	},
-	[4124] = {
+	}
+	pg.base.ship_strengthen_blueprint[4124] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -37766,8 +39195,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			265
 		}
-	},
-	[4125] = {
+	}
+	pg.base.ship_strengthen_blueprint[4125] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+600|防空+53|鑑賞解鎖：血量警報",
 		extra_desc = "",
@@ -37803,8 +39232,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[4126] = {
+	}
+	pg.base.ship_strengthen_blueprint[4126] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -37828,8 +39257,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			265
 		}
-	},
-	[4127] = {
+	}
+	pg.base.ship_strengthen_blueprint[4127] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -37853,8 +39282,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			265
 		}
-	},
-	[4128] = {
+	}
+	pg.base.ship_strengthen_blueprint[4128] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -37878,8 +39307,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			265
 		}
-	},
-	[4129] = {
+	}
+	pg.base.ship_strengthen_blueprint[4129] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -37903,8 +39332,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			265
 		}
-	},
-	[4130] = {
+	}
+	pg.base.ship_strengthen_blueprint[4130] = {
 		effect_breakout = 799034,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -37932,8 +39361,8 @@ pg.ship_strengthen_blueprint = {
 			"專屬彈幕升級",
 			"主炮效率提高10%"
 		}
-	},
-	[4201] = {
+	}
+	pg.base.ship_strengthen_blueprint[4201] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
 		extra_desc = "",
@@ -37961,8 +39390,8 @@ pg.ship_strengthen_blueprint = {
 			"home",
 			"profile"
 		}
-	},
-	[4202] = {
+	}
+	pg.base.ship_strengthen_blueprint[4202] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -37986,8 +39415,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			49
 		}
-	},
-	[4203] = {
+	}
+	pg.base.ship_strengthen_blueprint[4203] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -38011,8 +39440,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			49
 		}
-	},
-	[4204] = {
+	}
+	pg.base.ship_strengthen_blueprint[4204] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -38036,8 +39465,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			49
 		}
-	},
-	[4205] = {
+	}
+	pg.base.ship_strengthen_blueprint[4205] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+296|防空+22|機動+5|主炮底座+1|鑑賞解鎖：主介面1、旗艦開戰、任務",
 		extra_desc = "",
@@ -38082,8 +39511,8 @@ pg.ship_strengthen_blueprint = {
 			"battle",
 			"mission"
 		}
-	},
-	[4206] = {
+	}
+	pg.base.ship_strengthen_blueprint[4206] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -38107,8 +39536,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			98
 		}
-	},
-	[4207] = {
+	}
+	pg.base.ship_strengthen_blueprint[4207] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -38132,8 +39561,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			98
 		}
-	},
-	[4208] = {
+	}
+	pg.base.ship_strengthen_blueprint[4208] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -38157,8 +39586,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			98
 		}
-	},
-	[4209] = {
+	}
+	pg.base.ship_strengthen_blueprint[4209] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -38182,8 +39611,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			98
 		}
-	},
-	[4210] = {
+	}
+	pg.base.ship_strengthen_blueprint[4210] = {
 		effect_breakout = 1199012,
 		effect_desc = "突破至4星|鑑賞解鎖：主介面2、戰鬥MVP、失敗",
 		effect_attr = "",
@@ -38215,8 +39644,8 @@ pg.ship_strengthen_blueprint = {
 			"空襲航空屬性Lv.2",
 			"主炮效率提升5%"
 		}
-	},
-	[4211] = {
+	}
+	pg.base.ship_strengthen_blueprint[4211] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -38240,8 +39669,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			147
 		}
-	},
-	[4212] = {
+	}
+	pg.base.ship_strengthen_blueprint[4212] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -38265,8 +39694,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			147
 		}
-	},
-	[4213] = {
+	}
+	pg.base.ship_strengthen_blueprint[4213] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -38290,8 +39719,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			147
 		}
-	},
-	[4214] = {
+	}
+	pg.base.ship_strengthen_blueprint[4214] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -38315,8 +39744,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			147
 		}
-	},
-	[4215] = {
+	}
+	pg.base.ship_strengthen_blueprint[4215] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+592|防空+43|副炮效率提升10%|鑑賞解鎖：主介面3、觸控1、任務完成",
 		extra_desc = "",
@@ -38356,8 +39785,8 @@ pg.ship_strengthen_blueprint = {
 			"touch",
 			"mission_complete"
 		}
-	},
-	[4216] = {
+	}
+	pg.base.ship_strengthen_blueprint[4216] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -38381,8 +39810,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			196
 		}
-	},
-	[4217] = {
+	}
+	pg.base.ship_strengthen_blueprint[4217] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -38406,8 +39835,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			196
 		}
-	},
-	[4218] = {
+	}
+	pg.base.ship_strengthen_blueprint[4218] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -38431,8 +39860,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			196
 		}
-	},
-	[4219] = {
+	}
+	pg.base.ship_strengthen_blueprint[4219] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -38456,8 +39885,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			196
 		}
-	},
-	[4220] = {
+	}
+	pg.base.ship_strengthen_blueprint[4220] = {
 		effect_breakout = 1199013,
 		effect_desc = "突破至5星|鑑賞解鎖：技能、郵件、委託完成",
 		effect_attr = "",
@@ -38489,8 +39918,8 @@ pg.ship_strengthen_blueprint = {
 			"空襲航空屬性Lv.3",
 			"防空炮底座+1"
 		}
-	},
-	[4221] = {
+	}
+	pg.base.ship_strengthen_blueprint[4221] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -38514,8 +39943,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			245
 		}
-	},
-	[4222] = {
+	}
+	pg.base.ship_strengthen_blueprint[4222] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -38539,8 +39968,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			245
 		}
-	},
-	[4223] = {
+	}
+	pg.base.ship_strengthen_blueprint[4223] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -38564,8 +39993,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			245
 		}
-	},
-	[4224] = {
+	}
+	pg.base.ship_strengthen_blueprint[4224] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -38589,8 +40018,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			245
 		}
-	},
-	[4225] = {
+	}
+	pg.base.ship_strengthen_blueprint[4225] = {
 		effect_breakout = 0,
 		effect_desc = "耐久+887|防空+65|機動+10|鑑賞解鎖：血量警報",
 		extra_desc = "",
@@ -38630,8 +40059,8 @@ pg.ship_strengthen_blueprint = {
 			"touch2",
 			"hp_warning"
 		}
-	},
-	[4226] = {
+	}
+	pg.base.ship_strengthen_blueprint[4226] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -38655,8 +40084,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			245
 		}
-	},
-	[4227] = {
+	}
+	pg.base.ship_strengthen_blueprint[4227] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -38680,8 +40109,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			245
 		}
-	},
-	[4228] = {
+	}
+	pg.base.ship_strengthen_blueprint[4228] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -38705,8 +40134,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			245
 		}
-	},
-	[4229] = {
+	}
+	pg.base.ship_strengthen_blueprint[4229] = {
 		effect_breakout = 0,
 		effect_desc = "",
 		extra_desc = "",
@@ -38730,8 +40159,8 @@ pg.ship_strengthen_blueprint = {
 			0,
 			245
 		}
-	},
-	[4230] = {
+	}
+	pg.base.ship_strengthen_blueprint[4230] = {
 		effect_breakout = 1199014,
 		effect_desc = "突破至6星",
 		effect_attr = "",
@@ -38759,1402 +40188,5 @@ pg.ship_strengthen_blueprint = {
 			"空襲航空屬性Lv.4",
 			"主炮效率提高15%"
 		}
-	},
-	all = {
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		110,
-		111,
-		112,
-		113,
-		114,
-		115,
-		116,
-		117,
-		118,
-		119,
-		120,
-		121,
-		122,
-		123,
-		124,
-		125,
-		126,
-		127,
-		128,
-		129,
-		130,
-		131,
-		132,
-		133,
-		134,
-		135,
-		201,
-		202,
-		203,
-		204,
-		205,
-		206,
-		207,
-		208,
-		209,
-		210,
-		211,
-		212,
-		213,
-		214,
-		215,
-		216,
-		217,
-		218,
-		219,
-		220,
-		221,
-		222,
-		223,
-		224,
-		225,
-		226,
-		227,
-		228,
-		229,
-		230,
-		231,
-		232,
-		233,
-		234,
-		235,
-		301,
-		302,
-		303,
-		304,
-		305,
-		306,
-		307,
-		308,
-		309,
-		310,
-		311,
-		312,
-		313,
-		314,
-		315,
-		316,
-		317,
-		318,
-		319,
-		320,
-		321,
-		322,
-		323,
-		324,
-		325,
-		326,
-		327,
-		328,
-		329,
-		330,
-		331,
-		332,
-		333,
-		334,
-		335,
-		401,
-		402,
-		403,
-		404,
-		405,
-		406,
-		407,
-		408,
-		409,
-		410,
-		411,
-		412,
-		413,
-		414,
-		415,
-		416,
-		417,
-		418,
-		419,
-		420,
-		421,
-		422,
-		423,
-		424,
-		425,
-		426,
-		427,
-		428,
-		429,
-		430,
-		431,
-		432,
-		433,
-		434,
-		435,
-		501,
-		502,
-		503,
-		504,
-		505,
-		506,
-		507,
-		508,
-		509,
-		510,
-		511,
-		512,
-		513,
-		514,
-		515,
-		516,
-		517,
-		518,
-		519,
-		520,
-		521,
-		522,
-		523,
-		524,
-		525,
-		526,
-		527,
-		528,
-		529,
-		530,
-		531,
-		532,
-		533,
-		534,
-		535,
-		601,
-		602,
-		603,
-		604,
-		605,
-		606,
-		607,
-		608,
-		609,
-		610,
-		611,
-		612,
-		613,
-		614,
-		615,
-		616,
-		617,
-		618,
-		619,
-		620,
-		621,
-		622,
-		623,
-		624,
-		625,
-		626,
-		627,
-		628,
-		629,
-		630,
-		631,
-		632,
-		633,
-		634,
-		635,
-		701,
-		702,
-		703,
-		704,
-		705,
-		706,
-		707,
-		708,
-		709,
-		710,
-		711,
-		712,
-		713,
-		714,
-		715,
-		716,
-		717,
-		718,
-		719,
-		720,
-		721,
-		722,
-		723,
-		724,
-		725,
-		726,
-		727,
-		728,
-		729,
-		730,
-		731,
-		732,
-		733,
-		734,
-		735,
-		801,
-		802,
-		803,
-		804,
-		805,
-		806,
-		807,
-		808,
-		809,
-		810,
-		811,
-		812,
-		813,
-		814,
-		815,
-		816,
-		817,
-		818,
-		819,
-		820,
-		821,
-		822,
-		823,
-		824,
-		825,
-		826,
-		827,
-		828,
-		829,
-		830,
-		831,
-		832,
-		833,
-		834,
-		835,
-		901,
-		902,
-		903,
-		904,
-		905,
-		906,
-		907,
-		908,
-		909,
-		910,
-		911,
-		912,
-		913,
-		914,
-		915,
-		916,
-		917,
-		918,
-		919,
-		920,
-		921,
-		922,
-		923,
-		924,
-		925,
-		926,
-		927,
-		928,
-		929,
-		930,
-		931,
-		932,
-		933,
-		934,
-		935,
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1007,
-		1008,
-		1009,
-		1010,
-		1011,
-		1012,
-		1013,
-		1014,
-		1015,
-		1016,
-		1017,
-		1018,
-		1019,
-		1020,
-		1021,
-		1022,
-		1023,
-		1024,
-		1025,
-		1026,
-		1027,
-		1028,
-		1029,
-		1030,
-		1031,
-		1032,
-		1033,
-		1034,
-		1035,
-		1101,
-		1102,
-		1103,
-		1104,
-		1105,
-		1106,
-		1107,
-		1108,
-		1109,
-		1110,
-		1111,
-		1112,
-		1113,
-		1114,
-		1115,
-		1116,
-		1117,
-		1118,
-		1119,
-		1120,
-		1121,
-		1122,
-		1123,
-		1124,
-		1125,
-		1126,
-		1127,
-		1128,
-		1129,
-		1130,
-		1131,
-		1132,
-		1133,
-		1134,
-		1135,
-		1201,
-		1202,
-		1203,
-		1204,
-		1205,
-		1206,
-		1207,
-		1208,
-		1209,
-		1210,
-		1211,
-		1212,
-		1213,
-		1214,
-		1215,
-		1216,
-		1217,
-		1218,
-		1219,
-		1220,
-		1221,
-		1222,
-		1223,
-		1224,
-		1225,
-		1226,
-		1227,
-		1228,
-		1229,
-		1230,
-		1231,
-		1232,
-		1233,
-		1234,
-		1235,
-		1301,
-		1302,
-		1303,
-		1304,
-		1305,
-		1306,
-		1307,
-		1308,
-		1309,
-		1310,
-		1311,
-		1312,
-		1313,
-		1314,
-		1315,
-		1316,
-		1317,
-		1318,
-		1319,
-		1320,
-		1321,
-		1322,
-		1323,
-		1324,
-		1325,
-		1326,
-		1327,
-		1328,
-		1329,
-		1330,
-		1331,
-		1332,
-		1333,
-		1334,
-		1335,
-		1401,
-		1402,
-		1403,
-		1404,
-		1405,
-		1406,
-		1407,
-		1408,
-		1409,
-		1410,
-		1411,
-		1412,
-		1413,
-		1414,
-		1415,
-		1416,
-		1417,
-		1418,
-		1419,
-		1420,
-		1421,
-		1422,
-		1423,
-		1424,
-		1425,
-		1426,
-		1427,
-		1428,
-		1429,
-		1430,
-		1431,
-		1432,
-		1433,
-		1434,
-		1435,
-		1501,
-		1502,
-		1503,
-		1504,
-		1505,
-		1506,
-		1507,
-		1508,
-		1509,
-		1510,
-		1511,
-		1512,
-		1513,
-		1514,
-		1515,
-		1516,
-		1517,
-		1518,
-		1519,
-		1520,
-		1521,
-		1522,
-		1523,
-		1524,
-		1525,
-		1526,
-		1527,
-		1528,
-		1529,
-		1530,
-		1531,
-		1532,
-		1533,
-		1534,
-		1535,
-		1601,
-		1602,
-		1603,
-		1604,
-		1605,
-		1606,
-		1607,
-		1608,
-		1609,
-		1610,
-		1611,
-		1612,
-		1613,
-		1614,
-		1615,
-		1616,
-		1617,
-		1618,
-		1619,
-		1620,
-		1621,
-		1622,
-		1623,
-		1624,
-		1625,
-		1626,
-		1627,
-		1628,
-		1629,
-		1630,
-		1631,
-		1632,
-		1633,
-		1634,
-		1635,
-		1701,
-		1702,
-		1703,
-		1704,
-		1705,
-		1706,
-		1707,
-		1708,
-		1709,
-		1710,
-		1711,
-		1712,
-		1713,
-		1714,
-		1715,
-		1716,
-		1717,
-		1718,
-		1719,
-		1720,
-		1721,
-		1722,
-		1723,
-		1724,
-		1725,
-		1726,
-		1727,
-		1728,
-		1729,
-		1730,
-		1731,
-		1732,
-		1733,
-		1734,
-		1735,
-		1801,
-		1802,
-		1803,
-		1804,
-		1805,
-		1806,
-		1807,
-		1808,
-		1809,
-		1810,
-		1811,
-		1812,
-		1813,
-		1814,
-		1815,
-		1816,
-		1817,
-		1818,
-		1819,
-		1820,
-		1821,
-		1822,
-		1823,
-		1824,
-		1825,
-		1826,
-		1827,
-		1828,
-		1829,
-		1830,
-		1831,
-		1832,
-		1833,
-		1834,
-		1835,
-		1901,
-		1902,
-		1903,
-		1904,
-		1905,
-		1906,
-		1907,
-		1908,
-		1909,
-		1910,
-		1911,
-		1912,
-		1913,
-		1914,
-		1915,
-		1916,
-		1917,
-		1918,
-		1919,
-		1920,
-		1921,
-		1922,
-		1923,
-		1924,
-		1925,
-		1926,
-		1927,
-		1928,
-		1929,
-		1930,
-		1931,
-		1932,
-		1933,
-		1934,
-		1935,
-		2001,
-		2002,
-		2003,
-		2004,
-		2005,
-		2006,
-		2007,
-		2008,
-		2009,
-		2010,
-		2011,
-		2012,
-		2013,
-		2014,
-		2015,
-		2016,
-		2017,
-		2018,
-		2019,
-		2020,
-		2021,
-		2022,
-		2023,
-		2024,
-		2025,
-		2026,
-		2027,
-		2028,
-		2029,
-		2030,
-		2101,
-		2102,
-		2103,
-		2104,
-		2105,
-		2106,
-		2107,
-		2108,
-		2109,
-		2110,
-		2111,
-		2112,
-		2113,
-		2114,
-		2115,
-		2116,
-		2117,
-		2118,
-		2119,
-		2120,
-		2121,
-		2122,
-		2123,
-		2124,
-		2125,
-		2126,
-		2127,
-		2128,
-		2129,
-		2130,
-		2131,
-		2132,
-		2133,
-		2134,
-		2135,
-		2201,
-		2202,
-		2203,
-		2204,
-		2205,
-		2206,
-		2207,
-		2208,
-		2209,
-		2210,
-		2211,
-		2212,
-		2213,
-		2214,
-		2215,
-		2216,
-		2217,
-		2218,
-		2219,
-		2220,
-		2221,
-		2222,
-		2223,
-		2224,
-		2225,
-		2226,
-		2227,
-		2228,
-		2229,
-		2230,
-		2231,
-		2232,
-		2233,
-		2234,
-		2235,
-		2301,
-		2302,
-		2303,
-		2304,
-		2305,
-		2306,
-		2307,
-		2308,
-		2309,
-		2310,
-		2311,
-		2312,
-		2313,
-		2314,
-		2315,
-		2316,
-		2317,
-		2318,
-		2319,
-		2320,
-		2321,
-		2322,
-		2323,
-		2324,
-		2325,
-		2326,
-		2327,
-		2328,
-		2329,
-		2330,
-		2401,
-		2402,
-		2403,
-		2404,
-		2405,
-		2406,
-		2407,
-		2408,
-		2409,
-		2410,
-		2411,
-		2412,
-		2413,
-		2414,
-		2415,
-		2416,
-		2417,
-		2418,
-		2419,
-		2420,
-		2421,
-		2422,
-		2423,
-		2424,
-		2425,
-		2426,
-		2427,
-		2428,
-		2429,
-		2430,
-		2431,
-		2432,
-		2433,
-		2434,
-		2435,
-		2501,
-		2502,
-		2503,
-		2504,
-		2505,
-		2506,
-		2507,
-		2508,
-		2509,
-		2510,
-		2511,
-		2512,
-		2513,
-		2514,
-		2515,
-		2516,
-		2517,
-		2518,
-		2519,
-		2520,
-		2521,
-		2522,
-		2523,
-		2524,
-		2525,
-		2526,
-		2527,
-		2528,
-		2529,
-		2530,
-		2531,
-		2532,
-		2533,
-		2534,
-		2535,
-		2601,
-		2602,
-		2603,
-		2604,
-		2605,
-		2606,
-		2607,
-		2608,
-		2609,
-		2610,
-		2611,
-		2612,
-		2613,
-		2614,
-		2615,
-		2616,
-		2617,
-		2618,
-		2619,
-		2620,
-		2621,
-		2622,
-		2623,
-		2624,
-		2625,
-		2626,
-		2627,
-		2628,
-		2629,
-		2630,
-		2631,
-		2632,
-		2633,
-		2634,
-		2635,
-		2701,
-		2702,
-		2703,
-		2704,
-		2705,
-		2706,
-		2707,
-		2708,
-		2709,
-		2710,
-		2711,
-		2712,
-		2713,
-		2714,
-		2715,
-		2716,
-		2717,
-		2718,
-		2719,
-		2720,
-		2721,
-		2722,
-		2723,
-		2724,
-		2725,
-		2726,
-		2727,
-		2728,
-		2729,
-		2730,
-		2801,
-		2802,
-		2803,
-		2804,
-		2805,
-		2806,
-		2807,
-		2808,
-		2809,
-		2810,
-		2811,
-		2812,
-		2813,
-		2814,
-		2815,
-		2816,
-		2817,
-		2818,
-		2819,
-		2820,
-		2821,
-		2822,
-		2823,
-		2824,
-		2825,
-		2826,
-		2827,
-		2828,
-		2829,
-		2830,
-		2901,
-		2902,
-		2903,
-		2904,
-		2905,
-		2906,
-		2907,
-		2908,
-		2909,
-		2910,
-		2911,
-		2912,
-		2913,
-		2914,
-		2915,
-		2916,
-		2917,
-		2918,
-		2919,
-		2920,
-		2921,
-		2922,
-		2923,
-		2924,
-		2925,
-		2926,
-		2927,
-		2928,
-		2929,
-		2930,
-		2931,
-		2932,
-		2933,
-		2934,
-		2935,
-		3001,
-		3002,
-		3003,
-		3004,
-		3005,
-		3006,
-		3007,
-		3008,
-		3009,
-		3010,
-		3011,
-		3012,
-		3013,
-		3014,
-		3015,
-		3016,
-		3017,
-		3018,
-		3019,
-		3020,
-		3021,
-		3022,
-		3023,
-		3024,
-		3025,
-		3026,
-		3027,
-		3028,
-		3029,
-		3030,
-		3031,
-		3032,
-		3033,
-		3034,
-		3035,
-		3101,
-		3102,
-		3103,
-		3104,
-		3105,
-		3106,
-		3107,
-		3108,
-		3109,
-		3110,
-		3111,
-		3112,
-		3113,
-		3114,
-		3115,
-		3116,
-		3117,
-		3118,
-		3119,
-		3120,
-		3121,
-		3122,
-		3123,
-		3124,
-		3125,
-		3126,
-		3127,
-		3128,
-		3129,
-		3130,
-		3201,
-		3202,
-		3203,
-		3204,
-		3205,
-		3206,
-		3207,
-		3208,
-		3209,
-		3210,
-		3211,
-		3212,
-		3213,
-		3214,
-		3215,
-		3216,
-		3217,
-		3218,
-		3219,
-		3220,
-		3221,
-		3222,
-		3223,
-		3224,
-		3225,
-		3226,
-		3227,
-		3228,
-		3229,
-		3230,
-		3231,
-		3232,
-		3233,
-		3234,
-		3235,
-		3301,
-		3302,
-		3303,
-		3304,
-		3305,
-		3306,
-		3307,
-		3308,
-		3309,
-		3310,
-		3311,
-		3312,
-		3313,
-		3314,
-		3315,
-		3316,
-		3317,
-		3318,
-		3319,
-		3320,
-		3321,
-		3322,
-		3323,
-		3324,
-		3325,
-		3326,
-		3327,
-		3328,
-		3329,
-		3330,
-		3401,
-		3402,
-		3403,
-		3404,
-		3405,
-		3406,
-		3407,
-		3408,
-		3409,
-		3410,
-		3411,
-		3412,
-		3413,
-		3414,
-		3415,
-		3416,
-		3417,
-		3418,
-		3419,
-		3420,
-		3421,
-		3422,
-		3423,
-		3424,
-		3425,
-		3426,
-		3427,
-		3428,
-		3429,
-		3430,
-		3501,
-		3502,
-		3503,
-		3504,
-		3505,
-		3506,
-		3507,
-		3508,
-		3509,
-		3510,
-		3511,
-		3512,
-		3513,
-		3514,
-		3515,
-		3516,
-		3517,
-		3518,
-		3519,
-		3520,
-		3521,
-		3522,
-		3523,
-		3524,
-		3525,
-		3526,
-		3527,
-		3528,
-		3529,
-		3530,
-		3601,
-		3602,
-		3603,
-		3604,
-		3605,
-		3606,
-		3607,
-		3608,
-		3609,
-		3610,
-		3611,
-		3612,
-		3613,
-		3614,
-		3615,
-		3616,
-		3617,
-		3618,
-		3619,
-		3620,
-		3621,
-		3622,
-		3623,
-		3624,
-		3625,
-		3626,
-		3627,
-		3628,
-		3629,
-		3630,
-		3701,
-		3702,
-		3703,
-		3704,
-		3705,
-		3706,
-		3707,
-		3708,
-		3709,
-		3710,
-		3711,
-		3712,
-		3713,
-		3714,
-		3715,
-		3716,
-		3717,
-		3718,
-		3719,
-		3720,
-		3721,
-		3722,
-		3723,
-		3724,
-		3725,
-		3726,
-		3727,
-		3728,
-		3729,
-		3730,
-		3801,
-		3802,
-		3803,
-		3804,
-		3805,
-		3806,
-		3807,
-		3808,
-		3809,
-		3810,
-		3811,
-		3812,
-		3813,
-		3814,
-		3815,
-		3816,
-		3817,
-		3818,
-		3819,
-		3820,
-		3821,
-		3822,
-		3823,
-		3824,
-		3825,
-		3826,
-		3827,
-		3828,
-		3829,
-		3830,
-		3901,
-		3902,
-		3903,
-		3904,
-		3905,
-		3906,
-		3907,
-		3908,
-		3909,
-		3910,
-		3911,
-		3912,
-		3913,
-		3914,
-		3915,
-		3916,
-		3917,
-		3918,
-		3919,
-		3920,
-		3921,
-		3922,
-		3923,
-		3924,
-		3925,
-		3926,
-		3927,
-		3928,
-		3929,
-		3930,
-		4001,
-		4002,
-		4003,
-		4004,
-		4005,
-		4006,
-		4007,
-		4008,
-		4009,
-		4010,
-		4011,
-		4012,
-		4013,
-		4014,
-		4015,
-		4016,
-		4017,
-		4018,
-		4019,
-		4020,
-		4021,
-		4022,
-		4023,
-		4024,
-		4025,
-		4026,
-		4027,
-		4028,
-		4029,
-		4030,
-		4101,
-		4102,
-		4103,
-		4104,
-		4105,
-		4106,
-		4107,
-		4108,
-		4109,
-		4110,
-		4111,
-		4112,
-		4113,
-		4114,
-		4115,
-		4116,
-		4117,
-		4118,
-		4119,
-		4120,
-		4121,
-		4122,
-		4123,
-		4124,
-		4125,
-		4126,
-		4127,
-		4128,
-		4129,
-		4130,
-		4201,
-		4202,
-		4203,
-		4204,
-		4205,
-		4206,
-		4207,
-		4208,
-		4209,
-		4210,
-		4211,
-		4212,
-		4213,
-		4214,
-		4215,
-		4216,
-		4217,
-		4218,
-		4219,
-		4220,
-		4221,
-		4222,
-		4223,
-		4224,
-		4225,
-		4226,
-		4227,
-		4228,
-		4229,
-		4230
 	}
-}
+end)()

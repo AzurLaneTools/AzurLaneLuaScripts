@@ -1,6 +1,82 @@
 pg = pg or {}
-pg.dorm3d_camera_zone_template = {
-	[1001] = {
+pg.dorm3d_camera_zone_template = rawget(pg, "dorm3d_camera_zone_template") or setmetatable({
+	__name = "dorm3d_camera_zone_template"
+}, confNEO)
+pg.dorm3d_camera_zone_template.all = {
+	1001,
+	1002,
+	1003,
+	2001,
+	2002,
+	2003,
+	3001,
+	3002,
+	3003,
+	4001,
+	4002,
+	4003,
+	11001,
+	11002,
+	11003,
+	12001,
+	12002,
+	12003,
+	14001,
+	14002,
+	14003,
+	16001,
+	16002,
+	16003,
+	16004
+}
+pg.dorm3d_camera_zone_template.get_id_list_by_room_id = {
+	{
+		1001,
+		1002,
+		1003
+	},
+	{
+		2001,
+		2002,
+		2003
+	},
+	{
+		3001,
+		3002,
+		3003
+	},
+	{
+		4001,
+		4002,
+		4003
+	},
+	[11] = {
+		11001,
+		11002,
+		11003
+	},
+	[12] = {
+		12001,
+		12002,
+		12003
+	},
+	[14] = {
+		14001,
+		14002,
+		14003
+	},
+	[16] = {
+		16001,
+		16002,
+		16003,
+		16004
+	}
+}
+pg.base = pg.base or {}
+pg.base.dorm3d_camera_zone_template = {}
+
+(function ()
+	pg.base.dorm3d_camera_zone_template[1001] = {
 		name = "臥室",
 		record_time = 60,
 		room_id = 1,
@@ -62,8 +138,8 @@ pg.dorm3d_camera_zone_template = {
 			-100,
 			100
 		}
-	},
-	[1002] = {
+	}
+	pg.base.dorm3d_camera_zone_template[1002] = {
 		name = "餐廳",
 		record_time = 60,
 		room_id = 1,
@@ -121,8 +197,8 @@ pg.dorm3d_camera_zone_template = {
 			-100,
 			100
 		}
-	},
-	[1003] = {
+	}
+	pg.base.dorm3d_camera_zone_template[1003] = {
 		name = "客廳",
 		record_time = 60,
 		room_id = 1,
@@ -188,8 +264,8 @@ pg.dorm3d_camera_zone_template = {
 			-100,
 			100
 		}
-	},
-	[2001] = {
+	}
+	pg.base.dorm3d_camera_zone_template[2001] = {
 		name = "臥室",
 		record_time = 60,
 		room_id = 2,
@@ -252,8 +328,8 @@ pg.dorm3d_camera_zone_template = {
 			-100,
 			100
 		}
-	},
-	[2002] = {
+	}
+	pg.base.dorm3d_camera_zone_template[2002] = {
 		name = "餐廳",
 		record_time = 60,
 		room_id = 2,
@@ -316,8 +392,8 @@ pg.dorm3d_camera_zone_template = {
 			-100,
 			100
 		}
-	},
-	[2003] = {
+	}
+	pg.base.dorm3d_camera_zone_template[2003] = {
 		name = "客廳",
 		record_time = 60,
 		room_id = 2,
@@ -380,8 +456,8 @@ pg.dorm3d_camera_zone_template = {
 			-100,
 			100
 		}
-	},
-	[3001] = {
+	}
+	pg.base.dorm3d_camera_zone_template[3001] = {
 		name = "臥室",
 		record_time = 60,
 		room_id = 3,
@@ -447,8 +523,8 @@ pg.dorm3d_camera_zone_template = {
 			-100,
 			100
 		}
-	},
-	[3002] = {
+	}
+	pg.base.dorm3d_camera_zone_template[3002] = {
 		name = "娛樂區",
 		record_time = 60,
 		room_id = 3,
@@ -514,8 +590,8 @@ pg.dorm3d_camera_zone_template = {
 			-100,
 			100
 		}
-	},
-	[3003] = {
+	}
+	pg.base.dorm3d_camera_zone_template[3003] = {
 		name = "客廳",
 		record_time = 60,
 		room_id = 3,
@@ -581,8 +657,8 @@ pg.dorm3d_camera_zone_template = {
 			-100,
 			100
 		}
-	},
-	[4001] = {
+	}
+	pg.base.dorm3d_camera_zone_template[4001] = {
 		name = "沙灘椅",
 		record_time = 60,
 		room_id = 4,
@@ -648,8 +724,8 @@ pg.dorm3d_camera_zone_template = {
 			-100,
 			100
 		}
-	},
-	[4002] = {
+	}
+	pg.base.dorm3d_camera_zone_template[4002] = {
 		name = "遮陽傘",
 		record_time = 60,
 		room_id = 4,
@@ -715,8 +791,8 @@ pg.dorm3d_camera_zone_template = {
 			-100,
 			100
 		}
-	},
-	[4003] = {
+	}
+	pg.base.dorm3d_camera_zone_template[4003] = {
 		name = "海灘",
 		record_time = 60,
 		room_id = 4,
@@ -782,8 +858,8 @@ pg.dorm3d_camera_zone_template = {
 			-100,
 			100
 		}
-	},
-	[11001] = {
+	}
+	pg.base.dorm3d_camera_zone_template[11001] = {
 		name = "臥室",
 		record_time = 60,
 		room_id = 11,
@@ -847,8 +923,8 @@ pg.dorm3d_camera_zone_template = {
 			-100,
 			100
 		}
-	},
-	[11002] = {
+	}
+	pg.base.dorm3d_camera_zone_template[11002] = {
 		name = "餐廳",
 		record_time = 60,
 		room_id = 11,
@@ -912,8 +988,8 @@ pg.dorm3d_camera_zone_template = {
 			-100,
 			100
 		}
-	},
-	[11003] = {
+	}
+	pg.base.dorm3d_camera_zone_template[11003] = {
 		name = "客廳",
 		record_time = 60,
 		room_id = 11,
@@ -981,8 +1057,8 @@ pg.dorm3d_camera_zone_template = {
 			-100,
 			100
 		}
-	},
-	[12001] = {
+	}
+	pg.base.dorm3d_camera_zone_template[12001] = {
 		name = "臥室",
 		record_time = 60,
 		room_id = 12,
@@ -1051,8 +1127,8 @@ pg.dorm3d_camera_zone_template = {
 			-100,
 			100
 		}
-	},
-	[12002] = {
+	}
+	pg.base.dorm3d_camera_zone_template[12002] = {
 		name = "餐廳",
 		record_time = 60,
 		room_id = 12,
@@ -1117,8 +1193,8 @@ pg.dorm3d_camera_zone_template = {
 			-100,
 			100
 		}
-	},
-	[12003] = {
+	}
+	pg.base.dorm3d_camera_zone_template[12003] = {
 		name = "客廳",
 		record_time = 60,
 		room_id = 12,
@@ -1191,8 +1267,8 @@ pg.dorm3d_camera_zone_template = {
 			-100,
 			100
 		}
-	},
-	[14001] = {
+	}
+	pg.base.dorm3d_camera_zone_template[14001] = {
 		name = "臥室",
 		record_time = 60,
 		room_id = 14,
@@ -1257,8 +1333,8 @@ pg.dorm3d_camera_zone_template = {
 			-100,
 			100
 		}
-	},
-	[14002] = {
+	}
+	pg.base.dorm3d_camera_zone_template[14002] = {
 		name = "書房",
 		record_time = 60,
 		room_id = 14,
@@ -1323,8 +1399,8 @@ pg.dorm3d_camera_zone_template = {
 			-100,
 			100
 		}
-	},
-	[14003] = {
+	}
+	pg.base.dorm3d_camera_zone_template[14003] = {
 		name = "客廳",
 		record_time = 60,
 		room_id = 14,
@@ -1385,8 +1461,8 @@ pg.dorm3d_camera_zone_template = {
 			-100,
 			100
 		}
-	},
-	[16001] = {
+	}
+	pg.base.dorm3d_camera_zone_template[16001] = {
 		name = "舞池",
 		record_time = 60,
 		room_id = 16,
@@ -1462,8 +1538,8 @@ pg.dorm3d_camera_zone_template = {
 			-100,
 			100
 		}
-	},
-	[16002] = {
+	}
+	pg.base.dorm3d_camera_zone_template[16002] = {
 		name = "吧台",
 		record_time = 60,
 		room_id = 16,
@@ -1539,8 +1615,8 @@ pg.dorm3d_camera_zone_template = {
 			-100,
 			100
 		}
-	},
-	[16003] = {
+	}
+	pg.base.dorm3d_camera_zone_template[16003] = {
 		name = "卡座",
 		record_time = 60,
 		room_id = 16,
@@ -1616,8 +1692,8 @@ pg.dorm3d_camera_zone_template = {
 			-100,
 			100
 		}
-	},
-	[16004] = {
+	}
+	pg.base.dorm3d_camera_zone_template[16004] = {
 		name = "休息區",
 		record_time = 60,
 		room_id = 16,
@@ -1693,75 +1769,5 @@ pg.dorm3d_camera_zone_template = {
 			-100,
 			100
 		}
-	},
-	get_id_list_by_room_id = {
-		{
-			1001,
-			1002,
-			1003
-		},
-		{
-			2001,
-			2002,
-			2003
-		},
-		{
-			3001,
-			3002,
-			3003
-		},
-		{
-			4001,
-			4002,
-			4003
-		},
-		[11] = {
-			11001,
-			11002,
-			11003
-		},
-		[12] = {
-			12001,
-			12002,
-			12003
-		},
-		[14] = {
-			14001,
-			14002,
-			14003
-		},
-		[16] = {
-			16001,
-			16002,
-			16003,
-			16004
-		}
-	},
-	all = {
-		1001,
-		1002,
-		1003,
-		2001,
-		2002,
-		2003,
-		3001,
-		3002,
-		3003,
-		4001,
-		4002,
-		4003,
-		11001,
-		11002,
-		11003,
-		12001,
-		12002,
-		12003,
-		14001,
-		14002,
-		14003,
-		16001,
-		16002,
-		16003,
-		16004
 	}
-}
+end)()

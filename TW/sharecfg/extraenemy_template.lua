@@ -1,6 +1,33 @@
 pg = pg or {}
-pg.extraenemy_template = {
-	{
+pg.extraenemy_template = rawget(pg, "extraenemy_template") or setmetatable({
+	__name = "extraenemy_template"
+}, confNEO)
+pg.extraenemy_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19
+}
+pg.base = pg.base or {}
+pg.base.extraenemy_template = {}
+
+(function ()
+	pg.base.extraenemy_template[1] = {
 		mail_title = "world_boss_title_1",
 		name = "女仆据点",
 		hp = 10000,
@@ -18,8 +45,8 @@ pg.extraenemy_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.extraenemy_template[2] = {
 		mail_title = "world_boss_title_1",
 		name = "埃塞克斯",
 		hp = 10000,
@@ -55,8 +82,8 @@ pg.extraenemy_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.extraenemy_template[3] = {
 		mail_title = "world_boss_title_4",
 		name = "骏河",
 		hp = 10000,
@@ -92,8 +119,8 @@ pg.extraenemy_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.extraenemy_template[4] = {
 		mail_title = "world_boss_title_5",
 		name = "黛朵",
 		hp = 10000,
@@ -129,8 +156,8 @@ pg.extraenemy_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.extraenemy_template[5] = {
 		mail_title = "world_boss_title_1",
 		name = "埃塞克斯",
 		hp = 10000,
@@ -166,8 +193,8 @@ pg.extraenemy_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.extraenemy_template[6] = {
 		mail_title = "world_boss_title_6",
 		name = "布里斯托尔",
 		hp = 10000,
@@ -203,8 +230,8 @@ pg.extraenemy_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.extraenemy_template[7] = {
 		mail_title = "world_boss_title_7",
 		name = "霞飞",
 		hp = 10000,
@@ -240,8 +267,8 @@ pg.extraenemy_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.extraenemy_template[8] = {
 		mail_title = "world_boss_title_8",
 		name = "阿尔比恩 ",
 		hp = 10000,
@@ -277,8 +304,8 @@ pg.extraenemy_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.extraenemy_template[9] = {
 		mail_title = "world_boss_title_9",
 		name = "古比雪夫",
 		hp = 10000,
@@ -314,8 +341,8 @@ pg.extraenemy_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.extraenemy_template[10] = {
 		mail_title = "world_boss_title_10",
 		name = "戈里齐亚",
 		hp = 10000,
@@ -351,8 +378,8 @@ pg.extraenemy_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.extraenemy_template[11] = {
 		mail_title = "world_boss_title_11",
 		name = "寰昌",
 		hp = 10000,
@@ -388,8 +415,8 @@ pg.extraenemy_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.extraenemy_template[12] = {
 		mail_title = "world_boss_title_12",
 		name = "建武",
 		hp = 10000,
@@ -425,8 +452,8 @@ pg.extraenemy_template = {
 				1
 			}
 		}
-	},
-	{
+	}
+	pg.base.extraenemy_template[13] = {
 		mail_title = "world_boss_title_13",
 		name = "约战1-BOSS",
 		hp = 300,
@@ -451,8 +478,8 @@ pg.extraenemy_template = {
 		replace_task = {
 			24710
 		}
-	},
-	{
+	}
+	pg.base.extraenemy_template[14] = {
 		mail_title = "world_boss_title_13",
 		name = "约战2-BOSS",
 		hp = 700,
@@ -477,8 +504,8 @@ pg.extraenemy_template = {
 		replace_task = {
 			24711
 		}
-	},
-	{
+	}
+	pg.base.extraenemy_template[15] = {
 		mail_title = "world_boss_title_13",
 		name = "约战3-BOSS",
 		hp = 700,
@@ -503,8 +530,8 @@ pg.extraenemy_template = {
 		replace_task = {
 			24712
 		}
-	},
-	{
+	}
+	pg.base.extraenemy_template[16] = {
 		mail_title = "world_boss_title_13",
 		name = "约战4-BOSS",
 		hp = 700,
@@ -529,8 +556,8 @@ pg.extraenemy_template = {
 		replace_task = {
 			24713
 		}
-	},
-	{
+	}
+	pg.base.extraenemy_template[17] = {
 		mail_title = "world_boss_title_13",
 		name = "约战5-BOSS",
 		hp = 700,
@@ -555,8 +582,8 @@ pg.extraenemy_template = {
 		replace_task = {
 			24714
 		}
-	},
-	{
+	}
+	pg.base.extraenemy_template[18] = {
 		mail_title = "world_boss_title_13",
 		name = "约战6-BOSS",
 		hp = 7000,
@@ -581,8 +608,8 @@ pg.extraenemy_template = {
 		replace_task = {
 			24715
 		}
-	},
-	{
+	}
+	pg.base.extraenemy_template[19] = {
 		mail_title = "world_boss_title_14",
 		name = "彰武",
 		hp = 10000,
@@ -618,26 +645,5 @@ pg.extraenemy_template = {
 				1
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19
 	}
-}
+end)()

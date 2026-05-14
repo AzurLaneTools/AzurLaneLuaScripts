@@ -1,6 +1,30 @@
 pg = pg or {}
-pg.island_fish = {
-	[5001] = {
+pg.island_fish = rawget(pg, "island_fish") or setmetatable({
+	__name = "island_fish"
+}, confNEO)
+pg.island_fish.all = {
+	5001,
+	5002,
+	5003,
+	5004,
+	5005,
+	5006,
+	5007,
+	5008,
+	5101,
+	5102,
+	5103,
+	5104,
+	5105,
+	5106,
+	5107,
+	5108
+}
+pg.base = pg.base or {}
+pg.base.island_fish = {}
+
+(function ()
+	pg.base.island_fish[5001] = {
 		name = "贝壳",
 		item_id = 5001,
 		id = 5001,
@@ -12,8 +36,8 @@ pg.island_fish = {
 			2,
 			4
 		}
-	},
-	[5002] = {
+	}
+	pg.base.island_fish[5002] = {
 		name = "鲶鱼",
 		item_id = 5002,
 		id = 5002,
@@ -25,8 +49,8 @@ pg.island_fish = {
 			2,
 			4
 		}
-	},
-	[5003] = {
+	}
+	pg.base.island_fish[5003] = {
 		name = "鲤鱼",
 		item_id = 5003,
 		id = 5003,
@@ -38,8 +62,8 @@ pg.island_fish = {
 			3,
 			5
 		}
-	},
-	[5004] = {
+	}
+	pg.base.island_fish[5004] = {
 		name = "鲫鱼",
 		item_id = 5004,
 		id = 5004,
@@ -51,8 +75,8 @@ pg.island_fish = {
 			3,
 			5
 		}
-	},
-	[5005] = {
+	}
+	pg.base.island_fish[5005] = {
 		name = "小河虾",
 		item_id = 5005,
 		id = 5005,
@@ -64,8 +88,8 @@ pg.island_fish = {
 			4,
 			7
 		}
-	},
-	[5006] = {
+	}
+	pg.base.island_fish[5006] = {
 		name = "小龙虾",
 		item_id = 5006,
 		id = 5006,
@@ -77,8 +101,8 @@ pg.island_fish = {
 			4,
 			7
 		}
-	},
-	[5007] = {
+	}
+	pg.base.island_fish[5007] = {
 		name = "鲈鱼",
 		item_id = 5007,
 		id = 5007,
@@ -90,8 +114,8 @@ pg.island_fish = {
 			5,
 			8
 		}
-	},
-	[5008] = {
+	}
+	pg.base.island_fish[5008] = {
 		name = "螃蟹",
 		item_id = 5008,
 		id = 5008,
@@ -103,8 +127,8 @@ pg.island_fish = {
 			5,
 			8
 		}
-	},
-	[5101] = {
+	}
+	pg.base.island_fish[5101] = {
 		name = "鱿鱼",
 		item_id = 5101,
 		id = 5101,
@@ -116,8 +140,8 @@ pg.island_fish = {
 			3,
 			5
 		}
-	},
-	[5102] = {
+	}
+	pg.base.island_fish[5102] = {
 		name = "马鲛鱼",
 		item_id = 5102,
 		id = 5102,
@@ -129,8 +153,8 @@ pg.island_fish = {
 			3,
 			5
 		}
-	},
-	[5103] = {
+	}
+	pg.base.island_fish[5103] = {
 		name = "金枪鱼",
 		item_id = 5103,
 		id = 5103,
@@ -142,8 +166,8 @@ pg.island_fish = {
 			3,
 			5
 		}
-	},
-	[5104] = {
+	}
+	pg.base.island_fish[5104] = {
 		name = "三文鱼",
 		item_id = 5104,
 		id = 5104,
@@ -155,8 +179,8 @@ pg.island_fish = {
 			4,
 			7
 		}
-	},
-	[5105] = {
+	}
+	pg.base.island_fish[5105] = {
 		name = "红鲷鱼",
 		item_id = 5105,
 		id = 5105,
@@ -168,8 +192,8 @@ pg.island_fish = {
 			4,
 			7
 		}
-	},
-	[5106] = {
+	}
+	pg.base.island_fish[5106] = {
 		name = "黑鲷鱼",
 		item_id = 5106,
 		id = 5106,
@@ -181,8 +205,8 @@ pg.island_fish = {
 			5,
 			8
 		}
-	},
-	[5107] = {
+	}
+	pg.base.island_fish[5107] = {
 		name = "黄鳍金枪鱼",
 		item_id = 5107,
 		id = 5107,
@@ -194,8 +218,8 @@ pg.island_fish = {
 			5,
 			8
 		}
-	},
-	[5108] = {
+	}
+	pg.base.island_fish[5108] = {
 		name = "海参",
 		item_id = 5108,
 		id = 5108,
@@ -207,23 +231,5 @@ pg.island_fish = {
 			5,
 			8
 		}
-	},
-	all = {
-		5001,
-		5002,
-		5003,
-		5004,
-		5005,
-		5006,
-		5007,
-		5008,
-		5101,
-		5102,
-		5103,
-		5104,
-		5105,
-		5106,
-		5107,
-		5108
 	}
-}
+end)()

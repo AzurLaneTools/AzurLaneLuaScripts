@@ -1,297 +1,287 @@
 pg = pg or {}
-pg.child2_site_display = setmetatable({
-	__name = "child2_site_display",
-	get_id_list_by_type = {
-		{
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24,
-			25,
-			26,
-			27,
-			28,
-			29
-		},
-		[3] = {
-			1
-		},
-		[4] = {
-			2
-		},
-		[2] = {
-			3
-		},
-		[5] = {
-			4101,
-			4102,
-			4103,
-			4104,
-			4105,
-			4106,
-			4107,
-			4108,
-			4109,
-			4110,
-			4111,
-			4112,
-			4113,
-			4114,
-			4115,
-			4116,
-			4117,
-			4118,
-			4119,
-			4120,
-			4121,
-			4122,
-			4123,
-			4124,
-			4125,
-			4126,
-			4127,
-			4128,
-			4129,
-			4130,
-			4131,
-			4132,
-			4133,
-			4134,
-			4135,
-			4136,
-			4137,
-			4138,
-			4139,
-			4140,
-			4141,
-			4142,
-			4143,
-			4144,
-			4145,
-			4146,
-			4160,
-			4161,
-			4162,
-			4163,
-			4164,
-			4165,
-			4166,
-			4167,
-			4168,
-			4169,
-			4170,
-			4171,
-			4172,
-			4173,
-			4174,
-			4175,
-			4201,
-			4202,
-			4203,
-			4204,
-			4205,
-			4206,
-			4207,
-			4208,
-			4209,
-			4210,
-			4211,
-			4212,
-			4213,
-			4214,
-			4215,
-			4216,
-			4217,
-			4218,
-			4219,
-			4220,
-			4221,
-			4222,
-			4223,
-			4224,
-			4225,
-			4226,
-			4227,
-			4228,
-			4229,
-			4230,
-			4231,
-			4232,
-			4233,
-			4234,
-			4235,
-			4236,
-			4237,
-			4238,
-			4239,
-			4240,
-			4241,
-			4242,
-			4243,
-			4244,
-			4245,
-			4246,
-			4260,
-			4261,
-			4262,
-			4263,
-			4264,
-			4265,
-			4266,
-			4267,
-			4268,
-			4269,
-			4270,
-			4271,
-			4272,
-			4273,
-			4274,
-			4275,
-			4301,
-			4302,
-			4303,
-			4304,
-			4305,
-			4306,
-			4307,
-			4308,
-			4309,
-			4310,
-			4311,
-			4312,
-			4313,
-			4314,
-			4315,
-			4316,
-			4317,
-			4318,
-			4319,
-			4320,
-			4321,
-			4322,
-			4323,
-			4324,
-			4325,
-			4326,
-			4327,
-			4328,
-			4329,
-			4330,
-			4331,
-			4332,
-			4333,
-			4334,
-			4335,
-			4336,
-			4337,
-			4338,
-			4339,
-			4340,
-			4341,
-			4342,
-			4343,
-			4344,
-			4345,
-			4346,
-			4360,
-			4361,
-			4362,
-			4363,
-			4364,
-			4365,
-			4366,
-			4367,
-			4368,
-			4369,
-			4370,
-			4371,
-			4372,
-			4373,
-			4374,
-			4375,
-			4401,
-			4402,
-			4403,
-			4404,
-			4405,
-			4406,
-			4407,
-			4408,
-			4409,
-			4410,
-			4411,
-			4412,
-			4413,
-			4414,
-			4415,
-			4416,
-			4417,
-			4418,
-			4419,
-			4420,
-			4421,
-			4422,
-			4423,
-			4424,
-			4425,
-			4426,
-			4427,
-			4428,
-			4429,
-			4430,
-			4431,
-			4432,
-			4433,
-			4434,
-			4435,
-			4436,
-			4437,
-			4438,
-			4439,
-			4440,
-			4441,
-			4442,
-			4443,
-			4444,
-			4445,
-			4446,
-			4460,
-			4461,
-			4462,
-			4463,
-			4464,
-			4465,
-			4466,
-			4467,
-			4468,
-			4469,
-			4470,
-			4471,
-			4472,
-			4473,
-			4474,
-			4475
-		}
-	},
-	all = {
-		1,
-		2,
-		3,
+pg.child2_site_display = rawget(pg, "child2_site_display") or setmetatable({
+	__name = "child2_site_display"
+}, confNEO)
+pg.child2_site_display.__namecode__ = true
+pg.child2_site_display.all = {
+	1,
+	2,
+	3,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	4101,
+	4102,
+	4103,
+	4104,
+	4105,
+	4106,
+	4107,
+	4108,
+	4109,
+	4110,
+	4111,
+	4112,
+	4113,
+	4114,
+	4115,
+	4116,
+	4117,
+	4118,
+	4119,
+	4120,
+	4121,
+	4122,
+	4123,
+	4124,
+	4125,
+	4126,
+	4127,
+	4128,
+	4129,
+	4130,
+	4131,
+	4132,
+	4133,
+	4134,
+	4135,
+	4136,
+	4137,
+	4138,
+	4139,
+	4140,
+	4141,
+	4142,
+	4143,
+	4144,
+	4145,
+	4146,
+	4160,
+	4161,
+	4162,
+	4163,
+	4164,
+	4165,
+	4166,
+	4167,
+	4168,
+	4169,
+	4170,
+	4171,
+	4172,
+	4173,
+	4174,
+	4175,
+	4201,
+	4202,
+	4203,
+	4204,
+	4205,
+	4206,
+	4207,
+	4208,
+	4209,
+	4210,
+	4211,
+	4212,
+	4213,
+	4214,
+	4215,
+	4216,
+	4217,
+	4218,
+	4219,
+	4220,
+	4221,
+	4222,
+	4223,
+	4224,
+	4225,
+	4226,
+	4227,
+	4228,
+	4229,
+	4230,
+	4231,
+	4232,
+	4233,
+	4234,
+	4235,
+	4236,
+	4237,
+	4238,
+	4239,
+	4240,
+	4241,
+	4242,
+	4243,
+	4244,
+	4245,
+	4246,
+	4260,
+	4261,
+	4262,
+	4263,
+	4264,
+	4265,
+	4266,
+	4267,
+	4268,
+	4269,
+	4270,
+	4271,
+	4272,
+	4273,
+	4274,
+	4275,
+	4301,
+	4302,
+	4303,
+	4304,
+	4305,
+	4306,
+	4307,
+	4308,
+	4309,
+	4310,
+	4311,
+	4312,
+	4313,
+	4314,
+	4315,
+	4316,
+	4317,
+	4318,
+	4319,
+	4320,
+	4321,
+	4322,
+	4323,
+	4324,
+	4325,
+	4326,
+	4327,
+	4328,
+	4329,
+	4330,
+	4331,
+	4332,
+	4333,
+	4334,
+	4335,
+	4336,
+	4337,
+	4338,
+	4339,
+	4340,
+	4341,
+	4342,
+	4343,
+	4344,
+	4345,
+	4346,
+	4360,
+	4361,
+	4362,
+	4363,
+	4364,
+	4365,
+	4366,
+	4367,
+	4368,
+	4369,
+	4370,
+	4371,
+	4372,
+	4373,
+	4374,
+	4375,
+	4401,
+	4402,
+	4403,
+	4404,
+	4405,
+	4406,
+	4407,
+	4408,
+	4409,
+	4410,
+	4411,
+	4412,
+	4413,
+	4414,
+	4415,
+	4416,
+	4417,
+	4418,
+	4419,
+	4420,
+	4421,
+	4422,
+	4423,
+	4424,
+	4425,
+	4426,
+	4427,
+	4428,
+	4429,
+	4430,
+	4431,
+	4432,
+	4433,
+	4434,
+	4435,
+	4436,
+	4437,
+	4438,
+	4439,
+	4440,
+	4441,
+	4442,
+	4443,
+	4444,
+	4445,
+	4446,
+	4460,
+	4461,
+	4462,
+	4463,
+	4464,
+	4465,
+	4466,
+	4467,
+	4468,
+	4469,
+	4470,
+	4471,
+	4472,
+	4473,
+	4474,
+	4475
+}
+pg.child2_site_display.get_id_list_by_type = {
+	{
 		6,
 		7,
 		8,
@@ -315,7 +305,18 @@ pg.child2_site_display = setmetatable({
 		26,
 		27,
 		28,
-		29,
+		29
+	},
+	{
+		3
+	},
+	{
+		1
+	},
+	{
+		2
+	},
+	{
 		4101,
 		4102,
 		4103,
@@ -565,10 +566,12 @@ pg.child2_site_display = setmetatable({
 		4474,
 		4475
 	}
-}, confHX)
+}
 pg.base = pg.base or {}
-pg.base.child2_site_display = {
-	{
+pg.base.child2_site_display = {}
+
+(function ()
+	pg.base.child2_site_display[1] = {
 		param = 0,
 		name = "生活體驗",
 		event_icon = "site_work",
@@ -585,8 +588,8 @@ pg.base.child2_site_display = {
 			292,
 			-310
 		}
-	},
-	{
+	}
+	pg.base.child2_site_display[2] = {
 		param = 0,
 		name = "外出旅遊",
 		event_icon = "site_travel",
@@ -603,8 +606,8 @@ pg.base.child2_site_display = {
 			-471,
 			-206
 		}
-	},
-	{
+	}
+	pg.base.child2_site_display[3] = {
 		param = 0,
 		name = "商店",
 		event_icon = "site_shop",
@@ -621,8 +624,8 @@ pg.base.child2_site_display = {
 			-263,
 			-111
 		}
-	},
-	[6] = {
+	}
+	pg.base.child2_site_display[6] = {
 		param = 1,
 		name = "獨角獸",
 		event_icon = "",
@@ -639,8 +642,8 @@ pg.base.child2_site_display = {
 			-529,
 			45
 		}
-	},
-	[7] = {
+	}
+	pg.base.child2_site_display[7] = {
 		param = 2,
 		name = "獨角獸",
 		event_icon = "",
@@ -657,8 +660,8 @@ pg.base.child2_site_display = {
 			331,
 			533
 		}
-	},
-	[8] = {
+	}
+	pg.base.child2_site_display[8] = {
 		param = 3,
 		name = "獨角獸",
 		event_icon = "",
@@ -675,8 +678,8 @@ pg.base.child2_site_display = {
 			-190,
 			225
 		}
-	},
-	[9] = {
+	}
+	pg.base.child2_site_display[9] = {
 		param = 4,
 		name = "不顯示",
 		event_icon = "",
@@ -693,8 +696,8 @@ pg.base.child2_site_display = {
 			0,
 			0
 		}
-	},
-	[10] = {
+	}
+	pg.base.child2_site_display[10] = {
 		param = 5,
 		name = "海天",
 		event_icon = "",
@@ -711,8 +714,8 @@ pg.base.child2_site_display = {
 			-479,
 			328
 		}
-	},
-	[11] = {
+	}
+	pg.base.child2_site_display[11] = {
 		param = 6,
 		name = "海天",
 		event_icon = "",
@@ -729,8 +732,8 @@ pg.base.child2_site_display = {
 			-404,
 			468
 		}
-	},
-	[12] = {
+	}
+	pg.base.child2_site_display[12] = {
 		param = 7,
 		name = "海天",
 		event_icon = "",
@@ -747,8 +750,8 @@ pg.base.child2_site_display = {
 			-839.4,
 			339.5
 		}
-	},
-	[13] = {
+	}
+	pg.base.child2_site_display[13] = {
 		param = 8,
 		name = "不顯示",
 		event_icon = "",
@@ -765,8 +768,8 @@ pg.base.child2_site_display = {
 			0,
 			0
 		}
-	},
-	[14] = {
+	}
+	pg.base.child2_site_display[14] = {
 		param = 9,
 		name = "安克拉治",
 		event_icon = "",
@@ -783,8 +786,8 @@ pg.base.child2_site_display = {
 			-237.8,
 			-298.3
 		}
-	},
-	[15] = {
+	}
+	pg.base.child2_site_display[15] = {
 		param = 10,
 		name = "安克拉治",
 		event_icon = "",
@@ -801,8 +804,8 @@ pg.base.child2_site_display = {
 			-489.6,
 			-473
 		}
-	},
-	[16] = {
+	}
+	pg.base.child2_site_display[16] = {
 		param = 11,
 		name = "安克拉治",
 		event_icon = "",
@@ -819,8 +822,8 @@ pg.base.child2_site_display = {
 			518,
 			125
 		}
-	},
-	[17] = {
+	}
+	pg.base.child2_site_display[17] = {
 		param = 12,
 		name = "不顯示",
 		event_icon = "",
@@ -837,8 +840,8 @@ pg.base.child2_site_display = {
 			0,
 			0
 		}
-	},
-	[18] = {
+	}
+	pg.base.child2_site_display[18] = {
 		param = 13,
 		name = "{namecode:491}",
 		event_icon = "",
@@ -855,8 +858,8 @@ pg.base.child2_site_display = {
 			608.5,
 			-57
 		}
-	},
-	[19] = {
+	}
+	pg.base.child2_site_display[19] = {
 		param = 14,
 		name = "{namecode:491}",
 		event_icon = "",
@@ -873,8 +876,8 @@ pg.base.child2_site_display = {
 			276,
 			-569
 		}
-	},
-	[20] = {
+	}
+	pg.base.child2_site_display[20] = {
 		param = 15,
 		name = "{namecode:491}",
 		event_icon = "",
@@ -891,8 +894,8 @@ pg.base.child2_site_display = {
 			-98,
 			-608
 		}
-	},
-	[21] = {
+	}
+	pg.base.child2_site_display[21] = {
 		param = 16,
 		name = "不顯示",
 		event_icon = "",
@@ -909,8 +912,8 @@ pg.base.child2_site_display = {
 			0,
 			0
 		}
-	},
-	[22] = {
+	}
+	pg.base.child2_site_display[22] = {
 		param = 17,
 		name = "兇猛",
 		event_icon = "",
@@ -927,8 +930,8 @@ pg.base.child2_site_display = {
 			-698,
 			419
 		}
-	},
-	[23] = {
+	}
+	pg.base.child2_site_display[23] = {
 		param = 18,
 		name = "兇猛",
 		event_icon = "",
@@ -945,8 +948,8 @@ pg.base.child2_site_display = {
 			-621.5,
 			286.5
 		}
-	},
-	[24] = {
+	}
+	pg.base.child2_site_display[24] = {
 		param = 19,
 		name = "兇猛",
 		event_icon = "",
@@ -963,8 +966,8 @@ pg.base.child2_site_display = {
 			233,
 			359
 		}
-	},
-	[25] = {
+	}
+	pg.base.child2_site_display[25] = {
 		param = 20,
 		name = "不顯示",
 		event_icon = "",
@@ -981,8 +984,8 @@ pg.base.child2_site_display = {
 			0,
 			0
 		}
-	},
-	[26] = {
+	}
+	pg.base.child2_site_display[26] = {
 		param = 21,
 		name = "{namecode:439}",
 		event_icon = "",
@@ -999,8 +1002,8 @@ pg.base.child2_site_display = {
 			23,
 			501
 		}
-	},
-	[27] = {
+	}
+	pg.base.child2_site_display[27] = {
 		param = 22,
 		name = "{namecode:439}",
 		event_icon = "",
@@ -1017,8 +1020,8 @@ pg.base.child2_site_display = {
 			629,
 			113
 		}
-	},
-	[28] = {
+	}
+	pg.base.child2_site_display[28] = {
 		param = 23,
 		name = "{namecode:439}",
 		event_icon = "",
@@ -1035,8 +1038,8 @@ pg.base.child2_site_display = {
 			350,
 			167
 		}
-	},
-	[29] = {
+	}
+	pg.base.child2_site_display[29] = {
 		param = 24,
 		name = "不顯示",
 		event_icon = "",
@@ -1053,8 +1056,8 @@ pg.base.child2_site_display = {
 			0,
 			0
 		}
-	},
-	[4101] = {
+	}
+	pg.base.child2_site_display[4101] = {
 		param = 4101,
 		name = "渡假莊園",
 		event_icon = "site_event",
@@ -1071,8 +1074,8 @@ pg.base.child2_site_display = {
 			-625,
 			542
 		}
-	},
-	[4102] = {
+	}
+	pg.base.child2_site_display[4102] = {
 		param = 4102,
 		name = "遊樂場",
 		event_icon = "site_event",
@@ -1089,8 +1092,8 @@ pg.base.child2_site_display = {
 			150,
 			45
 		}
-	},
-	[4103] = {
+	}
+	pg.base.child2_site_display[4103] = {
 		param = 4103,
 		name = "美食坊",
 		event_icon = "site_event",
@@ -1107,8 +1110,8 @@ pg.base.child2_site_display = {
 			535,
 			-240
 		}
-	},
-	[4104] = {
+	}
+	pg.base.child2_site_display[4104] = {
 		param = 4104,
 		name = "音浪市集",
 		event_icon = "site_event",
@@ -1125,8 +1128,8 @@ pg.base.child2_site_display = {
 			-375,
 			-160
 		}
-	},
-	[4105] = {
+	}
+	pg.base.child2_site_display[4105] = {
 		param = 4105,
 		name = "海濱公園",
 		event_icon = "site_event",
@@ -1143,8 +1146,8 @@ pg.base.child2_site_display = {
 			-603,
 			149
 		}
-	},
-	[4106] = {
+	}
+	pg.base.child2_site_display[4106] = {
 		param = 4106,
 		name = "商業街",
 		event_icon = "site_event",
@@ -1161,8 +1164,8 @@ pg.base.child2_site_display = {
 			-149,
 			56
 		}
-	},
-	[4107] = {
+	}
+	pg.base.child2_site_display[4107] = {
 		param = 4107,
 		name = "香醇小站",
 		event_icon = "site_event",
@@ -1179,8 +1182,8 @@ pg.base.child2_site_display = {
 			368,
 			-141
 		}
-	},
-	[4108] = {
+	}
+	pg.base.child2_site_display[4108] = {
 		param = 4108,
 		name = "商業街",
 		event_icon = "site_event",
@@ -1197,8 +1200,8 @@ pg.base.child2_site_display = {
 			-56,
 			144
 		}
-	},
-	[4109] = {
+	}
+	pg.base.child2_site_display[4109] = {
 		param = 4109,
 		name = "水族館",
 		event_icon = "site_event",
@@ -1215,8 +1218,8 @@ pg.base.child2_site_display = {
 			480,
 			-143
 		}
-	},
-	[4110] = {
+	}
+	pg.base.child2_site_display[4110] = {
 		param = 4110,
 		name = "漫海商坊",
 		event_icon = "site_event",
@@ -1233,8 +1236,8 @@ pg.base.child2_site_display = {
 			-415,
 			43
 		}
-	},
-	[4111] = {
+	}
+	pg.base.child2_site_display[4111] = {
 		param = 4111,
 		name = "學院",
 		event_icon = "site_event",
@@ -1251,8 +1254,8 @@ pg.base.child2_site_display = {
 			-322,
 			427
 		}
-	},
-	[4112] = {
+	}
+	pg.base.child2_site_display[4112] = {
 		param = 4112,
 		name = "轉角書屋",
 		event_icon = "site_event",
@@ -1269,8 +1272,8 @@ pg.base.child2_site_display = {
 			17,
 			221
 		}
-	},
-	[4113] = {
+	}
+	pg.base.child2_site_display[4113] = {
 		param = 4113,
 		name = "商業街",
 		event_icon = "site_event",
@@ -1287,8 +1290,8 @@ pg.base.child2_site_display = {
 			-147,
 			-80
 		}
-	},
-	[4114] = {
+	}
+	pg.base.child2_site_display[4114] = {
 		param = 4114,
 		name = "美食坊",
 		event_icon = "site_event",
@@ -1305,8 +1308,8 @@ pg.base.child2_site_display = {
 			425,
 			-288
 		}
-	},
-	[4115] = {
+	}
+	pg.base.child2_site_display[4115] = {
 		param = 4115,
 		name = "靜謐之峰",
 		event_icon = "site_event",
@@ -1323,8 +1326,8 @@ pg.base.child2_site_display = {
 			442,
 			273
 		}
-	},
-	[4116] = {
+	}
+	pg.base.child2_site_display[4116] = {
 		param = 4116,
 		name = "學院",
 		event_icon = "site_event",
@@ -1341,8 +1344,8 @@ pg.base.child2_site_display = {
 			42,
 			523
 		}
-	},
-	[4117] = {
+	}
+	pg.base.child2_site_display[4117] = {
 		param = 4117,
 		name = "學院",
 		event_icon = "site_event",
@@ -1359,8 +1362,8 @@ pg.base.child2_site_display = {
 			-267,
 			528
 		}
-	},
-	[4118] = {
+	}
+	pg.base.child2_site_display[4118] = {
 		param = 4118,
 		name = "學院",
 		event_icon = "site_event",
@@ -1377,8 +1380,8 @@ pg.base.child2_site_display = {
 			-66,
 			480
 		}
-	},
-	[4119] = {
+	}
+	pg.base.child2_site_display[4119] = {
 		param = 4119,
 		name = "學院",
 		event_icon = "site_event",
@@ -1395,8 +1398,8 @@ pg.base.child2_site_display = {
 			-161,
 			435
 		}
-	},
-	[4120] = {
+	}
+	pg.base.child2_site_display[4120] = {
 		param = 4120,
 		name = "學校圖書館",
 		event_icon = "site_event",
@@ -1413,8 +1416,8 @@ pg.base.child2_site_display = {
 			-372,
 			291
 		}
-	},
-	[4121] = {
+	}
+	pg.base.child2_site_display[4121] = {
 		param = 4121,
 		name = "童心樂園",
 		event_icon = "site_event",
@@ -1431,8 +1434,8 @@ pg.base.child2_site_display = {
 			29,
 			-496
 		}
-	},
-	[4122] = {
+	}
+	pg.base.child2_site_display[4122] = {
 		param = 4122,
 		name = "漫海商坊",
 		event_icon = "site_event",
@@ -1449,8 +1452,8 @@ pg.base.child2_site_display = {
 			-391,
 			-351
 		}
-	},
-	[4123] = {
+	}
+	pg.base.child2_site_display[4123] = {
 		param = 4123,
 		name = "體育館",
 		event_icon = "site_event",
@@ -1467,8 +1470,8 @@ pg.base.child2_site_display = {
 			111,
 			302
 		}
-	},
-	[4124] = {
+	}
+	pg.base.child2_site_display[4124] = {
 		param = 4124,
 		name = "學校圖書館",
 		event_icon = "site_event",
@@ -1485,8 +1488,8 @@ pg.base.child2_site_display = {
 			-283,
 			324
 		}
-	},
-	[4125] = {
+	}
+	pg.base.child2_site_display[4125] = {
 		param = 4125,
 		name = "音樂教室",
 		event_icon = "site_event",
@@ -1503,8 +1506,8 @@ pg.base.child2_site_display = {
 			-93,
 			324
 		}
-	},
-	[4126] = {
+	}
+	pg.base.child2_site_display[4126] = {
 		param = 4126,
 		name = "體育館",
 		event_icon = "site_event",
@@ -1521,8 +1524,8 @@ pg.base.child2_site_display = {
 			228,
 			122
 		}
-	},
-	[4127] = {
+	}
+	pg.base.child2_site_display[4127] = {
 		param = 4127,
 		name = "商業街",
 		event_icon = "site_event",
@@ -1539,8 +1542,8 @@ pg.base.child2_site_display = {
 			-83,
 			-222
 		}
-	},
-	[4128] = {
+	}
+	pg.base.child2_site_display[4128] = {
 		param = 4128,
 		name = "商業街",
 		event_icon = "site_event",
@@ -1557,8 +1560,8 @@ pg.base.child2_site_display = {
 			76,
 			-176
 		}
-	},
-	[4129] = {
+	}
+	pg.base.child2_site_display[4129] = {
 		param = 4129,
 		name = "商業街",
 		event_icon = "site_event",
@@ -1575,8 +1578,8 @@ pg.base.child2_site_display = {
 			-35.4,
 			2.5
 		}
-	},
-	[4130] = {
+	}
+	pg.base.child2_site_display[4130] = {
 		param = 4130,
 		name = "靜謐之峰",
 		event_icon = "site_event",
@@ -1593,8 +1596,8 @@ pg.base.child2_site_display = {
 			681,
 			263
 		}
-	},
-	[4131] = {
+	}
+	pg.base.child2_site_display[4131] = {
 		param = 4131,
 		name = "靜謐之峰",
 		event_icon = "site_event",
@@ -1611,8 +1614,8 @@ pg.base.child2_site_display = {
 			497,
 			525
 		}
-	},
-	[4132] = {
+	}
+	pg.base.child2_site_display[4132] = {
 		param = 4132,
 		name = "靜謐之峰",
 		event_icon = "site_event",
@@ -1629,8 +1632,8 @@ pg.base.child2_site_display = {
 			643,
 			447
 		}
-	},
-	[4133] = {
+	}
+	pg.base.child2_site_display[4133] = {
 		param = 4133,
 		name = "商業街",
 		event_icon = "site_event",
@@ -1647,8 +1650,8 @@ pg.base.child2_site_display = {
 			45,
 			78
 		}
-	},
-	[4134] = {
+	}
+	pg.base.child2_site_display[4134] = {
 		param = 4134,
 		name = "商業街",
 		event_icon = "site_event",
@@ -1665,8 +1668,8 @@ pg.base.child2_site_display = {
 			11,
 			-268
 		}
-	},
-	[4135] = {
+	}
+	pg.base.child2_site_display[4135] = {
 		param = 4135,
 		name = "商業街",
 		event_icon = "site_event",
@@ -1683,8 +1686,8 @@ pg.base.child2_site_display = {
 			-13.8,
 			-120.2
 		}
-	},
-	[4136] = {
+	}
+	pg.base.child2_site_display[4136] = {
 		param = 4136,
 		name = "山畔池塘",
 		event_icon = "site_event",
@@ -1701,8 +1704,8 @@ pg.base.child2_site_display = {
 			208,
 			542
 		}
-	},
-	[4137] = {
+	}
+	pg.base.child2_site_display[4137] = {
 		param = 4137,
 		name = "童心樂園",
 		event_icon = "site_event",
@@ -1719,8 +1722,8 @@ pg.base.child2_site_display = {
 			129,
 			-427
 		}
-	},
-	[4138] = {
+	}
+	pg.base.child2_site_display[4138] = {
 		param = 4138,
 		name = "靜謐之峰",
 		event_icon = "site_event",
@@ -1737,8 +1740,8 @@ pg.base.child2_site_display = {
 			415,
 			419
 		}
-	},
-	[4139] = {
+	}
+	pg.base.child2_site_display[4139] = {
 		param = 4139,
 		name = "",
 		event_icon = "site_ending",
@@ -1755,8 +1758,8 @@ pg.base.child2_site_display = {
 			-314,
 			163
 		}
-	},
-	[4140] = {
+	}
+	pg.base.child2_site_display[4140] = {
 		param = 4140,
 		name = "",
 		event_icon = "site_ending",
@@ -1773,8 +1776,8 @@ pg.base.child2_site_display = {
 			-246,
 			-490
 		}
-	},
-	[4141] = {
+	}
+	pg.base.child2_site_display[4141] = {
 		param = 4141,
 		name = "",
 		event_icon = "site_ending",
@@ -1791,8 +1794,8 @@ pg.base.child2_site_display = {
 			446,
 			10
 		}
-	},
-	[4142] = {
+	}
+	pg.base.child2_site_display[4142] = {
 		param = 4142,
 		name = "",
 		event_icon = "site_ending",
@@ -1809,8 +1812,8 @@ pg.base.child2_site_display = {
 			-420,
 			470
 		}
-	},
-	[4143] = {
+	}
+	pg.base.child2_site_display[4143] = {
 		param = 4143,
 		name = "",
 		event_icon = "site_ending",
@@ -1827,8 +1830,8 @@ pg.base.child2_site_display = {
 			107,
 			159
 		}
-	},
-	[4144] = {
+	}
+	pg.base.child2_site_display[4144] = {
 		param = 4144,
 		name = "",
 		event_icon = "site_ending",
@@ -1845,8 +1848,8 @@ pg.base.child2_site_display = {
 			-694,
 			140
 		}
-	},
-	[4145] = {
+	}
+	pg.base.child2_site_display[4145] = {
 		param = 4145,
 		name = "遊樂場",
 		event_icon = "site_event",
@@ -1863,8 +1866,8 @@ pg.base.child2_site_display = {
 			79,
 			-31
 		}
-	},
-	[4146] = {
+	}
+	pg.base.child2_site_display[4146] = {
 		param = 4146,
 		name = "遊樂場",
 		event_icon = "site_event",
@@ -1881,8 +1884,8 @@ pg.base.child2_site_display = {
 			188,
 			-63
 		}
-	},
-	[4160] = {
+	}
+	pg.base.child2_site_display[4160] = {
 		param = 4160,
 		name = "渡假莊園",
 		event_icon = "site_event",
@@ -1899,8 +1902,8 @@ pg.base.child2_site_display = {
 			-625,
 			542
 		}
-	},
-	[4161] = {
+	}
+	pg.base.child2_site_display[4161] = {
 		param = 4161,
 		name = "美食坊",
 		event_icon = "site_event",
@@ -1917,8 +1920,8 @@ pg.base.child2_site_display = {
 			535,
 			-240
 		}
-	},
-	[4162] = {
+	}
+	pg.base.child2_site_display[4162] = {
 		param = 4162,
 		name = "音浪市集",
 		event_icon = "site_event",
@@ -1935,8 +1938,8 @@ pg.base.child2_site_display = {
 			-375,
 			-160
 		}
-	},
-	[4163] = {
+	}
+	pg.base.child2_site_display[4163] = {
 		param = 4163,
 		name = "海濱公園",
 		event_icon = "site_event",
@@ -1953,8 +1956,8 @@ pg.base.child2_site_display = {
 			-603,
 			149
 		}
-	},
-	[4164] = {
+	}
+	pg.base.child2_site_display[4164] = {
 		param = 4164,
 		name = "商業街",
 		event_icon = "site_event",
@@ -1971,8 +1974,8 @@ pg.base.child2_site_display = {
 			-83,
 			-222
 		}
-	},
-	[4165] = {
+	}
+	pg.base.child2_site_display[4165] = {
 		param = 4165,
 		name = "童心樂園",
 		event_icon = "site_event",
@@ -1989,8 +1992,8 @@ pg.base.child2_site_display = {
 			129,
 			-427
 		}
-	},
-	[4166] = {
+	}
+	pg.base.child2_site_display[4166] = {
 		param = 4166,
 		name = "遊樂場",
 		event_icon = "site_event",
@@ -2007,8 +2010,8 @@ pg.base.child2_site_display = {
 			79,
 			-31
 		}
-	},
-	[4167] = {
+	}
+	pg.base.child2_site_display[4167] = {
 		param = 4167,
 		name = "遊樂場",
 		event_icon = "site_event",
@@ -2025,8 +2028,8 @@ pg.base.child2_site_display = {
 			188,
 			-63
 		}
-	},
-	[4168] = {
+	}
+	pg.base.child2_site_display[4168] = {
 		param = 4168,
 		name = "渡假莊園",
 		event_icon = "site_event",
@@ -2043,8 +2046,8 @@ pg.base.child2_site_display = {
 			-625,
 			542
 		}
-	},
-	[4169] = {
+	}
+	pg.base.child2_site_display[4169] = {
 		param = 4169,
 		name = "美食坊",
 		event_icon = "site_event",
@@ -2061,8 +2064,8 @@ pg.base.child2_site_display = {
 			535,
 			-240
 		}
-	},
-	[4170] = {
+	}
+	pg.base.child2_site_display[4170] = {
 		param = 4170,
 		name = "音浪市集",
 		event_icon = "site_event",
@@ -2079,8 +2082,8 @@ pg.base.child2_site_display = {
 			-375,
 			-160
 		}
-	},
-	[4171] = {
+	}
+	pg.base.child2_site_display[4171] = {
 		param = 4171,
 		name = "海濱公園",
 		event_icon = "site_event",
@@ -2097,8 +2100,8 @@ pg.base.child2_site_display = {
 			-603,
 			149
 		}
-	},
-	[4172] = {
+	}
+	pg.base.child2_site_display[4172] = {
 		param = 4172,
 		name = "商業街",
 		event_icon = "site_event",
@@ -2115,8 +2118,8 @@ pg.base.child2_site_display = {
 			-83,
 			-222
 		}
-	},
-	[4173] = {
+	}
+	pg.base.child2_site_display[4173] = {
 		param = 4173,
 		name = "童心樂園",
 		event_icon = "site_event",
@@ -2133,8 +2136,8 @@ pg.base.child2_site_display = {
 			129,
 			-427
 		}
-	},
-	[4174] = {
+	}
+	pg.base.child2_site_display[4174] = {
 		param = 4174,
 		name = "遊樂場",
 		event_icon = "site_event",
@@ -2151,8 +2154,8 @@ pg.base.child2_site_display = {
 			79,
 			-31
 		}
-	},
-	[4175] = {
+	}
+	pg.base.child2_site_display[4175] = {
 		param = 4175,
 		name = "遊樂場",
 		event_icon = "site_event",
@@ -2169,8 +2172,8 @@ pg.base.child2_site_display = {
 			188,
 			-63
 		}
-	},
-	[4201] = {
+	}
+	pg.base.child2_site_display[4201] = {
 		param = 4201,
 		name = "渡假莊園",
 		event_icon = "site_event",
@@ -2187,8 +2190,8 @@ pg.base.child2_site_display = {
 			-625,
 			542
 		}
-	},
-	[4202] = {
+	}
+	pg.base.child2_site_display[4202] = {
 		param = 4202,
 		name = "遊樂場",
 		event_icon = "site_event",
@@ -2205,8 +2208,8 @@ pg.base.child2_site_display = {
 			150,
 			45
 		}
-	},
-	[4203] = {
+	}
+	pg.base.child2_site_display[4203] = {
 		param = 4203,
 		name = "美食坊",
 		event_icon = "site_event",
@@ -2223,8 +2226,8 @@ pg.base.child2_site_display = {
 			535,
 			-240
 		}
-	},
-	[4204] = {
+	}
+	pg.base.child2_site_display[4204] = {
 		param = 4204,
 		name = "音浪市集",
 		event_icon = "site_event",
@@ -2241,8 +2244,8 @@ pg.base.child2_site_display = {
 			-375,
 			-160
 		}
-	},
-	[4205] = {
+	}
+	pg.base.child2_site_display[4205] = {
 		param = 4205,
 		name = "海濱公園",
 		event_icon = "site_event",
@@ -2259,8 +2262,8 @@ pg.base.child2_site_display = {
 			-603,
 			149
 		}
-	},
-	[4206] = {
+	}
+	pg.base.child2_site_display[4206] = {
 		param = 4206,
 		name = "商業街",
 		event_icon = "site_event",
@@ -2277,8 +2280,8 @@ pg.base.child2_site_display = {
 			-149,
 			56
 		}
-	},
-	[4207] = {
+	}
+	pg.base.child2_site_display[4207] = {
 		param = 4207,
 		name = "香醇小站",
 		event_icon = "site_event",
@@ -2295,8 +2298,8 @@ pg.base.child2_site_display = {
 			368,
 			-141
 		}
-	},
-	[4208] = {
+	}
+	pg.base.child2_site_display[4208] = {
 		param = 4208,
 		name = "商業街",
 		event_icon = "site_event",
@@ -2313,8 +2316,8 @@ pg.base.child2_site_display = {
 			-56,
 			144
 		}
-	},
-	[4209] = {
+	}
+	pg.base.child2_site_display[4209] = {
 		param = 4209,
 		name = "水族館",
 		event_icon = "site_event",
@@ -2331,8 +2334,8 @@ pg.base.child2_site_display = {
 			480,
 			-143
 		}
-	},
-	[4210] = {
+	}
+	pg.base.child2_site_display[4210] = {
 		param = 4210,
 		name = "漫海商坊",
 		event_icon = "site_event",
@@ -2349,8 +2352,8 @@ pg.base.child2_site_display = {
 			-415,
 			43
 		}
-	},
-	[4211] = {
+	}
+	pg.base.child2_site_display[4211] = {
 		param = 4211,
 		name = "學院",
 		event_icon = "site_event",
@@ -2367,8 +2370,10 @@ pg.base.child2_site_display = {
 			-322,
 			427
 		}
-	},
-	[4212] = {
+	}
+end)()
+(function ()
+	pg.base.child2_site_display[4212] = {
 		param = 4212,
 		name = "轉角書屋",
 		event_icon = "site_event",
@@ -2385,8 +2390,8 @@ pg.base.child2_site_display = {
 			17,
 			221
 		}
-	},
-	[4213] = {
+	}
+	pg.base.child2_site_display[4213] = {
 		param = 4213,
 		name = "商業街",
 		event_icon = "site_event",
@@ -2403,8 +2408,8 @@ pg.base.child2_site_display = {
 			-147,
 			-80
 		}
-	},
-	[4214] = {
+	}
+	pg.base.child2_site_display[4214] = {
 		param = 4214,
 		name = "美食坊",
 		event_icon = "site_event",
@@ -2421,8 +2426,8 @@ pg.base.child2_site_display = {
 			425,
 			-288
 		}
-	},
-	[4215] = {
+	}
+	pg.base.child2_site_display[4215] = {
 		param = 4215,
 		name = "靜謐之峰",
 		event_icon = "site_event",
@@ -2439,8 +2444,8 @@ pg.base.child2_site_display = {
 			442,
 			273
 		}
-	},
-	[4216] = {
+	}
+	pg.base.child2_site_display[4216] = {
 		param = 4216,
 		name = "學院",
 		event_icon = "site_event",
@@ -2457,8 +2462,8 @@ pg.base.child2_site_display = {
 			42,
 			523
 		}
-	},
-	[4217] = {
+	}
+	pg.base.child2_site_display[4217] = {
 		param = 4217,
 		name = "學院",
 		event_icon = "site_event",
@@ -2475,8 +2480,8 @@ pg.base.child2_site_display = {
 			-267,
 			528
 		}
-	},
-	[4218] = {
+	}
+	pg.base.child2_site_display[4218] = {
 		param = 4218,
 		name = "學院",
 		event_icon = "site_event",
@@ -2493,8 +2498,8 @@ pg.base.child2_site_display = {
 			-66,
 			480
 		}
-	},
-	[4219] = {
+	}
+	pg.base.child2_site_display[4219] = {
 		param = 4219,
 		name = "學院",
 		event_icon = "site_event",
@@ -2511,8 +2516,8 @@ pg.base.child2_site_display = {
 			-161,
 			435
 		}
-	},
-	[4220] = {
+	}
+	pg.base.child2_site_display[4220] = {
 		param = 4220,
 		name = "學校圖書館",
 		event_icon = "site_event",
@@ -2529,8 +2534,8 @@ pg.base.child2_site_display = {
 			-372,
 			291
 		}
-	},
-	[4221] = {
+	}
+	pg.base.child2_site_display[4221] = {
 		param = 4221,
 		name = "童心樂園",
 		event_icon = "site_event",
@@ -2547,8 +2552,8 @@ pg.base.child2_site_display = {
 			29,
 			-496
 		}
-	},
-	[4222] = {
+	}
+	pg.base.child2_site_display[4222] = {
 		param = 4222,
 		name = "漫海商坊",
 		event_icon = "site_event",
@@ -2565,8 +2570,8 @@ pg.base.child2_site_display = {
 			-391,
 			-351
 		}
-	},
-	[4223] = {
+	}
+	pg.base.child2_site_display[4223] = {
 		param = 4223,
 		name = "體育館",
 		event_icon = "site_event",
@@ -2583,8 +2588,8 @@ pg.base.child2_site_display = {
 			111,
 			302
 		}
-	},
-	[4224] = {
+	}
+	pg.base.child2_site_display[4224] = {
 		param = 4224,
 		name = "學校圖書館",
 		event_icon = "site_event",
@@ -2601,8 +2606,8 @@ pg.base.child2_site_display = {
 			-283,
 			324
 		}
-	},
-	[4225] = {
+	}
+	pg.base.child2_site_display[4225] = {
 		param = 4225,
 		name = "音樂教室",
 		event_icon = "site_event",
@@ -2619,8 +2624,8 @@ pg.base.child2_site_display = {
 			-93,
 			324
 		}
-	},
-	[4226] = {
+	}
+	pg.base.child2_site_display[4226] = {
 		param = 4226,
 		name = "體育館",
 		event_icon = "site_event",
@@ -2637,8 +2642,8 @@ pg.base.child2_site_display = {
 			228,
 			122
 		}
-	},
-	[4227] = {
+	}
+	pg.base.child2_site_display[4227] = {
 		param = 4227,
 		name = "商業街",
 		event_icon = "site_event",
@@ -2655,8 +2660,8 @@ pg.base.child2_site_display = {
 			-83,
 			-222
 		}
-	},
-	[4228] = {
+	}
+	pg.base.child2_site_display[4228] = {
 		param = 4228,
 		name = "商業街",
 		event_icon = "site_event",
@@ -2673,8 +2678,8 @@ pg.base.child2_site_display = {
 			76,
 			-176
 		}
-	},
-	[4229] = {
+	}
+	pg.base.child2_site_display[4229] = {
 		param = 4229,
 		name = "商業街",
 		event_icon = "site_event",
@@ -2691,8 +2696,8 @@ pg.base.child2_site_display = {
 			-35.4,
 			2.5
 		}
-	},
-	[4230] = {
+	}
+	pg.base.child2_site_display[4230] = {
 		param = 4230,
 		name = "靜謐之峰",
 		event_icon = "site_event",
@@ -2709,8 +2714,8 @@ pg.base.child2_site_display = {
 			681,
 			263
 		}
-	},
-	[4231] = {
+	}
+	pg.base.child2_site_display[4231] = {
 		param = 4231,
 		name = "靜謐之峰",
 		event_icon = "site_event",
@@ -2727,8 +2732,8 @@ pg.base.child2_site_display = {
 			497,
 			525
 		}
-	},
-	[4232] = {
+	}
+	pg.base.child2_site_display[4232] = {
 		param = 4232,
 		name = "靜謐之峰",
 		event_icon = "site_event",
@@ -2745,8 +2750,8 @@ pg.base.child2_site_display = {
 			643,
 			447
 		}
-	},
-	[4233] = {
+	}
+	pg.base.child2_site_display[4233] = {
 		param = 4233,
 		name = "商業街",
 		event_icon = "site_event",
@@ -2763,8 +2768,8 @@ pg.base.child2_site_display = {
 			45,
 			78
 		}
-	},
-	[4234] = {
+	}
+	pg.base.child2_site_display[4234] = {
 		param = 4234,
 		name = "商業街",
 		event_icon = "site_event",
@@ -2781,8 +2786,8 @@ pg.base.child2_site_display = {
 			11,
 			-268
 		}
-	},
-	[4235] = {
+	}
+	pg.base.child2_site_display[4235] = {
 		param = 4235,
 		name = "商業街",
 		event_icon = "site_event",
@@ -2799,8 +2804,8 @@ pg.base.child2_site_display = {
 			-13.8,
 			-120.2
 		}
-	},
-	[4236] = {
+	}
+	pg.base.child2_site_display[4236] = {
 		param = 4236,
 		name = "山畔池塘",
 		event_icon = "site_event",
@@ -2817,8 +2822,8 @@ pg.base.child2_site_display = {
 			208,
 			542
 		}
-	},
-	[4237] = {
+	}
+	pg.base.child2_site_display[4237] = {
 		param = 4237,
 		name = "童心樂園",
 		event_icon = "site_event",
@@ -2835,8 +2840,8 @@ pg.base.child2_site_display = {
 			129,
 			-427
 		}
-	},
-	[4238] = {
+	}
+	pg.base.child2_site_display[4238] = {
 		param = 4238,
 		name = "靜謐之峰",
 		event_icon = "site_event",
@@ -2853,8 +2858,8 @@ pg.base.child2_site_display = {
 			415,
 			419
 		}
-	},
-	[4239] = {
+	}
+	pg.base.child2_site_display[4239] = {
 		param = 4239,
 		name = "",
 		event_icon = "site_ending",
@@ -2871,8 +2876,8 @@ pg.base.child2_site_display = {
 			-314,
 			163
 		}
-	},
-	[4240] = {
+	}
+	pg.base.child2_site_display[4240] = {
 		param = 4240,
 		name = "",
 		event_icon = "site_ending",
@@ -2889,8 +2894,8 @@ pg.base.child2_site_display = {
 			-246,
 			-490
 		}
-	},
-	[4241] = {
+	}
+	pg.base.child2_site_display[4241] = {
 		param = 4241,
 		name = "",
 		event_icon = "site_ending",
@@ -2907,8 +2912,8 @@ pg.base.child2_site_display = {
 			446,
 			10
 		}
-	},
-	[4242] = {
+	}
+	pg.base.child2_site_display[4242] = {
 		param = 4242,
 		name = "",
 		event_icon = "site_ending",
@@ -2925,8 +2930,8 @@ pg.base.child2_site_display = {
 			-420,
 			470
 		}
-	},
-	[4243] = {
+	}
+	pg.base.child2_site_display[4243] = {
 		param = 4243,
 		name = "",
 		event_icon = "site_ending",
@@ -2943,8 +2948,8 @@ pg.base.child2_site_display = {
 			107,
 			159
 		}
-	},
-	[4244] = {
+	}
+	pg.base.child2_site_display[4244] = {
 		param = 4244,
 		name = "",
 		event_icon = "site_ending",
@@ -2961,8 +2966,8 @@ pg.base.child2_site_display = {
 			-694,
 			140
 		}
-	},
-	[4245] = {
+	}
+	pg.base.child2_site_display[4245] = {
 		param = 4245,
 		name = "遊樂場",
 		event_icon = "site_event",
@@ -2979,8 +2984,8 @@ pg.base.child2_site_display = {
 			79,
 			-31
 		}
-	},
-	[4246] = {
+	}
+	pg.base.child2_site_display[4246] = {
 		param = 4246,
 		name = "遊樂場",
 		event_icon = "site_event",
@@ -2997,8 +3002,8 @@ pg.base.child2_site_display = {
 			188,
 			-63
 		}
-	},
-	[4260] = {
+	}
+	pg.base.child2_site_display[4260] = {
 		param = 4260,
 		name = "渡假莊園",
 		event_icon = "site_event",
@@ -3015,8 +3020,8 @@ pg.base.child2_site_display = {
 			-625,
 			542
 		}
-	},
-	[4261] = {
+	}
+	pg.base.child2_site_display[4261] = {
 		param = 4261,
 		name = "美食坊",
 		event_icon = "site_event",
@@ -3033,8 +3038,8 @@ pg.base.child2_site_display = {
 			535,
 			-240
 		}
-	},
-	[4262] = {
+	}
+	pg.base.child2_site_display[4262] = {
 		param = 4262,
 		name = "音浪市集",
 		event_icon = "site_event",
@@ -3051,8 +3056,8 @@ pg.base.child2_site_display = {
 			-375,
 			-160
 		}
-	},
-	[4263] = {
+	}
+	pg.base.child2_site_display[4263] = {
 		param = 4263,
 		name = "海濱公園",
 		event_icon = "site_event",
@@ -3069,8 +3074,8 @@ pg.base.child2_site_display = {
 			-603,
 			149
 		}
-	},
-	[4264] = {
+	}
+	pg.base.child2_site_display[4264] = {
 		param = 4264,
 		name = "商業街",
 		event_icon = "site_event",
@@ -3087,8 +3092,8 @@ pg.base.child2_site_display = {
 			-83,
 			-222
 		}
-	},
-	[4265] = {
+	}
+	pg.base.child2_site_display[4265] = {
 		param = 4265,
 		name = "童心樂園",
 		event_icon = "site_event",
@@ -3105,8 +3110,8 @@ pg.base.child2_site_display = {
 			129,
 			-427
 		}
-	},
-	[4266] = {
+	}
+	pg.base.child2_site_display[4266] = {
 		param = 4266,
 		name = "遊樂場",
 		event_icon = "site_event",
@@ -3123,8 +3128,8 @@ pg.base.child2_site_display = {
 			79,
 			-31
 		}
-	},
-	[4267] = {
+	}
+	pg.base.child2_site_display[4267] = {
 		param = 4267,
 		name = "遊樂場",
 		event_icon = "site_event",
@@ -3141,8 +3146,8 @@ pg.base.child2_site_display = {
 			188,
 			-63
 		}
-	},
-	[4268] = {
+	}
+	pg.base.child2_site_display[4268] = {
 		param = 4268,
 		name = "渡假莊園",
 		event_icon = "site_event",
@@ -3159,8 +3164,8 @@ pg.base.child2_site_display = {
 			-625,
 			542
 		}
-	},
-	[4269] = {
+	}
+	pg.base.child2_site_display[4269] = {
 		param = 4269,
 		name = "美食坊",
 		event_icon = "site_event",
@@ -3177,8 +3182,8 @@ pg.base.child2_site_display = {
 			535,
 			-240
 		}
-	},
-	[4270] = {
+	}
+	pg.base.child2_site_display[4270] = {
 		param = 4270,
 		name = "音浪市集",
 		event_icon = "site_event",
@@ -3195,8 +3200,8 @@ pg.base.child2_site_display = {
 			-375,
 			-160
 		}
-	},
-	[4271] = {
+	}
+	pg.base.child2_site_display[4271] = {
 		param = 4271,
 		name = "海濱公園",
 		event_icon = "site_event",
@@ -3213,8 +3218,8 @@ pg.base.child2_site_display = {
 			-603,
 			149
 		}
-	},
-	[4272] = {
+	}
+	pg.base.child2_site_display[4272] = {
 		param = 4272,
 		name = "商業街",
 		event_icon = "site_event",
@@ -3231,8 +3236,8 @@ pg.base.child2_site_display = {
 			-83,
 			-222
 		}
-	},
-	[4273] = {
+	}
+	pg.base.child2_site_display[4273] = {
 		param = 4273,
 		name = "童心樂園",
 		event_icon = "site_event",
@@ -3249,8 +3254,8 @@ pg.base.child2_site_display = {
 			129,
 			-427
 		}
-	},
-	[4274] = {
+	}
+	pg.base.child2_site_display[4274] = {
 		param = 4274,
 		name = "遊樂場",
 		event_icon = "site_event",
@@ -3267,8 +3272,8 @@ pg.base.child2_site_display = {
 			79,
 			-31
 		}
-	},
-	[4275] = {
+	}
+	pg.base.child2_site_display[4275] = {
 		param = 4275,
 		name = "遊樂場",
 		event_icon = "site_event",
@@ -3285,8 +3290,8 @@ pg.base.child2_site_display = {
 			188,
 			-63
 		}
-	},
-	[4301] = {
+	}
+	pg.base.child2_site_display[4301] = {
 		param = 4301,
 		name = "渡假莊園",
 		event_icon = "site_event",
@@ -3303,8 +3308,8 @@ pg.base.child2_site_display = {
 			-625,
 			542
 		}
-	},
-	[4302] = {
+	}
+	pg.base.child2_site_display[4302] = {
 		param = 4302,
 		name = "遊樂場",
 		event_icon = "site_event",
@@ -3321,8 +3326,8 @@ pg.base.child2_site_display = {
 			150,
 			45
 		}
-	},
-	[4303] = {
+	}
+	pg.base.child2_site_display[4303] = {
 		param = 4303,
 		name = "美食坊",
 		event_icon = "site_event",
@@ -3339,8 +3344,8 @@ pg.base.child2_site_display = {
 			535,
 			-240
 		}
-	},
-	[4304] = {
+	}
+	pg.base.child2_site_display[4304] = {
 		param = 4304,
 		name = "音浪市集",
 		event_icon = "site_event",
@@ -3357,8 +3362,8 @@ pg.base.child2_site_display = {
 			-375,
 			-160
 		}
-	},
-	[4305] = {
+	}
+	pg.base.child2_site_display[4305] = {
 		param = 4305,
 		name = "海濱公園",
 		event_icon = "site_event",
@@ -3375,8 +3380,8 @@ pg.base.child2_site_display = {
 			-603,
 			149
 		}
-	},
-	[4306] = {
+	}
+	pg.base.child2_site_display[4306] = {
 		param = 4306,
 		name = "商業街",
 		event_icon = "site_event",
@@ -3393,8 +3398,8 @@ pg.base.child2_site_display = {
 			-149,
 			56
 		}
-	},
-	[4307] = {
+	}
+	pg.base.child2_site_display[4307] = {
 		param = 4307,
 		name = "香醇小站",
 		event_icon = "site_event",
@@ -3411,8 +3416,8 @@ pg.base.child2_site_display = {
 			368,
 			-141
 		}
-	},
-	[4308] = {
+	}
+	pg.base.child2_site_display[4308] = {
 		param = 4308,
 		name = "商業街",
 		event_icon = "site_event",
@@ -3429,8 +3434,8 @@ pg.base.child2_site_display = {
 			-56,
 			144
 		}
-	},
-	[4309] = {
+	}
+	pg.base.child2_site_display[4309] = {
 		param = 4309,
 		name = "水族館",
 		event_icon = "site_event",
@@ -3447,8 +3452,8 @@ pg.base.child2_site_display = {
 			480,
 			-143
 		}
-	},
-	[4310] = {
+	}
+	pg.base.child2_site_display[4310] = {
 		param = 4310,
 		name = "漫海商坊",
 		event_icon = "site_event",
@@ -3465,8 +3470,8 @@ pg.base.child2_site_display = {
 			-415,
 			43
 		}
-	},
-	[4311] = {
+	}
+	pg.base.child2_site_display[4311] = {
 		param = 4311,
 		name = "學院",
 		event_icon = "site_event",
@@ -3483,8 +3488,8 @@ pg.base.child2_site_display = {
 			-322,
 			427
 		}
-	},
-	[4312] = {
+	}
+	pg.base.child2_site_display[4312] = {
 		param = 4312,
 		name = "轉角書屋",
 		event_icon = "site_event",
@@ -3501,8 +3506,8 @@ pg.base.child2_site_display = {
 			17,
 			221
 		}
-	},
-	[4313] = {
+	}
+	pg.base.child2_site_display[4313] = {
 		param = 4313,
 		name = "商業街",
 		event_icon = "site_event",
@@ -3519,8 +3524,8 @@ pg.base.child2_site_display = {
 			-147,
 			-80
 		}
-	},
-	[4314] = {
+	}
+	pg.base.child2_site_display[4314] = {
 		param = 4314,
 		name = "美食坊",
 		event_icon = "site_event",
@@ -3537,8 +3542,8 @@ pg.base.child2_site_display = {
 			425,
 			-288
 		}
-	},
-	[4315] = {
+	}
+	pg.base.child2_site_display[4315] = {
 		param = 4315,
 		name = "靜謐之峰",
 		event_icon = "site_event",
@@ -3555,8 +3560,8 @@ pg.base.child2_site_display = {
 			442,
 			273
 		}
-	},
-	[4316] = {
+	}
+	pg.base.child2_site_display[4316] = {
 		param = 4316,
 		name = "學院",
 		event_icon = "site_event",
@@ -3573,8 +3578,8 @@ pg.base.child2_site_display = {
 			42,
 			523
 		}
-	},
-	[4317] = {
+	}
+	pg.base.child2_site_display[4317] = {
 		param = 4317,
 		name = "學院",
 		event_icon = "site_event",
@@ -3591,8 +3596,8 @@ pg.base.child2_site_display = {
 			-267,
 			528
 		}
-	},
-	[4318] = {
+	}
+	pg.base.child2_site_display[4318] = {
 		param = 4318,
 		name = "學院",
 		event_icon = "site_event",
@@ -3609,8 +3614,8 @@ pg.base.child2_site_display = {
 			-66,
 			480
 		}
-	},
-	[4319] = {
+	}
+	pg.base.child2_site_display[4319] = {
 		param = 4319,
 		name = "學院",
 		event_icon = "site_event",
@@ -3627,8 +3632,8 @@ pg.base.child2_site_display = {
 			-161,
 			435
 		}
-	},
-	[4320] = {
+	}
+	pg.base.child2_site_display[4320] = {
 		param = 4320,
 		name = "學校圖書館",
 		event_icon = "site_event",
@@ -3645,8 +3650,8 @@ pg.base.child2_site_display = {
 			-372,
 			291
 		}
-	},
-	[4321] = {
+	}
+	pg.base.child2_site_display[4321] = {
 		param = 4321,
 		name = "童心樂園",
 		event_icon = "site_event",
@@ -3663,8 +3668,8 @@ pg.base.child2_site_display = {
 			29,
 			-496
 		}
-	},
-	[4322] = {
+	}
+	pg.base.child2_site_display[4322] = {
 		param = 4322,
 		name = "漫海商坊",
 		event_icon = "site_event",
@@ -3681,8 +3686,8 @@ pg.base.child2_site_display = {
 			-391,
 			-351
 		}
-	},
-	[4323] = {
+	}
+	pg.base.child2_site_display[4323] = {
 		param = 4323,
 		name = "體育館",
 		event_icon = "site_event",
@@ -3699,8 +3704,8 @@ pg.base.child2_site_display = {
 			111,
 			302
 		}
-	},
-	[4324] = {
+	}
+	pg.base.child2_site_display[4324] = {
 		param = 4324,
 		name = "學校圖書館",
 		event_icon = "site_event",
@@ -3717,8 +3722,8 @@ pg.base.child2_site_display = {
 			-283,
 			324
 		}
-	},
-	[4325] = {
+	}
+	pg.base.child2_site_display[4325] = {
 		param = 4325,
 		name = "音樂教室",
 		event_icon = "site_event",
@@ -3735,8 +3740,8 @@ pg.base.child2_site_display = {
 			-93,
 			324
 		}
-	},
-	[4326] = {
+	}
+	pg.base.child2_site_display[4326] = {
 		param = 4326,
 		name = "體育館",
 		event_icon = "site_event",
@@ -3753,8 +3758,8 @@ pg.base.child2_site_display = {
 			228,
 			122
 		}
-	},
-	[4327] = {
+	}
+	pg.base.child2_site_display[4327] = {
 		param = 4327,
 		name = "商業街",
 		event_icon = "site_event",
@@ -3771,8 +3776,8 @@ pg.base.child2_site_display = {
 			-83,
 			-222
 		}
-	},
-	[4328] = {
+	}
+	pg.base.child2_site_display[4328] = {
 		param = 4328,
 		name = "商業街",
 		event_icon = "site_event",
@@ -3789,8 +3794,8 @@ pg.base.child2_site_display = {
 			76,
 			-176
 		}
-	},
-	[4329] = {
+	}
+	pg.base.child2_site_display[4329] = {
 		param = 4329,
 		name = "商業街",
 		event_icon = "site_event",
@@ -3807,8 +3812,8 @@ pg.base.child2_site_display = {
 			-35.4,
 			2.5
 		}
-	},
-	[4330] = {
+	}
+	pg.base.child2_site_display[4330] = {
 		param = 4330,
 		name = "靜謐之峰",
 		event_icon = "site_event",
@@ -3825,8 +3830,8 @@ pg.base.child2_site_display = {
 			681,
 			263
 		}
-	},
-	[4331] = {
+	}
+	pg.base.child2_site_display[4331] = {
 		param = 4331,
 		name = "靜謐之峰",
 		event_icon = "site_event",
@@ -3843,8 +3848,8 @@ pg.base.child2_site_display = {
 			497,
 			525
 		}
-	},
-	[4332] = {
+	}
+	pg.base.child2_site_display[4332] = {
 		param = 4332,
 		name = "靜謐之峰",
 		event_icon = "site_event",
@@ -3861,8 +3866,8 @@ pg.base.child2_site_display = {
 			643,
 			447
 		}
-	},
-	[4333] = {
+	}
+	pg.base.child2_site_display[4333] = {
 		param = 4333,
 		name = "商業街",
 		event_icon = "site_event",
@@ -3879,8 +3884,8 @@ pg.base.child2_site_display = {
 			45,
 			78
 		}
-	},
-	[4334] = {
+	}
+	pg.base.child2_site_display[4334] = {
 		param = 4334,
 		name = "商業街",
 		event_icon = "site_event",
@@ -3897,8 +3902,8 @@ pg.base.child2_site_display = {
 			11,
 			-268
 		}
-	},
-	[4335] = {
+	}
+	pg.base.child2_site_display[4335] = {
 		param = 4335,
 		name = "商業街",
 		event_icon = "site_event",
@@ -3915,8 +3920,8 @@ pg.base.child2_site_display = {
 			-13.8,
 			-120.2
 		}
-	},
-	[4336] = {
+	}
+	pg.base.child2_site_display[4336] = {
 		param = 4336,
 		name = "山畔池塘",
 		event_icon = "site_event",
@@ -3933,8 +3938,8 @@ pg.base.child2_site_display = {
 			208,
 			542
 		}
-	},
-	[4337] = {
+	}
+	pg.base.child2_site_display[4337] = {
 		param = 4337,
 		name = "童心樂園",
 		event_icon = "site_event",
@@ -3951,8 +3956,8 @@ pg.base.child2_site_display = {
 			129,
 			-427
 		}
-	},
-	[4338] = {
+	}
+	pg.base.child2_site_display[4338] = {
 		param = 4338,
 		name = "靜謐之峰",
 		event_icon = "site_event",
@@ -3969,8 +3974,8 @@ pg.base.child2_site_display = {
 			415,
 			419
 		}
-	},
-	[4339] = {
+	}
+	pg.base.child2_site_display[4339] = {
 		param = 4339,
 		name = "",
 		event_icon = "site_ending",
@@ -3987,8 +3992,8 @@ pg.base.child2_site_display = {
 			-314,
 			163
 		}
-	},
-	[4340] = {
+	}
+	pg.base.child2_site_display[4340] = {
 		param = 4340,
 		name = "",
 		event_icon = "site_ending",
@@ -4005,8 +4010,8 @@ pg.base.child2_site_display = {
 			-246,
 			-490
 		}
-	},
-	[4341] = {
+	}
+	pg.base.child2_site_display[4341] = {
 		param = 4341,
 		name = "",
 		event_icon = "site_ending",
@@ -4023,8 +4028,8 @@ pg.base.child2_site_display = {
 			446,
 			10
 		}
-	},
-	[4342] = {
+	}
+	pg.base.child2_site_display[4342] = {
 		param = 4342,
 		name = "",
 		event_icon = "site_ending",
@@ -4041,8 +4046,8 @@ pg.base.child2_site_display = {
 			-420,
 			470
 		}
-	},
-	[4343] = {
+	}
+	pg.base.child2_site_display[4343] = {
 		param = 4343,
 		name = "",
 		event_icon = "site_ending",
@@ -4059,8 +4064,8 @@ pg.base.child2_site_display = {
 			107,
 			159
 		}
-	},
-	[4344] = {
+	}
+	pg.base.child2_site_display[4344] = {
 		param = 4344,
 		name = "",
 		event_icon = "site_ending",
@@ -4077,8 +4082,8 @@ pg.base.child2_site_display = {
 			-694,
 			140
 		}
-	},
-	[4345] = {
+	}
+	pg.base.child2_site_display[4345] = {
 		param = 4345,
 		name = "遊樂場",
 		event_icon = "site_event",
@@ -4095,8 +4100,8 @@ pg.base.child2_site_display = {
 			79,
 			-31
 		}
-	},
-	[4346] = {
+	}
+	pg.base.child2_site_display[4346] = {
 		param = 4346,
 		name = "遊樂場",
 		event_icon = "site_event",
@@ -4113,8 +4118,8 @@ pg.base.child2_site_display = {
 			188,
 			-63
 		}
-	},
-	[4360] = {
+	}
+	pg.base.child2_site_display[4360] = {
 		param = 4360,
 		name = "渡假莊園",
 		event_icon = "site_event",
@@ -4131,8 +4136,8 @@ pg.base.child2_site_display = {
 			-625,
 			542
 		}
-	},
-	[4361] = {
+	}
+	pg.base.child2_site_display[4361] = {
 		param = 4361,
 		name = "美食坊",
 		event_icon = "site_event",
@@ -4149,8 +4154,8 @@ pg.base.child2_site_display = {
 			535,
 			-240
 		}
-	},
-	[4362] = {
+	}
+	pg.base.child2_site_display[4362] = {
 		param = 4362,
 		name = "音浪市集",
 		event_icon = "site_event",
@@ -4167,8 +4172,10 @@ pg.base.child2_site_display = {
 			-375,
 			-160
 		}
-	},
-	[4363] = {
+	}
+end)()
+(function ()
+	pg.base.child2_site_display[4363] = {
 		param = 4363,
 		name = "海濱公園",
 		event_icon = "site_event",
@@ -4185,8 +4192,8 @@ pg.base.child2_site_display = {
 			-603,
 			149
 		}
-	},
-	[4364] = {
+	}
+	pg.base.child2_site_display[4364] = {
 		param = 4364,
 		name = "商業街",
 		event_icon = "site_event",
@@ -4203,8 +4210,8 @@ pg.base.child2_site_display = {
 			-83,
 			-222
 		}
-	},
-	[4365] = {
+	}
+	pg.base.child2_site_display[4365] = {
 		param = 4365,
 		name = "童心樂園",
 		event_icon = "site_event",
@@ -4221,8 +4228,8 @@ pg.base.child2_site_display = {
 			129,
 			-427
 		}
-	},
-	[4366] = {
+	}
+	pg.base.child2_site_display[4366] = {
 		param = 4366,
 		name = "遊樂場",
 		event_icon = "site_event",
@@ -4239,8 +4246,8 @@ pg.base.child2_site_display = {
 			79,
 			-31
 		}
-	},
-	[4367] = {
+	}
+	pg.base.child2_site_display[4367] = {
 		param = 4367,
 		name = "遊樂場",
 		event_icon = "site_event",
@@ -4257,8 +4264,8 @@ pg.base.child2_site_display = {
 			188,
 			-63
 		}
-	},
-	[4368] = {
+	}
+	pg.base.child2_site_display[4368] = {
 		param = 4368,
 		name = "渡假莊園",
 		event_icon = "site_event",
@@ -4275,8 +4282,8 @@ pg.base.child2_site_display = {
 			-625,
 			542
 		}
-	},
-	[4369] = {
+	}
+	pg.base.child2_site_display[4369] = {
 		param = 4369,
 		name = "美食坊",
 		event_icon = "site_event",
@@ -4293,8 +4300,8 @@ pg.base.child2_site_display = {
 			535,
 			-240
 		}
-	},
-	[4370] = {
+	}
+	pg.base.child2_site_display[4370] = {
 		param = 4370,
 		name = "音浪市集",
 		event_icon = "site_event",
@@ -4311,8 +4318,8 @@ pg.base.child2_site_display = {
 			-375,
 			-160
 		}
-	},
-	[4371] = {
+	}
+	pg.base.child2_site_display[4371] = {
 		param = 4371,
 		name = "海濱公園",
 		event_icon = "site_event",
@@ -4329,8 +4336,8 @@ pg.base.child2_site_display = {
 			-603,
 			149
 		}
-	},
-	[4372] = {
+	}
+	pg.base.child2_site_display[4372] = {
 		param = 4372,
 		name = "商業街",
 		event_icon = "site_event",
@@ -4347,8 +4354,8 @@ pg.base.child2_site_display = {
 			-83,
 			-222
 		}
-	},
-	[4373] = {
+	}
+	pg.base.child2_site_display[4373] = {
 		param = 4373,
 		name = "童心樂園",
 		event_icon = "site_event",
@@ -4365,8 +4372,8 @@ pg.base.child2_site_display = {
 			129,
 			-427
 		}
-	},
-	[4374] = {
+	}
+	pg.base.child2_site_display[4374] = {
 		param = 4374,
 		name = "遊樂場",
 		event_icon = "site_event",
@@ -4383,8 +4390,8 @@ pg.base.child2_site_display = {
 			79,
 			-31
 		}
-	},
-	[4375] = {
+	}
+	pg.base.child2_site_display[4375] = {
 		param = 4375,
 		name = "遊樂場",
 		event_icon = "site_event",
@@ -4401,8 +4408,8 @@ pg.base.child2_site_display = {
 			188,
 			-63
 		}
-	},
-	[4401] = {
+	}
+	pg.base.child2_site_display[4401] = {
 		param = 4401,
 		name = "渡假莊園",
 		event_icon = "site_event",
@@ -4419,8 +4426,8 @@ pg.base.child2_site_display = {
 			-625,
 			542
 		}
-	},
-	[4402] = {
+	}
+	pg.base.child2_site_display[4402] = {
 		param = 4402,
 		name = "遊樂場",
 		event_icon = "site_event",
@@ -4437,8 +4444,8 @@ pg.base.child2_site_display = {
 			150,
 			45
 		}
-	},
-	[4403] = {
+	}
+	pg.base.child2_site_display[4403] = {
 		param = 4403,
 		name = "美食坊",
 		event_icon = "site_event",
@@ -4455,8 +4462,8 @@ pg.base.child2_site_display = {
 			535,
 			-240
 		}
-	},
-	[4404] = {
+	}
+	pg.base.child2_site_display[4404] = {
 		param = 4404,
 		name = "音浪市集",
 		event_icon = "site_event",
@@ -4473,8 +4480,8 @@ pg.base.child2_site_display = {
 			-375,
 			-160
 		}
-	},
-	[4405] = {
+	}
+	pg.base.child2_site_display[4405] = {
 		param = 4405,
 		name = "海濱公園",
 		event_icon = "site_event",
@@ -4491,8 +4498,8 @@ pg.base.child2_site_display = {
 			-603,
 			149
 		}
-	},
-	[4406] = {
+	}
+	pg.base.child2_site_display[4406] = {
 		param = 4406,
 		name = "商業街",
 		event_icon = "site_event",
@@ -4509,8 +4516,8 @@ pg.base.child2_site_display = {
 			-149,
 			56
 		}
-	},
-	[4407] = {
+	}
+	pg.base.child2_site_display[4407] = {
 		param = 4407,
 		name = "香醇小站",
 		event_icon = "site_event",
@@ -4527,8 +4534,8 @@ pg.base.child2_site_display = {
 			368,
 			-141
 		}
-	},
-	[4408] = {
+	}
+	pg.base.child2_site_display[4408] = {
 		param = 4408,
 		name = "商業街",
 		event_icon = "site_event",
@@ -4545,8 +4552,8 @@ pg.base.child2_site_display = {
 			-56,
 			144
 		}
-	},
-	[4409] = {
+	}
+	pg.base.child2_site_display[4409] = {
 		param = 4409,
 		name = "水族館",
 		event_icon = "site_event",
@@ -4563,8 +4570,8 @@ pg.base.child2_site_display = {
 			480,
 			-143
 		}
-	},
-	[4410] = {
+	}
+	pg.base.child2_site_display[4410] = {
 		param = 4410,
 		name = "漫海商坊",
 		event_icon = "site_event",
@@ -4581,8 +4588,8 @@ pg.base.child2_site_display = {
 			-415,
 			43
 		}
-	},
-	[4411] = {
+	}
+	pg.base.child2_site_display[4411] = {
 		param = 4411,
 		name = "學院",
 		event_icon = "site_event",
@@ -4599,8 +4606,8 @@ pg.base.child2_site_display = {
 			-322,
 			427
 		}
-	},
-	[4412] = {
+	}
+	pg.base.child2_site_display[4412] = {
 		param = 4412,
 		name = "轉角書屋",
 		event_icon = "site_event",
@@ -4617,8 +4624,8 @@ pg.base.child2_site_display = {
 			17,
 			221
 		}
-	},
-	[4413] = {
+	}
+	pg.base.child2_site_display[4413] = {
 		param = 4413,
 		name = "商業街",
 		event_icon = "site_event",
@@ -4635,8 +4642,8 @@ pg.base.child2_site_display = {
 			-147,
 			-80
 		}
-	},
-	[4414] = {
+	}
+	pg.base.child2_site_display[4414] = {
 		param = 4414,
 		name = "美食坊",
 		event_icon = "site_event",
@@ -4653,8 +4660,8 @@ pg.base.child2_site_display = {
 			425,
 			-288
 		}
-	},
-	[4415] = {
+	}
+	pg.base.child2_site_display[4415] = {
 		param = 4415,
 		name = "靜謐之峰",
 		event_icon = "site_event",
@@ -4671,8 +4678,8 @@ pg.base.child2_site_display = {
 			442,
 			273
 		}
-	},
-	[4416] = {
+	}
+	pg.base.child2_site_display[4416] = {
 		param = 4416,
 		name = "學院",
 		event_icon = "site_event",
@@ -4689,8 +4696,8 @@ pg.base.child2_site_display = {
 			42,
 			523
 		}
-	},
-	[4417] = {
+	}
+	pg.base.child2_site_display[4417] = {
 		param = 4417,
 		name = "學院",
 		event_icon = "site_event",
@@ -4707,8 +4714,8 @@ pg.base.child2_site_display = {
 			-267,
 			528
 		}
-	},
-	[4418] = {
+	}
+	pg.base.child2_site_display[4418] = {
 		param = 4418,
 		name = "學院",
 		event_icon = "site_event",
@@ -4725,8 +4732,8 @@ pg.base.child2_site_display = {
 			-66,
 			480
 		}
-	},
-	[4419] = {
+	}
+	pg.base.child2_site_display[4419] = {
 		param = 4419,
 		name = "學院",
 		event_icon = "site_event",
@@ -4743,8 +4750,8 @@ pg.base.child2_site_display = {
 			-161,
 			435
 		}
-	},
-	[4420] = {
+	}
+	pg.base.child2_site_display[4420] = {
 		param = 4420,
 		name = "學校圖書館",
 		event_icon = "site_event",
@@ -4761,8 +4768,8 @@ pg.base.child2_site_display = {
 			-372,
 			291
 		}
-	},
-	[4421] = {
+	}
+	pg.base.child2_site_display[4421] = {
 		param = 4421,
 		name = "童心樂園",
 		event_icon = "site_event",
@@ -4779,8 +4786,8 @@ pg.base.child2_site_display = {
 			29,
 			-496
 		}
-	},
-	[4422] = {
+	}
+	pg.base.child2_site_display[4422] = {
 		param = 4422,
 		name = "漫海商坊",
 		event_icon = "site_event",
@@ -4797,8 +4804,8 @@ pg.base.child2_site_display = {
 			-391,
 			-351
 		}
-	},
-	[4423] = {
+	}
+	pg.base.child2_site_display[4423] = {
 		param = 4423,
 		name = "體育館",
 		event_icon = "site_event",
@@ -4815,8 +4822,8 @@ pg.base.child2_site_display = {
 			111,
 			302
 		}
-	},
-	[4424] = {
+	}
+	pg.base.child2_site_display[4424] = {
 		param = 4424,
 		name = "學校圖書館",
 		event_icon = "site_event",
@@ -4833,8 +4840,8 @@ pg.base.child2_site_display = {
 			-283,
 			324
 		}
-	},
-	[4425] = {
+	}
+	pg.base.child2_site_display[4425] = {
 		param = 4425,
 		name = "音樂教室",
 		event_icon = "site_event",
@@ -4851,8 +4858,8 @@ pg.base.child2_site_display = {
 			-93,
 			324
 		}
-	},
-	[4426] = {
+	}
+	pg.base.child2_site_display[4426] = {
 		param = 4426,
 		name = "體育館",
 		event_icon = "site_event",
@@ -4869,8 +4876,8 @@ pg.base.child2_site_display = {
 			228,
 			122
 		}
-	},
-	[4427] = {
+	}
+	pg.base.child2_site_display[4427] = {
 		param = 4427,
 		name = "商業街",
 		event_icon = "site_event",
@@ -4887,8 +4894,8 @@ pg.base.child2_site_display = {
 			-83,
 			-222
 		}
-	},
-	[4428] = {
+	}
+	pg.base.child2_site_display[4428] = {
 		param = 4428,
 		name = "商業街",
 		event_icon = "site_event",
@@ -4905,8 +4912,8 @@ pg.base.child2_site_display = {
 			76,
 			-176
 		}
-	},
-	[4429] = {
+	}
+	pg.base.child2_site_display[4429] = {
 		param = 4429,
 		name = "商業街",
 		event_icon = "site_event",
@@ -4923,8 +4930,8 @@ pg.base.child2_site_display = {
 			-35.4,
 			2.5
 		}
-	},
-	[4430] = {
+	}
+	pg.base.child2_site_display[4430] = {
 		param = 4430,
 		name = "靜謐之峰",
 		event_icon = "site_event",
@@ -4941,8 +4948,8 @@ pg.base.child2_site_display = {
 			681,
 			263
 		}
-	},
-	[4431] = {
+	}
+	pg.base.child2_site_display[4431] = {
 		param = 4431,
 		name = "靜謐之峰",
 		event_icon = "site_event",
@@ -4959,8 +4966,8 @@ pg.base.child2_site_display = {
 			497,
 			525
 		}
-	},
-	[4432] = {
+	}
+	pg.base.child2_site_display[4432] = {
 		param = 4432,
 		name = "靜謐之峰",
 		event_icon = "site_event",
@@ -4977,8 +4984,8 @@ pg.base.child2_site_display = {
 			643,
 			447
 		}
-	},
-	[4433] = {
+	}
+	pg.base.child2_site_display[4433] = {
 		param = 4433,
 		name = "商業街",
 		event_icon = "site_event",
@@ -4995,8 +5002,8 @@ pg.base.child2_site_display = {
 			45,
 			78
 		}
-	},
-	[4434] = {
+	}
+	pg.base.child2_site_display[4434] = {
 		param = 4434,
 		name = "商業街",
 		event_icon = "site_event",
@@ -5013,8 +5020,8 @@ pg.base.child2_site_display = {
 			11,
 			-268
 		}
-	},
-	[4435] = {
+	}
+	pg.base.child2_site_display[4435] = {
 		param = 4435,
 		name = "商業街",
 		event_icon = "site_event",
@@ -5031,8 +5038,8 @@ pg.base.child2_site_display = {
 			-13.8,
 			-120.2
 		}
-	},
-	[4436] = {
+	}
+	pg.base.child2_site_display[4436] = {
 		param = 4436,
 		name = "山畔池塘",
 		event_icon = "site_event",
@@ -5049,8 +5056,8 @@ pg.base.child2_site_display = {
 			208,
 			542
 		}
-	},
-	[4437] = {
+	}
+	pg.base.child2_site_display[4437] = {
 		param = 4437,
 		name = "童心樂園",
 		event_icon = "site_event",
@@ -5067,8 +5074,8 @@ pg.base.child2_site_display = {
 			129,
 			-427
 		}
-	},
-	[4438] = {
+	}
+	pg.base.child2_site_display[4438] = {
 		param = 4438,
 		name = "靜謐之峰",
 		event_icon = "site_event",
@@ -5085,8 +5092,8 @@ pg.base.child2_site_display = {
 			415,
 			419
 		}
-	},
-	[4439] = {
+	}
+	pg.base.child2_site_display[4439] = {
 		param = 4439,
 		name = "",
 		event_icon = "site_ending",
@@ -5103,8 +5110,8 @@ pg.base.child2_site_display = {
 			-314,
 			163
 		}
-	},
-	[4440] = {
+	}
+	pg.base.child2_site_display[4440] = {
 		param = 4440,
 		name = "",
 		event_icon = "site_ending",
@@ -5121,8 +5128,8 @@ pg.base.child2_site_display = {
 			-246,
 			-490
 		}
-	},
-	[4441] = {
+	}
+	pg.base.child2_site_display[4441] = {
 		param = 4441,
 		name = "",
 		event_icon = "site_ending",
@@ -5139,8 +5146,8 @@ pg.base.child2_site_display = {
 			446,
 			10
 		}
-	},
-	[4442] = {
+	}
+	pg.base.child2_site_display[4442] = {
 		param = 4442,
 		name = "",
 		event_icon = "site_ending",
@@ -5157,8 +5164,8 @@ pg.base.child2_site_display = {
 			-420,
 			470
 		}
-	},
-	[4443] = {
+	}
+	pg.base.child2_site_display[4443] = {
 		param = 4443,
 		name = "",
 		event_icon = "site_ending",
@@ -5175,8 +5182,8 @@ pg.base.child2_site_display = {
 			107,
 			159
 		}
-	},
-	[4444] = {
+	}
+	pg.base.child2_site_display[4444] = {
 		param = 4444,
 		name = "",
 		event_icon = "site_ending",
@@ -5193,8 +5200,8 @@ pg.base.child2_site_display = {
 			-694,
 			140
 		}
-	},
-	[4445] = {
+	}
+	pg.base.child2_site_display[4445] = {
 		param = 4445,
 		name = "遊樂場",
 		event_icon = "site_event",
@@ -5211,8 +5218,8 @@ pg.base.child2_site_display = {
 			79,
 			-31
 		}
-	},
-	[4446] = {
+	}
+	pg.base.child2_site_display[4446] = {
 		param = 4446,
 		name = "遊樂場",
 		event_icon = "site_event",
@@ -5229,8 +5236,8 @@ pg.base.child2_site_display = {
 			188,
 			-63
 		}
-	},
-	[4460] = {
+	}
+	pg.base.child2_site_display[4460] = {
 		param = 4460,
 		name = "渡假莊園",
 		event_icon = "site_event",
@@ -5247,8 +5254,8 @@ pg.base.child2_site_display = {
 			-625,
 			542
 		}
-	},
-	[4461] = {
+	}
+	pg.base.child2_site_display[4461] = {
 		param = 4461,
 		name = "美食坊",
 		event_icon = "site_event",
@@ -5265,8 +5272,8 @@ pg.base.child2_site_display = {
 			535,
 			-240
 		}
-	},
-	[4462] = {
+	}
+	pg.base.child2_site_display[4462] = {
 		param = 4462,
 		name = "音浪市集",
 		event_icon = "site_event",
@@ -5283,8 +5290,8 @@ pg.base.child2_site_display = {
 			-375,
 			-160
 		}
-	},
-	[4463] = {
+	}
+	pg.base.child2_site_display[4463] = {
 		param = 4463,
 		name = "海濱公園",
 		event_icon = "site_event",
@@ -5301,8 +5308,8 @@ pg.base.child2_site_display = {
 			-603,
 			149
 		}
-	},
-	[4464] = {
+	}
+	pg.base.child2_site_display[4464] = {
 		param = 4464,
 		name = "商業街",
 		event_icon = "site_event",
@@ -5319,8 +5326,8 @@ pg.base.child2_site_display = {
 			-83,
 			-222
 		}
-	},
-	[4465] = {
+	}
+	pg.base.child2_site_display[4465] = {
 		param = 4465,
 		name = "童心樂園",
 		event_icon = "site_event",
@@ -5337,8 +5344,8 @@ pg.base.child2_site_display = {
 			129,
 			-427
 		}
-	},
-	[4466] = {
+	}
+	pg.base.child2_site_display[4466] = {
 		param = 4466,
 		name = "遊樂場",
 		event_icon = "site_event",
@@ -5355,8 +5362,8 @@ pg.base.child2_site_display = {
 			79,
 			-31
 		}
-	},
-	[4467] = {
+	}
+	pg.base.child2_site_display[4467] = {
 		param = 4467,
 		name = "遊樂場",
 		event_icon = "site_event",
@@ -5373,8 +5380,8 @@ pg.base.child2_site_display = {
 			188,
 			-63
 		}
-	},
-	[4468] = {
+	}
+	pg.base.child2_site_display[4468] = {
 		param = 4468,
 		name = "渡假莊園",
 		event_icon = "site_event",
@@ -5391,8 +5398,8 @@ pg.base.child2_site_display = {
 			-625,
 			542
 		}
-	},
-	[4469] = {
+	}
+	pg.base.child2_site_display[4469] = {
 		param = 4469,
 		name = "美食坊",
 		event_icon = "site_event",
@@ -5409,8 +5416,8 @@ pg.base.child2_site_display = {
 			535,
 			-240
 		}
-	},
-	[4470] = {
+	}
+	pg.base.child2_site_display[4470] = {
 		param = 4470,
 		name = "音浪市集",
 		event_icon = "site_event",
@@ -5427,8 +5434,8 @@ pg.base.child2_site_display = {
 			-375,
 			-160
 		}
-	},
-	[4471] = {
+	}
+	pg.base.child2_site_display[4471] = {
 		param = 4471,
 		name = "海濱公園",
 		event_icon = "site_event",
@@ -5445,8 +5452,8 @@ pg.base.child2_site_display = {
 			-603,
 			149
 		}
-	},
-	[4472] = {
+	}
+	pg.base.child2_site_display[4472] = {
 		param = 4472,
 		name = "商業街",
 		event_icon = "site_event",
@@ -5463,8 +5470,8 @@ pg.base.child2_site_display = {
 			-83,
 			-222
 		}
-	},
-	[4473] = {
+	}
+	pg.base.child2_site_display[4473] = {
 		param = 4473,
 		name = "童心樂園",
 		event_icon = "site_event",
@@ -5481,8 +5488,8 @@ pg.base.child2_site_display = {
 			129,
 			-427
 		}
-	},
-	[4474] = {
+	}
+	pg.base.child2_site_display[4474] = {
 		param = 4474,
 		name = "遊樂場",
 		event_icon = "site_event",
@@ -5499,8 +5506,8 @@ pg.base.child2_site_display = {
 			79,
 			-31
 		}
-	},
-	[4475] = {
+	}
+	pg.base.child2_site_display[4475] = {
 		param = 4475,
 		name = "遊樂場",
 		event_icon = "site_event",
@@ -5518,4 +5525,4 @@ pg.base.child2_site_display = {
 			-63
 		}
 	}
-}
+end)()

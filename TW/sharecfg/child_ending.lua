@@ -1,6 +1,25 @@
 pg = pg or {}
-pg.child_ending = {
-	{
+pg.child_ending = rawget(pg, "child_ending") or setmetatable({
+	__name = "child_ending"
+}, confNEO)
+pg.child_ending.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11
+}
+pg.base = pg.base or {}
+pg.base.child_ending = {}
+
+(function ()
+	pg.base.child_ending[1] = {
 		name = "平面模特兒",
 		polaroid_condition = 201,
 		group = 1,
@@ -36,8 +55,8 @@ pg.child_ending = {
 		performance = {
 			133
 		}
-	},
-	{
+	}
+	pg.base.child_ending[2] = {
 		name = "藝術家",
 		polaroid_condition = 201,
 		group = 2,
@@ -78,8 +97,8 @@ pg.child_ending = {
 		performance = {
 			134
 		}
-	},
-	{
+	}
+	pg.base.child_ending[3] = {
 		name = "音樂人",
 		polaroid_condition = 201,
 		group = 3,
@@ -110,8 +129,8 @@ pg.child_ending = {
 		performance = {
 			135
 		}
-	},
-	{
+	}
+	pg.base.child_ending[4] = {
 		name = "矚目新星",
 		polaroid_condition = 203,
 		group = 4,
@@ -152,8 +171,8 @@ pg.child_ending = {
 		performance = {
 			136
 		}
-	},
-	{
+	}
+	pg.base.child_ending[5] = {
 		name = "烘焙達人",
 		polaroid_condition = 203,
 		group = 5,
@@ -189,8 +208,8 @@ pg.child_ending = {
 		performance = {
 			137
 		}
-	},
-	{
+	}
+	pg.base.child_ending[6] = {
 		name = "小說作家",
 		polaroid_condition = 203,
 		group = 6,
@@ -226,8 +245,8 @@ pg.child_ending = {
 		performance = {
 			138
 		}
-	},
-	{
+	}
+	pg.base.child_ending[7] = {
 		name = "賽場新秀",
 		polaroid_condition = 202,
 		group = 7,
@@ -258,8 +277,8 @@ pg.child_ending = {
 		performance = {
 			139
 		}
-	},
-	{
+	}
+	pg.base.child_ending[8] = {
 		name = "商業奇才",
 		polaroid_condition = 202,
 		group = 8,
@@ -295,8 +314,8 @@ pg.child_ending = {
 		performance = {
 			140
 		}
-	},
-	{
+	}
+	pg.base.child_ending[9] = {
 		name = "農場能手",
 		polaroid_condition = 202,
 		group = 9,
@@ -337,8 +356,8 @@ pg.child_ending = {
 		performance = {
 			141
 		}
-	},
-	{
+	}
+	pg.base.child_ending[10] = {
 		name = "日復一日",
 		polaroid_condition = 0,
 		group = 10,
@@ -375,8 +394,8 @@ pg.child_ending = {
 		performance = {
 			142
 		}
-	},
-	{
+	}
+	pg.base.child_ending[11] = {
 		name = "足不出戶",
 		polaroid_condition = 0,
 		group = 11,
@@ -392,18 +411,5 @@ pg.child_ending = {
 		performance = {
 			143
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11
 	}
-}
+end)()

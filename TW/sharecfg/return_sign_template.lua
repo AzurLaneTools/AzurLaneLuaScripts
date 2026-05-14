@@ -1,6 +1,28 @@
 pg = pg or {}
-pg.return_sign_template = {
-	{
+pg.return_sign_template = rawget(pg, "return_sign_template") or setmetatable({
+	__name = "return_sign_template"
+}, confNEO)
+pg.return_sign_template.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14
+}
+pg.base = pg.base or {}
+pg.base.return_sign_template = {}
+
+(function ()
+	pg.base.return_sign_template[1] = {
 		id = 1,
 		level = {
 			{
@@ -69,8 +91,8 @@ pg.return_sign_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.return_sign_template[2] = {
 		id = 2,
 		level = {
 			{
@@ -139,8 +161,8 @@ pg.return_sign_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.return_sign_template[3] = {
 		id = 3,
 		level = {
 			{
@@ -209,8 +231,8 @@ pg.return_sign_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.return_sign_template[4] = {
 		id = 4,
 		level = {
 			{
@@ -279,8 +301,8 @@ pg.return_sign_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.return_sign_template[5] = {
 		id = 5,
 		level = {
 			{
@@ -349,8 +371,8 @@ pg.return_sign_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.return_sign_template[6] = {
 		id = 6,
 		level = {
 			{
@@ -419,8 +441,8 @@ pg.return_sign_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.return_sign_template[7] = {
 		id = 7,
 		level = {
 			{
@@ -489,8 +511,8 @@ pg.return_sign_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.return_sign_template[8] = {
 		id = 8,
 		level = {
 			{
@@ -559,8 +581,8 @@ pg.return_sign_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.return_sign_template[9] = {
 		id = 9,
 		level = {
 			{
@@ -629,8 +651,8 @@ pg.return_sign_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.return_sign_template[10] = {
 		id = 10,
 		level = {
 			{
@@ -699,8 +721,8 @@ pg.return_sign_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.return_sign_template[11] = {
 		id = 11,
 		level = {
 			{
@@ -769,8 +791,8 @@ pg.return_sign_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.return_sign_template[12] = {
 		id = 12,
 		level = {
 			{
@@ -839,8 +861,8 @@ pg.return_sign_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.return_sign_template[13] = {
 		id = 13,
 		level = {
 			{
@@ -909,8 +931,8 @@ pg.return_sign_template = {
 				}
 			}
 		}
-	},
-	{
+	}
+	pg.base.return_sign_template[14] = {
 		id = 14,
 		level = {
 			{
@@ -979,21 +1001,5 @@ pg.return_sign_template = {
 				}
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14
 	}
-}
+end)()

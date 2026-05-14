@@ -1,6 +1,108 @@
 pg = pg or {}
-pg.memory_storyline = {
-	{
+pg.memory_storyline = rawget(pg, "memory_storyline") or setmetatable({
+	__name = "memory_storyline"
+}, confNEO)
+pg.memory_storyline.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20,
+	21,
+	22,
+	23,
+	24,
+	25,
+	26,
+	27,
+	28,
+	29,
+	30,
+	31,
+	32,
+	33,
+	34,
+	35,
+	36,
+	37,
+	38,
+	39,
+	40,
+	41,
+	42,
+	43,
+	44,
+	45,
+	46,
+	47,
+	48,
+	49,
+	50,
+	51,
+	52,
+	53,
+	54,
+	55,
+	56,
+	57,
+	58,
+	59,
+	60,
+	61,
+	62,
+	63,
+	64,
+	65,
+	66,
+	67,
+	68,
+	69,
+	70,
+	71,
+	72,
+	73,
+	74,
+	75,
+	76,
+	77,
+	78,
+	79,
+	80,
+	81,
+	82,
+	83,
+	84,
+	85,
+	86,
+	87,
+	88,
+	89,
+	90,
+	91,
+	92,
+	93,
+	94
+}
+pg.base = pg.base or {}
+pg.base.memory_storyline = {}
+
+(function ()
+	pg.base.memory_storyline[1] = {
 		description = "將至的「大演習」，智鬥與勇武交會的演武場之上，阻擋「王將」前進之路的「步兵」是……？",
 		name = "蒼紅的迴響·上",
 		column = 1,
@@ -45,8 +147,8 @@ pg.memory_storyline = {
 			3,
 			4
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[2] = {
 		description = "異色格象——雙方棋手各有的一個象存在於不同色的棋格裡，它們將永遠無法接觸。",
 		name = "「異色格」作戰",
 		link_event = "",
@@ -66,8 +168,8 @@ pg.memory_storyline = {
 		shipnation = {
 			4
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[3] = {
 		description = "「仁慈的主啊，願您的光輝能照耀至教國的每一處——」\n「護佑我等的和平與希望——」\n「護佑我等平靜又安寧的日常——」",
 		name = "來自鳶尾的天使",
 		link_event = "",
@@ -88,8 +190,8 @@ pg.memory_storyline = {
 			10,
 			2
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[4] = {
 		description = "從隱密的不凍港到宏偉的極地要塞，一場極地的破冰之旅就要開始了。",
 		name = "深度回音·上",
 		link_event = "",
@@ -137,8 +239,8 @@ pg.memory_storyline = {
 		shipnation = {
 			7
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[5] = {
 		description = "「希望我們有能再次相見的一天，腓特烈。」\n「俾斯麥，讓我們一同向著未來進發吧。」",
 		name = "遠匯點作戰·上",
 		column = 3,
@@ -162,8 +264,8 @@ pg.memory_storyline = {
 		link_event = {
 			2
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[6] = {
 		description = "高舉戰無不勝的鷲旗，吾輩再次凱旋。鳶尾之安危，吾輩之擔當。縱使烈焰灼身，吾輩義無反顧。",
 		name = "杰諾瓦的焰火",
 		column = 4,
@@ -186,8 +288,8 @@ pg.memory_storyline = {
 		link_event = {
 			5
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[7] = {
 		description = "前往搜索攻擊維希教廷的皇家H艦隊，在途中遭遇了塞壬艦隊前鋒，一場遭遇戰即將打響……",
 		name = "光與影的鳶尾之華·上",
 		column = 5,
@@ -215,8 +317,8 @@ pg.memory_storyline = {
 		link_event = {
 			6
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[8] = {
 		description = "一場神聖的喜劇，一場神聖的悲劇。古老的帝國在風雨中搖擺，璀璨的寶石，卻依然閃耀著亙古不變的光芒。",
 		name = "神聖的悲喜劇",
 		column = 6,
@@ -238,8 +340,8 @@ pg.memory_storyline = {
 		link_event = {
 			7
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[9] = {
 		description = "我們的生存空間，不是靠乞求和抗議來實現的。鐵血沒有別的路可走，唯有奮鬥！ ——Eisen und Blut über alles！",
 		name = "鐵血、音符與誓言·上",
 		column = 7,
@@ -264,8 +366,8 @@ pg.memory_storyline = {
 		link_event = {
 			8
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[10] = {
 		description = "<<SysLog>>實驗對象已入場，開始為「紅方」與「藍方」生產「棋子<Piece>」——參與測試之人，祝你好運。",
 		name = "遠匯點作戰·中",
 		column = 7,
@@ -297,8 +399,8 @@ pg.memory_storyline = {
 		link_event = {
 			8
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[11] = {
 		description = "世界分崩離析，擁有力量之人站了起來，想要對抗歷史的洪流\n殊不知，力量與力量之間互相吸引，喚起了更大的波瀾……",
 		name = "戰火序幕",
 		column = 8,
@@ -324,8 +426,8 @@ pg.memory_storyline = {
 			13,
 			14
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[12] = {
 		description = "「保證書」\n……無論在任何地方，如果俾斯麥姊姊不幸受傷，哪怕是用拖，U556也要把她的姊姊拖回港口……",
 		name = "小小的誓言",
 		link_event = "",
@@ -345,8 +447,8 @@ pg.memory_storyline = {
 		shipnation = {
 			4
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[13] = {
 		description = "俾斯麥喪失了行動力，但仍在負隅頑抗。勝利終將屬於我們，為了胡德，為了皇家艦隊的榮耀，開火！",
 		name = "鐵血、音符與誓言·下",
 		column = 9,
@@ -389,8 +491,8 @@ pg.memory_storyline = {
 		link_event = {
 			15
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[14] = {
 		description = "<<SysLog>>指令已獲取，作戰名「遠匯點」，於遠方相彙的交點，資料紀錄完畢。",
 		name = "遠匯點作戰·下",
 		link_event = "",
@@ -417,8 +519,8 @@ pg.memory_storyline = {
 		shipnation = {
 			4
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[15] = {
 		description = "收到急報，PH港受到不明艦隊空襲，停泊艦隊已陷入火海之中……究竟發生什麼事了？",
 		name = "虎！虎！虎！",
 		column = 10,
@@ -441,8 +543,8 @@ pg.memory_storyline = {
 		link_event = {
 			13
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[16] = {
 		description = "堅守陣地，在敵人沒有開槍射擊以前，不要先開槍。但是，如果敵人硬要把戰爭強加在我們頭上——那麼，就讓戰爭從這裡開始吧！",
 		name = "珊瑚海首秀",
 		column = 11,
@@ -468,8 +570,8 @@ pg.memory_storyline = {
 			18,
 			19
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[17] = {
 		description = "「AF可能缺少淡水，攻擊部隊帶足淡水」——我們這次可是釣到大魚了",
 		name = "決戰中途島",
 		column = 12,
@@ -492,8 +594,8 @@ pg.memory_storyline = {
 		link_event = {
 			20
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[18] = {
 		description = "塵封的檔案，承載著沉重的過去。有些事永遠不會被遺忘，但是，我們依然要鼓起勇氣邁向明天——",
 		name = "銀色檔案",
 		link_event = "",
@@ -513,8 +615,8 @@ pg.memory_storyline = {
 		shipnation = {
 			1
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[19] = {
 		description = "天城大人，如果是妳的話，能告訴我接下來該如何選擇嗎？",
 		name = "蒼紅的迴響·下",
 		column = 12,
@@ -539,8 +641,8 @@ pg.memory_storyline = {
 		link_event = {
 			20
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[20] = {
 		description = "穿越風暴，與同伴離散，瑞鶴獨自踏上了楓葉飄零的未知海域，這裡就是大家苦苦尋找的「聖域」嗎？",
 		name = "紅染的參訪者",
 		link_event = "",
@@ -560,8 +662,8 @@ pg.memory_storyline = {
 		shipnation = {
 			3
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[21] = {
 		description = "後輩們，再次一起奮戰吧！ ——新生重櫻聯合，出擊！",
 		name = "歸來與新生",
 		column = 14,
@@ -585,8 +687,8 @@ pg.memory_storyline = {
 			22,
 			23
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[22] = {
 		description = "在凱比爾港修養了將近兩年之後，敦克爾克終於踏上了回家的道路，首先，突破前方的海域吧！",
 		name = "夜幕下的歸途",
 		link_event = "",
@@ -607,8 +709,8 @@ pg.memory_storyline = {
 			2,
 			10
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[23] = {
 		description = "大洋彼岸「最強」的兩艘戰艦，為了各自的正義與信仰，在這個宿命的舞台上展開了對決……",
 		name = "光與影的鳶尾之華·下",
 		link_event = "",
@@ -638,8 +740,8 @@ pg.memory_storyline = {
 			1,
 			2
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[24] = {
 		description = "我曾認為，把所有槍口對準我們的敵人都擊敗後，就能找回些許的寧靜。然而，未來背叛了我們。就算再怎麼努力，前方依然只有無盡的戰鬥……",
 		name = "墜落之翼",
 		column = 16,
@@ -661,8 +763,8 @@ pg.memory_storyline = {
 		link_event = {
 			23
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[25] = {
 		description = "極北之北，完成護航任務的皇家艦隊在返航的途中先後遭遇到了新型塞壬與鐵血艦隊的襲擊……這一切真的只是巧合嗎？",
 		name = "凜冬皇冠",
 		column = 17,
@@ -685,8 +787,8 @@ pg.memory_storyline = {
 		link_event = {
 			24
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[26] = {
 		description = "為了尋找重要的同伴，新生重櫻聯合的眾人回到了令人懷念的故土，然而，等在眾人面前的，卻是塞壬的艦影……",
 		name = "墨染的鋼鐵之花",
 		column = 18,
@@ -710,8 +812,8 @@ pg.memory_storyline = {
 			27,
 			28
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[27] = {
 		description = "指揮官即將抵達NY司令部，白鷹艦隊正在緊鑼密鼓的準備著……然而，陷阱已經布下。視線之外的地方，一場風暴正在醞釀！",
 		name = "風暴前夕",
 		column = 19,
@@ -734,8 +836,8 @@ pg.memory_storyline = {
 		link_event = {
 			28
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[28] = {
 		description = "一場蓄謀已久的意外，兩處精心佈置的舞台。何為箱庭？誰為病人？ \n只有直面過去，才能走向未來——",
 		name = "箱庭療法",
 		column = 19,
@@ -758,8 +860,8 @@ pg.memory_storyline = {
 		link_event = {
 			29
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[29] = {
 		description = "遠離重櫻本島，供奉著神石「海若」的天岩島之上，各方面的勢力匯聚一堂。渴望力量之人，信仰堅定之人，耍弄權謀之人……祭典就要開始了。",
 		name = "浮櫻影華",
 		column = 20,
@@ -784,8 +886,8 @@ pg.memory_storyline = {
 			31,
 			32
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[30] = {
 		description = "迷霧突現，白鷹派往巴拿馬要塞的增援艦隊在不知不覺間迷失在了濃厚的海霧之中——",
 		name = "迷霧之下",
 		column = 21,
@@ -807,8 +909,8 @@ pg.memory_storyline = {
 		link_event = {
 			31
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[31] = {
 		description = "為了調查失蹤的艦隊企業一行人來到了連接海洋的樞紐，巴拿馬要塞。迷霧中的同伴、水面下的敵人，當你凝視深淵時——深淵也在凝視你。",
 		name = "微層混合",
 		column = 21,
@@ -830,8 +932,8 @@ pg.memory_storyline = {
 		link_event = {
 			33
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[32] = {
 		description = "縱使經歷了毀滅與新生，神聖的夢想卻從未消散。同志們，團結起來，凝結成最堅固的堡壘，構建出牢不可破的聯盟。",
 		name = "北境序曲",
 		column = 21,
@@ -852,8 +954,8 @@ pg.memory_storyline = {
 			7
 		},
 		link_event = {}
-	},
-	{
+	}
+	pg.base.memory_storyline[33] = {
 		description = "向上蒼奉獻信仰，向內心賦予勇氣。故事之外，穹頂之下，聖詠之曲再次奏響——",
 		name = "穹頂下的聖詠曲",
 		column = 22,
@@ -877,8 +979,8 @@ pg.memory_storyline = {
 		link_event = {
 			34
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[34] = {
 		description = "滿載物資的船團正行駛在危險的極地航線。雖然永夜並不是執行任務的理想時期，不過緊急任務從來就沒有選擇時間的權利……不——是嗎？",
 		name = "永夜幻光",
 		column = 23,
@@ -902,8 +1004,8 @@ pg.memory_storyline = {
 		link_event = {
 			35
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[35] = {
 		description = "昔者莊周夢為胡蝶，栩栩然胡蝶也。自喻適志與，不知周也。俄然覺，則蘧蘧然周也。不知，周之夢為胡蝶與？胡蝶之夢為周與？",
 		name = "蝶海夢花",
 		column = 24,
@@ -925,8 +1027,8 @@ pg.memory_storyline = {
 		link_event = {
 			36
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[36] = {
 		description = "北境的戰士們，揮舞冷徹的冰華，斬斷漫長的夜幕，迎接破曉之曙光吧！",
 		name = "破曉冰華",
 		column = 25,
@@ -949,8 +1051,8 @@ pg.memory_storyline = {
 			37,
 			38
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[37] = {
 		description = "NA海域大型作戰已經開始，指揮官，預祝您戰鬥順利。",
 		name = "銀翼蒼穹",
 		memory_id = "",
@@ -974,8 +1076,8 @@ pg.memory_storyline = {
 			39,
 			40
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[38] = {
 		description = "<<SysLog>>T2-XI-N002號鏡面海域資料輸入結束，試驗場設定完畢——開始。",
 		name = "負象限作戰",
 		column = 26,
@@ -997,8 +1099,8 @@ pg.memory_storyline = {
 			6
 		},
 		link_event = {}
-	},
-	{
+	}
+	pg.base.memory_storyline[39] = {
 		description = "NA海域被分為了四個戰區，其中B戰區由皇家海軍負責。時機已至，艦隊啟航！",
 		name = "皇家號令",
 		memory_id = "",
@@ -1023,8 +1125,8 @@ pg.memory_storyline = {
 			41,
 			42
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[40] = {
 		description = "在AB戰區開戰的同時，針對C戰區的戰鬥也開始了。現在白鷹的實力已經今非昔比，其中的變化就讓塞壬好好領教一下吧！",
 		name = "漸入迷蹤",
 		memory_id = "",
@@ -1044,8 +1146,8 @@ pg.memory_storyline = {
 			1
 		},
 		link_event = {}
-	},
-	{
+	}
+	pg.base.memory_storyline[41] = {
 		description = "在NA海域戰場的一角，重櫻艦隊開啟了屬於自己的遠航——",
 		name = "紅櫻遠航",
 		memory_id = "",
@@ -1070,8 +1172,8 @@ pg.memory_storyline = {
 		link_event = {
 			43
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[42] = {
 		description = "「花瓣紛飛，旌旗飄揚。凱旋門下，再鑄輝煌。」",
 		name = "復興的讚美詩",
 		column = 28,
@@ -1091,8 +1193,8 @@ pg.memory_storyline = {
 			6
 		},
 		link_event = {}
-	},
-	{
+	}
+	pg.base.memory_storyline[43] = {
 		description = "碧色號角奏於大洋，赤紅之影迷離虛妄。海妖之暗，燃燼之灰，四方勢力於此匯聚。仲裁機關的目的與風暴中心的秘密……海域之中隱藏的一切，即將揭曉——",
 		name = "火燼餘輝",
 		memory_id = "",
@@ -1118,8 +1220,8 @@ pg.memory_storyline = {
 			44,
 			45
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[44] = {
 		description = "「亦或因循守舊，亦或隨波逐流。在螺旋的盡頭，究竟是絕望，還是希望呢？」",
 		name = "鏡位螺旋",
 		column = 30,
@@ -1141,8 +1243,8 @@ pg.memory_storyline = {
 		link_event = {
 			46
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[45] = {
 		description = "意外之旅終於意外之獲。在那碧海的光粼中，命運之輪已然開始轉動。隱藏在謎面中的答案，你注意到了麼？",
 		name = "碧海光鱗",
 		column = 30,
@@ -1165,8 +1267,8 @@ pg.memory_storyline = {
 		link_event = {
 			46
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[46] = {
 		description = "「現在，我要重鑄高塔了。前來阻擋我的神，在哪裡？」",
 		name = "逆轉彩虹之塔",
 		column = 31,
@@ -1189,8 +1291,8 @@ pg.memory_storyline = {
 			47,
 			48
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[47] = {
 		description = "一份來之不易的情報，揭開了一段塵封的往事……度過黑暗的煎熬，黎明終將到來。",
 		name = "黎明之暗",
 		column = 32,
@@ -1212,8 +1314,8 @@ pg.memory_storyline = {
 		link_event = {
 			48
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[48] = {
 		description = "「完成任務，然後將全員平安帶回。這就是我喀琅施塔得立下的誓言，也是我為祖國獻上的忠誠！」",
 		name = "深度回音·下",
 		column = 32,
@@ -1246,8 +1348,8 @@ pg.memory_storyline = {
 		link_event = {
 			49
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[49] = {
 		description = "「逆轉彩虹之塔，奏響終幕樂章~Die götter sind tot~」",
 		name = "虹彩的終幕曲",
 		column = 33,
@@ -1273,8 +1375,8 @@ pg.memory_storyline = {
 			50,
 			51
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[50] = {
 		description = "為了拯救皇家海軍的榮耀，君主暗自下定了某個決心……",
 		name = "意外的旅途",
 		column = 34,
@@ -1296,8 +1398,8 @@ pg.memory_storyline = {
 		link_event = {
 			51
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[51] = {
 		description = "「如清風拂面，如冷泉沁淋。少女之姿，近衛之儀。泠然之誓、光耀之庭－－」",
 		name = "泠誓光庭",
 		column = 34,
@@ -1320,8 +1422,8 @@ pg.memory_storyline = {
 			52,
 			53
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[52] = {
 		description = "薩丁帝國正在籌備世界博覽會，為此，向世界各方廣發邀約——",
 		name = "薩丁的邀約",
 		column = 35,
@@ -1350,8 +1452,8 @@ pg.memory_storyline = {
 		link_event = {
 			53
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[53] = {
 		description = "所有的史詩都將迎來終結，正如所有的帝國都將走向崩塌。但在那之前，雄鷹依舊振翅高歌於廣闊天穹之上。",
 		name = "雄鷹的敘事歌",
 		column = 35,
@@ -1382,8 +1484,8 @@ pg.memory_storyline = {
 			56,
 			58
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[54] = {
 		description = "「將欲弱之，必固強之。將欲去之，必固興之。此乃以柔克剛，以弱勝強之道也。」",
 		name = "靜海驚雷",
 		column = 36,
@@ -1405,8 +1507,8 @@ pg.memory_storyline = {
 		link_event = {
 			55
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[55] = {
 		description = "一副與眾不同的棋盤，四位心思各異的棋手，在棋盤上演繹的舞台劇，現在開幕——",
 		name = "紫絳槿嵐",
 		column = 37,
@@ -1430,8 +1532,8 @@ pg.memory_storyline = {
 			61,
 			62
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[56] = {
 		description = "「蝴蝶已經扇動了翅膀，風暴將在何處降臨？」",
 		name = "異向偏振",
 		column = 36,
@@ -1453,8 +1555,8 @@ pg.memory_storyline = {
 		link_event = {
 			57
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[57] = {
 		description = "「從隨機到穩定的定向， 從無限到有限的折疊。蝴蝶既存在於此處，又存在於彼方。」",
 		name = "定向折疊",
 		column = 37,
@@ -1474,8 +1576,8 @@ pg.memory_storyline = {
 			1
 		},
 		link_event = {}
-	},
-	{
+	}
+	pg.base.memory_storyline[58] = {
 		description = "日之計在於晨，陽光穿過窗簾將金色灑入室內，女王美好的一天即將開始了——",
 		name = "女王的一天",
 		column = 36,
@@ -1497,8 +1599,8 @@ pg.memory_storyline = {
 		link_event = {
 			59
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[59] = {
 		description = "「證物在湮滅中化為灰燼，真相在塵土中永世封存。」",
 		name = "湮燼塵墟",
 		column = 37,
@@ -1519,8 +1621,8 @@ pg.memory_storyline = {
 			10
 		},
 		link_event = {}
-	},
-	{
+	}
+	pg.base.memory_storyline[60] = {
 		description = "智者在沉思，蜘蛛在編織。浩瀚星空，無垠大海——盡在蛛網中。",
 		name = "智者與蜘蛛",
 		column = 38,
@@ -1545,8 +1647,8 @@ pg.memory_storyline = {
 		link_event = {
 			61
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[61] = {
 		description = "「身處星盤之上的空相位，將會在何時迎來交會？」",
 		name = "空相交會點",
 		column = 38,
@@ -1570,8 +1672,8 @@ pg.memory_storyline = {
 			63,
 			64
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[62] = {
 		description = "本次行動代號「極地風暴」，戰役開始時間為今日0100時。請各作戰分隊提前就位，祝各位旗開得勝！",
 		name = "極地風暴",
 		column = 38,
@@ -1591,8 +1693,8 @@ pg.memory_storyline = {
 			7
 		},
 		link_event = {}
-	},
-	{
+	}
+	pg.base.memory_storyline[63] = {
 		description = "肆虐的沙塵讓這片小小綠洲成為了風暴中的孤島。無事可做，不如來一場關於往昔的故事會吧——",
 		name = "綠洲往事",
 		column = 39,
@@ -1612,8 +1714,8 @@ pg.memory_storyline = {
 			6
 		},
 		link_event = {}
-	},
-	{
+	}
+	pg.base.memory_storyline[64] = {
 		description = "為了尋找聖座冠冕，黎胥留一行人出發前往聖赫勒拿。然而此行，注定艱險……",
 		name = "奏響鳶尾之歌",
 		column = 39,
@@ -1635,8 +1737,8 @@ pg.memory_storyline = {
 		link_event = {
 			65
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[65] = {
 		description = "不論有千種安排，都到今夜為止。\n明日——審判將至——祂將降臨。",
 		name = "長夜降臨前",
 		column = 40,
@@ -1664,8 +1766,8 @@ pg.memory_storyline = {
 		link_event = {
 			66
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[66] = {
 		description = "「劇目名為《愚者的天秤》，可是，何為愚者？何為天秤？」",
 		name = "愚者的天秤",
 		column = 41,
@@ -1695,8 +1797,8 @@ pg.memory_storyline = {
 			67,
 			68
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[67] = {
 		description = "夜幕中，眾人回想起多年前那場傳說的之戰……",
 		name = "月夜未央",
 		column = 42,
@@ -1718,8 +1820,8 @@ pg.memory_storyline = {
 		link_event = {
 			68
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[68] = {
 		description = "望月之下，須臾之間，是誰牽動了她的心弦？",
 		name = "須臾望月抄",
 		column = 42,
@@ -1742,8 +1844,8 @@ pg.memory_storyline = {
 			69,
 			70
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[69] = {
 		description = "「陸上神國」事件結束了，世界一掃陰霾，沐浴在晴空之下——",
 		name = "晴空之下",
 		column = 43,
@@ -1770,8 +1872,8 @@ pg.memory_storyline = {
 		link_event = {
 			70
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[70] = {
 		description = "「逐光星海間，何處是歸途。」",
 		name = "星海逐光",
 		column = 43,
@@ -1794,8 +1896,8 @@ pg.memory_storyline = {
 			71,
 			72
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[71] = {
 		description = "為什麼要向山而行？因為——山就在前方。",
 		name = "向山而行",
 		column = 44,
@@ -1822,8 +1924,8 @@ pg.memory_storyline = {
 		link_event = {
 			72
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[72] = {
 		description = "「真實與虛妄、未來與往昔，到頭來只剩下這片無垠的白。雪境之中，路在何方？」",
 		name = "雪境迷蹤",
 		column = 44,
@@ -1849,8 +1951,8 @@ pg.memory_storyline = {
 		link_event = {
 			73
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[73] = {
 		description = "彼岸花，曼珠沙華，艷麗、張揚、有毒。早在開花之前，你就已經深陷其中了——",
 		name = "彼岸花開暗香來",
 		column = 45,
@@ -1877,8 +1979,8 @@ pg.memory_storyline = {
 			74,
 			75
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[74] = {
 		description = "你聽到了嗎，那跨越了現實與夢境，在星間迴盪的彼方之音？",
 		name = "彼方之音",
 		column = 46,
@@ -1903,8 +2005,8 @@ pg.memory_storyline = {
 		link_event = {
 			75
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[75] = {
 		description = "「輝光之城中，你將見證死亡，接受死亡，最終——在死亡之中綻放。」",
 		name = "綻放於輝光之城",
 		column = 46,
@@ -1928,8 +2030,8 @@ pg.memory_storyline = {
 		link_event = {
 			76
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[76] = {
 		description = "「一曲間奏，一場幻夢。長夢不醒，曲終不散－－」",
 		name = "幻夢間奏曲",
 		column = 47,
@@ -1959,8 +2061,8 @@ pg.memory_storyline = {
 			78,
 			79
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[77] = {
 		description = "「萬事萬物，有因必有果，有果必有因。偽物為果，真物為因。果在，因成。」",
 		name = "朱紅迷局",
 		column = 48,
@@ -1988,8 +2090,8 @@ pg.memory_storyline = {
 		link_event = {
 			78
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[78] = {
 		description = "「自由之翼，鋼鐵之軀。巨鷹展翅，碎浪擎風。」",
 		name = "鐵翼擎風",
 		column = 48,
@@ -2014,8 +2116,8 @@ pg.memory_storyline = {
 		link_event = {
 			80
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[79] = {
 		description = "「斯人已逝，彼岸成花。心有執念，奈落留形。」",
 		name = "葬於彼岸之花",
 		column = 48,
@@ -2037,8 +2139,8 @@ pg.memory_storyline = {
 		link_event = {
 			80
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[80] = {
 		description = "「塵土雖微，聚沙成塔。集此岸之塵，戰命定乾坤。」",
 		name = "匯聚於此岸之塵",
 		column = 49,
@@ -2063,8 +2165,8 @@ pg.memory_storyline = {
 		link_event = {
 			81
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[81] = {
 		description = "「出於現實，落於幻想。雖有執念，亦是執著。」\n「狐鳴鳳影，烈火浴心。蒼紅之炎，於此新生。」",
 		name = "喚醒蒼紅之炎",
 		column = 50,
@@ -2094,8 +2196,8 @@ pg.memory_storyline = {
 			82,
 			83
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[82] = {
 		description = "所謂歸途，並不總能一帆風順。領域之中尚且如此，領域之外亦存乾坤——",
 		name = "領域外的歸途",
 		column = 51,
@@ -2119,8 +2221,8 @@ pg.memory_storyline = {
 		link_event = {
 			83
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[83] = {
 		description = "「在餘暉消散前，於星光下盡情探尋吧。尋找那些被白日掩蓋的細節，尋找黑夜之中隱藏的——真正秘密」",
 		name = "星光下的餘暉",
 		column = 51,
@@ -2146,8 +2248,8 @@ pg.memory_storyline = {
 			84,
 			85
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[84] = {
 		description = "「余乃海洛芬特。秉持溝通，提倡交流。受選之人，來余身邊。合余之道，頌余之名」",
 		name = "受選之路",
 		column = 52,
@@ -2172,8 +2274,8 @@ pg.memory_storyline = {
 		link_event = {
 			85
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[85] = {
 		description = "「以天地為籠，化信仰為鎖。如此，樊籠之中，亦有神光。」",
 		name = "樊籠內的神光",
 		column = 52,
@@ -2196,8 +2298,8 @@ pg.memory_storyline = {
 		link_event = {
 			86
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[86] = {
 		description = "經過烈火焚燒的土地，新芽將會更加繁盛。揚起鬱金之旗，駛向那充滿希望的遠方吧——",
 		name = "揚起鬱金之旗",
 		column = 53,
@@ -2222,8 +2324,8 @@ pg.memory_storyline = {
 			87,
 			88
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[87] = {
 		description = "願帝國的太陽永不落下，願帝國的艦隊永遠強盛——",
 		name = "日不落的遠征",
 		column = 54,
@@ -2246,8 +2348,8 @@ pg.memory_storyline = {
 		link_event = {
 			88
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[88] = {
 		description = "「薔薇塔，就由我來守護你。然後，我們一同守護皇家吧——」",
 		name = "高塔上的薔薇",
 		column = 54,
@@ -2270,8 +2372,8 @@ pg.memory_storyline = {
 		link_event = {
 			89
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[89] = {
 		description = "禮炮和樂隊都檢查完畢……\n那麼先來預演下吧……\n指揮官閣下——歡迎來到重櫻！",
 		name = "重櫻的邀約",
 		column = 55,
@@ -2293,8 +2395,8 @@ pg.memory_storyline = {
 		link_event = {
 			90
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[90] = {
 		description = "「天域，乃外域之屏。天原，因天域而定。縱使地崩山摧，浩劫將至——天域天原，亦需永存」",
 		name = "起舞於天原之上",
 		column = 55,
@@ -2320,8 +2422,8 @@ pg.memory_storyline = {
 			89,
 			91
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[91] = {
 		description = [[
 「我馬上就要出遠門了」
 「今天的基調呢，就是坦誠一點，隨意一點」
@@ -2347,8 +2449,8 @@ pg.memory_storyline = {
 		link_event = {
 			92
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[92] = {
 		description = [[
 「與塞壬的戰爭結束了」
 「聯盟合併會議也結束了」
@@ -2383,8 +2485,8 @@ pg.memory_storyline = {
 			91,
 			93
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[93] = {
 		description = [[
 「過去雖不完美，未來仍有挑戰」
 「但是此刻」
@@ -2416,8 +2518,8 @@ pg.memory_storyline = {
 		link_event = {
 			94
 		}
-	},
-	{
+	}
+	pg.base.memory_storyline[94] = {
 		description = "敬請期待",
 		name = "敬請期待",
 		shipnation = 0,
@@ -2432,101 +2534,5 @@ pg.memory_storyline = {
 		id = 94,
 		icon = "",
 		sort = 0
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		28,
-		29,
-		30,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		39,
-		40,
-		41,
-		42,
-		43,
-		44,
-		45,
-		46,
-		47,
-		48,
-		49,
-		50,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56,
-		57,
-		58,
-		59,
-		60,
-		61,
-		62,
-		63,
-		64,
-		65,
-		66,
-		67,
-		68,
-		69,
-		70,
-		71,
-		72,
-		73,
-		74,
-		75,
-		76,
-		77,
-		78,
-		79,
-		80,
-		81,
-		82,
-		83,
-		84,
-		85,
-		86,
-		87,
-		88,
-		89,
-		90,
-		91,
-		92,
-		93,
-		94
 	}
-}
+end)()

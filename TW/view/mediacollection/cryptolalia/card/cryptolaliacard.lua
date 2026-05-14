@@ -25,9 +25,13 @@ slot0.Update = function(slot0, slot1, slot2, slot3)
 		uv0.iconImg.sprite = slot0
 	end)
 
-	slot5 = slot0:GetColor(slot3)
-	slot0.nameTxt.text = setColorStr(slot1:GetName(), slot5)
-	slot0.shipNameTxt.text = setColorStr(slot1:GetShipName(), slot5)
+	slot0.nameTxt.text = setColorStr(slot1:GetName(), slot0:GetColor(slot3))
+
+	if utf8.len(slot1:GetShipName()) >= 11 then
+		slot6 = utf8.sub(slot6, 1, 11) .. "..."
+	end
+
+	slot0.shipNameTxt.text = setColorStr(slot6, slot5)
 	slot0.timeCG.alpha = slot3 and 1 or 0.7
 
 	if not slot1:IsForever() and slot1:IsLock() then
@@ -38,15 +42,15 @@ slot0.Update = function(slot0, slot1, slot2, slot3)
 
 	setActive(slot0.selected, slot3)
 
-	slot7 = slot1:IsLock() or not slot1:IsDownloadAllRes()
+	slot8 = slot1:IsLock() or not slot1:IsDownloadAllRes()
 
-	setActive(slot0.stateBtn, slot7)
+	setActive(slot0.stateBtn, slot8)
 
-	if slot7 then
-		slot8 = slot0:_GetColor(slot3)
-		slot0.stateBtn.color = slot8
-		slot0.stateIcon.color = slot8
-		slot0.stateIcon.sprite = GetSpriteFromAtlas("ui/CryptolaliaUI_atlas", slot6 and "list_panel_lock" or "list_panel_download")
+	if slot8 then
+		slot9 = slot0:_GetColor(slot3)
+		slot0.stateBtn.color = slot9
+		slot0.stateIcon.color = slot9
+		slot0.stateIcon.sprite = GetSpriteFromAtlas("ui/CryptolaliaUI_atlas", slot7 and "list_panel_lock" or "list_panel_download")
 	end
 end
 

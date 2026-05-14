@@ -1,6 +1,74 @@
 pg = pg or {}
-pg.activity_ryza_recipe = {
-	[10] = {
+pg.activity_ryza_recipe = rawget(pg, "activity_ryza_recipe") or setmetatable({
+	__name = "activity_ryza_recipe"
+}, confNEO)
+pg.activity_ryza_recipe.all = {
+	10,
+	20,
+	30,
+	40,
+	50,
+	60,
+	70,
+	80,
+	90,
+	100,
+	110,
+	120,
+	130,
+	140,
+	150,
+	160,
+	170,
+	180,
+	190,
+	200,
+	210,
+	220,
+	230,
+	240,
+	250,
+	260,
+	270,
+	280,
+	290,
+	300,
+	310,
+	320,
+	330,
+	340,
+	350,
+	1001,
+	1002,
+	1003,
+	1004,
+	1011,
+	1012,
+	1013,
+	1014,
+	1015,
+	1016,
+	1017,
+	1018,
+	1019,
+	1020,
+	1021,
+	1022,
+	1023,
+	1024,
+	1025,
+	1026,
+	1027,
+	1028,
+	1029,
+	1030,
+	1031
+}
+pg.base = pg.base or {}
+pg.base.activity_ryza_recipe = {}
+
+(function ()
+	pg.base.activity_ryza_recipe[10] = {
 		rarity = 4,
 		display = "<color=#ff5c5c>（重複獲得將自動轉化為特殊兵裝核心*2）</color>\n萊莎琳‧斯托特使用的武器。\n散發強烈光芒的手杖。即使什麼都不做也會持續閃爍耀眼光輝。沐浴在這道光芒中，不僅是裝備者，連四周的人都會感覺內心變得光明。",
 		prop_type = "",
@@ -28,8 +96,8 @@ pg.activity_ryza_recipe = {
 			103,
 			104
 		}
-	},
-	[20] = {
+	}
+	pg.base.activity_ryza_recipe[20] = {
 		rarity = 4,
 		display = "<color=#ff5c5c>（重複獲得將自動轉化為特殊兵裝核心*2）</color>\n科洛蒂婭‧巴蘭茨使用的武器。\n射出的箭矢會在黑暗中如星星般閃耀，因此而得名。應該誰都不想在黑暗中被這種弓瞄準吧。",
 		prop_type = "",
@@ -57,8 +125,8 @@ pg.activity_ryza_recipe = {
 			204,
 			206
 		}
-	},
-	[30] = {
+	}
+	pg.base.activity_ryza_recipe[30] = {
 		rarity = 4,
 		display = "<color=#ff5c5c>（重複獲得將自動轉化為特殊兵裝核心*2）</color>\n派翠夏‧阿貝爾海姆使用的武器。\n據說這把劍具有意志，會自己選擇使用者。如果沒有高尚的靈魂，再厲害的高手都無法駕馭。",
 		prop_type = "",
@@ -87,8 +155,8 @@ pg.activity_ryza_recipe = {
 			310,
 			311
 		}
-	},
-	[40] = {
+	}
+	pg.base.activity_ryza_recipe[40] = {
 		rarity = 4,
 		display = "<color=#ff5c5c>（重複獲得將自動轉化為特殊兵裝核心*2）</color>\n莉拉‧德西亞斯使用的武器。\n歐蘭族曾經使用的傳統武器之一。據稱，將武器背在身上，周圍居住的精靈便會賦予其力量。",
 		prop_type = "",
@@ -119,8 +187,8 @@ pg.activity_ryza_recipe = {
 			413,
 			411
 		}
-	},
-	[50] = {
+	}
+	pg.base.activity_ryza_recipe[50] = {
 		rarity = 4,
 		display = "<color=#ff5c5c>（重複獲得將自動轉化為特殊兵裝核心*2）</color>\n賽莉‧古勞斯使用的武器。\n據說曾被稱為「花之賢者」的人物戴過的手環。配戴者走在路上，四周的花朵就會盛開，因此「花之賢者」的周圍好像總是一片花田。",
 		prop_type = "",
@@ -149,8 +217,8 @@ pg.activity_ryza_recipe = {
 			509,
 			511
 		}
-	},
-	[60] = {
+	}
+	pg.base.activity_ryza_recipe[60] = {
 		rarity = 4,
 		display = "<color=#ff5c5c>（重複獲得將自動轉化為特殊兵裝核心*2）</color>\n卡菈‧伊迪亞斯使用的武器。\n奇形怪狀的戰鎚。平坦的部分另一側的造型純粹是為了美觀。",
 		prop_type = "",
@@ -181,8 +249,8 @@ pg.activity_ryza_recipe = {
 			608,
 			610
 		}
-	},
-	[70] = {
+	}
+	pg.base.activity_ryza_recipe[70] = {
 		rarity = 4,
 		display = "一種威力強大的火屬性炸彈，使用後可以對敵人造成傷害。",
 		prop_type = "",
@@ -214,8 +282,8 @@ pg.activity_ryza_recipe = {
 			710,
 			714
 		}
-	},
-	[80] = {
+	}
+	pg.base.activity_ryza_recipe[80] = {
 		rarity = 4,
 		display = "一種威力強大的冰屬性炸彈，使用後可以對敵人造成傷害。",
 		prop_type = "",
@@ -247,8 +315,8 @@ pg.activity_ryza_recipe = {
 			814,
 			812
 		}
-	},
-	[90] = {
+	}
+	pg.base.activity_ryza_recipe[90] = {
 		rarity = 4,
 		display = "一種威力強大的雷屬性炸彈，使用後可以對敵人造成傷害。",
 		prop_type = "",
@@ -280,8 +348,8 @@ pg.activity_ryza_recipe = {
 			904,
 			905
 		}
-	},
-	[100] = {
+	}
+	pg.base.activity_ryza_recipe[100] = {
 		rarity = 4,
 		display = "一種威力強大的風屬性炸彈，使用後可以對敵人造成傷害。",
 		prop_type = "",
@@ -312,8 +380,8 @@ pg.activity_ryza_recipe = {
 			1012,
 			1013
 		}
-	},
-	[110] = {
+	}
+	pg.base.activity_ryza_recipe[110] = {
 		rarity = 4,
 		display = "用力一敲就能讓大地劇烈搖晃的槌子。大地搖晃時空氣振動及天空傳來鳴響的樣子，讓人聯想到創世的景象，所以如此命名。",
 		prop_type = "",
@@ -346,8 +414,8 @@ pg.activity_ryza_recipe = {
 			1106,
 			1107
 		}
-	},
-	[120] = {
+	}
+	pg.base.activity_ryza_recipe[120] = {
 		rarity = 4,
 		display = "不需要槍管的子彈。將前端對準目標發射，子彈會先在上空盤旋，然後筆直地朝目標前進，在打中的瞬間爆炸。",
 		prop_type = "",
@@ -383,8 +451,8 @@ pg.activity_ryza_recipe = {
 			1209,
 			1210
 		}
-	},
-	[130] = {
+	}
+	pg.base.activity_ryza_recipe[130] = {
 		rarity = 4,
 		display = "一種威力強大的炸彈，使用後可以降低敵人的防禦力。",
 		prop_type = "",
@@ -417,8 +485,8 @@ pg.activity_ryza_recipe = {
 			1306,
 			1307
 		}
-	},
-	[140] = {
+	}
+	pg.base.activity_ryza_recipe[140] = {
 		rarity = 4,
 		display = "一種威力強大的道具，使用後可以降低敵人屬性，但使用時會消耗使用者的HP。",
 		prop_type = "",
@@ -459,8 +527,8 @@ pg.activity_ryza_recipe = {
 			1415,
 			1416
 		}
-	},
-	[150] = {
+	}
+	pg.base.activity_ryza_recipe[150] = {
 		rarity = 4,
 		display = "色調帶有神秘感的羽衣。雖然是薄得可以一眼看透的布料，但展開之後可以保護自己不受任何攻擊。",
 		prop_type = "",
@@ -499,8 +567,8 @@ pg.activity_ryza_recipe = {
 			1506,
 			1507
 		}
-	},
-	[160] = {
+	}
+	pg.base.activity_ryza_recipe[160] = {
 		rarity = 4,
 		display = "不僅能治好任何傷和疾病，就連死亡也能應對的超強力藥劑。只有極少數的鍊金術士才做得出來，被視為鍊金術的終極技術之一。",
 		prop_type = "",
@@ -537,8 +605,8 @@ pg.activity_ryza_recipe = {
 			1611,
 			1612
 		}
-	},
-	[170] = {
+	}
+	pg.base.activity_ryza_recipe[170] = {
 		rarity = 4,
 		display = "可將意志化作音色的口琴。不僅吹奏的人，聽到口琴音色的人也會被賦予各種力量。",
 		prop_type = "",
@@ -565,8 +633,8 @@ pg.activity_ryza_recipe = {
 			1704,
 			1705
 		}
-	},
-	[180] = {
+	}
+	pg.base.activity_ryza_recipe[180] = {
 		rarity = 4,
 		display = "可以獲得一件隨機的鍊金工房風格外觀裝備",
 		prop_type = "",
@@ -599,8 +667,8 @@ pg.activity_ryza_recipe = {
 			1807,
 			1808
 		}
-	},
-	[190] = {
+	}
+	pg.base.activity_ryza_recipe[190] = {
 		rarity = 3,
 		display = "借助鍊金術融合四把鑰匙之後形成的類似門卡的裝置，形狀似乎能與核心之所大門上的凹槽完美對應。",
 		prop_type = "",
@@ -622,8 +690,8 @@ pg.activity_ryza_recipe = {
 			1903,
 			1902
 		}
-	},
-	[200] = {
+	}
+	pg.base.activity_ryza_recipe[200] = {
 		rarity = 4,
 		display = "<color=#ff5c5c>（重複獲得將自動轉化為物資*2000）</color>\n利用從遺跡中回收的素材製作的精美雕塑，紀念這一段充滿驚喜的秘密遺跡群島冒險之旅。——「鍊金術士與秘密遺跡群島」活動紀念\n「……嗯，這也是桶子！」",
 		prop_type = "",
@@ -658,8 +726,8 @@ pg.activity_ryza_recipe = {
 			2011,
 			2012
 		}
-	},
-	[210] = {
+	}
+	pg.base.activity_ryza_recipe[210] = {
 		rarity = 2,
 		display = "小瓶中封存了以鍊金術人工製造的精靈之力。可適應任何屬性，卻不易使用。",
 		prop_type = "",
@@ -679,8 +747,8 @@ pg.activity_ryza_recipe = {
 			2101,
 			2102
 		}
-	},
-	[220] = {
+	}
+	pg.base.activity_ryza_recipe[220] = {
 		rarity = 3,
 		display = "頻繁出現在鍊金術調合中的基礎藥劑。為紅色液體，與火屬性素材的契合度高。",
 		prop_type = "",
@@ -701,8 +769,8 @@ pg.activity_ryza_recipe = {
 			2201,
 			2202
 		}
-	},
-	[230] = {
+	}
+	pg.base.activity_ryza_recipe[230] = {
 		rarity = 3,
 		display = "頻繁出現在鍊金術調合中的基礎藥劑。為藍色液體，與冰屬性素材的契合度高。",
 		prop_type = "",
@@ -723,8 +791,8 @@ pg.activity_ryza_recipe = {
 			2301,
 			2302
 		}
-	},
-	[240] = {
+	}
+	pg.base.activity_ryza_recipe[240] = {
 		rarity = 3,
 		display = "頻繁出現在鍊金術調合中的基礎藥劑。為黃色液體，與雷屬性素材的契合度高。",
 		prop_type = "",
@@ -745,8 +813,8 @@ pg.activity_ryza_recipe = {
 			2401,
 			2402
 		}
-	},
-	[250] = {
+	}
+	pg.base.activity_ryza_recipe[250] = {
 		rarity = 3,
 		display = "頻繁出現在鍊金術調合中的基礎藥劑。為綠色液體，與風屬性素材的契合度高",
 		prop_type = "",
@@ -767,8 +835,8 @@ pg.activity_ryza_recipe = {
 			2501,
 			2502
 		}
-	},
-	[260] = {
+	}
+	pg.base.activity_ryza_recipe[260] = {
 		rarity = 4,
 		display = "從四種元素核心製作而成的最高階素材之一。具備全屬性與高屬性值，進行高階調合時可派上用場。",
 		prop_type = "",
@@ -790,8 +858,8 @@ pg.activity_ryza_recipe = {
 			2602,
 			2604
 		}
-	},
-	[270] = {
+	}
+	pg.base.activity_ryza_recipe[270] = {
 		rarity = 4,
 		display = "於「鍊金術士與遺跡群島」控制中心中使用。使用後，在活動關卡中可以獲得炮擊、航空、雷擊屬性提高的效果",
 		prop_type = "",
@@ -817,8 +885,8 @@ pg.activity_ryza_recipe = {
 			2707,
 			2708
 		}
-	},
-	[280] = {
+	}
+	pg.base.activity_ryza_recipe[280] = {
 		rarity = 4,
 		display = "於「鍊金術士與遺跡群島」控制中心中使用。使用後，在活動關卡中可以獲得傷害降低的效果",
 		prop_type = "",
@@ -844,8 +912,8 @@ pg.activity_ryza_recipe = {
 			2807,
 			2808
 		}
-	},
-	[290] = {
+	}
+	pg.base.activity_ryza_recipe[290] = {
 		rarity = 4,
 		display = "於「鍊金術士與遺跡群島」控制中心中使用。使用後，在活動關卡中可以獲得恢復耐久的效果",
 		prop_type = "",
@@ -871,8 +939,8 @@ pg.activity_ryza_recipe = {
 			2907,
 			2908
 		}
-	},
-	[300] = {
+	}
+	pg.base.activity_ryza_recipe[300] = {
 		rarity = 4,
 		display = "於「鍊金術士與遺跡群島」控制中心中使用。使用後，在活動關卡中可以獲得損傷管控的效果",
 		prop_type = "",
@@ -898,8 +966,8 @@ pg.activity_ryza_recipe = {
 			3007,
 			3008
 		}
-	},
-	[310] = {
+	}
+	pg.base.activity_ryza_recipe[310] = {
 		rarity = 4,
 		display = "於「鍊金術士與遺跡群島」控制中心中使用。使用後，在活動關卡中可以獲得點燃彈幕支援的效果",
 		prop_type = "",
@@ -925,8 +993,8 @@ pg.activity_ryza_recipe = {
 			3107,
 			3108
 		}
-	},
-	[320] = {
+	}
+	pg.base.activity_ryza_recipe[320] = {
 		rarity = 4,
 		display = "於「鍊金術士與遺跡群島」控制中心中使用。使用後，在活動關卡中可以獲得易傷彈幕支援的效果",
 		prop_type = "",
@@ -952,8 +1020,8 @@ pg.activity_ryza_recipe = {
 			3207,
 			3208
 		}
-	},
-	[330] = {
+	}
+	pg.base.activity_ryza_recipe[330] = {
 		rarity = 4,
 		display = "於「鍊金術士與遺跡群島」控制中心中使用。使用後，在活動關卡中可以獲得經驗提升的效果",
 		prop_type = "",
@@ -979,8 +1047,8 @@ pg.activity_ryza_recipe = {
 			3307,
 			3308
 		}
-	},
-	[340] = {
+	}
+	pg.base.activity_ryza_recipe[340] = {
 		rarity = 4,
 		display = "於「鍊金術士與遺跡群島」控制中心中使用。使用後，在活動關卡中可以獲得好感提升的效果",
 		prop_type = "",
@@ -1006,8 +1074,8 @@ pg.activity_ryza_recipe = {
 			3407,
 			3408
 		}
-	},
-	[350] = {
+	}
+	pg.base.activity_ryza_recipe[350] = {
 		rarity = 3,
 		display = "兵裝強化石，主要用於特殊兵裝的製造、強化、突破。",
 		prop_type = "",
@@ -1027,8 +1095,8 @@ pg.activity_ryza_recipe = {
 			3502,
 			3503
 		}
-	},
-	[1001] = {
+	}
+	pg.base.activity_ryza_recipe[1001] = {
 		rarity = 3,
 		display = "優米雅‧利斯菲爾德使用的武器。\n為了將射擊與打擊的威力發揮到極限而製作的槍杖。上面有著以凝縮的瑪那為光源的照明燈。",
 		prop_type = "",
@@ -1052,8 +1120,8 @@ pg.activity_ryza_recipe = {
 			10006,
 			10007
 		}
-	},
-	[1002] = {
+	}
+	pg.base.activity_ryza_recipe[1002] = {
 		rarity = 3,
 		display = "艾菈‧馮‧杜勒所使用的武器。\n槍尖材質為寶石的長槍，可隨時替換槍尖。",
 		prop_type = "",
@@ -1077,8 +1145,8 @@ pg.activity_ryza_recipe = {
 			10016,
 			10017
 		}
-	},
-	[1003] = {
+	}
+	pg.base.activity_ryza_recipe[1003] = {
 		rarity = 3,
 		display = "妮娜‧弗里德使用的武器。\n尺寸便於使用的短槍和短劍，短劍輕巧鋒利，但短槍的威力和後座力較強。",
 		prop_type = "",
@@ -1102,8 +1170,8 @@ pg.activity_ryza_recipe = {
 			10026,
 			10027
 		}
-	},
-	[1004] = {
+	}
+	pg.base.activity_ryza_recipe[1004] = {
 		rarity = 3,
 		display = "蕾妮雅使用的武器。\n攻擊方式更接近鋸的武器，造成的傷勢難以癒合，還容易留下疤痕。",
 		prop_type = "",
@@ -1127,8 +1195,8 @@ pg.activity_ryza_recipe = {
 			10036,
 			10037
 		}
-	},
-	[1011] = {
+	}
+	pg.base.activity_ryza_recipe[1011] = {
 		rarity = 3,
 		display = "纏繞著火與雷兩種力量的雙頭劍。熟練使用的話可以迅速發揮兩種力量。",
 		prop_type = "",
@@ -1152,8 +1220,8 @@ pg.activity_ryza_recipe = {
 			10046,
 			10047
 		}
-	},
-	[1012] = {
+	}
+	pg.base.activity_ryza_recipe[1012] = {
 		rarity = 3,
 		display = "封印了強大風之力的魔導書，只要打開便可解放書中的力量。",
 		prop_type = "",
@@ -1177,8 +1245,8 @@ pg.activity_ryza_recipe = {
 			10056,
 			10057
 		}
-	},
-	[1013] = {
+	}
+	pg.base.activity_ryza_recipe[1013] = {
 		rarity = 3,
 		display = "綻放七彩光芒的大劍，兼具所有種類的力量。",
 		prop_type = "",
@@ -1202,8 +1270,8 @@ pg.activity_ryza_recipe = {
 			10066,
 			10067
 		}
-	},
-	[1014] = {
+	}
+	pg.base.activity_ryza_recipe[1014] = {
 		rarity = 3,
 		display = "映照著美麗花田與晴空的水晶球，具有可以治癒所有傷勢的效果。",
 		prop_type = "",
@@ -1227,8 +1295,8 @@ pg.activity_ryza_recipe = {
 			10076,
 			10077
 		}
-	},
-	[1015] = {
+	}
+	pg.base.activity_ryza_recipe[1015] = {
 		rarity = 3,
 		display = "擁有再生之力的天球儀，中心的寶石蘊含治癒之力。",
 		prop_type = "",
@@ -1252,8 +1320,8 @@ pg.activity_ryza_recipe = {
 			10086,
 			10087
 		}
-	},
-	[1016] = {
+	}
+	pg.base.activity_ryza_recipe[1016] = {
 		rarity = 3,
 		display = "封印著太古時代可怕魔物的立方體，禁止擅自解除封印。",
 		prop_type = "",
@@ -1277,8 +1345,8 @@ pg.activity_ryza_recipe = {
 			10096,
 			10097
 		}
-	},
-	[1017] = {
+	}
+	pg.base.activity_ryza_recipe[1017] = {
 		rarity = 3,
 		display = "Ⅰ級調節器，用於調節天際塔能源的專屬設備。",
 		prop_type = "",
@@ -1303,8 +1371,8 @@ pg.activity_ryza_recipe = {
 			10107,
 			10108
 		}
-	},
-	[1018] = {
+	}
+	pg.base.activity_ryza_recipe[1018] = {
 		rarity = 3,
 		display = "Ⅱ級調節器，用於調節天際塔能源的專屬設備。",
 		prop_type = "",
@@ -1329,8 +1397,8 @@ pg.activity_ryza_recipe = {
 			10117,
 			10118
 		}
-	},
-	[1019] = {
+	}
+	pg.base.activity_ryza_recipe[1019] = {
 		rarity = 3,
 		display = "Ⅲ級調節器，用於調節天際塔能源的專屬設備。",
 		prop_type = "",
@@ -1355,8 +1423,8 @@ pg.activity_ryza_recipe = {
 			10127,
 			10128
 		}
-	},
-	[1020] = {
+	}
+	pg.base.activity_ryza_recipe[1020] = {
 		rarity = 3,
 		display = "Ⅳ級調節器，用於調節天際塔能源的專屬設備。",
 		prop_type = "",
@@ -1381,8 +1449,8 @@ pg.activity_ryza_recipe = {
 			10137,
 			10138
 		}
-	},
-	[1021] = {
+	}
+	pg.base.activity_ryza_recipe[1021] = {
 		rarity = 3,
 		display = "頻繁運用於鍊金術的基礎藥劑，紅色中和劑與火屬性有良好的契合度。",
 		prop_type = "",
@@ -1402,8 +1470,8 @@ pg.activity_ryza_recipe = {
 			10142,
 			10143
 		}
-	},
-	[1022] = {
+	}
+	pg.base.activity_ryza_recipe[1022] = {
 		rarity = 3,
 		display = "頻繁運用於鍊金術的基礎藥劑，藍色中和劑與冰屬性具有良好的契合度。",
 		prop_type = "",
@@ -1423,8 +1491,8 @@ pg.activity_ryza_recipe = {
 			10152,
 			10153
 		}
-	},
-	[1023] = {
+	}
+	pg.base.activity_ryza_recipe[1023] = {
 		rarity = 3,
 		display = "頻繁運用於鍊金術的基礎藥劑，黃色中和劑與雷屬性有良好的契合度。",
 		prop_type = "",
@@ -1444,8 +1512,8 @@ pg.activity_ryza_recipe = {
 			10162,
 			10163
 		}
-	},
-	[1024] = {
+	}
+	pg.base.activity_ryza_recipe[1024] = {
 		rarity = 3,
 		display = "頻繁運用於鍊金術的基礎藥劑，綠色中和劑與風屬性有良好的契合度。",
 		prop_type = "",
@@ -1465,8 +1533,8 @@ pg.activity_ryza_recipe = {
 			10172,
 			10173
 		}
-	},
-	[1025] = {
+	}
+	pg.base.activity_ryza_recipe[1025] = {
 		rarity = 3,
 		display = "頻繁用於鍊金術的基礎藥劑。經過改良後，成了與任何素材均可高度契合的萬能中和劑。",
 		prop_type = "",
@@ -1488,8 +1556,8 @@ pg.activity_ryza_recipe = {
 			10184,
 			10185
 		}
-	},
-	[1026] = {
+	}
+	pg.base.activity_ryza_recipe[1026] = {
 		rarity = 3,
 		display = "可以獲得一件隨機的鍊金工房II風格外觀裝備",
 		prop_type = "",
@@ -1510,8 +1578,8 @@ pg.activity_ryza_recipe = {
 			10193,
 			10194
 		}
-	},
-	[1027] = {
+	}
+	pg.base.activity_ryza_recipe[1027] = {
 		rarity = 3,
 		display = "兵裝強化石，主要用於特殊兵裝的製造、強化、突破。",
 		prop_type = "",
@@ -1532,8 +1600,8 @@ pg.activity_ryza_recipe = {
 			10203,
 			10204
 		}
-	},
-	[1028] = {
+	}
+	pg.base.activity_ryza_recipe[1028] = {
 		rarity = 3,
 		display = "通用建築材料，可用於建造任何木類建築。",
 		prop_type = "",
@@ -1553,8 +1621,8 @@ pg.activity_ryza_recipe = {
 			10212,
 			10213
 		}
-	},
-	[1029] = {
+	}
+	pg.base.activity_ryza_recipe[1029] = {
 		rarity = 3,
 		display = "通用建築素材，可用於製作任何石類建築。",
 		prop_type = "",
@@ -1574,8 +1642,8 @@ pg.activity_ryza_recipe = {
 			10222,
 			10223
 		}
-	},
-	[1030] = {
+	}
+	pg.base.activity_ryza_recipe[1030] = {
 		rarity = 3,
 		display = "通用建築素材，可用於製作任何金屬類建築。",
 		prop_type = "",
@@ -1595,8 +1663,8 @@ pg.activity_ryza_recipe = {
 			10232,
 			10233
 		}
-	},
-	[1031] = {
+	}
+	pg.base.activity_ryza_recipe[1031] = {
 		rarity = 3,
 		display = "通用建築素材，可用於製作任何植被類建築。",
 		prop_type = "",
@@ -1616,67 +1684,5 @@ pg.activity_ryza_recipe = {
 			10242,
 			10243
 		}
-	},
-	all = {
-		10,
-		20,
-		30,
-		40,
-		50,
-		60,
-		70,
-		80,
-		90,
-		100,
-		110,
-		120,
-		130,
-		140,
-		150,
-		160,
-		170,
-		180,
-		190,
-		200,
-		210,
-		220,
-		230,
-		240,
-		250,
-		260,
-		270,
-		280,
-		290,
-		300,
-		310,
-		320,
-		330,
-		340,
-		350,
-		1001,
-		1002,
-		1003,
-		1004,
-		1011,
-		1012,
-		1013,
-		1014,
-		1015,
-		1016,
-		1017,
-		1018,
-		1019,
-		1020,
-		1021,
-		1022,
-		1023,
-		1024,
-		1025,
-		1026,
-		1027,
-		1028,
-		1029,
-		1030,
-		1031
 	}
-}
+end)()

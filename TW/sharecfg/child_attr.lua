@@ -1,6 +1,27 @@
 pg = pg or {}
-pg.child_attr = {
-	[101] = {
+pg.child_attr = rawget(pg, "child_attr") or setmetatable({
+	__name = "child_attr"
+}, confNEO)
+pg.child_attr.all = {
+	101,
+	102,
+	103,
+	104,
+	201,
+	202,
+	203,
+	301,
+	302,
+	303,
+	304,
+	305,
+	306
+}
+pg.base = pg.base or {}
+pg.base.child_attr = {}
+
+(function ()
+	pg.base.child_attr[101] = {
 		name = "體能",
 		type = 1,
 		id = 101,
@@ -35,8 +56,8 @@ pg.child_attr = {
 				"A"
 			}
 		}
-	},
-	[102] = {
+	}
+	pg.base.child_attr[102] = {
 		name = "智慧",
 		type = 1,
 		id = 102,
@@ -71,8 +92,8 @@ pg.child_attr = {
 				"A"
 			}
 		}
-	},
-	[103] = {
+	}
+	pg.base.child_attr[103] = {
 		name = "氣質",
 		type = 1,
 		id = 103,
@@ -107,8 +128,8 @@ pg.child_attr = {
 				"A"
 			}
 		}
-	},
-	[104] = {
+	}
+	pg.base.child_attr[104] = {
 		name = "感知",
 		type = 1,
 		id = 104,
@@ -143,29 +164,29 @@ pg.child_attr = {
 				"A"
 			}
 		}
-	},
-	[201] = {
+	}
+	pg.base.child_attr[201] = {
 		name = "安靜",
 		type = 2,
 		id = 201,
 		icon = "child_wukou",
 		rank = {}
-	},
-	[202] = {
+	}
+	pg.base.child_attr[202] = {
 		name = "開朗",
 		type = 2,
 		id = 202,
 		icon = "child_kailang",
 		rank = {}
-	},
-	[203] = {
+	}
+	pg.base.child_attr[203] = {
 		name = "溫柔",
 		type = 2,
 		id = 203,
 		icon = "child_wenrou",
 		rank = {}
-	},
-	[301] = {
+	}
+	pg.base.child_attr[301] = {
 		name = "表現",
 		type = 3,
 		id = 301,
@@ -200,8 +221,8 @@ pg.child_attr = {
 				"A"
 			}
 		}
-	},
-	[302] = {
+	}
+	pg.base.child_attr[302] = {
 		name = "樂理",
 		type = 3,
 		id = 302,
@@ -236,8 +257,8 @@ pg.child_attr = {
 				"A"
 			}
 		}
-	},
-	[303] = {
+	}
+	pg.base.child_attr[303] = {
 		name = "細心",
 		type = 3,
 		id = 303,
@@ -272,8 +293,8 @@ pg.child_attr = {
 				"A"
 			}
 		}
-	},
-	[304] = {
+	}
+	pg.base.child_attr[304] = {
 		name = "想像",
 		type = 3,
 		id = 304,
@@ -308,8 +329,8 @@ pg.child_attr = {
 				"A"
 			}
 		}
-	},
-	[305] = {
+	}
+	pg.base.child_attr[305] = {
 		name = "運動",
 		type = 3,
 		id = 305,
@@ -344,8 +365,8 @@ pg.child_attr = {
 				"A"
 			}
 		}
-	},
-	[306] = {
+	}
+	pg.base.child_attr[306] = {
 		name = "實踐",
 		type = 3,
 		id = 306,
@@ -380,20 +401,5 @@ pg.child_attr = {
 				"A"
 			}
 		}
-	},
-	all = {
-		101,
-		102,
-		103,
-		104,
-		201,
-		202,
-		203,
-		301,
-		302,
-		303,
-		304,
-		305,
-		306
 	}
-}
+end)()

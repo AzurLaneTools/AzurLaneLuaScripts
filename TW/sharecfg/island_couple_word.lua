@@ -1,6 +1,33 @@
 pg = pg or {}
-pg.island_couple_word = {
-	{
+pg.island_couple_word = rawget(pg, "island_couple_word") or setmetatable({
+	__name = "island_couple_word"
+}, confNEO)
+pg.island_couple_word.all = {
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19
+}
+pg.base = pg.base or {}
+pg.base.island_couple_word = {}
+
+(function ()
+	pg.base.island_couple_word[1] = {
 		type = 2,
 		id = 1,
 		weight = 10000,
@@ -8,8 +35,8 @@ pg.island_couple_word = {
 		param = {
 			10703
 		}
-	},
-	{
+	}
+	pg.base.island_couple_word[2] = {
 		type = 1,
 		id = 2,
 		weight = 2000,
@@ -18,8 +45,8 @@ pg.island_couple_word = {
 			31201,
 			60802
 		}
-	},
-	{
+	}
+	pg.base.island_couple_word[3] = {
 		type = 1,
 		id = 3,
 		weight = 2000,
@@ -28,8 +55,8 @@ pg.island_couple_word = {
 			31201,
 			29903
 		}
-	},
-	{
+	}
+	pg.base.island_couple_word[4] = {
 		type = 2,
 		id = 4,
 		weight = 10000,
@@ -37,8 +64,8 @@ pg.island_couple_word = {
 		param = {
 			30707
 		}
-	},
-	{
+	}
+	pg.base.island_couple_word[5] = {
 		type = 2,
 		id = 5,
 		weight = 10000,
@@ -46,8 +73,8 @@ pg.island_couple_word = {
 		param = {
 			10517
 		}
-	},
-	{
+	}
+	pg.base.island_couple_word[6] = {
 		type = 1,
 		id = 6,
 		weight = 2000,
@@ -56,8 +83,8 @@ pg.island_couple_word = {
 			30129,
 			70104
 		}
-	},
-	{
+	}
+	pg.base.island_couple_word[7] = {
 		type = 1,
 		id = 7,
 		weight = 2000,
@@ -66,8 +93,8 @@ pg.island_couple_word = {
 			50204,
 			50205
 		}
-	},
-	{
+	}
+	pg.base.island_couple_word[8] = {
 		type = 2,
 		id = 8,
 		weight = 10000,
@@ -75,8 +102,8 @@ pg.island_couple_word = {
 		param = {
 			90111
 		}
-	},
-	{
+	}
+	pg.base.island_couple_word[9] = {
 		type = 2,
 		id = 9,
 		weight = 10000,
@@ -84,8 +111,8 @@ pg.island_couple_word = {
 		param = {
 			20603
 		}
-	},
-	{
+	}
+	pg.base.island_couple_word[10] = {
 		type = 1,
 		id = 10,
 		weight = 2000,
@@ -94,8 +121,8 @@ pg.island_couple_word = {
 			60802,
 			70104
 		}
-	},
-	{
+	}
+	pg.base.island_couple_word[11] = {
 		type = 1,
 		id = 11,
 		weight = 2000,
@@ -104,8 +131,8 @@ pg.island_couple_word = {
 			20403,
 			40303
 		}
-	},
-	{
+	}
+	pg.base.island_couple_word[12] = {
 		type = 2,
 		id = 12,
 		weight = 10000,
@@ -113,8 +140,8 @@ pg.island_couple_word = {
 		param = {
 			40303
 		}
-	},
-	{
+	}
+	pg.base.island_couple_word[13] = {
 		type = 2,
 		id = 13,
 		weight = 10000,
@@ -122,8 +149,8 @@ pg.island_couple_word = {
 		param = {
 			30407
 		}
-	},
-	{
+	}
+	pg.base.island_couple_word[14] = {
 		type = 2,
 		id = 14,
 		weight = 10000,
@@ -131,8 +158,8 @@ pg.island_couple_word = {
 		param = {
 			60802
 		}
-	},
-	{
+	}
+	pg.base.island_couple_word[15] = {
 		type = 1,
 		id = 15,
 		weight = 2000,
@@ -141,8 +168,8 @@ pg.island_couple_word = {
 			10110,
 			90111
 		}
-	},
-	{
+	}
+	pg.base.island_couple_word[16] = {
 		type = 2,
 		id = 16,
 		weight = 10000,
@@ -150,8 +177,8 @@ pg.island_couple_word = {
 		param = {
 			50601
 		}
-	},
-	{
+	}
+	pg.base.island_couple_word[17] = {
 		type = 2,
 		id = 17,
 		weight = 10000,
@@ -159,8 +186,8 @@ pg.island_couple_word = {
 		param = {
 			30312
 		}
-	},
-	{
+	}
+	pg.base.island_couple_word[18] = {
 		type = 2,
 		id = 18,
 		weight = 10000,
@@ -168,8 +195,8 @@ pg.island_couple_word = {
 		param = {
 			10205
 		}
-	},
-	{
+	}
+	pg.base.island_couple_word[19] = {
 		type = 2,
 		id = 19,
 		weight = 10000,
@@ -177,26 +204,5 @@ pg.island_couple_word = {
 		param = {
 			49902
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19
 	}
-}
+end)()

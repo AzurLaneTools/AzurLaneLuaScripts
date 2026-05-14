@@ -1,6 +1,1730 @@
 pg = pg or {}
-pg.dorm3d_ik_status = {
+pg.dorm3d_ik_status = rawget(pg, "dorm3d_ik_status") or setmetatable({
+	__name = "dorm3d_ik_status"
+}, confNEO)
+pg.dorm3d_ik_status.all = {
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	100,
+	101,
+	102,
+	103,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	110,
+	111,
+	112,
+	100110,
+	100120,
+	100130,
+	100210,
+	100220,
+	100230,
+	100211,
+	100221,
+	100231,
+	100250,
+	100260,
+	100270,
+	100280,
+	100251,
+	100310,
+	100320,
+	100330,
+	100410,
+	100420,
+	100430,
+	100710,
+	100720,
+	100730,
+	100711,
+	100721,
+	100731,
+	115010,
+	115020,
+	115030,
+	115040,
+	115050,
+	115060,
+	115070,
+	115080,
+	110110,
+	110120,
+	110130,
+	110210,
+	110220,
+	110230,
+	110211,
+	110221,
+	110231,
+	110310,
+	110320,
+	110330,
+	110410,
+	110420,
+	110430,
+	110710,
+	110720,
+	110730,
+	110711,
+	110721,
+	110731,
+	199999,
+	110250,
+	110260,
+	110270,
+	110280,
+	110251,
+	120110,
+	120120,
+	120130,
+	120210,
+	120220,
+	120230,
+	120211,
+	120221,
+	120231,
+	120310,
+	120320,
+	120330,
+	120410,
+	120420,
+	120430,
+	120710,
+	120720,
+	120730,
+	120711,
+	120721,
+	120731,
+	120250,
+	120260,
+	120270,
+	120280,
+	120251,
+	120810,
+	120820,
+	200110,
+	200120,
+	200130,
+	200210,
+	200220,
+	200230,
+	200310,
+	200320,
+	200330,
+	200410,
+	200420,
+	200430,
+	200411,
+	200510,
+	200520,
+	200530,
+	200511,
+	200512,
+	200522,
+	200540,
+	200610,
+	200620,
+	200630,
+	200611,
+	200621,
+	200631,
+	210110,
+	210120,
+	210130,
+	210210,
+	210220,
+	210230,
+	210310,
+	210320,
+	210330,
+	210410,
+	210420,
+	210430,
+	210411,
+	215110,
+	215120,
+	215130,
+	210510,
+	210520,
+	210530,
+	210511,
+	210512,
+	210522,
+	210540,
+	210610,
+	210620,
+	210630,
+	210611,
+	210621,
+	210631,
+	299991,
+	299992,
+	299993,
+	300110,
+	300111,
+	300112,
+	300210,
+	300211,
+	300212,
+	300310,
+	300311,
+	300312,
+	300410,
+	300411,
+	300412,
+	300510,
+	300511,
+	300512,
+	300513,
+	300710,
+	300720,
+	300730,
+	300740,
+	310110,
+	310111,
+	310112,
+	310210,
+	310211,
+	310212,
+	310310,
+	310311,
+	310312,
+	310410,
+	310411,
+	310412,
+	310510,
+	310511,
+	310512,
+	310513,
+	310710,
+	310720,
+	310730,
+	310740,
+	320110,
+	320111,
+	320112,
+	320210,
+	320211,
+	320212,
+	320310,
+	320311,
+	320312,
+	320410,
+	320411,
+	320412,
+	320510,
+	320511,
+	320512,
+	320513,
+	320610,
+	320620,
+	320630,
+	320640,
+	320710,
+	320720,
+	320730,
+	320740,
+	310910,
+	310911,
+	400110,
+	400111,
+	400112,
+	400210,
+	400211,
+	400212,
+	400310,
+	400311,
+	400312,
+	400410,
+	400411,
+	400412,
+	400510,
+	400520,
+	400530,
+	400540,
+	400710,
+	400720,
+	400730,
+	400740,
+	400750,
+	400810,
+	400820,
+	400830,
+	400840,
+	410110,
+	410111,
+	410112,
+	410210,
+	410211,
+	410212,
+	410310,
+	410311,
+	410312,
+	410410,
+	410411,
+	410412,
+	410510,
+	410520,
+	410530,
+	410540,
+	410910,
+	410911,
+	410710,
+	410720,
+	410730,
+	410740,
+	410750,
+	410810,
+	410820,
+	410830,
+	410840,
+	500110,
+	500120,
+	500130,
+	500210,
+	500220,
+	500230,
+	500310,
+	500320,
+	500330,
+	500410,
+	500420,
+	500430,
+	500510,
+	500520,
+	500530,
+	500540,
+	500610,
+	500620,
+	500630,
+	510110,
+	510120,
+	510130,
+	510210,
+	510220,
+	510230,
+	510310,
+	510320,
+	510330,
+	510410,
+	510420,
+	510430,
+	510510,
+	510520,
+	510530,
+	510540,
+	510610,
+	510620,
+	510630,
+	510910,
+	510920,
+	600110,
+	600120,
+	600130,
+	600210,
+	600220,
+	600230,
+	600310,
+	600320,
+	600330,
+	600410,
+	600420,
+	600430,
+	600510,
+	600520,
+	600530,
+	610110,
+	610120,
+	610130,
+	610210,
+	610220,
+	610230,
+	610310,
+	610320,
+	610330,
+	610410,
+	610420,
+	610430,
+	610910,
+	610920,
+	610510,
+	610520,
+	610530
+}
+pg.dorm3d_ik_status.get_id_list_by_camera_group = {
+	{
+		2,
+		3,
+		4
+	},
+	{
+		5,
+		6
+	},
+	{
+		7
+	},
+	{
+		8
+	},
+	{
+		115010,
+		115050
+	},
+	{
+		100
+	},
+	{
+		101
+	},
+	{
+		102
+	},
+	{
+		103
+	},
+	{
+		104
+	},
+	{
+		105
+	},
+	{
+		106
+	},
+	{
+		107
+	},
+	{
+		108
+	},
+	{
+		109
+	},
+	{
+		110
+	},
+	{
+		111
+	},
+	{
+		112
+	},
+	[20] = {
+		9
+	},
+	[55] = {
+		115020,
+		115030,
+		115040,
+		115060,
+		115070,
+		115080
+	},
+	[10010] = {
+		100110,
+		100120,
+		100130
+	},
+	[10020] = {
+		100210,
+		100220,
+		100230,
+		110210,
+		110220,
+		110230,
+		120210,
+		120220,
+		120230
+	},
+	[10021] = {
+		100211,
+		110211,
+		120211
+	},
+	[10022] = {
+		100221,
+		110221,
+		120221
+	},
+	[10023] = {
+		100231,
+		110231,
+		120231
+	},
+	[10025] = {
+		100250,
+		100260,
+		100270
+	},
+	[10026] = {
+		100280
+	},
+	[10027] = {
+		100251
+	},
+	[10030] = {
+		100310,
+		100320,
+		100330
+	},
+	[10040] = {
+		100410,
+		100420,
+		100430
+	},
+	[10070] = {
+		100710,
+		100720,
+		100730
+	},
+	[10071] = {
+		100711
+	},
+	[10072] = {
+		100721
+	},
+	[10073] = {
+		100731
+	},
+	[11010] = {
+		110110,
+		110120,
+		110130
+	},
+	[11025] = {
+		110250,
+		110260,
+		110270
+	},
+	[11026] = {
+		110280
+	},
+	[11027] = {
+		110251
+	},
+	[11030] = {
+		110310,
+		110320,
+		110330
+	},
+	[11040] = {
+		110410,
+		110420,
+		110430
+	},
+	[11070] = {
+		110710,
+		110720,
+		110730
+	},
+	[11071] = {
+		110711
+	},
+	[11072] = {
+		110721
+	},
+	[11073] = {
+		110731
+	},
+	[12010] = {
+		120110,
+		120120,
+		120130
+	},
+	[12025] = {
+		120250,
+		120260,
+		120270
+	},
+	[12026] = {
+		120280
+	},
+	[12027] = {
+		120251
+	},
+	[12030] = {
+		120310,
+		120320,
+		120330
+	},
+	[12040] = {
+		120410,
+		120420,
+		120430
+	},
+	[12070] = {
+		120710,
+		120720,
+		120730
+	},
+	[12071] = {
+		120711
+	},
+	[12072] = {
+		120721
+	},
+	[12073] = {
+		120731
+	},
+	[12080] = {
+		120810,
+		120820
+	},
+	[19999] = {
+		199999
+	},
+	[20010] = {
+		200110,
+		200120,
+		200130
+	},
+	[20020] = {
+		200210,
+		200220,
+		200230
+	},
+	[20030] = {
+		200310,
+		200320,
+		200330
+	},
+	[20040] = {
+		200410,
+		200420,
+		200430
+	},
+	[20041] = {
+		200411
+	},
+	[20050] = {
+		200510,
+		200520,
+		200530
+	},
+	[20051] = {
+		200511
+	},
+	[20052] = {
+		200512
+	},
+	[20053] = {
+		200522
+	},
+	[20054] = {
+		200540
+	},
+	[20061] = {
+		200610,
+		200620,
+		200630
+	},
+	[20062] = {
+		200611
+	},
+	[20063] = {
+		200621
+	},
+	[20064] = {
+		200631
+	},
+	[21010] = {
+		210110,
+		210120,
+		210130
+	},
+	[21020] = {
+		210210,
+		210220,
+		210230
+	},
+	[21030] = {
+		210310,
+		210320,
+		210330
+	},
+	[21040] = {
+		210410,
+		210420,
+		210430
+	},
+	[21041] = {
+		210411
+	},
+	[21050] = {
+		210510,
+		210520,
+		210530
+	},
+	[21051] = {
+		210511
+	},
+	[21052] = {
+		210512
+	},
+	[21053] = {
+		210522
+	},
+	[21054] = {
+		210540
+	},
+	[21061] = {
+		210610,
+		210620,
+		210630
+	},
+	[21062] = {
+		210611
+	},
+	[21063] = {
+		210621
+	},
+	[21064] = {
+		210631
+	},
+	[21511] = {
+		215110,
+		215120
+	},
+	[21512] = {
+		215130
+	},
+	[29991] = {
+		299991
+	},
+	[29992] = {
+		299992
+	},
+	[29993] = {
+		299993
+	},
+	[30011] = {
+		300110,
+		300111,
+		300112,
+		310110,
+		310111,
+		310112
+	},
+	[30012] = {
+		300210,
+		300211,
+		300212,
+		310210,
+		310211,
+		310212
+	},
+	[30013] = {
+		300310,
+		300311,
+		300312,
+		310310,
+		310311,
+		310312
+	},
+	[30014] = {
+		300410,
+		300411,
+		300412,
+		310410,
+		310411,
+		310412
+	},
+	[30019] = {
+		310910,
+		310911
+	},
+	[30051] = {
+		300510,
+		300511,
+		300512
+	},
+	[30052] = {
+		300513
+	},
+	[30070] = {
+		300710,
+		300720,
+		300730,
+		300740
+	},
+	[31051] = {
+		310510,
+		310511,
+		310512
+	},
+	[31052] = {
+		310513
+	},
+	[31070] = {
+		310710,
+		310720,
+		310730,
+		310740
+	},
+	[32011] = {
+		320110,
+		320111,
+		320112
+	},
+	[32012] = {
+		320210,
+		320211,
+		320212
+	},
+	[32013] = {
+		320310,
+		320311,
+		320312
+	},
+	[32014] = {
+		320410,
+		320411,
+		320412
+	},
+	[32051] = {
+		320510,
+		320511,
+		320512
+	},
+	[32052] = {
+		320513
+	},
+	[32061] = {
+		320610,
+		320620,
+		320630,
+		320640
+	},
+	[32070] = {
+		320710,
+		320720,
+		320730,
+		320740
+	},
+	[40010] = {
+		400110,
+		400111,
+		400112
+	},
+	[40020] = {
+		400210,
+		400211,
+		400212
+	},
+	[40030] = {
+		400310,
+		400311,
+		400312
+	},
+	[40040] = {
+		400410,
+		400411,
+		400412
+	},
+	[40050] = {
+		400510,
+		400520,
+		400530,
+		400540,
+		410510,
+		410520,
+		410530,
+		410540
+	},
+	[40070] = {
+		400710,
+		400720,
+		400730,
+		400740,
+		400750
+	},
+	[40080] = {
+		400810,
+		400820,
+		400830,
+		400840,
+		410810,
+		410820,
+		410830,
+		410840
+	},
+	[41010] = {
+		410110,
+		410111,
+		410112
+	},
+	[41020] = {
+		410210,
+		410211,
+		410212
+	},
+	[41030] = {
+		410310,
+		410311,
+		410312
+	},
+	[41040] = {
+		410410,
+		410411,
+		410412
+	},
+	[41070] = {
+		410710,
+		410720,
+		410730,
+		410740,
+		410750
+	},
+	[41090] = {
+		410910,
+		410911
+	},
+	[50010] = {
+		500110,
+		500120,
+		500130,
+		510110,
+		510120,
+		510130
+	},
+	[50020] = {
+		500210,
+		500220,
+		500230,
+		510210,
+		510220,
+		510230
+	},
+	[50030] = {
+		500310,
+		500320,
+		500330,
+		510310,
+		510320,
+		510330
+	},
+	[50040] = {
+		500410,
+		500420,
+		500430,
+		510410,
+		510420,
+		510430
+	},
+	[50050] = {
+		500510,
+		500520,
+		500530,
+		500540
+	},
+	[50060] = {
+		500610,
+		500620,
+		500630,
+		510610,
+		510620,
+		510630
+	},
+	[50090] = {
+		510910,
+		510920
+	},
+	[51050] = {
+		510510,
+		510520,
+		510530,
+		510540
+	},
+	[60010] = {
+		600110,
+		600120,
+		600130
+	},
+	[60020] = {
+		600210,
+		600220,
+		600230
+	},
+	[60030] = {
+		600310,
+		600320,
+		600330
+	},
+	[60040] = {
+		600410,
+		600420,
+		600430
+	},
+	[60050] = {
+		600510,
+		600520,
+		600530
+	},
+	[60090] = {
+		610910,
+		610920
+	},
+	[61010] = {
+		610110,
+		610120,
+		610130
+	},
+	[61020] = {
+		610210,
+		610220,
+		610230
+	},
+	[61030] = {
+		610310,
+		610320,
+		610330
+	},
+	[61040] = {
+		610410,
+		610420,
+		610430
+	},
+	[61050] = {
+		610510,
+		610520,
+		610530
+	}
+}
+pg.dorm3d_ik_status.get_id_list_by_base = {
 	[2] = {
+		2
+	},
+	[3] = {
+		3
+	},
+	[4] = {
+		4
+	},
+	[5] = {
+		5
+	},
+	[6] = {
+		6
+	},
+	[7] = {
+		7
+	},
+	[8] = {
+		8
+	},
+	[9] = {
+		9
+	},
+	[100] = {
+		100
+	},
+	[101] = {
+		101
+	},
+	[102] = {
+		102
+	},
+	[103] = {
+		103
+	},
+	[104] = {
+		104
+	},
+	[105] = {
+		105
+	},
+	[106] = {
+		106
+	},
+	[107] = {
+		107
+	},
+	[108] = {
+		108
+	},
+	[109] = {
+		109
+	},
+	[110] = {
+		110
+	},
+	[111] = {
+		111
+	},
+	[112] = {
+		112
+	},
+	[100110] = {
+		100110,
+		110110,
+		120110
+	},
+	[100120] = {
+		100120,
+		110120,
+		120120
+	},
+	[100130] = {
+		100130,
+		110130,
+		120130
+	},
+	[100210] = {
+		100210,
+		110210,
+		120210
+	},
+	[100211] = {
+		100211,
+		110211,
+		120211
+	},
+	[100220] = {
+		100220,
+		110220,
+		120220
+	},
+	[100221] = {
+		100221,
+		110221,
+		120221
+	},
+	[100230] = {
+		100230,
+		110230,
+		120230
+	},
+	[100231] = {
+		100231,
+		110231,
+		120231
+	},
+	[100250] = {
+		100250,
+		110250,
+		120250
+	},
+	[100251] = {
+		100251,
+		110251,
+		120251
+	},
+	[100260] = {
+		100260,
+		110260,
+		120260
+	},
+	[100270] = {
+		100270,
+		110270,
+		120270
+	},
+	[100280] = {
+		100280,
+		110280,
+		120280
+	},
+	[100310] = {
+		100310,
+		110310,
+		120310
+	},
+	[100320] = {
+		100320,
+		110320,
+		199999,
+		120320
+	},
+	[100330] = {
+		100330,
+		110330,
+		120330
+	},
+	[100410] = {
+		100410,
+		110410,
+		120410
+	},
+	[100420] = {
+		100420,
+		110420,
+		120420
+	},
+	[100430] = {
+		100430,
+		110430,
+		120430
+	},
+	[100710] = {
+		100710,
+		110710,
+		120710
+	},
+	[100711] = {
+		100711,
+		110711,
+		120711
+	},
+	[100720] = {
+		100720,
+		110720,
+		120720
+	},
+	[100721] = {
+		100721,
+		110721,
+		120721
+	},
+	[100730] = {
+		100730,
+		110730,
+		120730
+	},
+	[100731] = {
+		100731,
+		110731,
+		120731
+	},
+	[115010] = {
+		115010
+	},
+	[115020] = {
+		115020
+	},
+	[115030] = {
+		115030
+	},
+	[115040] = {
+		115040
+	},
+	[115050] = {
+		115050
+	},
+	[115060] = {
+		115060
+	},
+	[115070] = {
+		115070
+	},
+	[115080] = {
+		115080
+	},
+	[120810] = {
+		120810
+	},
+	[120820] = {
+		120820
+	},
+	[200110] = {
+		200110,
+		210110
+	},
+	[200120] = {
+		200120,
+		210120
+	},
+	[200130] = {
+		200130,
+		210130
+	},
+	[200210] = {
+		200210,
+		210210
+	},
+	[200220] = {
+		200220,
+		210220
+	},
+	[200230] = {
+		200230,
+		210230
+	},
+	[200310] = {
+		200310,
+		210310
+	},
+	[200320] = {
+		200320,
+		210320
+	},
+	[200330] = {
+		200330,
+		210330
+	},
+	[200410] = {
+		200410,
+		210410
+	},
+	[200411] = {
+		200411,
+		210411
+	},
+	[200420] = {
+		200420,
+		210420
+	},
+	[200430] = {
+		200430,
+		210430
+	},
+	[200510] = {
+		200510,
+		210510
+	},
+	[200511] = {
+		200511,
+		210511
+	},
+	[200512] = {
+		200512,
+		210512
+	},
+	[200520] = {
+		200520,
+		210520
+	},
+	[200522] = {
+		200522,
+		210522
+	},
+	[200530] = {
+		200530,
+		210530
+	},
+	[200540] = {
+		200540,
+		210540
+	},
+	[200610] = {
+		200610,
+		210610
+	},
+	[200611] = {
+		200611,
+		210611
+	},
+	[200620] = {
+		200620,
+		210620
+	},
+	[200621] = {
+		200621,
+		210621
+	},
+	[200630] = {
+		200630,
+		210630
+	},
+	[200631] = {
+		200631,
+		210631
+	},
+	[210110] = {
+		215110
+	},
+	[210120] = {
+		215120,
+		215130
+	},
+	[299991] = {
+		299991
+	},
+	[299992] = {
+		299992
+	},
+	[299993] = {
+		299993
+	},
+	[300110] = {
+		300110,
+		310110,
+		320110
+	},
+	[300111] = {
+		300111,
+		310111,
+		320111
+	},
+	[300112] = {
+		300112,
+		310112,
+		320112
+	},
+	[300210] = {
+		300210,
+		310210,
+		320210
+	},
+	[300211] = {
+		300211,
+		310211,
+		320211
+	},
+	[300212] = {
+		300212,
+		310212,
+		320212
+	},
+	[300310] = {
+		300310,
+		310310,
+		320310
+	},
+	[300311] = {
+		300311,
+		310311,
+		320311
+	},
+	[300312] = {
+		300312,
+		310312,
+		320312
+	},
+	[300410] = {
+		300410,
+		310410,
+		320410
+	},
+	[300411] = {
+		300411,
+		310411,
+		320411
+	},
+	[300412] = {
+		300412,
+		310412,
+		320412
+	},
+	[300510] = {
+		300510,
+		310510,
+		320510
+	},
+	[300511] = {
+		300511,
+		310511,
+		320511
+	},
+	[300512] = {
+		300512,
+		310512,
+		320512
+	},
+	[300513] = {
+		300513,
+		310513,
+		320513
+	},
+	[300610] = {
+		320610
+	},
+	[300620] = {
+		320620
+	},
+	[300630] = {
+		320630
+	},
+	[300640] = {
+		320640
+	},
+	[300710] = {
+		300710,
+		310710,
+		320710
+	},
+	[300720] = {
+		300720,
+		310720,
+		320720
+	},
+	[300730] = {
+		300730,
+		310730,
+		320730
+	},
+	[300740] = {
+		300740,
+		310740,
+		320740
+	},
+	[310910] = {
+		310910
+	},
+	[310920] = {
+		310911
+	},
+	[400110] = {
+		400110,
+		410110
+	},
+	[400111] = {
+		400111,
+		410111
+	},
+	[400112] = {
+		400112,
+		410112
+	},
+	[400210] = {
+		400210,
+		410210
+	},
+	[400211] = {
+		400211,
+		410211
+	},
+	[400212] = {
+		400212,
+		410212
+	},
+	[400310] = {
+		400310,
+		410310
+	},
+	[400311] = {
+		400311,
+		410311
+	},
+	[400312] = {
+		400312,
+		410312
+	},
+	[400410] = {
+		400410,
+		410410
+	},
+	[400420] = {
+		400411,
+		410411
+	},
+	[400430] = {
+		400412,
+		410412
+	},
+	[400510] = {
+		400510,
+		410510
+	},
+	[400520] = {
+		400520,
+		410520
+	},
+	[400530] = {
+		400530,
+		410530
+	},
+	[400540] = {
+		400540,
+		410540
+	},
+	[400710] = {
+		400710,
+		410710
+	},
+	[400720] = {
+		400720,
+		410720
+	},
+	[400730] = {
+		400730,
+		410730
+	},
+	[400740] = {
+		400740,
+		410740
+	},
+	[400750] = {
+		400750,
+		410750
+	},
+	[400810] = {
+		400810,
+		410810
+	},
+	[400820] = {
+		400820,
+		410820
+	},
+	[400830] = {
+		400830,
+		410830
+	},
+	[400840] = {
+		400840,
+		410840
+	},
+	[410910] = {
+		410910
+	},
+	[410911] = {
+		410911
+	},
+	[500110] = {
+		500110,
+		510110
+	},
+	[500120] = {
+		500120,
+		510120
+	},
+	[500130] = {
+		500130,
+		510130
+	},
+	[500210] = {
+		500210,
+		510210
+	},
+	[500220] = {
+		500220,
+		510220
+	},
+	[500230] = {
+		500230,
+		510230
+	},
+	[500310] = {
+		500310,
+		510310
+	},
+	[500320] = {
+		500320,
+		510320
+	},
+	[500330] = {
+		500330,
+		510330
+	},
+	[500410] = {
+		500410,
+		510410
+	},
+	[500420] = {
+		500420,
+		510420
+	},
+	[500430] = {
+		500430,
+		510430
+	},
+	[500510] = {
+		500510,
+		510510
+	},
+	[500520] = {
+		500520,
+		510520
+	},
+	[500530] = {
+		500530,
+		510530
+	},
+	[500540] = {
+		500540,
+		510540
+	},
+	[500610] = {
+		500610,
+		510610
+	},
+	[500620] = {
+		500620,
+		510620
+	},
+	[500630] = {
+		500630,
+		510630
+	},
+	[510910] = {
+		510910
+	},
+	[510920] = {
+		510920
+	},
+	[600110] = {
+		600110,
+		610110
+	},
+	[600120] = {
+		600120,
+		610120
+	},
+	[600130] = {
+		600130,
+		610130
+	},
+	[600210] = {
+		600210,
+		610210
+	},
+	[600220] = {
+		600220,
+		610220
+	},
+	[600230] = {
+		600230,
+		610230
+	},
+	[600310] = {
+		600310,
+		610310
+	},
+	[600320] = {
+		600320,
+		610320
+	},
+	[600330] = {
+		600330,
+		610330
+	},
+	[600410] = {
+		600410,
+		610410
+	},
+	[600420] = {
+		600420,
+		610420
+	},
+	[600430] = {
+		600430,
+		610430
+	},
+	[600510] = {
+		600510,
+		610510
+	},
+	[600520] = {
+		600520,
+		610520
+	},
+	[600530] = {
+		600530,
+		610530
+	},
+	[610910] = {
+		610910
+	},
+	[610920] = {
+		610920
+	}
+}
+pg.base = pg.base or {}
+pg.base.dorm3d_ik_status = {}
+
+(function ()
+	pg.base.dorm3d_ik_status[2] = {
 		ik_camera = "StoolIKCamera4",
 		character_action = "SitH",
 		base = 2,
@@ -66,8 +1790,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[3] = {
+	}
+	pg.base.dorm3d_ik_status[3] = {
 		ik_camera = "StoolIKCamera2",
 		character_action = "SitH",
 		base = 3,
@@ -132,8 +1856,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[4] = {
+	}
+	pg.base.dorm3d_ik_status[4] = {
 		ik_camera = "StoolIKCamera3",
 		character_action = "SitH",
 		base = 4,
@@ -197,8 +1921,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[5] = {
+	}
+	pg.base.dorm3d_ik_status[5] = {
 		ik_camera = "BedIKCamera",
 		character_action = "GoToBedL",
 		base = 5,
@@ -264,8 +1988,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[6] = {
+	}
+	pg.base.dorm3d_ik_status[6] = {
 		ik_camera = "BedIKCamera",
 		character_action = "shui_idle_L_loop",
 		base = 6,
@@ -331,8 +2055,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[7] = {
+	}
+	pg.base.dorm3d_ik_status[7] = {
 		ik_camera = "BedIKCamera",
 		character_action = "sikao_loop",
 		base = 7,
@@ -388,8 +2112,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[8] = {
+	}
+	pg.base.dorm3d_ik_status[8] = {
 		ik_camera = "ChairIKCamera",
 		character_action = "Sit",
 		base = 8,
@@ -455,8 +2179,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[9] = {
+	}
+	pg.base.dorm3d_ik_status[9] = {
 		ik_camera = "Cam200411",
 		character_action = "ND_IK_FF_chuang_ZJD_idle_01",
 		base = 9,
@@ -509,8 +2233,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[100] = {
+	}
+	pg.base.dorm3d_ik_status[100] = {
 		ik_camera = "StoolIKCamera2",
 		character_action = "SitH",
 		base = 100,
@@ -575,8 +2299,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[101] = {
+	}
+	pg.base.dorm3d_ik_status[101] = {
 		ik_camera = "StoolIKCamera2",
 		character_action = "SitH",
 		base = 101,
@@ -641,8 +2365,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[102] = {
+	}
+	pg.base.dorm3d_ik_status[102] = {
 		ik_camera = "StoolIKCamera2",
 		character_action = "SitH",
 		base = 102,
@@ -707,8 +2431,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[103] = {
+	}
+	pg.base.dorm3d_ik_status[103] = {
 		ik_camera = "StoolIKCamera2",
 		character_action = "SitH",
 		base = 103,
@@ -773,8 +2497,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[104] = {
+	}
+	pg.base.dorm3d_ik_status[104] = {
 		ik_camera = "StoolIKCamera2",
 		character_action = "SitH",
 		base = 104,
@@ -839,8 +2563,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[105] = {
+	}
+	pg.base.dorm3d_ik_status[105] = {
 		ik_camera = "StoolIKCamera2",
 		character_action = "SitH",
 		base = 105,
@@ -905,8 +2629,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[106] = {
+	}
+	pg.base.dorm3d_ik_status[106] = {
 		ik_camera = "StoolIKCamera2",
 		character_action = "SitH",
 		base = 106,
@@ -971,8 +2695,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[107] = {
+	}
+	pg.base.dorm3d_ik_status[107] = {
 		ik_camera = "StoolIKCamera2",
 		character_action = "SitH",
 		base = 107,
@@ -1037,8 +2761,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[108] = {
+	}
+	pg.base.dorm3d_ik_status[108] = {
 		ik_camera = "StoolIKCamera2",
 		character_action = "SitH",
 		base = 108,
@@ -1103,8 +2827,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[109] = {
+	}
+	pg.base.dorm3d_ik_status[109] = {
 		ik_camera = "StoolIKCamera2",
 		character_action = "SitH",
 		base = 109,
@@ -1169,8 +2893,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[110] = {
+	}
+	pg.base.dorm3d_ik_status[110] = {
 		ik_camera = "StoolIKCamera2",
 		character_action = "SitH",
 		base = 110,
@@ -1235,8 +2959,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[111] = {
+	}
+	pg.base.dorm3d_ik_status[111] = {
 		ik_camera = "StoolIKCamera2",
 		character_action = "SitH",
 		base = 111,
@@ -1301,8 +3025,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[112] = {
+	}
+	pg.base.dorm3d_ik_status[112] = {
 		ik_camera = "StoolIKCamera2",
 		character_action = "SitH",
 		base = 112,
@@ -1367,8 +3091,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[100110] = {
+	}
+	pg.base.dorm3d_ik_status[100110] = {
 		ik_camera = "Cam100110",
 		character_action = "SitH",
 		base = 100110,
@@ -1435,8 +3159,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[100120] = {
+	}
+	pg.base.dorm3d_ik_status[100120] = {
 		ik_camera = "Cam100120",
 		character_action = "SitH",
 		base = 100120,
@@ -1493,8 +3217,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[100130] = {
+	}
+	pg.base.dorm3d_ik_status[100130] = {
 		ik_camera = "Cam100130",
 		character_action = "SitH",
 		base = 100130,
@@ -1570,8 +3294,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[100210] = {
+	}
+	pg.base.dorm3d_ik_status[100210] = {
 		ik_camera = "Cam100210",
 		character_action = "PayGoToSofaLoop",
 		base = 100210,
@@ -1638,8 +3362,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[100220] = {
+	}
+	pg.base.dorm3d_ik_status[100220] = {
 		ik_camera = "Cam100220",
 		character_action = "PayGoToSofaLoop",
 		base = 100220,
@@ -1707,8 +3431,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[100230] = {
+	}
+	pg.base.dorm3d_ik_status[100230] = {
 		ik_camera = "Cam100230",
 		character_action = "PayGoToSofaLoop",
 		base = 100230,
@@ -1747,8 +3471,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[100211] = {
+	}
+	pg.base.dorm3d_ik_status[100211] = {
 		ik_camera = "Cam100211",
 		character_action = "zuo_FF_2_hudong_jianbang_1_loop",
 		base = 100211,
@@ -1806,8 +3530,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[100221] = {
+	}
+	pg.base.dorm3d_ik_status[100221] = {
 		ik_camera = "Cam100221",
 		character_action = "zuo_FF_2_hudong_xiong_1_loop",
 		base = 100221,
@@ -1865,8 +3589,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[100231] = {
+	}
+	pg.base.dorm3d_ik_status[100231] = {
 		ik_camera = "Cam100231",
 		character_action = "zuo_FF_2_hudong_jiao_2_loop",
 		base = 100231,
@@ -1924,8 +3648,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[100250] = {
+	}
+	pg.base.dorm3d_ik_status[100250] = {
 		ik_camera = "Cam100250",
 		character_action = "TLX_TD_shafa_idle_01",
 		base = 100250,
@@ -1997,8 +3721,8 @@ pg.dorm3d_ik_status = {
 				"XR_TD_shafa_idle_01"
 			}
 		}
-	},
-	[100260] = {
+	}
+	pg.base.dorm3d_ik_status[100260] = {
 		ik_camera = "Cam100260",
 		character_action = "TLX_TD_shafa_idle_01",
 		base = 100260,
@@ -2061,8 +3785,8 @@ pg.dorm3d_ik_status = {
 				"XR_TD_shafa_idle_01"
 			}
 		}
-	},
-	[100270] = {
+	}
+	pg.base.dorm3d_ik_status[100270] = {
 		ik_camera = "Cam100270",
 		character_action = "TLX_TD_shafa_idle_01",
 		base = 100270,
@@ -2133,8 +3857,8 @@ pg.dorm3d_ik_status = {
 				"XR_TD_shafa_idle_01"
 			}
 		}
-	},
-	[100280] = {
+	}
+	pg.base.dorm3d_ik_status[100280] = {
 		ik_camera = "Cam100280",
 		character_action = "TLX_TD_shafa_idle_03",
 		base = 100280,
@@ -2210,8 +3934,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[100251] = {
+	}
+	pg.base.dorm3d_ik_status[100251] = {
 		ik_camera = "Cam100251",
 		character_action = "TLX_TD_shafa_idle_02",
 		base = 100251,
@@ -2278,8 +4002,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[100310] = {
+	}
+	pg.base.dorm3d_ik_status[100310] = {
 		ik_camera = "Cam100310",
 		character_action = "Sit",
 		base = 100310,
@@ -2345,8 +4069,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[100320] = {
+	}
+	pg.base.dorm3d_ik_status[100320] = {
 		ik_camera = "Cam100320",
 		character_action = "Sit",
 		base = 100320,
@@ -2403,8 +4127,8 @@ pg.dorm3d_ik_status = {
 			0.5
 		},
 		enter_scene_anim = {}
-	},
-	[100330] = {
+	}
+	pg.base.dorm3d_ik_status[100330] = {
 		ik_camera = "Cam100330",
 		character_action = "Sit",
 		base = 100330,
@@ -2470,8 +4194,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[100410] = {
+	}
+	pg.base.dorm3d_ik_status[100410] = {
 		ik_camera = "Cam100410",
 		character_action = "GoToBedL",
 		base = 100410,
@@ -2538,8 +4262,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[100420] = {
+	}
+	pg.base.dorm3d_ik_status[100420] = {
 		ik_camera = "Cam100420",
 		character_action = "GoToBedL",
 		base = 100420,
@@ -2596,8 +4320,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[100430] = {
+	}
+	pg.base.dorm3d_ik_status[100430] = {
 		ik_camera = "Cam100430",
 		character_action = "GoToBedL",
 		base = 100430,
@@ -2663,8 +4387,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[100710] = {
+	}
+	pg.base.dorm3d_ik_status[100710] = {
 		ik_camera = "Cam100710",
 		character_action = "PayGoToBed",
 		base = 100710,
@@ -2740,8 +4464,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[100720] = {
+	}
+	pg.base.dorm3d_ik_status[100720] = {
 		ik_camera = "Cam100720",
 		character_action = "PayGoToBed",
 		base = 100720,
@@ -2798,8 +4522,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[100730] = {
+	}
+	pg.base.dorm3d_ik_status[100730] = {
 		ik_camera = "Cam100730",
 		character_action = "PayGoToBed",
 		base = 100730,
@@ -2856,8 +4580,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[100711] = {
+	}
+	pg.base.dorm3d_ik_status[100711] = {
 		ik_camera = "Cam100711",
 		character_action = "chuang_beibu_1_idle",
 		base = 100711,
@@ -2923,8 +4647,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[100721] = {
+	}
+	pg.base.dorm3d_ik_status[100721] = {
 		ik_camera = "Cam100721",
 		character_action = "chuang_2_pigu_2_idle",
 		base = 100721,
@@ -2981,8 +4705,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[100731] = {
+	}
+	pg.base.dorm3d_ik_status[100731] = {
 		ik_camera = "Cam100731",
 		character_action = "chuang_jiao_1_idle",
 		base = 100731,
@@ -3039,8 +4763,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[115010] = {
+	}
+	pg.base.dorm3d_ik_status[115010] = {
 		ik_camera = "Cam115010",
 		character_action = "swim01_idle",
 		base = 115010,
@@ -3088,8 +4812,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[115020] = {
+	}
+	pg.base.dorm3d_ik_status[115020] = {
 		ik_camera = "Cam115010",
 		character_action = "swim01_idle",
 		base = 115020,
@@ -3137,8 +4861,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[115030] = {
+	}
+	pg.base.dorm3d_ik_status[115030] = {
 		ik_camera = "Cam115010",
 		character_action = "swim01_idle",
 		base = 115030,
@@ -3186,8 +4910,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[115040] = {
+	}
+	pg.base.dorm3d_ik_status[115040] = {
 		ik_camera = "Cam115010",
 		character_action = "swim01_idle",
 		base = 115040,
@@ -3235,8 +4959,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[115050] = {
+	}
+	pg.base.dorm3d_ik_status[115050] = {
 		ik_camera = "Cam115050",
 		character_action = "swim02_idle",
 		base = 115050,
@@ -3284,8 +5008,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[115060] = {
+	}
+	pg.base.dorm3d_ik_status[115060] = {
 		ik_camera = "Cam115050",
 		character_action = "swim02_idle",
 		base = 115060,
@@ -3333,8 +5057,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[115070] = {
+	}
+	pg.base.dorm3d_ik_status[115070] = {
 		ik_camera = "Cam115050",
 		character_action = "swim02_idle",
 		base = 115070,
@@ -3382,8 +5106,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[115080] = {
+	}
+	pg.base.dorm3d_ik_status[115080] = {
 		ik_camera = "Cam115050",
 		character_action = "swim02_idle",
 		base = 115080,
@@ -3431,8 +5155,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[110110] = {
+	}
+	pg.base.dorm3d_ik_status[110110] = {
 		ik_camera = "Cam100110",
 		character_action = "SitH",
 		base = 100110,
@@ -3481,8 +5205,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[110120] = {
+	}
+	pg.base.dorm3d_ik_status[110120] = {
 		ik_camera = "Cam100120",
 		character_action = "SitH",
 		base = 100120,
@@ -3521,8 +5245,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[110130] = {
+	}
+	pg.base.dorm3d_ik_status[110130] = {
 		ik_camera = "Cam100130",
 		character_action = "SitH",
 		base = 100130,
@@ -3580,8 +5304,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[110210] = {
+	}
+	pg.base.dorm3d_ik_status[110210] = {
 		ik_camera = "Cam100210",
 		character_action = "PayGoToSofaLoop",
 		base = 100210,
@@ -3649,8 +5373,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[110220] = {
+	}
+	pg.base.dorm3d_ik_status[110220] = {
 		ik_camera = "Cam100220",
 		character_action = "PayGoToSofaLoop",
 		base = 100220,
@@ -3719,8 +5443,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[110230] = {
+	}
+	pg.base.dorm3d_ik_status[110230] = {
 		ik_camera = "Cam100230",
 		character_action = "PayGoToSofaLoop",
 		base = 100230,
@@ -3778,8 +5502,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[110211] = {
+	}
+	pg.base.dorm3d_ik_status[110211] = {
 		ik_camera = "Cam100211",
 		character_action = "zuo_FF_2_hudong_jianbang_1_loop",
 		base = 100211,
@@ -3838,8 +5562,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[110221] = {
+	}
+	pg.base.dorm3d_ik_status[110221] = {
 		ik_camera = "Cam100221",
 		character_action = "zuo_FF_2_hudong_xiong_1_loop",
 		base = 100221,
@@ -3898,8 +5622,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[110231] = {
+	}
+	pg.base.dorm3d_ik_status[110231] = {
 		ik_camera = "Cam100231",
 		character_action = "zuo_FF_2_hudong_jiao_2_loop",
 		base = 100231,
@@ -3958,8 +5682,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[110310] = {
+	}
+	pg.base.dorm3d_ik_status[110310] = {
 		ik_camera = "Cam100310",
 		character_action = "Sit",
 		base = 100310,
@@ -4007,8 +5731,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[110320] = {
+	}
+	pg.base.dorm3d_ik_status[110320] = {
 		ik_camera = "Cam100320",
 		character_action = "Sit",
 		base = 100320,
@@ -4047,8 +5771,8 @@ pg.dorm3d_ik_status = {
 			0.5
 		},
 		enter_scene_anim = {}
-	},
-	[110330] = {
+	}
+	pg.base.dorm3d_ik_status[110330] = {
 		ik_camera = "Cam100330",
 		character_action = "Sit",
 		base = 100330,
@@ -4096,8 +5820,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[110410] = {
+	}
+	pg.base.dorm3d_ik_status[110410] = {
 		ik_camera = "Cam100410",
 		character_action = "GoToBedL",
 		base = 100410,
@@ -4146,8 +5870,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[110420] = {
+	}
+	pg.base.dorm3d_ik_status[110420] = {
 		ik_camera = "Cam100420",
 		character_action = "GoToBedL",
 		base = 100420,
@@ -4186,8 +5910,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[110430] = {
+	}
+	pg.base.dorm3d_ik_status[110430] = {
 		ik_camera = "Cam100430",
 		character_action = "GoToBedL",
 		base = 100430,
@@ -4235,8 +5959,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[110710] = {
+	}
+	pg.base.dorm3d_ik_status[110710] = {
 		ik_camera = "Cam100710",
 		character_action = "PayGoToBed",
 		base = 100710,
@@ -4294,8 +6018,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[110720] = {
+	}
+	pg.base.dorm3d_ik_status[110720] = {
 		ik_camera = "Cam100720",
 		character_action = "PayGoToBed",
 		base = 100720,
@@ -4338,8 +6062,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[110730] = {
+	}
+	pg.base.dorm3d_ik_status[110730] = {
 		ik_camera = "Cam100730",
 		character_action = "PayGoToBed",
 		base = 100730,
@@ -4378,8 +6102,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[110711] = {
+	}
+	pg.base.dorm3d_ik_status[110711] = {
 		ik_camera = "Cam100711",
 		character_action = "chuang_beibu_1_idle",
 		base = 100711,
@@ -4427,8 +6151,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[110721] = {
+	}
+	pg.base.dorm3d_ik_status[110721] = {
 		ik_camera = "Cam100721",
 		character_action = "chuang_2_pigu_2_idle",
 		base = 100721,
@@ -4467,8 +6191,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[110731] = {
+	}
+	pg.base.dorm3d_ik_status[110731] = {
 		ik_camera = "Cam100731",
 		character_action = "chuang_jiao_1_idle",
 		base = 100731,
@@ -4507,8 +6231,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[199999] = {
+	}
+	pg.base.dorm3d_ik_status[199999] = {
 		ik_camera = "Cam100320",
 		character_action = "Sit",
 		base = 100320,
@@ -4564,8 +6288,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[110250] = {
+	}
+	pg.base.dorm3d_ik_status[110250] = {
 		ik_camera = "Cam100250",
 		character_action = "TLX_TD_shafa_idle_01",
 		base = 100250,
@@ -4619,8 +6343,8 @@ pg.dorm3d_ik_status = {
 				"XR_TD_shafa_idle_01"
 			}
 		}
-	},
-	[110260] = {
+	}
+	pg.base.dorm3d_ik_status[110260] = {
 		ik_camera = "Cam100260",
 		character_action = "TLX_TD_shafa_idle_01",
 		base = 100260,
@@ -4684,8 +6408,8 @@ pg.dorm3d_ik_status = {
 				"XR_TD_shafa_idle_01"
 			}
 		}
-	},
-	[110270] = {
+	}
+	pg.base.dorm3d_ik_status[110270] = {
 		ik_camera = "Cam100270",
 		character_action = "TLX_TD_shafa_idle_01",
 		base = 100270,
@@ -4738,8 +6462,8 @@ pg.dorm3d_ik_status = {
 				"XR_TD_shafa_idle_01"
 			}
 		}
-	},
-	[110280] = {
+	}
+	pg.base.dorm3d_ik_status[110280] = {
 		ik_camera = "Cam100280",
 		character_action = "TLX_TD_shafa_idle_03",
 		base = 100280,
@@ -4797,8 +6521,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[110251] = {
+	}
+	pg.base.dorm3d_ik_status[110251] = {
 		ik_camera = "Cam100251",
 		character_action = "TLX_TD_shafa_idle_02",
 		base = 100251,
@@ -4847,8 +6571,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[120110] = {
+	}
+	pg.base.dorm3d_ik_status[120110] = {
 		ik_camera = "Cam100110",
 		character_action = "SitH",
 		base = 100110,
@@ -4896,8 +6620,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[120120] = {
+	}
+	pg.base.dorm3d_ik_status[120120] = {
 		ik_camera = "Cam100120",
 		character_action = "SitH",
 		base = 100120,
@@ -4935,8 +6659,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[120130] = {
+	}
+	pg.base.dorm3d_ik_status[120130] = {
 		ik_camera = "Cam100130",
 		character_action = "SitH",
 		base = 100130,
@@ -4993,8 +6717,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[120210] = {
+	}
+	pg.base.dorm3d_ik_status[120210] = {
 		ik_camera = "Cam100210",
 		character_action = "PayGoToSofaLoop",
 		base = 100210,
@@ -5042,8 +6766,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[120220] = {
+	}
+	pg.base.dorm3d_ik_status[120220] = {
 		ik_camera = "Cam100220",
 		character_action = "PayGoToSofaLoop",
 		base = 100220,
@@ -5092,8 +6816,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[120230] = {
+	}
+	pg.base.dorm3d_ik_status[120230] = {
 		ik_camera = "Cam100230",
 		character_action = "PayGoToSofaLoop",
 		base = 100230,
@@ -5131,8 +6855,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[120211] = {
+	}
+	pg.base.dorm3d_ik_status[120211] = {
 		ik_camera = "Cam100211",
 		character_action = "zuo_FF_2_hudong_jianbang_1_loop",
 		base = 100211,
@@ -5171,8 +6895,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[120221] = {
+	}
+	pg.base.dorm3d_ik_status[120221] = {
 		ik_camera = "Cam100221",
 		character_action = "zuo_FF_2_hudong_xiong_1_loop",
 		base = 100221,
@@ -5231,8 +6955,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[120231] = {
+	}
+	pg.base.dorm3d_ik_status[120231] = {
 		ik_camera = "Cam100231",
 		character_action = "zuo_FF_2_hudong_jiao_2_loop",
 		base = 100231,
@@ -5291,8 +7015,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[120310] = {
+	}
+	pg.base.dorm3d_ik_status[120310] = {
 		ik_camera = "Cam100310",
 		character_action = "Sit",
 		base = 100310,
@@ -5339,8 +7063,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[120320] = {
+	}
+	pg.base.dorm3d_ik_status[120320] = {
 		ik_camera = "Cam100320",
 		character_action = "Sit",
 		base = 100320,
@@ -5378,8 +7102,8 @@ pg.dorm3d_ik_status = {
 			0.5
 		},
 		enter_scene_anim = {}
-	},
-	[120330] = {
+	}
+	pg.base.dorm3d_ik_status[120330] = {
 		ik_camera = "Cam100330",
 		character_action = "Sit",
 		base = 100330,
@@ -5426,8 +7150,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[120410] = {
+	}
+	pg.base.dorm3d_ik_status[120410] = {
 		ik_camera = "Cam100410",
 		character_action = "GoToBedL",
 		base = 100410,
@@ -5475,8 +7199,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[120420] = {
+	}
+	pg.base.dorm3d_ik_status[120420] = {
 		ik_camera = "Cam100420",
 		character_action = "GoToBedL",
 		base = 100420,
@@ -5514,8 +7238,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[120430] = {
+	}
+	pg.base.dorm3d_ik_status[120430] = {
 		ik_camera = "Cam100430",
 		character_action = "GoToBedL",
 		base = 100430,
@@ -5562,8 +7286,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[120710] = {
+	}
+	pg.base.dorm3d_ik_status[120710] = {
 		ik_camera = "Cam100710",
 		character_action = "PayGoToBed",
 		base = 100710,
@@ -5621,8 +7345,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[120720] = {
+	}
+	pg.base.dorm3d_ik_status[120720] = {
 		ik_camera = "Cam100720",
 		character_action = "PayGoToBed",
 		base = 100720,
@@ -5665,8 +7389,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[120730] = {
+	}
+	pg.base.dorm3d_ik_status[120730] = {
 		ik_camera = "Cam100730",
 		character_action = "PayGoToBed",
 		base = 100730,
@@ -5705,8 +7429,10 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[120711] = {
+	}
+end)()
+(function ()
+	pg.base.dorm3d_ik_status[120711] = {
 		ik_camera = "Cam100711",
 		character_action = "chuang_beibu_1_idle",
 		base = 100711,
@@ -5754,8 +7480,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[120721] = {
+	}
+	pg.base.dorm3d_ik_status[120721] = {
 		ik_camera = "Cam100721",
 		character_action = "chuang_2_pigu_2_idle",
 		base = 100721,
@@ -5794,8 +7520,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[120731] = {
+	}
+	pg.base.dorm3d_ik_status[120731] = {
 		ik_camera = "Cam100731",
 		character_action = "chuang_jiao_1_idle",
 		base = 100731,
@@ -5834,8 +7560,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[120250] = {
+	}
+	pg.base.dorm3d_ik_status[120250] = {
 		ik_camera = "Cam100250",
 		character_action = "TLX_TD_shafa_idle_01",
 		base = 100250,
@@ -5889,8 +7615,8 @@ pg.dorm3d_ik_status = {
 				"XR_TD_shafa_idle_01"
 			}
 		}
-	},
-	[120260] = {
+	}
+	pg.base.dorm3d_ik_status[120260] = {
 		ik_camera = "Cam100260",
 		character_action = "TLX_TD_shafa_idle_01",
 		base = 100260,
@@ -5954,8 +7680,8 @@ pg.dorm3d_ik_status = {
 				"XR_TD_shafa_idle_01"
 			}
 		}
-	},
-	[120270] = {
+	}
+	pg.base.dorm3d_ik_status[120270] = {
 		ik_camera = "Cam100270",
 		character_action = "TLX_TD_shafa_idle_01",
 		base = 100270,
@@ -6008,8 +7734,8 @@ pg.dorm3d_ik_status = {
 				"XR_TD_shafa_idle_01"
 			}
 		}
-	},
-	[120280] = {
+	}
+	pg.base.dorm3d_ik_status[120280] = {
 		ik_camera = "Cam100280",
 		character_action = "TLX_TD_shafa_idle_03",
 		base = 100280,
@@ -6067,8 +7793,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[120251] = {
+	}
+	pg.base.dorm3d_ik_status[120251] = {
 		ik_camera = "Cam100251",
 		character_action = "TLX_TD_shafa_idle_02",
 		base = 100251,
@@ -6117,8 +7843,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[120810] = {
+	}
+	pg.base.dorm3d_ik_status[120810] = {
 		ik_camera = "Cam810910",
 		character_action = "bunny_IK_cafe_idle01",
 		base = 120810,
@@ -6181,8 +7907,8 @@ pg.dorm3d_ik_status = {
 				"bunny_IK_cafe_idle01_baozhen"
 			}
 		}
-	},
-	[120820] = {
+	}
+	pg.base.dorm3d_ik_status[120820] = {
 		ik_camera = "Cam810920",
 		character_action = "bunny_IK_cafe_idle02",
 		base = 120820,
@@ -6229,8 +7955,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[200110] = {
+	}
+	pg.base.dorm3d_ik_status[200110] = {
 		ik_camera = "Cam200110",
 		character_action = "sofa_sit_idle",
 		base = 200110,
@@ -6291,8 +8017,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[200120] = {
+	}
+	pg.base.dorm3d_ik_status[200120] = {
 		ik_camera = "Cam200120",
 		character_action = "sofa_sit_idle",
 		base = 200120,
@@ -6353,8 +8079,8 @@ pg.dorm3d_ik_status = {
 			0.5
 		},
 		enter_scene_anim = {}
-	},
-	[200130] = {
+	}
+	pg.base.dorm3d_ik_status[200130] = {
 		ik_camera = "Cam200130",
 		character_action = "sofa_sit_idle",
 		base = 200130,
@@ -6402,8 +8128,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[200210] = {
+	}
+	pg.base.dorm3d_ik_status[200210] = {
 		ik_camera = "Cam200210",
 		character_action = "bed_lay_idle",
 		base = 200210,
@@ -6451,8 +8177,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[200220] = {
+	}
+	pg.base.dorm3d_ik_status[200220] = {
 		ik_camera = "Cam200220",
 		character_action = "bed_lay_idle",
 		base = 200220,
@@ -6491,8 +8217,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[200230] = {
+	}
+	pg.base.dorm3d_ik_status[200230] = {
 		ik_camera = "Cam200230",
 		character_action = "bed_lay_idle",
 		base = 200230,
@@ -6562,8 +8288,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[200310] = {
+	}
+	pg.base.dorm3d_ik_status[200310] = {
 		ik_camera = "Cam200310",
 		character_action = "table_sit_idle",
 		base = 200310,
@@ -6626,8 +8352,8 @@ pg.dorm3d_ik_status = {
 				}
 			}
 		}
-	},
-	[200320] = {
+	}
+	pg.base.dorm3d_ik_status[200320] = {
 		ik_camera = "Cam200320",
 		character_action = "table_sit_idle",
 		base = 200320,
@@ -6690,8 +8416,8 @@ pg.dorm3d_ik_status = {
 				}
 			}
 		}
-	},
-	[200330] = {
+	}
+	pg.base.dorm3d_ik_status[200330] = {
 		ik_camera = "Cam200330",
 		character_action = "table_sit_idle",
 		base = 200330,
@@ -6767,8 +8493,8 @@ pg.dorm3d_ik_status = {
 				}
 			}
 		}
-	},
-	[200410] = {
+	}
+	pg.base.dorm3d_ik_status[200410] = {
 		ik_camera = "Cam200410",
 		character_action = "ND_IK_FF_chuang_idle_01",
 		base = 200410,
@@ -6826,8 +8552,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[200420] = {
+	}
+	pg.base.dorm3d_ik_status[200420] = {
 		ik_camera = "Cam200420",
 		character_action = "ND_IK_FF_chuang_idle_01",
 		base = 200420,
@@ -6903,8 +8629,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[200430] = {
+	}
+	pg.base.dorm3d_ik_status[200430] = {
 		ik_camera = "Cam200430",
 		character_action = "ND_IK_FF_chuang_idle_01",
 		base = 200430,
@@ -6952,8 +8678,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[200411] = {
+	}
+	pg.base.dorm3d_ik_status[200411] = {
 		ik_camera = "Cam200411",
 		character_action = "ND_IK_FF_chuang_ZJD_idle_01",
 		base = 200411,
@@ -7020,8 +8746,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[200510] = {
+	}
+	pg.base.dorm3d_ik_status[200510] = {
 		ik_camera = "Cam200510",
 		character_action = "ND_TD_beilu_idle_01",
 		base = 200510,
@@ -7085,8 +8811,8 @@ pg.dorm3d_ik_status = {
 				"ND_TD_beilu_idle_01_item"
 			}
 		}
-	},
-	[200520] = {
+	}
+	pg.base.dorm3d_ik_status[200520] = {
 		ik_camera = "Cam200520",
 		character_action = "ND_TD_beilu_idle_01",
 		base = 200520,
@@ -7140,8 +8866,8 @@ pg.dorm3d_ik_status = {
 				"ND_TD_beilu_idle_01_item"
 			}
 		}
-	},
-	[200530] = {
+	}
+	pg.base.dorm3d_ik_status[200530] = {
 		ik_camera = "Cam200530",
 		character_action = "ND_TD_beilu_idle_01",
 		base = 200530,
@@ -7203,8 +8929,8 @@ pg.dorm3d_ik_status = {
 				"ND_TD_beilu_idle_01_item"
 			}
 		}
-	},
-	[200511] = {
+	}
+	pg.base.dorm3d_ik_status[200511] = {
 		ik_camera = "Cam200511",
 		character_action = "ND_TD_beilu_ZJD_idle_02",
 		base = 200511,
@@ -7268,8 +8994,8 @@ pg.dorm3d_ik_status = {
 				"ND_TD_beilu_ZJD_idle_02_item"
 			}
 		}
-	},
-	[200512] = {
+	}
+	pg.base.dorm3d_ik_status[200512] = {
 		ik_camera = "Cam200512",
 		character_action = "ND_TD_beilu_ZJD_shou_01-loop",
 		base = 200512,
@@ -7323,8 +9049,8 @@ pg.dorm3d_ik_status = {
 				"ND_TD_beilu_ZJD_shou_01_item-loop"
 			}
 		}
-	},
-	[200522] = {
+	}
+	pg.base.dorm3d_ik_status[200522] = {
 		ik_camera = "Cam200522",
 		character_action = "ND_TD_beilu_dafu_01-loop",
 		base = 200522,
@@ -7378,8 +9104,8 @@ pg.dorm3d_ik_status = {
 				"ND_TD_beilu_dafu_01_item-loop"
 			}
 		}
-	},
-	[200540] = {
+	}
+	pg.base.dorm3d_ik_status[200540] = {
 		ik_camera = "Cam200540",
 		character_action = "ND_TD_beilu_idle_03",
 		base = 200540,
@@ -7441,8 +9167,8 @@ pg.dorm3d_ik_status = {
 				"ND_TD_beilu_idle_03_item"
 			}
 		}
-	},
-	[200610] = {
+	}
+	pg.base.dorm3d_ik_status[200610] = {
 		ik_camera = "Cam200610",
 		character_action = "ND_FF_IK_zhuozi_idle_01",
 		base = 200610,
@@ -7519,8 +9245,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[200620] = {
+	}
+	pg.base.dorm3d_ik_status[200620] = {
 		ik_camera = "Cam200620",
 		character_action = "ND_FF_IK_zhuozi_ZJD_loop",
 		base = 200620,
@@ -7616,8 +9342,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[200630] = {
+	}
+	pg.base.dorm3d_ik_status[200630] = {
 		ik_camera = "Cam200630",
 		character_action = "ND_FF_IK_zhuozi_idle_03",
 		base = 200630,
@@ -7711,8 +9437,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[200611] = {
+	}
+	pg.base.dorm3d_ik_status[200611] = {
 		ik_camera = "Cam200611",
 		character_action = "ND_FF_IK_zhuozi_idle_02",
 		base = 200611,
@@ -7752,8 +9478,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[200621] = {
+	}
+	pg.base.dorm3d_ik_status[200621] = {
 		ik_camera = "Cam200621",
 		character_action = "ND_FF_IK_zhuozi_ZJD_xiong_01-loop",
 		base = 200621,
@@ -7793,8 +9519,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[200631] = {
+	}
+	pg.base.dorm3d_ik_status[200631] = {
 		ik_camera = "Cam200631",
 		character_action = "ND_FF_IK_zhuozi_ZJD_jiao_01-loop",
 		base = 200631,
@@ -7834,8 +9560,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[210110] = {
+	}
+	pg.base.dorm3d_ik_status[210110] = {
 		ik_camera = "Cam200110",
 		character_action = "sofa_sit_idle",
 		base = 200110,
@@ -7931,8 +9657,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[210120] = {
+	}
+	pg.base.dorm3d_ik_status[210120] = {
 		ik_camera = "Cam200120",
 		character_action = "sofa_sit_idle",
 		base = 200120,
@@ -8028,8 +9754,8 @@ pg.dorm3d_ik_status = {
 			0.5
 		},
 		enter_scene_anim = {}
-	},
-	[210130] = {
+	}
+	pg.base.dorm3d_ik_status[210130] = {
 		ik_camera = "Cam200130",
 		character_action = "sofa_sit_idle",
 		base = 200130,
@@ -8125,8 +9851,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[210210] = {
+	}
+	pg.base.dorm3d_ik_status[210210] = {
 		ik_camera = "Cam200210",
 		character_action = "bed_lay_idle",
 		base = 200210,
@@ -8222,8 +9948,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[210220] = {
+	}
+	pg.base.dorm3d_ik_status[210220] = {
 		ik_camera = "Cam200220",
 		character_action = "bed_lay_idle",
 		base = 200220,
@@ -8310,8 +10036,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[210230] = {
+	}
+	pg.base.dorm3d_ik_status[210230] = {
 		ik_camera = "Cam200230",
 		character_action = "bed_lay_idle",
 		base = 200230,
@@ -8416,8 +10142,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[210310] = {
+	}
+	pg.base.dorm3d_ik_status[210310] = {
 		ik_camera = "Cam200310",
 		character_action = "table_sit_idle",
 		base = 200310,
@@ -8481,8 +10207,8 @@ pg.dorm3d_ik_status = {
 				}
 			}
 		}
-	},
-	[210320] = {
+	}
+	pg.base.dorm3d_ik_status[210320] = {
 		ik_camera = "Cam200320",
 		character_action = "table_sit_idle",
 		base = 200320,
@@ -8593,8 +10319,8 @@ pg.dorm3d_ik_status = {
 				}
 			}
 		}
-	},
-	[210330] = {
+	}
+	pg.base.dorm3d_ik_status[210330] = {
 		ik_camera = "Cam200330",
 		character_action = "table_sit_idle",
 		base = 200330,
@@ -8705,8 +10431,8 @@ pg.dorm3d_ik_status = {
 				}
 			}
 		}
-	},
-	[210410] = {
+	}
+	pg.base.dorm3d_ik_status[210410] = {
 		ik_camera = "Cam200410",
 		character_action = "ND_IK_FF_chuang_idle_01",
 		base = 200410,
@@ -8803,8 +10529,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[210420] = {
+	}
+	pg.base.dorm3d_ik_status[210420] = {
 		ik_camera = "Cam200420",
 		character_action = "ND_IK_FF_chuang_idle_01",
 		base = 200420,
@@ -8900,8 +10626,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[210430] = {
+	}
+	pg.base.dorm3d_ik_status[210430] = {
 		ik_camera = "Cam200430",
 		character_action = "ND_IK_FF_chuang_idle_01",
 		base = 200430,
@@ -8988,8 +10714,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[210411] = {
+	}
+	pg.base.dorm3d_ik_status[210411] = {
 		ik_camera = "Cam200411",
 		character_action = "ND_IK_FF_chuang_ZJD_idle_01",
 		base = 200411,
@@ -9095,8 +10821,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[215110] = {
+	}
+	pg.base.dorm3d_ik_status[215110] = {
 		ik_camera = "Cam210110",
 		character_action = "ND_IK_swim_idle_01",
 		base = 210110,
@@ -9160,8 +10886,8 @@ pg.dorm3d_ik_status = {
 				}
 			}
 		}
-	},
-	[215120] = {
+	}
+	pg.base.dorm3d_ik_status[215120] = {
 		ik_camera = "Cam210120",
 		character_action = "ND_IK_swim_idle_02",
 		base = 210120,
@@ -9202,8 +10928,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[215130] = {
+	}
+	pg.base.dorm3d_ik_status[215130] = {
 		ik_camera = "Cam210130",
 		character_action = "ND_IK_swim_idle_03",
 		base = 210120,
@@ -9244,8 +10970,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[210510] = {
+	}
+	pg.base.dorm3d_ik_status[210510] = {
 		ik_camera = "Cam200510",
 		character_action = "ND_TD_beilu_idle_01",
 		base = 200510,
@@ -9357,8 +11083,8 @@ pg.dorm3d_ik_status = {
 				"ND_TD_beilu_idle_01_item"
 			}
 		}
-	},
-	[210520] = {
+	}
+	pg.base.dorm3d_ik_status[210520] = {
 		ik_camera = "Cam200520",
 		character_action = "ND_TD_beilu_idle_01",
 		base = 200520,
@@ -9460,8 +11186,8 @@ pg.dorm3d_ik_status = {
 				"ND_TD_beilu_idle_01_item"
 			}
 		}
-	},
-	[210530] = {
+	}
+	pg.base.dorm3d_ik_status[210530] = {
 		ik_camera = "Cam200530",
 		character_action = "ND_TD_beilu_idle_01",
 		base = 200530,
@@ -9571,8 +11297,8 @@ pg.dorm3d_ik_status = {
 				"ND_TD_beilu_idle_01_item"
 			}
 		}
-	},
-	[210511] = {
+	}
+	pg.base.dorm3d_ik_status[210511] = {
 		ik_camera = "Cam200511",
 		character_action = "ND_TD_beilu_ZJD_idle_02",
 		base = 200511,
@@ -9684,8 +11410,8 @@ pg.dorm3d_ik_status = {
 				"ND_TD_beilu_ZJD_idle_02_item"
 			}
 		}
-	},
-	[210512] = {
+	}
+	pg.base.dorm3d_ik_status[210512] = {
 		ik_camera = "Cam200512",
 		character_action = "ND_TD_beilu_ZJD_shou_01-loop",
 		base = 200512,
@@ -9787,8 +11513,8 @@ pg.dorm3d_ik_status = {
 				"ND_TD_beilu_ZJD_shou_01_item-loop"
 			}
 		}
-	},
-	[210522] = {
+	}
+	pg.base.dorm3d_ik_status[210522] = {
 		ik_camera = "Cam200522",
 		character_action = "ND_TD_beilu_dafu_01-loop",
 		base = 200522,
@@ -9890,8 +11616,8 @@ pg.dorm3d_ik_status = {
 				"ND_TD_beilu_dafu_01_item-loop"
 			}
 		}
-	},
-	[210540] = {
+	}
+	pg.base.dorm3d_ik_status[210540] = {
 		ik_camera = "Cam200540",
 		character_action = "ND_TD_beilu_idle_03",
 		base = 200540,
@@ -10001,8 +11727,8 @@ pg.dorm3d_ik_status = {
 				"ND_TD_beilu_idle_03_item"
 			}
 		}
-	},
-	[210610] = {
+	}
+	pg.base.dorm3d_ik_status[210610] = {
 		ik_camera = "Cam200610",
 		character_action = "ND_FF_IK_zhuozi_idle_01",
 		base = 200610,
@@ -10090,8 +11816,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[210620] = {
+	}
+	pg.base.dorm3d_ik_status[210620] = {
 		ik_camera = "Cam200620",
 		character_action = "ND_FF_IK_zhuozi_ZJD_loop",
 		base = 200620,
@@ -10198,8 +11924,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[210630] = {
+	}
+	pg.base.dorm3d_ik_status[210630] = {
 		ik_camera = "Cam200630",
 		character_action = "ND_FF_IK_zhuozi_idle_03",
 		base = 200630,
@@ -10304,8 +12030,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[210611] = {
+	}
+	pg.base.dorm3d_ik_status[210611] = {
 		ik_camera = "Cam200611",
 		character_action = "ND_FF_IK_zhuozi_idle_02",
 		base = 200611,
@@ -10393,8 +12119,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[210621] = {
+	}
+	pg.base.dorm3d_ik_status[210621] = {
 		ik_camera = "Cam200621",
 		character_action = "ND_FF_IK_zhuozi_ZJD_xiong_01-loop",
 		base = 200621,
@@ -10482,8 +12208,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[210631] = {
+	}
+	pg.base.dorm3d_ik_status[210631] = {
 		ik_camera = "Cam200631",
 		character_action = "ND_FF_IK_zhuozi_ZJD_jiao_01-loop",
 		base = 200631,
@@ -10571,8 +12297,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[299991] = {
+	}
+	pg.base.dorm3d_ik_status[299991] = {
 		ik_camera = "Cam299991",
 		character_action = "ND_liwu_01_01-loop",
 		base = 299991,
@@ -10634,8 +12360,8 @@ pg.dorm3d_ik_status = {
 				}
 			}
 		}
-	},
-	[299992] = {
+	}
+	pg.base.dorm3d_ik_status[299992] = {
 		ik_camera = "Cam299992",
 		character_action = "ND_liwu_01_03-loop",
 		base = 299992,
@@ -10703,8 +12429,8 @@ pg.dorm3d_ik_status = {
 				}
 			}
 		}
-	},
-	[299993] = {
+	}
+	pg.base.dorm3d_ik_status[299993] = {
 		ik_camera = "Cam299992",
 		character_action = "ND_FFliwu_2_03-1-loop",
 		base = 299993,
@@ -10764,8 +12490,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[300110] = {
+	}
+	pg.base.dorm3d_ik_status[300110] = {
 		ik_camera = "Cam300110",
 		character_action = "ab_chuang_idle_01",
 		base = 300110,
@@ -10814,8 +12540,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[300111] = {
+	}
+	pg.base.dorm3d_ik_status[300111] = {
 		ik_camera = "Cam300111",
 		character_action = "ab_chuang_idle_01",
 		base = 300111,
@@ -10855,8 +12581,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[300112] = {
+	}
+	pg.base.dorm3d_ik_status[300112] = {
 		ik_camera = "Cam300112",
 		character_action = "ab_chuang_idle_01",
 		base = 300112,
@@ -10905,8 +12631,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[300210] = {
+	}
+	pg.base.dorm3d_ik_status[300210] = {
 		ik_camera = "Cam300210",
 		character_action = "ab_shafa_idle_01",
 		base = 300210,
@@ -10955,8 +12681,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[300211] = {
+	}
+	pg.base.dorm3d_ik_status[300211] = {
 		ik_camera = "Cam300211",
 		character_action = "ab_shafa_idle_01",
 		base = 300211,
@@ -11005,8 +12731,8 @@ pg.dorm3d_ik_status = {
 			0.6
 		},
 		enter_scene_anim = {}
-	},
-	[300212] = {
+	}
+	pg.base.dorm3d_ik_status[300212] = {
 		ik_camera = "Cam300212",
 		character_action = "ab_shafa_idle_01",
 		base = 300212,
@@ -11046,8 +12772,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[300310] = {
+	}
+	pg.base.dorm3d_ik_status[300310] = {
 		ik_camera = "Cam300310",
 		character_action = "ab_ditan_idle_01",
 		base = 300310,
@@ -11096,8 +12822,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[300311] = {
+	}
+	pg.base.dorm3d_ik_status[300311] = {
 		ik_camera = "Cam300311",
 		character_action = "ab_ditan_idle_01",
 		base = 300311,
@@ -11146,8 +12872,8 @@ pg.dorm3d_ik_status = {
 			0.6
 		},
 		enter_scene_anim = {}
-	},
-	[300312] = {
+	}
+	pg.base.dorm3d_ik_status[300312] = {
 		ik_camera = "Cam300312",
 		character_action = "ab_ditan_idle_01",
 		base = 300312,
@@ -11196,8 +12922,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[300410] = {
+	}
+	pg.base.dorm3d_ik_status[300410] = {
 		ik_camera = "Cam300410",
 		character_action = "ab_FF_ditan_1_idle_1",
 		base = 300410,
@@ -11251,8 +12977,8 @@ pg.dorm3d_ik_status = {
 				"ab_FF_ditan_1_xiong_01_JM_loop"
 			}
 		}
-	},
-	[300411] = {
+	}
+	pg.base.dorm3d_ik_status[300411] = {
 		ik_camera = "Cam300411",
 		character_action = "ab_FF_ditan_1_idle_1",
 		base = 300411,
@@ -11306,8 +13032,8 @@ pg.dorm3d_ik_status = {
 				"ab_FF_ditan_1_xiong_01_JM_loop"
 			}
 		}
-	},
-	[300412] = {
+	}
+	pg.base.dorm3d_ik_status[300412] = {
 		ik_camera = "Cam300412",
 		character_action = "ab_FF_ditan_2_idle_1",
 		base = 300412,
@@ -11356,8 +13082,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[300510] = {
+	}
+	pg.base.dorm3d_ik_status[300510] = {
 		ik_camera = "Cam300510",
 		character_action = "ab_FF_chuang_1_idle_01",
 		base = 300510,
@@ -11406,8 +13132,8 @@ pg.dorm3d_ik_status = {
 			0.6
 		},
 		enter_scene_anim = {}
-	},
-	[300511] = {
+	}
+	pg.base.dorm3d_ik_status[300511] = {
 		ik_camera = "Cam300511",
 		character_action = "ab_FF_chuang_1_idle_01",
 		base = 300511,
@@ -11447,8 +13173,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[300512] = {
+	}
+	pg.base.dorm3d_ik_status[300512] = {
 		ik_camera = "Cam300512",
 		character_action = "ab_FF_chuang_2_idle_01",
 		base = 300512,
@@ -11507,8 +13233,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[300513] = {
+	}
+	pg.base.dorm3d_ik_status[300513] = {
 		ik_camera = "Cam300513",
 		character_action = "ab_FF_chuang_2_xiong_01-loop",
 		base = 300513,
@@ -11559,8 +13285,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[300710] = {
+	}
+	pg.base.dorm3d_ik_status[300710] = {
 		ik_camera = "Cam300710",
 		character_action = "ab_TD_bed_idle01",
 		base = 300710,
@@ -11709,8 +13435,8 @@ pg.dorm3d_ik_status = {
 				"ab_TD_bed_idle01_3caiqiu"
 			}
 		}
-	},
-	[300720] = {
+	}
+	pg.base.dorm3d_ik_status[300720] = {
 		ik_camera = "Cam300720",
 		character_action = "ab_TD_bed_idle02",
 		base = 300720,
@@ -11868,8 +13594,8 @@ pg.dorm3d_ik_status = {
 				"ab_TD_bed_idle02_3caiqiu"
 			}
 		}
-	},
-	[300730] = {
+	}
+	pg.base.dorm3d_ik_status[300730] = {
 		ik_camera = "Cam300730",
 		character_action = "ab_TD_bed_idle02",
 		base = 300730,
@@ -12018,8 +13744,8 @@ pg.dorm3d_ik_status = {
 				"ab_TD_bed_idle02_3caiqiu"
 			}
 		}
-	},
-	[300740] = {
+	}
+	pg.base.dorm3d_ik_status[300740] = {
 		ik_camera = "Cam300740",
 		character_action = "ab_TD_bed_idle03",
 		base = 300740,
@@ -12177,8 +13903,8 @@ pg.dorm3d_ik_status = {
 				"ab_TD_bed_idle03_3caiqiu"
 			}
 		}
-	},
-	[310110] = {
+	}
+	pg.base.dorm3d_ik_status[310110] = {
 		ik_camera = "Cam310110",
 		character_action = "ab_chuang_idle_01",
 		base = 300110,
@@ -12293,8 +14019,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[310111] = {
+	}
+	pg.base.dorm3d_ik_status[310111] = {
 		ik_camera = "Cam310111",
 		character_action = "ab_chuang_idle_01",
 		base = 300111,
@@ -12400,8 +14126,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[310112] = {
+	}
+	pg.base.dorm3d_ik_status[310112] = {
 		ik_camera = "Cam310112",
 		character_action = "ab_chuang_idle_01",
 		base = 300112,
@@ -12516,8 +14242,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[310210] = {
+	}
+	pg.base.dorm3d_ik_status[310210] = {
 		ik_camera = "Cam310210",
 		character_action = "ab_shafa_idle_01",
 		base = 300210,
@@ -12632,8 +14358,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[310211] = {
+	}
+	pg.base.dorm3d_ik_status[310211] = {
 		ik_camera = "Cam310211",
 		character_action = "ab_shafa_idle_01",
 		base = 300211,
@@ -12748,8 +14474,8 @@ pg.dorm3d_ik_status = {
 			0.6
 		},
 		enter_scene_anim = {}
-	},
-	[310212] = {
+	}
+	pg.base.dorm3d_ik_status[310212] = {
 		ik_camera = "Cam310212",
 		character_action = "ab_shafa_idle_01",
 		base = 300212,
@@ -12855,8 +14581,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[310310] = {
+	}
+	pg.base.dorm3d_ik_status[310310] = {
 		ik_camera = "Cam310310",
 		character_action = "ab_ditan_idle_01",
 		base = 300310,
@@ -12971,8 +14697,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[310311] = {
+	}
+	pg.base.dorm3d_ik_status[310311] = {
 		ik_camera = "Cam310311",
 		character_action = "ab_ditan_idle_01",
 		base = 300311,
@@ -13087,8 +14813,8 @@ pg.dorm3d_ik_status = {
 			0.6
 		},
 		enter_scene_anim = {}
-	},
-	[310312] = {
+	}
+	pg.base.dorm3d_ik_status[310312] = {
 		ik_camera = "Cam310312",
 		character_action = "ab_ditan_idle_01",
 		base = 300312,
@@ -13203,8 +14929,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[310410] = {
+	}
+	pg.base.dorm3d_ik_status[310410] = {
 		ik_camera = "Cam310410",
 		character_action = "ab_FF_ditan_1_idle_1",
 		base = 300410,
@@ -13324,8 +15050,8 @@ pg.dorm3d_ik_status = {
 				"ab_FF_ditan_1_xiong_01_JM_loop"
 			}
 		}
-	},
-	[310411] = {
+	}
+	pg.base.dorm3d_ik_status[310411] = {
 		ik_camera = "Cam310411",
 		character_action = "ab_FF_ditan_1_idle_1",
 		base = 300411,
@@ -13445,8 +15171,8 @@ pg.dorm3d_ik_status = {
 				"ab_FF_ditan_1_xiong_01_JM_loop"
 			}
 		}
-	},
-	[310412] = {
+	}
+	pg.base.dorm3d_ik_status[310412] = {
 		ik_camera = "Cam310412",
 		character_action = "ab_FF_ditan_2_idle_1",
 		base = 300412,
@@ -13561,8 +15287,10 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[310510] = {
+	}
+end)()
+(function ()
+	pg.base.dorm3d_ik_status[310510] = {
 		ik_camera = "Cam310510",
 		character_action = "ab_FF_chuang_1_idle_01",
 		base = 300510,
@@ -13677,8 +15405,8 @@ pg.dorm3d_ik_status = {
 			0.6
 		},
 		enter_scene_anim = {}
-	},
-	[310511] = {
+	}
+	pg.base.dorm3d_ik_status[310511] = {
 		ik_camera = "Cam310511",
 		character_action = "ab_FF_chuang_1_idle_01",
 		base = 300511,
@@ -13784,8 +15512,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[310512] = {
+	}
+	pg.base.dorm3d_ik_status[310512] = {
 		ik_camera = "Cam310512",
 		character_action = "ab_FF_chuang_2_idle_01",
 		base = 300512,
@@ -13910,8 +15638,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[310513] = {
+	}
+	pg.base.dorm3d_ik_status[310513] = {
 		ik_camera = "Cam310513",
 		character_action = "ab_FF_chuang_2_xiong_01-loop",
 		base = 300513,
@@ -14028,8 +15756,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[310710] = {
+	}
+	pg.base.dorm3d_ik_status[310710] = {
 		ik_camera = "Cam310710",
 		character_action = "ab_TD_bed_idle01",
 		base = 300710,
@@ -14168,8 +15896,8 @@ pg.dorm3d_ik_status = {
 				"ab_TD_bed_idle01_3caiqiu"
 			}
 		}
-	},
-	[310720] = {
+	}
+	pg.base.dorm3d_ik_status[310720] = {
 		ik_camera = "Cam310720",
 		character_action = "ab_TD_bed_idle02",
 		base = 300720,
@@ -14317,8 +16045,8 @@ pg.dorm3d_ik_status = {
 				"ab_TD_bed_idle02_3caiqiu"
 			}
 		}
-	},
-	[310730] = {
+	}
+	pg.base.dorm3d_ik_status[310730] = {
 		ik_camera = "Cam310730",
 		character_action = "ab_TD_bed_idle02",
 		base = 300730,
@@ -14458,8 +16186,8 @@ pg.dorm3d_ik_status = {
 				"ab_TD_bed_idle02_3caiqiu"
 			}
 		}
-	},
-	[310740] = {
+	}
+	pg.base.dorm3d_ik_status[310740] = {
 		ik_camera = "Cam310740",
 		character_action = "ab_TD_bed_idle03",
 		base = 300740,
@@ -14608,8 +16336,8 @@ pg.dorm3d_ik_status = {
 				"ab_TD_bed_idle03_3caiqiu"
 			}
 		}
-	},
-	[320110] = {
+	}
+	pg.base.dorm3d_ik_status[320110] = {
 		ik_camera = "Cam300110",
 		character_action = "ab_chuang_idle_01",
 		base = 300110,
@@ -14658,8 +16386,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[320111] = {
+	}
+	pg.base.dorm3d_ik_status[320111] = {
 		ik_camera = "Cam300111",
 		character_action = "ab_chuang_idle_01",
 		base = 300111,
@@ -14699,8 +16427,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[320112] = {
+	}
+	pg.base.dorm3d_ik_status[320112] = {
 		ik_camera = "Cam300112",
 		character_action = "ab_chuang_idle_01",
 		base = 300112,
@@ -14749,8 +16477,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[320210] = {
+	}
+	pg.base.dorm3d_ik_status[320210] = {
 		ik_camera = "Cam300210",
 		character_action = "ab_shafa_idle_01",
 		base = 300210,
@@ -14799,8 +16527,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[320211] = {
+	}
+	pg.base.dorm3d_ik_status[320211] = {
 		ik_camera = "Cam300211",
 		character_action = "ab_shafa_idle_01",
 		base = 300211,
@@ -14849,8 +16577,8 @@ pg.dorm3d_ik_status = {
 			0.6
 		},
 		enter_scene_anim = {}
-	},
-	[320212] = {
+	}
+	pg.base.dorm3d_ik_status[320212] = {
 		ik_camera = "Cam300212",
 		character_action = "ab_shafa_idle_01",
 		base = 300212,
@@ -14890,8 +16618,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[320310] = {
+	}
+	pg.base.dorm3d_ik_status[320310] = {
 		ik_camera = "Cam300310",
 		character_action = "ab_ditan_idle_01",
 		base = 300310,
@@ -14940,8 +16668,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[320311] = {
+	}
+	pg.base.dorm3d_ik_status[320311] = {
 		ik_camera = "Cam300311",
 		character_action = "ab_ditan_idle_01",
 		base = 300311,
@@ -14990,8 +16718,8 @@ pg.dorm3d_ik_status = {
 			0.6
 		},
 		enter_scene_anim = {}
-	},
-	[320312] = {
+	}
+	pg.base.dorm3d_ik_status[320312] = {
 		ik_camera = "Cam300312",
 		character_action = "ab_ditan_idle_01",
 		base = 300312,
@@ -15040,8 +16768,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[320410] = {
+	}
+	pg.base.dorm3d_ik_status[320410] = {
 		ik_camera = "Cam300410",
 		character_action = "ab_FF_ditan_1_idle_1",
 		base = 300410,
@@ -15095,8 +16823,8 @@ pg.dorm3d_ik_status = {
 				"ab_FF_ditan_1_xiong_01_JM_loop"
 			}
 		}
-	},
-	[320411] = {
+	}
+	pg.base.dorm3d_ik_status[320411] = {
 		ik_camera = "Cam300411",
 		character_action = "ab_FF_ditan_1_idle_1",
 		base = 300411,
@@ -15150,8 +16878,8 @@ pg.dorm3d_ik_status = {
 				"ab_FF_ditan_1_xiong_01_JM_loop"
 			}
 		}
-	},
-	[320412] = {
+	}
+	pg.base.dorm3d_ik_status[320412] = {
 		ik_camera = "Cam300412",
 		character_action = "ab_FF_ditan_2_idle_1",
 		base = 300412,
@@ -15200,8 +16928,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[320510] = {
+	}
+	pg.base.dorm3d_ik_status[320510] = {
 		ik_camera = "Cam300510",
 		character_action = "ab_FF_chuang_1_idle_01",
 		base = 300510,
@@ -15250,8 +16978,8 @@ pg.dorm3d_ik_status = {
 			0.6
 		},
 		enter_scene_anim = {}
-	},
-	[320511] = {
+	}
+	pg.base.dorm3d_ik_status[320511] = {
 		ik_camera = "Cam300511",
 		character_action = "ab_FF_chuang_1_idle_01",
 		base = 300511,
@@ -15291,8 +17019,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[320512] = {
+	}
+	pg.base.dorm3d_ik_status[320512] = {
 		ik_camera = "Cam300512",
 		character_action = "ab_FF_chuang_2_idle_01",
 		base = 300512,
@@ -15351,8 +17079,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[320513] = {
+	}
+	pg.base.dorm3d_ik_status[320513] = {
 		ik_camera = "Cam300513",
 		character_action = "ab_FF_chuang_2_xiong_01-loop",
 		base = 300513,
@@ -15403,8 +17131,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[320610] = {
+	}
+	pg.base.dorm3d_ik_status[320610] = {
 		ik_camera = "Cam300610",
 		character_action = "ab_FF_shafa_idle01",
 		base = 300610,
@@ -15551,8 +17279,8 @@ pg.dorm3d_ik_status = {
 				"ab_FF_shafa_idle01_M"
 			}
 		}
-	},
-	[320620] = {
+	}
+	pg.base.dorm3d_ik_status[320620] = {
 		ik_camera = "Cam300620",
 		character_action = "ab_FF_shafa_idle01",
 		base = 300620,
@@ -15699,8 +17427,8 @@ pg.dorm3d_ik_status = {
 				"ab_FF_shafa_idle01_M"
 			}
 		}
-	},
-	[320630] = {
+	}
+	pg.base.dorm3d_ik_status[320630] = {
 		ik_camera = "Cam300630",
 		character_action = "ab_FF_shafa_idle02",
 		base = 300630,
@@ -15831,8 +17559,8 @@ pg.dorm3d_ik_status = {
 				"ab_FF_shafa_idle02_SF"
 			}
 		}
-	},
-	[320640] = {
+	}
+	pg.base.dorm3d_ik_status[320640] = {
 		ik_camera = "Cam300640",
 		character_action = "ab_FF_shafa_idle02",
 		base = 300640,
@@ -15964,8 +17692,8 @@ pg.dorm3d_ik_status = {
 				"ab_FF_shafa_idle02_SF"
 			}
 		}
-	},
-	[320710] = {
+	}
+	pg.base.dorm3d_ik_status[320710] = {
 		ik_camera = "Cam320710",
 		character_action = "ab_TD_bed_idle01",
 		base = 300710,
@@ -16114,8 +17842,8 @@ pg.dorm3d_ik_status = {
 				"ab_TD_bed_idle01_3caiqiu"
 			}
 		}
-	},
-	[320720] = {
+	}
+	pg.base.dorm3d_ik_status[320720] = {
 		ik_camera = "Cam320720",
 		character_action = "ab_TD_bed_idle02",
 		base = 300720,
@@ -16273,8 +18001,8 @@ pg.dorm3d_ik_status = {
 				"ab_TD_bed_idle02_3caiqiu"
 			}
 		}
-	},
-	[320730] = {
+	}
+	pg.base.dorm3d_ik_status[320730] = {
 		ik_camera = "Cam320730",
 		character_action = "ab_TD_bed_idle02",
 		base = 300730,
@@ -16423,8 +18151,8 @@ pg.dorm3d_ik_status = {
 				"ab_TD_bed_idle02_3caiqiu"
 			}
 		}
-	},
-	[320740] = {
+	}
+	pg.base.dorm3d_ik_status[320740] = {
 		ik_camera = "Cam320740",
 		character_action = "ab_TD_bed_idle03",
 		base = 300740,
@@ -16582,8 +18310,8 @@ pg.dorm3d_ik_status = {
 				"ab_TD_bed_idle03_3caiqiu"
 			}
 		}
-	},
-	[310910] = {
+	}
+	pg.base.dorm3d_ik_status[310910] = {
 		ik_camera = "Cam310910",
 		character_action = "ab_IK_swim_1_idle_01",
 		base = 310910,
@@ -16633,8 +18361,8 @@ pg.dorm3d_ik_status = {
 			0.2
 		},
 		enter_scene_anim = {}
-	},
-	[310911] = {
+	}
+	pg.base.dorm3d_ik_status[310911] = {
 		ik_camera = "Cam310911",
 		character_action = "ab_IK_swim_2_idle_01",
 		base = 310920,
@@ -16689,8 +18417,8 @@ pg.dorm3d_ik_status = {
 				"ab_IK_swim_2_idle_01_HJ"
 			}
 		}
-	},
-	[400110] = {
+	}
+	pg.base.dorm3d_ik_status[400110] = {
 		ik_camera = "Cam400110",
 		character_action = "xzx_bingxiang_idle_01",
 		base = 400110,
@@ -16801,8 +18529,8 @@ pg.dorm3d_ik_status = {
 				"xzx_bingxiang_idle_01_BX"
 			}
 		}
-	},
-	[400111] = {
+	}
+	pg.base.dorm3d_ik_status[400111] = {
 		ik_camera = "Cam400111",
 		character_action = "xzx_bingxiang_idle_01",
 		base = 400111,
@@ -16904,8 +18632,8 @@ pg.dorm3d_ik_status = {
 				"xzx_bingxiang_idle_01_BX"
 			}
 		}
-	},
-	[400112] = {
+	}
+	pg.base.dorm3d_ik_status[400112] = {
 		ik_camera = "Cam400112",
 		character_action = "xzx_bingxiang_idle_01",
 		base = 400112,
@@ -16959,8 +18687,8 @@ pg.dorm3d_ik_status = {
 				"xzx_bingxiang_idle_01_BX"
 			}
 		}
-	},
-	[400210] = {
+	}
+	pg.base.dorm3d_ik_status[400210] = {
 		ik_camera = "Cam400210",
 		character_action = "IK_living01_idle01",
 		base = 400210,
@@ -17085,8 +18813,8 @@ pg.dorm3d_ik_status = {
 			"no_bake_pay_prop/livingroom/pre_db_desklamp05",
 			"no_bake_pay_prop/livingroom/pre_db_cosmetic16"
 		}
-	},
-	[400211] = {
+	}
+	pg.base.dorm3d_ik_status[400211] = {
 		ik_camera = "Cam400211",
 		character_action = "IK_living01_idle01",
 		base = 400211,
@@ -17202,8 +18930,8 @@ pg.dorm3d_ik_status = {
 			"no_bake_pay_prop/livingroom/pre_db_desklamp05",
 			"no_bake_pay_prop/livingroom/pre_db_cosmetic16"
 		}
-	},
-	[400212] = {
+	}
+	pg.base.dorm3d_ik_status[400212] = {
 		ik_camera = "Cam400212",
 		character_action = "IK_living01_idle01",
 		base = 400212,
@@ -17319,8 +19047,8 @@ pg.dorm3d_ik_status = {
 			"no_bake_pay_prop/livingroom/pre_db_desklamp05",
 			"no_bake_pay_prop/livingroom/pre_db_cosmetic16"
 		}
-	},
-	[400310] = {
+	}
+	pg.base.dorm3d_ik_status[400310] = {
 		ik_camera = "Cam400310",
 		character_action = "IK_bed01_idle01",
 		base = 400310,
@@ -17431,8 +19159,8 @@ pg.dorm3d_ik_status = {
 				"IK_bed01_idle01_C"
 			}
 		}
-	},
-	[400311] = {
+	}
+	pg.base.dorm3d_ik_status[400311] = {
 		ik_camera = "Cam400311",
 		character_action = "IK_bed01_idle01",
 		base = 400311,
@@ -17534,8 +19262,8 @@ pg.dorm3d_ik_status = {
 				"IK_bed01_idle01_C"
 			}
 		}
-	},
-	[400312] = {
+	}
+	pg.base.dorm3d_ik_status[400312] = {
 		ik_camera = "Cam400312",
 		character_action = "IK_bed01_idle01",
 		base = 400312,
@@ -17637,8 +19365,8 @@ pg.dorm3d_ik_status = {
 				"IK_bed01_idle01_C"
 			}
 		}
-	},
-	[400410] = {
+	}
+	pg.base.dorm3d_ik_status[400410] = {
 		ik_camera = "Cam400410",
 		character_action = "IK_living02_idle01",
 		base = 400410,
@@ -17749,8 +19477,8 @@ pg.dorm3d_ik_status = {
 				"IK_living02_idle01_SF"
 			}
 		}
-	},
-	[400411] = {
+	}
+	pg.base.dorm3d_ik_status[400411] = {
 		ik_camera = "Cam400411",
 		character_action = "IK_living02_idle01",
 		base = 400420,
@@ -17861,8 +19589,8 @@ pg.dorm3d_ik_status = {
 				"IK_living02_idle01_SF"
 			}
 		}
-	},
-	[400412] = {
+	}
+	pg.base.dorm3d_ik_status[400412] = {
 		ik_camera = "Cam400412",
 		character_action = "IK_living02_idle02",
 		base = 400430,
@@ -17991,8 +19719,8 @@ pg.dorm3d_ik_status = {
 				"IK_living02_idle02_SF"
 			}
 		}
-	},
-	[400510] = {
+	}
+	pg.base.dorm3d_ik_status[400510] = {
 		ik_camera = "Cam400510",
 		character_action = "IK_bed02_idle01",
 		base = 400510,
@@ -18098,8 +19826,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[400520] = {
+	}
+	pg.base.dorm3d_ik_status[400520] = {
 		ik_camera = "Cam400520",
 		character_action = "IK_bed02_idle01",
 		base = 400520,
@@ -18228,8 +19956,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[400530] = {
+	}
+	pg.base.dorm3d_ik_status[400530] = {
 		ik_camera = "Cam400530",
 		character_action = "IK_bed02_idle02",
 		base = 400530,
@@ -18335,8 +20063,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[400540] = {
+	}
+	pg.base.dorm3d_ik_status[400540] = {
 		ik_camera = "Cam400540",
 		character_action = "IK_bed02_idle03",
 		base = 400540,
@@ -18433,8 +20161,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[400710] = {
+	}
+	pg.base.dorm3d_ik_status[400710] = {
 		ik_camera = "Cam400710",
 		character_action = "IK_sp01_idle03",
 		base = 400710,
@@ -18570,8 +20298,8 @@ pg.dorm3d_ik_status = {
 		hide_scene_item = {
 			"fbx/litmap_04/pre_db_bonsai11"
 		}
-	},
-	[400720] = {
+	}
+	pg.base.dorm3d_ik_status[400720] = {
 		ik_camera = "Cam400720",
 		character_action = "IK_sp01_idle02",
 		base = 400720,
@@ -18682,8 +20410,8 @@ pg.dorm3d_ik_status = {
 				"IK_sp01_idle02_DC"
 			}
 		}
-	},
-	[400730] = {
+	}
+	pg.base.dorm3d_ik_status[400730] = {
 		ik_camera = "Cam400730",
 		character_action = "IK_sp01_idle02",
 		base = 400730,
@@ -18817,8 +20545,8 @@ pg.dorm3d_ik_status = {
 				"IK_sp01_idle02_DC"
 			}
 		}
-	},
-	[400740] = {
+	}
+	pg.base.dorm3d_ik_status[400740] = {
 		ik_camera = "Cam400740",
 		character_action = "IK_sp01_idle01",
 		base = 400740,
@@ -18956,8 +20684,8 @@ pg.dorm3d_ik_status = {
 				"IK_sp01_idle01_dc_vfx"
 			}
 		}
-	},
-	[400750] = {
+	}
+	pg.base.dorm3d_ik_status[400750] = {
 		ik_camera = "Cam400750",
 		character_action = "IK_sp01_idle01",
 		base = 400750,
@@ -19095,8 +20823,8 @@ pg.dorm3d_ik_status = {
 				"IK_sp01_idle01_dc_vfx"
 			}
 		}
-	},
-	[400810] = {
+	}
+	pg.base.dorm3d_ik_status[400810] = {
 		ik_camera = "Cam400810",
 		character_action = "IK_dining02_idle01",
 		base = 400810,
@@ -19231,8 +20959,8 @@ pg.dorm3d_ik_status = {
 				"IK_dining02_idle01_BX"
 			}
 		}
-	},
-	[400820] = {
+	}
+	pg.base.dorm3d_ik_status[400820] = {
 		ik_camera = "Cam400820",
 		character_action = "IK_dining02_idle01",
 		base = 400820,
@@ -19367,8 +21095,8 @@ pg.dorm3d_ik_status = {
 				"IK_dining02_idle01_BX"
 			}
 		}
-	},
-	[400830] = {
+	}
+	pg.base.dorm3d_ik_status[400830] = {
 		ik_camera = "Cam400830",
 		character_action = "IK_dining02_idle02",
 		base = 400830,
@@ -19511,8 +21239,8 @@ pg.dorm3d_ik_status = {
 				"IK_dining02_idle02_BX"
 			}
 		}
-	},
-	[400840] = {
+	}
+	pg.base.dorm3d_ik_status[400840] = {
 		ik_camera = "Cam400840",
 		character_action = "IK_dining02_idle02",
 		base = 400840,
@@ -19637,8 +21365,8 @@ pg.dorm3d_ik_status = {
 				"IK_dining02_idle02_BX"
 			}
 		}
-	},
-	[410110] = {
+	}
+	pg.base.dorm3d_ik_status[410110] = {
 		ik_camera = "Cam410110",
 		character_action = "xzx_bingxiang_idle_01",
 		base = 400110,
@@ -19693,8 +21421,8 @@ pg.dorm3d_ik_status = {
 				"xzx_bingxiang_idle_01_BX"
 			}
 		}
-	},
-	[410111] = {
+	}
+	pg.base.dorm3d_ik_status[410111] = {
 		ik_camera = "Cam410111",
 		character_action = "xzx_bingxiang_idle_01",
 		base = 400111,
@@ -19740,8 +21468,8 @@ pg.dorm3d_ik_status = {
 				"xzx_bingxiang_idle_01_BX"
 			}
 		}
-	},
-	[410112] = {
+	}
+	pg.base.dorm3d_ik_status[410112] = {
 		ik_camera = "Cam410112",
 		character_action = "xzx_bingxiang_idle_01",
 		base = 400112,
@@ -19796,8 +21524,8 @@ pg.dorm3d_ik_status = {
 				"xzx_bingxiang_idle_01_BX"
 			}
 		}
-	},
-	[410210] = {
+	}
+	pg.base.dorm3d_ik_status[410210] = {
 		ik_camera = "Cam410210",
 		character_action = "IK_living01_idle01",
 		base = 400210,
@@ -19866,8 +21594,8 @@ pg.dorm3d_ik_status = {
 			"no_bake_pay_prop/livingroom/pre_db_desklamp05",
 			"no_bake_pay_prop/livingroom/pre_db_cosmetic16"
 		}
-	},
-	[410211] = {
+	}
+	pg.base.dorm3d_ik_status[410211] = {
 		ik_camera = "Cam410211",
 		character_action = "IK_living01_idle01",
 		base = 400211,
@@ -19927,8 +21655,8 @@ pg.dorm3d_ik_status = {
 			"no_bake_pay_prop/livingroom/pre_db_desklamp05",
 			"no_bake_pay_prop/livingroom/pre_db_cosmetic16"
 		}
-	},
-	[410212] = {
+	}
+	pg.base.dorm3d_ik_status[410212] = {
 		ik_camera = "Cam410212",
 		character_action = "IK_living01_idle01",
 		base = 400212,
@@ -19988,8 +21716,8 @@ pg.dorm3d_ik_status = {
 			"no_bake_pay_prop/livingroom/pre_db_desklamp05",
 			"no_bake_pay_prop/livingroom/pre_db_cosmetic16"
 		}
-	},
-	[410310] = {
+	}
+	pg.base.dorm3d_ik_status[410310] = {
 		ik_camera = "Cam410310",
 		character_action = "IK_bed01_idle01",
 		base = 400310,
@@ -20044,8 +21772,8 @@ pg.dorm3d_ik_status = {
 				"IK_bed01_idle01_C"
 			}
 		}
-	},
-	[410311] = {
+	}
+	pg.base.dorm3d_ik_status[410311] = {
 		ik_camera = "Cam410311",
 		character_action = "IK_bed01_idle01",
 		base = 400311,
@@ -20091,8 +21819,8 @@ pg.dorm3d_ik_status = {
 				"IK_bed01_idle01_C"
 			}
 		}
-	},
-	[410312] = {
+	}
+	pg.base.dorm3d_ik_status[410312] = {
 		ik_camera = "Cam410312",
 		character_action = "IK_bed01_idle01",
 		base = 400312,
@@ -20138,8 +21866,8 @@ pg.dorm3d_ik_status = {
 				"IK_bed01_idle01_C"
 			}
 		}
-	},
-	[410410] = {
+	}
+	pg.base.dorm3d_ik_status[410410] = {
 		ik_camera = "Cam410410",
 		character_action = "IK_living02_idle01",
 		base = 400410,
@@ -20194,8 +21922,8 @@ pg.dorm3d_ik_status = {
 				"IK_living02_idle01_SF"
 			}
 		}
-	},
-	[410411] = {
+	}
+	pg.base.dorm3d_ik_status[410411] = {
 		ik_camera = "Cam410411",
 		character_action = "IK_living02_idle01",
 		base = 400420,
@@ -20250,8 +21978,8 @@ pg.dorm3d_ik_status = {
 				"IK_living02_idle01_SF"
 			}
 		}
-	},
-	[410412] = {
+	}
+	pg.base.dorm3d_ik_status[410412] = {
 		ik_camera = "Cam410412",
 		character_action = "IK_living02_idle02",
 		base = 400430,
@@ -20324,8 +22052,8 @@ pg.dorm3d_ik_status = {
 				"IK_living02_idle02_SF"
 			}
 		}
-	},
-	[410510] = {
+	}
+	pg.base.dorm3d_ik_status[410510] = {
 		ik_camera = "Cam410510",
 		character_action = "IK_bed02_idle01",
 		base = 400510,
@@ -20429,8 +22157,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[410520] = {
+	}
+	pg.base.dorm3d_ik_status[410520] = {
 		ik_camera = "Cam410520",
 		character_action = "IK_bed02_idle01",
 		base = 400520,
@@ -20558,8 +22286,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[410530] = {
+	}
+	pg.base.dorm3d_ik_status[410530] = {
 		ik_camera = "Cam410530",
 		character_action = "IK_bed02_idle02",
 		base = 400530,
@@ -20663,8 +22391,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[410540] = {
+	}
+	pg.base.dorm3d_ik_status[410540] = {
 		ik_camera = "Cam410540",
 		character_action = "IK_bed02_idle03",
 		base = 400540,
@@ -20759,8 +22487,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[410910] = {
+	}
+	pg.base.dorm3d_ik_status[410910] = {
 		ik_camera = "Cam410910",
 		character_action = "bunny_IK_cafe_idle02",
 		base = 410910,
@@ -20810,8 +22538,8 @@ pg.dorm3d_ik_status = {
 			0.6
 		},
 		enter_scene_anim = {}
-	},
-	[410911] = {
+	}
+	pg.base.dorm3d_ik_status[410911] = {
 		ik_camera = "Cam410911",
 		character_action = "bunny_IK_cafe_idle01",
 		base = 410911,
@@ -20861,8 +22589,8 @@ pg.dorm3d_ik_status = {
 			0.6
 		},
 		enter_scene_anim = {}
-	},
-	[410710] = {
+	}
+	pg.base.dorm3d_ik_status[410710] = {
 		ik_camera = "Cam410710",
 		character_action = "bunny_IK_sp01_idle03",
 		base = 400710,
@@ -20997,8 +22725,8 @@ pg.dorm3d_ik_status = {
 		hide_scene_item = {
 			"fbx/litmap_04/pre_db_bonsai11"
 		}
-	},
-	[410720] = {
+	}
+	pg.base.dorm3d_ik_status[410720] = {
 		ik_camera = "Cam410720",
 		character_action = "bunny_IK_sp01_idle02",
 		base = 400720,
@@ -21131,8 +22859,8 @@ pg.dorm3d_ik_status = {
 				"IK_sp01_idle02_DC"
 			}
 		}
-	},
-	[410730] = {
+	}
+	pg.base.dorm3d_ik_status[410730] = {
 		ik_camera = "Cam410730",
 		character_action = "bunny_IK_sp01_idle02",
 		base = 400730,
@@ -21265,8 +22993,8 @@ pg.dorm3d_ik_status = {
 				"IK_sp01_idle02_DC"
 			}
 		}
-	},
-	[410740] = {
+	}
+	pg.base.dorm3d_ik_status[410740] = {
 		ik_camera = "Cam410740",
 		character_action = "bunny_IK_sp01_idle01",
 		base = 400740,
@@ -21403,8 +23131,8 @@ pg.dorm3d_ik_status = {
 				"IK_sp01_idle01_dc_vfx"
 			}
 		}
-	},
-	[410750] = {
+	}
+	pg.base.dorm3d_ik_status[410750] = {
 		ik_camera = "Cam410750",
 		character_action = "bunny_IK_sp01_idle01",
 		base = 400750,
@@ -21541,8 +23269,8 @@ pg.dorm3d_ik_status = {
 				"IK_sp01_idle01_dc_vfx"
 			}
 		}
-	},
-	[410810] = {
+	}
+	pg.base.dorm3d_ik_status[410810] = {
 		ik_camera = "Cam410810",
 		character_action = "IK_dining02_idle01",
 		base = 400810,
@@ -21677,8 +23405,8 @@ pg.dorm3d_ik_status = {
 				"IK_dining02_idle01_BX"
 			}
 		}
-	},
-	[410820] = {
+	}
+	pg.base.dorm3d_ik_status[410820] = {
 		ik_camera = "Cam410820",
 		character_action = "IK_dining02_idle01",
 		base = 400820,
@@ -21813,8 +23541,8 @@ pg.dorm3d_ik_status = {
 				"IK_dining02_idle01_BX"
 			}
 		}
-	},
-	[410830] = {
+	}
+	pg.base.dorm3d_ik_status[410830] = {
 		ik_camera = "Cam410830",
 		character_action = "IK_dining02_idle02",
 		base = 400830,
@@ -21957,8 +23685,8 @@ pg.dorm3d_ik_status = {
 				"IK_dining02_idle02_BX"
 			}
 		}
-	},
-	[410840] = {
+	}
+	pg.base.dorm3d_ik_status[410840] = {
 		ik_camera = "Cam410840",
 		character_action = "IK_dining02_idle02",
 		base = 400840,
@@ -22083,8 +23811,8 @@ pg.dorm3d_ik_status = {
 				"IK_dining02_idle02_BX"
 			}
 		}
-	},
-	[500110] = {
+	}
+	pg.base.dorm3d_ik_status[500110] = {
 		ik_camera = "Cam500110",
 		character_action = "IK_bed01_idle01",
 		base = 500110,
@@ -22153,8 +23881,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[500120] = {
+	}
+	pg.base.dorm3d_ik_status[500120] = {
 		ik_camera = "Cam500120",
 		character_action = "IK_bed01_idle01",
 		base = 500120,
@@ -22214,8 +23942,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[500130] = {
+	}
+	pg.base.dorm3d_ik_status[500130] = {
 		ik_camera = "Cam500130",
 		character_action = "IK_bed01_idle01",
 		base = 500130,
@@ -22275,8 +24003,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[500210] = {
+	}
+	pg.base.dorm3d_ik_status[500210] = {
 		ik_camera = "Cam500210",
 		character_action = "IK_dining01_idle01",
 		base = 500210,
@@ -22402,8 +24130,8 @@ pg.dorm3d_ik_status = {
 		hide_scene_item = {
 			"no_bake/pre_db_kitchenware25/all/pre_db_kitchenware25"
 		}
-	},
-	[500220] = {
+	}
+	pg.base.dorm3d_ik_status[500220] = {
 		ik_camera = "Cam500220",
 		character_action = "IK_dining01_idle01",
 		base = 500220,
@@ -22529,8 +24257,8 @@ pg.dorm3d_ik_status = {
 		hide_scene_item = {
 			"no_bake/pre_db_kitchenware25/all/pre_db_kitchenware25"
 		}
-	},
-	[500230] = {
+	}
+	pg.base.dorm3d_ik_status[500230] = {
 		ik_camera = "Cam500230",
 		character_action = "IK_dining01_idle01",
 		base = 500230,
@@ -22665,8 +24393,8 @@ pg.dorm3d_ik_status = {
 		hide_scene_item = {
 			"no_bake/pre_db_kitchenware25/all/pre_db_kitchenware25"
 		}
-	},
-	[500310] = {
+	}
+	pg.base.dorm3d_ik_status[500310] = {
 		ik_camera = "Cam500310",
 		character_action = "IK_living01_idle01",
 		base = 500310,
@@ -22779,8 +24507,8 @@ pg.dorm3d_ik_status = {
 				"IK_living01_idle01_CJ"
 			}
 		}
-	},
-	[500320] = {
+	}
+	pg.base.dorm3d_ik_status[500320] = {
 		ik_camera = "Cam500320",
 		character_action = "IK_living01_idle01",
 		base = 500320,
@@ -22893,8 +24621,8 @@ pg.dorm3d_ik_status = {
 				"IK_living01_idle01_CJ"
 			}
 		}
-	},
-	[500330] = {
+	}
+	pg.base.dorm3d_ik_status[500330] = {
 		ik_camera = "Cam500330",
 		character_action = "IK_living01_idle01",
 		base = 500330,
@@ -23016,8 +24744,8 @@ pg.dorm3d_ik_status = {
 				"IK_living01_idle01_CJ"
 			}
 		}
-	},
-	[500410] = {
+	}
+	pg.base.dorm3d_ik_status[500410] = {
 		ik_camera = "Cam500410",
 		character_action = "IK_bed02_idle01",
 		base = 500410,
@@ -23160,8 +24888,8 @@ pg.dorm3d_ik_status = {
 				"IK_bed02_idle01_SK"
 			}
 		}
-	},
-	[500420] = {
+	}
+	pg.base.dorm3d_ik_status[500420] = {
 		ik_camera = "Cam500420",
 		character_action = "IK_bed02_idle01",
 		base = 500420,
@@ -23246,8 +24974,8 @@ pg.dorm3d_ik_status = {
 				"IK_bed02_idle01_SK"
 			}
 		}
-	},
-	[500430] = {
+	}
+	pg.base.dorm3d_ik_status[500430] = {
 		ik_camera = "Cam500430",
 		character_action = "IK_bed02_idle02",
 		base = 500430,
@@ -23317,8 +25045,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[500510] = {
+	}
+	pg.base.dorm3d_ik_status[500510] = {
 		ik_camera = "Cam500510",
 		character_action = "IK_sp01_idle01",
 		base = 500510,
@@ -23462,8 +25190,8 @@ pg.dorm3d_ik_status = {
 		hide_scene_item = {
 			"no_bake_pay_prop/livingroom/pre_db_df_livingroom01_0"
 		}
-	},
-	[500520] = {
+	}
+	pg.base.dorm3d_ik_status[500520] = {
 		ik_camera = "Cam500520",
 		character_action = "IK_sp01_idle02",
 		base = 500520,
@@ -23598,8 +25326,10 @@ pg.dorm3d_ik_status = {
 		hide_scene_item = {
 			"no_bake_pay_prop/livingroom/pre_db_df_livingroom01_0"
 		}
-	},
-	[500530] = {
+	}
+end)()
+(function ()
+	pg.base.dorm3d_ik_status[500530] = {
 		ik_camera = "Cam500530",
 		character_action = "IK_sp01_idle03",
 		base = 500530,
@@ -23734,8 +25464,8 @@ pg.dorm3d_ik_status = {
 		hide_scene_item = {
 			"FurnitureSlots/1120304/pre_db_df_tedian01(Clone)/pre_db_df_chair01/fbx_db_df_chair01"
 		}
-	},
-	[500540] = {
+	}
+	pg.base.dorm3d_ik_status[500540] = {
 		ik_camera = "Cam500540",
 		character_action = "IK_sp01_idle03",
 		base = 500540,
@@ -23870,8 +25600,8 @@ pg.dorm3d_ik_status = {
 		hide_scene_item = {
 			"FurnitureSlots/1120304/pre_db_df_tedian01(Clone)/pre_db_df_chair01/fbx_db_df_chair01"
 		}
-	},
-	[500610] = {
+	}
+	pg.base.dorm3d_ik_status[500610] = {
 		ik_camera = "Cam500610",
 		character_action = "IK_living02_idle01",
 		base = 500610,
@@ -23996,8 +25726,8 @@ pg.dorm3d_ik_status = {
 		hide_scene_item = {
 			"no_bake_pay_prop/livingroom"
 		}
-	},
-	[500620] = {
+	}
+	pg.base.dorm3d_ik_status[500620] = {
 		ik_camera = "Cam500620",
 		character_action = "IK_living02_idle01",
 		base = 500620,
@@ -24121,8 +25851,8 @@ pg.dorm3d_ik_status = {
 		hide_scene_item = {
 			"no_bake_pay_prop/livingroom"
 		}
-	},
-	[500630] = {
+	}
+	pg.base.dorm3d_ik_status[500630] = {
 		ik_camera = "Cam500630",
 		character_action = "IK_living02_idle02",
 		base = 500630,
@@ -24255,8 +25985,8 @@ pg.dorm3d_ik_status = {
 		hide_scene_item = {
 			"no_bake_pay_prop/livingroom"
 		}
-	},
-	[510110] = {
+	}
+	pg.base.dorm3d_ik_status[510110] = {
 		ik_camera = "Cam510110",
 		character_action = "bunny_IK_bed01_idle01",
 		base = 500110,
@@ -24307,8 +26037,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[510120] = {
+	}
+	pg.base.dorm3d_ik_status[510120] = {
 		ik_camera = "Cam510120",
 		character_action = "bunny_IK_bed01_idle01",
 		base = 500120,
@@ -24350,8 +26080,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[510130] = {
+	}
+	pg.base.dorm3d_ik_status[510130] = {
 		ik_camera = "Cam510130",
 		character_action = "bunny_IK_bed01_idle01",
 		base = 500130,
@@ -24393,8 +26123,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[510210] = {
+	}
+	pg.base.dorm3d_ik_status[510210] = {
 		ik_camera = "Cam510210",
 		character_action = "bunny_IK_dining01_idle01",
 		base = 500210,
@@ -24454,8 +26184,8 @@ pg.dorm3d_ik_status = {
 		hide_scene_item = {
 			"no_bake/pre_db_kitchenware25/all/pre_db_kitchenware25"
 		}
-	},
-	[510220] = {
+	}
+	pg.base.dorm3d_ik_status[510220] = {
 		ik_camera = "Cam510220",
 		character_action = "bunny_IK_dining01_idle01",
 		base = 500220,
@@ -24515,8 +26245,8 @@ pg.dorm3d_ik_status = {
 		hide_scene_item = {
 			"no_bake/pre_db_kitchenware25/all/pre_db_kitchenware25"
 		}
-	},
-	[510230] = {
+	}
+	pg.base.dorm3d_ik_status[510230] = {
 		ik_camera = "Cam510230",
 		character_action = "bunny_IK_dining01_idle01",
 		base = 500230,
@@ -24585,8 +26315,8 @@ pg.dorm3d_ik_status = {
 		hide_scene_item = {
 			"no_bake/pre_db_kitchenware25/all/pre_db_kitchenware25"
 		}
-	},
-	[510310] = {
+	}
+	pg.base.dorm3d_ik_status[510310] = {
 		ik_camera = "Cam510310",
 		character_action = "bunny_IK_living01_idle01",
 		base = 500310,
@@ -24633,8 +26363,8 @@ pg.dorm3d_ik_status = {
 				"IK_living01_idle01_CJ"
 			}
 		}
-	},
-	[510320] = {
+	}
+	pg.base.dorm3d_ik_status[510320] = {
 		ik_camera = "Cam510320",
 		character_action = "bunny_IK_living01_idle01",
 		base = 500320,
@@ -24681,8 +26411,8 @@ pg.dorm3d_ik_status = {
 				"IK_living01_idle01_CJ"
 			}
 		}
-	},
-	[510330] = {
+	}
+	pg.base.dorm3d_ik_status[510330] = {
 		ik_camera = "Cam510330",
 		character_action = "bunny_IK_living01_idle01",
 		base = 500330,
@@ -24738,8 +26468,8 @@ pg.dorm3d_ik_status = {
 				"IK_living01_idle01_CJ"
 			}
 		}
-	},
-	[510410] = {
+	}
+	pg.base.dorm3d_ik_status[510410] = {
 		ik_camera = "Cam510410",
 		character_action = "bunny_IK_bed02_idle01",
 		base = 500410,
@@ -24816,8 +26546,8 @@ pg.dorm3d_ik_status = {
 				"IK_bed02_idle01_SK"
 			}
 		}
-	},
-	[510420] = {
+	}
+	pg.base.dorm3d_ik_status[510420] = {
 		ik_camera = "Cam510420",
 		character_action = "bunny_IK_bed02_idle01",
 		base = 500420,
@@ -24884,8 +26614,8 @@ pg.dorm3d_ik_status = {
 				"IK_bed02_idle01_SK"
 			}
 		}
-	},
-	[510430] = {
+	}
+	pg.base.dorm3d_ik_status[510430] = {
 		ik_camera = "Cam510430",
 		character_action = "bunny_IK_bed02_idle02",
 		base = 500430,
@@ -24937,8 +26667,8 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
-	},
-	[510510] = {
+	}
+	pg.base.dorm3d_ik_status[510510] = {
 		ik_camera = "Cam510510",
 		character_action = "bunny_IK_sp01_idle01",
 		base = 500510,
@@ -25068,8 +26798,8 @@ pg.dorm3d_ik_status = {
 		hide_scene_item = {
 			"no_bake_pay_prop/livingroom/pre_db_df_livingroom01_0"
 		}
-	},
-	[510520] = {
+	}
+	pg.base.dorm3d_ik_status[510520] = {
 		ik_camera = "Cam510520",
 		character_action = "bunny_IK_sp01_idle02",
 		base = 500520,
@@ -25199,8 +26929,8 @@ pg.dorm3d_ik_status = {
 		hide_scene_item = {
 			"no_bake_pay_prop/livingroom/pre_db_df_livingroom01_0"
 		}
-	},
-	[510530] = {
+	}
+	pg.base.dorm3d_ik_status[510530] = {
 		ik_camera = "Cam510530",
 		character_action = "bunny_IK_sp01_idle03",
 		base = 500530,
@@ -25330,8 +27060,8 @@ pg.dorm3d_ik_status = {
 		hide_scene_item = {
 			"FurnitureSlots/1120304/pre_db_df_tedian01(Clone)/pre_db_df_chair01/fbx_db_df_chair01"
 		}
-	},
-	[510540] = {
+	}
+	pg.base.dorm3d_ik_status[510540] = {
 		ik_camera = "Cam510540",
 		character_action = "bunny_IK_sp01_idle03",
 		base = 500540,
@@ -25452,8 +27182,8 @@ pg.dorm3d_ik_status = {
 		hide_scene_item = {
 			"FurnitureSlots/1120304/pre_db_df_tedian01(Clone)/pre_db_df_chair01/fbx_db_df_chair01"
 		}
-	},
-	[510610] = {
+	}
+	pg.base.dorm3d_ik_status[510610] = {
 		ik_camera = "Cam510610",
 		character_action = "IK_living02_idle01",
 		base = 500610,
@@ -25578,8 +27308,8 @@ pg.dorm3d_ik_status = {
 		hide_scene_item = {
 			"no_bake_pay_prop/livingroom"
 		}
-	},
-	[510620] = {
+	}
+	pg.base.dorm3d_ik_status[510620] = {
 		ik_camera = "Cam510620",
 		character_action = "IK_living02_idle01",
 		base = 500620,
@@ -25703,8 +27433,8 @@ pg.dorm3d_ik_status = {
 		hide_scene_item = {
 			"no_bake_pay_prop/livingroom"
 		}
-	},
-	[510630] = {
+	}
+	pg.base.dorm3d_ik_status[510630] = {
 		ik_camera = "Cam510630",
 		character_action = "IK_living02_idle02",
 		base = 500630,
@@ -25837,8 +27567,8 @@ pg.dorm3d_ik_status = {
 		hide_scene_item = {
 			"no_bake_pay_prop/livingroom"
 		}
-	},
-	[510910] = {
+	}
+	pg.base.dorm3d_ik_status[510910] = {
 		ik_camera = "Cam510910",
 		character_action = "bunny_IK_cafe_idle01",
 		base = 510910,
@@ -25894,8 +27624,8 @@ pg.dorm3d_ik_status = {
 				"bunny_IK_cafe_idle01_YZ"
 			}
 		}
-	},
-	[510920] = {
+	}
+	pg.base.dorm3d_ik_status[510920] = {
 		ik_camera = "Cam510920",
 		character_action = "bunny_IK_cafe_idle02",
 		base = 510920,
@@ -25962,8 +27692,8 @@ pg.dorm3d_ik_status = {
 				"bunny_IK_cafe_idle02_BZ"
 			}
 		}
-	},
-	[600110] = {
+	}
+	pg.base.dorm3d_ik_status[600110] = {
 		ik_camera = "Cam600110",
 		character_action = "IK_bed01_idle01",
 		base = 600110,
@@ -26053,8 +27783,8 @@ pg.dorm3d_ik_status = {
 		enter_scene_anim = {},
 		enter_extra_item = {},
 		hide_scene_item = {}
-	},
-	[600120] = {
+	}
+	pg.base.dorm3d_ik_status[600120] = {
 		ik_camera = "Cam600120",
 		character_action = "IK_bed01_idle01",
 		base = 600120,
@@ -26144,8 +27874,8 @@ pg.dorm3d_ik_status = {
 		enter_scene_anim = {},
 		enter_extra_item = {},
 		hide_scene_item = {}
-	},
-	[600130] = {
+	}
+	pg.base.dorm3d_ik_status[600130] = {
 		ik_camera = "Cam600130",
 		character_action = "IK_bed01_idle01",
 		base = 600130,
@@ -26235,8 +27965,8 @@ pg.dorm3d_ik_status = {
 		enter_scene_anim = {},
 		enter_extra_item = {},
 		hide_scene_item = {}
-	},
-	[600210] = {
+	}
+	pg.base.dorm3d_ik_status[600210] = {
 		ik_camera = "Cam600210",
 		character_action = "IK_desk01_idle01",
 		base = 600210,
@@ -26333,8 +28063,8 @@ pg.dorm3d_ik_status = {
 		hide_scene_item = {
 			"no_bake_pay_prop/study/pre_db_aijier_study01_0/pre_db_drink13"
 		}
-	},
-	[600220] = {
+	}
+	pg.base.dorm3d_ik_status[600220] = {
 		ik_camera = "Cam600220",
 		character_action = "IK_desk01_idle01",
 		base = 600220,
@@ -26431,8 +28161,8 @@ pg.dorm3d_ik_status = {
 		hide_scene_item = {
 			"no_bake_pay_prop/study/pre_db_aijier_study01_0/pre_db_drink13"
 		}
-	},
-	[600230] = {
+	}
+	pg.base.dorm3d_ik_status[600230] = {
 		ik_camera = "Cam600230",
 		character_action = "IK_desk01_idle01",
 		base = 600230,
@@ -26538,8 +28268,8 @@ pg.dorm3d_ik_status = {
 		hide_scene_item = {
 			"no_bake_pay_prop/study/pre_db_aijier_study01_0/pre_db_drink13"
 		}
-	},
-	[600310] = {
+	}
+	pg.base.dorm3d_ik_status[600310] = {
 		ik_camera = "Cam600310",
 		character_action = "IK_living01_idle01",
 		base = 600310,
@@ -26629,8 +28359,8 @@ pg.dorm3d_ik_status = {
 		enter_scene_anim = {},
 		enter_extra_item = {},
 		hide_scene_item = {}
-	},
-	[600320] = {
+	}
+	pg.base.dorm3d_ik_status[600320] = {
 		ik_camera = "Cam600320",
 		character_action = "IK_living01_idle01",
 		base = 600320,
@@ -26729,8 +28459,8 @@ pg.dorm3d_ik_status = {
 		enter_scene_anim = {},
 		enter_extra_item = {},
 		hide_scene_item = {}
-	},
-	[600330] = {
+	}
+	pg.base.dorm3d_ik_status[600330] = {
 		ik_camera = "Cam600330",
 		character_action = "IK_living01_idle01",
 		base = 600330,
@@ -26820,8 +28550,8 @@ pg.dorm3d_ik_status = {
 		enter_scene_anim = {},
 		enter_extra_item = {},
 		hide_scene_item = {}
-	},
-	[600410] = {
+	}
+	pg.base.dorm3d_ik_status[600410] = {
 		ik_camera = "Cam600410",
 		character_action = "IK_bed02_idle01",
 		base = 600410,
@@ -26926,8 +28656,8 @@ pg.dorm3d_ik_status = {
 		},
 		enter_extra_item = {},
 		hide_scene_item = {}
-	},
-	[600420] = {
+	}
+	pg.base.dorm3d_ik_status[600420] = {
 		ik_camera = "Cam600420",
 		character_action = "IK_bed02_idle01",
 		base = 600420,
@@ -27022,8 +28752,8 @@ pg.dorm3d_ik_status = {
 		},
 		enter_extra_item = {},
 		hide_scene_item = {}
-	},
-	[600430] = {
+	}
+	pg.base.dorm3d_ik_status[600430] = {
 		ik_camera = "Cam600430",
 		character_action = "IK_bed02_idle02",
 		base = 600430,
@@ -27136,8 +28866,8 @@ pg.dorm3d_ik_status = {
 		},
 		enter_extra_item = {},
 		hide_scene_item = {}
-	},
-	[600510] = {
+	}
+	pg.base.dorm3d_ik_status[600510] = {
 		ik_camera = "Cam600510",
 		character_action = "IK_desk02_idle01",
 		base = 600510,
@@ -27275,8 +29005,8 @@ pg.dorm3d_ik_status = {
 			}
 		},
 		hide_scene_item = {}
-	},
-	[600520] = {
+	}
+	pg.base.dorm3d_ik_status[600520] = {
 		ik_camera = "Cam600520",
 		character_action = "IK_desk02_idle02",
 		base = 600520,
@@ -27398,8 +29128,8 @@ pg.dorm3d_ik_status = {
 		},
 		enter_extra_item = {},
 		hide_scene_item = {}
-	},
-	[600530] = {
+	}
+	pg.base.dorm3d_ik_status[600530] = {
 		ik_camera = "Cam600530",
 		character_action = "IK_desk02_idle02",
 		base = 600530,
@@ -27539,8 +29269,8 @@ pg.dorm3d_ik_status = {
 		},
 		enter_extra_item = {},
 		hide_scene_item = {}
-	},
-	[610110] = {
+	}
+	pg.base.dorm3d_ik_status[610110] = {
 		ik_camera = "Cam610110",
 		character_action = "IK_bed01_idle01",
 		base = 600110,
@@ -27582,8 +29312,8 @@ pg.dorm3d_ik_status = {
 		enter_scene_anim = {},
 		enter_extra_item = {},
 		hide_scene_item = {}
-	},
-	[610120] = {
+	}
+	pg.base.dorm3d_ik_status[610120] = {
 		ik_camera = "Cam610120",
 		character_action = "IK_bed01_idle01",
 		base = 600120,
@@ -27624,8 +29354,8 @@ pg.dorm3d_ik_status = {
 		enter_scene_anim = {},
 		enter_extra_item = {},
 		hide_scene_item = {}
-	},
-	[610130] = {
+	}
+	pg.base.dorm3d_ik_status[610130] = {
 		ik_camera = "Cam610130",
 		character_action = "IK_bed01_idle01",
 		base = 600130,
@@ -27666,8 +29396,8 @@ pg.dorm3d_ik_status = {
 		enter_scene_anim = {},
 		enter_extra_item = {},
 		hide_scene_item = {}
-	},
-	[610210] = {
+	}
+	pg.base.dorm3d_ik_status[610210] = {
 		ik_camera = "Cam610210",
 		character_action = "IK_desk01_idle01",
 		base = 600210,
@@ -27715,8 +29445,8 @@ pg.dorm3d_ik_status = {
 		hide_scene_item = {
 			"no_bake_pay_prop/study/pre_db_aijier_study01_0/pre_db_drink13"
 		}
-	},
-	[610220] = {
+	}
+	pg.base.dorm3d_ik_status[610220] = {
 		ik_camera = "Cam610220",
 		character_action = "IK_desk01_idle01",
 		base = 600220,
@@ -27764,8 +29494,8 @@ pg.dorm3d_ik_status = {
 		hide_scene_item = {
 			"no_bake_pay_prop/study/pre_db_aijier_study01_0/pre_db_drink13"
 		}
-	},
-	[610230] = {
+	}
+	pg.base.dorm3d_ik_status[610230] = {
 		ik_camera = "Cam610230",
 		character_action = "IK_desk01_idle01",
 		base = 600230,
@@ -27822,8 +29552,8 @@ pg.dorm3d_ik_status = {
 		hide_scene_item = {
 			"no_bake_pay_prop/study/pre_db_aijier_study01_0/pre_db_drink13"
 		}
-	},
-	[610310] = {
+	}
+	pg.base.dorm3d_ik_status[610310] = {
 		ik_camera = "Cam610310",
 		character_action = "IK_living01_idle01",
 		base = 600310,
@@ -27865,8 +29595,8 @@ pg.dorm3d_ik_status = {
 		enter_scene_anim = {},
 		enter_extra_item = {},
 		hide_scene_item = {}
-	},
-	[610320] = {
+	}
+	pg.base.dorm3d_ik_status[610320] = {
 		ik_camera = "Cam610320",
 		character_action = "IK_living01_idle01",
 		base = 600320,
@@ -27916,8 +29646,8 @@ pg.dorm3d_ik_status = {
 		enter_scene_anim = {},
 		enter_extra_item = {},
 		hide_scene_item = {}
-	},
-	[610330] = {
+	}
+	pg.base.dorm3d_ik_status[610330] = {
 		ik_camera = "Cam610330",
 		character_action = "IK_living01_idle01",
 		base = 600330,
@@ -27959,8 +29689,8 @@ pg.dorm3d_ik_status = {
 		enter_scene_anim = {},
 		enter_extra_item = {},
 		hide_scene_item = {}
-	},
-	[610410] = {
+	}
+	pg.base.dorm3d_ik_status[610410] = {
 		ik_camera = "Cam610410",
 		character_action = "IK_bed02_idle01",
 		base = 600410,
@@ -28017,8 +29747,8 @@ pg.dorm3d_ik_status = {
 		},
 		enter_extra_item = {},
 		hide_scene_item = {}
-	},
-	[610420] = {
+	}
+	pg.base.dorm3d_ik_status[610420] = {
 		ik_camera = "Cam610420",
 		character_action = "IK_bed02_idle01",
 		base = 600420,
@@ -28065,8 +29795,8 @@ pg.dorm3d_ik_status = {
 		},
 		enter_extra_item = {},
 		hide_scene_item = {}
-	},
-	[610430] = {
+	}
+	pg.base.dorm3d_ik_status[610430] = {
 		ik_camera = "Cam610430",
 		character_action = "IK_bed02_idle02",
 		base = 600430,
@@ -28130,8 +29860,8 @@ pg.dorm3d_ik_status = {
 		},
 		enter_extra_item = {},
 		hide_scene_item = {}
-	},
-	[610910] = {
+	}
+	pg.base.dorm3d_ik_status[610910] = {
 		ik_camera = "Cam610910",
 		character_action = "bunny_IK_cafe_idle01",
 		base = 610910,
@@ -28215,8 +29945,8 @@ pg.dorm3d_ik_status = {
 		hide_scene_item = {
 			"fbx/litmap_05/pre_db_drink13_4"
 		}
-	},
-	[610920] = {
+	}
+	pg.base.dorm3d_ik_status[610920] = {
 		ik_camera = "Cam610920",
 		character_action = "bunny_IK_cafe_idle02",
 		base = 610920,
@@ -28315,8 +30045,8 @@ pg.dorm3d_ik_status = {
 		enter_scene_anim = {},
 		enter_extra_item = {},
 		hide_scene_item = {}
-	},
-	[610510] = {
+	}
+	pg.base.dorm3d_ik_status[610510] = {
 		ik_camera = "Cam610510",
 		character_action = "IK_desk02_idle01",
 		base = 600510,
@@ -28436,8 +30166,8 @@ pg.dorm3d_ik_status = {
 			}
 		},
 		hide_scene_item = {}
-	},
-	[610520] = {
+	}
+	pg.base.dorm3d_ik_status[610520] = {
 		ik_camera = "Cam610520",
 		character_action = "IK_desk02_idle02",
 		base = 600520,
@@ -28541,8 +30271,8 @@ pg.dorm3d_ik_status = {
 		},
 		enter_extra_item = {},
 		hide_scene_item = {}
-	},
-	[610530] = {
+	}
+	pg.base.dorm3d_ik_status[610530] = {
 		ik_camera = "Cam610530",
 		character_action = "IK_desk02_idle02",
 		base = 600530,
@@ -28664,1723 +30394,5 @@ pg.dorm3d_ik_status = {
 		},
 		enter_extra_item = {},
 		hide_scene_item = {}
-	},
-	get_id_list_by_camera_group = {
-		{
-			2,
-			3,
-			4
-		},
-		{
-			5,
-			6
-		},
-		{
-			7
-		},
-		{
-			8
-		},
-		{
-			115010,
-			115050
-		},
-		[20] = {
-			9
-		},
-		[6] = {
-			100
-		},
-		[7] = {
-			101
-		},
-		[8] = {
-			102
-		},
-		[9] = {
-			103
-		},
-		[10] = {
-			104
-		},
-		[11] = {
-			105
-		},
-		[12] = {
-			106
-		},
-		[13] = {
-			107
-		},
-		[14] = {
-			108
-		},
-		[15] = {
-			109
-		},
-		[16] = {
-			110
-		},
-		[17] = {
-			111
-		},
-		[18] = {
-			112
-		},
-		[10010] = {
-			100110,
-			100120,
-			100130
-		},
-		[10020] = {
-			100210,
-			100220,
-			100230,
-			110210,
-			110220,
-			110230,
-			120210,
-			120220,
-			120230
-		},
-		[10021] = {
-			100211,
-			110211,
-			120211
-		},
-		[10022] = {
-			100221,
-			110221,
-			120221
-		},
-		[10023] = {
-			100231,
-			110231,
-			120231
-		},
-		[10025] = {
-			100250,
-			100260,
-			100270
-		},
-		[10026] = {
-			100280
-		},
-		[10027] = {
-			100251
-		},
-		[10030] = {
-			100310,
-			100320,
-			100330
-		},
-		[10040] = {
-			100410,
-			100420,
-			100430
-		},
-		[10070] = {
-			100710,
-			100720,
-			100730
-		},
-		[10071] = {
-			100711
-		},
-		[10072] = {
-			100721
-		},
-		[10073] = {
-			100731
-		},
-		[55] = {
-			115020,
-			115030,
-			115040,
-			115060,
-			115070,
-			115080
-		},
-		[11010] = {
-			110110,
-			110120,
-			110130
-		},
-		[11030] = {
-			110310,
-			110320,
-			110330
-		},
-		[11040] = {
-			110410,
-			110420,
-			110430
-		},
-		[11070] = {
-			110710,
-			110720,
-			110730
-		},
-		[11071] = {
-			110711
-		},
-		[11072] = {
-			110721
-		},
-		[11073] = {
-			110731
-		},
-		[19999] = {
-			199999
-		},
-		[11025] = {
-			110250,
-			110260,
-			110270
-		},
-		[11026] = {
-			110280
-		},
-		[11027] = {
-			110251
-		},
-		[12010] = {
-			120110,
-			120120,
-			120130
-		},
-		[12030] = {
-			120310,
-			120320,
-			120330
-		},
-		[12040] = {
-			120410,
-			120420,
-			120430
-		},
-		[12070] = {
-			120710,
-			120720,
-			120730
-		},
-		[12071] = {
-			120711
-		},
-		[12072] = {
-			120721
-		},
-		[12073] = {
-			120731
-		},
-		[12025] = {
-			120250,
-			120260,
-			120270
-		},
-		[12026] = {
-			120280
-		},
-		[12027] = {
-			120251
-		},
-		[12080] = {
-			120810,
-			120820
-		},
-		[20010] = {
-			200110,
-			200120,
-			200130
-		},
-		[20020] = {
-			200210,
-			200220,
-			200230
-		},
-		[20030] = {
-			200310,
-			200320,
-			200330
-		},
-		[20040] = {
-			200410,
-			200420,
-			200430
-		},
-		[20041] = {
-			200411
-		},
-		[20050] = {
-			200510,
-			200520,
-			200530
-		},
-		[20051] = {
-			200511
-		},
-		[20052] = {
-			200512
-		},
-		[20053] = {
-			200522
-		},
-		[20054] = {
-			200540
-		},
-		[20061] = {
-			200610,
-			200620,
-			200630
-		},
-		[20062] = {
-			200611
-		},
-		[20063] = {
-			200621
-		},
-		[20064] = {
-			200631
-		},
-		[21010] = {
-			210110,
-			210120,
-			210130
-		},
-		[21020] = {
-			210210,
-			210220,
-			210230
-		},
-		[21030] = {
-			210310,
-			210320,
-			210330
-		},
-		[21040] = {
-			210410,
-			210420,
-			210430
-		},
-		[21041] = {
-			210411
-		},
-		[21511] = {
-			215110,
-			215120
-		},
-		[21512] = {
-			215130
-		},
-		[21050] = {
-			210510,
-			210520,
-			210530
-		},
-		[21051] = {
-			210511
-		},
-		[21052] = {
-			210512
-		},
-		[21053] = {
-			210522
-		},
-		[21054] = {
-			210540
-		},
-		[21061] = {
-			210610,
-			210620,
-			210630
-		},
-		[21062] = {
-			210611
-		},
-		[21063] = {
-			210621
-		},
-		[21064] = {
-			210631
-		},
-		[29991] = {
-			299991
-		},
-		[29992] = {
-			299992
-		},
-		[29993] = {
-			299993
-		},
-		[30011] = {
-			300110,
-			300111,
-			300112,
-			310110,
-			310111,
-			310112
-		},
-		[30012] = {
-			300210,
-			300211,
-			300212,
-			310210,
-			310211,
-			310212
-		},
-		[30013] = {
-			300310,
-			300311,
-			300312,
-			310310,
-			310311,
-			310312
-		},
-		[30014] = {
-			300410,
-			300411,
-			300412,
-			310410,
-			310411,
-			310412
-		},
-		[30051] = {
-			300510,
-			300511,
-			300512
-		},
-		[30052] = {
-			300513
-		},
-		[30070] = {
-			300710,
-			300720,
-			300730,
-			300740
-		},
-		[31051] = {
-			310510,
-			310511,
-			310512
-		},
-		[31052] = {
-			310513
-		},
-		[31070] = {
-			310710,
-			310720,
-			310730,
-			310740
-		},
-		[32011] = {
-			320110,
-			320111,
-			320112
-		},
-		[32012] = {
-			320210,
-			320211,
-			320212
-		},
-		[32013] = {
-			320310,
-			320311,
-			320312
-		},
-		[32014] = {
-			320410,
-			320411,
-			320412
-		},
-		[32051] = {
-			320510,
-			320511,
-			320512
-		},
-		[32052] = {
-			320513
-		},
-		[32061] = {
-			320610,
-			320620,
-			320630,
-			320640
-		},
-		[32070] = {
-			320710,
-			320720,
-			320730,
-			320740
-		},
-		[30019] = {
-			310910,
-			310911
-		},
-		[40010] = {
-			400110,
-			400111,
-			400112
-		},
-		[40020] = {
-			400210,
-			400211,
-			400212
-		},
-		[40030] = {
-			400310,
-			400311,
-			400312
-		},
-		[40040] = {
-			400410,
-			400411,
-			400412
-		},
-		[40050] = {
-			400510,
-			400520,
-			400530,
-			400540,
-			410510,
-			410520,
-			410530,
-			410540
-		},
-		[40070] = {
-			400710,
-			400720,
-			400730,
-			400740,
-			400750
-		},
-		[40080] = {
-			400810,
-			400820,
-			400830,
-			400840,
-			410810,
-			410820,
-			410830,
-			410840
-		},
-		[41010] = {
-			410110,
-			410111,
-			410112
-		},
-		[41020] = {
-			410210,
-			410211,
-			410212
-		},
-		[41030] = {
-			410310,
-			410311,
-			410312
-		},
-		[41040] = {
-			410410,
-			410411,
-			410412
-		},
-		[41090] = {
-			410910,
-			410911
-		},
-		[41070] = {
-			410710,
-			410720,
-			410730,
-			410740,
-			410750
-		},
-		[50010] = {
-			500110,
-			500120,
-			500130,
-			510110,
-			510120,
-			510130
-		},
-		[50020] = {
-			500210,
-			500220,
-			500230,
-			510210,
-			510220,
-			510230
-		},
-		[50030] = {
-			500310,
-			500320,
-			500330,
-			510310,
-			510320,
-			510330
-		},
-		[50040] = {
-			500410,
-			500420,
-			500430,
-			510410,
-			510420,
-			510430
-		},
-		[50050] = {
-			500510,
-			500520,
-			500530,
-			500540
-		},
-		[50060] = {
-			500610,
-			500620,
-			500630,
-			510610,
-			510620,
-			510630
-		},
-		[51050] = {
-			510510,
-			510520,
-			510530,
-			510540
-		},
-		[50090] = {
-			510910,
-			510920
-		},
-		[60010] = {
-			600110,
-			600120,
-			600130
-		},
-		[60020] = {
-			600210,
-			600220,
-			600230
-		},
-		[60030] = {
-			600310,
-			600320,
-			600330
-		},
-		[60040] = {
-			600410,
-			600420,
-			600430
-		},
-		[60050] = {
-			600510,
-			600520,
-			600530
-		},
-		[61010] = {
-			610110,
-			610120,
-			610130
-		},
-		[61020] = {
-			610210,
-			610220,
-			610230
-		},
-		[61030] = {
-			610310,
-			610320,
-			610330
-		},
-		[61040] = {
-			610410,
-			610420,
-			610430
-		},
-		[60090] = {
-			610910,
-			610920
-		},
-		[61050] = {
-			610510,
-			610520,
-			610530
-		}
-	},
-	get_id_list_by_base = {
-		[2] = {
-			2
-		},
-		[3] = {
-			3
-		},
-		[4] = {
-			4
-		},
-		[5] = {
-			5
-		},
-		[6] = {
-			6
-		},
-		[7] = {
-			7
-		},
-		[8] = {
-			8
-		},
-		[9] = {
-			9
-		},
-		[100] = {
-			100
-		},
-		[101] = {
-			101
-		},
-		[102] = {
-			102
-		},
-		[103] = {
-			103
-		},
-		[104] = {
-			104
-		},
-		[105] = {
-			105
-		},
-		[106] = {
-			106
-		},
-		[107] = {
-			107
-		},
-		[108] = {
-			108
-		},
-		[109] = {
-			109
-		},
-		[110] = {
-			110
-		},
-		[111] = {
-			111
-		},
-		[112] = {
-			112
-		},
-		[100110] = {
-			100110,
-			110110,
-			120110
-		},
-		[100120] = {
-			100120,
-			110120,
-			120120
-		},
-		[100130] = {
-			100130,
-			110130,
-			120130
-		},
-		[100210] = {
-			100210,
-			110210,
-			120210
-		},
-		[100220] = {
-			100220,
-			110220,
-			120220
-		},
-		[100230] = {
-			100230,
-			110230,
-			120230
-		},
-		[100211] = {
-			100211,
-			110211,
-			120211
-		},
-		[100221] = {
-			100221,
-			110221,
-			120221
-		},
-		[100231] = {
-			100231,
-			110231,
-			120231
-		},
-		[100250] = {
-			100250,
-			110250,
-			120250
-		},
-		[100260] = {
-			100260,
-			110260,
-			120260
-		},
-		[100270] = {
-			100270,
-			110270,
-			120270
-		},
-		[100280] = {
-			100280,
-			110280,
-			120280
-		},
-		[100251] = {
-			100251,
-			110251,
-			120251
-		},
-		[100310] = {
-			100310,
-			110310,
-			120310
-		},
-		[100320] = {
-			100320,
-			110320,
-			199999,
-			120320
-		},
-		[100330] = {
-			100330,
-			110330,
-			120330
-		},
-		[100410] = {
-			100410,
-			110410,
-			120410
-		},
-		[100420] = {
-			100420,
-			110420,
-			120420
-		},
-		[100430] = {
-			100430,
-			110430,
-			120430
-		},
-		[100710] = {
-			100710,
-			110710,
-			120710
-		},
-		[100720] = {
-			100720,
-			110720,
-			120720
-		},
-		[100730] = {
-			100730,
-			110730,
-			120730
-		},
-		[100711] = {
-			100711,
-			110711,
-			120711
-		},
-		[100721] = {
-			100721,
-			110721,
-			120721
-		},
-		[100731] = {
-			100731,
-			110731,
-			120731
-		},
-		[115010] = {
-			115010
-		},
-		[115020] = {
-			115020
-		},
-		[115030] = {
-			115030
-		},
-		[115040] = {
-			115040
-		},
-		[115050] = {
-			115050
-		},
-		[115060] = {
-			115060
-		},
-		[115070] = {
-			115070
-		},
-		[115080] = {
-			115080
-		},
-		[120810] = {
-			120810
-		},
-		[120820] = {
-			120820
-		},
-		[200110] = {
-			200110,
-			210110
-		},
-		[200120] = {
-			200120,
-			210120
-		},
-		[200130] = {
-			200130,
-			210130
-		},
-		[200210] = {
-			200210,
-			210210
-		},
-		[200220] = {
-			200220,
-			210220
-		},
-		[200230] = {
-			200230,
-			210230
-		},
-		[200310] = {
-			200310,
-			210310
-		},
-		[200320] = {
-			200320,
-			210320
-		},
-		[200330] = {
-			200330,
-			210330
-		},
-		[200410] = {
-			200410,
-			210410
-		},
-		[200420] = {
-			200420,
-			210420
-		},
-		[200430] = {
-			200430,
-			210430
-		},
-		[200411] = {
-			200411,
-			210411
-		},
-		[200510] = {
-			200510,
-			210510
-		},
-		[200520] = {
-			200520,
-			210520
-		},
-		[200530] = {
-			200530,
-			210530
-		},
-		[200511] = {
-			200511,
-			210511
-		},
-		[200512] = {
-			200512,
-			210512
-		},
-		[200522] = {
-			200522,
-			210522
-		},
-		[200540] = {
-			200540,
-			210540
-		},
-		[200610] = {
-			200610,
-			210610
-		},
-		[200620] = {
-			200620,
-			210620
-		},
-		[200630] = {
-			200630,
-			210630
-		},
-		[200611] = {
-			200611,
-			210611
-		},
-		[200621] = {
-			200621,
-			210621
-		},
-		[200631] = {
-			200631,
-			210631
-		},
-		[210110] = {
-			215110
-		},
-		[210120] = {
-			215120,
-			215130
-		},
-		[299991] = {
-			299991
-		},
-		[299992] = {
-			299992
-		},
-		[299993] = {
-			299993
-		},
-		[300110] = {
-			300110,
-			310110,
-			320110
-		},
-		[300111] = {
-			300111,
-			310111,
-			320111
-		},
-		[300112] = {
-			300112,
-			310112,
-			320112
-		},
-		[300210] = {
-			300210,
-			310210,
-			320210
-		},
-		[300211] = {
-			300211,
-			310211,
-			320211
-		},
-		[300212] = {
-			300212,
-			310212,
-			320212
-		},
-		[300310] = {
-			300310,
-			310310,
-			320310
-		},
-		[300311] = {
-			300311,
-			310311,
-			320311
-		},
-		[300312] = {
-			300312,
-			310312,
-			320312
-		},
-		[300410] = {
-			300410,
-			310410,
-			320410
-		},
-		[300411] = {
-			300411,
-			310411,
-			320411
-		},
-		[300412] = {
-			300412,
-			310412,
-			320412
-		},
-		[300510] = {
-			300510,
-			310510,
-			320510
-		},
-		[300511] = {
-			300511,
-			310511,
-			320511
-		},
-		[300512] = {
-			300512,
-			310512,
-			320512
-		},
-		[300513] = {
-			300513,
-			310513,
-			320513
-		},
-		[300710] = {
-			300710,
-			310710,
-			320710
-		},
-		[300720] = {
-			300720,
-			310720,
-			320720
-		},
-		[300730] = {
-			300730,
-			310730,
-			320730
-		},
-		[300740] = {
-			300740,
-			310740,
-			320740
-		},
-		[300610] = {
-			320610
-		},
-		[300620] = {
-			320620
-		},
-		[300630] = {
-			320630
-		},
-		[300640] = {
-			320640
-		},
-		[310910] = {
-			310910
-		},
-		[310920] = {
-			310911
-		},
-		[400110] = {
-			400110,
-			410110
-		},
-		[400111] = {
-			400111,
-			410111
-		},
-		[400112] = {
-			400112,
-			410112
-		},
-		[400210] = {
-			400210,
-			410210
-		},
-		[400211] = {
-			400211,
-			410211
-		},
-		[400212] = {
-			400212,
-			410212
-		},
-		[400310] = {
-			400310,
-			410310
-		},
-		[400311] = {
-			400311,
-			410311
-		},
-		[400312] = {
-			400312,
-			410312
-		},
-		[400410] = {
-			400410,
-			410410
-		},
-		[400420] = {
-			400411,
-			410411
-		},
-		[400430] = {
-			400412,
-			410412
-		},
-		[400510] = {
-			400510,
-			410510
-		},
-		[400520] = {
-			400520,
-			410520
-		},
-		[400530] = {
-			400530,
-			410530
-		},
-		[400540] = {
-			400540,
-			410540
-		},
-		[400710] = {
-			400710,
-			410710
-		},
-		[400720] = {
-			400720,
-			410720
-		},
-		[400730] = {
-			400730,
-			410730
-		},
-		[400740] = {
-			400740,
-			410740
-		},
-		[400750] = {
-			400750,
-			410750
-		},
-		[400810] = {
-			400810,
-			410810
-		},
-		[400820] = {
-			400820,
-			410820
-		},
-		[400830] = {
-			400830,
-			410830
-		},
-		[400840] = {
-			400840,
-			410840
-		},
-		[410910] = {
-			410910
-		},
-		[410911] = {
-			410911
-		},
-		[500110] = {
-			500110,
-			510110
-		},
-		[500120] = {
-			500120,
-			510120
-		},
-		[500130] = {
-			500130,
-			510130
-		},
-		[500210] = {
-			500210,
-			510210
-		},
-		[500220] = {
-			500220,
-			510220
-		},
-		[500230] = {
-			500230,
-			510230
-		},
-		[500310] = {
-			500310,
-			510310
-		},
-		[500320] = {
-			500320,
-			510320
-		},
-		[500330] = {
-			500330,
-			510330
-		},
-		[500410] = {
-			500410,
-			510410
-		},
-		[500420] = {
-			500420,
-			510420
-		},
-		[500430] = {
-			500430,
-			510430
-		},
-		[500510] = {
-			500510,
-			510510
-		},
-		[500520] = {
-			500520,
-			510520
-		},
-		[500530] = {
-			500530,
-			510530
-		},
-		[500540] = {
-			500540,
-			510540
-		},
-		[500610] = {
-			500610,
-			510610
-		},
-		[500620] = {
-			500620,
-			510620
-		},
-		[500630] = {
-			500630,
-			510630
-		},
-		[510910] = {
-			510910
-		},
-		[510920] = {
-			510920
-		},
-		[600110] = {
-			600110,
-			610110
-		},
-		[600120] = {
-			600120,
-			610120
-		},
-		[600130] = {
-			600130,
-			610130
-		},
-		[600210] = {
-			600210,
-			610210
-		},
-		[600220] = {
-			600220,
-			610220
-		},
-		[600230] = {
-			600230,
-			610230
-		},
-		[600310] = {
-			600310,
-			610310
-		},
-		[600320] = {
-			600320,
-			610320
-		},
-		[600330] = {
-			600330,
-			610330
-		},
-		[600410] = {
-			600410,
-			610410
-		},
-		[600420] = {
-			600420,
-			610420
-		},
-		[600430] = {
-			600430,
-			610430
-		},
-		[600510] = {
-			600510,
-			610510
-		},
-		[600520] = {
-			600520,
-			610520
-		},
-		[600530] = {
-			600530,
-			610530
-		},
-		[610910] = {
-			610910
-		},
-		[610920] = {
-			610920
-		}
-	},
-	all = {
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		100,
-		101,
-		102,
-		103,
-		104,
-		105,
-		106,
-		107,
-		108,
-		109,
-		110,
-		111,
-		112,
-		100110,
-		100120,
-		100130,
-		100210,
-		100220,
-		100230,
-		100211,
-		100221,
-		100231,
-		100250,
-		100260,
-		100270,
-		100280,
-		100251,
-		100310,
-		100320,
-		100330,
-		100410,
-		100420,
-		100430,
-		100710,
-		100720,
-		100730,
-		100711,
-		100721,
-		100731,
-		115010,
-		115020,
-		115030,
-		115040,
-		115050,
-		115060,
-		115070,
-		115080,
-		110110,
-		110120,
-		110130,
-		110210,
-		110220,
-		110230,
-		110211,
-		110221,
-		110231,
-		110310,
-		110320,
-		110330,
-		110410,
-		110420,
-		110430,
-		110710,
-		110720,
-		110730,
-		110711,
-		110721,
-		110731,
-		199999,
-		110250,
-		110260,
-		110270,
-		110280,
-		110251,
-		120110,
-		120120,
-		120130,
-		120210,
-		120220,
-		120230,
-		120211,
-		120221,
-		120231,
-		120310,
-		120320,
-		120330,
-		120410,
-		120420,
-		120430,
-		120710,
-		120720,
-		120730,
-		120711,
-		120721,
-		120731,
-		120250,
-		120260,
-		120270,
-		120280,
-		120251,
-		120810,
-		120820,
-		200110,
-		200120,
-		200130,
-		200210,
-		200220,
-		200230,
-		200310,
-		200320,
-		200330,
-		200410,
-		200420,
-		200430,
-		200411,
-		200510,
-		200520,
-		200530,
-		200511,
-		200512,
-		200522,
-		200540,
-		200610,
-		200620,
-		200630,
-		200611,
-		200621,
-		200631,
-		210110,
-		210120,
-		210130,
-		210210,
-		210220,
-		210230,
-		210310,
-		210320,
-		210330,
-		210410,
-		210420,
-		210430,
-		210411,
-		215110,
-		215120,
-		215130,
-		210510,
-		210520,
-		210530,
-		210511,
-		210512,
-		210522,
-		210540,
-		210610,
-		210620,
-		210630,
-		210611,
-		210621,
-		210631,
-		299991,
-		299992,
-		299993,
-		300110,
-		300111,
-		300112,
-		300210,
-		300211,
-		300212,
-		300310,
-		300311,
-		300312,
-		300410,
-		300411,
-		300412,
-		300510,
-		300511,
-		300512,
-		300513,
-		300710,
-		300720,
-		300730,
-		300740,
-		310110,
-		310111,
-		310112,
-		310210,
-		310211,
-		310212,
-		310310,
-		310311,
-		310312,
-		310410,
-		310411,
-		310412,
-		310510,
-		310511,
-		310512,
-		310513,
-		310710,
-		310720,
-		310730,
-		310740,
-		320110,
-		320111,
-		320112,
-		320210,
-		320211,
-		320212,
-		320310,
-		320311,
-		320312,
-		320410,
-		320411,
-		320412,
-		320510,
-		320511,
-		320512,
-		320513,
-		320610,
-		320620,
-		320630,
-		320640,
-		320710,
-		320720,
-		320730,
-		320740,
-		310910,
-		310911,
-		400110,
-		400111,
-		400112,
-		400210,
-		400211,
-		400212,
-		400310,
-		400311,
-		400312,
-		400410,
-		400411,
-		400412,
-		400510,
-		400520,
-		400530,
-		400540,
-		400710,
-		400720,
-		400730,
-		400740,
-		400750,
-		400810,
-		400820,
-		400830,
-		400840,
-		410110,
-		410111,
-		410112,
-		410210,
-		410211,
-		410212,
-		410310,
-		410311,
-		410312,
-		410410,
-		410411,
-		410412,
-		410510,
-		410520,
-		410530,
-		410540,
-		410910,
-		410911,
-		410710,
-		410720,
-		410730,
-		410740,
-		410750,
-		410810,
-		410820,
-		410830,
-		410840,
-		500110,
-		500120,
-		500130,
-		500210,
-		500220,
-		500230,
-		500310,
-		500320,
-		500330,
-		500410,
-		500420,
-		500430,
-		500510,
-		500520,
-		500530,
-		500540,
-		500610,
-		500620,
-		500630,
-		510110,
-		510120,
-		510130,
-		510210,
-		510220,
-		510230,
-		510310,
-		510320,
-		510330,
-		510410,
-		510420,
-		510430,
-		510510,
-		510520,
-		510530,
-		510540,
-		510610,
-		510620,
-		510630,
-		510910,
-		510920,
-		600110,
-		600120,
-		600130,
-		600210,
-		600220,
-		600230,
-		600310,
-		600320,
-		600330,
-		600410,
-		600420,
-		600430,
-		600510,
-		600520,
-		600530,
-		610110,
-		610120,
-		610130,
-		610210,
-		610220,
-		610230,
-		610310,
-		610320,
-		610330,
-		610410,
-		610420,
-		610430,
-		610910,
-		610920,
-		610510,
-		610520,
-		610530
 	}
-}
+end)()

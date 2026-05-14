@@ -1,6 +1,15 @@
 pg = pg or {}
-pg.child2_data = {
-	{
+pg.child2_data = rawget(pg, "child2_data") or setmetatable({
+	__name = "child2_data"
+}, confNEO)
+pg.child2_data.all = {
+	1
+}
+pg.base = pg.base or {}
+pg.base.child2_data = {}
+
+(function ()
+	pg.base.child2_data[1] = {
 		name = "娜比婭",
 		name_background = "educate_oceana_1",
 		personality_type = 1,
@@ -152,8 +161,5 @@ pg.child2_data = {
 				"lingyangzhe_option_bg_center_type2"
 			}
 		}
-	},
-	all = {
-		1
 	}
-}
+end)()

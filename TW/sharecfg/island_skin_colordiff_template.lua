@@ -1,6 +1,64 @@
 pg = pg or {}
-pg.island_skin_colordiff_template = {
-	[1011002] = {
+pg.island_skin_colordiff_template = rawget(pg, "island_skin_colordiff_template") or setmetatable({
+	__name = "island_skin_colordiff_template"
+}, confNEO)
+pg.island_skin_colordiff_template.all = {
+	1011002,
+	1020502,
+	1051702,
+	1070302,
+	2060302,
+	2990302,
+	3031202,
+	3040702,
+	3120102,
+	4030302,
+	4990202,
+	5060102
+}
+pg.island_skin_colordiff_template.get_id_list_by_skin_group = {
+	[1011001] = {
+		1011002
+	},
+	[1020501] = {
+		1020502
+	},
+	[1051701] = {
+		1051702
+	},
+	[1070301] = {
+		1070302
+	},
+	[2060301] = {
+		2060302
+	},
+	[2990301] = {
+		2990302
+	},
+	[3031201] = {
+		3031202
+	},
+	[3040701] = {
+		3040702
+	},
+	[3120101] = {
+		3120102
+	},
+	[4030301] = {
+		4030302
+	},
+	[4990201] = {
+		4990202
+	},
+	[5060101] = {
+		5060102
+	}
+}
+pg.base = pg.base or {}
+pg.base.island_skin_colordiff_template = {}
+
+(function ()
+	pg.base.island_skin_colordiff_template[1011002] = {
 		id = 1011002,
 		model = 1011002,
 		color_icon = "color_1011002",
@@ -11,8 +69,8 @@ pg.island_skin_colordiff_template = {
 				1
 			}
 		}
-	},
-	[1020502] = {
+	}
+	pg.base.island_skin_colordiff_template[1020502] = {
 		id = 1020502,
 		model = 1020502,
 		color_icon = "color_1020502",
@@ -23,8 +81,8 @@ pg.island_skin_colordiff_template = {
 				1
 			}
 		}
-	},
-	[1051702] = {
+	}
+	pg.base.island_skin_colordiff_template[1051702] = {
 		id = 1051702,
 		model = 1051702,
 		color_icon = "color_1051702",
@@ -35,8 +93,8 @@ pg.island_skin_colordiff_template = {
 				1
 			}
 		}
-	},
-	[1070302] = {
+	}
+	pg.base.island_skin_colordiff_template[1070302] = {
 		id = 1070302,
 		model = 1070302,
 		color_icon = "color_1070302",
@@ -47,8 +105,8 @@ pg.island_skin_colordiff_template = {
 				1
 			}
 		}
-	},
-	[2060302] = {
+	}
+	pg.base.island_skin_colordiff_template[2060302] = {
 		id = 2060302,
 		model = 2060302,
 		color_icon = "color_2060302",
@@ -59,8 +117,8 @@ pg.island_skin_colordiff_template = {
 				1
 			}
 		}
-	},
-	[2990302] = {
+	}
+	pg.base.island_skin_colordiff_template[2990302] = {
 		id = 2990302,
 		model = 2990302,
 		color_icon = "color_2990302",
@@ -71,8 +129,8 @@ pg.island_skin_colordiff_template = {
 				1
 			}
 		}
-	},
-	[3031202] = {
+	}
+	pg.base.island_skin_colordiff_template[3031202] = {
 		id = 3031202,
 		model = 3031202,
 		color_icon = "color_3031202",
@@ -83,8 +141,8 @@ pg.island_skin_colordiff_template = {
 				1
 			}
 		}
-	},
-	[3040702] = {
+	}
+	pg.base.island_skin_colordiff_template[3040702] = {
 		id = 3040702,
 		model = 3040702,
 		color_icon = "color_3040702",
@@ -95,8 +153,8 @@ pg.island_skin_colordiff_template = {
 				1
 			}
 		}
-	},
-	[3120102] = {
+	}
+	pg.base.island_skin_colordiff_template[3120102] = {
 		id = 3120102,
 		model = 3120102,
 		color_icon = "color_3120102",
@@ -107,8 +165,8 @@ pg.island_skin_colordiff_template = {
 				1
 			}
 		}
-	},
-	[4030302] = {
+	}
+	pg.base.island_skin_colordiff_template[4030302] = {
 		id = 4030302,
 		model = 4030302,
 		color_icon = "color_4030302",
@@ -119,8 +177,8 @@ pg.island_skin_colordiff_template = {
 				1
 			}
 		}
-	},
-	[4990202] = {
+	}
+	pg.base.island_skin_colordiff_template[4990202] = {
 		id = 4990202,
 		model = 4990202,
 		color_icon = "color_4990202",
@@ -131,8 +189,8 @@ pg.island_skin_colordiff_template = {
 				1
 			}
 		}
-	},
-	[5060102] = {
+	}
+	pg.base.island_skin_colordiff_template[5060102] = {
 		id = 5060102,
 		model = 5060102,
 		color_icon = "color_5060102",
@@ -143,57 +201,5 @@ pg.island_skin_colordiff_template = {
 				1
 			}
 		}
-	},
-	get_id_list_by_skin_group = {
-		[1011001] = {
-			1011002
-		},
-		[1020501] = {
-			1020502
-		},
-		[1051701] = {
-			1051702
-		},
-		[1070301] = {
-			1070302
-		},
-		[2060301] = {
-			2060302
-		},
-		[2990301] = {
-			2990302
-		},
-		[3031201] = {
-			3031202
-		},
-		[3040701] = {
-			3040702
-		},
-		[3120101] = {
-			3120102
-		},
-		[4030301] = {
-			4030302
-		},
-		[4990201] = {
-			4990202
-		},
-		[5060101] = {
-			5060102
-		}
-	},
-	all = {
-		1011002,
-		1020502,
-		1051702,
-		1070302,
-		2060302,
-		2990302,
-		3031202,
-		3040702,
-		3120102,
-		4030302,
-		4990202,
-		5060102
 	}
-}
+end)()

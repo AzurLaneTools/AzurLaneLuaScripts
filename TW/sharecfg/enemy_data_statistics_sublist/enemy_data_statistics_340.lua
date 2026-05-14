@@ -1,5 +1,48 @@
 pg = pg or {}
 pg.enemy_data_statistics_340 = {
+	[16739004] = {
+		cannon = 150,
+		battle_unit_type = 95,
+		speed_growth = 0,
+		luck_growth = 0,
+		air = 300,
+		armor = 0,
+		hit_growth = 330,
+		antisub = 0,
+		fog_fx = "",
+		dodge_growth = 196,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 91102,
+		durability = 62100,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 16,
+		luck = 25,
+		id = 16739004,
+		scale = 180,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 22,
+		reload_growth = 0,
+		hit = 22,
+		torpedo = 125,
+		durability_growth = 0,
+		antiaircraft = 390,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 201445,
+				LV = 1
+			}
+		}
+	},
 	[16739101] = {
 		cannon = 250,
 		name = "淨化者？",
@@ -1345,50 +1388,6 @@ pg.enemy_data_statistics_340 = {
 				ID = 50510,
 				LV = 2
 			}
-		}
-	},
-	[16741105] = {
-		cannon = 0,
-		battle_unit_type = 70,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit_growth = 210,
-		air = 44,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		dodge_growth = 72,
-		antisub_growth = 0,
-		air_growth = 3627,
-		base = 91107,
-		durability = 1070,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 18,
-		luck = 0,
-		id = 16741105,
-		scale = 225,
-		cannon_growth = 0,
-		pilot_ai_template_id = 20004,
-		reload = 150,
-		dodge = 5,
-		reload_growth = 0,
-		hit = 14,
-		torpedo = 0,
-		durability_growth = 54400,
-		antiaircraft = 45,
-		antiaircraft_growth = 3744,
-		specific_fx_scale = {},
-		appear_fx = {
-			"appearsmall",
-			"nuofukedanchuan_buff_01"
-		},
-		equipment_list = {
-			3289056,
-			3289061,
-			3289066,
-			3289066,
-			3289071
 		}
 	}
 }

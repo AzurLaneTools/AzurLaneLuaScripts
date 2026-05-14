@@ -4,120 +4,9 @@ slot0.word_template_28 = {}
 slot1 = slot0.word_template_28
 
 temp = function()
-	uv0["热"] = {
-		["那"] = {
-			["亚"] = {
-				this = true
-			}
-		},
-		["比"] = {
-			["娅"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["花"] = {
-		["革"] = {
-			["命"] = {
-				this = true
-			}
-		},
-		["和"] = {
-			["尚"] = {
-				["社"] = {
-					["区"] = {
-						["成"] = {
-							["人"] = {
-								["性"] = {
-									["用"] = {
-										["品"] = {
-											this = true
-										}
-									}
-								}
-							}
-						}
-					},
-					["區"] = {
-						["成"] = {
-							["人"] = {
-								["性"] = {
-									["用"] = {
-										["品"] = {
-											this = true
-										}
-									}
-								}
-							}
-						}
-					}
-				},
-				["导"] = {
-					["航"] = {
-						this = true
-					}
-				},
-				["導"] = {
-					["航"] = {
-						this = true
-					}
-				}
-			}
-		},
-		["花"] = {
-			["公"] = {
-				["子"] = {
-					this = true
-				}
-			}
-		},
-		["样"] = {
-			["性"] = {
-				["交"] = {
-					this = true
-				}
-			}
-		},
-		["都"] = {
-			["逍"] = {
-				["遥"] = {
-					["乡"] = {
-						["村"] = {
-							["春"] = {
-								["光"] = {
-									this = true
-								}
-							}
-						}
-					}
-				},
-				["遙"] = {
-					["鄉"] = {
-						["村"] = {
-							["春"] = {
-								["光"] = {
-									this = true
-								}
-							}
-						}
-					}
-				}
-			}
-		},
-		["柳"] = {
+	uv0["蠖"] = {
+		this = {
 			this = true
-		},
-		["樣"] = {
-			["性"] = {
-				["交"] = {
-					this = true
-				}
-			}
 		}
 	}
 end
@@ -125,16 +14,9 @@ end
 temp()
 
 temp = function()
-	uv0["茉"] = {
-		["莉"] = {
-			["花"] = {
-				this = true,
-				["革"] = {
-					["命"] = {
-						this = true
-					}
-				}
-			}
+	uv0["丌"] = {
+		this = {
+			this = true
 		}
 	}
 end
@@ -142,16 +24,269 @@ end
 temp()
 
 temp = function()
-	uv0["牡"] = {
-		["丹"] = {
-			["花"] = {
-				this = true,
-				["革"] = {
-					["命"] = {
-						this = true
-					}
-				}
-			}
+	uv0["乩"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["赍"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["殛"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["蕺"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["掎"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["彐"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["芰"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["跽"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["鲚"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["葭"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["恝"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["湔"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["搛"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["鲣"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["鞯"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["囝"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["趼"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["醮"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["疖"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["苣"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["屦"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["醵"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["蠲"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["桊"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["鄄"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["谲"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["爝"] = {
+		this = {
+			this = true
 		}
 	}
 end

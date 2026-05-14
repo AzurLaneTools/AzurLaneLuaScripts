@@ -1,6 +1,120 @@
 pg = pg or {}
-pg.ship_data_trans = {
-	[10103] = {
+pg.ship_data_trans = rawget(pg, "ship_data_trans") or setmetatable({
+	__name = "ship_data_trans"
+}, confNEO)
+pg.ship_data_trans.all = {
+	10103,
+	10104,
+	10108,
+	10111,
+	10117,
+	10124,
+	10125,
+	10126,
+	10127,
+	10131,
+	10205,
+	10207,
+	10208,
+	10306,
+	10501,
+	10502,
+	10509,
+	10510,
+	10511,
+	10601,
+	10602,
+	10701,
+	10703,
+	10704,
+	10709,
+	10722,
+	20101,
+	20102,
+	20103,
+	20108,
+	20109,
+	20110,
+	20111,
+	20112,
+	20114,
+	20219,
+	20221,
+	20222,
+	20121,
+	20201,
+	20202,
+	20203,
+	20301,
+	20302,
+	20304,
+	20307,
+	20308,
+	20502,
+	20503,
+	20601,
+	20603,
+	20702,
+	30105,
+	30113,
+	30114,
+	30115,
+	30117,
+	30118,
+	30121,
+	30124,
+	30125,
+	30126,
+	30181,
+	30503,
+	30504,
+	30130,
+	30131,
+	30132,
+	30133,
+	30161,
+	30162,
+	30201,
+	30205,
+	30208,
+	30209,
+	30210,
+	30212,
+	30213,
+	30301,
+	30302,
+	30308,
+	30501,
+	30502,
+	30605,
+	30703,
+	30704,
+	40101,
+	40123,
+	40202,
+	40203,
+	40204,
+	50101,
+	50102,
+	50103,
+	50104,
+	50201,
+	50202,
+	50203,
+	50204,
+	50205,
+	50601,
+	50602,
+	70202,
+	80102,
+	80201,
+	90101
+}
+pg.base = pg.base or {}
+pg.base.ship_data_trans = {}
+
+(function ()
+	pg.base.ship_data_trans[10103] = {
 		group_id = 10103,
 		skill_id = 508,
 		skin_id = 101039,
@@ -62,8 +176,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[10104] = {
+	}
+	pg.base.ship_data_trans[10104] = {
 		group_id = 10104,
 		skill_id = 608,
 		skin_id = 101049,
@@ -125,8 +239,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[10108] = {
+	}
+	pg.base.ship_data_trans[10108] = {
 		group_id = 10108,
 		skill_id = 1012,
 		skin_id = 101089,
@@ -192,8 +306,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[10111] = {
+	}
+	pg.base.ship_data_trans[10111] = {
 		group_id = 10111,
 		skill_id = 1312,
 		skin_id = 101119,
@@ -259,8 +373,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[10117] = {
+	}
+	pg.base.ship_data_trans[10117] = {
 		group_id = 10117,
 		skill_id = 1912,
 		skin_id = 101179,
@@ -326,8 +440,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[10124] = {
+	}
+	pg.base.ship_data_trans[10124] = {
 		group_id = 10124,
 		skill_id = 2608,
 		skin_id = 101249,
@@ -389,8 +503,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[10125] = {
+	}
+	pg.base.ship_data_trans[10125] = {
 		group_id = 10125,
 		skill_id = 2708,
 		skin_id = 101259,
@@ -452,8 +566,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[10126] = {
+	}
+	pg.base.ship_data_trans[10126] = {
 		group_id = 10126,
 		skill_id = 2812,
 		skin_id = 101269,
@@ -519,8 +633,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[10127] = {
+	}
+	pg.base.ship_data_trans[10127] = {
 		group_id = 10127,
 		skill_id = 26308,
 		skin_id = 101279,
@@ -582,8 +696,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[10131] = {
+	}
+	pg.base.ship_data_trans[10131] = {
 		group_id = 10131,
 		skill_id = 30112,
 		skin_id = 101319,
@@ -649,8 +763,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[10205] = {
+	}
+	pg.base.ship_data_trans[10205] = {
 		group_id = 10205,
 		skill_id = 3312,
 		skin_id = 102059,
@@ -716,8 +830,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[10207] = {
+	}
+	pg.base.ship_data_trans[10207] = {
 		group_id = 10207,
 		skill_id = 0,
 		skin_id = 102079,
@@ -779,8 +893,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[10208] = {
+	}
+	pg.base.ship_data_trans[10208] = {
 		group_id = 10208,
 		skill_id = 3612,
 		skin_id = 102089,
@@ -846,8 +960,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[10306] = {
+	}
+	pg.base.ship_data_trans[10306] = {
 		group_id = 10306,
 		skill_id = 0,
 		skin_id = 103069,
@@ -909,8 +1023,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[10501] = {
+	}
+	pg.base.ship_data_trans[10501] = {
 		group_id = 10501,
 		skill_id = 5208,
 		skin_id = 105019,
@@ -972,8 +1086,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[10502] = {
+	}
+	pg.base.ship_data_trans[10502] = {
 		group_id = 10502,
 		skill_id = 5308,
 		skin_id = 105029,
@@ -1035,8 +1149,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[10509] = {
+	}
+	pg.base.ship_data_trans[10509] = {
 		group_id = 10509,
 		skill_id = 6012,
 		skin_id = 105099,
@@ -1102,8 +1216,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[10510] = {
+	}
+	pg.base.ship_data_trans[10510] = {
 		group_id = 10510,
 		skill_id = 6112,
 		skin_id = 105109,
@@ -1169,8 +1283,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[10511] = {
+	}
+	pg.base.ship_data_trans[10511] = {
 		group_id = 10511,
 		skill_id = 6212,
 		skin_id = 105119,
@@ -1236,8 +1350,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[10601] = {
+	}
+	pg.base.ship_data_trans[10601] = {
 		group_id = 10601,
 		skill_id = 7008,
 		skin_id = 106019,
@@ -1299,8 +1413,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[10602] = {
+	}
+	pg.base.ship_data_trans[10602] = {
 		group_id = 10602,
 		skill_id = 7108,
 		skin_id = 106029,
@@ -1362,8 +1476,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[10701] = {
+	}
+	pg.base.ship_data_trans[10701] = {
 		group_id = 10701,
 		skill_id = 7208,
 		skin_id = 107019,
@@ -1425,8 +1539,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[10703] = {
+	}
+	pg.base.ship_data_trans[10703] = {
 		group_id = 10703,
 		skill_id = 7412,
 		skin_id = 107039,
@@ -1492,8 +1606,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[10704] = {
+	}
+	pg.base.ship_data_trans[10704] = {
 		group_id = 10704,
 		skill_id = 7508,
 		skin_id = 107049,
@@ -1555,8 +1669,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[10709] = {
+	}
+	pg.base.ship_data_trans[10709] = {
 		group_id = 10709,
 		skill_id = 35712,
 		skin_id = 107099,
@@ -1622,8 +1736,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[10722] = {
+	}
+	pg.base.ship_data_trans[10722] = {
 		group_id = 10722,
 		skill_id = 37712,
 		skin_id = 107229,
@@ -1689,8 +1803,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[20101] = {
+	}
+	pg.base.ship_data_trans[20101] = {
 		group_id = 20101,
 		skill_id = 8111,
 		skin_id = 201019,
@@ -1752,8 +1866,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[20102] = {
+	}
+	pg.base.ship_data_trans[20102] = {
 		group_id = 20102,
 		skill_id = 8208,
 		skin_id = 201029,
@@ -1815,8 +1929,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[20103] = {
+	}
+	pg.base.ship_data_trans[20103] = {
 		group_id = 20103,
 		skill_id = 8308,
 		skin_id = 201039,
@@ -1878,8 +1992,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[20108] = {
+	}
+	pg.base.ship_data_trans[20108] = {
 		group_id = 20108,
 		skill_id = 8808,
 		skin_id = 201089,
@@ -1941,8 +2055,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[20109] = {
+	}
+	pg.base.ship_data_trans[20109] = {
 		group_id = 20109,
 		skill_id = 8908,
 		skin_id = 201099,
@@ -2004,8 +2118,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[20110] = {
+	}
+	pg.base.ship_data_trans[20110] = {
 		group_id = 20110,
 		skill_id = 9008,
 		skin_id = 201109,
@@ -2067,8 +2181,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[20111] = {
+	}
+	pg.base.ship_data_trans[20111] = {
 		group_id = 20111,
 		skill_id = 9108,
 		skin_id = 201119,
@@ -2130,8 +2244,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[20112] = {
+	}
+	pg.base.ship_data_trans[20112] = {
 		group_id = 20112,
 		skill_id = 9208,
 		skin_id = 201129,
@@ -2193,8 +2307,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[20114] = {
+	}
+	pg.base.ship_data_trans[20114] = {
 		group_id = 20114,
 		skill_id = 9412,
 		skin_id = 201149,
@@ -2260,8 +2374,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[20219] = {
+	}
+	pg.base.ship_data_trans[20219] = {
 		group_id = 20219,
 		skill_id = 36108,
 		skin_id = 202199,
@@ -2323,8 +2437,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[20221] = {
+	}
+	pg.base.ship_data_trans[20221] = {
 		group_id = 20221,
 		skill_id = 37208,
 		skin_id = 202219,
@@ -2386,8 +2500,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[20222] = {
+	}
+	pg.base.ship_data_trans[20222] = {
 		group_id = 20222,
 		skill_id = 37308,
 		skin_id = 202229,
@@ -2449,8 +2563,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[20121] = {
+	}
+	pg.base.ship_data_trans[20121] = {
 		group_id = 20121,
 		skill_id = 10112,
 		skin_id = 201219,
@@ -2516,8 +2630,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[20201] = {
+	}
+	pg.base.ship_data_trans[20201] = {
 		group_id = 20201,
 		skill_id = 10408,
 		skin_id = 202019,
@@ -2579,8 +2693,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[20202] = {
+	}
+	pg.base.ship_data_trans[20202] = {
 		group_id = 20202,
 		skill_id = 10508,
 		skin_id = 202029,
@@ -2642,8 +2756,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[20203] = {
+	}
+	pg.base.ship_data_trans[20203] = {
 		group_id = 20203,
 		skill_id = 10608,
 		skin_id = 202039,
@@ -2705,8 +2819,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[20301] = {
+	}
+	pg.base.ship_data_trans[20301] = {
 		group_id = 20301,
 		skill_id = 11912,
 		skin_id = 203019,
@@ -2772,8 +2886,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[20302] = {
+	}
+	pg.base.ship_data_trans[20302] = {
 		group_id = 20302,
 		skill_id = 12008,
 		skin_id = 203029,
@@ -2835,8 +2949,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[20304] = {
+	}
+	pg.base.ship_data_trans[20304] = {
 		group_id = 20304,
 		skill_id = 12208,
 		skin_id = 203049,
@@ -2898,8 +3012,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[20307] = {
+	}
+	pg.base.ship_data_trans[20307] = {
 		group_id = 20307,
 		skill_id = 12512,
 		skin_id = 203079,
@@ -2965,8 +3079,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[20308] = {
+	}
+	pg.base.ship_data_trans[20308] = {
 		group_id = 20308,
 		skill_id = 12612,
 		skin_id = 203089,
@@ -3032,8 +3146,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[20502] = {
+	}
+	pg.base.ship_data_trans[20502] = {
 		group_id = 20502,
 		skill_id = 13112,
 		skin_id = 205029,
@@ -3099,8 +3213,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[20503] = {
+	}
+	pg.base.ship_data_trans[20503] = {
 		group_id = 20503,
 		skill_id = 13212,
 		skin_id = 205039,
@@ -3166,8 +3280,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[20601] = {
+	}
+	pg.base.ship_data_trans[20601] = {
 		group_id = 20601,
 		skill_id = 14008,
 		skin_id = 206019,
@@ -3229,8 +3343,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[20603] = {
+	}
+	pg.base.ship_data_trans[20603] = {
 		group_id = 20603,
 		skill_id = 0,
 		skin_id = 206039,
@@ -3296,8 +3410,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[20702] = {
+	}
+	pg.base.ship_data_trans[20702] = {
 		group_id = 20702,
 		skill_id = 14412,
 		skin_id = 207029,
@@ -3363,8 +3477,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[30105] = {
+	}
+	pg.base.ship_data_trans[30105] = {
 		group_id = 30105,
 		skill_id = 15512,
 		skin_id = 301059,
@@ -3430,8 +3544,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[30113] = {
+	}
+	pg.base.ship_data_trans[30113] = {
 		group_id = 30113,
 		skill_id = 16308,
 		skin_id = 301139,
@@ -3493,8 +3607,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[30114] = {
+	}
+	pg.base.ship_data_trans[30114] = {
 		group_id = 30114,
 		skill_id = 16412,
 		skin_id = 301149,
@@ -3560,8 +3674,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[30115] = {
+	}
+	pg.base.ship_data_trans[30115] = {
 		group_id = 30115,
 		skill_id = 16512,
 		skin_id = 301159,
@@ -3627,8 +3741,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[30117] = {
+	}
+	pg.base.ship_data_trans[30117] = {
 		group_id = 30117,
 		skill_id = 16708,
 		skin_id = 301179,
@@ -3690,8 +3804,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[30118] = {
+	}
+	pg.base.ship_data_trans[30118] = {
 		group_id = 30118,
 		skill_id = 16808,
 		skin_id = 301189,
@@ -3753,8 +3867,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[30121] = {
+	}
+	pg.base.ship_data_trans[30121] = {
 		group_id = 30121,
 		skill_id = 17108,
 		skin_id = 301219,
@@ -3816,8 +3930,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[30124] = {
+	}
+	pg.base.ship_data_trans[30124] = {
 		group_id = 30124,
 		skill_id = 17408,
 		skin_id = 301249,
@@ -3879,8 +3993,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[30125] = {
+	}
+	pg.base.ship_data_trans[30125] = {
 		group_id = 30125,
 		skill_id = 17508,
 		skin_id = 301259,
@@ -3942,8 +4056,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[30126] = {
+	}
+	pg.base.ship_data_trans[30126] = {
 		group_id = 30126,
 		skill_id = 17608,
 		skin_id = 301269,
@@ -4005,8 +4119,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[30181] = {
+	}
+	pg.base.ship_data_trans[30181] = {
 		group_id = 30181,
 		skill_id = 0,
 		skin_id = 301819,
@@ -4072,8 +4186,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[30503] = {
+	}
+	pg.base.ship_data_trans[30503] = {
 		group_id = 30503,
 		skill_id = 21011,
 		skin_id = 305039,
@@ -4135,8 +4249,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[30504] = {
+	}
+	pg.base.ship_data_trans[30504] = {
 		group_id = 30504,
 		skill_id = 21111,
 		skin_id = 305049,
@@ -4198,8 +4312,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[30130] = {
+	}
+	pg.base.ship_data_trans[30130] = {
 		group_id = 30130,
 		skill_id = 26908,
 		skin_id = 301309,
@@ -4261,8 +4375,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[30131] = {
+	}
+	pg.base.ship_data_trans[30131] = {
 		group_id = 30131,
 		skill_id = 27008,
 		skin_id = 301319,
@@ -4324,8 +4438,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[30132] = {
+	}
+	pg.base.ship_data_trans[30132] = {
 		group_id = 30132,
 		skill_id = 27108,
 		skin_id = 301329,
@@ -4387,8 +4501,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[30133] = {
+	}
+	pg.base.ship_data_trans[30133] = {
 		group_id = 30133,
 		skill_id = 27208,
 		skin_id = 301339,
@@ -4450,8 +4564,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[30161] = {
+	}
+	pg.base.ship_data_trans[30161] = {
 		group_id = 30161,
 		skill_id = 31808,
 		skin_id = 301619,
@@ -4513,8 +4627,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[30162] = {
+	}
+	pg.base.ship_data_trans[30162] = {
 		group_id = 30162,
 		skill_id = 31908,
 		skin_id = 301629,
@@ -4576,8 +4690,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[30201] = {
+	}
+	pg.base.ship_data_trans[30201] = {
 		group_id = 30201,
 		skill_id = 17912,
 		skin_id = 302019,
@@ -4643,8 +4757,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[30205] = {
+	}
+	pg.base.ship_data_trans[30205] = {
 		group_id = 30205,
 		skill_id = 18308,
 		skin_id = 302059,
@@ -4706,8 +4820,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[30208] = {
+	}
+	pg.base.ship_data_trans[30208] = {
 		group_id = 30208,
 		skill_id = 18612,
 		skin_id = 302089,
@@ -4773,8 +4887,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[30209] = {
+	}
+	pg.base.ship_data_trans[30209] = {
 		group_id = 30209,
 		skill_id = 18708,
 		skin_id = 302099,
@@ -4836,8 +4950,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[30210] = {
+	}
+	pg.base.ship_data_trans[30210] = {
 		group_id = 30210,
 		skill_id = 18812,
 		skin_id = 302109,
@@ -4903,8 +5017,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[30212] = {
+	}
+	pg.base.ship_data_trans[30212] = {
 		group_id = 30212,
 		skill_id = 30808,
 		skin_id = 302129,
@@ -4966,8 +5080,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[30213] = {
+	}
+	pg.base.ship_data_trans[30213] = {
 		group_id = 30213,
 		skill_id = 30912,
 		skin_id = 302139,
@@ -5033,8 +5147,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[30301] = {
+	}
+	pg.base.ship_data_trans[30301] = {
 		group_id = 30301,
 		skill_id = 19008,
 		skin_id = 303019,
@@ -5096,8 +5210,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[30302] = {
+	}
+	pg.base.ship_data_trans[30302] = {
 		group_id = 30302,
 		skill_id = 19108,
 		skin_id = 303029,
@@ -5159,8 +5273,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[30308] = {
+	}
+	pg.base.ship_data_trans[30308] = {
 		group_id = 30308,
 		skill_id = 19708,
 		skin_id = 303089,
@@ -5222,8 +5336,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[30501] = {
+	}
+	pg.base.ship_data_trans[30501] = {
 		group_id = 30501,
 		skill_id = 0,
 		skin_id = 305019,
@@ -5285,8 +5399,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[30502] = {
+	}
+	pg.base.ship_data_trans[30502] = {
 		group_id = 30502,
 		skill_id = 0,
 		skin_id = 305029,
@@ -5348,8 +5462,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[30605] = {
+	}
+	pg.base.ship_data_trans[30605] = {
 		group_id = 30605,
 		skill_id = 22208,
 		skin_id = 306059,
@@ -5411,8 +5525,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[30703] = {
+	}
+	pg.base.ship_data_trans[30703] = {
 		group_id = 30703,
 		skill_id = 22612,
 		skin_id = 307039,
@@ -5478,8 +5592,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[30704] = {
+	}
+	pg.base.ship_data_trans[30704] = {
 		group_id = 30704,
 		skill_id = 22712,
 		skin_id = 307049,
@@ -5545,8 +5659,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[40101] = {
+	}
+	pg.base.ship_data_trans[40101] = {
 		group_id = 40101,
 		skill_id = 23312,
 		skin_id = 401019,
@@ -5612,8 +5726,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[40123] = {
+	}
+	pg.base.ship_data_trans[40123] = {
 		group_id = 40123,
 		skill_id = 23612,
 		skin_id = 401239,
@@ -5679,8 +5793,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[40202] = {
+	}
+	pg.base.ship_data_trans[40202] = {
 		group_id = 40202,
 		skill_id = 23908,
 		skin_id = 402029,
@@ -5742,8 +5856,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[40203] = {
+	}
+	pg.base.ship_data_trans[40203] = {
 		group_id = 40203,
 		skill_id = 24011,
 		skin_id = 402039,
@@ -5805,8 +5919,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[40204] = {
+	}
+	pg.base.ship_data_trans[40204] = {
 		group_id = 40204,
 		skill_id = 24108,
 		skin_id = 402049,
@@ -5868,8 +5982,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[50101] = {
+	}
+	pg.base.ship_data_trans[50101] = {
 		group_id = 50101,
 		skill_id = 0,
 		skin_id = 501019,
@@ -5939,8 +6053,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[50102] = {
+	}
+	pg.base.ship_data_trans[50102] = {
 		group_id = 50102,
 		skill_id = 0,
 		skin_id = 501029,
@@ -6010,8 +6124,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[50103] = {
+	}
+	pg.base.ship_data_trans[50103] = {
 		group_id = 50103,
 		skill_id = 0,
 		skin_id = 501039,
@@ -6081,8 +6195,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[50104] = {
+	}
+	pg.base.ship_data_trans[50104] = {
 		group_id = 50104,
 		skill_id = 0,
 		skin_id = 501049,
@@ -6152,8 +6266,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[50201] = {
+	}
+	pg.base.ship_data_trans[50201] = {
 		group_id = 50201,
 		skill_id = 25712,
 		skin_id = 502019,
@@ -6219,8 +6333,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[50202] = {
+	}
+	pg.base.ship_data_trans[50202] = {
 		group_id = 50202,
 		skill_id = 25812,
 		skin_id = 502029,
@@ -6286,8 +6400,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[50203] = {
+	}
+	pg.base.ship_data_trans[50203] = {
 		group_id = 50203,
 		skill_id = 25912,
 		skin_id = 502039,
@@ -6353,8 +6467,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[50204] = {
+	}
+	pg.base.ship_data_trans[50204] = {
 		group_id = 50204,
 		skill_id = 49312,
 		skin_id = 502049,
@@ -6420,8 +6534,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[50205] = {
+	}
+	pg.base.ship_data_trans[50205] = {
 		group_id = 50205,
 		skill_id = 49412,
 		skin_id = 502059,
@@ -6487,8 +6601,10 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[50601] = {
+	}
+end)()
+(function ()
+	pg.base.ship_data_trans[50601] = {
 		group_id = 50601,
 		skill_id = 53412,
 		skin_id = 506019,
@@ -6554,8 +6670,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[50602] = {
+	}
+	pg.base.ship_data_trans[50602] = {
 		group_id = 50602,
 		skill_id = 57912,
 		skin_id = 506029,
@@ -6621,8 +6737,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[70202] = {
+	}
+	pg.base.ship_data_trans[70202] = {
 		group_id = 70202,
 		skill_id = 43412,
 		skin_id = 702029,
@@ -6688,8 +6804,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[80102] = {
+	}
+	pg.base.ship_data_trans[80102] = {
 		group_id = 80102,
 		skill_id = 34810,
 		skin_id = 801029,
@@ -6751,8 +6867,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[80201] = {
+	}
+	pg.base.ship_data_trans[80201] = {
 		group_id = 80201,
 		skill_id = 34912,
 		skin_id = 802019,
@@ -6818,8 +6934,8 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	[90101] = {
+	}
+	pg.base.ship_data_trans[90101] = {
 		group_id = 90101,
 		skill_id = 35110,
 		skin_id = 901019,
@@ -6881,113 +6997,5 @@ pg.ship_data_trans = {
 				}
 			}
 		}
-	},
-	all = {
-		10103,
-		10104,
-		10108,
-		10111,
-		10117,
-		10124,
-		10125,
-		10126,
-		10127,
-		10131,
-		10205,
-		10207,
-		10208,
-		10306,
-		10501,
-		10502,
-		10509,
-		10510,
-		10511,
-		10601,
-		10602,
-		10701,
-		10703,
-		10704,
-		10709,
-		10722,
-		20101,
-		20102,
-		20103,
-		20108,
-		20109,
-		20110,
-		20111,
-		20112,
-		20114,
-		20219,
-		20221,
-		20222,
-		20121,
-		20201,
-		20202,
-		20203,
-		20301,
-		20302,
-		20304,
-		20307,
-		20308,
-		20502,
-		20503,
-		20601,
-		20603,
-		20702,
-		30105,
-		30113,
-		30114,
-		30115,
-		30117,
-		30118,
-		30121,
-		30124,
-		30125,
-		30126,
-		30181,
-		30503,
-		30504,
-		30130,
-		30131,
-		30132,
-		30133,
-		30161,
-		30162,
-		30201,
-		30205,
-		30208,
-		30209,
-		30210,
-		30212,
-		30213,
-		30301,
-		30302,
-		30308,
-		30501,
-		30502,
-		30605,
-		30703,
-		30704,
-		40101,
-		40123,
-		40202,
-		40203,
-		40204,
-		50101,
-		50102,
-		50103,
-		50104,
-		50201,
-		50202,
-		50203,
-		50204,
-		50205,
-		50601,
-		50602,
-		70202,
-		80102,
-		80201,
-		90101
 	}
-}
+end)()

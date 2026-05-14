@@ -15715,6 +15715,37 @@ _G.pg.base.item_data_statistics[21050] = {
 }
 
 
+_G.pg.base.item_data_statistics[21051] = {
+	open_directly = 0,
+	name = "結晶：{namecode:301}",
+	type = 4,
+	display = "{namecode:301}的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21051",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21051,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21052] = {
 	open_directly = 0,
 	name = "結晶：杜威·META",
@@ -16541,6 +16572,37 @@ _G.pg.base.item_data_statistics[21919] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 21919,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[21920] = {
+	open_directly = 0,
+	name = "同步值：{namecode:301}",
+	type = 4,
+	display = "在「信標·META」戰鬥中收集的數據，可以提升{namecode:301}同步率。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21920",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21920,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},
