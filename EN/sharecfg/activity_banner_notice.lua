@@ -38,7 +38,9 @@ pg.activity_banner_notice.all = {
 	33,
 	34,
 	35,
-	36
+	36,
+	37,
+	38
 }
 pg.base = pg.base or {}
 pg.base.activity_banner_notice = {}
@@ -342,6 +344,24 @@ pg.base.activity_banner_notice = {}
 		id = 36,
 		param = {
 			"scene activity"
+		}
+	}
+	pg.base.activity_banner_notice[37] = {
+		id = 37,
+		param = {
+			"scene core activity",
+			{
+				coreName = "HolidayCoreActivityUI"
+			}
+		}
+	}
+	pg.base.activity_banner_notice[38] = {
+		id = 38,
+		param = {
+			"scene core activity",
+			{
+				coreName = "OutPostCoreActivityUI"
+			}
 		}
 	}
 end)()

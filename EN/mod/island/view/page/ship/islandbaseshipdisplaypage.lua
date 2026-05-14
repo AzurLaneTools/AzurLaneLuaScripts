@@ -4,6 +4,7 @@ slot0.Ctor = function(slot0, ...)
 	uv0.super.Ctor(slot0, ...)
 
 	slot0.displayUnit = IslandDisplayShipUnit.New()
+	slot0.gcCounter = 0
 end
 
 slot0.Preload = function(slot0, slot1)
@@ -192,6 +193,14 @@ slot0.UnloadCharacter = function(slot0, slot1)
 
 		slot0.role = nil
 	end
+
+	if slot0.gcCounter >= 3 then
+		slot0.gcCounter = 0
+
+		IslandHelper.RunGC(true)
+	else
+		slot0.gcCounter = slot0.gcCounter + 1
+	end
 end
 
 slot0.ClearCharacterContainer = function(slot0)
@@ -283,6 +292,11 @@ slot0.GetSmoothRotateObject = function(slot0)
 end
 
 slot0.OnCharLoaded = function(slot0)
+end
+
+slot0.Hide = function(slot0, slot1, slot2)
+	uv0.super.Hide(slot0, slot1, slot2)
+	IslandHelper.RunGC(true)
 end
 
 return slot0

@@ -21,26 +21,24 @@ slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.achieveBtn, function ()
 		slot1 = nil
 
-		if pg.gift_key_sp[uv0.codeInput:GetComponent(typeof(InputField)).text] and slot2.key == slot0 then
-			slot1 = slot2.group
-		elseif #slot0 > 10 then
+		if #uv0.codeInput:GetComponent(typeof(InputField)).text > 10 then
 			slot1 = string.sub(slot0, 1, #slot0 - 10)
 		end
 
-		slot3 = nil
+		slot2 = nil
 
 		if slot1 and slot1 ~= "" then
 			if pg.gift_group[slot1] then
-				slot4 = false
+				slot3 = false
 
-				if not ((type(slot3.active_time) ~= "string" and type(slot3.active_time[1][1]) ~= "table" or pg.TimeMgr.GetInstance():inTime(slot3.active_time)) and pg.TimeMgr.GetInstance():passTime(slot3.active_time)) then
-					slot5 = nil
+				if not ((type(slot2.active_time) ~= "string" and type(slot2.active_time[1][1]) ~= "table" or pg.TimeMgr.GetInstance():inTime(slot2.active_time)) and pg.TimeMgr.GetInstance():passTime(slot2.active_time)) then
+					slot4 = nil
 
-					if type(slot3.active_time) ~= "string" then
-						slot5 = (type(slot3.active_time[1][1]) == "table" or pg.TimeMgr.GetInstance():passTime(slot3.active_time)) and pg.TimeMgr.GetInstance():passTime(slot3.active_time[2])
+					if type(slot2.active_time) ~= "string" then
+						slot4 = (type(slot2.active_time[1][1]) == "table" or pg.TimeMgr.GetInstance():passTime(slot2.active_time)) and pg.TimeMgr.GetInstance():passTime(slot2.active_time[2])
 					end
 
-					if slot5 then
+					if slot4 then
 						pg.TipsMgr.GetInstance():ShowTips(i18n("exchange_code_after_time"))
 					else
 						pg.TipsMgr.GetInstance():ShowTips(i18n("exchange_code_before_time"))
@@ -49,45 +47,45 @@ slot0.OnInit = function(slot0)
 					return
 				end
 
-				slot5 = i18n("exchange_code_tip")
+				slot4 = i18n("exchange_code_tip")
+				slot5 = ""
 				slot6 = ""
-				slot7 = ""
-				slot9 = {}
+				slot8 = {}
 
-				for slot13, slot14 in ipairs(slot3.drop_list) do
-					slot15 = Drop.New({
-						type = slot14[1],
-						id = slot14[2],
-						count = slot14[3]
+				for slot12, slot13 in ipairs(slot2.drop_list) do
+					slot14 = Drop.New({
+						type = slot13[1],
+						id = slot13[2],
+						count = slot13[3]
 					})
 
-					if slot14[1] == DROP_TYPE_SKIN then
-						table.insert(slot9, slot14[2])
+					if slot13[1] == DROP_TYPE_SKIN then
+						table.insert(slot8, slot13[2])
 
-						slot6 = i18n("exchange_code_skin_tip") .. slot6 .. "[" .. slot15:getName() .. "]*" .. slot15:getCount()
+						slot5 = i18n("exchange_code_skin_tip") .. slot5 .. "[" .. slot14:getName() .. "]*" .. slot14:getCount()
 					else
-						slot6 = slot6 .. slot15:getName() .. "*" .. slot15:getCount()
+						slot5 = slot5 .. slot14:getName() .. "*" .. slot14:getCount()
 					end
 
-					if slot13 ~= #slot8 then
-						slot6 = slot6 .. ","
+					if slot12 ~= #slot7 then
+						slot5 = slot5 .. ","
 					end
 				end
 
-				slot6 = slot6 .. "\n"
+				slot5 = slot5 .. "\n"
 
-				if slot9 and #slot9 > 0 then
-					for slot13, slot14 in ipairs(slot9) do
-						slot15 = getProxy(ShipSkinProxy):hasSkin(slot14)
+				if slot8 and #slot8 > 0 then
+					for slot12, slot13 in ipairs(slot8) do
+						slot14 = getProxy(ShipSkinProxy):hasSkin(slot13)
 
-						if pg.ship_skin_template[slot14] and slot15 and slot7 and slot7 == "" then
-							slot7 = i18n("exchange_code_skin")
+						if pg.ship_skin_template[slot13] and slot14 and slot6 and slot6 == "" then
+							slot6 = i18n("exchange_code_skin")
 						end
 					end
 				end
 
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = slot5 .. slot6 .. slot7,
+					content = slot4 .. slot5 .. slot6,
 					onYes = function ()
 						pg.m02:sendNotification(GAME.EXCHANGECODE_USE, {
 							key = uv0

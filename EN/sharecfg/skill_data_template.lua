@@ -386,6 +386,7 @@ pg.skill_data_template.all = {
 	61070,
 	61080,
 	61090,
+	61100,
 	7000,
 	9010,
 	9020,
@@ -13710,6 +13711,20 @@ When equipped by Yumia Liessfeldt: adds a special Anti-Air Gun and, 25s after th
 		desc_get_add = {},
 		desc_add = {}
 	}
+	pg.base.skill_data_template[61100] = {
+		desc_get = "",
+		name = "Key to the Tribunal's Hand",
+		type = 0,
+		max_level = 0,
+		desc = "At the start of battle: increases the entire fleet's SPD by 2 and reduces their DMG taken by 2.0% for 20s.",
+		id = 61100,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
 	pg.base.skill_data_template[7000] = {
 		desc_get = "",
 		name = "Rhine Drill",
@@ -14502,6 +14517,8 @@ When equipped by Yumia Liessfeldt: adds a special Anti-Air Gun and, 25s after th
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[9709] = {
 		desc_get = "",
 		name = "Future Content ",
@@ -14516,8 +14533,6 @@ When equipped by Yumia Liessfeldt: adds a special Anti-Air Gun and, 25s after th
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[9711] = {
 		desc_get = "",
 		name = "布里之誓·purin",
@@ -21767,6 +21782,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[10970] = {
 		desc_get = "",
 		name = "Fighting Mary",
@@ -21873,8 +21890,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[10980] = {
 		desc_get = "",
 		name = "AA Protection",
@@ -30195,6 +30210,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[11960] = {
 		desc_get = "",
 		name = "Star of the Shimmering Fjord",
@@ -30256,8 +30273,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[11970] = {
 		desc_get = "",
 		name = "Morale Boost",
@@ -39668,6 +39683,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[13030] = {
 		desc_get = "",
 		name = "Warcry of Unity",
@@ -39729,8 +39746,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[13040] = {
 		desc_get = "",
 		name = "Mercurial Memories",
@@ -49388,6 +49403,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[14030] = {
 		desc_get = "",
 		name = "Ontological Rudder",
@@ -49449,8 +49466,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[14040] = {
 		desc_get = "",
 		name = "Protologia of Illumination",
@@ -60732,6 +60747,8 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[15030] = {
 		desc_get = "",
 		name = "Taking One for the Team",
@@ -60838,8 +60855,6 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[15040] = {
 		desc_get = "",
 		name = "Th-That Was an Accident!",
@@ -72633,6 +72648,8 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[16040] = {
 		desc_get = "",
 		name = "Tempestuous Blade",
@@ -72829,8 +72846,6 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[16050] = {
 		desc_get = "",
 		name = "Musashi's Guardianship",
@@ -84167,6 +84182,8 @@ When this ship launches an airstrike: launches an additional $1 special airstrik
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[17050] = {
 		desc_get = "",
 		name = "荡涤诸恶跨队BUFFID占用",
@@ -84181,8 +84198,6 @@ When this ship launches an airstrike: launches an additional $1 special airstrik
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[17060] = {
 		desc_get = "",
 		name = "Power o' Friendship",
@@ -95204,6 +95219,8 @@ When this ship hits an enemy with her Secondary Guns, or when an Iris Libre or V
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[150120] = {
 		desc_get = "",
 		name = "Symphony Rehearsal",
@@ -95301,8 +95318,6 @@ When this ship hits an enemy with her Secondary Guns, or when an Iris Libre or V
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[150130] = {
 		desc_get = "",
 		name = "Youthful Chorale",
@@ -106821,6 +106836,8 @@ If any enemies are affected by Jet-Black Paint, the Crit Rate of this special ba
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[151100] = {
 		desc_get = "",
 		name = "Genius's Intuition",
@@ -106918,8 +106935,6 @@ If any enemies are affected by Jet-Black Paint, the Crit Rate of this special ba
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[151110] = {
 		desc_get = "",
 		name = "I am Mad Scientist!",
@@ -118671,6 +118686,8 @@ During battle, when this ship has taken DMG totaling to 25.0% of her max HP, or 
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[152070] = {
 		desc_get = "",
 		name = "I'll Whoop You!",
@@ -118732,8 +118749,6 @@ During battle, when this ship has taken DMG totaling to 25.0% of her max HP, or 
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[152100] = {
 		desc_get = "",
 		name = "Atomic Core",
@@ -128654,6 +128669,8 @@ Every 10s, or when a ship in your fleet fires her AA Gun: increases your Vanguar
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[19480] = {
 		desc_get = "",
 		name = "Hex-Principle of Dominance",
@@ -128805,8 +128822,6 @@ Every 10s, or when a ship in your fleet fires her AA Gun: increases your Vanguar
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[19490] = {
 		desc_get = "",
 		name = "Legendary Voyage",
@@ -135590,6 +135605,8 @@ When this ship fires her Main Guns: spends all Charge and increases this ship's 
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[20311] = {
 		desc_get = "",
 		name = "All Out Assault I",
@@ -135604,8 +135621,6 @@ When this ship fires her Main Guns: spends all Charge and increases this ship's 
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[20312] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
@@ -136992,6 +137007,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[22272] = {
 		desc_get = "",
 		name = "All Out Assault II",
@@ -137006,8 +137023,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[22311] = {
 		desc_get = "",
 		name = "All Out Assault I",
@@ -138394,6 +138409,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[28212] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
@@ -138408,8 +138425,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[28221] = {
 		desc_get = "",
 		name = "All Out Assault I",
@@ -139800,6 +139815,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29401] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
@@ -139814,8 +139831,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29402] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
@@ -141206,6 +141221,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29921] = {
 		desc_get = "",
 		name = "All Out Assault I",
@@ -141220,8 +141237,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29922] = {
 		desc_get = "",
 		name = "All Out Assault II",
@@ -142608,6 +142623,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[30441] = {
 		desc_get = "",
 		name = "All Out Assault I",
@@ -142622,8 +142639,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[30442] = {
 		desc_get = "",
 		name = "All Out Assault II",
@@ -148851,6 +148866,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[106310] = {
 		desc_get = "",
 		name = "Iconic Direction",
@@ -148865,8 +148882,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[106320] = {
 		desc_get = "",
 		name = "Fitting Time",
@@ -157569,6 +157584,8 @@ At the start of battle and every 20s after that: performs a feat of mixology and
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[109130] = {
 		desc_get = "",
 		name = "Wild Growth",
@@ -157630,8 +157647,6 @@ At the start of battle and every 20s after that: performs a feat of mixology and
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[109140] = {
 		desc_get = "",
 		name = "Spirit Gift",
@@ -166594,6 +166609,8 @@ When the battle starts, activates Star Justitory, decreasing this ship's SPD by 
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[114120] = {
 		desc_get = "",
 		name = "Luminous Wind+",
@@ -166727,8 +166744,6 @@ When the battle starts, activates Star Justitory, decreasing this ship's SPD by 
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[114129] = {
 		desc_get = "",
 		name = "Alf's Justitia",
@@ -172606,6 +172621,8 @@ When the battle ends, for each Clone on the battlefield, Kurumi Tokisaki gains 5
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800390] = {
 		desc_get = "",
 		name = "Cursed Outset",
@@ -172667,8 +172684,6 @@ When the battle ends, for each Clone on the battlefield, Kurumi Tokisaki gains 5
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800400] = {
 		desc_get = "",
 		name = "Echoes of Annihilation – Yamashiro",
@@ -177715,6 +177730,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800940] = {
 		desc_get = "",
 		name = "Decisions, Prudent Yet Audacious",
@@ -177821,8 +177838,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800951] = {
 		desc_get = "",
 		name = "Framework of Logic - Jintsuu I",
@@ -183119,6 +183134,8 @@ Activates one of the following 2 effects based on what weapon this ship has equi
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[801485] = {
 		desc_get = "",
 		name = "Cinders of Hope - Giulio Cesare I",
@@ -183135,8 +183152,6 @@ Activates one of the following 2 effects based on what weapon this ship has equi
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[801487] = {
 		desc_get = "",
 		name = "Cinders of Hope - Giulio Cesare II",
@@ -188538,6 +188553,8 @@ Additionally, once per battle each, the following effects activate based on the 
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[802047] = {
 		desc_get = "",
 		name = "Ashen Might - Cleveland II",
@@ -188554,8 +188571,6 @@ Additionally, once per battle each, the following effects activate based on the 
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[802050] = {
 		desc_get = "",
 		name = "Ricarica fiammeggiante",
@@ -194578,6 +194593,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1011440] = {
 		desc_get = "",
 		name = "The Bull of Scapa Flow+",
@@ -194677,8 +194694,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1011120] = {
 		desc_get = "",
 		name = "Victorious Song+",
@@ -208419,6 +208434,8 @@ Increases this ship's AVI and ACC by $2. When this ship has Royal Navy gear equi
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1090210] = {
 		desc_get = "",
 		name = "Emergency Maneuvers - Fortune",
@@ -208480,8 +208497,6 @@ Increases this ship's AVI and ACC by $2. When this ship has Royal Navy gear equi
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1090220] = {
 		desc_get = "",
 		name = "Reload Command - Königsberg",

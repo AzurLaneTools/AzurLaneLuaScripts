@@ -33,6 +33,7 @@ pg.activity_link_button.all = {
 	113,
 	114,
 	115,
+	116,
 	121
 }
 pg.activity_link_button.get_id_list_by_name = {
@@ -62,11 +63,12 @@ pg.activity_link_button.get_id_list_by_name = {
 	event_core = {
 		109,
 		114,
-		115
+		116
 	},
 	event_core_2 = {
 		110,
-		113
+		113,
+		115
 	},
 	event_dreamland = {
 		103
@@ -167,32 +169,34 @@ pg.base.activity_link_button = {}
 		order = 1,
 		time = {
 			"default",
-			6036
+			50481
 		}
 	}
 	pg.base.activity_link_button[11] = {
-		param = "0",
 		name = "event_map_sub",
+		time = "stop",
 		text_pic = "text_event_map_sub",
-		type = 0,
+		type = 2,
 		pic = "event_map_sub",
 		id = 11,
 		group_id = 3,
 		order = 1,
-		time = {
-			"default",
-			50804
+		param = {
+			"LiquorFloor"
 		}
 	}
 	pg.base.activity_link_button[12] = {
 		name = "event_sub_act",
-		time = "stop",
 		text_pic = "text_event_map_sub",
 		type = 2,
 		pic = "event_map_sub",
 		id = 12,
 		group_id = 3,
 		order = 1,
+		time = {
+			"default",
+			50434
+		},
 		param = {
 			"LiquorFloor"
 		}
@@ -215,18 +219,15 @@ pg.base.activity_link_button = {}
 	}
 	pg.base.activity_link_button[20] = {
 		name = "event_minigame",
+		time = "stop",
 		text_pic = "text_event_minigame",
 		type = 2,
 		pic = "event_minigame",
 		id = 20,
 		group_id = 5,
 		order = 1,
-		time = {
-			"default",
-			50811
-		},
 		param = {
-			"scene DOAReLink Island"
+			"holiday villa map"
 		}
 	}
 	pg.base.activity_link_button[21] = {
@@ -551,17 +552,31 @@ pg.base.activity_link_button = {}
 		}
 	}
 	pg.base.activity_link_button[115] = {
-		param = "DOACoreActivityUI",
-		name = "event_core",
-		text_pic = "text_event_core3",
+		param = "OutPostCoreActivityUI",
+		name = "event_core_2",
+		text_pic = "text_event_core2",
 		type = 16,
-		pic = "event_DOA3",
+		pic = "event_core2",
 		id = 115,
 		group_id = 1,
 		order = 1,
 		time = {
 			"default",
-			6031
+			51005
+		}
+	}
+	pg.base.activity_link_button[116] = {
+		param = "HolidayCoreActivityUI",
+		name = "event_core",
+		text_pic = "text_event_core3",
+		type = 16,
+		pic = "event_core3",
+		id = 116,
+		group_id = 1,
+		order = 1,
+		time = {
+			"default",
+			51001
 		}
 	}
 	pg.base.activity_link_button[121] = {

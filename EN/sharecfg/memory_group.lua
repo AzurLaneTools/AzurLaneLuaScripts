@@ -262,6 +262,8 @@ pg.memory_group.all = {
 	360,
 	361,
 	362,
+	363,
+	364,
 	501,
 	502,
 	503,
@@ -6723,6 +6725,42 @@ end)()
 			5107
 		}
 	}
+	pg.base.memory_group[363] = {
+		icon = "title_event",
+		type = 2,
+		link_event = 51005,
+		title = "Dust-Specked Omen",
+		auto_unlock = "",
+		subtype = 1,
+		id = 363,
+		group_id = "",
+		memories = {
+			5121,
+			5122,
+			5123,
+			5124,
+			5125,
+			5126,
+			5127
+		}
+	}
+	pg.base.memory_group[364] = {
+		icon = "title_event",
+		type = 2,
+		link_event = 51001,
+		title = "Spring Towards Summer!",
+		auto_unlock = "",
+		subtype = 2,
+		id = 364,
+		group_id = "",
+		memories = {
+			5131,
+			5132,
+			5133,
+			5134,
+			5135
+		}
+	}
 	pg.base.memory_group[501] = {
 		icon = "title_chara_mingshi",
 		type = 3,
@@ -7574,6 +7612,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[543] = {
 		icon = "title_chara_qiaozhiwushi",
 		type = 3,
@@ -7616,8 +7656,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[545] = {
 		icon = "title_chara_jiqi",
 		type = 3,

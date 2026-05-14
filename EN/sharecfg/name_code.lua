@@ -435,6 +435,8 @@ pg.name_code.all = {
 	552,
 	553,
 	554,
+	555,
+	556,
 	10000,
 	10001,
 	10002,
@@ -3478,6 +3480,20 @@ end)()
 		type = 1,
 		id = 554,
 		code = "Musashi-chan",
+		nation = 0
+	}
+	pg.base.name_code[555] = {
+		name = "Königsberg META",
+		type = 1,
+		id = 555,
+		code = "Königsberg META",
+		nation = 0
+	}
+	pg.base.name_code[556] = {
+		name = "Elbe META",
+		type = 1,
+		id = 556,
+		code = "Elbe META",
 		nation = 0
 	}
 	pg.base.name_code[10000] = {

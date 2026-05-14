@@ -64,6 +64,7 @@ pg.item_data_frame.all = {
 	335,
 	336,
 	337,
+	341,
 	406,
 	411,
 	412,
@@ -655,6 +656,15 @@ pg.base.item_data_frame = {}
 		desc = "<color=#A7A7AA>\"We meet again, Commander. I'm back.\"</color>\nObtained from the A Note Through the Firmament event.",
 		scene = {}
 	}
+	pg.base.item_data_frame[341] = {
+		name = "Seal of the Sacred Covenant",
+		gain_by = "",
+		time_second = 0,
+		id = 341,
+		time_limit_type = 0,
+		desc = "Obtained in a future event",
+		scene = {}
+	}
 	pg.base.item_data_frame[406] = {
 		name = "Hall of Fame: Laffey ",
 		gain_by = "",
@@ -1006,6 +1016,8 @@ pg.base.item_data_frame = {}
 		desc = "<color=#A7A7AA>Commemorates your triumph over the Incarnation of Libra. Presented to Commanders who demonstrated the courage to challenge their limits.</color> \nObtained from [Extreme Challenge] during the 10/1/23 - 10/31/23 Season.",
 		scene = {}
 	}
+end)()
+(function ()
 	pg.base.item_data_frame[10006] = {
 		name = "Extreme Challenge - Scorpio",
 		gain_by = "",
@@ -1015,8 +1027,6 @@ pg.base.item_data_frame = {}
 		desc = "<color=#A7A7AA>Commemorates your triumph over the Incarnation of Scorpio. Presented to Commanders who demonstrated the courage to challenge their limits.</color>\nObtained from [Extreme Challenge] during the 11/1/23 - 11/30/23 Season.",
 		scene = {}
 	}
-end)()
-(function ()
 	pg.base.item_data_frame[10007] = {
 		name = "Extreme Challenge - Sagittarius",
 		gain_by = "",

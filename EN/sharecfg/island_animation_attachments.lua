@@ -216,7 +216,7 @@ pg.base.island_animation_attachments = {}
 	}
 	pg.base.island_animation_attachments[40013] = {
 		id = 40013,
-		model = "island/item/04/40013/prefab/fbx_item_04_40013",
+		model = "island/item/04/40013/prefab/pre_item_04_40013",
 		attack = 0,
 		animator = "island/animator/ani_item_4_40013",
 		unlock = 0

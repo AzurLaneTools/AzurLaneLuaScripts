@@ -32599,6 +32599,17 @@ end)()
 					""
 				},
 				0
+			},
+			{
+				"Light ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	}

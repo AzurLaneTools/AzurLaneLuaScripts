@@ -3821,8 +3821,8 @@ pg.base.island_item_data_template = {}
 		id = 2521,
 		have_max = 0,
 		filter = {
-			10111,
-			10125
+			10112,
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -3853,8 +3853,8 @@ pg.base.island_item_data_template = {}
 		id = 2522,
 		have_max = 0,
 		filter = {
-			10111,
-			10125
+			10112,
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8414,7 +8414,7 @@ end)()
 		desc = "A bouquet of golden sunflowers with white jasmine, juxtaposing the splendor of the summer sun with the tranquility of the summer night.",
 		type = 1,
 		manage_influence = 0,
-		pt_num = 90,
+		pt_num = 130,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -8463,7 +8463,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8495,7 +8495,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8527,7 +8527,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8559,7 +8559,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8591,7 +8591,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8623,7 +8623,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8655,7 +8655,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8687,7 +8687,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8719,7 +8719,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8751,7 +8751,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8783,7 +8783,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8815,7 +8815,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8847,7 +8847,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8879,7 +8879,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8911,7 +8911,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8943,7 +8943,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {

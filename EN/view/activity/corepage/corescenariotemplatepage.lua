@@ -5,6 +5,12 @@ slot0.LINE_COLOR = {
 	"dbe7ea",
 	"db6587"
 }
+slot0.TITLE_COLOR = nil
+slot0.TITLE_ALPHA = {
+	0.5,
+	1,
+	1
+}
 
 slot0.getUIName = function(slot0)
 	return "AEBCSScenarioPage"
@@ -181,62 +187,80 @@ slot0.UpdateStoryNodeStatus = function(slot0)
 	slot1 = 0
 	slot2 = 0
 	slot3 = pg.NewStoryMgr.GetInstance()
-	slot4 = {}
+	slot4 = getProxy(TaskProxy)
+	slot5 = {}
 
 	table.Foreach(slot0.spStoryIDs, function (slot0, slot1)
 		uv0[slot1] = {}
 	end)
 
-	for slot9 = 1, #slot0.spStoryNodes do
-		slot10 = slot5[slot9]
-		slot11 = slot10:GetConfigID()
-		slot12 = slot10:GetPreEvent()
-		slot13 = true
-		slot14 = uv0
-		slot16 = false
+	for slot10 = 1, #slot0.spStoryNodes do
+		slot11 = slot6[slot10]
+		slot12 = slot11:GetConfigID()
+		slot13 = slot11:GetPreEvent()
+		slot14 = true
+		slot15 = uv0
+		slot17 = false
 
-		if slot10:GetStoryName() and slot15 ~= "" then
-			slot1 = slot1 + (slot3:IsPlayed(slot15) and 1 or 0)
+		if slot11:GetStoryName() and slot16 ~= "" then
+			slot1 = slot1 + (slot3:IsPlayed(slot16) and 1 or 0)
 			slot2 = slot2 + 1
 		end
 
-		if not slot16 then
-			_.each(slot10:GetUnlockConditions(), function (slot0)
+		if not slot17 then
+			_.each(slot11:GetUnlockConditions(), function (slot0)
+				slot1 = true
+
 				if slot0[1] == ActivitySpStoryNode.CONDITION.TIME then
-					uv0 = uv0 and pg.TimeMgr.GetInstance():parseTimeFromConfig(slot0[2]) <= pg.TimeMgr.GetInstance():GetServerTime()
+					slot1 = pg.TimeMgr.GetInstance():parseTimeFromConfig(slot0[2]) <= pg.TimeMgr.GetInstance():GetServerTime()
 				elseif slot0[1] == ActivitySpStoryNode.CONDITION.PASSCHAPTER then
-					uv0 = uv0 and _.all(slot0[2], function (slot0)
+					slot1 = _.all(slot0[2], function (slot0)
 						return getProxy(ChapterProxy):getChapterById(slot0, true):isClear()
 					end)
 				elseif slot0[1] == ActivitySpStoryNode.CONDITION.PT then
-					slot2 = slot0[2][2]
-					slot3 = slot0[2][3]
-					slot4 = 0
+					slot3 = slot0[2][2]
+					slot4 = slot0[2][3]
+					slot5 = 0
 
 					if slot0[2][1] == DROP_TYPE_RESOURCE then
-						slot4 = getProxy(PlayerProxy):getRawData():getResource(slot0[2][2])
-					elseif slot1 == DROP_TYPE_ITEM then
-						slot4 = getProxy(BagProxy):getItemCountById(slot2)
+						slot5 = getProxy(PlayerProxy):getRawData():getResource(slot0[2][2])
+					elseif slot2 == DROP_TYPE_ITEM then
+						slot5 = getProxy(BagProxy):getItemCountById(slot3)
 					end
 
-					uv0 = uv0 and slot3 <= slot4
-					uv1[uv2].reuqire = slot3
+					slot1 = slot4 <= slot5
+					uv0[uv1].reuqire = slot4
 				elseif slot0[1] == ActivitySpStoryNode.CONDITION.PRE_PASSED then
-					uv0 = uv1[uv3:GetPreEvent()].status == uv4
+					slot1 = uv0[uv2:GetPreEvent()].status == uv3
+				elseif slot0[1] == ActivitySpStoryNode.CONDITION.TASK_FINISHED then
+					slot2 = uv4:getFinishTaskById(slot0[2]) ~= nil
+					slot1 = slot2
+					uv0[uv1].hasTaskCondition = true
+					uv0[uv1].taskConditionFinished = slot2
+
+					if not slot2 and slot0[3] and slot0[3] ~= "" then
+						uv0[uv1].taskConditionTextKey = slot0[3]
+					end
 				end
+
+				table.insert(uv5, slot1)
+
+				uv6 = uv6 and slot1
 			end)
+
+			slot5[slot12].conditionFinishedList = {}
 		end
 
-		if slot16 then
-			slot14 = uv1
-		elseif slot13 then
-			slot14 = uv2
+		if slot17 then
+			slot15 = uv1
+		elseif slot14 then
+			slot15 = uv2
 		end
 
-		slot4[slot11].status = slot14
+		slot5[slot12].status = slot15
 	end
 
-	slot0.storyNodeStatus = slot4
+	slot0.storyNodeStatus = slot5
 	slot0.storyReadMax = slot2
 	slot0.storyReadCount = slot1
 end
@@ -660,17 +684,44 @@ slot0.UpdateStory = function(slot0, slot1)
 
 	for slot21 = 1, #slot0.spStoryNodes do
 		if slot0.storyNodeTFsById[slot17[slot21]:GetConfigID()] then
+			slot24 = slot0.storyNodeStatus[slot23].status
 			slot26 = slot0.storyNodeTFsById[slot23].nodeTF:Find("info/bk/title_form/title")
+			slot28 = slot0.TITLE_ALPHA or {
+				0.5,
+				1,
+				1
+			}
 
-			if slot0.storyNodeStatus[slot23].status == uv0 then
-				setScrollText(slot26, HXSet.hxLan(slot22:GetUnlockDesc()))
-				setTextAlpha(slot26, 0.5)
-			else
-				setScrollText(slot26, HXSet.hxLan(slot22:GetDisplayName()))
-				setTextAlpha(slot26, 1)
+			if slot0.TITLE_COLOR and slot27[slot24] then
+				setTextColor(slot26, Color.NewHex(slot27[slot24]))
 			end
 
-			slot27 = slot22:GetType()
+			if slot24 == uv0 then
+				slot30 = ""
+
+				if type(slot22:GetUnlockDesc()) == "table" then
+					slot31 = slot0.storyNodeStatus[slot23].conditionFinishedList or {}
+					slot30 = slot29[1] or ""
+
+					for slot35, slot36 in ipairs(slot29) do
+						if not slot31[slot35] then
+							slot30 = slot36 or ""
+
+							break
+						end
+					end
+				else
+					slot30 = slot29 or ""
+				end
+
+				setScrollText(slot26, HXSet.hxLan(slot30))
+				setTextAlpha(slot26, slot28[slot24] or 0.5)
+			else
+				setScrollText(slot26, HXSet.hxLan(slot22:GetDisplayName()))
+				setTextAlpha(slot26, slot28[slot24] or 1)
+			end
+
+			slot29 = slot22:GetType()
 
 			setActive(slot25:Find("circle/lock"), slot24 == uv0)
 
@@ -678,13 +729,13 @@ slot0.UpdateStory = function(slot0, slot1)
 				setActive(slot25:Find("circle/Story"), false)
 				setActive(slot25:Find("circle/Battle"), false)
 				setText(slot25:Find(""))
-			elseif slot27 == ActivitySpStoryNode.NODE_TYPE.STORY then
-				setActive(slot25:Find("circle/Story"), slot27 == ActivitySpStoryNode.NODE_TYPE.STORY)
-				setActive(slot25:Find("circle/Battle"), slot27 == ActivitySpStoryNode.NODE_TYPE.BATTLE)
+			elseif slot29 == ActivitySpStoryNode.NODE_TYPE.STORY then
+				setActive(slot25:Find("circle/Story"), slot29 == ActivitySpStoryNode.NODE_TYPE.STORY)
+				setActive(slot25:Find("circle/Battle"), slot29 == ActivitySpStoryNode.NODE_TYPE.BATTLE)
 				setActive(slot25:Find("circle/Story/Done"), slot24 == uv1)
-			elseif slot27 == ActivitySpStoryNode.NODE_TYPE.BATTLE then
-				setActive(slot25:Find("circle/Story"), slot27 == ActivitySpStoryNode.NODE_TYPE.STORY)
-				setActive(slot25:Find("circle/Battle"), slot27 == ActivitySpStoryNode.NODE_TYPE.BATTLE)
+			elseif slot29 == ActivitySpStoryNode.NODE_TYPE.BATTLE then
+				setActive(slot25:Find("circle/Story"), slot29 == ActivitySpStoryNode.NODE_TYPE.STORY)
+				setActive(slot25:Find("circle/Battle"), slot29 == ActivitySpStoryNode.NODE_TYPE.BATTLE)
 				setActive(slot25:Find("circle/Battle/Done"), slot24 == uv1)
 			end
 
@@ -693,12 +744,32 @@ slot0.UpdateStory = function(slot0, slot1)
 			setActive(slot25:Find("circle/bk/Readed"), slot24 == uv1)
 			setActive(slot25:Find("info/bk/BG/Inactive"), slot24 == uv0)
 			setActive(slot25:Find("info/bk/BG/Active"), slot24 ~= uv0)
+
+			if slot25:Find("condition") then
+				slot32 = slot0.storyNodeStatus[slot23].hasTaskCondition and not slot31.taskConditionFinished
+
+				setActive(slot30, slot32)
+
+				if slot32 then
+					slot34 = slot31.taskConditionTextKey and i18n(slot33) or ""
+
+					if slot30:Find("Text") or slot30:Find("text") then
+						setText(slot35, slot34)
+					else
+						setText(slot30, slot34)
+					end
+				end
+			end
+
 			onButton(slot0, slot25, function ()
 				if uv0 == uv1 then
 					return
 				end
 
-				uv3:PlayStory(uv2:GetStoryName(), function ()
+				slot0 = uv2
+				slot1 = uv3
+
+				slot1:PlayStory(slot0:GetStoryName(), function ()
 					uv0:UpdateView(true)
 					uv0:Move2UnlockStory()
 				end, true)
@@ -751,6 +822,24 @@ slot0.Move2UnlockStory = function(slot0)
 
 			break
 		end
+	end
+
+	if not slot2 then
+		for slot6 = 1, #slot1 do
+			if slot0.storyNodeTFsById[slot1[slot6]:GetConfigID()] then
+				slot2 = slot7
+
+				break
+			end
+		end
+	end
+
+	if not slot2 then
+		setAnchoredPosition(slot0.storyContainer, {
+			x = 0
+		})
+
+		return
 	end
 
 	setAnchoredPosition(slot0.storyContainer, {

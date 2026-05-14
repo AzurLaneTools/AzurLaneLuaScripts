@@ -38,14 +38,18 @@ slot0.init = function(slot0, ...)
 				if uv0.pageDic[slot3.id] ~= nil then
 					setActive(slot2:Find("tip"), slot3:readyToAchieve())
 					onToggle(uv0, slot2, function (slot0)
+						slot1 = uv0:Find("off")
+
 						if slot0 then
-							if uv0 ~= uv1.id then
-								uv2:selectActivity(uv1)
-								uv2:OnAnimations(uv3, uv1)
+							if uv1 ~= uv2.id then
+								uv3:selectActivity(uv2)
+								uv3:OnAnimations(uv0, uv2)
 							end
 
-							uv0 = uv1.id
+							uv1 = uv2.id
 						end
+
+						setActive(slot1, not slot0)
 					end, SFX_PANEL)
 				end
 			end
