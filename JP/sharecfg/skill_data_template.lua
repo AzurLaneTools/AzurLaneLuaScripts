@@ -385,6 +385,7 @@ pg.skill_data_template.all = {
 	61070,
 	61080,
 	61090,
+	61100,
 	7000,
 	9030,
 	9031,
@@ -13700,6 +13701,20 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+	pg.base.skill_data_template[61100] = {
+		desc_get = "",
+		name = "審判号起動キー",
+		type = 0,
+		max_level = 0,
+		desc = "戦闘開始後20秒間、味方全員の速力が2アップし、受けるダメージを2%軽減する",
+		id = 61100,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
 	pg.base.skill_data_template[7000] = {
 		desc_get = "",
 		name = "ライン演習",
@@ -14553,6 +14568,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[10020] = {
 		desc_get = "",
 		name = "海上最速",
@@ -14659,8 +14676,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[10030] = {
 		desc_get = "",
 		name = "お姉さん気質",
@@ -21932,6 +21947,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[11000] = {
 		desc_get = "20秒毎40%（最大70%）で発動。強力な弾幕を発射する（弾幕はスキルレベルによる）",
 		name = "勇敢なる砲撃",
@@ -21990,8 +22007,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[11010] = {
 		desc_get = "",
 		name = "アイアンボトムナイト",
@@ -30360,6 +30375,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[11990] = {
 		desc_get = "",
 		name = "堅忍不抜",
@@ -30466,8 +30483,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[12000] = {
 		desc_get = "",
 		name = "推し仲間",
@@ -39968,6 +39983,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[13060] = {
 		desc_get = "",
 		name = "氷結巡航",
@@ -40074,8 +40091,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[13070] = {
 		desc_get = "",
 		name = "空駆ける銀翼",
@@ -49598,6 +49613,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[14060] = {
 		desc_get = "",
 		name = "挑戦的なImpertinente",
@@ -49704,8 +49721,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[14070] = {
 		desc_get = "",
 		name = "除災洗浚",
@@ -61100,6 +61115,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[15060] = {
 		desc_get = "",
 		name = "蒙昧者への愚弄状",
@@ -61251,8 +61268,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[15070] = {
 		desc_get = "",
 		name = "変革者の現実談",
@@ -72906,6 +72921,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[16070] = {
 		desc_get = "",
 		name = "闇夜に羽ばたく黒",
@@ -73048,8 +73065,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[16080] = {
 		desc_get = "",
 		name = "機運を共に",
@@ -84492,6 +84507,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[17080] = {
 		desc_get = "",
 		name = "斬り結ぶ宵々に",
@@ -84634,8 +84651,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[17090] = {
 		desc_get = "",
 		name = "穂張りし雁来る",
@@ -95548,6 +95563,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[150150] = {
 		desc_get = "",
 		name = "統べて識る全知の印",
@@ -95735,8 +95752,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[150160] = {
 		desc_get = "",
 		name = "追いスタンプフィーバー",
@@ -107129,6 +107144,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[151130] = {
 		desc_get = "",
 		name = "聞いて、雪原のララバイ",
@@ -107235,8 +107252,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[151140] = {
 		desc_get = "",
 		name = "Peek-a-Boom!",
@@ -118934,6 +118949,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[152140] = {
 		desc_get = "",
 		name = "霜刻む剣 ",
@@ -119040,8 +119057,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[152150] = {
 		desc_get = "",
 		name = "不退転の力戦 ",
@@ -128978,6 +128993,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[19510] = {
 		desc_get = "",
 		name = "半分は頑張ってさしあげますわっ！",
@@ -129120,8 +129137,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[19520] = {
 		desc_get = "",
 		name = "开拓与探险之途-跨队效果ID占位",
@@ -135590,6 +135605,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[20322] = {
 		desc_get = "",
 		name = "全弾発射Ⅱ",
@@ -135604,8 +135621,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[21011] = {
 		desc_get = "",
 		name = "全弾発射-A級Ⅰ",
@@ -136992,6 +137007,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[22411] = {
 		desc_get = "",
 		name = "全弾発射-樫野Ⅰ",
@@ -137006,8 +137023,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[22412] = {
 		desc_get = "",
 		name = "全弾発射-樫野Ⅱ",
@@ -138394,6 +138409,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[28231] = {
 		desc_get = "",
 		name = "全弾発射I",
@@ -138408,8 +138425,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[28232] = {
 		desc_get = "",
 		name = "全弾発射Ⅱ",
@@ -139800,6 +139815,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29432] = {
 		desc_get = "",
 		name = "特殊弾幕-U101II",
@@ -139814,8 +139831,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29441] = {
 		desc_get = "",
 		name = "特殊弾幕-カヴァラI",
@@ -141206,6 +141221,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29952] = {
 		desc_get = "",
 		name = "特殊弾幕-ジェーナスⅡ",
@@ -141220,8 +141237,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29961] = {
 		desc_get = "",
 		name = "特殊弾幕-ロイヤル・フォーチュンⅠ",
@@ -142608,6 +142623,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[30472] = {
 		desc_get = "",
 		name = "特殊弾幕-トラファルガーⅡ",
@@ -142622,8 +142639,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[30481] = {
 		desc_get = "",
 		name = "特殊弾幕-U552I",
@@ -149275,6 +149290,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[106280] = {
 		desc_get = "",
 		name = "花神楽+",
@@ -149426,8 +149443,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[106290] = {
 		desc_get = "",
 		name = "ロイヤル・フラッシュ+",
@@ -157946,6 +157961,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[109100] = {
 		desc_get = "",
 		name = "アームズエンチャント",
@@ -158052,8 +158069,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[109110] = {
 		desc_get = "",
 		name = "フローレスデザイア",
@@ -166901,6 +166916,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[112300] = {
 		desc_get = "",
 		name = "広がる傷跡",
@@ -166915,8 +166932,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[114100] = {
 		desc_get = "",
 		name = "星々の記憶(アストレア・レコード）",
@@ -173158,6 +173173,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800375] = {
 		desc_get = "",
 		name = "炬火の力-シャルンホルストⅠ",
@@ -173174,8 +173191,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800377] = {
 		desc_get = "",
 		name = "炬火の力-シャルンホルストⅡ",
@@ -178087,6 +178102,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800917] = {
 		desc_get = "",
 		name = "湮滅の核・旗風",
@@ -178103,8 +178120,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800920] = {
 		desc_get = "",
 		name = "咲き誇る不屈の華",
@@ -183626,6 +183641,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[801470] = {
 		desc_get = "",
 		name = "帝国の征服者",
@@ -183732,8 +183749,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[801481] = {
 		desc_get = "",
 		name = "焔追の灰-ジュリオ・チェザーレⅠ",
@@ -189135,6 +189150,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[802041] = {
 		desc_get = "",
 		name = "炬火の力·クリーブランドⅠ",
@@ -189151,8 +189168,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[802042] = {
 		desc_get = "",
 		name = "炬火の力·クリーブランドⅡ",
@@ -194824,6 +194839,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1013270] = {
 		desc_get = "",
 		name = "熱風の轟炎 +",
@@ -194966,8 +194983,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1010160] = {
 		desc_get = "",
 		name = "最強の盾 +",
@@ -208764,6 +208779,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1090180] = {
 		desc_get = "",
 		name = "砲火制圧·扶桑",
@@ -208861,8 +208878,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1090190] = {
 		desc_get = "",
 		name = "集中攻撃・高雄",

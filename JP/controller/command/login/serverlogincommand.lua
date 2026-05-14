@@ -57,6 +57,8 @@ slot0.execute = function(slot0, slot1)
 				pg.TipsMgr.GetInstance():ShowTips(i18n("login_game_login_full"))
 			elseif slot0.result == 18 then
 				uv3:sendNotification(GAME.SERVER_LOGIN_WAIT, math.floor(slot0.db_load / 100 + slot0.server_load / 1000 + 1))
+			elseif slot0.result == 1050 then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("login_game_midnightpressure"))
 			else
 				uv3:sendNotification(GAME.SERVER_LOGIN_FAILED, slot0.result)
 			end

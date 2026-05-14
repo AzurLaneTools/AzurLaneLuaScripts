@@ -33060,13 +33060,13 @@ _G.pg.base.gametip.word_status_inSupportFleet = {
 }
 
 
-_G.pg.base.gametip.ship_formationMediator_request_replace_support = {
-	tip = "支援艦隊に編成されている艦船がいます。編成から外しますか？"
+_G.pg.base.gametip.tw_unsupport_tip = {
+	tip = "ツイッターアカウント連携は現在利用できません。Yostarアカウント連携を行ってください"
 }
 
 
-_G.pg.base.gametip.tw_unsupport_tip = {
-	tip = "ツイッターアカウント連携は現在利用できません。Yostarアカウント連携を行ってください"
+_G.pg.base.gametip.ship_formationMediator_request_replace_support = {
+	tip = "支援艦隊に編成されている艦船がいます。編成から外しますか？"
 }
 
 
@@ -39698,6 +39698,11 @@ _G.pg.base.gametip.storyline_chapter3 = {
 
 _G.pg.base.gametip.storyline_chapter4 = {
 	tip = "第四章"
+}
+
+
+_G.pg.base.gametip.storyline_chapter5 = {
+	tip = "間章"
 }
 
 
@@ -48765,6 +48770,46 @@ _G.pg.base.gametip.l2d_tip_off = {
 }
 
 
+_G.pg.base.gametip.YidaliV5FramePage_go = {
+	tip = "確認"
+}
+
+
+_G.pg.base.gametip.YidaliV5FramePage_get = {
+	tip = "受取"
+}
+
+
+_G.pg.base.gametip.YidaliV5FramePage_got = {
+	tip = "受取済"
+}
+
+
+_G.pg.base.gametip["20260514_story_unlock_tip"] = {
+	tip = "5/20メンテ後解放"
+}
+
+
+_G.pg.base.gametip.OutPostCoreActivityUI_subtitle_1 = {
+	tip = "作戦準備"
+}
+
+
+_G.pg.base.gametip.OutPostCoreActivityUI_subtitle_2 = {
+	tip = "灰点の予兆"
+}
+
+
+_G.pg.base.gametip.OutPostOmenPage_task_tip1 = {
+	tip = "$1月$2日に解放"
+}
+
+
+_G.pg.base.gametip.OutPostOmenPage_task_tip2 = {
+	tip = "前の任務報酬受け取りで解放"
+}
+
+
 _G.pg.base.gametip.play_room_season = {
 	tip = "シーズン"
 }
@@ -49219,4 +49264,24 @@ _G.pg.base.gametip.littleMusashi_npc = {
 			info = "7.仮加入状態の【武蔵ちゃん】は大艦隊作戦には参加できません。"
 		}
 	}
+}
+
+
+_G.pg.base.gametip["260514_story_title"] = {
+	tip = "灰点の予兆"
+}
+
+
+_G.pg.base.gametip["260514_story_title_en"] = {
+	tip = "Omen in dust spot"
+}
+
+
+_G.pg.base.gametip.AnniversaryNineCoreActivityUI_subtitle_6 = {
+	tip = "麗しい休日"
+}
+
+
+_G.pg.base.gametip.Outpost_20260514_Detail = {
+	tip = "詳細確認"
 }

@@ -63,6 +63,7 @@ pg.item_data_frame.all = {
 	335,
 	336,
 	337,
+	341,
 	401,
 	402,
 	403,
@@ -648,6 +649,15 @@ pg.base.item_data_frame = {}
 		desc = "「久しぶりね、指揮官——ただいま」\n<color=#A7A7AA>「天穹に響く音謡」イベント参加</color>",
 		scene = {}
 	}
+	pg.base.item_data_frame[341] = {
+		name = "聖なる盟約",
+		gain_by = "",
+		time_second = 0,
+		id = 341,
+		time_limit_type = 0,
+		desc = "今後開催するイベントにて入手可能",
+		scene = {}
+	}
 	pg.base.item_data_frame[401] = {
 		name = "殿堂入り：エンタープライズ",
 		gain_by = "",
@@ -1008,6 +1018,8 @@ pg.base.item_data_frame = {}
 		desc = "<size=24>「しし座」限界挑戦ステージクリア記念。己の限界に挑む勇気のある指揮官に贈る<color=#A7A7AA>「限界挑戦」で入手可能（23.08.01-23.08.31）</color></size>",
 		scene = {}
 	}
+end)()
+(function ()
 	pg.base.item_data_frame[10004] = {
 		name = "限界挑戦・おとめ座",
 		gain_by = "",
@@ -1017,8 +1029,6 @@ pg.base.item_data_frame = {}
 		desc = "<size=24>「おとめ座」限界挑戦ステージクリア記念。己の限界に挑む勇気のある指揮官に贈る<color=#A7A7AA>「限界挑戦」で入手可能（23.09.01-23.09.30）</color></size>",
 		scene = {}
 	}
-end)()
-(function ()
 	pg.base.item_data_frame[10005] = {
 		name = "限界挑戦・てんびん座",
 		gain_by = "",

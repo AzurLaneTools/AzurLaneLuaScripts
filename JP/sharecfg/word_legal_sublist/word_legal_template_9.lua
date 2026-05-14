@@ -4,18 +4,6 @@ slot0.word_legal_template_9 = {}
 slot1 = slot0.word_legal_template_9
 
 temp = function()
-	uv0["ナ"] = {
-		["ポ"] = {
-			["リ"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["と"] = {
 		["き"] = {
 			["の"] = {

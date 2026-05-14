@@ -374,7 +374,14 @@ pg.activity_sp_story.all = {
 	399,
 	400,
 	401,
-	402
+	402,
+	411,
+	412,
+	413,
+	414,
+	415,
+	416,
+	417
 }
 pg.base = pg.base or {}
 pg.base.activity_sp_story = {}
@@ -8036,6 +8043,223 @@ end)()
 				4,
 				401
 			}
+		}
+	}
+	pg.base.activity_sp_story[411] = {
+		story_type = 1,
+		pre_event = "",
+		label_key = "",
+		change_prefab = "",
+		change_background = "star_level_bg_706",
+		name = "EP-1 初めての長期休暇",
+		story = "HUIDIANYUZHAO1",
+		change_bgm = "story-darkplan",
+		id = 411,
+		lock = {
+			{
+				6,
+				27011
+			},
+			{
+				6,
+				27012
+			}
+		},
+		unlock_conditions = {
+			"限定任務DAY1をクリア",
+			"限定任務DAY1をクリア"
+		}
+	}
+	pg.base.activity_sp_story[412] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		change_background = "star_level_bg_306",
+		name = "EP-2 灯台下暗し",
+		story = "HUIDIANYUZHAO2",
+		change_bgm = "storys-commander-up",
+		id = 412,
+		pre_event = {
+			411
+		},
+		lock = {
+			{
+				4,
+				411
+			},
+			{
+				6,
+				27013
+			},
+			{
+				6,
+				27014
+			}
+		},
+		unlock_conditions = {
+			"EP-1をクリア",
+			"限定任務DAY2をクリア",
+			"限定任務DAY2をクリア"
+		}
+	}
+	pg.base.activity_sp_story[413] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		change_background = "star_level_bg_493",
+		name = "EP-3 霧の中",
+		story = "HUIDIANYUZHAO3",
+		change_bgm = "theme-underheaven",
+		id = 413,
+		pre_event = {
+			412
+		},
+		lock = {
+			{
+				4,
+				412
+			},
+			{
+				6,
+				27015
+			},
+			{
+				6,
+				27016
+			}
+		},
+		unlock_conditions = {
+			"EP-2をクリア",
+			"限定任務DAY3をクリア",
+			"限定任務DAY3をクリア"
+		}
+	}
+	pg.base.activity_sp_story[414] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		change_background = "star_level_bg_306",
+		name = "EP-4 予兆",
+		story = "HUIDIANYUZHAO4",
+		change_bgm = "battle-eagleunion",
+		id = 414,
+		pre_event = {
+			413
+		},
+		lock = {
+			{
+				4,
+				413
+			},
+			{
+				6,
+				27017
+			},
+			{
+				6,
+				27018
+			}
+		},
+		unlock_conditions = {
+			"EP-3をクリア",
+			"限定任務DAY4をクリア",
+			"限定任務DAY4をクリア"
+		}
+	}
+	pg.base.activity_sp_story[415] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		change_background = "star_level_bg_307",
+		name = "EP-5 雲石",
+		story = "HUIDIANYUZHAO5",
+		change_bgm = "story-richang-light",
+		id = 415,
+		pre_event = {
+			414
+		},
+		lock = {
+			{
+				4,
+				414
+			},
+			{
+				6,
+				27019
+			},
+			{
+				6,
+				27020
+			}
+		},
+		unlock_conditions = {
+			"EP-4をクリア",
+			"限定任務DAY5をクリア",
+			"限定任務DAY5をクリア"
+		}
+	}
+	pg.base.activity_sp_story[416] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		change_background = "star_level_bg_507",
+		name = "EP-6 準備",
+		story = "HUIDIANYUZHAO6",
+		change_bgm = "story-shenguang-holy",
+		id = 416,
+		pre_event = {
+			415
+		},
+		lock = {
+			{
+				4,
+				415
+			},
+			{
+				6,
+				27021
+			},
+			{
+				6,
+				27022
+			}
+		},
+		unlock_conditions = {
+			"EP-5をクリア",
+			"限定任務DAY6をクリア",
+			"限定任務DAY6をクリア"
+		}
+	}
+	pg.base.activity_sp_story[417] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		change_background = "star_level_bg_450",
+		name = "EP-7 ハーモニー",
+		story = "HUIDIANYUZHAO7",
+		change_bgm = "battle-pacific",
+		id = 417,
+		pre_event = {
+			416
+		},
+		lock = {
+			{
+				4,
+				416
+			},
+			{
+				6,
+				27023
+			},
+			{
+				6,
+				27024
+			}
+		},
+		unlock_conditions = {
+			"EP-6をクリア",
+			"限定任務DAY7をクリア",
+			"限定任務DAY7をクリア"
 		}
 	}
 end)()

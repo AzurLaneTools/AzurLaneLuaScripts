@@ -98,6 +98,15 @@ end
 
 slot0.OnDetach = function(slot0)
 	slot0:ClearAnimationTools()
+	slot0.characterHandleController:AddStateEnterFunc(nil)
+	slot0.characterHandleController:AddStateExitFunc(nil)
+	slot0.characterHandleController:AddStateEnterFixCompleteFunc(nil)
+	slot0.characterHandleController:AddStateExitFixCompleteFunc(nil)
+
+	slot0._go = nil
+	slot0._tf = nil
+	slot0.objTfList = nil
+	slot0.characterHandleController = nil
 end
 
 return slot0

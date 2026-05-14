@@ -30020,7 +30020,7 @@ _G.pg.base.spweapon_data_statistics[14270] = {
 
 _G.pg.base.spweapon_data_statistics[14280] = {
 	attribute_1 = "air",
-	name = "千鹤唳",
+	name = "千鶴唳",
 	type = 7,
 	tech = 0,
 	value_1_random = 10,
@@ -30035,7 +30035,7 @@ _G.pg.base.spweapon_data_statistics[14280] = {
 	icon = "14280",
 	value_1 = 22,
 	level = 1,
-	descrip = "由特殊兵装核心制造出来的专属特制兵装",
+	descrip = "デッドマスターの専用特殊装備",
 	uncraftable = 0,
 	unique = 30705,
 	important = 2,

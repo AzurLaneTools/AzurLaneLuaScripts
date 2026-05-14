@@ -2,6 +2,7 @@ slot0 = class("WorldMediaCollectionStoryLineView")
 slot0.START_GAP = 800
 slot0.END_GAP = 1000
 slot0.HRZ_GAP = 467
+slot0.CHAPTER_PROGRESS_MIN_WIDTH = 120
 slot0.NATION_LIST = {
 	{
 		name = "word_shipNation_all",
@@ -215,42 +216,81 @@ slot0.updateChapterProgress = function(slot0)
 	slot0.chapterProgressTotalWidth = rtf(slot0.chapterProgressContainer).rect.width
 	slot1 = {}
 	slot2 = 0
-	slot3 = {}
 
-	for slot7, slot8 in pairs(slot0.nodeDataDict) do
+	for slot6, slot7 in pairs(slot0.nodeDataDict) do
 		slot2 = slot2 + 1
-		slot1[slot9] = slot1[slot8.VO:GetChapter()] and slot1[slot9] + 1 or 1
+		slot1[slot8] = slot1[slot7.VO:GetChapter()] and slot1[slot8] + 1 or 1
 	end
 
+	slot3 = {}
+
 	for slot7, slot8 in pairs(slot1) do
-		slot11 = {
-			w = slot8 / slot2 * slot0.chapterProgressTotalWidth
+		table.insert(slot3, slot7)
+	end
+
+	table.sort(slot3)
+
+	if #slot3 == 0 then
+		return
+	end
+
+	slot5 = math.min(uv0.CHAPTER_PROGRESS_MIN_WIDTH, slot0.chapterProgressTotalWidth / slot4)
+	slot6 = {}
+	slot7 = {}
+	slot8 = slot0.chapterProgressTotalWidth
+	slot9 = slot2
+	slot10 = true
+
+	while slot10 and slot9 > 0 do
+		slot10 = false
+
+		for slot14, slot15 in ipairs(slot3) do
+			if not slot7[slot15] and slot5 > slot8 * slot1[slot15] / slot9 then
+				slot6[slot15] = slot5
+				slot7[slot15] = true
+				slot8 = slot8 - slot5
+				slot9 = slot9 - slot16
+				slot10 = true
+			end
+		end
+	end
+
+	for slot14, slot15 in ipairs(slot3) do
+		if not slot7[slot15] then
+			slot6[slot15] = slot9 > 0 and slot8 * slot1[slot15] / slot9 or 0
+		end
+	end
+
+	slot11 = 0
+
+	for slot15, slot16 in ipairs(slot3) do
+		slot17 = {
+			w = slot6[slot16],
+			x = slot11
 		}
 
-		if slot7 == 0 then
-			slot11.x = 0
-		else
-			slot12 = cloneTplTo(slot0.chapterProgressSplit, slot0.chapterProgressContainer)
+		if slot15 > 1 then
+			slot18 = cloneTplTo(slot0.chapterProgressSplit, slot0.chapterProgressContainer)
 
-			setActive(slot12, true)
+			setActive(slot18, true)
 
-			slot11.x = slot0.progressDict[slot7 - 1].x + slot0.progressDict[slot7 - 1].w
-			slot12.anchoredPosition = Vector2(slot11.x, 2.86)
+			slot18.anchoredPosition = Vector2(slot17.x, 2.86)
 		end
 
-		slot11.leftBound = slot11.x
-		slot11.rightBound = slot11.x + slot11.w
-		slot12 = cloneTplTo(slot0.chapterProgressLabel, slot0.chapterProgressContainer)
-		slot12.anchoredPosition = Vector2(slot11.x, 12)
-		rtf(slot12).sizeDelta = Vector2(slot11.w, 32)
+		slot17.leftBound = slot17.x
+		slot17.rightBound = slot17.x + slot17.w
+		slot18 = cloneTplTo(slot0.chapterProgressLabel, slot0.chapterProgressContainer)
+		slot18.anchoredPosition = Vector2(slot17.x, 12)
+		rtf(slot18).sizeDelta = Vector2(slot17.w, 32)
 
-		setText(slot12, i18n("storyline_chapter" .. slot7))
-		setActive(slot12, true)
-		onButton(slot0, slot12:Find("chapterWarpBtn"), function ()
+		setText(slot18, i18n("storyline_chapter" .. slot16))
+		setActive(slot18, true)
+		onButton(slot0, slot18:Find("chapterWarpBtn"), function ()
 			scrollTo(uv0.scroll, (uv0.nodeDataDict[uv0.chapterHead[uv1]:GetConfigID()].nodeTF.anchoredPosition.x - uv2.START_GAP) / uv0.contentWidth)
 		end)
 
-		slot0.progressDict[slot7] = slot11
+		slot0.progressDict[slot16] = slot17
+		slot11 = slot11 + slot17.w
 	end
 end
 

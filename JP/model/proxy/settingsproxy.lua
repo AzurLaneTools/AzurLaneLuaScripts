@@ -1136,4 +1136,8 @@ slot0.Reset = function(slot0)
 	slot0.educateCharTipList = {}
 end
 
+slot0.IsExchangeCodeActive = function()
+	return getGameset("exchangecode_ios_on")[1] == 1
+end
+
 return slot0

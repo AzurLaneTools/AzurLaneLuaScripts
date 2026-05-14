@@ -278,7 +278,10 @@ temp()
 temp = function()
 	uv0["撫"] = {
 		["順"] = {
-			this = true
+			this = true,
+			["改"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -433,20 +436,9 @@ temp()
 temp = function()
 	uv0["華"] = {
 		["甲"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["华"] = {
-		["甲"] = {
-			["·"] = {
-				["改"] = {
-					this = true
-				}
+			this = true,
+			["改"] = {
+				this = true
 			}
 		}
 	}
@@ -458,36 +450,6 @@ temp = function()
 	uv0["定"] = {
 		["安"] = {
 			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["抚"] = {
-		["顺"] = {
-			["."] = {
-				["改"] = {
-					this = true,
-					["（"] = {
-						["后"] = {
-							["排"] = {
-								["）"] = {
-									this = true
-								}
-							}
-						},
-						["前"] = {
-							["排"] = {
-								["）"] = {
-									this = true
-								}
-							}
-						}
-					}
-				}
-			}
 		}
 	}
 end
@@ -522,6 +484,46 @@ temp = function()
 						}
 					}
 				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["ム"] = {
+		["ル"] = {
+			["マ"] = {
+				["ン"] = {
+					["ス"] = {
+						["ク"] = {
+							this = true
+						}
+					}
+				}
+			}
+		},
+		["ジ"] = {
+			["ナ"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["四"] = {
+		["万"] = {
+			["十"] = {
+				this = true
+			}
+		},
+		["糸"] = {
+			["乃"] = {
+				this = true
 			}
 		}
 	}

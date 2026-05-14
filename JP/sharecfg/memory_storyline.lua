@@ -96,7 +96,8 @@ pg.memory_storyline.all = {
 	91,
 	92,
 	93,
-	94
+	94,
+	95
 }
 pg.base = pg.base or {}
 pg.base.memory_storyline = {}
@@ -2524,10 +2525,37 @@ pg.base.memory_storyline = {}
 			7
 		},
 		link_event = {
-			94
+			94,
+			95
 		}
 	}
 	pg.base.memory_storyline[94] = {
+		description = "衰退した大地、朽ち果てた城塞、光なき白昼、骨を刺す凛風……\n浮かび上がる灰色の点から何が見える？",
+		name = "灰点の予兆",
+		column = 59,
+		world_id = "",
+		bgm = "battle-pacific",
+		row = -1,
+		chapter = 5,
+		memory_lock = 0,
+		id = 94,
+		icon = "InterludeOne_1",
+		sort = 1,
+		memory_id = {
+			1,
+			363
+		},
+		shipnation = {
+			1,
+			10,
+			4,
+			7
+		},
+		link_event = {
+			95
+		}
+	}
+	pg.base.memory_storyline[95] = {
 		description = "敬请期待",
 		name = "敬请期待",
 		shipnation = 0,
@@ -2539,7 +2567,7 @@ pg.base.memory_storyline = {}
 		row = 0,
 		chapter = 0,
 		memory_lock = 1,
-		id = 94,
+		id = 95,
 		icon = "",
 		sort = 0
 	}
