@@ -65,6 +65,7 @@ pg.activity_banner.get_id_list_by_type = {
 		4,
 		5,
 		6,
+		8,
 		9,
 		11,
 		1000,
@@ -93,7 +94,6 @@ pg.activity_banner.get_id_list_by_type = {
 	},
 	[3] = {
 		7,
-		8,
 		10,
 		1003
 	},
@@ -133,38 +133,13 @@ pg.base.activity_banner = {}
 
 (function ()
 	pg.base.activity_banner[1] = {
+		time = "stop",
 		type = 2,
 		id = 1,
 		pic = "temp1",
 		param = {
 			"scene skinshop",
 			{}
-		},
-		time = {
-			{
-				{
-					2026,
-					4,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					5,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.activity_banner[2] = {
@@ -182,8 +157,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					4,
-					30
+					5,
+					14
 				},
 				{
 					0,
@@ -195,7 +170,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					5,
-					14
+					21
 				},
 				{
 					14,
@@ -206,6 +181,7 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[3] = {
+		time = "stop",
 		type = 2,
 		id = 3,
 		pic = "temp3",
@@ -213,32 +189,6 @@ pg.base.activity_banner = {}
 			"scene core activity",
 			{
 				coreName = "DOACoreActivityUI"
-			}
-		},
-		time = {
-			{
-				{
-					2026,
-					4,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					5,
-					14
-				},
-				{
-					14,
-					59,
-					59
-				}
 			}
 		}
 	}
@@ -256,8 +206,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					4,
-					30
+					5,
+					14
 				},
 				{
 					0,
@@ -269,7 +219,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					5,
-					13
+					20
 				},
 				{
 					23,
@@ -293,8 +243,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					4,
-					30
+					5,
+					14
 				},
 				{
 					0,
@@ -306,7 +256,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					5,
-					13
+					20
 				},
 				{
 					23,
@@ -327,8 +277,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					4,
-					30
+					5,
+					14
 				},
 				{
 					0,
@@ -340,7 +290,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					5,
-					13
+					20
 				},
 				{
 					23,
@@ -351,7 +301,7 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[7] = {
-		param = "50804",
+		param = "5749",
 		type = 3,
 		id = 7,
 		pic = "temp7",
@@ -360,7 +310,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					5,
-					7
+					14
 				},
 				{
 					0,
@@ -372,7 +322,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					5,
-					14
+					21
 				},
 				{
 					14,
@@ -383,16 +333,22 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[8] = {
-		param = "50806",
-		type = 3,
+		type = 2,
 		id = 8,
 		pic = "temp8",
+		param = {
+			"scene level",
+			{
+				open_remaster = true,
+				isSP = false
+			}
+		},
 		time = {
 			{
 				{
 					2026,
 					5,
-					7
+					14
 				},
 				{
 					0,
@@ -404,7 +360,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					5,
-					14
+					21
 				},
 				{
 					14,
