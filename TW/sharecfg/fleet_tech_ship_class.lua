@@ -4346,7 +4346,7 @@ end)()
 	}
 	pg.base.fleet_tech_ship_class[970103] = {
 		shiptype = 1,
-		name = "旗风·META",
+		name = "旗風·META",
 		t_level = 5,
 		id = 970103,
 		t_level_1 = 1,
