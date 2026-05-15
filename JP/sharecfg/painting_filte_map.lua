@@ -9792,7 +9792,6 @@ end)()
 		key = "kewei_3",
 		res_list = {
 			"painting/kewei_3_tex",
-			"painting/kewei_3_shophx_tex",
 			"painting/kewei_3"
 		}
 	}
