@@ -391,7 +391,16 @@ temp = function()
 		["莱"] = {
 			["蒙"] = {
 				["梭"] = {
-					this = true
+					this = true,
+					["（"] = {
+						["前"] = {
+							["排"] = {
+								["）"] = {
+									this = true
+								}
+							}
+						}
+					}
 				}
 			}
 		}
@@ -418,6 +427,20 @@ temp = function()
 			this = true,
 			["森"] = {
 				this = true
+			},
+			["茨"] = {
+				["亲"] = {
+					["王"] = {
+						this = true
+					}
+				}
+			}
+		},
+		["琳"] = {
+			["亲"] = {
+				["王"] = {
+					this = true
+				}
 			}
 		},
 		["加"] = {
@@ -445,6 +468,9 @@ temp = function()
 			}
 		},
 		["蕾"] = {
+			["娜"] = {
+				this = true
+			},
 			["德"] = {
 				["贡"] = {
 					this = true
@@ -987,7 +1013,18 @@ temp = function()
 			["斯"] = {
 				["贝"] = {
 					["特"] = {
-						this = true
+						this = true,
+						["·"] = {
+							M = {
+								E = {
+									T = {
+										A = {
+											this = true
+										}
+									}
+								}
+							}
+						}
 					}
 				}
 			}
@@ -1013,6 +1050,11 @@ temp = function()
 		},
 		["丝"] = {
 			["特"] = {
+				this = true
+			}
+		},
+		["丽"] = {
+			["莎"] = {
 				this = true
 			}
 		},
@@ -1274,6 +1316,16 @@ temp = function()
 					}
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["霍"] = {
+		["比"] = {
+			this = true
 		}
 	}
 end

@@ -6,7 +6,8 @@ end
 slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.APPRECIATE_MANGA_READ_DONE,
-		GAME.APPRECIATE_MANGA_LIKE_DONE
+		GAME.APPRECIATE_MANGA_LIKE_DONE,
+		GAME.UPDATE_LOADING_PIC_DONE
 	}
 end
 
@@ -21,6 +22,8 @@ slot0.handleNotification = function(slot0, slot1)
 		end
 	elseif slot2 == GAME.APPRECIATE_MANGA_LIKE_DONE then
 		slot0.viewComponent:updateLikeBtn()
+	elseif slot2 == GAME.UPDATE_LOADING_PIC_DONE then
+		slot0.viewComponent:updateLoadingBtn()
 	end
 end
 

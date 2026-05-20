@@ -533,6 +533,7 @@ pg.activity_ins_ship_group_template.all = {
 	110,
 	200,
 	201,
+	202,
 	960007,
 	960008,
 	960009,
@@ -665,7 +666,12 @@ pg.activity_ins_ship_group_template.all = {
 	10994,
 	10995,
 	10107,
-	10139
+	10139,
+	40815,
+	40114,
+	40115,
+	40317,
+	40507
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_ship_group_template = {}
@@ -874,7 +880,7 @@ pg.base.activity_ins_ship_group_template = {}
 		name = "SymphonicStigma",
 		background = "",
 		sculpture = "feiteliedadi",
-		nationality = 0,
+		nationality = 4,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -1000,7 +1006,7 @@ pg.base.activity_ins_ship_group_template = {}
 		name = "Nshiro",
 		background = "",
 		sculpture = "nengdai_idol",
-		nationality = 0,
+		nationality = 3,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -1063,7 +1069,7 @@ pg.base.activity_ins_ship_group_template = {}
 		name = "Zech✛3536",
 		background = "",
 		sculpture = "z36",
-		nationality = 0,
+		nationality = 4,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -1396,7 +1402,7 @@ pg.base.activity_ins_ship_group_template = {}
 		name = "Illustrious",
 		background = "",
 		sculpture = "guanghui",
-		nationality = 0,
+		nationality = 2,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -1432,7 +1438,7 @@ pg.base.activity_ins_ship_group_template = {}
 		name = "YorkTown",
 		background = "",
 		sculpture = "yuekechengII",
-		nationality = 0,
+		nationality = 1,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -1731,7 +1737,7 @@ end)()
 		name = "Formidable",
 		background = "",
 		sculpture = "kewei_idol",
-		nationality = 0,
+		nationality = 2,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -1767,7 +1773,7 @@ end)()
 		name = "L.Maaß",
 		background = "",
 		sculpture = "z1",
-		nationality = 0,
+		nationality = 4,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -2660,7 +2666,7 @@ end)()
 		name = "GreatDevil24",
 		background = "",
 		sculpture = "Z24_2",
-		nationality = 0,
+		nationality = 4,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -2714,7 +2720,7 @@ end)()
 		name = "Yingrui",
 		background = "",
 		sculpture = "yingrui_2",
-		nationality = 0,
+		nationality = 5,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -2723,7 +2729,7 @@ end)()
 		name = "Zhaohe",
 		background = "",
 		sculpture = "zhaohe_2",
-		nationality = 0,
+		nationality = 5,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -2840,7 +2846,7 @@ end)()
 		name = "Pola",
 		background = "",
 		sculpture = "bola",
-		nationality = 0,
+		nationality = 6,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -3868,7 +3874,7 @@ end)()
 		name = "Aegir",
 		background = "",
 		sculpture = "aijier_4",
-		nationality = 0,
+		nationality = 4,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -3949,7 +3955,7 @@ end)()
 		name = "Roma ",
 		background = "",
 		sculpture = "luoma",
-		nationality = 0,
+		nationality = 6,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -3985,7 +3991,7 @@ end)()
 		name = "Alfredo ",
 		background = "",
 		sculpture = "aerfuleiduo",
-		nationality = 0,
+		nationality = 6,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -4311,7 +4317,7 @@ end)()
 		name = "Prinz-Rupprecht",
 		background = "",
 		sculpture = "lupuleixite",
-		nationality = 0,
+		nationality = 4,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -4437,7 +4443,7 @@ end)()
 		name = "Alvensleben",
 		background = "",
 		sculpture = "aotuo",
-		nationality = 0,
+		nationality = 4,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -4500,7 +4506,7 @@ end)()
 		name = "Painlevé",
 		background = "",
 		sculpture = "banerwei",
-		nationality = 0,
+		nationality = 8,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -4572,7 +4578,7 @@ end)()
 		name = "Unzen",
 		background = "",
 		sculpture = "yunxian_3",
-		nationality = 0,
+		nationality = 3,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -4788,7 +4794,7 @@ end)()
 		name = "Guam",
 		background = "",
 		sculpture = "guandao_3",
-		nationality = 0,
+		nationality = 1,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -4968,7 +4974,7 @@ end)()
 		name = "Sovetsky Soyuz",
 		background = "",
 		sculpture = "suweiaitongmeng_3",
-		nationality = 0,
+		nationality = 7,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -5049,7 +5055,7 @@ end)()
 		name = "Brennus",
 		background = "",
 		sculpture = "bulunnusi_3",
-		nationality = 0,
+		nationality = 8,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -5112,7 +5118,7 @@ end)()
 		name = "☆WildeKatze47☆",
 		background = "",
 		sculpture = "z47",
-		nationality = 0,
+		nationality = 4,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -5130,7 +5136,7 @@ end)()
 		name = "Z·DEVIL·43",
 		background = "",
 		sculpture = "z43",
-		nationality = 0,
+		nationality = 4,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -5447,6 +5453,15 @@ end)()
 		name = "下午茶福利",
 		background = "200",
 		sculpture = "201",
+		nationality = 12,
+		type = 2,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[202] = {
+		ship_group = 202,
+		name = "活动筹备组",
+		background = "200",
+		sculpture = "202",
 		nationality = 12,
 		type = 2,
 		sculpture_ii = ""
@@ -6072,6 +6087,8 @@ end)()
 		type = 1,
 		sculpture_ii = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_ship_group_template[900939] = {
 		ship_group = 900939,
 		name = "Kansas",
@@ -6081,8 +6098,6 @@ end)()
 		type = 1,
 		sculpture_ii = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_ship_group_template[30716] = {
 		ship_group = 30716,
 		name = "Hakuhō ",
@@ -6647,6 +6662,51 @@ end)()
 		background = "",
 		sculpture = "malani",
 		nationality = 1,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[40815] = {
+		ship_group = 40815,
+		name = "U-2501>w<",
+		background = "",
+		sculpture = "u2501",
+		nationality = 4,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[40114] = {
+		ship_group = 40114,
+		name = "Zerstörer14",
+		background = "",
+		sculpture = "Z14",
+		nationality = 4,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[40115] = {
+		ship_group = 40115,
+		name = "Fahrzeugkiller15",
+		background = "",
+		sculpture = "Z15",
+		nationality = 4,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[40317] = {
+		ship_group = 40317,
+		name = "Prinz Moritz",
+		background = "",
+		sculpture = "molici",
+		nationality = 4,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[40507] = {
+		ship_group = 40507,
+		name = "Götz von Berlichingen",
+		background = "",
+		sculpture = "gezi",
+		nationality = 4,
 		type = 1,
 		sculpture_ii = ""
 	}

@@ -38,7 +38,7 @@ slot1.OnCountChange = function(slot0)
 end
 
 slot1.SetToCombatUIPreview = function(slot0, slot1)
-	if slot1 then
+	if slot1 ~= CombatUIPreviewer.WeaponButtonPreviewMode.UNFILLED then
 		SetActive(slot0._filled, true)
 		SetActive(slot0._unfill, false)
 

@@ -186,6 +186,7 @@ slot0.handleNotification = function(slot0, slot1)
 							mediator = PaintingShowMediator,
 							viewComponent = PaintingShowScene,
 							data = {
+								is_shop = true,
 								skinId = slot6,
 								callback = slot7
 							}

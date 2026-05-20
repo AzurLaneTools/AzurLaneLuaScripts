@@ -15,7 +15,7 @@ slot0.OnRefresh = function(slot0, slot1)
 	setText(slot0._tf:Find("content_unlock/title/bg/Text"), i18n("tech_select_tip1"))
 	setText(slot0._tf:Find("content_unlock/title/Text"), i18n("tech_select_tip2"))
 
-	slot4 = slot0._tf:Find("content_unlock/list")
+	slot4 = slot0._tf:Find("content_unlock/mask/list")
 	slot5 = UIItemList.New(slot4, slot4:GetChild(0))
 
 	slot5:make(function (slot0, slot1, slot2)

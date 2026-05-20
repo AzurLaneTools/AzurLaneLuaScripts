@@ -230,20 +230,6 @@ slot0.isShow = function()
 end
 
 slot0.isTip = function()
-	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_NEWSERVER_TASK) and not slot0:isEnd() then
-		slot1 = getProxy(TaskProxy)
-
-		for slot6, slot7 in ipairs(slot0:getConfig("config_data")) do
-			for slot11, slot12 in ipairs(slot7) do
-				assert(slot1:getTaskVO(slot12), "without this task:" .. slot12)
-
-				if slot1:getTaskVO(slot12):getTaskStatus() == 1 then
-					return true
-				end
-			end
-		end
-	end
-
 	return false
 end
 

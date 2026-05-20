@@ -6,6 +6,7 @@ return {
 			SCENE.SUMMARY
 		},
 		isShow = function ()
+			return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_SUMMARY) and not slot0:isEnd()
 		end
 	},
 	{

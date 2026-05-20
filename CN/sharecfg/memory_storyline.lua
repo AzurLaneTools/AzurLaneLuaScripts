@@ -97,7 +97,8 @@ pg.memory_storyline.all = {
 	92,
 	93,
 	94,
-	95
+	95,
+	96
 }
 pg.base = pg.base or {}
 pg.base.memory_storyline = {}
@@ -2548,18 +2549,48 @@ pg.base.memory_storyline = {}
 		}
 	}
 	pg.base.memory_storyline[95] = {
+		description = [[
+「我，骑士，葛兹·冯·伯利辛根」
+「在此圣印前许下庄重的誓言」
+「我将守护这片神圣的土地」
+「不吝代价，不惜生命」
+「战斗，直至——」]],
+		name = "圣印前的同盟",
+		column = 59,
+		world_id = "",
+		bgm = "theme-hrr",
+		row = 0,
+		chapter = 5,
+		memory_lock = 0,
+		id = 95,
+		icon = "InterludeOne_2",
+		sort = 1,
+		memory_id = {
+			1,
+			365
+		},
+		shipnation = {
+			4,
+			10,
+			6
+		},
+		link_event = {
+			96
+		}
+	}
+	pg.base.memory_storyline[96] = {
 		description = "敬请期待",
 		name = "敬请期待",
 		shipnation = 0,
 		memory_id = "",
 		link_event = "",
-		column = 59,
+		column = 60,
 		world_id = "",
 		bgm = "",
 		row = 0,
 		chapter = 0,
 		memory_lock = 1,
-		id = 95,
+		id = 96,
 		icon = "",
 		sort = 0
 	}

@@ -273,6 +273,8 @@ pg.memory_group.all = {
 	362,
 	363,
 	364,
+	365,
+	366,
 	501,
 	502,
 	503,
@@ -408,6 +410,7 @@ pg.base.memory_group = {}
 
 (function ()
 	pg.base.memory_group[1] = {
+		ship_group = 0,
 		icon = "title_main",
 		type = 1,
 		link_event = 0,
@@ -426,6 +429,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[2] = {
+		ship_group = 0,
 		icon = "title_main",
 		type = 1,
 		link_event = 0,
@@ -448,6 +452,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[3] = {
+		ship_group = 0,
 		icon = "title_main",
 		type = 1,
 		link_event = 0,
@@ -463,6 +468,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[4] = {
+		ship_group = 0,
 		icon = "title_main",
 		type = 1,
 		link_event = 0,
@@ -484,6 +490,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[98] = {
+		ship_group = 0,
 		icon = "title_main",
 		type = 1,
 		link_event = 0,
@@ -526,6 +533,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[99] = {
+		ship_group = 0,
 		icon = "title_main",
 		type = 1,
 		link_event = 0,
@@ -542,6 +550,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[100] = {
+		ship_group = 0,
 		icon = "title_main",
 		type = 1,
 		link_event = 0,
@@ -557,6 +566,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[101] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -575,6 +585,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[102] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -606,6 +617,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[103] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -629,6 +641,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[104] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -649,6 +662,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[105] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -670,6 +684,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[106] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -690,6 +705,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[107] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -709,6 +725,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[108] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -739,6 +756,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[109] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -761,6 +779,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[110] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -780,6 +799,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[111] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -799,6 +819,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[112] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -818,6 +839,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[113] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -838,6 +860,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[114] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -857,6 +880,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[115] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -882,6 +906,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[116] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -901,6 +926,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[117] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -922,6 +948,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[118] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -941,6 +968,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[119] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -961,6 +989,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[120] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -978,6 +1007,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[121] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -994,6 +1024,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[122] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1013,6 +1044,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[123] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1043,6 +1075,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[124] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1062,6 +1095,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[125] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1081,6 +1115,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[126] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1094,6 +1129,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[128] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1113,6 +1149,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[129] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1129,6 +1166,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[130] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1147,6 +1185,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[131] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1173,6 +1212,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[132] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1194,6 +1234,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[133] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1217,6 +1258,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[134] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1234,6 +1276,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[135] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1252,6 +1295,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[136] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1268,6 +1312,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[137] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1285,6 +1330,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[138] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1303,6 +1349,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[139] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1319,6 +1366,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[140] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1336,6 +1384,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[141] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1355,6 +1404,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[142] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1395,6 +1445,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[143] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1414,6 +1465,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[144] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1436,6 +1488,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[145] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1459,6 +1512,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[146] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1478,6 +1532,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[147] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1497,6 +1552,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[148] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1531,6 +1587,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[149] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1550,6 +1607,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[150] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1567,6 +1625,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[151] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1591,6 +1650,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[152] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1610,6 +1670,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[153] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1626,6 +1687,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[154] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1662,6 +1724,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[155] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1679,6 +1742,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[156] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1694,6 +1758,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[157] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1711,6 +1776,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[158] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1744,6 +1810,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[159] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1763,6 +1830,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[160] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1780,6 +1848,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[161] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1796,6 +1865,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[162] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1818,6 +1888,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[163] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1863,6 +1934,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[164] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1880,6 +1952,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[165] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1894,8 +1967,9 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[166] = {
+		ship_group = 0,
 		icon = "title_chara_rongyaodiantang",
-		type = 3,
+		type = 4,
 		link_event = 0,
 		title = "荣耀殿堂",
 		auto_unlock = "",
@@ -1918,6 +1992,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[167] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1953,6 +2028,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[168] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1969,6 +2045,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[169] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -1986,6 +2063,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[170] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -2008,6 +2086,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[171] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -2025,6 +2104,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[172] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -2061,6 +2141,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[173] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -2076,6 +2157,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[174] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -2139,6 +2221,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[175] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -2161,6 +2244,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[176] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -2178,6 +2262,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[177] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -2218,6 +2303,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[178] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -2235,6 +2321,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[179] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -2252,6 +2339,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[180] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -2268,6 +2356,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[181] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -2312,6 +2401,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[182] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -2328,6 +2418,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[183] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -2375,6 +2466,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[184] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -2391,6 +2483,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[185] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -2412,6 +2505,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[186] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -2458,6 +2552,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[187] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -2483,6 +2578,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[188] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -2535,6 +2631,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[189] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -2589,6 +2686,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[190] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -2611,6 +2709,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[191] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -2645,6 +2744,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[192] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -2673,6 +2773,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[193] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -2689,6 +2790,7 @@ pg.base.memory_group = {}
 		}
 	}
 	pg.base.memory_group[194] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -2738,6 +2840,7 @@ pg.base.memory_group = {}
 end)()
 (function ()
 	pg.base.memory_group[195] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -2781,6 +2884,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[196] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -2828,6 +2932,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[197] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -2844,6 +2949,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[198] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -2889,6 +2995,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[199] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -2905,6 +3012,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[200] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -2933,6 +3041,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[202] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5069,
@@ -2980,6 +3089,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[203] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -3004,6 +3114,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[204] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 4932,
@@ -3041,6 +3152,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[205] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 4933,
@@ -3057,6 +3169,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[206] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -3081,6 +3194,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[207] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -3130,6 +3244,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[208] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -3147,6 +3262,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[209] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -3166,6 +3282,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[210] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -3182,6 +3299,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[211] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -3227,6 +3345,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[212] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -3250,6 +3369,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[213] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -3264,6 +3384,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[214] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -3283,6 +3404,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[215] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -3329,6 +3451,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[216] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -3345,6 +3468,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[217] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -3360,6 +3484,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[218] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -3408,6 +3533,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[219] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -3424,6 +3550,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[220] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -3442,6 +3569,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[221] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -3461,6 +3589,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[222] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -3480,6 +3609,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[223] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -3529,6 +3659,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[224] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -3557,6 +3688,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[225] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -3576,6 +3708,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[226] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -3627,6 +3760,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[227] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -3644,6 +3778,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[228] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -3659,6 +3794,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[229] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -3676,6 +3812,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[230] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -3694,6 +3831,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[231] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 4584,
@@ -3713,6 +3851,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[232] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 4580,
@@ -3751,6 +3890,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[233] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 4597,
@@ -3770,6 +3910,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[234] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 4618,
@@ -3789,6 +3930,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[235] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 4607,
@@ -3836,6 +3978,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[236] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -3853,6 +3996,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[237] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -3869,6 +4013,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[238] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -3884,6 +4029,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[239] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -3903,6 +4049,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[240] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -3945,6 +4092,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[241] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -3976,6 +4124,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[242] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -3993,6 +4142,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[243] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -4008,6 +4158,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[244] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -4027,6 +4178,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[245] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -4076,6 +4228,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[246] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -4122,6 +4275,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[247] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -4135,6 +4289,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[248] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -4148,6 +4303,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[249] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 4915,
@@ -4165,6 +4321,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[250] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 4919,
@@ -4180,6 +4337,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[251] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 4940,
@@ -4202,6 +4360,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[252] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 4951,
@@ -4221,6 +4380,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[253] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 4963,
@@ -4250,6 +4410,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[254] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 4967,
@@ -4307,6 +4468,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[255] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 4962,
@@ -4322,6 +4484,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[256] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 4974,
@@ -4341,6 +4504,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[257] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5001,
@@ -4387,6 +4551,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[258] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5009,
@@ -4404,6 +4569,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[259] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 4990,
@@ -4428,6 +4594,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[260] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5015,
@@ -4443,6 +4610,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[261] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5019,
@@ -4460,6 +4628,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[262] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5023,
@@ -4480,6 +4649,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[263] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5051,
@@ -4520,6 +4690,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[264] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5054,
@@ -4560,6 +4731,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[265] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5082,
@@ -4575,6 +4747,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[266] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5101,
@@ -4611,6 +4784,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[267] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5096,
@@ -4630,6 +4804,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[268] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 1068,
@@ -4659,6 +4834,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[269] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5105,
@@ -4678,6 +4854,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[270] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5131,
@@ -4727,6 +4904,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[271] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5143,
@@ -4743,6 +4921,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[272] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5150,
@@ -4758,6 +4937,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[273] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5178,
@@ -4775,6 +4955,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[274] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5178,
@@ -4790,6 +4971,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[275] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5184,
@@ -4805,6 +4987,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[276] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5184,
@@ -4820,6 +5003,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[277] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5212,
@@ -4840,6 +5024,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[278] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5221,
@@ -4886,6 +5071,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[279] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5224,
@@ -4906,6 +5092,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[280] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5243,
@@ -4923,6 +5110,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[281] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5265,
@@ -4963,6 +5151,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[282] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5267,
@@ -4978,6 +5167,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[283] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5305,
@@ -4997,6 +5187,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[284] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5301,
@@ -5026,6 +5217,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[285] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5311,
@@ -5041,6 +5233,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[286] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5324,
@@ -5058,6 +5251,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[287] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5341,
@@ -5077,6 +5271,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[288] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5335,
@@ -5135,6 +5330,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[289] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5331,
@@ -5182,6 +5378,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[290] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5360,
@@ -5195,6 +5392,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[291] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5364,
@@ -5208,6 +5406,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[292] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5402,
@@ -5230,6 +5429,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[293] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5501,
@@ -5252,6 +5452,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[294] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5504,
@@ -5267,6 +5468,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[295] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5512,
@@ -5288,6 +5490,7 @@ end)()
 end)()
 (function ()
 	pg.base.memory_group[296] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5521,
@@ -5337,6 +5540,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[297] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5523,
@@ -5367,6 +5571,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[298] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5541,
@@ -5392,6 +5597,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[299] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5551,
@@ -5411,6 +5617,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[300] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5548,
@@ -5428,6 +5635,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[301] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5560,
@@ -5459,6 +5667,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[302] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5562,
@@ -5508,6 +5717,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[303] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5581,
@@ -5521,6 +5731,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[304] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -5534,6 +5745,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[305] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 1,
 		link_event = 0,
@@ -5547,6 +5759,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[306] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5625,
@@ -5581,6 +5794,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[307] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5623,
@@ -5601,6 +5815,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[308] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5654,
@@ -5614,6 +5829,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[309] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5679,
@@ -5643,6 +5859,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[310] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5681,
@@ -5661,6 +5878,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[311] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5691,
@@ -5681,6 +5899,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[312] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5699,
@@ -5702,6 +5921,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[313] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5711,
@@ -5747,6 +5967,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[314] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5721,
@@ -5765,6 +5986,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[315] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5735,
@@ -5782,6 +6004,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[316] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5777,
@@ -5798,6 +6021,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[317] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5772,
@@ -5815,6 +6039,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[318] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5790,
@@ -5831,6 +6056,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[319] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5809,
@@ -5850,6 +6076,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[320] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5821,
@@ -5898,6 +6125,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[321] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5830,
@@ -5914,6 +6142,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[322] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5871,
@@ -5937,6 +6166,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[323] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5879,
@@ -5952,6 +6182,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[324] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5911,
@@ -5968,6 +6199,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[325] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5901,
@@ -5988,6 +6220,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[326] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5924,
@@ -6005,6 +6238,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[327] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5924,
@@ -6024,6 +6258,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[328] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5952,
@@ -6063,6 +6298,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[329] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5941,
@@ -6111,6 +6347,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[330] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5979,
@@ -6124,6 +6361,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[331] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5985,
@@ -6141,6 +6379,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[332] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 5985,
@@ -6155,6 +6394,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[333] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 50013,
@@ -6177,6 +6417,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[334] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 50054,
@@ -6223,6 +6464,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[335] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 50054,
@@ -6239,6 +6481,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[336] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 50081,
@@ -6280,6 +6523,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[337] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 50084,
@@ -6299,6 +6543,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[338] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 50104,
@@ -6318,6 +6563,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[339] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 50114,
@@ -6369,6 +6615,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[340] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 50116,
@@ -6401,6 +6648,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[341] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 50156,
@@ -6428,6 +6676,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[342] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 50156,
@@ -6442,6 +6691,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[343] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 50202,
@@ -6462,6 +6712,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[344] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 50181,
@@ -6503,6 +6754,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[345] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 50235,
@@ -6518,6 +6770,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[346] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 50268,
@@ -6531,6 +6784,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[347] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 50256,
@@ -6575,6 +6829,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[348] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 50256,
@@ -6593,6 +6848,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[349] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 50262,
@@ -6624,6 +6880,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[350] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 50266,
@@ -6645,6 +6902,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[351] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 50281,
@@ -6701,6 +6959,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[352] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 50290,
@@ -6718,6 +6977,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[353] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 50297,
@@ -6736,6 +6996,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[354] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 50360,
@@ -6758,6 +7019,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[355] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 50404,
@@ -6777,6 +7039,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[356] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 50401,
@@ -6792,6 +7055,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[357] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 50412,
@@ -6808,6 +7072,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[358] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 50402,
@@ -6840,6 +7105,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[359] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 50481,
@@ -6877,6 +7143,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[360] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 50493,
@@ -6892,6 +7159,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[361] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 6025,
@@ -6917,6 +7185,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[362] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 6028,
@@ -6936,6 +7205,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[363] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 51005,
@@ -6955,6 +7225,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[364] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 51001,
@@ -6971,7 +7242,97 @@ end)()
 			5135
 		}
 	}
+	pg.base.memory_group[365] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 50605,
+		title = "圣印前的同盟",
+		auto_unlock = "",
+		subtype = 1,
+		id = 365,
+		group_id = "",
+		memories = {
+			5141,
+			5142,
+			5143,
+			5144,
+			5145,
+			5146,
+			5147,
+			5148,
+			5149,
+			5150,
+			5151,
+			5152,
+			5153,
+			5154,
+			5155,
+			5156,
+			5157,
+			5158,
+			5159,
+			5160,
+			5161,
+			5162,
+			5163,
+			5164,
+			5165,
+			5166,
+			5167,
+			5168,
+			5169,
+			5170,
+			5171,
+			5172,
+			5173,
+			5174,
+			5175,
+			5176,
+			5177,
+			5178,
+			5179
+		}
+	}
+	pg.base.memory_group[366] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 50602,
+		title = "奢华！享梦！浮金湾！",
+		auto_unlock = "",
+		subtype = 2,
+		id = 366,
+		group_id = "",
+		memories = {
+			5181,
+			5182,
+			5183,
+			5184,
+			5185,
+			5186,
+			5187,
+			5188,
+			5189,
+			5190,
+			5191,
+			5192,
+			5193,
+			5194,
+			5195,
+			5196,
+			5197,
+			5198,
+			5199,
+			5200,
+			5201,
+			5202,
+			5203,
+			5204
+		}
+	}
 	pg.base.memory_group[501] = {
+		ship_group = 31201,
 		icon = "title_chara_mingshi",
 		type = 3,
 		link_event = 0,
@@ -7004,6 +7365,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[502] = {
+		ship_group = 10601,
 		icon = "title_chara_changdao",
 		type = 3,
 		link_event = 0,
@@ -7025,6 +7387,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[503] = {
+		ship_group = 30706,
 		icon = "title_chara_ruihe",
 		type = 3,
 		link_event = 0,
@@ -7046,6 +7409,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[504] = {
+		ship_group = 30116,
 		icon = "title_chara_xuefeng",
 		type = 3,
 		link_event = 0,
@@ -7067,6 +7431,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[505] = {
+		ship_group = 20203,
 		icon = "title_chara_ajiakesi",
 		type = 3,
 		link_event = 0,
@@ -7088,6 +7453,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[506] = {
+		ship_group = 10125,
 		icon = "title_chara_haman",
 		type = 3,
 		link_event = 0,
@@ -7109,6 +7475,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[507] = {
+		ship_group = 30701,
 		icon = "title_chara_chicheng",
 		type = 3,
 		link_event = 0,
@@ -7130,6 +7497,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[508] = {
+		ship_group = 10209,
 		icon = "title_chara_kelifulan",
 		type = 3,
 		link_event = 0,
@@ -7151,6 +7519,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[509] = {
+		ship_group = 30502,
 		icon = "title_chara_shancheng2",
 		type = 3,
 		link_event = 0,
@@ -7172,6 +7541,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[510] = {
+		ship_group = 20706,
 		icon = "title_chara_guangrong",
 		type = 3,
 		link_event = 0,
@@ -7193,6 +7563,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[511] = {
+		ship_group = 10703,
 		icon = "title_chara_salatuojia",
 		type = 3,
 		link_event = 0,
@@ -7214,6 +7585,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[512] = {
+		ship_group = 30312,
 		icon = "title_chara_aidang",
 		type = 3,
 		link_event = 0,
@@ -7235,6 +7607,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[513] = {
+		ship_group = 40146,
 		icon = "title_chara_z46",
 		type = 3,
 		link_event = 0,
@@ -7256,6 +7629,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[515] = {
+		ship_group = 80101,
 		icon = "title_chara_kaixuan",
 		type = 3,
 		link_event = 0,
@@ -7277,6 +7651,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[516] = {
+		ship_group = 80201,
 		icon = "title_chara_aimier",
 		type = 3,
 		link_event = 0,
@@ -7298,6 +7673,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[517] = {
+		ship_group = 80801,
 		icon = "title_chara_xukufu",
 		type = 3,
 		link_event = 0,
@@ -7319,6 +7695,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[518] = {
+		ship_group = 40502,
 		icon = "title_chara_tierbici",
 		type = 3,
 		link_event = 0,
@@ -7340,6 +7717,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[519] = {
+		ship_group = 20604,
 		icon = "title_chara_banrenma",
 		type = 3,
 		link_event = 0,
@@ -7361,6 +7739,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[520] = {
+		ship_group = 30402,
 		icon = "title_chara_birui",
 		type = 3,
 		link_event = 0,
@@ -7382,6 +7761,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[521] = {
+		ship_group = 40304,
 		icon = "title_chara_deyizhi",
 		type = 3,
 		link_event = 0,
@@ -7403,6 +7783,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[522] = {
+		ship_group = 10802,
 		icon = "title_chara_daqinghuayu",
 		type = 3,
 		link_event = 0,
@@ -7424,6 +7805,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[523] = {
+		ship_group = 30707,
 		icon = "title_chara_dafeng",
 		type = 3,
 		link_event = 0,
@@ -7445,6 +7827,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[524] = {
+		ship_group = 10709,
 		icon = "title_chara_aisaikesi",
 		type = 3,
 		link_event = 0,
@@ -7466,6 +7849,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[525] = {
+		ship_group = 30109,
 		icon = "title_chara_xiao",
 		type = 3,
 		link_event = 0,
@@ -7487,6 +7871,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[526] = {
+		ship_group = 20219,
 		icon = "title_chara_niukasier",
 		type = 3,
 		link_event = 0,
@@ -7508,6 +7893,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[527] = {
+		ship_group = 10212,
 		icon = "title_chara_huonululu",
 		type = 3,
 		link_event = 0,
@@ -7529,6 +7915,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[528] = {
+		ship_group = 10127,
 		icon = "title_chara_beili",
 		type = 3,
 		link_event = 0,
@@ -7550,6 +7937,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[529] = {
+		ship_group = 30118,
 		icon = "title_chara_buzhihuo",
 		type = 3,
 		link_event = 0,
@@ -7571,6 +7959,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[530] = {
+		ship_group = 10218,
 		icon = "title_chara_kangkede",
 		type = 3,
 		link_event = 0,
@@ -7591,7 +7980,10 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[531] = {
+		ship_group = 30606,
 		icon = "title_chara_longxiang",
 		type = 3,
 		link_event = 0,
@@ -7613,6 +8005,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[532] = {
+		ship_group = 30164,
 		icon = "title_chara_dachao",
 		type = 3,
 		link_event = 0,
@@ -7633,9 +8026,8 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[533] = {
+		ship_group = 30309,
 		icon = "title_chara_zubing",
 		type = 3,
 		link_event = 0,
@@ -7657,6 +8049,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[534] = {
+		ship_group = 30703,
 		icon = "title_chara_canglong",
 		type = 3,
 		link_event = 0,
@@ -7678,6 +8071,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[535] = {
+		ship_group = 30121,
 		icon = "title_chara_chuchun",
 		type = 3,
 		link_event = 0,
@@ -7699,6 +8093,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[536] = {
+		ship_group = 10310,
 		icon = "title_chara_wensensi",
 		type = 3,
 		link_event = 0,
@@ -7720,6 +8115,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[537] = {
+		ship_group = 20208,
 		icon = "title_chara_xiefeierde",
 		type = 3,
 		link_event = 0,
@@ -7741,6 +8137,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[538] = {
+		ship_group = 20220,
 		icon = "title_chara_tianlangxing",
 		type = 3,
 		link_event = 0,
@@ -7762,6 +8159,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[539] = {
+		ship_group = 20502,
 		icon = "title_chara_yanzhan",
 		type = 3,
 		link_event = 0,
@@ -7783,6 +8181,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[540] = {
+		ship_group = 10738,
 		icon = "title_chara_xianggelila",
 		type = 3,
 		link_event = 0,
@@ -7804,6 +8203,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[542] = {
+		ship_group = 40305,
 		icon = "title_chara_sipei",
 		type = 3,
 		link_event = 0,
@@ -7825,6 +8225,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[543] = {
+		ship_group = 20505,
 		icon = "title_chara_qiaozhiwushi",
 		type = 3,
 		link_event = 0,
@@ -7846,6 +8247,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[544] = {
+		ship_group = 40804,
 		icon = "title_chara_u556story",
 		type = 3,
 		link_event = 0,
@@ -7867,6 +8269,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[545] = {
+		ship_group = 10803,
 		icon = "title_chara_jiqi",
 		type = 3,
 		link_event = 0,
@@ -7888,6 +8291,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[546] = {
+		ship_group = 60302,
 		icon = "title_chara_zhala",
 		type = 3,
 		link_event = 0,
@@ -7909,6 +8313,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[547] = {
+		ship_group = 70201,
 		icon = "title_chara_afuleer",
 		type = 3,
 		link_event = 0,
@@ -7930,6 +8335,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[548] = {
+		ship_group = 30180,
 		icon = "title_chara_juanbo",
 		type = 3,
 		link_event = 0,
@@ -7951,6 +8357,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[549] = {
+		ship_group = 10306,
 		icon = "title_chara_botelan",
 		type = 3,
 		link_event = 0,
@@ -7972,6 +8379,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[550] = {
+		ship_group = 20703,
 		icon = "title_chara_guanghui",
 		type = 3,
 		link_event = 0,
@@ -7993,6 +8401,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[551] = {
+		ship_group = 20402,
 		icon = "title_chara_fanji",
 		type = 3,
 		link_event = 0,
@@ -8014,6 +8423,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[552] = {
+		ship_group = 40301,
 		icon = "title_chara_xipeier",
 		type = 3,
 		link_event = 0,
@@ -8035,6 +8445,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[553] = {
+		ship_group = 20303,
 		icon = "title_chara_kente",
 		type = 3,
 		link_event = 0,
@@ -8056,6 +8467,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[554] = {
+		ship_group = 20605,
 		icon = "title_chara_zhuiganzhe",
 		type = 3,
 		link_event = 0,
@@ -8077,6 +8489,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[555] = {
+		ship_group = 20226,
 		icon = "title_chara_gelasige",
 		type = 3,
 		link_event = 0,
@@ -8098,6 +8511,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[556] = {
+		ship_group = 70504,
 		icon = "title_chara_beilaluosi",
 		type = 3,
 		link_event = 0,
@@ -8119,6 +8533,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[557] = {
+		ship_group = 10215,
 		icon = "title_chara_danfo",
 		type = 3,
 		link_event = 0,
@@ -8140,6 +8555,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[558] = {
+		ship_group = 10145,
 		icon = "title_chara_ailunsamuna",
 		type = 3,
 		link_event = 0,
@@ -8161,6 +8577,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[559] = {
+		ship_group = 30115,
 		icon = "title_chara_shiyu",
 		type = 3,
 		link_event = 0,
@@ -8182,6 +8599,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[560] = {
+		ship_group = 60701,
 		icon = "title_chara_tianying",
 		type = 3,
 		link_event = 0,
@@ -8203,6 +8621,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[561] = {
+		ship_group = 40802,
 		icon = "title_chara_u47",
 		type = 3,
 		link_event = 0,
@@ -8224,6 +8643,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[562] = {
+		ship_group = 20503,
 		icon = "title_chara_naerxun",
 		type = 3,
 		link_event = 0,
@@ -8245,6 +8665,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[563] = {
+		ship_group = 10229,
 		icon = "title_chara_boyixi",
 		type = 3,
 		link_event = 0,
@@ -8266,6 +8687,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[564] = {
+		ship_group = 30501,
 		icon = "title_chara_fusang",
 		type = 3,
 		link_event = 0,
@@ -8287,6 +8709,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[565] = {
+		ship_group = 30208,
 		icon = "title_chara_guinu",
 		type = 3,
 		link_event = 0,
@@ -8308,6 +8731,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[566] = {
+		ship_group = 10707,
 		icon = "title_chara_dahuangfeng",
 		type = 3,
 		link_event = 0,
@@ -8329,6 +8753,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[567] = {
+		ship_group = 10655,
 		icon = "title_chara_kasabulanka",
 		type = 3,
 		link_event = 0,
@@ -8350,6 +8775,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[568] = {
+		ship_group = 10227,
 		icon = "title_chara_mabuerheide",
 		type = 3,
 		link_event = 0,
@@ -8371,6 +8797,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[569] = {
+		ship_group = 30129,
 		icon = "title_chara_daofeng",
 		type = 3,
 		link_event = 0,
@@ -8392,6 +8819,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[570] = {
+		ship_group = 30514,
 		icon = "title_chara_junhe",
 		type = 3,
 		link_event = 0,
@@ -8413,6 +8841,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[571] = {
+		ship_group = 40503,
 		icon = "title_chara_wuerlixi",
 		type = 3,
 		link_event = 0,
@@ -8434,6 +8863,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[572] = {
+		ship_group = 20132,
 		icon = "title_chara_aisijimoren",
 		type = 3,
 		link_event = 0,
@@ -8455,6 +8885,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[573] = {
+		ship_group = 20211,
 		icon = "title_chara_aidingbao",
 		type = 3,
 		link_event = 0,
@@ -8476,6 +8907,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[574] = {
+		ship_group = 10205,
 		icon = "title_chara_hailunna",
 		type = 3,
 		link_event = 0,
@@ -8497,6 +8929,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[575] = {
+		ship_group = 60105,
 		icon = "title_chara_xinanfeng",
 		type = 3,
 		link_event = 0,
@@ -8518,6 +8951,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[576] = {
+		ship_group = 20134,
 		icon = "title_chara_jiaweisi",
 		type = 3,
 		link_event = 0,
@@ -8539,6 +8973,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[577] = {
+		ship_group = 70202,
 		icon = "title_chara_shuixingjinian",
 		type = 3,
 		link_event = 0,
@@ -8560,6 +8995,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[578] = {
+		ship_group = 10501,
 		icon = "title_chara_neihuada",
 		type = 3,
 		link_event = 0,
@@ -8581,6 +9017,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[579] = {
+		ship_group = 30182,
 		icon = "title_chara_huayue",
 		type = 3,
 		link_event = 0,
@@ -8602,6 +9039,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[580] = {
+		ship_group = 40302,
 		icon = "title_chara_bulvxieer",
 		type = 3,
 		link_event = 0,
@@ -8623,6 +9061,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[581] = {
+		ship_group = 60108,
 		icon = "title_chara_aerfuleiduo",
 		type = 3,
 		link_event = 0,
@@ -8644,6 +9083,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[582] = {
+		ship_group = 10148,
 		icon = "title_chara_yinggelahan",
 		type = 3,
 		link_event = 0,
@@ -8665,6 +9105,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[583] = {
+		ship_group = 19901,
 		icon = "title_chara_xiyatu",
 		type = 3,
 		link_event = 0,
@@ -8686,6 +9127,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[584] = {
+		ship_group = 60801,
 		icon = "title_chara_tuolichaili",
 		type = 3,
 		link_event = 0,
@@ -8707,6 +9149,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[585] = {
+		ship_group = 10702,
 		icon = "title_chara_liekexingdun",
 		type = 3,
 		link_event = 0,
@@ -8728,6 +9171,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[586] = {
+		ship_group = 40603,
 		icon = "title_chara_yade",
 		type = 3,
 		link_event = 0,
@@ -8749,6 +9193,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[587] = {
+		ship_group = 40403,
 		icon = "title_chara_saidelici",
 		type = 3,
 		link_event = 0,
@@ -8770,6 +9215,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[588] = {
+		ship_group = 60802,
 		icon = "title_chara_dafenqi",
 		type = 3,
 		link_event = 0,
@@ -8791,6 +9237,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[589] = {
+		ship_group = 60109,
 		icon = "title_chara_peisagenuo",
 		type = 3,
 		link_event = 0,
@@ -8812,6 +9259,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[590] = {
+		ship_group = 90111,
 		icon = "title_chara_edu",
 		type = 3,
 		link_event = 0,
@@ -8833,6 +9281,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[591] = {
+		ship_group = 90502,
 		icon = "title_chara_kelaimengsuo",
 		type = 3,
 		link_event = 0,
@@ -8854,6 +9303,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[592] = {
+		ship_group = 60107,
 		icon = "title_chara_pangpei",
 		type = 3,
 		link_event = 0,
@@ -8875,6 +9325,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[593] = {
+		ship_group = 11802,
 		icon = "title_chara_guandao",
 		type = 3,
 		link_event = 0,
@@ -8896,6 +9347,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[594] = {
+		ship_group = 50102,
 		icon = "title_chara_fushun",
 		type = 3,
 		link_event = 0,
@@ -8917,6 +9369,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[595] = {
+		ship_group = 50601,
 		icon = "title_chara_zhenhai",
 		type = 3,
 		link_event = 0,
@@ -8938,6 +9391,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[596] = {
+		ship_group = 10730,
 		icon = "title_chara_shenghaxintuo",
 		type = 3,
 		link_event = 0,
@@ -8959,6 +9413,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[597] = {
+		ship_group = 90701,
 		icon = "title_chara_xiafei",
 		type = 3,
 		link_event = 0,
@@ -8980,6 +9435,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[598] = {
+		ship_group = 50207,
 		icon = "title_chara_haitian",
 		type = 3,
 		link_event = 0,
@@ -9001,6 +9457,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[599] = {
+		ship_group = 49905,
 		icon = "title_chara_aijier",
 		type = 3,
 		link_event = 0,
@@ -9022,6 +9479,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[600] = {
+		ship_group = 80503,
 		icon = "title_chara_aersasi",
 		type = 3,
 		link_event = 0,
@@ -9043,6 +9501,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[601] = {
+		ship_group = 10324,
 		icon = "title_chara_bulaimodun",
 		type = 3,
 		link_event = 0,
@@ -9064,6 +9523,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[602] = {
+		ship_group = 30311,
 		icon = "title_chara_gaoxiong",
 		type = 3,
 		link_event = 0,
@@ -9085,6 +9545,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[603] = {
+		ship_group = 960005,
 		icon = "title_chara_weidahao",
 		type = 3,
 		link_event = 0,
@@ -9106,6 +9567,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[604] = {
+		ship_group = 20509,
 		icon = "title_chara_hao",
 		type = 3,
 		link_event = 0,
@@ -9127,6 +9589,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[605] = {
+		ship_group = 40404,
 		icon = "title_chara_lvzuofu",
 		type = 3,
 		link_event = 0,
@@ -9148,6 +9611,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[606] = {
+		ship_group = 50105,
 		icon = "title_chara_longwu",
 		type = 3,
 		link_event = 0,
@@ -9169,6 +9633,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[607] = {
+		ship_group = 50209,
 		icon = "title_chara_jian",
 		type = 3,
 		link_event = 0,
@@ -9190,6 +9655,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[608] = {
+		ship_group = 90107,
 		icon = "title_chara_mojiaduoer",
 		type = 3,
 		link_event = 0,
@@ -9211,6 +9677,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[609] = {
+		ship_group = 70203,
 		icon = "title_chara_qiabayefu",
 		type = 3,
 		link_event = 0,
@@ -9232,6 +9699,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[610] = {
+		ship_group = 20712,
 		icon = "title_chara_bunao",
 		type = 3,
 		link_event = 0,
@@ -9253,6 +9721,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[611] = {
+		ship_group = 49906,
 		icon = "title_chara_aogusite",
 		type = 3,
 		link_event = 0,
@@ -9274,6 +9743,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[612] = {
+		ship_group = 90401,
 		icon = "title_chara_dunkeerke",
 		type = 3,
 		link_event = 0,
@@ -9295,6 +9765,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[613] = {
+		ship_group = 90105,
 		icon = "title_chara_huajian",
 		type = 3,
 		link_event = 0,
@@ -9316,6 +9787,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[614] = {
+		ship_group = 30225,
 		icon = "title_chara_dulianglai",
 		type = 3,
 		link_event = 0,
@@ -9337,6 +9809,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[615] = {
+		ship_group = 960014,
 		icon = "title_chara_zhenzhuhao",
 		type = 3,
 		link_event = 0,
@@ -9358,6 +9831,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[616] = {
+		ship_group = 110201,
 		icon = "title_chara_qisheng",
 		type = 3,
 		link_event = 0,
@@ -9379,6 +9853,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[617] = {
+		ship_group = 10233,
 		icon = "title_chara_fage",
 		type = 3,
 		link_event = 0,
@@ -9400,6 +9875,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[618] = {
+		ship_group = 60501,
 		icon = "title_chara_weineituo",
 		type = 3,
 		link_event = 0,
@@ -9421,6 +9897,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[619] = {
+		ship_group = 51901,
 		icon = "title_chara_dingan",
 		type = 3,
 		link_event = 0,
@@ -9442,6 +9919,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[620] = {
+		ship_group = 20607,
 		icon = "title_chara_aerbien",
 		type = 3,
 		link_event = 0,
@@ -9463,6 +9941,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[621] = {
+		ship_group = 20313,
 		icon = "title_chara_dewenjun",
 		type = 3,
 		link_event = 0,
@@ -9484,6 +9963,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[622] = {
+		ship_group = 49910,
 		icon = "title_chara_meikelunbao",
 		type = 3,
 		link_event = 0,
@@ -9505,6 +9985,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[1000] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -9561,6 +10042,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[1001] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -9581,6 +10063,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[1002] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -9623,6 +10106,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[1003] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -9681,6 +10165,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[1004] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -9702,6 +10187,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[1005] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -9726,6 +10212,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[1006] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -9784,6 +10271,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[1007] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,
@@ -9805,6 +10293,7 @@ end)()
 		}
 	}
 	pg.base.memory_group[1008] = {
+		ship_group = 0,
 		icon = "title_event",
 		type = 2,
 		link_event = 0,

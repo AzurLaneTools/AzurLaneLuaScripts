@@ -196,6 +196,10 @@ pg.ship_meta_breakout.all = {
 	9706042,
 	9706043,
 	9706044,
+	9706051,
+	9706052,
+	9706053,
+	9706054,
 	9707011,
 	9707012,
 	9707013,
@@ -3352,6 +3356,75 @@ end)()
 		level = 0,
 		weapon_ids = {}
 	}
+	pg.base.ship_meta_breakout[9706051] = {
+		breakout_view = "习得技能【逐光之焰·{namecode:468}】所有轰炸机+1/战斗机效率提高5%",
+		item2 = 21001,
+		pre_id = 0,
+		repair = 0,
+		gold = 1000,
+		breakout_id = 9706052,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9706051,
+		item1 = 21061,
+		level = 10,
+		weapon_ids = {
+			60591,
+			54014
+		}
+	}
+	pg.base.ship_meta_breakout[9706052] = {
+		breakout_view = "机库容量+1/所有战斗机+1/战斗机效率提高10%",
+		item2 = 21001,
+		pre_id = 9706051,
+		repair = 0,
+		gold = 3000,
+		breakout_id = 9706053,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9706052,
+		item1 = 21061,
+		level = 30,
+		weapon_ids = {
+			60591,
+			54014,
+			60592,
+			54014
+		}
+	}
+	pg.base.ship_meta_breakout[9706053] = {
+		breakout_view = "【逐光之焰·{namecode:468}】升级/所有舰载机+1/轰炸机效率提高10%",
+		item2 = 21001,
+		pre_id = 9706052,
+		repair = 0,
+		gold = 10000,
+		breakout_id = 9706054,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9706053,
+		item1 = 21061,
+		level = 70,
+		weapon_ids = {
+			60593,
+			54015,
+			60593,
+			54015
+		}
+	}
+	pg.base.ship_meta_breakout[9706054] = {
+		breakout_view = "无",
+		item2 = 21001,
+		pre_id = 9706053,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9706054,
+		item1 = 21061,
+		level = 0,
+		weapon_ids = {}
+	}
 	pg.base.ship_meta_breakout[9707011] = {
 		breakout_view = "习得技能【破敌之炬·{namecode:94}】/所有鱼雷机+1/鱼雷机效率提高5%",
 		item2 = 21001,
@@ -3421,6 +3494,8 @@ end)()
 		level = 0,
 		weapon_ids = {}
 	}
+end)()
+(function ()
 	pg.base.ship_meta_breakout[9707021] = {
 		breakout_view = "习得技能【破敌之炬·皇家方舟】/所有鱼雷机+1/鱼雷机效率提高3%",
 		item2 = 21002,
@@ -3490,8 +3565,6 @@ end)()
 		level = 0,
 		weapon_ids = {}
 	}
-end)()
-(function ()
 	pg.base.ship_meta_breakout[9707031] = {
 		breakout_view = "习得技能【摇曳之火·{namecode:205}】/所有轰炸机+1/轰炸机效率提高5%",
 		item2 = 21001,

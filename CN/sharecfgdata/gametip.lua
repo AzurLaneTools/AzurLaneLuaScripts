@@ -9427,6 +9427,11 @@ _G.pg.base.gametip.ship_remould_warning_521024 = {
 }
 
 
+_G.pg.base.gametip.ship_remould_warning_403994 = {
+	tip = "此次改造操作后<color=#92fc63>【主炮底座+1】</color>\n主炮武器效率调整为120%\n是否确认继续操作？"
+}
+
+
 _G.pg.base.gametip.word_soundfiles_download_title = {
 	tip = "语音包下载"
 }
@@ -12510,7 +12515,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "伊莉丝、香迪、千乃 建造概率UP！"
+	tip = "每累计建造200次可获得海上传奇舰船 {namecode:557}(最多4次)"
 }
 
 
@@ -15042,13 +15047,13 @@ _G.pg.base.gametip.returner_help = {
 
 被邀请者：
 回归指挥官：
-在2025年8月29日至9月12日维护期间没有过登录行为的
+在2026年5月7日至5月20日维护期间没有过登录行为的
 指挥官
 新人指挥官：
-在2025年9月12日至10月2日24时期间新注册的指挥官
+在2026年5月20日至6月12日维护期间新注册的指挥官
 满足被邀请资格的指挥官在活动期间登录可在特别活动页内输入邀请者的UID参与活动
 邀请者：
-2025年8月29日至9月12日维护前有过登录行为的指挥官
+2026年5月7日至5月20日维护前有过登录行为的指挥官
 邀请者可以使用自己的UID邀请满足被邀请资格的指挥官参与活动
 召集指挥官：
 单个邀请者最多可邀请两位指挥官，在其完成专属任务后可获得集结积分。召集信号发布后还可以解锁邀请者专属任务，完成任务后也可获得集结积分。集结积分达到指定数值后可以获得丰富奖励。
@@ -15128,7 +15133,7 @@ _G.pg.base.gametip.pray_build_help = {
 			info = "4.指挥官可以从中选择2名角色作为祈愿角色，其中仅能最多选择1名<color=#ff5e39>海上传奇舰船</color>角色"
 		},
 		{
-			info = "5.可选名单仅包含7月11日前常驻加入对应建造的角色"
+			info = "5.可选名单仅包含3月26日前常驻加入对应建造的角色"
 		},
 		{
 			info = "6.有建造解锁条件的角色无法被选为祈愿角色，\n不会在祈愿建造中出现。"
@@ -37699,7 +37704,7 @@ _G.pg.base.gametip.help_starLightAlbum = {
  ※ 活动进行时，指挥官可在<color=#92fc63>活动页面或回忆界面</color>通过指定入口进入「纪念贴纸」收集页面；
  ※ 活动结束后指挥官将只能通过<color=#92fc63>回忆界面</color>指定入口进入「纪念贴纸」收集页面；
  ※ 「纪念贴纸」可以通过完成对应活动任务获取；
- ※ 奖励领取界面将延长至5月13日24时；]]
+ ※ 奖励领取界面将延长至6月17日24时；]]
 		}
 	}
 }
@@ -48763,6 +48768,453 @@ _G.pg.base.gametip["260514_story_title_en"] = {
 }
 
 
+_G.pg.base.gametip.mall_title = {
+	tip = "浮金湾"
+}
+
+
+_G.pg.base.gametip.mall_title_en = {
+	tip = "EVENT"
+}
+
+
+_G.pg.base.gametip.mall_point_name_type1 = {
+	tip = "城市地标"
+}
+
+
+_G.pg.base.gametip.mall_point_name_type2 = {
+	tip = "旅途纪行"
+}
+
+
+_G.pg.base.gametip.mall_point_name_type3 = {
+	tip = "同游见闻"
+}
+
+
+_G.pg.base.gametip.mall_point_name_type4 = {
+	tip = "倾心旅伴"
+}
+
+
+_G.pg.base.gametip.mall_order_char_header = {
+	tip = "订单发起者："
+}
+
+
+_G.pg.base.gametip.mall_order_need_attrs_header = {
+	tip = "需求店员属性："
+}
+
+
+_G.pg.base.gametip.mall_order_btn_staff = {
+	tip = "分配店员"
+}
+
+
+_G.pg.base.gametip.mall_right_title_upgrade = {
+	tip = "购物中心总览"
+}
+
+
+_G.pg.base.gametip.mall_round_header = {
+	tip = "回合数："
+}
+
+
+_G.pg.base.gametip.mall_level_header = {
+	tip = "购物中心等级："
+}
+
+
+_G.pg.base.gametip.mall_input_header = {
+	tip = "已提交享梦心情："
+}
+
+
+_G.pg.base.gametip.mall_summary_btn = {
+	tip = "享梦心情获取情况"
+}
+
+
+_G.pg.base.gametip.mall_evaluate_title = {
+	tip = "经营结束  顾客评价"
+}
+
+
+_G.pg.base.gametip.mall_summary_title = {
+	tip = "营收情况"
+}
+
+
+_G.pg.base.gametip.mall_floor_income_header = {
+	tip = "$1层收入"
+}
+
+
+_G.pg.base.gametip.mall_total_income_header = {
+	tip = "总收入"
+}
+
+
+_G.pg.base.gametip.mall_balance_header = {
+	tip = "剩余享梦心情"
+}
+
+
+_G.pg.base.gametip.mall_open_title = {
+	tip = "经营中..."
+}
+
+
+_G.pg.base.gametip.mall_help = {
+	tip = {
+		{
+			info = [[
+<color=#92fc63>「奢华！享梦！浮金湾！」</color>活动说明
+
+<b>玩法说明</b>：
+ 1. 活动期间，指挥官可以为购物中心各楼层分配<color=#92fc63>「店员啾」</color>，以此提升对应楼层的服务评分。分配完毕后，点击<color=#92fc63>「开始经营」</color>即可开启活动，还可以查看各舰船对购物中心的评价，获取<color=#92fc63>「享梦心情」</color>。
+ 2. 在经营活动之外，指挥官还可以接取并完成各位舰船发起的<color=#92fc63>「啾啾定制」</color>订单，分配店员啾完成订单后，可解锁指定舰船的<color=#92fc63>「倾心旅伴」</color>剧情，并获得新<color=#92fc63>「店员啾」</color>，以及<color=#92fc63>「享梦心情」</color>等奖励。
+ 3. 指挥官可以通过经营页面右侧的<color=#92fc63>「查看升级条件」</color>按钮，来确认提升<color=#92fc63>「购物中心等级」</color>所需的各项要求。满足对应要求后，即可提升等级，解锁更多可经营楼层和<color=#92fc63>「啾啾定制」</color>订单，并提升<color=#92fc63>「享梦心情」</color>的获取数量。
+
+<b>奖励说明</b>：
+ 1. 活动期间，点击经营页面右侧的<color=#92fc63>「查看经营奖励」</color>按钮，提交持有的<color=#92fc63>「享梦心情」</color>，可以兑换丰富奖励。
+ 2. 对应<color=#92fc63>「享梦心情」</color>提交数量的奖励档位，将随活动日期逐步解锁。档位未解锁时无法领取对应的奖励，也无法继续进行经营活动。指挥官最快可以在05月24日解锁并获取全部<color=#92fc63>「享梦心情」</color>档位奖励。
+
+<b>活动时间</b>：
+2026.05.20~2026.06.11 维护，经营奖励可领取时间延长至2026.06.17 24时
+]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.mall_floor_lock = {
+	tip = "楼层未解锁"
+}
+
+
+_G.pg.base.gametip.mall_rank_close = {
+	tip = "歇业"
+}
+
+
+_G.pg.base.gametip.mall_rank_s = {
+	tip = "S"
+}
+
+
+_G.pg.base.gametip.mall_rank_a = {
+	tip = "A"
+}
+
+
+_G.pg.base.gametip.mall_rank_b = {
+	tip = "B"
+}
+
+
+_G.pg.base.gametip.mall_staff_in_floor = {
+	tip = "工作中"
+}
+
+
+_G.pg.base.gametip.mall_staff_in_order = {
+	tip = "定制中"
+}
+
+
+_G.pg.base.gametip.mall_remove_floor_sure = {
+	tip = "该店员正在购物中心服务，是否确认将其分配到啾啾定制中？"
+}
+
+
+_G.pg.base.gametip.mall_order_btn_doing = {
+	tip = "定制中"
+}
+
+
+_G.pg.base.gametip.mall_order_btn_complete = {
+	tip = "完成订单"
+}
+
+
+_G.pg.base.gametip.mall_input_btn = {
+	tip = "提交享梦心情"
+}
+
+
+_G.pg.base.gametip.mall_order_btn_start = {
+	tip = "开始制作"
+}
+
+
+_G.pg.base.gametip.mall_upgrade_title = {
+	tip = "购物中心等级提升！"
+}
+
+
+_G.pg.base.gametip.mall_right_title_summary = {
+	tip = "升级条件"
+}
+
+
+_G.pg.base.gametip.mall_change_floor_sure = {
+	tip = "该店员当前正在其他楼层，是否确认将其分配到本楼层？"
+}
+
+
+_G.pg.base.gametip.mall_change_order_sure = {
+	tip = "该店员当前正在啾啾定制订单，无法被分配到本层"
+}
+
+
+_G.pg.base.gametip.mall_award_can_get = {
+	tip = "可领取"
+}
+
+
+_G.pg.base.gametip.mall_award_get = {
+	tip = "已领取"
+}
+
+
+_G.pg.base.gametip.mall_order_wait_tip = {
+	tip = "下一批新订单："
+}
+
+
+_G.pg.base.gametip.mall_order_unlock_lv_tip = {
+	tip = "提升经营等级以接取后续订单"
+}
+
+
+_G.pg.base.gametip.mall_order_need_staff_header = {
+	tip = "需求店员数量："
+}
+
+
+_G.pg.base.gametip.mall_get_all_btn = {
+	tip = "全部领取"
+}
+
+
+_G.pg.base.gametip.mall_award_got = {
+	tip = "已领取"
+}
+
+
+_G.pg.base.gametip.loading_picture_lack = {
+	tip = "未开启自定义过场图"
+}
+
+
+_G.pg.base.gametip.loading_title = {
+	tip = "当前过场图"
+}
+
+
+_G.pg.base.gametip.loading_start_set = {
+	tip = "开启自定义设置"
+}
+
+
+_G.pg.base.gametip.loading_pic_chosen = {
+	tip = "已选择图片"
+}
+
+
+_G.pg.base.gametip.loading_pic_tip = {
+	tip = "当前修改未保存，是否确认退出？"
+}
+
+
+_G.pg.base.gametip.loading_pic_max = {
+	tip = "已超过选择上限"
+}
+
+
+_G.pg.base.gametip.loading_pic_min = {
+	tip = "至少需要1张图"
+}
+
+
+_G.pg.base.gametip.loading_quit_tip = {
+	tip = "退出自定义模式后，将随机选用系统默认过场图，确认退出吗？"
+}
+
+
+_G.pg.base.gametip.loading_set_tip = {
+	tip = "点击按钮，可将图片加入自定义过场图列表"
+}
+
+
+_G.pg.base.gametip.loading_chosen_blank = {
+	tip = "暂无符合条件的图片"
+}
+
+
+_G.pg.base.gametip.sort_minigame_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/sortgame_help1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/sortgame_help2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/sortgame_help3"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.AnniversaryNineCoreActivity_subtitle_1 = {
+	tip = "奢华！享梦！浮金湾！"
+}
+
+
+_G.pg.base.gametip.AnniversaryNineCoreActivity_subtitle_2 = {
+	tip = "行李箱大作战！"
+}
+
+
+_G.pg.base.gametip.mall_unlock_date_tip = {
+	tip = "$1月$2日可继续经营并解锁下一阶段奖励"
+}
+
+
+_G.pg.base.gametip.mall_finished_all_tip = {
+	tip = "已领取所有奖励"
+}
+
+
+_G.pg.base.gametip.memory_filter_option_1 = {
+	tip = "默认"
+}
+
+
+_G.pg.base.gametip.memory_filter_option_2 = {
+	tip = "进度"
+}
+
+
+_G.pg.base.gametip.memory_filter_option_3 = {
+	tip = "全部"
+}
+
+
+_G.pg.base.gametip.memory_filter_option_4 = {
+	tip = "可解锁"
+}
+
+
+_G.pg.base.gametip.memory_filter_option_5 = {
+	tip = "已解锁"
+}
+
+
+_G.pg.base.gametip.memory_filter_option_6 = {
+	tip = "角色未获得"
+}
+
+
+_G.pg.base.gametip.memory_filter_title_1 = {
+	tip = "筛选"
+}
+
+
+_G.pg.base.gametip.memory_filter_title_2 = {
+	tip = "FILTER"
+}
+
+
+_G.pg.base.gametip.memory_goto = {
+	tip = "前往"
+}
+
+
+_G.pg.base.gametip.memory_unlock = {
+	tip = "点击解锁"
+}
+
+
+_G.pg.base.gametip.mall_char_lock = {
+	tip = "完成定制订单后解锁"
+}
+
+
+_G.pg.base.gametip.mall_title_lock = {
+	tip = "提升购物中心等级后\n解锁"
+}
+
+
+_G.pg.base.gametip.mall_continue_to_unlock = {
+	tip = "提升购物中心等级后解锁"
+}
+
+
+_G.pg.base.gametip.GeZiURCoreActivityUI_subtitle_1 = {
+	tip = "圣印前的同盟"
+}
+
+
+_G.pg.base.gametip.GeZiURCoreActivityUI_subtitle_2 = {
+	tip = "深潜补给站"
+}
+
+
+_G.pg.base.gametip.GeZiURCoreActivityUI_subtitle_3 = {
+	tip = "UR兑换"
+}
+
+
+_G.pg.base.gametip.AnniversaryNineCoreActivityUI_subtitle_1 = {
+	tip = "九周年纪念签到"
+}
+
+
+_G.pg.base.gametip.AnniversaryNineCoreActivityUI_subtitle_2 = {
+	tip = "特别庆典"
+}
+
+
+_G.pg.base.gametip.AnniversaryNineCoreActivityUI_subtitle_3 = {
+	tip = "动员指令"
+}
+
+
+_G.pg.base.gametip.anniversary_nine_main_page = {
+	tip = "纪念手册"
+}
+
+
 _G.pg.base.gametip.AnniversaryNineCoreActivityUI_subtitle_6 = {
 	tip = "美好假日"
 }
@@ -48770,4 +49222,34 @@ _G.pg.base.gametip.AnniversaryNineCoreActivityUI_subtitle_6 = {
 
 _G.pg.base.gametip.Outpost_20260514_Detail = {
 	tip = "查看详情"
+}
+
+
+_G.pg.base.gametip.mall_level_max = {
+	tip = "购物中心已达到最高等级"
+}
+
+
+_G.pg.base.gametip.mall_staff_position_full_tip = {
+	tip = "分配失败，已达到店员数量上限"
+}
+
+
+_G.pg.base.gametip.mall_gold_input_success_tip = {
+	tip = "提交成功！"
+}
+
+
+_G.pg.base.gametip.mall_floor_all_empty_tip = {
+	tip = "请先为已解锁的楼层分配店员"
+}
+
+
+_G.pg.base.gametip.mall_unlock_date_tip2 = {
+	tip = "$1月$2日解锁"
+}
+
+
+_G.pg.base.gametip.mall_order_finished_all_tip = {
+	tip = "已完成所有啾啾定制订单"
 }

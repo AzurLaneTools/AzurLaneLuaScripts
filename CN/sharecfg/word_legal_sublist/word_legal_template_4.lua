@@ -4,61 +4,6 @@ slot0.word_legal_template_4 = {}
 slot1 = slot0.word_legal_template_4
 
 temp = function()
-	uv0["长"] = {
-		["岛"] = {
-			this = true
-		},
-		["春"] = {
-			this = true,
-			["."] = {
-				["改"] = {
-					this = true
-				}
-			}
-		},
-		["风"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["兰"] = {
-		["利"] = {
-			this = true,
-			I = {
-				I = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["列"] = {
-		["克"] = {
-			["星"] = {
-				["敦"] = {
-					this = true,
-					I = {
-						I = {
-							this = true
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["萨"] = {
 		["拉"] = {
 			["托"] = {
@@ -522,6 +467,74 @@ temp()
 temp = function()
 	uv0["枥"] = {
 		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["狐"] = {
+		["提"] = {
+			this = true
+		},
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["命"] = {
+		["运"] = {
+			["女"] = {
+				["神"] = {
+					this = true,
+					["·"] = {
+						M = {
+							E = {
+								T = {
+									A = {
+										this = true
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["萤"] = {
+		["火"] = {
+			["虫"] = {
+				this = true,
+				["."] = {
+					["改"] = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["勇"] = {
+		["气"] = {
+			this = true
+		},
+		["敢"] = {
 			this = true
 		}
 	}

@@ -4,69 +4,6 @@ slot0.word_legal_template_7 = {}
 slot1 = slot0.word_legal_template_7
 
 temp = function()
-	uv0["不"] = {
-		["挠"] = {
-			this = true
-		},
-		["屈"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["恐"] = {
-		["怖"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["桐"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["杉"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["梧"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["柚"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["枫"] = {
 		this = {
 			this = true
@@ -306,6 +243,76 @@ temp()
 
 temp = function()
 	uv0["樟"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["楙"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["杌"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["橗"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["枨"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["檧"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["菪"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["杣"] = {
 		this = {
 			this = true
 		}

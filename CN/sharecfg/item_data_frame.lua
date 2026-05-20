@@ -14,6 +14,7 @@ pg.item_data_frame.all = {
 	108,
 	109,
 	110,
+	111,
 	201,
 	202,
 	203,
@@ -206,6 +207,15 @@ pg.base.item_data_frame = {}
 		id = 110,
 		time_limit_type = 0,
 		desc = "献给所有八年间持续奋斗在港区的指挥官们\n<color=#A7A7AA>通过参与八周年限定活动获取</color>",
+		scene = {}
+	}
+	pg.base.item_data_frame[111] = {
+		name = "九周年纪念",
+		gain_by = "",
+		time_second = 0,
+		id = 111,
+		time_limit_type = 0,
+		desc = "献给所有九年间持续奋斗在港区的指挥官们\n<color=#A7A7AA>通过参与九周年限定活动获取</color>",
 		scene = {}
 	}
 	pg.base.item_data_frame[201] = {
@@ -651,11 +661,11 @@ pg.base.item_data_frame = {}
 	}
 	pg.base.item_data_frame[341] = {
 		name = "神圣盟约",
-		gain_by = "",
+		gain_by = "圣印前的同盟",
 		time_second = 0,
 		id = 341,
 		time_limit_type = 0,
-		desc = "通过后续活动获得",
+		desc = "「以剑为誓，以书为约，神圣之盟，生死与共」\n<color=#A7A7AA>「圣印前的同盟」活动获取</color>",
 		scene = {}
 	}
 	pg.base.item_data_frame[401] = {
@@ -1009,6 +1019,8 @@ pg.base.item_data_frame = {}
 		desc = "结晶之中闪烁着巨蟹座的光芒，献给勇于挑战极限的指挥官！\n<color=#A7A7AA>通过参与「限界挑战」获取 （23.07.01-23.07.31）</color>",
 		scene = {}
 	}
+end)()
+(function ()
 	pg.base.item_data_frame[10003] = {
 		name = "限界的挑战者·狮子座",
 		gain_by = "",
@@ -1018,8 +1030,6 @@ pg.base.item_data_frame = {}
 		desc = "结晶之中闪烁着狮子座的光芒，献给勇于挑战极限的指挥官！\n<color=#A7A7AA>通过参与「限界挑战」获取 （23.08.01-23.08.31）</color>",
 		scene = {}
 	}
-end)()
-(function ()
 	pg.base.item_data_frame[10004] = {
 		name = "限界的挑战者·处女座",
 		gain_by = "",

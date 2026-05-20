@@ -1345,8 +1345,18 @@ slot0.updateStateData = function(slot0, slot1)
 	if slot0.l2dIdleIndex ~= slot1.idleIndex then
 		if type(slot0.revertIdleIndex) == "boolean" and slot0.revertIdleIndex == true then
 			slot0:setTargetValue(slot0.startValue)
+
+			slot0.offsetDragY = slot0.startValue
+			slot0.offsetDragX = slot0.startValue
+			slot0.offsetDragTargetY = slot0.startValue
+			slot0.offsetDragTargetX = slot0.startValue
 		elseif type(slot0.revertIdleIndex) == "table" and table.contains(slot0.revertIdleIndex, slot1.idleIndex) then
 			slot0:setTargetValue(slot0.startValue)
+
+			slot0.offsetDragTargetY = slot0.startValue
+			slot0.offsetDragTargetX = slot0.startValue
+			slot0.offsetDragY = slot0.startValue
+			slot0.offsetDragX = slot0.startValue
 		end
 	end
 

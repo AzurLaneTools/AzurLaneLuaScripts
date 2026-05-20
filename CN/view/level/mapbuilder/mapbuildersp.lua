@@ -1225,11 +1225,8 @@ slot0.UpdateStoryTask = function(slot0)
 		return
 	end
 
-	if not getProxy(TaskProxy):getTaskVO(slot1) then
-		errorMsg("Missing Activity Task ID : " .. slot1)
-	end
-
-	slot0.storyTask = slot2 or Task.New({
+	slot0.storyTask = getProxy(TaskProxy):getTaskVO(slot1) or Task.New({
+		submit_time = 1,
 		id = slot1
 	})
 end

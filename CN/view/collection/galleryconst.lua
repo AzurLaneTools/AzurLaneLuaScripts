@@ -39,4 +39,20 @@ slot0.GetBGFuncTag = function()
 	end
 end
 
+slot0.GetGalleryPicPathByID = function(slot0)
+	if not pg.gallery_config[slot0] then
+		return nil
+	end
+
+	return uv0.PIC_PATH_PREFIX .. slot1.illustration
+end
+
+slot0.GetGalleryPreviewPicPathByID = function(slot0)
+	if not pg.gallery_config[slot0] then
+		return nil
+	end
+
+	return uv0.CARD_PATH_PREFIX .. (slot1.illustration .. "_t")
+end
+
 return slot0

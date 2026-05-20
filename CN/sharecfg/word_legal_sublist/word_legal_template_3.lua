@@ -4,42 +4,6 @@ slot0.word_legal_template_3 = {}
 slot1 = slot0.word_legal_template_3
 
 temp = function()
-	uv0["休"] = {
-		["斯"] = {
-			["敦"] = {
-				this = true,
-				I = {
-					I = {
-						this = true
-					}
-				}
-			}
-		},
-		["贝"] = {
-			["塔"] = {
-				["伯"] = {
-					["爵"] = {
-						this = true
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["法"] = {
-		["戈"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["帕"] = {
 		["萨"] = {
 			["迪"] = {
@@ -766,6 +730,61 @@ temp = function()
 		},
 		["剑"] = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["长"] = {
+		["岛"] = {
+			this = true
+		},
+		["春"] = {
+			this = true,
+			["."] = {
+				["改"] = {
+					this = true
+				}
+			}
+		},
+		["风"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["兰"] = {
+		["利"] = {
+			this = true,
+			I = {
+				I = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["列"] = {
+		["克"] = {
+			["星"] = {
+				["敦"] = {
+					this = true,
+					I = {
+						I = {
+							this = true
+						}
+					}
+				}
+			}
 		}
 	}
 end

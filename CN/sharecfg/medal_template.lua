@@ -128,7 +128,9 @@ pg.medal_template.all = {
 	200121,
 	200131,
 	200141,
-	200151
+	200151,
+	200161,
+	200171
 }
 pg.base = pg.base or {}
 pg.base.medal_template = {}
@@ -2896,6 +2898,48 @@ end)()
 		rank = 1,
 		id = 200151,
 		explain1 = "「漫游者招募计划」",
+		explain2 = "活动纪念"
+	}
+	pg.base.medal_template[200161] = {
+		target_id = "50607",
+		name = "圣印同盟纪念勋章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "神圣联合帝国颁发的纪念勋章，纪念这场对抗黑境的伟大胜利。\n——神光于此见证，圣印前的同盟永存。",
+		next = 0,
+		icon = "9161",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9161",
+		condition = "收集8个「圣印前的同盟」纪念贴纸。",
+		rank = 1,
+		id = 200161,
+		explain1 = "「圣印前的同盟」",
+		explain2 = "活动纪念"
+	}
+	pg.base.medal_template[200171] = {
+		target_id = "50616",
+		name = "奢华盛宴纪念勋章",
+		target_num = 7,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "漫游浮金湾，纵情欢乐，这才是假日的正确打开方式~\n——愿你的每一次出游，都满载奢华，收获惊喜！",
+		next = 0,
+		icon = "9171",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9171",
+		condition = "收集7个「奢华！享梦！浮金湾！」纪念贴纸。",
+		rank = 1,
+		id = 200171,
+		explain1 = "「奢华！享梦！浮金湾！」",
 		explain2 = "活动纪念"
 	}
 end)()

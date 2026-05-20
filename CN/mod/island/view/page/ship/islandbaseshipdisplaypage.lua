@@ -294,9 +294,4 @@ end
 slot0.OnCharLoaded = function(slot0)
 end
 
-slot0.Hide = function(slot0, slot1, slot2)
-	uv0.super.Hide(slot0, slot1, slot2)
-	IslandHelper.RunGC(true)
-end
-
 return slot0

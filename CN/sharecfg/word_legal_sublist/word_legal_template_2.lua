@@ -4,16 +4,6 @@ slot0.word_legal_template_2 = {}
 slot1 = slot0.word_legal_template_2
 
 temp = function()
-	uv0["霍"] = {
-		["比"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["科"] = {
 		["尔"] = {
 			["克"] = {
@@ -1134,6 +1124,42 @@ temp = function()
 					}
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["休"] = {
+		["斯"] = {
+			["敦"] = {
+				this = true,
+				I = {
+					I = {
+						this = true
+					}
+				}
+			}
+		},
+		["贝"] = {
+			["塔"] = {
+				["伯"] = {
+					["爵"] = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["法"] = {
+		["戈"] = {
+			this = true
 		}
 	}
 end

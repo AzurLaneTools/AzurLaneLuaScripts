@@ -10,12 +10,6 @@ slot0.execute = function(slot0, slot1)
 	slot9 = slot7:GetTradeAgency()
 
 	if slot2.op == IslandConst.TRADE_PURCHASE then
-		if slot9:GetCanPurchaseCnt() < slot5 then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("island_trade_purchase_failed_label"))
-
-			return
-		end
-
 		if not slot8:CanAddItem(IslandItem.PEARL_ID, slot5) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("island_trade_bag_full_label"))
 
