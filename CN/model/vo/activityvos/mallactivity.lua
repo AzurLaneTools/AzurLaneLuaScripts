@@ -24,7 +24,7 @@ slot0.Ctor = function(slot0, slot1)
 
 	for slot9, slot10 in ipairs(slot2.floor_list) do
 		slot4[slot10.id] = slot10
-		slot5[slot10.id] = slot3[slot9] or 0
+		slot5[slot10.id] = slot3[slot10.id] or 0
 		slot0.lastIncome = slot0.lastIncome + slot5[slot10.id]
 	end
 

@@ -216,9 +216,12 @@ PressBack = function()
 	end
 end
 
-slot3 = os.clock()
+slot4 = os.clock()
 
 seriesAsync({
+	function (slot0)
+		pg.ShaderMgr.GetInstance():Init(slot0)
+	end,
 	function (slot0)
 		require("HybridCLRConst")
 		Sandystar.HybridCLRTool.HybridCLRHelper.LoadPatchDLL(Application.streamingAssetsPath .. "/AssetBundles/hybridclr/patch/", HybridCLRConst.PatchDllList)
@@ -248,9 +251,6 @@ seriesAsync({
 		parallelAsync({
 			function (slot0)
 				pg.FontMgr.GetInstance():Init(slot0)
-			end,
-			function (slot0)
-				pg.ShaderMgr.GetInstance():Init(slot0)
 			end,
 			function (slot0)
 				pg.PoolMgr.GetInstance():Init(slot0)
@@ -397,5 +397,23 @@ seriesAsync({
 		originalPrint("内存:" .. SystemInfo.systemMemorySize)
 		originalPrint("主频:" .. SystemInfo.processorFrequency)
 		originalPrint("+++++++++++")
+	end)
+
+	slot2 = pg.UIMgr.GetInstance()
+
+	slot2:AddDebugButton("delete test", function ()
+		print("步骤4，删除custom_builtin AssetBundle")
+
+		if #{
+			"custom_builtin"
+		} > 0 then
+			slot2 = System.Array.CreateInstance(typeof(System.String), slot1)
+
+			for slot6 = 0, slot1 - 1 do
+				slot2[slot6] = slot0[slot6 + 1]
+			end
+
+			HotfixHelper.DeleteFileByShortPathArr("DEFAULT_RES", slot2)
+		end
 	end)
 end)

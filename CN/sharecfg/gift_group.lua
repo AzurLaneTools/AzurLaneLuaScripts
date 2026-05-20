@@ -5,7 +5,8 @@ pg.gift_group = rawget(pg, "gift_group") or setmetatable({
 pg.gift_group.all = {
 	"code2026051401",
 	"code2026051402",
-	"code2026051403"
+	"code2026051403",
+	"GA84"
 }
 pg.base = pg.base or {}
 pg.base.gift_group = {}
@@ -155,6 +156,42 @@ pg.base.gift_group = {}
 					2026,
 					6,
 					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.gift_group.GA84 = {
+		id = "GA84",
+		drop_list = {
+			{
+				7,
+				204035,
+				1
+			}
+		},
+		active_time = {
+			{
+				{
+					2026,
+					5,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2027,
+					5,
+					19
 				},
 				{
 					23,

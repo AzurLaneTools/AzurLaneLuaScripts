@@ -278,8 +278,10 @@ slot0.handleNotification = function(slot0, slot1)
 	elseif slot2 == GAME.LOAD_PLAYER_DATA_DONE then
 		slot0:checkPaintingRes()
 	elseif slot2 == GAME.BEGIN_STAGE_DONE then
-		slot0.viewComponent:unloadExtraVoice()
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
+		slot0:checkLoadingPicRes(function ()
+			uv0.viewComponent:unloadExtraVoice()
+			uv0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, uv1)
+		end)
 	elseif slot2 == GAME.PLATFORM_LOGIN_DONE then
 		slot0:sendNotification(GAME.USER_LOGIN, slot3.user)
 	elseif slot2 == GAME.SERVER_LOGIN_WAIT then
@@ -322,6 +324,14 @@ slot0.checkPaintingRes = function(slot0)
 		onNo = slot2,
 		onClose = slot2
 	})
+end
+
+slot0.checkLoadingPicRes = function(slot0, slot1)
+	AppreciatePicConst.checkDownloadMissingPic(function ()
+		if uv0 then
+			uv0()
+		end
+	end)
 end
 
 return slot0
