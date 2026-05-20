@@ -3,6 +3,7 @@ slot0.PAGE_MEMORTY = 1
 slot0.PAGE_FILE = 2
 slot0.PAGE_RECORD = 3
 slot0.PAGE_ALBUM = 4
+slot0.PAGE_SHIP = 5
 
 slot0.getUIName = function(slot0)
 	return "WorldMediaCollectionUI"
@@ -30,7 +31,8 @@ slot1 = {
 	import(".WorldMediaCollectionMemoryLayer"),
 	import(".WorldMediaCollectionRecordLayer"),
 	import(".WorldMediaCollectionFileLayer"),
-	import(".WorldMediaCollectionAlbumLayer")
+	import(".WorldMediaCollectionAlbumLayer"),
+	import(".NewWorldMediaCollectionMemoryLayer")
 }
 
 slot0.GetCurrentPage = function(slot0)

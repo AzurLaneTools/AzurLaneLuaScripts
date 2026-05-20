@@ -88,6 +88,7 @@ pg.mini_game.all = {
 	83,
 	86,
 	87,
+	84,
 	1001,
 	1002,
 	1003,
@@ -3280,6 +3281,59 @@ pg.base.mini_game = {}
 			}
 		}
 	}
+	pg.base.mini_game[84] = {
+		is_ranking = 1,
+		view_name = "SortGameView",
+		game_room = 0,
+		type = 2,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		name = "Operation Vacation",
+		config_csv = "",
+		id = 84,
+		hub_id = 71,
+		request_data = 1,
+		simple_config_data = {
+			drop_ids = {
+				{
+					2,
+					54006,
+					1
+				},
+				{
+					2,
+					50004,
+					5
+				},
+				{
+					1,
+					2,
+					300
+				},
+				{
+					2,
+					54034,
+					2
+				},
+				{
+					2,
+					20013,
+					1
+				},
+				{
+					2,
+					54051,
+					1
+				},
+				{
+					5,
+					337,
+					1
+				}
+			}
+		},
+		config_data = {}
+	}
 	pg.base.mini_game[1001] = {
 		is_ranking = 0,
 		view_name = "GameRoomFushun3View",
@@ -3672,6 +3726,8 @@ pg.base.mini_game = {}
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.mini_game[1015] = {
 		is_ranking = 0,
 		view_name = "GameRoomLaunchView",
@@ -3725,8 +3781,6 @@ pg.base.mini_game = {}
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.mini_game[1016] = {
 		is_ranking = 0,
 		view_name = "GameRoomTreasureView",

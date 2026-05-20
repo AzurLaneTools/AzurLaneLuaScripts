@@ -732,7 +732,7 @@ return {
 			bgName = "star_level_bg_450",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "Helena (Retrofit)",
+			actor = 102059,
 			say = "The stone walls are also being restored, little by little...",
 			typewriter = {
 				speed = 0.05,

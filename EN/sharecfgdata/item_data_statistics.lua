@@ -16199,6 +16199,37 @@ _G.pg.base.item_data_statistics[21059] = {
 }
 
 
+_G.pg.base.item_data_statistics[21061] = {
+	open_directly = 0,
+	name = "META Crystal – Elbe META",
+	type = 4,
+	display = "An item that increases the potential of Elbe META. Used in the META Lab during Somatic Activation.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21061",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21061,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "Crystallized Heat-Resistant Steel",
@@ -16994,6 +17025,37 @@ _G.pg.base.item_data_statistics[21922] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 21922,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[21923] = {
+	open_directly = 0,
+	name = "Synchronization Point – Elbe META",
+	type = 4,
+	display = "Sync Points for Elbe META.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21923",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21923,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},
@@ -29111,6 +29173,131 @@ _G.pg.base.item_data_statistics[30383] = {
 		{
 			9,
 			4365,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30384] = {
+	open_directly = 1,
+	name = "Gear Skin Box (Dazzling Jewels)",
+	type = 11,
+	display = "Contains a random Dazzling Jewels-themed gear skin.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshehuapaidui",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30381",
+	id = 30384,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4366,
+			1
+		},
+		{
+			9,
+			4367,
+			1
+		},
+		{
+			9,
+			4368,
+			1
+		},
+		{
+			9,
+			4369,
+			1
+		},
+		{
+			9,
+			4370,
+			1
+		},
+		{
+			9,
+			4371,
+			1
+		},
+		{
+			9,
+			4372,
+			1
+		},
+		{
+			9,
+			4373,
+			1
+		},
+		{
+			9,
+			4374,
+			1
+		},
+		{
+			9,
+			4375,
+			1
+		},
+		{
+			9,
+			4376,
+			1
+		},
+		{
+			9,
+			4377,
+			1
+		},
+		{
+			9,
+			4378,
+			1
+		},
+		{
+			9,
+			4379,
+			1
+		},
+		{
+			9,
+			4380,
+			1
+		},
+		{
+			9,
+			4381,
+			1
+		},
+		{
+			9,
+			4382,
+			1
+		},
+		{
+			9,
+			4383,
 			1
 		}
 	},
@@ -45170,6 +45357,219 @@ _G.pg.base.item_data_statistics[30567] = {
 }
 
 
+_G.pg.base.item_data_statistics[30568] = {
+	open_directly = 0,
+	name = "Selection Gear Skin Box (Dazzling Jewels)",
+	type = 13,
+	display = "Can be opened to receive 1 Dazzling Jewels-themed gear skin of your choosing.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshehuapaiduizixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30568,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4366,
+			1
+		},
+		{
+			9,
+			4367,
+			1
+		},
+		{
+			9,
+			4368,
+			1
+		},
+		{
+			9,
+			4369,
+			1
+		},
+		{
+			9,
+			4370,
+			1
+		},
+		{
+			9,
+			4371,
+			1
+		},
+		{
+			9,
+			4372,
+			1
+		},
+		{
+			9,
+			4373,
+			1
+		},
+		{
+			9,
+			4374,
+			1
+		},
+		{
+			9,
+			4375,
+			1
+		},
+		{
+			9,
+			4376,
+			1
+		},
+		{
+			9,
+			4377,
+			1
+		},
+		{
+			9,
+			4378,
+			1
+		},
+		{
+			9,
+			4379,
+			1
+		},
+		{
+			9,
+			4380,
+			1
+		},
+		{
+			9,
+			4381,
+			1
+		},
+		{
+			9,
+			4382,
+			1
+		},
+		{
+			9,
+			4383,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4366,
+			1
+		},
+		{
+			9,
+			4367,
+			1
+		},
+		{
+			9,
+			4368,
+			1
+		},
+		{
+			9,
+			4369,
+			1
+		},
+		{
+			9,
+			4370,
+			1
+		},
+		{
+			9,
+			4371,
+			1
+		},
+		{
+			9,
+			4372,
+			1
+		},
+		{
+			9,
+			4373,
+			1
+		},
+		{
+			9,
+			4374,
+			1
+		},
+		{
+			9,
+			4375,
+			1
+		},
+		{
+			9,
+			4376,
+			1
+		},
+		{
+			9,
+			4377,
+			1
+		},
+		{
+			9,
+			4378,
+			1
+		},
+		{
+			9,
+			4379,
+			1
+		},
+		{
+			9,
+			4380,
+			1
+		},
+		{
+			9,
+			4381,
+			1
+		},
+		{
+			9,
+			4382,
+			1
+		},
+		{
+			9,
+			4383,
+			1
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30900] = {
 	open_directly = 0,
 	name = "Universal T4 Part",
@@ -48983,6 +49383,53 @@ _G.pg.base.item_data_statistics[40070] = {
 }
 
 
+_G.pg.base.item_data_statistics[40071] = {
+	open_directly = 1,
+	name = "General Build Supply Pack",
+	type = 17,
+	display = "Contains loads of valuable rewards.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/web_2511_1",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4072",
+	id = 40071,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			100
+		},
+		{
+			1,
+			1,
+			75000
+		},
+		{
+			2,
+			15003,
+			50
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[40074] = {
 	open_directly = 1,
 	name = "Battle UI Pack – Maid Café (Basic)",
@@ -49203,6 +49650,189 @@ _G.pg.base.item_data_statistics[40078] = {
 			1,
 			14,
 			3060
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40080] = {
+	open_directly = 1,
+	name = "Battle UI Pack - Gilded Reverie (Basic)",
+	type = 17,
+	display = "Contains the Battle UI - Gilded Reverie theme and 1000 Coins.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui9",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4080",
+	id = 40080,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			208,
+			1
+		},
+		{
+			1,
+			1,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40081] = {
+	open_directly = 1,
+	name = "Battle UI Pack - Gilded Reverie (Premium)",
+	type = 17,
+	display = "Contains the Battle UI - Gilded Reverie theme and 3060 Gems.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui9",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4081",
+	id = 40081,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			208,
+			1
+		},
+		{
+			1,
+			14,
+			3060
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40082] = {
+	open_directly = 1,
+	name = "Ship-Raising Material Pack",
+	type = 17,
+	display = "Contains loads of valuable rewards.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/web_2605_1",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4082",
+	id = 40082,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			4,
+			100011,
+			5
+		},
+		{
+			2,
+			16004,
+			5
+		},
+		{
+			2,
+			16014,
+			5
+		},
+		{
+			2,
+			16024,
+			5
+		},
+		{
+			2,
+			16502,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40083] = {
+	open_directly = 1,
+	name = "General Research Supply Pack",
+	type = 17,
+	display = "Contains loads of valuable rewards.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/web_2605_2",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4083",
+	id = 40083,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			40142,
+			1
+		},
+		{
+			2,
+			42030,
+			343
 		}
 	},
 	price = {},
@@ -50908,6 +51538,139 @@ _G.pg.base.item_data_statistics[40141] = {
 	shiptrans_id = {},
 	combination_display = {},
 	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40142] = {
+	open_directly = 0,
+	name = "PR Voucher - General I",
+	type = 17,
+	display = [[
+Use this item to instantly unlock any Series 1-4 PR ship at Development Level 1.
+<color=#92fc63>If you already have all eligible ships</color>, using this item will instead give you the following:
+Combat Data Pack - Series 4 x300
+T3 General Retrofit Blueprint x5
+T2 General Retrofit Blueprint x10
+Wisdom Cube x5
+Coins x20000.]],
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/research_1_4",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4211",
+	id = 40142,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20104,
+			300
+		},
+		{
+			2,
+			30133,
+			5
+		},
+		{
+			2,
+			30132,
+			10
+		},
+		{
+			2,
+			20001,
+			5
+		},
+		{
+			1,
+			1,
+			20000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {
+		{
+			ship_unlock,
+			29901
+		},
+		{
+			ship_unlock,
+			29902
+		},
+		{
+			ship_unlock,
+			39901
+		},
+		{
+			ship_unlock,
+			39902
+		},
+		{
+			ship_unlock,
+			49901
+		},
+		{
+			ship_unlock,
+			89901
+		},
+		{
+			ship_unlock,
+			19901
+		},
+		{
+			ship_unlock,
+			19902
+		},
+		{
+			ship_unlock,
+			39903
+		},
+		{
+			ship_unlock,
+			99901
+		},
+		{
+			ship_unlock,
+			29903
+		},
+		{
+			ship_unlock,
+			49903
+		},
+		{
+			ship_unlock,
+			49904
+		},
+		{
+			ship_unlock,
+			89902
+		},
+		{
+			ship_unlock,
+			19903
+		},
+		{
+			ship_unlock,
+			49906
+		},
+		{
+			ship_unlock,
+			69901
+		}
+	}
 }
 
 
@@ -98471,6 +99234,37 @@ _G.pg.base.item_data_statistics[59857] = {
 }
 
 
+_G.pg.base.item_data_statistics[59858] = {
+	open_directly = 0,
+	name = "",
+	type = 1,
+	display = "",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/59858",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 59858,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[59900] = {
 	open_directly = 0,
 	name = "Core Data",
@@ -109562,6 +110356,298 @@ _G.pg.base.item_data_statistics[60580] = {
 }
 
 
+_G.pg.base.item_data_statistics[60581] = {
+	open_directly = 0,
+	name = "Early Summer Invitation",
+	type = 21,
+	display = "Use to receive an SR shipgirl of your choosing.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_invitation",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 60581,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		3301,
+		3302,
+		3303,
+		3304,
+		3305,
+		3306,
+		3307,
+		3308
+	},
+	limit = {},
+	open_ui = {
+		"login_year",
+		"t_ninth"
+	}
+}
+
+
+_G.pg.base.item_data_statistics[60582] = {
+	open_directly = 0,
+	name = "Janus' Gift (Summer 2026)",
+	type = 1,
+	display = "Early summer greetings (2026) given to you by Janus.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60582,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60583] = {
+	open_directly = 0,
+	name = "Emden's Gift (Summer 2026)",
+	type = 1,
+	display = "Early summer greetings (2026) given to you by Emden.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60583,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60584] = {
+	open_directly = 0,
+	name = "Sirius' Gift (Summer 2026)",
+	type = 1,
+	display = "Early summer greetings (2026) given to you by Sirius.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60584,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60585] = {
+	open_directly = 0,
+	name = "Tashkent's Gift (Summer 2026)",
+	type = 1,
+	display = "Early summer greetings (2026) given to you by Tashkent.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60585,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60586] = {
+	open_directly = 0,
+	name = "Graf Zeppelin's Gift (Summer 2026)",
+	type = 1,
+	display = "Early summer greetings (2026) given to you by Graf Zeppelin.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60586,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60587] = {
+	open_directly = 0,
+	name = "Taihou's Gift (Summer 2026)",
+	type = 1,
+	display = "Early summer greetings (2026) given to you by Taihou.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60587,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60588] = {
+	open_directly = 0,
+	name = "Sovetskaya Belorussiya's Gift (Summer 2026)",
+	type = 1,
+	display = "Early summer greetings (2026) given to you by Sovetskaya Belorussiya.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60588,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60589] = {
+	open_directly = 0,
+	name = "Baltimore's Gift (Summer 2026)",
+	type = 1,
+	display = "Early summer greetings (2026) given to you by Baltimore.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60589,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[68133] = {
 	open_directly = 0,
 	name = "换装体验券(隐秘之拥的呼唤)",
@@ -111872,6 +112958,73 @@ _G.pg.base.item_data_statistics[81234] = {
 			199021
 		}
 	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81235] = {
+	open_directly = 1,
+	name = "Swimsuit Lucky Bag 2026 A",
+	type = 17,
+	display = "Contains a random Swimsuit Lucky Bag 2026 A skin, Special General Blueprint - Series 8 x2, Gems x2026, Cognitive Chips x50, Wisdom Cube x20, Decor Tokens x100, and Quick Finishers x10.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai35",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998331",
+	id = 81235,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86227,
+			1
+		},
+		{
+			1,
+			14,
+			2026
+		},
+		{
+			2,
+			42076,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
 	limit = {}
 }
 
@@ -114844,6 +115997,43 @@ _G.pg.base.item_data_statistics[81439] = {
 		{
 			7,
 			405052,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81440] = {
+	open_directly = 1,
+	name = "仅予一人的华宴",
+	type = 17,
+	display = "指挥官，邀请函上说“诚邀胡德女士共赴一场特别的宴会”……那么所谓特别之处，难道是仅有你我二人的景致和这指尖的惊喜吗？",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "SquareIcon/hude_6",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "908111",
+	id = 81440,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			7,
+			204035,
 			1
 		}
 	},

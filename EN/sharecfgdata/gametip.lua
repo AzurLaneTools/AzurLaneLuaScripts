@@ -10159,6 +10159,15 @@ Proceed with retrofit?]]
 }
 
 
+_G.pg.base.gametip.ship_remould_warning_403994 = {
+	tip = [[
+Completing the retrofit will have the following effects:
+<color=#92fc63>Main Gun base +1</color>
+<color=#92fc63>Main Gun efficiency becomes 120%</color>
+Proceed with retrofit?]]
+}
+
+
 _G.pg.base.gametip.word_soundfiles_download_title = {
 	tip = "Download Language Pack"
 }
@@ -12969,7 +12978,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Rate UP for Elise, Shandy, and Yukino!"
+	tip = "Get Götz von Berlichingen guaranteed with every 200 event builds (can be done up to 4 times)!"
 }
 
 
@@ -15505,7 +15514,7 @@ _G.pg.base.gametip.pray_build_help = {
 			info = "Event Description: \n"
 		},
 		{
-			info = "1. Focus your wishes upon one of the three permanent build categories — Light, Heavy, or Special builds — then choose one ship to wish for. (Ultra Rare ships can only appear in Heavy or Special builds.)"
+			info = "1. Focus your wishes upon one of the three permanent build categories – Light, Heavy, or Special builds – then choose one ship to wish for. (Ultra Rare ships can only appear in Heavy or Special builds.)"
 		},
 		{
 			info = "2. The acquisition rate of each rarity is the same in the Wishing Well as it is for normal building:"
@@ -15523,10 +15532,10 @@ _G.pg.base.gametip.pray_build_help = {
 			info = "3. You can see a list of all ships available for construction in the Wishing Well."
 		},
 		{
-			info = "4. You may choose two ships on which to focus your wishes. (You can only choose one Ultra Rare ship and any other Ultra Rare ship cannot be build in the Wishing Well.)"
+			info = "4. You may choose two ships on which to focus your wishes. (You can only choose one Ultra Rare ship and any other Ultra Rare ship cannot be built in the Wishing Well.)"
 		},
 		{
-			info = "5. Only ships added to the normal building pool prior to March 26th, 2025 can hear your wishes."
+			info = "5. Only ships added to the normal building pool prior to March 25th, 2026 can hear your wishes."
 		},
 		{
 			info = "6. Ships that have an unlock condition cannot hear your wishes, and will not appear in the Wishing Well."
@@ -49009,11 +49018,488 @@ _G.pg.base.gametip["260514_story_title_en"] = {
 }
 
 
+_G.pg.base.gametip.mall_title = {
+	tip = "Luxury Bay"
+}
+
+
+_G.pg.base.gametip.mall_title_en = {
+	tip = "Events"
+}
+
+
+_G.pg.base.gametip.mall_point_name_type1 = {
+	tip = "Landmarks"
+}
+
+
+_G.pg.base.gametip.mall_point_name_type2 = {
+	tip = "Travelog"
+}
+
+
+_G.pg.base.gametip.mall_point_name_type3 = {
+	tip = "Special Stories"
+}
+
+
+_G.pg.base.gametip.mall_point_name_type4 = {
+	tip = "Character Stories"
+}
+
+
+_G.pg.base.gametip.mall_order_char_header = {
+	tip = "Requester:"
+}
+
+
+_G.pg.base.gametip.mall_order_need_attrs_header = {
+	tip = "Staff Stats Required:"
+}
+
+
+_G.pg.base.gametip.mall_order_btn_staff = {
+	tip = "Assign Staff"
+}
+
+
+_G.pg.base.gametip.mall_right_title_upgrade = {
+	tip = "Mall Overview"
+}
+
+
+_G.pg.base.gametip.mall_round_header = {
+	tip = "Round:"
+}
+
+
+_G.pg.base.gametip.mall_level_header = {
+	tip = "Mall Level:"
+}
+
+
+_G.pg.base.gametip.mall_input_header = {
+	tip = "Sparks of Joy Spent:"
+}
+
+
+_G.pg.base.gametip.mall_summary_btn = {
+	tip = "Sparks of Joy Earned:"
+}
+
+
+_G.pg.base.gametip.mall_evaluate_title = {
+	tip = "Closed for Business  Customer Reviews"
+}
+
+
+_G.pg.base.gametip.mall_summary_title = {
+	tip = "Sales Revenue"
+}
+
+
+_G.pg.base.gametip.mall_floor_income_header = {
+	tip = "$1F Revenue"
+}
+
+
+_G.pg.base.gametip.mall_total_income_header = {
+	tip = "All Sales"
+}
+
+
+_G.pg.base.gametip.mall_balance_header = {
+	tip = "Remaining"
+}
+
+
+_G.pg.base.gametip.mall_open_title = {
+	tip = "Managing..."
+}
+
+
+_G.pg.base.gametip.mall_help = {
+	tip = {
+		{
+			info = [[
+How to Play <color=#92fc63>""The Opulent! The Glamorous! Luxury Bay!""</color>
+
+<b>How to Play</b>:
+ 1. During this event, you will be in charge of assigning <color=#92fc63>Manjuu Staff</color> workers to the various shops around the mall to increase the ratings of your sales reports for each floor. After finishing your assignments, tap the <color=#92fc63>""Start Managing""</color> button to begin the round. Earn evaluations from the various shipgirls to earn event currency, <color=#92fc63>Sparks of Joy</color>.
+ 2. Additionally, during this event, you may receive special orders from various shipgirls, known as <color=#92fc63>""Manjuu Custom Orders""</color>, pertaining to certain shops around the mall. Fulfill these orders to unlock <color=#92fc63>Character Stories</color> and <color=#92fc63>new Manjuu Staff workers</color>, and additional rewards such as <color=#92fc63>Sparks of Joy</color>.
+ 3. Tap the <color=#92fc63>Upgrade Requirements</color> button on the right side of the management screen to see what you need to <color=#92fc63>raise your Mall's level</color>. Once you meet the requirements, your Mall level will increase, opening up new business areas, unlocking more <color=#92fc63>Manjuu Custom Orders</color>, and increasing the amount of <color=#92fc63>Sparks of Joy</color> you can earn.
+
+<b>Reward Information</b>:
+ 1. During the event, tap the <color=#92fc63>Check Rewards</color> button on the right side of the screen to submit <color=#92fc63>Sparks of Joy</color> and earn great rewards. 
+ 2. The milestone rewards for submitting <color=#92fc63>Sparks of Joy</color> will be unlocked sequentially during the event period. You will not be able to continue mall management until the next milestone reward is unlocked. All <color=#92fc63>Spark of Joy</color> submission rewards can be unlocked on as early as May 24th, 2026.
+
+<b>Event Duration</b>:
+5/20/2026 - 6/11/2026 Maintenance. Management rewards must be claimed before 6/17/2026 23:59.
+]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.mall_floor_lock = {
+	tip = "Sales Area Locked"
+}
+
+
+_G.pg.base.gametip.mall_rank_close = {
+	tip = "Resting"
+}
+
+
+_G.pg.base.gametip.mall_rank_s = {
+	tip = "S"
+}
+
+
+_G.pg.base.gametip.mall_rank_a = {
+	tip = "A"
+}
+
+
+_G.pg.base.gametip.mall_rank_b = {
+	tip = "B"
+}
+
+
+_G.pg.base.gametip.mall_staff_in_floor = {
+	tip = "Working"
+}
+
+
+_G.pg.base.gametip.mall_staff_in_order = {
+	tip = "Fulfilling"
+}
+
+
+_G.pg.base.gametip.mall_remove_floor_sure = {
+	tip = "This staff member is currently working in the mall. Move them to custom order fulfillment?"
+}
+
+
+_G.pg.base.gametip.mall_order_btn_doing = {
+	tip = "Fulfilling"
+}
+
+
+_G.pg.base.gametip.mall_order_btn_complete = {
+	tip = "Order Complete"
+}
+
+
+_G.pg.base.gametip.mall_input_btn = {
+	tip = "Submit Sparks"
+}
+
+
+_G.pg.base.gametip.mall_order_btn_start = {
+	tip = "Begin Fulfillment"
+}
+
+
+_G.pg.base.gametip.mall_upgrade_title = {
+	tip = "Mall Level Increased!"
+}
+
+
+_G.pg.base.gametip.mall_right_title_summary = {
+	tip = "Upgrade Requirements"
+}
+
+
+_G.pg.base.gametip.mall_change_floor_sure = {
+	tip = "This staff member is currently assigned to another floor. Would you like to move them to this floor?"
+}
+
+
+_G.pg.base.gametip.mall_change_order_sure = {
+	tip = "This staff member is currently fulfilling a custom order and cannot be assigned to this floor."
+}
+
+
+_G.pg.base.gametip.mall_award_can_get = {
+	tip = "Collect"
+}
+
+
+_G.pg.base.gametip.mall_award_get = {
+	tip = "Collected"
+}
+
+
+_G.pg.base.gametip.mall_order_wait_tip = {
+	tip = "Next Batch of Orders:"
+}
+
+
+_G.pg.base.gametip.mall_order_unlock_lv_tip = {
+	tip = "Increase the Mall's level to unlock new orders."
+}
+
+
+_G.pg.base.gametip.mall_order_need_staff_header = {
+	tip = "Staff Needed:"
+}
+
+
+_G.pg.base.gametip.mall_get_all_btn = {
+	tip = "Collect All"
+}
+
+
+_G.pg.base.gametip.mall_award_got = {
+	tip = "Collected"
+}
+
+
+_G.pg.base.gametip.loading_picture_lack = {
+	tip = "Custom loading screens not enabled."
+}
+
+
+_G.pg.base.gametip.loading_title = {
+	tip = "Current Loading Screen:"
+}
+
+
+_G.pg.base.gametip.loading_start_set = {
+	tip = "Enable custom settings"
+}
+
+
+_G.pg.base.gametip.loading_pic_chosen = {
+	tip = "Selected"
+}
+
+
+_G.pg.base.gametip.loading_pic_tip = {
+	tip = "Changes have not been saved. Exit and keep previous settings?"
+}
+
+
+_G.pg.base.gametip.loading_pic_max = {
+	tip = "Maximum selections exceeded."
+}
+
+
+_G.pg.base.gametip.loading_pic_min = {
+	tip = "Please select at least 1 image."
+}
+
+
+_G.pg.base.gametip.loading_quit_tip = {
+	tip = "If custom loading screens are disabled, a random still image will be displayed on loading screens. Would you like to exit?"
+}
+
+
+_G.pg.base.gametip.loading_set_tip = {
+	tip = "Tap the button to add the image to the custom loading screen pool."
+}
+
+
+_G.pg.base.gametip.loading_chosen_blank = {
+	tip = "No images met the criteria."
+}
+
+
+_G.pg.base.gametip.sort_minigame_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/sortgame_help1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/sortgame_help2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/sortgame_help3"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.AnniversaryNineCoreActivity_subtitle_1 = {
+	tip = "Supply Station"
+}
+
+
+_G.pg.base.gametip.AnniversaryNineCoreActivity_subtitle_2 = {
+	tip = "Operation Vacation"
+}
+
+
+_G.pg.base.gametip.mall_unlock_date_tip = {
+	tip = "You can reopen the mall for business on $1/$2 (New rewards will become available)."
+}
+
+
+_G.pg.base.gametip.mall_finished_all_tip = {
+	tip = "All Rewards Collected"
+}
+
+
+_G.pg.base.gametip.memory_filter_option_1 = {
+	tip = "Default"
+}
+
+
+_G.pg.base.gametip.memory_filter_option_2 = {
+	tip = "Progress"
+}
+
+
+_G.pg.base.gametip.memory_filter_option_3 = {
+	tip = "All"
+}
+
+
+_G.pg.base.gametip.memory_filter_option_4 = {
+	tip = "Unlockable"
+}
+
+
+_G.pg.base.gametip.memory_filter_option_5 = {
+	tip = "Locked"
+}
+
+
+_G.pg.base.gametip.memory_filter_option_6 = {
+	tip = "Character Not Obtained"
+}
+
+
+_G.pg.base.gametip.memory_filter_title_1 = {
+	tip = "Filter"
+}
+
+
+_G.pg.base.gametip.memory_filter_title_2 = {
+	tip = "FILTER"
+}
+
+
+_G.pg.base.gametip.memory_goto = {
+	tip = "Confirm"
+}
+
+
+_G.pg.base.gametip.memory_unlock = {
+	tip = "Tap to unlock"
+}
+
+
+_G.pg.base.gametip.mall_char_lock = {
+	tip = "Complete custom orders to unlock"
+}
+
+
+_G.pg.base.gametip.mall_title_lock = {
+	tip = "Level up the Mall\nto unlock"
+}
+
+
+_G.pg.base.gametip.mall_continue_to_unlock = {
+	tip = "提升购物中心等级后解锁"
+}
+
+
+_G.pg.base.gametip.GeZiURCoreActivityUI_subtitle_1 = {
+	tip = "Event"
+}
+
+
+_G.pg.base.gametip.GeZiURCoreActivityUI_subtitle_2 = {
+	tip = "Event"
+}
+
+
+_G.pg.base.gametip.GeZiURCoreActivityUI_subtitle_3 = {
+	tip = "UR Exchange"
+}
+
+
+_G.pg.base.gametip.AnniversaryNineCoreActivityUI_subtitle_1 = {
+	tip = "Login Bonus"
+}
+
+
+_G.pg.base.gametip.AnniversaryNineCoreActivityUI_subtitle_2 = {
+	tip = "Summer Invitation"
+}
+
+
+_G.pg.base.gametip.AnniversaryNineCoreActivityUI_subtitle_3 = {
+	tip = "Mobilization"
+}
+
+
+_G.pg.base.gametip.anniversary_nine_main_page = {
+	tip = "Commemoration"
+}
+
+
 _G.pg.base.gametip.AnniversaryNineCoreActivityUI_subtitle_6 = {
-	tip = "A Lovely Vacation"
+	tip = "Spring Towards Summer!"
 }
 
 
 _G.pg.base.gametip.Outpost_20260514_Detail = {
 	tip = "Details"
+}
+
+
+_G.pg.base.gametip.mall_level_max = {
+	tip = "The Mall has reached max level."
+}
+
+
+_G.pg.base.gametip.mall_staff_position_full_tip = {
+	tip = "Unable to assign; max number of staff has been reached."
+}
+
+
+_G.pg.base.gametip.mall_gold_input_success_tip = {
+	tip = "Submission complete!"
+}
+
+
+_G.pg.base.gametip.mall_floor_all_empty_tip = {
+	tip = "Please assign staff members to the unlocked floors first."
+}
+
+
+_G.pg.base.gametip.mall_unlock_date_tip2 = {
+	tip = "Unlocks on $1/$2"
+}
+
+
+_G.pg.base.gametip.mall_order_finished_all_tip = {
+	tip = "All custom orders have been fulfilled."
 }

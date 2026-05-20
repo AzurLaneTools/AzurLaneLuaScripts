@@ -437,6 +437,13 @@ pg.name_code.all = {
 	554,
 	555,
 	556,
+	557,
+	558,
+	559,
+	560,
+	561,
+	562,
+	564,
 	10000,
 	10001,
 	10002,
@@ -3494,6 +3501,55 @@ end)()
 		type = 1,
 		id = 556,
 		code = "Elbe META",
+		nation = 0
+	}
+	pg.base.name_code[557] = {
+		name = "Götz von Berlichingen",
+		type = 1,
+		id = 557,
+		code = "Götz von Berlichingen",
+		nation = 0
+	}
+	pg.base.name_code[558] = {
+		name = "U-2501",
+		type = 1,
+		id = 558,
+		code = "U-2501",
+		nation = 0
+	}
+	pg.base.name_code[559] = {
+		name = "Prinz Moritz",
+		type = 1,
+		id = 559,
+		code = "Prinz Moritz",
+		nation = 0
+	}
+	pg.base.name_code[560] = {
+		name = "Z14",
+		type = 1,
+		id = 560,
+		code = "Z14",
+		nation = 0
+	}
+	pg.base.name_code[561] = {
+		name = "Z15",
+		type = 1,
+		id = 561,
+		code = "Z15",
+		nation = 0
+	}
+	pg.base.name_code[562] = {
+		name = "Götz",
+		type = 1,
+		id = 562,
+		code = "Götz",
+		nation = 0
+	}
+	pg.base.name_code[564] = {
+		name = "Götz von Berlichingen",
+		type = 1,
+		id = 564,
+		code = "Götz von Berlichingen",
 		nation = 0
 	}
 	pg.base.name_code[10000] = {

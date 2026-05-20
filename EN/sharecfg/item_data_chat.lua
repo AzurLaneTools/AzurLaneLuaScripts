@@ -11,6 +11,7 @@ pg.item_data_chat.all = {
 	105,
 	106,
 	107,
+	109,
 	300,
 	301,
 	602,
@@ -97,6 +98,14 @@ pg.base.item_data_chat = {}
 		id = 107,
 		time_limit_type = 0,
 		desc = "Granted to all Commanders who have defended the port for seven years.\n<color=#A7A7AAFF>Earned by participating in the 7th Anniversary limited event.</color>",
+		scene = {}
+	}
+	pg.base.item_data_chat[109] = {
+		name = "九周年纪念",
+		time_second = 0,
+		id = 109,
+		time_limit_type = 0,
+		desc = "献给所有九年间持续奋斗在港区的指挥官们\n<color=#A7A7AAFF>通过参与九周年限定活动获取</color>",
 		scene = {}
 	}
 	pg.base.item_data_chat[300] = {

@@ -413,7 +413,13 @@ pg.ship_skin_words_extra.all = {
 	10600150,
 	399010,
 	105120,
-	305170
+	305170,
+	405070,
+	408150,
+	403170,
+	401140,
+	401150,
+	204030
 }
 pg.base = pg.base or {}
 pg.base.ship_skin_words_extra = {}
@@ -28969,6 +28975,424 @@ end)()
 			{
 				1100,
 				"I have recently been reflecting upon the true nature of \"resolve.\" Ahem... My resolve to defend is not about self-sacrifice. Rather, it lies in my conviction to return home by any means. For the cherry blossoms in full bloom, for the delectable taiyaki... and for the person waiting for me."
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[405070] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 405070,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Another day, another mountain of paperwork... This one looks like it'll take some time. Say, why don't we work in my room? It might make you more productive♪"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome back, dear Commander. I'm feeling a bit peckish... I don't mean literal hunger, of course. How do you intend to sate me, I wonder?"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Touch me more, please. I'm already addicted to your warmth..."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"I'll be honest, my invitation to dinner was but a ploy. How else could I have a moment of your time all to myself?"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"I only drank tomato juice, but my head is spinning... Commander, come and steady me. Heehee... That's an order!|I can use my wings for some interesting purposes. For example... I could make a space just for us that nobody can disturb...|Those verses just now were slightly improvised, you know. Heehee, I replaced the lovers in it with you and me.|I drank too much again... Listen up, Commander. You are mine! If you get in trouble with anyone, you come to me! I'll... use my cannons to knock their ass into the stratosphere!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Oh? Was that intended as an ambush? In that case... you've earned yourself a fierce counterattack."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Heehee, if I hide us with my wings... nobody else will see what we're doing, dear Commander♥"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Your love may be the most entertaining struggle I've ever experienced. Will I succumb to your tenderness in the end, or will you fall into my hands? The fun is only just beginning♡"
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[408150] = {
+		feeling3 = "",
+		upgrade = "",
+		expedition = "",
+		id = 408150,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"I wanna hear you greet me, Commander... [o(*//▿//*)q]"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Say it again... Tell me I did a good job again... [>w<]"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Commander, I missed you... My recording will prove it... [Oh, I'm too embarrassed! o(*//▿//*)q]"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Your heart is beating really fast... Do you like me? [I love you, too! o(*//▿//*)q]"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Hum hum♪... Are you enchanted by my voice, Commander? [>w<]"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"The sound of the rain drowns out noise, so we can do whatever we want... [o(*//▿//*)q]|Hush. I'm the only other person here... Can you hear it? Our heartbeats are united...|Mm, you can be rougher... Squeeze and hold on tight... [Now it's perfect! >w<]|Commander... May I lose myself in your voice? [o(*//▿//*)q]"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Mm... You can keep going... [I love it! o(*//▿//*)q]"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Commander, it's time to get to work... [>w<]"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Mm... Wanna check your rewards for yourself?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Mm... Hngh... D-don't record this..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"I was so used to silence, the depths, and solitude... until I heard your voice. It's given me something incredible, like I've never had before... [o(*//▿//*)q]"
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[403170] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 403170,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"The Nurse of Nighttime Spooks' special treatment only works at night, you know. I'll put you right to sleep and lull you into my realm of ghostly dreams♪"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Commander, I've mastered all sorts of nursing know-how! I know how to stop bleeding, apply bandages, and more... Will you let me test my knowledge on you now? Heeehehehe!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"C-Commander?! I really did stop growing! What are you going to do about this? *sniffle*... Oh♡ Did I scare you? Heeehehehe, you know that stuff isn't real!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Heeehehehe... I added a recurring character based on YOU to my new ghost story collection! I haven't planned the details yet, but I'll have you help me out, Commander!|I had a great idea! If I take all the daily antics and mishaps that happen at port and put them in my own original world, I could make amazing new ghost stories!|Heeehehehe! Welcome to my supernatural artifact museum. Which would you like to try today, Commander?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Could it be... that you want a meek and obedient head nurse, Commander?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Commander... Shouldn't it be time for the head nurse to be giving YOU a proper examination? Heeehehehe♡"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"In my head, the Nurse of Nighttime Spooks is as cold as a scalpel and dangerously unhinged! But lately, my character seems to have... more emotion to her. Could it be that you're the cause? Heeehehehe!"
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[401140] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 401140,
+		skill = "",
+		unlock = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Whoa whoa whoa?! L-Little Ihn, let the Commander go... H-hey, I wanna hug the Commander, too... I'm not letting go!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Commander, welcome back! Mmm... I feel so safe with you... N-next time you sortie, take me with you!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Mm... Hehehe... Keep doing that, Commander... I-I need you to pet me for at LEAST ten minutes!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Commander! From now on... may I sleep in your office?! Huh? You'll come to my room and stay with me until I fall asleep...? B-but if you do that, I'll start thinking of other stuff..."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"I-I know you SAY I can nap in your office, but if you work overtime, then I should stay up with you!|Commander, have you heard of \"quantum speed reading\"? They say it helps you absorb books faster... O-of course I know it's fake, but what if you managed to master something like that? Would you... not need me anymore?|You look really sleepy... Since you usually let me sleep in your arms, I'll do my best to hold you in mine this time... C-come here!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Hehehe... Th-that tickles... Huh? This is smiling practice? And you're gonna go even harder now? No, wait... Aaaah!"
+			}
+		},
+		mail = {
+			{
+				1100,
+				"Y-you got more mail... Commander, I should check it first from now on. Then, if there's a bomb inside... you won't get hurt..."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"S-so this is what lovers do... Okay... Let's do it..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Little Ihn, can you sneak this into the Commander's... Hyah?! C-Commander, when did you get here? Umm, this is just... a little gift full of my love for you! I-I hope you like it..."
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[401150] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 401150,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"I'm so hot, I feel like I could melt! All because I saw you, Commander..."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome back, Commander~ I waited all day for you... Hehe, you look like you've still got energy. That means you don't need a break before we get started... right?"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Mmm... That feels good. Touch me more, if you want..."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"You want me to go on your next trip? Now that sounds dangerous~ After all, you and I will be alone in a cramped space... Hm? You're worried about something else?|Lately, I've started overheating every time we hang out... You'd better pour your coolant all over me!|My finger got caught in the door! You'd better kiss it better for me... Just kidding! All I really wanted was to hold hands~"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"I can tell exactly what you're thinking, Commander~"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"*pant*... This is my favorite part♥"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"It's time I was honest with you. No matter how much time passes, even if I'm reborn, I'll never let go of you. Heehee, that's just how deep my love for you is♥"
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[204030] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 204030,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"We've enjoyed the tea together, haven't we, Commander? Hehehe. You need only to ask if you would like some more."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Here, a cup of tea to rejuvenate you on your return. Please enjoy it, Commander."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"The sunshine in the port, the breeze, the warmth from your hand... It's all so wonderfully calming."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Wouldn't you like to know more about me, Commander? I shall gladly tell you of glory, of past regrets... and of how my days have changed since I met you."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Lately, I feel as if I'm better at understanding your tastes than I am at finding new ways to enjoy tea♪ Would you like to put my knowledge to the test, Commander? Hehe.|No matter where I am, I always cherish you above all else. Do you... feel the same way about me, Commander?|While it is important to listen to everyone's opinions, for now... I want you to hear my voice alone."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"I ask that you decide what we shall dance today, Commander. Now, if you would also lead me..."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Goodness, Commander. There's nothing wrong with being honest and just embracing me..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"\"Nothing may cast asunder those who have vowed their hearts to one another.\" I never put too much thought into that verse before I met you, Commander, but now it's one of my favourites."
 			}
 		}
 	}

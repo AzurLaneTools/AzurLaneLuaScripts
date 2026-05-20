@@ -417,6 +417,12 @@ slot0.ForceManualPlay = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	end, slot3, slot4, true, false, slot5)
 end
 
+slot0.ReViewPlay = function(slot0, ...)
+	slot0.isReView = true
+
+	slot0:Play(...)
+end
+
 slot0.SeriesPlay = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 	slot8 = {}
 
@@ -827,6 +833,7 @@ slot0.Clear = function(slot0)
 
 	slot0.autoPlayFlag = false
 	slot0.banPlayFlag = false
+	slot0.isReView = false
 
 	removeOnButton(slot0._go)
 	removeOnButton(slot0.skipBtn)
@@ -929,13 +936,7 @@ slot0.OnSceneExit = function(slot0, slot1)
 end
 
 slot0.IsReView = function(slot0)
-	if getProxy(ContextProxy) == nil then
-		return false
-	end
-
-	slot1 = getProxy(ContextProxy):GetPrevContext(1)
-
-	return slot0.scenes[WorldMediaCollectionScene.__cname] == true or slot1 and slot1.mediator == WorldMediaCollectionMediator
+	return tobool(slot0.isReView)
 end
 
 slot0.IsRunning = function(slot0)

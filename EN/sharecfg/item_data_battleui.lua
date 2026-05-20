@@ -23,7 +23,8 @@ pg.item_data_battleui.all = {
 	204,
 	205,
 	206,
-	207
+	207,
+	208
 }
 pg.base = pg.base or {}
 pg.base.item_data_battleui = {}
@@ -349,6 +350,23 @@ pg.base.item_data_battleui = {}
 		desc = "Bask in the lively atmosphere at Springtide Inn, see the fireworks and the lanterns, and listen to the pop-pop-pop of firecrackers. Welcome spring with a bang!",
 		id = 207,
 		icon = "207",
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
+	}
+	pg.base.item_data_battleui[208] = {
+		name = "Gilded Reverie",
+		key = "SkinElite_20260520",
+		display_icon = "ui_208",
+		unlock = "Buy the Battle UI Pack - Gilded Reverie",
+		is_unlock = 1,
+		rare = 4,
+		desc = "A river of gold coalesces into the shape of stars, each button studded with glistening diamonds. Transform every battle into an opulent, glamorous dream.",
+		id = 208,
+		icon = "208",
 		scene = {},
 		rare_display = {
 			1,

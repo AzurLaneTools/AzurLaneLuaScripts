@@ -2695,16 +2695,12 @@ slot0.IsMatchKey = function(slot0, slot1)
 	end
 
 	slot1 = string.lower(string.gsub(slot1, "%.", "%%."))
-	slot2 = {
-		slot0:getName(),
-		slot0:GetDefaultName()
-	}
 
-	if slot2[1] == slot2[2] then
-		table.remove(slot2)
-	end
-
-	return underscore.any(slot2, function (slot0)
+	return underscore.any({
+		pg._ship_data_statistics[slot0.configId].name,
+		slot0:GetDefaultName(),
+		slot0:getName()
+	}, function (slot0)
 		return string.find(string.lower(slot0), uv0)
 	end)
 end

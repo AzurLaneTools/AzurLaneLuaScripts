@@ -129,7 +129,22 @@ pg.activity_medal_template.all = {
 	5048205,
 	5048206,
 	5048207,
-	5048208
+	5048208,
+	5060701,
+	5060702,
+	5060703,
+	5060704,
+	5060705,
+	5060706,
+	5060707,
+	5060708,
+	5061601,
+	5061602,
+	5061603,
+	5061604,
+	5061605,
+	5061606,
+	5061607
 }
 pg.activity_medal_template.get_id_list_by_group = {
 	[5711] = {
@@ -290,6 +305,25 @@ pg.activity_medal_template.get_id_list_by_group = {
 		5048206,
 		5048207,
 		5048208
+	},
+	[50607] = {
+		5060701,
+		5060702,
+		5060703,
+		5060704,
+		5060705,
+		5060706,
+		5060707,
+		5060708
+	},
+	[50616] = {
+		5061601,
+		5061602,
+		5061603,
+		5061604,
+		5061605,
+		5061606,
+		5061607
 	}
 }
 pg.base = pg.base or {}
@@ -1821,5 +1855,185 @@ end)()
 		activity_medal_name = "Sticker: Vagabond's Emblem",
 		id = 5048208,
 		medal_asset = "ActivityMedal/5048208"
+	}
+	pg.base.activity_medal_template[5060701] = {
+		activity_medal_desc = "The Holy Unitas Empire. Where the holy and the imperial unite.",
+		next_medal = 0,
+		item = 65921,
+		remake_task_id = 0,
+		group = 50607,
+		prefab_node = "1",
+		task_id = 21925,
+		activity_medal_name = "Sticker: Holy Unitas Empire",
+		id = 5060701,
+		medal_asset = "ActivityMedal/5060701"
+	}
+	pg.base.activity_medal_template[5060702] = {
+		activity_medal_desc = "Transboundary Experiment #1: Transcender. Beginning ascent.",
+		next_medal = 0,
+		item = 65922,
+		remake_task_id = 0,
+		group = 50607,
+		prefab_node = "2",
+		task_id = 21926,
+		activity_medal_name = "Sticker: Sky-Grasping Tower",
+		id = 5060702,
+		medal_asset = "ActivityMedal/5060702"
+	}
+	pg.base.activity_medal_template[5060703] = {
+		activity_medal_desc = "Visitors From Beyond mercenaries, move out!",
+		next_medal = 0,
+		item = 65923,
+		remake_task_id = 0,
+		group = 50607,
+		prefab_node = "3",
+		task_id = 21927,
+		activity_medal_name = "Sticker: Mercenary Commander",
+		id = 5060703,
+		medal_asset = "ActivityMedal/5060703"
+	}
+	pg.base.activity_medal_template[5060704] = {
+		activity_medal_desc = "Where God's eyes reach, so too does His concept.",
+		next_medal = 0,
+		item = 65924,
+		remake_task_id = 0,
+		group = 50607,
+		prefab_node = "4",
+		task_id = 21928,
+		activity_medal_name = "Sticker: Insignia of the Holy See",
+		id = 5060704,
+		medal_asset = "ActivityMedal/5060704"
+	}
+	pg.base.activity_medal_template[5060705] = {
+		activity_medal_desc = "Those who wear the crown must endure its weight.",
+		next_medal = 0,
+		item = 65925,
+		remake_task_id = 0,
+		group = 50607,
+		prefab_node = "5",
+		task_id = 21929,
+		activity_medal_name = "Sticker: Insignia of the Emperor",
+		id = 5060705,
+		medal_asset = "ActivityMedal/5060705"
+	}
+	pg.base.activity_medal_template[5060706] = {
+		activity_medal_desc = "The light of the Black Sun obliterates all demons.",
+		next_medal = 0,
+		item = 65926,
+		remake_task_id = 0,
+		group = 50607,
+		prefab_node = "6",
+		task_id = 21930,
+		activity_medal_name = "Sticker: Insignia of the Tribunal",
+		id = 5060706,
+		medal_asset = "ActivityMedal/5060706"
+	}
+	pg.base.activity_medal_template[5060707] = {
+		activity_medal_desc = "You gazed into the abyss, then swam inside it happily.",
+		next_medal = 0,
+		item = 65927,
+		remake_task_id = 0,
+		group = 50607,
+		prefab_node = "7",
+		task_id = 21931,
+		activity_medal_name = "Sticker: Deep Dive",
+		id = 5060707,
+		medal_asset = "ActivityMedal/5060707"
+	}
+	pg.base.activity_medal_template[5060708] = {
+		activity_medal_desc = "One of the noble titles of the Holy Unitas Empire. As for the others... do you really want to know more?",
+		next_medal = 0,
+		item = 65928,
+		remake_task_id = 0,
+		group = 50607,
+		prefab_node = "8",
+		task_id = 21932,
+		activity_medal_name = "Sticker: Freelance Knight",
+		id = 5060708,
+		medal_asset = "ActivityMedal/5060708"
+	}
+	pg.base.activity_medal_template[5061601] = {
+		activity_medal_desc = "Set sail! Luxury Bay is waiting to harbor you after a day of play!",
+		next_medal = 0,
+		item = 65930,
+		remake_task_id = 0,
+		group = 50616,
+		prefab_node = "1",
+		task_id = 21935,
+		activity_medal_name = "Sticker: Luxury Bay",
+		id = 5061601,
+		medal_asset = "ActivityMedal/5061601"
+	}
+	pg.base.activity_medal_template[5061602] = {
+		activity_medal_desc = "Speak your wish, and it might just come true!",
+		next_medal = 0,
+		item = 65931,
+		remake_task_id = 0,
+		group = 50616,
+		prefab_node = "2",
+		task_id = 21936,
+		activity_medal_name = "Sticker: Star of Luxury",
+		id = 5061602,
+		medal_asset = "ActivityMedal/5061602"
+	}
+	pg.base.activity_medal_template[5061603] = {
+		activity_medal_desc = "Soar straight to the sky!",
+		next_medal = 0,
+		item = 65932,
+		remake_task_id = 0,
+		group = 50616,
+		prefab_node = "3",
+		task_id = 21937,
+		activity_medal_name = "Sticker: Straight to the Sky",
+		id = 5061603,
+		medal_asset = "ActivityMedal/5061603"
+	}
+	pg.base.activity_medal_template[5061604] = {
+		activity_medal_desc = "360-degree natural light ensures a bright and comfortable indoor environment!",
+		next_medal = 0,
+		item = 65933,
+		remake_task_id = 0,
+		group = 50616,
+		prefab_node = "4",
+		task_id = 21938,
+		activity_medal_name = "Sticker: Arc Dome",
+		id = 5061604,
+		medal_asset = "ActivityMedal/5061604"
+	}
+	pg.base.activity_medal_template[5061605] = {
+		activity_medal_desc = "The bird's dream... was to go to the docks and eat fries.",
+		next_medal = 0,
+		item = 65934,
+		remake_task_id = 0,
+		group = 50616,
+		prefab_node = "5",
+		task_id = 21939,
+		activity_medal_name = "Sticker: Seagull's Got Dreams",
+		id = 5061605,
+		medal_asset = "ActivityMedal/5061605"
+	}
+	pg.base.activity_medal_template[5061606] = {
+		activity_medal_desc = "Nothing's better than a nap under the sun, peep~",
+		next_medal = 0,
+		item = 65935,
+		remake_task_id = 0,
+		group = 50616,
+		prefab_node = "6",
+		task_id = 21940,
+		activity_medal_name = "Sticker: Relaxing Manjuu",
+		id = 5061606,
+		medal_asset = "ActivityMedal/5061606"
+	}
+	pg.base.activity_medal_template[5061607] = {
+		activity_medal_desc = "Now that you've come this far, don't think you're going back empty-handed!",
+		next_medal = 0,
+		item = 65936,
+		remake_task_id = 0,
+		group = 50616,
+		prefab_node = "7",
+		task_id = 21941,
+		activity_medal_name = "Sticker: Tower of Luxury",
+		id = 5061607,
+		medal_asset = "ActivityMedal/5061607"
 	}
 end)()

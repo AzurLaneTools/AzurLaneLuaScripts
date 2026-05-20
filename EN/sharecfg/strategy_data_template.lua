@@ -369,6 +369,13 @@ pg.strategy_data_template.all = {
 	201741,
 	201742,
 	201743,
+	201750,
+	201754,
+	201755,
+	201759,
+	201763,
+	201764,
+	201765,
 	205001,
 	205002,
 	205003,
@@ -4630,6 +4637,93 @@ The following gear or skills are rendered ineffective:
 		iconSize = "",
 		buff_type = 0,
 		id = 201743,
+		icon = "200908",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201750] = {
+		buff_id = 0,
+		name = "Netherworld Corrosion",
+		desc = "When a Sin Shadow is destroyed, it fragments, releasing more corrosion to empower the surrounding Sin Shadows.\nAs the netherworld encroaches, malice runs rampant.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201750,
+		icon = "201750",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201754] = {
+		buff_id = 201754,
+		name = "Tribunal's Helping Hand",
+		desc = "The Tribunal's Hand is providing recon and support. During battle, increases all allies' ACC and Crit DMG by 5.0%.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201754,
+		icon = "201754",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201755] = {
+		buff_id = 201755,
+		name = "Black Sun",
+		desc = "During this sortie, you will receive support from Mechanicus Harbingers.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201755,
+		icon = "201755",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201759] = {
+		buff_id = 201759,
+		name = "Lattice of God's Light",
+		desc = "During this sortie, you will receive support from the Lattice of God's Light, reducing enemies' SPD and EVA.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201759,
+		icon = "201270",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201763] = {
+		buff_id = 201763,
+		name = "Orbital Strike",
+		desc = "During this sortie, you will receive support from orbital cannons.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201763,
+		icon = "201763",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201764] = {
+		buff_id = 0,
+		name = "Challenge Mode",
+		desc = "The first time the boss's HP drops beneath <color=#92fc63>20.0%</color>, it will enter an enhanced state, reducing DMG taken for 3s before recovering 30.0% of its Max HP. Afterwards, its attack patterns become more intense, but it loses <color=#92fc63>0.5% Max HP every 1s</color>.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201764,
+		icon = "200908",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201765] = {
+		buff_id = 0,
+		name = "Challenge Mode",
+		desc = [[
+During battle, any healing effects applied to allies are stolen by the boss; each time this occurs, the boss restores <color=#92fc63>1.0% Max HP</color>. The boss's Nether Barrage cannot be cleared by airstrikes.
+The first time the boss's HP drops beneath <color=#92fc63>20.0%</color>, it will enter an enhanced state, reducing DMG taken for 3s before recovering 30.0% of its Max HP. Afterwards, its attack patterns become more intense, but it loses <color=#92fc63>0.5% Max HP every 1s</color>.
+
+- Hard Mode Details -
+Enemy DMG dealt is <color=#ffc038>significantly increased</color>. Large enemy shells cannot be nullified by airstrikes or shields.
+The hitbox of your Vanguard fleet is <color=#92fc63>limited to only the frontmost ship, and the size of the hitbox is also significantly reduced</color>.
+When your ship is hit, it will become invulnerable for a short period of time.
+
+The following gear or skills are rendered ineffective:
+[Fiercer When Cornered], [Operation Rainbow], [Eleventh Hour], [I Will Not Yield!]]],
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201765,
 		icon = "200908",
 		arg = {}
 	}

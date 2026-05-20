@@ -90,19 +90,9 @@ slot0.init = function(slot0)
 
 	slot0.indexBtn = slot0.topPanel:Find("index_button")
 	slot0.switchPanel = slot0.topPanel:Find("switch")
-
-	triggerToggle(slot0.switchPanel:Find("Image"), true)
-
+	slot0.preferenceAndAttrContainer = slot0.switchPanel:Find("toggles")
 	slot0.preferenceBtn = slot0.switchPanel:Find("toggles/preference_toggle")
 	slot0.attrBtn = slot0.switchPanel:Find("toggles/attr_toggle")
-	slot0.nameSearchInput = slot0.switchPanel:Find("search")
-
-	setText(slot0.nameSearchInput:Find("holder"), i18n("dockyard_search_holder"))
-	setInputText(slot0.nameSearchInput, "")
-	onInputChanged(slot0, slot0.nameSearchInput, function ()
-		uv0:filter()
-	end)
-
 	slot0.modLockFilter = slot0.topPanel:Find("mod_flter_lock")
 	slot0.modLeveFilter = slot0.topPanel:Find("mod_flter_level")
 	slot0.energyDescTF = slot0._tf:Find("energy_desc")
@@ -247,6 +237,18 @@ slot0.init = function(slot0)
 	end)
 
 	slot0.destroyConfirmWindow = ShipDestoryConfirmWindow.New(slot0._tf, slot0.event)
+	slot0.searchBar = RecordableSearchBar.New(RecordableSearchBar.CreateData({
+		holder = i18n("dockyard_search_holder"),
+		onActive = function (slot0)
+			setActive(uv0.preferenceAndAttrContainer, not slot0)
+		end,
+		onInputChanged = function ()
+			uv0:filter()
+		end,
+		key = slot0.__cname,
+		parent = slot0.blurPanel:Find("adapt"),
+		anchoredPosition = Vector3(getAnchoredPosition(slot0.switchPanel).x, slot0.topPanel.sizeDelta.y * -0.5, 0)
+	}))
 end
 
 slot0.SwitchContainerDisplay = function(slot0)
@@ -1070,7 +1072,7 @@ slot0.filterCommon = function(slot0)
 		end
 	end
 
-	if getInputText(slot0.nameSearchInput) and slot3 ~= "" then
+	if slot0.searchBar:GetInputText() and slot3 ~= "" then
 		slot0.shipVOs = underscore.filter(slot0.shipVOs, function (slot0)
 			return slot0:IsMatchKey(uv0)
 		end)
@@ -2009,6 +2011,12 @@ slot0.willExit = function(slot0)
 		slot0.bulinTip:Destroy()
 
 		slot0.bulinTip = nil
+	end
+
+	if slot0.searchBar then
+		slot0.searchBar:Dispose()
+
+		slot0.searchBar = nil
 	end
 
 	slot0:UnOverlayPanel(slot0.blurPanel, slot0._tf)

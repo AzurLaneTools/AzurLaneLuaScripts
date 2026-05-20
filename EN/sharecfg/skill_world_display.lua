@@ -33,6 +33,7 @@ pg.skill_world_display.all = {
 	105010,
 	105020,
 	1019260,
+	152370,
 	800790,
 	800121,
 	800122,
@@ -3381,6 +3382,155 @@ When this ship fires her Main Guns: spends all Charge and increases this ship's 
 				},
 				{
 					"40.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_world_display[152370] = {
+		desc_get = "",
+		id = 152370,
+		desc = [[
+[Operation Siren]
+When called in as Submarine Support in Operation Siren: decreases AP consumption by $3, and increases the Submarine Fleet's Ammo by 1.
+At the start of battle: increases this boat's TRP and RLD by $1.
+Whenever this boat's torpedoes hit an enemy: $2 chance to inflict a special Flooding debuff (takes DMG every 3s based on U-2501's TRP, lasting for 15s); additionally, increases the DMG this boat deals to Flooding enemies by $1.
+Whenever any other ally in the Submarine Fleet hits an enemy with torpedoes: $2 chance to increases this boat's ACC by $1 (stacks up to 10 times, lasting until the boat leaves the battle); upon reaching 10 stacks, restores $1 of this boat's Max HP. ]],
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"40.0%",
+				"70.0%"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70.0%"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
 				}
 			}
 		}

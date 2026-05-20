@@ -172786,7 +172786,6 @@ _G.pg.base.item_virtual_data_statistics[65500] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "Medal/9001",
 	order = 0,
 	rarity = 5,
@@ -172798,7 +172797,11 @@ _G.pg.base.item_virtual_data_statistics[65500] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		1,
+		200001
+	}
 }
 
 
@@ -172812,7 +172815,6 @@ _G.pg.base.item_virtual_data_statistics[65501] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/571101",
 	order = 0,
 	rarity = 4,
@@ -172824,7 +172826,11 @@ _G.pg.base.item_virtual_data_statistics[65501] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		571101
+	}
 }
 
 
@@ -172838,7 +172844,6 @@ _G.pg.base.item_virtual_data_statistics[65502] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/571102",
 	order = 0,
 	rarity = 4,
@@ -172850,7 +172855,11 @@ _G.pg.base.item_virtual_data_statistics[65502] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		571102
+	}
 }
 
 
@@ -172864,7 +172873,6 @@ _G.pg.base.item_virtual_data_statistics[65503] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/571103",
 	order = 0,
 	rarity = 4,
@@ -172876,7 +172884,11 @@ _G.pg.base.item_virtual_data_statistics[65503] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		571103
+	}
 }
 
 
@@ -172890,7 +172902,6 @@ _G.pg.base.item_virtual_data_statistics[65504] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/571104",
 	order = 0,
 	rarity = 4,
@@ -172902,7 +172913,11 @@ _G.pg.base.item_virtual_data_statistics[65504] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		571104
+	}
 }
 
 
@@ -172916,7 +172931,6 @@ _G.pg.base.item_virtual_data_statistics[65505] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/571105",
 	order = 0,
 	rarity = 4,
@@ -172928,7 +172942,11 @@ _G.pg.base.item_virtual_data_statistics[65505] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		571105
+	}
 }
 
 
@@ -172942,7 +172960,6 @@ _G.pg.base.item_virtual_data_statistics[65506] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/571106",
 	order = 0,
 	rarity = 4,
@@ -172954,7 +172971,11 @@ _G.pg.base.item_virtual_data_statistics[65506] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		571106
+	}
 }
 
 
@@ -172968,7 +172989,6 @@ _G.pg.base.item_virtual_data_statistics[65507] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/571107",
 	order = 0,
 	rarity = 4,
@@ -172980,7 +173000,11 @@ _G.pg.base.item_virtual_data_statistics[65507] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		571107
+	}
 }
 
 
@@ -172994,7 +173018,6 @@ _G.pg.base.item_virtual_data_statistics[65508] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/571108",
 	order = 0,
 	rarity = 4,
@@ -173006,7 +173029,11 @@ _G.pg.base.item_virtual_data_statistics[65508] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		571108
+	}
 }
 
 
@@ -173046,7 +173073,6 @@ _G.pg.base.item_virtual_data_statistics[65510] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "Medal/9011",
 	order = 0,
 	rarity = 5,
@@ -173058,7 +173084,11 @@ _G.pg.base.item_virtual_data_statistics[65510] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		1,
+		200011
+	}
 }
 
 
@@ -173072,7 +173102,6 @@ _G.pg.base.item_virtual_data_statistics[65511] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/576901",
 	order = 0,
 	rarity = 4,
@@ -173084,7 +173113,11 @@ _G.pg.base.item_virtual_data_statistics[65511] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		576901
+	}
 }
 
 
@@ -173098,7 +173131,6 @@ _G.pg.base.item_virtual_data_statistics[65512] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/576902",
 	order = 0,
 	rarity = 4,
@@ -173110,7 +173142,11 @@ _G.pg.base.item_virtual_data_statistics[65512] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		576902
+	}
 }
 
 
@@ -173124,7 +173160,6 @@ _G.pg.base.item_virtual_data_statistics[65513] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/576903",
 	order = 0,
 	rarity = 4,
@@ -173136,7 +173171,11 @@ _G.pg.base.item_virtual_data_statistics[65513] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		576903
+	}
 }
 
 
@@ -173150,7 +173189,6 @@ _G.pg.base.item_virtual_data_statistics[65514] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/576904",
 	order = 0,
 	rarity = 4,
@@ -173162,7 +173200,11 @@ _G.pg.base.item_virtual_data_statistics[65514] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		576904
+	}
 }
 
 
@@ -173176,7 +173218,6 @@ _G.pg.base.item_virtual_data_statistics[65515] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/576905",
 	order = 0,
 	rarity = 4,
@@ -173188,7 +173229,11 @@ _G.pg.base.item_virtual_data_statistics[65515] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		576905
+	}
 }
 
 
@@ -173202,7 +173247,6 @@ _G.pg.base.item_virtual_data_statistics[65516] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/576906",
 	order = 0,
 	rarity = 4,
@@ -173214,7 +173258,11 @@ _G.pg.base.item_virtual_data_statistics[65516] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		576906
+	}
 }
 
 
@@ -173228,7 +173276,6 @@ _G.pg.base.item_virtual_data_statistics[65517] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/576907",
 	order = 0,
 	rarity = 4,
@@ -173240,7 +173287,11 @@ _G.pg.base.item_virtual_data_statistics[65517] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		576907
+	}
 }
 
 
@@ -173254,7 +173305,6 @@ _G.pg.base.item_virtual_data_statistics[65518] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/576908",
 	order = 0,
 	rarity = 4,
@@ -173266,7 +173316,11 @@ _G.pg.base.item_virtual_data_statistics[65518] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		576908
+	}
 }
 
 
@@ -173910,7 +173964,6 @@ _G.pg.base.item_virtual_data_statistics[65540] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "Medal/9021",
 	order = 0,
 	rarity = 5,
@@ -173922,7 +173975,11 @@ _G.pg.base.item_virtual_data_statistics[65540] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		1,
+		200021
+	}
 }
 
 
@@ -173936,7 +173993,6 @@ _G.pg.base.item_virtual_data_statistics[65541] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/581201",
 	order = 0,
 	rarity = 4,
@@ -173948,7 +174004,11 @@ _G.pg.base.item_virtual_data_statistics[65541] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		581201
+	}
 }
 
 
@@ -173962,7 +174022,6 @@ _G.pg.base.item_virtual_data_statistics[65542] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/581202",
 	order = 0,
 	rarity = 4,
@@ -173974,7 +174033,11 @@ _G.pg.base.item_virtual_data_statistics[65542] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		581202
+	}
 }
 
 
@@ -173988,7 +174051,6 @@ _G.pg.base.item_virtual_data_statistics[65543] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/581203",
 	order = 0,
 	rarity = 4,
@@ -174000,7 +174062,11 @@ _G.pg.base.item_virtual_data_statistics[65543] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		581203
+	}
 }
 
 
@@ -174014,7 +174080,6 @@ _G.pg.base.item_virtual_data_statistics[65544] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/581204",
 	order = 0,
 	rarity = 4,
@@ -174026,7 +174091,11 @@ _G.pg.base.item_virtual_data_statistics[65544] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		581204
+	}
 }
 
 
@@ -174040,7 +174109,6 @@ _G.pg.base.item_virtual_data_statistics[65545] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/581205",
 	order = 0,
 	rarity = 4,
@@ -174052,7 +174120,11 @@ _G.pg.base.item_virtual_data_statistics[65545] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		581205
+	}
 }
 
 
@@ -174066,7 +174138,6 @@ _G.pg.base.item_virtual_data_statistics[65546] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/581206",
 	order = 0,
 	rarity = 4,
@@ -174078,7 +174149,11 @@ _G.pg.base.item_virtual_data_statistics[65546] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		581206
+	}
 }
 
 
@@ -174092,7 +174167,6 @@ _G.pg.base.item_virtual_data_statistics[65547] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/581207",
 	order = 0,
 	rarity = 4,
@@ -174104,7 +174178,11 @@ _G.pg.base.item_virtual_data_statistics[65547] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		581207
+	}
 }
 
 
@@ -174118,7 +174196,6 @@ _G.pg.base.item_virtual_data_statistics[65548] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/581208",
 	order = 0,
 	rarity = 4,
@@ -174130,7 +174207,11 @@ _G.pg.base.item_virtual_data_statistics[65548] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		581208
+	}
 }
 
 
@@ -174352,7 +174433,6 @@ _G.pg.base.item_virtual_data_statistics[65570] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "Medal/9031",
 	order = 0,
 	rarity = 5,
@@ -174364,7 +174444,11 @@ _G.pg.base.item_virtual_data_statistics[65570] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		1,
+		200031
+	}
 }
 
 
@@ -174378,7 +174462,6 @@ _G.pg.base.item_virtual_data_statistics[65571] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/587501",
 	order = 0,
 	rarity = 4,
@@ -174390,7 +174473,11 @@ _G.pg.base.item_virtual_data_statistics[65571] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		587501
+	}
 }
 
 
@@ -174404,7 +174491,6 @@ _G.pg.base.item_virtual_data_statistics[65572] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/587502",
 	order = 0,
 	rarity = 4,
@@ -174416,7 +174502,11 @@ _G.pg.base.item_virtual_data_statistics[65572] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		587502
+	}
 }
 
 
@@ -174430,7 +174520,6 @@ _G.pg.base.item_virtual_data_statistics[65573] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/587503",
 	order = 0,
 	rarity = 4,
@@ -174442,7 +174531,11 @@ _G.pg.base.item_virtual_data_statistics[65573] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		587503
+	}
 }
 
 
@@ -174456,7 +174549,6 @@ _G.pg.base.item_virtual_data_statistics[65574] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/587504",
 	order = 0,
 	rarity = 4,
@@ -174468,7 +174560,11 @@ _G.pg.base.item_virtual_data_statistics[65574] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		587504
+	}
 }
 
 
@@ -174482,7 +174578,6 @@ _G.pg.base.item_virtual_data_statistics[65575] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/587505",
 	order = 0,
 	rarity = 4,
@@ -174494,7 +174589,11 @@ _G.pg.base.item_virtual_data_statistics[65575] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		587505
+	}
 }
 
 
@@ -174508,7 +174607,6 @@ _G.pg.base.item_virtual_data_statistics[65576] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/587506",
 	order = 0,
 	rarity = 4,
@@ -174520,7 +174618,11 @@ _G.pg.base.item_virtual_data_statistics[65576] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		587506
+	}
 }
 
 
@@ -174534,7 +174636,6 @@ _G.pg.base.item_virtual_data_statistics[65577] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/587507",
 	order = 0,
 	rarity = 4,
@@ -174546,7 +174647,11 @@ _G.pg.base.item_virtual_data_statistics[65577] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		587507
+	}
 }
 
 
@@ -174560,7 +174665,6 @@ _G.pg.base.item_virtual_data_statistics[65578] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/587508",
 	order = 0,
 	rarity = 4,
@@ -174572,7 +174676,11 @@ _G.pg.base.item_virtual_data_statistics[65578] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		587508
+	}
 }
 
 
@@ -175250,7 +175358,6 @@ _G.pg.base.item_virtual_data_statistics[65602] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "Medal/9051",
 	order = 0,
 	rarity = 5,
@@ -175262,7 +175369,11 @@ _G.pg.base.item_virtual_data_statistics[65602] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		1,
+		200051
+	}
 }
 
 
@@ -175276,7 +175387,6 @@ _G.pg.base.item_virtual_data_statistics[65603] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/597001",
 	order = 0,
 	rarity = 4,
@@ -175288,7 +175398,11 @@ _G.pg.base.item_virtual_data_statistics[65603] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		597001
+	}
 }
 
 
@@ -175302,7 +175416,6 @@ _G.pg.base.item_virtual_data_statistics[65604] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/597002",
 	order = 0,
 	rarity = 4,
@@ -175314,7 +175427,11 @@ _G.pg.base.item_virtual_data_statistics[65604] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		597002
+	}
 }
 
 
@@ -175328,7 +175445,6 @@ _G.pg.base.item_virtual_data_statistics[65605] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/597003",
 	order = 0,
 	rarity = 4,
@@ -175340,7 +175456,11 @@ _G.pg.base.item_virtual_data_statistics[65605] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		597003
+	}
 }
 
 
@@ -175354,7 +175474,6 @@ _G.pg.base.item_virtual_data_statistics[65606] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/597004",
 	order = 0,
 	rarity = 4,
@@ -175366,7 +175485,11 @@ _G.pg.base.item_virtual_data_statistics[65606] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		597004
+	}
 }
 
 
@@ -175380,7 +175503,6 @@ _G.pg.base.item_virtual_data_statistics[65607] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/597005",
 	order = 0,
 	rarity = 4,
@@ -175392,7 +175514,11 @@ _G.pg.base.item_virtual_data_statistics[65607] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		597005
+	}
 }
 
 
@@ -175406,7 +175532,6 @@ _G.pg.base.item_virtual_data_statistics[65608] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/597006",
 	order = 0,
 	rarity = 4,
@@ -175418,7 +175543,11 @@ _G.pg.base.item_virtual_data_statistics[65608] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		597006
+	}
 }
 
 
@@ -175432,7 +175561,6 @@ _G.pg.base.item_virtual_data_statistics[65609] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/597007",
 	order = 0,
 	rarity = 4,
@@ -175444,7 +175572,11 @@ _G.pg.base.item_virtual_data_statistics[65609] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		597007
+	}
 }
 
 
@@ -175458,7 +175590,6 @@ _G.pg.base.item_virtual_data_statistics[65610] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/597008",
 	order = 0,
 	rarity = 4,
@@ -175470,7 +175601,11 @@ _G.pg.base.item_virtual_data_statistics[65610] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		597008
+	}
 }
 
 
@@ -175484,7 +175619,6 @@ _G.pg.base.item_virtual_data_statistics[65611] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "Medal/9061",
 	order = 0,
 	rarity = 5,
@@ -175496,7 +175630,11 @@ _G.pg.base.item_virtual_data_statistics[65611] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		1,
+		200061
+	}
 }
 
 
@@ -175510,7 +175648,6 @@ _G.pg.base.item_virtual_data_statistics[65612] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/597101",
 	order = 0,
 	rarity = 4,
@@ -175522,7 +175659,11 @@ _G.pg.base.item_virtual_data_statistics[65612] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		597101
+	}
 }
 
 
@@ -175536,7 +175677,6 @@ _G.pg.base.item_virtual_data_statistics[65613] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/597102",
 	order = 0,
 	rarity = 4,
@@ -175548,7 +175688,11 @@ _G.pg.base.item_virtual_data_statistics[65613] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		597102
+	}
 }
 
 
@@ -175562,7 +175706,6 @@ _G.pg.base.item_virtual_data_statistics[65614] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/597103",
 	order = 0,
 	rarity = 4,
@@ -175574,7 +175717,11 @@ _G.pg.base.item_virtual_data_statistics[65614] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		597103
+	}
 }
 
 
@@ -175588,7 +175735,6 @@ _G.pg.base.item_virtual_data_statistics[65615] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/597104",
 	order = 0,
 	rarity = 4,
@@ -175600,7 +175746,11 @@ _G.pg.base.item_virtual_data_statistics[65615] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		597104
+	}
 }
 
 
@@ -175614,7 +175764,6 @@ _G.pg.base.item_virtual_data_statistics[65616] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/597105",
 	order = 0,
 	rarity = 4,
@@ -175626,7 +175775,11 @@ _G.pg.base.item_virtual_data_statistics[65616] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		597105
+	}
 }
 
 
@@ -175640,7 +175793,6 @@ _G.pg.base.item_virtual_data_statistics[65617] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/597106",
 	order = 0,
 	rarity = 4,
@@ -175652,7 +175804,11 @@ _G.pg.base.item_virtual_data_statistics[65617] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		597106
+	}
 }
 
 
@@ -175666,7 +175822,6 @@ _G.pg.base.item_virtual_data_statistics[65618] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/597107",
 	order = 0,
 	rarity = 4,
@@ -175678,7 +175833,11 @@ _G.pg.base.item_virtual_data_statistics[65618] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		597107
+	}
 }
 
 
@@ -175900,7 +176059,6 @@ _G.pg.base.item_virtual_data_statistics[65631] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "Medal/9071",
 	order = 0,
 	rarity = 5,
@@ -175912,7 +176070,11 @@ _G.pg.base.item_virtual_data_statistics[65631] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		1,
+		200071
+	}
 }
 
 
@@ -175926,7 +176088,6 @@ _G.pg.base.item_virtual_data_statistics[65632] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5002101",
 	order = 0,
 	rarity = 4,
@@ -175938,7 +176099,11 @@ _G.pg.base.item_virtual_data_statistics[65632] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5002101
+	}
 }
 
 
@@ -175952,7 +176117,6 @@ _G.pg.base.item_virtual_data_statistics[65633] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5002102",
 	order = 0,
 	rarity = 4,
@@ -175964,7 +176128,11 @@ _G.pg.base.item_virtual_data_statistics[65633] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5002102
+	}
 }
 
 
@@ -175978,7 +176146,6 @@ _G.pg.base.item_virtual_data_statistics[65634] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5002103",
 	order = 0,
 	rarity = 4,
@@ -175990,7 +176157,11 @@ _G.pg.base.item_virtual_data_statistics[65634] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5002103
+	}
 }
 
 
@@ -176004,7 +176175,6 @@ _G.pg.base.item_virtual_data_statistics[65635] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5002104",
 	order = 0,
 	rarity = 4,
@@ -176016,7 +176186,11 @@ _G.pg.base.item_virtual_data_statistics[65635] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5002104
+	}
 }
 
 
@@ -176030,7 +176204,6 @@ _G.pg.base.item_virtual_data_statistics[65636] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5002105",
 	order = 0,
 	rarity = 4,
@@ -176042,7 +176215,11 @@ _G.pg.base.item_virtual_data_statistics[65636] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5002105
+	}
 }
 
 
@@ -176056,7 +176233,6 @@ _G.pg.base.item_virtual_data_statistics[65637] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5002106",
 	order = 0,
 	rarity = 4,
@@ -176068,7 +176244,11 @@ _G.pg.base.item_virtual_data_statistics[65637] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5002106
+	}
 }
 
 
@@ -176082,7 +176262,6 @@ _G.pg.base.item_virtual_data_statistics[65638] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5002107",
 	order = 0,
 	rarity = 4,
@@ -176094,7 +176273,11 @@ _G.pg.base.item_virtual_data_statistics[65638] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5002107
+	}
 }
 
 
@@ -176108,7 +176291,6 @@ _G.pg.base.item_virtual_data_statistics[65639] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5002108",
 	order = 0,
 	rarity = 4,
@@ -176120,7 +176302,11 @@ _G.pg.base.item_virtual_data_statistics[65639] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5002108
+	}
 }
 
 
@@ -176394,7 +176580,6 @@ _G.pg.base.item_virtual_data_statistics[65665] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "Medal/9081",
 	order = 0,
 	rarity = 5,
@@ -176406,7 +176591,11 @@ _G.pg.base.item_virtual_data_statistics[65665] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		1,
+		200081
+	}
 }
 
 
@@ -176420,7 +176609,6 @@ _G.pg.base.item_virtual_data_statistics[65666] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5008701",
 	order = 0,
 	rarity = 4,
@@ -176432,7 +176620,11 @@ _G.pg.base.item_virtual_data_statistics[65666] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5008701
+	}
 }
 
 
@@ -176446,7 +176638,6 @@ _G.pg.base.item_virtual_data_statistics[65667] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5008702",
 	order = 0,
 	rarity = 4,
@@ -176458,7 +176649,11 @@ _G.pg.base.item_virtual_data_statistics[65667] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5008702
+	}
 }
 
 
@@ -176472,7 +176667,6 @@ _G.pg.base.item_virtual_data_statistics[65668] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5008703",
 	order = 0,
 	rarity = 4,
@@ -176484,7 +176678,11 @@ _G.pg.base.item_virtual_data_statistics[65668] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5008703
+	}
 }
 
 
@@ -176498,7 +176696,6 @@ _G.pg.base.item_virtual_data_statistics[65669] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5008704",
 	order = 0,
 	rarity = 4,
@@ -176510,7 +176707,11 @@ _G.pg.base.item_virtual_data_statistics[65669] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5008704
+	}
 }
 
 
@@ -176524,7 +176725,6 @@ _G.pg.base.item_virtual_data_statistics[65670] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5008705",
 	order = 0,
 	rarity = 4,
@@ -176536,7 +176736,11 @@ _G.pg.base.item_virtual_data_statistics[65670] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5008705
+	}
 }
 
 
@@ -176550,7 +176754,6 @@ _G.pg.base.item_virtual_data_statistics[65671] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5008706",
 	order = 0,
 	rarity = 4,
@@ -176562,7 +176765,11 @@ _G.pg.base.item_virtual_data_statistics[65671] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5008706
+	}
 }
 
 
@@ -176576,7 +176783,6 @@ _G.pg.base.item_virtual_data_statistics[65672] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5008707",
 	order = 0,
 	rarity = 4,
@@ -176588,7 +176794,11 @@ _G.pg.base.item_virtual_data_statistics[65672] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5008707
+	}
 }
 
 
@@ -176602,7 +176812,6 @@ _G.pg.base.item_virtual_data_statistics[65673] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5008708",
 	order = 0,
 	rarity = 4,
@@ -176614,7 +176823,11 @@ _G.pg.base.item_virtual_data_statistics[65673] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5008708
+	}
 }
 
 
@@ -176875,7 +177088,6 @@ _G.pg.base.item_virtual_data_statistics[65685] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "Medal/9091",
 	order = 0,
 	rarity = 5,
@@ -176887,7 +177099,11 @@ _G.pg.base.item_virtual_data_statistics[65685] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		1,
+		200091
+	}
 }
 
 
@@ -176901,7 +177117,6 @@ _G.pg.base.item_virtual_data_statistics[65686] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5013601",
 	order = 0,
 	rarity = 4,
@@ -176913,7 +177128,11 @@ _G.pg.base.item_virtual_data_statistics[65686] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5013601
+	}
 }
 
 
@@ -176927,7 +177146,6 @@ _G.pg.base.item_virtual_data_statistics[65687] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5013602",
 	order = 0,
 	rarity = 4,
@@ -176939,7 +177157,11 @@ _G.pg.base.item_virtual_data_statistics[65687] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5013602
+	}
 }
 
 
@@ -176953,7 +177175,6 @@ _G.pg.base.item_virtual_data_statistics[65688] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5013603",
 	order = 0,
 	rarity = 4,
@@ -176965,7 +177186,11 @@ _G.pg.base.item_virtual_data_statistics[65688] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5013603
+	}
 }
 
 
@@ -176979,7 +177204,6 @@ _G.pg.base.item_virtual_data_statistics[65689] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5013604",
 	order = 0,
 	rarity = 4,
@@ -176991,7 +177215,11 @@ _G.pg.base.item_virtual_data_statistics[65689] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5013604
+	}
 }
 
 
@@ -177005,7 +177233,6 @@ _G.pg.base.item_virtual_data_statistics[65690] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5013605",
 	order = 0,
 	rarity = 4,
@@ -177017,7 +177244,11 @@ _G.pg.base.item_virtual_data_statistics[65690] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5013605
+	}
 }
 
 
@@ -177031,7 +177262,6 @@ _G.pg.base.item_virtual_data_statistics[65691] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5013606",
 	order = 0,
 	rarity = 4,
@@ -177043,7 +177273,11 @@ _G.pg.base.item_virtual_data_statistics[65691] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5013606
+	}
 }
 
 
@@ -177057,7 +177291,6 @@ _G.pg.base.item_virtual_data_statistics[65692] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5013607",
 	order = 0,
 	rarity = 4,
@@ -177069,7 +177302,11 @@ _G.pg.base.item_virtual_data_statistics[65692] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5013607
+	}
 }
 
 
@@ -177083,7 +177320,6 @@ _G.pg.base.item_virtual_data_statistics[65693] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5013608",
 	order = 0,
 	rarity = 4,
@@ -177095,7 +177331,11 @@ _G.pg.base.item_virtual_data_statistics[65693] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5013608
+	}
 }
 
 
@@ -177317,7 +177557,6 @@ _G.pg.base.item_virtual_data_statistics[65722] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "Medal/9101",
 	order = 0,
 	rarity = 5,
@@ -177329,7 +177568,11 @@ _G.pg.base.item_virtual_data_statistics[65722] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		1,
+		200101
+	}
 }
 
 
@@ -177343,7 +177586,6 @@ _G.pg.base.item_virtual_data_statistics[65723] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5020901",
 	order = 0,
 	rarity = 4,
@@ -177355,7 +177597,11 @@ _G.pg.base.item_virtual_data_statistics[65723] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5020901
+	}
 }
 
 
@@ -177369,7 +177615,6 @@ _G.pg.base.item_virtual_data_statistics[65724] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5020902",
 	order = 0,
 	rarity = 4,
@@ -177381,7 +177626,11 @@ _G.pg.base.item_virtual_data_statistics[65724] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5020902
+	}
 }
 
 
@@ -177395,7 +177644,6 @@ _G.pg.base.item_virtual_data_statistics[65725] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5020903",
 	order = 0,
 	rarity = 4,
@@ -177407,7 +177655,11 @@ _G.pg.base.item_virtual_data_statistics[65725] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5020903
+	}
 }
 
 
@@ -177421,7 +177673,6 @@ _G.pg.base.item_virtual_data_statistics[65726] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5020904",
 	order = 0,
 	rarity = 4,
@@ -177433,7 +177684,11 @@ _G.pg.base.item_virtual_data_statistics[65726] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5020904
+	}
 }
 
 
@@ -177447,7 +177702,6 @@ _G.pg.base.item_virtual_data_statistics[65727] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5020905",
 	order = 0,
 	rarity = 4,
@@ -177459,7 +177713,11 @@ _G.pg.base.item_virtual_data_statistics[65727] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5020905
+	}
 }
 
 
@@ -177473,7 +177731,6 @@ _G.pg.base.item_virtual_data_statistics[65728] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5020906",
 	order = 0,
 	rarity = 4,
@@ -177485,7 +177742,11 @@ _G.pg.base.item_virtual_data_statistics[65728] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5020906
+	}
 }
 
 
@@ -177499,7 +177760,6 @@ _G.pg.base.item_virtual_data_statistics[65729] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5020907",
 	order = 0,
 	rarity = 4,
@@ -177511,7 +177771,11 @@ _G.pg.base.item_virtual_data_statistics[65729] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5020907
+	}
 }
 
 
@@ -177525,7 +177789,6 @@ _G.pg.base.item_virtual_data_statistics[65730] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5020908",
 	order = 0,
 	rarity = 4,
@@ -177537,7 +177800,11 @@ _G.pg.base.item_virtual_data_statistics[65730] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5020908
+	}
 }
 
 
@@ -178478,7 +178745,6 @@ A medal based on the Anchorage National Observatory.
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "Medal/9111",
 	order = 0,
 	rarity = 5,
@@ -178490,7 +178756,11 @@ A medal based on the Anchorage National Observatory.
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		1,
+		200111
+	}
 }
 
 
@@ -178504,7 +178774,6 @@ _G.pg.base.item_virtual_data_statistics[65786] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5029501",
 	order = 0,
 	rarity = 4,
@@ -178516,7 +178785,11 @@ _G.pg.base.item_virtual_data_statistics[65786] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5029501
+	}
 }
 
 
@@ -178530,7 +178803,6 @@ _G.pg.base.item_virtual_data_statistics[65787] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5029502",
 	order = 0,
 	rarity = 4,
@@ -178542,7 +178814,11 @@ _G.pg.base.item_virtual_data_statistics[65787] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5029502
+	}
 }
 
 
@@ -178556,7 +178832,6 @@ _G.pg.base.item_virtual_data_statistics[65788] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5029503",
 	order = 0,
 	rarity = 4,
@@ -178568,7 +178843,11 @@ _G.pg.base.item_virtual_data_statistics[65788] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5029503
+	}
 }
 
 
@@ -178582,7 +178861,6 @@ _G.pg.base.item_virtual_data_statistics[65789] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5029504",
 	order = 0,
 	rarity = 4,
@@ -178594,7 +178872,11 @@ _G.pg.base.item_virtual_data_statistics[65789] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5029504
+	}
 }
 
 
@@ -178608,7 +178890,6 @@ _G.pg.base.item_virtual_data_statistics[65790] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5029505",
 	order = 0,
 	rarity = 4,
@@ -178620,7 +178901,11 @@ _G.pg.base.item_virtual_data_statistics[65790] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5029505
+	}
 }
 
 
@@ -178634,7 +178919,6 @@ _G.pg.base.item_virtual_data_statistics[65791] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5029506",
 	order = 0,
 	rarity = 4,
@@ -178646,7 +178930,11 @@ _G.pg.base.item_virtual_data_statistics[65791] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5029506
+	}
 }
 
 
@@ -178660,7 +178948,6 @@ _G.pg.base.item_virtual_data_statistics[65792] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5029507",
 	order = 0,
 	rarity = 4,
@@ -178672,7 +178959,11 @@ _G.pg.base.item_virtual_data_statistics[65792] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5029507
+	}
 }
 
 
@@ -178686,7 +178977,6 @@ _G.pg.base.item_virtual_data_statistics[65793] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5029508",
 	order = 0,
 	rarity = 4,
@@ -178698,7 +178988,11 @@ _G.pg.base.item_virtual_data_statistics[65793] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5029508
+	}
 }
 
 
@@ -178920,7 +179214,6 @@ _G.pg.base.item_virtual_data_statistics[65802] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "Medal/9121",
 	order = 0,
 	rarity = 5,
@@ -178932,7 +179225,11 @@ _G.pg.base.item_virtual_data_statistics[65802] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		1,
+		200121
+	}
 }
 
 
@@ -178946,7 +179243,6 @@ _G.pg.base.item_virtual_data_statistics[65803] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5035901",
 	order = 0,
 	rarity = 4,
@@ -178958,7 +179254,11 @@ _G.pg.base.item_virtual_data_statistics[65803] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5035901
+	}
 }
 
 
@@ -178972,7 +179272,6 @@ _G.pg.base.item_virtual_data_statistics[65804] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5035902",
 	order = 0,
 	rarity = 4,
@@ -178984,7 +179283,11 @@ _G.pg.base.item_virtual_data_statistics[65804] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5035902
+	}
 }
 
 
@@ -178998,7 +179301,6 @@ _G.pg.base.item_virtual_data_statistics[65805] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5035903",
 	order = 0,
 	rarity = 4,
@@ -179010,7 +179312,11 @@ _G.pg.base.item_virtual_data_statistics[65805] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5035903
+	}
 }
 
 
@@ -179024,7 +179330,6 @@ _G.pg.base.item_virtual_data_statistics[65806] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5035904",
 	order = 0,
 	rarity = 4,
@@ -179036,7 +179341,11 @@ _G.pg.base.item_virtual_data_statistics[65806] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5035904
+	}
 }
 
 
@@ -179050,7 +179359,6 @@ _G.pg.base.item_virtual_data_statistics[65807] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5035905",
 	order = 0,
 	rarity = 4,
@@ -179062,7 +179370,11 @@ _G.pg.base.item_virtual_data_statistics[65807] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5035905
+	}
 }
 
 
@@ -179076,7 +179388,6 @@ _G.pg.base.item_virtual_data_statistics[65808] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5035906",
 	order = 0,
 	rarity = 4,
@@ -179088,7 +179399,11 @@ _G.pg.base.item_virtual_data_statistics[65808] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5035906
+	}
 }
 
 
@@ -179102,7 +179417,6 @@ _G.pg.base.item_virtual_data_statistics[65809] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5035907",
 	order = 0,
 	rarity = 4,
@@ -179114,7 +179428,11 @@ _G.pg.base.item_virtual_data_statistics[65809] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5035907
+	}
 }
 
 
@@ -179128,7 +179446,6 @@ _G.pg.base.item_virtual_data_statistics[65810] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5035908",
 	order = 0,
 	rarity = 4,
@@ -179140,7 +179457,11 @@ _G.pg.base.item_virtual_data_statistics[65810] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5035908
+	}
 }
 
 
@@ -179973,7 +180294,6 @@ _G.pg.base.item_virtual_data_statistics[65848] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "Medal/9131",
 	order = 0,
 	rarity = 5,
@@ -179985,7 +180305,11 @@ _G.pg.base.item_virtual_data_statistics[65848] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		1,
+		200131
+	}
 }
 
 
@@ -179999,7 +180323,6 @@ _G.pg.base.item_virtual_data_statistics[65849] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5040501",
 	order = 0,
 	rarity = 4,
@@ -180011,7 +180334,11 @@ _G.pg.base.item_virtual_data_statistics[65849] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5040501
+	}
 }
 
 
@@ -180025,7 +180352,6 @@ _G.pg.base.item_virtual_data_statistics[65850] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5040502",
 	order = 0,
 	rarity = 4,
@@ -180037,7 +180363,11 @@ _G.pg.base.item_virtual_data_statistics[65850] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5040502
+	}
 }
 
 
@@ -180051,7 +180381,6 @@ _G.pg.base.item_virtual_data_statistics[65851] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5040503",
 	order = 0,
 	rarity = 4,
@@ -180063,7 +180392,11 @@ _G.pg.base.item_virtual_data_statistics[65851] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5040503
+	}
 }
 
 
@@ -180077,7 +180410,6 @@ _G.pg.base.item_virtual_data_statistics[65852] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5040504",
 	order = 0,
 	rarity = 4,
@@ -180089,7 +180421,11 @@ _G.pg.base.item_virtual_data_statistics[65852] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5040504
+	}
 }
 
 
@@ -180103,7 +180439,6 @@ _G.pg.base.item_virtual_data_statistics[65853] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5040505",
 	order = 0,
 	rarity = 4,
@@ -180115,7 +180450,11 @@ _G.pg.base.item_virtual_data_statistics[65853] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5040505
+	}
 }
 
 
@@ -180129,7 +180468,6 @@ _G.pg.base.item_virtual_data_statistics[65854] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5040506",
 	order = 0,
 	rarity = 4,
@@ -180141,7 +180479,11 @@ _G.pg.base.item_virtual_data_statistics[65854] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5040506
+	}
 }
 
 
@@ -180155,7 +180497,6 @@ _G.pg.base.item_virtual_data_statistics[65855] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5040507",
 	order = 0,
 	rarity = 4,
@@ -180167,7 +180508,11 @@ _G.pg.base.item_virtual_data_statistics[65855] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5040507
+	}
 }
 
 
@@ -180181,7 +180526,6 @@ _G.pg.base.item_virtual_data_statistics[65856] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5040508",
 	order = 0,
 	rarity = 4,
@@ -180193,7 +180537,11 @@ _G.pg.base.item_virtual_data_statistics[65856] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5040508
+	}
 }
 
 
@@ -180207,7 +180555,6 @@ _G.pg.base.item_virtual_data_statistics[65860] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "Medal/9141",
 	order = 0,
 	rarity = 5,
@@ -180219,7 +180566,11 @@ _G.pg.base.item_virtual_data_statistics[65860] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		1,
+		200141
+	}
 }
 
 
@@ -180233,7 +180584,6 @@ _G.pg.base.item_virtual_data_statistics[65861] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5044101",
 	order = 0,
 	rarity = 4,
@@ -180245,7 +180595,11 @@ _G.pg.base.item_virtual_data_statistics[65861] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5044101
+	}
 }
 
 
@@ -180259,7 +180613,6 @@ _G.pg.base.item_virtual_data_statistics[65862] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5044102",
 	order = 0,
 	rarity = 4,
@@ -180271,7 +180624,11 @@ _G.pg.base.item_virtual_data_statistics[65862] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5044102
+	}
 }
 
 
@@ -180285,7 +180642,6 @@ _G.pg.base.item_virtual_data_statistics[65863] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5044103",
 	order = 0,
 	rarity = 4,
@@ -180297,7 +180653,11 @@ _G.pg.base.item_virtual_data_statistics[65863] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5044103
+	}
 }
 
 
@@ -180311,7 +180671,6 @@ _G.pg.base.item_virtual_data_statistics[65864] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5044104",
 	order = 0,
 	rarity = 4,
@@ -180323,7 +180682,11 @@ _G.pg.base.item_virtual_data_statistics[65864] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5044104
+	}
 }
 
 
@@ -180337,7 +180700,6 @@ _G.pg.base.item_virtual_data_statistics[65865] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5044105",
 	order = 0,
 	rarity = 4,
@@ -180349,7 +180711,11 @@ _G.pg.base.item_virtual_data_statistics[65865] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5044105
+	}
 }
 
 
@@ -180363,7 +180729,6 @@ _G.pg.base.item_virtual_data_statistics[65866] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5044106",
 	order = 0,
 	rarity = 4,
@@ -180375,7 +180740,11 @@ _G.pg.base.item_virtual_data_statistics[65866] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5044106
+	}
 }
 
 
@@ -180389,7 +180758,6 @@ _G.pg.base.item_virtual_data_statistics[65867] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5044107",
 	order = 0,
 	rarity = 4,
@@ -180401,7 +180769,11 @@ _G.pg.base.item_virtual_data_statistics[65867] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5044107
+	}
 }
 
 
@@ -180415,7 +180787,6 @@ _G.pg.base.item_virtual_data_statistics[65868] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5044108",
 	order = 0,
 	rarity = 4,
@@ -180427,7 +180798,11 @@ _G.pg.base.item_virtual_data_statistics[65868] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5044108
+	}
 }
 
 
@@ -180714,7 +181089,6 @@ _G.pg.base.item_virtual_data_statistics[65876] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5048201",
 	order = 0,
 	rarity = 4,
@@ -180726,7 +181100,11 @@ _G.pg.base.item_virtual_data_statistics[65876] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5048201
+	}
 }
 
 
@@ -180740,7 +181118,6 @@ _G.pg.base.item_virtual_data_statistics[65877] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5048202",
 	order = 0,
 	rarity = 4,
@@ -180752,7 +181129,11 @@ _G.pg.base.item_virtual_data_statistics[65877] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5048202
+	}
 }
 
 
@@ -180766,7 +181147,6 @@ _G.pg.base.item_virtual_data_statistics[65878] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5048203",
 	order = 0,
 	rarity = 4,
@@ -180778,7 +181158,11 @@ _G.pg.base.item_virtual_data_statistics[65878] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5048203
+	}
 }
 
 
@@ -180792,7 +181176,6 @@ _G.pg.base.item_virtual_data_statistics[65879] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5048204",
 	order = 0,
 	rarity = 4,
@@ -180804,7 +181187,11 @@ _G.pg.base.item_virtual_data_statistics[65879] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5048204
+	}
 }
 
 
@@ -180818,7 +181205,6 @@ _G.pg.base.item_virtual_data_statistics[65880] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5048205",
 	order = 0,
 	rarity = 4,
@@ -180830,7 +181216,11 @@ _G.pg.base.item_virtual_data_statistics[65880] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5048205
+	}
 }
 
 
@@ -180844,7 +181234,6 @@ _G.pg.base.item_virtual_data_statistics[65881] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5048206",
 	order = 0,
 	rarity = 4,
@@ -180856,7 +181245,11 @@ _G.pg.base.item_virtual_data_statistics[65881] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5048206
+	}
 }
 
 
@@ -180870,7 +181263,6 @@ _G.pg.base.item_virtual_data_statistics[65882] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5048207",
 	order = 0,
 	rarity = 4,
@@ -180882,7 +181274,11 @@ _G.pg.base.item_virtual_data_statistics[65882] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5048207
+	}
 }
 
 
@@ -180896,7 +181292,6 @@ _G.pg.base.item_virtual_data_statistics[65883] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "ActivityMedal/5048208",
 	order = 0,
 	rarity = 4,
@@ -180908,7 +181303,11 @@ _G.pg.base.item_virtual_data_statistics[65883] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		2,
+		5048208
+	}
 }
 
 
@@ -180974,7 +181373,6 @@ _G.pg.base.item_virtual_data_statistics[65886] = {
 	replace_item = 0,
 	time_limit = 0,
 	link_id = 0,
-	album_config = "",
 	icon = "Medal/9151",
 	order = 0,
 	rarity = 5,
@@ -180986,7 +181384,11 @@ _G.pg.base.item_virtual_data_statistics[65886] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	album_config = {
+		1,
+		200151
+	}
 }
 
 
@@ -181008,6 +181410,292 @@ _G.pg.base.item_virtual_data_statistics[65887] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 65887,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65890] = {
+	drop_gold_max = 0,
+	name = "Spark of Joy",
+	display = "Every shopping spree is special!\n\nEvent currency for The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/mall_pt",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65890,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65891] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 98",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65891,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65892] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 200",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65892,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65893] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 202",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65893,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65894] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 212",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65894,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65895] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 222",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65895,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65896] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 232",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65896,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65897] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 234",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65897,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65898] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 242",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65898,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65899] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 303",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65899,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65900] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 321",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65900,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181112,6 +181800,1903 @@ _G.pg.base.item_virtual_data_statistics[65910] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 65910,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65918] = {
+	drop_gold_max = 0,
+	name = "Holy Unitas Empire Aureus",
+	display = "Alliance Before the Hagiobull event currency. Removed after the event ends.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/65918",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65918,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65919] = {
+	drop_gold_max = 0,
+	name = "Deep-Dive Scroll",
+	display = "Alliance Before the Hagiobull UR exchange ticket. Removed after the event ends.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/65919",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65919,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65920] = {
+	drop_gold_max = 0,
+	name = "Hagiobull Alliance Medal",
+	display = "A commemorative medal bestowed by the Holy Unitas Empire, celebrating the great triumph over the netherworld.\nMay providence witness this enduring alliance.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Medal/9161",
+	order = 0,
+	rarity = 5,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65920,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		1,
+		200161
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65921] = {
+	drop_gold_max = 0,
+	name = "Sticker: Holy Unitas Empire",
+	display = "The Holy Unitas Empire. Where the holy and the imperial unite.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5060701",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65921,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5060701
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65922] = {
+	drop_gold_max = 0,
+	name = "Sticker: Sky-Grasping Tower",
+	display = "Transboundary Experiment #1: Transcender. Beginning ascent.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5060702",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65922,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5060702
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65923] = {
+	drop_gold_max = 0,
+	name = "Sticker: Mercenary Commander",
+	display = "Visitors From Beyond mercenaries, move out!",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5060703",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65923,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5060703
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65924] = {
+	drop_gold_max = 0,
+	name = "Sticker: Insignia of the Holy See",
+	display = "Where God's eyes reach, so too does His concept.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5060704",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65924,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5060704
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65925] = {
+	drop_gold_max = 0,
+	name = "Sticker: Insignia of the Emperor",
+	display = "Those who wear the crown must endure its weight.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5060705",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65925,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5060705
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65926] = {
+	drop_gold_max = 0,
+	name = "Sticker: Insignia of the Tribunal",
+	display = "The light of the Black Sun obliterates all demons.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5060706",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65926,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5060706
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65927] = {
+	drop_gold_max = 0,
+	name = "Sticker: Deep Dive",
+	display = "You gazed into the abyss, then swam inside it happily.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5060707",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65927,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5060707
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65928] = {
+	drop_gold_max = 0,
+	name = "Sticker: Freelance Knight",
+	display = "One of the noble titles of the Holy Unitas Empire. As for the others... do you really want to know more?",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5060708",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65928,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5060708
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65929] = {
+	drop_gold_max = 0,
+	name = "Luxurious Getaway Medal",
+	display = "What's a better way to spend your vacation than enjoying Luxury Bay to the fullest?\nIt'll be an unforgettable adventure filled with surprises and splendor!",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Medal/9171",
+	order = 0,
+	rarity = 5,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65929,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		1,
+		200171
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65930] = {
+	drop_gold_max = 0,
+	name = "Sticker: Luxury Bay",
+	display = "Set sail! Luxury Bay is waiting to harbor you after a day of play!",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5061601",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65930,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5061601
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65931] = {
+	drop_gold_max = 0,
+	name = "Sticker: Star of Luxury",
+	display = "Speak your wish, and it might just come true!",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5061602",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65931,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5061602
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65932] = {
+	drop_gold_max = 0,
+	name = "Sticker: Straight to the Sky",
+	display = "Soar straight to the sky!",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5061603",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65932,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5061603
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65933] = {
+	drop_gold_max = 0,
+	name = "Sticker: Arc Dome",
+	display = "360-degree natural light ensures a bright and comfortable indoor environment!",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5061604",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65933,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5061604
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65934] = {
+	drop_gold_max = 0,
+	name = "Sticker: Seagull's Got Dreams",
+	display = "The bird's dream... was to go to the docks and eat fries.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5061605",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65934,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5061605
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65935] = {
+	drop_gold_max = 0,
+	name = "Sticker: Relaxing Manjuu",
+	display = "Nothing's better than a nap under the sun, peep~",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5061606",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65935,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5061606
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65936] = {
+	drop_gold_max = 0,
+	name = "Sticker: Tower of Luxury",
+	display = "Now that you've come this far, don't think you're going back empty-handed!",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5061607",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65936,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5061607
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65938] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 333",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65938,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65939] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 345",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65939,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65940] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 369",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65940,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65941] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 404",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65941,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65942] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 414",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65942,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65943] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 432",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65943,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65944] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 444",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65944,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65945] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 456",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65945,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65946] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 505",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65946,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65947] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 515",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65947,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65948] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 525",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65948,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65949] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 543",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65949,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65950] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 555",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65950,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65951] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 567",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65951,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65952] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 600",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65952,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65953] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 606",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65953,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65954] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 624",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65954,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65955] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 648",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65955,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65956] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 654",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65956,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65957] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 666",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65957,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65958] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 678",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65958,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65959] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 686",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65959,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65960] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 688",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65960,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65961] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 707",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65961,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65962] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 717",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65962,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65963] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 720",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65963,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65964] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 727",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65964,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65965] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 777",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65965,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65966] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 789",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65966,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65967] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 800",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65967,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65968] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 808",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65968,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65969] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 818",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65969,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65970] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 828",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65970,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65971] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 888",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65971,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65972] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 900",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65972,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65973] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 909",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65973,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65974] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 919",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65974,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65975] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 929",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65975,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65976] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 939",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65976,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65977] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 969",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65977,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65978] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 979",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65978,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65979] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 989",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65979,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65980] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 998",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65980,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65981] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 999",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65981,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65982] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 6",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65982,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65983] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 67",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65983,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65984] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 0",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65984,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65985] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 23",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65985,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65986] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 30",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65986,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65987] = {
+	drop_gold_max = 0,
+	name = "Manjuu No. 76",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50602,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 103,
+	id = 65987,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65988] = {
+	drop_gold_max = 0,
+	name = "Random Manjuu",
+	display = "Manjuu staff workers that can be assigned to various areas in the mall in The Opulent! The Glamorous! Luxury Bay! event.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/staff_template",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65988,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65989] = {
+	drop_gold_max = 0,
+	name = "Rental Outfit Voucher",
+	display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time. Will disappear after the event period ends.",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65989,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181502,6 +184087,32 @@ _G.pg.base.item_virtual_data_statistics[66031] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 66031,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66036] = {
+	drop_gold_max = 0,
+	name = "Returnee Points",
+	display = "Used to exchange for items in \"Headquarters Mobilization Request\". Will be removed after the event ends.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/union_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66036,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -192073,6 +194684,61 @@ Georgia - South Town Pearl;]],
 	index = {},
 	shiptrans_id = {},
 	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86227] = {
+	drop_gold_max = 0,
+	name = "Random Skin",
+	display = "",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86227,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			405071,
+			1100
+		},
+		{
+			408151,
+			1100
+		},
+		{
+			307152,
+			1100
+		},
+		{
+			403171,
+			1500
+		},
+		{
+			401151,
+			1500
+		},
+		{
+			499013,
+			1960
+		},
+		{
+			401141,
+			1740
+		}
+	}
 }
 
 
@@ -252191,6 +254857,3124 @@ _G.pg.base.item_virtual_data_statistics[200755] = {
 		{
 			4,
 			106021,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200761] = {
+	drop_gold_max = 0,
+	name = "Mystery Design",
+	display = "Chance to receive following designs",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200761,
+	display_icon = {
+		{
+			2,
+			10108,
+			1
+		},
+		{
+			2,
+			30,
+			1
+		},
+		{
+			2,
+			33,
+			1
+		},
+		{
+			2,
+			47,
+			1
+		},
+		{
+			2,
+			2,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200762] = {
+	drop_gold_max = 0,
+	name = "Mystery Design",
+	display = "Chance to receive following designs",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200762,
+	display_icon = {
+		{
+			2,
+			10078,
+			1
+		},
+		{
+			2,
+			10072,
+			1
+		},
+		{
+			2,
+			10071,
+			1
+		},
+		{
+			2,
+			46,
+			1
+		},
+		{
+			2,
+			4,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200763] = {
+	drop_gold_max = 0,
+	name = "Mystery Design",
+	display = "Chance to receive following designs",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200763,
+	display_icon = {
+		{
+			2,
+			10074,
+			1
+		},
+		{
+			2,
+			10106,
+			1
+		},
+		{
+			2,
+			10090,
+			1
+		},
+		{
+			2,
+			10009,
+			1
+		},
+		{
+			2,
+			5,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200764] = {
+	drop_gold_max = 0,
+	name = "Mystery Design",
+	display = "Chance to receive following designs",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200764,
+	display_icon = {
+		{
+			2,
+			10104,
+			1
+		},
+		{
+			2,
+			10103,
+			1
+		},
+		{
+			2,
+			10076,
+			1
+		},
+		{
+			2,
+			10002,
+			1
+		},
+		{
+			2,
+			45,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200765] = {
+	drop_gold_max = 0,
+	name = "Mystery Design",
+	display = "Chance to receive following designs",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200765,
+	display_icon = {
+		{
+			2,
+			10085,
+			1
+		},
+		{
+			2,
+			10086,
+			1
+		},
+		{
+			2,
+			10123,
+			1
+		},
+		{
+			2,
+			10008,
+			1
+		},
+		{
+			2,
+			10092,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200766] = {
+	drop_gold_max = 0,
+	name = "Mystery Design",
+	display = "Chance to receive following designs",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200766,
+	display_icon = {
+		{
+			2,
+			10105,
+			1
+		},
+		{
+			2,
+			10101,
+			1
+		},
+		{
+			2,
+			10119,
+			1
+		},
+		{
+			2,
+			10001,
+			1
+		},
+		{
+			2,
+			10091,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200767] = {
+	drop_gold_max = 0,
+	name = "Mystery Design",
+	display = "Chance to receive following designs",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200767,
+	display_icon = {
+		{
+			2,
+			10108,
+			1
+		},
+		{
+			2,
+			10079,
+			1
+		},
+		{
+			2,
+			10109,
+			1
+		},
+		{
+			2,
+			10006,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200768] = {
+	drop_gold_max = 0,
+	name = "Mystery Design",
+	display = "Chance to receive following designs",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200768,
+	display_icon = {
+		{
+			2,
+			11027,
+			1
+		},
+		{
+			2,
+			10078,
+			1
+		},
+		{
+			2,
+			10072,
+			1
+		},
+		{
+			2,
+			10007,
+			1
+		},
+		{
+			2,
+			10003,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200769] = {
+	drop_gold_max = 0,
+	name = "Mystery Design",
+	display = "Chance to receive following designs",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200769,
+	display_icon = {
+		{
+			2,
+			11025,
+			1
+		},
+		{
+			2,
+			10074,
+			1
+		},
+		{
+			2,
+			10106,
+			1
+		},
+		{
+			2,
+			10009,
+			1
+		},
+		{
+			2,
+			10010,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200770] = {
+	drop_gold_max = 0,
+	name = "Mystery Design",
+	display = "Chance to receive following designs",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200770,
+	display_icon = {
+		{
+			2,
+			11049,
+			1
+		},
+		{
+			2,
+			10104,
+			1
+		},
+		{
+			2,
+			10103,
+			1
+		},
+		{
+			2,
+			10002,
+			1
+		},
+		{
+			2,
+			10005,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200771] = {
+	drop_gold_max = 0,
+	name = "Mystery Design",
+	display = "Chance to receive following designs",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200771,
+	display_icon = {
+		{
+			2,
+			11031,
+			1
+		},
+		{
+			2,
+			10085,
+			1
+		},
+		{
+			2,
+			10086,
+			1
+		},
+		{
+			2,
+			10008,
+			1
+		},
+		{
+			2,
+			10092,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200772] = {
+	drop_gold_max = 0,
+	name = "Mystery Design",
+	display = "Chance to receive following designs",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200772,
+	display_icon = {
+		{
+			2,
+			11040,
+			1
+		},
+		{
+			2,
+			10105,
+			1
+		},
+		{
+			2,
+			10101,
+			1
+		},
+		{
+			2,
+			10001,
+			1
+		},
+		{
+			2,
+			10091,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200773] = {
+	drop_gold_max = 0,
+	name = "Mystery Design",
+	display = "Chance to receive following designs",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200773,
+	display_icon = {
+		{
+			2,
+			11040,
+			1
+		},
+		{
+			2,
+			10105,
+			1
+		},
+		{
+			2,
+			10078,
+			1
+		},
+		{
+			2,
+			10001,
+			1
+		},
+		{
+			2,
+			10091,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200774] = {
+	drop_gold_max = 0,
+	name = "Mystery Design",
+	display = "Chance to receive following designs",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200774,
+	display_icon = {
+		{
+			2,
+			10108,
+			1
+		},
+		{
+			2,
+			30,
+			1
+		},
+		{
+			2,
+			33,
+			1
+		},
+		{
+			2,
+			47,
+			1
+		},
+		{
+			2,
+			2,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200775] = {
+	drop_gold_max = 0,
+	name = "Mystery Design",
+	display = "Chance to receive following designs",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200775,
+	display_icon = {
+		{
+			2,
+			10078,
+			1
+		},
+		{
+			2,
+			10072,
+			1
+		},
+		{
+			2,
+			10071,
+			1
+		},
+		{
+			2,
+			46,
+			1
+		},
+		{
+			2,
+			4,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200776] = {
+	drop_gold_max = 0,
+	name = "Mystery Design",
+	display = "Chance to receive following designs",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200776,
+	display_icon = {
+		{
+			2,
+			10074,
+			1
+		},
+		{
+			2,
+			10106,
+			1
+		},
+		{
+			2,
+			10090,
+			1
+		},
+		{
+			2,
+			10009,
+			1
+		},
+		{
+			2,
+			5,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200777] = {
+	drop_gold_max = 0,
+	name = "Mystery Design",
+	display = "Chance to receive following designs",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200777,
+	display_icon = {
+		{
+			2,
+			10104,
+			1
+		},
+		{
+			2,
+			10103,
+			1
+		},
+		{
+			2,
+			10076,
+			1
+		},
+		{
+			2,
+			10002,
+			1
+		},
+		{
+			2,
+			45,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200778] = {
+	drop_gold_max = 0,
+	name = "Mystery Design",
+	display = "Chance to receive following designs",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200778,
+	display_icon = {
+		{
+			2,
+			10085,
+			1
+		},
+		{
+			2,
+			10086,
+			1
+		},
+		{
+			2,
+			10123,
+			1
+		},
+		{
+			2,
+			10008,
+			1
+		},
+		{
+			2,
+			10092,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200779] = {
+	drop_gold_max = 0,
+	name = "Mystery Design",
+	display = "Chance to receive following designs",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200779,
+	display_icon = {
+		{
+			2,
+			10105,
+			1
+		},
+		{
+			2,
+			10101,
+			1
+		},
+		{
+			2,
+			10119,
+			1
+		},
+		{
+			2,
+			10001,
+			1
+		},
+		{
+			2,
+			10091,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200780] = {
+	drop_gold_max = 0,
+	name = "Mystery Design",
+	display = "Chance to receive following designs",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200780,
+	display_icon = {
+		{
+			2,
+			10108,
+			1
+		},
+		{
+			2,
+			10079,
+			1
+		},
+		{
+			2,
+			10109,
+			1
+		},
+		{
+			2,
+			10006,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200781] = {
+	drop_gold_max = 0,
+	name = "Mystery Design",
+	display = "Chance to receive following designs",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200781,
+	display_icon = {
+		{
+			2,
+			10078,
+			1
+		},
+		{
+			2,
+			10072,
+			1
+		},
+		{
+			2,
+			10007,
+			1
+		},
+		{
+			2,
+			10003,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200782] = {
+	drop_gold_max = 0,
+	name = "Mystery Design",
+	display = "Chance to receive following designs",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200782,
+	display_icon = {
+		{
+			2,
+			10074,
+			1
+		},
+		{
+			2,
+			10106,
+			1
+		},
+		{
+			2,
+			10009,
+			1
+		},
+		{
+			2,
+			10010,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200783] = {
+	drop_gold_max = 0,
+	name = "Mystery Design",
+	display = "Chance to receive following designs",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200783,
+	display_icon = {
+		{
+			2,
+			10104,
+			1
+		},
+		{
+			2,
+			10103,
+			1
+		},
+		{
+			2,
+			10002,
+			1
+		},
+		{
+			2,
+			10005,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200784] = {
+	drop_gold_max = 0,
+	name = "Mystery Design",
+	display = "Chance to receive following designs",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200784,
+	display_icon = {
+		{
+			2,
+			10085,
+			1
+		},
+		{
+			2,
+			10086,
+			1
+		},
+		{
+			2,
+			10008,
+			1
+		},
+		{
+			2,
+			10092,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200785] = {
+	drop_gold_max = 0,
+	name = "Mystery Design",
+	display = "Chance to receive following designs",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200785,
+	display_icon = {
+		{
+			2,
+			10105,
+			1
+		},
+		{
+			2,
+			10101,
+			1
+		},
+		{
+			2,
+			10001,
+			1
+		},
+		{
+			2,
+			10091,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200786] = {
+	drop_gold_max = 0,
+	name = "Mystery Design",
+	display = "Chance to receive following designs",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200786,
+	display_icon = {
+		{
+			2,
+			10105,
+			1
+		},
+		{
+			2,
+			10078,
+			1
+		},
+		{
+			2,
+			10001,
+			1
+		},
+		{
+			2,
+			10091,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200787] = {
+	drop_gold_max = 0,
+	name = "Mystery Ship",
+	display = "Chance to receive following ships from this stage",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = 0,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/54000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200787,
+	display_icon = {
+		{
+			4,
+			205011,
+			1
+		},
+		{
+			4,
+			401231,
+			1
+		},
+		{
+			4,
+			103041,
+			1
+		},
+		{
+			4,
+			105071,
+			1
+		},
+		{
+			4,
+			102041,
+			1
+		},
+		{
+			4,
+			204021,
+			1
+		},
+		{
+			4,
+			102071,
+			1
+		},
+		{
+			4,
+			201091,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			401211,
+			1
+		},
+		{
+			4,
+			402011,
+			1
+		},
+		{
+			4,
+			401201,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		},
+		{
+			4,
+			107011,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200788] = {
+	drop_gold_max = 0,
+	name = "Mystery Ship",
+	display = "Chance to receive following ships from this stage",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = 0,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/54000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200788,
+	display_icon = {
+		{
+			4,
+			107021,
+			1
+		},
+		{
+			4,
+			102051,
+			1
+		},
+		{
+			4,
+			103041,
+			1
+		},
+		{
+			4,
+			105071,
+			1
+		},
+		{
+			4,
+			102041,
+			1
+		},
+		{
+			4,
+			204021,
+			1
+		},
+		{
+			4,
+			102071,
+			1
+		},
+		{
+			4,
+			201091,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			401211,
+			1
+		},
+		{
+			4,
+			402011,
+			1
+		},
+		{
+			4,
+			401201,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		},
+		{
+			4,
+			107011,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200789] = {
+	drop_gold_max = 0,
+	name = "Mystery Ship",
+	display = "Chance to receive following ships from this stage",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = 0,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/54000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200789,
+	display_icon = {
+		{
+			4,
+			206031,
+			1
+		},
+		{
+			4,
+			403041,
+			1
+		},
+		{
+			4,
+			103041,
+			1
+		},
+		{
+			4,
+			105071,
+			1
+		},
+		{
+			4,
+			102041,
+			1
+		},
+		{
+			4,
+			204021,
+			1
+		},
+		{
+			4,
+			102071,
+			1
+		},
+		{
+			4,
+			201091,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			401211,
+			1
+		},
+		{
+			4,
+			402011,
+			1
+		},
+		{
+			4,
+			401201,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		},
+		{
+			4,
+			107011,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200790] = {
+	drop_gold_max = 0,
+	name = "Mystery Ship",
+	display = "Chance to receive following ships from this stage",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = 0,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/54000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200790,
+	display_icon = {
+		{
+			4,
+			201231,
+			1
+		},
+		{
+			4,
+			205031,
+			1
+		},
+		{
+			4,
+			103041,
+			1
+		},
+		{
+			4,
+			105071,
+			1
+		},
+		{
+			4,
+			102041,
+			1
+		},
+		{
+			4,
+			204021,
+			1
+		},
+		{
+			4,
+			102071,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			102111,
+			1
+		},
+		{
+			4,
+			201101,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101061,
+			1
+		},
+		{
+			4,
+			401211,
+			1
+		},
+		{
+			4,
+			402031,
+			1
+		},
+		{
+			4,
+			402021,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			105021,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200791] = {
+	drop_gold_max = 0,
+	name = "Mystery Ship",
+	display = "Chance to receive following ships from this stage",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = 0,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/54000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200791,
+	display_icon = {
+		{
+			4,
+			202111,
+			1
+		},
+		{
+			4,
+			107031,
+			1
+		},
+		{
+			4,
+			103041,
+			1
+		},
+		{
+			4,
+			105071,
+			1
+		},
+		{
+			4,
+			102041,
+			1
+		},
+		{
+			4,
+			204021,
+			1
+		},
+		{
+			4,
+			102071,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			102111,
+			1
+		},
+		{
+			4,
+			201101,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101061,
+			1
+		},
+		{
+			4,
+			401211,
+			1
+		},
+		{
+			4,
+			402031,
+			1
+		},
+		{
+			4,
+			402021,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			105021,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200792] = {
+	drop_gold_max = 0,
+	name = "Mystery Ship",
+	display = "Chance to receive following ships from this stage",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = 0,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/54000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200792,
+	display_icon = {
+		{
+			4,
+			9706051,
+			1
+		},
+		{
+			4,
+			404021,
+			1
+		},
+		{
+			4,
+			213021,
+			1
+		},
+		{
+			4,
+			103041,
+			1
+		},
+		{
+			4,
+			105071,
+			1
+		},
+		{
+			4,
+			102041,
+			1
+		},
+		{
+			4,
+			204021,
+			1
+		},
+		{
+			4,
+			102071,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			102111,
+			1
+		},
+		{
+			4,
+			201101,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101061,
+			1
+		},
+		{
+			4,
+			401211,
+			1
+		},
+		{
+			4,
+			402031,
+			1
+		},
+		{
+			4,
+			402021,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			105021,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200793] = {
+	drop_gold_max = 0,
+	name = "Mystery Ship",
+	display = "Chance to receive following ships from this stage",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = 0,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/54000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200793,
+	display_icon = {
+		{
+			4,
+			205011,
+			1
+		},
+		{
+			4,
+			401231,
+			1
+		},
+		{
+			4,
+			203021,
+			1
+		},
+		{
+			4,
+			101241,
+			1
+		},
+		{
+			4,
+			106011,
+			1
+		},
+		{
+			4,
+			202021,
+			1
+		},
+		{
+			4,
+			102031,
+			1
+		},
+		{
+			4,
+			201091,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			401211,
+			1
+		},
+		{
+			4,
+			402011,
+			1
+		},
+		{
+			4,
+			401201,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		},
+		{
+			4,
+			107011,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200794] = {
+	drop_gold_max = 0,
+	name = "Mystery Ship",
+	display = "Chance to receive following ships from this stage",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = 0,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/54000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200794,
+	display_icon = {
+		{
+			4,
+			107021,
+			1
+		},
+		{
+			4,
+			102051,
+			1
+		},
+		{
+			4,
+			203021,
+			1
+		},
+		{
+			4,
+			101241,
+			1
+		},
+		{
+			4,
+			106011,
+			1
+		},
+		{
+			4,
+			202021,
+			1
+		},
+		{
+			4,
+			102031,
+			1
+		},
+		{
+			4,
+			201091,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			401211,
+			1
+		},
+		{
+			4,
+			402011,
+			1
+		},
+		{
+			4,
+			401201,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		},
+		{
+			4,
+			107011,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200795] = {
+	drop_gold_max = 0,
+	name = "Mystery Ship",
+	display = "Chance to receive following ships from this stage",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = 0,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/54000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200795,
+	display_icon = {
+		{
+			4,
+			206031,
+			1
+		},
+		{
+			4,
+			403041,
+			1
+		},
+		{
+			4,
+			203021,
+			1
+		},
+		{
+			4,
+			101241,
+			1
+		},
+		{
+			4,
+			106011,
+			1
+		},
+		{
+			4,
+			202021,
+			1
+		},
+		{
+			4,
+			102031,
+			1
+		},
+		{
+			4,
+			201091,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			401211,
+			1
+		},
+		{
+			4,
+			402011,
+			1
+		},
+		{
+			4,
+			401201,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		},
+		{
+			4,
+			107011,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200796] = {
+	drop_gold_max = 0,
+	name = "Mystery Ship",
+	display = "Chance to receive following ships from this stage",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = 0,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/54000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200796,
+	display_icon = {
+		{
+			4,
+			201231,
+			1
+		},
+		{
+			4,
+			205031,
+			1
+		},
+		{
+			4,
+			203021,
+			1
+		},
+		{
+			4,
+			101241,
+			1
+		},
+		{
+			4,
+			106011,
+			1
+		},
+		{
+			4,
+			202021,
+			1
+		},
+		{
+			4,
+			102031,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			102111,
+			1
+		},
+		{
+			4,
+			201101,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101061,
+			1
+		},
+		{
+			4,
+			401211,
+			1
+		},
+		{
+			4,
+			402031,
+			1
+		},
+		{
+			4,
+			402021,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			105021,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200797] = {
+	drop_gold_max = 0,
+	name = "Mystery Ship",
+	display = "Chance to receive following ships from this stage",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = 0,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/54000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200797,
+	display_icon = {
+		{
+			4,
+			202111,
+			1
+		},
+		{
+			4,
+			107031,
+			1
+		},
+		{
+			4,
+			203021,
+			1
+		},
+		{
+			4,
+			101241,
+			1
+		},
+		{
+			4,
+			106011,
+			1
+		},
+		{
+			4,
+			202021,
+			1
+		},
+		{
+			4,
+			102031,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			102111,
+			1
+		},
+		{
+			4,
+			201101,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101061,
+			1
+		},
+		{
+			4,
+			401211,
+			1
+		},
+		{
+			4,
+			402031,
+			1
+		},
+		{
+			4,
+			402021,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			105021,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200798] = {
+	drop_gold_max = 0,
+	name = "Mystery Ship",
+	display = "Chance to receive following ships from this stage",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = 0,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/54000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200798,
+	display_icon = {
+		{
+			4,
+			9706051,
+			1
+		},
+		{
+			4,
+			404021,
+			1
+		},
+		{
+			4,
+			213021,
+			1
+		},
+		{
+			4,
+			203021,
+			1
+		},
+		{
+			4,
+			101241,
+			1
+		},
+		{
+			4,
+			106011,
+			1
+		},
+		{
+			4,
+			202021,
+			1
+		},
+		{
+			4,
+			102031,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			102111,
+			1
+		},
+		{
+			4,
+			201101,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101061,
+			1
+		},
+		{
+			4,
+			401211,
+			1
+		},
+		{
+			4,
+			402031,
+			1
+		},
+		{
+			4,
+			402021,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			105021,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200799] = {
+	drop_gold_max = 0,
+	name = "Mystery Ship",
+	display = "Chance to receive following ships from this stage",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = 0,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/54000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200799,
+	display_icon = {
+		{
+			4,
+			9706051,
+			1
+		},
+		{
+			4,
+			404021,
+			1
+		},
+		{
+			4,
+			213021,
+			1
+		},
+		{
+			4,
+			203021,
+			1
+		},
+		{
+			4,
+			101241,
+			1
+		},
+		{
+			4,
+			106011,
+			1
+		},
+		{
+			4,
+			202021,
+			1
+		},
+		{
+			4,
+			102031,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			102111,
+			1
+		},
+		{
+			4,
+			201101,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101061,
+			1
+		},
+		{
+			4,
+			401211,
+			1
+		},
+		{
+			4,
+			402031,
+			1
+		},
+		{
+			4,
+			402021,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			105021,
 			1
 		}
 	}

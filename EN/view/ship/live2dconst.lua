@@ -2,6 +2,7 @@ slot0 = class("Live2dConst")
 slot0.l2d_bound_open = false
 slot0.l2d_arm_32 = false
 slot0.UnLoadL2dPating = nil
+slot0.PAINTING_BGM_VOLUME = "painting_bgm_volume"
 
 slot0.SaveL2dIdle = function(slot0, slot1, slot2)
 	PlayerPrefs.SetInt(uv0.GetL2dIdleSaveName(slot0, slot1), slot2)
@@ -166,6 +167,38 @@ slot0.GetLive2dDirty = function(slot0, slot1, slot2)
 	end
 
 	return false
+end
+
+slot0.SaveL2dBgmVolume = function(slot0, slot1)
+	if slot0 and slot1 then
+		if slot1 > 1 then
+			slot1 = 1
+		elseif slot1 < 0 then
+			slot1 = 0
+		end
+
+		if ShipSkin.IsChangeSkin(slot0) and ShipSkin.GetChangeSkinNextId(slot0) or nil then
+			PlayerPrefs.SetFloat(Live2dConst.PAINTING_BGM_VOLUME .. "_" .. slot3, slot1)
+		end
+
+		PlayerPrefs.SetFloat(Live2dConst.PAINTING_BGM_VOLUME .. "_" .. slot0, slot1)
+	end
+end
+
+slot0.GetPaintingBgmVolume = function(slot0)
+	slot1 = 1
+
+	if PlayerPrefs.GetFloat(Live2dConst.PAINTING_BGM_VOLUME .. "_" .. slot0) ~= nil then
+		slot1 = slot2
+	end
+
+	if slot1 > 1 then
+		slot1 = 1
+	elseif slot1 < 0 then
+		slot1 = 0
+	end
+
+	return slot1
 end
 
 return slot0

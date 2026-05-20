@@ -1,13 +1,18 @@
 slot0 = class("CombatUIPreviewer")
-slot1 = Vector3(0, 1, 40)
-slot2 = Vector3(35, 1, 40)
-slot3 = Vector3(30, 0, 0)
-slot4 = Vector3(330, 0, 0)
-slot5 = Vector3(-532, 157, 0)
-slot6 = Vector3(-665, 70, -675)
-slot7 = Vector3(473, 157, 0)
-slot8 = Vector3(-791, 70, 0)
-slot9 = Vector3(464, 70, -675)
+slot0.WeaponButtonPreviewMode = {
+	LOOP = 3,
+	FILLED = 2,
+	UNFILLED = 1
+}
+slot2 = Vector3(0, 1, 40)
+slot3 = Vector3(35, 1, 40)
+slot4 = Vector3(30, 0, 0)
+slot5 = Vector3(330, 0, 0)
+slot6 = Vector3(-532, 157, 0)
+slot7 = Vector3(-665, 70, -675)
+slot8 = Vector3(473, 157, 0)
+slot9 = Vector3(-791, 70, 0)
+slot10 = Vector3(464, 70, -675)
 
 slot0.Ctor = function(slot0, slot1)
 	slot0.rawImage = slot1
@@ -41,29 +46,31 @@ slot0.setCombatUI = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.timer = slot5:Find("Timer")
 
 	setActive(slot0.timer, true)
-
-	slot9 = "Text"
-
-	setText(slot0.timer:Find(slot9), "03:00")
+	setText(slot0.timer:Find("Text"), "03:00")
 
 	slot0.buttonContainer = slot5:Find("Weapon_button_container")
+	slot6 = {
+		uv0.UNFILLED,
+		uv0.FILLED,
+		uv0.LOOP
+	}
 
-	for slot9 = 1, 3 do
-		slot10 = nil
-		slot10 = (not ys.Battle["BattleWeaponButton" .. slot0.skinKey] or ys.Battle["BattleWeaponButton" .. slot0.skinKey].New()) and ys.Battle.BattleWeaponButton.New()
-		slot11 = cloneTplTo(slot5:Find("Weapon_button_progress"), slot0.buttonContainer)
-		skinName = "Skill_" .. slot9
-		slot12 = {}
+	for slot10 = 1, 3 do
+		slot11 = nil
+		slot11 = (not ys.Battle["BattleWeaponButton" .. slot0.skinKey] or ys.Battle["BattleWeaponButton" .. slot0.skinKey].New()) and ys.Battle.BattleWeaponButton.New()
+		slot12 = cloneTplTo(slot5:Find("Weapon_button_progress"), slot0.buttonContainer)
+		skinName = "Skill_" .. slot10
+		slot13 = {}
 
-		ys.Battle.BattleSkillView.SetSkillButtonPreferences(slot11, slot9)
-		slot10:ConfigSkin(slot11)
-		slot10:SwitchIcon(slot9, slot4)
-		slot10:SwitchIconEffect(slot9, slot4)
-		slot10:SetTextActive(true)
-		slot10:SetToCombatUIPreview(slot9 > 1)
+		ys.Battle.BattleSkillView.SetSkillButtonPreferences(slot12, slot10)
+		slot11:ConfigSkin(slot12)
+		slot11:SwitchIcon(slot10, slot4)
+		slot11:SwitchIconEffect(slot10, slot4)
+		slot11:SetTextActive(true)
+		slot11:SetToCombatUIPreview(slot6[slot10])
 
-		if slot9 == 3 and GetOrAddComponent(go(slot11), typeof(UnityEngine.Playables.PlayableDirector)) then
-			slot13.enabled = true
+		if slot10 == 3 and GetOrAddComponent(go(slot12), typeof(UnityEngine.Playables.PlayableDirector)) then
+			slot14.enabled = true
 		end
 	end
 
@@ -93,16 +100,16 @@ slot0.setCombatUI = function(slot0, slot1, slot2, slot3, slot4)
 
 	setActive(slot0.bossHPBar, true)
 
-	for slot11 = 0, slot0.bossHPBar:Find("bloodBarContainer").childCount - 1 do
-		slot6:GetChild(slot11):GetComponent(typeof(Image)).fillAmount = 1
-		slot11 = slot11 + 1
+	for slot12 = 0, slot0.bossHPBar:Find("bloodBarContainer").childCount - 1 do
+		slot7:GetChild(slot12):GetComponent(typeof(Image)).fillAmount = 1
+		slot12 = slot12 + 1
 	end
 
 	slot0.skillContainer = slot5:Find("Skill_Activation/Root")
 	slot0.skill = slot5:Find("Skill_Activation/mask")
 
 	if slot5:Find("Stick/Area/BG/spine") then
-		slot8:GetComponent(typeof(SpineAnimUI)):SetAction("normal", 0)
+		slot9:GetComponent(typeof(SpineAnimUI)):SetAction("normal", 0)
 	end
 
 	slot0.stick = slot5:Find("Stick/Area/Stick")
@@ -351,11 +358,11 @@ slot0.updateHPPop = function(slot0)
 	slot3:Play()
 end
 
-slot10 = 250
-slot11 = 50
-slot12 = 1000
-slot13 = 2
-slot14 = 3
+slot11 = 250
+slot12 = 50
+slot13 = 1000
+slot14 = 2
+slot15 = 3
 
 slot0.updateStick = function(slot0)
 	if slot0._stickMoveCount and slot0._stickMoveCount <= uv0 then

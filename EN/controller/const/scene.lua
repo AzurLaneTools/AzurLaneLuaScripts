@@ -169,10 +169,12 @@ SCENE = {
 	FIREWORK_AND_SPRING = "firework and spring",
 	LINK_LINK = "link link",
 	HOTSPRING_SHOP = "hotSpring shop",
+	MALL = "MALL",
 	ANNIVERSARY_ISLAND_WORKBENCH = "anniversary island workbench",
 	ATTIRE = "scene attire",
 	VOTESCHEDULE = "scene vote schedule",
 	CLASS = "scene class",
+	MALL_MAP = "MALL_MAP",
 	RANDOM_DOCKYARD = "random dockyard",
 	VOTE = "scene vote",
 	LOGIN = "scene login",
@@ -1124,6 +1126,14 @@ slot0 = {
 	[SCENE.PLAY_ROOM] = function (slot0, slot1)
 		slot0.mediator = PlayRoomMainMediator
 		slot0.viewComponent = PlayRoomMainScene
+	end,
+	[SCENE.MALL_MAP] = function (slot0, slot1)
+		slot0.mediator = MallMapMediator
+		slot0.viewComponent = MallMapScene
+	end,
+	[SCENE.MALL] = function (slot0, slot1)
+		slot0.mediator = MallMediator
+		slot0.viewComponent = MallScene
 	end
 }
 

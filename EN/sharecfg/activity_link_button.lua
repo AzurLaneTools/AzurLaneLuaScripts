@@ -33,6 +33,7 @@ pg.activity_link_button.all = {
 	113,
 	114,
 	115,
+	117,
 	116,
 	121
 }
@@ -63,6 +64,7 @@ pg.activity_link_button.get_id_list_by_name = {
 	event_core = {
 		109,
 		114,
+		117,
 		116
 	},
 	event_core_2 = {
@@ -169,7 +171,7 @@ pg.base.activity_link_button = {}
 		order = 1,
 		time = {
 			"default",
-			50481
+			50605
 		}
 	}
 	pg.base.activity_link_button[11] = {
@@ -332,34 +334,11 @@ pg.base.activity_link_button = {}
 		group_id = 10,
 		order = 1,
 		time = {
-			"timer",
-			{
-				{
-					2026,
-					5,
-					2
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					5,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
+			"default",
+			5093
 		},
 		param = {
-			SCENE.DOA2_MEDAL_COLLECTION_SCENE
+			"SENRANKAGURA_MEDAL"
 		}
 	}
 	pg.base.activity_link_button[101] = {
@@ -482,7 +461,7 @@ pg.base.activity_link_button = {}
 		}
 	}
 	pg.base.activity_link_button[110] = {
-		param = "AprilFoolDiscovery2026UI",
+		param = "AnniversaryNineCoreActivityUI",
 		name = "event_core_2",
 		text_pic = "text_event_core3",
 		type = 16,
@@ -492,7 +471,7 @@ pg.base.activity_link_button = {}
 		order = 2,
 		time = {
 			"default",
-			50493
+			50611
 		}
 	}
 	pg.base.activity_link_button[111] = {
@@ -552,7 +531,7 @@ pg.base.activity_link_button = {}
 		}
 	}
 	pg.base.activity_link_button[115] = {
-		param = "OutPostCoreActivityUI",
+		param = "AnniversaryNineCoreActivityUI",
 		name = "event_core_2",
 		text_pic = "text_event_core2",
 		type = 16,
@@ -562,7 +541,21 @@ pg.base.activity_link_button = {}
 		order = 1,
 		time = {
 			"default",
-			51005
+			50619
+		}
+	}
+	pg.base.activity_link_button[117] = {
+		param = "GeZiURCoreActivityUI",
+		name = "event_core",
+		text_pic = "text_event_core3",
+		type = 16,
+		pic = "event_core3",
+		id = 117,
+		group_id = 1,
+		order = 1,
+		time = {
+			"default",
+			50608
 		}
 	}
 	pg.base.activity_link_button[116] = {

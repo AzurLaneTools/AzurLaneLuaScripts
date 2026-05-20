@@ -128,7 +128,9 @@ pg.medal_template.all = {
 	200121,
 	200131,
 	200141,
-	200151
+	200151,
+	200161,
+	200171
 }
 pg.base = pg.base or {}
 pg.base.medal_template = {}
@@ -2896,6 +2898,48 @@ A medal based on the Anchorage National Observatory.
 		rank = 1,
 		id = 200151,
 		explain1 = "The Vagabond's Recruitment Plan",
+		explain2 = "Event"
+	}
+	pg.base.medal_template[200161] = {
+		target_id = "50607",
+		name = "Hagiobull Alliance Medal",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "A commemorative medal bestowed by the Holy Unitas Empire, celebrating the great triumph over the netherworld.\nMay providence witness this enduring alliance.",
+		next = 0,
+		icon = "9161",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9161",
+		condition = "Collect 8 stickers in Alliance Before the Hagiobull.",
+		rank = 1,
+		id = 200161,
+		explain1 = "Alliance Before the Hagiobull",
+		explain2 = "Event"
+	}
+	pg.base.medal_template[200171] = {
+		target_id = "50616",
+		name = "Luxurious Getaway Medal",
+		target_num = 7,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "What's a better way to spend your vacation than enjoying Luxury Bay to the fullest?\nIt'll be an unforgettable adventure filled with surprises and splendor!",
+		next = 0,
+		icon = "9171",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9171",
+		condition = "Collect 7 stickers in The Opulent! The Glamorous! Luxury Bay!",
+		rank = 1,
+		id = 200171,
+		explain1 = "The Opulent! The Glamorous! Luxury Bay!",
 		explain2 = "Event"
 	}
 end)()

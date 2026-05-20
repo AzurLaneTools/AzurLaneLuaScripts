@@ -381,7 +381,46 @@ pg.activity_sp_story.all = {
 	414,
 	415,
 	416,
-	417
+	417,
+	421,
+	422,
+	423,
+	424,
+	425,
+	426,
+	427,
+	428,
+	429,
+	430,
+	431,
+	432,
+	433,
+	434,
+	435,
+	436,
+	437,
+	438,
+	439,
+	440,
+	441,
+	442,
+	443,
+	444,
+	445,
+	446,
+	447,
+	448,
+	449,
+	450,
+	451,
+	452,
+	453,
+	454,
+	455,
+	456,
+	457,
+	458,
+	459
 }
 pg.base = pg.base or {}
 pg.base.activity_sp_story = {}
@@ -8260,6 +8299,781 @@ end)()
 			"Clear EP-6",
 			"Complete day 7 event missions",
 			"Complete day 7 event missions"
+		}
+	}
+	pg.base.activity_sp_story[421] = {
+		story_type = 1,
+		pre_event = "",
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "",
+		change_background = "star_level_bg_518",
+		name = "EP1-1 The Tribunal's Hand",
+		story = "SHENGYINQIANDETONGMENG1",
+		change_bgm = "battle-shenguang-freely",
+		id = 421,
+		lock = ""
+	}
+	pg.base.activity_sp_story[422] = {
+		story_type = 2,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP1-1",
+		change_background = "bg_aircraft_future",
+		name = "EP1-2 Freelance Merc",
+		story = "2036001",
+		change_bgm = "theme-hrr",
+		id = 422,
+		pre_event = {
+			421
+		},
+		lock = {
+			{
+				4,
+				421
+			}
+		}
+	}
+	pg.base.activity_sp_story[423] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP1-2",
+		change_background = "star_level_bg_518",
+		name = "EP1-3 Mercenary Intel",
+		story = "SHENGYINQIANDETONGMENG3",
+		change_bgm = "story-hrr",
+		id = 423,
+		pre_event = {
+			422
+		},
+		lock = {
+			{
+				4,
+				422
+			}
+		}
+	}
+	pg.base.activity_sp_story[424] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP1-3",
+		change_background = "star_level_bg_305",
+		name = "EP2-1 Formal Contact",
+		story = "SHENGYINQIANDETONGMENG4",
+		change_bgm = "theme-hrr",
+		id = 424,
+		pre_event = {
+			423
+		},
+		lock = {
+			{
+				4,
+				423
+			}
+		}
+	}
+	pg.base.activity_sp_story[425] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP2-1",
+		change_background = "star_level_bg_501",
+		name = "EP2-2 An Elector's Intel",
+		story = "SHENGYINQIANDETONGMENG5",
+		change_bgm = "story-ironblood-light",
+		id = 425,
+		pre_event = {
+			424
+		},
+		lock = {
+			{
+				4,
+				424
+			}
+		}
+	}
+	pg.base.activity_sp_story[426] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP2-2",
+		change_background = "bg_hrr_1",
+		name = "EP2-3 A Knight Party",
+		story = "SHENGYINQIANDETONGMENG6",
+		change_bgm = "theme-hrr",
+		id = 426,
+		pre_event = {
+			425
+		},
+		lock = {
+			{
+				4,
+				425
+			}
+		}
+	}
+	pg.base.activity_sp_story[427] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP2-3",
+		change_background = "star_level_bg_311",
+		name = "EP3-1 Divine Waterways",
+		story = "SHENGYINQIANDETONGMENG7",
+		change_bgm = "story-hrr",
+		id = 427,
+		pre_event = {
+			426
+		},
+		lock = {
+			{
+				4,
+				426
+			}
+		}
+	}
+	pg.base.activity_sp_story[428] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP3-1",
+		change_background = "star_level_bg_549",
+		name = "EP3-2 Urgent News",
+		story = "SHENGYINQIANDETONGMENG8",
+		change_bgm = "battle-hrr",
+		id = 428,
+		pre_event = {
+			427
+		},
+		lock = {
+			{
+				4,
+				427
+			}
+		}
+	}
+	pg.base.activity_sp_story[429] = {
+		story_type = 2,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP3-2",
+		change_background = "star_level_bg_558",
+		name = "EP3-3 The Defense of Reims",
+		story = "2036002",
+		change_bgm = "story-hrr",
+		id = 429,
+		pre_event = {
+			428
+		},
+		lock = {
+			{
+				4,
+				428
+			}
+		}
+	}
+	pg.base.activity_sp_story[430] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP3-3",
+		change_background = "star_level_bg_305",
+		name = "EP3-4 Salvation's Spark",
+		story = "SHENGYINQIANDETONGMENG10",
+		change_bgm = "battle-hrr",
+		id = 430,
+		pre_event = {
+			429
+		},
+		lock = {
+			{
+				4,
+				429
+			}
+		}
+	}
+	pg.base.activity_sp_story[431] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP3-4",
+		change_background = "star_level_bg_535",
+		name = "EP4-1 The Archbishop's Decision",
+		story = "SHENGYINQIANDETONGMENG11",
+		change_bgm = "story-shenguang-holy",
+		id = 431,
+		pre_event = {
+			430
+		},
+		lock = {
+			{
+				4,
+				430
+			}
+		}
+	}
+	pg.base.activity_sp_story[432] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP4-1",
+		change_background = "star_level_bg_307",
+		name = "EP4-2 Elector Certification Ritual",
+		story = "SHENGYINQIANDETONGMENG12",
+		change_bgm = "battle-shenguang-freely",
+		id = 432,
+		pre_event = {
+			431
+		},
+		lock = {
+			{
+				4,
+				431
+			}
+		}
+	}
+	pg.base.activity_sp_story[433] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP4-2",
+		change_background = "star_level_bg_499",
+		name = "EP4-3 Splitting Up",
+		story = "SHENGYINQIANDETONGMENG13",
+		change_bgm = "story-thehierophantV",
+		id = 433,
+		pre_event = {
+			432
+		},
+		lock = {
+			{
+				4,
+				432
+			}
+		}
+	}
+	pg.base.activity_sp_story[434] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP4-3",
+		change_background = "star_level_bg_305",
+		name = "EP4-4 Ritual of Descent",
+		story = "SHENGYINQIANDETONGMENG14",
+		change_bgm = "theme-hrr",
+		id = 434,
+		pre_event = {
+			433
+		},
+		lock = {
+			{
+				4,
+				433
+			}
+		}
+	}
+	pg.base.activity_sp_story[435] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP4-4",
+		change_background = "star_level_bg_534",
+		name = "EP4-5 Deep-Dive Preparations",
+		story = "SHENGYINQIANDETONGMENG15",
+		change_bgm = "theme-marcopolo",
+		id = 435,
+		pre_event = {
+			434
+		},
+		lock = {
+			{
+				4,
+				434
+			}
+		}
+	}
+	pg.base.activity_sp_story[436] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP4-5",
+		change_background = "star_level_bg_548",
+		name = "EP4-6 Always Have a Plan",
+		story = "SHENGYINQIANDETONGMENG16",
+		change_bgm = "story-mirrorheart-mystic",
+		id = 436,
+		pre_event = {
+			435
+		},
+		lock = {
+			{
+				4,
+				435
+			}
+		}
+	}
+	pg.base.activity_sp_story[437] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP4-6",
+		change_background = "bg_hrr_1",
+		name = "EP5-1 The Netherworld",
+		story = "SHENGYINQIANDETONGMENG17",
+		change_bgm = "battle-hrr",
+		id = 437,
+		pre_event = {
+			436
+		},
+		lock = {
+			{
+				4,
+				436
+			}
+		}
+	}
+	pg.base.activity_sp_story[438] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP5-1",
+		change_background = "bg_hrr_cg4",
+		name = "EP5-2 Emergency Start",
+		story = "SHENGYINQIANDETONGMENG18",
+		change_bgm = "story-mirrorheart-mystic",
+		id = 438,
+		pre_event = {
+			437
+		},
+		lock = {
+			{
+				4,
+				437
+			}
+		}
+	}
+	pg.base.activity_sp_story[439] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP5-2",
+		change_background = "bg_hrr_2",
+		name = "EP5-3 Worldlinking Ritual",
+		story = "SHENGYINQIANDETONGMENG19",
+		change_bgm = "battle-theemperorIV-question",
+		id = 439,
+		pre_event = {
+			438
+		},
+		lock = {
+			{
+				4,
+				438
+			}
+		}
+	}
+	pg.base.activity_sp_story[440] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP5-3",
+		change_background = "bg_underheaven_cg3",
+		name = "EP5-4 Interference",
+		story = "SHENGYINQIANDETONGMENG20",
+		change_bgm = "story-theme-sardinia",
+		id = 440,
+		pre_event = {
+			439
+		},
+		lock = {
+			{
+				4,
+				439
+			}
+		}
+	}
+	pg.base.activity_sp_story[441] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP5-4",
+		change_background = "star_level_bg_177",
+		name = "EP6-1 Fly Once More",
+		story = "SHENGYINQIANDETONGMENG21",
+		change_bgm = "theme-frederick",
+		id = 441,
+		pre_event = {
+			440
+		},
+		lock = {
+			{
+				4,
+				440
+			}
+		}
+	}
+end)()
+(function ()
+	pg.base.activity_sp_story[442] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP6-1",
+		change_background = "star_level_bg_177",
+		name = "EP6-2 Emperor Summoning Ritual",
+		story = "SHENGYINQIANDETONGMENG22",
+		change_bgm = "battle-hrr",
+		id = 442,
+		pre_event = {
+			441
+		},
+		lock = {
+			{
+				4,
+				441
+			}
+		}
+	}
+	pg.base.activity_sp_story[443] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP6-2",
+		change_background = "star_level_bg_504",
+		name = "EP6-3 Melody in Unison",
+		story = "SHENGYINQIANDETONGMENG23",
+		change_bgm = "story-hrr-pv",
+		id = 443,
+		pre_event = {
+			442
+		},
+		lock = {
+			{
+				4,
+				442
+			}
+		}
+	}
+	pg.base.activity_sp_story[444] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP6-3",
+		change_background = "star_level_bg_550",
+		name = "EP6-4 All-Out Counterattack",
+		story = "SHENGYINQIANDETONGMENG24",
+		change_bgm = "theme-hrr",
+		id = 444,
+		pre_event = {
+			443
+		},
+		lock = {
+			{
+				4,
+				443
+			}
+		}
+	}
+	pg.base.activity_sp_story[445] = {
+		story_type = 2,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP6-4",
+		change_background = "bg_firedust_5",
+		name = "EP6-5 Shortcuts",
+		story = "2036003",
+		change_bgm = "theme-vichy-church",
+		id = 445,
+		pre_event = {
+			444
+		},
+		lock = {
+			{
+				4,
+				444
+			}
+		}
+	}
+	pg.base.activity_sp_story[446] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP6-5",
+		change_background = "bg_firedust_5",
+		name = "EP7-1 Forced Connection",
+		story = "SHENGYINQIANDETONGMENG26",
+		change_bgm = "theme-vichy-church",
+		id = 446,
+		pre_event = {
+			445
+		},
+		lock = {
+			{
+				4,
+				445
+			}
+		}
+	}
+	pg.base.activity_sp_story[447] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP7-1",
+		change_background = "bg_hrr_cg6",
+		name = "EP7-2 Another Possibility",
+		story = "SHENGYINQIANDETONGMENG27",
+		change_bgm = "theme-vichy-slaughter",
+		id = 447,
+		pre_event = {
+			446
+		},
+		lock = {
+			{
+				4,
+				446
+			}
+		}
+	}
+	pg.base.activity_sp_story[448] = {
+		story_type = 2,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP7-2",
+		change_background = "star_level_bg_504",
+		name = "EP7-3 Judging the Netherworld",
+		story = "2036004",
+		change_bgm = "theme-marcopolo",
+		id = 448,
+		pre_event = {
+			447
+		},
+		lock = {
+			{
+				4,
+				447
+			}
+		}
+	}
+	pg.base.activity_sp_story[449] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP7-3",
+		change_background = "star_level_bg_504",
+		name = "EP7-4 Soaring Light",
+		story = "SHENGYINQIANDETONGMENG29",
+		change_bgm = "story-hrr-pv",
+		id = 449,
+		pre_event = {
+			448
+		},
+		lock = {
+			{
+				4,
+				448
+			}
+		}
+	}
+	pg.base.activity_sp_story[450] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP7-4",
+		change_background = "bg_hrr_3",
+		name = "EP7-5 For a Bright Tomorrow",
+		story = "SHENGYINQIANDETONGMENG30",
+		change_bgm = "story-hrr",
+		id = 450,
+		pre_event = {
+			449
+		},
+		lock = {
+			{
+				4,
+				449
+			}
+		}
+	}
+	pg.base.activity_sp_story[451] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP7-5",
+		change_background = "bg_hrr_cg9",
+		name = "EP7-6 The Emperor's Solo",
+		story = "SHENGYINQIANDETONGMENG31",
+		change_bgm = "story-hrr-pv",
+		id = 451,
+		pre_event = {
+			450
+		},
+		lock = {
+			{
+				4,
+				450
+			}
+		}
+	}
+	pg.base.activity_sp_story[452] = {
+		story_type = 2,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP7-6",
+		change_background = "bg_hrr_2",
+		name = "EP7-7 In God's Name",
+		story = "2036005",
+		change_bgm = "battle-theemperorIV-question",
+		id = 452,
+		pre_event = {
+			451
+		},
+		lock = {
+			{
+				4,
+				451
+			}
+		}
+	}
+	pg.base.activity_sp_story[453] = {
+		story_type = 2,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP7-7",
+		change_background = "bg_hrr_5",
+		name = "EP8-1 The Final Mystery",
+		story = "2036006",
+		change_bgm = "theme-thehierophantV",
+		id = 453,
+		pre_event = {
+			452
+		},
+		lock = {
+			{
+				4,
+				452
+			}
+		}
+	}
+	pg.base.activity_sp_story[454] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP8-1",
+		change_background = "star_level_bg_597",
+		name = "EP8-2 That Which Transcends",
+		story = "SHENGYINQIANDETONGMENG34",
+		change_bgm = "theme-hrr",
+		id = 454,
+		pre_event = {
+			453
+		},
+		lock = {
+			{
+				4,
+				453
+			}
+		}
+	}
+	pg.base.activity_sp_story[455] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP8-2",
+		change_background = "star_level_bg_450",
+		name = "EP8-3 Before a Long Voyage",
+		story = "SHENGYINQIANDETONGMENG35",
+		change_bgm = "story-richang-light",
+		id = 455,
+		pre_event = {
+			454
+		},
+		lock = {
+			{
+				4,
+				454
+			}
+		}
+	}
+	pg.base.activity_sp_story[456] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP8-3",
+		change_background = "star_level_bg_493",
+		name = "EX-1 A Contract Unfulfilled",
+		story = "SHENGYINQIANDETONGMENG36",
+		change_bgm = "story-richang-light",
+		id = 456,
+		pre_event = {
+			455
+		},
+		lock = {
+			{
+				4,
+				455
+			}
+		}
+	}
+	pg.base.activity_sp_story[457] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EX-1",
+		change_background = "bg_port_chongdong",
+		name = "EX-2 A New Beginning",
+		story = "SHENGYINQIANDETONGMENG37",
+		change_bgm = "theme-starsea-core",
+		id = 457,
+		pre_event = {
+			456
+		},
+		lock = {
+			{
+				4,
+				456
+			}
+		}
+	}
+	pg.base.activity_sp_story[458] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EX-2",
+		change_background = "star_level_bg_154",
+		name = "EX-3 Rear Base",
+		story = "SHENGYINQIANDETONGMENG38",
+		change_bgm = "story-wanderingcity-future",
+		id = 458,
+		pre_event = {
+			457
+		},
+		lock = {
+			{
+				4,
+				457
+			}
+		}
+	}
+	pg.base.activity_sp_story[459] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "map_2030003B",
+		unlock_conditions = "Clear EX-3",
+		change_background = "Map_2030002",
+		name = "EX-4 Light-Chasing Moth",
+		story = "SHENGYINQIANDETONGMENG39",
+		change_bgm = "Theme-hrr",
+		id = 459,
+		pre_event = {
+			458
+		},
+		lock = {
+			{
+				4,
+				458
+			}
 		}
 	}
 end)()

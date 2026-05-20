@@ -20,7 +20,7 @@ return {
 			bgm = "story-commander-up",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Early in the morning, I summoned Lexington and the others for an emergency meting.",
+			say = "Early in the morning, I summoned Lexington and the others for an emergency meeting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

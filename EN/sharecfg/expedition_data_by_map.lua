@@ -450,6 +450,12 @@ pg.expedition_data_by_map.all = {
 	2020001,
 	2020002,
 	2020003,
+	2030001,
+	2030002,
+	2030011,
+	2030012,
+	2030025,
+	2030026,
 	2100000,
 	2100001,
 	2100010,
@@ -27057,6 +27063,607 @@ end)()
 			402
 		}
 	}
+	pg.base.expedition_data_by_map[2030001] = {
+		map = 2030001,
+		name = "Alliance Before the Hagiobull - PT.1|| ||CHAPTER EX||E.X.",
+		bgm = "story-hrr",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_2030001",
+		ani_controller = "",
+		default_background = "bg_aircraft_future",
+		on_activity = 50605,
+		map_name = "levelscene_mapselect_part1",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_2030001",
+		destory_icon_suffix = "blue",
+		default_bgm = "Battle-shenguang-holy",
+		uifx = "",
+		bind_map = 2030011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2030001,
+				2030021
+			},
+			{
+				2030002,
+				2030022
+			},
+			{
+				2030003,
+				2030023
+			}
+		},
+		story_id = {
+			421,
+			422,
+			423,
+			424,
+			425,
+			426,
+			427,
+			428,
+			429,
+			430,
+			431,
+			432,
+			433,
+			434,
+			435,
+			436,
+			437,
+			438,
+			439,
+			440,
+			441,
+			442,
+			443,
+			444,
+			445,
+			446,
+			447,
+			448,
+			449,
+			450,
+			451,
+			452,
+			453,
+			454,
+			455,
+			456,
+			457,
+			458,
+			459
+		}
+	}
+	pg.base.expedition_data_by_map[2030002] = {
+		map = 2030002,
+		name = "Alliance Before the Hagiobull - PT.2|| ||CHAPTER EX||E.X.",
+		bgm = "theme-hrr",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_2030002",
+		ani_controller = "",
+		default_background = "bg_aircraft_future",
+		on_activity = 50605,
+		map_name = "levelscene_mapselect_part2",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_2030002",
+		destory_icon_suffix = "blue",
+		default_bgm = "Battle-shenguang-holy",
+		uifx = "",
+		bind_map = 2030012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2030004,
+				2030024
+			},
+			{
+				2030005,
+				2030025
+			},
+			{
+				2030006,
+				2030026
+			}
+		},
+		story_id = {
+			421,
+			422,
+			423,
+			424,
+			425,
+			426,
+			427,
+			428,
+			429,
+			430,
+			431,
+			432,
+			433,
+			434,
+			435,
+			436,
+			437,
+			438,
+			439,
+			440,
+			441,
+			442,
+			443,
+			444,
+			445,
+			446,
+			447,
+			448,
+			449,
+			450,
+			451,
+			452,
+			453,
+			454,
+			455,
+			456,
+			457,
+			458,
+			459
+		}
+	}
+	pg.base.expedition_data_by_map[2030011] = {
+		map = 2030011,
+		name = "Alliance Before the Hagiobull - PT.1|| ||CHAPTER EX||E.X.",
+		bgm = "story-hrr",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_2030001",
+		ani_controller = "",
+		default_background = "bg_aircraft_future",
+		on_activity = 50605,
+		map_name = "levelscene_mapselect_part1",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_2030001",
+		destory_icon_suffix = "blue",
+		default_bgm = "Battle-shenguang-holy",
+		uifx = "",
+		bind_map = 2030001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2030001,
+				2030021
+			},
+			{
+				2030002,
+				2030022
+			},
+			{
+				2030003,
+				2030023
+			}
+		},
+		story_id = {
+			421,
+			422,
+			423,
+			424,
+			425,
+			426,
+			427,
+			428,
+			429,
+			430,
+			431,
+			432,
+			433,
+			434,
+			435,
+			436,
+			437,
+			438,
+			439,
+			440,
+			441,
+			442,
+			443,
+			444,
+			445,
+			446,
+			447,
+			448,
+			449,
+			450,
+			451,
+			452,
+			453,
+			454,
+			455,
+			456,
+			457,
+			458,
+			459
+		}
+	}
+	pg.base.expedition_data_by_map[2030012] = {
+		map = 2030012,
+		name = "Alliance Before the Hagiobull - PT.2|| ||CHAPTER EX||E.X.",
+		bgm = "theme-hrr",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_2030002",
+		ani_controller = "",
+		default_background = "bg_aircraft_future",
+		on_activity = 50605,
+		map_name = "levelscene_mapselect_part2",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_2030002",
+		destory_icon_suffix = "blue",
+		default_bgm = "Battle-shenguang-holy",
+		uifx = "",
+		bind_map = 2030002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2030004,
+				2030024
+			},
+			{
+				2030005,
+				2030025
+			},
+			{
+				2030006,
+				2030026
+			}
+		},
+		story_id = {
+			421,
+			422,
+			423,
+			424,
+			425,
+			426,
+			427,
+			428,
+			429,
+			430,
+			431,
+			432,
+			433,
+			434,
+			435,
+			436,
+			437,
+			438,
+			439,
+			440,
+			441,
+			442,
+			443,
+			444,
+			445,
+			446,
+			447,
+			448,
+			449,
+			450,
+			451,
+			452,
+			453,
+			454,
+			455,
+			456,
+			457,
+			458,
+			459
+		}
+	}
+	pg.base.expedition_data_by_map[2030025] = {
+		map = 2030025,
+		name = "Alliance Before the Hagiobull - SP|| ||CHAPTER EX||E.X.",
+		bgm = "story-shenguang-holy",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_2030003A",
+		ani_controller = "",
+		default_background = "bg_aircraft_future",
+		on_activity = 50605,
+		map_name = "levelscene_mapselect_sp",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_2030003",
+		destory_icon_suffix = "blue",
+		default_bgm = "Battle-shenguang-holy",
+		uifx = "",
+		bind_map = 2030011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2030041
+			}
+		},
+		story_id = {
+			421,
+			422,
+			423,
+			424,
+			425,
+			426,
+			427,
+			428,
+			429,
+			430,
+			431,
+			432,
+			433,
+			434,
+			435,
+			436,
+			437,
+			438,
+			439,
+			440,
+			441,
+			442,
+			443,
+			444,
+			445,
+			446,
+			447,
+			448,
+			449,
+			450,
+			451,
+			452,
+			453,
+			454,
+			455,
+			456,
+			457,
+			458,
+			459
+		}
+	}
+	pg.base.expedition_data_by_map[2030026] = {
+		map = 2030026,
+		name = "Alliance Before the Hagiobull - EX|| ||CHAPTER EX||E.X.",
+		bgm = "theme-thehierophantV",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_2030003B",
+		ani_controller = "",
+		default_background = "bg_aircraft_future",
+		on_activity = 50605,
+		map_name = "levelscene_mapselect_ex",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_2030003",
+		destory_icon_suffix = "blue",
+		default_bgm = "Battle-shenguang-holy",
+		uifx = "",
+		bind_map = 2030012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2030051,
+				2030052
+			}
+		},
+		story_id = {
+			421,
+			422,
+			423,
+			424,
+			425,
+			426,
+			427,
+			428,
+			429,
+			430,
+			431,
+			432,
+			433,
+			434,
+			435,
+			436,
+			437,
+			438,
+			439,
+			440,
+			441,
+			442,
+			443,
+			444,
+			445,
+			446,
+			447,
+			448,
+			449,
+			450,
+			451,
+			452,
+			453,
+			454,
+			455,
+			456,
+			457,
+			458,
+			459
+		}
+	}
 	pg.base.expedition_data_by_map[2100000] = {
 		map = 2100000,
 		name = "Visitors Dyed in Red: Prequel || || S.P. || E.X.",
@@ -29373,6 +29980,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.expedition_data_by_map[2100241] = {
 		map = 2100241,
 		name = "Skybound Oratorio - Pt. 1|| ||CHAPTER EX||E.X.",
@@ -29673,8 +30282,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.expedition_data_by_map[2100271] = {
 		map = 2100271,
 		name = "Northern Overture - Pt. 1|| ||CHAPTER EX||E.X.",

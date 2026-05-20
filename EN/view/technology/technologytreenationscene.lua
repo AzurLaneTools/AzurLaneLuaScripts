@@ -151,6 +151,19 @@ slot0.updateTecItemList = function(slot0)
 		end
 	end)
 	slot1:align(#pg.fleet_tech_group.all)
+	slot0:updateAllTecItemRp()
+end
+
+slot0.updateAllTecItemRp = function(slot0)
+	slot1 = not getProxy(TechnologyNationProxy):getAnyTecCampStudying()
+
+	for slot5, slot6 in pairs(slot0.panelList) do
+		slot12, slot13 = nil
+		slot12 = not slot0.tecList[slot5] and 0 or table.indexof(pg.fleet_tech_group[slot5].techs, slot0.tecList[slot5].completeID, 1) or 0
+		slot15 = nil
+
+		setActive(slot6:Find("BaseInfo"):Find("UpLevelBG"):Find("UpLevelBtn"):Find("RedPoint"), ((slot12 ~= 0 or pg.fleet_tech_template[pg.fleet_tech_group[slot5].techs[1]].pt) and (slot12 ~= #pg.fleet_tech_group[slot5].techs or pg.fleet_tech_template[pg.fleet_tech_group[slot5].techs[slot12]].pt) and pg.fleet_tech_template[pg.fleet_tech_group[slot5].techs[slot12 + 1]].pt) <= slot0.nationToPoint[pg.fleet_tech_group[slot5].nation[1]] and not (slot12 == #pg.fleet_tech_group[slot5].techs) and slot1)
+	end
 end
 
 slot0.updateTecItem = function(slot0, slot1)

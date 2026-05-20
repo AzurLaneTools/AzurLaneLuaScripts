@@ -83,6 +83,7 @@ pg.equip_skin_theme_template.all = {
 	81,
 	82,
 	83,
+	84,
 	101,
 	102,
 	103,
@@ -1914,6 +1915,30 @@ pg.base.equip_skin_theme_template = {}
 			4365
 		}
 	}
+	pg.base.equip_skin_theme_template[84] = {
+		id = 84,
+		name = "Dazzling Jewels",
+		ids = {
+			4366,
+			4367,
+			4368,
+			4369,
+			4370,
+			4371,
+			4372,
+			4373,
+			4374,
+			4375,
+			4376,
+			4377,
+			4378,
+			4379,
+			4380,
+			4381,
+			4382,
+			4383
+		}
+	}
 	pg.base.equip_skin_theme_template[101] = {
 		id = 101,
 		name = "Power of the Stars",
@@ -2170,7 +2195,12 @@ pg.base.equip_skin_theme_template = {}
 			3074,
 			3075,
 			3076,
-			3077
+			3077,
+			3079,
+			3080,
+			3081,
+			3082,
+			3083
 		}
 	}
 end)()

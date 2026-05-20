@@ -767,7 +767,8 @@ end
 
 slot0.IsMatchKey = function(slot0, slot1)
 	return EquipmentTools.IsMatchKey({
-		slot0:getConfig("name")
+		slot0:getConfig("name"),
+		pg._equip_data_statistics[slot0.configId].name
 	}, slot1)
 end
 

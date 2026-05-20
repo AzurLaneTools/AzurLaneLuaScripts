@@ -57,7 +57,19 @@ pg.gallery_config.all = {
 	52,
 	53,
 	54,
-	55
+	55,
+	1001,
+	1002,
+	1003,
+	1004,
+	1005,
+	1006,
+	1007,
+	1008,
+	1009,
+	1010,
+	1011,
+	1012
 }
 pg.base = pg.base or {}
 pg.base.gallery_config = {}
@@ -772,6 +784,162 @@ pg.base.gallery_config = {}
 		id = 55,
 		illustrate = "",
 		illustration = "gallerypic55",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	}
+	pg.base.gallery_config[1001] = {
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 1001,
+		illustrate = "",
+		illustration = "bg_1",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	}
+	pg.base.gallery_config[1002] = {
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 1002,
+		illustrate = "",
+		illustration = "bg_2",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	}
+	pg.base.gallery_config[1003] = {
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 1003,
+		illustrate = "",
+		illustration = "bg_3",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	}
+	pg.base.gallery_config[1004] = {
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 1004,
+		illustrate = "",
+		illustration = "bg_4",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	}
+	pg.base.gallery_config[1005] = {
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 1005,
+		illustrate = "",
+		illustration = "bg_5",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	}
+	pg.base.gallery_config[1006] = {
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 1006,
+		illustrate = "",
+		illustration = "bg_6",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	}
+	pg.base.gallery_config[1007] = {
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 1007,
+		illustrate = "",
+		illustration = "bg_7",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	}
+	pg.base.gallery_config[1008] = {
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 1008,
+		illustrate = "",
+		illustration = "bg_8",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	}
+	pg.base.gallery_config[1009] = {
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 1009,
+		illustrate = "",
+		illustration = "bg_9",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	}
+	pg.base.gallery_config[1010] = {
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 1010,
+		illustrate = "",
+		illustration = "bg_10",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	}
+	pg.base.gallery_config[1011] = {
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 1011,
+		illustrate = "",
+		illustration = "bg_11",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	}
+	pg.base.gallery_config[1012] = {
+		unlock_other = 0,
+		name = "",
+		year = 1,
+		id = 1012,
+		illustrate = "",
+		illustration = "bg_12",
 		unlock_level = {
 			1,
 			0

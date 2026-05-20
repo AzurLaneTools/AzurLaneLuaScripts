@@ -122,7 +122,7 @@ slot0.update = function()
 	slot0 = uv0.codeMode and {} or uv0.nameCodeMap
 	slot1 = uv0.codeMode and {} or uv0.nameEquipCodeMap
 	slot2 = uv0.codeMode and {} or uv0.nameCodeMap_EN
-	slot3 = pg.ship_data_statistics
+	pg._ship_data_statistics = pg.ship_data_statistics
 	pg.ship_data_statistics = setmetatable({}, {
 		__index = function (slot0, slot1)
 			if uv0[slot1] == nil then
@@ -204,7 +204,7 @@ slot0.update = function()
 			return slot0[slot1]
 		end
 	})
-	slot6 = pg.equip_data_statistics
+	pg._equip_data_statistics = pg.equip_data_statistics
 	pg.equip_data_statistics = setmetatable({}, {
 		__index = function (slot0, slot1)
 			if uv0[slot1] == nil then

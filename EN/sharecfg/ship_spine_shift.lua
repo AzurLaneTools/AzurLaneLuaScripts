@@ -581,4 +581,11 @@ pg.base.ship_spine_shift = {}
 			0
 		}
 	}
+	pg.base.ship_spine_shift.tiancheng_cv_3 = {
+		spine = "tiancheng_cv_3",
+		mainui_shift = {
+			0,
+			-25.6
+		}
+	}
 end)()

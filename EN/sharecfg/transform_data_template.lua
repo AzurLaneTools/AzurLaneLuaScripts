@@ -858,6 +858,18 @@ pg.transform_data_template.all = {
 	24109,
 	24110,
 	24111,
+	24201,
+	24202,
+	24203,
+	24204,
+	24205,
+	24206,
+	24207,
+	24208,
+	24209,
+	24210,
+	24211,
+	24212,
 	25301,
 	25302,
 	25303,
@@ -33691,6 +33703,472 @@ end)()
 			50
 		}
 	}
+	pg.base.transform_data_template[24201] = {
+		level_limit = 1,
+		name = "Hull Improvement Ⅰ",
+		descrip = "HP +70",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 2,
+		icon = "hp_1",
+		skill_id = 0,
+		use_gold = 300,
+		id = 24201,
+		condition_id = {},
+		effect = {
+			{
+				durability = 70
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18011,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	}
+	pg.base.transform_data_template[24202] = {
+		level_limit = 5,
+		name = "Hit Enhancement Ⅰ",
+		descrip = "ACC +5",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 2,
+		icon = "hit_1",
+		skill_id = 0,
+		use_gold = 400,
+		id = 24202,
+		condition_id = {
+			24201
+		},
+		effect = {
+			{
+				hit = 5
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18011,
+					3
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	}
+	pg.base.transform_data_template[24203] = {
+		level_limit = 20,
+		name = "Main Gun Improvement Ⅰ",
+		descrip = "Main Gun efficiency +5%",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 3,
+		icon = "mgup_1",
+		skill_id = 0,
+		use_gold = 600,
+		id = 24203,
+		condition_id = {
+			24201
+		},
+		effect = {
+			{
+				equipment_proficiency_1 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18011,
+					3
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	}
+	pg.base.transform_data_template[24204] = {
+		level_limit = 25,
+		name = "Firepower Enhancement Ⅰ",
+		descrip = "FP +10",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 3,
+		icon = "cn_1",
+		skill_id = 0,
+		use_gold = 800,
+		id = 24204,
+		condition_id = {
+			24203
+		},
+		effect = {
+			{
+				cannon = 10
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18011,
+					5
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	}
+	pg.base.transform_data_template[24205] = {
+		level_limit = 35,
+		name = "Torpedo Improvement Ⅰ",
+		descrip = "Torpedo efficiency +5%",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 4,
+		icon = "tpup_1",
+		skill_id = 0,
+		use_gold = 1000,
+		id = 24205,
+		condition_id = {
+			24203
+		},
+		effect = {
+			{
+				equipment_proficiency_2 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18012,
+					3
+				}
+			}
+		},
+		gear_score = {
+			20
+		}
+	}
+	pg.base.transform_data_template[24206] = {
+		level_limit = 40,
+		name = "Torpedo Enhancement Ⅰ",
+		descrip = "TRP +15",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 4,
+		icon = "tp_1",
+		skill_id = 0,
+		use_gold = 1200,
+		id = 24206,
+		condition_id = {
+			24205
+		},
+		effect = {
+			{
+				torpedo = 15
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18012,
+					2
+				}
+			}
+		},
+		gear_score = {
+			20
+		}
+	}
+	pg.base.transform_data_template[24207] = {
+		level_limit = 50,
+		name = "Hull Improvement Ⅱ",
+		descrip = "HP +70/HP +100",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 4,
+		icon = "hp_2",
+		skill_id = 0,
+		use_gold = 1500,
+		id = 24207,
+		condition_id = {
+			24205
+		},
+		effect = {
+			{
+				durability = 70
+			},
+			{
+				durability = 100
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18012,
+					2
+				}
+			},
+			{
+				{
+					18012,
+					3
+				}
+			}
+		},
+		gear_score = {
+			10,
+			15
+		}
+	}
+	pg.base.transform_data_template[24208] = {
+		level_limit = 55,
+		name = "Hit Enhancement Ⅱ",
+		descrip = "ACC +5/ACC +5",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 4,
+		icon = "Hit_2",
+		skill_id = 0,
+		use_gold = 1800,
+		id = 24208,
+		condition_id = {
+			24202,
+			24207
+		},
+		effect = {
+			{
+				hit = 5
+			},
+			{
+				hit = 5
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18012,
+					2
+				}
+			},
+			{
+				{
+					18012,
+					3
+				}
+			}
+		},
+		gear_score = {
+			10,
+			15
+		}
+	}
+	pg.base.transform_data_template[24209] = {
+		level_limit = 70,
+		name = "Torpedo Improvement Ⅱ",
+		descrip = "Torpedo efficiency +5%/Torpedo efficiency +5%",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 5,
+		icon = "tpup_2",
+		skill_id = 0,
+		use_gold = 2000,
+		id = 24209,
+		condition_id = {
+			24207
+		},
+		effect = {
+			{
+				equipment_proficiency_2 = 0.05
+			},
+			{
+				equipment_proficiency_2 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18013,
+					1
+				}
+			},
+			{
+				{
+					18013,
+					1
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	}
+	pg.base.transform_data_template[24210] = {
+		level_limit = 75,
+		name = "Reload Enhancement Ⅱ",
+		descrip = "RLD +5/RLD +10",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 5,
+		icon = "rl_2",
+		skill_id = 0,
+		use_gold = 2500,
+		id = 24210,
+		condition_id = {
+			24209
+		},
+		effect = {
+			{
+				reload = 5
+			},
+			{
+				reload = 10
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18013,
+					1
+				},
+				{
+					17013,
+					5
+				}
+			},
+			{
+				{
+					18013,
+					2
+				},
+				{
+					17013,
+					15
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	}
+	pg.base.transform_data_template[24211] = {
+		level_limit = 85,
+		name = "Modernization",
+		descrip = "Retrofit complete. The following changes have been applied:\nFP +30, ACC +15, Main Gun Base +1, Main Gun efficiency becomes 120%.",
+		max_level = 1,
+		skin_id = 403019,
+		use_ship = 1,
+		star_limit = 5,
+		icon = "mt_red",
+		skill_id = 0,
+		use_gold = 3000,
+		id = 24211,
+		condition_id = {
+			24209,
+			24210
+		},
+		effect = {
+			{
+				cannon = 30,
+				hit = 15
+			}
+		},
+		ship_id = {
+			{
+				403014,
+				403994
+			}
+		},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18013,
+					3
+				}
+			}
+		},
+		gear_score = {
+			50
+		}
+	}
+	pg.base.transform_data_template[24212] = {
+		level_limit = 85,
+		name = "Tactical Learning",
+		descrip = "Learn []",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 5,
+		icon = "skill_yellow",
+		skill_id = 152360,
+		use_gold = 3000,
+		id = 24212,
+		condition_id = {
+			24211
+		},
+		effect = {
+			{
+				skill_id = 152360
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18013,
+					2
+				},
+				{
+					17003,
+					50
+				}
+			}
+		},
+		gear_score = {
+			50
+		}
+	}
 	pg.base.transform_data_template[25301] = {
 		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
@@ -35084,6 +35562,8 @@ end)()
 			15
 		}
 	}
+end)()
+(function ()
 	pg.base.transform_data_template[25509] = {
 		level_limit = 70,
 		name = "Main Gun Improvement Ⅱ",
@@ -35566,8 +36046,6 @@ end)()
 			15
 		}
 	}
-end)()
-(function ()
 	pg.base.transform_data_template[25608] = {
 		level_limit = 55,
 		name = "Torpedo Enhancement Ⅲ",
@@ -38906,6 +39384,8 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 			10
 		}
 	}
+end)()
+(function ()
 	pg.base.transform_data_template[27203] = {
 		level_limit = 20,
 		name = "Torpedo Improvement Ⅰ",
@@ -39336,8 +39816,6 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 			15
 		}
 	}
-end)()
-(function ()
 	pg.base.transform_data_template[30104] = {
 		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
@@ -42644,6 +43122,8 @@ end)()
 			50
 		}
 	}
+end)()
+(function ()
 	pg.base.transform_data_template[35701] = {
 		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
@@ -43138,8 +43618,6 @@ The skill Valorous Avengers will be upgraded into Valorous Avengers+.]],
 			25
 		}
 	}
-end)()
-(function ()
 	pg.base.transform_data_template[36101] = {
 		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
@@ -46483,6 +46961,8 @@ This ship's skill, "Foo and Friends", has been improved.]],
 			15
 		}
 	}
+end)()
+(function ()
 	pg.base.transform_data_template[49408] = {
 		level_limit = 55,
 		name = "Evasion Enhancement Ⅱ",
@@ -46945,8 +47425,6 @@ This ship's skill, "Foo and Friends", has been improved.]],
 			15
 		}
 	}
-end)()
-(function ()
 	pg.base.transform_data_template[53408] = {
 		level_limit = 55,
 		name = "Reload Enhancement Ⅱ",
