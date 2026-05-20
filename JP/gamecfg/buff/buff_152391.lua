@@ -29,7 +29,7 @@ return {
 			arg_list = {
 				quota = 1,
 				skill_id = 152391,
-				time = 10
+				time = 15
 			}
 		}
 	}
