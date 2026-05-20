@@ -30638,175 +30638,175 @@ cs.gametip = {
 	},
 	mall_summary_btn = {
 		1371647,
-		101
+		100
 	},
 	mall_evaluate_title = {
-		1371748,
+		1371747,
 		122
 	},
 	mall_summary_title = {
-		1371870,
+		1371869,
 		95
 	},
 	mall_floor_income_header = {
-		1371965,
+		1371964,
 		99
 	},
 	mall_total_income_header = {
-		1372064,
+		1372063,
 		97
 	},
 	mall_balance_header = {
-		1372161,
+		1372160,
 		92
 	},
 	mall_open_title = {
-		1372253,
+		1372252,
 		90
 	},
 	mall_help = {
-		1372343,
+		1372342,
 		2085
 	},
 	mall_floor_lock = {
-		1374428,
+		1374427,
 		96
 	},
 	mall_rank_close = {
-		1374524,
+		1374523,
 		86
 	},
 	mall_rank_s = {
-		1374610,
+		1374609,
 		76
 	},
 	mall_rank_a = {
-		1374686,
+		1374685,
 		76
 	},
 	mall_rank_b = {
-		1374762,
+		1374761,
 		76
 	},
 	mall_staff_in_floor = {
-		1374838,
+		1374837,
 		90
 	},
 	mall_staff_in_order = {
-		1374928,
+		1374927,
 		93
 	},
 	mall_remove_floor_sure = {
-		1375021,
+		1375020,
 		177
 	},
 	mall_order_btn_doing = {
-		1375198,
+		1375197,
 		94
 	},
 	mall_order_btn_complete = {
-		1375292,
+		1375291,
 		101
 	},
 	mall_input_btn = {
-		1375393,
+		1375392,
 		91
 	},
 	mall_order_btn_start = {
-		1375484,
+		1375483,
 		101
 	},
 	mall_upgrade_title = {
-		1375585,
+		1375584,
 		103
 	},
 	mall_right_title_summary = {
-		1375688,
+		1375687,
 		108
 	},
 	mall_change_floor_sure = {
-		1375796,
+		1375795,
 		187
 	},
 	mall_change_order_sure = {
-		1375983,
+		1375982,
 		181
 	},
 	mall_award_can_get = {
-		1376164,
+		1376163,
 		89
 	},
 	mall_award_get = {
-		1376253,
+		1376252,
 		87
 	},
 	mall_order_wait_tip = {
-		1376340,
+		1376339,
 		104
 	},
 	mall_order_unlock_lv_tip = {
-		1376444,
+		1376443,
 		136
 	},
 	mall_order_need_staff_header = {
-		1376580,
+		1376579,
 		105
 	},
 	mall_get_all_btn = {
-		1376685,
+		1376684,
 		91
 	},
 	mall_award_got = {
-		1376776,
+		1376775,
 		87
 	},
 	loading_picture_lack = {
-		1376863,
+		1376862,
 		119
 	},
 	loading_title = {
-		1376982,
+		1376981,
 		100
 	},
 	loading_start_set = {
-		1377082,
+		1377081,
 		103
 	},
 	loading_pic_chosen = {
-		1377185,
+		1377184,
 		90
 	},
 	loading_pic_tip = {
-		1377275,
+		1377274,
 		141
 	},
 	loading_pic_max = {
-		1377416,
+		1377415,
 		107
 	},
 	loading_pic_min = {
-		1377523,
+		1377522,
 		110
 	},
 	loading_quit_tip = {
-		1377633,
+		1377632,
 		203
 	},
 	loading_set_tip = {
-		1377836,
+		1377835,
 		146
 	},
 	loading_chosen_blank = {
-		1377982,
+		1377981,
 		111
 	},
 	sort_minigame_help = {
-		1378093,
+		1378092,
 		407
 	},
 	AnniversaryNineCoreActivity_subtitle_1 = {
-		1378500,
-		116
+		1378499,
+		117
 	},
 	AnniversaryNineCoreActivity_subtitle_2 = {
 		1378616,
@@ -30870,66 +30870,66 @@ cs.gametip = {
 	},
 	mall_continue_to_unlock = {
 		1380151,
-		120
+		114
 	},
 	GeZiURCoreActivityUI_subtitle_1 = {
-		1380271,
+		1380265,
 		100
 	},
 	GeZiURCoreActivityUI_subtitle_2 = {
-		1380371,
-		100
+		1380365,
+		110
 	},
 	GeZiURCoreActivityUI_subtitle_3 = {
-		1380471,
+		1380475,
 		106
 	},
 	AnniversaryNineCoreActivityUI_subtitle_1 = {
-		1380577,
+		1380581,
 		115
 	},
 	AnniversaryNineCoreActivityUI_subtitle_2 = {
-		1380692,
+		1380696,
 		121
 	},
 	AnniversaryNineCoreActivityUI_subtitle_3 = {
-		1380813,
+		1380817,
 		116
 	},
 	anniversary_nine_main_page = {
-		1380929,
+		1380933,
 		103
 	},
 	AnniversaryNineCoreActivityUI_subtitle_6 = {
-		1381032,
+		1381036,
 		126
 	},
 	Outpost_20260514_Detail = {
-		1381158,
+		1381162,
 		94
 	},
 	mall_level_max = {
-		1381252,
+		1381256,
 		109
 	},
 	mall_staff_position_full_tip = {
-		1381361,
+		1381365,
 		148
 	},
 	mall_gold_input_success_tip = {
-		1381509,
+		1381513,
 		111
 	},
 	mall_floor_all_empty_tip = {
-		1381620,
+		1381624,
 		146
 	},
 	mall_unlock_date_tip2 = {
-		1381766,
+		1381770,
 		101
 	},
 	mall_order_finished_all_tip = {
-		1381867,
+		1381871,
 		130
 	}
 }

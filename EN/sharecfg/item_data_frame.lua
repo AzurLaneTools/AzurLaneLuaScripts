@@ -14,7 +14,6 @@ pg.item_data_frame.all = {
 	107,
 	108,
 	109,
-	111,
 	201,
 	202,
 	203,
@@ -205,15 +204,6 @@ pg.base.item_data_frame = {}
 		id = 109,
 		time_limit_type = 0,
 		desc = "<color=#A7A7AA>Granted to all Commanders who have defended the port for seven years.</color>\nEarned by participating in the 7th Anniversary limited event.",
-		scene = {}
-	}
-	pg.base.item_data_frame[111] = {
-		name = "九周年纪念",
-		gain_by = "",
-		time_second = 0,
-		id = 111,
-		time_limit_type = 0,
-		desc = "献给所有九年间持续奋斗在港区的指挥官们\n<color=#A7A7AA>通过参与九周年限定活动获取</color>",
 		scene = {}
 	}
 	pg.base.item_data_frame[201] = {
@@ -1017,8 +1007,6 @@ pg.base.item_data_frame = {}
 		desc = "<color=#A7A7AA>Commemorates your triumph over the Incarnation of Virgo. Presented to Commanders who demonstrated the courage to challenge their limits.</color> \nObtained from [Extreme Challenge] during the 9/1/23 - 9/30/23 Season.",
 		scene = {}
 	}
-end)()
-(function ()
 	pg.base.item_data_frame[10005] = {
 		name = "Extreme Challenge - Libra",
 		gain_by = "",
@@ -1028,6 +1016,8 @@ end)()
 		desc = "<color=#A7A7AA>Commemorates your triumph over the Incarnation of Libra. Presented to Commanders who demonstrated the courage to challenge their limits.</color> \nObtained from [Extreme Challenge] during the 10/1/23 - 10/31/23 Season.",
 		scene = {}
 	}
+end)()
+(function ()
 	pg.base.item_data_frame[10006] = {
 		name = "Extreme Challenge - Scorpio",
 		gain_by = "",

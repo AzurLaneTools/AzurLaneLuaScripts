@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "先了解一下购物中心的经营方式吧",
+				text = "First, I'll show you how to start managing your very own mall!",
 				mode = 2,
 				char = "char",
 				posY = 0,
@@ -28,7 +28,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "购物中心已经准备就绪！我们需要雇佣「店员啾」来应对接下来的经营活动",
+				text = "The mall's almost ready for business, but you'll need to hire some Manjuu staff to help with operations!",
 				mode = 1,
 				char = "char",
 				posY = 0,
@@ -41,7 +41,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "购物中心一楼已开放经营，后续楼层将在经营等级提升后逐层解锁",
+				text = "Currently, only the first floor (1F) is open, but as you level up your mall, you'll be able to unlock more floors.",
 				mode = 2,
 				char = "char",
 				posY = 0,
@@ -60,7 +60,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "开始经营前，请先点击这里，为楼层分配「店员啾」",
+				text = "Before you can open up for business, tap to assign a Manjuu staff worker!",
 				mode = 2,
 				char = "char",
 				posY = 0,
@@ -83,7 +83,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "指挥官可以在这里确认各楼层需要什么属性的「店员啾」，以及具体的需求数值",
+				text = "You can check the required stats here to help you decide how to assign your Manjuu staff!",
 				mode = 1,
 				char = "char",
 				posY = 0,
@@ -102,7 +102,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "这里会根据分配的「店员啾」属性给出评分，属性越高，评分也会越高；属性评分达到S时，还可以获得额外奖励哦",
+				text = "A rating will be displayed here based on the Manjuu staff you've assigned. The better their abilities, the higher your rating. You'll even earn additional rewards for achieving S-rating!",
 				mode = 1,
 				char = "char",
 				posY = 0,
@@ -121,7 +121,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "返回上级",
+				text = "Tap to return",
 				mode = 2,
 				char = "char",
 				posY = 0,
@@ -144,7 +144,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "每个楼层的「店员啾」分配完毕之后，点击这里即可开始经营",
+				text = "Once you've assigned all your Manjuu staff on each floor, tap here to open up shop!",
 				mode = 2,
 				char = "char",
 				posY = 0,
@@ -163,7 +163,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击这里即可查看购物中心的升级条件",
+				text = "You can see what you'll need to level up the mall here.",
 				mode = 2,
 				char = "char",
 				posY = 0,
@@ -186,7 +186,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "达成升级条件后可以解锁更多可经营楼层和啾啾定制订单",
+				text = "Increase the mall's level to open up more business areas and fulfill more orders!",
 				mode = 2,
 				char = "char",
 				posY = 0,
@@ -205,7 +205,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "我们先去看看经营奖励吧",
+				text = "But first, let's go check out the management rewards.",
 				mode = 2,
 				char = "char",
 				posY = 0,
@@ -228,7 +228,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "本次活动的任务将显示在这里",
+				text = "You can view the limited-time event missions here.",
 				mode = 2,
 				char = "char",
 				posY = 321,
@@ -247,7 +247,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "如果已经收集到足够的「享梦心情」，就可以点击这里进行提交。提交数量达到对应档位要求后，即可解锁奖励",
+				text = "You can submit the Sparks of Joy you've earned here. You'll be able to obtain milestone rewards after submitting a certain number of Sparks of Joy!",
 				mode = 2,
 				char = "char",
 				posY = 0,
@@ -266,7 +266,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "接下来，请以照顾好舰船们的需求、收集更多「享梦心情」为目标，开始经营购物中心吧！",
+				text = "Let's work hard to fulfill all your shipgirls' requests, spark joy among everyone, and make your mall the best it can be!",
 				mode = 2,
 				char = "char",
 				posY = 0,

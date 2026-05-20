@@ -13,8 +13,8 @@ pg.base.gift_group = {}
 		id = "GA84",
 		drop_list = {
 			{
-				2,
-				81440,
+				7,
+				204035,
 				1
 			}
 		},

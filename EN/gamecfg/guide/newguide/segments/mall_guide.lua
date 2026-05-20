@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "指挥官，欢迎来到浮金湾！",
+				text = "Commander, welcome to Luxury Bay!",
 				mode = 1,
 				char = "char",
 				posY = 0,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击这里，开启享梦度假时光吧！",
+				text = "Tap here to begin your dream vacation adventure!",
 				mode = 2,
 				char = "char",
 				posY = 0,

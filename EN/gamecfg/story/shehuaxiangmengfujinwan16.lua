@@ -19,7 +19,7 @@ return {
 			bgm = "story-richang-wavelight",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "人文区·香料市场",
+			say = "Public Area – Spice Market",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

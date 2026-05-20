@@ -49084,7 +49084,7 @@ _G.pg.base.gametip.mall_input_header = {
 
 
 _G.pg.base.gametip.mall_summary_btn = {
-	tip = "Sparks of Joy Earned:"
+	tip = "Sparks of Joy Earned"
 }
 
 
@@ -49346,7 +49346,7 @@ _G.pg.base.gametip.sort_minigame_help = {
 
 
 _G.pg.base.gametip.AnniversaryNineCoreActivity_subtitle_1 = {
-	tip = "Supply Station"
+	tip = "Mall Management"
 }
 
 
@@ -49426,7 +49426,7 @@ _G.pg.base.gametip.mall_title_lock = {
 
 
 _G.pg.base.gametip.mall_continue_to_unlock = {
-	tip = "提升购物中心等级后解锁"
+	tip = "Level up the Mall to unlock"
 }
 
 
@@ -49436,7 +49436,7 @@ _G.pg.base.gametip.GeZiURCoreActivityUI_subtitle_1 = {
 
 
 _G.pg.base.gametip.GeZiURCoreActivityUI_subtitle_2 = {
-	tip = "Event"
+	tip = "Supply Station "
 }
 
 

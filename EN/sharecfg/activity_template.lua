@@ -57561,7 +57561,7 @@ end)()
 		},
 		config_client = {
 			uPtId = 702,
-			activitytime = 50612,
+			activitytime = 50609,
 			shopId = 50611,
 			ptId = 701,
 			expedition = 9808,

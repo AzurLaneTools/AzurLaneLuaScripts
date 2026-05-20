@@ -23,10 +23,29 @@ slot0.ShaderMgr.Init = function(slot0, slot1)
 	}
 
 	(function (slot0)
-		ResourceMgr.Inst:LoadShaderAndCached("custom_builtin", slot0, false, false)
+		if not EDITOR_TOOL then
+			seriesAsync({
+				function (slot0)
+					ResourceMgr.Inst:unloadUnusedAssetBundles()
+					onDelayTick(slot0, 0.0001)
+				end,
+				function (slot0)
+					ResourceMgr.Inst:loadAssetBundleAsync("custom_builtin", function (slot0)
+						slot0:Unload(false)
+						onDelayTick(uv0, 0.0001)
+					end)
+				end,
+				function (slot0)
+					uv0.cacheCustomBuiltin = UnityEngine.AssetBundle.LoadFromFile(PathMgr.getAssetBundle("custom_builtin"))
+
+					slot0()
+				end
+			}, slot0)
+		else
+			ResourceMgr.Inst:LoadShaderAndCached("custom_builtin", slot0, false, false)
+		end
 	end)(function ()
 		parallelAsync(uv0, function ()
-			originalPrint("所有shader加载完成")
 			uv0()
 		end)
 	end)

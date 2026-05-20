@@ -92,35 +92,42 @@ slot0.getRandomLoadingPic = function()
 end
 
 slot0.checkDownloadMissingPic = function(slot0)
-	slot2 = getProxy(LoadingPicProxy):getGalleryPicIDList()
-	slot3 = getProxy(LoadingPicProxy):getMangaPicIDList()
-	slot4 = {}
+	slot1 = AppreciatePicConst.getDefaultGalleryPicIDList()
+	slot2 = {}
+	slot3 = {}
 
-	for slot8, slot9 in ipairs(AppreciatePicConst.getDefaultGalleryPicIDList()) do
-		if GalleryConst.GetGalleryPicPathByID(slot9) then
-			table.insert(slot4, slot10)
-			table.insert(slot4, slot10 .. "_hx")
+	if getProxy(LoadingPicProxy) then
+		slot2 = getProxy(LoadingPicProxy):getGalleryPicIDList()
+		slot3 = getProxy(LoadingPicProxy):getMangaPicIDList()
+	end
+
+	slot5 = {}
+
+	for slot9, slot10 in ipairs(slot1) do
+		if GalleryConst.GetGalleryPicPathByID(slot10) then
+			table.insert(slot5, slot11)
+			table.insert(slot5, slot11 .. "_hx")
 		end
 	end
 
-	for slot8, slot9 in ipairs(slot2) do
-		if GalleryConst.GetGalleryPicPathByID(slot9) then
-			table.insert(slot4, slot10)
-			table.insert(slot4, slot10 .. "_hx")
+	for slot9, slot10 in ipairs(slot2) do
+		if GalleryConst.GetGalleryPicPathByID(slot10) then
+			table.insert(slot5, slot11)
+			table.insert(slot5, slot11 .. "_hx")
 		end
 	end
 
-	for slot8, slot9 in ipairs(slot3) do
-		if MangaConst.GetMangaPicPathByID(slot9) then
-			table.insert(slot4, slot10)
-			table.insert(slot4, slot10 .. "_hx")
+	for slot9, slot10 in ipairs(slot3) do
+		if MangaConst.GetMangaPicPathByID(slot10) then
+			table.insert(slot5, slot11)
+			table.insert(slot5, slot11 .. "_hx")
 		end
 	end
 
-	if slot4 and #slot4 > 0 then
+	if slot5 and #slot5 > 0 then
 		DownloadConst.Download({
 			isShowBox = false,
-			fileList = slot4,
+			fileList = slot5,
 			finishFunc = slot0,
 			onNo = function ()
 			end,
