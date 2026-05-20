@@ -94,6 +94,7 @@ pg.ship_data_trans.all = {
 	40202,
 	40203,
 	40204,
+	40301,
 	50101,
 	50102,
 	50103,
@@ -5983,6 +5984,73 @@ pg.base.ship_data_trans = {}
 			}
 		}
 	}
+	pg.base.ship_data_trans[40301] = {
+		group_id = 40301,
+		skill_id = 24212,
+		skin_id = 403019,
+		transform_list = {
+			{
+				{
+					3,
+					24201
+				},
+				{
+					2,
+					24202
+				}
+			},
+			{
+				{
+					3,
+					24203
+				},
+				{
+					4,
+					24204
+				}
+			},
+			{
+				{
+					3,
+					24205
+				},
+				{
+					4,
+					24206
+				}
+			},
+			{
+				{
+					3,
+					24207
+				},
+				{
+					2,
+					24208
+				}
+			},
+			{
+				{
+					3,
+					24209
+				},
+				{
+					4,
+					24210
+				}
+			},
+			{
+				{
+					3,
+					24211
+				},
+				{
+					2,
+					24212
+				}
+			}
+		}
+	}
 	pg.base.ship_data_trans[50101] = {
 		group_id = 50101,
 		skill_id = 0,
@@ -6535,6 +6603,8 @@ pg.base.ship_data_trans = {}
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_trans[50205] = {
 		group_id = 50205,
 		skill_id = 49412,
@@ -6602,8 +6672,6 @@ pg.base.ship_data_trans = {}
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_trans[50601] = {
 		group_id = 50601,
 		skill_id = 53412,

@@ -196,6 +196,10 @@ pg.ship_meta_breakout.all = {
 	9706042,
 	9706043,
 	9706044,
+	9706051,
+	9706052,
+	9706053,
+	9706054,
 	9707011,
 	9707012,
 	9707013,
@@ -3352,6 +3356,75 @@ end)()
 		level = 0,
 		weapon_ids = {}
 	}
+	pg.base.ship_meta_breakout[9706051] = {
+		breakout_view = "【焔追の灰-エルベ】習得/爆撃機数+1/戦闘機補正+5%",
+		item2 = 21001,
+		pre_id = 0,
+		repair = 0,
+		gold = 1000,
+		breakout_id = 9706052,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9706051,
+		item1 = 21061,
+		level = 10,
+		weapon_ids = {
+			60591,
+			54014
+		}
+	}
+	pg.base.ship_meta_breakout[9706052] = {
+		breakout_view = "攻撃隊上限+1/戦闘機数+1/戦闘機補正+10%",
+		item2 = 21001,
+		pre_id = 9706051,
+		repair = 0,
+		gold = 3000,
+		breakout_id = 9706053,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9706052,
+		item1 = 21061,
+		level = 30,
+		weapon_ids = {
+			60591,
+			54014,
+			60592,
+			54014
+		}
+	}
+	pg.base.ship_meta_breakout[9706053] = {
+		breakout_view = "【焔追の灰-エルベ】強化/艦載機数+1/爆撃機補正+10%",
+		item2 = 21001,
+		pre_id = 9706052,
+		repair = 0,
+		gold = 10000,
+		breakout_id = 9706054,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9706053,
+		item1 = 21061,
+		level = 70,
+		weapon_ids = {
+			60593,
+			54015,
+			60593,
+			54015
+		}
+	}
+	pg.base.ship_meta_breakout[9706054] = {
+		breakout_view = "なし",
+		item2 = 21001,
+		pre_id = 9706053,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9706054,
+		item1 = 21061,
+		level = 0,
+		weapon_ids = {}
+	}
 	pg.base.ship_meta_breakout[9707011] = {
 		breakout_view = "【炬火の力-飛龍】習得/攻撃機数+1/攻撃機補正+5%",
 		item2 = 21001,
@@ -3421,6 +3494,8 @@ end)()
 		level = 0,
 		weapon_ids = {}
 	}
+end)()
+(function ()
 	pg.base.ship_meta_breakout[9707021] = {
 		breakout_view = "【炬火の力-アーク・ロイヤル】習得/攻撃機数＋1/攻撃機補正+3%",
 		item2 = 21002,
@@ -3490,8 +3565,6 @@ end)()
 		level = 0,
 		weapon_ids = {}
 	}
-end)()
-(function ()
 	pg.base.ship_meta_breakout[9707031] = {
 		breakout_view = "【揺灯の力-蒼龍】習得/爆撃機数+1/爆撃機補正+5%",
 		item2 = 21001,

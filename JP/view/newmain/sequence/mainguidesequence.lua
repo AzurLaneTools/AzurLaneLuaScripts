@@ -173,56 +173,52 @@ slot1 = {
 }
 
 slot0.Execute = function(slot0, slot1)
-	slot0:DoAction(uv0, slot1, false)
-end
-
-slot0.DoAction = function(slot0, slot1, slot2, slot3)
 	if IsUnityEditor and not ENABLE_GUIDE then
-		if slot2 then
-			slot2()
+		if slot1 then
+			slot1()
 		end
 
 		return
 	end
 
-	if getProxy(ContextProxy):getCurrentContext() and slot4.mediator.__cname ~= "NewMainMediator" then
+	if getProxy(ContextProxy):getCurrentContext() and slot2.mediator.__cname ~= "NewMainMediator" then
 		return
 	end
 
-	if not _.detect(slot1, function (slot0)
+	if not _.detect(uv0, function (slot0)
 		return not pg.NewStoryMgr.GetInstance():IsPlayed(slot0.id) and slot0.condition()
 	end) then
-		slot2()
+		slot1()
 
 		return
 	end
 
-	slot6 = slot5.id
-	slot8 = slot5.args()
+	slot4 = slot3.id
+	slot6 = slot3.args()
 
 	if pg.SeriesGuideMgr.GetInstance():isRunning() then
-		slot2()
+		slot1()
 
 		return
 	end
 
 	if not pg.NewGuideMgr.GetInstance():CanPlay() then
-		slot2()
+		slot1()
 
 		return
 	end
 
 	pg.m02:sendNotification(GAME.STORY_UPDATE, {
-		storyId = slot6
+		storyId = slot4
 	})
 
-	if slot6 == "DORM3D_GUIDE_01" then
-		pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataGuide(1, pg.NewStoryMgr.GetInstance():StoryName2StoryId(slot6)))
+	if slot4 == "DORM3D_GUIDE_01" then
+		pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataGuide(1, pg.NewStoryMgr.GetInstance():StoryName2StoryId(slot4)))
 	end
 
-	slot9 = pg.NewGuideMgr.GetInstance()
+	slot7 = pg.NewGuideMgr.GetInstance()
 
-	slot9:Play(slot6, slot8, function ()
+	slot7:Play(slot4, slot6, function ()
 		if uv0 == "DORM3D_GUIDE_01" then
 			pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataGuide(2, pg.NewStoryMgr.GetInstance():StoryName2StoryId(uv0)))
 		end
@@ -232,11 +228,7 @@ slot0.DoAction = function(slot0, slot1, slot2, slot3)
 
 			uv2:PlayNextOne(slot0, slot1)
 		end
-
-		if uv3 and uv4 then
-			uv4()
-		end
-	end, slot2)
+	end, slot1)
 end
 
 slot0.PlayNextOne = function(slot0, slot1, slot2)

@@ -97,7 +97,8 @@ pg.memory_storyline.all = {
 	92,
 	93,
 	94,
-	95
+	95,
+	96
 }
 pg.base = pg.base or {}
 pg.base.memory_storyline = {}
@@ -2556,18 +2557,48 @@ pg.base.memory_storyline = {}
 		}
 	}
 	pg.base.memory_storyline[95] = {
+		description = [[
+「騎士、ゲッツ・フォン・ベルリヒンゲン」
+「この聖印の前で厳粛に誓いを立てます」
+「いかなる代償を払おうとも、命を惜しまず」
+「必ずやこの聖なる地を守り抜いてみせます」
+「戦い続け、やがて――」]],
+		name = "聖印前の同盟",
+		column = 59,
+		world_id = "",
+		bgm = "theme-hrr",
+		row = 0,
+		chapter = 5,
+		memory_lock = 0,
+		id = 95,
+		icon = "InterludeOne_2",
+		sort = 1,
+		memory_id = {
+			1,
+			365
+		},
+		shipnation = {
+			4,
+			10,
+			6
+		},
+		link_event = {
+			96
+		}
+	}
+	pg.base.memory_storyline[96] = {
 		description = "敬请期待",
 		name = "敬请期待",
 		shipnation = 0,
 		memory_id = "",
 		link_event = "",
-		column = 59,
+		column = 60,
 		world_id = "",
 		bgm = "",
 		row = 0,
 		chapter = 0,
 		memory_lock = 1,
-		id = 95,
+		id = 96,
 		icon = "",
 		sort = 0
 	}

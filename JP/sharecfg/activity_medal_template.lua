@@ -129,7 +129,22 @@ pg.activity_medal_template.all = {
 	5048205,
 	5048206,
 	5048207,
-	5048208
+	5048208,
+	5060701,
+	5060702,
+	5060703,
+	5060704,
+	5060705,
+	5060706,
+	5060707,
+	5060708,
+	5061601,
+	5061602,
+	5061603,
+	5061604,
+	5061605,
+	5061606,
+	5061607
 }
 pg.activity_medal_template.get_id_list_by_group = {
 	[5711] = {
@@ -290,6 +305,25 @@ pg.activity_medal_template.get_id_list_by_group = {
 		5048206,
 		5048207,
 		5048208
+	},
+	[50607] = {
+		5060701,
+		5060702,
+		5060703,
+		5060704,
+		5060705,
+		5060706,
+		5060707,
+		5060708
+	},
+	[50616] = {
+		5061601,
+		5061602,
+		5061603,
+		5061604,
+		5061605,
+		5061606,
+		5061607
 	}
 }
 pg.base = pg.base or {}
@@ -1821,5 +1855,185 @@ end)()
 		activity_medal_name = "ステッカー：エンブレム",
 		id = 5048208,
 		medal_asset = "ActivityMedal/5048208"
+	}
+	pg.base.activity_medal_template[5060701] = {
+		activity_medal_desc = "神聖総連帝国。「神聖」にして「総連」の「帝国」",
+		next_medal = 0,
+		item = 65921,
+		remake_task_id = 0,
+		group = 50607,
+		prefab_node = "1",
+		task_id = 21925,
+		activity_medal_name = "ステッカー：神性総連帝国",
+		id = 5060701,
+		medal_asset = "ActivityMedal/5060701"
+	}
+	pg.base.activity_medal_template[5060702] = {
+		activity_medal_desc = "「越境実験NO1：登臨者」――「上昇開始」",
+		next_medal = 0,
+		item = 65922,
+		remake_task_id = 0,
+		group = 50607,
+		prefab_node = "2",
+		task_id = 21926,
+		activity_medal_name = "ステッカー：天を衝く塔",
+		id = 5060702,
+		medal_asset = "ActivityMedal/5060702"
+	}
+	pg.base.activity_medal_template[5060703] = {
+		activity_medal_desc = "「外からの来訪者」傭兵団、出撃だ！",
+		next_medal = 0,
+		item = 65923,
+		remake_task_id = 0,
+		group = 50607,
+		prefab_node = "3",
+		task_id = 21927,
+		activity_medal_name = "ステッカー：傭兵団指揮官",
+		id = 5060703,
+		medal_asset = "ActivityMedal/5060703"
+	}
+	pg.base.activity_medal_template[5060704] = {
+		activity_medal_desc = "神の目が及ぶ場所には、心象が到る",
+		next_medal = 0,
+		item = 65924,
+		remake_task_id = 0,
+		group = 50607,
+		prefab_node = "4",
+		task_id = 21928,
+		activity_medal_name = "ステッカー：聖座の象徴",
+		id = 5060704,
+		medal_asset = "ActivityMedal/5060704"
+	}
+	pg.base.activity_medal_template[5060705] = {
+		activity_medal_desc = "冠を戴くものにはその重さを背負わねば",
+		next_medal = 0,
+		item = 65925,
+		remake_task_id = 0,
+		group = 50607,
+		prefab_node = "5",
+		task_id = 21929,
+		activity_medal_name = "ステッカー：皇帝の象徴",
+		id = 5060705,
+		medal_asset = "ActivityMedal/5060705"
+	}
+	pg.base.activity_medal_template[5060706] = {
+		activity_medal_desc = "黒き太陽の光が魍魎をかき消す",
+		next_medal = 0,
+		item = 65926,
+		remake_task_id = 0,
+		group = 50607,
+		prefab_node = "6",
+		task_id = 21930,
+		activity_medal_name = "ステッカー：審判の象徴",
+		id = 5060706,
+		medal_asset = "ActivityMedal/5060706"
+	}
+	pg.base.activity_medal_template[5060707] = {
+		activity_medal_desc = "あなたは深淵を見つけました。そして中で楽しく泳ぎました",
+		next_medal = 0,
+		item = 65927,
+		remake_task_id = 0,
+		group = 50607,
+		prefab_node = "7",
+		task_id = 21931,
+		activity_medal_name = "ステッカー：深潜",
+		id = 5060707,
+		medal_asset = "ActivityMedal/5060707"
+	}
+	pg.base.activity_medal_template[5060708] = {
+		activity_medal_desc = "神聖総連帝国の爵位の一つ。本当に…詳しく知りたいですか？",
+		next_medal = 0,
+		item = 65928,
+		remake_task_id = 0,
+		group = 50607,
+		prefab_node = "8",
+		task_id = 21932,
+		activity_medal_name = "ステッカー：自由騎士",
+		id = 5060708,
+		medal_asset = "ActivityMedal/5060708"
+	}
+	pg.base.activity_medal_template[5061601] = {
+		activity_medal_desc = "いざゆけゴールデン・ベイ、フネが戻るまでバカンス・デイ",
+		next_medal = 0,
+		item = 65930,
+		remake_task_id = 0,
+		group = 50616,
+		prefab_node = "1",
+		task_id = 21935,
+		activity_medal_name = "ステッカー：ゴールデン・ベイ",
+		id = 5061601,
+		medal_asset = "ActivityMedal/5061601"
+	}
+	pg.base.activity_medal_template[5061602] = {
+		activity_medal_desc = "願いを語りかければ、本当に叶うって！",
+		next_medal = 0,
+		item = 65931,
+		remake_task_id = 0,
+		group = 50616,
+		prefab_node = "2",
+		task_id = 21936,
+		activity_medal_name = "ステッカー：黄金の宝たち",
+		id = 5061602,
+		medal_asset = "ActivityMedal/5061602"
+	}
+	pg.base.activity_medal_template[5061603] = {
+		activity_medal_desc = "ぐっと高く飛んでけー！",
+		next_medal = 0,
+		item = 65932,
+		remake_task_id = 0,
+		group = 50616,
+		prefab_node = "3",
+		task_id = 21937,
+		activity_medal_name = "ステッカー：空まで一直線",
+		id = 5061603,
+		medal_asset = "ActivityMedal/5061603"
+	}
+	pg.base.activity_medal_template[5061604] = {
+		activity_medal_desc = "360度全方位採光が、明るく快適な室内環境を保証！",
+		next_medal = 0,
+		item = 65933,
+		remake_task_id = 0,
+		group = 50616,
+		prefab_node = "4",
+		task_id = 21938,
+		activity_medal_name = "ステッカー：アークドーム",
+		id = 5061604,
+		medal_asset = "ActivityMedal/5061604"
+	}
+	pg.base.activity_medal_template[5061605] = {
+		activity_medal_desc = "鳥の夢は…埠頭に行ってポテトを",
+		next_medal = 0,
+		item = 65934,
+		remake_task_id = 0,
+		group = 50616,
+		prefab_node = "5",
+		task_id = 21939,
+		activity_medal_name = "ステッカー：夢求むカモメ",
+		id = 5061605,
+		medal_asset = "ActivityMedal/5061605"
+	}
+	pg.base.activity_medal_template[5061606] = {
+		activity_medal_desc = "日向ぼっこしながらうたた寝、最高に快適ピョ～",
+		next_medal = 0,
+		item = 65935,
+		remake_task_id = 0,
+		group = 50616,
+		prefab_node = "6",
+		task_id = 21940,
+		activity_medal_name = "ステッカー：のんびり饅頭",
+		id = 5061606,
+		medal_asset = "ActivityMedal/5061606"
+	}
+	pg.base.activity_medal_template[5061607] = {
+		activity_medal_desc = "ここまできたからには、手ぶらで帰れるとは思わないこと！",
+		next_medal = 0,
+		item = 65936,
+		remake_task_id = 0,
+		group = 50616,
+		prefab_node = "7",
+		task_id = 21941,
+		activity_medal_name = "ステッカー：黄金ビル",
+		id = 5061607,
+		medal_asset = "ActivityMedal/5061607"
 	}
 end)()

@@ -212,6 +212,7 @@ pg.fleet_tech_ship_class.all = {
 	40804,
 	40805,
 	40806,
+	40807,
 	41801,
 	50101,
 	50102,
@@ -377,6 +378,7 @@ pg.fleet_tech_ship_class.all = {
 	970602,
 	970603,
 	970604,
+	970605,
 	970701,
 	970702,
 	970703,
@@ -2529,6 +2531,8 @@ end)()
 			40109,
 			40111,
 			40113,
+			40114,
+			40115,
 			40116
 		}
 	}
@@ -2682,7 +2686,8 @@ end)()
 		ships = {
 			40309,
 			40310,
-			40314
+			40314,
+			40317
 		}
 	}
 	pg.base.fleet_tech_ship_class[40305] = {
@@ -2817,7 +2822,8 @@ end)()
 		t_level_1 = 124,
 		nation = 4,
 		ships = {
-			40503
+			40503,
+			40507
 		}
 	}
 	pg.base.fleet_tech_ship_class[40504] = {
@@ -2984,6 +2990,17 @@ end)()
 		nation = 4,
 		ships = {
 			40813
+		}
+	}
+	pg.base.fleet_tech_ship_class[40807] = {
+		shiptype = 8,
+		name = "XXI型",
+		t_level = 10,
+		id = 40807,
+		t_level_1 = 1,
+		nation = 4,
+		ships = {
+			40815
 		}
 	}
 	pg.base.fleet_tech_ship_class[41801] = {
@@ -4021,6 +4038,8 @@ end)()
 			90107
 		}
 	}
+end)()
+(function ()
 	pg.base.fleet_tech_ship_class[90106] = {
 		shiptype = 1,
 		name = "ル・アルディ級",
@@ -4033,8 +4052,6 @@ end)()
 			90106
 		}
 	}
-end)()
-(function ()
 	pg.base.fleet_tech_ship_class[90201] = {
 		shiptype = 2,
 		name = "ラ・ガリソニエー",
@@ -4852,6 +4869,17 @@ end)()
 		nation = 97,
 		ships = {
 			970604
+		}
+	}
+	pg.base.fleet_tech_ship_class[970605] = {
+		shiptype = 6,
+		name = "エルベ(META)",
+		t_level = 3,
+		id = 970605,
+		t_level_1 = 21,
+		nation = 97,
+		ships = {
+			970605
 		}
 	}
 	pg.base.fleet_tech_ship_class[970701] = {

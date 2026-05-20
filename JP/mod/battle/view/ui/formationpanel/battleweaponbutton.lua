@@ -50,6 +50,8 @@ slot1.SwitchIcon = function(slot0, slot1, slot2)
 
 	setImageSprite(slot0._unfill, LoadSprite("ui/CombatUI" .. slot4 .. "_atlas", "weapon_unfill_" .. slot3))
 	setImageSprite(slot0._filled, LoadSprite("ui/CombatUI" .. slot4 .. "_atlas", "filled_combined_" .. slot3))
+
+	return slot4, slot3
 end
 
 slot1.SwitchIconEffect = function(slot0, slot1, slot2)
@@ -302,7 +304,7 @@ slot1.Update = function(slot0)
 end
 
 slot1.SetToCombatUIPreview = function(slot0, slot1)
-	if slot1 then
+	if slot1 ~= CombatUIPreviewer.WeaponButtonPreviewMode.UNFILLED then
 		SetActive(slot0._filled, true)
 		SetActive(slot0._unfill, false)
 

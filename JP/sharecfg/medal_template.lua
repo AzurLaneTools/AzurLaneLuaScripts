@@ -128,7 +128,9 @@ pg.medal_template.all = {
 	200121,
 	200131,
 	200141,
-	200151
+	200151,
+	200161,
+	200171
 }
 pg.base = pg.base or {}
 pg.base.medal_template = {}
@@ -2896,6 +2898,48 @@ end)()
 		rank = 1,
 		id = 200151,
 		explain1 = "「ワンダラー募集計画」",
+		explain2 = "イベント"
+	}
+	pg.base.medal_template[200161] = {
+		target_id = "50607",
+		name = "聖印同盟記念勲章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "神聖総連帝国が授与する記念勲章。黒き領域に打ち勝つ偉大なる勝利を記念して\n——神光が同盟の永続を見届けよう。",
+		next = 0,
+		icon = "9161",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9161",
+		condition = "「聖印前の同盟」記念ステッカーを8つ集める",
+		rank = 1,
+		id = 200161,
+		explain1 = "「聖印前の同盟」",
+		explain2 = "イベント"
+	}
+	pg.base.medal_template[200171] = {
+		target_id = "50616",
+		name = "贅沢休日記念章",
+		target_num = 7,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "ゴールデン・ベイを思いっきり楽しむのは、バカンスの正しいあり方♪\n——その旅路にはサプライズとラグジュアリーに満ち溢れる♪",
+		next = 0,
+		icon = "9171",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9171",
+		condition = "「豪華絢爛！ゴールデン・ベイ」記念ステッカーを8つ集める",
+		rank = 1,
+		id = 200171,
+		explain1 = "「豪華絢爛！ゴールデン・ベイ」",
 		explain2 = "イベント"
 	}
 end)()

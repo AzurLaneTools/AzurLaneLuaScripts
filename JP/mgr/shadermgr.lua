@@ -6,7 +6,8 @@ slot1 = slot0.ShaderMgr
 slot0.ShaderMgr.Init = function(slot0, slot1)
 	print("initializing shader manager...")
 	Shader.DisableKeyword("LOW_DEVICE_PERFORMANCE")
-	parallelAsync({
+
+	slot7 = {
 		function (slot0)
 			ResourceMgr.Inst:LoadShaderAndCached("shader", slot0, false, false)
 		end,
@@ -18,13 +19,16 @@ slot0.ShaderMgr.Init = function(slot0, slot1)
 		end,
 		function (slot0)
 			slot0()
-		end,
-		function (slot0)
-			ResourceMgr.Inst:LoadShaderAndCached("custom_builtin", slot0, false, false)
 		end
-	}, function ()
-		originalPrint("所有shader加载完成")
-		uv0()
+	}
+
+	(function (slot0)
+		ResourceMgr.Inst:LoadShaderAndCached("custom_builtin", slot0, false, false)
+	end)(function ()
+		parallelAsync(uv0, function ()
+			originalPrint("所有shader加载完成")
+			uv0()
+		end)
 	end)
 end
 

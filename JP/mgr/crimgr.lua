@@ -13,6 +13,7 @@ slot1.C_BATTLE_SE = "C_BATTLE_SE"
 slot1.C_GALLERY_MUSIC = "C_GALLERY_MUSIC"
 slot1.C_BATTLE_CV_EXTRA = "C_BATTLE_CV_EXTRA"
 slot1.C_TIMELINE = "C_TIMELINE"
+slot1.C_SE_LOOP = "C_SE_LOOP"
 slot1.NEXT_VER = 40
 
 slot1.Init = function(slot0, slot1)
@@ -72,6 +73,10 @@ slot1.InitCri = function(slot0, slot1)
 		uv0.criInst:CreateChannel(uv1.C_BATTLE_CV_EXTRA, CriWareMgr.CRI_CHANNEL_TYPE.SINGLE)
 
 		uv0.criInst:GetChannelData(uv1.C_BATTLE_CV_EXTRA).channelPlayer.volume = 0.6
+
+		uv0.criInst:CreateChannel(uv1.C_SE_LOOP, CriWareMgr.CRI_CHANNEL_TYPE.MULTI_NOT_REPEAT)
+
+		uv0.criInst:GetChannelData(uv1.C_SE_LOOP).channelPlayer.loop = true
 		uv0.bgmWaveAnalyzer = GetOrAddComponent(GameObject.Find("CRIWARE/C_BGM"), typeof(CriAtomWaveAnalyzer))
 
 		uv0.bgmWaveAnalyzer:Init()
@@ -119,6 +124,86 @@ slot1.playCueSheetVoice = function(slot0, slot1, slot2, slot3, slot4)
 				uv0(slot0)
 			end
 		end)
+	end
+end
+
+slot1.PlayPaintingBgm = function(slot0, slot1, slot2, slot3, slot4, slot5)
+	if not slot0._paintingBgmSheets then
+		slot0._paintingBgmSheets = {}
+	end
+
+	if not slot0._paintingBgmSheetInfo then
+		slot0._paintingBgmSheetInfo = {}
+	end
+
+	if not slot0._paintingBgmSheetVolume then
+		slot0._paintingBgmSheetVolume = {}
+	end
+
+	if not table.contains(slot0._paintingBgmSheets, slot1) then
+		table.insert(slot0._paintingBgmSheets, slot1)
+	end
+
+	if slot3 and slot0._paintingBgmSheetInfo[slot2] then
+		return
+	end
+
+	slot0._paintingBgmVolumeRate = slot5 or 1
+
+	if slot0._paintingBgmSheetInfo[slot2] and slot0._paintingBgmSheetInfo[slot2].channelPlayer then
+		slot0._paintingBgmSheetInfo[slot2].channelPlayer.volume = slot4 * slot5
+
+		print("设置 painting bgm = " .. slot2 .. " 音量 = " .. slot4 .. " 当前音量 = " .. slot0._paintingBgmSheetInfo[slot2].channelPlayer.volume)
+	else
+		uv0.CriMgr.GetInstance():PlaySE_Loop(slot1, slot2, function (slot0)
+			if slot0 then
+				slot0.channelPlayer.volume = uv0 * uv1
+
+				print("播放 painting bgm = " .. uv2 .. " volume = " .. slot0.channelPlayer.volume)
+
+				uv3._paintingBgmSheetInfo[uv2] = slot0
+				uv3._paintingBgmSheetVolume[uv2] = uv0
+			end
+		end)
+	end
+end
+
+slot1.ChangeBgmVolume = function(slot0, slot1)
+	if slot0._paintingBgmVolumeRate and slot0._paintingBgmVolumeRate == slot1 then
+		return
+	end
+
+	slot0._paintingBgmVolumeRate = slot1 or 1
+
+	if slot0._paintingBgmSheetInfo then
+		for slot5, slot6 in pairs(slot0._paintingBgmSheetInfo) do
+			if slot6 and slot6.channelPlayer then
+				slot6.channelPlayer.volume = slot0._paintingBgmSheetVolume[slot5] * slot1
+
+				print("设置 painting bgm = " .. slot5 .. " 音量 = " .. slot1 .. " 当前音量 = " .. slot6.channelPlayer.volume)
+			end
+		end
+	end
+end
+
+slot1.StopPaintingBgm = function(slot0, slot1)
+	if slot0._paintingBgmSheetInfo and slot0._paintingBgmSheetInfo[slot1] then
+		slot0.criInst:StopSound(slot0._paintingBgmSheetInfo[slot1], CriWareMgr.CRI_FADE_TYPE.FADE_INOUT)
+
+		slot0._paintingBgmSheetInfo[slot1] = nil
+	end
+end
+
+slot1.DisposePaintingBgm = function(slot0)
+	slot0._paintingBgmSheetInfo = {}
+	slot0._paintingBgmSheetVolume = {}
+
+	if slot0._paintingBgmSheets then
+		for slot4, slot5 in ipairs(slot0._paintingBgmSheets) do
+			uv0.CriMgr.GetInstance():UnloadCueSheet(slot5)
+		end
+
+		slot0._paintingBgmSheets = nil
 	end
 end
 
@@ -311,6 +396,18 @@ end
 
 slot1.StopSEBattle_V3 = function(slot0)
 	slot0.criInst:GetChannelData(uv0.C_BATTLE_SE).channelPlayer:Stop()
+end
+
+slot1.PlaySE_Loop = function(slot0, slot1, slot2, slot3)
+	slot0.criInst:PlaySound(CueData.GetCueDataAndInit(uv0.C_SE_LOOP, slot1, slot2), CriWareMgr.CRI_FADE_TYPE.FADE_INOUT, function (slot0)
+		if uv0 ~= nil then
+			uv0(slot0)
+		end
+	end)
+end
+
+slot1.StopSE_Loop = function(slot0, slot1, slot2)
+	slot0.criInst:StopSound(CueData.GetCueDataAndInit(uv0.C_SE_LOOP, slot1, slot2), CriWareMgr.CRI_FADE_TYPE.FADE_INOUT)
 end
 
 slot1.LoadCueSheet = function(slot0, slot1, slot2)

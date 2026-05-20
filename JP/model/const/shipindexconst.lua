@@ -23,6 +23,11 @@ slot0.SortPropertyIndexs = {
 	slot0.SortProperty_Durability,
 	slot0.SortProperty_Antisub
 }
+slot0.RoleProgressBar = {
+	slot0.SortUnlockable,
+	slot0.SortGotLock,
+	slot0.SortNotGet
+}
 slot0.SortPropertyAll = IndexConst.BitAll(slot0.SortPropertyIndexs)
 
 table.insert(slot0.SortPropertyIndexs, 1, slot0.SortPropertyAll)
@@ -34,6 +39,12 @@ slot0.SortIndexs = {
 	slot0.SortAchivedTime,
 	slot0.SortIntimacy,
 	slot0.SortEnergy
+}
+slot0.SortDefault = bit.lshift(1, 0)
+slot0.SortProgressBar = bit.lshift(1, 1)
+slot0.SortRoleStory = {
+	slot0.SortDefault,
+	slot0.SortProgressBar
 }
 
 slot0.getSortFuncAndName = function(slot0, slot1)
@@ -48,6 +59,18 @@ slot0.getSortFuncAndName = function(slot0, slot1)
 	end
 end
 
+slot0.getSortName = function(slot0)
+	for slot4 = 1, #ShipIndexConst.SortRoleStory do
+		if bit.band(bit.lshift(1, slot4 - 1), slot0) > 0 then
+			return slot4
+		end
+	end
+end
+
+slot0.SortRoleStoryName = {
+	"memory_filter_option_1",
+	"memory_filter_option_2"
+}
 slot0.SortNames = {
 	"word_rarity",
 	"word_lv",
@@ -211,6 +234,59 @@ slot0.filterByType = function(slot0, slot1)
 	return false
 end
 
+slot0.SortUnlockable = bit.lshift(1, 0)
+slot0.SortGotLock = bit.lshift(1, 1)
+slot0.SortNotGet = bit.lshift(1, 2)
+slot0.RoleProgress = {
+	slot0.SortUnlockable,
+	slot0.SortGotLock,
+	slot0.SortNotGet
+}
+slot0.All = IndexConst.BitAll(slot0.RoleProgress)
+
+table.insert(slot0.RoleProgress, 1, slot0.All)
+
+slot0.RoleProgressName = {
+	"memory_filter_option_3",
+	"memory_filter_option_4",
+	"memory_filter_option_5",
+	"memory_filter_option_6"
+}
+
+slot0.filterRoleProgressBar = function(slot0, slot1)
+	if not slot1 or slot1 == uv0.ProgressAll then
+		return true
+	end
+
+	slot2 = getProxy(CollectionProxy):getShipGroup(slot0.ship_group)
+
+	for slot6 = 2, #RoleIndexCfg.progress do
+		if bit.band(bit.lshift(1, slot6 - 2), slot1) > 0 then
+			if #RoleIndexCfg.progress[slot6].types == 0 then
+				return true
+			end
+
+			for slot12, slot13 in ipairs(slot8) do
+				if slot13 == 1 then
+					slot14 = pg.memory_template[slot0.memories[1]].story
+
+					if slot2 and not pg.NewStoryMgr.GetInstance():IsPlayed(slot14) and slot0.id ~= 501 then
+						return true
+					end
+				elseif slot13 == 2 then
+					if pg.NewStoryMgr.GetInstance():IsPlayed(pg.memory_template[slot0.memories[1]].story) then
+						return true
+					end
+				elseif slot13 == 3 and not slot2 then
+					return true
+				end
+			end
+		end
+	end
+
+	return false
+end
+
 slot1 = {
 	"CampUS",
 	"CampEN",
@@ -285,6 +361,36 @@ slot0.filterByCamp = function(slot0, slot1)
 						return true
 					end
 				elseif slot13 == slot0:getNation() then
+					return true
+				end
+			end
+		end
+	end
+
+	return false
+end
+
+slot0.RolefilterByCamp = function(slot0, slot1)
+	if not slot1 or slot1 == uv0.CampAll then
+		return true
+	end
+
+	slot2 = underscore.to_array(ShipIndexCfg.camp)
+
+	if LOCK_NATION_HNLMS then
+		slot2 = underscore.filter(slot2, function (slot0)
+			return #slot0.types ~= 1 or slot0.types[1] ~= Nation.NL
+		end)
+	end
+
+	for slot6 = 2, #slot2 do
+		if bit.band(bit.lshift(1, slot6 - 2), slot1) > 0 then
+			for slot12, slot13 in ipairs(slot2[slot6].types) do
+				if slot13 == Nation.LINK then
+					if Nation.LINK <= slot0.nationality then
+						return true
+					end
+				elseif slot13 == slot0.nationality then
 					return true
 				end
 			end

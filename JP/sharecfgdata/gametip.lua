@@ -10127,6 +10127,11 @@ _G.pg.base.gametip.ship_remould_warning_521024 = {
 }
 
 
+_G.pg.base.gametip.ship_remould_warning_403994 = {
+	tip = "改造（近代化改修）を行うと<color=#92fc63>【主砲砲座+1】</color>\n主砲補正が120%に変更\n改造を続けますか？"
+}
+
+
 _G.pg.base.gametip.word_soundfiles_download_title = {
 	tip = "ボイス更新"
 }
@@ -12877,7 +12882,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "「エリーゼ」「シャンディ」「ゆきの」出現確率UP!"
+	tip = "限定建造200回で「ゲッツ・フォン・ベルリヒンゲン」を確定で入手可能！（最大4隻まで）"
 }
 
 
@@ -15441,17 +15446,17 @@ _G.pg.base.gametip.pray_build_help = {
 			info = "1.「小型艦建造」「大型艦建造」「特型艦建造」から一つを選ぶことで、特別建造のベースになります。（UR艦船は「大型艦建造」「特型艦建造」にしか出現しません）"
 		},
 		{
-			info = "2.同建造で出現する艦船から2種類を選び「ピックアップ状態」（出現率がUPする状態）にできます<color=#FF5C5C>（※2025年7月9日までに常設建造になった艦しか出現しません。また、UR艦船を選択した場合、選ばれなかったUR艦船は建造から出現しません）</color>"
+			info = "2.同建造で出現する艦船から2種類を選び「ピックアップ状態」（出現率がUPする状態）にできます<color=#FF5C5C>（※2026年3月25日までに常設建造になった艦しか出現しません。また、UR艦船を選択した場合、選ばれなかったUR艦船は建造から出現しません）</color>"
 		},
 		{
-			info = "3.「選べる特別建造」において「ピックアップ」に選ばれた艦船の出現率は、レアリティに応じて下記となります\n<color=#ff5e39>UR</color>：1.2% <color=#ffde38>SSR</color>...2% <color=#d797ff>SR</color>...2.5% <color=#3dc6ff>R...2.5%</color> N...2.5%"
+			info = "3.「選べる特別建造」において「ピックアップ」に選ばれた艦船の出現率は、レアリティに応じて下記となります\n<color=#ff5e39>UR</color>：1.2% <color=#ffde38>SSR</color>...2%  <color=#d797ff>SR</color>...2.5%  <color=#3dc6ff>R...2.5%</color>  N...2.5%"
 		},
 		{
 			info = [[
 4.「選べる特別建造」の艦船のレアリティ別出現率は通常建造同様、下記となります：
-<color=#FF5C5C>小型艦建造</color> <color=#ffde38>SSR</color>..7% <color=#d797ff>SR</color>..12% <color=#3dc6ff>R</color>..26% N..55% 
-<color=#FF5C5C>大型艦建造</color> <color=#ff5e39>UR</color>：1.2% <color=#ffde38>SSR</color>..7% <color=#d797ff>SR</color>..12% <color=#3dc6ff>R</color>..51% N..28.8% 
-<color=#FF5C5C>特型艦建造</color> <color=#ff5e39>UR</color>：1.2% <color=#ffde38>SSR</color>..7% <color=#d797ff>SR</color>..12% <color=#3dc6ff>R</color>..51% N..28.8%]]
+<color=#FF5C5C>小型艦建造</color> <color=#ffde38>SSR</color>..7%  <color=#d797ff>SR</color>..12% <color=#3dc6ff>R</color>..26%  N..55% 
+<color=#FF5C5C>大型艦建造</color> <color=#ff5e39>UR</color>：1.2% <color=#ffde38>SSR</color>..7%  <color=#d797ff>SR</color>..12%  <color=#3dc6ff>R</color>..51%  N..28.8% 
+<color=#FF5C5C>特型艦建造</color>  <color=#ff5e39>UR</color>：1.2% <color=#ffde38>SSR</color>..7%  <color=#d797ff>SR</color>..12%  <color=#3dc6ff>R</color>..51%  N..28.8%]]
 		},
 		{
 			info = "5.ベースとなる通常建造とピックアップ艦船を確定した後は「選べる特別建造」の内容の変更はできません"
@@ -49284,4 +49289,486 @@ _G.pg.base.gametip.AnniversaryNineCoreActivityUI_subtitle_6 = {
 
 _G.pg.base.gametip.Outpost_20260514_Detail = {
 	tip = "詳細確認"
+}
+
+
+_G.pg.base.gametip.mall_title = {
+	tip = "ゴールデン・ベイ"
+}
+
+
+_G.pg.base.gametip.mall_title_en = {
+	tip = "EVENT"
+}
+
+
+_G.pg.base.gametip.mall_point_name_type1 = {
+	tip = "スポット"
+}
+
+
+_G.pg.base.gametip.mall_point_name_type2 = {
+	tip = "休暇物語"
+}
+
+
+_G.pg.base.gametip.mall_point_name_type3 = {
+	tip = "特別物語"
+}
+
+
+_G.pg.base.gametip.mall_point_name_type4 = {
+	tip = "艦船物語"
+}
+
+
+_G.pg.base.gametip.mall_order_char_header = {
+	tip = "オーダー："
+}
+
+
+_G.pg.base.gametip.mall_order_need_attrs_header = {
+	tip = "必要店員能力："
+}
+
+
+_G.pg.base.gametip.mall_order_btn_staff = {
+	tip = "店員配置"
+}
+
+
+_G.pg.base.gametip.mall_right_title_upgrade = {
+	tip = "テナント概覧"
+}
+
+
+_G.pg.base.gametip.mall_round_header = {
+	tip = "ターン："
+}
+
+
+_G.pg.base.gametip.mall_level_header = {
+	tip = "テナントLV："
+}
+
+
+_G.pg.base.gametip.mall_input_header = {
+	tip = "満喫心地提出数："
+}
+
+
+_G.pg.base.gametip.mall_summary_btn = {
+	tip = "満喫心地累計入手"
+}
+
+
+_G.pg.base.gametip.mall_evaluate_title = {
+	tip = "営業終了  顧客評価"
+}
+
+
+_G.pg.base.gametip.mall_summary_title = {
+	tip = "売上状況"
+}
+
+
+_G.pg.base.gametip.mall_floor_income_header = {
+	tip = "$1F売上"
+}
+
+
+_G.pg.base.gametip.mall_total_income_header = {
+	tip = "全売上"
+}
+
+
+_G.pg.base.gametip.mall_balance_header = {
+	tip = "残り"
+}
+
+
+_G.pg.base.gametip.mall_open_title = {
+	tip = "営業中..."
+}
+
+
+_G.pg.base.gametip.mall_help = {
+	tip = {
+		{
+			info = [[
+<color=#92fc63>「豪華絢爛！ゴールデン・ベイ」</color>遊び方
+
+  <b>遊び方</b>：
+  1. イベント期間中、テナント施設の各階層の売り場に<color=#92fc63>「店員饅頭」</color>を配置し、各売り場の評価スコアを上げることができます。店員配置後、<color=#92fc63>「営業開始」</color>をタップするとテナント営業を開始でき、各艦船からの評価を受け取るとともにイベントPt<color=#92fc63>「満喫心地」</color>を入手できます。
+   2. また、イベント期間中、艦船たちの特別注文<color=#92fc63>「饅頭オーダー」</color>を店員饅頭に対応させることができます。注文が完成すると、その艦船の<color=#92fc63>特別ストーリー</color>と<color=#92fc63>新しい「店員饅頭」</color>を解放することができ、さらに<color=#92fc63>「満喫心地」</color>などの報酬を入手できます。
+   3. テナント経営画面右側の<color=#92fc63>「強化条件を確認」</color>ボタンをタップし、<color=#92fc63>「テナントLv」</color>が上昇するのに必要な諸条件を確認することができます。条件を満たすと、「テナントLv」が上昇し、店員を配置できる売り場と<color=#92fc63>「饅頭オーダー」</color>注文を解放でき、<color=#92fc63>「満喫心地」</color>の入手量を上げられます。
+
+  <b>報酬について</b>：
+  1. イベント期間中、画面右側の<color=#92fc63>「経営報酬確認」</color>ボタンをタップし、<color=#92fc63>「満喫心地」</color>を提出すると、様々な報酬を入手できます。
+  2. 对应<color=#92fc63>「満喫心地」</color>提出数報酬（累計獲得数報酬）はイベント期間中に順次開放されます。次の報酬がまだ開放されてない状態では、テナント経営に上限が存在します。5月24日（金）に<color=#92fc63>「夢見心地」</color>の全ての報酬が開放されます。
+
+<b>イベント旗艦</b>：
+2026.05.20~2026.06.11 メンテまで　経営報酬は2026.06.17 23:59まで入できます
+]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.mall_floor_lock = {
+	tip = "売り場未開放"
+}
+
+
+_G.pg.base.gametip.mall_rank_close = {
+	tip = "休業"
+}
+
+
+_G.pg.base.gametip.mall_rank_s = {
+	tip = "S"
+}
+
+
+_G.pg.base.gametip.mall_rank_a = {
+	tip = "A"
+}
+
+
+_G.pg.base.gametip.mall_rank_b = {
+	tip = "B"
+}
+
+
+_G.pg.base.gametip.mall_staff_in_floor = {
+	tip = "勤務中"
+}
+
+
+_G.pg.base.gametip.mall_staff_in_order = {
+	tip = "対応中"
+}
+
+
+_G.pg.base.gametip.mall_remove_floor_sure = {
+	tip = "テナントの売り場に配置中です。饅頭オーダーに対応させますか？"
+}
+
+
+_G.pg.base.gametip.mall_order_btn_doing = {
+	tip = "対応中"
+}
+
+
+_G.pg.base.gametip.mall_order_btn_complete = {
+	tip = "オーダー完成"
+}
+
+
+_G.pg.base.gametip.mall_input_btn = {
+	tip = "満喫心地提出"
+}
+
+
+_G.pg.base.gametip.mall_order_btn_start = {
+	tip = "対応開始"
+}
+
+
+_G.pg.base.gametip.mall_upgrade_title = {
+	tip = "テナントLVが上がりました！"
+}
+
+
+_G.pg.base.gametip.mall_right_title_summary = {
+	tip = "LVUP条件"
+}
+
+
+_G.pg.base.gametip.mall_change_floor_sure = {
+	tip = "店員は他の階に配置されています。選択中の階に配置しますか？"
+}
+
+
+_G.pg.base.gametip.mall_change_order_sure = {
+	tip = "饅頭オーダーに対応中のため、選択中の階に配置できません"
+}
+
+
+_G.pg.base.gametip.mall_award_can_get = {
+	tip = "受取可"
+}
+
+
+_G.pg.base.gametip.mall_award_get = {
+	tip = "受取済"
+}
+
+
+_G.pg.base.gametip.mall_order_wait_tip = {
+	tip = "次のオーダー:"
+}
+
+
+_G.pg.base.gametip.mall_order_unlock_lv_tip = {
+	tip = "テナントLVアップでオーダー\nを出現させましょう"
+}
+
+
+_G.pg.base.gametip.mall_order_need_staff_header = {
+	tip = "必要店員数量："
+}
+
+
+_G.pg.base.gametip.mall_get_all_btn = {
+	tip = "一括受取"
+}
+
+
+_G.pg.base.gametip.mall_award_got = {
+	tip = "受取済"
+}
+
+
+_G.pg.base.gametip.loading_picture_lack = {
+	tip = "スチルセットは無効です"
+}
+
+
+_G.pg.base.gametip.loading_title = {
+	tip = "現在スチル"
+}
+
+
+_G.pg.base.gametip.loading_start_set = {
+	tip = "スチルセット有効化"
+}
+
+
+_G.pg.base.gametip.loading_pic_chosen = {
+	tip = "選択済み"
+}
+
+
+_G.pg.base.gametip.loading_pic_tip = {
+	tip = "前の画面に戻りますか？（変更が保存されません）"
+}
+
+
+_G.pg.base.gametip.loading_pic_max = {
+	tip = "選択可能上限を越えています"
+}
+
+
+_G.pg.base.gametip.loading_pic_min = {
+	tip = "1枚以上選択してください"
+}
+
+
+_G.pg.base.gametip.loading_quit_tip = {
+	tip = "スチルセットが無効だと、ロード中にランダムのスチルが表示されます。戻りますか？"
+}
+
+
+_G.pg.base.gametip.loading_set_tip = {
+	tip = "ボタンタップでスチルをスチルセットに追加できます"
+}
+
+
+_G.pg.base.gametip.loading_chosen_blank = {
+	tip = "条件を満たした画像はありません"
+}
+
+
+_G.pg.base.gametip.sort_minigame_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/sortgame_help1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/sortgame_help2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/sortgame_help3"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.AnniversaryNineCoreActivity_subtitle_1 = {
+	tip = "ゴールデン・ベイ"
+}
+
+
+_G.pg.base.gametip.AnniversaryNineCoreActivity_subtitle_2 = {
+	tip = "荷造り大作戦"
+}
+
+
+_G.pg.base.gametip.mall_unlock_date_tip = {
+	tip = "$1月$2日に経営を再開できます（新しい報酬が開放されます）"
+}
+
+
+_G.pg.base.gametip.mall_finished_all_tip = {
+	tip = "全報酬入手済"
+}
+
+
+_G.pg.base.gametip.memory_filter_option_1 = {
+	tip = "デフォルト"
+}
+
+
+_G.pg.base.gametip.memory_filter_option_2 = {
+	tip = "進捗"
+}
+
+
+_G.pg.base.gametip.memory_filter_option_3 = {
+	tip = "全て"
+}
+
+
+_G.pg.base.gametip.memory_filter_option_4 = {
+	tip = "開放可"
+}
+
+
+_G.pg.base.gametip.memory_filter_option_5 = {
+	tip = "未開放"
+}
+
+
+_G.pg.base.gametip.memory_filter_option_6 = {
+	tip = "キャラ未入手"
+}
+
+
+_G.pg.base.gametip.memory_filter_title_1 = {
+	tip = "絞り込み"
+}
+
+
+_G.pg.base.gametip.memory_filter_title_2 = {
+	tip = "FILTER"
+}
+
+
+_G.pg.base.gametip.memory_goto = {
+	tip = "確認"
+}
+
+
+_G.pg.base.gametip.memory_unlock = {
+	tip = "タップで解放"
+}
+
+
+_G.pg.base.gametip.mall_char_lock = {
+	tip = "オーダー完了で開放"
+}
+
+
+_G.pg.base.gametip.mall_title_lock = {
+	tip = "テナントLVUPで\n開放"
+}
+
+
+_G.pg.base.gametip.mall_continue_to_unlock = {
+	tip = "テナントLVUPで開放"
+}
+
+
+_G.pg.base.gametip.GeZiURCoreActivityUI_subtitle_1 = {
+	tip = "聖印前の同盟"
+}
+
+
+_G.pg.base.gametip.GeZiURCoreActivityUI_subtitle_2 = {
+	tip = "深潜補給地"
+}
+
+
+_G.pg.base.gametip.GeZiURCoreActivityUI_subtitle_3 = {
+	tip = "UR交換"
+}
+
+
+_G.pg.base.gametip.AnniversaryNineCoreActivityUI_subtitle_1 = {
+	tip = "ログインボーナス"
+}
+
+
+_G.pg.base.gametip.AnniversaryNineCoreActivityUI_subtitle_2 = {
+	tip = "イベント"
+}
+
+
+_G.pg.base.gametip.AnniversaryNineCoreActivityUI_subtitle_3 = {
+	tip = "カムバック"
+}
+
+
+_G.pg.base.gametip.anniversary_nine_main_page = {
+	tip = "記念章"
+}
+
+
+_G.pg.base.gametip.refux_cg_title = {
+	tip = "指揮官応援"
+}
+
+
+_G.pg.base.gametip.mall_level_max = {
+	tip = "テナントのLvが最大です"
+}
+
+
+_G.pg.base.gametip.mall_staff_position_full_tip = {
+	tip = "店員配置数が最大のため、配置できません"
+}
+
+
+_G.pg.base.gametip.mall_gold_input_success_tip = {
+	tip = "提出しました！"
+}
+
+
+_G.pg.base.gametip.mall_floor_all_empty_tip = {
+	tip = "解放済みの売り場に店員を配してください"
+}
+
+
+_G.pg.base.gametip.mall_unlock_date_tip2 = {
+	tip = "$1月$2日に開放"
+}
+
+
+_G.pg.base.gametip.mall_order_finished_all_tip = {
+	tip = "全ての饅頭オーダーを対応しました"
 }

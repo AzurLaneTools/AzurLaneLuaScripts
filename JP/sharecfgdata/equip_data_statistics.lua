@@ -5067,6 +5067,46 @@ _G.pg.base.equip_data_statistics[492] = {
 }
 
 
+_G.pg.base.equip_data_statistics[493] = {
+	name = "P2突破后自带150mm副炮",
+	speciality = "<[LOCK]>",
+	type = 2,
+	tech = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	descrip = "默认装备",
+	damage = "21 x 4",
+	nationality = 4,
+	ammo = 1,
+	value_3 = 0,
+	id = 493,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		2
+	},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		180025
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		3
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"KMS",
+		"CL",
+		"MG",
+		"AP"
+	}
+}
+
+
 _G.pg.base.equip_data_statistics[500] = {
 	name = "ビーバーズエムブレム",
 	tech = 0,
@@ -180490,6 +180530,161 @@ _G.pg.base.equip_data_statistics[151151] = {
 }
 
 
+_G.pg.base.equip_data_statistics[151160] = {
+	name = "強化耐圧殻設計案",
+	tech = 3,
+	type = 10,
+	speciality = "<[NA]>",
+	attribute_3 = "raid_distance",
+	value_2 = 48,
+	icon = "800",
+	value_1 = "18",
+	attribute_2 = "durability",
+	id = 151160,
+	rarity = 5,
+	nationality = 4,
+	ammo = 10,
+	descrip = "再設計された耐圧殻によって船体強度が強化し、速力と最大航続距離が向上した",
+	value_3 = -8,
+	attribute_1 = "torpedo",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		{
+			6560,
+			1
+		}
+	},
+	hidden_skill_id = {},
+	part_main = {
+		8,
+		17
+	},
+	part_sub = {
+		8,
+		17
+	},
+	equip_parameters = {},
+	label = {
+		"KMS",
+		"DEV"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[151161] = {
+	id = 151161,
+	value_2 = 54,
+	value_1 = "20",
+	base = 151160
+}
+
+
+_G.pg.base.equip_data_statistics[151162] = {
+	id = 151162,
+	value_2 = 60,
+	value_1 = "23",
+	base = 151160
+}
+
+
+_G.pg.base.equip_data_statistics[151163] = {
+	id = 151163,
+	value_2 = 66,
+	value_1 = "25",
+	base = 151160
+}
+
+
+_G.pg.base.equip_data_statistics[151164] = {
+	id = 151164,
+	value_2 = 72,
+	value_1 = "27",
+	base = 151160
+}
+
+
+_G.pg.base.equip_data_statistics[151165] = {
+	id = 151165,
+	value_2 = 78,
+	value_1 = "30",
+	base = 151160
+}
+
+
+_G.pg.base.equip_data_statistics[151166] = {
+	id = 151166,
+	value_2 = 84,
+	value_1 = "32",
+	base = 151160
+}
+
+
+_G.pg.base.equip_data_statistics[151167] = {
+	id = 151167,
+	value_2 = 90,
+	value_1 = "35",
+	base = 151160
+}
+
+
+_G.pg.base.equip_data_statistics[151168] = {
+	id = 151168,
+	value_2 = 96,
+	value_1 = "37",
+	base = 151160
+}
+
+
+_G.pg.base.equip_data_statistics[151169] = {
+	id = 151169,
+	value_2 = 108,
+	value_1 = "40",
+	base = 151160
+}
+
+
+_G.pg.base.equip_data_statistics[151170] = {
+	id = 151170,
+	value_2 = 120,
+	value_1 = "42",
+	base = 151160
+}
+
+
+_G.pg.base.equip_data_statistics[151171] = {
+	id = 151171,
+	anti_siren = 100,
+	base = 151160,
+	value_2 = 125,
+	value_1 = "44"
+}
+
+
+_G.pg.base.equip_data_statistics[151172] = {
+	id = 151172,
+	anti_siren = 200,
+	base = 151160,
+	value_2 = 132,
+	value_1 = "46"
+}
+
+
+_G.pg.base.equip_data_statistics[151173] = {
+	id = 151173,
+	anti_siren = 300,
+	base = 151160,
+	value_2 = 142,
+	value_1 = "50"
+}
+
+
 _G.pg.base.equip_data_statistics[170001] = {
 	name = "专属弹幕-古比雪夫I",
 	tech = 1,
@@ -182360,6 +182555,46 @@ _G.pg.base.equip_data_statistics[180001] = {
 		"DD",
 		"MG",
 		"AP"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[180025] = {
+	name = "莫里茨突破后自带150mm副炮",
+	speciality = "<[LOCK]>",
+	type = 2,
+	tech = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	descrip = "默认装备",
+	damage = "21 x 4",
+	nationality = 4,
+	ammo = 1,
+	value_3 = 0,
+	id = 180025,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		2
+	},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		180025
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		3
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"KMS",
+		"CL",
+		"MG",
+		"HE"
 	}
 }
 

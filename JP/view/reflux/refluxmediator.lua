@@ -48,6 +48,7 @@ slot0.listNotificationInterests = function(slot0)
 		GAME.REFLUX_GET_PT_AWARD_DONE,
 		TaskProxy.TASK_UPDATED,
 		TaskProxy.TASK_REMOVED,
+		TaskProxy.TASK_DELETE,
 		GAME.SHOPPING_DONE,
 		GAME.CHARGE_CONFIRM_FAILED,
 		GAME.CHARGED_LIST_UPDATED,
@@ -76,7 +77,7 @@ slot0.handleNotification = function(slot0, slot1)
 		end
 
 		slot0.viewComponent:updateRedPotList()
-	elseif slot2 == TaskProxy.TASK_UPDATED or slot2 == TaskProxy.TASK_REMOVED then
+	elseif slot2 == TaskProxy.TASK_UPDATED or slot2 == TaskProxy.TASK_REMOVED or slot2 == TaskProxy.TASK_DELETE then
 		if slot0:isCanUpdateView(slot0.viewComponent.taskView) then
 			slot0.viewComponent.taskView:updateUI()
 		end

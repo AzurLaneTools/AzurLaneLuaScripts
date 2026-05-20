@@ -4435,7 +4435,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"磨坊",
+				"製粉所",
 				{
 					"IslandShopPage",
 					{
@@ -4479,7 +4479,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"磨坊",
+				"製粉所",
 				{
 					"IslandShopPage",
 					{
@@ -4523,7 +4523,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"磨坊",
+				"製粉所",
 				{
 					"IslandShopPage",
 					{
@@ -4569,7 +4569,7 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"磨坊",
+				"製粉所",
 				{
 					"IslandShopPage",
 					{
@@ -4613,7 +4613,7 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"磨坊",
+				"製粉所",
 				{}
 			}
 		}

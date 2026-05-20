@@ -345,6 +345,7 @@ slot0.execute = function(slot0, slot1)
 	slot0.facade:registerCommand(GAME.ACTIVITY_STORE_DATE, ActivityStoreDataCommand)
 	slot0.facade:registerCommand(GAME.ACTIVITY_LINER_OP, ActivityLinerOPCommand)
 	slot0.facade:registerCommand(GAME.ACTIVITY_TOWN_OP, ActivityTownOPCommand)
+	slot0.facade:registerCommand(GAME.ACTIVITY_MALL_OP, ActivityMallOPCommand)
 	slot0.facade:registerCommand(GAME.ACTIVITY_UNLOCKSTORY, ActivityUnlockStoryCommand)
 	slot0.facade:registerCommand(GAME.ACTIVITY_DREAMLAND_OP, ActivityDreamlandOPCommand)
 	slot0.facade:registerCommand(GAME.ACTIVITY_PERMANENT_START, ActivityPermanentStartCommand)
@@ -708,6 +709,7 @@ slot0.execute = function(slot0, slot1)
 	slot0.facade:registerCommand(GAME.ISLAND_CHEATER_END_SOLO_GAME, IslandEndSoloGameCommand)
 	slot0.facade:registerCommand(GAME.ISLAND_PLAYER_CHEATER_CANCEL_DELEGATE, IslandCheaterCancelDelegateCommand)
 	slot0.facade:registerCommand(GAME.ISLAND_CHEATER_RECONECTING, IslandCheaterReconectCommand)
+	slot0.facade:registerCommand(GAME.UPDATE_LOADING_PIC, UpdateLoadingPicCommand)
 end
 
 return slot0

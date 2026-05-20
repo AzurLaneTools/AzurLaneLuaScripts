@@ -37,7 +37,7 @@ pg.base.activity_const = {}
 		act_id = 10228
 	}
 	pg.base.activity_const.ACTIVITY_PRAY_POOL = {
-		act_id = 50113
+		act_id = 50618
 	}
 	pg.base.activity_const.DAY7_LOGIN_ACTIVITY_ID = {
 		act_id = 3
@@ -1199,5 +1199,8 @@ end)()
 	}
 	pg.base.activity_const.OUT_POST_OMEN_TASKS = {
 		act_id = 51005
+	}
+	pg.base.activity_const.MALL_MAIN_ACTIVITY_ID = {
+		act_id = 50619
 	}
 end)()

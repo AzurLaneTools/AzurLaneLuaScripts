@@ -769,12 +769,8 @@ slot0.FlushChangeSkin = function(slot0, slot1)
 	slot6 = false
 	slot7 = slot0.changeSkinToggle:IsAsmrSkin() and true or false
 
-	if pg.gameset.changeskin_switch_block and slot4.description and table.contains(slot4.description, slot2) then
-		slot9 = HXSet.isHx()
-
-		if slot1.buyCount <= 0 and slot9 then
-			slot6 = true
-		end
+	if pg.gameset.changeskin_switch_block and slot4.description and table.contains(slot4.description, slot2) and HXSet.isHx() then
+		slot6 = true
 	end
 
 	if slot3 and slot3 == 1 then
@@ -1301,7 +1297,7 @@ slot0.CheckShowShopHx = function(slot0, slot1, slot2)
 		return
 	end
 
-	if not IsNil(slot1) and slot2.buyCount <= 0 then
+	if not IsNil(slot1) then
 		setActive(slot1, true)
 	end
 end
@@ -1321,7 +1317,7 @@ slot0.CheckShowShopHxForL2d = function(slot0, slot1, slot2)
 		return
 	end
 
-	slot1:changeParamaterValue("shop_hx", slot2.buyCount <= 0 and 1 or 0)
+	slot1:changeParamaterValue("shop_hx", 1)
 end
 
 slot0.RevertShopHxForL2d = function(slot0, slot1)

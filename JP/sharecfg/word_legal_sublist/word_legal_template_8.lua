@@ -4,6 +4,46 @@ slot0.word_legal_template_8 = {}
 slot1 = slot0.word_legal_template_8
 
 temp = function()
+	uv0["ム"] = {
+		["ル"] = {
+			["マ"] = {
+				["ン"] = {
+					["ス"] = {
+						["ク"] = {
+							this = true
+						}
+					}
+				}
+			}
+		},
+		["ジ"] = {
+			["ナ"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["四"] = {
+		["万"] = {
+			["十"] = {
+				this = true
+			}
+		},
+		["糸"] = {
+			["乃"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["孟"] = {
 		["菲"] = {
 			["斯"] = {
@@ -197,6 +237,21 @@ temp = function()
 					["特"] = {
 						["拉"] = {
 							this = true
+						}
+					}
+				}
+			}
+		},
+		["莱"] = {
+			["蒙"] = {
+				["梭"] = {
+					["（"] = {
+						["前"] = {
+							["排"] = {
+								["）"] = {
+									this = true
+								}
+							}
 						}
 					}
 				}
@@ -526,32 +581,6 @@ temp = function()
 						}
 					}
 				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["拉"] = {
-		["菲"] = {
-			I = {
-				I = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["ナ"] = {
-		["ポ"] = {
-			["リ"] = {
-				this = true
 			}
 		}
 	}

@@ -45,7 +45,7 @@ slot0.OnInit = function(slot0)
 	slot0.memoryFilterIndex = {
 		true,
 		true,
-		true
+		false
 	}
 	slot0.groupToggle = slot0._tf:Find("ActivityToggle")
 	slot0.memoryActivityTogGroup = slot0._tf:Find("ActivityToggle/ActivityBar")
@@ -86,7 +86,6 @@ slot0.OnInit = function(slot0)
 
 	slot0.contextData.toggle = slot0.contextData.toggle or 1
 	slot2 = slot0.contextData.toggle
-	slot0.shipNameSearchFlag = true
 
 	triggerToggle(slot0.memoryToggles[slot2], true)
 	slot0:SwitchMemoryFilter(slot2)
@@ -97,14 +96,8 @@ slot0.OnInit = function(slot0)
 				return
 			end
 
-			if uv0 == 1 or uv0 == 4 then
-				uv1.shipNameSearchFlag = true
-			else
-				uv1.shipNameSearchFlag = false
-			end
-
-			uv1:SwitchMemoryFilter(uv0)
-			uv1:MemoryFilter()
+			uv0:SwitchMemoryFilter(uv1)
+			uv0:MemoryFilter()
 		end, SFX_UI_TAG)
 	end
 
@@ -231,7 +224,7 @@ slot0.SwitchMemoryFilter = function(slot0, slot1)
 		slot0.memoryFilterIndex = {
 			true,
 			true,
-			true
+			false
 		}
 	else
 		for slot5 in ipairs(slot0.memoryFilterIndex) do
@@ -406,22 +399,6 @@ slot0.GetMatchGroupList = function(slot0, slot1, slot2)
 	for slot7, slot8 in pairs(slot0.memoryGroups) do
 		if string.find(string.lower(slot8.title), slot1) then
 			table.insert(slot3, slot8)
-		end
-	end
-
-	if slot0.shipNameSearchFlag then
-		for slot7, slot8 in pairs(slot0.memoryGroups) do
-			if type(slot8.group_id) == "table" then
-				for slot12, slot13 in ipairs(slot8.group_id) do
-					for slot17, slot18 in ipairs(pg.ship_data_template.get_id_list_by_group_type[slot13]) do
-						if string.find(string.lower(pg.ship_data_statistics[slot18].name), slot1) then
-							table.insert(slot3, slot8)
-
-							break
-						end
-					end
-				end
-			end
 		end
 	end
 

@@ -2765,6 +2765,41 @@ pg.activity_shop_template.all = {
 	3966,
 	3967,
 	3968,
+	4001,
+	4002,
+	4003,
+	4004,
+	4005,
+	4006,
+	4007,
+	4008,
+	4009,
+	4010,
+	4011,
+	4012,
+	4013,
+	4014,
+	4015,
+	4016,
+	4017,
+	4018,
+	4019,
+	4020,
+	4021,
+	4022,
+	4023,
+	4024,
+	4025,
+	4026,
+	4027,
+	4028,
+	4029,
+	4030,
+	4031,
+	4032,
+	4033,
+	4034,
+	4035,
 	10001,
 	10002,
 	10003,
@@ -3208,7 +3243,11 @@ pg.activity_shop_template.get_id_list_by_commodity_type = {
 		3934,
 		3935,
 		3966,
-		3967
+		3967,
+		4003,
+		4004,
+		4033,
+		4034
 	},
 	{
 		103,
@@ -5322,6 +5361,29 @@ pg.activity_shop_template.get_id_list_by_commodity_type = {
 		3964,
 		3965,
 		3968,
+		4006,
+		4012,
+		4013,
+		4014,
+		4015,
+		4016,
+		4017,
+		4018,
+		4019,
+		4020,
+		4021,
+		4022,
+		4023,
+		4024,
+		4025,
+		4026,
+		4027,
+		4028,
+		4029,
+		4030,
+		4031,
+		4032,
+		4035,
 		10003,
 		10004,
 		10005,
@@ -5512,6 +5574,7 @@ pg.activity_shop_template.get_id_list_by_commodity_type = {
 		3857,
 		3858,
 		3888,
+		4007,
 		10001,
 		10002,
 		10015,
@@ -5729,6 +5792,9 @@ pg.activity_shop_template.get_id_list_by_commodity_type = {
 		3883,
 		3912,
 		3941,
+		4001,
+		4002,
+		4005,
 		10027,
 		10032,
 		10033,
@@ -5926,7 +5992,11 @@ pg.activity_shop_template.get_id_list_by_commodity_type = {
 		3541,
 		3542,
 		3942,
-		3943
+		3943,
+		4008,
+		4009,
+		4010,
+		4011
 	},
 	[14] = {
 		2104,
@@ -47691,6 +47761,542 @@ end)()
 		commodity_id_list_show = 0,
 		order = 0
 	}
+	pg.base.activity_shop_template[4001] = {
+		commodity_id_list = "",
+		resource_category = 1,
+		resource_num = 200,
+		num_limit = 1,
+		activity = 50611,
+		num = 1,
+		commodity_id = 408151,
+		limit_args = "",
+		commodity_type = 4,
+		resource_type = 702,
+		id = 4001,
+		commodity_id_list_show = 0,
+		order = 0
+	}
+	pg.base.activity_shop_template[4002] = {
+		commodity_id_list = "",
+		resource_category = 1,
+		resource_num = 300,
+		num_limit = 1,
+		activity = 50611,
+		num = 1,
+		commodity_id = 408151,
+		limit_args = "",
+		commodity_type = 4,
+		resource_type = 702,
+		id = 4002,
+		commodity_id_list_show = 0,
+		order = 0
+	}
+	pg.base.activity_shop_template[4003] = {
+		commodity_id_list = "",
+		resource_category = 1,
+		resource_num = 1,
+		num_limit = 350,
+		activity = 50611,
+		num = 100,
+		commodity_id = 1,
+		limit_args = "",
+		commodity_type = 1,
+		resource_type = 702,
+		id = 4003,
+		commodity_id_list_show = 0,
+		order = 0
+	}
+	pg.base.activity_shop_template[4004] = {
+		commodity_id_list = "",
+		resource_category = 1,
+		resource_num = 150,
+		num_limit = 500,
+		activity = 50611,
+		num = 1,
+		commodity_id = 702,
+		limit_args = "",
+		commodity_type = 1,
+		resource_type = 701,
+		id = 4004,
+		commodity_id_list_show = 0,
+		order = 0
+	}
+	pg.base.activity_shop_template[4005] = {
+		commodity_id_list = "",
+		resource_category = 1,
+		resource_num = 8000,
+		num_limit = 1,
+		activity = 50611,
+		num = 1,
+		commodity_id = 9706051,
+		limit_args = "",
+		commodity_type = 4,
+		resource_type = 701,
+		id = 4005,
+		commodity_id_list_show = 0,
+		order = 0
+	}
+	pg.base.activity_shop_template[4006] = {
+		commodity_id_list = "",
+		resource_category = 1,
+		resource_num = 2000,
+		num_limit = 4,
+		activity = 50611,
+		num = 1,
+		commodity_id = 21061,
+		commodity_type = 2,
+		resource_type = 701,
+		id = 4006,
+		commodity_id_list_show = 0,
+		order = 0,
+		limit_args = {
+			{
+				3,
+				970605,
+				1,
+				{
+					2,
+					21000,
+					10
+				}
+			}
+		}
+	}
+	pg.base.activity_shop_template[4007] = {
+		commodity_id_list = "",
+		resource_category = 1,
+		resource_num = 2000,
+		num_limit = 1,
+		activity = 50611,
+		num = 1,
+		commodity_id = 151160,
+		limit_args = "",
+		commodity_type = 3,
+		resource_type = 701,
+		id = 4007,
+		commodity_id_list_show = 0,
+		order = 0
+	}
+	pg.base.activity_shop_template[4008] = {
+		commodity_id_list = "",
+		resource_category = 1,
+		resource_num = 2000,
+		num_limit = 1,
+		activity = 50611,
+		num = 1,
+		commodity_id = 3079,
+		limit_args = "",
+		commodity_type = 9,
+		resource_type = 701,
+		id = 4008,
+		commodity_id_list_show = 0,
+		order = 0
+	}
+	pg.base.activity_shop_template[4009] = {
+		commodity_id_list = "",
+		resource_category = 1,
+		resource_num = 2000,
+		num_limit = 1,
+		activity = 50611,
+		num = 1,
+		commodity_id = 3080,
+		limit_args = "",
+		commodity_type = 9,
+		resource_type = 701,
+		id = 4009,
+		commodity_id_list_show = 0,
+		order = 0
+	}
+	pg.base.activity_shop_template[4010] = {
+		commodity_id_list = "",
+		resource_category = 1,
+		resource_num = 2000,
+		num_limit = 1,
+		activity = 50611,
+		num = 1,
+		commodity_id = 3081,
+		limit_args = "",
+		commodity_type = 9,
+		resource_type = 701,
+		id = 4010,
+		commodity_id_list_show = 0,
+		order = 0
+	}
+	pg.base.activity_shop_template[4011] = {
+		commodity_id_list = "",
+		resource_category = 1,
+		resource_num = 2000,
+		num_limit = 1,
+		activity = 50611,
+		num = 1,
+		commodity_id = 3082,
+		limit_args = "",
+		commodity_type = 9,
+		resource_type = 701,
+		id = 4011,
+		commodity_id_list_show = 0,
+		order = 0
+	}
+	pg.base.activity_shop_template[4012] = {
+		commodity_id_list = "",
+		resource_category = 1,
+		resource_num = 2000,
+		num_limit = 10,
+		activity = 50611,
+		num = 1,
+		commodity_id = 30384,
+		limit_args = "",
+		commodity_type = 2,
+		resource_type = 701,
+		id = 4012,
+		commodity_id_list_show = 0,
+		order = 0
+	}
+	pg.base.activity_shop_template[4013] = {
+		commodity_id_list = "",
+		resource_category = 1,
+		resource_num = 300,
+		num_limit = 10,
+		activity = 50611,
+		num = 100,
+		commodity_id = 15008,
+		limit_args = "",
+		commodity_type = 2,
+		resource_type = 701,
+		id = 4013,
+		commodity_id_list_show = 0,
+		order = 0
+	}
+	pg.base.activity_shop_template[4014] = {
+		commodity_id_list = "",
+		resource_category = 1,
+		resource_num = 1000,
+		num_limit = 5,
+		activity = 50611,
+		num = 10,
+		commodity_id = 15012,
+		limit_args = "",
+		commodity_type = 2,
+		resource_type = 701,
+		id = 4014,
+		commodity_id_list_show = 0,
+		order = 0
+	}
+	pg.base.activity_shop_template[4015] = {
+		commodity_id_list = "",
+		resource_category = 1,
+		resource_num = 500,
+		num_limit = 30,
+		activity = 50611,
+		num = 1,
+		commodity_id = 42070,
+		limit_args = "",
+		commodity_type = 2,
+		resource_type = 701,
+		id = 4015,
+		commodity_id_list_show = 0,
+		order = 0
+	}
+	pg.base.activity_shop_template[4016] = {
+		commodity_id_list = "",
+		resource_category = 1,
+		resource_num = 1000,
+		num_limit = 10,
+		activity = 50611,
+		num = 1,
+		commodity_id = 42076,
+		limit_args = "",
+		commodity_type = 2,
+		resource_type = 701,
+		id = 4016,
+		commodity_id_list_show = 0,
+		order = 0
+	}
+	pg.base.activity_shop_template[4017] = {
+		commodity_id_list = "",
+		resource_category = 1,
+		resource_num = 250,
+		num_limit = 10,
+		activity = 50611,
+		num = 1,
+		commodity_id = 20011,
+		limit_args = "",
+		commodity_type = 2,
+		resource_type = 701,
+		id = 4017,
+		commodity_id_list_show = 0,
+		order = 0
+	}
+	pg.base.activity_shop_template[4018] = {
+		commodity_id_list = "",
+		resource_category = 1,
+		resource_num = 500,
+		num_limit = 5,
+		activity = 50611,
+		num = 1,
+		commodity_id = 20012,
+		limit_args = "",
+		commodity_type = 2,
+		resource_type = 701,
+		id = 4018,
+		commodity_id_list_show = 0,
+		order = 0
+	}
+	pg.base.activity_shop_template[4019] = {
+		commodity_id_list = "",
+		resource_category = 1,
+		resource_num = 3000,
+		num_limit = 2,
+		activity = 50611,
+		num = 1,
+		commodity_id = 20013,
+		limit_args = "",
+		commodity_type = 2,
+		resource_type = 701,
+		id = 4019,
+		commodity_id_list_show = 0,
+		order = 0
+	}
+	pg.base.activity_shop_template[4020] = {
+		commodity_id_list = "",
+		resource_category = 1,
+		resource_num = 300,
+		num_limit = 5,
+		activity = 50611,
+		num = 1,
+		commodity_id = 15014,
+		limit_args = "",
+		commodity_type = 2,
+		resource_type = 701,
+		id = 4020,
+		commodity_id_list_show = 0,
+		order = 0
+	}
+	pg.base.activity_shop_template[4021] = {
+		commodity_id_list = "",
+		resource_category = 1,
+		resource_num = 90,
+		num_limit = 50,
+		activity = 50611,
+		num = 1,
+		commodity_id = 15016,
+		limit_args = "",
+		commodity_type = 2,
+		resource_type = 701,
+		id = 4021,
+		commodity_id_list_show = 0,
+		order = 0
+	}
+	pg.base.activity_shop_template[4022] = {
+		commodity_id_list = "",
+		resource_category = 1,
+		resource_num = 600,
+		num_limit = 10,
+		activity = 50611,
+		num = 1,
+		commodity_id = 15020,
+		limit_args = "",
+		commodity_type = 2,
+		resource_type = 701,
+		id = 4022,
+		commodity_id_list_show = 0,
+		order = 0
+	}
+	pg.base.activity_shop_template[4023] = {
+		commodity_id_list = "",
+		resource_category = 1,
+		resource_num = 2500,
+		num_limit = 2,
+		activity = 50611,
+		num = 1,
+		commodity_id = 15021,
+		limit_args = "",
+		commodity_type = 2,
+		resource_type = 701,
+		id = 4023,
+		commodity_id_list_show = 0,
+		order = 0
+	}
+	pg.base.activity_shop_template[4024] = {
+		commodity_id_list = "",
+		resource_category = 1,
+		resource_num = 300,
+		num_limit = 4,
+		activity = 50611,
+		num = 1,
+		commodity_id = 30014,
+		limit_args = "",
+		commodity_type = 2,
+		resource_type = 701,
+		id = 4024,
+		commodity_id_list_show = 0,
+		order = 0
+	}
+	pg.base.activity_shop_template[4025] = {
+		commodity_id_list = "",
+		resource_category = 1,
+		resource_num = 300,
+		num_limit = 4,
+		activity = 50611,
+		num = 1,
+		commodity_id = 30024,
+		limit_args = "",
+		commodity_type = 2,
+		resource_type = 701,
+		id = 4025,
+		commodity_id_list_show = 0,
+		order = 0
+	}
+	pg.base.activity_shop_template[4026] = {
+		commodity_id_list = "",
+		resource_category = 1,
+		resource_num = 300,
+		num_limit = 4,
+		activity = 50611,
+		num = 1,
+		commodity_id = 30034,
+		limit_args = "",
+		commodity_type = 2,
+		resource_type = 701,
+		id = 4026,
+		commodity_id_list_show = 0,
+		order = 0
+	}
+	pg.base.activity_shop_template[4027] = {
+		commodity_id_list = "",
+		resource_category = 1,
+		resource_num = 300,
+		num_limit = 4,
+		activity = 50611,
+		num = 1,
+		commodity_id = 30044,
+		limit_args = "",
+		commodity_type = 2,
+		resource_type = 701,
+		id = 4027,
+		commodity_id_list_show = 0,
+		order = 0
+	}
+	pg.base.activity_shop_template[4028] = {
+		commodity_id_list = "",
+		resource_category = 1,
+		resource_num = 30,
+		num_limit = 30,
+		activity = 50611,
+		num = 1,
+		commodity_id = 17003,
+		limit_args = "",
+		commodity_type = 2,
+		resource_type = 701,
+		id = 4028,
+		commodity_id_list_show = 0,
+		order = 0
+	}
+	pg.base.activity_shop_template[4029] = {
+		commodity_id_list = "",
+		resource_category = 1,
+		resource_num = 30,
+		num_limit = 30,
+		activity = 50611,
+		num = 1,
+		commodity_id = 17013,
+		limit_args = "",
+		commodity_type = 2,
+		resource_type = 701,
+		id = 4029,
+		commodity_id_list_show = 0,
+		order = 0
+	}
+	pg.base.activity_shop_template[4030] = {
+		commodity_id_list = "",
+		resource_category = 1,
+		resource_num = 30,
+		num_limit = 30,
+		activity = 50611,
+		num = 1,
+		commodity_id = 17023,
+		limit_args = "",
+		commodity_type = 2,
+		resource_type = 701,
+		id = 4030,
+		commodity_id_list_show = 0,
+		order = 0
+	}
+	pg.base.activity_shop_template[4031] = {
+		commodity_id_list = "",
+		resource_category = 1,
+		resource_num = 30,
+		num_limit = 30,
+		activity = 50611,
+		num = 1,
+		commodity_id = 17033,
+		limit_args = "",
+		commodity_type = 2,
+		resource_type = 701,
+		id = 4031,
+		commodity_id_list_show = 0,
+		order = 0
+	}
+	pg.base.activity_shop_template[4032] = {
+		commodity_id_list = "",
+		resource_category = 1,
+		resource_num = 30,
+		num_limit = 30,
+		activity = 50611,
+		num = 1,
+		commodity_id = 17043,
+		limit_args = "",
+		commodity_type = 2,
+		resource_type = 701,
+		id = 4032,
+		commodity_id_list_show = 0,
+		order = 0
+	}
+	pg.base.activity_shop_template[4033] = {
+		commodity_id_list = "",
+		resource_category = 1,
+		resource_num = 500,
+		num_limit = 5,
+		activity = 50611,
+		num = 2000,
+		commodity_id = 1,
+		limit_args = "",
+		commodity_type = 1,
+		resource_type = 701,
+		id = 4033,
+		commodity_id_list_show = 0,
+		order = 0
+	}
+	pg.base.activity_shop_template[4034] = {
+		commodity_id_list = "",
+		resource_category = 1,
+		resource_num = 450,
+		num_limit = 5,
+		activity = 50611,
+		num = 1000,
+		commodity_id = 2,
+		limit_args = "",
+		commodity_type = 1,
+		resource_type = 701,
+		id = 4034,
+		commodity_id_list_show = 0,
+		order = 0
+	}
+	pg.base.activity_shop_template[4035] = {
+		commodity_id_list = "",
+		resource_category = 1,
+		resource_num = 15,
+		num_limit = 100,
+		activity = 50611,
+		num = 1,
+		commodity_id = 50001,
+		limit_args = "",
+		commodity_type = 2,
+		resource_type = 701,
+		id = 4035,
+		commodity_id_list_show = 0,
+		order = 0
+	}
 	pg.base.activity_shop_template[10001] = {
 		commodity_id_list = "",
 		resource_category = 2,
@@ -47736,6 +48342,8 @@ end)()
 		commodity_id_list_show = 0,
 		order = 9
 	}
+end)()
+(function ()
 	pg.base.activity_shop_template[10004] = {
 		commodity_id_list = "",
 		resource_category = 2,
@@ -48261,8 +48869,6 @@ end)()
 		commodity_id_list_show = 0,
 		order = 4
 	}
-end)()
-(function ()
 	pg.base.activity_shop_template[10040] = {
 		commodity_id_list = "",
 		resource_category = 2,
@@ -49258,6 +49864,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_shop_template[10505] = {
 		commodity_id_list = "",
 		resource_category = 2,
@@ -49888,8 +50496,6 @@ end)()
 		commodity_id_list_show = 0,
 		order = 11
 	}
-end)()
-(function ()
 	pg.base.activity_shop_template[11015] = {
 		commodity_id_list = "",
 		resource_category = 1,
@@ -51614,6 +52220,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_shop_template[12045] = {
 		commodity_id_list = "",
 		resource_category = 2,

@@ -112,6 +112,8 @@ pg.pay_data_display.all = {
 	9013,
 	9014,
 	9015,
+	9016,
+	9017,
 	1000,
 	1001,
 	1002,
@@ -208,6 +210,9 @@ pg.pay_data_display.all = {
 	2075,
 	2076,
 	2078,
+	2079,
+	2080,
+	2081,
 	5001,
 	5002,
 	5003,
@@ -13402,6 +13407,274 @@ end)()
 			}
 		}
 	}
+	pg.base.pay_data_display[9016] = {
+		picture = "fudai35",
+		name = "夏の水着福袋2026A",
+		type = 1,
+		second_text = "大量な報酬",
+		descrip = "ランダムな夏水着2026A・ダイヤ×2026などを入手可能",
+		subject = "夏の水着福袋2026A",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 3800,
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.zuanshi215",
+		extra_gem = 0,
+		id = 9016,
+		airijp_id = "com.yostarjp.azurlane.diamond203",
+		name_display = "夏の水着福袋2026A",
+		first_text = "ランダム着せ替え",
+		akashi_pick = 1,
+		skin_inquire_relation = 86227,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86227,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					5,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81235,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86227,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			}
+		}
+	}
+	pg.base.pay_data_display[9017] = {
+		picture = "fudai24",
+		name = "夏の水着福袋2025A(復刻)",
+		type = 1,
+		second_text = "大量な報酬",
+		descrip = "ランダムな夏水着2025A・ダイヤ×2025などを入手可能",
+		subject = "夏の水着福袋2025A(復刻)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 3800,
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.zuanshi216",
+		extra_gem = 0,
+		id = 9017,
+		airijp_id = "com.yostarjp.azurlane.diamond204",
+		name_display = "夏の水着福袋2025A(復刻)",
+		first_text = "ランダム着せ替え",
+		akashi_pick = 1,
+		skin_inquire_relation = 86213,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86213,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					5,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81213,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86213,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
+		}
+	}
 	pg.base.pay_data_display[1000] = {
 		picture = "battlepass_1",
 		name = "クルーズパス",
@@ -15887,10 +16160,10 @@ end)()
 		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
-		id_str = "com.bilibili.blhx.keyan",
+		id_str = "",
 		extra_gem = 0,
 		id = 2001,
-		airijp_id = "com.yostarjp.azurlane.tech",
+		airijp_id = "",
 		name_display = "PR特別計画艦パック・Ⅰ期",
 		first_text = "特別計画艦",
 		akashi_pick = 1,
@@ -16154,10 +16427,10 @@ end)()
 		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
-		id_str = "com.bilibili.blhx.keyan",
+		id_str = "",
 		extra_gem = 0,
 		id = 2005,
-		airijp_id = "com.yostarjp.azurlane.tech",
+		airijp_id = "",
 		name_display = "PR特別計画艦パック・Ⅱ期",
 		first_text = "特別計画艦",
 		akashi_pick = 1,
@@ -16869,10 +17142,10 @@ end)()
 		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
-		id_str = "com.bilibili.blhx.keyan",
+		id_str = "",
 		extra_gem = 0,
 		id = 2015,
-		airijp_id = "com.yostarjp.azurlane.tech",
+		airijp_id = "",
 		name_display = "PR特別計画艦パック・Ⅲ期",
 		first_text = "特別計画艦",
 		akashi_pick = 1,
@@ -17915,10 +18188,10 @@ end)()
 		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
-		id_str = "com.bilibili.blhx.keyan",
+		id_str = "",
 		extra_gem = 0,
 		id = 2027,
-		airijp_id = "com.yostarjp.azurlane.tech",
+		airijp_id = "",
 		name_display = "PR特別計画艦パック·Ⅳ期",
 		first_text = "特別計画艦",
 		akashi_pick = 1,
@@ -18291,10 +18564,10 @@ end)()
 		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
-		id_str = "com.bilibili.blhx.ui",
+		id_str = "",
 		extra_gem = 0,
 		id = 2032,
-		airijp_id = "com.yostarjp.azurlane.ui",
+		airijp_id = "",
 		name_display = "戦闘UI・レインボー",
 		first_text = "",
 		akashi_pick = 1,
@@ -18770,10 +19043,10 @@ end)()
 		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
-		id_str = "com.bilibili.blhx.ui3",
+		id_str = "",
 		extra_gem = 0,
 		id = 2037,
-		airijp_id = "com.yostarjp.azurlane.ui3",
+		airijp_id = "",
 		name_display = "戦闘UI・クリスマス",
 		first_text = "",
 		akashi_pick = 1,
@@ -19249,10 +19522,10 @@ end)()
 		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
-		id_str = "com.bilibili.blhx.ui6",
+		id_str = "",
 		extra_gem = 0,
 		id = 2042,
-		airijp_id = "com.yostarjp.azurlane.ui6",
+		airijp_id = "",
 		name_display = "戦闘UI・ファラオ",
 		first_text = "",
 		akashi_pick = 1,
@@ -19502,10 +19775,10 @@ end)()
 		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
-		id_str = "com.bilibili.blhx.ui9",
+		id_str = "",
 		extra_gem = 0,
 		id = 2045,
-		airijp_id = "com.yostarjp.azurlane.ui9",
+		airijp_id = "",
 		name_display = "戦闘UI・ジーン",
 		first_text = "",
 		akashi_pick = 1,
@@ -19981,10 +20254,10 @@ end)()
 		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
-		id_str = "com.bilibili.blhx.ui12",
+		id_str = "",
 		extra_gem = 0,
 		id = 2050,
-		airijp_id = "com.yostarjp.azurlane.ui12",
+		airijp_id = "",
 		name_display = "戦闘UI・シーサイド",
 		first_text = "",
 		akashi_pick = 1,
@@ -20243,10 +20516,10 @@ end)()
 		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
-		id_str = "com.bilibili.blhx.keyan",
+		id_str = "",
 		extra_gem = 0,
 		id = 2053,
-		airijp_id = "com.yostarjp.azurlane.tech",
+		airijp_id = "",
 		name_display = "PR特別計画艦パック·Ⅴ期",
 		first_text = "特別計画艦",
 		akashi_pick = 1,
@@ -20511,10 +20784,10 @@ end)()
 		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
-		id_str = "com.bilibili.blhx.ui15",
+		id_str = "",
 		extra_gem = 0,
 		id = 2057,
-		airijp_id = "com.yostarjp.azurlane.ui15",
+		airijp_id = "",
 		name_display = "戦闘UI・シノビ",
 		first_text = "",
 		akashi_pick = 1,
@@ -21000,10 +21273,10 @@ end)()
 		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
-		id_str = "com.bilibili.blhx.ui18",
+		id_str = "",
 		extra_gem = 0,
 		id = 2068,
-		airijp_id = "com.yostarjp.azurlane.ui18",
+		airijp_id = "",
 		name_display = "戦闘UI・メイドカフェ",
 		first_text = "",
 		akashi_pick = 1,
@@ -21149,6 +21422,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.pay_data_display[2070] = {
 		picture = "ui7",
 		name = "戦闘UI・メイドカフェ（セット）",
@@ -21360,8 +21635,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.pay_data_display[2074] = {
 		picture = "ui8",
 		name = "戦闘UI・春色旅籠",
@@ -21383,10 +21656,10 @@ end)()
 		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
-		id_str = "com.bilibili.blhx.ui21",
+		id_str = "",
 		extra_gem = 0,
 		id = 2074,
-		airijp_id = "com.yostarjp.azurlane.ui21",
+		airijp_id = "",
 		name_display = "戦闘UI・春色旅籠",
 		first_text = "",
 		akashi_pick = 1,
@@ -21739,6 +22012,269 @@ end)()
 			{
 				2,
 				40023,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[2079] = {
+		picture = "ui9",
+		name = "戦闘UI・ゴールデンベイ",
+		type = 0,
+		second_text = "",
+		descrip = "戦闘UI・ゴールデンベイ",
+		subject = "戦闘UI・ゴールデンベイ",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 1600,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		limit_group = 109,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 0,
+		tip = "",
+		tip_open = 0,
+		id_str = "",
+		extra_gem = 0,
+		id = 2079,
+		airijp_id = "",
+		name_display = "戦闘UI・ゴールデンベイ",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				208,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					5,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				208,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	}
+	pg.base.pay_data_display[2080] = {
+		picture = "ui9",
+		name = "戦闘UI・ゴールデンベイ（単品）",
+		type = 0,
+		second_text = "",
+		descrip = "戦闘UI・ゴールデンベイ、資金×1000を入手可能",
+		subject = "戦闘UI・ゴールデンベイ（単品）",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 1600,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		limit_group = 109,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.ui25",
+		extra_gem = 0,
+		id = 2080,
+		airijp_id = "com.yostarjp.azurlane.ui25",
+		name_display = "戦闘UI・ゴールデンベイ（単品）",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				208,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					5,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				208,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40080,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[2081] = {
+		picture = "ui9",
+		name = "戦闘UI・ゴールデンベイ（セット）",
+		type = 0,
+		second_text = "",
+		descrip = "戦闘UI・ゴールデンベイ、ダイヤ×3060を入手可能",
+		subject = "戦闘UI・ゴールデンベイ（セット）",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 4700,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		limit_group = 109,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.ui26",
+		extra_gem = 0,
+		id = 2081,
+		airijp_id = "com.yostarjp.azurlane.ui26",
+		name_display = "戦闘UI・ゴールデンベイ（セット）",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				208,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					5,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				208,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40081,
 				1
 			}
 		}

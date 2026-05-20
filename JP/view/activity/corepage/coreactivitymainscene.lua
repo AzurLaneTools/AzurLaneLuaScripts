@@ -230,6 +230,19 @@ slot0.GetActiveActivity = function(slot0)
 	end
 end
 
+slot0.GetActivityIdByPageClass = function(slot0, slot1)
+	slot2 = ipairs
+	slot3 = slot0.activities or {}
+
+	for slot5, slot6 in slot2(slot3) do
+		if slot6:getConfig("page_info") and slot7.class_name == slot1 then
+			return slot6.id
+		end
+	end
+
+	return nil
+end
+
 slot0.onBackPressed = function(slot0)
 	if slot0.pageDic[slot0.activity.id]:IsShowingPopWindow() then
 		slot1:ClosePopWindow()

@@ -88,6 +88,7 @@ slot0.listNotificationInterests = function(slot0)
 		TaskProxy.TASK_ADDED,
 		TaskProxy.TASK_UPDATED,
 		TaskProxy.TASK_REMOVED,
+		TaskProxy.TASK_DELETE,
 		ActivityProxy.ACTIVITY_UPDATED
 	}
 end
@@ -163,7 +164,7 @@ slot0.handleNotification = function(slot0, slot1)
 				slot0:DisplayAwards()
 			end
 		end
-	elseif slot2 == TaskProxy.TASK_ADDED or slot2 == TaskProxy.TASK_UPDATED or slot2 == TaskProxy.TASK_REMOVED then
+	elseif slot2 == TaskProxy.TASK_ADDED or slot2 == TaskProxy.TASK_UPDATED or slot2 == TaskProxy.TASK_REMOVED or slot2 == TaskProxy.TASK_DELETE then
 		slot0.viewComponent:emit(FeastScene.ON_TASK_UPDATE)
 	elseif slot2 == ActivityProxy.ACTIVITY_UPDATED then
 		if slot3.id == ActivityConst.FEAST_PT_ACT then
