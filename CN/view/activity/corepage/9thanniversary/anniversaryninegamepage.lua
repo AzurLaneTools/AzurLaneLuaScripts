@@ -107,7 +107,7 @@ slot0.initRankUI = function(slot0)
 	onButton(slot0._event, slot0._rankBtnClose, function ()
 		uv0:PopRankUI(false)
 	end, SFX_CANCEL)
-	setText(slot0._rankDesc, i18n("word_billboard"))
+	setText(slot0._rankDesc, i18n("pipe_minigame_rank"))
 	setText(findTF(slot0.rankUI, "ad/bg/bg_high/text"), i18n("series_enemy_reward_tip4"))
 end
 

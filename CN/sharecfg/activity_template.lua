@@ -44434,7 +44434,7 @@ end)()
 		type = 140,
 		login_pop = 0,
 		config_id = 50604,
-		is_show = 1,
+		is_show = 0,
 		title_res_tag = "",
 		id = 50602,
 		page_core = "",

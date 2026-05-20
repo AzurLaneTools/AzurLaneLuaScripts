@@ -471,15 +471,16 @@ slot0.updatePicImg = function(slot0, slot1)
 
 	setImageSprite(slot0.picImg, LoadSprite(GalleryConst.PIC_PATH_PREFIX .. slot6, slot6))
 	setText(slot0.picName, slot3.name)
+	slot0:updateLoadingBtn(slot4)
 
 	slot0.picLikeToggleTag = true
 
 	triggerToggle(slot0.picLikeToggle, slot0.appreciateProxy:isLikedByPicID(slot4))
-	slot0:updateLoadingBtn(slot4)
 end
 
 slot0.switchPicImg = function(slot0, slot1)
 	slot3 = slot0:getPicConfigForShowByIndex(slot1 or slot0.curMiddleDataIndex)
+	slot4 = slot3.id
 	slot5 = slot3.name
 	slot6 = slot3.illustration
 
@@ -487,7 +488,8 @@ slot0.switchPicImg = function(slot0, slot1)
 
 	slot0.picLikeToggleTag = true
 
-	triggerToggle(slot0.picLikeToggle, slot0.appreciateProxy:isLikedByPicID(slot3.id))
+	triggerToggle(slot0.picLikeToggle, slot0.appreciateProxy:isLikedByPicID(slot4))
+	slot0:updateLoadingBtn(slot4)
 	LeanTween.value(go(slot0.picImg), 1, 0, 0.5):setOnUpdate(System.Action_float(function (slot0)
 		setImageAlpha(uv0.picImg, slot0)
 	end)):setOnComplete(System.Action(function ()

@@ -5551,7 +5551,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 637,
-		resource_num = 980,
+		resource_num = 1030,
 		drop_id = 998331,
 		target_id = 403171
 	}
@@ -5560,7 +5560,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 638,
-		resource_num = 880,
+		resource_num = 930,
 		drop_id = 998331,
 		target_id = 401151
 	}
