@@ -26,20 +26,16 @@ slot0.ShaderMgr.Init = function(slot0, slot1)
 		if not EDITOR_TOOL then
 			seriesAsync({
 				function (slot0)
-					originalPrint("步骤1，卸载未使用的AssetBundle")
 					ResourceMgr.Inst:unloadUnusedAssetBundles()
 					onDelayTick(slot0, 0.0001)
 				end,
 				function (slot0)
-					originalPrint("步骤2，加载custom_builtin AssetBundle")
 					ResourceMgr.Inst:loadAssetBundleAsync("custom_builtin", function (slot0)
 						slot0:Unload(false)
 						onDelayTick(uv0, 0.0001)
 					end)
 				end,
 				function (slot0)
-					originalPrint("步骤3，加载custom_builtin Shader")
-
 					uv0.cacheCustomBuiltin = UnityEngine.AssetBundle.LoadFromFile(PathMgr.getAssetBundle("custom_builtin"))
 
 					slot0()
@@ -50,7 +46,6 @@ slot0.ShaderMgr.Init = function(slot0, slot1)
 		end
 	end)(function ()
 		parallelAsync(uv0, function ()
-			originalPrint("所有shader加载完成")
 			uv0()
 		end)
 	end)

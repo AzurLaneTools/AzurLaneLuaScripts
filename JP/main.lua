@@ -403,22 +403,4 @@ seriesAsync({
 		originalPrint("主频:" .. SystemInfo.processorFrequency)
 		originalPrint("+++++++++++")
 	end)
-
-	slot2 = pg.UIMgr.GetInstance()
-
-	slot2:AddDebugButton("delete test", function ()
-		print("步骤4，删除custom_builtin AssetBundle")
-
-		if #{
-			"custom_builtin"
-		} > 0 then
-			slot2 = System.Array.CreateInstance(typeof(System.String), slot1)
-
-			for slot6 = 0, slot1 - 1 do
-				slot2[slot6] = slot0[slot6 + 1]
-			end
-
-			HotfixHelper.DeleteFileByShortPathArr("DEFAULT_RES", slot2)
-		end
-	end)
 end)
