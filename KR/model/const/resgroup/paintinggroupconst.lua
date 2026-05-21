@@ -18,19 +18,7 @@ return {
 		return slot2, HashUtil.BytesToString(slot2)
 	end,
 	IsPaintingNeedCheck = function ()
-		if Application.isEditor then
-			return false
-		end
-
-		if GroupHelper.IsGroupVerLastest(uv0.PaintingGroupName) then
-			return false
-		end
-
-		if not GroupHelper.IsGroupWaitToUpdate(uv0.PaintingGroupName) then
-			return false
-		end
-
-		return true
+		return DownloadConst.IsNeedCheck()
 	end,
 	FiltePaintingRes = function (slot0)
 		slot1 = {}

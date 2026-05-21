@@ -14801,7 +14801,7 @@ pg.base.ship_strengthen_meta = {}
 				5801
 			},
 			{
-				58,
+				25,
 				5802
 			},
 			{

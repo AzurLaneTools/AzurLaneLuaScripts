@@ -28,6 +28,7 @@ pg.island_furniture_template.all = {
 	23,
 	100,
 	101,
+	102,
 	10101,
 	10201,
 	10301,
@@ -121,7 +122,41 @@ pg.island_furniture_template.all = {
 	30416,
 	30801,
 	30802,
-	30803
+	30803,
+	40002,
+	40004,
+	40005,
+	40006,
+	40007,
+	40101,
+	40201,
+	40301,
+	40302,
+	40303,
+	40304,
+	40401,
+	40402,
+	40403,
+	40404,
+	40405,
+	40406,
+	40407,
+	40408,
+	40409,
+	40410,
+	40411,
+	40412,
+	40413,
+	40414,
+	40415,
+	40416,
+	40417,
+	40418,
+	40419,
+	40420,
+	40801,
+	40802,
+	40803
 }
 pg.base = pg.base or {}
 pg.base.island_furniture_template = {}
@@ -656,6 +691,27 @@ pg.base.island_furniture_template = {}
 				{}
 			}
 		}
+	}
+	pg.base.island_furniture_template[102] = {
+		setNum = 1,
+		describe = "금색과 흰색, 해바라기와 자스민으로 장식한 트로피. 여름의 반짝임을 한껏 담아냈다.",
+		name = "여름 아일랜드 개발 트로피",
+		type = 7,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_102",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50283/prefab/pre_item_05_50283",
+		bt = "",
+		id = 102,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {}
 	}
 	pg.base.island_furniture_template[10101] = {
 		setNum = 1,
@@ -2309,6 +2365,8 @@ pg.base.island_furniture_template = {}
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.island_furniture_template[30305] = {
 		setNum = 999,
 		describe = "달콤한 디저트 향에 둘러싸여 평온한 오후의 티타임을 즐길 수 있다.",
@@ -2335,8 +2393,6 @@ pg.base.island_furniture_template = {}
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.island_furniture_template[30401] = {
 		setNum = 999,
 		describe = "햇살 아래서 해바라기와 함께 바람에 몸을 맡기며 흔들려 보자.",
@@ -2836,5 +2892,857 @@ end)()
 				{}
 			}
 		}
+	}
+	pg.base.island_furniture_template[40002] = {
+		setNum = 999,
+		describe = "대나무로 만든 긴 의자. 앉으면 시원한 느낌이 들어, 여름밤 더위를 식히기에 좋다.",
+		name = "대나무 긴 의자",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40002",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50226/prefab/pre_item_05_50226",
+		bt = "",
+		id = 40002,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {}
+	}
+	pg.base.island_furniture_template[40004] = {
+		setNum = 999,
+		describe = "소박한 나무 문. 활기와 고요를 가르는 경계선.",
+		name = "나무 정문",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40004",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50214/prefab/pre_item_05_50214",
+		bt = "",
+		id = 40004,
+		tech_id = 0,
+		size = {
+			6,
+			1
+		},
+		jump_page = {}
+	}
+	pg.base.island_furniture_template[40005] = {
+		setNum = 999,
+		describe = "들여다보면 먼 옛날의 물소리가 들려올 것만 같다.",
+		name = "돌 우물",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40005",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50221/prefab/pre_item_05_50221",
+		bt = "",
+		id = 40005,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {}
+	}
+	pg.base.island_furniture_template[40006] = {
+		setNum = 999,
+		describe = "자연석을 쌓아 만든 낮은 돌담. 공간을 구분하면서도 개방감은 그대로 살려 준다.",
+		name = "낮은 돌담",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40006",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50223/prefab/pre_item_05_50223",
+		bt = "",
+		id = 40006,
+		tech_id = 0,
+		size = {
+			2,
+			1
+		},
+		jump_page = {}
+	}
+	pg.base.island_furniture_template[40007] = {
+		setNum = 999,
+		describe = "가느다란 나무로 만든 울타리. 소박하고 자연스러운 멋이 있다.",
+		name = "우드 펜스",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40007",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50224/prefab/pre_item_05_50224",
+		bt = "",
+		id = 40007,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {}
+	}
+	pg.base.island_furniture_template[40101] = {
+		setNum = 1,
+		describe = "공원 중앙에 우뚝 솟은 동화 속 성. 모든 신비로운 여행의 종착점.",
+		name = "메르헨 캐슬",
+		type = 1,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_40101",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50150/prefab/pre_item_05_50150",
+		bt = "",
+		id = 40101,
+		tech_id = 0,
+		size = {
+			22,
+			22
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40201] = {
+		setNum = 1,
+		describe = "구름 위에서 떨어지는 짜릿함. 무중력이 주는 스릴을 만끽하자.",
+		name = "클라우드 타워",
+		type = 2,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_40201",
+		prosperity = 0,
+		capacityCost = 0,
+		model = "island/item/05/50153/prefab/pre_item_05_50153",
+		bt = "",
+		id = 40201,
+		tech_id = 0,
+		size = {
+			20,
+			20
+		},
+		interact_point = {
+			20
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40301] = {
+		setNum = 999,
+		describe = "동화 같은 알록달록한 아치. 그 너머에는 동화의 세계가 펼쳐진다.",
+		name = "무지개 아치",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40301",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50166/prefab/pre_item_05_50166",
+		bt = "",
+		id = 40301,
+		tech_id = 0,
+		size = {
+			12,
+			2
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40302] = {
+		setNum = 999,
+		describe = "어서 오세요, 꿈의 유원지에! 걱정거리는 모두 밖에 두고 오세요.",
+		name = "유원지 정문",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40302",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50151/prefab/pre_item_05_50151",
+		bt = "",
+		id = 40302,
+		tech_id = 0,
+		size = {
+			5,
+			2
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40303] = {
+		setNum = 999,
+		describe = "곳곳에서 볼 수 있는 하얀 벤치. 섬세한 무늬가 새겨져 있고, 부담 없이 쉬어 갈 수 있다.",
+		name = "휴식용 벤치",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40303",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50171/prefab/pre_item_05_50171",
+		bt = "",
+		id = 40303,
+		tech_id = 0,
+		size = {
+			2,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40304] = {
+		setNum = 999,
+		describe = "초승달 모양 의자. 누워서 별을 보기에도, 앉아 멍하니 쉬기에도 안성맞춤이다.",
+		name = "초승달 쉼터",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40304",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50164/prefab/pre_item_05_50164",
+		bt = "",
+		id = 40304,
+		tech_id = 0,
+		size = {
+			3,
+			2
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40401] = {
+		setNum = 999,
+		describe = "형형색색의 목마가 음악에 맞춰 오르내리며 회전한다. 유원지에서 쌓을 수 있는 대표적인 추억거리다.",
+		name = "회전목마",
+		type = 4,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_40401",
+		prosperity = 0,
+		capacityCost = 60,
+		model = "island/item/05/50159/prefab/pre_item_05_50159",
+		bt = "",
+		id = 40401,
+		tech_id = 0,
+		size = {
+			7,
+			5
+		},
+		interact_point = {
+			21
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40402] = {
+		setNum = 999,
+		describe = "알록달록한 커피잔을 타고 빙글빙글 돌아 보자. 어지러움 또한 즐거움의 일부다.",
+		name = "회전컵",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40402",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50160/prefab/pre_item_05_50160",
+		bt = "",
+		id = 40402,
+		tech_id = 0,
+		size = {
+			5,
+			5
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40403] = {
+		setNum = 999,
+		describe = "시원한 파도를 타고 마음껏 미끄러지자! 물보라가 주는 짜릿함을 만끽하자.",
+		name = "파도 슬라이더",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40403",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50154/prefab/pre_item_05_50154",
+		bt = "",
+		id = 40403,
+		tech_id = 0,
+		size = {
+			7,
+			11
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40404] = {
+		setNum = 999,
+		describe = "거대한 커피잔이 구름 위로 떠오르며, 사람들의 웃음소리를 하늘에 널리 퍼뜨린다.",
+		name = "관람컵",
+		type = 4,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_40404",
+		prosperity = 0,
+		capacityCost = 60,
+		model = "island/item/05/50152/prefab/pre_item_05_50152",
+		bt = "",
+		id = 40404,
+		tech_id = 0,
+		size = {
+			6,
+			3
+		},
+		interact_point = {
+			22
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40405] = {
+		setNum = 999,
+		describe = "물 위를 둥실둥실 떠다니는 하얀 오리 모양 보트. 동심으로 돌아가게 해준다.",
+		name = "오리배",
+		type = 4,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_40405",
+		prosperity = 0,
+		capacityCost = 50,
+		model = "island/item/05/50170/prefab/pre_item_05_50170",
+		bt = "",
+		id = 40405,
+		tech_id = 0,
+		size = {
+			3,
+			3
+		},
+		interact_point = {
+			23
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40406] = {
+		setNum = 999,
+		describe = "하늘에서 떨어진 별 같은 장식물.",
+		name = "별 오브제",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40406",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50165/prefab/pre_item_05_50165",
+		bt = "",
+		id = 40406,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40407] = {
+		setNum = 999,
+		describe = "동그란 방울 안에 귀여운 인형들이 새근새근 잠들어 있다.",
+		name = "인형 버블",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40407",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50175/prefab/pre_item_05_50175",
+		bt = "",
+		id = 40407,
+		tech_id = 0,
+		size = {
+			3,
+			3
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40408] = {
+		setNum = 999,
+		describe = "조랑말의 날개를 만지면 소원이 이루어진다고 한다.",
+		name = "포니 오브제",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40408",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50177/prefab/pre_item_05_50177",
+		bt = "",
+		id = 40408,
+		tech_id = 0,
+		size = {
+			3,
+			2
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40409] = {
+		setNum = 999,
+		describe = "어서 타! 구름 위를 가르는 정기 노선이 곧 출발한대!",
+		name = "포니 벌룬",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40409",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50174/prefab/pre_item_05_50174",
+		bt = "",
+		id = 40409,
+		tech_id = 0,
+		size = {
+			5,
+			2
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40410] = {
+		setNum = 999,
+		describe = "형형색색의 가로등이 밤길에 꿈같은 색채를 더해 준다.",
+		name = "별 가로등",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40410",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50162/prefab/pre_item_05_50162",
+		bt = "",
+		id = 40410,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40411] = {
+		setNum = 999,
+		describe = "성은 오른쪽, 보트는 왼쪽. 안내판대로 따라가면 길을 잃을 걱정이 없다.",
+		name = "유원지 표지판",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40411",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50167/prefab/pre_item_05_50167",
+		bt = "",
+		id = 40411,
+		tech_id = 0,
+		size = {
+			2,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40412] = {
+		setNum = 999,
+		describe = "사진 촬영 스폿. 포즈를 취하며 환한 미소를 사진에 남기자.",
+		name = "찰칵 코너",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40412",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50161/prefab/pre_item_05_50161",
+		bt = "",
+		id = 40412,
+		tech_id = 0,
+		size = {
+			4,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40413] = {
+		setNum = 999,
+		describe = "위로~ 아래로~ 올라갔다~ 내려갔다~",
+		name = "시소",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40413",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50163/prefab/pre_item_05_50163",
+		bt = "",
+		id = 40413,
+		tech_id = 0,
+		size = {
+			4,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40414] = {
+		setNum = 999,
+		describe = "분홍 장미가 하얀 울타리를 감싸고 있으며, 가까이 가면 달콤한 향기가 난다.",
+		name = "로즈 펜스",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40414",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50172/prefab/pre_item_05_50172",
+		bt = "",
+		id = 40414,
+		tech_id = 0,
+		size = {
+			2,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40415] = {
+		setNum = 999,
+		describe = "형형색색 풍선이 울타리에 묶여, 방문객을 환영하는 듯하다.",
+		name = "벌룬 펜스",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40415",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50169/prefab/pre_item_05_50169",
+		bt = "",
+		id = 40415,
+		tech_id = 0,
+		size = {
+			2,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40416] = {
+		setNum = 999,
+		describe = "분홍빛 잎을 가진 단풍나무. 유원지에 꿈같은 색채를 더해 준다.",
+		name = "유원지의 단풍",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40416",
+		prosperity = 0,
+		capacityCost = 150,
+		interact_point = "",
+		model = "island/item/05/50178/prefab/pre_item_05_50178",
+		bt = "",
+		id = 40416,
+		tech_id = 0,
+		size = {
+			3,
+			3
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40417] = {
+		setNum = 999,
+		describe = "사탕과 별 장식이 달린 분홍빛 나무. 유원지에서 가장 달콤한 풍경.",
+		name = "별빛 과자 나무",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40417",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50155/prefab/pre_item_05_50155",
+		bt = "",
+		id = 40417,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40418] = {
+		setNum = 999,
+		describe = "동화책에서 튀어나온 듯한 캔디 트리. 꼭대기의 달이 주변을 부드럽게 비춰 준다.",
+		name = "달빛 과자 나무",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40418",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50156/prefab/pre_item_05_50156",
+		bt = "",
+		id = 40418,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40419] = {
+		setNum = 999,
+		describe = "하얀 장식 울타리로 둘러싸인 분홍 튤립 화단. 마치 섬세한 유화 같다.",
+		name = "튤립 화단",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40419",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50157/prefab/pre_item_05_50157",
+		bt = "",
+		id = 40419,
+		tech_id = 0,
+		size = {
+			1,
+			3
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40420] = {
+		setNum = 999,
+		describe = "토끼 모양으로 꾸며진 화단. 꽃을 가꿀수록 귀여움이 배가 된다.",
+		name = "토끼토끼 화단",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_40420",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50158/prefab/pre_item_05_50158",
+		bt = "",
+		id = 40420,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[40801] = {
+		setNum = 999,
+		describe = "알록달록한 격자무늬 타일. 체스판 위를 걷는 듯한 기분이 든다.",
+		name = "꽃무늬 타일 (소)",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_40801",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50194/prefab/pre_item_05_50194",
+		bt = "",
+		id = 40801,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {}
+	}
+	pg.base.island_furniture_template[40802] = {
+		setNum = 999,
+		describe = "알록달록한 격자무늬 타일. 체스판 위를 걷는 듯한 기분이 든다.",
+		name = "꽃무늬 타일 (중)",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_40802",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50195/prefab/pre_item_05_50195",
+		bt = "",
+		id = 40802,
+		tech_id = 0,
+		size = {
+			3,
+			3
+		},
+		jump_page = {}
+	}
+	pg.base.island_furniture_template[40803] = {
+		setNum = 999,
+		describe = "알록달록한 격자무늬 타일. 체스판 위를 걷는 듯한 기분이 든다.",
+		name = "꽃무늬 타일 (대)",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_40803",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50196/prefab/pre_item_05_50196",
+		bt = "",
+		id = 40803,
+		tech_id = 0,
+		size = {
+			5,
+			5
+		},
+		jump_page = {}
 	}
 end)()

@@ -15,6 +15,7 @@ slot0.Ctor = function(slot0, slot1)
 
 	slot0.workingMaskTF = slot0.tf:Find("mask/working")
 	slot0.workingTextCom = slot0.workingMaskTF:Find("Text"):GetComponent("Text")
+	slot0.followMaskTF = slot0.tf:Find("mask/follow")
 	slot0.iconsTF = slot0.tf:Find("icons")
 	slot0.skillTF = slot0.iconsTF:Find("skill/tpl")
 	slot0.gradeTF = slot0.iconsTF:Find("grade")
@@ -69,7 +70,7 @@ slot0.Update = function(slot0, slot1, slot2, slot3, slot4, slot5)
 
 	setSlider(slot0.energySliderTF, 0, 1, slot11 / slot12)
 	setText(slot0.energyTF, slot11 .. "/" .. slot12)
-	setActive(slot0.workingMaskTF, not slot0.ship:IsDelegable())
+	slot0:UpdateFollowMask()
 
 	if slot5 then
 		slot13 = false
@@ -89,6 +90,13 @@ slot0.Update = function(slot0, slot1, slot2, slot3, slot4, slot5)
 
 	setActive(slot0.skillInuse, slot14)
 	setActive(slot0.skillUnuse, not slot14)
+end
+
+slot0.UpdateFollowMask = function(slot0)
+	slot1 = getProxy(IslandProxy):GetIsland():GetFollowerAgency():Following(slot0.ship.id)
+
+	setActive(slot0.followMaskTF, slot1)
+	setActive(slot0.workingMaskTF, not slot1 and not slot0.ship:IsDelegable())
 end
 
 slot0.UpdateSelected = function(slot0, slot1)

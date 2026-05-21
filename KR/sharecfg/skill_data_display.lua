@@ -3967,6 +3967,8 @@ pg.skill_data_display.all = {
 	1019261,
 	1019262,
 	1019263,
+	1014170,
+	1014171,
 	1090020,
 	1090042,
 	1090043,
@@ -4047,7 +4049,8 @@ pg.skill_data_display.all = {
 	1090442,
 	1090451,
 	1090452,
-	1090453
+	1090453,
+	1090462
 }
 pg.base = pg.base or {}
 pg.base.skill_data_display = {}
@@ -19983,6 +19986,14 @@ end)()
 		id = 1019263,
 		name = "세밀한 조작 협의 +"
 	}
+	pg.base.skill_data_display[1014170] = {
+		id = 1014170,
+		name = "Kirov Reporting! +"
+	}
+	pg.base.skill_data_display[1014171] = {
+		id = 1014171,
+		name = "Kirov Reporting! +"
+	}
 	pg.base.skill_data_display[1090020] = {
 		id = 1090020,
 		name = "화력전개·카를스루에"
@@ -20123,6 +20134,8 @@ end)()
 		id = 1090284,
 		name = "스크램블 - 롱 아일랜드"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1090285] = {
 		id = 1090285,
 		name = "스크램블 - 롱 아일랜드"
@@ -20131,8 +20144,6 @@ end)()
 		id = 1090290,
 		name = "어뢰 연사·시라누이"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1090291] = {
 		id = 1090291,
 		name = "어뢰 연사·시라누이"
@@ -20308,5 +20319,9 @@ end)()
 	pg.base.skill_data_display[1090453] = {
 		id = 1090453,
 		name = "목표 지시·어뢰 - 매치리스"
+	}
+	pg.base.skill_data_display[1090462] = {
+		id = 1090462,
+		name = "포술 지휘·그렌빌"
 	}
 end)()

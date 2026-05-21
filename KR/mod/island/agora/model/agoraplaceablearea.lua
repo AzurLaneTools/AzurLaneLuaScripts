@@ -228,62 +228,45 @@ slot0.FindItemInPosition = function(slot0, slot1, slot2)
 end
 
 slot0.FindEmptyArea4Item = function(slot0, slot1, slot2)
-	slot5 = {}
+	slot3 = slot0:GetRangeCoord()
+	slot4 = AgoraCalc.GetSizeCoord(slot2:GetSizeWithRotation())
+	slot7 = slot3.w - slot4.w
+	slot8 = slot3.y - slot4.y
 
-	slot6 = function(slot0)
-		if not uv0[slot0.x] then
+	if slot3.z - slot4.z < slot3.x - slot4.x or slot8 < slot7 then
+		return nil
+	end
+
+	slot9 = Mathf.Clamp(slot1.x, slot5, slot6)
+	slot10 = Mathf.Clamp(slot1.y, slot7, slot8)
+	slot11 = slot0:GetMap(slot2)
+	slot17 = math.abs(slot10 - slot8)
+
+	slot13 = function(slot0, slot1)
+		if slot0 < uv0 or uv1 < slot0 or slot1 < uv2 or uv3 < slot1 then
 			return false
 		end
 
-		if not uv0[slot0.x][slot0.y] then
-			return false
-		end
+		slot3 = uv4
 
-		return uv0[slot0.x][slot0.y] == true
+		return _.all(slot3:GenAreaByPosition(Vector2(slot0, slot1)), function (slot0)
+			return uv0:_InRange(uv1, slot0.x, slot0.y) and uv2:GetMapState(slot0.x, slot0.y) == true
+		end)
 	end
 
-	slot7 = function(slot0)
-		if not uv0[slot0.x] then
-			uv0[slot0.x] = {}
-		end
+	for slot17 = 0, math.max(math.abs(slot9 - slot5) + math.abs(slot10 - slot7), math.abs(slot9 - slot5) + math.abs(slot10 - slot8), math.abs(slot9 - slot6) + math.abs(slot10 - slot7), math.abs(slot9 - slot6) + slot17) do
+		for slot21 = -slot17, slot17 do
+			if slot13(slot9 + slot21, slot10 + slot17 - math.abs(slot21)) then
+				return Vector2(slot23, slot10 + slot22)
+			end
 
-		uv0[slot0.x][slot0.y] = true
+			if slot22 ~= 0 and slot13(slot23, slot10 - slot22) then
+				return Vector2(slot23, slot10 - slot22)
+			end
+		end
 	end
 
-	table.insert({}, slot0:_ClampRange(slot0:GetRangeCoord(), slot1))
-
-	while #slot4 > 0 do
-		slot8 = nil
-
-		if slot0:IsEmptyPoint(slot2, table.remove(slot4, 1)) or not slot0:_InRange(slot3, slot9.x, slot9.y) then
-			if slot0:IsEmptyAreaInPoint(slot2, slot9) then
-				return slot9
-			end
-
-			slot8 = {
-				Vector2(slot9.x, slot9.y + 1),
-				Vector2(slot9.x + 1, slot9.y),
-				Vector2(slot9.x, slot9.y - 1),
-				Vector2(slot9.x - 1, slot9.y)
-			}
-		else
-			for slot15, slot16 in ipairs(slot0:GetItemInPosition(slot2:GetMapType(), slot9):GetArea()) do
-				slot7(slot16)
-			end
-
-			slot8 = slot10:GetNeighborPoints()
-		end
-
-		for slot13, slot14 in ipairs(slot8) do
-			if not slot6(slot14) and slot0:_InRange(slot3, slot14.x, slot14.y) then
-				table.insert(slot4, slot14)
-			else
-				slot7(slot14)
-			end
-		end
-
-		slot7(slot9)
-	end
+	return nil
 end
 
 slot0.SerializePlacementData = function(slot0)

@@ -1305,7 +1305,10 @@ pg.chapter_template_loop.all = {
 	2200151,
 	2200152,
 	2200153,
-	2200154
+	2200154,
+	2200161,
+	2200162,
+	2200163
 }
 pg.base = pg.base or {}
 pg.base.chapter_template_loop = pg.base.chapter_template_loop or {}
@@ -6518,5 +6521,17 @@ cs.chapter_template_loop = {
 	[2200154] = {
 		3840466,
 		3137
+	},
+	[2200161] = {
+		3843603,
+		2497
+	},
+	[2200162] = {
+		3846100,
+		2543
+	},
+	[2200163] = {
+		3848643,
+		2988
 	}
 }

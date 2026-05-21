@@ -204,6 +204,20 @@ pg.island_item_data_template.all = {
 	4026,
 	4027,
 	4028,
+	4029,
+	4030,
+	4031,
+	4032,
+	4033,
+	4034,
+	4035,
+	4036,
+	4037,
+	4038,
+	4039,
+	4040,
+	4041,
+	4042,
 	5001,
 	5002,
 	5003,
@@ -275,6 +289,12 @@ pg.island_item_data_template.all = {
 	200021,
 	200022,
 	200023,
+	200024,
+	200025,
+	200026,
+	200027,
+	200028,
+	200029,
 	300001,
 	300002,
 	300003,
@@ -494,6 +514,20 @@ pg.island_item_data_template.get_id_list_by_usage = {
 		4026,
 		4027,
 		4028,
+		4029,
+		4030,
+		4031,
+		4032,
+		4033,
+		4034,
+		4035,
+		4036,
+		4037,
+		4038,
+		4039,
+		4040,
+		4041,
+		4042,
 		5001,
 		5002,
 		5003,
@@ -559,6 +593,12 @@ pg.island_item_data_template.get_id_list_by_usage = {
 		200021,
 		200022,
 		200023,
+		200024,
+		200025,
+		200026,
+		200027,
+		200028,
+		200029,
 		300001,
 		300002,
 		300003,
@@ -753,6 +793,20 @@ pg.island_item_data_template.get_id_list_by_type = {
 		4026,
 		4027,
 		4028,
+		4029,
+		4030,
+		4031,
+		4032,
+		4033,
+		4034,
+		4035,
+		4036,
+		4037,
+		4038,
+		4039,
+		4040,
+		4041,
+		4042,
 		5001,
 		5002,
 		5003,
@@ -825,6 +879,12 @@ pg.island_item_data_template.get_id_list_by_type = {
 		200021,
 		200022,
 		200023,
+		200024,
+		200025,
+		200026,
+		200027,
+		200028,
+		200029,
 		300001,
 		300002,
 		300003,
@@ -7891,6 +7951,484 @@ end)()
 	}
 end)()
 (function ()
+	pg.base.island_item_data_template[4029] = {
+		name = "자스민",
+		desc = "여름 해질녘에 피어나는 작은 흰 꽃. 멀리까지 퍼지는 맑은 향을 지녀, 차나 향료로 사용된다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 32,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 315,
+		tech_id = 0,
+		icon = "IslandProps/item_4029",
+		price = 1,
+		icon_normal = "",
+		rarity = 3,
+		convert = 1,
+		resource_type = 1,
+		id = 4029,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"여름 특산품 의뢰 - 지도 채집",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4030] = {
+		name = "해바라기",
+		desc = "태양을 따라 움직이는 황금빛 꽃. 다 자라면 꽃판에 해바라기씨가 빼곡하게 맺힌다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 27,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 270,
+		tech_id = 0,
+		icon = "IslandProps/item_4030",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4030,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"여름 특산품 의뢰 - 지도 채집",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4031] = {
+		name = "수박",
+		desc = "초록 껍질과 붉은 과육. 달콤하고 풍부한 과즙으로 여름 더위를 달래 준다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 54,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 540,
+		tech_id = 0,
+		icon = "IslandProps/item_4031",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4031,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"여름 특산품 의뢰 - 지도 채집",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4032] = {
+		name = "적비름",
+		desc = "붉은빛이 감도는 보랏빛 잎채소. 약용 가치도 지니고 있다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 2,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 225,
+		tech_id = 0,
+		icon = "IslandProps/item_4032",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 4032,
+		have_max = 0,
+		filter = {
+			10111
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"여름 특산품 의뢰 - 지도 채집",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4033] = {
+		name = "토마토",
+		desc = "잘 익어 붉게 물든 싱싱한 토마토. 새콤하고 맛있다. 그대로 먹어도 좋고 요리 재료로도 잘 어울린다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 3,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 30,
+		tech_id = 0,
+		icon = "IslandProps/item_4033",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4033,
+		have_max = 0,
+		filter = {
+			10111,
+			10132
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"여름 특산품 의뢰 - 초록색 모밭",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4034] = {
+		name = "토마토 씨앗",
+		desc = "흙에 심고 물을 주면 붉고 싱싱한 토마토를 수확할 수 있다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4034",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 4034,
+		have_max = 0,
+		filter = {
+			10114
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"여름 특산품 의뢰 - 상점 구매",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
+				}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4035] = {
+		name = "오이",
+		desc = "선명한 초록빛의 여름 채소. 아삭한 식감과 산뜻한 맛을 지녀, 그대로 먹어도 좋고 무침 요리에도 잘 어울린다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 20,
+		tech_id = 0,
+		icon = "IslandProps/item_4035",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 4035,
+		have_max = 0,
+		filter = {
+			10111,
+			10132
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"여름 특산품 의뢰 - 초록색 모밭",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4036] = {
+		name = "오이 씨앗",
+		desc = "납작한 씨앗을 심고 덩굴이 자라기를 기다리면 신선한 오이를 수확할 수 있다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1,
+		tech_id = 0,
+		icon = "IslandProps/item_4036",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 4036,
+		have_max = 0,
+		filter = {
+			10114
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"여름 특산품 의뢰 - 상점 구매",
+				{
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
+				}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4037] = {
+		name = "오이 주스",
+		desc = "신선한 오이를 착즙해 만든 초록빛 채소 주스. 목을 적시는 상쾌한 여름의 맛.",
+		type = 1,
+		manage_influence = 250,
+		pt_num = 1,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 100,
+		tech_id = 0,
+		icon = "IslandProps/item_4037",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 4037,
+		have_max = 0,
+		filter = {
+			10113,
+			10128
+		},
+		sub_attribute = {
+			1,
+			35
+		},
+		jump_page = {
+			{
+				"여름 특산품 의뢰 - 백곰 음료",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4038] = {
+		name = "수박 주스",
+		desc = "수박 과육을 착즙해서 만든 붉은 주스. 시원하고 달콤해 마음까지 촉촉하게 적신다.",
+		type = 1,
+		manage_influence = 250,
+		pt_num = 60,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 600,
+		tech_id = 0,
+		icon = "IslandProps/item_4038",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4038,
+		have_max = 0,
+		filter = {
+			10113,
+			10128
+		},
+		sub_attribute = {
+			2,
+			35
+		},
+		jump_page = {
+			{
+				"여름 특산품 의뢰 - 백곰 음료",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4039] = {
+		name = "적비름 주먹밥",
+		desc = "적비름의 붉은빛이 밥알까지 붉게 물들인다. 마음이 편안해지는 맛.",
+		type = 1,
+		manage_influence = 250,
+		pt_num = 8,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 800,
+		tech_id = 0,
+		icon = "IslandProps/item_4039",
+		price = 1,
+		icon_normal = "",
+		rarity = 1,
+		convert = 1,
+		resource_type = 1,
+		id = 4039,
+		have_max = 0,
+		filter = {
+			10113,
+			10127
+		},
+		sub_attribute = {
+			6,
+			35
+		},
+		jump_page = {
+			{
+				"여름 특산품 의뢰 - 유어 레스토랑",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4040] = {
+		name = "토마토 달걀볶음",
+		desc = "달걀과 토마토로 만든 새콤달콤하고 고소한 인기 가정식 요리.",
+		type = 1,
+		manage_influence = 250,
+		pt_num = 20,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 200,
+		tech_id = 0,
+		icon = "IslandProps/item_4040",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4040,
+		have_max = 0,
+		filter = {
+			10113,
+			10127
+		},
+		sub_attribute = {
+			3,
+			35
+		},
+		jump_page = {
+			{
+				"여름 특산품 의뢰 - 유어 레스토랑",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4041] = {
+		name = "자스민 에센셜 오일",
+		desc = "신선한 자스민에서 증류해낸 에센셜 오일. 아로마, 마사지, 스킨케어 등에 사용할 수 있다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 165,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 1100,
+		tech_id = 0,
+		icon = "IslandProps/item_4041",
+		price = 1,
+		icon_normal = "",
+		rarity = 4,
+		convert = 1,
+		resource_type = 1,
+		id = 4041,
+		have_max = 0,
+		filter = {
+			10113,
+			10131
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"여름 특산품 의뢰 - 수공제작 설비",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[4042] = {
+		name = "여름 꽃다발",
+		desc = "황금빛 해바라기와 새하얀 자스민을 엮은 꽃다발. 여름 태양의 화사함과 여름밤의 고요함을 함께 담고 있다.",
+		type = 1,
+		manage_influence = 0,
+		pt_num = 90,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 900,
+		tech_id = 0,
+		icon = "IslandProps/item_4042",
+		price = 1,
+		icon_normal = "",
+		rarity = 2,
+		convert = 1,
+		resource_type = 1,
+		id = 4042,
+		have_max = 0,
+		filter = {
+			10113,
+			10131
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"여름 특산품 의뢰 - 수공제작 설비",
+				{}
+			}
+		}
+	}
 	pg.base.island_item_data_template[5001] = {
 		name = "조개",
 		desc = "조개껍질은 장식품이나 정교한 공예품의 재료로 자주 사용된다.",
@@ -10199,6 +10737,192 @@ end)()
 		jump_page = {
 			{
 				"活动获取",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200024] = {
+		name = "재블린 - 아일랜드 권한 인증",
+		desc = "재블린의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200024",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200024,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"개발 상점",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200025] = {
+		name = "라피 - 아일랜드 권한 인증",
+		desc = "라피 - 아일랜드 권한 인증 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200025",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200025,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"상점",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200026] = {
+		name = "얏센 - 아일랜드 권한 인증",
+		desc = "얏센의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200026",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200026,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200027] = {
+		name = "페이윈 - 아일랜드 권한 인증",
+		desc = "페이윈의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200027",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200027,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200028] = {
+		name = "아우구스트 폰 파르제팔 - 아일랜드 권한 인증",
+		desc = "아우구스트 폰 파르제팔의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200028",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200028,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200029] = {
+		name = "타카오 - 아일랜드 권한 인증",
+		desc = "타카오의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200029",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200029,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"기술",
 				{}
 			}
 		}

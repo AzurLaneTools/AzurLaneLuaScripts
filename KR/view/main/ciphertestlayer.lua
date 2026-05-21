@@ -46,7 +46,7 @@ slot0.GetL2DList = function(slot0)
 end
 
 slot0.LoadL2dPainting = function(slot0, slot1)
-	slot4 = Live2D.GenerateData({
+	slot4 = Live2DPainting.GenerateData({
 		ship = Ship.New({
 			id = 999,
 			configId = ShipGroup.getDefaultShipConfig(pg.ship_skin_template[slot1].ship_group).id,
@@ -61,7 +61,7 @@ slot0.LoadL2dPainting = function(slot0, slot1)
 	slot5:LoadingOn()
 
 	slot5 = nil
-	slot5 = Live2D.New(slot4, function (slot0)
+	slot5 = Live2DPainting.New(slot4, function (slot0)
 		slot0:IgonreReactPos(true)
 		uv0:ClearL2dPainting()
 		pg.UIMgr.GetInstance():LoadingOff()

@@ -93,6 +93,7 @@ pg.island_task.all = {
 	10019999,
 	50000001,
 	50000002,
+	50000003,
 	51001000,
 	51001001,
 	51001002,
@@ -119,6 +120,13 @@ pg.island_task.all = {
 	50001012,
 	50001013,
 	50001014,
+	50001015,
+	50001016,
+	50001017,
+	50001018,
+	50001019,
+	50001020,
+	50001021,
 	50002001,
 	50002002,
 	50002003,
@@ -133,6 +141,13 @@ pg.island_task.all = {
 	50002012,
 	50002013,
 	50002014,
+	50002015,
+	50002016,
+	50002017,
+	50002018,
+	50002019,
+	50002020,
+	50002021,
 	50003001,
 	50003002,
 	50003003,
@@ -141,6 +156,10 @@ pg.island_task.all = {
 	50003006,
 	50003007,
 	50003008,
+	50003009,
+	50003010,
+	50003011,
+	50003012,
 	80001001,
 	80001002,
 	80001003,
@@ -231,6 +250,36 @@ pg.island_task.all = {
 	80001228,
 	80001229,
 	80001230,
+	80001301,
+	80001302,
+	80001303,
+	80001304,
+	80001305,
+	80001306,
+	80001307,
+	80001308,
+	80001309,
+	80001310,
+	80001311,
+	80001312,
+	80001313,
+	80001314,
+	80001315,
+	80001316,
+	80001317,
+	80001318,
+	80001319,
+	80001320,
+	80001321,
+	80001322,
+	80001323,
+	80001324,
+	80001325,
+	80001326,
+	80001327,
+	80001328,
+	80001329,
+	80001330,
 	20001001,
 	20001002,
 	20001003,
@@ -382,6 +431,7 @@ pg.island_task.all = {
 	40108001,
 	40109001,
 	40110001,
+	40111001,
 	40201001,
 	40301001,
 	40401001,
@@ -646,6 +696,7 @@ pg.island_task.get_id_list_by_type = {
 		40108001,
 		40109001,
 		40110001,
+		40111001,
 		40201001,
 		40301001,
 		40401001,
@@ -655,6 +706,7 @@ pg.island_task.get_id_list_by_type = {
 	{
 		50000001,
 		50000002,
+		50000003,
 		51001001,
 		51001002,
 		51001003,
@@ -678,6 +730,13 @@ pg.island_task.get_id_list_by_type = {
 		50001012,
 		50001013,
 		50001014,
+		50001015,
+		50001016,
+		50001017,
+		50001018,
+		50001019,
+		50001020,
+		50001021,
 		50002001,
 		50002002,
 		50002003,
@@ -692,6 +751,13 @@ pg.island_task.get_id_list_by_type = {
 		50002012,
 		50002013,
 		50002014,
+		50002015,
+		50002016,
+		50002017,
+		50002018,
+		50002019,
+		50002020,
+		50002021,
 		50003001,
 		50003002,
 		50003003,
@@ -699,7 +765,11 @@ pg.island_task.get_id_list_by_type = {
 		50003005,
 		50003006,
 		50003007,
-		50003008
+		50003008,
+		50003009,
+		50003010,
+		50003011,
+		50003012
 	},
 	[8] = {
 		80001001,
@@ -791,7 +861,37 @@ pg.island_task.get_id_list_by_type = {
 		80001227,
 		80001228,
 		80001229,
-		80001230
+		80001230,
+		80001301,
+		80001302,
+		80001303,
+		80001304,
+		80001305,
+		80001306,
+		80001307,
+		80001308,
+		80001309,
+		80001310,
+		80001311,
+		80001312,
+		80001313,
+		80001314,
+		80001315,
+		80001316,
+		80001317,
+		80001318,
+		80001319,
+		80001320,
+		80001321,
+		80001322,
+		80001323,
+		80001324,
+		80001325,
+		80001326,
+		80001327,
+		80001328,
+		80001329,
+		80001330
 	},
 	[9] = {
 		51001000,
@@ -4603,6 +4703,72 @@ pg.base.island_task = {}
 			}
 		}
 	}
+	pg.base.island_task[50000003] = {
+		trigger_data = 0,
+		trigger_tips = 1,
+		name = "여름의 만남",
+		type = 5,
+		task_desc = "피어리가 무언가 발견한 모양이다. 만나러 가자.",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "아일랜드 시즌",
+		id = 50000003,
+		unlock_condition = {
+			{
+				2,
+				20015002
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					20
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {},
+		target_id = {
+			500000031
+		},
+		reward_show = {
+			{
+				41,
+				1,
+				2000
+			}
+		}
+	}
 	pg.base.island_task[51001000] = {
 		trigger_data = 0,
 		trigger_tips = 0,
@@ -4994,6 +5160,8 @@ pg.base.island_task = {}
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.island_task[51003002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
@@ -5035,8 +5203,6 @@ pg.base.island_task = {}
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.island_task[51003003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
@@ -6127,6 +6293,530 @@ end)()
 			}
 		}
 	}
+	pg.base.island_task[50001015] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "여름 특산품 채집 (1/7)",
+		type = 5,
+		task_desc = "아일랜드가 여름을 맞아 지금만 볼 수 있는 채집물이 많이 있다는데… 지휘관님, 좀 도와주시겠어요? \n<채집 가능 특산품>\n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4029}>자스민</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4030}>해바라기</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4031}>수박</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4032}>적비름</material></color>",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "[여름 특산품 경영]",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "한정 채집",
+		id = 50001015,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					20
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {},
+		target_id = {
+			50001015
+		},
+		reward_show = {
+			{
+				41,
+				100001,
+				5
+			},
+			{
+				41,
+				100101,
+				1
+			}
+		}
+	}
+	pg.base.island_task[50001016] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "여름 특산품 채집 (2/7)",
+		type = 5,
+		task_desc = "아일랜드가 여름을 맞아 지금만 볼 수 있는 채집물이 많이 있다는데… 지휘관님, 좀 도와주시겠어요? \n<채집 가능 특산품>\n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4029}>자스민</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4030}>해바라기</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4031}>수박</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4032}>적비름</material></color>",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "[여름 특산품 경영]",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "한정 채집",
+		id = 50001016,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					20
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50001015
+		},
+		target_id = {
+			50001016
+		},
+		reward_show = {
+			{
+				41,
+				100001,
+				6
+			},
+			{
+				41,
+				100101,
+				2
+			}
+		}
+	}
+	pg.base.island_task[50001017] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "여름 특산품 채집 (3/7)",
+		type = 5,
+		task_desc = "아일랜드가 여름을 맞아 지금만 볼 수 있는 채집물이 많이 있다는데… 지휘관님, 좀 도와주시겠어요? \n<채집 가능 특산품>\n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4029}>자스민</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4030}>해바라기</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4031}>수박</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4032}>적비름</material></color>",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "[여름 특산품 경영]",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "한정 채집",
+		id = 50001017,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					20
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50001016
+		},
+		target_id = {
+			50001017
+		},
+		reward_show = {
+			{
+				41,
+				100001,
+				6
+			},
+			{
+				41,
+				100102,
+				1
+			}
+		}
+	}
+	pg.base.island_task[50001018] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "여름 특산품 채집 (4/7)",
+		type = 5,
+		task_desc = "아일랜드가 여름을 맞아 지금만 볼 수 있는 채집물이 많이 있다는데… 지휘관님, 좀 도와주시겠어요? \n<채집 가능 특산품>\n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4029}>자스민</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4030}>해바라기</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4031}>수박</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4032}>적비름</material></color>",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "[여름 특산품 경영]",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "한정 채집",
+		id = 50001018,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					20
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50001017
+		},
+		target_id = {
+			50001018
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				3
+			},
+			{
+				41,
+				100102,
+				2
+			}
+		}
+	}
+	pg.base.island_task[50001019] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "여름 특산품 채집 (5/7)",
+		type = 5,
+		task_desc = "아일랜드가 여름을 맞아 지금만 볼 수 있는 채집물이 많이 있다는데… 지휘관님, 좀 도와주시겠어요? \n<채집 가능 특산품>\n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4029}>자스민</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4030}>해바라기</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4031}>수박</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4032}>적비름</material></color>",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "[여름 특산품 경영]",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "한정 채집",
+		id = 50001019,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					20
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50001018
+		},
+		target_id = {
+			50001019
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				3
+			},
+			{
+				41,
+				100103,
+				1
+			},
+			{
+				41,
+				100011,
+				2
+			}
+		}
+	}
+	pg.base.island_task[50001020] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "여름 특산품 채집 (6/7)",
+		type = 5,
+		task_desc = "아일랜드가 여름을 맞아 지금만 볼 수 있는 채집물이 많이 있다는데… 지휘관님, 좀 도와주시겠어요? \n<채집 가능 특산품>\n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4029}>자스민</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4030}>해바라기</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4031}>수박</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4032}>적비름</material></color>",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "[여름 특산품 경영]",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "한정 채집",
+		id = 50001020,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					20
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50001019
+		},
+		target_id = {
+			50001020
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				2
+			},
+			{
+				41,
+				100103,
+				1
+			},
+			{
+				41,
+				100021,
+				2
+			}
+		}
+	}
+	pg.base.island_task[50001021] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "여름 특산품 채집 (7/7)",
+		type = 5,
+		task_desc = "아일랜드가 여름을 맞아 지금만 볼 수 있는 채집물이 많이 있다는데… 지휘관님, 좀 도와주시겠어요? \n<채집 가능 특산품>\n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4029}>자스민</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4030}>해바라기</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4031}>수박</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4032}>적비름</material></color>",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "[여름 특산품 경영]",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "한정 채집",
+		id = 50001021,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					20
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50001020
+		},
+		target_id = {
+			50001021
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				2
+			},
+			{
+				41,
+				100103,
+				3
+			},
+			{
+				41,
+				100031,
+				2
+			}
+		}
+	}
 	pg.base.island_task[50002001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
@@ -7175,6 +7865,558 @@ end)()
 			}
 		}
 	}
+	pg.base.island_task[50002015] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "여름 특산품 제작 (1/7)",
+		type = 5,
+		task_desc = [[
+여름 특산품은 경제적인 가치가 높을 것 같아요… 아일랜드의 발전을 위해, 지휘관님! 잘 부탁드려요! 
+<제작/재배 가능 특산품> 
+<color=#3E7EFF><material=underline event=dropDesHandle args={41,4033}>토마토</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4035}>오이</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4037}>오이 주스</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4038}>수박 주스</material></color>, 
+<color=#3E7EFF><material=underline event=dropDesHandle args={41,4039}>적비름 주먹밥</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4040}>토마토 달걀 볶음</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4041}>자스민 에센셜 오일</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4042}>여름 꽃다발</material></color>]],
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "[여름 특산품 경영]",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "한정 레시피",
+		id = 50002015,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					20
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {},
+		target_id = {
+			50002015
+		},
+		reward_show = {
+			{
+				41,
+				100001,
+				5
+			},
+			{
+				41,
+				100101,
+				1
+			}
+		}
+	}
+	pg.base.island_task[50002016] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "여름 특산품 제작 (2/7)",
+		type = 5,
+		task_desc = [[
+여름 특산품은 경제적인 가치가 높을 것 같아요… 아일랜드의 발전을 위해, 지휘관님! 잘 부탁드려요! 
+<제작/재배 가능 특산품> 
+<color=#3E7EFF><material=underline event=dropDesHandle args={41,4033}>토마토</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4035}>오이</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4037}>오이 주스</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4038}>수박 주스</material></color>, 
+<color=#3E7EFF><material=underline event=dropDesHandle args={41,4039}>적비름 주먹밥</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4040}>토마토 달걀 볶음</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4041}>자스민 에센셜 오일</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4042}>여름 꽃다발</material></color>]],
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "[여름 특산품 경영]",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "한정 레시피",
+		id = 50002016,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					20
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50002015
+		},
+		target_id = {
+			50002016
+		},
+		reward_show = {
+			{
+				41,
+				100001,
+				6
+			},
+			{
+				41,
+				100101,
+				2
+			}
+		}
+	}
+	pg.base.island_task[50002017] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "여름 특산품 제작 (3/7)",
+		type = 5,
+		task_desc = [[
+여름 특산품은 경제적인 가치가 높을 것 같아요… 아일랜드의 발전을 위해, 지휘관님! 잘 부탁드려요! 
+<제작/재배 가능 특산품> 
+<color=#3E7EFF><material=underline event=dropDesHandle args={41,4033}>토마토</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4035}>오이</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4037}>오이 주스</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4038}>수박 주스</material></color>, 
+<color=#3E7EFF><material=underline event=dropDesHandle args={41,4039}>적비름 주먹밥</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4040}>토마토 달걀 볶음</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4041}>자스민 에센셜 오일</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4042}>여름 꽃다발</material></color>]],
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "[여름 특산품 경영]",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "한정 레시피",
+		id = 50002017,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					20
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50002016
+		},
+		target_id = {
+			50002017
+		},
+		reward_show = {
+			{
+				41,
+				100001,
+				6
+			},
+			{
+				41,
+				100102,
+				1
+			}
+		}
+	}
+	pg.base.island_task[50002018] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "여름 특산품 제작 (4/7)",
+		type = 5,
+		task_desc = [[
+여름 특산품은 경제적인 가치가 높을 것 같아요… 아일랜드의 발전을 위해, 지휘관님! 잘 부탁드려요! 
+<제작/재배 가능 특산품> 
+<color=#3E7EFF><material=underline event=dropDesHandle args={41,4033}>토마토</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4035}>오이</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4037}>오이 주스</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4038}>수박 주스</material></color>, 
+<color=#3E7EFF><material=underline event=dropDesHandle args={41,4039}>적비름 주먹밥</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4040}>토마토 달걀 볶음</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4041}>자스민 에센셜 오일</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4042}>여름 꽃다발</material></color>]],
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "[여름 특산품 경영]",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "한정 레시피",
+		id = 50002018,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					20
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50002017
+		},
+		target_id = {
+			50002018
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				3
+			},
+			{
+				41,
+				100102,
+				2
+			}
+		}
+	}
+	pg.base.island_task[50002019] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "여름 특산품 제작 (5/7)",
+		type = 5,
+		task_desc = [[
+여름 특산품은 경제적인 가치가 높을 것 같아요… 아일랜드의 발전을 위해, 지휘관님! 잘 부탁드려요! 
+<제작/재배 가능 특산품> 
+<color=#3E7EFF><material=underline event=dropDesHandle args={41,4033}>토마토</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4035}>오이</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4037}>오이 주스</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4038}>수박 주스</material></color>, 
+<color=#3E7EFF><material=underline event=dropDesHandle args={41,4039}>적비름 주먹밥</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4040}>토마토 달걀 볶음</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4041}>자스민 에센셜 오일</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4042}>여름 꽃다발</material></color>]],
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "[여름 특산품 경영]",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "한정 레시피",
+		id = 50002019,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					20
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50002018
+		},
+		target_id = {
+			50002019
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				3
+			},
+			{
+				41,
+				100103,
+				1
+			},
+			{
+				41,
+				100041,
+				2
+			}
+		}
+	}
+	pg.base.island_task[50002020] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "여름 특산품 제작 (6/7)",
+		type = 5,
+		task_desc = [[
+여름 특산품은 경제적인 가치가 높을 것 같아요… 아일랜드의 발전을 위해, 지휘관님! 잘 부탁드려요! 
+<제작/재배 가능 특산품> 
+<color=#3E7EFF><material=underline event=dropDesHandle args={41,4033}>토마토</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4035}>오이</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4037}>오이 주스</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4038}>수박 주스</material></color>, 
+<color=#3E7EFF><material=underline event=dropDesHandle args={41,4039}>적비름 주먹밥</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4040}>토마토 달걀 볶음</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4041}>자스민 에센셜 오일</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4042}>여름 꽃다발</material></color>]],
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "[여름 특산품 경영]",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "한정 레시피",
+		id = 50002020,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					20
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50002019
+		},
+		target_id = {
+			50002020
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				2
+			},
+			{
+				41,
+				100103,
+				1
+			},
+			{
+				41,
+				100051,
+				2
+			}
+		}
+	}
+	pg.base.island_task[50002021] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "여름 특산품 제작 (7/7)",
+		type = 5,
+		task_desc = [[
+여름 특산품은 경제적인 가치가 높을 것 같아요… 아일랜드의 발전을 위해, 지휘관님! 잘 부탁드려요! 
+<제작/재배 가능 특산품> 
+<color=#3E7EFF><material=underline event=dropDesHandle args={41,4033}>토마토</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4035}>오이</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4037}>오이 주스</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4038}>수박 주스</material></color>, 
+<color=#3E7EFF><material=underline event=dropDesHandle args={41,4039}>적비름 주먹밥</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4040}>토마토 달걀 볶음</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4041}>자스민 에센셜 오일</material></color>, <color=#3E7EFF><material=underline event=dropDesHandle args={41,4042}>여름 꽃다발</material></color>]],
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "[여름 특산품 경영]",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "한정 레시피",
+		id = 50002021,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					20
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50002020
+		},
+		target_id = {
+			50002021
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				2
+			},
+			{
+				41,
+				100103,
+				3
+			},
+			{
+				41,
+				100061,
+				2
+			}
+		}
+	}
 	pg.base.island_task[50003001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
@@ -7751,6 +8993,296 @@ end)()
 			{
 				45,
 				101,
+				1
+			}
+		}
+	}
+	pg.base.island_task[50003009] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "여름 특산품 의뢰 (1/4)",
+		type = 5,
+		task_desc = "지휘관님께서 제공해 주신 여름 특산품을 아일랜드 건설에 활용할게요! 계속해서 착실히 개발을 진행해 봐요!",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "[여름 특산품 경영]",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "한정 의뢰",
+		id = 50003009,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					20
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {},
+		target_id = {
+			50003009
+		},
+		reward_show = {
+			{
+				41,
+				100001,
+				6
+			},
+			{
+				41,
+				100201,
+				1
+			}
+		}
+	}
+	pg.base.island_task[50003010] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "여름 특산품 의뢰 (2/4)",
+		type = 5,
+		task_desc = "지휘관님께서 제공해 주신 여름 특산품을 아일랜드 건설에 활용할게요! 계속해서 착실히 개발을 진행해 봐요!",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "[여름 특산품 경영]",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "한정 의뢰",
+		id = 50003010,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					20
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50003009
+		},
+		target_id = {
+			50003010
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				3
+			},
+			{
+				41,
+				100201,
+				1
+			}
+		}
+	}
+	pg.base.island_task[50003011] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "여름 특산품 의뢰 (3/4)",
+		type = 5,
+		task_desc = "지휘관님께서 제공해 주신 여름 특산품을 아일랜드 건설에 활용할게요! 계속해서 착실히 개발을 진행해 봐요!",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "[여름 특산품 경영]",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "한정 의뢰",
+		id = 50003011,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					20
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50003010
+		},
+		target_id = {
+			50003011
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				3
+			},
+			{
+				41,
+				100201,
+				3
+			}
+		}
+	}
+	pg.base.island_task[50003012] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "여름 특산품 의뢰 (4/4)",
+		type = 5,
+		task_desc = "지휘관님께서 제공해 주신 여름 특산품을 아일랜드 건설에 활용할게요! 계속해서 착실히 개발을 진행해 봐요!",
+		map_trigger_tips = 0,
+		complete_type = 1,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 10020025,
+		reward_exp = 0,
+		complete_tips = "피어리가 있는 곳으로 가기 (0/1)",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "[여름 특산품 경영]",
+		navigation = 0,
+		map_complete_tips = 1002,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "한정 의뢰",
+		id = 50003012,
+		unlock_condition = {
+			{
+				2,
+				10002050
+			}
+		},
+		unlock_time = {
+			{
+				{
+					2026,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					20
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {
+			50003011
+		},
+		target_id = {
+			50003012
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				2
+			},
+			{
+				45,
+				102,
 				1
 			}
 		}
@@ -9714,6 +11246,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.island_task[80001115] = {
 		trigger_data = 0,
 		trigger_tips = 0,
@@ -10523,8 +12057,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.island_task[80001204] = {
 		trigger_data = 0,
 		trigger_tips = 0,
@@ -11702,6 +13234,1321 @@ end)()
 			}
 		}
 	}
+	pg.base.island_task[80001301] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "주식 비축",
+		type = 8,
+		task_desc = "안정적으로 공급 가능한 주식을 제공해, 아일랜드 개발 팀의 일상적인 에너지 수요를 뒷받침한다. \n쌀×500 제출",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001301,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013001
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001302] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "영양 단백질",
+		type = 8,
+		task_desc = "양질의 식물성 단백질을 제공해, 아일랜드 개발 구역의 영양 균형을 맞춘다. \n대두×500 제출",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001302,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013002
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001303] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "벌판의 버팀목",
+		type = 8,
+		task_desc = "든든한 주식을 비축해, 아일랜드 개발의 에너지 공급 기반을 다지자. \n옥수수×500 제출",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001303,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013003
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001304] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "공업의 근간",
+		type = 8,
+		task_desc = "천연고무를 납품해, 공업 설비와 부품의 안정적인 가동을 지원한다. \n고무×250 제출",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001304,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013004
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001305] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "달콤한 활력",
+		type = 8,
+		task_desc = "달콤하고 부드러운 바나나를 공급해, 음료 제조와 요리의 풍미를 높이자. \n바나나×250 제출",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001305,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013005
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001306] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "섬유 보충",
+		type = 8,
+		task_desc = "양질의 아마를 공급해, 직물의 다양성을 넓히고 착용감도 더욱 쾌적하게 하자. \n아마×250 제출",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001306,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013006
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001307] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "향기로운 휴식",
+		type = 8,
+		task_desc = "은은한 향이 오래가는 라벤더 제품은 천연 방향제로 장기 보관할 수 있다. \n라벤더×250 제출",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001307,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013007
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001308] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "효율적인 식사",
+		type = 8,
+		task_desc = "간편하게 먹을 수 있는 메뉴로 빠르게 에너지를 보충해 고된 작업을 지원한다. \n두꺼운 당근 계란말이×250 제출",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001308,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013008
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001309] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "남국의 듀오",
+		type = 8,
+		task_desc = "새콤달콤하고 진한 열대과일 음료가 상쾌한 활력과 즐거운 기분을 선사한다. \n바나나 망고 주스×100 제출",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001309,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013009
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001310] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "달콤함으로 동기부여",
+		type = 8,
+		task_desc = "달콤한 바나나 크레페는 효율적인 작업을 위한 달콤한 보상이 된다. \n바나나 크레페×100 제출",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001310,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013010
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001311] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "부드러운 핑크",
+		type = 8,
+		task_desc = "달콤한 딸기 밀크쉐이크는 긴장을 풀어 주고 몸과 마음을 달래 준다. \n딸기 밀크쉐이크×100 제출",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001311,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013011
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001312] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "전형적인 식사",
+		type = 8,
+		task_desc = "맛있는 오므라이스는 개발 팀의 체력과 영양을 채워 준다. \n오므라이스×50 제출",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001312,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013012
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001313] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "백옥 두부",
+		type = 8,
+		task_desc = "신선한 두부는 요리 메뉴의 폭을 넓히는 동시에 부드러운 단백질 공급원이 되어 준다. \n두부×50 제출",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001313,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013013
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001314] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "숯불의 행복",
+		type = 8,
+		task_desc = "숯불고기 꼬치는 야식 시간에 개발 의욕에 불을 붙인다. \n숯불고기 꼬치×50 제출",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001314,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013014
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001315] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "차분한 티타임",
+		type = 8,
+		task_desc = "무카페인 라벤더 차는 자연스러운 릴랙스 음료로 활용할 수 있다. \n라벤더 차×25 제출",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001315,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013015
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001316] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "정수 소모품",
+		type = 8,
+		task_desc = "고성능 정수 필터를 공급해 불순물을 걸러내고 깨끗한 수원을 지키자. \n정수 필터×10 제출",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001316,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013016
+		},
+		reward_show = {
+			{
+				41,
+				100003,
+				1
+			},
+			{
+				41,
+				100002,
+				2
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001317] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "첫 수령",
+		type = 8,
+		task_desc = "처음으로 일상 보급을 수령하자. \n일상 보급 1회 수령",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001317,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013017
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001318] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "안정적인 납품",
+		type = 8,
+		task_desc = "세 번의 일상 보급으로 창고가 점점 풍족해지고 있다. \n일상 보급 5회 수령",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001318,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013018
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100201,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001319] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "일상적인 보급",
+		type = 8,
+		task_desc = "일상 보급을 수령하는 게 어느새 하루의 일과가 되었다. \n일상 보급 10회 수령",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001319,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013019
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100201,
+				2
+			}
+		}
+	}
+	pg.base.island_task[80001320] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "고효율 납품",
+		type = 8,
+		task_desc = "보급 수령을 보다 효율적이고 매끄럽게! \n일상 보급 20회 수령",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001320,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013020
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100101,
+				5
+			}
+		}
+	}
+	pg.base.island_task[80001321] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "여유로운 재고",
+		type = 8,
+		task_desc = "든든한 비축 덕분에 마음이 여유롭다. \n일상 보급 30회 수령",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001321,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013021
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100102,
+				2
+			}
+		}
+	}
+	pg.base.island_task[80001322] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "비축은 영원하리",
+		type = 8,
+		task_desc = "끊임없는 물자 보급이 아일랜드의 중요한 자원이 되어주고 있다. \n일상 보급 45회 수령",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001322,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013022
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100102,
+				3
+			}
+		}
+	}
+	pg.base.island_task[80001323] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "발전의 토대",
+		type = 8,
+		task_desc = "하루하루 쌓인 보급이 아일랜드 개발의 기반을 이루고 있다. \n일상 보급 60회 수령",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001323,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013023
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100103,
+				5
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001324] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "첫 의뢰",
+		type = 8,
+		task_desc = "아일랜드 의뢰에 대해 조금이나마 이해하게 되었다. \n아일랜드 의뢰 10회 완료",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001324,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013024
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001325] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "안정적인 의뢰",
+		type = 8,
+		task_desc = "안정적으로 의뢰가 이어지고 있다. \n아일랜드 의뢰 30회 완료",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001325,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013025
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100201,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001326] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "건실한 지원군",
+		type = 8,
+		task_desc = "아일랜드 개발에 있어서 빼놓을 수 없는 존재가 되었다. \n아일랜드 의뢰 50회 완료",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001326,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013026
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100201,
+				2
+			}
+		}
+	}
+	pg.base.island_task[80001327] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "의뢰 전문가",
+		type = 8,
+		task_desc = "동료들의 수요를 정확히 파악해 효율적으로 해결하고 있다. \n아일랜드 의뢰 100회 완료",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001327,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013027
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100101,
+				5
+			}
+		}
+	}
+	pg.base.island_task[80001328] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "발전의 기둥",
+		type = 8,
+		task_desc = "끊임없는 지원이야말로 개발을 이끄는 원동력. \n아일랜드 의뢰 150회 완료",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001328,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013028
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100102,
+				5
+			}
+		}
+	}
+	pg.base.island_task[80001329] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "발전의 중심",
+		type = 8,
+		task_desc = "모두가 가장 믿고 의지하는 존재가 되었다. \n아일랜드 의뢰 200회 완료",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001329,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013029
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100103,
+				5
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
+	pg.base.island_task[80001330] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "번영의 기반",
+		type = 8,
+		task_desc = "개발의 책임을 지고 번영하는 미래를 실현하고 있다. \n아일랜드 의뢰 300회 완료",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 80001330,
+		unlock_condition = {},
+		link_task = {},
+		target_id = {
+			80013030
+		},
+		reward_show = {
+			{
+				41,
+				100002,
+				1
+			},
+			{
+				41,
+				100103,
+				5
+			},
+			{
+				8,
+				170004,
+				1
+			}
+		}
+	}
 	pg.base.island_task[20001001] = {
 		trigger_data = 10040002,
 		trigger_tips = 1,
@@ -12698,6 +15545,8 @@ end)()
 		},
 		reward_show = {}
 	}
+end)()
+(function ()
 	pg.base.island_task[20005002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
@@ -14671,8 +17520,6 @@ end)()
 		},
 		reward_show = {}
 	}
-end)()
-(function ()
 	pg.base.island_task[20012002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
@@ -16797,6 +19644,8 @@ end)()
 		},
 		reward_show = {}
 	}
+end)()
+(function ()
 	pg.base.island_task[30502002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
@@ -18062,6 +20911,55 @@ end)()
 			}
 		}
 	}
+	pg.base.island_task[40111001] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "츄츄 가두리에서 수산 양식",
+		type = 4,
+		task_desc = "개발 구역의 풍부한 수산 자원을 그냥 둘 순 없지! 물속 자원도 개발에 적극 활용하자!",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 500,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "岛屿日常",
+		id = 40111001,
+		unlock_condition = {
+			{
+				3,
+				2017
+			},
+			{
+				2,
+				10001160
+			},
+			{
+				3,
+				30001
+			}
+		},
+		link_task = {},
+		target_id = {
+			401110011
+		},
+		reward_show = {
+			{
+				41,
+				100001,
+				20
+			}
+		}
+	}
 	pg.base.island_task[40201001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
@@ -18332,7 +21230,7 @@ end)()
 				{
 					2026,
 					5,
-					20
+					21
 				},
 				{
 					23,
@@ -18393,7 +21291,7 @@ end)()
 				{
 					2026,
 					5,
-					20
+					21
 				},
 				{
 					23,
@@ -18454,7 +21352,7 @@ end)()
 				{
 					2026,
 					5,
-					20
+					21
 				},
 				{
 					23,
@@ -18515,7 +21413,7 @@ end)()
 				{
 					2026,
 					5,
-					20
+					21
 				},
 				{
 					23,
@@ -18576,7 +21474,7 @@ end)()
 				{
 					2026,
 					5,
-					20
+					21
 				},
 				{
 					23,
@@ -18637,7 +21535,7 @@ end)()
 				{
 					2026,
 					5,
-					20
+					21
 				},
 				{
 					23,
@@ -18698,7 +21596,7 @@ end)()
 				{
 					2026,
 					5,
-					20
+					21
 				},
 				{
 					23,
@@ -18759,7 +21657,7 @@ end)()
 				{
 					2026,
 					5,
-					20
+					21
 				},
 				{
 					23,
@@ -18820,7 +21718,7 @@ end)()
 				{
 					2026,
 					5,
-					20
+					21
 				},
 				{
 					23,
@@ -18881,7 +21779,7 @@ end)()
 				{
 					2026,
 					5,
-					20
+					21
 				},
 				{
 					23,
@@ -18942,7 +21840,7 @@ end)()
 				{
 					2026,
 					5,
-					20
+					21
 				},
 				{
 					23,
@@ -19003,7 +21901,7 @@ end)()
 				{
 					2026,
 					5,
-					20
+					21
 				},
 				{
 					23,
@@ -19064,7 +21962,7 @@ end)()
 				{
 					2026,
 					5,
-					20
+					21
 				},
 				{
 					23,

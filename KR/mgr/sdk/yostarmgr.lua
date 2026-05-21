@@ -22,6 +22,21 @@ end
 
 	uv0.Login = function()
 		if uv0.GetIsPlatform() then
+			if uv0.LoginPlatform == PLATFORM_YOSTARUS and uv0.LOGIN_RET ~= nil and uv0.YoStarRetCodeHandler(uv0.LOGIN_RET) then
+				pg.m02:sendNotification(GAME.PLATFORM_LOGIN_DONE, {
+					user = User.New({
+						type = 1,
+						arg1 = uv0.LoginPlatform,
+						arg2 = uv0.LOGIN_RET.LOGIN_UID,
+						arg3 = uv0.LOGIN_RET.LOGIN_TOKEN
+					})
+				})
+
+				uv0.LOGIN_RET = nil
+
+				return
+			end
+
 			pg.UIMgr.GetInstance():LoadingOn()
 			uv1:Login()
 		end
@@ -189,20 +204,55 @@ end)()
 	onLogin_YoStar = function(slot0)
 		pg.UIMgr.GetInstance():LoadingOff()
 
-		if uv0.YoStarRetCodeHandler(slot0) then
-			pg.m02:sendNotification(GAME.PLATFORM_LOGIN_DONE, {
-				user = User.New({
-					type = 1,
-					arg1 = uv0.LoginPlatform,
-					arg2 = slot0.LOGIN_UID,
-					arg3 = slot0.LOGIN_TOKEN
+		if uv0.LoginPlatform == PLATFORM_YOSTARJP then
+			if uv0.YoStarRetCodeHandler(slot0) then
+				pg.m02:sendNotification(GAME.PLATFORM_LOGIN_DONE, {
+					user = User.New({
+						type = 1,
+						arg1 = uv0.LoginPlatform,
+						arg2 = slot0.LOGIN_UID,
+						arg3 = slot0.LOGIN_TOKEN
+					})
 				})
-			})
+			end
+		elseif uv0.LoginPlatform == PLATFORM_YOSTARUS then
+			if uv0.LOGIN_RET == nil then
+				uv0.LOGIN_RET = slot0
+
+				pg.m02:sendNotification(GAME.PLATFORM_LOGIN_WAIT_DONE, {
+					isLoginSuccess = uv0.YoStarRetCodeHandler(slot0)
+				})
+			else
+				uv0.LOGIN_RET = slot0
+
+				if uv0.YoStarRetCodeHandler(slot0) then
+					pg.m02:sendNotification(GAME.PLATFORM_LOGIN_DONE, {
+						user = User.New({
+							type = 1,
+							arg1 = uv0.LoginPlatform,
+							arg2 = slot0.LOGIN_UID,
+							arg3 = slot0.LOGIN_TOKEN
+						})
+					})
+
+					uv0.LOGIN_RET = nil
+				end
+			end
 		end
 	end
 
 	onLogout_YoStar = function(slot0)
 		if uv0.YoStarRetCodeHandler(slot0) then
+			uv0.LOGIN_RET = nil
+
+			if not pg.proxyRegister then
+				pg.m02:sendNotification(GAME.PLATFORM_LOGIN_WAIT_DONE, {
+					isLoginSuccess = false
+				})
+
+				return
+			end
+
 			pg.m02:sendNotification(GAME.LOGOUT, {
 				code = 0
 			})
@@ -318,6 +368,7 @@ return {
 	SDK_PID_RELEASE = "JP-AZURLANE",
 	SDK_SERVER_URL = "https://jp-sdk-api.yostarplat.com",
 	SDK_TRANS_URL = "https://migration.yostar.co.jp?pid=JP-AZURLANE",
+	LOGIN_RET = nil,
 	InitJP = function ()
 		uv0.isAudit = NetConst.GATEWAY_PORT == 20001 and NetConst.GATEWAY_HOST == "blhxjpauditapi.azurlane.jp"
 		uv0.isPreAudit = NetConst.GATEWAY_PORT == 30001 and NetConst.GATEWAY_HOST == "blhxjpauditapi.azurlane.jp" or NetConst.GATEWAY_PORT == 30101 and NetConst.GATEWAY_HOST == "blhxjpauditapi.azurlane.jp"
@@ -337,10 +388,10 @@ return {
 		uv0.isGoogleSimulator = NetConst.GATEWAY_PORT == 50001 and NetConst.GATEWAY_HOST == "audit.us.yo-star.com"
 		uv0.isRelease = NetConst.GATEWAY_PORT == 80 and NetConst.GATEWAY_HOST == "blhxusgate.yo-star.com"
 		uv0.LoginPlatform = PLATFORM_YOSTARUS
-		uv0.SDK_PID_TEST = ""
-		uv0.SDK_PID_RELEASE = ""
-		uv0.SDK_SERVER_URL = ""
-		uv0.SDK_TRANS_URL = ""
+		uv0.SDK_PID_TEST = "US-AZURLANE-TEST"
+		uv0.SDK_PID_RELEASE = "US-AZURLANE"
+		uv0.SDK_SERVER_URL = "http://en-sdk-api.yostarplat.com"
+		uv0.SDK_TRANS_URL = "https://migration.yo-star.com/?pid=US-AZURLANE"
 	end,
 	CheckAudit = function ()
 		return NetConst.getwayType == 1

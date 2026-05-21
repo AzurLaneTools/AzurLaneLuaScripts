@@ -591,7 +591,7 @@ pg.base.island_set = {}
 	pg.base.island_set.season_now = {
 		key_value_varchar = "",
 		key = "season_now",
-		key_value_int = 2
+		key_value_int = 3
 	}
 	pg.base.island_set.season_pt_show = {
 		key_value_varchar = "",

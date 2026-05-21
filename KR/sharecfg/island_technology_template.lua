@@ -40,6 +40,7 @@ pg.island_technology_template.all = {
 	110310,
 	120006,
 	120007,
+	120008,
 	210101,
 	220101,
 	220501,
@@ -242,7 +243,8 @@ pg.island_technology_template.get_id_list_by_tech_belong = {
 		120005,
 		110310,
 		120006,
-		120007
+		120007,
+		120008
 	},
 	{
 		210101,
@@ -1594,6 +1596,40 @@ pg.base.island_technology_template = {}
 		axis = {
 			28,
 			2
+		}
+	}
+	pg.base.island_technology_template[120008] = {
+		complete_title = "<color=#1E8FFE>아일랜드 권한 인증 장치</color>로 동료를 가입시킬 수 있습니다.",
+		tech_level = "1",
+		tech_chara = 1,
+		complete_character_id = "",
+		auto_finish = 1,
+		complete_tips = "<color=#1E8FFE>아일랜드 권한 인증 장치</color>로 동료를 가입시킬 수 있습니다.",
+		island_level = 50,
+		tech_desc = "타카오의 아일랜드 권한 인증 장치를 생산한다. 더 많은 동료를 초대하자!",
+		tech_icon = "tech_120001",
+		tech_belong = 1,
+		tech_name = "인증 추가",
+		formula_id = 7120008,
+		id = 120008,
+		complete_map_id = 1007,
+		sys_unlock = {
+			{
+				3,
+				110310
+			},
+			{
+				3,
+				120007
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		axis = {
+			28,
+			3
 		}
 	}
 	pg.base.island_technology_template[210101] = {
@@ -3572,6 +3608,8 @@ pg.base.island_technology_template = {}
 			6
 		}
 	}
+end)()
+(function ()
 	pg.base.island_technology_template[440302] = {
 		complete_title = "<color=#1E8FFE>이슬 농장의 메리</color>를 통해 메메양을 사육할 수 있는 최대 숫자가 늘어났습니다.",
 		tech_level = "1",
@@ -3604,8 +3642,6 @@ pg.base.island_technology_template = {}
 			6
 		}
 	}
-end)()
-(function ()
 	pg.base.island_technology_template[420303] = {
 		complete_title = "<color=#1E8FFE>이슬 농장의 메리</color>를 통해 꿀꿀이를 사육할 수 있는 최대 숫자가 늘어났습니다.",
 		tech_level = "2",
@@ -6859,6 +6895,8 @@ end)()
 			9
 		}
 	}
+end)()
+(function ()
 	pg.base.island_technology_template[650203] = {
 		complete_title = "<color=#1E8FFE>항구 기지 공장의 로사</color>가 있는 곳에서 <color=#1E8FFE>전자 부품 가공</color>으로 제작할 수 있습니다.",
 		tech_level = "1",

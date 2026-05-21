@@ -23,6 +23,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.stopVoice = defaultValue(slot1.stopVoice, false)
 	slot0.movableNode = slot1.movableNode
 	slot0.options = slot1.options
+	slot0.optionForceCenter = slot1.option_force_center
 	slot0.important = slot1.important
 	slot0.branchCode = slot1.optionFlag
 	slot0.globalBranchCode = slot1.globalOptionFlag
@@ -189,6 +190,10 @@ slot0.IsRecallOption = function(slot0)
 	end
 
 	return false
+end
+
+slot0.IsOptionForceCenter = function(slot0)
+	return slot0.optionForceCenter
 end
 
 slot0.SetBranchCode = function(slot0, slot1)
@@ -554,6 +559,106 @@ end
 
 slot0.GetUsingPaintingNames = function(slot0)
 	return {}
+end
+
+slot0.GetResList = function(slot0)
+	slot1 = {}
+
+	if slot0:GetBgName() then
+		table.insert(slot1, slot2)
+	end
+
+	if slot0.GetSubBg and slot0:GetSubBg() then
+		table.insert(slot1, slot3)
+	end
+
+	slot3 = _.map(slot1, function (slot0)
+		return "bg/" .. slot0
+	end)
+	slot4 = {}
+	slot5, slot6, slot7 = slot0:GetBgmData()
+
+	if slot5 then
+		table.insert(slot4, slot5)
+	end
+
+	slot8 = {}
+
+	_.each(slot4, function (slot0)
+		table.insert(uv0, "cue/" .. slot0 .. ".b")
+		table.insert(uv0, "cue/bgm-" .. slot0 .. ".b")
+	end)
+
+	slot9 = {}
+
+	if slot0:ShouldPlaySoundEffect() then
+		slot10, slot11 = slot0:GetSoundeffect()
+
+		if slot10 then
+			table.insert(slot9, slot10)
+		end
+	end
+
+	slot10 = {}
+
+	_.each(slot9, function (slot0)
+		slot1 = pg.CriMgr.GetInstance()
+
+		if slot1:CheckFModeEvent(slot0, function ()
+		end, function ()
+		end) then
+			table.insert(uv0, "cue/" .. slot1 .. ".b")
+		end
+	end)
+
+	slot11 = {}
+
+	if slot0:ShouldPlayVoice() then
+		slot12, slot13 = slot0:GetVoice()
+
+		if slot12 then
+			table.insert(slot11, slot12)
+		end
+	end
+
+	slot12 = {}
+
+	_.each(slot11, function (slot0)
+		slot1 = pg.CriMgr.GetInstance()
+
+		if slot1:CheckFModeEvent(slot0, function ()
+		end, function ()
+		end) then
+			table.insert(uv0, "cue/" .. slot1 .. ".b")
+		end
+	end)
+	_.each(slot0:GetEffects(), function (slot0)
+		table.insert(uv0, slot0.name)
+	end)
+
+	slot15 = {}
+
+	_.each({}, function (slot0)
+		table.insert(uv0, "ui/" .. slot0)
+		table.insert(uv0, "effect/" .. slot0)
+	end)
+
+	slot16 = {}
+
+	if slot0:ExistIcon() and slot0:GetIconData() and slot17.image then
+		table.insert(slot16, slot17.image)
+	end
+
+	slot18 = StoryRecorder.New()
+
+	slot18:Add(slot0)
+	_.each(slot18:GetContentList(), function (slot0)
+		if slot0.icon then
+			table.insert(uv0, "squareicon/" .. slot0.icon)
+		end
+	end)
+
+	return SplitPackMediatorResMap.MergeLuaArr(slot3, slot8, slot10, slot12, slot15, slot16, {})
 end
 
 return slot0

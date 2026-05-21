@@ -1322,6 +1322,20 @@ slot5.GetStageResource = function(slot0)
 	return slot2, slot3
 end
 
+slot5.GetStageBGM = function(slot0)
+	slot2 = {}
+
+	for slot6, slot7 in ipairs(uv0.Battle.BattleDataFunction.GetDungeonTmpDataByID(slot0).stages) do
+		for slot11, slot12 in ipairs(slot7.waves) do
+			if slot12.triggerType == uv0.Battle.BattleConst.WaveTriggerType.BGM and slot12.triggerParams.bgm then
+				table.insert(slot2, "cue/bgm-" .. slot13 .. ".b")
+			end
+		end
+	end
+
+	return slot2
+end
+
 slot5.GetEnvironmentRes = function(slot0, slot1)
 	table.insert(slot0, slot1.prefab and uv0.GetFXPath(slot1.prefab))
 

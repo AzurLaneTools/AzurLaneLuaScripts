@@ -913,7 +913,7 @@ end
 
 slot0.createLive2D = function(slot0)
 	slot3 = slot0._tf
-	slot0.live2dChar = Live2D.New(Live2D.GenerateData({
+	slot0.live2dChar = Live2DPainting.New(Live2DPainting.GenerateData({
 		ship = Ship.New({
 			configId = 312011
 		}),

@@ -23548,7 +23548,7 @@ _G.pg.base.gametip.Settings_title_Other = {
 
 
 _G.pg.base.gametip.Settings_title_LoginJP = {
-	tip = "인계 코드"
+	tip = "계정"
 }
 
 
@@ -26395,7 +26395,7 @@ _G.pg.base.gametip.attrset_input_ill = {
 
 
 _G.pg.base.gametip.eventshop_time_hint = {
-	tip = "$1 23:59까지 교환 가능"
+	tip = "$1 점검까지 교환 가능"
 }
 
 
@@ -43867,6 +43867,56 @@ _G.pg.base.gametip.island_spoperation_item_2602_3 = {
 
 _G.pg.base.gametip.island_spoperation_item_2602_4 = {
 	tip = "히아신스"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2605_1 = {
+	tip = "이벤트 기간 중에 피어리의 특산품 의뢰가 등장합니다. 특산품 의뢰를 처리하면 시즌 PT를 비롯한 보상을 획득할 수 있습니다. \n*특산품 의뢰는 의뢰 완성 한도에 영향을 주지 않으며, 평가 레벨을 상승시킬 수 없습니다."
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2605_2 = {
+	tip = "이벤트 기간 중 특정 구역 내에 매일 이벤트 채집 아이템이 등장합니다. 어서 찾으러 가보세요!"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2605_3 = {
+	tip = "이벤트 기간 내 [초록색 모밭], [유어 레스토랑], [백곰 음료], [기지 공장]에서 대응하는 특산품 생산 가능"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2605_1 = {
+	tip = "특산품 채집"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2605_2 = {
+	tip = "특산품 제작"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2605_3 = {
+	tip = "이벤트 관리자"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2605_1 = {
+	tip = "자스민"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2605_2 = {
+	tip = "해바라기"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2605_3 = {
+	tip = "수박"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2605_4 = {
+	tip = "적비름"
 }
 
 

@@ -578,26 +578,23 @@ slot0.UpdateLive2dPainting = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = function(slot0)
 		slot1 = uv0:GetVirtualShip()
 		GetOrAddComponent(uv2._go, typeof(CanvasGroup)).blocksRaycasts = false
-		uv2.live2dChars[uv1] = Live2D.New(Live2D.GenerateData({
+		uv2.live2dChars[uv1] = Live2DPainting.New(Live2DPainting.GenerateData({
 			ship = slot1,
 			offset = slot1:GetSkinConfig().live2d_offset,
 			position = uv0:GetLive2dPos() or Vector3(0, 0, 0),
 			parent = uv1:Find("live2d")
 		}), function (slot0)
 			slot0._go.name = uv0:GetPainting()
-			slot1 = slot0._go:GetComponent("Live2D.Cubism.Rendering.CubismRenderController")
+			slot1 = slot0._go:GetComponent(typeof(CubismRenderController))
 			slot2 = uv1.sortingOrder + 1
-			slot3 = typeof("Live2D.Cubism.Rendering.CubismRenderController")
-
-			ReflectionHelp.RefSetProperty(slot3, "SortingOrder", slot1, slot2)
-			ReflectionHelp.RefSetProperty(slot3, "SortingMode", slot1, ReflectionHelp.RefGetField(typeof("Live2D.Cubism.Rendering.CubismSortingMode"), "BackToFrontOrder"))
-
-			slot5 = GetOrAddComponent(uv1.front, typeof(Canvas))
+			slot1.SortingOrder = slot2
+			slot1.SortingMode = CubismSortingMode.BackToFrontOrder
+			slot3 = GetOrAddComponent(uv1.front, typeof(Canvas))
 
 			GetOrAddComponent(uv1.front, typeof(GraphicRaycaster))
 
-			slot5.overrideSorting = true
-			slot5.sortingOrder = slot2 + slot0._tf:Find("Drawables").childCount
+			slot3.overrideSorting = true
+			slot3.sortingOrder = slot2 + slot0._tf:Find("Drawables").childCount
 			uv2.blocksRaycasts = true
 
 			if uv3 then
@@ -1359,7 +1356,8 @@ slot13 = function(slot0, slot1)
 	slot3 = false
 
 	if slot0.live2dChars[slot1] and slot2._go then
-		ReflectionHelp.RefSetProperty(typeof("Live2D.Cubism.Rendering.CubismRenderController"), "SortingOrder", slot2._go:GetComponent("Live2D.Cubism.Rendering.CubismRenderController"), 0)
+		slot2._go:GetComponent(typeof(CubismRenderController)).SortingOrder = 0
+
 		slot2:Dispose()
 
 		slot0.live2dChars[slot1] = nil

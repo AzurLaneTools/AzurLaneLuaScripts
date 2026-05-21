@@ -8,8 +8,10 @@ pg.island_strollnpc.all = {
 	1009,
 	1010,
 	1012,
+	10117,
 	10517,
 	10703,
+	20121,
 	20403,
 	20603,
 	29903,
@@ -23,10 +25,14 @@ pg.island_strollnpc.all = {
 	60802,
 	70104,
 	90111,
+	30311,
 	30312,
 	49902,
+	49906,
 	10205,
 	10110,
+	50107,
+	50201,
 	50601,
 	300900,
 	300901,
@@ -87,6 +93,19 @@ pg.base.island_strollnpc = {}
 		action_feedback = 0,
 		unlock = 0
 	}
+	pg.base.island_strollnpc[10117] = {
+		unit_id = 1011700,
+		behaviourTree = "",
+		id = 10117,
+		action_feedback = 1,
+		unlock = -1,
+		mapId = {
+			{
+				1002,
+				17
+			}
+		}
+	}
 	pg.base.island_strollnpc[10517] = {
 		unit_id = 1051700,
 		behaviourTree = "",
@@ -110,6 +129,19 @@ pg.base.island_strollnpc = {}
 			{
 				1004,
 				1
+			}
+		}
+	}
+	pg.base.island_strollnpc[20121] = {
+		unit_id = 2012100,
+		behaviourTree = "",
+		id = 20121,
+		action_feedback = 1,
+		unlock = -1,
+		mapId = {
+			{
+				1002,
+				18
 			}
 		}
 	}
@@ -282,6 +314,19 @@ pg.base.island_strollnpc = {}
 			}
 		}
 	}
+	pg.base.island_strollnpc[30311] = {
+		unit_id = 3031100,
+		behaviourTree = "",
+		id = 30311,
+		action_feedback = 1,
+		unlock = -1,
+		mapId = {
+			{
+				1004,
+				4
+			}
+		}
+	}
 	pg.base.island_strollnpc[30312] = {
 		unit_id = 3031200,
 		behaviourTree = "",
@@ -308,6 +353,19 @@ pg.base.island_strollnpc = {}
 			}
 		}
 	}
+	pg.base.island_strollnpc[49906] = {
+		unit_id = 4990600,
+		behaviourTree = "",
+		id = 49906,
+		action_feedback = 1,
+		unlock = -1,
+		mapId = {
+			{
+				1004,
+				5
+			}
+		}
+	}
 	pg.base.island_strollnpc[10205] = {
 		unit_id = 1020500,
 		behaviourTree = "",
@@ -331,6 +389,32 @@ pg.base.island_strollnpc = {}
 			{
 				1001,
 				3
+			}
+		}
+	}
+	pg.base.island_strollnpc[50107] = {
+		unit_id = 5010700,
+		behaviourTree = "",
+		id = 50107,
+		action_feedback = 1,
+		unlock = -1,
+		mapId = {
+			{
+				1001,
+				5
+			}
+		}
+	}
+	pg.base.island_strollnpc[50201] = {
+		unit_id = 5020100,
+		behaviourTree = "",
+		id = 50201,
+		action_feedback = 1,
+		unlock = -1,
+		mapId = {
+			{
+				1005,
+				4
 			}
 		}
 	}

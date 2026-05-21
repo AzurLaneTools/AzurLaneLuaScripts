@@ -4063,6 +4063,13 @@ pg.memory_template.all = {
 	5105,
 	5106,
 	5107,
+	5111,
+	5112,
+	5113,
+	5114,
+	5115,
+	5116,
+	5117,
 	10000,
 	10001,
 	10002,
@@ -65324,6 +65331,111 @@ end)()
 			"SHANYAOHAIBINRICHANG7"
 		}
 	}
+	pg.base.memory_template[5111] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "헥세의 계약 선언",
+		condition = "「붉은 달빛은 영야의 맹세 1」 시작",
+		story = "MEIKELUNBAO1",
+		id = 5111,
+		icon = "memory_meikelunbao",
+		is_open = 0,
+		unlock_pre = {
+			"MEIKELUNBAO1"
+		}
+	}
+	pg.base.memory_template[5112] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "어둠의 숲의 포효",
+		condition = "「붉은 달빛은 영야의 맹세 2」 시작",
+		story = "MEIKELUNBAO2",
+		id = 5112,
+		icon = "memory_meikelunbao",
+		is_open = 0,
+		unlock_pre = {
+			"MEIKELUNBAO2"
+		}
+	}
+	pg.base.memory_template[5113] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "별들이 교차하는 홀",
+		condition = "「붉은 달빛은 영야의 맹세 3」 시작",
+		story = "MEIKELUNBAO3",
+		id = 5113,
+		icon = "memory_meikelunbao",
+		is_open = 0,
+		unlock_pre = {
+			"MEIKELUNBAO3"
+		}
+	}
+	pg.base.memory_template[5114] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "영혼의 약을 들이켜자",
+		condition = "「붉은 달빛은 영야의 맹세 4」 시작",
+		story = "MEIKELUNBAO4",
+		id = 5114,
+		icon = "memory_meikelunbao",
+		is_open = 0,
+		unlock_pre = {
+			"MEIKELUNBAO4"
+		}
+	}
+	pg.base.memory_template[5115] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "인연의 굴레를 걸자",
+		condition = "「붉은 달빛은 영야의 맹세 5」 시작",
+		story = "MEIKELUNBAO5",
+		id = 5115,
+		icon = "memory_meikelunbao",
+		is_open = 0,
+		unlock_pre = {
+			"MEIKELUNBAO5"
+		}
+	}
+	pg.base.memory_template[5116] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "붉은 달 하늘을 날아라",
+		condition = "「붉은 달빛은 영야의 맹세 6」 시작",
+		story = "MEIKELUNBAO6",
+		id = 5116,
+		icon = "memory_meikelunbao",
+		is_open = 0,
+		unlock_pre = {
+			"MEIKELUNBAO6"
+		}
+	}
+	pg.base.memory_template[5117] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "영야의 비익",
+		condition = "「붉은 달빛은 영야의 맹세 7」 시작",
+		story = "MEIKELUNBAO7",
+		id = 5117,
+		icon = "memory_meikelunbao",
+		is_open = 0,
+		unlock_pre = {
+			"MEIKELUNBAO7"
+		}
+	}
 	pg.base.memory_template[10000] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -65834,6 +65946,8 @@ end)()
 			"NEPU_DAILY5"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[10041] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -65939,8 +66053,6 @@ end)()
 			"NEPU_STAGE301"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[10048] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -67336,6 +67448,8 @@ end)()
 			"LINGHANGYUANTANXIN12"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20064] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -67441,8 +67555,6 @@ end)()
 			"LINGHANGYUANTANXIN19"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20071] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -68838,6 +68950,8 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA15"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20165] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -68943,8 +69057,6 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA22"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20172] = {
 		mask = "bg/bg_memory",
 		subtitle = "",

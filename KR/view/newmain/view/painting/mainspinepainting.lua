@@ -65,7 +65,7 @@ slot0.AdJustOrderInLayer = function(slot0, slot1)
 		end
 
 		for slot10, slot11 in ipairs(slot0.spBg:GetComponentsInChildren(typeof("UnityEngine.ParticleSystemRenderer")):ToTable()) do
-			ReflectionHelp.RefSetProperty(typeof("UnityEngine.ParticleSystemRenderer"), "sortingOrder", slot11, ReflectionHelp.RefGetProperty(typeof("UnityEngine.ParticleSystemRenderer"), "sortingOrder", slot11) - slot2)
+			slot11.sortingOrder = slot11.sortingOrder - slot2
 		end
 	end
 end

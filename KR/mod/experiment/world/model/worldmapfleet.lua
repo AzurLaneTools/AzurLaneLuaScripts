@@ -25,6 +25,7 @@ slot0.EventUpdateBuff = "WorldMapFleet.EventUpdateBuff"
 slot0.EventUpdateDamageLevel = "WorldMapFleet.EventUpdateDamageLevel"
 slot0.EventUpdateDefeat = "WorldMapFleet.EventUpdateDefeat"
 slot0.EventUpdateCatSalvage = "WorldMapFleet.EventUpdateCatSalvage"
+slot0.EventUpdateFlashTips = "WorldMapFleet.EventUpdateFlashTips"
 
 slot0.GetName = function(slot0)
 	return "fleet_" .. slot0
@@ -449,16 +450,12 @@ end
 
 slot0.UpdateBuffs = function(slot0, slot1)
 	if slot0.buffs ~= slot1 then
-		if not nowWorld().isAutoFight then
-			slot3 = slot2:GetActiveMap()
-			slot7 = slot1
+		slot3 = nowWorld():GetActiveMap()
+		slot7 = slot1
 
-			for slot7, slot8 in pairs(WorldConst.CompareBuffs(slot0.buffs, slot7).add) do
-				if #slot8.config.trap_lua > 0 then
-					slot3:AddPhaseDisplay({
-						story = slot8.config.trap_lua
-					})
-				end
+		for slot7, slot8 in pairs(WorldConst.CompareBuffs(slot0.buffs, slot7).add) do
+			if noEmptyStr(slot8.config.trap_lua) then
+				slot0:DispatchEvent(uv0.EventUpdateFlashTips, slot8.config.trap_lua)
 			end
 		end
 

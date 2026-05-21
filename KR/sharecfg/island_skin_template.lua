@@ -4,16 +4,22 @@ pg.island_skin_template = rawget(pg, "island_skin_template") or setmetatable({
 }, confNEO)
 pg.island_skin_template.all = {
 	1011001,
+	1011701,
 	1020501,
 	1051701,
 	1070301,
+	2012101,
 	2060301,
 	2990301,
+	3031101,
 	3031201,
 	3040701,
 	3120101,
 	4030301,
 	4990201,
+	4990601,
+	5010701,
+	5020101,
 	5060101,
 	99000201,
 	99000202,
@@ -26,6 +32,9 @@ pg.island_skin_template.get_id_list_by_ship_group = {
 	[10110] = {
 		1011001
 	},
+	[10117] = {
+		1011701
+	},
 	[10205] = {
 		1020501
 	},
@@ -35,11 +44,17 @@ pg.island_skin_template.get_id_list_by_ship_group = {
 	[10703] = {
 		1070301
 	},
+	[20121] = {
+		2012101
+	},
 	[20603] = {
 		2060301
 	},
 	[29903] = {
 		2990301
+	},
+	[30311] = {
+		3031101
 	},
 	[30312] = {
 		3031201
@@ -55,6 +70,15 @@ pg.island_skin_template.get_id_list_by_ship_group = {
 	},
 	[49902] = {
 		4990201
+	},
+	[49906] = {
+		4990601
+	},
+	[50107] = {
+		5010701
+	},
+	[50201] = {
+		5020101
 	},
 	[50601] = {
 		5060101
@@ -87,6 +111,19 @@ pg.base.island_skin_template = {}
 		model = 1011001,
 		id = 1011001,
 		icon = "skin_1011001",
+		icon_normal = ""
+	}
+	pg.base.island_skin_template[1011701] = {
+		ship_group = 10117,
+		name = "토끼토끼의 휴식",
+		jump_page = "",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "포근한 온기를 감싸는 폭신한 잠옷과 짝짝이 양말이 사랑스러운 매력을 더해 준다. 금방이라도 꿈나라로 뛰어들 것만 같은 모습이다.",
+		shop_goods_id = 0,
+		model = 1011701,
+		id = 1011701,
+		icon = "skin_1011701",
 		icon_normal = ""
 	}
 	pg.base.island_skin_template[1020501] = {
@@ -128,6 +165,19 @@ pg.base.island_skin_template = {}
 		icon_normal = "props/skin_1070301",
 		jump_page = {}
 	}
+	pg.base.island_skin_template[2012101] = {
+		ship_group = 20121,
+		name = "베개싸움",
+		jump_page = "",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "산뜻한 민소매에 귀여운 퍼플 화이트 스트라이프. 가벼운 몸놀림으로 베개싸움에서 승리를 노리자!",
+		shop_goods_id = 0,
+		model = 2012101,
+		id = 2012101,
+		icon = "skin_2012101",
+		icon_normal = ""
+	}
 	pg.base.island_skin_template[2060301] = {
 		ship_group = 20603,
 		name = "동경의 별빛",
@@ -153,6 +203,19 @@ pg.base.island_skin_template = {}
 		icon = "skin_2990301",
 		icon_normal = "props/skin_2990301",
 		jump_page = {}
+	}
+	pg.base.island_skin_template[3031101] = {
+		ship_group = 30311,
+		name = "밤의 진지한 대화",
+		jump_page = "",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "첫눈처럼 맑고 깨끗한 인상을 주는 새하얀 긴소매 셔츠. 심플하면서도 여유로운 아름다움을 품고 있다.",
+		shop_goods_id = 0,
+		model = 3031101,
+		id = 3031101,
+		icon = "skin_3031101",
+		icon_normal = ""
 	}
 	pg.base.island_skin_template[3031201] = {
 		ship_group = 30312,
@@ -217,6 +280,45 @@ pg.base.island_skin_template = {}
 		model = 4990201,
 		id = 4990201,
 		icon = "skin_4990201",
+		icon_normal = ""
+	}
+	pg.base.island_skin_template[4990601] = {
+		ship_group = 49906,
+		name = "구름 위 꿈의 유랑",
+		jump_page = "",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "아이마스크를 쓴 채 구름과 달에 안겨 꿈속 여행을 떠난다. 다정한 밤의 세계가 달콤한 색으로 물들기를.",
+		shop_goods_id = 0,
+		model = 4990601,
+		id = 4990601,
+		icon = "skin_4990601",
+		icon_normal = ""
+	}
+	pg.base.island_skin_template[5010701] = {
+		ship_group = 50107,
+		name = "판다 경단",
+		jump_page = "",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "블랙앤화이트의 판다 잠옷. 동글동글하고 폭신해서 절로 손가락으로 콕 찔러 보고 싶어지는 귀여움이 느껴진다.",
+		shop_goods_id = 0,
+		model = 5010701,
+		id = 5010701,
+		icon = "skin_5010701",
+		icon_normal = ""
+	}
+	pg.base.island_skin_template[5020101] = {
+		ship_group = 50201,
+		name = "달빛 아래의 차향",
+		jump_page = "",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "하얀 캐미솔과 가볍게 걸친 베이지색 겉옷. 달빛 아래 비치는 차꽃처럼 단아하면서도 우아한 아름다움을 자아낸다.",
+		shop_goods_id = 0,
+		model = 5020101,
+		id = 5020101,
+		icon = "skin_5020101",
 		icon_normal = ""
 	}
 	pg.base.island_skin_template[5060101] = {

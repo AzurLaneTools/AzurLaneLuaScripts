@@ -47,7 +47,8 @@ pg.re_map_template.all = {
 	43,
 	44,
 	45,
-	46
+	46,
+	47
 }
 pg.base = pg.base or {}
 pg.base.re_map_template = {}
@@ -2721,6 +2722,35 @@ pg.base.re_map_template = {}
 					11026
 				},
 				"SP4"
+			}
+		}
+	}
+	pg.base.re_map_template[47] = {
+		id = 47,
+		name = "奏响鸢尾之歌常驻复刻",
+		bg = "temp_masaiqu",
+		memory_group = 251,
+		activity_type = 2,
+		order = 47,
+		config_data = {
+			2200161,
+			2200162,
+			2200163
+		},
+		chapter_progress = {
+			33,
+			66,
+			100
+		},
+		drop_gain = {},
+		drop_display_sp = {},
+		drop_display = {
+			{
+				{
+					2,
+					11046
+				},
+				"SP3"
 			}
 		}
 	}

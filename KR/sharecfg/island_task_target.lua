@@ -21,6 +21,7 @@ pg.island_task_target.all = {
 	40005,
 	500000011,
 	500000021,
+	500000031,
 	510010001,
 	510010011,
 	510010012,
@@ -50,6 +51,13 @@ pg.island_task_target.all = {
 	50001012,
 	50001013,
 	50001014,
+	50001015,
+	50001016,
+	50001017,
+	50001018,
+	50001019,
+	50001020,
+	50001021,
 	50002001,
 	50002002,
 	50002003,
@@ -64,6 +72,13 @@ pg.island_task_target.all = {
 	50002012,
 	50002013,
 	50002014,
+	50002015,
+	50002016,
+	50002017,
+	50002018,
+	50002019,
+	50002020,
+	50002021,
 	50003001,
 	50003002,
 	50003003,
@@ -72,6 +87,10 @@ pg.island_task_target.all = {
 	50003006,
 	50003007,
 	50003008,
+	50003009,
+	50003010,
+	50003011,
+	50003012,
 	80010001,
 	80010002,
 	80010003,
@@ -162,6 +181,36 @@ pg.island_task_target.all = {
 	80012028,
 	80012029,
 	80012030,
+	80013001,
+	80013002,
+	80013003,
+	80013004,
+	80013005,
+	80013006,
+	80013007,
+	80013008,
+	80013009,
+	80013010,
+	80013011,
+	80013012,
+	80013013,
+	80013014,
+	80013015,
+	80013016,
+	80013017,
+	80013018,
+	80013019,
+	80013020,
+	80013021,
+	80013022,
+	80013023,
+	80013024,
+	80013025,
+	80013026,
+	80013027,
+	80013028,
+	80013029,
+	80013030,
 	100010001,
 	100010101,
 	100010201,
@@ -438,6 +487,7 @@ pg.island_task_target.all = {
 	401080011,
 	401090011,
 	401100011,
+	401110011,
 	402010011,
 	403010011,
 	404010011,
@@ -632,6 +682,17 @@ pg.base.island_task_target = {}
 		target_num = 1,
 		target_param = {
 			5826
+		}
+	}
+	pg.base.island_task_target[500000031] = {
+		tips = "10020025",
+		jump_ui = "",
+		name = "피어리에게 물어보기",
+		type = 1,
+		id = 500000031,
+		target_num = 1,
+		target_param = {
+			5845
 		}
 	}
 	pg.base.island_task_target[510010001] = {
@@ -947,6 +1008,83 @@ pg.base.island_task_target = {}
 			990007
 		}
 	}
+	pg.base.island_task_target[50001015] = {
+		tips = "",
+		jump_ui = "",
+		name = "합계로 여름 특산품 채집",
+		type = 40,
+		id = 50001015,
+		target_num = 8,
+		target_param = {
+			990018
+		}
+	}
+	pg.base.island_task_target[50001016] = {
+		tips = "",
+		jump_ui = "",
+		name = "합계로 여름 특산품 채집",
+		type = 40,
+		id = 50001016,
+		target_num = 24,
+		target_param = {
+			990018
+		}
+	}
+	pg.base.island_task_target[50001017] = {
+		tips = "",
+		jump_ui = "",
+		name = "합계로 여름 특산품 채집",
+		type = 40,
+		id = 50001017,
+		target_num = 48,
+		target_param = {
+			990018
+		}
+	}
+	pg.base.island_task_target[50001018] = {
+		tips = "",
+		jump_ui = "",
+		name = "합계로 여름 특산품 채집",
+		type = 40,
+		id = 50001018,
+		target_num = 96,
+		target_param = {
+			990018
+		}
+	}
+	pg.base.island_task_target[50001019] = {
+		tips = "",
+		jump_ui = "",
+		name = "합계로 여름 특산품 채집",
+		type = 40,
+		id = 50001019,
+		target_num = 120,
+		target_param = {
+			990018
+		}
+	}
+	pg.base.island_task_target[50001020] = {
+		tips = "",
+		jump_ui = "",
+		name = "합계로 여름 특산품 채집",
+		type = 40,
+		id = 50001020,
+		target_num = 160,
+		target_param = {
+			990018
+		}
+	}
+	pg.base.island_task_target[50001021] = {
+		tips = "",
+		jump_ui = "",
+		name = "합계로 여름 특산품 채집",
+		type = 40,
+		id = 50001021,
+		target_num = 240,
+		target_param = {
+			990018
+		}
+	}
 	pg.base.island_task_target[50002001] = {
 		tips = "",
 		jump_ui = "",
@@ -1199,6 +1337,132 @@ pg.base.island_task_target = {}
 			4028
 		}
 	}
+	pg.base.island_task_target[50002015] = {
+		tips = "",
+		jump_ui = "",
+		name = "합계로 여름 특산품 제작",
+		type = 26,
+		id = 50002015,
+		target_num = 40,
+		target_param = {
+			4033,
+			4035,
+			4037,
+			4038,
+			4039,
+			4040,
+			4041,
+			4042
+		}
+	}
+	pg.base.island_task_target[50002016] = {
+		tips = "",
+		jump_ui = "",
+		name = "합계로 여름 특산품 제작",
+		type = 26,
+		id = 50002016,
+		target_num = 80,
+		target_param = {
+			4033,
+			4035,
+			4037,
+			4038,
+			4039,
+			4040,
+			4041,
+			4042
+		}
+	}
+	pg.base.island_task_target[50002017] = {
+		tips = "",
+		jump_ui = "",
+		name = "합계로 여름 특산품 제작",
+		type = 26,
+		id = 50002017,
+		target_num = 100,
+		target_param = {
+			4033,
+			4035,
+			4037,
+			4038,
+			4039,
+			4040,
+			4041,
+			4042
+		}
+	}
+	pg.base.island_task_target[50002018] = {
+		tips = "",
+		jump_ui = "",
+		name = "합계로 여름 특산품 제작",
+		type = 26,
+		id = 50002018,
+		target_num = 200,
+		target_param = {
+			4033,
+			4035,
+			4037,
+			4038,
+			4039,
+			4040,
+			4041,
+			4042
+		}
+	}
+	pg.base.island_task_target[50002019] = {
+		tips = "",
+		jump_ui = "",
+		name = "합계로 여름 특산품 제작",
+		type = 26,
+		id = 50002019,
+		target_num = 400,
+		target_param = {
+			4033,
+			4035,
+			4037,
+			4038,
+			4039,
+			4040,
+			4041,
+			4042
+		}
+	}
+	pg.base.island_task_target[50002020] = {
+		tips = "",
+		jump_ui = "",
+		name = "합계로 여름 특산품 제작",
+		type = 26,
+		id = 50002020,
+		target_num = 600,
+		target_param = {
+			4033,
+			4035,
+			4037,
+			4038,
+			4039,
+			4040,
+			4041,
+			4042
+		}
+	}
+	pg.base.island_task_target[50002021] = {
+		tips = "",
+		jump_ui = "",
+		name = "합계로 여름 특산품 제작",
+		type = 26,
+		id = 50002021,
+		target_num = 800,
+		target_param = {
+			4033,
+			4035,
+			4037,
+			4038,
+			4039,
+			4040,
+			4041,
+			4042
+		}
+	}
 	pg.base.island_task_target[50003001] = {
 		tips = "",
 		jump_ui = "",
@@ -1285,6 +1549,50 @@ pg.base.island_task_target = {}
 		target_num = 15,
 		target_param = {
 			990006
+		}
+	}
+	pg.base.island_task_target[50003009] = {
+		tips = "",
+		jump_ui = "",
+		name = "여름 특산품 의뢰 처리",
+		type = 39,
+		id = 50003009,
+		target_num = 1,
+		target_param = {
+			990017
+		}
+	}
+	pg.base.island_task_target[50003010] = {
+		tips = "",
+		jump_ui = "",
+		name = "여름 특산품 의뢰 처리",
+		type = 39,
+		id = 50003010,
+		target_num = 5,
+		target_param = {
+			990017
+		}
+	}
+	pg.base.island_task_target[50003011] = {
+		tips = "",
+		jump_ui = "",
+		name = "여름 특산품 의뢰 처리",
+		type = 39,
+		id = 50003011,
+		target_num = 10,
+		target_param = {
+			990017
+		}
+	}
+	pg.base.island_task_target[50003012] = {
+		tips = "",
+		jump_ui = "",
+		name = "여름 특산품 의뢰 처리",
+		type = 39,
+		id = 50003012,
+		target_num = 15,
+		target_param = {
+			990017
 		}
 	}
 	pg.base.island_task_target[80010001] = {
@@ -1430,6 +1738,8 @@ pg.base.island_task_target = {}
 			3012
 		}
 	}
+end)()
+(function ()
 	pg.base.island_task_target[80010014] = {
 		tips = "",
 		jump_ui = "",
@@ -1611,8 +1921,6 @@ pg.base.island_task_target = {}
 			2008
 		}
 	}
-end)()
-(function ()
 	pg.base.island_task_target[80011003] = {
 		tips = "",
 		jump_ui = "",
@@ -2195,6 +2503,310 @@ end)()
 		target_num = 300,
 		target_param = ""
 	}
+	pg.base.island_task_target[80013001] = {
+		tips = "",
+		jump_ui = "",
+		name = "쌀×500 제출",
+		type = 4,
+		id = 80013001,
+		target_num = 500,
+		target_param = {
+			2002
+		}
+	}
+	pg.base.island_task_target[80013002] = {
+		tips = "",
+		jump_ui = "",
+		name = "대두×500 제출",
+		type = 4,
+		id = 80013002,
+		target_num = 500,
+		target_param = {
+			2006
+		}
+	}
+	pg.base.island_task_target[80013003] = {
+		tips = "",
+		jump_ui = "",
+		name = "옥수수×500 제출",
+		type = 4,
+		id = 80013003,
+		target_num = 500,
+		target_param = {
+			2001
+		}
+	}
+	pg.base.island_task_target[80013004] = {
+		tips = "",
+		jump_ui = "",
+		name = "고무×250 제출",
+		type = 4,
+		id = 80013004,
+		target_num = 250,
+		target_param = {
+			2022
+		}
+	}
+	pg.base.island_task_target[80013005] = {
+		tips = "",
+		jump_ui = "",
+		name = "바나나×250 제출",
+		type = 4,
+		id = 80013005,
+		target_num = 250,
+		target_param = {
+			2018
+		}
+	}
+	pg.base.island_task_target[80013006] = {
+		tips = "",
+		jump_ui = "",
+		name = "아마×250 제출",
+		type = 4,
+		id = 80013006,
+		target_num = 250,
+		target_param = {
+			2010
+		}
+	}
+	pg.base.island_task_target[80013007] = {
+		tips = "",
+		jump_ui = "",
+		name = "라벤더×250 제출",
+		type = 4,
+		id = 80013007,
+		target_num = 250,
+		target_param = {
+			2015
+		}
+	}
+	pg.base.island_task_target[80013008] = {
+		tips = "",
+		jump_ui = "",
+		name = "두꺼운 당근 계란말이×250 제출",
+		type = 4,
+		id = 80013008,
+		target_num = 250,
+		target_param = {
+			3033
+		}
+	}
+	pg.base.island_task_target[80013009] = {
+		tips = "",
+		jump_ui = "",
+		name = "바나나 망고 주스×100 제출",
+		type = 4,
+		id = 80013009,
+		target_num = 100,
+		target_param = {
+			3018
+		}
+	}
+	pg.base.island_task_target[80013010] = {
+		tips = "",
+		jump_ui = "",
+		name = "바나나 크레페×100 제출",
+		type = 4,
+		id = 80013010,
+		target_num = 100,
+		target_param = {
+			3026
+		}
+	}
+	pg.base.island_task_target[80013011] = {
+		tips = "",
+		jump_ui = "",
+		name = "딸기 밀크쉐이크×100 제출",
+		type = 4,
+		id = 80013011,
+		target_num = 100,
+		target_param = {
+			3010
+		}
+	}
+	pg.base.island_task_target[80013012] = {
+		tips = "",
+		jump_ui = "",
+		name = "오므라이스×50 제출",
+		type = 4,
+		id = 80013012,
+		target_num = 50,
+		target_param = {
+			3013
+		}
+	}
+	pg.base.island_task_target[80013013] = {
+		tips = "",
+		jump_ui = "",
+		name = "두부×50 제출",
+		type = 4,
+		id = 80013013,
+		target_num = 50,
+		target_param = {
+			3011
+		}
+	}
+	pg.base.island_task_target[80013014] = {
+		tips = "",
+		jump_ui = "",
+		name = "숯불고기 꼬치×50 제출",
+		type = 4,
+		id = 80013014,
+		target_num = 50,
+		target_param = {
+			3029
+		}
+	}
+	pg.base.island_task_target[80013015] = {
+		tips = "",
+		jump_ui = "",
+		name = "라벤더 차×25 제출",
+		type = 4,
+		id = 80013015,
+		target_num = 25,
+		target_param = {
+			3021
+		}
+	}
+	pg.base.island_task_target[80013016] = {
+		tips = "",
+		jump_ui = "",
+		name = "정수 필터×10 제출",
+		type = 4,
+		id = 80013016,
+		target_num = 10,
+		target_param = {
+			3056
+		}
+	}
+	pg.base.island_task_target[80013017] = {
+		tips = "",
+		jump_ui = "",
+		name = "일상 보급 1회 수령",
+		type = 13,
+		id = 80013017,
+		target_num = 1,
+		target_param = ""
+	}
+	pg.base.island_task_target[80013018] = {
+		tips = "",
+		jump_ui = "",
+		name = "일상 보급 5회 수령",
+		type = 13,
+		id = 80013018,
+		target_num = 5,
+		target_param = ""
+	}
+	pg.base.island_task_target[80013019] = {
+		tips = "",
+		jump_ui = "",
+		name = "일상 보급 10회 수령",
+		type = 13,
+		id = 80013019,
+		target_num = 10,
+		target_param = ""
+	}
+	pg.base.island_task_target[80013020] = {
+		tips = "",
+		jump_ui = "",
+		name = "일상 보급 20회 수령",
+		type = 13,
+		id = 80013020,
+		target_num = 20,
+		target_param = ""
+	}
+	pg.base.island_task_target[80013021] = {
+		tips = "",
+		jump_ui = "",
+		name = "일상 보급 30회 수령",
+		type = 13,
+		id = 80013021,
+		target_num = 30,
+		target_param = ""
+	}
+	pg.base.island_task_target[80013022] = {
+		tips = "",
+		jump_ui = "",
+		name = "일상 보급 45회 수령",
+		type = 13,
+		id = 80013022,
+		target_num = 45,
+		target_param = ""
+	}
+	pg.base.island_task_target[80013023] = {
+		tips = "",
+		jump_ui = "",
+		name = "일상 보급 60회 수령",
+		type = 13,
+		id = 80013023,
+		target_num = 60,
+		target_param = ""
+	}
+end)()
+(function ()
+	pg.base.island_task_target[80013024] = {
+		tips = "",
+		jump_ui = "",
+		name = "아일랜드 의뢰 10회 완료",
+		type = 3,
+		id = 80013024,
+		target_num = 10,
+		target_param = ""
+	}
+	pg.base.island_task_target[80013025] = {
+		tips = "",
+		jump_ui = "",
+		name = "아일랜드 의뢰 30회 완료",
+		type = 3,
+		id = 80013025,
+		target_num = 30,
+		target_param = ""
+	}
+	pg.base.island_task_target[80013026] = {
+		tips = "",
+		jump_ui = "",
+		name = "아일랜드 의뢰 50회 완료",
+		type = 3,
+		id = 80013026,
+		target_num = 50,
+		target_param = ""
+	}
+	pg.base.island_task_target[80013027] = {
+		tips = "",
+		jump_ui = "",
+		name = "아일랜드 의뢰 100회 완료",
+		type = 3,
+		id = 80013027,
+		target_num = 100,
+		target_param = ""
+	}
+	pg.base.island_task_target[80013028] = {
+		tips = "",
+		jump_ui = "",
+		name = "아일랜드 의뢰 150회 완료",
+		type = 3,
+		id = 80013028,
+		target_num = 150,
+		target_param = ""
+	}
+	pg.base.island_task_target[80013029] = {
+		tips = "",
+		jump_ui = "",
+		name = "아일랜드 의뢰 200회 완료",
+		type = 3,
+		id = 80013029,
+		target_num = 200,
+		target_param = ""
+	}
+	pg.base.island_task_target[80013030] = {
+		tips = "",
+		jump_ui = "",
+		name = "아일랜드 의뢰 300회 완료",
+		type = 3,
+		id = 80013030,
+		target_num = 300,
+		target_param = ""
+	}
 	pg.base.island_task_target[100010001] = {
 		tips = "10040044",
 		jump_ui = "",
@@ -2651,8 +3263,6 @@ end)()
 		target_num = 12,
 		target_param = ""
 	}
-end)()
-(function ()
 	pg.base.island_task_target[100021501] = {
 		tips = "10090001",
 		jump_ui = "",
@@ -3206,6 +3816,8 @@ end)()
 		target_num = 20,
 		target_param = ""
 	}
+end)()
+(function ()
 	pg.base.island_task_target[100040101] = {
 		tips = "10070030",
 		jump_ui = "",
@@ -3743,8 +4355,6 @@ end)()
 			7003
 		}
 	}
-end)()
-(function ()
 	pg.base.island_task_target[200070041] = {
 		tips = "10090008",
 		jump_ui = "",
@@ -4304,6 +4914,8 @@ end)()
 			5
 		}
 	}
+end)()
+(function ()
 	pg.base.island_task_target[200140012] = {
 		tips = "",
 		jump_ui = "",
@@ -4840,8 +5452,6 @@ end)()
 			5303
 		}
 	}
-end)()
-(function ()
 	pg.base.island_task_target[305020311] = {
 		tips = "10060002",
 		jump_ui = "",
@@ -5215,27 +5825,26 @@ end)()
 			705
 		}
 	}
+	pg.base.island_task_target[401110011] = {
+		tips = "10020071",
+		jump_ui = "",
+		name = "츄츄 가두리에서 수산 1회 양식",
+		type = 48,
+		id = 401110011,
+		target_num = 30,
+		target_param = {
+			201
+		}
+	}
 	pg.base.island_task_target[402010011] = {
 		tips = "",
 		jump_ui = "5",
 		name = "세트 메뉴 제작",
-		type = 7,
+		type = 50,
 		id = 402010011,
 		target_num = 20,
 		target_param = {
-			601101,
-			601102,
-			602101,
-			602102,
-			602103,
-			603101,
-			603102,
-			603103,
-			604101,
-			604102,
-			901101,
-			901102,
-			901103
+			1001
 		}
 	}
 	pg.base.island_task_target[403010011] = {
@@ -5403,6 +6012,8 @@ end)()
 			101
 		}
 	}
+end)()
+(function ()
 	pg.base.island_task_target[900010121] = {
 		tips = "",
 		jump_ui = "",

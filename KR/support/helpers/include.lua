@@ -19,3 +19,4 @@ ProxyRegister = require("Support/Helpers/ProxyRegister")
 AssetBundleHelper = require("Support/Helpers/AssetBundleHelper")
 
 require("Support/Helpers/GraphApiHelper")
+require("Support/Helpers/ResPathSupport")

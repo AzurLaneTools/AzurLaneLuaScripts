@@ -5,7 +5,8 @@ pg.island_furniture_theme = rawget(pg, "island_furniture_theme") or setmetatable
 pg.island_furniture_theme.all = {
 	1,
 	2,
-	3
+	3,
+	4
 }
 pg.base = pg.base or {}
 pg.base.island_furniture_theme = {}
@@ -115,6 +116,43 @@ pg.base.island_furniture_theme = {}
 			30801,
 			30802,
 			30803
+		}
+	}
+	pg.base.island_furniture_theme[4] = {
+		name = "꿈의 나라",
+		id = 4,
+		icon = "",
+		desc = "",
+		furniture = {
+			40101,
+			40201,
+			40301,
+			40302,
+			40303,
+			40304,
+			40401,
+			40402,
+			40403,
+			40404,
+			40405,
+			40406,
+			40407,
+			40408,
+			40409,
+			40410,
+			40411,
+			40412,
+			40413,
+			40414,
+			40415,
+			40416,
+			40417,
+			40418,
+			40419,
+			40420,
+			40801,
+			40802,
+			40803
 		}
 	}
 end)()

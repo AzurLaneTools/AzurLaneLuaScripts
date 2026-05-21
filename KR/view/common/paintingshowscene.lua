@@ -227,7 +227,7 @@ slot0.loadShowPaint = function(slot0, slot1, slot2, slot3)
 			uv1()
 		end)
 	elseif slot5 == MainPaintingView.STATE_L2D then
-		slot0.live2dChar = Live2D.New(Live2D.GenerateData({
+		slot0.live2dChar = Live2DPainting.New(Live2DPainting.GenerateData({
 			ship = slot4,
 			position = Vector3(0, 0, -1),
 			parent = slot0.l2dContainner
@@ -255,7 +255,7 @@ slot0.loadShowPaint = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.updateL2dSortMode = function(slot0, slot1)
-	ReflectionHelp.RefSetProperty(typeof("Live2D.Cubism.Rendering.CubismRenderController"), "SortingMode", slot1._go:GetComponent("Live2D.Cubism.Rendering.CubismRenderController"), ReflectionHelp.RefGetField(typeof("Live2D.Cubism.Rendering.CubismSortingMode"), "BackToFrontOrder", nil))
+	slot1._go:GetComponent(typeof(CubismRenderController)).SortingMode = CubismSortingMode.BackToFrontOrder
 end
 
 slot0.StaticGetPaintingName = function(slot0)

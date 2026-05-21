@@ -865,25 +865,27 @@ slot0.OpEvent = function(slot0, slot1, slot2)
 		end)
 	elseif slot7 == WorldMapAttachment.EffectEventConsumeItem then
 		if not slot3.isAutoFight then
-			table.insert(slot9, function (slot0)
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					type = MSGBOX_TYPE_ITEM_BOX,
-					content = i18n("sub_item_warning"),
-					items = {
-						{
-							type = DROP_TYPE_WORLD_ITEM,
-							id = uv0[1],
-							count = uv0[2]
-						}
-					},
-					onYes = slot0,
-					onNo = function ()
-						uv0.triggered = true
+			if not slot8[4] then
+				table.insert(slot9, function (slot0)
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						type = MSGBOX_TYPE_ITEM_BOX,
+						content = i18n("sub_item_warning"),
+						items = {
+							{
+								type = DROP_TYPE_WORLD_ITEM,
+								id = uv0[1],
+								count = uv0[2]
+							}
+						},
+						onYes = slot0,
+						onNo = function ()
+							uv0.triggered = true
 
-						uv1:OpInteractive()
-					end
-				})
-			end)
+							uv1:OpInteractive()
+						end
+					})
+				end)
+			end
 		end
 
 		table.insert(slot9, function (slot0)
@@ -1042,237 +1044,263 @@ slot0.OpTriggerEvent = function(slot0, slot1, slot2)
 	slot0:OpDone()
 
 	slot3 = nowWorld()
-	slot4 = {}
 	slot5 = slot1.effect
 	slot7 = slot5.effect_paramater
 
-	if slot5.effect_type == WorldMapAttachment.EffectEventStory then
-		slot8 = getProxy(WorldProxy)
+	switch(slot5.effect_type, {
+		[WorldMapAttachment.EffectEventStory] = function ()
+			slot0 = getProxy(WorldProxy)
 
-		if WorldConst.CheckWorldStorySkip(slot7[1]) then
-			table.insert(slot4, function (slot0)
-				uv0:ReContinueMoveQueue()
-				slot0()
-			end)
-		else
-			table.insert(slot4, function (slot0)
-				uv0:OpStory(uv1, true, false, uv2.isAutoFight and {} or false, slot0)
-			end)
-		end
-
-		table.insert(slot4, function (slot0)
-			uv0:Apply()
-			slot0()
-		end)
-	elseif slot6 == WorldMapAttachment.EffectEventTeleport or slot6 == WorldMapAttachment.EffectEventTeleportBack then
-		assert(slot1.attachment and slot8.type == WorldMapAttachment.TypeEvent)
-
-		slot9 = slot3:GetMap(slot1.destMapId)
-		slot10 = slot1.effect.effect_paramater[1]
-
-		if slot10[#slot10] == 1 then
-			table.insert(slot4, function (slot0)
-				uv0:ShowTransportMarkOverview({
-					ids = {
-						uv1.entranceId
-					}
-				}, slot0)
-			end)
-		end
-
-		if uv0:GetInMap() and slot8.config.icon == "chuansong01" then
-			table.insert(slot4, function (slot0)
-				uv0:OpAttachmentAnim(uv1:NewMapOp({
-					anim = "chuansong_open",
-					attachment = uv2
-				}), slot0)
-			end)
-		end
-
-		table.insert(slot4, function (slot0)
-			uv0:OpSwitchMap(uv1, slot0)
-		end)
-	elseif slot6 == WorldMapAttachment.EffectEventShowMapMark then
-		if not slot3.isAutoFight then
-			table.insert(slot4, function (slot0)
-				uv0:OpShowMarkOverview({
-					ids = uv1
-				}, slot0)
-			end)
-		end
-
-		table.insert(slot4, function (slot0)
-			uv0:Apply()
-			slot0()
-		end)
-	elseif slot6 == WorldMapAttachment.EffectEventCameraMove then
-		table.insert(slot4, function (slot0)
-			slot1 = uv0
-
-			slot1:OpMoveCamera(uv1[1], uv1[2], function ()
-				uv0:Apply()
-				uv1()
-			end)
-		end)
-	elseif slot6 == WorldMapAttachment.EffectEventShakePlane then
-		table.insert(slot4, function (slot0)
-			slot1 = uv0
-
-			slot1:OpShakePlane(uv1[1], uv1[2], uv1[3], uv1[4], function ()
-				uv0:Apply()
-				uv1()
-			end)
-		end)
-	elseif slot6 == WorldMapAttachment.EffectEventBlink1 or slot6 == WorldMapAttachment.EffectEventBlink2 then
-		table.insert(slot4, function (slot0)
-			slot1 = uv0
-
-			slot1:TriggerAutoFight(false)
-
-			slot1 = uv1
-
-			slot1:OpActions(uv2.childOps, function ()
-				uv0:Apply()
-				uv1()
-			end)
-		end)
-	elseif slot6 == WorldMapAttachment.EffectEventFlash then
-		table.insert(slot4, function (slot0)
-			slot2 = uv1
-
-			slot2:OpFlash(uv0[1], uv0[2], uv0[3], Color.New(uv0[4][1] / 255, uv0[4][2] / 255, uv0[4][3] / 255, uv0[4][4] / 255), function ()
-				uv0:Apply()
-				uv1()
-			end)
-		end)
-	elseif slot6 == WorldMapAttachment.EffectEventShipBuff then
-		table.insert(slot4, function (slot0)
-			uv0:Apply()
-			slot0()
-		end)
-	elseif slot6 == WorldMapAttachment.EffectEventHelp then
-		if not slot3.isAutoFight then
-			table.insert(slot4, function (slot0)
-				slot1 = WorldConst.BuildHelpTips(uv0:GetProgress())
-				slot1.defaultpage = uv1[1]
-
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					type = MSGBOX_TYPE_HELP,
-					helps = slot1,
-					onClose = slot0
-				})
-			end)
-		end
-
-		table.insert(slot4, function (slot0)
-			uv0:Apply()
-			slot0()
-		end)
-	elseif slot6 == WorldMapAttachment.EffectEventProgress then
-		table.insert(slot4, function (slot0)
-			slot1 = uv0
-
-			slot1:OpActions(uv1.childOps, function ()
-				uv0:Apply()
-				uv1()
-			end)
-		end)
-	elseif slot6 == WorldMapAttachment.EffectEventReturn2World then
-		table.insert(slot4, function (slot0)
-			slot1 = uv0
-
-			slot1:TriggerAutoFight(false)
-
-			slot1 = uv1
-
-			slot1:OpSetInMap(false, function ()
-				uv0:Apply()
-				uv1()
-			end)
-		end)
-	elseif slot6 == WorldMapAttachment.EffectEventShowPort then
-		table.insert(slot4, function (slot0)
-			uv0:Apply()
-			uv1:TriggerAutoFight(false)
-			uv2:OpenPortLayer({
-				page = uv3[1]
-			})
-			slot0()
-		end)
-	elseif slot6 == WorldMapAttachment.EffectEventGlobalBuff then
-		slot8 = {
-			id = slot7[1],
-			floor = slot7[2],
-			before = slot3:GetGlobalBuff(slot7[1]):GetFloor()
-		}
-
-		if slot3.isAutoFight then
-			slot3:AddAutoInfo("buffs", slot8)
-		else
-			table.insert(slot4, function (slot0)
-				uv0:ShowSubView("GlobalBuff", {
-					uv1,
-					slot0
-				})
-			end)
-		end
-
-		table.insert(slot4, function (slot0)
-			uv0:Apply()
-			slot0()
-		end)
-	elseif slot6 == WorldMapAttachment.EffectEventSound then
-		table.insert(slot4, function (slot0)
-			slot1 = uv0
-
-			slot1:OpPlaySound(uv1[1], function ()
-				uv0:Apply()
-				uv1()
-			end)
-		end)
-	elseif slot6 == WorldMapAttachment.EffectEventHelpLayer then
-		table.insert(slot4, function (slot0)
-			uv0:TriggerAutoFight(false)
-			uv1:Apply()
-			uv2:OpOpenLayer(Context.New({
-				mediator = WorldHelpMediator,
-				viewComponent = WorldHelpLayer,
-				data = {
-					titleId = uv3[1],
-					pageId = uv3[2]
-				},
-				onRemoved = slot0
-			}))
-		end)
-	elseif slot6 == WorldMapAttachment.EffectEventFleetShipHP then
-		table.insert(slot4, function (slot0)
-			uv0:Apply()
-
-			if uv1[1] > 0 then
-				uv2:OpShowAllFleetHealth(slot0)
+			if WorldConst.CheckWorldStorySkip(uv0[1]) then
+				table.insert(uv1, function (slot0)
+					uv0:ReContinueMoveQueue()
+					slot0()
+				end)
 			else
-				slot0()
+				table.insert(uv1, function (slot0)
+					uv0:OpStory(uv1, true, false, uv2.isAutoFight and {} or false, slot0)
+				end)
 			end
-		end)
-	elseif slot6 == WorldMapAttachment.EffectEventCatSalvage then
-		table.insert(slot4, function (slot0)
-			uv0:Apply()
-			pg.TipsMgr.GetInstance():ShowTips(i18n("world_catsearch_success"))
-			slot0()
-		end)
-	elseif slot6 == WorldMapAttachment.EffectEventTeleportEvent then
-		table.insert(slot4, function (slot0)
-			uv0:Apply()
-			uv1.wsDragProxy:Focus(uv1.wsMap:GetFleet().transform.position, nil, LeanTweenType.easeInOutSine, slot0)
-		end)
-	else
-		table.insert(slot4, function (slot0)
-			uv0:Apply()
-			slot0()
-		end)
-	end
 
-	seriesAsync(slot4, slot2)
+			table.insert(uv1, function (slot0)
+				uv0:Apply()
+				slot0()
+			end)
+		end,
+		[WorldMapAttachment.EffectEventTeleport] = function ()
+			assert(uv0.attachment and slot0.type == WorldMapAttachment.TypeEvent)
+
+			slot1 = uv1:GetMap(uv0.destMapId)
+			slot2 = uv0.effect.effect_paramater[1]
+
+			if slot2[#slot2] == 1 then
+				table.insert(uv2, function (slot0)
+					uv0:ShowTransportMarkOverview({
+						ids = {
+							uv1.entranceId
+						}
+					}, slot0)
+				end)
+			end
+
+			if uv3:GetInMap() and slot0.config.icon == "chuansong01" then
+				table.insert(uv2, function (slot0)
+					uv0:OpAttachmentAnim(uv1:NewMapOp({
+						anim = "chuansong_open",
+						attachment = uv2
+					}), slot0)
+				end)
+			end
+
+			table.insert(uv2, function (slot0)
+				uv0:OpSwitchMap(uv1, slot0)
+			end)
+		end,
+		[WorldMapAttachment.EffectEventTeleportBack] = WorldMapAttachment.EffectEventTeleport,
+		[WorldMapAttachment.EffectEventShowMapMark] = function ()
+			if not uv0.isAutoFight then
+				table.insert(uv1, function (slot0)
+					uv0:OpShowMarkOverview({
+						ids = uv1
+					}, slot0)
+				end)
+			end
+
+			table.insert(uv1, function (slot0)
+				uv0:Apply()
+				slot0()
+			end)
+		end,
+		[WorldMapAttachment.EffectEventCameraMove] = function ()
+			table.insert(uv0, function (slot0)
+				slot1 = uv0
+
+				slot1:OpMoveCamera(uv1[1], uv1[2], function ()
+					uv0:Apply()
+					uv1()
+				end)
+			end)
+		end,
+		[WorldMapAttachment.EffectEventShakePlane] = function ()
+			table.insert(uv0, function (slot0)
+				slot1 = uv0
+
+				slot1:OpShakePlane(uv1[1], uv1[2], uv1[3], uv1[4], function ()
+					uv0:Apply()
+					uv1()
+				end)
+			end)
+		end,
+		[WorldMapAttachment.EffectEventBlink1] = function ()
+			table.insert(uv0, function (slot0)
+				slot1 = uv0
+
+				slot1:TriggerAutoFight(false)
+
+				slot1 = uv1
+
+				slot1:OpActions(uv2.childOps, function ()
+					uv0:Apply()
+					uv1()
+				end)
+			end)
+		end,
+		[WorldMapAttachment.EffectEventBlink2] = WorldMapAttachment.EffectEventBlink1,
+		[WorldMapAttachment.EffectEventFlash] = function ()
+			table.insert(uv0, function (slot0)
+				slot2 = uv1
+
+				slot2:OpFlash(uv0[1], uv0[2], uv0[3], Color.New(uv0[4][1] / 255, uv0[4][2] / 255, uv0[4][3] / 255, uv0[4][4] / 255), function ()
+					uv0:Apply()
+					uv1()
+				end)
+			end)
+		end,
+		[WorldMapAttachment.EffectEventShipBuff] = function ()
+			table.insert(uv0, function (slot0)
+				uv0:Apply()
+				slot0()
+			end)
+		end,
+		[WorldMapAttachment.EffectEventHelp] = function ()
+			if not uv0.isAutoFight then
+				table.insert(uv1, function (slot0)
+					slot1 = WorldConst.BuildHelpTips(uv0:GetProgress())
+					slot1.defaultpage = uv1[1]
+
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						type = MSGBOX_TYPE_HELP,
+						helps = slot1,
+						onClose = slot0
+					})
+				end)
+			end
+
+			table.insert(uv1, function (slot0)
+				uv0:Apply()
+				slot0()
+			end)
+		end,
+		[WorldMapAttachment.EffectEventProgress] = function ()
+			table.insert(uv0, function (slot0)
+				slot1 = uv0
+
+				slot1:OpActions(uv1.childOps, function ()
+					uv0:Apply()
+					uv1()
+				end)
+			end)
+		end,
+		[WorldMapAttachment.EffectEventReturn2World] = function ()
+			table.insert(uv0, function (slot0)
+				slot1 = uv0
+
+				slot1:TriggerAutoFight(false)
+
+				slot1 = uv1
+
+				slot1:OpSetInMap(false, function ()
+					uv0:Apply()
+					uv1()
+				end)
+			end)
+		end,
+		[WorldMapAttachment.EffectEventShowPort] = function ()
+			table.insert(uv0, function (slot0)
+				uv0:Apply()
+				uv1:TriggerAutoFight(false)
+				uv2:OpenPortLayer({
+					page = uv3[1]
+				})
+				slot0()
+			end)
+		end,
+		[WorldMapAttachment.EffectEventGlobalBuff] = function ()
+			slot0 = {
+				id = uv0[1],
+				floor = uv0[2],
+				before = uv1:GetGlobalBuff(uv0[1]):GetFloor()
+			}
+
+			if uv1.isAutoFight then
+				uv1:AddAutoInfo("buffs", slot0)
+			else
+				table.insert(uv2, function (slot0)
+					uv0:ShowSubView("GlobalBuff", {
+						uv1,
+						slot0
+					})
+				end)
+			end
+
+			table.insert(uv2, function (slot0)
+				uv0:Apply()
+				slot0()
+			end)
+		end,
+		[WorldMapAttachment.EffectEventSound] = function ()
+			table.insert(uv0, function (slot0)
+				slot1 = uv0
+
+				slot1:OpPlaySound(uv1[1], function ()
+					uv0:Apply()
+					uv1()
+				end)
+			end)
+		end,
+		[WorldMapAttachment.EffectEventHelpLayer] = function ()
+			table.insert(uv0, function (slot0)
+				uv0:TriggerAutoFight(false)
+				uv1:Apply()
+				uv2:OpOpenLayer(Context.New({
+					mediator = WorldHelpMediator,
+					viewComponent = WorldHelpLayer,
+					data = {
+						titleId = uv3[1],
+						pageId = uv3[2]
+					},
+					onRemoved = slot0
+				}))
+			end)
+		end,
+		[WorldMapAttachment.EffectEventFleetShipHP] = function ()
+			table.insert(uv0, function (slot0)
+				uv0:Apply()
+
+				if uv1[1] > 0 then
+					uv2:OpShowAllFleetHealth(slot0)
+				else
+					slot0()
+				end
+			end)
+		end,
+		[WorldMapAttachment.EffectEventCatSalvage] = function ()
+			table.insert(uv0, function (slot0)
+				uv0:Apply()
+				pg.TipsMgr.GetInstance():ShowTips(i18n("world_catsearch_success"))
+				slot0()
+			end)
+		end,
+		[WorldMapAttachment.EffectEventTeleportEvent] = function ()
+			table.insert(uv0, function (slot0)
+				uv0:Apply()
+				uv1.wsDragProxy:Focus(uv1.wsMap:GetFleet().transform.position, nil, LeanTweenType.easeInOutSine, slot0)
+			end)
+		end,
+		[WorldMapAttachment.EffectSideText] = function ()
+			table.insert(uv0, function (slot0)
+				uv0:Apply()
+				uv1.wsMapTop:OnUpdateFlashTips(nil, , uv2[1])
+				slot0()
+			end)
+		end
+	}, function ()
+		table.insert(uv0, function (slot0)
+			uv0:Apply()
+			slot0()
+		end)
+	end)
+	seriesAsync({}, slot2)
 end
 
 slot0.OpReqRetreat = function(slot0, slot1)

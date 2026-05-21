@@ -14,7 +14,11 @@ pg.island_activity_template.all = {
 	990011,
 	990013,
 	990014,
-	990015
+	990015,
+	990016,
+	990017,
+	990018,
+	990019
 }
 pg.base = pg.base or {}
 pg.base.island_activity_template = {}
@@ -130,5 +134,40 @@ pg.base.island_activity_template = {}
 			class_name = "IslandCheaterTavernPTPage",
 			ui_name = "IslandCheaterTavernPTPage"
 		}
+	}
+	pg.base.island_activity_template[990016] = {
+		is_show = 99,
+		title_res_tag = "여름 특산품 경영",
+		id = 990016,
+		config_id = 0,
+		ability_id = 33001,
+		page_info = {
+			class_name = "IslandActivitySpecialOrderS3Page",
+			ui_name = "IslandActivitySpecialOrderS3Page"
+		}
+	}
+	pg.base.island_activity_template[990017] = {
+		is_show = 0,
+		title_res_tag = "",
+		page_info = "",
+		id = 990017,
+		config_id = 0,
+		ability_id = 34001
+	}
+	pg.base.island_activity_template[990018] = {
+		is_show = 0,
+		title_res_tag = "",
+		page_info = "",
+		id = 990018,
+		config_id = 0,
+		ability_id = 35001
+	}
+	pg.base.island_activity_template[990019] = {
+		is_show = 0,
+		title_res_tag = "",
+		page_info = "",
+		id = 990019,
+		config_id = 0,
+		ability_id = 36001
 	}
 end)()

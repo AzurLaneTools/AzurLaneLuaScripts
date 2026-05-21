@@ -6182,8 +6182,7 @@ _G.pg.base.world_event_data[1401] = {
 	event_op = {},
 	effect = {
 		1406,
-		1416,
-		1417
+		1444
 	},
 	grid = {
 		{
@@ -6388,6 +6387,45 @@ _G.pg.base.world_event_data[1410] = {
 		1436,
 		1437,
 		1438,
+		1439
+	},
+	grid = {
+		{
+			0,
+			0,
+			0,
+			0
+		}
+	},
+	slg_bufflist = {},
+	slg_buffnum = {},
+	map_buff = {},
+	deviation = {}
+}
+
+
+_G.pg.base.world_event_data[1411] = {
+	enemyicon = 0,
+	name = "세이렌 탐지 장치(고장)",
+	visuality = 0,
+	scale = 0,
+	auto_pri = 0,
+	icontype = 2,
+	is_scanevent = 1,
+	obstacle = 2,
+	event_sight = -1,
+	icon = "laohuji_pohuai",
+	special_enemy = 0,
+	infection_value = 0,
+	compass_index = 0,
+	discover_type = 2,
+	scan_desc = "시설 고장남...",
+	expedition_icon = 0,
+	is_guide = 0,
+	object_icon = "",
+	id = 1411,
+	event_op = {},
+	effect = {
 		1439
 	},
 	grid = {

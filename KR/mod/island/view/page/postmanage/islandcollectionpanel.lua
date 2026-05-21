@@ -72,6 +72,11 @@ slot0.OnInit = function(slot0)
 			type = IslandMsgBox.TYPE_COMMON_AUTO_CONFIRM
 		})
 	end)
+	onButton(slot0, slot0.uiBackBtn, function ()
+		uv0.curType = IslandAutoCollectHelper.SelectType.None
+
+		uv0:Flush()
+	end)
 
 	slot1 = slot0.uiShipList
 
@@ -94,6 +99,7 @@ slot0.OnInit = function(slot0)
 	end)
 	setText(slot0.uiSelectConfirmText, i18n("island_chara_gather_range"))
 	setText(slot0.uiConfirmText, i18n("island_chara_gather_start"))
+	setText(slot0.uiBackText, i18n("word_back"))
 end
 
 slot0.InitShipItem = function(slot0, slot1, slot2)
@@ -166,6 +172,7 @@ end
 slot0.Flush = function(slot0)
 	setActive(slot0.uiSelectConfirm, slot0.curType == IslandAutoCollectHelper.SelectType.None)
 	setActive(slot0.uiConfirmBtn, slot0.curType ~= IslandAutoCollectHelper.SelectType.None)
+	setActive(slot0.uiBackBtn, slot0.curType ~= IslandAutoCollectHelper.SelectType.None)
 	slot0:RefreshData()
 
 	if slot0.curType ~= IslandAutoCollectHelper.SelectType.None then

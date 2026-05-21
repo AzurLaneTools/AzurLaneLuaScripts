@@ -28,7 +28,9 @@ pg.island_farm_seed.all = {
 	1206,
 	1207,
 	1208,
-	1209
+	1209,
+	1210,
+	1211
 }
 pg.base = pg.base or {}
 pg.base.island_farm_seed = {}
@@ -189,5 +191,17 @@ pg.base.island_farm_seed = {}
 		name = "파인애플 씨앗",
 		itemid = 4022,
 		formulaid = 9900010
+	}
+	pg.base.island_farm_seed[1210] = {
+		id = 1210,
+		name = "토마토 씨앗",
+		itemid = 4034,
+		formulaid = 9900017
+	}
+	pg.base.island_farm_seed[1211] = {
+		id = 1211,
+		name = "오이 씨앗",
+		itemid = 4036,
+		formulaid = 9900018
 	}
 end)()

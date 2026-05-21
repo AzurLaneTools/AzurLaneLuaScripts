@@ -37,7 +37,11 @@ slot0.execute = function(slot0, slot1)
 				pg.TipsMgr.GetInstance():ShowTips(i18n("island_cancel_follow_success"))
 			end
 
-			uv3:sendNotification(GAME.ISLAND_FOLLOWER_OP_DONE)
+			uv3:sendNotification(GAME.ISLAND_FOLLOWER_OP_DONE, uv2)
+
+			if uv4.callback then
+				uv4.callback()
+			end
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)
 		end

@@ -73,10 +73,6 @@ slot0.init = function(slot0)
 
 	slot0.currentServer = slot0.adapt:Find("current_server")
 	slot0.serviceBtn = slot0.adapt:Find("bg_lay/buttons/service_button")
-	slot0.filingBtn = slot0.adapt:Find("filingBtn")
-
-	setActive(slot0.filingBtn, PLATFORM_CODE == PLATFORM_CH)
-
 	slot0.serversPanel = slot0.adapt:Find("servers")
 	slot0.servers = slot0.serversPanel:Find("panel/panel/servers/content/server_list")
 	slot0.serverTpl = slot0:getTpl("server_tpl")
@@ -144,13 +140,7 @@ slot0.init = function(slot0)
 
 	slot0.loginPanelView:SetShareData(slot0.shareData)
 
-	slot0.airiLoginPanelView = nil
-
-	if PLATFORM_CODE == PLATFORM_US then
-		slot0.airiLoginPanelView = AiriUSLoginPanelView.New(slot0._tf, slot0.event, slot0.contextData)
-	else
-		slot0.airiLoginPanelView = AiriLoginPanelView.New(slot0._tf, slot0.event, slot0.contextData)
-	end
+	slot0.airiLoginPanelView = AiriLoginPanelView.New(slot0._tf, slot0.event, slot0.contextData)
 
 	slot0.loginPanelView:SetShareData(slot0.shareData)
 
@@ -478,9 +468,6 @@ slot0.didEnter = function(slot0)
 		end
 	end
 
-	onButton(slot0, slot0.filingBtn, function ()
-		Application.OpenURL("http://sq.ccm.gov.cn:80/ccnt/sczr/service/business/emark/gameNetTag/4028c08b58bd467b0158bd8bd80d062a")
-	end, SFX_PANEL)
 	onButton(slot0, slot0.currentServer, function ()
 		if table.getCount(uv0.serverList or {}) == 0 then
 			uv1()
@@ -928,6 +915,10 @@ slot0.onLoadDataDone = function(slot0)
 			isFromLogin = true
 		})
 	end
+end
+
+slot0.onLoginWait = function(slot0, slot1)
+	slot0.subViewList[LoginSceneConst.DEFINE.AIRI_LOGIN_PANEL_VIEW]:RefreshUI(slot1)
 end
 
 return slot0

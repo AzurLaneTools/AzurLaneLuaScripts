@@ -12,29 +12,22 @@ slot0.SetShareData = function(slot0, slot1)
 end
 
 slot0.OnInit = function(slot0)
-	slot0.airijpPanel = slot0._tf
-	slot0.airiLoginBtn = slot0.airijpPanel:Find("airi_login")
-	slot0.clearTranscodeBtn = slot0.airijpPanel:Find("clear_transcode")
-	slot0.jpLoginCon = slot0.airijpPanel:Find("jp_login_btns")
+	slot0.airiLoginBtn = slot0._tf:Find("airi_login")
+	slot0.clearTranscodeBtn = slot0._tf:Find("clear_transcode")
+	slot0.jpLoginCon = slot0._tf:Find("jp_login_btns")
 	slot0.jpYoStarLoginBtn = slot0.jpLoginCon:Find("yostar_login")
 	slot0.jpTransBtn = slot0.jpLoginCon:Find("yostar_trans")
-	slot0.enLoginCon = slot0.airijpPanel:Find("en_login_btns")
-	slot0.twitterLoginBtn_en = slot0.enLoginCon:Find("twitter_login_en")
-	slot0.facebookLoginBtn_en = slot0.enLoginCon:Find("facebook_login_en")
-	slot0.yostarLoginBtn_en = slot0.enLoginCon:Find("yostar_login_en")
-	slot0.appleLoginBtn_en = slot0.enLoginCon:Find("apple_login_en")
-	slot0.amazonLoginBtn_en = slot0.enLoginCon:Find("amazon_login_en")
+	slot0.usLoginCon = slot0._tf:Find("en_login_btns")
+	slot0.usYoStarLoginBtn = slot0.usLoginCon:Find("yostar_login")
+	slot0.usTransBtn = slot0.usLoginCon:Find("yostar_trans")
+	slot0.usLogOutBtn = slot0.usLoginCon:Find("yostar_logout")
 
 	setActive(slot0.clearTranscodeBtn, false)
 	setText(slot0.jpYoStarLoginBtn:Find("Text"), i18n("yostar_login_btn"))
 	setText(slot0.jpTransBtn:Find("Text"), i18n("yostar_trans_btn"))
 	setActive(slot0.jpYoStarLoginBtn, PLATFORM_CODE == PLATFORM_JP)
 	setActive(slot0.jpTransBtn, PLATFORM_CODE == PLATFORM_JP)
-	setActive(slot0.twitterLoginBtn_en, PLATFORM_CODE == PLATFORM_US)
-	setActive(slot0.facebookLoginBtn_en, PLATFORM_CODE == PLATFORM_US and pg.SdkMgr.GetInstance():GetChannelUID() ~= "3")
-	setActive(slot0.yostarLoginBtn_en, PLATFORM_CODE == PLATFORM_US)
-	setActive(slot0.appleLoginBtn_en, PLATFORM_CODE == PLATFORM_US and pg.SdkMgr.GetInstance():GetChannelUID() == "1")
-	setActive(slot0.amazonLoginBtn_en, PLATFORM_CODE == PLATFORM_US and pg.SdkMgr.GetInstance():GetChannelUID() == "3")
+	setActive(slot0.usLoginCon, PLATFORM_CODE == PLATFORM_US)
 	slot0:InitEvent()
 end
 
@@ -45,34 +38,33 @@ slot0.InitEvent = function(slot0)
 	end)
 	onButton(slot0, slot0.clearTranscodeBtn, function ()
 	end)
-	onButton(slot0, slot0.jpYoStarLoginBtn, function ()
-		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CONFIRM)
-		pg.SdkMgr.GetInstance():YoStarLoginSDK()
-	end)
-	onButton(slot0, slot0.jpTransBtn, function ()
-		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CONFIRM)
-		Application.OpenURL("https://migration.yostar.co.jp?pid=JP-AZURLANE")
-	end)
-	onButton(slot0, slot0.twitterLoginBtn_en, function ()
-		pg.SdkMgr.GetInstance():LoginWithSocial(AIRI_PLATFORM_TWITTER)
-	end)
-	onButton(slot0, slot0.facebookLoginBtn_en, function ()
-		pg.SdkMgr.GetInstance():LoginWithSocial(AIRI_PLATFORM_FACEBOOK)
-	end)
-	onButton(slot0, slot0.yostarLoginBtn_en, function ()
-		uv0:emit(LoginSceneConst.SWITCH_SUB_VIEW, {
-			LoginSceneConst.DEFINE.YOSTAR_ALERT_VIEW,
-			LoginSceneConst.DEFINE.AIRI_LOGIN_PANEL_VIEW,
-			LoginSceneConst.DEFINE.PRESS_TO_LOGIN
-		})
-	end)
-	onButton(slot0, slot0.appleLoginBtn_en, function ()
-		pg.SdkMgr.GetInstance():LoginWithSocial(AIRI_PLATFORM_APPLE)
-	end)
-	onButton(slot0, slot0.amazonLoginBtn_en, function ()
-		pg.SdkMgr.GetInstance():LoginWithSocial(AIRI_PLATFORM_AMAZON)
-	end)
+
+	if PLATFORM_CODE == PLATFORM_JP then
+		onButton(slot0, slot0.jpYoStarLoginBtn, function ()
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CONFIRM)
+			pg.SdkMgr.GetInstance():YoStarLoginSDK()
+		end)
+		onButton(slot0, slot0.jpTransBtn, function ()
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CONFIRM)
+			Application.OpenURL("https://migration.yostar.co.jp?pid=JP-AZURLANE")
+		end)
+	elseif PLATFORM_CODE == PLATFORM_US then
+		onButton(slot0, slot0.usTransBtn, function ()
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CONFIRM)
+			Application.OpenURL("https://migration.yo-star.com/?pid=US-AZURLANE")
+		end)
+		onButton(slot0, slot0.usLogOutBtn, function ()
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CONFIRM)
+			pg.SdkMgr.GetInstance():YoStarShowSwitchAccount()
+		end)
+	end
+
+	slot0:RefreshUI(false)
 	triggerButton(slot0.airiLoginBtn)
+end
+
+slot0.RefreshUI = function(slot0, slot1)
+	setActive(slot0.usLogOutBtn, slot1)
 end
 
 slot0.OnDestroy = function(slot0)

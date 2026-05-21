@@ -903,6 +903,15 @@ slot0.isShow = function(slot0)
 end
 
 slot0.isAfterShow = function(slot0)
+	if slot0.configId == ActivityConst.ISLAND_SIGN_ID then
+		slot2 = getProxy(ActivityTaskProxy)
+		slot3 = slot2:GetActivityTasks(slot0.id)
+
+		return _.all(_.flatten(slot0:getConfig("config_data")), function (slot0)
+			return uv0[slot0] and slot1:isOver()
+		end)
+	end
+
 	if slot0.configId == ActivityConst.UR_TASK_ACT_ID or slot0.configId == ActivityConst.SPECIAL_WEAPON_ACT_ID then
 		slot1 = getProxy(TaskProxy)
 
