@@ -38,7 +38,8 @@ pg.dorm3d_shop_template.all = {
 	38,
 	39,
 	40,
-	41
+	41,
+	42
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_shop_template = {}
@@ -809,6 +810,28 @@ pg.base.dorm3d_shop_template = {}
 		},
 		banners = {
 			"banner_gift1051702"
+		}
+	}
+	pg.base.dorm3d_shop_template[42] = {
+		rarity = 4,
+		name = "緋紅邀約",
+		type = 2,
+		room_id = 30707,
+		unlock = "",
+		item_id = 3070702,
+		id = 42,
+		realroom_id = 0,
+		order = "2",
+		panel = {
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			260502
+		},
+		banners = {
+			"banner_gift3070702"
 		}
 	}
 end)()

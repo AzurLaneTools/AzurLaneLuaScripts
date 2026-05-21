@@ -14,6 +14,7 @@ pg.dorm3d_gift.all = {
 	1051701,
 	1051702,
 	3070701,
+	3070702,
 	4990501
 }
 pg.dorm3d_gift.get_id_list_by_ship_group_id = {
@@ -38,7 +39,8 @@ pg.dorm3d_gift.get_id_list_by_ship_group_id = {
 		3022102
 	},
 	[30707] = {
-		3070701
+		3070701,
+		3070702
 	},
 	[49905] = {
 		4990501
@@ -521,6 +523,36 @@ pg.base.dorm3d_gift = {}
 				30707,
 				{
 					"banner_gift3070701"
+				}
+			}
+		}
+	}
+	pg.base.dorm3d_gift[3070702] = {
+		display = "緋紅裙擺如晚霞鋪展，黑色蝴蝶已繫成心結。期待你指尖撫過，感受那顫動的溫熱下，藏不住的愛與心意~",
+		name = "緋紅邀約",
+		unlock_dialogue_id = 120551,
+		rarity = 4,
+		ship_group_id = 30707,
+		favor_trigger_id = 1004,
+		id = 3070702,
+		icon = "dorm3dicon/3Ddrom_dafeng_FancyGift2",
+		reply_dialogue_id = {
+			{
+				30707,
+				120305
+			}
+		},
+		shop_id = {
+			260502
+		},
+		unlock_tips = {
+			4
+		},
+		unlock_banners = {
+			{
+				30707,
+				{
+					"banner_gift3070702"
 				}
 			}
 		}

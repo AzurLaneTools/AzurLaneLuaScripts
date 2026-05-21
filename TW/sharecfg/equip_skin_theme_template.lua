@@ -1625,7 +1625,7 @@ pg.base.equip_skin_theme_template = {}
 	}
 	pg.base.equip_skin_theme_template[73] = {
 		id = 73,
-		name = "幻梦天原",
+		name = "幻夢天原",
 		ids = {
 			4222,
 			4223,

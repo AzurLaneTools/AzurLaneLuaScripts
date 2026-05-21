@@ -3223,6 +3223,13 @@ pg.memory_template.all = {
 	4133,
 	4134,
 	4135,
+	4141,
+	4142,
+	4143,
+	4144,
+	4145,
+	4146,
+	4147,
 	4151,
 	4152,
 	4153,
@@ -52372,6 +52379,111 @@ end)()
 			"SHISHANGTEKANHEDINGJIWU5"
 		}
 	}
+	pg.base.memory_template[4141] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "農家探索樂園",
+		condition = "解鎖「田園美味食記」任務1",
+		story = "LONGWU1",
+		id = 4141,
+		icon = "memory_longwu",
+		is_open = 0,
+		unlock_pre = {
+			"LONGWU1"
+		}
+	}
+	pg.base.memory_template[4142] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "草莓與甜味",
+		condition = "解鎖「田園美味食記」任務2",
+		story = "LONGWU2",
+		id = 4142,
+		icon = "memory_longwu",
+		is_open = 0,
+		unlock_pre = {
+			"LONGWU2"
+		}
+	}
+	pg.base.memory_template[4143] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "貝殼與清涼",
+		condition = "解鎖「田園美味食記」任務3",
+		story = "LONGWU3",
+		id = 4143,
+		icon = "memory_longwu",
+		is_open = 0,
+		unlock_pre = {
+			"LONGWU3"
+		}
+	}
+	pg.base.memory_template[4144] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "櫻桃與擁抱",
+		condition = "解鎖「田園美味食記」任務4",
+		story = "LONGWU4",
+		id = 4144,
+		icon = "memory_longwu",
+		is_open = 0,
+		unlock_pre = {
+			"LONGWU4"
+		}
+	}
+	pg.base.memory_template[4145] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "備餐的意外",
+		condition = "解鎖「田園美味食記」任務5",
+		story = "LONGWU5",
+		id = 4145,
+		icon = "memory_longwu",
+		is_open = 0,
+		unlock_pre = {
+			"LONGWU5"
+		}
+	}
+	pg.base.memory_template[4146] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "圍爐煮茶",
+		condition = "解鎖「田園美味食記」任務6",
+		story = "LONGWU6",
+		id = 4146,
+		icon = "memory_longwu",
+		is_open = 0,
+		unlock_pre = {
+			"LONGWU6"
+		}
+	}
+	pg.base.memory_template[4147] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "分享美味與美好",
+		condition = "解鎖「田園美味食記」任務7",
+		story = "LONGWU7",
+		id = 4147,
+		icon = "memory_longwu",
+		is_open = 0,
+		unlock_pre = {
+			"LONGWU7"
+		}
+	}
 	pg.base.memory_template[4151] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -53482,6 +53594,8 @@ end)()
 			"SHENGULAIXIN7"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[4268] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -53587,8 +53701,6 @@ end)()
 			"1360006"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[4301] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -54984,6 +55096,8 @@ end)()
 			"HUANYINGMITUZHEGUANQIAPIAN3"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[4434] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -55089,8 +55203,6 @@ end)()
 			"MICAIDUSHIDEXUNZONGZHE5"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[4456] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -56486,6 +56598,8 @@ end)()
 			"QIWUYUTIANYUANZHISHANG7"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[4608] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -56591,8 +56705,6 @@ end)()
 			"1966001"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[4615] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -57988,6 +58100,8 @@ end)()
 			"JUFENGYUZIYOUQUNDAO9"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[4730] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -58093,8 +58207,6 @@ end)()
 			"JUFENGYUZIYOUQUNDAO16"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[4737] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -59492,6 +59604,8 @@ end)()
 			"1996001"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[4893] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -59597,8 +59711,6 @@ end)()
 			"XIANGCHEYUTIANQIONGZHIYIN19"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[4900] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -60996,6 +61108,8 @@ end)()
 			"MANYOUZHEZHAOMUJIHUA3"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[5044] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -61101,8 +61215,6 @@ end)()
 			"MANYOUZHEZHAOMUJIHUA10"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[5051] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -62498,6 +62610,8 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA28"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20028] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -62603,8 +62717,6 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA35"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20035] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -64000,6 +64112,8 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA47"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20128] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -64105,8 +64219,6 @@ end)()
 			"LINGYANGZHEXINZHIXUYU7"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20135] = {
 		mask = "bg/bg_memory",
 		subtitle = "",

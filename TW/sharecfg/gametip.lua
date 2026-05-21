@@ -25455,5 +25455,9 @@ cs.gametip = {
 	exchange_code_skin_tip = {
 		1116508,
 		92
+	},
+	littleMusashi_npc = {
+		1116600,
+		950
 	}
 }

@@ -357,6 +357,7 @@ pg.memory_group.all = {
 	603,
 	604,
 	605,
+	606,
 	608,
 	614,
 	615,
@@ -8643,7 +8644,7 @@ end)()
 		icon = "title_chara_lvzuofu",
 		type = 3,
 		link_event = 0,
-		title = "夺回甜蜜美梦！",
+		title = "奪回甜蜜美夢！ ",
 		auto_unlock = "",
 		subtype = 0,
 		id = 605,
@@ -8655,6 +8656,27 @@ end)()
 			4065,
 			4066,
 			4067
+		},
+		group_id = {
+			10000
+		}
+	}
+	pg.base.memory_group[606] = {
+		icon = "title_chara_longwu",
+		type = 3,
+		link_event = 0,
+		title = "田園美味食記",
+		auto_unlock = "",
+		subtype = 0,
+		id = 606,
+		memories = {
+			4141,
+			4142,
+			4143,
+			4144,
+			4145,
+			4146,
+			4147
 		},
 		group_id = {
 			10000

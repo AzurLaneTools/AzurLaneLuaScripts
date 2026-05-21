@@ -397,6 +397,7 @@ pg.ship_data_group.all = {
 	425,
 	706,
 	217,
+	734,
 	218,
 	219,
 	220,
@@ -2045,6 +2046,9 @@ pg.ship_data_group.get_id_list_by_group_type = {
 	},
 	[30516] = {
 		706
+	},
+	[30517] = {
+		734
 	},
 	[30601] = {
 		218
@@ -3714,6 +3718,7 @@ pg.ship_data_group.get_id_list_by_handbook_type = {
 		425,
 		706,
 		217,
+		734,
 		218,
 		219,
 		220,
@@ -14664,6 +14669,16 @@ end)()
 					""
 				},
 				0
+			},
+			{
+				"核心兌換獲取",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
+				},
+				0
 			}
 		}
 	}
@@ -21501,6 +21516,38 @@ end)()
 			}
 		}
 	}
+	pg.base.ship_data_group[734] = {
+		nationality = 4,
+		type = 5,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 30517,
+		index_id = 491,
+		code = 734,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：尚未成熟的守護者",
+				{
+					""
+				},
+				0
+			}
+		}
+	}
 	pg.base.ship_data_group[218] = {
 		nationality = 3,
 		type = 6,
@@ -21724,6 +21771,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_group[426] = {
 		nationality = 3,
 		type = 6,
@@ -21767,8 +21816,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_group[470] = {
 		nationality = 3,
 		type = 6,
@@ -25728,6 +25775,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_group[387] = {
 		nationality = 4,
 		type = 8,
@@ -25780,8 +25829,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_group[341] = {
 		nationality = 4,
 		type = 8,
@@ -29796,6 +29843,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_group[587] = {
 		nationality = 7,
 		type = 5,
@@ -29828,8 +29877,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_group[628] = {
 		nationality = 7,
 		type = 5,
@@ -33303,6 +33350,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_group[10092] = {
 		nationality = 109,
 		type = 6,
@@ -33335,8 +33384,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_group[10093] = {
 		nationality = 109,
 		type = 5,
@@ -36710,6 +36757,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_group[30027] = {
 		nationality = 97,
 		type = 13,
@@ -36745,8 +36794,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_group[30028] = {
 		nationality = 97,
 		type = 2,

@@ -138,8 +138,6 @@ slot1.createDownloadFileInfo = function(slot0)
 	slot1 = BundleWizardUpdateInfo.New()
 	slot2 = {}
 
-	assert(#slot0 < 2)
-
 	for slot6, slot7 in ipairs(slot0) do
 		slot1:AddGroup(slot7.groupName, slot7.fileNameList)
 		table.insert(slot2, slot7.groupName)

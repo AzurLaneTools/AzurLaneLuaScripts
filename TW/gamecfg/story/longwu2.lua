@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"田园美味食记\n\n<size=45>二　草莓与甜味</size>",
+					"田園美味食記\n\n<size=45>2.草莓與甜味</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgm = "story-richang-light",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "第二天一大早，与龙武一起来到了农家探索乐园。",
+			say = "第二天一大早，與龍武一起來到了農家探索樂園。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，龙武你们来啦~！！",
+			say = "指揮官，龍武你們來啦~！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欢迎来到农家探索乐园喵~",
+			say = "歡迎來到農家探索樂園喵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "早上好。",
+			say = "早安。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			actor = 501050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们好……谢谢你们提供了优惠的套餐。",
+			say = "妳們好……謝謝妳們提供了優惠的套餐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哪里哪里~你们能来真是太好了~！",
+			say = "哪裡哪裡~你們能來真是太好了~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟龙武可以帮忙我们评估乐园里的食材品质，指挥官可以帮我们反馈体验~哈哈哈♪",
+			say = "畢竟龍武可以幫忙我們評估樂園裡的食材品質，指揮官可以幫我們反饋體驗~哈哈哈♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			actor = 501050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，那我会好好记录食材的口味的。",
+			say = "嗯，那我會好好紀錄食材的口味的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "相信以龙武和指挥官的专业程度，一定能给出很好的建议喵~",
+			say = "相信以龍武和指揮官的專業程度，一定能給出很好的建議喵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好啦，也不多占用你们的时间啦~乐园中还有很多很多内容等着你们去探索哦~！",
+			say = "好啦，也不多佔用你們的時間啦~樂園裡還有很多很多內容等著你們去探索哦~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_702",
 			hidePaintObj = true,
-			say = "在{namecode:98:明石}和{namecode:295:尾张}的推荐下，我们商定了一天的游玩路线。第一站就从正值采摘季节的草莓果园开始。",
+			say = "在明石和尾張的推薦下，我們商定了一天的遊玩路線。第一站就從正值採摘季節的草莓果園開始。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			actor = 501050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，草莓果园到了！",
+			say = "指揮官，草莓果園到了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			actor = 501050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这些草莓，看上去好好吃啊——！",
+			say = "這些草莓，看起來好好吃啊——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_702",
 			hidePaintObj = true,
-			say = "园中，翠绿的叶片层层叠叠，藏在叶片下的草莓鲜红成熟，散发着清甜的果香。",
+			say = "園中，翠綠的葉片層層疊疊，藏在葉片下的草莓鮮紅成熟，散發出清甜的果香。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			actor = 501050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，我们快一起去摘草莓吧！",
+			say = "指揮官，我們快點一起去摘草莓吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_702",
 			hidePaintObj = true,
-			say = "龙武迫不及待地拿了木篓子，拉过我的手，一同凑到了草莓植株旁边，利落地摘起了草莓。",
+			say = "龍武迫不及待地拿了木簍子，拉過我的手，一同湊到了草莓植株旁邊，俐落地摘起了草莓。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_702",
-			say = "不知不觉中，草莓已经将两个木篓填得满满当当。",
+			say = "不知不覺中，草莓已經將兩個木簍填得滿滿噹噹。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_702",
 			hidePaintObj = true,
-			say = "龙武还在摘着草莓，额头上布满细密的汗珠。",
+			say = "龍武還在摘著草莓，額頭上佈滿細密的汗珠。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "龙武，要不要休息一会儿？",
+			say = "龍武，要不要休息一下？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			actor = 501050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯？我也没有很累……",
+			say = "嗯？我也沒有很累……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			actor = 501050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊……已经采了这么多草莓了么？",
+			say = "啊……已經採了這麼多草莓了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			actor = 501050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那我们就休息一会儿吧，指挥官。",
+			say = "那我們就休息一下吧，指揮官。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "好，那我跟你一起去。",
+			say = "好，那我跟妳一起去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_702",
-			say = "利用果园的水池仔细清洗了草莓后，我与龙武一起坐到了一旁的长凳上。",
+			say = "利用果園的水池仔細清洗了草莓後，我與龍武一起坐到了一旁的長椅上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			actor = 501050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……确实有些累了呢，还好指挥官提醒我了。",
+			say = "……確實有些累了呢，還好指揮官提醒我了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			actor = 501050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "抱歉……指挥官，我总是这样，过分关注和美食相关的事情，很容易忽略周围的事……",
+			say = "抱歉……指揮官，我總是這樣，過度關注和美食相關的事情，很容易忽略周圍的事……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			actor = 501050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "刚刚摘草莓的时候，我就在想，这么美味新鲜的草莓肯定能让吃的人露出幸福的笑容……",
+			say = "剛摘草莓的時候，我就在想，這麼美味新鮮的草莓一定能讓吃的人露出幸福的笑容……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			actor = 501050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就想摘得更多一些，结果就一直一直没停下来……",
+			say = "就想摘得更多一些，結果就一直一直沒停下來……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其实……应该先让指挥官尝尝草莓的，毕竟刚摘下来的草莓是最美味的！",
+			say = "其實……應該先讓指揮官嚐嚐草莓的，畢竟剛摘下來的草莓是最美味的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_702",
 			hidePaintObj = true,
-			say = "龙武说完，带着期待的目光，将一颗草莓递到我嘴边。",
+			say = "龍武說完，帶著期待的目光，將一顆草莓遞到我嘴邊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_702",
 			hidePaintObj = true,
-			say = "一口咬下，草莓酸甜的果香在口中弥漫。",
+			say = "一口咬下，草莓酸甜的果香在口中瀰漫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +520,7 @@ return {
 			actor = 501050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "果然指挥官露出了幸福的笑容呢。",
+			say = "果然指揮官露出了幸福的笑容。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_702",
-			say = "将采摘的草莓送回住处后，我们按照计划向下一个目的地进发——园区的中心湖泊。",
+			say = "將採摘的草莓送回住處後，我們依照計畫向下一個目的地進發——園區的中心湖泊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

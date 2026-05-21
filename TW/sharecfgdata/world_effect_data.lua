@@ -572,13 +572,13 @@ _G.pg.base.world_effect_data[105] = {
 _G.pg.base.world_effect_data[106] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 106,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1200"
+		"搜尋到海域中隱藏的物資！"
 	},
 	autoflag = {}
 }
@@ -587,13 +587,13 @@ _G.pg.base.world_effect_data[106] = {
 _G.pg.base.world_effect_data[107] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 107,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1201"
+		"海域壓制完畢！在戰場檢查中，發現了塞壬的隱藏物資！"
 	},
 	autoflag = {}
 }
@@ -602,13 +602,13 @@ _G.pg.base.world_effect_data[107] = {
 _G.pg.base.world_effect_data[108] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 108,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1202"
+		"壓制獎勵已獲取，離開前請確認海域事件已清理完畢！本區域將在下次進入時變為安全海域，進入安全海域依然需要消耗行動力。"
 	},
 	autoflag = {}
 }
@@ -617,13 +617,13 @@ _G.pg.base.world_effect_data[108] = {
 _G.pg.base.world_effect_data[109] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 109,
 	autoactivate = 1,
 	effect_paramater = {
-		"W1203"
+		"海域中的敵人已被全部消滅，離開前請確認海域事件已清理完畢！再次進入本區域依然需要消耗行動力。"
 	},
 	autoflag = {}
 }
@@ -785,13 +785,13 @@ _G.pg.base.world_effect_data[213] = {
 _G.pg.base.world_effect_data[214] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 214,
 	autoactivate = 1,
 	effect_paramater = {
-		"W1240"
+		"指揮官，後勤艦隊為艦隊進行了維護，所有艦隊成員耐久值回復了10%。"
 	},
 	autoflag = {}
 }
@@ -1100,13 +1100,13 @@ _G.pg.base.world_effect_data[310] = {
 _G.pg.base.world_effect_data[311] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 311,
 	autoactivate = 1,
 	effect_paramater = {
-		"W1230"
+		"艦隊維護結束，艦隊的士氣與耐久值恢復了。同時接收到了來自指揮部的物資補給。"
 	},
 	autoflag = {}
 }
@@ -1225,13 +1225,13 @@ _G.pg.base.world_effect_data[325] = {
 _G.pg.base.world_effect_data[326] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 326,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1042"
+		"攜帶的塞壬能源儲存器不足，看樣子只能強行開啟了……"
 	},
 	autoflag = {}
 }
@@ -1288,13 +1288,13 @@ _G.pg.base.world_effect_data[401] = {
 _G.pg.base.world_effect_data[402] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 402,
 	autoactivate = 1,
 	effect_paramater = {
-		"W1220"
+		"港口的情況發生了一些變化……"
 	},
 	autoflag = {}
 }
@@ -1512,13 +1512,13 @@ _G.pg.base.world_effect_data[415] = {
 _G.pg.base.world_effect_data[431] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 431,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1221"
+		"在港口附近找到了補給。"
 	},
 	autoflag = {}
 }
@@ -1527,13 +1527,13 @@ _G.pg.base.world_effect_data[431] = {
 _G.pg.base.world_effect_data[441] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 441,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1222"
+		"在殘骸中找到了一些材料……"
 	},
 	autoflag = {}
 }
@@ -1608,13 +1608,13 @@ _G.pg.base.world_effect_data[461] = {
 _G.pg.base.world_effect_data[462] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 462,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1223"
+		"喵……算了不喵了我攤牌了……這裡是港口隨機劇情NPC測試員，恭喜你隨機出了特殊事件，現在沒有劇情，這個獎勵你先拿著吧"
 	},
 	autoflag = {}
 }
@@ -3627,13 +3627,13 @@ _G.pg.base.world_effect_data[1100] = {
 _G.pg.base.world_effect_data[1106] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 1106,
 	autoactivate = 1,
 	effect_paramater = {
-		"W1000"
+		"感受到了海域中存在的明顯異常氣息，去仔細探索一下吧……"
 	},
 	autoflag = {}
 }
@@ -3863,13 +3863,13 @@ _G.pg.base.world_effect_data[1118] = {
 _G.pg.base.world_effect_data[1119] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 1119,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1024"
+		"情報修正添加成功，艦隊的適應性提升了。"
 	},
 	autoflag = {}
 }
@@ -3946,13 +3946,13 @@ _G.pg.base.world_effect_data[1400] = {
 _G.pg.base.world_effect_data[1406] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 1406,
 	autoactivate = 1,
 	effect_paramater = {
-		"W1000"
+		"感受到了海域中存在的明顯異常氣息，去仔細探索一下吧……"
 	},
 	autoflag = {}
 }
@@ -3961,13 +3961,13 @@ _G.pg.base.world_effect_data[1406] = {
 _G.pg.base.world_effect_data[1407] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 1407,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1001"
+		"分析模組同步中：發現了一處塞壬探測裝置。\n警告：檢測到正在接近的塞壬艦隊，請做好作戰準備。"
 	},
 	autoflag = {}
 }
@@ -4038,13 +4038,13 @@ _G.pg.base.world_effect_data[1408] = {
 _G.pg.base.world_effect_data[1414] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 1414,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1002"
+		"正在分析戰場環境……………\n警告：檢測到塞壬的增援艦隊正在接近。"
 	},
 	autoflag = {}
 }
@@ -4053,13 +4053,13 @@ _G.pg.base.world_effect_data[1414] = {
 _G.pg.base.world_effect_data[1415] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 1415,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1003"
+		"分析模組同步中：周邊敵人已經肅清完畢，可以進行下一步部署了，指揮官。"
 	},
 	autoflag = {}
 }
@@ -4575,13 +4575,13 @@ _G.pg.base.world_effect_data[1441] = {
 _G.pg.base.world_effect_data[1442] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 1442,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1013"
+		"設備看起來還可以繼續使用……"
 	},
 	autoflag = {}
 }
@@ -5505,13 +5505,13 @@ _G.pg.base.world_effect_data[1801] = {
 _G.pg.base.world_effect_data[1802] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 1802,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1210"
+		"這是……異次元空間？\n嘗試著調查一下這些奇異的標記吧……\n不過，這個空間看起來非常不穩定的樣子……指揮官請隨時做好在空間崩壞前撤退的準備"
 	},
 	autoflag = {}
 }
@@ -5555,13 +5555,13 @@ _G.pg.base.world_effect_data[1810] = {
 _G.pg.base.world_effect_data[1811] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 1811,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1211"
+		"空間似乎正在破碎……"
 	},
 	autoflag = {}
 }
@@ -5586,13 +5586,13 @@ _G.pg.base.world_effect_data[1812] = {
 _G.pg.base.world_effect_data[1820] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 1820,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1212"
+		"不穩定空間出現了破碎的徵兆，看起來要盡快撤離了"
 	},
 	autoflag = {}
 }
@@ -5668,13 +5668,13 @@ _G.pg.base.world_effect_data[1832] = {
 _G.pg.base.world_effect_data[1833] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 1833,
 	autoactivate = 1,
 	effect_paramater = {
-		"W1213"
+		"不穩定空間即將破碎，指揮官請立刻撤離回到安全海域！"
 	},
 	autoflag = {}
 }
@@ -5705,13 +5705,13 @@ _G.pg.base.world_effect_data[1834] = {
 _G.pg.base.world_effect_data[1840] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 1840,
 	autoactivate = 1,
 	effect_paramater = {
-		"W1214"
+		"隨著空間崩碎，奇怪的物件增加了！"
 	},
 	autoflag = {}
 }
@@ -7172,13 +7172,13 @@ _G.pg.base.world_effect_data[5100] = {
 _G.pg.base.world_effect_data[5101] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 5101,
 	autoactivate = 1,
 	effect_paramater = {
-		"W1100"
+		"塞壬的威脅暫時解除了……不過周圍似乎出現了新的變化。"
 	},
 	autoflag = {}
 }
@@ -8080,13 +8080,13 @@ _G.pg.base.world_effect_data[5135] = {
 _G.pg.base.world_effect_data[5136] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 5136,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1101"
+		"分析模組同步中：在周邊區域發現了塞壬實驗場氣候調節裝置。"
 	},
 	autoflag = {}
 }
@@ -8302,13 +8302,13 @@ _G.pg.base.world_effect_data[5200] = {
 _G.pg.base.world_effect_data[5201] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 5201,
 	autoactivate = 1,
 	effect_paramater = {
-		"W1100"
+		"塞壬的威脅暫時解除了……不過周圍似乎出現了新的變化。"
 	},
 	autoflag = {}
 }
@@ -8751,13 +8751,13 @@ _G.pg.base.world_effect_data[5213] = {
 _G.pg.base.world_effect_data[5214] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 5214,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1101"
+		"分析模組同步中：在周邊區域發現了塞壬實驗場氣候調節裝置。"
 	},
 	autoflag = {}
 }
@@ -9105,13 +9105,13 @@ _G.pg.base.world_effect_data[5300] = {
 _G.pg.base.world_effect_data[5301] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 5301,
 	autoactivate = 1,
 	effect_paramater = {
-		"W1104"
+		"塞壬的威脅解除了……海域中發現了塞壬的資源點。"
 	},
 	autoflag = {}
 }
@@ -9152,13 +9152,13 @@ _G.pg.base.world_effect_data[5303] = {
 _G.pg.base.world_effect_data[5310] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 5310,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1105"
+		"指令執行中：正在回收散落的物資……警告，艦隊電子系統正在遭受干擾。"
 	},
 	autoflag = {}
 }
@@ -9250,13 +9250,13 @@ _G.pg.base.world_effect_data[5400] = {
 _G.pg.base.world_effect_data[5401] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 5401,
 	autoactivate = 1,
 	effect_paramater = {
-		"W1110"
+		"分析模組同步中：指揮官，周邊海域中發現了塞壬留下的控制裝置。"
 	},
 	autoflag = {}
 }
@@ -9329,13 +9329,13 @@ _G.pg.base.world_effect_data[5405] = {
 _G.pg.base.world_effect_data[5406] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 5406,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1111"
+		"警告：遭遇到塞壬艦隊伏擊。"
 	},
 	autoflag = {}
 }
@@ -9370,13 +9370,13 @@ _G.pg.base.world_effect_data[5407] = {
 _G.pg.base.world_effect_data[5414] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 5414,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1112"
+		"看起來需要兩只艦隊才能啟動控制裝置……指揮另一支艦隊前往顯示出的第二處位置吧。"
 	},
 	autoflag = {}
 }
@@ -9401,13 +9401,13 @@ _G.pg.base.world_effect_data[5415] = {
 _G.pg.base.world_effect_data[5416] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 5416,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1113"
+		"控制裝置啟動，機關被解除了！"
 	},
 	autoflag = {}
 }
@@ -9463,13 +9463,13 @@ _G.pg.base.world_effect_data[5419] = {
 _G.pg.base.world_effect_data[5420] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 5420,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1114"
+		"海面上出現了塞壬隱藏的資源！"
 	},
 	autoflag = {}
 }
@@ -9525,13 +9525,13 @@ _G.pg.base.world_effect_data[5500] = {
 _G.pg.base.world_effect_data[5501] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 5501,
 	autoactivate = 1,
 	effect_paramater = {
-		"W1110"
+		"分析模組同步中：指揮官，周邊海域中發現了塞壬留下的控制裝置。"
 	},
 	autoflag = {}
 }
@@ -9556,13 +9556,13 @@ _G.pg.base.world_effect_data[5502] = {
 _G.pg.base.world_effect_data[5503] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 5503,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1115"
+		"需要把能源矩陣移動到指定位置才能使其生效……"
 	},
 	autoflag = {}
 }
@@ -9655,13 +9655,13 @@ _G.pg.base.world_effect_data[5508] = {
 _G.pg.base.world_effect_data[5509] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 5509,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1117"
+		"能源矩陣被成功啟動，周邊海域安全了。"
 	},
 	autoflag = {}
 }
@@ -9685,13 +9685,13 @@ _G.pg.base.world_effect_data[5511] = {
 _G.pg.base.world_effect_data[5512] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 5512,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1118"
+		"警告：遭遇到塞壬艦隊伏擊。"
 	},
 	autoflag = {}
 }
@@ -9775,13 +9775,13 @@ _G.pg.base.world_effect_data[5601] = {
 _G.pg.base.world_effect_data[5602] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 5602,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1120"
+		"分析模組同步中：指揮官，剛剛結束的戰鬥是陷阱的可能性為97%。警告，遭遇到更多塞壬艦隊伏擊。"
 	},
 	autoflag = {}
 }
@@ -10035,13 +10035,13 @@ _G.pg.base.world_effect_data[5617] = {
 _G.pg.base.world_effect_data[5618] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 5618,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1121"
+		"戰鬥結束，敵人沒有更多伏擊艦隊的跡象了。"
 	},
 	autoflag = {}
 }
@@ -10065,13 +10065,13 @@ _G.pg.base.world_effect_data[5700] = {
 _G.pg.base.world_effect_data[5701] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 5701,
 	autoactivate = 1,
 	effect_paramater = {
-		"W1122"
+		"警告：發現了啟動中的塞壬增援裝置。裝置正在持續不斷的向周邊區域的塞壬發送增援信號，請盡快將其關閉或摧毀。"
 	},
 	autoflag = {}
 }
@@ -10112,13 +10112,13 @@ _G.pg.base.world_effect_data[5703] = {
 _G.pg.base.world_effect_data[5704] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 5704,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1126"
+		"已成功使得塞壬增援裝置停止運行。"
 	},
 	autoflag = {}
 }
@@ -10461,13 +10461,13 @@ _G.pg.base.world_effect_data[5723] = {
 _G.pg.base.world_effect_data[5724] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 5724,
 	autoactivate = 1,
 	effect_paramater = {
-		"W1123"
+		"警告：塞壬的增援艦隊已抵達。"
 	},
 	autoflag = {}
 }
@@ -10693,13 +10693,13 @@ _G.pg.base.world_effect_data[5800] = {
 _G.pg.base.world_effect_data[5801] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 5801,
 	autoactivate = 1,
 	effect_paramater = {
-		"W1125"
+		"分析模組同步中：塞壬的強化型「棋子」已被擊敗，但是周邊出現了新的強化型「棋子」。"
 	},
 	autoflag = {}
 }
@@ -10881,13 +10881,13 @@ _G.pg.base.world_effect_data[5808] = {
 _G.pg.base.world_effect_data[5809] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 5809,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1104"
+		"塞壬的威脅解除了……海域中發現了塞壬的資源點。"
 	},
 	autoflag = {}
 }
@@ -10926,13 +10926,13 @@ _G.pg.base.world_effect_data[5900] = {
 _G.pg.base.world_effect_data[5901] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 5901,
 	autoactivate = 1,
 	effect_paramater = {
-		"W1130"
+		"分析模組同步中：塞壬的強化型「棋子」已被擊敗，海面上發現了漂浮的資源補給。\n漂浮在海面上的高價值物資，在徹底沈沒之前盡可能回收一些吧……"
 	},
 	autoflag = {}
 }
@@ -11036,13 +11036,13 @@ _G.pg.base.world_effect_data[5907] = {
 _G.pg.base.world_effect_data[5908] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 5908,
 	autoactivate = 1,
 	effect_paramater = {
-		"W1131"
+		"剩餘的資源徹底沈入了水下，無法繼續回收了……"
 	},
 	autoflag = {}
 }
@@ -11183,13 +11183,13 @@ _G.pg.base.world_effect_data[6006] = {
 _G.pg.base.world_effect_data[6007] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 6007,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1132"
+		"漂浮物，上面好像紀錄著一些訊息……在海域的東部……"
 	},
 	autoflag = {}
 }
@@ -11198,13 +11198,13 @@ _G.pg.base.world_effect_data[6007] = {
 _G.pg.base.world_effect_data[6008] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 6008,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1133"
+		"漂浮物，上面好像紀錄著一些訊息……在海域的南部……"
 	},
 	autoflag = {}
 }
@@ -11213,13 +11213,13 @@ _G.pg.base.world_effect_data[6008] = {
 _G.pg.base.world_effect_data[6009] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 6009,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1134"
+		"漂浮物，上面好像紀錄著一些訊息……在海域的西部……"
 	},
 	autoflag = {}
 }
@@ -11228,13 +11228,13 @@ _G.pg.base.world_effect_data[6009] = {
 _G.pg.base.world_effect_data[6010] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 6010,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1135"
+		"漂浮物，上面好像紀錄著一些訊息……在海域的北部……"
 	},
 	autoflag = {}
 }
@@ -11243,13 +11243,13 @@ _G.pg.base.world_effect_data[6010] = {
 _G.pg.base.world_effect_data[6011] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 6011,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1136"
+		"分析模組同步中：探測到了海域中塞壬隱藏的資源點。"
 	},
 	autoflag = {}
 }
@@ -11291,13 +11291,13 @@ _G.pg.base.world_effect_data[6100] = {
 _G.pg.base.world_effect_data[6101] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 6101,
 	autoactivate = 1,
 	effect_paramater = {
-		"W1137"
+		"分析模組同步中：探測到了海域中塞壬隱藏的資源點。也許會有塞壬伏擊艦隊混入其中，請謹慎探索。"
 	},
 	autoflag = {}
 }
@@ -11325,13 +11325,13 @@ _G.pg.base.world_effect_data[6102] = {
 _G.pg.base.world_effect_data[6103] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 6103,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1138"
+		"警告：發現偽裝成資源點的塞壬伏擊艦隊，即將發生戰鬥。"
 	},
 	autoflag = {}
 }
@@ -11366,13 +11366,13 @@ _G.pg.base.world_effect_data[6104] = {
 _G.pg.base.world_effect_data[6105] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 6105,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1139"
+		"這是……塞壬在海域中設下的報警裝置？"
 	},
 	autoflag = {}
 }
@@ -11410,13 +11410,13 @@ _G.pg.base.world_effect_data[6106] = {
 _G.pg.base.world_effect_data[6107] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 6107,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1140"
+		"海面上的資源全部消失了……"
 	},
 	autoflag = {}
 }
@@ -11425,13 +11425,13 @@ _G.pg.base.world_effect_data[6107] = {
 _G.pg.base.world_effect_data[9000] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 9000,
 	autoactivate = 0,
 	effect_paramater = {
-		"W1141"
+		"分析模組同步中：回收到一些有用的情報數據。情報修正添加成功，艦隊的適應性提升了。"
 	},
 	autoflag = {}
 }
@@ -43588,13 +43588,13 @@ _G.pg.base.world_effect_data[241303] = {
 _G.pg.base.world_effect_data[241304] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 241304,
 	autoactivate = 0,
 	effect_paramater = {
-		"W840000"
+		"解除機關的順序錯誤，艦隊已返回起始點！通過觀察光點亮起的順序，按照順序解除機關吧。"
 	},
 	autoflag = {}
 }
@@ -43966,13 +43966,13 @@ _G.pg.base.world_effect_data[242100] = {
 _G.pg.base.world_effect_data[242101] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 242101,
 	autoactivate = 0,
 	effect_paramater = {
-		"W840010"
+		"分析模組同步中：指揮官，內層洋流的方向已經發生了變化。"
 	},
 	autoflag = {}
 }
@@ -44038,13 +44038,13 @@ _G.pg.base.world_effect_data[242110] = {
 _G.pg.base.world_effect_data[242111] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 242111,
 	autoactivate = 0,
 	effect_paramater = {
-		"W840010"
+		"分析模組同步中：指揮官，內層洋流的方向已經發生了變化。"
 	},
 	autoflag = {}
 }
@@ -44110,13 +44110,13 @@ _G.pg.base.world_effect_data[242120] = {
 _G.pg.base.world_effect_data[242121] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 242121,
 	autoactivate = 0,
 	effect_paramater = {
-		"W840011"
+		"分析模組同步中：指揮官，外層洋流的方向已經發生了變化。"
 	},
 	autoflag = {}
 }
@@ -44182,13 +44182,13 @@ _G.pg.base.world_effect_data[242130] = {
 _G.pg.base.world_effect_data[242131] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 242131,
 	autoactivate = 0,
 	effect_paramater = {
-		"W840011"
+		"分析模組同步中：指揮官，外層洋流的方向已經發生了變化。"
 	},
 	autoflag = {}
 }
@@ -44414,13 +44414,13 @@ _G.pg.base.world_effect_data[242240] = {
 _G.pg.base.world_effect_data[242241] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 242241,
 	autoactivate = 0,
 	effect_paramater = {
-		"W840020"
+		"分析模組同步中：指揮官，海域中的洋流正在變得愈發湍急。"
 	},
 	autoflag = {}
 }
@@ -44489,13 +44489,13 @@ _G.pg.base.world_effect_data[242243] = {
 _G.pg.base.world_effect_data[242244] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 242244,
 	autoactivate = 0,
 	effect_paramater = {
-		"W840021"
+		"分析模組同步中：指揮官，海域中的發現了能夠調節洋流狀態的實驗場氣候調節裝置。"
 	},
 	autoflag = {}
 }
@@ -44584,13 +44584,13 @@ _G.pg.base.world_effect_data[242303] = {
 _G.pg.base.world_effect_data[242304] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 242304,
 	autoactivate = 0,
 	effect_paramater = {
-		"W840000"
+		"解除機關的順序錯誤，艦隊已返回起始點！通過觀察光點亮起的順序，按照順序解除機關吧。"
 	},
 	autoflag = {}
 }
@@ -45189,13 +45189,13 @@ _G.pg.base.world_effect_data[244303] = {
 _G.pg.base.world_effect_data[244304] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 244304,
 	autoactivate = 0,
 	effect_paramater = {
-		"W840000"
+		"解除機關的順序錯誤，艦隊已返回起始點！通過觀察光點亮起的順序，按照順序解除機關吧。"
 	},
 	autoflag = {}
 }
@@ -45581,13 +45581,13 @@ _G.pg.base.world_effect_data[245102] = {
 _G.pg.base.world_effect_data[245103] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 245103,
 	autoactivate = 0,
 	effect_paramater = {
-		"W843000"
+		"分析模組同步中：指揮官，海域中的部分浮冰變為了巨型浮冰。"
 	},
 	autoflag = {}
 }
@@ -45679,13 +45679,13 @@ _G.pg.base.world_effect_data[245112] = {
 _G.pg.base.world_effect_data[245113] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 245113,
 	autoactivate = 0,
 	effect_paramater = {
-		"W843001"
+		"分析模組同步中：指揮官，海域中的部分浮冰變為了洋流。"
 	},
 	autoflag = {}
 }
@@ -45773,13 +45773,13 @@ _G.pg.base.world_effect_data[245122] = {
 _G.pg.base.world_effect_data[245123] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 245123,
 	autoactivate = 0,
 	effect_paramater = {
-		"W843002"
+		"分析模組同步中：指揮官，海域中的部分區域重新凝結為了浮冰。"
 	},
 	autoflag = {}
 }
@@ -46035,13 +46035,13 @@ _G.pg.base.world_effect_data[245240] = {
 _G.pg.base.world_effect_data[245241] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 245241,
 	autoactivate = 0,
 	effect_paramater = {
-		"W843010"
+		"警告：基於不明原因，海域中出現了大量浮冰，請注意前進航線。"
 	},
 	autoflag = {}
 }
@@ -46090,13 +46090,13 @@ _G.pg.base.world_effect_data[245243] = {
 _G.pg.base.world_effect_data[245244] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 245244,
 	autoactivate = 0,
 	effect_paramater = {
-		"W843011"
+		"分析模組同步中：指揮官，海域中的發現了能夠調節浮冰狀態的實驗場氣候調節裝置。"
 	},
 	autoflag = {}
 }
@@ -46188,13 +46188,13 @@ _G.pg.base.world_effect_data[245303] = {
 _G.pg.base.world_effect_data[245304] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 245304,
 	autoactivate = 0,
 	effect_paramater = {
-		"W840000"
+		"解除機關的順序錯誤，艦隊已返回起始點！通過觀察光點亮起的順序，按照順序解除機關吧。"
 	},
 	autoflag = {}
 }
@@ -46581,13 +46581,13 @@ _G.pg.base.world_effect_data[247051] = {
 _G.pg.base.world_effect_data[247110] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 247110,
 	autoactivate = 1,
 	effect_paramater = {
-		"W846000"
+		"警告：海域中存在有多處塞壬設下的陷阱區域，建議注意規避行動。"
 	},
 	autoflag = {}
 }
@@ -46828,13 +46828,13 @@ _G.pg.base.world_effect_data[247303] = {
 _G.pg.base.world_effect_data[247304] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 247304,
 	autoactivate = 0,
 	effect_paramater = {
-		"W840000"
+		"解除機關的順序錯誤，艦隊已返回起始點！通過觀察光點亮起的順序，按照順序解除機關吧。"
 	},
 	autoflag = {}
 }
@@ -46976,13 +46976,13 @@ _G.pg.base.world_effect_data[247504] = {
 _G.pg.base.world_effect_data[247505] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 247505,
 	autoactivate = 0,
 	effect_paramater = {
-		"W846010"
+		"為了避免遭受陷阱區域傷害，艦隊已返回起始點。"
 	},
 	autoflag = {}
 }
@@ -47349,13 +47349,13 @@ _G.pg.base.world_effect_data[248051] = {
 _G.pg.base.world_effect_data[248110] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 248110,
 	autoactivate = 0,
 	effect_paramater = {
-		"W846020"
+		"警告：海域中發現了更高密度的陷阱區域，建議注意規避，謹慎行動。"
 	},
 	autoflag = {}
 }
@@ -47643,13 +47643,13 @@ _G.pg.base.world_effect_data[248303] = {
 _G.pg.base.world_effect_data[248304] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 248304,
 	autoactivate = 0,
 	effect_paramater = {
-		"W840000"
+		"解除機關的順序錯誤，艦隊已返回起始點！通過觀察光點亮起的順序，按照順序解除機關吧。"
 	},
 	autoflag = {}
 }
@@ -49345,13 +49345,13 @@ _G.pg.base.world_effect_data[248705] = {
 _G.pg.base.world_effect_data[248706] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 248706,
 	autoactivate = 0,
 	effect_paramater = {
-		"W846010"
+		"為了避免遭受陷阱區域傷害，艦隊已返回起始點。"
 	},
 	autoflag = {}
 }
@@ -50080,13 +50080,13 @@ _G.pg.base.world_effect_data[250303] = {
 _G.pg.base.world_effect_data[250304] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 250304,
 	autoactivate = 0,
 	effect_paramater = {
-		"W840000"
+		"解除機關的順序錯誤，艦隊已返回起始點！通過觀察光點亮起的順序，按照順序解除機關吧。"
 	},
 	autoflag = {}
 }
@@ -50616,13 +50616,13 @@ _G.pg.base.world_effect_data[251221] = {
 _G.pg.base.world_effect_data[251230] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 251230,
 	autoactivate = 0,
 	effect_paramater = {
-		"W849011"
+		"因為黃色區域沒有全部觸發，艦隊回到了起始點。"
 	},
 	autoflag = {}
 }
@@ -50849,13 +50849,13 @@ _G.pg.base.world_effect_data[251303] = {
 _G.pg.base.world_effect_data[251304] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 251304,
 	autoactivate = 0,
 	effect_paramater = {
-		"W840000"
+		"解除機關的順序錯誤，艦隊已返回起始點！通過觀察光點亮起的順序，按照順序解除機關吧。"
 	},
 	autoflag = {}
 }
@@ -51201,13 +51201,13 @@ _G.pg.base.world_effect_data[251806] = {
 _G.pg.base.world_effect_data[251807] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 251807,
 	autoactivate = 0,
 	effect_paramater = {
-		"W849012"
+		"因為黃色區域被重覆觸發，艦隊回到了起始點。"
 	},
 	autoflag = {}
 }
@@ -102654,13 +102654,13 @@ _G.pg.base.world_effect_data[800017] = {
 _G.pg.base.world_effect_data[800018] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 800018,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800000"
+		"在塞壬實驗場中出現了一群正在游動的可愛海豹？追上去調查一下吧……"
 	},
 	autoflag = {}
 }
@@ -102669,13 +102669,13 @@ _G.pg.base.world_effect_data[800018] = {
 _G.pg.base.world_effect_data[800019] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 800019,
 	autoactivate = 0,
 	effect_paramater = {
-		"W806010"
+		"分析模組同步中：指揮官，塞壬的實驗場防禦艦隊出現了。"
 	},
 	autoflag = {}
 }
@@ -103080,13 +103080,13 @@ _G.pg.base.world_effect_data[801503] = {
 _G.pg.base.world_effect_data[801504] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 801504,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800103"
+		"還是再加把勁思考一下吧！"
 	},
 	autoflag = {}
 }
@@ -103095,13 +103095,13 @@ _G.pg.base.world_effect_data[801504] = {
 _G.pg.base.world_effect_data[801550] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 801550,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800101"
+		"指令已確認：現在開始執行實驗場環境解析進行任務。\n分析模組運行中：正在解析塞壬實驗場訊息………"
 	},
 	autoflag = {}
 }
@@ -103550,13 +103550,13 @@ _G.pg.base.world_effect_data[801557] = {
 _G.pg.base.world_effect_data[801558] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 801558,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800102"
+		"分析模組同步中：已經徹底破解了塞壬實驗場中的謎題。"
 	},
 	autoflag = {}
 }
@@ -103625,13 +103625,13 @@ _G.pg.base.world_effect_data[801601] = {
 _G.pg.base.world_effect_data[801602] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 801602,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800103"
+		"還是再加把勁思考一下吧！"
 	},
 	autoflag = {}
 }
@@ -103970,13 +103970,13 @@ _G.pg.base.world_effect_data[803020] = {
 _G.pg.base.world_effect_data[803021] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 803021,
 	autoactivate = 0,
 	effect_paramater = {
-		"W803000"
+		"出現了兩群海豹，不過似乎有一群是實驗場生成的棋子，通過G.M系統的分析模組尋找出真正的海豹吧……"
 	},
 	autoflag = {}
 }
@@ -104004,13 +104004,13 @@ _G.pg.base.world_effect_data[803022] = {
 _G.pg.base.world_effect_data[803024] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 803024,
 	autoactivate = 0,
 	effect_paramater = {
-		"W803001"
+		"發現塞壬棋子的痕跡，看來這一群並不是真正的海豹……"
 	},
 	autoflag = {}
 }
@@ -104330,13 +104330,13 @@ _G.pg.base.world_effect_data[803071] = {
 _G.pg.base.world_effect_data[803072] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 803072,
 	autoactivate = 0,
 	effect_paramater = {
-		"W806010"
+		"分析模組同步中：指揮官，塞壬的實驗場防禦艦隊出現了。"
 	},
 	autoflag = {}
 }
@@ -104382,13 +104382,13 @@ _G.pg.base.world_effect_data[803081] = {
 _G.pg.base.world_effect_data[803090] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 803090,
 	autoactivate = 1,
 	effect_paramater = {
-		"W803002"
+		"在塞壬實驗場中出現了一群正在游動的可愛海豹？追上去調查一下吧……"
 	},
 	autoflag = {}
 }
@@ -104397,13 +104397,13 @@ _G.pg.base.world_effect_data[803090] = {
 _G.pg.base.world_effect_data[803100] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 803100,
 	autoactivate = 1,
 	effect_paramater = {
-		"W803002"
+		"在塞壬實驗場中出現了一群正在游動的可愛海豹？追上去調查一下吧……"
 	},
 	autoflag = {}
 }
@@ -104581,13 +104581,13 @@ _G.pg.base.world_effect_data[804503] = {
 _G.pg.base.world_effect_data[804504] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 804504,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800103"
+		"還是再加把勁思考一下吧！"
 	},
 	autoflag = {}
 }
@@ -104596,13 +104596,13 @@ _G.pg.base.world_effect_data[804504] = {
 _G.pg.base.world_effect_data[804550] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 804550,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800101"
+		"指令已確認：現在開始執行實驗場環境解析進行任務。\n分析模組運行中：正在解析塞壬實驗場訊息………"
 	},
 	autoflag = {}
 }
@@ -105319,13 +105319,13 @@ _G.pg.base.world_effect_data[804557] = {
 _G.pg.base.world_effect_data[804558] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 804558,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800102"
+		"分析模組同步中：已經徹底破解了塞壬實驗場中的謎題。"
 	},
 	autoflag = {}
 }
@@ -105394,13 +105394,13 @@ _G.pg.base.world_effect_data[804601] = {
 _G.pg.base.world_effect_data[804602] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 804602,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800103"
+		"還是再加把勁思考一下吧！"
 	},
 	autoflag = {}
 }
@@ -105473,13 +105473,13 @@ _G.pg.base.world_effect_data[806012] = {
 _G.pg.base.world_effect_data[806013] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 806013,
 	autoactivate = 0,
 	effect_paramater = {
-		"W806000"
+		"分析模組同步中：指揮官，前往海豹出現區域的航線被巨型浮冰擋住了。\n建議：在海霧中尋找實驗場氣候調節裝置可以消除巨型浮冰的影響。"
 	},
 	autoflag = {}
 }
@@ -105526,13 +105526,13 @@ _G.pg.base.world_effect_data[806021] = {
 _G.pg.base.world_effect_data[806022] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 806022,
 	autoactivate = 0,
 	effect_paramater = {
-		"W806010"
+		"分析模組同步中：指揮官，塞壬的實驗場防禦艦隊出現了。"
 	},
 	autoflag = {}
 }
@@ -105579,13 +105579,13 @@ _G.pg.base.world_effect_data[806201] = {
 _G.pg.base.world_effect_data[806300] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 806300,
 	autoactivate = 0,
 	effect_paramater = {
-		"W806001"
+		"建議：在海霧中尋找實驗場氣候調節裝置可以消除巨型浮冰的影響。"
 	},
 	autoflag = {}
 }
@@ -105750,13 +105750,13 @@ _G.pg.base.world_effect_data[806404] = {
 _G.pg.base.world_effect_data[806405] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 806405,
 	autoactivate = 0,
 	effect_paramater = {
-		"W806002"
+		"部分海霧與巨型浮冰消失了。"
 	},
 	autoflag = {}
 }
@@ -105937,13 +105937,13 @@ _G.pg.base.world_effect_data[806414] = {
 _G.pg.base.world_effect_data[806415] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 806415,
 	autoactivate = 0,
 	effect_paramater = {
-		"W806003"
+		"部分海霧與巨型浮冰消失，可以繼續尋找海豹了！"
 	},
 	autoflag = {}
 }
@@ -106137,13 +106137,13 @@ _G.pg.base.world_effect_data[807503] = {
 _G.pg.base.world_effect_data[807504] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 807504,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800103"
+		"還是再加把勁思考一下吧！"
 	},
 	autoflag = {}
 }
@@ -106152,13 +106152,13 @@ _G.pg.base.world_effect_data[807504] = {
 _G.pg.base.world_effect_data[807550] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 807550,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800101"
+		"指令已確認：現在開始執行實驗場環境解析進行任務。\n分析模組運行中：正在解析塞壬實驗場訊息………"
 	},
 	autoflag = {}
 }
@@ -107085,13 +107085,13 @@ _G.pg.base.world_effect_data[807557] = {
 _G.pg.base.world_effect_data[807558] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 807558,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800102"
+		"分析模組同步中：已經徹底破解了塞壬實驗場中的謎題。"
 	},
 	autoflag = {}
 }
@@ -107160,13 +107160,13 @@ _G.pg.base.world_effect_data[807601] = {
 _G.pg.base.world_effect_data[807602] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 807602,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800103"
+		"還是再加把勁思考一下吧！"
 	},
 	autoflag = {}
 }
@@ -107191,13 +107191,13 @@ _G.pg.base.world_effect_data[807700] = {
 _G.pg.base.world_effect_data[820010] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 820010,
 	autoactivate = 1,
 	effect_paramater = {
-		"W820000"
+		"取得能源矩陣，並將其運輸到海域中的指定位置。"
 	},
 	autoflag = {}
 }
@@ -107287,13 +107287,13 @@ _G.pg.base.world_effect_data[820110] = {
 _G.pg.base.world_effect_data[820111] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 820111,
 	autoactivate = 0,
 	effect_paramater = {
-		"W820040"
+		"結果確認中：指揮官，能源矩陣已經成功安裝至預定位置。"
 	},
 	autoflag = {}
 }
@@ -107317,13 +107317,13 @@ _G.pg.base.world_effect_data[820112] = {
 _G.pg.base.world_effect_data[820113] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 820113,
 	autoactivate = 0,
 	effect_paramater = {
-		"W806010"
+		"分析模組同步中：指揮官，塞壬的實驗場防禦艦隊出現了。"
 	},
 	autoflag = {}
 }
@@ -107507,13 +107507,13 @@ _G.pg.base.world_effect_data[820203] = {
 _G.pg.base.world_effect_data[820204] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 820204,
 	autoactivate = 0,
 	effect_paramater = {
-		"W820010"
+		"警告：觸發了塞壬實驗場的防禦系統，目前區域的洋流變得湍急起來。"
 	},
 	autoflag = {}
 }
@@ -107553,13 +107553,13 @@ _G.pg.base.world_effect_data[820230] = {
 _G.pg.base.world_effect_data[820231] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 820231,
 	autoactivate = 0,
 	effect_paramater = {
-		"W820011"
+		"在湍急的洋流中無法繼續移動，艦隊將返回實驗場的起始點。"
 	},
 	autoflag = {}
 }
@@ -107889,13 +107889,13 @@ _G.pg.base.world_effect_data[820305] = {
 _G.pg.base.world_effect_data[820306] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 820306,
 	autoactivate = 0,
 	effect_paramater = {
-		"W820020"
+		"警告：觸發了塞壬實驗場的防禦系統，目前區域的洋流變得湍急起來。"
 	},
 	autoflag = {}
 }
@@ -107951,13 +107951,13 @@ _G.pg.base.world_effect_data[820330] = {
 _G.pg.base.world_effect_data[820331] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 820331,
 	autoactivate = 0,
 	effect_paramater = {
-		"W820011"
+		"在湍急的洋流中無法繼續移動，艦隊將返回實驗場的起始點。"
 	},
 	autoflag = {}
 }
@@ -108323,13 +108323,13 @@ _G.pg.base.world_effect_data[820405] = {
 _G.pg.base.world_effect_data[820406] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 820406,
 	autoactivate = 0,
 	effect_paramater = {
-		"W820030"
+		"警告：觸發了塞壬實驗場的防禦系統，目前區域的洋流變得湍急起來，同時在海面上發現了大量浮冰。\n建議：尋找實驗場氣候調節裝置，改變浮冰的狀態。"
 	},
 	autoflag = {}
 }
@@ -108385,13 +108385,13 @@ _G.pg.base.world_effect_data[820430] = {
 _G.pg.base.world_effect_data[820431] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 820431,
 	autoactivate = 0,
 	effect_paramater = {
-		"W820011"
+		"在湍急的洋流中無法繼續移動，艦隊將返回實驗場的起始點。"
 	},
 	autoflag = {}
 }
@@ -108681,13 +108681,13 @@ _G.pg.base.world_effect_data[821503] = {
 _G.pg.base.world_effect_data[821504] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 821504,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800103"
+		"還是再加把勁思考一下吧！"
 	},
 	autoflag = {}
 }
@@ -108696,13 +108696,13 @@ _G.pg.base.world_effect_data[821504] = {
 _G.pg.base.world_effect_data[821550] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 821550,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800101"
+		"指令已確認：現在開始執行實驗場環境解析進行任務。\n分析模組運行中：正在解析塞壬實驗場訊息………"
 	},
 	autoflag = {}
 }
@@ -109701,13 +109701,13 @@ _G.pg.base.world_effect_data[821557] = {
 _G.pg.base.world_effect_data[821558] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 821558,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800102"
+		"分析模組同步中：已經徹底破解了塞壬實驗場中的謎題。"
 	},
 	autoflag = {}
 }
@@ -109776,13 +109776,13 @@ _G.pg.base.world_effect_data[821601] = {
 _G.pg.base.world_effect_data[821602] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 821602,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800103"
+		"還是再加把勁思考一下吧！"
 	},
 	autoflag = {}
 }
@@ -110451,13 +110451,13 @@ _G.pg.base.world_effect_data[823205] = {
 _G.pg.base.world_effect_data[823206] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 823206,
 	autoactivate = 0,
 	effect_paramater = {
-		"W823022"
+		"為了避免被塞壬訊息收集裝置掃描，艦隊已返回起始點，能源矩陣也已返回初始位置。"
 	},
 	autoflag = {}
 }
@@ -111222,13 +111222,13 @@ _G.pg.base.world_effect_data[823724] = {
 _G.pg.base.world_effect_data[823725] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 823725,
 	autoactivate = 1,
 	effect_paramater = {
-		"W823000"
+		"取得能源矩陣，並將其運輸到海域中的指定位置。\n分析模組同步中：指揮官，能源矩陣周邊洋流可以通過實驗場中的塞壬洋流控制器予以調整。"
 	},
 	autoflag = {}
 }
@@ -111328,13 +111328,13 @@ _G.pg.base.world_effect_data[823733] = {
 _G.pg.base.world_effect_data[823734] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 823734,
 	autoactivate = 0,
 	effect_paramater = {
-		"W806010"
+		"分析模組同步中：指揮官，塞壬的實驗場防禦艦隊出現了。"
 	},
 	autoflag = {}
 }
@@ -111425,13 +111425,13 @@ _G.pg.base.world_effect_data[823802] = {
 _G.pg.base.world_effect_data[823803] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 823803,
 	autoactivate = 0,
 	effect_paramater = {
-		"W823020"
+		"分析模組同步中：海域中的洋流消失了。"
 	},
 	autoflag = {}
 }
@@ -111511,13 +111511,13 @@ _G.pg.base.world_effect_data[823807] = {
 _G.pg.base.world_effect_data[823808] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 823808,
 	autoactivate = 0,
 	effect_paramater = {
-		"W823021"
+		"警告：觸發了塞壬實驗場的警報系統，塞壬的訊息收集裝置被啟動了。\n塞壬訊息收集裝置的偵測範圍會不停發生變化，艦隊進入偵測範圍將返回實驗場的起始點，能源矩陣也會返回初始位置，注意規避。"
 	},
 	autoflag = {}
 }
@@ -111541,13 +111541,13 @@ _G.pg.base.world_effect_data[823809] = {
 _G.pg.base.world_effect_data[823820] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 823820,
 	autoactivate = 0,
 	effect_paramater = {
-		"W823010"
+		"塞壬的訊息收集裝置，目前處於停機狀態……"
 	},
 	autoflag = {}
 }
@@ -111725,13 +111725,13 @@ _G.pg.base.world_effect_data[824503] = {
 _G.pg.base.world_effect_data[824504] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 824504,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800103"
+		"還是再加把勁思考一下吧！"
 	},
 	autoflag = {}
 }
@@ -111740,13 +111740,13 @@ _G.pg.base.world_effect_data[824504] = {
 _G.pg.base.world_effect_data[824550] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 824550,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800101"
+		"指令已確認：現在開始執行實驗場環境解析進行任務。\n分析模組運行中：正在解析塞壬實驗場訊息………"
 	},
 	autoflag = {}
 }
@@ -112754,13 +112754,13 @@ _G.pg.base.world_effect_data[824557] = {
 _G.pg.base.world_effect_data[824558] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 824558,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800102"
+		"分析模組同步中：已經徹底破解了塞壬實驗場中的謎題。"
 	},
 	autoflag = {}
 }
@@ -112829,13 +112829,13 @@ _G.pg.base.world_effect_data[824601] = {
 _G.pg.base.world_effect_data[824602] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 824602,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800103"
+		"還是再加把勁思考一下吧！"
 	},
 	autoflag = {}
 }
@@ -112860,13 +112860,13 @@ _G.pg.base.world_effect_data[824700] = {
 _G.pg.base.world_effect_data[826000] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 826000,
 	autoactivate = 0,
 	effect_paramater = {
-		"W826021"
+		"該區域的海水中充斥著腐蝕性液體，還是不要靠近比較好……"
 	},
 	autoflag = {}
 }
@@ -112986,13 +112986,13 @@ _G.pg.base.world_effect_data[826015] = {
 _G.pg.base.world_effect_data[826016] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 826016,
 	autoactivate = 0,
 	effect_paramater = {
-		"W826040"
+		"為了避免被遭受腐蝕區域傷害，艦隊已返回起始點，能源矩陣也已返回初始位置。\n建議：腐蝕區域的擴散可以被海域中障礙物和洋流阻礙，建議以此為基礎尋找解決方案。"
 	},
 	autoflag = {}
 }
@@ -113192,13 +113192,13 @@ _G.pg.base.world_effect_data[826213] = {
 _G.pg.base.world_effect_data[826214] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 826214,
 	autoactivate = 0,
 	effect_paramater = {
-		"W826031"
+		"警告：觸發了塞壬實驗場的警報系統，實驗場內腐蝕區域開始擴散了。"
 	},
 	autoflag = {}
 }
@@ -113357,13 +113357,13 @@ _G.pg.base.world_effect_data[826223] = {
 _G.pg.base.world_effect_data[826224] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 826224,
 	autoactivate = 0,
 	effect_paramater = {
-		"W826032"
+		"腐蝕區域正在海面上逐漸擴散，艦隊進入腐蝕區域後將返回實驗場的起始點，能源矩陣也會返回初始位置，注意規避。"
 	},
 	autoflag = {}
 }
@@ -113461,13 +113461,13 @@ _G.pg.base.world_effect_data[826252] = {
 _G.pg.base.world_effect_data[826253] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 826253,
 	autoactivate = 0,
 	effect_paramater = {
-		"W820040"
+		"結果確認中：指揮官，能源矩陣已經成功安裝至預定位置。"
 	},
 	autoflag = {}
 }
@@ -113491,13 +113491,13 @@ _G.pg.base.world_effect_data[826254] = {
 _G.pg.base.world_effect_data[826255] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 826255,
 	autoactivate = 0,
 	effect_paramater = {
-		"W806010"
+		"分析模組同步中：指揮官，塞壬的實驗場防禦艦隊出現了。"
 	},
 	autoflag = {}
 }
@@ -113831,13 +113831,13 @@ _G.pg.base.world_effect_data[826443] = {
 _G.pg.base.world_effect_data[826450] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 826450,
 	autoactivate = 0,
 	effect_paramater = {
-		"W826020"
+		"無法向該方向繼續移動了！"
 	},
 	autoflag = {}
 }
@@ -114192,13 +114192,13 @@ _G.pg.base.world_effect_data[826643] = {
 _G.pg.base.world_effect_data[826650] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 826650,
 	autoactivate = 0,
 	effect_paramater = {
-		"W826020"
+		"無法向該方向繼續移動了！"
 	},
 	autoflag = {}
 }
@@ -114439,13 +114439,13 @@ _G.pg.base.world_effect_data[827503] = {
 _G.pg.base.world_effect_data[827504] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 827504,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800103"
+		"還是再加把勁思考一下吧！"
 	},
 	autoflag = {}
 }
@@ -114454,13 +114454,13 @@ _G.pg.base.world_effect_data[827504] = {
 _G.pg.base.world_effect_data[827550] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 827550,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800101"
+		"指令已確認：現在開始執行實驗場環境解析進行任務。\n分析模組運行中：正在解析塞壬實驗場訊息………"
 	},
 	autoflag = {}
 }
@@ -115246,13 +115246,13 @@ _G.pg.base.world_effect_data[827557] = {
 _G.pg.base.world_effect_data[827558] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 827558,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800102"
+		"分析模組同步中：已經徹底破解了塞壬實驗場中的謎題。"
 	},
 	autoflag = {}
 }
@@ -115321,13 +115321,13 @@ _G.pg.base.world_effect_data[827601] = {
 _G.pg.base.world_effect_data[827602] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 827602,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800103"
+		"還是再加把勁思考一下吧！"
 	},
 	autoflag = {}
 }
@@ -115426,13 +115426,13 @@ _G.pg.base.world_effect_data[841503] = {
 _G.pg.base.world_effect_data[841504] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 841504,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800103"
+		"還是再加把勁思考一下吧！"
 	},
 	autoflag = {}
 }
@@ -115441,13 +115441,13 @@ _G.pg.base.world_effect_data[841504] = {
 _G.pg.base.world_effect_data[841550] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 841550,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800101"
+		"指令已確認：現在開始執行實驗場環境解析進行任務。\n分析模組運行中：正在解析塞壬實驗場訊息………"
 	},
 	autoflag = {}
 }
@@ -115825,13 +115825,13 @@ _G.pg.base.world_effect_data[841557] = {
 _G.pg.base.world_effect_data[841558] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 841558,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800102"
+		"分析模組同步中：已經徹底破解了塞壬實驗場中的謎題。"
 	},
 	autoflag = {}
 }
@@ -115900,13 +115900,13 @@ _G.pg.base.world_effect_data[841601] = {
 _G.pg.base.world_effect_data[841602] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 841602,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800103"
+		"還是再加把勁思考一下吧！"
 	},
 	autoflag = {}
 }
@@ -116005,13 +116005,13 @@ _G.pg.base.world_effect_data[842503] = {
 _G.pg.base.world_effect_data[842504] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 842504,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800103"
+		"還是再加把勁思考一下吧！"
 	},
 	autoflag = {}
 }
@@ -116020,13 +116020,13 @@ _G.pg.base.world_effect_data[842504] = {
 _G.pg.base.world_effect_data[842550] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 842550,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800101"
+		"指令已確認：現在開始執行實驗場環境解析進行任務。\n分析模組運行中：正在解析塞壬實驗場訊息………"
 	},
 	autoflag = {}
 }
@@ -116406,13 +116406,13 @@ _G.pg.base.world_effect_data[842557] = {
 _G.pg.base.world_effect_data[842558] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 842558,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800102"
+		"分析模組同步中：已經徹底破解了塞壬實驗場中的謎題。"
 	},
 	autoflag = {}
 }
@@ -116481,13 +116481,13 @@ _G.pg.base.world_effect_data[842601] = {
 _G.pg.base.world_effect_data[842602] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 842602,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800103"
+		"還是再加把勁思考一下吧！"
 	},
 	autoflag = {}
 }
@@ -116586,13 +116586,13 @@ _G.pg.base.world_effect_data[844503] = {
 _G.pg.base.world_effect_data[844504] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 844504,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800103"
+		"還是再加把勁思考一下吧！"
 	},
 	autoflag = {}
 }
@@ -116601,13 +116601,13 @@ _G.pg.base.world_effect_data[844504] = {
 _G.pg.base.world_effect_data[844550] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 844550,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800101"
+		"指令已確認：現在開始執行實驗場環境解析進行任務。\n分析模組運行中：正在解析塞壬實驗場訊息………"
 	},
 	autoflag = {}
 }
@@ -116982,13 +116982,13 @@ _G.pg.base.world_effect_data[844557] = {
 _G.pg.base.world_effect_data[844558] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 844558,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800102"
+		"分析模組同步中：已經徹底破解了塞壬實驗場中的謎題。"
 	},
 	autoflag = {}
 }
@@ -117057,13 +117057,13 @@ _G.pg.base.world_effect_data[844601] = {
 _G.pg.base.world_effect_data[844602] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 844602,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800103"
+		"還是再加把勁思考一下吧！"
 	},
 	autoflag = {}
 }
@@ -117162,13 +117162,13 @@ _G.pg.base.world_effect_data[845503] = {
 _G.pg.base.world_effect_data[845504] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 845504,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800103"
+		"還是再加把勁思考一下吧！"
 	},
 	autoflag = {}
 }
@@ -117177,13 +117177,13 @@ _G.pg.base.world_effect_data[845504] = {
 _G.pg.base.world_effect_data[845550] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 845550,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800101"
+		"指令已確認：現在開始執行實驗場環境解析進行任務。\n分析模組運行中：正在解析塞壬實驗場訊息………"
 	},
 	autoflag = {}
 }
@@ -117567,13 +117567,13 @@ _G.pg.base.world_effect_data[845557] = {
 _G.pg.base.world_effect_data[845558] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 845558,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800102"
+		"分析模組同步中：已經徹底破解了塞壬實驗場中的謎題。"
 	},
 	autoflag = {}
 }
@@ -117642,13 +117642,13 @@ _G.pg.base.world_effect_data[845601] = {
 _G.pg.base.world_effect_data[845602] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 845602,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800103"
+		"還是再加把勁思考一下吧！"
 	},
 	autoflag = {}
 }
@@ -117747,13 +117747,13 @@ _G.pg.base.world_effect_data[847503] = {
 _G.pg.base.world_effect_data[847504] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 847504,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800103"
+		"還是再加把勁思考一下吧！"
 	},
 	autoflag = {}
 }
@@ -117762,13 +117762,13 @@ _G.pg.base.world_effect_data[847504] = {
 _G.pg.base.world_effect_data[847550] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 847550,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800101"
+		"指令已確認：現在開始執行實驗場環境解析進行任務。\n分析模組運行中：正在解析塞壬實驗場訊息………"
 	},
 	autoflag = {}
 }
@@ -118150,13 +118150,13 @@ _G.pg.base.world_effect_data[847557] = {
 _G.pg.base.world_effect_data[847558] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 847558,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800102"
+		"分析模組同步中：已經徹底破解了塞壬實驗場中的謎題。"
 	},
 	autoflag = {}
 }
@@ -118225,13 +118225,13 @@ _G.pg.base.world_effect_data[847601] = {
 _G.pg.base.world_effect_data[847602] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 847602,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800103"
+		"還是再加把勁思考一下吧！"
 	},
 	autoflag = {}
 }
@@ -118330,13 +118330,13 @@ _G.pg.base.world_effect_data[848503] = {
 _G.pg.base.world_effect_data[848504] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 848504,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800103"
+		"還是再加把勁思考一下吧！"
 	},
 	autoflag = {}
 }
@@ -118345,13 +118345,13 @@ _G.pg.base.world_effect_data[848504] = {
 _G.pg.base.world_effect_data[848550] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 848550,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800101"
+		"指令已確認：現在開始執行實驗場環境解析進行任務。\n分析模組運行中：正在解析塞壬實驗場訊息………"
 	},
 	autoflag = {}
 }
@@ -118760,13 +118760,13 @@ _G.pg.base.world_effect_data[848557] = {
 _G.pg.base.world_effect_data[848558] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 848558,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800102"
+		"分析模組同步中：已經徹底破解了塞壬實驗場中的謎題。"
 	},
 	autoflag = {}
 }
@@ -118835,13 +118835,13 @@ _G.pg.base.world_effect_data[848601] = {
 _G.pg.base.world_effect_data[848602] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 848602,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800103"
+		"還是再加把勁思考一下吧！"
 	},
 	autoflag = {}
 }
@@ -118940,13 +118940,13 @@ _G.pg.base.world_effect_data[850503] = {
 _G.pg.base.world_effect_data[850504] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 850504,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800103"
+		"還是再加把勁思考一下吧！"
 	},
 	autoflag = {}
 }
@@ -118955,13 +118955,13 @@ _G.pg.base.world_effect_data[850504] = {
 _G.pg.base.world_effect_data[850550] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 850550,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800101"
+		"指令已確認：現在開始執行實驗場環境解析進行任務。\n分析模組運行中：正在解析塞壬實驗場訊息………"
 	},
 	autoflag = {}
 }
@@ -119343,13 +119343,13 @@ _G.pg.base.world_effect_data[850557] = {
 _G.pg.base.world_effect_data[850558] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 850558,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800102"
+		"分析模組同步中：已經徹底破解了塞壬實驗場中的謎題。"
 	},
 	autoflag = {}
 }
@@ -119418,13 +119418,13 @@ _G.pg.base.world_effect_data[850601] = {
 _G.pg.base.world_effect_data[850602] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 850602,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800103"
+		"還是再加把勁思考一下吧！"
 	},
 	autoflag = {}
 }
@@ -119523,13 +119523,13 @@ _G.pg.base.world_effect_data[851503] = {
 _G.pg.base.world_effect_data[851504] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 851504,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800103"
+		"還是再加把勁思考一下吧！"
 	},
 	autoflag = {}
 }
@@ -119538,13 +119538,13 @@ _G.pg.base.world_effect_data[851504] = {
 _G.pg.base.world_effect_data[851550] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 851550,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800101"
+		"指令已確認：現在開始執行實驗場環境解析進行任務。\n分析模組運行中：正在解析塞壬實驗場訊息………"
 	},
 	autoflag = {}
 }
@@ -119953,13 +119953,13 @@ _G.pg.base.world_effect_data[851557] = {
 _G.pg.base.world_effect_data[851558] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 851558,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800102"
+		"分析模組同步中：已經徹底破解了塞壬實驗場中的謎題。"
 	},
 	autoflag = {}
 }
@@ -120028,13 +120028,13 @@ _G.pg.base.world_effect_data[851601] = {
 _G.pg.base.world_effect_data[851602] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 851602,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800103"
+		"還是再加把勁思考一下吧！"
 	},
 	autoflag = {}
 }
@@ -120059,13 +120059,13 @@ _G.pg.base.world_effect_data[851700] = {
 _G.pg.base.world_effect_data[860010] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 860010,
 	autoactivate = 1,
 	effect_paramater = {
-		"W860010"
+		"通過使用海域中不同顏色標識區域上的控制裝置，可以改變對應顏色標識區域上障礙物的狀態。\n利用控制裝置清理航線，將能源矩陣移動至指定區域。"
 	},
 	autoflag = {}
 }
@@ -120608,13 +120608,13 @@ _G.pg.base.world_effect_data[860510] = {
 _G.pg.base.world_effect_data[860511] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 860511,
 	autoactivate = 0,
 	effect_paramater = {
-		"W820040"
+		"結果確認中：指揮官，能源矩陣已經成功安裝至預定位置。"
 	},
 	autoflag = {}
 }
@@ -120639,13 +120639,13 @@ _G.pg.base.world_effect_data[860512] = {
 _G.pg.base.world_effect_data[860513] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 860513,
 	autoactivate = 0,
 	effect_paramater = {
-		"W806010"
+		"分析模組同步中：指揮官，塞壬的實驗場防禦艦隊出現了。"
 	},
 	autoflag = {}
 }
@@ -120823,13 +120823,13 @@ _G.pg.base.world_effect_data[861503] = {
 _G.pg.base.world_effect_data[861504] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 861504,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800103"
+		"還是再加把勁思考一下吧！"
 	},
 	autoflag = {}
 }
@@ -120838,13 +120838,13 @@ _G.pg.base.world_effect_data[861504] = {
 _G.pg.base.world_effect_data[861550] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 861550,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800101"
+		"指令已確認：現在開始執行實驗場環境解析進行任務。\n分析模組運行中：正在解析塞壬實驗場訊息………"
 	},
 	autoflag = {}
 }
@@ -121662,13 +121662,13 @@ _G.pg.base.world_effect_data[861557] = {
 _G.pg.base.world_effect_data[861558] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 861558,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800102"
+		"分析模組同步中：已經徹底破解了塞壬實驗場中的謎題。"
 	},
 	autoflag = {}
 }
@@ -121737,13 +121737,13 @@ _G.pg.base.world_effect_data[861601] = {
 _G.pg.base.world_effect_data[861602] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 861602,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800103"
+		"還是再加把勁思考一下吧！"
 	},
 	autoflag = {}
 }
@@ -121842,13 +121842,13 @@ _G.pg.base.world_effect_data[864503] = {
 _G.pg.base.world_effect_data[864504] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 864504,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800103"
+		"還是再加把勁思考一下吧！"
 	},
 	autoflag = {}
 }
@@ -121857,13 +121857,13 @@ _G.pg.base.world_effect_data[864504] = {
 _G.pg.base.world_effect_data[864550] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 864550,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800101"
+		"指令已確認：現在開始執行實驗場環境解析進行任務。\n分析模組運行中：正在解析塞壬實驗場訊息………"
 	},
 	autoflag = {}
 }
@@ -122992,13 +122992,13 @@ _G.pg.base.world_effect_data[864557] = {
 _G.pg.base.world_effect_data[864558] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 864558,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800102"
+		"分析模組同步中：已經徹底破解了塞壬實驗場中的謎題。"
 	},
 	autoflag = {}
 }
@@ -123067,13 +123067,13 @@ _G.pg.base.world_effect_data[864601] = {
 _G.pg.base.world_effect_data[864602] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 864602,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800103"
+		"還是再加把勁思考一下吧！"
 	},
 	autoflag = {}
 }
@@ -123098,13 +123098,13 @@ _G.pg.base.world_effect_data[864700] = {
 _G.pg.base.world_effect_data[866000] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 866000,
 	autoactivate = 1,
 	effect_paramater = {
-		"W866000"
+		"啟動實驗場氣候調節裝置後可以消除一定範圍內的浮冰。浮冰會在6次艦隊行動後恢復原狀。\n通過調整海域中的浮冰的狀態，將能源矩陣移動至指定區域。"
 	},
 	autoflag = {}
 }
@@ -123550,13 +123550,13 @@ _G.pg.base.world_effect_data[866106] = {
 _G.pg.base.world_effect_data[866107] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 866107,
 	autoactivate = 0,
 	effect_paramater = {
-		"W866011"
+		"周圍海域中的浮冰被消除了！\n浮冰會在6次艦隊行動後恢復原狀，屆時可以使用實驗場氣候調節裝置可以再次消除浮冰。"
 	},
 	autoflag = {}
 }
@@ -124087,13 +124087,13 @@ _G.pg.base.world_effect_data[866175] = {
 _G.pg.base.world_effect_data[866176] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 866176,
 	autoactivate = 1,
 	effect_paramater = {
-		"W866012"
+		"實驗場氣候調節裝置I周邊浮冰完全恢復！控制塔可以再次使用了。"
 	},
 	autoflag = {}
 }
@@ -124503,13 +124503,13 @@ _G.pg.base.world_effect_data[866206] = {
 _G.pg.base.world_effect_data[866207] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 866207,
 	autoactivate = 0,
 	effect_paramater = {
-		"W866011"
+		"周圍海域中的浮冰被消除了！\n浮冰會在6次艦隊行動後恢復原狀，屆時可以使用實驗場氣候調節裝置可以再次消除浮冰。"
 	},
 	autoflag = {}
 }
@@ -125065,13 +125065,13 @@ _G.pg.base.world_effect_data[866275] = {
 _G.pg.base.world_effect_data[866276] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 866276,
 	autoactivate = 1,
 	effect_paramater = {
-		"W866013"
+		"實驗場氣候調節裝置II周邊浮冰完全恢復！控制塔可以再次使用了。"
 	},
 	autoflag = {}
 }
@@ -125124,13 +125124,13 @@ _G.pg.base.world_effect_data[866280] = {
 _G.pg.base.world_effect_data[866511] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 866511,
 	autoactivate = 0,
 	effect_paramater = {
-		"W820040"
+		"結果確認中：指揮官，能源矩陣已經成功安裝至預定位置。"
 	},
 	autoflag = {}
 }
@@ -125155,13 +125155,13 @@ _G.pg.base.world_effect_data[866512] = {
 _G.pg.base.world_effect_data[866513] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 866513,
 	autoactivate = 0,
 	effect_paramater = {
-		"W806010"
+		"分析模組同步中：指揮官，塞壬的實驗場防禦艦隊出現了。"
 	},
 	autoflag = {}
 }
@@ -125354,13 +125354,13 @@ _G.pg.base.world_effect_data[867503] = {
 _G.pg.base.world_effect_data[867504] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 867504,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800103"
+		"還是再加把勁思考一下吧"
 	},
 	autoflag = {}
 }
@@ -125369,13 +125369,13 @@ _G.pg.base.world_effect_data[867504] = {
 _G.pg.base.world_effect_data[867550] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 867550,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800101"
+		"指令已確認：現在開始執行實驗場環境解析進行任務。\n分析模組運行中：正在解析塞壬實驗場訊息………"
 	},
 	autoflag = {}
 }
@@ -126237,13 +126237,13 @@ _G.pg.base.world_effect_data[867557] = {
 _G.pg.base.world_effect_data[867558] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 867558,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800102"
+		"分析模組同步中：已經徹底破解了塞壬實驗場中的謎題。"
 	},
 	autoflag = {}
 }
@@ -126312,13 +126312,13 @@ _G.pg.base.world_effect_data[867601] = {
 _G.pg.base.world_effect_data[867602] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 867602,
 	autoactivate = 1,
 	effect_paramater = {
-		"W800103"
+		"還是再加把勁思考一下吧！"
 	},
 	autoflag = {}
 }
@@ -141029,13 +141029,13 @@ _G.pg.base.world_effect_data[2170010] = {
 _G.pg.base.world_effect_data[2100011] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2100011,
 	autoactivate = 1,
 	effect_paramater = {
-		"WTask000C"
+		"港口海域中的海洋垃圾清理完畢，任務完成！"
 	},
 	autoflag = {}
 }
@@ -141044,13 +141044,13 @@ _G.pg.base.world_effect_data[2100011] = {
 _G.pg.base.world_effect_data[2101011] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2101011,
 	autoactivate = 1,
 	effect_paramater = {
-		"WTask010C"
+		"幫助進行了塞壬能源矩陣測試，任務完成！"
 	},
 	autoflag = {}
 }
@@ -141059,13 +141059,13 @@ _G.pg.base.world_effect_data[2101011] = {
 _G.pg.base.world_effect_data[2102011] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2102011,
 	autoactivate = 1,
 	effect_paramater = {
-		"WTask020C"
+		"擊退了襲擊港口的塞壬艦隊，任務完成！"
 	},
 	autoflag = {}
 }
@@ -141074,13 +141074,13 @@ _G.pg.base.world_effect_data[2102011] = {
 _G.pg.base.world_effect_data[2103011] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2103011,
 	autoactivate = 1,
 	effect_paramater = {
-		"WTask030C"
+		"擊退了襲擊港口的塞壬艦隊，任務完成！"
 	},
 	autoflag = {}
 }
@@ -141089,13 +141089,13 @@ _G.pg.base.world_effect_data[2103011] = {
 _G.pg.base.world_effect_data[2104011] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2104011,
 	autoactivate = 1,
 	effect_paramater = {
-		"WTask040C"
+		"結束了與己方艦隊的演習，任務完成！"
 	},
 	autoflag = {}
 }
@@ -141104,13 +141104,13 @@ _G.pg.base.world_effect_data[2104011] = {
 _G.pg.base.world_effect_data[2105011] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2105011,
 	autoactivate = 1,
 	effect_paramater = {
-		"WTask050C"
+		"結束了與己方艦隊的演習，任務完成！"
 	},
 	autoflag = {}
 }
@@ -141119,13 +141119,13 @@ _G.pg.base.world_effect_data[2105011] = {
 _G.pg.base.world_effect_data[2106011] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2106011,
 	autoactivate = 1,
 	effect_paramater = {
-		"WTask000C"
+		"港口海域中的海洋垃圾清理完畢，任務完成！"
 	},
 	autoflag = {}
 }
@@ -141134,13 +141134,13 @@ _G.pg.base.world_effect_data[2106011] = {
 _G.pg.base.world_effect_data[2107011] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2107011,
 	autoactivate = 1,
 	effect_paramater = {
-		"WTask000C"
+		"港口海域中的海洋垃圾清理完畢，任務完成！"
 	},
 	autoflag = {}
 }
@@ -141149,13 +141149,13 @@ _G.pg.base.world_effect_data[2107011] = {
 _G.pg.base.world_effect_data[2108011] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2108011,
 	autoactivate = 1,
 	effect_paramater = {
-		"WTask010C"
+		"幫助進行了塞壬能源矩陣測試，任務完成！"
 	},
 	autoflag = {}
 }
@@ -141164,13 +141164,13 @@ _G.pg.base.world_effect_data[2108011] = {
 _G.pg.base.world_effect_data[2109011] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2109011,
 	autoactivate = 1,
 	effect_paramater = {
-		"WTask010C"
+		"幫助進行了塞壬能源矩陣測試，任務完成！"
 	},
 	autoflag = {}
 }
@@ -141179,13 +141179,13 @@ _G.pg.base.world_effect_data[2109011] = {
 _G.pg.base.world_effect_data[2110011] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2110011,
 	autoactivate = 1,
 	effect_paramater = {
-		"WTask020C"
+		"擊退了襲擊港口的塞壬艦隊，任務完成！"
 	},
 	autoflag = {}
 }
@@ -141194,13 +141194,13 @@ _G.pg.base.world_effect_data[2110011] = {
 _G.pg.base.world_effect_data[2111011] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2111011,
 	autoactivate = 1,
 	effect_paramater = {
-		"WTask040C"
+		"結束了與己方艦隊的演習，任務完成！"
 	},
 	autoflag = {}
 }
@@ -141209,13 +141209,13 @@ _G.pg.base.world_effect_data[2111011] = {
 _G.pg.base.world_effect_data[2130011] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2130011,
 	autoactivate = 1,
 	effect_paramater = {
-		"WTask300C"
+		"回收了海域中散落的資源，任務完成！"
 	},
 	autoflag = {}
 }
@@ -141224,13 +141224,13 @@ _G.pg.base.world_effect_data[2130011] = {
 _G.pg.base.world_effect_data[2131011] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2131011,
 	autoactivate = 1,
 	effect_paramater = {
-		"WTask310C"
+		"回收了海域中散落的資源，任務完成！"
 	},
 	autoflag = {}
 }
@@ -141239,13 +141239,13 @@ _G.pg.base.world_effect_data[2131011] = {
 _G.pg.base.world_effect_data[2132011] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2132011,
 	autoactivate = 1,
 	effect_paramater = {
-		"WTask320C"
+		"打撈了海域中所有可回收資源，任務完成！"
 	},
 	autoflag = {}
 }
@@ -141254,13 +141254,13 @@ _G.pg.base.world_effect_data[2132011] = {
 _G.pg.base.world_effect_data[2133011] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2133011,
 	autoactivate = 1,
 	effect_paramater = {
-		"WTask330C"
+		"打撈了海域中所有可回收資源，任務完成！"
 	},
 	autoflag = {}
 }
@@ -141269,13 +141269,13 @@ _G.pg.base.world_effect_data[2133011] = {
 _G.pg.base.world_effect_data[2134011] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2134011,
 	autoactivate = 1,
 	effect_paramater = {
-		"WTask340C"
+		"殲滅了海域中的塞壬精英艦隊，任務完成！"
 	},
 	autoflag = {}
 }
@@ -141284,13 +141284,13 @@ _G.pg.base.world_effect_data[2134011] = {
 _G.pg.base.world_effect_data[2135011] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2135011,
 	autoactivate = 1,
 	effect_paramater = {
-		"WTask350C"
+		"殲滅了海域中的塞壬精英艦隊，任務完成！"
 	},
 	autoflag = {}
 }
@@ -141299,13 +141299,13 @@ _G.pg.base.world_effect_data[2135011] = {
 _G.pg.base.world_effect_data[2136011] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2136011,
 	autoactivate = 1,
 	effect_paramater = {
-		"WTask360C"
+		"確保了商船安全，任務完成！"
 	},
 	autoflag = {}
 }
@@ -141314,13 +141314,13 @@ _G.pg.base.world_effect_data[2136011] = {
 _G.pg.base.world_effect_data[2137011] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2137011,
 	autoactivate = 1,
 	effect_paramater = {
-		"WTask370C"
+		"確保了商船安全，任務完成！"
 	},
 	autoflag = {}
 }
@@ -141329,13 +141329,13 @@ _G.pg.base.world_effect_data[2137011] = {
 _G.pg.base.world_effect_data[2138011] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2138011,
 	autoactivate = 1,
 	effect_paramater = {
-		"WTask380C"
+		"清理了海域中的塞壬艦隊，任務完成！"
 	},
 	autoflag = {}
 }
@@ -141344,13 +141344,13 @@ _G.pg.base.world_effect_data[2138011] = {
 _G.pg.base.world_effect_data[2139011] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2139011,
 	autoactivate = 1,
 	effect_paramater = {
-		"WTask390C"
+		"清理了海域中的塞壬艦隊，任務完成！"
 	},
 	autoflag = {}
 }
@@ -141404,13 +141404,13 @@ _G.pg.base.world_effect_data[2162011] = {
 _G.pg.base.world_effect_data[2163011] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2163011,
 	autoactivate = 1,
 	effect_paramater = {
-		"WTask300C"
+		"回收了海域中散落的資源，任務完成！"
 	},
 	autoflag = {}
 }
@@ -141419,13 +141419,13 @@ _G.pg.base.world_effect_data[2163011] = {
 _G.pg.base.world_effect_data[2164011] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2164011,
 	autoactivate = 1,
 	effect_paramater = {
-		"WTask310C"
+		"回收了海域中散落的資源，任務完成！"
 	},
 	autoflag = {}
 }
@@ -141434,13 +141434,13 @@ _G.pg.base.world_effect_data[2164011] = {
 _G.pg.base.world_effect_data[2165011] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2165011,
 	autoactivate = 1,
 	effect_paramater = {
-		"WTask320C"
+		"打撈了海域中所有可回收資源，任務完成！"
 	},
 	autoflag = {}
 }
@@ -141449,13 +141449,13 @@ _G.pg.base.world_effect_data[2165011] = {
 _G.pg.base.world_effect_data[2166011] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2166011,
 	autoactivate = 1,
 	effect_paramater = {
-		"WTask330C"
+		"打撈了海域中所有可回收資源，任務完成！"
 	},
 	autoflag = {}
 }
@@ -141464,13 +141464,13 @@ _G.pg.base.world_effect_data[2166011] = {
 _G.pg.base.world_effect_data[2167011] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2167011,
 	autoactivate = 1,
 	effect_paramater = {
-		"WTask340C"
+		"殲滅了海域中的塞壬精英艦隊，任務完成！"
 	},
 	autoflag = {}
 }
@@ -141479,13 +141479,13 @@ _G.pg.base.world_effect_data[2167011] = {
 _G.pg.base.world_effect_data[2168011] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2168011,
 	autoactivate = 1,
 	effect_paramater = {
-		"WTask350C"
+		"殲滅了海域中的塞壬精英艦隊，任務完成！"
 	},
 	autoflag = {}
 }
@@ -141494,13 +141494,13 @@ _G.pg.base.world_effect_data[2168011] = {
 _G.pg.base.world_effect_data[2169011] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2169011,
 	autoactivate = 1,
 	effect_paramater = {
-		"WTask360C"
+		"確保了商船安全，任務完成！"
 	},
 	autoflag = {}
 }
@@ -141509,13 +141509,13 @@ _G.pg.base.world_effect_data[2169011] = {
 _G.pg.base.world_effect_data[2170011] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2170011,
 	autoactivate = 1,
 	effect_paramater = {
-		"WTask370C"
+		"確保了商船安全，任務完成！"
 	},
 	autoflag = {}
 }
@@ -141524,13 +141524,13 @@ _G.pg.base.world_effect_data[2170011] = {
 _G.pg.base.world_effect_data[2100100] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2100100,
 	autoactivate = 0,
 	effect_paramater = {
-		"WTask0000"
+		"清理了海洋中的垃圾！"
 	},
 	autoflag = {}
 }
@@ -142222,13 +142222,13 @@ _G.pg.base.world_effect_data[2105201] = {
 _G.pg.base.world_effect_data[2106100] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2106100,
 	autoactivate = 0,
 	effect_paramater = {
-		"WTask0000"
+		"清理了海洋中的垃圾！"
 	},
 	autoflag = {}
 }
@@ -142252,13 +142252,13 @@ _G.pg.base.world_effect_data[2106101] = {
 _G.pg.base.world_effect_data[2107100] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2107100,
 	autoactivate = 0,
 	effect_paramater = {
-		"WTask0000"
+		"清理了海洋中的垃圾！"
 	},
 	autoflag = {}
 }
@@ -142688,13 +142688,13 @@ _G.pg.base.world_effect_data[2111201] = {
 _G.pg.base.world_effect_data[2130100] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2130100,
 	autoactivate = 0,
 	effect_paramater = {
-		"WTask3000"
+		"回收了海洋中的資源！"
 	},
 	autoflag = {}
 }
@@ -142718,13 +142718,13 @@ _G.pg.base.world_effect_data[2130101] = {
 _G.pg.base.world_effect_data[2131100] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2131100,
 	autoactivate = 0,
 	effect_paramater = {
-		"WTask3000"
+		"回收了海洋中的資源！"
 	},
 	autoflag = {}
 }
@@ -142748,13 +142748,13 @@ _G.pg.base.world_effect_data[2131101] = {
 _G.pg.base.world_effect_data[2132100] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2132100,
 	autoactivate = 0,
 	effect_paramater = {
-		"WTask3200"
+		"打撈到了海洋中的資源！"
 	},
 	autoflag = {}
 }
@@ -142808,13 +142808,13 @@ _G.pg.base.world_effect_data[2132110] = {
 _G.pg.base.world_effect_data[2133100] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2133100,
 	autoactivate = 0,
 	effect_paramater = {
-		"WTask3200"
+		"打撈到了海洋中的資源！"
 	},
 	autoflag = {}
 }
@@ -143164,13 +143164,13 @@ _G.pg.base.world_effect_data[2136100] = {
 _G.pg.base.world_effect_data[2136101] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2136101,
 	autoactivate = 0,
 	effect_paramater = {
-		"WTask3600"
+		"友方的商船被塞壬包圍了！"
 	},
 	autoflag = {}
 }
@@ -143388,13 +143388,13 @@ _G.pg.base.world_effect_data[2137100] = {
 _G.pg.base.world_effect_data[2137101] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2137101,
 	autoactivate = 0,
 	effect_paramater = {
-		"WTask3700"
+		"友方的商船被塞壬包圍了！"
 	},
 	autoflag = {}
 }
@@ -144330,13 +144330,13 @@ _G.pg.base.world_effect_data[2139401] = {
 _G.pg.base.world_effect_data[2163100] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2163100,
 	autoactivate = 0,
 	effect_paramater = {
-		"WTask3000"
+		"打撈到了海洋中的資源！"
 	},
 	autoflag = {}
 }
@@ -144360,13 +144360,13 @@ _G.pg.base.world_effect_data[2163101] = {
 _G.pg.base.world_effect_data[2164100] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2164100,
 	autoactivate = 0,
 	effect_paramater = {
-		"WTask3000"
+		"打撈到了海洋中的資源！"
 	},
 	autoflag = {}
 }
@@ -144390,13 +144390,13 @@ _G.pg.base.world_effect_data[2164101] = {
 _G.pg.base.world_effect_data[2165100] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2165100,
 	autoactivate = 0,
 	effect_paramater = {
-		"WTask3200"
+		"打撈到了海洋中的資源！"
 	},
 	autoflag = {}
 }
@@ -144450,13 +144450,13 @@ _G.pg.base.world_effect_data[2165110] = {
 _G.pg.base.world_effect_data[2166100] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2166100,
 	autoactivate = 0,
 	effect_paramater = {
-		"WTask3200"
+		"打撈到了海洋中的資源！"
 	},
 	autoflag = {}
 }
@@ -144806,13 +144806,13 @@ _G.pg.base.world_effect_data[2169100] = {
 _G.pg.base.world_effect_data[2169101] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2169101,
 	autoactivate = 0,
 	effect_paramater = {
-		"WTask3600"
+		"友方的商船被塞壬包圍了！"
 	},
 	autoflag = {}
 }
@@ -145030,13 +145030,13 @@ _G.pg.base.world_effect_data[2170100] = {
 _G.pg.base.world_effect_data[2170101] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 2170101,
 	autoactivate = 0,
 	effect_paramater = {
-		"WTask3700"
+		"友方的商船被塞壬包圍了！"
 	},
 	autoflag = {}
 }
@@ -145237,13 +145237,13 @@ _G.pg.base.world_effect_data[2170301] = {
 _G.pg.base.world_effect_data[3000000] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 3000000,
 	autoactivate = 1,
 	effect_paramater = {
-		"W300000"
+		"進入了檔案海域。清理海域內所有塞壬艦隊後，將會獲得檔案獎勵。"
 	},
 	autoflag = {}
 }
@@ -145252,13 +145252,13 @@ _G.pg.base.world_effect_data[3000000] = {
 _G.pg.base.world_effect_data[3000500] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 3000500,
 	autoactivate = 2,
 	effect_paramater = {
-		"W300001"
+		"檔案回收完畢，海域目標已完成。可以前往下一檔案海域進行作戰。"
 	},
 	autoflag = {}
 }
@@ -145290,13 +145290,13 @@ _G.pg.base.world_effect_data[3000501] = {
 _G.pg.base.world_effect_data[3000510] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 3000510,
 	autoactivate = 2,
 	effect_paramater = {
-		"W300002"
+		"檔案回收完畢，海域目標已完成。\n本次檔案海域紀錄儀中紀錄的所有檔案均已回收完畢。"
 	},
 	autoflag = {}
 }
@@ -145995,13 +145995,13 @@ _G.pg.base.world_effect_data[10000024] = {
 _G.pg.base.world_effect_data[10000040] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10000040,
 	autoactivate = 1,
 	effect_paramater = {
-		"W2100"
+		"分析模組同步中：海域中發現塞壬艦隊與機關的痕跡。指揮官，首先尋找途徑獲取海域的詳細情報吧。建議，優先摧毀海域中的塞壬增援點以阻止更多塞壬增援艦隊的到來。"
 	},
 	autoflag = {}
 }
@@ -146168,13 +146168,13 @@ _G.pg.base.world_effect_data[10000060] = {
 _G.pg.base.world_effect_data[10000100] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10000100,
 	autoactivate = 0,
 	effect_paramater = {
-		"W2101"
+		"警告：檢測到塞壬的增援艦隊正在接近。"
 	},
 	autoflag = {}
 }
@@ -146315,13 +146315,13 @@ _G.pg.base.world_effect_data[10000130] = {
 _G.pg.base.world_effect_data[10000140] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10000140,
 	autoactivate = 1,
 	effect_paramater = {
-		"W2102"
+		"警告：塞壬的強化型增援艦隊正在接近，建議盡快摧毀海域中的剩餘塞壬增援點。"
 	},
 	autoflag = {}
 }
@@ -146516,13 +146516,13 @@ _G.pg.base.world_effect_data[10000170] = {
 _G.pg.base.world_effect_data[10000200] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10000200,
 	autoactivate = 1,
 	effect_paramater = {
-		"W2103"
+		"警告：塞壬守衛艦隊的旗艦正在接近，建議盡快摧毀海域中的最後一處塞壬增援點。"
 	},
 	autoflag = {}
 }
@@ -146854,13 +146854,13 @@ _G.pg.base.world_effect_data[10000300] = {
 _G.pg.base.world_effect_data[10000301] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10000301,
 	autoactivate = 1,
 	effect_paramater = {
-		"W2104"
+		"警告：偵測到塞壬增援點出現了強烈信號波動，預計之後將會出現戰鬥力更強的塞壬增援艦隊。"
 	},
 	autoflag = {}
 }
@@ -146934,13 +146934,13 @@ _G.pg.base.world_effect_data[10000310] = {
 _G.pg.base.world_effect_data[10000311] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10000311,
 	autoactivate = 1,
 	effect_paramater = {
-		"W2104"
+		"警告：偵測到塞壬增援點出現了強烈信號波動，預計之後將會出現戰鬥力更強的塞壬增援艦隊。"
 	},
 	autoflag = {}
 }
@@ -147031,13 +147031,13 @@ _G.pg.base.world_effect_data[10000320] = {
 _G.pg.base.world_effect_data[10000321] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10000321,
 	autoactivate = 0,
 	effect_paramater = {
-		"W2105"
+		"分析模組同步中：指揮官，海域中的全部塞壬增援點均被摧毀了。"
 	},
 	autoflag = {}
 }
@@ -147159,13 +147159,13 @@ _G.pg.base.world_effect_data[10000326] = {
 _G.pg.base.world_effect_data[10000327] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10000327,
 	autoactivate = 1,
 	effect_paramater = {
-		"W2106"
+		"分析模組同步中：指揮官，整片海域安全了，建議重新檢查海域中是否存在尚未回收的戰利品。"
 	},
 	autoflag = {}
 }
@@ -147354,13 +147354,13 @@ _G.pg.base.world_effect_data[10000350] = {
 _G.pg.base.world_effect_data[10000351] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10000351,
 	autoactivate = 1,
 	effect_paramater = {
-		"W1254"
+		"正在進行搜尋作業的指揮喵隨同艦隊一起撤離了，搜尋結束。"
 	},
 	autoflag = {}
 }
@@ -147801,13 +147801,13 @@ _G.pg.base.world_effect_data[10000413] = {
 _G.pg.base.world_effect_data[10000900] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10000900,
 	autoactivate = 0,
 	effect_paramater = {
-		"W2001"
+		"警告：遭遇了塞壬增援點的守備艦隊，即將發生戰鬥。"
 	},
 	autoflag = {}
 }
@@ -147890,13 +147890,13 @@ _G.pg.base.world_effect_data[10000901] = {
 _G.pg.base.world_effect_data[10000902] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10000902,
 	autoactivate = 0,
 	effect_paramater = {
-		"W2002"
+		"分析模組同步中：指揮官，此處塞壬增援點已被成功摧毀。"
 	},
 	autoflag = {}
 }
@@ -148258,13 +148258,13 @@ _G.pg.base.world_effect_data[10001003] = {
 _G.pg.base.world_effect_data[10001004] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10001004,
 	autoactivate = 0,
 	effect_paramater = {
-		"W2001"
+		"警告：遭遇了塞壬增援點的守備艦隊，即將發生戰鬥。"
 	},
 	autoflag = {}
 }
@@ -148347,13 +148347,13 @@ _G.pg.base.world_effect_data[10001005] = {
 _G.pg.base.world_effect_data[10001006] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10001006,
 	autoactivate = 0,
 	effect_paramater = {
-		"W2002"
+		"分析模組同步中：指揮官，此處塞壬增援點已被成功摧毀。"
 	},
 	autoflag = {}
 }
@@ -148604,13 +148604,13 @@ _G.pg.base.world_effect_data[10002002] = {
 _G.pg.base.world_effect_data[10002003] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10002003,
 	autoactivate = 0,
 	effect_paramater = {
-		"W2001"
+		"警告：遭遇了塞壬增援點的守備艦隊，即將發生戰鬥。"
 	},
 	autoflag = {}
 }
@@ -148693,13 +148693,13 @@ _G.pg.base.world_effect_data[10002004] = {
 _G.pg.base.world_effect_data[10002005] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10002005,
 	autoactivate = 0,
 	effect_paramater = {
-		"W2002"
+		"分析模組同步中：指揮官，此處塞壬增援點已被成功摧毀。"
 	},
 	autoflag = {}
 }
@@ -149365,13 +149365,13 @@ _G.pg.base.world_effect_data[10003004] = {
 _G.pg.base.world_effect_data[10003005] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10003005,
 	autoactivate = 0,
 	effect_paramater = {
-		"W2001"
+		"警告：遭遇了塞壬增援點的守備艦隊，即將發生戰鬥。"
 	},
 	autoflag = {}
 }
@@ -149454,13 +149454,13 @@ _G.pg.base.world_effect_data[10003006] = {
 _G.pg.base.world_effect_data[10003007] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10003007,
 	autoactivate = 0,
 	effect_paramater = {
-		"W2002"
+		"分析模組同步中：指揮官，此處塞壬增援點已被成功摧毀。"
 	},
 	autoflag = {}
 }
@@ -149469,13 +149469,13 @@ _G.pg.base.world_effect_data[10003007] = {
 _G.pg.base.world_effect_data[10003008] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10003008,
 	autoactivate = 0,
 	effect_paramater = {
-		"W2009"
+		"警告：遭遇到塞壬陷阱干擾。"
 	},
 	autoflag = {}
 }
@@ -149579,13 +149579,13 @@ _G.pg.base.world_effect_data[10003012] = {
 _G.pg.base.world_effect_data[10003013] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10003013,
 	autoactivate = 0,
 	effect_paramater = {
-		"W2008"
+		"警告：遭遇到塞壬艦隊伏擊。"
 	},
 	autoflag = {}
 }
@@ -149863,13 +149863,13 @@ _G.pg.base.world_effect_data[10004002] = {
 _G.pg.base.world_effect_data[10004003] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10004003,
 	autoactivate = 0,
 	effect_paramater = {
-		"W2001"
+		"警告：遭遇了塞壬增援點的守備艦隊，即將發生戰鬥。"
 	},
 	autoflag = {}
 }
@@ -149952,13 +149952,13 @@ _G.pg.base.world_effect_data[10004004] = {
 _G.pg.base.world_effect_data[10004005] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10004005,
 	autoactivate = 0,
 	effect_paramater = {
-		"W2002"
+		"分析模組同步中：指揮官，此處塞壬增援點已被成功摧毀。"
 	},
 	autoflag = {}
 }
@@ -150466,13 +150466,13 @@ _G.pg.base.world_effect_data[10010004] = {
 _G.pg.base.world_effect_data[10010005] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10010005,
 	autoactivate = 0,
 	effect_paramater = {
-		"W2010"
+		"無法繼續前進……"
 	},
 	autoflag = {}
 }
@@ -150481,13 +150481,13 @@ _G.pg.base.world_effect_data[10010005] = {
 _G.pg.base.world_effect_data[10010006] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10010006,
 	autoactivate = 0,
 	effect_paramater = {
-		"W2011"
+		"至少需要兩個艦隊同時進行啟動……"
 	},
 	autoflag = {}
 }
@@ -150496,13 +150496,13 @@ _G.pg.base.world_effect_data[10010006] = {
 _G.pg.base.world_effect_data[10010007] = {
 	autocomplete = 0,
 	effective_num = 2,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10010007,
 	autoactivate = 0,
 	effect_paramater = {
-		"W2012"
+		"分析模組同步中：指揮官，開啟設施被啟動了。"
 	},
 	autoflag = {}
 }
@@ -150779,13 +150779,13 @@ _G.pg.base.world_effect_data[10010022] = {
 _G.pg.base.world_effect_data[10010023] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10010023,
 	autoactivate = 0,
 	effect_paramater = {
-		"W2012B"
+		"分析模組同步中：指揮官，區域已被不明設備封鎖，建議啟動所有開啟設施將封鎖解除。"
 	},
 	autoflag = {}
 }
@@ -151077,13 +151077,13 @@ _G.pg.base.world_effect_data[10011013] = {
 _G.pg.base.world_effect_data[10011014] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10011014,
 	autoactivate = 0,
 	effect_paramater = {
-		"W2015"
+		"結果確認中：指揮官，裝置已被成功啟動，回收到了可用資源。"
 	},
 	autoflag = {}
 }
@@ -151187,13 +151187,13 @@ _G.pg.base.world_effect_data[10011020] = {
 _G.pg.base.world_effect_data[10011021] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10011021,
 	autoactivate = 0,
 	effect_paramater = {
-		"W2014"
+		"分析模組同步中：指揮官，前方發現了一處特殊塞壬資源點。資源點周邊的塞壬裝置因為能源枯竭已經停止運行，正在分析周邊海況——————\n結果確認中：周邊區域中存在的塞壬能源模組已經紀錄入G.M系統中，建議進行收集。"
 	},
 	autoflag = {}
 }
@@ -151217,13 +151217,13 @@ _G.pg.base.world_effect_data[10011022] = {
 _G.pg.base.world_effect_data[10011023] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10011023,
 	autoactivate = 0,
 	effect_paramater = {
-		"W2016"
+		"回收到了塞壬能源矩陣，接下來需要把能源矩陣移動到指定位置才能使其生效……"
 	},
 	autoflag = {}
 }
@@ -151364,13 +151364,13 @@ _G.pg.base.world_effect_data[10011031] = {
 _G.pg.base.world_effect_data[10011032] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10011032,
 	autoactivate = 1,
 	effect_paramater = {
-		"W2016B"
+		"資源點等級提升了！"
 	},
 	autoflag = {}
 }
@@ -151447,13 +151447,13 @@ _G.pg.base.world_effect_data[10012002] = {
 _G.pg.base.world_effect_data[10012004] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10012004,
 	autoactivate = 0,
 	effect_paramater = {
-		"W2017"
+		"首先清理掉海域中的所有塞壬支援點，再繼續向前調查吧……"
 	},
 	autoflag = {}
 }
@@ -152177,13 +152177,13 @@ _G.pg.base.world_effect_data[10021016] = {
 _G.pg.base.world_effect_data[10021017] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10021017,
 	autoactivate = 1,
 	effect_paramater = {
-		"W2023"
+		"維護結束，艦隊全員的耐久值恢復完畢！指揮官，接下來的作戰加油哦~"
 	},
 	autoflag = {}
 }
@@ -152295,13 +152295,13 @@ _G.pg.base.world_effect_data[10021023] = {
 _G.pg.base.world_effect_data[10021024] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10021024,
 	autoactivate = 0,
 	effect_paramater = {
-		"W2020"
+		"本次行動期間我會一直帶領艦隊停留在這裡。如果有需要請隨時前來哦~"
 	},
 	autoflag = {}
 }
@@ -152331,13 +152331,13 @@ _G.pg.base.world_effect_data[10021025] = {
 _G.pg.base.world_effect_data[10021026] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10021026,
 	autoactivate = 0,
 	effect_paramater = {
-		"W2024"
+		"本次行動期間我會一直帶領艦隊停留在這裡。如果有需要請隨時前來哦~"
 	},
 	autoflag = {}
 }
@@ -152454,13 +152454,13 @@ _G.pg.base.world_effect_data[10022002] = {
 _G.pg.base.world_effect_data[10022003] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10022003,
 	autoactivate = 0,
 	effect_paramater = {
-		"W2026"
+		"區域被封鎖，艦隊無法繼續前進了……"
 	},
 	autoflag = {}
 }
@@ -152501,13 +152501,13 @@ _G.pg.base.world_effect_data[10022005] = {
 _G.pg.base.world_effect_data[10022006] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10022006,
 	autoactivate = 0,
 	effect_paramater = {
-		"W2027"
+		"警告：指揮官，觸發了塞壬隱藏在海域中的警報裝置，周邊區域被封鎖了。"
 	},
 	autoflag = {}
 }
@@ -152617,13 +152617,13 @@ _G.pg.base.world_effect_data[10022012] = {
 _G.pg.base.world_effect_data[10022013] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10022013,
 	autoactivate = 1,
 	effect_paramater = {
-		"W2028"
+		"區域中出現了多個機關，不過看起來其中只有一個才是正確的選擇……"
 	},
 	autoflag = {}
 }
@@ -152972,13 +152972,13 @@ _G.pg.base.world_effect_data[10022031] = {
 _G.pg.base.world_effect_data[10022032] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10022032,
 	autoactivate = 0,
 	effect_paramater = {
-		"W2030"
+		"分析模組同步中：指揮官，區域封鎖被解除了。"
 	},
 	autoflag = {}
 }
@@ -153071,13 +153071,13 @@ _G.pg.base.world_effect_data[10022036] = {
 _G.pg.base.world_effect_data[10022037] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10022037,
 	autoactivate = 0,
 	effect_paramater = {
-		"W2031"
+		"區域封鎖沒有被解除，選擇錯誤了麼……\n警告：指揮官，區域中的機關狀態被重置了。"
 	},
 	autoflag = {}
 }
@@ -153182,13 +153182,13 @@ _G.pg.base.world_effect_data[10022043] = {
 _G.pg.base.world_effect_data[10022044] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10022044,
 	autoactivate = 0,
 	effect_paramater = {
-		"W2029"
+		"區域外也出現了機關……？也許是解開封鎖區域的關鍵所在！"
 	},
 	autoflag = {}
 }
@@ -153251,13 +153251,13 @@ _G.pg.base.world_effect_data[10022047] = {
 _G.pg.base.world_effect_data[10022048] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10022048,
 	autoactivate = 0,
 	effect_paramater = {
-		"W2032"
+		"干擾的機關被消除了！破壞機關得到了額外的物資！"
 	},
 	autoflag = {}
 }
@@ -153418,13 +153418,13 @@ _G.pg.base.world_effect_data[10022057] = {
 _G.pg.base.world_effect_data[10022058] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10022058,
 	autoactivate = 1,
 	effect_paramater = {
-		"W2033"
+		"分析模組同步中：指揮官，周邊出現了塞壬伏擊艦隊，將其擊敗可以解除區域封鎖。"
 	},
 	autoflag = {}
 }
@@ -153630,13 +153630,13 @@ _G.pg.base.world_effect_data[10022067] = {
 _G.pg.base.world_effect_data[10022068] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10022068,
 	autoactivate = 1,
 	effect_paramater = {
-		"W2034"
+		"結果確認中：指揮官，塞壬艦隊已被消滅，封鎖機關被破壞了。"
 	},
 	autoflag = {}
 }
@@ -153732,13 +153732,13 @@ _G.pg.base.world_effect_data[10023003] = {
 _G.pg.base.world_effect_data[10023004] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 10023004,
 	autoactivate = 0,
 	effect_paramater = {
-		"W2036"
+		"警告：周圍海域出現了異常海況，請小心行動。"
 	},
 	autoflag = {}
 }
@@ -161928,13 +161928,13 @@ _G.pg.base.world_effect_data[40000005] = {
 _G.pg.base.world_effect_data[40000006] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 40000006,
 	autoactivate = 1,
 	effect_paramater = {
-		"W400001"
+		"警告：指揮官，前方海域出現未知強敵，塞壬區域封鎖裝置正在自動解除中。"
 	},
 	autoflag = {}
 }
@@ -162334,13 +162334,13 @@ _G.pg.base.world_effect_data[40020063] = {
 _G.pg.base.world_effect_data[40020064] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 40020064,
 	autoactivate = 0,
 	effect_paramater = {
-		"WNN005C"
+		"艦隊的耐久值與戰損狀態恢復了！"
 	},
 	autoflag = {}
 }
@@ -162380,13 +162380,13 @@ _G.pg.base.world_effect_data[40020066] = {
 _G.pg.base.world_effect_data[40020070] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 40020070,
 	autoactivate = 0,
 	effect_paramater = {
-		"WNN005D"
+		"塞壬守衛的實力非常強，請指揮官小心應戰。"
 	},
 	autoflag = {}
 }
@@ -162503,13 +162503,13 @@ _G.pg.base.world_effect_data[40054001] = {
 _G.pg.base.world_effect_data[40054002] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 40054002,
 	autoactivate = 1,
 	effect_paramater = {
-		"WNN005E"
+		"擊敗了塞壬守衛，可以通過傳送門離開深淵海域。"
 	},
 	autoflag = {}
 }
@@ -162577,13 +162577,13 @@ _G.pg.base.world_effect_data[40055001] = {
 _G.pg.base.world_effect_data[40055002] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 40055002,
 	autoactivate = 1,
 	effect_paramater = {
-		"WNN005E"
+		"擊敗了塞壬守衛，可以通過傳送門離開深淵海域。"
 	},
 	autoflag = {}
 }
@@ -162651,13 +162651,13 @@ _G.pg.base.world_effect_data[40058001] = {
 _G.pg.base.world_effect_data[40058002] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 40058002,
 	autoactivate = 1,
 	effect_paramater = {
-		"WNN005E"
+		"擊敗了塞壬守衛，可以通過傳送門離開深淵海域。"
 	},
 	autoflag = {}
 }
@@ -162773,13 +162773,13 @@ _G.pg.base.world_effect_data[41000011] = {
 _G.pg.base.world_effect_data[41000012] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 41000012,
 	autoactivate = 0,
 	effect_paramater = {
-		"W400005"
+		"分析模組同步中：指揮官，深淵海域中的守衛已擊破，現在可以使用塞壬特殊通行裝置離開了。"
 	},
 	autoflag = {}
 }
@@ -163614,13 +163614,13 @@ _G.pg.base.world_effect_data[41002013] = {
 _G.pg.base.world_effect_data[41002100] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 41002100,
 	autoactivate = 0,
 	effect_paramater = {
-		"W400001"
+		"警告：指揮官，前方海域出現未知強敵，塞壬區域封鎖裝置正在自動解除中。"
 	},
 	autoflag = {}
 }
@@ -163792,13 +163792,13 @@ _G.pg.base.world_effect_data[41002113] = {
 _G.pg.base.world_effect_data[41002200] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 41002200,
 	autoactivate = 0,
 	effect_paramater = {
-		"W400003"
+		"分析模組同步中：指揮官，周邊區域的封鎖被解除了。"
 	},
 	autoflag = {}
 }
@@ -164080,13 +164080,13 @@ _G.pg.base.world_effect_data[41003001] = {
 _G.pg.base.world_effect_data[41003002] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 41003002,
 	autoactivate = 1,
 	effect_paramater = {
-		"W400002"
+		"警告：指揮官，因為塞壬區域封鎖裝置的解除，整片深淵海域的海況出現了劇烈變化。"
 	},
 	autoflag = {}
 }
@@ -168473,13 +168473,13 @@ _G.pg.base.world_effect_data[50100004] = {
 _G.pg.base.world_effect_data[50100005] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 50100005,
 	autoactivate = 1,
 	effect_paramater = {
-		"W3000"
+		"這是？謎題空間？"
 	},
 	autoflag = {}
 }
@@ -168902,13 +168902,13 @@ _G.pg.base.world_effect_data[50100311] = {
 _G.pg.base.world_effect_data[50100401] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 50100401,
 	autoactivate = 1,
 	effect_paramater = {
-		"W3001"
+		"海面上出現了異動！一部分海域的入口被打開了，先嘗試調查一下看看吧"
 	},
 	autoflag = {}
 }
@@ -169041,13 +169041,13 @@ _G.pg.base.world_effect_data[50100412] = {
 _G.pg.base.world_effect_data[50100420] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 50100420,
 	autoactivate = 1,
 	effect_paramater = {
-		"W3007"
+		"海況出現了變化！"
 	},
 	autoflag = {}
 }
@@ -170508,13 +170508,13 @@ _G.pg.base.world_effect_data[50100713] = {
 _G.pg.base.world_effect_data[50100714] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 50100714,
 	autoactivate = 1,
 	effect_paramater = {
-		"W3005"
+		"裝置運轉正常……"
 	},
 	autoflag = {}
 }
@@ -170577,13 +170577,13 @@ _G.pg.base.world_effect_data[50100720] = {
 _G.pg.base.world_effect_data[50100721] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 50100721,
 	autoactivate = 1,
 	effect_paramater = {
-		"W3006"
+		"解謎完成！海域平靜了下來……現在可以領取獎勵離開地圖了"
 	},
 	autoflag = {}
 }
@@ -173864,13 +173864,13 @@ _G.pg.base.world_effect_data[60001027] = {
 _G.pg.base.world_effect_data[60001050] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 60001050,
 	autoactivate = 0,
 	effect_paramater = {
-		"W610000"
+		"戰鬥結果已確認：成功壓制了一處塞壬據點，要塞海域中剩餘塞壬據點數為：8。"
 	},
 	autoflag = {}
 }
@@ -173879,13 +173879,13 @@ _G.pg.base.world_effect_data[60001050] = {
 _G.pg.base.world_effect_data[60001051] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 60001051,
 	autoactivate = 0,
 	effect_paramater = {
-		"W610001"
+		"戰鬥結果已確認：成功壓制了一處塞壬據點，要塞海域中剩餘塞壬據點數為：7。"
 	},
 	autoflag = {}
 }
@@ -173894,13 +173894,13 @@ _G.pg.base.world_effect_data[60001051] = {
 _G.pg.base.world_effect_data[60001052] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 60001052,
 	autoactivate = 0,
 	effect_paramater = {
-		"W610002"
+		"戰鬥結果已確認：成功壓制了一處塞壬據點，要塞海域中剩餘塞壬據點數為：6。"
 	},
 	autoflag = {}
 }
@@ -173909,13 +173909,13 @@ _G.pg.base.world_effect_data[60001052] = {
 _G.pg.base.world_effect_data[60001053] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 60001053,
 	autoactivate = 0,
 	effect_paramater = {
-		"W610003"
+		"戰鬥結果已確認：成功壓制了一處塞壬據點，要塞海域中剩餘塞壬據點數為：5。"
 	},
 	autoflag = {}
 }
@@ -173924,13 +173924,13 @@ _G.pg.base.world_effect_data[60001053] = {
 _G.pg.base.world_effect_data[60001054] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 60001054,
 	autoactivate = 0,
 	effect_paramater = {
-		"W610004"
+		"戰鬥結果已確認：成功壓制了一處塞壬據點，要塞海域中剩餘塞壬據點數為：4。"
 	},
 	autoflag = {}
 }
@@ -173939,13 +173939,13 @@ _G.pg.base.world_effect_data[60001054] = {
 _G.pg.base.world_effect_data[60001055] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 60001055,
 	autoactivate = 0,
 	effect_paramater = {
-		"W610005"
+		"戰鬥結果已確認：成功壓制了一處塞壬據點，要塞海域中剩餘塞壬據點數為：3。"
 	},
 	autoflag = {}
 }
@@ -173954,13 +173954,13 @@ _G.pg.base.world_effect_data[60001055] = {
 _G.pg.base.world_effect_data[60001056] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 60001056,
 	autoactivate = 0,
 	effect_paramater = {
-		"W610006"
+		"戰鬥結果已確認：成功壓制了一處塞壬據點，要塞海域中剩餘塞壬據點數為：2。"
 	},
 	autoflag = {}
 }
@@ -173969,13 +173969,13 @@ _G.pg.base.world_effect_data[60001056] = {
 _G.pg.base.world_effect_data[60001057] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 60001057,
 	autoactivate = 0,
 	effect_paramater = {
-		"W610007"
+		"戰鬥結果已確認：成功壓制了一處塞壬據點，要塞海域中剩餘塞壬據點數為：1。"
 	},
 	autoflag = {}
 }
@@ -173984,13 +173984,13 @@ _G.pg.base.world_effect_data[60001057] = {
 _G.pg.base.world_effect_data[60001058] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 60001058,
 	autoactivate = 0,
 	effect_paramater = {
-		"W610008"
+		"戰鬥結果已確認：成功壓制了一處塞壬據點，要塞海域中剩餘塞壬據點數為：0。"
 	},
 	autoflag = {}
 }
@@ -173999,13 +173999,13 @@ _G.pg.base.world_effect_data[60001058] = {
 _G.pg.base.world_effect_data[60001060] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 60001060,
 	autoactivate = 0,
 	effect_paramater = {
-		"W610010"
+		"警告：遭遇到塞壬艦隊伏擊。"
 	},
 	autoflag = {}
 }
@@ -174014,13 +174014,13 @@ _G.pg.base.world_effect_data[60001060] = {
 _G.pg.base.world_effect_data[60001070] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 60001070,
 	autoactivate = 0,
 	effect_paramater = {
-		"W610020"
+		"分析模組同步中：指揮官，海域中異常的海霧消失了。"
 	},
 	autoflag = {}
 }
@@ -174029,13 +174029,13 @@ _G.pg.base.world_effect_data[60001070] = {
 _G.pg.base.world_effect_data[60001071] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 60001071,
 	autoactivate = 0,
 	effect_paramater = {
-		"W610021"
+		"分析模組同步中：指揮官，海域中異常的腐蝕區域消失了。"
 	},
 	autoflag = {}
 }
@@ -174468,13 +174468,13 @@ _G.pg.base.world_effect_data[60003002] = {
 _G.pg.base.world_effect_data[60003003] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 60003003,
 	autoactivate = 1,
 	effect_paramater = {
-		"W611001"
+		"已經擊破所有塞壬據點，可以從塞壬特殊通行裝置或者海域邊緣離開，離開後將無法再次返回本處海域。"
 	},
 	autoflag = {}
 }
@@ -186726,13 +186726,13 @@ _G.pg.base.world_effect_data[60102100] = {
 _G.pg.base.world_effect_data[60102101] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 60102101,
 	autoactivate = 0,
 	effect_paramater = {
-		"W610100"
+		"分析模組同步中：指揮官，將海域中塞壬控制力下降到50%以下後，可使該裝置失效。"
 	},
 	autoflag = {}
 }
@@ -189084,13 +189084,13 @@ _G.pg.base.world_effect_data[60204101] = {
 _G.pg.base.world_effect_data[60204102] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 60204102,
 	autoactivate = 1,
 	effect_paramater = {
-		"W610200"
+		"警告：偵察到正在向我方據點移動的塞壬襲擊艦隊。建議，在據點被塞壬徹底占領之前，派遣艦隊將其消滅。"
 	},
 	autoflag = {}
 }
@@ -189099,13 +189099,13 @@ _G.pg.base.world_effect_data[60204102] = {
 _G.pg.base.world_effect_data[60204103] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 60204103,
 	autoactivate = 0,
 	effect_paramater = {
-		"W610201"
+		"結果確認中：指揮官，塞壬襲擊艦隊已被消滅，此處據點暫時脫離了危險。同時，發現塞壬特殊補給箱，建議回收。"
 	},
 	autoflag = {}
 }
@@ -189207,13 +189207,13 @@ _G.pg.base.world_effect_data[60204111] = {
 _G.pg.base.world_effect_data[60204112] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 60204112,
 	autoactivate = 1,
 	effect_paramater = {
-		"W610200"
+		"警告：偵察到正在向我方據點移動的塞壬襲擊艦隊。建議，在據點被塞壬徹底占領之前，派遣艦隊將其消滅。"
 	},
 	autoflag = {}
 }
@@ -189222,13 +189222,13 @@ _G.pg.base.world_effect_data[60204112] = {
 _G.pg.base.world_effect_data[60204113] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 60204113,
 	autoactivate = 0,
 	effect_paramater = {
-		"W610201"
+		"結果確認中：指揮官，塞壬襲擊艦隊已被消滅，此處據點暫時脫離了危險。同時，發現塞壬特殊補給箱，建議回收。"
 	},
 	autoflag = {}
 }
@@ -189314,13 +189314,13 @@ _G.pg.base.world_effect_data[60204203] = {
 _G.pg.base.world_effect_data[60204204] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 60204204,
 	autoactivate = 1,
 	effect_paramater = {
-		"W610202"
+		"警告：我方據點被塞壬艦隊占領，塞壬對於該片海域的控制力增加了。"
 	},
 	autoflag = {}
 }
@@ -189422,13 +189422,13 @@ _G.pg.base.world_effect_data[60204213] = {
 _G.pg.base.world_effect_data[60204214] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 60204214,
 	autoactivate = 1,
 	effect_paramater = {
-		"W610202"
+		"警告：我方據點被塞壬艦隊占領，塞壬對於該片海域的控制力增加了。"
 	},
 	autoflag = {}
 }
@@ -189484,13 +189484,13 @@ _G.pg.base.world_effect_data[60204300] = {
 _G.pg.base.world_effect_data[60204301] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 60204301,
 	autoactivate = 0,
 	effect_paramater = {
-		"W610203"
+		"結果確認中：指揮官，塞壬防禦艦隊已被消滅，我們取得了該處據點的控制權。同時，發現塞壬特殊補給箱，建議回收。"
 	},
 	autoflag = {}
 }
@@ -189531,13 +189531,13 @@ _G.pg.base.world_effect_data[60204310] = {
 _G.pg.base.world_effect_data[60204311] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 60204311,
 	autoactivate = 0,
 	effect_paramater = {
-		"W610203"
+		"結果確認中：指揮官，塞壬防禦艦隊已被消滅，我們取得了該處據點的控制權。同時，發現塞壬特殊補給箱，建議回收。"
 	},
 	autoflag = {}
 }
@@ -189667,13 +189667,13 @@ _G.pg.base.world_effect_data[60214101] = {
 _G.pg.base.world_effect_data[60214102] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 60214102,
 	autoactivate = 1,
 	effect_paramater = {
-		"W610200"
+		"警告：偵察到正在向我方據點移動的塞壬襲擊艦隊。建議，在據點被塞壬徹底占領之前，派遣艦隊將其消滅。"
 	},
 	autoflag = {}
 }
@@ -189682,13 +189682,13 @@ _G.pg.base.world_effect_data[60214102] = {
 _G.pg.base.world_effect_data[60214103] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 60214103,
 	autoactivate = 0,
 	effect_paramater = {
-		"W610201"
+		"結果確認中：指揮官，塞壬襲擊艦隊已被消滅，此處據點暫時脫離了危險。同時，發現塞壬特殊補給箱，建議回收。"
 	},
 	autoflag = {}
 }
@@ -189790,13 +189790,13 @@ _G.pg.base.world_effect_data[60214111] = {
 _G.pg.base.world_effect_data[60214112] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 60214112,
 	autoactivate = 1,
 	effect_paramater = {
-		"W610200"
+		"警告：偵察到正在向我方據點移動的塞壬襲擊艦隊。建議，在據點被塞壬徹底占領之前，派遣艦隊將其消滅。"
 	},
 	autoflag = {}
 }
@@ -189805,13 +189805,13 @@ _G.pg.base.world_effect_data[60214112] = {
 _G.pg.base.world_effect_data[60214113] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 60214113,
 	autoactivate = 0,
 	effect_paramater = {
-		"W610201"
+		"結果確認中：指揮官，塞壬襲擊艦隊已被消滅，此處據點暫時脫離了危險。同時，發現塞壬特殊補給箱，建議回收。"
 	},
 	autoflag = {}
 }
@@ -189897,13 +189897,13 @@ _G.pg.base.world_effect_data[60214203] = {
 _G.pg.base.world_effect_data[60214204] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 60214204,
 	autoactivate = 1,
 	effect_paramater = {
-		"W610202"
+		"警告：我方據點被塞壬艦隊占領，塞壬對於該片海域的控制力增加了。"
 	},
 	autoflag = {}
 }
@@ -190005,13 +190005,13 @@ _G.pg.base.world_effect_data[60214213] = {
 _G.pg.base.world_effect_data[60214214] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 60214214,
 	autoactivate = 1,
 	effect_paramater = {
-		"W610202"
+		"警告：我方據點被塞壬艦隊占領，塞壬對於該片海域的控制力增加了。"
 	},
 	autoflag = {}
 }
@@ -190067,13 +190067,13 @@ _G.pg.base.world_effect_data[60214300] = {
 _G.pg.base.world_effect_data[60214301] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 60214301,
 	autoactivate = 0,
 	effect_paramater = {
-		"W610203"
+		"結果確認中：指揮官，塞壬防禦艦隊已被消滅，我們取得了該處據點的控制權。同時，發現塞壬特殊補給箱，建議回收。"
 	},
 	autoflag = {}
 }
@@ -190114,13 +190114,13 @@ _G.pg.base.world_effect_data[60214310] = {
 _G.pg.base.world_effect_data[60214311] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 60214311,
 	autoactivate = 0,
 	effect_paramater = {
-		"W610203"
+		"結果確認中：指揮官，塞壬防禦艦隊已被消滅，我們取得了該處據點的控制權。同時，發現塞壬特殊補給箱，建議回收。"
 	},
 	autoflag = {}
 }
@@ -190367,13 +190367,13 @@ _G.pg.base.world_effect_data[60302000] = {
 _G.pg.base.world_effect_data[60302100] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 60302100,
 	autoactivate = 0,
 	effect_paramater = {
-		"W610300"
+		"指令執行中：正在打撈沈沒的物資……結果確認，指揮官，物資回收完畢。"
 	},
 	autoflag = {}
 }
@@ -190382,13 +190382,13 @@ _G.pg.base.world_effect_data[60302100] = {
 _G.pg.base.world_effect_data[60302110] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 60302110,
 	autoactivate = 0,
 	effect_paramater = {
-		"W610301"
+		"指令執行中：正在打撈沈沒的物資……警告，遭遇到塞壬艦隊伏擊。"
 	},
 	autoflag = {}
 }
@@ -190700,13 +190700,13 @@ _G.pg.base.world_effect_data[60304121] = {
 _G.pg.base.world_effect_data[60304200] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 60304200,
 	autoactivate = 0,
 	effect_paramater = {
-		"W610305"
+		"指令執行中：正在打撈沈沒的物資……警告，遭遇到塞壬艦隊伏擊。"
 	},
 	autoflag = {}
 }
@@ -190741,13 +190741,13 @@ _G.pg.base.world_effect_data[60304201] = {
 _G.pg.base.world_effect_data[60304210] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 60304210,
 	autoactivate = 0,
 	effect_paramater = {
-		"W610306"
+		"指令執行中：正在打撈沈沒的物資……警告，觸發了塞壬設下的陷阱，周邊海面出現了腐蝕區域。"
 	},
 	autoflag = {}
 }
@@ -192310,13 +192310,13 @@ _G.pg.base.world_effect_data[61041000] = {
 _G.pg.base.world_effect_data[61041001] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 61041001,
 	autoactivate = 0,
 	effect_paramater = {
-		"W610102"
+		"分析模組同步中：指揮官，將海域中塞壬控制力下降到80%以下後，可使該裝置失效。"
 	},
 	autoflag = {}
 }
@@ -192340,13 +192340,13 @@ _G.pg.base.world_effect_data[61041020] = {
 _G.pg.base.world_effect_data[61041021] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 61041021,
 	autoactivate = 0,
 	effect_paramater = {
-		"W610101"
+		"分析模組同步中：指揮官，將海域中塞壬控制力下降到60%以下後，可使該裝置失效。"
 	},
 	autoflag = {}
 }
@@ -192483,13 +192483,13 @@ _G.pg.base.world_effect_data[61061130] = {
 _G.pg.base.world_effect_data[61061200] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 61061200,
 	autoactivate = 0,
 	effect_paramater = {
-		"W612000"
+		"分析模組同步中：指揮官，海域中存在的異常洋流構成了某種阻礙艦隊移動的封鎖區域。建議，尋找並摧毀海域中的4處塞壬洋流控制器。"
 	},
 	autoflag = {}
 }
@@ -192548,13 +192548,13 @@ _G.pg.base.world_effect_data[61061302] = {
 _G.pg.base.world_effect_data[61061303] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 61061303,
 	autoactivate = 0,
 	effect_paramater = {
-		"W612001"
+		"結果確認中：指揮官，海域中的1處塞壬洋流控制器被摧毀了。"
 	},
 	autoflag = {}
 }
@@ -192675,13 +192675,13 @@ _G.pg.base.world_effect_data[61061312] = {
 _G.pg.base.world_effect_data[61061313] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 61061313,
 	autoactivate = 0,
 	effect_paramater = {
-		"W612001"
+		"結果確認中：指揮官，海域中的1處塞壬洋流控制器被摧毀了。"
 	},
 	autoflag = {}
 }
@@ -192787,13 +192787,13 @@ _G.pg.base.world_effect_data[61061322] = {
 _G.pg.base.world_effect_data[61061323] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 61061323,
 	autoactivate = 0,
 	effect_paramater = {
-		"W612001"
+		"結果確認中：指揮官，海域中的1處塞壬洋流控制器被摧毀了。"
 	},
 	autoflag = {}
 }
@@ -192899,13 +192899,13 @@ _G.pg.base.world_effect_data[61061332] = {
 _G.pg.base.world_effect_data[61061333] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 61061333,
 	autoactivate = 0,
 	effect_paramater = {
-		"W612001"
+		"結果確認中：指揮官，海域中的1處塞壬洋流控制器被摧毀了。"
 	},
 	autoflag = {}
 }
@@ -193003,13 +193003,13 @@ _G.pg.base.world_effect_data[61061401] = {
 _G.pg.base.world_effect_data[61061402] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 61061402,
 	autoactivate = 1,
 	effect_paramater = {
-		"W612002"
+		"結果確認中：指揮官，海域中的全部4處塞壬洋流控制器均被摧毀，異常洋流現象消失了。"
 	},
 	autoflag = {}
 }
@@ -193537,13 +193537,13 @@ _G.pg.base.world_effect_data[70000320] = {
 _G.pg.base.world_effect_data[70000400] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 70000400,
 	autoactivate = 0,
 	effect_paramater = {
-		"W700030"
+		"進入了核心區前哨站。通過前方的特殊通行裝置可以挑戰普通難度的仲裁機關。"
 	},
 	autoflag = {}
 }
@@ -193552,13 +193552,13 @@ _G.pg.base.world_effect_data[70000400] = {
 _G.pg.base.world_effect_data[70000410] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 70000410,
 	autoactivate = 0,
 	effect_paramater = {
-		"W700031"
+		"困難難度已解鎖，通過前方的特殊通行裝置可以挑戰困難難度的仲裁機關。"
 	},
 	autoflag = {}
 }
@@ -193567,13 +193567,13 @@ _G.pg.base.world_effect_data[70000410] = {
 _G.pg.base.world_effect_data[70000420] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 70000420,
 	autoactivate = 0,
 	effect_paramater = {
-		"W700032"
+		"本月月度的仲裁機關挑戰已完成，再次進入特殊通行裝置可以重覆挑戰困難難度仲裁機關模擬戰，模擬戰無法獲取任何獎勵。"
 	},
 	autoflag = {}
 }
@@ -193598,13 +193598,13 @@ _G.pg.base.world_effect_data[70000500] = {
 _G.pg.base.world_effect_data[70000501] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 70000501,
 	autoactivate = 1,
 	effect_paramater = {
-		"W700030"
+		"進入了核心區前哨站。通過前方的特殊通行裝置可以挑戰普通難度的仲裁機關。"
 	},
 	autoflag = {}
 }
@@ -194356,13 +194356,13 @@ _G.pg.base.world_effect_data[70003002] = {
 _G.pg.base.world_effect_data[70003003] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 70003003,
 	autoactivate = 1,
 	effect_paramater = {
-		"W700031"
+		"困難難度已解鎖，通過前方的特殊通行裝置可以挑戰困難難度的仲裁機關。"
 	},
 	autoflag = {}
 }
@@ -194435,13 +194435,13 @@ _G.pg.base.world_effect_data[70003102] = {
 _G.pg.base.world_effect_data[70003103] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 70003103,
 	autoactivate = 1,
 	effect_paramater = {
-		"W700032"
+		"本月月度的仲裁機關挑戰已完成，再次進入特殊通行裝置可以重覆挑戰困難難度仲裁機關模擬戰，模擬戰無法獲取任何獎勵。"
 	},
 	autoflag = {}
 }
@@ -201450,13 +201450,13 @@ _G.pg.base.world_effect_data[70222503] = {
 _G.pg.base.world_effect_data[70222504] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 70222504,
 	autoactivate = 1,
 	effect_paramater = {
-		"W700010"
+		"海域守衛代行者出現了！"
 	},
 	autoflag = {}
 }
@@ -201586,13 +201586,13 @@ _G.pg.base.world_effect_data[70223503] = {
 _G.pg.base.world_effect_data[70223504] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 70223504,
 	autoactivate = 0,
 	effect_paramater = {
-		"W700120"
+		"結果確認中：代行者XIV「Equilibrium」已被擊敗，可以前往下一處模擬戰海域。"
 	},
 	autoflag = {}
 }
@@ -201624,13 +201624,13 @@ _G.pg.base.world_effect_data[70223505] = {
 _G.pg.base.world_effect_data[70225000] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 70225000,
 	autoactivate = 1,
 	effect_paramater = {
-		"W700100"
+		"指令接收中：指揮官，現在開始進行迎擊仲裁者·天帕嵐斯·XIV的特殊準備模擬戰。\n請帶領艦隊擊敗設定於模擬戰海域中的代行者XIV「Equilibrium」吧。"
 	},
 	autoflag = {}
 }
@@ -201671,13 +201671,13 @@ _G.pg.base.world_effect_data[70225002] = {
 _G.pg.base.world_effect_data[70225003] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 70225003,
 	autoactivate = 1,
 	effect_paramater = {
-		"W700110"
+		"搜索模組同步中：海域中存在特殊塞壬建築干擾，請將其全部破壞。"
 	},
 	autoflag = {}
 }
@@ -201859,13 +201859,13 @@ _G.pg.base.world_effect_data[70232503] = {
 _G.pg.base.world_effect_data[70232504] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 70232504,
 	autoactivate = 1,
 	effect_paramater = {
-		"W700010"
+		"海域守衛代行者出現了！"
 	},
 	autoflag = {}
 }
@@ -201935,13 +201935,13 @@ _G.pg.base.world_effect_data[70233503] = {
 _G.pg.base.world_effect_data[70233504] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 70233504,
 	autoactivate = 0,
 	effect_paramater = {
-		"W700121"
+		"結果確認中：代行者VIII「Determination」已被擊敗，可以前往下一處模擬戰海域。"
 	},
 	autoflag = {}
 }
@@ -201973,13 +201973,13 @@ _G.pg.base.world_effect_data[70233505] = {
 _G.pg.base.world_effect_data[70235000] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 70235000,
 	autoactivate = 1,
 	effect_paramater = {
-		"W700101"
+		"指令接收中：指揮官，接下來開始進行迎擊仲裁者·司特蓮庫斯·VIII的特殊準備模擬戰。\n請帶領艦隊擊敗設定於模擬戰海域中的代行者VIII「Determination」吧。"
 	},
 	autoflag = {}
 }
@@ -202036,13 +202036,13 @@ _G.pg.base.world_effect_data[70235003] = {
 _G.pg.base.world_effect_data[70235004] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 70235004,
 	autoactivate = 1,
 	effect_paramater = {
-		"W700110"
+		"搜索模組同步中：海域中存在特殊塞壬建築干擾，請將其全部破壞。"
 	},
 	autoflag = {}
 }
@@ -202224,13 +202224,13 @@ _G.pg.base.world_effect_data[70242503] = {
 _G.pg.base.world_effect_data[70242504] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 70242504,
 	autoactivate = 1,
 	effect_paramater = {
-		"W700010"
+		"海域守衛代行者出現了！"
 	},
 	autoflag = {}
 }
@@ -202300,13 +202300,13 @@ _G.pg.base.world_effect_data[70243503] = {
 _G.pg.base.world_effect_data[70243504] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 70243504,
 	autoactivate = 0,
 	effect_paramater = {
-		"W700122"
+		"結果確認中：代行者IX「Exploration」已被擊敗，模擬戰海域已全部完成，即將開啟正式作戰。"
 	},
 	autoflag = {}
 }
@@ -202338,13 +202338,13 @@ _G.pg.base.world_effect_data[70243505] = {
 _G.pg.base.world_effect_data[70245000] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 70245000,
 	autoactivate = 1,
 	effect_paramater = {
-		"W700102"
+		"指令接收中：指揮官，最後來進行迎擊仲裁者·赫米忒·IX的特殊準備模擬戰。\n請帶領艦隊擊敗設定於模擬戰海域中的代行者IX「Exploration」吧。"
 	},
 	autoflag = {}
 }
@@ -202401,13 +202401,13 @@ _G.pg.base.world_effect_data[70245003] = {
 _G.pg.base.world_effect_data[70245004] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 70245004,
 	autoactivate = 1,
 	effect_paramater = {
-		"W700110"
+		"搜索模組同步中：海域中存在特殊塞壬建築干擾，請將其全部破壞。"
 	},
 	autoflag = {}
 }
@@ -202716,13 +202716,13 @@ _G.pg.base.world_effect_data[70300020] = {
 _G.pg.base.world_effect_data[70300100] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 70300100,
 	autoactivate = 0,
 	effect_paramater = {
-		"W700020"
+		"目前正在進行普通難度仲裁機關作戰。\n離開後目前作戰進度將會保留，本月內再次進入可繼續挑戰。\n擊破普通難度仲裁機關後，將會開啟困難難度仲裁機關作戰。"
 	},
 	autoflag = {}
 }
@@ -202731,13 +202731,13 @@ _G.pg.base.world_effect_data[70300100] = {
 _G.pg.base.world_effect_data[70300110] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 70300110,
 	autoactivate = 0,
 	effect_paramater = {
-		"W700021"
+		"目前正在進行困難難度仲裁機關作戰。\n離開後目前作戰進度將會重置，已獲得的獎勵無法重覆領取，且目前海域中無法使用艦隊維護指令。\n徹底擊破敵人後可獲得豐厚獎勵。"
 	},
 	autoflag = {}
 }
@@ -202746,13 +202746,13 @@ _G.pg.base.world_effect_data[70300110] = {
 _G.pg.base.world_effect_data[70300120] = {
 	autocomplete = 0,
 	effective_num = 0,
-	effect_type = 2,
+	effect_type = 52,
 	log_text = "",
 	sound_effects = "",
 	id = 70300120,
 	autoactivate = 0,
 	effect_paramater = {
-		"W700022"
+		"目前正在進行困難難度仲裁機關模擬戰。\n目前海域仲裁者與困難難度中保持一致，但擊破後不會獲得任何獎勵，僅供模擬。"
 	},
 	autoflag = {}
 }

@@ -433,6 +433,7 @@ pg.name_code.all = {
 	549,
 	550,
 	553,
+	554,
 	10000,
 	10001,
 	10002,
@@ -3462,6 +3463,13 @@ end)()
 		type = 1,
 		id = 553,
 		code = "科隆·META",
+		nation = 0
+	}
+	pg.base.name_code[554] = {
+		name = "小武藏",
+		type = 1,
+		id = 554,
+		code = "小武藏",
 		nation = 0
 	}
 	pg.base.name_code[10000] = {

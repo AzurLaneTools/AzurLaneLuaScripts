@@ -403,6 +403,7 @@ pg.ship_data_strengthen.all = {
 	30513,
 	30514,
 	30516,
+	30517,
 	30601,
 	30602,
 	30603,
@@ -10412,6 +10413,30 @@ end)()
 	}
 end)()
 (function ()
+	pg.base.ship_data_strengthen[30517] = {
+		id = 30517,
+		durability = {
+			79,
+			0,
+			0,
+			0,
+			40
+		},
+		level_exp = {
+			25,
+			0,
+			0,
+			0,
+			30
+		},
+		attr_exp = {
+			66,
+			0,
+			0,
+			0,
+			10
+		}
+	}
 	pg.base.ship_data_strengthen[30601] = {
 		id = 30601,
 		durability = {
@@ -12788,6 +12813,8 @@ end)()
 			10
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_strengthen[40503] = {
 		id = 40503,
 		durability = {
@@ -12812,8 +12839,6 @@ end)()
 			12
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_strengthen[40504] = {
 		id = 40504,
 		durability = {
@@ -15190,6 +15215,8 @@ end)()
 			14
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_strengthen[70105] = {
 		id = 70105,
 		durability = {
@@ -15214,8 +15241,6 @@ end)()
 			15
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_strengthen[70106] = {
 		id = 70106,
 		durability = {
@@ -17592,6 +17617,8 @@ end)()
 			13
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_strengthen[1060005] = {
 		id = 1060005,
 		durability = {
@@ -17616,8 +17643,6 @@ end)()
 			10
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_strengthen[1060006] = {
 		id = 1060006,
 		durability = {

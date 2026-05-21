@@ -157,7 +157,7 @@ pg.base.voice_bgm = {}
 		bgm = "story-tulipa"
 	}
 	pg.base.voice_bgm.BuildShipScene = {
-		default_bgm = "doa-song-day05",
+		default_bgm = "main",
 		special_bgm = "",
 		bgm = "main"
 	}
@@ -2640,9 +2640,9 @@ end)()
 		bgm = "doa_minigame"
 	}
 	pg.base.voice_bgm.LatestSkinShopLayer = {
-		default_bgm = "doa-az-story-1",
+		default_bgm = "main",
 		special_bgm = "",
-		bgm = "doa-az-story-1"
+		bgm = "main"
 	}
 	pg.base.voice_bgm.map_xyd_bar_01 = {
 		default_bgm = "danmachi-az-story ",

@@ -39,7 +39,7 @@ slot0.OnLoad = function(slot0, slot1)
 	slot0:SetContainerVisible(true)
 
 	slot0.cg.blocksRaycasts = true
-	slot0.live2dChar = Live2D.New(Live2D.GenerateData({
+	slot0.live2dChar = Live2DPainting.New(Live2DPainting.GenerateData({
 		loadPrefs = true,
 		ship = slot0.ship,
 		position = Vector3(0, 0, 100),
@@ -103,7 +103,7 @@ slot0.ResetOrderInLayer = function(slot0)
 		return
 	end
 
-	ReflectionHelp.RefSetProperty(typeof("Live2D.Cubism.Rendering.CubismRenderController"), "SortingOrder", slot0.live2dChar._go:GetComponent("Live2D.Cubism.Rendering.CubismRenderController"), 0)
+	slot0.live2dChar._go:GetComponent(typeof(CubismRenderController)).SortingOrder = 0
 end
 
 slot0.CreateL2dDragBound = function(slot0, slot1)
@@ -216,7 +216,7 @@ end
 slot0.OnClick = function(slot0)
 	slot1 = nil
 
-	if slot0.live2dChar and slot0.live2dChar.state == Live2D.STATE_INITED and not slot0.live2dChar.ignoreReact then
+	if slot0.live2dChar and slot0.live2dChar.state == Live2DPainting.STATE_INITED and not slot0.live2dChar.ignoreReact then
 		if not Input.mousePosition then
 			return
 		end

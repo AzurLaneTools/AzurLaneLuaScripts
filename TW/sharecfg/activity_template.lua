@@ -1114,6 +1114,10 @@ pg.activity_template.all = {
 	50815,
 	50816,
 	50817,
+	50832,
+	50833,
+	50834,
+	50835,
 	7104,
 	7305,
 	7501,
@@ -2878,6 +2882,8 @@ pg.activity_template.get_id_list_by_type = {
 		50489,
 		50805,
 		50817,
+		50834,
+		50835,
 		1103,
 		1104,
 		1105,
@@ -3220,6 +3226,7 @@ pg.activity_template.get_id_list_by_type = {
 	[15] = {
 		6027,
 		50254,
+		50832,
 		45094
 	},
 	[16] = {
@@ -4413,6 +4420,7 @@ pg.activity_template.get_id_list_by_type = {
 		50429,
 		50483,
 		50806,
+		50833,
 		1110,
 		6006,
 		6010,
@@ -53189,6 +53197,210 @@ end)()
 			}
 		}
 	}
+	pg.base.activity_template[50832] = {
+		mark = 20260521,
+		page_info = "",
+		type = 15,
+		login_pop = 0,
+		config_id = 305171,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50832,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[50833] = {
+		mark = 20260521,
+		type = 74,
+		login_pop = 0,
+		config_id = 50833,
+		is_show = 52,
+		title_res_tag = "little_musashi",
+		id = 50833,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "LittleMusashiPage",
+			ui_name = "LittleMusashiPage"
+		},
+		config_client = {
+			task_act_id = 50834
+		}
+	}
+	pg.base.activity_template[50834] = {
+		mark = 20260521,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 0,
+		title_res_tag = "",
+		id = 50834,
+		page_core = "",
+		config_data = {
+			25561,
+			25562,
+			25563,
+			25564,
+			25565,
+			25566,
+			25567,
+			25568,
+			25569,
+			25570,
+			25571,
+			25572,
+			25573,
+			25574,
+			25575,
+			25576,
+			25577,
+			25578,
+			25579,
+			25580,
+			25581,
+			25582,
+			25583,
+			25584,
+			25585,
+			25586,
+			25587,
+			25588,
+			25589,
+			25590,
+			25591
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			ptActID = {
+				50833
+			}
+		}
+	}
+	pg.base.activity_template[50835] = {
+		mark = 20260521,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50835,
+		page_core = "",
+		config_data = {
+			25592,
+			25593
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		}
+	}
 	pg.base.activity_template[7104] = {
 		mark = 20240926,
 		page_info = "",
@@ -56195,6 +56407,8 @@ end)()
 			{}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[6000] = {
 		mark = 20210610,
 		time = "stop",
@@ -56487,8 +56701,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[6004] = {
 		mark = 20250403,
 		time = "stop",
@@ -59645,6 +59857,8 @@ end)()
 			158
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40232] = {
 		mark = 20250102,
 		page_info = "",
@@ -59786,8 +60000,6 @@ end)()
 			ui_name = "MonopolyPage"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40236] = {
 		mark = 20210204,
 		time = "stop",
@@ -62604,6 +62816,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40333] = {
 		mark = 20210527,
 		page_info = "",
@@ -62743,8 +62957,6 @@ end)()
 			3
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40337] = {
 		mark = 20210603,
 		time = "stop",
@@ -66638,6 +66850,8 @@ end)()
 			ui_name = "FourthJpPage"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40435] = {
 		mark = 20210930,
 		type = 14,
@@ -66788,8 +67002,6 @@ end)()
 			15830
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40440] = {
 		mark = 20211008,
 		page_info = "",
@@ -70369,6 +70581,8 @@ end)()
 			ui_name = "VotePage"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40540] = {
 		mark = 20220217,
 		type = 74,
@@ -70541,8 +70755,6 @@ end)()
 			ui_name = "VotePage"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40544] = {
 		mark = 20220217,
 		page_info = "",
@@ -73786,6 +73998,8 @@ end)()
 			80250
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40635] = {
 		mark = 20220526,
 		time = "stop",
@@ -73869,8 +74083,6 @@ end)()
 			3
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40639] = {
 		mark = 20220527,
 		page_info = "",
@@ -76184,6 +76396,8 @@ end)()
 		id = 40830,
 		page_core = ""
 	}
+end)()
+(function ()
 	pg.base.activity_template[40831] = {
 		mark = 20221013,
 		time = "stop",
@@ -76254,8 +76468,6 @@ end)()
 			ui_name = "MonopolyCar2Page"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40827] = {
 		mark = 20220929,
 		page_info = "",
@@ -79016,6 +79228,8 @@ end)()
 			ui_name = "FranceSpRePage"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[41006] = {
 		mark = 20230105,
 		page_info = "",
@@ -79151,8 +79365,6 @@ end)()
 			17853
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[41010] = {
 		mark = 20230105,
 		time = "stop",
@@ -82227,6 +82439,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[41150] = {
 		mark = 20220428,
 		time = "stop",
@@ -82356,8 +82570,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[41161] = {
 		mark = 20230518,
 		page_info = "",
@@ -85849,6 +86061,8 @@ end)()
 			10
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[41294] = {
 		mark = 20230817,
 		page_info = "",
@@ -85981,8 +86195,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[41298] = {
 		mark = 20230817,
 		page_info = "",
@@ -90290,6 +90502,8 @@ end)()
 		page_core = "",
 		config_data = {}
 	}
+end)()
+(function ()
 	pg.base.activity_template[45018] = {
 		mark = 20200924,
 		time = "stop",
@@ -90466,8 +90680,6 @@ end)()
 		id = 45021,
 		page_core = ""
 	}
-end)()
-(function ()
 	pg.base.activity_template[45022] = {
 		mark = 20201009,
 		page_info = "",
@@ -95119,6 +95331,8 @@ end)()
 			ui_name = "CrusingDisplayActPage20"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[45920] = {
 		mark = 20250522,
 		type = 54,

@@ -55,7 +55,8 @@ pg.activity_banner.all = {
 	1021,
 	1022,
 	1023,
-	1024
+	1024,
+	1025
 }
 pg.activity_banner.get_id_list_by_type = {
 	[2] = {
@@ -90,7 +91,8 @@ pg.activity_banner.get_id_list_by_type = {
 		1021,
 		1022,
 		1023,
-		1024
+		1024,
+		1025
 	},
 	[3] = {
 		7,
@@ -133,13 +135,37 @@ pg.base.activity_banner = {}
 
 (function ()
 	pg.base.activity_banner[1] = {
-		time = "stop",
 		type = 2,
 		id = 1,
 		pic = "temp1",
 		param = {
-			"scene skinshop",
-			{}
+			"dorm 3d select"
+		},
+		time = {
+			{
+				{
+					2026,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					28
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
 		}
 	}
 	pg.base.activity_banner[2] = {
@@ -301,7 +327,7 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[7] = {
-		param = "5749",
+		param = "50832",
 		type = 3,
 		id = 7,
 		pic = "temp7",
@@ -310,7 +336,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					5,
-					14
+					21
 				},
 				{
 					0,
@@ -321,8 +347,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					5,
-					21
+					6,
+					5
 				},
 				{
 					14,
@@ -862,6 +888,15 @@ pg.base.activity_banner = {}
 		param = {
 			"scene Cryptolalia",
 			{}
+		}
+	}
+	pg.base.activity_banner[1025] = {
+		time = "stop",
+		type = 2,
+		id = 1025,
+		pic = "",
+		param = {
+			"dorm 3d select"
 		}
 	}
 end)()

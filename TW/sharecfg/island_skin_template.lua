@@ -4,16 +4,22 @@ pg.island_skin_template = rawget(pg, "island_skin_template") or setmetatable({
 }, confNEO)
 pg.island_skin_template.all = {
 	1011001,
+	1011701,
 	1020501,
 	1051701,
 	1070301,
+	2012101,
 	2060301,
 	2990301,
+	3031101,
 	3031201,
 	3040701,
 	3120101,
 	4030301,
 	4990201,
+	4990601,
+	5010701,
+	5020101,
 	5060101,
 	99000201,
 	99000202,
@@ -26,6 +32,9 @@ pg.island_skin_template.get_id_list_by_ship_group = {
 	[10110] = {
 		1011001
 	},
+	[10117] = {
+		1011701
+	},
 	[10205] = {
 		1020501
 	},
@@ -35,11 +44,17 @@ pg.island_skin_template.get_id_list_by_ship_group = {
 	[10703] = {
 		1070301
 	},
+	[20121] = {
+		2012101
+	},
 	[20603] = {
 		2060301
 	},
 	[29903] = {
 		2990301
+	},
+	[30311] = {
+		3031101
 	},
 	[30312] = {
 		3031201
@@ -55,6 +70,15 @@ pg.island_skin_template.get_id_list_by_ship_group = {
 	},
 	[49902] = {
 		4990201
+	},
+	[49906] = {
+		4990601
+	},
+	[50107] = {
+		5010701
+	},
+	[50201] = {
+		5020101
 	},
 	[50601] = {
 		5060101
@@ -87,6 +111,19 @@ pg.base.island_skin_template = {}
 		model = 1011001,
 		id = 1011001,
 		icon = "skin_1011001",
+		icon_normal = ""
+	}
+	pg.base.island_skin_template[1011701] = {
+		ship_group = 10117,
+		name = "兔兔晚安",
+		jump_page = "",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "长袖睡衣裹住暖意，一长一短的袜子是她独有的俏皮，兔兔已经准备好跳进梦里啦~",
+		shop_goods_id = 0,
+		model = 1011701,
+		id = 1011701,
+		icon = "skin_1011701",
 		icon_normal = ""
 	}
 	pg.base.island_skin_template[1020501] = {
@@ -128,6 +165,19 @@ pg.base.island_skin_template = {}
 		icon_normal = "props/skin_1070301",
 		jump_page = {}
 	}
+	pg.base.island_skin_template[2012101] = {
+		ship_group = 20121,
+		name = "枕头大战",
+		jump_page = "",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "清爽的无袖吊带搭配俏皮的紫白条纹，以轻快灵活的身姿，取得枕头大战的胜利吧~",
+		shop_goods_id = 0,
+		model = 2012101,
+		id = 2012101,
+		icon = "skin_2012101",
+		icon_normal = ""
+	}
 	pg.base.island_skin_template[2060301] = {
 		ship_group = 20603,
 		name = "憧憬的星光",
@@ -153,6 +203,19 @@ pg.base.island_skin_template = {}
 		icon = "skin_2990301",
 		icon_normal = "props/skin_2990301",
 		jump_page = {}
+	}
+	pg.base.island_skin_template[3031101] = {
+		ship_group = 30311,
+		name = "素心夜话",
+		jump_page = "",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "纯白色的长袖衬衫如初雪般干净，样式简约却独有一种从容自在的美。",
+		shop_goods_id = 0,
+		model = 3031101,
+		id = 3031101,
+		icon = "skin_3031101",
+		icon_normal = ""
 	}
 	pg.base.island_skin_template[3031201] = {
 		ship_group = 30312,
@@ -217,6 +280,45 @@ pg.base.island_skin_template = {}
 		model = 4990201,
 		id = 4990201,
 		icon = "skin_4990201",
+		icon_normal = ""
+	}
+	pg.base.island_skin_template[4990601] = {
+		ship_group = 49906,
+		name = "云端梦游",
+		jump_page = "",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "戴上眼罩，陷进云朵与月亮的怀抱中，让一整晚的梦境都被粉色的温柔包裹吧~",
+		shop_goods_id = 0,
+		model = 4990601,
+		id = 4990601,
+		icon = "skin_4990601",
+		icon_normal = ""
+	}
+	pg.base.island_skin_template[5010701] = {
+		ship_group = 50107,
+		name = "熊猫团子",
+		jump_page = "",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "黑白相间的熊猫睡衣，可爱软糯，穿上去圆滚滚软乎乎的，让人忍不住想戳一戳~",
+		shop_goods_id = 0,
+		model = 5010701,
+		id = 5010701,
+		icon = "skin_5010701",
+		icon_normal = ""
+	}
+	pg.base.island_skin_template[5020101] = {
+		ship_group = 50201,
+		name = "月下茶香",
+		jump_page = "",
+		tech_id = 0,
+		shop_id = 0,
+		desc = "米黄色外套轻搭在白色吊带裙外，如月色下的茶花般素雅，连夜晚都变得温柔了几分。",
+		shop_goods_id = 0,
+		model = 5020101,
+		id = 5020101,
+		icon = "skin_5020101",
 		icon_normal = ""
 	}
 	pg.base.island_skin_template[5060101] = {

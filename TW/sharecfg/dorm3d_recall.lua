@@ -28,6 +28,7 @@ pg.dorm3d_recall.all = {
 	122,
 	123,
 	124,
+	125,
 	141,
 	142,
 	143,
@@ -108,6 +109,9 @@ pg.dorm3d_recall.get_id_list_by_story_id = {
 	},
 	[120541] = {
 		124
+	},
+	[120551] = {
+		125
 	},
 	[140510] = {
 		141
@@ -466,6 +470,19 @@ pg.base.dorm3d_recall = {}
 		unlock = {
 			3,
 			3070701
+		}
+	}
+	pg.base.dorm3d_recall[125] = {
+		story_id = 120551,
+		name = "絲縷纏綿",
+		type = 1,
+		id = 125,
+		image = "recall_125",
+		unlock_text = "贈送緋紅邀約後解鎖",
+		desc = "當絲縷滑過肌膚，是換新的儀式，還是甜蜜的陷阱？",
+		unlock = {
+			3,
+			3070702
 		}
 	}
 	pg.base.dorm3d_recall[141] = {

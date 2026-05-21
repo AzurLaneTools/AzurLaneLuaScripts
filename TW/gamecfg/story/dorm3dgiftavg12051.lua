@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Taiho_gift_timeline03_voice1/drom3d_Taiho_gift_timeline03_voice1",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "嗯？{dorm3d}！怎么走路没有声音呀~",
+			say = "嗯？{dorm3d}！怎麼走路沒有聲音~",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -53,7 +53,7 @@ return {
 			},
 			options = {
 				{
-					content = "你在收拾衣柜吗？",
+					content = "妳在收拾衣櫃嗎？",
 					flag = 1
 				}
 			}
@@ -66,7 +66,7 @@ return {
 			voice = "event:/dorm/drom3d_Taiho_gift_timeline03_voice2/drom3d_Taiho_gift_timeline03_voice2",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "嘿嘿~呵呵~当然不是，{namecode:97}在拿新睡衣呢~",
+			say = "嘿嘿~呵呵~當然不是，{namecode:97}在拿新睡衣呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,14 +108,14 @@ return {
 			voice = "event:/dorm/drom3d_Taiho_gift_timeline03_voice3/drom3d_Taiho_gift_timeline03_voice3",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "是{dorm3d}从没见过的一身，呵呵~",
+			say = "是{dorm3d}從沒見過的一身，呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "？可以说……很期待？",
+					content = "？可以說……很期待？",
 					flag = 1
 				}
 			}
@@ -128,7 +128,7 @@ return {
 			voice = "event:/dorm/drom3d_Taiho_gift_timeline03_voice4/drom3d_Taiho_gift_timeline03_voice4",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "当然要期待！因为……大凤要带指挥官大人参与到睡衣的换新仪式中呢♡",
+			say = "當然要期待！因為……大鳳要帶指揮官大人參與睡衣的換新儀式中呢♡",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {

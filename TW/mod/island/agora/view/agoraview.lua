@@ -364,7 +364,7 @@ slot0.OnAgoraVirtualStartInteraction = function(slot0, slot1, slot2, slot3)
 		slot0:GetSubView(AgoraOpView):StartInteraction()
 	end
 
-	slot6:StartInteract(slot7, slot2.id, slot3, slot1:GetTimeline()[slot3], slot1:GetBlackboardParam()[slot3], slot1:AnySlotUsing(), slot8)
+	slot6:StartInteract(slot7, slot2.id, slot3, slot1:GetTimeline()[slot3], slot1:GetBlackboardParam()[slot3], slot1:AnySlotUsing(), slot8, slot1:GetPlayerParentPath(slot2.id))
 end
 
 slot0.OnAgoraVirtualEndInteraction = function(slot0, slot1, slot2)

@@ -144,13 +144,7 @@ slot0.init = function(slot0)
 
 	slot0.loginPanelView:SetShareData(slot0.shareData)
 
-	slot0.airiLoginPanelView = nil
-
-	if PLATFORM_CODE == PLATFORM_US then
-		slot0.airiLoginPanelView = AiriUSLoginPanelView.New(slot0._tf, slot0.event, slot0.contextData)
-	else
-		slot0.airiLoginPanelView = AiriLoginPanelView.New(slot0._tf, slot0.event, slot0.contextData)
-	end
+	slot0.airiLoginPanelView = AiriLoginPanelView.New(slot0._tf, slot0.event, slot0.contextData)
 
 	slot0.loginPanelView:SetShareData(slot0.shareData)
 
@@ -928,6 +922,10 @@ slot0.onLoadDataDone = function(slot0)
 			isFromLogin = true
 		})
 	end
+end
+
+slot0.onLoginWait = function(slot0, slot1)
+	slot0.subViewList[LoginSceneConst.DEFINE.AIRI_LOGIN_PANEL_VIEW]:RefreshUI(slot1)
 end
 
 return slot0

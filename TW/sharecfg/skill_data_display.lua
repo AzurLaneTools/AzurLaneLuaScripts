@@ -2006,6 +2006,9 @@ pg.skill_data_display.all = {
 	152210,
 	152212,
 	152220,
+	152251,
+	152252,
+	152262,
 	18010,
 	18040,
 	18041,
@@ -12061,6 +12064,18 @@ end)()
 		id = 152220,
 		name = "積雷雲爆"
 	}
+	pg.base.skill_data_display[152251] = {
+		id = 152251,
+		name = "靜海驚雷雷雷雷雷！"
+	}
+	pg.base.skill_data_display[152252] = {
+		id = 152252,
+		name = "靜海驚雷雷雷雷雷！"
+	}
+	pg.base.skill_data_display[152262] = {
+		id = 152262,
+		name = "港區保護者"
+	}
 	pg.base.skill_data_display[18010] = {
 		id = 18010,
 		name = "MKV型穿甲彈 +"
@@ -12441,6 +12456,8 @@ end)()
 		id = 19170,
 		name = "{namecode:164}流·一致斬"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[19180] = {
 		id = 19180,
 		name = "{namecode:164}流·六蓮雷"
@@ -12453,8 +12470,6 @@ end)()
 		id = 19190,
 		name = "怒火連峰"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[19191] = {
 		id = 19191,
 		name = "怒火連峰"
@@ -12843,6 +12858,8 @@ end)()
 		id = 19582,
 		name = "魚雷，矢無虛發！"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[19590] = {
 		id = 19590,
 		name = "炮火，傾瀉如瀑！"
@@ -12855,8 +12872,6 @@ end)()
 		id = 19600,
 		name = "飛航試驗·一齊攻擊"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[19601] = {
 		id = 19601,
 		name = "飛航試驗·一齊攻擊+"
@@ -13245,6 +13260,8 @@ end)()
 		id = 20212,
 		name = "全彈發射II"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[20221] = {
 		id = 20221,
 		name = "全彈發射I"
@@ -13257,8 +13274,6 @@ end)()
 		id = 20231,
 		name = "全彈發射I"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[20232] = {
 		id = 20232,
 		name = "全彈發射II"
@@ -13647,6 +13662,8 @@ end)()
 		id = 22256,
 		name = "全彈發射I"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[22257] = {
 		id = 22257,
 		name = "全彈發射II"
@@ -13659,8 +13676,6 @@ end)()
 		id = 22262,
 		name = "全彈發射II"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[23011] = {
 		id = 23011,
 		name = "全彈發射I"
@@ -14049,6 +14064,8 @@ end)()
 		id = 29061,
 		name = "專屬彈幕-螢火蟲I"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[29062] = {
 		id = 29062,
 		name = "專屬彈幕-螢火蟲II"
@@ -14061,8 +14078,6 @@ end)()
 		id = 29072,
 		name = "專屬彈幕-勇敢II"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[29081] = {
 		id = 29081,
 		name = "專屬彈幕-標槍I"
@@ -14451,6 +14466,8 @@ end)()
 		id = 29561,
 		name = "专属弹幕-德雷克I"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[29562] = {
 		id = 29562,
 		name = "专属弹幕-德雷克II"
@@ -14463,8 +14480,6 @@ end)()
 		id = 29572,
 		name = "专属弹幕-美因茨II"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[29691] = {
 		id = 29691,
 		name = "专属弹幕-艾伦·萨姆纳I"
@@ -14853,6 +14868,8 @@ end)()
 		id = 39010,
 		name = "強化-I"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[78000] = {
 		id = 78000,
 		name = "火力支援"
@@ -14865,8 +14882,6 @@ end)()
 		id = 78102,
 		name = "餘燼·幻影強襲"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[78110] = {
 		id = 78110,
 		name = "IX=XIV連協干擾機制"
@@ -15255,6 +15270,8 @@ end)()
 		id = 106011,
 		name = "玫瑰邊刺"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[106020] = {
 		id = 106020,
 		name = "活潑的小步舞曲"
@@ -15267,8 +15284,6 @@ end)()
 		id = 106030,
 		name = "必殺☆猜拳"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[106031] = {
 		id = 106031,
 		name = "必殺☆猜拳"
@@ -15657,6 +15672,8 @@ end)()
 		id = 107030,
 		name = "PositiveBurst！"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[107040] = {
 		id = 107040,
 		name = "響徹天空的碧藍之歌"
@@ -15669,8 +15686,6 @@ end)()
 		id = 107050,
 		name = "努力成就之景"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[107051] = {
 		id = 107051,
 		name = "努力成就之景"
@@ -16059,6 +16074,8 @@ end)()
 		id = 109130,
 		name = "野性生長"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[109131] = {
 		id = 109131,
 		name = "野性生長"
@@ -16071,8 +16088,6 @@ end)()
 		id = 109141,
 		name = "獲得木精"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[109150] = {
 		id = 109150,
 		name = "永恆盛開"
@@ -16461,6 +16476,8 @@ end)()
 		id = 111171,
 		name = "不知廉恥！+"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[111180] = {
 		id = 111180,
 		name = "強氣下的溫柔"
@@ -16473,8 +16490,6 @@ end)()
 		id = 112011,
 		name = "超越世界·限制解除"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[112012] = {
 		id = 112012,
 		name = "超越世界·限制解除"
@@ -16863,6 +16878,8 @@ end)()
 		id = 190011,
 		name = "凜冬生存準則"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[190012] = {
 		id = 190012,
 		name = "凜冬生存準則"
@@ -16875,8 +16892,6 @@ end)()
 		id = 200026,
 		name = "侵攻之時"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[200203] = {
 		id = 200203,
 		name = "昨日重現"
@@ -17265,6 +17280,8 @@ end)()
 		id = 800167,
 		name = "搖曳之火·{namecode:205}II"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[800181] = {
 		id = 800181,
 		name = "幽蝶終歸海"
@@ -17277,8 +17294,6 @@ end)()
 		id = 800207,
 		name = "破敵之炬·{namecode:78}II"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[800210] = {
 		id = 800210,
 		name = "幽蝶終歸海"
@@ -17667,6 +17682,8 @@ end)()
 		id = 800777,
 		name = "逐光之焰·拉·加利索尼埃II"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[800780] = {
 		id = 800780,
 		name = "迷茫混亂的內心"
@@ -17679,8 +17696,6 @@ end)()
 		id = 800790,
 		name = "自由隨性的騎士"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[800791] = {
 		id = 800791,
 		name = "自由隨性的騎士"
@@ -18069,6 +18084,8 @@ end)()
 		id = 801771,
 		name = "【荊棘反擊】40/40"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[801772] = {
 		id = 801772,
 		name = "【荊棘反擊】20/40"
@@ -18081,8 +18098,6 @@ end)()
 		id = 801778,
 		name = "【荊棘反擊】10/40"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[801779] = {
 		id = 801779,
 		name = "【荊棘反擊】30/40"
@@ -18471,6 +18486,8 @@ end)()
 		id = 200353,
 		name = "~Incarnation Of Conquest~"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[200354] = {
 		id = 200354,
 		name = "~Incarnation Of Slaughter~"
@@ -18483,8 +18500,6 @@ end)()
 		id = 200383,
 		name = "劈雲斬霧的絢爛贈禮"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[200434] = {
 		id = 200434,
 		name = "構造之理-援護"
@@ -18873,6 +18888,8 @@ end)()
 		id = 201092,
 		name = "世界切片-蒼紅"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[201093] = {
 		id = 201093,
 		name = "世界切片-蒼紅"
@@ -18885,8 +18902,6 @@ end)()
 		id = 201098,
 		name = "蒼紅之炎"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[201099] = {
 		id = 201099,
 		name = "蒼紅之炎"
@@ -19275,6 +19290,8 @@ end)()
 		id = 1011711,
 		name = "杜爾拉汗 +"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1011360] = {
 		id = 1011360,
 		name = "塔薩法隆格逆襲 +"
@@ -19287,8 +19304,6 @@ end)()
 		id = 1012350,
 		name = "不服輸的小魔女 +"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1012351] = {
 		id = 1012351,
 		name = "不服輸的小魔女 +"
@@ -19677,6 +19692,8 @@ end)()
 		id = 1014341,
 		name = "荣光的紫焰 +"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1010720] = {
 		id = 1010720,
 		name = "守卫之盾 +"
@@ -19689,8 +19706,6 @@ end)()
 		id = 1010722,
 		name = "守卫之盾 + "
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1010723] = {
 		id = 1010723,
 		name = "守卫之盾 + "
@@ -20079,6 +20094,8 @@ end)()
 		id = 1090410,
 		name = "战术记录:噬啮之颚"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1090420] = {
 		id = 1090420,
 		name = "火力全开·威严"
@@ -20091,8 +20108,6 @@ end)()
 		id = 1090422,
 		name = "火力全开·威严"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1090432] = {
 		id = 1090432,
 		name = "吸引火力·{namecode:63}"

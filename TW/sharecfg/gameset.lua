@@ -4099,4 +4099,15 @@ end)()
 		description = "",
 		key_value = 1
 	}
+	pg.base.gameset.world_tip_typewriter = {
+		key_value = 0,
+		description = {
+			0.05,
+			0.01
+		}
+	}
+	pg.base.gameset.world_tip_last = {
+		description = "2",
+		key_value = 2
+	}
 end)()

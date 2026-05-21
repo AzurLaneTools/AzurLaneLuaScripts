@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"田园美味食记\n\n<size=45>一　农家探索乐园</size>",
+					"田園美味食記\n\n<size=45>1.農家探索樂園</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgm = "story-richang-7",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一天工作结束后，正准备离开指挥室时，听到了走廊中传来的急促脚步声。",
+			say = "一天工作結束後，正準備離開指揮室時，聽到了走廊中傳來的急促腳步聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "紧接着，一道娇小的身影出现在门口。",
+			say = "緊接著，一道嬌小的身影出現在門口。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			actor = 501050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……太好了，指挥官还在……",
+			say = "呼……太好了，指揮官還在……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "龙武，怎么跑得这么急，发生了什么事了么？",
+			say = "龍武，怎麼跑得這麼急，發生了什麼事了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "龙武平复着呼吸，轻轻摇了摇头。",
+			say = "龍武平復著呼吸，輕輕搖了搖頭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			actor = 501050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没有紧急的情况，指挥官别担心……",
+			say = "沒有緊急的情況，指揮官別擔心……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			actor = 501050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我本来打算下午来找你的，但是研究菜品太入迷了……回过神就天黑了，我就匆忙赶过来了。",
+			say = "我本來打算下午來找你的，但是研究菜色太入迷了……回過神就天黑了，我就匆忙趕過來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "找我有什么事么？",
+			say = "找我有什麼事？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其实是这个……指挥官看看有没有兴趣？",
+			say = "其實是這個……指揮官看看有沒有興趣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "接过龙武递来的传单，上面赫然写着——",
+			say = "接過龍武遞來的傳單，上面赫然寫著——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "“农家探索乐园双人套餐，两天一夜，享受极致田园风光，开业大酬宾！”",
+			say = "「農家探索樂園雙人套餐，兩天一夜，享受極致田園風光，開業大酬賓！」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我记得这是{namecode:98:明石}和{namecode:295:尾张}合作的新项目？",
+			say = "我記得這是明石和尾張合作的新計畫？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			actor = 501050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对，就是那个……我觉得很适合寻找新菜品的灵感，所以想去体验一下……",
+			say = "對，就是那個……我覺得很適合尋找新菜色的靈感，所以我想去體驗一下……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "周末有空的话，指挥官可以陪我一起去么？",
+			say = "週末有空的話，指揮官可以陪我一起去嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,14 +212,14 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "龙武有些拘谨地抬头看我，尾巴在身后不安地摇摆着。",
+			say = "龍武有些拘謹地抬頭看我，尾巴在身後不安地搖擺。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "当然可以。",
+					content = "當然可以。",
 					flag = 1
 				},
 				{
@@ -233,7 +233,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "少女的眼睛瞬间亮了起来，眸中溢出无限的欢欣喜悦。",
+			say = "少女的眼睛瞬間亮了起來，眼神中溢出無限的歡欣喜悅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			actor = 501050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那明天早上我们就在这里集合吧！",
+			say = "那明天，那週六早上我們就在這裡集合吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			actor = 501050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我提前准备些在路上吃的小零食~",
+			say = "我提前準備些在路上吃的小零食~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "好，不见不散。",
+			say = "好，不見不散。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

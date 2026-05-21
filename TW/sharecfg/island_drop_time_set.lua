@@ -8,16 +8,19 @@ pg.island_drop_time_set.all = {
 	5010003,
 	5010004,
 	5010005,
+	5010006,
 	5020001,
 	5020002,
 	5020003,
 	5020004,
 	5020005,
+	5020006,
 	5030001,
 	5030002,
 	5030003,
 	5030004,
-	5030005
+	5030005,
+	5030006
 }
 pg.base = pg.base or {}
 pg.base.island_drop_time_set = {}
@@ -48,6 +51,11 @@ pg.base.island_drop_time_set = {}
 		link_id = 10005,
 		drop_type = 50
 	}
+	pg.base.island_drop_time_set[5010006] = {
+		id = 5010006,
+		link_id = 10006,
+		drop_type = 50
+	}
 	pg.base.island_drop_time_set[5020001] = {
 		id = 5020001,
 		link_id = 20001,
@@ -73,6 +81,11 @@ pg.base.island_drop_time_set = {}
 		link_id = 20005,
 		drop_type = 50
 	}
+	pg.base.island_drop_time_set[5020006] = {
+		id = 5020006,
+		link_id = 20006,
+		drop_type = 50
+	}
 	pg.base.island_drop_time_set[5030001] = {
 		id = 5030001,
 		link_id = 30001,
@@ -96,6 +109,11 @@ pg.base.island_drop_time_set = {}
 	pg.base.island_drop_time_set[5030005] = {
 		id = 5030005,
 		link_id = 30005,
+		drop_type = 50
+	}
+	pg.base.island_drop_time_set[5030006] = {
+		id = 5030006,
+		link_id = 30006,
 		drop_type = 50
 	}
 end)()

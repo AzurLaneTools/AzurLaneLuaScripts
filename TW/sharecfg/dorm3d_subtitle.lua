@@ -1073,31 +1073,31 @@ end)()
 	}
 	pg.base.dorm3d_subtitle[12038] = {
 		id = 12038,
-		subtitle = "$dorm3d，你来参加新睡衣的换新仪式啦~"
+		subtitle = "$dorm3d，你來參加新睡衣的換新儀式啦~"
 	}
 	pg.base.dorm3d_subtitle[12039] = {
 		id = 12039,
-		subtitle = "展示睡衣之前，肯定要让$dorm3d更了解要穿上睡衣的人~"
+		subtitle = "在展示睡衣之前，一定要讓$dorm3d更了解要穿睡衣的人~"
 	}
 	pg.base.dorm3d_subtitle[12040] = {
 		id = 12040,
-		subtitle = "不是吗？"
+		subtitle = "不是嗎？"
 	}
 	pg.base.dorm3d_subtitle[12041] = {
 		id = 12041,
-		subtitle = "果然，$dorm3d对于{namecode:97}的仪式还是很满意的嘛~"
+		subtitle = "果然，$dorm3d對於{namecode:97}的儀式還是很滿意的嘛~"
 	}
 	pg.base.dorm3d_subtitle[12042] = {
 		id = 12042,
-		subtitle = "脱掉旧的，然后让身体在$dorm3d这里升华~最终……"
+		subtitle = "脫掉舊的，然後讓身體在$dorm3d這裡昇華~最終……"
 	}
 	pg.base.dorm3d_subtitle[12043] = {
 		id = 12043,
-		subtitle = "嘻嘻，您不用担心，整个房间都被{namecode:97}封闭起来了哦~"
+		subtitle = "嘻嘻，您不用擔心，整個房間都被{namecode:97}封閉起來了哦~"
 	}
 	pg.base.dorm3d_subtitle[12044] = {
 		id = 12044,
-		subtitle = "我们就在这个私密爱巢里，进行仪式吧！"
+		subtitle = "我們就在這個私密愛巢裡，進行儀式吧！"
 	}
 	pg.base.dorm3d_subtitle[12045] = {
 		id = 12045,
@@ -1105,42 +1105,42 @@ end)()
 	}
 	pg.base.dorm3d_subtitle[12046] = {
 		id = 12046,
-		subtitle = "呀……今天的$dorm3d，还真是主动呢…… "
+		subtitle = "呀……今天的$dorm3d，還真是主動呢……"
 	}
 	pg.base.dorm3d_subtitle[12047] = {
 		id = 12047,
-		subtitle = "{namecode:97}也好好回馈给您~ "
+		subtitle = "{namecode:97}也好好回饋給您~"
 	}
 	pg.base.dorm3d_subtitle[12048] = {
 		id = 12048,
-		subtitle = "$dorm3d可以更大胆一点嘛~"
+		subtitle = "$dorm3d可以更大膽一點嘛~"
 	}
 	pg.base.dorm3d_subtitle[12049] = {
 		id = 12049,
-		subtitle = "{namecode:97}会好好配合的哦~"
+		subtitle = "{namecode:97}會好好配合的~"
 	}
 	pg.base.dorm3d_subtitle[12050] = {
 		id = 12050,
-		subtitle = "$dorm3d现在的样子……"
+		subtitle = "$dorm3d現在的樣子……"
 	}
 	pg.base.dorm3d_subtitle[12051] = {
 		id = 12051,
-		subtitle = "是想要怜爱{namecode:97}了吗？"
+		subtitle = "是想要憐憫{namecode:97}了嗎？"
 	}
 	pg.base.dorm3d_subtitle[12052] = {
 		id = 12052,
-		subtitle = "呵呵~仪式，可是要进入最关键的部分了哦~"
+		subtitle = "呵呵~儀式，可是要進入最關鍵的部分了~"
 	}
 	pg.base.dorm3d_subtitle[12053] = {
 		id = 12053,
-		subtitle = "{namecode:97}要开始享用又美味又主动的$dorm3d了……"
+		subtitle = "{namecode:97}要開始享用又美味又主動的$dorm3d了……"
 	}
 	pg.base.dorm3d_subtitle[12054] = {
 		id = 12054,
-		subtitle = "$dorm3d，您已经没有反抗的余地啦~"
+		subtitle = "$dorm3d，您已經沒有反抗的餘地~"
 	}
 	pg.base.dorm3d_subtitle[12055] = {
 		id = 12055,
-		subtitle = "那么今晚也……请多多指教了♥"
+		subtitle = "那今晚也……請多多指教了♥"
 	}
 end)()

@@ -21,7 +21,11 @@ pg.island_interact_point.all = {
 	16,
 	17,
 	18,
-	19
+	19,
+	20,
+	21,
+	22,
+	23
 }
 pg.base = pg.base or {}
 pg.base.island_interact_point = {}
@@ -32,6 +36,7 @@ pg.base.island_interact_point = {}
 		attach = "pre_item_05_50128(Clone)/hudong_pre/50128A/pre_item_05_50128A",
 		id = 1,
 		slot_cnt = 1,
+		player_parent_path = "",
 		timeline = {
 			1
 		},
@@ -49,6 +54,7 @@ pg.base.island_interact_point = {}
 		attach = "pre_item_05_50128(Clone)/hudong_pre/pre_item_05_50128B",
 		id = 2,
 		slot_cnt = 3,
+		player_parent_path = "",
 		timeline = {
 			2
 		},
@@ -66,6 +72,7 @@ pg.base.island_interact_point = {}
 		attach = "pre_item_05_50128(Clone)/hudong_pre/pre_item_05_50128C",
 		id = 3,
 		slot_cnt = 2,
+		player_parent_path = "",
 		timeline = {
 			3
 		},
@@ -83,6 +90,7 @@ pg.base.island_interact_point = {}
 		attach = "pre_item_05_50104(Clone)",
 		id = 4,
 		slot_cnt = 2,
+		player_parent_path = "",
 		timeline = {
 			4
 		},
@@ -100,6 +108,7 @@ pg.base.island_interact_point = {}
 		attach = "pre_item_05_50105(Clone)",
 		id = 5,
 		slot_cnt = 1,
+		player_parent_path = "",
 		timeline = {
 			5
 		},
@@ -117,6 +126,7 @@ pg.base.island_interact_point = {}
 		attach = "pre_item_05_50103(Clone)",
 		id = 6,
 		slot_cnt = 1,
+		player_parent_path = "",
 		timeline = {
 			6
 		},
@@ -134,6 +144,7 @@ pg.base.island_interact_point = {}
 		attach = "pre_item_05_50107(Clone)",
 		id = 7,
 		slot_cnt = 1,
+		player_parent_path = "",
 		timeline = {
 			7
 		},
@@ -151,6 +162,7 @@ pg.base.island_interact_point = {}
 		attach = "pre_item_05_50119(Clone)",
 		id = 8,
 		slot_cnt = 2,
+		player_parent_path = "",
 		timeline = {
 			8
 		},
@@ -168,6 +180,7 @@ pg.base.island_interact_point = {}
 		attach = "pre_item_05_50201(Clone)/hudong_pre/pre_item_05_50201a",
 		id = 9,
 		slot_cnt = 2,
+		player_parent_path = "",
 		timeline = {
 			9
 		},
@@ -185,6 +198,7 @@ pg.base.island_interact_point = {}
 		attach = "pre_item_05_50201(Clone)/hudong_pre/pre_item_05_50201b",
 		id = 10,
 		slot_cnt = 1,
+		player_parent_path = "",
 		timeline = {
 			10
 		},
@@ -202,6 +216,7 @@ pg.base.island_interact_point = {}
 		attach = "pre_item_05_50202(Clone)",
 		id = 11,
 		slot_cnt = 1,
+		player_parent_path = "",
 		timeline = {
 			11
 		},
@@ -219,6 +234,7 @@ pg.base.island_interact_point = {}
 		attach = "pre_item_05_50205(Clone)",
 		id = 12,
 		slot_cnt = 1,
+		player_parent_path = "",
 		timeline = {
 			12
 		},
@@ -236,6 +252,7 @@ pg.base.island_interact_point = {}
 		attach = "pre_item_05_50212(Clone)",
 		id = 13,
 		slot_cnt = 1,
+		player_parent_path = "",
 		timeline = {
 			13
 		},
@@ -253,6 +270,7 @@ pg.base.island_interact_point = {}
 		attach = "pre_item_05_50251(Clone)",
 		id = 14,
 		slot_cnt = 1,
+		player_parent_path = "",
 		timeline = {
 			17
 		},
@@ -270,6 +288,7 @@ pg.base.island_interact_point = {}
 		attach = "pre_item_05_50251(Clone)",
 		id = 15,
 		slot_cnt = 1,
+		player_parent_path = "",
 		timeline = {
 			18
 		},
@@ -287,6 +306,7 @@ pg.base.island_interact_point = {}
 		attach = "pre_item_05_50277(Clone)",
 		id = 16,
 		slot_cnt = 4,
+		player_parent_path = "",
 		timeline = {
 			19
 		},
@@ -304,6 +324,7 @@ pg.base.island_interact_point = {}
 		attach = "pre_item_05_50253(Clone)",
 		id = 17,
 		slot_cnt = 1,
+		player_parent_path = "",
 		timeline = {
 			20
 		},
@@ -321,6 +342,7 @@ pg.base.island_interact_point = {}
 		attach = "pre_item_05_50254(Clone)",
 		id = 18,
 		slot_cnt = 1,
+		player_parent_path = "",
 		timeline = {
 			21
 		},
@@ -338,6 +360,7 @@ pg.base.island_interact_point = {}
 		attach = "pre_item_05_50257(Clone)",
 		id = 19,
 		slot_cnt = 1,
+		player_parent_path = "",
 		timeline = {
 			22,
 			23,
@@ -361,6 +384,94 @@ pg.base.island_interact_point = {}
 			0,
 			0,
 			0
+		}
+	}
+	pg.base.island_interact_point[20] = {
+		bt = "island/nodecanvas/agora/agora_common_wide",
+		attach = "pre_item_05_50153(Clone)",
+		id = 20,
+		slot_cnt = 4,
+		timeline = {
+			25
+		},
+		param = {
+			{}
+		},
+		offset = {
+			0,
+			0,
+			0
+		},
+		player_parent_path = {
+			"hudong_pre/pre_item_05_50153/all/50153_Bone001/50153_Bone002/1",
+			"hudong_pre/pre_item_05_50153/all/50153_Bone001/50153_Bone002/2",
+			"hudong_pre/pre_item_05_50153/all/50153_Bone001/50153_Bone002/3",
+			"hudong_pre/pre_item_05_50153/all/50153_Bone001/50153_Bone002/4"
+		}
+	}
+	pg.base.island_interact_point[21] = {
+		bt = "island/nodecanvas/agora/agora_common_wide",
+		attach = "pre_item_05_50159(Clone)",
+		id = 21,
+		slot_cnt = 4,
+		timeline = {
+			26
+		},
+		param = {
+			{}
+		},
+		offset = {
+			0,
+			0,
+			0
+		},
+		player_parent_path = {
+			"pos/item_05_50159/all/bone_50159_000/bone_50159_001/bone_50159_002/1",
+			"pos/item_05_50159/all/bone_50159_000/bone_50159_001/bone_50159_003/2",
+			"pos/item_05_50159/all/bone_50159_000/bone_50159_001/bone_50159_004/3",
+			"pos/item_05_50159/all/bone_50159_000/bone_50159_001/bone_50159_005/4"
+		}
+	}
+	pg.base.island_interact_point[22] = {
+		bt = "island/nodecanvas/agora/agora_common_front",
+		attach = "pre_item_05_50152(Clone)",
+		id = 22,
+		slot_cnt = 3,
+		timeline = {
+			27
+		},
+		param = {
+			{}
+		},
+		offset = {
+			0,
+			0,
+			0
+		},
+		player_parent_path = {
+			"all/Bone003/Bone001/Bone002/1",
+			"all/Bone003/Bone001/Bone007/2",
+			"all/Bone003/Bone001/Bone006/3"
+		}
+	}
+	pg.base.island_interact_point[23] = {
+		bt = "island/nodecanvas/agora/agora_common",
+		attach = "pre_item_05_50170(Clone)",
+		id = 23,
+		slot_cnt = 1,
+		timeline = {
+			28
+		},
+		param = {
+			{}
+		},
+		offset = {
+			0,
+			0,
+			0
+		},
+		player_parent_path = {
+			"fbx_item_05_50170/all/Bone001/Bone003/1"
 		}
 	}
 end)()

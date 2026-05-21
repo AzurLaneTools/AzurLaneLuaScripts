@@ -28,7 +28,7 @@ pg.base.activity_const = {}
 		act_id = 171
 	}
 	pg.base.activity_const.ACT_NPC_SHIP_ID = {
-		act_id = 45094
+		act_id = 50832
 	}
 	pg.base.activity_const.SANLI_7DAYS_LOGIN = {
 		act_id = 274

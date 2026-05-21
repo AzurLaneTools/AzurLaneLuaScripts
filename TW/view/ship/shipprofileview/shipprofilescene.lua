@@ -578,7 +578,7 @@ slot0.CreateLive2D = function(slot0)
 		0,
 		52
 	}
-	slot0.l2dChar = Live2D.New(Live2D.GenerateData({
+	slot0.l2dChar = Live2DPainting.New(Live2DPainting.GenerateData({
 		ship = Ship.New({
 			noChangeSkin = true,
 			configId = slot0.shipGroup:getShipConfigId(),
