@@ -85,6 +85,7 @@ slot0.didEnter = function(slot0)
 	slot0:UpdateView()
 	slot0:UpdateBg()
 	slot0:CheckGuide()
+	slot0:CheckOrderStory()
 end
 
 slot0.CheckGuide = function(slot0)
@@ -104,6 +105,29 @@ slot0.CheckGuide = function(slot0)
 		})
 
 		return
+	end
+end
+
+slot0.CheckOrderStory = function(slot0)
+	slot2 = {}
+
+	for slot6, slot7 in ipairs(slot0.activity:GetOrderData():GetFinishedList()) do
+		if pg.activity_mall_custom_order[slot7].story_unlock ~= "" and not pg.NewStoryMgr.GetInstance():IsPlayed(slot9) then
+			table.insert(slot2, slot9)
+		end
+	end
+
+	if #slot2 > 0 then
+		slot3 = {}
+
+		for slot7, slot8 in ipairs(slot2) do
+			table.insert(slot3, function (slot0)
+				pg.NewStoryMgr.GetInstance():Play(uv0, slot0)
+			end)
+		end
+
+		seriesAsync(slot3, function ()
+		end)
 	end
 end
 

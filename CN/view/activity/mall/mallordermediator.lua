@@ -43,6 +43,12 @@ slot0.handleNotification = function(slot0, slot1)
 				uv0.viewComponent:ShowCompleteDialogue(slot0)
 			end)
 
+			if pg.activity_mall_custom_order[slot3.completeOrderId].story_unlock ~= "" then
+				table.insert(slot6, function (slot0)
+					pg.NewStoryMgr.GetInstance():Play(uv0, slot0)
+				end)
+			end
+
 			if #slot3.awards >= 0 then
 				table.insert(slot6, function (slot0)
 					uv0.viewComponent:emit(BaseUI.ON_ACHIEVE, uv1.awards, slot0)
@@ -54,16 +60,6 @@ slot0.handleNotification = function(slot0, slot1)
 					uv0.viewComponent:ShowUpgradeBox(uv1, uv2, slot0)
 				end)
 			end
-
-			table.insert(slot6, function (slot0)
-				if pg.activity_mall_custom_order[uv0.completeOrderId].story_unlock == "" then
-					slot0()
-
-					return
-				end
-
-				pg.NewStoryMgr.GetInstance():Play(slot1, slot0)
-			end)
 		end
 
 		seriesAsync(slot6, function ()

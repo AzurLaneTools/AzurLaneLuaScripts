@@ -14185,9 +14185,15 @@ end)()
 		res_list = {
 			"painting/npcyanusi_7_tex",
 			"painting/npcyanusi_7_rw_tex",
+			"painting/npcyanusi_7_rw_hx_tex",
 			"painting/npcyanusi_7_n_tex",
 			"painting/npcyanusi_7_n_rw_tex",
+			"painting/npcyanusi_7_n_rw_hx_tex",
+			"painting/npcyanusi_7_n_hx_tex",
+			"painting/npcyanusi_7_n_hx",
 			"painting/npcyanusi_7_n",
+			"painting/npcyanusi_7_hx_tex",
+			"painting/npcyanusi_7_hx",
 			"painting/npcyanusi_7"
 		}
 	}
