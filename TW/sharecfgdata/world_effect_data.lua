@@ -4603,6 +4603,626 @@ _G.pg.base.world_effect_data[1443] = {
 }
 
 
+_G.pg.base.world_effect_data[1444] = {
+	autocomplete = 0,
+	effective_num = 0,
+	effect_type = 27,
+	log_text = "",
+	sound_effects = "",
+	id = 1444,
+	autoactivate = 0,
+	effect_paramater = {
+		"W1015",
+		{
+			{
+				1,
+				1445
+			},
+			{
+				2,
+				1449
+			},
+			{
+				3,
+				1452
+			},
+			{
+				4,
+				1454
+			}
+		}
+	},
+	autoflag = {}
+}
+
+
+_G.pg.base.world_effect_data[1445] = {
+	autocomplete = 0,
+	effective_num = 0,
+	effect_type = 53,
+	log_text = "",
+	sound_effects = "",
+	id = 1445,
+	autoactivate = 0,
+	effect_paramater = {
+		1446,
+		1447,
+		1448
+	},
+	autoflag = {}
+}
+
+
+_G.pg.base.world_effect_data[1446] = {
+	autocomplete = 0,
+	effective_num = 0,
+	effect_type = 24,
+	log_text = "",
+	sound_effects = "",
+	id = 1446,
+	autoactivate = 0,
+	effect_paramater = {
+		101,
+		2,
+		"W1005",
+		true
+	},
+	autoflag = {}
+}
+
+
+_G.pg.base.world_effect_data[1447] = {
+	autocomplete = 0,
+	effective_num = 0,
+	effect_type = 36,
+	log_text = "",
+	sound_effects = "",
+	id = 1447,
+	autoactivate = 0,
+	effect_paramater = {
+		{
+			1501,
+			50
+		},
+		{
+			1502,
+			50
+		}
+	},
+	autoflag = {}
+}
+
+
+_G.pg.base.world_effect_data[1448] = {
+	autocomplete = 0,
+	effective_num = 0,
+	effect_type = 36,
+	log_text = "",
+	sound_effects = "",
+	id = 1448,
+	autoactivate = 0,
+	effect_paramater = {
+		{
+			1444,
+			50
+		},
+		{
+			1456,
+			50
+		}
+	},
+	autoflag = {}
+}
+
+
+_G.pg.base.world_effect_data[1449] = {
+	autocomplete = 0,
+	effective_num = 0,
+	effect_type = 53,
+	log_text = "",
+	sound_effects = "",
+	id = 1449,
+	autoactivate = 0,
+	effect_paramater = {
+		1450,
+		1451,
+		1448
+	},
+	autoflag = {}
+}
+
+
+_G.pg.base.world_effect_data[1450] = {
+	autocomplete = 0,
+	effective_num = 0,
+	effect_type = 24,
+	log_text = "",
+	sound_effects = "",
+	id = 1450,
+	autoactivate = 0,
+	effect_paramater = {
+		110,
+		1,
+		"W1005",
+		true
+	},
+	autoflag = {}
+}
+
+
+_G.pg.base.world_effect_data[1451] = {
+	autocomplete = 0,
+	effective_num = 0,
+	effect_type = 36,
+	log_text = "",
+	sound_effects = "",
+	id = 1451,
+	autoactivate = 0,
+	effect_paramater = {
+		{
+			1521,
+			50
+		},
+		{
+			1522,
+			50
+		},
+		{
+			1523,
+			50
+		},
+		{
+			1524,
+			5
+		},
+		{
+			1525,
+			5
+		},
+		{
+			1526,
+			5
+		},
+		{
+			1527,
+			5
+		},
+		{
+			1528,
+			5
+		}
+	},
+	autoflag = {}
+}
+
+
+_G.pg.base.world_effect_data[1452] = {
+	autocomplete = 0,
+	effective_num = 0,
+	effect_type = 53,
+	log_text = "",
+	sound_effects = "",
+	id = 1452,
+	autoactivate = 0,
+	effect_paramater = {
+		1446,
+		1447,
+		1453
+	},
+	autoflag = {}
+}
+
+
+_G.pg.base.world_effect_data[1453] = {
+	autocomplete = 0,
+	effective_num = 0,
+	effect_type = 36,
+	log_text = "",
+	sound_effects = "",
+	id = 1453,
+	autoactivate = 0,
+	effect_paramater = {
+		{
+			1452,
+			50
+		},
+		{
+			1460,
+			50
+		}
+	},
+	autoflag = {}
+}
+
+
+_G.pg.base.world_effect_data[1454] = {
+	autocomplete = 0,
+	effective_num = 0,
+	effect_type = 53,
+	log_text = "",
+	sound_effects = "",
+	id = 1454,
+	autoactivate = 0,
+	effect_paramater = {
+		1450,
+		1451,
+		1455
+	},
+	autoflag = {}
+}
+
+
+_G.pg.base.world_effect_data[1455] = {
+	autocomplete = 0,
+	effective_num = 0,
+	effect_type = 36,
+	log_text = "",
+	sound_effects = "",
+	id = 1455,
+	autoactivate = 0,
+	effect_paramater = {
+		{
+			1454,
+			50
+		},
+		{
+			1462,
+			50
+		}
+	},
+	autoflag = {}
+}
+
+
+_G.pg.base.world_effect_data[1456] = {
+	autocomplete = 0,
+	effective_num = 0,
+	effect_type = 27,
+	log_text = "",
+	sound_effects = "",
+	id = 1456,
+	autoactivate = 0,
+	effect_paramater = {
+		"W1016",
+		{
+			{
+				1,
+				1457
+			},
+			{
+				2,
+				1459
+			},
+			{
+				3,
+				1460
+			},
+			{
+				4,
+				1462
+			}
+		}
+	},
+	autoflag = {}
+}
+
+
+_G.pg.base.world_effect_data[1457] = {
+	autocomplete = 0,
+	effective_num = 0,
+	effect_type = 53,
+	log_text = "",
+	sound_effects = "",
+	id = 1457,
+	autoactivate = 0,
+	effect_paramater = {
+		1446,
+		1447,
+		1458
+	},
+	autoflag = {}
+}
+
+
+_G.pg.base.world_effect_data[1458] = {
+	autocomplete = 0,
+	effective_num = 0,
+	effect_type = 36,
+	log_text = "",
+	sound_effects = "",
+	id = 1458,
+	autoactivate = 0,
+	effect_paramater = {
+		{
+			1456,
+			50
+		},
+		{
+			1464,
+			50
+		}
+	},
+	autoflag = {}
+}
+
+
+_G.pg.base.world_effect_data[1459] = {
+	autocomplete = 0,
+	effective_num = 0,
+	effect_type = 53,
+	log_text = "",
+	sound_effects = "",
+	id = 1459,
+	autoactivate = 0,
+	effect_paramater = {
+		1450,
+		1451,
+		1458
+	},
+	autoflag = {}
+}
+
+
+_G.pg.base.world_effect_data[1460] = {
+	autocomplete = 0,
+	effective_num = 0,
+	effect_type = 53,
+	log_text = "",
+	sound_effects = "",
+	id = 1460,
+	autoactivate = 0,
+	effect_paramater = {
+		1446,
+		1447,
+		1461
+	},
+	autoflag = {}
+}
+
+
+_G.pg.base.world_effect_data[1461] = {
+	autocomplete = 0,
+	effective_num = 0,
+	effect_type = 36,
+	log_text = "",
+	sound_effects = "",
+	id = 1461,
+	autoactivate = 0,
+	effect_paramater = {
+		{
+			1460,
+			50
+		},
+		{
+			1468,
+			50
+		}
+	},
+	autoflag = {}
+}
+
+
+_G.pg.base.world_effect_data[1462] = {
+	autocomplete = 0,
+	effective_num = 0,
+	effect_type = 53,
+	log_text = "",
+	sound_effects = "",
+	id = 1462,
+	autoactivate = 0,
+	effect_paramater = {
+		1450,
+		1451,
+		1463
+	},
+	autoflag = {}
+}
+
+
+_G.pg.base.world_effect_data[1463] = {
+	autocomplete = 0,
+	effective_num = 0,
+	effect_type = 36,
+	log_text = "",
+	sound_effects = "",
+	id = 1463,
+	autoactivate = 0,
+	effect_paramater = {
+		{
+			1462,
+			50
+		},
+		{
+			1470,
+			50
+		}
+	},
+	autoflag = {}
+}
+
+
+_G.pg.base.world_effect_data[1464] = {
+	autocomplete = 0,
+	effective_num = 0,
+	effect_type = 27,
+	log_text = "",
+	sound_effects = "",
+	id = 1464,
+	autoactivate = 0,
+	effect_paramater = {
+		"W1017",
+		{
+			{
+				1,
+				1465
+			},
+			{
+				2,
+				1467
+			},
+			{
+				3,
+				1468
+			},
+			{
+				4,
+				1470
+			}
+		}
+	},
+	autoflag = {}
+}
+
+
+_G.pg.base.world_effect_data[1465] = {
+	autocomplete = 0,
+	effective_num = 0,
+	effect_type = 53,
+	log_text = "",
+	sound_effects = "",
+	id = 1465,
+	autoactivate = 0,
+	effect_paramater = {
+		1446,
+		1447,
+		1466
+	},
+	autoflag = {}
+}
+
+
+_G.pg.base.world_effect_data[1466] = {
+	autocomplete = 0,
+	effective_num = 0,
+	effect_type = 36,
+	log_text = "",
+	sound_effects = "",
+	id = 1466,
+	autoactivate = 0,
+	effect_paramater = {
+		{
+			1464,
+			50
+		},
+		{
+			1472,
+			50
+		}
+	},
+	autoflag = {}
+}
+
+
+_G.pg.base.world_effect_data[1467] = {
+	autocomplete = 0,
+	effective_num = 0,
+	effect_type = 53,
+	log_text = "",
+	sound_effects = "",
+	id = 1467,
+	autoactivate = 0,
+	effect_paramater = {
+		1450,
+		1451,
+		1466
+	},
+	autoflag = {}
+}
+
+
+_G.pg.base.world_effect_data[1468] = {
+	autocomplete = 0,
+	effective_num = 0,
+	effect_type = 53,
+	log_text = "",
+	sound_effects = "",
+	id = 1468,
+	autoactivate = 0,
+	effect_paramater = {
+		1446,
+		1447,
+		1469
+	},
+	autoflag = {}
+}
+
+
+_G.pg.base.world_effect_data[1469] = {
+	autocomplete = 0,
+	effective_num = 0,
+	effect_type = 36,
+	log_text = "",
+	sound_effects = "",
+	id = 1469,
+	autoactivate = 0,
+	effect_paramater = {
+		{
+			1468,
+			50
+		},
+		{
+			1472,
+			50
+		}
+	},
+	autoflag = {}
+}
+
+
+_G.pg.base.world_effect_data[1470] = {
+	autocomplete = 0,
+	effective_num = 0,
+	effect_type = 53,
+	log_text = "",
+	sound_effects = "",
+	id = 1470,
+	autoactivate = 0,
+	effect_paramater = {
+		1450,
+		1451,
+		1471
+	},
+	autoflag = {}
+}
+
+
+_G.pg.base.world_effect_data[1471] = {
+	autocomplete = 0,
+	effective_num = 0,
+	effect_type = 36,
+	log_text = "",
+	sound_effects = "",
+	id = 1471,
+	autoactivate = 0,
+	effect_paramater = {
+		{
+			1470,
+			50
+		},
+		{
+			1472,
+			50
+		}
+	},
+	autoflag = {}
+}
+
+
+_G.pg.base.world_effect_data[1472] = {
+	autocomplete = 0,
+	effective_num = 0,
+	effect_type = 10,
+	log_text = "",
+	sound_effects = "",
+	autoflag = "",
+	id = 1472,
+	autoactivate = 0,
+	effect_paramater = {
+		1411
+	}
+}
+
+
 _G.pg.base.world_effect_data[1501] = {
 	autocomplete = 0,
 	effective_num = 0,
