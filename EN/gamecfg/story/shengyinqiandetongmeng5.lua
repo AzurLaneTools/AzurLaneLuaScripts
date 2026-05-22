@@ -80,7 +80,7 @@ return {
 			actor = 9702110,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "Prinz Eugen, Mainz, and Commander $1, was it? My name is Regensburg.",
+			say = "Prinz Eugen, Mainz, and Commander {playername}, was it? My name is Regensburg.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

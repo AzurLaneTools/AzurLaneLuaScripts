@@ -73,7 +73,7 @@ return {
 			actor = 9706050,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "Greetings, Commander $1. I am Elbe. It's a pleasure to make your acquaintance...",
+			say = "Greetings, Commander {playername}. I am Elbe. It's a pleasure to make your acquaintance...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

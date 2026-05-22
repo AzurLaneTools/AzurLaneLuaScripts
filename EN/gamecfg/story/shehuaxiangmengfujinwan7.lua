@@ -98,7 +98,7 @@ return {
 			hidePaintObj = false,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "You bad human, leaving Emden unattended.",
+			say = "\"You bad human, leaving Emden unattended.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			hidePaintObj = false,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "We have been watching you this whole time.",
+			say = "\"We have been watching you this whole time.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			actor = 900544,
 			nameColor = "#A9F548FF",
 			hidePaintObj = false,
-			say = "Deep down, you wish to be teased and dominated by Emden, do you not?",
+			say = "\"Deep down, you wish to be teased and dominated by Emden, do you not?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			actor = 900544,
 			nameColor = "#A9F548FF",
 			hidePaintObj = false,
-			say = "Come, human... Hold your gaze carefully. Gaze carefully upon Emden, who takes your breath away, makes your heart race.",
+			say = "\"Come, human... Hold your gaze carefully.\" Gaze carefully upon Emden, who takes your breath away, makes your heart race.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			actor = 900544,
 			nameColor = "#A9F548FF",
 			hidePaintObj = false,
-			say = "Let us see it... Those eyes of yours, reflecting the water's light, never to look away...",
+			say = "\"Let us see it... Those eyes of yours, reflecting the water's light, never to look away...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

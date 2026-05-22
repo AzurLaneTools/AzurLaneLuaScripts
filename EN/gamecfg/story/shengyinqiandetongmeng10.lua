@@ -338,7 +338,7 @@ return {
 			actor = 405070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "I'd like to offer my gratitude to you again, Commander $1.",
+			say = "I'd like to offer my gratitude to you again, Commander {playername}.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

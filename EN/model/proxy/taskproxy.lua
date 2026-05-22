@@ -326,6 +326,11 @@ end
 
 slot0.removeTask = function(slot0, slot1)
 	assert(isa(slot1, Task), "should be an instance of Task")
+
+	if not slot0.data[slot1.id] then
+		slot0.data[slot1.id] = slot1
+	end
+
 	slot0:removeTaskById(slot1.id)
 end
 
