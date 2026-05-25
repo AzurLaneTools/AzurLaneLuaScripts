@@ -3394,7 +3394,7 @@ When this ship fires her Main Guns: spends all Charge and increases this ship's 
 When called in as Submarine Support in Operation Siren: decreases AP consumption by $3, and increases the Submarine Fleet's Ammo by 1.
 At the start of battle: increases this boat's TRP and RLD by $1.
 Whenever this boat's torpedoes hit an enemy: $2 chance to inflict a special Flooding debuff (takes DMG every 3s based on U-2501's TRP, lasting for 15s); additionally, increases the DMG this boat deals to Flooding enemies by $1.
-Whenever any other ally in the Submarine Fleet hits an enemy with torpedoes: $2 chance to increases this boat's ACC by $1 (stacks up to 10 times, lasting until the boat leaves the battle); upon reaching 10 stacks, restores $1 of this boat's Max HP. ]],
+Whenever any other ally in the Submarine Fleet hits an enemy with torpedoes: $2 chance to increases this boat's ACC by 1.0% (stacks up to 10 times, lasting until the boat leaves the battle); upon reaching 10 stacks, restores $1 of this boat's Max HP. ]],
 		desc_get_add = {
 			{
 				"1.0%",

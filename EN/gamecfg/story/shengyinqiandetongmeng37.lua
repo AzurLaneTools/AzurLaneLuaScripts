@@ -250,7 +250,7 @@ return {
 			actor = 405070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "*sigh*... How do you think Commander $1 is doing? Last I recall, our good friend was being hauled off somewhere.",
+			say = "*sigh*... How do you think Commander {playername} is doing? Last I recall, our good friend was being hauled off somewhere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			actor = 405070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Truth be told, Commander $1 ended up in that state as a result of saving our world...",
+			say = "Truth be told, Commander {playername} ended up in that state as a result of saving our world...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

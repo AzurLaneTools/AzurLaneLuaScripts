@@ -859,23 +859,23 @@ return {
 			},
 			sequence = {
 				{
-					"\"The netherworld comes, heralding the end.\"",
+					"<size=45><color=#000000>\"The netherworld comes, heralding the end.\"</color></size>",
 					1
 				},
 				{
-					"\"The fat of the land shall turn fallow.\"",
+					"<size=45><color=#000000>\"The fat of the land shall turn fallow.\"</color></size>",
 					2
 				},
 				{
-					"\"The sturdiest walls shall crumble to dust.\"",
+					"<size=45><color=#000000>\"The sturdiest walls shall crumble to dust.\"</color></size>",
 					3
 				},
 				{
-					"\"Together we walk through the lightless morn.\"",
+					"<size=45><color=#000000>\"Together we walk through the lightless morn.\"</color></size>",
 					4
 				},
 				{
-					"\"Together we walk beneath the grave chill.\"",
+					"<size=45><color=#000000>\"Together we walk beneath the grave chill.\"</color></size>",
 					5
 				}
 			}
@@ -894,19 +894,19 @@ return {
 			},
 			sequence = {
 				{
-					"\"The netherworld comes, heralding the end.\"",
+					"<size=45><color=#000000>\"The netherworld comes, heralding the end.\"</color></size>",
 					1
 				},
 				{
-					"\"In this sacred land,\"",
+					"<size=45><color=#000000>\"In this sacred land,\"</color></size>",
 					2
 				},
 				{
-					"\"Before this sacred seal,\"",
+					"<size=45><color=#000000>\"Before this sacred seal,\"</color></size>",
 					3
 				},
 				{
-					"\"Let us raise our voices in unison to the Transcender.\"",
+					"<size=45><color=#000000>\"Let us raise our voices in unison to the Transcender.\"</color></size>",
 					4
 				}
 			}

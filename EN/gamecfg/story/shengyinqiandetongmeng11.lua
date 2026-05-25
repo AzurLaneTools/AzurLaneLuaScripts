@@ -671,7 +671,7 @@ return {
 			actor = 9702100,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "The most significant among you is you, $1. That I'm certain of.",
+			say = "The most significant among you is you, {playername}. That I'm certain of.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
