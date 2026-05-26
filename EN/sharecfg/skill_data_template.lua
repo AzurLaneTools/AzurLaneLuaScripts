@@ -121630,7 +121630,7 @@ At the start of battle, this ship gains the following effects based on the numbe
 		name = "Deep-Sea Resonator",
 		type = 3,
 		max_level = 10,
-		desc = "When deployed into a sortie, increases this boat's ASR and AMO by 1; at the start of battle, increases this boat's TRP and RLD by $1.\nWhenever this boat's torpedoes hit an enemy: $2 chance to inflict a special Flooding debuff (takes DMG every 3s based on U-2501's TRP, lasting for 15s); additionally, increases the DMG this boat deals to Flooding enemies by $1.\nWhenever any other ally in the Submarine Fleet hits an enemy with torpedoes: $2 chance to increases this boat's ACC by $1 (stacks up to 10 times, lasting until the boat leaves the battle); upon reaching 10 stacks, restores $1 of this boat's Max HP.",
+		desc = "When deployed into a sortie, increases this boat's ASR and AMO by 1; at the start of battle, increases this boat's TRP and RLD by $1.\nWhenever this boat's torpedoes hit an enemy: $2 chance to inflict a special Flooding debuff (takes DMG every 3s based on U-2501's TRP, lasting for 15s); additionally, increases the DMG this boat deals to Flooding enemies by $1.\nWhenever any other ally in the Submarine Fleet hits an enemy with torpedoes: $2 chance to increases this boat's ACC by 1.0% (stacks up to 10 times, lasting until the boat leaves the battle); upon reaching 10 stacks, restores $1 of this boat's Max HP.",
 		id = 152370,
 		system_transform = {
 			[11.0] = 3500
