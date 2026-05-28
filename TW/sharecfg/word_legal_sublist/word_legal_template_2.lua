@@ -856,6 +856,11 @@ temp = function()
 				this = true
 			}
 		},
+		["武"] = {
+			["藏"] = {
+				this = true
+			}
+		},
 		["赤"] = {
 			["城"] = {
 				this = true

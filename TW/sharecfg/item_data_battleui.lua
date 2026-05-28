@@ -15,6 +15,7 @@ pg.item_data_battleui.all = {
 	109,
 	111,
 	112,
+	113,
 	201,
 	202,
 	203,
@@ -200,6 +201,21 @@ pg.base.item_data_battleui = {}
 		desc = "該介面專為喜歡購物的指揮官準備，在享受購物歡樂的同時，用鋪天蓋地的禮物淹沒對手吧。",
 		id = 112,
 		icon = "112",
+		scene = {},
+		rare_display = {
+			1
+		}
+	}
+	pg.base.item_data_battleui[113] = {
+		name = "古代王朝",
+		key = "SkinNormal_20260129",
+		display_icon = "ui_113",
+		unlock = "世界巡遊二十七期獲取",
+		is_unlock = 1,
+		rare = 3,
+		desc = "古老的石柱在介面中矗立，斑駁的紋路訴說著失落的秩序，讓戰鬥也染上穿越時空的肅穆與蒼涼。",
+		id = 113,
+		icon = "113",
 		scene = {},
 		rare_display = {
 			1

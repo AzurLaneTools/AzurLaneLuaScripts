@@ -604,26 +604,34 @@ slot0.UpdateStoryNodeStatus = function(slot0)
 
 		if not slot16 and slot13 then
 			_.each(slot10:GetUnlockConditions(), function (slot0)
+				slot1 = true
+
 				if slot0[1] == ActivitySpStoryNode.CONDITION.TIME then
-					uv0 = uv0 and pg.TimeMgr.GetInstance():parseTimeFromConfig(slot0[2]) <= pg.TimeMgr.GetInstance():GetServerTime()
+					slot1 = pg.TimeMgr.GetInstance():parseTimeFromConfig(slot0[2]) <= pg.TimeMgr.GetInstance():GetServerTime()
 				elseif slot0[1] == ActivitySpStoryNode.CONDITION.PASSCHAPTER then
-					uv0 = uv0 and _.all(slot0[2], function (slot0)
+					slot1 = _.all(slot0[2], function (slot0)
 						return getProxy(ChapterProxy):getChapterById(slot0, true):isClear()
 					end)
 				elseif slot0[1] == ActivitySpStoryNode.CONDITION.PT then
-					slot2 = slot0[2][2]
-					slot3 = slot0[2][3]
-					slot4 = 0
+					slot3 = slot0[2][2]
+					slot4 = slot0[2][3]
+					slot5 = 0
 
 					if slot0[2][1] == DROP_TYPE_RESOURCE then
-						slot4 = getProxy(PlayerProxy):getRawData():getResource(slot0[2])
-					elseif slot1 == DROP_TYPE_ITEM then
-						slot4 = getProxy(BagProxy):getItemCountById(slot2)
+						slot5 = getProxy(PlayerProxy):getRawData():getResource(slot0[2])
+					elseif slot2 == DROP_TYPE_ITEM then
+						slot5 = getProxy(BagProxy):getItemCountById(slot3)
 					end
 
-					uv0 = uv0 and slot3 <= slot4
+					slot1 = slot4 <= slot5
 				end
+
+				table.insert(uv0, slot1)
+
+				uv1 = uv1 and slot1
 			end)
+
+			slot4[slot11].conditionFinishedList = {}
 		end
 
 		if slot16 then
@@ -1008,7 +1016,24 @@ slot0.UpdateStory = function(slot0)
 		slot26 = slot0.storyNodeTFsById[slot23].nodeTF:Find("info/bk/title_form/title")
 
 		if slot0.storyNodeStatus[slot23].status == uv0 then
-			setScrollText(slot26, HXSet.hxLan(slot22:GetUnlockDesc()))
+			slot28 = ""
+
+			if type(slot22:GetUnlockDesc()) == "table" then
+				slot29 = slot0.storyNodeStatus[slot23].conditionFinishedList or {}
+				slot28 = slot27[1] or ""
+
+				for slot33, slot34 in ipairs(slot27) do
+					if not slot29[slot33] then
+						slot28 = slot34 or ""
+
+						break
+					end
+				end
+			else
+				slot28 = slot27 or ""
+			end
+
+			setScrollText(slot26, HXSet.hxLan(slot28))
 			setTextAlpha(slot26, 0.5)
 		else
 			setScrollText(slot26, HXSet.hxLan(slot22:GetDisplayName()))

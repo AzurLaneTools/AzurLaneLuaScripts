@@ -31141,6 +31141,266 @@ _G.pg.base.shop_template[60585] = {
 }
 
 
+_G.pg.base.shop_template[60589] = {
+	group_type = 0,
+	package_sort_id = 0,
+	time_second = 0,
+	type = 2,
+	second_text = "",
+	package_tag_open = 0,
+	first_icon = "",
+	desc = "880钻石购买限时建造补给(0206远汇点作战轻量化复刻版本)",
+	group_limit = 0,
+	resource_num = 880,
+	first_text = "",
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 0,
+	akashi_pick = 0,
+	group = 0,
+	num = 1,
+	package_tag = "",
+	type_order = 0,
+	discount = 0,
+	resource_type = 14,
+	id = 60589,
+	genre = "gift_package",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		40138
+	},
+	time = {
+		{
+			{
+				2026,
+				5,
+				28
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2026,
+				6,
+				3
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[60590] = {
+	group_type = 0,
+	package_sort_id = 0,
+	time_second = 0,
+	type = 2,
+	second_text = "",
+	package_tag_open = 0,
+	first_icon = "",
+	desc = "120钻石购买限时攻略补给(0206远汇点作战轻量化复刻版本)",
+	group_limit = 0,
+	resource_num = 120,
+	first_text = "",
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 0,
+	akashi_pick = 0,
+	group = 0,
+	num = 1,
+	package_tag = "",
+	type_order = 0,
+	discount = 0,
+	resource_type = 14,
+	id = 60590,
+	genre = "gift_package",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			5
+		}
+	},
+	effect_args = {
+		40117
+	},
+	time = {
+		{
+			{
+				2026,
+				5,
+				28
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2026,
+				6,
+				3
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[60591] = {
+	group_type = 0,
+	package_sort_id = 0,
+	time_second = 0,
+	type = 2,
+	second_text = "",
+	package_tag_open = 0,
+	first_icon = "",
+	desc = "500钻石购买家具币礼包(0206远汇点作战轻量化复刻版本)",
+	group_limit = 0,
+	resource_num = 500,
+	first_text = "",
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 0,
+	akashi_pick = 0,
+	group = 0,
+	num = 1,
+	package_tag = "",
+	type_order = 0,
+	discount = 0,
+	resource_type = 14,
+	id = 60591,
+	genre = "gift_package",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		40106
+	},
+	time = {
+		{
+			{
+				2026,
+				5,
+				28
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2026,
+				6,
+				3
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[60592] = {
+	group_type = 0,
+	package_sort_id = 0,
+	time_second = 0,
+	type = 2,
+	second_text = "",
+	package_tag_open = 0,
+	first_icon = "",
+	desc = "300钻石购买心智单元礼包(0206远汇点作战轻量化复刻版本)",
+	group_limit = 0,
+	resource_num = 300,
+	first_text = "",
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 0,
+	akashi_pick = 0,
+	group = 0,
+	num = 1,
+	package_tag = "",
+	type_order = 0,
+	discount = 0,
+	resource_type = 14,
+	id = 60592,
+	genre = "gift_package",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		40119
+	},
+	time = {
+		{
+			{
+				2026,
+				5,
+				28
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2026,
+				6,
+				3
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
 _G.pg.base.shop_template[60593] = {
 	group_type = 0,
 	package_sort_id = 0,
@@ -36444,6 +36704,43 @@ _G.pg.base.shop_template[61017] = {
 	limit_args = {},
 	effect_args = {
 		15013
+	}
+}
+
+
+_G.pg.base.shop_template[61018] = {
+	group_type = 0,
+	package_sort_id = 0,
+	time_second = 0,
+	type = 0,
+	second_text = "",
+	package_tag_open = 0,
+	first_icon = "",
+	desc = "100钻石扩展特殊兵装仓库容量+10（仓库数量在0~2000时）",
+	group_limit = 0,
+	resource_num = 100,
+	first_text = "",
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 7,
+	akashi_pick = 0,
+	time = "always",
+	effect_args = "spweapon_bag_size",
+	group = 0,
+	num = 10,
+	package_tag = "",
+	type_order = 0,
+	discount = 0,
+	resource_type = 14,
+	id = 61018,
+	genre = "gem_shop",
+	discount_time = {},
+	limit_args = {
+		"count",
+		0,
+		1999
 	}
 }
 
@@ -66242,9 +66539,9 @@ _G.pg.base.shop_template[70727] = {
 	time = {
 		{
 			{
-				2025,
-				9,
-				19
+				2026,
+				5,
+				28
 			},
 			{
 				0,
@@ -66254,9 +66551,9 @@ _G.pg.base.shop_template[70727] = {
 		},
 		{
 			{
-				2025,
-				10,
-				8
+				2026,
+				6,
+				3
 			},
 			{
 				23,
@@ -66302,9 +66599,9 @@ _G.pg.base.shop_template[70728] = {
 	time = {
 		{
 			{
-				2025,
-				9,
-				19
+				2026,
+				5,
+				28
 			},
 			{
 				0,
@@ -66314,9 +66611,9 @@ _G.pg.base.shop_template[70728] = {
 		},
 		{
 			{
-				2025,
-				10,
-				8
+				2026,
+				6,
+				3
 			},
 			{
 				23,
@@ -66362,9 +66659,9 @@ _G.pg.base.shop_template[70729] = {
 	time = {
 		{
 			{
-				2025,
-				9,
-				19
+				2026,
+				5,
+				28
 			},
 			{
 				0,
@@ -66374,9 +66671,9 @@ _G.pg.base.shop_template[70729] = {
 		},
 		{
 			{
-				2025,
-				10,
-				8
+				2026,
+				6,
+				3
 			},
 			{
 				23,
@@ -66422,9 +66719,9 @@ _G.pg.base.shop_template[70730] = {
 	time = {
 		{
 			{
-				2025,
-				9,
-				19
+				2026,
+				5,
+				28
 			},
 			{
 				0,
@@ -66434,9 +66731,9 @@ _G.pg.base.shop_template[70730] = {
 		},
 		{
 			{
-				2025,
-				10,
-				8
+				2026,
+				6,
+				3
 			},
 			{
 				23,
@@ -66482,9 +66779,9 @@ _G.pg.base.shop_template[70731] = {
 	time = {
 		{
 			{
-				2025,
-				9,
-				19
+				2026,
+				5,
+				28
 			},
 			{
 				0,
@@ -66494,9 +66791,9 @@ _G.pg.base.shop_template[70731] = {
 		},
 		{
 			{
-				2025,
-				10,
-				8
+				2026,
+				6,
+				3
 			},
 			{
 				23,
@@ -66542,9 +66839,9 @@ _G.pg.base.shop_template[70732] = {
 	time = {
 		{
 			{
-				2025,
-				9,
-				19
+				2026,
+				5,
+				28
 			},
 			{
 				0,
@@ -66554,9 +66851,9 @@ _G.pg.base.shop_template[70732] = {
 		},
 		{
 			{
-				2025,
-				10,
-				8
+				2026,
+				6,
+				3
 			},
 			{
 				23,
@@ -66602,9 +66899,9 @@ _G.pg.base.shop_template[70733] = {
 	time = {
 		{
 			{
-				2025,
-				9,
-				19
+				2026,
+				5,
+				28
 			},
 			{
 				0,
@@ -66614,9 +66911,9 @@ _G.pg.base.shop_template[70733] = {
 		},
 		{
 			{
-				2025,
-				10,
-				8
+				2026,
+				6,
+				3
 			},
 			{
 				23,
@@ -98872,9 +99169,9 @@ _G.pg.base.shop_template[90156] = {
 	time = {
 		{
 			{
-				2023,
-				7,
-				13
+				2026,
+				5,
+				28
 			},
 			{
 				0,
@@ -98884,9 +99181,9 @@ _G.pg.base.shop_template[90156] = {
 		},
 		{
 			{
-				2023,
-				7,
-				26
+				2026,
+				6,
+				3
 			},
 			{
 				23,
@@ -98932,9 +99229,9 @@ _G.pg.base.shop_template[90157] = {
 	time = {
 		{
 			{
-				2023,
-				7,
-				13
+				2026,
+				5,
+				28
 			},
 			{
 				0,
@@ -98944,9 +99241,9 @@ _G.pg.base.shop_template[90157] = {
 		},
 		{
 			{
-				2023,
-				7,
-				26
+				2026,
+				6,
+				3
 			},
 			{
 				23,
@@ -98992,9 +99289,9 @@ _G.pg.base.shop_template[90158] = {
 	time = {
 		{
 			{
-				2023,
-				7,
-				13
+				2026,
+				5,
+				28
 			},
 			{
 				0,
@@ -99004,9 +99301,9 @@ _G.pg.base.shop_template[90158] = {
 		},
 		{
 			{
-				2023,
-				7,
-				26
+				2026,
+				6,
+				3
 			},
 			{
 				23,
@@ -111870,6 +112167,71 @@ _G.pg.base.shop_template[105009] = {
 }
 
 
+_G.pg.base.shop_template[105010] = {
+	group_type = 0,
+	package_sort_id = 0,
+	time_second = 0,
+	type = 6,
+	second_text = "",
+	package_tag_open = 0,
+	first_icon = "",
+	desc = "通行证复刻-沃克兰换装",
+	group_limit = 0,
+	resource_num = 880,
+	first_text = "",
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 1,
+	akashi_pick = 0,
+	group = 0,
+	num = 1,
+	package_tag = "",
+	type_order = 0,
+	discount = 0,
+	resource_type = 14,
+	id = 105010,
+	genre = "cruise_skin",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		901033
+	},
+	time = {
+		{
+			{
+				2025,
+				12,
+				1
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2034,
+				10,
+				1
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
 _G.pg.base.shop_template[106001] = {
 	group_type = 3,
 	package_sort_id = 0,
@@ -113938,6 +114300,396 @@ _G.pg.base.shop_template[106032] = {
 			{
 				2033,
 				6,
+				1
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[106033] = {
+	group_type = 3,
+	package_sort_id = 0,
+	time_second = 0,
+	type = 9,
+	second_text = "",
+	package_tag_open = 0,
+	first_icon = "",
+	desc = "通行证复刻-雷神之怒",
+	group_limit = 4,
+	resource_num = 100,
+	first_text = "",
+	group_buy_count = 1,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 1,
+	akashi_pick = 0,
+	group = 10,
+	num = 1,
+	package_tag = "",
+	type_order = 0,
+	discount = 0,
+	resource_type = 14,
+	id = 106033,
+	genre = "cruise_gearskin",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			9
+		}
+	},
+	effect_args = {
+		2033
+	},
+	time = {
+		{
+			{
+				2025,
+				12,
+				1
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2034,
+				10,
+				1
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[106034] = {
+	group_type = 3,
+	package_sort_id = 0,
+	time_second = 0,
+	type = 9,
+	second_text = "",
+	package_tag_open = 0,
+	first_icon = "",
+	desc = "通行证复刻-雷神之怒",
+	group_limit = 4,
+	resource_num = 100,
+	first_text = "",
+	group_buy_count = 1,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 1,
+	akashi_pick = 0,
+	group = 10,
+	num = 1,
+	package_tag = "",
+	type_order = 0,
+	discount = 0,
+	resource_type = 14,
+	id = 106034,
+	genre = "cruise_gearskin",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			9
+		}
+	},
+	effect_args = {
+		2034
+	},
+	time = {
+		{
+			{
+				2025,
+				12,
+				1
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2034,
+				10,
+				1
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[106035] = {
+	group_type = 3,
+	package_sort_id = 0,
+	time_second = 0,
+	type = 9,
+	second_text = "",
+	package_tag_open = 0,
+	first_icon = "",
+	desc = "通行证复刻-雷神之怒",
+	group_limit = 4,
+	resource_num = 100,
+	first_text = "",
+	group_buy_count = 1,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 1,
+	akashi_pick = 0,
+	group = 10,
+	num = 1,
+	package_tag = "",
+	type_order = 0,
+	discount = 0,
+	resource_type = 14,
+	id = 106035,
+	genre = "cruise_gearskin",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			9
+		}
+	},
+	effect_args = {
+		2035
+	},
+	time = {
+		{
+			{
+				2025,
+				12,
+				1
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2034,
+				10,
+				1
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[106036] = {
+	group_type = 3,
+	package_sort_id = 0,
+	time_second = 0,
+	type = 9,
+	second_text = "",
+	package_tag_open = 0,
+	first_icon = "",
+	desc = "通行证复刻-极冰之坠",
+	group_limit = 4,
+	resource_num = 100,
+	first_text = "",
+	group_buy_count = 1,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 1,
+	akashi_pick = 0,
+	group = 10,
+	num = 1,
+	package_tag = "",
+	type_order = 0,
+	discount = 0,
+	resource_type = 14,
+	id = 106036,
+	genre = "cruise_gearskin",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			9
+		}
+	},
+	effect_args = {
+		2036
+	},
+	time = {
+		{
+			{
+				2025,
+				12,
+				1
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2034,
+				10,
+				1
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[106037] = {
+	group_type = 3,
+	package_sort_id = 0,
+	time_second = 0,
+	type = 9,
+	second_text = "",
+	package_tag_open = 0,
+	first_icon = "",
+	desc = "通行证复刻-极光之翼",
+	group_limit = 4,
+	resource_num = 100,
+	first_text = "",
+	group_buy_count = 1,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 1,
+	akashi_pick = 0,
+	group = 10,
+	num = 1,
+	package_tag = "",
+	type_order = 0,
+	discount = 0,
+	resource_type = 14,
+	id = 106037,
+	genre = "cruise_gearskin",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			9
+		}
+	},
+	effect_args = {
+		2037
+	},
+	time = {
+		{
+			{
+				2025,
+				12,
+				1
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2034,
+				10,
+				1
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[106038] = {
+	group_type = 3,
+	package_sort_id = 0,
+	time_second = 0,
+	type = 9,
+	second_text = "",
+	package_tag_open = 0,
+	first_icon = "",
+	desc = "通行证复刻-风暴之眼",
+	group_limit = 4,
+	resource_num = 100,
+	first_text = "",
+	group_buy_count = 1,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 1,
+	akashi_pick = 0,
+	group = 10,
+	num = 1,
+	package_tag = "",
+	type_order = 0,
+	discount = 0,
+	resource_type = 14,
+	id = 106038,
+	genre = "cruise_gearskin",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			9
+		}
+	},
+	effect_args = {
+		2038
+	},
+	time = {
+		{
+			{
+				2025,
+				12,
+				1
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2034,
+				10,
 				1
 			},
 			{

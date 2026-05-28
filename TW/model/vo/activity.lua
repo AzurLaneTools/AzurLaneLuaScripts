@@ -834,6 +834,41 @@ slot0.IsShowTipById = function(slot0)
 			end
 
 			return false
+		end,
+		[ActivityConst.OUT_POST_OMEN_TASKS] = function (slot0)
+			slot1 = 1
+			slot2 = getProxy(TaskProxy)
+			slot7 = true
+
+			for slot11 = 1, math.min(slot0:getNDay(), #slot0:getConfig("config_client").unlock_task) do
+				if not slot7 then
+					break
+				end
+
+				slot1 = slot11
+
+				if slot11 < slot6 then
+					for slot15, slot16 in ipairs(slot3[slot11]) do
+						if not slot2:getTaskById(slot16) and not slot2:getFinishTaskById(slot16) or slot17:getTaskStatus() ~= 2 then
+							slot7 = false
+
+							break
+						end
+					end
+				end
+			end
+
+			for slot11, slot12 in ipairs(slot3[math.min(slot1, slot5)]) do
+				if not (slot2:getTaskById(slot12) or slot2:getFinishTaskById(slot12)) then
+					return false
+				end
+
+				if slot13:getTaskStatus() == 1 then
+					return true
+				end
+			end
+
+			return false
 		end
 	}
 	slot1 = uv0.ShowTipTableById[slot0.id]

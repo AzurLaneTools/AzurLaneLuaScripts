@@ -230,21 +230,33 @@ slot0.updateToggleList = function(slot0)
 	slot1 = nil
 
 	for slot5 = 1, slot0.fleetToggleList.childCount do
-		slot7 = slot0.fleets[slot5]
-		slot8, slot9, slot10 = nowWorld():BuildFormationIds()
+		slot7, slot8, slot9 = nowWorld():BuildFormationIds()
 
-		setActive(slot0.fleetToggleList:GetChild(slot5 - 1), slot5 <= slot10)
-		setToggleEnabled(slot6, tobool(slot7))
-		setActive(slot6:Find("lock"), not tobool(slot7))
+		setActive(slot0.fleetToggleList:GetChild(slot5 - 1), slot5 <= slot9)
 
-		if slot7 then
+		slot10 = nil
+
+		if slot5 == slot0.fleetToggleList.childCount then
+			if slot0.fleets[#slot0.fleets] and slot10:GetFleetType() ~= FleetType.Submarine then
+				slot10 = nil
+			end
+		elseif slot0.fleets[slot5] and slot10:GetFleetType() ~= FleetType.Normal then
+			slot10 = nil
+		end
+
+		slot11 = tobool(slot10)
+
+		setToggleEnabled(slot6, slot11)
+		setActive(slot6:Find("lock"), not slot11)
+
+		if slot11 then
 			onToggle(slot0, slot6, function (slot0)
 				if slot0 and uv0.id ~= uv1.fleetIndex then
-					uv1:updateFleetIndex(uv2)
+					uv1:updateFleetIndex(uv0.id)
 				end
 			end, SFX_UI_TAG)
 
-			if slot7.id == slot0.fleetIndex then
+			if slot10.id == slot0.fleetIndex then
 				slot1 = slot6
 			end
 		else

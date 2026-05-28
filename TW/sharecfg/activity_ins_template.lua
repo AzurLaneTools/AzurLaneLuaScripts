@@ -633,9 +633,11 @@ pg.activity_ins_template.all = {
 	640,
 	641,
 	642,
+	643,
 	20001,
 	20002,
-	20004
+	20004,
+	20005
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_template = {}
@@ -26289,6 +26291,33 @@ end)()
 		time_persist = {},
 		npc_discuss_persist = {}
 	}
+	pg.base.activity_ins_template[643] = {
+		ship_group = 40152,
+		name = "Blitz-Z52",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "Z52",
+		id = 643,
+		group_id = 643,
+		time = {
+			{
+				2026,
+				5,
+				28
+			},
+			{
+				15,
+				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
 	pg.base.activity_ins_template[20001] = {
 		ship_group = 0,
 		name = "",
@@ -26360,6 +26389,33 @@ end)()
 				2026,
 				4,
 				30
+			},
+			{
+				11,
+				0,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[20005] = {
+		ship_group = 0,
+		name = "",
+		type = 2,
+		picture_persist = "",
+		title = "【港區秘聞】最新渡假情報！ ！",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "",
+		id = 20005,
+		group_id = 20005,
+		time = {
+			{
+				2026,
+				5,
+				28
 			},
 			{
 				11,

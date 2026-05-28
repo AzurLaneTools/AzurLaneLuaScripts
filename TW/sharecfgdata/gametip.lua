@@ -21359,7 +21359,7 @@ _G.pg.base.gametip.setting_story_speed_2 = {
 
 
 _G.pg.base.gametip.setting_story_speed_3 = {
-	tip = "快 "
+	tip = "快"
 }
 
 
@@ -38078,6 +38078,11 @@ _G.pg.base.gametip.storyline_chapter4 = {
 }
 
 
+_G.pg.base.gametip.storyline_chapter5 = {
+	tip = "間章"
+}
+
+
 _G.pg.base.gametip.storyline_memorysearch1 = {
 	tip = "搜尋劇情名"
 }
@@ -40795,6 +40800,91 @@ _G.pg.base.gametip.winterwish_20251225_tip2 = {
 }
 
 
+_G.pg.base.gametip.battlepass_main_tip_2602 = {
+	tip = "2026/6/1-2026/7/31期間，完成巡遊任務累計<icon name=pt w=0.5 h=0.5/>可獲取<color=#854747>「龍騎兵·META 」</color>在內的豐富獎勵"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2602 = {
+	tip = {
+		{
+			info = [[
+世界巡遊(2026.6.1-2026.7.31)
+
+·<color=#92fc63>開放時間</color>
+ 2026.6.1 0點 ~ 2026.7.31 23:59:59
+
+·<color=#92fc63>巡遊進度說明</color>
+（1）活動期間，指揮官通過完成巡遊任務，可獲取「巡遊點數」。
+（2）巡遊任務隨時間開放解鎖。
+（3）每獲取100點「巡遊點數」即可增加1巡遊進度
+（4）巡遊進度提升後可以獲取相應等級的獎勵，巡遊進度最高可達100。
+
+·<color=#92fc63>獎勵規則</color>
+巡遊進度獎勵分為兩種：
+（1）基礎巡遊獎勵：包含<color=#ff5c5c>「龍騎兵·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高級定向藍圖·八期</color>等獎勵；
+ 當巡遊達到指定進度時，指揮官可以直接領取相應的基礎巡遊獎勵。
+（2）特許巡遊獎勵：包含<color=#ff5c5c>Z47換裝「打者★全壘打 </color>」、<color=#ff5c5c>鑽石</color>等獎勵；
+ 購買「特許巡遊憑證」，且巡遊達到指定進度時，可以領取特許巡遊獎勵。
+ 注：購買「特許巡遊憑證」後，不會影響基礎巡遊獎勵的領取。
+
+·<color=#92fc63>「特許巡遊憑證」說明</color>
+（1）「特許巡遊憑證」可於「商店」-「優惠禮包」中購買，購買後可立刻獲得<color=#ff5c5c>1500點</color>「巡遊點數」同時解鎖特許巡遊獎勵。
+（2）「特許巡遊憑證」將於<color=#ff5c5c>活動結束前一小時</color>停止販賣(即7.31 22:59:59停止)，請指揮官注意購買時間。
+
+·<color=#92fc63>任務說明</color>
+巡遊任務分為兩種：
+（1）每周任務 
+ 巡遊任務中共有8組每周任務。自活動開始後解鎖第一周任務，之後每周一的0點解鎖下一組每周任務
+（2）S.P.任務
+ S.P.任務為一組特殊任務，在活動開始後會直接處於全部解鎖狀態。
+（3）巡遊任務在解鎖後將自動接取，滿足任務完成條件時，會自動完成並獲取對應獎勵。
+
+·<color=#92fc63>「巡遊任務快速完成券」說明</color>
+（1）「巡遊任務快速完成券」可以在巡遊任務介面使用，花費一定數量的「巡遊任務快速完成券」可以直接完成大部分巡遊任務
+（2）在「巡遊任務快速完成券」數量不足時，指揮官可花費鑽石進行補齊
+（3）每個巡遊任務需要消耗的完成券數量固定，與當前任務進度無關
+（4）「巡遊任務快速完成券」不會隨本期活動結束而消失
+
+·<color=#ff5c5c>特別提示</color>
+（1）在本期世界巡遊活動結束後，所有巡遊任務將會無法繼續完成，所有巡遊獎勵將會無法繼續領取，請各位指揮官務必注意活動結束時間，提前領取獎勵。
+（2）巡遊進度、[特許巡遊憑證]僅對本期世界巡遊活動生效]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2602 = {
+	tip = {
+		{
+			info = [[
+巡遊任務說明
+
+·<color=#92fc63>開放時間</color>
+ 2026.6.1 0點 ~ 2026.7.30 23:59:59
+
+·<color=#92fc63>巡遊任務分為兩種</color>
+（1）每週任務
+ 巡遊任務總共有8組每週任務。自活動開始後解鎖第一週任務，之後每週一的0點解鎖下一組每週任務。
+（2）S.P.任務
+ S.P.任務為一組特殊任務，在活動開始後會直接處於全部解鎖狀態。
+（3）巡遊任務在解鎖後將自動接取，滿足任務完成條件時，會自動完成並獲取對應獎勵
+
+·<color=#92fc63>「巡遊任務快速完成券」說明</color>
+（1）「巡遊任務快速完成券」可以在巡遊任務介面使用，花費一定數量的「巡遊任務快速完成券」可以直接完成每週巡遊任務
+（2）在「巡遊任務快速完成券」數量不足時，指揮官可花費鑽石進行補齊
+（3）每個巡遊任務需要消耗的「巡遊任務快速完成券」數量和其提供的「巡遊點數」相關，與當前任務進度無關
+（4）「巡遊任務快速完成券」<color=#92fc63>不會隨本期活動結束而消失</color>]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_title_2602 = {
+	tip = "世界巡遊·二十七期"
+}
+
+
 _G.pg.base.gametip.battle_battleMediator_quest_exist_submarine_support = {
 	tip = "現在退出將按照BOSS目前剩餘耐久進行戰鬥結算，您確定要退出嗎？"
 }
@@ -41523,6 +41613,46 @@ _G.pg.base.gametip.l2d_tip_off = {
 }
 
 
+_G.pg.base.gametip.YidaliV5FramePage_go = {
+	tip = "前往"
+}
+
+
+_G.pg.base.gametip.YidaliV5FramePage_get = {
+	tip = "領取"
+}
+
+
+_G.pg.base.gametip.YidaliV5FramePage_got = {
+	tip = "已領取"
+}
+
+
+_G.pg.base.gametip["20260514_story_unlock_tip"] = {
+	tip = "6月5日維護後解鎖"
+}
+
+
+_G.pg.base.gametip.OutPostCoreActivityUI_subtitle_1 = {
+	tip = "作戰準備"
+}
+
+
+_G.pg.base.gametip.OutPostCoreActivityUI_subtitle_2 = {
+	tip = "灰點預兆"
+}
+
+
+_G.pg.base.gametip.OutPostOmenPage_task_tip1 = {
+	tip = "$1月$2日解鎖"
+}
+
+
+_G.pg.base.gametip.OutPostOmenPage_task_tip2 = {
+	tip = "領取前一日任務獎勵後解鎖"
+}
+
+
 _G.pg.base.gametip.exchange_code_tip = {
 	tip = "即將兌換以下物品\n"
 }
@@ -41605,4 +41735,24 @@ _G.pg.base.gametip.littleMusashi_npc = {
 			info = "7.npc角色無法參與大艦隊作戰中的事件派遣、攻堅隊和首領戰。"
 		}
 	}
+}
+
+
+_G.pg.base.gametip["260514_story_title"] = {
+	tip = "灰點預兆"
+}
+
+
+_G.pg.base.gametip["260514_story_title_en"] = {
+	tip = "Omen in dust spot"
+}
+
+
+_G.pg.base.gametip.AnniversaryNineCoreActivityUI_subtitle_6 = {
+	tip = "美好假日"
+}
+
+
+_G.pg.base.gametip.Outpost_20260514_Detail = {
+	tip = "看詳情"
 }

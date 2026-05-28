@@ -141,6 +141,21 @@ pg.base.voice_bgm = {}
 		special_bgm = "",
 		bgm = "idol-BlueSpirit-inst"
 	}
+	pg.base.voice_bgm.ActivityShop50486 = {
+		default_bgm = "story-wanderingcity-future",
+		special_bgm = "",
+		bgm = "story-wanderingcity-future"
+	}
+	pg.base.voice_bgm.ActivityShop50430 = {
+		default_bgm = "story-china-0226-pv",
+		special_bgm = "",
+		bgm = "story-china-0226-pv"
+	}
+	pg.base.voice_bgm.ActivityShop50464 = {
+		default_bgm = "theme-merkuriameta",
+		special_bgm = "",
+		bgm = "theme-merkuriameta"
+	}
 	pg.base.voice_bgm.ActivityShop6035 = {
 		default_bgm = "doa_story1",
 		special_bgm = "",
@@ -491,6 +506,8 @@ pg.base.voice_bgm = {}
 		special_bgm = "",
 		bgm = "ryza-4"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.KelifulanSkinPage = {
 		default_bgm = "story-musicanniversary-gorgeous",
 		special_bgm = "",
@@ -506,8 +523,6 @@ pg.base.voice_bgm = {}
 		special_bgm = "",
 		bgm = "hunhe-eagle"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.NewMeixiV4PtPage = {
 		default_bgm = "hunhe-story",
 		special_bgm = "",
@@ -1188,6 +1203,8 @@ end)()
 		special_bgm = "",
 		bgm = "story-richang-8"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.EducateCharProfileScene = {
 		default_bgm = "story-richang-8",
 		special_bgm = "",
@@ -1203,8 +1220,6 @@ end)()
 		special_bgm = "",
 		bgm = "main-chunjie2"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.ChkalovTecCatchupPage = {
 		default_bgm = "theme-designshipVI",
 		special_bgm = "",
@@ -1690,6 +1705,8 @@ end)()
 		special_bgm = "",
 		bgm = "story-italy"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.StormSeaMainPage = {
 		default_bgm = "theme-ganjisawai",
 		special_bgm = "",
@@ -1705,8 +1722,6 @@ end)()
 		special_bgm = "",
 		bgm = "story-ghostnight-fascinsting"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.CryptolaliaScene = {
 		default_bgm = "story-richang-quiet",
 		special_bgm = "",
@@ -1926,6 +1941,21 @@ end)()
 		default_bgm = "theme-tulipa",
 		special_bgm = "",
 		bgm = "theme-tulipa"
+	}
+	pg.base.voice_bgm.HeLanPtPage = {
+		default_bgm = "story-tulipa-pv",
+		special_bgm = "",
+		bgm = "story-tulipa-pv"
+	}
+	pg.base.voice_bgm.HeLanLoginRePage = {
+		default_bgm = "story-tulipa-pv",
+		special_bgm = "",
+		bgm = "story-tulipa-pv"
+	}
+	pg.base.voice_bgm.LittleMusashiPage = {
+		default_bgm = "story-newsakura",
+		special_bgm = "",
+		bgm = "story-newsakura"
 	}
 	pg.base.voice_bgm.XiaoAnKeLeiPtPage = {
 		default_bgm = "story-richang-flexible",
@@ -2177,6 +2207,8 @@ end)()
 		special_bgm = "",
 		bgm = "theme-akagi-inside"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.TianYuTianYuanLoginPage = {
 		default_bgm = "story-newsakura",
 		special_bgm = "",
@@ -2207,8 +2239,6 @@ end)()
 		special_bgm = "",
 		bgm = "theme-warmwinter-daily"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.CityRebuildMapScene = {
 		default_bgm = "story-ninjacity",
 		special_bgm = "",
@@ -2604,6 +2634,26 @@ end)()
 		special_bgm = "",
 		bgm = "story-nonightcity"
 	}
+	pg.base.voice_bgm.HolidayCoreActivityZ52Page = {
+		default_bgm = "main-SeaAndSun",
+		special_bgm = "",
+		bgm = "main-SeaAndSun"
+	}
+	pg.base.voice_bgm.OutPostOmenPage = {
+		default_bgm = "theme-threat-typeV",
+		special_bgm = "",
+		bgm = "theme-threat-typeV"
+	}
+	pg.base.voice_bgm.YidaliV5FramePage = {
+		default_bgm = "story-shenguang-holy",
+		special_bgm = "",
+		bgm = "story-shenguang-holy"
+	}
+	pg.base.voice_bgm.HaerfudeTecCatchupPage = {
+		default_bgm = "theme-designshipVI",
+		special_bgm = "",
+		bgm = "theme-designshipVI"
+	}
 	pg.base.voice_bgm.DOACoreActivityMainPage = {
 		default_bgm = "doa-az-pv-1",
 		special_bgm = "",
@@ -2659,6 +2709,8 @@ end)()
 		special_bgm = "",
 		bgm = "doa_guanqia"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.DoaMainRePage = {
 		default_bgm = "doa_story3",
 		special_bgm = "",
@@ -2678,20 +2730,5 @@ end)()
 		default_bgm = "theme-tulipa",
 		special_bgm = "",
 		bgm = "theme-tulipa"
-	}
-	pg.base.voice_bgm.HeLanPtPage = {
-		default_bgm = "story-tulipa-pv",
-		special_bgm = "",
-		bgm = "story-tulipa-pv"
-	}
-	pg.base.voice_bgm.HeLanLoginRePage = {
-		default_bgm = "story-tulipa-pv",
-		special_bgm = "",
-		bgm = "story-tulipa-pv"
-	}
-	pg.base.voice_bgm.LittleMusashiPage = {
-		default_bgm = "story-newsakura",
-		special_bgm = "",
-		bgm = "story-newsakura"
 	}
 end)()

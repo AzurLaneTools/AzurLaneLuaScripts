@@ -262,7 +262,10 @@ pg.activity_ins_chat_group.all = {
 	301,
 	302,
 	303,
-	304
+	304,
+	305,
+	306,
+	307
 }
 pg.activity_ins_chat_group.get_id_list_by_ship_group = {
 	[101] = {
@@ -385,6 +388,11 @@ pg.activity_ins_chat_group.get_id_list_by_ship_group = {
 		129,
 		130,
 		131
+	},
+	[20403] = {
+		305,
+		306,
+		307
 	},
 	[20509] = {
 		29,
@@ -11476,6 +11484,112 @@ end)()
 			9164,
 			9165,
 			9166
+		}
+	}
+	pg.base.activity_ins_chat_group[305] = {
+		ship_group = 20403,
+		name = "不完美的下午茶",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
+		id = 305,
+		trigger_param = "",
+		trigger_type = 1,
+		content = {
+			9167,
+			9168,
+			9169,
+			9170,
+			9171,
+			9172,
+			9173,
+			9174,
+			9175,
+			9176,
+			9177,
+			9178,
+			9179,
+			9180,
+			9181,
+			9182,
+			9183,
+			9184,
+			9185,
+			9186,
+			9187,
+			9188
+		}
+	}
+	pg.base.activity_ins_chat_group[306] = {
+		ship_group = 20403,
+		name = "放慢舞步",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
+		id = 306,
+		trigger_param = "100",
+		trigger_type = 2,
+		content = {
+			9189,
+			9190,
+			9191,
+			9192,
+			9193,
+			9194,
+			9195,
+			9196,
+			9197,
+			9198,
+			9199,
+			9200,
+			9201,
+			9202,
+			9203,
+			9204,
+			9205,
+			9206,
+			9207,
+			9208,
+			9209,
+			9210,
+			9211,
+			9212,
+			9213
+		}
+	}
+	pg.base.activity_ins_chat_group[307] = {
+		ship_group = 20403,
+		name = "別樣的品嚐",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
+		id = 307,
+		trigger_param = "150",
+		trigger_type = 2,
+		content = {
+			9214,
+			9215,
+			9216,
+			9217,
+			9218,
+			9219,
+			9220,
+			9221,
+			9222,
+			9223,
+			9224,
+			9225,
+			9226,
+			9227,
+			9228,
+			9229,
+			9230,
+			9231,
+			9232,
+			9233,
+			9234,
+			9235,
+			9236,
+			9237,
+			9238,
+			9239
 		}
 	}
 end)()

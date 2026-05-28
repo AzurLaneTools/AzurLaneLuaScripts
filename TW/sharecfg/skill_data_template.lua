@@ -386,6 +386,7 @@ pg.skill_data_template.all = {
 	61070,
 	61080,
 	61090,
+	61100,
 	7000,
 	9010,
 	9020,
@@ -2810,6 +2811,12 @@ pg.skill_data_template.all = {
 	802042,
 	802045,
 	802047,
+	802050,
+	802060,
+	802071,
+	802072,
+	802075,
+	802077,
 	802080,
 	802090,
 	802101,
@@ -13681,6 +13688,20 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+	pg.base.skill_data_template[61100] = {
+		desc_get = "",
+		name = "「審判號」啟動鑰匙",
+		type = 0,
+		max_level = 0,
+		desc = "戰鬥開始後，20秒內所有艦隊成員航速增加2，受到的傷害減少2%",
+		id = 61100,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
 	pg.base.skill_data_template[7000] = {
 		desc_get = "",
 		name = "萊茵演習",
@@ -14473,6 +14494,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[9709] = {
 		desc_get = "",
 		name = "雷达缩圈效果",
@@ -14487,8 +14510,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[9711] = {
 		desc_get = "",
 		name = "布里之誓·purin",
@@ -21739,6 +21760,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[10970] = {
 		desc_get = "",
 		name = "好鬥的瑪麗",
@@ -21845,8 +21868,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[10980] = {
 		desc_get = "",
 		name = "對空掩護",
@@ -30167,6 +30188,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[11960] = {
 		desc_get = "",
 		name = "峽灣之星",
@@ -30228,8 +30251,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[11970] = {
 		desc_get = "",
 		name = "戰意提升",
@@ -39640,6 +39661,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[13030] = {
 		desc_get = "",
 		name = "北聯的狂放",
@@ -39701,8 +39724,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[13040] = {
 		desc_get = "",
 		name = "Mercury Memorial",
@@ -49360,6 +49381,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[14030] = {
 		desc_get = "",
 		name = "迴轉的Ontology",
@@ -49421,8 +49444,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[14040] = {
 		desc_get = "",
 		name = "閃耀的Protorogia",
@@ -60700,6 +60721,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[15030] = {
 		desc_get = "",
 		name = "攻守有度",
@@ -60806,8 +60829,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[15040] = {
 		desc_get = "",
 		name = "這...這只是意外！",
@@ -72587,6 +72608,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[16040] = {
 		desc_get = "",
 		name = "舞櫻刃豪",
@@ -72783,8 +72806,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[16050] = {
 		desc_get = "",
 		name = "公方之護",
@@ -84124,6 +84145,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[17050] = {
 		desc_get = "",
 		name = "蕩滌諸惡跨隊BUFFID佔用",
@@ -84138,8 +84161,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[17060] = {
 		desc_get = "",
 		name = "結緣同行",
@@ -95139,6 +95160,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[150120] = {
 		desc_get = "",
 		name = "試演的交響曲",
@@ -95236,8 +95259,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[150130] = {
 		desc_get = "",
 		name = "稚聲的合奏歌",
@@ -106742,6 +106763,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[151100] = {
 		desc_get = "",
 		name = "天才直感",
@@ -106839,8 +106862,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[151110] = {
 		desc_get = "",
 		name = "瘋狂科學家模式,on！",
@@ -118586,6 +118607,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[152070] = {
 		desc_get = "",
 		name = "我能解決！",
@@ -118647,8 +118670,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[152100] = {
 		desc_get = "",
 		name = "原子機心",
@@ -128529,6 +128550,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[19510] = {
 		desc_get = "",
 		name = "開拓與探險之途",
@@ -128671,8 +128694,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[19520] = {
 		desc_get = "",
 		name = "開拓與探險之途-跨隊效果ID佔位",
@@ -135129,6 +135150,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[20322] = {
 		desc_get = "",
 		name = "全彈發射II",
@@ -135143,8 +135166,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[21011] = {
 		desc_get = "",
 		name = "全彈發射I",
@@ -136531,6 +136552,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[22411] = {
 		desc_get = "",
 		name = "全彈發射I",
@@ -136545,8 +136568,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[22412] = {
 		desc_get = "",
 		name = "全彈發射II",
@@ -137933,6 +137954,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[28231] = {
 		desc_get = "",
 		name = "全彈發射I",
@@ -137947,8 +137970,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[28232] = {
 		desc_get = "",
 		name = "全彈發射II",
@@ -139339,6 +139360,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29412] = {
 		desc_get = "",
 		name = "專屬彈幕-惡毒II",
@@ -139353,8 +139376,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29421] = {
 		desc_get = "",
 		name = "專屬彈幕-伊168I",
@@ -140745,6 +140766,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29932] = {
 		desc_get = "",
 		name = "專屬彈幕-{namecode:226}II",
@@ -140759,8 +140782,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29941] = {
 		desc_get = "",
 		name = "專屬彈幕-{namecode:225}I",
@@ -142147,6 +142168,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[30452] = {
 		desc_get = "",
 		name = "專屬彈幕-小安克拉治II",
@@ -142161,8 +142184,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[30461] = {
 		desc_get = "",
 		name = "專屬彈幕-克麗奧佩脫拉I",
@@ -148679,6 +148700,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[106220] = {
 		desc_get = "",
 		name = "必殺☆翠雀",
@@ -148693,8 +148716,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[106230] = {
 		desc_get = "",
 		name = "琉璃光",
@@ -157113,6 +157134,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[109040] = {
 		desc_get = "",
 		name = "北斗七星 +",
@@ -157219,8 +157242,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[109050] = {
 		desc_get = "",
 		name = "冰結百合",
@@ -166195,6 +166216,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[112240] = {
 		desc_get = "",
 		name = "快速射擊 +",
@@ -166292,8 +166315,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[112250] = {
 		desc_get = "",
 		name = "無限精力",
@@ -172785,6 +172806,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800332] = {
 		desc_get = "",
 		name = "破敵之炬·{namecode:86}II",
@@ -172801,8 +172824,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800335] = {
 		desc_get = "",
 		name = "破敵之炬·{namecode:86}I",
@@ -177705,6 +177726,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800882] = {
 		desc_get = "",
 		name = "逐光之焰·阿爾及利亞II",
@@ -177721,8 +177744,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800885] = {
 		desc_get = "",
 		name = "逐光之焰·阿爾及利亞I",
@@ -183159,6 +183180,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[801427] = {
 		desc_get = "",
 		name = "逐光之焰·{namecode:71}II",
@@ -183175,8 +183198,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[801430] = {
 		desc_get = "",
 		name = "傾聽破滅之音",
@@ -188252,6 +188273,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[802010] = {
 		desc_get = "",
 		name = "久經戰場的騎士",
@@ -188349,8 +188372,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[802020] = {
 		desc_get = "",
 		name = "毀滅號令",
@@ -188710,6 +188731,318 @@ end)()
 		id = 802047,
 		system_transform = {
 			[51.0] = 802047
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[802050] = {
+		desc_get = "",
+		name = "熾熱裝彈",
+		type = 1,
+		max_level = 10,
+		desc = "戰鬥中自身主炮開火時，額外觸發一輪特殊攻擊$1(威力依據炮擊屬性及技能等級)，特殊攻擊對命中的敵方單位造成6秒破甲效果",
+		id = 802050,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[802060] = {
+		desc_get = "",
+		name = "守衛之槍",
+		type = 2,
+		max_level = 10,
+		desc = "戰鬥中自身炮擊、命中屬性提高$1；自身裝備的魚雷武器第三次開火前，自身造成的傷害提高$2，受到的傷害降低$3，效果失效時，恢復當前艦隊耐久百分比最低的角色$4耐久",
+		id = 802060,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"3.5%",
+				"8.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[802071] = {
+		desc_get = "",
+		name = "逐光之焰·龍騎兵I",
+		type = 1,
+		max_level = 1,
+		desc = "主炮每進行15次攻擊，觸發一輪特殊彈幕I",
+		id = 802071,
+		system_transform = {
+			[51.0] = 802075
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[802072] = {
+		desc_get = "",
+		name = "逐光之焰·龍騎兵II",
+		type = 1,
+		max_level = 1,
+		desc = "主炮每進行10次攻擊，觸發一輪特殊彈幕II",
+		id = 802072,
+		system_transform = {
+			[51.0] = 802077
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[802075] = {
+		desc_get = "",
+		name = "逐光之焰·龍騎兵I",
+		type = 1,
+		max_level = 1,
+		desc = "【大型作戰效果】\n主炮每進行15次攻擊，觸發一輪特殊彈幕I，與精英艦隊或BOSS艦隊交戰時，自身受到的所有傷害降低2%",
+		id = 802075,
+		system_transform = {
+			[51.0] = 802075
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[802077] = {
+		desc_get = "",
+		name = "逐光之焰·龍騎兵II",
+		type = 1,
+		max_level = 1,
+		desc = "【大型作戰效果】\n主炮每進行10次攻擊，觸發一輪特殊彈幕II，與精英艦隊或BOSS艦隊交戰時，自身受到的所有傷害降低6%",
+		id = 802077,
+		system_transform = {
+			[51.0] = 802077
 		},
 		world_death_mark = {
 			1
@@ -194728,6 +195061,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1012160] = {
 		desc_get = "",
 		name = "日不落的輝光 +",
@@ -195544,8 +195879,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1005080] = {
 		desc_get = "",
 		name = "騎士之劍 +",

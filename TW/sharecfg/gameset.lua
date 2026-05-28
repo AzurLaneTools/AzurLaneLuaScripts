@@ -350,7 +350,7 @@ pg.base.gameset = {}
 	}
 	pg.base.gameset.activity_res_id = {
 		description = "",
-		key_value = 458
+		key_value = 470
 	}
 	pg.base.gameset.activity_lottery_rewards = {
 		key_value = 0,
@@ -1967,7 +1967,7 @@ end)()
 	}
 	pg.base.gameset.skin_ticket = {
 		description = "",
-		key_value = 659
+		key_value = 471
 	}
 	pg.base.gameset.order_pt_max = {
 		key_value = 0,
@@ -4109,5 +4109,9 @@ end)()
 	pg.base.gameset.world_tip_last = {
 		description = "2",
 		key_value = 2
+	}
+	pg.base.gameset.exchangecode_ios_on = {
+		description = "",
+		key_value = 0
 	}
 end)()

@@ -3529,6 +3529,11 @@ pg.skill_data_display.all = {
 	802042,
 	802045,
 	802047,
+	802051,
+	802071,
+	802072,
+	802075,
+	802077,
 	902201,
 	1010140,
 	1010143,
@@ -18186,6 +18191,26 @@ end)()
 		id = 802047,
 		name = "破敵之炬·克里夫蘭II"
 	}
+	pg.base.skill_data_display[802051] = {
+		id = 802051,
+		name = "熾熱裝彈"
+	}
+	pg.base.skill_data_display[802071] = {
+		id = 802071,
+		name = "逐光之焰·龍騎兵I"
+	}
+	pg.base.skill_data_display[802072] = {
+		id = 802072,
+		name = "逐光之焰·龍騎兵II"
+	}
+	pg.base.skill_data_display[802075] = {
+		id = 802075,
+		name = "逐光之焰·龍騎兵I"
+	}
+	pg.base.skill_data_display[802077] = {
+		id = 802077,
+		name = "逐光之焰·龍騎兵II"
+	}
 	pg.base.skill_data_display[902201] = {
 		id = 902201,
 		name = "幻想之環"
@@ -18466,6 +18491,8 @@ end)()
 		id = 200347,
 		name = "愛麗絲之怒"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[200348] = {
 		id = 200348,
 		name = "聽其言"
@@ -18486,8 +18513,6 @@ end)()
 		id = 200353,
 		name = "~Incarnation Of Conquest~"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[200354] = {
 		id = 200354,
 		name = "~Incarnation Of Slaughter~"
@@ -18868,6 +18893,8 @@ end)()
 		id = 200992,
 		name = "凍雨打擊支援"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[201025] = {
 		id = 201025,
 		name = "靜海驚雷"
@@ -18888,8 +18915,6 @@ end)()
 		id = 201092,
 		name = "世界切片-蒼紅"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[201093] = {
 		id = 201093,
 		name = "世界切片-蒼紅"
@@ -19270,6 +19295,8 @@ end)()
 		id = 1011500,
 		name = "鳶尾之光 +"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1011501] = {
 		id = 1011501,
 		name = "鳶尾之光 +"
@@ -19290,8 +19317,6 @@ end)()
 		id = 1011711,
 		name = "杜爾拉汗 +"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1011360] = {
 		id = 1011360,
 		name = "塔薩法隆格逆襲 +"
@@ -19672,6 +19697,8 @@ end)()
 		id = 1012482,
 		name = "BALTIMORE!!!!!"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1010881] = {
 		id = 1010881,
 		name = "LuckyLou +"
@@ -19692,8 +19719,6 @@ end)()
 		id = 1014341,
 		name = "荣光的紫焰 +"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1010720] = {
 		id = 1010720,
 		name = "守卫之盾 +"
@@ -20074,6 +20099,8 @@ end)()
 		id = 1090405,
 		name = "火力全開·{namecode:423}"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1090406] = {
 		id = 1090406,
 		name = "火力全開·{namecode:423}"
@@ -20094,8 +20121,6 @@ end)()
 		id = 1090410,
 		name = "战术记录:噬啮之颚"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1090420] = {
 		id = 1090420,
 		name = "火力全开·威严"

@@ -43,12 +43,8 @@ slot0.GenPool = function(slot0, slot1)
 
 			slot1:getAssetAsync("ui/" .. uv0, "", typeof(Object), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 				if uv0.exited then
-					Object.Destroy(slot0)
-
 					return
 				end
-
-				table.insert(uv0.goList, slot0)
 
 				uv0.pools[uv3] = CourtYardPool.New(uv4, Object.Instantiate(slot0), unpack(uv1[uv2]))
 
@@ -63,12 +59,8 @@ slot0.GenPool = function(slot0, slot1)
 
 			slot1:getAssetAsync("Effect/" .. uv0, "", typeof(Object), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 				if uv0.exited then
-					Object.Destroy(slot0)
-
 					return
 				end
-
-				table.insert(uv0.goList, slot0)
 
 				uv0.pools[uv1] = CourtYardEffectPool.New(uv2, Object.Instantiate(slot0), 0, 3)
 
@@ -128,11 +120,6 @@ slot0.Dispose = function(slot0)
 	end
 
 	slot0.pools = nil
-
-	for slot4, slot5 in ipairs(slot0.goList) do
-		Object.Destroy(slot5)
-	end
-
 	slot0.goList = nil
 	slot0.exited = true
 end

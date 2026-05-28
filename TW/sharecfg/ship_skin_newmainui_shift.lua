@@ -160,6 +160,7 @@ pg.ship_skin_newmainui_shift.all = {
 	302291,
 	307172,
 	702013,
+	401522,
 	10600101,
 	10600111,
 	10600121,
@@ -7647,6 +7648,54 @@ end)()
 			0,
 			1,
 			302.24
+		}
+	}
+	pg.base.ship_skin_newmainui_shift[401522] = {
+		skin = 401522,
+		skin_shift = {
+			-222,
+			0,
+			0,
+			1
+		},
+		l2d_shift = {
+			0,
+			0,
+			0,
+			1
+		},
+		spine_shift = {
+			0,
+			0,
+			0,
+			1
+		},
+		battle_result_display_shift = {
+			0,
+			0,
+			0,
+			1,
+			0
+		},
+		skin_shop_shift = {
+			0,
+			0,
+			0,
+			1
+		},
+		formation_shift = {
+			0,
+			0,
+			0,
+			1,
+			0
+		},
+		skin_card_shift = {
+			0,
+			0,
+			0,
+			1,
+			0
 		}
 	}
 	pg.base.ship_skin_newmainui_shift[10600101] = {

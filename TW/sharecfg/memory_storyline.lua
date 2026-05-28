@@ -96,7 +96,8 @@ pg.memory_storyline.all = {
 	91,
 	92,
 	93,
-	94
+	94,
+	95
 }
 pg.base = pg.base or {}
 pg.base.memory_storyline = {}
@@ -2516,10 +2517,37 @@ pg.base.memory_storyline = {}
 			7
 		},
 		link_event = {
-			94
+			94,
+			95
 		}
 	}
 	pg.base.memory_storyline[94] = {
+		description = "衰敗的土地、垮塌的城堡、無光的白晝、凌冽的寒風……\n逐次浮現的灰點之中，你看到了什麼？",
+		name = "灰點預兆",
+		column = 59,
+		world_id = "",
+		bgm = "battle-pacific",
+		row = -1,
+		chapter = 5,
+		memory_lock = 0,
+		id = 94,
+		icon = "InterludeOne_1",
+		sort = 1,
+		memory_id = {
+			1,
+			363
+		},
+		shipnation = {
+			1,
+			10,
+			4,
+			7
+		},
+		link_event = {
+			95
+		}
+	}
+	pg.base.memory_storyline[95] = {
 		description = "敬請期待",
 		name = "敬請期待",
 		shipnation = 0,
@@ -2531,7 +2559,7 @@ pg.base.memory_storyline = {}
 		row = 0,
 		chapter = 0,
 		memory_lock = 1,
-		id = 94,
+		id = 95,
 		icon = "",
 		sort = 0
 	}

@@ -270,7 +270,18 @@ temp = function()
 		},
 		["騎"] = {
 			["兵"] = {
-				this = true
+				this = true,
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}

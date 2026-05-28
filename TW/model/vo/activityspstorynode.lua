@@ -52,8 +52,9 @@ slot0.GetPreEvent = function(slot0)
 end
 
 slot0.CONDITION = {
-	PRE_OPTION = 5,
+	TASK_FINISHED = 6,
 	PRE_PASSED = 4,
+	PRE_OPTION = 5,
 	PASSCHAPTER = 2,
 	PT = 3,
 	TIME = 1

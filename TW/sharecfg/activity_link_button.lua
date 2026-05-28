@@ -33,7 +33,9 @@ pg.activity_link_button.all = {
 	112,
 	113,
 	114,
-	115
+	115,
+	116,
+	121
 }
 pg.activity_link_button.get_id_list_by_name = {
 	event_Atelier = {
@@ -64,7 +66,8 @@ pg.activity_link_button.get_id_list_by_name = {
 	},
 	event_core = {
 		109,
-		114
+		114,
+		116
 	},
 	event_core_2 = {
 		110,
@@ -84,7 +87,8 @@ pg.activity_link_button.get_id_list_by_name = {
 		104
 	},
 	event_map = {
-		10
+		10,
+		121
 	},
 	event_map_2 = {
 		111
@@ -123,7 +127,7 @@ pg.base.activity_link_button = {}
 
 (function ()
 	pg.base.activity_link_button[1] = {
-		param = "5749",
+		param = "5802",
 		name = "event_all",
 		text_pic = "text_event_all",
 		type = 3,
@@ -133,7 +137,7 @@ pg.base.activity_link_button = {}
 		order = 1,
 		time = {
 			"default",
-			5749
+			5802
 		}
 	}
 	pg.base.activity_link_button[2] = {
@@ -159,7 +163,7 @@ pg.base.activity_link_button = {}
 		order = 99
 	}
 	pg.base.activity_link_button[10] = {
-		param = "",
+		param = "5802",
 		name = "event_map",
 		text_pic = "text_event_map",
 		type = 0,
@@ -169,7 +173,7 @@ pg.base.activity_link_button = {}
 		order = 1,
 		time = {
 			"default",
-			5749
+			5802
 		}
 	}
 	pg.base.activity_link_button[11] = {
@@ -546,17 +550,45 @@ pg.base.activity_link_button = {}
 		}
 	}
 	pg.base.activity_link_button[115] = {
-		param = "DOACoreActivityUI",
+		param = "OutPostCoreActivityUI",
 		name = "event_core_2",
-		text_pic = "text_event_core3",
+		text_pic = "text_event_core2",
 		type = 16,
-		pic = "event_DOA3",
+		pic = "event_core2",
 		id = 115,
 		group_id = 1,
 		order = 1,
 		time = {
 			"default",
-			6031
+			51005
+		}
+	}
+	pg.base.activity_link_button[116] = {
+		param = "HolidayCoreActivityUI",
+		name = "event_core",
+		text_pic = "text_event_core3",
+		type = 16,
+		pic = "event_core3",
+		id = 116,
+		group_id = 1,
+		order = 1,
+		time = {
+			"default",
+			51001
+		}
+	}
+	pg.base.activity_link_button[121] = {
+		param = "",
+		name = "event_map",
+		text_pic = "text_event_map",
+		type = 0,
+		pic = "event_map2",
+		id = 121,
+		group_id = 2,
+		order = 2,
+		time = {
+			"default",
+			50825
 		}
 	}
 end)()

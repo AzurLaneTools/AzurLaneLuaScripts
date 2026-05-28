@@ -162762,8 +162762,8 @@ _G.pg.base.item_virtual_data_statistics[59359] = {
 
 _G.pg.base.item_virtual_data_statistics[59360] = {
 	drop_gold_max = 0,
-	name = "扩展兵装仓库",
-	display = "扩展兵装仓库10格",
+	name = "擴充兵裝倉庫",
+	display = "擴充兵裝倉庫10格",
 	type = 98,
 	is_world = 0,
 	shop_id = -1,
@@ -176098,6 +176098,84 @@ _G.pg.base.item_virtual_data_statistics[65074] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65076] = {
+	drop_gold_max = 0,
+	name = "PT點數",
+	display = "遠匯點作戰復刻PT",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/bulvxieer_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65076,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65077] = {
+	drop_gold_max = 0,
+	name = "換裝體驗券",
+	display = "限時換裝商店體驗券",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65077,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65078] = {
+	drop_gold_max = 0,
+	name = "單次建造券",
+	display = "遠匯點作戰復刻活動單抽券",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5799,
+	album_config = "",
+	icon = "Props/buildTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 22,
+	id = 65078,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65079] = {
 	drop_gold_max = 0,
 	name = "訓練點數",
@@ -176558,6 +176636,32 @@ _G.pg.base.item_virtual_data_statistics[65112] = {
 	drop_oil_max = 0,
 	virtual_type = 29,
 	id = 65112,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65113] = {
+	drop_gold_max = 0,
+	name = "巡游点数",
+	display = "参与「世界巡游」获得的点数，累计一定程度可以领取奖励，活动结束后将会消失 ",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 7027,
+	album_config = "",
+	icon = "props/battlepass_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 21,
+	id = 65113,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -184187,6 +184291,32 @@ _G.pg.base.item_virtual_data_statistics[66022] = {
 	drop_oil_max = 0,
 	virtual_type = 17,
 	id = 66022,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66031] = {
+	drop_gold_max = 0,
+	name = "訓練點數",
+	display = "用於頭像框活動兌換，活動結束後將會消失",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/xunliandianshu_260514",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66031,
 	display_icon = {},
 	price = {},
 	index = {},

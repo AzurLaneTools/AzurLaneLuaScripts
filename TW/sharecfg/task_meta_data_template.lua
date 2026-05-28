@@ -339,6 +339,11 @@ pg.task_meta_data_template.all = {
 	100503,
 	100504,
 	100505,
+	100511,
+	100512,
+	100513,
+	100514,
+	100515,
 	100521,
 	100522,
 	100523,
@@ -504,6 +509,10 @@ pg.task_meta_data_template.all = {
 	200412,
 	200413,
 	200414,
+	200421,
+	200422,
+	200423,
+	200424,
 	200431,
 	200432,
 	200433,
@@ -3199,6 +3208,46 @@ end)()
 		target_num = 1,
 		desc = "使用克里夫蘭·META擊破等級＞100的敵方1次"
 	}
+	pg.base.task_meta_data_template[100511] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970111",
+		id = 100511,
+		target_num = 1,
+		desc = "使用龍騎兵·META獲得1次勝利"
+	}
+	pg.base.task_meta_data_template[100512] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970111",
+		id = 100512,
+		target_num = 1,
+		desc = "使用龍騎兵·META擊破等級＞30的敵方1次"
+	}
+	pg.base.task_meta_data_template[100513] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970111",
+		id = 100513,
+		target_num = 1,
+		desc = "使用龍騎兵·META擊破等級＞55的敵方1次"
+	}
+	pg.base.task_meta_data_template[100514] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970111",
+		id = 100514,
+		target_num = 1,
+		desc = "使用龍騎兵·META擊破等級＞80的敵方1次"
+	}
+	pg.base.task_meta_data_template[100515] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970111",
+		id = 100515,
+		target_num = 1,
+		desc = "使用龍騎兵·META擊破等級＞100的敵方1次"
+	}
 	pg.base.task_meta_data_template[100521] = {
 		target_id = "0",
 		sub_type = 180,
@@ -3679,6 +3728,8 @@ end)()
 		target_num = 1,
 		desc = "大型作戰內使用基洛夫·META擊破等級＞90的敵方1次"
 	}
+end)()
+(function ()
 	pg.base.task_meta_data_template[200144] = {
 		target_id = "100",
 		sub_type = 302,
@@ -3719,8 +3770,6 @@ end)()
 		target_num = 1,
 		desc = "大型作戰內使用金伯利·META擊破等級＞100的敵方1次"
 	}
-end)()
-(function ()
 	pg.base.task_meta_data_template[200161] = {
 		target_id = "0",
 		sub_type = 302,
@@ -4481,6 +4530,8 @@ end)()
 		target_num = 1,
 		desc = "大型作戰內使用{namecode:551}擊破等級＞90的敵方1次"
 	}
+end)()
+(function ()
 	pg.base.task_meta_data_template[200394] = {
 		target_id = "100",
 		sub_type = 302,
@@ -4521,8 +4572,38 @@ end)()
 		target_num = 1,
 		desc = "大型作戰內使用克里夫蘭·META擊破等級＞100的敵方1次"
 	}
-end)()
-(function ()
+	pg.base.task_meta_data_template[200421] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970111",
+		id = 200421,
+		target_num = 1,
+		desc = "大型作戰內使用龍騎兵·META獲得1次勝利"
+	}
+	pg.base.task_meta_data_template[200422] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970111",
+		id = 200422,
+		target_num = 1,
+		desc = "大型作戰內使用龍騎兵·META擊破等級＞70的敵方1次"
+	}
+	pg.base.task_meta_data_template[200423] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970111",
+		id = 200423,
+		target_num = 1,
+		desc = "大型作戰內使用龍騎兵·META擊破等級＞90的敵方1次"
+	}
+	pg.base.task_meta_data_template[200424] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970111",
+		id = 200424,
+		target_num = 1,
+		desc = "大型作戰內使用龍騎兵·META擊破等級＞100的敵方1次"
+	}
 	pg.base.task_meta_data_template[200431] = {
 		target_id = "0",
 		sub_type = 302,

@@ -832,6 +832,7 @@ pg.ship_data_group.all = {
 	30052,
 	30053,
 	30055,
+	30056,
 	30057
 }
 pg.ship_data_group.get_id_list_by_group_type = {
@@ -2995,6 +2996,9 @@ pg.ship_data_group.get_id_list_by_group_type = {
 	[970110] = {
 		30052
 	},
+	[970111] = {
+		30056
+	},
 	[970201] = {
 		30003
 	},
@@ -4159,6 +4163,7 @@ pg.ship_data_group.get_id_list_by_handbook_type = {
 		30052,
 		30053,
 		30055,
+		30056,
 		30057
 	}
 }
@@ -37713,6 +37718,41 @@ end)()
 				"限時活動：響徹於天穹之音",
 				{
 					""
+				},
+				0
+			}
+		}
+	}
+	pg.base.ship_data_group[30056] = {
+		nationality = 97,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970111,
+		index_id = 30056,
+		code = 30056,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"D",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：世界巡遊",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9701111
+					}
 				},
 				0
 			}

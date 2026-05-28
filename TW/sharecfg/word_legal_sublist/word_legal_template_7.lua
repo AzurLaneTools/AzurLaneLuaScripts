@@ -397,7 +397,18 @@ temp()
 temp = function()
 	uv0["旗"] = {
 		["風"] = {
-			this = true
+			this = true,
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end

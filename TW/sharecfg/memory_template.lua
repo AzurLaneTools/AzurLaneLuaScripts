@@ -3838,6 +3838,18 @@ pg.memory_template.all = {
 	5105,
 	5106,
 	5107,
+	5121,
+	5122,
+	5123,
+	5124,
+	5125,
+	5126,
+	5127,
+	5131,
+	5132,
+	5133,
+	5134,
+	5135,
 	10011,
 	10012,
 	10013,
@@ -61620,6 +61632,186 @@ end)()
 			"SHANYAOHAIBINRICHANG7"
 		}
 	}
+	pg.base.memory_template[5121] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "第一次長假",
+		condition = "解鎖「灰點預兆」DAY1",
+		story = "HUIDIANYUZHAO1",
+		id = 5121,
+		icon = "memory_huidianyuzhao",
+		is_open = 0,
+		unlock_pre = {
+			"HUIDIANYUZHAO1"
+		}
+	}
+	pg.base.memory_template[5122] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "咫尺間的忽略",
+		condition = "解鎖「灰點預兆」DAY2",
+		story = "HUIDIANYUZHAO2",
+		id = 5122,
+		icon = "memory_huidianyuzhao",
+		is_open = 0,
+		unlock_pre = {
+			"HUIDIANYUZHAO2"
+		}
+	}
+	pg.base.memory_template[5123] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "藏於霧中",
+		condition = "解鎖「灰點預兆」DAY3 ",
+		story = "HUIDIANYUZHAO3",
+		id = 5123,
+		icon = "memory_huidianyuzhao",
+		is_open = 0,
+		unlock_pre = {
+			"HUIDIANYUZHAO3"
+		}
+	}
+	pg.base.memory_template[5124] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "預兆",
+		condition = "解鎖「灰點預兆」DAY4",
+		story = "HUIDIANYUZHAO4",
+		id = 5124,
+		icon = "memory_huidianyuzhao",
+		is_open = 0,
+		unlock_pre = {
+			"HUIDIANYUZHAO4"
+		}
+	}
+	pg.base.memory_template[5125] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "分析",
+		condition = "解鎖「灰點預兆」DAY5",
+		story = "HUIDIANYUZHAO5",
+		id = 5125,
+		icon = "memory_huidianyuzhao",
+		is_open = 0,
+		unlock_pre = {
+			"HUIDIANYUZHAO5"
+		}
+	}
+	pg.base.memory_template[5126] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "準備",
+		condition = "解鎖「灰點預兆」DAY6",
+		story = "HUIDIANYUZHAO6",
+		id = 5126,
+		icon = "memory_huidianyuzhao",
+		is_open = 0,
+		unlock_pre = {
+			"HUIDIANYUZHAO6"
+		}
+	}
+	pg.base.memory_template[5127] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "和聲",
+		condition = "解鎖「灰點預兆」DAY7",
+		story = "HUIDIANYUZHAO7",
+		id = 5127,
+		icon = "memory_huidianyuzhao",
+		is_open = 0,
+		unlock_pre = {
+			"HUIDIANYUZHAO7"
+		}
+	}
+	pg.base.memory_template[5131] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "圓桌上的神秘會議",
+		condition = "解鎖「向美好假日全速前進」DAY1",
+		story = "XIANGMEIHAOJIARIQUANSUQIANJIN1",
+		id = 5131,
+		icon = "memory_xiangmeihaojiariquansuqianjin",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGMEIHAOJIARIQUANSUQIANJIN1"
+		}
+	}
+	pg.base.memory_template[5132] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "假日心願徵集中！",
+		condition = "解鎖「向美好假日全速前進」DAY2",
+		story = "XIANGMEIHAOJIARIQUANSUQIANJIN2",
+		id = 5132,
+		icon = "memory_xiangmeihaojiariquansuqianjin",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGMEIHAOJIARIQUANSUQIANJIN2"
+		}
+	}
+	pg.base.memory_template[5133] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "吃飽了才有力氣出發",
+		condition = "解鎖「向美好假日全速前進」DAY3",
+		story = "XIANGMEIHAOJIARIQUANSUQIANJIN3",
+		id = 5133,
+		icon = "memory_xiangmeihaojiariquansuqianjin",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGMEIHAOJIARIQUANSUQIANJIN3"
+		}
+	}
+	pg.base.memory_template[5134] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "最重要的寶物！",
+		condition = "解鎖「向美好假日全速前進」DAY4",
+		story = "XIANGMEIHAOJIARIQUANSUQIANJIN4",
+		id = 5134,
+		icon = "memory_xiangmeihaojiariquansuqianjin",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGMEIHAOJIARIQUANSUQIANJIN4"
+		}
+	}
+	pg.base.memory_template[5135] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "滿載期待的假期航班",
+		condition = "解鎖「向美好假日全速前進」DAY5",
+		story = "XIANGMEIHAOJIARIQUANSUQIANJIN5",
+		id = 5135,
+		icon = "memory_xiangmeihaojiariquansuqianjin",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGMEIHAOJIARIQUANSUQIANJIN5"
+		}
+	}
 	pg.base.memory_template[10011] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -62430,6 +62622,8 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA16"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20016] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -62610,8 +62804,6 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA28"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20028] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -63932,6 +64124,8 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA35"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20116] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -64112,8 +64306,6 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA47"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20128] = {
 		mask = "bg/bg_memory",
 		subtitle = "",

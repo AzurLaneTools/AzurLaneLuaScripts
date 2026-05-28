@@ -192,6 +192,7 @@ pg.pay_data_display.all = {
 	4923,
 	4924,
 	4925,
+	4926,
 	5001,
 	5002,
 	5003,
@@ -19517,6 +19518,91 @@ end)()
 		limit_args = {},
 		drop_item = {}
 	}
+	pg.base.pay_data_display[4926] = {
+		picture = "battlepass_1",
+		name = "特許巡遊憑證（二十七期）",
+		type = 0,
+		second_text = "解鎖特許巡遊獎勵",
+		descrip = "可獲得1500巡遊點數，同時解鎖特許巡遊獎勵·Z47限定換裝和其他獎勵",
+		subject = "特許巡遊憑證",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 330,
+		descrip_extra = "*需要通過任務達成對應巡遊進度後才可獲取",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.battlepass27",
+		extra_gem = 0,
+		id = 4926,
+		airijp_id = "com.hkmanjuu.azurlane.battlepass27",
+		name_display = "特許巡遊憑證",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4027,
+				1500
+			},
+			{
+				8,
+				65108,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					6,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			45926,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	}
 	pg.base.pay_data_display[5001] = {
 		picture = "pack_day1",
 		name = "特賣禮包I",
@@ -20335,6 +20421,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.pay_data_display[5015] = {
 		picture = "pack_day5",
 		name = "特賣禮包V",
@@ -20418,8 +20506,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.pay_data_display[5016] = {
 		picture = "pack_day6",
 		name = "特賣禮包VI",

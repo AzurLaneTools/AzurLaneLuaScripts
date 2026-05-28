@@ -165,12 +165,14 @@ return {
 		{
 			types = {
 				Nation.FF,
+				Nation.MNF,
 				Nation.FR
 			}
 		},
 		{
 			types = {
 				Nation.FF,
+				Nation.MNF,
 				Nation.FR
 			}
 		},
