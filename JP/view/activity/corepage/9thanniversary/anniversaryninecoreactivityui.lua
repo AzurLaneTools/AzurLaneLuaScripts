@@ -1,4 +1,6 @@
 slot0 = class("AnniversaryNineCoreActivityUI", import("view.activity.CorePage.CoreAdaptActivityMainScene"))
+slot1 = "#a6beb7"
+slot2 = "#584E45"
 
 slot0.getUIName = function(slot0)
 	return "AnniversaryNineCoreActivityUI"
@@ -50,12 +52,36 @@ slot0.init = function(slot0, ...)
 							end
 
 							uv2 = uv1.id
+
+							if uv0:GetActivityClassName(uv1) == "AnniversaryNineHwahJahSkinPage" then
+								uv0:SetColorTab(uv4)
+							else
+								uv0:SetColorTab(uv5)
+							end
 						end
 					end, SFX_PANEL)
 				end
 			end
 		end
 	end)
+end
+
+slot0.SetColorTab = function(slot0, slot1)
+	for slot5 = 1, 7 do
+		setTextColor(slot0.tabs:Find(slot5 .. "/off/name"), Color.NewHex(slot1))
+	end
+end
+
+slot0.GetActivityClassName = function(slot0, slot1)
+	if not slot1 then
+		return nil
+	end
+
+	if type(slot1:getConfig("page_info")) == "table" then
+		return slot2.class_name
+	end
+
+	return nil
 end
 
 slot0.GetButtonNameText = function(slot0, slot1)

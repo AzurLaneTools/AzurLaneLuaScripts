@@ -53,11 +53,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "star_level_bg_146",
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 405071,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_146",
 			live2d = true,
-			side = 2,
 			say = "ゲッツに誘われ、彼女の言う体感型VRとやらを体験することになった。",
 			typewriter = {
 				speed = 0.05,

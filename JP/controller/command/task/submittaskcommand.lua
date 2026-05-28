@@ -176,12 +176,12 @@ slot0.CheckTaskType = function(slot0)
 		})
 	end
 
-	if slot0:getConfig("type") ~= 8 then
-		getProxy(TaskProxy):removeTask(slot0)
-	else
+	if slot0:getConfig("type") == 8 then
 		slot0.submitTime = 1
 
 		getProxy(TaskProxy):updateTask(slot0)
+	else
+		getProxy(TaskProxy):removeTask(slot0)
 	end
 end
 

@@ -324,7 +324,9 @@ slot0.OnUpdateStaffItem = function(slot0, slot1, slot2)
 		slot3 = slot0.cards[slot2]
 	end
 
-	slot3:Update(slot0.staffList[slot1 + 1], slot0.selIds, true)
+	slot3:Update(slot0.staffList[slot1 + 1], slot0.selIds, true, underscore.map(slot0.showAttrDatas, function (slot0)
+		return slot0.id
+	end))
 end
 
 slot0.willExit = function(slot0)

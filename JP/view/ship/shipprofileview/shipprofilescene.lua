@@ -267,16 +267,17 @@ end
 
 slot0.InitCommon = function(slot0)
 	slot0:LoadSkinBg(slot0.shipGroup:rarity2bgPrintForGet(slot0.showTrans))
-	setImageSprite(slot0.shipType, GetSpriteFromAtlas("shiptype", slot0.shipGroup:getShipType(slot0.showTrans)))
 
-	slot5 = slot0.showTrans
+	slot5 = slot0.shipGroup
+	slot6 = slot5
 
-	setScrollText(tf(slot0.labelName), slot0.shipGroup:getName(slot5))
+	setImageSprite(slot0.shipType, GetSpriteFromAtlas("shiptype", slot5.getShipType(slot6, slot0.showTrans)))
+	setScrollText(tf(slot0.labelName), slot0.shipGroup:getName(slot0.showTrans))
 
 	slot1 = slot0.shipGroup.shipConfig
 	slot0.labelEnName.text = slot1.english_name
 
-	for slot5 = 1, slot1.star do
+	for slot6 = 1, pg.ship_data_template[slot1.id].star_max do
 		cloneTplTo(slot0.star, slot0.stars)
 	end
 

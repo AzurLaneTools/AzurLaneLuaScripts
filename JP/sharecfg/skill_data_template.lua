@@ -1431,6 +1431,8 @@ pg.skill_data_template.all = {
 	152380,
 	152390,
 	152410,
+	152440,
+	152450,
 	18010,
 	18040,
 	18050,
@@ -1716,6 +1718,8 @@ pg.skill_data_template.all = {
 	22262,
 	22271,
 	22272,
+	22281,
+	22282,
 	22311,
 	22312,
 	22411,
@@ -2851,6 +2855,12 @@ pg.skill_data_template.all = {
 	802172,
 	802175,
 	802177,
+	802180,
+	802190,
+	802201,
+	802202,
+	802205,
+	802207,
 	802210,
 	802220,
 	802231,
@@ -121875,6 +121885,259 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+	pg.base.skill_data_template[152440] = {
+		desc_get = "",
+		name = "仙境雲遊の旅",
+		type = 1,
+		max_level = 10,
+		desc = "戦闘開始10秒後・その後20秒毎に、特殊弾幕$1を展開し（威力はスキルレベルによる）、10秒間自身の回避・対空が$2アップ。海域に出撃中、所属艦隊が敵艦隊を1個撃破する度に、自身が与えるダメージが$3アップ（最大3回分まで）",
+		id = 152440,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[152450] = {
+		desc_get = "",
+		name = "秘境奇珍の宝",
+		type = 3,
+		max_level = 10,
+		desc = [[
+戦闘開始時・戦闘中20秒毎に発動、下記の3つの効果からランダムで1つずつ発動させる：
+ ①自身の火力・装填・命中が$1アップ；
+ ②自身の魚雷兵装のクリティカル率が$1・クリティカルダメージが$2アップ；
+ ③自身の耐久が上限の$1分回復する；
+ 1つの効果が一度の戦闘では1回しか発動できず、3つの効果を全部発動した場合、この効果は発動しません]],
+		id = 152450,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	}
 	pg.base.skill_data_template[18010] = {
 		desc_get = "",
 		name = "MKV徹甲弾 +",
@@ -128825,6 +129088,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[19350] = {
 		desc_get = "",
 		name = "補助機構ゼッツアプリンシパル",
@@ -129118,8 +129383,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[19370] = {
 		desc_get = "",
 		name = "奥丁更换鱼雷弹幕形态效果ID占位",
@@ -136882,6 +137145,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[20222] = {
 		desc_get = "",
 		name = "全弾発射-ノーザンプトン級Ⅱ",
@@ -136910,8 +137175,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[20232] = {
 		desc_get = "",
 		name = "全弾発射-ポートランド級Ⅱ",
@@ -138284,6 +138547,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[22222] = {
 		desc_get = "",
 		name = "全弾発射-青葉型Ⅱ",
@@ -138312,8 +138577,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[22232] = {
 		desc_get = "",
 		name = "全弾発射-妙高型Ⅱ",
@@ -138475,6 +138738,34 @@ end)()
 		max_level = 1,
 		desc = "自身の主砲で6回攻撃する度に、全弾発射Ⅱ-伊吹型を行う",
 		id = 22272,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[22281] = {
+		desc_get = "",
+		name = "全弾発射Ⅰ",
+		type = 1,
+		max_level = 1,
+		desc = "主砲攻撃を12回行う度に、全弾発射-雲仙型Ⅰを展開する",
+		id = 22281,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[22282] = {
+		desc_get = "",
+		name = "全弾発射Ⅱ",
+		type = 1,
+		max_level = 1,
+		desc = "主砲攻撃を8回行う度に、全弾発射-雲仙型Ⅱを展開する",
+		id = 22282,
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -139658,6 +139949,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[26211] = {
 		desc_get = "",
 		name = "全弾発射-タリンⅠ",
@@ -139714,8 +140007,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[28011] = {
 		desc_get = "",
 		name = "全弾発射Ⅰ-ラドロア級Ⅰ",
@@ -141064,6 +141355,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29341] = {
 		desc_get = "",
 		name = "特殊弾幕-アルバコアI",
@@ -141120,8 +141413,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29362] = {
 		desc_get = "",
 		name = "特殊弾幕-シリアスII",
@@ -142470,6 +142761,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29852] = {
 		desc_get = "",
 		name = "特殊弾幕-ジャーヴィスⅡ",
@@ -142526,8 +142819,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29882] = {
 		desc_get = "",
 		name = "特殊弾幕-ランドンターブルⅡ",
@@ -143872,6 +144163,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[30382] = {
 		desc_get = "",
 		name = "特殊弾幕-ポーツマウス・アドベンチャーⅡ",
@@ -143928,8 +144221,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[30402] = {
 		desc_get = "",
 		name = "特殊弾幕-デュイスブルクⅡ",
@@ -149083,6 +149374,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[106060] = {
 		desc_get = "",
 		name = "霞鏡花",
@@ -149579,8 +149872,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[106100] = {
 		desc_get = "",
 		name = "ミステリーヴィーナス",
@@ -158333,6 +158624,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[108320] = {
 		desc_get = "",
 		name = "しっかりして！",
@@ -158573,8 +158866,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[108410] = {
 		desc_get = "",
 		name = "プライマルアクセプター",
@@ -166630,6 +166921,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[112040] = {
 		desc_get = "",
 		name = "★Rock Fire",
@@ -167088,8 +167381,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[112080] = {
 		desc_get = "",
 		name = "デッドリーピング",
@@ -173820,6 +174111,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800252] = {
 		desc_get = "",
 		name = "炬火の力-飛鷹Ⅱ",
@@ -173974,8 +174267,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800270] = {
 		desc_get = "",
 		name = "カイゼル・ウェーブ",
@@ -178695,6 +178986,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800811] = {
 		desc_get = "",
 		name = "揺灯の力-U-556Ⅰ",
@@ -178759,8 +179052,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800820] = {
 		desc_get = "",
 		name = "フレームチューニング・クラッシュ",
@@ -183811,6 +184102,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[801347] = {
 		desc_get = "",
 		name = "構造の理-霞Ⅱ",
@@ -184091,8 +184384,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[801381] = {
 		desc_get = "",
 		name = "湮滅の核・長門Ⅰ",
@@ -189329,6 +189620,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[801910] = {
 		desc_get = "",
 		name = "戦術補佐ですっ",
@@ -189573,8 +189866,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[801935] = {
 		desc_get = "",
 		name = "炬火の力-デューイⅠ",
@@ -192073,6 +192364,354 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+	pg.base.skill_data_template[802180] = {
+		desc_get = "",
+		name = "訓誡調教のムチ",
+		type = 3,
+		max_level = 10,
+		desc = "戦闘開始時、味方前衛艦隊の装填が$1アップ。海域に出撃時、自身が所属している艦隊が敵艦隊を1回撃破するごとに、自身の火力・雷装が$2アップ（最大3回分まで）。\n 戦闘中20秒毎に特殊弾幕$3を展開し（威力はスキルレベルによる）、特殊弾幕が命中した敵に10秒間【訓誡調教】を付与する。【訓誡調教】状態の敵が味方前衛艦隊から受けるダメージが$4アップ",
+		id = 802180,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"15.0%"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+0.5%"
+				},
+				{
+					"10.5%",
+					"+0.5%"
+				},
+				{
+					"11.0%",
+					"+0.5%"
+				},
+				{
+					"11.5%",
+					"+0.5%"
+				},
+				{
+					"12.0%",
+					"+0.5%"
+				},
+				{
+					"12.5%",
+					"+0.5%"
+				},
+				{
+					"13.0%",
+					"+0.5%"
+				},
+				{
+					"13.5%",
+					"+0.5%"
+				},
+				{
+					"14.0%",
+					"+1%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[802190] = {
+		desc_get = "",
+		name = "防護愛護マシン",
+		type = 2,
+		max_level = 10,
+		desc = "戦闘中15秒毎に発動、自身に8秒間持続し・敵弾を$1発まで無効にできるシールドを1枚生成する。このシールドの生成時に場に【訓誡調教】状態の敵がいる場合、さらにランダムな味方前衛艦隊メンバー1隻に、8秒持続し・その艦の耐久上限の$2分のダメージを無効にできるシールドを1枚生成する",
+		id = 802190,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"2",
+				"8"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"2"
+				},
+				{
+					"3"
+				},
+				{
+					"4"
+				},
+				{
+					"5"
+				},
+				{
+					"6"
+				},
+				{
+					"6"
+				},
+				{
+					"7"
+				},
+				{
+					"7"
+				},
+				{
+					"8"
+				},
+				{
+					"8"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[802201] = {
+		desc_get = "",
+		name = "焔追の灰-ケーニヒスベルクⅠ",
+		type = 1,
+		max_level = 1,
+		desc = "主砲攻撃を12回行う毎に、特殊弾幕Ⅰを展開する",
+		id = 802201,
+		system_transform = {
+			[51.0] = 802205
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[802202] = {
+		desc_get = "",
+		name = "焔追の灰-ケーニヒスベルクⅡ",
+		type = 1,
+		max_level = 1,
+		desc = "主砲攻撃を8回行う毎に、特殊弾幕Ⅱを展開する",
+		id = 802202,
+		system_transform = {
+			[51.0] = 802207
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[802205] = {
+		desc_get = "",
+		name = "焔追の灰-ケーニヒスベルクⅠ",
+		type = 1,
+		max_level = 1,
+		desc = "【セイレーン作戦】\n主砲攻撃を12回行う毎に、特殊弾幕Ⅰを展開する。人型セイレーン艦隊や敵中枢艦隊と交戦する時、自身が与えるダメージが2%アップ",
+		id = 802205,
+		system_transform = {
+			[51.0] = 802205
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[802207] = {
+		desc_get = "",
+		name = "焔追の灰-ケーニヒスベルクⅡ",
+		type = 1,
+		max_level = 1,
+		desc = "【セイレーン作戦】\n主砲攻撃を8回行う毎に、特殊弾幕Ⅱを展開する。人型セイレーン艦隊や敵中枢艦隊と交戦する時、自身が与えるダメージが5%アップ",
+		id = 802207,
+		system_transform = {
+			[51.0] = 802207
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
 	pg.base.skill_data_template[802210] = {
 		desc_get = "",
 		name = "エルベにおまかせですの！",
@@ -192817,6 +193456,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[902360] = {
 		desc_get = "",
 		name = "時は今極まれり",
@@ -193801,8 +194442,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1010730] = {
 		desc_get = "",
 		name = "鬼神 +",
@@ -205783,6 +206422,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1012640] = {
 		desc_get = "",
 		name = "サディアの威圧 +",
@@ -207389,8 +208030,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1019160] = {
 		desc_get = "",
 		name = "ヘビーバレル・バスター +",

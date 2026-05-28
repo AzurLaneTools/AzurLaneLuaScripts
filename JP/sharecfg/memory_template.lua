@@ -4160,6 +4160,7 @@ pg.memory_template.all = {
 	5202,
 	5203,
 	5204,
+	5211,
 	10000,
 	10001,
 	10002,
@@ -79356,6 +79357,24 @@ end)()
 			"SHEHUAXIANGMENGFUJINWAN24"
 		}
 	}
+	pg.base.memory_template[5211] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "若漆の輝き",
+		condition = "「若漆の輝き」を参加する",
+		story = "RUOQIZHIGUANG1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5211,
+		icon = "memory_ruoqizhiguang",
+		is_open = 0,
+		unlock_pre = {
+			"RUOQIZHIGUANG1"
+		}
+	}
 	pg.base.memory_template[10000] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80130,6 +80149,8 @@ end)()
 			"NEPU_DAILY7"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[10043] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80148,8 +80169,6 @@ end)()
 			"NEPU_STAGE101"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[10044] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81932,6 +81951,8 @@ end)()
 			"LINGHANGYUANTANXIN10"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20062] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81950,8 +81971,6 @@ end)()
 			"LINGHANGYUANTANXIN11"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20063] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83734,6 +83753,8 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA13"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20163] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83752,8 +83773,6 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA14"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20164] = {
 		ship_group = 0,
 		subtitle = "",

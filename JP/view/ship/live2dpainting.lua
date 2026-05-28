@@ -1004,11 +1004,21 @@ slot0.enablePlayAction = function(slot0, slot1)
 end
 
 slot0.IgonreReactPos = function(slot0, slot1)
+	slot0.lockReact = slot1
+
 	slot0:setReactPos(slot1)
 end
 
 slot0.setReactPos = function(slot0, slot1)
 	if slot0.liveCom then
+		if slot0.lockReact then
+			if slot0.ignoreReact == slot0.lockReact then
+				return
+			end
+
+			slot1 = slot0.lockReact
+		end
+
 		slot0.ignoreReact = slot1
 
 		slot0.liveCom:IgonreReactPos(slot1)

@@ -667,6 +667,7 @@ pg.activity_ins_ship_group_template.all = {
 	10995,
 	10107,
 	10139,
+	10138,
 	40815,
 	40114,
 	40115,
@@ -1491,7 +1492,7 @@ pg.base.activity_ins_ship_group_template = {}
 		ship_group = 30405,
 		name = "Amagi",
 		background = "",
-		sculpture = "tiancheng_cv_2",
+		sculpture = "tiancheng_cv_3",
 		nationality = 0,
 		type = 1,
 		sculpture_ii = ""
@@ -3720,7 +3721,7 @@ end)()
 		ship_group = 40207,
 		name = "Emden ",
 		background = "",
-		sculpture = "aimudeng_4",
+		sculpture = "aimudeng_5",
 		nationality = 0,
 		type = 1,
 		sculpture_ii = ""
@@ -3882,7 +3883,7 @@ end)()
 		ship_group = 49906,
 		name = "August.V.Parseval",
 		background = "",
-		sculpture = "aogusite",
+		sculpture = "aogusite_4",
 		nationality = 4,
 		type = 1,
 		sculpture_ii = ""
@@ -4116,7 +4117,7 @@ end)()
 		ship_group = 20135,
 		name = "Janus",
 		background = "",
-		sculpture = "yanusi_6",
+		sculpture = "yanusi_7",
 		nationality = 0,
 		type = 1,
 		sculpture_ii = ""
@@ -5081,7 +5082,7 @@ end)()
 		ship_group = 90107,
 		name = "Mogador",
 		background = "",
-		sculpture = "mojiaduoer_3",
+		sculpture = "mojiaduoer_4",
 		nationality = 9,
 		type = 1,
 		sculpture_ii = ""
@@ -6662,6 +6663,15 @@ end)()
 		background = "",
 		sculpture = "malani",
 		nationality = 1,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[10138] = {
+		ship_group = 10138,
+		name = "Kimberly",
+		background = "",
+		sculpture = "jinboli",
+		nationality = 0,
 		type = 1,
 		sculpture_ii = ""
 	}

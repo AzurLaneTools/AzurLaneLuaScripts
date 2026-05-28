@@ -2019,6 +2019,9 @@ pg.skill_data_display.all = {
 	152383,
 	152391,
 	152412,
+	152441,
+	152451,
+	152452,
 	18010,
 	18040,
 	18041,
@@ -3549,6 +3552,14 @@ pg.skill_data_display.all = {
 	802121,
 	802131,
 	802132,
+	802181,
+	802182,
+	802183,
+	802191,
+	802201,
+	802202,
+	802205,
+	802207,
 	802141,
 	802142,
 	802145,
@@ -12189,6 +12200,18 @@ end)()
 		id = 152412,
 		name = "血の契りは燃やし尽くさん"
 	}
+	pg.base.skill_data_display[152441] = {
+		id = 152441,
+		name = "仙境雲遊の旅"
+	}
+	pg.base.skill_data_display[152451] = {
+		id = 152451,
+		name = "秘境奇珍の宝"
+	}
+	pg.base.skill_data_display[152452] = {
+		id = 152452,
+		name = "秘境奇珍の宝"
+	}
 	pg.base.skill_data_display[18010] = {
 		id = 18010,
 		name = "MKV徹甲弾 +"
@@ -12517,6 +12540,8 @@ end)()
 		id = 19060,
 		name = "雷刃一閃"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[19070] = {
 		id = 19070,
 		name = "神話伝承"
@@ -12529,8 +12554,6 @@ end)()
 		id = 19090,
 		name = "熟練装填要員"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[19091] = {
 		id = 19091,
 		name = "熟練装填要員"
@@ -12919,6 +12942,8 @@ end)()
 		id = 19520,
 		name = "半分は頑張ってさしあげますわっ！"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[19521] = {
 		id = 19521,
 		name = "半分は頑張ってさしあげますわっ！"
@@ -12931,8 +12956,6 @@ end)()
 		id = 19530,
 		name = "歓喜のグリーミングライト"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[19540] = {
 		id = 19540,
 		name = "聡明のリンギングミスト"
@@ -13321,6 +13344,8 @@ end)()
 		id = 20062,
 		name = "全弾発射-ベンソン級Ⅱ"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[20071] = {
 		id = 20071,
 		name = "全弾発射-ギアリング級Ⅰ"
@@ -13333,8 +13358,6 @@ end)()
 		id = 20081,
 		name = "全弾発射-アレン・M・サムナー級Ⅰ"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[20082] = {
 		id = 20082,
 		name = "全弾発射-アレン・M・サムナー級Ⅱ"
@@ -13723,6 +13746,8 @@ end)()
 		id = 22161,
 		name = "全弾発射-夕張型Ⅰ"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[22162] = {
 		id = 22162,
 		name = "全弾発射-夕張型Ⅱ"
@@ -13735,8 +13760,6 @@ end)()
 		id = 22212,
 		name = "全弾発射-古鷹型Ⅱ"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[22221] = {
 		id = 22221,
 		name = "全弾発射-青葉型Ⅰ"
@@ -14125,6 +14148,8 @@ end)()
 		id = 28272,
 		name = "全弾発射Ⅱ"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[28281] = {
 		id = 28281,
 		name = "全弾発射Ⅰ"
@@ -14137,8 +14162,6 @@ end)()
 		id = 250211,
 		name = "全弾発射Ⅰ"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[250212] = {
 		id = 250212,
 		name = "全弾発射Ⅱ"
@@ -14527,6 +14550,8 @@ end)()
 		id = 29502,
 		name = "特殊弾幕-タシュケントII"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[29511] = {
 		id = 29511,
 		name = "特殊弾幕-チャパエフI"
@@ -14539,8 +14564,6 @@ end)()
 		id = 29521,
 		name = "特殊弾幕-リノI"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[29523] = {
 		id = 29523,
 		name = "特殊弾幕-リノI"
@@ -14929,6 +14952,8 @@ end)()
 		id = 30512,
 		name = "特殊弾幕-ル・アルディⅡ"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[30571] = {
 		id = 30571,
 		name = "特殊弾幕-藤波Ⅰ"
@@ -14941,8 +14966,6 @@ end)()
 		id = 30581,
 		name = "特殊弾幕-オゾルノイⅠ"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[30582] = {
 		id = 30582,
 		name = "特殊弾幕-オゾルノイⅡ"
@@ -15331,6 +15354,8 @@ end)()
 		id = 105140,
 		name = "野性デュアリズム"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[105141] = {
 		id = 105141,
 		name = "野性デュアリズム"
@@ -15343,8 +15368,6 @@ end)()
 		id = 105151,
 		name = "AA UP!"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[105152] = {
 		id = 105152,
 		name = "RLD UP!"
@@ -15733,6 +15756,8 @@ end)()
 		id = 106554,
 		name = "百発百中+"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[106559] = {
 		id = 106559,
 		name = "百発百中+"
@@ -15745,8 +15770,6 @@ end)()
 		id = 106580,
 		name = "インパクトのある構図+"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[106590] = {
 		id = 106590,
 		name = "インドア派のくつろぎ時間"
@@ -16135,6 +16158,8 @@ end)()
 		id = 109070,
 		name = "コアドライブ-テスタメントメテオ"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[109080] = {
 		id = 109080,
 		name = "コアドライブ-テスタメントメテオ"
@@ -16147,8 +16172,6 @@ end)()
 		id = 109090,
 		name = "紅焔斬"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[109095] = {
 		id = 109095,
 		name = "紅焔斬"
@@ -16537,6 +16560,8 @@ end)()
 		id = 111135,
 		name = "秘めた思い"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[111140] = {
 		id = 111140,
 		name = "秘めた思い +"
@@ -16549,8 +16574,6 @@ end)()
 		id = 111145,
 		name = "秘めた思い +"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[111151] = {
 		id = 111151,
 		name = "ドキドキ止まらない！"
@@ -16939,6 +16962,8 @@ end)()
 		id = 115162,
 		name = "神威霊装・三番（エロヒム) +"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[115172] = {
 		id = 115172,
 		name = "絶滅天使(メタトロン)·光剣(カドゥール)"
@@ -16951,8 +16976,6 @@ end)()
 		id = 115200,
 		name = "氷結傀儡（ザドキエル）"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[115210] = {
 		id = 115210,
 		name = "氷結傀儡（ザドキエル）"
@@ -17341,6 +17364,8 @@ end)()
 		id = 800141,
 		name = "青短影縫"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[800142] = {
 		id = 800142,
 		name = "青短影縫"
@@ -17353,8 +17378,6 @@ end)()
 		id = 800151,
 		name = "月花猪鹿蝶"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[800152] = {
 		id = 800152,
 		name = "月花猪鹿蝶"
@@ -17743,6 +17766,8 @@ end)()
 		id = 800731,
 		name = "祈りへの恩賜"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[800732] = {
 		id = 800732,
 		name = "祈りへの恩賜"
@@ -17755,8 +17780,6 @@ end)()
 		id = 800750,
 		name = "インクイジション・ハンマー"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[800751] = {
 		id = 800751,
 		name = "インクイジション・ハンマー"
@@ -18145,6 +18168,8 @@ end)()
 		id = 801621,
 		name = "永夜の帳"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[801652] = {
 		id = 801652,
 		name = "強化打撃-準備完了"
@@ -18157,8 +18182,6 @@ end)()
 		id = 801712,
 		name = "果たすべき責任"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[801713] = {
 		id = 801713,
 		name = "果たすべき責任"
@@ -18339,6 +18362,38 @@ end)()
 		id = 802132,
 		name = "狩猟者の警戒"
 	}
+	pg.base.skill_data_display[802181] = {
+		id = 802181,
+		name = "訓誡調教のムチ"
+	}
+	pg.base.skill_data_display[802182] = {
+		id = 802182,
+		name = "訓誡調教のムチ"
+	}
+	pg.base.skill_data_display[802183] = {
+		id = 802183,
+		name = "訓誡調教のムチ"
+	}
+	pg.base.skill_data_display[802191] = {
+		id = 802191,
+		name = "防護愛護マシン"
+	}
+	pg.base.skill_data_display[802201] = {
+		id = 802201,
+		name = "焔追の灰-ケーニヒスベルクⅠ"
+	}
+	pg.base.skill_data_display[802202] = {
+		id = 802202,
+		name = "焔追の灰-ケーニヒスベルクⅡ"
+	}
+	pg.base.skill_data_display[802205] = {
+		id = 802205,
+		name = "焔追の灰-ケーニヒスベルクⅠ"
+	}
+	pg.base.skill_data_display[802207] = {
+		id = 802207,
+		name = "焔追の灰-ケーニヒスベルクⅡ"
+	}
 	pg.base.skill_data_display[802141] = {
 		id = 802141,
 		name = "焔追の灰・レーゲンスブルクⅠ"
@@ -18515,6 +18570,8 @@ end)()
 		id = 1011874,
 		name = "絶対命中のオールドレディ・改 +"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[200002] = {
 		id = 200002,
 		name = "飛行船団支援"
@@ -18559,8 +18616,6 @@ end)()
 		id = 200120,
 		name = "属性支配"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[200121] = {
 		id = 200121,
 		name = "撃滅塵"
@@ -18917,6 +18972,8 @@ end)()
 		id = 200835,
 		name = "メテオフォール"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[200836] = {
 		id = 200836,
 		name = "アイスブラスト"
@@ -18961,8 +19018,6 @@ end)()
 		id = 200849,
 		name = "「エクスプロージョン」"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[200854] = {
 		id = 200854,
 		name = "光と正義の加護"
@@ -19319,6 +19374,8 @@ end)()
 		id = 201528,
 		name = "アマハラ加護-羽"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[201529] = {
 		id = 201529,
 		name = "アマハラ加護-羽"
@@ -19363,8 +19420,6 @@ end)()
 		id = 201673,
 		name = "未だ燃え尽きぬ意志"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[201680] = {
 		id = 201680,
 		name = "終演の協奏曲"
@@ -19721,6 +19776,8 @@ end)()
 		id = 1012320,
 		name = "Poison Croix +"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1012322] = {
 		id = 1012322,
 		name = "Poison Croix +"
@@ -19765,8 +19822,6 @@ end)()
 		id = 1011004,
 		name = "勇敢なる砲撃 +"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[10150570] = {
 		id = 10150570,
 		name = "深淵に蠢く魔性 +"
@@ -20123,6 +20178,8 @@ end)()
 		id = 1012912,
 		name = "フェニックスフェザー！"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1012913] = {
 		id = 1012913,
 		name = "ヨウカイ=アンデッド"
@@ -20167,8 +20224,6 @@ end)()
 		id = 1090042,
 		name = "1セントコイン(少量)"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1090043] = {
 		id = 1090043,
 		name = "1セントコイン(普通)"

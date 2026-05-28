@@ -16125,6 +16125,37 @@ _G.pg.base.item_data_statistics[21059] = {
 }
 
 
+_G.pg.base.item_data_statistics[21060] = {
+	open_directly = 0,
+	name = "結晶：ケーニヒスベルク(META)",
+	type = 4,
+	display = "ケーニヒスベルク(META)の能力を上昇させるアイテム。メタラボの限界突破に使用可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21060",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21060,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21061] = {
 	open_directly = 0,
 	name = "結晶：エルベ(META)",
@@ -31135,6 +31166,58 @@ _G.pg.base.item_data_statistics[30434] = {
 		{
 			9,
 			2120,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30435] = {
+	open_directly = 1,
+	name = "ランダム装備外装",
+	type = 11,
+	display = "クルーズ報酬の装備外装をランダムに１つ入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "111229",
+	id = 30435,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2121,
+			1
+		},
+		{
+			9,
+			2122,
+			1
+		},
+		{
+			9,
+			2123,
+			1
+		},
+		{
+			9,
+			2124,
 			1
 		}
 	},
@@ -122086,6 +122169,73 @@ _G.pg.base.item_data_statistics[81235] = {
 		{
 			2,
 			86227,
+			1
+		},
+		{
+			1,
+			14,
+			2026
+		},
+		{
+			2,
+			42076,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81236] = {
+	open_directly = 1,
+	name = "夏の水着福袋2026B",
+	type = 17,
+	display = "ランダムな（2026夏水着B対象）着せ替え衣装、上級指向型強化ユニット・Ⅷ期×2、ダイヤ×2026、メンタルユニット×50、キューブ×20、家具コイン×100、高速建造材×10が入手できます",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai36",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998332",
+	id = 81236,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86228,
 			1
 		},
 		{

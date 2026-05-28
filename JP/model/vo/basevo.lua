@@ -54,6 +54,12 @@ end
 slot0.getConfig = function(slot0, slot1)
 	assert(slot0:getConfigTable() ~= nil, "Config missed, type -" .. slot0.__cname .. " configId: " .. tostring(slot0.configId))
 
+	if slot1 == "name" then
+		return HXSet.hxLan(slot2[slot1])
+	elseif slot1 == "desc" then
+		return HXSet.hxLan(slot2[slot1])
+	end
+
 	return slot2[slot1]
 end
 

@@ -30328,368 +30328,404 @@ cs.gametip = {
 		1476500,
 		98
 	},
-	littleMusashi_npc = {
+	battlepass_main_tip_2606 = {
 		1476598,
+		284
+	},
+	battlepass_main_help_2606 = {
+		1476882,
+		3317
+	},
+	cruise_task_help_2606 = {
+		1480199,
+		1186
+	},
+	cruise_title_2606 = {
+		1481385,
+		107
+	},
+	littleyunxian_npc = {
+		1481492,
+		1534
+	},
+	littleMusashi_npc = {
+		1483026,
 		1516
 	},
 	["260514_story_title"] = {
-		1478114,
+		1484542,
 		97
 	},
 	["260514_story_title_en"] = {
-		1478211,
+		1484639,
 		102
 	},
 	AnniversaryNineCoreActivityUI_subtitle_6 = {
-		1478313,
+		1484741,
 		119
 	},
 	Outpost_20260514_Detail = {
-		1478432,
+		1484860,
 		99
 	},
 	mall_title = {
-		1478531,
+		1484959,
 		98
 	},
 	mall_title_en = {
-		1478629,
+		1485057,
 		82
 	},
 	mall_point_name_type1 = {
-		1478711,
+		1485139,
 		97
 	},
 	mall_point_name_type2 = {
-		1478808,
+		1485236,
 		97
 	},
 	mall_point_name_type3 = {
-		1478905,
+		1485333,
 		97
 	},
 	mall_point_name_type4 = {
-		1479002,
+		1485430,
 		97
 	},
 	mall_order_char_header = {
-		1479099,
+		1485527,
 		101
 	},
 	mall_order_need_attrs_header = {
-		1479200,
+		1485628,
 		113
 	},
 	mall_order_btn_staff = {
-		1479313,
+		1485741,
 		96
 	},
 	mall_right_title_upgrade = {
-		1479409,
+		1485837,
 		106
 	},
 	mall_round_header = {
-		1479515,
+		1485943,
 		93
 	},
 	mall_level_header = {
-		1479608,
+		1486036,
 		98
 	},
 	mall_input_header = {
-		1479706,
+		1486134,
 		105
 	},
 	mall_summary_btn = {
-		1479811,
+		1486239,
 		104
 	},
 	mall_evaluate_title = {
-		1479915,
+		1486343,
 		111
 	},
 	mall_summary_title = {
-		1480026,
+		1486454,
 		94
 	},
 	mall_floor_income_header = {
-		1480120,
+		1486548,
 		97
 	},
 	mall_total_income_header = {
-		1480217,
+		1486645,
 		97
 	},
 	mall_balance_header = {
-		1480314,
+		1486742,
 		89
 	},
 	mall_open_title = {
-		1480403,
+		1486831,
 		91
 	},
 	mall_help = {
-		1480494,
+		1486922,
 		2299
 	},
 	mall_floor_lock = {
-		1482793,
+		1489221,
 		97
 	},
 	mall_rank_close = {
-		1482890,
+		1489318,
 		85
 	},
 	mall_rank_s = {
-		1482975,
+		1489403,
 		76
 	},
 	mall_rank_a = {
-		1483051,
+		1489479,
 		76
 	},
 	mall_rank_b = {
-		1483127,
+		1489555,
 		76
 	},
 	mall_staff_in_floor = {
-		1483203,
+		1489631,
 		92
 	},
 	mall_staff_in_order = {
-		1483295,
+		1489723,
 		92
 	},
 	mall_remove_floor_sure = {
-		1483387,
+		1489815,
 		177
 	},
 	mall_order_btn_doing = {
-		1483564,
+		1489992,
 		93
 	},
 	mall_order_btn_complete = {
-		1483657,
+		1490085,
 		105
 	},
 	mall_input_btn = {
-		1483762,
+		1490190,
 		96
 	},
 	mall_order_btn_start = {
-		1483858,
+		1490286,
 		96
 	},
 	mall_upgrade_title = {
-		1483954,
+		1490382,
 		120
 	},
 	mall_right_title_summary = {
-		1484074,
+		1490502,
 		98
 	},
 	mall_change_floor_sure = {
-		1484172,
+		1490600,
 		174
 	},
 	mall_change_order_sure = {
-		1484346,
+		1490774,
 		168
 	},
 	mall_award_can_get = {
-		1484514,
+		1490942,
 		91
 	},
 	mall_award_get = {
-		1484605,
+		1491033,
 		87
 	},
 	mall_order_wait_tip = {
-		1484692,
+		1491120,
 		102
 	},
 	mall_order_unlock_lv_tip = {
-		1484794,
+		1491222,
 		155
 	},
 	mall_order_need_staff_header = {
-		1484949,
+		1491377,
 		113
 	},
 	mall_get_all_btn = {
-		1485062,
+		1491490,
 		92
 	},
 	mall_award_got = {
-		1485154,
+		1491582,
 		87
 	},
 	loading_picture_lack = {
-		1485241,
+		1491669,
 		117
 	},
 	loading_title = {
-		1485358,
+		1491786,
 		92
 	},
 	loading_start_set = {
-		1485450,
+		1491878,
 		108
 	},
 	loading_pic_chosen = {
-		1485558,
+		1491986,
 		94
 	},
 	loading_pic_tip = {
-		1485652,
+		1492080,
 		149
 	},
 	loading_pic_max = {
-		1485801,
+		1492229,
 		118
 	},
 	loading_pic_min = {
-		1485919,
+		1492347,
 		113
 	},
 	loading_quit_tip = {
-		1486032,
+		1492460,
 		198
 	},
 	loading_set_tip = {
-		1486230,
+		1492658,
 		152
 	},
 	loading_chosen_blank = {
-		1486382,
+		1492810,
 		130
 	},
 	sort_minigame_help = {
-		1486512,
+		1492940,
 		407
 	},
 	AnniversaryNineCoreActivity_subtitle_1 = {
-		1486919,
+		1493347,
 		126
 	},
 	AnniversaryNineCoreActivity_subtitle_2 = {
-		1487045,
+		1493473,
 		120
 	},
 	mall_unlock_date_tip = {
-		1487165,
+		1493593,
 		167
 	},
 	mall_finished_all_tip = {
-		1487332,
+		1493760,
 		103
 	},
 	memory_filter_option_1 = {
-		1487435,
+		1493863,
 		101
 	},
 	memory_filter_option_2 = {
-		1487536,
+		1493964,
 		92
 	},
 	memory_filter_option_3 = {
-		1487628,
+		1494056,
 		92
 	},
 	memory_filter_option_4 = {
-		1487720,
+		1494148,
 		95
 	},
 	memory_filter_option_5 = {
-		1487815,
+		1494243,
 		95
 	},
 	memory_filter_option_6 = {
-		1487910,
+		1494338,
 		104
 	},
 	memory_filter_title_1 = {
-		1488014,
+		1494442,
 		97
 	},
 	memory_filter_title_2 = {
-		1488111,
+		1494539,
 		91
 	},
 	memory_goto = {
-		1488202,
+		1494630,
 		81
 	},
 	memory_unlock = {
-		1488283,
+		1494711,
 		95
 	},
 	mall_char_lock = {
-		1488378,
+		1494806,
 		105
 	},
 	mall_title_lock = {
-		1488483,
+		1494911,
 		105
 	},
 	mall_continue_to_unlock = {
-		1488588,
+		1495016,
 		112
 	},
+	mall_pos_lock = {
+		1495128,
+		102
+	},
 	GeZiURCoreActivityUI_subtitle_1 = {
-		1488700,
+		1495230,
 		113
 	},
 	GeZiURCoreActivityUI_subtitle_2 = {
-		1488813,
+		1495343,
 		110
 	},
 	GeZiURCoreActivityUI_subtitle_3 = {
-		1488923,
+		1495453,
 		103
 	},
 	AnniversaryNineCoreActivityUI_subtitle_1 = {
-		1489026,
+		1495556,
 		128
 	},
 	AnniversaryNineCoreActivityUI_subtitle_2 = {
-		1489154,
+		1495684,
 		116
 	},
 	AnniversaryNineCoreActivityUI_subtitle_3 = {
-		1489270,
+		1495800,
 		119
 	},
 	anniversary_nine_main_page = {
-		1489389,
+		1495919,
 		99
 	},
 	refux_cg_title = {
-		1489488,
+		1496018,
 		93
 	},
 	mall_level_max = {
-		1489581,
+		1496111,
 		110
 	},
 	mall_staff_position_full_tip = {
-		1489691,
+		1496221,
 		150
 	},
 	mall_gold_input_success_tip = {
-		1489841,
+		1496371,
 		112
 	},
 	mall_floor_all_empty_tip = {
-		1489953,
+		1496483,
 		146
 	},
 	mall_unlock_date_tip2 = {
-		1490099,
+		1496629,
 		104
 	},
 	mall_order_finished_all_tip = {
-		1490203,
+		1496733,
 		140
+	},
+	littleyunxian_tip1 = {
+		1496873,
+		87
+	},
+	littleyunxian_tip2 = {
+		1496960,
+		88
+	},
+	OutPostCoreActivityUI_subtitle_3 = {
+		1497048,
+		111
 	}
 }

@@ -54,7 +54,8 @@ slot0.init = function(slot0)
 			uv0:filterEquipment()
 		end,
 		key = slot0.__cname,
-		parent = slot0.blurPanel:Find("adapt"),
+		parent = slot0.topPanel:Find("buttons"),
+		expand_parent = slot0.blurPanel:Find("adapt"),
 		anchoredPosition = Vector3(-1305, slot0.topPanel.sizeDelta.y * -0.5, 0)
 	}))
 	slot0.itemView = slot0._tf:Find("adapt/item_scrollview")

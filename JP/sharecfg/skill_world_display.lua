@@ -93,7 +93,9 @@ pg.skill_world_display.all = {
 	802171,
 	802172,
 	802141,
-	802142
+	802142,
+	802201,
+	802202
 }
 pg.base = pg.base or {}
 pg.base.skill_world_display = {}
@@ -4203,6 +4205,20 @@ pg.base.skill_world_display = {}
 		desc_get = "",
 		id = 802142,
 		desc = "【セイレーン作戦】\n自身が主砲攻撃を8回行う度に、特殊弾幕Ⅱを展開する。さらに人型セイレーン艦隊や敵中枢艦隊と交戦する場合、自身が与えるダメージが8%アップ",
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_world_display[802201] = {
+		desc_get = "",
+		id = 802201,
+		desc = "【セイレーン作戦】\n主砲攻撃を12回行う毎に、特殊弾幕Ⅰを展開する。人型セイレーン艦隊や敵中枢艦隊と交戦する場合、自身が与えるダメージが2%アップ",
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_world_display[802202] = {
+		desc_get = "",
+		id = 802202,
+		desc = "【セイレーン作戦】\n主砲攻撃を8回行う毎に、特殊弾幕Ⅱを展開する。人型セイレーン艦隊や敵中枢艦隊と交戦する場合、自身が与えるダメージが5%アップ",
 		desc_get_add = {},
 		desc_add = {}
 	}

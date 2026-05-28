@@ -32,7 +32,7 @@ slot0.initListData = function(slot0, slot1, slot2, slot3)
 	table.insert(slot0.avatarFrames, {
 		actId = slot1,
 		tasks = slot4,
-		finish_tasks = finishTask
+		finish_tasks = slot5
 	})
 end
 

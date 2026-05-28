@@ -17,6 +17,7 @@ pg.item_data_battleui.all = {
 	112,
 	113,
 	114,
+	115,
 	201,
 	202,
 	203,
@@ -233,6 +234,21 @@ pg.base.item_data_battleui = {}
 		desc = "画面端から生え茂るアイビーの隙間に幻想的な光が輝く。全ての戦いに、古の森のミステリアスさと生命力を添えてくれる",
 		id = 114,
 		icon = "114",
+		scene = {},
+		rare_display = {
+			1
+		}
+	}
+	pg.base.item_data_battleui[115] = {
+		name = "ブルーコア",
+		key = "SkinNormal_20260528",
+		display_icon = "ui_115",
+		unlock = "クルーズパス29期報酬",
+		is_unlock = 1,
+		rare = 3,
+		desc = "錆びついた機械の心臓が再び鼓動し、青いコアの余音が旧き文明の反響を響き渡らせる",
+		id = 115,
+		icon = "115",
 		scene = {},
 		rare_display = {
 			1

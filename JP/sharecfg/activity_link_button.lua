@@ -24,7 +24,6 @@ pg.activity_link_button.all = {
 	103,
 	104,
 	105,
-	106,
 	107,
 	108,
 	109,
@@ -52,9 +51,6 @@ pg.activity_link_button.get_id_list_by_name = {
 	},
 	event_aprilFool = {
 		70
-	},
-	event_blackFriday = {
-		106
 	},
 	event_boat_ad_game = {
 		105
@@ -416,22 +412,6 @@ pg.base.activity_link_button = {}
 		},
 		param = {
 			68
-		}
-	}
-	pg.base.activity_link_button[106] = {
-		name = "event_blackFriday",
-		text_pic = "text_event_blackfriday",
-		type = 2,
-		pic = "event_blackfriday",
-		id = 106,
-		group_id = 11,
-		order = 1,
-		time = {
-			"default",
-			5702
-		},
-		param = {
-			"BlackFridaySales"
 		}
 	}
 	pg.base.activity_link_button[107] = {

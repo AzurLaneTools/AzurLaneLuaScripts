@@ -114,6 +114,8 @@ pg.pay_data_display.all = {
 	9015,
 	9016,
 	9017,
+	9018,
+	9019,
 	1000,
 	1001,
 	1002,
@@ -142,6 +144,7 @@ pg.pay_data_display.all = {
 	1025,
 	1026,
 	1027,
+	1028,
 	1303,
 	2001,
 	2002,
@@ -13675,6 +13678,274 @@ end)()
 			}
 		}
 	}
+	pg.base.pay_data_display[9018] = {
+		picture = "fudai36",
+		name = "夏の水着福袋2026B",
+		type = 1,
+		second_text = "大量な報酬",
+		descrip = "ランダムな夏水着2026B・ダイヤ×2026などを入手可能",
+		subject = "夏の水着福袋2026B",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 3800,
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.zuanshi217",
+		extra_gem = 0,
+		id = 9018,
+		airijp_id = "com.yostarjp.azurlane.diamond205",
+		name_display = "夏の水着福袋2026B",
+		first_text = "ランダム着せ替え",
+		akashi_pick = 1,
+		skin_inquire_relation = 86228,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86228,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					5,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81236,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86228,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			}
+		}
+	}
+	pg.base.pay_data_display[9019] = {
+		picture = "fudai25",
+		name = "夏の水着福袋2025B(復刻)",
+		type = 1,
+		second_text = "大量な報酬",
+		descrip = "ランダムな夏水着2025B・ダイヤ×2025などを入手可能",
+		subject = "夏の水着福袋2025B(復刻)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 3800,
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.zuanshi218",
+		extra_gem = 0,
+		id = 9019,
+		airijp_id = "com.yostarjp.azurlane.diamond206",
+		name_display = "夏の水着福袋2025B(復刻)",
+		first_text = "ランダム着せ替え",
+		akashi_pick = 1,
+		skin_inquire_relation = 86214,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86214,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					5,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81214,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86214,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
+		}
+	}
 	pg.base.pay_data_display[1000] = {
 		picture = "battlepass_1",
 		name = "クルーズパス",
@@ -16049,6 +16320,91 @@ end)()
 		},
 		sub_display = {
 			7028,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	}
+	pg.base.pay_data_display[1028] = {
+		picture = "battlepass_1",
+		name = "クルーズパス(26初夏)",
+		type = 0,
+		second_text = "特別報酬開放",
+		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
+		subject = "クルーズパス(26初夏)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 1200,
+		descrip_extra = "※シーズン任務クリア時に追加の報酬を入手可能",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 6,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.battlepass30",
+		extra_gem = 0,
+		id = 1028,
+		airijp_id = "com.yostarjp.azurlane.seasonpass29",
+		name_display = "クルーズパス(26初夏)",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4029,
+				1500
+			},
+			{
+				8,
+				65117,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					6,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			7029,
 			1500
 		},
 		ignorePlatform = {},
@@ -21134,6 +21490,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.pay_data_display[2064] = {
 		picture = "boxSkill",
 		name = "教科書パック",
@@ -21422,8 +21780,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.pay_data_display[2070] = {
 		picture = "ui7",
 		name = "戦闘UI・メイドカフェ（セット）",

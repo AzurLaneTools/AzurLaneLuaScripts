@@ -364,6 +364,11 @@ pg.task_meta_data_template.all = {
 	100533,
 	100534,
 	100535,
+	100551,
+	100552,
+	100553,
+	100554,
+	100555,
 	100561,
 	100562,
 	100563,
@@ -549,6 +554,10 @@ pg.task_meta_data_template.all = {
 	200442,
 	200443,
 	200444,
+	200461,
+	200462,
+	200463,
+	200464,
 	200471,
 	200472,
 	200473,
@@ -3444,6 +3453,46 @@ end)()
 		target_num = 1,
 		desc = "レーゲンスブルク(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	}
+	pg.base.task_meta_data_template[100551] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970212",
+		id = 100551,
+		target_num = 1,
+		desc = "ケーニヒスベルク(META)を編成した艦隊で1回戦闘を勝利する"
+	}
+	pg.base.task_meta_data_template[100552] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970212",
+		id = 100552,
+		target_num = 1,
+		desc = "ケーニヒスベルク(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+	}
+	pg.base.task_meta_data_template[100553] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970212",
+		id = 100553,
+		target_num = 1,
+		desc = "ケーニヒスベルク(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+	}
+	pg.base.task_meta_data_template[100554] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970212",
+		id = 100554,
+		target_num = 1,
+		desc = "ケーニヒスベルク(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+	}
+	pg.base.task_meta_data_template[100555] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970212",
+		id = 100555,
+		target_num = 1,
+		desc = "ケーニヒスベルク(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+	}
 	pg.base.task_meta_data_template[100561] = {
 		target_id = "0",
 		sub_type = 180,
@@ -3724,6 +3773,8 @@ end)()
 		target_num = 1,
 		desc = "セイレーン作戦でヴェスタル(META)を含めた艦隊でLv70+の敵を撃破"
 	}
+end)()
+(function ()
 	pg.base.task_meta_data_template[200083] = {
 		target_id = "90",
 		sub_type = 302,
@@ -3764,8 +3815,6 @@ end)()
 		target_num = 1,
 		desc = "セイレーン作戦でアルジェリー(META)を含めた艦隊でLv90+の敵を撃破"
 	}
-end)()
-(function ()
 	pg.base.task_meta_data_template[200094] = {
 		target_id = "100",
 		sub_type = 302,
@@ -4526,6 +4575,8 @@ end)()
 		target_num = 1,
 		desc = "セイレーン作戦でグレンヴィル(META)を含めた艦隊でLv70+の敵を撃破"
 	}
+end)()
+(function ()
 	pg.base.task_meta_data_template[200333] = {
 		target_id = "90",
 		sub_type = 302,
@@ -4566,8 +4617,6 @@ end)()
 		target_num = 1,
 		desc = "セイレーン作戦でグロリアス(META)を含めた艦隊でLv90+の敵を撃破"
 	}
-end)()
-(function ()
 	pg.base.task_meta_data_template[200344] = {
 		target_id = "100",
 		sub_type = 302,
@@ -4927,6 +4976,38 @@ end)()
 		id = 200444,
 		target_num = 1,
 		desc = "セイレーン作戦でレーゲンスブルク(META)を含めた艦隊でLv100+の敵を撃破"
+	}
+	pg.base.task_meta_data_template[200461] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970212",
+		id = 200461,
+		target_num = 1,
+		desc = "セイレーン作戦でケーニヒスベルク(META)を含めた艦隊で1回勝利する"
+	}
+	pg.base.task_meta_data_template[200462] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970212",
+		id = 200462,
+		target_num = 1,
+		desc = "セイレーン作戦でケーニヒスベルク(META)を含めた艦隊でLv70+の敵を撃破"
+	}
+	pg.base.task_meta_data_template[200463] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970212",
+		id = 200463,
+		target_num = 1,
+		desc = "セイレーン作戦でケーニヒスベルク(META)を含めた艦隊でLv90+の敵を撃破"
+	}
+	pg.base.task_meta_data_template[200464] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970212",
+		id = 200464,
+		target_num = 1,
+		desc = "セイレーン作戦でケーニヒスベルク(META)を含めた艦隊でLv100+の敵を撃破"
 	}
 	pg.base.task_meta_data_template[200471] = {
 		target_id = "0",

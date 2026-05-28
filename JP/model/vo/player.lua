@@ -746,11 +746,12 @@ end
 slot0.GetRandomFlagShip = function(slot0, slot1)
 	slot3, slot4 = uv0(getProxy(SettingsProxy):GetRandomFlagShipList())
 
-	if getProxy(PlayerProxy):getFlag("battle") then
+	if getProxy(PlayerProxy):getFlag("random_skin") then
 		slot5 = math.random(#slot4)
 		slot1 = slot4[slot5]
 
 		slot2:setCurrentSecretaryIndex(slot5)
+		getProxy(PlayerProxy):setFlag("random_skin", false)
 	end
 
 	if not slot3[slot1] and table.indexof(PlayerVitaeShipsPage.GetSlotIndexList(), slot1) and slot7 > 0 then
