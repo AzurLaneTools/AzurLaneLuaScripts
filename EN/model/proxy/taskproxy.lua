@@ -326,11 +326,6 @@ end
 
 slot0.removeTask = function(slot0, slot1)
 	assert(isa(slot1, Task), "should be an instance of Task")
-
-	if not slot0.data[slot1.id] then
-		slot0.data[slot1.id] = slot1
-	end
-
 	slot0:removeTaskById(slot1.id)
 end
 
@@ -357,6 +352,12 @@ slot0.deleteTask = function(slot0, slot1)
 end
 
 slot0.deleteTaskById = function(slot0, slot1)
+	if slot0.submittingTask[slot1] then
+		print("正在提交的任务不予删除，id:" .. slot1)
+
+		return
+	end
+
 	slot0.data[slot1] = nil
 	slot0.finishData[slot1] = nil
 

@@ -267,7 +267,7 @@ end
 
 slot0.OnAddFollower = function(slot0, slot1)
 	slot4 = slot0:GetIsland():GetCharacterAgency():GetShipById(slot1)
-	slot7 = IslandFollowerUnitVO.New(slot4.id, slot1, slot4:GetModelUnit(), slot0:GetView():GetPlayerPosition(), Vector3(0, 0, 0), not (#slot0.sceneData.followUnits > 0))
+	slot7 = IslandFollowerUnitVO.New(slot4.id, slot1, slot4:GetModelUnit(), slot0:GetView():GetPlayerLastGroundedPosition(), Vector3(0, 0, 0), not (#slot0.sceneData.followUnits > 0))
 
 	table.insert(slot0.sceneData.followUnits, slot7)
 	slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, slot7)

@@ -236,7 +236,18 @@ temp = function()
 			["伯"] = {
 				["缇"] = {
 					["娜"] = {
-						this = true
+						this = true,
+						["·"] = {
+							M = {
+								E = {
+									T = {
+										A = {
+											this = true
+										}
+									}
+								}
+							}
+						}
 					}
 				}
 			},

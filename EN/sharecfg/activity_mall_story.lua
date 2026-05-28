@@ -243,7 +243,7 @@ pg.base.activity_mall_story = {}
 		}
 	}
 	pg.base.activity_mall_story[201] = {
-		desc = "Time to Wake Up, Commander",
+		desc = "Time to Wake Up, Commander ",
 		name = "Time to Wake Up, Commander",
 		type = 2,
 		id = 201,
@@ -256,7 +256,7 @@ pg.base.activity_mall_story = {}
 		}
 	}
 	pg.base.activity_mall_story[202] = {
-		desc = "The Missing Jewel That Shows Itself",
+		desc = "The Missing Jewel That Shows Itself ",
 		name = "The Missing Jewel That Shows Itself",
 		type = 2,
 		id = 202,
@@ -269,7 +269,7 @@ pg.base.activity_mall_story = {}
 		}
 	}
 	pg.base.activity_mall_story[203] = {
-		desc = "Where the Seagulls Go",
+		desc = "Where the Seagulls Go ",
 		name = "Where the Seagulls Go",
 		type = 2,
 		id = 203,
@@ -282,7 +282,7 @@ pg.base.activity_mall_story = {}
 		}
 	}
 	pg.base.activity_mall_story[204] = {
-		desc = "Rooftop \"Pirates\"",
+		desc = "Rooftop \"Pirates\" ",
 		name = "Rooftop \"Pirates\"",
 		type = 2,
 		id = 204,
@@ -295,7 +295,7 @@ pg.base.activity_mall_story = {}
 		}
 	}
 	pg.base.activity_mall_story[205] = {
-		desc = "Wish Upon the Lamp",
+		desc = "Wish Upon the Lamp ",
 		name = "Wish Upon the Lamp",
 		type = 2,
 		id = 205,
@@ -308,7 +308,7 @@ pg.base.activity_mall_story = {}
 		}
 	}
 	pg.base.activity_mall_story[206] = {
-		desc = "Magical(?) Garden Banquet",
+		desc = "Magical(?) Garden Banquet ",
 		name = "Magical(?) Garden Banquet",
 		type = 2,
 		id = 206,
@@ -321,7 +321,7 @@ pg.base.activity_mall_story = {}
 		}
 	}
 	pg.base.activity_mall_story[207] = {
-		desc = "The Light of a Miracle",
+		desc = "The Light of a Miracle ",
 		name = "The Light of a Miracle",
 		type = 2,
 		id = 207,
@@ -334,7 +334,7 @@ pg.base.activity_mall_story = {}
 		}
 	}
 	pg.base.activity_mall_story[208] = {
-		desc = "A Gift Dedicated to You",
+		desc = "A Gift Dedicated to You ",
 		name = "A Gift Dedicated to You",
 		type = 2,
 		id = 208,

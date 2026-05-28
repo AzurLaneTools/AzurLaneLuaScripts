@@ -75,7 +75,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					5,
-					20
+					28
 				},
 				{
 					0,
@@ -187,7 +187,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					5,
-					20
+					28
 				},
 				{
 					0,
@@ -251,17 +251,14 @@ pg.base.activity_banner = {}
 		id = 6,
 		pic = "temp6",
 		param = {
-			"scene shop",
-			{
-				warp = "shopstreet"
-			}
+			"dorm 3d select"
 		},
 		time = {
 			{
 				{
 					2026,
 					5,
-					20
+					28
 				},
 				{
 					0,
@@ -273,7 +270,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					6,
-					11
+					4
 				},
 				{
 					23,
@@ -288,14 +285,14 @@ pg.base.activity_banner = {}
 		id = 7,
 		pic = "temp7",
 		param = {
-			"scene court yard"
+			"crusing"
 		},
 		time = {
 			{
 				{
 					2026,
-					5,
-					20
+					6,
+					1
 				},
 				{
 					0,
@@ -307,7 +304,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					6,
-					11
+					4
 				},
 				{
 					23,
@@ -355,7 +352,7 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[9] = {
-		param = "50618",
+		param = "51013",
 		type = 3,
 		id = 9,
 		pic = "temp9",
@@ -364,7 +361,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					5,
-					20
+					28
 				},
 				{
 					0,
@@ -376,7 +373,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					6,
-					11
+					4
 				},
 				{
 					23,

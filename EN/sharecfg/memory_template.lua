@@ -4101,6 +4101,7 @@ pg.memory_template.all = {
 	5202,
 	5203,
 	5204,
+	5211,
 	10011,
 	10012,
 	10013,
@@ -78209,6 +78210,24 @@ end)()
 			"SHEHUAXIANGMENGFUJINWAN24"
 		}
 	}
+	pg.base.memory_template[5211] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "As Lustrous as Lacquer",
+		condition = "Start the As Lustrous as Lacquer event",
+		story = "RUOQIZHIGUANG1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5211,
+		icon = "memory_ruoqizhiguang",
+		is_open = 0,
+		unlock_pre = {
+			"RUOQIZHIGUANG1"
+		}
+	}
 	pg.base.memory_template[10011] = {
 		ship_group = 0,
 		subtitle = "",
@@ -78245,6 +78264,8 @@ end)()
 			"CHANGDAO2"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[10013] = {
 		ship_group = 0,
 		subtitle = "",
@@ -78263,8 +78284,6 @@ end)()
 			"CHANGDAO3"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[10014] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80047,6 +80066,8 @@ end)()
 			"LINGHANGYUANHAOGANDU1"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20045] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80065,8 +80086,6 @@ end)()
 			"LINGHANGYUANHAOGANDU2"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20046] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81849,6 +81868,8 @@ end)()
 			"LINGYANGZHELAIFANGJISHI8"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20146] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81867,8 +81888,6 @@ end)()
 			"LINGYANGZHELAIFANGJISHI9"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20147] = {
 		ship_group = 0,
 		subtitle = "",

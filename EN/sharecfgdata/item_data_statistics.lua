@@ -16199,6 +16199,37 @@ _G.pg.base.item_data_statistics[21059] = {
 }
 
 
+_G.pg.base.item_data_statistics[21060] = {
+	open_directly = 0,
+	name = "META Crystal – Königsberg META",
+	type = 4,
+	display = "An item that increases the potential of Königsberg META. Used in the META Lab during Somatic Activation.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21060",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21060,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21061] = {
 	open_directly = 0,
 	name = "META Crystal – Elbe META",
@@ -31089,6 +31120,58 @@ _G.pg.base.item_data_statistics[30434] = {
 		{
 			9,
 			2120,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30435] = {
+	open_directly = 1,
+	name = "Gear Skin Box (Cruise Missions)",
+	type = 11,
+	display = "Contains 1 random Cruise Mission gear skin.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "111229",
+	id = 30435,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2121,
+			1
+		},
+		{
+			9,
+			2122,
+			1
+		},
+		{
+			9,
+			2123,
+			1
+		},
+		{
+			9,
+			2124,
 			1
 		}
 	},
@@ -99236,9 +99319,9 @@ _G.pg.base.item_data_statistics[59857] = {
 
 _G.pg.base.item_data_statistics[59858] = {
 	open_directly = 0,
-	name = "",
+	name = "九周年纪念币",
 	type = 1,
-	display = "",
+	display = "九周年活动「TH9纪念签到」获取——碧蓝九久，上舰开浪",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
@@ -112988,6 +113071,73 @@ _G.pg.base.item_data_statistics[81235] = {
 		{
 			2,
 			86227,
+			1
+		},
+		{
+			1,
+			14,
+			2026
+		},
+		{
+			2,
+			42076,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81236] = {
+	open_directly = 1,
+	name = "Swimsuit Lucky Bag 2026 B",
+	type = 17,
+	display = "Contains a random Swimsuit Lucky Bag 2026 B skin, Special General Blueprint - Series 8 x2, Gems x2026, Cognitive Chips x50, Wisdom Cube x20, Decor Tokens x100, and Quick Finishers x10.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai36",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998332",
+	id = 81236,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86228,
 			1
 		},
 		{

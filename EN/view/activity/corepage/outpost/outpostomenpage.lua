@@ -40,11 +40,13 @@ slot0.OnFirstFlush = function(slot0)
 		uv0.taskWindow:ExecuteAction("Show", uv0.activity)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.btnStory, function ()
-		uv0.scenario:Load()
-		uv0.scenario:SetActivity(uv0.activity)
-		uv0.scenario:UpdateStoryTask()
-		uv0.scenario:ActionInvoke("UpdateView")
-		uv0:ShowScenarioLayer(true)
+		if uv0.scenario then
+			uv0.scenario:Load()
+			uv0.scenario:SetActivity(uv0.activity)
+			uv0.scenario:UpdateStoryTask()
+			uv0.scenario:ActionInvoke("UpdateView")
+			uv0:ShowScenarioLayer(true)
+		end
 	end, SFX_PANEL)
 end
 
@@ -55,20 +57,30 @@ end
 slot0.ShowScenarioLayer = function(slot0, slot1)
 	if slot1 then
 		slot0.coreActivityUI:ActiveScenarioLayer(true)
-		slot0.scenario:ActionInvoke("Show")
+
+		if slot0.scenario then
+			slot0.scenario:ActionInvoke("Show")
+		end
 	else
-		slot0.scenario:Hide()
+		if slot0.scenario then
+			slot0.scenario:Hide()
+		end
+
 		slot0.coreActivityUI:ActiveScenarioLayer(false)
 	end
 end
 
 slot0.IsShowingPopWindow = function(slot0)
-	return slot0.scenario:isShowing()
+	if slot0.scenario then
+		return slot0.scenario:isShowing()
+	end
 end
 
 slot0.ClosePopWindow = function(slot0)
-	slot0.scenario:Hide()
-	slot0:ShowScenarioLayer(false)
+	if slot0.scenario then
+		slot0.scenario:Hide()
+		slot0:ShowScenarioLayer(false)
+	end
 end
 
 slot0.OnUpdateFlush = function(slot0)
@@ -138,11 +150,13 @@ slot0.OnDestroy = function(slot0)
 		slot0.taskWindow = nil
 	end
 
-	if slot0.scenario:isShowing() then
-		slot0.scenario:Hide()
-	end
+	if slot0.scenario then
+		if slot0.scenario:isShowing() then
+			slot0.scenario:Hide()
+		end
 
-	slot0.scenario:Destroy()
+		slot0.scenario:Destroy()
+	end
 end
 
 return slot0

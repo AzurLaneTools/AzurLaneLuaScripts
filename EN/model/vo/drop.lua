@@ -1,5 +1,21 @@
 slot0 = class("Drop", import(".BaseVO"))
 
+slot0.__index = function(slot0, slot1)
+	if slot1 == "desc" then
+		return HXSet.hxLan(rawget(slot0, "_desc"))
+	end
+
+	return uv0[slot1]
+end
+
+slot0.__newindex = function(slot0, slot1, slot2)
+	if slot1 == "desc" then
+		rawset(slot0, "_desc", slot2)
+	else
+		rawset(slot0, slot1, slot2)
+	end
+end
+
 slot0.Create = function(slot0)
 	slot2, slot3, slot4 = unpack(slot0)
 

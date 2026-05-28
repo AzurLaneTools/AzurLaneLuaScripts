@@ -14,6 +14,8 @@ slot0.CreateData = function(slot0)
 		onActive = slot0.onActive,
 		onInputChanged = slot0.onInputChanged,
 		enabledFlag = slot0.enabledFlag,
+		expandParent = slot0.expand_parent,
+		refreshPosWhenExpand = slot0.refresh_pos_when_expand,
 		key = slot0.key .. "_SearchBar_",
 		parent = slot0.parent
 	}
@@ -110,6 +112,8 @@ slot0.InitToggle = function(slot0)
 		if not slot0 then
 			uv0:OnUnSelectedInputField()
 		end
+
+		uv0:Reparent(slot0)
 	end, SFX_PANEL)
 	triggerToggle(slot0.toggle, false)
 
@@ -135,6 +139,20 @@ slot0.InitToggle = function(slot0)
 		uv0:OnUnSelectedInputField()
 	end, SFX_PANEL)
 	slot0:UpdateHolder(slot0.data.holder)
+end
+
+slot0.Reparent = function(slot0, slot1)
+	if slot0.data.expandParent then
+		slot0._go.transform:SetParent(slot1 and slot2.expandParent or slot2.parent, false)
+
+		if slot2.refreshPosWhenExpand then
+			if slot1 then
+				slot0.mainBtnTr.position = slot2.parent.position
+			else
+				slot0:UpdateAnchoredPosition()
+			end
+		end
+	end
 end
 
 slot0.UpdatePosition = function(slot0)
@@ -300,23 +318,24 @@ slot0.EnableOrDisable = function(slot0, slot1)
 end
 
 slot0.Dispose = function(slot0)
+	pg.DelegateInfo.Dispose(slot0)
+
 	if slot0:IsLoaded() then
 		slot0:Unload(slot0._go)
+		slot0:OnUnSelectedInputField()
 
-		slot0._go = nil
+		if slot0.etl then
+			ClearEventTrigger(slot0.etl)
+		end
+
+		setInputText(slot0.searchTr, "")
+		slot0:RemoveSyncPosition()
 	end
 
-	slot0:OnUnSelectedInputField()
-
 	slot0.state = uv0
-
-	pg.DelegateInfo.Dispose(slot0)
-	ClearEventTrigger(slot0.etl)
-	setInputText(slot0.searchTr, "")
-	slot0:RemoveSyncPosition()
-
 	slot0.data = nil
 	slot0.enabledFlag = nil
+	slot0._go = nil
 end
 
 return slot0

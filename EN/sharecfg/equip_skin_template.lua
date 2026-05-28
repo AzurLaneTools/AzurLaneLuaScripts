@@ -1496,6 +1496,10 @@ pg.equip_skin_template.all = {
 	2118,
 	2119,
 	2120,
+	2121,
+	2122,
+	2123,
+	2124,
 	3001,
 	3002,
 	3004,
@@ -1544,6 +1548,7 @@ pg.equip_skin_template.all = {
 	3069,
 	3070,
 	3076,
+	3078,
 	3079,
 	3080,
 	3081,
@@ -61871,6 +61876,187 @@ end)()
 			"wash"
 		}
 	}
+	pg.base.equip_skin_template[2121] = {
+		hit_sfx = "",
+		bullet_name = "zidan_bianhuanchilun",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		icon = "96845",
+		name = "Perpetual Cog Shell",
+		desc = "An unceasing cog that has spun countless times.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 2121,
+		themeid = 109,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "zidan_bianhuanchilun_hit",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	}
+	pg.base.equip_skin_template[2122] = {
+		hit_sfx = "",
+		bullet_name = "yulei_huocheyancong",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		icon = "96846",
+		name = "Silent Smokestack Torpedo",
+		desc = "Where there's smoke, there's... no fire?",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 2122,
+		themeid = 109,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "yulei_huocheyancong_hit",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	}
+	pg.base.equip_skin_template[2123] = {
+		hit_sfx = "",
+		bullet_name = "paodan_huntianyi",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "96847",
+		name = "Astrolabe Shell",
+		desc = "The stars' orbits divide the seasons.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 2123,
+		themeid = 109,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	}
+	pg.base.equip_skin_template[2124] = {
+		hit_sfx = "",
+		bullet_name = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "96848",
+		name = "Phantasmal Cage",
+		desc = "The mechanisms still tick, keeping dreams trapped within.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 2124,
+		themeid = 109,
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "shebei_longzhongniao",
+		orbit_slg = "",
+		orbit_ui = "shebei_longzhongniaoui",
+		miss_sfx = "",
+		orbit_rotate = false,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 1,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		double_char_bone = {
+			1,
+			0,
+			1
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				-0.2,
+				-2.03,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				-10,
+				-147.5
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	}
 	pg.base.equip_skin_template[3001] = {
 		hit_sfx = "",
 		bullet_name = "",
@@ -62028,6 +62214,8 @@ end)()
 			61504
 		}
 	}
+end)()
+(function ()
 	pg.base.equip_skin_template[3005] = {
 		hit_sfx = "",
 		bullet_name = "feiji_baiying",
@@ -62186,8 +62374,6 @@ end)()
 			61504
 		}
 	}
-end)()
-(function ()
 	pg.base.equip_skin_template[3014] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tianchengzhandou",
@@ -64074,6 +64260,47 @@ end)()
 		orbit_hidden_action = {
 			"sleep",
 			"wash"
+		}
+	}
+	pg.base.equip_skin_template[3078] = {
+		hit_sfx = "",
+		bullet_name = "paodan_dengguangwurenji",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "99197",
+		name = "久啾灯光炮弹",
+		desc = "矩阵闪亮，满屏流光啾~",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 3078,
+		themeid = 199,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
 		}
 	}
 	pg.base.equip_skin_template[3079] = {

@@ -1998,6 +1998,9 @@ pg.skill_data_display.all = {
 	152383,
 	152391,
 	152412,
+	152441,
+	152451,
+	152452,
 	18010,
 	18040,
 	18041,
@@ -3516,6 +3519,14 @@ pg.skill_data_display.all = {
 	802121,
 	802131,
 	802132,
+	802181,
+	802182,
+	802183,
+	802191,
+	802201,
+	802202,
+	802205,
+	802207,
 	802141,
 	802142,
 	802145,
@@ -12070,6 +12081,18 @@ end)()
 		id = 152412,
 		name = "May the Pact of Blood Never Burn Away"
 	}
+	pg.base.skill_data_display[152441] = {
+		id = 152441,
+		name = "Journey to Wonderland"
+	}
+	pg.base.skill_data_display[152451] = {
+		id = 152451,
+		name = "Treasures of Hidden Realms"
+	}
+	pg.base.skill_data_display[152452] = {
+		id = 152452,
+		name = "Treasures of Hidden Realms"
+	}
 	pg.base.skill_data_display[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -12082,6 +12105,8 @@ end)()
 		id = 18041,
 		name = "Against the Current +"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[18050] = {
 		id = 18050,
 		name = "Body and Soul +"
@@ -12094,8 +12119,6 @@ end)()
 		id = 18071,
 		name = "A Legend's Inheritance +"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[18100] = {
 		id = 18100,
 		name = "Well-Rounded Armor +"
@@ -12484,6 +12507,8 @@ end)()
 		id = 19210,
 		name = "Special Gunnery Training"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[19211] = {
 		id = 19211,
 		name = "Special Gunnery Training"
@@ -12496,8 +12521,6 @@ end)()
 		id = 19213,
 		name = "Special Gunnery Training"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[19214] = {
 		id = 19214,
 		name = "Special Gunnery Training"
@@ -12886,6 +12909,8 @@ end)()
 		id = 19603,
 		name = "Aviation Experiment - Coordinated Bombardment+"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[19610] = {
 		id = 19610,
 		name = "Contingency Experiment - Suppressive Fire"
@@ -12898,8 +12923,6 @@ end)()
 		id = 19640,
 		name = "Aria of Alacrity"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[19650] = {
 		id = 19650,
 		name = "Panacea's Paean"
@@ -13288,6 +13311,8 @@ end)()
 		id = 20242,
 		name = "All Out Assault Ⅱ"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[20251] = {
 		id = 20251,
 		name = "All Out Assault Ⅰ"
@@ -13300,8 +13325,6 @@ end)()
 		id = 20261,
 		name = "All Out Assault Ⅰ"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[20262] = {
 		id = 20262,
 		name = "All Out Assault Ⅱ"
@@ -13690,6 +13713,8 @@ end)()
 		id = 23041,
 		name = "All Out Assault Ⅰ"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[23042] = {
 		id = 23042,
 		name = "All Out Assault Ⅱ"
@@ -13702,8 +13727,6 @@ end)()
 		id = 23052,
 		name = "All Out Assault Ⅱ"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[23111] = {
 		id = 23111,
 		name = "All Out Assault Ⅰ"
@@ -14092,6 +14115,8 @@ end)()
 		id = 29101,
 		name = "EX Barrage: Belfast Ⅰ"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[29102] = {
 		id = 29102,
 		name = "EX Barrage: Belfast Ⅱ"
@@ -14104,8 +14129,6 @@ end)()
 		id = 29112,
 		name = "EX Barrage: {namecode:6} Ⅱ"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[29121] = {
 		id = 29121,
 		name = "EX Barrage: {namecode:16} Ⅰ"
@@ -14494,6 +14517,8 @@ end)()
 		id = 29741,
 		name = "All Out Assault Ⅰ"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[29742] = {
 		id = 29742,
 		name = "All Out Assault Ⅱ"
@@ -14506,8 +14531,6 @@ end)()
 		id = 29752,
 		name = "All Out Assault Ⅱ"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[29800] = {
 		id = 29800,
 		name = "All Out Assault III"
@@ -14896,6 +14919,8 @@ end)()
 		id = 78130,
 		name = "IX-VIII Linked Jamming Protocol"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[78142] = {
 		id = 78142,
 		name = "Emergency Maintenance Support"
@@ -14908,8 +14933,6 @@ end)()
 		id = 78160,
 		name = "VIII-XIV Linked Jamming Protocol"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[78172] = {
 		id = 78172,
 		name = "All-Out Assault"
@@ -15298,6 +15321,8 @@ end)()
 		id = 106113,
 		name = "Joker Card"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[106114] = {
 		id = 106114,
 		name = "Joker Card"
@@ -15310,8 +15335,6 @@ end)()
 		id = 106121,
 		name = "Royal Flush"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[106130] = {
 		id = 106130,
 		name = "Dance of the Heavens"
@@ -15700,6 +15723,8 @@ end)()
 		id = 107130,
 		name = "Logistics Buddy"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[107140] = {
 		id = 107140,
 		name = "Prankster's Cheer - Ami"
@@ -15712,8 +15737,6 @@ end)()
 		id = 107160,
 		name = "Prankster's Cheer - Mami"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[107170] = {
 		id = 107170,
 		name = "Double Trouble - Mami"
@@ -16102,6 +16125,8 @@ end)()
 		id = 109212,
 		name = "Dark Spirit"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[109220] = {
 		id = 109220,
 		name = "Holy Trail"
@@ -16114,8 +16139,6 @@ end)()
 		id = 109222,
 		name = "Holy Trail"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[109223] = {
 		id = 109223,
 		name = "Holy Trail"
@@ -16504,6 +16527,8 @@ end)()
 		id = 112114,
 		name = "Piercing Arts"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[112115] = {
 		id = 112115,
 		name = "Strike Arts"
@@ -16516,8 +16541,6 @@ end)()
 		id = 112117,
 		name = "Strike Arts"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[112121] = {
 		id = 112121,
 		name = "Synthesize"
@@ -16906,6 +16929,8 @@ end)()
 		id = 600084,
 		name = "Surefire Shot"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[600090] = {
 		id = 600090,
 		name = "Surefire Shot"
@@ -16918,8 +16943,6 @@ end)()
 		id = 600092,
 		name = "Charging Fury"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[600100] = {
 		id = 600100,
 		name = "Morning Star's Light"
@@ -17308,6 +17331,8 @@ end)()
 		id = 800337,
 		name = "Ashen Might – JunyouII"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[800340] = {
 		id = 800340,
 		name = "Dual Snipe"
@@ -17320,8 +17345,6 @@ end)()
 		id = 800342,
 		name = "Dual Snipe"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[800350] = {
 		id = 800350,
 		name = "Blazing Blitz"
@@ -17710,6 +17733,8 @@ end)()
 		id = 801000,
 		name = "Fade into Darkness"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[801015] = {
 		id = 801015,
 		name = "Cinders of Hope - Erebus"
@@ -17722,8 +17747,6 @@ end)()
 		id = 801020,
 		name = "Vspyshka's Roar"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[801030] = {
 		id = 801030,
 		name = "Kometa's Brilliance"
@@ -18112,6 +18135,8 @@ end)()
 		id = 802032,
 		name = "Aero Barricade"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[802033] = {
 		id = 802033,
 		name = "Aero Barricade"
@@ -18124,8 +18149,6 @@ end)()
 		id = 802042,
 		name = "Ashen Might - Cleveland II"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[802045] = {
 		id = 802045,
 		name = "Ashen Might - Cleveland I"
@@ -18173,6 +18196,38 @@ end)()
 	pg.base.skill_data_display[802132] = {
 		id = 802132,
 		name = "The Hunter's Vigilance"
+	}
+	pg.base.skill_data_display[802181] = {
+		id = 802181,
+		name = "Disciplinary Whip"
+	}
+	pg.base.skill_data_display[802182] = {
+		id = 802182,
+		name = "Disciplinary Whip"
+	}
+	pg.base.skill_data_display[802183] = {
+		id = 802183,
+		name = "Disciplinary Whip"
+	}
+	pg.base.skill_data_display[802191] = {
+		id = 802191,
+		name = "Protective Apparatus"
+	}
+	pg.base.skill_data_display[802201] = {
+		id = 802201,
+		name = "Cinders of Hope - Königsberg I"
+	}
+	pg.base.skill_data_display[802202] = {
+		id = 802202,
+		name = "Cinders of Hope - Königsberg II"
+	}
+	pg.base.skill_data_display[802205] = {
+		id = 802205,
+		name = "Cinders of Hope - Königsberg I"
+	}
+	pg.base.skill_data_display[802207] = {
+		id = 802207,
+		name = "Cinders of Hope - Königsberg II"
 	}
 	pg.base.skill_data_display[802141] = {
 		id = 802141,
@@ -18482,6 +18537,8 @@ end)()
 		id = 200326,
 		name = "Basilica Control Device - Recovering"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[200327] = {
 		id = 200327,
 		name = "Basilica Control Device - Stable"
@@ -18526,8 +18583,6 @@ end)()
 		id = 200359,
 		name = "Dominion Expansion"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[200383] = {
 		id = 200383,
 		name = "Cloud-Parting, Mountain-Splitting Strike of Great Magnificence"
@@ -18884,6 +18939,8 @@ end)()
 		id = 200977,
 		name = "Eagle Union Elite Damage Control"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[200983] = {
 		id = 200983,
 		name = "Crimson Shade"
@@ -18928,8 +18985,6 @@ end)()
 		id = 201097,
 		name = "Twinflamed Inferno"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[201098] = {
 		id = 201098,
 		name = "Twinflamed Inferno"
@@ -19286,6 +19341,8 @@ end)()
 		id = 1011621,
 		name = "Predestined Launch+"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1011622] = {
 		id = 1011622,
 		name = "Predestined Launch+"
@@ -19330,8 +19387,6 @@ end)()
 		id = 1090032,
 		name = "Anti-Air Mode - Montpelier"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1090033] = {
 		id = 1090033,
 		name = "Anti-Air Mode - Montpelier"
@@ -19688,6 +19743,8 @@ end)()
 		id = 1010261,
 		name = "Armageddon Cannon+"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1013020] = {
 		id = 1013020,
 		name = "Lod Obstrel+"
@@ -19732,8 +19789,6 @@ end)()
 		id = 1011150,
 		name = "Counterattack of the Barents Sea+"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1011151] = {
 		id = 1011151,
 		name = "Counterattack of the Barents Sea+"
@@ -20090,6 +20145,8 @@ end)()
 		id = 1090220,
 		name = "Reload Command - Königsberg"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1090221] = {
 		id = 1090221,
 		name = "Reload Command - Königsberg"
@@ -20134,8 +20191,6 @@ end)()
 		id = 1090284,
 		name = "Quick Takeoff - Long Island"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1090285] = {
 		id = 1090285,
 		name = "Quick Takeoff - Long Island"

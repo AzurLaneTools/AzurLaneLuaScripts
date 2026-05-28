@@ -141,6 +141,16 @@ pg.base.voice_bgm = {}
 		special_bgm = "",
 		bgm = "idol-BlueSpirit-inst"
 	}
+	pg.base.voice_bgm.ActivityShop6035 = {
+		default_bgm = "doa_story1",
+		special_bgm = "",
+		bgm = "doa_story1"
+	}
+	pg.base.voice_bgm.ActivityShop50807 = {
+		default_bgm = "doa_huanzhuang",
+		special_bgm = "",
+		bgm = "doa_huanzhuang"
+	}
 	pg.base.voice_bgm.ActivityShop50611 = {
 		default_bgm = "theme-hrr",
 		special_bgm = "",
@@ -496,6 +506,8 @@ pg.base.voice_bgm = {}
 		special_bgm = "",
 		bgm = "hunhe-eagle"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.NewMeixiV4PtPage = {
 		default_bgm = "hunhe-story",
 		special_bgm = "",
@@ -506,8 +518,6 @@ pg.base.voice_bgm = {}
 		special_bgm = "",
 		bgm = "hunhe-story"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.NewMeixiV4SkirmishPage = {
 		default_bgm = "Beverly_short_inst",
 		special_bgm = "",
@@ -1193,6 +1203,8 @@ end)()
 		special_bgm = "",
 		bgm = "main-chunjie2"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.ChkalovTecCatchupPage = {
 		default_bgm = "theme-designshipVI",
 		special_bgm = "",
@@ -1203,8 +1215,6 @@ end)()
 		special_bgm = "",
 		bgm = "story-richang-sooth"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.MaoxiV4TaskPage = {
 		default_bgm = "story-richang-sooth",
 		special_bgm = "",
@@ -1695,6 +1705,8 @@ end)()
 		special_bgm = "",
 		bgm = "battle-nightmare-theme"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.GhostSkinStoryActPage = {
 		default_bgm = "story-ghostnight-fascinsting",
 		special_bgm = "",
@@ -1705,8 +1717,6 @@ end)()
 		special_bgm = "",
 		bgm = "theme-donghuang"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.AirForceOfDragonEmperyUI = {
 		default_bgm = "theme-donghuang",
 		special_bgm = "",
@@ -2197,6 +2207,8 @@ end)()
 		special_bgm = "",
 		bgm = "story-villaisland-light"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.ChangFengSkinPage = {
 		default_bgm = "china-party",
 		special_bgm = "",
@@ -2207,8 +2219,6 @@ end)()
 		special_bgm = "",
 		bgm = "story-richang-12"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.WillOfDeathPage = {
 		default_bgm = "brs-1-inst",
 		special_bgm = "",
@@ -2699,6 +2709,8 @@ end)()
 		special_bgm = "",
 		bgm = "story-weimu-link"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.MeixiT2FrameRePage = {
 		default_bgm = "theme-starsea-core",
 		special_bgm = "",
@@ -2709,8 +2721,6 @@ end)()
 		special_bgm = "",
 		bgm = "blueocean-image"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.BuildLoginRePage = {
 		default_bgm = "theme-starsea-core",
 		special_bgm = "",
@@ -2975,6 +2985,16 @@ end)()
 		default_bgm = "doa_story3",
 		special_bgm = "",
 		bgm = "doa_story3"
+	}
+	pg.base.voice_bgm.AnniversaryNineHwahJahSkinPage = {
+		default_bgm = "story-richang-light",
+		special_bgm = "",
+		bgm = "story-richang-light"
+	}
+	pg.base.voice_bgm.LittleYunXianPage = {
+		default_bgm = "story-afterrain-soft",
+		special_bgm = "",
+		bgm = "story-afterrain-soft"
 	}
 	pg.base.voice_bgm.HeLanMainRePage = {
 		default_bgm = "theme-tulipa",

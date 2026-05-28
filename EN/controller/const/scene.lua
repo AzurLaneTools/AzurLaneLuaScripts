@@ -1670,6 +1670,13 @@ slot1 = {
 			paintingNameList = PaintingGroupConst.FiltePaintingRes(slot2),
 			finishFunc = slot1
 		})
+	end,
+	MallMapMediator = function (slot0, slot1)
+		PaintingGroupConst.PaintingDownload({
+			isShowBox = true,
+			paintingNameList = PaintingGroupConst.GetPaintingNameListForMallAct(),
+			finishFunc = slot1
+		})
 	end
 }
 

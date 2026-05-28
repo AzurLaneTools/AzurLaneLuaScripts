@@ -352,6 +352,7 @@ pg.fleet_tech_ship_class.all = {
 	970209,
 	970210,
 	970211,
+	970212,
 	970301,
 	970302,
 	970303,
@@ -4583,6 +4584,17 @@ end)()
 		nation = 97,
 		ships = {
 			970211
+		}
+	}
+	pg.base.fleet_tech_ship_class[970212] = {
+		shiptype = 2,
+		name = "Königsberg META",
+		t_level = 3,
+		id = 970212,
+		t_level_1 = 22,
+		nation = 97,
+		ships = {
+			970212
 		}
 	}
 	pg.base.fleet_tech_ship_class[970301] = {

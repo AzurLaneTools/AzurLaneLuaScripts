@@ -172,17 +172,17 @@ slot0.createData = function(slot0, slot1, slot2)
 		}
 	elseif slot1 == uv0.type_task_ship then
 		slot4, slot5, slot6, slot7 = unpack(slot2)
-		slot9 = pg.ship_data_statistics[slot5 * 10 + 1].name
+		slot8 = ShipGroup.getDefaultShipNameByGroupID(slot5)
 
 		if slot6 == 1 then
 			slot3 = {
 				award_num = slot7,
-				desc = i18n(uv2, slot9)
+				desc = i18n(uv2, slot8)
 			}
 		elseif slot6 == 2 then
 			slot3 = {
 				award_num = slot7,
-				desc = i18n(uv3, slot9),
+				desc = i18n(uv3, slot8),
 				scene = {
 					"DOCKYARD",
 					{

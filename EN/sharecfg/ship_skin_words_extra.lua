@@ -413,6 +413,9 @@ pg.ship_skin_words_extra.all = {
 	10600150,
 	399010,
 	105120,
+	303210,
+	899010,
+	499060,
 	305170,
 	405070,
 	408150,
@@ -12899,7 +12902,6 @@ end)()
 		main = "",
 		profile = "",
 		mission_complete = "",
-		headtouch = "",
 		feeling2 = "",
 		detail = "",
 		login = {
@@ -12924,6 +12926,12 @@ end)()
 			{
 				1100,
 				"Thanks to you, Commander, I'm able to go all-out."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Whoa. That one got my heart racing~♪"
 			}
 		},
 		main_extra = {
@@ -28912,6 +28920,215 @@ end)()
 			{
 				1100,
 				"I love you, Commander... Did that come off as too ordinary? Goodness... You think it's fine, and you want me to say it every day? Very well. I love you, Commander♡"
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[303210] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 303210,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Welcome back, Commander. You promised to join me for a walk today – I hope you haven't forgotten!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome home. I prepared tea, sweets, and a big hug for you. Which would you like first?"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Commander, please pet me more... It makes me very happy."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"My travel diary is full of all the things that have happened during our wanderings. Look at this page... Oh, and this one... Hehehehe...|Oof... I was running through the hall, and I ended up hitting a pillar. It hurts a little...|I wanna travel the world together... Hm? You're worried about work? Heehee, even if we go far away, I have ways to get your paperwork delivered in no time!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"We can hold hands wherever we like from now on, okay?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"I-I'm not embarrassed anymore... as long as I'm with you..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Whenever I think of you, my heart gets all warm and fuzzy, and my fingertips play such pretty melodies... This is my love for you, Commander♪"
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[899010] = {
+		feeling3 = "",
+		win_mvp = "",
+		expedition = "",
+		mission = "",
+		id = 899010,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"My sense of duty strengthens whenever you turn to look at me. I hope you will allow me to join you for your plans today."
+			}
+		},
+		home = {
+			{
+				1100,
+				"The safety of my sisters in arms delights me more than any victory... and your safety, Commander, even more so."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Your hand is enough to quell the turbulence of my heart. Can I ask you to stay like that a while longer?"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"How about a short break? This place is enveloped by a peacefulness that allows the mind to settle... It is perfect for us to spend some quiet time."
+			}
+		},
+		upgrade = {
+			{
+				1100,
+				"I shall use this power to defend our vow."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"This quiet is unlike that before a battle. Instead, I am reminded of the weight of our vow. But it is far from a burden. It is a comforting weight.|What am I reading? Ah, it is a book on gardening... I was considering planting some irises on the veranda.|I thought the path I walked would lead me to countless battles, and yet here I am enjoying this peace with you... Oh, what a wonderful reward. It is far more sacred than any victory."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Your touch reassures me more than any prayer."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"I have checked all the rewards. They are useless as far as I am concerned, but I'm happy to see they bring such a contented smile to your face."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Ahem. We cannot let the others witness this..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"The days I spend with you bring me a satisfaction and a happiness that I have never known before. This... is likely the home that I have been searching for."
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[499060] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 499060,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"So you've come, Commander. My aide has long since noticed your presence – but this time, she's not the restless one."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Right on schedule. You know not to keep the Unhulde waiting."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Today... I'd like to be the kind of Unhulde who isn't so bothered by a few head pats."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Do I seem gentler than usual? Maybe so. When I saw that look on your face, I couldn't help but want to be a little sweeter to you."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Come and embrace me until I'm satisfied. Or else... you may be subjected to my more \"magical\" methods.|Oh? Instead of running away, you're coming right to me for a hug? I can't wait to see what surprises you have in store...|I like it when your eyes are focused on me. Ah... I'm not asking you to look at me – I'm DEMANDING it, my dear."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Are you ready to receive my teachings, Commander?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Would it make this more fun if I struggled? Okay... Let's take turns trying it."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"An eternal vow has tied our souls and our destinies together, never to be unbound. Struggle as you might, the fetters of love will only entwine ever tighter."
 			}
 		}
 	}

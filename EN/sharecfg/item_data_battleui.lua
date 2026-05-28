@@ -17,6 +17,7 @@ pg.item_data_battleui.all = {
 	111,
 	113,
 	114,
+	115,
 	201,
 	202,
 	203,
@@ -233,6 +234,21 @@ pg.base.item_data_battleui = {}
 		desc = "A mystical glow filters through the gaps of the ancient ivy growing around your screen. Grace each battle with the enchantment and vitality of the deep forest.",
 		id = 114,
 		icon = "114",
+		scene = {},
+		rare_display = {
+			1
+		}
+	}
+	pg.base.item_data_battleui[115] = {
+		name = "Azure Core",
+		key = "SkinNormal_20260528",
+		display_icon = "ui_115",
+		unlock = "Cruise Missions S29",
+		is_unlock = 1,
+		rare = 3,
+		desc = "A rusty, mechanical heart beats anew, reverberating with the souls of ancient civilizations.",
+		id = 115,
+		icon = "115",
 		scene = {},
 		rare_display = {
 			1

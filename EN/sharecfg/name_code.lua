@@ -434,6 +434,7 @@ pg.name_code.all = {
 	551,
 	552,
 	553,
+	563,
 	554,
 	555,
 	556,
@@ -3480,6 +3481,13 @@ end)()
 		type = 1,
 		id = 553,
 		code = "Köln META",
+		nation = 0
+	}
+	pg.base.name_code[563] = {
+		name = "Unzen-chan",
+		type = 1,
+		id = 563,
+		code = "Unzen-chan",
 		nation = 0
 	}
 	pg.base.name_code[554] = {

@@ -238,6 +238,7 @@ slot0.init = function(slot0)
 
 	slot0.destroyConfirmWindow = ShipDestoryConfirmWindow.New(slot0._tf, slot0.event)
 	slot0.searchBar = RecordableSearchBar.New(RecordableSearchBar.CreateData({
+		refresh_pos_when_expand = true,
 		holder = i18n("dockyard_search_holder"),
 		onActive = function (slot0)
 			setActive(uv0.preferenceAndAttrContainer, not slot0)
@@ -246,8 +247,9 @@ slot0.init = function(slot0)
 			uv0:filter()
 		end,
 		key = slot0.__cname,
-		parent = slot0.blurPanel:Find("adapt"),
-		anchoredPosition = Vector3(getAnchoredPosition(slot0.switchPanel).x, slot0.topPanel.sizeDelta.y * -0.5, 0)
+		parent = slot0.switchPanel,
+		expand_parent = slot0.blurPanel:Find("adapt"),
+		anchoredPosition = Vector3(-33, -33, 0)
 	}))
 end
 

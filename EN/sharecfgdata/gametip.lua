@@ -48978,6 +48978,104 @@ _G.pg.base.gametip.exchange_code_skin_tip = {
 }
 
 
+_G.pg.base.gametip.battlepass_main_tip_2606 = {
+	tip = "Complete Cruise Missions between 6/1/2026 - 7/31/2026, accumulate <icon name=pt w=0.5 h=0.5/>, and receive <color=#854747>Königsberg META</color> and other rewards!"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2606 = {
+	tip = {
+		{
+			info = [[
+Cruise Missions Seasonal Campaign
+6/1/2026 00:00 – 7/31/2026 23:59
+
+- Overview -
+""Cruise Missions"" is a seasonal campaign where you can complete special missions, collect Progress Pts, and obtain great rewards for reaching certain Progress milestones.
+Additionally, you can unlock an additional set of ""Fair Winds Cruise"" rewards by purchasing the ""Fair Winds Cruise Pass"" item from Akashi's shop.
+Königsberg META will be obtainable from the regular Cruise Missions rewards. By upgrading to the Fair Winds Cruise, you will also be able to obtain an exclusive outfit for Miyuki, ""Mochi Mishaps"".
+
+- How to Play -
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts for any missions you've completed.
+· If you purchase a Fair Winds Cruise Pass, you will automatically receive 15 levels worth of progress (1500 Progress Pts).
+· You can receive rewards for reaching certain Progress milestones. There are two types of rewards:
+a) Cruise Rewards - Rewards that can be obtained based on the total number of accumulated Progress Pts. There are a total of 100 levels.
+b) Fair Winds Rewards - An additional set of rewards that will be unlocked when you purchase a Fair Winds Cruise Pass. As with the regular Cruise Rewards, there are a total of 100 levels, and they can be collected alongside Cruise Rewards at the same Progress level.
+· When the campaign season ends, your Progress Pts will be reset.
+
+- Tips - 
+· Play at your own pace
+Cruise Missions have a total of 100 Progress levels, and are not meant to be cleared in one session. We recommend that you complete them at your own pace.
+
+· Fair Winds Cruise Pass
+If you purchase a Fair Winds Cruise Pass from Akashi's shop, you will automatically earn 1500 Progress Pts and unlock access to valuable rewards. Furthermore, there is an exclusive outfit available only through the Fair Winds rewards, so please plan accordingly.
+
+· Skipping Missions (not recommended)
+You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2606 = {
+	tip = {
+		{
+			info = [[
+- Regarding Cruise Missions - 
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
+
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts for any missions you've completed.
+
+· You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_title_2606 = {
+	tip = "Cruise Missions - S29"
+}
+
+
+_G.pg.base.gametip.littleyunxian_npc = {
+	tip = {
+		{
+			info = "- Overview -\nDuring the event, Unzen-chan will provisionally join your fleet. Complete missions during the event to earn Trust. Collect enough Trust to have Unzen-chan permanently join your fleet!"
+		},
+		{
+			info = "- How to Play -\n· During the event period, you can earn Trust by defeating the boss fleet in stages at or after Chapter 3 of the Campaign, or in event stages (excluding War Archives). You will be able to unlock rewards by reaching certain Trust milestones."
+		},
+		{
+			info = "· When you defeat the boss of a stage that awards Trust, you will earn twice as much Trust if Unzen-chan is still afloat in one of the fleets at that time."
+		},
+		{
+			info = "· You will not be able to give a Promise Ring to Unzen-chan until you have formally recruited her to the fleet. You will also not be able to Retire or use her as Enhancement or Limit Break material."
+		},
+		{
+			info = "· If Unzen-chan has not been formally recruited by the end of the event, she will leave the Port."
+		},
+		{
+			info = "· Rewards for reaching certain amounts of Trust will unlock in phases, one phase per day until June 3rd."
+		},
+		{
+			info = "· Unzen-chan cannot participate in Operation Siren or META Showdowns until she has been formally recruited."
+		},
+		{
+			info = "· Unzen-chan cannot participate in Guild Bosses until she has been formally recruited."
+		}
+	}
+}
+
+
 _G.pg.base.gametip.littleMusashi_npc = {
 	tip = {
 		{
@@ -49430,6 +49528,11 @@ _G.pg.base.gametip.mall_continue_to_unlock = {
 }
 
 
+_G.pg.base.gametip.mall_pos_lock = {
+	tip = "提升购物中心等级后解锁"
+}
+
+
 _G.pg.base.gametip.GeZiURCoreActivityUI_subtitle_1 = {
 	tip = "Event"
 }
@@ -49502,4 +49605,19 @@ _G.pg.base.gametip.mall_unlock_date_tip2 = {
 
 _G.pg.base.gametip.mall_order_finished_all_tip = {
 	tip = "All custom orders have been fulfilled."
+}
+
+
+_G.pg.base.gametip.littleyunxian_tip1 = {
+	tip = "PHASE"
+}
+
+
+_G.pg.base.gametip.littleyunxian_tip2 = {
+	tip = "Total"
+}
+
+
+_G.pg.base.gametip.OutPostCoreActivityUI_subtitle_3 = {
+	tip = "As Lustrous as Lacquer"
 }

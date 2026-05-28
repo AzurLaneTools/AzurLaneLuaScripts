@@ -266,6 +266,7 @@ pg.memory_group.all = {
 	364,
 	365,
 	366,
+	367,
 	501,
 	502,
 	503,
@@ -7112,6 +7113,20 @@ end)()
 			5204
 		}
 	}
+	pg.base.memory_group[367] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 51011,
+		title = "As Lustrous as Lacquer",
+		auto_unlock = "",
+		subtype = 3,
+		id = 367,
+		group_id = "",
+		memories = {
+			5211
+		}
+	}
 	pg.base.memory_group[501] = {
 		ship_group = 31201,
 		icon = "title_chara_mingshi",
@@ -7937,6 +7952,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[539] = {
 		ship_group = 20502,
 		icon = "title_chara_yanzhan",
@@ -7959,8 +7976,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[540] = {
 		ship_group = 10738,
 		icon = "title_chara_xianggelila",
