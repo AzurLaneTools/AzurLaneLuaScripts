@@ -41754,5 +41754,5 @@ _G.pg.base.gametip.AnniversaryNineCoreActivityUI_subtitle_6 = {
 
 
 _G.pg.base.gametip.Outpost_20260514_Detail = {
-	tip = "看詳情"
+	tip = "查看詳情"
 }
