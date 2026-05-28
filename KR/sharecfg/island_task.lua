@@ -20932,7 +20932,7 @@ end)()
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
-		series_name = "岛屿日常",
+		series_name = "아일랜드에서의 나날",
 		id = 40111001,
 		unlock_condition = {
 			{

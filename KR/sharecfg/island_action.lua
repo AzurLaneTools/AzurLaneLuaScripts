@@ -527,7 +527,7 @@ pg.base.island_action = {}
 		},
 		jump_page = {
 			{
-				"星彩奖",
+				"별빛상",
 				{}
 			}
 		}
@@ -550,7 +550,7 @@ pg.base.island_action = {}
 		},
 		jump_page = {
 			{
-				"星彩奖",
+				"별빛상",
 				{}
 			}
 		}
@@ -678,7 +678,7 @@ pg.base.island_action = {}
 		},
 		jump_page = {
 			{
-				"星彩奖",
+				"별빛상",
 				{}
 			}
 		}

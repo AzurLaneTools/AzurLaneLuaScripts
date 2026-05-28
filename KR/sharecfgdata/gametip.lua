@@ -38950,6 +38950,11 @@ _G.pg.base.gametip.storyline_chapter4 = {
 }
 
 
+_G.pg.base.gametip.storyline_chapter5 = {
+	tip = "간장"
+}
+
+
 _G.pg.base.gametip.storyline_memorysearch1 = {
 	tip = "스토리 검색"
 }
@@ -47975,6 +47980,46 @@ _G.pg.base.gametip.l2d_tip_off = {
 }
 
 
+_G.pg.base.gametip.YidaliV5FramePage_go = {
+	tip = "확인"
+}
+
+
+_G.pg.base.gametip.YidaliV5FramePage_get = {
+	tip = "수령"
+}
+
+
+_G.pg.base.gametip.YidaliV5FramePage_got = {
+	tip = "수령 완료"
+}
+
+
+_G.pg.base.gametip["20260514_story_unlock_tip"] = {
+	tip = "6/5 점검 후 오픈"
+}
+
+
+_G.pg.base.gametip.OutPostCoreActivityUI_subtitle_1 = {
+	tip = "작전 준비"
+}
+
+
+_G.pg.base.gametip.OutPostCoreActivityUI_subtitle_2 = {
+	tip = "회점의 전조"
+}
+
+
+_G.pg.base.gametip.OutPostOmenPage_task_tip1 = {
+	tip = "$1월 $2일에 오픈"
+}
+
+
+_G.pg.base.gametip.OutPostOmenPage_task_tip2 = {
+	tip = "지난 임무 보상 수령 시 오픈"
+}
+
+
 _G.pg.base.gametip.play_room_season = {
 	tip = "시즌"
 }
@@ -48429,4 +48474,24 @@ _G.pg.base.gametip.littleMusashi_npc = {
 			info = "7. 임시 가입 상태인 [꼬마 무사시]는 대함대 작전에 참여할 수 없습니다. "
 		}
 	}
+}
+
+
+_G.pg.base.gametip["260514_story_title"] = {
+	tip = "회점의 전조"
+}
+
+
+_G.pg.base.gametip["260514_story_title_en"] = {
+	tip = "Omen in dust spot"
+}
+
+
+_G.pg.base.gametip.AnniversaryNineCoreActivityUI_subtitle_6 = {
+	tip = "아름다운 휴일"
+}
+
+
+_G.pg.base.gametip.Outpost_20260514_Detail = {
+	tip = "상세 확인"
 }

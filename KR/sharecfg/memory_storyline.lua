@@ -96,7 +96,8 @@ pg.memory_storyline.all = {
 	91,
 	92,
 	93,
-	94
+	94,
+	95
 }
 pg.base = pg.base or {}
 pg.base.memory_storyline = {}
@@ -2524,12 +2525,39 @@ pg.base.memory_storyline = {}
 			7
 		},
 		link_event = {
-			94
+			94,
+			95
 		}
 	}
 	pg.base.memory_storyline[94] = {
-		description = "기대해주세요",
-		name = "기대해주세요",
+		description = "쇠퇴한 대지, 썩어 무너진 성채, 빛 없는 대낮, 뼛속을 파고드는 매서운 바람……\n떠오르는 잿빛 점 너머로 보이는 것은 무엇인가?",
+		name = "회점의 전조",
+		column = 59,
+		world_id = "",
+		bgm = "battle-pacific",
+		row = -1,
+		chapter = 5,
+		memory_lock = 0,
+		id = 94,
+		icon = "InterludeOne_1",
+		sort = 1,
+		memory_id = {
+			1,
+			363
+		},
+		shipnation = {
+			1,
+			10,
+			4,
+			7
+		},
+		link_event = {
+			95
+		}
+	}
+	pg.base.memory_storyline[95] = {
+		description = "敬请期待",
+		name = "敬请期待",
 		shipnation = 0,
 		memory_id = "",
 		link_event = "",
@@ -2539,7 +2567,7 @@ pg.base.memory_storyline = {}
 		row = 0,
 		chapter = 0,
 		memory_lock = 1,
-		id = 94,
+		id = 95,
 		icon = "",
 		sort = 0
 	}

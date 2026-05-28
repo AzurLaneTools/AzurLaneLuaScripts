@@ -263,6 +263,8 @@ pg.memory_group.all = {
 	360,
 	361,
 	362,
+	363,
+	364,
 	501,
 	502,
 	503,
@@ -6783,6 +6785,42 @@ end)()
 			5107
 		}
 	}
+	pg.base.memory_group[363] = {
+		icon = "title_event",
+		type = 2,
+		link_event = 51005,
+		title = "회점의 전조",
+		auto_unlock = "",
+		subtype = 1,
+		id = 363,
+		group_id = "",
+		memories = {
+			5121,
+			5122,
+			5123,
+			5124,
+			5125,
+			5126,
+			5127
+		}
+	}
+	pg.base.memory_group[364] = {
+		icon = "title_event",
+		type = 2,
+		link_event = 51001,
+		title = "아름다운 휴일로 전속 전진!",
+		auto_unlock = "",
+		subtype = 2,
+		id = 364,
+		group_id = "",
+		memories = {
+			5131,
+			5132,
+			5133,
+			5134,
+			5135
+		}
+	}
 	pg.base.memory_group[501] = {
 		icon = "title_chara_mingshi",
 		type = 3,
@@ -7613,6 +7651,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[542] = {
 		icon = "title_chara_sipei",
 		type = 3,
@@ -7655,8 +7695,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[544] = {
 		icon = "title_chara_u556story",
 		type = 3,

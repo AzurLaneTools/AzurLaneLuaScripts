@@ -8535,140 +8535,6 @@ pg.activity_ins_chat_language.all = {
 	8530,
 	8531,
 	8532,
-	8533,
-	8534,
-	8535,
-	8536,
-	8537,
-	8538,
-	8539,
-	8540,
-	8541,
-	8542,
-	8543,
-	8544,
-	8545,
-	8546,
-	8547,
-	8548,
-	8549,
-	8550,
-	8551,
-	8552,
-	8553,
-	8554,
-	8555,
-	8556,
-	8557,
-	8558,
-	8559,
-	8560,
-	8561,
-	8562,
-	8563,
-	8564,
-	8565,
-	8566,
-	8567,
-	8568,
-	8569,
-	8570,
-	8571,
-	8572,
-	8573,
-	8574,
-	8575,
-	8576,
-	8577,
-	8578,
-	8579,
-	8580,
-	8581,
-	8582,
-	8583,
-	8584,
-	8585,
-	8586,
-	8587,
-	8588,
-	8589,
-	8590,
-	8591,
-	8592,
-	8593,
-	8594,
-	8595,
-	8596,
-	8597,
-	8598,
-	8599,
-	8600,
-	8601,
-	8602,
-	8603,
-	8604,
-	8605,
-	8606,
-	8607,
-	8608,
-	8609,
-	8610,
-	8611,
-	8612,
-	8613,
-	8614,
-	8615,
-	8616,
-	8617,
-	8618,
-	8619,
-	8620,
-	8621,
-	8622,
-	8623,
-	8624,
-	8625,
-	8626,
-	8627,
-	8628,
-	8629,
-	8630,
-	8631,
-	8632,
-	8633,
-	8634,
-	8635,
-	8636,
-	8637,
-	8638,
-	8639,
-	8640,
-	8641,
-	8642,
-	8643,
-	8644,
-	8645,
-	8646,
-	8647,
-	8648,
-	8649,
-	8650,
-	8651,
-	8652,
-	8653,
-	8654,
-	8655,
-	8656,
-	8657,
-	8658,
-	8659,
-	8660,
-	8661,
-	8662,
-	8663,
-	8664,
-	8665,
-	8666,
 	8667,
 	8668,
 	8669,
@@ -9168,7 +9034,214 @@ pg.activity_ins_chat_language.all = {
 	9163,
 	9164,
 	9165,
-	9166
+	9166,
+	8533,
+	8534,
+	8535,
+	8536,
+	8537,
+	8538,
+	8539,
+	8540,
+	8541,
+	8542,
+	8543,
+	8544,
+	8545,
+	8546,
+	8547,
+	8548,
+	8549,
+	8550,
+	8551,
+	8552,
+	8553,
+	8554,
+	8555,
+	8556,
+	8557,
+	8558,
+	8559,
+	8560,
+	8561,
+	8562,
+	8563,
+	8564,
+	8565,
+	8566,
+	8567,
+	8568,
+	8569,
+	8570,
+	8571,
+	8572,
+	8573,
+	8574,
+	8575,
+	8576,
+	8577,
+	8578,
+	8579,
+	8580,
+	8581,
+	8582,
+	8583,
+	8584,
+	8585,
+	8586,
+	8587,
+	8588,
+	8589,
+	8590,
+	8591,
+	8592,
+	8593,
+	8594,
+	8595,
+	8596,
+	8597,
+	8598,
+	8599,
+	8600,
+	8601,
+	8602,
+	8603,
+	8604,
+	8605,
+	8606,
+	8607,
+	8608,
+	8609,
+	8610,
+	8611,
+	8612,
+	8613,
+	8614,
+	8615,
+	8616,
+	8617,
+	8618,
+	8619,
+	8620,
+	8621,
+	8622,
+	8623,
+	8624,
+	8625,
+	8626,
+	8627,
+	8628,
+	8629,
+	8630,
+	8631,
+	8632,
+	8633,
+	8634,
+	8635,
+	8636,
+	8637,
+	8638,
+	8639,
+	8640,
+	8641,
+	8642,
+	8643,
+	8644,
+	8645,
+	8646,
+	8647,
+	8648,
+	8649,
+	8650,
+	8651,
+	8652,
+	8653,
+	8654,
+	8655,
+	8656,
+	8657,
+	8658,
+	8659,
+	8660,
+	8661,
+	8662,
+	8663,
+	8664,
+	8665,
+	8666,
+	9167,
+	9168,
+	9169,
+	9170,
+	9171,
+	9172,
+	9173,
+	9174,
+	9175,
+	9176,
+	9177,
+	9178,
+	9179,
+	9180,
+	9181,
+	9182,
+	9183,
+	9184,
+	9185,
+	9186,
+	9187,
+	9188,
+	9189,
+	9190,
+	9191,
+	9192,
+	9193,
+	9194,
+	9195,
+	9196,
+	9197,
+	9198,
+	9199,
+	9200,
+	9201,
+	9202,
+	9203,
+	9204,
+	9205,
+	9206,
+	9207,
+	9208,
+	9209,
+	9210,
+	9211,
+	9212,
+	9213,
+	9214,
+	9215,
+	9216,
+	9217,
+	9218,
+	9219,
+	9220,
+	9221,
+	9222,
+	9223,
+	9224,
+	9225,
+	9226,
+	9227,
+	9228,
+	9229,
+	9230,
+	9231,
+	9232,
+	9233,
+	9234,
+	9235,
+	9236,
+	9237,
+	9238,
+	9239
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_chat_language = {}
@@ -84925,6 +84998,4306 @@ end)()
 		id = 8532,
 		flag = 4
 	}
+	pg.base.activity_ins_chat_language[8667] = {
+		param = "방울을 울렸는데, 들으셨나요?",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8667,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8668] = {
+		param = "사실 무척 고민스러운 문제에 직면했답니다.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8668,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8669] = {
+		param = "그래서 당신의 지혜를 빌리려고요.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8669,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8670] = {
+		param = "지금 가구점에서 소파를 고르고 있는데, 꽤 고급스러워 보이는 걸 두 개 찾았어요.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8670,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8671] = {
+		param = "하나는 보석이 박혀 있고, 정교한 조각 장식도 있어서 아주 화려해 보여요.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8671,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8672] = {
+		param = "다른 하나는 최고급 소재라 푹신함은 최고지만, 겉모습이 조금 수수하네요.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8672,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8673] = {
+		param = "처음 봤을 때는 첫 번째 소파가 마음에 들었는데, 두 번째 소파에 앉아보니 조금 망설여져서요……",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8673,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8674] = {
+		param = "당신이라면 어느 쪽을 고르겠어요?",
+		ship_group = 30717,
+		type = 1,
+		id = 8674,
+		flag = 0,
+		option = {
+			{
+				1,
+				"첫 번째 것"
+			},
+			{
+				2,
+				"두 번째 것"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8675] = {
+		param = "첫 번째 소파가 좋겠어. 화려하면 기분까지 좋아지잖아.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8675,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8676] = {
+		param = "두 번째 소파가 좋으려나? 그래도 앉았을 때 편안해야 좋잖아?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8676,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8677] = {
+		param = "으음…… 조금만 생각할 시간을 주세요.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8677,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8678] = {
+		param = "아아, 정말! 고민되네요!",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8678,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8679] = {
+		param = "화려함과 안락함을 모두 갖춘 소파는 없는 걸까요?",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8679,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8680] = {
+		param = "어느 쪽을 고르면 좋지……",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8680,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8681] = {
+		param = "그래…… 차라리……",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8681,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8682] = {
+		param = "……지휘관, 완벽한 해결책이 떠올랐어요!",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8682,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8683] = {
+		param = "이 누님은 하나만 고르지 않고 둘 다 사기로 했답니다!",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8683,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8684] = {
+		param = "303",
+		ship_group = 30717,
+		option = "",
+		type = 4,
+		id = 8684,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8685] = {
+		param = "첫 번째 소파는 거실에 둬서 손윗사람으로서의 품격을 드높이고",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8685,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8686] = {
+		param = "두 번째 소파는 침실에 둬서 쉴 때 푹 쉴 거예요!",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8686,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8687] = {
+		param = "역시 돈으로 해결할 수 없는 문제는 없네요♪",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8687,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8688] = {
+		param = "크흠!",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8688,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8689] = {
+		param = "지금 저와 함께 식사할 사람을 모집 중이랍니다. 자원하실 분 없나요?",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8689,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8690] = {
+		param = "근처에 새로 생긴 고급 레스토랑이 있어서, 조금 가보고 싶은데……",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8690,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8691] = {
+		param = "메뉴 중에 도저히 입에 맞지 않는 식재료가 있어서요……",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8691,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8692] = {
+		param = "먹어보지도 않고 싫어하는 건 아니에요! 그저 저와 맞지 않을 뿐이니 부디 오해하지 마시길!",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8692,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8693] = {
+		param = "어쨌든 식재료를 낭비하지 않으려면, 함께 먹어줄 사람이 필요해요.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8693,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8694] = {
+		param = "그래서 지휘관, 당신으로 정했답니다.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8694,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8695] = {
+		param = "교통비도 식비도 전부 이 누님이 낼게요. 어때요?",
+		ship_group = 30717,
+		type = 1,
+		id = 8695,
+		flag = 0,
+		option = {
+			{
+				1,
+				"그런 솔깃한 제안을?"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8696] = {
+		param = "그렇게 솔깃한 제안을?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8696,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8697] = {
+		param = "미리 말해두지만, 이 가게는 식사하는 경험 자체를 중시하는 곳이라",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8697,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8698] = {
+		param = "요리 하나하나가 무척 섬세하고 설명도 곁들여지거든요.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8698,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8699] = {
+		param = "그래서 식사 시간이 조금 길어질 거예요.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8699,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8700] = {
+		param = "주말에 갈 테니까 시간은 꼭 비워두세요.",
+		ship_group = 30717,
+		type = 1,
+		id = 8700,
+		flag = 1,
+		option = {
+			{
+				2,
+				"좋아. 밥 먹은 다음엔……"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8701] = {
+		param = "좋아. 밥 먹은 다음엔 뭐 할까?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8701,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8702] = {
+		param = "영화라도 보러 갈까 하는데…….",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8702,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8703] = {
+		param = "그러면…… 너무 데이트 같죠?!",
+		ship_group = 30717,
+		type = 1,
+		id = 8703,
+		flag = 2,
+		option = {
+			{
+				3,
+				"그런 거 아니야?"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8704] = {
+		param = "데이트 아니었어?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8704,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8705] = {
+		param = "마치 이 누님이 적극적으로 데이트 신청을 하는 것처럼 말하다니…!",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8705,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8706] = {
+		param = "그저 같이 먹어줄 사람이 필요했을 뿐인데……",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8706,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8707] = {
+		param = "아무튼 한턱 내는 거니까 제대로 감사하도록 하세요!",
+		ship_group = 30717,
+		type = 1,
+		id = 8707,
+		flag = 3,
+		option = {
+			{
+				4,
+				"고마워……"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8708] = {
+		param = "고마워! 누님!",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8708,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[8709] = {
+		param = "그거면 됐어요.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8709,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[8710] = {
+		param = "이 누님은 당신을 소중히 여기니까요.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8710,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[8711] = {
+		param = "앞으로도 맛있는 게 있으면 또 불러줄게요~",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8711,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[8712] = {
+		param = "딸랑딸랑~",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8712,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8713] = {
+		param = "방울을 울렸답니다. 지휘관, 있어요?",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8713,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8714] = {
+		param = "또 고민스러운 문제에 직면하고 말았어요.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8714,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8715] = {
+		param = "한 번 더 당신의 지혜를 빌려줘요.",
+		ship_group = 30717,
+		type = 1,
+		id = 8715,
+		flag = 0,
+		option = {
+			{
+				1,
+				"「또」？"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8716] = {
+		param = "「또」? 지난번 소파 고르기 이야기의 연장선이야?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8716,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8717] = {
+		param = "네.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8717,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8718] = {
+		param = "그런 다음, 소파를 둘 다 샀는데… 문제가 좀 생겼어요.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8718,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8719] = {
+		param = "막상 방에 두려니 공간이 부족해요.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8719,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8720] = {
+		param = "침실에 두니까 통로가 너무 좁아져서",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8720,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8721] = {
+		param = "걸을 때 옆으로 몸을 비틀어야 할 정도예요.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8721,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8722] = {
+		param = "그래서 지금 쓰는 크고 화려한 침대를 한 치수 작은 걸로 바꿀까 하는데……",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8722,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8723] = {
+		param = "그러는 김에 지휘관은 어떤 침대가 좋은지도 물어보려던 참이었어요……",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8723,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8724] = {
+		param = "그냥 참고용이에요. 그뿐이랍니다.",
+		ship_group = 30717,
+		type = 1,
+		id = 8724,
+		flag = 1,
+		option = {
+			{
+				2,
+				"침대를 작은 걸로 바꾸면……"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8725] = {
+		param = "침대를 작은 걸로 바꾸면 품격이 떨어지지 않을까?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8725,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8726] = {
+		param = "으음…… 일리가 있네요!",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8726,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8727] = {
+		param = "이 침대도 살 때 꽤 고민한 끝에 결정한 거니까요.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8727,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8728] = {
+		param = "바꿨다가 후회해도 난감하고……",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8728,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8729] = {
+		param = "그런 중요한 걸 놓치다니, 이런 실책을…!",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8729,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8730] = {
+		param = "어떻게 하면 좋을까요……",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8730,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8731] = {
+		param = "소파도 두고 싶고, 이 침대도 포기하기 싫은데……",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8731,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8732] = {
+		param = "그래! 더 넓은 방으로 이사하면 전부 둘 수 있겠네요!",
+		ship_group = 30717,
+		type = 1,
+		id = 8732,
+		flag = 2,
+		option = {
+			{
+				3,
+				"역시 우리 누님!"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8733] = {
+		param = "역시 우리 누님이야. 금방 해결책을 생각해냈네.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8733,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8734] = {
+		param = "당연하죠♪",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8734,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8735] = {
+		param = "하지만 방을 옮기는 건 아무래도 직접 봐야 결정할 수 있죠.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8735,
+		flag = 3
+	}
+end)()
+(function ()
+	pg.base.activity_ins_chat_language[8736] = {
+		param = "지휘관, 시간 되나요?",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8736,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8737] = {
+		param = "당신의 취향에 맞는 방을……",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8737,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8738] = {
+		param = "어쨌든 일단 같이 가요! 결정된 거예요!",
+		ship_group = 30717,
+		type = 1,
+		id = 8738,
+		flag = 3,
+		option = {
+			{
+				4,
+				"바로 갈게"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8739] = {
+		param = "지금 바로 갈게.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8739,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[8740] = {
+		param = "기다리고 있을게요.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8740,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[8741] = {
+		param = "앞으로 오랫동안 함께 지낼 장소니까, 제대로 골라야죠.",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 8741,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[8742] = {
+		param = "운명의 상대여, 드디어 내가 하늘의 사자라는 증표를 찾아냈다.",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8742,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8743] = {
+		param = "보고 싶나?",
+		ship_group = 30228,
+		type = 1,
+		id = 8743,
+		flag = 0,
+		option = {
+			{
+				1,
+				"사자의 증표?"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8744] = {
+		param = "사자의 증표? 그게 뭐야?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8744,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8745] = {
+		param = "후훗♪ 듣고 기절이나 하지 말라고.",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8745,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8746] = {
+		param = "방금 막 깨달았는데, 내가 영감 상태에 들어가면……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8746,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8747] = {
+		param = "머리카락이 자기 맘대로 곤두서!",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8747,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8748] = {
+		param = "바람에 휘날리는 게 아니라, 정말로 꼿꼿이 선다고! 실로 멋지지 아니한가?!",
+		ship_group = 30228,
+		type = 1,
+		id = 8748,
+		flag = 1,
+		option = {
+			{
+				2,
+				"확실히 좀 신기하긴 하네"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8749] = {
+		param = "확실히 좀 신기하긴 하네.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8749,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8750] = {
+		param = "사진 있어? 좀 보고 싶은데.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8750,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8751] = {
+		param = "지금 찍어주지……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8751,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8752] = {
+		param = "……잠깐.",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8752,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8753] = {
+		param = "왜 안 서는 거지?",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8753,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8754] = {
+		param = "운명의 상대여, 잠시만 기다려라.",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8754,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8755] = {
+		param = "다시 영감 상태에 들어가 보마!",
+		ship_group = 30228,
+		type = 1,
+		id = 8755,
+		flag = 2,
+		option = {
+			{
+				3,
+				"정전기 때문 아니야?"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8756] = {
+		param = "정전기 때문 아니야?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8756,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8757] = {
+		param = "헛소리하지 마라……!",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8757,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8758] = {
+		param = "그런 단순한 자연현상과 똑같을리 없다!",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8758,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8759] = {
+		param = "지금 당장 증명해 주마!",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8759,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8760] = {
+		param = "뿜어내는 뇌전을 강화해서, 단숨에 영감 상태에 들어가면……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8760,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8761] = {
+		param = "왜 갑자기 전등이 다 꺼진 거지?",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8761,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8762] = {
+		param = "안 켜져…… 정전인가?",
+		ship_group = 30228,
+		type = 1,
+		id = 8762,
+		flag = 3,
+		option = {
+			{
+				4,
+				"괜찮아?"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8763] = {
+		param = "괜찮아? 지금 그쪽으로 갈까?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8763,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[8764] = {
+		param = "그냥 정전일 뿐…… 아무렇지도 않아! 정말이다!",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8764,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[8765] = {
+		param = "하나도 안 무섭다고! 전혀!",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8765,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[8766] = {
+		param = "54",
+		ship_group = 30228,
+		option = "",
+		type = 4,
+		id = 8766,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[8767] = {
+		param = "……지금 어디야?",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8767,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[8768] = {
+		param = "운명의 상대여.",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8768,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8769] = {
+		param = "폭풍우의 전조인 바람 소리가 들리는가?",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8769,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8770] = {
+		param = "빨래를 걷을 시간이다.",
+		ship_group = 30228,
+		type = 1,
+		id = 8770,
+		flag = 1,
+		option = {
+			{
+				1,
+				"고마워"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8771] = {
+		param = "고마워. 근데 날씨가 바뀔 거라는 건 어떻게 알았어?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8771,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8772] = {
+		param = "나에게는 잠시나마 하늘의 뜻을 엿볼 수 있는 힘이 있지……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8772,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8773] = {
+		param = "방금 전의 바람에는 먹구름의 분노가 섞여 있더군.",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8773,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8774] = {
+		param = "광풍이 천둥과 번개를 몰고",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8774,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8775] = {
+		param = "만균의 기세로 하늘을 뒤덮는 호우를 뿌리리라.",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8775,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8776] = {
+		param = "지금 마침 사자의 이름으로 위대한 자연의 의지와 교신하는 중이니",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8776,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8777] = {
+		param = "이 뇌운의 분노를 잠재우고 신속하게 물러나게 해 보이마!",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8777,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8778] = {
+		param = "운명의 상대여, 내가 이 거친 날씨를 길들이는 모습을 똑똑히 지켜보거라!",
+		ship_group = 30228,
+		type = 1,
+		id = 8778,
+		flag = 1,
+		option = {
+			{
+				2,
+				"뭔가 엄청난 느낌……"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8779] = {
+		param = "솔직히 무슨 말인지는 잘 모르겠지만, 뭔가 엄청날 것 같아.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8779,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8780] = {
+		param = "이미 비가 억수같이 쏟아지는데 괜찮아?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8780,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8781] = {
+		param = "당연히 괜찮지!",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8781,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8782] = {
+		param = "조금만 더 시간을 주면……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8782,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8783] = {
+		param = "금방 비를 제어해 보이겠다!",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8783,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8784] = {
+		param = "잠깐, 바람이 너무 강한데…!",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8784,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8785] = {
+		param = "비가 정자 안까지 들이치다니……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8785,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8786] = {
+		param = "바람 주제에 무엄하군! 멈춰라! 멈추라고 말하지 않았나!",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8786,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8787] = {
+		param = "366",
+		ship_group = 30228,
+		option = "",
+		type = 4,
+		id = 8787,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8788] = {
+		param = "운명의 상대여, 도와줘……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8788,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8789] = {
+		param = "실패해 버렸어. 폭풍우 때문에 움직일 수가 없어…",
+		ship_group = 30228,
+		type = 1,
+		id = 8789,
+		flag = 2,
+		option = {
+			{
+				3,
+				"어디야?"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8790] = {
+		param = "어디야? 지금 바로 갈게.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8790,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8791] = {
+		param = "집무실 근처에 있는 작은 정자다. 쫄딱 젖었어……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8791,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8792] = {
+		param = "살려줘……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8792,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8793] = {
+		param = "나의 운명의 상대여.",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8793,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8794] = {
+		param = "지금, 확실히 느껴지는군……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8794,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8795] = {
+		param = "나와 너 사이에는 사라지지 않는 유대가 있다는 것을.",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8795,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8796] = {
+		param = "그것이 우리의 마음을 통하게 하고",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8796,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8797] = {
+		param = "어떤 상황에서도 네 의도를 깨닫게 해주지.",
+		ship_group = 30228,
+		type = 1,
+		id = 8797,
+		flag = 0,
+		option = {
+			{
+				1,
+				"대단한걸……"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8798] = {
+		param = "대단한걸. 시험 삼아 한번 해 볼래?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8798,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8799] = {
+		param = "후훗……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8799,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8800] = {
+		param = "운명의 상대는 지금… 업무를 어떻게 처리할지 고민하고 있군!",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8800,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8801] = {
+		param = "어때? 맞췄지?",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8801,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8802] = {
+		param = "금방 도와주러 가마. 눈물을 흘리며 감사하도록!",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8802,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8803] = {
+		param = "231",
+		ship_group = 30228,
+		type = 4,
+		id = 8803,
+		flag = 1,
+		option = {
+			{
+				2,
+				"아쉽지만……"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8804] = {
+		param = "아쉽지만, 방금 일을 전부 끝낸 참이야.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8804,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8805] = {
+		param = "한발 늦었네.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8805,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8806] = {
+		param = "320",
+		ship_group = 30228,
+		option = "",
+		type = 4,
+		id = 8806,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8807] = {
+		param = "운명의 상대는 혼자서도 척척 해내는군……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8807,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8808] = {
+		param = "내가 하나도…… 도움이 되지 못했어.",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8808,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8809] = {
+		param = "난 쓸모가 없어…… 쓸모가 없다고……",
+		ship_group = 30228,
+		type = 1,
+		id = 8809,
+		flag = 2,
+		option = {
+			{
+				3,
+				"사실 고민이 하나 더 있어"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8810] = {
+		param = "사실 고민이 하나 더 있어.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8810,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8811] = {
+		param = "오늘 밤은 웬일로 야근이 없어서, 뭘 할까 고민 중이거든.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8811,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8812] = {
+		param = "호오?! 그런 고민이 있었다니.",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8812,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8813] = {
+		param = "그렇지, 마침 좋은 장소가 떠오르는군.",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8813,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8814] = {
+		param = "안내해 주마. 절대 후회하지 않게 해주지!",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8814,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8815] = {
+		param = "자세한 내용은……",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8815,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8816] = {
+		param = "운명의 상대여, 기대하고 있거라. 지금 바로 가겠다!",
+		ship_group = 30228,
+		option = "",
+		type = 1,
+		id = 8816,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8817] = {
+		param = "지휘관님~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8817,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8818] = {
+		param = "오늘도 열심히 일하는 제 모습, 잘 지켜보셨나요?",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8818,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8819] = {
+		param = "일을 얼마나 많이 처리했는지 아시죠~",
+		ship_group = 30229,
+		type = 1,
+		id = 8819,
+		flag = 0,
+		option = {
+			{
+				1,
+				"수고했어……"
+			},
+			{
+				2,
+				"앞으로도 열심히 해"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8820] = {
+		param = "수고했어, 덕분에 오늘은 한결 수월했어.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8820,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8821] = {
+		param = "제법 열심히 했답니다.",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8821,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8822] = {
+		param = "그러니까 그에 상응하는 포상이 따라야겠죠~?",
+		ship_group = 30229,
+		type = 1,
+		id = 8822,
+		flag = 1,
+		option = {
+			{
+				3,
+				"어떤 포상을 원해?"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8823] = {
+		param = "잘했어, 그 기세로 계속해서 힘내줘.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8823,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8824] = {
+		param = "에이~ 「앞으로도」라니요.",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8824,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8825] = {
+		param = "지휘관님의 포상이 없으면, 앞으로 계속할 의욕이 안 난단 말이에요~",
+		ship_group = 30229,
+		type = 1,
+		id = 8825,
+		flag = 2,
+		option = {
+			{
+				3,
+				"어떤 포상을 원해?"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8826] = {
+		param = "어떤 포상을 원해?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8826,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8827] = {
+		param = "으음, 글쎄요……",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8827,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8828] = {
+		param = "그럼, 지휘관님이 제 꼬리를 관리해 주시는 걸로 하죠~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8828,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8829] = {
+		param = "[파일 「꼬리 관리 가이드」]",
+		ship_group = 1,
+		type = 5,
+		id = 8829,
+		flag = 3,
+		option = {
+			{
+				4,
+				"수신"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8830] = {
+		param = "파일 「꼬리 관리 가이드」를 수신했습니다.",
+		ship_group = 0,
+		option = "",
+		type = 5,
+		id = 8830,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[8831] = {
+		param = "제 꼬리 관리는 절차가 까다로우니까, 한가할 때 미리 공부해 두세요~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8831,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[8832] = {
+		param = "정성껏 관리해 줘서 이렇게 예쁘고 매끄러운 거예요.",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8832,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[8833] = {
+		param = "꼬리 관리는 시간이 꽤 걸리니까, 하는 김에 같이 영화라도 보실래요?",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8833,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[8834] = {
+		param = "영화를 같이 볼 거면, 내친김에 식사도 함께하는 건 어때요?",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8834,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[8835] = {
+		param = "밥도 같이 먹을 거면, 같이 목욕이라든가~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8835,
+		flag = 4
+	}
+end)()
+(function ()
+	pg.base.activity_ins_chat_language[8836] = {
+		param = "목욕도 같이 하면, 그 다음은……",
+		ship_group = 30229,
+		type = 1,
+		id = 8836,
+		flag = 4,
+		option = {
+			{
+				5,
+				"잠깐, 정지. 기다려 봐"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8837] = {
+		param = "잠깐, 정지. 기다려 봐.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8837,
+		flag = 5
+	}
+	pg.base.activity_ins_chat_language[8838] = {
+		param = "한꺼번에 그렇게 욕심 부리지 말고 다음 포상도 남겨둬야지.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8838,
+		flag = 5
+	}
+	pg.base.activity_ins_chat_language[8839] = {
+		param = "에이, 너무해요.",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8839,
+		flag = 5
+	}
+	pg.base.activity_ins_chat_language[8840] = {
+		param = "어쩔 수 없죠. 오늘은 꼬리 관리만 받는 걸로 할게요~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8840,
+		flag = 5
+	}
+	pg.base.activity_ins_chat_language[8841] = {
+		param = "문을 안쪽에서 잠그고, 열쇠를 뽑아버리면…… 후훗~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8841,
+		flag = 5
+	}
+	pg.base.activity_ins_chat_language[8842] = {
+		param = "지휘관님~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8842,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8843] = {
+		param = "지금 온천인데, 지휘관님을 위해 특별한 서프라이즈를 준비했답니다~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8843,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8844] = {
+		param = "꼭 오셔야 해요.",
+		ship_group = 30229,
+		type = 1,
+		id = 8844,
+		flag = 0,
+		option = {
+			{
+				1,
+				"오늘은 무슨 특별한 날도 아닌데…"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8845] = {
+		param = "오늘은 무슨 특별한 날도 아닌데…",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8845,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8846] = {
+		param = "뭔가 꾸미고 있는 거 아니야?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8846,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8847] = {
+		param = "225",
+		ship_group = 30229,
+		option = "",
+		type = 4,
+		id = 8847,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8848] = {
+		param = "그럴 리가요~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8848,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8849] = {
+		param = "저는 그저……",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8849,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8850] = {
+		param = "어제는 정말 성실하게 노력하셨고,",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8850,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8851] = {
+		param = "그저께도 성실하게 노력하셨잖아요?",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8851,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8852] = {
+		param = "그 전날도, 그 전전날도……",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8852,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8853] = {
+		param = "이렇게 열심히 하시는 지휘관님께 힘을 드리고 싶어서요~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8853,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8854] = {
+		param = "궁금하시면 특별한 서프라이즈의 내용이 뭔지 먼저 알려드릴게요~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8854,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8855] = {
+		param = "사실 새로운 수영복을 골랐답니다♪ 꼬리 부분도 특별히 디자인된 수영복이에요.",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8855,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8856] = {
+		param = "어때요? 제 새 수영복, 궁금하지 않으신가요?",
+		ship_group = 30229,
+		type = 1,
+		id = 8856,
+		flag = 1,
+		option = {
+			{
+				2,
+				"수영복, 온천, 꼬리……"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8857] = {
+		param = "수영복, 온천, 꼬리…… 아하.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8857,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8858] = {
+		param = "수영복을 미끼로 온천으로 꾀어내서, 내가 감전되는 모습을 보려는 거지?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8858,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8859] = {
+		param = "어라, 들켜버렸네요.",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8859,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8860] = {
+		param = "역시 지휘관님을 속이는 건 어렵네요.",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8860,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8861] = {
+		param = "사실 최근에 새로운 요법을 알게 됐거든요. 이름하여 「온천 전기 요법」!",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8861,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8862] = {
+		param = "조금씩 전류를 계속 흘려보내기만 하면 감전될 걱정도 없대요.",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8862,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8863] = {
+		param = "저도 직접 해봤는데 효과가 있는 것 같더라고요? 지휘관님도 같이 해봐요~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8863,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8864] = {
+		param = "부탁이에요~ 같이 해봐요~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8864,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8865] = {
+		param = "해주실 거죠~?",
+		ship_group = 30229,
+		type = 1,
+		id = 8865,
+		flag = 2,
+		option = {
+			{
+				3,
+				"딱 한 번만이야"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8866] = {
+		param = "딱 한 번만이야.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8866,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8867] = {
+		param = "역시 자상하시다니까~ 기다리고 있을게요♪",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8867,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8868] = {
+		param = "에이~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8868,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8869] = {
+		param = "에이~~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8869,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8870] = {
+		param = "에이~~~",
+		ship_group = 30229,
+		type = 1,
+		id = 8870,
+		flag = 0,
+		option = {
+			{
+				1,
+				"무슨 일이야?"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8871] = {
+		param = "무슨 일이야?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8871,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8872] = {
+		param = "꼬리로 지휘관님을 계속, 계~속 꽉 껴안고 싶은데요……",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8872,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8873] = {
+		param = "그러면 지휘관님이 감전돼서 찌릿하실 테니…… 아무리 저라도 마음이 아프거든요.",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8873,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8874] = {
+		param = "꼬리 관리에 신경을 쓰고 있는데도 자꾸 전기가 새어 나와요.",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8874,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8875] = {
+		param = "57",
+		ship_group = 30229,
+		option = "",
+		type = 4,
+		id = 8875,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8876] = {
+		param = "지휘관님, 얼른 그 무적의 두뇌로 어떻게 좀 해보세요~",
+		ship_group = 30229,
+		type = 1,
+		id = 8876,
+		flag = 1,
+		option = {
+			{
+				2,
+				"근본적인 문제는……"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8877] = {
+		param = "근본적인 문제는…… 역시 누전이겠지?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8877,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8878] = {
+		param = "「피뢰침」이라고 들어본 적 있어?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8878,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8879] = {
+		param = "건물 옥상에 세워서 번개를 땅으로 흘려보내는 그거요?",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8879,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8880] = {
+		param = "피뢰침을 통해 번개를 땅으로 흘려보내서",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8880,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8881] = {
+		param = "강력한 번개를 무해하게 만드는… 똑똑한 구조죠.",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8881,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8882] = {
+		param = "그러니까 지금 꼬리에서 새어 나오는 전기를 어딘가로 흘려보내면 된다는 말씀이죠?",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8882,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8883] = {
+		param = "으음……",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8883,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8884] = {
+		param = "꼬리에 긴 전선을 묶으면 피뢰침처럼 전기를 흘려보낼 수 있으려나……",
+		ship_group = 30229,
+		type = 1,
+		id = 8884,
+		flag = 2,
+		option = {
+			{
+				3,
+				"이론상으로는 그렇지"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8885] = {
+		param = "이론상으로는 그렇지. 그래도 전선보다는 금속 펜던트가 더 나을 것 같아.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8885,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8886] = {
+		param = "그럼 바로 시내로 고르러 가요. 지휘관님도 같이 가요~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8886,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8887] = {
+		param = "꼬리로 꽉 껴안고 싶어서 못 참겠거든요♪",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8887,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8888] = {
+		param = "먼저 가서 기다리고 있을게요~",
+		ship_group = 30229,
+		option = "",
+		type = 1,
+		id = 8888,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8889] = {
+		param = "오후의 차 모임 그룹을 만들었어! 참가 희망을 보낸 아이들도 전부 초대해 두었지.",
+		ship_group = 20501,
+		option = "",
+		type = 1,
+		id = 8889,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8890] = {
+		param = "와아! 애프터눈 티, 너무 좋아!",
+		ship_group = 10707,
+		option = "",
+		type = 1,
+		id = 8890,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8891] = {
+		param = "301",
+		ship_group = 20122,
+		option = "",
+		type = 4,
+		id = 8891,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8892] = {
+		param = "301",
+		ship_group = 70106,
+		type = 4,
+		id = 8892,
+		flag = 0,
+		option = {
+			{
+				1,
+				"오후의 차 모임 그룹?"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8893] = {
+		param = "오후의 차 모임 그룹? 로열 네이비 채널에도 비슷한 게 있었던 것 같은데……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8893,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8894] = {
+		param = "그건 그거고 이건 이거야. 여긴 여기 나름대로 필요하단 말씀!",
+		ship_group = 20501,
+		option = "",
+		type = 1,
+		id = 8894,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8895] = {
+		param = "그래서 오늘의 차는 말이지, 티백으로 준비했어!",
+		ship_group = 20501,
+		option = "",
+		type = 1,
+		id = 8895,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8896] = {
+		param = "애프터눈 티라는 소양을 널리 알리기 위해 약간 다른 조합을 가미해 봤어.",
+		ship_group = 20502,
+		option = "",
+		type = 1,
+		id = 8896,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8897] = {
+		param = "미리 우리쪽에서 차를 준비하면, 그걸 각자 셀프로 마시는 방식이야. 편안하고 캐주얼한 스타일을 지향하고 있거든.",
+		ship_group = 20502,
+		option = "",
+		type = 1,
+		id = 8897,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8898] = {
+		param = "티백이긴 합니다만, 정성을 다해 배합했답니다. 맛은 제가 보장하지요.",
+		ship_group = 20403,
+		option = "",
+		type = 1,
+		id = 8898,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8899] = {
+		param = "오늘은 로열 네이비뿐만 아니라, 다른 진영 분들도 참여하셨습니다.",
+		ship_group = 20212,
+		option = "",
+		type = 1,
+		id = 8899,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8900] = {
+		param = "이스트 글림의 차와 다른 풍미를 맛보는 것이 기대되네요.",
+		ship_group = 50201,
+		option = "",
+		type = 1,
+		id = 8900,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8901] = {
+		param = "쉬는 시간이 늘어나서… 최고…",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 8901,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8902] = {
+		param = "이런 색다른 차 모임도 확실히 기분 전환이 되네요.",
+		ship_group = 20504,
+		option = "",
+		type = 1,
+		id = 8902,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8903] = {
+		param = "하고 싶은 말이 있다면 자유롭게 해. 감상이든 요청이든 뭐든지 환영이야!",
+		ship_group = 20501,
+		option = "",
+		type = 1,
+		id = 8903,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8904] = {
+		param = "홍차가 준비되었습니다. 탕비실에 두었으니 자유롭게 가져가십시오.",
+		ship_group = 20208,
+		option = "",
+		type = 1,
+		id = 8904,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8905] = {
+		param = "빨리 와! 다들 마실 만큼 준비해 뒀어~",
+		ship_group = 20136,
+		option = "",
+		type = 1,
+		id = 8905,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8906] = {
+		param = "히어로, 오늘따라 꽤 적극적이네요? 별일이네요.",
+		ship_group = 20116,
+		option = "",
+		type = 1,
+		id = 8906,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8907] = {
+		param = "엥~? 난 늘 이런데~?",
+		ship_group = 20136,
+		option = "",
+		type = 1,
+		id = 8907,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8908] = {
+		param = "왠지 어디선가 본 적 있는 모습이네요. 장난을 칠 때의 우리 푸보의 모습과 똑 닮았어요.",
+		ship_group = 50108,
+		option = "",
+		type = 1,
+		id = 8908,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8909] = {
+		param = "그런 사소한 건 신경 쓰지 말고, 차나 즐기자구~",
+		ship_group = 20136,
+		type = 1,
+		id = 8909,
+		flag = 1,
+		option = {
+			{
+				2,
+				"수고했어"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8910] = {
+		param = "수고했어. 히어로도 한 잔 마시면서 한숨 돌리자.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8910,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8911] = {
+		param = "그렇게 말해줄 줄 알고 난 이미 마셨지~ 맛있더라!",
+		ship_group = 20136,
+		option = "",
+		type = 1,
+		id = 8911,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8912] = {
+		param = "그럼 더 마시지 그래~",
+		ship_group = 20234,
+		option = "",
+		type = 1,
+		id = 8912,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8913] = {
+		param = "이미 충분히 마셨으니까 사양할게.",
+		ship_group = 20136,
+		option = "",
+		type = 1,
+		id = 8913,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8914] = {
+		param = "난 신경쓰지 말고 다들 느긋하게 즐겨~",
+		ship_group = 20136,
+		option = "",
+		type = 1,
+		id = 8914,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8915] = {
+		param = "뭔가 수상한데요… 잘 생각해 보니 오늘은……",
+		ship_group = 20116,
+		option = "",
+		type = 1,
+		id = 8915,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8916] = {
+		param = "밀러 님은 알아! 만우절이야! 장난꾸러기들이 가장 좋아하는 날이지!",
+		ship_group = 10153,
+		option = "",
+		type = 1,
+		id = 8916,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8917] = {
+		param = "아까 히어로 씨가 병 같은 걸 잔뜩 들고 주방으로 들어가는 걸 봤습니다.",
+		ship_group = 20204,
+		option = "",
+		type = 1,
+		id = 8917,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8918] = {
+		param = "히어로, 홍차에 뭔가 「조미료」를 넣으신 건가요?",
+		ship_group = 20403,
+		option = "",
+		type = 1,
+		id = 8918,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8919] = {
+		param = "연유랑 초코 우유랑 딸기 시럽만 듬뿍 넣었지, 이상한 건 아무것도 안 넣었어~",
+		ship_group = 20136,
+		option = "",
+		type = 1,
+		id = 8919,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8920] = {
+		param = "66",
+		ship_group = 20136,
+		option = "",
+		type = 4,
+		id = 8920,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8921] = {
+		param = "마싯게따! 오똔 맛이지… 궁금해—!",
+		ship_group = 30132,
+		option = "",
+		type = 1,
+		id = 8921,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8922] = {
+		param = "당분 가득한 홍차? 나도 마셔보고 싶어!",
+		ship_group = 10218,
+		option = "",
+		type = 1,
+		id = 8922,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8923] = {
+		param = "너무 많이 마시지 않도록 조심하시길. 단것을 과하게 섭취하면 치아 건강에 좋지 않답니다.",
+		ship_group = 29905,
+		option = "",
+		type = 1,
+		id = 8923,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8924] = {
+		param = "그럼 여러분, 우선 히어로 특제 홍차부터 드시고 계세요. 금방 새 차를 우려 오겠습니다.",
+		ship_group = 20403,
+		option = "",
+		type = 1,
+		id = 8924,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8925] = {
+		param = "괜찮아, 괜찮아! 처음부터 누군가는 장난을 칠 거라 예상은 했어!",
+		ship_group = 20137,
+		option = "",
+		type = 1,
+		id = 8925,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8926] = {
+		param = "그래서 다들 가지러 오기 전에, 주방에 있던 예비용 홍차랑 바꿔치기해 뒀지!",
+		ship_group = 20137,
+		option = "",
+		type = 1,
+		id = 8926,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8927] = {
+		param = "차에는 아무 문제 없으니까 안심하고 마셔!",
+		ship_group = 20137,
+		option = "",
+		type = 1,
+		id = 8927,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8928] = {
+		param = "어머, 누비안이 있으니까 마음이 든든하네!",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 8928,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8929] = {
+		param = "체셔도 한 잔 가져갈게!",
+		ship_group = 29903,
+		option = "",
+		type = 1,
+		id = 8929,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8930] = {
+		param = "58",
+		ship_group = 90401,
+		option = "",
+		type = 4,
+		id = 8930,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8931] = {
+		param = "이상하네요. 예비 홍차 같은 걸 준비해 뒀던가?",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 8931,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8932] = {
+		param = "준비는 해뒀었는데……",
+		ship_group = 30401,
+		option = "",
+		type = 1,
+		id = 8932,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8933] = {
+		param = "도우러 왔을 때 깜빡하고 전부 마셔버렸답니다.",
+		ship_group = 30401,
+		option = "",
+		type = 1,
+		id = 8933,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8934] = {
+		param = "진짜? 주방에는 티포트가 분명 두 개 있었는데?",
+		ship_group = 20137,
+		option = "",
+		type = 1,
+		id = 8934,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8935] = {
+		param = "내 연습용 티포트가 사라졌는데, 누구 본 사람 없어?",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 8935,
+		flag = 2
+	}
+end)()
+(function ()
+	pg.base.activity_ins_chat_language[8936] = {
+		param = "새로 개량한 레시피로 우려서 아까 주방에 두었는데…",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 8936,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8937] = {
+		param = "217",
+		ship_group = 50602,
+		option = "",
+		type = 4,
+		id = 8937,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8938] = {
+		param = "217",
+		ship_group = 40123,
+		option = "",
+		type = 4,
+		id = 8938,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8939] = {
+		param = "217",
+		ship_group = 29903,
+		option = "",
+		type = 4,
+		id = 8939,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8940] = {
+		param = "헉?!",
+		ship_group = 20137,
+		option = "",
+		type = 1,
+		id = 8940,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8941] = {
+		param = "어쩌다 이런 사고가?! 내 장난보다 훨씬 재밌잖아♪",
+		ship_group = 20136,
+		option = "",
+		type = 1,
+		id = 8941,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8942] = {
+		param = "기왕 이렇게 됐으니, 그냥 만우절 장난이었던 걸로 칠까?",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 8942,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8943] = {
+		param = "좋아! 다들, 해피 만우절!",
+		ship_group = 50102,
+		option = "",
+		type = 1,
+		id = 8943,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8944] = {
+		param = "제법 나쁘지 않은 하루네요♪",
+		ship_group = 40602,
+		option = "",
+		type = 1,
+		id = 8944,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8945] = {
+		param = "푸보, 다들 방심한 틈을 타서 우리도 장난 치자!",
+		ship_group = 50102,
+		option = "",
+		type = 1,
+		id = 8945,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8946] = {
+		param = "으악! 채팅방을 헷갈리면 어떻게 해!",
+		ship_group = 50109,
+		option = "",
+		type = 1,
+		id = 8946,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8947] = {
+		param = "그냥 다음부터는 평범하게 서로 대면하며 마시는 애프터눈 티로 하는 게 낫겠어…",
+		ship_group = 20501,
+		option = "",
+		type = 1,
+		id = 8947,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8948] = {
+		param = "지휘관님의 전속 메이드로서, 한 가지 개인적인 취향 조사를 하고자 합니다.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8948,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8949] = {
+		param = "개인 맞춤 서비스의 정밀도를 향상하기 위한 조사이니 협력 부탁드립니다.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8949,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8950] = {
+		param = "규칙은 간단합니다. 제가 질문을 드리면, 3초 이내에 가장 먼저 떠오른 답을 말씀하시면 됩니다.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8950,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8951] = {
+		param = "오래 고민하지 마시고, 바로바로 솔직하게 대답해 주시기 바랍니다.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8951,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8952] = {
+		param = "공정함을 기하기 위해, 먼저 지휘관님부터 질문해주셨으면 합니다.",
+		ship_group = 20313,
+		type = 1,
+		id = 8952,
+		flag = 0,
+		option = {
+			{
+				1,
+				"현재 모드는?"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8953] = {
+		param = "데본셔, 현재 모드는 뭐야?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8953,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8954] = {
+		param = "3, 2, 1, 딩동!",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8954,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8955] = {
+		param = "정답은…… 애교 듬뿍 진행자 모드랍니다♪",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8955,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8956] = {
+		param = "저 궁금한 게 있는데 말이죠~ 어떤 질문을 해야 지휘관님을 「귀엽~게 패배하게」 만들 수 있을까요?",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8956,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8957] = {
+		param = "그럼, 다음은 제 차례군요.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8957,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8958] = {
+		param = "지휘관님은 어떤 모드의 데본셔가 좋으신가요?",
+		ship_group = 20313,
+		type = 1,
+		id = 8958,
+		flag = 1,
+		option = {
+			{
+				2,
+				"메이드 모드"
+			},
+			{
+				3,
+				"업무 모드"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8959] = {
+		param = "메이드 모드…려나?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8959,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8960] = {
+		param = "알겠습니다, 지휘관님. 흐트러진 옷깃을 정돈해 드릴까요? 아니면…… 홍차 옆에 원하는 각설탕을 하나 더 곁들여 드릴까요?",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8960,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8961] = {
+		param = "앞으론 이 기준에 맞춰, 「만점 이상」의 메이드 서비스를 제공해 드리겠습니다.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8961,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8962] = {
+		param = "아마 업무 모드겠지?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8962,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8963] = {
+		param = "알겠습니다. 오늘의 스케줄은 이미 동기화가 끝났습니다. 예상 외의 사태에 대해서도 전부 대응책을 준비해 두었습니다.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8963,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8964] = {
+		param = "업무 모드의 데본셔… 무척 든든하지 않나요?",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8964,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8965] = {
+		param = "그럼 다음 질문으로 가볼게요~ 지휘관님, 부탁드려요!",
+		ship_group = 20313,
+		type = 1,
+		id = 8965,
+		flag = 0,
+		option = {
+			{
+				4,
+				"그렇게 자주 모드를 바꾸면 피곤하지 않아?"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8966] = {
+		param = "그렇게 자주 모드를 바꾸면 피곤하지 않아?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8966,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[8967] = {
+		param = "지휘관님과 함께라면 데본셔는 하나도 안 피곤하답니다~♪",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8967,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[8968] = {
+		param = "배려 모드, ON.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8968,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[8969] = {
+		param = "이게 지휘관님이 듣고 싶어 하던 대답 맞죠?",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8969,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[8970] = {
+		param = "뭐, 사실이기도 하지만요. 그럼 마지막 질문…",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8970,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[8971] = {
+		param = "만약 지금 「연인 모드」로 전환한다면, 여기서 도망치실 건가요?",
+		ship_group = 20313,
+		type = 1,
+		id = 8971,
+		flag = 4,
+		option = {
+			{
+				5,
+				"도망치지 않아"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8972] = {
+		param = "도망치지 않아.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8972,
+		flag = 5
+	}
+	pg.base.activity_ins_chat_language[8973] = {
+		param = "답변이 0.7초 늦었네요…… 시간 초과♪ 부끄러워서 그러세요? 아니면 망설여져서?",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8973,
+		flag = 5
+	}
+	pg.base.activity_ins_chat_language[8974] = {
+		param = "그런 반응, 전 좋아요.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8974,
+		flag = 5
+	}
+	pg.base.activity_ins_chat_language[8975] = {
+		param = "포상으로 오늘은 하루 종일 전속 연인 모드로 있어 드리죠♪",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8975,
+		flag = 5
+	}
+	pg.base.activity_ins_chat_language[8976] = {
+		param = "달콤함에 푹 절여질 각오, 단단히 하셔야 해요~♡",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8976,
+		flag = 5
+	}
+	pg.base.activity_ins_chat_language[8977] = {
+		param = "지휘관님, 오늘은 곁에서 모실 수 없지만…… 메이드의 원격 서비스는 정시대로 가동 중입니다.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8977,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8978] = {
+		param = "오늘의 예정도 이미 최적화를 마쳤지요.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8978,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8979] = {
+		param = "9시부터는 작전 회의, 11시부터는 연습, 15시부터는 서류 확인……",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8979,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8980] = {
+		param = "그리고 모든 일정 사이에는 단것을 보충할 시간을 넣어 두었답니다.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8980,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8981] = {
+		param = "당분은 집중력을 유지하기 위한 소중한 연료니까요. 전속 메이드로서 드리는 전문적인 조언이랍니다♪",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8981,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8982] = {
+		param = "그럼 왼쪽 세 번째 서류 아래를 확인해 주세요.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8982,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[8983] = {
+		param = "하트와 도넛이 그려진 카드…… 찾으셨나요?",
+		ship_group = 20313,
+		type = 1,
+		id = 8983,
+		flag = 0,
+		option = {
+			{
+				1,
+				"「사랑♡보충 카드」……?"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8984] = {
+		param = "「사랑♡보충 카드」……?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8984,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8985] = {
+		param = "원격 애정 딜리버리 시스템의 기동 증명서랍니다~♪",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8985,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[8986] = {
+		param = "그럼 가벼운 질문 하나 드리죠. 오늘은 어떤 모드의 저와 시간을 보내고 싶으신가요?",
+		ship_group = 20313,
+		type = 1,
+		id = 8986,
+		flag = 1,
+		option = {
+			{
+				2,
+				"후배"
+			},
+			{
+				3,
+				"메이드"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8987] = {
+		param = "후배…는 어때?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8987,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8988] = {
+		param = "제법 신선한 선택이네요~ 그럼 청순 후배 모드, ON.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8988,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8989] = {
+		param = "선배님, 맨 아래 서랍을 열어봐 주실래요?",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8989,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8990] = {
+		param = "오늘 아침에 몰래 당분 보충용 간식을 넣어두었답니다.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8990,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8991] = {
+		param = "열어보세요. 데본셔가 직접 만든 하트 모양 도넛이에요. 슈가 파우더를 듬뿍 뿌려 두었으니까…",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8991,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8992] = {
+		param = "당분도 애정도 100%로 채울 수 있을 거예요~ 선배님♪",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8992,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[8993] = {
+		param = "그럼 메이드로 할까?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8993,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8994] = {
+		param = "알겠습니다. 전속 메이드 모드, ON.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8994,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8995] = {
+		param = "그럼 지휘관님, 오른쪽 맨 위 서랍을 열어 주세요.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8995,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8996] = {
+		param = "여셨나요? 데본셔가 구운 메이플 팬케이크가 들어있어요. 넣었을 때는 아직 따끈따끈했지만…",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8996,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8997] = {
+		param = "아무튼 전속 메이드가 드리는 달콤한 간식입니다, 지휘관님.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 8997,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[8998] = {
+		param = "방금 애정 보충은 어떠셨나요?",
+		ship_group = 20313,
+		type = 1,
+		id = 8998,
+		flag = 0,
+		option = {
+			{
+				4,
+				"센스 있네"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[8999] = {
+		param = "데본셔는 역시 센스가 좋다니까.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 8999,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[9000] = {
+		param = "무사히 보충돼서 다행이에요.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9000,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[9001] = {
+		param = "실은 계속 고민했거든요. 제가 곁에 없는 때는 어떻게 해야 당신이 제 존재를 느낄 수 있을까 하고……",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9001,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[9002] = {
+		param = "드디어 답을 찾았답니다.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9002,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[9003] = {
+		param = "앞으론 정기적으로 이런 당분 보충 시간이 있을 거예요~♪",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9003,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[9004] = {
+		param = "기대해 주세요.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9004,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[9005] = {
+		param = "바깥 용무가 끝나는 대로 가능한 한 빨리 돌아갈게요.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9005,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[9006] = {
+		param = "그때까지 데본셔의 애정, 마음껏 즐겨 주셔요♪",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9006,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[9007] = {
+		param = "언제나 곁에 있는 것처럼요♡",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9007,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[9008] = {
+		param = "지휘관님, 상의드릴 것이 하나 있습니다.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9008,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9009] = {
+		param = "『서약 보충 협정서』라는 초안을 작성해 보았는데, 보시겠어요?",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9009,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9010] = {
+		param = "제1조. 지휘관님은 자동적으로 「데본셔 특제 도넛의 영원히 유일한 시식 요원」의 칭호를 얻는다.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9010,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9011] = {
+		param = "이에 따라 데본셔의 모든 신작 도넛에 대해 최우선으로 시식하고 감상을 말할 의무를 진다.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9011,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9012] = {
+		param = "혹평을 내릴 경우, 데본셔는 온갖 수단을 동원해 그 평가를 철회하게 할 권리를 가진다. 그 수단에는 응석 부리기, 논리로 설득하기, 다시 만들기 등이 포함되나 이에 국한되지 않는다.",
+		ship_group = 20313,
+		type = 1,
+		id = 9012,
+		flag = 0,
+		option = {
+			{
+				1,
+				"그래도 평가를 안 바꾸면?"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[9013] = {
+		param = "그래도 평가를 안 바꾸면 어떻게 돼? 조금 궁금하네.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9013,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9014] = {
+		param = "그럴 경우, 디저트를 만든 당사자로부터 지속적인 주목을 받게 됩니다.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9014,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9015] = {
+		param = "그 예로 지난 주에 「가다랑어 맛이 임팩트가 너무 강하다」고 한마디 하신 이후로 몇 가지 패턴이나 개량을 거듭했죠.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9015,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9016] = {
+		param = "평가를 철회하실 때까지는 당분 전개의 지속적인 공세를 받을 각오를 해두시길.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9016,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9017] = {
+		param = "제2조. 데본셔가 무의식중에 「진심 모드」로 전환되었을 경우에는 메이드답지 않은 행동을 할 때가 있다.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9017,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9018] = {
+		param = "그때 지휘관님은 딴지를 걸어서는 아니 된다.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9018,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9019] = {
+		param = "또한, 데본셔와 함께 어린아이 같은 행동에 어울려줄 의무를 진다.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9019,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9020] = {
+		param = "단, 도저히 견딜 수 없을 경우……",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9020,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9021] = {
+		param = "「포옹」 동작으로 모드 중단을 시도할 수 있도록 한다.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9021,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9022] = {
+		param = "이상으로 《서약 보충 협정서》의 전체 내용입니다만, 어떠신가요?",
+		ship_group = 20313,
+		type = 1,
+		id = 9022,
+		flag = 1,
+		option = {
+			{
+				2,
+				"이렇게 좋은 내용이라면…"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[9023] = {
+		param = "내용이 너무 좋으니까, 지금 당장 원본을 만들어서 가져와 줬으면 해. 그나저나 나중에 뭔가 추가되기도 하는 거야?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9023,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9024] = {
+		param = "지금으로서는 없습니다. 「진짜 데본셔」를 해방하기 위해 필요한 조건 중에 뭔가 떠오르는 게 있으면 또 추가하도록 하지요.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9024,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9025] = {
+		param = "나중에 이 서류를 인쇄해서 방까지 가져다드릴게요.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9025,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9026] = {
+		param = "맨 아래에 딱 한 줄 빈칸이 있습니다.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9026,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9027] = {
+		param = "지휘관님은 그곳에 「나는 데본셔의 모든 조항 및 부대 조건을 자발적으로 수락한다」라고 기입해 주세요.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9027,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9028] = {
+		param = "그다음 서명만 해 주시면 끝입니다.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9028,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9029] = {
+		param = "서류와 함께 오늘의 신작 도넛도 가져다드릴게요.",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9029,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9030] = {
+		param = "조금 전 조항에 따라 공정한 평가 부탁드려요♪",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9030,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9031] = {
+		param = "그러지 않으면 연인 모드에 들어가서 철저하게 이야기를 나눠야 할 테니까요♪",
+		ship_group = 20313,
+		option = "",
+		type = 1,
+		id = 9031,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9032] = {
+		param = "지휘관 씨~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9032,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9033] = {
+		param = "책상 서류들 전부 분류해 뒀어~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9033,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9034] = {
+		param = "게다가 집무실 청소도 아주 완벽하게 해뒀다구.",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9034,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9035] = {
+		param = "그래서 완전히 기진맥진이야~",
+		ship_group = 10601,
+		type = 1,
+		id = 9035,
+		flag = 0,
+		option = {
+			{
+				1,
+				"웬일이야"
+			}
+		}
+	}
+end)()
+(function ()
+	pg.base.activity_ins_chat_language[9036] = {
+		param = "웬일이야. 롱 아일랜드가 성실하게 일을 다 하고.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9036,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9037] = {
+		param = "그뿐만이 아니야~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9037,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9038] = {
+		param = "지휘관 씨한테 최대한 어필하기 위해",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9038,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9039] = {
+		param = "지금 집에 있는 콜라랑 감자칩이랑 컵라면이랑 게임 같은 걸 다 챙겨서",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9039,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9040] = {
+		param = "이따가 전부 집무실로 가지고 들어올 거야~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9040,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9041] = {
+		param = "유령 씨는 말이지, 당분간은 집무실에 눌러앉아 있을 거야~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9041,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9042] = {
+		param = "지휘관 씨가 밤새도록 야근하라고 해도 끄떡없어~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9042,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9043] = {
+		param = "유령 씨가 보인다면 말이지만~",
+		ship_group = 10601,
+		type = 1,
+		id = 9043,
+		flag = 1,
+		option = {
+			{
+				2,
+				"마음은 고맙지만"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[9044] = {
+		param = "마음은 고맙지만…… 왠지 좀 걸리는데.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9044,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9045] = {
+		param = "그렇지 않아!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9045,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9046] = {
+		param = "유령 씨는 상냥하니까, 이렇게 가끔 잘해주는 건 극히 자연스러운 거야~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9046,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9047] = {
+		param = "딱히, 엄청 기대하던 신작 게임이 발표돼서 그런 건 아니구…",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9047,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9048] = {
+		param = "초고화질로 플레이하려고 성능 강화된 게임기를 같이 장만하려는 속셈도 아니야!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9048,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9049] = {
+		param = "에효.. 초회 한정판을 구하려니 이번 달 예산이 꽤 빠듯하긴 한데……",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9049,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9050] = {
+		param = "지휘관 씨도 관심 있으면 지금이 제대로 입덕할 찬스야~!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9050,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9051] = {
+		param = "이 불후의 명작에 대해서 자세히 가르쳐 줄게~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9051,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9052] = {
+		param = "지휘관 씨도 마음에 들면…… 같이 세트로 살 수 있잖아!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9052,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9053] = {
+		param = "그럼 예산이 초과될 걱정도 사라지겠지~",
+		ship_group = 10601,
+		type = 1,
+		id = 9053,
+		flag = 2,
+		option = {
+			{
+				3,
+				"좋긴 한데, 일은……?"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[9054] = {
+		param = "좋긴 한데, 일은……?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9054,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9055] = {
+		param = "그런 건 나중에 해도 돼~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9055,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9056] = {
+		param = "준비 다 됐으니까 지금 거기로 갈게~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9056,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9057] = {
+		param = "당분간은 지휘관 씨한테 착 달라붙어 있을 거야~!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9057,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9058] = {
+		param = "졸려……",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9058,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9059] = {
+		param = "요즘은 자고 있어도 머릿속이 지휘관 씨 생각으로 가득해……",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9059,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9060] = {
+		param = "확실히 책임져……",
+		ship_group = 10601,
+		type = 1,
+		id = 9060,
+		flag = 0,
+		option = {
+			{
+				1,
+				"왜？"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[9061] = {
+		param = "왜?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9061,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9062] = {
+		param = "요전에 게임에서 지휘관 씨랑 비겼으니까 그런 거잖아!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9062,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9063] = {
+		param = "유령 씨는 게이머들 사이에서도 이름 좀 날리는 「L.I.」라는 플레이어거든.",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9063,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9064] = {
+		param = "저번에 같이 했던 게임 랭킹 상위 5개는 전부 유령 씨가 차지했었단 말이야!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9064,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9065] = {
+		param = "지휘관 씨는 그냥 평범한 초보인 줄 알았는데",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9065,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9066] = {
+		param = "설마 가볍게 해본 것만으로 그렇게 실력이 늘 줄이야……",
+		ship_group = 10601,
+		type = 1,
+		id = 9066,
+		flag = 1,
+		option = {
+			{
+				2,
+				"전략이 중요한 게임이라서 그런가……"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[9067] = {
+		param = "전략이 중요한 게임이라서 그런가……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9067,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9068] = {
+		param = "아무리 지휘관 씨라고 해도, 시작한 지 30분 만에 동급이 되다니……",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9068,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9069] = {
+		param = "고인물 플레이어로서 자존심이 엄청나게 상했어!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9069,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9070] = {
+		param = "그래서 그동안 지휘관 씨 곁에서 약점을 찾았고…",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9070,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9071] = {
+		param = "매일 성실하게 포석을 두는 법이나 타이밍 잡는 법도 연구해 왔지.",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9071,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9072] = {
+		param = "그렇게 완벽한 테크닉을 익혔어!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9072,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9073] = {
+		param = "다음번엔 절대 안 질 거야!",
+		ship_group = 10601,
+		type = 1,
+		id = 9073,
+		flag = 2,
+		option = {
+			{
+				3,
+				"정말로?"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[9074] = {
+		param = "정말로? 그럼 얼마나 대단해졌는지 말해줄래?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9074,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9075] = {
+		param = "듣고 놀라지 마.",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9075,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9076] = {
+		param = "순서가 복잡해서 컨트롤에 얼마나 익숙해지느냐가 관건이거든.",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9076,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9077] = {
+		param = "예를 들어, 공격할 때는 주변에 한꺼번에 병력을 강하시키고……",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9077,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9078] = {
+		param = "잠깐, 지휘관 씨 혹시 유령 씨를 떠보는 건 아니지?",
+		ship_group = 10601,
+		type = 1,
+		id = 9078,
+		flag = 3,
+		option = {
+			{
+				4,
+				"들켰나"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[9079] = {
+		param = "들켰나.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9079,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[9080] = {
+		param = "우와! 역시 한시도 방심할 수가 없다니까!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9080,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[9081] = {
+		param = "하지만 이걸 들켰다고 해서 유령 씨의 승리가 흔들리진 않아!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9081,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[9082] = {
+		param = "이 테크닉이 얼마나 대단한지는 다음 대전 때 직접 몸으로 겪게 해줄게!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9082,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[9083] = {
+		param = "다음 쉬는 날, 기다리고 있을게~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9083,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[9084] = {
+		param = "66",
+		ship_group = 10601,
+		option = "",
+		type = 4,
+		id = 9084,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[9085] = {
+		param = "자금난에 빠지지 않기 위해서",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9085,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9086] = {
+		param = "장대한 계획을 세웠어~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9086,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9087] = {
+		param = "그건 말이지~ 시리즈물의 프라모델을 만들어서 파는 거야!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9087,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9088] = {
+		param = "인기 시리즈로 밀고 나가면 돈 문제는 한 방에 해결될 거야!",
+		ship_group = 10601,
+		type = 1,
+		id = 9088,
+		flag = 0,
+		option = {
+			{
+				1,
+				"좋은 아이디어네"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[9089] = {
+		param = "좋은 아이디어네. 도와줄까?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9089,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9090] = {
+		param = "유령 씨는 오랜 경험을 가진 업계 전문가라서",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9090,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9091] = {
+		param = "양산 계획은 이미 완벽하게 세워뒀어~",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9091,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9092] = {
+		param = "하지만……",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9092,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9093] = {
+		param = "디자인은 전혀 모르겠어!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9093,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9094] = {
+		param = "어떤 프라모델이 먹힐지……",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9094,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9095] = {
+		param = "전혀 짐작이 안 가!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9095,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9096] = {
+		param = "322",
+		ship_group = 10601,
+		type = 4,
+		id = 9096,
+		flag = 1,
+		option = {
+			{
+				2,
+				"우선 참고부터……"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[9097] = {
+		param = "우선 인기 있는 걸 참고해서 수요나 취향을 분석해 보자.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9097,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9098] = {
+		param = "먼저 디자인 방향성부터 정한다는 거지?",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9098,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9099] = {
+		param = "의외로 괜찮을지도!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9099,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9100] = {
+		param = "모항의 지금 트렌드는……",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9100,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9101] = {
+		param = "엄청난 아이디어가 떠올랐어!",
+		ship_group = 10601,
+		type = 1,
+		id = 9101,
+		flag = 2,
+		option = {
+			{
+				3,
+				"오?"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[9102] = {
+		param = "오? 뭔데?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9102,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9103] = {
+		param = "그건 바로 「지휘관 메카 시리즈」!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9103,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9104] = {
+		param = "메인은 멋진 메카고, 파일럿은 지휘관 씨인 거지.",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9104,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9105] = {
+		param = "메카 디자인은 대기업을 못 이길지도 모르지만",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9105,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9106] = {
+		param = "파일럿 버전의 지휘관 씨 피규어가 들어있다고 홍보하면 분명 대박 날 게 뻔해!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9106,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9107] = {
+		param = "분명 인기 폭발일 거야!",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9107,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9108] = {
+		param = "지휘관 씨, 지금 시간 돼? 같이 자세하게 이야기를 나눴으면 하는데.",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9108,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9109] = {
+		param = "변신 기믹을 넣는 것도 괜찮을지도……",
+		ship_group = 10601,
+		option = "",
+		type = 1,
+		id = 9109,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9110] = {
+		param = "어째서 이런 일이……!",
+		ship_group = 10125,
+		option = "",
+		type = 1,
+		id = 9110,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9111] = {
+		param = "허먼이 어제 냉장고에 넣어둔 아이스크림이 없어졌어!!",
+		ship_group = 10125,
+		option = "",
+		type = 1,
+		id = 9111,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9112] = {
+		param = "뭐라고—!? 이런 대낮에 말도 안 되는 사건이!!?",
+		ship_group = 10149,
+		type = 1,
+		id = 9112,
+		flag = 0,
+		option = {
+			{
+				1,
+				"아이스크림이 사라지다니 큰일이네!"
+			},
+			{
+				2,
+				"사건이라고 할 정도인가?"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[9113] = {
+		param = "아이스크림이 사라지다니 큰일이네!",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9113,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9114] = {
+		param = "사건이라고 할 정도인가?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9114,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9115] = {
+		param = "지휘관까지 반응한 걸 보면, 사건은 사건인 것 같은데~?",
+		ship_group = 10806,
+		option = "",
+		type = 1,
+		id = 9115,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9116] = {
+		param = "수수께끼의 아이스크림 실종 사건… 다들 몸을 던져 정의를 관철해야 할 때!",
+		ship_group = 10144,
+		option = "",
+		type = 1,
+		id = 9116,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9117] = {
+		param = "그러고 보니 에식스, 어제 밤늦게까지 여기 있었죠? 뭐 이상한 점은 없었나요?",
+		ship_group = 10738,
+		option = "",
+		type = 1,
+		id = 9117,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9118] = {
+		param = "네? 저요?",
+		ship_group = 10709,
+		option = "",
+		type = 1,
+		id = 9118,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9119] = {
+		param = "어젯밤엔 호넷 일행이랑 밖에서 밥을 먹느라 귀가가 늦어지긴 했지만……",
+		ship_group = 10709,
+		option = "",
+		type = 1,
+		id = 9119,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9120] = {
+		param = "별다른 일은 없었던 것 같은데…",
+		ship_group = 10709,
+		option = "",
+		type = 1,
+		id = 9120,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9121] = {
+		param = "<color=#93e9ff>@허먼</color> 없어진 아이스크림이라는 거, 어제 30분이나 줄 서서 겨우 산 한정판 피스타치오 바닐라 아이스크림 말하는 거야~?",
+		ship_group = 10124,
+		option = "",
+		type = 1,
+		id = 9121,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9122] = {
+		param = "심즈! 웃는 거 다 들리거든! 자꾸 놀리면 네 몫까지 다 먹어버릴 거야!",
+		ship_group = 10125,
+		option = "",
+		type = 1,
+		id = 9122,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9123] = {
+		param = "불쌍하니까 뭐, 먹으려면 먹어~",
+		ship_group = 10124,
+		option = "",
+		type = 1,
+		id = 9123,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9124] = {
+		param = "차가운 디저트라면 여기 아이스크림 말고도 이것저것 많아! 이쪽으로 와!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 9124,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9125] = {
+		param = "하드 아이스크림이면 나도 지원해 줄 수 있어.",
+		ship_group = 10107,
+		option = "",
+		type = 1,
+		id = 9125,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9126] = {
+		param = "요크타운이랑 아이스크림을 5상자를 주문했어. 10분 뒤에 도착할 테니까 공용 공간에 둘게.",
+		ship_group = 10706,
+		option = "",
+		type = 1,
+		id = 9126,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9127] = {
+		param = "허먼이 좋아하는 피스타치오 바닐라도 있으니까 나중에 받으러 와~",
+		ship_group = 10705,
+		option = "",
+		type = 1,
+		id = 9127,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9128] = {
+		param = "다들 고마워! 그래도……",
+		ship_group = 10125,
+		option = "",
+		type = 1,
+		id = 9128,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9129] = {
+		param = "허먼은 자기가 직접 줄 서서 손에 넣은 게 좋은 거지~? 참 까다롭다니까.",
+		ship_group = 10124,
+		option = "",
+		type = 1,
+		id = 9129,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9130] = {
+		param = "누가 실수로 가져간 거 아닐까?",
+		ship_group = 10208,
+		option = "",
+		type = 1,
+		id = 9130,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9131] = {
+		param = "아니면 누군가의 장난이라든가—",
+		ship_group = 10314,
+		option = "",
+		type = 1,
+		id = 9131,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9132] = {
+		param = "난 관계없어! 그때 난 지휘관한테 쌩쌩 나는 걸 보여주고 있었어!",
+		ship_group = 10110,
+		option = "",
+		type = 1,
+		id = 9132,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9133] = {
+		param = "나도 마찬가지야! 지휘관이랑 숨바꼭질하고 있었으니까!",
+		ship_group = 10802,
+		option = "",
+		type = 1,
+		id = 9133,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9134] = {
+		param = "뭐? 지휘관은 분명 나랑…?",
+		ship_group = 10110,
+		option = "",
+		type = 1,
+		id = 9134,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9135] = {
+		param = "뭐? 지휘관은 분명 나랑…?",
+		ship_group = 10802,
+		option = "",
+		type = 1,
+		id = 9135,
+		flag = 0
+	}
+end)()
+(function ()
+	pg.base.activity_ins_chat_language[9136] = {
+		param = "미리 입을 맞추지는 않았나 보네……",
+		ship_group = 10155,
+		type = 1,
+		id = 9136,
+		flag = 0,
+		option = {
+			{
+				3,
+				"불렀어?"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[9137] = {
+		param = "불렀어?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9137,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9138] = {
+		param = "으아! 지휘관도 여기 있었지!",
+		ship_group = 10110,
+		option = "",
+		type = 1,
+		id = 9138,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9139] = {
+		param = "미안~! 아무것도 안 했다고 하면 오히려 의심받을까 봐 그랬어…!",
+		ship_group = 10110,
+		option = "",
+		type = 1,
+		id = 9139,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9140] = {
+		param = "맞아 맞아! 나도♪",
+		ship_group = 10802,
+		option = "",
+		type = 1,
+		id = 9140,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9141] = {
+		param = "뭔가 분위기가 뜨거운데, 대체 무슨 이야기야?",
+		ship_group = 10707,
+		option = "",
+		type = 1,
+		id = 9141,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9142] = {
+		param = "허먼의 아이스크림 실종 사건에 대한 단서를 찾는 중이야!",
+		ship_group = 10149,
+		option = "",
+		type = 1,
+		id = 9142,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9143] = {
+		param = "아이스크림? 혹시 피스타치오 바닐라 맛?",
+		ship_group = 10707,
+		option = "",
+		type = 1,
+		id = 9143,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9144] = {
+		param = "맞아…!",
+		ship_group = 10125,
+		option = "",
+		type = 1,
+		id = 9144,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9145] = {
+		param = "호넷, 설마 네가……",
+		ship_group = 19902,
+		option = "",
+		type = 1,
+		id = 9145,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9146] = {
+		param = "201",
+		ship_group = 10709,
+		option = "",
+		type = 4,
+		id = 9146,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9147] = {
+		param = "뭐? 아냐, 아냐! 나 아니야!",
+		ship_group = 10707,
+		option = "",
+		type = 1,
+		id = 9147,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9148] = {
+		param = "에식스, 너 엄청 취했었던 거 기억 나? 돌아와서 디저트 먹고 술 깬다면서 냉장고 뒤졌었지?",
+		ship_group = 10707,
+		option = "",
+		type = 1,
+		id = 9148,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9149] = {
+		param = "다들 자길 멍청이 취급이나 한다며 울면서 피스타치오 바닐라 아이스크림 먹었던 거, 기억 안 나?",
+		ship_group = 10707,
+		option = "",
+		type = 1,
+		id = 9149,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9150] = {
+		param = "…………",
+		ship_group = 10709,
+		option = "",
+		type = 1,
+		id = 9150,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9151] = {
+		param = "그러고 보니 확실히 방에 기억에 없는 빈 아이스크림 상자가…………",
+		ship_group = 10709,
+		option = "",
+		type = 1,
+		id = 9151,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9152] = {
+		param = "눈 깜짝할 새에 해결! 역시 호넷이야!",
+		ship_group = 10208,
+		option = "",
+		type = 1,
+		id = 9152,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9153] = {
+		param = "고마워! 근데 이런 걸로 칭찬받아도, 뭐랄까……",
+		ship_group = 10707,
+		type = 1,
+		id = 9153,
+		flag = 3,
+		option = {
+			{
+				4,
+				"취했다면 어쩔 수 없지"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[9154] = {
+		param = "취했다면 기억하지 못하는 것도 무리는 아니지.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9154,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[9155] = {
+		param = "게다가 일부러 그런 것도 아니잖아.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9155,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[9156] = {
+		param = "취했었다고는 해도 정말 죄송해요! 사과의 의미로 앞으로 1년 치 아이스크림은 제가 책임질게요!",
+		ship_group = 10709,
+		option = "",
+		type = 1,
+		id = 9156,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[9157] = {
+		param = "1년 치라니, 그건 너무 과해……!",
+		ship_group = 10125,
+		option = "",
+		type = 1,
+		id = 9157,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[9158] = {
+		param = "그러니까 「염치 불고하고 받겠다」는 거지?",
+		ship_group = 10124,
+		option = "",
+		type = 1,
+		id = 9158,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[9159] = {
+		param = "아니거든!",
+		ship_group = 10125,
+		option = "",
+		type = 1,
+		id = 9159,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[9160] = {
+		param = "다행이다~! 이제 안심이야. 봐, 난 관계 없다고 했지?",
+		ship_group = 10110,
+		option = "",
+		type = 1,
+		id = 9160,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[9161] = {
+		param = "그런 식으로 말하면 더 의심 받는다고.",
+		ship_group = 10112,
+		option = "",
+		type = 1,
+		id = 9161,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[9162] = {
+		param = "그나저나 술기운에 먹는 아이스크림이라, 왠지 맛있을 것 같지 않아?",
+		ship_group = 10139,
+		option = "",
+		type = 1,
+		id = 9162,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[9163] = {
+		param = "「나쁜 아이의 음료」를 마셔보고 싶다면 이 밀러 님이 도와줄 수도 있지~",
+		ship_group = 10153,
+		option = "",
+		type = 1,
+		id = 9163,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[9164] = {
+		param = "마셔보고 싶어!",
+		ship_group = 10110,
+		option = "",
+		type = 1,
+		id = 9164,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[9165] = {
+		param = "마셔보고 싶어!",
+		ship_group = 10802,
+		option = "",
+		type = 1,
+		id = 9165,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[9166] = {
+		param = "30",
+		ship_group = 10802,
+		option = "",
+		type = 4,
+		id = 9166,
+		flag = 4
+	}
 	pg.base.activity_ins_chat_language[8533] = {
 		param = "유키카제님은 요즘 고민이 좀 있는 거다.",
 		ship_group = 30116,
@@ -86063,4304 +90436,643 @@ end)()
 		id = 8666,
 		flag = 4
 	}
-	pg.base.activity_ins_chat_language[8667] = {
-		param = "방울을 울렸는데, 들으셨나요?",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8667,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8668] = {
-		param = "사실 무척 고민스러운 문제에 직면했답니다.",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8668,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8669] = {
-		param = "그래서 당신의 지혜를 빌리려고요.",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8669,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8670] = {
-		param = "지금 가구점에서 소파를 고르고 있는데, 꽤 고급스러워 보이는 걸 두 개 찾았어요.",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8670,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8671] = {
-		param = "하나는 보석이 박혀 있고, 정교한 조각 장식도 있어서 아주 화려해 보여요.",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8671,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8672] = {
-		param = "다른 하나는 최고급 소재라 푹신함은 최고지만, 겉모습이 조금 수수하네요.",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8672,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8673] = {
-		param = "처음 봤을 때는 첫 번째 소파가 마음에 들었는데, 두 번째 소파에 앉아보니 조금 망설여져서요……",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8673,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8674] = {
-		param = "당신이라면 어느 쪽을 고르겠어요?",
-		ship_group = 30717,
-		type = 1,
-		id = 8674,
-		flag = 0,
-		option = {
-			{
-				1,
-				"첫 번째 것"
-			},
-			{
-				2,
-				"두 번째 것"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[8675] = {
-		param = "첫 번째 소파가 좋겠어. 화려하면 기분까지 좋아지잖아.",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8675,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8676] = {
-		param = "두 번째 소파가 좋으려나? 그래도 앉았을 때 편안해야 좋잖아?",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8676,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8677] = {
-		param = "으음…… 조금만 생각할 시간을 주세요.",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8677,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8678] = {
-		param = "아아, 정말! 고민되네요!",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8678,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8679] = {
-		param = "화려함과 안락함을 모두 갖춘 소파는 없는 걸까요?",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8679,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8680] = {
-		param = "어느 쪽을 고르면 좋지……",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8680,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8681] = {
-		param = "그래…… 차라리……",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8681,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8682] = {
-		param = "……지휘관, 완벽한 해결책이 떠올랐어요!",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8682,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8683] = {
-		param = "이 누님은 하나만 고르지 않고 둘 다 사기로 했답니다!",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8683,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8684] = {
-		param = "303",
-		ship_group = 30717,
-		option = "",
-		type = 4,
-		id = 8684,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8685] = {
-		param = "첫 번째 소파는 거실에 둬서 손윗사람으로서의 품격을 드높이고",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8685,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8686] = {
-		param = "두 번째 소파는 침실에 둬서 쉴 때 푹 쉴 거예요!",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8686,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8687] = {
-		param = "역시 돈으로 해결할 수 없는 문제는 없네요♪",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8687,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8688] = {
-		param = "크흠!",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8688,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8689] = {
-		param = "지금 저와 함께 식사할 사람을 모집 중이랍니다. 자원하실 분 없나요?",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8689,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8690] = {
-		param = "근처에 새로 생긴 고급 레스토랑이 있어서, 조금 가보고 싶은데……",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8690,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8691] = {
-		param = "메뉴 중에 도저히 입에 맞지 않는 식재료가 있어서요……",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8691,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8692] = {
-		param = "먹어보지도 않고 싫어하는 건 아니에요! 그저 저와 맞지 않을 뿐이니 부디 오해하지 마시길!",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8692,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8693] = {
-		param = "어쨌든 식재료를 낭비하지 않으려면, 함께 먹어줄 사람이 필요해요.",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8693,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8694] = {
-		param = "그래서 지휘관, 당신으로 정했답니다.",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8694,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8695] = {
-		param = "교통비도 식비도 전부 이 누님이 낼게요. 어때요?",
-		ship_group = 30717,
-		type = 1,
-		id = 8695,
-		flag = 0,
-		option = {
-			{
-				1,
-				"그런 솔깃한 제안을?"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[8696] = {
-		param = "그렇게 솔깃한 제안을?",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8696,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8697] = {
-		param = "미리 말해두지만, 이 가게는 식사하는 경험 자체를 중시하는 곳이라",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8697,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8698] = {
-		param = "요리 하나하나가 무척 섬세하고 설명도 곁들여지거든요.",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8698,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8699] = {
-		param = "그래서 식사 시간이 조금 길어질 거예요.",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8699,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8700] = {
-		param = "주말에 갈 테니까 시간은 꼭 비워두세요.",
-		ship_group = 30717,
-		type = 1,
-		id = 8700,
-		flag = 1,
-		option = {
-			{
-				2,
-				"좋아. 밥 먹은 다음엔……"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[8701] = {
-		param = "좋아. 밥 먹은 다음엔 뭐 할까?",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8701,
-		flag = 2
-	}
-end)()
-(function ()
-	pg.base.activity_ins_chat_language[8702] = {
-		param = "영화라도 보러 갈까 하는데…….",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8702,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8703] = {
-		param = "그러면…… 너무 데이트 같죠?!",
-		ship_group = 30717,
-		type = 1,
-		id = 8703,
-		flag = 2,
-		option = {
-			{
-				3,
-				"그런 거 아니야?"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[8704] = {
-		param = "데이트 아니었어?",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8704,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8705] = {
-		param = "마치 이 누님이 적극적으로 데이트 신청을 하는 것처럼 말하다니…!",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8705,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8706] = {
-		param = "그저 같이 먹어줄 사람이 필요했을 뿐인데……",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8706,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8707] = {
-		param = "아무튼 한턱 내는 거니까 제대로 감사하도록 하세요!",
-		ship_group = 30717,
-		type = 1,
-		id = 8707,
-		flag = 3,
-		option = {
-			{
-				4,
-				"고마워……"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[8708] = {
-		param = "고마워! 누님!",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8708,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[8709] = {
-		param = "그거면 됐어요.",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8709,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[8710] = {
-		param = "이 누님은 당신을 소중히 여기니까요.",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8710,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[8711] = {
-		param = "앞으로도 맛있는 게 있으면 또 불러줄게요~",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8711,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[8712] = {
-		param = "딸랑딸랑~",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8712,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8713] = {
-		param = "방울을 울렸답니다. 지휘관, 있어요?",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8713,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8714] = {
-		param = "또 고민스러운 문제에 직면하고 말았어요.",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8714,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8715] = {
-		param = "한 번 더 당신의 지혜를 빌려줘요.",
-		ship_group = 30717,
-		type = 1,
-		id = 8715,
-		flag = 0,
-		option = {
-			{
-				1,
-				"「또」？"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[8716] = {
-		param = "「또」? 지난번 소파 고르기 이야기의 연장선이야?",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8716,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8717] = {
-		param = "네.",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8717,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8718] = {
-		param = "그런 다음, 소파를 둘 다 샀는데… 문제가 좀 생겼어요.",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8718,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8719] = {
-		param = "막상 방에 두려니 공간이 부족해요.",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8719,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8720] = {
-		param = "침실에 두니까 통로가 너무 좁아져서",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8720,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8721] = {
-		param = "걸을 때 옆으로 몸을 비틀어야 할 정도예요.",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8721,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8722] = {
-		param = "그래서 지금 쓰는 크고 화려한 침대를 한 치수 작은 걸로 바꿀까 하는데……",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8722,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8723] = {
-		param = "그러는 김에 지휘관은 어떤 침대가 좋은지도 물어보려던 참이었어요……",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8723,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8724] = {
-		param = "그냥 참고용이에요. 그뿐이랍니다.",
-		ship_group = 30717,
-		type = 1,
-		id = 8724,
-		flag = 1,
-		option = {
-			{
-				2,
-				"침대를 작은 걸로 바꾸면……"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[8725] = {
-		param = "침대를 작은 걸로 바꾸면 품격이 떨어지지 않을까?",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8725,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8726] = {
-		param = "으음…… 일리가 있네요!",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8726,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8727] = {
-		param = "이 침대도 살 때 꽤 고민한 끝에 결정한 거니까요.",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8727,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8728] = {
-		param = "바꿨다가 후회해도 난감하고……",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8728,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8729] = {
-		param = "그런 중요한 걸 놓치다니, 이런 실책을…!",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8729,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8730] = {
-		param = "어떻게 하면 좋을까요……",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8730,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8731] = {
-		param = "소파도 두고 싶고, 이 침대도 포기하기 싫은데……",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8731,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8732] = {
-		param = "그래! 더 넓은 방으로 이사하면 전부 둘 수 있겠네요!",
-		ship_group = 30717,
-		type = 1,
-		id = 8732,
-		flag = 2,
-		option = {
-			{
-				3,
-				"역시 우리 누님!"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[8733] = {
-		param = "역시 우리 누님이야. 금방 해결책을 생각해냈네.",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8733,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8734] = {
-		param = "당연하죠♪",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8734,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8735] = {
-		param = "하지만 방을 옮기는 건 아무래도 직접 봐야 결정할 수 있죠.",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8735,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8736] = {
-		param = "지휘관, 시간 되나요?",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8736,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8737] = {
-		param = "당신의 취향에 맞는 방을……",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8737,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8738] = {
-		param = "어쨌든 일단 같이 가요! 결정된 거예요!",
-		ship_group = 30717,
-		type = 1,
-		id = 8738,
-		flag = 3,
-		option = {
-			{
-				4,
-				"바로 갈게"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[8739] = {
-		param = "지금 바로 갈게.",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8739,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[8740] = {
-		param = "기다리고 있을게요.",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8740,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[8741] = {
-		param = "앞으로 오랫동안 함께 지낼 장소니까, 제대로 골라야죠.",
-		ship_group = 30717,
-		option = "",
-		type = 1,
-		id = 8741,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[8742] = {
-		param = "운명의 상대여, 드디어 내가 하늘의 사자라는 증표를 찾아냈다.",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8742,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8743] = {
-		param = "보고 싶나?",
-		ship_group = 30228,
-		type = 1,
-		id = 8743,
-		flag = 0,
-		option = {
-			{
-				1,
-				"사자의 증표?"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[8744] = {
-		param = "사자의 증표? 그게 뭐야?",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8744,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8745] = {
-		param = "후훗♪ 듣고 기절이나 하지 말라고.",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8745,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8746] = {
-		param = "방금 막 깨달았는데, 내가 영감 상태에 들어가면……",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8746,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8747] = {
-		param = "머리카락이 자기 맘대로 곤두서!",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8747,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8748] = {
-		param = "바람에 휘날리는 게 아니라, 정말로 꼿꼿이 선다고! 실로 멋지지 아니한가?!",
-		ship_group = 30228,
-		type = 1,
-		id = 8748,
-		flag = 1,
-		option = {
-			{
-				2,
-				"확실히 좀 신기하긴 하네"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[8749] = {
-		param = "확실히 좀 신기하긴 하네.",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8749,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8750] = {
-		param = "사진 있어? 좀 보고 싶은데.",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8750,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8751] = {
-		param = "지금 찍어주지……",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8751,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8752] = {
-		param = "……잠깐.",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8752,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8753] = {
-		param = "왜 안 서는 거지?",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8753,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8754] = {
-		param = "운명의 상대여, 잠시만 기다려라.",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8754,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8755] = {
-		param = "다시 영감 상태에 들어가 보마!",
-		ship_group = 30228,
-		type = 1,
-		id = 8755,
-		flag = 2,
-		option = {
-			{
-				3,
-				"정전기 때문 아니야?"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[8756] = {
-		param = "정전기 때문 아니야?",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8756,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8757] = {
-		param = "헛소리하지 마라……!",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8757,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8758] = {
-		param = "그런 단순한 자연현상과 똑같을리 없다!",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8758,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8759] = {
-		param = "지금 당장 증명해 주마!",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8759,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8760] = {
-		param = "뿜어내는 뇌전을 강화해서, 단숨에 영감 상태에 들어가면……",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8760,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8761] = {
-		param = "왜 갑자기 전등이 다 꺼진 거지?",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8761,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8762] = {
-		param = "안 켜져…… 정전인가?",
-		ship_group = 30228,
-		type = 1,
-		id = 8762,
-		flag = 3,
-		option = {
-			{
-				4,
-				"괜찮아?"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[8763] = {
-		param = "괜찮아? 지금 그쪽으로 갈까?",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8763,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[8764] = {
-		param = "그냥 정전일 뿐…… 아무렇지도 않아! 정말이다!",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8764,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[8765] = {
-		param = "하나도 안 무섭다고! 전혀!",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8765,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[8766] = {
-		param = "54",
-		ship_group = 30228,
-		option = "",
-		type = 4,
-		id = 8766,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[8767] = {
-		param = "……지금 어디야?",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8767,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[8768] = {
-		param = "운명의 상대여.",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8768,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8769] = {
-		param = "폭풍우의 전조인 바람 소리가 들리는가?",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8769,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8770] = {
-		param = "빨래를 걷을 시간이다.",
-		ship_group = 30228,
-		type = 1,
-		id = 8770,
-		flag = 1,
-		option = {
-			{
-				1,
-				"고마워"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[8771] = {
-		param = "고마워. 근데 날씨가 바뀔 거라는 건 어떻게 알았어?",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8771,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8772] = {
-		param = "나에게는 잠시나마 하늘의 뜻을 엿볼 수 있는 힘이 있지……",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8772,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8773] = {
-		param = "방금 전의 바람에는 먹구름의 분노가 섞여 있더군.",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8773,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8774] = {
-		param = "광풍이 천둥과 번개를 몰고",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8774,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8775] = {
-		param = "만균의 기세로 하늘을 뒤덮는 호우를 뿌리리라.",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8775,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8776] = {
-		param = "지금 마침 사자의 이름으로 위대한 자연의 의지와 교신하는 중이니",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8776,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8777] = {
-		param = "이 뇌운의 분노를 잠재우고 신속하게 물러나게 해 보이마!",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8777,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8778] = {
-		param = "운명의 상대여, 내가 이 거친 날씨를 길들이는 모습을 똑똑히 지켜보거라!",
-		ship_group = 30228,
-		type = 1,
-		id = 8778,
-		flag = 1,
-		option = {
-			{
-				2,
-				"뭔가 엄청난 느낌……"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[8779] = {
-		param = "솔직히 무슨 말인지는 잘 모르겠지만, 뭔가 엄청날 것 같아.",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8779,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8780] = {
-		param = "이미 비가 억수같이 쏟아지는데 괜찮아?",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8780,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8781] = {
-		param = "당연히 괜찮지!",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8781,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8782] = {
-		param = "조금만 더 시간을 주면……",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8782,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8783] = {
-		param = "금방 비를 제어해 보이겠다!",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8783,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8784] = {
-		param = "잠깐, 바람이 너무 강한데…!",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8784,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8785] = {
-		param = "비가 정자 안까지 들이치다니……",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8785,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8786] = {
-		param = "바람 주제에 무엄하군! 멈춰라! 멈추라고 말하지 않았나!",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8786,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8787] = {
-		param = "366",
-		ship_group = 30228,
-		option = "",
-		type = 4,
-		id = 8787,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8788] = {
-		param = "운명의 상대여, 도와줘……",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8788,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8789] = {
-		param = "실패해 버렸어. 폭풍우 때문에 움직일 수가 없어…",
-		ship_group = 30228,
-		type = 1,
-		id = 8789,
-		flag = 2,
-		option = {
-			{
-				3,
-				"어디야?"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[8790] = {
-		param = "어디야? 지금 바로 갈게.",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8790,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8791] = {
-		param = "집무실 근처에 있는 작은 정자다. 쫄딱 젖었어……",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8791,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8792] = {
-		param = "살려줘……",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8792,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8793] = {
-		param = "나의 운명의 상대여.",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8793,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8794] = {
-		param = "지금, 확실히 느껴지는군……",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8794,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8795] = {
-		param = "나와 너 사이에는 사라지지 않는 유대가 있다는 것을.",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8795,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8796] = {
-		param = "그것이 우리의 마음을 통하게 하고",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8796,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8797] = {
-		param = "어떤 상황에서도 네 의도를 깨닫게 해주지.",
-		ship_group = 30228,
-		type = 1,
-		id = 8797,
-		flag = 0,
-		option = {
-			{
-				1,
-				"대단한걸……"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[8798] = {
-		param = "대단한걸. 시험 삼아 한번 해 볼래?",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8798,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8799] = {
-		param = "후훗……",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8799,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8800] = {
-		param = "운명의 상대는 지금… 업무를 어떻게 처리할지 고민하고 있군!",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8800,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8801] = {
-		param = "어때? 맞췄지?",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8801,
-		flag = 1
-	}
-end)()
-(function ()
-	pg.base.activity_ins_chat_language[8802] = {
-		param = "금방 도와주러 가마. 눈물을 흘리며 감사하도록!",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8802,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8803] = {
-		param = "231",
-		ship_group = 30228,
-		type = 4,
-		id = 8803,
-		flag = 1,
-		option = {
-			{
-				2,
-				"아쉽지만……"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[8804] = {
-		param = "아쉽지만, 방금 일을 전부 끝낸 참이야.",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8804,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8805] = {
-		param = "한발 늦었네.",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8805,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8806] = {
-		param = "320",
-		ship_group = 30228,
-		option = "",
-		type = 4,
-		id = 8806,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8807] = {
-		param = "운명의 상대는 혼자서도 척척 해내는군……",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8807,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8808] = {
-		param = "내가 하나도…… 도움이 되지 못했어.",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8808,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8809] = {
-		param = "난 쓸모가 없어…… 쓸모가 없다고……",
-		ship_group = 30228,
-		type = 1,
-		id = 8809,
-		flag = 2,
-		option = {
-			{
-				3,
-				"사실 고민이 하나 더 있어"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[8810] = {
-		param = "사실 고민이 하나 더 있어.",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8810,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8811] = {
-		param = "오늘 밤은 웬일로 야근이 없어서, 뭘 할까 고민 중이거든.",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8811,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8812] = {
-		param = "호오?! 그런 고민이 있었다니.",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8812,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8813] = {
-		param = "그렇지, 마침 좋은 장소가 떠오르는군.",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8813,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8814] = {
-		param = "안내해 주마. 절대 후회하지 않게 해주지!",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8814,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8815] = {
-		param = "자세한 내용은……",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8815,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8816] = {
-		param = "운명의 상대여, 기대하고 있거라. 지금 바로 가겠다!",
-		ship_group = 30228,
-		option = "",
-		type = 1,
-		id = 8816,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8817] = {
-		param = "지휘관님~",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8817,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8818] = {
-		param = "오늘도 열심히 일하는 제 모습, 잘 지켜보셨나요?",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8818,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8819] = {
-		param = "일을 얼마나 많이 처리했는지 아시죠~",
-		ship_group = 30229,
-		type = 1,
-		id = 8819,
-		flag = 0,
-		option = {
-			{
-				1,
-				"수고했어……"
-			},
-			{
-				2,
-				"앞으로도 열심히 해"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[8820] = {
-		param = "수고했어, 덕분에 오늘은 한결 수월했어.",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8820,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8821] = {
-		param = "제법 열심히 했답니다.",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8821,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8822] = {
-		param = "그러니까 그에 상응하는 포상이 따라야겠죠~?",
-		ship_group = 30229,
-		type = 1,
-		id = 8822,
-		flag = 1,
-		option = {
-			{
-				3,
-				"어떤 포상을 원해?"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[8823] = {
-		param = "잘했어, 그 기세로 계속해서 힘내줘.",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8823,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8824] = {
-		param = "에이~ 「앞으로도」라니요.",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8824,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8825] = {
-		param = "지휘관님의 포상이 없으면, 앞으로 계속할 의욕이 안 난단 말이에요~",
-		ship_group = 30229,
-		type = 1,
-		id = 8825,
-		flag = 2,
-		option = {
-			{
-				3,
-				"어떤 포상을 원해?"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[8826] = {
-		param = "어떤 포상을 원해?",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8826,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8827] = {
-		param = "으음, 글쎄요……",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8827,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8828] = {
-		param = "그럼, 지휘관님이 제 꼬리를 관리해 주시는 걸로 하죠~",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8828,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8829] = {
-		param = "[파일 「꼬리 관리 가이드」]",
-		ship_group = 1,
-		type = 5,
-		id = 8829,
-		flag = 3,
-		option = {
-			{
-				4,
-				"수신"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[8830] = {
-		param = "파일 「꼬리 관리 가이드」를 수신했습니다.",
-		ship_group = 0,
-		option = "",
-		type = 5,
-		id = 8830,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[8831] = {
-		param = "제 꼬리 관리는 절차가 까다로우니까, 한가할 때 미리 공부해 두세요~",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8831,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[8832] = {
-		param = "정성껏 관리해 줘서 이렇게 예쁘고 매끄러운 거예요.",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8832,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[8833] = {
-		param = "꼬리 관리는 시간이 꽤 걸리니까, 하는 김에 같이 영화라도 보실래요?",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8833,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[8834] = {
-		param = "영화를 같이 볼 거면, 내친김에 식사도 함께하는 건 어때요?",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8834,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[8835] = {
-		param = "밥도 같이 먹을 거면, 같이 목욕이라든가~",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8835,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[8836] = {
-		param = "목욕도 같이 하면, 그 다음은……",
-		ship_group = 30229,
-		type = 1,
-		id = 8836,
-		flag = 4,
-		option = {
-			{
-				5,
-				"잠깐, 정지. 기다려 봐"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[8837] = {
-		param = "잠깐, 정지. 기다려 봐.",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8837,
-		flag = 5
-	}
-	pg.base.activity_ins_chat_language[8838] = {
-		param = "한꺼번에 그렇게 욕심 부리지 말고 다음 포상도 남겨둬야지.",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8838,
-		flag = 5
-	}
-	pg.base.activity_ins_chat_language[8839] = {
-		param = "에이, 너무해요.",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8839,
-		flag = 5
-	}
-	pg.base.activity_ins_chat_language[8840] = {
-		param = "어쩔 수 없죠. 오늘은 꼬리 관리만 받는 걸로 할게요~",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8840,
-		flag = 5
-	}
-	pg.base.activity_ins_chat_language[8841] = {
-		param = "문을 안쪽에서 잠그고, 열쇠를 뽑아버리면…… 후훗~",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8841,
-		flag = 5
-	}
-	pg.base.activity_ins_chat_language[8842] = {
-		param = "지휘관님~",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8842,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8843] = {
-		param = "지금 온천인데, 지휘관님을 위해 특별한 서프라이즈를 준비했답니다~",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8843,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8844] = {
-		param = "꼭 오셔야 해요.",
-		ship_group = 30229,
-		type = 1,
-		id = 8844,
-		flag = 0,
-		option = {
-			{
-				1,
-				"오늘은 무슨 특별한 날도 아닌데…"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[8845] = {
-		param = "오늘은 무슨 특별한 날도 아닌데…",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8845,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8846] = {
-		param = "뭔가 꾸미고 있는 거 아니야?",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8846,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8847] = {
-		param = "225",
-		ship_group = 30229,
-		option = "",
-		type = 4,
-		id = 8847,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8848] = {
-		param = "그럴 리가요~",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8848,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8849] = {
-		param = "저는 그저……",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8849,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8850] = {
-		param = "어제는 정말 성실하게 노력하셨고,",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8850,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8851] = {
-		param = "그저께도 성실하게 노력하셨잖아요?",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8851,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8852] = {
-		param = "그 전날도, 그 전전날도……",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8852,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8853] = {
-		param = "이렇게 열심히 하시는 지휘관님께 힘을 드리고 싶어서요~",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8853,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8854] = {
-		param = "궁금하시면 특별한 서프라이즈의 내용이 뭔지 먼저 알려드릴게요~",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8854,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8855] = {
-		param = "사실 새로운 수영복을 골랐답니다♪ 꼬리 부분도 특별히 디자인된 수영복이에요.",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8855,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8856] = {
-		param = "어때요? 제 새 수영복, 궁금하지 않으신가요?",
-		ship_group = 30229,
-		type = 1,
-		id = 8856,
-		flag = 1,
-		option = {
-			{
-				2,
-				"수영복, 온천, 꼬리……"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[8857] = {
-		param = "수영복, 온천, 꼬리…… 아하.",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8857,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8858] = {
-		param = "수영복을 미끼로 온천으로 꾀어내서, 내가 감전되는 모습을 보려는 거지?",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8858,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8859] = {
-		param = "어라, 들켜버렸네요.",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8859,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8860] = {
-		param = "역시 지휘관님을 속이는 건 어렵네요.",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8860,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8861] = {
-		param = "사실 최근에 새로운 요법을 알게 됐거든요. 이름하여 「온천 전기 요법」!",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8861,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8862] = {
-		param = "조금씩 전류를 계속 흘려보내기만 하면 감전될 걱정도 없대요.",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8862,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8863] = {
-		param = "저도 직접 해봤는데 효과가 있는 것 같더라고요? 지휘관님도 같이 해봐요~",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8863,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8864] = {
-		param = "부탁이에요~ 같이 해봐요~",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8864,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8865] = {
-		param = "해주실 거죠~?",
-		ship_group = 30229,
-		type = 1,
-		id = 8865,
-		flag = 2,
-		option = {
-			{
-				3,
-				"딱 한 번만이야"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[8866] = {
-		param = "딱 한 번만이야.",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8866,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8867] = {
-		param = "역시 자상하시다니까~ 기다리고 있을게요♪",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8867,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8868] = {
-		param = "에이~",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8868,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8869] = {
-		param = "에이~~",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8869,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8870] = {
-		param = "에이~~~",
-		ship_group = 30229,
-		type = 1,
-		id = 8870,
-		flag = 0,
-		option = {
-			{
-				1,
-				"무슨 일이야?"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[8871] = {
-		param = "무슨 일이야?",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8871,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8872] = {
-		param = "꼬리로 지휘관님을 계속, 계~속 꽉 껴안고 싶은데요……",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8872,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8873] = {
-		param = "그러면 지휘관님이 감전돼서 찌릿하실 테니…… 아무리 저라도 마음이 아프거든요.",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8873,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8874] = {
-		param = "꼬리 관리에 신경을 쓰고 있는데도 자꾸 전기가 새어 나와요.",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8874,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8875] = {
-		param = "57",
-		ship_group = 30229,
-		option = "",
-		type = 4,
-		id = 8875,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8876] = {
-		param = "지휘관님, 얼른 그 무적의 두뇌로 어떻게 좀 해보세요~",
-		ship_group = 30229,
-		type = 1,
-		id = 8876,
-		flag = 1,
-		option = {
-			{
-				2,
-				"근본적인 문제는……"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[8877] = {
-		param = "근본적인 문제는…… 역시 누전이겠지?",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8877,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8878] = {
-		param = "「피뢰침」이라고 들어본 적 있어?",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8878,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8879] = {
-		param = "건물 옥상에 세워서 번개를 땅으로 흘려보내는 그거요?",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8879,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8880] = {
-		param = "피뢰침을 통해 번개를 땅으로 흘려보내서",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8880,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8881] = {
-		param = "강력한 번개를 무해하게 만드는… 똑똑한 구조죠.",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8881,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8882] = {
-		param = "그러니까 지금 꼬리에서 새어 나오는 전기를 어딘가로 흘려보내면 된다는 말씀이죠?",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8882,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8883] = {
-		param = "으음……",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8883,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8884] = {
-		param = "꼬리에 긴 전선을 묶으면 피뢰침처럼 전기를 흘려보낼 수 있으려나……",
-		ship_group = 30229,
-		type = 1,
-		id = 8884,
-		flag = 2,
-		option = {
-			{
-				3,
-				"이론상으로는 그렇지"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[8885] = {
-		param = "이론상으로는 그렇지. 그래도 전선보다는 금속 펜던트가 더 나을 것 같아.",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8885,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8886] = {
-		param = "그럼 바로 시내로 고르러 가요. 지휘관님도 같이 가요~",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8886,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8887] = {
-		param = "꼬리로 꽉 껴안고 싶어서 못 참겠거든요♪",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8887,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8888] = {
-		param = "먼저 가서 기다리고 있을게요~",
-		ship_group = 30229,
-		option = "",
-		type = 1,
-		id = 8888,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8889] = {
-		param = "오후의 차 모임 그룹을 만들었어! 참가 희망을 보낸 아이들도 전부 초대해 두었지.",
-		ship_group = 20501,
-		option = "",
-		type = 1,
-		id = 8889,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8890] = {
-		param = "와아! 애프터눈 티, 너무 좋아!",
-		ship_group = 10707,
-		option = "",
-		type = 1,
-		id = 8890,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8891] = {
-		param = "301",
-		ship_group = 20122,
-		option = "",
-		type = 4,
-		id = 8891,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8892] = {
-		param = "301",
-		ship_group = 70106,
-		type = 4,
-		id = 8892,
-		flag = 0,
-		option = {
-			{
-				1,
-				"오후의 차 모임 그룹?"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[8893] = {
-		param = "오후의 차 모임 그룹? 로열 네이비 채널에도 비슷한 게 있었던 것 같은데……",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8893,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8894] = {
-		param = "그건 그거고 이건 이거야. 여긴 여기 나름대로 필요하단 말씀!",
-		ship_group = 20501,
-		option = "",
-		type = 1,
-		id = 8894,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8895] = {
-		param = "그래서 오늘의 차는 말이지, 티백으로 준비했어!",
-		ship_group = 20501,
-		option = "",
-		type = 1,
-		id = 8895,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8896] = {
-		param = "애프터눈 티라는 소양을 널리 알리기 위해 약간 다른 조합을 가미해 봤어.",
-		ship_group = 20502,
-		option = "",
-		type = 1,
-		id = 8896,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8897] = {
-		param = "미리 우리쪽에서 차를 준비하면, 그걸 각자 셀프로 마시는 방식이야. 편안하고 캐주얼한 스타일을 지향하고 있거든.",
-		ship_group = 20502,
-		option = "",
-		type = 1,
-		id = 8897,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8898] = {
-		param = "티백이긴 합니다만, 정성을 다해 배합했답니다. 맛은 제가 보장하지요.",
+	pg.base.activity_ins_chat_language[9167] = {
+		param = "지휘관님, 업무는 순조로우신가요?",
 		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 8898,
-		flag = 1
+		id = 9167,
+		flag = 0
 	}
-	pg.base.activity_ins_chat_language[8899] = {
-		param = "오늘은 로열 네이비뿐만 아니라, 다른 진영 분들도 참여하셨습니다.",
-		ship_group = 20212,
-		option = "",
+	pg.base.activity_ins_chat_language[9168] = {
+		param = "애프터눈 티를 준비하던 참인데, 곁들일 다과 중에 혹시 원하시는 거 있으세요?",
+		ship_group = 20403,
 		type = 1,
-		id = 8899,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8900] = {
-		param = "이스트 글림의 차와 다른 풍미를 맛보는 것이 기대되네요.",
-		ship_group = 50201,
-		option = "",
-		type = 1,
-		id = 8900,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8901] = {
-		param = "쉬는 시간이 늘어나서… 최고…",
-		ship_group = 90111,
-		option = "",
-		type = 1,
-		id = 8901,
-		flag = 1
-	}
-end)()
-(function ()
-	pg.base.activity_ins_chat_language[8902] = {
-		param = "이런 색다른 차 모임도 확실히 기분 전환이 되네요.",
-		ship_group = 20504,
-		option = "",
-		type = 1,
-		id = 8902,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8903] = {
-		param = "하고 싶은 말이 있다면 자유롭게 해. 감상이든 요청이든 뭐든지 환영이야!",
-		ship_group = 20501,
-		option = "",
-		type = 1,
-		id = 8903,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8904] = {
-		param = "홍차가 준비되었습니다. 탕비실에 두었으니 자유롭게 가져가십시오.",
-		ship_group = 20208,
-		option = "",
-		type = 1,
-		id = 8904,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8905] = {
-		param = "빨리 와! 다들 마실 만큼 준비해 뒀어~",
-		ship_group = 20136,
-		option = "",
-		type = 1,
-		id = 8905,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8906] = {
-		param = "히어로, 오늘따라 꽤 적극적이네요? 별일이네요.",
-		ship_group = 20116,
-		option = "",
-		type = 1,
-		id = 8906,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8907] = {
-		param = "엥~? 난 늘 이런데~?",
-		ship_group = 20136,
-		option = "",
-		type = 1,
-		id = 8907,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8908] = {
-		param = "왠지 어디선가 본 적 있는 모습이네요. 장난을 칠 때의 우리 푸보의 모습과 똑 닮았어요.",
-		ship_group = 50108,
-		option = "",
-		type = 1,
-		id = 8908,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8909] = {
-		param = "그런 사소한 건 신경 쓰지 말고, 차나 즐기자구~",
-		ship_group = 20136,
-		type = 1,
-		id = 8909,
-		flag = 1,
+		id = 9168,
+		flag = 0,
 		option = {
 			{
-				2,
-				"수고했어"
+				1,
+				"후드가 준비하는 거면 다 좋아"
 			}
 		}
 	}
-	pg.base.activity_ins_chat_language[8910] = {
-		param = "수고했어. 히어로도 한 잔 마시면서 한숨 돌리자.",
+	pg.base.activity_ins_chat_language[9169] = {
+		param = "후드가 준비해 주는 거라면 뭐든지 다 좋아.",
 		ship_group = 0,
 		option = "",
 		type = 1,
-		id = 8910,
-		flag = 2
+		id = 9169,
+		flag = 1
 	}
-	pg.base.activity_ins_chat_language[8911] = {
-		param = "그렇게 말해줄 줄 알고 난 이미 마셨지~ 맛있더라!",
-		ship_group = 20136,
-		option = "",
-		type = 1,
-		id = 8911,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8912] = {
-		param = "그럼 더 마시지 그래~",
-		ship_group = 20234,
-		option = "",
-		type = 1,
-		id = 8912,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8913] = {
-		param = "이미 충분히 마셨으니까 사양할게.",
-		ship_group = 20136,
-		option = "",
-		type = 1,
-		id = 8913,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8914] = {
-		param = "난 신경쓰지 말고 다들 느긋하게 즐겨~",
-		ship_group = 20136,
-		option = "",
-		type = 1,
-		id = 8914,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8915] = {
-		param = "뭔가 수상한데요… 잘 생각해 보니 오늘은……",
-		ship_group = 20116,
-		option = "",
-		type = 1,
-		id = 8915,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8916] = {
-		param = "밀러 님은 알아! 만우절이야! 장난꾸러기들이 가장 좋아하는 날이지!",
-		ship_group = 10153,
-		option = "",
-		type = 1,
-		id = 8916,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8917] = {
-		param = "아까 히어로 씨가 병 같은 걸 잔뜩 들고 주방으로 들어가는 걸 봤습니다.",
-		ship_group = 20204,
-		option = "",
-		type = 1,
-		id = 8917,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8918] = {
-		param = "히어로, 홍차에 뭔가 「조미료」를 넣으신 건가요?",
+	pg.base.activity_ins_chat_language[9170] = {
+		param = "늘 마음 써주셔서 감사합니다.",
 		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 8918,
-		flag = 2
+		id = 9170,
+		flag = 1
 	}
-	pg.base.activity_ins_chat_language[8919] = {
-		param = "연유랑 초코 우유랑 딸기 시럽만 듬뿍 넣었지, 이상한 건 아무것도 안 넣었어~",
-		ship_group = 20136,
+	pg.base.activity_ins_chat_language[9171] = {
+		param = "하지만 대접할 상대의 취향을 파악하는 것 또한 레이디의 소양이랍니다.",
+		ship_group = 20403,
+		type = 1,
+		id = 9171,
+		flag = 1,
+		option = {
+			{
+				2,
+				"그럼 오늘의 추천 메뉴는 뭐야?"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[9172] = {
+		param = "그럼 오늘의 추천 메뉴는 뭐야?",
+		ship_group = 0,
 		option = "",
 		type = 1,
-		id = 8919,
+		id = 9172,
 		flag = 2
 	}
-	pg.base.activity_ins_chat_language[8920] = {
-		param = "66",
-		ship_group = 20136,
-		option = "",
-		type = 4,
-		id = 8920,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8921] = {
-		param = "마싯게따! 오똔 맛이지… 궁금해—!",
-		ship_group = 30132,
-		option = "",
-		type = 1,
-		id = 8921,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8922] = {
-		param = "당분 가득한 홍차? 나도 마셔보고 싶어!",
-		ship_group = 10218,
-		option = "",
-		type = 1,
-		id = 8922,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8923] = {
-		param = "너무 많이 마시지 않도록 조심하시길. 단것을 과하게 섭취하면 치아 건강에 좋지 않답니다.",
-		ship_group = 29905,
-		option = "",
-		type = 1,
-		id = 8923,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8924] = {
-		param = "그럼 여러분, 우선 히어로 특제 홍차부터 드시고 계세요. 금방 새 차를 우려 오겠습니다.",
+	pg.base.activity_ins_chat_language[9173] = {
+		param = "새로운 레시피로 말린 과일을 넣은 스콘을 구웠는데, 그건 어떠신가요?",
 		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 8924,
+		id = 9173,
 		flag = 2
 	}
-	pg.base.activity_ins_chat_language[8925] = {
-		param = "괜찮아, 괜찮아! 처음부터 누군가는 장난을 칠 거라 예상은 했어!",
-		ship_group = 20137,
+	pg.base.activity_ins_chat_language[9174] = {
+		param = "노릇노릇한 황금빛으로 구워져서, 분명 맛있을 거예요.",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 8925,
+		id = 9174,
 		flag = 2
 	}
-	pg.base.activity_ins_chat_language[8926] = {
-		param = "그래서 다들 가지러 오기 전에, 주방에 있던 예비용 홍차랑 바꿔치기해 뒀지!",
-		ship_group = 20137,
+	pg.base.activity_ins_chat_language[9175] = {
+		param = "그렇지만…… 차를 우려내는 데 조금 실수를 해버렸답니다.",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 8926,
+		id = 9175,
 		flag = 2
 	}
-	pg.base.activity_ins_chat_language[8927] = {
-		param = "차에는 아무 문제 없으니까 안심하고 마셔!",
-		ship_group = 20137,
+	pg.base.activity_ins_chat_language[9176] = {
+		param = "찻잎이 뜨거운 물에 부드럽게 퍼지는 모습을 보며 생각에 잠기는 바람에, 평소보다 조금 진하게 우려져 버렸어요……",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 8927,
+		id = 9176,
 		flag = 2
 	}
-	pg.base.activity_ins_chat_language[8928] = {
-		param = "어머, 누비안이 있으니까 마음이 든든하네!",
-		ship_group = 20509,
+	pg.base.activity_ins_chat_language[9177] = {
+		param = "늘 우리는 차인데 이런 실수를 하다니, 부끄럽기 그지없네요.",
+		ship_group = 20403,
+		type = 1,
+		id = 9177,
+		flag = 2,
+		option = {
+			{
+				3,
+				"진한 차도 색다른 풍미가 있어"
+			},
+			{
+				4,
+				"멍하니 생각에 잠기다니 별일이네"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[9178] = {
+		param = "진한 차도 나름 특별한 풍미가 있으니, 평소와는 다른 맛을 즐길 수 있지 않을까?",
+		ship_group = 0,
 		option = "",
 		type = 1,
-		id = 8928,
-		flag = 2
+		id = 9178,
+		flag = 3
 	}
-	pg.base.activity_ins_chat_language[8929] = {
-		param = "체셔도 한 잔 가져갈게!",
-		ship_group = 29903,
+	pg.base.activity_ins_chat_language[9179] = {
+		param = "확실히 가끔은 이렇게 평소랑 다르게 해도 재밌겠네요.",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 8929,
-		flag = 2
+		id = 9179,
+		flag = 3
 	}
-	pg.base.activity_ins_chat_language[8930] = {
-		param = "58",
-		ship_group = 90401,
-		option = "",
-		type = 4,
-		id = 8930,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8931] = {
-		param = "이상하네요. 예비 홍차 같은 걸 준비해 뒀던가?",
-		ship_group = 90401,
+	pg.base.activity_ins_chat_language[9180] = {
+		param = "오늘처럼…… 평소와 다름 없는 다과회지만, 지휘관님과 이렇게 사소한 대화를 주고받을 수 있게 된 것처럼 말이에요♪",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 8931,
-		flag = 2
+		id = 9180,
+		flag = 3
 	}
-	pg.base.activity_ins_chat_language[8932] = {
-		param = "준비는 해뒀었는데……",
-		ship_group = 30401,
+	pg.base.activity_ins_chat_language[9181] = {
+		param = "후드가 멍하니 생각에 잠기다니 별일이네.",
+		ship_group = 0,
 		option = "",
 		type = 1,
-		id = 8932,
-		flag = 2
+		id = 9181,
+		flag = 4
 	}
-	pg.base.activity_ins_chat_language[8933] = {
-		param = "도우러 왔을 때 깜빡하고 전부 마셔버렸답니다.",
-		ship_group = 30401,
+	pg.base.activity_ins_chat_language[9182] = {
+		param = "네, 지휘관님이라면…… 찻잎이 퍼져나가는 모습을 흥미롭게 바라보실까, 하는 생각이 들어서요.",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 8933,
-		flag = 2
+		id = 9182,
+		flag = 4
 	}
-	pg.base.activity_ins_chat_language[8934] = {
-		param = "진짜? 주방에는 티포트가 분명 두 개 있었는데?",
-		ship_group = 20137,
+	pg.base.activity_ins_chat_language[9183] = {
+		param = "그건 한가로이 피어나는 홍차일까? 아니면 춤추듯 날아올라 가볍게 뻗어 나가는 녹차일까 말이죠.",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 8934,
-		flag = 2
+		id = 9183,
+		flag = 4
 	}
-	pg.base.activity_ins_chat_language[8935] = {
-		param = "내 연습용 티포트가 사라졌는데, 누구 본 사람 없어?",
-		ship_group = 20707,
+	pg.base.activity_ins_chat_language[9184] = {
+		param = "잠깐 그런 사소한 상상을 했을 뿐이랍니다.",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 8935,
-		flag = 2
+		id = 9184,
+		flag = 4
 	}
-	pg.base.activity_ins_chat_language[8936] = {
-		param = "새로 개량한 레시피로 우려서 아까 주방에 두었는데…",
-		ship_group = 20707,
+	pg.base.activity_ins_chat_language[9185] = {
+		param = "마침 스콘이 알맞게 구워졌네요.",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 8936,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8937] = {
-		param = "217",
-		ship_group = 50602,
-		option = "",
-		type = 4,
-		id = 8937,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8938] = {
-		param = "217",
-		ship_group = 40123,
-		option = "",
-		type = 4,
-		id = 8938,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8939] = {
-		param = "217",
-		ship_group = 29903,
-		option = "",
-		type = 4,
-		id = 8939,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8940] = {
-		param = "헉?!",
-		ship_group = 20137,
-		option = "",
-		type = 1,
-		id = 8940,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8941] = {
-		param = "어쩌다 이런 사고가?! 내 장난보다 훨씬 재밌잖아♪",
-		ship_group = 20136,
-		option = "",
-		type = 1,
-		id = 8941,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8942] = {
-		param = "기왕 이렇게 됐으니, 그냥 만우절 장난이었던 걸로 칠까?",
-		ship_group = 20707,
-		option = "",
-		type = 1,
-		id = 8942,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8943] = {
-		param = "좋아! 다들, 해피 만우절!",
-		ship_group = 50102,
-		option = "",
-		type = 1,
-		id = 8943,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8944] = {
-		param = "제법 나쁘지 않은 하루네요♪",
-		ship_group = 40602,
-		option = "",
-		type = 1,
-		id = 8944,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8945] = {
-		param = "푸보, 다들 방심한 틈을 타서 우리도 장난 치자!",
-		ship_group = 50102,
-		option = "",
-		type = 1,
-		id = 8945,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8946] = {
-		param = "으악! 채팅방을 헷갈리면 어떻게 해!",
-		ship_group = 50109,
-		option = "",
-		type = 1,
-		id = 8946,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8947] = {
-		param = "그냥 다음부터는 평범하게 서로 대면하며 마시는 애프터눈 티로 하는 게 낫겠어…",
-		ship_group = 20501,
-		option = "",
-		type = 1,
-		id = 8947,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8948] = {
-		param = "지휘관님의 전속 메이드로서, 한 가지 개인적인 취향 조사를 하고자 합니다.",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 8948,
+		id = 9185,
 		flag = 0
 	}
-	pg.base.activity_ins_chat_language[8949] = {
-		param = "개인 맞춤 서비스의 정밀도를 향상하기 위한 조사이니 협력 부탁드립니다.",
-		ship_group = 20313,
+	pg.base.activity_ins_chat_language[9186] = {
+		param = "조금 진하게 우려지긴 했습니다만, 차도 있답니다.",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 8949,
+		id = 9186,
 		flag = 0
 	}
-	pg.base.activity_ins_chat_language[8950] = {
-		param = "규칙은 간단합니다. 제가 질문을 드리면, 3초 이내에 가장 먼저 떠오른 답을 말씀하시면 됩니다.",
-		ship_group = 20313,
+	pg.base.activity_ins_chat_language[9187] = {
+		param = "혹시 괜찮으시다면, 이 완벽하지 않은 애프터눈 티를 함께 즐겨주지 않으시겠어요?",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 8950,
+		id = 9187,
 		flag = 0
 	}
-	pg.base.activity_ins_chat_language[8951] = {
-		param = "오래 고민하지 마시고, 바로바로 솔직하게 대답해 주시기 바랍니다.",
-		ship_group = 20313,
+	pg.base.activity_ins_chat_language[9188] = {
+		param = "차를 나누며 도란도란 즐거운 이야기를 나누도록 해요.",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 8951,
+		id = 9188,
 		flag = 0
 	}
-	pg.base.activity_ins_chat_language[8952] = {
-		param = "공정함을 기하기 위해, 먼저 지휘관님부터 질문해주셨으면 합니다.",
-		ship_group = 20313,
+	pg.base.activity_ins_chat_language[9189] = {
+		param = "지휘관님, 다음 주에 열릴 무도회 초청장은 받으셨나요?",
+		ship_group = 20403,
+		option = "",
 		type = 1,
-		id = 8952,
+		id = 9189,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9190] = {
+		param = "댄스 파트너는 이미 정해두셨는지요?",
+		ship_group = 20403,
+		type = 1,
+		id = 9190,
 		flag = 0,
 		option = {
 			{
 				1,
-				"현재 모드는?"
+				"아직 안 정했어"
 			}
 		}
 	}
-	pg.base.activity_ins_chat_language[8953] = {
-		param = "데본셔, 현재 모드는 뭐야?",
+	pg.base.activity_ins_chat_language[9191] = {
+		param = "아직 안 정했어.",
 		ship_group = 0,
 		option = "",
 		type = 1,
-		id = 8953,
+		id = 9191,
 		flag = 1
 	}
-	pg.base.activity_ins_chat_language[8954] = {
-		param = "3, 2, 1, 딩동!",
-		ship_group = 20313,
+	pg.base.activity_ins_chat_language[9192] = {
+		param = "아직 정해진 파트너가 없으시다면……",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 8954,
+		id = 9192,
 		flag = 1
 	}
-	pg.base.activity_ins_chat_language[8955] = {
-		param = "정답은…… 애교 듬뿍 진행자 모드랍니다♪",
-		ship_group = 20313,
+	pg.base.activity_ins_chat_language[9193] = {
+		param = "제가 먼저 지휘관님께 신청을 드리고자 하는데",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 8955,
+		id = 9193,
 		flag = 1
 	}
-	pg.base.activity_ins_chat_language[8956] = {
-		param = "저 궁금한 게 있는데 말이죠~ 어떤 질문을 해야 지휘관님을 「귀엽~게 패배하게」 만들 수 있을까요?",
-		ship_group = 20313,
+	pg.base.activity_ins_chat_language[9194] = {
+		param = "받아주지 않으시겠어요?",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 8956,
+		id = 9194,
 		flag = 1
 	}
-	pg.base.activity_ins_chat_language[8957] = {
-		param = "그럼, 다음은 제 차례군요.",
-		ship_group = 20313,
+	pg.base.activity_ins_chat_language[9195] = {
+		param = "당연히 지휘관님을 곤란하게 만들 생각은 추호도 없으니, 안심하시길.",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 8957,
+		id = 9195,
 		flag = 1
 	}
-	pg.base.activity_ins_chat_language[8958] = {
-		param = "지휘관님은 어떤 모드의 데본셔가 좋으신가요?",
-		ship_group = 20313,
+	pg.base.activity_ins_chat_language[9196] = {
+		param = "춤은 간단한 걸로 추도록 해요. 지휘관님께서 리드해 주시면, 제가 맞추어 갈 게요.",
+		ship_group = 20403,
+		option = "",
 		type = 1,
-		id = 8958,
+		id = 9196,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9197] = {
+		param = "그러면 한결 부담 없이 편안하게 즐기실 수 있을 듯한데, 어떠신가요?",
+		ship_group = 20403,
+		type = 1,
+		id = 9197,
 		flag = 1,
 		option = {
 			{
 				2,
-				"메이드 모드"
-			},
-			{
-				3,
-				"업무 모드"
+				"호의를 받아들일게"
 			}
 		}
 	}
-	pg.base.activity_ins_chat_language[8959] = {
-		param = "메이드 모드…려나?",
+	pg.base.activity_ins_chat_language[9198] = {
+		param = "그럼 고마운 마음으로 호의를 받아들일게. 무도회 날이 기대되는걸.",
 		ship_group = 0,
 		option = "",
 		type = 1,
-		id = 8959,
+		id = 9198,
 		flag = 2
 	}
-	pg.base.activity_ins_chat_language[8960] = {
-		param = "알겠습니다, 지휘관님. 흐트러진 옷깃을 정돈해 드릴까요? 아니면…… 홍차 옆에 원하는 각설탕을 하나 더 곁들여 드릴까요?",
-		ship_group = 20313,
+	pg.base.activity_ins_chat_language[9199] = {
+		param = "응해 주셔서 감사해요. 저도 기대하고 있답니다.",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 8960,
+		id = 9199,
 		flag = 2
 	}
-	pg.base.activity_ins_chat_language[8961] = {
-		param = "앞으론 이 기준에 맞춰, 「만점 이상」의 메이드 서비스를 제공해 드리겠습니다.",
-		ship_group = 20313,
+	pg.base.activity_ins_chat_language[9200] = {
+		param = "그런 의미에서, 아주 간단히 사전 테스트를 진행해 봐도 괜찮을까요?",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 8961,
+		id = 9200,
 		flag = 2
 	}
-	pg.base.activity_ins_chat_language[8962] = {
-		param = "아마 업무 모드겠지?",
-		ship_group = 0,
+	pg.base.activity_ins_chat_language[9201] = {
+		param = "그럼 질문 드리죠. 춤을 추던 도중, 지휘관님께서는 실수로 제 발을 밟아버리고 마셨습니다……",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 8962,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8963] = {
-		param = "알겠습니다. 오늘의 스케줄은 이미 동기화가 끝났습니다. 예상 외의 사태에 대해서도 전부 대응책을 준비해 두었습니다.",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 8963,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8964] = {
-		param = "업무 모드의 데본셔… 무척 든든하지 않나요?",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 8964,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8965] = {
-		param = "그럼 다음 질문으로 가볼게요~ 지휘관님, 부탁드려요!",
-		ship_group = 20313,
-		type = 1,
-		id = 8965,
-		flag = 0,
-		option = {
-			{
-				4,
-				"그렇게 자주 모드를 바꾸면 피곤하지 않아?"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[8966] = {
-		param = "그렇게 자주 모드를 바꾸면 피곤하지 않아?",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8966,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[8967] = {
-		param = "지휘관님과 함께라면 데본셔는 하나도 안 피곤하답니다~♪",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 8967,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[8968] = {
-		param = "배려 모드, ON.",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 8968,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[8969] = {
-		param = "이게 지휘관님이 듣고 싶어 하던 대답 맞죠?",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 8969,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[8970] = {
-		param = "뭐, 사실이기도 하지만요. 그럼 마지막 질문…",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 8970,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[8971] = {
-		param = "만약 지금 「연인 모드」로 전환한다면, 여기서 도망치실 건가요?",
-		ship_group = 20313,
-		type = 1,
-		id = 8971,
-		flag = 4,
-		option = {
-			{
-				5,
-				"도망치지 않아"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[8972] = {
-		param = "도망치지 않아.",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8972,
-		flag = 5
-	}
-	pg.base.activity_ins_chat_language[8973] = {
-		param = "답변이 0.7초 늦었네요…… 시간 초과♪ 부끄러워서 그러세요? 아니면 망설여져서?",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 8973,
-		flag = 5
-	}
-	pg.base.activity_ins_chat_language[8974] = {
-		param = "그런 반응, 전 좋아요.",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 8974,
-		flag = 5
-	}
-	pg.base.activity_ins_chat_language[8975] = {
-		param = "포상으로 오늘은 하루 종일 전속 연인 모드로 있어 드리죠♪",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 8975,
-		flag = 5
-	}
-	pg.base.activity_ins_chat_language[8976] = {
-		param = "달콤함에 푹 절여질 각오, 단단히 하셔야 해요~♡",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 8976,
-		flag = 5
-	}
-	pg.base.activity_ins_chat_language[8977] = {
-		param = "지휘관님, 오늘은 곁에서 모실 수 없지만…… 메이드의 원격 서비스는 정시대로 가동 중입니다.",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 8977,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8978] = {
-		param = "오늘의 예정도 이미 최적화를 마쳤지요.",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 8978,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8979] = {
-		param = "9시부터는 작전 회의, 11시부터는 연습, 15시부터는 서류 확인……",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 8979,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8980] = {
-		param = "그리고 모든 일정 사이에는 단것을 보충할 시간을 넣어 두었답니다.",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 8980,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8981] = {
-		param = "당분은 집중력을 유지하기 위한 소중한 연료니까요. 전속 메이드로서 드리는 전문적인 조언이랍니다♪",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 8981,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8982] = {
-		param = "그럼 왼쪽 세 번째 서류 아래를 확인해 주세요.",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 8982,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[8983] = {
-		param = "하트와 도넛이 그려진 카드…… 찾으셨나요?",
-		ship_group = 20313,
-		type = 1,
-		id = 8983,
-		flag = 0,
-		option = {
-			{
-				1,
-				"「사랑♡보충 카드」……?"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[8984] = {
-		param = "「사랑♡보충 카드」……?",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8984,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8985] = {
-		param = "원격 애정 딜리버리 시스템의 기동 증명서랍니다~♪",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 8985,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[8986] = {
-		param = "그럼 가벼운 질문 하나 드리죠. 오늘은 어떤 모드의 저와 시간을 보내고 싶으신가요?",
-		ship_group = 20313,
-		type = 1,
-		id = 8986,
-		flag = 1,
-		option = {
-			{
-				2,
-				"후배"
-			},
-			{
-				3,
-				"메이드"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[8987] = {
-		param = "후배…는 어때?",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8987,
+		id = 9201,
 		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8988] = {
-		param = "제법 신선한 선택이네요~ 그럼 청순 후배 모드, ON.",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 8988,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8989] = {
-		param = "선배님, 맨 아래 서랍을 열어봐 주실래요?",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 8989,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8990] = {
-		param = "오늘 아침에 몰래 당분 보충용 간식을 넣어두었답니다.",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 8990,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8991] = {
-		param = "열어보세요. 데본셔가 직접 만든 하트 모양 도넛이에요. 슈가 파우더를 듬뿍 뿌려 두었으니까…",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 8991,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8992] = {
-		param = "당분도 애정도 100%로 채울 수 있을 거예요~ 선배님♪",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 8992,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[8993] = {
-		param = "그럼 메이드로 할까?",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8993,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8994] = {
-		param = "알겠습니다. 전속 메이드 모드, ON.",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 8994,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8995] = {
-		param = "그럼 지휘관님, 오른쪽 맨 위 서랍을 열어 주세요.",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 8995,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8996] = {
-		param = "여셨나요? 데본셔가 구운 메이플 팬케이크가 들어있어요. 넣었을 때는 아직 따끈따끈했지만…",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 8996,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8997] = {
-		param = "아무튼 전속 메이드가 드리는 달콤한 간식입니다, 지휘관님.",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 8997,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[8998] = {
-		param = "방금 애정 보충은 어떠셨나요?",
-		ship_group = 20313,
-		type = 1,
-		id = 8998,
-		flag = 0,
-		option = {
-			{
-				4,
-				"센스 있네"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[8999] = {
-		param = "데본셔는 역시 센스가 좋다니까.",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 8999,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[9000] = {
-		param = "무사히 보충돼서 다행이에요.",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 9000,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[9001] = {
-		param = "실은 계속 고민했거든요. 제가 곁에 없는 때는 어떻게 해야 당신이 제 존재를 느낄 수 있을까 하고……",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 9001,
-		flag = 4
 	}
 end)()
 (function ()
-	pg.base.activity_ins_chat_language[9002] = {
-		param = "드디어 답을 찾았답니다.",
-		ship_group = 20313,
-		option = "",
+	pg.base.activity_ins_chat_language[9202] = {
+		param = "어떻게 대처하는 것이 가장 올바르다고 생각하시나요?",
+		ship_group = 20403,
 		type = 1,
-		id = 9002,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[9003] = {
-		param = "앞으론 정기적으로 이런 당분 보충 시간이 있을 거예요~♪",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 9003,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[9004] = {
-		param = "기대해 주세요.",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 9004,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[9005] = {
-		param = "바깥 용무가 끝나는 대로 가능한 한 빨리 돌아갈게요.",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 9005,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[9006] = {
-		param = "그때까지 데본셔의 애정, 마음껏 즐겨 주셔요♪",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 9006,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[9007] = {
-		param = "언제나 곁에 있는 것처럼요♡",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 9007,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[9008] = {
-		param = "지휘관님, 상의드릴 것이 하나 있습니다.",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 9008,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[9009] = {
-		param = "『서약 보충 협정서』라는 초안을 작성해 보았는데, 보시겠어요?",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 9009,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[9010] = {
-		param = "제1조. 지휘관님은 자동적으로 「데본셔 특제 도넛의 영원히 유일한 시식 요원」의 칭호를 얻는다.",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 9010,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[9011] = {
-		param = "이에 따라 데본셔의 모든 신작 도넛에 대해 최우선으로 시식하고 감상을 말할 의무를 진다.",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 9011,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[9012] = {
-		param = "혹평을 내릴 경우, 데본셔는 온갖 수단을 동원해 그 평가를 철회하게 할 권리를 가진다. 그 수단에는 응석 부리기, 논리로 설득하기, 다시 만들기 등이 포함되나 이에 국한되지 않는다.",
-		ship_group = 20313,
-		type = 1,
-		id = 9012,
-		flag = 0,
-		option = {
-			{
-				1,
-				"그래도 평가를 안 바꾸면?"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[9013] = {
-		param = "그래도 평가를 안 바꾸면 어떻게 돼? 조금 궁금하네.",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 9013,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[9014] = {
-		param = "그럴 경우, 디저트를 만든 당사자로부터 지속적인 주목을 받게 됩니다.",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 9014,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[9015] = {
-		param = "그 예로 지난 주에 「가다랑어 맛이 임팩트가 너무 강하다」고 한마디 하신 이후로 몇 가지 패턴이나 개량을 거듭했죠.",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 9015,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[9016] = {
-		param = "평가를 철회하실 때까지는 당분 전개의 지속적인 공세를 받을 각오를 해두시길.",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 9016,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[9017] = {
-		param = "제2조. 데본셔가 무의식중에 「진심 모드」로 전환되었을 경우에는 메이드답지 않은 행동을 할 때가 있다.",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 9017,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[9018] = {
-		param = "그때 지휘관님은 딴지를 걸어서는 아니 된다.",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 9018,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[9019] = {
-		param = "또한, 데본셔와 함께 어린아이 같은 행동에 어울려줄 의무를 진다.",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 9019,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[9020] = {
-		param = "단, 도저히 견딜 수 없을 경우……",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 9020,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[9021] = {
-		param = "「포옹」 동작으로 모드 중단을 시도할 수 있도록 한다.",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 9021,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[9022] = {
-		param = "이상으로 《서약 보충 협정서》의 전체 내용입니다만, 어떠신가요?",
-		ship_group = 20313,
-		type = 1,
-		id = 9022,
-		flag = 1,
-		option = {
-			{
-				2,
-				"이렇게 좋은 내용이라면…"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[9023] = {
-		param = "내용이 너무 좋으니까, 지금 당장 원본을 만들어서 가져와 줬으면 해. 그나저나 나중에 뭔가 추가되기도 하는 거야?",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 9023,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[9024] = {
-		param = "지금으로서는 없습니다. 「진짜 데본셔」를 해방하기 위해 필요한 조건 중에 뭔가 떠오르는 게 있으면 또 추가하도록 하지요.",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 9024,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[9025] = {
-		param = "나중에 이 서류를 인쇄해서 방까지 가져다드릴게요.",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 9025,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[9026] = {
-		param = "맨 아래에 딱 한 줄 빈칸이 있습니다.",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 9026,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[9027] = {
-		param = "지휘관님은 그곳에 「나는 데본셔의 모든 조항 및 부대 조건을 자발적으로 수락한다」라고 기입해 주세요.",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 9027,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[9028] = {
-		param = "그다음 서명만 해 주시면 끝입니다.",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 9028,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[9029] = {
-		param = "서류와 함께 오늘의 신작 도넛도 가져다드릴게요.",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 9029,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[9030] = {
-		param = "조금 전 조항에 따라 공정한 평가 부탁드려요♪",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 9030,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[9031] = {
-		param = "그러지 않으면 연인 모드에 들어가서 철저하게 이야기를 나눠야 할 테니까요♪",
-		ship_group = 20313,
-		option = "",
-		type = 1,
-		id = 9031,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[9032] = {
-		param = "지휘관 씨~",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9032,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[9033] = {
-		param = "책상 서류들 전부 분류해 뒀어~",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9033,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[9034] = {
-		param = "게다가 집무실 청소도 아주 완벽하게 해뒀다구.",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9034,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[9035] = {
-		param = "그래서 완전히 기진맥진이야~",
-		ship_group = 10601,
-		type = 1,
-		id = 9035,
-		flag = 0,
-		option = {
-			{
-				1,
-				"웬일이야"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[9036] = {
-		param = "웬일이야. 롱 아일랜드가 성실하게 일을 다 하고.",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 9036,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[9037] = {
-		param = "그뿐만이 아니야~",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9037,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[9038] = {
-		param = "지휘관 씨한테 최대한 어필하기 위해",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9038,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[9039] = {
-		param = "지금 집에 있는 콜라랑 감자칩이랑 컵라면이랑 게임 같은 걸 다 챙겨서",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9039,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[9040] = {
-		param = "이따가 전부 집무실로 가지고 들어올 거야~",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9040,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[9041] = {
-		param = "유령 씨는 말이지, 당분간은 집무실에 눌러앉아 있을 거야~",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9041,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[9042] = {
-		param = "지휘관 씨가 밤새도록 야근하라고 해도 끄떡없어~",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9042,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[9043] = {
-		param = "유령 씨가 보인다면 말이지만~",
-		ship_group = 10601,
-		type = 1,
-		id = 9043,
-		flag = 1,
-		option = {
-			{
-				2,
-				"마음은 고맙지만"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[9044] = {
-		param = "마음은 고맙지만…… 왠지 좀 걸리는데.",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 9044,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[9045] = {
-		param = "그렇지 않아!",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9045,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[9046] = {
-		param = "유령 씨는 상냥하니까, 이렇게 가끔 잘해주는 건 극히 자연스러운 거야~",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9046,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[9047] = {
-		param = "딱히, 엄청 기대하던 신작 게임이 발표돼서 그런 건 아니구…",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9047,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[9048] = {
-		param = "초고화질로 플레이하려고 성능 강화된 게임기를 같이 장만하려는 속셈도 아니야!",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9048,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[9049] = {
-		param = "에효.. 초회 한정판을 구하려니 이번 달 예산이 꽤 빠듯하긴 한데……",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9049,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[9050] = {
-		param = "지휘관 씨도 관심 있으면 지금이 제대로 입덕할 찬스야~!",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9050,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[9051] = {
-		param = "이 불후의 명작에 대해서 자세히 가르쳐 줄게~",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9051,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[9052] = {
-		param = "지휘관 씨도 마음에 들면…… 같이 세트로 살 수 있잖아!",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9052,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[9053] = {
-		param = "그럼 예산이 초과될 걱정도 사라지겠지~",
-		ship_group = 10601,
-		type = 1,
-		id = 9053,
+		id = 9202,
 		flag = 2,
 		option = {
 			{
 				3,
-				"좋긴 한데, 일은……?"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[9054] = {
-		param = "좋긴 한데, 일은……?",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 9054,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[9055] = {
-		param = "그런 건 나중에 해도 돼~",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9055,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[9056] = {
-		param = "준비 다 됐으니까 지금 거기로 갈게~",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9056,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[9057] = {
-		param = "당분간은 지휘관 씨한테 착 달라붙어 있을 거야~!",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9057,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[9058] = {
-		param = "졸려……",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9058,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[9059] = {
-		param = "요즘은 자고 있어도 머릿속이 지휘관 씨 생각으로 가득해……",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9059,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[9060] = {
-		param = "확실히 책임져……",
-		ship_group = 10601,
-		type = 1,
-		id = 9060,
-		flag = 0,
-		option = {
-			{
-				1,
-				"왜？"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[9061] = {
-		param = "왜?",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 9061,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[9062] = {
-		param = "요전에 게임에서 지휘관 씨랑 비겼으니까 그런 거잖아!",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9062,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[9063] = {
-		param = "유령 씨는 게이머들 사이에서도 이름 좀 날리는 「L.I.」라는 플레이어거든.",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9063,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[9064] = {
-		param = "저번에 같이 했던 게임 랭킹 상위 5개는 전부 유령 씨가 차지했었단 말이야!",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9064,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[9065] = {
-		param = "지휘관 씨는 그냥 평범한 초보인 줄 알았는데",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9065,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[9066] = {
-		param = "설마 가볍게 해본 것만으로 그렇게 실력이 늘 줄이야……",
-		ship_group = 10601,
-		type = 1,
-		id = 9066,
-		flag = 1,
-		option = {
-			{
-				2,
-				"전략이 중요한 게임이라서 그런가……"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[9067] = {
-		param = "전략이 중요한 게임이라서 그런가……",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 9067,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[9068] = {
-		param = "아무리 지휘관 씨라고 해도, 시작한 지 30분 만에 동급이 되다니……",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9068,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[9069] = {
-		param = "고인물 플레이어로서 자존심이 엄청나게 상했어!",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9069,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[9070] = {
-		param = "그래서 그동안 지휘관 씨 곁에서 약점을 찾았고…",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9070,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[9071] = {
-		param = "매일 성실하게 포석을 두는 법이나 타이밍 잡는 법도 연구해 왔지.",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9071,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[9072] = {
-		param = "그렇게 완벽한 테크닉을 익혔어!",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9072,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[9073] = {
-		param = "다음번엔 절대 안 질 거야!",
-		ship_group = 10601,
-		type = 1,
-		id = 9073,
-		flag = 2,
-		option = {
-			{
-				3,
-				"정말로?"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[9074] = {
-		param = "정말로? 그럼 얼마나 대단해졌는지 말해줄래?",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 9074,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[9075] = {
-		param = "듣고 놀라지 마.",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9075,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[9076] = {
-		param = "순서가 복잡해서 컨트롤에 얼마나 익숙해지느냐가 관건이거든.",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9076,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[9077] = {
-		param = "예를 들어, 공격할 때는 주변에 한꺼번에 병력을 강하시키고……",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9077,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[9078] = {
-		param = "잠깐, 지휘관 씨 혹시 유령 씨를 떠보는 건 아니지?",
-		ship_group = 10601,
-		type = 1,
-		id = 9078,
-		flag = 3,
-		option = {
-			{
-				4,
-				"들켰나"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[9079] = {
-		param = "들켰나.",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 9079,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[9080] = {
-		param = "우와! 역시 한시도 방심할 수가 없다니까!",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9080,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[9081] = {
-		param = "하지만 이걸 들켰다고 해서 유령 씨의 승리가 흔들리진 않아!",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9081,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[9082] = {
-		param = "이 테크닉이 얼마나 대단한지는 다음 대전 때 직접 몸으로 겪게 해줄게!",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9082,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[9083] = {
-		param = "다음 쉬는 날, 기다리고 있을게~",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9083,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[9084] = {
-		param = "66",
-		ship_group = 10601,
-		option = "",
-		type = 4,
-		id = 9084,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[9085] = {
-		param = "자금난에 빠지지 않기 위해서",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9085,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[9086] = {
-		param = "장대한 계획을 세웠어~",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9086,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[9087] = {
-		param = "그건 말이지~ 시리즈물의 프라모델을 만들어서 파는 거야!",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9087,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[9088] = {
-		param = "인기 시리즈로 밀고 나가면 돈 문제는 한 방에 해결될 거야!",
-		ship_group = 10601,
-		type = 1,
-		id = 9088,
-		flag = 0,
-		option = {
-			{
-				1,
-				"좋은 아이디어네"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[9089] = {
-		param = "좋은 아이디어네. 도와줄까?",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 9089,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[9090] = {
-		param = "유령 씨는 오랜 경험을 가진 업계 전문가라서",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9090,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[9091] = {
-		param = "양산 계획은 이미 완벽하게 세워뒀어~",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9091,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[9092] = {
-		param = "하지만……",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9092,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[9093] = {
-		param = "디자인은 전혀 모르겠어!",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9093,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[9094] = {
-		param = "어떤 프라모델이 먹힐지……",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9094,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[9095] = {
-		param = "전혀 짐작이 안 가!",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9095,
-		flag = 1
-	}
-	pg.base.activity_ins_chat_language[9096] = {
-		param = "322",
-		ship_group = 10601,
-		type = 4,
-		id = 9096,
-		flag = 1,
-		option = {
-			{
-				2,
-				"우선 참고부터……"
-			}
-		}
-	}
-	pg.base.activity_ins_chat_language[9097] = {
-		param = "우선 인기 있는 걸 참고해서 수요나 취향을 분석해 보자.",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 9097,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[9098] = {
-		param = "먼저 디자인 방향성부터 정한다는 거지?",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9098,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[9099] = {
-		param = "의외로 괜찮을지도!",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9099,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[9100] = {
-		param = "모항의 지금 트렌드는……",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9100,
-		flag = 2
-	}
-	pg.base.activity_ins_chat_language[9101] = {
-		param = "엄청난 아이디어가 떠올랐어!",
-		ship_group = 10601,
-		type = 1,
-		id = 9101,
-		flag = 2,
-		option = {
-			{
-				3,
-				"오?"
-			}
-		}
-	}
-end)()
-(function ()
-	pg.base.activity_ins_chat_language[9102] = {
-		param = "오? 뭔데?",
-		ship_group = 0,
-		option = "",
-		type = 1,
-		id = 9102,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[9103] = {
-		param = "그건 바로 「지휘관 메카 시리즈」!",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9103,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[9104] = {
-		param = "메인은 멋진 메카고, 파일럿은 지휘관 씨인 거지.",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9104,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[9105] = {
-		param = "메카 디자인은 대기업을 못 이길지도 모르지만",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9105,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[9106] = {
-		param = "파일럿 버전의 지휘관 씨 피규어가 들어있다고 홍보하면 분명 대박 날 게 뻔해!",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9106,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[9107] = {
-		param = "분명 인기 폭발일 거야!",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9107,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[9108] = {
-		param = "지휘관 씨, 지금 시간 돼? 같이 자세하게 이야기를 나눴으면 하는데.",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9108,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[9109] = {
-		param = "변신 기믹을 넣는 것도 괜찮을지도……",
-		ship_group = 10601,
-		option = "",
-		type = 1,
-		id = 9109,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[9110] = {
-		param = "어째서 이런 일이……!",
-		ship_group = 10125,
-		option = "",
-		type = 1,
-		id = 9110,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[9111] = {
-		param = "허먼이 어제 냉장고에 넣어둔 아이스크림이 없어졌어!!",
-		ship_group = 10125,
-		option = "",
-		type = 1,
-		id = 9111,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[9112] = {
-		param = "뭐라고—!? 이런 대낮에 말도 안 되는 사건이!!?",
-		ship_group = 10149,
-		type = 1,
-		id = 9112,
-		flag = 0,
-		option = {
-			{
-				1,
-				"아이스크림이 사라지다니 큰일이네!"
+				"잡아준 후 사과한다"
 			},
 			{
-				2,
-				"사건이라고 할 정도인가?"
+				4,
+				"싱긋 웃으며 얼버무린다"
 			}
 		}
 	}
-	pg.base.activity_ins_chat_language[9113] = {
-		param = "아이스크림이 사라지다니 큰일이네!",
+	pg.base.activity_ins_chat_language[9203] = {
+		param = "균형을 잃고 넘어지지 않게 잡아 준 뒤, 걸음을 멈추고 정중하게 사과하겠어.",
 		ship_group = 0,
 		option = "",
 		type = 1,
-		id = 9113,
-		flag = 1
+		id = 9203,
+		flag = 3
 	}
-	pg.base.activity_ins_chat_language[9114] = {
-		param = "사건이라고 할 정도인가?",
+	pg.base.activity_ins_chat_language[9204] = {
+		param = "지휘관님다운 답변이네요. 아주 예의 바르고 신사적이세요.",
+		ship_group = 20403,
+		option = "",
+		type = 1,
+		id = 9204,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9205] = {
+		param = "다만, 주변의 수많은 눈길이 쏠려 있는 상황에서는 조금 더 자연스럽게 대처하시는 편이 매끄러울지도 몰라요.",
+		ship_group = 20403,
+		option = "",
+		type = 1,
+		id = 9205,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9206] = {
+		param = "미소를 짓고 넘어간 다음, 아무 일도 없었다는 듯 춤을 계속 이어 나가야지. 그래야 분위기도 어색해지지 않을 거고.",
 		ship_group = 0,
 		option = "",
 		type = 1,
-		id = 9114,
-		flag = 2
+		id = 9206,
+		flag = 4
 	}
-	pg.base.activity_ins_chat_language[9115] = {
-		param = "지휘관까지 반응한 걸 보면, 사건은 사건인 것 같은데~?",
-		ship_group = 10806,
+	pg.base.activity_ins_chat_language[9207] = {
+		param = "후후, 그것 참 자연스러운 대처법이네요.",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 9115,
-		flag = 0
+		id = 9207,
+		flag = 4
 	}
-	pg.base.activity_ins_chat_language[9116] = {
-		param = "수수께끼의 아이스크림 실종 사건… 다들 몸을 던져 정의를 관철해야 할 때!",
-		ship_group = 10144,
+	pg.base.activity_ins_chat_language[9208] = {
+		param = "하지만 정말로 시치미를 떼시면, 제가 스텝을 꼬이게 만든 줄 알고 착각해 버릴 거예요.",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 9116,
-		flag = 0
+		id = 9208,
+		flag = 4
 	}
-	pg.base.activity_ins_chat_language[9117] = {
-		param = "그러고 보니 에식스, 어제 밤늦게까지 여기 있었죠? 뭐 이상한 점은 없었나요?",
-		ship_group = 10738,
+	pg.base.activity_ins_chat_language[9209] = {
+		param = "그러면 스텝이 겉잡을 수 없이 한층 더 엉망으로 흐트러져 가겠죠.",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 9117,
-		flag = 0
+		id = 9209,
+		flag = 4
 	}
-	pg.base.activity_ins_chat_language[9118] = {
-		param = "네? 저요?",
-		ship_group = 10709,
+	pg.base.activity_ins_chat_language[9210] = {
+		param = "제가 생각하는 가장 완벽한 해답은……",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 9118,
+		id = 9210,
 		flag = 0
 	}
-	pg.base.activity_ins_chat_language[9119] = {
-		param = "어젯밤엔 호넷 일행이랑 밖에서 밥을 먹느라 귀가가 늦어지긴 했지만……",
-		ship_group = 10709,
+	pg.base.activity_ins_chat_language[9211] = {
+		param = "지휘관님께서 어떤 행동을 취하시든, 그 직후에 스텝의 속도를 늦춰주시는 걸로 충분하답니다.",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 9119,
+		id = 9211,
 		flag = 0
 	}
-	pg.base.activity_ins_chat_language[9120] = {
-		param = "별다른 일은 없었던 것 같은데…",
-		ship_group = 10709,
+	pg.base.activity_ins_chat_language[9212] = {
+		param = "그 사려 깊은 마음은 발을 늦추는 그 작은 배려 하나만으로도 와닿을 테니까요.",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 9120,
+		id = 9212,
 		flag = 0
 	}
-	pg.base.activity_ins_chat_language[9121] = {
-		param = "<color=#93e9ff>@허먼</color> 없어진 아이스크림이라는 거, 어제 30분이나 줄 서서 겨우 산 한정판 피스타치오 바닐라 아이스크림 말하는 거야~?",
-		ship_group = 10124,
+	pg.base.activity_ins_chat_language[9213] = {
+		param = "그다음엔 저와 눈을 맞추며, 춤을 계속 이어 나가는 거예요.",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 9121,
+		id = 9213,
 		flag = 0
 	}
-	pg.base.activity_ins_chat_language[9122] = {
-		param = "심즈! 웃는 거 다 들리거든! 자꾸 놀리면 네 몫까지 다 먹어버릴 거야!",
-		ship_group = 10125,
+	pg.base.activity_ins_chat_language[9214] = {
+		param = "지휘관님, 잠깐 대화를 나눌 수 있을까요?",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 9122,
+		id = 9214,
 		flag = 0
 	}
-	pg.base.activity_ins_chat_language[9123] = {
-		param = "불쌍하니까 뭐, 먹으려면 먹어~",
-		ship_group = 10124,
+	pg.base.activity_ins_chat_language[9215] = {
+		param = "산책을 마치고 돌아오는 길에 우연히 모항의 상점 앞을 지나쳤는데…",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 9123,
+		id = 9215,
 		flag = 0
 	}
-	pg.base.activity_ins_chat_language[9124] = {
-		param = "차가운 디저트라면 여기 아이스크림 말고도 이것저것 많아! 이쪽으로 와!",
-		ship_group = 10517,
+	pg.base.activity_ins_chat_language[9216] = {
+		param = "어린 함선들이 그곳에 옹기종기 모여서, 저마다 아이스크림을 손에 쥐고 있더군요.",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 9124,
+		id = 9216,
 		flag = 0
 	}
-	pg.base.activity_ins_chat_language[9125] = {
-		param = "하드 아이스크림이면 나도 지원해 줄 수 있어.",
-		ship_group = 10107,
+	pg.base.activity_ins_chat_language[9217] = {
+		param = "혼자 신나게 사방을 뛰어다니는 아이도 있었는데, 녹아내린 아이스크림이 손에 묻어있어도 전혀 개의치 않는 눈치였어요……",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 9125,
+		id = 9217,
 		flag = 0
 	}
-	pg.base.activity_ins_chat_language[9126] = {
-		param = "요크타운이랑 아이스크림을 5상자를 주문했어. 10분 뒤에 도착할 테니까 공용 공간에 둘게.",
-		ship_group = 10706,
+	pg.base.activity_ins_chat_language[9218] = {
+		param = "또 다른 아이는 아이스크림이 흐르는 게 싫었는지, 그 자리에 서서 필사적으로 애쓰고 있더군요.",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 9126,
+		id = 9218,
 		flag = 0
 	}
-	pg.base.activity_ins_chat_language[9127] = {
-		param = "허먼이 좋아하는 피스타치오 바닐라도 있으니까 나중에 받으러 와~",
-		ship_group = 10705,
-		option = "",
+	pg.base.activity_ins_chat_language[9219] = {
+		param = "그렇게 아이들의 모습을 곁에서 가만히 지켜보았답니다.",
+		ship_group = 20403,
 		type = 1,
-		id = 9127,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[9128] = {
-		param = "다들 고마워! 그래도……",
-		ship_group = 10125,
-		option = "",
-		type = 1,
-		id = 9128,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[9129] = {
-		param = "허먼은 자기가 직접 줄 서서 손에 넣은 게 좋은 거지~? 참 까다롭다니까.",
-		ship_group = 10124,
-		option = "",
-		type = 1,
-		id = 9129,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[9130] = {
-		param = "누가 실수로 가져간 거 아닐까?",
-		ship_group = 10208,
-		option = "",
-		type = 1,
-		id = 9130,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[9131] = {
-		param = "아니면 누군가의 장난이라든가—",
-		ship_group = 10314,
-		option = "",
-		type = 1,
-		id = 9131,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[9132] = {
-		param = "난 관계없어! 그때 난 지휘관한테 쌩쌩 나는 걸 보여주고 있었어!",
-		ship_group = 10110,
-		option = "",
-		type = 1,
-		id = 9132,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[9133] = {
-		param = "나도 마찬가지야! 지휘관이랑 숨바꼭질하고 있었으니까!",
-		ship_group = 10802,
-		option = "",
-		type = 1,
-		id = 9133,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[9134] = {
-		param = "뭐? 지휘관은 분명 나랑…?",
-		ship_group = 10110,
-		option = "",
-		type = 1,
-		id = 9134,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[9135] = {
-		param = "뭐? 지휘관은 분명 나랑…?",
-		ship_group = 10802,
-		option = "",
-		type = 1,
-		id = 9135,
-		flag = 0
-	}
-	pg.base.activity_ins_chat_language[9136] = {
-		param = "미리 입을 맞추지는 않았나 보네……",
-		ship_group = 10155,
-		type = 1,
-		id = 9136,
+		id = 9219,
 		flag = 0,
 		option = {
 			{
-				3,
-				"불렀어?"
+				1,
+				"후드도 아이스크림 샀어?"
 			}
 		}
 	}
-	pg.base.activity_ins_chat_language[9137] = {
-		param = "불렀어?",
+	pg.base.activity_ins_chat_language[9220] = {
+		param = "후드도 아이스크림 샀어?",
 		ship_group = 0,
 		option = "",
 		type = 1,
-		id = 9137,
-		flag = 3
+		id = 9220,
+		flag = 1
 	}
-	pg.base.activity_ins_chat_language[9138] = {
-		param = "으아! 지휘관도 여기 있었지!",
-		ship_group = 10110,
+	pg.base.activity_ins_chat_language[9221] = {
+		param = "아니요.",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 9138,
-		flag = 3
+		id = 9221,
+		flag = 1
 	}
-	pg.base.activity_ins_chat_language[9139] = {
-		param = "미안~! 아무것도 안 했다고 하면 오히려 의심받을까 봐 그랬어…!",
-		ship_group = 10110,
+	pg.base.activity_ins_chat_language[9222] = {
+		param = "가만히 구경만 하다가, 이내 곧장 자리를 떠났답니다.",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 9139,
-		flag = 3
+		id = 9222,
+		flag = 1
 	}
-	pg.base.activity_ins_chat_language[9140] = {
-		param = "맞아 맞아! 나도♪",
-		ship_group = 10802,
+	pg.base.activity_ins_chat_language[9223] = {
+		param = "그 모습을 보고 깨달았어요. 지금까지 살면서 단 한 번도 저렇게 아이스크림을 먹어본 적이 없다는 걸요.",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 9140,
-		flag = 3
+		id = 9223,
+		flag = 1
 	}
-	pg.base.activity_ins_chat_language[9141] = {
-		param = "뭔가 분위기가 뜨거운데, 대체 무슨 이야기야?",
-		ship_group = 10707,
+	pg.base.activity_ins_chat_language[9224] = {
+		param = "지금까지 아이스크림을 먹을 때는 늘 스푼으로 조심스럽게 떠먹고는 했으니까요.",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 9141,
-		flag = 3
+		id = 9224,
+		flag = 1
 	}
-	pg.base.activity_ins_chat_language[9142] = {
-		param = "허먼의 아이스크림 실종 사건에 대한 단서를 찾는 중이야!",
-		ship_group = 10149,
+	pg.base.activity_ins_chat_language[9225] = {
+		param = "그 아이들처럼 걸어 다니며 아이스크림을 먹는다는 건 제 머릿속엔 존재하지 않는 발상이었죠.",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 9142,
-		flag = 3
+		id = 9225,
+		flag = 1
 	}
-	pg.base.activity_ins_chat_language[9143] = {
-		param = "아이스크림? 혹시 피스타치오 바닐라 맛?",
-		ship_group = 10707,
+	pg.base.activity_ins_chat_language[9226] = {
+		param = "그런데도 아까 그 정경을 바라보고 있자니 마음 한구석에서 부러움이 싹텄답니다.",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 9143,
-		flag = 3
+		id = 9226,
+		flag = 1
 	}
-	pg.base.activity_ins_chat_language[9144] = {
-		param = "맞아…!",
-		ship_group = 10125,
-		option = "",
+	pg.base.activity_ins_chat_language[9227] = {
+		param = "얼굴에 크림을 잔뜩 묻히고서 행복하다는 듯 웃고 있는 모습이……",
+		ship_group = 20403,
 		type = 1,
-		id = 9144,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[9145] = {
-		param = "호넷, 설마 네가……",
-		ship_group = 19902,
-		option = "",
-		type = 1,
-		id = 9145,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[9146] = {
-		param = "201",
-		ship_group = 10709,
-		option = "",
-		type = 4,
-		id = 9146,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[9147] = {
-		param = "뭐? 아냐, 아냐! 나 아니야!",
-		ship_group = 10707,
-		option = "",
-		type = 1,
-		id = 9147,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[9148] = {
-		param = "에식스, 너 엄청 취했었던 거 기억 나? 돌아와서 디저트 먹고 술 깬다면서 냉장고 뒤졌었지?",
-		ship_group = 10707,
-		option = "",
-		type = 1,
-		id = 9148,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[9149] = {
-		param = "다들 자길 멍청이 취급이나 한다며 울면서 피스타치오 바닐라 아이스크림 먹었던 거, 기억 안 나?",
-		ship_group = 10707,
-		option = "",
-		type = 1,
-		id = 9149,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[9150] = {
-		param = "…………",
-		ship_group = 10709,
-		option = "",
-		type = 1,
-		id = 9150,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[9151] = {
-		param = "그러고 보니 확실히 방에 기억에 없는 빈 아이스크림 상자가…………",
-		ship_group = 10709,
-		option = "",
-		type = 1,
-		id = 9151,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[9152] = {
-		param = "눈 깜짝할 새에 해결! 역시 호넷이야!",
-		ship_group = 10208,
-		option = "",
-		type = 1,
-		id = 9152,
-		flag = 3
-	}
-	pg.base.activity_ins_chat_language[9153] = {
-		param = "고마워! 근데 이런 걸로 칭찬받아도, 뭐랄까……",
-		ship_group = 10707,
-		type = 1,
-		id = 9153,
-		flag = 3,
+		id = 9227,
+		flag = 1,
 		option = {
 			{
-				4,
-				"취했다면 어쩔 수 없지"
+				2,
+				"후드도 그렇게 먹어보고 싶어?"
 			}
 		}
 	}
-	pg.base.activity_ins_chat_language[9154] = {
-		param = "취했다면 기억하지 못하는 것도 무리는 아니지.",
+	pg.base.activity_ins_chat_language[9228] = {
+		param = "후드도 그렇게 먹어보고 싶어?",
 		ship_group = 0,
 		option = "",
 		type = 1,
-		id = 9154,
-		flag = 4
+		id = 9228,
+		flag = 2
 	}
-	pg.base.activity_ins_chat_language[9155] = {
-		param = "게다가 일부러 그런 것도 아니잖아.",
+	pg.base.activity_ins_chat_language[9229] = {
+		param = "네, 한 번쯤요.",
+		ship_group = 20403,
+		option = "",
+		type = 1,
+		id = 9229,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9230] = {
+		param = "평범한 소프트아이스크림을 녹아내리기 전에 허겁지겁 베어 물고",
+		ship_group = 20403,
+		option = "",
+		type = 1,
+		id = 9230,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9231] = {
+		param = "스푼이나 식기는 일절 쓰지 않은 채",
+		ship_group = 20403,
+		option = "",
+		type = 1,
+		id = 9231,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9232] = {
+		param = "조금 품위 없더라도, 아이스크림을 콧등이나 입가에 묻히면서요……",
+		ship_group = 20403,
+		option = "",
+		type = 1,
+		id = 9232,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9233] = {
+		param = "하지만 먹는 동안 손은 어디에 두어야 하는지, 시선은 어디다 둘지 감이 잡히질 않네요……",
+		ship_group = 20403,
+		type = 1,
+		id = 9233,
+		flag = 2,
+		option = {
+			{
+				3,
+				"그럼 내일 밤에 가게 앞에서 만나자"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[9234] = {
+		param = "그럼 내일 밤에 가게 앞에서 만나자.",
 		ship_group = 0,
 		option = "",
 		type = 1,
-		id = 9155,
-		flag = 4
+		id = 9234,
+		flag = 3
 	}
-	pg.base.activity_ins_chat_language[9156] = {
-		param = "취했었다고는 해도 정말 죄송해요! 사과의 의미로 앞으로 1년 치 아이스크림은 제가 책임질게요!",
-		ship_group = 10709,
+	pg.base.activity_ins_chat_language[9235] = {
+		param = "나랑 함께라면 마음껏 도전해 볼 수 있을 거야.",
+		ship_group = 0,
 		option = "",
 		type = 1,
-		id = 9156,
-		flag = 4
+		id = 9235,
+		flag = 3
 	}
-	pg.base.activity_ins_chat_language[9157] = {
-		param = "1년 치라니, 그건 너무 과해……!",
-		ship_group = 10125,
+	pg.base.activity_ins_chat_language[9236] = {
+		param = "약속하신 거예요?",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 9157,
-		flag = 4
+		id = 9236,
+		flag = 3
 	}
-	pg.base.activity_ins_chat_language[9158] = {
-		param = "그러니까 「염치 불고하고 받겠다」는 거지?",
-		ship_group = 10124,
+	pg.base.activity_ins_chat_language[9237] = {
+		param = "내일 어떤 아이스크림을 고를지, 지금부터 신중하게 고민해야겠네요……",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 9158,
-		flag = 4
+		id = 9237,
+		flag = 3
 	}
-	pg.base.activity_ins_chat_language[9159] = {
-		param = "아니거든!",
-		ship_group = 10125,
+	pg.base.activity_ins_chat_language[9238] = {
+		param = "지휘관님과 단둘이 그런 일탈을 감행하는 거니…",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 9159,
-		flag = 4
+		id = 9238,
+		flag = 3
 	}
-	pg.base.activity_ins_chat_language[9160] = {
-		param = "다행이다~! 이제 안심이야. 봐, 난 관계 없다고 했지?",
-		ship_group = 10110,
+	pg.base.activity_ins_chat_language[9239] = {
+		param = "계속 기억할 수 있도록 아주 특별한 맛으로 골라야겠어요.",
+		ship_group = 20403,
 		option = "",
 		type = 1,
-		id = 9160,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[9161] = {
-		param = "그런 식으로 말하면 더 의심 받는다고.",
-		ship_group = 10112,
-		option = "",
-		type = 1,
-		id = 9161,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[9162] = {
-		param = "그나저나 술기운에 먹는 아이스크림이라, 왠지 맛있을 것 같지 않아?",
-		ship_group = 10139,
-		option = "",
-		type = 1,
-		id = 9162,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[9163] = {
-		param = "「나쁜 아이의 음료」를 마셔보고 싶다면 이 밀러 님이 도와줄 수도 있지~",
-		ship_group = 10153,
-		option = "",
-		type = 1,
-		id = 9163,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[9164] = {
-		param = "마셔보고 싶어!",
-		ship_group = 10110,
-		option = "",
-		type = 1,
-		id = 9164,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[9165] = {
-		param = "마셔보고 싶어!",
-		ship_group = 10802,
-		option = "",
-		type = 1,
-		id = 9165,
-		flag = 4
-	}
-	pg.base.activity_ins_chat_language[9166] = {
-		param = "30",
-		ship_group = 10802,
-		option = "",
-		type = 4,
-		id = 9166,
-		flag = 4
+		id = 9239,
+		flag = 3
 	}
 end)()

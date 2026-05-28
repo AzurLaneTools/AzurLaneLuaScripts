@@ -3821,8 +3821,8 @@ pg.base.island_item_data_template = {}
 		id = 2521,
 		have_max = 0,
 		filter = {
-			10111,
-			10125
+			10112,
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -3853,8 +3853,8 @@ pg.base.island_item_data_template = {}
 		id = 2522,
 		have_max = 0,
 		filter = {
-			10111,
-			10125
+			10112,
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8402,7 +8402,7 @@ end)()
 		desc = "황금빛 해바라기와 새하얀 자스민을 엮은 꽃다발. 여름 태양의 화사함과 여름밤의 고요함을 함께 담고 있다.",
 		type = 1,
 		manage_influence = 0,
-		pt_num = 90,
+		pt_num = 130,
 		group_max = 0,
 		usage = "usage_undefined",
 		usage_arg = "[]",
@@ -8451,7 +8451,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8483,7 +8483,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8515,7 +8515,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8547,7 +8547,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8579,7 +8579,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8611,7 +8611,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8643,7 +8643,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8675,7 +8675,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8707,7 +8707,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8739,7 +8739,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8771,7 +8771,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8803,7 +8803,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8835,7 +8835,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8867,7 +8867,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8899,7 +8899,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -8931,7 +8931,7 @@ end)()
 		have_max = 0,
 		filter = {
 			10111,
-			10125
+			10133
 		},
 		sub_attribute = {},
 		jump_page = {

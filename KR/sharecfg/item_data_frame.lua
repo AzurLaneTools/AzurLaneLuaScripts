@@ -63,6 +63,7 @@ pg.item_data_frame.all = {
 	335,
 	336,
 	337,
+	341,
 	401,
 	402,
 	413,
@@ -648,6 +649,15 @@ pg.base.item_data_frame = {}
 		desc = "<color=#ffffff>「오랜만이야, 지휘관—— 나, 돌아왔어.」</color>\n「창공에 울리는 소리」 이벤트 참가",
 		scene = {}
 	}
+	pg.base.item_data_frame[341] = {
+		name = "신성 맹약",
+		gain_by = "",
+		time_second = 0,
+		id = 341,
+		time_limit_type = 0,
+		desc = "추후 진행 예정인 이벤트에서 획득 가능",
+		scene = {}
+	}
 	pg.base.item_data_frame[401] = {
 		name = "전당 기념: 엔터프라이즈",
 		gain_by = "",
@@ -1008,6 +1018,8 @@ pg.base.item_data_frame = {}
 		desc = "<color=#ffffff>\"사자자리\" 한계 챌린지 스테이지 클리어 기념. 자신의 한계에 도전하는 용맹스러운 지휘관에게 바치는 선물</color>\n\"한계 챌린지\"에서 획득 가능(23.09.01 ~ 23.09.30)",
 		scene = {}
 	}
+end)()
+(function ()
 	pg.base.item_data_frame[10004] = {
 		name = "한계 챌린지·처녀자리",
 		gain_by = "",
@@ -1017,8 +1029,6 @@ pg.base.item_data_frame = {}
 		desc = "<color=#ffffff>\"처녀자리' 한계 챌린지 스테이지 클리어 기념. 자신의 한계에 도전하는 용맹스러운 지휘관에게 바치는 선물.</color>\n\"한계 챌린지'에서 획득 가능(23.10.01 ~ 23.10.31).",
 		scene = {}
 	}
-end)()
-(function ()
 	pg.base.item_data_frame[10005] = {
 		name = "한계 챌린지·천칭자리",
 		gain_by = "",

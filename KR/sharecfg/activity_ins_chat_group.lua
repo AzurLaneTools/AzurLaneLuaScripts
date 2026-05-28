@@ -306,7 +306,10 @@ pg.activity_ins_chat_group.all = {
 	301,
 	302,
 	303,
-	304
+	304,
+	305,
+	306,
+	307
 }
 pg.activity_ins_chat_group.get_id_list_by_ship_group = {
 	[101] = {
@@ -441,6 +444,11 @@ pg.activity_ins_chat_group.get_id_list_by_ship_group = {
 		298,
 		299,
 		300
+	},
+	[20403] = {
+		305,
+		306,
+		307
 	},
 	[20509] = {
 		29,
@@ -13553,6 +13561,112 @@ end)()
 			9164,
 			9165,
 			9166
+		}
+	}
+	pg.base.activity_ins_chat_group[305] = {
+		ship_group = 20403,
+		name = "완벽하지 않은 애프터눈 티",
+		group_ii = 0,
+		unlock_desc = "호감도 사랑 달성",
+		id = 305,
+		trigger_param = "",
+		trigger_type = 1,
+		content = {
+			9167,
+			9168,
+			9169,
+			9170,
+			9171,
+			9172,
+			9173,
+			9174,
+			9175,
+			9176,
+			9177,
+			9178,
+			9179,
+			9180,
+			9181,
+			9182,
+			9183,
+			9184,
+			9185,
+			9186,
+			9187,
+			9188
+		}
+	}
+	pg.base.activity_ins_chat_group[306] = {
+		ship_group = 20403,
+		name = "스텝을 조금만 늦추면",
+		group_ii = 0,
+		unlock_desc = "서약 완료",
+		id = 306,
+		trigger_param = "100",
+		trigger_type = 2,
+		content = {
+			9189,
+			9190,
+			9191,
+			9192,
+			9193,
+			9194,
+			9195,
+			9196,
+			9197,
+			9198,
+			9199,
+			9200,
+			9201,
+			9202,
+			9203,
+			9204,
+			9205,
+			9206,
+			9207,
+			9208,
+			9209,
+			9210,
+			9211,
+			9212,
+			9213
+		}
+	}
+	pg.base.activity_ins_chat_group[307] = {
+		ship_group = 20403,
+		name = "이색적인 테이스팅",
+		group_ii = 0,
+		unlock_desc = "특정 시간에 오픈",
+		id = 307,
+		trigger_param = "150",
+		trigger_type = 2,
+		content = {
+			9214,
+			9215,
+			9216,
+			9217,
+			9218,
+			9219,
+			9220,
+			9221,
+			9222,
+			9223,
+			9224,
+			9225,
+			9226,
+			9227,
+			9228,
+			9229,
+			9230,
+			9231,
+			9232,
+			9233,
+			9234,
+			9235,
+			9236,
+			9237,
+			9238,
+			9239
 		}
 	}
 end)()

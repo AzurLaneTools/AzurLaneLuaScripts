@@ -31,6 +31,8 @@ slot0.Ctor = function(slot0, slot1)
 		slot0.curIsland = slot1
 		slot0.isOtherIsland = getProxy(PlayerProxy):getRawData().id ~= slot0.curIsland.id
 	end
+
+	slot0.gcCnt = 0
 end
 
 slot0.GetInitDressByType = function(slot0)
@@ -492,6 +494,7 @@ slot0.ChangeCommanderPartShow = function(slot0, slot1, slot2)
 end
 
 slot0.ChangeModelTransfromByUnitId = function(slot0, slot1, slot2, slot3)
+	slot0.gcCnt = slot0.gcCnt + 1
 	slot4 = pg.island_unit_character[slot1]
 	slot0.hasTF = false
 
@@ -500,6 +503,10 @@ slot0.ChangeModelTransfromByUnitId = function(slot0, slot1, slot2, slot3)
 	slot0.dataAfterRoleInit = slot0.currentDressDataDic
 	slot0.currentDressDataDic = {}
 	slot5 = slot0.roleTF
+	slot6 = pg.UIMgr.GetInstance()
+
+	slot6:LoadingOn()
+
 	slot6 = _IslandCore
 	slot6 = slot6:GetPoolMgr()
 
@@ -514,6 +521,8 @@ slot0.ChangeModelTransfromByUnitId = function(slot0, slot1, slot2, slot3)
 	slot6 = slot6:GetPoolMgr()
 
 	slot6:GetCharacterModel(slot0.modelData.model, slot0.modelData.animator, function (slot0)
+		pg.UIMgr.GetInstance():LoadingOff()
+
 		uv0.hasTF = true
 
 		pg.ViewUtils.SetLayer(slot0.transform, uv0.isScene and Layer.Default or Layer.Character3D)
@@ -528,6 +537,12 @@ slot0.ChangeModelTransfromByUnitId = function(slot0, slot1, slot2, slot3)
 
 		existCall(uv2, uv0.roleTF)
 	end, true)
+
+	if slot0.gcCnt >= 5 then
+		slot0.gcCnt = 0
+
+		IslandHelper.RunGC(true)
+	end
 end
 
 slot0.ChangeModelTransfromByUnitIdAndChangeDress = function(slot0, slot1, slot2, slot3, slot4, slot5)

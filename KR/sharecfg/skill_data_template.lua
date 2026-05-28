@@ -386,6 +386,7 @@ pg.skill_data_template.all = {
 	61070,
 	61080,
 	61090,
+	61100,
 	7000,
 	9030,
 	9031,
@@ -13717,6 +13718,20 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+	pg.base.skill_data_template[61100] = {
+		desc_get = "",
+		name = "심판호 기동키",
+		type = 0,
+		max_level = 0,
+		desc = "전투 시작 후 20초간, 아군 전원의 항속이 2 상승하고, 받는 피해량이 2% 감소한다.",
+		id = 61100,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
 	pg.base.skill_data_template[7000] = {
 		desc_get = "",
 		name = "라인 연습",
@@ -14509,6 +14524,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[10010] = {
 		desc_get = "",
 		name = "Recommissioned",
@@ -14570,8 +14587,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[10020] = {
 		desc_get = "",
 		name = "해상최속",
@@ -21914,6 +21929,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[10990] = {
 		desc_get = "",
 		name = "대공 화력",
@@ -21975,8 +21992,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[11000] = {
 		desc_get = "매 20초 마다 40%(최대 70%) 확률로 강력한 탄막을 전개한다. (위력은 스킬 레벨에 비례)",
 		name = "용감한 포격",
@@ -30342,6 +30357,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[11980] = {
 		desc_get = "",
 		name = "특혼분대 기함",
@@ -30403,8 +30420,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[11990] = {
 		desc_get = "",
 		name = "임무충실",
@@ -39815,6 +39830,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[13050] = {
 		desc_get = "",
 		name = "혁명에 축복을",
@@ -39966,8 +39983,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[13060] = {
 		desc_get = "",
 		name = "쇄빙 이동",
@@ -49535,6 +49550,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[14050] = {
 		desc_get = "",
 		name = "만발한 보랏빛",
@@ -49596,8 +49613,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[14060] = {
 		desc_get = "",
 		name = "용감한 도전",
@@ -60924,6 +60939,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[15050] = {
 		desc_get = "",
 		name = "계관 시인의 음률론",
@@ -61094,8 +61111,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[15060] = {
 		desc_get = "",
 		name = "무명인의 장난 편지",
@@ -72894,6 +72909,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[16060] = {
 		desc_get = "",
 		name = "武藏跨队技能占位",
@@ -72908,8 +72925,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[16070] = {
 		desc_get = "",
 		name = "어두운 밤의 검은 빛",
@@ -84350,6 +84365,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[17070] = {
 		desc_get = "",
 		name = "절친의 배려",
@@ -84497,8 +84514,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[17080] = {
 		desc_get = "",
 		name = "칼날 맞대는 밤에",
@@ -95200,6 +95215,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[150110] = {
 		desc_get = "",
 		name = "布伦努斯超额占用不可使用",
@@ -95214,8 +95231,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[150120] = {
 		desc_get = "",
 		name = "교향곡 시연",
@@ -106689,6 +106704,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[151090] = {
 		desc_get = "",
 		name = "웰킨 홀리베리어",
@@ -106831,8 +106848,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[151100] = {
 		desc_get = "",
 		name = "직관형 천재",
@@ -118539,6 +118554,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[152060] = {
 		desc_get = "",
 		name = "나한테 맡겨! ",
@@ -118681,8 +118698,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[152070] = {
 		desc_get = "",
 		name = "때려줄 거야! ",
@@ -128612,6 +128627,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[19470] = {
 		desc_get = "",
 		name = "마음을 관통하는 울림",
@@ -128664,8 +128681,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[19480] = {
 		desc_get = "",
 		name = "철과 혈의 노래",
@@ -135585,6 +135600,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[20282] = {
 		desc_get = "",
 		name = "전탄 발사II",
@@ -135599,8 +135616,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[20311] = {
 		desc_get = "",
 		name = "전탄 발사I",
@@ -136987,6 +137002,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[22271] = {
 		desc_get = "",
 		name = "전탄 발사Ⅰ",
@@ -137001,8 +137018,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[22272] = {
 		desc_get = "",
 		name = "전탄 발사Ⅱ",
@@ -138389,6 +138404,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[28211] = {
 		desc_get = "",
 		name = "전탄 발사I",
@@ -138403,8 +138420,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[28212] = {
 		desc_get = "",
 		name = "전탄 발사II",
@@ -139795,6 +139810,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29412] = {
 		desc_get = "",
 		name = "전탄 발사-르 말랭II",
@@ -139809,8 +139826,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29421] = {
 		desc_get = "",
 		name = "특수 탄막 이168 I",
@@ -141201,6 +141216,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29932] = {
 		desc_get = "",
 		name = "특수 탄막-{namecode:226}II",
@@ -141215,8 +141232,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29941] = {
 		desc_get = "",
 		name = "특수 탄막-{namecode:225}I",
@@ -142603,6 +142618,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[30452] = {
 		desc_get = "",
 		name = "특수 탄막 - 꼬마 앵커리지Ⅱ",
@@ -142617,8 +142634,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[30461] = {
 		desc_get = "",
 		name = "특수 탄막 - 클레오파트라Ⅰ",
@@ -148996,6 +149011,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[106240] = {
 		desc_get = "",
 		name = "노을꽃 +",
@@ -149147,8 +149164,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[106250] = {
 		desc_get = "",
 		name = "수플레 어택",
@@ -157573,6 +157588,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[109060] = {
 		desc_get = "전투 개시 시, AP를 10 획득하며 함대 모든 멤버의 내구도 $1 회복. 이후 '라이자의 아틀리에' 콜라보 캐릭터 내구도 2% 추가 회복. 자신이 공중 지원 발동 시, 모든 선봉함대 함선의 내구도 $2 회복. 이후 '라이자의 아틀리에' 콜라보 캐릭터 내구도 2% 추가 회복. 아군이 대미지를 입어 내구도가 30% 이하로 떨어질 시, AP를 10 획득하며 해당 함선을 최대 내구도의 $3만큼 회복시킨다. 전투당 1회 발동.",
 		name = "축복의 멜로디",
@@ -157724,8 +157741,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[109070] = {
 		desc_get = "자신의 항공, 명중 스탯 $1 상승. 전투 중 8초마다 AP 8 획득.",
 		name = "화이트 레퀴엠",
@@ -166619,6 +166634,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[112260] = {
 		desc_get = "",
 		name = "优米雅阵营环境玛那技能",
@@ -166633,8 +166650,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[112270] = {
 		desc_get = "",
 		name = "기사이자 소녀",
@@ -173027,6 +173042,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800350] = {
 		desc_get = "",
 		name = "천둥과 불꽃의 춤",
@@ -173124,8 +173141,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800360] = {
 		desc_get = "",
 		name = "강철의 잿더미",
@@ -177992,6 +178007,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800900] = {
 		desc_get = "",
 		name = "가드 트랜스폼",
@@ -178098,8 +178115,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800911] = {
 		desc_get = "",
 		name = "인신의 핵·하타카제",
@@ -183495,6 +183510,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[801452] = {
 		desc_get = "",
 		name = "인멸의 핵·호쇼Ⅱ",
@@ -183511,8 +183528,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[801455] = {
 		desc_get = "",
 		name = "인멸의 핵·호쇼",
@@ -188779,6 +188794,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[802007] = {
 		desc_get = "",
 		name = "구조의 이치·요크타운Ⅱ",
@@ -188795,8 +188812,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[802010] = {
 		desc_get = "",
 		name = "전장에 익숙한 기사",
@@ -194385,6 +194400,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1012350] = {
 		desc_get = "",
 		name = "불굴의 마녀+",
@@ -194572,8 +194589,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1012600] = {
 		desc_get = "",
 		name = "Rose Bombardamento+",
@@ -208384,6 +208399,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1090140] = {
 		desc_get = "",
 		name = "엄호포격·새러토가",
@@ -208517,8 +208534,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1090150] = {
 		desc_get = "",
 		name = "부상 전투·쉬르쿠프",
