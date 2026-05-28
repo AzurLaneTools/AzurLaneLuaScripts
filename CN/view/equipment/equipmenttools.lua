@@ -19,11 +19,13 @@ return {
 		slot1 = {}
 
 		for slot5, slot6 in pairs(pg.spweapon_data_statistics.get_id_list_by_unique) do
-			for slot10, slot11 in ipairs(pg.ship_data_template.get_id_list_by_group_type[slot5]) do
-				if string.find(string.lower(pg.ship_data_statistics[slot11].name), slot0) then
-					slot1 = table.insertto(slot1, slot6)
+			if slot5 ~= 0 then
+				for slot10, slot11 in ipairs(pg.ship_data_template.get_id_list_by_group_type[slot5]) do
+					if string.find(string.lower(pg.ship_data_statistics[slot11].name), slot0) then
+						slot1 = table.insertto(slot1, slot6)
 
-					break
+						break
+					end
 				end
 			end
 		end

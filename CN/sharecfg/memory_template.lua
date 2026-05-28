@@ -4191,6 +4191,7 @@ pg.memory_template.all = {
 	5202,
 	5203,
 	5204,
+	5211,
 	10011,
 	10012,
 	10013,
@@ -79921,6 +79922,24 @@ end)()
 			"SHEHUAXIANGMENGFUJINWAN24"
 		}
 	}
+	pg.base.memory_template[5211] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "若漆之光",
+		condition = "开始「若漆之光」活动",
+		story = "RUOQIZHIGUANG1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5211,
+		icon = "memory_ruoqizhiguang",
+		is_open = 0,
+		unlock_pre = {
+			"RUOQIZHIGUANG1"
+		}
+	}
 	pg.base.memory_template[10011] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80137,6 +80156,8 @@ end)()
 			"TEACHER4"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[10033] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80155,8 +80176,6 @@ end)()
 			"TEACHER5"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[10034] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81939,6 +81958,8 @@ end)()
 			"LINGHANGYUANTANXIN3"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20055] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81957,8 +81978,6 @@ end)()
 			"LINGHANGYUANTANXIN4"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20056] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83741,6 +83760,8 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA6"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20156] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83759,8 +83780,6 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA7"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20157] = {
 		ship_group = 0,
 		subtitle = "",

@@ -243,7 +243,7 @@ pg.base.activity_mall_story = {}
 		}
 	}
 	pg.base.activity_mall_story[201] = {
-		desc = "阁下，该醒咯~",
+		desc = "购物中心达到1级解锁",
 		name = "阁下，该醒咯~",
 		type = 2,
 		id = 201,
@@ -256,7 +256,7 @@ pg.base.activity_mall_story = {}
 		}
 	}
 	pg.base.activity_mall_story[202] = {
-		desc = "昙花一现的宝石",
+		desc = "购物中心达到2级解锁",
 		name = "昙花一现的宝石",
 		type = 2,
 		id = 202,
@@ -269,7 +269,7 @@ pg.base.activity_mall_story = {}
 		}
 	}
 	pg.base.activity_mall_story[203] = {
-		desc = "海鸥的踪迹",
+		desc = "购物中心达到3级解锁",
 		name = "海鸥的踪迹",
 		type = 2,
 		id = 203,
@@ -282,7 +282,7 @@ pg.base.activity_mall_story = {}
 		}
 	}
 	pg.base.activity_mall_story[204] = {
-		desc = "屋顶上的“海盗”",
+		desc = "购物中心达到4级解锁",
 		name = "屋顶上的“海盗”",
 		type = 2,
 		id = 204,
@@ -295,7 +295,7 @@ pg.base.activity_mall_story = {}
 		}
 	}
 	pg.base.activity_mall_story[205] = {
-		desc = "神·灯·小·姐",
+		desc = "购物中心达到5级解锁",
 		name = "神·灯·小·姐",
 		type = 2,
 		id = 205,
@@ -308,7 +308,7 @@ pg.base.activity_mall_story = {}
 		}
 	}
 	pg.base.activity_mall_story[206] = {
-		desc = "“魔法”花园的晚宴",
+		desc = "购物中心达到6级解锁",
 		name = "“魔法”花园的晚宴",
 		type = 2,
 		id = 206,
@@ -321,7 +321,7 @@ pg.base.activity_mall_story = {}
 		}
 	}
 	pg.base.activity_mall_story[207] = {
-		desc = "奇迹之光",
+		desc = "购物中心达到7级解锁",
 		name = "奇迹之光",
 		type = 2,
 		id = 207,
@@ -334,7 +334,7 @@ pg.base.activity_mall_story = {}
 		}
 	}
 	pg.base.activity_mall_story[208] = {
-		desc = "为你献上的礼物",
+		desc = "购物中心达到8级解锁",
 		name = "为你献上的礼物",
 		type = 2,
 		id = 208,

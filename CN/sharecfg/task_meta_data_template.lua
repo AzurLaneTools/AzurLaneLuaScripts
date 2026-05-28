@@ -364,6 +364,11 @@ pg.task_meta_data_template.all = {
 	100533,
 	100534,
 	100535,
+	100551,
+	100552,
+	100553,
+	100554,
+	100555,
 	100561,
 	100562,
 	100563,
@@ -549,6 +554,10 @@ pg.task_meta_data_template.all = {
 	200442,
 	200443,
 	200444,
+	200461,
+	200462,
+	200463,
+	200464,
 	200471,
 	200472,
 	200473,
@@ -3444,6 +3453,46 @@ end)()
 		target_num = 1,
 		desc = "使用{namecode:552}击破等级＞100的敌方1次"
 	}
+	pg.base.task_meta_data_template[100551] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970212",
+		id = 100551,
+		target_num = 1,
+		desc = "使用{namecode:555}获得1次胜利"
+	}
+	pg.base.task_meta_data_template[100552] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970212",
+		id = 100552,
+		target_num = 1,
+		desc = "使用{namecode:555}击破等级＞30的敌方1次"
+	}
+	pg.base.task_meta_data_template[100553] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970212",
+		id = 100553,
+		target_num = 1,
+		desc = "使用{namecode:555}击破等级＞55的敌方1次"
+	}
+	pg.base.task_meta_data_template[100554] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970212",
+		id = 100554,
+		target_num = 1,
+		desc = "使用{namecode:555}击破等级＞80的敌方1次"
+	}
+	pg.base.task_meta_data_template[100555] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970212",
+		id = 100555,
+		target_num = 1,
+		desc = "使用{namecode:555}击破等级＞100的敌方1次"
+	}
 	pg.base.task_meta_data_template[100561] = {
 		target_id = "0",
 		sub_type = 180,
@@ -3724,6 +3773,8 @@ end)()
 		target_num = 1,
 		desc = "大型作战内使用女灶神·META击破等级>70的敌方1次"
 	}
+end)()
+(function ()
 	pg.base.task_meta_data_template[200083] = {
 		target_id = "90",
 		sub_type = 302,
@@ -3764,8 +3815,6 @@ end)()
 		target_num = 1,
 		desc = "大型作战内使用阿尔及利亚·META击破等级＞90的敌方1次"
 	}
-end)()
-(function ()
 	pg.base.task_meta_data_template[200094] = {
 		target_id = "100",
 		sub_type = 302,
@@ -4526,6 +4575,8 @@ end)()
 		target_num = 1,
 		desc = "大型作战内使用格伦维尔·META击破等级＞70的敌方1次"
 	}
+end)()
+(function ()
 	pg.base.task_meta_data_template[200333] = {
 		target_id = "90",
 		sub_type = 302,
@@ -4566,8 +4617,6 @@ end)()
 		target_num = 1,
 		desc = "大型作战内使用光荣·META击破等级＞90的敌方1次"
 	}
-end)()
-(function ()
 	pg.base.task_meta_data_template[200344] = {
 		target_id = "100",
 		sub_type = 302,
@@ -4927,6 +4976,38 @@ end)()
 		id = 200444,
 		target_num = 1,
 		desc = "大型作战内使用{namecode:552}击破等级＞100的敌方1次"
+	}
+	pg.base.task_meta_data_template[200461] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970212",
+		id = 200461,
+		target_num = 1,
+		desc = "大型作战内使用{namecode:555}获得1次胜利"
+	}
+	pg.base.task_meta_data_template[200462] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970212",
+		id = 200462,
+		target_num = 1,
+		desc = "大型作战内使用{namecode:555}击破等级＞70的敌方1次"
+	}
+	pg.base.task_meta_data_template[200463] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970212",
+		id = 200463,
+		target_num = 1,
+		desc = "大型作战内使用{namecode:555}击破等级＞90的敌方1次"
+	}
+	pg.base.task_meta_data_template[200464] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970212",
+		id = 200464,
+		target_num = 1,
+		desc = "大型作战内使用{namecode:555}击破等级＞100的敌方1次"
 	}
 	pg.base.task_meta_data_template[200471] = {
 		target_id = "0",

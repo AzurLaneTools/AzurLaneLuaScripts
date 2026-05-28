@@ -2976,6 +2976,7 @@ pg.activity_shop_template.all = {
 	10512,
 	10513,
 	10514,
+	10515,
 	10800,
 	10801,
 	10802,
@@ -2987,6 +2988,7 @@ pg.activity_shop_template.all = {
 	10906,
 	10907,
 	10908,
+	10909,
 	11001,
 	11002,
 	11003,
@@ -3066,7 +3068,10 @@ pg.activity_shop_template.all = {
 	12042,
 	12043,
 	12044,
-	12045
+	12045,
+	12046,
+	12047,
+	12048
 }
 pg.activity_shop_template.get_id_list_by_commodity_type = {
 	{
@@ -5561,7 +5566,9 @@ pg.activity_shop_template.get_id_list_by_commodity_type = {
 		12040,
 		12042,
 		12043,
-		12045
+		12045,
+		12047,
+		12048
 	},
 	{
 		105,
@@ -5741,7 +5748,8 @@ pg.activity_shop_template.get_id_list_by_commodity_type = {
 		10511,
 		10512,
 		10513,
-		10514
+		10514,
+		10515
 	},
 	{
 		4,
@@ -5940,7 +5948,8 @@ pg.activity_shop_template.get_id_list_by_commodity_type = {
 		12036,
 		12038,
 		12041,
-		12044
+		12044,
+		12046
 	},
 	{
 		5,
@@ -6044,7 +6053,8 @@ pg.activity_shop_template.get_id_list_by_commodity_type = {
 		10905,
 		10906,
 		10907,
-		10908
+		10908,
+		10909
 	},
 	[8] = {
 		1621,
@@ -51114,7 +51124,7 @@ end)()
 		resource_type = 59900,
 		id = 10513,
 		commodity_id_list_show = 0,
-		order = 50,
+		order = 57,
 		limit_args = {
 			{
 				"quota",
@@ -51134,7 +51144,27 @@ end)()
 		resource_type = 59900,
 		id = 10514,
 		commodity_id_list_show = 0,
-		order = 7,
+		order = 58,
+		limit_args = {
+			{
+				"quota",
+				2
+			}
+		}
+	}
+	pg.base.activity_shop_template[10515] = {
+		commodity_id_list = "",
+		resource_category = 2,
+		resource_num = 800,
+		num_limit = 0,
+		activity = 0,
+		num = 1,
+		commodity_id = 3840,
+		commodity_type = 3,
+		resource_type = 59900,
+		id = 10515,
+		commodity_id_list_show = 0,
+		order = 2,
 		limit_args = {
 			{
 				"quota",
@@ -51362,6 +51392,26 @@ end)()
 			}
 		}
 	}
+	pg.base.activity_shop_template[10909] = {
+		commodity_id_list = "",
+		resource_category = 2,
+		resource_num = 1000,
+		num_limit = 0,
+		activity = 0,
+		num = 1,
+		commodity_id = 301263,
+		commodity_type = 7,
+		resource_type = 59900,
+		id = 10909,
+		commodity_id_list_show = 0,
+		order = 103,
+		limit_args = {
+			{
+				"quota",
+				1
+			}
+		}
+	}
 	pg.base.activity_shop_template[11001] = {
 		commodity_id_list = "",
 		resource_category = 1,
@@ -51572,6 +51622,8 @@ end)()
 		commodity_id_list_show = 0,
 		order = 11
 	}
+end)()
+(function ()
 	pg.base.activity_shop_template[11015] = {
 		commodity_id_list = "",
 		resource_category = 1,
@@ -51602,8 +51654,6 @@ end)()
 		commodity_id_list_show = 0,
 		order = 16
 	}
-end)()
-(function ()
 	pg.base.activity_shop_template[11017] = {
 		commodity_id_list = "",
 		resource_category = 2,
@@ -53324,6 +53374,113 @@ end)()
 						2026,
 						4,
 						1
+					},
+					{
+						0,
+						0,
+						0
+					}
+				}
+			}
+		}
+	}
+	pg.base.activity_shop_template[12046] = {
+		commodity_id_list = "",
+		resource_category = 2,
+		resource_num = 60,
+		num_limit = 1,
+		activity = 7104,
+		num = 1,
+		commodity_id = 9706031,
+		commodity_type = 4,
+		resource_type = 21000,
+		id = 12046,
+		commodity_id_list_show = 0,
+		order = 3,
+		limit_args = {
+			{
+				"uniqueship",
+				970603
+			},
+			{
+				2,
+				{
+					{
+						2026,
+						6,
+						1
+					},
+					{
+						0,
+						0,
+						0
+					}
+				}
+			}
+		}
+	}
+	pg.base.activity_shop_template[12047] = {
+		commodity_id_list = "",
+		resource_category = 2,
+		resource_num = 30,
+		num_limit = 4,
+		activity = 7104,
+		num = 1,
+		commodity_id = 21026,
+		commodity_type = 2,
+		resource_type = 21000,
+		id = 12047,
+		commodity_id_list_show = 0,
+		order = 4,
+		limit_args = {
+			{
+				1,
+				970603,
+				1
+			},
+			{
+				2,
+				{
+					{
+						2026,
+						6,
+						1
+					},
+					{
+						0,
+						0,
+						0
+					}
+				}
+			}
+		}
+	}
+	pg.base.activity_shop_template[12048] = {
+		commodity_id_list = "",
+		resource_category = 2,
+		resource_num = 80,
+		num_limit = 4,
+		activity = 7104,
+		num = 1,
+		commodity_id = 21061,
+		commodity_type = 2,
+		resource_type = 21000,
+		id = 12048,
+		commodity_id_list_show = 0,
+		order = 4,
+		limit_args = {
+			{
+				1,
+				970605,
+				1
+			},
+			{
+				2,
+				{
+					{
+						2026,
+						6,
+						18
 					},
 					{
 						0,

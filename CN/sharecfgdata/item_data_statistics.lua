@@ -16507,6 +16507,37 @@ _G.pg.base.item_data_statistics[21059] = {
 }
 
 
+_G.pg.base.item_data_statistics[21060] = {
+	open_directly = 0,
+	name = "结晶：{namecode:555}",
+	type = 4,
+	display = "{namecode:555}的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21060",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21060,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21061] = {
 	open_directly = 0,
 	name = "结晶：{namecode:556}",
@@ -31555,6 +31586,58 @@ _G.pg.base.item_data_statistics[30434] = {
 		{
 			9,
 			2120,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30435] = {
+	open_directly = 1,
+	name = "外观装备箱(世界巡游)",
+	type = 11,
+	display = "可以随机获得一件本次世界巡游限定外观装备",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "111229",
+	id = 30435,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2121,
+			1
+		},
+		{
+			9,
+			2122,
+			1
+		},
+		{
+			9,
+			2123,
+			1
+		},
+		{
+			9,
+			2124,
 			1
 		}
 	},
@@ -131315,6 +131398,357 @@ _G.pg.base.item_data_statistics[68260] = {
 }
 
 
+_G.pg.base.item_data_statistics[68288] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(云端的水光)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>雅努斯</color>换装<color=#92fc63FF>云端的水光</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "88032",
+	id = 68288,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68291,
+			1
+		},
+		{
+			2,
+			68294,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68289] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(微醺的静谧时光)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>路易九世</color>换装<color=#92fc63FF>微醺的静谧时光</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "88033",
+	id = 68289,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68292,
+			1
+		},
+		{
+			2,
+			68295,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68290] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(与“魔女”的星夜之约)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>{namecode:481}</color>换装<color=#92fc63FF>与“魔女”的星夜之约</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "88034",
+	id = 68290,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68293,
+			1
+		},
+		{
+			2,
+			68296,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68291] = {
+	open_directly = 0,
+	name = "换装抵扣券(云端的水光)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>雅努斯</color>换装<color=#92fc63FF>云端的水光</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年6月4日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68291,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71354
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68292] = {
+	open_directly = 0,
+	name = "换装抵扣券(微醺的静谧时光)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>路易九世</color>换装<color=#92fc63FF>微醺的静谧时光</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年6月4日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68292,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71351
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68293] = {
+	open_directly = 0,
+	name = "换装抵扣券(与“魔女”的星夜之约)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>{namecode:481}</color>换装<color=#92fc63FF>与“魔女”的星夜之约</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年6月4日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68293,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71355
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68294] = {
+	open_directly = 0,
+	name = "换装体验券(云端的水光)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>雅努斯</color>换装<color=#92fc63FF>云端的水光</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年6月4日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68294,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90491
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68295] = {
+	open_directly = 0,
+	name = "换装体验券(微醺的静谧时光)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>路易九世</color>换装<color=#92fc63FF>微醺的静谧时光</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年6月4日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68295,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90492
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68296] = {
+	open_directly = 0,
+	name = "换装体验券(与“魔女”的星夜之约)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>{namecode:481}</color>换装<color=#92fc63FF>与“魔女”的星夜之约</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年6月4日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68296,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90493
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[68261] = {
 	open_directly = 1,
 	name = "换装抵扣礼包(晨光里的事故)",
@@ -132013,6 +132447,58 @@ _G.pg.base.item_data_statistics[68287] = {
 	usage_arg = {
 		90487
 	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[69975] = {
+	open_directly = 1,
+	name = "未知科技箱T4",
+	type = 17,
+	display = "有几率获得随机科技箱T4",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/30004",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "69975",
+	id = 69975,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			30014,
+			1
+		},
+		{
+			2,
+			30024,
+			1
+		},
+		{
+			2,
+			30034,
+			1
+		},
+		{
+			2,
+			30044,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
 	limit = {}
 }
 
@@ -134865,6 +135351,73 @@ _G.pg.base.item_data_statistics[81235] = {
 		{
 			2,
 			86227,
+			1
+		},
+		{
+			1,
+			14,
+			2026
+		},
+		{
+			2,
+			42076,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81236] = {
+	open_directly = 1,
+	name = "九周年泳装礼盒·II",
+	type = 17,
+	display = "购买礼包可获得随机换装*1，钻石*2026，心智单元*50，心智魔方*20，高级定向蓝图·八期*2，快速完成工具*10，家具币*100",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai36",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998332",
+	id = 81236,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86228,
 			1
 		},
 		{

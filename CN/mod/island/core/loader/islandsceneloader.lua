@@ -10,6 +10,13 @@ slot0.Load = function(slot0, slot1, slot2, slot3, slot4)
 			uv0:LoadProgressUI(uv1, slot0)
 		end,
 		function (slot0)
+			onNextTick(slot0)
+		end,
+		function (slot0)
+			IslandHelper.RunGC(true)
+			onNextTick(slot0)
+		end,
+		function (slot0)
 			uv0:LoadScene(uv1, slot0)
 		end,
 		function (slot0)
@@ -19,13 +26,6 @@ slot0.Load = function(slot0, slot1, slot2, slot3, slot4)
 			uv0:LoadNavigationMesh(uv1, slot0)
 		end,
 		function (slot0)
-			onNextTick(slot0)
-		end,
-		function (slot0)
-			onNextTick(slot0)
-		end,
-		function (slot0)
-			IslandHelper.RunGC(true)
 			onNextTick(slot0)
 		end,
 		function (slot0)

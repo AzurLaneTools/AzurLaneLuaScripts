@@ -936,6 +936,9 @@ temp = function()
 				this = true
 			}
 		},
+		["猃"] = {
+			this = true
+		},
 		["鲟"] = {
 			this = true
 		},

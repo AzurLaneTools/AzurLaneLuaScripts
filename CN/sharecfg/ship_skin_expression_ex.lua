@@ -11198,7 +11198,6 @@ end)()
 		feeling5 = "",
 		profile = "",
 		mission_complete = "",
-		headtouch = "",
 		feeling2 = "",
 		detail = "",
 		login = {
@@ -11223,6 +11222,12 @@ end)()
 			{
 				1100,
 				""
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"4"
 			}
 		},
 		main_ex = {
@@ -26554,6 +26559,137 @@ end)()
 			{
 				1100,
 				"1"
+			}
+		}
+	}
+	pg.base.ship_skin_expression_ex.yunxian_younv = {
+		feeling3 = "",
+		main_1 = "",
+		mission = "",
+		expedition = "",
+		win_mvp = "",
+		mail = "",
+		painting = "yunxian_younv",
+		feeling1 = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		upgrade = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"7"
+			}
+		},
+		home = {
+			{
+				1100,
+				"8"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"1"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"10|1|7"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"7"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"5"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"11"
+			}
+		}
+	}
+	pg.base.ship_skin_expression_ex.aogusite = {
+		feeling3 = "",
+		main_1 = "",
+		mission = "",
+		expedition = "",
+		win_mvp = "",
+		mail = "",
+		painting = "aogusite",
+		feeling1 = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		upgrade = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"1"
+			}
+		},
+		home = {
+			{
+				1100,
+				"2"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"3"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"4"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"7|1|4"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"2"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"4"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"7"
 			}
 		}
 	}

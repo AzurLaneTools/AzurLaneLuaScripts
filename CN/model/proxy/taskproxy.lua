@@ -352,6 +352,12 @@ slot0.deleteTask = function(slot0, slot1)
 end
 
 slot0.deleteTaskById = function(slot0, slot1)
+	if slot0.submittingTask[slot1] then
+		print("正在提交的任务不予删除，id:" .. slot1)
+
+		return
+	end
+
 	slot0.data[slot1] = nil
 	slot0.finishData[slot1] = nil
 

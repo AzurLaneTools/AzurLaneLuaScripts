@@ -1434,6 +1434,8 @@ pg.skill_data_template.all = {
 	152380,
 	152390,
 	152410,
+	152440,
+	152450,
 	18010,
 	18040,
 	18050,
@@ -1719,6 +1721,8 @@ pg.skill_data_template.all = {
 	22262,
 	22271,
 	22272,
+	22281,
+	22282,
 	22311,
 	22312,
 	22411,
@@ -2860,6 +2864,12 @@ pg.skill_data_template.all = {
 	802172,
 	802175,
 	802177,
+	802180,
+	802190,
+	802201,
+	802202,
+	802205,
+	802207,
 	802210,
 	802220,
 	802231,
@@ -121867,6 +121877,254 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+	pg.base.skill_data_template[152440] = {
+		desc_get = "",
+		name = "云游仙境之旅",
+		type = 1,
+		max_level = 10,
+		desc = "战斗开始后10秒及之后每20秒发射一轮特殊弹幕$1（威力依据技能等级），同时自身机动、防空提高$2，持续10秒；关卡出击中，自身所在编队每击破一个敌方舰队，自身造成的伤害提高$3（最高叠加三层）",
+		id = 152440,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[152450] = {
+		desc_get = "",
+		name = "秘境的珍奇宝物",
+		type = 3,
+		max_level = 10,
+		desc = "战斗开始时及之后每20秒触发一次，从以下三种效果中随机获得一种：①自身炮击、装填、命中属性提高$1②自身装备的鱼雷武器的暴击率提高$1、暴击伤害提高$2③自身回复$1的耐久；已经获得的效果不会重复获得，获得全部效果后不再触发",
+		id = 152450,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	}
 	pg.base.skill_data_template[18010] = {
 		desc_get = "",
 		name = "MKV型穿甲弹 +",
@@ -128358,6 +128616,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[19320] = {
 		desc_get = "",
 		name = "「Ausgewogen」",
@@ -128750,8 +129010,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[19340] = {
 		desc_get = "",
 		name = "贯穿之轰雷",
@@ -136814,6 +137072,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[20211] = {
 		desc_get = "",
 		name = "全弹发射I",
@@ -136842,8 +137102,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[20221] = {
 		desc_get = "",
 		name = "全弹发射I",
@@ -138216,6 +138474,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[22211] = {
 		desc_get = "",
 		name = "全弹发射I",
@@ -138244,8 +138504,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[22221] = {
 		desc_get = "",
 		name = "全弹发射I",
@@ -138449,6 +138707,34 @@ end)()
 		max_level = 1,
 		desc = "主炮每进行6次攻击，触发全弹发射-{namecode:152}级II",
 		id = 22272,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[22281] = {
+		desc_get = "",
+		name = "全弹发射I",
+		type = 1,
+		max_level = 1,
+		desc = "主炮每进行12次攻击，触发全弹发射-{namecode:294}级I",
+		id = 22281,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[22282] = {
+		desc_get = "",
+		name = "全弹发射II",
+		type = 1,
+		max_level = 1,
+		desc = "主炮每进行8次攻击，触发全弹发射-{namecode:294}级II",
+		id = 22282,
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -139590,6 +139876,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[26112] = {
 		desc_get = "",
 		name = "全弹发射II",
@@ -139646,8 +139934,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[26212] = {
 		desc_get = "",
 		name = "全弹发射II",
@@ -140992,6 +141278,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29302] = {
 		desc_get = "",
 		name = "专属弹幕-33II",
@@ -141050,8 +141338,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29322] = {
 		desc_get = "",
 		name = "专属弹幕-絮库夫II",
@@ -142402,6 +142688,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29821] = {
 		desc_get = "",
 		name = "专属弹幕-基辅I",
@@ -142458,8 +142746,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29841] = {
 		desc_get = "",
 		name = "专属弹幕-{namecode:448}I",
@@ -143804,6 +144090,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[30351] = {
 		desc_get = "",
 		name = "专属弹幕-和睦号I",
@@ -143860,8 +144148,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[30371] = {
 		desc_get = "",
 		name = "专属弹幕-海豚号I",
@@ -148477,6 +148763,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[105120] = {
 		desc_get = "",
 		name = "梦见好梦的「WAVE」",
@@ -148739,8 +149027,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[106010] = {
 		desc_get = "",
 		name = "玫瑰边刺",
@@ -157527,6 +157813,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[108230] = {
 		desc_get = "",
 		name = "巨坦炮击 +",
@@ -157861,8 +158149,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[108270] = {
 		desc_get = "",
 		name = "实例控制·焰 +",
@@ -165971,6 +166257,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[111100] = {
 		desc_get = "",
 		name = "武装变幻",
@@ -166285,8 +166573,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[111240] = {
 		desc_get = "",
 		name = "大家，来我这边",
@@ -173710,6 +173996,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800201] = {
 		desc_get = "",
 		name = "破敌之炬·{namecode:78}I",
@@ -173774,8 +174062,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800210] = {
 		desc_get = "",
 		name = "幽蝶终归海",
@@ -178136,6 +178422,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800750] = {
 		desc_get = "",
 		name = "审判之锤",
@@ -178416,8 +178704,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800775] = {
 		desc_get = "",
 		name = "逐光之焰·拉·加利索尼埃I",
@@ -183650,6 +183936,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[801301] = {
 		desc_get = "",
 		name = "破敌之炬·威奇塔I",
@@ -183714,8 +184002,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[801320] = {
 		desc_get = "",
 		name = "幽绽之炎",
@@ -189067,6 +189353,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[801865] = {
 		desc_get = "",
 		name = "逐光之焰·敦刻尔克I",
@@ -189311,8 +189599,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[801890] = {
 		desc_get = "",
 		name = "炬火萦身",
@@ -192225,6 +192511,354 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+	pg.base.skill_data_template[802180] = {
+		desc_get = "",
+		name = "训诫之鞭 ",
+		type = 3,
+		max_level = 10,
+		desc = "战斗开始时，我方全体先锋舰队成员装填提高$1；自身所在编队每击破一个敌方编队，自身炮击、雷击提高$2，最高叠加3层；战斗中，每20秒触发一轮特殊弹幕$3(弹幕威力依据技能等级)，被特殊弹幕命中的敌方单位会被施加【惩戒标记】，处于该状态的敌方单位在接下来的10秒内受到来自我方先锋舰队角色的伤害提升$4",
+		id = 802180,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"15.0%"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+0.5%"
+				},
+				{
+					"10.5%",
+					"+0.5%"
+				},
+				{
+					"11.0%",
+					"+0.5%"
+				},
+				{
+					"11.5%",
+					"+0.5%"
+				},
+				{
+					"12.0%",
+					"+0.5%"
+				},
+				{
+					"12.5%",
+					"+0.5%"
+				},
+				{
+					"13.0%",
+					"+0.5%"
+				},
+				{
+					"13.5%",
+					"+0.5%"
+				},
+				{
+					"14.0%",
+					"+1%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[802190] = {
+		desc_get = "",
+		name = "防护器械 ",
+		type = 2,
+		max_level = 10,
+		desc = "战斗中每15秒，为自身生成一枚可阻挡$1枚子弹的护盾，持续8秒；若护盾触发时敌人身上存在【惩戒标记】，则为随机一名先锋舰队成员生成一枚可抵消自身耐久$2的伤害的护盾，持续8秒",
+		id = 802190,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"2",
+				"8"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"2"
+				},
+				{
+					"3"
+				},
+				{
+					"4"
+				},
+				{
+					"5"
+				},
+				{
+					"6"
+				},
+				{
+					"6"
+				},
+				{
+					"7"
+				},
+				{
+					"7"
+				},
+				{
+					"8"
+				},
+				{
+					"8"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[802201] = {
+		desc_get = "",
+		name = "逐光之焰·{namecode:421}I",
+		type = 1,
+		max_level = 1,
+		desc = "主炮每进行12次攻击，触发一轮特殊弹幕I",
+		id = 802201,
+		system_transform = {
+			[51.0] = 802205
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[802202] = {
+		desc_get = "",
+		name = "逐光之焰·{namecode:421}II",
+		type = 1,
+		max_level = 1,
+		desc = "主炮每进行8次攻击，触发一轮特殊弹幕II",
+		id = 802202,
+		system_transform = {
+			[51.0] = 802207
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[802205] = {
+		desc_get = "",
+		name = "逐光之焰·{namecode:421}I",
+		type = 1,
+		max_level = 1,
+		desc = "【大型作战效果】\n主炮每进行12次攻击，触发一轮特殊弹幕I，与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高2%",
+		id = 802205,
+		system_transform = {
+			[51.0] = 802205
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[802207] = {
+		desc_get = "",
+		name = "逐光之焰·{namecode:421}II",
+		type = 1,
+		max_level = 1,
+		desc = "【大型作战效果】\n主炮每进行8次攻击，触发一轮特殊弹幕II，与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高5%",
+		id = 802207,
+		system_transform = {
+			[51.0] = 802207
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
 	pg.base.skill_data_template[802210] = {
 		desc_get = "",
 		name = "这里交给我！",
@@ -192843,6 +193477,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[902270] = {
 		desc_get = "",
 		name = "星之守护",
@@ -192983,8 +193619,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[902370] = {
 		desc_get = "",
 		name = "锐爪斩击",
@@ -204384,6 +205018,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1011250] = {
 		desc_get = "",
 		name = "萨沃岛突袭 +",
@@ -206078,8 +206714,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[10151810] = {
 		desc_get = "",
 		name = "最终圣裁 +",

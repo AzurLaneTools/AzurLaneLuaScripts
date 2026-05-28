@@ -181,26 +181,28 @@ slot2.generateCommonButton = function(slot0, slot1)
 end
 
 slot2.generateSubmarineFuncButton = function(slot0, slot1)
-	slot2 = uv0.Battle.BattleSubmarineFuncButton.New()
+	slot3 = nil
+	slot3 = (not uv0.Battle["BattleSubmarineFuncButton" .. uv0.Battle.BattleState.GetCombatSkinKey()] or uv0.Battle["BattleSubmarineFuncButton" .. slot2].New()) and uv0.Battle.BattleSubmarineFuncButton.New()
 	slot0._progressSkin = slot0._progressSkin or slot0._ui._tf:Find("Weapon_button_progress")
 
-	slot2:ConfigSkin(cloneTplTo(slot0._progressSkin, slot0._buttonContainer))
-	slot2:SwitchIcon(slot1)
-	slot2:SetTextActive(false)
-	table.insert(slot0._skillBtnList, slot2)
+	slot3:ConfigSkin(cloneTplTo(slot0._progressSkin, slot0._buttonContainer))
+	slot3:SwitchIcon(slot1)
+	slot3:SetTextActive(false)
+	table.insert(slot0._skillBtnList, slot3)
 
-	return slot2
+	return slot3
 end
 
 slot2.generateSubmarineButton = function(slot0, slot1)
-	slot2 = uv0.Battle.BattleSubmarineButton.New()
+	slot3 = nil
+	slot3 = (not uv0.Battle["BattleSubmarineButton" .. uv0.Battle.BattleState.GetCombatSkinKey()] or uv0.Battle["BattleSubmarineButton" .. slot2].New()) and uv0.Battle.BattleSubmarineButton.New()
 	slot0._disposableSkin = slot0._disposableSkin or slot0._ui._tf:Find("Weapon_button")
 
-	slot2:ConfigSkin(cloneTplTo(slot0._disposableSkin, slot0._buttonContainer))
-	slot2:SwitchIcon(slot1)
-	table.insert(slot0._skillBtnList, slot2)
+	slot3:ConfigSkin(cloneTplTo(slot0._disposableSkin, slot0._buttonContainer))
+	slot3:SwitchIcon(slot1)
+	table.insert(slot0._skillBtnList, slot3)
 
-	return slot2
+	return slot3
 end
 
 slot2.CustomButton = function(slot0, slot1)
