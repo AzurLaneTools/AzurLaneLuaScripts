@@ -316,7 +316,7 @@ _G.pg.base.weapon_property_2[51680] = {
 		2119
 	},
 	barrage_ID = {
-		2146
+		2145
 	},
 	oxy_type = {
 		1

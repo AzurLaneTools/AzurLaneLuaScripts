@@ -53,7 +53,7 @@ slot0.init = function(slot0, ...)
 
 							uv2 = uv1.id
 
-							if uv0:GetActivityClassName(uv1) == "AnniversaryNineHwahJahSkinPage" then
+							if uv0:GetActivityClassName(uv1) == "AnniversaryNineHwahJahSkinPage" or slot1 == "AnniversaryNineEvertsenSkinPage" then
 								uv0:SetColorTab(uv4)
 							else
 								uv0:SetColorTab(uv5)
