@@ -55436,7 +55436,7 @@ end)()
 		login_pop = 0,
 		config_id = 680,
 		is_show = 0,
-		config_data = "100",
+		config_data = "0",
 		config_client = "",
 		title_res_tag = "",
 		id = 50625,
