@@ -6146,6 +6146,7 @@ end)()
 			"painting/gezi_n_tex",
 			"painting/gezi_n_rw_tex",
 			"painting/gezi_n",
+			"painting/gezi_buildhx_tex",
 			"painting/gezi_bj_tex",
 			"painting/gezi"
 		}

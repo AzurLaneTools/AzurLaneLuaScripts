@@ -44,7 +44,9 @@ pg.island_shop_template.all = {
 	50132,
 	50133,
 	50122,
-	50123
+	50123,
+	50124,
+	90001
 }
 pg.island_shop_template.get_id_list_by_first_shop = {
 	[0] = {
@@ -56,7 +58,8 @@ pg.island_shop_template.get_id_list_by_first_shop = {
 		10025,
 		10028,
 		10031,
-		50111
+		50111,
+		90001
 	},
 	[10010] = {
 		10011,
@@ -107,7 +110,8 @@ pg.island_shop_template.get_id_list_by_first_shop = {
 		50132,
 		50133,
 		50122,
-		50123
+		50123,
+		50124
 	}
 }
 pg.island_shop_template.get_id_list_by_second_shop = {
@@ -131,7 +135,8 @@ pg.island_shop_template.get_id_list_by_second_shop = {
 		10036,
 		50111,
 		50121,
-		50122
+		50122,
+		90001
 	},
 	[10011] = {
 		10012,
@@ -175,7 +180,8 @@ pg.island_shop_template.get_id_list_by_second_shop = {
 		50133
 	},
 	[50122] = {
-		50123
+		50123,
+		50124
 	}
 }
 pg.base = pg.base or {}
@@ -1398,6 +1404,61 @@ pg.base.island_shop_template = {}
 			99000202,
 			99000301,
 			99000302
+		}
+	}
+	pg.base.island_shop_template[50124] = {
+		first_shop = 50111,
+		top_jump = "",
+		second_shop = 50122,
+		show_type = 5,
+		dress_type = 0,
+		order = 1,
+		shop_type = 1,
+		id = 50124,
+		tag_type = 3,
+		shop_icon = {
+			"Costumes",
+			"Costume Shop"
+		},
+		tag_icon = {
+			"Commander"
+		},
+		top_resource = {
+			{
+				0,
+				1,
+				14
+			},
+			{
+				0,
+				41,
+				1
+			}
+		},
+		goods_id = {
+			461060015
+		}
+	}
+	pg.base.island_shop_template[90001] = {
+		first_shop = 0,
+		top_jump = "",
+		top_resource = "",
+		second_shop = 0,
+		show_type = 6,
+		dress_type = 0,
+		order = 1,
+		goods_id = "",
+		shop_type = 1,
+		id = 90001,
+		tag_type = 1,
+		shop_icon = {
+			"Recommended",
+			"Recommend"
+		},
+		tag_icon = {
+			"Recommended",
+			"Recommend",
+			"tuijian"
 		}
 	}
 end)()

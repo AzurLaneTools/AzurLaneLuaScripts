@@ -95,36 +95,42 @@ slot0.SetUp = function(slot0, slot1)
 			end
 		end
 	elseif slot1[1]:GetItems()[1][1] == DROP_TYPE_ISLAND_DRESS then
-		for slot8 = 1, 3 do
-			setActive(slot0.commodityList:Find("commodity" .. slot8):Find("normal"), slot8 <= #slot1[1]:GetItems())
-			setActive(slot9:Find("nothing"), slot8 > #slot1[1]:GetItems())
+		slot5 = slot1[1]:GetDisplayItems()
 
-			if slot8 <= #slot1[1]:GetItems() then
-				slot11 = pg.island_dress_template[slot1[1]:GetItems()[slot8][2]]
+		for slot9 = 1, 3 do
+			setActive(slot0.commodityList:Find("commodity" .. slot9):Find("normal"), slot9 <= #slot5)
+			setActive(slot10:Find("nothing"), slot9 > #slot5)
 
-				GetImageSpriteFromAtlasAsync("island/IslandGoodsIcon/" .. slot11.icon, "", slot9:Find("normal/IslandItemTpl/icon_bg/icon"))
-				setText(slot9:Find("normal/name"), slot11.name)
-				setActive(slot9:Find("normal/count"), false)
+			if slot9 <= #slot5 then
+				slot11 = slot5[slot9][2]
+				slot12 = pg.island_dress_template[slot11]
 
-				slot12 = 0
+				GetImageSpriteFromAtlasAsync(Drop.New({
+					type = DROP_TYPE_ISLAND_DRESS,
+					id = slot11
+				}):getIcon(), "", slot10:Find("normal/IslandItemTpl/icon_bg/icon"))
+				setText(slot10:Find("normal/name"), slot12.name)
+				setActive(slot10:Find("normal/count"), false)
 
-				if slot11.belongto == 1 then
-					slot12 = getProxy(IslandProxy):GetIsland():GetDressUpAgency():CheckOwnDress(slot10) and 1 or 0
-				elseif slot11.belongto == 2 then
-					slot12 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetOwnDressCountByDressId(slot10)
+				slot13 = 0
+
+				if slot12.belongto == 1 then
+					slot13 = getProxy(IslandProxy):GetIsland():GetDressUpAgency():CheckOwnDress(slot11) and 1 or 0
+				elseif slot12.belongto == 2 then
+					slot13 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetOwnDressCountByDressId(slot11)
 				end
 
-				setText(slot9:Find("normal/consumeNum"), slot12)
-				setActive(slot9:Find("normal/cost"), false)
-				setActive(slot9:Find("normal/consumeIcon"), false)
-				setActive(slot9:Find("normal/have"), true)
+				setText(slot10:Find("normal/consumeNum"), slot13)
+				setActive(slot10:Find("normal/cost"), false)
+				setActive(slot10:Find("normal/consumeIcon"), false)
+				setActive(slot10:Find("normal/have"), true)
 			end
 		end
 
-		slot5 = slot1[1]:GetResourceConsume()
-		slot2 = slot5[1]
-		slot3 = slot5[2]
-		slot4 = slot5[3]
+		slot6 = slot1[1]:GetResourceConsume()
+		slot2 = slot6[1]
+		slot3 = slot6[2]
+		slot4 = slot6[3]
 	end
 
 	slot6 = Drop.New({

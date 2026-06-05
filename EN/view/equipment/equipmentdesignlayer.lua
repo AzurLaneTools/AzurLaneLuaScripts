@@ -41,6 +41,10 @@ slot0.init = function(slot0)
 
 	setText(slot0.listEmptyTxt, i18n("list_empty_tip_equipmentdesignui"))
 	slot0:OverlayPanel(slot0.indexPanel)
+
+	slot0.obtainWayPage = EquipmentDesignObtainWayPage.New(slot0._tf, slot0.event)
+
+	slot0.obtainWayPage:RegisterView(slot0)
 end
 
 slot0.SetParentTF = function(slot0, slot1)
@@ -384,7 +388,13 @@ slot0.initDesign = function(slot0, slot1)
 
 	onButton(slot0, slot5:Find("info/make_btn"), function ()
 		uv0:showDesignDesc(uv1.designId)
-	end)
+	end, SFX_PANEL)
+
+	slot5 = tf(slot2.go)
+
+	onButton(slot0, slot5:Find("look"), function ()
+		uv0.obtainWayPage:ExecuteAction("Show", uv1.designId)
+	end, SFX_PANEL)
 
 	slot0.desgins[slot1] = slot2
 end
@@ -445,28 +455,29 @@ slot0.filter = function(slot0, slot1, slot2)
 
 	slot5 = {}
 	slot6 = slot0.asc
+	slot7 = getProxy(EquipmentProxy)
 
-	for slot10, slot11 in ipairs(pg.compose_data_template.all) do
-		if slot0:getItemById(pg.compose_data_template[slot11].material_id).count > 0 then
-			table.insert(slot5, slot11)
+	for slot11, slot12 in ipairs(pg.compose_data_template.all) do
+		if slot0:getItemById(pg.compose_data_template[slot12].material_id).count > 0 or slot0.contextData.isShowAllDesign and slot7:ShouldShowEquipmentDesignObtainWay(slot12) then
+			table.insert(slot5, slot12)
 		end
 	end
 
-	slot7 = {}
-	slot8 = table.mergeArray({}, {
+	slot8 = {}
+	slot9 = table.mergeArray({}, {
 		slot0.contextData.indexDatas.equipPropertyIndex,
 		slot0.contextData.indexDatas.equipPropertyIndex2
 	}, true)
 
-	for slot12, slot13 in pairs(slot5) do
-		if IndexConst.filterEquipByType(slot0:getDesignVO(slot13), slot0.contextData.indexDatas.typeIndex) and IndexConst.filterEquipByProperty(slot14, slot8) and IndexConst.filterEquipAmmo1(slot14, slot0.contextData.indexDatas.equipAmmoIndex1) and IndexConst.filterEquipAmmo2(slot14, slot0.contextData.indexDatas.equipAmmoIndex2) and IndexConst.filterEquipByCamp(slot14, slot0.contextData.indexDatas.equipCampIndex) and IndexConst.filterEquipByRarity(slot14, slot0.contextData.indexDatas.rarityIndex) then
-			table.insert(slot7, slot13)
+	for slot13, slot14 in pairs(slot5) do
+		if IndexConst.filterEquipByType(slot0:getDesignVO(slot14), slot0.contextData.indexDatas.typeIndex) and IndexConst.filterEquipByProperty(slot15, slot9) and IndexConst.filterEquipAmmo1(slot15, slot0.contextData.indexDatas.equipAmmoIndex1) and IndexConst.filterEquipAmmo2(slot15, slot0.contextData.indexDatas.equipAmmoIndex2) and IndexConst.filterEquipByCamp(slot15, slot0.contextData.indexDatas.equipCampIndex) and IndexConst.filterEquipByRarity(slot15, slot0.contextData.indexDatas.rarityIndex) then
+			table.insert(slot8, slot14)
 		end
 	end
 
 	if slot1 == 1 then
 		if slot6 then
-			table.sort(slot7, function (slot0, slot1)
+			table.sort(slot8, function (slot0, slot1)
 				if uv0:getDesignVO(slot0).canMake == uv0:getDesignVO(slot1).canMake then
 					if slot2.equipmentCfg.rarity == slot3.equipmentCfg.rarity then
 						return slot2.equipmentCfg.id < slot3.equipmentCfg.id
@@ -478,7 +489,7 @@ slot0.filter = function(slot0, slot1, slot2)
 				end
 			end)
 		else
-			table.sort(slot7, function (slot0, slot1)
+			table.sort(slot8, function (slot0, slot1)
 				if uv0:getDesignVO(slot0).canMake == uv0:getDesignVO(slot1).canMake then
 					if slot2.equipmentCfg.rarity == slot3.equipmentCfg.rarity then
 						return slot2.equipmentCfg.id < slot3.equipmentCfg.id
@@ -492,7 +503,7 @@ slot0.filter = function(slot0, slot1, slot2)
 		end
 	elseif slot1 == 2 then
 		if slot0.asc then
-			table.sort(slot7, function (slot0, slot1)
+			table.sort(slot8, function (slot0, slot1)
 				if uv0:getDesignVO(slot0).equipmentCfg.rarity == uv0:getDesignVO(slot1).equipmentCfg.rarity then
 					return slot2.equipmentCfg.id < slot2.equipmentCfg.id
 				end
@@ -500,7 +511,7 @@ slot0.filter = function(slot0, slot1, slot2)
 				return slot2.equipmentCfg.rarity < slot3.equipmentCfg.rarity
 			end)
 		else
-			table.sort(slot7, function (slot0, slot1)
+			table.sort(slot8, function (slot0, slot1)
 				if uv0:getDesignVO(slot0).equipmentCfg.rarity == uv0:getDesignVO(slot1).equipmentCfg.rarity then
 					return slot2.equipmentCfg.id < slot2.equipmentCfg.id
 				end
@@ -510,7 +521,7 @@ slot0.filter = function(slot0, slot1, slot2)
 		end
 	elseif slot1 == 3 then
 		if slot0.asc then
-			table.sort(slot7, function (slot0, slot1)
+			table.sort(slot8, function (slot0, slot1)
 				if uv0:getDesignVO(slot0).itemCount == uv0:getDesignVO(slot1).itemCount then
 					return slot2.equipmentCfg.id < slot3.equipmentCfg.id
 				end
@@ -518,7 +529,7 @@ slot0.filter = function(slot0, slot1, slot2)
 				return slot2.itemCount < slot3.itemCount
 			end)
 		else
-			table.sort(slot7, function (slot0, slot1)
+			table.sort(slot8, function (slot0, slot1)
 				if uv0:getDesignVO(slot0).itemCount == uv0:getDesignVO(slot1).itemCount then
 					return slot2.equipmentCfg.id < slot3.equipmentCfg.id
 				end
@@ -528,10 +539,10 @@ slot0.filter = function(slot0, slot1, slot2)
 		end
 	end
 
-	slot0.desginIds = slot7
+	slot0.desginIds = slot8
 
-	slot0.scollRect:SetTotalCount(#slot7, slot2 and -1 or 0)
-	setActive(slot0.listEmptyTF, #slot7 <= 0)
+	slot0.scollRect:SetTotalCount(#slot8, slot2 and -1 or 0)
+	setActive(slot0.listEmptyTF, #slot8 <= 0)
 	Canvas.ForceUpdateCanvases()
 	setImageSprite(slot0.sortBtn:Find("Image"), GetSpriteFromAtlas("ui/equipmentdesignui_atlas", uv0[slot1]))
 	setActive(slot0.sortImgAsc, slot0.asc)
@@ -663,6 +674,12 @@ slot0.willExit = function(slot0)
 	end
 
 	setParent(slot0.sortBtn.parent, slot0._tf)
+
+	if slot0.obtainWayPage then
+		slot0.obtainWayPage:Destroy()
+	end
+
+	slot0.obtainWayPage = nil
 end
 
 return slot0

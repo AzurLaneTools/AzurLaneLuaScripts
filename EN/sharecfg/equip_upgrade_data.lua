@@ -283,7 +283,15 @@ pg.equip_upgrade_data.all = {
 	85540,
 	85560,
 	46400,
-	90360
+	90360,
+	31320,
+	90640,
+	90660,
+	48060,
+	85840,
+	85860,
+	85880,
+	85580
 }
 pg.base = pg.base or {}
 pg.base.equip_upgrade_data = {}
@@ -5910,6 +5918,166 @@ end)()
 			{
 				18103,
 				60
+			}
+		}
+	}
+	pg.base.equip_upgrade_data[31320] = {
+		coin_consume = 10000,
+		id = 31320,
+		upgrade_from = 31300,
+		target_id = 31320,
+		material_consume = {
+			{
+				18127,
+				6
+			},
+			{
+				18117,
+				20
+			},
+			{
+				18109,
+				60
+			}
+		}
+	}
+	pg.base.equip_upgrade_data[90640] = {
+		coin_consume = 500,
+		id = 90640,
+		upgrade_from = 6140,
+		target_id = 90640,
+		material_consume = {
+			{
+				18105,
+				24
+			},
+			{
+				18102,
+				18
+			},
+			{
+				18113,
+				9
+			}
+		}
+	}
+	pg.base.equip_upgrade_data[90660] = {
+		coin_consume = 2000,
+		id = 90660,
+		upgrade_from = 90640,
+		target_id = 90660,
+		material_consume = {
+			{
+				18121,
+				3
+			},
+			{
+				18106,
+				21
+			},
+			{
+				18114,
+				18
+			}
+		}
+	}
+	pg.base.equip_upgrade_data[48060] = {
+		coin_consume = 2500,
+		id = 48060,
+		upgrade_from = 48040,
+		target_id = 48060,
+		material_consume = {
+			{
+				18123,
+				9
+			},
+			{
+				18106,
+				21
+			},
+			{
+				18116,
+				18
+			}
+		}
+	}
+	pg.base.equip_upgrade_data[85840] = {
+		coin_consume = 400,
+		id = 85840,
+		upgrade_from = 85820,
+		target_id = 85840,
+		material_consume = {
+			{
+				18125,
+				4
+			},
+			{
+				18111,
+				12
+			},
+			{
+				18115,
+				10
+			}
+		}
+	}
+	pg.base.equip_upgrade_data[85860] = {
+		coin_consume = 500,
+		id = 85860,
+		upgrade_from = 85840,
+		target_id = 85860,
+		material_consume = {
+			{
+				18125,
+				9
+			},
+			{
+				18111,
+				18
+			},
+			{
+				18115,
+				9
+			}
+		}
+	}
+	pg.base.equip_upgrade_data[85880] = {
+		coin_consume = 500,
+		id = 85880,
+		upgrade_from = 85840,
+		target_id = 85880,
+		material_consume = {
+			{
+				18125,
+				9
+			},
+			{
+				18108,
+				18
+			},
+			{
+				18115,
+				9
+			}
+		}
+	}
+	pg.base.equip_upgrade_data[85580] = {
+		coin_consume = 2500,
+		id = 85580,
+		upgrade_from = 85500,
+		target_id = 85580,
+		material_consume = {
+			{
+				18126,
+				6
+			},
+			{
+				18117,
+				6
+			},
+			{
+				18103,
+				24
 			}
 		}
 	}

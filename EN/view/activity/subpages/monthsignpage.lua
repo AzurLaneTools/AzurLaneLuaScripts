@@ -3,12 +3,9 @@ slot0.SHOW_RE_MONTH_SIGN = "show re month sign award"
 slot0.MONTH_SIGN_SHOW = {}
 
 slot0.OnInit = function(slot0)
-	slot1 = slot0._tf
-	slot0.bg = slot1:Find("bg")
-	slot1 = slot0._tf
-	slot0.items = slot1:Find("items")
-	slot1 = slot0.items
-	slot0.item = slot1:Find("item")
+	slot0.bg = slot0._tf:Find("bg")
+	slot0.items = slot0._tf:Find("items")
+	slot0.item = slot0.items:Find("item")
 	slot0.monthSignReSignUI = MonthSignReSignUI.New(slot0._tf, slot0.event, nil)
 
 	slot0:bind(uv0.SHOW_RE_MONTH_SIGN, function (slot0, slot1, slot2)
@@ -18,6 +15,8 @@ slot0.OnInit = function(slot0)
 
 		uv0.monthSignReSignUI:ActionInvoke("setAwardShow", slot1, slot2)
 	end)
+	setText(slot0._tf:Find("login/Text"), i18n("yearly_sign_in"))
+	setText(slot0._tf:Find("login/count/Text"), i18n("word_date"))
 end
 
 slot0.OnDataSetting = function(slot0)
@@ -37,12 +36,9 @@ slot0.OnDataSetting = function(slot0)
 end
 
 slot0.OnFirstFlush = function(slot0)
-	slot1 = pg.TimeMgr.GetInstance()
-	slot1 = slot1:GetServerTime()
 	slot0.list = UIItemList.New(slot0.items, slot0.item)
-	slot2 = slot0.list
 
-	slot2:make(function (slot0, slot1, slot2)
+	slot0.list:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = slot1 + 1
 
@@ -75,6 +71,7 @@ slot0.OnFirstFlush = function(slot0)
 			end
 		end
 	end)
+	slot0:UpdateLoginInfo()
 end
 
 slot0.OnUpdateFlush = function(slot0)
@@ -131,6 +128,17 @@ end
 slot0.isDirtyRes = function(slot0)
 	if slot0.specialTag and slot0:getUIName() ~= slot0.activity:getConfig("page_info").ui_name2 then
 		return true
+	end
+end
+
+slot0.UpdateLoginInfo = function(slot0)
+	setActive(slot0._tf:Find("login"), getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LOGIN_RECORD) and not slot1:isEnd())
+
+	if slot1 and not slot1:isEnd() then
+		slot3, slot4, slot5 = unpack(slot1:getConfig("time"))
+
+		setText(slot2:Find("month"), string.format("%02d/%02d/%02d-%02d/%02d/%02d", slot4[1][1] % 100, slot4[1][2], slot4[1][3], slot5[1][1] % 100, slot5[1][2], slot5[1][3]))
+		setText(slot2:Find("count/day"), slot1:getData1())
 	end
 end
 

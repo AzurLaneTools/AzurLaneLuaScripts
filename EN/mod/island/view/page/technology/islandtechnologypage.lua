@@ -52,6 +52,7 @@ slot0.OnLoaded = function(slot0)
 		onSelecteShip = function (slot0)
 			uv0:OpenPage(IslandShipSelectPage, {
 				needWorkSpeed = true,
+				showType = IslandSelectShipCard.SHOW_TYPE.PlACE,
 				attrType = pg.island_formula[slot0].attribute,
 				confirmFunc = function (slot0)
 					uv0.detailPanel:ExecuteAction("OnShipSelected", slot0[1])

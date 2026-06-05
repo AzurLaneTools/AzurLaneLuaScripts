@@ -422,7 +422,8 @@ pg.ship_skin_words_extra.all = {
 	403170,
 	401140,
 	401150,
-	204030
+	204030,
+	202200
 }
 pg.base = pg.base or {}
 pg.base.ship_skin_words_extra = {}
@@ -29610,6 +29611,79 @@ end)()
 			{
 				1100,
 				"\"Nothing may cast asunder those who have vowed their hearts to one another.\" I never put too much thought into that verse before I met you, Commander, but now it's one of my favourites."
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[202200] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 202200,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Welcome home, my honourable Master. Your tea is ready. Please allow me to stay by your side again today."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome back, my honourable Master. I have prepared black tea and sweets. May I also... try my hand at making crepes for you today?"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"If you like how I feel... then please continue."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Will we plan out strategies together today? Or discuss some other matters? Or... Is my presence all you want? Please share whatever your heart desires, my honourable Master."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"The Royal Maids' daily lessons have ended, so the rest of my day belongs to you, Master. I humbly await your command.|I noticed you rubbing your shoulder... If I'm not mistaken, may I give you a massage?|My one and only reason for being... is to be by your side now and forever, my honourable Master."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Pay no heed to the eyes of others. All that I am belongs to you, my honourable Master."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Honourable Master, the missions are complete. Your praise brings me more joy than any mission reward ever could."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Master? Is this your way of requesting my service? I-I'm sorry... Was that too forward of me?"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"There is no greater joy and honour than being able to indulge in your warmth... my one and only beloved Master."
 			}
 		}
 	}

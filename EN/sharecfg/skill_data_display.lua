@@ -3797,6 +3797,8 @@ pg.skill_data_display.all = {
 	201761,
 	201763,
 	201773,
+	201790,
+	201798,
 	1011540,
 	1011541,
 	1090010,
@@ -19313,6 +19315,14 @@ end)()
 		id = 201773,
 		name = "Tribunal's Hand Covering Fire"
 	}
+	pg.base.skill_data_display[201790] = {
+		id = 201790,
+		name = "维度追猎"
+	}
+	pg.base.skill_data_display[201798] = {
+		id = 201798,
+		name = "灯下之影"
+	}
 	pg.base.skill_data_display[1011540] = {
 		id = 1011540,
 		name = "Final Shot+"
@@ -19333,6 +19343,8 @@ end)()
 		id = 1010732,
 		name = "The Demon+"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1011620] = {
 		id = 1011620,
 		name = "Predestined Launch+"
@@ -19341,8 +19353,6 @@ end)()
 		id = 1011621,
 		name = "Predestined Launch+"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1011622] = {
 		id = 1011622,
 		name = "Predestined Launch+"
@@ -19735,6 +19745,8 @@ end)()
 		id = 1014091,
 		name = "Cleanse Impurity+"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1010260] = {
 		id = 1010260,
 		name = "Armageddon Cannon+"
@@ -19743,8 +19755,6 @@ end)()
 		id = 1010261,
 		name = "Armageddon Cannon+"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1013020] = {
 		id = 1013020,
 		name = "Lod Obstrel+"
@@ -20137,6 +20147,8 @@ end)()
 		id = 1090210,
 		name = "Emergency Maneuvers - Fortune"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1090211] = {
 		id = 1090211,
 		name = "Emergency Maneuvers - Fortune"
@@ -20145,8 +20157,6 @@ end)()
 		id = 1090220,
 		name = "Reload Command - Königsberg"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1090221] = {
 		id = 1090221,
 		name = "Reload Command - Königsberg"

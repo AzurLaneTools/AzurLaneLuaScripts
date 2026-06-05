@@ -84,7 +84,9 @@ slot0.AddItems = function(slot0, slot1)
 
 	if #slot25 > 0 then
 		for slot34, slot35 in ipairs(slot25) do
-			table.insert(slot18, slot35)
+			if pg.island_dress_template[slot35.id].is_hide ~= 1 then
+				table.insert(slot18, slot35)
+			end
 		end
 	end
 

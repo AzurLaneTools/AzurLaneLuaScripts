@@ -15,12 +15,16 @@ slot0.ITEM_GO_SCENE = "item go scene"
 slot0.ITEM_ADD_LAYER = "EquipmentMediator.ITEM_ADD_LAYER"
 slot0.OPEN_EQUIPSKIN_INDEX_LAYER = "EquipmentMediator:OPEN_EQUIPSKIN_INDEX_LAYER"
 slot0.OPEN_EQUIPMENT_INDEX = "OPEN_EQUIPMENT_INDEX"
+slot0.DESIGN_FILTER_CHANGED = "EquipmentMediator:DESIGN_FILTER_CHANGED"
 
 slot0.register = function(slot0)
 	if not slot0.contextData.warp then
 		slot0.contextData.warp = getProxy(SettingsProxy):getEquipSceneIndex()
 	end
 
+	slot0:bind(uv0.DESIGN_FILTER_CHANGED, function (slot0, slot1)
+		uv0:sendNotification(GAME.TOGGLE_ALL_DESIGN_EQUIPMENT, slot1)
+	end)
 	slot0:bind(uv0.ITEM_GO_SCENE, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.GO_SCENE, slot1, slot2)
 	end)
@@ -56,7 +60,8 @@ slot0.register = function(slot0)
 			viewComponent = EquipmentDesignLayer,
 			mediator = EquipmentDesignMediator,
 			data = {
-				groupName = uv0.viewComponent:getGroupName()
+				groupName = uv0.viewComponent:getGroupName(),
+				isShowAllDesign = uv0.viewComponent.isShowAllDesign
 			}
 		}))
 	end)

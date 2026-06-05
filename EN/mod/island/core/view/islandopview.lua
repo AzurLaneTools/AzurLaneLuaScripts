@@ -34,6 +34,7 @@ slot0.OnInit = function(slot0, slot1)
 		slot0.opBtn:Find("fellCollect"),
 		slot0.opBtn:Find("fishing")
 	}
+	slot0.morphBtn = slot0.opPanel:Find("morph")
 	slot0.seedBtn = slot0.opPanel:Find("seed")
 	slot0.seedEmpty = slot0.seedBtn:Find("seedEmpty")
 	slot0.areaChangeBtn = slot0.opPanel:Find("scope")
@@ -47,6 +48,7 @@ slot0.OnInit = function(slot0, slot1)
 	slot0.lureIconTr = slot0.lureBtn:Find("icon")
 	slot0.lureIconTxt = slot0.lureBtn:Find("icon/count"):GetComponent(typeof(Text))
 	slot0.animationOpEffectCounter = {}
+	slot0.morphing = false
 	slot0.uiFollowerPanel = slot0.followerBtn:Find("list")
 	slot0.uiFollowerList = UIItemList.New(slot0.uiFollowerPanel, slot0.uiFollowerPanel:Find("tpl"))
 
@@ -54,6 +56,9 @@ slot0.OnInit = function(slot0, slot1)
 	setActive(slot0.lureBtn, false)
 	onButton(slot0, slot0.areaChangeBtn, function ()
 		uv0:NotifiyCore(ISLAND_EVT.AREACHANGE)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.morphBtn, function ()
+		uv0:OnMorphBtnClick()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.animationOpBtn, function ()
 		uv0:NotifiyCore(ISLAND_EVT.OPEN_ANIMATION_OP)
@@ -77,6 +82,162 @@ slot0.OnInit = function(slot0, slot1)
 	slot0:UpdateFollowBtn()
 	slot0:UpdateAnimationOpBtn()
 	slot0:UpdateLureBtn()
+	slot0:UpdateMorphBtn()
+end
+
+slot0.GetMorphBodyIds = function(slot0)
+	if not getProxy(IslandProxy):GetIsland() then
+		return 0, 0
+	end
+
+	if not slot1:GetDressUpAgency() then
+		return 0, 0
+	end
+
+	if (slot2:GetDressByType(IslandShipDressHelperNew.DressType.Body) or 0) == 0 then
+		return 0, 0
+	end
+
+	return slot3, slot2:GetMorphTargetId(slot3) or 0
+end
+
+slot0.CanShowMorphBtn = function(slot0)
+	slot1, slot2 = slot0:GetMorphBodyIds()
+
+	return slot0:IsSelfIsland() and slot2 ~= 0
+end
+
+slot0.IsPlayerIdleForMorph = function(slot0)
+	if not slot0:GetView().player then
+		return false
+	end
+
+	if slot0.morphing then
+		return false
+	end
+
+	if slot1.cantMove then
+		return false
+	end
+
+	if slot1.isNavigating then
+		return false
+	end
+
+	if slot1.targetSpeed and not Mathf.Approximately(slot1.targetSpeed, 0) then
+		return false
+	end
+
+	if slot1.OnGrouded and not slot1:OnGrouded() then
+		return false
+	end
+
+	if slot1.GetAnimator and slot1:GetAnimator() or slot1.animator then
+		slot3 = slot2:GetCurrentAnimatorStateInfo(0)
+
+		if slot2:IsInTransition(0) then
+			return false
+		end
+
+		if _.any(IslandConst.CANT_SWITCH_TO_MOVEMENT_STATES, function (slot0)
+			return uv0:IsName(slot0)
+		end) then
+			return false
+		end
+	end
+
+	return true
+end
+
+slot0.UpdateMorphBtn = function(slot0)
+	if not slot0.morphBtn then
+		return
+	end
+
+	slot1 = slot0:CanShowMorphBtn()
+
+	setActive(slot0.morphBtn, slot1)
+
+	if not slot1 then
+		return
+	end
+
+	slot2 = slot0:IsPlayerIdleForMorph()
+
+	if slot0.morphBtn:GetComponent(typeof(UnityEngine.UI.Button)) then
+		slot3.interactable = slot2
+	end
+
+	slot5 = slot0.morphBtn:Find("icon_gray")
+
+	if slot0.morphBtn:Find("icon_normal") then
+		setActive(slot4, slot2)
+	end
+
+	if slot5 then
+		setActive(slot5, not slot2)
+	end
+end
+
+slot0.StartMorphFreeze = function(slot0)
+	if slot0.morphFreeze then
+		return
+	end
+
+	slot0.morphFreeze = true
+
+	slot0:NotifiyCore(ISLAND_EVT.DISABLE_INPUT)
+	pg.UIMgr.GetInstance():LoadingOn(false)
+end
+
+slot0.StopMorphFreeze = function(slot0)
+	if not slot0.morphFreeze then
+		return
+	end
+
+	slot0.morphFreeze = false
+
+	pg.UIMgr.GetInstance():LoadingOff()
+	slot0:NotifiyCore(ISLAND_EVT.ENABLE_INPUT)
+end
+
+slot0.ResetMorphing = function(slot0)
+	slot0.morphing = false
+	slot0.morphTargetBodyId = nil
+
+	slot0:StopMorphFreeze()
+	slot0:UpdateMorphBtn()
+end
+
+slot0.OnMorphBtnClick = function(slot0)
+	if not slot0:CanShowMorphBtn() then
+		return
+	end
+
+	if not slot0:IsPlayerIdleForMorph() then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("island_morph_not_idle"))
+
+		return
+	end
+
+	slot1, slot2 = slot0:GetMorphBodyIds()
+
+	if slot1 == 0 or slot2 == 0 then
+		return
+	end
+
+	slot0.morphing = true
+	slot0.morphTargetBodyId = slot2
+
+	slot0:StartMorphFreeze()
+	slot0:UpdateMorphBtn()
+	pg.m02:sendNotification(GAME.ISLAND_MORPH_FORM_CHANGE, {
+		fromBodyDressId = slot1,
+		toBodyDressId = slot2,
+		callback = function ()
+			uv0:ResetMorphing()
+		end
+	})
 end
 
 slot0.UpdateLureBtn = function(slot0)
@@ -108,6 +269,11 @@ end
 
 slot0.UpdateAnimationOpBtn = function(slot0)
 	setActive(slot0.animationOpBtn, getProxy(IslandProxy):GetIsland():GetAblityAgency():HasAbility(IslandAblityAgency.ANIMATION_OP_ID))
+end
+
+slot0.Update = function(slot0)
+	uv0.super.Update(slot0)
+	slot0:UpdateMorphBtn()
 end
 
 slot0.UpdateAnimationOpEffect = function(slot0, slot1, slot2)
@@ -515,6 +681,8 @@ slot0.ShowOrHideMoveBtn = function(slot0, slot1, slot2)
 end
 
 slot0.OnDestroy = function(slot0)
+	slot0:StopMorphFreeze()
+
 	if slot0.opUI then
 		slot0:GetPoolMgr():ReturnOpUI(slot0.opUI.gameObject)
 

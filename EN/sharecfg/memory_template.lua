@@ -4102,6 +4102,7 @@ pg.memory_template.all = {
 	5203,
 	5204,
 	5211,
+	5221,
 	10011,
 	10012,
 	10013,
@@ -78228,6 +78229,24 @@ end)()
 			"RUOQIZHIGUANG1"
 		}
 	}
+	pg.base.memory_template[5221] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Guardian Fae of the Mangroves",
+		condition = "开始「红树林的守护精灵」活动",
+		story = "HONGSHULINDESHOUHUJINGLING1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5221,
+		icon = "memory_hongshulindeshouhujingling",
+		is_open = 0,
+		unlock_pre = {
+			"HONGSHULINDESHOUHUJINGLING1"
+		}
+	}
 	pg.base.memory_template[10011] = {
 		ship_group = 0,
 		subtitle = "",
@@ -78246,6 +78265,8 @@ end)()
 			"CHANGDAO1"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[10012] = {
 		ship_group = 0,
 		subtitle = "",
@@ -78264,8 +78285,6 @@ end)()
 			"CHANGDAO2"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[10013] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80048,6 +80067,8 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA44"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20044] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80066,8 +80087,6 @@ end)()
 			"LINGHANGYUANHAOGANDU1"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20045] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81850,6 +81869,8 @@ end)()
 			"LINGYANGZHELAIFANGJISHI7"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20145] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81868,8 +81889,6 @@ end)()
 			"LINGYANGZHELAIFANGJISHI8"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20146] = {
 		ship_group = 0,
 		subtitle = "",

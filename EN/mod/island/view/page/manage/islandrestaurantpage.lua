@@ -508,6 +508,8 @@ slot0.UpdateShipItem = function(slot0, slot1, slot2)
 
 		uv1:OpenPage(IslandShipSelectPage, {
 			showBenefits = true,
+			showType = IslandSelectShipCard.SHOW_TYPE.RESTAURANT,
+			restId = uv1.restId,
 			selectNum = #uv1.assistantsData,
 			selectedIds = Clone(uv1.selectedShipIds),
 			attrType = IslandShipAttr.MANAGE_KEY,

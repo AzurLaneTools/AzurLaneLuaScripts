@@ -382,6 +382,7 @@ slot0.OpenShipSelectPage = function(slot0)
 	slot0:emit(IslandMediator.OPEN_PAGE, "IslandShipSelectPage", {
 		{
 			needWorkSpeed = true,
+			showType = IslandSelectShipCard.SHOW_TYPE.PLACE,
 			attrType = pg.island_production_slot[slot0.slotId].attribute,
 			confirmFunc = function (slot0)
 				uv0:AfterShipSelect(slot0[1])

@@ -5982,7 +5982,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 - META Showdown Overview -
 
-From <color=#92fc63>3/12/26 to 6/4/26</color>, challenge Regensburg META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Regensburg META</color> as well as other great rewards.
+From <color=#92fc63>6/5/2026 to 9/4/2026</color>, challenge Bristol META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Bristol META</color> as well as other great rewards.
 <color=#ff5c5c>Note: Sync Points will expire after the event period ends.</color>
 
 - Acquiring and Analyzing META Coordinates -
@@ -21859,7 +21859,7 @@ _G.pg.base.gametip.meta_help = {
 			info = "Obtainable rewards from accumulating Sync Points can be viewed and claimed on each corresponding META ship's tab in the META Lab. Furthermore, upon obtaining enough Sync Points, you'll be able to recruit a META ship.\n\n"
 		},
 		{
-			info = "From <color=#92fc63>3/12/26 to 6/4/26</color>, challenge Regensburg META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Regensburg META</color> as well as other great rewards.\n\n"
+			info = "From <color=#92fc63>6/5/2026 to 9/4/2026</color>, challenge Bristol META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Bristol META</color> as well as other great rewards.\n\n"
 		},
 		{
 			info = "2. About Rigging Fortification:"
@@ -49583,6 +49583,41 @@ _G.pg.base.gametip.mall_level_max = {
 }
 
 
+_G.pg.base.gametip.equipment_design_chapter = {
+	tip = "War Archives"
+}
+
+
+_G.pg.base.gametip.equipment_design_tech = {
+	tip = "Lab: Research Projects"
+}
+
+
+_G.pg.base.gametip.equipment_design_shop = {
+	tip = "Shop"
+}
+
+
+_G.pg.base.gametip.equipment_design_btn_expand = {
+	tip = "Display"
+}
+
+
+_G.pg.base.gametip.equipment_design_btn_fold = {
+	tip = "Hide"
+}
+
+
+_G.pg.base.gametip.equipment_design_btn_skip = {
+	tip = "Go"
+}
+
+
+_G.pg.base.gametip.equipment_design_sub_title = {
+	tip = "How to Obtain:"
+}
+
+
 _G.pg.base.gametip.mall_staff_position_full_tip = {
 	tip = "Unable to assign; max number of staff has been reached."
 }
@@ -49620,4 +49655,49 @@ _G.pg.base.gametip.littleyunxian_tip2 = {
 
 _G.pg.base.gametip.OutPostCoreActivityUI_subtitle_3 = {
 	tip = "As Lustrous as Lacquer"
+}
+
+
+_G.pg.base.gametip.OutPostCoreActivityUI_subtitle_4 = {
+	tip = "Guardian Fae of the Mangroves"
+}
+
+
+_G.pg.base.gametip.island_dress_tag_twins = {
+	tip = "Dual-Form Skin"
+}
+
+
+_G.pg.base.gametip.island_dress_tag_sp_animator = {
+	tip = "Special Interaction"
+}
+
+
+_G.pg.base.gametip.island_mecha_task_preview = {
+	tip = "Skin Details"
+}
+
+
+_G.pg.base.gametip.island_mecha_task_description = {
+	tip = "Complete the missions unlocked daily until 6/11 to earn the island skin Cores Synced."
+}
+
+
+_G.pg.base.gametip.island_mecha_task_look_all = {
+	tip = "View Details"
+}
+
+
+_G.pg.base.gametip.island_mecha_task_progress = {
+	tip = "Phase: DAY $1/$2"
+}
+
+
+_G.pg.base.gametip.island_mecha_task_lock_tip = {
+	tip = "Unlocks on $1/$2"
+}
+
+
+_G.pg.base.gametip.yearly_sign_in = {
+	tip = "Yearly Logins"
 }

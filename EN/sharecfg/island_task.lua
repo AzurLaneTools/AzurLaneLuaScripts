@@ -449,7 +449,14 @@ pg.island_task.all = {
 	90001010,
 	90001011,
 	90001012,
-	90001020
+	90001020,
+	90002001,
+	90002002,
+	90002003,
+	90002004,
+	90002005,
+	90002006,
+	90002007
 }
 pg.island_task.get_id_list_by_type = {
 	{
@@ -910,7 +917,14 @@ pg.island_task.get_id_list_by_type = {
 		90001010,
 		90001011,
 		90001012,
-		90001020
+		90001020,
+		90002001,
+		90002002,
+		90002003,
+		90002004,
+		90002005,
+		90002006,
+		90002007
 	}
 }
 pg.base = pg.base or {}
@@ -21951,6 +21965,433 @@ end)()
 			{
 				52,
 				4018,
+				1
+			}
+		}
+	}
+	pg.base.island_task[90002001] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "Pet a cat.",
+		type = 9,
+		task_desc = "Pet a cat.",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 90002001,
+		unlock_condition = {},
+		unlock_time = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		link_task = {},
+		target_id = {
+			900020011
+		},
+		reward_show = {
+			{
+				46,
+				1010015,
+				1
+			}
+		}
+	}
+	pg.base.island_task[90002002] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "Collect 30 crops.",
+		type = 9,
+		task_desc = "Collect 30 crops.",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 90002002,
+		unlock_condition = {},
+		unlock_time = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		link_task = {},
+		target_id = {
+			900020021
+		},
+		reward_show = {
+			{
+				41,
+				1,
+				1000
+			}
+		}
+	}
+	pg.base.island_task[90002003] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "Complete 1 Island Request.",
+		type = 9,
+		task_desc = "Complete 1 Island Request.",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 90002003,
+		unlock_condition = {},
+		unlock_time = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		link_task = {},
+		target_id = {
+			900020031
+		},
+		reward_show = {
+			{
+				46,
+				1030014,
+				1
+			}
+		}
+	}
+	pg.base.island_task[90002004] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "Assign a task to any character.",
+		type = 9,
+		task_desc = "Assign a task to any character.",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 90002004,
+		unlock_condition = {},
+		unlock_time = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		link_task = {},
+		target_id = {
+			900020041
+		},
+		reward_show = {
+			{
+				41,
+				1,
+				1000
+			}
+		}
+	}
+	pg.base.island_task[90002005] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "Interact with any character.",
+		type = 9,
+		task_desc = "Interact with any character.",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 90002005,
+		unlock_condition = {},
+		unlock_time = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		link_task = {},
+		target_id = {
+			900020051
+		},
+		reward_show = {
+			{
+				46,
+				1020014,
+				1
+			}
+		}
+	}
+	pg.base.island_task[90002006] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "Complete any Transport Job.",
+		type = 9,
+		task_desc = "Complete any Transport Job.",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 90002006,
+		unlock_condition = {},
+		unlock_time = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		link_task = {},
+		target_id = {
+			900020061
+		},
+		reward_show = {
+			{
+				41,
+				1,
+				1000
+			}
+		}
+	}
+	pg.base.island_task[90002007] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "Collect 3 meals.",
+		type = 9,
+		task_desc = "Collect 3 meals.",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 90002007,
+		unlock_condition = {},
+		unlock_time = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		link_task = {},
+		target_id = {
+			900020071
+		},
+		reward_show = {
+			{
+				46,
+				1060013,
 				1
 			}
 		}

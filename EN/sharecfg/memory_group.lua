@@ -267,6 +267,7 @@ pg.memory_group.all = {
 	365,
 	366,
 	367,
+	368,
 	501,
 	502,
 	503,
@@ -7127,6 +7128,20 @@ end)()
 			5211
 		}
 	}
+	pg.base.memory_group[368] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 50630,
+		title = "Guardian Fae of the Mangroves",
+		auto_unlock = "",
+		subtype = 3,
+		id = 368,
+		group_id = "",
+		memories = {
+			5221
+		}
+	}
 	pg.base.memory_group[501] = {
 		ship_group = 31201,
 		icon = "title_chara_mingshi",
@@ -7930,6 +7945,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[538] = {
 		ship_group = 20220,
 		icon = "title_chara_tianlangxing",
@@ -7952,8 +7969,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[539] = {
 		ship_group = 20502,
 		icon = "title_chara_yanzhan",

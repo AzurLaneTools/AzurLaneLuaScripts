@@ -230,6 +230,7 @@ slot0.AddListeners = function(slot0)
 	slot0:AddListener(ISLAND_EVT.STOP_SPRINT_PLAYER, slot0.OnStopPlayerSprint)
 	slot0:AddListener(ISLAND_EVT.CHANGE_DRESS, slot0.OnChangeDress)
 	slot0:AddListener(ISLAND_EVT.CHANGE_CHARACTER_DRESS, slot0.OnCharacterChangeDress)
+	slot0:AddListener(ISLAND_EVT.MORPH_FORM_CHANGE, slot0.OnMorphFormChange)
 	slot0:AddListener(ISLAND_EVT.RESET_UNIT_POS, slot0.OnResetUnitPos)
 	slot0:AddListener(ISLAND_EVT.RESET_UNIT_ROT, slot0.OnResetUnitRotation)
 	slot0:AddListener(ISLAND_EVT.ANY_PAGE_OPENED, slot0.OnAnyPageOpen)
@@ -336,6 +337,7 @@ slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(ISLAND_EVT.STOP_SPRINT_PLAYER, slot0.OnStopPlayerSprint)
 	slot0:RemoveListener(ISLAND_EVT.CHANGE_DRESS, slot0.OnChangeDress)
 	slot0:RemoveListener(ISLAND_EVT.CHANGE_CHARACTER_DRESS, slot0.OnCharacterChangeDress)
+	slot0:RemoveListener(ISLAND_EVT.MORPH_FORM_CHANGE, slot0.OnMorphFormChange)
 	slot0:RemoveListener(ISLAND_EVT.RESET_UNIT_POS, slot0.OnResetUnitPos)
 	slot0:RemoveListener(ISLAND_EVT.RESET_UNIT_ROT, slot0.OnResetUnitRotation)
 	slot0:RemoveListener(ISLAND_EVT.ANY_PAGE_OPENED, slot0.OnAnyPageOpen)
@@ -1532,6 +1534,32 @@ slot0.OnCharacterChangeDress = function(slot0, slot1, slot2, slot3, slot4)
 			slot12:OnCharacterChangeDress(slot2, slot3, slot4)
 		end
 	end
+end
+
+slot0.OnMorphFormChange = function(slot0, slot1, slot2, slot3, slot4, slot5)
+	if not slot0:GetPlayerUnitModule(slot0.player.id) then
+		existCall(slot5)
+
+		return
+	end
+
+	if not slot6.shipDressHelper then
+		existCall(slot5)
+
+		return
+	end
+
+	slot6:PlayAnimation(slot4, 0.25, function ()
+		uv0:ChangeDressByType(IslandShipDressHelperNew.DressType.Body, {
+			colorId = 0,
+			id = uv1
+		})
+		uv0:ChangeDressByType(IslandShipDressHelperNew.DressType.Hat, {
+			colorId = 0,
+			id = uv2
+		})
+		existCall(uv3)
+	end)
 end
 
 slot0.OnStartDelegation = function(slot0, slot1, slot2)

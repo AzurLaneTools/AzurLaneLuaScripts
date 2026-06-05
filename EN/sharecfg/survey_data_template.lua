@@ -13,7 +13,8 @@ pg.survey_data_template.all = {
 	1008,
 	1009,
 	1010,
-	1011
+	1011,
+	1013
 }
 pg.base = pg.base or {}
 pg.base.survey_data_template = {}
@@ -196,6 +197,23 @@ pg.base.survey_data_template = {}
 		id = 1011,
 		name = "26226问卷",
 		main_activity = "350052922",
+		ios_activity = "252629969",
+		uo_activity = "252629896",
+		bonus = {
+			{
+				2,
+				20001,
+				5
+			}
+		}
+	}
+	pg.base.survey_data_template[1013] = {
+		ios_url = "https://usersurvey.wjx.cn/vm/wFx2bAQ.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
+		uo_url = "https://usersurvey.wjx.cn/vm/twi78ax.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
+		main_url = "https://survey.yostar.net/vm/m6X8Lfd.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
+		id = 1013,
+		name = "260605问卷",
+		main_activity = "365863051",
 		ios_activity = "252629969",
 		uo_activity = "252629896",
 		bonus = {

@@ -1209,11 +1209,6 @@ end)()
 	pg.base.activity_const.ISLAND_BAR_TASK_ACT_ID = {
 		act_id = 990015
 	}
-	pg.base.activity_const.OUT_POST_OMEN_TASKS = {
-		act_id = 51011
-	}
-end)()
-(function ()
 	pg.base.activity_const.MALL_MAIN_ACTIVITY_ID = {
 		act_id = 50619
 	}

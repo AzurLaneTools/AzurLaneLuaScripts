@@ -4526,26446 +4526,26510 @@ cs.gametip = {
 	},
 	world_boss_help_meta = {
 		153315,
-		3229
+		3226
 	},
 	world_close = {
-		156544,
+		156541,
 		120
 	},
 	world_catsearch_success = {
-		156664,
+		156661,
 		139
 	},
 	world_catsearch_stop = {
-		156803,
+		156800,
 		236
 	},
 	world_catsearch_fleetcheck = {
-		157039,
+		157036,
 		240
 	},
 	world_catsearch_leavemap = {
-		157279,
+		157276,
 		242
 	},
 	world_catsearch_help_1 = {
-		157521,
+		157518,
 		315
 	},
 	world_catsearch_help_2 = {
-		157836,
+		157833,
 		105
 	},
 	world_catsearch_help_3 = {
-		157941,
+		157938,
 		278
 	},
 	world_catsearch_help_4 = {
-		158219,
+		158216,
 		100
 	},
 	world_catsearch_help_5 = {
-		158319,
+		158316,
 		144
 	},
 	world_catsearch_help_6 = {
-		158463,
+		158460,
 		125
 	},
 	world_level_prefix = {
-		158588,
+		158585,
 		87
 	},
 	world_map_level = {
-		158675,
+		158672,
 		232
 	},
 	world_movelimit_event_text = {
-		158907,
+		158904,
 		158
 	},
 	world_mapbuff_tip = {
-		159065,
+		159062,
 		127
 	},
 	world_sametask_tip = {
-		159192,
+		159189,
 		152
 	},
 	world_expedition_reward_display = {
-		159344,
+		159341,
 		102
 	},
 	world_expedition_reward_display2 = {
-		159446,
+		159443,
 		102
 	},
 	world_complete_item_tip = {
-		159548,
+		159545,
 		167
 	},
 	task_notfound_error = {
-		159715,
+		159712,
 		149
 	},
 	task_submitTask_error = {
-		159864,
+		159861,
 		111
 	},
 	task_submitTask_error_client = {
-		159975,
+		159972,
 		118
 	},
 	task_submitTask_error_notFinish = {
-		160093,
+		160090,
 		136
 	},
 	task_taskMediator_getItem = {
-		160229,
+		160226,
 		158
 	},
 	task_taskMediator_getResource = {
-		160387,
+		160384,
 		166
 	},
 	task_taskMediator_getEquip = {
-		160553,
+		160550,
 		158
 	},
 	task_target_chapter_in_progress = {
-		160711,
+		160708,
 		178
 	},
 	task_level_notenough = {
-		160889,
+		160886,
 		119
 	},
 	loading_tip_ShaderMgr = {
-		161008,
+		161005,
 		105
 	},
 	loading_tip_FontMgr = {
-		161113,
+		161110,
 		100
 	},
 	loading_tip_TipsMgr = {
-		161213,
+		161210,
 		102
 	},
 	loading_tip_MsgboxMgr = {
-		161315,
+		161312,
 		103
 	},
 	loading_tip_GuideMgr = {
-		161418,
+		161415,
 		111
 	},
 	loading_tip_PoolMgr = {
-		161529,
+		161526,
 		98
 	},
 	loading_tip_FModMgr = {
-		161627,
+		161624,
 		98
 	},
 	loading_tip_StoryMgr = {
-		161725,
+		161722,
 		102
 	},
 	energy_desc_happy = {
-		161827,
+		161824,
 		136
 	},
 	energy_desc_normal = {
-		161963,
+		161960,
 		148
 	},
 	energy_desc_tired = {
-		162111,
+		162108,
 		139
 	},
 	energy_desc_angry = {
-		162250,
+		162247,
 		121
 	},
 	create_player_success = {
-		162371,
+		162368,
 		103
 	},
 	login_newPlayerScene_invalideName = {
-		162474,
+		162471,
 		141
 	},
 	login_newPlayerScene_name_tooShort = {
-		162615,
+		162612,
 		116
 	},
 	login_newPlayerScene_name_existOtherChar = {
-		162731,
+		162728,
 		140
 	},
 	login_newPlayerScene_name_tooLong = {
-		162871,
+		162868,
 		114
 	},
 	equipment_updateGrade_tip = {
-		162985,
+		162982,
 		143
 	},
 	equipment_upgrade_ok = {
-		163128,
+		163125,
 		98
 	},
 	equipment_cant_upgrade = {
-		163226,
+		163223,
 		113
 	},
 	equipment_upgrade_erro = {
-		163339,
+		163336,
 		111
 	},
 	collection_nostar = {
-		163450,
+		163447,
 		98
 	},
 	collection_getResource_error = {
-		163548,
+		163545,
 		119
 	},
 	collection_hadAward = {
-		163667,
+		163664,
 		109
 	},
 	collection_lock = {
-		163776,
+		163773,
 		85
 	},
 	collection_fetched = {
-		163861,
+		163858,
 		114
 	},
 	buyProp_noResource_error = {
-		163975,
+		163972,
 		137
 	},
 	refresh_shopStreet_ok = {
-		164112,
+		164109,
 		109
 	},
 	refresh_shopStreet_erro = {
-		164221,
+		164218,
 		114
 	},
 	shopStreet_upgrade_done = {
-		164335,
+		164332,
 		103
 	},
 	shopStreet_refresh_max_count = {
-		164438,
+		164435,
 		122
 	},
 	buy_countLimit = {
-		164560,
+		164557,
 		105
 	},
 	buy_item_quest = {
-		164665,
+		164662,
 		117
 	},
 	refresh_shopStreet_question = {
-		164782,
+		164779,
 		276
 	},
 	quota_shop_title = {
-		165058,
+		165055,
 		96
 	},
 	quota_shop_description = {
-		165154,
+		165151,
 		183
 	},
 	quota_shop_owned = {
-		165337,
+		165334,
 		85
 	},
 	quota_shop_good_limit = {
-		165422,
+		165419,
 		98
 	},
 	quota_shop_limit_error = {
-		165520,
+		165517,
 		145
 	},
 	item_assigned_type_limit_error = {
-		165665,
+		165662,
 		153
 	},
 	event_start_success = {
-		165818,
+		165815,
 		104
 	},
 	event_start_fail = {
-		165922,
+		165919,
 		107
 	},
 	event_finish_success = {
-		166029,
+		166026,
 		104
 	},
 	event_finish_fail = {
-		166133,
+		166130,
 		111
 	},
 	event_giveup_success = {
-		166244,
+		166241,
 		114
 	},
 	event_giveup_fail = {
-		166358,
+		166355,
 		110
 	},
 	event_flush_success = {
-		166468,
+		166465,
 		107
 	},
 	event_flush_fail = {
-		166575,
+		166572,
 		107
 	},
 	event_flush_not_enough = {
-		166682,
+		166679,
 		110
 	},
 	event_start = {
-		166792,
+		166789,
 		80
 	},
 	event_finish = {
-		166872,
+		166869,
 		84
 	},
 	event_giveup = {
-		166956,
+		166953,
 		82
 	},
 	event_minimus_ship_numbers = {
-		167038,
+		167035,
 		184
 	},
 	event_confirm_giveup = {
-		167222,
+		167219,
 		131
 	},
 	event_confirm_flush = {
-		167353,
+		167350,
 		172
 	},
 	event_fleet_busy = {
-		167525,
+		167522,
 		146
 	},
 	event_same_type_not_allowed = {
-		167671,
+		167668,
 		127
 	},
 	event_condition_ship_level = {
-		167798,
+		167795,
 		165
 	},
 	event_condition_ship_count = {
-		167963,
+		167960,
 		145
 	},
 	event_condition_ship_type = {
-		168108,
+		168105,
 		119
 	},
 	event_level_unreached = {
-		168227,
+		168224,
 		108
 	},
 	event_type_unreached = {
-		168335,
+		168332,
 		119
 	},
 	event_oil_consume = {
-		168454,
+		168451,
 		168
 	},
 	event_type_unlimit = {
-		168622,
+		168619,
 		90
 	},
 	dailyLevel_restCount_notEnough = {
-		168712,
+		168709,
 		133
 	},
 	dailyLevel_unopened = {
-		168845,
+		168842,
 		91
 	},
 	dailyLevel_opened = {
-		168936,
+		168933,
 		85
 	},
 	dailyLevel_bonus_activity = {
-		169021,
+		169018,
 		102
 	},
 	playerinfo_ship_is_already_flagship = {
-		169123,
+		169120,
 		128
 	},
 	playerinfo_mask_word = {
-		169251,
+		169248,
 		107
 	},
 	just_now = {
-		169358,
+		169355,
 		80
 	},
 	several_minutes_before = {
-		169438,
+		169435,
 		116
 	},
 	several_hours_before = {
-		169554,
+		169551,
 		115
 	},
 	several_days_before = {
-		169669,
+		169666,
 		113
 	},
 	long_time_offline = {
-		169782,
+		169779,
 		89
 	},
 	dont_send_message_frequently = {
-		169871,
+		169868,
 		114
 	},
 	no_activity = {
-		169985,
+		169982,
 		95
 	},
 	which_day = {
-		170080,
+		170077,
 		102
 	},
 	which_day_2 = {
-		170182,
+		170179,
 		81
 	},
 	invalidate_evaluation = {
-		170263,
+		170260,
 		118
 	},
 	chapter_no = {
-		170381,
+		170378,
 		107
 	},
 	reconnect_tip = {
-		170488,
+		170485,
 		123
 	},
 	like_ship_success = {
-		170611,
+		170608,
 		97
 	},
 	eva_ship_success = {
-		170708,
+		170705,
 		98
 	},
 	zan_ship_eva_success = {
-		170806,
+		170803,
 		100
 	},
 	zan_ship_eva_error_7 = {
-		170906,
+		170903,
 		121
 	},
 	eva_count_limit = {
-		171027,
+		171024,
 		119
 	},
 	attribute_durability = {
-		171146,
+		171143,
 		86
 	},
 	attribute_cannon = {
-		171232,
+		171229,
 		83
 	},
 	attribute_torpedo = {
-		171315,
+		171312,
 		85
 	},
 	attribute_antiaircraft = {
-		171400,
+		171397,
 		89
 	},
 	attribute_air = {
-		171489,
+		171486,
 		81
 	},
 	attribute_reload = {
-		171570,
+		171567,
 		84
 	},
 	attribute_cd = {
-		171654,
+		171651,
 		79
 	},
 	attribute_armor_type = {
-		171733,
+		171730,
 		94
 	},
 	attribute_armor = {
-		171827,
+		171824,
 		84
 	},
 	attribute_hit = {
-		171911,
+		171908,
 		80
 	},
 	attribute_speed = {
-		171991,
+		171988,
 		84
 	},
 	attribute_luck = {
-		172075,
+		172072,
 		82
 	},
 	attribute_dodge = {
-		172157,
+		172154,
 		83
 	},
 	attribute_expend = {
-		172240,
+		172237,
 		84
 	},
 	attribute_damage = {
-		172324,
+		172321,
 		83
 	},
 	attribute_healthy = {
-		172407,
+		172404,
 		88
 	},
 	attribute_speciality = {
-		172495,
+		172492,
 		91
 	},
 	attribute_range = {
-		172586,
+		172583,
 		84
 	},
 	attribute_angle = {
-		172670,
+		172667,
 		91
 	},
 	attribute_scatter = {
-		172761,
+		172758,
 		93
 	},
 	attribute_ammo = {
-		172854,
+		172851,
 		82
 	},
 	attribute_antisub = {
-		172936,
+		172933,
 		85
 	},
 	attribute_sonarRange = {
-		173021,
+		173018,
 		88
 	},
 	attribute_sonarInterval = {
-		173109,
+		173106,
 		92
 	},
 	attribute_oxy_max = {
-		173201,
+		173198,
 		85
 	},
 	attribute_dodge_limit = {
-		173286,
+		173283,
 		99
 	},
 	attribute_intimacy = {
-		173385,
+		173382,
 		90
 	},
 	attribute_max_distance_damage = {
-		173475,
+		173472,
 		111
 	},
 	attribute_anti_siren = {
-		173586,
+		173583,
 		101
 	},
 	attribute_add_new = {
-		173687,
+		173684,
 		85
 	},
 	skill = {
-		173772,
+		173769,
 		75
 	},
 	cd_normal = {
-		173847,
+		173844,
 		75
 	},
 	intensify = {
-		173922,
+		173919,
 		80
 	},
 	change = {
-		174002,
+		173999,
 		76
 	},
 	formation_switch_failed = {
-		174078,
+		174075,
 		111
 	},
 	formation_switch_success = {
-		174189,
+		174186,
 		102
 	},
 	formation_switch_tip = {
-		174291,
+		174288,
 		161
 	},
 	formation_reform_tip = {
-		174452,
+		174449,
 		145
 	},
 	formation_invalide = {
-		174597,
+		174594,
 		120
 	},
 	chapter_ap_not_enough = {
-		174717,
+		174714,
 		110
 	},
 	formation_forbid_when_in_chapter = {
-		174827,
+		174824,
 		159
 	},
 	military_forbid_when_in_chapter = {
-		174986,
+		174983,
 		158
 	},
 	confirm_app_exit = {
-		175144,
+		175141,
 		119
 	},
 	friend_info_page_tip = {
-		175263,
+		175260,
 		109
 	},
 	friend_search_page_tip = {
-		175372,
+		175369,
 		135
 	},
 	friend_request_page_tip = {
-		175507,
+		175504,
 		152
 	},
 	friend_id_copy_ok = {
-		175659,
+		175656,
 		106
 	},
 	friend_inpout_key_tip = {
-		175765,
+		175762,
 		106
 	},
 	remove_friend_tip = {
-		175871,
+		175868,
 		126
 	},
 	friend_request_msg_placeholder = {
-		175997,
+		175994,
 		109
 	},
 	friend_request_msg_title = {
-		176106,
+		176103,
 		105
 	},
 	friend_max_count = {
-		176211,
+		176208,
 		147
 	},
 	friend_add_ok = {
-		176358,
+		176355,
 		90
 	},
 	friend_max_count_1 = {
-		176448,
+		176445,
 		117
 	},
 	friend_no_request = {
-		176565,
+		176562,
 		99
 	},
 	reject_all_friend_ok = {
-		176664,
+		176661,
 		113
 	},
 	reject_friend_ok = {
-		176777,
+		176774,
 		104
 	},
 	friend_offline = {
-		176881,
+		176878,
 		96
 	},
 	friend_msg_forbid = {
-		176977,
+		176974,
 		151
 	},
 	dont_add_self = {
-		177128,
+		177125,
 		114
 	},
 	friend_already_add = {
-		177242,
+		177239,
 		122
 	},
 	friend_not_add = {
-		177364,
+		177361,
 		114
 	},
 	friend_send_msg_erro_tip = {
-		177478,
+		177475,
 		131
 	},
 	friend_send_msg_null_tip = {
-		177609,
+		177606,
 		111
 	},
 	friend_search_succeed = {
-		177720,
+		177717,
 		101
 	},
 	friend_request_msg_sent = {
-		177821,
+		177818,
 		100
 	},
 	friend_resume_ship_count = {
-		177921,
+		177918,
 		100
 	},
 	friend_resume_title_metal = {
-		178021,
+		178018,
 		103
 	},
 	friend_resume_collection_rate = {
-		178124,
+		178121,
 		104
 	},
 	friend_resume_attack_count = {
-		178228,
+		178225,
 		99
 	},
 	friend_resume_attack_win_rate = {
-		178327,
+		178324,
 		100
 	},
 	friend_resume_manoeuvre_count = {
-		178427,
+		178424,
 		104
 	},
 	friend_resume_manoeuvre_win_rate = {
-		178531,
+		178528,
 		104
 	},
 	friend_resume_fleet_gs = {
-		178635,
+		178632,
 		98
 	},
 	friend_event_count = {
-		178733,
+		178730,
 		95
 	},
 	firend_relieve_blacklist_ok = {
-		178828,
+		178825,
 		99
 	},
 	firend_relieve_blacklist_tip = {
-		178927,
+		178924,
 		148
 	},
 	word_shipNation_all = {
-		179075,
+		179072,
 		95
 	},
 	word_shipNation_baiYing = {
-		179170,
+		179167,
 		98
 	},
 	word_shipNation_huangJia = {
-		179268,
+		179265,
 		98
 	},
 	word_shipNation_chongYing = {
-		179366,
+		179363,
 		102
 	},
 	word_shipNation_tieXue = {
-		179468,
+		179465,
 		96
 	},
 	word_shipNation_dongHuang = {
-		179564,
+		179561,
 		102
 	},
 	word_shipNation_saDing = {
-		179666,
+		179663,
 		103
 	},
 	word_shipNation_beiLian = {
-		179769,
+		179766,
 		106
 	},
 	word_shipNation_other = {
-		179875,
+		179872,
 		89
 	},
 	word_shipNation_np = {
-		179964,
+		179961,
 		89
 	},
 	word_shipNation_ziyou = {
-		180053,
+		180050,
 		95
 	},
 	word_shipNation_weixi = {
-		180148,
+		180145,
 		100
 	},
 	word_shipNation_yuanwei = {
-		180248,
+		180245,
 		101
 	},
 	word_shipNation_bili = {
-		180349,
+		180346,
 		96
 	},
 	word_shipNation_um = {
-		180445,
+		180442,
 		96
 	},
 	word_shipNation_ai = {
-		180541,
+		180538,
 		90
 	},
 	word_shipNation_holo = {
-		180631,
+		180628,
 		92
 	},
 	word_shipNation_doa = {
-		180723,
+		180720,
 		98
 	},
 	word_shipNation_imas = {
-		180821,
+		180818,
 		99
 	},
 	word_shipNation_link = {
-		180920,
+		180917,
 		91
 	},
 	word_shipNation_ssss = {
-		181011,
+		181008,
 		88
 	},
 	word_shipNation_mot = {
-		181099,
+		181096,
 		91
 	},
 	word_shipNation_ryza = {
-		181190,
+		181187,
 		96
 	},
 	word_shipNation_meta_index = {
-		181286,
+		181283,
 		94
 	},
 	word_shipNation_senran = {
-		181380,
+		181377,
 		99
 	},
 	word_shipNation_tolove = {
-		181479,
+		181476,
 		96
 	},
 	word_shipNation_yujinwangguo = {
-		181575,
+		181572,
 		98
 	},
 	word_shipNation_brs = {
-		181673,
+		181670,
 		103
 	},
 	word_shipNation_yumia = {
-		181776,
+		181773,
 		98
 	},
 	word_shipNation_danmachi = {
-		181874,
+		181871,
 		96
 	},
 	word_shipNation_dal = {
-		181970,
+		181967,
 		94
 	},
 	word_reset = {
-		182064,
+		182061,
 		79
 	},
 	word_asc = {
-		182143,
+		182140,
 		81
 	},
 	word_desc = {
-		182224,
+		182221,
 		83
 	},
 	word_own = {
-		182307,
+		182304,
 		78
 	},
 	word_own1 = {
-		182385,
+		182382,
 		79
 	},
 	oil_buy_limit_tip = {
-		182464,
+		182461,
 		150
 	},
 	friend_resume_title = {
-		182614,
+		182611,
 		89
 	},
 	friend_resume_data_title = {
-		182703,
+		182700,
 		92
 	},
 	batch_destroy = {
-		182795,
+		182792,
 		90
 	},
 	equipment_select_device_destroy_tip = {
-		182885,
+		182882,
 		123
 	},
 	equipment_select_device_destroy_bonus_tip = {
-		183008,
+		183005,
 		120
 	},
 	equipment_select_device_destroy_nobonus_tip = {
-		183128,
+		183125,
 		119
 	},
 	ship_equip_profiiency = {
-		183247,
+		183244,
 		100
 	},
 	no_open_system_tip = {
-		183347,
+		183344,
 		165
 	},
 	open_system_tip = {
-		183512,
+		183509,
 		98
 	},
 	charge_start_tip = {
-		183610,
+		183607,
 		102
 	},
 	charge_double_gem_tip = {
-		183712,
+		183709,
 		104
 	},
 	charge_month_card_lefttime_tip = {
-		183816,
+		183813,
 		122
 	},
 	charge_title = {
-		183938,
+		183935,
 		98
 	},
 	charge_extra_gem_tip = {
-		184036,
+		184033,
 		103
 	},
 	charge_month_card_title = {
-		184139,
+		184136,
 		143
 	},
 	charge_items_title = {
-		184282,
+		184279,
 		96
 	},
 	setting_interface_save_success = {
-		184378,
+		184375,
 		116
 	},
 	setting_interface_revert_check = {
-		184494,
+		184491,
 		148
 	},
 	setting_interface_cancel_check = {
-		184642,
+		184639,
 		115
 	},
 	event_special_update = {
-		184757,
+		184754,
 		106
 	},
 	no_notice_tip = {
-		184863,
+		184860,
 		116
 	},
 	energy_desc_1 = {
-		184979,
+		184976,
 		165
 	},
 	energy_desc_2 = {
-		185144,
+		185141,
 		134
 	},
 	energy_desc_3 = {
-		185278,
+		185275,
 		115
 	},
 	energy_desc_4 = {
-		185393,
+		185390,
 		148
 	},
 	intimacy_desc_1 = {
-		185541,
+		185538,
 		100
 	},
 	intimacy_desc_2 = {
-		185641,
+		185638,
 		107
 	},
 	intimacy_desc_3 = {
-		185748,
+		185745,
 		120
 	},
 	intimacy_desc_4 = {
-		185868,
+		185865,
 		124
 	},
 	intimacy_desc_5 = {
-		185992,
+		185989,
 		118
 	},
 	intimacy_desc_6 = {
-		186110,
+		186107,
 		120
 	},
 	intimacy_desc_7 = {
-		186230,
+		186227,
 		120
 	},
 	intimacy_desc_1_buff = {
-		186350,
+		186347,
 		102
 	},
 	intimacy_desc_2_buff = {
-		186452,
+		186449,
 		102
 	},
 	intimacy_desc_3_buff = {
-		186554,
+		186551,
 		141
 	},
 	intimacy_desc_4_buff = {
-		186695,
+		186692,
 		141
 	},
 	intimacy_desc_5_buff = {
-		186836,
+		186833,
 		141
 	},
 	intimacy_desc_6_buff = {
-		186977,
+		186974,
 		141
 	},
 	intimacy_desc_7_buff = {
-		187118,
+		187115,
 		142
 	},
 	intimacy_desc_propose = {
-		187260,
+		187257,
 		323
 	},
 	intimacy_desc_1_detail = {
-		187583,
+		187580,
 		157
 	},
 	intimacy_desc_2_detail = {
-		187740,
+		187737,
 		164
 	},
 	intimacy_desc_3_detail = {
-		187904,
+		187901,
 		196
 	},
 	intimacy_desc_4_detail = {
-		188100,
+		188097,
 		200
 	},
 	intimacy_desc_5_detail = {
-		188300,
+		188297,
 		194
 	},
 	intimacy_desc_6_detail = {
-		188494,
+		188491,
 		324
 	},
 	intimacy_desc_7_detail = {
-		188818,
+		188815,
 		324
 	},
 	intimacy_desc_ring = {
-		189142,
+		189139,
 		96
 	},
 	intimacy_desc_tiara = {
-		189238,
+		189235,
 		96
 	},
 	intimacy_desc_day = {
-		189334,
+		189331,
 		81
 	},
 	word_propose_cost_tip1 = {
-		189415,
+		189412,
 		340
 	},
 	word_propose_cost_tip2 = {
-		189755,
+		189752,
 		318
 	},
 	word_propose_tiara_tip = {
-		190073,
+		190070,
 		153
 	},
 	charge_title_getitem = {
-		190226,
+		190223,
 		117
 	},
 	charge_title_getitem_soon = {
-		190343,
+		190340,
 		113
 	},
 	charge_title_getitem_month = {
-		190456,
+		190453,
 		120
 	},
 	charge_limit_all = {
-		190576,
+		190573,
 		96
 	},
 	charge_limit_daily = {
-		190672,
+		190669,
 		101
 	},
 	charge_limit_weekly = {
-		190773,
+		190770,
 		106
 	},
 	charge_limit_monthly = {
-		190879,
+		190876,
 		108
 	},
 	charge_error = {
-		190987,
+		190984,
 		92
 	},
 	charge_success = {
-		191079,
+		191076,
 		89
 	},
 	charge_level_limit = {
-		191168,
+		191165,
 		99
 	},
 	ship_drop_desc_default = {
-		191267,
+		191264,
 		101
 	},
 	charge_limit_lv = {
-		191368,
+		191365,
 		93
 	},
 	charge_time_out = {
-		191461,
+		191458,
 		144
 	},
 	help_shipinfo_equip = {
-		191605,
+		191602,
 		628
 	},
 	help_shipinfo_detail = {
-		192233,
+		192230,
 		679
 	},
 	help_shipinfo_intensify = {
-		192912,
+		192909,
 		632
 	},
 	help_shipinfo_upgrate = {
-		193544,
+		193541,
 		630
 	},
 	help_shipinfo_maxlevel = {
-		194174,
+		194171,
 		631
 	},
 	help_shipinfo_actnpc = {
-		194805,
+		194802,
 		1323
 	},
 	help_backyard = {
-		196128,
+		196125,
 		590
 	},
 	help_shipinfo_fashion = {
-		196718,
+		196715,
 		168
 	},
 	help_shipinfo_attr = {
-		196886,
+		196883,
 		3957
 	},
 	help_equipment = {
-		200843,
+		200840,
 		1884
 	},
 	help_equipment_skin = {
-		202727,
+		202724,
 		912
 	},
 	help_daily_task = {
-		203639,
+		203636,
 		3705
 	},
 	help_build = {
-		207344,
+		207341,
 		281
 	},
 	help_build_1 = {
-		207625,
+		207622,
 		551
 	},
 	help_build_2 = {
-		208176,
+		208173,
 		283
 	},
 	help_build_4 = {
-		208459,
+		208456,
 		573
 	},
 	help_build_5 = {
-		209032,
+		209029,
 		792
 	},
 	help_shipinfo_hunting = {
-		209824,
+		209821,
 		1244
 	},
 	shop_extendship_success = {
-		211068,
+		211065,
 		101
 	},
 	shop_extendequip_success = {
-		211169,
+		211166,
 		110
 	},
 	shop_spweapon_success = {
-		211279,
+		211276,
 		137
 	},
 	naval_academy_res_desc_cateen = {
-		211416,
+		211413,
 		240
 	},
 	naval_academy_res_desc_shop = {
-		211656,
+		211653,
 		211
 	},
 	naval_academy_res_desc_class = {
-		211867,
+		211864,
 		270
 	},
 	number_1 = {
-		212137,
+		212134,
 		73
 	},
 	number_2 = {
-		212210,
+		212207,
 		73
 	},
 	number_3 = {
-		212283,
+		212280,
 		73
 	},
 	number_4 = {
-		212356,
+		212353,
 		73
 	},
 	number_5 = {
-		212429,
+		212426,
 		73
 	},
 	number_6 = {
-		212502,
+		212499,
 		73
 	},
 	number_7 = {
-		212575,
+		212572,
 		73
 	},
 	number_8 = {
-		212648,
+		212645,
 		73
 	},
 	number_9 = {
-		212721,
+		212718,
 		73
 	},
 	number_10 = {
-		212794,
+		212791,
 		75
 	},
 	military_shop_no_open_tip = {
-		212869,
+		212866,
 		188
 	},
 	switch_to_shop_tip_1 = {
-		213057,
+		213054,
 		149
 	},
 	switch_to_shop_tip_2 = {
-		213206,
+		213203,
 		142
 	},
 	switch_to_shop_tip_3 = {
-		213348,
+		213345,
 		127
 	},
 	switch_to_shop_tip_noPos = {
-		213475,
+		213472,
 		123
 	},
 	text_noPos_clear = {
-		213598,
+		213595,
 		84
 	},
 	text_noPos_buy = {
-		213682,
+		213679,
 		84
 	},
 	text_noPos_intensify = {
-		213766,
+		213763,
 		92
 	},
 	switch_to_shop_tip_noDockyard = {
-		213858,
+		213855,
 		125
 	},
 	commission_no_open = {
-		213983,
+		213980,
 		83
 	},
 	commission_open_tip = {
-		214066,
+		214063,
 		107
 	},
 	commission_idle = {
-		214173,
+		214170,
 		86
 	},
 	commission_urgency = {
-		214259,
+		214256,
 		101
 	},
 	commission_normal = {
-		214360,
+		214357,
 		93
 	},
 	commission_get_award = {
-		214453,
+		214450,
 		109
 	},
 	activity_build_end_tip = {
-		214562,
+		214559,
 		127
 	},
 	event_over_time_expired = {
-		214689,
+		214686,
 		106
 	},
 	mail_sender_default = {
-		214795,
+		214792,
 		95
 	},
 	exchangecode_title = {
-		214890,
+		214887,
 		95
 	},
 	exchangecode_use_placeholder = {
-		214985,
+		214982,
 		116
 	},
 	exchangecode_use_ok = {
-		215101,
+		215098,
 		132
 	},
 	exchangecode_use_error = {
-		215233,
+		215230,
 		110
 	},
 	exchangecode_use_error_3 = {
-		215343,
+		215340,
 		105
 	},
 	exchangecode_use_error_6 = {
-		215448,
+		215445,
 		122
 	},
 	exchangecode_use_error_7 = {
-		215570,
+		215567,
 		115
 	},
 	exchangecode_use_error_8 = {
-		215685,
+		215682,
 		108
 	},
 	exchangecode_use_error_9 = {
-		215793,
+		215790,
 		108
 	},
 	exchangecode_use_error_16 = {
-		215901,
+		215898,
 		108
 	},
 	exchangecode_use_error_20 = {
-		216009,
+		216006,
 		109
 	},
 	text_noRes_tip = {
-		216118,
+		216115,
 		92
 	},
 	text_noRes_info_tip = {
-		216210,
+		216207,
 		111
 	},
 	text_noRes_info_tip_link = {
-		216321,
+		216318,
 		93
 	},
 	text_noRes_info_tip2 = {
-		216414,
+		216411,
 		137
 	},
 	text_shop_noRes_tip = {
-		216551,
+		216548,
 		112
 	},
 	text_shop_enoughRes_tip = {
-		216663,
+		216660,
 		128
 	},
 	text_buy_fashion_tip = {
-		216791,
+		216788,
 		108
 	},
 	equip_part_title = {
-		216899,
+		216896,
 		83
 	},
 	equip_part_main_title = {
-		216982,
+		216979,
 		95
 	},
 	equip_part_sub_title = {
-		217077,
+		217074,
 		99
 	},
 	equipment_upgrade_overlimit = {
-		217176,
+		217173,
 		133
 	},
 	err_name_existOtherChar = {
-		217309,
+		217306,
 		117
 	},
 	help_battle_rule = {
-		217426,
+		217423,
 		511
 	},
 	help_battle_warspite = {
-		217937,
+		217934,
 		300
 	},
 	help_battle_defense = {
-		218237,
+		218234,
 		588
 	},
 	backyard_theme_set_tip = {
-		218825,
+		218822,
 		147
 	},
 	backyard_theme_save_tip = {
-		218972,
+		218969,
 		172
 	},
 	backyard_theme_defaultname = {
-		219144,
+		219141,
 		102
 	},
 	backyard_rename_success = {
-		219246,
+		219243,
 		105
 	},
 	ship_set_skin_success = {
-		219351,
+		219348,
 		98
 	},
 	ship_set_skin_error = {
-		219449,
+		219446,
 		107
 	},
 	equip_part_tip = {
-		219556,
+		219553,
 		109
 	},
 	help_battle_auto = {
-		219665,
+		219662,
 		334
 	},
 	gold_buy_tip = {
-		219999,
+		219996,
 		247
 	},
 	oil_buy_tip = {
-		220246,
+		220243,
 		387
 	},
 	text_iknow = {
-		220633,
+		220630,
 		80
 	},
 	help_oil_buy_limit = {
-		220713,
+		220710,
 		299
 	},
 	text_nofood_yes = {
-		221012,
+		221009,
 		88
 	},
 	text_nofood_no = {
-		221100,
+		221097,
 		84
 	},
 	tip_add_task = {
-		221184,
+		221181,
 		91
 	},
 	collection_award_ship = {
-		221275,
+		221272,
 		134
 	},
 	guild_create_sucess = {
-		221409,
+		221406,
 		97
 	},
 	guild_create_error = {
-		221506,
+		221503,
 		105
 	},
 	guild_create_error_noname = {
-		221611,
+		221608,
 		117
 	},
 	guild_create_error_nofaction = {
-		221728,
+		221725,
 		131
 	},
 	guild_create_error_nopolicy = {
-		221859,
+		221856,
 		121
 	},
 	guild_create_error_nomanifesto = {
-		221980,
+		221977,
 		123
 	},
 	guild_create_error_nomoney = {
-		222103,
+		222100,
 		117
 	},
 	guild_tip_dissolve = {
-		222220,
+		222217,
 		347
 	},
 	guild_tip_quit = {
-		222567,
+		222564,
 		119
 	},
 	guild_create_confirm = {
-		222686,
+		222683,
 		144
 	},
 	guild_apply_erro = {
-		222830,
+		222827,
 		113
 	},
 	guild_dissolve_erro = {
-		222943,
+		222940,
 		108
 	},
 	guild_fire_erro = {
-		223051,
+		223048,
 		107
 	},
 	guild_impeach_erro = {
-		223158,
+		223155,
 		114
 	},
 	guild_quit_erro = {
-		223272,
+		223269,
 		101
 	},
 	guild_accept_erro = {
-		223373,
+		223370,
 		110
 	},
 	guild_reject_erro = {
-		223483,
+		223480,
 		110
 	},
 	guild_modify_erro = {
-		223593,
+		223590,
 		103
 	},
 	guild_setduty_erro = {
-		223696,
+		223693,
 		106
 	},
 	guild_apply_sucess = {
-		223802,
+		223799,
 		108
 	},
 	guild_no_exist = {
-		223910,
+		223907,
 		99
 	},
 	guild_dissolve_sucess = {
-		224009,
+		224006,
 		110
 	},
 	guild_commder_in_impeach_time = {
-		224119,
+		224116,
 		126
 	},
 	guild_impeach_sucess = {
-		224245,
+		224242,
 		107
 	},
 	guild_quit_sucess = {
-		224352,
+		224349,
 		105
 	},
 	guild_member_max_count = {
-		224457,
+		224454,
 		104
 	},
 	guild_new_member_join = {
-		224561,
+		224558,
 		119
 	},
 	guild_player_in_cd_time = {
-		224680,
+		224677,
 		185
 	},
 	guild_player_already_join = {
-		224865,
+		224862,
 		123
 	},
 	guild_rejecet_apply_sucess = {
-		224988,
+		224985,
 		111
 	},
 	guild_should_input_keyword = {
-		225099,
+		225096,
 		117
 	},
 	guild_search_sucess = {
-		225216,
+		225213,
 		99
 	},
 	guild_list_refresh_sucess = {
-		225315,
+		225312,
 		123
 	},
 	guild_info_update = {
-		225438,
+		225435,
 		100
 	},
 	guild_duty_id_is_null = {
-		225538,
+		225535,
 		108
 	},
 	guild_player_is_null = {
-		225646,
+		225643,
 		109
 	},
 	guild_duty_commder_max_count = {
-		225755,
+		225752,
 		126
 	},
 	guild_set_duty_sucess = {
-		225881,
+		225878,
 		107
 	},
 	guild_policy_power = {
-		225988,
+		225985,
 		86
 	},
 	guild_policy_relax = {
-		226074,
+		226071,
 		88
 	},
 	guild_faction_blhx = {
-		226162,
+		226159,
 		91
 	},
 	guild_faction_cszz = {
-		226253,
+		226250,
 		94
 	},
 	guild_faction_unknown = {
-		226347,
+		226344,
 		89
 	},
 	guild_faction_meta = {
-		226436,
+		226433,
 		86
 	},
 	guild_word_commder = {
-		226522,
+		226519,
 		89
 	},
 	guild_word_deputy_commder = {
-		226611,
+		226608,
 		101
 	},
 	guild_word_picked = {
-		226712,
+		226709,
 		86
 	},
 	guild_word_ordinary = {
-		226798,
+		226795,
 		89
 	},
 	guild_word_home = {
-		226887,
+		226884,
 		83
 	},
 	guild_word_member = {
-		226970,
+		226967,
 		88
 	},
 	guild_word_apply = {
-		227058,
+		227055,
 		85
 	},
 	guild_faction_change_tip = {
-		227143,
+		227140,
 		197
 	},
 	guild_msg_is_null = {
-		227340,
+		227337,
 		111
 	},
 	guild_log_new_guild_join = {
-		227451,
+		227448,
 		192
 	},
 	guild_log_duty_change = {
-		227643,
+		227640,
 		178
 	},
 	guild_log_quit = {
-		227821,
+		227818,
 		180
 	},
 	guild_log_fire = {
-		228001,
+		227998,
 		187
 	},
 	guild_leave_cd_time = {
-		228188,
+		228185,
 		148
 	},
 	guild_sort_time = {
-		228336,
+		228333,
 		83
 	},
 	guild_sort_level = {
-		228419,
+		228416,
 		83
 	},
 	guild_sort_duty = {
-		228502,
+		228499,
 		83
 	},
 	guild_fire_tip = {
-		228585,
+		228582,
 		120
 	},
 	guild_impeach_tip = {
-		228705,
+		228702,
 		126
 	},
 	guild_set_duty_title = {
-		228831,
+		228828,
 		99
 	},
 	guild_search_list_max_count = {
-		228930,
+		228927,
 		107
 	},
 	guild_sort_all = {
-		229037,
+		229034,
 		81
 	},
 	guild_sort_blhx = {
-		229118,
+		229115,
 		88
 	},
 	guild_sort_cszz = {
-		229206,
+		229203,
 		91
 	},
 	guild_sort_power = {
-		229297,
+		229294,
 		84
 	},
 	guild_sort_relax = {
-		229381,
+		229378,
 		86
 	},
 	guild_join_cd = {
-		229467,
+		229464,
 		142
 	},
 	guild_name_invaild = {
-		229609,
+		229606,
 		110
 	},
 	guild_apply_full = {
-		229719,
+		229716,
 		117
 	},
 	guild_member_full = {
-		229836,
+		229833,
 		101
 	},
 	guild_fire_duty_limit = {
-		229937,
+		229934,
 		142
 	},
 	guild_fire_succeed = {
-		230079,
+		230076,
 		89
 	},
 	guild_duty_tip_1 = {
-		230168,
+		230165,
 		115
 	},
 	guild_duty_tip_2 = {
-		230283,
+		230280,
 		116
 	},
 	battle_repair_special_tip = {
-		230399,
+		230396,
 		168
 	},
 	battle_repair_normal_name = {
-		230567,
+		230564,
 		109
 	},
 	battle_repair_special_name = {
-		230676,
+		230673,
 		111
 	},
 	oil_max_tip_title = {
-		230787,
+		230784,
 		110
 	},
 	gold_max_tip_title = {
-		230897,
+		230894,
 		113
 	},
 	expbook_max_tip_title = {
-		231010,
+		231007,
 		121
 	},
 	resource_max_tip_shop = {
-		231131,
+		231128,
 		108
 	},
 	resource_max_tip_event = {
-		231239,
+		231236,
 		122
 	},
 	resource_max_tip_battle = {
-		231361,
+		231358,
 		162
 	},
 	resource_max_tip_collect = {
-		231523,
+		231520,
 		124
 	},
 	resource_max_tip_mail = {
-		231647,
+		231644,
 		121
 	},
 	resource_max_tip_eventstart = {
-		231768,
+		231765,
 		118
 	},
 	resource_max_tip_destroy = {
-		231886,
+		231883,
 		111
 	},
 	resource_max_tip_retire = {
-		231997,
+		231994,
 		104
 	},
 	resource_max_tip_retire_1 = {
-		232101,
+		232098,
 		163
 	},
 	new_version_tip = {
-		232264,
+		232261,
 		165
 	},
 	guild_request_msg_title = {
-		232429,
+		232426,
 		115
 	},
 	guild_request_msg_placeholder = {
-		232544,
+		232541,
 		147
 	},
 	ship_upgrade_unequip_tip = {
-		232691,
+		232688,
 		223
 	},
 	destination_can_not_reach = {
-		232914,
+		232911,
 		121
 	},
 	destination_can_not_reach_safety = {
-		233035,
+		233032,
 		136
 	},
 	destination_not_in_range = {
-		233171,
+		233168,
 		123
 	},
 	level_ammo_enough = {
-		233294,
+		233291,
 		146
 	},
 	level_ammo_supply = {
-		233440,
+		233437,
 		120
 	},
 	level_ammo_empty = {
-		233560,
+		233557,
 		132
 	},
 	level_ammo_supply_p1 = {
-		233692,
+		233689,
 		108
 	},
 	level_flare_supply = {
-		233800,
+		233797,
 		209
 	},
 	chat_level_not_enough = {
-		234009,
+		234006,
 		136
 	},
 	chat_msg_inform = {
-		234145,
+		234142,
 		143
 	},
 	chat_msg_ban = {
-		234288,
+		234285,
 		182
 	},
 	month_card_set_ratio_success = {
-		234470,
+		234467,
 		115
 	},
 	month_card_set_ratio_not_change = {
-		234585,
+		234582,
 		125
 	},
 	charge_ship_bag_max = {
-		234710,
+		234707,
 		117
 	},
 	charge_equip_bag_max = {
-		234827,
+		234824,
 		121
 	},
 	login_wait_tip = {
-		234948,
+		234945,
 		141
 	},
 	ship_equip_exchange_tip = {
-		235089,
+		235086,
 		189
 	},
 	ship_rename_success = {
-		235278,
+		235275,
 		109
 	},
 	formation_chapter_lock = {
-		235387,
+		235384,
 		122
 	},
 	elite_disable_unsatisfied = {
-		235509,
+		235506,
 		127
 	},
 	elite_disable_ship_escort = {
-		235636,
+		235633,
 		158
 	},
 	elite_disable_formation_unsatisfied = {
-		235794,
+		235791,
 		149
 	},
 	elite_disable_no_fleet = {
-		235943,
+		235940,
 		135
 	},
 	elite_disable_property_unsatisfied = {
-		236078,
+		236075,
 		146
 	},
 	elite_disable_unusable = {
-		236224,
+		236221,
 		131
 	},
 	elite_warp_to_latest_map = {
-		236355,
+		236352,
 		111
 	},
 	elite_fleet_confirm = {
-		236466,
+		236463,
 		189
 	},
 	elite_condition_level = {
-		236655,
+		236652,
 		98
 	},
 	elite_condition_durability = {
-		236753,
+		236750,
 		98
 	},
 	elite_condition_cannon = {
-		236851,
+		236848,
 		94
 	},
 	elite_condition_torpedo = {
-		236945,
+		236942,
 		96
 	},
 	elite_condition_antiaircraft = {
-		237041,
+		237038,
 		100
 	},
 	elite_condition_air = {
-		237141,
+		237138,
 		92
 	},
 	elite_condition_antisub = {
-		237233,
+		237230,
 		96
 	},
 	elite_condition_dodge = {
-		237329,
+		237326,
 		94
 	},
 	elite_condition_reload = {
-		237423,
+		237420,
 		95
 	},
 	elite_condition_fleet_totle_level = {
-		237518,
+		237515,
 		134
 	},
 	common_compare_larger = {
-		237652,
+		237649,
 		86
 	},
 	common_compare_equal = {
-		237738,
+		237735,
 		85
 	},
 	common_compare_smaller = {
-		237823,
+		237820,
 		87
 	},
 	common_compare_not_less_than = {
-		237910,
+		237907,
 		95
 	},
 	common_compare_not_more_than = {
-		238005,
+		238002,
 		95
 	},
 	level_scene_formation_active_already = {
-		238100,
+		238097,
 		133
 	},
 	level_scene_not_enough = {
-		238233,
+		238230,
 		120
 	},
 	level_scene_full_hp = {
-		238353,
+		238350,
 		148
 	},
 	level_click_to_move = {
-		238501,
+		238498,
 		115
 	},
 	common_hardmode = {
-		238616,
+		238613,
 		83
 	},
 	common_elite_no_quota = {
-		238699,
+		238696,
 		135
 	},
 	common_food = {
-		238834,
+		238831,
 		81
 	},
 	common_no_limit = {
-		238915,
+		238912,
 		88
 	},
 	common_proficiency = {
-		239003,
+		239000,
 		92
 	},
 	backyard_food_remind = {
-		239095,
+		239092,
 		178
 	},
 	backyard_food_count = {
-		239273,
+		239270,
 		109
 	},
 	sham_ship_level_limit = {
-		239382,
+		239379,
 		114
 	},
 	sham_count_limit = {
-		239496,
+		239493,
 		115
 	},
 	sham_count_reset = {
-		239611,
+		239608,
 		126
 	},
 	sham_team_limit = {
-		239737,
+		239734,
 		175
 	},
 	sham_formation_invalid = {
-		239912,
+		239909,
 		154
 	},
 	sham_my_assist_ship_level_limit = {
-		240066,
+		240063,
 		132
 	},
 	sham_reset_confirm = {
-		240198,
+		240195,
 		160
 	},
 	sham_battle_help_tip = {
-		240358,
+		240355,
 		84
 	},
 	sham_reset_err_limit = {
-		240442,
+		240439,
 		130
 	},
 	sham_ship_equip_forbid_1 = {
-		240572,
+		240569,
 		207
 	},
 	sham_ship_equip_forbid_2 = {
-		240779,
+		240776,
 		183
 	},
 	sham_enter_error_friend_ship_expired = {
-		240962,
+		240959,
 		156
 	},
 	sham_can_not_change_ship = {
-		241118,
+		241115,
 		140
 	},
 	sham_friend_ship_tip = {
-		241258,
+		241255,
 		213
 	},
 	inform_sueecss = {
-		241471,
+		241468,
 		95
 	},
 	inform_failed = {
-		241566,
+		241563,
 		101
 	},
 	inform_player = {
-		241667,
+		241664,
 		94
 	},
 	inform_select_type = {
-		241761,
+		241758,
 		114
 	},
 	inform_chat_msg = {
-		241875,
+		241872,
 		101
 	},
 	inform_sueecss_tip = {
-		241976,
+		241973,
 		161
 	},
 	ship_remould_max_level = {
-		242137,
+		242134,
 		137
 	},
 	ship_remould_material_ship_no_enough = {
-		242274,
+		242271,
 		139
 	},
 	ship_remould_material_ship_on_exist = {
-		242413,
+		242410,
 		138
 	},
 	ship_remould_material_unlock_skill = {
-		242551,
+		242548,
 		112
 	},
 	ship_remould_prev_lock = {
-		242663,
+		242660,
 		93
 	},
 	ship_remould_need_level = {
-		242756,
+		242753,
 		94
 	},
 	ship_remould_need_star = {
-		242850,
+		242847,
 		94
 	},
 	ship_remould_finished = {
-		242944,
+		242941,
 		94
 	},
 	ship_remould_no_item = {
-		243038,
+		243035,
 		101
 	},
 	ship_remould_no_gold = {
-		243139,
+		243136,
 		112
 	},
 	ship_remould_no_material = {
-		243251,
+		243248,
 		120
 	},
 	ship_remould_selecte_exceed = {
-		243371,
+		243368,
 		124
 	},
 	ship_remould_sueecss = {
-		243495,
+		243492,
 		93
 	},
 	ship_remould_warning_101994 = {
-		243588,
+		243585,
 		582
 	},
 	ship_remould_warning_102174 = {
-		244170,
+		244167,
 		200
 	},
 	ship_remould_warning_102284 = {
-		244370,
+		244367,
 		205
 	},
 	ship_remould_warning_102304 = {
-		244575,
+		244572,
 		356
 	},
 	ship_remould_warning_105214 = {
-		244931,
+		244928,
 		222
 	},
 	ship_remould_warning_105224 = {
-		245153,
+		245150,
 		221
 	},
 	ship_remould_warning_105234 = {
-		245374,
+		245371,
 		235
 	},
 	ship_remould_warning_107974 = {
-		245609,
+		245606,
 		470
 	},
 	ship_remould_warning_107984 = {
-		246079,
+		246076,
 		238
 	},
 	ship_remould_warning_201514 = {
-		246317,
+		246314,
 		249
 	},
 	ship_remould_warning_201524 = {
-		246566,
+		246563,
 		208
 	},
 	ship_remould_warning_203114 = {
-		246774,
+		246771,
 		361
 	},
 	ship_remould_warning_203124 = {
-		247135,
+		247132,
 		352
 	},
 	ship_remould_warning_205124 = {
-		247487,
+		247484,
 		204
 	},
 	ship_remould_warning_205154 = {
-		247691,
+		247688,
 		228
 	},
 	ship_remould_warning_206134 = {
-		247919,
+		247916,
 		329
 	},
 	ship_remould_warning_301534 = {
-		248248,
+		248245,
 		183
 	},
 	ship_remould_warning_301874 = {
-		248431,
+		248428,
 		551
 	},
 	ship_remould_warning_301934 = {
-		248982,
+		248979,
 		268
 	},
 	ship_remould_warning_310014 = {
-		249250,
+		249247,
 		470
 	},
 	ship_remould_warning_310024 = {
-		249720,
+		249717,
 		470
 	},
 	ship_remould_warning_310034 = {
-		250190,
+		250187,
 		470
 	},
 	ship_remould_warning_310044 = {
-		250660,
+		250657,
 		470
 	},
 	ship_remould_warning_303154 = {
-		251130,
+		251127,
 		604
 	},
 	ship_remould_warning_402134 = {
-		251734,
+		251731,
 		264
 	},
 	ship_remould_warning_702124 = {
-		251998,
+		251995,
 		492
 	},
 	ship_remould_warning_520014 = {
-		252490,
+		252487,
 		280
 	},
 	ship_remould_warning_521014 = {
-		252770,
+		252767,
 		282
 	},
 	ship_remould_warning_520034 = {
-		253052,
+		253049,
 		280
 	},
 	ship_remould_warning_521034 = {
-		253332,
+		253329,
 		282
 	},
 	ship_remould_warning_520044 = {
-		253614,
+		253611,
 		280
 	},
 	ship_remould_warning_521044 = {
-		253894,
+		253891,
 		282
 	},
 	ship_remould_warning_502114 = {
-		254176,
+		254173,
 		186
 	},
 	ship_remould_warning_506114 = {
-		254362,
+		254359,
 		399
 	},
 	ship_remould_warning_506124 = {
-		254761,
+		254758,
 		290
 	},
 	ship_remould_warning_520024 = {
-		255051,
+		255048,
 		280
 	},
 	ship_remould_warning_521024 = {
-		255331,
+		255328,
 		282
 	},
 	ship_remould_warning_403994 = {
-		255613,
+		255610,
 		268
 	},
 	word_soundfiles_download_title = {
-		255881,
+		255878,
 		116
 	},
 	word_soundfiles_download = {
-		255997,
+		255994,
 		102
 	},
 	word_soundfiles_checking_title = {
-		256099,
+		256096,
 		105
 	},
 	word_soundfiles_checking = {
-		256204,
+		256201,
 		99
 	},
 	word_soundfiles_checkend_title = {
-		256303,
+		256300,
 		131
 	},
 	word_soundfiles_checkend = {
-		256434,
+		256431,
 		101
 	},
 	word_soundfiles_noneedupdate = {
-		256535,
+		256532,
 		98
 	},
 	word_soundfiles_checkfailed = {
-		256633,
+		256630,
 		122
 	},
 	word_soundfiles_retry = {
-		256755,
+		256752,
 		97
 	},
 	word_soundfiles_update = {
-		256852,
+		256849,
 		97
 	},
 	word_soundfiles_update_end_title = {
-		256949,
+		256946,
 		118
 	},
 	word_soundfiles_update_end = {
-		257067,
+		257064,
 		106
 	},
 	word_soundfiles_update_failed = {
-		257173,
+		257170,
 		124
 	},
 	word_soundfiles_update_retry = {
-		257297,
+		257294,
 		104
 	},
 	word_live2dfiles_download_title = {
-		257401,
+		257398,
 		125
 	},
 	word_live2dfiles_download = {
-		257526,
+		257523,
 		109
 	},
 	word_live2dfiles_checking_title = {
-		257635,
+		257632,
 		107
 	},
 	word_live2dfiles_checking = {
-		257742,
+		257739,
 		98
 	},
 	word_live2dfiles_checkend_title = {
-		257840,
+		257837,
 		140
 	},
 	word_live2dfiles_checkend = {
-		257980,
+		257977,
 		102
 	},
 	word_live2dfiles_noneedupdate = {
-		258082,
+		258079,
 		99
 	},
 	word_live2dfiles_checkfailed = {
-		258181,
+		258178,
 		134
 	},
 	word_live2dfiles_retry = {
-		258315,
+		258312,
 		98
 	},
 	word_live2dfiles_update = {
-		258413,
+		258410,
 		98
 	},
 	word_live2dfiles_update_end_title = {
-		258511,
+		258508,
 		136
 	},
 	word_live2dfiles_update_end = {
-		258647,
+		258644,
 		107
 	},
 	word_live2dfiles_update_failed = {
-		258754,
+		258751,
 		130
 	},
 	word_live2dfiles_update_retry = {
-		258884,
+		258881,
 		105
 	},
 	word_live2dfiles_main_update_tip = {
-		258989,
+		258986,
 		149
 	},
 	achieve_propose_tip = {
-		259138,
+		259135,
 		101
 	},
 	mingshi_get_tip = {
-		259239,
+		259236,
 		105
 	},
 	mingshi_task_tip_1 = {
-		259344,
+		259341,
 		217
 	},
 	mingshi_task_tip_2 = {
-		259561,
+		259558,
 		221
 	},
 	mingshi_task_tip_3 = {
-		259782,
+		259779,
 		220
 	},
 	mingshi_task_tip_4 = {
-		260002,
+		259999,
 		221
 	},
 	mingshi_task_tip_5 = {
-		260223,
+		260220,
 		216
 	},
 	mingshi_task_tip_6 = {
-		260439,
+		260436,
 		215
 	},
 	mingshi_task_tip_7 = {
-		260654,
+		260651,
 		228
 	},
 	mingshi_task_tip_8 = {
-		260882,
+		260879,
 		223
 	},
 	mingshi_task_tip_9 = {
-		261105,
+		261102,
 		221
 	},
 	mingshi_task_tip_10 = {
-		261326,
+		261323,
 		229
 	},
 	mingshi_task_tip_11 = {
-		261555,
+		261552,
 		215
 	},
 	word_propose_changename_title = {
-		261770,
+		261767,
 		163
 	},
 	word_propose_changename_tip1 = {
-		261933,
+		261930,
 		136
 	},
 	word_propose_changename_tip2 = {
-		262069,
+		262066,
 		113
 	},
 	word_propose_ring_tip = {
-		262182,
+		262179,
 		109
 	},
 	word_rename_time_tip = {
-		262291,
+		262288,
 		147
 	},
 	word_rename_switch_tip = {
-		262438,
+		262435,
 		151
 	},
 	word_ssr = {
-		262589,
+		262586,
 		74
 	},
 	word_sr = {
-		262663,
+		262660,
 		76
 	},
 	word_r = {
-		262739,
+		262736,
 		71
 	},
 	ship_renameShip_error = {
-		262810,
+		262807,
 		107
 	},
 	ship_renameShip_error_4 = {
-		262917,
+		262914,
 		125
 	},
 	ship_renameShip_error_2011 = {
-		263042,
+		263039,
 		107
 	},
 	ship_proposeShip_error = {
-		263149,
+		263146,
 		104
 	},
 	ship_proposeShip_error_1 = {
-		263253,
+		263250,
 		106
 	},
 	word_rename_time_warning = {
-		263359,
+		263356,
 		236
 	},
 	word_propose_cost_tip = {
-		263595,
+		263592,
 		453
 	},
 	word_propose_switch_tip = {
-		264048,
+		264045,
 		102
 	},
 	evaluate_too_loog = {
-		264150,
+		264147,
 		101
 	},
 	evaluate_ban_word = {
-		264251,
+		264248,
 		112
 	},
 	activity_level_easy_tip = {
-		264363,
+		264360,
 		181
 	},
 	activity_level_difficulty_tip = {
-		264544,
+		264541,
 		210
 	},
 	activity_level_limit_tip = {
-		264754,
+		264751,
 		174
 	},
 	activity_level_inwarime_tip = {
-		264928,
+		264925,
 		221
 	},
 	activity_level_pass_easy_tip = {
-		265149,
+		265146,
 		187
 	},
 	activity_level_is_closed = {
-		265336,
+		265333,
 		114
 	},
 	activity_switch_tip = {
-		265450,
+		265447,
 		255
 	},
 	reduce_sp3_pass_count = {
-		265705,
+		265702,
 		103
 	},
 	qiuqiu_count = {
-		265808,
+		265805,
 		85
 	},
 	qiuqiu_total_count = {
-		265893,
+		265890,
 		91
 	},
 	npcfriendly_count = {
-		265984,
+		265981,
 		98
 	},
 	npcfriendly_total_count = {
-		266082,
+		266079,
 		97
 	},
 	longxiang_count = {
-		266179,
+		266176,
 		98
 	},
 	longxiang_total_count = {
-		266277,
+		266274,
 		103
 	},
 	pt_count = {
-		266380,
+		266377,
 		82
 	},
 	pt_total_count = {
-		266462,
+		266459,
 		94
 	},
 	remould_ship_ok = {
-		266556,
+		266553,
 		88
 	},
 	remould_ship_count_more = {
-		266644,
+		266641,
 		120
 	},
 	word_should_input = {
-		266764,
+		266761,
 		108
 	},
 	simulation_advantage_counting = {
-		266872,
+		266869,
 		126
 	},
 	simulation_disadvantage_counting = {
-		266998,
+		266995,
 		130
 	},
 	simulation_enhancing = {
-		267128,
+		267125,
 		144
 	},
 	simulation_enhanced = {
-		267272,
+		267269,
 		121
 	},
 	word_skill_desc_get = {
-		267393,
+		267390,
 		94
 	},
 	word_skill_desc_learn = {
-		267487,
+		267484,
 		89
 	},
 	chapter_tip_aovid_succeed = {
-		267576,
+		267573,
 		96
 	},
 	chapter_tip_aovid_failed = {
-		267672,
+		267669,
 		104
 	},
 	chapter_tip_change = {
-		267776,
+		267773,
 		103
 	},
 	chapter_tip_use = {
-		267879,
+		267876,
 		98
 	},
 	chapter_tip_with_npc = {
-		267977,
+		267974,
 		285
 	},
 	chapter_tip_bp_ammo = {
-		268262,
+		268259,
 		137
 	},
 	build_ship_tip = {
-		268399,
+		268396,
 		190
 	},
 	auto_battle_limit_tip = {
-		268589,
+		268586,
 		123
 	},
 	build_ship_quickly_buy_stone = {
-		268712,
+		268709,
 		190
 	},
 	build_ship_quickly_buy_tool = {
-		268902,
+		268899,
 		205
 	},
 	ship_profile_voice_locked = {
-		269107,
+		269104,
 		121
 	},
 	ship_profile_skin_locked = {
-		269228,
+		269225,
 		110
 	},
 	ship_profile_words = {
-		269338,
+		269335,
 		88
 	},
 	ship_profile_action_words = {
-		269426,
+		269423,
 		102
 	},
 	ship_profile_label_common = {
-		269528,
+		269525,
 		96
 	},
 	ship_profile_label_diff = {
-		269624,
+		269621,
 		98
 	},
 	level_fleet_lease_one_ship = {
-		269722,
+		269719,
 		133
 	},
 	level_fleet_not_enough = {
-		269855,
+		269852,
 		131
 	},
 	level_fleet_outof_limit = {
-		269986,
+		269983,
 		125
 	},
 	vote_success = {
-		270111,
+		270108,
 		82
 	},
 	vote_not_enough = {
-		270193,
+		270190,
 		111
 	},
 	vote_love_not_enough = {
-		270304,
+		270301,
 		125
 	},
 	vote_love_limit = {
-		270429,
+		270426,
 		143
 	},
 	vote_love_confirm = {
-		270572,
+		270569,
 		125
 	},
 	vote_primary_rule = {
-		270697,
+		270694,
 		81
 	},
 	vote_final_title1 = {
-		270778,
+		270775,
 		88
 	},
 	vote_final_rule1 = {
-		270866,
+		270863,
 		231
 	},
 	vote_final_title2 = {
-		271097,
+		271094,
 		94
 	},
 	vote_final_rule2 = {
-		271191,
+		271188,
 		240
 	},
 	vote_vote_time = {
-		271431,
+		271428,
 		100
 	},
 	vote_vote_count = {
-		271531,
+		271528,
 		87
 	},
 	vote_vote_group = {
-		271618,
+		271615,
 		87
 	},
 	vote_rank_refresh_time = {
-		271705,
+		271702,
 		120
 	},
 	vote_rank_in_current_server = {
-		271825,
+		271822,
 		128
 	},
 	words_auto_battle_label = {
-		271953,
+		271950,
 		105
 	},
 	words_show_ship_name_label = {
-		272058,
+		272055,
 		106
 	},
 	words_rare_ship_vibrate = {
-		272164,
+		272161,
 		100
 	},
 	words_display_ship_get_effect = {
-		272264,
+		272261,
 		108
 	},
 	words_show_touch_effect = {
-		272372,
+		272369,
 		102
 	},
 	words_bg_fit_mode = {
-		272474,
+		272471,
 		121
 	},
 	words_battle_hide_bg = {
-		272595,
+		272592,
 		116
 	},
 	words_battle_expose_line = {
-		272711,
+		272708,
 		123
 	},
 	words_autoFight_battery_savemode = {
-		272834,
+		272831,
 		121
 	},
 	words_autoFight_battery_savemode_des = {
-		272955,
+		272952,
 		182
 	},
 	words_autoFIght_down_frame = {
-		273137,
+		273134,
 		115
 	},
 	words_autoFIght_down_frame_des = {
-		273252,
+		273249,
 		163
 	},
 	words_autoFight_tips = {
-		273415,
+		273412,
 		131
 	},
 	words_autoFight_right = {
-		273546,
+		273543,
 		175
 	},
 	activity_puzzle_get1 = {
-		273721,
+		273718,
 		132
 	},
 	activity_puzzle_get2 = {
-		273853,
+		273850,
 		143
 	},
 	activity_puzzle_get3 = {
-		273996,
+		273993,
 		143
 	},
 	activity_puzzle_get4 = {
-		274139,
+		274136,
 		143
 	},
 	activity_puzzle_get5 = {
-		274282,
+		274279,
 		143
 	},
 	activity_puzzle_get6 = {
-		274425,
+		274422,
 		143
 	},
 	activity_puzzle_get7 = {
-		274568,
+		274565,
 		143
 	},
 	activity_puzzle_get8 = {
-		274711,
+		274708,
 		143
 	},
 	activity_puzzle_get9 = {
-		274854,
+		274851,
 		143
 	},
 	activity_puzzle_get10 = {
-		274997,
+		274994,
 		133
 	},
 	activity_puzzle_get11 = {
-		275130,
+		275127,
 		133
 	},
 	activity_puzzle_get12 = {
-		275263,
+		275260,
 		133
 	},
 	activity_puzzle_get13 = {
-		275396,
+		275393,
 		133
 	},
 	activity_puzzle_get14 = {
-		275529,
+		275526,
 		133
 	},
 	activity_puzzle_get15 = {
-		275662,
+		275659,
 		133
 	},
 	word_stopremain_build = {
-		275795,
+		275792,
 		102
 	},
 	word_stopremain_default = {
-		275897,
+		275894,
 		104
 	},
 	transcode_desc = {
-		276001,
+		275998,
 		359
 	},
 	transcode_empty_tip = {
-		276360,
+		276357,
 		117
 	},
 	set_birth_title = {
-		276477,
+		276474,
 		91
 	},
 	set_birth_confirm_tip = {
-		276568,
+		276565,
 		110
 	},
 	set_birth_empty_tip = {
-		276678,
+		276675,
 		105
 	},
 	set_birth_success = {
-		276783,
+		276780,
 		107
 	},
 	clear_transcode_cache_confirm = {
-		276890,
+		276887,
 		143
 	},
 	clear_transcode_cache_success = {
-		277033,
+		277030,
 		115
 	},
 	exchange_item_success = {
-		277148,
+		277145,
 		94
 	},
 	give_up_cloth_change = {
-		277242,
+		277239,
 		120
 	},
 	err_cloth_change_noship = {
-		277362,
+		277359,
 		103
 	},
 	need_break_tip = {
-		277465,
+		277462,
 		99
 	},
 	max_level_notice = {
-		277564,
+		277561,
 		152
 	},
 	new_skin_no_choose = {
-		277716,
+		277713,
 		156
 	},
 	sure_resume_volume = {
-		277872,
+		277869,
 		114
 	},
 	course_class_not_ready = {
-		277986,
+		277983,
 		165
 	},
 	course_student_max_level = {
-		278151,
+		278148,
 		152
 	},
 	course_stop_confirm = {
-		278303,
+		278300,
 		103
 	},
 	course_class_help = {
-		278406,
+		278403,
 		1480
 	},
 	course_class_name = {
-		279886,
+		279883,
 		100
 	},
 	course_proficiency_not_enough = {
-		279986,
+		279983,
 		128
 	},
 	course_state_rest = {
-		280114,
+		280111,
 		91
 	},
 	course_state_lession = {
-		280205,
+		280202,
 		97
 	},
 	course_energy_not_enough = {
-		280302,
+		280299,
 		156
 	},
 	course_proficiency_tip = {
-		280458,
+		280455,
 		382
 	},
 	course_sunday_tip = {
-		280840,
+		280837,
 		145
 	},
 	course_exit_confirm = {
-		280985,
+		280982,
 		158
 	},
 	course_learning = {
-		281143,
+		281140,
 		111
 	},
 	time_remaining_tip = {
-		281254,
+		281251,
 		93
 	},
 	propose_intimacy_tip = {
-		281347,
+		281344,
 		119
 	},
 	no_found_record_equipment = {
-		281466,
+		281463,
 		196
 	},
 	sec_floor_limit_tip = {
-		281662,
+		281659,
 		130
 	},
 	guild_shop_flash_success = {
-		281792,
+		281789,
 		98
 	},
 	destroy_high_rarity_tip = {
-		281890,
+		281887,
 		125
 	},
 	destroy_high_level_tip = {
-		282015,
+		282012,
 		133
 	},
 	destroy_importantequipment_tip = {
-		282148,
+		282145,
 		126
 	},
 	destroy_eliteequipment_tip = {
-		282274,
+		282271,
 		117
 	},
 	destroy_high_intensify_tip = {
-		282391,
+		282388,
 		124
 	},
 	destroy_inHardFormation_tip = {
-		282515,
+		282512,
 		126
 	},
 	destroy_equip_rarity_tip = {
-		282641,
+		282638,
 		161
 	},
 	ship_quick_change_noequip = {
-		282802,
+		282799,
 		116
 	},
 	ship_quick_change_nofreeequip = {
-		282918,
+		282915,
 		134
 	},
 	word_nowenergy = {
-		283052,
+		283049,
 		84
 	},
 	word_energy_recov_speed = {
-		283136,
+		283133,
 		101
 	},
 	destroy_eliteship_tip = {
-		283237,
+		283234,
 		111
 	},
 	err_resloveequip_nochoice = {
-		283348,
+		283345,
 		120
 	},
 	take_nothing = {
-		283468,
+		283465,
 		103
 	},
 	take_all_mail = {
-		283571,
+		283568,
 		171
 	},
 	buy_furniture_overtime = {
-		283742,
+		283739,
 		135
 	},
 	twitter_login_tips = {
-		283877,
+		283874,
 		166
 	},
 	data_erro = {
-		284043,
+		284040,
 		121
 	},
 	login_failed = {
-		284164,
+		284161,
 		94
 	},
 	["not yet completed"] = {
-		284258,
+		284255,
 		93
 	},
 	escort_less_count_to_combat = {
-		284351,
+		284348,
 		127
 	},
 	ten_even_draw = {
-		284478,
+		284475,
 		94
 	},
 	ten_even_draw_confirm = {
-		284572,
+		284569,
 		111
 	},
 	level_risk_level_desc = {
-		284683,
+		284680,
 		90
 	},
 	level_risk_level_mitigation_rate = {
-		284773,
+		284770,
 		239
 	},
 	level_diffcult_chapter_state_safety = {
-		285012,
+		285009,
 		229
 	},
 	level_chapter_state_high_risk = {
-		285241,
+		285238,
 		137
 	},
 	level_chapter_state_risk = {
-		285378,
+		285375,
 		128
 	},
 	level_chapter_state_low_risk = {
-		285506,
+		285503,
 		133
 	},
 	level_chapter_state_safety = {
-		285639,
+		285636,
 		132
 	},
 	open_skill_class_success = {
-		285771,
+		285768,
 		121
 	},
 	backyard_sort_tag_default = {
-		285892,
+		285889,
 		91
 	},
 	backyard_sort_tag_price = {
-		285983,
+		285980,
 		93
 	},
 	backyard_sort_tag_comfortable = {
-		286076,
+		286073,
 		100
 	},
 	backyard_sort_tag_size = {
-		286176,
+		286173,
 		90
 	},
 	backyard_filter_tag_other = {
-		286266,
+		286263,
 		93
 	},
 	word_status_inFight = {
-		286359,
+		286356,
 		90
 	},
 	word_status_inPVP = {
-		286449,
+		286446,
 		91
 	},
 	word_status_inEvent = {
-		286540,
+		286537,
 		92
 	},
 	word_status_inEventFinished = {
-		286632,
+		286629,
 		100
 	},
 	word_status_inTactics = {
-		286732,
+		286729,
 		93
 	},
 	word_status_inClass = {
-		286825,
+		286822,
 		91
 	},
 	word_status_rest = {
-		286916,
+		286913,
 		87
 	},
 	word_status_train = {
-		287003,
+		287000,
 		89
 	},
 	word_status_world = {
-		287092,
+		287089,
 		97
 	},
 	word_status_inHardFormation = {
-		287189,
+		287186,
 		103
 	},
 	word_status_series_enemy = {
-		287292,
+		287289,
 		103
 	},
 	challenge_rule = {
-		287395,
+		287392,
 		101
 	},
 	challenge_exit_warning = {
-		287496,
+		287493,
 		241
 	},
 	challenge_fleet_type_fail = {
-		287737,
+		287734,
 		141
 	},
 	challenge_current_level = {
-		287878,
+		287875,
 		110
 	},
 	challenge_current_score = {
-		287988,
+		287985,
 		104
 	},
 	challenge_total_score = {
-		288092,
+		288089,
 		99
 	},
 	challenge_current_progress = {
-		288191,
+		288188,
 		113
 	},
 	challenge_count_unlimit = {
-		288304,
+		288301,
 		99
 	},
 	challenge_no_fleet = {
-		288403,
+		288400,
 		118
 	},
 	equipment_skin_unload = {
-		288521,
+		288518,
 		147
 	},
 	equipment_skin_no_old_ship = {
-		288668,
+		288665,
 		119
 	},
 	equipment_skin_no_old_skinorequipment = {
-		288787,
+		288784,
 		162
 	},
 	equipment_skin_no_new_ship = {
-		288949,
+		288946,
 		113
 	},
 	equipment_skin_no_new_equipment = {
-		289062,
+		289059,
 		126
 	},
 	equipment_skin_count_noenough = {
-		289188,
+		289185,
 		115
 	},
 	equipment_skin_replace_done = {
-		289303,
+		289300,
 		120
 	},
 	equipment_skin_unload_failed = {
-		289423,
+		289420,
 		128
 	},
 	equipment_skin_unmatch_equipment = {
-		289551,
+		289548,
 		180
 	},
 	equipment_skin_no_equipment_tip = {
-		289731,
+		289728,
 		156
 	},
 	activity_pool_awards_empty = {
-		289887,
+		289884,
 		119
 	},
 	activity_switch_award_pool_failed = {
-		290006,
+		290003,
 		183
 	},
 	shop_street_activity_tip = {
-		290189,
+		290186,
 		176
 	},
 	shop_street_Equipment_skin_box_help = {
-		290365,
+		290362,
 		166
 	},
 	twitter_link_title = {
-		290531,
+		290528,
 		100
 	},
 	commander_material_noenough = {
-		290631,
+		290628,
 		122
 	},
 	battle_result_boss_destruct = {
-		290753,
+		290750,
 		132
 	},
 	battle_preCombatLayer_boss_destruct = {
-		290885,
+		290882,
 		140
 	},
 	destory_important_equipment_tip = {
-		291025,
+		291022,
 		198
 	},
 	destory_important_equipment_input_erro = {
-		291223,
+		291220,
 		121
 	},
 	activity_hit_monster_nocount = {
-		291344,
+		291341,
 		112
 	},
 	activity_hit_monster_death = {
-		291456,
+		291453,
 		124
 	},
 	activity_hit_monster_help = {
-		291580,
+		291577,
 		119
 	},
 	activity_hit_monster_erro = {
-		291699,
+		291696,
 		103
 	},
 	activity_xiaotiane_progress = {
-		291802,
+		291799,
 		107
 	},
 	activity_hit_monster_reset_tip = {
-		291909,
+		291906,
 		228
 	},
 	answer_help_tip = {
-		292137,
+		292134,
 		182
 	},
 	answer_answer_role = {
-		292319,
+		292316,
 		172
 	},
 	answer_exit_tip = {
-		292491,
+		292488,
 		112
 	},
 	equip_skin_detail_tip = {
-		292603,
+		292600,
 		121
 	},
 	emoji_type_0 = {
-		292724,
+		292721,
 		82
 	},
 	emoji_type_1 = {
-		292806,
+		292803,
 		83
 	},
 	emoji_type_2 = {
-		292889,
+		292886,
 		84
 	},
 	emoji_type_3 = {
-		292973,
+		292970,
 		82
 	},
 	emoji_type_4 = {
-		293055,
+		293052,
 		84
 	},
 	card_pairs_help_tip = {
-		293139,
+		293136,
 		943
 	},
 	card_pairs_tips = {
-		294082,
+		294079,
 		162
 	},
 	["card_battle_card details_deck"] = {
-		294244,
+		294241,
 		105
 	},
 	["card_battle_card details_hand"] = {
-		294349,
+		294346,
 		109
 	},
 	["card_battle_card details"] = {
-		294458,
+		294455,
 		100
 	},
 	["card_battle_card details_switchto_deck"] = {
-		294558,
+		294555,
 		111
 	},
 	["card_battle_card details_switchto_hand"] = {
-		294669,
+		294666,
 		115
 	},
 	card_battle_card_empty_en = {
-		294784,
+		294781,
 		106
 	},
 	card_battle_card_empty_ch = {
-		294890,
+		294887,
 		130
 	},
 	card_puzzel_goal_ch = {
-		295020,
+		295017,
 		93
 	},
 	card_puzzel_goal_en = {
-		295113,
+		295110,
 		89
 	},
 	card_puzzle_deck = {
-		295202,
+		295199,
 		84
 	},
 	upgrade_to_next_maxlevel_failed = {
-		295286,
+		295283,
 		181
 	},
 	upgrade_to_next_maxlevel_tip = {
-		295467,
+		295464,
 		240
 	},
 	upgrade_to_next_maxlevel_succeed = {
-		295707,
+		295704,
 		198
 	},
 	extra_chapter_socre_tip = {
-		295905,
+		295902,
 		173
 	},
 	extra_chapter_record_updated = {
-		296078,
+		296075,
 		102
 	},
 	extra_chapter_record_not_updated = {
-		296180,
+		296177,
 		112
 	},
 	extra_chapter_locked_tip = {
-		296292,
+		296289,
 		120
 	},
 	extra_chapter_locked_tip_1 = {
-		296412,
+		296409,
 		167
 	},
 	player_name_change_time_lv_tip = {
-		296579,
+		296576,
 		172
 	},
 	player_name_change_time_limit_tip = {
-		296751,
+		296748,
 		174
 	},
 	player_name_change_windows_tip = {
-		296925,
+		296922,
 		234
 	},
 	player_name_change_warning = {
-		297159,
+		297156,
 		247
 	},
 	player_name_change_success = {
-		297406,
+		297403,
 		116
 	},
 	player_name_change_failed = {
-		297522,
+		297519,
 		111
 	},
 	same_player_name_tip = {
-		297633,
+		297630,
 		109
 	},
 	task_is_not_existence = {
-		297742,
+		297739,
 		112
 	},
 	cannot_build_multiple_printblue = {
-		297854,
+		297851,
 		366
 	},
 	printblue_build_success = {
-		298220,
+		298217,
 		107
 	},
 	printblue_build_erro = {
-		298327,
+		298324,
 		103
 	},
 	blueprint_mod_success = {
-		298430,
+		298427,
 		107
 	},
 	blueprint_mod_erro = {
-		298537,
+		298534,
 		100
 	},
 	technology_refresh_sucess = {
-		298637,
+		298634,
 		133
 	},
 	technology_refresh_erro = {
-		298770,
+		298767,
 		126
 	},
 	change_technology_refresh_sucess = {
-		298896,
+		298893,
 		136
 	},
 	change_technology_refresh_erro = {
-		299032,
+		299029,
 		130
 	},
 	technology_start_up = {
-		299162,
+		299159,
 		100
 	},
 	technology_start_erro = {
-		299262,
+		299259,
 		101
 	},
 	technology_stop_success = {
-		299363,
+		299360,
 		119
 	},
 	technology_stop_erro = {
-		299482,
+		299479,
 		111
 	},
 	technology_finish_success = {
-		299593,
+		299590,
 		121
 	},
 	technology_finish_erro = {
-		299714,
+		299711,
 		114
 	},
 	blueprint_stop_success = {
-		299828,
+		299825,
 		121
 	},
 	blueprint_stop_erro = {
-		299949,
+		299946,
 		113
 	},
 	blueprint_destory_tip = {
-		300062,
+		300059,
 		119
 	},
 	blueprint_task_update_tip = {
-		300181,
+		300178,
 		172
 	},
 	blueprint_mod_addition_lock = {
-		300353,
+		300350,
 		125
 	},
 	blueprint_mod_word_unlock = {
-		300478,
+		300475,
 		111
 	},
 	blueprint_mod_skin_unlock = {
-		300589,
+		300586,
 		106
 	},
 	blueprint_build_consume = {
-		300695,
+		300692,
 		120
 	},
 	blueprint_stop_tip = {
-		300815,
+		300812,
 		180
 	},
 	technology_canot_refresh = {
-		300995,
+		300992,
 		153
 	},
 	technology_refresh_tip = {
-		301148,
+		301145,
 		138
 	},
 	technology_is_actived = {
-		301286,
+		301283,
 		125
 	},
 	technology_stop_tip = {
-		301411,
+		301408,
 		178
 	},
 	technology_help_text = {
-		301589,
+		301586,
 		2742
 	},
 	blueprint_build_time_tip = {
-		304331,
+		304328,
 		209
 	},
 	blueprint_cannot_build_tip = {
-		304540,
+		304537,
 		147
 	},
 	technology_task_none_tip = {
-		304687,
+		304684,
 		97
 	},
 	technology_task_build_tip = {
-		304784,
+		304781,
 		161
 	},
 	blueprint_commit_tip = {
-		304945,
+		304942,
 		165
 	},
 	buleprint_need_level_tip = {
-		305110,
+		305107,
 		141
 	},
 	blueprint_max_level_tip = {
-		305251,
+		305248,
 		132
 	},
 	ship_profile_voice_locked_intimacy = {
-		305383,
+		305380,
 		133
 	},
 	ship_profile_voice_locked_propose = {
-		305516,
+		305513,
 		115
 	},
 	ship_profile_voice_locked_propose_imas = {
-		305631,
+		305628,
 		120
 	},
 	ship_profile_voice_locked_design = {
-		305751,
+		305748,
 		140
 	},
 	ship_profile_voice_locked_meta = {
-		305891,
+		305888,
 		106
 	},
 	help_technolog0 = {
-		305997,
+		305994,
 		350
 	},
 	help_technolog = {
-		306347,
+		306344,
 		513
 	},
 	hide_chat_warning = {
-		306860,
+		306857,
 		115
 	},
 	show_chat_warning = {
-		306975,
+		306972,
 		117
 	},
 	help_shipblueprintui = {
-		307092,
+		307089,
 		4396
 	},
 	help_shipblueprintui_luck = {
-		311488,
+		311485,
 		734
 	},
 	anniversary_task_title_1 = {
-		312222,
+		312219,
 		175
 	},
 	anniversary_task_title_2 = {
-		312397,
+		312394,
 		206
 	},
 	anniversary_task_title_3 = {
-		312603,
+		312600,
 		177
 	},
 	anniversary_task_title_4 = {
-		312780,
+		312777,
 		210
 	},
 	anniversary_task_title_5 = {
-		312990,
+		312987,
 		184
 	},
 	anniversary_task_title_6 = {
-		313174,
+		313171,
 		204
 	},
 	anniversary_task_title_7 = {
-		313378,
+		313375,
 		202
 	},
 	anniversary_task_title_8 = {
-		313580,
+		313577,
 		169
 	},
 	anniversary_task_title_9 = {
-		313749,
+		313746,
 		193
 	},
 	anniversary_task_title_10 = {
-		313942,
+		313939,
 		176
 	},
 	anniversary_task_title_11 = {
-		314118,
+		314115,
 		160
 	},
 	anniversary_task_title_12 = {
-		314278,
+		314275,
 		178
 	},
 	anniversary_task_title_13 = {
-		314456,
+		314453,
 		195
 	},
 	anniversary_task_title_14 = {
-		314651,
+		314648,
 		179
 	},
 	charge_scene_buy_confirm = {
-		314830,
+		314827,
 		163
 	},
 	charge_scene_buy_confirm_gold = {
-		314993,
+		314990,
 		168
 	},
 	charge_scene_batch_buy_tip = {
-		315161,
+		315158,
 		189
 	},
 	help_level_ui = {
-		315350,
+		315347,
 		911
 	},
 	guild_modify_info_tip = {
-		316261,
+		316258,
 		193
 	},
 	ai_change_1 = {
-		316454,
+		316451,
 		118
 	},
 	ai_change_2 = {
-		316572,
+		316569,
 		117
 	},
 	activity_shop_lable = {
-		316689,
+		316686,
 		126
 	},
 	word_bilibili = {
-		316815,
+		316812,
 		90
 	},
 	levelScene_tracking_error_pre = {
-		316905,
+		316902,
 		143
 	},
 	ship_limit_notice = {
-		317048,
+		317045,
 		157
 	},
 	idle = {
-		317205,
+		317202,
 		73
 	},
 	main_1 = {
-		317278,
+		317275,
 		81
 	},
 	main_2 = {
-		317359,
+		317356,
 		81
 	},
 	main_3 = {
-		317440,
+		317437,
 		81
 	},
 	complete = {
-		317521,
+		317518,
 		84
 	},
 	login = {
-		317605,
+		317602,
 		74
 	},
 	home = {
-		317679,
+		317676,
 		74
 	},
 	mail = {
-		317753,
+		317750,
 		77
 	},
 	mission = {
-		317830,
+		317827,
 		83
 	},
 	mission_complete = {
-		317913,
+		317910,
 		96
 	},
 	wedding = {
-		318009,
+		318006,
 		77
 	},
 	touch_head = {
-		318086,
+		318083,
 		84
 	},
 	touch_body = {
-		318170,
+		318167,
 		82
 	},
 	touch_special = {
-		318252,
+		318249,
 		84
 	},
 	gold = {
-		318336,
+		318333,
 		73
 	},
 	oil = {
-		318409,
+		318406,
 		70
 	},
 	diamond = {
-		318479,
+		318476,
 		75
 	},
 	word_photo_mode = {
-		318554,
+		318551,
 		84
 	},
 	word_video_mode = {
-		318638,
+		318635,
 		82
 	},
 	word_save_ok = {
-		318720,
+		318717,
 		114
 	},
 	word_save_video = {
-		318834,
+		318831,
 		120
 	},
 	reflux_help_tip = {
-		318954,
+		318951,
 		974
 	},
 	reflux_pt_not_enough = {
-		319928,
+		319925,
 		121
 	},
 	reflux_word_1 = {
-		320049,
+		320046,
 		87
 	},
 	reflux_word_2 = {
-		320136,
+		320133,
 		85
 	},
 	ship_hunting_level_tips = {
-		320221,
+		320218,
 		190
 	},
 	acquisitionmode_is_not_open = {
-		320411,
+		320408,
 		123
 	},
 	collect_chapter_is_activation = {
-		320534,
+		320531,
 		140
 	},
 	levelScene_chapter_is_activation = {
-		320674,
+		320671,
 		189
 	},
 	resource_verify_warn = {
-		320863,
+		320860,
 		245
 	},
 	resource_verify_fail = {
-		321108,
+		321105,
 		191
 	},
 	resource_verify_success = {
-		321299,
+		321296,
 		122
 	},
 	resource_clear_all = {
-		321421,
+		321418,
 		178
 	},
 	resource_clear_manga = {
-		321599,
+		321596,
 		228
 	},
 	resource_clear_gallery = {
-		321827,
+		321824,
 		236
 	},
 	resource_clear_3ddorm = {
-		322063,
+		322060,
 		256
 	},
 	resource_clear_tbchild = {
-		322319,
+		322316,
 		257
 	},
 	resource_clear_3disland = {
-		322576,
+		322573,
 		254
 	},
 	resource_clear_generaltext = {
-		322830,
+		322827,
 		103
 	},
 	acl_oil_count = {
-		322933,
+		322930,
 		87
 	},
 	acl_oil_total_count = {
-		323020,
+		323017,
 		99
 	},
 	word_take_video_tip = {
-		323119,
+		323116,
 		141
 	},
 	word_snapshot_share_title = {
-		323260,
+		323257,
 		118
 	},
 	word_snapshot_share_agreement = {
-		323378,
+		323375,
 		540
 	},
 	skin_remain_time = {
-		323918,
+		323915,
 		91
 	},
 	word_museum_1 = {
-		324009,
+		324006,
 		120
 	},
 	word_museum_help = {
-		324129,
+		324126,
 		734
 	},
 	goldship_help_tip = {
-		324863,
+		324860,
 		787
 	},
 	metalgearsub_help_tip = {
-		325650,
+		325647,
 		1847
 	},
 	acl_gold_count = {
-		327497,
+		327494,
 		91
 	},
 	acl_gold_total_count = {
-		327588,
+		327585,
 		102
 	},
 	discount_time = {
-		327690,
+		327687,
 		146
 	},
 	commander_talent_not_exist = {
-		327836,
+		327833,
 		132
 	},
 	commander_replace_talent_not_exist = {
-		327968,
+		327965,
 		154
 	},
 	commander_talent_learned = {
-		328122,
+		328119,
 		121
 	},
 	commander_talent_learn_erro = {
-		328243,
+		328240,
 		133
 	},
 	commander_not_exist = {
-		328376,
+		328373,
 		114
 	},
 	commander_fleet_not_exist = {
-		328490,
+		328487,
 		115
 	},
 	commander_fleet_pos_not_exist = {
-		328605,
+		328602,
 		128
 	},
 	commander_equip_to_fleet_erro = {
-		328733,
+		328730,
 		140
 	},
 	commander_acquire_erro = {
-		328873,
+		328870,
 		138
 	},
 	commander_lock_erro = {
-		329011,
+		329008,
 		121
 	},
 	commander_reset_talent_time_no_rearch = {
-		329132,
+		329129,
 		157
 	},
 	commander_reset_talent_is_not_need = {
-		329289,
+		329286,
 		125
 	},
 	commander_reset_talent_success = {
-		329414,
+		329411,
 		118
 	},
 	commander_reset_talent_erro = {
-		329532,
+		329529,
 		136
 	},
 	commander_can_not_be_upgrade = {
-		329668,
+		329665,
 		133
 	},
 	commander_anyone_is_in_fleet = {
-		329801,
+		329798,
 		139
 	},
 	commander_is_in_fleet = {
-		329940,
+		329937,
 		133
 	},
 	commander_play_erro = {
-		330073,
+		330070,
 		104
 	},
 	ship_equip_same_group_equipment = {
-		330177,
+		330174,
 		136
 	},
 	summary_page_un_rearch = {
-		330313,
+		330310,
 		96
 	},
 	player_summary_from = {
-		330409,
+		330406,
 		97
 	},
 	player_summary_data = {
-		330506,
+		330503,
 		95
 	},
 	commander_exp_overflow_tip = {
-		330601,
+		330598,
 		192
 	},
 	commander_reset_talent_tip = {
-		330793,
+		330790,
 		141
 	},
 	commander_reset_talent = {
-		330934,
+		330931,
 		96
 	},
 	commander_select_min_cnt = {
-		331030,
+		331027,
 		127
 	},
 	commander_select_max = {
-		331157,
+		331154,
 		123
 	},
 	commander_lock_done = {
-		331280,
+		331277,
 		101
 	},
 	commander_unlock_done = {
-		331381,
+		331378,
 		105
 	},
 	commander_get_1 = {
-		331486,
+		331483,
 		127
 	},
 	commander_get = {
-		331613,
+		331610,
 		139
 	},
 	commander_build_done = {
-		331752,
+		331749,
 		114
 	},
 	commander_build_erro = {
-		331866,
+		331863,
 		117
 	},
 	commander_get_skills_done = {
-		331983,
+		331980,
 		132
 	},
 	collection_way_is_unopen = {
-		332115,
+		332112,
 		115
 	},
 	commander_can_not_select_same_group = {
-		332230,
+		332227,
 		162
 	},
 	commander_capcity_is_max = {
-		332392,
+		332389,
 		115
 	},
 	commander_reserve_count_is_max = {
-		332507,
+		332504,
 		128
 	},
 	commander_build_pool_tip = {
-		332635,
+		332632,
 		143
 	},
 	commander_select_matiral_erro = {
-		332778,
+		332775,
 		212
 	},
 	commander_material_is_rarity = {
-		332990,
+		332987,
 		156
 	},
 	commander_material_is_maxLevel = {
-		333146,
+		333143,
 		200
 	},
 	charge_commander_bag_max = {
-		333346,
+		333343,
 		161
 	},
 	shop_extendcommander_success = {
-		333507,
+		333504,
 		148
 	},
 	commander_skill_point_noengough = {
-		333655,
+		333652,
 		144
 	},
 	buildship_new_tip = {
-		333799,
+		333796,
 		176
 	},
 	buildship_heavy_tip = {
-		333975,
+		333972,
 		137
 	},
 	buildship_light_tip = {
-		334112,
+		334109,
 		125
 	},
 	buildship_special_tip = {
-		334237,
+		334234,
 		136
 	},
 	Normalbuild_URexchange_help = {
-		334373,
+		334370,
 		615
 	},
 	Normalbuild_URexchange_text1 = {
-		334988,
+		334985,
 		103
 	},
 	Normalbuild_URexchange_text2 = {
-		335091,
+		335088,
 		97
 	},
 	Normalbuild_URexchange_text3 = {
-		335188,
+		335185,
 		103
 	},
 	Normalbuild_URexchange_text4 = {
-		335291,
+		335288,
 		100
 	},
 	Normalbuild_URexchange_warning1 = {
-		335391,
+		335388,
 		128
 	},
 	Normalbuild_URexchange_warning3 = {
-		335519,
+		335516,
 		207
 	},
 	Normalbuild_URexchange_confirm = {
-		335726,
+		335723,
 		121
 	},
 	open_skill_pos = {
-		335847,
+		335844,
 		236
 	},
 	open_skill_pos_discount = {
-		336083,
+		336080,
 		239
 	},
 	event_recommend_fail = {
-		336322,
+		336319,
 		124
 	},
 	newplayer_help_tip = {
-		336446,
+		336443,
 		988
 	},
 	newplayer_notice_1 = {
-		337434,
+		337431,
 		125
 	},
 	newplayer_notice_2 = {
-		337559,
+		337556,
 		125
 	},
 	newplayer_notice_3 = {
-		337684,
+		337681,
 		117
 	},
 	newplayer_notice_4 = {
-		337801,
+		337798,
 		121
 	},
 	newplayer_notice_5 = {
-		337922,
+		337919,
 		119
 	},
 	newplayer_notice_6 = {
-		338041,
+		338038,
 		171
 	},
 	newplayer_notice_7 = {
-		338212,
+		338209,
 		124
 	},
 	newplayer_notice_8 = {
-		338336,
+		338333,
 		149
 	},
 	tec_catchup_1 = {
-		338485,
+		338482,
 		85
 	},
 	tec_catchup_2 = {
-		338570,
+		338567,
 		85
 	},
 	tec_catchup_3 = {
-		338655,
+		338652,
 		85
 	},
 	tec_catchup_4 = {
-		338740,
+		338737,
 		85
 	},
 	tec_catchup_5 = {
-		338825,
+		338822,
 		85
 	},
 	tec_catchup_6 = {
-		338910,
+		338907,
 		85
 	},
 	tec_catchup_7 = {
-		338995,
+		338992,
 		85
 	},
 	tec_notice = {
-		339080,
+		339077,
 		124
 	},
 	tec_notice_not_open_tip = {
-		339204,
+		339201,
 		141
 	},
 	apply_permission_camera_tip1 = {
-		339345,
+		339342,
 		181
 	},
 	apply_permission_camera_tip2 = {
-		339526,
+		339523,
 		187
 	},
 	apply_permission_camera_tip3 = {
-		339713,
+		339710,
 		177
 	},
 	apply_permission_record_audio_tip1 = {
-		339890,
+		339887,
 		163
 	},
 	apply_permission_record_audio_tip2 = {
-		340053,
+		340050,
 		197
 	},
 	apply_permission_record_audio_tip3 = {
-		340250,
+		340247,
 		183
 	},
 	nine_choose_one = {
-		340433,
+		340430,
 		269
 	},
 	help_commander_info = {
-		340702,
+		340699,
 		810
 	},
 	help_commander_play = {
-		341512,
+		341509,
 		810
 	},
 	help_commander_ability = {
-		342322,
+		342319,
 		813
 	},
 	story_skip_confirm = {
-		343135,
+		343132,
 		215
 	},
 	commander_ability_replace_warning = {
-		343350,
+		343347,
 		205
 	},
 	help_command_room = {
-		343555,
+		343552,
 		808
 	},
 	commander_build_rate_tip = {
-		344363,
+		344360,
 		154
 	},
 	help_activity_bossbattle = {
-		344517,
+		344514,
 		1040
 	},
 	commander_is_in_fleet_already = {
-		345557,
+		345554,
 		141
 	},
 	commander_material_is_in_fleet_tip = {
-		345698,
+		345695,
 		167
 	},
 	commander_main_pos = {
-		345865,
+		345862,
 		93
 	},
 	commander_assistant_pos = {
-		345958,
+		345955,
 		96
 	},
 	comander_repalce_tip = {
-		346054,
+		346051,
 		200
 	},
 	commander_lock_tip = {
-		346254,
+		346251,
 		121
 	},
 	commander_is_in_battle = {
-		346375,
+		346372,
 		125
 	},
 	commander_rename_warning = {
-		346500,
+		346497,
 		143
 	},
 	commander_rename_coldtime_tip = {
-		346643,
+		346640,
 		154
 	},
 	commander_rename_success_tip = {
-		346797,
+		346794,
 		115
 	},
 	amercian_notice_1 = {
-		346912,
+		346909,
 		170
 	},
 	amercian_notice_2 = {
-		347082,
+		347079,
 		131
 	},
 	amercian_notice_3 = {
-		347213,
+		347210,
 		104
 	},
 	amercian_notice_4 = {
-		347317,
+		347314,
 		92
 	},
 	amercian_notice_5 = {
-		347409,
+		347406,
 		112
 	},
 	amercian_notice_6 = {
-		347521,
+		347518,
 		222
 	},
 	ranking_word_1 = {
-		347743,
+		347740,
 		89
 	},
 	ranking_word_2 = {
-		347832,
+		347829,
 		93
 	},
 	ranking_word_3 = {
-		347925,
+		347922,
 		91
 	},
 	ranking_word_4 = {
-		348016,
+		348013,
 		93
 	},
 	ranking_word_5 = {
-		348109,
+		348106,
 		82
 	},
 	ranking_word_6 = {
-		348191,
+		348188,
 		91
 	},
 	ranking_word_7 = {
-		348282,
+		348279,
 		90
 	},
 	ranking_word_8 = {
-		348372,
+		348369,
 		82
 	},
 	ranking_word_9 = {
-		348454,
+		348451,
 		83
 	},
 	ranking_word_10 = {
-		348537,
+		348534,
 		94
 	},
 	spece_illegal_tip = {
-		348631,
+		348628,
 		99
 	},
 	utaware_warmup_notice = {
-		348730,
+		348727,
 		902
 	},
 	utaware_formal_notice = {
-		349632,
+		349629,
 		648
 	},
 	npc_learn_skill_tip = {
-		350280,
+		350277,
 		250
 	},
 	npc_upgrade_max_level = {
-		350530,
+		350527,
 		147
 	},
 	npc_propse_tip = {
-		350677,
+		350674,
 		113
 	},
 	npc_strength_tip = {
-		350790,
+		350787,
 		206
 	},
 	npc_breakout_tip = {
-		350996,
+		350993,
 		210
 	},
 	word_chuansong = {
-		351206,
+		351203,
 		95
 	},
 	npc_evaluation_tip = {
-		351301,
+		351298,
 		145
 	},
 	map_event_skip = {
-		351446,
+		351443,
 		90
 	},
 	map_event_stop_tip = {
-		351536,
+		351533,
 		163
 	},
 	map_event_stop_battle_tip = {
-		351699,
+		351696,
 		172
 	},
 	map_event_stop_battle_tip_2 = {
-		351871,
+		351868,
 		151
 	},
 	map_event_stop_story_tip = {
-		352022,
+		352019,
 		167
 	},
 	map_event_save_nekone = {
-		352189,
+		352186,
 		136
 	},
 	map_event_save_rurutie = {
-		352325,
+		352322,
 		139
 	},
 	map_event_memory_collected = {
-		352464,
+		352461,
 		152
 	},
 	map_event_save_kizuna = {
-		352616,
+		352613,
 		140
 	},
 	five_choose_one = {
-		352756,
+		352753,
 		201
 	},
 	ship_preference_common = {
-		352957,
+		352954,
 		107
 	},
 	draw_big_luck_1 = {
-		353064,
+		353061,
 		116
 	},
 	draw_big_luck_2 = {
-		353180,
+		353177,
 		127
 	},
 	draw_big_luck_3 = {
-		353307,
+		353304,
 		131
 	},
 	draw_medium_luck_1 = {
-		353438,
+		353435,
 		124
 	},
 	draw_medium_luck_2 = {
-		353562,
+		353559,
 		122
 	},
 	draw_medium_luck_3 = {
-		353684,
+		353681,
 		133
 	},
 	draw_little_luck_1 = {
-		353817,
+		353814,
 		128
 	},
 	draw_little_luck_2 = {
-		353945,
+		353942,
 		124
 	},
 	draw_little_luck_3 = {
-		354069,
+		354066,
 		134
 	},
 	ship_preference_non = {
-		354203,
+		354200,
 		106
 	},
 	school_title_dajiangtang = {
-		354309,
+		354306,
 		101
 	},
 	school_title_zhihuimiao = {
-		354410,
+		354407,
 		95
 	},
 	school_title_shitang = {
-		354505,
+		354502,
 		92
 	},
 	school_title_xiaomaibu = {
-		354597,
+		354594,
 		95
 	},
 	school_title_shangdian = {
-		354692,
+		354689,
 		94
 	},
 	school_title_xueyuan = {
-		354786,
+		354783,
 		98
 	},
 	school_title_shoucang = {
-		354884,
+		354881,
 		95
 	},
 	school_title_xiaoyouxiting = {
-		354979,
+		354976,
 		96
 	},
 	tag_level_fighting = {
-		355075,
+		355072,
 		93
 	},
 	tag_level_oni = {
-		355168,
+		355165,
 		89
 	},
 	tag_level_bomb = {
-		355257,
+		355254,
 		90
 	},
 	ui_word_levelui2_inevent = {
-		355347,
+		355344,
 		97
 	},
 	exit_backyard_exp_display = {
-		355444,
+		355441,
 		125
 	},
 	help_monopoly = {
-		355569,
+		355566,
 		1634
 	},
 	md5_error = {
-		357203,
+		357200,
 		120
 	},
 	world_boss_help = {
-		357323,
+		357320,
 		4705
 	},
 	world_boss_tip = {
-		362028,
+		362025,
 		193
 	},
 	world_boss_award_limit = {
-		362221,
+		362218,
 		157
 	},
 	backyard_is_loading = {
-		362378,
+		362375,
 		104
 	},
 	levelScene_loop_help_tip = {
-		362482,
+		362479,
 		2782
 	},
 	no_airspace_competition = {
-		365264,
+		365261,
 		104
 	},
 	air_supremacy_value = {
-		365368,
+		365365,
 		101
 	},
 	read_the_user_agreement = {
-		365469,
+		365466,
 		146
 	},
 	award_max_warning = {
-		365615,
+		365612,
 		175
 	},
 	sub_item_warning = {
-		365790,
+		365787,
 		140
 	},
 	select_award_warning = {
-		365930,
+		365927,
 		126
 	},
 	no_item_selected_tip = {
-		366056,
+		366053,
 		119
 	},
 	backyard_traning_tip = {
-		366175,
+		366172,
 		160
 	},
 	backyard_rest_tip = {
-		366335,
+		366332,
 		122
 	},
 	backyard_class_tip = {
-		366457,
+		366454,
 		122
 	},
 	medal_notice_1 = {
-		366579,
+		366576,
 		95
 	},
 	medal_notice_2 = {
-		366674,
+		366671,
 		86
 	},
 	medal_help_tip = {
-		366760,
+		366757,
 		1522
 	},
 	trophy_achieved = {
-		368282,
+		368279,
 		94
 	},
 	text_shop = {
-		368376,
+		368373,
 		77
 	},
 	text_confirm = {
-		368453,
+		368450,
 		83
 	},
 	text_cancel = {
-		368536,
+		368533,
 		81
 	},
 	text_cancel_fight = {
-		368617,
+		368614,
 		93
 	},
 	text_goon_fight = {
-		368710,
+		368707,
 		87
 	},
 	text_exit = {
-		368797,
+		368794,
 		77
 	},
 	text_clear = {
-		368874,
+		368871,
 		79
 	},
 	text_apply = {
-		368953,
+		368950,
 		83
 	},
 	text_buy = {
-		369036,
+		369033,
 		75
 	},
 	text_forward = {
-		369111,
+		369108,
 		78
 	},
 	text_prepage = {
-		369189,
+		369186,
 		80
 	},
 	text_nextpage = {
-		369269,
+		369266,
 		81
 	},
 	text_exchange = {
-		369350,
+		369347,
 		85
 	},
 	text_retreat = {
-		369435,
+		369432,
 		83
 	},
 	text_goto = {
-		369518,
+		369515,
 		80
 	},
 	level_scene_title_word_1 = {
-		369598,
+		369595,
 		100
 	},
 	level_scene_title_word_2 = {
-		369698,
+		369695,
 		108
 	},
 	level_scene_title_word_3 = {
-		369806,
+		369803,
 		100
 	},
 	level_scene_title_word_4 = {
-		369906,
+		369903,
 		97
 	},
 	level_scene_title_word_5 = {
-		370003,
+		370000,
 		97
 	},
 	ambush_display_0 = {
-		370100,
+		370097,
 		89
 	},
 	ambush_display_1 = {
-		370189,
+		370186,
 		84
 	},
 	ambush_display_2 = {
-		370273,
+		370270,
 		85
 	},
 	ambush_display_3 = {
-		370358,
+		370355,
 		83
 	},
 	ambush_display_4 = {
-		370441,
+		370438,
 		86
 	},
 	ambush_display_5 = {
-		370527,
+		370524,
 		84
 	},
 	ambush_display_6 = {
-		370611,
+		370608,
 		86
 	},
 	black_white_grid_notice = {
-		370697,
+		370694,
 		1416
 	},
 	black_white_grid_reset = {
-		372113,
+		372110,
 		104
 	},
 	black_white_grid_switch_tip = {
-		372217,
+		372214,
 		122
 	},
 	no_way_to_escape = {
-		372339,
+		372336,
 		93
 	},
 	word_attr_ac = {
-		372432,
+		372429,
 		92
 	},
 	help_battle_ac = {
-		372524,
+		372521,
 		2193
 	},
 	help_attribute_dodge_limit = {
-		374717,
+		374714,
 		388
 	},
 	refuse_friend = {
-		375105,
+		375102,
 		105
 	},
 	refuse_and_add_into_bl = {
-		375210,
+		375207,
 		108
 	},
 	tech_simulate_closed = {
-		375318,
+		375315,
 		141
 	},
 	tech_simulate_quit = {
-		375459,
+		375456,
 		126
 	},
 	technology_uplevel_error_no_res = {
-		375585,
+		375582,
 		244
 	},
 	help_technologytree = {
-		375829,
+		375826,
 		2458
 	},
 	tech_change_version_mark = {
-		378287,
+		378284,
 		108
 	},
 	technology_uplevel_error_studying = {
-		378395,
+		378392,
 		196
 	},
 	fate_attr_word = {
-		378591,
+		378588,
 		105
 	},
 	fate_phase_word = {
-		378696,
+		378693,
 		98
 	},
 	blueprint_simulation_confirm = {
-		378794,
+		378791,
 		245
 	},
 	blueprint_simulation_confirm_19901 = {
-		379039,
+		379036,
 		416
 	},
 	blueprint_simulation_confirm_19902 = {
-		379455,
+		379452,
 		397
 	},
 	blueprint_simulation_confirm_39903 = {
-		379852,
+		379849,
 		398
 	},
 	blueprint_simulation_confirm_39904 = {
-		380250,
+		380247,
 		415
 	},
 	blueprint_simulation_confirm_49902 = {
-		380665,
+		380662,
 		413
 	},
 	blueprint_simulation_confirm_99901 = {
-		381078,
+		381075,
 		412
 	},
 	blueprint_simulation_confirm_29903 = {
-		381490,
+		381487,
 		374
 	},
 	blueprint_simulation_confirm_29904 = {
-		381864,
+		381861,
 		381
 	},
 	blueprint_simulation_confirm_49903 = {
-		382245,
+		382242,
 		374
 	},
 	blueprint_simulation_confirm_49904 = {
-		382619,
+		382616,
 		384
 	},
 	blueprint_simulation_confirm_89902 = {
-		383003,
+		383000,
 		380
 	},
 	blueprint_simulation_confirm_19903 = {
-		383383,
+		383380,
 		406
 	},
 	blueprint_simulation_confirm_39905 = {
-		383789,
+		383786,
 		349
 	},
 	blueprint_simulation_confirm_49905 = {
-		384138,
+		384135,
 		409
 	},
 	blueprint_simulation_confirm_49906 = {
-		384547,
+		384544,
 		339
 	},
 	blueprint_simulation_confirm_69901 = {
-		384886,
+		384883,
 		421
 	},
 	blueprint_simulation_confirm_29905 = {
-		385307,
+		385304,
 		398
 	},
 	blueprint_simulation_confirm_49907 = {
-		385705,
+		385702,
 		406
 	},
 	blueprint_simulation_confirm_59901 = {
-		386111,
+		386108,
 		396
 	},
 	blueprint_simulation_confirm_79901 = {
-		386507,
+		386504,
 		347
 	},
 	blueprint_simulation_confirm_89903 = {
-		386854,
+		386851,
 		416
 	},
 	blueprint_simulation_confirm_19904 = {
-		387270,
+		387267,
 		423
 	},
 	blueprint_simulation_confirm_39906 = {
-		387693,
+		387690,
 		430
 	},
 	blueprint_simulation_confirm_49908 = {
-		388123,
+		388120,
 		441
 	},
 	blueprint_simulation_confirm_49909 = {
-		388564,
+		388561,
 		440
 	},
 	blueprint_simulation_confirm_99902 = {
-		389004,
+		389001,
 		431
 	},
 	blueprint_simulation_confirm_19905 = {
-		389435,
+		389432,
 		379
 	},
 	blueprint_simulation_confirm_39907 = {
-		389814,
+		389811,
 		399
 	},
 	blueprint_simulation_confirm_69902 = {
-		390213,
+		390210,
 		441
 	},
 	blueprint_simulation_confirm_89904 = {
-		390654,
+		390651,
 		408
 	},
 	blueprint_simulation_confirm_79902 = {
-		391062,
+		391059,
 		385
 	},
 	blueprint_simulation_confirm_19906 = {
-		391447,
+		391444,
 		418
 	},
 	blueprint_simulation_confirm_49910 = {
-		391865,
+		391862,
 		414
 	},
 	blueprint_simulation_confirm_69903 = {
-		392279,
+		392276,
 		437
 	},
 	blueprint_simulation_confirm_79903 = {
-		392716,
+		392713,
 		431
 	},
 	blueprint_simulation_confirm_119901 = {
-		393147,
+		393144,
 		429
 	},
 	electrotherapy_wanning = {
-		393576,
+		393573,
 		125
 	},
 	siren_chase_warning = {
-		393701,
+		393698,
 		104
 	},
 	memorybook_get_award_tip = {
-		393805,
+		393802,
 		173
 	},
 	memorybook_notice = {
-		393978,
+		393975,
 		548
 	},
 	word_votes = {
-		394526,
+		394523,
 		79
 	},
 	number_0 = {
-		394605,
+		394602,
 		73
 	},
 	intimacy_desc_propose_vertical = {
-		394678,
+		394675,
 		340
 	},
 	without_selected_ship = {
-		395018,
+		395015,
 		101
 	},
 	index_all = {
-		395119,
+		395116,
 		76
 	},
 	index_fleetfront = {
-		395195,
+		395192,
 		89
 	},
 	index_fleetrear = {
-		395284,
+		395281,
 		84
 	},
 	index_shipType_quZhu = {
-		395368,
+		395365,
 		86
 	},
 	index_shipType_qinXun = {
-		395454,
+		395451,
 		87
 	},
 	index_shipType_zhongXun = {
-		395541,
+		395538,
 		89
 	},
 	index_shipType_zhanLie = {
-		395630,
+		395627,
 		88
 	},
 	index_shipType_hangMu = {
-		395718,
+		395715,
 		87
 	},
 	index_shipType_weiXiu = {
-		395805,
+		395802,
 		87
 	},
 	index_shipType_qianTing = {
-		395892,
+		395889,
 		89
 	},
 	index_other = {
-		395981,
+		395978,
 		79
 	},
 	index_rare2 = {
-		396060,
+		396057,
 		81
 	},
 	index_rare3 = {
-		396141,
+		396138,
 		79
 	},
 	index_rare4 = {
-		396220,
+		396217,
 		80
 	},
 	index_rare5 = {
-		396300,
+		396297,
 		85
 	},
 	index_rare6 = {
-		396385,
+		396382,
 		80
 	},
 	warning_mail_max_1 = {
-		396465,
+		396462,
 		197
 	},
 	warning_mail_max_2 = {
-		396662,
+		396659,
 		103
 	},
 	warning_mail_max_3 = {
-		396765,
+		396762,
 		196
 	},
 	warning_mail_max_4 = {
-		396961,
+		396958,
 		209
 	},
 	warning_mail_max_5 = {
-		397170,
+		397167,
 		141
 	},
 	mail_moveto_markroom_1 = {
-		397311,
+		397308,
 		223
 	},
 	mail_moveto_markroom_2 = {
-		397534,
+		397531,
 		233
 	},
 	mail_moveto_markroom_max = {
-		397767,
+		397764,
 		186
 	},
 	mail_markroom_delete = {
-		397953,
+		397950,
 		153
 	},
 	mail_markroom_tip = {
-		398106,
+		398103,
 		135
 	},
 	mail_manage_1 = {
-		398241,
+		398238,
 		80
 	},
 	mail_manage_2 = {
-		398321,
+		398318,
 		109
 	},
 	mail_manage_3 = {
-		398430,
+		398427,
 		116
 	},
 	mail_manage_tip_1 = {
-		398546,
+		398543,
 		156
 	},
 	mail_storeroom_tips = {
-		398702,
+		398699,
 		139
 	},
 	mail_storeroom_noextend = {
-		398841,
+		398838,
 		168
 	},
 	mail_storeroom_extend = {
-		399009,
+		399006,
 		111
 	},
 	mail_storeroom_extend_1 = {
-		399120,
+		399117,
 		104
 	},
 	mail_storeroom_taken_1 = {
-		399224,
+		399221,
 		104
 	},
 	mail_storeroom_max_1 = {
-		399328,
+		399325,
 		185
 	},
 	mail_storeroom_max_2 = {
-		399513,
+		399510,
 		136
 	},
 	mail_storeroom_max_3 = {
-		399649,
+		399646,
 		139
 	},
 	mail_storeroom_max_4 = {
-		399788,
+		399785,
 		142
 	},
 	mail_storeroom_addgold = {
-		399930,
+		399927,
 		103
 	},
 	mail_storeroom_addoil = {
-		400033,
+		400030,
 		100
 	},
 	mail_storeroom_collect = {
-		400133,
+		400130,
 		139
 	},
 	mail_search = {
-		400272,
+		400269,
 		87
 	},
 	mail_storeroom_resourcetaken = {
-		400359,
+		400356,
 		107
 	},
 	resource_max_tip_storeroom = {
-		400466,
+		400463,
 		131
 	},
 	mail_tip = {
-		400597,
+		400594,
 		1328
 	},
 	mail_page_1 = {
-		401925,
+		401922,
 		79
 	},
 	mail_page_2 = {
-		402004,
+		402001,
 		82
 	},
 	mail_page_3 = {
-		402086,
+		402083,
 		82
 	},
 	mail_gold_res = {
-		402168,
+		402165,
 		82
 	},
 	mail_oil_res = {
-		402250,
+		402247,
 		79
 	},
 	mail_all_price = {
-		402329,
+		402326,
 		84
 	},
 	return_award_bind_success = {
-		402413,
+		402410,
 		110
 	},
 	return_award_bind_erro = {
-		402523,
+		402520,
 		106
 	},
 	rename_commander_erro = {
-		402629,
+		402626,
 		111
 	},
 	change_display_medal_success = {
-		402740,
+		402737,
 		123
 	},
 	limit_skin_time_day = {
-		402863,
+		402860,
 		103
 	},
 	limit_skin_time_day_min = {
-		402966,
+		402963,
 		108
 	},
 	limit_skin_time_min = {
-		403074,
+		403071,
 		106
 	},
 	limit_skin_time_overtime = {
-		403180,
+		403177,
 		136
 	},
 	limit_skin_time_before_maintenance = {
-		403316,
+		403313,
 		119
 	},
 	award_window_pt_title = {
-		403435,
+		403432,
 		101
 	},
 	return_have_participated_in_act = {
-		403536,
+		403533,
 		140
 	},
 	input_returner_code = {
-		403676,
+		403673,
 		92
 	},
 	dress_up_success = {
-		403768,
+		403765,
 		115
 	},
 	already_have_the_skin = {
-		403883,
+		403880,
 		111
 	},
 	exchange_limit_skin_tip = {
-		403994,
+		403991,
 		188
 	},
 	returner_help = {
-		404182,
+		404179,
 		1925
 	},
 	attire_time_stamp = {
-		406107,
+		406104,
 		90
 	},
 	pray_build_select_ship_instruction = {
-		406197,
+		406194,
 		117
 	},
 	warning_pray_build_pool = {
-		406314,
+		406311,
 		212
 	},
 	error_pray_select_ship_max = {
-		406526,
+		406523,
 		113
 	},
 	tip_pray_build_pool_success = {
-		406639,
+		406636,
 		118
 	},
 	tip_pray_build_pool_fail = {
-		406757,
+		406754,
 		116
 	},
 	pray_build_help = {
-		406873,
+		406870,
 		2296
 	},
 	pray_build_UR_warning = {
-		409169,
+		409166,
 		161
 	},
 	bismarck_award_tip = {
-		409330,
+		409327,
 		118
 	},
 	bismarck_chapter_desc = {
-		409448,
+		409445,
 		171
 	},
 	returner_push_success = {
-		409619,
+		409616,
 		115
 	},
 	returner_max_count = {
-		409734,
+		409731,
 		126
 	},
 	returner_push_tip = {
-		409860,
+		409857,
 		240
 	},
 	returner_match_tip = {
-		410100,
+		410097,
 		232
 	},
 	return_lock_tip = {
-		410332,
+		410329,
 		134
 	},
 	challenge_help = {
-		410466,
+		410463,
 		1901
 	},
 	challenge_casual_reset = {
-		412367,
+		412364,
 		138
 	},
 	challenge_infinite_reset = {
-		412505,
+		412502,
 		153
 	},
 	challenge_normal_reset = {
-		412658,
+		412655,
 		132
 	},
 	challenge_casual_click_switch = {
-		412790,
+		412787,
 		184
 	},
 	challenge_infinite_click_switch = {
-		412974,
+		412971,
 		189
 	},
 	challenge_season_update = {
-		413163,
+		413160,
 		126
 	},
 	challenge_season_update_casual_clear = {
-		413289,
+		413286,
 		240
 	},
 	challenge_season_update_infinite_clear = {
-		413529,
+		413526,
 		245
 	},
 	challenge_season_update_casual_switch = {
-		413774,
+		413771,
 		274
 	},
 	challenge_season_update_infinite_switch = {
-		414048,
+		414045,
 		286
 	},
 	challenge_combat_score = {
-		414334,
+		414331,
 		101
 	},
 	challenge_share_progress = {
-		414435,
+		414432,
 		107
 	},
 	challenge_share = {
-		414542,
+		414539,
 		85
 	},
 	challenge_expire_warn = {
-		414627,
+		414624,
 		170
 	},
 	challenge_normal_tip = {
-		414797,
+		414794,
 		146
 	},
 	challenge_unlimited_tip = {
-		414943,
+		414940,
 		151
 	},
 	commander_prefab_rename_success = {
-		415094,
+		415091,
 		118
 	},
 	commander_prefab_name = {
-		415212,
+		415209,
 		92
 	},
 	commander_prefab_rename_time = {
-		415304,
+		415301,
 		145
 	},
 	commander_build_solt_deficiency = {
-		415449,
+		415446,
 		159
 	},
 	commander_select_box_tip = {
-		415608,
+		415605,
 		172
 	},
 	challenge_end_tip = {
-		415780,
+		415777,
 		107
 	},
 	pass_times = {
-		415887,
+		415884,
 		87
 	},
 	list_empty_tip_billboardui = {
-		415974,
+		415971,
 		116
 	},
 	list_empty_tip_equipmentdesignui = {
-		416090,
+		416087,
 		126
 	},
 	list_empty_tip_storehouseui_equip = {
-		416216,
+		416213,
 		121
 	},
 	list_empty_tip_storehouseui_item = {
-		416337,
+		416334,
 		125
 	},
 	list_empty_tip_eventui = {
-		416462,
+		416459,
 		118
 	},
 	list_empty_tip_guildrequestui = {
-		416580,
+		416577,
 		123
 	},
 	list_empty_tip_joinguildui = {
-		416703,
+		416700,
 		137
 	},
 	list_empty_tip_friendui = {
-		416840,
+		416837,
 		114
 	},
 	list_empty_tip_friendui_search = {
-		416954,
+		416951,
 		145
 	},
 	list_empty_tip_friendui_request = {
-		417099,
+		417096,
 		132
 	},
 	list_empty_tip_friendui_black = {
-		417231,
+		417228,
 		136
 	},
 	list_empty_tip_dockyardui = {
-		417367,
+		417364,
 		135
 	},
 	list_empty_tip_taskscene = {
-		417502,
+		417499,
 		120
 	},
 	empty_tip_mailboxui = {
-		417622,
+		417619,
 		117
 	},
 	emptymarkroom_tip_mailboxui = {
-		417739,
+		417736,
 		122
 	},
 	empty_tip_mailboxui_en = {
-		417861,
+		417858,
 		116
 	},
 	emptymarkroom_tip_mailboxui_en = {
-		417977,
+		417974,
 		126
 	},
 	words_settings_unlock_ship = {
-		418103,
+		418100,
 		105
 	},
 	words_settings_resolve_equip = {
-		418208,
+		418205,
 		107
 	},
 	words_settings_unlock_commander = {
-		418315,
+		418312,
 		116
 	},
 	words_settings_create_inherit = {
-		418431,
+		418428,
 		109
 	},
 	tips_fail_secondarypwd_much_times = {
-		418540,
+		418537,
 		185
 	},
 	words_desc_unlock = {
-		418725,
+		418722,
 		131
 	},
 	words_desc_resolve_equip = {
-		418856,
+		418853,
 		138
 	},
 	words_desc_create_inherit = {
-		418994,
+		418991,
 		105
 	},
 	words_desc_close_password = {
-		419099,
+		419096,
 		123
 	},
 	words_desc_change_settings = {
-		419222,
+		419219,
 		137
 	},
 	words_set_password = {
-		419359,
+		419356,
 		107
 	},
 	words_information = {
-		419466,
+		419463,
 		85
 	},
 	Word_Ship_Exp_Buff = {
-		419551,
+		419548,
 		92
 	},
 	secondarypassword_incorrectpwd_error = {
-		419643,
+		419640,
 		193
 	},
 	secondary_password_help = {
-		419836,
+		419833,
 		1501
 	},
 	comic_help = {
-		421337,
+		421334,
 		365
 	},
 	secondarypassword_illegal_tip = {
-		421702,
+		421699,
 		135
 	},
 	pt_cosume = {
-		421837,
+		421834,
 		80
 	},
 	secondarypassword_confirm_tips = {
-		421917,
+		421914,
 		178
 	},
 	help_tempesteve = {
-		422095,
+		422092,
 		800
 	},
 	word_rest_times = {
-		422895,
+		422892,
 		118
 	},
 	common_buy_gold_success = {
-		423013,
+		423010,
 		144
 	},
 	harbour_bomb_tip = {
-		423157,
+		423154,
 		110
 	},
 	submarine_approach = {
-		423267,
+		423264,
 		101
 	},
 	submarine_approach_desc = {
-		423368,
+		423365,
 		130
 	},
 	desc_quick_play = {
-		423498,
+		423495,
 		91
 	},
 	text_win_condition = {
-		423589,
+		423586,
 		97
 	},
 	text_lose_condition = {
-		423686,
+		423683,
 		99
 	},
 	text_rest_HP = {
-		423785,
+		423782,
 		93
 	},
 	desc_defense_reward = {
-		423878,
+		423875,
 		152
 	},
 	desc_base_hp = {
-		424030,
+		424027,
 		99
 	},
 	map_event_open = {
-		424129,
+		424126,
 		105
 	},
 	word_reward = {
-		424234,
+		424231,
 		82
 	},
 	tips_dispense_completed = {
-		424316,
+		424313,
 		103
 	},
 	tips_firework_completed = {
-		424419,
+		424416,
 		116
 	},
 	help_summer_feast = {
-		424535,
+		424532,
 		1164
 	},
 	help_firework_produce = {
-		425699,
+		425696,
 		668
 	},
 	help_firework = {
-		426367,
+		426364,
 		1685
 	},
 	help_summer_shrine = {
-		428052,
+		428049,
 		1066
 	},
 	help_summer_food = {
-		429118,
+		429115,
 		1622
 	},
 	help_summer_shooting = {
-		430740,
+		430737,
 		1075
 	},
 	help_summer_stamp = {
-		431815,
+		431812,
 		341
 	},
 	tips_summergame_exit = {
-		432156,
+		432153,
 		198
 	},
 	tips_shrine_buff = {
-		432354,
+		432351,
 		121
 	},
 	tips_shrine_nobuff = {
-		432475,
+		432472,
 		175
 	},
 	paint_hide_other_obj_tip = {
-		432650,
+		432647,
 		111
 	},
 	help_vote = {
-		432761,
+		432758,
 		6103
 	},
 	tips_firework_exit = {
-		438864,
+		438861,
 		157
 	},
 	result_firework_produce = {
-		439021,
+		439018,
 		148
 	},
 	tag_level_narrative = {
-		439169,
+		439166,
 		88
 	},
 	vote_get_book = {
-		439257,
+		439254,
 		115
 	},
 	vote_book_is_over = {
-		439372,
+		439369,
 		115
 	},
 	vote_fame_tip = {
-		439487,
+		439484,
 		167
 	},
 	word_maintain = {
-		439654,
+		439651,
 		94
 	},
 	name_zhanliejahe = {
-		439748,
+		439745,
 		97
 	},
 	change_skin_secretary_ship_success = {
-		439845,
+		439842,
 		124
 	},
 	change_skin_secretary_ship = {
-		439969,
+		439966,
 		103
 	},
 	word_billboard = {
-		440072,
+		440069,
 		86
 	},
 	word_easy = {
-		440158,
+		440155,
 		77
 	},
 	word_normal_junhe = {
-		440235,
+		440232,
 		87
 	},
 	word_hard = {
-		440322,
+		440319,
 		77
 	},
 	word_special_challenge_ticket = {
-		440399,
+		440396,
 		105
 	},
 	tip_exchange_ticket = {
-		440504,
+		440501,
 		177
 	},
 	dont_remind = {
-		440681,
+		440678,
 		89
 	},
 	worldbossex_help = {
-		440770,
+		440767,
 		909
 	},
 	ship_formationUI_fleetName_easy = {
-		441679,
+		441676,
 		99
 	},
 	ship_formationUI_fleetName_normal = {
-		441778,
+		441775,
 		103
 	},
 	ship_formationUI_fleetName_hard = {
-		441881,
+		441878,
 		99
 	},
 	ship_formationUI_fleetName_extra = {
-		441980,
+		441977,
 		98
 	},
 	ship_formationUI_fleetName_easy_ss = {
-		442078,
+		442075,
 		114
 	},
 	ship_formationUI_fleetName_normal_ss = {
-		442192,
+		442189,
 		118
 	},
 	ship_formationUI_fleetName_hard_ss = {
-		442310,
+		442307,
 		114
 	},
 	ship_formationUI_fleetName_extra_ss = {
-		442424,
+		442421,
 		113
 	},
 	text_consume = {
-		442537,
+		442534,
 		80
 	},
 	text_inconsume = {
-		442617,
+		442614,
 		80
 	},
 	pt_ship_now = {
-		442697,
+		442694,
 		93
 	},
 	pt_ship_goal = {
-		442790,
+		442787,
 		81
 	},
 	option_desc1 = {
-		442871,
+		442868,
 		165
 	},
 	option_desc2 = {
-		443036,
+		443033,
 		158
 	},
 	option_desc3 = {
-		443194,
+		443191,
 		167
 	},
 	option_desc4 = {
-		443361,
+		443358,
 		202
 	},
 	option_desc5 = {
-		443563,
+		443560,
 		140
 	},
 	option_desc6 = {
-		443703,
+		443700,
 		155
 	},
 	option_desc10 = {
-		443858,
+		443855,
 		143
 	},
 	option_desc11 = {
-		444001,
+		443998,
 		1748
 	},
 	music_collection = {
-		445749,
+		445746,
 		859
 	},
 	music_main = {
-		446608,
+		446605,
 		1073
 	},
 	music_juus = {
-		447681,
+		447678,
 		1103
 	},
 	doa_collection = {
-		448784,
+		448781,
 		843
 	},
 	ins_word_day = {
-		449627,
+		449624,
 		88
 	},
 	ins_word_hour = {
-		449715,
+		449712,
 		89
 	},
 	ins_word_minu = {
-		449804,
+		449801,
 		91
 	},
 	ins_word_like = {
-		449895,
+		449892,
 		85
 	},
 	ins_click_like_success = {
-		449980,
+		449977,
 		106
 	},
 	ins_push_comment_success = {
-		450086,
+		450083,
 		120
 	},
 	skinshop_live2d_fliter_failed = {
-		450206,
+		450203,
 		146
 	},
 	help_music_game = {
-		450352,
+		450349,
 		1355
 	},
 	restart_music_game = {
-		451707,
+		451704,
 		130
 	},
 	reselect_music_game = {
-		451837,
+		451834,
 		144
 	},
 	hololive_goodmorning = {
-		451981,
+		451978,
 		852
 	},
 	hololive_lianliankan = {
-		452833,
+		452830,
 		1410
 	},
 	hololive_dalaozhang = {
-		454243,
+		454240,
 		764
 	},
 	hololive_dashenling = {
-		455007,
+		455004,
 		1927
 	},
 	pocky_jiujiu = {
-		456934,
+		456931,
 		94
 	},
 	pocky_jiujiu_desc = {
-		457028,
+		457025,
 		118
 	},
 	pocky_help = {
-		457146,
+		457143,
 		697
 	},
 	secretary_help = {
-		457843,
+		457840,
 		2209
 	},
 	secretary_unlock2 = {
-		460052,
+		460049,
 		108
 	},
 	secretary_unlock3 = {
-		460160,
+		460157,
 		108
 	},
 	secretary_unlock4 = {
-		460268,
+		460265,
 		108
 	},
 	secretary_unlock5 = {
-		460376,
+		460373,
 		109
 	},
 	secretary_closed = {
-		460485,
+		460482,
 		88
 	},
 	confirm_unlock = {
-		460573,
+		460570,
 		113
 	},
 	secretary_pos_save = {
-		460686,
+		460683,
 		143
 	},
 	secretary_pos_save_success = {
-		460829,
+		460826,
 		105
 	},
 	collection_help = {
-		460934,
+		460931,
 		346
 	},
 	juese_tiyan = {
-		461280,
+		461277,
 		239
 	},
 	resolve_amount_prefix = {
-		461519,
+		461516,
 		104
 	},
 	compose_amount_prefix = {
-		461623,
+		461620,
 		100
 	},
 	help_sub_limits = {
-		461723,
+		461720,
 		92
 	},
 	help_sub_display = {
-		461815,
+		461812,
 		104
 	},
 	confirm_unlock_ship_main = {
-		461919,
+		461916,
 		151
 	},
 	msgbox_text_confirm = {
-		462070,
+		462067,
 		90
 	},
 	msgbox_text_shop = {
-		462160,
+		462157,
 		85
 	},
 	msgbox_text_cancel = {
-		462245,
+		462242,
 		88
 	},
 	msgbox_text_cancel_g = {
-		462333,
+		462330,
 		90
 	},
 	msgbox_text_cancel_fight = {
-		462423,
+		462420,
 		100
 	},
 	msgbox_text_goon_fight = {
-		462523,
+		462520,
 		94
 	},
 	msgbox_text_exit = {
-		462617,
+		462614,
 		84
 	},
 	msgbox_text_clear = {
-		462701,
+		462698,
 		86
 	},
 	msgbox_text_apply = {
-		462787,
+		462784,
 		85
 	},
 	msgbox_text_buy = {
-		462872,
+		462869,
 		87
 	},
 	msgbox_text_noPos_buy = {
-		462959,
+		462956,
 		91
 	},
 	msgbox_text_noPos_clear = {
-		463050,
+		463047,
 		91
 	},
 	msgbox_text_noPos_intensify = {
-		463141,
+		463138,
 		98
 	},
 	msgbox_text_forward = {
-		463239,
+		463236,
 		85
 	},
 	msgbox_text_iknow = {
-		463324,
+		463321,
 		87
 	},
 	msgbox_text_prepage = {
-		463411,
+		463408,
 		87
 	},
 	msgbox_text_nextpage = {
-		463498,
+		463495,
 		88
 	},
 	msgbox_text_exchange = {
-		463586,
+		463583,
 		92
 	},
 	msgbox_text_retreat = {
-		463678,
+		463675,
 		90
 	},
 	msgbox_text_go = {
-		463768,
+		463765,
 		80
 	},
 	msgbox_text_consume = {
-		463848,
+		463845,
 		87
 	},
 	msgbox_text_inconsume = {
-		463935,
+		463932,
 		87
 	},
 	msgbox_text_unlock = {
-		464022,
+		464019,
 		88
 	},
 	msgbox_text_save = {
-		464110,
+		464107,
 		85
 	},
 	msgbox_text_replace = {
-		464195,
+		464192,
 		88
 	},
 	msgbox_text_unload = {
-		464283,
+		464280,
 		89
 	},
 	msgbox_text_modify = {
-		464372,
+		464369,
 		89
 	},
 	msgbox_text_breakthrough = {
-		464461,
+		464458,
 		93
 	},
 	msgbox_text_equipdetail = {
-		464554,
+		464551,
 		94
 	},
 	msgbox_text_use = {
-		464648,
+		464645,
 		82
 	},
 	common_flag_ship = {
-		464730,
+		464727,
 		89
 	},
 	fenjie_lantu_tip = {
-		464819,
+		464816,
 		188
 	},
 	msgbox_text_analyse = {
-		465007,
+		465004,
 		90
 	},
 	fragresolve_empty_tip = {
-		465097,
+		465094,
 		151
 	},
 	confirm_unlock_lv = {
-		465248,
+		465245,
 		121
 	},
 	shops_rest_day = {
-		465369,
+		465366,
 		98
 	},
 	title_limit_time = {
-		465467,
+		465464,
 		91
 	},
 	seven_choose_one = {
-		465558,
+		465555,
 		224
 	},
 	help_newyear_feast = {
-		465782,
+		465779,
 		1386
 	},
 	help_newyear_shrine = {
-		467168,
+		467165,
 		1243
 	},
 	help_newyear_stamp = {
-		468411,
+		468408,
 		238
 	},
 	pt_reconfirm = {
-		468649,
+		468646,
 		124
 	},
 	qte_game_help = {
-		468773,
+		468770,
 		340
 	},
 	word_equipskin_type = {
-		469113,
+		469110,
 		88
 	},
 	word_equipskin_all = {
-		469201,
+		469198,
 		86
 	},
 	word_equipskin_cannon = {
-		469287,
+		469284,
 		95
 	},
 	word_equipskin_tarpedo = {
-		469382,
+		469379,
 		96
 	},
 	word_equipskin_aircraft = {
-		469478,
+		469475,
 		96
 	},
 	word_equipskin_aux = {
-		469574,
+		469571,
 		86
 	},
 	msgbox_repair = {
-		469660,
+		469657,
 		91
 	},
 	msgbox_repair_l2d = {
-		469751,
+		469748,
 		95
 	},
 	msgbox_repair_painting = {
-		469846,
+		469843,
 		105
 	},
 	l2d_32xbanned_warning = {
-		469951,
+		469948,
 		174
 	},
 	word_no_cache = {
-		470125,
+		470122,
 		107
 	},
 	pile_game_notice = {
-		470232,
+		470229,
 		993
 	},
 	help_chunjie_stamp = {
-		471225,
+		471222,
 		677
 	},
 	help_chunjie_feast = {
-		471902,
+		471899,
 		670
 	},
 	help_chunjie_jiulou = {
-		472572,
+		472569,
 		755
 	},
 	special_animal1 = {
-		473327,
+		473324,
 		227
 	},
 	special_animal2 = {
-		473554,
+		473551,
 		287
 	},
 	special_animal3 = {
-		473841,
+		473838,
 		236
 	},
 	special_animal4 = {
-		474077,
+		474074,
 		256
 	},
 	special_animal5 = {
-		474333,
+		474330,
 		251
 	},
 	special_animal6 = {
-		474584,
+		474581,
 		272
 	},
 	special_animal7 = {
-		474856,
+		474853,
 		275
 	},
 	bulin_help = {
-		475131,
+		475128,
 		403
 	},
 	super_bulin = {
-		475534,
+		475531,
 		120
 	},
 	super_bulin_tip = {
-		475654,
+		475651,
 		110
 	},
 	bulin_tip1 = {
-		475764,
+		475761,
 		101
 	},
 	bulin_tip2 = {
-		475865,
+		475862,
 		117
 	},
 	bulin_tip3 = {
-		475982,
+		475979,
 		101
 	},
 	bulin_tip4 = {
-		476083,
+		476080,
 		108
 	},
 	bulin_tip5 = {
-		476191,
+		476188,
 		101
 	},
 	bulin_tip6 = {
-		476292,
+		476289,
 		108
 	},
 	bulin_tip7 = {
-		476400,
+		476397,
 		101
 	},
 	bulin_tip8 = {
-		476501,
+		476498,
 		126
 	},
 	bulin_tip9 = {
-		476627,
+		476624,
 		122
 	},
 	bulin_tip_other1 = {
-		476749,
+		476746,
 		192
 	},
 	bulin_tip_other2 = {
-		476941,
+		476938,
 		109
 	},
 	bulin_tip_other3 = {
-		477050,
+		477047,
 		122
 	},
 	monopoly_left_count = {
-		477172,
+		477169,
 		89
 	},
 	help_chunjie_monopoly = {
-		477261,
+		477258,
 		1083
 	},
 	monoply_drop_ship_step = {
-		478344,
+		478341,
 		157
 	},
 	lanternRiddles_wait_for_reanswer = {
-		478501,
+		478498,
 		144
 	},
 	lanternRiddles_answer_is_wrong = {
-		478645,
+		478642,
 		118
 	},
 	lanternRiddles_answer_is_right = {
-		478763,
+		478760,
 		110
 	},
 	lanternRiddles_gametip = {
-		478873,
+		478870,
 		607
 	},
 	LanternRiddle_wait_time_tip = {
-		479480,
+		479477,
 		105
 	},
 	LinkLinkGame_BestTime = {
-		479585,
+		479582,
 		92
 	},
 	LinkLinkGame_CurTime = {
-		479677,
+		479674,
 		89
 	},
 	sort_attribute = {
-		479766,
+		479763,
 		82
 	},
 	sort_intimacy = {
-		479848,
+		479845,
 		85
 	},
 	index_skin = {
-		479933,
+		479930,
 		82
 	},
 	index_reform = {
-		480015,
+		480012,
 		94
 	},
 	index_reform_cw = {
-		480109,
+		480106,
 		97
 	},
 	index_strengthen = {
-		480206,
+		480203,
 		91
 	},
 	index_special = {
-		480297,
+		480294,
 		84
 	},
 	index_propose_skin = {
-		480381,
+		480378,
 		96
 	},
 	index_not_obtained = {
-		480477,
+		480474,
 		92
 	},
 	index_no_limit = {
-		480569,
+		480566,
 		86
 	},
 	index_awakening = {
-		480655,
+		480652,
 		91
 	},
 	index_not_lvmax = {
-		480746,
+		480743,
 		90
 	},
 	index_spweapon = {
-		480836,
+		480833,
 		91
 	},
 	index_marry = {
-		480927,
+		480924,
 		81
 	},
 	decodegame_gametip = {
-		481008,
+		481005,
 		2081
 	},
 	indexsort_sort = {
-		483089,
+		483086,
 		82
 	},
 	indexsort_index = {
-		483171,
+		483168,
 		84
 	},
 	indexsort_camp = {
-		483255,
+		483252,
 		85
 	},
 	indexsort_type = {
-		483340,
+		483337,
 		82
 	},
 	indexsort_rarity = {
-		483422,
+		483419,
 		86
 	},
 	indexsort_extraindex = {
-		483508,
+		483505,
 		89
 	},
 	indexsort_label = {
-		483597,
+		483594,
 		83
 	},
 	indexsort_sorteng = {
-		483680,
+		483677,
 		85
 	},
 	indexsort_indexeng = {
-		483765,
+		483762,
 		87
 	},
 	indexsort_campeng = {
-		483852,
+		483849,
 		88
 	},
 	indexsort_rarityeng = {
-		483940,
+		483937,
 		89
 	},
 	indexsort_typeeng = {
-		484029,
+		484026,
 		85
 	},
 	indexsort_labeleng = {
-		484114,
+		484111,
 		86
 	},
 	fightfail_up = {
-		484200,
+		484197,
 		139
 	},
 	fightfail_equip = {
-		484339,
+		484336,
 		141
 	},
 	fight_strengthen = {
-		484480,
+		484477,
 		158
 	},
 	fightfail_noequip = {
-		484638,
+		484635,
 		107
 	},
 	fightfail_choiceequip = {
-		484745,
+		484742,
 		136
 	},
 	fightfail_choicestrengthen = {
-		484881,
+		484878,
 		151
 	},
 	sofmap_attention = {
-		485032,
+		485029,
 		258
 	},
 	sofmapsd_1 = {
-		485290,
+		485287,
 		153
 	},
 	sofmapsd_2 = {
-		485443,
+		485440,
 		132
 	},
 	sofmapsd_3 = {
-		485575,
+		485572,
 		110
 	},
 	sofmapsd_4 = {
-		485685,
+		485682,
 		133
 	},
 	inform_level_limit = {
-		485818,
+		485815,
 		138
 	},
 	["3match_tip"] = {
-		485956,
+		485953,
 		381
 	},
 	retire_selectzero = {
-		486337,
+		486334,
 		138
 	},
 	retire_marry_skin = {
-		486475,
+		486472,
 		106
 	},
 	undermist_tip = {
-		486581,
+		486578,
 		143
 	},
 	retire_1 = {
-		486724,
+		486721,
 		254
 	},
 	retire_2 = {
-		486978,
+		486975,
 		256
 	},
 	retire_3 = {
-		487234,
+		487231,
 		96
 	},
 	retire_rarity = {
-		487330,
+		487327,
 		97
 	},
 	retire_title = {
-		487427,
+		487424,
 		91
 	},
 	res_unlock_tip = {
-		487518,
+		487515,
 		120
 	},
 	res_wifi_tip = {
-		487638,
+		487635,
 		206
 	},
 	res_downloading = {
-		487844,
+		487841,
 		90
 	},
 	res_pic_new_tip = {
-		487934,
+		487931,
 		145
 	},
 	res_music_no_pre_tip = {
-		488079,
+		488076,
 		95
 	},
 	res_music_no_next_tip = {
-		488174,
+		488171,
 		95
 	},
 	res_music_new_tip = {
-		488269,
+		488266,
 		106
 	},
 	apple_link_title = {
-		488375,
+		488372,
 		101
 	},
 	retire_setting_help = {
-		488476,
+		488473,
 		883
 	},
 	activity_shop_exchange_count = {
-		489359,
+		489356,
 		98
 	},
 	shops_msgbox_exchange_count = {
-		489457,
+		489454,
 		107
 	},
 	shops_msgbox_output = {
-		489564,
+		489561,
 		92
 	},
 	shop_word_exchange = {
-		489656,
+		489653,
 		89
 	},
 	shop_word_cancel = {
-		489745,
+		489742,
 		86
 	},
 	title_item_ways = {
-		489831,
+		489828,
 		152
 	},
 	item_lack_title = {
-		489983,
+		489980,
 		152
 	},
 	oil_buy_tip_2 = {
-		490135,
+		490132,
 		386
 	},
 	target_chapter_is_lock = {
-		490521,
+		490518,
 		126
 	},
 	ship_book = {
-		490647,
+		490644,
 		104
 	},
 	month_sign_resign = {
-		490751,
+		490748,
 		87
 	},
 	collect_tip = {
-		490838,
+		490835,
 		139
 	},
 	collect_tip2 = {
-		490977,
+		490974,
 		140
 	},
 	word_weakness = {
-		491117,
+		491114,
 		88
 	},
 	special_operation_tip1 = {
-		491205,
+		491202,
 		111
 	},
 	special_operation_tip2 = {
-		491316,
+		491313,
 		111
 	},
 	area_lock = {
-		491427,
+		491424,
 		106
 	},
 	equipment_upgrade_equipped_tag = {
-		491533,
+		491530,
 		105
 	},
 	equipment_upgrade_spare_tag = {
-		491638,
+		491635,
 		102
 	},
 	equipment_upgrade_help = {
-		491740,
+		491737,
 		1285
 	},
 	equipment_upgrade_title = {
-		493025,
+		493022,
 		97
 	},
 	equipment_upgrade_coin_consume = {
-		493122,
+		493119,
 		98
 	},
 	equipment_upgrade_quick_interface_source_chosen = {
-		493220,
+		493217,
 		123
 	},
 	equipment_upgrade_quick_interface_materials_consume = {
-		493343,
+		493340,
 		121
 	},
 	equipment_upgrade_feedback_lack_of_materials = {
-		493464,
+		493461,
 		141
 	},
 	equipment_upgrade_feedback_equipment_consume = {
-		493605,
+		493602,
 		211
 	},
 	equipment_upgrade_feedback_equipment_can_be_produced = {
-		493816,
+		493813,
 		168
 	},
 	equipment_upgrade_quick_interface_feedback_source_chosen = {
-		493984,
+		493981,
 		133
 	},
 	equipment_upgrade_feedback_lack_of_equipment = {
-		494117,
+		494114,
 		127
 	},
 	equipment_upgrade_equipped_unavailable = {
-		494244,
+		494241,
 		211
 	},
 	equipment_upgrade_initial_node = {
-		494455,
+		494452,
 		134
 	},
 	equipment_upgrade_feedback_compose_tip = {
-		494589,
+		494586,
 		192
 	},
 	discount_coupon_tip = {
-		494781,
+		494778,
 		193
 	},
 	pizzahut_help = {
-		494974,
+		494971,
 		738
 	},
 	towerclimbing_gametip = {
-		495712,
+		495709,
 		645
 	},
 	qingdianguangchang_help = {
-		496357,
+		496354,
 		660
 	},
 	building_tip = {
-		497017,
+		497014,
 		177
 	},
 	building_upgrade_tip = {
-		497194,
+		497191,
 		155
 	},
 	msgbox_text_upgrade = {
-		497349,
+		497346,
 		90
 	},
 	towerclimbing_sign_help = {
-		497439,
+		497436,
 		793
 	},
 	building_complete_tip = {
-		498232,
+		498229,
 		102
 	},
 	backyard_theme_refresh_time_tip = {
-		498334,
+		498331,
 		124
 	},
 	backyard_theme_total_print = {
-		498458,
+		498455,
 		95
 	},
 	backyard_theme_shop_title = {
-		498553,
+		498550,
 		105
 	},
 	backyard_theme_mine_title = {
-		498658,
+		498655,
 		99
 	},
 	backyard_theme_collection_title = {
-		498757,
+		498754,
 		107
 	},
 	backyard_theme_ban_upload_tip = {
-		498864,
+		498861,
 		214
 	},
 	backyard_theme_upload_over_maxcnt = {
-		499078,
+		499075,
 		194
 	},
 	backyard_theme_apply_tip1 = {
-		499272,
+		499269,
 		208
 	},
 	backyard_theme_word_buy = {
-		499480,
+		499477,
 		90
 	},
 	backyard_theme_word_apply = {
-		499570,
+		499567,
 		94
 	},
 	backyard_theme_apply_success = {
-		499664,
+		499661,
 		105
 	},
 	backyard_theme_unload_success = {
-		499769,
+		499766,
 		109
 	},
 	backyard_theme_upload_success = {
-		499878,
+		499875,
 		101
 	},
 	backyard_theme_delete_success = {
-		499979,
+		499976,
 		100
 	},
 	backyard_theme_apply_tip2 = {
-		500079,
+		500076,
 		138
 	},
 	backyard_theme_upload_cnt = {
-		500217,
+		500214,
 		113
 	},
 	backyard_theme_upload_time = {
-		500330,
+		500327,
 		102
 	},
 	backyard_theme_word_like = {
-		500432,
+		500429,
 		93
 	},
 	backyard_theme_word_collection = {
-		500525,
+		500522,
 		103
 	},
 	backyard_theme_cancel_collection = {
-		500628,
+		500625,
 		138
 	},
 	backyard_theme_inform_them = {
-		500766,
+		500763,
 		105
 	},
 	open_backyard_theme_template_tip = {
-		500871,
+		500868,
 		143
 	},
 	backyard_theme_cancel_template_upload_tip = {
-		501014,
+		501011,
 		249
 	},
 	backyard_theme_delete_themplate_tip = {
-		501263,
+		501260,
 		228
 	},
 	backyard_theme_template_be_delete_tip = {
-		501491,
+		501488,
 		140
 	},
 	backyard_theme_template_collection_cnt_max = {
-		501631,
+		501628,
 		143
 	},
 	backyard_theme_template_collection_cnt = {
-		501774,
+		501771,
 		120
 	},
 	words_visit_backyard_toggle = {
-		501894,
+		501891,
 		124
 	},
 	words_show_friend_backyardship_toggle = {
-		502018,
+		502015,
 		154
 	},
 	words_show_my_backyardship_toggle = {
-		502172,
+		502169,
 		154
 	},
 	option_desc7 = {
-		502326,
+		502323,
 		133
 	},
 	option_desc8 = {
-		502459,
+		502456,
 		147
 	},
 	option_desc9 = {
-		502606,
+		502603,
 		174
 	},
 	backyard_unopen = {
-		502780,
+		502777,
 		108
 	},
 	backyard_shop_refresh_frequently = {
-		502888,
+		502885,
 		157
 	},
 	word_random = {
-		503045,
+		503042,
 		81
 	},
 	word_hot = {
-		503126,
+		503123,
 		75
 	},
 	word_new = {
-		503201,
+		503198,
 		75
 	},
 	backyard_decoration_theme_template_delete_tip = {
-		503276,
+		503273,
 		210
 	},
 	backyard_not_found_theme_template = {
-		503486,
+		503483,
 		128
 	},
 	backyard_apply_theme_template_erro = {
-		503614,
+		503611,
 		122
 	},
 	backyard_theme_template_list_is_empty = {
-		503736,
+		503733,
 		121
 	},
 	BackYard_collection_be_delete_tip = {
-		503857,
+		503854,
 		181
 	},
 	help_monopoly_car = {
-		504038,
+		504035,
 		1056
 	},
 	help_monopoly_car_2 = {
-		505094,
+		505091,
 		1125
 	},
 	help_monopoly_3th = {
-		506219,
+		506216,
 		795
 	},
 	backYard_missing_furnitrue_tip = {
-		507014,
+		507011,
 		114
 	},
 	win_condition_display_qijian = {
-		507128,
+		507125,
 		120
 	},
 	win_condition_display_qijian_tip = {
-		507248,
+		507245,
 		126
 	},
 	win_condition_display_shangchuan = {
-		507374,
+		507371,
 		151
 	},
 	win_condition_display_shangchuan_tip = {
-		507525,
+		507522,
 		170
 	},
 	win_condition_display_judian = {
-		507695,
+		507692,
 		116
 	},
 	win_condition_display_tuoli = {
-		507811,
+		507808,
 		126
 	},
 	win_condition_display_tuoli_tip = {
-		507937,
+		507934,
 		130
 	},
 	lose_condition_display_quanmie = {
-		508067,
+		508064,
 		123
 	},
 	lose_condition_display_gangqu = {
-		508190,
+		508187,
 		155
 	},
 	re_battle = {
-		508345,
+		508342,
 		79
 	},
 	keep_fate_tip = {
-		508424,
+		508421,
 		148
 	},
 	equip_info_1 = {
-		508572,
+		508569,
 		79
 	},
 	equip_info_2 = {
-		508651,
+		508648,
 		84
 	},
 	equip_info_3 = {
-		508735,
+		508732,
 		89
 	},
 	equip_info_4 = {
-		508824,
+		508821,
 		81
 	},
 	equip_info_5 = {
-		508905,
+		508902,
 		85
 	},
 	equip_info_6 = {
-		508990,
+		508987,
 		90
 	},
 	equip_info_7 = {
-		509080,
+		509077,
 		86
 	},
 	equip_info_8 = {
-		509166,
+		509163,
 		86
 	},
 	equip_info_9 = {
-		509252,
+		509249,
 		90
 	},
 	equip_info_10 = {
-		509342,
+		509339,
 		85
 	},
 	equip_info_11 = {
-		509427,
+		509424,
 		85
 	},
 	equip_info_12 = {
-		509512,
+		509509,
 		89
 	},
 	equip_info_13 = {
-		509601,
+		509598,
 		86
 	},
 	equip_info_14 = {
-		509687,
+		509684,
 		92
 	},
 	equip_info_15 = {
-		509779,
+		509776,
 		87
 	},
 	equip_info_16 = {
-		509866,
+		509863,
 		89
 	},
 	equip_info_17 = {
-		509955,
+		509952,
 		88
 	},
 	equip_info_18 = {
-		510043,
+		510040,
 		89
 	},
 	equip_info_19 = {
-		510132,
+		510129,
 		84
 	},
 	equip_info_20 = {
-		510216,
+		510213,
 		88
 	},
 	equip_info_21 = {
-		510304,
+		510301,
 		85
 	},
 	equip_info_22 = {
-		510389,
+		510386,
 		91
 	},
 	equip_info_23 = {
-		510480,
+		510477,
 		90
 	},
 	equip_info_24 = {
-		510570,
+		510567,
 		86
 	},
 	equip_info_25 = {
-		510656,
+		510653,
 		77
 	},
 	equip_info_26 = {
-		510733,
+		510730,
 		90
 	},
 	equip_info_27 = {
-		510823,
+		510820,
 		77
 	},
 	equip_info_28 = {
-		510900,
+		510897,
 		93
 	},
 	equip_info_29 = {
-		510993,
+		510990,
 		80
 	},
 	equip_info_30 = {
-		511073,
+		511070,
 		80
 	},
 	equip_info_31 = {
-		511153,
+		511150,
 		80
 	},
 	equip_info_32 = {
-		511233,
+		511230,
 		91
 	},
 	equip_info_33 = {
-		511324,
+		511321,
 		89
 	},
 	equip_info_34 = {
-		511413,
+		511410,
 		90
 	},
 	equip_info_extralevel_0 = {
-		511503,
+		511500,
 		94
 	},
 	equip_info_extralevel_1 = {
-		511597,
+		511594,
 		94
 	},
 	equip_info_extralevel_2 = {
-		511691,
+		511688,
 		94
 	},
 	equip_info_extralevel_3 = {
-		511785,
+		511782,
 		94
 	},
 	tec_settings_btn_word = {
-		511879,
+		511876,
 		99
 	},
 	tec_tendency_x = {
-		511978,
+		511975,
 		86
 	},
 	tec_tendency_0 = {
-		512064,
+		512061,
 		86
 	},
 	tec_tendency_1 = {
-		512150,
+		512147,
 		87
 	},
 	tec_tendency_2 = {
-		512237,
+		512234,
 		87
 	},
 	tec_tendency_3 = {
-		512324,
+		512321,
 		87
 	},
 	tec_tendency_4 = {
-		512411,
+		512408,
 		87
 	},
 	tec_tendency_cur_x = {
-		512498,
+		512495,
 		101
 	},
 	tec_tendency_cur_0 = {
-		512599,
+		512596,
 		108
 	},
 	tec_tendency_cur_1 = {
-		512707,
+		512704,
 		107
 	},
 	tec_tendency_cur_2 = {
-		512814,
+		512811,
 		107
 	},
 	tec_tendency_cur_3 = {
-		512921,
+		512918,
 		107
 	},
 	tec_target_catchup_none = {
-		513028,
+		513025,
 		117
 	},
 	tec_target_catchup_selected = {
-		513145,
+		513142,
 		105
 	},
 	tec_tendency_cur_4 = {
-		513250,
+		513247,
 		107
 	},
 	tec_target_catchup_none_x = {
-		513357,
+		513354,
 		108
 	},
 	tec_target_catchup_none_1 = {
-		513465,
+		513462,
 		107
 	},
 	tec_target_catchup_none_2 = {
-		513572,
+		513569,
 		107
 	},
 	tec_target_catchup_none_3 = {
-		513679,
+		513676,
 		107
 	},
 	tec_target_catchup_selected_x = {
-		513786,
+		513783,
 		108
 	},
 	tec_target_catchup_selected_1 = {
-		513894,
+		513891,
 		107
 	},
 	tec_target_catchup_selected_2 = {
-		514001,
+		513998,
 		107
 	},
 	tec_target_catchup_selected_3 = {
-		514108,
+		514105,
 		107
 	},
 	tec_target_catchup_finish_x = {
-		514215,
+		514212,
 		106
 	},
 	tec_target_catchup_finish_1 = {
-		514321,
+		514318,
 		105
 	},
 	tec_target_catchup_finish_2 = {
-		514426,
+		514423,
 		105
 	},
 	tec_target_catchup_finish_3 = {
-		514531,
+		514528,
 		105
 	},
 	tec_target_catchup_finish_4 = {
-		514636,
+		514633,
 		105
 	},
 	tec_target_catchup_dr_finish_tip = {
-		514741,
+		514738,
 		105
 	},
 	tec_target_catchup_all_finish_tip = {
-		514846,
+		514843,
 		114
 	},
 	tec_target_catchup_show_the_finished_version = {
-		514960,
+		514957,
 		133
 	},
 	tec_target_catchup_pry_char = {
-		515093,
+		515090,
 		99
 	},
 	tec_target_catchup_dr_char = {
-		515192,
+		515189,
 		98
 	},
 	tec_target_need_print = {
-		515290,
+		515287,
 		98
 	},
 	tec_target_catchup_progress = {
-		515388,
+		515385,
 		99
 	},
 	tec_target_catchup_select_tip = {
-		515487,
+		515484,
 		135
 	},
 	tec_target_catchup_help_tip = {
-		515622,
+		515619,
 		824
 	},
 	tec_speedup_title = {
-		516446,
+		516443,
 		102
 	},
 	tec_speedup_progress = {
-		516548,
+		516545,
 		94
 	},
 	tec_speedup_overflow = {
-		516642,
+		516639,
 		186
 	},
 	tec_speedup_help_tip = {
-		516828,
+		516825,
 		274
 	},
 	click_back_tip = {
-		517102,
+		517099,
 		92
 	},
 	tech_catchup_sentence_pauses = {
-		517194,
+		517191,
 		95
 	},
 	tec_act_catchup_btn_word = {
-		517289,
+		517286,
 		103
 	},
 	tec_catchup_errorfix = {
-		517392,
+		517389,
 		226
 	},
 	guild_duty_is_too_low = {
-		517618,
+		517615,
 		149
 	},
 	guild_trainee_duty_change_tip = {
-		517767,
+		517764,
 		144
 	},
 	guild_not_exist_donate_task = {
-		517911,
+		517908,
 		121
 	},
 	guild_week_task_state_is_wrong = {
-		518032,
+		518029,
 		131
 	},
 	guild_get_week_done = {
-		518163,
+		518160,
 		127
 	},
 	guild_public_awards = {
-		518290,
+		518287,
 		97
 	},
 	guild_private_awards = {
-		518387,
+		518384,
 		99
 	},
 	guild_task_selecte_tip = {
-		518486,
+		518483,
 		276
 	},
 	guild_task_accept = {
-		518762,
+		518759,
 		374
 	},
 	guild_commander_and_sub_op = {
-		519136,
+		519133,
 		152
 	},
 	["guild_donate_times_not enough"] = {
-		519288,
+		519285,
 		144
 	},
 	guild_donate_success = {
-		519432,
+		519429,
 		108
 	},
 	guild_left_donate_cnt = {
-		519540,
+		519537,
 		118
 	},
 	guild_donate_tip = {
-		519658,
+		519655,
 		228
 	},
 	guild_donate_addition_capital_tip = {
-		519886,
+		519883,
 		125
 	},
 	guild_donate_addition_techpoint_tip = {
-		520011,
+		520008,
 		141
 	},
 	guild_donate_capital_toplimit = {
-		520152,
+		520149,
 		151
 	},
 	guild_donate_techpoint_toplimit = {
-		520303,
+		520300,
 		153
 	},
 	guild_supply_no_open = {
-		520456,
+		520453,
 		121
 	},
 	guild_supply_award_got = {
-		520577,
+		520574,
 		119
 	},
 	guild_new_member_get_award_tip = {
-		520696,
+		520693,
 		181
 	},
 	guild_start_supply_consume_tip = {
-		520877,
+		520874,
 		143
 	},
 	guild_left_supply_day = {
-		521020,
+		521017,
 		99
 	},
 	guild_supply_help_tip = {
-		521119,
+		521116,
 		731
 	},
 	guild_op_only_administrator = {
-		521850,
+		521847,
 		153
 	},
 	guild_shop_refresh_done = {
-		522003,
+		522000,
 		102
 	},
 	guild_shop_cnt_no_enough = {
-		522105,
+		522102,
 		113
 	},
 	guild_shop_refresh_all_tip = {
-		522218,
+		522215,
 		205
 	},
 	guild_shop_exchange_tip = {
-		522423,
+		522420,
 		128
 	},
 	guild_shop_label_1 = {
-		522551,
+		522548,
 		115
 	},
 	guild_shop_label_2 = {
-		522666,
+		522663,
 		87
 	},
 	guild_shop_label_3 = {
-		522753,
+		522750,
 		89
 	},
 	guild_shop_label_4 = {
-		522842,
+		522839,
 		86
 	},
 	guild_shop_label_5 = {
-		522928,
+		522925,
 		119
 	},
 	guild_shop_must_select_goods = {
-		523047,
+		523044,
 		125
 	},
 	guild_not_exist_activation_tech = {
-		523172,
+		523169,
 		143
 	},
 	guild_not_exist_tech = {
-		523315,
+		523312,
 		119
 	},
 	guild_cancel_only_once_pre_day = {
-		523434,
+		523431,
 		144
 	},
 	guild_tech_is_max_level = {
-		523578,
+		523575,
 		132
 	},
 	guild_tech_gold_no_enough = {
-		523710,
+		523707,
 		141
 	},
 	guild_tech_guildgold_no_enough = {
-		523851,
+		523848,
 		153
 	},
 	guild_tech_upgrade_done = {
-		524004,
+		524001,
 		118
 	},
 	guild_exist_activation_tech = {
-		524122,
+		524119,
 		136
 	},
 	guild_tech_gold_desc = {
-		524258,
+		524255,
 		105
 	},
 	guild_tech_oil_desc = {
-		524363,
+		524360,
 		102
 	},
 	guild_tech_shipbag_desc = {
-		524465,
+		524462,
 		101
 	},
 	guild_tech_equipbag_desc = {
-		524566,
+		524563,
 		107
 	},
 	guild_box_gold_desc = {
-		524673,
+		524670,
 		99
 	},
 	guidl_r_box_time_desc = {
-		524772,
+		524769,
 		115
 	},
 	guidl_sr_box_time_desc = {
-		524887,
+		524884,
 		117
 	},
 	guidl_ssr_box_time_desc = {
-		525004,
+		525001,
 		123
 	},
 	guild_member_max_cnt_desc = {
-		525127,
+		525124,
 		110
 	},
 	guild_tech_livness_no_enough = {
-		525237,
+		525234,
 		271
 	},
 	guild_tech_livness_no_enough_label = {
-		525508,
+		525505,
 		126
 	},
 	guild_ship_attr_desc = {
-		525634,
+		525631,
 		133
 	},
 	guild_start_tech_group_tip = {
-		525767,
+		525764,
 		164
 	},
 	guild_cancel_tech_tip = {
-		525931,
+		525928,
 		182
 	},
 	guild_tech_consume_tip = {
-		526113,
+		526110,
 		219
 	},
 	guild_tech_non_admin = {
-		526332,
+		526329,
 		146
 	},
 	guild_tech_label_max_level = {
-		526478,
+		526475,
 		100
 	},
 	guild_tech_label_dev_progress = {
-		526578,
+		526575,
 		102
 	},
 	guild_tech_label_condition = {
-		526680,
+		526677,
 		131
 	},
 	guild_tech_donate_target = {
-		526811,
+		526808,
 		122
 	},
 	guild_not_exist = {
-		526933,
+		526930,
 		105
 	},
 	guild_not_exist_battle = {
-		527038,
+		527035,
 		126
 	},
 	guild_battle_is_end = {
-		527164,
+		527161,
 		121
 	},
 	guild_battle_is_exist = {
-		527285,
+		527282,
 		126
 	},
 	guild_guildgold_no_enough_for_battle = {
-		527411,
+		527408,
 		164
 	},
 	guild_event_start_tip1 = {
-		527575,
+		527572,
 		167
 	},
 	guild_event_start_tip2 = {
-		527742,
+		527739,
 		168
 	},
 	guild_word_may_happen_event = {
-		527910,
+		527907,
 		106
 	},
 	guild_battle_award = {
-		528016,
+		528013,
 		90
 	},
 	guild_word_consume = {
-		528106,
+		528103,
 		87
 	},
 	guild_start_event_consume_tip = {
-		528193,
+		528190,
 		149
 	},
 	guild_start_event_consume_tip_extra = {
-		528342,
+		528339,
 		222
 	},
 	guild_word_consume_for_battle = {
-		528564,
+		528561,
 		99
 	},
 	guild_level_no_enough = {
-		528663,
+		528660,
 		159
 	},
 	guild_open_event_info_when_exist_active = {
-		528822,
+		528819,
 		170
 	},
 	guild_join_event_cnt_label = {
-		528992,
+		528989,
 		117
 	},
 	guild_join_event_max_cnt_tip = {
-		529109,
+		529106,
 		124
 	},
 	guild_join_event_progress_label = {
-		529233,
+		529230,
 		104
 	},
 	guild_join_event_exist_finished_mission_tip = {
-		529337,
+		529334,
 		277
 	},
 	guild_event_not_exist = {
-		529614,
+		529611,
 		119
 	},
 	guild_fleet_can_not_edit = {
-		529733,
+		529730,
 		131
 	},
 	guild_fleet_exist_same_kind_ship = {
-		529864,
+		529861,
 		151
 	},
 	guild_event_exist_same_kind_ship = {
-		530015,
+		530012,
 		171
 	},
 	guidl_event_ship_in_event = {
-		530186,
+		530183,
 		150
 	},
 	guild_event_start_done = {
-		530336,
+		530333,
 		110
 	},
 	guild_fleet_update_done = {
-		530446,
+		530443,
 		122
 	},
 	guild_event_is_lock = {
-		530568,
+		530565,
 		115
 	},
 	guild_event_is_finish = {
-		530683,
+		530680,
 		161
 	},
 	guild_fleet_not_save_tip = {
-		530844,
+		530841,
 		161
 	},
 	guild_word_battle_area = {
-		531005,
+		531002,
 		91
 	},
 	guild_word_battle_type = {
-		531096,
+		531093,
 		91
 	},
 	guild_wrod_battle_target = {
-		531187,
+		531184,
 		99
 	},
 	guild_event_recomm_ship_failed = {
-		531286,
+		531283,
 		139
 	},
 	guild_event_start_event_tip = {
-		531425,
+		531422,
 		208
 	},
 	guild_word_sea = {
-		531633,
+		531630,
 		83
 	},
 	guild_word_score_addition = {
-		531716,
+		531713,
 		106
 	},
 	guild_word_effect_addition = {
-		531822,
+		531819,
 		111
 	},
 	guild_curr_fleet_can_not_edit = {
-		531933,
+		531930,
 		127
 	},
 	guild_next_edit_fleet_time = {
-		532060,
+		532057,
 		125
 	},
 	guild_event_info_desc1 = {
-		532185,
+		532182,
 		197
 	},
 	guild_event_info_desc2 = {
-		532382,
+		532379,
 		128
 	},
 	guild_join_member_cnt = {
-		532510,
+		532507,
 		97
 	},
 	guild_total_effect = {
-		532607,
+		532604,
 		99
 	},
 	guild_word_people = {
-		532706,
+		532703,
 		81
 	},
 	guild_event_info_desc3 = {
-		532787,
+		532784,
 		104
 	},
 	guild_not_exist_boss = {
-		532891,
+		532888,
 		112
 	},
 	guild_ship_from = {
-		533003,
+		533000,
 		84
 	},
 	guild_boss_formation_1 = {
-		533087,
+		533084,
 		160
 	},
 	guild_boss_formation_2 = {
-		533247,
+		533244,
 		146
 	},
 	guild_boss_formation_3 = {
-		533393,
+		533390,
 		123
 	},
 	guild_boss_cnt_no_enough = {
-		533516,
+		533513,
 		131
 	},
 	guild_boss_fleet_cnt_invaild = {
-		533647,
+		533644,
 		137
 	},
 	guild_boss_formation_not_exist_self_ship = {
-		533784,
+		533781,
 		190
 	},
 	guild_boss_formation_exist_event_ship = {
-		533974,
+		533971,
 		161
 	},
 	guild_fleet_is_legal = {
-		534135,
+		534132,
 		157
 	},
 	guild_battle_result_boss_is_death = {
-		534292,
+		534289,
 		134
 	},
 	guild_must_edit_fleet = {
-		534426,
+		534423,
 		112
 	},
 	guild_ship_in_battle = {
-		534538,
+		534535,
 		163
 	},
 	guild_ship_in_assult_fleet = {
-		534701,
+		534698,
 		134
 	},
 	guild_event_exist_assult_ship = {
-		534835,
+		534832,
 		157
 	},
 	guild_formation_erro_in_boss_battle = {
-		534992,
+		534989,
 		168
 	},
 	guild_get_report_failed = {
-		535160,
+		535157,
 		121
 	},
 	guild_report_get_all = {
-		535281,
+		535278,
 		93
 	},
 	guild_can_not_get_tip = {
-		535374,
+		535371,
 		158
 	},
 	guild_not_exist_notifycation = {
-		535532,
+		535529,
 		146
 	},
 	guild_exist_report_award_when_exit = {
-		535678,
+		535675,
 		172
 	},
 	guild_report_tooltip = {
-		535850,
+		535847,
 		243
 	},
 	word_guildgold = {
-		536093,
+		536090,
 		90
 	},
 	guild_member_rank_title_donate = {
-		536183,
+		536180,
 		107
 	},
 	guild_member_rank_title_finish_cnt = {
-		536290,
+		536287,
 		109
 	},
 	guild_member_rank_title_join_cnt = {
-		536399,
+		536396,
 		110
 	},
 	guild_donate_log = {
-		536509,
+		536506,
 		165
 	},
 	guild_supply_log = {
-		536674,
+		536671,
 		148
 	},
 	guild_weektask_log = {
-		536822,
+		536819,
 		148
 	},
 	guild_battle_log = {
-		536970,
+		536967,
 		137
 	},
 	guild_tech_change_log = {
-		537107,
+		537104,
 		136
 	},
 	guild_log_title = {
-		537243,
+		537240,
 		88
 	},
 	guild_use_donateitem_success = {
-		537331,
+		537328,
 		131
 	},
 	guild_use_battleitem_success = {
-		537462,
+		537459,
 		140
 	},
 	not_exist_guild_use_item = {
-		537602,
+		537599,
 		141
 	},
 	guild_member_tip = {
-		537743,
+		537740,
 		2773
 	},
 	guild_tech_tip = {
-		540516,
+		540513,
 		2740
 	},
 	guild_office_tip = {
-		543256,
+		543253,
 		2650
 	},
 	guild_event_help_tip = {
-		545906,
+		545903,
 		2687
 	},
 	guild_mission_info_tip = {
-		548593,
+		548590,
 		1109
 	},
 	guild_public_tech_tip = {
-		549702,
+		549699,
 		660
 	},
 	guild_public_office_tip = {
-		550362,
+		550359,
 		325
 	},
 	guild_tech_price_inc_tip = {
-		550687,
+		550684,
 		258
 	},
 	guild_boss_fleet_desc = {
-		550945,
+		550942,
 		523
 	},
 	guild_boss_formation_exist_invaild_ship = {
-		551468,
+		551465,
 		197
 	},
 	guild_exist_unreceived_supply_award = {
-		551665,
+		551662,
 		127
 	},
 	word_shipState_guild_event = {
-		551792,
+		551789,
 		159
 	},
 	word_shipState_guild_boss = {
-		551951,
+		551948,
 		193
 	},
 	commander_is_in_guild = {
-		552144,
+		552141,
 		195
 	},
 	guild_assult_ship_recommend = {
-		552339,
+		552336,
 		134
 	},
 	guild_cancel_assult_ship_recommend = {
-		552473,
+		552470,
 		132
 	},
 	guild_assult_ship_recommend_conflict = {
-		552605,
+		552602,
 		147
 	},
 	guild_recommend_limit = {
-		552752,
+		552749,
 		143
 	},
 	guild_cancel_assult_ship_recommend_conflict = {
-		552895,
+		552892,
 		169
 	},
 	guild_mission_complate = {
-		553064,
+		553061,
 		110
 	},
 	guild_operation_event_occurrence = {
-		553174,
+		553171,
 		172
 	},
 	guild_transfer_president_confirm = {
-		553346,
+		553343,
 		236
 	},
 	guild_damage_ranking = {
-		553582,
+		553579,
 		88
 	},
 	guild_total_damage = {
-		553670,
+		553667,
 		88
 	},
 	guild_donate_list_updated = {
-		553758,
+		553755,
 		142
 	},
 	guild_donate_list_update_failed = {
-		553900,
+		553897,
 		146
 	},
 	guild_tip_quit_operation = {
-		554046,
+		554043,
 		239
 	},
 	guild_tip_grand_fleet_is_frozen = {
-		554285,
+		554282,
 		144
 	},
 	guild_tip_operation_time_is_not_ample = {
-		554429,
+		554426,
 		355
 	},
 	guild_time_remaining_tip = {
-		554784,
+		554781,
 		104
 	},
 	multiple_ship_energy_low_desc = {
-		554888,
+		554885,
 		142
 	},
 	multiple_ship_energy_low_warn = {
-		555030,
+		555027,
 		142
 	},
 	multiple_ship_energy_low_warn_no_exp = {
-		555172,
+		555169,
 		282
 	},
 	us_error_download_painting = {
-		555454,
+		555451,
 		243
 	},
 	help_rollingBallGame = {
-		555697,
+		555694,
 		1116
 	},
 	rolling_ball_help = {
-		556813,
+		556810,
 		896
 	},
 	help_jiujiu_expedition_game = {
-		557709,
+		557706,
 		723
 	},
 	jiujiu_expedition_game_stg_desc = {
-		558432,
+		558429,
 		125
 	},
 	build_ship_accumulative = {
-		558557,
+		558554,
 		94
 	},
 	destory_ship_before_tip = {
-		558651,
+		558648,
 		98
 	},
 	destory_ship_input_erro = {
-		558749,
+		558746,
 		127
 	},
 	mail_input_erro = {
-		558876,
+		558873,
 		122
 	},
 	destroy_ur_rarity_tip = {
-		558998,
+		558995,
 		225
 	},
 	destory_ur_pt_overflowa = {
-		559223,
+		559220,
 		283
 	},
 	jiujiu_expedition_help = {
-		559506,
+		559503,
 		514
 	},
 	shop_label_unlimt_cnt = {
-		560020,
+		560017,
 		94
 	},
 	jiujiu_expedition_book_tip = {
-		560114,
+		560111,
 		142
 	},
 	jiujiu_expedition_reward_tip = {
-		560256,
+		560253,
 		140
 	},
 	jiujiu_expedition_amount_tip = {
-		560396,
+		560393,
 		172
 	},
 	jiujiu_expedition_stg_tip = {
-		560568,
+		560565,
 		133
 	},
 	trade_card_tips1 = {
-		560701,
+		560698,
 		85
 	},
 	trade_card_tips2 = {
-		560786,
+		560783,
 		273
 	},
 	trade_card_tips3 = {
-		561059,
+		561056,
 		278
 	},
 	trade_card_tips4 = {
-		561337,
+		561334,
 		93
 	},
 	ur_exchange_help_tip = {
-		561430,
+		561427,
 		967
 	},
 	fleet_antisub_range = {
-		562397,
+		562394,
 		95
 	},
 	fleet_antisub_range_tip = {
-		562492,
+		562489,
 		1085
 	},
 	practise_idol_tip = {
-		563577,
+		563574,
 		120
 	},
 	practise_idol_help = {
-		563697,
+		563694,
 		937
 	},
 	upgrade_idol_tip = {
-		564634,
+		564631,
 		153
 	},
 	upgrade_complete_tip = {
-		564787,
+		564784,
 		104
 	},
 	upgrade_introduce_tip = {
-		564891,
+		564888,
 		135
 	},
 	collect_idol_tip = {
-		565026,
+		565023,
 		158
 	},
 	hand_account_tip = {
-		565184,
+		565181,
 		125
 	},
 	hand_account_resetting_tip = {
-		565309,
+		565306,
 		133
 	},
 	help_candymagic = {
-		565442,
+		565439,
 		1060
 	},
 	award_overflow_tip = {
-		566502,
+		566499,
 		172
 	},
 	hunter_npc = {
-		566674,
+		566671,
 		1368
 	},
 	venusvolleyball_help = {
-		568042,
+		568039,
 		869
 	},
 	venusvolleyball_rule_tip = {
-		568911,
+		568908,
 		109
 	},
 	venusvolleyball_return_tip = {
-		569020,
+		569017,
 		125
 	},
 	venusvolleyball_suspend_tip = {
-		569145,
+		569142,
 		109
 	},
 	doa_main = {
-		569254,
+		569251,
 		1443
 	},
 	doa_pt_help = {
-		570697,
+		570694,
 		841
 	},
 	doa_pt_complete = {
-		571538,
+		571535,
 		96
 	},
 	doa_pt_up = {
-		571634,
+		571631,
 		110
 	},
 	doa_liliang = {
-		571744,
+		571741,
 		78
 	},
 	doa_jiqiao = {
-		571822,
+		571819,
 		77
 	},
 	doa_tili = {
-		571899,
+		571896,
 		75
 	},
 	doa_meili = {
-		571974,
+		571971,
 		76
 	},
 	snowball_help = {
-		572050,
+		572047,
 		1745
 	},
 	help_xinnian2021_feast = {
-		573795,
+		573792,
 		533
 	},
 	help_xinnian2021__qiaozhong = {
-		574328,
+		574325,
 		1318
 	},
 	help_xinnian2021__meishiyemian = {
-		575646,
+		575643,
 		703
 	},
 	help_xinnian2021__meishi = {
-		576349,
+		576346,
 		1290
 	},
 	help_act_event = {
-		577639,
+		577636,
 		286
 	},
 	autofight = {
-		577925,
+		577922,
 		84
 	},
 	autofight_errors_tip = {
-		578009,
+		578006,
 		142
 	},
 	autofight_special_operation_tip = {
-		578151,
+		578148,
 		322
 	},
 	autofight_formation = {
-		578473,
+		578470,
 		92
 	},
 	autofight_cat = {
-		578565,
+		578562,
 		87
 	},
 	autofight_function = {
-		578652,
+		578649,
 		86
 	},
 	autofight_function1 = {
-		578738,
+		578735,
 		90
 	},
 	autofight_function2 = {
-		578828,
+		578825,
 		92
 	},
 	autofight_function3 = {
-		578920,
+		578917,
 		94
 	},
 	autofight_function4 = {
-		579014,
+		579011,
 		90
 	},
 	autofight_function5 = {
-		579104,
+		579101,
 		98
 	},
 	autofight_rewards = {
-		579202,
+		579199,
 		94
 	},
 	autofight_rewards_none = {
-		579296,
+		579293,
 		104
 	},
 	autofight_leave = {
-		579400,
+		579397,
 		83
 	},
 	autofight_onceagain = {
-		579483,
+		579480,
 		91
 	},
 	autofight_entrust = {
-		579574,
+		579571,
 		109
 	},
 	autofight_task = {
-		579683,
+		579680,
 		99
 	},
 	autofight_effect = {
-		579782,
+		579779,
 		146
 	},
 	autofight_file = {
-		579928,
+		579925,
 		97
 	},
 	autofight_discovery = {
-		580025,
+		580022,
 		112
 	},
 	autofight_tip_bigworld_dead = {
-		580137,
+		580134,
 		155
 	},
 	autofight_tip_bigworld_begin = {
-		580292,
+		580289,
 		137
 	},
 	autofight_tip_bigworld_stop = {
-		580429,
+		580426,
 		137
 	},
 	autofight_tip_bigworld_suspend = {
-		580566,
+		580563,
 		179
 	},
 	autofight_tip_bigworld_loop = {
-		580745,
+		580742,
 		151
 	},
 	autofight_farm = {
-		580896,
+		580893,
 		91
 	},
 	autofight_story = {
-		580987,
+		580984,
 		117
 	},
 	fushun_adventure_help = {
-		581104,
+		581101,
 		1320
 	},
 	autofight_change_tip = {
-		582424,
+		582421,
 		175
 	},
 	autofight_selectprops_tip = {
-		582599,
+		582596,
 		97
 	},
 	help_chunjie2021_feast = {
-		582696,
+		582693,
 		748
 	},
 	valentinesday__txt1_tip = {
-		583444,
+		583441,
 		174
 	},
 	valentinesday__txt2_tip = {
-		583618,
+		583615,
 		136
 	},
 	valentinesday__txt3_tip = {
-		583754,
+		583751,
 		141
 	},
 	valentinesday__txt4_tip = {
-		583895,
+		583892,
 		148
 	},
 	valentinesday__txt5_tip = {
-		584043,
+		584040,
 		140
 	},
 	valentinesday__txt6_tip = {
-		584183,
+		584180,
 		146
 	},
 	valentinesday__shop_tip = {
-		584329,
+		584326,
 		128
 	},
 	wwf_bamboo_tip1 = {
-		584457,
+		584454,
 		104
 	},
 	wwf_bamboo_tip2 = {
-		584561,
+		584558,
 		103
 	},
 	wwf_bamboo_tip3 = {
-		584664,
+		584661,
 		135
 	},
 	wwf_bamboo_help = {
-		584799,
+		584796,
 		1066
 	},
 	wwf_guide_tip = {
-		585865,
+		585862,
 		113
 	},
 	securitycake_help = {
-		585978,
+		585975,
 		2143
 	},
 	icecream_help = {
-		588121,
+		588118,
 		737
 	},
 	icecream_make_tip = {
-		588858,
+		588855,
 		98
 	},
 	query_role = {
-		588956,
+		588953,
 		86
 	},
 	query_role_none = {
-		589042,
+		589039,
 		87
 	},
 	query_role_button = {
-		589129,
+		589126,
 		94
 	},
 	query_role_fail = {
-		589223,
+		589220,
 		93
 	},
 	query_role_fail_and_retry = {
-		589316,
+		589313,
 		147
 	},
 	cumulative_victory_target_tip = {
-		589463,
+		589460,
 		109
 	},
 	cumulative_victory_now_tip = {
-		589572,
+		589569,
 		108
 	},
 	word_files_repair = {
-		589680,
+		589677,
 		95
 	},
 	repair_setting_label = {
-		589775,
+		589772,
 		98
 	},
 	voice_control = {
-		589873,
+		589870,
 		83
 	},
 	index_equip = {
-		589956,
+		589953,
 		84
 	},
 	index_without_limit = {
-		590040,
+		590037,
 		91
 	},
 	meta_learn_skill = {
-		590131,
+		590128,
 		92
 	},
 	world_joint_boss_not_found = {
-		590223,
+		590220,
 		148
 	},
 	world_joint_boss_is_death = {
-		590371,
+		590368,
 		143
 	},
 	world_joint_whitout_guild = {
-		590514,
+		590511,
 		123
 	},
 	world_joint_whitout_friend = {
-		590637,
+		590634,
 		126
 	},
 	world_joint_call_support_failed = {
-		590763,
+		590760,
 		126
 	},
 	world_joint_call_support_success = {
-		590889,
+		590886,
 		131
 	},
 	world_joint_call_friend_support_txt = {
-		591020,
+		591017,
 		111
 	},
 	world_joint_call_guild_support_txt = {
-		591131,
+		591128,
 		110
 	},
 	world_joint_call_world_support_txt = {
-		591241,
+		591238,
 		110
 	},
 	ad_4 = {
-		591351,
+		591348,
 		228
 	},
 	world_word_expired = {
-		591579,
+		591576,
 		94
 	},
 	world_word_guild_member = {
-		591673,
+		591670,
 		99
 	},
 	world_word_guild_player = {
-		591772,
+		591769,
 		93
 	},
 	world_joint_boss_award_expired = {
-		591865,
+		591862,
 		106
 	},
 	world_joint_not_refresh_frequently = {
-		591971,
+		591968,
 		122
 	},
 	world_joint_exit_battle_tip = {
-		592093,
+		592090,
 		151
 	},
 	world_boss_get_item = {
-		592244,
+		592241,
 		215
 	},
 	world_boss_ask_help = {
-		592459,
+		592456,
 		134
 	},
 	world_joint_count_no_enough = {
-		592593,
+		592590,
 		135
 	},
 	world_boss_none = {
-		592728,
+		592725,
 		133
 	},
 	world_boss_fleet = {
-		592861,
+		592858,
 		100
 	},
 	world_max_challenge_cnt = {
-		592961,
+		592958,
 		144
 	},
 	world_reset_success = {
-		593105,
+		593102,
 		124
 	},
 	world_map_dangerous_confirm = {
-		593229,
+		593226,
 		230
 	},
 	world_map_version = {
-		593459,
+		593456,
 		140
 	},
 	world_resource_fill = {
-		593599,
+		593596,
 		130
 	},
 	meta_sys_lock_tip = {
-		593729,
+		593726,
 		93
 	},
 	meta_story_lock = {
-		593822,
+		593819,
 		91
 	},
 	meta_acttime_limit = {
-		593913,
+		593910,
 		90
 	},
 	meta_pt_left = {
-		594003,
+		594000,
 		88
 	},
 	meta_syn_rate = {
-		594091,
+		594088,
 		86
 	},
 	meta_repair_rate = {
-		594177,
+		594174,
 		99
 	},
 	meta_story_tip_1 = {
-		594276,
+		594273,
 		92
 	},
 	meta_story_tip_2 = {
-		594368,
+		594365,
 		92
 	},
 	meta_pt_get_way = {
-		594460,
+		594457,
 		91
 	},
 	meta_pt_point = {
-		594551,
+		594548,
 		84
 	},
 	meta_award_get = {
-		594635,
+		594632,
 		85
 	},
 	meta_award_got = {
-		594720,
+		594717,
 		85
 	},
 	meta_repair = {
-		594805,
+		594802,
 		89
 	},
 	meta_repair_success = {
-		594894,
+		594891,
 		117
 	},
 	meta_repair_effect_unlock = {
-		595011,
+		595008,
 		125
 	},
 	meta_repair_effect_special = {
-		595136,
+		595133,
 		122
 	},
 	meta_energy_ship_level_need = {
-		595258,
+		595255,
 		115
 	},
 	meta_energy_ship_repairrate_need = {
-		595373,
+		595370,
 		125
 	},
 	meta_energy_active_box_tip = {
-		595498,
+		595495,
 		192
 	},
 	meta_break = {
-		595690,
+		595687,
 		127
 	},
 	meta_energy_preview_title = {
-		595817,
+		595814,
 		123
 	},
 	meta_energy_preview_tip = {
-		595940,
+		595937,
 		138
 	},
 	meta_exp_per_day = {
-		596078,
+		596075,
 		90
 	},
 	meta_skill_unlock = {
-		596168,
+		596165,
 		108
 	},
 	meta_unlock_skill_tip = {
-		596276,
+		596273,
 		160
 	},
 	meta_unlock_skill_select = {
-		596436,
+		596433,
 		100
 	},
 	meta_switch_skill_disable = {
-		596536,
+		596533,
 		138
 	},
 	meta_switch_skill_box_title = {
-		596674,
+		596671,
 		128
 	},
 	meta_cur_pt = {
-		596802,
+		596799,
 		87
 	},
 	meta_toast_fullexp = {
-		596889,
+		596886,
 		115
 	},
 	meta_toast_tactics = {
-		597004,
+		597001,
 		95
 	},
 	meta_skillbtn_tactics = {
-		597099,
+		597096,
 		93
 	},
 	meta_destroy_tip = {
-		597192,
+		597189,
 		110
 	},
 	meta_voice_name_feeling1 = {
-		597302,
+		597299,
 		96
 	},
 	meta_voice_name_feeling2 = {
-		597398,
+		597395,
 		96
 	},
 	meta_voice_name_feeling3 = {
-		597494,
+		597491,
 		94
 	},
 	meta_voice_name_feeling4 = {
-		597588,
+		597585,
 		94
 	},
 	meta_voice_name_feeling5 = {
-		597682,
+		597679,
 		92
 	},
 	meta_voice_name_propose = {
-		597774,
+		597771,
 		91
 	},
 	world_boss_ad = {
-		597865,
+		597862,
 		89
 	},
 	world_boss_drop_title = {
-		597954,
+		597951,
 		97
 	},
 	world_boss_pt_recove_desc = {
-		598051,
+		598048,
 		151
 	},
 	world_boss_progress_item_desc = {
-		598202,
+		598199,
 		462
 	},
 	world_joint_max_challenge_people_cnt = {
-		598664,
+		598661,
 		130
 	},
 	equip_ammo_type_1 = {
-		598794,
+		598791,
 		83
 	},
 	equip_ammo_type_2 = {
-		598877,
+		598874,
 		83
 	},
 	equip_ammo_type_3 = {
-		598960,
+		598957,
 		88
 	},
 	equip_ammo_type_4 = {
-		599048,
+		599045,
 		90
 	},
 	equip_ammo_type_5 = {
-		599138,
+		599135,
 		88
 	},
 	equip_ammo_type_6 = {
-		599226,
+		599223,
 		88
 	},
 	equip_ammo_type_7 = {
-		599314,
+		599311,
 		84
 	},
 	equip_ammo_type_8 = {
-		599398,
+		599395,
 		92
 	},
 	equip_ammo_type_9 = {
-		599490,
+		599487,
 		88
 	},
 	equip_ammo_type_10 = {
-		599578,
+		599575,
 		87
 	},
 	equip_ammo_type_11 = {
-		599665,
+		599662,
 		89
 	},
 	common_daily_limit = {
-		599754,
+		599751,
 		94
 	},
 	meta_help = {
-		599848,
-		2374
+		599845,
+		2371
 	},
 	world_boss_daily_limit = {
-		602222,
+		602216,
 		118
 	},
 	common_go_to_analyze = {
-		602340,
+		602334,
 		92
 	},
 	world_boss_not_reach_target = {
-		602432,
+		602426,
 		122
 	},
 	special_transform_limit_reach = {
-		602554,
+		602548,
 		145
 	},
 	meta_pt_notenough = {
-		602699,
+		602693,
 		175
 	},
 	meta_boss_unlock = {
-		602874,
+		602868,
 		210
 	},
 	word_take_effect = {
-		603084,
+		603078,
 		91
 	},
 	world_boss_challenge_cnt = {
-		603175,
+		603169,
 		100
 	},
 	word_shipNation_meta = {
-		603275,
+		603269,
 		87
 	},
 	world_word_friend = {
-		603362,
+		603356,
 		89
 	},
 	world_word_world = {
-		603451,
+		603445,
 		86
 	},
 	world_word_guild = {
-		603537,
+		603531,
 		85
 	},
 	world_collection_1 = {
-		603622,
+		603616,
 		91
 	},
 	world_collection_2 = {
-		603713,
+		603707,
 		91
 	},
 	world_collection_3 = {
-		603804,
+		603798,
 		91
 	},
 	zero_hour_command_error = {
-		603895,
+		603889,
 		150
 	},
 	commander_is_in_bigworld = {
-		604045,
+		604039,
 		142
 	},
 	world_collection_back = {
-		604187,
+		604181,
 		99
 	},
 	archives_whether_to_retreat = {
-		604286,
+		604280,
 		199
 	},
 	world_fleet_stop = {
-		604485,
+		604479,
 		111
 	},
 	world_setting_title = {
-		604596,
+		604590,
 		108
 	},
 	world_setting_quickmode = {
-		604704,
+		604698,
 		106
 	},
 	world_setting_quickmodetip = {
-		604810,
+		604804,
 		134
 	},
 	world_setting_submititem = {
-		604944,
+		604938,
 		121
 	},
 	world_setting_submititemtip = {
-		605065,
+		605059,
 		332
 	},
 	world_setting_mapauto = {
-		605397,
+		605391,
 		122
 	},
 	world_setting_mapautotip = {
-		605519,
+		605513,
 		171
 	},
 	world_boss_maintenance = {
-		605690,
+		605684,
 		167
 	},
 	world_boss_inbattle = {
-		605857,
+		605851,
 		147
 	},
 	world_automode_title_1 = {
-		606004,
+		605998,
 		103
 	},
 	world_automode_title_2 = {
-		606107,
+		606101,
 		86
 	},
 	world_automode_treasure_1 = {
-		606193,
+		606187,
 		137
 	},
 	world_automode_treasure_2 = {
-		606330,
+		606324,
 		132
 	},
 	world_automode_treasure_3 = {
-		606462,
+		606456,
 		136
 	},
 	world_automode_cancel = {
-		606598,
+		606592,
 		91
 	},
 	world_automode_confirm = {
-		606689,
+		606683,
 		93
 	},
 	world_automode_start_tip1 = {
-		606782,
+		606776,
 		122
 	},
 	world_automode_start_tip2 = {
-		606904,
+		606898,
 		105
 	},
 	world_automode_start_tip3 = {
-		607009,
+		607003,
 		124
 	},
 	world_automode_start_tip4 = {
-		607133,
+		607127,
 		115
 	},
 	world_automode_start_tip5 = {
-		607248,
+		607242,
 		164
 	},
 	world_automode_setting_1 = {
-		607412,
+		607406,
 		119
 	},
 	world_automode_setting_1_1 = {
-		607531,
+		607525,
 		101
 	},
 	world_automode_setting_1_2 = {
-		607632,
+		607626,
 		91
 	},
 	world_automode_setting_1_3 = {
-		607723,
+		607717,
 		91
 	},
 	world_automode_setting_1_4 = {
-		607814,
+		607808,
 		99
 	},
 	world_automode_setting_2 = {
-		607913,
+		607907,
 		137
 	},
 	world_automode_setting_2_1 = {
-		608050,
+		608044,
 		106
 	},
 	world_automode_setting_2_2 = {
-		608156,
+		608150,
 		109
 	},
 	world_automode_setting_all_1 = {
-		608265,
+		608259,
 		135
 	},
 	world_automode_setting_all_1_1 = {
-		608400,
+		608394,
 		115
 	},
 	world_automode_setting_all_1_2 = {
-		608515,
+		608509,
 		119
 	},
 	world_automode_setting_all_2 = {
-		608634,
+		608628,
 		139
 	},
 	world_automode_setting_all_2_1 = {
-		608773,
+		608767,
 		99
 	},
 	world_automode_setting_all_2_2 = {
-		608872,
+		608866,
 		115
 	},
 	world_automode_setting_all_2_3 = {
-		608987,
+		608981,
 		115
 	},
 	world_automode_setting_all_3 = {
-		609102,
+		609096,
 		121
 	},
 	world_automode_setting_all_3_1 = {
-		609223,
+		609217,
 		96
 	},
 	world_automode_setting_all_3_2 = {
-		609319,
+		609313,
 		97
 	},
 	world_automode_setting_all_4 = {
-		609416,
+		609410,
 		135
 	},
 	world_automode_setting_all_4_1 = {
-		609551,
+		609545,
 		97
 	},
 	world_automode_setting_all_4_2 = {
-		609648,
+		609642,
 		96
 	},
 	world_automode_setting_new_1 = {
-		609744,
+		609738,
 		122
 	},
 	world_automode_setting_new_1_1 = {
-		609866,
+		609860,
 		105
 	},
 	world_automode_setting_new_1_2 = {
-		609971,
+		609965,
 		95
 	},
 	world_automode_setting_new_1_3 = {
-		610066,
+		610060,
 		95
 	},
 	world_automode_setting_new_1_4 = {
-		610161,
+		610155,
 		95
 	},
 	world_automode_setting_new_1_5 = {
-		610256,
+		610250,
 		97
 	},
 	world_collection_task_tip_1 = {
-		610353,
+		610347,
 		147
 	},
 	area_putong = {
-		610500,
+		610494,
 		85
 	},
 	area_anquan = {
-		610585,
+		610579,
 		82
 	},
 	area_yaosai = {
-		610667,
+		610661,
 		85
 	},
 	area_yaosai_2 = {
-		610752,
+		610746,
 		96
 	},
 	area_shenyuan = {
-		610848,
+		610842,
 		84
 	},
 	area_yinmi = {
-		610932,
+		610926,
 		80
 	},
 	area_renwu = {
-		611012,
+		611006,
 		81
 	},
 	area_zhuxian = {
-		611093,
+		611087,
 		84
 	},
 	area_dangan = {
-		611177,
+		611171,
 		85
 	},
 	charge_trade_no_error = {
-		611262,
+		611256,
 		122
 	},
 	world_reset_1 = {
-		611384,
+		611378,
 		136
 	},
 	world_reset_2 = {
-		611520,
+		611514,
 		138
 	},
 	world_reset_3 = {
-		611658,
+		611652,
 		111
 	},
 	guild_is_frozen_when_start_tech = {
-		611769,
+		611763,
 		126
 	},
 	world_boss_unactivated = {
-		611895,
+		611889,
 		155
 	},
 	world_reset_tip = {
-		612050,
+		612044,
 		2719
 	},
 	spring_invited_2021 = {
-		614769,
+		614763,
 		231
 	},
 	charge_error_count_limit = {
-		615000,
+		614994,
 		128
 	},
 	charge_error_disable = {
-		615128,
+		615122,
 		144
 	},
 	levelScene_select_sp = {
-		615272,
+		615266,
 		138
 	},
 	word_adjustFleet = {
-		615410,
+		615404,
 		86
 	},
 	levelScene_select_noitem = {
-		615496,
+		615490,
 		112
 	},
 	story_setting_label = {
-		615608,
+		615602,
 		105
 	},
 	login_arrears_tips = {
-		615713,
+		615707,
 		208
 	},
 	Supplement_pay1 = {
-		615921,
+		615915,
 		211
 	},
 	Supplement_pay2 = {
-		616132,
+		616126,
 		231
 	},
 	Supplement_pay3 = {
-		616363,
+		616357,
 		209
 	},
 	Supplement_pay4 = {
-		616572,
+		616566,
 		86
 	},
 	world_ship_repair = {
-		616658,
+		616652,
 		102
 	},
 	Supplement_pay5 = {
-		616760,
+		616754,
 		185
 	},
 	area_unkown = {
-		616945,
+		616939,
 		89
 	},
 	Supplement_pay6 = {
-		617034,
+		617028,
 		89
 	},
 	Supplement_pay7 = {
-		617123,
+		617117,
 		88
 	},
 	Supplement_pay8 = {
-		617211,
+		617205,
 		86
 	},
 	world_battle_damage = {
-		617297,
+		617291,
 		217
 	},
 	setting_story_speed_1 = {
-		617514,
+		617508,
 		89
 	},
 	setting_story_speed_2 = {
-		617603,
+		617597,
 		91
 	},
 	setting_story_speed_3 = {
-		617694,
+		617688,
 		89
 	},
 	setting_story_speed_4 = {
-		617783,
+		617777,
 		94
 	},
 	story_autoplay_setting_label = {
-		617877,
+		617871,
 		106
 	},
 	story_autoplay_setting_1 = {
-		617983,
+		617977,
 		96
 	},
 	story_autoplay_setting_2 = {
-		618079,
+		618073,
 		95
 	},
 	meta_shop_exchange_limit = {
-		618174,
+		618168,
 		98
 	},
 	meta_shop_unexchange_label = {
-		618272,
+		618266,
 		90
 	},
 	daily_level_quick_battle_label2 = {
-		618362,
+		618356,
 		101
 	},
 	daily_level_quick_battle_label1 = {
-		618463,
+		618457,
 		109
 	},
 	dailyLevel_quickfinish = {
-		618572,
+		618566,
 		329
 	},
 	daily_level_quick_battle_label3 = {
-		618901,
+		618895,
 		108
 	},
 	backyard_longpress_ship_tip = {
-		619009,
+		619003,
 		160
 	},
 	common_npc_formation_tip = {
-		619169,
+		619163,
 		126
 	},
 	gametip_xiaotiancheng = {
-		619295,
+		619289,
 		1319
 	},
 	guild_task_autoaccept_1 = {
-		620614,
+		620608,
 		128
 	},
 	guild_task_autoaccept_2 = {
-		620742,
+		620736,
 		135
 	},
 	task_lock = {
-		620877,
+		620871,
 		93
 	},
 	week_task_pt_name = {
-		620970,
+		620964,
 		96
 	},
 	week_task_award_preview_label = {
-		621066,
+		621060,
 		100
 	},
 	week_task_title_label = {
-		621166,
+		621160,
 		108
 	},
 	cattery_op_clean_success = {
-		621274,
+		621268,
 		122
 	},
 	cattery_op_feed_success = {
-		621396,
+		621390,
 		114
 	},
 	cattery_op_play_success = {
-		621510,
+		621504,
 		122
 	},
 	cattery_style_change_success = {
-		621632,
+		621626,
 		130
 	},
 	cattery_add_commander_success = {
-		621762,
+		621756,
 		110
 	},
 	cattery_remove_commander_success = {
-		621872,
+		621866,
 		115
 	},
 	commander_box_quickly_tool_tip_1 = {
-		621987,
+		621981,
 		152
 	},
 	commander_box_quickly_tool_tip_2 = {
-		622139,
+		622133,
 		147
 	},
 	commander_box_quickly_tool_tip_3 = {
-		622286,
+		622280,
 		123
 	},
 	commander_box_was_finished = {
-		622409,
+		622403,
 		119
 	},
 	comander_tool_cnt_is_reclac = {
-		622528,
+		622522,
 		151
 	},
 	comander_tool_max_cnt = {
-		622679,
+		622673,
 		93
 	},
 	commander_op_play_level = {
-		622772,
+		622766,
 		101
 	},
 	commander_op_feed_level = {
-		622873,
+		622867,
 		101
 	},
 	cat_home_help = {
-		622974,
+		622968,
 		1398
 	},
 	cat_accelfrate_notenough = {
-		624372,
+		624366,
 		136
 	},
 	cat_home_unlock = {
-		624508,
+		624502,
 		131
 	},
 	cat_sleep_notplay = {
-		624639,
+		624633,
 		140
 	},
 	cathome_style_unlock = {
-		624779,
+		624773,
 		142
 	},
 	commander_is_in_cattery = {
-		624921,
+		624915,
 		122
 	},
 	cat_home_interaction = {
-		625043,
+		625037,
 		133
 	},
 	cat_accelerate_left = {
-		625176,
+		625170,
 		96
 	},
 	common_clean = {
-		625272,
+		625266,
 		81
 	},
 	common_feed = {
-		625353,
+		625347,
 		79
 	},
 	common_play = {
-		625432,
+		625426,
 		79
 	},
 	game_stopwords = {
-		625511,
+		625505,
 		107
 	},
 	game_openwords = {
-		625618,
+		625612,
 		110
 	},
 	amusementpark_shop_enter = {
-		625728,
+		625722,
 		143
 	},
 	amusementpark_shop_exchange = {
-		625871,
+		625865,
 		189
 	},
 	amusementpark_shop_success = {
-		626060,
+		626054,
 		107
 	},
 	amusementpark_shop_special = {
-		626167,
+		626161,
 		149
 	},
 	amusementpark_shop_end = {
-		626316,
+		626310,
 		116
 	},
 	amusementpark_shop_0 = {
-		626432,
+		626426,
 		176
 	},
 	amusementpark_shop_carousel1 = {
-		626608,
+		626602,
 		152
 	},
 	amusementpark_shop_carousel2 = {
-		626760,
+		626754,
 		151
 	},
 	amusementpark_shop_carousel3 = {
-		626911,
+		626905,
 		153
 	},
 	amusementpark_shop_exchange2 = {
-		627064,
+		627058,
 		196
 	},
 	amusementpark_help = {
-		627260,
+		627254,
 		1927
 	},
 	amusementpark_shop_help = {
-		629187,
+		629181,
 		465
 	},
 	handshake_game_help = {
-		629652,
+		629646,
 		915
 	},
 	MeixiV4_help = {
-		630567,
+		630561,
 		908
 	},
 	activity_permanent_total = {
-		631475,
+		631469,
 		107
 	},
 	word_investigate = {
-		631582,
+		631576,
 		86
 	},
 	ambush_display_none = {
-		631668,
+		631662,
 		88
 	},
 	activity_permanent_help = {
-		631756,
+		631750,
 		502
 	},
 	activity_permanent_tips1 = {
-		632258,
+		632252,
 		171
 	},
 	activity_permanent_tips2 = {
-		632429,
+		632423,
 		175
 	},
 	activity_permanent_tips3 = {
-		632604,
+		632598,
 		155
 	},
 	activity_permanent_tips4 = {
-		632759,
+		632753,
 		199
 	},
 	activity_permanent_finished = {
-		632958,
+		632952,
 		100
 	},
 	idolmaster_main = {
-		633058,
+		633052,
 		1190
 	},
 	idolmaster_game_tip1 = {
-		634248,
+		634242,
 		118
 	},
 	idolmaster_game_tip2 = {
-		634366,
+		634360,
 		116
 	},
 	idolmaster_game_tip3 = {
-		634482,
+		634476,
 		97
 	},
 	idolmaster_game_tip4 = {
-		634579,
+		634573,
 		94
 	},
 	idolmaster_game_tip5 = {
-		634673,
+		634667,
 		89
 	},
 	idolmaster_collection = {
-		634762,
+		634756,
 		631
 	},
 	idolmaster_voice_name_feeling1 = {
-		635393,
+		635387,
 		107
 	},
 	idolmaster_voice_name_feeling2 = {
-		635500,
+		635494,
 		102
 	},
 	idolmaster_voice_name_feeling3 = {
-		635602,
+		635596,
 		101
 	},
 	idolmaster_voice_name_feeling4 = {
-		635703,
+		635697,
 		104
 	},
 	idolmaster_voice_name_feeling5 = {
-		635807,
+		635801,
 		102
 	},
 	idolmaster_voice_name_propose = {
-		635909,
+		635903,
 		98
 	},
 	cartoon_all = {
-		636007,
+		636001,
 		78
 	},
 	cartoon_notall = {
-		636085,
+		636079,
 		84
 	},
 	cartoon_haveno = {
-		636169,
+		636163,
 		111
 	},
 	res_cartoon_new_tip = {
-		636280,
+		636274,
 		108
 	},
 	memory_actiivty_ex = {
-		636388,
+		636382,
 		87
 	},
 	memory_activity_sp = {
-		636475,
+		636469,
 		89
 	},
 	memory_activity_daily = {
-		636564,
+		636558,
 		89
 	},
 	memory_activity_others = {
-		636653,
+		636647,
 		90
 	},
 	battle_end_title = {
-		636743,
+		636737,
 		94
 	},
 	battle_end_subtitle1 = {
-		636837,
+		636831,
 		91
 	},
 	battle_end_subtitle2 = {
-		636928,
+		636922,
 		101
 	},
 	meta_skill_dailyexp = {
-		637029,
+		637023,
 		92
 	},
 	meta_skill_learn = {
-		637121,
+		637115,
 		127
 	},
 	meta_skill_maxtip = {
-		637248,
+		637242,
 		203
 	},
 	meta_tactics_detail = {
-		637451,
+		637445,
 		90
 	},
 	meta_tactics_unlock = {
-		637541,
+		637535,
 		91
 	},
 	meta_tactics_switch = {
-		637632,
+		637626,
 		91
 	},
 	meta_skill_maxtip2 = {
-		637723,
+		637717,
 		91
 	},
 	activity_permanent_progress = {
-		637814,
+		637808,
 		100
 	},
 	cattery_settlement_dialogue_1 = {
-		637914,
+		637908,
 		116
 	},
 	cattery_settlement_dialogue_2 = {
-		638030,
+		638024,
 		131
 	},
 	cattery_settlement_dialogue_3 = {
-		638161,
+		638155,
 		115
 	},
 	cattery_settlement_dialogue_4 = {
-		638276,
+		638270,
 		102
 	},
 	blueprint_catchup_by_gold_confirm = {
-		638378,
+		638372,
 		153
 	},
 	blueprint_catchup_by_gold_help = {
-		638531,
+		638525,
 		318
 	},
 	tec_tip_no_consumption = {
-		638849,
+		638843,
 		90
 	},
 	tec_tip_material_stock = {
-		638939,
+		638933,
 		91
 	},
 	tec_tip_to_consumption = {
-		639030,
+		639024,
 		91
 	},
 	onebutton_max_tip = {
-		639121,
+		639115,
 		96
 	},
 	target_get_tip = {
-		639217,
+		639211,
 		89
 	},
 	fleet_select_title = {
-		639306,
+		639300,
 		94
 	},
 	backyard_rename_title = {
-		639400,
+		639394,
 		96
 	},
 	backyard_rename_tip = {
-		639496,
+		639490,
 		105
 	},
 	equip_add = {
-		639601,
+		639595,
 		99
 	},
 	equipskin_add = {
-		639700,
+		639694,
 		108
 	},
 	equipskin_none = {
-		639808,
+		639802,
 		109
 	},
 	equipskin_typewrong = {
-		639917,
+		639911,
 		117
 	},
 	equipskin_typewrong_en = {
-		640034,
+		640028,
 		108
 	},
 	user_is_banned = {
-		640142,
+		640136,
 		134
 	},
 	user_is_forever_banned = {
-		640276,
+		640270,
 		116
 	},
 	old_class_is_close = {
-		640392,
+		640386,
 		144
 	},
 	activity_event_building = {
-		640536,
+		640530,
 		1210
 	},
 	salvage_tips = {
-		641746,
+		641740,
 		1124
 	},
 	tips_shakebeads = {
-		642870,
+		642864,
 		1036
 	},
 	gem_shop_xinzhi_tip = {
-		643906,
+		643900,
 		113
 	},
 	cowboy_tips = {
-		644019,
+		644013,
 		708
 	},
 	backyard_backyardScene_Disable_Rotation = {
-		644727,
+		644721,
 		137
 	},
 	chazi_tips = {
-		644864,
+		644858,
 		886
 	},
 	catchteasure_help = {
-		645750,
+		645744,
 		453
 	},
 	unlock_tips = {
-		646203,
+		646197,
 		93
 	},
 	class_label_tran = {
-		646296,
+		646290,
 		87
 	},
 	class_label_gen = {
-		646383,
+		646377,
 		88
 	},
 	class_attr_store = {
-		646471,
+		646465,
 		89
 	},
 	class_attr_proficiency = {
-		646560,
+		646554,
 		103
 	},
 	class_attr_getproficiency = {
-		646663,
+		646657,
 		105
 	},
 	class_attr_costproficiency = {
-		646768,
+		646762,
 		104
 	},
 	class_label_upgrading = {
-		646872,
+		646866,
 		94
 	},
 	class_label_upgradetime = {
-		646966,
+		646960,
 		99
 	},
 	class_label_oilfield = {
-		647065,
+		647059,
 		98
 	},
 	class_label_goldfield = {
-		647163,
+		647157,
 		100
 	},
 	class_res_maxlevel_tip = {
-		647263,
+		647257,
 		95
 	},
 	ship_exp_item_title = {
-		647358,
+		647352,
 		93
 	},
 	ship_exp_item_label_clear = {
-		647451,
+		647445,
 		94
 	},
 	ship_exp_item_label_recom = {
-		647545,
+		647539,
 		93
 	},
 	ship_exp_item_label_confirm = {
-		647638,
+		647632,
 		98
 	},
 	player_expResource_mail_fullBag = {
-		647736,
+		647730,
 		200
 	},
 	player_expResource_mail_overflow = {
-		647936,
+		647930,
 		195
 	},
 	tec_nation_award_finish = {
-		648131,
+		648125,
 		98
 	},
 	coures_exp_overflow_tip = {
-		648229,
+		648223,
 		202
 	},
 	coures_exp_npc_tip = {
-		648431,
+		648425,
 		221
 	},
 	coures_level_tip = {
-		648652,
+		648646,
 		162
 	},
 	coures_tip_material_stock = {
-		648814,
+		648808,
 		94
 	},
 	coures_tip_exceeded_lv = {
-		648908,
+		648902,
 		123
 	},
 	eatgame_tips = {
-		649031,
+		649025,
 		844
 	},
 	breakout_tip_ultimatebonus_gunner = {
-		649875,
+		649869,
 		145
 	},
 	breakout_tip_ultimatebonus_torpedo = {
-		650020,
+		650014,
 		130
 	},
 	breakout_tip_ultimatebonus_aux = {
-		650150,
+		650144,
 		133
 	},
 	map_event_lighthouse_tip_1 = {
-		650283,
+		650277,
 		161
 	},
 	battlepass_main_tip_2110 = {
-		650444,
+		650438,
 		202
 	},
 	battlepass_main_time = {
-		650646,
+		650640,
 		94
 	},
 	battlepass_main_help_2110 = {
-		650740,
+		650734,
 		2880
 	},
 	cruise_task_help_2110 = {
-		653620,
+		653614,
 		1094
 	},
 	cruise_task_phase = {
-		654714,
+		654708,
 		106
 	},
 	cruise_task_tips = {
-		654820,
+		654814,
 		89
 	},
 	battlepass_task_quickfinish1 = {
-		654909,
+		654903,
 		231
 	},
 	battlepass_task_quickfinish2 = {
-		655140,
+		655134,
 		224
 	},
 	battlepass_task_quickfinish3 = {
-		655364,
+		655358,
 		102
 	},
 	cruise_task_unlock = {
-		655466,
+		655460,
 		107
 	},
 	cruise_task_week = {
-		655573,
+		655567,
 		87
 	},
 	battlepass_pay_timelimit = {
-		655660,
+		655654,
 		101
 	},
 	battlepass_pay_acquire = {
-		655761,
+		655755,
 		101
 	},
 	battlepass_pay_attention = {
-		655862,
+		655856,
 		159
 	},
 	battlepass_acquire_attention = {
-		656021,
+		656015,
 		189
 	},
 	battlepass_pay_tip = {
-		656210,
+		656204,
 		121
 	},
 	battlepass_main_tip1 = {
-		656331,
+		656325,
 		226
 	},
 	battlepass_main_tip2 = {
-		656557,
+		656551,
 		209
 	},
 	battlepass_main_tip3 = {
-		656766,
+		656760,
 		215
 	},
 	battlepass_complete = {
-		656981,
+		656975,
 		121
 	},
 	shop_free_tag = {
-		657102,
+		657096,
 		81
 	},
 	quick_equip_tip1 = {
-		657183,
+		657177,
 		86
 	},
 	quick_equip_tip2 = {
-		657269,
+		657263,
 		86
 	},
 	quick_equip_tip3 = {
-		657355,
+		657349,
 		85
 	},
 	quick_equip_tip4 = {
-		657440,
+		657434,
 		97
 	},
 	quick_equip_tip5 = {
-		657537,
+		657531,
 		127
 	},
 	quick_equip_tip6 = {
-		657664,
+		657658,
 		184
 	},
 	retire_importantequipment_tips = {
-		657848,
+		657842,
 		179
 	},
 	settle_rewards_title = {
-		658027,
+		658021,
 		109
 	},
 	settle_rewards_subtitle = {
-		658136,
+		658130,
 		101
 	},
 	total_rewards_subtitle = {
-		658237,
+		658231,
 		99
 	},
 	settle_rewards_text = {
-		658336,
+		658330,
 		99
 	},
 	use_oil_limit_help = {
-		658435,
+		658429,
 		243
 	},
 	formationScene_use_oil_limit_tip = {
-		658678,
+		658672,
 		107
 	},
 	index_awakening2 = {
-		658785,
+		658779,
 		93
 	},
 	index_upgrade = {
-		658878,
+		658872,
 		91
 	},
 	formationScene_use_oil_limit_enemy = {
-		658969,
+		658963,
 		104
 	},
 	formationScene_use_oil_limit_flagship = {
-		659073,
+		659067,
 		109
 	},
 	formationScene_use_oil_limit_submarine = {
-		659182,
+		659176,
 		104
 	},
 	formationScene_use_oil_limit_surface = {
-		659286,
+		659280,
 		107
 	},
 	formationScene_use_oil_limit_tip_worldboss = {
-		659393,
+		659387,
 		117
 	},
 	attr_durability = {
-		659510,
+		659504,
 		81
 	},
 	attr_armor = {
-		659591,
+		659585,
 		79
 	},
 	attr_reload = {
-		659670,
+		659664,
 		78
 	},
 	attr_cannon = {
-		659748,
+		659742,
 		77
 	},
 	attr_torpedo = {
-		659825,
+		659819,
 		79
 	},
 	attr_motion = {
-		659904,
+		659898,
 		78
 	},
 	attr_antiaircraft = {
-		659982,
+		659976,
 		83
 	},
 	attr_air = {
-		660065,
+		660059,
 		75
 	},
 	attr_hit = {
-		660140,
+		660134,
 		75
 	},
 	attr_antisub = {
-		660215,
+		660209,
 		79
 	},
 	attr_oxy_max = {
-		660294,
+		660288,
 		79
 	},
 	attr_ammo = {
-		660373,
+		660367,
 		76
 	},
 	attr_hunting_range = {
-		660449,
+		660443,
 		85
 	},
 	attr_luck = {
-		660534,
+		660528,
 		76
 	},
 	attr_consume = {
-		660610,
+		660604,
 		80
 	},
 	attr_speed = {
-		660690,
+		660684,
 		77
 	},
 	monthly_card_tip = {
-		660767,
+		660761,
 		80
 	},
 	shopping_error_time_limit = {
-		660847,
+		660841,
 		138
 	},
 	world_total_power = {
-		660985,
+		660979,
 		86
 	},
 	world_mileage = {
-		661071,
+		661065,
 		91
 	},
 	world_pressing = {
-		661162,
+		661156,
 		91
 	},
 	Settings_title_FPS = {
-		661253,
+		661247,
 		101
 	},
 	Settings_title_Notification = {
-		661354,
+		661348,
 		109
 	},
 	Settings_title_Other = {
-		661463,
+		661457,
 		97
 	},
 	Settings_title_LoginJP = {
-		661560,
+		661554,
 		94
 	},
 	Settings_title_Redeem = {
-		661654,
+		661648,
 		94
 	},
 	Settings_title_AdjustScr = {
-		661748,
+		661742,
 		101
 	},
 	Settings_title_Secpw = {
-		661849,
+		661843,
 		98
 	},
 	Settings_title_Secpwlimop = {
-		661947,
+		661941,
 		110
 	},
 	Settings_title_agreement = {
-		662057,
+		662051,
 		100
 	},
 	Settings_title_sound = {
-		662157,
+		662151,
 		98
 	},
 	Settings_title_resUpdate = {
-		662255,
+		662249,
 		103
 	},
 	Settings_title_resManage = {
-		662358,
+		662352,
 		101
 	},
 	Settings_title_resManage_All = {
-		662459,
+		662453,
 		109
 	},
 	Settings_title_resManage_Main = {
-		662568,
+		662562,
 		111
 	},
 	Settings_title_resManage_Sub = {
-		662679,
+		662673,
 		111
 	},
 	equipment_info_change_tip = {
-		662790,
+		662784,
 		138
 	},
 	equipment_info_change_name_a = {
-		662928,
+		662922,
 		126
 	},
 	equipment_info_change_name_b = {
-		663054,
+		663048,
 		126
 	},
 	equipment_info_change_text_before = {
-		663180,
+		663174,
 		103
 	},
 	equipment_info_change_text_after = {
-		663283,
+		663277,
 		101
 	},
 	equipment_info_change_strengthen = {
-		663384,
+		663378,
 		277
 	},
 	world_boss_progress_tip_title = {
-		663661,
+		663655,
 		122
 	},
 	world_boss_progress_tip_desc = {
-		663783,
+		663777,
 		354
 	},
 	ssss_main_help = {
-		664137,
+		664131,
 		1932
 	},
 	mini_game_time = {
-		666069,
+		666063,
 		88
 	},
 	mini_game_score = {
-		666157,
+		666151,
 		85
 	},
 	mini_game_leave = {
-		666242,
+		666236,
 		93
 	},
 	mini_game_pause = {
-		666335,
+		666329,
 		96
 	},
 	mini_game_cur_score = {
-		666431,
+		666425,
 		97
 	},
 	mini_game_high_score = {
-		666528,
+		666522,
 		95
 	},
 	monopoly_world_tip1 = {
-		666623,
+		666617,
 		96
 	},
 	monopoly_world_tip2 = {
-		666719,
+		666713,
 		237
 	},
 	monopoly_world_tip3 = {
-		666956,
+		666950,
 		212
 	},
 	help_monopoly_world = {
-		667168,
+		667162,
 		1414
 	},
 	ssssmedal_tip = {
-		668582,
+		668576,
 		142
 	},
 	ssssmedal_name = {
-		668724,
+		668718,
 		107
 	},
 	ssssmedal_belonging = {
-		668831,
+		668825,
 		112
 	},
 	ssssmedal_name1 = {
-		668943,
+		668937,
 		108
 	},
 	ssssmedal_name2 = {
-		669051,
+		669045,
 		105
 	},
 	ssssmedal_name3 = {
-		669156,
+		669150,
 		107
 	},
 	ssssmedal_name4 = {
-		669263,
+		669257,
 		109
 	},
 	ssssmedal_name5 = {
-		669372,
+		669366,
 		109
 	},
 	ssssmedal_name6 = {
-		669481,
+		669475,
 		85
 	},
 	ssssmedal_belonging1 = {
-		669566,
+		669560,
 		92
 	},
 	ssssmedal_belonging2 = {
-		669658,
+		669652,
 		99
 	},
 	ssssmedal_desc1 = {
-		669757,
+		669751,
 		168
 	},
 	ssssmedal_desc2 = {
-		669925,
+		669919,
 		158
 	},
 	ssssmedal_desc3 = {
-		670083,
+		670077,
 		168
 	},
 	ssssmedal_desc4 = {
-		670251,
+		670245,
 		155
 	},
 	ssssmedal_desc5 = {
-		670406,
+		670400,
 		180
 	},
 	ssssmedal_desc6 = {
-		670586,
+		670580,
 		131
 	},
 	show_fate_demand_count = {
-		670717,
+		670711,
 		163
 	},
 	show_design_demand_count = {
-		670880,
+		670874,
 		158
 	},
 	blueprint_select_overflow = {
-		671038,
+		671032,
 		124
 	},
 	blueprint_select_overflow_tip = {
-		671162,
+		671156,
 		188
 	},
 	blueprint_exchange_empty_tip = {
-		671350,
+		671344,
 		131
 	},
 	blueprint_exchange_select_display = {
-		671481,
+		671475,
 		128
 	},
 	build_rate_title = {
-		671609,
+		671603,
 		91
 	},
 	build_pools_intro = {
-		671700,
+		671694,
 		116
 	},
 	build_detail_intro = {
-		671816,
+		671810,
 		106
 	},
 	ssss_game_tip = {
-		671922,
+		671916,
 		1498
 	},
 	ssss_medal_tip = {
-		673420,
+		673414,
 		401
 	},
 	battlepass_main_tip_2112 = {
-		673821,
+		673815,
 		233
 	},
 	battlepass_main_help_2112 = {
-		674054,
+		674048,
 		2887
 	},
 	cruise_task_help_2112 = {
-		676941,
+		676935,
 		1085
 	},
 	littleSanDiego_npc = {
-		678026,
+		678020,
 		1223
 	},
 	tag_ship_unlocked = {
-		679249,
+		679243,
 		95
 	},
 	tag_ship_locked = {
-		679344,
+		679338,
 		91
 	},
 	acceleration_tips_1 = {
-		679435,
+		679429,
 		203
 	},
 	acceleration_tips_2 = {
-		679638,
+		679632,
 		228
 	},
 	noacceleration_tips = {
-		679866,
+		679860,
 		119
 	},
 	word_shipskin = {
-		679985,
+		679979,
 		84
 	},
 	settings_sound_title_bgm = {
-		680069,
+		680063,
 		99
 	},
 	settings_sound_title_effct = {
-		680168,
+		680162,
 		101
 	},
 	settings_sound_title_cv = {
-		680269,
+		680263,
 		100
 	},
 	setting_resdownload_title_gallery = {
-		680369,
+		680363,
 		111
 	},
 	setting_resdownload_title_live2d = {
-		680480,
+		680474,
 		109
 	},
 	setting_resdownload_title_music = {
-		680589,
+		680583,
 		105
 	},
 	setting_resdownload_title_sound = {
-		680694,
+		680688,
 		108
 	},
 	setting_resdownload_title_manga = {
-		680802,
+		680796,
 		108
 	},
 	setting_resdownload_title_dorm = {
-		680910,
+		680904,
 		115
 	},
 	setting_resdownload_title_main_group = {
-		681025,
+		681019,
 		117
 	},
 	setting_resdownload_title_map = {
-		681142,
+		681136,
 		113
 	},
 	settings_battle_title = {
-		681255,
+		681249,
 		103
 	},
 	settings_battle_tip = {
-		681358,
+		681352,
 		144
 	},
 	settings_battle_Btn_edit = {
-		681502,
+		681496,
 		92
 	},
 	settings_battle_Btn_reset = {
-		681594,
+		681588,
 		96
 	},
 	settings_battle_Btn_save = {
-		681690,
+		681684,
 		92
 	},
 	settings_battle_Btn_cancel = {
-		681782,
+		681776,
 		96
 	},
 	settings_pwd_label_close = {
-		681878,
+		681872,
 		96
 	},
 	settings_pwd_label_open = {
-		681974,
+		681968,
 		94
 	},
 	word_frame = {
-		682068,
+		682062,
 		78
 	},
 	Settings_title_Redeem_input_label = {
-		682146,
+		682140,
 		109
 	},
 	Settings_title_Redeem_input_submit = {
-		682255,
+		682249,
 		104
 	},
 	Settings_title_Redeem_input_placeholder = {
-		682359,
+		682353,
 		132
 	},
 	CurlingGame_tips1 = {
-		682491,
+		682485,
 		1084
 	},
 	maid_task_tips1 = {
-		683575,
+		683569,
 		1030
 	},
 	shop_akashi_pick_title = {
-		684605,
+		684599,
 		103
 	},
 	shop_diamond_title = {
-		684708,
+		684702,
 		86
 	},
 	shop_gift_title = {
-		684794,
+		684788,
 		84
 	},
 	shop_item_title = {
-		684878,
+		684872,
 		84
 	},
 	shop_charge_level_limit = {
-		684962,
+		684956,
 		102
 	},
 	backhill_cantupbuilding = {
-		685064,
+		685058,
 		135
 	},
 	pray_cant_tips = {
-		685199,
+		685193,
 		107
 	},
 	help_xinnian2022_feast = {
-		685306,
+		685300,
 		2200
 	},
 	Pray_activity_tips1 = {
-		687506,
+		687500,
 		1574
 	},
 	backhill_notenoughbuilding = {
-		689080,
+		689074,
 		184
 	},
 	help_xinnian2022_z28 = {
-		689264,
+		689258,
 		766
 	},
 	help_xinnian2022_firework = {
-		690030,
+		690024,
 		1156
 	},
 	settings_title_account_del = {
-		691186,
+		691180,
 		97
 	},
 	settings_text_account_del = {
-		691283,
+		691277,
 		105
 	},
 	settings_text_account_del_desc = {
-		691388,
+		691382,
 		290
 	},
 	settings_text_account_del_confirm = {
-		691678,
+		691672,
 		150
 	},
 	settings_text_account_del_btn = {
-		691828,
+		691822,
 		99
 	},
 	box_account_del_input = {
-		691927,
+		691921,
 		142
 	},
 	box_account_del_target = {
-		692069,
+		692063,
 		92
 	},
 	box_account_del_click = {
-		692161,
+		692155,
 		100
 	},
 	box_account_del_success_content = {
-		692261,
+		692255,
 		131
 	},
 	box_account_reborn_content = {
-		692392,
+		692386,
 		211
 	},
 	tip_account_del_dismatch = {
-		692603,
+		692597,
 		120
 	},
 	tip_account_del_reborn = {
-		692723,
+		692717,
 		135
 	},
 	player_manifesto_placeholder = {
-		692858,
+		692852,
 		110
 	},
 	box_ship_del_click = {
-		692968,
+		692962,
 		95
 	},
 	box_equipment_del_click = {
-		693063,
+		693057,
 		100
 	},
 	change_player_name_title = {
-		693163,
+		693157,
 		103
 	},
 	change_player_name_subtitle = {
-		693266,
+		693260,
 		111
 	},
 	change_player_name_input_tip = {
-		693377,
+		693371,
 		112
 	},
 	change_player_name_illegal = {
-		693489,
+		693483,
 		241
 	},
 	nodisplay_player_home_name = {
-		693730,
+		693724,
 		94
 	},
 	nodisplay_player_home_share = {
-		693824,
+		693818,
 		97
 	},
 	tactics_class_start = {
-		693921,
+		693915,
 		88
 	},
 	tactics_class_cancel = {
-		694009,
+		694003,
 		90
 	},
 	tactics_class_get_exp = {
-		694099,
+		694093,
 		94
 	},
 	tactics_class_spend_time = {
-		694193,
+		694187,
 		99
 	},
 	build_ticket_description = {
-		694292,
+		694286,
 		118
 	},
 	build_ticket_expire_warning = {
-		694410,
+		694404,
 		103
 	},
 	tip_build_ticket_expired = {
-		694513,
+		694507,
 		135
 	},
 	tip_build_ticket_exchange_expired = {
-		694648,
+		694642,
 		174
 	},
 	tip_build_ticket_not_enough = {
-		694822,
+		694816,
 		107
 	},
 	build_ship_tip_use_ticket = {
-		694929,
+		694923,
 		195
 	},
 	springfes_tips1 = {
-		695124,
+		695118,
 		907
 	},
 	worldinpicture_tavel_point_tip = {
-		696031,
+		696025,
 		126
 	},
 	worldinpicture_draw_point_tip = {
-		696157,
+		696151,
 		122
 	},
 	worldinpicture_help = {
-		696279,
+		696273,
 		1037
 	},
 	worldinpicture_task_help = {
-		697316,
+		697310,
 		1042
 	},
 	worldinpicture_not_area_can_draw = {
-		698358,
+		698352,
 		135
 	},
 	missile_attack_area_confirm = {
-		698493,
+		698487,
 		104
 	},
 	missile_attack_area_cancel = {
-		698597,
+		698591,
 		103
 	},
 	shipchange_alert_infleet = {
-		698700,
+		698694,
 		157
 	},
 	shipchange_alert_inpvp = {
-		698857,
+		698851,
 		168
 	},
 	shipchange_alert_inexercise = {
-		699025,
+		699019,
 		174
 	},
 	shipchange_alert_inworld = {
-		699199,
+		699193,
 		168
 	},
 	shipchange_alert_inguildbossevent = {
-		699367,
+		699361,
 		177
 	},
 	shipchange_alert_indiff = {
-		699544,
+		699538,
 		156
 	},
 	shipmodechange_reject_1stfleet_only = {
-		699700,
+		699694,
 		210
 	},
 	shipmodechange_reject_worldfleet_only = {
-		699910,
+		699904,
 		215
 	},
 	monopoly3thre_tip = {
-		700125,
+		700119,
 		151
 	},
 	fushun_game3_tip = {
-		700276,
+		700270,
 		1291
 	},
 	battlepass_main_tip_2202 = {
-		701567,
+		701561,
 		197
 	},
 	battlepass_main_help_2202 = {
-		701764,
+		701758,
 		2890
 	},
 	cruise_task_help_2202 = {
-		704654,
+		704648,
 		1092
 	},
 	battlepass_main_tip_2204 = {
-		705746,
+		705740,
 		200
 	},
 	battlepass_main_help_2204 = {
-		705946,
+		705940,
 		2881
 	},
 	cruise_task_help_2204 = {
-		708827,
+		708821,
 		1092
 	},
 	battlepass_main_tip_2206 = {
-		709919,
+		709913,
 		200
 	},
 	battlepass_main_help_2206 = {
-		710119,
+		710113,
 		2889
 	},
 	cruise_task_help_2206 = {
-		713008,
+		713002,
 		1092
 	},
 	battlepass_main_tip_2208 = {
-		714100,
+		714094,
 		199
 	},
 	battlepass_main_help_2208 = {
-		714299,
+		714293,
 		2893
 	},
 	cruise_task_help_2208 = {
-		717192,
+		717186,
 		1092
 	},
 	battlepass_main_tip_2210 = {
-		718284,
+		718278,
 		201
 	},
 	battlepass_main_help_2210 = {
-		718485,
+		718479,
 		2893
 	},
 	cruise_task_help_2210 = {
-		721378,
+		721372,
 		1092
 	},
 	battlepass_main_tip_2212 = {
-		722470,
+		722464,
 		224
 	},
 	battlepass_main_help_2212 = {
-		722694,
+		722688,
 		2900
 	},
 	cruise_task_help_2212 = {
-		725594,
+		725588,
 		1092
 	},
 	battlepass_main_tip_2302 = {
-		726686,
+		726680,
 		225
 	},
 	battlepass_main_help_2302 = {
-		726911,
+		726905,
 		2895
 	},
 	cruise_task_help_2302 = {
-		729806,
+		729800,
 		1092
 	},
 	battlepass_main_tip_2304 = {
-		730898,
+		730892,
 		233
 	},
 	battlepass_main_help_2304 = {
-		731131,
+		731125,
 		2913
 	},
 	cruise_task_help_2304 = {
-		734044,
+		734038,
 		1092
 	},
 	battlepass_main_tip_2306 = {
-		735136,
+		735130,
 		195
 	},
 	battlepass_main_help_2306 = {
-		735331,
+		735325,
 		2883
 	},
 	cruise_task_help_2306 = {
-		738214,
+		738208,
 		1092
 	},
 	battlepass_main_tip_2308 = {
-		739306,
+		739300,
 		197
 	},
 	battlepass_main_help_2308 = {
-		739503,
+		739497,
 		2885
 	},
 	cruise_task_help_2308 = {
-		742388,
+		742382,
 		1092
 	},
 	battlepass_main_tip_2310 = {
-		743480,
+		743474,
 		200
 	},
 	battlepass_main_help_2310 = {
-		743680,
+		743674,
 		2893
 	},
 	cruise_task_help_2310 = {
-		746573,
+		746567,
 		1092
 	},
 	battlepass_main_tip_2312 = {
-		747665,
+		747659,
 		196
 	},
 	battlepass_main_help_2312 = {
-		747861,
+		747855,
 		2898
 	},
 	cruise_task_help_2312 = {
-		750759,
+		750753,
 		1092
 	},
 	battlepass_main_tip_2402 = {
-		751851,
+		751845,
 		197
 	},
 	battlepass_main_help_2402 = {
-		752048,
+		752042,
 		2891
 	},
 	cruise_task_help_2402 = {
-		754939,
+		754933,
 		1092
 	},
 	battlepass_main_tip_2404 = {
-		756031,
+		756025,
 		223
 	},
 	battlepass_main_help_2404 = {
-		756254,
+		756248,
 		2901
 	},
 	cruise_task_help_2404 = {
-		759155,
+		759149,
 		1096
 	},
 	battlepass_main_tip_2406 = {
-		760251,
+		760245,
 		197
 	},
 	battlepass_main_help_2406 = {
-		760448,
+		760442,
 		2899
 	},
 	cruise_task_help_2406 = {
-		763347,
+		763341,
 		1092
 	},
 	battlepass_main_tip_2408 = {
-		764439,
+		764433,
 		222
 	},
 	battlepass_main_help_2408 = {
-		764661,
+		764655,
 		2898
 	},
 	cruise_task_help_2408 = {
-		767559,
+		767553,
 		1092
 	},
 	battlepass_main_tip_2410 = {
-		768651,
+		768645,
 		273
 	},
 	battlepass_main_help_2410 = {
-		768924,
+		768918,
 		2901
 	},
 	cruise_task_help_2410 = {
-		771825,
+		771819,
 		1092
 	},
 	battlepass_main_tip_2412 = {
-		772917,
+		772911,
 		230
 	},
 	battlepass_main_help_2412 = {
-		773147,
+		773141,
 		2895
 	},
 	cruise_task_help_2412 = {
-		776042,
+		776036,
 		1092
 	},
 	battlepass_main_tip_2502 = {
-		777134,
+		777128,
 		271
 	},
 	battlepass_main_help_2502 = {
-		777405,
+		777399,
 		2900
 	},
 	cruise_task_help_2502 = {
-		780305,
+		780299,
 		1092
 	},
 	battlepass_main_tip_2504 = {
-		781397,
+		781391,
 		270
 	},
 	battlepass_main_help_2504 = {
-		781667,
+		781661,
 		2905
 	},
 	cruise_task_help_2504 = {
-		784572,
+		784566,
 		1092
 	},
 	battlepass_main_tip_2506 = {
-		785664,
+		785658,
 		273
 	},
 	battlepass_main_help_2506 = {
-		785937,
+		785931,
 		2908
 	},
 	cruise_task_help_2506 = {
-		788845,
+		788839,
 		1092
 	},
 	battlepass_main_tip_2508 = {
-		789937,
+		789931,
 		273
 	},
 	battlepass_main_help_2508 = {
-		790210,
+		790204,
 		2909
 	},
 	cruise_task_help_2508 = {
-		793119,
+		793113,
 		1092
 	},
 	battlepass_main_tip_2510 = {
-		794211,
+		794205,
 		273
 	},
 	battlepass_main_help_2510 = {
-		794484,
+		794478,
 		2906
 	},
 	cruise_task_help_2510 = {
-		797390,
+		797384,
 		1092
 	},
 	attrset_reset = {
-		798482,
+		798476,
 		82
 	},
 	attrset_save = {
-		798564,
+		798558,
 		80
 	},
 	attrset_ask_save = {
-		798644,
+		798638,
 		133
 	},
 	attrset_save_success = {
-		798777,
+		798771,
 		103
 	},
 	attrset_disable = {
-		798880,
+		798874,
 		147
 	},
 	attrset_input_ill = {
-		799027,
+		799021,
 		93
 	},
 	blackfriday_help = {
-		799120,
+		799114,
 		805
 	},
 	eventshop_time_hint = {
-		799925,
+		799919,
 		122
 	},
 	eventshop_time_hint2 = {
-		800047,
+		800041,
 		122
 	},
 	purchase_backyard_theme_desc_for_onekey = {
-		800169,
+		800163,
 		142
 	},
 	purchase_backyard_theme_desc_for_all = {
-		800311,
+		800305,
 		127
 	},
 	sp_no_quota = {
-		800438,
+		800432,
 		108
 	},
 	fur_all_buy = {
-		800546,
+		800540,
 		82
 	},
 	fur_onekey_buy = {
-		800628,
+		800622,
 		85
 	},
 	littleRenown_npc = {
-		800713,
+		800707,
 		1402
 	},
 	tech_package_tip = {
-		802115,
+		802109,
 		241
 	},
 	backyard_food_shop_tip = {
-		802356,
+		802350,
 		96
 	},
 	dorm_2f_lock = {
-		802452,
+		802446,
 		87
 	},
 	word_get_way = {
-		802539,
+		802533,
 		90
 	},
 	word_get_date = {
-		802629,
+		802623,
 		94
 	},
 	enter_theme_name = {
-		802723,
+		802717,
 		113
 	},
 	enter_extend_food_label = {
-		802836,
+		802830,
 		93
 	},
 	backyard_extend_tip_1 = {
-		802929,
+		802923,
 		90
 	},
 	backyard_extend_tip_2 = {
-		803019,
+		803013,
 		103
 	},
 	backyard_extend_tip_3 = {
-		803122,
+		803116,
 		94
 	},
 	backyard_extend_tip_4 = {
-		803216,
+		803210,
 		85
 	},
 	email_text = {
-		803301,
+		803295,
 		79
 	},
 	emailhold_text = {
-		803380,
+		803374,
 		127
 	},
 	code_text = {
-		803507,
+		803501,
 		90
 	},
 	codehold_text = {
-		803597,
+		803591,
 		102
 	},
 	genBtn_text = {
-		803699,
+		803693,
 		83
 	},
 	desc_text = {
-		803782,
+		803776,
 		156
 	},
 	loginBtn_text = {
-		803938,
+		803932,
 		84
 	},
 	verification_code_req_tip1 = {
-		804022,
+		804016,
 		126
 	},
 	verification_code_req_tip2 = {
-		804148,
+		804142,
 		175
 	},
 	verification_code_req_tip3 = {
-		804323,
+		804317,
 		134
 	},
 	levelScene_remaster_story_tip = {
-		804457,
+		804451,
 		176
 	},
 	levelScene_remaster_unlock_tip = {
-		804633,
+		804627,
 		188
 	},
 	linkBtn_text = {
-		804821,
+		804815,
 		83
 	},
 	yostar_link_title = {
-		804904,
+		804898,
 		98
 	},
 	level_remaster_tip1 = {
-		805002,
+		804996,
 		95
 	},
 	level_remaster_tip2 = {
-		805097,
+		805091,
 		89
 	},
 	level_remaster_tip3 = {
-		805186,
+		805180,
 		89
 	},
 	level_remaster_tip4 = {
-		805275,
+		805269,
 		102
 	},
 	pay_cancel = {
-		805377,
+		805371,
 		88
 	},
 	order_error = {
-		805465,
+		805459,
 		101
 	},
 	pay_fail = {
-		805566,
+		805560,
 		86
 	},
 	user_cancel = {
-		805652,
+		805646,
 		94
 	},
 	system_error = {
-		805746,
+		805740,
 		88
 	},
 	time_out = {
-		805834,
+		805828,
 		109
 	},
 	server_error = {
-		805943,
+		805937,
 		102
 	},
 	data_error = {
-		806045,
+		806039,
 		98
 	},
 	share_success = {
-		806143,
+		806137,
 		97
 	},
 	shoot_screen_fail = {
-		806240,
+		806234,
 		98
 	},
 	server_name = {
-		806338,
+		806332,
 		87
 	},
 	non_support_share = {
-		806425,
+		806419,
 		134
 	},
 	save_success = {
-		806559,
+		806553,
 		99
 	},
 	word_guild_join_err1 = {
-		806658,
+		806652,
 		115
 	},
 	task_empty_tip_1 = {
-		806773,
+		806767,
 		104
 	},
 	task_empty_tip_2 = {
-		806877,
+		806871,
 		160
 	},
 	["airi_error_code_ 100210"] = {
-		807037,
+		807031,
 		126
 	},
 	["airi_error_code_ 100211"] = {
-		807163,
+		807157,
 		138
 	},
 	["airi_error_code_ 100212"] = {
-		807301,
+		807295,
 		116
 	},
 	["airi_error_code_ 100610"] = {
-		807417,
+		807411,
 		125
 	},
 	["airi_error_code_ 100611"] = {
-		807542,
+		807536,
 		120
 	},
 	["airi_error_code_ 100612"] = {
-		807662,
+		807656,
 		132
 	},
 	["airi_error_code_ 100710"] = {
-		807794,
+		807788,
 		127
 	},
 	["airi_error_code_ 100711"] = {
-		807921,
+		807915,
 		127
 	},
 	["airi_error_code_ 100712"] = {
-		808048,
+		808042,
 		135
 	},
 	["airi_error_code_ 100810"] = {
-		808183,
+		808177,
 		126
 	},
 	["airi_error_code_ 100811"] = {
-		808309,
+		808303,
 		138
 	},
 	["airi_error_code_ 100812"] = {
-		808447,
+		808441,
 		133
 	},
 	["airi_error_code_ 100813"] = {
-		808580,
+		808574,
 		125
 	},
 	["airi_error_code_ 100814"] = {
-		808705,
+		808699,
 		120
 	},
 	["airi_error_code_ 100815"] = {
-		808825,
+		808819,
 		132
 	},
 	["airi_error_code_ 100816"] = {
-		808957,
+		808951,
 		127
 	},
 	["airi_error_code_ 100817"] = {
-		809084,
+		809078,
 		127
 	},
 	["airi_error_code_ 100818"] = {
-		809211,
+		809205,
 		134
 	},
 	facebook_link_title = {
-		809345,
+		809339,
 		102
 	},
 	newserver_time = {
-		809447,
+		809441,
 		98
 	},
 	newserver_soldout = {
-		809545,
+		809539,
 		103
 	},
 	skill_learn_tip = {
-		809648,
+		809642,
 		133
 	},
 	newserver_build_tip = {
-		809781,
+		809775,
 		150
 	},
 	build_count_tip = {
-		809931,
+		809925,
 		85
 	},
 	help_research_package = {
-		810016,
+		810010,
 		299
 	},
 	lv70_package_tip = {
-		810315,
+		810309,
 		228
 	},
 	tech_select_tip1 = {
-		810543,
+		810537,
 		97
 	},
 	tech_select_tip2 = {
-		810640,
+		810634,
 		107
 	},
 	tech_select_tip3 = {
-		810747,
+		810741,
 		88
 	},
 	tech_select_tip4 = {
-		810835,
+		810829,
 		96
 	},
 	tech_select_tip5 = {
-		810931,
+		810925,
 		117
 	},
 	techpackage_item_use = {
-		811048,
+		811042,
 		203
 	},
 	techpackage_item_use_1 = {
-		811251,
+		811245,
 		238
 	},
 	techpackage_item_use_2 = {
-		811489,
+		811483,
 		200
 	},
 	techpackage_item_use_confirm = {
-		811689,
+		811683,
 		138
 	},
 	new_server_shop_sel_goods_tip = {
-		811827,
+		811821,
 		130
 	},
 	new_server_shop_unopen_tip = {
-		811957,
+		811951,
 		101
 	},
 	newserver_activity_tip = {
-		812058,
+		812052,
 		1685
 	},
 	newserver_shop_timelimit = {
-		813743,
+		813737,
 		106
 	},
 	tech_character_get = {
-		813849,
+		813843,
 		89
 	},
 	package_detail_tip = {
-		813938,
+		813932,
 		88
 	},
 	event_ui_consume = {
-		814026,
+		814020,
 		84
 	},
 	event_ui_recommend = {
-		814110,
+		814104,
 		91
 	},
 	event_ui_start = {
-		814201,
+		814195,
 		83
 	},
 	event_ui_giveup = {
-		814284,
+		814278,
 		85
 	},
 	event_ui_finish = {
-		814369,
+		814363,
 		87
 	},
 	nav_tactics_sel_skill_title = {
-		814456,
+		814450,
 		103
 	},
 	battle_result_confirm = {
-		814559,
+		814553,
 		92
 	},
 	battle_result_targets = {
-		814651,
+		814645,
 		92
 	},
 	battle_result_continue = {
-		814743,
+		814737,
 		103
 	},
 	index_L2D = {
-		814846,
+		814840,
 		76
 	},
 	index_DBG = {
-		814922,
+		814916,
 		84
 	},
 	index_BG = {
-		815006,
+		815000,
 		82
 	},
 	index_CANTUSE = {
-		815088,
+		815082,
 		91
 	},
 	index_UNUSE = {
-		815179,
+		815173,
 		81
 	},
 	index_BGM = {
-		815260,
+		815254,
 		84
 	},
 	without_ship_to_wear = {
-		815344,
+		815338,
 		124
 	},
 	choose_ship_to_wear_this_skin = {
-		815468,
+		815462,
 		136
 	},
 	skinatlas_search_holder = {
-		815604,
+		815598,
 		113
 	},
 	skinatlas_search_result_is_empty = {
-		815717,
+		815711,
 		143
 	},
 	chang_ship_skin_window_title = {
-		815860,
+		815854,
 		96
 	},
 	world_boss_item_info = {
-		815956,
+		815950,
 		350
 	},
 	world_past_boss_item_info = {
-		816306,
+		816300,
 		480
 	},
 	world_boss_lefttime = {
-		816786,
+		816780,
 		92
 	},
 	world_boss_item_count_noenough = {
-		816878,
+		816872,
 		145
 	},
 	world_boss_item_usage_tip = {
-		817023,
+		817017,
 		173
 	},
 	world_boss_no_select_archives = {
-		817196,
+		817190,
 		161
 	},
 	world_boss_archives_item_count_noenough = {
-		817357,
+		817351,
 		157
 	},
 	world_boss_archives_are_clear = {
-		817514,
+		817508,
 		156
 	},
 	world_boss_switch_archives = {
-		817670,
+		817664,
 		248
 	},
 	world_boss_switch_archives_success = {
-		817918,
+		817912,
 		146
 	},
 	world_boss_archives_auto_battle_unopen = {
-		818064,
+		818058,
 		169
 	},
 	world_boss_archives_need_stop_auto_battle = {
-		818233,
+		818227,
 		164
 	},
 	world_boss_archives_stop_auto_battle = {
-		818397,
+		818391,
 		137
 	},
 	world_boss_archives_continue_auto_battle = {
-		818534,
+		818528,
 		140
 	},
 	world_boss_archives_auto_battle_reusle_title = {
-		818674,
+		818668,
 		145
 	},
 	world_boss_archives_stop_auto_battle_title = {
-		818819,
+		818813,
 		146
 	},
 	world_boss_archives_stop_auto_battle_tip = {
-		818965,
+		818959,
 		119
 	},
 	world_boss_archives_stop_auto_battle_tip1 = {
-		819084,
+		819078,
 		241
 	},
 	world_archives_boss_help = {
-		819325,
+		819319,
 		3343
 	},
 	world_archives_boss_list_help = {
-		822668,
+		822662,
 		570
 	},
 	archives_boss_was_opened = {
-		823238,
+		823232,
 		163
 	},
 	current_boss_was_opened = {
-		823401,
+		823395,
 		162
 	},
 	world_boss_title_auto_battle = {
-		823563,
+		823557,
 		103
 	},
 	world_boss_title_highest_damge = {
-		823666,
+		823660,
 		105
 	},
 	world_boss_title_estimation = {
-		823771,
+		823765,
 		113
 	},
 	world_boss_title_battle_cnt = {
-		823884,
+		823878,
 		99
 	},
 	world_boss_title_consume_oil_cnt = {
-		823983,
+		823977,
 		104
 	},
 	world_boss_title_spend_time = {
-		824087,
+		824081,
 		104
 	},
 	world_boss_title_total_damage = {
-		824191,
+		824185,
 		102
 	},
 	world_no_time_to_auto_battle = {
-		824293,
+		824287,
 		143
 	},
 	world_boss_current_boss_label = {
-		824436,
+		824430,
 		104
 	},
 	world_boss_current_boss_label1 = {
-		824540,
+		824534,
 		107
 	},
 	world_boss_archives_boss_tip = {
-		824647,
+		824641,
 		158
 	},
 	world_boss_progress_no_enough = {
-		824805,
+		824799,
 		127
 	},
 	world_boss_auto_battle_no_oil = {
-		824932,
+		824926,
 		119
 	},
 	meta_syn_value_label = {
-		825051,
+		825045,
 		108
 	},
 	meta_syn_finish = {
-		825159,
+		825153,
 		103
 	},
 	index_meta_repair = {
-		825262,
+		825256,
 		104
 	},
 	index_meta_tactics = {
-		825366,
+		825360,
 		103
 	},
 	index_meta_energy = {
-		825469,
+		825463,
 		104
 	},
 	tactics_continue_to_learn_other_skill = {
-		825573,
+		825567,
 		162
 	},
 	tactics_continue_to_learn_other_ship_skill = {
-		825735,
+		825729,
 		161
 	},
 	tactics_no_recent_ships = {
-		825896,
+		825890,
 		113
 	},
 	activity_kill = {
-		826009,
+		826003,
 		95
 	},
 	battle_result_dmg = {
-		826104,
+		826098,
 		87
 	},
 	battle_result_kill_count = {
-		826191,
+		826185,
 		100
 	},
 	battle_result_toggle_on = {
-		826291,
+		826285,
 		96
 	},
 	battle_result_toggle_off = {
-		826387,
+		826381,
 		101
 	},
 	battle_result_continue_battle = {
-		826488,
+		826482,
 		101
 	},
 	battle_result_quit_battle = {
-		826589,
+		826583,
 		96
 	},
 	battle_result_share_battle = {
-		826685,
+		826679,
 		95
 	},
 	pre_combat_team = {
-		826780,
+		826774,
 		91
 	},
 	pre_combat_vanguard = {
-		826871,
+		826865,
 		91
 	},
 	pre_combat_main = {
-		826962,
+		826956,
 		83
 	},
 	pre_combat_submarine = {
-		827045,
+		827039,
 		93
 	},
 	pre_combat_targets = {
-		827138,
+		827132,
 		89
 	},
 	pre_combat_atlasloot = {
-		827227,
+		827221,
 		88
 	},
 	destroy_confirm_access = {
-		827315,
+		827309,
 		93
 	},
 	destroy_confirm_cancel = {
-		827408,
+		827402,
 		92
 	},
 	pt_count_tip = {
-		827500,
+		827494,
 		81
 	},
 	dockyard_data_loss_detected = {
-		827581,
+		827575,
 		167
 	},
 	littleEugen_npc = {
-		827748,
+		827742,
 		1374
 	},
 	five_shujuhuigu = {
-		829122,
+		829116,
 		121
 	},
 	five_shujuhuigu1 = {
-		829243,
+		829237,
 		89
 	},
 	littleChaijun_npc = {
-		829332,
+		829326,
 		1290
 	},
 	five_qingdian = {
-		830622,
+		830616,
 		622
 	},
 	friend_resume_title_detail = {
-		831244,
+		831238,
 		94
 	},
 	item_type13_tip1 = {
-		831338,
+		831332,
 		88
 	},
 	item_type13_tip2 = {
-		831426,
+		831420,
 		88
 	},
 	item_type16_tip1 = {
-		831514,
+		831508,
 		88
 	},
 	item_type16_tip2 = {
-		831602,
+		831596,
 		88
 	},
 	item_type17_tip1 = {
-		831690,
+		831684,
 		87
 	},
 	item_type17_tip2 = {
-		831777,
+		831771,
 		87
 	},
 	five_duomaomao = {
-		831864,
+		831858,
 		788
 	},
 	main_4 = {
-		832652,
+		832646,
 		75
 	},
 	main_5 = {
-		832727,
+		832721,
 		75
 	},
 	honor_medal_support_tips_display = {
-		832802,
+		832796,
 		460
 	},
 	honor_medal_support_tips_confirm = {
-		833262,
+		833256,
 		207
 	},
 	support_rate_title = {
-		833469,
+		833463,
 		87
 	},
 	support_times_limited = {
-		833556,
+		833550,
 		128
 	},
 	support_times_tip = {
-		833684,
+		833678,
 		95
 	},
 	build_times_tip = {
-		833779,
+		833773,
 		90
 	},
 	tactics_recent_ship_label = {
-		833869,
+		833863,
 		105
 	},
 	title_info = {
-		833974,
+		833968,
 		78
 	},
 	eventshop_unlock_info = {
-		834052,
+		834046,
 		93
 	},
 	eventshop_unlock_hint = {
-		834145,
+		834139,
 		142
 	},
 	commission_event_tip = {
-		834287,
+		834281,
 		818
 	},
 	decoration_medal_placeholder = {
-		835105,
+		835099,
 		122
 	},
 	technology_filter_placeholder = {
-		835227,
+		835221,
 		119
 	},
 	eva_comment_send_null = {
-		835346,
+		835340,
 		101
 	},
 	report_sent_thank = {
-		835447,
+		835441,
 		156
 	},
 	report_ship_cannot_comment = {
-		835603,
+		835597,
 		127
 	},
 	report_cannot_comment = {
-		835730,
+		835724,
 		137
 	},
 	report_sent_title = {
-		835867,
+		835861,
 		87
 	},
 	report_sent_desc = {
-		835954,
+		835948,
 		130
 	},
 	report_type_1 = {
-		836084,
+		836078,
 		98
 	},
 	report_type_1_1 = {
-		836182,
+		836176,
 		146
 	},
 	report_type_2 = {
-		836328,
+		836322,
 		94
 	},
 	report_type_2_1 = {
-		836422,
+		836416,
 		146
 	},
 	report_type_3 = {
-		836568,
+		836562,
 		88
 	},
 	report_type_3_1 = {
-		836656,
+		836650,
 		177
 	},
 	report_type_other = {
-		836833,
+		836827,
 		85
 	},
 	report_type_other_1 = {
-		836918,
+		836912,
 		145
 	},
 	report_type_other_2 = {
-		837063,
+		837057,
 		115
 	},
 	report_sent_help = {
-		837178,
+		837172,
 		440
 	},
 	rename_input = {
-		837618,
+		837612,
 		93
 	},
 	avatar_task_level = {
-		837711,
+		837705,
 		166
 	},
 	avatar_upgrad_1 = {
-		837877,
+		837871,
 		92
 	},
 	avatar_upgrad_2 = {
-		837969,
+		837963,
 		92
 	},
 	avatar_upgrad_3 = {
-		838061,
+		838055,
 		95
 	},
 	avatar_task_ship_1 = {
-		838156,
+		838150,
 		92
 	},
 	avatar_task_ship_2 = {
-		838248,
+		838242,
 		103
 	},
 	technology_queue_complete = {
-		838351,
+		838345,
 		97
 	},
 	technology_queue_processing = {
-		838448,
+		838442,
 		102
 	},
 	technology_queue_waiting = {
-		838550,
+		838544,
 		94
 	},
 	technology_queue_getaward = {
-		838644,
+		838638,
 		94
 	},
 	technology_daily_refresh = {
-		838738,
+		838732,
 		119
 	},
 	technology_queue_full = {
-		838857,
+		838851,
 		113
 	},
 	technology_queue_in_mission_incomplete = {
-		838970,
+		838964,
 		177
 	},
 	technology_consume = {
-		839147,
+		839141,
 		95
 	},
 	technology_request = {
-		839242,
+		839236,
 		103
 	},
 	technology_queue_in_doublecheck = {
-		839345,
+		839339,
 		242
 	},
 	playervtae_setting_btn_label = {
-		839587,
+		839581,
 		100
 	},
 	technology_queue_in_success = {
-		839687,
+		839681,
 		130
 	},
 	star_require_enemy_text = {
-		839817,
+		839811,
 		116
 	},
 	star_require_enemy_title = {
-		839933,
+		839927,
 		107
 	},
 	star_require_enemy_check = {
-		840040,
+		840034,
 		95
 	},
 	worldboss_rank_timer_label = {
-		840135,
+		840129,
 		116
 	},
 	technology_detail = {
-		840251,
+		840245,
 		88
 	},
 	technology_mission_unfinish = {
-		840339,
+		840333,
 		127
 	},
 	word_chinese = {
-		840466,
+		840460,
 		82
 	},
 	word_japanese_3 = {
-		840548,
+		840542,
 		80
 	},
 	word_japanese_2 = {
-		840628,
+		840622,
 		80
 	},
 	word_japanese = {
-		840708,
+		840702,
 		78
 	},
 	avatarframe_got = {
-		840786,
+		840780,
 		86
 	},
 	item_is_max_cnt = {
-		840872,
+		840866,
 		110
 	},
 	level_fleet_ship_desc = {
-		840982,
+		840976,
 		103
 	},
 	level_fleet_sub_desc = {
-		841085,
+		841079,
 		95
 	},
 	summerland_tip = {
-		841180,
+		841174,
 		560
 	},
 	icecreamgame_tip = {
-		841740,
+		841734,
 		1578
 	},
 	unlock_date_tip = {
-		843318,
+		843312,
 		118
 	},
 	guild_duty_shoule_be_deputy_commander = {
-		843436,
+		843430,
 		164
 	},
 	guild_deputy_commander_cnt_is_full = {
-		843600,
+		843594,
 		154
 	},
 	guild_deputy_commander_cnt = {
-		843754,
+		843748,
 		153
 	},
 	mail_filter_placeholder = {
-		843907,
+		843901,
 		107
 	},
 	recently_sticker_placeholder = {
-		844014,
+		844008,
 		111
 	},
 	backhill_campusfestival_tip = {
-		844125,
+		844119,
 		1219
 	},
 	mini_cookgametip = {
-		845344,
+		845338,
 		1297
 	},
 	cook_game_Albacore = {
-		846641,
+		846635,
 		115
 	},
 	cook_game_august = {
-		846756,
+		846750,
 		109
 	},
 	cook_game_elbe = {
-		846865,
+		846859,
 		107
 	},
 	cook_game_hakuryu = {
-		846972,
+		846966,
 		125
 	},
 	cook_game_howe = {
-		847097,
+		847091,
 		140
 	},
 	cook_game_marcopolo = {
-		847237,
+		847231,
 		114
 	},
 	cook_game_noshiro = {
-		847351,
+		847345,
 		126
 	},
 	cook_game_pnelope = {
-		847477,
+		847471,
 		130
 	},
 	cook_game_laffey = {
-		847607,
+		847601,
 		171
 	},
 	cook_game_janus = {
-		847778,
+		847772,
 		150
 	},
 	cook_game_flandre = {
-		847928,
+		847922,
 		100
 	},
 	cook_game_constellation = {
-		848028,
+		848022,
 		187
 	},
 	cook_game_constellation_skill_name = {
-		848215,
+		848209,
 		134
 	},
 	cook_game_constellation_skill_desc = {
-		848349,
+		848343,
 		206
 	},
 	random_ship_on = {
-		848555,
+		848549,
 		127
 	},
 	random_ship_off_0 = {
-		848682,
+		848676,
 		181
 	},
 	random_ship_off = {
-		848863,
+		848857,
 		190
 	},
 	random_ship_forbidden = {
-		849053,
+		849047,
 		174
 	},
 	random_ship_now = {
-		849227,
+		849221,
 		97
 	},
 	random_ship_label = {
-		849324,
+		849318,
 		97
 	},
 	player_vitae_skin_setting = {
-		849421,
+		849415,
 		102
 	},
 	random_ship_tips1 = {
-		849523,
+		849517,
 		167
 	},
 	random_ship_tips2 = {
-		849690,
+		849684,
 		145
 	},
 	random_ship_before = {
-		849835,
+		849829,
 		113
 	},
 	random_ship_and_skin_title = {
-		849948,
+		849942,
 		101
 	},
 	random_ship_frequse_mode = {
-		850049,
+		850043,
 		102
 	},
 	random_ship_locked_mode = {
-		850151,
+		850145,
 		99
 	},
 	littleSpee_npc = {
-		850250,
+		850244,
 		1583
 	},
 	random_flag_ship = {
-		851833,
+		851827,
 		96
 	},
 	random_flag_ship_changskinBtn_label = {
-		851929,
+		851923,
 		111
 	},
 	expedition_drop_use_out = {
-		852040,
+		852034,
 		152
 	},
 	expedition_extra_drop_tip = {
-		852192,
+		852186,
 		104
 	},
 	ex_pass_use = {
-		852296,
+		852290,
 		79
 	},
 	defense_formation_tip_npc = {
-		852375,
+		852369,
 		203
 	},
 	pgs_login_tip = {
-		852578,
+		852572,
 		250
 	},
 	pgs_login_binding_exist1 = {
-		852828,
+		852822,
 		204
 	},
 	pgs_login_binding_exist2 = {
-		853032,
+		853026,
 		205
 	},
 	pgs_login_binding_exist3 = {
-		853237,
+		853231,
 		271
 	},
 	pgs_binding_account = {
-		853508,
+		853502,
 		108
 	},
 	pgs_unbind = {
-		853616,
+		853610,
 		92
 	},
 	pgs_unbind_tip1 = {
-		853708,
+		853702,
 		152
 	},
 	pgs_unbind_tip2 = {
-		853860,
+		853854,
 		214
 	},
 	word_item = {
-		854074,
+		854068,
 		77
 	},
 	word_tool = {
-		854151,
+		854145,
 		77
 	},
 	word_other = {
-		854228,
+		854222,
 		78
 	},
 	ryza_word_equip = {
-		854306,
+		854300,
 		83
 	},
 	ryza_rest_produce_count = {
-		854389,
+		854383,
 		109
 	},
 	ryza_composite_confirm = {
-		854498,
+		854492,
 		119
 	},
 	ryza_composite_confirm_single = {
-		854617,
+		854611,
 		122
 	},
 	ryza_composite_count = {
-		854739,
+		854733,
 		93
 	},
 	ryza_toggle_only_composite = {
-		854832,
+		854826,
 		112
 	},
 	ryza_tip_select_recipe = {
-		854944,
+		854938,
 		113
 	},
 	ryza_tip_put_materials = {
-		855057,
+		855051,
 		139
 	},
 	ryza_tip_composite_unlock = {
-		855196,
+		855190,
 		158
 	},
 	ryza_tip_unlock_all_tools = {
-		855354,
+		855348,
 		151
 	},
 	ryza_material_not_enough = {
-		855505,
+		855499,
 		168
 	},
 	ryza_tip_composite_invalid = {
-		855673,
+		855667,
 		132
 	},
 	ryza_tip_max_composite_count = {
-		855805,
+		855799,
 		136
 	},
 	ryza_tip_no_item = {
-		855941,
+		855935,
 		119
 	},
 	ryza_ui_show_acess = {
-		856060,
+		856054,
 		92
 	},
 	ryza_tip_no_recipe = {
-		856152,
+		856146,
 		103
 	},
 	ryza_tip_item_access = {
-		856255,
+		856249,
 		136
 	},
 	ryza_tip_control_buff_not_obtain_tip = {
-		856391,
+		856385,
 		143
 	},
 	ryza_tip_control_buff_upgrade = {
-		856534,
+		856528,
 		100
 	},
 	ryza_tip_control_buff_replace = {
-		856634,
+		856628,
 		100
 	},
 	ryza_tip_control_buff_limit = {
-		856734,
+		856728,
 		96
 	},
 	ryza_tip_control_buff_already_active_tip = {
-		856830,
+		856824,
 		111
 	},
 	ryza_tip_control_buff = {
-		856941,
+		856935,
 		163
 	},
 	ryza_tip_control_buff_not_obtain = {
-		857104,
+		857098,
 		103
 	},
 	ryza_tip_control = {
-		857207,
+		857201,
 		142
 	},
 	ryza_tip_main = {
-		857349,
+		857343,
 		1454
 	},
 	battle_levelScene_ryza_lock = {
-		858803,
+		858797,
 		186
 	},
 	ryza_tip_toast_item_got = {
-		858989,
+		858983,
 		96
 	},
 	ryza_composite_help_tip = {
-		859085,
+		859079,
 		476
 	},
 	ryza_control_help_tip = {
-		859561,
+		859555,
 		296
 	},
 	ryza_mini_game = {
-		859857,
+		859851,
 		351
 	},
 	ryza_task_level_desc = {
-		860208,
+		860202,
 		89
 	},
 	ryza_task_tag_explore = {
-		860297,
+		860291,
 		90
 	},
 	ryza_task_tag_battle = {
-		860387,
+		860381,
 		88
 	},
 	ryza_task_tag_dalegate = {
-		860475,
+		860469,
 		91
 	},
 	ryza_task_tag_develop = {
-		860566,
+		860560,
 		89
 	},
 	ryza_task_tag_adventure = {
-		860655,
+		860649,
 		97
 	},
 	ryza_task_tag_build = {
-		860752,
+		860746,
 		93
 	},
 	ryza_task_tag_create = {
-		860845,
+		860839,
 		92
 	},
 	ryza_task_tag_daily = {
-		860937,
+		860931,
 		90
 	},
 	ryza_task_detail_content = {
-		861027,
+		861021,
 		99
 	},
 	ryza_task_detail_award = {
-		861126,
+		861120,
 		93
 	},
 	ryza_task_go = {
-		861219,
+		861213,
 		83
 	},
 	ryza_task_get = {
-		861302,
+		861296,
 		83
 	},
 	ryza_task_get_all = {
-		861385,
+		861379,
 		90
 	},
 	ryza_task_confirm = {
-		861475,
+		861469,
 		88
 	},
 	ryza_task_cancel = {
-		861563,
+		861557,
 		86
 	},
 	ryza_task_level_num = {
-		861649,
+		861643,
 		93
 	},
 	ryza_task_level_add = {
-		861742,
+		861736,
 		95
 	},
 	ryza_task_submit = {
-		861837,
+		861831,
 		86
 	},
 	ryza_task_detail = {
-		861923,
+		861917,
 		85
 	},
 	ryza_composite_words = {
-		862008,
+		862002,
 		704
 	},
 	ryza_task_help_tip = {
-		862712,
+		862706,
 		345
 	},
 	hotspring_buff = {
-		863057,
+		863051,
 		140
 	},
 	random_ship_custom_mode_empty = {
-		863197,
+		863191,
 		148
 	},
 	random_ship_custom_mode_main_button_add = {
-		863345,
+		863339,
 		106
 	},
 	random_ship_custom_mode_main_button_remove = {
-		863451,
+		863445,
 		112
 	},
 	random_ship_custom_mode_main_tip1 = {
-		863563,
+		863557,
 		151
 	},
 	random_ship_custom_mode_main_tip2 = {
-		863714,
+		863708,
 		107
 	},
 	random_ship_custom_mode_main_empty = {
-		863821,
+		863815,
 		137
 	},
 	random_ship_custom_mode_select_all = {
-		863958,
+		863952,
 		108
 	},
 	random_ship_custom_mode_add_tip1 = {
-		864066,
+		864060,
 		158
 	},
 	random_ship_custom_mode_select_number = {
-		864224,
+		864218,
 		110
 	},
 	random_ship_custom_mode_add_complete = {
-		864334,
+		864328,
 		130
 	},
 	random_ship_custom_mode_add_tip2 = {
-		864464,
+		864458,
 		159
 	},
 	random_ship_custom_mode_remove_tip1 = {
-		864623,
+		864617,
 		166
 	},
 	random_ship_custom_mode_remove_complete = {
-		864789,
+		864783,
 		135
 	},
 	random_ship_custom_mode_remove_tip2 = {
-		864924,
+		864918,
 		166
 	},
 	index_dressed = {
-		865090,
+		865084,
 		89
 	},
 	random_ship_custom_mode = {
-		865179,
+		865173,
 		110
 	},
 	random_ship_custom_mode_add_title = {
-		865289,
+		865283,
 		110
 	},
 	random_ship_custom_mode_remove_title = {
-		865399,
+		865393,
 		116
 	},
 	hotspring_shop_enter1 = {
-		865515,
+		865509,
 		150
 	},
 	hotspring_shop_enter2 = {
-		865665,
+		865659,
 		143
 	},
 	hotspring_shop_insufficient = {
-		865808,
+		865802,
 		189
 	},
 	hotspring_shop_success1 = {
-		865997,
+		865991,
 		117
 	},
 	hotspring_shop_success2 = {
-		866114,
+		866108,
 		103
 	},
 	hotspring_shop_finish = {
-		866217,
+		866211,
 		173
 	},
 	hotspring_shop_end = {
-		866390,
+		866384,
 		155
 	},
 	hotspring_shop_touch1 = {
-		866545,
+		866539,
 		107
 	},
 	hotspring_shop_touch2 = {
-		866652,
+		866646,
 		128
 	},
 	hotspring_shop_touch3 = {
-		866780,
+		866774,
 		115
 	},
 	hotspring_shop_exchanged = {
-		866895,
+		866889,
 		154
 	},
 	hotspring_shop_exchange = {
-		867049,
+		867043,
 		184
 	},
 	hotspring_tip1 = {
-		867233,
+		867227,
 		130
 	},
 	hotspring_tip2 = {
-		867363,
+		867357,
 		110
 	},
 	hotspring_help = {
-		867473,
+		867467,
 		563
 	},
 	hotspring_expand = {
-		868036,
+		868030,
 		190
 	},
 	hotspring_shop_help = {
-		868226,
+		868220,
 		571
 	},
 	resorts_help = {
-		868797,
+		868791,
 		819
 	},
 	pvzminigame_help = {
-		869616,
+		869610,
 		1187
 	},
 	tips_yuandanhuoyue2023 = {
-		870803,
+		870797,
 		745
 	},
 	beach_guard_chaijun = {
-		871548,
+		871542,
 		159
 	},
 	beach_guard_jianye = {
-		871707,
+		871701,
 		164
 	},
 	beach_guard_lituoliao = {
-		871871,
+		871865,
 		279
 	},
 	beach_guard_bominghan = {
-		872150,
+		872144,
 		237
 	},
 	beach_guard_nengdai = {
-		872387,
+		872381,
 		269
 	},
 	beach_guard_m_craft = {
-		872656,
+		872650,
 		121
 	},
 	beach_guard_m_atk = {
-		872777,
+		872771,
 		111
 	},
 	beach_guard_m_guard = {
-		872888,
+		872882,
 		107
 	},
 	beach_guard_m_craft_name = {
-		872995,
+		872989,
 		98
 	},
 	beach_guard_m_atk_name = {
-		873093,
+		873087,
 		94
 	},
 	beach_guard_m_guard_name = {
-		873187,
+		873181,
 		97
 	},
 	beach_guard_e1 = {
-		873284,
+		873278,
 		87
 	},
 	beach_guard_e2 = {
-		873371,
+		873365,
 		84
 	},
 	beach_guard_e3 = {
-		873455,
+		873449,
 		87
 	},
 	beach_guard_e4 = {
-		873542,
+		873536,
 		85
 	},
 	beach_guard_e5 = {
-		873627,
+		873621,
 		87
 	},
 	beach_guard_e6 = {
-		873714,
+		873708,
 		84
 	},
 	beach_guard_e7 = {
-		873798,
+		873792,
 		86
 	},
 	beach_guard_e1_desc = {
-		873884,
+		873878,
 		135
 	},
 	beach_guard_e2_desc = {
-		874019,
+		874013,
 		142
 	},
 	beach_guard_e3_desc = {
-		874161,
+		874155,
 		140
 	},
 	beach_guard_e4_desc = {
-		874301,
+		874295,
 		137
 	},
 	beach_guard_e5_desc = {
-		874438,
+		874432,
 		130
 	},
 	beach_guard_e6_desc = {
-		874568,
+		874562,
 		235
 	},
 	beach_guard_e7_desc = {
-		874803,
+		874797,
 		166
 	},
 	ninghai_nianye = {
-		874969,
+		874963,
 		142
 	},
 	yingrui_nianye = {
-		875111,
+		875105,
 		142
 	},
 	zhaohe_nianye = {
-		875253,
+		875247,
 		135
 	},
 	zhenhai_nianye = {
-		875388,
+		875382,
 		143
 	},
 	haitian_nianye = {
-		875531,
+		875525,
 		153
 	},
 	taiyuan_nianye = {
-		875684,
+		875678,
 		148
 	},
 	yixian_nianye = {
-		875832,
+		875826,
 		166
 	},
 	activity_yanhua_tip1 = {
-		875998,
+		875992,
 		93
 	},
 	activity_yanhua_tip2 = {
-		876091,
+		876085,
 		103
 	},
 	activity_yanhua_tip3 = {
-		876194,
+		876188,
 		103
 	},
 	activity_yanhua_tip4 = {
-		876297,
+		876291,
 		139
 	},
 	activity_yanhua_tip5 = {
-		876436,
+		876430,
 		120
 	},
 	activity_yanhua_tip6 = {
-		876556,
+		876550,
 		124
 	},
 	activity_yanhua_tip7 = {
-		876680,
+		876674,
 		158
 	},
 	activity_yanhua_tip8 = {
-		876838,
+		876832,
 		103
 	},
 	help_chunjie2023 = {
-		876941,
+		876935,
 		1441
 	},
 	sevenday_nianye = {
-		878382,
+		878376,
 		406
 	},
 	tip_nianye = {
-		878788,
+		878782,
 		122
 	},
 	couplete_activty_desc = {
-		878910,
+		878904,
 		351
 	},
 	couplete_click_desc = {
-		879261,
+		879255,
 		131
 	},
 	couplet_index_desc = {
-		879392,
+		879386,
 		89
 	},
 	couplete_help = {
-		879481,
+		879475,
 		770
 	},
 	couplete_drag_tip = {
-		880251,
+		880245,
 		133
 	},
 	couplete_remind = {
-		880384,
+		880378,
 		114
 	},
 	couplete_complete = {
-		880498,
+		880492,
 		132
 	},
 	couplete_enter = {
-		880630,
+		880624,
 		114
 	},
 	couplete_stay = {
-		880744,
+		880738,
 		107
 	},
 	couplete_task = {
-		880851,
+		880845,
 		135
 	},
 	couplete_pass_1 = {
-		880986,
+		880980,
 		96
 	},
 	couplete_pass_2 = {
-		881082,
+		881076,
 		100
 	},
 	couplete_fail_1 = {
-		881182,
+		881176,
 		119
 	},
 	couplete_fail_2 = {
-		881301,
+		881295,
 		117
 	},
 	couplete_pair_1 = {
-		881418,
+		881412,
 		123
 	},
 	couplete_pair_2 = {
-		881541,
+		881535,
 		113
 	},
 	couplete_pair_3 = {
-		881654,
+		881648,
 		119
 	},
 	couplete_pair_4 = {
-		881773,
+		881767,
 		113
 	},
 	couplete_pair_5 = {
-		881886,
+		881880,
 		126
 	},
 	couplete_pair_6 = {
-		882012,
+		882006,
 		119
 	},
 	couplete_pair_7 = {
-		882131,
+		882125,
 		113
 	},
 	["2023spring_minigame_item_lantern"] = {
-		882244,
+		882238,
 		183
 	},
 	["2023spring_minigame_item_firecracker"] = {
-		882427,
+		882421,
 		188
 	},
 	["2023spring_minigame_skill_icewall"] = {
-		882615,
+		882609,
 		149
 	},
 	["2023spring_minigame_skill_icewall_up"] = {
-		882764,
+		882758,
 		223
 	},
 	["2023spring_minigame_skill_sprint"] = {
-		882987,
+		882981,
 		151
 	},
 	["2023spring_minigame_skill_sprint_up"] = {
-		883138,
+		883132,
 		227
 	},
 	["2023spring_minigame_skill_flash"] = {
-		883365,
+		883359,
 		180
 	},
 	["2023spring_minigame_skill_flash_up"] = {
-		883545,
+		883539,
 		200
 	},
 	["2023spring_minigame_bless_speed"] = {
-		883745,
+		883739,
 		136
 	},
 	["2023spring_minigame_bless_speed_up"] = {
-		883881,
+		883875,
 		211
 	},
 	["2023spring_minigame_bless_substitute"] = {
-		884092,
+		884086,
 		204
 	},
 	["2023spring_minigame_bless_substitute_up"] = {
-		884296,
+		884290,
 		127
 	},
 	["2023spring_minigame_nenjuu_skill1"] = {
-		884423,
+		884417,
 		199
 	},
 	["2023spring_minigame_nenjuu_skill2"] = {
-		884622,
+		884616,
 		146
 	},
 	["2023spring_minigame_nenjuu_skill3"] = {
-		884768,
+		884762,
 		158
 	},
 	["2023spring_minigame_nenjuu_skill4"] = {
-		884926,
+		884920,
 		139
 	},
 	["2023spring_minigame_nenjuu_skill5"] = {
-		885065,
+		885059,
 		214
 	},
 	["2023spring_minigame_nenjuu_skill6"] = {
-		885279,
+		885273,
 		158
 	},
 	["2023spring_minigame_nenjuu_skill7"] = {
-		885437,
+		885431,
 		234
 	},
 	["2023spring_minigame_nenjuu_skill8"] = {
-		885671,
+		885665,
 		219
 	},
 	["2023spring_minigame_tip1"] = {
-		885890,
+		885884,
 		93
 	},
 	["2023spring_minigame_tip2"] = {
-		885983,
+		885977,
 		96
 	},
 	["2023spring_minigame_tip3"] = {
-		886079,
+		886073,
 		93
 	},
 	["2023spring_minigame_tip5"] = {
-		886172,
+		886166,
 		136
 	},
 	["2023spring_minigame_tip6"] = {
-		886308,
+		886302,
 		100
 	},
 	["2023spring_minigame_tip7"] = {
-		886408,
+		886402,
 		100
 	},
 	["2023spring_minigame_help"] = {
-		886508,
+		886502,
 		1174
 	},
 	multiple_sorties_title = {
-		887682,
+		887676,
 		97
 	},
 	multiple_sorties_title_eng = {
-		887779,
+		887773,
 		106
 	},
 	multiple_sorties_locked_tip = {
-		887885,
+		887879,
 		180
 	},
 	multiple_sorties_times = {
-		888065,
+		888059,
 		93
 	},
 	multiple_sorties_tip = {
-		888158,
+		888152,
 		206
 	},
 	multiple_sorties_challenge_ticket_use = {
-		888364,
+		888358,
 		118
 	},
 	multiple_sorties_cost1 = {
-		888482,
+		888476,
 		150
 	},
 	multiple_sorties_cost2 = {
-		888632,
+		888626,
 		159
 	},
 	multiple_sorties_cost3 = {
-		888791,
+		888785,
 		184
 	},
 	multiple_sorties_stopped = {
-		888975,
+		888969,
 		95
 	},
 	multiple_sorties_stop_tip = {
-		889070,
+		889064,
 		186
 	},
 	multiple_sorties_resume_tip = {
-		889256,
+		889250,
 		138
 	},
 	multiple_sorties_auto_on = {
-		889394,
+		889388,
 		132
 	},
 	multiple_sorties_finish = {
-		889526,
+		889520,
 		108
 	},
 	multiple_sorties_stop = {
-		889634,
+		889628,
 		105
 	},
 	multiple_sorties_stop_end = {
-		889739,
+		889733,
 		118
 	},
 	multiple_sorties_end_status = {
-		889857,
+		889851,
 		181
 	},
 	multiple_sorties_finish_tip = {
-		890038,
+		890032,
 		140
 	},
 	multiple_sorties_stop_tip_end = {
-		890178,
+		890172,
 		146
 	},
 	multiple_sorties_stop_reason1 = {
-		890324,
+		890318,
 		118
 	},
 	multiple_sorties_stop_reason2 = {
-		890442,
+		890436,
 		147
 	},
 	multiple_sorties_stop_reason3 = {
-		890589,
+		890583,
 		125
 	},
 	multiple_sorties_stop_reason4 = {
-		890714,
+		890708,
 		131
 	},
 	multiple_sorties_main_tip = {
-		890845,
+		890839,
 		253
 	},
 	multiple_sorties_main_end = {
-		891098,
+		891092,
 		204
 	},
 	multiple_sorties_rest_time = {
-		891302,
+		891296,
 		105
 	},
 	multiple_sorties_retry_desc = {
-		891407,
+		891401,
 		108
 	},
 	msgbox_text_battle = {
-		891515,
+		891509,
 		88
 	},
 	pre_combat_start = {
-		891603,
+		891597,
 		86
 	},
 	pre_combat_start_en = {
-		891689,
+		891683,
 		95
 	},
 	["2023Valentine_minigame_s"] = {
-		891784,
+		891778,
 		181
 	},
 	["2023Valentine_minigame_a"] = {
-		891965,
+		891959,
 		165
 	},
 	["2023Valentine_minigame_b"] = {
-		892130,
+		892124,
 		179
 	},
 	["2023Valentine_minigame_c"] = {
-		892309,
+		892303,
 		176
 	},
 	["2023Valentine_minigame_label1"] = {
-		892485,
+		892479,
 		99
 	},
 	["2023Valentine_minigame_label2"] = {
-		892584,
+		892578,
 		97
 	},
 	["2023Valentine_minigame_label3"] = {
-		892681,
+		892675,
 		101
 	},
 	Valentine_minigame_label1 = {
-		892782,
+		892776,
 		95
 	},
 	Valentine_minigame_label2 = {
-		892877,
+		892871,
 		107
 	},
 	Valentine_minigame_label3 = {
-		892984,
+		892978,
 		98
 	},
 	sort_energy = {
-		893082,
+		893076,
 		81
 	},
 	dockyard_search_holder = {
-		893163,
+		893157,
 		100
 	},
 	loveletter_exchange_tip1 = {
-		893263,
+		893257,
 		154
 	},
 	loveletter_exchange_tip2 = {
-		893417,
+		893411,
 		140
 	},
 	loveletter_exchange_confirm = {
-		893557,
+		893551,
 		312
 	},
 	loveletter_exchange_button = {
-		893869,
+		893863,
 		97
 	},
 	loveletter_exchange_tip3 = {
-		893966,
+		893960,
 		163
 	},
 	loveletter_recover_tip1 = {
-		894129,
+		894123,
 		153
 	},
 	loveletter_recover_tip2 = {
-		894282,
+		894276,
 		107
 	},
 	loveletter_recover_tip3 = {
-		894389,
+		894383,
 		152
 	},
 	loveletter_recover_tip4 = {
-		894541,
+		894535,
 		146
 	},
 	loveletter_recover_tip5 = {
-		894687,
+		894681,
 		169
 	},
 	loveletter_recover_tip6 = {
-		894856,
+		894850,
 		156
 	},
 	loveletter_recover_tip7 = {
-		895012,
+		895006,
 		180
 	},
 	loveletter_recover_bottom1 = {
-		895192,
+		895186,
 		94
 	},
 	loveletter_recover_bottom2 = {
-		895286,
+		895280,
 		96
 	},
 	loveletter_recover_bottom3 = {
-		895382,
+		895376,
 		92
 	},
 	loveletter_recover_text1 = {
-		895474,
+		895468,
 		360
 	},
 	loveletter_recover_text2 = {
-		895834,
+		895828,
 		344
 	},
 	battle_text_common_1 = {
-		896178,
+		896172,
 		179
 	},
 	battle_text_common_2 = {
-		896357,
+		896351,
 		235
 	},
 	battle_text_common_3 = {
-		896592,
+		896586,
 		192
 	},
 	battle_text_common_4 = {
-		896784,
+		896778,
 		203
 	},
 	battle_text_yingxiv4_1 = {
-		896987,
+		896981,
 		140
 	},
 	battle_text_yingxiv4_2 = {
-		897127,
+		897121,
 		143
 	},
 	battle_text_yingxiv4_3 = {
-		897270,
+		897264,
 		141
 	},
 	battle_text_yingxiv4_4 = {
-		897411,
+		897405,
 		146
 	},
 	battle_text_yingxiv4_5 = {
-		897557,
+		897551,
 		138
 	},
 	battle_text_yingxiv4_6 = {
-		897695,
+		897689,
 		146
 	},
 	battle_text_yingxiv4_7 = {
-		897841,
+		897835,
 		150
 	},
 	battle_text_yingxiv4_8 = {
-		897991,
+		897985,
 		152
 	},
 	battle_text_yingxiv4_9 = {
-		898143,
+		898137,
 		152
 	},
 	battle_text_yingxiv4_10 = {
-		898295,
+		898289,
 		148
 	},
 	battle_text_bisimaiz_1 = {
-		898443,
+		898437,
 		136
 	},
 	battle_text_bisimaiz_2 = {
-		898579,
+		898573,
 		136
 	},
 	battle_text_bisimaiz_3 = {
-		898715,
+		898709,
 		136
 	},
 	battle_text_bisimaiz_4 = {
-		898851,
+		898845,
 		136
 	},
 	battle_text_bisimaiz_5 = {
-		898987,
+		898981,
 		136
 	},
 	battle_text_bisimaiz_6 = {
-		899123,
+		899117,
 		136
 	},
 	battle_text_bisimaiz_7 = {
-		899259,
+		899253,
 		167
 	},
 	battle_text_bisimaiz_8 = {
-		899426,
+		899420,
 		239
 	},
 	battle_text_bisimaiz_9 = {
-		899665,
+		899659,
 		250
 	},
 	battle_text_bisimaiz_10 = {
-		899915,
+		899909,
 		207
 	},
 	battle_text_yunxian_1 = {
-		900122,
+		900116,
 		172
 	},
 	battle_text_yunxian_2 = {
-		900294,
+		900288,
 		175
 	},
 	battle_text_yunxian_3 = {
-		900469,
+		900463,
 		155
 	},
 	battle_text_haidao_1 = {
-		900624,
+		900618,
 		151
 	},
 	battle_text_haidao_2 = {
-		900775,
+		900769,
 		174
 	},
 	battle_text_tongmeng_1 = {
-		900949,
+		900943,
 		134
 	},
 	battle_text_luodeni_1 = {
-		901083,
+		901077,
 		173
 	},
 	battle_text_luodeni_2 = {
-		901256,
+		901250,
 		202
 	},
 	battle_text_luodeni_3 = {
-		901458,
+		901452,
 		187
 	},
 	battle_text_pizibao_1 = {
-		901645,
+		901639,
 		176
 	},
 	battle_text_pizibao_2 = {
-		901821,
+		901815,
 		178
 	},
 	battle_text_tianchengCV_1 = {
-		901999,
+		901993,
 		194
 	},
 	battle_text_tianchengCV_2 = {
-		902193,
+		902187,
 		174
 	},
 	battle_text_tianchengCV_3 = {
-		902367,
+		902361,
 		189
 	},
 	battle_text_lumei_1 = {
-		902556,
+		902550,
 		119
 	},
 	series_enemy_mood = {
-		902675,
+		902669,
 		91
 	},
 	series_enemy_mood_error = {
-		902766,
+		902760,
 		169
 	},
 	series_enemy_reward_tip1 = {
-		902935,
+		902929,
 		100
 	},
 	series_enemy_reward_tip2 = {
-		903035,
+		903029,
 		112
 	},
 	series_enemy_reward_tip3 = {
-		903147,
+		903141,
 		101
 	},
 	series_enemy_reward_tip4 = {
-		903248,
+		903242,
 		98
 	},
 	series_enemy_cost = {
-		903346,
+		903340,
 		92
 	},
 	series_enemy_SP_count = {
-		903438,
+		903432,
 		104
 	},
 	series_enemy_SP_error = {
-		903542,
+		903536,
 		118
 	},
 	series_enemy_unlock = {
-		903660,
+		903654,
 		126
 	},
 	series_enemy_storyunlock = {
-		903786,
+		903780,
 		119
 	},
 	series_enemy_storyreward = {
-		903905,
+		903899,
 		100
 	},
 	series_enemy_help = {
-		904005,
+		903999,
 		2113
 	},
 	series_enemy_score = {
-		906118,
+		906112,
 		87
 	},
 	series_enemy_total_score = {
-		906205,
+		906199,
 		99
 	},
 	setting_label_private = {
-		906304,
+		906298,
 		85
 	},
 	setting_label_licence = {
-		906389,
+		906383,
 		85
 	},
 	series_enemy_reward = {
-		906474,
+		906468,
 		104
 	},
 	series_enemy_mode_1 = {
-		906578,
+		906572,
 		97
 	},
 	series_enemy_mode_2 = {
-		906675,
+		906669,
 		99
 	},
 	series_enemy_fleet_prefix = {
-		906774,
+		906768,
 		97
 	},
 	series_enemy_team_notenough = {
-		906871,
+		906865,
 		232
 	},
 	series_enemy_empty_commander_main = {
-		907103,
+		907097,
 		108
 	},
 	series_enemy_empty_commander_assistant = {
-		907211,
+		907205,
 		111
 	},
 	limit_team_character_tips = {
-		907322,
+		907316,
 		154
 	},
 	game_room_help = {
-		907476,
+		907470,
 		1337
 	},
 	game_cannot_go = {
-		908813,
+		908807,
 		113
 	},
 	game_ticket_notenough = {
-		908926,
+		908920,
 		143
 	},
 	game_ticket_max_all = {
-		909069,
+		909063,
 		204
 	},
 	game_ticket_max_month = {
-		909273,
+		909267,
 		206
 	},
 	game_icon_notenough = {
-		909479,
+		909473,
 		135
 	},
 	game_goldbyicon = {
-		909614,
+		909608,
 		131
 	},
 	game_icon_max = {
-		909745,
+		909739,
 		189
 	},
 	caibulin_tip1 = {
-		909934,
+		909928,
 		141
 	},
 	caibulin_tip2 = {
-		910075,
+		910069,
 		163
 	},
 	caibulin_tip3 = {
-		910238,
+		910232,
 		141
 	},
 	caibulin_tip4 = {
-		910379,
+		910373,
 		162
 	},
 	caibulin_tip5 = {
-		910541,
+		910535,
 		141
 	},
 	caibulin_tip6 = {
-		910682,
+		910676,
 		163
 	},
 	caibulin_tip7 = {
-		910845,
+		910839,
 		141
 	},
 	caibulin_tip8 = {
-		910986,
+		910980,
 		165
 	},
 	caibulin_tip9 = {
-		911151,
+		911145,
 		162
 	},
 	caibulin_tip10 = {
-		911313,
+		911307,
 		177
 	},
 	caibulin_help = {
-		911490,
+		911484,
 		510
 	},
 	caibulin_tip11 = {
-		912000,
+		911994,
 		167
 	},
 	caibulin_lock_tip = {
-		912167,
+		912161,
 		123
 	},
 	gametip_xiaoqiye = {
-		912290,
+		912284,
 		1526
 	},
 	event_recommend_level1 = {
-		913816,
+		913810,
 		176
 	},
 	doa_minigame_Luna = {
-		913992,
+		913986,
 		85
 	},
 	doa_minigame_Misaki = {
-		914077,
+		914071,
 		89
 	},
 	doa_minigame_Marie = {
-		914166,
+		914160,
 		92
 	},
 	doa_minigame_Tamaki = {
-		914258,
+		914252,
 		89
 	},
 	doa_minigame_help = {
-		914347,
+		914341,
 		294
 	},
 	gametip_xiaokewei = {
-		914641,
+		914635,
 		1529
 	},
 	doa_character_select_confirm = {
-		916170,
+		916164,
 		239
 	},
 	blueprint_combatperformance = {
-		916409,
+		916403,
 		102
 	},
 	blueprint_shipperformance = {
-		916511,
+		916505,
 		94
 	},
 	blueprint_researching = {
-		916605,
+		916599,
 		98
 	},
 	sculpture_drawline_tip = {
-		916703,
+		916697,
 		130
 	},
 	sculpture_drawline_done = {
-		916833,
+		916827,
 		151
 	},
 	sculpture_drawline_exit = {
-		916984,
+		916978,
 		181
 	},
 	sculpture_puzzle_tip = {
-		917165,
+		917159,
 		162
 	},
 	sculpture_gratitude_tip = {
-		917327,
+		917321,
 		131
 	},
 	sculpture_close_tip = {
-		917458,
+		917452,
 		97
 	},
 	gift_act_help = {
-		917555,
+		917549,
 		713
 	},
 	gift_act_drawline_help = {
-		918268,
+		918262,
 		722
 	},
 	gift_act_tips = {
-		918990,
+		918984,
 		92
 	},
 	expedition_award_tip = {
-		919082,
+		919076,
 		150
 	},
 	island_act_tips1 = {
-		919232,
+		919226,
 		94
 	},
 	haidaojudian_help = {
-		919326,
+		919320,
 		2479
 	},
 	haidaojudian_building_tip = {
-		921805,
+		921799,
 		139
 	},
 	workbench_help = {
-		921944,
+		921938,
 		653
 	},
 	workbench_need_materials = {
-		922597,
+		922591,
 		104
 	},
 	workbench_tips1 = {
-		922701,
+		922695,
 		103
 	},
 	workbench_tips2 = {
-		922804,
+		922798,
 		110
 	},
 	workbench_tips3 = {
-		922914,
+		922908,
 		117
 	},
 	workbench_tips4 = {
-		923031,
+		923025,
 		114
 	},
 	workbench_tips5 = {
-		923145,
+		923139,
 		114
 	},
 	workbench_tips6 = {
-		923259,
+		923253,
 		88
 	},
 	workbench_tips7 = {
-		923347,
+		923341,
 		88
 	},
 	workbench_tips8 = {
-		923435,
+		923429,
 		87
 	},
 	workbench_tips9 = {
-		923522,
+		923516,
 		95
 	},
 	workbench_tips10 = {
-		923617,
+		923611,
 		102
 	},
 	island_help = {
-		923719,
+		923713,
 		610
 	},
 	islandnode_tips1 = {
-		924329,
+		924323,
 		92
 	},
 	islandnode_tips2 = {
-		924421,
+		924415,
 		84
 	},
 	islandnode_tips3 = {
-		924505,
+		924499,
 		105
 	},
 	islandnode_tips4 = {
-		924610,
+		924604,
 		105
 	},
 	islandnode_tips5 = {
-		924715,
+		924709,
 		113
 	},
 	islandnode_tips6 = {
-		924828,
+		924822,
 		116
 	},
 	islandnode_tips7 = {
-		924944,
+		924938,
 		125
 	},
 	islandnode_tips8 = {
-		925069,
+		925063,
 		151
 	},
 	islandnode_tips9 = {
-		925220,
+		925214,
 		142
 	},
 	islandshop_tips1 = {
-		925362,
+		925356,
 		98
 	},
 	islandshop_tips2 = {
-		925460,
+		925454,
 		87
 	},
 	islandshop_tips3 = {
-		925547,
+		925541,
 		84
 	},
 	islandshop_tips4 = {
-		925631,
+		925625,
 		95
 	},
 	island_shop_limit_error = {
-		925726,
+		925720,
 		146
 	},
 	haidaojudian_upgrade_limit = {
-		925872,
+		925866,
 		154
 	},
 	chargetip_monthcard_1 = {
-		926026,
+		926020,
 		145
 	},
 	chargetip_monthcard_2 = {
-		926171,
+		926165,
 		145
 	},
 	chargetip_crusing = {
-		926316,
+		926310,
 		102
 	},
 	chargetip_giftpackage = {
-		926418,
+		926412,
 		141
 	},
 	package_view_1 = {
-		926559,
+		926553,
 		131
 	},
 	package_view_2 = {
-		926690,
+		926684,
 		143
 	},
 	package_view_3 = {
-		926833,
+		926827,
 		99
 	},
 	package_view_4 = {
-		926932,
+		926926,
 		87
 	},
 	probabilityskinshop_tip = {
-		927019,
+		927013,
 		175
 	},
 	skin_gift_desc = {
-		927194,
+		927188,
 		258
 	},
 	springtask_tip = {
-		927452,
+		927446,
 		307
 	},
 	island_build_desc = {
-		927759,
+		927753,
 		132
 	},
 	island_history_desc = {
-		927891,
+		927885,
 		146
 	},
 	island_build_level = {
-		928037,
+		928031,
 		91
 	},
 	island_game_limit_help = {
-		928128,
+		928122,
 		143
 	},
 	island_game_limit_num = {
-		928271,
+		928265,
 		94
 	},
 	ore_minigame_help = {
-		928365,
+		928359,
 		954
 	},
 	meta_shop_exchange_limit_2 = {
-		929319,
+		929313,
 		96
 	},
 	meta_shop_tip = {
-		929415,
+		929409,
 		138
 	},
 	pt_shop_tran_tip = {
-		929553,
+		929547,
 		275
 	},
 	urdraw_tip = {
-		929828,
+		929822,
 		125
 	},
 	urdraw_complement = {
-		929953,
+		929947,
 		170
 	},
 	meta_class_t_level_1 = {
-		930123,
+		930117,
 		95
 	},
 	meta_class_t_level_2 = {
-		930218,
+		930212,
 		102
 	},
 	meta_class_t_level_3 = {
-		930320,
+		930314,
 		99
 	},
 	meta_class_t_level_4 = {
-		930419,
+		930413,
 		100
 	},
 	meta_class_t_level_5 = {
-		930519,
+		930513,
 		99
 	},
 	meta_shop_exchange_limit_tip = {
-		930618,
+		930612,
 		121
 	},
 	meta_shop_exchange_limit_2_tip = {
-		930739,
+		930733,
 		143
 	},
 	charge_tip_crusing_label = {
-		930882,
+		930876,
 		101
 	},
 	mktea_1 = {
-		930983,
+		930977,
 		144
 	},
 	mktea_2 = {
-		931127,
+		931121,
 		155
 	},
 	mktea_3 = {
-		931282,
+		931276,
 		159
 	},
 	mktea_4 = {
-		931441,
+		931435,
 		233
 	},
 	mktea_5 = {
-		931674,
+		931668,
 		222
 	},
 	random_skin_list_item_desc_label = {
-		931896,
+		931890,
 		99
 	},
 	notice_input_desc = {
-		931995,
+		931989,
 		99
 	},
 	notice_label_send = {
-		932094,
+		932088,
 		85
 	},
 	notice_label_room = {
-		932179,
+		932173,
 		88
 	},
 	notice_label_recv = {
-		932267,
+		932261,
 		90
 	},
 	notice_label_tip = {
-		932357,
+		932351,
 		123
 	},
 	littleTaihou_npc = {
-		932480,
+		932474,
 		1477
 	},
 	disassemble_selected = {
-		933957,
+		933951,
 		92
 	},
 	disassemble_available = {
-		934049,
+		934043,
 		95
 	},
 	ship_formationUI_fleetName_challenge = {
-		934144,
+		934138,
 		115
 	},
 	ship_formationUI_fleetName_challenge_sub = {
-		934259,
+		934253,
 		119
 	},
 	word_status_activity = {
-		934378,
+		934372,
 		92
 	},
 	word_status_challenge = {
-		934470,
+		934464,
 		97
 	},
 	shipmodechange_reject_inactivity = {
-		934567,
+		934561,
 		188
 	},
 	shipmodechange_reject_inchallenge = {
-		934755,
+		934749,
 		192
 	},
 	battle_result_total_time = {
-		934947,
+		934941,
 		99
 	},
 	charge_game_room_coin_tip = {
-		935046,
+		935040,
 		193
 	},
 	game_room_shooting_tip = {
-		935239,
+		935233,
 		100
 	},
 	mini_game_shop_ticked_not_enough = {
-		935339,
+		935333,
 		154
 	},
 	game_ticket_current_month = {
-		935493,
+		935487,
 		103
 	},
 	game_icon_max_full = {
-		935596,
+		935590,
 		138
 	},
 	pre_combat_consume = {
-		935734,
+		935728,
 		87
 	},
 	file_down_msgbox = {
-		935821,
+		935815,
 		192
 	},
 	file_down_mgr_title = {
-		936013,
+		936007,
 		114
 	},
 	file_down_mgr_progress = {
-		936127,
+		936121,
 		91
 	},
 	file_down_mgr_error = {
-		936218,
+		936212,
 		157
 	},
 	last_building_not_shown = {
-		936375,
+		936369,
 		119
 	},
 	setting_group_prefs_tip = {
-		936494,
+		936488,
 		122
 	},
 	group_prefs_switch_tip = {
-		936616,
+		936610,
 		159
 	},
 	main_group_msgbox_content = {
-		936775,
+		936769,
 		184
 	},
 	word_maingroup_checking = {
-		936959,
+		936953,
 		98
 	},
 	word_maingroup_checktoupdate = {
-		937057,
+		937051,
 		107
 	},
 	word_maingroup_checkfailure = {
-		937164,
+		937158,
 		122
 	},
 	word_maingroup_updating = {
-		937286,
+		937280,
 		98
 	},
 	word_maingroup_idle = {
-		937384,
+		937378,
 		90
 	},
 	word_maingroup_latest = {
-		937474,
+		937468,
 		101
 	},
 	word_maingroup_updatesuccess = {
-		937575,
+		937569,
 		108
 	},
 	word_maingroup_updatefailure = {
-		937683,
+		937677,
 		125
 	},
 	group_download_tip = {
-		937808,
+		937802,
 		157
 	},
 	word_manga_checking = {
-		937965,
+		937959,
 		94
 	},
 	word_manga_checktoupdate = {
-		938059,
+		938053,
 		103
 	},
 	word_manga_checkfailure = {
-		938162,
+		938156,
 		118
 	},
 	word_manga_updating = {
-		938280,
+		938274,
 		98
 	},
 	word_manga_updatesuccess = {
-		938378,
+		938372,
 		104
 	},
 	word_manga_updatefailure = {
-		938482,
+		938476,
 		121
 	},
 	cryptolalia_lock_res = {
-		938603,
+		938597,
 		102
 	},
 	cryptolalia_not_download_res = {
-		938705,
+		938699,
 		113
 	},
 	cryptolalia_timelimie = {
-		938818,
+		938812,
 		92
 	},
 	cryptolalia_label_downloading = {
-		938910,
+		938904,
 		114
 	},
 	cryptolalia_delete_res = {
-		939024,
+		939018,
 		104
 	},
 	cryptolalia_delete_res_tip = {
-		939128,
+		939122,
 		133
 	},
 	cryptolalia_delete_res_title = {
-		939261,
+		939255,
 		105
 	},
 	cryptolalia_use_gem_title = {
-		939366,
+		939360,
 		105
 	},
 	cryptolalia_use_ticket_title = {
-		939471,
+		939465,
 		111
 	},
 	cryptolalia_exchange = {
-		939582,
+		939576,
 		94
 	},
 	cryptolalia_exchange_success = {
-		939676,
+		939670,
 		107
 	},
 	cryptolalia_list_title = {
-		939783,
+		939777,
 		93
 	},
 	cryptolalia_list_subtitle = {
-		939876,
+		939870,
 		100
 	},
 	cryptolalia_download_done = {
-		939976,
+		939970,
 		106
 	},
 	cryptolalia_coming_soom = {
-		940082,
+		940076,
 		101
 	},
 	cryptolalia_unopen = {
-		940183,
+		940177,
 		88
 	},
 	cryptolalia_no_ticket = {
-		940271,
+		940265,
 		164
 	},
 	cryptolalia_entrance_coming_soom = {
-		940435,
+		940429,
 		118
 	},
 	ship_formationUI_fleetName_sp = {
-		940553,
+		940547,
 		111
 	},
 	ship_formationUI_fleetName_sp_ss = {
-		940664,
+		940658,
 		118
 	},
 	activityboss_sp_all_buff = {
-		940782,
+		940776,
 		98
 	},
 	activityboss_sp_best_score = {
-		940880,
+		940874,
 		101
 	},
 	activityboss_sp_display_reward = {
-		940981,
+		940975,
 		106
 	},
 	activityboss_sp_score_bonus = {
-		941087,
+		941081,
 		103
 	},
 	activityboss_sp_active_buff = {
-		941190,
+		941184,
 		99
 	},
 	activityboss_sp_window_best_score = {
-		941289,
+		941283,
 		114
 	},
 	activityboss_sp_score_target = {
-		941403,
+		941397,
 		105
 	},
 	activityboss_sp_score = {
-		941508,
+		941502,
 		95
 	},
 	activityboss_sp_score_update = {
-		941603,
+		941597,
 		106
 	},
 	activityboss_sp_score_not_update = {
-		941709,
+		941703,
 		118
 	},
 	collect_page_got = {
-		941827,
+		941821,
 		93
 	},
 	charge_menu_month_tip = {
-		941920,
+		941914,
 		178
 	},
 	activity_shop_title = {
-		942098,
+		942092,
 		88
 	},
 	street_shop_title = {
-		942186,
+		942180,
 		85
 	},
 	military_shop_title = {
-		942271,
+		942265,
 		88
 	},
 	quota_shop_title1 = {
-		942359,
+		942353,
 		92
 	},
 	sham_shop_title = {
-		942451,
+		942445,
 		89
 	},
 	fragment_shop_title = {
-		942540,
+		942534,
 		88
 	},
 	guild_shop_title = {
-		942628,
+		942622,
 		85
 	},
 	medal_shop_title = {
-		942713,
+		942707,
 		85
 	},
 	meta_shop_title = {
-		942798,
+		942792,
 		83
 	},
 	mini_game_shop_title = {
-		942881,
+		942875,
 		89
 	},
 	metaskill_up = {
-		942970,
+		942964,
 		187
 	},
 	metaskill_overflow_tip = {
-		943157,
+		943151,
 		163
 	},
 	msgbox_repair_cipher = {
-		943320,
+		943314,
 		103
 	},
 	msgbox_repair_title = {
-		943423,
+		943417,
 		89
 	},
 	equip_skin_detail_count = {
-		943512,
+		943506,
 		93
 	},
 	faest_nothing_to_get = {
-		943605,
+		943599,
 		105
 	},
 	feast_click_to_close = {
-		943710,
+		943704,
 		98
 	},
 	feast_invitation_btn_label = {
-		943808,
+		943802,
 		108
 	},
 	feast_task_btn_label = {
-		943916,
+		943910,
 		96
 	},
 	feast_task_pt_label = {
-		944012,
+		944006,
 		91
 	},
 	feast_task_pt_level = {
-		944103,
+		944097,
 		89
 	},
 	feast_task_pt_get = {
-		944192,
+		944186,
 		91
 	},
 	feast_task_pt_got = {
-		944283,
+		944277,
 		88
 	},
 	feast_task_tag_daily = {
-		944371,
+		944365,
 		89
 	},
 	feast_task_tag_activity = {
-		944460,
+		944454,
 		94
 	},
 	feast_label_make_invitation = {
-		944554,
+		944548,
 		106
 	},
 	feast_no_invitation = {
-		944660,
+		944654,
 		108
 	},
 	feast_no_gift = {
-		944768,
+		944762,
 		96
 	},
 	feast_label_give_invitation = {
-		944864,
+		944858,
 		106
 	},
 	feast_label_give_invitation_finish = {
-		944970,
+		944964,
 		113
 	},
 	feast_label_give_gift = {
-		945083,
+		945077,
 		94
 	},
 	feast_label_give_gift_finish = {
-		945177,
+		945171,
 		105
 	},
 	feast_label_make_ticket_tip = {
-		945282,
+		945276,
 		151
 	},
 	feast_label_make_ticket_click_tip = {
-		945433,
+		945427,
 		118
 	},
 	feast_label_make_ticket_failed_tip = {
-		945551,
+		945545,
 		153
 	},
 	feast_res_window_title = {
-		945704,
+		945698,
 		93
 	},
 	feast_res_window_go_label = {
-		945797,
+		945791,
 		96
 	},
 	feast_tip = {
-		945893,
+		945887,
 		422
 	},
 	feast_invitation_part1 = {
-		946315,
+		946309,
 		134
 	},
 	feast_invitation_part2 = {
-		946449,
+		946443,
 		260
 	},
 	feast_invitation_part3 = {
-		946709,
+		946703,
 		278
 	},
 	feast_invitation_part4 = {
-		946987,
+		946981,
 		218
 	},
 	uscastle2023_help = {
-		947205,
+		947199,
 		1519
 	},
 	feast_cant_give_gift_tip = {
-		948724,
+		948718,
 		154
 	},
 	uscastle2023_minigame_help = {
-		948878,
+		948872,
 		367
 	},
 	feast_drag_invitation_tip = {
-		949245,
+		949239,
 		143
 	},
 	feast_drag_gift_tip = {
-		949388,
+		949382,
 		131
 	},
 	shoot_preview = {
-		949519,
+		949513,
 		91
 	},
 	hit_preview = {
-		949610,
+		949604,
 		90
 	},
 	story_label_skip = {
-		949700,
+		949694,
 		84
 	},
 	story_label_auto = {
-		949784,
+		949778,
 		84
 	},
 	launch_ball_skill_desc = {
-		949868,
+		949862,
 		93
 	},
 	launch_ball_hatsuduki_skill_1 = {
-		949961,
+		949955,
 		114
 	},
 	launch_ball_hatsuduki_skill_1_desc = {
-		950075,
+		950069,
 		172
 	},
 	launch_ball_hatsuduki_skill_2 = {
-		950247,
+		950241,
 		127
 	},
 	launch_ball_hatsuduki_skill_2_desc = {
-		950374,
+		950368,
 		334
 	},
 	launch_ball_shinano_skill_1 = {
-		950708,
+		950702,
 		113
 	},
 	launch_ball_shinano_skill_1_desc = {
-		950821,
+		950815,
 		193
 	},
 	launch_ball_shinano_skill_2 = {
-		951014,
+		951008,
 		121
 	},
 	launch_ball_shinano_skill_2_desc = {
-		951135,
+		951129,
 		257
 	},
 	launch_ball_yura_skill_1 = {
-		951392,
+		951386,
 		111
 	},
 	launch_ball_yura_skill_1_desc = {
-		951503,
+		951497,
 		169
 	},
 	launch_ball_yura_skill_2 = {
-		951672,
+		951666,
 		120
 	},
 	launch_ball_yura_skill_2_desc = {
-		951792,
+		951786,
 		206
 	},
 	launch_ball_shimakaze_skill_1 = {
-		951998,
+		951992,
 		124
 	},
 	launch_ball_shimakaze_skill_1_desc = {
-		952122,
+		952116,
 		225
 	},
 	launch_ball_shimakaze_skill_2 = {
-		952347,
+		952341,
 		121
 	},
 	launch_ball_shimakaze_skill_2_desc = {
-		952468,
+		952462,
 		202
 	},
 	jp6th_spring_tip1 = {
-		952670,
+		952664,
 		172
 	},
 	jp6th_spring_tip2 = {
-		952842,
+		952836,
 		104
 	},
 	jp6th_biaohoushan_help = {
-		952946,
+		952940,
 		1312
 	},
 	jp6th_lihoushan_help = {
-		954258,
+		954252,
 		2540
 	},
 	jp6th_lihoushan_time = {
-		956798,
+		956792,
 		125
 	},
 	jp6th_lihoushan_order = {
-		956923,
+		956917,
 		138
 	},
 	jp6th_lihoushan_pt1 = {
-		957061,
+		957055,
 		98
 	},
 	launchball_minigame_help = {
-		957159,
+		957153,
 		357
 	},
 	launchball_minigame_select = {
-		957516,
+		957510,
 		106
 	},
 	launchball_minigame_un_select = {
-		957622,
+		957616,
 		122
 	},
 	launchball_minigame_shop = {
-		957744,
+		957738,
 		106
 	},
 	launchball_lock_Shinano = {
-		957850,
+		957844,
 		172
 	},
 	launchball_lock_Yura = {
-		958022,
+		958016,
 		166
 	},
 	launchball_lock_Shimakaze = {
-		958188,
+		958182,
 		176
 	},
 	launchball_spilt_series = {
-		958364,
+		958358,
 		162
 	},
 	launchball_spilt_mix = {
-		958526,
+		958520,
 		311
 	},
 	launchball_spilt_over = {
-		958837,
+		958831,
 		224
 	},
 	launchball_spilt_many = {
-		959061,
+		959055,
 		152
 	},
 	luckybag_skin_isani = {
-		959213,
+		959207,
 		90
 	},
 	luckybag_skin_islive2d = {
-		959303,
+		959297,
 		93
 	},
 	SkinMagazinePage2_tip = {
-		959396,
+		959390,
 		92
 	},
 	racing_cost = {
-		959488,
+		959482,
 		86
 	},
 	racing_rank_top_text = {
-		959574,
+		959568,
 		98
 	},
 	racing_rank_half_h = {
-		959672,
+		959666,
 		102
 	},
 	racing_rank_no_data = {
-		959774,
+		959768,
 		101
 	},
 	racing_minigame_help = {
-		959875,
+		959869,
 		357
 	},
 	child_msg_title_detail = {
-		960232,
+		960226,
 		93
 	},
 	child_msg_title_tip = {
-		960325,
+		960319,
 		87
 	},
 	child_msg_owned = {
-		960412,
+		960406,
 		88
 	},
 	child_polaroid_get_tip = {
-		960500,
+		960494,
 		135
 	},
 	child_close_tip = {
-		960635,
+		960629,
 		101
 	},
 	word_month = {
-		960736,
+		960730,
 		79
 	},
 	word_which_month = {
-		960815,
+		960809,
 		88
 	},
 	word_which_week = {
-		960903,
+		960897,
 		86
 	},
 	word_in_one_week = {
-		960989,
+		960983,
 		89
 	},
 	word_week_title = {
-		961078,
+		961072,
 		82
 	},
 	word_harbour = {
-		961160,
+		961154,
 		80
 	},
 	child_btn_target = {
-		961240,
+		961234,
 		85
 	},
 	child_btn_collect = {
-		961325,
+		961319,
 		89
 	},
 	child_btn_mind = {
-		961414,
+		961408,
 		86
 	},
 	child_btn_bag = {
-		961500,
+		961494,
 		82
 	},
 	child_btn_news = {
-		961582,
+		961576,
 		90
 	},
 	child_main_help = {
-		961672,
+		961666,
 		526
 	},
 	child_archive_name = {
-		962198,
+		962192,
 		86
 	},
 	child_news_import_title = {
-		962284,
+		962278,
 		99
 	},
 	child_news_other_title = {
-		962383,
+		962377,
 		101
 	},
 	child_favor_progress = {
-		962484,
+		962478,
 		96
 	},
 	child_favor_lock1 = {
-		962580,
+		962574,
 		96
 	},
 	child_favor_lock2 = {
-		962676,
+		962670,
 		96
 	},
 	child_target_lock_tip = {
-		962772,
+		962766,
 		136
 	},
 	child_target_progress = {
-		962908,
+		962902,
 		96
 	},
 	child_target_finish_tip = {
-		963004,
+		962998,
 		117
 	},
 	child_target_time_title = {
-		963121,
+		963115,
 		97
 	},
 	child_target_title1 = {
-		963218,
+		963212,
 		92
 	},
 	child_target_title2 = {
-		963310,
+		963304,
 		94
 	},
 	child_item_type0 = {
-		963404,
+		963398,
 		83
 	},
 	child_item_type1 = {
-		963487,
+		963481,
 		85
 	},
 	child_item_type2 = {
-		963572,
+		963566,
 		91
 	},
 	child_item_type3 = {
-		963663,
+		963657,
 		85
 	},
 	child_item_type4 = {
-		963748,
+		963742,
 		85
 	},
 	child_mind_empty_tip = {
-		963833,
+		963827,
 		124
 	},
 	child_mind_finish_title = {
-		963957,
+		963951,
 		96
 	},
 	child_mind_processing_title = {
-		964053,
+		964047,
 		102
 	},
 	child_mind_time_title = {
-		964155,
+		964149,
 		95
 	},
 	child_collect_lock = {
-		964250,
+		964244,
 		88
 	},
 	child_nature_title = {
-		964338,
+		964332,
 		94
 	},
 	child_btn_review = {
-		964432,
+		964426,
 		87
 	},
 	child_schedule_empty_tip = {
-		964519,
+		964513,
 		132
 	},
 	child_schedule_event_tip = {
-		964651,
+		964645,
 		136
 	},
 	child_schedule_sure_tip = {
-		964787,
+		964781,
 		189
 	},
 	child_schedule_sure_tip2 = {
-		964976,
+		964970,
 		146
 	},
 	child_plan_check_tip1 = {
-		965122,
+		965116,
 		152
 	},
 	child_plan_check_tip2 = {
-		965274,
+		965268,
 		141
 	},
 	child_plan_check_tip3 = {
-		965415,
+		965409,
 		166
 	},
 	child_plan_check_tip4 = {
-		965581,
+		965575,
 		132
 	},
 	child_plan_check_tip5 = {
-		965713,
+		965707,
 		133
 	},
 	child_plan_event = {
-		965846,
+		965840,
 		96
 	},
 	child_btn_home = {
-		965942,
+		965936,
 		85
 	},
 	child_option_limit = {
-		966027,
+		966021,
 		89
 	},
 	child_shop_tip1 = {
-		966116,
+		966110,
 		117
 	},
 	child_shop_tip2 = {
-		966233,
+		966227,
 		112
 	},
 	child_filter_title = {
-		966345,
+		966339,
 		88
 	},
 	child_filter_type1 = {
-		966433,
+		966427,
 		95
 	},
 	child_filter_type2 = {
-		966528,
+		966522,
 		93
 	},
 	child_filter_type3 = {
-		966621,
+		966615,
 		91
 	},
 	child_plan_type1 = {
-		966712,
+		966706,
 		86
 	},
 	child_plan_type2 = {
-		966798,
+		966792,
 		87
 	},
 	child_plan_type3 = {
-		966885,
+		966879,
 		95
 	},
 	child_plan_type4 = {
-		966980,
+		966974,
 		89
 	},
 	child_filter_award_res = {
-		967069,
+		967063,
 		91
 	},
 	child_filter_award_nature = {
-		967160,
+		967154,
 		100
 	},
 	child_filter_award_attr1 = {
-		967260,
+		967254,
 		93
 	},
 	child_filter_award_attr2 = {
-		967353,
+		967347,
 		97
 	},
 	child_mood_desc1 = {
-		967450,
+		967444,
 		149
 	},
 	child_mood_desc2 = {
-		967599,
+		967593,
 		143
 	},
 	child_mood_desc3 = {
-		967742,
+		967736,
 		145
 	},
 	child_mood_desc4 = {
-		967887,
+		967881,
 		145
 	},
 	child_mood_desc5 = {
-		968032,
+		968026,
 		145
 	},
 	child_stage_desc1 = {
-		968177,
+		968171,
 		95
 	},
 	child_stage_desc2 = {
-		968272,
+		968266,
 		95
 	},
 	child_stage_desc3 = {
-		968367,
+		968361,
 		95
 	},
 	child_default_callname = {
-		968462,
+		968456,
 		95
 	},
 	flagship_display_mode_1 = {
-		968557,
+		968551,
 		118
 	},
 	flagship_display_mode_2 = {
-		968675,
+		968669,
 		117
 	},
 	flagship_display_mode_3 = {
-		968792,
+		968786,
 		95
 	},
 	flagship_educate_slot_lock_tip = {
-		968887,
+		968881,
 		184
 	},
 	child_story_name = {
-		969071,
+		969065,
 		89
 	},
 	secretary_special_name = {
-		969160,
+		969154,
 		88
 	},
 	secretary_special_lock_tip = {
-		969248,
+		969242,
 		101
 	},
 	secretary_special_title_age = {
-		969349,
+		969343,
 		109
 	},
 	secretary_special_title_physiognomy = {
-		969458,
+		969452,
 		117
 	},
 	child_plan_skip = {
-		969575,
+		969569,
 		93
 	},
 	child_attr_name1 = {
-		969668,
+		969662,
 		85
 	},
 	child_attr_name2 = {
-		969753,
+		969747,
 		89
 	},
 	child_task_system_type2 = {
-		969842,
+		969836,
 		93
 	},
 	child_task_system_type3 = {
-		969935,
+		969929,
 		91
 	},
 	child_plan_perform_title = {
-		970026,
+		970020,
 		104
 	},
 	child_date_text1 = {
-		970130,
+		970124,
 		93
 	},
 	child_date_text2 = {
-		970223,
+		970217,
 		96
 	},
 	child_date_text3 = {
-		970319,
+		970313,
 		94
 	},
 	child_date_text4 = {
-		970413,
+		970407,
 		93
 	},
 	child_upgrade_sure_tip = {
-		970506,
+		970500,
 		231
 	},
 	child_school_sure_tip = {
-		970737,
+		970731,
 		212
 	},
 	child_extraAttr_sure_tip = {
-		970949,
+		970943,
 		140
 	},
 	child_reset_sure_tip = {
-		971089,
+		971083,
 		172
 	},
 	child_end_sure_tip = {
-		971261,
+		971255,
 		104
 	},
 	child_buff_name = {
-		971365,
+		971359,
 		85
 	},
 	child_unlock_tip = {
-		971450,
+		971444,
 		86
 	},
 	child_unlock_out = {
-		971536,
+		971530,
 		90
 	},
 	child_unlock_memory = {
-		971626,
+		971620,
 		91
 	},
 	child_unlock_polaroid = {
-		971717,
+		971711,
 		92
 	},
 	child_unlock_ending = {
-		971809,
+		971803,
 		90
 	},
 	child_unlock_intimacy = {
-		971899,
+		971893,
 		94
 	},
 	child_unlock_buff = {
-		971993,
+		971987,
 		87
 	},
 	child_unlock_attr2 = {
-		972080,
+		972074,
 		93
 	},
 	child_unlock_attr3 = {
-		972173,
+		972167,
 		91
 	},
 	child_unlock_bag = {
-		972264,
+		972258,
 		85
 	},
 	child_shop_empty_tip = {
-		972349,
+		972343,
 		101
 	},
 	child_bag_empty_tip = {
-		972450,
+		972444,
 		101
 	},
 	levelscene_deploy_submarine = {
-		972551,
+		972545,
 		105
 	},
 	levelscene_deploy_submarine_cancel = {
-		972656,
+		972650,
 		104
 	},
 	levelscene_airexpel_cancel = {
-		972760,
+		972754,
 		96
 	},
 	levelscene_airexpel_select_enemy = {
-		972856,
+		972850,
 		131
 	},
 	levelscene_airexpel_outrange = {
-		972987,
+		972981,
 		137
 	},
 	levelscene_airexpel_select_boss = {
-		973124,
+		973118,
 		141
 	},
 	levelscene_airexpel_select_battle = {
-		973265,
+		973259,
 		154
 	},
 	levelscene_airexpel_select_confirm_left = {
-		973419,
+		973413,
 		204
 	},
 	levelscene_airexpel_select_confirm_right = {
-		973623,
+		973617,
 		206
 	},
 	levelscene_airexpel_select_confirm_up = {
-		973829,
+		973823,
 		193
 	},
 	levelscene_airexpel_select_confirm_down = {
-		974022,
+		974016,
 		197
 	},
 	shipyard_phase_1 = {
-		974219,
+		974213,
 		929
 	},
 	shipyard_phase_2 = {
-		975148,
+		975142,
 		86
 	},
 	shipyard_button_1 = {
-		975234,
+		975228,
 		91
 	},
 	shipyard_button_2 = {
-		975325,
+		975319,
 		153
 	},
 	shipyard_introduce = {
-		975478,
+		975472,
 		246
 	},
 	help_supportfleet = {
-		975724,
+		975718,
 		358
 	},
 	help_supportfleet_16 = {
-		976082,
+		976076,
 		363
 	},
 	help_supportfleet_16_submarine = {
-		976445,
+		976439,
 		391
 	},
 	word_status_inSupportFleet = {
-		976836,
+		976830,
 		106
 	},
 	ship_formationMediator_request_replace_support = {
-		976942,
+		976936,
 		190
 	},
 	courtyard_label_train = {
-		977132,
+		977126,
 		90
 	},
 	courtyard_label_rest = {
-		977222,
+		977216,
 		88
 	},
 	courtyard_label_capacity = {
-		977310,
+		977304,
 		96
 	},
 	courtyard_label_share = {
-		977406,
+		977400,
 		90
 	},
 	courtyard_label_shop = {
-		977496,
+		977490,
 		88
 	},
 	courtyard_label_decoration = {
-		977584,
+		977578,
 		94
 	},
 	courtyard_label_template = {
-		977678,
+		977672,
 		94
 	},
 	courtyard_label_floor = {
-		977772,
+		977766,
 		91
 	},
 	courtyard_label_exp_addition = {
-		977863,
+		977857,
 		101
 	},
 	courtyard_label_total_exp_addition = {
-		977964,
+		977958,
 		114
 	},
 	courtyard_label_comfortable_addition = {
-		978078,
+		978072,
 		116
 	},
 	courtyard_label_placed_furniture = {
-		978194,
+		978188,
 		112
 	},
 	courtyard_label_shop_1 = {
-		978306,
+		978300,
 		90
 	},
 	courtyard_label_clear = {
-		978396,
+		978390,
 		90
 	},
 	courtyard_label_save = {
-		978486,
+		978480,
 		88
 	},
 	courtyard_label_save_theme = {
-		978574,
+		978568,
 		100
 	},
 	courtyard_label_using = {
-		978674,
+		978668,
 		103
 	},
 	courtyard_label_search_holder = {
-		978777,
+		978771,
 		105
 	},
 	courtyard_label_filter = {
-		978882,
+		978876,
 		92
 	},
 	courtyard_label_time = {
-		978974,
+		978968,
 		88
 	},
 	courtyard_label_week = {
-		979062,
+		979056,
 		93
 	},
 	courtyard_label_month = {
-		979155,
+		979149,
 		94
 	},
 	courtyard_label_year = {
-		979249,
+		979243,
 		93
 	},
 	courtyard_label_putlist_title = {
-		979342,
+		979336,
 		114
 	},
 	courtyard_label_custom_theme = {
-		979456,
+		979450,
 		102
 	},
 	courtyard_label_system_theme = {
-		979558,
+		979552,
 		99
 	},
 	courtyard_tip_furniture_not_in_layer = {
-		979657,
+		979651,
 		142
 	},
 	courtyard_label_detail = {
-		979799,
+		979793,
 		93
 	},
 	courtyard_label_place_pnekey = {
-		979892,
+		979886,
 		103
 	},
 	courtyard_label_delete = {
-		979995,
+		979989,
 		92
 	},
 	courtyard_label_cancel_share = {
-		980087,
+		980081,
 		104
 	},
 	courtyard_label_empty_template_list = {
-		980191,
+		980185,
 		139
 	},
 	courtyard_label_empty_custom_template_list = {
-		980330,
+		980324,
 		195
 	},
 	courtyard_label_empty_collection_list = {
-		980525,
+		980519,
 		135
 	},
 	courtyard_label_go = {
-		980660,
+		980654,
 		89
 	},
 	mot_class_t_level_1 = {
-		980749,
+		980743,
 		97
 	},
 	mot_class_t_level_2 = {
-		980846,
+		980840,
 		98
 	},
 	equip_share_label_1 = {
-		980944,
+		980938,
 		99
 	},
 	equip_share_label_2 = {
-		981043,
+		981037,
 		100
 	},
 	equip_share_label_3 = {
-		981143,
+		981137,
 		99
 	},
 	equip_share_label_4 = {
-		981242,
+		981236,
 		96
 	},
 	equip_share_label_5 = {
-		981338,
+		981332,
 		95
 	},
 	equip_share_label_6 = {
-		981433,
+		981427,
 		99
 	},
 	equip_share_label_7 = {
-		981532,
+		981526,
 		87
 	},
 	equip_share_label_8 = {
-		981619,
+		981613,
 		90
 	},
 	equip_share_label_9 = {
-		981709,
+		981703,
 		87
 	},
 	equipcode_input = {
-		981796,
+		981790,
 		104
 	},
 	equipcode_slot_unmatch = {
-		981900,
+		981894,
 		153
 	},
 	equipcode_share_nolabel = {
-		982053,
+		982047,
 		132
 	},
 	equipcode_share_exceedlimit = {
-		982185,
+		982179,
 		124
 	},
 	equipcode_illegal = {
-		982309,
+		982303,
 		116
 	},
 	equipcode_confirm_doublecheck = {
-		982425,
+		982419,
 		137
 	},
 	equipcode_import_success = {
-		982562,
+		982556,
 		132
 	},
 	equipcode_share_success = {
-		982694,
+		982688,
 		128
 	},
 	equipcode_like_limited = {
-		982822,
+		982816,
 		138
 	},
 	equipcode_like_success = {
-		982960,
+		982954,
 		102
 	},
 	equipcode_dislike_success = {
-		983062,
+		983056,
 		115
 	},
 	equipcode_report_type_1 = {
-		983177,
+		983171,
 		118
 	},
 	equipcode_report_type_2 = {
-		983295,
+		983289,
 		110
 	},
 	equipcode_report_warning = {
-		983405,
+		983399,
 		150
 	},
 	equipcode_level_unmatched = {
-		983555,
+		983549,
 		100
 	},
 	equipcode_equipment_unowned = {
-		983655,
+		983649,
 		103
 	},
 	equipcode_diff_selected = {
-		983758,
+		983752,
 		101
 	},
 	equipcode_export_success = {
-		983859,
+		983853,
 		105
 	},
 	equipcode_unsaved_tips = {
-		983964,
+		983958,
 		154
 	},
 	equipcode_share_ruletips = {
-		984118,
+		984112,
 		139
 	},
 	equipcode_share_errorcode7 = {
-		984257,
+		984251,
 		146
 	},
 	equipcode_share_errorcode44 = {
-		984403,
+		984397,
 		137
 	},
 	equipcode_share_title = {
-		984540,
+		984534,
 		93
 	},
 	equipcode_share_titleeng = {
-		984633,
+		984627,
 		96
 	},
 	equipcode_share_listempty = {
-		984729,
+		984723,
 		115
 	},
 	equipcode_equip_occupied = {
-		984844,
+		984838,
 		94
 	},
 	sail_boat_equip_tip_1 = {
-		984938,
+		984932,
 		206
 	},
 	sail_boat_equip_tip_2 = {
-		985144,
+		985138,
 		215
 	},
 	sail_boat_equip_tip_3 = {
-		985359,
+		985353,
 		218
 	},
 	sail_boat_equip_tip_4 = {
-		985577,
+		985571,
 		210
 	},
 	sail_boat_equip_tip_5 = {
-		985787,
+		985781,
 		191
 	},
 	sail_boat_minigame_help = {
-		985978,
+		985972,
 		356
 	},
 	pirate_wanted_help = {
-		986334,
+		986328,
 		448
 	},
 	harbor_backhill_help = {
-		986782,
+		986776,
 		1172
 	},
 	cryptolalia_download_task_already_exists = {
-		987954,
+		987948,
 		135
 	},
 	charge_scene_buy_confirm_backyard = {
-		988089,
+		988083,
 		168
 	},
 	roll_room1 = {
-		988257,
+		988251,
 		88
 	},
 	roll_room2 = {
-		988345,
+		988339,
 		88
 	},
 	roll_room3 = {
-		988433,
+		988427,
 		84
 	},
 	roll_room4 = {
-		988517,
+		988511,
 		83
 	},
 	roll_room5 = {
-		988600,
+		988594,
 		85
 	},
 	roll_room6 = {
-		988685,
+		988679,
 		92
 	},
 	roll_room7 = {
-		988777,
+		988771,
 		85
 	},
 	roll_room8 = {
-		988862,
+		988856,
 		81
 	},
 	roll_room9 = {
-		988943,
+		988937,
 		86
 	},
 	roll_room10 = {
-		989029,
+		989023,
 		91
 	},
 	roll_room11 = {
-		989120,
+		989114,
 		89
 	},
 	roll_room12 = {
-		989209,
+		989203,
 		90
 	},
 	roll_room13 = {
-		989299,
+		989293,
 		89
 	},
 	roll_room14 = {
-		989388,
+		989382,
 		87
 	},
 	roll_room15 = {
-		989475,
+		989469,
 		80
 	},
 	roll_room16 = {
-		989555,
+		989549,
 		86
 	},
 	roll_room17 = {
-		989641,
+		989635,
 		81
 	},
 	roll_attr_list = {
-		989722,
+		989716,
 		693
 	},
 	roll_notimes = {
-		990415,
+		990409,
 		142
 	},
 	roll_tip2 = {
-		990557,
+		990551,
 		137
 	},
 	roll_reward_word1 = {
-		990694,
+		990688,
 		89
 	},
 	roll_reward_word2 = {
-		990783,
+		990777,
 		90
 	},
 	roll_reward_word3 = {
-		990873,
+		990867,
 		90
 	},
 	roll_reward_word4 = {
-		990963,
+		990957,
 		90
 	},
 	roll_reward_word5 = {
-		991053,
+		991047,
 		90
 	},
 	roll_reward_word6 = {
-		991143,
+		991137,
 		90
 	},
 	roll_reward_word7 = {
-		991233,
+		991227,
 		90
 	},
 	roll_reward_word8 = {
-		991323,
+		991317,
 		87
 	},
 	roll_reward_tip = {
-		991410,
+		991404,
 		94
 	},
 	roll_unlock = {
-		991504,
+		991498,
 		126
 	},
 	roll_noname = {
-		991630,
+		991624,
 		116
 	},
 	roll_card_info = {
-		991746,
+		991740,
 		85
 	},
 	roll_card_attr = {
-		991831,
+		991825,
 		83
 	},
 	roll_card_skill = {
-		991914,
+		991908,
 		85
 	},
 	roll_times_left = {
-		991999,
+		991993,
 		93
 	},
 	roll_room_unexplored = {
-		992092,
+		992086,
 		87
 	},
 	roll_reward_got = {
-		992179,
+		992173,
 		86
 	},
 	roll_gametip = {
-		992265,
+		992259,
 		1639
 	},
 	roll_ending_tip1 = {
-		993904,
+		993898,
 		157
 	},
 	roll_ending_tip2 = {
-		994061,
+		994055,
 		141
 	},
 	commandercat_label_raw_name = {
-		994202,
+		994196,
 		104
 	},
 	commandercat_label_custom_name = {
-		994306,
+		994300,
 		105
 	},
 	commandercat_label_display_name = {
-		994411,
+		994405,
 		106
 	},
 	commander_selected_max = {
-		994517,
+		994511,
 		127
 	},
 	word_talent = {
-		994644,
+		994638,
 		81
 	},
 	word_click_to_close = {
-		994725,
+		994719,
 		95
 	},
 	commander_subtile_ablity = {
-		994820,
+		994814,
 		104
 	},
 	commander_subtile_talent = {
-		994924,
+		994918,
 		102
 	},
 	commander_confirm_tip = {
-		995026,
+		995020,
 		130
 	},
 	commander_level_up_tip = {
-		995156,
+		995150,
 		122
 	},
 	commander_skill_effect = {
-		995278,
+		995272,
 		99
 	},
 	commander_choice_talent_1 = {
-		995377,
+		995371,
 		127
 	},
 	commander_choice_talent_2 = {
-		995504,
+		995498,
 		106
 	},
 	commander_choice_talent_3 = {
-		995610,
+		995604,
 		132
 	},
 	commander_get_box_tip_1 = {
-		995742,
+		995736,
 		102
 	},
 	commander_get_box_tip = {
-		995844,
+		995838,
 		113
 	},
 	commander_total_gold = {
-		995957,
+		995951,
 		95
 	},
 	commander_use_box_tip = {
-		996052,
+		996046,
 		101
 	},
 	commander_use_box_queue = {
-		996153,
+		996147,
 		95
 	},
 	commander_command_ability = {
-		996248,
+		996242,
 		99
 	},
 	commander_logistics_ability = {
-		996347,
+		996341,
 		100
 	},
 	commander_tactical_ability = {
-		996447,
+		996441,
 		97
 	},
 	commander_choice_talent_4 = {
-		996544,
+		996538,
 		147
 	},
 	commander_rename_tip = {
-		996691,
+		996685,
 		145
 	},
 	commander_home_level_label = {
-		996836,
+		996830,
 		103
 	},
 	commander_get_commander_coptyright = {
-		996939,
+		996933,
 		117
 	},
 	commander_choice_talent_reset = {
-		997056,
+		997050,
 		236
 	},
 	commander_lock_setting_title = {
-		997292,
+		997286,
 		180
 	},
 	skin_exchange_confirm = {
-		997472,
+		997466,
 		162
 	},
 	skin_purchase_confirm = {
-		997634,
+		997628,
 		238
 	},
 	blackfriday_pack_lock = {
-		997872,
+		997866,
 		126
 	},
 	skin_exchange_title = {
-		997998,
+		997992,
 		99
 	},
 	blackfriday_pack_select_skinall = {
-		998097,
+		998091,
 		257
 	},
 	skin_discount_desc = {
-		998354,
+		998348,
 		137
 	},
 	skin_exchange_timelimit = {
-		998491,
+		998485,
 		198
 	},
 	blackfriday_pack_purchased = {
-		998689,
+		998683,
 		99
 	},
 	commander_unsel_lock_flag_tip = {
-		998788,
+		998782,
 		200
 	},
 	skin_discount_timelimit = {
-		998988,
+		998982,
 		175
 	},
 	shan_luan_task_progress_tip = {
-		999163,
+		999157,
 		104
 	},
 	shan_luan_task_level_tip = {
-		999267,
+		999261,
 		104
 	},
 	shan_luan_task_help = {
-		999371,
+		999365,
 		876
 	},
 	shan_luan_task_buff_default = {
-		1000247,
+		1000241,
 		94
 	},
 	senran_pt_consume_tip = {
-		1000341,
+		1000335,
 		228
 	},
 	senran_pt_not_enough = {
-		1000569,
+		1000563,
 		139
 	},
 	senran_pt_help = {
-		1000708,
+		1000702,
 		595
 	},
 	senran_pt_rank = {
-		1001303,
+		1001297,
 		101
 	},
 	senran_pt_words_feiniao = {
-		1001404,
+		1001398,
 		420
 	},
 	senran_pt_words_banjiu = {
-		1001824,
+		1001818,
 		524
 	},
 	senran_pt_words_yan = {
-		1002348,
+		1002342,
 		419
 	},
 	senran_pt_words_xuequan = {
-		1002767,
+		1002761,
 		453
 	},
 	senran_pt_words_xuebugui = {
-		1003220,
+		1003214,
 		433
 	},
 	senran_pt_words_zi = {
-		1003653,
+		1003647,
 		394
 	},
 	senran_pt_words_xishao = {
-		1004047,
+		1004041,
 		392
 	},
 	senrankagura_backhill_help = {
-		1004439,
+		1004433,
 		1252
 	},
 	dorm3d_furnitrue_type_wallpaper = {
-		1005691,
+		1005685,
 		105
 	},
 	dorm3d_furnitrue_type_floor = {
-		1005796,
+		1005790,
 		99
 	},
 	dorm3d_furnitrue_type_decoration = {
-		1005895,
+		1005889,
 		107
 	},
 	dorm3d_furnitrue_type_bed = {
-		1006002,
+		1005996,
 		93
 	},
 	dorm3d_furnitrue_type_couch = {
-		1006095,
+		1006089,
 		98
 	},
 	dorm3d_furnitrue_type_table = {
-		1006193,
+		1006187,
 		97
 	},
 	vote_lable_not_start = {
-		1006290,
+		1006284,
 		90
 	},
 	vote_lable_voting = {
-		1006380,
+		1006374,
 		92
 	},
 	vote_lable_title = {
-		1006472,
+		1006466,
 		173
 	},
 	vote_lable_acc_title_1 = {
-		1006645,
+		1006639,
 		97
 	},
 	vote_lable_acc_title_2 = {
-		1006742,
+		1006736,
 		98
 	},
 	vote_lable_curr_title_1 = {
-		1006840,
+		1006834,
 		103
 	},
 	vote_lable_curr_title_2 = {
-		1006943,
+		1006937,
 		104
 	},
 	vote_lable_window_title = {
-		1007047,
+		1007041,
 		94
 	},
 	vote_lable_rearch = {
-		1007141,
+		1007135,
 		90
 	},
 	vote_lable_daily_task_title = {
-		1007231,
+		1007225,
 		98
 	},
 	vote_lable_daily_task_tip = {
-		1007329,
+		1007323,
 		138
 	},
 	vote_lable_task_title = {
-		1007467,
+		1007461,
 		96
 	},
 	vote_lable_task_list_is_empty = {
-		1007563,
+		1007557,
 		124
 	},
 	vote_lable_ship_votes = {
-		1007687,
+		1007681,
 		95
 	},
 	vote_help_2023 = {
-		1007782,
+		1007776,
 		5208
 	},
 	vote_tip_level_limit = {
-		1012990,
+		1012984,
 		139
 	},
 	vote_label_rank = {
-		1013129,
+		1013123,
 		83
 	},
 	vote_label_rank_fresh_time_tip = {
-		1013212,
+		1013206,
 		135
 	},
 	vote_tip_area_closed = {
-		1013347,
+		1013341,
 		102
 	},
 	commander_skill_ui_info = {
-		1013449,
+		1013443,
 		91
 	},
 	commander_skill_ui_confirm = {
-		1013540,
+		1013534,
 		97
 	},
 	commander_formation_prefab_fleet = {
-		1013637,
+		1013631,
 		102
 	},
 	rect_ship_card_tpl_add = {
-		1013739,
+		1013733,
 		96
 	},
 	newyear2024_backhill_help = {
-		1013835,
+		1013829,
 		1024
 	},
 	last_times_sign = {
-		1014859,
+		1014853,
 		100
 	},
 	skin_page_sign = {
-		1014959,
+		1014953,
 		83
 	},
 	skin_page_desc = {
-		1015042,
+		1015036,
 		178
 	},
 	live2d_reset_desc = {
-		1015220,
+		1015214,
 		110
 	},
 	skin_exchange_usetip = {
-		1015330,
+		1015324,
 		138
 	},
 	blackfriday_pack_select_skinall_dialog = {
-		1015468,
+		1015462,
 		211
 	},
 	not_use_ticket_to_buy_skin = {
-		1015679,
+		1015673,
 		113
 	},
 	skin_purchase_over_price = {
-		1015792,
+		1015786,
 		337
 	},
 	help_chunjie2024 = {
-		1016129,
+		1016123,
 		1357
 	},
 	child_random_polaroid_drop = {
-		1017486,
+		1017480,
 		97
 	},
 	child_random_ops_drop = {
-		1017583,
+		1017577,
 		99
 	},
 	child_refresh_sure_tip = {
-		1017682,
+		1017676,
 		118
 	},
 	child_target_set_sure_tip = {
-		1017800,
+		1017794,
 		225
 	},
 	child_polaroid_lock_tip = {
-		1018025,
+		1018019,
 		128
 	},
 	child_task_finish_all = {
-		1018153,
+		1018147,
 		115
 	},
 	child_unlock_new_secretary = {
-		1018268,
+		1018262,
 		197
 	},
 	child_no_resource = {
-		1018465,
+		1018459,
 		103
 	},
 	child_target_set_empty = {
-		1018568,
+		1018562,
 		110
 	},
 	child_target_set_skip = {
-		1018678,
+		1018672,
 		132
 	},
 	child_news_import_empty = {
-		1018810,
+		1018804,
 		130
 	},
 	child_news_other_empty = {
-		1018940,
+		1018934,
 		116
 	},
 	word_week_day1 = {
-		1019056,
+		1019050,
 		84
 	},
 	word_week_day2 = {
-		1019140,
+		1019134,
 		85
 	},
 	word_week_day3 = {
-		1019225,
+		1019219,
 		87
 	},
 	word_week_day4 = {
-		1019312,
+		1019306,
 		86
 	},
 	word_week_day5 = {
-		1019398,
+		1019392,
 		84
 	},
 	word_week_day6 = {
-		1019482,
+		1019476,
 		86
 	},
 	word_week_day7 = {
-		1019568,
+		1019562,
 		84
 	},
 	child_shop_price_title = {
-		1019652,
+		1019646,
 		92
 	},
 	child_callname_tip = {
-		1019744,
+		1019738,
 		104
 	},
 	child_plan_no_cost = {
-		1019848,
+		1019842,
 		93
 	},
 	word_emoji_unlock = {
-		1019941,
+		1019935,
 		102
 	},
 	word_get_emoji = {
-		1020043,
+		1020037,
 		86
 	},
 	word_show_extra_reward_at_fudai_dialog = {
-		1020129,
+		1020123,
 		136
 	},
 	skin_shop_buy_confirm = {
-		1020265,
+		1020259,
 		166
 	},
 	activity_victory = {
-		1020431,
+		1020425,
 		106
 	},
 	other_world_temple_toggle_1 = {
-		1020537,
+		1020531,
 		106
 	},
 	other_world_temple_toggle_2 = {
-		1020643,
+		1020637,
 		108
 	},
 	other_world_temple_toggle_3 = {
-		1020751,
+		1020745,
 		107
 	},
 	other_world_temple_char = {
-		1020858,
+		1020852,
 		96
 	},
 	other_world_temple_award = {
-		1020954,
+		1020948,
 		101
 	},
 	other_world_temple_got = {
-		1021055,
+		1021049,
 		93
 	},
 	other_world_temple_progress = {
-		1021148,
+		1021142,
 		136
 	},
 	other_world_temple_char_title = {
-		1021284,
+		1021278,
 		102
 	},
 	other_world_temple_award_last = {
-		1021386,
+		1021380,
 		108
 	},
 	other_world_temple_award_title_1 = {
-		1021494,
+		1021488,
 		122
 	},
 	other_world_temple_award_title_2 = {
-		1021616,
+		1021610,
 		124
 	},
 	other_world_temple_award_title_3 = {
-		1021740,
+		1021734,
 		123
 	},
 	other_world_temple_lottery_all = {
-		1021863,
+		1021857,
 		123
 	},
 	other_world_temple_award_desc = {
-		1021986,
+		1021980,
 		163
 	},
 	temple_consume_not_enough = {
-		1022149,
+		1022143,
 		111
 	},
 	other_world_temple_pay = {
-		1022260,
+		1022254,
 		101
 	},
 	other_world_task_type_daily = {
-		1022361,
+		1022355,
 		96
 	},
 	other_world_task_type_main = {
-		1022457,
+		1022451,
 		94
 	},
 	other_world_task_type_repeat = {
-		1022551,
+		1022545,
 		106
 	},
 	other_world_task_title = {
-		1022657,
+		1022651,
 		100
 	},
 	other_world_task_get_all = {
-		1022757,
+		1022751,
 		97
 	},
 	other_world_task_go = {
-		1022854,
+		1022848,
 		90
 	},
 	other_world_task_got = {
-		1022944,
+		1022938,
 		91
 	},
 	other_world_task_get = {
-		1023035,
+		1023029,
 		90
 	},
 	other_world_task_tag_main = {
-		1023125,
+		1023119,
 		93
 	},
 	other_world_task_tag_daily = {
-		1023218,
+		1023212,
 		95
 	},
 	other_world_task_tag_all = {
-		1023313,
+		1023307,
 		91
 	},
 	terminal_personal_title = {
-		1023404,
+		1023398,
 		101
 	},
 	terminal_adventure_title = {
-		1023505,
+		1023499,
 		102
 	},
 	terminal_guardian_title = {
-		1023607,
+		1023601,
 		96
 	},
 	personal_info_title = {
-		1023703,
+		1023697,
 		93
 	},
 	personal_property_title = {
-		1023796,
+		1023790,
 		92
 	},
 	personal_ability_title = {
-		1023888,
+		1023882,
 		92
 	},
 	adventure_award_title = {
-		1023980,
+		1023974,
 		108
 	},
 	adventure_progress_title = {
-		1024088,
+		1024082,
 		102
 	},
 	adventure_lv_title = {
-		1024190,
+		1024184,
 		99
 	},
 	adventure_record_title = {
-		1024289,
+		1024283,
 		99
 	},
 	adventure_record_grade_title = {
-		1024388,
+		1024382,
 		108
 	},
 	adventure_award_end_tip = {
-		1024496,
+		1024490,
 		114
 	},
 	guardian_select_title = {
-		1024610,
+		1024604,
 		100
 	},
 	guardian_sure_btn = {
-		1024710,
+		1024704,
 		85
 	},
 	guardian_cancel_btn = {
-		1024795,
+		1024789,
 		89
 	},
 	guardian_active_tip = {
-		1024884,
+		1024878,
 		89
 	},
 	personal_random = {
-		1024973,
+		1024967,
 		94
 	},
 	adventure_get_all = {
-		1025067,
+		1025061,
 		90
 	},
 	Announcements_Event_Notice = {
-		1025157,
+		1025151,
 		95
 	},
 	Announcements_System_Notice = {
-		1025252,
+		1025246,
 		97
 	},
 	Announcements_News = {
-		1025349,
+		1025343,
 		86
 	},
 	Announcements_Donotshow = {
-		1025435,
+		1025429,
 		109
 	},
 	adventure_unlock_tip = {
-		1025544,
+		1025538,
 		170
 	},
 	personal_random_tip = {
-		1025714,
+		1025708,
 		139
 	},
 	guardian_sure_limit_tip = {
-		1025853,
+		1025847,
 		123
 	},
 	other_world_temple_tip = {
-		1025976,
+		1025970,
 		533
 	},
 	otherworld_map_help = {
-		1026509,
+		1026503,
 		530
 	},
 	otherworld_backhill_help = {
-		1027039,
+		1027033,
 		535
 	},
 	otherworld_terminal_help = {
-		1027574,
+		1027568,
 		535
 	},
 	vote_2023_reward_word_1 = {
-		1028109,
+		1028103,
 		207
 	},
 	vote_2023_reward_word_2 = {
-		1028316,
+		1028310,
 		357
 	},
 	vote_2023_reward_word_3 = {
-		1028673,
+		1028667,
 		354
 	},
 	voting_page_reward = {
-		1029027,
+		1029021,
 		87
 	},
 	backyard_shipAddInimacy_ships_ok = {
-		1029114,
+		1029108,
 		177
 	},
 	backyard_shipAddMoney_ships_ok = {
-		1029291,
+		1029285,
 		201
 	},
 	idol3rd_houshan = {
-		1029492,
+		1029486,
 		1145
 	},
 	idol3rd_collection = {
-		1030637,
+		1030631,
 		800
 	},
 	idol3rd_practice = {
-		1031437,
+		1031431,
 		944
 	},
 	dorm3d_furniture_window_acesses = {
-		1032381,
+		1032375,
 		106
 	},
 	dorm3d_furniture_count = {
-		1032487,
+		1032481,
 		96
 	},
 	dorm3d_furniture_used = {
-		1032583,
+		1032577,
 		116
 	},
 	dorm3d_furniture_lack = {
-		1032699,
+		1032693,
 		97
 	},
 	dorm3d_furniture_unfit = {
-		1032796,
+		1032790,
 		94
 	},
 	dorm3d_waiting = {
-		1032890,
+		1032884,
 		88
 	},
 	dorm3d_daily_favor = {
-		1032978,
+		1032972,
 		102
 	},
 	dorm3d_favor_level = {
-		1033080,
+		1033074,
 		95
 	},
 	dorm3d_time_choose = {
-		1033175,
+		1033169,
 		93
 	},
 	dorm3d_now_time = {
-		1033268,
+		1033262,
 		91
 	},
 	dorm3d_is_auto_time = {
-		1033359,
+		1033353,
 		106
 	},
 	dorm3d_clothing_choose = {
-		1033465,
+		1033459,
 		100
 	},
 	dorm3d_now_clothing = {
-		1033565,
+		1033559,
 		90
 	},
 	dorm3d_talk = {
-		1033655,
+		1033649,
 		79
 	},
 	dorm3d_touch = {
-		1033734,
+		1033728,
 		84
 	},
 	dorm3d_gift = {
-		1033818,
+		1033812,
 		79
 	},
 	dorm3d_gift_owner_num = {
-		1033897,
+		1033891,
 		94
 	},
 	dorm3d_unlock_tips = {
-		1033991,
+		1033985,
 		105
 	},
 	dorm3d_daily_favor_tips = {
-		1034096,
+		1034090,
 		107
 	},
 	main_silent_tip_1 = {
-		1034203,
+		1034197,
 		109
 	},
 	main_silent_tip_2 = {
-		1034312,
+		1034306,
 		110
 	},
 	main_silent_tip_3 = {
-		1034422,
+		1034416,
 		110
 	},
 	main_silent_tip_4 = {
-		1034532,
+		1034526,
 		115
 	},
 	main_silent_tip_5 = {
-		1034647,
+		1034641,
 		111
 	},
 	main_silent_tip_6 = {
-		1034758,
+		1034752,
 		113
 	},
 	commission_label_go = {
-		1034871,
+		1034865,
 		90
 	},
 	commission_label_finish = {
-		1034961,
+		1034955,
 		95
 	},
 	commission_label_go_mellow = {
-		1035056,
+		1035050,
 		97
 	},
 	commission_label_finish_mellow = {
-		1035153,
+		1035147,
 		102
 	},
 	commission_label_unlock_event_tip = {
-		1035255,
+		1035249,
 		126
 	},
 	commission_label_unlock_tech_tip = {
-		1035381,
+		1035375,
 		125
 	},
 	specialshipyard_tip = {
-		1035506,
+		1035500,
 		165
 	},
 	specialshipyard_name = {
-		1035671,
+		1035665,
 		97
 	},
 	liner_sign_cnt_tip = {
-		1035768,
+		1035762,
 		93
 	},
 	liner_sign_unlock_tip = {
-		1035861,
+		1035855,
 		100
 	},
 	liner_target_type1 = {
-		1035961,
+		1035955,
 		93
 	},
 	liner_target_type2 = {
-		1036054,
+		1036048,
 		91
 	},
 	liner_target_type3 = {
-		1036145,
+		1036139,
 		98
 	},
 	liner_target_type4 = {
-		1036243,
+		1036237,
 		97
 	},
 	liner_target_type5 = {
-		1036340,
+		1036334,
 		112
 	},
 	liner_log_schedule_title = {
-		1036452,
+		1036446,
 		103
 	},
 	liner_log_room_title = {
-		1036555,
+		1036549,
 		109
 	},
 	liner_log_event_title = {
-		1036664,
+		1036658,
 		101
 	},
 	liner_schedule_award_tip1 = {
-		1036765,
+		1036759,
 		113
 	},
 	liner_schedule_award_tip2 = {
-		1036878,
+		1036872,
 		113
 	},
 	liner_room_award_tip = {
-		1036991,
+		1036985,
 		109
 	},
 	liner_event_award_tip1 = {
-		1037100,
+		1037094,
 		152
 	},
 	liner_log_event_group_title1 = {
-		1037252,
+		1037246,
 		102
 	},
 	liner_log_event_group_title2 = {
-		1037354,
+		1037348,
 		102
 	},
 	liner_log_event_group_title3 = {
-		1037456,
+		1037450,
 		102
 	},
 	liner_log_event_group_title4 = {
-		1037558,
+		1037552,
 		102
 	},
 	liner_event_award_tip2 = {
-		1037660,
+		1037654,
 		115
 	},
 	liner_event_reasoning_title = {
-		1037775,
+		1037769,
 		107
 	},
 	["7th_main_tip"] = {
-		1037882,
+		1037876,
 		850
 	},
 	pipe_minigame_help = {
-		1038732,
+		1038726,
 		294
 	},
 	pipe_minigame_rank = {
-		1039026,
+		1039020,
 		114
 	},
 	liner_event_award_tip3 = {
-		1039140,
+		1039134,
 		128
 	},
 	liner_room_get_tip = {
-		1039268,
+		1039262,
 		110
 	},
 	liner_event_get_tip = {
-		1039378,
+		1039372,
 		101
 	},
 	liner_event_lock = {
-		1039479,
+		1039473,
 		132
 	},
 	liner_event_title1 = {
-		1039611,
+		1039605,
 		88
 	},
 	liner_event_title2 = {
-		1039699,
+		1039693,
 		88
 	},
 	liner_event_title3 = {
-		1039787,
+		1039781,
 		88
 	},
 	liner_help = {
-		1039875,
+		1039869,
 		282
 	},
 	liner_activity_lock = {
-		1040157,
+		1040151,
 		135
 	},
 	liner_name_modify = {
-		1040292,
+		1040286,
 		122
 	},
 	UrExchange_Pt_NotEnough = {
-		1040414,
+		1040408,
 		125
 	},
 	UrExchange_Pt_charges = {
-		1040539,
+		1040533,
 		105
 	},
 	UrExchange_Pt_help = {
-		1040644,
+		1040638,
 		335
 	},
 	xiaodadi_npc = {
-		1040979,
+		1040973,
 		1503
 	},
 	words_lock_ship_label = {
-		1042482,
+		1042476,
 		118
 	},
 	one_click_retire_subtitle = {
-		1042600,
+		1042594,
 		109
 	},
 	unique_ship_retire_protect = {
-		1042709,
+		1042703,
 		118
 	},
 	unique_ship_tip1 = {
-		1042827,
+		1042821,
 		152
 	},
 	unique_ship_retire_before_tip = {
-		1042979,
+		1042973,
 		100
 	},
 	unique_ship_tip2 = {
-		1043079,
+		1043073,
 		215
 	},
 	lock_new_ship = {
-		1043294,
+		1043288,
 		110
 	},
 	main_scene_settings = {
-		1043404,
+		1043398,
 		103
 	},
 	settings_enable_standby_mode = {
-		1043507,
+		1043501,
 		110
 	},
 	settings_time_system = {
-		1043617,
+		1043611,
 		108
 	},
 	settings_flagship_interaction = {
-		1043725,
+		1043719,
 		124
 	},
 	settings_enter_standby_mode_time = {
-		1043849,
+		1043843,
 		128
 	},
 	["202406_wenquan_unlock"] = {
-		1043977,
+		1043971,
 		177
 	},
 	["202406_wenquan_unlock_tip2"] = {
-		1044154,
+		1044148,
 		113
 	},
 	["202406_main_help"] = {
-		1044267,
+		1044261,
 		1060
 	},
 	MonopolyCar2024Game_title1 = {
-		1045327,
+		1045321,
 		94
 	},
 	MonopolyCar2024Game_title2 = {
-		1045421,
+		1045415,
 		98
 	},
 	help_monopoly_car2024 = {
-		1045519,
+		1045513,
 		1380
 	},
 	MonopolyCar2024Game_pick_tip = {
-		1046899,
+		1046893,
 		191
 	},
 	MonopolyCar2024Game_sel_label = {
-		1047090,
+		1047084,
 		99
 	},
 	MonopolyCar2024Game_total_award_title = {
-		1047189,
+		1047183,
 		115
 	},
 	MonopolyCar2024Game_lock_auto_tip = {
-		1047304,
+		1047298,
 		161
 	},
 	MonopolyCar2024Game_open_auto_tip = {
-		1047465,
+		1047459,
 		210
 	},
 	MonopolyCar2024Game_total_num_tip = {
-		1047675,
+		1047669,
 		109
 	},
 	sitelasibao_expup_name = {
-		1047784,
+		1047778,
 		95
 	},
 	sitelasibao_expup_desc = {
-		1047879,
+		1047873,
 		259
 	},
 	levelScene_tracking_error_pre_2 = {
-		1048138,
+		1048132,
 		125
 	},
 	town_lock_level = {
-		1048263,
+		1048257,
 		121
 	},
 	town_place_next_title = {
-		1048384,
+		1048378,
 		103
 	},
 	town_unlcok_new = {
-		1048487,
+		1048481,
 		98
 	},
 	town_unlcok_level = {
-		1048585,
+		1048579,
 		100
 	},
 	["0815_main_help"] = {
-		1048685,
+		1048679,
 		876
 	},
 	town_help = {
-		1049561,
+		1049555,
 		931
 	},
 	activity_0815_town_memory = {
-		1050492,
+		1050486,
 		163
 	},
 	town_gold_tip = {
-		1050655,
+		1050649,
 		212
 	},
 	award_max_warning_minigame = {
-		1050867,
+		1050861,
 		226
 	},
 	dorm3d_photo_len = {
-		1051093,
+		1051087,
 		86
 	},
 	dorm3d_photo_depthoffield = {
-		1051179,
+		1051173,
 		93
 	},
 	dorm3d_photo_focusdistance = {
-		1051272,
+		1051266,
 		103
 	},
 	dorm3d_photo_focusstrength = {
-		1051375,
+		1051369,
 		104
 	},
 	dorm3d_photo_paramaters = {
-		1051479,
+		1051473,
 		97
 	},
 	dorm3d_photo_postexposure = {
-		1051576,
+		1051570,
 		97
 	},
 	dorm3d_photo_saturation = {
-		1051673,
+		1051667,
 		97
 	},
 	dorm3d_photo_contrast = {
-		1051770,
+		1051764,
 		93
 	},
 	dorm3d_photo_Others = {
-		1051863,
+		1051857,
 		88
 	},
 	dorm3d_photo_hidecharacter = {
-		1051951,
+		1051945,
 		104
 	},
 	dorm3d_photo_facecamera = {
-		1052055,
+		1052049,
 		98
 	},
 	dorm3d_photo_lighting = {
-		1052153,
+		1052147,
 		93
 	},
 	dorm3d_photo_filter = {
-		1052246,
+		1052240,
 		89
 	},
 	dorm3d_photo_alpha = {
-		1052335,
+		1052329,
 		94
 	},
 	dorm3d_photo_strength = {
-		1052429,
+		1052423,
 		90
 	},
 	dorm3d_photo_regular_anim = {
-		1052519,
+		1052513,
 		96
 	},
 	dorm3d_photo_special_anim = {
-		1052615,
+		1052609,
 		96
 	},
 	dorm3d_photo_animspeed = {
-		1052711,
+		1052705,
 		96
 	},
 	dorm3d_photo_furniture_lock = {
-		1052807,
+		1052801,
 		118
 	},
 	dorm3d_shop_gift = {
-		1052925,
+		1052919,
 		172
 	},
 	dorm3d_shop_gift_tip = {
-		1053097,
+		1053091,
 		184
 	},
 	word_unlock = {
-		1053281,
+		1053275,
 		83
 	},
 	word_lock = {
-		1053364,
+		1053358,
 		84
 	},
 	dorm3d_collect_favor_plus = {
-		1053448,
+		1053442,
 		105
 	},
 	dorm3d_collect_nothing = {
-		1053553,
+		1053547,
 		107
 	},
 	dorm3d_collect_locked = {
-		1053660,
+		1053654,
 		108
 	},
 	dorm3d_collect_not_found = {
-		1053768,
+		1053762,
 		104
 	},
 	dorm3d_sirius_table = {
-		1053872,
+		1053866,
 		94
 	},
 	dorm3d_sirius_chair = {
-		1053966,
+		1053960,
 		94
 	},
 	dorm3d_sirius_bed = {
-		1054060,
+		1054054,
 		88
 	},
 	dorm3d_sirius_bath = {
-		1054148,
+		1054142,
 		95
 	},
 	dorm3d_collection_beach = {
-		1054243,
+		1054237,
 		92
 	},
 	dorm3d_reload_unlock = {
-		1054335,
+		1054329,
 		94
 	},
 	dorm3d_reload_unlock_name = {
-		1054429,
+		1054423,
 		92
 	},
 	dorm3d_reload_favor = {
-		1054521,
+		1054515,
 		97
 	},
 	dorm3d_reload_gift = {
-		1054618,
+		1054612,
 		101
 	},
 	dorm3d_collect_unlock = {
-		1054719,
+		1054713,
 		95
 	},
 	dorm3d_pledge_favor = {
-		1054814,
+		1054808,
 		136
 	},
 	dorm3d_own_favor = {
-		1054950,
+		1054944,
 		132
 	},
 	dorm3d_role_choose = {
-		1055082,
+		1055076,
 		93
 	},
 	dorm3d_beach_buy = {
-		1055175,
+		1055169,
 		171
 	},
 	dorm3d_beach_role = {
-		1055346,
+		1055340,
 		146
 	},
 	dorm3d_beach_download = {
-		1055492,
+		1055486,
 		128
 	},
 	dorm3d_role_check_in = {
-		1055620,
+		1055614,
 		143
 	},
 	dorm3d_data_choose = {
-		1055763,
+		1055757,
 		93
 	},
 	dorm3d_role_manage = {
-		1055856,
+		1055850,
 		97
 	},
 	dorm3d_role_manage_role = {
-		1055953,
+		1055947,
 		97
 	},
 	dorm3d_role_manage_public_area = {
-		1056050,
+		1056044,
 		105
 	},
 	dorm3d_data_go = {
-		1056155,
+		1056149,
 		138
 	},
 	dorm3d_role_assets_delete = {
-		1056293,
+		1056287,
 		178
 	},
 	dorm3d_role_assets_download = {
-		1056471,
+		1056465,
 		224
 	},
 	volleyball_end_tip = {
-		1056695,
+		1056689,
 		110
 	},
 	volleyball_end_award = {
-		1056805,
+		1056799,
 		106
 	},
 	sure_exit_volleyball = {
-		1056911,
+		1056905,
 		119
 	},
 	dorm3d_photo_active_zone = {
-		1057030,
+		1057024,
 		105
 	},
 	apartment_level_unenough = {
-		1057135,
+		1057129,
 		114
 	},
 	help_dorm3d_info = {
-		1057249,
+		1057243,
 		537
 	},
 	dorm3d_shop_gift_already_given = {
-		1057786,
+		1057780,
 		127
 	},
 	dorm3d_shop_gift_not_owned = {
-		1057913,
+		1057907,
 		114
 	},
 	dorm3d_select_tip = {
-		1058027,
+		1058021,
 		101
 	},
 	dorm3d_volleyball_title = {
-		1058128,
+		1058122,
 		92
 	},
 	dorm3d_minigame_again = {
-		1058220,
+		1058214,
 		90
 	},
 	dorm3d_minigame_close = {
-		1058310,
+		1058304,
 		89
 	},
 	dorm3d_data_Invite_lack = {
-		1058399,
+		1058393,
 		128
 	},
 	dorm3d_item_num = {
-		1058527,
+		1058521,
 		88
 	},
 	dorm3d_collect_not_owned = {
-		1058615,
+		1058609,
 		112
 	},
 	dorm3d_furniture_sure_save = {
-		1058727,
+		1058721,
 		136
 	},
 	dorm3d_furniture_save_success = {
-		1058863,
+		1058857,
 		131
 	},
 	dorm3d_removable = {
-		1058994,
+		1058988,
 		151
 	},
 	report_cannot_comment_level_1 = {
-		1059145,
+		1059139,
 		151
 	},
 	report_cannot_comment_level_2 = {
-		1059296,
+		1059290,
 		130
 	},
 	commander_exp_limit = {
-		1059426,
+		1059420,
 		147
 	},
 	dreamland_label_day = {
-		1059573,
+		1059567,
 		86
 	},
 	dreamland_label_dusk = {
-		1059659,
+		1059653,
 		91
 	},
 	dreamland_label_night = {
-		1059750,
+		1059744,
 		90
 	},
 	dreamland_label_area = {
-		1059840,
+		1059834,
 		88
 	},
 	dreamland_label_explore = {
-		1059928,
+		1059922,
 		94
 	},
 	dreamland_label_explore_award_tip = {
-		1060022,
+		1060016,
 		120
 	},
 	dreamland_area_lock_tip = {
-		1060142,
+		1060136,
 		127
 	},
 	dreamland_spring_lock_tip = {
-		1060269,
+		1060263,
 		116
 	},
 	dreamland_spring_tip = {
-		1060385,
+		1060379,
 		116
 	},
 	dream_land_tip = {
-		1060501,
+		1060495,
 		969
 	},
 	touch_cake_minigame_help = {
-		1061470,
+		1061464,
 		359
 	},
 	dreamland_main_desc = {
-		1061829,
+		1061823,
 		232
 	},
 	dreamland_main_tip = {
-		1062061,
+		1062055,
 		1017
 	},
 	no_share_skin_gametip = {
-		1063078,
+		1063072,
 		120
 	},
 	no_share_skin_tianchenghangmu = {
-		1063198,
+		1063192,
 		102
 	},
 	no_share_skin_tianchengzhanlie = {
-		1063300,
+		1063294,
 		103
 	},
 	no_share_skin_jiahezhanlie = {
-		1063403,
+		1063397,
 		98
 	},
 	no_share_skin_jiahehangmu = {
-		1063501,
+		1063495,
 		97
 	},
 	ui_pack_tip1 = {
-		1063598,
+		1063592,
 		167
 	},
 	ui_pack_tip2 = {
-		1063765,
+		1063759,
 		81
 	},
 	ui_pack_tip3 = {
-		1063846,
+		1063840,
 		83
 	},
 	battle_ui_unlock = {
-		1063929,
+		1063923,
 		96
 	},
 	compensate_ui_expiration_hour = {
-		1064025,
+		1064019,
 		114
 	},
 	compensate_ui_expiration_day = {
-		1064139,
+		1064133,
 		112
 	},
 	compensate_ui_title1 = {
-		1064251,
+		1064245,
 		89
 	},
 	compensate_ui_title2 = {
-		1064340,
+		1064334,
 		94
 	},
 	compensate_ui_nothing1 = {
-		1064434,
+		1064428,
 		115
 	},
 	compensate_ui_nothing2 = {
-		1064549,
+		1064543,
 		114
 	},
 	attire_combatui_preview = {
-		1064663,
+		1064657,
 		94
 	},
 	attire_combatui_confirm = {
-		1064757,
+		1064751,
 		92
 	},
 	grapihcs3d_setting_quality = {
-		1064849,
+		1064843,
 		106
 	},
 	grapihcs3d_setting_quality_option_low = {
-		1064955,
+		1064949,
 		104
 	},
 	grapihcs3d_setting_quality_option_medium = {
-		1065059,
+		1065053,
 		110
 	},
 	grapihcs3d_setting_quality_option_high = {
-		1065169,
+		1065163,
 		106
 	},
 	grapihcs3d_setting_quality_option_custom = {
-		1065275,
+		1065269,
 		110
 	},
 	grapihcs3d_setting_universal = {
-		1065385,
+		1065379,
 		111
 	},
 	grapihcs3d_setting_gpgpu_warning = {
-		1065496,
+		1065490,
 		149
 	},
 	dorm3d_shop_tag1 = {
-		1065645,
+		1065639,
 		109
 	},
 	dorm3d_shop_tag2 = {
-		1065754,
+		1065748,
 		101
 	},
 	dorm3d_shop_tag3 = {
-		1065855,
+		1065849,
 		113
 	},
 	dorm3d_shop_tag4 = {
-		1065968,
+		1065962,
 		110
 	},
 	dorm3d_shop_tag5 = {
-		1066078,
+		1066072,
 		106
 	},
 	dorm3d_shop_tag6 = {
-		1066184,
+		1066178,
 		96
 	},
 	dorm3d_system_switch = {
-		1066280,
+		1066274,
 		110
 	},
 	dorm3d_beach_switch = {
-		1066390,
+		1066384,
 		106
 	},
 	dorm3d_AR_switch = {
-		1066496,
+		1066490,
 		123
 	},
 	dorm3d_invite_confirm_original = {
-		1066619,
+		1066613,
 		207
 	},
 	dorm3d_invite_confirm_discount = {
-		1066826,
+		1066820,
 		229
 	},
 	dorm3d_invite_confirm_free = {
-		1067055,
+		1067049,
 		241
 	},
 	dorm3d_purchase_confirm_original = {
-		1067296,
+		1067290,
 		188
 	},
 	dorm3d_purchase_confirm_discount = {
-		1067484,
+		1067478,
 		209
 	},
 	dorm3d_purchase_confirm_free = {
-		1067693,
+		1067687,
 		215
 	},
 	dorm3d_purchase_confirm_tip = {
-		1067908,
+		1067902,
 		96
 	},
 	dorm3d_purchase_label_special = {
-		1068004,
+		1067998,
 		102
 	},
 	dorm3d_purchase_outtime = {
-		1068106,
+		1068100,
 		111
 	},
 	dorm3d_collect_block_by_furniture = {
-		1068217,
+		1068211,
 		160
 	},
 	cruise_phase_title = {
-		1068377,
+		1068371,
 		87
 	},
 	cruise_title_2410 = {
-		1068464,
+		1068458,
 		100
 	},
 	cruise_title_2412 = {
-		1068564,
+		1068558,
 		106
 	},
 	cruise_title_2502 = {
-		1068670,
+		1068664,
 		106
 	},
 	cruise_title_2504 = {
-		1068776,
+		1068770,
 		106
 	},
 	cruise_title_2506 = {
-		1068882,
+		1068876,
 		106
 	},
 	cruise_title_2508 = {
-		1068988,
+		1068982,
 		100
 	},
 	cruise_title_2510 = {
-		1069088,
+		1069082,
 		100
 	},
 	cruise_title_2406 = {
-		1069188,
+		1069182,
 		102
 	},
 	battlepass_main_time_title = {
-		1069290,
+		1069284,
 		105
 	},
 	cruise_shop_no_open = {
-		1069395,
+		1069389,
 		109
 	},
 	cruise_btn_pay = {
-		1069504,
+		1069498,
 		98
 	},
 	cruise_btn_all = {
-		1069602,
+		1069596,
 		87
 	},
 	task_go = {
-		1069689,
+		1069683,
 		78
 	},
 	task_got = {
-		1069767,
+		1069761,
 		81
 	},
 	cruise_shop_title_skin = {
-		1069848,
+		1069842,
 		90
 	},
 	cruise_shop_title_equip_skin = {
-		1069938,
+		1069932,
 		101
 	},
 	cruise_shop_lock_tip = {
-		1070039,
+		1070033,
 		120
 	},
 	cruise_tip_skin = {
-		1070159,
+		1070153,
 		96
 	},
 	cruise_tip_base = {
-		1070255,
+		1070249,
 		95
 	},
 	cruise_tip_upgrade = {
-		1070350,
+		1070344,
 		99
 	},
 	cruise_shop_limit_tip = {
-		1070449,
+		1070443,
 		104
 	},
 	cruise_limit_count = {
-		1070553,
+		1070547,
 		126
 	},
 	cruise_title_2408 = {
-		1070679,
+		1070673,
 		100
 	},
 	cruise_shop_title = {
-		1070779,
+		1070773,
 		95
 	},
 	dorm3d_favor_level_story = {
-		1070874,
+		1070868,
 		101
 	},
 	dorm3d_already_gifted = {
-		1070975,
+		1070969,
 		98
 	},
 	dorm3d_story_unlock_tip = {
-		1071073,
+		1071067,
 		101
 	},
 	dorm3d_skin_locked = {
-		1071174,
+		1071168,
 		100
 	},
 	dorm3d_photo_no_role = {
-		1071274,
+		1071268,
 		105
 	},
 	dorm3d_furniture_locked = {
-		1071379,
+		1071373,
 		108
 	},
 	dorm3d_accompany_locked = {
-		1071487,
+		1071481,
 		98
 	},
 	dorm3d_role_locked = {
-		1071585,
+		1071579,
 		151
 	},
 	dorm3d_volleyball_button = {
-		1071736,
+		1071730,
 		104
 	},
 	dorm3d_minigame_button1 = {
-		1071840,
+		1071834,
 		95
 	},
 	dorm3d_collection_title_en = {
-		1071935,
+		1071929,
 		99
 	},
 	dorm3d_collection_cost_tip = {
-		1072034,
+		1072028,
 		182
 	},
 	dorm3d_gift_story_unlock = {
-		1072216,
+		1072210,
 		110
 	},
 	dorm3d_furniture_replace_tip = {
-		1072326,
+		1072320,
 		117
 	},
 	dorm3d_recall_locked = {
-		1072443,
+		1072437,
 		96
 	},
 	dorm3d_gift_maximum = {
-		1072539,
+		1072533,
 		110
 	},
 	dorm3d_need_construct_item = {
-		1072649,
+		1072643,
 		111
 	},
 	AR_plane_check = {
-		1072760,
+		1072754,
 		108
 	},
 	AR_plane_long_press_to_summon = {
-		1072868,
+		1072862,
 		148
 	},
 	AR_plane_distance_near = {
-		1073016,
+		1073010,
 		157
 	},
 	AR_plane_summon_fail_by_near = {
-		1073173,
+		1073167,
 		140
 	},
 	AR_plane_summon_success = {
-		1073313,
+		1073307,
 		105
 	},
 	dorm3d_day_night_switching1 = {
-		1073418,
+		1073412,
 		118
 	},
 	dorm3d_day_night_switching2 = {
-		1073536,
+		1073530,
 		120
 	},
 	dorm3d_download_complete = {
-		1073656,
+		1073650,
 		105
 	},
 	dorm3d_resource_downloading = {
-		1073761,
+		1073755,
 		109
 	},
 	dorm3d_resource_delete = {
-		1073870,
+		1073864,
 		100
 	},
 	dorm3d_favor_maximize = {
-		1073970,
+		1073964,
 		122
 	},
 	dorm3d_purchase_weekly_limit = {
-		1074092,
+		1074086,
 		116
 	},
 	child2_cur_round = {
-		1074208,
+		1074202,
 		87
 	},
 	child2_assess_round = {
-		1074295,
+		1074289,
 		110
 	},
 	child2_assess_target = {
-		1074405,
+		1074399,
 		100
 	},
 	child2_ending_stage = {
-		1074505,
+		1074499,
 		95
 	},
 	child2_reset_stage = {
-		1074600,
+		1074594,
 		86
 	},
 	child2_main_help = {
-		1074686,
+		1074680,
 		588
 	},
 	child2_personality_title = {
-		1075274,
+		1075268,
 		99
 	},
 	child2_attr_title = {
-		1075373,
+		1075367,
 		86
 	},
 	child2_talent_title = {
-		1075459,
+		1075453,
 		90
 	},
 	child2_status_title = {
-		1075549,
+		1075543,
 		89
 	},
 	child2_talent_unlock_tip = {
-		1075638,
+		1075632,
 		106
 	},
 	child2_status_time1 = {
-		1075744,
+		1075738,
 		90
 	},
 	child2_status_time2 = {
-		1075834,
+		1075828,
 		92
 	},
 	child2_assess_tip = {
-		1075926,
+		1075920,
 		136
 	},
 	child2_assess_tip_target = {
-		1076062,
+		1076056,
 		135
 	},
 	child2_site_exit = {
-		1076197,
+		1076191,
 		85
 	},
 	child2_shop_limit_cnt = {
-		1076282,
+		1076276,
 		92
 	},
 	child2_unlock_site_round = {
-		1076374,
+		1076368,
 		133
 	},
 	child2_site_drop_add = {
-		1076507,
+		1076501,
 		123
 	},
 	child2_site_drop_reduce = {
-		1076630,
+		1076624,
 		126
 	},
 	child2_site_drop_item = {
-		1076756,
+		1076750,
 		105
 	},
 	child2_personal_tag1 = {
-		1076861,
+		1076855,
 		88
 	},
 	child2_personal_tag2 = {
-		1076949,
+		1076943,
 		94
 	},
 	child2_personal_id1_tag1 = {
-		1077043,
+		1077037,
 		92
 	},
 	child2_personal_id1_tag2 = {
-		1077135,
+		1077129,
 		98
 	},
 	child2_personal_change = {
-		1077233,
+		1077227,
 		104
 	},
 	child2_ship_upgrade_favor = {
-		1077337,
+		1077331,
 		132
 	},
 	child2_plan_title_front = {
-		1077469,
+		1077463,
 		91
 	},
 	child2_plan_title_back = {
-		1077560,
+		1077554,
 		86
 	},
 	child2_plan_upgrade_condition = {
-		1077646,
+		1077640,
 		116
 	},
 	child2_endings_toggle_on = {
-		1077762,
+		1077756,
 		100
 	},
 	child2_endings_toggle_off = {
-		1077862,
+		1077856,
 		111
 	},
 	child2_game_cnt = {
-		1077973,
+		1077967,
 		89
 	},
 	child2_enter = {
-		1078062,
+		1078056,
 		89
 	},
 	child2_select_help = {
-		1078151,
+		1078145,
 		529
 	},
 	child2_not_start = {
-		1078680,
+		1078674,
 		103
 	},
 	child2_schedule_sure_tip = {
-		1078783,
+		1078777,
 		152
 	},
 	child2_reset_sure_tip = {
-		1078935,
+		1078929,
 		153
 	},
 	child2_schedule_sure_tip2 = {
-		1079088,
+		1079082,
 		154
 	},
 	child2_schedule_sure_tip3 = {
-		1079242,
+		1079236,
 		178
 	},
 	child2_assess_start_tip = {
-		1079420,
+		1079414,
 		103
 	},
 	child2_site_again = {
-		1079523,
+		1079517,
 		86
 	},
 	child2_shop_benefit_sure = {
-		1079609,
+		1079603,
 		209
 	},
 	child2_shop_benefit_sure2 = {
-		1079818,
+		1079812,
 		188
 	},
 	world_file_tip = {
-		1080006,
+		1080000,
 		157
 	},
 	levelscene_mapselect_part1 = {
-		1080163,
+		1080157,
 		96
 	},
 	levelscene_mapselect_part2 = {
-		1080259,
+		1080253,
 		96
 	},
 	levelscene_mapselect_sp = {
-		1080355,
+		1080349,
 		89
 	},
 	levelscene_mapselect_tp = {
-		1080444,
+		1080438,
 		89
 	},
 	levelscene_mapselect_ex = {
-		1080533,
+		1080527,
 		89
 	},
 	levelscene_mapselect_normal = {
-		1080622,
+		1080616,
 		97
 	},
 	levelscene_mapselect_advanced = {
-		1080719,
+		1080713,
 		102
 	},
 	levelscene_mapselect_material = {
-		1080821,
+		1080815,
 		102
 	},
 	levelscene_title_story = {
-		1080923,
+		1080917,
 		94
 	},
 	juuschat_filter_title = {
-		1081017,
+		1081011,
 		91
 	},
 	juuschat_filter_tip1 = {
-		1081108,
+		1081102,
 		87
 	},
 	juuschat_filter_tip2 = {
-		1081195,
+		1081189,
 		92
 	},
 	juuschat_filter_tip3 = {
-		1081287,
+		1081281,
 		93
 	},
 	juuschat_filter_tip4 = {
-		1081380,
+		1081374,
 		91
 	},
 	juuschat_filter_tip5 = {
-		1081471,
+		1081465,
 		89
 	},
 	juuschat_label1 = {
-		1081560,
+		1081554,
 		85
 	},
 	juuschat_label2 = {
-		1081645,
+		1081639,
 		86
 	},
 	juuschat_chattip1 = {
-		1081731,
+		1081725,
 		97
 	},
 	juuschat_chattip2 = {
-		1081828,
+		1081822,
 		91
 	},
 	juuschat_chattip3 = {
-		1081919,
+		1081913,
 		92
 	},
 	juuschat_reddot_title = {
-		1082011,
+		1082005,
 		94
 	},
 	juuschat_filter_subtitle1 = {
-		1082105,
+		1082099,
 		100
 	},
 	juuschat_filter_subtitle2 = {
-		1082205,
+		1082199,
 		102
 	},
 	juuschat_filter_subtitle3 = {
-		1082307,
+		1082301,
 		96
 	},
 	juuschat_redpacket_show_detail = {
-		1082403,
+		1082397,
 		101
 	},
 	juuschat_redpacket_detail = {
-		1082504,
+		1082498,
 		105
 	},
 	juuschat_filter_empty = {
-		1082609,
+		1082603,
 		100
 	},
 	dorm3d_appellation_title = {
-		1082709,
+		1082703,
 		103
 	},
 	dorm3d_appellation_cd = {
-		1082812,
+		1082806,
 		130
 	},
 	dorm3d_appellation_interval = {
-		1082942,
+		1082936,
 		141
 	},
 	dorm3d_appellation_waring1 = {
-		1083083,
+		1083077,
 		131
 	},
 	dorm3d_appellation_waring2 = {
-		1083214,
+		1083208,
 		116
 	},
 	dorm3d_appellation_waring3 = {
-		1083330,
+		1083324,
 		117
 	},
 	dorm3d_appellation_waring4 = {
-		1083447,
+		1083441,
 		133
 	},
 	dorm3d_shop_gift_owned = {
-		1083580,
+		1083574,
 		123
 	},
 	dorm3d_accompany_not_download = {
-		1083703,
+		1083697,
 		135
 	},
 	dorm3d_nengdai_minigame_day1 = {
-		1083838,
+		1083832,
 		95
 	},
 	dorm3d_nengdai_minigame_day2 = {
-		1083933,
+		1083927,
 		95
 	},
 	dorm3d_nengdai_minigame_day3 = {
-		1084028,
+		1084022,
 		95
 	},
 	dorm3d_nengdai_minigame_day4 = {
-		1084123,
+		1084117,
 		95
 	},
 	dorm3d_nengdai_minigame_day5 = {
-		1084218,
+		1084212,
 		95
 	},
 	dorm3d_nengdai_minigame_day6 = {
-		1084313,
+		1084307,
 		95
 	},
 	dorm3d_nengdai_minigame_day7 = {
-		1084408,
+		1084402,
 		95
 	},
 	dorm3d_nengdai_minigame_remember = {
-		1084503,
+		1084497,
 		122
 	},
 	dorm3d_nengdai_minigame_choose = {
-		1084625,
+		1084619,
 		118
 	},
 	dorm3d_nengdai_minigame_behavior1 = {
-		1084743,
+		1084737,
 		104
 	},
 	dorm3d_nengdai_minigame_behavior2 = {
-		1084847,
+		1084841,
 		104
 	},
 	dorm3d_nengdai_minigame_behavior3 = {
-		1084951,
+		1084945,
 		105
 	},
 	dorm3d_nengdai_minigame_behavior4 = {
-		1085056,
+		1085050,
 		104
 	},
 	dorm3d_nengdai_minigame_behavior5 = {
-		1085160,
+		1085154,
 		107
 	},
 	dorm3d_nengdai_minigame_behavior6 = {
-		1085267,
+		1085261,
 		105
 	},
 	dorm3d_nengdai_minigame_behavior7 = {
-		1085372,
+		1085366,
 		105
 	},
 	dorm3d_nengdai_minigame_behavior8 = {
-		1085477,
+		1085471,
 		104
 	},
 	dorm3d_nengdai_minigame_behavior9 = {
-		1085581,
+		1085575,
 		104
 	},
 	dorm3d_nengdai_minigame_behavior10 = {
-		1085685,
+		1085679,
 		103
 	},
 	dorm3d_nengdai_minigame_behavior11 = {
-		1085788,
+		1085782,
 		102
 	},
 	dorm3d_nengdai_minigame_behavior12 = {
-		1085890,
+		1085884,
 		101
 	},
 	dorm3d_nengdai_minigame_evaluate1 = {
-		1085991,
+		1085985,
 		103
 	},
 	dorm3d_nengdai_minigame_evaluate2 = {
-		1086094,
+		1086088,
 		107
 	},
 	dorm3d_nengdai_minigame_evaluate3 = {
-		1086201,
+		1086195,
 		104
 	},
 	dorm3d_nengdai_minigame_evaluate4 = {
-		1086305,
+		1086299,
 		102
 	},
 	dorm3d_nengdai_minigame_evaluate5 = {
-		1086407,
+		1086401,
 		105
 	},
 	BoatAdGame_minigame_help = {
-		1086512,
+		1086506,
 		311
 	},
 	activity_1024_memory = {
-		1086823,
+		1086817,
 		155
 	},
 	activity_1024_memory_get = {
-		1086978,
+		1086972,
 		99
 	},
 	juuschat_background_tip1 = {
-		1087077,
+		1087071,
 		97
 	},
 	juuschat_background_tip2 = {
-		1087174,
+		1087168,
 		112
 	},
 	drom3d_memory_limit_tip = {
-		1087286,
+		1087280,
 		182
 	},
 	drom3d_beach_memory_limit_tip = {
-		1087468,
+		1087462,
 		216
 	},
 	blackfriday_main_tip = {
-		1087684,
+		1087678,
 		542
 	},
 	blackfriday_shop_tip = {
-		1088226,
+		1088220,
 		103
 	},
 	tolovegame_buff_name_1 = {
-		1088329,
+		1088323,
 		98
 	},
 	tolovegame_buff_name_2 = {
-		1088427,
+		1088421,
 		97
 	},
 	tolovegame_buff_name_3 = {
-		1088524,
+		1088518,
 		102
 	},
 	tolovegame_buff_name_4 = {
-		1088626,
+		1088620,
 		103
 	},
 	tolovegame_buff_name_5 = {
-		1088729,
+		1088723,
 		102
 	},
 	tolovegame_buff_name_6 = {
-		1088831,
+		1088825,
 		107
 	},
 	tolovegame_buff_name_7 = {
-		1088938,
+		1088932,
 		95
 	},
 	tolovegame_buff_desc_1 = {
-		1089033,
+		1089027,
 		177
 	},
 	tolovegame_buff_desc_2 = {
-		1089210,
+		1089204,
 		132
 	},
 	tolovegame_buff_desc_3 = {
-		1089342,
+		1089336,
 		123
 	},
 	tolovegame_buff_desc_4 = {
-		1089465,
+		1089459,
 		276
 	},
 	tolovegame_buff_desc_5 = {
-		1089741,
+		1089735,
 		213
 	},
 	tolovegame_buff_desc_6 = {
-		1089954,
+		1089948,
 		206
 	},
 	tolovegame_buff_desc_7 = {
-		1090160,
+		1090154,
 		221
 	},
 	tolovegame_join_reward = {
-		1090381,
+		1090375,
 		93
 	},
 	tolovegame_score = {
-		1090474,
+		1090468,
 		85
 	},
 	tolovegame_rank_tip = {
-		1090559,
+		1090553,
 		118
 	},
 	tolovegame_lock_1 = {
-		1090677,
+		1090671,
 		116
 	},
 	tolovegame_lock_2 = {
-		1090793,
+		1090787,
 		102
 	},
 	tolovegame_buff_switch_1 = {
-		1090895,
+		1090889,
 		102
 	},
 	tolovegame_buff_switch_2 = {
-		1090997,
+		1090991,
 		104
 	},
 	tolovegame_proceed = {
-		1091101,
+		1091095,
 		89
 	},
 	tolovegame_collect = {
-		1091190,
+		1091184,
 		88
 	},
 	tolovegame_collected = {
-		1091278,
+		1091272,
 		91
 	},
 	tolovegame_tutorial = {
-		1091369,
+		1091363,
 		635
 	},
 	tolovegame_awards = {
-		1092004,
+		1091998,
 		88
 	},
 	tolovemainpage_skin_countdown = {
-		1092092,
+		1092086,
 		111
 	},
 	tolovemainpage_build_countdown = {
-		1092203,
+		1092197,
 		105
 	},
 	tolovegame_puzzle_title = {
-		1092308,
+		1092302,
 		107
 	},
 	tolovegame_puzzle_ship_need = {
-		1092415,
+		1092409,
 		106
 	},
 	tolovegame_puzzle_task_need = {
-		1092521,
+		1092515,
 		108
 	},
 	tolovegame_puzzle_detail_collect = {
-		1092629,
+		1092623,
 		113
 	},
 	tolovegame_puzzle_detail_puzzle = {
-		1092742,
+		1092736,
 		109
 	},
 	tolovegame_puzzle_detail_connection = {
-		1092851,
+		1092845,
 		117
 	},
 	tolovegame_puzzle_ship_unknown = {
-		1092968,
+		1092962,
 		97
 	},
 	tolovegame_puzzle_lock_by_front = {
-		1093065,
+		1093059,
 		138
 	},
 	tolovegame_puzzle_lock_by_time = {
-		1093203,
+		1093197,
 		130
 	},
 	tolovegame_puzzle_cheat = {
-		1093333,
+		1093327,
 		114
 	},
 	tolovegame_puzzle_open_detail = {
-		1093447,
+		1093441,
 		109
 	},
 	tolove_main_help = {
-		1093556,
+		1093550,
 		1464
 	},
 	tolovegame_puzzle_finished = {
-		1095020,
+		1095014,
 		99
 	},
 	tolovegame_puzzle_title_desc = {
-		1095119,
+		1095113,
 		112
 	},
 	tolovegame_puzzle_pop_next = {
-		1095231,
+		1095225,
 		94
 	},
 	tolovegame_puzzle_pop_finish = {
-		1095325,
+		1095319,
 		100
 	},
 	tolovegame_puzzle_pop_save = {
-		1095425,
+		1095419,
 		107
 	},
 	tolovegame_puzzle_unlock = {
-		1095532,
+		1095526,
 		95
 	},
 	tolovegame_puzzle_lock = {
-		1095627,
+		1095621,
 		101
 	},
 	tolovegame_puzzle_line_tip = {
-		1095728,
+		1095722,
 		125
 	},
 	tolovegame_puzzle_puzzle_tip = {
-		1095853,
+		1095847,
 		144
 	},
 	maintenance_message_text = {
-		1095997,
+		1095991,
 		255
 	},
 	maintenance_message_stop_text = {
-		1096252,
+		1096246,
 		105
 	},
 	task_get = {
-		1096357,
+		1096351,
 		79
 	},
 	notify_clock_tip = {
-		1096436,
+		1096430,
 		80
 	},
 	notify_clock_button = {
-		1096516,
+		1096510,
 		83
 	},
 	skin_shop_nonuse_label = {
-		1096599,
+		1096593,
 		107
 	},
 	skin_shop_use_label = {
-		1096706,
+		1096700,
 		97
 	},
 	skin_shop_discount_item_link = {
-		1096803,
+		1096797,
 		158
 	},
 	help_starLightAlbum = {
-		1096961,
+		1096955,
 		940
 	},
 	word_gain_date = {
-		1097901,
+		1097895,
 		92
 	},
 	word_limited_activity = {
-		1097993,
+		1097987,
 		90
 	},
 	word_show_expire_content = {
-		1098083,
+		1098077,
 		105
 	},
 	word_got_pt = {
-		1098188,
+		1098182,
 		82
 	},
 	word_activity_not_open = {
-		1098270,
+		1098264,
 		103
 	},
 	activity_shop_template_normaltext = {
-		1098373,
+		1098367,
 		122
 	},
 	activity_shop_template_extratext = {
-		1098495,
+		1098489,
 		121
 	},
 	dorm3d_now_is_downloading = {
-		1098616,
+		1098610,
 		110
 	},
 	dorm3d_resource_download_complete = {
-		1098726,
+		1098720,
 		115
 	},
 	dorm3d_delete_finish = {
-		1098841,
+		1098835,
 		96
 	},
 	dorm3d_guide_tip = {
-		1098937,
+		1098931,
 		107
 	},
 	dorm3d_guide_tip2 = {
-		1099044,
+		1099038,
 		107
 	},
 	dorm3d_noshiro_table = {
-		1099151,
+		1099145,
 		95
 	},
 	dorm3d_noshiro_chair = {
-		1099246,
+		1099240,
 		95
 	},
 	dorm3d_noshiro_bed = {
-		1099341,
+		1099335,
 		89
 	},
 	dorm3d_guide_beach_tip = {
-		1099430,
+		1099424,
 		148
 	},
 	dorm3d_Ankeleiqi_entertainmentarea = {
-		1099578,
+		1099572,
 		112
 	},
 	dorm3d_Ankeleiqi_chair = {
-		1099690,
+		1099684,
 		97
 	},
 	dorm3d_Ankeleiqi_bed = {
-		1099787,
+		1099781,
 		91
 	},
 	dorm3d_xinzexi_table = {
-		1099878,
+		1099872,
 		95
 	},
 	dorm3d_xinzexi_chair = {
-		1099973,
+		1099967,
 		95
 	},
 	dorm3d_xinzexi_bed = {
-		1100068,
+		1100062,
 		89
 	},
 	dorm3d_gift_favor_max = {
-		1100157,
+		1100151,
 		194
 	},
 	dorm3d_VIDEO_CHAT_LABEL = {
-		1100351,
+		1100345,
 		102
 	},
 	dorm3d_VIDEO_TELEPHONE_LABEL = {
-		1100453,
+		1100447,
 		104
 	},
 	dorm3d_privatechat_favor = {
-		1100557,
+		1100551,
 		96
 	},
 	dorm3d_privatechat_furniture = {
-		1100653,
+		1100647,
 		101
 	},
 	dorm3d_privatechat_visit = {
-		1100754,
+		1100748,
 		98
 	},
 	dorm3d_privatechat_visit_time = {
-		1100852,
+		1100846,
 		106
 	},
 	dorm3d_privatechat_no_visit_time = {
-		1100958,
+		1100952,
 		102
 	},
 	dorm3d_privatechat_gift = {
-		1101060,
+		1101054,
 		92
 	},
 	dorm3d_privatechat_chat = {
-		1101152,
+		1101146,
 		95
 	},
 	dorm3d_privatechat_nonew_messages = {
-		1101247,
+		1101241,
 		109
 	},
 	dorm3d_privatechat_new_messages = {
-		1101356,
+		1101350,
 		106
 	},
 	dorm3d_privatechat_phone = {
-		1101462,
+		1101456,
 		98
 	},
 	dorm3d_privatechat_new_calls = {
-		1101560,
+		1101554,
 		101
 	},
 	dorm3d_privatechat_nonew_calls = {
-		1101661,
+		1101655,
 		105
 	},
 	dorm3d_privatechat_topics = {
-		1101766,
+		1101760,
 		99
 	},
 	dorm3d_privatechat_ins = {
-		1101865,
+		1101859,
 		96
 	},
 	dorm3d_privatechat_new_topics = {
-		1101961,
+		1101955,
 		110
 	},
 	dorm3d_privatechat_nonew_topics = {
-		1102071,
+		1102065,
 		106
 	},
 	dorm3d_privatechat_room_beach = {
-		1102177,
+		1102171,
 		163
 	},
 	dorm3d_privatechat_room_character = {
-		1102340,
+		1102334,
 		116
 	},
 	dorm3d_privatechat_room_unlock = {
-		1102456,
+		1102450,
 		132
 	},
 	dorm3d_privatechat_screen_all = {
-		1102588,
+		1102582,
 		96
 	},
 	dorm3d_privatechat_screen_floor_1 = {
-		1102684,
+		1102678,
 		107
 	},
 	dorm3d_privatechat_screen_floor_2 = {
-		1102791,
+		1102785,
 		101
 	},
 	dorm3d_privatechat_visit_time_now = {
-		1102892,
+		1102886,
 		102
 	},
 	dorm3d_privatechat_room_guide = {
-		1102994,
+		1102988,
 		116
 	},
 	dorm3d_privatechat_room_download = {
-		1103110,
+		1103104,
 		133
 	},
 	dorm3d_privatechat_telephone = {
-		1103243,
+		1103237,
 		123
 	},
 	dorm3d_privatechat_welcome = {
-		1103366,
+		1103360,
 		110
 	},
 	dorm3d_gift_favor_exceed = {
-		1103476,
+		1103470,
 		184
 	},
 	dorm3d_privatechat_telephone_calllog = {
-		1103660,
+		1103654,
 		118
 	},
 	dorm3d_privatechat_telephone_call = {
-		1103778,
+		1103772,
 		107
 	},
 	dorm3d_privatechat_telephone_noviewed = {
-		1103885,
+		1103879,
 		111
 	},
 	dorm3d_privatechat_video_call = {
-		1103996,
+		1103990,
 		103
 	},
 	dorm3d_ins_no_msg = {
-		1104099,
+		1104093,
 		92
 	},
 	dorm3d_ins_no_topics = {
-		1104191,
+		1104185,
 		95
 	},
 	dorm3d_skin_confirm = {
-		1104286,
+		1104280,
 		97
 	},
 	dorm3d_skin_already = {
-		1104383,
+		1104377,
 		90
 	},
 	dorm3d_skin_equip = {
-		1104473,
+		1104467,
 		96
 	},
 	dorm3d_skin_unlock = {
-		1104569,
+		1104563,
 		125
 	},
 	dorm3d_room_floor_1 = {
-		1104694,
+		1104688,
 		88
 	},
 	dorm3d_room_floor_2 = {
-		1104782,
+		1104776,
 		87
 	},
 	please_input_1_99 = {
-		1104869,
+		1104863,
 		108
 	},
 	child2_empty_plan = {
-		1104977,
+		1104971,
 		94
 	},
 	child2_replay_tip = {
-		1105071,
+		1105065,
 		229
 	},
 	child2_replay_clear = {
-		1105300,
+		1105294,
 		89
 	},
 	child2_replay_continue = {
-		1105389,
+		1105383,
 		94
 	},
 	firework_2025_level = {
-		1105483,
+		1105477,
 		91
 	},
 	firework_2025_pt = {
-		1105574,
+		1105568,
 		92
 	},
 	firework_2025_get = {
-		1105666,
+		1105660,
 		90
 	},
 	firework_2025_got = {
-		1105756,
+		1105750,
 		88
 	},
 	firework_2025_tip1 = {
-		1105844,
+		1105838,
 		136
 	},
 	firework_2025_tip2 = {
-		1105980,
+		1105974,
 		104
 	},
 	firework_2025_unlock_tip1 = {
-		1106084,
+		1106078,
 		110
 	},
 	firework_2025_unlock_tip2 = {
-		1106194,
+		1106188,
 		91
 	},
 	firework_2025_tip = {
-		1106285,
+		1106279,
 		835
 	},
 	secretary_special_character_unlock = {
-		1107120,
+		1107114,
 		171
 	},
 	secretary_special_character_buy_unlock = {
-		1107291,
+		1107285,
 		210
 	},
 	child2_mood_desc1 = {
-		1107501,
+		1107495,
 		150
 	},
 	child2_mood_desc2 = {
-		1107651,
+		1107645,
 		144
 	},
 	child2_mood_desc3 = {
-		1107795,
+		1107789,
 		123
 	},
 	child2_mood_desc4 = {
-		1107918,
+		1107912,
 		146
 	},
 	child2_mood_desc5 = {
-		1108064,
+		1108058,
 		146
 	},
 	child2_schedule_target = {
-		1108210,
+		1108204,
 		102
 	},
 	child2_shop_point_sure = {
-		1108312,
+		1108306,
 		177
 	},
 	["2025Valentine_minigame_s"] = {
-		1108489,
+		1108483,
 		214
 	},
 	["2025Valentine_minigame_a"] = {
-		1108703,
+		1108697,
 		224
 	},
 	["2025Valentine_minigame_b"] = {
-		1108927,
+		1108921,
 		229
 	},
 	["2025Valentine_minigame_c"] = {
-		1109156,
+		1109150,
 		214
 	},
 	rps_game_take_card = {
-		1109370,
+		1109364,
 		94
 	},
 	SkinDiscountHelp_School = {
-		1109464,
+		1109458,
 		656
 	},
 	SkinDiscountHelp_BlackFriday = {
-		1110120,
+		1110114,
 		729
 	},
 	SkinDiscount_Hint = {
-		1110849,
+		1110843,
 		158
 	},
 	SkinDiscount_Got = {
-		1111007,
+		1111001,
 		89
 	},
 	skin_original_price = {
-		1111096,
+		1111090,
 		93
 	},
 	SkinDiscount_Owned_Tips = {
-		1111189,
+		1111183,
 		363
 	},
 	SkinDiscount_Last_Coupon = {
-		1111552,
+		1111546,
 		257
 	},
 	clue_title_1 = {
-		1111809,
+		1111803,
 		89
 	},
 	clue_title_2 = {
-		1111898,
+		1111892,
 		90
 	},
 	clue_title_3 = {
-		1111988,
+		1111982,
 		90
 	},
 	clue_title_4 = {
-		1112078,
+		1112072,
 		81
 	},
 	clue_task_goto = {
-		1112159,
+		1112153,
 		97
 	},
 	clue_lock_tip1 = {
-		1112256,
+		1112250,
 		99
 	},
 	clue_lock_tip2 = {
-		1112355,
+		1112349,
 		87
 	},
 	clue_get = {
-		1112442,
+		1112436,
 		77
 	},
 	clue_got = {
-		1112519,
+		1112513,
 		79
 	},
 	clue_unselect_tip = {
-		1112598,
+		1112592,
 		133
 	},
 	clue_close_tip = {
-		1112731,
+		1112725,
 		102
 	},
 	clue_pt_tip = {
-		1112833,
+		1112827,
 		83
 	},
 	clue_buff_research = {
-		1112916,
+		1112910,
 		89
 	},
 	clue_buff_pt_boost = {
-		1113005,
+		1112999,
 		128
 	},
 	clue_buff_stage_loot = {
-		1113133,
+		1113127,
 		97
 	},
 	clue_task_tip = {
-		1113230,
+		1113224,
 		91
 	},
 	clue_buff_reach_max = {
-		1113321,
+		1113315,
 		125
 	},
 	clue_buff_unselect = {
-		1113446,
+		1113440,
 		116
 	},
 	ship_formationUI_fleetName_1 = {
-		1113562,
+		1113556,
 		119
 	},
 	ship_formationUI_fleetName_2 = {
-		1113681,
+		1113675,
 		120
 	},
 	ship_formationUI_fleetName_3 = {
-		1113801,
+		1113795,
 		117
 	},
 	ship_formationUI_fleetName_4 = {
-		1113918,
+		1113912,
 		116
 	},
 	ship_formationUI_fleetName_5 = {
-		1114034,
+		1114028,
 		120
 	},
 	ship_formationUI_fleetName_6 = {
-		1114154,
+		1114148,
 		121
 	},
 	ship_formationUI_fleetName_7 = {
-		1114275,
+		1114269,
 		118
 	},
 	ship_formationUI_fleetName_8 = {
-		1114393,
+		1114387,
 		117
 	},
 	ship_formationUI_fleetName_9 = {
-		1114510,
+		1114504,
 		121
 	},
 	ship_formationUI_fleetName_10 = {
-		1114631,
+		1114625,
 		123
 	},
 	ship_formationUI_fleetName_11 = {
-		1114754,
+		1114748,
 		120
 	},
 	ship_formationUI_fleetName_12 = {
-		1114874,
+		1114868,
 		119
 	},
 	ship_formationUI_fleetName_13 = {
-		1114993,
+		1114987,
 		111
 	},
 	clue_buff_ticket_tips = {
-		1115104,
+		1115098,
 		167
 	},
 	clue_buff_empty_ticket = {
-		1115271,
+		1115265,
 		136
 	},
 	SuperBulin2_tip1 = {
-		1115407,
+		1115401,
 		118
 	},
 	SuperBulin2_tip2 = {
-		1115525,
+		1115519,
 		117
 	},
 	SuperBulin2_tip3 = {
-		1115642,
+		1115636,
 		126
 	},
 	SuperBulin2_tip4 = {
-		1115768,
+		1115762,
 		117
 	},
 	SuperBulin2_tip5 = {
-		1115885,
+		1115879,
 		126
 	},
 	SuperBulin2_tip6 = {
-		1116011,
+		1116005,
 		120
 	},
 	SuperBulin2_tip7 = {
-		1116131,
+		1116125,
 		117
 	},
 	SuperBulin2_tip8 = {
-		1116248,
+		1116242,
 		117
 	},
 	SuperBulin2_tip9 = {
-		1116365,
+		1116359,
 		125
 	},
 	SuperBulin2_help = {
-		1116490,
+		1116484,
 		513
 	},
 	SuperBulin2_lock_tip = {
-		1117003,
+		1116997,
 		132
 	},
 	dorm3d_shop_buy_tips = {
-		1117135,
+		1117129,
 		218
 	},
 	dorm3d_shop_title = {
-		1117353,
+		1117347,
 		94
 	},
 	dorm3d_shop_limit = {
-		1117447,
+		1117441,
 		88
 	},
 	dorm3d_shop_sold_out = {
-		1117535,
+		1117529,
 		92
 	},
 	dorm3d_shop_all = {
-		1117627,
+		1117621,
 		82
 	},
 	dorm3d_shop_gift1 = {
-		1117709,
+		1117703,
 		86
 	},
 	dorm3d_shop_furniture = {
-		1117795,
+		1117789,
 		94
 	},
 	dorm3d_shop_others = {
-		1117889,
+		1117883,
 		87
 	},
 	dorm3d_shop_limit1 = {
-		1117976,
+		1117970,
 		96
 	},
 	dorm3d_cafe_minigame1 = {
-		1118072,
+		1118066,
 		105
 	},
 	dorm3d_cafe_minigame2 = {
-		1118177,
+		1118171,
 		102
 	},
 	dorm3d_cafe_minigame3 = {
-		1118279,
+		1118273,
 		97
 	},
 	dorm3d_cafe_minigame4 = {
-		1118376,
+		1118370,
 		90
 	},
 	dorm3d_cafe_minigame5 = {
-		1118466,
+		1118460,
 		89
 	},
 	dorm3d_cafe_minigame6 = {
-		1118555,
+		1118549,
 		94
 	},
 	xiaoankeleiqi_npc = {
-		1118649,
+		1118643,
 		1518
 	},
 	island_name_too_long_or_too_short = {
-		1120167,
+		1120161,
 		156
 	},
 	island_name_exist_special_word = {
-		1120323,
+		1120317,
 		152
 	},
 	island_name_exist_ban_word = {
-		1120475,
+		1120469,
 		145
 	},
 	grapihcs3d_setting_enable_gup_driver = {
-		1120620,
+		1120614,
 		112
 	},
 	grapihcs3d_setting_resolution = {
-		1120732,
+		1120726,
 		107
 	},
 	grapihcs3d_setting_resolution_optionname0 = {
-		1120839,
+		1120833,
 		109
 	},
 	grapihcs3d_setting_resolution_optionname1 = {
-		1120948,
+		1120942,
 		110
 	},
 	grapihcs3d_setting_resolution_optionname2 = {
-		1121058,
+		1121052,
 		107
 	},
 	grapihcs3d_setting_rendering_quality = {
-		1121165,
+		1121159,
 		117
 	},
 	grapihcs3d_setting_rendering_quality_optionname0 = {
-		1121282,
+		1121276,
 		115
 	},
 	grapihcs3d_setting_rendering_quality_optionname1 = {
-		1121397,
+		1121391,
 		116
 	},
 	grapihcs3d_setting_shader_quality = {
-		1121513,
+		1121507,
 		111
 	},
 	grapihcs3d_setting_shader_quality_optionname0 = {
-		1121624,
+		1121618,
 		112
 	},
 	grapihcs3d_setting_shader_quality_optionname1 = {
-		1121736,
+		1121730,
 		113
 	},
 	grapihcs3d_setting_shadow_quality = {
-		1121849,
+		1121843,
 		111
 	},
 	grapihcs3d_setting_shadow_quality_optionname0 = {
-		1121960,
+		1121954,
 		112
 	},
 	grapihcs3d_setting_shadow_quality_optionname1 = {
-		1122072,
+		1122066,
 		112
 	},
 	grapihcs3d_setting_shadow_quality_optionname2 = {
-		1122184,
+		1122178,
 		115
 	},
 	grapihcs3d_setting_shadow_quality_optionname3 = {
-		1122299,
+		1122293,
 		113
 	},
 	grapihcs3d_setting_shadow_update_mode = {
-		1122412,
+		1122406,
 		125
 	},
 	grapihcs3d_setting_shadow_update_mode_optionname0 = {
-		1122537,
+		1122531,
 		116
 	},
 	grapihcs3d_setting_shadow_update_mode_optionname1 = {
-		1122653,
+		1122647,
 		119
 	},
 	grapihcs3d_setting_shadow_update_mode_optionname2 = {
-		1122772,
+		1122766,
 		117
 	},
 	grapihcs3d_setting_shadow_update_mode_optionname3 = {
-		1122889,
+		1122883,
 		122
 	},
 	grapihcs3d_setting_terrain_layer_quality = {
-		1123011,
+		1123005,
 		125
 	},
 	grapihcs3d_setting_terrain_layer_quality_optionname0 = {
-		1123136,
+		1123130,
 		119
 	},
 	grapihcs3d_setting_terrain_layer_quality_optionname1 = {
-		1123255,
+		1123249,
 		122
 	},
 	grapihcs3d_setting_terrain_layer_quality_optionname2 = {
-		1123377,
+		1123371,
 		120
 	},
 	grapihcs3d_setting_enable_additional_lights = {
-		1123497,
+		1123491,
 		121
 	},
 	grapihcs3d_setting_enable_reflection = {
-		1123618,
+		1123612,
 		110
 	},
 	grapihcs3d_setting_character_quality = {
-		1123728,
+		1123722,
 		123
 	},
 	grapihcs3d_setting_character_quality_optionname0 = {
-		1123851,
+		1123845,
 		115
 	},
 	grapihcs3d_setting_character_quality_optionname1 = {
-		1123966,
+		1123960,
 		118
 	},
 	grapihcs3d_setting_character_quality_optionname2 = {
-		1124084,
+		1124078,
 		116
 	},
 	grapihcs3d_setting_enable_post_process = {
-		1124200,
+		1124194,
 		117
 	},
 	grapihcs3d_setting_enable_post_antialiasing = {
-		1124317,
+		1124311,
 		120
 	},
 	grapihcs3d_setting_enable_hdr = {
-		1124437,
+		1124431,
 		96
 	},
 	grapihcs3d_setting_enable_distort = {
-		1124533,
+		1124527,
 		107
 	},
 	grapihcs3d_setting_enable_dof = {
-		1124640,
+		1124634,
 		107
 	},
 	grapihcs3d_setting_3Dquality = {
-		1124747,
+		1124741,
 		100
 	},
 	grapihcs3d_setting_control = {
-		1124847,
+		1124841,
 		98
 	},
 	grapihcs3d_setting_general = {
-		1124945,
+		1124939,
 		105
 	},
 	grapihcs3d_setting_card_title = {
-		1125050,
+		1125044,
 		100
 	},
 	grapihcs3d_setting_card_tag = {
-		1125150,
+		1125144,
 		103
 	},
 	grapihcs3d_setting_card_socialdata = {
-		1125253,
+		1125247,
 		110
 	},
 	grapihcs3d_setting_common_title = {
-		1125363,
+		1125357,
 		118
 	},
 	grapihcs3d_setting_common_use = {
-		1125481,
+		1125475,
 		96
 	},
 	grapihcs3d_setting_common_unstuck = {
-		1125577,
+		1125571,
 		111
 	},
 	grapihcs3d_setting_common_unstuck_msgbox = {
-		1125688,
+		1125682,
 		192
 	},
 	island_daily_gift_invite_success = {
-		1125880,
+		1125874,
 		140
 	},
 	island_build_save_conflict = {
-		1126020,
+		1126014,
 		104
 	},
 	island_build_save_success = {
-		1126124,
+		1126118,
 		108
 	},
 	island_build_capacity_tip = {
-		1126232,
+		1126226,
 		135
 	},
 	island_build_clean_tip = {
-		1126367,
+		1126361,
 		138
 	},
 	island_build_revert_tip = {
-		1126505,
+		1126499,
 		146
 	},
 	island_dress_exit = {
-		1126651,
+		1126645,
 		120
 	},
 	island_dress_exit2 = {
-		1126771,
+		1126765,
 		116
 	},
 	island_dress_mutually_exclusive = {
-		1126887,
+		1126881,
 		166
 	},
 	island_dress_skin_buy = {
-		1127053,
+		1127047,
 		117
 	},
 	island_dress_color_buy = {
-		1127170,
+		1127164,
 		130
 	},
 	island_dress_color_unlock = {
-		1127300,
+		1127294,
 		103
 	},
 	island_dress_save1 = {
-		1127403,
+		1127397,
 		87
 	},
 	island_dress_save2 = {
-		1127490,
+		1127484,
 		123
 	},
 	island_dress_mutually_exclusive1 = {
-		1127613,
+		1127607,
 		135
 	},
 	island_dress_send_tip = {
-		1127748,
+		1127742,
 		113
 	},
 	island_dress_send_tip_success = {
-		1127861,
+		1127855,
 		108
 	},
 	handbook_new_player_task_locked_by_section = {
-		1127969,
+		1127963,
 		163
 	},
 	handbook_new_player_guide_locked_by_level = {
-		1128132,
+		1128126,
 		135
 	},
 	handbook_task_locked_by_level = {
-		1128267,
+		1128261,
 		122
 	},
 	handbook_task_locked_by_other_task = {
-		1128389,
+		1128383,
 		149
 	},
 	handbook_task_locked_by_chapter = {
-		1128538,
+		1128532,
 		132
 	},
 	handbook_name = {
-		1128670,
+		1128664,
 		85
 	},
 	handbook_process = {
-		1128755,
+		1128749,
 		91
 	},
 	handbook_claim = {
-		1128846,
+		1128840,
 		85
 	},
 	handbook_finished = {
-		1128931,
+		1128925,
 		90
 	},
 	handbook_unfinished = {
-		1129021,
+		1129015,
 		128
 	},
 	handbook_gametip = {
-		1129149,
+		1129143,
 		1607
 	},
 	handbook_research_confirm = {
-		1130756,
+		1130750,
 		104
 	},
 	handbook_research_final_task_desc_locked = {
-		1130860,
+		1130854,
 		184
 	},
 	handbook_research_final_task_btn_locked = {
-		1131044,
+		1131038,
 		114
 	},
 	handbook_research_final_task_btn_claim = {
-		1131158,
+		1131152,
 		107
 	},
 	handbook_research_final_task_btn_finished = {
-		1131265,
+		1131259,
 		112
 	},
 	handbook_ur_double_check = {
-		1131377,
+		1131371,
 		242
 	},
 	NewMusic_1 = {
-		1131619,
+		1131613,
 		87
 	},
 	NewMusic_2 = {
-		1131706,
+		1131700,
 		86
 	},
 	NewMusic_help = {
-		1131792,
+		1131786,
 		286
 	},
 	NewMusic_3 = {
-		1132078,
+		1132072,
 		111
 	},
 	NewMusic_4 = {
-		1132189,
+		1132183,
 		112
 	},
 	NewMusic_5 = {
-		1132301,
+		1132295,
 		83
 	},
 	NewMusic_6 = {
-		1132384,
+		1132378,
 		80
 	},
 	NewMusic_7 = {
-		1132464,
+		1132458,
 		100
 	},
 	holiday_tip_minigame1 = {
-		1132564,
+		1132558,
 		98
 	},
 	holiday_tip_minigame2 = {
-		1132662,
+		1132656,
 		94
 	},
 	holiday_tip_bath = {
-		1132756,
+		1132750,
 		93
 	},
 	holiday_tip_collection = {
-		1132849,
+		1132843,
 		91
 	},
 	holiday_tip_task = {
-		1132940,
+		1132934,
 		88
 	},
 	holiday_tip_shop = {
-		1133028,
+		1133022,
 		88
 	},
 	holiday_tip_trans = {
-		1133116,
+		1133110,
 		95
 	},
 	holiday_tip_task_now = {
-		1133211,
+		1133205,
 		96
 	},
 	holiday_tip_finish = {
-		1133307,
+		1133301,
 		259
 	},
 	holiday_tip_trans_get = {
-		1133566,
+		1133560,
 		137
 	},
 	holiday_tip_rebuild_not = {
-		1133703,
+		1133697,
 		130
 	},
 	holiday_tip_trans_not = {
-		1133833,
+		1133827,
 		127
 	},
 	holiday_tip_task_finish = {
-		1133960,
+		1133954,
 		135
 	},
 	holiday_tip_trans_tip = {
-		1134095,
+		1134089,
 		99
 	},
 	holiday_tip_trans_desc1 = {
-		1134194,
+		1134188,
 		348
 	},
 	holiday_tip_trans_desc2 = {
-		1134542,
+		1134536,
 		348
 	},
 	holiday_tip_gametip = {
-		1134890,
+		1134884,
 		1181
 	},
 	holiday_tip_spring = {
-		1136071,
+		1136065,
 		299
 	},
 	activity_holiday_function_lock = {
-		1136370,
+		1136364,
 		134
 	},
 	storyline_chapter0 = {
-		1136504,
+		1136498,
 		90
 	},
 	storyline_chapter1 = {
-		1136594,
+		1136588,
 		91
 	},
 	storyline_chapter2 = {
-		1136685,
+		1136679,
 		91
 	},
 	storyline_chapter3 = {
-		1136776,
+		1136770,
 		91
 	},
 	storyline_chapter4 = {
-		1136867,
+		1136861,
 		91
 	},
 	storyline_chapter5 = {
-		1136958,
+		1136952,
 		91
 	},
 	storyline_memorysearch1 = {
-		1137049,
+		1137043,
 		99
 	},
 	storyline_memorysearch2 = {
-		1137148,
+		1137142,
 		99
 	},
 	use_amount_prefix = {
-		1137247,
+		1137241,
 		93
 	},
 	sure_exit_resolve_equip = {
-		1137340,
+		1137334,
 		205
 	},
 	resolve_equip_tip = {
-		1137545,
+		1137539,
 		153
 	},
 	resolve_equip_title = {
-		1137698,
+		1137692,
 		92
 	},
 	tec_catchup_0 = {
-		1137790,
+		1137784,
 		85
 	},
 	tec_catchup_confirm = {
-		1137875,
+		1137869,
 		303
 	},
 	watermelon_minigame_help = {
-		1138178,
+		1138172,
 		306
 	},
 	breakout_tip = {
-		1138484,
+		1138478,
 		98
 	},
 	collection_book_lock_place = {
-		1138582,
+		1138576,
 		107
 	},
 	collection_book_tag_1 = {
-		1138689,
+		1138683,
 		101
 	},
 	collection_book_tag_2 = {
-		1138790,
+		1138784,
 		97
 	},
 	collection_book_tag_3 = {
-		1138887,
+		1138881,
 		103
 	},
 	challenge_minigame_unlock = {
-		1138990,
+		1138984,
 		104
 	},
 	storyline_camp = {
-		1139094,
+		1139088,
 		87
 	},
 	storyline_goto = {
-		1139181,
+		1139175,
 		92
 	},
 	holiday_villa_locked = {
-		1139273,
+		1139267,
 		162
 	},
 	tech_shadow_change_button_1 = {
-		1139435,
+		1139429,
 		106
 	},
 	tech_shadow_change_button_2 = {
-		1139541,
+		1139535,
 		111
 	},
 	tech_shadow_limit_text = {
-		1139652,
+		1139646,
 		105
 	},
 	tech_shadow_commit_tip = {
-		1139757,
+		1139751,
 		146
 	},
 	shadow_scene_name = {
-		1139903,
+		1139897,
 		96
 	},
 	shadow_unlock_tip = {
-		1139999,
+		1139993,
 		138
 	},
 	shadow_skin_change_success = {
-		1140137,
+		1140131,
 		141
 	},
 	add_skin_secretary_ship = {
-		1140278,
+		1140272,
 		108
 	},
 	add_skin_random_secretary_ship_list = {
-		1140386,
+		1140380,
 		119
 	},
 	choose_secretary_change_to_this_ship = {
-		1140505,
+		1140499,
 		121
 	},
 	random_ship_custom_mode_add_shadow_complete = {
-		1140626,
+		1140620,
 		162
 	},
 	random_ship_custom_mode_remove_shadow_complete = {
-		1140788,
+		1140782,
 		169
 	},
 	choose_secretary_change_title = {
-		1140957,
+		1140951,
 		102
 	},
 	ship_random_secretary_tag = {
-		1141059,
+		1141053,
 		105
 	},
 	projection_help = {
-		1141164,
+		1141158,
 		280
 	},
 	littleaijier_npc = {
-		1141444,
+		1141438,
 		1483
 	},
 	brs_main_tip = {
-		1142927,
+		1142921,
 		131
 	},
 	brs_expedition_tip = {
-		1143058,
+		1143052,
 		140
 	},
 	brs_dmact_tip = {
-		1143198,
+		1143192,
 		92
 	},
 	brs_reward_tip_1 = {
-		1143290,
+		1143284,
 		93
 	},
 	brs_reward_tip_2 = {
-		1143383,
+		1143377,
 		82
 	},
 	dorm3d_dance_button = {
-		1143465,
+		1143459,
 		88
 	},
 	dorm3d_collection_cafe = {
-		1143553,
+		1143547,
 		91
 	},
 	zengke_series_help = {
-		1143644,
+		1143638,
 		1395
 	},
 	zengke_series_pt = {
-		1145039,
+		1145033,
 		85
 	},
 	zengke_series_pt_small = {
-		1145124,
+		1145118,
 		91
 	},
 	zengke_series_rank = {
-		1145215,
+		1145209,
 		89
 	},
 	zengke_series_rank_small = {
-		1145304,
+		1145298,
 		95
 	},
 	zengke_series_task = {
-		1145399,
+		1145393,
 		90
 	},
 	zengke_series_task_small = {
-		1145489,
+		1145483,
 		96
 	},
 	zengke_series_confirm = {
-		1145585,
+		1145579,
 		91
 	},
 	zengke_story_reward_count = {
-		1145676,
+		1145670,
 		142
 	},
 	zengke_series_easy = {
-		1145818,
+		1145812,
 		86
 	},
 	zengke_series_normal = {
-		1145904,
+		1145898,
 		90
 	},
 	zengke_series_hard = {
-		1145994,
+		1145988,
 		86
 	},
 	zengke_series_sp = {
-		1146080,
+		1146074,
 		82
 	},
 	zengke_series_ex = {
-		1146162,
+		1146156,
 		82
 	},
 	zengke_series_ex_confirm = {
-		1146244,
+		1146238,
 		94
 	},
 	battleui_display1 = {
-		1146338,
+		1146332,
 		85
 	},
 	battleui_display2 = {
-		1146423,
+		1146417,
 		87
 	},
 	battleui_display3 = {
-		1146510,
+		1146504,
 		90
 	},
 	zengke_series_serverinfo = {
-		1146600,
+		1146594,
 		95
 	},
 	grapihcs3d_setting_bloom = {
-		1146695,
+		1146689,
 		102
 	},
 	grapihcs3d_setting_bloom_optionname0 = {
-		1146797,
+		1146791,
 		104
 	},
 	grapihcs3d_setting_bloom_optionname1 = {
-		1146901,
+		1146895,
 		103
 	},
 	SkinDiscountHelp_Carnival = {
-		1147004,
+		1146998,
 		707
 	},
 	open_today = {
-		1147711,
+		1147705,
 		85
 	},
 	daily_level_go = {
-		1147796,
+		1147790,
 		80
 	},
 	yumia_main_tip_1 = {
-		1147876,
+		1147870,
 		85
 	},
 	yumia_main_tip_2 = {
-		1147961,
+		1147955,
 		86
 	},
 	yumia_main_tip_3 = {
-		1148047,
+		1148041,
 		85
 	},
 	yumia_main_tip_4 = {
-		1148132,
+		1148126,
 		127
 	},
 	yumia_main_tip_5 = {
-		1148259,
+		1148253,
 		85
 	},
 	yumia_main_tip_6 = {
-		1148344,
+		1148338,
 		93
 	},
 	yumia_main_tip_7 = {
-		1148437,
+		1148431,
 		87
 	},
 	yumia_main_tip_8 = {
-		1148524,
+		1148518,
 		89
 	},
 	yumia_main_tip_9 = {
-		1148613,
+		1148607,
 		91
 	},
 	yumia_base_name_1 = {
-		1148704,
+		1148698,
 		98
 	},
 	yumia_base_name_2 = {
-		1148802,
+		1148796,
 		100
 	},
 	yumia_base_name_3 = {
-		1148902,
+		1148896,
 		98
 	},
 	yumia_stronghold_1 = {
-		1149000,
+		1148994,
 		95
 	},
 	yumia_stronghold_2 = {
-		1149095,
+		1149089,
 		131
 	},
 	yumia_stronghold_3 = {
-		1149226,
+		1149220,
 		93
 	},
 	yumia_stronghold_4 = {
-		1149319,
+		1149313,
 		95
 	},
 	yumia_stronghold_5 = {
-		1149414,
+		1149408,
 		97
 	},
 	yumia_stronghold_6 = {
-		1149511,
+		1149505,
 		90
 	},
 	yumia_stronghold_7 = {
-		1149601,
+		1149595,
 		90
 	},
 	yumia_stronghold_8 = {
-		1149691,
+		1149685,
 		98
 	},
 	yumia_stronghold_9 = {
-		1149789,
+		1149783,
 		88
 	},
 	yumia_stronghold_10 = {
-		1149877,
+		1149871,
 		97
 	},
 	yumia_award_1 = {
-		1149974,
+		1149968,
 		81
 	},
 	yumia_award_2 = {
-		1150055,
+		1150049,
 		86
 	},
 	yumia_award_3 = {
-		1150141,
+		1150135,
 		87
 	},
 	yumia_award_4 = {
-		1150228,
+		1150222,
 		92
 	},
 	yumia_pt_1 = {
-		1150320,
+		1150314,
 		161
 	},
 	yumia_pt_2 = {
-		1150481,
+		1150475,
 		85
 	},
 	yumia_pt_3 = {
-		1150566,
+		1150560,
 		82
 	},
 	yumia_mana_battle_tip = {
-		1150648,
+		1150642,
 		221
 	},
 	yumia_buff_name_1 = {
-		1150869,
+		1150863,
 		100
 	},
 	yumia_buff_name_2 = {
-		1150969,
+		1150963,
 		94
 	},
 	yumia_buff_name_3 = {
-		1151063,
+		1151057,
 		94
 	},
 	yumia_buff_name_4 = {
-		1151157,
+		1151151,
 		94
 	},
 	yumia_buff_name_5 = {
-		1151251,
+		1151245,
 		90
 	},
 	yumia_buff_desc_1 = {
-		1151341,
+		1151335,
 		163
 	},
 	yumia_buff_desc_2 = {
-		1151504,
+		1151498,
 		163
 	},
 	yumia_buff_desc_3 = {
-		1151667,
+		1151661,
 		163
 	},
 	yumia_buff_desc_4 = {
-		1151830,
+		1151824,
 		163
 	},
 	yumia_buff_desc_5 = {
-		1151993,
+		1151987,
 		163
 	},
 	yumia_buff_1 = {
-		1152156,
+		1152150,
 		92
 	},
 	yumia_buff_2 = {
-		1152248,
+		1152242,
 		84
 	},
 	yumia_buff_3 = {
-		1152332,
+		1152326,
 		85
 	},
 	yumia_buff_4 = {
-		1152417,
+		1152411,
 		123
 	},
 	yumia_atelier_tip1 = {
-		1152540,
+		1152534,
 		123
 	},
 	yumia_atelier_tip2 = {
-		1152663,
+		1152657,
 		86
 	},
 	yumia_atelier_tip3 = {
-		1152749,
+		1152743,
 		87
 	},
 	yumia_atelier_tip4 = {
-		1152836,
+		1152830,
 		89
 	},
 	yumia_atelier_tip5 = {
-		1152925,
+		1152919,
 		107
 	},
 	yumia_atelier_tip6 = {
-		1153032,
+		1153026,
 		89
 	},
 	yumia_atelier_tip7 = {
-		1153121,
+		1153115,
 		111
 	},
 	yumia_atelier_tip8 = {
-		1153232,
+		1153226,
 		95
 	},
 	yumia_atelier_tip9 = {
-		1153327,
+		1153321,
 		97
 	},
 	yumia_atelier_tip10 = {
-		1153424,
+		1153418,
 		99
 	},
 	yumia_atelier_tip11 = {
-		1153523,
+		1153517,
 		101
 	},
 	yumia_atelier_tip12 = {
-		1153624,
+		1153618,
 		100
 	},
 	yumia_atelier_tip13 = {
-		1153724,
+		1153718,
 		96
 	},
 	yumia_atelier_tip14 = {
-		1153820,
+		1153814,
 		90
 	},
 	yumia_atelier_tip15 = {
-		1153910,
+		1153904,
 		98
 	},
 	yumia_atelier_tip16 = {
-		1154008,
+		1154002,
 		90
 	},
 	yumia_atelier_tip17 = {
-		1154098,
+		1154092,
 		111
 	},
 	yumia_atelier_tip18 = {
-		1154209,
+		1154203,
 		98
 	},
 	yumia_atelier_tip19 = {
-		1154307,
+		1154301,
 		115
 	},
 	yumia_atelier_tip20 = {
-		1154422,
+		1154416,
 		120
 	},
 	yumia_atelier_tip21 = {
-		1154542,
+		1154536,
 		110
 	},
 	yumia_atelier_tip22 = {
-		1154652,
+		1154646,
 		628
 	},
 	yumia_atelier_tip23 = {
-		1155280,
+		1155274,
 		92
 	},
 	yumia_atelier_tip24 = {
-		1155372,
+		1155366,
 		96
 	},
 	yumia_storymode_tip1 = {
-		1155468,
+		1155462,
 		103
 	},
 	yumia_storymode_tip2 = {
-		1155571,
+		1155565,
 		122
 	},
 	yumia_pt_tip = {
-		1155693,
+		1155687,
 		81
 	},
 	yumia_pt_4 = {
-		1155774,
+		1155768,
 		82
 	},
 	masaina_main_title = {
-		1155856,
+		1155850,
 		102
 	},
 	masaina_main_title_en = {
-		1155958,
+		1155952,
 		105
 	},
 	masaina_main_sheet1 = {
-		1156063,
+		1156057,
 		93
 	},
 	masaina_main_sheet2 = {
-		1156156,
+		1156150,
 		92
 	},
 	masaina_main_sheet3 = {
-		1156248,
+		1156242,
 		90
 	},
 	masaina_main_sheet4 = {
-		1156338,
+		1156332,
 		91
 	},
 	masaina_main_skin_tag = {
-		1156429,
+		1156423,
 		93
 	},
 	masaina_main_other_tag = {
-		1156522,
+		1156516,
 		97
 	},
 	shop_title = {
-		1156619,
+		1156613,
 		78
 	},
 	shop_recommend = {
-		1156697,
+		1156691,
 		81
 	},
 	shop_recommend_en = {
-		1156778,
+		1156772,
 		84
 	},
 	shop_skin = {
-		1156862,
+		1156856,
 		78
 	},
 	shop_skin_en = {
-		1156940,
+		1156934,
 		81
 	},
 	shop_supply_prop = {
-		1157021,
+		1157015,
 		86
 	},
 	shop_supply_prop_en = {
-		1157107,
+		1157101,
 		89
 	},
 	shop_skin_new = {
-		1157196,
+		1157190,
 		84
 	},
 	shop_skin_permanent = {
-		1157280,
+		1157274,
 		90
 	},
 	shop_month = {
-		1157370,
+		1157364,
 		81
 	},
 	shop_supply = {
-		1157451,
+		1157445,
 		81
 	},
 	shop_activity = {
-		1157532,
+		1157526,
 		91
 	},
 	shop_package_sort_0 = {
-		1157623,
+		1157617,
 		86
 	},
 	shop_package_sort_en_0 = {
-		1157709,
+		1157703,
 		89
 	},
 	shop_package_sort_1 = {
-		1157798,
+		1157792,
 		97
 	},
 	shop_package_sort_en_1 = {
-		1157895,
+		1157889,
 		100
 	},
 	shop_package_sort_2 = {
-		1157995,
+		1157989,
 		88
 	},
 	shop_package_sort_en_2 = {
-		1158083,
+		1158077,
 		91
 	},
 	shop_package_sort_3 = {
-		1158174,
+		1158168,
 		85
 	},
 	shop_package_sort_en_3 = {
-		1158259,
+		1158253,
 		88
 	},
 	shop_goods_left_day = {
-		1158347,
+		1158341,
 		91
 	},
 	shop_goods_left_hour = {
-		1158438,
+		1158432,
 		92
 	},
 	shop_goods_left_minute = {
-		1158530,
+		1158524,
 		94
 	},
 	shop_refresh_time = {
-		1158624,
+		1158618,
 		93
 	},
 	shop_side_lable_en = {
-		1158717,
+		1158711,
 		91
 	},
 	street_shop_titleen = {
-		1158808,
+		1158802,
 		87
 	},
 	military_shop_titleen = {
-		1158895,
+		1158889,
 		90
 	},
 	guild_shop_titleen = {
-		1158985,
+		1158979,
 		87
 	},
 	meta_shop_titleen = {
-		1159072,
+		1159066,
 		85
 	},
 	mini_game_shop_titleen = {
-		1159157,
+		1159151,
 		91
 	},
 	shop_item_unlock = {
-		1159248,
+		1159242,
 		92
 	},
 	shop_item_unobtained = {
-		1159340,
+		1159334,
 		94
 	},
 	beat_game_rule = {
-		1159434,
+		1159428,
 		83
 	},
 	beat_game_rank = {
-		1159517,
+		1159511,
 		85
 	},
 	beat_game_go = {
-		1159602,
+		1159596,
 		78
 	},
 	beat_game_start = {
-		1159680,
+		1159674,
 		89
 	},
 	beat_game_high_score = {
-		1159769,
+		1159763,
 		94
 	},
 	beat_game_current_score = {
-		1159863,
+		1159857,
 		100
 	},
 	beat_game_exit_desc = {
-		1159963,
+		1159957,
 		142
 	},
 	musicbeat_minigame_help = {
-		1160105,
+		1160099,
 		908
 	},
 	masaina_pt_claimed = {
-		1161013,
+		1161007,
 		90
 	},
 	activity_shop_titleen = {
-		1161103,
+		1161097,
 		90
 	},
 	shop_diamond_title_en = {
-		1161193,
+		1161187,
 		89
 	},
 	shop_gift_title_en = {
-		1161282,
+		1161276,
 		87
 	},
 	shop_item_title_en = {
-		1161369,
+		1161363,
 		87
 	},
 	shop_pack_empty = {
-		1161456,
+		1161450,
 		96
 	},
 	shop_new_unfound = {
-		1161552,
+		1161546,
 		126
 	},
 	shop_new_shop = {
-		1161678,
+		1161672,
 		81
 	},
 	shop_new_during_day = {
-		1161759,
+		1161753,
 		91
 	},
 	shop_new_during_hour = {
-		1161850,
+		1161844,
 		92
 	},
 	shop_new_during_minite = {
-		1161942,
+		1161936,
 		94
 	},
 	shop_new_sort = {
-		1162036,
+		1162030,
 		83
 	},
 	shop_new_search = {
-		1162119,
+		1162113,
 		92
 	},
 	shop_new_purchased = {
-		1162211,
+		1162205,
 		91
 	},
 	shop_new_purchase = {
-		1162302,
+		1162296,
 		89
 	},
 	shop_new_claim = {
-		1162391,
+		1162385,
 		85
 	},
 	shop_new_furniture = {
-		1162476,
+		1162470,
 		96
 	},
 	shop_new_discount = {
-		1162572,
+		1162566,
 		91
 	},
 	shop_new_try = {
-		1162663,
+		1162657,
 		82
 	},
 	shop_new_gift = {
-		1162745,
+		1162739,
 		81
 	},
 	shop_new_gem_transform = {
-		1162826,
+		1162820,
 		122
 	},
 	shop_new_review = {
-		1162948,
+		1162942,
 		84
 	},
 	shop_new_all = {
-		1163032,
+		1163026,
 		79
 	},
 	shop_new_owned = {
-		1163111,
+		1163105,
 		83
 	},
 	shop_new_havent_own = {
-		1163194,
+		1163188,
 		90
 	},
 	shop_new_unused = {
-		1163284,
+		1163278,
 		95
 	},
 	shop_new_type = {
-		1163379,
+		1163373,
 		81
 	},
 	shop_new_static = {
-		1163460,
+		1163454,
 		85
 	},
 	shop_new_dynamic = {
-		1163545,
+		1163539,
 		87
 	},
 	shop_new_static_bg = {
-		1163632,
+		1163626,
 		92
 	},
 	shop_new_dynamic_bg = {
-		1163724,
+		1163718,
 		94
 	},
 	shop_new_bgm = {
-		1163818,
+		1163812,
 		79
 	},
 	shop_new_index = {
-		1163897,
+		1163891,
 		82
 	},
 	shop_new_ship_owned = {
-		1163979,
+		1163973,
 		93
 	},
 	shop_new_ship_havent_owned = {
-		1164072,
+		1164066,
 		102
 	},
 	shop_new_nation = {
-		1164174,
+		1164168,
 		86
 	},
 	shop_new_rarity = {
-		1164260,
+		1164254,
 		85
 	},
 	shop_new_category = {
-		1164345,
+		1164339,
 		89
 	},
 	shop_new_skin_theme = {
-		1164434,
+		1164428,
 		88
 	},
 	shop_new_confirm = {
-		1164522,
+		1164516,
 		87
 	},
 	shop_new_during_time = {
-		1164609,
+		1164603,
 		93
 	},
 	shop_new_daily = {
-		1164702,
+		1164696,
 		83
 	},
 	shop_new_recommend = {
-		1164785,
+		1164779,
 		85
 	},
 	shop_new_skin_shop = {
-		1164870,
+		1164864,
 		87
 	},
 	shop_new_purchase_gem = {
-		1164957,
+		1164951,
 		89
 	},
 	shop_new_akashi_recommend = {
-		1165046,
+		1165040,
 		100
 	},
 	shop_new_packs = {
-		1165146,
+		1165140,
 		83
 	},
 	shop_new_props = {
-		1165229,
+		1165223,
 		83
 	},
 	shop_new_ptshop = {
-		1165312,
+		1165306,
 		85
 	},
 	shop_new_skin_new = {
-		1165397,
+		1165391,
 		88
 	},
 	shop_new_skin_permanent = {
-		1165485,
+		1165479,
 		90
 	},
 	shop_new_in_use = {
-		1165575,
+		1165569,
 		85
 	},
 	shop_new_unable_to_use = {
-		1165660,
+		1165654,
 		94
 	},
 	shop_new_owned_skin = {
-		1165754,
+		1165748,
 		88
 	},
 	shop_new_wear = {
-		1165842,
+		1165836,
 		81
 	},
 	shop_new_get_now = {
-		1165923,
+		1165917,
 		90
 	},
 	shop_new_remaining_time = {
-		1166013,
+		1166007,
 		125
 	},
 	shop_new_remove = {
-		1166138,
+		1166132,
 		95
 	},
 	shop_new_retro = {
-		1166233,
+		1166227,
 		83
 	},
 	shop_new_able_to_exchange = {
-		1166316,
+		1166310,
 		105
 	},
 	shop_countdown = {
-		1166421,
+		1166415,
 		97
 	},
 	quota_shop_title1en = {
-		1166518,
+		1166512,
 		83
 	},
 	sham_shop_titleen = {
-		1166601,
+		1166595,
 		81
 	},
 	medal_shop_titleen = {
-		1166682,
+		1166676,
 		82
 	},
 	fragment_shop_titleen = {
-		1166764,
+		1166758,
 		85
 	},
 	shop_fragment_resolve = {
-		1166849,
+		1166843,
 		103
 	},
 	beat_game_my_record = {
-		1166952,
+		1166946,
 		90
 	},
 	shop_filter_all = {
-		1167042,
+		1167036,
 		82
 	},
 	shop_filter_trial = {
-		1167124,
+		1167118,
 		87
 	},
 	shop_filter_retro = {
-		1167211,
+		1167205,
 		86
 	},
 	island_chara_invitename = {
-		1167297,
+		1167291,
 		117
 	},
 	island_chara_totalname = {
-		1167414,
+		1167408,
 		103
 	},
 	island_chara_totalname_en = {
-		1167517,
+		1167511,
 		97
 	},
 	island_chara_power = {
-		1167614,
+		1167608,
 		89
 	},
 	island_chara_attribute1 = {
-		1167703,
+		1167697,
 		92
 	},
 	island_chara_attribute2 = {
-		1167795,
+		1167789,
 		92
 	},
 	island_chara_attribute3 = {
-		1167887,
+		1167881,
 		92
 	},
 	island_chara_attribute4 = {
-		1167979,
+		1167973,
 		92
 	},
 	island_chara_attribute5 = {
-		1168071,
+		1168065,
 		92
 	},
 	island_chara_attribute6 = {
-		1168163,
+		1168157,
 		93
 	},
 	island_chara_skill_lock = {
-		1168256,
+		1168250,
 		115
 	},
 	island_chara_list = {
-		1168371,
+		1168365,
 		95
 	},
 	island_chara_list_filter = {
-		1168466,
+		1168460,
 		94
 	},
 	island_chara_list_sort = {
-		1168560,
+		1168554,
 		90
 	},
 	island_chara_list_level = {
-		1168650,
+		1168644,
 		99
 	},
 	island_chara_list_attribute = {
-		1168749,
+		1168743,
 		105
 	},
 	island_chara_list_workspeed = {
-		1168854,
+		1168848,
 		101
 	},
 	island_index_name = {
-		1168955,
+		1168949,
 		93
 	},
 	island_index_extra_all = {
-		1169048,
+		1169042,
 		95
 	},
 	island_index_potency = {
-		1169143,
+		1169137,
 		98
 	},
 	island_index_skill = {
-		1169241,
+		1169235,
 		98
 	},
 	island_index_status = {
-		1169339,
+		1169333,
 		89
 	},
 	island_confirm = {
-		1169428,
+		1169422,
 		86
 	},
 	island_cancel = {
-		1169514,
+		1169508,
 		83
 	},
 	island_chara_levelup = {
-		1169597,
+		1169591,
 		92
 	},
 	islland_chara_material_consum = {
-		1169689,
+		1169683,
 		106
 	},
 	island_chara_up_button = {
-		1169795,
+		1169789,
 		94
 	},
 	island_chara_now_rank = {
-		1169889,
+		1169883,
 		97
 	},
 	island_chara_breakout = {
-		1169986,
+		1169980,
 		92
 	},
 	island_chara_skill_tip = {
-		1170078,
+		1170072,
 		99
 	},
 	island_chara_consum = {
-		1170177,
+		1170171,
 		88
 	},
 	island_chara_breakout_button = {
-		1170265,
+		1170259,
 		99
 	},
 	island_chara_breakout_down = {
-		1170364,
+		1170358,
 		98
 	},
 	island_chara_level_limit = {
-		1170462,
+		1170456,
 		97
 	},
 	island_chara_power_limit = {
-		1170559,
+		1170553,
 		99
 	},
 	island_click_to_close = {
-		1170658,
+		1170652,
 		98
 	},
 	island_chara_skill_unlock = {
-		1170756,
+		1170750,
 		103
 	},
 	island_chara_attribute_develop = {
-		1170859,
+		1170853,
 		107
 	},
 	island_chara_choose_attribute = {
-		1170966,
+		1170960,
 		115
 	},
 	island_chara_rating_up = {
-		1171081,
+		1171075,
 		99
 	},
 	island_chara_limit_up = {
-		1171180,
+		1171174,
 		96
 	},
 	island_chara_ceiling_unlock = {
-		1171276,
+		1171270,
 		161
 	},
 	island_chara_choose_gift = {
-		1171437,
+		1171431,
 		106
 	},
 	island_chara_buff_better = {
-		1171543,
+		1171537,
 		142
 	},
 	island_chara_buff_nomal = {
-		1171685,
+		1171679,
 		135
 	},
 	island_chara_gift_power = {
-		1171820,
+		1171814,
 		107
 	},
 	island_visit_title = {
-		1171927,
+		1171921,
 		87
 	},
 	island_visit_friend = {
-		1172014,
+		1172008,
 		90
 	},
 	island_visit_teammate = {
-		1172104,
+		1172098,
 		90
 	},
 	island_visit_code = {
-		1172194,
+		1172188,
 		91
 	},
 	island_visit_search = {
-		1172285,
+		1172279,
 		89
 	},
 	island_visit_whitelist = {
-		1172374,
+		1172368,
 		95
 	},
 	island_visit_balcklist = {
-		1172469,
+		1172463,
 		95
 	},
 	island_visit_set = {
-		1172564,
+		1172558,
 		88
 	},
 	island_visit_delete = {
-		1172652,
+		1172646,
 		89
 	},
 	island_visit_more = {
-		1172741,
+		1172735,
 		85
 	},
 	island_visit_code_title = {
-		1172826,
+		1172820,
 		97
 	},
 	island_visit_code_input = {
-		1172923,
+		1172917,
 		97
 	},
 	island_visit_code_like = {
-		1173020,
+		1173014,
 		101
 	},
 	island_visit_code_likelist = {
-		1173121,
+		1173115,
 		104
 	},
 	island_visit_code_remove = {
-		1173225,
+		1173219,
 		94
 	},
 	island_visit_code_copy = {
-		1173319,
+		1173313,
 		90
 	},
 	island_visit_search_mineid = {
-		1173409,
+		1173403,
 		93
 	},
 	island_visit_search_input = {
-		1173502,
+		1173496,
 		105
 	},
 	island_visit_whitelist_tip = {
-		1173607,
+		1173601,
 		153
 	},
 	island_visit_balcklist_tip = {
-		1173760,
+		1173754,
 		152
 	},
 	island_visit_set_title = {
-		1173912,
+		1173906,
 		107
 	},
 	island_visit_set_tip = {
-		1174019,
+		1174013,
 		110
 	},
 	island_visit_set_refresh = {
-		1174129,
+		1174123,
 		95
 	},
 	island_visit_set_close = {
-		1174224,
+		1174218,
 		110
 	},
 	island_visit_set_help = {
-		1174334,
+		1174328,
 		405
 	},
 	island_visitor_button = {
-		1174739,
+		1174733,
 		90
 	},
 	island_visitor_status = {
-		1174829,
+		1174823,
 		93
 	},
 	island_visitor_record = {
-		1174922,
+		1174916,
 		94
 	},
 	island_visitor_num = {
-		1175016,
+		1175010,
 		88
 	},
 	island_visitor_kick = {
-		1175104,
+		1175098,
 		87
 	},
 	island_visitor_kickall = {
-		1175191,
+		1175185,
 		94
 	},
 	island_visitor_close = {
-		1175285,
+		1175279,
 		99
 	},
 	island_lineup_tip = {
-		1175384,
+		1175378,
 		155
 	},
 	island_lineup_button = {
-		1175539,
+		1175533,
 		96
 	},
 	island_visit_tip1 = {
-		1175635,
+		1175629,
 		101
 	},
 	island_visit_tip2 = {
-		1175736,
+		1175730,
 		117
 	},
 	island_visit_tip3 = {
-		1175853,
+		1175847,
 		108
 	},
 	island_visit_tip4 = {
-		1175961,
+		1175955,
 		113
 	},
 	island_visit_tip5 = {
-		1176074,
+		1176068,
 		99
 	},
 	island_visit_tip6 = {
-		1176173,
+		1176167,
 		102
 	},
 	island_visit_tip7 = {
-		1176275,
+		1176269,
 		120
 	},
 	island_season_help = {
-		1176395,
+		1176389,
 		972
 	},
 	island_season_title = {
-		1177367,
+		1177361,
 		89
 	},
 	island_season_pt_hold = {
-		1177456,
+		1177450,
 		93
 	},
 	island_season_pt_collectall = {
-		1177549,
+		1177543,
 		101
 	},
 	island_season_activity = {
-		1177650,
+		1177644,
 		91
 	},
 	island_season_pt = {
-		1177741,
+		1177735,
 		96
 	},
 	island_season_task = {
-		1177837,
+		1177831,
 		98
 	},
 	island_season_shop = {
-		1177935,
+		1177929,
 		86
 	},
 	island_season_charts = {
-		1178021,
+		1178015,
 		100
 	},
 	island_season_review = {
-		1178121,
+		1178115,
 		90
 	},
 	island_season_task_collect = {
-		1178211,
+		1178205,
 		95
 	},
 	island_season_task_collected = {
-		1178306,
+		1178300,
 		99
 	},
 	island_season_task_collectall = {
-		1178405,
+		1178399,
 		102
 	},
 	island_season_shop_stage1 = {
-		1178507,
+		1178501,
 		96
 	},
 	island_season_shop_stage2 = {
-		1178603,
+		1178597,
 		96
 	},
 	island_season_shop_stage3 = {
-		1178699,
+		1178693,
 		96
 	},
 	island_season_charts_ranking = {
-		1178795,
+		1178789,
 		108
 	},
 	island_season_charts_information = {
-		1178903,
+		1178897,
 		107
 	},
 	island_season_charts_pt = {
-		1179010,
+		1179004,
 		105
 	},
 	island_season_charts_award = {
-		1179115,
+		1179109,
 		105
 	},
 	island_season_charts_level = {
-		1179220,
+		1179214,
 		107
 	},
 	island_season_charts_refresh = {
-		1179327,
+		1179321,
 		144
 	},
 	island_season_charts_out = {
-		1179471,
+		1179465,
 		99
 	},
 	island_season_review_lv = {
-		1179570,
+		1179564,
 		100
 	},
 	island_season_review_charnum = {
-		1179670,
+		1179664,
 		109
 	},
 	island_season_review_projuctnum = {
-		1179779,
+		1179773,
 		109
 	},
 	island_season_review_titleone = {
-		1179888,
+		1179882,
 		99
 	},
 	island_season_review_ptnum = {
-		1179987,
+		1179981,
 		93
 	},
 	island_season_review_ptrank = {
-		1180080,
+		1180074,
 		107
 	},
 	island_season_review_produce = {
-		1180187,
+		1180181,
 		113
 	},
 	island_season_review_ordernum = {
-		1180300,
+		1180294,
 		104
 	},
 	island_season_review_formulanum = {
-		1180404,
+		1180398,
 		103
 	},
 	island_season_review_relax = {
-		1180507,
+		1180501,
 		101
 	},
 	island_season_review_fishnum = {
-		1180608,
+		1180602,
 		100
 	},
 	island_season_review_gamenum = {
-		1180708,
+		1180702,
 		106
 	},
 	island_season_review_achi = {
-		1180814,
+		1180808,
 		100
 	},
 	island_season_review_achinum = {
-		1180914,
+		1180908,
 		100
 	},
 	island_season_review_guidenum = {
-		1181014,
+		1181008,
 		107
 	},
 	island_season_review_blank = {
-		1181121,
+		1181115,
 		121
 	},
 	island_season_window_end = {
-		1181242,
+		1181236,
 		113
 	},
 	island_season_window_end2 = {
-		1181355,
+		1181349,
 		114
 	},
 	island_season_window_rule = {
-		1181469,
+		1181463,
 		813
 	},
 	island_season_window_transformtip = {
-		1182282,
+		1182276,
 		142
 	},
 	island_season_window_pt = {
-		1182424,
+		1182418,
 		127
 	},
 	island_season_window_ranking = {
-		1182551,
+		1182545,
 		105
 	},
 	island_season_window_award = {
-		1182656,
+		1182650,
 		105
 	},
 	island_season_window_out = {
-		1182761,
+		1182755,
 		98
 	},
 	island_season_review_miss = {
-		1182859,
+		1182853,
 		134
 	},
 	island_season_reset = {
-		1182993,
+		1182987,
 		109
 	},
 	island_help_ship_order = {
-		1183102,
+		1183096,
 		568
 	},
 	island_help_farm = {
-		1183670,
+		1183664,
 		295
 	},
 	island_help_commission = {
-		1183965,
+		1183959,
 		503
 	},
 	island_help_cafe_minigame = {
-		1184468,
+		1184462,
 		313
 	},
 	island_help_signin = {
-		1184781,
+		1184775,
 		361
 	},
 	island_help_ranch = {
-		1185142,
+		1185136,
 		358
 	},
 	island_help_manage = {
-		1185500,
+		1185494,
 		544
 	},
 	island_help_combo = {
-		1186044,
+		1186038,
 		358
 	},
 	island_help_friends = {
-		1186402,
+		1186396,
 		364
 	},
 	island_help_season = {
-		1186766,
+		1186760,
 		544
 	},
 	island_help_archive = {
-		1187310,
+		1187304,
 		302
 	},
 	island_help_renovation = {
-		1187612,
+		1187606,
 		373
 	},
 	island_help_photo = {
-		1187985,
+		1187979,
 		298
 	},
 	island_help_greet = {
-		1188283,
+		1188277,
 		358
 	},
 	island_help_character_info = {
-		1188641,
+		1188635,
 		454
 	},
 	island_help_fish = {
-		1189095,
+		1189089,
 		414
 	},
 	island_help_bar = {
-		1189509,
+		1189503,
 		468
 	},
 	island_skin_original_desc = {
-		1189977,
+		1189971,
 		96
 	},
 	island_dress_no_item = {
-		1190073,
+		1190067,
 		118
 	},
 	island_agora_deco_empty = {
-		1190191,
+		1190185,
 		97
 	},
 	island_agora_pos_unavailability = {
-		1190288,
+		1190282,
 		109
 	},
 	island_agora_max_capacity = {
-		1190397,
+		1190391,
 		113
 	},
 	island_agora_label_base = {
-		1190510,
+		1190504,
 		94
 	},
 	island_agora_label_building = {
-		1190604,
+		1190598,
 		95
 	},
 	island_agora_label_furniture = {
-		1190699,
+		1190693,
 		103
 	},
 	island_agora_label_dec = {
-		1190802,
+		1190796,
 		97
 	},
 	island_agora_label_floor = {
-		1190899,
+		1190893,
 		94
 	},
 	island_agora_label_tile = {
-		1190993,
+		1190987,
 		104
 	},
 	island_agora_label_collection = {
-		1191097,
+		1191091,
 		103
 	},
 	island_agora_label_default = {
-		1191200,
+		1191194,
 		97
 	},
 	island_agora_label_rarity = {
-		1191297,
+		1191291,
 		95
 	},
 	island_agora_label_gettime = {
-		1191392,
+		1191386,
 		103
 	},
 	island_agora_label_capacity = {
-		1191495,
+		1191489,
 		99
 	},
 	island_agora_capacity = {
-		1191594,
+		1191588,
 		100
 	},
 	island_agora_furniure_preview = {
-		1191694,
+		1191688,
 		100
 	},
 	island_agora_function_unuse = {
-		1191794,
+		1191788,
 		131
 	},
 	island_agora_signIn_tip = {
-		1191925,
+		1191919,
 		146
 	},
 	island_agora_working = {
-		1192071,
+		1192065,
 		109
 	},
 	island_agora_using = {
-		1192180,
+		1192174,
 		88
 	},
 	island_agora_save_theme = {
-		1192268,
+		1192262,
 		97
 	},
 	island_agora_btn_label_clear = {
-		1192365,
+		1192359,
 		97
 	},
 	island_agora_btn_label_revert = {
-		1192462,
+		1192456,
 		98
 	},
 	island_agora_btn_label_save = {
-		1192560,
+		1192554,
 		95
 	},
 	island_agora_title = {
-		1192655,
+		1192649,
 		101
 	},
 	island_agora_label_search = {
-		1192756,
+		1192750,
 		102
 	},
 	island_agora_label_theme = {
-		1192858,
+		1192852,
 		93
 	},
 	island_agora_label_empty_tip = {
-		1192951,
+		1192945,
 		127
 	},
 	island_agora_clear_tip = {
-		1193078,
+		1193072,
 		127
 	},
 	island_agora_revert_tip = {
-		1193205,
+		1193199,
 		120
 	},
 	island_agora_save_or_exit_tip = {
-		1193325,
+		1193319,
 		137
 	},
 	island_agora_exit_and_unsave = {
-		1193462,
+		1193456,
 		104
 	},
 	island_agora_exit_and_save = {
-		1193566,
+		1193560,
 		102
 	},
 	island_agora_no_pos_place = {
-		1193668,
+		1193662,
 		121
 	},
 	island_agora_pave_tip = {
-		1193789,
+		1193783,
 		110
 	},
 	island_enter_island_ban = {
-		1193899,
+		1193893,
 		103
 	},
 	island_order_not_get_award = {
-		1194002,
+		1193996,
 		113
 	},
 	island_order_cant_replace = {
-		1194115,
+		1194109,
 		113
 	},
 	island_rename_tip = {
-		1194228,
+		1194222,
 		134
 	},
 	island_rename_confirm = {
-		1194362,
+		1194356,
 		126
 	},
 	island_bag_max_level = {
-		1194488,
+		1194482,
 		102
 	},
 	island_bag_uprade_success = {
-		1194590,
+		1194584,
 		105
 	},
 	island_agora_save_success = {
-		1194695,
+		1194689,
 		108
 	},
 	island_agora_max_level = {
-		1194803,
+		1194797,
 		104
 	},
 	island_white_list_full = {
-		1194907,
+		1194901,
 		109
 	},
 	island_black_list_full = {
-		1195016,
+		1195010,
 		109
 	},
 	island_inviteCode_refresh = {
-		1195125,
+		1195119,
 		131
 	},
 	island_give_gift_success = {
-		1195256,
+		1195250,
 		99
 	},
 	island_get_git_tip = {
-		1195355,
+		1195349,
 		127
 	},
 	island_get_git_cnt_tip = {
-		1195482,
+		1195476,
 		118
 	},
 	island_share_gift_success = {
-		1195600,
+		1195594,
 		102
 	},
 	island_invitation_gift_success = {
-		1195702,
+		1195696,
 		138
 	},
 	island_dectect_mode3x3 = {
-		1195840,
+		1195834,
 		105
 	},
 	island_dectect_mode1x1 = {
-		1195945,
+		1195939,
 		108
 	},
 	island_ship_buff_cover = {
-		1196053,
+		1196047,
 		161
 	},
 	island_ship_buff_cover_1 = {
-		1196214,
+		1196208,
 		163
 	},
 	island_ship_buff_cover_2 = {
-		1196377,
+		1196371,
 		154
 	},
 	island_ship_buff_cover_3 = {
-		1196531,
+		1196525,
 		154
 	},
 	island_log_visit = {
-		1196685,
+		1196679,
 		104
 	},
 	island_log_exit = {
-		1196789,
+		1196783,
 		100
 	},
 	island_log_gift = {
-		1196889,
+		1196883,
 		116
 	},
 	island_log_trade = {
-		1197005,
+		1196999,
 		111
 	},
 	island_item_type_res = {
-		1197116,
+		1197110,
 		93
 	},
 	island_item_type_consume = {
-		1197209,
+		1197203,
 		99
 	},
 	island_item_type_spe = {
-		1197308,
+		1197302,
 		91
 	},
 	island_ship_attrName_1 = {
-		1197399,
+		1197393,
 		91
 	},
 	island_ship_attrName_2 = {
-		1197490,
+		1197484,
 		91
 	},
 	island_ship_attrName_3 = {
-		1197581,
+		1197575,
 		91
 	},
 	island_ship_attrName_4 = {
-		1197672,
+		1197666,
 		91
 	},
 	island_ship_attrName_5 = {
-		1197763,
+		1197757,
 		91
 	},
 	island_ship_attrName_6 = {
-		1197854,
+		1197848,
 		92
 	},
 	island_task_title = {
-		1197946,
+		1197940,
 		97
 	},
 	island_task_title_en = {
-		1198043,
+		1198037,
 		92
 	},
 	island_task_type_1 = {
-		1198135,
+		1198129,
 		85
 	},
 	island_task_type_2 = {
-		1198220,
+		1198214,
 		100
 	},
 	island_task_type_3 = {
-		1198320,
+		1198314,
 		93
 	},
 	island_task_type_4 = {
-		1198413,
+		1198407,
 		87
 	},
 	island_task_type_5 = {
-		1198500,
+		1198494,
 		88
 	},
 	island_task_type_6 = {
-		1198588,
+		1198582,
 		87
 	},
 	island_tech_type_1 = {
-		1198675,
+		1198669,
 		97
 	},
 	island_default_name = {
-		1198772,
+		1198766,
 		94
 	},
 	island_order_type_1 = {
-		1198866,
+		1198860,
 		99
 	},
 	island_order_type_2 = {
-		1198965,
+		1198959,
 		98
 	},
 	island_order_desc_1 = {
-		1199063,
+		1199057,
 		148
 	},
 	island_order_desc_2 = {
-		1199211,
+		1199205,
 		172
 	},
 	island_order_desc_3 = {
-		1199383,
+		1199377,
 		173
 	},
 	island_order_difficulty_1 = {
-		1199556,
+		1199550,
 		95
 	},
 	island_order_difficulty_2 = {
-		1199651,
+		1199645,
 		93
 	},
 	island_order_difficulty_3 = {
-		1199744,
+		1199738,
 		93
 	},
 	island_commander = {
-		1199837,
+		1199831,
 		89
 	},
 	island_task_lefttime = {
-		1199926,
+		1199920,
 		105
 	},
 	island_seek_game_tip = {
-		1200031,
+		1200025,
 		117
 	},
 	island_item_transfer = {
-		1200148,
+		1200142,
 		120
 	},
 	island_set_manifesto_success = {
-		1200268,
+		1200262,
 		105
 	},
 	island_prosperity_level = {
-		1200373,
+		1200367,
 		96
 	},
 	island_toast_status = {
-		1200469,
+		1200463,
 		107
 	},
 	island_toast_level = {
-		1200576,
+		1200570,
 		106
 	},
 	island_toast_ship = {
-		1200682,
+		1200676,
 		107
 	},
 	island_lock_map_tip = {
-		1200789,
+		1200783,
 		116
 	},
 	island_home_btn_cant_use = {
-		1200905,
+		1200899,
 		127
 	},
 	island_item_overflow = {
-		1201032,
+		1201026,
 		98
 	},
 	island_item_no_capacity = {
-		1201130,
+		1201124,
 		104
 	},
 	island_ship_no_energy = {
-		1201234,
+		1201228,
 		94
 	},
 	island_ship_working = {
-		1201328,
+		1201322,
 		91
 	},
 	island_ship_level_limit = {
-		1201419,
+		1201413,
 		98
 	},
 	island_ship_energy_limit = {
-		1201517,
+		1201511,
 		97
 	},
 	island_click_close = {
-		1201614,
+		1201608,
 		94
 	},
 	island_break_finish = {
-		1201708,
+		1201702,
 		116
 	},
 	island_unlock_skill = {
-		1201824,
+		1201818,
 		122
 	},
 	island_ship_title_info = {
-		1201946,
+		1201940,
 		100
 	},
 	island_building_title_info = {
-		1202046,
+		1202040,
 		102
 	},
 	island_word_effect = {
-		1202148,
+		1202142,
 		89
 	},
 	island_word_dispatch = {
-		1202237,
+		1202231,
 		95
 	},
 	island_word_working = {
-		1202332,
+		1202326,
 		90
 	},
 	island_word_stop_work = {
-		1202422,
+		1202416,
 		97
 	},
 	island_level_to_unlock = {
-		1202519,
+		1202513,
 		113
 	},
 	island_select_product = {
-		1202632,
+		1202626,
 		99
 	},
 	island_sub_product_cnt = {
-		1202731,
+		1202725,
 		102
 	},
 	island_make_unlock_tip = {
-		1202833,
+		1202827,
 		109
 	},
 	island_need_star = {
-		1202942,
+		1202936,
 		109
 	},
 	island_need_star_1 = {
-		1203051,
+		1203045,
 		105
 	},
 	island_select_ship = {
-		1203156,
+		1203150,
 		98
 	},
 	island_select_ship_label_1 = {
-		1203254,
+		1203248,
 		99
 	},
 	island_select_ship_overview = {
-		1203353,
+		1203347,
 		100
 	},
 	island_select_ship_tip = {
-		1203453,
+		1203447,
 		417
 	},
 	island_friend = {
-		1203870,
+		1203864,
 		84
 	},
 	island_guild = {
-		1203954,
+		1203948,
 		81
 	},
 	island_code = {
-		1204035,
+		1204029,
 		85
 	},
 	island_search = {
-		1204120,
+		1204114,
 		83
 	},
 	island_whiteList = {
-		1204203,
+		1204197,
 		89
 	},
 	island_add_friend = {
-		1204292,
+		1204286,
 		84
 	},
 	island_blackList = {
-		1204376,
+		1204370,
 		89
 	},
 	island_settings = {
-		1204465,
+		1204459,
 		87
 	},
 	island_settings_en = {
-		1204552,
+		1204546,
 		90
 	},
 	island_btn_label_visit = {
-		1204642,
+		1204636,
 		91
 	},
 	island_git_cnt_tip = {
-		1204733,
+		1204727,
 		99
 	},
 	island_public_invitation = {
-		1204832,
+		1204826,
 		101
 	},
 	island_onekey_invitation = {
-		1204933,
+		1204927,
 		98
 	},
 	island_public_invitation_1 = {
-		1205031,
+		1205025,
 		112
 	},
 	island_curr_visitor = {
-		1205143,
+		1205137,
 		91
 	},
 	island_visitor_log = {
-		1205234,
+		1205228,
 		91
 	},
 	island_kick_all = {
-		1205325,
+		1205319,
 		87
 	},
 	island_close_visit = {
-		1205412,
+		1205406,
 		94
 	},
 	island_curr_people_cnt = {
-		1205506,
+		1205500,
 		95
 	},
 	island_close_access_state = {
-		1205601,
+		1205595,
 		117
 	},
 	island_btn_label_remove = {
-		1205718,
+		1205712,
 		93
 	},
 	island_btn_label_del = {
-		1205811,
+		1205805,
 		90
 	},
 	island_btn_label_copy = {
-		1205901,
+		1205895,
 		89
 	},
 	island_btn_label_more = {
-		1205990,
+		1205984,
 		90
 	},
 	island_btn_label_invitation = {
-		1206080,
+		1206074,
 		97
 	},
 	island_btn_label_invitation_already = {
-		1206177,
+		1206171,
 		106
 	},
 	island_btn_label_online = {
-		1206283,
+		1206277,
 		96
 	},
 	island_btn_label_kick = {
-		1206379,
+		1206373,
 		89
 	},
 	island_btn_label_location = {
-		1206468,
+		1206462,
 		107
 	},
 	island_black_list_tip = {
-		1206575,
+		1206569,
 		128
 	},
 	island_white_list_tip = {
-		1206703,
+		1206697,
 		162
 	},
 	island_input_code_tip = {
-		1206865,
+		1206859,
 		95
 	},
 	island_input_code_tip_1 = {
-		1206960,
+		1206954,
 		97
 	},
 	island_set_like = {
-		1207057,
+		1207051,
 		94
 	},
 	island_input_code_erro = {
-		1207151,
+		1207145,
 		106
 	},
 	island_code_exist = {
-		1207257,
+		1207251,
 		106
 	},
 	island_like_title = {
-		1207363,
+		1207357,
 		95
 	},
 	island_my_id = {
-		1207458,
+		1207452,
 		85
 	},
 	island_input_my_id = {
-		1207543,
+		1207537,
 		98
 	},
 	island_open_settings = {
-		1207641,
+		1207635,
 		105
 	},
 	island_open_settings_tip1 = {
-		1207746,
+		1207740,
 		134
 	},
 	island_open_settings_tip2 = {
-		1207880,
+		1207874,
 		113
 	},
 	island_open_settings_tip3 = {
-		1207993,
+		1207987,
 		409
 	},
 	island_code_refresh_cnt = {
-		1208402,
+		1208396,
 		103
 	},
 	island_word_sort = {
-		1208505,
+		1208499,
 		84
 	},
 	island_word_reset = {
-		1208589,
+		1208583,
 		86
 	},
 	island_bag_title = {
-		1208675,
+		1208669,
 		89
 	},
 	island_batch_covert = {
-		1208764,
+		1208758,
 		96
 	},
 	island_total_price = {
-		1208860,
+		1208854,
 		94
 	},
 	island_word_temp = {
-		1208954,
+		1208948,
 		89
 	},
 	island_word_desc = {
-		1209043,
+		1209037,
 		87
 	},
 	island_open_ship_tip = {
-		1209130,
+		1209124,
 		132
 	},
 	island_bag_upgrade_tip = {
-		1209262,
+		1209256,
 		111
 	},
 	island_bag_upgrade_req = {
-		1209373,
+		1209367,
 		102
 	},
 	island_bag_upgrade_max_level = {
-		1209475,
+		1209469,
 		110
 	},
 	island_bag_upgrade_capacity = {
-		1209585,
+		1209579,
 		118
 	},
 	island_rename_title = {
-		1209703,
+		1209697,
 		96
 	},
 	island_rename_input_tip = {
-		1209799,
+		1209793,
 		104
 	},
 	island_rename_consutme_tip = {
-		1209903,
+		1209897,
 		137
 	},
 	island_upgrade_preview = {
-		1210040,
+		1210034,
 		102
 	},
 	island_upgrade_exp = {
-		1210142,
+		1210136,
 		97
 	},
 	island_upgrade_res = {
-		1210239,
+		1210233,
 		98
 	},
 	island_word_award = {
-		1210337,
+		1210331,
 		88
 	},
 	island_word_unlock = {
-		1210425,
+		1210419,
 		88
 	},
 	island_word_get = {
-		1210513,
+		1210507,
 		85
 	},
 	island_prosperity_level_display = {
-		1210598,
+		1210592,
 		121
 	},
 	island_prosperity_value_display = {
-		1210719,
+		1210713,
 		115
 	},
 	island_rename_subtitle = {
-		1210834,
+		1210828,
 		97
 	},
 	island_manage_title = {
-		1210931,
+		1210925,
 		99
 	},
 	island_manage_sp_event = {
-		1211030,
+		1211024,
 		100
 	},
 	island_manage_no_work = {
-		1211130,
+		1211124,
 		92
 	},
 	island_manage_end_work = {
-		1211222,
+		1211216,
 		95
 	},
 	island_manage_view = {
-		1211317,
+		1211311,
 		89
 	},
 	island_manage_result = {
-		1211406,
+		1211400,
 		96
 	},
 	island_manage_prepare = {
-		1211502,
+		1211496,
 		95
 	},
 	island_manage_daily_cnt_tip = {
-		1211597,
+		1211591,
 		99
 	},
 	island_manage_produce_tip = {
-		1211696,
+		1211690,
 		120
 	},
 	island_manage_sel_worker = {
-		1211816,
+		1211810,
 		100
 	},
 	island_manage_upgrade_worker_level = {
-		1211916,
+		1211910,
 		128
 	},
 	island_manage_saleroom = {
-		1212044,
+		1212038,
 		91
 	},
 	island_manage_capacity = {
-		1212135,
+		1212129,
 		101
 	},
 	island_manage_skill_cant_use = {
-		1212236,
+		1212230,
 		111
 	},
 	island_manage_predict_saleroom = {
-		1212347,
+		1212341,
 		109
 	},
 	island_manage_cnt = {
-		1212456,
+		1212450,
 		88
 	},
 	island_manage_addition = {
-		1212544,
+		1212538,
 		95
 	},
 	island_manage_no_addition = {
-		1212639,
+		1212633,
 		108
 	},
 	island_manage_auto_work = {
-		1212747,
+		1212741,
 		98
 	},
 	island_manage_start_work = {
-		1212845,
+		1212839,
 		98
 	},
 	island_manage_working = {
-		1212943,
+		1212937,
 		92
 	},
 	island_manage_end_daily_work = {
-		1213035,
+		1213029,
 		100
 	},
 	island_manage_attr_effect = {
-		1213135,
+		1213129,
 		105
 	},
 	island_manage_need_ext = {
-		1213240,
+		1213234,
 		96
 	},
 	island_manage_reach = {
-		1213336,
+		1213330,
 		92
 	},
 	island_manage_slot = {
-		1213428,
+		1213422,
 		92
 	},
 	island_manage_food_cnt = {
-		1213520,
+		1213514,
 		99
 	},
 	island_manage_sale_ratio = {
-		1213619,
+		1213613,
 		98
 	},
 	island_manage_worker_cnt = {
-		1213717,
+		1213711,
 		93
 	},
 	island_manage_sale_daily = {
-		1213810,
+		1213804,
 		99
 	},
 	island_manage_fake_price = {
-		1213909,
+		1213903,
 		98
 	},
 	island_manage_real_price = {
-		1214007,
+		1214001,
 		98
 	},
 	island_manage_result_1 = {
-		1214105,
+		1214099,
 		97
 	},
 	island_manage_result_3 = {
-		1214202,
+		1214196,
 		99
 	},
 	island_manage_word_cnt = {
-		1214301,
+		1214295,
 		91
 	},
 	island_manage_shop_exp = {
-		1214392,
+		1214386,
 		95
 	},
 	island_manage_help_tip = {
-		1214487,
+		1214481,
 		417
 	},
 	island_manage_buff_tip = {
-		1214904,
+		1214898,
 		190
 	},
 	island_word_go = {
-		1215094,
+		1215088,
 		86
 	},
 	island_map_title = {
-		1215180,
+		1215174,
 		90
 	},
 	island_label_furniture = {
-		1215270,
+		1215264,
 		95
 	},
 	island_label_furniture_cnt = {
-		1215365,
+		1215359,
 		96
 	},
 	island_label_furniture_capacity = {
-		1215461,
+		1215455,
 		110
 	},
 	island_label_furniture_tip = {
-		1215571,
+		1215565,
 		173
 	},
 	island_label_furniture_capacity_display = {
-		1215744,
+		1215738,
 		124
 	},
 	island_label_furniture_exit = {
-		1215868,
+		1215862,
 		97
 	},
 	island_label_furniture_save = {
-		1215965,
+		1215959,
 		101
 	},
 	island_label_furniture_save_tip = {
-		1216066,
+		1216060,
 		113
 	},
 	island_agora_extend = {
-		1216179,
+		1216173,
 		89
 	},
 	island_agora_extend_consume = {
-		1216268,
+		1216262,
 		110
 	},
 	island_agora_extend_capacity = {
-		1216378,
+		1216372,
 		106
 	},
 	island_msg_info = {
-		1216484,
+		1216478,
 		83
 	},
 	island_get_way = {
-		1216567,
+		1216561,
 		88
 	},
 	island_own_cnt = {
-		1216655,
+		1216649,
 		84
 	},
 	island_word_convert = {
-		1216739,
+		1216733,
 		90
 	},
 	island_no_remind_today = {
-		1216829,
+		1216823,
 		108
 	},
 	island_input_theme_name = {
-		1216937,
+		1216931,
 		103
 	},
 	island_custom_theme_name = {
-		1217040,
+		1217034,
 		103
 	},
 	island_custom_theme_name_tip = {
-		1217143,
+		1217137,
 		120
 	},
 	island_skill_desc = {
-		1217263,
+		1217257,
 		94
 	},
 	island_word_place = {
-		1217357,
+		1217351,
 		86
 	},
 	island_word_turndown = {
-		1217443,
+		1217437,
 		91
 	},
 	island_word_sbumit = {
-		1217534,
+		1217528,
 		88
 	},
 	island_word_speedup = {
-		1217622,
+		1217616,
 		91
 	},
 	island_order_cd_tip = {
-		1217713,
+		1217707,
 		123
 	},
 	island_order_leftcnt_dispaly = {
-		1217836,
+		1217830,
 		123
 	},
 	island_order_title = {
-		1217959,
+		1217953,
 		94
 	},
 	island_order_difficulty = {
-		1218053,
+		1218047,
 		105
 	},
 	island_order_leftCnt_tip = {
-		1218158,
+		1218152,
 		108
 	},
 	island_order_get_label = {
-		1218266,
+		1218260,
 		99
 	},
 	island_order_ship_working = {
-		1218365,
+		1218359,
 		104
 	},
 	island_order_ship_end_work = {
-		1218469,
+		1218463,
 		101
 	},
 	island_order_ship_worktime = {
-		1218570,
+		1218564,
 		108
 	},
 	island_order_ship_unlock_tip = {
-		1218678,
+		1218672,
 		123
 	},
 	island_order_ship_unlock_tip_2 = {
-		1218801,
+		1218795,
 		101
 	},
 	island_order_ship_loadup_award = {
-		1218902,
+		1218896,
 		110
 	},
 	island_order_ship_loadup = {
-		1219012,
+		1219006,
 		94
 	},
 	island_order_ship_loadup_nores = {
-		1219106,
+		1219100,
 		115
 	},
 	island_order_ship_page_req = {
-		1219221,
+		1219215,
 		102
 	},
 	island_order_ship_page_award = {
-		1219323,
+		1219317,
 		104
 	},
 	island_cancel_queue = {
-		1219427,
+		1219421,
 		95
 	},
 	island_queue_display = {
-		1219522,
+		1219516,
 		169
 	},
 	island_season_label = {
-		1219691,
+		1219685,
 		92
 	},
 	island_first_season = {
-		1219783,
+		1219777,
 		91
 	},
 	island_word_own = {
-		1219874,
+		1219868,
 		88
 	},
 	island_ship_title1 = {
-		1219962,
+		1219956,
 		95
 	},
 	island_ship_title2 = {
-		1220057,
+		1220051,
 		95
 	},
 	island_ship_title3 = {
-		1220152,
+		1220146,
 		93
 	},
 	island_ship_title4 = {
-		1220245,
+		1220239,
 		98
 	},
 	island_ship_lock_attr_tip = {
-		1220343,
+		1220337,
 		111
 	},
 	island_ship_unlock_limit_tip = {
-		1220454,
+		1220448,
 		162
 	},
 	island_ship_breakout = {
-		1220616,
+		1220610,
 		91
 	},
 	island_ship_breakout_consume = {
-		1220707,
+		1220701,
 		97
 	},
 	island_ship_newskill_unlock = {
-		1220804,
+		1220798,
 		104
 	},
 	island_word_give = {
-		1220908,
+		1220902,
 		89
 	},
 	island_unlock_ship_skill_color = {
-		1220997,
+		1220991,
 		133
 	},
 	island_dressup_tip = {
-		1221130,
+		1221124,
 		144
 	},
 	island_dressup_titile = {
-		1221274,
+		1221268,
 		92
 	},
 	island_dressup_tip_1 = {
-		1221366,
+		1221360,
 		151
 	},
 	island_ship_energy = {
-		1221517,
+		1221511,
 		90
 	},
 	island_ship_energy_full = {
-		1221607,
+		1221601,
 		102
 	},
 	island_ship_energy_recoverytips = {
-		1221709,
+		1221703,
 		110
 	},
 	island_word_ship_buff_desc = {
-		1221819,
+		1221813,
 		97
 	},
 	island_word_ship_desc = {
-		1221916,
+		1221910,
 		102
 	},
 	island_need_ship_level = {
-		1222018,
+		1222012,
 		113
 	},
 	island_skill_consume_title = {
-		1222131,
+		1222125,
 		103
 	},
 	island_select_ship_gift = {
-		1222234,
+		1222228,
 		100
 	},
 	island_word_ship_enengy_recover = {
-		1222334,
+		1222328,
 		111
 	},
 	island_word_ship_level_upgrade = {
-		1222445,
+		1222439,
 		102
 	},
 	island_word_ship_level_upgrade_1 = {
-		1222547,
+		1222541,
 		112
 	},
 	island_word_ship_rank = {
-		1222659,
+		1222653,
 		97
 	},
 	island_task_open = {
-		1222756,
+		1222750,
 		89
 	},
 	island_task_target = {
-		1222845,
+		1222839,
 		89
 	},
 	island_task_award = {
-		1222934,
+		1222928,
 		88
 	},
 	island_task_tracking = {
-		1223022,
+		1223016,
 		90
 	},
 	island_task_tracked = {
-		1223112,
+		1223106,
 		91
 	},
 	island_dev_level = {
-		1223203,
+		1223197,
 		97
 	},
 	island_dev_level_tip = {
-		1223300,
+		1223294,
 		194
 	},
 	island_invite_title = {
-		1223494,
+		1223488,
 		110
 	},
 	island_technology_title = {
-		1223604,
+		1223598,
 		106
 	},
 	island_tech_noauthority = {
-		1223710,
+		1223704,
 		107
 	},
 	island_tech_unlock_need = {
-		1223817,
+		1223811,
 		104
 	},
 	island_tech_unlock_dev = {
-		1223921,
+		1223915,
 		101
 	},
 	island_tech_dev_start = {
-		1224022,
+		1224016,
 		99
 	},
 	island_tech_dev_starting = {
-		1224121,
+		1224115,
 		99
 	},
 	island_tech_dev_success = {
-		1224220,
+		1224214,
 		104
 	},
 	island_tech_dev_finish = {
-		1224324,
+		1224318,
 		96
 	},
 	island_tech_dev_finish_1 = {
-		1224420,
+		1224414,
 		105
 	},
 	island_tech_dev_cost = {
-		1224525,
+		1224519,
 		97
 	},
 	island_tech_detail_desctitle = {
-		1224622,
+		1224616,
 		101
 	},
 	island_tech_detail_unlocktitle = {
-		1224723,
+		1224717,
 		111
 	},
 	island_tech_nodev = {
-		1224834,
+		1224828,
 		92
 	},
 	island_tech_can_get = {
-		1224926,
+		1224920,
 		92
 	},
 	island_get_item_tip = {
-		1225018,
+		1225012,
 		97
 	},
 	island_add_temp_bag = {
-		1225115,
+		1225109,
 		146
 	},
 	island_buff_lasttime = {
-		1225261,
+		1225255,
 		97
 	},
 	island_visit_off = {
-		1225358,
+		1225352,
 		83
 	},
 	island_visit_on = {
-		1225441,
+		1225435,
 		81
 	},
 	island_tech_unlock_tip = {
-		1225522,
+		1225516,
 		116
 	},
 	island_tech_unlock_tip0 = {
-		1225638,
+		1225632,
 		108
 	},
 	island_tech_unlock_tip1 = {
-		1225746,
+		1225740,
 		116
 	},
 	island_tech_unlock_tip2 = {
-		1225862,
+		1225856,
 		115
 	},
 	island_tech_unlock_tip3 = {
-		1225977,
+		1225971,
 		121
 	},
 	island_tech_no_slot = {
-		1226098,
+		1226092,
 		110
 	},
 	island_tech_lock = {
-		1226208,
+		1226202,
 		86
 	},
 	island_tech_empty = {
-		1226294,
+		1226288,
 		91
 	},
 	island_submit_order_cd_tip = {
-		1226385,
+		1226379,
 		112
 	},
 	island_friend_add = {
-		1226497,
+		1226491,
 		84
 	},
 	island_friend_agree = {
-		1226581,
+		1226575,
 		89
 	},
 	island_friend_refuse = {
-		1226670,
+		1226664,
 		90
 	},
 	island_friend_refuse_all = {
-		1226760,
+		1226754,
 		98
 	},
 	island_request = {
-		1226858,
+		1226852,
 		85
 	},
 	island_post_manage = {
-		1226943,
+		1226937,
 		92
 	},
 	island_post_produce = {
-		1227035,
+		1227029,
 		93
 	},
 	island_post_operate = {
-		1227128,
+		1227122,
 		93
 	},
 	island_post_acceptable = {
-		1227221,
+		1227215,
 		95
 	},
 	island_post_vacant = {
-		1227316,
+		1227310,
 		97
 	},
 	island_production_selected_character = {
-		1227413,
+		1227407,
 		106
 	},
 	island_production_collect = {
-		1227519,
+		1227513,
 		96
 	},
 	island_production_selected_item = {
-		1227615,
+		1227609,
 		110
 	},
 	island_production_byproduct = {
-		1227725,
+		1227719,
 		111
 	},
 	island_production_start = {
-		1227836,
+		1227830,
 		97
 	},
 	island_production_finish = {
-		1227933,
+		1227927,
 		101
 	},
 	island_production_additional = {
-		1228034,
+		1228028,
 		108
 	},
 	island_production_count = {
-		1228142,
+		1228136,
 		103
 	},
 	island_production_character_info = {
-		1228245,
+		1228239,
 		113
 	},
 	island_production_selected_tip1 = {
-		1228358,
+		1228352,
 		132
 	},
 	island_production_selected_tip2 = {
-		1228490,
+		1228484,
 		113
 	},
 	island_production_hold = {
-		1228603,
+		1228597,
 		95
 	},
 	island_production_log_recover = {
-		1228698,
+		1228692,
 		160
 	},
 	island_production_plantable = {
-		1228858,
+		1228852,
 		100
 	},
 	island_production_being_planted = {
-		1228958,
+		1228952,
 		122
 	},
 	island_production_cost_notenough = {
-		1229080,
+		1229074,
 		131
 	},
 	island_production_manually_cancel = {
-		1229211,
+		1229205,
 		183
 	},
 	island_production_harvestable = {
-		1229394,
+		1229388,
 		104
 	},
 	island_production_seeds_notenough = {
-		1229498,
+		1229492,
 		116
 	},
 	island_production_seeds_empty = {
-		1229614,
+		1229608,
 		141
 	},
 	island_production_tip = {
-		1229755,
+		1229749,
 		93
 	},
 	island_production_speed_addition1 = {
-		1229848,
+		1229842,
 		127
 	},
 	island_production_speed_addition2 = {
-		1229975,
+		1229969,
 		109
 	},
 	island_production_speed_addition3 = {
-		1230084,
+		1230078,
 		108
 	},
 	island_production_speed_tip1 = {
-		1230192,
+		1230186,
 		139
 	},
 	island_production_speed_tip2 = {
-		1230331,
+		1230325,
 		115
 	},
 	island_order_ship_page_onekey_loadup = {
-		1230446,
+		1230440,
 		126
 	},
 	agora_belong_theme = {
-		1230572,
+		1230566,
 		91
 	},
 	agora_belong_theme_none = {
-		1230663,
+		1230657,
 		95
 	},
 	island_achievement_title = {
-		1230758,
+		1230752,
 		107
 	},
 	island_achv_total = {
-		1230865,
+		1230859,
 		103
 	},
 	island_achv_finish_tip = {
-		1230968,
+		1230962,
 		113
 	},
 	island_card_edit_name = {
-		1231081,
+		1231075,
 		98
 	},
 	island_card_edit_word = {
-		1231179,
+		1231173,
 		100
 	},
 	island_card_default_word = {
-		1231279,
+		1231273,
 		126
 	},
 	island_card_view_detaills = {
-		1231405,
+		1231399,
 		105
 	},
 	island_card_close = {
-		1231510,
+		1231504,
 		93
 	},
 	island_card_choose_photo = {
-		1231603,
+		1231597,
 		111
 	},
 	island_card_word_title = {
-		1231714,
+		1231708,
 		101
 	},
 	island_card_label_list = {
-		1231815,
+		1231809,
 		104
 	},
 	island_card_choose_achievement = {
-		1231919,
+		1231913,
 		108
 	},
 	island_card_edit_label = {
-		1232027,
+		1232021,
 		101
 	},
 	island_card_choose_label = {
-		1232128,
+		1232122,
 		103
 	},
 	island_card_like_done = {
-		1232231,
+		1232225,
 		118
 	},
 	island_card_label_done = {
-		1232349,
+		1232343,
 		126
 	},
 	island_card_no_achv_self = {
-		1232475,
+		1232469,
 		101
 	},
 	island_card_no_achv_other = {
-		1232576,
+		1232570,
 		106
 	},
 	island_leave = {
-		1232682,
+		1232676,
 		82
 	},
 	island_repeat_vip = {
-		1232764,
+		1232758,
 		120
 	},
 	island_repeat_blacklist = {
-		1232884,
+		1232878,
 		126
 	},
 	island_chat_settings = {
-		1233010,
+		1233004,
 		97
 	},
 	island_card_no_label = {
-		1233107,
+		1233101,
 		91
 	},
 	ship_gift = {
-		1233198,
+		1233192,
 		78
 	},
 	ship_gift_cnt = {
-		1233276,
+		1233270,
 		84
 	},
 	ship_gift2 = {
-		1233360,
+		1233354,
 		78
 	},
 	shipyard_gift_exceed = {
-		1233438,
+		1233432,
 		151
 	},
 	shipyard_gift_non_existent = {
-		1233589,
+		1233583,
 		106
 	},
 	shipyard_favorability_exceed = {
-		1233695,
+		1233689,
 		144
 	},
 	shipyard_favorability_threshold = {
-		1233839,
+		1233833,
 		177
 	},
 	shipyard_favorability_max = {
-		1234016,
+		1234010,
 		121
 	},
 	island_activity_decorative_word = {
-		1234137,
+		1234131,
 		108
 	},
 	island_no_activity = {
-		1234245,
+		1234239,
 		101
 	},
 	island_spoperation_level_2509_1 = {
-		1234346,
+		1234340,
 		134
 	},
 	island_spoperation_tip_2509_1 = {
-		1234480,
+		1234474,
 		341
 	},
 	island_spoperation_tip_2509_2 = {
-		1234821,
+		1234815,
 		206
 	},
 	island_spoperation_tip_2509_3 = {
-		1235027,
+		1235021,
 		254
 	},
 	island_spoperation_btn_2509_1 = {
-		1235281,
+		1235275,
 		116
 	},
 	island_spoperation_btn_2509_2 = {
-		1235397,
+		1235391,
 		118
 	},
 	island_spoperation_btn_2509_3 = {
-		1235515,
+		1235509,
 		106
 	},
 	island_spoperation_item_2509_1 = {
-		1235621,
+		1235615,
 		114
 	},
 	island_spoperation_item_2509_2 = {
-		1235735,
+		1235729,
 		106
 	},
 	island_spoperation_item_2509_3 = {
-		1235841,
+		1235835,
 		101
 	},
 	island_spoperation_item_2509_4 = {
-		1235942,
+		1235936,
 		103
 	},
 	island_spoperation_tip_2602_1 = {
-		1236045,
+		1236039,
 		341
 	},
 	island_spoperation_tip_2602_2 = {
-		1236386,
+		1236380,
 		206
 	},
 	island_spoperation_tip_2602_3 = {
-		1236592,
+		1236586,
 		257
 	},
 	island_spoperation_btn_2602_1 = {
-		1236849,
+		1236843,
 		118
 	},
 	island_spoperation_btn_2602_2 = {
-		1236967,
+		1236961,
 		116
 	},
 	island_spoperation_btn_2602_3 = {
-		1237083,
+		1237077,
 		106
 	},
 	island_spoperation_item_2602_1 = {
-		1237189,
+		1237183,
 		114
 	},
 	island_spoperation_item_2602_2 = {
-		1237303,
+		1237297,
 		110
 	},
 	island_spoperation_item_2602_3 = {
-		1237413,
+		1237407,
 		108
 	},
 	island_spoperation_item_2602_4 = {
-		1237521,
+		1237515,
 		102
 	},
 	island_spoperation_tip_2605_1 = {
-		1237623,
+		1237617,
 		353
 	},
 	island_spoperation_tip_2605_2 = {
-		1237976,
+		1237970,
 		206
 	},
 	island_spoperation_tip_2605_3 = {
-		1238182,
+		1238176,
 		257
 	},
 	island_spoperation_btn_2605_1 = {
-		1238439,
+		1238433,
 		118
 	},
 	island_spoperation_btn_2605_2 = {
-		1238557,
+		1238551,
 		116
 	},
 	island_spoperation_btn_2605_3 = {
-		1238673,
+		1238667,
 		106
 	},
 	island_spoperation_item_2605_1 = {
-		1238779,
+		1238773,
 		101
 	},
 	island_spoperation_item_2605_2 = {
-		1238880,
+		1238874,
 		103
 	},
 	island_spoperation_item_2605_3 = {
-		1238983,
+		1238977,
 		104
 	},
 	island_spoperation_item_2605_4 = {
-		1239087,
+		1239081,
 		109
 	},
 	island_follow_success = {
-		1239196,
+		1239190,
 		93
 	},
 	island_cancel_follow_success = {
-		1239289,
+		1239283,
 		100
 	},
 	island_follower_cnt_max = {
-		1239389,
+		1239383,
 		122
 	},
 	island_cancel_follow_tip = {
-		1239511,
+		1239505,
 		141
 	},
 	island_follower_state_no_normal = {
-		1239652,
+		1239646,
 		124
 	},
 	island_follow_btn_State_usable = {
-		1239776,
+		1239770,
 		108
 	},
 	island_follow_btn_State_cancel = {
-		1239884,
+		1239878,
 		102
 	},
 	island_follow_btn_State_disable = {
-		1239986,
+		1239980,
 		99
 	},
 	island_draw_tab = {
-		1240085,
+		1240079,
 		97
 	},
 	island_draw_tab_en = {
-		1240182,
+		1240176,
 		100
 	},
 	island_draw_last = {
-		1240282,
+		1240276,
 		90
 	},
 	island_draw_null = {
-		1240372,
+		1240366,
 		88
 	},
 	island_draw_num = {
-		1240460,
+		1240454,
 		84
 	},
 	island_draw_lottery = {
-		1240544,
+		1240538,
 		87
 	},
 	island_draw_pick = {
-		1240631,
+		1240625,
 		87
 	},
 	island_draw_reward = {
-		1240718,
+		1240712,
 		94
 	},
 	island_draw_time = {
-		1240812,
+		1240806,
 		94
 	},
 	island_draw_time_1 = {
-		1240906,
+		1240900,
 		93
 	},
 	island_draw_S_order_title = {
-		1240999,
+		1240993,
 		102
 	},
 	island_draw_S_order = {
-		1241101,
+		1241095,
 		118
 	},
 	island_draw_S = {
-		1241219,
+		1241213,
 		84
 	},
 	island_draw_A = {
-		1241303,
+		1241297,
 		84
 	},
 	island_draw_B = {
-		1241387,
+		1241381,
 		84
 	},
 	island_draw_C = {
-		1241471,
+		1241465,
 		84
 	},
 	island_draw_get = {
-		1241555,
+		1241549,
 		87
 	},
 	island_draw_ready = {
-		1241642,
+		1241636,
 		123
 	},
 	island_draw_float = {
-		1241765,
+		1241759,
 		100
 	},
 	island_draw_choice_title = {
-		1241865,
+		1241859,
 		95
 	},
 	island_draw_choice = {
-		1241960,
+		1241954,
 		92
 	},
 	island_draw_sort = {
-		1242052,
+		1242046,
 		106
 	},
 	island_draw_tip1 = {
-		1242158,
+		1242152,
 		119
 	},
 	island_draw_tip2 = {
-		1242277,
+		1242271,
 		121
 	},
 	island_draw_tip3 = {
-		1242398,
+		1242392,
 		114
 	},
 	island_draw_tip4 = {
-		1242512,
+		1242506,
 		128
 	},
 	island_freight_btn_locked = {
-		1242640,
+		1242634,
 		100
 	},
 	island_freight_btn_receive = {
-		1242740,
+		1242734,
 		100
 	},
 	island_freight_btn_idle = {
-		1242840,
+		1242834,
 		105
 	},
 	island_ticket_shop = {
-		1242945,
+		1242939,
 		88
 	},
 	island_ticket_remain_time = {
-		1243033,
+		1243027,
 		98
 	},
 	island_ticket_auto_select = {
-		1243131,
+		1243125,
 		100
 	},
 	island_ticket_use = {
-		1243231,
+		1243225,
 		100
 	},
 	island_ticket_view = {
-		1243331,
+		1243325,
 		90
 	},
 	island_ticket_storage_title = {
-		1243421,
+		1243415,
 		106
 	},
 	island_ticket_sort_valid = {
-		1243527,
+		1243521,
 		100
 	},
 	island_ticket_sort_speedup = {
-		1243627,
+		1243621,
 		98
 	},
 	island_ticket_completed_quantity = {
-		1243725,
+		1243719,
 		115
 	},
 	island_ticket_nearing_expiration = {
-		1243840,
+		1243834,
 		108
 	},
 	island_ticket_expiration_tip1 = {
-		1243948,
+		1243942,
 		144
 	},
 	island_ticket_expiration_tip2 = {
-		1244092,
+		1244086,
 		137
 	},
 	island_ticket_finished = {
-		1244229,
+		1244223,
 		94
 	},
 	island_ticket_expired = {
-		1244323,
+		1244317,
 		92
 	},
 	island_use_ticket_success = {
-		1244415,
+		1244409,
 		106
 	},
 	island_sure_ticket_overflow = {
-		1244521,
+		1244515,
 		172
 	},
 	island_ticket_expired_day = {
-		1244693,
+		1244687,
 		109
 	},
 	island_dress_replace_tip = {
-		1244802,
+		1244796,
 		156
 	},
 	island_activity_expired = {
-		1244958,
+		1244952,
 		102
 	},
 	island_activity_pt_point = {
-		1245060,
+		1245054,
 		99
 	},
 	island_activity_pt_get_oneclick = {
-		1245159,
+		1245153,
 		106
 	},
 	island_activity_pt_jump_1 = {
-		1245265,
+		1245259,
 		96
 	},
 	island_activity_pt_task_reward_tip_1 = {
-		1245361,
+		1245355,
 		143
 	},
 	island_activity_pt_task_reward_tip_2 = {
-		1245504,
+		1245498,
 		142
 	},
 	island_activity_pt_task_reward_tip_3 = {
-		1245646,
+		1245640,
 		143
 	},
 	island_activity_pt_task_reward_tip_4 = {
-		1245789,
+		1245783,
 		140
 	},
 	island_activity_pt_got_all = {
-		1245929,
+		1245923,
 		120
 	},
 	island_guide = {
-		1246049,
+		1246043,
 		86
 	},
 	island_guide_help = {
-		1246135,
+		1246129,
 		891
 	},
 	island_guide_help_npc = {
-		1247026,
+		1247020,
 		389
 	},
 	island_guide_help_item = {
-		1247415,
+		1247409,
 		646
 	},
 	island_guide_help_fish = {
-		1248061,
+		1248055,
 		657
 	},
 	island_guide_character_help = {
-		1248718,
+		1248712,
 		95
 	},
 	island_guide_en = {
-		1248813,
+		1248807,
 		89
 	},
 	island_guide_character = {
-		1248902,
+		1248896,
 		96
 	},
 	island_guide_character_en = {
-		1248998,
+		1248992,
 		99
 	},
 	island_guide_npc = {
-		1249097,
+		1249091,
 		103
 	},
 	island_guide_npc_en = {
-		1249200,
+		1249194,
 		106
 	},
 	island_guide_item = {
-		1249306,
+		1249300,
 		90
 	},
 	island_guide_item_en = {
-		1249396,
+		1249390,
 		93
 	},
 	island_guide_collectionpoint = {
-		1249489,
+		1249483,
 		113
 	},
 	island_guide_fish_min_weight = {
-		1249602,
+		1249596,
 		103
 	},
 	island_guide_fish_max_weight = {
-		1249705,
+		1249699,
 		102
 	},
 	island_get_collect_point_success = {
-		1249807,
+		1249801,
 		124
 	},
 	island_guide_active = {
-		1249931,
+		1249925,
 		93
 	},
 	island_book_collection_award_title = {
-		1250024,
+		1250018,
 		119
 	},
 	island_book_award_title = {
-		1250143,
+		1250137,
 		99
 	},
 	island_guide_do_active = {
-		1250242,
+		1250236,
 		92
 	},
 	island_guide_lock_desc = {
-		1250334,
+		1250328,
 		97
 	},
 	island_gift_entrance = {
-		1250431,
+		1250425,
 		96
 	},
 	island_sign_text = {
-		1250527,
+		1250521,
 		101
 	},
 	island_3Dshop_chara_set = {
-		1250628,
+		1250622,
 		108
 	},
 	island_3Dshop_chara_choose = {
-		1250736,
+		1250730,
 		106
 	},
 	island_3Dshop_res_have = {
-		1250842,
+		1250836,
 		117
 	},
 	island_3Dshop_time_close = {
-		1250959,
+		1250953,
 		114
 	},
 	island_3Dshop_time_refresh = {
-		1251073,
+		1251067,
 		105
 	},
 	island_3Dshop_refresh_limit = {
-		1251178,
+		1251172,
 		119
 	},
 	island_3Dshop_have = {
-		1251297,
+		1251291,
 		88
 	},
 	island_3Dshop_time_unlock = {
-		1251385,
+		1251379,
 		102
 	},
 	island_3Dshop_buy_no = {
-		1251487,
+		1251481,
 		97
 	},
 	island_3Dshop_last = {
-		1251584,
+		1251578,
 		97
 	},
 	island_3Dshop_close = {
-		1251681,
+		1251675,
 		106
 	},
 	island_3Dshop_no_have = {
-		1251787,
+		1251781,
 		95
 	},
 	island_3Dshop_goods_time = {
-		1251882,
+		1251876,
 		102
 	},
 	island_3Dshop_clothes_jump = {
-		1251984,
+		1251978,
 		131
 	},
 	island_3Dshop_buy_confirm = {
-		1252115,
+		1252109,
 		92
 	},
 	island_3Dshop_buy = {
-		1252207,
+		1252201,
 		84
 	},
 	island_3Dshop_buy_tip0 = {
-		1252291,
+		1252285,
 		92
 	},
 	island_3Dshop_buy_return = {
-		1252383,
+		1252377,
 		94
 	},
 	island_3Dshop_buy_price = {
-		1252477,
+		1252471,
 		92
 	},
 	island_3Dshop_buy_have = {
-		1252569,
+		1252563,
 		91
 	},
 	island_3Dshop_bag_max = {
-		1252660,
+		1252654,
 		142
 	},
 	island_3Dshop_lack_gold = {
-		1252802,
+		1252796,
 		115
 	},
 	island_3Dshop_lack_gem = {
-		1252917,
+		1252911,
 		104
 	},
 	island_3Dshop_lack_res = {
-		1253021,
+		1253015,
 		116
 	},
 	island_photo_fur_lock = {
-		1253137,
+		1253131,
 		121
 	},
 	island_exchange_title = {
-		1253258,
+		1253252,
 		93
 	},
 	island_exchange_title_en = {
-		1253351,
+		1253345,
 		96
 	},
 	island_exchange_own_count = {
-		1253447,
+		1253441,
 		99
 	},
 	island_exchange_btn_text = {
-		1253546,
+		1253540,
 		96
 	},
 	island_exchange_sure_tip = {
-		1253642,
+		1253636,
 		104
 	},
 	island_bag_max_tip = {
-		1253746,
+		1253740,
 		111
 	},
 	graphi_api_switch_opengl = {
-		1253857,
+		1253851,
 		296
 	},
 	graphi_api_switch_vulkan = {
-		1254153,
+		1254147,
 		254
 	},
 	["3ddorm_beach_slide_tip1"] = {
-		1254407,
+		1254401,
 		92
 	},
 	["3ddorm_beach_slide_tip2"] = {
-		1254499,
+		1254493,
 		103
 	},
 	["3ddorm_beach_slide_tip3"] = {
-		1254602,
+		1254596,
 		92
 	},
 	["3ddorm_beach_slide_tip4"] = {
-		1254694,
+		1254688,
 		103
 	},
 	["3ddorm_beach_slide_tip5"] = {
-		1254797,
+		1254791,
 		102
 	},
 	["3ddorm_beach_slide_tip6"] = {
-		1254899,
+		1254893,
 		104
 	},
 	["3ddorm_beach_slide_tip7"] = {
-		1255003,
+		1254997,
 		98
 	},
 	dorm3d_shop_tag7 = {
-		1255101,
+		1255095,
 		167
 	},
 	grapihcs3d_setting_global_illumination = {
-		1255268,
+		1255262,
 		126
 	},
 	grapihcs3d_setting_global_illumination_optionname0 = {
-		1255394,
+		1255388,
 		117
 	},
 	grapihcs3d_setting_global_illumination_optionname1 = {
-		1255511,
+		1255505,
 		120
 	},
 	grapihcs3d_setting_global_illumination_optionname2 = {
-		1255631,
+		1255625,
 		118
 	},
 	grapihcs3d_setting_global_illumination_optionname3 = {
-		1255749,
+		1255743,
 		123
 	},
 	grapihcs3d_setting_bloom_intensity = {
-		1255872,
+		1255866,
 		113
 	},
 	grapihcs3d_setting_bloom_intensity_0 = {
-		1255985,
+		1255979,
 		103
 	},
 	grapihcs3d_setting_bloom_intensity_1 = {
-		1256088,
+		1256082,
 		103
 	},
 	grapihcs3d_setting_bloom_intensity_2 = {
-		1256191,
+		1256185,
 		106
 	},
 	grapihcs3d_setting_bloom_intensity_3 = {
-		1256297,
+		1256291,
 		104
 	},
 	grapihcs3d_setting_flare = {
-		1256401,
+		1256395,
 		98
 	},
 	Outpost_20250904_Sidebar4 = {
-		1256499,
+		1256493,
 		101
 	},
 	Outpost_20250904_Sidebar5 = {
-		1256600,
+		1256594,
 		96
 	},
 	Outpost_20250904_Title1 = {
-		1256696,
+		1256690,
 		99
 	},
 	Outpost_20250904_Title2 = {
-		1256795,
+		1256789,
 		99
 	},
 	Outpost_20250904_Progress = {
-		1256894,
+		1256888,
 		97
 	},
 	outpost_20250904_Sidebar4 = {
-		1256991,
+		1256985,
 		101
 	},
 	outpost_20250904_Sidebar5 = {
-		1257092,
+		1257086,
 		96
 	},
 	outpost_20250904_Title1 = {
-		1257188,
+		1257182,
 		92
 	},
 	outpost_20250904_Title2 = {
-		1257280,
+		1257274,
 		92
 	},
 	ninja_buff_name1 = {
-		1257372,
+		1257366,
 		102
 	},
 	ninja_buff_name2 = {
-		1257474,
+		1257468,
 		99
 	},
 	ninja_buff_name3 = {
-		1257573,
+		1257567,
 		98
 	},
 	ninja_buff_name4 = {
-		1257671,
+		1257665,
 		97
 	},
 	ninja_buff_name5 = {
-		1257768,
+		1257762,
 		91
 	},
 	ninja_buff_name6 = {
-		1257859,
+		1257853,
 		93
 	},
 	ninja_buff_name7 = {
-		1257952,
+		1257946,
 		106
 	},
 	ninja_buff_name8 = {
-		1258058,
+		1258052,
 		98
 	},
 	ninja_buff_name9 = {
-		1258156,
+		1258150,
 		102
 	},
 	ninja_buff_name10 = {
-		1258258,
+		1258252,
 		101
 	},
 	ninja_buff_effect1 = {
-		1258359,
+		1258353,
 		114
 	},
 	ninja_buff_effect2 = {
-		1258473,
+		1258467,
 		113
 	},
 	ninja_buff_effect3 = {
-		1258586,
+		1258580,
 		95
 	},
 	ninja_buff_effect4 = {
-		1258681,
+		1258675,
 		103
 	},
 	ninja_buff_effect5 = {
-		1258784,
+		1258778,
 		132
 	},
 	ninja_buff_effect6 = {
-		1258916,
+		1258910,
 		112
 	},
 	ninja_buff_effect7 = {
-		1259028,
+		1259022,
 		106
 	},
 	ninja_buff_effect8 = {
-		1259134,
+		1259128,
 		107
 	},
 	ninja_buff_effect9 = {
-		1259241,
+		1259235,
 		107
 	},
 	ninja_buff_effect10 = {
-		1259348,
+		1259342,
 		132
 	},
 	activity_ninjia_main_title = {
-		1259480,
+		1259474,
 		95
 	},
 	activity_ninjia_main_title_en = {
-		1259575,
+		1259569,
 		98
 	},
 	activity_ninjia_main_sheet1 = {
-		1259673,
+		1259667,
 		103
 	},
 	activity_ninjia_main_sheet2 = {
-		1259776,
+		1259770,
 		102
 	},
 	activity_ninjia_main_sheet3 = {
-		1259878,
+		1259872,
 		101
 	},
 	activity_ninjia_main_sheet4 = {
-		1259979,
+		1259973,
 		99
 	},
 	activity_return_reward_pt = {
-		1260078,
+		1260072,
 		106
 	},
 	outpost_20250904_Sidebar1 = {
-		1260184,
+		1260178,
 		99
 	},
 	outpost_20250904_Sidebar2 = {
-		1260283,
+		1260277,
 		98
 	},
 	outpost_20250904_Sidebar3 = {
-		1260381,
+		1260375,
 		100
 	},
 	anniversary_eight_main_page_desc = {
-		1260481,
+		1260475,
 		319
 	},
 	eighth_tip_spring = {
-		1260800,
+		1260794,
 		289
 	},
 	eighth_spring_cost = {
-		1261089,
+		1261083,
 		183
 	},
 	eighth_spring_not_enough = {
-		1261272,
+		1261266,
 		113
 	},
 	ninja_game_helper = {
-		1261385,
+		1261379,
 		1822
 	},
 	ninja_game_citylevel = {
-		1263207,
+		1263201,
 		99
 	},
 	ninja_game_wave = {
-		1263306,
+		1263300,
 		91
 	},
 	ninja_game_current_section = {
-		1263397,
+		1263391,
 		114
 	},
 	ninja_game_buildcost = {
-		1263511,
+		1263505,
 		95
 	},
 	ninja_game_allycost = {
-		1263606,
+		1263600,
 		99
 	},
 	ninja_game_citydmg = {
-		1263705,
+		1263699,
 		98
 	},
 	ninja_game_allydmg = {
-		1263803,
+		1263797,
 		95
 	},
 	ninja_game_dps = {
-		1263898,
+		1263892,
 		96
 	},
 	ninja_game_time = {
-		1263994,
+		1263988,
 		93
 	},
 	ninja_game_income = {
-		1264087,
+		1264081,
 		90
 	},
 	ninja_game_buffeffect = {
-		1264177,
+		1264171,
 		97
 	},
 	ninja_game_buffcost = {
-		1264274,
+		1264268,
 		96
 	},
 	ninja_game_levelblock = {
-		1264370,
+		1264364,
 		107
 	},
 	ninja_game_storydialog = {
-		1264477,
+		1264471,
 		135
 	},
 	ninja_game_update_failed = {
-		1264612,
+		1264606,
 		166
 	},
 	ninja_game_ptcount = {
-		1264778,
+		1264772,
 		92
 	},
 	ninja_game_cant_pickup = {
-		1264870,
+		1264864,
 		108
 	},
 	ninja_game_booktip = {
-		1264978,
+		1264972,
 		164
 	},
 	island_no_position_to_reponse_action = {
-		1265142,
+		1265136,
 		178
 	},
 	island_position_cant_play_cp_action = {
-		1265320,
+		1265314,
 		177
 	},
 	island_position_cant_response_cp_action = {
-		1265497,
+		1265491,
 		192
 	},
 	island_card_no_achieve_tip = {
-		1265689,
+		1265683,
 		115
 	},
 	island_card_no_label_tip = {
-		1265804,
+		1265798,
 		126
 	},
 	gift_giving_prefer = {
-		1265930,
+		1265924,
 		106
 	},
 	gift_giving_dislike = {
-		1266036,
+		1266030,
 		109
 	},
 	dorm3d_publicroom_unlock = {
-		1266145,
+		1266139,
 		126
 	},
 	dorm3d_dafeng_table = {
-		1266271,
+		1266265,
 		90
 	},
 	dorm3d_dafeng_chair = {
-		1266361,
+		1266355,
 		94
 	},
 	dorm3d_dafeng_bed = {
-		1266455,
+		1266449,
 		88
 	},
 	island_draw_help = {
-		1266543,
+		1266537,
 		1626
 	},
 	island_dress_initial_makesure = {
-		1268169,
+		1268163,
 		101
 	},
 	island_shop_lock_tip = {
-		1268270,
+		1268264,
 		115
 	},
 	island_agora_no_size = {
-		1268385,
+		1268379,
 		107
 	},
 	island_combo_unlock = {
-		1268492,
+		1268486,
 		113
 	},
 	island_additional_production_tip1 = {
-		1268605,
+		1268599,
 		113
 	},
 	island_additional_production_tip2 = {
-		1268718,
+		1268712,
 		153
 	},
 	island_manage_stock_out = {
-		1268871,
+		1268865,
 		118
 	},
 	island_manage_item_select = {
-		1268989,
+		1268983,
 		102
 	},
 	island_combo_produced = {
-		1269091,
+		1269085,
 		89
 	},
 	island_combo_produced_times = {
-		1269180,
+		1269174,
 		101
 	},
 	island_agora_no_interact_point = {
-		1269281,
+		1269275,
 		124
 	},
 	island_reward_tip = {
-		1269405,
+		1269399,
 		87
 	},
 	island_commontips_close = {
-		1269492,
+		1269486,
 		110
 	},
 	world_inventory_tip = {
-		1269602,
+		1269596,
 		108
 	},
 	island_setmeal_title = {
-		1269710,
+		1269704,
 		95
 	},
 	island_setmeal_benifit_title = {
-		1269805,
+		1269799,
 		102
 	},
 	island_shipselect_confirm = {
-		1269907,
+		1269901,
 		97
 	},
 	island_dresscolorunlock_tips = {
-		1270004,
+		1269998,
 		107
 	},
 	island_dresscolorunlock = {
-		1270111,
+		1270105,
 		93
 	},
 	danmachi_main_sheet1 = {
-		1270204,
+		1270198,
 		94
 	},
 	danmachi_main_sheet2 = {
-		1270298,
+		1270292,
 		90
 	},
 	danmachi_main_sheet3 = {
-		1270388,
+		1270382,
 		92
 	},
 	danmachi_main_sheet4 = {
-		1270480,
+		1270474,
 		89
 	},
 	danmachi_main_sheet5 = {
-		1270569,
+		1270563,
 		95
 	},
 	danmachi_main_time = {
-		1270664,
+		1270658,
 		97
 	},
 	danmachi_award_1 = {
-		1270761,
+		1270755,
 		88
 	},
 	danmachi_award_2 = {
-		1270849,
+		1270843,
 		89
 	},
 	danmachi_award_3 = {
-		1270938,
+		1270932,
 		90
 	},
 	danmachi_award_4 = {
-		1271028,
+		1271022,
 		88
 	},
 	danmachi_award_name1 = {
-		1271116,
+		1271110,
 		90
 	},
 	danmachi_award_name2 = {
-		1271206,
+		1271200,
 		92
 	},
 	danmachi_award_get = {
-		1271298,
+		1271292,
 		90
 	},
 	danmachi_award_unget = {
-		1271388,
+		1271382,
 		94
 	},
 	dorm3d_touch2 = {
-		1271482,
+		1271476,
 		87
 	},
 	dorm3d_furnitrue_type_special = {
-		1271569,
+		1271563,
 		102
 	},
 	island_helpbtn_order = {
-		1271671,
+		1271665,
 		1169
 	},
 	island_helpbtn_commission = {
-		1272840,
+		1272834,
 		891
 	},
 	island_helpbtn_speedup = {
-		1273731,
+		1273725,
 		588
 	},
 	island_helpbtn_card = {
-		1274319,
+		1274313,
 		751
 	},
 	island_helpbtn_technology = {
-		1275070,
+		1275064,
 		1018
 	},
 	island_shiporder_refresh_tip1 = {
-		1276088,
+		1276082,
 		153
 	},
 	island_shiporder_refresh_tip2 = {
-		1276241,
+		1276235,
 		137
 	},
 	island_shiporder_refresh_preparing = {
-		1276378,
+		1276372,
 		123
 	},
 	island_information_tech = {
-		1276501,
+		1276495,
 		108
 	},
 	dorm3d_shop_tag8 = {
-		1276609,
+		1276603,
 		105
 	},
 	island_chara_attr_help = {
-		1276714,
+		1276708,
 		733
 	},
 	fengfanV3_20251023_Sidebar1 = {
-		1277447,
+		1277441,
 		102
 	},
 	fengfanV3_20251023_Sidebar2 = {
-		1277549,
+		1277543,
 		101
 	},
 	fengfanV3_20251023_Sidebar3 = {
-		1277650,
+		1277644,
 		102
 	},
 	fengfanV3_20251023_jinianshouce = {
-		1277752,
+		1277746,
 		107
 	},
 	island_selectall = {
-		1277859,
+		1277853,
 		83
 	},
 	island_quickselect_tip = {
-		1277942,
+		1277936,
 		148
 	},
 	search_equipment = {
-		1278090,
+		1278084,
 		99
 	},
 	search_sp_equipment = {
-		1278189,
+		1278183,
 		109
 	},
 	search_equipment_appearance = {
-		1278298,
+		1278292,
 		115
 	},
 	meta_reproduce_btn = {
-		1278413,
+		1278407,
 		222
 	},
 	meta_simulated_btn = {
-		1278635,
+		1278629,
 		222
 	},
 	equip_enhancement_tip = {
-		1278857,
+		1278851,
 		107
 	},
 	equip_enhancement_lv1 = {
-		1278964,
+		1278958,
 		95
 	},
 	equip_enhancement_lvx = {
-		1279059,
+		1279053,
 		99
 	},
 	equip_enhancement_finish = {
-		1279158,
+		1279152,
 		96
 	},
 	equip_enhancement_lv = {
-		1279254,
+		1279248,
 		86
 	},
 	equip_enhancement_title = {
-		1279340,
+		1279334,
 		94
 	},
 	equip_enhancement_required = {
-		1279434,
+		1279428,
 		107
 	},
 	shop_sell_ended = {
-		1279541,
+		1279535,
 		90
 	},
 	island_taskjump_systemnoopen_tips = {
-		1279631,
+		1279625,
 		137
 	},
 	island_taskjump_placenoopen_tips = {
-		1279768,
+		1279762,
 		137
 	},
 	island_ship_order_toggle_label_award = {
-		1279905,
+		1279899,
 		107
 	},
 	island_ship_order_toggle_label_request = {
-		1280012,
+		1280006,
 		106
 	},
 	island_ship_order_delegate_auto_refresh_label = {
-		1280118,
+		1280112,
 		153
 	},
 	island_ship_order_delegate_auto_refresh_time = {
-		1280271,
+		1280265,
 		141
 	},
 	island_order_ship_finish_cnt = {
-		1280412,
+		1280406,
 		108
 	},
 	island_order_ship_sel_delegate_label = {
-		1280520,
+		1280514,
 		121
 	},
 	island_order_ship_finish_cnt_not_enough = {
-		1280641,
+		1280635,
 		110
 	},
 	island_order_ship_reset_all = {
-		1280751,
+		1280745,
 		134
 	},
 	island_order_ship_exchange_tip = {
-		1280885,
+		1280879,
 		140
 	},
 	island_order_ship_btn_replace = {
-		1281025,
+		1281019,
 		104
 	},
 	island_fishing_tip_hooked = {
-		1281129,
+		1281123,
 		111
 	},
 	island_fishing_tip_escape = {
-		1281240,
+		1281234,
 		109
 	},
 	island_fishing_exit = {
-		1281349,
+		1281343,
 		111
 	},
 	island_fishing_lure_empty = {
-		1281460,
+		1281454,
 		102
 	},
 	island_order_ship_exchange_tip_2 = {
-		1281562,
+		1281556,
 		142
 	},
 	island_follower_exiting_tip = {
-		1281704,
+		1281698,
 		118
 	},
 	island_order_ship_exchange_tip_1 = {
-		1281822,
+		1281816,
 		251
 	},
 	island_urgent_notice = {
-		1282073,
+		1282067,
 		2711
 	},
 	general_activity_side_bar1 = {
-		1284784,
+		1284778,
 		106
 	},
 	general_activity_side_bar2 = {
-		1284890,
+		1284884,
 		113
 	},
 	general_activity_side_bar3 = {
-		1285003,
+		1284997,
 		108
 	},
 	general_activity_side_bar4 = {
-		1285111,
+		1285105,
 		111
 	},
 	black5_bundle_desc = {
-		1285222,
+		1285216,
 		128
 	},
 	black5_bundle_purchased = {
-		1285350,
+		1285344,
 		96
 	},
 	black5_bundle_tip = {
-		1285446,
+		1285440,
 		104
 	},
 	black5_bundle_buy_all = {
-		1285550,
+		1285544,
 		97
 	},
 	black5_bundle_popup = {
-		1285647,
+		1285641,
 		173
 	},
 	black5_bundle_receive = {
-		1285820,
+		1285814,
 		96
 	},
 	black5_bundle_button = {
-		1285916,
+		1285910,
 		89
 	},
 	skinshop_on_sale_tip = {
-		1286005,
+		1285999,
 		97
 	},
 	skinshop_on_sale_tip_2 = {
-		1286102,
+		1286096,
 		103
 	},
 	blackfriday_cruise_task_tips = {
-		1286205,
+		1286199,
 		101
 	},
 	blackfriday_cruise_task_unlock = {
-		1286306,
+		1286300,
 		125
 	},
 	blackfriday_cruise_task_day = {
-		1286431,
+		1286425,
 		97
 	},
 	blackfriday_battlepass_pay_acquire = {
-		1286528,
+		1286522,
 		113
 	},
 	blackfriday_battlepass_pay_tip = {
-		1286641,
+		1286635,
 		134
 	},
 	blackfriday_battlepass_complete = {
-		1286775,
+		1286769,
 		144
 	},
 	blackfriday_cruise_phase_title = {
-		1286919,
+		1286913,
 		99
 	},
 	blackfriday_cruise_title_1113 = {
-		1287018,
+		1287012,
 		121
 	},
 	blackfriday_battlepass_main_time_title = {
-		1287139,
+		1287133,
 		117
 	},
 	blackfriday_cruise_btn_pay = {
-		1287256,
+		1287250,
 		110
 	},
 	blackfriday_cruise_btn_all = {
-		1287366,
+		1287360,
 		101
 	},
 	blackfriday_battlepass_main_help_1113 = {
-		1287467,
+		1287461,
 		2381
 	},
 	blackfriday_cruise_task_help_1113 = {
-		1289848,
+		1289842,
 		702
 	},
 	shop_tag_control_tip = {
-		1290550,
+		1290544,
 		107
 	},
 	blackfriday_battlepass_mission = {
-		1290657,
+		1290651,
 		102
 	},
 	blackfriday_battlepass_rewards = {
-		1290759,
+		1290753,
 		101
 	},
 	black5_bundle_help = {
-		1290860,
+		1290854,
 		351
 	},
 	blackfriday_luckybag_164 = {
-		1291211,
+		1291205,
 		305
 	},
 	blackfriday_luckybag_165 = {
-		1291516,
+		1291510,
 		560
 	},
 	battlepass_main_tip_2512 = {
-		1292076,
+		1292070,
 		270
 	},
 	battlepass_main_help_2512 = {
-		1292346,
+		1292340,
 		2899
 	},
 	cruise_task_help_2512 = {
-		1295245,
+		1295239,
 		1092
 	},
 	cruise_title_2512 = {
-		1296337,
+		1296331,
 		102
 	},
 	DAL_stage_label_data = {
-		1296439,
+		1296433,
 		96
 	},
 	DAL_stage_label_support = {
-		1296535,
+		1296529,
 		101
 	},
 	DAL_stage_label_commander = {
-		1296636,
+		1296630,
 		103
 	},
 	DAL_stage_label_analysis_2 = {
-		1296739,
+		1296733,
 		107
 	},
 	DAL_stage_label_analysis_1 = {
-		1296846,
+		1296840,
 		102
 	},
 	DAL_stage_finish_at = {
-		1296948,
+		1296942,
 		92
 	},
 	activity_remain_time = {
-		1297040,
+		1297034,
 		93
 	},
 	dal_main_sheet1 = {
-		1297133,
+		1297127,
 		88
 	},
 	dal_main_sheet2 = {
-		1297221,
+		1297215,
 		96
 	},
 	dal_main_sheet3 = {
-		1297317,
+		1297311,
 		97
 	},
 	dal_main_sheet4 = {
-		1297414,
+		1297408,
 		91
 	},
 	dal_main_sheet5 = {
-		1297505,
+		1297499,
 		90
 	},
 	DAL_upgrade_ship = {
-		1297595,
+		1297589,
 		95
 	},
 	DAL_upgrade_active = {
-		1297690,
+		1297684,
 		89
 	},
 	dal_main_sheet1_en = {
-		1297779,
+		1297773,
 		91
 	},
 	dal_main_sheet2_en = {
-		1297870,
+		1297864,
 		91
 	},
 	dal_main_sheet3_en = {
-		1297961,
+		1297955,
 		94
 	},
 	dal_main_sheet4_en = {
-		1298055,
+		1298049,
 		94
 	},
 	dal_main_sheet5_en = {
-		1298149,
+		1298143,
 		93
 	},
 	DAL_story_tip = {
-		1298242,
+		1298236,
 		137
 	},
 	DAL_upgrade_program = {
-		1298379,
+		1298373,
 		98
 	},
 	dal_story_tip_name_en_1 = {
-		1298477,
+		1298471,
 		95
 	},
 	dal_story_tip_name_en_2 = {
-		1298572,
+		1298566,
 		95
 	},
 	dal_story_tip_name_en_3 = {
-		1298667,
+		1298661,
 		95
 	},
 	dal_story_tip_name_en_4 = {
-		1298762,
+		1298756,
 		95
 	},
 	dal_story_tip_name_en_5 = {
-		1298857,
+		1298851,
 		95
 	},
 	dal_story_tip_name_en_6 = {
-		1298952,
+		1298946,
 		95
 	},
 	dal_story_tip1 = {
-		1299047,
+		1299041,
 		107
 	},
 	dal_story_tip2 = {
-		1299154,
+		1299148,
 		102
 	},
 	dal_story_tip3 = {
-		1299256,
+		1299250,
 		86
 	},
 	dal_AwardPage_name_1 = {
-		1299342,
+		1299336,
 		88
 	},
 	dal_AwardPage_name_2 = {
-		1299430,
+		1299424,
 		90
 	},
 	dal_chapter_goto = {
-		1299520,
+		1299514,
 		82
 	},
 	DAL_upgrade_unlock = {
-		1299602,
+		1299596,
 		88
 	},
 	DAL_upgrade_not_enough = {
-		1299690,
+		1299684,
 		154
 	},
 	dal_chapter_tip = {
-		1299844,
+		1299838,
 		1939
 	},
 	dal_chapter_tip2 = {
-		1301783,
+		1301777,
 		110
 	},
 	scenario_unlock_pt_require = {
-		1301893,
+		1301887,
 		121
 	},
 	scenario_unlock = {
-		1302014,
+		1302008,
 		104
 	},
 	vote_help_2025 = {
-		1302118,
+		1302112,
 		5313
 	},
 	HelenaCoreActivity_title = {
-		1307431,
+		1307425,
 		93
 	},
 	HelenaCoreActivity_title2 = {
-		1307524,
+		1307518,
 		94
 	},
 	HelenaPTPage_title = {
-		1307618,
+		1307612,
 		98
 	},
 	HelenaPTPage_title2 = {
-		1307716,
+		1307710,
 		83
 	},
 	HelenaCoreActivity_subtitle_1 = {
-		1307799,
+		1307793,
 		109
 	},
 	HelenaCoreActivity_subtitle_2 = {
-		1307908,
+		1307902,
 		105
 	},
 	HelenaCoreActivity_subtitle_3 = {
-		1308013,
+		1308007,
 		112
 	},
 	HelenaCoreActivity_subtitle_4 = {
-		1308125,
+		1308119,
 		121
 	},
 	HelenaCoreActivity_subtitle_5 = {
-		1308246,
+		1308240,
 		112
 	},
 	HelenaCoreActivity_subtitle_6 = {
-		1308358,
+		1308352,
 		104
 	},
 	fate_unlock_icon_desc = {
-		1308462,
+		1308456,
 		120
 	},
 	blueprint_exchange_fate_unlock = {
-		1308582,
+		1308576,
 		162
 	},
 	blueprint_exchange_fate_unlock_over = {
-		1308744,
+		1308738,
 		213
 	},
 	blueprint_lab_fate_lock = {
-		1308957,
+		1308951,
 		133
 	},
 	blueprint_lab_fate_unlock = {
-		1309090,
+		1309084,
 		137
 	},
 	blueprint_lab_exchange_fate_unlock = {
-		1309227,
+		1309221,
 		166
 	},
 	skinstory_20251218 = {
-		1309393,
+		1309387,
 		91
 	},
 	skinstory_20251225 = {
-		1309484,
+		1309478,
 		92
 	},
 	change_skin_asmr_desc_1 = {
-		1309576,
+		1309570,
 		145
 	},
 	change_skin_asmr_desc_2 = {
-		1309721,
+		1309715,
 		134
 	},
 	dorm3d_aijier_table = {
-		1309855,
+		1309849,
 		88
 	},
 	dorm3d_aijier_chair = {
-		1309943,
+		1309937,
 		89
 	},
 	dorm3d_aijier_bed = {
-		1310032,
+		1310026,
 		88
 	},
 	winterwish_20251225 = {
-		1310120,
+		1310114,
 		95
 	},
 	winterwish_20251225_tip1 = {
-		1310215,
+		1310209,
 		98
 	},
 	winterwish_20251225_tip2 = {
-		1310313,
+		1310307,
 		99
 	},
 	battlepass_main_tip_2602 = {
-		1310412,
+		1310406,
 		255
 	},
 	battlepass_main_help_2602 = {
-		1310667,
+		1310661,
 		2897
 	},
 	cruise_task_help_2602 = {
-		1313564,
+		1313558,
 		1092
 	},
 	cruise_title_2602 = {
-		1314656,
+		1314650,
 		102
 	},
 	battle_battleMediator_quest_exist_submarine_support = {
-		1314758,
+		1314752,
 		220
 	},
 	island_survey_ui_1 = {
-		1314978,
+		1314972,
 		82
 	},
 	island_survey_ui_2 = {
-		1315060,
+		1315054,
 		82
 	},
 	island_survey_ui_award = {
-		1315142,
+		1315136,
 		86
 	},
 	island_survey_ui_button = {
-		1315228,
+		1315222,
 		87
 	},
 	ANTTFFCoreActivity_subtitle_1 = {
-		1315315,
+		1315309,
 		131
 	},
 	ANTTFFCoreActivity_title = {
-		1315446,
+		1315440,
 		94
 	},
 	ANTTFFCoreActivity_title2 = {
-		1315540,
+		1315534,
 		89
 	},
 	ANTTFFCoreActivityPtpage_title = {
-		1315629,
+		1315623,
 		100
 	},
 	ANTTFFCoreActivityPtpage_title2 = {
-		1315729,
+		1315723,
 		95
 	},
 	submarine_support_oil_consume_tip = {
-		1315824,
+		1315818,
 		177
 	},
 	SardiniaSPCoreActivityUI_title = {
-		1316001,
+		1315995,
 		99
 	},
 	SardiniaSPCoreActivityUI_subtitle_1 = {
-		1316100,
+		1316094,
 		113
 	},
 	SardiniaSPCoreActivityUI_subtitle_2 = {
-		1316213,
+		1316207,
 		108
 	},
 	SardiniaSPCoreActivityUI_story_reward_count = {
-		1316321,
+		1316315,
 		331
 	},
 	SardiniaSPCoreActivityUI_unlock = {
-		1316652,
+		1316646,
 		101
 	},
 	SardiniaSPCoreActivityUI_fleetconfirm = {
-		1316753,
+		1316747,
 		190
 	},
 	SardiniaSPCoreActivityUI_help = {
-		1316943,
+		1316937,
 		1388
 	},
 	pac_game_high_score_tip = {
-		1318331,
+		1318325,
 		101
 	},
 	pac_game_rule_btn = {
-		1318432,
+		1318426,
 		92
 	},
 	pac_game_start_btn = {
-		1318524,
+		1318518,
 		87
 	},
 	pac_game_gaming_time_desc = {
-		1318611,
+		1318605,
 		94
 	},
 	pac_game_gaming_score = {
-		1318705,
+		1318699,
 		91
 	},
 	mini_game_continue = {
-		1318796,
+		1318790,
 		88
 	},
 	mini_game_over_game = {
-		1318884,
+		1318878,
 		87
 	},
 	pac_minigame_help = {
-		1318971,
+		1318965,
 		609
 	},
 	SpringFestival2026CoreActivity_subtitle_1 = {
-		1319580,
+		1319574,
 		130
 	},
 	SpringFestival2026CoreActivity_subtitle_2 = {
-		1319710,
+		1319704,
 		126
 	},
 	SpringFestival2026CoreActivity_subtitle_3 = {
-		1319836,
+		1319830,
 		118
 	},
 	SpringFestival2026CoreActivity_subtitle_4 = {
-		1319954,
+		1319948,
 		126
 	},
 	SpringFestival2026CoreActivity_subtitle_5 = {
-		1320080,
+		1320074,
 		127
 	},
 	SpringFestival2026CoreActivity_subtitle_6 = {
-		1320207,
+		1320201,
 		132
 	},
 	SpringFestival2026CoreActivity_subtitle_7 = {
-		1320339,
+		1320333,
 		128
 	},
 	island_post_event_label = {
-		1320467,
+		1320461,
 		101
 	},
 	island_post_event_close_label = {
-		1320568,
+		1320562,
 		99
 	},
 	island_post_event_open_label = {
-		1320667,
+		1320661,
 		99
 	},
 	island_post_event_addition_label = {
-		1320766,
+		1320760,
 		133
 	},
 	island_addition_influence = {
-		1320899,
+		1320893,
 		104
 	},
 	island_addition_sale = {
-		1321003,
+		1320997,
 		89
 	},
 	island_trade_title = {
-		1321092,
+		1321086,
 		98
 	},
 	island_trade_title2 = {
-		1321190,
+		1321184,
 		99
 	},
 	island_trade_sell_label = {
-		1321289,
+		1321283,
 		98
 	},
 	island_trade_trend_label = {
-		1321387,
+		1321381,
 		101
 	},
 	island_trade_purchase_label = {
-		1321488,
+		1321482,
 		101
 	},
 	island_trade_rank_label = {
-		1321589,
+		1321583,
 		102
 	},
 	island_trade_purchase_sub_label = {
-		1321691,
+		1321685,
 		98
 	},
 	island_trade_sell_sub_label = {
-		1321789,
+		1321783,
 		95
 	},
 	island_trade_rank_num_label = {
-		1321884,
+		1321878,
 		107
 	},
 	island_trade_rank_info_label = {
-		1321991,
+		1321985,
 		103
 	},
 	island_trade_rank_price_label = {
-		1322094,
+		1322088,
 		106
 	},
 	island_trade_rank_level_label = {
-		1322200,
+		1322194,
 		103
 	},
 	island_trade_invite_label = {
-		1322303,
+		1322297,
 		102
 	},
 	island_trade_tip_label = {
-		1322405,
+		1322399,
 		134
 	},
 	island_trade_tip_label2 = {
-		1322539,
+		1322533,
 		136
 	},
 	island_trade_limit_label = {
-		1322675,
+		1322669,
 		124
 	},
 	island_trade_send_msg_label = {
-		1322799,
+		1322793,
 		174
 	},
 	island_trade_send_msg_match_label = {
-		1322973,
+		1322967,
 		111
 	},
 	island_trade_sell_tip_label = {
-		1323084,
+		1323078,
 		135
 	},
 	island_trade_purchase_failed_label = {
-		1323219,
+		1323213,
 		142
 	},
 	island_trade_sell_failed_label = {
-		1323361,
+		1323355,
 		145
 	},
 	island_trade_sell_failed_label2 = {
-		1323506,
+		1323500,
 		137
 	},
 	island_trade_bag_full_label = {
-		1323643,
+		1323637,
 		149
 	},
 	island_trade_reset_label = {
-		1323792,
+		1323786,
 		114
 	},
 	island_trade_help = {
-		1323906,
+		1323900,
 		84
 	},
 	island_trade_help_1 = {
-		1323990,
+		1323984,
 		300
 	},
 	island_trade_help_2 = {
-		1324290,
+		1324284,
 		420
 	},
 	island_trade_price_unrefresh = {
-		1324710,
+		1324704,
 		157
 	},
 	island_trade_msg_pop = {
-		1324867,
+		1324861,
 		164
 	},
 	island_trade_invite_success = {
-		1325031,
+		1325025,
 		112
 	},
 	island_trade_share_success = {
-		1325143,
+		1325137,
 		111
 	},
 	island_trade_activity_desc_1 = {
-		1325254,
+		1325248,
 		191
 	},
 	island_trade_activity_desc_2 = {
-		1325445,
+		1325439,
 		185
 	},
 	island_trade_activity_unlock = {
-		1325630,
+		1325624,
 		137
 	},
 	island_bar_quick_game = {
-		1325767,
+		1325761,
 		95
 	},
 	island_trade_cnt_inadequate = {
-		1325862,
+		1325856,
 		110
 	},
 	drawdiary_ui_2026 = {
-		1325972,
+		1325966,
 		93
 	},
 	loveactivity_ui_1 = {
-		1326065,
+		1326059,
 		95
 	},
 	loveactivity_ui_2 = {
-		1326160,
+		1326154,
 		94
 	},
 	loveactivity_ui_3 = {
-		1326254,
+		1326248,
 		89
 	},
 	loveactivity_ui_4 = {
-		1326343,
+		1326337,
 		144
 	},
 	loveactivity_ui_4_1 = {
-		1326487,
+		1326481,
 		285
 	},
 	loveactivity_ui_4_2 = {
-		1326772,
+		1326766,
 		285
 	},
 	loveactivity_ui_4_3 = {
-		1327057,
+		1327051,
 		286
 	},
 	loveactivity_ui_5 = {
-		1327343,
+		1327337,
 		95
 	},
 	loveactivity_ui_6 = {
-		1327438,
+		1327432,
 		89
 	},
 	loveactivity_ui_7 = {
-		1327527,
+		1327521,
 		134
 	},
 	loveactivity_ui_8 = {
-		1327661,
+		1327655,
 		87
 	},
 	loveactivity_ui_9 = {
-		1327748,
+		1327742,
 		102
 	},
 	loveactivity_ui_10 = {
-		1327850,
+		1327844,
 		100
 	},
 	loveactivity_ui_11 = {
-		1327950,
+		1327944,
 		107
 	},
 	loveactivity_ui_12 = {
-		1328057,
+		1328051,
 		158
 	},
 	loveactivity_ui_13 = {
-		1328215,
+		1328209,
 		123
 	},
 	child_cg_buy = {
-		1328338,
+		1328332,
 		149
 	},
 	child_polaroid_buy = {
-		1328487,
+		1328481,
 		155
 	},
 	child_could_buy = {
-		1328642,
+		1328636,
 		124
 	},
 	loveactivity_ui_14 = {
-		1328766,
+		1328760,
 		107
 	},
 	loveactivity_ui_15 = {
-		1328873,
+		1328867,
 		110
 	},
 	loveactivity_ui_16 = {
-		1328983,
+		1328977,
 		102
 	},
 	loveactivity_ui_17 = {
-		1329085,
+		1329079,
 		102
 	},
 	loveactivity_ui_18 = {
-		1329187,
+		1329181,
 		118
 	},
 	loveactivity_ui_19 = {
-		1329305,
+		1329299,
 		123
 	},
 	loveactivity_ui_20 = {
-		1329428,
+		1329422,
 		120
 	},
 	help_chunjie_jiulou_2026 = {
-		1329548,
+		1329542,
 		951
 	},
 	island_gift_tip_title = {
-		1330499,
+		1330493,
 		92
 	},
 	island_gift_tip = {
-		1330591,
+		1330585,
 		178
 	},
 	island_chara_gather_tip = {
-		1330769,
+		1330763,
 		96
 	},
 	island_chara_gather_power = {
-		1330865,
+		1330859,
 		101
 	},
 	island_chara_gather_money = {
-		1330966,
+		1330960,
 		99
 	},
 	island_chara_gather_range = {
-		1331065,
+		1331059,
 		110
 	},
 	island_chara_gather_start = {
-		1331175,
+		1331169,
 		94
 	},
 	island_chara_gather_tag_1 = {
-		1331269,
+		1331263,
 		105
 	},
 	island_chara_gather_tag_2 = {
-		1331374,
+		1331368,
 		104
 	},
 	island_chara_gather_skill_effect = {
-		1331478,
+		1331472,
 		108
 	},
 	island_chara_gather_done = {
-		1331586,
+		1331580,
 		106
 	},
 	island_chara_gather_no_target = {
-		1331692,
+		1331686,
 		118
 	},
 	island_quick_delegation = {
-		1331810,
+		1331804,
 		95
 	},
 	island_quick_delegation_notenough_encourage = {
-		1331905,
+		1331899,
 		165
 	},
 	island_quick_delegation_notenough_onduty = {
-		1332070,
+		1332064,
 		159
 	},
 	child_plan_skip_event = {
-		1332229,
+		1332223,
 		110
 	},
 	child_buy_memory_tip = {
-		1332339,
+		1332333,
 		144
 	},
 	child_buy_polaroid_tip = {
-		1332483,
+		1332477,
 		146
 	},
 	child_buy_ending_tip = {
-		1332629,
+		1332623,
 		145
 	},
 	child_buy_collect_success = {
-		1332774,
+		1332768,
 		98
 	},
 	loveletter2018_ui_4 = {
-		1332872,
+		1332866,
 		120
 	},
 	loveletter2018_ui_5 = {
-		1332992,
+		1332986,
 		155
 	},
 	LiquorFloor_title = {
-		1333147,
+		1333141,
 		102
 	},
 	LiquorFloor_title_en = {
-		1333249,
+		1333243,
 		94
 	},
 	LiquorFloor_level = {
-		1333343,
+		1333337,
 		88
 	},
 	LiquorFloor_story_title = {
-		1333431,
+		1333425,
 		96
 	},
 	LiquorFloor_story_title_1 = {
-		1333527,
+		1333521,
 		105
 	},
 	LiquorFloor_story_title_2 = {
-		1333632,
+		1333626,
 		105
 	},
 	LiquorFloor_story_title_3 = {
-		1333737,
+		1333731,
 		106
 	},
 	LiquorFloor_story_title_4 = {
-		1333843,
+		1333837,
 		98
 	},
 	LiquorFloor_story_go = {
-		1333941,
+		1333935,
 		91
 	},
 	LiquorFloor_story_get = {
-		1334032,
+		1334026,
 		91
 	},
 	LiquorFloor_story_got = {
-		1334123,
+		1334117,
 		92
 	},
 	LiquorFloor_character_num = {
-		1334215,
+		1334209,
 		103
 	},
 	LiquorFloor_character_unlock = {
-		1334318,
+		1334312,
 		109
 	},
 	LiquorFloor_character_tip = {
-		1334427,
+		1334421,
 		181
 	},
 	LiquorFloor_gold_num = {
-		1334608,
+		1334602,
 		102
 	},
 	LiquorFloor_gold = {
-		1334710,
+		1334704,
 		95
 	},
 	LiquorFloor_update = {
-		1334805,
+		1334799,
 		90
 	},
 	LiquorFloor_update_unlock = {
-		1334895,
+		1334889,
 		118
 	},
 	LiquorFloor_update_max = {
-		1335013,
+		1335007,
 		103
 	},
 	LiquorFloor_gold_max_tip = {
-		1335116,
+		1335110,
 		125
 	},
 	LiquorFloor_tip = {
-		1335241,
+		1335235,
 		1439
 	},
 	loveletter2018_ui_1 = {
-		1336680,
+		1336674,
 		219
 	},
 	loveletter2018_ui_2 = {
-		1336899,
+		1336893,
 		142
 	},
 	loveletter2018_ui_3 = {
-		1337041,
+		1337035,
 		138
 	},
 	loveletter2018_ui_tips = {
-		1337179,
+		1337173,
 		113
 	},
 	child2_choose_title = {
-		1337292,
+		1337286,
 		93
 	},
 	child2_choose_help = {
-		1337385,
+		1337379,
 		1554
 	},
 	child2_show_detail_desc = {
-		1338939,
+		1338933,
 		99
 	},
 	child2_tarot_empty = {
-		1339038,
+		1339032,
 		112
 	},
 	child2_refresh_title = {
-		1339150,
+		1339144,
 		97
 	},
 	child2_choose_hide = {
-		1339247,
+		1339241,
 		86
 	},
 	child2_choose_giveup = {
-		1339333,
+		1339327,
 		91
 	},
 	child2_tarot_tag_current = {
-		1339424,
+		1339418,
 		99
 	},
 	child2_all_entry_title = {
-		1339523,
+		1339517,
 		101
 	},
 	child2_benefit_moeny_effect = {
-		1339624,
+		1339618,
 		108
 	},
 	child2_benefit_mood_effect = {
-		1339732,
+		1339726,
 		107
 	},
 	child2_replace_sure_tip = {
-		1339839,
+		1339833,
 		113
 	},
 	child2_tarot_title = {
-		1339952,
+		1339946,
 		94
 	},
 	child2_entry_summary = {
-		1340046,
+		1340040,
 		102
 	},
 	child2_benefit_result = {
-		1340148,
+		1340142,
 		100
 	},
 	child2_mood_benefit = {
-		1340248,
+		1340242,
 		98
 	},
 	child2_mood_stage1 = {
-		1340346,
+		1340340,
 		105
 	},
 	child2_mood_stage2 = {
-		1340451,
+		1340445,
 		99
 	},
 	child2_mood_stage3 = {
-		1340550,
+		1340544,
 		102
 	},
 	child2_mood_stage4 = {
-		1340652,
+		1340646,
 		101
 	},
 	child2_mood_stage5 = {
-		1340753,
+		1340747,
 		101
 	},
 	child2_entry_activated = {
-		1340854,
+		1340848,
 		102
 	},
 	child2_collect_tarot_progress = {
-		1340956,
+		1340950,
 		109
 	},
 	child2_collect_tarot = {
-		1341065,
+		1341059,
 		96
 	},
 	child2_collect_entry = {
-		1341161,
+		1341155,
 		91
 	},
 	child2_collect_talent = {
-		1341252,
+		1341246,
 		92
 	},
 	child2_rank_toggle_attr = {
-		1341344,
+		1341338,
 		93
 	},
 	child2_rank_toggle_endless = {
-		1341437,
+		1341431,
 		102
 	},
 	child2_rank_not_on = {
-		1341539,
+		1341533,
 		90
 	},
 	child2_rank_refresh_tip = {
-		1341629,
+		1341623,
 		127
 	},
 	child2_rank_header_rank = {
-		1341756,
+		1341750,
 		98
 	},
 	child2_rank_header_info = {
-		1341854,
+		1341848,
 		91
 	},
 	child2_rank_header_attr = {
-		1341945,
+		1341939,
 		102
 	},
 	child2_replace_title = {
-		1342047,
+		1342041,
 		110
 	},
 	child2_replace_tip = {
-		1342157,
+		1342151,
 		251
 	},
 	child2_tarot_tag_replace = {
-		1342408,
+		1342402,
 		97
 	},
 	child2_replace_cancel = {
-		1342505,
+		1342499,
 		91
 	},
 	child2_replace_sure = {
-		1342596,
+		1342590,
 		90
 	},
 	child2_nailing_game_tip = {
-		1342686,
+		1342680,
 		153
 	},
 	child2_nailing_game_count = {
-		1342839,
+		1342833,
 		100
 	},
 	child2_nailing_game_score = {
-		1342939,
+		1342933,
 		95
 	},
 	child2_benefit_summary = {
-		1343034,
+		1343028,
 		100
 	},
 	child2_word_giveup = {
-		1343134,
+		1343128,
 		98
 	},
 	child2_rank_header_wave = {
-		1343232,
+		1343226,
 		106
 	},
 	child2_personal_id2_tag1 = {
-		1343338,
+		1343332,
 		91
 	},
 	child2_personal_id2_tag2 = {
-		1343429,
+		1343423,
 		96
 	},
 	child2_go_shop = {
-		1343525,
+		1343519,
 		98
 	},
 	child2_scratch_minigame_help = {
-		1343623,
+		1343617,
 		522
 	},
 	child2_endless_sure_tip = {
-		1344145,
+		1344139,
 		348
 	},
 	child2_endless_stage = {
-		1344493,
+		1344487,
 		96
 	},
 	child2_cur_wave = {
-		1344589,
+		1344583,
 		86
 	},
 	child2_endless_attrs_value = {
-		1344675,
+		1344669,
 		105
 	},
 	child2_endless_boss_value = {
-		1344780,
+		1344774,
 		114
 	},
 	child2_endless_assest_wave = {
-		1344894,
+		1344888,
 		112
 	},
 	child2_endless_history_wave = {
-		1345006,
+		1345000,
 		120
 	},
 	child2_endless_current_wave = {
-		1345126,
+		1345120,
 		113
 	},
 	child2_endless_reset_tip = {
-		1345239,
+		1345233,
 		175
 	},
 	child2_hard = {
-		1345414,
+		1345408,
 		84
 	},
 	child2_hard_enter = {
-		1345498,
+		1345492,
 		96
 	},
 	child2_switch_sure = {
-		1345594,
+		1345588,
 		337
 	},
 	child2_collect_entry_progress = {
-		1345931,
+		1345925,
 		110
 	},
 	child2_collect_talent_progress = {
-		1346041,
+		1346035,
 		112
 	},
 	child2_word_upgrade = {
-		1346153,
+		1346147,
 		91
 	},
 	child2_nailing_minigame_help = {
-		1346244,
+		1346238,
 		849
 	},
 	child2_nailing_game_result2 = {
-		1347093,
+		1347087,
 		97
 	},
 	child2_game_endless_cnt = {
-		1347190,
+		1347184,
 		103
 	},
 	cultivating_plant_task_title = {
-		1347293,
+		1347287,
 		116
 	},
 	cultivating_plant_island_task = {
-		1347409,
+		1347403,
 		128
 	},
 	cultivating_plant_part_1 = {
-		1347537,
+		1347531,
 		114
 	},
 	cultivating_plant_part_2 = {
-		1347651,
+		1347645,
 		118
 	},
 	cultivating_plant_part_3 = {
-		1347769,
+		1347763,
 		120
 	},
 	child2_priority_tip = {
-		1347889,
+		1347883,
 		117
 	},
 	child2_cur_round_temp = {
-		1348006,
+		1348000,
 		95
 	},
 	child2_nailing_game_result = {
-		1348101,
+		1348095,
 		96
 	},
 	child2_benefit_summary2 = {
-		1348197,
+		1348191,
 		101
 	},
 	child2_pool_exhausted = {
-		1348298,
+		1348292,
 		122
 	},
 	child2_secretary_skin_confirm = {
-		1348420,
+		1348414,
 		161
 	},
 	child2_secretary_skin_expire = {
-		1348581,
+		1348575,
 		128
 	},
 	child2_explorer_main_help = {
-		1348709,
+		1348703,
 		600
 	},
 	LiquorFloorTaskUI_title = {
-		1349309,
+		1349303,
 		104
 	},
 	LiquorFloorTaskUI_go = {
-		1349413,
+		1349407,
 		91
 	},
 	LiquorFloorTaskUI_get = {
-		1349504,
+		1349498,
 		91
 	},
 	LiquorFloorTaskUI_got = {
-		1349595,
+		1349589,
 		92
 	},
 	LiquorFloor_gold_get = {
-		1349687,
+		1349681,
 		101
 	},
 	MoscowURCoreActivity_subtitle_1 = {
-		1349788,
+		1349782,
 		116
 	},
 	MoscowURCoreActivity_subtitle_2 = {
-		1349904,
+		1349898,
 		109
 	},
 	YunLongSPCoreActivity_subtitle_1 = {
-		1350013,
+		1350007,
 		127
 	},
 	YunLongSPCoreActivity_subtitle_2 = {
-		1350140,
+		1350134,
 		121
 	},
 	loveactivity_help_tips = {
-		1350261,
+		1350255,
 		455
 	},
 	spring_present_tips_btn = {
-		1350716,
+		1350710,
 		104
 	},
 	spring_present_tips_time = {
-		1350820,
+		1350814,
 		138
 	},
 	spring_present_tips0 = {
-		1350958,
+		1350952,
 		143
 	},
 	spring_present_tips1 = {
-		1351101,
+		1351095,
 		176
 	},
 	spring_present_tips2 = {
-		1351277,
+		1351271,
 		184
 	},
 	spring_present_tips3 = {
-		1351461,
+		1351455,
 		121
 	},
 	aprilfool_2026_cd = {
-		1351582,
+		1351576,
 		89
 	},
 	purplebulin_help_2026 = {
-		1351671,
+		1351665,
 		518
 	},
 	battlepass_main_tip_2604 = {
-		1352189,
+		1352183,
 		249
 	},
 	battlepass_main_help_2604 = {
-		1352438,
+		1352432,
 		2896
 	},
 	cruise_task_help_2604 = {
-		1355334,
+		1355328,
 		1091
 	},
 	cruise_title_2604 = {
-		1356425,
+		1356419,
 		102
 	},
 	add_friend_fail_tip9 = {
-		1356527,
+		1356521,
 		106
 	},
 	juusoa_title = {
-		1356633,
+		1356627,
 		92
 	},
 	doa3_activityPageUI_1 = {
-		1356725,
+		1356719,
 		103
 	},
 	doa3_activityPageUI_2 = {
-		1356828,
+		1356822,
 		114
 	},
 	doa3_activityPageUI_3 = {
-		1356942,
+		1356936,
 		87
 	},
 	doa3_activityPageUI_4 = {
-		1357029,
+		1357023,
 		136
 	},
 	doa3_activityPageUI_5 = {
-		1357165,
+		1357159,
 		109
 	},
 	doa3_activityPageUI_6 = {
-		1357274,
+		1357268,
 		98
 	},
 	doa3_activityPageUI_7 = {
-		1357372,
+		1357366,
 		90
 	},
 	cut_fruit_minigame_help = {
-		1357462,
+		1357456,
 		649
 	},
 	story_recrewed = {
-		1358111,
+		1358105,
 		87
 	},
 	story_not_recrew = {
-		1358198,
+		1358192,
 		97
 	},
 	multiple_endings_tip = {
-		1358295,
+		1358289,
 		596
 	},
 	l2d_tip_on = {
-		1358891,
+		1358885,
 		103
 	},
 	l2d_tip_off = {
-		1358994,
+		1358988,
 		105
 	},
 	YidaliV5FramePage_go = {
-		1359099,
+		1359093,
 		86
 	},
 	YidaliV5FramePage_get = {
-		1359185,
+		1359179,
 		92
 	},
 	YidaliV5FramePage_got = {
-		1359277,
+		1359271,
 		94
 	},
 	["20260514_story_unlock_tip"] = {
-		1359371,
+		1359365,
 		119
 	},
 	OutPostCoreActivityUI_subtitle_1 = {
-		1359490,
+		1359484,
 		108
 	},
 	OutPostCoreActivityUI_subtitle_2 = {
-		1359598,
+		1359592,
 		113
 	},
 	OutPostOmenPage_task_tip1 = {
-		1359711,
+		1359705,
 		105
 	},
 	OutPostOmenPage_task_tip2 = {
-		1359816,
+		1359810,
 		149
 	},
 	play_room_season = {
-		1359965,
+		1359959,
 		86
 	},
 	play_room_season_en = {
-		1360051,
+		1360045,
 		89
 	},
 	play_room_viewer_tip = {
-		1360140,
+		1360134,
 		101
 	},
 	play_room_switch_viewer = {
-		1360241,
+		1360235,
 		95
 	},
 	play_room_switch_player = {
-		1360336,
+		1360330,
 		97
 	},
 	play_room_switch_tip = {
-		1360433,
+		1360427,
 		120
 	},
 	island_bar_quick_tip = {
-		1360553,
+		1360547,
 		131
 	},
 	island_bar_quick_addbot = {
-		1360684,
+		1360678,
 		123
 	},
 	match_exit = {
-		1360807,
+		1360801,
 		151
 	},
 	match_point_gap = {
-		1360958,
+		1360952,
 		145
 	},
 	match_room_num_full1 = {
-		1361103,
+		1361097,
 		125
 	},
 	match_room_full2 = {
-		1361228,
+		1361222,
 		115
 	},
 	match_no_search_room = {
-		1361343,
+		1361337,
 		104
 	},
 	match_ui_room_name = {
-		1361447,
+		1361441,
 		91
 	},
 	match_ui_room_create = {
-		1361538,
+		1361532,
 		93
 	},
 	match_ui_room_search = {
-		1361631,
+		1361625,
 		90
 	},
 	match_ui_room_type1 = {
-		1361721,
+		1361715,
 		90
 	},
 	match_ui_room_type2 = {
-		1361811,
+		1361805,
 		87
 	},
 	match_ui_room_type3 = {
-		1361898,
+		1361892,
 		87
 	},
 	match_ui_room_type4 = {
-		1361985,
+		1361979,
 		90
 	},
 	match_ui_room_filtertitle1 = {
-		1362075,
+		1362069,
 		94
 	},
 	match_ui_room_filtertitle2 = {
-		1362169,
+		1362163,
 		94
 	},
 	match_ui_room_filtertitle3 = {
-		1362263,
+		1362257,
 		96
 	},
 	match_ui_room_filter1 = {
-		1362359,
+		1362353,
 		92
 	},
 	match_ui_room_filter2 = {
-		1362451,
+		1362445,
 		95
 	},
 	match_ui_room_filter3 = {
-		1362546,
+		1362540,
 		94
 	},
 	match_ui_room_filter4 = {
-		1362640,
+		1362634,
 		94
 	},
 	match_ui_room_filter5 = {
-		1362734,
+		1362728,
 		91
 	},
 	match_ui_room_filter6 = {
-		1362825,
+		1362819,
 		92
 	},
 	match_ui_room_filter7 = {
-		1362917,
+		1362911,
 		95
 	},
 	match_ui_room_filter8 = {
-		1363012,
+		1363006,
 		92
 	},
 	match_ui_room_filter9 = {
-		1363104,
+		1363098,
 		96
 	},
 	match_ui_room_out = {
-		1363200,
+		1363194,
 		111
 	},
 	match_ui_room_homeowner = {
-		1363311,
+		1363305,
 		91
 	},
 	match_ui_room_send = {
-		1363402,
+		1363396,
 		86
 	},
 	match_ui_room_ready1 = {
-		1363488,
+		1363482,
 		89
 	},
 	match_ui_room_ready2 = {
-		1363577,
+		1363571,
 		89
 	},
 	match_ui_room_startgame = {
-		1363666,
+		1363660,
 		92
 	},
 	match_ui_matching_invitation = {
-		1363758,
+		1363752,
 		110
 	},
 	match_ui_matching_consent = {
-		1363868,
+		1363862,
 		95
 	},
 	match_ui_matching_waiting1 = {
-		1363963,
+		1363957,
 		104
 	},
 	match_ui_matching_waiting2 = {
-		1364067,
+		1364061,
 		101
 	},
 	match_ui_matching_loading = {
-		1364168,
+		1364162,
 		99
 	},
 	match_ui_ranking_list1 = {
-		1364267,
+		1364261,
 		93
 	},
 	match_ui_ranking_list2 = {
-		1364360,
+		1364354,
 		91
 	},
 	match_ui_ranking_list3 = {
-		1364451,
+		1364445,
 		89
 	},
 	match_ui_ranking_list4 = {
-		1364540,
+		1364534,
 		94
 	},
 	match_ui_punishment1 = {
-		1364634,
+		1364628,
 		119
 	},
 	match_ui_punishment2 = {
-		1364753,
+		1364747,
 		91
 	},
 	match_ui_chat = {
-		1364844,
+		1364838,
 		81
 	},
 	match_ui_point_match = {
-		1364925,
+		1364919,
 		102
 	},
 	match_ui_accept = {
-		1365027,
+		1365021,
 		86
 	},
 	match_ui_matching = {
-		1365113,
+		1365107,
 		92
 	},
 	match_ui_point = {
-		1365205,
+		1365199,
 		89
 	},
 	match_ui_room_list = {
-		1365294,
+		1365288,
 		91
 	},
 	match_ui_matching2 = {
-		1365385,
+		1365379,
 		93
 	},
 	match_ui_server_unkonw = {
-		1365478,
+		1365472,
 		93
 	},
 	match_ui_window_out = {
-		1365571,
+		1365565,
 		91
 	},
 	match_ui_matching_fail = {
-		1365662,
+		1365656,
 		123
 	},
 	bar_ui_start1 = {
-		1365785,
+		1365779,
 		93
 	},
 	bar_ui_start2 = {
-		1365878,
+		1365872,
 		93
 	},
 	bar_ui_check1 = {
-		1365971,
+		1365965,
 		81
 	},
 	bar_ui_check2 = {
-		1366052,
+		1366046,
 		88
 	},
 	bar_ui_game1 = {
-		1366140,
+		1366134,
 		86
 	},
 	bar_ui_game3 = {
-		1366226,
+		1366220,
 		81
 	},
 	bar_ui_game4 = {
-		1366307,
+		1366301,
 		110
 	},
 	bar_ui_end1 = {
-		1366417,
+		1366411,
 		79
 	},
 	bar_ui_end2 = {
-		1366496,
+		1366490,
 		81
 	},
 	bar_tips_game1 = {
-		1366577,
+		1366571,
 		103
 	},
 	bar_tips_game2 = {
-		1366680,
+		1366674,
 		99
 	},
 	bar_tips_game3 = {
-		1366779,
+		1366773,
 		125
 	},
 	bar_tips_game4 = {
-		1366904,
+		1366898,
 		115
 	},
 	bar_tips_game5 = {
-		1367019,
+		1367013,
 		123
 	},
 	bar_tips_game6 = {
-		1367142,
+		1367136,
 		168
 	},
 	bar_tips_game7 = {
-		1367310,
+		1367304,
 		111
 	},
 	exchange_code_tip = {
-		1367421,
+		1367415,
 		116
 	},
 	exchange_code_skin = {
-		1367537,
+		1367531,
 		177
 	},
 	exchange_code_error_16 = {
-		1367714,
+		1367708,
 		133
 	},
 	exchange_code_error_12 = {
-		1367847,
+		1367841,
 		112
 	},
 	exchange_code_error_9 = {
-		1367959,
+		1367953,
 		103
 	},
 	exchange_code_error_20 = {
-		1368062,
+		1368056,
 		116
 	},
 	exchange_code_error_6 = {
-		1368178,
+		1368172,
 		123
 	},
 	exchange_code_error_7 = {
-		1368301,
+		1368295,
 		122
 	},
 	exchange_code_before_time = {
-		1368423,
+		1368417,
 		128
 	},
 	exchange_code_after_time = {
-		1368551,
+		1368545,
 		115
 	},
 	exchange_code_skin_tip = {
-		1368666,
+		1368660,
 		90
 	},
 	battlepass_main_tip_2606 = {
-		1368756,
+		1368750,
 		255
 	},
 	battlepass_main_help_2606 = {
-		1369011,
+		1369005,
 		2900
 	},
 	cruise_task_help_2606 = {
-		1371911,
+		1371905,
 		1091
 	},
 	cruise_title_2606 = {
-		1373002,
+		1372996,
 		102
 	},
 	littleyunxian_npc = {
-		1373104,
+		1373098,
 		1435
 	},
 	littleMusashi_npc = {
-		1374539,
+		1374533,
 		1448
 	},
 	["260514_story_title"] = {
-		1375987,
+		1375981,
 		99
 	},
 	["260514_story_title_en"] = {
-		1376086,
+		1376080,
 		102
 	},
 	mall_title = {
-		1376188,
+		1376182,
 		84
 	},
 	mall_title_en = {
-		1376272,
+		1376266,
 		83
 	},
 	mall_point_name_type1 = {
-		1376355,
+		1376349,
 		94
 	},
 	mall_point_name_type2 = {
-		1376449,
+		1376443,
 		93
 	},
 	mall_point_name_type3 = {
-		1376542,
+		1376536,
 		100
 	},
 	mall_point_name_type4 = {
-		1376642,
+		1376636,
 		102
 	},
 	mall_order_char_header = {
-		1376744,
+		1376738,
 		96
 	},
 	mall_order_need_attrs_header = {
-		1376840,
+		1376834,
 		113
 	},
 	mall_order_btn_staff = {
-		1376953,
+		1376947,
 		96
 	},
 	mall_right_title_upgrade = {
-		1377049,
+		1377043,
 		101
 	},
 	mall_round_header = {
-		1377150,
+		1377144,
 		87
 	},
 	mall_level_header = {
-		1377237,
+		1377231,
 		92
 	},
 	mall_input_header = {
-		1377329,
+		1377323,
 		101
 	},
 	mall_summary_btn = {
-		1377430,
+		1377424,
 		100
 	},
 	mall_evaluate_title = {
-		1377530,
+		1377524,
 		122
 	},
 	mall_summary_title = {
-		1377652,
+		1377646,
 		95
 	},
 	mall_floor_income_header = {
-		1377747,
+		1377741,
 		99
 	},
 	mall_total_income_header = {
-		1377846,
+		1377840,
 		97
 	},
 	mall_balance_header = {
-		1377943,
+		1377937,
 		92
 	},
 	mall_open_title = {
-		1378035,
+		1378029,
 		90
 	},
 	mall_help = {
-		1378125,
+		1378119,
 		2085
 	},
 	mall_floor_lock = {
-		1380210,
+		1380204,
 		96
 	},
 	mall_rank_close = {
-		1380306,
+		1380300,
 		86
 	},
 	mall_rank_s = {
-		1380392,
+		1380386,
 		76
 	},
 	mall_rank_a = {
-		1380468,
+		1380462,
 		76
 	},
 	mall_rank_b = {
-		1380544,
+		1380538,
 		76
 	},
 	mall_staff_in_floor = {
-		1380620,
+		1380614,
 		90
 	},
 	mall_staff_in_order = {
-		1380710,
+		1380704,
 		93
 	},
 	mall_remove_floor_sure = {
-		1380803,
+		1380797,
 		177
 	},
 	mall_order_btn_doing = {
-		1380980,
+		1380974,
 		94
 	},
 	mall_order_btn_complete = {
-		1381074,
+		1381068,
 		101
 	},
 	mall_input_btn = {
-		1381175,
+		1381169,
 		91
 	},
 	mall_order_btn_start = {
-		1381266,
+		1381260,
 		101
 	},
 	mall_upgrade_title = {
-		1381367,
+		1381361,
 		103
 	},
 	mall_right_title_summary = {
-		1381470,
+		1381464,
 		108
 	},
 	mall_change_floor_sure = {
-		1381578,
+		1381572,
 		187
 	},
 	mall_change_order_sure = {
-		1381765,
+		1381759,
 		181
 	},
 	mall_award_can_get = {
-		1381946,
+		1381940,
 		89
 	},
 	mall_award_get = {
-		1382035,
+		1382029,
 		87
 	},
 	mall_order_wait_tip = {
-		1382122,
+		1382116,
 		104
 	},
 	mall_order_unlock_lv_tip = {
-		1382226,
+		1382220,
 		136
 	},
 	mall_order_need_staff_header = {
-		1382362,
+		1382356,
 		105
 	},
 	mall_get_all_btn = {
-		1382467,
+		1382461,
 		91
 	},
 	mall_award_got = {
-		1382558,
+		1382552,
 		87
 	},
 	loading_picture_lack = {
-		1382645,
+		1382639,
 		119
 	},
 	loading_title = {
-		1382764,
+		1382758,
 		100
 	},
 	loading_start_set = {
-		1382864,
+		1382858,
 		103
 	},
 	loading_pic_chosen = {
-		1382967,
+		1382961,
 		90
 	},
 	loading_pic_tip = {
-		1383057,
+		1383051,
 		141
 	},
 	loading_pic_max = {
-		1383198,
+		1383192,
 		107
 	},
 	loading_pic_min = {
-		1383305,
+		1383299,
 		110
 	},
 	loading_quit_tip = {
-		1383415,
+		1383409,
 		203
 	},
 	loading_set_tip = {
-		1383618,
+		1383612,
 		146
 	},
 	loading_chosen_blank = {
-		1383764,
+		1383758,
 		111
 	},
 	sort_minigame_help = {
-		1383875,
+		1383869,
 		407
 	},
 	AnniversaryNineCoreActivity_subtitle_1 = {
-		1384282,
+		1384276,
 		117
 	},
 	AnniversaryNineCoreActivity_subtitle_2 = {
-		1384399,
+		1384393,
 		120
 	},
 	mall_unlock_date_tip = {
-		1384519,
+		1384513,
 		167
 	},
 	mall_finished_all_tip = {
-		1384686,
+		1384680,
 		106
 	},
 	memory_filter_option_1 = {
-		1384792,
+		1384786,
 		93
 	},
 	memory_filter_option_2 = {
-		1384885,
+		1384879,
 		94
 	},
 	memory_filter_option_3 = {
-		1384979,
+		1384973,
 		89
 	},
 	memory_filter_option_4 = {
-		1385068,
+		1385062,
 		96
 	},
 	memory_filter_option_5 = {
-		1385164,
+		1385158,
 		92
 	},
 	memory_filter_option_6 = {
-		1385256,
+		1385250,
 		108
 	},
 	memory_filter_title_1 = {
-		1385364,
+		1385358,
 		91
 	},
 	memory_filter_title_2 = {
-		1385455,
+		1385449,
 		91
 	},
 	memory_goto = {
-		1385546,
+		1385540,
 		82
 	},
 	memory_unlock = {
-		1385628,
+		1385622,
 		90
 	},
 	mall_char_lock = {
-		1385718,
+		1385712,
 		110
 	},
 	mall_title_lock = {
-		1385828,
+		1385822,
 		106
 	},
 	mall_continue_to_unlock = {
-		1385934,
+		1385928,
 		114
 	},
 	mall_pos_lock = {
-		1386048,
+		1386042,
 		110
 	},
 	GeZiURCoreActivityUI_subtitle_1 = {
-		1386158,
+		1386152,
 		100
 	},
 	GeZiURCoreActivityUI_subtitle_2 = {
-		1386258,
+		1386252,
 		110
 	},
 	GeZiURCoreActivityUI_subtitle_3 = {
-		1386368,
+		1386362,
 		106
 	},
 	AnniversaryNineCoreActivityUI_subtitle_1 = {
-		1386474,
+		1386468,
 		115
 	},
 	AnniversaryNineCoreActivityUI_subtitle_2 = {
-		1386589,
+		1386583,
 		121
 	},
 	AnniversaryNineCoreActivityUI_subtitle_3 = {
-		1386710,
+		1386704,
 		116
 	},
 	anniversary_nine_main_page = {
-		1386826,
+		1386820,
 		103
 	},
 	AnniversaryNineCoreActivityUI_subtitle_6 = {
-		1386929,
+		1386923,
 		126
 	},
 	Outpost_20260514_Detail = {
-		1387055,
+		1387049,
 		94
 	},
 	mall_level_max = {
-		1387149,
+		1387143,
 		109
 	},
+	equipment_design_chapter = {
+		1387252,
+		100
+	},
+	equipment_design_tech = {
+		1387352,
+		107
+	},
+	equipment_design_shop = {
+		1387459,
+		89
+	},
+	equipment_design_btn_expand = {
+		1387548,
+		98
+	},
+	equipment_design_btn_fold = {
+		1387646,
+		93
+	},
+	equipment_design_btn_skip = {
+		1387739,
+		91
+	},
+	equipment_design_sub_title = {
+		1387830,
+		104
+	},
 	mall_staff_position_full_tip = {
-		1387258,
+		1387934,
 		148
 	},
 	mall_gold_input_success_tip = {
-		1387406,
+		1388082,
 		111
 	},
 	mall_floor_all_empty_tip = {
-		1387517,
+		1388193,
 		146
 	},
 	mall_unlock_date_tip2 = {
-		1387663,
+		1388339,
 		101
 	},
 	mall_order_finished_all_tip = {
-		1387764,
+		1388440,
 		130
 	},
 	littleyunxian_tip1 = {
-		1387894,
+		1388570,
 		87
 	},
 	littleyunxian_tip2 = {
-		1387981,
+		1388657,
 		87
 	},
 	OutPostCoreActivityUI_subtitle_3 = {
-		1388068,
+		1388744,
 		118
+	},
+	OutPostCoreActivityUI_subtitle_4 = {
+		1388862,
+		125
+	},
+	island_dress_tag_twins = {
+		1388987,
+		100
+	},
+	island_dress_tag_sp_animator = {
+		1389087,
+		111
+	},
+	island_mecha_task_preview = {
+		1389198,
+		101
+	},
+	island_mecha_task_description = {
+		1389299,
+		179
+	},
+	island_mecha_task_look_all = {
+		1389478,
+		102
+	},
+	island_mecha_task_progress = {
+		1389580,
+		106
+	},
+	island_mecha_task_lock_tip = {
+		1389686,
+		106
+	},
+	yearly_sign_in = {
+		1389792,
+		91
 	}
 }

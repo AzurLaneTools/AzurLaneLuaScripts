@@ -53,7 +53,7 @@ slot0.init = function(slot0, ...)
 
 							uv2 = uv1.id
 
-							if uv0:GetActivityClassName(uv1) == "AnniversaryNineHwahJahSkinPage" then
+							if uv0:GetActivityClassName(uv1) == "AnniversaryNineHwahJahSkinPage" or slot1 == "AnniversaryNineEvertsenSkinPage" then
 								uv0:SetColorTab(uv4)
 							else
 								uv0:SetColorTab(uv5)
@@ -67,8 +67,10 @@ slot0.init = function(slot0, ...)
 end
 
 slot0.SetColorTab = function(slot0, slot1)
-	for slot5 = 1, 7 do
-		setTextColor(slot0.tabs:Find(slot5 .. "/off/name"), Color.NewHex(slot1))
+	for slot5 = 0, slot0.tabs.childCount - 1 do
+		if slot0.tabs:GetChild(slot5):Find("off/name") then
+			setTextColor(slot7, Color.NewHex(slot1))
+		end
 	end
 end
 

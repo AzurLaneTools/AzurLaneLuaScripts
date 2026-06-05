@@ -5,6 +5,9 @@ slot0.OnAttach = function(slot0, slot1, slot2)
 	slot0.toolContainer = slot2
 	slot0._go = slot1
 	slot0._tf = slot0._go.transform
+	slot3 = slot0._tf
+	slot3 = slot3:GetChild(0)
+	slot0.animator = slot3:GetComponent(typeof(Animator))
 	slot0.characterHandleController = GetOrAddComponent(slot0._go, typeof(CharacterHandleController))
 	slot3 = slot0.characterHandleController
 
@@ -31,12 +34,15 @@ slot0.OnAttach = function(slot0, slot1, slot2)
 	end)
 
 	slot0.objTfList = {}
+	slot0.toolIdMap = {}
 end
 
 slot0.LoadInteractiveTool = function(slot0, slot1)
 	slot0.toolId = slot1
+	slot0.currentToolId = IslandAnimationAttachmentHelper.ResolveId(slot0.animator, slot0.toolId)
+	slot0.toolIdMap[slot1] = slot0.currentToolId
 
-	if not IsNil(slot0.objTfList[slot0.toolId]) then
+	if not IsNil(slot0.objTfList[slot0.currentToolId]) then
 		setActive(slot2, true)
 		setParent(slot2, slot0._tf)
 		pg.ViewUtils.SetLayer(slot2, Layer.Character3D)
@@ -44,18 +50,18 @@ slot0.LoadInteractiveTool = function(slot0, slot1)
 		return
 	end
 
-	slot3 = pg.island_animation_attachments[slot0.toolId]
-	slot0.objTfList[slot0.toolId] = Object.Instantiate(LoadAny(slot3.model, nil)).transform
-	GetOrAddComponent(slot0.objTfList[slot0.toolId], typeof(Animator)).runtimeAnimatorController = LoadAny(slot3.animator, nil, typeof(RuntimeAnimatorController))
+	slot3 = pg.island_animation_attachments[slot0.currentToolId]
+	slot0.objTfList[slot0.currentToolId] = Object.Instantiate(LoadAny(slot3.model, nil)).transform
+	GetOrAddComponent(slot0.objTfList[slot0.currentToolId], typeof(Animator)).runtimeAnimatorController = LoadAny(slot3.animator, nil, typeof(RuntimeAnimatorController))
 
-	setParent(slot0.objTfList[slot0.toolId], slot0._tf)
-	pg.ViewUtils.SetLayer(slot0.objTfList[slot0.toolId], Layer.Character3D)
+	setParent(slot0.objTfList[slot0.currentToolId], slot0._tf)
+	pg.ViewUtils.SetLayer(slot0.objTfList[slot0.currentToolId], Layer.Character3D)
 end
 
-slot0.UnLoadInteractiveTool = function(slot0)
-	if slot0.objTfList[slot0.toolId] then
-		setActive(slot1, false)
-		setParent(slot1, slot0.toolContainer)
+slot0.UnLoadInteractiveTool = function(slot0, slot1)
+	if slot0.objTfList[slot0.toolIdMap[slot1] or slot0.currentToolId or IslandAnimationAttachmentHelper.ResolveId(slot0.animator, slot1)] then
+		setActive(slot3, false)
+		setParent(slot3, slot0.toolContainer)
 	end
 end
 
@@ -66,11 +72,19 @@ slot0.StateEnterHandle = function(slot0, slot1, slot2)
 end
 
 slot0.StateEnterFixHandle = function(slot0, slot1, slot2)
-	pg.ViewUtils.SetLayer(slot0.objTfList[slot0.toolId], Layer.Character3D)
+	slot3 = slot0.toolIdMap[slot2] or slot0.currentToolId
+
+	if slot1 == uv0 and slot3 and slot0.objTfList[slot3] then
+		pg.ViewUtils.SetLayer(slot0.objTfList[slot3], Layer.Character3D)
+	end
 end
 
 slot0.StateExitFixHandle = function(slot0, slot1, slot2)
-	pg.ViewUtils.SetLayer(slot0.objTfList[slot0.toolId], Layer.Default)
+	slot3 = slot0.toolIdMap[slot2] or slot0.currentToolId
+
+	if slot1 == uv0 and slot3 and slot0.objTfList[slot3] then
+		pg.ViewUtils.SetLayer(slot0.objTfList[slot3], Layer.Default)
+	end
 end
 
 slot0.StateExitHandle = function(slot0, slot1, slot2)

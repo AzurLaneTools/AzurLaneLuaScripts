@@ -228,7 +228,7 @@ end
 slot0.GetEnergyMaxTime = function(slot0)
 	slot1 = pg.TimeMgr.GetInstance():GetServerTime()
 	slot2 = slot0.maxEnerey - slot0:GetCurrentEnergyDecimal()
-	slot5 = slot0:GetSkillAddRecoverSpeed() > 0 and slot0.recoverSpeed / (1 + slot4 * 0.01) or slot0.recoverSpeed
+	slot5 = slot0.recoverSpeed / (1 + slot0:GetSkillAddRecoverSpeed() * 0.01)
 
 	if #slot0:GetVaildStatusByType(IslandBuffType.SHIP_POWER_RECOVER) == 0 then
 		return slot1 + math.floor(slot2 * slot5)

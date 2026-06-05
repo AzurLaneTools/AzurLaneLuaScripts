@@ -51,7 +51,8 @@ slot0.listNotificationInterests = function(slot0)
 		GAME.COMPOSITE_EQUIPMENT_DONE,
 		BagProxy.ITEM_UPDATED,
 		PlayerProxy.UPDATED,
-		EquipmentProxy.EQUIPMENT_UPDATED
+		EquipmentProxy.EQUIPMENT_UPDATED,
+		GAME.TOGGLE_ALL_DESIGN_EQUIPMENT
 	}
 end
 
@@ -67,6 +68,10 @@ slot0.handleNotification = function(slot0, slot1)
 		slot0.viewComponent:setPlayer(slot0.playerProxy:getData())
 	elseif slot2 == EquipmentProxy.EQUIPMENT_UPDATED then
 		slot0.viewComponent:setCapacity(slot0.equipmentProxy:getCapacity())
+	elseif slot2 == GAME.TOGGLE_ALL_DESIGN_EQUIPMENT then
+		slot0.contextData.isShowAllDesign = slot3
+
+		slot0.viewComponent:filter(slot0.contextData.index or 1, true)
 	end
 end
 

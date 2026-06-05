@@ -24,7 +24,8 @@ pg.world_joint_boss_template.all = {
 	19,
 	20,
 	21,
-	22
+	22,
+	23
 }
 pg.base = pg.base or {}
 pg.base.world_joint_boss_template = {}
@@ -575,7 +576,7 @@ pg.base.world_joint_boss_template = {}
 	pg.base.world_joint_boss_template[17] = {
 		name = "Taihou META",
 		boss_level_id = 241,
-		state = "stop",
+		state = "always",
 		item_id = 100000,
 		painting = "dafeng",
 		meta_id = 970705,
@@ -898,6 +899,69 @@ pg.base.world_joint_boss_template = {}
 			470,
 			0.65,
 			0.65
+		}
+	}
+	pg.base.world_joint_boss_template[23] = {
+		name = "Bristol META",
+		boss_level_id = 331,
+		item_id = 100000,
+		painting = "bulisituoer",
+		meta_id = 970112,
+		id = 23,
+		description = {
+			{
+				"I See Everything!",
+				3,
+				"During battle, Bristol META uses her lantern to illuminate an area, <color=#92fc63>greatly reducing</color> the Evasion Rate of your ships in the area."
+			},
+			{
+				"Sic 'Em, Data 857!",
+				2,
+				"When Data 857 is accompanying Bristol META, Bristol META deals 20.0% more DMG and takes 20.0% reduced DMG.\nWhenever one of your ships gains a buff that provides <color=#92fc63>complete evasion or invulnerability</color>, Bristol META will release Data 857 from her side to target the ship with complete evasion or invulnerability (prioritizes the Vanguard's frontmost ship or the Main Fleet's flagship), dealing DMG over time based on the target's Max HP; When the target loses complete evasion or invulnerability, Data 857 will return to accompanying Bristol META."
+			},
+			{
+				"The Shadow Within the Lantern",
+				1,
+				"Some time after the start of battle, an eldritch creature will appear within the lantern's vicinity, affecting both your ships and the enemy in mysterious ways.\nWhile the eldritch creature is present, <color=#92fc63>all ships on the battlefield has slightly reduced ACC</color>."
+			}
+		},
+		state = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		p_offset = {
+			-392,
+			457,
+			0.7,
+			0.7
+		},
+		p_offset_other = {
+			261,
+			495,
+			0.7,
+			0.7
 		}
 	}
 end)()

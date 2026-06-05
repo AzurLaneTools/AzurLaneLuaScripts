@@ -104,6 +104,18 @@ slot0.IsEffectiveInRest = function(slot0, slot1)
 	end)
 end
 
+slot0.IsAllEffectiveType = function(slot0)
+	return underscore.any(slot0:GetEffectIds(), function (slot0)
+		return pg.island_buff_template[slot0].buff_type == IslandBuffType.SHIP_ATTR
+	end)
+end
+
+slot0.IsPlaceDefaultEffectiveType = function(slot0)
+	return underscore.any(slot0:GetEffectIds(), function (slot0)
+		return pg.island_buff_template[slot0].buff_type == IslandBuffType.SHIP_POWER_RECOVER
+	end)
+end
+
 slot0.GetUpgradeMaterial = function(slot0)
 	slot2 = {}
 	slot3 = ipairs

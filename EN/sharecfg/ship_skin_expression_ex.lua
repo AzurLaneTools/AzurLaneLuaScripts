@@ -27174,4 +27174,77 @@ end)()
 			}
 		}
 	}
+	pg.base.ship_skin_expression_ex.tianlangxing = {
+		feeling3 = "",
+		main_1 = "",
+		mission = "",
+		expedition = "",
+		win_mvp = "",
+		mail = "",
+		painting = "tianlangxing",
+		feeling1 = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		upgrade = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"1"
+			}
+		},
+		home = {
+			{
+				1100,
+				"3"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"1"
+			}
+		},
+		detail = {
+			{
+				1100,
+				""
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"3|1|1"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"3"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"1"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"1"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"1"
+			}
+		}
+	}
 end)()

@@ -14,6 +14,7 @@ pg.game_room_template.all = {
 	9,
 	10,
 	11,
+	13,
 	18,
 	19,
 	20,
@@ -824,6 +825,79 @@ Over 3000 points: 260 Game Tickets]]
 			-280
 		}
 	}
+	pg.base.game_room_template[13] = {
+		id = 13,
+		type = 11,
+		add_base = 200,
+		add_type = 12,
+		coin_max = 5,
+		game_id = 1014,
+		icon = "songdangao",
+		order = 21,
+		unlock_time = {
+			{
+				2026,
+				6,
+				5
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		add_num = {
+			{
+				20,
+				1.3
+			},
+			{
+				15,
+				1.2
+			},
+			{
+				10,
+				1.1
+			},
+			{
+				5,
+				1
+			},
+			{
+				0,
+				0.9
+			}
+		},
+		game_help = {
+			{
+				info = [[
+- Operation: Patisserie II Overview -
+See what the manjuus want to order, then pick out the correct dessert from the left side of the screen by tapping on it.
+Completing orders correctly scores you points. Try to get as high a score as possible before the timer runs out.
+
+- How to Play -
+1. Before the game starts, you must select a Main and Sub shipgirl to bring over the desserts.
+2. Tap a dessert on the table on the left side of the screen to instruct your shipgirls to fetch it.
+3. After a shipgirl has picked up a dessert, tap one of the manjuus at the center of the screen to serve the dessert.
+4. Serving the correct dessert scores 1 point for your team. Serving the wrong dessert subtracts 1 point.
+5. The Sub shipgirl you select serves desserts on her own, just like the CPU team you're playing against (using the table on the right side).
+6. The minigame ends when the timer hits 0. The team with the most points wins.
+
+Every Main and Sub shipgirl has a unique trait. Choose your team wisely!'
+
+Potential rewards (per 1 Credit used):
+0-4 points: Game Ticket x180
+5-9 points: Game Ticket x200
+10-14 points: Game Ticket x220
+15-19 points: Game Ticket x240
+20+ points: Game Ticket x260.]]
+			}
+		},
+		position = {
+			0,
+			-120
+		}
+	}
 	pg.base.game_room_template[18] = {
 		id = 18,
 		type = 11,
@@ -1302,12 +1376,12 @@ Over 6000 points: 260 Game Tickets]]
 		coin_max = 5,
 		game_id = 1025,
 		icon = "duomaomao",
-		order = 25,
+		order = 22,
 		unlock_time = {
 			{
-				2036,
-				4,
-				18
+				2026,
+				6,
+				5
 			},
 			{
 				0,
@@ -1317,19 +1391,19 @@ Over 6000 points: 260 Game Tickets]]
 		},
 		add_num = {
 			{
-				6001,
+				12000,
 				1.3
 			},
 			{
-				3001,
+				8001,
 				1.2
 			},
 			{
-				2001,
+				4001,
 				1.1
 			},
 			{
-				1001,
+				2001,
 				1
 			},
 			{
@@ -1340,34 +1414,21 @@ Over 6000 points: 260 Game Tickets]]
 		game_help = {
 			{
 				info = [[
-- Overview -
-In the Fu Shun's Great Adventure V minigame, take control of Fu Shun and help her avoid obstacles and pitfalls while defeating enemies to rack up points.
+- Manjuu Hide & Peep Overview -
+Rack up points by calling out as many shipgirls as you can within the time limit.
 
 - How to Play -
-· Tap the button on the bottom left of the screen to jump.
-· Tap the button on the bottom right of the screen to attack.
-· Coming in contact with a Nianjuu will hurt you for 1 health point.
-· When you run out of health points, fall off, or use the "End Game" button, the minigame is done.
-· You may come across useful items as you play through the minigame. These include:
-1. Coin - Worth 50 points
-2. Amulet - Worth 300 points
-3. Power Juice - Increases your movement speed and jump height and lets you defeat Nianjuus by stomping them
-4. Missiles - Upgrades your regular attack into a missile strike
-5. Magnet - Attracts nearby items
-6. Shield - Negates 1 point of damage (up to 3 shields can be held at a time)
-Defeating Nianjuu is worth 500 points.
+· Shipgirls will come out of hiding during the minigame. Gain points by tapping on them to call them out.
+· Calling out a shipgirl within 2 seconds of her appearing will yield bonus points, up to a maximum of 300.
+· Calling out a shipgirl who's running will yield an additional 400 bonus points.
+· The minigame concludes when the timer runs out or when you tap the button to end it early.'
 
-The game ends when you finish the game or when you tap the End Game button.
-
-The game ends when you finish the game or when you tap the End Game button.
-
-When completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.
-· Refer to the following score-to-ticket values for each Credit spent:
-0-1000 points: 180 Game Tickets
-1001-2000 points: 200 Game Tickets
-2001-3000 points: 220 Game Tickets
-3001-6000 points: 240 Game Tickets
-Over 6000 points: 260 Game Tickets]]
+Potential rewards (per 1 Credit used):
+0-2000 points: Game Ticket x180
+2001-4000 points: Game Ticket x200
+4001-8000 points: Game Ticket x220
+8001-12000 points: Game Ticket x240
+12001+ points: Game Ticket x260.]]
 			}
 		},
 		position = {
@@ -1383,12 +1444,12 @@ Over 6000 points: 260 Game Tickets]]
 		coin_max = 5,
 		game_id = 1026,
 		icon = "bingjiling",
-		order = 26,
+		order = 23,
 		unlock_time = {
 			{
-				2036,
-				4,
-				18
+				2026,
+				6,
+				5
 			},
 			{
 				0,
@@ -1398,19 +1459,19 @@ Over 6000 points: 260 Game Tickets]]
 		},
 		add_num = {
 			{
-				6001,
+				8001,
 				1.3
 			},
 			{
-				3001,
+				6001,
 				1.2
 			},
 			{
-				2001,
+				4001,
 				1.1
 			},
 			{
-				1001,
+				2001,
 				1
 			},
 			{
@@ -1421,34 +1482,26 @@ Over 6000 points: 260 Game Tickets]]
 		game_help = {
 			{
 				info = [[
-- Overview -
-In the Fu Shun's Great Adventure V minigame, take control of Fu Shun and help her avoid obstacles and pitfalls while defeating enemies to rack up points.
+- Manjuu Ice Cream Overview -
+Match the correct toppings and ice cream flavors with what the customers order by tapping on the ingredients. Matching correctly scores you points.
 
 - How to Play -
-· Tap the button on the bottom left of the screen to jump.
-· Tap the button on the bottom right of the screen to attack.
-· Coming in contact with a Nianjuu will hurt you for 1 health point.
-· When you run out of health points, fall off, or use the "End Game" button, the minigame is done.
-· You may come across useful items as you play through the minigame. These include:
-1. Coin - Worth 50 points
-2. Amulet - Worth 300 points
-3. Power Juice - Increases your movement speed and jump height and lets you defeat Nianjuus by stomping them
-4. Missiles - Upgrades your regular attack into a missile strike
-5. Magnet - Attracts nearby items
-6. Shield - Negates 1 point of damage (up to 3 shields can be held at a time)
-Defeating Nianjuu is worth 500 points.
+1. Customers appear and ask for a particular combination of flavors and toppings.
+2. Tap the correct ingredients on the bottom of the screen to create their desired ice cream. The ice cream will be handed to them after you've chosen the same number of ingredients as they ask for, then you'll receive a new order.
+3. Your score and the customer's reaction depend on if you got their order correct or not. How long it took you to pick the toppings and flavors and if they were the right ones or not also influence your score.
+4. The minigame ends once the timer reaches 0 or when you quit the game early.
 
-The game ends when you finish the game or when you tap the End Game button.
+- Combo Bonuses -
+· When you get a customer's order exactly right, there is a chance that the countdown timer for the next ice cream order will move slower for 4 seconds. This bonus cannot activate again until 5 seconds after it expires.
+· When you get 2 orders exactly right in a row, 2 seconds will be added to the next order countdown timer.
+· When you get 2 orders exactly right in a row from the same customer, you gain twice as many points from the next customer. This bonus can only activate once per unique customer.'
 
-The game ends when you finish the game or when you tap the End Game button.
-
-When completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.
-· Refer to the following score-to-ticket values for each Credit spent:
-0-1000 points: 180 Game Tickets
-1001-2000 points: 200 Game Tickets
-2001-3000 points: 220 Game Tickets
-3001-6000 points: 240 Game Tickets
-Over 6000 points: 260 Game Tickets]]
+Potential rewards (per 1 Credit used):
+0-2000 points: Game Ticket x180
+2001-4000 points: Game Ticket x200
+4001-6000 points: Game Ticket x220
+6001-8000 points: Game Ticket x240
+8001+ points: Game Ticket x260.]]
 			}
 		},
 		position = {
