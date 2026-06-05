@@ -349,6 +349,21 @@ pg.task_meta_data_template.all = {
 	100523,
 	100524,
 	100525,
+	100541,
+	100542,
+	100543,
+	100544,
+	100545,
+	100531,
+	100532,
+	100533,
+	100534,
+	100535,
+	100561,
+	100562,
+	100563,
+	100564,
+	100565,
 	200001,
 	200002,
 	200003,
@@ -516,7 +531,19 @@ pg.task_meta_data_template.all = {
 	200431,
 	200432,
 	200433,
-	200434
+	200434,
+	200451,
+	200452,
+	200453,
+	200454,
+	200441,
+	200442,
+	200443,
+	200444,
+	200471,
+	200472,
+	200473,
+	200474
 }
 pg.base = pg.base or {}
 pg.base.task_meta_data_template = {}
@@ -3288,6 +3315,126 @@ end)()
 		target_num = 1,
 		desc = "使用甘古特·META擊破等級＞100的敵方1次"
 	}
+	pg.base.task_meta_data_template[100541] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970210",
+		id = 100541,
+		target_num = 1,
+		desc = "使用{namecode:553}獲得1次勝利"
+	}
+	pg.base.task_meta_data_template[100542] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970210",
+		id = 100542,
+		target_num = 1,
+		desc = "使用{namecode:553}擊破等級＞30的敵方1次"
+	}
+	pg.base.task_meta_data_template[100543] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970210",
+		id = 100543,
+		target_num = 1,
+		desc = "使用{namecode:553}擊破等級＞55的敵方1次"
+	}
+	pg.base.task_meta_data_template[100544] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970210",
+		id = 100544,
+		target_num = 1,
+		desc = "使用{namecode:553}擊破等級＞80的敵方1次"
+	}
+	pg.base.task_meta_data_template[100545] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970210",
+		id = 100545,
+		target_num = 1,
+		desc = "使用{namecode:553}擊破等級＞100的敵方1次"
+	}
+	pg.base.task_meta_data_template[100531] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970211",
+		id = 100531,
+		target_num = 1,
+		desc = "使用{namecode:552}獲得1次勝利"
+	}
+	pg.base.task_meta_data_template[100532] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970211",
+		id = 100532,
+		target_num = 1,
+		desc = "使用{namecode:552}擊破等級＞30的敵方1次"
+	}
+	pg.base.task_meta_data_template[100533] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970211",
+		id = 100533,
+		target_num = 1,
+		desc = "使用{namecode:552}擊破等級＞55的敵方1次"
+	}
+	pg.base.task_meta_data_template[100534] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970211",
+		id = 100534,
+		target_num = 1,
+		desc = "使用{namecode:552}擊破等級＞80的敵方1次"
+	}
+	pg.base.task_meta_data_template[100535] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970211",
+		id = 100535,
+		target_num = 1,
+		desc = "使用{namecode:552}擊破等級＞100的敵方1次"
+	}
+	pg.base.task_meta_data_template[100561] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970605",
+		id = 100561,
+		target_num = 1,
+		desc = "使用{namecode:556}獲得1次勝利"
+	}
+	pg.base.task_meta_data_template[100562] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970605",
+		id = 100562,
+		target_num = 1,
+		desc = "使用{namecode:556}擊破等級＞30的敵方1次"
+	}
+	pg.base.task_meta_data_template[100563] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970605",
+		id = 100563,
+		target_num = 1,
+		desc = "使用{namecode:556}擊破等級＞55的敵方1次"
+	}
+	pg.base.task_meta_data_template[100564] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970605",
+		id = 100564,
+		target_num = 1,
+		desc = "使用{namecode:556}擊破等級＞80的敵方1次"
+	}
+	pg.base.task_meta_data_template[100565] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970605",
+		id = 100565,
+		target_num = 1,
+		desc = "使用{namecode:556}擊破等級＞100的敵方1次"
+	}
 	pg.base.task_meta_data_template[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -3608,6 +3755,8 @@ end)()
 		target_num = 1,
 		desc = "大型作戰內使用{namecode:522}擊破等級＞100的敵方1次"
 	}
+end)()
+(function ()
 	pg.base.task_meta_data_template[200111] = {
 		target_id = "0",
 		sub_type = 302,
@@ -3728,8 +3877,6 @@ end)()
 		target_num = 1,
 		desc = "大型作戰內使用基洛夫·META擊破等級＞90的敵方1次"
 	}
-end)()
-(function ()
 	pg.base.task_meta_data_template[200144] = {
 		target_id = "100",
 		sub_type = 302,
@@ -4410,6 +4557,8 @@ end)()
 		target_num = 1,
 		desc = "大型作戰內使用{namecode:300}·META擊破等級＞100的敵方1次"
 	}
+end)()
+(function ()
 	pg.base.task_meta_data_template[200361] = {
 		target_id = "0",
 		sub_type = 302,
@@ -4530,8 +4679,6 @@ end)()
 		target_num = 1,
 		desc = "大型作戰內使用{namecode:551}擊破等級＞90的敵方1次"
 	}
-end)()
-(function ()
 	pg.base.task_meta_data_template[200394] = {
 		target_id = "100",
 		sub_type = 302,
@@ -4635,5 +4782,101 @@ end)()
 		id = 200434,
 		target_num = 1,
 		desc = "大型作戰內使用甘古特·META擊破等級＞100的敵方1次"
+	}
+	pg.base.task_meta_data_template[200451] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970210",
+		id = 200451,
+		target_num = 1,
+		desc = "大型作戰內使用{namecode:553}獲得1次勝利"
+	}
+	pg.base.task_meta_data_template[200452] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970210",
+		id = 200452,
+		target_num = 1,
+		desc = "大型作戰內使用{namecode:553}擊破等級＞70的敵方1次"
+	}
+	pg.base.task_meta_data_template[200453] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970210",
+		id = 200453,
+		target_num = 1,
+		desc = "大型作戰內使用{namecode:553}擊破等級＞90的敵方1次"
+	}
+	pg.base.task_meta_data_template[200454] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970210",
+		id = 200454,
+		target_num = 1,
+		desc = "大型作戰內使用{namecode:553}擊破等級＞100的敵方1次"
+	}
+	pg.base.task_meta_data_template[200441] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970211",
+		id = 200441,
+		target_num = 1,
+		desc = "大型作戰內使用{namecode:552}獲得1次勝利"
+	}
+	pg.base.task_meta_data_template[200442] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970211",
+		id = 200442,
+		target_num = 1,
+		desc = "大型作戰內使用{namecode:552}擊破等級＞70的敵方1次"
+	}
+	pg.base.task_meta_data_template[200443] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970211",
+		id = 200443,
+		target_num = 1,
+		desc = "大型作戰內使用{namecode:552}擊破等級＞90的敵方1次"
+	}
+	pg.base.task_meta_data_template[200444] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970211",
+		id = 200444,
+		target_num = 1,
+		desc = "大型作戰內使用{namecode:552}擊破等級＞100的敵方1次"
+	}
+	pg.base.task_meta_data_template[200471] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970605",
+		id = 200471,
+		target_num = 1,
+		desc = "大型作戰內使用{namecode:556}獲得1次勝利"
+	}
+	pg.base.task_meta_data_template[200472] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970605",
+		id = 200472,
+		target_num = 1,
+		desc = "大型作戰內使用{namecode:556}擊破等級＞70的敵方1次"
+	}
+	pg.base.task_meta_data_template[200473] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970605",
+		id = 200473,
+		target_num = 1,
+		desc = "大型作戰內使用{namecode:556}擊破等級＞90的敵方1次"
+	}
+	pg.base.task_meta_data_template[200474] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970605",
+		id = 200474,
+		target_num = 1,
+		desc = "大型作戰內使用{namecode:556}擊破等級＞100的敵方1次"
 	}
 end)()

@@ -58,7 +58,64 @@ slot0.GenerateData = function(slot0)
 	return slot1
 end
 
-slot2 = function(slot0, slot1)
+slot0.Ctor = function(slot0, slot1, slot2)
+	slot0._spinePaintingData = slot1
+	slot0._loadSpineDic = {}
+	slot0._loadUIDic = {}
+	slot0._initCallback = {}
+	slot0.loadSheets = {}
+	slot0._visible = true
+
+	parallelAsync({
+		function (slot0)
+			slot1 = uv0._spinePaintingData
+			slot1 = slot1:GetShipName()
+			slot2, slot3 = HXSet.autoHxShift("spinepainting/", slot1)
+			slot4 = slot2 .. slot3
+			slot5 = PoolMgr.GetInstance()
+
+			slot5:GetSpinePainting(slot1, true, function (slot0)
+				uv0._loadSpineDic[uv1] = slot0
+
+				uv0:init(slot0)
+				uv2()
+			end)
+		end,
+		function (slot0)
+			if uv0._spinePaintingData.bgEffectName ~= nil then
+				slot2 = PoolMgr.GetInstance()
+
+				slot2:GetUI(slot1, true, function (slot0)
+					uv0._loadUIDic[uv1] = slot0
+
+					uv0:initBgEffect(slot0)
+					uv2()
+				end)
+			else
+				slot0()
+			end
+		end
+	}, function ()
+		setActive(uv0._spinePaintingData.parent, true)
+		setActive(uv0._spinePaintingData.effectParent, true)
+
+		uv0._initFlag = true
+
+		uv0:updateLink()
+
+		for slot3, slot4 in ipairs(uv0._initCallback) do
+			slot4()
+		end
+
+		uv0._initCallback = {}
+
+		if uv1 then
+			uv1(uv0)
+		end
+	end)
+end
+
+slot0.init = function(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = tf(slot1)
 
@@ -122,11 +179,7 @@ slot2 = function(slot0, slot1)
 	slot0._slotAlphaTimer:Start()
 end
 
-slot0.getNormalIdleName = function(slot0)
-	return "normal"
-end
-
-slot3 = function(slot0, slot1)
+slot0.initBgEffect = function(slot0, slot1)
 	slot0._bgEffectGo = slot1
 	slot0._bgEffectTf = tf(slot1)
 
@@ -137,59 +190,12 @@ slot3 = function(slot0, slot1)
 	slot0._bgEffectTf.localPosition = slot0._spinePaintingData.bgEffectPos
 end
 
-slot0.Ctor = function(slot0, slot1, slot2)
-	slot0._spinePaintingData = slot1
-	slot0._loadSpineDic = {}
-	slot0._loadUIDic = {}
-	slot0._initCallback = {}
+slot0.getInitFlag = function(slot0)
+	return slot0._initFlag
+end
 
-	parallelAsync({
-		function (slot0)
-			slot1 = uv0._spinePaintingData
-			slot1 = slot1:GetShipName()
-			slot2, slot3 = HXSet.autoHxShift("spinepainting/", slot1)
-			slot4 = slot2 .. slot3
-			slot5 = PoolMgr.GetInstance()
-
-			slot5:GetSpinePainting(slot1, true, function (slot0)
-				uv0._loadSpineDic[uv1] = slot0
-
-				uv2(uv0, slot0)
-				uv3()
-			end)
-		end,
-		function (slot0)
-			if uv0._spinePaintingData.bgEffectName ~= nil then
-				slot2 = PoolMgr.GetInstance()
-
-				slot2:GetUI(slot1, true, function (slot0)
-					uv0._loadUIDic[uv1] = slot0
-
-					uv2(uv0, slot0)
-					uv3()
-				end)
-			else
-				slot0()
-			end
-		end
-	}, function ()
-		setActive(uv0._spinePaintingData.parent, true)
-		setActive(uv0._spinePaintingData.effectParent, true)
-
-		uv0._initFlag = true
-
-		uv0:updateLink()
-
-		for slot3, slot4 in ipairs(uv0._initCallback) do
-			slot4()
-		end
-
-		uv0._initCallback = {}
-
-		if uv1 then
-			uv1(uv0)
-		end
-	end)
+slot0.getNormalIdleName = function(slot0)
+	return "normal"
 end
 
 slot0.updateLink = function(slot0)
@@ -251,6 +257,8 @@ slot0.onUpdateLocal = function(slot0)
 end
 
 slot0.SetVisible = function(slot0, slot1)
+	slot0._visible = slot1
+
 	if slot0._spinePaintingData.effectParent then
 		setActive(slot0._spinePaintingData.effectParent, slot1)
 	end
@@ -288,10 +296,11 @@ slot0.SetVisible = function(slot0, slot1)
 	slot0:playPaintingInitIdle()
 	slot0:playPaintingInitSkin()
 	slot0:updateLink()
-end
 
-slot0.getInitFlag = function(slot0)
-	return slot0._initFlag
+	if not slot1 then
+		slot0:unloadCueSheet()
+		pg.CriMgr.GetInstance():DisposePaintingBgm()
+	end
 end
 
 slot0.playPaintingInitIdle = function(slot0)
@@ -311,7 +320,7 @@ slot0.playPaintingInitIdle = function(slot0)
 
 	if slot2 then
 		slot0:setIdleName(slot2)
-		slot0:SetAction(slot0._idleName, 0, true)
+		slot0:SetActionWithFinishCallback(slot0._idleName, 0, nil, true, nil)
 
 		slot0.inAction = false
 	end
@@ -467,62 +476,63 @@ slot0.doDragAction = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot3.change_idle
 	slot6 = slot3.fold
 	slot7 = slot3.effect_hide
-	slot8 = slot3.cv
-	slot9 = slot3.alpha_data and slot3.alpha_data or nil
-	slot10 = slot3.skin_change and slot3.skin_change or nil
-	slot11 = slot3.clear_track and slot3.clear_track or nil
-	slot12 = nil
-
-	if type(slot3.action) == "string" then
-		slot12 = slot3.action
-	elseif type(slot3.action) == "table" then
-		slot12 = slot3.action[math.random(1, #slot3.action)]
-	end
-
+	slot8 = slot3.action_cv
+	slot9 = slot3.finish_cv
+	slot10 = slot3.alpha_data and slot3.alpha_data or nil
+	slot11 = slot3.skin_change and slot3.skin_change or nil
+	slot12 = slot3.clear_track and slot3.clear_track or nil
 	slot13 = nil
 
+	if type(slot3.action) == "string" then
+		slot13 = slot3.action
+	elseif type(slot3.action) == "table" then
+		slot13 = slot3.action[math.random(1, #slot3.action)]
+	end
+
+	slot14 = nil
+
 	if type(slot3.event) == "string" then
-		slot13 = slot3.event
+		slot14 = slot3.event
 	elseif type(slot3.event) == "table" then
-		slot13 = slot3.event[math.random(1, #slot3.event)]
+		slot14 = slot3.event[math.random(1, #slot3.event)]
 	end
 
 	if slot1 == SpinePaintingConst.drag_type_normal then
-		if slot9 and #slot9 > 0 then
-			for slot17, slot18 in ipairs(slot9) do
-				slot19 = slot18[1]
-				slot20 = slot18[2]
-				slot21 = slot18[3]
-				slot22 = slot0:getSlotAlpha(slot19)
+		if slot10 and #slot10 > 0 then
+			for slot18, slot19 in ipairs(slot10) do
+				slot20 = slot19[1]
+				slot21 = slot19[2]
+				slot22 = slot19[3]
+				slot23 = slot0:getSlotAlpha(slot20)
 
-				if not slot0:getStepSlotAlha(slot19) and slot22 then
-					slot23, slot24 = nil
+				if not slot0:getStepSlotAlha(slot20) and slot23 then
+					slot24, slot25 = nil
 
-					for slot28, slot29 in ipairs(slot20) do
-						if math.abs(slot22 - slot29) <= 0.1 then
-							slot24 = slot28 + 1
+					for slot29, slot30 in ipairs(slot21) do
+						if math.abs(slot23 - slot30) <= 0.1 then
+							slot25 = slot29 + 1
 						end
 
-						if slot24 == slot28 then
-							slot23 = slot29
+						if slot25 == slot29 then
+							slot24 = slot30
 						end
 					end
 
-					if slot23 or slot20[1] then
-						slot0:setStepSlotAlpha(slot19, slot23, slot21)
+					if slot24 or slot21[1] then
+						slot0:setStepSlotAlpha(slot20, slot24, slot22)
 					end
 				end
 			end
 		end
 
-		slot15 = slot3.material_time and slot3.material_time or nil
+		slot16 = slot3.material_time and slot3.material_time or nil
 
 		if slot3.material and slot3.material or nil then
 			if LeanTween.isTweening(go(slot0._tf)) then
 				return false
 			end
 
-			slot0:getSpineMaterial(slot14, function (slot0)
+			slot0:getSpineMaterial(slot15, function (slot0)
 				uv0._skeletonGraphic.material = slot0
 
 				if uv1 then
@@ -535,19 +545,19 @@ slot0.doDragAction = function(slot0, slot1, slot2, slot3, slot4)
 			end)
 		end
 
-		if slot11 and #slot11 > 0 then
-			for slot19, slot20 in ipairs(slot11) do
-				slot0:SetEmptyAction(slot20)
+		if slot12 and #slot12 > 0 then
+			for slot20, slot21 in ipairs(slot12) do
+				slot0:SetEmptyAction(slot21)
 			end
 		end
 
-		if slot12 and slot12 ~= "" and slot0:checkActionPlayAble(slot12, false, 0) then
+		if slot13 and slot13 ~= "" and slot0:checkActionPlayAble(slot13, false, 0) then
 			if slot6 then
 				pg.m02:sendNotification(NewMainMediator.HIDE_PANEL, true)
 			end
 
 			slot0:setEffectVisible(slot7, false)
-			slot0:SetActionWithFinishCallback(slot12, 0, function ()
+			slot0:SetActionWithFinishCallback(slot13, 0, function ()
 				if uv0 and uv0 ~= "" then
 					uv1:changeSkeletonSkin(uv0)
 				end
@@ -558,22 +568,13 @@ slot0.doDragAction = function(slot0, slot1, slot2, slot3, slot4)
 
 				uv1:changePaintingIdle(uv3 and uv3 or uv1:getIdleName())
 				uv1:setEffectVisible(uv4, true)
+
+				if uv5 and uv5 ~= "" then
+					uv1:PlayCv(uv5)
+				end
 			end, false, function ()
 				if uv0 and uv0 ~= "" then
-					slot0 = uv1._spinePaintingData.ship
-					slot0 = slot0:getSkinId()
-					slot1 = pg.CriMgr.GetCVBankName(ShipWordHelper.RawGetCVKey(slot0))
-					slot3 = uv0 .. "_" .. pg.ship_skin_template[slot0].group_index
-
-					print("try playing cv" .. slot1 .. ":" .. slot3)
-
-					slot4 = pg.CriMgr.GetInstance()
-
-					slot4:playCueSheetVoice(slot1, slot3, true, function (slot0)
-						if slot0 then
-							print("播放的语音长度为 = " .. slot0:GetLength())
-						end
-					end)
+					uv1:PlayCv(uv0)
 				end
 
 				if uv2 and type(uv2) == "string" and uv1._eventTriggerCall then
@@ -582,17 +583,17 @@ slot0.doDragAction = function(slot0, slot1, slot2, slot3, slot4)
 			end)
 		end
 
-		if not slot12 or slot12 == "" then
-			if slot10 and slot10 ~= "" then
-				slot0:changeSkeletonSkin(slot10)
+		if not slot13 or slot13 == "" then
+			if slot11 and slot11 ~= "" then
+				slot0:changeSkeletonSkin(slot11)
 			end
 
 			if slot5 and slot5 ~= "" then
 				slot0:changePaintingIdle(slot5)
 			end
 
-			if slot13 and type(slot13) == "string" and slot0._eventTriggerCall then
-				slot0._eventTriggerCall(slot13)
+			if slot14 and type(slot14) == "string" and slot0._eventTriggerCall then
+				slot0._eventTriggerCall(slot14)
 			end
 
 			return false
@@ -600,6 +601,23 @@ slot0.doDragAction = function(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	return true
+end
+
+slot0.PlayCv = function(slot0, slot1)
+	slot2 = slot0._spinePaintingData.ship
+	slot2 = slot2:getSkinId()
+	slot3 = pg.CriMgr.GetCVBankName(ShipWordHelper.RawGetCVKey(slot2))
+	slot5 = slot1 .. "_" .. pg.ship_skin_template[slot2].group_index
+
+	print("try playing cv" .. slot3 .. ":" .. slot5)
+
+	slot6 = pg.CriMgr.GetInstance()
+
+	slot6:playCueSheetVoice(slot3, slot5, true, function (slot0)
+		if slot0 then
+			print("播放的语音长度为 = " .. slot0:GetLength())
+		end
+	end)
 end
 
 slot0.changeSkeletonSkin = function(slot0, slot1)
@@ -882,6 +900,10 @@ slot0.SetActionWithFinishCallback = function(slot0, slot1, slot2, slot3, slot4, 
 				uv2()
 
 				uv2 = nil
+			elseif (string.match(slot0, "^bgm_") or string.match(slot0, "^bgmsingle_")) and uv1._visible then
+				slot2 = string.split(string.match(slot0, "^bgm_(.*)$") or string.match(slot0, "^bgmsingle_(.*)$"), "_")
+
+				pg.CriMgr.GetInstance():PlayPaintingBgm("se-skin", slot2[1] .. "_" .. slot2[2], string.match(slot0, "^bgm_(.*)$") and true or false, slot2[3] and tonumber(slot2[3]) or 1, Live2dConst.GetPaintingBgmVolume(uv1._spinePaintingData.ship:getSkinId()))
 			end
 		end)
 	end
@@ -971,6 +993,18 @@ slot0.getMultipFaceAction = function(slot0, slot1)
 	return slot1
 end
 
+slot0.unloadCueSheet = function(slot0)
+	if not slot0.loadSheets then
+		return
+	end
+
+	for slot4, slot5 in ipairs(slot0.loadSheets) do
+		pg.CriMgr.GetInstance():UnloadCueSheet(slot5)
+	end
+
+	slot0.loadSheets = {}
+end
+
 slot0.Dispose = function(slot0)
 	slot0._materialDic = {}
 
@@ -993,6 +1027,8 @@ slot0.Dispose = function(slot0)
 
 	slot0._loadSpineDic = {}
 	slot0._loadUIDic = {}
+
+	slot0:unloadCueSheet()
 
 	if slot0._go ~= nil then
 		uv0.Destroy(slot0._go)

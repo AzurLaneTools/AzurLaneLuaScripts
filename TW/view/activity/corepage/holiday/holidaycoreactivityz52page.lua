@@ -56,9 +56,7 @@ slot0.OnFirstFlush = function(slot0)
 			return
 		end
 
-		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY, {
-			id = uv0:getTargetID()
-		})
+		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.MALL_MAP)
 	end, SFX_PANEL)
 	setText(slot0.lock, i18n("20260514_story_unlock_tip"))
 end
@@ -66,14 +64,13 @@ end
 slot0.OnUpdateFlush = function(slot0)
 	slot0.curDay = slot0.activity.data3
 	slot0.enableSign = false
-	slot1 = slot0:isAllSigned()
 
-	setActive(slot0.btnSign, slot0:isTargetLocking() and not slot1)
+	setActive(slot0.btnSign, not slot0:isAllSigned())
 	setActive(slot0.btnLock, slot0:isTargetLocking() and slot1)
-	setActive(slot0.btnGo, not slot0:isTargetLocking() and slot1)
+	setActive(slot0.btnGo, not slot2 and slot1)
 
 	if not slot1 then
-		slot0.curTaskVO = slot0.taskProxy:getTaskById(slot0.taskGroup[slot0.curDay]) or slot0.taskProxy:getFinishTaskById(slot2)
+		slot0.curTaskVO = slot0.taskProxy:getTaskById(slot0.taskGroup[slot0.curDay]) or slot0.taskProxy:getFinishTaskById(slot3)
 		slot0.remain = math.max(math.min(slot0.activity:getDayIndex(), #slot0.taskGroup) - slot0.curDay, 0)
 
 		if slot0.curTaskVO:getTaskStatus() == 1 then
@@ -85,11 +82,11 @@ slot0.OnUpdateFlush = function(slot0)
 		setText(slot0.remainTimes, slot0.remain)
 	end
 
-	slot2 = slot0.enableSign and slot0.curDay - 1 or slot0.curDay
+	slot3 = slot0.enableSign and slot0.curDay - 1 or slot0.curDay
 
-	for slot6 = 1, slot2 do
-		setActive(slot0.prog[slot6].signed, slot6 <= slot2)
-		setActive(slot7.current, slot6 == slot2 and not slot1)
+	for slot7 = 1, slot3 do
+		setActive(slot0.prog[slot7].signed, slot7 <= slot3)
+		setActive(slot8.current, slot7 == slot3 and not slot1)
 	end
 
 	setActive(slot0.tipSign, slot0.enableSign)
@@ -109,7 +106,7 @@ slot0.createProg = function(slot0, slot1)
 end
 
 slot0.getTargetID = function(slot0)
-	return 50602
+	return 50619
 end
 
 slot0.isTargetLocking = function(slot0)

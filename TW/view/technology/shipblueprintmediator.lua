@@ -163,6 +163,7 @@ slot0.listNotificationInterests = function(slot0)
 		TaskProxy.TASK_ADDED,
 		TaskProxy.TASK_UPDATED,
 		TaskProxy.TASK_REMOVED,
+		TaskProxy.TASK_DELETE,
 		GAME.SUBMIT_TASK_DONE,
 		GAME.FINISH_SHIP_BLUEPRINT_DONE,
 		GAME.ITEM_LOCK_SHIP_BLUPRINT_DONE,
@@ -187,7 +188,7 @@ slot0.handleNotification = function(slot0, slot1)
 		slot0.viewComponent:clearSelected()
 		slot0.viewComponent:updateExchangeItems()
 		slot0.viewComponent:updateBuildInfo()
-	elseif slot2 == TaskProxy.TASK_ADDED or TaskProxy.TASK_UPDATED == slot2 or TaskProxy.TASK_REMOVED == slot2 then
+	elseif slot2 == TaskProxy.TASK_ADDED or TaskProxy.TASK_UPDATED == slot2 or TaskProxy.TASK_REMOVED == slot2 or TaskProxy.TASK_DELETE == slot2 then
 		slot0.viewComponent:setTaskVOs(getProxy(TaskProxy):getTasksForBluePrint())
 		slot0.viewComponent:updateTaskList()
 		slot0.viewComponent:updateTasksProgress()

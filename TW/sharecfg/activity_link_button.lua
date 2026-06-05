@@ -34,6 +34,7 @@ pg.activity_link_button.all = {
 	113,
 	114,
 	115,
+	117,
 	116,
 	121
 }
@@ -67,12 +68,15 @@ pg.activity_link_button.get_id_list_by_name = {
 	event_core = {
 		109,
 		114,
+		117,
 		116
 	},
 	event_core_2 = {
-		110,
 		113,
 		115
+	},
+	event_core_3 = {
+		110
 	},
 	event_dreamland = {
 		103
@@ -163,7 +167,7 @@ pg.base.activity_link_button = {}
 		order = 99
 	}
 	pg.base.activity_link_button[10] = {
-		param = "5802",
+		param = "50605",
 		name = "event_map",
 		text_pic = "text_event_map",
 		type = 0,
@@ -173,7 +177,7 @@ pg.base.activity_link_button = {}
 		order = 1,
 		time = {
 			"default",
-			5802
+			50605
 		}
 	}
 	pg.base.activity_link_button[11] = {
@@ -229,7 +233,7 @@ pg.base.activity_link_button = {}
 		group_id = 5,
 		order = 1,
 		param = {
-			"scene DOAReLink Island"
+			"holiday villa map"
 		}
 	}
 	pg.base.activity_link_button[21] = {
@@ -480,8 +484,8 @@ pg.base.activity_link_button = {}
 		}
 	}
 	pg.base.activity_link_button[110] = {
-		param = "AprilFoolDiscovery2026UI",
-		name = "event_core_2",
+		param = "AnniversaryNineCoreActivityUI",
+		name = "event_core_3",
 		text_pic = "text_event_core3",
 		type = 16,
 		pic = "event_core3",
@@ -490,7 +494,7 @@ pg.base.activity_link_button = {}
 		order = 2,
 		time = {
 			"default",
-			50493
+			50611
 		}
 	}
 	pg.base.activity_link_button[111] = {
@@ -524,16 +528,13 @@ pg.base.activity_link_button = {}
 	pg.base.activity_link_button[113] = {
 		param = "EighthAnniversaryJpCoreActivityUI",
 		name = "event_core_2",
+		time = "stop",
 		text_pic = "text_event_special",
 		type = 16,
 		pic = "event_special",
 		id = 113,
 		group_id = 1,
-		order = 1,
-		time = {
-			"default",
-			50118
-		}
+		order = 1
 	}
 	pg.base.activity_link_button[114] = {
 		param = "WinterFestival2025CoreActivityUI",
@@ -550,7 +551,7 @@ pg.base.activity_link_button = {}
 		}
 	}
 	pg.base.activity_link_button[115] = {
-		param = "OutPostCoreActivityUI",
+		param = "AnniversaryNineCoreActivityUI",
 		name = "event_core_2",
 		text_pic = "text_event_core2",
 		type = 16,
@@ -560,7 +561,21 @@ pg.base.activity_link_button = {}
 		order = 1,
 		time = {
 			"default",
-			51005
+			50619
+		}
+	}
+	pg.base.activity_link_button[117] = {
+		param = "GeZiURCoreActivityUI",
+		name = "event_core",
+		text_pic = "text_event_core3",
+		type = 16,
+		pic = "event_core3",
+		id = 117,
+		group_id = 1,
+		order = 1,
+		time = {
+			"default",
+			50608
 		}
 	}
 	pg.base.activity_link_button[116] = {

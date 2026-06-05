@@ -27,6 +27,15 @@ temp = function()
 			["·"] = {
 				["改"] = {
 					this = true
+				},
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
 				}
 			}
 		},
@@ -963,7 +972,18 @@ temp = function()
 		["根"] = {
 			["斯"] = {
 				["堡"] = {
-					this = true
+					this = true,
+					["·"] = {
+						M = {
+							E = {
+								T = {
+									A = {
+										this = true
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		},

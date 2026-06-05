@@ -20,6 +20,11 @@ temp = function()
 									}
 								}
 							}
+						},
+						["."] = {
+							["改"] = {
+								this = true
+							}
 						}
 					}
 				}
@@ -239,7 +244,18 @@ temp()
 temp = function()
 	uv0["易"] = {
 		["北"] = {
-			this = true
+			this = true,
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -401,6 +417,15 @@ temp = function()
 				},
 				["1"] = {
 					this = true
+				}
+			},
+			["2"] = {
+				["5"] = {
+					["0"] = {
+						["1"] = {
+							this = true
+						}
+					}
 				}
 			}
 		}

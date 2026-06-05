@@ -7,6 +7,7 @@ slot0.register = function(slot0)
 	slot0.groupListInCount = {}
 	slot0.nationToPoint = {}
 	slot0.ifShowRedPoint = false
+	slot0.isAnyTecCampStudying = false
 	slot0.techList = {}
 
 	slot0:on(64000, function (slot0)
@@ -320,6 +321,7 @@ end
 
 slot0.refreshRedPoint = function(slot0)
 	slot0.ifShowRedPoint = false
+	slot0.isAnyTecCampStudying = false
 
 	for slot4, slot5 in pairs(slot0.techList) do
 		if slot5.studyID ~= 0 then
@@ -328,6 +330,8 @@ slot0.refreshRedPoint = function(slot0)
 
 				return
 			else
+				slot0.isAnyTecCampStudying = true
+
 				return
 			end
 		end
@@ -366,6 +370,10 @@ slot0.isAnyTecCampCanGetAward = function(slot0)
 	end
 
 	return slot1
+end
+
+slot0.getAnyTecCampStudying = function(slot0)
+	return slot0.isAnyTecCampStudying
 end
 
 slot0.Ignore_TecCamp_Upgrade_Key = "Ignore_TecCamp_Upgrade_Key"

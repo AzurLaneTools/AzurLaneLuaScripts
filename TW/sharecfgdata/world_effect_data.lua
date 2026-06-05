@@ -9996,7 +9996,7 @@ _G.pg.base.world_effect_data[5414] = {
 	id = 5414,
 	autoactivate = 0,
 	effect_paramater = {
-		"看起來需要兩只艦隊才能啟動控制裝置……指揮另一支艦隊前往顯示出的第二處位置吧。"
+		"看起來需要兩隻艦隊才能啟動控制裝置……指揮另一支艦隊前往顯示出的第二處位置吧。"
 	},
 	autoflag = {}
 }

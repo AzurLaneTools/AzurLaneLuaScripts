@@ -629,11 +629,11 @@ pg.base.item_data_frame = {}
 	}
 	pg.base.item_data_frame[341] = {
 		name = "神聖盟約",
-		gain_by = "",
+		gain_by = "聖印前的同盟 ",
 		time_second = 0,
 		id = 341,
 		time_limit_type = 0,
-		desc = "通過後續活動獲得",
+		desc = "<color=#ffffff>「以劍為誓，以書為約，神聖之盟，生死與共」</color>\n「聖印前的同盟」活動獲取",
 		scene = {}
 	}
 	pg.base.item_data_frame[401] = {

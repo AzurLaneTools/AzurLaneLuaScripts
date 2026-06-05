@@ -361,7 +361,7 @@ slot0.timeCall = function(slot0)
 						slot4 = "config_data"
 
 						for slot4, slot5 in ipairs(uv0:getConfig(slot4)) do
-							slot0:removeTaskById(slot5)
+							slot0:deleteTaskById(slot5)
 						end
 					end
 				})

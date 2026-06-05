@@ -91,6 +91,7 @@ slot0.didEnter = function(slot0)
 
 	slot0.closeCallBack = slot0.contextData.callback
 	slot0.skinId = slot0.contextData.skinId
+	slot0.isShop = slot0.contextData.is_shop
 
 	pg.UIMgr.GetInstance():BlurPanel(slot0.ad)
 
@@ -208,6 +209,8 @@ slot0.loadShowPaint = function(slot0, slot1, slot2, slot3)
 				end, true)
 			end
 
+			slot0:SetShopHx(uv0.isShop)
+
 			uv0.loading = false
 
 			uv1()
@@ -221,16 +224,25 @@ slot0.loadShowPaint = function(slot0, slot1, slot2, slot3)
 
 		slot8 = slot4:getPainting()
 
-		LoadPaintingPrefabAsync(slot0.paintingContainer, slot8, slot8, "mainNormal", function ()
+		LoadPaintingPrefabAsync(slot0.paintingContainer, slot8, slot8, "mainNormal", function (slot0)
 			uv0.loading = false
+
+			if not IsNil(findTF(slot0, "shop_hx")) and uv0.isShop then
+				setActive(slot1, HXSet.isHx())
+			end
 
 			uv1()
 		end)
 	elseif slot5 == MainPaintingView.STATE_L2D then
+		if not isActive(slot0.paintTf) then
+			SetActive(slot0.paintTf, true)
+		end
+
 		slot0.live2dChar = Live2DPainting.New(Live2DPainting.GenerateData({
 			ship = slot4,
 			position = Vector3(0, 0, -1),
-			parent = slot0.l2dContainner
+			parent = slot0.l2dContainner,
+			shopPreView = slot0.isShop
 		}), function (slot0)
 			uv0:updateL2dSortMode(slot0)
 			slot0:IgonreReactPos(true)

@@ -80,6 +80,7 @@ pg.equip_skin_theme_template.all = {
 	81,
 	82,
 	83,
+	84,
 	101,
 	102,
 	103,
@@ -1850,6 +1851,30 @@ pg.base.equip_skin_theme_template = {}
 			4363,
 			4364,
 			4365
+		}
+	}
+	pg.base.equip_skin_theme_template[84] = {
+		id = 84,
+		name = "璀璨珍寶",
+		ids = {
+			4366,
+			4367,
+			4368,
+			4369,
+			4370,
+			4371,
+			4372,
+			4373,
+			4374,
+			4375,
+			4376,
+			4377,
+			4378,
+			4379,
+			4380,
+			4381,
+			4382,
+			4383
 		}
 	}
 	pg.base.equip_skin_theme_template[101] = {

@@ -175,7 +175,7 @@ slot0.OwnMedal = function(slot0)
 	end
 
 	if slot2 <= 0 then
-		return true
+		return false
 	end
 
 	slot3 = pg.task_data_template[slot2].award_display

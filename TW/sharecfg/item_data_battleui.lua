@@ -22,7 +22,8 @@ pg.item_data_battleui.all = {
 	204,
 	205,
 	206,
-	207
+	207,
+	208
 }
 pg.base = pg.base or {}
 pg.base.item_data_battleui = {}
@@ -333,6 +334,23 @@ pg.base.item_data_battleui = {}
 		desc = "將客棧的喧鬧與暖意融入介面，在煙火燈籠與爆竹聲中，進行一場別開生面的新春對決吧。",
 		id = 207,
 		icon = "207",
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
+	}
+	pg.base.item_data_battleui[208] = {
+		name = "奢夢浮金",
+		key = "SkinElite_20260520",
+		display_icon = "ui_208",
+		unlock = "奢夢浮金戰鬥主題禮包獲取",
+		is_unlock = 1,
+		rare = 4,
+		desc = "金色的流光勾勒出星星的輪廓，璀璨的鑽石鑲嵌於按鍵之間，讓每一次交鋒都如同置身於奢華夢境。",
+		id = 208,
+		icon = "208",
 		scene = {},
 		rare_display = {
 			1,

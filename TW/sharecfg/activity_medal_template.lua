@@ -129,7 +129,22 @@ pg.activity_medal_template.all = {
 	5048205,
 	5048206,
 	5048207,
-	5048208
+	5048208,
+	5060701,
+	5060702,
+	5060703,
+	5060704,
+	5060705,
+	5060706,
+	5060707,
+	5060708,
+	5061601,
+	5061602,
+	5061603,
+	5061604,
+	5061605,
+	5061606,
+	5061607
 }
 pg.activity_medal_template.get_id_list_by_group = {
 	[5711] = {
@@ -290,6 +305,25 @@ pg.activity_medal_template.get_id_list_by_group = {
 		5048206,
 		5048207,
 		5048208
+	},
+	[50607] = {
+		5060701,
+		5060702,
+		5060703,
+		5060704,
+		5060705,
+		5060706,
+		5060707,
+		5060708
+	},
+	[50616] = {
+		5061601,
+		5061602,
+		5061603,
+		5061604,
+		5061605,
+		5061606,
+		5061607
 	}
 }
 pg.base = pg.base or {}
@@ -1821,5 +1855,185 @@ end)()
 		activity_medal_name = "紀念貼紙：漫遊者徽章",
 		id = 5048208,
 		medal_asset = "ActivityMedal/5048208"
+	}
+	pg.base.activity_medal_template[5060701] = {
+		activity_medal_desc = "神聖聯合帝國，既「神聖」又「聯合」的「帝國」",
+		next_medal = 0,
+		item = 65921,
+		remake_task_id = 0,
+		group = 50607,
+		prefab_node = "1",
+		task_id = 21925,
+		activity_medal_name = "紀念貼紙：神聖聯合帝國",
+		id = 5060701,
+		medal_asset = "ActivityMedal/5060701"
+	}
+	pg.base.activity_medal_template[5060702] = {
+		activity_medal_desc = "「越界實驗NO1：登臨者」——「開始攀升」",
+		next_medal = 0,
+		item = 65922,
+		remake_task_id = 0,
+		group = 50607,
+		prefab_node = "2",
+		task_id = 21926,
+		activity_medal_name = "紀念貼紙：通天高塔",
+		id = 5060702,
+		medal_asset = "ActivityMedal/5060702"
+	}
+	pg.base.activity_medal_template[5060703] = {
+		activity_medal_desc = "外部訪客傭兵團，出擊！",
+		next_medal = 0,
+		item = 65923,
+		remake_task_id = 0,
+		group = 50607,
+		prefab_node = "3",
+		task_id = 21927,
+		activity_medal_name = "紀念貼紙：傭兵團指揮官",
+		id = 5060703,
+		medal_asset = "ActivityMedal/5060703"
+	}
+	pg.base.activity_medal_template[5060704] = {
+		activity_medal_desc = "神之所視，念及所至",
+		next_medal = 0,
+		item = 65924,
+		remake_task_id = 0,
+		group = 50607,
+		prefab_node = "4",
+		task_id = 21928,
+		activity_medal_name = "紀念貼紙：聖座的象徵",
+		id = 5060704,
+		medal_asset = "ActivityMedal/5060704"
+	}
+	pg.base.activity_medal_template[5060705] = {
+		activity_medal_desc = "欲戴皇冠，必承其重",
+		next_medal = 0,
+		item = 65925,
+		remake_task_id = 0,
+		group = 50607,
+		prefab_node = "5",
+		task_id = 21929,
+		activity_medal_name = "紀念貼紙：皇帝的象徵",
+		id = 5060705,
+		medal_asset = "ActivityMedal/5060705"
+	}
+	pg.base.activity_medal_template[5060706] = {
+		activity_medal_desc = "黑日凌空，魍魎退散",
+		next_medal = 0,
+		item = 65926,
+		remake_task_id = 0,
+		group = 50607,
+		prefab_node = "6",
+		task_id = 21930,
+		activity_medal_name = "紀念貼紙：審判的象徵",
+		id = 5060706,
+		medal_asset = "ActivityMedal/5060706"
+	}
+	pg.base.activity_medal_template[5060707] = {
+		activity_medal_desc = "你凝視了深淵，而後在裡面遊了個痛快",
+		next_medal = 0,
+		item = 65927,
+		remake_task_id = 0,
+		group = 50607,
+		prefab_node = "7",
+		task_id = 21931,
+		activity_medal_name = "紀念貼紙：深潛",
+		id = 5060707,
+		medal_asset = "ActivityMedal/5060707"
+	}
+	pg.base.activity_medal_template[5060708] = {
+		activity_medal_desc = "神聖聯合帝國的爵位之一，至於其他的……你確定要了解嗎？",
+		next_medal = 0,
+		item = 65928,
+		remake_task_id = 0,
+		group = 50607,
+		prefab_node = "8",
+		task_id = 21932,
+		activity_medal_name = "紀念貼紙：自由騎士",
+		id = 5060708,
+		medal_asset = "ActivityMedal/5060708"
+	}
+	pg.base.activity_medal_template[5061601] = {
+		activity_medal_desc = "享夢浮金灣，等你來靠岸~",
+		next_medal = 0,
+		item = 65930,
+		remake_task_id = 0,
+		group = 50616,
+		prefab_node = "1",
+		task_id = 21935,
+		activity_medal_name = "紀念貼紙：享夢浮金灣",
+		id = 5061601,
+		medal_asset = "ActivityMedal/5061601"
+	}
+	pg.base.activity_medal_template[5061602] = {
+		activity_medal_desc = "據說對著它許願的話，夢想能成真哦~",
+		next_medal = 0,
+		item = 65931,
+		remake_task_id = 0,
+		group = 50616,
+		prefab_node = "2",
+		task_id = 21936,
+		activity_medal_name = "紀念貼紙：浮金珍寶",
+		id = 5061602,
+		medal_asset = "ActivityMedal/5061602"
+	}
+	pg.base.activity_medal_template[5061603] = {
+		activity_medal_desc = "給我高高地長起來啊！",
+		next_medal = 0,
+		item = 65932,
+		remake_task_id = 0,
+		group = 50616,
+		prefab_node = "3",
+		task_id = 21937,
+		activity_medal_name = "紀念貼紙：衝破天際",
+		id = 5061603,
+		medal_asset = "ActivityMedal/5061603"
+	}
+	pg.base.activity_medal_template[5061604] = {
+		activity_medal_desc = "360度環繞採光，保障室內通透無死角！",
+		next_medal = 0,
+		item = 65933,
+		remake_task_id = 0,
+		group = 50616,
+		prefab_node = "4",
+		task_id = 21938,
+		activity_medal_name = "紀念貼紙：弧光穹頂",
+		id = 5061604,
+		medal_asset = "ActivityMedal/5061604"
+	}
+	pg.base.activity_medal_template[5061605] = {
+		activity_medal_desc = "鳥生的夢想是……到碼頭搞點薯條吧！",
+		next_medal = 0,
+		item = 65934,
+		remake_task_id = 0,
+		group = 50616,
+		prefab_node = "5",
+		task_id = 21939,
+		activity_medal_name = "紀念貼紙：尋夢海鷗",
+		id = 5061605,
+		medal_asset = "ActivityMedal/5061605"
+	}
+	pg.base.activity_medal_template[5061606] = {
+		activity_medal_desc = "曬太陽時瞇上這一下，真是愜意啊啾~~",
+		next_medal = 0,
+		item = 65935,
+		remake_task_id = 0,
+		group = 50616,
+		prefab_node = "6",
+		task_id = 21940,
+		activity_medal_name = "紀念貼紙：愜意啾~",
+		id = 5061606,
+		medal_asset = "ActivityMedal/5061606"
+	}
+	pg.base.activity_medal_template[5061607] = {
+		activity_medal_desc = "來了這裡，就別想空手而歸啦！",
+		next_medal = 0,
+		item = 65936,
+		remake_task_id = 0,
+		group = 50616,
+		prefab_node = "7",
+		task_id = 21941,
+		activity_medal_name = "紀念貼紙：浮金大廈",
+		id = 5061607,
+		medal_asset = "ActivityMedal/5061607"
 	}
 end)()

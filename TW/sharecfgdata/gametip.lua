@@ -9297,6 +9297,11 @@ _G.pg.base.gametip.ship_remould_warning_521024 = {
 }
 
 
+_G.pg.base.gametip.ship_remould_warning_403994 = {
+	tip = "此次改造作業後<color=#92fc63>【主炮底座+1】</color>\n主炮武器效率調整為120%\n是否確認繼續操作？"
+}
+
+
 _G.pg.base.gametip.word_soundfiles_download_title = {
 	tip = "語音包下載"
 }
@@ -12110,7 +12115,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "約克鎮II、北安普敦II、哈曼II  建造機率UP！"
+	tip = "格茨·馮·貝利欣根、莫里茨親王、Z15  建造機率UP！"
 }
 
 
@@ -36729,7 +36734,7 @@ _G.pg.base.gametip.help_starLightAlbum = {
  ※ 活動進行時，指揮官可在<color=#92fc63>活動頁面或回憶介面</color>透過指定入口進入「紀念貼紙」收集頁面；
  ※ 活動結束後指揮官將只能透過<color=#92fc63>回憶介面</color>指定入口進入「紀念貼紙」收集頁面；
  ※ 「紀念貼紙」可以通過完成對應活動任務獲取；
- ※ 獎勵領取介面將延長至4月22日24時；]]
+ ※ 獎勵領取介面將延長至7月1日24時；]]
 		}
 	}
 }
@@ -41748,6 +41753,453 @@ _G.pg.base.gametip["260514_story_title_en"] = {
 }
 
 
+_G.pg.base.gametip.mall_title = {
+	tip = "浮金灣"
+}
+
+
+_G.pg.base.gametip.mall_title_en = {
+	tip = "EVENT"
+}
+
+
+_G.pg.base.gametip.mall_point_name_type1 = {
+	tip = "城市地標"
+}
+
+
+_G.pg.base.gametip.mall_point_name_type2 = {
+	tip = "旅途紀行"
+}
+
+
+_G.pg.base.gametip.mall_point_name_type3 = {
+	tip = "同遊見聞"
+}
+
+
+_G.pg.base.gametip.mall_point_name_type4 = {
+	tip = "傾心旅伴"
+}
+
+
+_G.pg.base.gametip.mall_order_char_header = {
+	tip = "訂單發起者："
+}
+
+
+_G.pg.base.gametip.mall_order_need_attrs_header = {
+	tip = "需求店員屬性："
+}
+
+
+_G.pg.base.gametip.mall_order_btn_staff = {
+	tip = "分配店員"
+}
+
+
+_G.pg.base.gametip.mall_right_title_upgrade = {
+	tip = "購物中心總覽"
+}
+
+
+_G.pg.base.gametip.mall_round_header = {
+	tip = "回合數："
+}
+
+
+_G.pg.base.gametip.mall_level_header = {
+	tip = "購物中心等級："
+}
+
+
+_G.pg.base.gametip.mall_input_header = {
+	tip = "已提交享夢心情："
+}
+
+
+_G.pg.base.gametip.mall_summary_btn = {
+	tip = "享夢心情獲得情況"
+}
+
+
+_G.pg.base.gametip.mall_evaluate_title = {
+	tip = "經營結束  顧客評價"
+}
+
+
+_G.pg.base.gametip.mall_summary_title = {
+	tip = "營收狀況"
+}
+
+
+_G.pg.base.gametip.mall_floor_income_header = {
+	tip = "$1層收入"
+}
+
+
+_G.pg.base.gametip.mall_total_income_header = {
+	tip = "總收入"
+}
+
+
+_G.pg.base.gametip.mall_balance_header = {
+	tip = "剩餘享夢心情"
+}
+
+
+_G.pg.base.gametip.mall_open_title = {
+	tip = "經營中..."
+}
+
+
+_G.pg.base.gametip.mall_help = {
+	tip = {
+		{
+			info = [[
+<color=#92fc63>「奢華！享夢！浮金灣！」</color>活動說明
+
+<b>玩法說明</b>：
+ 1. 活動期間，指揮官可以為購物中心各樓層分配<color=#92fc63>「店員啾」</color>，以此提升對應樓層的服務評分。分配完畢後，點擊<color=#92fc63>「開始經營」</color>即可開啟活動，還可以查看各艦船對購物中心的評價，獲得<color=#92fc63>「享夢心情」</color>。
+ 2. 在經營活動之外，指揮官還可以接取並完成各位艦船發起的<color=#92fc63>「啾啾訂製」</color>訂單，分配店員啾完成訂單後，可解鎖指定艦船的<color=#92fc63>「傾心旅伴」</color>劇情，並獲得新<color=#92fc63>「店員啾」</color>，以及<color=#92fc63>「享夢心情」</color>等獎勵。
+ 3. 指揮官可以通過經營頁面右側的<color=#92fc63>「查看升級條件」</color>按鈕，來確認提升<color=#92fc63>「購物中心等級」</color>所需的各項要求。滿足對應要求後，即可提升等級，解鎖更多可經營樓層和<color=#92fc63>「啾啾訂製」</color>訂單，並提升<color=#92fc63>「享夢心情」</color>的獲取數量。
+
+<b>獎勵說明</b>：
+ 1. 活動期間，點擊經營頁面右側的<color=#92fc63>「查看經營獎勵」</color>按鈕，提交持有的<color=#92fc63>「享夢心情」</color>，可以兌換豐富獎勵。
+ 2. 對應<color=#92fc63>「享夢心情」</color>提交數量的獎勵檔位，將隨活動日期逐步解鎖。檔位未解鎖時無法領取對應的獎勵，也無法繼續進行經營活動。指揮官最快可以在06月09日解鎖並獲取全部<color=#92fc63>「享夢心情」</color>檔位獎勵。
+
+<b>活動時間</b>：
+2026.06.05~2026.06.25 維護，經營獎勵可領取時間延長至2026.07.01 24時
+]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.mall_floor_lock = {
+	tip = "樓層未解鎖"
+}
+
+
+_G.pg.base.gametip.mall_rank_close = {
+	tip = "歇業"
+}
+
+
+_G.pg.base.gametip.mall_rank_s = {
+	tip = "S"
+}
+
+
+_G.pg.base.gametip.mall_rank_a = {
+	tip = "A"
+}
+
+
+_G.pg.base.gametip.mall_rank_b = {
+	tip = "B"
+}
+
+
+_G.pg.base.gametip.mall_staff_in_floor = {
+	tip = "工作中"
+}
+
+
+_G.pg.base.gametip.mall_staff_in_order = {
+	tip = "訂製中"
+}
+
+
+_G.pg.base.gametip.mall_remove_floor_sure = {
+	tip = "該店員正在購物中心服務，是否確認將其分配到啾啾訂製中？"
+}
+
+
+_G.pg.base.gametip.mall_order_btn_doing = {
+	tip = "訂製中"
+}
+
+
+_G.pg.base.gametip.mall_order_btn_complete = {
+	tip = "完成訂單"
+}
+
+
+_G.pg.base.gametip.mall_input_btn = {
+	tip = "提交享夢心情"
+}
+
+
+_G.pg.base.gametip.mall_order_btn_start = {
+	tip = "開始製作"
+}
+
+
+_G.pg.base.gametip.mall_upgrade_title = {
+	tip = "購物中心等級提升！"
+}
+
+
+_G.pg.base.gametip.mall_right_title_summary = {
+	tip = "升級條件"
+}
+
+
+_G.pg.base.gametip.mall_change_floor_sure = {
+	tip = "該店員目前正在其他樓層，是否確認將其分配到本樓層？"
+}
+
+
+_G.pg.base.gametip.mall_change_order_sure = {
+	tip = "該店員目前正在啾啾訂製訂單，無法被分配到本層"
+}
+
+
+_G.pg.base.gametip.mall_award_can_get = {
+	tip = "可領取"
+}
+
+
+_G.pg.base.gametip.mall_award_get = {
+	tip = "已領取"
+}
+
+
+_G.pg.base.gametip.mall_order_wait_tip = {
+	tip = "下一批新訂單："
+}
+
+
+_G.pg.base.gametip.mall_order_unlock_lv_tip = {
+	tip = "提升營業等級以接取後續訂單"
+}
+
+
+_G.pg.base.gametip.mall_order_need_staff_header = {
+	tip = "需求店員數量："
+}
+
+
+_G.pg.base.gametip.mall_get_all_btn = {
+	tip = "全部領取"
+}
+
+
+_G.pg.base.gametip.mall_award_got = {
+	tip = "已領取"
+}
+
+
+_G.pg.base.gametip.loading_picture_lack = {
+	tip = "未開啟自訂過場圖"
+}
+
+
+_G.pg.base.gametip.loading_title = {
+	tip = "目前過場圖"
+}
+
+
+_G.pg.base.gametip.loading_start_set = {
+	tip = "開啟自訂設定"
+}
+
+
+_G.pg.base.gametip.loading_pic_chosen = {
+	tip = "已選擇圖片"
+}
+
+
+_G.pg.base.gametip.loading_pic_tip = {
+	tip = "目前修改未儲存，是否確認退出？"
+}
+
+
+_G.pg.base.gametip.loading_pic_max = {
+	tip = "已超過選擇上限"
+}
+
+
+_G.pg.base.gametip.loading_pic_min = {
+	tip = "至少需要1張圖"
+}
+
+
+_G.pg.base.gametip.loading_quit_tip = {
+	tip = "退出自訂模式後，將隨機選用系統預設過場圖，確認退出嗎？"
+}
+
+
+_G.pg.base.gametip.loading_set_tip = {
+	tip = "點選按鈕，可將圖片加入自訂過場圖列表"
+}
+
+
+_G.pg.base.gametip.loading_chosen_blank = {
+	tip = "暫無符合條件的圖片"
+}
+
+
+_G.pg.base.gametip.sort_minigame_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/sortgame_help1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/sortgame_help2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/sortgame_help3"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.AnniversaryNineCoreActivity_subtitle_1 = {
+	tip = "奢華！享夢！浮金灣！"
+}
+
+
+_G.pg.base.gametip.AnniversaryNineCoreActivity_subtitle_2 = {
+	tip = "行李箱大作戰！"
+}
+
+
+_G.pg.base.gametip.mall_unlock_date_tip = {
+	tip = "$1月$2日可繼續經營並解鎖下一階段獎勵"
+}
+
+
+_G.pg.base.gametip.mall_finished_all_tip = {
+	tip = "已領取所有獎勵"
+}
+
+
+_G.pg.base.gametip.memory_filter_option_1 = {
+	tip = "預設"
+}
+
+
+_G.pg.base.gametip.memory_filter_option_2 = {
+	tip = "進度"
+}
+
+
+_G.pg.base.gametip.memory_filter_option_3 = {
+	tip = "全部"
+}
+
+
+_G.pg.base.gametip.memory_filter_option_4 = {
+	tip = "可解鎖"
+}
+
+
+_G.pg.base.gametip.memory_filter_option_5 = {
+	tip = "已解鎖"
+}
+
+
+_G.pg.base.gametip.memory_filter_option_6 = {
+	tip = "角色未獲得"
+}
+
+
+_G.pg.base.gametip.memory_filter_title_1 = {
+	tip = "篩選"
+}
+
+
+_G.pg.base.gametip.memory_filter_title_2 = {
+	tip = "FILTER"
+}
+
+
+_G.pg.base.gametip.memory_goto = {
+	tip = "前往"
+}
+
+
+_G.pg.base.gametip.memory_unlock = {
+	tip = "點擊解鎖"
+}
+
+
+_G.pg.base.gametip.mall_char_lock = {
+	tip = "完成訂製訂單後解鎖"
+}
+
+
+_G.pg.base.gametip.mall_title_lock = {
+	tip = "提升購物中心等級後\n解鎖"
+}
+
+
+_G.pg.base.gametip.mall_continue_to_unlock = {
+	tip = "提升購物中心等級後解鎖"
+}
+
+
+_G.pg.base.gametip.GeZiURCoreActivityUI_subtitle_1 = {
+	tip = "聖印前的同盟"
+}
+
+
+_G.pg.base.gametip.GeZiURCoreActivityUI_subtitle_2 = {
+	tip = "深潛補給站"
+}
+
+
+_G.pg.base.gametip.GeZiURCoreActivityUI_subtitle_3 = {
+	tip = "UR兌換"
+}
+
+
+_G.pg.base.gametip.AnniversaryNineCoreActivityUI_subtitle_1 = {
+	tip = "慶典紀念簽到"
+}
+
+
+_G.pg.base.gametip.AnniversaryNineCoreActivityUI_subtitle_2 = {
+	tip = "特別慶典"
+}
+
+
+_G.pg.base.gametip.AnniversaryNineCoreActivityUI_subtitle_3 = {
+	tip = "動員指令"
+}
+
+
+_G.pg.base.gametip.anniversary_nine_main_page = {
+	tip = "紀念手冊"
+}
+
+
 _G.pg.base.gametip.AnniversaryNineCoreActivityUI_subtitle_6 = {
 	tip = "美好假日"
 }
@@ -41755,4 +42207,34 @@ _G.pg.base.gametip.AnniversaryNineCoreActivityUI_subtitle_6 = {
 
 _G.pg.base.gametip.Outpost_20260514_Detail = {
 	tip = "查看詳情"
+}
+
+
+_G.pg.base.gametip.mall_level_max = {
+	tip = "購物中心已達最高等級"
+}
+
+
+_G.pg.base.gametip.mall_staff_position_full_tip = {
+	tip = "分配失敗，已達店員數量上限"
+}
+
+
+_G.pg.base.gametip.mall_gold_input_success_tip = {
+	tip = "提交成功！"
+}
+
+
+_G.pg.base.gametip.mall_floor_all_empty_tip = {
+	tip = "請先為已解鎖的樓層分配店員"
+}
+
+
+_G.pg.base.gametip.mall_unlock_date_tip2 = {
+	tip = "$1月$2日解鎖"
+}
+
+
+_G.pg.base.gametip.mall_order_finished_all_tip = {
+	tip = "已完成所有啾啾訂製訂單"
 }

@@ -120,7 +120,8 @@ pg.backyard_theme_template.all = {
 	134,
 	135,
 	136,
-	137
+	137,
+	138
 }
 pg.base = pg.base or {}
 pg.base.backyard_theme_template = {}
@@ -5109,6 +5110,41 @@ end)()
 			337114,
 			337115,
 			337116
+		}
+	}
+	pg.base.backyard_theme_template[138] = {
+		Cfg_1 = 5,
+		name = "享受夢浮金灣",
+		desc = "漫步於璀璨燈火之間，盡情享受浮金灣的奢華與夢幻時光吧~",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 138,
+		id = 138,
+		icon = "shhthemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			338001,
+			338002,
+			338101,
+			338102,
+			338103,
+			338104,
+			338105,
+			338106,
+			338107,
+			338108,
+			338109,
+			338110,
+			338111,
+			338112,
+			338113,
+			338114,
+			338115
 		}
 	}
 end)()

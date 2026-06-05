@@ -2020,4 +2020,28 @@ end)()
 		actor_name = "野村香菜子",
 		code = 502
 	}
+	pg.base.voice_actor_CN[503] = {
+		actor_name = "明坂聰美",
+		code = 503
+	}
+	pg.base.voice_actor_CN[504] = {
+		actor_name = "小山内怜央",
+		code = 504
+	}
+	pg.base.voice_actor_CN[505] = {
+		actor_name = "降幡愛",
+		code = 505
+	}
+	pg.base.voice_actor_CN[506] = {
+		actor_name = "小笠原早紀",
+		code = 506
+	}
+	pg.base.voice_actor_CN[507] = {
+		actor_name = "谷口夢奈",
+		code = 507
+	}
+	pg.base.voice_actor_CN[508] = {
+		actor_name = "冬馬由美",
+		code = 508
+	}
 end)()

@@ -49,6 +49,8 @@ pg.pay_data_display.all = {
 	9012,
 	9013,
 	9014,
+	9016,
+	9017,
 	1305,
 	2022,
 	2023,
@@ -92,6 +94,9 @@ pg.pay_data_display.all = {
 	2075,
 	2076,
 	2078,
+	2079,
+	2080,
+	2081,
 	4001,
 	4002,
 	4003,
@@ -5434,6 +5439,274 @@ pg.base.pay_data_display = {}
 			}
 		}
 	}
+	pg.base.pay_data_display[9016] = {
+		picture = "fudai35",
+		name = "夏日禮盒（2026）",
+		type = 1,
+		second_text = "大量獎勵",
+		descrip = "可獲得一件角色換裝，2026鑽，和大量其他獎勵",
+		subject = "夏日禮盒（2026）",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 990,
+		descrip_extra = "*福袋將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.libao158",
+		extra_gem = 0,
+		id = 9016,
+		airijp_id = "com.yostarjp.azurlane.diamond203",
+		name_display = "夏日禮盒（2026）",
+		first_text = "隨機換裝和大量鑽石",
+		akashi_pick = 1,
+		skin_inquire_relation = 86227,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86227,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81235,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86227,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			}
+		}
+	}
+	pg.base.pay_data_display[9017] = {
+		picture = "fudai24",
+		name = "夏日禮盒（2025）·復刻",
+		type = 1,
+		second_text = "大量獎勵",
+		descrip = "可獲得一件角色換裝，2025鑽，和大量其他獎勵",
+		subject = "夏日禮盒（2025）·復刻",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 990,
+		descrip_extra = "*福袋將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.libao159",
+		extra_gem = 0,
+		id = 9017,
+		airijp_id = "com.yostarjp.azurlane.diamond204",
+		name_display = "夏日禮盒（2025）·復刻",
+		first_text = "隨機換裝和大量鑽石",
+		akashi_pick = 1,
+		skin_inquire_relation = 86213,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86213,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81213,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86213,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
+		}
+	}
 	pg.base.pay_data_display[1305] = {
 		picture = "battlepass_winter_1",
 		name = "春季特許巡遊憑證",
@@ -9102,6 +9375,269 @@ pg.base.pay_data_display = {}
 			}
 		}
 	}
+	pg.base.pay_data_display[2079] = {
+		picture = "ui9",
+		name = "奢夢浮金主題禮包",
+		type = 0,
+		second_text = "",
+		descrip = "可獲得戰鬥介面主題 奢夢浮金*1",
+		subject = "奢夢浮金主題禮包",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 390,
+		descrip_extra = "*禮包將會寄到信箱，請注意查收。",
+		limit_group = 109,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 0,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.ui27",
+		extra_gem = 0,
+		id = 2079,
+		airijp_id = "",
+		name_display = "奢夢浮金主題禮包",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				208,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				208,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	}
+	pg.base.pay_data_display[2080] = {
+		picture = "ui9",
+		name = "奢夢浮金主題禮包（基礎版） ",
+		type = 0,
+		second_text = "",
+		descrip = "可獲得戰鬥介面主題 奢夢浮金*1,1000物資",
+		subject = "奢夢浮金主題禮包（基礎版） ",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 390,
+		descrip_extra = "*禮包將會寄到信箱，請注意查收。",
+		limit_group = 109,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.ui28",
+		extra_gem = 0,
+		id = 2080,
+		airijp_id = "com.yostarjp.azurlane.ui25",
+		name_display = "奢夢浮金主題禮包（基礎版） ",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				208,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				208,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40080,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[2081] = {
+		picture = "ui9",
+		name = "奢夢浮金主題禮包（豪華版）",
+		type = 0,
+		second_text = "",
+		descrip = "可獲得戰鬥介面主題 奢夢浮金*1,3060鑽石",
+		subject = "奢夢浮金主題禮包（豪華版）",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 1320,
+		descrip_extra = "*禮包將會寄到信箱，請注意查收。",
+		limit_group = 109,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.ui29",
+		extra_gem = 0,
+		id = 2081,
+		airijp_id = "com.yostarjp.azurlane.ui26",
+		name_display = "奢夢浮金主題禮包（豪華版）",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				208,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				208,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40081,
+				1
+			}
+		}
+	}
 	pg.base.pay_data_display[4001] = {
 		picture = "TWAndroid_l",
 		name = "GP限時補給 ",
@@ -9890,6 +10426,8 @@ pg.base.pay_data_display = {}
 		limit_args = {},
 		drop_item = {}
 	}
+end)()
+(function ()
 	pg.base.pay_data_display[4008] = {
 		picture = "lihe3_l",
 		name = "福袋·I",
@@ -10475,8 +11013,6 @@ pg.base.pay_data_display = {}
 		limit_args = {},
 		drop_item = {}
 	}
-end)()
-(function ()
 	pg.base.pay_data_display[4013] = {
 		picture = "fudai6",
 		name = "新年福袋·I",
@@ -19991,6 +20527,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.pay_data_display[5007] = {
 		picture = "pack_day7",
 		name = "特賣禮包VII",
@@ -20421,8 +20959,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.pay_data_display[5015] = {
 		picture = "pack_day5",
 		name = "特賣禮包V",

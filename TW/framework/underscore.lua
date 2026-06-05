@@ -210,8 +210,8 @@ end
 slot0.funcs.reverse = function(slot0)
 	slot1 = {}
 
-	for slot5 in uv0.iter(slot0) do
-		table.insert(slot1, 1, slot5)
+	for slot5 = #slot0, 1, -1 do
+		table.insert(slot1, slot0[slot5])
 	end
 
 	return slot1

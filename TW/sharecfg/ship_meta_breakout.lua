@@ -84,6 +84,14 @@ pg.ship_meta_breakout.all = {
 	9702092,
 	9702093,
 	9702094,
+	9702101,
+	9702102,
+	9702103,
+	9702104,
+	9702111,
+	9702112,
+	9702113,
+	9702114,
 	9703011,
 	9703012,
 	9703013,
@@ -188,6 +196,10 @@ pg.ship_meta_breakout.all = {
 	9706042,
 	9706043,
 	9706044,
+	9706051,
+	9706052,
+	9706053,
+	9706054,
 	9707011,
 	9707012,
 	9707013,
@@ -1493,6 +1505,132 @@ pg.base.ship_meta_breakout = {}
 		level = 0,
 		weapon_ids = {}
 	}
+	pg.base.ship_meta_breakout[9702101] = {
+		breakout_view = "習得技能【逐光之焰·{namecode:423}】/全武器效率提高2%",
+		item2 = 21059,
+		pre_id = 0,
+		repair = 0,
+		gold = 500,
+		breakout_id = 9702102,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9702101,
+		item1 = 21059,
+		level = 10,
+		weapon_ids = {
+			80621
+		}
+	}
+	pg.base.ship_meta_breakout[9702102] = {
+		breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
+		item2 = 21059,
+		pre_id = 9702101,
+		repair = 0,
+		gold = 1500,
+		breakout_id = 9702103,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9702102,
+		item1 = 21059,
+		level = 30,
+		weapon_ids = {
+			106,
+			106
+		}
+	}
+	pg.base.ship_meta_breakout[9702103] = {
+		breakout_view = "【逐光之焰·{namecode:423}】升級/全武器效率提高5%",
+		item2 = 21059,
+		pre_id = 9702102,
+		repair = 0,
+		gold = 2500,
+		breakout_id = 9702104,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9702103,
+		item1 = 21059,
+		level = 70,
+		weapon_ids = {
+			80622
+		}
+	}
+	pg.base.ship_meta_breakout[9702104] = {
+		breakout_view = "無",
+		item2 = 21059,
+		pre_id = 9702103,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9702104,
+		item1 = 21059,
+		level = 0,
+		weapon_ids = {}
+	}
+	pg.base.ship_meta_breakout[9702111] = {
+		breakout_view = "習得技能【逐光之焰·{namecode:516}】/主炮效率提高5%",
+		item2 = 21058,
+		pre_id = 0,
+		repair = 0,
+		gold = 1000,
+		breakout_id = 9702112,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9702111,
+		item1 = 21058,
+		level = 10,
+		weapon_ids = {
+			80611
+		}
+	}
+	pg.base.ship_meta_breakout[9702112] = {
+		breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
+		item2 = 21058,
+		pre_id = 9702111,
+		repair = 0,
+		gold = 3000,
+		breakout_id = 9702113,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9702112,
+		item1 = 21058,
+		level = 30,
+		weapon_ids = {
+			106,
+			106
+		}
+	}
+	pg.base.ship_meta_breakout[9702113] = {
+		breakout_view = "【逐光之焰·{namecode:516}】升級/全武器效率提高5%",
+		item2 = 21058,
+		pre_id = 9702112,
+		repair = 0,
+		gold = 10000,
+		breakout_id = 9702114,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9702113,
+		item1 = 21058,
+		level = 70,
+		weapon_ids = {
+			80612
+		}
+	}
+	pg.base.ship_meta_breakout[9702114] = {
+		breakout_view = "無",
+		item2 = 21058,
+		pre_id = 9702113,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9702114,
+		item1 = 21058,
+		level = 0,
+		weapon_ids = {}
+	}
 	pg.base.ship_meta_breakout[9703011] = {
 		breakout_view = "習得技能【搖曳之火·特倫托】/主炮效率提高5%",
 		item2 = 21001,
@@ -1682,6 +1820,8 @@ pg.base.ship_meta_breakout = {}
 		level = 0,
 		weapon_ids = {}
 	}
+end)()
+(function ()
 	pg.base.ship_meta_breakout[9703041] = {
 		breakout_view = "習得技能【破敵之炬·威奇塔】/主炮效率提高5%",
 		item2 = 21001,
@@ -1808,8 +1948,6 @@ pg.base.ship_meta_breakout = {}
 		level = 0,
 		weapon_ids = {}
 	}
-end)()
-(function ()
 	pg.base.ship_meta_breakout[9703061] = {
 		breakout_view = "習得技能【逐光之焰·博爾扎諾】I/主炮效率提高5%",
 		item2 = 21001,
@@ -3214,6 +3352,75 @@ end)()
 		level = 0,
 		weapon_ids = {}
 	}
+	pg.base.ship_meta_breakout[9706051] = {
+		breakout_view = "習得技能【逐光之焰·{namecode:468}】所有轟炸機+1/戰鬥機效率提高5%",
+		item2 = 21001,
+		pre_id = 0,
+		repair = 0,
+		gold = 1000,
+		breakout_id = 9706052,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9706051,
+		item1 = 21061,
+		level = 10,
+		weapon_ids = {
+			60591,
+			54014
+		}
+	}
+	pg.base.ship_meta_breakout[9706052] = {
+		breakout_view = "機庫容量+1/所有戰鬥機+1/戰鬥機效率提高10%",
+		item2 = 21001,
+		pre_id = 9706051,
+		repair = 0,
+		gold = 3000,
+		breakout_id = 9706053,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9706052,
+		item1 = 21061,
+		level = 30,
+		weapon_ids = {
+			60591,
+			54014,
+			60592,
+			54014
+		}
+	}
+	pg.base.ship_meta_breakout[9706053] = {
+		breakout_view = "【逐光之焰·{namecode:468}】升級/所有艦載機+1/轟炸機效率提高10%",
+		item2 = 21001,
+		pre_id = 9706052,
+		repair = 0,
+		gold = 10000,
+		breakout_id = 9706054,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9706053,
+		item1 = 21061,
+		level = 70,
+		weapon_ids = {
+			60593,
+			54015,
+			60593,
+			54015
+		}
+	}
+	pg.base.ship_meta_breakout[9706054] = {
+		breakout_view = "無",
+		item2 = 21001,
+		pre_id = 9706053,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9706054,
+		item1 = 21061,
+		level = 0,
+		weapon_ids = {}
+	}
 	pg.base.ship_meta_breakout[9707011] = {
 		breakout_view = "習得技能【破敵之炬·{namecode:94}】/所有魚雷機+1/魚雷機效率提高5%",
 		item2 = 21001,
@@ -3283,6 +3490,8 @@ end)()
 		level = 0,
 		weapon_ids = {}
 	}
+end)()
+(function ()
 	pg.base.ship_meta_breakout[9707021] = {
 		breakout_view = "習得技能【破敵之炬·皇家方舟】/所有魚雷機+1/魚雷機效率提高3%",
 		item2 = 21002,
@@ -3490,8 +3699,6 @@ end)()
 		level = 0,
 		weapon_ids = {}
 	}
-end)()
-(function ()
 	pg.base.ship_meta_breakout[9707051] = {
 		breakout_view = "習得技能【搖曳之火·{namecode:97}】/所有轟炸機+1/轟炸機效率提高5%",
 		item2 = 21001,

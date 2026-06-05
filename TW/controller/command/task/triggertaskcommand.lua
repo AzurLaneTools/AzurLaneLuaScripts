@@ -11,7 +11,9 @@ slot0.execute = function(slot0, slot1)
 			getProxy(TaskProxy):addTask(Task.New({
 				id = uv0
 			}))
-			uv1:sendNotification(GAME.TRIGGER_TASK_DONE)
+			uv1:sendNotification(GAME.TRIGGER_TASK_DONE, {
+				taskId = uv0
+			})
 
 			if uv2 then
 				uv2(true)

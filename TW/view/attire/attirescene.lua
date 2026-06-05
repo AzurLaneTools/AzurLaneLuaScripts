@@ -25,13 +25,15 @@ slot0.init = function(slot0)
 		slot0.blurPanel:Find("adapt/left_length/frame/tagRoot/iconframe"),
 		slot0.blurPanel:Find("adapt/left_length/frame/tagRoot/chatframe"),
 		slot0.blurPanel:Find("adapt/left_length/frame/tagRoot/achievement"),
-		slot0.blurPanel:Find("adapt/left_length/frame/tagRoot/combatUI")
+		slot0.blurPanel:Find("adapt/left_length/frame/tagRoot/combatUI"),
+		slot0.blurPanel:Find("adapt/left_length/frame/tagRoot/loadingpic")
 	}
 	slot0.panels = {
 		AttireIconFramePanel.New(slot0._tf, slot0.event, slot0.contextData),
 		AttireChatFramePanel.New(slot0._tf, slot0.event, slot0.contextData),
 		AttireAchievementPanel.New(slot0._tf, slot0.event, slot0.contextData),
-		AttireCombatUIPanel.New(slot0._tf, slot0.event, slot0.contextData)
+		AttireCombatUIPanel.New(slot0._tf, slot0.event, slot0.contextData),
+		AttireLoadingPicPanel.New(slot0._tf, slot0.event, slot0.contextData)
 	}
 end
 

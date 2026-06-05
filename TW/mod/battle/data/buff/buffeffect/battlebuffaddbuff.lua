@@ -11,9 +11,9 @@ slot3.Ctor = function(slot0, slot1)
 end
 
 slot3.SetArgs = function(slot0, slot1, slot2)
-	slot0._level = slot2:GetLv()
 	slot3 = slot0._tempData.arg_list
 	slot0._buff_id = slot3.buff_id
+	slot0._level = slot3.buff_level or slot2:GetLv()
 	slot0._target = slot3.target or "TargetSelf"
 	slot0._time = slot3.time or 0
 	slot0._rant = slot3.rant or 10000

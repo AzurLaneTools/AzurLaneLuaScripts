@@ -190,6 +190,10 @@ pg.furniture_data_template.all = {
 	331,
 	332,
 	333,
+	335,
+	336,
+	337,
+	338,
 	100002,
 	100003,
 	100004,
@@ -3325,7 +3329,25 @@ pg.furniture_data_template.all = {
 	337113,
 	337114,
 	337115,
-	337116
+	337116,
+	338001,
+	338002,
+	338101,
+	338102,
+	338103,
+	338104,
+	338105,
+	338106,
+	338107,
+	338108,
+	338109,
+	338110,
+	338111,
+	338112,
+	338113,
+	338114,
+	338115,
+	338116
 }
 pg.furniture_data_template.get_id_list_by_themeId = {
 	[0] = {
@@ -3513,6 +3535,10 @@ pg.furniture_data_template.get_id_list_by_themeId = {
 		331,
 		332,
 		333,
+		335,
+		336,
+		337,
+		338,
 		100002,
 		100003,
 		100004,
@@ -6885,6 +6911,26 @@ pg.furniture_data_template.get_id_list_by_themeId = {
 		337114,
 		337115,
 		337116
+	},
+	[138] = {
+		338001,
+		338002,
+		338101,
+		338102,
+		338103,
+		338104,
+		338105,
+		338106,
+		338107,
+		338108,
+		338109,
+		338110,
+		338111,
+		338112,
+		338113,
+		338114,
+		338115,
+		338116
 	}
 }
 pg.furniture_data_template.get_id_list_by_tag = {
@@ -9042,7 +9088,22 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		337113,
 		337114,
 		337115,
-		337116
+		337116,
+		338101,
+		338102,
+		338103,
+		338104,
+		338105,
+		338106,
+		338107,
+		338108,
+		338109,
+		338110,
+		338111,
+		338112,
+		338113,
+		338114,
+		338115
 	},
 	{
 		1108,
@@ -9294,7 +9355,8 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		334002,
 		335002,
 		336002,
-		337002
+		337002,
+		338002
 	},
 	{
 		1001,
@@ -9414,7 +9476,8 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		334001,
 		335001,
 		336001,
-		337001
+		337001,
+		338001
 	},
 	{
 		1301,
@@ -9893,6 +9956,8 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		328,
 		329,
 		330,
+		336,
+		337,
 		100002,
 		100003,
 		100004,
@@ -10150,7 +10215,8 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		333119,
 		334123,
 		335119,
-		336115
+		336115,
+		338116
 	},
 	{
 		101,
@@ -10224,7 +10290,9 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		323,
 		331,
 		332,
-		333
+		333,
+		335,
+		338
 	}
 }
 pg.furniture_data_template.get_id_list_by_type = {
@@ -10347,7 +10415,8 @@ pg.furniture_data_template.get_id_list_by_type = {
 		334002,
 		335002,
 		336002,
-		337002
+		337002,
+		338002
 	},
 	{
 		120,
@@ -12494,7 +12563,20 @@ pg.furniture_data_template.get_id_list_by_type = {
 		337113,
 		337114,
 		337115,
-		337116
+		337116,
+		338101,
+		338103,
+		338104,
+		338105,
+		338106,
+		338107,
+		338108,
+		338109,
+		338110,
+		338111,
+		338113,
+		338115,
+		338116
 	},
 	{
 		1108,
@@ -12746,7 +12828,8 @@ pg.furniture_data_template.get_id_list_by_type = {
 		334001,
 		335001,
 		336001,
-		337001
+		337001,
+		338001
 	},
 	{
 		1101,
@@ -13419,6 +13502,9 @@ pg.furniture_data_template.get_id_list_by_type = {
 		331,
 		332,
 		333,
+		335,
+		336,
+		338,
 		100002,
 		100004,
 		100005,
@@ -13512,6 +13598,7 @@ pg.furniture_data_template.get_id_list_by_type = {
 		281,
 		282,
 		308,
+		337,
 		100003,
 		100008,
 		100021,
@@ -13551,7 +13638,10 @@ pg.furniture_data_template.get_id_list_by_type = {
 		316112,
 		316121,
 		317107,
-		323102
+		323102,
+		338102,
+		338112,
+		338114
 	},
 	{
 		46131
@@ -22815,6 +22905,260 @@ end)()
 		},
 		interAction_group = {}
 	}
+	pg.base.furniture_data_template[335] = {
+		can_rotate = 0,
+		describe = "仿照黑境中通天塔的樣式製作的微縮模型。——「聖印前的同盟」活動紀念",
+		gain_by = "聖印前的同盟",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "黑境之塔",
+		advice = 0,
+		id = 335,
+		tag = 8,
+		comfortable = 0,
+		icon = "gezixunzhangicon",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"gezixunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[336] = {
+		advice = 0,
+		name = "夢旅人睡床",
+		count = 1,
+		type = 7,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "daolanshuchuangicon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		id = 336,
+		comfortable = 0,
+		describe = "足不出「床」也能開啟旅行，在夢中輕鬆打卡各處地標景點~",
+		dorm_id = 0,
+		tag = 6,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"daolanshuchuang",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep1",
+						nil,
+						"sleep"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				},
+				{
+					{
+						"sleep1",
+						"sleep2",
+						"sleep3"
+					}
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[337] = {
+		advice = 0,
+		name = "溜溜代步箱",
+		count = 1,
+		type = 11,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "sanxiaoxinglixiangicon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		id = 337,
+		comfortable = 4,
+		describe = "解放雙腿，讓箱子帶你溜溜飛~",
+		dorm_id = 0,
+		tag = 6,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"sanxiaoxinglixiang",
+				"normal",
+				nil,
+				true
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit",
+						nil,
+						"sit"
+					}
+				},
+				{
+					[3] = {
+						"sit2",
+						"sit",
+						false,
+						true
+					}
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.8
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[338] = {
+		can_rotate = 0,
+		describe = "仿照浮金大廈（完整版）精心製作的微縮模型，旨在紀念眾人齊心協力尋回珍寶的珍貴歷程。",
+		gain_by = "奢華！享夢！浮金灣！",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "浮金大廈微縮模型",
+		advice = 0,
+		id = 338,
+		tag = 8,
+		comfortable = 0,
+		icon = "fujindashaxunzhangicon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"fujindashaxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
 	pg.base.furniture_data_template[100002] = {
 		advice = 0,
 		name = "友情的打氣筒",
@@ -23634,6 +23978,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[100013] = {
 		advice = 0,
 		name = "魔豆之樹 ",
@@ -23925,8 +24271,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[100017] = {
 		can_rotate = 0,
 		describe = "月亮出來了嗎？",
@@ -29401,6 +29745,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[2302] = {
 		can_rotate = 0,
 		describe = "不知道是誰的手筆，但是很神奇的會讓人平靜下來",
@@ -29553,8 +29899,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[3001] = {
 		can_rotate = 0,
 		describe = "這種黑色地板的優勢在於不用經常打掃也不會顯得很髒",
@@ -33663,6 +34007,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[8204] = {
 		can_rotate = 0,
 		describe = "喝酒必備零嘴！",
@@ -33815,8 +34161,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[8304] = {
 		can_rotate = 0,
 		describe = "桶裝酒儲藏處",
@@ -37982,6 +38326,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[13001] = {
 		can_rotate = 0,
 		describe = "深紫色的地板，似乎有些地方好像還有什麼東西凝固乾涸的樣子",
@@ -38186,8 +38532,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[13103] = {
 		can_rotate = 0,
 		describe = "小小的木凳，感覺年代久遠",
@@ -42497,6 +42841,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[17002] = {
 		can_rotate = 0,
 		describe = "一富士,二鷹,三茄子。今年有做個好夢嗎？",
@@ -42678,8 +43024,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[17104] = {
 		can_rotate = 0,
 		describe = "重櫻風格的石燈籠",
@@ -47281,6 +47625,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[22002] = {
 		can_rotate = 0,
 		describe = "花紋中透著皇家獨有的優雅",
@@ -47515,8 +47861,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[22104] = {
 		can_rotate = 0,
 		describe = "被用作茶几的皮質行李箱",
@@ -52275,6 +52619,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[27109] = {
 		can_rotate = 0,
 		describe = "躺椅專用的遮陽傘",
@@ -52457,8 +52803,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[27113] = {
 		can_rotate = 0,
 		describe = "西瓜形狀的躺椅，看起來就很涼快的樣子",
@@ -56958,6 +57302,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[30001] = {
 		can_rotate = 0,
 		describe = "七彩色牆壁，夢幻至極",
@@ -57132,8 +57478,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[30103] = {
 		can_rotate = 0,
 		describe = "是時候展現自己了！",
@@ -61598,6 +61942,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[35302] = {
 		can_rotate = 0,
 		describe = "深夜的明月",
@@ -61744,8 +62090,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[37101] = {
 		can_rotate = 0,
 		describe = "裝飾華麗的聖誕商店，裡面是賣禮物的嗎？",
@@ -66033,6 +66377,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[39303] = {
 		can_rotate = 0,
 		describe = "祈福吉祥的掛簾，應該一對一起掛才是",
@@ -66185,8 +66531,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[39307] = {
 		can_rotate = 0,
 		describe = "可以看到窗外的庭院，怡人的風也能吹進室內",
@@ -70543,6 +70887,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[44119] = {
 		can_rotate = 0,
 		describe = "等待下一班…公車…？",
@@ -70721,8 +71067,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[44123] = {
 		advice = 0,
 		name = "雷雨雲",
@@ -74704,6 +75048,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[48106] = {
 		can_rotate = 0,
 		describe = "要不要為您畫一張畫像呢？",
@@ -74869,8 +75215,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[48110] = {
 		can_rotate = 1,
 		describe = "薩丁風情海鮮披薩，熱賣中！",
@@ -79084,6 +79428,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[52101] = {
 		can_rotate = 0,
 		describe = "裡面藏著什麼呢~進去之前可要做好心理準備哦~",
@@ -79274,8 +79620,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[52105] = {
 		can_rotate = 1,
 		describe = "開始今夜的狂歡吧~",
@@ -83529,6 +83873,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[58113] = {
 		can_rotate = 0,
 		describe = "呼…泡個澡，辭舊迎新啾!",
@@ -83739,8 +84085,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[58301] = {
 		can_rotate = 0,
 		describe = "頗有古意的木窗",
@@ -87895,6 +88239,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[62107] = {
 		can_rotate = 0,
 		describe = "反射出夢幻般色彩的河流",
@@ -88047,8 +88393,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[62111] = {
 		can_rotate = 0,
 		describe = "願你也能得到鳶尾的祝福",
@@ -92328,6 +92672,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[69114] = {
 		can_rotate = 0,
 		describe = "診療所裡隨處可見的座椅，坐上去感覺有點硬。",
@@ -92506,8 +92852,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[69118] = {
 		advice = 0,
 		name = "X光機器",
@@ -97031,6 +97375,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[73105] = {
 		can_rotate = 0,
 		describe = "塞滿了各種聖誕小物件",
@@ -97197,8 +97543,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[73109] = {
 		can_rotate = 0,
 		describe = "能收到好多好多的禮物就好了",
@@ -101395,6 +101739,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[77104] = {
 		can_rotate = 0,
 		describe = "掛滿霧凇，彷彿換上冬日銀裝的樹。",
@@ -101561,8 +101907,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[77108] = {
 		can_rotate = 0,
 		describe = "不知道能不能釣到魚…",
@@ -105740,6 +106084,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[81119] = {
 		can_rotate = 0,
 		describe = "打開課本第六十六頁啾！",
@@ -105934,8 +106280,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[81132] = {
 		advice = 0,
 		name = "教學啾",
@@ -110295,6 +110639,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[85001] = {
 		can_rotate = 0,
 		describe = "歡迎光臨！點菜…還是要老樣子嗎？",
@@ -110441,8 +110787,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[85103] = {
 		can_rotate = 0,
 		describe = "獨自而座，不如相鄰為伴",
@@ -114445,6 +114789,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[89102] = {
 		can_rotate = 0,
 		describe = "又軟又舒服~",
@@ -114621,8 +114967,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[89106] = {
 		can_rotate = 0,
 		describe = "花紋簡約的地毯。",
@@ -118554,6 +118898,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[93001] = {
 		can_rotate = 0,
 		describe = "炎炎夏日的清涼樂園！",
@@ -118700,8 +119046,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[93103] = {
 		can_rotate = 0,
 		describe = "在最大的浪尖起舞！",
@@ -122826,6 +123170,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[96106] = {
 		can_rotate = 1,
 		describe = "今天的推薦菜單是——",
@@ -122991,8 +123337,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[96112] = {
 		can_rotate = 0,
 		describe = "熱情洋溢的生命氣息！",
@@ -127289,6 +127633,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[99121] = {
 		can_rotate = 0,
 		describe = "供個人獨享的小溫泉池。",
@@ -127493,8 +127839,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[99128] = {
 		advice = 0,
 		name = "火山溫泉",
@@ -132175,6 +132519,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[302301] = {
 		can_rotate = 0,
 		describe = "發出讓人放鬆的柔和光芒",
@@ -132327,8 +132673,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[303001] = {
 		can_rotate = 0,
 		describe = "開啟溫泉街的奇妙之夜！",
@@ -136545,6 +136889,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[306106] = {
 		can_rotate = 0,
 		describe = "啾！是VIP座位！",
@@ -136724,8 +137070,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[306110] = {
 		can_rotate = 0,
 		describe = "柔軟的單人座椅",
@@ -141304,6 +141648,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[311101] = {
 		can_rotate = 0,
 		describe = "不用客氣，請儘管享用吧！",
@@ -141480,8 +141826,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[311105] = {
 		can_rotate = 0,
 		describe = "這樣就不會曬傷了！",
@@ -146228,6 +146572,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[316116] = {
 		advice = 0,
 		name = "培養倉模型",
@@ -146424,8 +146770,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[316120] = {
 		can_rotate = 0,
 		describe = "它可以灑出水的話……那還需要幫它澆水嗎？",
@@ -150897,6 +151241,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[320305] = {
 		can_rotate = 0,
 		describe = "從這裡，可以看到很遠很遠…",
@@ -151055,8 +151401,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[321101] = {
 		can_rotate = 0,
 		describe = "樹蔭下是乘涼的好去處~",
@@ -155490,6 +155834,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[326104] = {
 		can_rotate = 0,
 		describe = "材料的共鳴範圍擴大",
@@ -155642,8 +155988,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[326108] = {
 		can_rotate = 0,
 		describe = "裡面裝著什麼呢？",
@@ -160141,6 +160485,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[331109] = {
 		can_rotate = 0,
 		describe = "穿梭於雲海，體驗空中艦的力量",
@@ -160306,8 +160652,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[331113] = {
 		can_rotate = 0,
 		describe = "可依需求自由移動拼接，靈活佈置休息區的便利組合沙發",
@@ -164913,6 +165257,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[336109] = {
 		advice = 0,
 		name = "指揮中心工作台",
@@ -165122,8 +165468,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[336113] = {
 		can_rotate = 0,
 		describe = "今天的指揮中心也很安全呢~",
@@ -166129,6 +166473,812 @@ end)()
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[338001] = {
+		can_rotate = 0,
+		describe = "漫步於璀璨燈火之間，盡情享受浮金灣的奢華與夢幻時光吧~",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "shh/dibanshh",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 138,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "享受夢浮金灣地板",
+		advice = 0,
+		tag = 4,
+		id = 338001,
+		icon = "dibanshhicon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[338002] = {
+		can_rotate = 0,
+		describe = "漫步於璀璨燈火之間，盡情享受浮金灣的奢華與夢幻時光吧~",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 138,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "享受夢浮金灣壁紙",
+		advice = 0,
+		id = 338002,
+		tag = 3,
+		comfortable = 4,
+		icon = "qiangbishhicon",
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbishh",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[338101] = {
+		advice = 0,
+		name = "浮金灣豪車",
+		count = 1,
+		type = 2,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "changpengcheshhicon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 138,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 2,
+		belong = 1,
+		canputon = 0,
+		id = 338101,
+		comfortable = 2,
+		describe = "一輛漆面完美的豪車，安靜地停在路邊",
+		dorm_id = 0,
+		tag = 1,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"changpengcheshhB",
+				"normal"
+			},
+			{
+				"changpengcheshhT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[338102] = {
+		can_rotate = 0,
+		describe = "滿載而歸啊啾~",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 138,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "浮金灣購物啾",
+		advice = 0,
+		id = 338102,
+		tag = 1,
+		comfortable = 2,
+		icon = "gouwujiushhicon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"gouwujiushh",
+				"normal",
+				{
+					"walk",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[338103] = {
+		can_rotate = 0,
+		describe = "巨幕商場流光溢彩，潮流好物盡在其中~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "shh/gouwuloufangshh",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 138,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "浮金灣巨幕商場",
+		advice = 0,
+		id = 338103,
+		tag = 1,
+		comfortable = 3,
+		icon = "gouwuloufangshhicon",
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[338104] = {
+		can_rotate = 0,
+		describe = "裙擺飄逸，奢華與浪漫交織，令人一見傾心~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "shh/gouwuloufang2shh",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 138,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "浮金灣時裝大廈",
+		advice = 0,
+		id = 338104,
+		tag = 1,
+		comfortable = 3,
+		icon = "gouwuloufang2shhicon",
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[338105] = {
+		can_rotate = 1,
+		describe = "流光溢彩的購物天堂，稀有好物聚集之地",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "shh/gouwulousanjiaoshh",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 138,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "浮金灣購物中心",
+		advice = 0,
+		id = 338105,
+		tag = 1,
+		comfortable = 4,
+		icon = "gouwulousanjiaoshhicon",
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[338106] = {
+		can_rotate = 0,
+		describe = "穹頂就在那裡，看到就不用擔心迷路~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 138,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "浮金灣穹頂商廈",
+		advice = 0,
+		id = 338106,
+		tag = 1,
+		comfortable = 3,
+		icon = "gouwulouyuanshhicon",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"gouwulouyuanshh",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[338107] = {
+		can_rotate = 0,
+		describe = "在河道上駐留的觀光船，供遊客從水上欣賞繁華景象",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 138,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "浮金灣觀光船",
+		advice = 0,
+		id = 338107,
+		tag = 1,
+		comfortable = 3,
+		icon = "guanguangchuanshhicon",
+		size = {
+			8,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"guanguangchuanshh",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[338108] = {
+		can_rotate = 0,
+		describe = "烤肉呀烤肉，有了你生活美好沒煩惱~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 138,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "浮金灣小吃攤",
+		advice = 0,
+		id = 338108,
+		tag = 1,
+		comfortable = 3,
+		icon = "kaoroutanshhicon",
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"kaoroutanshh",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[338109] = {
+		can_rotate = 0,
+		describe = "高度及膝的圍欄，區隔空間卻不遮擋視線",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "shh/langanshh",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 138,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "浮金灣分隔欄",
+		advice = 0,
+		id = 338109,
+		tag = 1,
+		comfortable = 1,
+		icon = "langanshhicon",
+		size = {
+			22,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[338110] = {
+		can_rotate = 0,
+		describe = "造型精緻的街燈，夜幕下散發出柔和而華美的光暈",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "shh/ludengshh",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 138,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "浮金灣街燈",
+		advice = 0,
+		id = 338110,
+		tag = 1,
+		comfortable = 1,
+		icon = "ludengshhicon",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[338111] = {
+		can_rotate = 0,
+		describe = "水柱隨音樂節奏起伏變幻，賞心悅目",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 138,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "浮金灣噴泉",
+		advice = 0,
+		id = 338111,
+		tag = 1,
+		comfortable = 3,
+		icon = "penquanshhicon",
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"penquanshh",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[338112] = {
+		can_rotate = 0,
+		describe = "下一站要去哪裡打卡呢啾~",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 138,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "浮金灣打卡啾",
+		advice = 0,
+		id = 338112,
+		tag = 1,
+		comfortable = 2,
+		icon = "sanbujiushhicon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"sanbujiushh",
+				"normal",
+				{
+					"walk",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[338113] = {
+		can_rotate = 0,
+		describe = "鐺~鐺~鐺~準備開啟美好購物時光了嗎？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 138,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "浮金灣時鐘塔",
+		advice = 0,
+		id = 338113,
+		tag = 1,
+		comfortable = 2,
+		icon = "shizhongtashhicon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shizhongtashh",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[338114] = {
+		can_rotate = 0,
+		describe = "新式直升機的玩具模型，隨時準備起飛！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 138,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "浮金灣直升機",
+		advice = 0,
+		id = 338114,
+		tag = 1,
+		comfortable = 1,
+		icon = "wurenjishhicon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wurenjishh",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[338115] = {
+		can_rotate = 0,
+		describe = "熱帶風情的棕櫚樹，在購物街投下一片清涼綠蔭",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 138,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "浮金灣棕櫚樹",
+		advice = 0,
+		id = 338115,
+		tag = 1,
+		comfortable = 2,
+		icon = "zonglvshushhicon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zonglvshushh",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[338116] = {
+		can_rotate = 0,
+		describe = "專為計程車設定的候車點，方便了滿載而歸的顧客",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 138,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "浮金灣乘車區 ",
+		advice = 0,
+		id = 338116,
+		tag = 7,
+		comfortable = 4,
+		icon = "chuzucheshhicon",
+		size = {
+			7,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chuzucheshh",
+				"normal"
+			}
 		},
 		interAction_group = {}
 	}

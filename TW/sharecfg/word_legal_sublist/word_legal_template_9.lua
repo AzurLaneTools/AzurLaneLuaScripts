@@ -241,6 +241,21 @@ temp = function()
 		},
 		["鶴"] = {
 			this = true
+		},
+		["吉"] = {
+			["娜"] = {
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -401,6 +416,12 @@ temp = function()
 				this = true
 			},
 			["3"] = {
+				this = true
+			},
+			["4"] = {
+				this = true
+			},
+			["5"] = {
 				this = true
 			},
 			["6"] = {

@@ -52,7 +52,8 @@ pg.activity_7_day_sign.all = {
 	83,
 	84,
 	91,
-	92
+	92,
+	101
 }
 pg.base = pg.base or {}
 pg.base.activity_7_day_sign = {}
@@ -1515,6 +1516,46 @@ pg.base.activity_7_day_sign = {}
 				8,
 				66019,
 				3
+			}
+		}
+	}
+	pg.base.activity_7_day_sign[101] = {
+		id = 101,
+		front_drops = {
+			{
+				2,
+				54050,
+				2
+			},
+			{
+				2,
+				20013,
+				2
+			},
+			{
+				2,
+				17003,
+				5
+			},
+			{
+				2,
+				42070,
+				2
+			},
+			{
+				2,
+				54006,
+				5
+			},
+			{
+				2,
+				54051,
+				1
+			},
+			{
+				2,
+				42076,
+				2
 			}
 		}
 	}

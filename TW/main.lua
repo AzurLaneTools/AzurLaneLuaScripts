@@ -217,9 +217,12 @@ PressBack = function()
 	end
 end
 
-slot3 = os.clock()
+slot4 = os.clock()
 
 seriesAsync({
+	function (slot0)
+		pg.ShaderMgr.GetInstance():Init(slot0)
+	end,
 	function (slot0)
 		require("HybridCLRConst")
 		Sandystar.HybridCLRTool.HybridCLRHelper.LoadPatchDLL(Application.streamingAssetsPath .. "/AssetBundles/hybridclr/patch/", HybridCLRConst.PatchDllList)
@@ -249,9 +252,6 @@ seriesAsync({
 		parallelAsync({
 			function (slot0)
 				pg.FontMgr.GetInstance():Init(slot0)
-			end,
-			function (slot0)
-				pg.ShaderMgr.GetInstance():Init(slot0)
 			end,
 			function (slot0)
 				pg.PoolMgr.GetInstance():Init(slot0)

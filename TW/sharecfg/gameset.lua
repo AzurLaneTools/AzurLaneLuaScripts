@@ -1967,7 +1967,7 @@ end)()
 	}
 	pg.base.gameset.skin_ticket = {
 		description = "",
-		key_value = 471
+		key_value = 706
 	}
 	pg.base.gameset.order_pt_max = {
 		key_value = 0,
@@ -4098,6 +4098,35 @@ end)()
 	pg.base.gameset.child2_rank_switch = {
 		description = "",
 		key_value = 1
+	}
+	pg.base.gameset.activity_mall_profit_factor = {
+		key_value = 0,
+		description = {
+			{
+				1,
+				1.2
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				0.8
+			},
+			{
+				4,
+				0
+			}
+		}
+	}
+	pg.base.gameset.new_gallery_id_list = {
+		description = "",
+		key_value = 0
+	}
+	pg.base.gameset.new_manga_id_list = {
+		description = "",
+		key_value = 0
 	}
 	pg.base.gameset.world_tip_typewriter = {
 		key_value = 0,
